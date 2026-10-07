@@ -109,6 +109,7 @@ For each item record: available? source/URL, format, licence, resolution, date, 
 - Plant trait databases: TRY, 3TF, BROT 2 (Mediterranean); gaps for root architecture and interception
 - Local plant constraints: pests and pathogens (red palm weevil, Xylella), native/invasive lists
 Store findings as a table in `databases/data_inventory.md` (or CSV).
+**Barcelona (current city):** `databases/data_inventory_barcelona.md` (heat + runoff items, constraints, gaps, site-selection logic).
 
 ## Papers already collected (in `papers/`)
 SylvCiT; Davey Tree Benefits Engine API usage; systematic review of cooling effects; urban ecohydrological model (vegetation, urban climate and hydrology); computational modeling for climate; coupling hydrological and microclimate models (evapotranspiration); landscape design of urban green space under climate change (review); Design with Water; standardized reporting need; role of urban forests in mitigating UHI; OSMnx new methods; BROT 2 trait database (Tavsanoglu and Pausas 2018); urban forests and nutrient removal from stormwater; urban forest and ecosystem services (water, heat, pollution); urban forests and climate change (Brasanac-Bosanac et al.); role and value of urban forests; Urban Forests CCRC.
