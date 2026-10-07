@@ -24,3 +24,6 @@ Thumbs.db
 
 # Raw downloads per city (open data + Resilience Atlas layers); re-created by scripts
 databases/*/raw/
+
+# osmnx HTTP cache
+cache/

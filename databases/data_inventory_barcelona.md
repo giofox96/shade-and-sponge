@@ -67,3 +67,14 @@ Caveats: (1) the heat layer is a 2015 *vulnerability* index (exposure + social s
 - LST limits: satellite surface temperature at ~10:30, under the canopy top, not pedestrian UTCI. Treat it as a screening signal only.
 
 ### F3. Decision (user, 8 Oct): **Porta**. Justification in `notes/site_selection.md`.
+
+### G. LiDAR extraction for Porta (8 Oct, `scripts/bcn_lidar_porta.py`)
+- Tiles 430586, 430587, 431586, 431587 (Territorial LiDAR v3.1, LAS 1.4, EPSG:25831), **flown 26 Sept 2021 (leaf-on)** from GPS time. Direct download pattern: `https://datacloud.icgc.cat/datacloud/lidar-territorial/laz_unzip/full10km<ID10K>/lidar-territorial-v3r1-full1km<ID1K>-2021-2023.laz`; tile grid `https://datacloud.icgc.cat/datacloud/lidar-territorial/json/lidar-territorial-tall.json`.
+- 29.2 M points in Porta + 30 m; class 12 (overlap strips, 35% of points) is unlabelled and used only for the gap fraction. Ground points cover 58% of 0.5 m cells before filling.
+- Outputs: DTM/CHM/building-height rasters (0.5 m, `raw/lidar/`), **2,600 of 2,825 trees with crown metrics** (92%), 745 buildings (median 16.8 m, p90 23.2 m), species summary `databases/barcelona/porta_species_lidar_summary.csv`, QA figure `notes/figures/porta_lidar_qa.png`.
+- Median height / crown diameter: *Platanus* 14.3 / 8.4 m (n=807), *Celtis australis* 9.5 / 4.6 m, *Melia* 9.8 / 8.4 m, *Jacaranda* 9.2 / 7.3 m, *Tipuana* 10.0 / 8.0 m, *Pyrus calleryana* 6.6 / 3.1 m, *Brachychiton* 8.3 / 4.3 m.
+- Limits: the crowns are watershed-segmented from inventory seeds (9 m max radius), so overlapping crowns are split approximately. The LAI proxy (gap fraction, k = 0.5) is uncalibrated and has a narrow range (1.9–2.9). Use it for ranking only, after checking against literature LAI.
+
+### H. Trait table (`scripts/build_trait_table.py` → `databases/traits/porta_trait_table.csv`)
+Top-20 Porta species + *Styphnolobium japonicum*; species-level values only, each with its source: LiDAR (this study), **BROT 2.0** (CC0, Figshare collection 3843841; leaf phenology, SLA, LDMC, P50, root depth, wood density), **3TF** (SLA, LDMC, WD, Nmass), **SylvCiT BDD** (drought/shade/flood tolerance), literature measurements. A `gaps` column lists what is missing per species.
+**Still to obtain (user actions):** i-Tree species list export (i-Tree Eco desktop → View → Species List: leaf persistence, leaf area/biomass relations, shading coefficients); TRY data request (try-db.org) for leaf phenology type, leaf area, wood vessel anatomy and leaf wettability of the palette.
