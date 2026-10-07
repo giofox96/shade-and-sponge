@@ -112,3 +112,19 @@ Next: Barcelona data feasibility for both themes (done: `databases/data_inventor
 _Original options considered:_
 - City: **Florence vs Barcelona**. They score 22 vs 23 in `notes/city_screening.md`; the deciding checks are listed there.
 - Scope: **dual** (more original, heavier) vs **runoff-only** (safer). A middle path is to build runoff-only first and add the UTCI objective after the 20 Oct feedback.
+
+---
+
+## 7. v4 (8 Oct): Barcelona, Porta (Nou Barris), heat + pluvial runoff
+Site justification: `notes/site_selection.md`. Primary user: a **computational designer working on the municipal street-tree replacement**, who needs species and placement options with quantified heat and runoff effects.
+
+**Problem statement.** Between 1956 and 2009, Barcelona's sealed surface grew from 45% to 72% of the municipality. About three storms a year exceed 60 mm/h in their first 20 minutes and flood streets where the sewer lacks capacity (Barcelona Resilience Atlas). The city also carries one of Europe's highest urban-heat-island mortality burdens (Iungman et al. 2023). Its street trees are about to change: the tree master plan caps any species at 15%, so a large share of the plane trees, today ~29% of street trees, will be replaced (municipal plan; press). In **Porta** (Nou Barris) both hazards overlap. 15% of its area is in the high flood-hazard classes (#13 of 72 neighbourhoods), its summer surfaces run 1.36 °C above the city median (#11), and 91% of its area is in the top heat-vulnerability class. It has 832 plane trees. The replacement species the city names (*Celtis*, *Melia*, *Pyrus calleryana*, *Jacaranda*, *Tipuana*, *Brachychiton*) already grow there, yet **none has a measured canopy-interception or cooling value** in the literature we reviewed. Replacement choices can therefore trade away cooling or rain interception without anyone noticing. Existing workflows either assess heat and runoff for fixed scenarios without species traits (Mannucci et al. 2025) or optimise trees for heat only (Shaamala et al. 2025; Peng et al. 2026). The most advanced trait-based recommender, SylvCiT, has its runoff module disabled (Nicol et al. 2026).
+
+**Research question.** In Porta, as plane trees are replaced under the city's tree plan, which replacement species and positions jointly reduce (a) pedestrian heat stress (UTCI at the peak summer hour along sun-exposed routes) and (b) event runoff volume from sealed street surfaces (1-, 2- and 10-year design storms from the PDISBA rainfall curves)? How large is the trade-off between the two, compared with the current trees, a like-for-like replacement with the city's named palette, and single-objective layouts?
+
+**Hypotheses.**
+- **H1 (synergy):** for the same number and size class of trees, trait-based layouts improve both UTCI and runoff volume over the like-for-like palette, because crown size and LAI drive both shading and interception.
+- **H2 (trade-off):** the heat-optimal and runoff-optimal layouts differ mainly in **species**, not positions: leaf habit (evergreen vs deciduous, given autumn storms vs summer heat) and transpiration capacity. The Pareto front is therefore not a single point.
+- **H3 (validity boundary):** the runoff benefit shrinks as the storm return period grows, and is small at the sewer design level (T = 10 yr). Extreme events like 6 Sept 2018 (≈300-yr 20-min intensity) are outside what trees can affect.
+
+**Test phase (later):** Sant Antoni (flood-dominant contrast site) and Florence (transfer case) run through the same method.

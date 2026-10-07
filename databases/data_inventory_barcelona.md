@@ -59,3 +59,11 @@ Overlay **B1 flood-prone areas** (Poblenou, Paral·lel–Sant Antoni–Raval, Di
 
 Caveats: (1) the heat layer is a 2015 *vulnerability* index (exposure + social sensitivity), not temperature. Next, check physical heat (LST, UrbClim or Infrared City UTCI). (2) The flood layer is a hazard index, not depth. (3) The equal weights are arbitrary, so check that the top neighbourhood is stable under ±weights. The Raval scores low on this flood index (4% high-hazard area), despite being named in the atlas text.
 **Run:** `~/miniconda3/envs/shade-and-sponge/python.exe scripts/bcn_site_screening.py`, with `<env>/Library/bin` on PATH (GDAL DLLs).
+
+### F2. Physical heat check and weight sensitivity (8 Oct, `scripts/bcn_heat_check.py`)
+- Summer daytime **LST anomaly** (Landsat 8/9 C2 L2, Microsoft Planetary Computer, 31 clear scenes, Jun–Aug 2022–2025, per-scene anomaly vs city median, then median): `databases/barcelona/raw/lst_summer_anomaly.tif`, map `notes/figures/bcn_lst_anomaly.png`.
+- Ranks for **Sant Antoni** out of 73 barris: flood hazard **#1**, plane density #6, heat vulnerability #19, **LST #39** (+0.28 °C; city median of barri means +0.30, 90th percentile +1.69). It is still #1 on the combined score with LST (0.81) and first in 54–60% of 1,000 random weightings (top-3 in 75–81%). **But it is a flood-led choice: its heat is average.** Plausible but untested: the dense plane canopy keeps its surfaces cool, which would make plane removal a heat risk.
+- Barris above the **60th percentile on flood, LST and plane density at once**: la Verneda i la Pau, **Porta** (also 91% in the top heat-vulnerability class; LST +1.36 °C), Vilapicina i la Torre Llobeta, el Camp de l'Arpa del Clot, Verdun, Navas. Above the median on all three: also **Provençals del Poblenou** (flood 27%, LST +0.47, 1,347 planes/km²) and el Congrés i els Indians.
+- LST limits: satellite surface temperature at ~10:30, under the canopy top, not pedestrian UTCI. Treat it as a screening signal only.
+
+### F3. Decision (user, 8 Oct): **Porta**. Justification in `notes/site_selection.md`.
