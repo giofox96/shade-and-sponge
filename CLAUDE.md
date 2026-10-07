@@ -17,8 +17,14 @@ Project (launch Claude Code here): `...\THESIS_MACAD\1_THESIS_PROJECT\`
 - Create only when needed (YAGNI): `notes/` (literature notes), `slides/`, `scripts/`
 - Literature workflow: `/lit-review` skill (`.claude/skills/lit-review/SKILL.md`) runs `scripts/search_papers.py` → `fetch_pdfs.py` → `digest_pdfs.py`. Outputs live in `notes/lit/` (`shortlist.csv`, `literature_matrix.csv`, `to_get_manually.md`). Synthesis is in `notes/topic_decision.md`
 - **Decided by the user (7 Oct):** city = **Barcelona only** for now (the user has worked on Barcelona projects; strong open data). Scope = **both themes, heat (UTCI) + pluvial runoff, before 20 Oct**: trait-based street-tree selection and placement in one Barcelona district that is both a heat and a pluvial-flood hotspot. Basis: `notes/topic_decision.md` §6, `notes/city_screening.md`. Species coverage: `scripts/species_coverage.py` -> `databases/barcelona/species_coverage.csv`
-- Git: private repo https://github.com/giofox96/shade-and-sponge (branch `main`). `.gitignore` excludes secrets, `papers/` and derived full text, and large raw downloads. Commit and push only when the user asks
-- Zotero: read-only MCP server `mcp-zotero` configured in `.mcp.json`. The key and user ID come from Windows user environment variables `ZOTERO_API_KEY` / `ZOTERO_USER_ID`. Never write them into files
+- Git: private repo https://github.com/giofox96/shade-and-sponge (branch `main`). `.gitignore` excludes secrets, `papers/` and derived full text, and large raw downloads. Commit and push only when the user asks, or inside an `/agent-task` run (see Agent workflow)
+- Zotero: read-only MCP server `mcp-zotero` configured in `.mcp.json`. The key and user ID come from Windows user environment variables `ZOTERO_API_KEY` / `ZOTERO_USER_ID`. Never write them into files. Works locally only (it starts via Windows `cmd`)
+
+## Agent workflow (set up 7 Oct; guide: `notes/agent_workflow.md`)
+- **Methodology status: NOT DEFINED.** Until the user changes this line to `DEFINED`, agents do research, data and analysis tasks only: no design-tool code (runoff/heat modules, optimiser, Grasshopper components).
+- Task board = GitHub Issues. `agent-ready` = an agent can do it alone; `needs-user` = waits for the user; `in-progress` = claimed. One issue → one `claude/*` branch → one PR. Agents never push to `main`; the user reviews and merges.
+- Runner: `/agent-task` skill. Subagents in `.claude/agents/`: `lit-scout`, `data-scout`, `method-critic`, `fact-checker` (run it on every diff before committing).
+- Cloud sessions have no `papers/`, no Zotero and no Rhino; Python deps come from `.claude/hooks/session-start.sh` (`requirements.txt`).
 
 ## Who and what
 - User: MaCAD student (Master in Advanced Computation for Architecture & Design, IAAC) developing the thesis.
@@ -61,7 +67,7 @@ The user also wants to start the **data search as early as possible** (data avai
 
 ## Open decisions
 - **Site/scale (decided 8 Oct): Porta (Nou Barris, Barcelona), 0.84 km².** Both hazards above the city 60th percentile; first among eligible neighbourhoods at the 50/60/70th percentiles. Justification: `notes/site_selection.md` (scripts `bcn_site_screening.py` → `bcn_heat_check.py` → `bcn_site_select.py`). Sant Antoni = flood-dominant contrast site; **Florence (then possibly Bologna) = later transfer/test case**. Current PS/RQ/H: `notes/topic_decision.md` §7 (v4)
-- **Methodology draft:** `notes/methodology.md` (runoff module, Ladybug Tier 1/Tier 2 heat module, NSGA-II, scenarios S0–S4, plan to 18 Dec).
+- **Methodology draft (not yet defined, user 7 Oct):** `notes/methodology.md` (runoff module, Ladybug Tier 1/Tier 2 heat module, NSGA-II, scenarios S0–S4, plan to 18 Dec).
 - **Python ↔ Grasshopper exchange:** `exchange/README.md` (local origin 430800, 4586800 in EPSG:25831; `to_gh/` from Claude, `from_gh/` from the user; GH Python read/write snippets). The user runs Ladybug; Claude never opens Rhino.
 - **Heat engine:** Infrared City (tutor is a co-founder; access to confirm), fallback/cross-check Ladybug Tools. Open questions in `notes/topic_decision.md` §6.4.
 - **Python env:** conda env `shade-and-sponge` (geopandas, matplotlib, requests) at `~/miniconda3/envs/shade-and-sponge`; put `<env>/Library/bin` on PATH when running GIS scripts.
