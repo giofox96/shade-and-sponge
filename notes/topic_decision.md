@@ -1,0 +1,110 @@
+# Topic decision: problem, research question, hypothesis (v2, 7 Oct 2026)
+
+> **Update v3 (same day):** a dual heat + runoff version was added in §6 after a second literature round (21 heat papers, rows #35–#55) and a city screening (`notes/city_screening.md`). §1–§5 below are the runoff-only v2, kept as the fallback.
+
+Inputs: 34 papers in `notes/lit/literature_matrix.csv` (13 read as full-text digests, 21 from abstracts only, marked there), plus `databases/data_inventory.md`.
+Citations below give author, year and the matrix row (#). Claims from abstracts only are marked (abs). **Still to do before 20 Oct:** read the full text of rows #3, #4, #10 and #18. These are the four that carry the argument.
+
+---
+
+## 1. What the literature says about the five known weaknesses
+
+| Weakness in v1 | Evidence | Consequence for v2 |
+|---|---|---|
+| **Flood type** | Florence: whole city exposed to pluvial and flash floods from the minor network and a ~800 km combined 19th-century sewer; hotspots in flat, highly sealed areas incl. historic centre, validated against historical pluvial events (Pacetti et al. 2022, #18). Emilia-Romagna May 2023: no hourly extremes, multi-day accumulation, return period >500 yr (Scoccimarro et al. 2025, #21). Bologna Oct 2024: 160–180 mm/24 h on saturated soils, culverted streams overflowed (Arpae report; see data inventory). Ravone culvert insufficient for intense events (Dottori et al. 2014, #20) | **Florence fits a pluvial framing; Bologna's recent events do not.** v2 names *urban pluvial flooding from frequent short storms* and explicitly excludes multi-day/fluvial events |
+| **Testability** ("significantly reduces", "extreme precipitation") | Tree effect is largest for short, low-intensity storms and falls with depth and intensity (Kuehler et al. 2016 #9 (abs); Anys & Weiler 2024 #1; Song et al. 2020 #12 (abs)). Catchment experiment: 4% runoff-volume reduction from 31 street trees, **no peak-flow effect** (Selbig et al. 2021 #10 (abs)). NbS effect decays with return period (Costa et al. 2021 #23; Esraz-Ul-Zannat et al. 2024 #32; Liu et al. 2026 #24 (abs)) | Metric = **event runoff volume** from sealed surfaces (not peak discharge). Storms = **local design storms of 2, 5, 10-yr return period, ≥1 h** (Tuscany LSPP grid; ≥1 h avoids the 15-min aggregation bias, Lompi et al. 2022 #19). Baseline and comparison defined (§4) |
+| **Traits vs biomass** | Interception differs strongly between species: storage capacity varies threefold among 20 species (Xiao et al. #3 (abs)); *Tilia cordata* 70% vs *Acer platanoides* 55% event interception (Anys & Weiler 2024 #1); *Quercus ilex* 46–51% vs *Q. pyrenaica* 10–16% (Hassan et al. 2017 #8 (abs)); birch 23% vs pine 45% (Zabret et al. 2019 #7 (abs)). LAI / leaf area density is the main driver (Anys & Weiler #1; Yang et al. 2019 #5 (abs); Baptista et al. 2018 #6 (abs)); full trait list in Dowtin et al. 2023 #4 (abs) | Supported for *interception*: species traits (storage capacity, LAI, leaf area density) matter, not just size. **Not** supported for roots: only two lab studies (#16, #17). v2 drops "deep root architecture" as a claim and keeps roots out of the scoring |
+| **Scope** | Florence offers hotspot maps (Pacetti #18), 1 m LiDAR, regional IDF grid, HSG 1:10,000 (used by Pacetti), 82k-tree inventory. NBS space in a hotspot district is only 0.1–7.1% of its area (Pacetti #18) | **One city (Florence), one scale (small catchment / district hotspot, ~0.5–2 km²), one intervention (street and square trees over sealed surfaces)** |
+| **User** | Tree-selection DSSs rarely include climate resilience (Yadav et al. 2024 #27 (abs)); stormwater guidelines select plants by native status, not traits (Rahmi et al. 2025 #26 (abs)); SylvCiT's runoff module is disabled (Nicol et al. 2026 #28) | Primary user = **computational designer / landscape architect in the early design phase**. The municipal planner is the secondary reader of the outputs |
+
+## 2. Candidate topics scored (1–5, CLAUDE.md criteria)
+
+| Option | Data (Italy) | Validation | Comp. depth | Scope vs 18 Dec | Interest / portfolio | **Total** |
+|---|---|---|---|---|---|---|
+| A. Trait-based species recommender only | 3 (interception data for ~10–20 species, roots ≈ none) | 2 (no hydrological outcome without a site) | 4 | 4 | 3 | 16 |
+| B. Site planting optimisation in Grasshopper (generic vegetation) | 4 | 3 | 4 | 3 | 5 | 19 |
+| **A→B narrowed: trait-parameterised street-tree selection and placement for a Florence pluvial hotspot** | **4** | **4** (interception module vs open field data #1; per-tree output vs #10/#11 benchmarks; hotspot vs #18) | **4** | **4** | **5** | **21** |
+| C. Diversity–hydrology–heat trade-off | 3 | 2 | 5 | 2 | 4 | 16 |
+| D. City-scale GI screening | 4 | 3 | 2 | 4 | 2 | 15 (and Pacetti #18 already did it for Florence) |
+| E. Early abstract (UHI + runoff + biodiversity + ML surrogates + i-Tree agent, web + CAD) | 3 | 1 | 5 | 1 | 5 | 15 |
+
+**Recommendation: the narrowed A→B topic.** It keeps what was interesting in the early abstract: Grasshopper, trees as attribute-rich components, runoff computed by SCS-CN. It drops what made the abstract unfinishable: three objectives, ML surrogates, a web app and an agent. The SCS-CN and interception calculation is instant, so the runoff part needs no surrogate. Heat (UTCI) stays an optional second objective only if time allows; Pace et al. 2025 (#13) gives the trade-off logic.
+
+**City: Florence.** This reverses the provisional "Bologna" reading in `databases/data_inventory.md`. Bologna's validation data (Oct 2024 flood extents) describes a mixed, culvert-driven event that trees cannot meaningfully affect. Fallback if Florence data access fails: Bologna Ravone catchment (Dottori et al. 2014 #20), framed as a flash-flood headwater.
+
+---
+
+## 3. v2 statements
+
+### Problem statement
+Florence is repeatedly hit by **urban pluvial floods**: short, intense storms exceed the infiltration capacity of sealed surfaces and the capacity of a ~800 km, largely 19th-century combined sewer. Hotspots lie in flat, highly sealed districts, including the historic centre (Pacetti et al. 2022). In these districts, less than ~7% of the area is available for bioretention-type solutions (Pacetti et al. 2022). Trees are therefore one of the few retrofits possible, because their canopy spreads over pavements without taking ground space.
+
+Trees do not all intercept the same amount of rain. Interception differs several-fold between species and is driven by measurable traits such as canopy storage capacity and leaf area index (Xiao et al. 2015; Anys & Weiler 2024; Dowtin et al. 2023). Yet street-tree choices and existing selection tools do not use these traits. Planting guidelines select species by origin or appearance (Rahmi et al. 2025). Tree-selection decision support rarely addresses climate adaptation (Yadav et al. 2024). The most advanced trait-based recommender, SylvCiT, has its runoff module still disabled (Nicol et al. 2026). Designers therefore cannot tell, at the design stage, how much runoff a given choice of species and positions will avoid in a flood-prone block.
+
+> Scope note (for the slide): the thesis addresses frequent, short-duration pluvial storms. It does **not** address river floods or multi-day events like Emilia-Romagna 2023 (return period >500 yr; Scoccimarro et al. 2025), where vegetation has negligible influence (Kuehler et al. 2016; Selbig et al. 2021).
+
+### Research question
+In a pluvial-flood hotspot catchment of Florence, how much event runoff volume from sealed surfaces can be avoided by street trees **selected and placed using species-specific interception traits** (canopy storage capacity, leaf area index) and the catchment's drainage geometry? The comparison is against (a) the existing tree stock and (b) a conventional planting palette with the same number of trees, under 2-, 5- and 10-year design storms of 1 h duration derived from the Tuscany rainfall-frequency (LSPP) grid.
+
+### Hypothesis
+**H1:** For the same number of new trees, trait-based selection and placement avoids more event runoff volume than the conventional palette. The reason: canopy interception scales with species-specific storage capacity and LAI, and placement over the sealed surfaces that drain to the hotspot maximises the intercepting area that matters.
+**H2 (validity boundary):** the advantage, in % of event runoff, decreases as the design-storm return period increases, because canopy storage saturates early in the event (Kuehler et al. 2016; Anys & Weiler 2024).
+*Test:* paired comparison of runoff volume per scenario and storm. The minimum difference counted as meaningful is set **before** the runs, after the baseline is computed (proposal: larger than the model's error against the field interception data in validation step 1). No threshold is invented here.
+
+---
+
+## 4. Methodology outline (data + tools)
+1. **Site:** select one hotspot sub-catchment from Pacetti et al. 2022 (PFI > 80) or near the historical pluvial flood locations Pacetti et al. used for validation. Delineate it from the 1 m LiDAR DTM.
+2. **Surfaces:** Copernicus imperviousness 10 m + municipal buildings/streets; HSG 1:10,000 (Tuscany Region) → SCS curve numbers.
+3. **Trees:** Florence inventory (82,226 trees: species, circumference); height and crown from LiDAR DSM−DTM; LAI from allometry or LiDAR.
+4. **Trait table:** species storage capacity, LAI and interception from the literature (#1, #3, #5, #6, #7, #8). Coverage of the top-20 Florence species is to be measured; gaps are filled by genus or leaf-type class and flagged.
+5. **Runoff engine (Python, then Grasshopper component):** canopy interception (storage-bucket or Gash-type, #8/#33) over each tree's crown projection on sealed surfaces → SCS-CN on the remainder → event runoff volume.
+6. **Selection + placement:** score candidate species (interception traits + local constraints: pests, invasiveness, drought tolerance from BROT 2) and place them on plantable pavement cells with a simple optimiser (greedy or NSGA-II, as in Liu et al. 2026).
+7. **Validation:** (i) interception module vs open Freiburg field data (Anys & Weiler 2024, FreiDok); (ii) per-tree and per-m² canopy results vs Selbig et al. 2021 / Coville et al. 2022 (6,376 L/tree; 64–66 L/m² canopy per leaf-on season); (iii) hotspot consistency vs Pacetti PFI.
+
+## 5. Open checks (before 20 Oct)
+- [ ] Get full text: Dowtin 2023 (#4), Xiao (#3, species list and values), Selbig 2021 (#10), Llorens et al. 2006 (Mediterranean partitioning review; abstract missing). See `notes/lit/to_get_manually.md`.
+- [x] Count species coverage: done for Florence and Barcelona, see `databases/*/species_coverage.csv` and §6.1.
+- [ ] Get full text of Llorens 2006 (Mediterranean rainfall partitioning): the most likely source for Quercus ilex / Pinus / evergreen interception values.
+- [ ] Confirm access to Tuscany HSG 1:10,000 and Pacetti's PFI map (ask authors?).
+- [ ] Ask tutor: is runoff volume only (no peak) acceptable as the metric?
+
+---
+
+## 6. v3 option: one method for BOTH heat stress and pluvial runoff
+
+### 6.1 Is a dual theme justified by the evidence?
+| Question | Evidence | Verdict |
+|---|---|---|
+| Do cities suffer both, in the same places? | Florence: pluvial hotspots in the flat, sealed centre (Pacetti 2022 #18); the hottest stations are also in the centre, with less green (Petralli, #49, to read). Barcelona: high UHI mortality (Iungman 2023 #35) and recurrent intense-rain flooding in dense districts (Barcelona Resilience Atlas). Mediterranean review confirms the dual exposure (Stavropoulos 2026 #54) | **Yes** (see `notes/city_screening.md`) |
+| Do the same tree traits drive both? | Interception rises with LAI / leaf area density (Anys & Weiler 2024 #1; Yang 2019 #5). Shade cooling rises with canopy density, LAI and crown width (Rahman 2019 #38 (abs); Speak 2020 #39 (abs); Helletsgruber 2020 #40) | **Partly shared**: LAI and crown size help both |
+| Where do they conflict? | (a) Leaf habit: evergreen crowns intercept in autumn–winter storms but block winter sun; seasonal LAI trade-off for comfort (Peng 2026 #53 (abs)). (b) Water: transpiration is the larger air-cooling term (Park 2026 #42) and needs soil water (Pace 2025 #13); diffuse-porous species such as Platanus transpire 2–3× ring-porous ones (Bachofen 2025 #43). (c) Surface material can matter more than species for surface temperature (Kaluarachchi 2020 #45 (abs)) | **Real trade-offs**, so a multi-objective method is needed rather than one score |
+| Is it already done? | Mannucci 2025 #51 (abs): Grasshopper + Ladybug + Kangaroo assess UTCI **and** runoff, but by scenario testing, with no species traits and no optimisation. Shaamala 2025 #52 (abs) and Peng 2026 #53 (abs) optimise species/placement for **heat only**. SylvCiT has neither (#28) | **Gap**: no method selects species *and* positions using measured traits for both objectives |
+| Is there trait data? | Florence top-30 species (80% of 82,226 trees): a species-level runoff or heat value exists for 19% of trees, both for 7%. Barcelona top-30 (91% of 140,404 street trees): 40% and 29% (Platanus alone 28.6%). **Celtis australis is #2 in both cities with no value at all**; Mediterranean evergreens (Cupressus, Quercus ilex for heat, Olea, Pinus pinea) are weakly covered (`databases/*/species_coverage.csv`) | **Usable with explicit gap-filling** (genus/leaf-habit classes + sensitivity analysis). The gap itself is a finding |
+
+### 6.2 Option scores (CLAUDE.md criteria, 1–5)
+| Option | Data | Validation | Comp. depth | Scope vs 18 Dec | Interest | Total |
+|---|---|---|---|---|---|---|
+| Runoff only (v2, §3) | 4 | 4 | 4 | 4 | 5 | 21 |
+| **Dual heat + runoff, one district** | 3 | 4 | 5 | 3 | 5 | **20** |
+| Heat only (UTCI) | 4 | 4 | 4 | 4 | 4 | 20 |
+
+Taken alone, the dual option is not "better". It is **more original** (it fills the Mannucci → Shaamala gap) but **heavier**: UTCI needs a radiation simulation for every layout. It is feasible only if (1) the site is one street/square cluster of a few hectares, (2) UTCI is evaluated at one or two design hours with Ladybug Tools, and (3) the optimiser runs on a fast proxy: shade-hours × crown LAI, or an ML surrogate trained on Ladybug runs. This is where the surrogate idea from the early abstract becomes justified, but only for the heat term.
+
+### 6.3 v3 statements (dual; city = Florence or Barcelona, to decide)
+
+**Problem statement.** Dense Mediterranean districts face two climate hazards in the same streets: summer heat stress, amplified by the urban heat island, and pluvial flooding from short, intense storms on sealed surfaces. In Florence both concentrate in the flat, highly sealed centre (Pacetti et al. 2022; Petralli et al.). Street trees are one of the few interventions that act on both: they shade and transpire, and they intercept rain over pavements. Their effect, though, depends on species traits. LAI and crown size help both objectives, while leaf habit and water demand create trade-offs (Rahman et al. 2019; Anys & Weiler 2024; Bachofen et al. 2025). Current design workflows either evaluate heat and runoff for fixed scenarios without species traits (Mannucci et al. 2025) or optimise trees for heat only (Shaamala et al. 2025; Peng et al. 2026). Designers therefore cannot see how species choice and placement trade pedestrian comfort against runoff reduction.
+
+**Research question.** In a district that is both a heat and a pluvial-flood hotspot, can a trait-based method that selects and places street trees find layouts that reduce pedestrian heat stress (UTCI at the peak summer hour) and event runoff volume (2-, 5-, 10-yr, 1-h design storms) at the same time? How large is the trade-off between the two objectives, compared with the existing trees, a conventional planting palette, and single-objective layouts?
+
+**Hypotheses.**
+- **H1 (synergy):** with the same number of trees, trait-based layouts improve both UTCI and runoff volume over the conventional palette, because LAI and crown size drive both shading and interception.
+- **H2 (trade-off):** heat-optimal and runoff-optimal layouts differ mainly in **species**, not positions: in leaf habit (evergreen vs deciduous) and transpiration capacity. The Pareto front between the two objectives is therefore not a single point.
+- **H3 (validity boundary):** the runoff benefit shrinks as the storm return period grows (as in v2 H2). The UTCI benefit is largest in sun-exposed pedestrian routes (Lachapelle et al. 2023).
+
+### 6.4 Decision (user, 7 Oct): **Barcelona**, **dual theme before 20 Oct**
+Next: Barcelona data feasibility for both themes, then choose one district where a heat hotspot and a flood-prone area overlap.
+
+_Original options considered:_
+- City: **Florence vs Barcelona**. They score 22 vs 23 in `notes/city_screening.md`; the deciding checks are listed there.
+- Scope: **dual** (more original, heavier) vs **runoff-only** (safer). A middle path is to build runoff-only first and add the UTCI objective after the 20 Oct feedback.

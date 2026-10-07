@@ -1,0 +1,23 @@
+# Secrets (keys live in Windows user environment variables, never in files)
+.env
+.env.*
+*.key
+*.pem
+.claude/settings.local.json
+
+# Copyrighted papers and text derived from them (Zotero is the source of truth)
+papers/
+notes/lit/text/
+notes/lit/digest/
+
+# Large raw downloads (re-downloaded by scripts) and third-party trait databases
+databases/*/arbrat_viari.csv
+databases/*/alberi.geojson
+databases/TRY_DATABASE/
+
+# Python / OS
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+Thumbs.db
+.DS_Store

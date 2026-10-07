@@ -1,0 +1,25 @@
+species,objective,measure,value,unit_or_note,source,matrix_row,read_level
+Tilia cordata,runoff,event canopy interception (mean of 76 events),70.3,% of gross rainfall; mean event 6.7 mm,Anys & Weiler 2024,1,full text digest
+Acer platanoides,runoff,event canopy interception (mean of 76 events),54.8,% of gross rainfall,Anys & Weiler 2024,1,full text digest
+Quercus ilex,runoff,annual interception loss isolated tree,46-51,% of annual P (Mediterranean Spain),Hassan et al. 2017,8,abstract
+Quercus pyrenaica,runoff,annual interception loss isolated tree,10-16,% of annual P,Hassan et al. 2017,8,abstract
+Betula pendula,runoff,interception,23,% of gross rainfall (Ljubljana),Zabret et al. 2019,7,abstract
+Pinus nigra,runoff,interception,45,% of gross rainfall (Ljubljana),Zabret et al. 2019,7,abstract
+Quercus nigra,runoff,interception,30-50,% depending on rain depth,Bean et al. 2021,2,full text digest
+Platanus x acerifolia,runoff,canopy storage capacity measured (rainfall simulator),see paper,value not yet extracted,Baptista et al. 2018,6,abstract
+Ulmus procera,runoff,canopy storage capacity measured,see paper,value not yet extracted,Baptista et al. 2018,6,abstract
+Styphnolobium japonicum,runoff,throughfall-based interception + TLS traits,see paper,value not yet extracted (listed as Sophora japonica),Yang et al. 2019,5,abstract
+Ginkgo biloba,runoff,throughfall-based interception + TLS traits,see paper,value not yet extracted,Yang et al. 2019,5,abstract
+Aesculus turbinata,runoff,throughfall-based interception,see paper,value not yet extracted,Yang et al. 2019,5,abstract
+Styphnolobium japonicum,runoff,infiltration increase vs unplanted (tap roots),118,% (lab tank),Zhang et al. 2019,17,abstract
+Platanus x acerifolia,heat,transpiration cooling during heatwave,33.3,% of incoming solar energy at up to 39.1 C,Bachofen et al. 2025,43,full text digest
+Tilia cordata,heat,transpiration vs Robinia,~4x,higher transpiration; 35% higher LAI,Rahman et al. 2020,44,abstract
+Robinia pseudoacacia,heat,transpiration vs Tilia cordata,~0.25x,lower transpiration and LAI,Rahman et al. 2020,44,abstract
+Pyrus calleryana,heat,UTCI reduction (ENVI-met),most effective of studied species,UTCI cut 3.19-6.27 C across species,Silva et al. 2025,47,abstract
+Acer platanoides,heat,in-situ shade and transpiration cooling,see paper,4-city study,Helletsgruber et al. 2020,40,full text digest
+Tilia cordata,heat,in-situ shade and transpiration cooling,see paper,4-city study,Helletsgruber et al. 2020,40,full text digest
+Platanus x hispanica,heat,in-situ shade and transpiration cooling,see paper,= Platanus x acerifolia,Helletsgruber et al. 2020,40,full text digest
+Aesculus hippocastanum,heat,in-situ shade and transpiration cooling,see paper,4-city study,Helletsgruber et al. 2020,40,full text digest
+Robinia pseudoacacia,heat,in-situ shade and transpiration cooling,see paper,4-city study,Helletsgruber et al. 2020,40,full text digest
+Pyrus calleryana,heat,shading effectiveness (Manchester),see paper,5-species comparison,Armson et al. 2013,,full text digest
+Crataegus laevigata,heat,shading effectiveness (Manchester),see paper,5-species comparison (incl. Sorbus arnoldiana),Armson et al. 2013,,full text digest

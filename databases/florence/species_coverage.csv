@@ -1,0 +1,31 @@
+species,trees,share_%,mean_circumference_cm,runoff_measured,heat_measured,same_genus_only,3TF_traits
+tilia x europaea,8761,10.7,145,,,Tilia cordata heat; Tilia cordata runoff,"Nmass,SLA,WD"
+cupressus sempervirens,8512,10.4,98,,,,SM
+quercus ilex,6951,8.5,118,annual interception loss isolated tree (Hassan et al. 2017),,,"LDMC,Nmass,SLA,SM,WD"
+celtis australis,6851,8.3,139,,,,"LDMC,Nmass,SLA,SM,WD"
+olea europaea,5058,6.2,58,,,,"LDMC,Nmass,SLA,SM"
+platanus x acerifolia,4710,5.7,183,canopy storage capacity measured (rainfall simulator) (Baptista et al. 2018),in-situ shade and transpiration cooling (Helletsgruber et al. 2020); transpiration cooling during heatwave (Bachofen et al. 2025),,SLA
+pinus pinea,3455,4.2,182,,,Pinus nigra runoff,SM
+acer campestre,2599,3.2,60,,,Acer platanoides heat; Acer platanoides runoff,"Amass,LL,Nmass,SLA,SM,WD"
+fraxinus excelsior,1796,2.2,54,,,,"Amass,LL,Nmass,SLA,SM,WD"
+ulmus (genus only),1566,1.9,65,,,Ulmus procera runoff,
+quercus robur,1435,1.7,148,,,Quercus ilex runoff; Quercus nigra runoff; Quercus pyrenaica runoff,"Amass,LL,Nmass,SLA,SM,WD"
+carpinus betulus,1010,1.2,44,,,,"Amass,LL,Nmass,SLA,SM,WD"
+ulmus minor,976,1.2,110,,,Ulmus procera runoff,"LDMC,Nmass,SLA,SM,WD"
+populus nigra,949,1.2,127,,,,"Amass,LDMC,LL,Nmass,SLA,SM,WD"
+ligustrum lucidum,897,1.1,55,,,,"SLA,SM,WD"
+pyrus calleryana,874,1.1,39,,UTCI reduction (ENVI-met) (Silva et al. 2025); shading effectiveness (Manchester) (Armson et al. 2013),,"Nmass,SLA,SM,WD"
+robinia pseudoacacia,844,1.0,303,,in-situ shade and transpiration cooling (Helletsgruber et al. 2020); transpiration vs Tilia cordata (Rahman et al. 2020),,"Amass,LDMC,LL,Nmass,SLA,SM,WD"
+aesculus hippocastanum,807,1.0,80,,in-situ shade and transpiration cooling (Helletsgruber et al. 2020),,"LDMC,Nmass,SLA,SM,WD"
+populus alba,795,1.0,85,,,,"Amass,LDMC,Nmass,SLA,SM,WD"
+tilia cordata,772,0.9,39,event canopy interception (mean of 76 events) (Anys & Weiler 2024),in-situ shade and transpiration cooling (Helletsgruber et al. 2020); transpiration vs Robinia (Rahman et al. 2020),,"Amass,LL,Nmass,SLA,SM,WD"
+prunus avium,764,0.9,34,,,,"LDMC,Nmass,SLA,SM,WD"
+ginkgo biloba,761,0.9,51,throughfall-based interception + TLS traits (Yang et al. 2019),,,"LDMC,Nmass,SLA,SM,WD"
+prunus cerasifera,731,0.9,48,,,,"Nmass,SLA,SM,WD"
+cercis siliquastrum,730,0.9,54,,,,SM
+fraxinus angustifolia,719,0.9,53,,,,"Amass,LDMC,Nmass,SLA,SM,WD"
+cedrus deodara,609,0.7,188,,,,"Nmass,SLA,SM,WD"
+populus canescens,575,0.7,190,,,,
+cedrus atlantica,553,0.7,179,,,,"SLA,SM,WD"
+acer pseudoplatanus,523,0.6,37,,,Acer platanoides heat; Acer platanoides runoff,"Amass,LL,Nmass,SLA,SM,SRL,WD"
+magnolia grandiflora,517,0.6,80,,,,"Nmass,SLA,SM,WD"
