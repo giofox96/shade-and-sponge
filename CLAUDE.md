@@ -60,7 +60,9 @@ The user also wants to start the **data search as early as possible** (data avai
 - "Landscape designers" as the user is vague; pick one primary user (see personas).
 
 ## Open decisions
-- **Site/scale:** city = Barcelona (decided 7 Oct). District/site NOT yet chosen: must overlap a heat hotspot and a pluvial flood-prone area. Bologna/Florence work is kept as background in `databases/data_inventory.md`.
+- **Site/scale:** city = Barcelona (decided 7 Oct). First-pass screening (8 Oct) ranks **Sant Antoni (Eixample)** first for flood hazard + heat vulnerability + plane trees (`databases/data_inventory_barcelona.md` §F); not yet confirmed. **Florence (then possibly Bologna) = later transfer/test case for the tool**; their data are in `databases/data_inventory.md`.
+- **Heat engine:** Infrared City (tutor is a co-founder; access to confirm), fallback/cross-check Ladybug Tools. Open questions in `notes/topic_decision.md` §6.4.
+- **Python env:** conda env `shade-and-sponge` (geopandas, matplotlib, requests) at `~/miniconda3/envs/shade-and-sponge`; put `<env>/Library/bin` on PATH when running GIS scripts.
 - **Focus:** A→B narrowed, dual objective (UTCI + runoff), decided 7 Oct. Option C's heat element is now in scope; diversity stays a constraint only.
 
 | Option | Core idea | Strength | Risk |

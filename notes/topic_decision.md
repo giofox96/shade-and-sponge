@@ -103,7 +103,11 @@ Taken alone, the dual option is not "better". It is **more original** (it fills 
 - **H3 (validity boundary):** the runoff benefit shrinks as the storm return period grows (as in v2 H2). The UTCI benefit is largest in sun-exposed pedestrian routes (Lachapelle et al. 2023).
 
 ### 6.4 Decision (user, 7 Oct): **Barcelona**, **dual theme before 20 Oct**
-Next: Barcelona data feasibility for both themes, then choose one district where a heat hotspot and a flood-prone area overlap.
+Next: Barcelona data feasibility for both themes (done: `databases/data_inventory_barcelona.md`), then choose one district where a heat hotspot and a flood-prone area overlap (first pass: **Sant Antoni**).
+
+**Validation / transfer (user, 8 Oct):** develop and calibrate on Barcelona; then **test the tool on Florence** (and possibly Bologna) as a transfer case. The Florence data and literature already collected (Pacetti 2022 hotspots, 82k-tree inventory, LiDAR 1 m, IDF grid) become the test set. This answers "does the method generalise?" without new data collection.
+
+**Heat engine option (user, 8 Oct): Infrared City** (the tutor is a co-founder; free access hoped). Vendor-described: AI surrogate models trained on CFD/simulation data return UTCI, MRT, wind and solar radiation in seconds, via Grasshopper/Rhino plugins, a REST API and a Python SDK. This would remove the UTCI computation bottleneck in the optimisation loop (§6.2). **Questions for the tutor:** (a) how trees are represented (geometry only, or canopy porosity/LAI per species)? Species heat traits must enter through it; (b) API limits for thousands of optimisation evaluations; (c) published validation vs ENVI-met/Ladybug. Ladybug Tools stays the fallback and a cross-check.
 
 _Original options considered:_
 - City: **Florence vs Barcelona**. They score 22 vs 23 in `notes/city_screening.md`; the deciding checks are listed there.
