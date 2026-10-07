@@ -17,6 +17,7 @@ Project (launch Claude Code here): `...\THESIS_MACAD\1_THESIS_PROJECT\`
 - Create only when needed (YAGNI): `notes/` (literature notes), `slides/`, `scripts/`
 - Literature workflow: `/lit-review` skill (`.claude/skills/lit-review/SKILL.md`) runs `scripts/search_papers.py` → `fetch_pdfs.py` → `digest_pdfs.py`. Outputs live in `notes/lit/` (`shortlist.csv`, `literature_matrix.csv`, `to_get_manually.md`). Synthesis is in `notes/topic_decision.md`
 - **Decided by the user (7 Oct):** city = **Barcelona only** for now (the user has worked on Barcelona projects; strong open data). Scope = **both themes, heat (UTCI) + pluvial runoff, before 20 Oct**: trait-based street-tree selection and placement in one Barcelona district that is both a heat and a pluvial-flood hotspot. Basis: `notes/topic_decision.md` §6, `notes/city_screening.md`. Species coverage: `scripts/species_coverage.py` -> `databases/barcelona/species_coverage.csv`
+- Git: private repo https://github.com/giofox96/shade-and-sponge (branch `main`). `.gitignore` excludes secrets, `papers/` and derived full text, and large raw downloads. Commit and push only when the user asks
 - Zotero: read-only MCP server `mcp-zotero` configured in `.mcp.json`. The key and user ID come from Windows user environment variables `ZOTERO_API_KEY` / `ZOTERO_USER_ID`. Never write them into files
 
 ## Who and what
