@@ -1,0 +1,7 @@
+{
+  "crs": "EPSG:25831 (ETRS89 / UTM 31N)",
+  "origin_x": 430800,
+  "origin_y": 4586800,
+  "units": "m",
+  "note": "Rhino local coords = EPSG:25831 minus origin. Keeps numbers small for Rhino precision."
+}

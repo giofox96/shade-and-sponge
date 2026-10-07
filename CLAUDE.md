@@ -61,6 +61,8 @@ The user also wants to start the **data search as early as possible** (data avai
 
 ## Open decisions
 - **Site/scale (decided 8 Oct): Porta (Nou Barris, Barcelona), 0.84 km².** Both hazards above the city 60th percentile; first among eligible neighbourhoods at the 50/60/70th percentiles. Justification: `notes/site_selection.md` (scripts `bcn_site_screening.py` → `bcn_heat_check.py` → `bcn_site_select.py`). Sant Antoni = flood-dominant contrast site; **Florence (then possibly Bologna) = later transfer/test case**. Current PS/RQ/H: `notes/topic_decision.md` §7 (v4)
+- **Methodology draft:** `notes/methodology.md` (runoff module, Ladybug Tier 1/Tier 2 heat module, NSGA-II, scenarios S0–S4, plan to 18 Dec).
+- **Python ↔ Grasshopper exchange:** `exchange/README.md` (local origin 430800, 4586800 in EPSG:25831; `to_gh/` from Claude, `from_gh/` from the user; GH Python read/write snippets). The user runs Ladybug; Claude never opens Rhino.
 - **Heat engine:** Infrared City (tutor is a co-founder; access to confirm), fallback/cross-check Ladybug Tools. Open questions in `notes/topic_decision.md` §6.4.
 - **Python env:** conda env `shade-and-sponge` (geopandas, matplotlib, requests) at `~/miniconda3/envs/shade-and-sponge`; put `<env>/Library/bin` on PATH when running GIS scripts.
 - **Focus:** A→B narrowed, dual objective (UTCI + runoff), decided 7 Oct. Option C's heat element is now in scope; diversity stays a constraint only.
