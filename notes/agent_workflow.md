@@ -35,7 +35,10 @@ GitHub Issue (agent-ready)
 
 ## One-time setup still needed
 - [ ] **Merge the setup PR into `main`.** New sessions and routines start from `main`, so they only see the agents, skill and hook after the merge.
-- [ ] **Allow the research hosts in the cloud environment.** The current network policy blocks them (tested 7 Oct). Edit the environment (session title bar → environment → Edit → Network access) and add these hosts: `api.openalex.org`, `api.semanticscholar.org`, `api.crossref.org`, `doi.org`, `opendata-ajuntament.barcelona.cat`, `urbisadmin.carto.com`, `planetarycomputer.microsoft.com`, `*.blob.core.windows.net` (Planetary Computer data), `www.icgc.cat`, `bcnroc.ajuntament.barcelona.cat`, `climate.onebuilding.org`, `freidok.uni-freiburg.de`, `data.comune.fi.it`. Alternatively, choose full network access. Web search and page fetches by the agents themselves still work without this.
+- [ ] **Open the network for research in the cloud environment.** The current policy blocks almost everything (tested 7–8 Oct). Only web search works; page fetches and downloads fail. That includes OpenAlex, doi.org, the Barcelona open data portal, ICGC, BCNROC (PDISBA), MDPI, Springer, Europe PMC, FreiDok and climate.onebuilding.org. Edit the environment (session title bar → environment → Edit → Network access).
+  - **Recommended:** full network access, because literature work reaches many publisher hosts.
+  - **Minimum:** allow `api.openalex.org`, `api.semanticscholar.org`, `api.crossref.org`, `doi.org`, `www.ebi.ac.uk`, `www.mdpi.com`, `link.springer.com`, `opendata-ajuntament.barcelona.cat`, `urbisadmin.carto.com`, `bcnroc.ajuntament.barcelona.cat`, `www.icgc.cat`, `planetarycomputer.microsoft.com`, `*.blob.core.windows.net`, `climate.onebuilding.org`, `freidok.uni-freiburg.de`, `diposit.ub.edu`, `www.boe.es`, `data.comune.fi.it`.
+  - Until then, run the `data` and `lit` issues locally on Windows.
 - [ ] Create the first 14 issues from `notes/agent_backlog.md` (also lists the decisions only you can take and new tutor questions).
 
 ## What stays with you
