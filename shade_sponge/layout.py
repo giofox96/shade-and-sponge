@@ -1,13 +1,13 @@
 """Species palette, per-position potentials and layout optimisation (methodology §6, v0).
 Decision: the species at each plane-tree position. Constraint: no species above 15% of the site's street trees.
-v0 optimiser: weighted sum of the two normalised potentials, solved exactly as a transportation LP (HiGHS);
-sweeping the weight gives a trade-off front. Every layout is then re-scored with the full raster models (overlaps).
+v0 optimiser: weighted sum of the normalised potentials (summer shade, winter shade, hotspot runoff), solved exactly
+as a transportation LP (HiGHS); sweeping the weights gives a trade-off front. Every layout is then re-scored with the full raster models (overlaps).
 NSGA-II comes later, if the weighted-sum front leaves gaps."""
-import numpy as np, pandas as pd
+import itertools, numpy as np, pandas as pd
 from scipy import ndimage, sparse
 from scipy.optimize import linprog
 from .site import DB, rc
-from . import heat, runoff
+from . import heat, runoff, season
 
 CITY_PALETTE = ["Celtis australis", "Melia azedarach", "Pyrus calleryana", "Jacaranda mimosifolia", "Tipuana tipu",
                 "Brachychiton populneus"]   # named by the city as plane replacements (notes/topic_decision.md §7)
@@ -22,6 +22,7 @@ def palette(site, names=CITY_PALETTE):
     t = site.trees
     kept = t[~t.is_plane].sp.value_counts().reindex(names).fillna(0).values
     p["cap"] = (np.floor(MAX_SHARE * len(t)) - kept).clip(0).astype(int)
+    p["storm_leaf_factor"] = season.storm_factor(names).round(3)    # season-weighted share of full-leaf LAI in storms
     return p
 
 
@@ -35,29 +36,37 @@ def fits(site, pos, pal):
     return f
 
 
-def _disk_mean(mask, diam, site):
-    """Share of mask cells in a square of side = crown diameter around each cell (box filter)."""
-    return ndimage.uniform_filter(mask.astype("float32"), size=max(1, int(round(diam / site.res))))
+def _box_mean(mask, side, site):
+    """Share of mask cells in a square of the given side (m) around each cell."""
+    return ndimage.uniform_filter(mask.astype("float32"), size=max(1, int(round(side / site.res))))
 
 
-def potentials(site, pos, pal, suns, lits, p_mm, runoff_target="hotspot"):
-    """Benefit of species j alone at position i, ignoring overlaps:
-    shade[i, j] (m²·h of effective shade on sunlit open ground) and water[i, j] (m³ intercepted over open ground,
-    counting only ground that drains to high flood-hazard cells if runoff_target == "hotspot")."""
+def shade_potential(site, pos, pal, suns, lits, month):
+    """shade[i, j]: m²·h of effective shade species j alone would cast on sunlit open ground from position i (no overlaps)."""
     open_ = site.domain & ~site.roof
-    tgt = open_ & site.to_hot if runoff_target == "hotspot" else open_
-    area = np.pi * (pal.crown_diam_m.values / 2) ** 2
-    shade, water = np.zeros((len(pos), len(pal))), np.zeros((len(pos), len(pal)))
-    zc = (pal.height_m.values + pal.crown_base_m.values) / 2
+    op = heat.opacity(pal.species, pal.lai.values, month)
+    out = np.zeros((len(pos), len(pal)))
     for (alt, az), lit in zip(suns, lits):
-        for j, d in enumerate(pal.crown_diam_m.values):
-            r, c = rc(site, *heat.shadow_xy(pos.x.values, pos.y.values, zc[j], alt, az))
-            shade[:, j] += _disk_mean(lit & open_, d, site)[r, c] * area[j] * (1 - np.exp(-heat.K * pal.lai.values[j]))
+        f = lit & open_
+        dx, dy, area = heat.shadow_xy_area(pal.crown_diam_m.values, pal.height_m.values, pal.crown_base_m.values, alt, az)
+        for j in range(len(pal)):
+            r, c = rc(site, pos.x.values + dx[j], pos.y.values + dy[j])
+            out[:, j] += _box_mean(f, np.sqrt(area[j]), site)[r, c] * area[j] * op[j]
+    return out
+
+
+def water_potential(site, pos, pal, p_mm, runoff_target="hotspot"):
+    """water[i, j]: m³ intercepted (season-weighted) over open ground, counting only ground that drains to high
+    flood-hazard cells if runoff_target == "hotspot"."""
+    tgt = site.domain & ~site.roof & (site.to_hot if runoff_target == "hotspot" else True)
+    area = np.pi * (pal.crown_diam_m.values / 2) ** 2
     r, c = rc(site, pos.x.values, pos.y.values)
+    out = np.zeros((len(pos), len(pal)))
     for j, d in enumerate(pal.crown_diam_m.values):
-        stor = min(p_mm, runoff.P_["s_mm_per_lai"] * pal.lai.values[j])
-        water[:, j] = _disk_mean(tgt, d, site)[r, c] * area[j] * stor / 1000
-    return shade, water
+        stor = sum(w * min(p_mm, runoff.P_["s_mm_per_lai"] * pal.lai.values[j] * season.factor([pal.species[j]], m)[0])
+                   for m, w in season.STORM.items()) / season.STORM.sum()
+        out[:, j] = _box_mean(tgt, d, site)[r, c] * area[j] * stor / 1000
+    return out
 
 
 def assign(score, cap, fit):
@@ -72,11 +81,18 @@ def assign(score, cap, fit):
     return res.x.reshape(P, S).argmax(1)
 
 
-def sweep(shade, water, cap, fit, weights=np.linspace(0, 1, 11)):
-    """Weight w on heat, 1 − w on runoff (each potential normalised by its maximum). A 1e-3 share of the other
-    objective breaks ties (e.g. positions that do not drain to a hotspot when w = 0)."""
-    hn, wn = shade / shade.max(), water / water.max()
-    return {round(float(w), 2): assign(w * hn + (1 - w) * wn + 1e-3 * (hn + wn), cap, fit) for w in weights}
+def sweep(objs, cap, fit, step=0.25):
+    """objs: {name: (potential matrix, +1 to maximise / −1 to minimise)}. Every weight combination on a simplex grid
+    (step 0.25 -> 15 combinations for 3 objectives); potentials normalised by their maximum. A 1e-3 share of the
+    unweighted sum breaks ties (e.g. positions that do not drain to a hotspot)."""
+    n = int(round(1 / step))
+    norm = [sign * m / m.max() for m, sign in objs.values()]
+    out = {}
+    for c in itertools.product(range(n + 1), repeat=len(objs)):
+        if sum(c) == n:
+            w = np.array(c) / n
+            out[tuple(w)] = assign(sum(wk * m for wk, m in zip(w, norm)) + 1e-3 * sum(norm), cap, fit)
+    return out
 
 
 def random_layout(cap, fit, rng):
@@ -96,14 +112,19 @@ def apply(site, pos, pal, choice):
     new = pos[["tree_id", "x", "y"]].copy()
     for k in ("species", "crown_diam_m", "height_m", "crown_base_m", "lai"):
         new[k] = pal[k].values[choice]
+    new["sp"] = new.species
     return pd.concat([kept, new], ignore_index=True)
 
 
-def evaluate(site, trees, suns, lits, p_mm):
-    return dict(shade_m2h=heat.shade_m2h(site, trees, suns, lits), **runoff.event(site, trees, p_mm))
+def evaluate(site, trees, sun, lit, p_mm):
+    """Heat proxy per season (summer shade = benefit, winter shade = cost); runoff season-weighted, plus the full-leaf
+    (LiDAR, September) value for reference."""
+    leafon = {f"{k}_leafon": v for k, v in runoff.event(site, trees, p_mm).items()}
+    shade = {f"shade_{s}_m2h": heat.shade_m2h(site, trees, sun[s], lit[s], heat.SEASONS[s]["month"]) for s in sun}
+    return dict(**shade, **season.runoff_seasonal(site, trees, p_mm), **leafon)
 
 
-def pareto(df, maximise="shade_m2h", minimise="runoff_hot_m3"):
+def pareto(df, maximise=("shade_summer_m2h",), minimise=("shade_winter_m2h", "runoff_hot_m3")):
     """Rows not dominated by any other row."""
-    a, b = df[maximise].values, df[minimise].values
-    return np.array([not np.any((a >= a[i]) & (b <= b[i]) & ((a > a[i]) | (b < b[i]))) for i in range(len(df))])
+    v = np.c_[df[list(maximise)].values, -df[list(minimise)].values]
+    return np.array([not np.any(np.all(v >= v[i], 1) & np.any(v > v[i], 1)) for i in range(len(v))])
