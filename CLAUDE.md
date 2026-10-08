@@ -66,6 +66,7 @@ The user also wants to start the **data search as early as possible** (data avai
 - **Heat engine:** Infrared City (tutor is a co-founder; access to confirm), fallback/cross-check Ladybug Tools. Open questions in `notes/topic_decision.md` §6.4.
 - **LiDAR + traits (8 Oct):** `scripts/bcn_lidar_porta.py` (ICGC LiDAR flown 26 Sept 2021, leaf-on → per-tree height/crown/LAI proxy, buildings) and `scripts/build_trait_table.py` (`databases/traits/porta_trait_table.csv`). Details in `databases/data_inventory_barcelona.md` §G–H.
 - **Runoff module v1 (8 Oct):** `scripts/runoff_model.py` (1 m grid, PDISBA storms, bucket interception s·LAI + SCS-CN; scenarios S0, no street trees, planes→candidate species mature/young) with s = 1.75 mm/LAI calibrated in `scripts/calibrate_interception.py` on Anys & Weiler (2024). Results `databases/barcelona/runoff_scenarios.csv`, figure `notes/figures/runoff_results_v1.png`, methodology §4b.
+- **20 Oct talk (draft 8 Oct):** `slides/outline_20oct.md` (9 slides, ~660-word script); infographics `slides/fig/` (SVG + PNG) from `scripts/make_infographics.py`. User-side tasks: `notes/todo_manual.md`.
 - **Python env:** conda env `shade-and-sponge` (geopandas, matplotlib, requests) at `~/miniconda3/envs/shade-and-sponge`; put `<env>/Library/bin` on PATH when running GIS scripts.
 - **Focus:** A→B narrowed, dual objective (UTCI + runoff), decided 7 Oct. Option C's heat element is now in scope; diversity stays a constraint only.
 

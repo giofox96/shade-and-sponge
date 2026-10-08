@@ -6,8 +6,6 @@ Quercus pyrenaica,runoff,annual interception loss isolated tree,10-16,% of annua
 Betula pendula,runoff,interception,23,% of gross rainfall (Ljubljana),Zabret et al. 2019,7,abstract
 Pinus nigra,runoff,interception,45,% of gross rainfall (Ljubljana),Zabret et al. 2019,7,abstract
 Quercus nigra,runoff,interception,30-50,% depending on rain depth,Bean et al. 2021,2,full text digest
-Platanus x acerifolia,runoff,canopy storage capacity measured (rainfall simulator),see paper,value not yet extracted,Baptista et al. 2018,6,abstract
-Ulmus procera,runoff,canopy storage capacity measured,see paper,value not yet extracted,Baptista et al. 2018,6,abstract
 Styphnolobium japonicum,runoff,throughfall-based interception + TLS traits,see paper,value not yet extracted (listed as Sophora japonica),Yang et al. 2019,5,abstract
 Ginkgo biloba,runoff,throughfall-based interception + TLS traits,see paper,value not yet extracted,Yang et al. 2019,5,abstract
 Aesculus turbinata,runoff,throughfall-based interception,see paper,value not yet extracted,Yang et al. 2019,5,abstract
@@ -15,7 +13,6 @@ Styphnolobium japonicum,runoff,infiltration increase vs unplanted (tap roots),11
 Platanus x acerifolia,heat,transpiration cooling during heatwave,33.3,% of incoming solar energy at up to 39.1 C,Bachofen et al. 2025,43,full text digest
 Tilia cordata,heat,transpiration vs Robinia,~4x,higher transpiration; 35% higher LAI,Rahman et al. 2020,44,abstract
 Robinia pseudoacacia,heat,transpiration vs Tilia cordata,~0.25x,lower transpiration and LAI,Rahman et al. 2020,44,abstract
-Pyrus calleryana,heat,UTCI reduction (ENVI-met),most effective of studied species,UTCI cut 3.19-6.27 C across species,Silva et al. 2025,47,abstract
 Acer platanoides,heat,in-situ shade and transpiration cooling,see paper,4-city study,Helletsgruber et al. 2020,40,full text digest
 Tilia cordata,heat,in-situ shade and transpiration cooling,see paper,4-city study,Helletsgruber et al. 2020,40,full text digest
 Platanus x hispanica,heat,in-situ shade and transpiration cooling,see paper,= Platanus x acerifolia,Helletsgruber et al. 2020,40,full text digest
@@ -23,3 +20,14 @@ Aesculus hippocastanum,heat,in-situ shade and transpiration cooling,see paper,4-
 Robinia pseudoacacia,heat,in-situ shade and transpiration cooling,see paper,4-city study,Helletsgruber et al. 2020,40,full text digest
 Pyrus calleryana,heat,shading effectiveness (Manchester),see paper,5-species comparison,Armson et al. 2013,,full text digest
 Crataegus laevigata,heat,shading effectiveness (Manchester),see paper,5-species comparison (incl. Sorbus arnoldiana),Armson et al. 2013,,full text digest
+Platanus x acerifolia,runoff,"surface water storage capacity, all surfaces (rainfall simulator)",0.87,"mm per unit leaf + stem surface area; P. x hispanica; leaf 1.10, stem 0.28; range 0.68-1.06",Xiao & McPherson 2016,3,full text
+Pyrus calleryana,runoff,"surface water storage capacity, all surfaces (rainfall simulator)",0.51,"mm per unit leaf + stem surface area; cv. Bradford; leaf 0.57, stem 0.23; range 0.43-0.63",Xiao & McPherson 2016,3,full text
+Celtis sinensis,runoff,"surface water storage capacity, all surfaces (rainfall simulator)",0.71,"mm per unit leaf + stem surface area; leaf 0.94, stem 0.17; congener of C. australis",Xiao & McPherson 2016,3,full text
+Gleditsia triacanthos,runoff,"surface water storage capacity, all surfaces (rainfall simulator)",0.67,"mm per unit leaf + stem surface area; leaf 0.70, stem 0.33",Xiao & McPherson 2016,3,full text
+Fraxinus angustifolia,runoff,"surface water storage capacity, all surfaces (rainfall simulator)",0.60,"mm per unit leaf + stem surface area; cv. Raywood; leaf 0.75, stem 0.25",Xiao & McPherson 2016,3,full text
+Quercus ilex,runoff,"surface water storage capacity, all surfaces (rainfall simulator)",0.82,mm per unit leaf + stem surface area; evergreen; range 0.66-1.17,Xiao & McPherson 2016,3,full text
+Pinus pinea,runoff,"surface water storage capacity, all surfaces (rainfall simulator)",1.04,mm per unit leaf + stem surface area; conifer; range 0.82-1.24,Xiao & McPherson 2016,3,full text
+Platanus x acerifolia,runoff,canopy storage Cmax / Cmin (rainfall simulator),0.49 / 0.29,"mm per canopy projected area, juvenile potted trees, LAI 3.02; 0.64 mm event, likely rain-limited",Baptista et al. 2018,6,full text
+Ulmus procera,runoff,canopy storage Cmax / Cmin (rainfall simulator),0.69 / 0.38,"mm per canopy projected area, LAI 4.71; same caveat",Baptista et al. 2018,6,full text
+Pyrus calleryana,heat,"max UTCI reduction, ENVI-met default tree sized 12 x 6 m (geometry, not physiology)",3.53-6.27,"C, two Lisbon canyons, 14:00 hot day",Silva et al. 2025,47,full text
+Tipuana tipu,heat,PET reduction on extreme heat days (secondary citation),15.6,"C; Santos Nouri et al. 2018 as cited in Silva et al. 2025, primary source not read",Santos Nouri et al. 2018 (via Silva 2025),47,secondary

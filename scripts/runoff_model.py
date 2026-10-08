@@ -20,7 +20,7 @@ RAW, DB, EX = ROOT / "databases/barcelona/raw", ROOT / "databases/barcelona", RO
 RES = 1.0
 P_ = dict(
     s_mm_per_lai=1.75,          # CALIBRATED: effective event storage per unit LAI, Anys & Weiler 2024 data (scripts/calibrate_interception.py;
-                                # pooled median 1.75, IQR ~1.45-1.92; includes evaporation during events). Lower bound 0.86 = surface storage only (Xiao et al. 2015, abstract)
+                                # pooled median 1.75, IQR ~1.45-1.92; includes evaporation during events). Lower bound 0.86 = surface storage only (Xiao & McPherson 2016)
     cn_sealed=98, cn_roof=98,   # ASSUMPTION: USDA TR-55 impervious
     cn_pervious=74,             # ASSUMPTION: TR-55 open space, good condition, HSG C (soil group unknown)
     ndvi_green=0.3,

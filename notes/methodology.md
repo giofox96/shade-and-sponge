@@ -28,7 +28,8 @@ Citations marked *(to add)* are standard references not yet in `papers/`/Zotero:
 ## 3. Tree model (shared by both modules)
 For each tree: position, species, **height H, crown diameter D, crown base Hb** (existing trees from LiDAR, new trees from species size classes at planting and at maturity), **LAI** (leaf-on / leaf-off months), **canopy storage capacity S**, **leaf habit**, **wood anatomy** (diffuse- vs ring-porous, as a transpiration class).
 - **Gap-filling:** species without measurements get genus or leaf-habit class values with a range. This currently covers Celtis, Melia, Tipuana, Jacaranda and Brachychiton (`databases/barcelona/species_coverage.csv`). Every result is re-run at the low and high ends of the range (sensitivity), and the missing data are reported as a finding.
-- Canopy transmissivity for radiation: τ = exp(−k·LAI) (Beer–Lambert, Monsi & Saeki 1953 *(to add)*), k from the literature.
+- Canopy transmissivity for radiation: τ = exp(−k·LAI) (Beer–Lambert, Monsi & Saeki 1953 *(to add)*), k = 0.5 as in Peng et al. (2026) and in our LiDAR LAI proxy.
+- **Species storage (option for runoff v2):** Xiao & McPherson (2016) give surface storage per unit leaf + stem area for 20 street species. Examples: *Platanus × hispanica* 0.87 mm, *Pyrus calleryana* 'Bradford' 0.51 mm, *Celtis sinensis* 0.71 mm (a congener of *C. australis*); mean 0.86 mm. A species factor s_sp = s · (C_sp / 0.86) would replace the single s; species without a value keep s and get a range. (Baptista et al. 2018 is not used as a capacity: their 15-min, 2.54 mm/h event delivers only 0.64 mm.)
 
 ## 4. Runoff module (Python, later a Grasshopper component via Hops)
 Event based, per street segment:
@@ -42,25 +43,26 @@ Event based, per street segment:
 - **Grid:** 1 m over Porta (83.7 ha): roofs 29% (OSM footprints, CN 98), sealed open space 52% (CN 98), pervious 19% (NDVI 2017 ≥ 0.3 and LiDAR canopy < 2 m, or OSM park/garden/grass; CN 74 = TR-55 open space HSG C, *assumption*).
 - **Storms:** PDISBA city-level empirical IDF, design intensity (`databases/barcelona/pdisba_idf_city.csv`): T1-60 min 19.6 mm, T2-60 31.9 mm, T10-60 62.5 mm, T2-20 min 21.2 mm.
 - **Trees:** 2,600 LiDAR street-tree crowns (disk of LiDAR crown diameter; LAI = LiDAR proxy). Non-street canopy (parks, squares, private; 10.2 ha) is fixed background (LAI 2.3).
-- **Calibration** of effective canopy storage S = s·LAI on Anys & Weiler (2024) open field data (16 urban *Tilia cordata* / *Acer platanoides*, Apr–Sep 2021, 51 events ≥ 1 mm): **s = 1.75 mm per unit LAI** (pooled median; lime 1.85, maple 1.60), per-tree interception 38–78% of rain, event RMSE 0.9–3.2 mm. The effective value includes evaporation during events; for Barcelona's short intense storms it may be lower, so 0.86 mm (surface storage only, Xiao et al. 2015) is the lower bound in the sensitivity runs.
+- **Calibration** of effective canopy storage S = s·LAI on Anys & Weiler (2024) open field data (16 urban *Tilia cordata* / *Acer platanoides*, Apr–Sep 2021, 51 events ≥ 1 mm): **s = 1.75 mm per unit LAI** (pooled median; lime 1.85, maple 1.60), per-tree interception 38–78% of rain, event RMSE 0.9–3.2 mm. The effective value includes evaporation during events; for Barcelona's short intense storms it may be lower, so 0.86 mm (surface storage only, Xiao & McPherson 2016) is the lower bound in the sensitivity runs.
 - **Results (T2-60):** current street trees reduce Porta runoff by **1.85%** (open space only: 2.9%); the range across s = 0.86–2.2 and T = 1–10 yr is 0.4–4.0% (open space 0.7–6.3%). Plausibility: the same order as the measured 4% (Selbig et al. 2021). Replacing all plane trees by mature Jacaranda/Melia/Tipuana: +0.17/+0.22/+0.27% runoff; by Celtis/Brachychiton: +0.60%; by Pyrus: +0.69%; **any young replacement: ≈ +0.7% (≈ 37% of the current street-tree benefit lost during the transition)**. The benefit shrinks with return period, supporting H3. Figure: `notes/figures/runoff_results_v1.png`.
 - **Known limits:** the LiDAR LAI proxy (median ~2.3) is probably lower than TLS-measured LAI (Freiburg 2.6–4.9), so storage is likely underestimated; the same s is used for every species (species differ only through crown size and LAI); no routing, sewer or ponding (volume only); tree pits are not yet modelled separately.
 
 ## 5. Heat module (Ladybug Tools in Grasshopper now, Infrared City API later)
 **Tier 1, fast, used for many layouts:** point-based UTCI at 1.1 m on a 2 m sidewalk grid.
 `LB Import EPW` → hours → `LB Human to Sky Relation` (test points + context: buildings + tree crowns) → `LB Outdoor Solar MRT` → `LB UTCI Comfort` (air temperature, RH, wind from the EPW).
-Limit: crowns act as opaque, so species differences enter only through crown size and shape. As an approximation, weight the shaded fraction by τ.
+Limit: crowns act as opaque, so species differences enter only through crown size and shape, and shade MRT is underestimated (>6 °C below globe measurements under one tree). Fix, as in Peng et al. (2026): multiply direct radiation under the crown by τ = exp(−0.5·LAI) in the SolarCal step. This brought shade MRT within 2–4 °C of measurement. Ladybug also treats trees as shade only (no evapotranspiration), so it likely underestimates vegetation cooling by ~2–3 °C UTCI (Mannucci et al. 2025).
 **Tier 2, detailed check of a few layouts:** `HB UTCI Comfort Map` (Honeybee: Radiance + EnergyPlus), with trees as HB Shades carrying a Radiance transmittance modifier and an energy transmittance schedule (leaf-on/off) from τ. Run locally or on Pollination.
 **Later: Infrared City API** (UTCI/MRT in seconds) replaces Tier 1 inside the optimisation loop. Questions for the tutor are in `topic_decision.md` §6.4.
 - **Metrics:** mean UTCI on sun-exposed sidewalks at the design hour; share of points in **strong heat stress (UTCI > 32 °C)** or above (stress classes: Bröde et al. 2012 *(to add)*); hours > 32 °C over the hot week (Tier 2).
 - **Known limits:** the EPW is from the airport, not the city centre (test +1/+2 °C air-temperature offsets as sensitivity); UTCI uses wind at 10 m; transpiration cooling of air is not represented in Tier 1 (state it; Park 2026 shows it can exceed shading for air temperature).
-- **Validation:** Ladybug vs ENVI-met agreement reported in the literature for 8–17 h (Bath study, *(to add)*); Tier 1 vs Tier 2 on the same layouts; optional MRT spot measurements in Porta (globe thermometer) on a hot day.
+- **Validation:** Ladybug vs ENVI-met in a Mediterranean square: UTCI MBE 0.8–2.3 °C, CVRMSE 7–13%; MRT worse under direct sun (CVRMSE 22–38%) (Mannucci et al. 2025). Tier 1 vs Tier 2 on the same layouts; optional MRT spot measurements in Porta (globe thermometer) on a hot day.
 
 ## 6. Optimisation
 - **Decision variables:** species at each replaced plane position (from the feasible palette); optionally, new positions.
 - **Objectives:** f₁ = heat (Tier 1 UTCI metric, or a calibrated shade × τ proxy pre-computed per position), f₂ = runoff volume at T = 2 yr (also reported for T = 1 and 10).
 - **Constraints:** no species >15% within the study area (mirrors the city plan); diversity floor (Shannon); excluded species (invasive, pest hosts); crown clearance from façades.
 - **Algorithm:** NSGA-II, in Python with `pymoo` (fast proxies) or in Grasshopper with Wallacei. The final Pareto layouts are re-checked with Tier 1/Tier 2 UTCI.
+- **Why proxies are needed:** Ladybug in the loop costs 20–25 min per layout for 42 trees (Shaamala et al. 2025). On a 25 × 36 m site it costs 10–20 s rising to 2–3 h for 200 evaluations (Peng et al. 2026). Porta's 832 plane positions need a pre-computed shade × τ proxy, a surrogate, or the Infrared City API.
 
 ## 7. Scenarios compared
 | ID | Layout |
