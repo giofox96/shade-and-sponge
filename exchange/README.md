@@ -22,6 +22,7 @@ grasshopper/            your .gh definitions (commit them; screenshots welcome a
 | `porta_boundary.csv` | x, y | Closed polyline of Porta |
 | `porta_street_trees.csv` | tree_id, x, y, species, size_category, planting_date, street, is_plane | 2,825 street trees (open data, 1 Oct 2026) |
 | `porta_trees_lidar.csv` | tree_id, x, y, ground_z, species, is_plane, size_category, street, height_m, crown_area_m2, crown_diam_m, crown_base_m, gap_fraction, lai_proxy, n_points, flag | Same trees + LiDAR metrics (ICGC, flown **26 Sept 2021, leaf-on**). Use only `flag == ok` (2,600 of 2,825); others have no detectable crown. Crown in GH: ellipsoid/sphere centred at (x, y, ground_z + (crown_base_m + height_m)/2), horizontal diameter crown_diam_m, vertical extent height_m − crown_base_m. `lai_proxy` = −ln(gap)/0.5 is **uncalibrated** |
+| `porta_tree_interception_S0.csv` | tree_id, species, crown_diam_m, lai, x, y, interception_L_T{1,2,10}_60min, interception_L_T2_20min | Litres intercepted per tree per design storm (runoff module v1, s = 1.75 mm/LAI). Use it to colour the crowns in GH |
 | `porta_buildings.geojson` | geometry (local coords), height_m, ground_z, lidar_cover | 745 OSM footprints (© OpenStreetMap contributors, ODbL) extruded by LiDAR median roof height above ground. Read with GH Python `json`, extrude by height_m |
 
 ## Grasshopper Python: read a CSV of points (Rhino 8 Python 3 or Rhino 7 IronPython)

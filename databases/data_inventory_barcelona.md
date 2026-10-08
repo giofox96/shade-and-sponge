@@ -78,3 +78,8 @@ Caveats: (1) the heat layer is a 2015 *vulnerability* index (exposure + social s
 ### H. Trait table (`scripts/build_trait_table.py` → `databases/traits/porta_trait_table.csv`)
 Top-20 Porta species + *Styphnolobium japonicum*; species-level values only, each with its source: LiDAR (this study), **BROT 2.0** (CC0, Figshare collection 3843841; leaf phenology, SLA, LDMC, P50, root depth, wood density), **3TF** (SLA, LDMC, WD, Nmass), **SylvCiT BDD** (drought/shade/flood tolerance), literature measurements. A `gaps` column lists what is missing per species.
 **Still to obtain (user actions):** i-Tree species list export (i-Tree Eco desktop → View → Species List: leaf persistence, leaf area/biomass relations, shading coefficients); TRY data request (try-db.org) for leaf phenology type, leaf area, wood vessel anatomy and leaf wettability of the palette.
+
+### I. Runoff inputs added (8 Oct)
+- **PDISBA city IDF** (sewer master plan 2019, *Estudi de pluges*, section 2.6 "Taula resum de les IDF empíriques de la ciutat de Barcelona"; read in the browser because the repository rate-limits scripts): `databases/barcelona/pdisba_idf_city.csv` (durations 10/20/30/60/120 min × T = 1/2/5/10 yr; max, min, mean, normal-95 and design intensity in mm/h). The full table (5–200 min) is in the source.
+- **NDVI 2017** (open data `cobertura-vegetal-ndvi`, 0.9 m, CC BY 4.0): the full city raster is 1.6 GB in `raw/` (it can be deleted; `raw/porta_ndvi_2017.tif` is the 1 m crop).
+- **Anys & Weiler (2024) dataset** (FreiDok plus 242951, CC BY-NC 4.0): `databases/traits/raw/anys_weiler_2024/`, used for calibration.
