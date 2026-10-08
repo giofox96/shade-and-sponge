@@ -82,7 +82,7 @@ def to_png(svg):
     if not exe:
         print("  no Edge/Chrome found: PNG skipped")
         return
-    with tempfile.TemporaryDirectory() as prof:
+    with tempfile.TemporaryDirectory(ignore_cleanup_errors=True) as prof:   # Edge may still hold profile files
         subprocess.run([exe, "--headless", "--disable-gpu", "--hide-scrollbars", f"--user-data-dir={prof}",
                         f"--screenshot={svg.with_suffix('.png')}", f"--window-size={W},{H}",
                         "--force-device-scale-factor=2", svg.as_uri()], capture_output=True, timeout=60)
@@ -116,48 +116,52 @@ def fig_lit_map():
     b += rect(260, y + 4, 22, 16, INK, rx=2, op=0.3) + t(290, y + 18, "abstract only", 16, MUTED)
     b += t(440, y + 18, "a paper can sit in two themes", 16, MUTED, italic=True)
     x = 1150
-    b += t(x, 250, str(len(rows)), 110, INK, "bold") + t(x, 290, "papers in the review matrix", 21, MUTED)
+    b += t(x, 250, str(len(rows)), 110, INK, "bold") + t(x, 290, "sources in the review matrix", 21, MUTED)
     b += t(x, 400, str(n_full), 72, TREE, "bold") + t(x, 432, "read in full text", 21, MUTED)
     b += t(x, 540, str(len(rows) - n_full), 72, MUTED, "bold") + t(x, 572, "from abstracts (full text pending)", 21, MUTED)
     tk, _ = para(1150, 650, "Two large literatures, runoff and heat. The bridge between them, species traits judged on "
                             "both goals at once, is thin: that is where this thesis sits.", 390, 21, weight="bold")
-    save("01_lit_map", "What the literature review covers", "55 papers screened in 9 themes (7-8 Oct 2026)",
+    save("01_lit_map", "What the literature review covers", f"{len(rows)} sources screened in 9 themes (7-8 Oct 2026)",
          b + tk, "notes/lit/literature_matrix.csv (OpenAlex / Semantic Scholar search, own screening).")
 
 
 # ---- 2. Runoff evidence: species differ, effect fades with storm size
 def fig_runoff_evidence():
     m = pd.read_csv(ROOT / "notes/lit/species_measurements.csv")
-    m = m[(m.objective == "runoff") & m.measure.str.contains("interception") & m.value.astype(str).str.match(r"^[\d.]+(-[\d.]+)?$")]
+    m = m[(m.objective == "runoff") & m.measure.str.contains("interception") & (m.read_level != "secondary")
+          & m.value.astype(str).str.match(r"^[\d.]+(-[\d.]+)?$")]
     m[["lo", "hi"]] = m.value.astype(str).str.split("-", expand=True).reindex(columns=[0, 1]).astype(float).values
     m["hi"] = m.hi.fillna(m.lo)
     m = m.sort_values("hi", ascending=False)
     ctx = {"Anys & Weiler 2024": "event mean, street trees, Freiburg", "Hassan et al. 2017": "annual, isolated trees, Spain",
-           "Zabret et al. 2019": "share of rainfall, Ljubljana", "Bean et al. 2021": "range by rain depth, Alabama"}
+           "Zabret & Sraj 2019": "share of rainfall over 2 years, Ljubljana", "Bean et al. 2021": "range by rain depth, Alabama",
+           "Yang et al. 2019": "event mean, one tree, Seoul"}
     b = t(60, 175, "Rain intercepted by the crown (% of rainfall)", 22, RAIN, "bold")
     x0, x1, y = 400, 860, 205
+    step = 46
+    H = len(m) * step
     sx = lambda v: x0 + (x1 - x0) * v / 80
     for v in range(0, 81, 20):
-        b += line(sx(v), 195, sx(v), 205 + 7 * 62, GRID, 1) + t(sx(v), 205 + 7 * 62 + 22, f"{v}%", 15, MUTED, anchor="middle")
-    b += line(sx(23.9), 195, sx(23.9), 205 + 7 * 62, MUTED, 2, "6 5")
-    b += t(sx(23.9), 205 + 7 * 62 + 44, "global median 23.9%, forests (de Mello 2024*)", 13, MUTED, anchor="middle")
+        b += line(sx(v), 195, sx(v), 205 + H, GRID, 1) + t(sx(v), 205 + H + 22, f"{v}%", 15, MUTED, anchor="middle")
+    b += line(sx(23.9), 195, sx(23.9), 205 + H, MUTED, 2, "6 5")
+    b += t(sx(23.9), 205 + H + 44, "global median 23.9%, forests (de Mello 2024*)", 13, MUTED, anchor="middle")
     for r in m.itertuples():
         star = "*" if r.read_level == "abstract" else ""
-        b += t(60, y + 24, r.species, 20, italic=True)
-        b += t(60, y + 45, f"{ctx.get(r.source, '')} ({r.source}{star})", 13, MUTED)
-        b += rect(sx(r.lo), y + 10, max(sx(r.hi) - sx(r.lo), 8), 24, RAIN, rx=4)
-        lab = f"{r.lo:g}" if r.lo == r.hi else f"{r.lo:g}-{r.hi:g}"
-        b += t(sx(r.hi) + 10, y + 29, lab + "%", 17, INK, "bold", halo=True)
-        y += 62
-    n1, _ = para(60, y + 80, "Surface storage varies threefold across 20 urban species, 0.51-1.81 mm per unit leaf + stem area; "
+        b += t(60, y + 20, r.species, 18, italic=True)
+        b += t(60, y + 38, f"{ctx.get(r.source, '')} ({r.source}{star})", 12, MUTED)
+        b += rect(sx(r.lo), y + 8, max(sx(r.hi) - sx(r.lo), 8), 22, RAIN, rx=4)
+        lab = f"{r.lo:.3g}" if r.lo == r.hi else f"{r.lo:.3g}-{r.hi:.3g}"
+        b += t(sx(r.hi) + 10, y + 26, lab + "%", 17, INK, "bold", halo=True)
+        y += step
+    n1, _ = para(60, y + 70, "Surface storage varies threefold across 20 urban species, 0.51-1.81 mm per unit leaf + stem area; "
                              "Platanus 0.87, Pyrus calleryana 0.51 (Xiao & McPherson 2016). Metrics differ (event vs annual): "
                              "read as ranges, not as a ranking.", 800, 16, fill=MUTED)
     b += n1
     x = 960
     b += t(x, 175, "...but the benefit fades as storms grow", 22, RAIN, "bold")
-    cards = [("31-49% \u2192 26-46%", "runoff cut by green infrastructure, 0.25-yr \u2192 1-yr storm", "Liu et al. 2026*, dense catchment, no trees"),
+    cards = [("31-49% \u2192 26-46%", "runoff cut by green infrastructure, 0.25-yr \u2192 1-yr storm", "Liu et al. 2026, dense catchment, no trees"),
              ("28% \u2192 14%", "runoff cut by combined NbS, 2-yr \u2192 50-yr storm", "Esraz-Ul-Zannat et al. 2024, review"),
-             ("-4% volume", "after removing 31 street trees; peak flow not affected", "Selbig et al. 2021*, paired catchment"),
+             ("3.5-4% of runoff", "avoided by 31 street trees (shown by removal); peak flow unchanged", "Selbig et al. 2021*; Coville et al. 2022, paired catchment"),
              ("85% → 62%", "rain held by a 40-yr Zelkova crown, 2-yr → 25-yr 5-min storm", "Xiao & McPherson 2016, model; leaf-off only 16-26%")]
     y = 200
     for big, sub, src in cards:
@@ -166,7 +170,7 @@ def fig_runoff_evidence():
         y += 148
     save("02_runoff_evidence", "Trees intercept rain: species differ, and the effect fades with storm size",
          "Runoff side of the review (bucket B1-B2)", b,
-         "notes/lit/species_measurements.csv; literature_matrix.csv rows 1-3, 7-10, 24, 32, 34. * abstract only.")
+         "notes/lit/species_measurements.csv (first-hand values only); literature_matrix.csv rows 1-3, 5, 7-11, 24, 32, 34. * abstract only.")
 
 
 # ---- 3. Shared drivers and trade-offs between heat and runoff
@@ -180,7 +184,7 @@ def fig_traits():
          "Interception rises with LAI / PAI (Anys & Weiler 2024); leaf-area density drives storage capacity (Baptista et al. 2018)"),
         ("Crown size",
          "Big, dense crowns with a low base give the best shade and comfort (Helletsgruber et al. 2020)",
-         "About 66 L intercepted per m\u00b2 of canopy per leaf-on season (Selbig et al. 2021*)")]),
+         "About 66 L of runoff avoided per m\u00b2 of canopy per leaf-on season (Selbig et al. 2021*; Coville et al. 2022)")]),
         ("PULL APART", WARN, [
         ("Leaf habit and season",
          "Dense LAI is best in summer, sparse LAI in winter (Peng et al. 2026); evergreen street trees were the weakest summer option for both heat and runoff (Wu et al. 2024)",
@@ -191,7 +195,7 @@ def fig_traits():
         ("LIMITS", MUTED, [
         ("Context",
          "Surface material can outweigh tree traits for surface cooling (Kaluarachchi et al. 2020*)",
-         "Canopies work best in short, low-intensity storms (Kuehler et al. 2016*)")])]
+         "Leafy crowns hold only the first 2-4 mm of a storm, so canopies work best in short, light storms (Kuehler et al. 2017)")])]
     y = 208
     for band, col, rows in bands:
         b += t(60, y + 16, band, 15, col, "bold") + line(160, y + 11, 1540, y + 11, col, 1.5)
@@ -208,7 +212,7 @@ def fig_traits():
                              "Species choice therefore needs a multi-objective search, not a single score.", 1480, 21, weight="bold")
     save("03_heat_runoff_traits", "Same tree, two jobs: which traits help both, and where they conflict",
          "Heat and runoff evidence side by side (buckets B1, B7, B8)", b + tk,
-         "literature_matrix.csv rows 1, 3, 6, 9, 10, 13, 38-40, 42, 43, 45, 53, 56; Barcelona Resilience Atlas. * abstract only.")
+         "literature_matrix.csv rows 1, 3, 6, 9-11, 13, 38-40, 42, 43, 45, 53, 56; Barcelona Resilience Atlas. * abstract only.")
 
 
 # ---- 4. Gap: state of the art vs this thesis
@@ -259,7 +263,9 @@ def fig_palette():
             ("Cooling (measured)", HEAT, lambda r: lit(r.lit_heat))]
     notes = {("Celtis australis", 3): ("a", "Celtis: only the congener C. sinensis is measured (0.71 mm; Xiao & McPherson 2016)"),
              ("Pyrus calleryana", 4): ("b", "Pyrus: UTCI -3.5 to -6.3 °C, but modelled as a default ENVI-met tree, so it reflects size, not species (Silva et al. 2025)"),
-             ("Tipuana tipu", 4): ("c", "Tipuana: PET -15.6 °C, second-hand only (Santos Nouri et al. 2018, cited in Silva et al. 2025)")}
+             ("Tipuana tipu", 4): ("c", "Tipuana: PET -15.6 °C, second-hand only (Santos Nouri et al. 2018, cited in Silva et al. 2025)"),
+             ("Jacaranda mimosifolia", 3): ("d", "Jacaranda: 15.3% interception for a small tree, city-scale model, second-hand (Xiao & McPherson 2003, cited in Huang et al. 2017)"),
+             ("Brachychiton populneus", 4): ("e", "Brachychiton: transpiration only (lowest of the Los Angeles species), second-hand (McCarthy et al. 2011, cited in Berland et al. 2017)")}
     cx = [700, 880, 1060, 1240, 1420]
     b = "".join(para(x, 175, c, 170, 16, weight="bold", anchor="middle", fill=col)[0] for x, (c, col, _) in zip(cx, cols))
     y = 225
@@ -273,11 +279,11 @@ def fig_palette():
                 b += t(x + 22, y + 12, notes[(sp, i)][0], 16, MUTED, "bold")
         if cur:
             b += line(60, y + 62, 1540, y + 62, GRID, 2)
-        y += 62 if not cur else 76
+        y += 56 if not cur else 70
     b += legend_balls(60, y + 10)
     b += "".join(t(60, y + 40 + 18 * j, f"({k}) {v}", 14, MUTED) for j, (k, v) in enumerate(notes.values()))
-    tk, _ = para(60, y + 112, "Every candidate's crown can be measured on site. Rain storage is measured for one candidate (Pyrus), "
-                              "plus Celtis through a congener; no candidate has a measured cooling value. The method fills the gaps "
+    tk, _ = para(60, y + 70 + 18 * len(notes), "Every candidate's crown can be measured on site. Rain storage is measured for one candidate (Pyrus), "
+                              "plus Celtis through a congener; cooling values are only modelled or second-hand. The method fills the gaps "
                               "with trait proxies and sensitivity ranges, and reports them as a finding.", 1480, 19, weight="bold")
     save("05_palette_data_gap", "The replacement palette: crowns we can measure, rain and cooling mostly not",
          "Plane tree vs the six replacement species the city names (all already grow in Porta)", b + tk,
@@ -347,8 +353,9 @@ def fig_tree_system():
     b += line(560, 380, 660, 520, HEAT, 3, arrow=True) + t(622, 448, "⑤ shade + cooling", 16, HEAT, "bold")
     b += f'<circle cx="690" cy="555" r="9" fill="{INK}"/>' + line(690, 564, 690, 598, INK, 4) + t(705, 582, "UTCI", 14, INK, "bold")
     cards = [("CROWN", TREE, "core", "Species × position, as in the method today. Data: LiDAR crowns, trait tables."),
-             ("PIT", RAIN, "extension", "Open area, soil volume, surface: one added design variable. Data: pit size is not in the open "
-              "inventory (irrigation type is); municipal planting spec or a tape survey of ~30 pits in Porta."),
+             ("PIT", RAIN, "extension", "Open area, soil volume, surface: one added design variable. Pit size is not in the open inventory: "
+              "municipal spec or a tape survey of ~30 pits in Porta. Once sealed surfaces drain onto the tree's soil, the "
+              "canopy benefit fades and soil infiltration controls runoff (Marrazzo & Raimondi 2025, model)."),
              ("SOIL", SOIL, "parameter", "2-3 pit-soil options (e.g. standard vs structural soil) from the literature, with "
               "sensitivity. Structural soil: ~78:22 stone:soil, 30-35% porosity (Bartens et al. 2008). No stratigraphy data exists under the streets."),
              ("CARBON", INK, "output", "Reported, not optimised: carbon lost when mature planes are replaced by young trees. "
@@ -356,16 +363,16 @@ def fig_tree_system():
     y = 160
     for head, col, tag, txt in cards:
         p, hh = para(860, y + 66, txt, 640, 17)
-        hgt = max(hh + 84, 120)
+        hgt = max(hh + 70, 110)
         b += rect(830, y, 710, hgt, col, rx=10, op=0.08) + rect(830, y, 6, hgt, col, rx=0)
         b += t(860, y + 38, head, 22, col, "bold") + chip(1000, y + 18, tag, col) + p
-        y += hgt + 16
+        y += hgt + 14
     tk, _ = para(60, 812, "Hypothesis for the extension: the pit could make the goals work together, turning street runoff "
                                 "into water for transpiration. Not yet tested.", 1480, 20, weight="bold")
     save("07_tree_system_backup", "If broader: from the crown to the tree as a system",
          "Backup slide: one added design variable (the pit), soil as a parameter, carbon as an output", b + tk,
          "Park et al. 2026 (transpiration vs shade); Pace et al. 2025 (soil moisture); Mannucci et al. 2025 (irrigation trade-off); "
-         "data_inventory_barcelona.md A1, B4. Bartens et al. 2008 (read). Still to read: Grey et al. 2018; Thom et al. 2020, 2021.")
+         "data_inventory_barcelona.md A1, B4. Bartens et al. 2008; Marrazzo & Raimondi 2025 (read). Still to read: Grey et al. 2018; Thom et al. 2020, 2021.")
 
 
 if __name__ == "__main__":

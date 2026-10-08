@@ -24,8 +24,9 @@ These carry the gap and evidence slides. **First, the backup slide on tree pits*
 
 Then the gap and evidence papers:
 - [x] Mannucci 2025, Shaamala 2025, Peng 2026, Wu 2024, Xiao & McPherson 2016, Baptista 2018, Silva 2025: read in full on 8 Oct. The gap holds. Wu 2024 does heat + runoff, but with surface temperature, by scenario, without species and without optimisation.
+- [x] 16 more papers read in full on 8 Oct: Yang, Llorens & Domingo, Zabret & Sraj, Coville, Kuehler, Huang, Zhang, Marrazzo & Raimondi, Song, Liu, Berland, Bruner, Yadav, Wang, Quagliolo, Cremonini. Three PDFs in `papers/` are exact duplicates and can be deleted: `Increase and Spatial Variation in Soil Infiltration.pdf`, `Variation in leaf area density drives the rainfall storage capacity of individual urban.pdf` (= Baptista 2018), `Surface Water Storage Capacity of Twenty Tree Species in davis california.pdf` (= Xiao 2016).
 - [ ] **Tan et al. 2026**, multi-objective tree configuration: the last one that could overlap our gap. https://doi.org/10.1016/j.scs.2026.107726
-- [ ] Selbig et al. 2021: the 4% field benchmark (slide 4 and slide 9). https://doi.org/10.1016/j.scitotenv.2021.151296
+- [ ] Selbig et al. 2021: the field benchmark (slide 4 and slide 9; abstract 4%, Coville et al. 2022 report 3.5% from the same data). https://doi.org/10.1016/j.scitotenv.2021.151296
 - [ ] **Santos Nouri et al. 2018**, *Tipuana tipu* and thermal comfort in Lisbon canyons (PET −15.6 °C, cited in Silva 2025). Open access on MDPI. It would give a second candidate species a cooling value. https://doi.org/10.3390/atmos9010012
 - (The full list of papers is in `notes/lit/to_get_manually.md`; the T1 ones matter first.)
 

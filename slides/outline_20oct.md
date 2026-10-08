@@ -28,7 +28,7 @@
 
 ### 4. Literature, runoff side [2:05]
 **Visual:** `slides/fig/02_runoff_evidence.png`, with `01_lit_map.png` small in a corner (or as a backup slide).
-**Say:** "The literature review covers 55 papers. On the runoff side, two findings matter. First, species differ. In field studies a crown intercepts roughly 10 to 70 percent of rainfall, and the main driver is leaf area. Second, the benefit fades as storms grow. A paired-catchment study measured a 4 percent cut in runoff volume from street trees, with no effect on peak flow. So trees are a tool for frequent storms, not for extreme events."
+**Say:** "The literature review covers 61 sources. On the runoff side, two findings matter. First, species differ. In field studies a crown intercepts roughly 10 to 70 percent of rainfall, and the main driver is leaf area. Second, the benefit fades as storms grow. A paired-catchment study measured a 3.5 to 4 percent cut in runoff volume from street trees, with no effect on peak flow. So trees are a tool for frequent storms, not for extreme events."
 
 ### 5. Literature: same tree, two jobs [2:40]
 **Visual:** `slides/fig/03_heat_runoff_traits.png`
@@ -54,7 +54,7 @@
 ### 9. First result and next steps [5:00]
 **Visual:** `notes/figures/runoff_results_v1.png`
 **On slide:** Street trees today: −1.9% runoff in a 2-yr storm (−2.9% on streets and squares); field benchmark 4% · young replacements lose >⅓ of the benefit · benefit shrinks with storm size (H3).
-**Say:** "The runoff module already runs. I calibrated canopy storage on open field data from Freiburg. Today's street trees cut runoff in a 2-year storm by 1.9 percent, or 2.9 percent on streets and squares. That is the same order as the 4 percent measured in the field. Replacing the planes with young trees loses more than a third of that benefit, and the benefit shrinks for bigger storms, as H3 predicts. The heat module is next. Two things would help me: the city's flood depth maps, and access to Infrared City."
+**Say:** "The runoff module already runs. I calibrated canopy storage on open field data from Freiburg. Today's street trees cut runoff in a 2-year storm by 1.9 percent, or 2.9 percent on streets and squares. That is the same order as the 3.5 to 4 percent measured in the field. Replacing the planes with young trees loses more than a third of that benefit, and the benefit shrinks for bigger storms, as H3 predicts. The heat module is next. Two things would help me: the city's flood depth maps, and access to Infrared City."
 
 ---
 
@@ -73,7 +73,7 @@
 **Status of the evidence:** the water link rests on Park et al. 2026 (transpiration 1.15 °C vs shade 0.43 °C), Pace et al. 2025 (soil moisture: dry soils, more runoff reduction; wet soils, more cooling) and Mannucci et al. 2025 (irrigation trade-off). Bartens et al. 2008 is now read in full: roots raise infiltration through compacted subsoil (+63% overall and +153% in the more compacted soil; Ksat ×27 in structural soil over compacted subsoil), with no significant difference between oak and maple. Grey et al. 2018 and Thom et al. 2020, 2021 are not read yet: read them before using this slide. Pit dimensions are not in the open inventory, which has irrigation type (`tipus_reg`) and water type (`tipus_aigua`) only.
 
 ### Other backup material
-- `slides/fig/01_lit_map.png`: what the 55 papers cover, and how many I read in full.
+- `slides/fig/01_lit_map.png`: what the 61 sources cover, and how many I read in full.
 - Site-selection robustness: 2,000 random weightings, thresholds at the 50th/60th/70th percentile (`notes/site_selection.md` §3–4).
 - Calibration: `notes/figures/interception_calibration.png` (s = 1.75 mm per unit LAI; 16 trees, 51 storms).
 - Sensitivity of the tree effect, s = 0.86–2.2 mm per unit LAI: 0.4–4.0% of total runoff (`databases/barcelona/runoff_sensitivity_storage.csv`).
