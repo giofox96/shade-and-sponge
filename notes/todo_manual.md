@@ -13,7 +13,13 @@
   - [ ] Slide format for the 5-min talk (Google Slides assumed).
 
 ### Papers (download in the browser via IAAC access; save to `papers/` and tell me, I'll digest them)
-These carry the gap and evidence slides:
+These carry the gap and evidence slides. **First, the backup slide on tree pits** (`slides/outline_20oct.md` B1):
+- [ ] Grey et al. 2018, tree pits to mitigate runoff in dense urban areas. https://doi.org/10.1016/j.jhydrol.2018.08.038
+- [ ] Thom et al. 2020, tree transpiration and the efficiency of stormwater control measures. https://doi.org/10.1016/j.watres.2020.115597
+- [ ] Thom et al. 2021, choosing species with high transpiration for passively irrigated pits. https://doi.org/10.1016/j.scitotenv.2021.151466
+- [ ] Optional: Bartens et al. 2008, tree roots and infiltration through compacted subsoil. https://doi.org/10.2134/jeq2008.0117
+
+Then the gap and evidence papers:
 - [x] Mannucci 2025, Shaamala 2025, Peng 2026, Wu 2024, Xiao & McPherson 2016, Baptista 2018, Silva 2025: read in full on 8 Oct. The gap holds. Wu 2024 does heat + runoff, but with surface temperature, by scenario, without species and without optimisation.
 - [ ] **Tan et al. 2026**, multi-objective tree configuration: the last one that could overlap our gap. https://doi.org/10.1016/j.scs.2026.107726
 - [ ] Selbig et al. 2021: the 4% field benchmark (slide 4 and slide 9). https://doi.org/10.1016/j.scitotenv.2021.151296

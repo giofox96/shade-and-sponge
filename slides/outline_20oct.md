@@ -59,6 +59,20 @@
 ---
 
 ## Backup slides (only if asked)
+
+### B1. If the tutor finds the scope too narrow: from the crown to the tree as a system
+**Visual:** `slides/fig/07_tree_system_backup.png`
+**On slide:**
+- Core today: species × position → UTCI + runoff.
+- **Extension (one added design variable): the tree pit:** open area, soil volume, surface.
+- Soil: 2–3 pit-soil options from the literature, with sensitivity. There is no stratigraphy data under the streets.
+- Carbon: reported, not optimised (carbon lost when mature planes are replaced).
+
+**Say (~85 words, only if asked):** "If the scope needs to be wider, I would not add parallel themes. I would widen the tree into a system. The pit is the one design variable I'd add, because it links the two goals: it takes runoff from the pavement and stores it as water for transpiration, which cools the air more than shade does. Soil would enter as two or three literature options with sensitivity, since there is no survey under the streets. Carbon would be reported, not optimised."
+
+**Status of the evidence:** the water link rests on Park et al. 2026 (transpiration 1.15 °C vs shade 0.43 °C), Pace et al. 2025 (soil moisture: dry soils, more runoff reduction; wet soils, more cooling) and Mannucci et al. 2025 (irrigation trade-off). The pit papers (Grey et al. 2018; Thom et al. 2020, 2021; Bartens et al. 2008, abstract only so far) are not read yet. Read them before using this slide. Pit dimensions are not in the open inventory, which has irrigation type (`tipus_reg`) and water type (`tipus_aigua`) only.
+
+### Other backup material
 - `slides/fig/01_lit_map.png`: what the 55 papers cover, and how many I read in full.
 - Site-selection robustness: 2,000 random weightings, thresholds at the 50th/60th/70th percentile (`notes/site_selection.md` §3–4).
 - Calibration: `notes/figures/interception_calibration.png` (s = 1.75 mm per unit LAI; 16 trees, 51 storms).

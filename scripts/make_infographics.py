@@ -327,6 +327,47 @@ def fig_method():
          "notes/methodology.md; scripts/bcn_lidar_porta.py, runoff_model.py, calibrate_interception.py.")
 
 
+# ---- 7. Backup: the tree as a system (crown + pit + soil), scope extension
+def fig_tree_system():
+    SOIL, PAVE = "#A47148", "#9CA3AF"
+    b = rect(70, 600, 680, 18, PAVE, rx=0) + t(80, 640, "sealed pavement", 14, MUTED)
+    b += rect(70, 618, 680, 150, SOIL, rx=0, op=0.12) + t(520, 660, "compacted fill: no survey data", 14, MUTED)
+    b += rect(330, 600, 170, 160, SOIL, rx=4, op=0.45) + t(415, 750, "pit soil", 15, BG, "bold", "middle")
+    b += rect(405, 390, 20, 210, "#6B4F3A", rx=3)
+    b += f'<ellipse cx="415" cy="300" rx="210" ry="115" fill="{TREE}" fill-opacity="0.55"/>'
+    b += "".join(line(x, 165, x - 8, 188, RAIN, 3) for x in range(300, 580, 40))
+    b += "".join(line(x, 470, x - 8, 495, RAIN, 3) for x in (110, 150, 190, 230))
+    b += f'<circle cx="700" cy="190" r="34" fill="{HEAT}" fill-opacity="0.85"/>'
+    b += line(665, 215, 600, 255, HEAT, 3, arrow=True)
+    # water path: pavement runoff -> pit -> roots -> crown
+    b += line(110, 590, 320, 590, RAIN, 4, arrow=True) + t(110, 572, "① runoff into the pit", 16, RAIN, "bold")
+    b += line(450, 640, 450, 735, RAIN, 4, "8 6", arrow=True) + t(510, 715, "② infiltration", 16, RAIN, "bold")
+    b += line(432, 580, 432, 420, TREE, 4, "8 6", arrow=True) + t(395, 535, "③ water for transpiration", 16, TREE, "bold", "end")
+    b += t(290, 180, "④ interception", 16, RAIN, "bold", "end")
+    b += line(560, 380, 660, 520, HEAT, 3, arrow=True) + t(622, 448, "⑤ shade + cooling", 16, HEAT, "bold")
+    b += f'<circle cx="690" cy="555" r="9" fill="{INK}"/>' + line(690, 564, 690, 598, INK, 4) + t(705, 582, "UTCI", 14, INK, "bold")
+    cards = [("CROWN", TREE, "core", "Species × position, as in the method today. Data: LiDAR crowns, trait tables."),
+             ("PIT", RAIN, "extension", "Open area, soil volume, surface: one added design variable. Data: pit size is not in the open "
+              "inventory (irrigation type is); municipal planting spec or a tape survey of ~30 pits in Porta."),
+             ("SOIL", SOIL, "parameter", "2-3 pit-soil options (e.g. standard vs structural soil) from the literature, with "
+              "sensitivity. No stratigraphy data exists under the streets."),
+             ("CARBON", INK, "output", "Reported, not optimised: carbon lost when mature planes are replaced by young trees. "
+              "LiDAR allometry or i-Tree Eco.")]
+    y = 160
+    for head, col, tag, txt in cards:
+        p, hh = para(860, y + 66, txt, 640, 17)
+        hgt = max(hh + 84, 120)
+        b += rect(830, y, 710, hgt, col, rx=10, op=0.08) + rect(830, y, 6, hgt, col, rx=0)
+        b += t(860, y + 38, head, 22, col, "bold") + chip(1000, y + 18, tag, col) + p
+        y += hgt + 16
+    tk, _ = para(60, 812, "Hypothesis for the extension: the pit could make the goals work together, turning street runoff "
+                                "into water for transpiration. Not yet tested.", 1480, 20, weight="bold")
+    save("07_tree_system_backup", "If broader: from the crown to the tree as a system",
+         "Backup slide: one added design variable (the pit), soil as a parameter, carbon as an output", b + tk,
+         "Park et al. 2026 (transpiration vs shade); Pace et al. 2025 (soil moisture); Mannucci et al. 2025 (irrigation trade-off); "
+         "data_inventory_barcelona.md A1, B4. To read: Grey et al. 2018; Thom et al. 2020, 2021; Bartens et al. 2008.")
+
+
 if __name__ == "__main__":
     OUT.mkdir(parents=True, exist_ok=True)
     fig_lit_map()
@@ -335,3 +376,4 @@ if __name__ == "__main__":
     fig_gap()
     fig_palette()
     fig_method()
+    fig_tree_system()
