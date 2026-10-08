@@ -20,7 +20,7 @@ These carry the gap and evidence slides. **First, the backup slide on tree pits*
 - [ ] Grey et al. 2018, tree pits to mitigate runoff in dense urban areas. https://doi.org/10.1016/j.jhydrol.2018.08.038
 - [ ] Thom et al. 2020, tree transpiration and the efficiency of stormwater control measures. https://doi.org/10.1016/j.watres.2020.115597
 - [ ] Thom et al. 2021, choosing species with high transpiration for passively irrigated pits. https://doi.org/10.1016/j.scitotenv.2021.151466
-- [ ] Optional: Bartens et al. 2008, tree roots and infiltration through compacted subsoil. https://doi.org/10.2134/jeq2008.0117
+- [x] Bartens et al. 2008, tree roots and infiltration through compacted subsoil: read in full on 8 Oct (also Rahmi et al. 2025). Roots do raise infiltration, but oak vs maple did not differ.
 
 Then the gap and evidence papers:
 - [x] Mannucci 2025, Shaamala 2025, Peng 2026, Wu 2024, Xiao & McPherson 2016, Baptista 2018, Silva 2025: read in full on 8 Oct. The gap holds. Wu 2024 does heat + runoff, but with surface temperature, by scenario, without species and without optimisation.

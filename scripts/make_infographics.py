@@ -350,7 +350,7 @@ def fig_tree_system():
              ("PIT", RAIN, "extension", "Open area, soil volume, surface: one added design variable. Data: pit size is not in the open "
               "inventory (irrigation type is); municipal planting spec or a tape survey of ~30 pits in Porta."),
              ("SOIL", SOIL, "parameter", "2-3 pit-soil options (e.g. standard vs structural soil) from the literature, with "
-              "sensitivity. No stratigraphy data exists under the streets."),
+              "sensitivity. Structural soil: ~78:22 stone:soil, 30-35% porosity (Bartens et al. 2008). No stratigraphy data exists under the streets."),
              ("CARBON", INK, "output", "Reported, not optimised: carbon lost when mature planes are replaced by young trees. "
               "LiDAR allometry or i-Tree Eco.")]
     y = 160
@@ -365,7 +365,7 @@ def fig_tree_system():
     save("07_tree_system_backup", "If broader: from the crown to the tree as a system",
          "Backup slide: one added design variable (the pit), soil as a parameter, carbon as an output", b + tk,
          "Park et al. 2026 (transpiration vs shade); Pace et al. 2025 (soil moisture); Mannucci et al. 2025 (irrigation trade-off); "
-         "data_inventory_barcelona.md A1, B4. To read: Grey et al. 2018; Thom et al. 2020, 2021; Bartens et al. 2008.")
+         "data_inventory_barcelona.md A1, B4. Bartens et al. 2008 (read). Still to read: Grey et al. 2018; Thom et al. 2020, 2021.")
 
 
 if __name__ == "__main__":
