@@ -3,7 +3,7 @@
 ## Language and working rules
 - ALL output must be in English (code comments, docs, notes, slides, speech, thesis text).
 - YAGNI: write only the minimum code needed, keep scripts light, avoid speculative abstractions, keep token use low.
-- Follow the TUTOR'S ORDER OF WORK (see below): problem -> why -> research question -> hypothesis -> methodology (data, tools) -> tool. Do NOT jump ahead to building the tool until the user says the methodology is defined.
+- Follow the TUTOR'S ORDER OF WORK (see below): problem -> why -> research question -> hypothesis -> methodology (data, tools) -> tool. **Exception decided by the user (8 Oct):** tool prototyping starts now, in parallel with the methodology; the methodology stays a draft and the tool must follow it when it changes.
 - Never invent citations, trait values, statistics, or datasets. If something is not in `papers/` or verified from a source, say so.
 - Cite sources for every factual claim in literature notes (author, year, and the file name in `papers/`).
 - Ask at most one clarifying question at a time.
@@ -21,10 +21,15 @@ Project (launch Claude Code here): `...\THESIS_MACAD\1_THESIS_PROJECT\`
 - Zotero: read-only MCP server `mcp-zotero` configured in `.mcp.json`. The key and user ID come from Windows user environment variables `ZOTERO_API_KEY` / `ZOTERO_USER_ID`. Never write them into files. Works locally only (it starts via Windows `cmd`)
 
 ## Agent workflow (set up 7 Oct; guide: `notes/agent_workflow.md`)
-- **Methodology status: NOT DEFINED.** Until the user changes this line to `DEFINED`, agents do research, data and analysis tasks only: no design-tool code (runoff/heat modules, optimiser, Grasshopper components).
+- **Methodology status: PROTOTYPING (user, 8 Oct).** The methodology is a draft (`notes/methodology.md`), but tool code is allowed on `claude/*` branches: core package `shade_sponge/` (see "Tool"). Every parameter in tool code is either sourced (cite it) or marked `ASSUMPTION`. Change this line to `DEFINED` once the methodology is final.
 - Task board = GitHub Issues. `agent-ready` = an agent can do it alone; `needs-user` = waits for the user; `in-progress` = claimed. One issue → one `claude/*` branch → one PR. Agents never push to `main`; the user reviews and merges.
 - Runner: `/agent-task` skill. Subagents in `.claude/agents/`: `lit-scout`, `data-scout`, `method-critic`, `fact-checker` (run it on every diff before committing).
 - Cloud sessions have no `papers/`, no Zotero and no Rhino; Python deps come from `.claude/hooks/session-start.sh` (`requirements.txt`).
+
+## Tool (prototyping since 8 Oct)
+- **Idea:** suggest tree species and positions for a site from its topography, climate and existing trees, to improve ecosystem services. Built site-agnostic (a data adapter per site), but **validated only for heat (UTCI) + runoff in Porta**; Florence = transfer test. More services (carbon, biodiversity) = later modules.
+- **One core, two front-ends:** Python package `shade_sponge/` → (1) Grasshopper (primary user: computational designer; file exchange via `exchange/`, later Hops) with Ladybug for full UTCI; (2) web app for non-technical users (Streamlit or similar, last 2–3 weeks), using the fast heat proxy.
+- **Core modules:** site bundle (grid, surfaces, DTM, buildings, trees) · topography (D8 flow routing → water convergence, positions upstream of flood hotspots) · heat proxy (sun exposure of each position × crown shade, τ = exp(−0.5·LAI)) · runoff (v1 model) · species palette + constraints · layout optimiser (weighted-sum sweep first, NSGA-II later). Run: `python -m shade_sponge` (details in `shade_sponge/README.md`).
 
 ## Who and what
 - User: MaCAD student (Master in Advanced Computation for Architecture & Design, IAAC) developing the thesis.
