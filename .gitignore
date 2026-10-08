@@ -27,3 +27,6 @@ databases/*/raw/
 
 # osmnx HTTP cache
 cache/
+
+# Seminar course material (slides, transcripts, NotebookLM exports); only distilled notes are committed
+seminars/
