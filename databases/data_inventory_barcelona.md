@@ -77,6 +77,7 @@ Caveats: (1) the heat layer is a 2015 *vulnerability* index (exposure + social s
 
 ### H. Trait table (`scripts/build_trait_table.py` → `databases/traits/porta_trait_table.csv`)
 Top-20 Porta species + *Styphnolobium japonicum*; species-level values only, each with its source: LiDAR (this study), **BROT 2.0** (CC0, Figshare collection 3843841; leaf phenology, SLA, LDMC, P50, root depth, wood density), **3TF** (SLA, LDMC, WD, Nmass), **SylvCiT BDD** (drought/shade/flood tolerance), literature measurements. A `gaps` column lists what is missing per species.
+**Leaf-on calendar of the palette (8 Oct):** `databases/traits/phenology_palette.csv` (leaf fraction per month, source per species; months without a source = winter-deciduous class default or a species-specific assumption (Jacaranda Jan–Mar, Tipuana Mar–Apr), all marked in the file). Storm-month shares: `databases/barcelona/storm_months.csv` (Esbrí, Rigo & Llasat 2026, Atmosphere 17(1):41, Fig. 4: 45 intense days 2014–2022, Sep 29%, Oct 22%).
 **Still to obtain (user actions):** i-Tree species list export (i-Tree Eco desktop → View → Species List: leaf persistence, leaf area/biomass relations, shading coefficients); TRY data request (try-db.org) for leaf phenology type, leaf area, wood vessel anatomy and leaf wettability of the palette.
 
 ### I. Runoff inputs added (8 Oct)

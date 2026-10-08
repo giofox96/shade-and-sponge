@@ -30,3 +30,5 @@ cache/
 
 # Seminar course material (slides, transcripts, NotebookLM exports); only distilled notes are committed
 seminars/
+.pytest_cache/
+.ruff_cache/

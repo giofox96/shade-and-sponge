@@ -2,6 +2,9 @@
 
 *8 Oct 2026. Tick items off here, or tell me and I'll update the file. Where a file should go, it's named in each item.*
 
+## Field check, Nov–Mar (decides the size of the winter-sun result)
+- [ ] **Leaf state of Tipuana and Jacaranda in Porta**, every 2–3 weeks from mid-Nov: photograph 5 trees of each from the same spot (one standard frame, sky behind the crown), and note the date and an estimate of leaf cover (0 / ¼ / ½ / ¾ / full). Nou Barris also has 11 Tipuana trees of local interest in Plaça del Virrei Amat (name in the city tree catalogue; possibly renamed Plaça Salvat-Papasseit in 2026, unconfirmed). Save to `databases/barcelona/field_phenology/` as `<species>_<YYYYMMDD>_<n>.jpg` + one `log.csv`. Why: the no-regret winter gain is −9% if Tipuana stays leafed in January and only −2% if it is bare (`shade_sponge/README.md`, sensitivity). The same photos can also give the leafless crown opacity (sky gap fraction).
+
 ## Before the 20 Oct meeting
 
 ### Requests that take time: send them first
@@ -17,7 +20,7 @@ These carry the gap and evidence slides. **First, the backup slide on tree pits*
 - [ ] Grey et al. 2018, tree pits to mitigate runoff in dense urban areas. https://doi.org/10.1016/j.jhydrol.2018.08.038
 - [ ] Thom et al. 2020, tree transpiration and the efficiency of stormwater control measures. https://doi.org/10.1016/j.watres.2020.115597
 - [ ] Thom et al. 2021, choosing species with high transpiration for passively irrigated pits. https://doi.org/10.1016/j.scitotenv.2021.151466
-- [ ] Optional: Bartens et al. 2008, tree roots and infiltration through compacted subsoil. https://doi.org/10.2134/jeq2008.0117
+- [x] Bartens et al. 2008, tree roots and infiltration through compacted subsoil: read in full on 8 Oct (also Rahmi et al. 2025). Roots do raise infiltration, but oak vs maple did not differ.
 
 Then the gap and evidence papers:
 - [x] Mannucci 2025, Shaamala 2025, Peng 2026, Wu 2024, Xiao & McPherson 2016, Baptista 2018, Silva 2025: read in full on 8 Oct. The gap holds. Wu 2024 does heat + runoff, but with surface temperature, by scenario, without species and without optimisation.
