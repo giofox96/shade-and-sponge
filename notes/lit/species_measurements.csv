@@ -3,13 +3,7 @@ Tilia cordata,runoff,event canopy interception (mean of 76 events),70.3,% of gro
 Acer platanoides,runoff,event canopy interception (mean of 76 events),54.8,% of gross rainfall,Anys & Weiler 2024,1,full text digest
 Quercus ilex,runoff,annual interception loss isolated tree,46-51,% of annual P (Mediterranean Spain),Hassan et al. 2017,8,abstract
 Quercus pyrenaica,runoff,annual interception loss isolated tree,10-16,% of annual P,Hassan et al. 2017,8,abstract
-Betula pendula,runoff,interception,23,% of gross rainfall (Ljubljana),Zabret et al. 2019,7,abstract
-Pinus nigra,runoff,interception,45,% of gross rainfall (Ljubljana),Zabret et al. 2019,7,abstract
 Quercus nigra,runoff,interception,30-50,% depending on rain depth,Bean et al. 2021,2,full text digest
-Styphnolobium japonicum,runoff,throughfall-based interception + TLS traits,see paper,value not yet extracted (listed as Sophora japonica),Yang et al. 2019,5,abstract
-Ginkgo biloba,runoff,throughfall-based interception + TLS traits,see paper,value not yet extracted,Yang et al. 2019,5,abstract
-Aesculus turbinata,runoff,throughfall-based interception,see paper,value not yet extracted,Yang et al. 2019,5,abstract
-Styphnolobium japonicum,runoff,infiltration increase vs unplanted (tap roots),118,% (lab tank),Zhang et al. 2019,17,abstract
 Platanus x acerifolia,heat,transpiration cooling during heatwave,33.3,% of incoming solar energy at up to 39.1 C,Bachofen et al. 2025,43,full text digest
 Tilia cordata,heat,transpiration vs Robinia,~4x,higher transpiration; 35% higher LAI,Rahman et al. 2020,44,abstract
 Robinia pseudoacacia,heat,transpiration vs Tilia cordata,~0.25x,lower transpiration and LAI,Rahman et al. 2020,44,abstract
@@ -34,3 +28,17 @@ Tipuana tipu,heat,PET reduction on extreme heat days (secondary citation),15.6,"
 Quercus velutina,runoff,infiltration increase through compacted subsoil vs no-tree control (greenhouse containers),153,"% in the more compacted soil (1.59 g/cm3), pooled with Acer rubrum; 63% all treatments pooled; species difference not significant; Ksat ~3.9e-3 vs 1.3e-3 cm/s",Bartens et al. 2008,16,full text
 Acer rubrum,runoff,infiltration increase through compacted subsoil vs no-tree control (greenhouse containers),153,% pooled with Quercus velutina; Ksat ~3.0e-3 vs 1.3e-3 cm/s at 1.59 g/cm3,Bartens et al. 2008,16,full text
 Fraxinus pennsylvanica,runoff,"saturated hydraulic conductivity, structural soil over compacted subsoil, 2-yr trees (n=5 vs 5)",27x,"Ksat 1.31e-3 vs 4.83e-5 cm/s (~47 vs ~1.7 mm/h); P=0.008; young potted trees, irrigated",Bartens et al. 2008,16,full text
+Ginkgo biloba,runoff,"event interception (mean of 6 events, one tree)",57.93,"% of rain, Seoul, Sept-Oct 2018; range 40.8-82.8; whole-canopy whole-canopy LAI 1.98, central-section LAI 7.02 (the authors' driver)",Yang et al. 2019,5,full text
+Styphnolobium japonicum,runoff,"event interception (mean of 6 events, one tree)",35.79,"% of rain, Seoul, Sept-Oct 2018; listed as Sophora japonica; range 17.2-57.1; whole-canopy LAI 2.61, central-section LAI 5.11 (the authors' driver)",Yang et al. 2019,5,full text
+Aesculus turbinata,runoff,"event interception (mean of 6 events, one tree)",30.58,"% of rain, Seoul, Sept-Oct 2018; range 20.7-40.8; whole-canopy LAI 3.37, central-section LAI 6.37 (the authors' driver)",Yang et al. 2019,5,full text
+Zelkova serrata,runoff,"event interception (mean of 6 events, one tree)",20.59,"% of rain, Seoul, Sept-Oct 2018; range 9.6-30.6; whole-canopy LAI 3.28, central-section LAI 5.02 (the authors' driver)",Yang et al. 2019,5,full text
+Betula pendula,runoff,interception over two years (2 trees),23,"% of gross rainfall, Ljubljana 2014-2015; leafed per-event mean 53%; LAI 2.6 leafed",Zabret & Sraj 2019,7,full text
+Pinus nigra,runoff,interception over two years (2 trees),47,% of gross rainfall (abstract says 45%); LAI 4.3,Zabret & Sraj 2019,7,full text
+Styphnolobium japonicum,runoff,infiltration increase vs unplanted tank (tap roots),118,"% (0.61 vs 0.28 m/d at tank base); young tree, lab tank",Zhang et al. 2019,17,full text
+Malus baccata,runoff,infiltration increase vs unplanted tank (fibrous roots),19,% (0.33 vs 0.28 m/d at tank base),Zhang et al. 2019,17,full text
+Pyrus calleryana,runoff,"winter (leafless) interception, 9-yr Bradford pear, Davis",15,% of winter rain; Xiao et al. 2000 as cited in Kuehler et al. 2017 and Zabret & Sraj 2019,Xiao et al. 2000 (via Kuehler 2017),,secondary
+Jacaranda mimosifolia,runoff,"interception, small tree, Santa Monica (city-scale model)",15.3,%; Xiao & McPherson 2003 as cited in Huang et al. 2017,Xiao & McPherson 2003 (via Huang 2017),,secondary
+Brachychiton populneus,heat,"annual transpiration per tree, Los Angeles",<5000,"kg/yr per tree (Berland: kg yr-1), lowest of the species reported; McCarthy et al. 2011 as cited in Berland et al. 2017",McCarthy et al. 2011 (via Berland 2017),,secondary
+Gleditsia triacanthos,heat,"annual transpiration per tree, Los Angeles",~25000,kg/yr per tree (Berland: kg yr-1); McCarthy et al. 2011 as cited in Berland et al. 2017,McCarthy et al. 2011 (via Berland 2017),,secondary
+Platanus x acerifolia,heat,"transpiration per tree in August, Los Angeles",176.9,kg/tree/day (as P. hybrida) vs 3.2 for Pinus canariensis; Pataki et al. 2011 as cited in Berland et al. 2017,Pataki et al. 2011 (via Berland 2017),,secondary
+Pyrus calleryana,heat,"daily transpiration per unit leaf area, potted trees",0.75-1.04,"mm/day, turf vs parking lot; Kjelgren & Montague 1998 as cited in Kuehler et al. 2017",Kjelgren & Montague 1998 (via Kuehler 2017),,secondary
