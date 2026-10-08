@@ -1,0 +1,10 @@
+# Python deps for scripts/ (cloud sessions; locally use the conda env shade-and-sponge)
+geopandas
+rasterio
+rasterstats
+pandas
+numpy
+matplotlib
+requests
+pystac-client
+planetary-computer
