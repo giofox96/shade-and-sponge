@@ -16,7 +16,7 @@ Each issue below becomes one GitHub issue (title = heading, labels as listed, bo
 | 9 | 20 Oct pack: infographics plan, 5-min talk outline, tutor question sheet | agent-ready, analysis, tutor-question, priority-1 | method-critic |
 | 10 | Extract PDISBA design storms and intense-storm seasonality | needs-user, data, priority-1 | data-scout |
 | 11 | Pick the shared design sub-area and the runoff spatial unit | needs-user, analysis, priority-1 | method-critic |
-| 12 | Tree size: size_category meaning, LiDAR season, sizes, evaluation horizon | needs-user, data, priority-1 | data-scout |
+| 12 | Tree size: size_category meaning, sizes at planting/maturity, horizon | needs-user, data, priority-1 | data-scout |
 | 13 | Verify runoff validation datasets and decide the tree-pit term | needs-user, data, priority-1 | data-scout |
 | 14 | Options memo: f1 proxy, optimiser choice and sensitivity plan | agent-ready, analysis, priority-2 | method-critic |
 
@@ -53,6 +53,8 @@ Each issue below becomes one GitHub issue (title = heading, labels as listed, bo
 Labels: `agent-ready`, `analysis`, `priority-1`
 
 Agent role: method-critic
+
+> **Update 8 Oct (after main commit ca18c02, LiDAR + trait table):** Use the measured LiDAR crowns in `exchange/to_gh/porta_trees_lidar.csv` (per-tree height, crown diameter, crown base, LAI proxy; 2,600 of 2,825 trees) and `databases/barcelona/porta_species_lidar_summary.csv` (species medians) instead of size-class guesses in step 1. Keep ASSUMPTION only for the 225 trees without LiDAR crowns and for new trees. The LAI proxy is uncalibrated (range 1.9–2.9, inventory §G): use it only as one end of the LAI bracket.
 
 ### Goal
 Test, using aggregate arithmetic only, whether the event-runoff objective f2 can tell species palettes in Porta apart. Then draft a runoff metric and H1/H3 wording that can be tested.
@@ -148,6 +150,8 @@ Labels: `agent-ready`, `lit`, `priority-1`
 
 Agent role: lit-scout
 
+> **Update 8 Oct (after main commit ca18c02, LiDAR + trait table):** Start from `databases/traits/porta_trait_table.csv` (BROT 2.0 leaf phenology, SLA, P50; 3TF; SylvCiT tolerances; LiDAR LAI proxy; `lit_runoff` / `lit_heat`; a `gaps` column) and fill only its gaps. Do not copy its values into a second table: add new columns or rows with sources, or reference it. Compare the LiDAR LAI proxy (uncalibrated, inventory §G) with the literature LAI you find.
+
 ### Goal
 Build one sourced, long-format table of canopy parameters for the replacement palette: LAI, transmissivity/k, leaf habit, leaf-out and leaf-fall months, and wood porosity. Classify the measured heat and runoff evidence for each species, and propose a corrected problem-statement sentence.
 
@@ -197,6 +201,8 @@ Open a PR from your claude/* branch and summarise findings + remaining gaps in t
 Labels: `agent-ready`, `lit`, `priority-1`
 
 Agent role: lit-scout
+
+> **Update 8 Oct (after main commit ca18c02, LiDAR + trait table):** `databases/traits/porta_trait_table.csv` already has a `lit_runoff` column and a LiDAR LAI proxy (inventory §H, §G). Reuse them and add only what is missing.
 
 ### Goal
 Define the canopy storage S without ambiguity, source storage capacity and E/R values for Porta's main taxa, and tag every interception value by measure type. Also verify the standard-method references and the unsourced claims in the problem statement.
@@ -345,6 +351,8 @@ Open a PR from your claude/* branch and summarise findings + remaining gaps in t
 Labels: `agent-ready`, `lit`, `priority-1`
 
 Agent role: lit-scout
+
+> **Update 8 Oct (after main commit ca18c02, LiDAR + trait table):** A per-species LiDAR LAI proxy (gap fraction, k = 0.5, uncalibrated, range 1.9–2.9) and measured crown sizes now exist: `databases/barcelona/porta_species_lidar_summary.csv`, inventory §G. Say whether the tau correction can use them, and what calibration it would need.
 
 ### Goal
 Establish, from the ladybug source code and the literature: how Tier 1 treats crowns; whether a sourced tau correction exists; and which Tier 1/Tier 2 agreement and calibration rule the heat validation can use.
@@ -619,11 +627,13 @@ Open a PR from your claude/* branch and summarise findings + remaining gaps in t
 
 ---
 
-## Issue 12: Tree size: size_category meaning, LiDAR season, sizes, evaluation horizon
+## Issue 12: Tree size: size_category meaning, sizes at planting/maturity, horizon
 
 Labels: `needs-user`, `data`, `priority-1`
 
 Agent role: data-scout
+
+> **Update 8 Oct (after main commit ca18c02, LiDAR + trait table):** **Partly done on `main`** (`scripts/bcn_lidar_porta.py`, inventory §G): the LiDAR was **flown 26 Sept 2021 (leaf-on)**, and per-tree crowns exist for 2,600 of 2,825 trees in `exchange/to_gh/porta_trees_lidar.csv` (per-tree height, crown diameter, crown base, LAI proxy; 2,600 of 2,825 trees) and `databases/barcelona/porta_species_lidar_summary.csv` (species medians). So **drop step 2, step 6 and the Done-when items for A3 and `notes/method_lidar_trees.md`**. Still in scope: size_category meaning (steps 1 and 3; also cross-tabulate size_category against measured LiDAR height and crown diameter), sizes at planting and maturity for new trees (step 4), and evaluation-horizon options (step 5). Note the crown-segmentation limits from inventory §G as a caveat.
 
 ### Goal
 Pin down:
@@ -724,6 +734,8 @@ Open a PR from your claude/* branch and summarise findings + remaining gaps in t
 Labels: `agent-ready`, `analysis`, `priority-2`
 
 Agent role: method-critic
+
+> **Update 8 Oct (after main commit ca18c02, LiDAR + trait table):** For the parameter ranges, use `databases/traits/porta_trait_table.csv` and the LiDAR summary (`databases/barcelona/porta_species_lidar_summary.csv`) where they have values.
 
 ### Goal
 Set out the options for how f1 is computed inside the optimisation loop (Tier 1 directly or a calibrated proxy), which optimiser fits the problem structure, and a sensitivity plan with named parameters, method and run budget.
