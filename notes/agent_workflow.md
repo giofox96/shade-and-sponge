@@ -36,7 +36,7 @@ GitHub Issue (agent-ready)
 ## One-time setup still needed
 - [ ] **Merge the setup PR into `main`.** New sessions and routines start from `main`, so they only see the agents, skill and hook after the merge.
 - [ ] **Allow the research hosts in the cloud environment.** The current network policy blocks them (tested 7 Oct). Edit the environment (session title bar → environment → Edit → Network access) and add these hosts: `api.openalex.org`, `api.semanticscholar.org`, `api.crossref.org`, `doi.org`, `opendata-ajuntament.barcelona.cat`, `urbisadmin.carto.com`, `planetarycomputer.microsoft.com`, `*.blob.core.windows.net` (Planetary Computer data), `www.icgc.cat`, `bcnroc.ajuntament.barcelona.cat`, `climate.onebuilding.org`, `freidok.uni-freiburg.de`, `data.comune.fi.it`. Alternatively, choose full network access. Web search and page fetches by the agents themselves still work without this.
-- [ ] Create the first issues (backlog: `notes/agent_backlog.md`).
+- [ ] Create the first 14 issues from `notes/agent_backlog.md` (also lists the decisions only you can take and new tutor questions).
 
 ## What stays with you
 Rhino / Grasshopper / Ladybug runs (`exchange/`), Zotero, paywalled PDFs (`notes/lit/to_get_manually.md`), sending data requests (`notes/data_requests.md`), methodology decisions (`notes/decisions/`), and the tutor.
