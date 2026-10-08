@@ -1,24 +1,24 @@
 # Agent backlog (first batch, 8 Oct 2026)
 
 Made by a methodology audit: 4 lens agents (runoff, heat, traits + optimisation, 20 Oct framing), one adversarial verifier per lens, then a synthesis step. Every item targets **defining the methodology**: no design-tool code (CLAUDE.md gate).
-Each issue below becomes one GitHub issue (title = heading, labels as listed, body = the text under it). Run one with `/agent-task <n>`.
+Each issue below becomes one GitHub issue (title = heading, labels as listed, body = the text under it). Created on GitHub on 8 Oct as issues #2–#15; the GitHub copy is the live one. Run one with `/agent-task <GitHub number>`.
 
-| # | Title | Labels | Agent |
-|---|---|---|---|
-| 1 | Bracket whether design-storm runoff can tell species palettes apart | agent-ready, analysis, priority-1 | method-critic |
-| 2 | Options memo: make H1-H3 falsifiable (metric, comparison, threshold) | agent-ready, analysis, priority-1 | method-critic |
-| 3 | Palette canopy parameters, phenology and evidence check (fix PS claim) | agent-ready, lit, priority-1 | lit-scout |
-| 4 | Define canopy storage S, source interception values, verify method refs | agent-ready, lit, priority-1 | lit-scout |
-| 5 | Screen close prior art and draft contribution statements | agent-ready, lit, priority-1 | lit-scout |
-| 6 | Define heat objective f1 and weather forcing (EPW, wind, urban offset) | agent-ready, analysis, priority-1 | method-critic |
-| 7 | Heat tree representation, tau correction and validation rule from sources | agent-ready, lit, priority-1 | lit-scout |
-| 8 | Replacement scope and S1 baseline: palette, cap headroom, diversity floor | agent-ready, data, analysis, priority-1 | data-scout |
-| 9 | 20 Oct pack: infographics plan, 5-min talk outline, tutor question sheet | agent-ready, analysis, tutor-question, priority-1 | method-critic |
-| 10 | Extract PDISBA design storms and intense-storm seasonality | needs-user, data, priority-1 | data-scout |
-| 11 | Pick the shared design sub-area and the runoff spatial unit | needs-user, analysis, priority-1 | method-critic |
-| 12 | Tree size: size_category meaning, sizes at planting/maturity, horizon | needs-user, data, priority-1 | data-scout |
-| 13 | Verify runoff validation datasets and decide the tree-pit term | needs-user, data, priority-1 | data-scout |
-| 14 | Options memo: f1 proxy, optimiser choice and sensitivity plan | agent-ready, analysis, priority-2 | method-critic |
+| # | GitHub | Title | Labels | Agent |
+|---|---|---|---|---|
+| 1 | [#2](https://github.com/giofox96/shade-and-sponge/issues/2) | Bracket whether design-storm runoff can tell species palettes apart | agent-ready, analysis, priority-1 | method-critic |
+| 2 | [#3](https://github.com/giofox96/shade-and-sponge/issues/3) | Options memo: make H1-H3 falsifiable (metric, comparison, threshold) | agent-ready, analysis, priority-1 | method-critic |
+| 3 | [#4](https://github.com/giofox96/shade-and-sponge/issues/4) | Palette canopy parameters, phenology and evidence check (fix PS claim) | agent-ready, lit, priority-1 | lit-scout |
+| 4 | [#5](https://github.com/giofox96/shade-and-sponge/issues/5) | Define canopy storage S, source interception values, verify method refs | agent-ready, lit, priority-1 | lit-scout |
+| 5 | [#6](https://github.com/giofox96/shade-and-sponge/issues/6) | Screen close prior art and draft contribution statements | agent-ready, lit, priority-1 | lit-scout |
+| 6 | [#7](https://github.com/giofox96/shade-and-sponge/issues/7) | Define heat objective f1 and weather forcing (EPW, wind, urban offset) | agent-ready, analysis, priority-1 | method-critic |
+| 7 | [#8](https://github.com/giofox96/shade-and-sponge/issues/8) | Heat tree representation, tau correction and validation rule from sources | agent-ready, lit, priority-1 | lit-scout |
+| 8 | [#9](https://github.com/giofox96/shade-and-sponge/issues/9) | Replacement scope and S1 baseline: palette, cap headroom, diversity floor | agent-ready, data, analysis, priority-1 | data-scout |
+| 9 | [#10](https://github.com/giofox96/shade-and-sponge/issues/10) | 20 Oct pack: infographics plan, 5-min talk outline, tutor question sheet | agent-ready, analysis, tutor-question, priority-1 | method-critic |
+| 10 | [#11](https://github.com/giofox96/shade-and-sponge/issues/11) | Extract PDISBA design storms and intense-storm seasonality | needs-user, data, priority-1 | data-scout |
+| 11 | [#12](https://github.com/giofox96/shade-and-sponge/issues/12) | Pick the shared design sub-area and the runoff spatial unit | needs-user, analysis, priority-1 | method-critic |
+| 12 | [#13](https://github.com/giofox96/shade-and-sponge/issues/13) | Tree size: size_category meaning, sizes at planting/maturity, horizon | needs-user, data, priority-1 | data-scout |
+| 13 | [#14](https://github.com/giofox96/shade-and-sponge/issues/14) | Verify runoff validation datasets and decide the tree-pit term | needs-user, data, priority-1 | data-scout |
+| 14 | [#15](https://github.com/giofox96/shade-and-sponge/issues/15) | Options memo: f1 proxy, optimiser choice and sensitivity plan | agent-ready, analysis, priority-2 | method-critic |
 
 ## Decisions only you can take
 (The memos from issues 1, 2, 10–13 give you the evidence for these.)
@@ -48,7 +48,7 @@ Each issue below becomes one GitHub issue (title = heading, labels as listed, bo
 
 ---
 
-## Issue 1: Bracket whether design-storm runoff can tell species palettes apart
+## Issue 1 (GitHub #2): Bracket whether design-storm runoff can tell species palettes apart
 
 Labels: `agent-ready`, `analysis`, `priority-1`
 
@@ -95,7 +95,7 @@ Open a PR from your claude/* branch and summarise findings + remaining gaps in t
 
 ---
 
-## Issue 2: Options memo: make H1-H3 falsifiable (metric, comparison, threshold)
+## Issue 2 (GitHub #3): Options memo: make H1-H3 falsifiable (metric, comparison, threshold)
 
 Labels: `agent-ready`, `analysis`, `priority-1`
 
@@ -144,7 +144,7 @@ Open a PR from your claude/* branch and summarise findings + remaining gaps in t
 
 ---
 
-## Issue 3: Palette canopy parameters, phenology and evidence check (fix PS claim)
+## Issue 3 (GitHub #4): Palette canopy parameters, phenology and evidence check (fix PS claim)
 
 Labels: `agent-ready`, `lit`, `priority-1`
 
@@ -196,7 +196,7 @@ Open a PR from your claude/* branch and summarise findings + remaining gaps in t
 
 ---
 
-## Issue 4: Define canopy storage S, source interception values, verify method refs
+## Issue 4 (GitHub #5): Define canopy storage S, source interception values, verify method refs
 
 Labels: `agent-ready`, `lit`, `priority-1`
 
@@ -243,7 +243,7 @@ Open a PR from your claude/* branch and summarise findings + remaining gaps in t
 
 ---
 
-## Issue 5: Screen close prior art and draft contribution statements
+## Issue 5 (GitHub #6): Screen close prior art and draft contribution statements
 
 Labels: `agent-ready`, `lit`, `priority-1`
 
@@ -284,7 +284,7 @@ Open a PR from your claude/* branch and summarise findings + remaining gaps in t
 
 ---
 
-## Issue 6: Define heat objective f1 and weather forcing (EPW, wind, urban offset)
+## Issue 6 (GitHub #7): Define heat objective f1 and weather forcing (EPW, wind, urban offset)
 
 Labels: `agent-ready`, `analysis`, `priority-1`
 
@@ -346,7 +346,7 @@ Open a PR from your claude/* branch and summarise findings + remaining gaps in t
 
 ---
 
-## Issue 7: Heat tree representation, tau correction and validation rule from sources
+## Issue 7 (GitHub #8): Heat tree representation, tau correction and validation rule from sources
 
 Labels: `agent-ready`, `lit`, `priority-1`
 
@@ -399,7 +399,7 @@ Open a PR from your claude/* branch and summarise findings + remaining gaps in t
 
 ---
 
-## Issue 8: Replacement scope and S1 baseline: palette, cap headroom, diversity floor
+## Issue 8 (GitHub #9): Replacement scope and S1 baseline: palette, cap headroom, diversity floor
 
 Labels: `agent-ready`, `data`, `analysis`, `priority-1`
 
@@ -467,7 +467,7 @@ Open a PR from your claude/* branch and summarise findings + remaining gaps in t
 
 ---
 
-## Issue 9: 20 Oct pack: infographics plan, 5-min talk outline, tutor question sheet
+## Issue 9 (GitHub #10): 20 Oct pack: infographics plan, 5-min talk outline, tutor question sheet
 
 Labels: `agent-ready`, `analysis`, `tutor-question`, `priority-1`
 
@@ -523,7 +523,7 @@ Open a PR from your claude/* branch and summarise findings + remaining gaps in t
 
 ---
 
-## Issue 10: Extract PDISBA design storms and intense-storm seasonality
+## Issue 10 (GitHub #11): Extract PDISBA design storms and intense-storm seasonality
 
 Labels: `needs-user`, `data`, `priority-1`
 
@@ -574,11 +574,13 @@ Open a PR from your claude/* branch and summarise findings + remaining gaps in t
 
 ---
 
-## Issue 11: Pick the shared design sub-area and the runoff spatial unit
+## Issue 11 (GitHub #12): Pick the shared design sub-area and the runoff spatial unit
 
 Labels: `needs-user`, `analysis`, `priority-1`
 
 Agent role: method-critic
+
+> **Update 8 Oct (after main commit ca18c02, LiDAR + trait table):** In step 3, use the measured crown diameters in `exchange/to_gh/porta_trees_lidar.csv` (2,600 of 2,825 trees) instead of a size-class bracket. For option C in step 5, a 0.5 m LiDAR DTM already exists locally (`databases/barcelona/raw/lidar/`, gitignored; `scripts/bcn_lidar_porta.py`, inventory §G). Buildings with LiDAR heights are in `exchange/to_gh/porta_buildings.geojson`.
 
 ### Goal
 Find 2-3 candidate design sub-areas where flood hazard, summer LST and plane stock overlap. Set out how the runoff objective counts tree position (the spatial unit), so that both objectives score the same trees.
@@ -627,7 +629,7 @@ Open a PR from your claude/* branch and summarise findings + remaining gaps in t
 
 ---
 
-## Issue 12: Tree size: size_category meaning, sizes at planting/maturity, horizon
+## Issue 12 (GitHub #13): Tree size: size_category meaning, sizes at planting/maturity, horizon
 
 Labels: `needs-user`, `data`, `priority-1`
 
@@ -678,7 +680,7 @@ Open a PR from your claude/* branch and summarise findings + remaining gaps in t
 
 ---
 
-## Issue 13: Verify runoff validation datasets and decide the tree-pit term
+## Issue 13 (GitHub #14): Verify runoff validation datasets and decide the tree-pit term
 
 Labels: `needs-user`, `data`, `priority-1`
 
@@ -729,7 +731,7 @@ Open a PR from your claude/* branch and summarise findings + remaining gaps in t
 
 ---
 
-## Issue 14: Options memo: f1 proxy, optimiser choice and sensitivity plan
+## Issue 14 (GitHub #15): Options memo: f1 proxy, optimiser choice and sensitivity plan
 
 Labels: `agent-ready`, `analysis`, `priority-2`
 

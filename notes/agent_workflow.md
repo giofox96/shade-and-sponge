@@ -39,7 +39,7 @@ GitHub Issue (agent-ready)
   - **Recommended:** full network access, because literature work reaches many publisher hosts.
   - **Minimum:** allow `api.openalex.org`, `api.semanticscholar.org`, `api.crossref.org`, `doi.org`, `www.ebi.ac.uk`, `www.mdpi.com`, `link.springer.com`, `opendata-ajuntament.barcelona.cat`, `urbisadmin.carto.com`, `bcnroc.ajuntament.barcelona.cat`, `www.icgc.cat`, `planetarycomputer.microsoft.com`, `*.blob.core.windows.net`, `climate.onebuilding.org`, `freidok.uni-freiburg.de`, `diposit.ub.edu`, `www.boe.es`, `data.comune.fi.it`.
   - Until then, run the `data` and `lit` issues locally on Windows.
-- [ ] Create the first 14 issues from `notes/agent_backlog.md` (also lists the decisions only you can take and new tutor questions).
+- [x] Create the first 14 issues from `notes/agent_backlog.md` (done 8 Oct: #2–#15) (also lists the decisions only you can take and new tutor questions).
 
 ## What stays with you
 Rhino / Grasshopper / Ladybug runs (`exchange/`), Zotero, paywalled PDFs (`notes/lit/to_get_manually.md`), sending data requests (`notes/data_requests.md`), methodology decisions (`notes/decisions/`), and the tutor.
