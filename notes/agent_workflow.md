@@ -21,6 +21,7 @@ GitHub Issue (agent-ready)
 | `fact-checker` | `.claude/agents/fact-checker.md` | Read-only: checks every new number, citation and dataset claim |
 | Issue template | `.github/ISSUE_TEMPLATE/agent-task.md` | Goal, why, files, steps, done-when |
 | Cloud setup | `.claude/hooks/session-start.sh` + `requirements.txt` | Installs the Python deps in cloud sessions only |
+| CI | `.github/workflows/ci.yml` + `tests/` | On every push that touches Python: ruff (errors only) + data-free core tests. Sessions commit and push on their own (CLAUDE.md, Commit policy) |
 | Gate | CLAUDE.md, `Methodology status:` line | `NOT DEFINED`: no design-tool code. Change it to `DEFINED` yourself |
 
 **Labels:** `agent-ready`, `needs-user`, `in-progress`, `lit`, `data`, `analysis`, `tutor-question`, `priority-1` (for 20 Oct), `priority-2` (before tool building), `priority-3`.
