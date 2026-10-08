@@ -41,5 +41,22 @@ GitHub Issue (agent-ready)
   - Until then, run the `data` and `lit` issues locally on Windows.
 - [x] Create the first 14 issues from `notes/agent_backlog.md` (done 8 Oct: #2–#15) (also lists the decisions only you can take and new tutor questions).
 
+## Nightly routine (one task per night, 04:07 Barcelona time)
+Create it **in the claude.ai Routines page**, not from inside a session. A routine created from a session gets no repository and no GitHub access (tested 8 Oct: clone failed, GitHub 403). In the Routines page:
+- **Repository:** `giofox96/shade-and-sponge`
+- **Environment:** this cloud environment
+- **Schedule:** daily at 04:07, Europe/Madrid. It starts after 4 am, so it doesn't run while you work at night, and it avoids the busy full hour.
+- **Prompt:**
+
+```
+Nightly agent run for giofox96/shade-and-sponge.
+1. If `.claude/skills/agent-task/SKILL.md` is missing on main, reply "Setup PR not merged yet, nothing done" and stop.
+2. Otherwise run /agent-task and follow it exactly: take exactly ONE issue (open, `agent-ready`, not `in-progress`; priority-1 first, oldest first), finish it, open its PR, and stop. Do not start a second issue and do not use the Workflow tool; keep token use low.
+3. If no issue qualifies, reply "Queue empty" and stop.
+4. End with two lines: the issue number and PR link, or why nothing was done.
+```
+
+**Token budget:** one issue per night. The diagnostic run cost about $0.16, but that run stopped early; a full task costs much more. To do more, add a second routine later in the morning rather than raising the limit in the prompt.
+
 ## What stays with you
 Rhino / Grasshopper / Ladybug runs (`exchange/`), Zotero, paywalled PDFs (`notes/lit/to_get_manually.md`), sending data requests (`notes/data_requests.md`), methodology decisions (`notes/decisions/`), and the tutor.
