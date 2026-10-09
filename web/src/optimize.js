@@ -13,19 +13,22 @@ export function caps(pot, share, exclude) {
   return pot.species.map((s, j) => (exclude.includes(s) ? 0 : Math.max(0, Math.floor(share * pot.n_total) - pot.kept[j])))
 }
 
-export async function optimise(pot, weights, { share = pot.max_share, exclude = [] } = {}) {
-  const P = pot.fit.length
+// extra: designer-added trees ({ pot: { summer, winter, water, fit }, species, auto }); a species the designer fixed is kept
+export async function optimise(pot, weights, { share = pot.max_share, exclude = [], extra = [] } = {}) {
+  const P = pot.fit.length + extra.length
+  const val = (k, i, j) => (i < pot.fit.length ? pot[k][i][j] : extra[i - pot.fit.length].pot[{ shade_summer: 'summer', shade_winter: 'winter', water: 'water' }[k]][j])
+  const fits = (i, j) => (i < pot.fit.length ? pot.fit[i][j] : extra[i - pot.fit.length].auto ? extra[i - pot.fit.length].pot.fit[j] : +(extra[i - pot.fit.length].species === j))
   const S = pot.species.length
   const mx = OBJS.map(([k]) => Math.max(...pot[k].flat()))
-  const norm = (i, j) => OBJS.map(([k, sign], n) => (sign * pot[k][i][j]) / mx[n])
-  const cap = caps(pot, share, exclude)
+  const norm = (i, j) => OBJS.map(([k, sign], n) => (sign * val(k, i, j)) / mx[n])
+  const cap = caps({ ...pot, n_total: pot.n_total + extra.length }, share, exclude)
   const obj = []
   const rows = []
   const col = Array.from({ length: S }, () => [])
   for (let i = 0; i < P; i++) {
     const r = []
     for (let j = 0; j < S; j++) {
-      if (!pot.fit[i][j] || !cap[j]) continue
+      if (!fits(i, j) || !cap[j]) continue
       const z = norm(i, j)
       const sc = weights.reduce((a, w, n) => a + w * z[n], 0) + 1e-3 * z.reduce((a, b) => a + b, 0)
       obj.push(`${sc < 0 ? '-' : '+'} ${Math.abs(sc).toFixed(9)} x${i}_${j}`)

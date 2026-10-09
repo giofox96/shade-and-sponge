@@ -1,7 +1,7 @@
 <script setup>
 // Headline numbers of the selected layout, compared with the current trees and with the mean random palette.
 import { computed } from 'vue'
-import { state, scenario, randomMean, calibration, LIVE } from '../store.js'
+import { state, scenario, randomMean, calibration, shownMetrics, LIVE } from '../store.js'
 
 const ROWS = [
   ['shade_summer_m2h', 'Summer shade', 'm²·h', 1],
@@ -16,7 +16,7 @@ const good = (v, sign) => (Math.abs(v) < 0.05 ? '' : v * sign > 0 ? 'good' : 'ba
 
 const rows = computed(() =>
   ROWS.map(([k, name, unit, sign]) => {
-    const v = scenario.value?.metrics[k] ?? 0
+    const v = shownMetrics.value?.[k] ?? 0
     return { k, name, unit, sign, v, vs0: pct(v, s0.value?.metrics[k]), vrnd: pct(v, randomMean.value?.[k]) }
   }),
 )
@@ -25,7 +25,7 @@ const mix = computed(() => {
   const n = Object.values(c).reduce((a, b) => a + b, 0)
   return state.meta.palette.filter((p) => c[p.species]).map((p) => ({ ...p, n: c[p.species], w: (100 * c[p.species]) / n }))
 })
-const isLive = computed(() => state.scenarioId === LIVE)
+const isLive = computed(() => state.scenarioId === LIVE || state.added.length > 0)
 const r2 = (k) => calibration.value?.[k]?.r2.toFixed(2)
 const winterRange = computed(() => {
   const v = (state.meta?.sensitivity ?? []).map((r) => r.free_gain_winter_pct)
@@ -48,7 +48,8 @@ const winterRange = computed(() => {
   <div v-if="mix.length" class="mix" aria-label="Species mix of the replaced positions">
     <span v-for="m in mix" :key="m.species" :style="{ width: m.w + '%', background: m.color }" :title="`${m.species}: ${m.n}`"></span>
   </div>
-  <p v-if="isLive" class="note live">
+  <p v-if="state.added.length" class="note live">Includes {{ state.added.length }} added tree{{ state.added.length > 1 ? 's' : '' }}, estimated with the same calibration.</p>
+  <p v-if="state.scenarioId === LIVE" class="note live">
     Live estimate in {{ state.live.ms }} ms: summed single-tree potentials, calibrated on the 16 saved layouts
     (R² summer {{ r2('shade_summer_m2h') }}, winter {{ r2('shade_winter_m2h') }}, hotspot runoff {{ r2('runoff_hot_m3') }}).
     Exact values need a run of the Python tool.

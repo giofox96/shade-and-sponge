@@ -6,10 +6,10 @@ import { Map as MapLibreMap, NavigationControl, setWorkerUrl } from 'maplibre-gl
 import workerUrl from 'maplibre-gl/dist/maplibre-gl-worker.mjs?url' // v6 looks for the worker next to its module; Vite moves it
 import 'maplibre-gl/dist/maplibre-gl.css'
 import { MapboxOverlay } from '@deck.gl/mapbox'
-import { BitmapLayer, GeoJsonLayer } from '@deck.gl/layers'
+import { BitmapLayer, GeoJsonLayer, ScatterplotLayer } from '@deck.gl/layers'
 import { SimpleMeshLayer } from '@deck.gl/mesh-layers'
 import { SphereGeometry } from '@luma.gl/engine'
-import { state, dataUrl, hexToRgb, currentLayout } from '../store.js'
+import { state, dataUrl, hexToRgb, currentLayout, addTreeAt } from '../store.js'
 
 setWorkerUrl(workerUrl)
 const el = ref(null)
@@ -26,6 +26,11 @@ function crowns() {
   const dims = (i) => {
     if (isS0) return [p.s0_crown_diam_m[i], p.s0_height_m[i], p.s0_crown_base_m[i]]
     const s = pal[lay[i]]
+    return [s.crown_diam_m, s.height_m, s.crown_base_m]
+  }
+  const add = state.added
+  const aDims = (t) => {
+    const s = pal[t.species]
     return [s.crown_diam_m, s.height_m, s.crown_base_m]
   }
   const k = state.trees.kept
@@ -62,6 +67,29 @@ function crowns() {
         getScale: [scenarioId, state.live?.version],
         getColor: [scenarioId, state.live?.version, month, selected],
       },
+    }),
+    new ScatterplotLayer({
+      id: 'added-rings',
+      data: add,
+      getPosition: (t) => [t.lon, t.lat, 0.3],
+      getRadius: (t) => aDims(t)[0] / 2 + 0.8,
+      radiusUnits: 'meters',
+      stroked: true,
+      filled: false,
+      getLineColor: (t, { index }) => (selected === `a${index}` ? [24, 95, 165] : [255, 255, 255]),
+      lineWidthMinPixels: 2,
+      updateTriggers: { getRadius: state.addedVersion, getLineColor: [selected, state.addedVersion] },
+    }),
+    new SimpleMeshLayer({
+      id: 'added',
+      data: add,
+      mesh: sphere,
+      pickable: true,
+      getPosition: (t) => [t.lon, t.lat, (aDims(t)[1] + aDims(t)[2]) / 2],
+      getScale: (t) => [aDims(t)[0] / 2, aDims(t)[0] / 2, Math.max(aDims(t)[1] - aDims(t)[2], 1) / 2],
+      getColor: (t) => [...hexToRgb(pal[t.species].color), Math.round(60 + 170 * pal[t.species].leaf[month - 1])],
+      onClick: ({ index }) => (state.selected = `a${index}`),
+      updateTriggers: { getPosition: state.addedVersion, getScale: state.addedVersion, getColor: [state.addedVersion, month] },
     }),
   ]
 }
@@ -100,7 +128,12 @@ onMounted(() => {
   overlay = new MapboxOverlay({
     interleaved: false,
     layers: layers(),
-    getTooltip: ({ layer, index }) => {
+    getCursor: ({ isHovering }) => (state.addMode ? 'crosshair' : isHovering ? 'pointer' : 'grab'),
+    onClick: (info) => {
+      if (state.addMode && !info.layer && info.coordinate) addTreeAt(info.coordinate[0], info.coordinate[1])
+    },
+    getTooltip: ({ layer, index, object }) => {
+      if (layer?.id === 'added') return { text: `${state.meta.palette[object.species].species} (added)` }
       if (layer?.id !== 'positions' || index < 0) return null
       return { text: state.meta.palette[currentLayout()[index]].species }
     },
@@ -110,7 +143,7 @@ onMounted(() => {
 })
 
 watch(
-  () => [state.scenarioId, state.live?.version, state.overlay, state.month, state.selected],
+  () => [state.scenarioId, state.live?.version, state.overlay, state.month, state.selected, state.addedVersion],
   () => overlay?.setProps({ layers: layers() }),
 )
 

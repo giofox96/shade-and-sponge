@@ -55,3 +55,7 @@ select, input[type='range'] { width: 100%; }
 }
 .sources { line-height: 1.5; }
 .sources a { color: var(--accent); }
+.seg { display: inline-flex; gap: 0; }
+.seg button { border-radius: 0; }
+.seg button:first-child { border-radius: 6px 0 0 6px; }
+.seg button:last-child { border-radius: 0 6px 6px 0; }

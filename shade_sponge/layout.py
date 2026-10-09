@@ -12,11 +12,29 @@ from . import heat, runoff, season
 CITY_PALETTE = ["Celtis australis", "Melia azedarach", "Pyrus calleryana", "Jacaranda mimosifolia", "Tipuana tipu",
                 "Brachychiton populneus"]   # named by the city as plane replacements (notes/topic_decision.md §7)
 MAX_SHARE = 0.15                            # tree master plan: no species above 15% (notes/topic_decision.md §7)
+MIN_LIDAR = 20                              # ASSUMPTION: species need >= 20 LiDAR-measured trees for median traits
 
 
-def palette(site, names=CITY_PALETTE):
-    """Species traits = median of the species' trees in Porta (LiDAR 2021) and how many more each may get (cap)."""
-    s = pd.read_csv(DB / "porta_species_lidar_summary.csv").set_index("species").loc[names]
+def slug(species):
+    """Column-safe species name: 'Tilia x euchlora' -> 'tilia_euchlora', 'Citrus × aurantium' -> 'citrus_aurantium'."""
+    return "_".join(w for w in species.lower().replace("×", "x").split() if w != "x")
+
+
+def palette_names(kind):
+    """'city': the six species the city names as plane replacements; 'barcelona': the shortlist of species common in
+    Barcelona's streets (scripts/species_shortlist.py) with enough LiDAR-measured trees (scripts/bcn_lidar_species.py)."""
+    if kind == "city":
+        return CITY_PALETTE, "porta_species_lidar_summary.csv"
+    sl = pd.read_csv(DB / "species_shortlist.csv")
+    n = pd.read_csv(DB / "species_lidar_summary.csv").set_index("species").n
+    return [s for s in sl[sl.status == "candidate"].species if n.get(s, 0) >= MIN_LIDAR], "species_lidar_summary.csv"
+
+
+def palette(site, kind="city"):
+    """Species traits = median of the species' LiDAR-measured trees (Porta only for 'city'; Porta + three city tiles
+    for 'barcelona') and how many more each may get under the cap."""
+    names, summary = palette_names(kind)
+    s = pd.read_csv(DB / summary).set_index("species").loc[names]
     p = pd.DataFrame(dict(species=names, crown_diam_m=s.crown_diam_med.values, height_m=s.height_med.values,
                           crown_base_m=s.crown_base_med.values, lai=s.lai_proxy_med.values, n_lidar=s.n.values))
     t = site.trees

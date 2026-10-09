@@ -1,4 +1,147 @@
 {
+ "palette_kind": "city",
+ "grid": {
+  "W": 1123,
+  "H": 1055,
+  "res": 1.0,
+  "x0": 430828.1425,
+  "y1": 4587890.4122,
+  "corners": [
+   [
+    2.172118,
+    41.430106
+   ],
+   [
+    2.171997,
+    41.439608
+   ],
+   [
+    2.185439,
+    41.439704
+   ],
+   [
+    2.185557,
+    41.430202
+   ]
+  ],
+  "file": "grid.bin.gz",
+  "origin": [
+   430800,
+   4586800
+  ]
+ },
+ "model": {
+  "suns": {
+   "summer": [
+    [
+     1.020201,
+     2.089921
+    ],
+    [
+     1.167078,
+     2.51927
+    ],
+    [
+     1.225559,
+     3.176756
+    ],
+    [
+     1.155291,
+     3.815833
+    ],
+    [
+     1.003073,
+     4.224419
+    ],
+    [
+     0.819086,
+     4.486663
+    ]
+   ],
+   "winter": [
+    [
+     0.256687,
+     2.392798
+    ],
+    [
+     0.373515,
+     2.618053
+    ],
+    [
+     0.449697,
+     2.870944
+    ],
+    [
+     0.476343,
+     3.141986
+    ],
+    [
+     0.449799,
+     3.413062
+    ],
+    [
+     0.373707,
+     3.666044
+    ]
+   ]
+  },
+  "months": {
+   "summer": 7,
+   "winter": 1
+  },
+  "K": 0.5,
+  "Z_PED": 1.1,
+  "OP_BARE": 0.35,
+  "R_OFF": 0.5,
+  "s_mm_per_lai": 1.75,
+  "p_mm": 31.92,
+  "storms": [
+   [
+    1,
+    0.07
+   ],
+   [
+    3,
+    0.02
+   ],
+   [
+    4,
+    0.02
+   ],
+   [
+    5,
+    0.02
+   ],
+   [
+    6,
+    0.07
+   ],
+   [
+    7,
+    0.07
+   ],
+   [
+    8,
+    0.11
+   ],
+   [
+    9,
+    0.29
+   ],
+   [
+    10,
+    0.22
+   ],
+   [
+    11,
+    0.09
+   ],
+   [
+    12,
+    0.02
+   ]
+  ]
+ },
  "site": {
   "name": "Porta",
   "center": [
@@ -231,10 +374,10 @@
    "in_layouts": true,
    "metrics": {
     "shade_summer_m2h": 359310.0,
-    "shade_winter_m2h": 217003.0,
-    "runoff_hot_m3": 2681.6,
-    "runoff_m3": 17665.7,
-    "interception_m3": 797.3
+    "shade_winter_m2h": 188656.1,
+    "runoff_hot_m3": 2682.5,
+    "runoff_m3": 17669.3,
+    "interception_m3": 793.2
    },
    "counts": {}
   },
@@ -246,10 +389,10 @@
    "in_layouts": true,
    "metrics": {
     "shade_summer_m2h": 290711.0,
-    "shade_winter_m2h": 209052.3,
-    "runoff_hot_m3": 2697.1,
-    "runoff_m3": 17735.1,
-    "interception_m3": 710.7
+    "shade_winter_m2h": 181193.9,
+    "runoff_hot_m3": 2697.9,
+    "runoff_m3": 17738.7,
+    "interception_m3": 706.6
    },
    "counts": {
     "Celtis australis": 127,
@@ -268,10 +411,10 @@
    "in_layouts": false,
    "metrics": {
     "shade_summer_m2h": 287868.4,
-    "shade_winter_m2h": 206804.5,
-    "runoff_hot_m3": 2698.0,
-    "runoff_m3": 17737.1,
-    "interception_m3": 707.7
+    "shade_winter_m2h": 179122.5,
+    "runoff_hot_m3": 2698.8,
+    "runoff_m3": 17740.7,
+    "interception_m3": 703.6
    },
    "counts": {
     "Celtis australis": 127,
@@ -290,10 +433,10 @@
    "in_layouts": false,
    "metrics": {
     "shade_summer_m2h": 289344.1,
-    "shade_winter_m2h": 207989.0,
-    "runoff_hot_m3": 2697.3,
-    "runoff_m3": 17736.2,
-    "interception_m3": 709.5
+    "shade_winter_m2h": 180026.7,
+    "runoff_hot_m3": 2698.2,
+    "runoff_m3": 17739.9,
+    "interception_m3": 705.4
    },
    "counts": {
     "Celtis australis": 127,
@@ -312,10 +455,10 @@
    "in_layouts": false,
    "metrics": {
     "shade_summer_m2h": 290723.4,
-    "shade_winter_m2h": 206151.2,
-    "runoff_hot_m3": 2696.8,
-    "runoff_m3": 17735.3,
-    "interception_m3": 711.3
+    "shade_winter_m2h": 178120.3,
+    "runoff_hot_m3": 2697.6,
+    "runoff_m3": 17738.9,
+    "interception_m3": 707.2
    },
    "counts": {
     "Celtis australis": 127,
@@ -334,10 +477,10 @@
    "in_layouts": false,
    "metrics": {
     "shade_summer_m2h": 290777.0,
-    "shade_winter_m2h": 208005.1,
-    "runoff_hot_m3": 2697.9,
-    "runoff_m3": 17734.9,
-    "interception_m3": 711.1
+    "shade_winter_m2h": 180297.9,
+    "runoff_hot_m3": 2698.8,
+    "runoff_m3": 17738.6,
+    "interception_m3": 707.0
    },
    "counts": {
     "Celtis australis": 127,
@@ -356,10 +499,10 @@
    "in_layouts": false,
    "metrics": {
     "shade_summer_m2h": 289468.0,
-    "shade_winter_m2h": 206007.1,
-    "runoff_hot_m3": 2696.4,
-    "runoff_m3": 17736.4,
-    "interception_m3": 709.8
+    "shade_winter_m2h": 178067.2,
+    "runoff_hot_m3": 2697.3,
+    "runoff_m3": 17740.0,
+    "interception_m3": 705.7
    },
    "counts": {
     "Celtis australis": 127,
@@ -378,10 +521,10 @@
    "in_layouts": false,
    "metrics": {
     "shade_summer_m2h": 291474.5,
-    "shade_winter_m2h": 207853.2,
-    "runoff_hot_m3": 2696.6,
-    "runoff_m3": 17734.4,
-    "interception_m3": 711.3
+    "shade_winter_m2h": 179956.0,
+    "runoff_hot_m3": 2697.5,
+    "runoff_m3": 17738.0,
+    "interception_m3": 707.2
    },
    "counts": {
     "Celtis australis": 127,
@@ -400,10 +543,10 @@
    "in_layouts": false,
    "metrics": {
     "shade_summer_m2h": 289457.7,
-    "shade_winter_m2h": 207565.9,
-    "runoff_hot_m3": 2697.7,
-    "runoff_m3": 17736.0,
-    "interception_m3": 710.2
+    "shade_winter_m2h": 179687.6,
+    "runoff_hot_m3": 2698.6,
+    "runoff_m3": 17739.7,
+    "interception_m3": 706.0
    },
    "counts": {
     "Celtis australis": 127,
@@ -422,10 +565,10 @@
    "in_layouts": false,
    "metrics": {
     "shade_summer_m2h": 290718.9,
-    "shade_winter_m2h": 208470.3,
-    "runoff_hot_m3": 2698.3,
-    "runoff_m3": 17736.2,
-    "interception_m3": 710.8
+    "shade_winter_m2h": 180741.1,
+    "runoff_hot_m3": 2699.2,
+    "runoff_m3": 17739.8,
+    "interception_m3": 706.6
    },
    "counts": {
     "Celtis australis": 127,
@@ -444,10 +587,10 @@
    "in_layouts": false,
    "metrics": {
     "shade_summer_m2h": 291721.1,
-    "shade_winter_m2h": 208849.6,
-    "runoff_hot_m3": 2697.1,
-    "runoff_m3": 17735.1,
-    "interception_m3": 711.1
+    "shade_winter_m2h": 181009.3,
+    "runoff_hot_m3": 2698.0,
+    "runoff_m3": 17738.7,
+    "interception_m3": 707.0
    },
    "counts": {
     "Celtis australis": 127,
@@ -470,10 +613,10 @@
    "in_layouts": true,
    "metrics": {
     "shade_summer_m2h": 331114.1,
-    "shade_winter_m2h": 202792.9,
-    "runoff_hot_m3": 2690.9,
-    "runoff_m3": 17708.1,
-    "interception_m3": 750.4
+    "shade_winter_m2h": 174570.8,
+    "runoff_hot_m3": 2691.8,
+    "runoff_m3": 17711.7,
+    "interception_m3": 746.3
    },
    "counts": {
     "Celtis australis": 37,
@@ -496,10 +639,10 @@
    "in_layouts": true,
    "metrics": {
     "shade_summer_m2h": 279755.7,
-    "shade_winter_m2h": 180018.0,
-    "runoff_hot_m3": 2689.3,
-    "runoff_m3": 17732.7,
-    "interception_m3": 706.7
+    "shade_winter_m2h": 151724.6,
+    "runoff_hot_m3": 2690.1,
+    "runoff_m3": 17736.3,
+    "interception_m3": 702.6
    },
    "counts": {
     "Celtis australis": 127,
@@ -522,10 +665,10 @@
    "in_layouts": true,
    "metrics": {
     "shade_summer_m2h": 278890.9,
-    "shade_winter_m2h": 179699.5,
-    "runoff_hot_m3": 2689.0,
-    "runoff_m3": 17732.8,
-    "interception_m3": 706.3
+    "shade_winter_m2h": 151406.1,
+    "runoff_hot_m3": 2689.9,
+    "runoff_m3": 17736.4,
+    "interception_m3": 702.2
    },
    "counts": {
     "Celtis australis": 127,
@@ -548,10 +691,10 @@
    "in_layouts": true,
    "metrics": {
     "shade_summer_m2h": 278341.8,
-    "shade_winter_m2h": 179592.1,
-    "runoff_hot_m3": 2689.1,
-    "runoff_m3": 17732.8,
-    "interception_m3": 705.9
+    "shade_winter_m2h": 151302.6,
+    "runoff_hot_m3": 2689.9,
+    "runoff_m3": 17736.4,
+    "interception_m3": 701.8
    },
    "counts": {
     "Celtis australis": 127,
@@ -574,10 +717,10 @@
    "in_layouts": true,
    "metrics": {
     "shade_summer_m2h": 271357.2,
-    "shade_winter_m2h": 178209.4,
-    "runoff_hot_m3": 2699.0,
-    "runoff_m3": 17735.5,
-    "interception_m3": 699.3
+    "shade_winter_m2h": 149942.4,
+    "runoff_hot_m3": 2699.9,
+    "runoff_m3": 17739.1,
+    "interception_m3": 695.2
    },
    "counts": {
     "Celtis australis": 127,
@@ -600,10 +743,10 @@
    "in_layouts": true,
    "metrics": {
     "shade_summer_m2h": 331457.3,
-    "shade_winter_m2h": 221762.3,
-    "runoff_hot_m3": 2690.4,
-    "runoff_m3": 17707.5,
-    "interception_m3": 748.1
+    "shade_winter_m2h": 193930.3,
+    "runoff_hot_m3": 2691.2,
+    "runoff_m3": 17711.1,
+    "interception_m3": 744.0
    },
    "counts": {
     "Celtis australis": 20,
@@ -626,10 +769,10 @@
    "in_layouts": true,
    "metrics": {
     "shade_summer_m2h": 331392.6,
-    "shade_winter_m2h": 202023.3,
-    "runoff_hot_m3": 2690.7,
-    "runoff_m3": 17708.2,
-    "interception_m3": 750.3
+    "shade_winter_m2h": 173765.0,
+    "runoff_hot_m3": 2691.6,
+    "runoff_m3": 17711.8,
+    "interception_m3": 746.2
    },
    "counts": {
     "Celtis australis": 59,
@@ -652,10 +795,10 @@
    "in_layouts": true,
    "metrics": {
     "shade_summer_m2h": 313841.8,
-    "shade_winter_m2h": 189664.8,
-    "runoff_hot_m3": 2690.0,
-    "runoff_m3": 17713.8,
-    "interception_m3": 735.4
+    "shade_winter_m2h": 161318.0,
+    "runoff_hot_m3": 2690.9,
+    "runoff_m3": 17717.4,
+    "interception_m3": 731.3
    },
    "counts": {
     "Celtis australis": 64,
@@ -678,10 +821,10 @@
    "in_layouts": true,
    "metrics": {
     "shade_summer_m2h": 296952.6,
-    "shade_winter_m2h": 181404.4,
-    "runoff_hot_m3": 2694.4,
-    "runoff_m3": 17720.4,
-    "interception_m3": 721.1
+    "shade_winter_m2h": 153057.6,
+    "runoff_hot_m3": 2695.3,
+    "runoff_m3": 17724.0,
+    "interception_m3": 717.0
    },
    "counts": {
     "Celtis australis": 64,
@@ -704,10 +847,10 @@
    "in_layouts": true,
    "metrics": {
     "shade_summer_m2h": 331509.8,
-    "shade_winter_m2h": 221704.8,
-    "runoff_hot_m3": 2690.4,
-    "runoff_m3": 17707.6,
-    "interception_m3": 748.0
+    "shade_winter_m2h": 193872.8,
+    "runoff_hot_m3": 2691.2,
+    "runoff_m3": 17711.2,
+    "interception_m3": 743.9
    },
    "counts": {
     "Celtis australis": 32,
@@ -730,10 +873,10 @@
    "in_layouts": true,
    "metrics": {
     "shade_summer_m2h": 331572.5,
-    "shade_winter_m2h": 202361.8,
-    "runoff_hot_m3": 2690.6,
-    "runoff_m3": 17707.9,
-    "interception_m3": 750.4
+    "shade_winter_m2h": 174103.5,
+    "runoff_hot_m3": 2691.5,
+    "runoff_m3": 17711.5,
+    "interception_m3": 746.2
    },
    "counts": {
     "Celtis australis": 65,
@@ -756,10 +899,10 @@
    "in_layouts": true,
    "metrics": {
     "shade_summer_m2h": 331206.3,
-    "shade_winter_m2h": 201565.1,
-    "runoff_hot_m3": 2691.1,
-    "runoff_m3": 17708.5,
-    "interception_m3": 750.0
+    "shade_winter_m2h": 173293.9,
+    "runoff_hot_m3": 2691.9,
+    "runoff_m3": 17712.1,
+    "interception_m3": 745.9
    },
    "counts": {
     "Celtis australis": 68,
@@ -782,10 +925,10 @@
    "in_layouts": true,
    "metrics": {
     "shade_summer_m2h": 331467.7,
-    "shade_winter_m2h": 222148.2,
-    "runoff_hot_m3": 2690.4,
-    "runoff_m3": 17707.5,
-    "interception_m3": 747.9
+    "shade_winter_m2h": 194316.2,
+    "runoff_hot_m3": 2691.3,
+    "runoff_m3": 17711.1,
+    "interception_m3": 743.8
    },
    "counts": {
     "Celtis australis": 37,
@@ -808,10 +951,10 @@
    "in_layouts": true,
    "metrics": {
     "shade_summer_m2h": 331587.0,
-    "shade_winter_m2h": 202607.1,
-    "runoff_hot_m3": 2690.6,
-    "runoff_m3": 17707.8,
-    "interception_m3": 750.2
+    "shade_winter_m2h": 174295.5,
+    "runoff_hot_m3": 2691.5,
+    "runoff_m3": 17711.4,
+    "interception_m3": 746.1
    },
    "counts": {
     "Celtis australis": 66,
@@ -834,10 +977,10 @@
    "in_layouts": true,
    "metrics": {
     "shade_summer_m2h": 331421.3,
-    "shade_winter_m2h": 222073.3,
-    "runoff_hot_m3": 2690.8,
-    "runoff_m3": 17707.3,
-    "interception_m3": 747.9
+    "shade_winter_m2h": 194221.4,
+    "runoff_hot_m3": 2691.6,
+    "runoff_m3": 17711.0,
+    "interception_m3": 743.7
    },
    "counts": {
     "Celtis australis": 46,
@@ -887,11 +1030,11 @@
  "sensitivity": [
   {
    "variant": "base",
-   "free_gain_winter_pct": -8.9,
+   "free_gain_winter_pct": -10.4,
    "free_gain_summer_pct": 0.0,
    "bal_vs_random_summer_pct": 14.6,
-   "bal_vs_random_winter_pct": -2.7,
-   "heavy_vs_bal_winter_pct": -11.2,
+   "bal_vs_random_winter_pct": -3.3,
+   "heavy_vs_bal_winter_pct": -13.0,
    "heavy_vs_bal_summer_pct": -15.9,
    "tipuana_summer_only": 284,
    "tipuana_balanced": 186,
@@ -900,11 +1043,11 @@
   },
   {
    "variant": "op_bare_0.25",
-   "free_gain_winter_pct": -11.6,
+   "free_gain_winter_pct": -14.5,
    "free_gain_summer_pct": 0.0,
    "bal_vs_random_summer_pct": 14.6,
-   "bal_vs_random_winter_pct": -6.6,
-   "heavy_vs_bal_winter_pct": -10.1,
+   "bal_vs_random_winter_pct": -8.4,
+   "heavy_vs_bal_winter_pct": -12.7,
    "heavy_vs_bal_summer_pct": -15.0,
    "tipuana_summer_only": 284,
    "tipuana_balanced": 186,
@@ -913,11 +1056,11 @@
   },
   {
    "variant": "op_bare_0.54",
-   "free_gain_winter_pct": -4.7,
+   "free_gain_winter_pct": -5.0,
    "free_gain_summer_pct": 0.0,
    "bal_vs_random_summer_pct": 14.6,
-   "bal_vs_random_winter_pct": 3.1,
-   "heavy_vs_bal_winter_pct": -13.2,
+   "bal_vs_random_winter_pct": 3.2,
+   "heavy_vs_bal_winter_pct": -13.9,
    "heavy_vs_bal_summer_pct": -18.9,
    "tipuana_summer_only": 284,
    "tipuana_balanced": 186,
@@ -926,11 +1069,11 @@
   },
   {
    "variant": "tipuana_bare_jan_feb",
-   "free_gain_winter_pct": -2.2,
+   "free_gain_winter_pct": -2.6,
    "free_gain_summer_pct": -0.0,
    "bal_vs_random_summer_pct": 14.5,
    "bal_vs_random_winter_pct": 0.9,
-   "heavy_vs_bal_winter_pct": -9.8,
+   "heavy_vs_bal_winter_pct": -11.6,
    "heavy_vs_bal_summer_pct": -16.0,
    "tipuana_summer_only": 284,
    "tipuana_balanced": 186,
@@ -939,11 +1082,11 @@
   },
   {
    "variant": "jacaranda_half_jan_mar",
-   "free_gain_winter_pct": -4.2,
+   "free_gain_winter_pct": -4.8,
    "free_gain_summer_pct": -0.0,
    "bal_vs_random_summer_pct": 14.5,
    "bal_vs_random_winter_pct": 1.0,
-   "heavy_vs_bal_winter_pct": -14.3,
+   "heavy_vs_bal_winter_pct": -16.6,
    "heavy_vs_bal_summer_pct": -17.7,
    "tipuana_summer_only": 284,
    "tipuana_balanced": 186,
@@ -952,11 +1095,11 @@
   },
   {
    "variant": "winter_21dec",
-   "free_gain_winter_pct": -4.0,
+   "free_gain_winter_pct": -4.7,
    "free_gain_summer_pct": 0.0,
    "bal_vs_random_summer_pct": 14.6,
-   "bal_vs_random_winter_pct": 0.3,
-   "heavy_vs_bal_winter_pct": -14.0,
+   "bal_vs_random_winter_pct": 0.1,
+   "heavy_vs_bal_winter_pct": -16.2,
    "heavy_vs_bal_summer_pct": -17.2,
    "tipuana_summer_only": 284,
    "tipuana_balanced": 186,
@@ -965,11 +1108,11 @@
   },
   {
    "variant": "winter_15feb",
-   "free_gain_winter_pct": -8.4,
+   "free_gain_winter_pct": -9.8,
    "free_gain_summer_pct": 0.0,
    "bal_vs_random_summer_pct": 14.6,
-   "bal_vs_random_winter_pct": 0.3,
-   "heavy_vs_bal_winter_pct": -13.0,
+   "bal_vs_random_winter_pct": 0.2,
+   "heavy_vs_bal_winter_pct": -15.1,
    "heavy_vs_bal_summer_pct": -17.7,
    "tipuana_summer_only": 284,
    "tipuana_balanced": 186,
