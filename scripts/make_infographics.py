@@ -97,11 +97,11 @@ def fig_lit_map():
             c.setdefault(b.strip(), [0, 0])["full text" in r["read_level"]] += 1   # [abstract, full text]
     n_full = sum("full text" in r["read_level"] for r in rows)
     groups = [("Runoff side", RAIN, [("B1", "Interception & runoff traits"), ("B2", "Runoff modelling"),
-                                     ("B4", "Flood context (Italy)")]),
+                                     ("B4", "Flood context & policy")]),
               ("Bridge", TREE, [("B3", "Species selection & decision tools"), ("B5", "Design & optimisation precedents"),
                                 ("B8", "Heat-flood trade-offs"), ("B6", "Co-benefits")]),
               ("Heat side", HEAT, [("B7", "Heat, shade & cooling"), ("B9", "City screening (heat + flood)")])]
-    b, y, x0, k = "", 170, 480, 26
+    b, y, x0, k = "", 170, 480, 22
     for g, col, items in groups:
         b += t(60, y, g.upper(), 15, col, "bold")
         y += 12
@@ -121,7 +121,7 @@ def fig_lit_map():
     b += t(x, 540, str(len(rows) - n_full), 72, MUTED, "bold") + t(x, 572, "from abstracts (full text pending)", 21, MUTED)
     tk, _ = para(1150, 650, "Two large literatures, runoff and heat. The bridge between them, species traits judged on "
                             "both goals at once, is thin: that is where this thesis sits.", 390, 21, weight="bold")
-    save("01_lit_map", "What the literature review covers", f"{len(rows)} sources screened in 9 themes (7-8 Oct 2026)",
+    save("01_lit_map", "What the literature review covers", f"{len(rows)} sources screened in 9 themes (7-9 Oct 2026)",
          b + tk, "notes/lit/literature_matrix.csv (OpenAlex / Semantic Scholar search, own screening).")
 
 
@@ -222,27 +222,29 @@ def fig_gap():
     b = "".join(para(x, 190, c, 160, 17, weight="bold", anchor="middle")[0] for x, c in zip(cx, cols))
     rows = [("Nicol et al. 2026: SylvCiT", "Trait-based species recommender, Montreal; runoff module disabled; diversity traits only", [0, 0, .5, .5]),
             ("Pacetti et al. 2022", "Pluvial-flood hotspot index for siting NBS, Florence; no runoff simulation", [0, .5, 0, .5]),
+            ("Cortinovis et al. 2022", "Barcelona-wide NBS scenarios: InVEST heat index + curve-number runoff; trees as land cover", [.5, 1, 0, 0]),
+            ("Hao et al. 2023", "Genetic algorithm places identical trees in a Hong Kong park for UTCI; no species", [1, 0, 0, .5]),
             ("Wu et al. 2024", "Canopy energy balance + SWMM, Sendai; LAI and greening scenarios, surface temperature", [.5, 1, .5, 0]),
             ("Mannucci et al. 2025", "Grasshopper + Ladybug + curve number, one square in Rome; scenarios, trees as shade only", [1, 1, 0, 0]),
             ("Shaamala et al. 2025", "Ant-colony optimisation of 42 trees and 4 species (chosen by crown shape) against UTCI", [1, 0, .5, 1]),
             ("Peng et al. 2026", "Ladybug + NSGA-II with LAI-based canopy transmittance; generic tree types, UTCI and cost", [1, 0, .5, 1]),
             ("This thesis", "Plane-tree replacement in Porta, Barcelona: species and positions for UTCI and runoff", [1, 1, 1, 1])]
-    y = 250
+    y = 240
     for name, sub, v in rows:
         me = name == "This thesis"
         if me:
-            b += rect(45, y - 8, 1510, 70, TREE, op=0.1)
+            b += rect(45, y - 6, 1510, 60, TREE, op=0.1)
         b += t(60, y + 20, name, 21, TREE if me else INK, "bold")
-        s, _ = para(60, y + 46, sub, 760, 16, fill=MUTED)
+        s, _ = para(60, y + 44, sub, 760, 16, fill=MUTED)
         b += s
         for x, val, col in zip(cx, v, (HEAT, RAIN, TREE, INK)):
-            b += ball(x, y + 30, val, col, 17)
-        y += 74
+            b += ball(x, y + 28, val, col, 16)
+        y += 60
     b += legend_balls(60, y + 20)
     save("04_gap_matrix", "No method yet chooses species and positions for heat and runoff together",
          "Closest precedents from the review vs this thesis", b,
-         "literature_matrix.csv rows 18, 28, 51-53, 56 (all read in full). Half ball: Wu = surface temperature, not UTCI; "
-         "Shaamala = crown shape only; Peng = generic LAI classes. Still to screen: Tan et al. 2026.")
+         "literature_matrix.csv rows 18, 28, 51-53, 56, 62, 69 (all read in full). Half ball: Wu = surface temperature, not UTCI; "
+         "Cortinovis = heat index, not UTCI; Hao = positions only; Shaamala = crown shape only; Peng = generic LAI classes. Still to screen: Tan et al. 2026.")
 
 
 # ---- 5. Data gap for the replacement palette
