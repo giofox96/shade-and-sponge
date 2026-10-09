@@ -6,7 +6,7 @@ import { use } from 'echarts/core'
 import { ScatterChart } from 'echarts/charts'
 import { GridComponent, TooltipComponent, LegendComponent } from 'echarts/components'
 import { CanvasRenderer } from 'echarts/renderers'
-import { state, label } from '../store.js'
+import { state, label, scenario, LIVE } from '../store.js'
 
 use([ScatterChart, GridComponent, TooltipComponent, LegendComponent, CanvasRenderer])
 
@@ -30,20 +30,25 @@ const option = computed(() => {
     legend: { top: 0, itemWidth: 10, itemHeight: 10, textStyle: { fontSize: 11 } },
     tooltip: {
       formatter: (p) => {
-        const s = sc.find((x) => x.id === p.data.id)
+        const s = p.data.id === LIVE ? scenario.value : sc.find((x) => x.id === p.data.id)
         return `${label(s)}<br>summer ${Math.round(p.value[0])}k · winter ${Math.round(p.value[1])}k m²·h`
       },
     },
     xAxis: { name: 'summer shade (k m²·h) →', nameLocation: 'middle', nameGap: 24, scale: true, nameTextStyle: { fontSize: 11 } },
     yAxis: { name: 'winter shade ↓', nameLocation: 'middle', nameGap: 32, scale: true, nameTextStyle: { fontSize: 11 } },
-    series: groups.map(([g, name, color, symbol]) => ({
-      type: 'scatter', name, symbol, itemStyle: { color },
-      data: sc.filter((s) => s.group === g).map(pt),
-    })),
+    series: [
+      ...groups.map(([g, name, color, symbol]) => ({
+        type: 'scatter', name, symbol, itemStyle: { color },
+        data: sc.filter((s) => s.group === g).map(pt),
+      })),
+      ...(state.live ? [{ type: 'scatter', name: 'Live (estimate)', symbol: 'triangle', itemStyle: { color: '#d85a30' },
+        data: [{ ...pt({ id: LIVE, metrics: state.live.metrics }), symbolSize: state.scenarioId === LIVE ? 16 : 11 }] }] : []),
+    ],
   }
 })
 
 function onClick(p) {
+  if (p.data?.id === LIVE) return void (state.scenarioId = LIVE)
   const s = state.meta.scenarios.find((x) => x.id === p.data?.id)
   if (s && (s.in_layouts || s.id === 'S0_current')) state.scenarioId = s.id
 }

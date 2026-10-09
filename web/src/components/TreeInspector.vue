@@ -1,10 +1,10 @@
 <script setup>
 // Selected position: its context (sun, water) and what each palette species would deliver there.
 import { computed } from 'vue'
-import { state, MONTHS } from '../store.js'
+import { state, MONTHS, currentLayout } from '../store.js'
 
 const i = computed(() => state.selected)
-const lay = computed(() => state.trees.layouts[state.scenarioId] ?? state.trees.layouts.S0_current)
+const lay = computed(() => (state.live?.version, currentLayout()))
 const sp = computed(() => (i.value == null ? null : state.meta.palette[lay.value[i.value]]))
 const p = computed(() => state.trees.positions)
 const options = computed(() =>

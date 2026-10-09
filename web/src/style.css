@@ -32,6 +32,9 @@ section { padding: 10px 0; border-bottom: 0.5px solid var(--line); }
 section:last-child { border-bottom: 0; }
 h3 { font-size: 13px; font-weight: 500; margin: 0 0 8px; display: flex; justify-content: space-between; }
 .muted { color: var(--muted); }
+.accent { color: var(--accent); }
+.danger { color: #a32d2d; }
+.legend input { margin: 0; }
 .small { font-size: 11px; line-height: 1.45; margin: 4px 0 0; }
 .btns { display: flex; gap: 6px; flex-wrap: wrap; }
 button, select {

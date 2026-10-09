@@ -9,7 +9,7 @@ import { MapboxOverlay } from '@deck.gl/mapbox'
 import { BitmapLayer, GeoJsonLayer } from '@deck.gl/layers'
 import { SimpleMeshLayer } from '@deck.gl/mesh-layers'
 import { SphereGeometry } from '@luma.gl/engine'
-import { state, dataUrl, hexToRgb } from '../store.js'
+import { state, dataUrl, hexToRgb, currentLayout } from '../store.js'
 
 setWorkerUrl(workerUrl)
 const el = ref(null)
@@ -19,7 +19,7 @@ const sphere = new SphereGeometry({ nlat: 10, nlong: 16, radius: 1 })
 function crowns() {
   const { trees, meta, scenarioId, month, selected } = state
   const p = trees.positions
-  const lay = trees.layouts[scenarioId] ?? trees.layouts.S0_current
+  const lay = currentLayout()
   const isS0 = scenarioId === 'S0_current'
   const pal = meta.palette
   const ids = [...p.lon.keys()]
@@ -57,7 +57,11 @@ function crowns() {
         return [...hexToRgb(s.color), i === selected ? 255 : Math.round(60 + 170 * leaf)]
       },
       onClick: ({ index }) => (state.selected = index),
-      updateTriggers: { getPosition: scenarioId, getScale: scenarioId, getColor: [scenarioId, month, selected] },
+      updateTriggers: {
+        getPosition: [scenarioId, state.live?.version],
+        getScale: [scenarioId, state.live?.version],
+        getColor: [scenarioId, state.live?.version, month, selected],
+      },
     }),
   ]
 }
@@ -98,8 +102,7 @@ onMounted(() => {
     layers: layers(),
     getTooltip: ({ layer, index }) => {
       if (layer?.id !== 'positions' || index < 0) return null
-      const lay = state.trees.layouts[state.scenarioId] ?? state.trees.layouts.S0_current
-      return { text: state.meta.palette[lay[index]].species }
+      return { text: state.meta.palette[currentLayout()[index]].species }
     },
   })
   map.addControl(overlay)
@@ -107,7 +110,7 @@ onMounted(() => {
 })
 
 watch(
-  () => [state.scenarioId, state.overlay, state.month, state.selected],
+  () => [state.scenarioId, state.live?.version, state.overlay, state.month, state.selected],
   () => overlay?.setProps({ layers: layers() }),
 )
 

@@ -1,6 +1,6 @@
 <script setup>
-import { onMounted } from 'vue'
-import { state, load, scenario, label, MONTHS, BALANCED } from './store.js'
+import { onMounted, watch } from 'vue'
+import { state, load, scenario, label, runLive, MONTHS, BALANCED, LIVE } from './store.js'
 import MapView from './components/MapView.vue'
 import PriorityTriangle from './components/PriorityTriangle.vue'
 import TradeoffChart from './components/TradeoffChart.vue'
@@ -8,6 +8,15 @@ import KpiPanel from './components/KpiPanel.vue'
 import TreeInspector from './components/TreeInspector.vue'
 
 onMounted(() => load())
+
+// Constraints changed: re-optimise live with the weights on screen (live or a precomputed optimised layout)
+watch(
+  () => [state.share, state.exclude.length],
+  () => {
+    const w = state.scenarioId === LIVE ? state.live?.weights : scenario.value?.weights
+    if (w) runLive(w)
+  },
+)
 </script>
 
 <template>
@@ -33,7 +42,14 @@ onMounted(() => load())
       <section>
         <h3>Priorities</h3>
         <PriorityTriangle />
-        <p class="muted small">Each point is a precomputed optimal layout for those weights. Blue points are on the trade-off front.</p>
+        <p class="muted small">Dots: precomputed optimal layouts (exact scores; blue = on the trade-off front). Click anywhere else to re-optimise live in your browser (estimate).</p>
+        <p v-if="state.busy" class="small accent">Optimising…</p>
+        <p v-if="state.liveError" class="small danger">{{ state.liveError }}</p>
+      </section>
+      <section>
+        <h3>Max share per species <span class="muted">{{ Math.round(state.share * 100) }}%</span></h3>
+        <input type="range" min="0.05" max="0.3" step="0.01" v-model.number="state.share" />
+        <p class="muted small">Of all {{ state.pot.n_total.toLocaleString('en') }} street trees, as in the city tree plan (15%). Changing it re-optimises live.</p>
       </section>
       <section>
         <h3>Map layer</h3>
@@ -48,11 +64,14 @@ onMounted(() => load())
         <p class="muted small">Crown opacity follows each species' leaf calendar.</p>
       </section>
       <section>
-        <h3>Species</h3>
+        <h3>Species <span class="muted">untick to exclude</span></h3>
         <ul class="legend">
           <li v-for="p in state.meta.palette" :key="p.species">
+            <input v-if="p.in_palette" type="checkbox" :value="p.species" :checked="!state.exclude.includes(p.species)"
+                   :aria-label="`Allow ${p.species}`"
+                   @change="state.exclude = $event.target.checked ? state.exclude.filter((x) => x !== p.species) : [...state.exclude, p.species]" />
             <span class="dot" :style="{ background: p.color }"></span>{{ p.species }}
-            <span class="muted">{{ p.in_palette ? `cap ${p.cap}` : 'current' }}</span>
+            <span class="muted">{{ p.in_palette ? p.leaf_habit.split(' ')[0] : 'current' }}</span>
           </li>
         </ul>
       </section>

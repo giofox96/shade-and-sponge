@@ -73,7 +73,9 @@ json.dump(trees, open(out / "trees.json", "w"), separators=(",", ":"))
 
 # per-position potentials (palette order) + fit, for live optimisation
 g = [s.split()[0].lower() for s in pal.species]
-pot = dict(species=list(pal.species), cap=pal.cap.tolist(), fit=layout.fits(site, pos, pal).astype(int).tolist(),
+kept_n = site.trees[~site.trees.is_plane].sp.value_counts().reindex(pal.species).fillna(0).astype(int)   # as layout.palette()
+pot = dict(species=list(pal.species), cap=pal.cap.tolist(), n_total=len(site.trees), kept=kept_n.tolist(),
+           max_share=layout.MAX_SHARE, fit=layout.fits(site, pos, pal).astype(int).tolist(),
            shade_summer=P[[f"shade_summer_m2h_{x}" for x in g]].values.tolist(),
            shade_winter=P[[f"shade_winter_m2h_{x}" for x in g]].values.tolist(),
            water=P[[f"water_m3_{x}" for x in g]].values.tolist())
