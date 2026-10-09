@@ -267,7 +267,8 @@ def fig_palette():
              ("Pyrus calleryana", 4): ("b", "Pyrus: UTCI -3.5 to -6.3 °C, but modelled as a default ENVI-met tree, so it reflects size, not species (Silva et al. 2025)"),
              ("Tipuana tipu", 4): ("c", "Tipuana: PET -15.6 °C, second-hand only (Santos Nouri et al. 2018, cited in Silva et al. 2025)"),
              ("Jacaranda mimosifolia", 3): ("d", "Jacaranda: 15.3% interception for a small tree, city-scale model, second-hand (Xiao & McPherson 2003, cited in Huang et al. 2017)"),
-             ("Brachychiton populneus", 4): ("e", "Brachychiton: transpiration only (lowest of the Los Angeles species), second-hand (McCarthy et al. 2011, cited in Berland et al. 2017)")}
+             ("Brachychiton populneus", 4): ("e", "Brachychiton, Jacaranda: water use only, second-hand (McCarthy et al. 2011 via Berland et al. 2017; Pataki et al. 2011 via Thom et al. 2022)"),
+             ("Jacaranda mimosifolia", 4): ("e", "Brachychiton, Jacaranda: water use only, second-hand (McCarthy et al. 2011 via Berland et al. 2017; Pataki et al. 2011 via Thom et al. 2022)")}
     cx = [700, 880, 1060, 1240, 1420]
     b = "".join(para(x, 175, c, 170, 16, weight="bold", anchor="middle", fill=col)[0] for x, (c, col, _) in zip(cx, cols))
     y = 225
@@ -283,8 +284,8 @@ def fig_palette():
             b += line(60, y + 62, 1540, y + 62, GRID, 2)
         y += 56 if not cur else 70
     b += legend_balls(60, y + 10)
-    b += "".join(t(60, y + 40 + 18 * j, f"({k}) {v}", 14, MUTED) for j, (k, v) in enumerate(notes.values()))
-    tk, _ = para(60, y + 70 + 18 * len(notes), "Every candidate's crown can be measured on site. Rain storage is measured for one candidate (Pyrus), "
+    b += "".join(t(60, y + 40 + 18 * j, f"({k}) {v}", 14, MUTED) for j, (k, v) in enumerate(dict.fromkeys(notes.values())))
+    tk, _ = para(60, y + 70 + 18 * len(set(notes.values())), "Every candidate's crown can be measured on site. Rain storage is measured for one candidate (Pyrus), "
                               "plus Celtis through a congener; cooling values are only modelled or second-hand. The method fills the gaps "
                               "with trait proxies and sensitivity ranges, and reports them as a finding.", 1480, 19, weight="bold")
     save("05_palette_data_gap", "The replacement palette: crowns we can measure, rain and cooling mostly not",
@@ -357,7 +358,8 @@ def fig_tree_system():
     cards = [("CROWN", TREE, "core", "Species × position, as in the method today. Data: LiDAR crowns, trait tables."),
              ("PIT", RAIN, "extension", "Open area, soil volume, surface: one added design variable. Pit size is not in the open inventory: "
               "municipal spec or a tape survey of ~30 pits in Porta. Once sealed surfaces drain onto the tree's soil, the "
-              "canopy benefit fades and soil infiltration controls runoff (Marrazzo & Raimondi 2025, model)."),
+              "canopy benefit fades and soil infiltration controls runoff (Marrazzo & Raimondi 2025, model). A 0.72 m\u00b2 pit draining ~200 m\u00b2 "
+              "kept ~11% of its runoff; ~90% needs a pit of 2.5-8% of its catchment (Grey et al. 2018)."),
              ("SOIL", SOIL, "parameter", "2-3 pit-soil options (e.g. standard vs structural soil) from the literature, with "
               "sensitivity. Structural soil: ~78:22 stone:soil, 30-35% porosity (Bartens et al. 2008). No stratigraphy data exists under the streets."),
              ("CARBON", INK, "output", "Reported, not optimised: carbon lost when mature planes are replaced by young trees. "
@@ -365,16 +367,16 @@ def fig_tree_system():
     y = 160
     for head, col, tag, txt in cards:
         p, hh = para(860, y + 66, txt, 640, 17)
-        hgt = max(hh + 70, 110)
+        hgt = max(hh + 62, 100)
         b += rect(830, y, 710, hgt, col, rx=10, op=0.08) + rect(830, y, 6, hgt, col, rx=0)
         b += t(860, y + 38, head, 22, col, "bold") + chip(1000, y + 18, tag, col) + p
-        y += hgt + 14
-    tk, _ = para(60, 812, "Hypothesis for the extension: the pit could make the goals work together, turning street runoff "
-                                "into water for transpiration. Not yet tested.", 1480, 20, weight="bold")
+        y += hgt + 12
+    tk, _ = para(60, 796, "Hypothesis for the extension: the pit could link the goals, turning street runoff into water for transpiration. Mixed evidence: "
+                                "trees transpired the equivalent of 17% of their catchment's runoff, but the trench did not raise it (Thom et al. 2020).", 1480, 19, weight="bold")
     save("07_tree_system_backup", "If broader: from the crown to the tree as a system",
          "Backup slide: one added design variable (the pit), soil as a parameter, carbon as an output", b + tk,
          "Park et al. 2026 (transpiration vs shade); Pace et al. 2025 (soil moisture); Mannucci et al. 2025 (irrigation trade-off); "
-         "data_inventory_barcelona.md A1, B4. Bartens et al. 2008; Marrazzo & Raimondi 2025 (read). Still to read: Grey et al. 2018; Thom et al. 2020, 2021.")
+         "data_inventory_barcelona.md A1, B4. Bartens et al. 2008; Marrazzo & Raimondi 2025; Grey et al. 2018; Thom et al. 2020, 2022 (all read).")
 
 
 if __name__ == "__main__":

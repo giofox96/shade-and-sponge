@@ -2,17 +2,14 @@
 
 Paywalled, or no open-access PDF found by the search. Get them through Zotero / IAAC access, save them in `papers/`, then tell Claude, which reads them and updates `literature_matrix.csv`. T1 = screened as most relevant, T2 = second tier.
 
-**Status 9 Oct 2026:** 40 of 96 obtained and read in full; 56 of the list still to get, plus 1 added by hand (Santos Nouri 2018). Years in the entries are the search's (often online) years; the matrix uses the issue year (e.g. Zölch 2019, Cortinovis 2022, Marrazzo 2025).
+**Status 9 Oct 2026:** 43 of 96 obtained and read in full; 53 of the list still to get, plus 1 added by hand (Santos Nouri 2018). Years in the entries are the search's (often online) years; the matrix uses the issue year (e.g. Zölch 2019, Cortinovis 2022, Marrazzo 2025).
 
-## 1. Get these first (12)
-Selbig, Dowtin, Hassan, de Mello, Rahman 2019, Speak, Kaluarachchi and Santos Nouri carry claims that the slides, figures or notes now take from abstracts or second-hand; Grey and Thom are needed for backup slide B1; Tan is the last gap check.
+## 1. Get these first (9)
+Selbig, Dowtin, Hassan, de Mello, Rahman 2019, Speak, Kaluarachchi and Santos Nouri carry claims that the slides, figures or notes now take from abstracts or second-hand; Tan is the last gap check.
 
 - [ ] [T1] William R. Selbig (2021). Quantifying the stormwater runoff volume reduction benefits of urban street tree canopy. https://doi.org/10.1016/j.scitotenv.2021.151296 **Why:** the field benchmark on slides 4 and 9 (now read only from the abstract and via Coville 2022). (matrix #10, abstract only)
 - [ ] [T2] Zhe Tan (2026). Surrogate-assisted multi-objective optimization of micro-scale urban tree configurations for heat-stress mitigation with ecological co-benefits. https://doi.org/10.1016/j.scs.2026.107726 **Why:** surrogate-assisted multi-objective tree configuration: the last paper that could overlap the gap.
 - [ ] [T1] Asia L. Dowtin (2023). Towards optimized runoff reduction by urban tree cover: A review of key physical tree traits, site conditions, and management strategies. https://doi.org/10.1016/j.landurbplan.2023.104849 **Why:** review of the tree traits that reduce runoff. (matrix #4, abstract only)
-- [ ] [T2] Vaughn Grey (2018). Tree pits to help mitigate runoff in dense urban areas. https://doi.org/10.1016/j.jhydrol.2018.08.038 **Why:** tree pits in dense streets (backup slide B1).
-- [ ] [T1] Jasmine K. Thom (2020). Transpiration by established trees could increase the efficiency of stormwater control measures. https://doi.org/10.1016/j.watres.2020.115597 **Why:** transpiration in stormwater tree pits (backup slide B1).
-- [ ] [T2] Jasmine K. Thom (2021). Selecting tree species with high transpiration and drought avoidance to optimise runoff reduction in passive irrigation systems. https://doi.org/10.1016/j.scitotenv.2021.151466 **Why:** species with high transpiration for passively irrigated pits (backup slide B1).
 - [ ] [T1] Tarique Hassan (2017). Remote sensing upscaling of interception loss from isolated oaks: Sardon catchment case study, Spain. https://doi.org/10.1016/j.jhydrol.2017.08.016 **Why:** Quercus ilex vs Q. pyrenaica bars in figure 2 (abstract only). (matrix #8, abstract only)
 - [ ] [T1] Carlos Rogério de Mello (2024). Deciphering global patterns of forest canopy rainfall interception (FCRI): A synthesis of geographical, forest species, and methodological influences. https://doi.org/10.1016/j.jenvman.2024.120879 **Why:** global median interception line in figure 2 (abstract only). (matrix #34, abstract only)
 - [ ] [T1] Mohammad A. Rahman (2019). Traits of trees for cooling urban heat islands: A meta-analysis. https://doi.org/10.1016/j.buildenv.2019.106606 **Why:** tree-trait cooling meta-analysis, figure 3 (abstract only). (matrix #38, abstract only)
@@ -73,8 +70,11 @@ Selbig, Dowtin, Hassan, de Mello, Rahman 2019, Speak, Kaluarachchi and Santos No
 - [ ] [T2] Julie Schooling (2015). The influence of rainfall depth class and deciduous tree traits on stemflow production in an urban park. https://doi.org/10.1007/s11252-015-0441-0
 - [ ] [T2] Alireza Nooraei Beidokhti (2021). The effects of precipitation, tree phenology, leaf area index, and bark characteristics on throughfall rates by urban trees: A meta-data analysis. https://doi.org/10.1016/j.ufug.2021.127052
 
-## 3. Obtained and read in full (40)
+## 3. Obtained and read in full (43)
 
+- [x] [T2] Vaughn Grey (2018). Tree pits to help mitigate runoff in dense urban areas. https://doi.org/10.1016/j.jhydrol.2018.08.038 (matrix #77, full text (9 Oct))
+- [x] [T1] Jasmine K. Thom (2020). Transpiration by established trees could increase the efficiency of stormwater control measures. https://doi.org/10.1016/j.watres.2020.115597 (matrix #78, full text (9 Oct))
+- [x] [T2] Jasmine K. Thom (2021). Selecting tree species with high transpiration and drought avoidance to optimise runoff reduction in passive irrigation systems. https://doi.org/10.1016/j.scitotenv.2021.151466 (matrix #79, full text (9 Oct))
 - [x] [T1] Julia Bartens (2008). Can Urban Tree Roots Improve Infiltration through Compacted Subsoils for Stormwater Management?. https://doi.org/10.2134/jeq2008.0117 (matrix #16, full text (8 Oct))
 - [x] [T1] Rizna Rahmi (2025). From native status to functional traits: Rethinking plant selections in global bioretention guidelines. https://doi.org/10.1016/j.ecoleng.2025.107545 (matrix #26, full text (8 Oct))
 - [x] [T1] Dashuai Zhang (2019). Increase and Spatial Variation in Soil Infiltration Rates Associated with Fibrous and Tap Tree Roots. https://doi.org/10.3390/w11081700 (matrix #17, full text (8 Oct))
