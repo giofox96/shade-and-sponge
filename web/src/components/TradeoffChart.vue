@@ -26,7 +26,7 @@ const option = computed(() => {
   })
   return {
     animation: false,
-    grid: { left: 44, right: 10, top: 28, bottom: 38 },
+    grid: { left: 44, right: 10, top: state.live ? 48 : 28, bottom: 38 },
     legend: { top: 0, itemWidth: 10, itemHeight: 10, textStyle: { fontSize: 11 } },
     tooltip: {
       formatter: (p) => {
@@ -42,7 +42,8 @@ const option = computed(() => {
         data: sc.filter((s) => s.group === g).map(pt),
       })),
       ...(state.live ? [{ type: 'scatter', name: 'Live (estimate)', symbol: 'triangle', itemStyle: { color: '#d85a30' },
-        data: [{ ...pt({ id: LIVE, metrics: state.live.metrics }), symbolSize: state.scenarioId === LIVE ? 16 : 11 }] }] : []),
+        data: [{ ...pt({ id: LIVE, metrics: state.live.metrics }), symbolSize: state.scenarioId === LIVE ? 16 : 11,
+                 itemStyle: { color: '#d85a30', borderColor: '#fff', borderWidth: state.scenarioId === LIVE ? 2 : 0 } }] }] : []),
     ],
   }
 })
