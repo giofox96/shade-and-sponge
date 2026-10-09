@@ -1,0 +1,1129 @@
+{
+ "palette_kind": "city",
+ "grid": {
+  "W": 1123,
+  "H": 1055,
+  "res": 1.0,
+  "x0": 430828.1425,
+  "y1": 4587890.4122,
+  "corners": [
+   [
+    2.172118,
+    41.430106
+   ],
+   [
+    2.171997,
+    41.439608
+   ],
+   [
+    2.185439,
+    41.439704
+   ],
+   [
+    2.185557,
+    41.430202
+   ]
+  ],
+  "file": "grid.bin.gz",
+  "origin": [
+   430800,
+   4586800
+  ]
+ },
+ "model": {
+  "suns": {
+   "summer": [
+    [
+     1.020201,
+     2.089921
+    ],
+    [
+     1.167078,
+     2.51927
+    ],
+    [
+     1.225559,
+     3.176756
+    ],
+    [
+     1.155291,
+     3.815833
+    ],
+    [
+     1.003073,
+     4.224419
+    ],
+    [
+     0.819086,
+     4.486663
+    ]
+   ],
+   "winter": [
+    [
+     0.256687,
+     2.392798
+    ],
+    [
+     0.373515,
+     2.618053
+    ],
+    [
+     0.449697,
+     2.870944
+    ],
+    [
+     0.476343,
+     3.141986
+    ],
+    [
+     0.449799,
+     3.413062
+    ],
+    [
+     0.373707,
+     3.666044
+    ]
+   ]
+  },
+  "months": {
+   "summer": 7,
+   "winter": 1
+  },
+  "K": 0.5,
+  "Z_PED": 1.1,
+  "OP_BARE": 0.35,
+  "R_OFF": 0.5,
+  "s_mm_per_lai": 1.75,
+  "p_mm": 31.92,
+  "storms": [
+   [
+    1,
+    0.07
+   ],
+   [
+    3,
+    0.02
+   ],
+   [
+    4,
+    0.02
+   ],
+   [
+    5,
+    0.02
+   ],
+   [
+    6,
+    0.07
+   ],
+   [
+    7,
+    0.07
+   ],
+   [
+    8,
+    0.11
+   ],
+   [
+    9,
+    0.29
+   ],
+   [
+    10,
+    0.22
+   ],
+   [
+    11,
+    0.09
+   ],
+   [
+    12,
+    0.02
+   ]
+  ]
+ },
+ "site": {
+  "name": "Porta",
+  "center": [
+   2.178778,
+   41.434905
+  ],
+  "corners": [
+   [
+    2.172118,
+    41.430106
+   ],
+   [
+    2.171997,
+    41.439608
+   ],
+   [
+    2.185439,
+    41.439704
+   ],
+   [
+    2.185557,
+    41.430202
+   ]
+  ]
+ },
+ "palette": [
+  {
+   "species": "Celtis australis",
+   "short": "Celtis",
+   "color": "#2a78d6",
+   "crown_diam_m": 4.55,
+   "height_m": 9.51,
+   "crown_base_m": 4.66,
+   "lai": 2.0,
+   "cap": 127,
+   "in_palette": true,
+   "leaf_habit": "winter deciduous",
+   "leaf": [
+    0.0,
+    0.0,
+    0.5,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    0.5,
+    0.0
+   ],
+   "leaf_basis": "leaf-out sourced; leaf fall = class default (ASSUMPTION)",
+   "source": "Habit: BROT 2.0 (Tavsanoglu & Pausas 2018), leaf lifespan 7.5 months; leafing out in March in Barcelona: Cascante, Betevé, Mar 2020 (URL above)"
+  },
+  {
+   "species": "Melia azedarach",
+   "short": "Melia",
+   "color": "#eb6834",
+   "crown_diam_m": 8.43,
+   "height_m": 9.82,
+   "crown_base_m": 4.62,
+   "lai": 2.26,
+   "cap": 256,
+   "in_palette": true,
+   "leaf_habit": "winter deciduous",
+   "leaf": [
+    0.0,
+    0.0,
+    0.5,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    0.5,
+    0.0
+   ],
+   "leaf_basis": "habit sourced; months = class default (ASSUMPTION)",
+   "source": "'árbol caducifolio' (deciduous tree): Árbores ornamentais de Pontevedra, species sheet (oma.webs.uvigo.es, Melia_azedarach.pdf)"
+  },
+  {
+   "species": "Pyrus calleryana",
+   "short": "Pyrus",
+   "color": "#1baf7a",
+   "crown_diam_m": 3.09,
+   "height_m": 6.58,
+   "crown_base_m": 3.2,
+   "lai": 2.08,
+   "cap": 276,
+   "in_palette": true,
+   "leaf_habit": "winter deciduous",
+   "leaf": [
+    0.0,
+    0.0,
+    0.5,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    0.5,
+    0.0
+   ],
+   "leaf_basis": "habit sourced; months = class default (ASSUMPTION)",
+   "source": "'A small deciduous tree'; flowers 'as the leaves unfold'; 'Chanticleer' 'good late autumn colour': Trees and Shrubs Online (International Dendrology Society, after Bean), Pyrus calleryana"
+  },
+  {
+   "species": "Jacaranda mimosifolia",
+   "short": "Jacaranda",
+   "color": "#eda100",
+   "crown_diam_m": 7.33,
+   "height_m": 9.18,
+   "crown_base_m": 5.03,
+   "lai": 2.91,
+   "cap": 278,
+   "in_palette": true,
+   "leaf_habit": "deciduous (winter rest)",
+   "leaf": [
+    0.0,
+    0.0,
+    0.0,
+    0.5,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    0.5
+   ],
+   "leaf_basis": "sourced (Valencia); Jan-Mar = 0 read from BBCH 97 + winter dormancy (no leaf percentage given)",
+   "source": "Gandía-Ventura, López-Cortés & Velàzquez-Martí 2025, Biology 14(11):1569 (BBCH, Bétera, Valencia, 2022-23): BBCH 91 early Dec (foliage still green); principal stage 9 (senescence) began 14 Dec 2022 / 18 Dec 2023; BBCH 97 'end of leaf fall, winter dormancy' mid-Dec; first leaves BBCH 10 early Apr (6 Apr 2022)"
+  },
+  {
+   "species": "Tipuana tipu",
+   "short": "Tipuana",
+   "color": "#e87ba4",
+   "crown_diam_m": 8.01,
+   "height_m": 9.96,
+   "crown_base_m": 4.8,
+   "lai": 2.2,
+   "cap": 284,
+   "in_palette": true,
+   "leaf_habit": "semi-deciduous",
+   "leaf": [
+    1.0,
+    1.0,
+    0.5,
+    0.5,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "leaf_basis": "leaf drop month sourced; its length (Mar-Apr at 0.5) = species ASSUMPTION",
+   "source": "Barcelona: 'a l'inici de la primavera, aquest arbre es desprèn de les fulles' (at the start of spring this tree sheds its leaves; Cascante, Betevé, Mar 2020); 'A semi-deciduous tree': Herbari Virtual del Mediterrani Occidental (Univ. Illes Balears)"
+  },
+  {
+   "species": "Brachychiton populneus",
+   "short": "Brachychiton",
+   "color": "#008300",
+   "crown_diam_m": 4.28,
+   "height_m": 8.33,
+   "crown_base_m": 3.76,
+   "lai": 2.23,
+   "cap": 320,
+   "in_palette": true,
+   "leaf_habit": "evergreen",
+   "leaf": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "leaf_basis": "sourced",
+   "source": "'Árbol de hoja perenne' (evergreen tree): Ayuntamiento de Zaragoza, Guía de especies, Brachychiton populneus (https://www.zaragoza.es/sede/servicio/especie/35)"
+  },
+  {
+   "species": "Platanus × acerifolia",
+   "short": "Platanus",
+   "color": "#8a8a86",
+   "crown_diam_m": 8.35,
+   "height_m": 14.3,
+   "crown_base_m": 6.68,
+   "lai": 2.31,
+   "cap": null,
+   "in_palette": false,
+   "leaf_habit": "winter deciduous",
+   "leaf": [
+    0.0,
+    0.0,
+    0.5,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    0.5,
+    0.0
+   ],
+   "leaf_basis": "leaf-out sourced; leaf fall = class default (ASSUMPTION)",
+   "source": "Cascante, Betevé, Mar 2020: 'a finals de febrer ja es van començar a activar' (they became active at the end of February); embedded tweet of 2 Mar 2020: 'comencen ja a treure les seves primeres fulles' (already putting out their first leaves). https://beteve.cat/medi-ambient/arbres-florits-brotant-barcelona-coronavirus/"
+  }
+ ],
+ "scenarios": [
+  {
+   "id": "S0_current",
+   "group": "S0",
+   "weights": null,
+   "pareto": false,
+   "in_layouts": true,
+   "metrics": {
+    "shade_summer_m2h": 359310.0,
+    "shade_winter_m2h": 188656.1,
+    "runoff_hot_m3": 2682.5,
+    "runoff_m3": 17669.3,
+    "interception_m3": 793.2
+   },
+   "counts": {}
+  },
+  {
+   "id": "S1_random_0",
+   "group": "S1",
+   "weights": null,
+   "pareto": false,
+   "in_layouts": true,
+   "metrics": {
+    "shade_summer_m2h": 290711.0,
+    "shade_winter_m2h": 181193.9,
+    "runoff_hot_m3": 2697.9,
+    "runoff_m3": 17738.7,
+    "interception_m3": 706.6
+   },
+   "counts": {
+    "Celtis australis": 127,
+    "Melia azedarach": 109,
+    "Pyrus calleryana": 166,
+    "Jacaranda mimosifolia": 130,
+    "Tipuana tipu": 120,
+    "Brachychiton populneus": 180
+   }
+  },
+  {
+   "id": "S1_random_1",
+   "group": "S1",
+   "weights": null,
+   "pareto": false,
+   "in_layouts": false,
+   "metrics": {
+    "shade_summer_m2h": 287868.4,
+    "shade_winter_m2h": 179122.5,
+    "runoff_hot_m3": 2698.8,
+    "runoff_m3": 17740.7,
+    "interception_m3": 703.6
+   },
+   "counts": {
+    "Celtis australis": 127,
+    "Melia azedarach": 105,
+    "Pyrus calleryana": 191,
+    "Jacaranda mimosifolia": 121,
+    "Tipuana tipu": 118,
+    "Brachychiton populneus": 170
+   }
+  },
+  {
+   "id": "S1_random_2",
+   "group": "S1",
+   "weights": null,
+   "pareto": false,
+   "in_layouts": false,
+   "metrics": {
+    "shade_summer_m2h": 289344.1,
+    "shade_winter_m2h": 180026.7,
+    "runoff_hot_m3": 2698.2,
+    "runoff_m3": 17739.9,
+    "interception_m3": 705.4
+   },
+   "counts": {
+    "Celtis australis": 127,
+    "Melia azedarach": 112,
+    "Pyrus calleryana": 187,
+    "Jacaranda mimosifolia": 120,
+    "Tipuana tipu": 125,
+    "Brachychiton populneus": 161
+   }
+  },
+  {
+   "id": "S1_random_3",
+   "group": "S1",
+   "weights": null,
+   "pareto": false,
+   "in_layouts": false,
+   "metrics": {
+    "shade_summer_m2h": 290723.4,
+    "shade_winter_m2h": 178120.3,
+    "runoff_hot_m3": 2697.6,
+    "runoff_m3": 17738.9,
+    "interception_m3": 707.2
+   },
+   "counts": {
+    "Celtis australis": 127,
+    "Melia azedarach": 119,
+    "Pyrus calleryana": 186,
+    "Jacaranda mimosifolia": 130,
+    "Tipuana tipu": 118,
+    "Brachychiton populneus": 152
+   }
+  },
+  {
+   "id": "S1_random_4",
+   "group": "S1",
+   "weights": null,
+   "pareto": false,
+   "in_layouts": false,
+   "metrics": {
+    "shade_summer_m2h": 290777.0,
+    "shade_winter_m2h": 180297.9,
+    "runoff_hot_m3": 2698.8,
+    "runoff_m3": 17738.6,
+    "interception_m3": 707.0
+   },
+   "counts": {
+    "Celtis australis": 127,
+    "Melia azedarach": 108,
+    "Pyrus calleryana": 171,
+    "Jacaranda mimosifolia": 118,
+    "Tipuana tipu": 139,
+    "Brachychiton populneus": 169
+   }
+  },
+  {
+   "id": "S1_random_5",
+   "group": "S1",
+   "weights": null,
+   "pareto": false,
+   "in_layouts": false,
+   "metrics": {
+    "shade_summer_m2h": 289468.0,
+    "shade_winter_m2h": 178067.2,
+    "runoff_hot_m3": 2697.3,
+    "runoff_m3": 17740.0,
+    "interception_m3": 705.7
+   },
+   "counts": {
+    "Celtis australis": 127,
+    "Melia azedarach": 119,
+    "Pyrus calleryana": 190,
+    "Jacaranda mimosifolia": 128,
+    "Tipuana tipu": 108,
+    "Brachychiton populneus": 160
+   }
+  },
+  {
+   "id": "S1_random_6",
+   "group": "S1",
+   "weights": null,
+   "pareto": false,
+   "in_layouts": false,
+   "metrics": {
+    "shade_summer_m2h": 291474.5,
+    "shade_winter_m2h": 179956.0,
+    "runoff_hot_m3": 2697.5,
+    "runoff_m3": 17738.0,
+    "interception_m3": 707.2
+   },
+   "counts": {
+    "Celtis australis": 127,
+    "Melia azedarach": 120,
+    "Pyrus calleryana": 169,
+    "Jacaranda mimosifolia": 121,
+    "Tipuana tipu": 126,
+    "Brachychiton populneus": 169
+   }
+  },
+  {
+   "id": "S1_random_7",
+   "group": "S1",
+   "weights": null,
+   "pareto": false,
+   "in_layouts": false,
+   "metrics": {
+    "shade_summer_m2h": 289457.7,
+    "shade_winter_m2h": 179687.6,
+    "runoff_hot_m3": 2698.6,
+    "runoff_m3": 17739.7,
+    "interception_m3": 706.0
+   },
+   "counts": {
+    "Celtis australis": 127,
+    "Melia azedarach": 114,
+    "Pyrus calleryana": 170,
+    "Jacaranda mimosifolia": 121,
+    "Tipuana tipu": 116,
+    "Brachychiton populneus": 184
+   }
+  },
+  {
+   "id": "S1_random_8",
+   "group": "S1",
+   "weights": null,
+   "pareto": false,
+   "in_layouts": false,
+   "metrics": {
+    "shade_summer_m2h": 290718.9,
+    "shade_winter_m2h": 180741.1,
+    "runoff_hot_m3": 2699.2,
+    "runoff_m3": 17739.8,
+    "interception_m3": 706.6
+   },
+   "counts": {
+    "Celtis australis": 127,
+    "Melia azedarach": 122,
+    "Pyrus calleryana": 191,
+    "Jacaranda mimosifolia": 112,
+    "Tipuana tipu": 132,
+    "Brachychiton populneus": 148
+   }
+  },
+  {
+   "id": "S1_random_9",
+   "group": "S1",
+   "weights": null,
+   "pareto": false,
+   "in_layouts": false,
+   "metrics": {
+    "shade_summer_m2h": 291721.1,
+    "shade_winter_m2h": 181009.3,
+    "runoff_hot_m3": 2698.0,
+    "runoff_m3": 17738.7,
+    "interception_m3": 707.0
+   },
+   "counts": {
+    "Celtis australis": 127,
+    "Melia azedarach": 110,
+    "Pyrus calleryana": 174,
+    "Jacaranda mimosifolia": 135,
+    "Tipuana tipu": 129,
+    "Brachychiton populneus": 157
+   }
+  },
+  {
+   "id": "S4_s0.00_w0.00_r1.00",
+   "group": "S4",
+   "weights": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "pareto": false,
+   "in_layouts": true,
+   "metrics": {
+    "shade_summer_m2h": 331114.1,
+    "shade_winter_m2h": 174570.8,
+    "runoff_hot_m3": 2691.8,
+    "runoff_m3": 17711.7,
+    "interception_m3": 746.3
+   },
+   "counts": {
+    "Celtis australis": 37,
+    "Melia azedarach": 256,
+    "Pyrus calleryana": 27,
+    "Jacaranda mimosifolia": 278,
+    "Tipuana tipu": 186,
+    "Brachychiton populneus": 48
+   }
+  },
+  {
+   "id": "S4_s0.00_w0.25_r0.75",
+   "group": "S4",
+   "weights": [
+    0.0,
+    0.25,
+    0.75
+   ],
+   "pareto": true,
+   "in_layouts": true,
+   "metrics": {
+    "shade_summer_m2h": 279755.7,
+    "shade_winter_m2h": 151724.6,
+    "runoff_hot_m3": 2690.1,
+    "runoff_m3": 17736.3,
+    "interception_m3": 702.6
+   },
+   "counts": {
+    "Celtis australis": 127,
+    "Melia azedarach": 74,
+    "Pyrus calleryana": 276,
+    "Jacaranda mimosifolia": 271,
+    "Tipuana tipu": 0,
+    "Brachychiton populneus": 84
+   }
+  },
+  {
+   "id": "S4_s0.00_w0.50_r0.50",
+   "group": "S4",
+   "weights": [
+    0.0,
+    0.5,
+    0.5
+   ],
+   "pareto": true,
+   "in_layouts": true,
+   "metrics": {
+    "shade_summer_m2h": 278890.9,
+    "shade_winter_m2h": 151406.1,
+    "runoff_hot_m3": 2689.9,
+    "runoff_m3": 17736.4,
+    "interception_m3": 702.2
+   },
+   "counts": {
+    "Celtis australis": 127,
+    "Melia azedarach": 61,
+    "Pyrus calleryana": 276,
+    "Jacaranda mimosifolia": 278,
+    "Tipuana tipu": 0,
+    "Brachychiton populneus": 90
+   }
+  },
+  {
+   "id": "S4_s0.00_w0.75_r0.25",
+   "group": "S4",
+   "weights": [
+    0.0,
+    0.75,
+    0.25
+   ],
+   "pareto": true,
+   "in_layouts": true,
+   "metrics": {
+    "shade_summer_m2h": 278341.8,
+    "shade_winter_m2h": 151302.6,
+    "runoff_hot_m3": 2689.9,
+    "runoff_m3": 17736.4,
+    "interception_m3": 701.8
+   },
+   "counts": {
+    "Celtis australis": 127,
+    "Melia azedarach": 56,
+    "Pyrus calleryana": 276,
+    "Jacaranda mimosifolia": 278,
+    "Tipuana tipu": 0,
+    "Brachychiton populneus": 95
+   }
+  },
+  {
+   "id": "S4_s0.00_w1.00_r0.00",
+   "group": "S4",
+   "weights": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "pareto": true,
+   "in_layouts": true,
+   "metrics": {
+    "shade_summer_m2h": 271357.2,
+    "shade_winter_m2h": 149942.4,
+    "runoff_hot_m3": 2699.9,
+    "runoff_m3": 17739.1,
+    "interception_m3": 695.2
+   },
+   "counts": {
+    "Celtis australis": 127,
+    "Melia azedarach": 51,
+    "Pyrus calleryana": 276,
+    "Jacaranda mimosifolia": 223,
+    "Tipuana tipu": 0,
+    "Brachychiton populneus": 155
+   }
+  },
+  {
+   "id": "S4_s0.25_w0.00_r0.75",
+   "group": "S4",
+   "weights": [
+    0.25,
+    0.0,
+    0.75
+   ],
+   "pareto": true,
+   "in_layouts": true,
+   "metrics": {
+    "shade_summer_m2h": 331457.3,
+    "shade_winter_m2h": 193930.3,
+    "runoff_hot_m3": 2691.2,
+    "runoff_m3": 17711.1,
+    "interception_m3": 744.0
+   },
+   "counts": {
+    "Celtis australis": 20,
+    "Melia azedarach": 256,
+    "Pyrus calleryana": 23,
+    "Jacaranda mimosifolia": 180,
+    "Tipuana tipu": 284,
+    "Brachychiton populneus": 69
+   }
+  },
+  {
+   "id": "S4_s0.25_w0.25_r0.50",
+   "group": "S4",
+   "weights": [
+    0.25,
+    0.25,
+    0.5
+   ],
+   "pareto": true,
+   "in_layouts": true,
+   "metrics": {
+    "shade_summer_m2h": 331392.6,
+    "shade_winter_m2h": 173765.0,
+    "runoff_hot_m3": 2691.6,
+    "runoff_m3": 17711.8,
+    "interception_m3": 746.2
+   },
+   "counts": {
+    "Celtis australis": 59,
+    "Melia azedarach": 256,
+    "Pyrus calleryana": 27,
+    "Jacaranda mimosifolia": 278,
+    "Tipuana tipu": 186,
+    "Brachychiton populneus": 26
+   }
+  },
+  {
+   "id": "S4_s0.25_w0.50_r0.25",
+   "group": "S4",
+   "weights": [
+    0.25,
+    0.5,
+    0.25
+   ],
+   "pareto": true,
+   "in_layouts": true,
+   "metrics": {
+    "shade_summer_m2h": 313841.8,
+    "shade_winter_m2h": 161318.0,
+    "runoff_hot_m3": 2690.9,
+    "runoff_m3": 17717.4,
+    "interception_m3": 731.3
+   },
+   "counts": {
+    "Celtis australis": 64,
+    "Melia azedarach": 256,
+    "Pyrus calleryana": 161,
+    "Jacaranda mimosifolia": 278,
+    "Tipuana tipu": 67,
+    "Brachychiton populneus": 6
+   }
+  },
+  {
+   "id": "S4_s0.25_w0.75_r0.00",
+   "group": "S4",
+   "weights": [
+    0.25,
+    0.75,
+    0.0
+   ],
+   "pareto": true,
+   "in_layouts": true,
+   "metrics": {
+    "shade_summer_m2h": 296952.6,
+    "shade_winter_m2h": 153057.6,
+    "runoff_hot_m3": 2695.3,
+    "runoff_m3": 17724.0,
+    "interception_m3": 717.0
+   },
+   "counts": {
+    "Celtis australis": 64,
+    "Melia azedarach": 209,
+    "Pyrus calleryana": 276,
+    "Jacaranda mimosifolia": 278,
+    "Tipuana tipu": 0,
+    "Brachychiton populneus": 5
+   }
+  },
+  {
+   "id": "S4_s0.50_w0.00_r0.50",
+   "group": "S4",
+   "weights": [
+    0.5,
+    0.0,
+    0.5
+   ],
+   "pareto": true,
+   "in_layouts": true,
+   "metrics": {
+    "shade_summer_m2h": 331509.8,
+    "shade_winter_m2h": 193872.8,
+    "runoff_hot_m3": 2691.2,
+    "runoff_m3": 17711.2,
+    "interception_m3": 743.9
+   },
+   "counts": {
+    "Celtis australis": 32,
+    "Melia azedarach": 256,
+    "Pyrus calleryana": 23,
+    "Jacaranda mimosifolia": 180,
+    "Tipuana tipu": 284,
+    "Brachychiton populneus": 57
+   }
+  },
+  {
+   "id": "S4_s0.50_w0.25_r0.25",
+   "group": "S4",
+   "weights": [
+    0.5,
+    0.25,
+    0.25
+   ],
+   "pareto": true,
+   "in_layouts": true,
+   "metrics": {
+    "shade_summer_m2h": 331572.5,
+    "shade_winter_m2h": 174103.5,
+    "runoff_hot_m3": 2691.5,
+    "runoff_m3": 17711.5,
+    "interception_m3": 746.2
+   },
+   "counts": {
+    "Celtis australis": 65,
+    "Melia azedarach": 256,
+    "Pyrus calleryana": 23,
+    "Jacaranda mimosifolia": 278,
+    "Tipuana tipu": 186,
+    "Brachychiton populneus": 24
+   }
+  },
+  {
+   "id": "S4_s0.50_w0.50_r0.00",
+   "group": "S4",
+   "weights": [
+    0.5,
+    0.5,
+    0.0
+   ],
+   "pareto": true,
+   "in_layouts": true,
+   "metrics": {
+    "shade_summer_m2h": 331206.3,
+    "shade_winter_m2h": 173293.9,
+    "runoff_hot_m3": 2691.9,
+    "runoff_m3": 17712.1,
+    "interception_m3": 745.9
+   },
+   "counts": {
+    "Celtis australis": 68,
+    "Melia azedarach": 256,
+    "Pyrus calleryana": 32,
+    "Jacaranda mimosifolia": 278,
+    "Tipuana tipu": 184,
+    "Brachychiton populneus": 14
+   }
+  },
+  {
+   "id": "S4_s0.75_w0.00_r0.25",
+   "group": "S4",
+   "weights": [
+    0.75,
+    0.0,
+    0.25
+   ],
+   "pareto": false,
+   "in_layouts": true,
+   "metrics": {
+    "shade_summer_m2h": 331467.7,
+    "shade_winter_m2h": 194316.2,
+    "runoff_hot_m3": 2691.3,
+    "runoff_m3": 17711.1,
+    "interception_m3": 743.8
+   },
+   "counts": {
+    "Celtis australis": 37,
+    "Melia azedarach": 256,
+    "Pyrus calleryana": 23,
+    "Jacaranda mimosifolia": 180,
+    "Tipuana tipu": 284,
+    "Brachychiton populneus": 52
+   }
+  },
+  {
+   "id": "S4_s0.75_w0.25_r0.00",
+   "group": "S4",
+   "weights": [
+    0.75,
+    0.25,
+    0.0
+   ],
+   "pareto": true,
+   "in_layouts": true,
+   "metrics": {
+    "shade_summer_m2h": 331587.0,
+    "shade_winter_m2h": 174295.5,
+    "runoff_hot_m3": 2691.5,
+    "runoff_m3": 17711.4,
+    "interception_m3": 746.1
+   },
+   "counts": {
+    "Celtis australis": 66,
+    "Melia azedarach": 256,
+    "Pyrus calleryana": 24,
+    "Jacaranda mimosifolia": 278,
+    "Tipuana tipu": 186,
+    "Brachychiton populneus": 22
+   }
+  },
+  {
+   "id": "S4_s1.00_w0.00_r0.00",
+   "group": "S4",
+   "weights": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "pareto": false,
+   "in_layouts": true,
+   "metrics": {
+    "shade_summer_m2h": 331421.3,
+    "shade_winter_m2h": 194221.4,
+    "runoff_hot_m3": 2691.6,
+    "runoff_m3": 17711.0,
+    "interception_m3": 743.7
+   },
+   "counts": {
+    "Celtis australis": 46,
+    "Melia azedarach": 256,
+    "Pyrus calleryana": 23,
+    "Jacaranda mimosifolia": 180,
+    "Tipuana tipu": 284,
+    "Brachychiton populneus": 43
+   }
+  }
+ ],
+ "overlays": [
+  {
+   "id": "sun_winter",
+   "label": "Winter sun (15 Jan 10–15 h)",
+   "file": "sun_winter.png",
+   "cmap": "cividis",
+   "vmin": 0,
+   "vmax": 1
+  },
+  {
+   "id": "sun_summer",
+   "label": "Summer sun (15 Jul 12–17 h)",
+   "file": "sun_summer.png",
+   "cmap": "cividis",
+   "vmin": 0,
+   "vmax": 1
+  },
+  {
+   "id": "water",
+   "label": "Water convergence (log10 upstream m²)",
+   "file": "water.png",
+   "cmap": "Blues",
+   "vmin": 0,
+   "vmax": 5
+  },
+  {
+   "id": "hotspots",
+   "label": "Flood hotspots (hazard index ≥ 40)",
+   "file": "hotspots.png",
+   "cmap": "Reds",
+   "vmin": 0,
+   "vmax": 1.2
+  }
+ ],
+ "storm": "PDISBA T = 2 yr, 1 h (31.9 mm), season-weighted",
+ "sensitivity": [
+  {
+   "variant": "base",
+   "free_gain_winter_pct": -10.4,
+   "free_gain_summer_pct": 0.0,
+   "bal_vs_random_summer_pct": 14.6,
+   "bal_vs_random_winter_pct": -3.3,
+   "heavy_vs_bal_winter_pct": -13.0,
+   "heavy_vs_bal_summer_pct": -15.9,
+   "tipuana_summer_only": 284,
+   "tipuana_balanced": 186,
+   "jacaranda_summer_only": 180,
+   "jacaranda_balanced": 278
+  },
+  {
+   "variant": "op_bare_0.25",
+   "free_gain_winter_pct": -14.5,
+   "free_gain_summer_pct": 0.0,
+   "bal_vs_random_summer_pct": 14.6,
+   "bal_vs_random_winter_pct": -8.4,
+   "heavy_vs_bal_winter_pct": -12.7,
+   "heavy_vs_bal_summer_pct": -15.0,
+   "tipuana_summer_only": 284,
+   "tipuana_balanced": 186,
+   "jacaranda_summer_only": 180,
+   "jacaranda_balanced": 278
+  },
+  {
+   "variant": "op_bare_0.54",
+   "free_gain_winter_pct": -5.0,
+   "free_gain_summer_pct": 0.0,
+   "bal_vs_random_summer_pct": 14.6,
+   "bal_vs_random_winter_pct": 3.2,
+   "heavy_vs_bal_winter_pct": -13.9,
+   "heavy_vs_bal_summer_pct": -18.9,
+   "tipuana_summer_only": 284,
+   "tipuana_balanced": 186,
+   "jacaranda_summer_only": 180,
+   "jacaranda_balanced": 278
+  },
+  {
+   "variant": "tipuana_bare_jan_feb",
+   "free_gain_winter_pct": -2.6,
+   "free_gain_summer_pct": -0.0,
+   "bal_vs_random_summer_pct": 14.5,
+   "bal_vs_random_winter_pct": 0.9,
+   "heavy_vs_bal_winter_pct": -11.6,
+   "heavy_vs_bal_summer_pct": -16.0,
+   "tipuana_summer_only": 284,
+   "tipuana_balanced": 186,
+   "jacaranda_summer_only": 180,
+   "jacaranda_balanced": 278
+  },
+  {
+   "variant": "jacaranda_half_jan_mar",
+   "free_gain_winter_pct": -4.8,
+   "free_gain_summer_pct": -0.0,
+   "bal_vs_random_summer_pct": 14.5,
+   "bal_vs_random_winter_pct": 1.0,
+   "heavy_vs_bal_winter_pct": -16.6,
+   "heavy_vs_bal_summer_pct": -17.7,
+   "tipuana_summer_only": 284,
+   "tipuana_balanced": 186,
+   "jacaranda_summer_only": 180,
+   "jacaranda_balanced": 278
+  },
+  {
+   "variant": "winter_21dec",
+   "free_gain_winter_pct": -4.7,
+   "free_gain_summer_pct": 0.0,
+   "bal_vs_random_summer_pct": 14.6,
+   "bal_vs_random_winter_pct": 0.1,
+   "heavy_vs_bal_winter_pct": -16.2,
+   "heavy_vs_bal_summer_pct": -17.2,
+   "tipuana_summer_only": 284,
+   "tipuana_balanced": 186,
+   "jacaranda_summer_only": 180,
+   "jacaranda_balanced": 278
+  },
+  {
+   "variant": "winter_15feb",
+   "free_gain_winter_pct": -9.8,
+   "free_gain_summer_pct": 0.0,
+   "bal_vs_random_summer_pct": 14.6,
+   "bal_vs_random_winter_pct": 0.2,
+   "heavy_vs_bal_winter_pct": -15.1,
+   "heavy_vs_bal_summer_pct": -17.7,
+   "tipuana_summer_only": 284,
+   "tipuana_balanced": 186,
+   "jacaranda_summer_only": 180,
+   "jacaranda_balanced": 278
+  }
+ ],
+ "assumptions": [
+  "Leafless crown opacity 0.35 (test 0.25–0.54)",
+  "Design days 15 Jul and 15 Jan (until EPW)",
+  "Runoff reaches a hotspot only within 100 m of flow path",
+  "Tipuana leafless spell Mar–Apr"
+ ]
+}
