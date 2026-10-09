@@ -1,0 +1,19 @@
+group,TraitID,Trait,obs_all_species,n_species_all
+leaf phenology,37,Leaf phenology type,271390,35540
+leaf phenology,1251,Plant vegetative phenology (leaf phenology),5010,2684
+leaf phenology,12,Leaf lifespan (longevity),14345,2073
+leaf area,3108,"Leaf area (in case of compound leaves: leaf, petiole excluded)",51359,3493
+leaf area,3109,"Leaf area (in case of compound leaves: leaflet, petiole excluded)",108295,5407
+leaf area,3110,"Leaf area (in case of compound leaves: leaf, petiole included)",94131,5018
+leaf area,3111,"Leaf area (in case of compound leaves: leaflet, petiole included)",22604,2931
+leaf area,3112,"Leaf area (in case of compound leaves: leaf, undefined if petiole in- or excluded)",42811,9703
+leaf area,3113,"Leaf area (in case of compound leaves: leaflet, undefined if petiole is in- or excluded)",54204,12084
+leaf area,3114,"Leaf area (in case of compound leaves undefined if leaf or leaflet, undefined if petiole is in- or excluded)",185516,12573
+wood vessel anatomy,1239,Wood vessel distribution,6204,3726
+wood vessel anatomy,273,Wood growth ring distinction,29317,9473
+wood vessel anatomy,275,Wood vessel arrangement,1308,900
+wood vessel anatomy,276,Wood vessel grouping,5563,3550
+leaf wettability / water storage,930,Leaf contact angle of water droplets,303,4
+leaf wettability / water storage,713,Leaf water storage time constant,10,6
+leaf wettability / water storage,714,Leaf water storage transfer resistance,10,6
+leaf wettability / water storage,436,Crown rainfall (water) interception,6,4
