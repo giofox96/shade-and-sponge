@@ -12,6 +12,8 @@ cd web && npm install && npm run dev
 ```
 `npm run build` writes a static site to `web/dist/` (relative paths, so it can be hosted anywhere).
 
+**Online:** https://giofox96.github.io/shade-and-sponge/ — `.github/workflows/pages.yml` rebuilds and publishes `web/dist` to the `gh-pages` branch whenever `web/` changes on `main` or `claude/web-ui`. Data credits are in the app's left panel (Data and sources).
+
 ## Data (`web/public/data/<site>/`, from `shade_sponge/web_export.py`)
 `meta.json` (palette with leaf calendars and sources, scenarios with metrics, sensitivity, overlays) · `trees.json` (plane positions, kept trees, species per position for each saved layout) · `potentials.json` (per-position shade and interception potentials + façade fit, for live optimisation) · `buildings.geojson` · overlay PNGs (winter sun, summer sun, water convergence, flood hotspots). The map is flat: heights are metres above local ground.
 

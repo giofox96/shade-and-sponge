@@ -75,6 +75,17 @@ watch(
           </li>
         </ul>
       </section>
+      <section class="sources small muted">
+        <h3>Data and sources</h3>
+        Street trees, neighbourhoods: Ajuntament de Barcelona, Open Data BCN (CC BY 4.0) ·
+        LiDAR crowns, terrain, building heights: ICGC 2021 (CC BY 4.0) ·
+        Building footprints and basemap: © OpenStreetMap contributors (ODbL), OpenFreeMap ·
+        Flood-hazard index: Barcelona Resilience Atlas, Barcelona Regional (shown as a derived threshold; licence not stated) ·
+        Design storms: PDISBA rainfall study · Storm months: Esbrí, Rigo and Llasat 2026 ·
+        Interception calibration: Anys and Weiler 2024 data (CC BY-NC 4.0).
+        Thesis prototype (MaCAD, IAAC); heat is a shade proxy, not UTCI.
+        <a href="https://github.com/giofox96/shade-and-sponge" target="_blank" rel="noopener">Code and method</a>
+      </section>
     </aside>
 
     <main><MapView /></main>

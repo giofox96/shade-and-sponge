@@ -53,3 +53,5 @@ select, input[type='range'] { width: 100%; }
   .app { grid-template-columns: 1fr; grid-template-rows: 44px 55vh auto auto; height: auto; }
   aside.left, aside.right { border: 0; }
 }
+.sources { line-height: 1.5; }
+.sources a { color: var(--accent); }
