@@ -28,7 +28,7 @@
 
 ### 4. Literature, runoff side [2:05]
 **Visual:** `slides/fig/02_runoff_evidence.png`, with `01_lit_map.png` small in a corner (or as a backup slide).
-**Say:** "The literature review covers 76 sources. On the runoff side, two findings matter. First, species differ. In field studies a crown intercepts roughly 10 to 70 percent of rainfall, and the main driver is leaf area. Second, the benefit fades as storms grow. A paired-catchment study measured a 3.5 to 4 percent cut in runoff volume from street trees, with no effect on peak flow. So trees are a tool for frequent storms, not for extreme events."
+**Say:** "The literature review covers 81 sources. On the runoff side, two findings matter. First, species differ. In field studies a crown intercepts roughly 10 to 70 percent of rainfall, and the main driver is leaf area. Second, the benefit fades as storms grow. A paired-catchment study measured a 3.5 to 4 percent cut in runoff volume from street trees, with no effect on peak flow. So trees are a tool for frequent storms, not for extreme events."
 
 ### 5. Literature: same tree, two jobs [2:40]
 **Visual:** `slides/fig/03_heat_runoff_traits.png`
@@ -70,10 +70,10 @@
 
 **Say (~85 words, only if asked):** "If the scope needs to be wider, I would not add parallel themes. I would widen the tree into a system. The pit is the one design variable I'd add, because it links the two goals: it takes runoff from the pavement and stores it as water for transpiration, which cools the air more than shade does. Soil would enter as two or three literature options with sensitivity, since there is no survey under the streets. Carbon would be reported, not optimised."
 
-**Status of the evidence:** the water link rests on Park et al. 2026 (transpiration 1.15 °C vs shade 0.43 °C), Pace et al. 2025 (soil moisture: dry soils, more runoff reduction; wet soils, more cooling) and Mannucci et al. 2025 (irrigation trade-off). Bartens et al. 2008 is now read in full: roots raise infiltration through compacted subsoil (+63% overall and +153% in the more compacted soil; Ksat ×27 in structural soil over compacted subsoil), with no significant difference between oak and maple. Grey et al. 2018 and Thom et al. 2020, 2021 are not read yet: read them before using this slide. Pit dimensions are not in the open inventory, which has irrigation type (`tipus_reg`) and water type (`tipus_aigua`) only.
+**Status of the evidence:** the water link rests on Park et al. 2026 (transpiration 1.15 °C vs shade 0.43 °C), Pace et al. 2025 (soil moisture: dry soils, more runoff reduction; wet soils, more cooling) and Mannucci et al. 2025 (irrigation trade-off). Bartens et al. 2008 is now read in full: roots raise infiltration through compacted subsoil (+63% overall and +153% in the more compacted soil; Ksat ×27 in structural soil over compacted subsoil), with no significant difference between oak and maple. Now also read in full: Grey et al. 2018 (Melbourne clay: 0.72 m² pits draining ~200 m² of street kept a median 11% of runoff; ~90% retention needs pits of 2.5–8% of their catchment; exfiltration, not the young tree, removes ≥ 88% of the water); Thom et al. 2020 (established evergreen street trees transpired the equivalent of 17% of the annual runoff from the ~200 m² catchment draining to each 6 m² trench, though the trenches did not raise their transpiration, probably because the trees were not water-limited); Thom et al. 2022 (13 species in pots: crop factor 0.33–1.56, *Pyrus calleryana* among the high transpirers). So the pit link is plausible for large, established crowns, but untested in the field for Barcelona's deciduous palette and autumn storms (only young or potted deciduous trees so far). Pit dimensions are not in the open inventory, which has irrigation type (`tipus_reg`) and water type (`tipus_aigua`) only.
 
 ### Other backup material
-- `slides/fig/01_lit_map.png`: what the 76 sources cover, and how many I read in full.
+- `slides/fig/01_lit_map.png`: what the 81 sources cover, and how many I read in full.
 - Site-selection robustness: 2,000 random weightings, thresholds at the 50th/60th/70th percentile (`notes/site_selection.md` §3–4).
 - Calibration: `notes/figures/interception_calibration.png` (s = 1.75 mm per unit LAI; 16 trees, 51 storms).
 - Sensitivity of the tree effect, s = 0.86–2.2 mm per unit LAI: 0.4–4.0% of total runoff (`databases/barcelona/runoff_sensitivity_storage.csv`).
@@ -81,5 +81,6 @@
 
 ## Likely tutor questions, with short answers
 - **Why not peak flow?** Field evidence shows that trees barely change peak flow (Selbig et al. 2021). Volume is what they can change.
+- **Hasn't Tan & Liu 2026 done this?** They optimise species and positions of 30 trees for heat (UTCI), CO2 and diversity in a Chicago block, with a similar Grasshopper + NSGA-II approach and a Random Forest surrogate. They have no runoff, use four common Chicago street trees at 5 years old (US allometry) and one summer hour. This thesis adds runoff, the city's own replacement palette and the seasons.
 - **Is a 2% effect worth a thesis?** The thesis is the method and the trade-off, not a big runoff number. H3 states the limit openly, and the heat side may dominate.
 - **Where do species values come from, if most are not measured?** LiDAR crowns and LAI on site, database traits, and genus or leaf-habit proxies with sensitivity ranges. TRY and i-Tree requests are pending.
