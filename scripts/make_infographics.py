@@ -161,7 +161,7 @@ def fig_runoff_evidence():
     b += t(x, 175, "...but the benefit fades as storms grow", 22, RAIN, "bold")
     cards = [("31-49% \u2192 26-46%", "runoff cut by green infrastructure, 0.25-yr \u2192 1-yr storm", "Liu et al. 2026, dense catchment, no trees"),
              ("28% \u2192 14%", "runoff cut by combined NbS, 2-yr \u2192 50-yr storm", "Esraz-Ul-Zannat et al. 2024, review"),
-             ("3.5-4% of runoff", "avoided by 31 street trees (shown by removal); peak flow unchanged", "Selbig et al. 2021*; Coville et al. 2022, paired catchment"),
+             ("3.5-4% of runoff", "avoided by 31 street trees (shown by removal); peak flow unchanged", "Selbig et al. 2021; Coville et al. 2022, paired catchment"),
              ("85% → 62%", "rain held by a 40-yr Zelkova crown, 2-yr → 25-yr 5-min storm", "Xiao & McPherson 2016, model; leaf-off only 16-26%")]
     y = 200
     for big, sub, src in cards:
@@ -184,7 +184,7 @@ def fig_traits():
          "Interception rises with LAI / PAI (Anys & Weiler 2024); leaf-area density drives storage capacity (Baptista et al. 2018)"),
         ("Crown size",
          "Big, dense crowns with a low base give the best shade and comfort (Helletsgruber et al. 2020)",
-         "About 66 L of runoff avoided per m\u00b2 of canopy per leaf-on season (Selbig et al. 2021*; Coville et al. 2022)")]),
+         "About 66 L of runoff avoided per m\u00b2 of canopy per leaf-on season (Selbig et al. 2021; Coville et al. 2022)")]),
         ("PULL APART", WARN, [
         ("Leaf habit and season",
          "Dense LAI is best in summer, sparse LAI in winter (Peng et al. 2026); evergreen street trees were the weakest summer option for both heat and runoff (Wu et al. 2024)",
@@ -228,23 +228,24 @@ def fig_gap():
             ("Mannucci et al. 2025", "Grasshopper + Ladybug + curve number, one square in Rome; scenarios, trees as shade only", [1, 1, 0, 0]),
             ("Shaamala et al. 2025", "Ant-colony optimisation of 42 trees and 4 species (chosen by crown shape) against UTCI", [1, 0, .5, 1]),
             ("Peng et al. 2026", "Ladybug + NSGA-II with LAI-based canopy transmittance; generic tree types, UTCI and cost", [1, 0, .5, 1]),
+            ("Tan & Liu 2026", "Surrogate + NSGA-II places 4 species (allometric crowns) in a Chicago block: UTCI, CO2, diversity", [1, 0, 1, 1]),
             ("This thesis", "Plane-tree replacement in Porta, Barcelona: species and positions for UTCI and runoff", [1, 1, 1, 1])]
-    y = 240
+    y = 236
     for name, sub, v in rows:
         me = name == "This thesis"
         if me:
-            b += rect(45, y - 6, 1510, 60, TREE, op=0.1)
-        b += t(60, y + 20, name, 21, TREE if me else INK, "bold")
-        s, _ = para(60, y + 44, sub, 760, 16, fill=MUTED)
+            b += rect(45, y - 6, 1510, 52, TREE, op=0.1)
+        b += t(60, y + 18, name, 20, TREE if me else INK, "bold")
+        s, _ = para(60, y + 39, sub, 760, 15, fill=MUTED)
         b += s
         for x, val, col in zip(cx, v, (HEAT, RAIN, TREE, INK)):
-            b += ball(x, y + 28, val, col, 16)
-        y += 60
+            b += ball(x, y + 24, val, col, 15)
+        y += 54
     b += legend_balls(60, y + 20)
     save("04_gap_matrix", "No method yet chooses species and positions for heat and runoff together",
          "Closest precedents from the review vs this thesis", b,
-         "literature_matrix.csv rows 18, 28, 51-53, 56, 62, 69 (all read in full). Half ball: Wu = surface temperature, not UTCI; "
-         "Cortinovis = heat index, not UTCI; Hao = positions only; Shaamala = crown shape only; Peng = generic LAI classes. Still to screen: Tan et al. 2026.")
+         "literature_matrix.csv rows 18, 28, 51-53, 56, 62, 69, 80 (all read in full). Half ball: Wu = surface temperature, not UTCI; "
+         "Cortinovis = heat index, not UTCI; Hao = positions only; Shaamala = crown shape only; Peng = generic LAI classes. Tan: full ball, but crowns are allometric estimates for 5-year-old trees.")
 
 
 # ---- 5. Data gap for the replacement palette
@@ -265,7 +266,7 @@ def fig_palette():
             ("Cooling (measured)", HEAT, lambda r: lit(r.lit_heat))]
     notes = {("Celtis australis", 3): ("a", "Celtis: only the congener C. sinensis is measured (0.71 mm; Xiao & McPherson 2016)"),
              ("Pyrus calleryana", 4): ("b", "Pyrus: UTCI -3.5 to -6.3 °C, but modelled as a default ENVI-met tree, so it reflects size, not species (Silva et al. 2025)"),
-             ("Tipuana tipu", 4): ("c", "Tipuana: PET -15.6 °C, second-hand only (Santos Nouri et al. 2018, cited in Silva et al. 2025)"),
+             ("Tipuana tipu", 4): ("c", "Tipuana: PET up to -15.6 °C in summer, but up to -2.7 °C in winter (leafed, as cited); modelled with measured under-crown radiation (Santos Nouri et al. 2018)"),
              ("Jacaranda mimosifolia", 3): ("d", "Jacaranda: 15.3% interception for a small tree, city-scale model, second-hand (Xiao & McPherson 2003, cited in Huang et al. 2017)"),
              ("Brachychiton populneus", 4): ("e", "Brachychiton, Jacaranda: water use only, second-hand (McCarthy et al. 2011 via Berland et al. 2017; Pataki et al. 2011 via Thom et al. 2022)"),
              ("Jacaranda mimosifolia", 4): ("e", "Brachychiton, Jacaranda: water use only, second-hand (McCarthy et al. 2011 via Berland et al. 2017; Pataki et al. 2011 via Thom et al. 2022)")}
