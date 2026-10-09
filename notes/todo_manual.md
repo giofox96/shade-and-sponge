@@ -5,6 +5,9 @@
 ## Field check, Nov–Mar (decides the size of the winter-sun result)
 - [ ] **Leaf state of Tipuana and Jacaranda in Porta**, every 2–3 weeks from mid-Nov: photograph 5 trees of each from the same spot (one standard frame, sky behind the crown), and note the date and an estimate of leaf cover (0 / ¼ / ½ / ¾ / full). Nou Barris also has 11 Tipuana trees of local interest in Plaça del Virrei Amat (name in the city tree catalogue; possibly renamed Plaça Salvat-Papasseit in 2026, unconfirmed). Save to `databases/barcelona/field_phenology/` as `<species>_<YYYYMMDD>_<n>.jpg` + one `log.csv`. Why: the no-regret winter gain is −9% if Tipuana stays leafed in January and only −2% if it is bare (`shade_sponge/README.md`, sensitivity). The same photos can also give the leafless crown opacity (sky gap fraction).
 
+## Open: data licence on the public web app
+- [ ] **Flood-hazard index licence.** The public app (https://giofox96.github.io/shade-and-sponge/) shows the hotspot layer derived from the Barcelona Resilience Atlas flood-hazard index (index ≥ 40). The source states no licence. Kept online for now (your decision, 9 Oct) with credit to Barcelona Regional. Later: ask Barcelona Regional / the Urban Resilience office for the terms, or remove the overlay (`shade_sponge/web_export.py`, layer `hotspots`).
+
 ## Before the 20 Oct meeting
 
 ### Requests that take time: send them first
