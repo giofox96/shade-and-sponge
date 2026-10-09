@@ -12,8 +12,8 @@ Tilia cordata,heat,in-situ shade and transpiration cooling,see paper,4-city stud
 Platanus x hispanica,heat,in-situ shade and transpiration cooling,see paper,= Platanus x acerifolia,Helletsgruber et al. 2020,40,full text digest
 Aesculus hippocastanum,heat,in-situ shade and transpiration cooling,see paper,4-city study,Helletsgruber et al. 2020,40,full text digest
 Robinia pseudoacacia,heat,in-situ shade and transpiration cooling,see paper,4-city study,Helletsgruber et al. 2020,40,full text digest
-Pyrus calleryana,heat,shading effectiveness (Manchester),see paper,5-species comparison,Armson et al. 2013,,full text digest
-Crataegus laevigata,heat,shading effectiveness (Manchester),see paper,5-species comparison (incl. Sorbus arnoldiana),Armson et al. 2013,,full text digest
+Pyrus calleryana,heat,shading effectiveness (Manchester),see paper,5-species comparison,Armson et al. 2013,62,full text digest
+Crataegus laevigata,heat,shading effectiveness (Manchester),see paper,5-species comparison (incl. Sorbus arnoldiana),Armson et al. 2013,62,full text digest
 Platanus x acerifolia,runoff,"surface water storage capacity, all surfaces (rainfall simulator)",0.87,"mm per unit leaf + stem surface area; P. x hispanica; leaf 1.10, stem 0.28; range 0.68-1.06",Xiao & McPherson 2016,3,full text
 Pyrus calleryana,runoff,"surface water storage capacity, all surfaces (rainfall simulator)",0.51,"mm per unit leaf + stem surface area; cv. Bradford; leaf 0.57, stem 0.23; range 0.43-0.63",Xiao & McPherson 2016,3,full text
 Celtis sinensis,runoff,"surface water storage capacity, all surfaces (rainfall simulator)",0.71,"mm per unit leaf + stem surface area; leaf 0.94, stem 0.17; congener of C. australis",Xiao & McPherson 2016,3,full text
@@ -42,3 +42,9 @@ Brachychiton populneus,heat,"annual transpiration per tree, Los Angeles",<5000,"
 Gleditsia triacanthos,heat,"annual transpiration per tree, Los Angeles",~25000,kg/yr per tree (Berland: kg yr-1); McCarthy et al. 2011 as cited in Berland et al. 2017,McCarthy et al. 2011 (via Berland 2017),,secondary
 Platanus x acerifolia,heat,"transpiration per tree in August, Los Angeles",176.9,kg/tree/day (as P. hybrida) vs 3.2 for Pinus canariensis; Pataki et al. 2011 as cited in Berland et al. 2017,Pataki et al. 2011 (via Berland 2017),,secondary
 Pyrus calleryana,heat,"daily transpiration per unit leaf area, potted trees",0.75-1.04,"mm/day, turf vs parking lot; Kjelgren & Montague 1998 as cited in Kuehler et al. 2017",Kjelgren & Montague 1998 (via Kuehler 2017),,secondary
+five-species mean (incl. Pyrus calleryana),heat,"mean surface temperature reduction under tree shade (species effect significant, Pyrus and Crataegus largest)",12,"C, average over five species, Manchester summer 2012; abstract gives no per-species value",Armson et al. 2013,62,abstract
+five-species mean (incl. Pyrus calleryana),heat,mean radiant temperature reduction under tree shade (species and LAI effects not significant),4,"C, average over five species; abstract only",Armson et al. 2013,62,abstract
+Tipuana tipu,heat,"field-measured MRT / PET under tree cluster (six clusters), Campinas",see paper,tropical climate; abstract gives no Tipuana value,Abreu-Harbich et al. 2012,63,abstract
+Tipuana tipu,heat,"MODELLED PET / mPET reduction, very hot summer day (SkyHelios + RayMan)",15.6 / 11.6,"C; primary source of the 15.6 cited by Silva 2025; simulation, not measurement",Santos Nouri et al. 2018,64,search summary of abstract (unverified)
+Tipuana tipu,heat,"MODELLED PET / mPET reduction, winter (foliage kept)",2.7 / 2.6,"C, up to; Lisbon canyons",Santos Nouri et al. 2018,64,search summary of abstract (unverified)
+Styphnolobium japonicum,runoff,"canopy interception, range across three species (Cinnamomum, Sophora, Platanus orientalis), 20 events",4.0-4.3,"mm per event, per-species values not in abstract; Hefei",Ji et al. 2025,67,abstract
