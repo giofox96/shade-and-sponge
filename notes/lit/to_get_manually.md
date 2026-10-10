@@ -4,6 +4,21 @@ Paywalled, or no open-access PDF found by the search. Get them through Zotero / 
 
 **Status 9 Oct 2026:** 45 of 96 obtained and read in full, plus Santos Nouri 2018 (added by hand); 51 of the list still to get. Years in the entries are the search's (often online) years; the matrix uses the issue year (e.g. Zölch 2019, Cortinovis 2022, Marrazzo 2025).
 
+## 0. Carries PS / H / validation (10 Oct 2026, issue #5)
+
+Papers whose numbers sit under the problem statement, a hypothesis or a validation claim. Table and figure names are the content needed; page numbers are not known unless stated. Already read in full and therefore not listed: Xiao & McPherson 2016 (Table 4 storage), Baptista 2018, Silva 2025, Mannucci 2025, Shaamala 2025, Peng 2026, Wu 2024.
+
+| Matrix # | Paper | Carries | Exact item to extract |
+|---|---|---|---|
+| 4 | Dowtin 2023 (abstract only) | H1 mechanism (which traits cut runoff) | Table of physical tree traits vs runoff effect (LAI, bark storage, stemflow funnelling) with the quantitative ranges per trait; the summary of whether canopy or root traits dominate |
+| 9 | Kuehler, Hathaway & Tirpak 2017 (accepted manuscript only) | S range and "first 2-4 mm" in methodology 4b | Published-version table of leaf storage per unit leaf area (0.03-2.24 mm) with the source study per row; check the 2-4 mm statement against the published text |
+| 10 | Selbig 2021 (full text 9 Oct) | Validation anchor: 3.5-4% runoff effect | Table of event depth bins with runoff change and p-values; confirm the +198 m3 / 4% arithmetic against the original table |
+| 34 | de Mello 2024 (abstract only) | Figure 2 global median 23.9% line | Table of interception by species and forest type, to see if any Mediterranean deciduous or evergreen broadleaf class exists |
+| 38 | Rahman 2019 (abstract only) | Trait claim "canopy density most influential" (heat) | Meta-analysis table of effect size per trait and per climate zone (Mediterranean rows) |
+| 39 | Speak 2020 (abstract only) | Trait claim "LAI and crown width most important for shade" | Table or figure of correlation between shade-cooling and each trait, plus the species list |
+| none | Llorens & Domingo 2007 (10.1016/j.jhydrol.2006.10.032) | Interception percentages and S and E/R for Mediterranean species; candidate for the Mediterranean evergreen and Citrus taxa | Table of species vs interception %, S, p, E/R. Note: section 3 below ticks Llorens as read, but there is no matrix row and no E/R value was captured; re-check or add the row |
+| 33 | Huang 2017 (full text, value not captured) | Gash E_c/R input for runoff v2 | The table of E/R and S, p, LAI per species (white oak, Norway maple, green ash, Prunus) |
+
 ## 1. Get these first (6)
 Dowtin, Hassan, de Mello, Rahman 2019, Speak and Kaluarachchi carry claims that the slides, figures or notes still take from abstracts only.
 
