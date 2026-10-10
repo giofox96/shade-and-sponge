@@ -1,0 +1,218 @@
+<title>Shade and Sponge Study Deck</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap">
+<style>
+/* Layout: one narrow column, a sticky mode bar, one card on stage at a time; chapter chips filter everything. */
+:root {
+  --bg: #eef2ee; --surface: #ffffff; --ink: #18241e; --muted: #5a6b62; --line: #d3ddd5;
+  --leaf: #2d6a4c; --leaf-soft: #dcebe1; --rain: #2f6396; --rain-soft: #dde8f3;
+  --heat: #b4532a; --good: #2d7a4a; --bad: #b23b3b;
+  --display: "Bricolage Grotesque", "Segoe UI", system-ui, sans-serif;
+  --body: "IBM Plex Sans", "Segoe UI", system-ui, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #111815; --surface: #1a2420; --ink: #e5ede8; --muted: #9aaba1; --line: #2c3a33;
+  --leaf: #7cc49c; --leaf-soft: #20352a; --rain: #8db8e3; --rain-soft: #1d2c3b;
+  --heat: #e8916a; --good: #78c995; --bad: #ec8a8a; color-scheme: dark } }
+:root[data-theme="dark"] {
+  --bg: #111815; --surface: #1a2420; --ink: #e5ede8; --muted: #9aaba1; --line: #2c3a33;
+  --leaf: #7cc49c; --leaf-soft: #20352a; --rain: #8db8e3; --rain-soft: #1d2c3b;
+  --heat: #e8916a; --good: #78c995; --bad: #ec8a8a; color-scheme: dark }
+body { background: var(--bg); color: var(--ink); font: 16px/1.5 var(--body); margin: 0; }
+.wrap { max-width: 44rem; margin: 0 auto; padding-inline: 16px; padding-block: 20px 48px; display: flex; flex-direction: column; gap: 18px; }
+header { display: flex; flex-wrap: wrap; align-items: end; justify-content: space-between; gap: 8px 16px; }
+h1 { font: 700 clamp(1.6rem, 5vw, 2.2rem)/1.1 var(--display); margin: 0; text-wrap: balance; letter-spacing: -0.01em; }
+h1 span { color: var(--leaf); }
+.formula { font: 500 0.8rem var(--mono); color: var(--muted); margin: 4px 0 0; }
+.count { font: 500 0.85rem var(--mono); color: var(--heat); white-space: nowrap; font-variant-numeric: tabular-nums; }
+nav { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 2; background: var(--bg); padding-block: 6px; display: flex; gap: 6px; border-bottom: 1px solid var(--line); }
+nav button { flex: 1; font: 600 0.9rem var(--body); padding: 10px 6px; border: 0; border-radius: 8px; background: transparent; color: var(--muted); cursor: pointer; }
+nav button[aria-pressed="true"] { background: var(--ink); color: var(--bg); }
+.chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.chip { font: 500 0.78rem var(--body); letter-spacing: 0.02em; padding: 5px 10px; border-radius: 99px; border: 1px solid var(--line); background: var(--surface); color: var(--ink); cursor: pointer; }
+.chip[aria-pressed="true"] { background: var(--leaf-soft); border-color: var(--leaf); color: var(--leaf); }
+button:focus-visible, .chip:focus-visible { outline: 2px solid var(--rain); outline-offset: 2px; }
+.stage { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 22px 20px; display: flex; flex-direction: column; gap: 16px; min-height: 16rem; }
+.meta { display: flex; justify-content: space-between; gap: 8px; font: 500 0.72rem var(--mono); text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
+.q { font: 600 1.25rem/1.35 var(--display); margin: 0; text-wrap: balance; }
+.a { border-top: 1px dashed var(--line); padding-top: 14px; font-size: 1.02rem; }
+.src { font: 500 0.75rem var(--mono); color: var(--muted); margin-top: 6px; overflow-wrap: anywhere; }
+.row { display: flex; flex-wrap: wrap; gap: 8px; }
+.btn { font: 600 0.95rem var(--body); padding: 11px 16px; border-radius: 10px; border: 1px solid var(--line); background: var(--surface); color: var(--ink); cursor: pointer; flex: 1 1 8rem; }
+.btn.primary { background: var(--leaf); border-color: var(--leaf); color: var(--surface); }
+.btn.again { border-color: var(--bad); color: var(--bad); }
+.btn.good { border-color: var(--good); color: var(--good); }
+.opt { text-align: left; flex: 1 1 100%; font-weight: 500; }
+.opt.right { background: var(--leaf-soft); border-color: var(--good); }
+.opt.wrong { border-color: var(--bad); color: var(--bad); }
+.boxes { display: grid; grid-template-columns: repeat(5, 1fr); gap: 6px; }
+.box { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 8px 6px; text-align: center; }
+.box b { display: block; font: 600 1.2rem var(--mono); font-variant-numeric: tabular-nums; }
+.box small { color: var(--muted); font-size: 0.7rem; }
+.timer { font: 600 2.4rem var(--mono); color: var(--rain); font-variant-numeric: tabular-nums; }
+.note { color: var(--muted); font-size: 0.88rem; margin: 0; }
+.bar { height: 6px; border-radius: 3px; background: var(--rain-soft); overflow: hidden; }
+.bar i { display: block; height: 100%; background: var(--rain); }
+.ch-table { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
+.ch-table td { padding: 6px 4px; border-bottom: 1px solid var(--line); }
+.ch-table td:last-child { width: 40%; }
+@media (prefers-reduced-motion: no-preference) { .stage { transition: border-color .2s; } }
+</style>
+
+<div class="wrap">
+  <header>
+    <div>
+      <h1>Shade <span>&amp;</span> Sponge</h1>
+      <p class="formula">species × position → UTCI + runoff → trade-off</p>
+    </div>
+    <div class="count" id="count"></div>
+  </header>
+
+  <nav aria-label="Mode">
+    <button id="m-cards" aria-pressed="true">Cards</button>
+    <button id="m-quiz" aria-pressed="false">Quiz</button>
+    <button id="m-say" aria-pressed="false">Say it</button>
+    <button id="m-prog" aria-pressed="false">Progress</button>
+  </nav>
+
+  <div class="chips" id="chips" aria-label="Chapters"></div>
+  <section class="stage" id="stage" aria-live="polite"></section>
+  <p class="note" id="hint"></p>
+</div>
+
+<script>
+const DATA = /*__DATA__*/;
+const CH = {problem:"Problem", site:"Site", runoff:"Runoff", heat:"Heat", tradeoff:"Trade-off", gap:"Gap", rq:"RQ + H", method:"Method", results:"Results", limits:"Limits"};
+const DAYS = [0, 1, 2, 4, 8];             // Leitner box → days until next review
+const KEY = "shade-sponge-study-v1";
+const today = () => Math.floor(Date.now() / 864e5);
+let st = {};
+try { st = JSON.parse(localStorage.getItem(KEY)) || {}; } catch (e) { st = {}; }
+const save = () => { try { localStorage.setItem(KEY, JSON.stringify(st)); } catch (e) {} };
+st.boxes = st.boxes || {}; st.chap = st.chap || [];
+let mode = "cards", queue = [], cur = null, shown = false, qScore = [0, 0], timer = null;
+
+const $ = id => document.getElementById(id);
+const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const inChap = x => !st.chap.length || st.chap.includes(x.chapter);
+const shuffle = a => { for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
+const boxOf = id => (st.boxes[id] || {b: 0}).b;
+const isDue = c => { const r = st.boxes[c.id]; return !r || r.d + DAYS[r.b] <= today(); };
+
+function countdown() {
+  const d = Math.ceil((Date.UTC(2026, 9, 20) - Date.now()) / 864e5);
+  $("count").textContent = d > 0 ? d + " days to the 20 Oct session" : "20 Oct session: done";
+}
+
+function chips() {
+  $("chips").innerHTML = Object.entries(CH).map(([k, v]) =>
+    `<button class="chip" data-k="${k}" aria-pressed="${st.chap.includes(k)}">${v}</button>`).join("");
+  $("chips").querySelectorAll(".chip").forEach(b => b.onclick = () => {
+    const k = b.dataset.k;
+    st.chap = st.chap.includes(k) ? st.chap.filter(x => x !== k) : [...st.chap, k];
+    save(); chips(); start(mode);
+  });
+}
+
+function start(m) {
+  mode = m; clearInterval(timer);
+  ["cards", "quiz", "say", "prog"].forEach(x => $("m-" + x).setAttribute("aria-pressed", x === m));
+  if (m === "cards") {
+    const pool = DATA.cards.filter(inChap);
+    queue = shuffle(pool.filter(isDue));
+    $("hint").textContent = "Try to answer before you reveal. 'Again' sends the card back to box 1; 'Knew it' moves it up a box (next review in 1, 2, 4, 8 days). Chapters filter all modes; none selected = all.";
+    nextCard();
+  } else if (m === "quiz") {
+    queue = shuffle(DATA.quiz.filter(inChap)).slice(0, 10); qScore = [0, 0];
+    $("hint").textContent = "10 mixed questions. Mixing chapters (interleaving) is harder, and that is the point.";
+    nextQuiz();
+  } else if (m === "say") {
+    queue = shuffle(DATA.cards.filter(inChap));
+    $("hint").textContent = "Explain the answer out loud in 30 seconds, as if to someone outside the field. Then reveal and compare.";
+    nextSay();
+  } else progress();
+}
+
+function nextCard() {
+  shown = false; cur = queue.shift();
+  if (!cur) {
+    const left = DATA.cards.filter(inChap).length;
+    $("stage").innerHTML = `<p class="q">Nothing due right now.</p><p class="note">All ${left} cards in this selection are scheduled for later days. Take the quiz, or come back tomorrow.</p><div class="row"><button class="btn" id="all">Review all anyway</button></div>`;
+    $("all").onclick = () => { queue = shuffle(DATA.cards.filter(inChap)); nextCard(); };
+    return;
+  }
+  drawCard();
+}
+function drawCard() {
+  $("stage").innerHTML = `<div class="meta"><span>${CH[cur.chapter]}</span><span>box ${boxOf(cur.id) + 1} · ${queue.length} left</span></div>
+    <p class="q">${esc(cur.front)}</p>
+    ${shown ? `<div class="a">${esc(cur.back)}<div class="src">${esc(cur.source)}</div></div>
+      <div class="row"><button class="btn again" id="again">Again</button><button class="btn good" id="good">Knew it</button></div>`
+      : `<div class="row"><button class="btn primary" id="show">Show answer</button></div>`}`;
+  if (shown) { $("again").onclick = () => grade(false); $("good").onclick = () => grade(true); $("good").focus(); }
+  else { $("show").onclick = () => { shown = true; drawCard(); }; $("show").focus(); }
+}
+function grade(ok) {
+  const b = ok ? Math.min(boxOf(cur.id) + 1, 4) : 0;
+  st.boxes[cur.id] = {b, d: today()}; save();
+  if (!ok) queue.splice(Math.min(3, queue.length), 0, cur);   // see it again in this session
+  nextCard();
+}
+
+function nextQuiz() {
+  cur = queue.shift();
+  if (!cur) {
+    const [r, n] = qScore;
+    $("stage").innerHTML = `<p class="q">${r} / ${n} correct</p><p class="note">${r / Math.max(n, 1) >= 0.9 ? "Ready for this selection." : "Turn the questions you missed into card reviews: open Cards with the same chapters."}</p><div class="row"><button class="btn primary" id="again">New quiz</button></div>`;
+    $("again").onclick = () => start("quiz"); return;
+  }
+  const opts = shuffle(["a", "b", "c", "d"].map(k => ({k, t: cur[k]})));
+  $("stage").innerHTML = `<div class="meta"><span>${CH[cur.chapter]}</span><span>${qScore[1] + 1} / ${qScore[1] + queue.length + 1}</span></div>
+    <p class="q">${esc(cur.question)}</p><div class="row">${opts.map(o => `<button class="btn opt" data-k="${o.k}">${esc(o.t)}</button>`).join("")}</div><div id="exp"></div>`;
+  $("stage").querySelectorAll(".opt").forEach(b => b.onclick = () => {
+    const ok = b.dataset.k === cur.answer; qScore[1]++; if (ok) qScore[0]++;
+    $("stage").querySelectorAll(".opt").forEach(x => { x.disabled = true; if (x.dataset.k === cur.answer) x.classList.add("right"); });
+    if (!ok) b.classList.add("wrong");
+    $("exp").innerHTML = `<div class="a">${ok ? "Correct. " : "Not quite. "}${esc(cur.explanation)}</div><div class="row" style="margin-top:12px"><button class="btn primary" id="nx">Next</button></div>`;
+    $("nx").onclick = nextQuiz; $("nx").focus();
+  });
+}
+
+function nextSay() {
+  clearInterval(timer); cur = queue.shift();
+  if (!cur) { queue = shuffle(DATA.cards.filter(inChap)); cur = queue.shift(); }
+  let t = 30;
+  $("stage").innerHTML = `<div class="meta"><span>${CH[cur.chapter]}</span><span>explain aloud</span></div>
+    <p class="q">${esc(cur.front)}</p><div class="timer" id="t">0:30</div><div id="ans"></div>
+    <div class="row"><button class="btn primary" id="rev">Reveal</button><button class="btn" id="skip">Next</button></div>`;
+  timer = setInterval(() => { t--; $("t").textContent = "0:" + String(Math.max(t, 0)).padStart(2, "0"); if (t <= 0) clearInterval(timer); }, 1000);
+  $("rev").onclick = () => { clearInterval(timer); $("ans").innerHTML = `<div class="a">${esc(cur.back)}<div class="src">${esc(cur.source)}</div></div>`; };
+  $("skip").onclick = nextSay;
+}
+
+function progress() {
+  const cards = DATA.cards.filter(inChap), counts = [0, 0, 0, 0, 0];
+  cards.forEach(c => counts[boxOf(c.id)]++);
+  const due = cards.filter(isDue).length;
+  const rows = Object.entries(CH).filter(([k]) => !st.chap.length || st.chap.includes(k)).map(([k, v]) => {
+    const cs = cards.filter(c => c.chapter === k); if (!cs.length) return "";
+    const pct = Math.round(100 * cs.reduce((s, c) => s + boxOf(c.id), 0) / (4 * cs.length));
+    return `<tr><td>${v}</td><td class="src">${cs.length} cards</td><td><div class="bar"><i style="width:${pct}%"></i></div></td></tr>`;
+  }).join("");
+  $("stage").innerHTML = `<div class="meta"><span>Leitner boxes</span><span>${due} due today</span></div>
+    <div class="boxes">${counts.map((n, i) => `<div class="box"><b>${n}</b><small>box ${i + 1}${i ? " · " + DAYS[i] + " d" : " · daily"}</small></div>`).join("")}</div>
+    <table class="ch-table">${rows}</table>
+    <div class="row"><button class="btn" id="reset">Reset progress</button></div><p class="note" id="rnote"></p>`;
+  $("hint").textContent = "Progress is saved in this browser only. Box 5 = known well; the bar shows how far each chapter has moved up.";
+  let armed = false;
+  $("reset").onclick = () => {
+    if (!armed) { armed = true; $("reset").textContent = "Tap again to erase all progress"; return; }
+    st.boxes = {}; save(); progress(); $("rnote").textContent = "Progress erased.";
+  };
+}
+
+["cards", "quiz", "say", "prog"].forEach(m => $("m-" + m).onclick = () => start(m));
+countdown(); chips(); start("cards");
+</script>
