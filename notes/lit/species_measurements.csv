@@ -1,49 +1,49 @@
-species,objective,measure,value,unit_or_note,source,matrix_row,read_level
-Tilia cordata,runoff,event canopy interception (mean of 76 events),70.3,% of gross rainfall; mean event 6.7 mm,Anys & Weiler 2024,1,full text digest
-Acer platanoides,runoff,event canopy interception (mean of 76 events),54.8,% of gross rainfall,Anys & Weiler 2024,1,full text digest
-Quercus ilex,runoff,annual interception loss isolated tree,46-51,% of annual P (Mediterranean Spain),Hassan et al. 2017,8,abstract
-Quercus pyrenaica,runoff,annual interception loss isolated tree,10-16,% of annual P,Hassan et al. 2017,8,abstract
-Quercus nigra,runoff,interception,30-50,% depending on rain depth,Bean et al. 2021,2,full text digest
-Platanus x acerifolia,heat,transpiration cooling during heatwave,33.3,% of incoming solar energy at up to 39.1 C,Bachofen et al. 2025,43,full text digest
-Tilia cordata,heat,transpiration vs Robinia,~4x,higher transpiration; 35% higher LAI,Rahman et al. 2020,44,abstract
-Robinia pseudoacacia,heat,transpiration vs Tilia cordata,~0.25x,lower transpiration and LAI,Rahman et al. 2020,44,abstract
-Acer platanoides,heat,in-situ shade and transpiration cooling,see paper,4-city study,Helletsgruber et al. 2020,40,full text digest
-Tilia cordata,heat,in-situ shade and transpiration cooling,see paper,4-city study,Helletsgruber et al. 2020,40,full text digest
-Platanus x hispanica,heat,in-situ shade and transpiration cooling,see paper,= Platanus x acerifolia,Helletsgruber et al. 2020,40,full text digest
-Aesculus hippocastanum,heat,in-situ shade and transpiration cooling,see paper,4-city study,Helletsgruber et al. 2020,40,full text digest
-Robinia pseudoacacia,heat,in-situ shade and transpiration cooling,see paper,4-city study,Helletsgruber et al. 2020,40,full text digest
-Pyrus calleryana,heat,shading effectiveness (Manchester),see paper,5-species comparison,Armson et al. 2013,,full text digest
-Crataegus laevigata,heat,shading effectiveness (Manchester),see paper,5-species comparison (incl. Sorbus arnoldiana),Armson et al. 2013,,full text digest
-Platanus x acerifolia,runoff,"surface water storage capacity, all surfaces (rainfall simulator)",0.87,"mm per unit leaf + stem surface area; P. x hispanica; leaf 1.10, stem 0.28; range 0.68-1.06",Xiao & McPherson 2016,3,full text
-Pyrus calleryana,runoff,"surface water storage capacity, all surfaces (rainfall simulator)",0.51,"mm per unit leaf + stem surface area; cv. Bradford; leaf 0.57, stem 0.23; range 0.43-0.63",Xiao & McPherson 2016,3,full text
-Celtis sinensis,runoff,"surface water storage capacity, all surfaces (rainfall simulator)",0.71,"mm per unit leaf + stem surface area; leaf 0.94, stem 0.17; congener of C. australis",Xiao & McPherson 2016,3,full text
-Gleditsia triacanthos,runoff,"surface water storage capacity, all surfaces (rainfall simulator)",0.67,"mm per unit leaf + stem surface area; leaf 0.70, stem 0.33",Xiao & McPherson 2016,3,full text
-Fraxinus angustifolia,runoff,"surface water storage capacity, all surfaces (rainfall simulator)",0.60,"mm per unit leaf + stem surface area; cv. Raywood; leaf 0.75, stem 0.25",Xiao & McPherson 2016,3,full text
-Quercus ilex,runoff,"surface water storage capacity, all surfaces (rainfall simulator)",0.82,mm per unit leaf + stem surface area; evergreen; range 0.66-1.17,Xiao & McPherson 2016,3,full text
-Pinus pinea,runoff,"surface water storage capacity, all surfaces (rainfall simulator)",1.04,mm per unit leaf + stem surface area; conifer; range 0.82-1.24,Xiao & McPherson 2016,3,full text
-Platanus x acerifolia,runoff,canopy storage Cmax / Cmin (rainfall simulator),0.49 / 0.29,"mm per canopy projected area, juvenile potted trees, LAI 3.02; 0.64 mm event, likely rain-limited",Baptista et al. 2018,6,full text
-Ulmus procera,runoff,canopy storage Cmax / Cmin (rainfall simulator),0.69 / 0.38,"mm per canopy projected area, LAI 4.71; same caveat",Baptista et al. 2018,6,full text
-Pyrus calleryana,heat,"max UTCI reduction, ENVI-met default tree sized 12 x 6 m (geometry, not physiology)",3.53-6.27,"C, two Lisbon canyons, 14:00 hot day",Silva et al. 2025,47,full text
-Quercus velutina,runoff,infiltration increase through compacted subsoil vs no-tree control (greenhouse containers),153,"% in the more compacted soil (1.59 g/cm3), pooled with Acer rubrum; 63% all treatments pooled; species difference not significant; Ksat ~3.9e-3 vs 1.3e-3 cm/s",Bartens et al. 2008,16,full text
-Acer rubrum,runoff,infiltration increase through compacted subsoil vs no-tree control (greenhouse containers),153,% pooled with Quercus velutina; Ksat ~3.0e-3 vs 1.3e-3 cm/s at 1.59 g/cm3,Bartens et al. 2008,16,full text
-Fraxinus pennsylvanica,runoff,"saturated hydraulic conductivity, structural soil over compacted subsoil, 2-yr trees (n=5 vs 5)",27x,"Ksat 1.31e-3 vs 4.83e-5 cm/s (~47 vs ~1.7 mm/h); P=0.008; young potted trees, irrigated",Bartens et al. 2008,16,full text
-Ginkgo biloba,runoff,"event interception (mean of 6 events, one tree)",57.93,"% of rain, Seoul, Sept-Oct 2018; range 40.8-82.8; whole-canopy whole-canopy LAI 1.98, central-section LAI 7.02 (the authors' driver)",Yang et al. 2019,5,full text
-Styphnolobium japonicum,runoff,"event interception (mean of 6 events, one tree)",35.79,"% of rain, Seoul, Sept-Oct 2018; listed as Sophora japonica; range 17.2-57.1; whole-canopy LAI 2.61, central-section LAI 5.11 (the authors' driver)",Yang et al. 2019,5,full text
-Aesculus turbinata,runoff,"event interception (mean of 6 events, one tree)",30.58,"% of rain, Seoul, Sept-Oct 2018; range 20.7-40.8; whole-canopy LAI 3.37, central-section LAI 6.37 (the authors' driver)",Yang et al. 2019,5,full text
-Zelkova serrata,runoff,"event interception (mean of 6 events, one tree)",20.59,"% of rain, Seoul, Sept-Oct 2018; range 9.6-30.6; whole-canopy LAI 3.28, central-section LAI 5.02 (the authors' driver)",Yang et al. 2019,5,full text
-Betula pendula,runoff,interception over two years (2 trees),23,"% of gross rainfall, Ljubljana 2014-2015; leafed per-event mean 53%; LAI 2.6 leafed",Zabret & Sraj 2019,7,full text
-Pinus nigra,runoff,interception over two years (2 trees),47,% of gross rainfall (abstract says 45%); LAI 4.3,Zabret & Sraj 2019,7,full text
-Styphnolobium japonicum,runoff,infiltration increase vs unplanted tank (tap roots),118,"% (0.61 vs 0.28 m/d at tank base); young tree, lab tank",Zhang et al. 2019,17,full text
-Malus baccata,runoff,infiltration increase vs unplanted tank (fibrous roots),19,% (0.33 vs 0.28 m/d at tank base),Zhang et al. 2019,17,full text
-Pyrus calleryana,runoff,"winter (leafless) interception, 9-yr Bradford pear, Davis",15,% of winter rain; Xiao et al. 2000 as cited in Kuehler et al. 2017 and Zabret & Sraj 2019,Xiao et al. 2000 (via Kuehler 2017),,secondary
-Jacaranda mimosifolia,runoff,"interception, small tree, Santa Monica (city-scale model)",15.3,%; Xiao & McPherson 2003 as cited in Huang et al. 2017,Xiao & McPherson 2003 (via Huang 2017),,secondary
-Brachychiton populneus,heat,"annual transpiration per tree, Los Angeles",<5000,"kg/yr per tree (Berland: kg yr-1), lowest of the species reported; McCarthy et al. 2011 as cited in Berland et al. 2017",McCarthy et al. 2011 (via Berland 2017),,secondary
-Gleditsia triacanthos,heat,"annual transpiration per tree, Los Angeles",~25000,kg/yr per tree (Berland: kg yr-1); McCarthy et al. 2011 as cited in Berland et al. 2017,McCarthy et al. 2011 (via Berland 2017),,secondary
-Platanus x acerifolia,heat,"transpiration per tree in August, Los Angeles",176.9,kg/tree/day (as P. hybrida) vs 3.2 for Pinus canariensis; Pataki et al. 2011 as cited in Berland et al. 2017,Pataki et al. 2011 (via Berland 2017),,secondary
-Pyrus calleryana,heat,"daily transpiration per unit leaf area, potted trees",0.75-1.04,"mm/day, turf vs parking lot; Kjelgren & Montague 1998 as cited in Kuehler et al. 2017",Kjelgren & Montague 1998 (via Kuehler 2017),,secondary
-Platanus x acerifolia,heat,plant area index lost within 11 days of a > 41 C heatwave (2 streets),27-44,"% of pre-heatwave PAI after 11 days (5.03 -> 2.84; 4.00 -> 2.92; authors: almost 30-50%); 30-51% by day 65; Melbourne 2014, 4 days at 41.7-43.9 C",Sanusi & Livesley 2020,66,full text
-Platanus x acerifolia,heat,"street air temperature reduction, high vs low canopy cover",0.9-2.1,"C on the warmest days (N-S vs E-W streets), Melbourne; Sanusi et al. 2016 as summarised in Livesley et al. 2016",Sanusi et al. 2016 (via Livesley 2016),,secondary
-Pyrus calleryana,heat,"crop factor class (transpiration per canopy area / ETo), well-watered young potted trees",>1.15,"mm/mm/d, high class among 13 species (Melbourne); hydroscape 3-5 MPa2 (moderate), recovery 50-80% (moderate)",Thom et al. 2022,79,full text
-Jacaranda mimosifolia,heat,"daily water use, 15-20 cm dbh tree, Los Angeles",9,L/d (Lagerstroemia indica 45 L/d); Pataki et al. 2011 as cited in Thom et al. 2022,Pataki et al. 2011 (via Thom 2022),,secondary
-Tipuana tipu,heat,"max PET reduction under one tree, very hot day (3 Jul 2016), Lisbon canyon H/W 0.17, model with measured under-crown radiation",15.6,C (mPET 11.6); Tmrt -13.1 to -29.5 C across the four canyons,Santos Nouri et al. 2018,81,full text
-Tipuana tipu,heat,"winter overshading cost: PET lowered under the crown (16 Dec 2016, noon), up to",2.7,"C (mPET 2.6); keeps foliage in winter, leafless only in early spring in Iberia (Vinas & Solanich, as cited)",Santos Nouri et al. 2018,81,full text
+species,objective,measure,value,unit_or_note,source,matrix_row,read_level,measure_type
+Tilia cordata,runoff,event canopy interception (mean of 76 events),70.3,% of gross rainfall; mean event 6.7 mm,Anys & Weiler 2024,1,full text digest,event_interception_pct
+Acer platanoides,runoff,event canopy interception (mean of 76 events),54.8,% of gross rainfall,Anys & Weiler 2024,1,full text digest,event_interception_pct
+Quercus ilex,runoff,annual interception loss isolated tree,46-51,% of annual P (Mediterranean Spain),Hassan et al. 2017,8,abstract,annual_interception_pct
+Quercus pyrenaica,runoff,annual interception loss isolated tree,10-16,% of annual P,Hassan et al. 2017,8,abstract,annual_interception_pct
+Quercus nigra,runoff,interception,30-50,% depending on rain depth,Bean et al. 2021,2,full text digest,event_interception_pct
+Platanus x acerifolia,heat,transpiration cooling during heatwave,33.3,% of incoming solar energy at up to 39.1 C,Bachofen et al. 2025,43,full text digest,transpiration
+Tilia cordata,heat,transpiration vs Robinia,~4x,higher transpiration; 35% higher LAI,Rahman et al. 2020,44,abstract,transpiration
+Robinia pseudoacacia,heat,transpiration vs Tilia cordata,~0.25x,lower transpiration and LAI,Rahman et al. 2020,44,abstract,transpiration
+Acer platanoides,heat,in-situ shade and transpiration cooling,see paper,4-city study,Helletsgruber et al. 2020,40,full text digest,transpiration
+Tilia cordata,heat,in-situ shade and transpiration cooling,see paper,4-city study,Helletsgruber et al. 2020,40,full text digest,transpiration
+Platanus x hispanica,heat,in-situ shade and transpiration cooling,see paper,= Platanus x acerifolia,Helletsgruber et al. 2020,40,full text digest,transpiration
+Aesculus hippocastanum,heat,in-situ shade and transpiration cooling,see paper,4-city study,Helletsgruber et al. 2020,40,full text digest,transpiration
+Robinia pseudoacacia,heat,in-situ shade and transpiration cooling,see paper,4-city study,Helletsgruber et al. 2020,40,full text digest,transpiration
+Pyrus calleryana,heat,shading effectiveness (Manchester),see paper,5-species comparison,Armson et al. 2013,,full text digest,surface_temp
+Crataegus laevigata,heat,shading effectiveness (Manchester),see paper,5-species comparison (incl. Sorbus arnoldiana),Armson et al. 2013,,full text digest,surface_temp
+Platanus x acerifolia,runoff,"surface water storage capacity, all surfaces (rainfall simulator)",0.87,"mm per unit leaf + stem surface area; P. x hispanica; leaf 1.10, stem 0.28; range 0.68-1.06",Xiao & McPherson 2016,3,full text,storage_capacity_mm
+Pyrus calleryana,runoff,"surface water storage capacity, all surfaces (rainfall simulator)",0.51,"mm per unit leaf + stem surface area; cv. Bradford; leaf 0.57, stem 0.23; range 0.43-0.63",Xiao & McPherson 2016,3,full text,storage_capacity_mm
+Celtis sinensis,runoff,"surface water storage capacity, all surfaces (rainfall simulator)",0.71,"mm per unit leaf + stem surface area; leaf 0.94, stem 0.17; congener of C. australis",Xiao & McPherson 2016,3,full text,storage_capacity_mm
+Gleditsia triacanthos,runoff,"surface water storage capacity, all surfaces (rainfall simulator)",0.67,"mm per unit leaf + stem surface area; leaf 0.70, stem 0.33",Xiao & McPherson 2016,3,full text,storage_capacity_mm
+Fraxinus angustifolia,runoff,"surface water storage capacity, all surfaces (rainfall simulator)",0.60,"mm per unit leaf + stem surface area; cv. Raywood; leaf 0.75, stem 0.25",Xiao & McPherson 2016,3,full text,storage_capacity_mm
+Quercus ilex,runoff,"surface water storage capacity, all surfaces (rainfall simulator)",0.82,mm per unit leaf + stem surface area; evergreen; range 0.66-1.17,Xiao & McPherson 2016,3,full text,storage_capacity_mm
+Pinus pinea,runoff,"surface water storage capacity, all surfaces (rainfall simulator)",1.04,mm per unit leaf + stem surface area; conifer; range 0.82-1.24,Xiao & McPherson 2016,3,full text,storage_capacity_mm
+Platanus x acerifolia,runoff,canopy storage Cmax / Cmin (rainfall simulator),0.49 / 0.29,"mm per canopy projected area, juvenile potted trees, LAI 3.02; 0.64 mm event, likely rain-limited",Baptista et al. 2018,6,full text,storage_capacity_mm
+Ulmus procera,runoff,canopy storage Cmax / Cmin (rainfall simulator),0.69 / 0.38,"mm per canopy projected area, LAI 4.71; same caveat",Baptista et al. 2018,6,full text,storage_capacity_mm
+Pyrus calleryana,heat,"max UTCI reduction, ENVI-met default tree sized 12 x 6 m (geometry, not physiology)",3.53-6.27,"C, two Lisbon canyons, 14:00 hot day",Silva et al. 2025,47,full text,UTCI_simulated
+Quercus velutina,runoff,infiltration increase through compacted subsoil vs no-tree control (greenhouse containers),153,"% in the more compacted soil (1.59 g/cm3), pooled with Acer rubrum; 63% all treatments pooled; species difference not significant; Ksat ~3.9e-3 vs 1.3e-3 cm/s",Bartens et al. 2008,16,full text,other
+Acer rubrum,runoff,infiltration increase through compacted subsoil vs no-tree control (greenhouse containers),153,% pooled with Quercus velutina; Ksat ~3.0e-3 vs 1.3e-3 cm/s at 1.59 g/cm3,Bartens et al. 2008,16,full text,other
+Fraxinus pennsylvanica,runoff,"saturated hydraulic conductivity, structural soil over compacted subsoil, 2-yr trees (n=5 vs 5)",27x,"Ksat 1.31e-3 vs 4.83e-5 cm/s (~47 vs ~1.7 mm/h); P=0.008; young potted trees, irrigated",Bartens et al. 2008,16,full text,other
+Ginkgo biloba,runoff,"event interception (mean of 6 events, one tree)",57.93,"% of rain, Seoul, Sept-Oct 2018; range 40.8-82.8; whole-canopy whole-canopy LAI 1.98, central-section LAI 7.02 (the authors' driver)",Yang et al. 2019,5,full text,event_interception_pct
+Styphnolobium japonicum,runoff,"event interception (mean of 6 events, one tree)",35.79,"% of rain, Seoul, Sept-Oct 2018; listed as Sophora japonica; range 17.2-57.1; whole-canopy LAI 2.61, central-section LAI 5.11 (the authors' driver)",Yang et al. 2019,5,full text,event_interception_pct
+Aesculus turbinata,runoff,"event interception (mean of 6 events, one tree)",30.58,"% of rain, Seoul, Sept-Oct 2018; range 20.7-40.8; whole-canopy LAI 3.37, central-section LAI 6.37 (the authors' driver)",Yang et al. 2019,5,full text,event_interception_pct
+Zelkova serrata,runoff,"event interception (mean of 6 events, one tree)",20.59,"% of rain, Seoul, Sept-Oct 2018; range 9.6-30.6; whole-canopy LAI 3.28, central-section LAI 5.02 (the authors' driver)",Yang et al. 2019,5,full text,event_interception_pct
+Betula pendula,runoff,interception over two years (2 trees),23,"% of gross rainfall, Ljubljana 2014-2015; leafed per-event mean 53%; LAI 2.6 leafed",Zabret & Sraj 2019,7,full text,annual_interception_pct
+Pinus nigra,runoff,interception over two years (2 trees),47,% of gross rainfall (abstract says 45%); LAI 4.3,Zabret & Sraj 2019,7,full text,annual_interception_pct
+Styphnolobium japonicum,runoff,infiltration increase vs unplanted tank (tap roots),118,"% (0.61 vs 0.28 m/d at tank base); young tree, lab tank",Zhang et al. 2019,17,full text,other
+Malus baccata,runoff,infiltration increase vs unplanted tank (fibrous roots),19,% (0.33 vs 0.28 m/d at tank base),Zhang et al. 2019,17,full text,other
+Pyrus calleryana,runoff,"winter (leafless) interception, 9-yr Bradford pear, Davis",15,% of winter rain; Xiao et al. 2000 as cited in Kuehler et al. 2017 and Zabret & Sraj 2019,Xiao et al. 2000 (via Kuehler 2017),,secondary,event_interception_pct
+Jacaranda mimosifolia,runoff,"interception, small tree, Santa Monica (city-scale model)",15.3,%; Xiao & McPherson 2002 as cited in Huang et al. 2017,Xiao & McPherson 2002 (via Huang 2017),,secondary,annual_interception_pct
+Brachychiton populneus,heat,"annual transpiration per tree, Los Angeles",<5000,"kg/yr per tree (Berland: kg yr-1), lowest of the species reported; McCarthy et al. 2011 as cited in Berland et al. 2017",McCarthy et al. 2011 (via Berland 2017),,secondary,transpiration
+Gleditsia triacanthos,heat,"annual transpiration per tree, Los Angeles",~25000,kg/yr per tree (Berland: kg yr-1); McCarthy et al. 2011 as cited in Berland et al. 2017,McCarthy et al. 2011 (via Berland 2017),,secondary,transpiration
+Platanus x acerifolia,heat,"transpiration per tree in August, Los Angeles",176.9,kg/tree/day (as P. hybrida) vs 3.2 for Pinus canariensis; Pataki et al. 2011 as cited in Berland et al. 2017,Pataki et al. 2011 (via Berland 2017),,secondary,transpiration
+Pyrus calleryana,heat,"daily transpiration per unit leaf area, potted trees",0.75-1.04,"mm/day, turf vs parking lot; Kjelgren & Montague 1998 as cited in Kuehler et al. 2017",Kjelgren & Montague 1998 (via Kuehler 2017),,secondary,transpiration
+Platanus x acerifolia,heat,plant area index lost within 11 days of a > 41 C heatwave (2 streets),27-44,"% of pre-heatwave PAI after 11 days (5.03 -> 2.84; 4.00 -> 2.92; authors: almost 30-50%); 30-51% by day 65; Melbourne 2014, 4 days at 41.7-43.9 C",Sanusi & Livesley 2020,66,full text,other
+Platanus x acerifolia,heat,"street air temperature reduction, high vs low canopy cover",0.9-2.1,"C on the warmest days (N-S vs E-W streets), Melbourne; Sanusi et al. 2016 as summarised in Livesley et al. 2016",Sanusi et al. 2016 (via Livesley 2016),,secondary,other
+Pyrus calleryana,heat,"crop factor class (transpiration per canopy area / ETo), well-watered young potted trees",>1.15,"mm/mm/d, high class among 13 species (Melbourne); hydroscape 3-5 MPa2 (moderate), recovery 50-80% (moderate)",Thom et al. 2022,79,full text,transpiration
+Jacaranda mimosifolia,heat,"daily water use, 15-20 cm dbh tree, Los Angeles",9,L/d (Lagerstroemia indica 45 L/d); Pataki et al. 2011 as cited in Thom et al. 2022,Pataki et al. 2011 (via Thom 2022),,secondary,transpiration
+Tipuana tipu,heat,"max PET reduction under one tree, very hot day (3 Jul 2016), Lisbon canyon H/W 0.17, model with measured under-crown radiation",15.6,C (mPET 11.6); Tmrt -13.1 to -29.5 C across the four canyons,Santos Nouri et al. 2018,81,full text,other
+Tipuana tipu,heat,"winter overshading cost: PET lowered under the crown (16 Dec 2016, noon), up to",2.7,"C (mPET 2.6); keeps foliage in winter, leafless only in early spring in Iberia (Vinas & Solanich, as cited)",Santos Nouri et al. 2018,81,full text,other
