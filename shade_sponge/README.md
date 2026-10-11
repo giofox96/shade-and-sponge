@@ -19,6 +19,8 @@ Run from the project root with the conda env `shade-and-sponge` (`<env>/Library/
 | `season.py` | Leaf-on calendar: LAI(m) = LAI(LiDAR, 26 Sept) × (R_OFF + (1 − R_OFF)·f(m)); runoff = expected value over the storm months | f(m): `databases/traits/phenology_palette.csv` (sources per species; class-default months marked ASSUMPTION). Storm months: `databases/barcelona/storm_months.csv` (Esbrí et al. 2026, Fig. 4). **R_OFF = 0.5 (ASSUMPTION**, test 0.3–0.7; anchors Herbst et al. 2008, Xiao et al. 2000). Heat uses July leaves |
 | `layout.py` | Palette, 15% cap, façade-clearance fit, per-position potentials, weighted-sum LP (HiGHS) over 3 objectives (summer shade ↑, winter shade ↓, hotspot runoff ↓; 15 weight sets), random baseline, Pareto | Species traits = median of each species' Porta trees (LiDAR 2021); same s per LAI for all species. Clearance: crown radius ≤ distance to nearest building (ASSUMPTION: no margin) |
 
+Tutorial (how it works, how to use it, a demo script): `study/tool_tutorial.md`.
+
 To add a site, write `build_<site>()` and `trees_<site>()` in `site.py` (same keys and columns).
 
 ## Outputs
