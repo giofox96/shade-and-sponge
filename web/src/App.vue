@@ -1,6 +1,6 @@
 <script setup>
 import { onMounted, watch } from 'vue'
-import { state, load, switchSite, scenario, label, runLive, setAddMode, addedCsv, MIN_SPACING_M, MONTHS, BALANCED, LIVE } from './store.js'
+import { state, load, switchSite, scenario, label, layoutEff, runLive, setAddMode, addedCsv, MIN_SPACING_M, MONTHS, BALANCED, LIVE } from './store.js'
 import MapView from './components/MapView.vue'
 import PriorityTriangle from './components/PriorityTriangle.vue'
 import TradeoffChart from './components/TradeoffChart.vue'
@@ -23,7 +23,7 @@ function clearAdded() {
 
 // Constraints changed: re-optimise live with the weights on screen (live or a precomputed optimised layout)
 watch(
-  () => [state.share, state.exclude.length],
+  () => [state.share, state.exclude.length, state.minEff],
   () => {
     const w = state.scenarioId === LIVE ? state.live?.weights : scenario.value?.weights
     if (w) runLive(w)
@@ -76,6 +76,15 @@ watch(
         <h3>Max share per species <span class="muted">{{ Math.round(state.share * 100) }}%</span></h3>
         <input type="range" min="0.05" max="0.3" step="0.01" v-model.number="state.share" />
         <p class="muted small">Of all {{ state.pot.n_total.toLocaleString('en') }} street trees, as in the city tree plan (15%). Changing it re-optimises live.</p>
+      </section>
+      <section>
+        <h3>Diversity floor <span class="muted">{{ state.minEff ? `≥ ${state.minEff} effective species` : 'off' }}</span></h3>
+        <label class="small"><input type="checkbox" :checked="state.minEff > 0"
+               @change="state.minEff = $event.target.checked ? Math.min(8, state.pot.species.length - state.exclude.length - 1) : 0" />
+          Keep a minimum Shannon diversity</label>
+        <input v-if="state.minEff" type="range" min="2" :max="state.pot.species.length - state.exclude.length" step="1" v-model.number="state.minEff"
+               aria-label="Minimum effective number of species" />
+        <p class="muted small">Effective number of species = exp(Shannon H) of the replanted positions. This layout: {{ layoutEff?.toFixed(1) }}. Changing it re-optimises live.</p>
       </section>
       <section>
         <h3>Map layer</h3>

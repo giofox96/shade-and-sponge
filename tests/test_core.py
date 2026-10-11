@@ -1,6 +1,6 @@
 """Data-free checks of the tool core (run in CI: python -m pytest -q tests). Only tracked CSVs are read, no raw data."""
 import numpy as np
-from shade_sponge import heat, runoff, season, topo
+from shade_sponge import heat, layout, runoff, season, topo
 
 
 def test_scs_bounds():
@@ -32,3 +32,14 @@ def test_leaf_factor_bounds():
 def test_sun_noon_july_barcelona():
     alt, az = heat.sun(41.4, 2.17, 196, 12.0)            # 15 July, ~solar noon: altitude ≈ 90 − 41.4 + 21.5
     assert 68 < np.degrees(alt) < 72 and abs(np.degrees(az) - 180) < 3
+
+
+def test_diversity_floor():
+    rng = np.random.default_rng(0)
+    score = rng.random((60, 5)) + np.array([2, 1.5, 0, 0, 0])   # two species dominate without a floor
+    cap, fit = np.full(5, 40), np.ones((60, 5), bool)
+    free = layout.assign(score, cap, fit)
+    assert layout.eff_species(free, 5) < 2.1
+    div = layout.assign(score, cap, fit, min_eff=4)
+    assert layout.eff_species(div, 5) >= 4 and np.bincount(div, minlength=5).max() <= 40
+    assert score[np.arange(60), div].sum() <= score[np.arange(60), free].sum()

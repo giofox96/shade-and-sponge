@@ -87,19 +87,50 @@ def water_potential(site, pos, pal, p_mm, runoff_target="hotspot"):
     return out
 
 
-def assign(score, cap, fit):
-    """Max total score, one fitting species per position, species counts <= cap (transportation LP, integral at a vertex)."""
+def _entropy_chords(n_pos):
+    """Chords of g(n) = −(n/N)·ln(n/N) on breakpoints dense near 0. g is concave, so its piecewise-linear interpolation
+    (the min of the chord lines) lies below it: a floor on the sum of chords is a conservative floor on Shannon H."""
+    n = np.unique(np.r_[0, np.round(np.geomspace(1, n_pos, 40))])
+    p = n / n_pos
+    g = -p * np.log(np.where(p > 0, p, 1))
+    b = np.diff(g) / np.diff(n)
+    return g[:-1] - b * n[:-1], b                     # line k: a_k + b_k·n
+
+
+def assign(score, cap, fit, min_eff=None):
+    """Max total score, one fitting species per position, species counts <= cap (transportation LP, integral at a vertex).
+    min_eff: optional diversity floor (methodology §6) on the planted positions as an effective number of species,
+    exp(Shannon H) as in SylvCiT (Nicol et al. 2026). Linear in the counts via _entropy_chords; only the S counts are
+    integer, the x-part stays a transportation problem."""
     P, S = score.shape
     A_eq = sparse.kron(sparse.eye(P), np.ones((1, S)))
     A_ub = sparse.kron(np.ones((1, P)), sparse.eye(S))
-    res = linprog(-score.ravel(), A_ub=A_ub, b_ub=cap, A_eq=A_eq, b_eq=np.ones(P),
-                  bounds=np.c_[np.zeros(P * S), fit.ravel()], method="highs")
+    if min_eff is None:
+        res = linprog(-score.ravel(), A_ub=A_ub, b_ub=cap, A_eq=A_eq, b_eq=np.ones(P),
+                      bounds=np.c_[np.zeros(P * S), fit.ravel()], method="highs")
+    else:                                             # variables: x (P·S), n (S counts), h (S entropy terms)
+        a, b = _entropy_chords(P)
+        K, I, Z = len(a), sparse.eye(S), sparse.csr_matrix
+        A_eq = sparse.vstack([sparse.hstack([A_eq, Z((P, 2 * S))]), sparse.hstack([A_ub, -I, Z((S, S))])])
+        A_ub = sparse.vstack([sparse.hstack([Z((K * S, P * S)), -sparse.kron(b[:, None], I), sparse.kron(np.ones((K, 1)), I)]),
+                              sparse.hstack([Z((1, P * S + S)), -np.ones((1, S))])])
+        res = linprog(np.r_[-score.ravel(), np.zeros(2 * S)], A_ub=A_ub, b_ub=np.r_[np.repeat(a, S), -np.log(min_eff)],
+                      A_eq=A_eq, b_eq=np.r_[np.ones(P), np.zeros(S)], method="highs",
+                      bounds=np.r_[np.c_[np.zeros(P * S), fit.ravel()], np.c_[np.zeros(S), cap], np.c_[np.zeros(S), np.full(S, np.inf)]],
+                      integrality=np.r_[np.zeros(P * S), np.ones(S), np.zeros(S)])
     if not res.success:
-        raise RuntimeError(res.message)
-    return res.x.reshape(P, S).argmax(1)
+        raise RuntimeError(res.message if min_eff is None else f"diversity floor {min_eff} not reachable: {res.message}")
+    return res.x[:P * S].reshape(P, S).argmax(1)
 
 
-def sweep(objs, cap, fit, step=0.25):
+def eff_species(choice, n_species):
+    """Effective number of species exp(Shannon H) of a layout (palette indices)."""
+    p = np.bincount(choice, minlength=n_species) / len(choice)
+    p = p[p > 0]
+    return float(np.exp(-(p * np.log(p)).sum()))
+
+
+def sweep(objs, cap, fit, step=0.25, min_eff=None):
     """objs: {name: (potential matrix, +1 to maximise / −1 to minimise)}. Every weight combination on a simplex grid
     (step 0.25 -> 15 combinations for 3 objectives); potentials normalised by their maximum. A 1e-3 share of the
     unweighted sum breaks ties (e.g. positions that do not drain to a hotspot)."""
@@ -109,7 +140,7 @@ def sweep(objs, cap, fit, step=0.25):
     for c in itertools.product(range(n + 1), repeat=len(objs)):
         if sum(c) == n:
             w = np.array(c) / n
-            out[tuple(w)] = assign(sum(wk * m for wk, m in zip(w, norm)) + 1e-3 * sum(norm), cap, fit)
+            out[tuple(w)] = assign(sum(wk * m for wk, m in zip(w, norm)) + 1e-3 * sum(norm), cap, fit, min_eff)
     return out
 
 

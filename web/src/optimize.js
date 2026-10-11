@@ -13,8 +13,29 @@ export function caps(pot, share, exclude) {
   return pot.species.map((s, j) => (exclude.includes(s) ? 0 : Math.max(0, Math.floor(share * pot.n_total) - pot.kept[j])))
 }
 
+// Chords of g(n) = -(n/N) ln(n/N), as _entropy_chords in shade_sponge/layout.py: their min lies below g (concave), so a
+// floor on the sum is a conservative floor on Shannon H. Returns lines [a, b] (a + b·n).
+function entropyChords(N) {
+  const n = [...new Set([0, ...Array.from({ length: 40 }, (_, k) => Math.round(N ** (k / 39)))])].sort((x, y) => x - y)
+  const g = n.map((v) => (v ? -(v / N) * Math.log(v / N) : 0))
+  return n.slice(1).map((v, k) => {
+    const b = (g[k + 1] - g[k]) / (v - n[k])
+    return [g[k] - b * n[k], b]
+  })
+}
+const term = (c, v) => `${c < 0 ? '-' : '+'} ${Math.abs(c).toFixed(9)} ${v}`
+
+// Effective number of species exp(Shannon H) of a layout (palette indices; others, e.g. planes, ignored)
+export function effSpecies(layout, S) {
+  const n = Array(S).fill(0)
+  layout.forEach((j) => j >= 0 && j < S && n[j]++)
+  const N = n.reduce((a, b) => a + b, 0)
+  return Math.exp(-n.reduce((a, v) => a + (v ? (v / N) * Math.log(v / N) : 0), 0))
+}
+
+// minEff: optional diversity floor on the planted positions, as effective number of species (0 = off)
 // extra: designer-added trees ({ pot: { summer, winter, water, fit }, species, auto }); a species the designer fixed is kept
-export async function optimise(pot, weights, { share = pot.max_share, exclude = [], extra = [] } = {}) {
+export async function optimise(pot, weights, { share = pot.max_share, exclude = [], extra = [], minEff = 0 } = {}) {
   const P = pot.fit.length + extra.length
   const val = (k, i, j) => (i < pot.fit.length ? pot[k][i][j] : extra[i - pot.fit.length].pot[{ shade_summer: 'summer', shade_winter: 'winter', water: 'water' }[k]][j])
   const fits = (i, j) => (i < pot.fit.length ? pot.fit[i][j] : extra[i - pot.fit.length].auto ? extra[i - pot.fit.length].pot.fit[j] : +(extra[i - pot.fit.length].species === j))
@@ -39,11 +60,23 @@ export async function optimise(pot, weights, { share = pot.max_share, exclude = 
     rows.push(` p${i}: ${r.join(' + ')} = 1`)
   }
   col.forEach((c, j) => c.length && rows.push(` s${j}: ${c.join(' + ')} <= ${cap[j]}`))
-  const lp = `Maximize\n obj: ${obj.join('\n  ')}\nSubject To\n${rows.join('\n')}\nEnd`
+  let tail = ''
+  if (minEff > 1) {
+    // counts n_j (integer), entropy terms h_j <= every chord line, sum h_j >= ln(minEff); the x-part stays a transportation LP
+    const used = col.map((c, j) => (c.length ? j : -1)).filter((j) => j >= 0)
+    const lines = entropyChords(P)
+    used.forEach((j) => {
+      rows.push(` c${j}: ${col[j].join(' + ')} - n${j} = 0`)
+      lines.forEach(([a, b], k) => rows.push(` g${j}_${k}: h${j} ${term(-b, `n${j}`)} <= ${a.toFixed(9)}`))
+    })
+    rows.push(` div: ${used.map((j) => `h${j}`).join(' + ')} >= ${Math.log(minEff).toFixed(9)}`)
+    tail = `\nGeneral\n ${used.map((j) => `n${j}`).join(' ')}`
+  }
+  const lp = `Maximize\n obj: ${obj.join('\n  ')}\nSubject To\n${rows.join('\n')}${tail}\nEnd`
 
   const t0 = performance.now()
   const res = (await solver()).solve(lp, { output_flag: false })
-  if (res.Status !== 'Optimal') return { error: `No layout satisfies the caps (${res.Status}). Raise the max share or allow more species.` }
+  if (res.Status !== 'Optimal') return { error: `No layout satisfies the ${minEff > 1 ? 'caps and the diversity floor' : 'caps'} (${res.Status}). ${minEff > 1 ? 'Lower the floor, r' : 'R'}aise the max share or allow more species.` }
   const layout = Array.from({ length: P }, (_, i) => {
     let best = -1
     let bv = -1

@@ -1,4 +1,6 @@
-"""Run the tool on a site: python -m shade_sponge [site]   (default: porta; first run builds cache/site_<site>.npz)
+"""Run the tool on a site: python -m shade_sponge [site] [--palette=barcelona] [--diversity=N]
+(default: porta; first run builds cache/site_<site>.npz). --diversity=N: optimised layouts keep at least N effective
+species (exp of Shannon H) among the planted positions; off by default.
 Outputs: databases/barcelona/tool_v0_summary.csv, exchange/to_gh/{positions,layouts}_tool_v0_<YYYYMMDD>.csv"""
 import sys, json, datetime, numpy as np, pandas as pd
 from .site import load_site, rc, DB, EX
@@ -7,7 +9,10 @@ from . import heat, runoff, layout, season
 args = [a for a in sys.argv[1:] if not a.startswith("--")]
 name = args[0] if args else "porta"
 kind = "barcelona" if "--palette=barcelona" in sys.argv else "city"   # python -m shade_sponge porta --palette=barcelona
-tag = "" if kind == "city" else "_barcelona"
+opt = dict(a[2:].split("=") for a in sys.argv[1:] if a.startswith("--") and "=" in a)
+min_eff = float(opt["diversity"]) if "diversity" in opt else None
+ptag = "" if kind == "city" else "_barcelona"
+tag = ptag + (f"_div{opt['diversity']}" if min_eff else "")
 site = load_site(name)
 o = json.load(open(EX / "site_origin.json"))
 sun = {s: heat.design_suns(site, s) for s in heat.SEASONS}
@@ -20,7 +25,7 @@ print(f"{len(pos)} positions, P = {p:.1f} mm; sun altitude " + ", ".join(
 print(pal.to_string(index=False))
 sens = pd.DataFrame({**{f"r_off_{r}": season.storm_factor(pal.species, r) for r in (0.3, 0.5, 0.7)},
                      "no_gloria_jan": season.storm_factor(pal.species, storms=season.STORM.drop(1))}, index=pal.species)
-sens.round(3).to_csv(DB / f"tool_v0_storm_leaf_factor{tag}.csv")
+sens.round(3).to_csv(DB / f"tool_v0_storm_leaf_factor{ptag}.csv")
 print("season-weighted leaf factor in storms (sensitivity):\n", sens.round(3).to_string())
 pot = {s: layout.shade_potential(site, pos, pal, sun[s], lit[s], heat.SEASONS[s]["month"]) for s in sun}
 water = layout.water_potential(site, pos, pal, p)
@@ -29,11 +34,11 @@ print("positions where the species fits:", dict(zip(pal.species, fit.mean(0).rou
 
 layouts = {f"S1_random_{k}": layout.random_layout(pal.cap.values, fit, np.random.default_rng(k)) for k in range(10)}
 objs = {"summer": (pot["summer"], 1), "winter": (pot["winter"], -1), "runoff": (water, 1)}
-layouts.update({"S4_s{:.2f}_w{:.2f}_r{:.2f}".format(*w): ch for w, ch in layout.sweep(objs, pal.cap.values, fit).items()})
+layouts.update({"S4_s{:.2f}_w{:.2f}_r{:.2f}".format(*w): ch for w, ch in layout.sweep(objs, pal.cap.values, fit, min_eff=min_eff).items()})
 rows = [dict(scenario="S0_current", **layout.evaluate(site, site.trees[site.trees.flag == "ok"], sun, lit, p))]
 for sc, ch in layouts.items():
     rows.append(dict(scenario=sc, **layout.evaluate(site, layout.apply(site, pos, pal, ch), sun, lit, p),
-                     **{s: int((ch == j).sum()) for j, s in enumerate(pal.species)}))
+                     eff_species=layout.eff_species(ch, len(pal)), **{s: int((ch == j).sum()) for j, s in enumerate(pal.species)}))
 res = pd.DataFrame(rows)
 rep = res.scenario != "S0_current"                       # front among replacement layouts (S0 keeps mature planes)
 res["pareto"] = False

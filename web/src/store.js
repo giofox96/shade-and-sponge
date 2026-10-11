@@ -1,6 +1,6 @@
 // Shared state: site data exported by `python -m shade_sponge.web_export`, plus what the user has selected.
 import { reactive, computed } from 'vue'
-import { optimise, proxySums, fitLine } from './optimize.js'
+import { optimise, proxySums, fitLine, effSpecies } from './optimize.js'
 import { loadGrid, pointPotentials } from './pointpot.js'
 
 export const MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
@@ -20,6 +20,7 @@ export const state = reactive({
   // live optimisation
   share: 0.15,
   exclude: [],
+  minEff: 0, // diversity floor, effective number of species among planted positions (0 = off)
   live: null, // { weights, layout, metrics, counts, ms, version }
   busy: false,
   liveError: null,
@@ -48,7 +49,7 @@ export async function load(site = state.site) {
 
 // Switch dataset (e.g. city palette 'porta' vs Barcelona shortlist 'porta-barcelona') and reset the view
 export async function switchSite(site) {
-  Object.assign(state, { scenarioId: BALANCED, live: null, selected: null, exclude: [], liveError: null, meta: null, added: [], addMsg: null })
+  Object.assign(state, { scenarioId: BALANCED, live: null, selected: null, exclude: [], minEff: 0, liveError: null, meta: null, added: [], addMsg: null })
   grid = null
   await load(site)
 }
@@ -59,6 +60,9 @@ export function currentLayout() {
   if (state.scenarioId === LIVE && state.live) return state.live.layout
   return state.trees.layouts[state.scenarioId] ?? state.trees.layouts.S0_current
 }
+
+// Effective number of species (exp of Shannon H) among the plane positions of the layout on screen
+export const layoutEff = computed(() => state.pot && state.trees && effSpecies(currentLayout(), state.pot.species.length))
 
 export const scenario = computed(() => {
   if (state.scenarioId === LIVE && state.live) return { id: LIVE, group: 'live', ...state.live }
@@ -96,7 +100,7 @@ export const calibration = computed(() => {
 export async function runLive(weights) {
   state.busy = true
   state.liveError = null
-  const res = await optimise(state.pot, weights, { share: state.share, exclude: state.exclude, extra: state.added })
+  const res = await optimise(state.pot, weights, { share: state.share, exclude: state.exclude, extra: state.added, minEff: state.minEff })
   state.busy = false
   if (res.error) {
     state.liveError = res.error

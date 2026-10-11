@@ -4,7 +4,8 @@ Suggests **which species go at which street-tree position**, scoring each layout
 
 ## Run
 ```bash
-python -m shade_sponge
+python -m shade_sponge                                  # city palette (6 species)
+python -m shade_sponge porta --palette=barcelona --diversity=10   # Barcelona shortlist, diversity floor on
 ```
 Run from the project root with the conda env `shade-and-sponge` (`<env>/Library/bin` on PATH). The first run builds `cache/site_porta.npz` (~15 s); a full run takes ~4 min. Figure: `PYTHONPATH=. python scripts/plot_tool_v0.py`.
 
@@ -81,7 +82,22 @@ Base run plus 6 one-change variants: leafless opacity 0.25 / 0.54; Tipuana bare 
 
 - **Optimised replacements now match or exceed the mature planes on summer shade** (+0.9% balanced, +1.7% summer-only), which the city palette could not (−8%). Balanced vs city-palette balanced: +9% summer shade, +16% winter shade (more evergreen crown).
 - **The trade-off is wider:** winter shade spans 136,000–248,000 m²·h across the 15 weight sets (city palette: 150,000–194,000). Summer-only → balanced: −19% winter shade for −0.8% summer shade (P. halepensis and some P. pinea → Ulmus pumila). Caveat: Ulmus pumila, the main species of the balanced layout, is coded winter-deciduous, but is reported semi-evergreen in warm climates (treelib.ca), which would shrink this gain.
-- **Low diversity:** a few species dominate (balanced: Ulmus pumila 349 + Pinus pinea 346 = 84% of 832 positions; summer-only: Pinus pinea 422, at its cap, + P. halepensis 183; winter-heavy: the small-crowned Hibiscus syriacus 404, at its cap). The model scores only shade and interception: it ignores maintenance, roots and paving, allergenicity, the invasive flag on Ulmus pumila, and functional diversity. The methodology's diversity constraint (Shannon floor, §6) is not implemented yet; meanwhile the max share per species (web app slider) is the lever.
+- **Low diversity:** a few species dominate (balanced: Ulmus pumila 349 + Pinus pinea 346 = 84% of 832 positions; summer-only: Pinus pinea 422, at its cap, + P. halepensis 183; winter-heavy: the small-crowned Hibiscus syriacus 404, at its cap). The model scores only shade and interception: it ignores maintenance, roots and paving, allergenicity, the invasive flag on Ulmus pumila, and functional diversity. Two levers: the max share per species (web app slider) and the optional diversity floor (next section).
+
+## Diversity floor (optional, added 12 Oct)
+`--diversity=N` (web app: "Diversity floor" toggle) keeps at least N **effective species**, exp(Shannon H), among the replanted positions; off by default. The effective number of species is the diversity measure SylvCiT uses (Nicol et al. 2026). Shannon H is concave in the species counts, so the floor is linear: each species' term −p·ln p is replaced by the piecewise-linear interpolation through about 36 breakpoints (40 log-spaced counts, rounded; which lies below the curve, so the floor is conservative) and only the species counts are integer (`layout._entropy_chords`, `layout.assign`). The value of N is a designer choice, not a sourced threshold. Every replacement-layout row of the summary now has `eff_species`. Summary and exchange outputs carry a `_div<N>` suffix.
+
+Barcelona shortlist, N = 10 (`databases/barcelona/tool_v0_summary_barcelona_div10.csv` vs `tool_v0_summary_barcelona.csv`):
+| Layout | Effective species | Summer shade | Winter shade | Hotspot runoff | Interception |
+|---|---|---|---|---|---|
+| S4 summer only (1, 0, 0) | 4.95 → 10.0 | −1.9% | −3.1% | +0.1% | −1.5% |
+| **S4 balanced (0.50, 0.25, 0.25)** | **4.16 → 10.0** | **−1.9%** | **−2.0%** | **+0.0%** | **−1.2%** |
+| S4 (0, 0.50, 0.50) | 6.71 → 10.0 | −1.6% | +0.2% | +0.0% | −0.8% |
+| S4 runoff only (0, 0, 1) | 4.50 → 10.0 | −2.0% | −1.1% | +0.0% | −1.3% |
+
+- In the balanced layout, Ulmus pumila + Pinus pinea drop from 84% (349 + 346 of 832) to 52% of the positions (209 + 223); Melia azedarach (102) and Pinus halepensis (63) come next.
+- Diversity is cheap here: the balanced layout with the floor still gives +27% summer shade over the random palette mean (+29% without it). The floor does not touch S0 or the random layouts.
+- Browser check (same LP in `web/src/optimize.js`, HiGHS WASM): floors 6, 10 and 15 are met (6.01, 10.02, 15.02) in 1–5 s; with the city palette (6 species) a floor of 6 is infeasible and the app says so.
 
 ## Next (not done)
-diversity constraint (Shannon floor) · why hotspot runoff does not follow the runoff weight · species storage factor · young/mature horizon · `CAPTURE_M` and design-day sensitivity · calibrate the heat proxy on Ladybug Tier 1 (sub-area) · climate-fit filter for other sites · Grasshopper component (Hops) · web app.
+why hotspot runoff does not follow the runoff weight · species storage factor · young/mature horizon · `CAPTURE_M` and design-day sensitivity · calibrate the heat proxy on Ladybug Tier 1 (sub-area) · climate-fit filter for other sites · Grasshopper component (Hops) · web app.
