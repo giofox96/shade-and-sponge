@@ -12,9 +12,10 @@ Matrix ids 82-87 were assigned on this branch. Other open PRs may use 82+ (PR #2
 
 - **Holds (full text):** Mannucci #51, Shaamala #52, Peng #53, Wu #56, Hao #62, Elkhateeb #63, Oneto #64, Tan & Liu #80 (the eight papers this issue targeted), plus Nicol #28, Pacetti #18, Cortinovis #69. None optimises species and positions against pedestrian UTCI/MRT and runoff together. The nearest heat optimiser, Tan & Liu 2026 (#80), has no runoff; Mannucci (#51) has both but no species and no optimisation.
 - **Needs narrower wording (new): Dong et al. 2026, npj Urban Sustain. 6:47, doi 10.1038/s42949-026-00361-w (#85, full text from the open PDF).** It optimises species mixes for stormwater and microclimate (plus air quality and carbon) with NSGA-III. The differences from our proposal are real but specific. Heat is "building energy saving (a proxy for microclimate regulation)", not UTCI/MRT. Runoff is i-Tree Eco avoided runoff. The decision variable is species proportions per 0.25 km2 cell, with no tree positions. Study area: Philadelphia. So the safe claim is: *"no method yet chooses street-tree species and positions against pedestrian-level UTCI and event runoff together"*. Do not say "species for heat and runoff" without the qualifiers "pedestrian UTCI" and "positions".
-- **Read at abstract level only (could still flip, see fetch list):** Nyelele 2021 #25 (multi-objective planting locations incl. runoff and heat reduction; linear programming, Bronx; no species (abs + search summary)); Xing 2026 #82 (PET + runoff + CO2 by GI scenarios (abs)); Eslami 2026 #83 (runoff only (abs)); Liang 2021 #84 (**title only; unverified 🟡**).
+- **Holds (full text, 12 Oct): Nyelele & Kroll 2021 #25.** Linear programming over 1,132 Bronx census block groups; the decision variable is new canopy area per block group, with all species aggregated (species are named only as a possible extension); heat is an i-Tree Cool heat index (K), runoff an i-Tree Hydro avoided-runoff dollar value. No species choice, no tree positions, no UTCI or MRT.
+- **Read at abstract level only (could still flip, see fetch list):** Xing 2026 #82 (PET + runoff + CO2 by GI scenarios (abs)); Eslami 2026 #83 (runoff only (abs)); Liang 2021 #84 (**title only; unverified 🟡**).
 
-**`todo_manual.md` "The gap holds" (lines 26 and 28) is confirmed in substance and should be qualified:** it was written before Dong 2026, and Nyelele, Liang, Xing and Eslami are still abstract-level or title-only. Line 29 (Tan & Liu: "closest precedent, but no runoff: the gap holds") is confirmed (full text).
+**`todo_manual.md` "The gap holds" (lines 26 and 28) is confirmed in substance and should be qualified:** it was written before Dong 2026, and Liang, Xing and Eslami are still abstract-level or title-only (Nyelele was read in full on 12 Oct and does not change the verdict). Line 29 (Tan & Liu: "closest precedent, but no runoff: the gap holds") is confirmed (full text).
 
 **Gap in the text, not edited:** the §6.1 table in `topic_decision.md` (line 82, "Is it already done?") already cites #51-53, #62-64, #69 and #80 as read, but Dong 2026 is missing.
 
@@ -54,7 +55,7 @@ Result: 2 real new hits relevant to heat + runoff (Dong 2026 full text, Langenhe
 ## 4. Fetch list for the user
 
 1. **Liang 2021** (doi 10.1016/j.scitotenv.2021.146415): title only, no abstract found anywhere. Carries the novelty claim until read: if it is tree-level heat + runoff optimisation, the verdict changes.
-2. **Nyelele 2021** (doi 10.1016/j.landurbplan.2021.104172, #25): abstract-level only. Carries the novelty claim: check whether species are an optimisation variable and which heat metric it uses.
+2. **Nyelele 2021** (doi 10.1016/j.landurbplan.2021.104172, #25): **done 12 Oct (full text):** species are not an optimisation variable; heat metric is an i-Tree Cool heat index (K).
 3. **Dong 2026** (doi 10.1038/s42949-026-00361-w): open PDF at https://edoc.hu-berlin.de/18452/37591. Save it to `papers/`; I read it in full, but the Supplementary tables of species values are not seen.
 4. **Xing 2026** (doi 10.3390/su18042142, open MDPI PDF, blocked in the cloud) and **Eslami 2026** (doi 10.71573/zhbx9v70): abstract-level; unlikely to flip the verdict (GI scenarios; runoff only).
 5. Tan & Liu 2026 is full text (#80) and already ticked in `todo_manual.md` (line 29).
@@ -64,5 +65,5 @@ Result: 2 real new hits relevant to heat + runoff (Dong 2026 full text, Langenhe
 
 - Coding in `prior_art_matrix.csv` comes from matrix rows, stored abstracts and search summaries, not from fresh full-text reads, except for Dong (#85) and Langenheim (#86, first ~100k of 147k characters).
 - Rows #28, #18, #69 (and the fig 04 codings) were added so the CSV covers the figure's precedents; Pacetti and Cortinovis are coded from their matrix rows.
-- Nyelele's matrix row #25 was not edited; the prior-art row adds search-summary detail (Bronx, linear programming).
+- Nyelele's matrix row #25 and prior-art row were updated from the full text on 12 Oct.
 - Fact-check could not re-open the Dong PDF (login/403), so Dong's NSGA-III, species count and 0.71 vs 0.60 figures rest on matrix row #85; the repository abstract confirms only Philadelphia, 0.25 km2 cells, ~20% stormwater and up to 80% microclimate.

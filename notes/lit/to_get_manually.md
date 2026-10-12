@@ -14,28 +14,12 @@ Dowtin, Hassan, de Mello, Rahman 2019, Speak and Kaluarachchi carry claims that 
 - [x] [T1] Andrew Francis Speak (2020). The influence of tree traits on urban ground surface shade cooling. https://doi.org/10.1016/j.landurbplan.2020.103748 **Why:** tree traits for shade cooling, figure 3 (abstract only). (matrix #39, full text (12 Oct))
 - [x] [T1] Kaluarachichi T.U.N. (2020). Temperature Reduction in Urban Surface Materials through Tree Shading Depends on Surface Type Not Tree Species. https://doi.org/10.3390/f11111141 **Why:** surface type vs species, figure 3; MDPI, should be open access. (matrix #45, full text (12 Oct))
 
-## 2. Still to get, rest of the list (45)
+## 2. Still to get, rest of the list (29)
 
-### T1 (18)
+### T1 (2)
 
-- [ ] [T1] Tan Zi (2025). From site-scale to landscape-scale: stormwater benefits of urban trees with SWMM-Canopy. https://doi.org/10.1080/1573062x.2025.2598435 (matrix #14, abstract only)
-- [ ] [T1] Charity Nyelele (2021). A multi-objective decision support framework to prioritize tree planting locations in urban areas. https://doi.org/10.1016/j.landurbplan.2021.104172 (matrix #25, abstract only; **carries the novelty claim**: the only multi-objective WHERE-to-plant precedent with heat and runoff; check whether it optimises species)
-- [ ] [T1] M. Susana Orta‐Ortiz (2022). What variables matter when designing nature-based solutions for stormwater management? A review of impacts on ecosystem services. https://doi.org/10.1016/j.eiar.2022.106802
-- [ ] [T1] Marco Morabito (2020). Surface urban heat islands in Italian metropolitan cities: Tree cover and impervious surface influences. https://doi.org/10.1016/j.scitotenv.2020.142334 (matrix #50, abstract only)
-- [ ] [T1] Dirk Lauwaet (2024). High resolution modelling of the urban heat island of 100 European cities. https://doi.org/10.1016/j.uclim.2024.101850 (matrix #37, abstract only)
-- [ ] [T1] Giulia Guerri (2026). Counteracting Urban Thermal Hot Spots in Florence, Italy: The Combined Effects of Vegetation and High-Albedo Surfaces. https://doi.org/10.3390/app16199509 (matrix #48, abstract only)
-- [ ] [T1] Mohammad A. Rahman (2020). Tree cooling effects and human thermal comfort under contrasting species and sites. https://doi.org/10.1016/j.agrformet.2020.107947 (matrix #44, abstract only)
-- [ ] [T1] Andrew Coutts (2015). Temperature and human thermal comfort effects of street trees across three contrasting street canyon environments. https://doi.org/10.1007/s00704-015-1409-y
-- [ ] [T1] RICHARD J. SMITHERS (2018). Comparing the relative abilities of tree species to cool the urban environment. https://doi.org/10.1007/s11252-018-0761-y
-- [ ] [T1] John A. Paravantis (2017). Mortality Associated with High Ambient Temperatures, Heatwaves, and the Urban Heat Island in Athens, Greece. https://doi.org/10.3390/su9040606
-- [ ] [T1] Gennaro Albini (2025). Investigation of the Surface Urban Heat Island (SUHI) by two remote sensing-based approaches in Italian regional capitals. https://doi.org/10.1016/j.rsase.2025.101567
-- [ ] [T1] Antonio Esposito (2025). A multi-city statistical modelling of surface urban heat island: Application to Italian cities. https://doi.org/10.1016/j.uclim.2025.102717
 - [ ] [T1] Zaman Sumaiya (2026). The Urban Heat Island: Increasing Temperature Trends in Central European Cities (Vienna, Rome & Zagreb).
-- [ ] [T1] Zhengrong Li (2022). STMRT: A simple tree canopy radiative transfer model for outdoor mean radiant temperature. https://doi.org/10.1016/j.buildenv.2022.109846
-- [ ] [T1] Mattia Niccoli (2026). Mapping Local Climate Zones and ExplorMapping Local Climate Zones and Exploring Temperature Dynamics in the Metropolitan Area of Florenceing Temperature Dynamics in the Metropolitan Area of Florence. https://doi.org/10.36253/bsgi-7621
-- [ ] [T1] Subhanil Guha (2018). Analytical study of land surface temperature with NDVI and NDBI using Landsat 8 OLI and TIRS data in Florence and Naples city, Italy. https://doi.org/10.1080/22797254.2018.1474494
 - [ ] [T1] Mahmuda Sharmin (2023). Tree crown traits and planting context contribute to reducing urban heat. https://doi.org/10.1016/j.ufug.2023.127913
-- [ ] [T1] Mohammad A. Rahman (2019). Comparing the transpirational and shading effects of two contrasting urban tree species. https://doi.org/10.1007/s11252-019-00853-x
 
 ### T2 (27)
 
@@ -67,8 +51,24 @@ Dowtin, Hassan, de Mello, Rahman 2019, Speak and Kaluarachchi carry claims that 
 - [ ] [T2] Julie Schooling (2015). The influence of rainfall depth class and deciduous tree traits on stemflow production in an urban park. https://doi.org/10.1007/s11252-015-0441-0
 - [ ] [T2] Alireza Nooraei Beidokhti (2021). The effects of precipitation, tree phenology, leaf area index, and bark characteristics on throughfall rates by urban trees: A meta-data analysis. https://doi.org/10.1016/j.ufug.2021.127052
 
-## 3. Obtained and read in full (46)
+## 3. Obtained and read in full (62)
 
+- [x] [T1] Tan Zi (2025). From site-scale to landscape-scale: stormwater benefits of urban trees with SWMM-Canopy. https://doi.org/10.1080/1573062x.2025.2598435 (matrix #14, full text (12 Oct))
+- [x] [T1] Charity Nyelele (2021). A multi-objective decision support framework to prioritize tree planting locations in urban areas. https://doi.org/10.1016/j.landurbplan.2021.104172 (matrix #25, full text (12 Oct))
+- [x] [T1] M. Susana Orta‐Ortiz (2022). What variables matter when designing nature-based solutions for stormwater management? A review of impacts on ecosystem services. https://doi.org/10.1016/j.eiar.2022.106802 (matrix #94, full text (12 Oct))
+- [x] [T1] Marco Morabito (2020). Surface urban heat islands in Italian metropolitan cities: Tree cover and impervious surface influences. https://doi.org/10.1016/j.scitotenv.2020.142334 (matrix #50, full text (12 Oct))
+- [x] [T1] Dirk Lauwaet (2024). High resolution modelling of the urban heat island of 100 European cities. https://doi.org/10.1016/j.uclim.2024.101850 (matrix #37, full text (12 Oct))
+- [x] [T1] Giulia Guerri (2026). Counteracting Urban Thermal Hot Spots in Florence, Italy: The Combined Effects of Vegetation and High-Albedo Surfaces. https://doi.org/10.3390/app16199509 (matrix #48, full text (12 Oct))
+- [x] [T1] Mohammad A. Rahman (2020). Tree cooling effects and human thermal comfort under contrasting species and sites. https://doi.org/10.1016/j.agrformet.2020.107947 (matrix #44, full text (12 Oct))
+- [x] [T1] Andrew Coutts (2015). Temperature and human thermal comfort effects of street trees across three contrasting street canyon environments. https://doi.org/10.1007/s00704-015-1409-y (matrix #100, full text (12 Oct))
+- [x] [T1] RICHARD J. SMITHERS (2018). Comparing the relative abilities of tree species to cool the urban environment. https://doi.org/10.1007/s11252-018-0761-y (matrix #101, full text (12 Oct))
+- [x] [T1] John A. Paravantis (2017). Mortality Associated with High Ambient Temperatures, Heatwaves, and the Urban Heat Island in Athens, Greece. https://doi.org/10.3390/su9040606 (matrix #103, full text (12 Oct))
+- [x] [T1] Gennaro Albini (2025). Investigation of the Surface Urban Heat Island (SUHI) by two remote sensing-based approaches in Italian regional capitals. https://doi.org/10.1016/j.rsase.2025.101567 (matrix #97, full text (12 Oct))
+- [x] [T1] Antonio Esposito (2025). A multi-city statistical modelling of surface urban heat island: Application to Italian cities. https://doi.org/10.1016/j.uclim.2025.102717 (matrix #96, full text (12 Oct))
+- [x] [T1] Zhengrong Li (2022). STMRT: A simple tree canopy radiative transfer model for outdoor mean radiant temperature. https://doi.org/10.1016/j.buildenv.2022.109846 (matrix #95, full text (12 Oct))
+- [x] [T1] Mattia Niccoli (2026). Mapping Local Climate Zones and ExplorMapping Local Climate Zones and Exploring Temperature Dynamics in the Metropolitan Area of Florenceing Temperature Dynamics in the Metropolitan Area of Florence. https://doi.org/10.36253/bsgi-7621 (matrix #99, full text (12 Oct))
+- [x] [T1] Subhanil Guha (2018). Analytical study of land surface temperature with NDVI and NDBI using Landsat 8 OLI and TIRS data in Florence and Naples city, Italy. https://doi.org/10.1080/22797254.2018.1474494 (matrix #98, full text (12 Oct))
+- [x] [T1] Mohammad A. Rahman (2019). Comparing the transpirational and shading effects of two contrasting urban tree species. https://doi.org/10.1007/s11252-019-00853-x (matrix #102, full text (12 Oct))
 - [x] [T1] William R. Selbig (2021). Quantifying the stormwater runoff volume reduction benefits of urban street tree canopy. https://doi.org/10.1016/j.scitotenv.2021.151296 (matrix #10, full text (9 Oct))
 - [x] [T2] Zhe Tan (2026). Surrogate-assisted multi-objective optimization of micro-scale urban tree configurations for heat-stress mitigation with ecological co-benefits. https://doi.org/10.1016/j.scs.2026.107726 (matrix #80, full text (9 Oct))
 - [x] Santos Nouri, Fröhlich, Silva & Matzarakis (2018). The Impact of Tipuana tipu Species on Local Human Thermal Comfort Thresholds in Different Urban Canyon Cases in Mediterranean Climates: Lisbon, Portugal. Atmosphere 9(1). https://doi.org/10.3390/atmos9010012 (matrix #81, full text (9 Oct))
