@@ -14,3 +14,8 @@ The user added new PDFs to `papers/` on the Omen. Do, in this order:
 - The 18 earlier uploads were 15 distinct papers: Grey 2018, Thom 2020 and Dowtin 2023 were each uploaded twice.
 - Rahman et al. 2020 (online Dec 2019) is cited in the notes as "Rahman 2019"; keep the file name consistent with the year printed in the PDF.
 - Not read yet: Speak 2020 (`10.1016/j.landurbplan.2020.103748`).
+
+## Status (12 Oct, local session)
+- **Done:** 11 PDFs renamed (rows 4, 8, 34, 38, 45 and 88-93); `file_in_papers` set for rows 39 (now `Rahman 2020 - ...`, the year printed in the PDF) and 88-93; the other five already carried the target names. Zotero: 15 DOIs from the batch sent to collection THESIS_MACAD, 6 added, 9 already in the library (run "Find Available PDFs").
+- **Pending the user's OK (nothing deleted yet):** re-downloads of papers already named in `papers/`. Same bytes: the unnamed copies of Baptista 2018, Xiao 2016 and the soil-infiltration paper (keep the file the matrix names). Same DOI and identical extracted text, different bytes: the `1-s2.0-...` copies of Grey 2018 (2), Thom 2020 (2), Dowtin 2023 (`(1)`), Tan 2026 and `atmosphere-09-00012-v2.pdf` (Santos Nouri 2018), plus one of the two "Urban Forest and Ecosystem Services" files (different text, check first). Deleting the unnamed copies also leaves stale `notes/lit/digest/*.md`, `to_get_manually.md` and `todo_manual.md` entries.
+- **Not read yet:** Speak 2020 (`10.1016/j.landurbplan.2020.103748`), no PDF in `papers/`.
