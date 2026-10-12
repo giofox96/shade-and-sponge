@@ -28,3 +28,7 @@ The user added new PDFs to `papers/` on the Omen. Do, in this order:
   - **Zaman 2026 is not a paper:** the Debrecen repository record has only a login-only slide deck and certificate.
   - **Added later the same evening:** Asadian 2009 and Kermavnar 2017 (renamed, both added to Zotero). Zaman dropped by the user.
   - **Still to get:** only Dong's online supplementary tables and Speak 2020's supplementary per-tree table.
+- **Third batch read in full (12 Oct, late):**
+  - **Matrix:** all 28 papers plus Langenheim and Schrodi. 25 new rows (104-128) and 5 rewritten (82 Xing, 83 Eslami, 84 Liang, 86 Langenheim, 87 Schrodi), 128 rows in total. Only #49 (Petralli, Florence) is still not full text, apart from the off-topic rows 91-93.
+  - **Novelty checks:** Liang 2021 (#84) optimises land-cover shares per 1 km cell, not trees, so the gap holds. `contribution_statement.md` and `prior_art_matrix.csv` (rows 82-87) were updated from the full texts. Dong 2026 figures are now checked against the local PDF.
+  - **Figure 01:** `fig_lit_map()` skips rows whose `relevance_to_topic` starts with "Not used". The bar scale now fits the stats column. Figure 01 was regenerated: 125 sources, 124 full text.

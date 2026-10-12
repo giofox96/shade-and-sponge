@@ -90,7 +90,8 @@ def to_png(svg):
 
 # ---- 1. What the review covers
 def fig_lit_map():
-    rows = list(csv.DictReader(open(ROOT / "notes/lit/literature_matrix.csv", encoding="utf-8")))
+    rows = [r for r in csv.DictReader(open(ROOT / "notes/lit/literature_matrix.csv", encoding="utf-8"))
+            if not r["relevance_to_topic"].startswith("Not used")]   # screened out as off-topic
     c = {}
     for r in rows:
         for b in r["bucket"].split("/"):
@@ -101,7 +102,8 @@ def fig_lit_map():
               ("Bridge", TREE, [("B3", "Species selection & decision tools"), ("B5", "Design & optimisation precedents"),
                                 ("B8", "Heat-flood trade-offs"), ("B6", "Co-benefits")]),
               ("Heat side", HEAT, [("B7", "Heat, shade & cooling"), ("B9", "City screening (heat + flood)")])]
-    b, y, x0, k = "", 170, 480, 22
+    b, y, x0 = "", 170, 480
+    k = min(22, 600 / max(sum(v) for v in c.values()))   # longest bar + label must stay left of the stats column (x=1150)
     for g, col, items in groups:
         b += t(60, y, g.upper(), 15, col, "bold")
         y += 12
@@ -118,10 +120,10 @@ def fig_lit_map():
     x = 1150
     b += t(x, 250, str(len(rows)), 110, INK, "bold") + t(x, 290, "sources in the review matrix", 21, MUTED)
     b += t(x, 400, str(n_full), 72, TREE, "bold") + t(x, 432, "read in full text", 21, MUTED)
-    b += t(x, 540, str(len(rows) - n_full), 72, MUTED, "bold") + t(x, 572, "from abstracts (full text pending)", 21, MUTED)
+    b += t(x, 540, str(len(rows) - n_full), 72, MUTED, "bold") + t(x, 572, "not yet read in full", 21, MUTED)
     tk, _ = para(1150, 650, "Two large literatures, runoff and heat. The bridge between them, species traits judged on "
                             "both goals at once, is thin: that is where this thesis sits.", 390, 21, weight="bold")
-    save("01_lit_map", "What the literature review covers", f"{len(rows)} sources screened in 9 themes (7-9 Oct 2026)",
+    save("01_lit_map", "What the literature review covers", f"{len(rows)} sources screened in 9 themes (7-12 Oct 2026)",
          b + tk, "notes/lit/literature_matrix.csv (OpenAlex / Semantic Scholar search, own screening).")
 
 
