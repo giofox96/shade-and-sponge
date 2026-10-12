@@ -2,7 +2,7 @@
 
 Paywalled, or no open-access PDF found by the search. Get them through Zotero / IAAC access, save them in `papers/`, then tell Claude, which reads them and updates `literature_matrix.csv`. T1 = screened as most relevant, T2 = second tier.
 
-**Status 9 Oct 2026:** 45 of 96 obtained and read in full, plus Santos Nouri 2018 (added by hand); 51 of the list still to get. **12 Oct:** 26 more are in `papers/` but not yet read (section 3); only 3 are still to get (section 2). Years in the entries are the search's (often online) years; the matrix uses the issue year (e.g. Zölch 2019, Cortinovis 2022, Marrazzo 2025).
+**Status 9 Oct 2026:** 45 of 96 obtained and read in full, plus Santos Nouri 2018 (added by hand); 51 of the list still to get. **12 Oct:** 28 more are in `papers/` but not yet read (section 3); none left to get (Zaman dropped, section 2). Years in the entries are the search's (often online) years; the matrix uses the issue year (e.g. Zölch 2019, Cortinovis 2022, Marrazzo 2025).
 
 ## 1. Get these first (6)
 Dowtin, Hassan, de Mello, Rahman 2019, Speak and Kaluarachchi carry claims that the slides, figures or notes took from abstracts only. **12 Oct: all read in full (Speak added and read the same day).**
@@ -14,13 +14,11 @@ Dowtin, Hassan, de Mello, Rahman 2019, Speak and Kaluarachchi carry claims that 
 - [x] [T1] Andrew Francis Speak (2020). The influence of tree traits on urban ground surface shade cooling. https://doi.org/10.1016/j.landurbplan.2020.103748 **Why:** tree traits for shade cooling, figure 3 (abstract only). (matrix #39, full text (12 Oct))
 - [x] [T1] Kaluarachichi T.U.N. (2020). Temperature Reduction in Urban Surface Materials through Tree Shading Depends on Surface Type Not Tree Species. https://doi.org/10.3390/f11111141 **Why:** surface type vs species, figure 3; MDPI, should be open access. (matrix #45, full text (12 Oct))
 
-## 2. Still to get (3)
+## 2. Dropped (1)
 
-- [ ] [T1] Zaman Sumaiya (2026). The Urban Heat Island: Increasing Temperature Trends in Central European Cities (Vienna, Rome & Zagreb). **Not a paper, not obtainable (12 Oct):** the only record (University of Debrecen repository, https://hdl.handle.net/2437/408980, collection TALENTUD FOS, June 2026) holds a slide deck (`ppt-on-uhi_0.pdf`) and a participation certificate, both login-only (HTTP 401). The `urban_heat_island_central_europe.pdf` placed in `papers/` was a generated "summary report" (ReportLab, 1 page), not the source, and was moved to `papers/_to_delete/`. Suggest dropping it from the list.
-- [ ] [T2] Yeganeh Asadian (2009). A New Approach in Measuring Rainfall Interception by Urban Trees in Coastal British Columbia. https://doi.org/10.2166/wqrj.2009.003
-- [ ] [T2] Janez Kermavnar (2017). Canopy precipitation interception in urban forests in relation to stand structure. https://doi.org/10.1007/s11252-017-0689-7
+- [-] [T1] Zaman Sumaiya (2026). The Urban Heat Island: Increasing Temperature Trends in Central European Cities (Vienna, Rome & Zagreb). **Not a paper, not obtainable (12 Oct):** the only record (University of Debrecen repository, https://hdl.handle.net/2437/408980, collection TALENTUD FOS, June 2026) holds a slide deck (`ppt-on-uhi_0.pdf`) and a participation certificate, both login-only (HTTP 401). The `urban_heat_island_central_europe.pdf` placed in `papers/` was a generated "summary report" (ReportLab, 1 page), not the source, and was moved to `papers/_to_delete/`. **Dropped by the user (12 Oct).**
 
-## 3. In `papers/`, not yet read (26, added 12 Oct)
+## 3. In `papers/`, not yet read (28, added 12 Oct)
 
 Sciuto 2024 also has an extended abstract: `Sciuto 2024 - SuDS retrofitting for hydraulic risk mitigation in Catania (ICUD extended abstract).pdf`. Eslami's file is an image-only browser print (no text layer) of the complete 3-page UDM 2025 extended abstract.
 
@@ -50,6 +48,8 @@ Sciuto 2024 also has an extended abstract: `Sciuto 2024 - SuDS retrofitting for 
 - [ ] [T2] Virginia R. Stovin (2008). STREET TREES AND STORMWATER MANAGEMENT. https://doi.org/10.1080/03071375.2008.9747509 → `Stovin 2008 - Street trees and stormwater management.pdf`
 - [ ] [T2] Julie Schooling (2015). The influence of rainfall depth class and deciduous tree traits on stemflow production in an urban park. https://doi.org/10.1007/s11252-015-0441-0 → `Schooling 2015 - Rainfall depth class and deciduous tree traits on stemflow production.pdf`
 - [ ] [T2] Alireza Nooraei Beidokhti (2021). The effects of precipitation, tree phenology, leaf area index, and bark characteristics on throughfall rates by urban trees: A meta-data analysis. https://doi.org/10.1016/j.ufug.2021.127052 → `Nooraei Beidokhti 2021 - Precipitation, phenology, LAI and bark effects on throughfall by urban trees.pdf`
+- [ ] [T2] Yeganeh Asadian (2009). A New Approach in Measuring Rainfall Interception by Urban Trees in Coastal British Columbia. https://doi.org/10.2166/wqrj.2009.003 → `Asadian 2009 - A new approach in measuring rainfall interception by urban trees in coastal British Columbia.pdf`
+- [ ] [T2] Janez Kermavnar (2017). Canopy precipitation interception in urban forests in relation to stand structure. https://doi.org/10.1007/s11252-017-0689-7 → `Kermavnar 2017 - Canopy precipitation interception in urban forests in relation to stand structure.pdf`
 
 ## 4. Obtained and read in full (62)
 

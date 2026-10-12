@@ -26,4 +26,5 @@ The user added new PDFs to `papers/` on the Omen. Do, in this order:
   - **Not read yet.** Eslami's file is the complete 3-page extended abstract, printed as images (UDM, Sept 2025, so the file says 2025 while the matrix says 2026).
   - **Zotero:** 26 added. Eslami, Sciuto (Zenodo) and Schrodi (arXiv) have DataCite DOIs with no Crossref record; add them by hand with "Add Item by Identifier".
   - **Zaman 2026 is not a paper:** the Debrecen repository record has only a login-only slide deck and certificate.
-  - **Still to get:** Asadian 2009 and Kermavnar 2017, plus Dong's online supplementary tables and Speak 2020's supplementary per-tree table.
+  - **Added later the same evening:** Asadian 2009 and Kermavnar 2017 (renamed, both added to Zotero). Zaman dropped by the user.
+  - **Still to get:** only Dong's online supplementary tables and Speak 2020's supplementary per-tree table.
