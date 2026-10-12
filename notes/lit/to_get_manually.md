@@ -5,13 +5,13 @@ Paywalled, or no open-access PDF found by the search. Get them through Zotero / 
 **Status 9 Oct 2026:** 45 of 96 obtained and read in full, plus Santos Nouri 2018 (added by hand); 51 of the list still to get. Years in the entries are the search's (often online) years; the matrix uses the issue year (e.g. Zölch 2019, Cortinovis 2022, Marrazzo 2025).
 
 ## 1. Get these first (6)
-Dowtin, Hassan, de Mello, Rahman 2019, Speak and Kaluarachchi carry claims that the slides, figures or notes took from abstracts only. **12 Oct: all but Speak read in full.**
+Dowtin, Hassan, de Mello, Rahman 2019, Speak and Kaluarachchi carry claims that the slides, figures or notes took from abstracts only. **12 Oct: all read in full (Speak added and read the same day).**
 
 - [x] [T1] Asia L. Dowtin (2023). Towards optimized runoff reduction by urban tree cover: A review of key physical tree traits, site conditions, and management strategies. https://doi.org/10.1016/j.landurbplan.2023.104849 **Why:** review of the tree traits that reduce runoff. (matrix #4, full text (12 Oct))
 - [x] [T1] S.M. Tanvir Hassan (2017). Remote sensing upscaling of interception loss from isolated oaks: Sardon catchment case study, Spain. https://doi.org/10.1016/j.jhydrol.2017.08.016 **Why:** Quercus ilex vs Q. pyrenaica bars in figure 2. (matrix #8, full text (12 Oct))
 - [x] [T1] Carlos Rogério de Mello (2024). Deciphering global patterns of forest canopy rainfall interception (FCRI): A synthesis of geographical, forest species, and methodological influences. https://doi.org/10.1016/j.jenvman.2024.120879 **Why:** global median interception line in figure 2. (matrix #34, full text (12 Oct))
 - [x] [T1] Mohammad A. Rahman (2019). Traits of trees for cooling urban heat islands: A meta-analysis. https://doi.org/10.1016/j.buildenv.2019.106606 **Why:** tree-trait cooling meta-analysis, figure 3. (matrix #38, full text (12 Oct))
-- [ ] [T1] Andrew Francis Speak (2020). The influence of tree traits on urban ground surface shade cooling. https://doi.org/10.1016/j.landurbplan.2020.103748 **Why:** tree traits for shade cooling, figure 3 (abstract only). (matrix #39, abstract only)
+- [x] [T1] Andrew Francis Speak (2020). The influence of tree traits on urban ground surface shade cooling. https://doi.org/10.1016/j.landurbplan.2020.103748 **Why:** tree traits for shade cooling, figure 3 (abstract only). (matrix #39, full text (12 Oct))
 - [x] [T1] Kaluarachichi T.U.N. (2020). Temperature Reduction in Urban Surface Materials through Tree Shading Depends on Surface Type Not Tree Species. https://doi.org/10.3390/f11111141 **Why:** surface type vs species, figure 3; MDPI, should be open access. (matrix #45, full text (12 Oct))
 
 ## 2. Still to get, rest of the list (45)

@@ -180,7 +180,7 @@ def fig_traits():
     b += rect(xr, 150, cw, 44, RAIN, op=0.12) + t(xr + 18, 179, "RUNOFF: canopy interception", 20, RAIN, "bold")
     bands = [("HELP BOTH", TREE, [
         ("Leaf area (LAI, crown density)",
-         "Canopy density is the strongest driver of cooling (Rahman et al. 2019); LAI and crown width matter most for shade (Speak et al. 2020*)",
+         "Canopy density is the strongest driver of cooling (Rahman et al. 2019); LAI ranks among the top shade predictors and wide crowns help (Speak et al. 2020)",
          "Interception rises with LAI / PAI (Anys & Weiler 2024); leaf-area density drives storage capacity (Baptista et al. 2018)"),
         ("Crown size",
          "Big, dense crowns with a low base give the best shade and comfort (Helletsgruber et al. 2020)",
@@ -212,7 +212,7 @@ def fig_traits():
                              "Species choice therefore needs a multi-objective search, not a single score.", 1480, 21, weight="bold")
     save("03_heat_runoff_traits", "Same tree, two jobs: which traits help both, and where they conflict",
          "Heat and runoff evidence side by side (buckets B1, B7, B8)", b + tk,
-         "literature_matrix.csv rows 1, 3, 6, 9-11, 13, 38-40, 42, 43, 45, 53, 56; Barcelona Resilience Atlas. * abstract only.")
+         "literature_matrix.csv rows 1, 3, 6, 9-11, 13, 38-40, 42, 43, 45, 53, 56; Barcelona Resilience Atlas.")
 
 
 # ---- 4. Gap: state of the art vs this thesis
