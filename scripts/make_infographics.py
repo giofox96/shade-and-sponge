@@ -144,7 +144,7 @@ def fig_runoff_evidence():
     for v in range(0, 81, 20):
         b += line(sx(v), 195, sx(v), 205 + H, GRID, 1) + t(sx(v), 205 + H + 22, f"{v}%", 15, MUTED, anchor="middle")
     b += line(sx(23.9), 195, sx(23.9), 205 + H, MUTED, 2, "6 5")
-    b += t(sx(23.9), 205 + H + 44, "global median 23.9%, forests (de Mello 2024*)", 13, MUTED, anchor="middle")
+    b += t(sx(23.9), 205 + H + 44, "global median 23.9%, forests (de Mello 2024)", 13, MUTED, anchor="middle")
     for r in m.itertuples():
         star = "*" if r.read_level == "abstract" else ""
         b += t(60, y + 20, r.species, 18, italic=True)
@@ -180,7 +180,7 @@ def fig_traits():
     b += rect(xr, 150, cw, 44, RAIN, op=0.12) + t(xr + 18, 179, "RUNOFF: canopy interception", 20, RAIN, "bold")
     bands = [("HELP BOTH", TREE, [
         ("Leaf area (LAI, crown density)",
-         "Canopy density is the strongest driver of cooling (Rahman et al. 2019*); LAI and crown width matter most for shade (Speak et al. 2020*)",
+         "Canopy density is the strongest driver of cooling (Rahman et al. 2019); LAI and crown width matter most for shade (Speak et al. 2020*)",
          "Interception rises with LAI / PAI (Anys & Weiler 2024); leaf-area density drives storage capacity (Baptista et al. 2018)"),
         ("Crown size",
          "Big, dense crowns with a low base give the best shade and comfort (Helletsgruber et al. 2020)",
@@ -194,7 +194,7 @@ def fig_traits():
          "Dry soils before a storm give ~10% more runoff reduction; wet soils give more cooling (Pace et al. 2025)")]),
         ("LIMITS", MUTED, [
         ("Context",
-         "Surface material can outweigh tree traits for surface cooling (Kaluarachchi et al. 2020*)",
+         "Surface material can outweigh tree traits for surface cooling (Kaluarachchi et al. 2020)",
          "Leafy crowns hold only the first 2-4 mm of a storm, so canopies work best in short, light storms (Kuehler et al. 2017)")])]
     y = 208
     for band, col, rows in bands:
