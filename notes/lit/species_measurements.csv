@@ -1,8 +1,8 @@
 species,objective,measure,value,unit_or_note,source,matrix_row,read_level
 Tilia cordata,runoff,event canopy interception (mean of 76 events),70.3,% of gross rainfall; mean event 6.7 mm,Anys & Weiler 2024,1,full text digest
 Acer platanoides,runoff,event canopy interception (mean of 76 events),54.8,% of gross rainfall,Anys & Weiler 2024,1,full text digest
-Quercus ilex,runoff,annual interception loss isolated tree,46-51,% of annual P (Mediterranean Spain),Hassan et al. 2017,8,abstract
-Quercus pyrenaica,runoff,annual interception loss isolated tree,10-16,% of annual P,Hassan et al. 2017,8,abstract
+Quercus ilex,runoff,annual interception loss isolated tree,46-51,"% of annual P (Mediterranean Spain); 2-yr 47.4; one isolated tree, open dehesa",Hassan et al. 2017,8,full text
+Quercus pyrenaica,runoff,annual interception loss isolated tree,10-16,% of annual P; 2-yr 11.8; leafless Dec-Apr; one isolated tree,Hassan et al. 2017,8,full text
 Quercus nigra,runoff,interception,30-50,% depending on rain depth,Bean et al. 2021,2,full text digest
 Platanus x acerifolia,heat,transpiration cooling during heatwave,33.3,% of incoming solar energy at up to 39.1 C,Bachofen et al. 2025,43,full text digest
 Tilia cordata,heat,transpiration vs Robinia,~4x,higher transpiration; 35% higher LAI,Rahman et al. 2020,44,abstract
@@ -47,3 +47,10 @@ Pyrus calleryana,heat,"crop factor class (transpiration per canopy area / ETo), 
 Jacaranda mimosifolia,heat,"daily water use, 15-20 cm dbh tree, Los Angeles",9,L/d (Lagerstroemia indica 45 L/d); Pataki et al. 2011 as cited in Thom et al. 2022,Pataki et al. 2011 (via Thom 2022),,secondary
 Tipuana tipu,heat,"max PET reduction under one tree, very hot day (3 Jul 2016), Lisbon canyon H/W 0.17, model with measured under-crown radiation",15.6,C (mPET 11.6); Tmrt -13.1 to -29.5 C across the four canyons,Santos Nouri et al. 2018,81,full text
 Tipuana tipu,heat,"winter overshading cost: PET lowered under the crown (16 Dec 2016, noon), up to",2.7,"C (mPET 2.6); keeps foliage in winter, leafless only in early spring in Iberia (Vinas & Solanich, as cited)",Santos Nouri et al. 2018,81,full text
+Quercus ilex,runoff,interception by event size (<5 / 5-35 / >35 mm),66 / 46 / 32,"% of P, one isolated tree, Sardon 2011-2013",Hassan et al. 2017,8,full text
+Quercus pyrenaica,runoff,"interception by event size, leafed period (<5 / 5-35 / >35 mm)",33 / 22 / 20,"% of P, one isolated tree",Hassan et al. 2017,8,full text
+Quercus ilex,runoff,canopy storage capacity S (Jackson method; revised Gash model),1.75,"mm; tree LAI 2.1 (0.83 mm per unit LAI); p 0.31, c 0.69, E/R 0.38",Hassan et al. 2017,8,full text
+Quercus pyrenaica,runoff,canopy storage capacity S (Jackson method; revised Gash model),0.66,"mm; tree LAI 1.6 (0.41 mm per unit LAI); p 0.74, c 0.26, E/R 0.21",Hassan et al. 2017,8,full text
+Platanus x acerifolia,trait,"field LAI (CI-110 canopy imager), free-standing trees",2.8 +- 0.4,"m2/m2, n 17, Greater Sydney, summer 2018-19; crown area 96.5 m2",Kaluarachchi et al. 2020,45,full text
+Pyrus calleryana,trait,"field LAI (CI-110 canopy imager), free-standing trees",2.6 +- 0.8,"m2/m2, n 46, Greater Sydney; crown area 17.8 m2",Kaluarachchi et al. 2020,45,full text
+Jacaranda mimosifolia,trait,"field LAI (CI-110 canopy imager), free-standing trees",2.0 +- 0.6,"m2/m2, n 40, Greater Sydney; crown area 99.5 m2",Kaluarachchi et al. 2020,45,full text
