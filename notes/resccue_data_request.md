@@ -8,10 +8,11 @@ is stated. Before the final thesis (and any public slide) we need written permis
 1. **Send the email below** to Barcelona Regional: `br@bcnregional.com` (general address, printed in the credits of the
    Resilience Atlas reports, e.g. *Territorialització de riscos – Diagnosi del Pla de Resiliència*, EP4 Espais Verds,
    © 2020 Ajuntament de Barcelona and Barcelona Regional, co-produced with the Departament de Resiliència Urbana). Phone: +34 932 237 400 (from a city directory listing, not checked on Barcelona Regional's own site).
-2. **Optional second channel:** the contact form of the Ajuntament's area that took over Ecologia Urbana (Urbanisme,
-   Acció Climàtica i Mobilitat),
-   https://ajuntament.barcelona.cat/urbanisme-accio-climatica-mobilitat-pla-barris-serveis-urbans/ca/contacte, with the same text (ask them to forward it to the
-   Departament de Resiliència Urbana).
+2. **Optional second channel:** the city's general online contact form ("Formulari de contacte", linked from the
+   Ajuntament's citizen-channels page https://ajuntament.barcelona.cat/canals-comunicacio-ciutadana/):
+   https://atencioenlinia.ajuntament.barcelona.cat/ca/fitxa/resultat-busqueda?origen=WEB_BARCELONA_CAT&tema=7&element=1121
+   Paste the same text and ask them to forward it to the Departament de Resiliència Urbana. Or phone 010 (city
+   information line). The area's own contact page (urbanisme-accio-climatica-...) has no form, only links.
 3. **CC your tutor** (or mention the tutor by name). An institutional request (IAAC) is answered faster.
 4. **Attach nothing heavy.** If you want, attach `notes/figures/resccue_porta_depth.png` to show exactly what you use.
 5. **Log it:** tick the item in `notes/todo_manual.md`; save the reply as `databases/barcelona/resccue_licence_reply.pdf`
