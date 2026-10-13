@@ -99,3 +99,28 @@ Python (geopandas, rasterio, pymoo; LiDAR via laspy/PDAL) · Rhino 8 + Grasshopp
 - Flood depth maps unavailable → keep the hazard index for the site, and validate the runoff module on field benchmarks instead.
 - UTCI cost → Tier 1 proxy + Infrared City; Tier 2 only for final layouts.
 - Scope creep → one sub-area for heat, one storm set, one optimiser.
+
+## 12. Proposed changes (13 Oct 2026, not adopted)
+Drawn from the papers read in full on 12–13 Oct. Nothing below is applied to the code or to the sections above; each item needs the user's decision. Matrix ids refer to `notes/lit/literature_matrix.csv`.
+
+1. **Weight the heat proxy by ground surface.** Today the proxy counts effective shade on all sunlit open ground alike (`shade_sponge/heat.py`).
+   - **Evidence:** the same shade cools dark sealed ground (asphalt, dark paving) about twice as much as grass; light paving cools about as much as grass. Per unit LAI, surface cooling is about 6 °C over asphalt vs 3 °C over grass (Rahman 2019 #102). Shade lowered black tiles by 28.1 °C, white tiles by 11.4 °C and natural grass by 12.9 °C (Sharmin 2023 #104).
+   - **Change:** multiply shaded area by a surface factor from the 1 m land-cover grid already used by the runoff module: sealed = 1, pervious = 0.5 (dark sealing assumed, since the grid does not separate light paving). Mark the factor as an ASSUMPTION and test 0.4–0.6.
+   - **Effect:** shifts trees towards sealed sidewalks and squares, the same places where interception counts for runoff (§4b). This could strengthen the no-trade-off result rather than change it.
+2. **Check, rather than add, a sky-view-factor rule.** The proxy already counts shade only where buildings leave pedestrians in the sun, which is the mechanism behind the published placement rules.
+   - **Evidence:** plant first where SVF > 0.5, on the sun-exposed side of east–west streets (Coutts #100). Optimised added trees went mainly to east–west streets and large paved spaces. Relocating existing trees from already-shaded spots to sealed plazas and parking lots cut hours above 60 °C Tmrt by 19.7% (Schrodi 2023 #87).
+   - **Change:** report SVF and street orientation for the chosen positions as a plausibility check of the optimiser. Add an SVF term only if the chosen positions contradict these rules.
+3. **Mark the extinction coefficient as an assumption.** `heat.py` uses K = 0.5 (Beer–Lambert, as in Peng et al. 2026) without an ASSUMPTION tag.
+   - **Evidence:** K bundles the leaf-angle factor G. Species leaf-angle differences changed MRT by up to 9.5 °C, and a uniform leaf-angle assumption by up to 5.7 °C (Li 2023 #95).
+   - **Change:** tag K as an ASSUMPTION in `heat.py` and §3, and add a sensitivity run. The test range has no source yet and must be set and cited first.
+4. **Keep R_OFF = 0.5 for leafless storage, add the new anchors, and report storm-size limits.** `season.py` already gives leafless crowns 50% of full-leaf storage (tested 0.3–0.7).
+   - **Anchors:**
+     - Birch storage capacity was 1.01 mm leafless vs 2.61 mm leafed in the text (2.65 mm in Table 1), a ratio of 0.38–0.39 (Alivio 2025 #117).
+     - Birch event interception was 32% leafless vs 51% leafed, a ratio of 0.63 (Zabret 2018 #116).
+     - Both birch ratios sit inside the 0.3–0.7 test range. Pine (3.04 vs 4.01 mm, 0.76) is evergreen and is not an anchor for leafless crowns.
+     - Leafless deciduous trees still intercepted or channelled nearly 20% of rain to the tree base in a meta-analysis (Nooraei Beidokhti 2021 #126); this is a share of rain, not a ratio.
+   - **Change:** report runoff gains mainly for frequent storms (T = 1–2 yr), and state that species differences shrink in intense storms. Evidence: tree type stopped mattering above 7.6 mm/h (Nytch 2019 #110), and canopy interception fell below 5% of the water balance above 60 mm (Alivio 2025 #117). This supports H3 as stated.
+5. **Add a storage anchor to the s sensitivity range.**
+   - **Evidence:** measured storage capacity per unit LAI is about 1.00–1.02 mm (birch; text vs Table 1) and 1.08 mm (pine) when leafed (own calculation from Alivio 2025 #117). Both fall inside the current s range of 0.86–2.2 mm, below the calibrated 1.75 mm. They are storage capacities (Pereira method), not effective storage including evaporation during events, so they belong with the lower-bound evidence in §4b.
+   - **Change:** cite them in §4b. Keep s = 1.75 as the base case.
+6. **Context for S0/S1, no change.** Platanus × acerifolia is 27.6% of Barcelona's 145,176 street trees (`databases/barcelona/arbrat_viari.csv`). In Philadelphia, Dong et al. classed it, from i-Tree Eco values, as Pareto-dominated ('functionally inferior'): worse than at least one other species on all four services (stormwater, energy-proxy cooling, air quality, carbon) (Dong 2026 #85). This supports replacement as a scenario, but the metrics and city differ, so it is not evidence for Porta.

@@ -32,3 +32,8 @@ The user added new PDFs to `papers/` on the Omen. Do, in this order:
   - **Matrix:** all 28 papers plus Langenheim and Schrodi. 25 new rows (104-128) and 5 rewritten (82 Xing, 83 Eslami, 84 Liang, 86 Langenheim, 87 Schrodi), 128 rows in total. Only #49 (Petralli, Florence) is still not full text, apart from the off-topic rows 91-93.
   - **Novelty checks:** Liang 2021 (#84) optimises land-cover shares per 1 km cell, not trees, so the gap holds. `contribution_statement.md` and `prior_art_matrix.csv` (rows 82-87) were updated from the full texts. Dong 2026 figures are now checked against the local PDF.
   - **Figure 01:** `fig_lit_map()` skips rows whose `relevance_to_topic` starts with "Not used". The bar scale now fits the stats column. Figure 01 was regenerated: 125 sources, 124 full text.
+- **13 Oct:**
+  - **Petralli #49:** now read in full (open ICUC8 2012 abstract, `papers/Petralli 2012 - ...`; the related earlier 2011 journal paper is paywalled). It gives station-level figures (almost 3 °C, 42 vs 6 tropical nights; 42 vs 10 is the 2011 cluster-level figure) and does not locate the hot stations, so `city_screening.md` and `topic_decision.md` now attribute "warmest in the centre" to Petralli 2006 #76.
+  - **Dong supplement:** read; it holds only Tables 1-3 and no per-species values.
+  - **Methodology:** "Proposed changes" section added (§12, not adopted).
+  - **Still missing:** the Speak 2020 per-tree supplement.
