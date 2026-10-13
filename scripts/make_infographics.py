@@ -90,7 +90,8 @@ def to_png(svg):
 
 # ---- 1. What the review covers
 def fig_lit_map():
-    rows = list(csv.DictReader(open(ROOT / "notes/lit/literature_matrix.csv", encoding="utf-8")))
+    rows = [r for r in csv.DictReader(open(ROOT / "notes/lit/literature_matrix.csv", encoding="utf-8"))
+            if not r["relevance_to_topic"].startswith("Not used")]   # screened out as off-topic
     c = {}
     for r in rows:
         for b in r["bucket"].split("/"):
@@ -101,7 +102,8 @@ def fig_lit_map():
               ("Bridge", TREE, [("B3", "Species selection & decision tools"), ("B5", "Design & optimisation precedents"),
                                 ("B8", "Heat-flood trade-offs"), ("B6", "Co-benefits")]),
               ("Heat side", HEAT, [("B7", "Heat, shade & cooling"), ("B9", "City screening (heat + flood)")])]
-    b, y, x0, k = "", 170, 480, 22
+    b, y, x0 = "", 170, 480
+    k = min(22, 600 / max(sum(v) for v in c.values()))   # longest bar + label must stay left of the stats column (x=1150)
     for g, col, items in groups:
         b += t(60, y, g.upper(), 15, col, "bold")
         y += 12
@@ -118,10 +120,10 @@ def fig_lit_map():
     x = 1150
     b += t(x, 250, str(len(rows)), 110, INK, "bold") + t(x, 290, "sources in the review matrix", 21, MUTED)
     b += t(x, 400, str(n_full), 72, TREE, "bold") + t(x, 432, "read in full text", 21, MUTED)
-    b += t(x, 540, str(len(rows) - n_full), 72, MUTED, "bold") + t(x, 572, "from abstracts (full text pending)", 21, MUTED)
+    b += t(x, 540, str(len(rows) - n_full), 72, MUTED, "bold") + t(x, 572, "not yet read in full", 21, MUTED)
     tk, _ = para(1150, 650, "Two large literatures, runoff and heat. The bridge between them, species traits judged on "
                             "both goals at once, is thin: that is where this thesis sits.", 390, 21, weight="bold")
-    save("01_lit_map", "What the literature review covers", f"{len(rows)} sources screened in 9 themes (7-9 Oct 2026)",
+    save("01_lit_map", "What the literature review covers", f"{len(rows)} sources screened in 9 themes (7-12 Oct 2026)",
          b + tk, "notes/lit/literature_matrix.csv (OpenAlex / Semantic Scholar search, own screening).")
 
 
@@ -180,7 +182,7 @@ def fig_traits():
     b += rect(xr, 150, cw, 44, RAIN, op=0.12) + t(xr + 18, 179, "RUNOFF: canopy interception", 20, RAIN, "bold")
     bands = [("HELP BOTH", TREE, [
         ("Leaf area (LAI, crown density)",
-         "Canopy density is the strongest driver of cooling (Rahman et al. 2019); LAI and crown width matter most for shade (Speak et al. 2020*)",
+         "Canopy density is the strongest driver of cooling (Rahman et al. 2019); LAI ranks among the top shade predictors and wide crowns help (Speak et al. 2020)",
          "Interception rises with LAI / PAI (Anys & Weiler 2024); leaf-area density drives storage capacity (Baptista et al. 2018)"),
         ("Crown size",
          "Big, dense crowns with a low base give the best shade and comfort (Helletsgruber et al. 2020)",
@@ -212,7 +214,7 @@ def fig_traits():
                              "Species choice therefore needs a multi-objective search, not a single score.", 1480, 21, weight="bold")
     save("03_heat_runoff_traits", "Same tree, two jobs: which traits help both, and where they conflict",
          "Heat and runoff evidence side by side (buckets B1, B7, B8)", b + tk,
-         "literature_matrix.csv rows 1, 3, 6, 9-11, 13, 38-40, 42, 43, 45, 53, 56; Barcelona Resilience Atlas. * abstract only.")
+         "literature_matrix.csv rows 1, 3, 6, 9-11, 13, 38-40, 42, 43, 45, 53, 56; Barcelona Resilience Atlas.")
 
 
 # ---- 4. Gap: state of the art vs this thesis
