@@ -1,49 +1,45 @@
 # Miro map proposal (RM homework 1, "Mapping the field")
 
-Source of the brief: `seminars/research_and_methodologies/RM_L01_notes.md` (chapters 11–12, pp. 35–38). Content below is taken from the repo notes (`topic_decision.md` §7, `methodology.md`, RM_L01 notes); nothing new is claimed. Check cluster with the advisor first (probably cluster 3).
+Source of the brief: `seminars/research_and_methodologies/RM_L01_notes.md` (chapters 11–12, pp. 35–38). Template = slide p. 37 "Before you draw: open up your topic": a centre box (CLUSTER TOPIC) and 10 boxes in a loop. Content below comes from the repo notes (`topic_decision.md` §7, `methodology.md`); nothing new is claimed. Confirm the cluster with the advisor first (probably cluster 3).
 
 ## What is asked
-1. One map per thesis cluster on the shared Miro board (link from Laura). Every student's research must be identifiable (own colour).
-2. Unpack the cluster topic from my research's point of view with the prompts Open / Follow / Question (p. 35) and the map elements (p. 37).
-3. Add 2 theoretical + 3 practical state-of-the-art projects. Each card: source link · what it lets me understand about my question · what it does · what it does NOT do.
-4. Be ready to tell the story of the 5 examples through the map. The next class opens with a review. Date to be confirmed by Laura.
+1. One map per cluster on the shared Miro board (link from Laura). Each student's research must be identifiable (own colour).
+2. Unpack the cluster topic from my point of view with Open / Follow / Question (p. 35) on the p. 37 template.
+3. State of the art: 2 theoretical + 3 practical projects. Each card: source link · what it lets me understand about my question · what it does · what it does NOT do.
+4. Be ready to tell the story of the 5 examples through the map. The next class opens with a review of the maps (date to be confirmed by Laura).
 
-## Rules for the drawing
-- Start from the context, not the tool. Pick one unit and follow it everywhere.
-- No hierarchy, no single reading order (rhizome). Several entry points.
-- A map is a claim: every frame choice is a decision. Show absences and what does not survive translation.
-- Every visual choice means something (colour = layer, size = importance, distance = dependency). Keep one legend.
-- Cite the date and provenance of every data source on the map.
+## Collaboration protocol (cluster colleagues share one map)
+- Agree on **one** centre text for the cluster topic, then everyone works from their own point of view around it.
+- One colour per person, used for every sticky and arrow. Initials on each sticky as a backup for colour-blind readers.
+- Every box holds several stickies, one or more per person. A shared item = one sticky with a multi-colour border, not a merged consensus.
+- Each person draws their "unit path" (Follow) as an arrow in their colour through the boxes. Where arrows overlap = shared ground; where they diverge = the interesting part.
+- State-of-the-art cards go in one lane per person under the loop, so the 5 cards per person stay countable.
+- Use Miro comments for questions to colleagues. Do the first pass alone, then 30 min together to link overlapping stickies.
+- Agree who checks the legend and who prepares the first 2 minutes of the story, since the class opens with a review.
 
-## Board layout (one frame, centre outwards)
+## Fill-in for the p. 37 template (my colour; one sticky per bullet)
 
-**Centre: the unit.** One plane-tree position being replaced on a Porta street.
-Sticky: *Deciding which species replace Barcelona's plane trees, and where, so that streets stay cooler in summer and hold back more rain in storms.* (topic without the tool)
+**Centre, CLUSTER TOPIC:** cluster topic text (agreed with colleagues) + my sticky: *deciding which species replace Barcelona's plane trees, and where, so that streets stay cooler in summer and hold back more rain in storms* (Open: topic without the tool).
+My unit to follow everywhere: one plane-tree position being replaced on a Porta street.
 
-**Ring 1, OPEN (no software named)**
-- Promise: what does this decision promise designers, and who made the promise?
-- Before computation: how are replacements chosen today (like-for-like)? Gained / lost.
-- Who benefits: pedestrians, residents, city.
-
-**Ring 2, FOLLOW (the unit travels through)**
-| Stop | Content |
+| Box | My content |
 |---|---|
-| Representation | tree → LiDAR crown → height / crown / LAI proxy → 1 m grid cell. Lost: LAI is an uncalibrated proxy |
-| Data | ICGC LiDAR (26 Sept 2021, leaf-on), tree inventory, PDISBA storms, trait sources. Missing: who labels, which climates are absent |
-| Models | interception bucket + SCS-CN, sun × elliptical crown shadow, D8 flow routing. Assumptions marked ASSUMPTION |
-| Infrastructure | Python core `shade_sponge/` → Grasshopper/Ladybug and web app. Lock-in: Ladybug, Infrared City |
-| Users | computational designer, municipal climate planner, urban hydrologist. What the tool adds to their work |
+| Users | computational designer; municipal climate planner; urban hydrologist. What extra work the tool adds for them |
+| Impacts | less summer heat stress (UTCI), less pluvial runoff in storms; cost: winter shade; trade-off size between the two |
+| Applications | species and placement choice for tree replacement in Porta; transfer test in Florence |
+| By-products | per-tree trait table, scenario results (S0–S4), layout options for designers. Gap to note: who stores and reuses them |
+| Monitoring | how success would be tracked after planting. Currently a gap: write it as an open question |
+| Disciplines | landscape design, urban hydrology, urban climatology, computational design, plant ecology |
+| Serving infrastructure | Python core `shade_sponge/` → Grasshopper/Ladybug and web app. Lock-in: Ladybug, Infrared City |
+| ↑ Data (in) | ICGC LiDAR (26 Sept 2021, leaf-on), tree inventory, PDISBA storms, trait sources, DTM, buildings. Add date and provenance on each |
+| ↓ Data (out) | runoff and shade maps, ranked layouts, exchange files for Grasshopper |
+| Drivers | heat and storm hazards in Porta (both above the city 60th percentile); verify the policy driver before writing it |
+| Verification | interception calibration vs Anys and Weiler 2024; UTCI cross-check with Ladybug; Florence transfer test; who decides, against which benchmark |
+| Knowledge | what it adds: joint species + placement for heat and runoff. What does not survive translation: LAI from LiDAR is an uncalibrated proxy |
 
-**Ring 3, QUESTION**
-- Validation: how would I know it worked, who decides, which benchmark (Anys and Weiler 2024 for interception; Florence as transfer test)?
-- Failure: young tree, storm beyond T = 10 yr; who notices?
-- Limits: what the tool cannot do (e.g. no fluvial flood, one district, no carbon yet).
-- Who else belongs: parks department, maintenance, residents, the trees.
-- Report v0 honestly: "no trade-off within the city palette" is a finding with limits, not a proof.
+Add three loose stickies from the Question prompts: failure cases (young tree; storm beyond T = 10 yr; who notices), limits (no fluvial flood, one district, no carbon yet), and who else belongs on the map (parks department, maintenance, residents). Report v0 honestly: "no trade-off within the city palette" is a finding with limits.
 
-**Outer band, p. 37 map elements** (one sticky each, linked to the ring they belong to): users · impacts · applications · by-products · monitoring · disciplines · serving infrastructure (data in / data out) · drivers · verification · knowledge.
-
-**State-of-the-art strip (bottom), 5 cards**
+## State-of-the-art strip (5 cards, my lane)
 | Type | Candidate | Doesn't do (my gap) |
 |---|---|---|
 | Theory | Shaamala et al. 2025 | tree placement optimised for heat only; water is future work |
@@ -51,12 +47,12 @@ Sticky: *Deciding which species replace Barcelona's plane trees, and where, so t
 | Practice | SylvCiT (Nicol et al. 2026) | runoff module disabled; no heat; Montreal only |
 | Practice | Davey Tree Benefits Engine API | to fill in after reading the paper |
 | Practice | GreenInCities Barcelona tools (heatwave risk index) | to check: species choice / placement not covered? |
-Draw an arrow from each card to the ring it informs. Verify every "doesn't do" against the paper in `papers/` before writing it on the board; add the source link on each card.
+Verify every "doesn't do" against the paper in `papers/` and add the source link on each card. Arrow from each card to the box it informs.
 
 ## Steps
-1. Confirm the cluster with the advisor (1 message).
-2. Build frame, centre, three rings (30 min).
-3. Add p. 37 elements and colour everything in my colour (20 min).
+1. Confirm the cluster with the advisor and message colleagues the protocol above.
+2. Copy the p. 37 template into the cluster frame; pick colours (10 min).
+3. Fill the loop alone (about 45 min), then draw my unit path.
 4. Fill the 5 cards (about 1 h, reading needed).
-5. Rehearse the 5-example story (2 min).
+5. 30 min with colleagues to link overlaps; rehearse the 5-example story (2 min).
 Keep a text copy in `notes/actors_map.md` (shared with the RT actor map).
