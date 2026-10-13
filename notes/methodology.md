@@ -19,7 +19,7 @@ Citations marked *(to add)* are standard references not yet in `papers/`/Zotero:
 | Street trees (species, planting date, size class) | Ajuntament open data `arbrat-viari` | Baseline S0, positions to replace |
 | LiDAR ≥8 pts/m² (2021–23) | ICGC, CC BY 4.0 | Tree height, crown diameter, crown base; building heights; DTM |
 | Buildings, streets, sidewalks | ICGC / municipal cartography (OSM fallback) | Ladybug context, sealed surfaces, plantable cells |
-| Flood-hazard index; depth maps (on request) | Barcelona Regional / RESCCUE | Where runoff matters; check against model |
+| Flood-hazard index; depth maps T10/T100 (`rcc_iu1_*`) | Barcelona Regional / RESCCUE | Where runoff matters; check against model |
 | Design rainfall (IDF T = 1–10 yr) | PDISBA *Estudi de pluges* | Design storms |
 | Weather file (EPW) | climate.onebuilding.org TMYx, Barcelona El Prat | Ladybug UTCI inputs |
 | Species traits | `notes/lit/species_measurements.csv` + 3TF/BROT 2/GRooT + literature | Interception, LAI, leaf habit, wood anatomy |
