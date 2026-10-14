@@ -1,7 +1,7 @@
-"""Journey map of one plane-tree position through eight stages (RM homework 1, format of a colleague's "plaza photo" map).
+""""Which tree comes next?": one plane-tree position through eight stages of my thesis (RM homework 1, format of a colleague's "plaza photo" map).
 
 Content comes from notes/methodology.md, notes/topic_decision.md, notes/lit/literature_matrix.csv, prior_art_matrix.csv and the
-Davey API digest; nothing new is claimed. "to check" = not read yet. Output: slides/fig/08_journey_map.svg + .png (2000x1250).
+Davey API digest; nothing new is claimed. "to check" = not read yet. Output: slides/fig/08_plane_tree_map.svg + .png (2000x1250).
 """
 import pathlib
 from xml.sax.saxutils import escape
@@ -15,31 +15,31 @@ X0, CW = 205, 214.6                      # first column x, column width
 cx = lambda i: X0 + (i - 0.5) * CW       # centre of stage i (1-8)
 
 STAGES = [  # name, question, unit at this stage, people?, body [(tag, text)]
-    ("EXPERIENCE", "What is the topic without the tool?", "The street, before any model", True,
+    ("EXPERIENCE", "What is the topic without the tool?", "The street I start from", True,
      [("", "People walking under plane trees in Porta: shade in summer, wet pavement in autumn storms. Both hazards are above the city 60th percentile there."),
       ("", "The topic: which species replace the plane trees, and where.")]),
-    ("REPRESENTATION", "What must the tree become computable?", "The tree: what the LiDAR keeps", False,
+    ("REPRESENTATION", "What must the tree become computable?", "The tree as my model sees it", False,
      [("SEEN", "height, crown diameter and crown base from leaf-on LiDAR (26 Sept 2021)"),
       ("INFERRED", "leaf area (LAI) from point density; shade as an elliptical crown; rain storage as a bucket"),
       ("LOST", "real LAI (proxy is uncalibrated), roots, cooling by transpiration")]),
-    ("DATA", "Where does it come from, and what is missing?", "Layers and species traits", False,
+    ("DATA", "Where does it come from, and what is missing?", "What I can feed it", False,
      [("", "ICGC LiDAR, street-tree inventory, PDISBA design storms, weather file, trait tables (BROT 2, 3TF)."),
       ("MISSING", "measured interception and LAI for Celtis, Melia, Tipuana, Jacaranda, Brachychiton (genus or leaf-habit values used); one district, one city.")]),
-    ("MODEL", "What does it assume, and where is the bias?", "Two scores for each layout", False,
+    ("MODEL", "What does it assume, and where is the bias?", "The two scores I compute", False,
      [("", "Heat: sun exposure × crown shadow, opacity from LAI and month. Runoff: storage bucket (1.75 mm per LAI, calibrated on Anys and Weiler 2024) + SCS curve number."),
       ("", "The assumption tested: species and position pull heat and runoff in different directions.")]),
-    ("INFRASTRUCTURE", "Who owns the models and the compute?", "Code and engines", False,
+    ("INFRASTRUCTURE", "Who owns the models and the compute?", "What I build it on", False,
      [("", "Own Python core (open code). Heat reference: Ladybug (open source). Infrared City is a possible engine; access to confirm."),
       ("", "Lock-in to name: Rhino/Grasshopper licence; Infrared City API if used.")]),
-    ("TOOLS", "What does the designer actually touch?", "A ranked set of layouts", True,
+    ("TOOLS", "What does the designer actually touch?", "What the designer gets from me", True,
      [("", "Grasshopper: exchange files in, ranked layouts out (trade-off front)."),
       ("", "Later: a web app for non-technical users with the fast heat proxy."),
       ("OPEN", "how much weighting and palette setup the designer must do.")]),
-    ("EVALUATION", "How would I know it works? Who notices when it fails?", "The checked layout", True,
+    ("EVALUATION", "How would I know it works? Who notices when it fails?", "How I check my answer", True,
      [("", "Interception module vs Freiburg field data (Anys and Weiler 2024); today's trees (S0) as baseline; Florence as transfer test."),
       ("FAILS IF", "young trees mature late; storm beyond T = 10 yr; the LAI proxy is wrong."),
       ("OPEN", "who checks the ranking against reality.")]),
-    ("WORLD", "What does it promise designers, and who decides?", "A species for each street", True,
+    ("WORLD", "What does it promise designers, and who decides?", "What I hand back to the street", True,
      [("", "Promise: quantified options instead of like-for-like replacement."),
       ("", "Risk: false precision from an uncalibrated LAI proxy."),
       ("", "Left behind: a Porta trait table, scenario results, open code.")]),
@@ -52,14 +52,14 @@ SOTA = [
     ("P2 Davey Tree Benefits Engine", [(4, 5, "i-Tree benefits per tree via a paid API (6,000+ species); no placement")]),
     ("P3 GreenInCities (to check)", []),
 ]
-THESIS = ["Starts from the street decision, not from a model",
-          "Side finding: what a LiDAR crown cannot tell",
-          "Species trait gaps reported as a finding, with ranges",
-          "Heat and runoff in one score set; the trade-off is tested",
-          "Open Python core, Ladybug cross-check, lock-in named",
-          "Prototype: ranked layouts in Grasshopper; web app later",
-          "Calibrated interception, S0 baseline, Florence transfer",
-          "Quantified options for plane-tree replacement, limits stated"]
+THESIS = ["I start from the street decision, not from a model",
+          "I report what a LiDAR crown cannot tell",
+          "I report species trait gaps as a finding, with ranges",
+          "I score heat and runoff together and test the trade-off",
+          "I build an open core, cross-check it, and name the lock-in",
+          "I prototype ranked layouts in Grasshopper; web app later",
+          "I calibrate interception, use S0 as baseline, test in Florence",
+          "I give quantified options for replacement, with the limits"]
 BEFORE = ["Being there", "Site visits, inventory sheets", "Species lists, planner's knowledge", "The planner's own judgement",
           "Paper plans and archives", "Planting drawings", "Maintenance follow-up", "Like-for-like replacement"]
 
@@ -73,13 +73,31 @@ def wrap(x, y, s, width, size=13, lh=1.28, **k):
     return mi.para(x, y, s, width, size, lh, **k)
 
 
+def tree(x, y, k=1.0):
+    """Little plane-tree icon standing on (x, y)."""
+    return (f'<rect x="{x - 2 * k:.0f}" y="{y - 14 * k:.0f}" width="{4 * k:.0f}" height="{14 * k:.0f}" fill="#6B4F2A"/>'
+            f'<circle cx="{x:.0f}" cy="{y - 24 * k:.0f}" r="{13 * k:.0f}" fill="{mi.TREE}"/>'
+            f'<circle cx="{x - 8 * k:.0f}" cy="{y - 19 * k:.0f}" r="{8 * k:.0f}" fill="{mi.TREE}"/>'
+            f'<circle cx="{x + 8 * k:.0f}" cy="{y - 19 * k:.0f}" r="{8 * k:.0f}" fill="{mi.TREE}"/>')
+
+
+def hazards(x, y):
+    """The two hazards of the thesis: heat (sun) and runoff (drop), in the figure colours."""
+    sun = "".join(f'<line x1="{x:.0f}" y1="{y:.0f}" x2="{x + 13 * c:.0f}" y2="{y + 13 * d:.0f}" stroke="{mi.HEAT}" stroke-width="2"/>'
+                  for c, d in ((1, 0), (-1, 0), (0, 1), (0, -1), (.7, .7), (-.7, -.7), (.7, -.7), (-.7, .7)))
+    drop = (f'<path d="M{x + 160:.0f},{y - 9:.0f} q9,12 0,17 q-9,-5 0,-17 z" fill="{mi.RAIN}"/>')
+    return (sun + f'<circle cx="{x:.0f}" cy="{y:.0f}" r="7" fill="{mi.HEAT}"/>' + txt(x + 18, y + 5, "heat in summer", 13, mi.HEAT, "bold")
+            + drop + txt(x + 174, y + 5, "runoff in storms", 13, mi.RAIN, "bold"))
+
+
 def build():
-    b = [txt(90, 62, "The journey of a plane-tree position", 40, INK, "bold"),
-         txt(90, 96, "One plane tree to be replaced on a Porta street, followed through eight stages and back to the street. "
-                     "The dark lines show the state of the art; the pink line, this thesis. Cyan stages involve people, amber stages happen in the machine.", 15, MUTED)]
+    b = [txt(90, 62, "Which tree comes next? One plane tree through my thesis", 40, INK, "bold"),
+         txt(90, 96, "I follow one plane tree that must be replaced on a Porta street through eight stages, and back to the street. "
+                     "The dark lines show what others have done; the pink line is what I add. Cyan stages involve people, amber stages happen in the machine.", 15, MUTED)]
     b.append(f'<line x1="90" y1="128" x2="1915" y2="128" stroke="#D5DBDE"/>')
     b.append(txt(90, 152, "CONTEXT", 11, MUTED) + txt(160, 152,
               "Plane trees are replaced one by one · Heat and pluvial runoff both matter in Porta · Species choice rarely uses traits (SylvCiT's runoff module is disabled)", 14, INK))
+    b.append(hazards(1300, 148))
     b.append('<line x1="90" y1="176" x2="1915" y2="176" stroke="#D5DBDE"/>')
     body_h = 1000
     for i, (name, q, unit, people, body) in enumerate(STAGES, 1):
@@ -105,7 +123,7 @@ def build():
     # photo path, loop-back rectangle, nodes
     b.append(f'<rect x="55" y="356" width="1895" height="{1134 - 356}" fill="none" stroke="{INK}" stroke-width="4" stroke-dasharray="10 9"/>')
     b.append(f'<line x1="55" y1="356" x2="1950" y2="356" stroke="{INK}" stroke-width="5"/>')
-    b.append(f'<path d="M285,356 l-22,-11 v22 z" fill="{INK}"/>')
+    b.append(tree(130, 356, 1.4))
     for i, st in enumerate(STAGES, 1):
         b.append(f'<circle cx="{cx(i):.0f}" cy="356" r="9" fill="#fff" stroke="{CYAN if st[3] else AMBER}" stroke-width="4"/>')
     # state of the art
@@ -124,7 +142,7 @@ def build():
             b.append(txt(224, y - 6, "coverage not read yet: heatwave risk index (LAND), UTCI for non-humans (IES), NDVI mapping", 11, MUTED, italic=True))
     # this thesis
     yt = y0 + 22 + 5 * 50 + 6
-    b.append(txt(72, yt + 34, "This thesis", 12, PINK, "bold"))
+    b.append(txt(72, yt + 34, "What I add", 12, PINK, "bold"))
     for i, s_ in enumerate(THESIS, 1):
         s, _ = wrap(cx(i) - CW / 2 + 20, yt + 4, s_, CW - 36, 11.5, weight="bold", fill=PINK)
         b.append(s)
@@ -137,13 +155,14 @@ def build():
     for i, s_ in enumerate(BEFORE, 1):
         b.append(f'<circle cx="{cx(i):.0f}" cy="{yb + 14}" r="6" fill="#fff" stroke="#9AA9AF" stroke-width="2"/>')
         b.append(txt(cx(i) - CW / 2 + 20, yb + 48, s_, 12, MUTED))
-    b.append(txt(1000, 1156, "Back to the street: the replaced tree shades and drains the same place, or not", 15, INK, "bold", "middle"))
+    b.append(txt(1000, 1156, "Back to the street: the tree I choose shades and drains the same place, or it does not", 15, INK, "bold", "middle"))
     # key
+    b.append(tree(668, 1160, 1.0))
     ky = 1212
     b.append(txt(90, ky - 24, "KEY", 10, MUTED))
-    items = [("line", INK, 5, "", "the tree's path"), ("line", INK, 5, "10 7", "back to the street"), ("dot", CYAN, 0, "", "stage with people"),
+    items = [("line", INK, 5, "", "my tree's path"), ("line", INK, 5, "10 7", "back to the street"), ("dot", CYAN, 0, "", "stage with people"),
              ("dot", AMBER, 0, "", "stage in the machine"), ("line", INK, 2.5, "", "a paper covers this stage"),
-             ("line", "#C9D1D4", 2, "2 4", "passes without covering it"), ("line", PINK, 5, "", "this thesis: what is new"),
+             ("line", "#C9D1D4", 2, "2 4", "passes without covering it"), ("line", PINK, 5, "", "what I add"),
              ("line", "#9AA9AF", 2, "9 7", "before computation")]
     x = 90
     for kind, col, sw, dash, lab in items:
@@ -163,7 +182,7 @@ def build():
 if __name__ == "__main__":
     svg = (f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" font-family="{mi.FONT}">'
            f'<rect width="{W}" height="{H}" fill="#fff"/>{build()}</svg>')
-    p = mi.OUT / "08_journey_map.svg"
+    p = mi.OUT / "08_plane_tree_map.svg"
     mi.OUT.mkdir(parents=True, exist_ok=True)
     p.write_text(svg, encoding="utf-8")
     mi.to_png(p)
