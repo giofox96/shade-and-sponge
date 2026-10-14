@@ -19,7 +19,7 @@ ASSUMPTIONS (everything not read from a repo CSV):
   - 'LAI high' = LiDAR proxy x (median LAI of the 16 Freiburg TLS trees / median LAI proxy of the Porta crowns): ASSUMPTION that the
     proxy under-reads TLS by a constant ratio (methodology 4b 'known limits');
   - young crown 3.0 m (runoff_model.py line 32, ASSUMPTION) vs on-site median crown diameter of the 2,600 LiDAR crowns;
-  - S1 uses expected values: the 809 plane positions split in the Porta proportions of the six candidates (porta_species.csv shares).
+  - S1 uses expected values: the 809 plane positions split in the Porta proportions of the seven candidates (porta_species.csv shares).
 """
 import pathlib
 import numpy as np
@@ -159,7 +159,7 @@ for P in P_GRID:
             rng[n] = x.d_runoff_vs_S0_m3.max() - x.d_runoff_vs_S0_m3.min()
         row[f"param_spread_{fac}_S1_m3"] = rng["S1"]
         row[f"param_spread_{fac}_max_m3"] = max(rng.values())
-    # ranking of the six single species + S1 (tie-aware, 0.01 m3) under each s x LAI combination (mature crowns)
+    # ranking of the seven single species + S1 (tie-aware, 0.01 m3) under each s x LAI combination (mature crowns)
     ranks = set()
     for (sl, lc, cm), grp in sub[~sub.palette.isin(["best", "worst"]) & (sub.crown_mode == "mature")].groupby(["s_level", "lai_case", "crown_mode"]):
         ranks.add((sl, lc, cm, tuple(grp.set_index("palette").d_runoff_vs_S0_m3.round(2).rank(method="min").sort_index().astype(int))))
@@ -180,7 +180,7 @@ names7 = sorted(cr.palette.unique())
 print("ranks (1 = least extra runoff) by P at centre params, order:", names7)
 for P in (1, 2, 3, 4, 5, 6, 8, 10):
     print(f"  P={P}: {by[float(P)]}")
-print(f"\nranking (7 palettes, centre params): {len(chg)} distinct over P; P where ranking differs from P=31.92:",
+print(f"\nranking (8 palettes, centre params): {len(chg)} distinct over P; P where ranking differs from P=31.92:",
       [P for P, v in by.items() if v != by[round(marks['T2-60min'], 2)]][:12])
 d_ = cr[cr.P_mm == round(marks['T2-60min'], 2)].set_index("palette").d_runoff_vs_S0_m3.sort_values()
 print("order at T2-60 (best to worst, m3 vs S0):", ", ".join(f"{k} {v:.1f}" for k, v in d_.items()))
