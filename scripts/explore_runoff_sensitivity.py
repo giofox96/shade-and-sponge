@@ -198,7 +198,7 @@ for T, d in ((1, 60), (2, 60), (10, 60), (2, 20)):
 print("P marks (mm):", {k: round(v, 1) for k, v in marks.items()})
 
 # ---- Styphnolobium input bracket (14 Oct): its LiDAR medians come from only 5 trees on one street, so they are replaced by a
-# sourced bracket. Crown 6 / 8 m = mature crown 'de 6 a 8 m de diametre' (Diputacio de Barcelona, Verd urba, Acacia del Japo sheet);
+# sourced bracket. Crown 6 / 8 m = crown class 'Ampla (de 6 a 8 m de diametre)' (Diputacio de Barcelona, Verd urba, Acacia del Japo sheet; generic class);
 # 8.85 m = LiDAR median (n = 5). LAI 2.61 = whole-canopy TLS LAI of one Seoul tree (Yang et al. 2019, matrix #5), used as-is on the
 # proxy scale (ASSUMPTION; the 1.56 TLS/proxy factor would lower it further); 3.32 = LiDAR proxy median (n = 5).
 STY = "Styphnolobium japonicum"
