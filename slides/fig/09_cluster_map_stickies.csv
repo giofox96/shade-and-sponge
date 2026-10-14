@@ -1,0 +1,53 @@
+﻿box,person,sticky_colour,text
+CLUSTER TOPIC,ALL,black,From climate data to design decisions: how computation translates climate information into choices designers can understand and act on
+CLUSTER TOPIC,G,green,"Giovanni · unit: one plane-tree position in Porta, Barcelona"
+CLUSTER TOPIC,E,light_blue,Elena · unit: one photo of a Vienna square
+CLUSTER TOPIC,D,red,David · unit: one climate analysis (to confirm)
+USERS,G,green,Computational designer; municipal climate planner; urban hydrologist
+USERS,E,light_blue,Planners; sensory-sensitive and neurodivergent people
+USERS,D,red,? Architects and designers without climate-analysis training
+USERS,ALL,gray,Designers who are not climate experts
+IMPACTS,G,green,Summer heat stress (UTCI) and storm runoff on Porta streets
+IMPACTS,E,light_blue,Whose experience of the square counts; risk of tokenism
+IMPACTS,D,red,? More climate-aware projects
+IMPACTS,ALL,gray,Decisions that change how people live hotter summers
+APPLICATIONS,G,green,Species and position for each plane tree replaced
+APPLICATIONS,E,light_blue,Scoring street-level images and design options
+APPLICATIONS,D,red,? Explaining climate analyses while designing
+APPLICATIONS,ALL,gray,Comparing options before they are built
+BY-PRODUCTS,G,green,"Porta trait table, LiDAR tree table, scenario results"
+BY-PRODUCTS,E,light_blue,Rated photo set of a Vienna square; corpus of persona reasons
+BY-PRODUCTS,D,red,? Plain-language glossary of climate terms
+BY-PRODUCTS,ALL,gray,Open datasets left behind
+MONITORING,G,green,Open: no tracking after planting yet
+MONITORING,E,light_blue,Keeps collecting real experience
+MONITORING,D,red,? Do designers' choices change over time?
+MONITORING,ALL,gray,Same metrics before and after
+DISCIPLINES,G,green,"Urban hydrology and climatology, landscape design, plant ecology"
+DISCIPLINES,E,light_blue,"Participatory planning, AI / language models, sensory experience"
+DISCIPLINES,D,red,"? Building physics, design education, interaction design"
+DISCIPLINES,ALL,gray,Computational design
+↓ DATA OUT,G,green,Ranked layouts; shade and runoff maps
+↓ DATA OUT,E,light_blue,Scores and reasons on a dashboard
+↓ DATA OUT,D,red,? Explanations a designer can read
+↓ DATA OUT,ALL,gray,An answer a designer can question
+SERVING INFRASTRUCTURE,G,green,"Python core, Grasshopper + Ladybug; Infrared City to confirm"
+SERVING INFRASTRUCTURE,E,light_blue,Paid model API + open-weight model run locally; survey tool
+SERVING INFRASTRUCTURE,D,red,? Climate-analysis plug-ins + a language model
+SERVING INFRASTRUCTURE,ALL,gray,Lock-in: own code vs paid services
+↑ DATA IN,G,green,"ICGC LiDAR 2021, tree inventory, PDISBA storms, weather file, traits"
+↑ DATA IN,E,light_blue,"Photos of the square; profiles, sensory self-ratings, lived experience"
+↑ DATA IN,D,red,"? Outputs of climate analyses (comfort, sun, wind)"
+↑ DATA IN,ALL,gray,Who or what is missing from the data?
+DRIVERS,G,green,Plane trees cut toward the 15% species cap; pluvial floods
+DRIVERS,E,light_blue,Planners adopting AI 'synthetic participants'
+DRIVERS,D,red,? Climate analyses too technical for most designers
+DRIVERS,ALL,gray,Hotter summers
+VERIFICATION,G,green,Interception vs field data; today's trees as baseline; Florence transfer
+VERIFICATION,E,light_blue,Each persona vs its own participant's ratings; bias gap
+VERIFICATION,D,red,? Do designers understand and decide better?
+VERIFICATION,ALL,gray,Who decides the translation is right?
+KNOWLEDGE,G,green,Does species choice trade heat against runoff?
+KNOWLEDGE,E,light_blue,Which people can synthetic participants stand in for?
+KNOWLEDGE,D,red,"? Which terms block designers, and why?"
+KNOWLEDGE,ALL,gray,What gets lost in translation

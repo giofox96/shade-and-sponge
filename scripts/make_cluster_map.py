@@ -4,7 +4,7 @@ Giovanni (green) = this thesis (notes/methodology.md, notes/miro_map_proposal.md
 as drawn by her (Elena to check). David (red) = only his topic is known; his notes start with "?" and are guesses for him to replace.
 Cluster topic = proposal 1, agreed 14 Oct. Output: slides/fig/09_cluster_map.svg + .png (2400x1720).
 """
-import math
+import csv, math
 from xml.sax.saxutils import escape
 import make_infographics as mi
 
@@ -122,3 +122,16 @@ if __name__ == "__main__":
     p.write_text(svg, encoding="utf-8")
     mi.to_png(p)
     print("wrote", p.relative_to(mi.ROOT))
+    # one row per Miro sticky; colour = Miro sticky colour name
+    miro = {"G": "green", "E": "light_blue", "D": "red", "ALL": "gray"}
+    rows = [("CLUSTER TOPIC", "ALL", "black", "From climate data to design decisions: how computation translates climate "
+                                               "information into choices designers can understand and act on")]
+    rows += [("CLUSTER TOPIC", tag, miro[tag], f"{name} · {u}") for (tag, _, name), u in
+             zip(PEOPLE, ["unit: one plane-tree position in Porta, Barcelona", "unit: one photo of a Vienna square",
+                          "unit: one climate analysis (to confirm)"])]
+    rows += [(title, tag, miro[tag], note) for title, *notes in BOXES for (tag, _, _), note in zip(PEOPLE, notes)]
+    with open(mi.OUT / "09_cluster_map_stickies.csv", "w", newline="", encoding="utf-8-sig") as f:   # BOM: Excel/Sheets read UTF-8
+        w = csv.writer(f)
+        w.writerow(["box", "person", "sticky_colour", "text"])
+        w.writerows(rows)
+    print("wrote", len(rows), "stickies to slides/fig/09_cluster_map_stickies.csv")
