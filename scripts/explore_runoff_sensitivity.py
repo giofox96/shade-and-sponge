@@ -2,6 +2,7 @@
 
 Usage:  python scripts/explore_runoff_sensitivity.py      (plain pandas + numpy; reads repo CSVs only, no network, no rasters)
 Writes: databases/barcelona/runoff_sensitivity_palettes.csv  (long table: palette x crown x s x LAI x P)
+        databases/barcelona/runoff_sensitivity_styphnolobium.csv (Styphnolobium crown x LAI bracket, T2-60)
         databases/barcelona/runoff_sensitivity_spread.csv    (palette spread vs parameter spread per P)
 Status: EXPLORATORY BRACKET, not a result. It does NOT replace scripts/runoff_model.py (1 m grid); it re-does the same
 arithmetic on aggregates so that palettes, s, LAI, crown size and P can be swept in seconds.
@@ -195,3 +196,34 @@ for T, d in ((1, 60), (2, 60), (10, 60), (2, 20)):
           f"(dQ/dPeff {slope:.2f}); RMSE {cal.rmse_mm.min()} / {cal.rmse_mm.median()} / {cal.rmse_mm.max()} mm -> "
           + " / ".join(f"{area / 1000 * slope * r:.0f}" for r in (cal.rmse_mm.min(), cal.rmse_mm.median(), cal.rmse_mm.max())) + " m3 runoff")
 print("P marks (mm):", {k: round(v, 1) for k, v in marks.items()})
+
+# ---- Styphnolobium input bracket (14 Oct): its LiDAR medians come from only 5 trees on one street, so they are replaced by a
+# sourced bracket. Crown 6 / 8 m = mature crown 'de 6 a 8 m de diametre' (Diputacio de Barcelona, Verd urba, Acacia del Japo sheet);
+# 8.85 m = LiDAR median (n = 5). LAI 2.61 = whole-canopy TLS LAI of one Seoul tree (Yang et al. 2019, matrix #5), used as-is on the
+# proxy scale (ASSUMPTION; the 1.56 TLS/proxy factor would lower it further); 3.32 = LiDAR proxy median (n = 5).
+STY = "Styphnolobium japonicum"
+sty0 = sp.loc[STY, ["crown_diam_med", "lai_proxy_med"]].copy()
+P2 = marks["T2-60min"]
+brows = []
+for cdm in (6.0, 8.0, float(sty0.crown_diam_med)):
+    for lai_s in (2.61, float(sty0.lai_proxy_med)):
+        sp.loc[STY, ["crown_diam_med", "lai_proxy_med"]] = [cdm, lai_s]
+        for cm in ("mature", "young3"):
+            pals = palettes(cm)
+            for lc, lm in LAI_CASES.items():
+                for sk, sv in S_LEVELS.items():
+                    rr0 = tally(P2, sv, lm, None)[1]
+                    dd = {n: rr0 - tally(P2, sv, lm, ps)[1] for n, ps in pals.items()}
+                    singles = {n: v for n, v in dd.items() if n.startswith("single:")}
+                    best = min(singles, key=singles.get)
+                    brows.append(dict(sty_crown_m=cdm, sty_lai=lai_s, crown_mode=cm, lai_case=lc, s_level=sk, storm="T2-60min",
+                                      d_sty_vs_S0_m3=singles["single:Styphnolobium"],
+                                      sty_rank_of_7=1 + sum(v < singles["single:Styphnolobium"] - 0.005 for v in singles.values()),
+                                      best_single=best.split(":")[1], d_best_vs_S0_m3=singles[best], d_S1_vs_S0_m3=dd["S1"],
+                                      best_minus_S1_m3=dd["S1"] - singles[best]))
+sp.loc[STY, ["crown_diam_med", "lai_proxy_med"]] = sty0.values
+bdf = pd.DataFrame(brows)
+bdf.round(2).to_csv(DB / "runoff_sensitivity_styphnolobium.csv", index=False)
+print("\nStyphnolobium bracket, T2-60, mature, s=1.75, LAI low:")
+print(bdf[(bdf.crown_mode == "mature") & (bdf.s_level == "mid") & (bdf.lai_case == "low")]
+      [["sty_crown_m", "sty_lai", "d_sty_vs_S0_m3", "sty_rank_of_7", "best_single", "best_minus_S1_m3"]].round(1).to_string(index=False))
