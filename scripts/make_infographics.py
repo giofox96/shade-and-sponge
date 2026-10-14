@@ -254,7 +254,7 @@ def fig_gap():
 def fig_palette():
     tr = pd.read_csv(ROOT / "databases/traits/porta_trait_table.csv").set_index("species")
     palette = ["Platanus \u00d7 acerifolia", "Celtis australis", "Melia azedarach", "Pyrus calleryana",
-               "Jacaranda mimosifolia", "Tipuana tipu", "Brachychiton populneus"]
+               "Jacaranda mimosifolia", "Tipuana tipu", "Brachychiton populneus", "Styphnolobium japonicum"]
 
     def lit(s):          # 1 = numeric measured value, 0.5 = qualitative / value not yet extracted, 0 = none
         if pd.isna(s):
@@ -271,7 +271,9 @@ def fig_palette():
              ("Tipuana tipu", 4): ("c", "Tipuana: PET up to -15.6 °C in summer, but up to -2.7 °C in winter (leafed, as cited); modelled with measured under-crown radiation (Santos Nouri et al. 2018)"),
              ("Jacaranda mimosifolia", 3): ("d", "Jacaranda: 15.3% interception for a small tree, city-scale model, second-hand (Xiao & McPherson 2003, cited in Huang et al. 2017)"),
              ("Brachychiton populneus", 4): ("e", "Brachychiton, Jacaranda: water use only, second-hand (McCarthy et al. 2011 via Berland et al. 2017; Pataki et al. 2011 via Thom et al. 2022)"),
-             ("Jacaranda mimosifolia", 4): ("e", "Brachychiton, Jacaranda: water use only, second-hand (McCarthy et al. 2011 via Berland et al. 2017; Pataki et al. 2011 via Thom et al. 2022)")}
+             ("Jacaranda mimosifolia", 4): ("e", "Brachychiton, Jacaranda: water use only, second-hand (McCarthy et al. 2011 via Berland et al. 2017; Pataki et al. 2011 via Thom et al. 2022)"),
+             ("Styphnolobium japonicum", 0): ("f", "Styphnolobium: crown and LAI from only 5 LiDAR trees on one street (estimate; porta_species_lidar_summary.csv)"),
+             ("Styphnolobium japonicum", 3): ("g", "Styphnolobium: event interception 35.8% on one tree in Seoul, not a storage value (Yang et al. 2019)")}
     cx = [700, 880, 1060, 1240, 1420]
     b = "".join(para(x, 175, c, 170, 16, weight="bold", anchor="middle", fill=col)[0] for x, (c, col, _) in zip(cx, cols))
     y = 225
@@ -285,15 +287,15 @@ def fig_palette():
                 b += t(x + 22, y + 12, notes[(sp, i)][0], 16, MUTED, "bold")
         if cur:
             b += line(60, y + 62, 1540, y + 62, GRID, 2)
-        y += 56 if not cur else 70
-    b += legend_balls(60, y + 10)
-    b += "".join(t(60, y + 40 + 18 * j, f"({k}) {v}", 14, MUTED) for j, (k, v) in enumerate(dict.fromkeys(notes.values())))
-    tk, _ = para(60, y + 70 + 18 * len(set(notes.values())), "Every candidate's crown can be measured on site. Rain storage is measured for one candidate (Pyrus), "
-                              "plus Celtis through a congener; cooling values are only modelled or second-hand. The method fills the gaps "
-                              "with trait proxies and sensitivity ranges, and reports them as a finding.", 1480, 19, weight="bold")
+        y += 46 if not cur else 70
+    b += legend_balls(60, y + 16)
+    b += "".join(t(60, y + 44 + 18 * j, f"({k}) {v}", 14, MUTED) for j, (k, v) in enumerate(dict.fromkeys(notes.values())))
+    tk, _ = para(60, y + 68 + 18 * len(set(notes.values())), "Crowns are measured on site for every candidate (Styphnolobium: 5 trees). Rain storage is measured for Pyrus only, "
+                              "Celtis via a congener; cooling only modelled or second-hand. Gaps get trait proxies and sensitivity ranges.", 1480, 19, weight="bold")
     save("05_palette_data_gap", "The replacement palette: crowns we can measure, rain and cooling mostly not",
-         "Plane tree vs the six replacement species the city names (all already grow in Porta)", b + tk,
-         "databases/traits/porta_trait_table.csv (ICGC LiDAR 2021; 3TF v1.3; BROT 2.0; notes/lit/species_measurements.csv). "
+         "Plane tree vs the six replacement species the city names, plus Styphnolobium (named in the press); all grow in Porta", b + tk,
+         "databases/traits/porta_trait_table.csv (ICGC LiDAR 2021; 3TF v1.3; BROT 2.0; notes/lit/species_measurements.csv); "
+         "Styphnolobium crown from porta_species_lidar_summary.csv (n = 5; the trait table keeps n >= 10). "
          "TRY and i-Tree requests pending.")
 
 

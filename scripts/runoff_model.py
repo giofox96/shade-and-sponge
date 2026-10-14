@@ -28,7 +28,8 @@ P_ = dict(
 )
 STORMS = [(1, 60), (2, 60), (10, 60), (2, 20)]          # (return period yr, duration min)
 CANDIDATES = ["Celtis australis", "Melia azedarach", "Tipuana tipu", "Jacaranda mimosifolia",
-              "Pyrus calleryana", "Brachychiton populneus"]
+              "Pyrus calleryana", "Brachychiton populneus",
+              "Styphnolobium japonicum"]                # added 14 Oct (user); crown + LAI from only 5 LiDAR trees = estimate
 YOUNG_CROWN_M = 3.0                                      # ASSUMPTION: crown diameter of a newly planted tree
 
 o = json.load(open(EX / "site_origin.json"))
