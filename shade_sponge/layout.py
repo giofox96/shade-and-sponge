@@ -10,7 +10,8 @@ from .site import DB, rc
 from . import heat, runoff, season
 
 CITY_PALETTE = ["Celtis australis", "Melia azedarach", "Pyrus calleryana", "Jacaranda mimosifolia", "Tipuana tipu",
-                "Brachychiton populneus"]   # named by the city as plane replacements (notes/topic_decision.md §7)
+                "Brachychiton populneus",   # named by the city as plane replacements (notes/topic_decision.md §7)
+                "Styphnolobium japonicum"]  # added by the user 14 Oct (press, inventory D1); crown from only 5 LiDAR trees = estimate
 MAX_SHARE = 0.15                            # tree master plan: no species above 15% (notes/topic_decision.md §7)
 
 

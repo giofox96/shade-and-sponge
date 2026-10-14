@@ -50,11 +50,11 @@ Brachychiton populneus,leaf_habit,evergreen (Zaragoza guide; Emilia-Romagna urba
 Brachychiton populneus,leaf_out_fall_months,"no seasonal change (evergreen), all months leaf-on; see databases/traits/phenology_palette.csv",,via databases/traits/phenology_palette.csv,,"Zaragoza, ES",repo file
 Brachychiton populneus,wood_porosity,no value found in accessible sources,,,,,
 Styphnolobium japonicum,summer_LAI,"2.61 whole canopy; 5.11 central section (the authors' driver); one street tree, Sept-Oct 2018",m2/m2 (TLS),Yang et al. 2019 (matrix #5; listed as Sophora japonica),10.1007/s11355-019-00383-w,"Seoul, KR",full text (repo matrix)
-Styphnolobium japonicum,LAI_vs_LiDAR_proxy,"no LiDAR proxy (5 trees in Porta, no crown values in porta_trait_table.csv)",,comparison by this note,,,derived
+Styphnolobium japonicum,LAI_vs_LiDAR_proxy,"LiDAR proxy median 3.32 from only 5 trees, all on C/ Pollença (porta_species_lidar_summary.csv; crown diameter median 8.85 m, range 1.95-9.93 m); above the TLS whole-canopy 2.61 of one Seoul tree. n = 5: treat crown size and LAI as estimates",,comparison by this note,,Porta (LiDAR 2021),derived
 Styphnolobium japonicum,leaf_off_LAI,no value found,,,,,
 Styphnolobium japonicum,transmissivity_or_k,no value found species-specific; method default k = 0.5,,,,,
-Styphnolobium japonicum,leaf_habit,"no value found in repo sources (deciduous in general botanical knowledge, not entered here)",,,,,
-Styphnolobium japonicum,leaf_out_fall_months,no value found (not in databases/traits/phenology_palette.csv),,,,,
+Styphnolobium japonicum,leaf_habit,"winter deciduous ('Tipus de fulla: Caduca', leaf type: deciduous); mature crown 'Ampla (de 6 a 8 m de diàmetre)' (wide, 6-8 m diameter), height 'Alta (més de 15 m)' (tall, over 15 m); the Porta LiDAR median (8.85 m crown, 10.93 m height, n = 5) differs",,"Diputació de Barcelona, Verd urbà, Acàcia del Japó species sheet (https://verd-urba.diba.cat/print/318)",,Barcelona province,"web page, read 14 Oct 2026"
+Styphnolobium japonicum,leaf_out_fall_months,habit sourced; months = class default ASSUMPTION; see databases/traits/phenology_palette.csv,,via databases/traits/phenology_palette.csv,,,repo file
 Styphnolobium japonicum,wood_porosity,no value found in accessible sources,,,,,
 Citrus x aurantium,summer_LAI,no value found (genus Citrus),,,,,
 Citrus x aurantium,LAI_vs_LiDAR_proxy,no literature LAI to compare,,,,,

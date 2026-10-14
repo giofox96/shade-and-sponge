@@ -7,7 +7,7 @@ from shade_sponge.site import load_site, ROOT, DB, EX
 from shade_sponge.layout import CITY_PALETTE
 from shade_sponge import heat
 
-CAT = ["#2a78d6", "#eb6834", "#1baf7a", "#eda100", "#e87ba4", "#008300"]   # categorical slots 1-6 (dataviz palette)
+CAT = ["#2a78d6", "#eb6834", "#1baf7a", "#eda100", "#e87ba4", "#008300", "#6250d6"]   # categorical slots 1-7 (dataviz palette)
 INK, MUTED = "#0b0b0b", "#52514e"
 BAL, SUM = "S4_s0.50_w0.25_r0.25", "S4_s1.00_w0.00_r0.00"
 s = load_site("porta")

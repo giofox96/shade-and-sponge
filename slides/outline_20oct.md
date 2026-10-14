@@ -22,9 +22,9 @@
 **Say:** "Two hazards hit the same streets. Barcelona's sealed surface grew from 45 to 72 percent between 1956 and 2009. About three storms a year exceed 60 millimetres per hour in their first twenty minutes, and they flood streets where the sewer is too small. In summer, the city carries one of Europe's highest heat-island mortality burdens. Meanwhile, the tree master plan caps every species at 15 percent. Plane trees are about 29 percent of street trees, so many will be replaced, and that choice affects both hazards."
 
 ### 3. Why Porta [1:20]
-**On slide:** First of 73 neighbourhoods at every threshold · flood #13 · surface heat #11 (+1.36 °C) · heat vulnerability #12 · 832 plane trees · the six replacement species already grow there.
+**On slide:** First of 73 neighbourhoods at every threshold · flood #13 · surface heat #11 (+1.36 °C) · heat vulnerability #12 · 832 plane trees · the six named replacement species, plus *Styphnolobium*, already grow there.
 **Visual:** `notes/figures/porta_profile.png` (or `bcn_site_screening.png`).
-**Say:** "To test this I needed a neighbourhood with both hazards and many plane trees. I screened all 73 neighbourhoods with open data. To qualify, a neighbourhood had to be above the city's 60th percentile for flood hazard, surface heat and plane density at the same time. Porta, in Nou Barris, comes first at every threshold I tested. It has 832 plane trees, and the six species the city proposes as replacements already grow there. Sant Antoni floods more, but its heat is average, so it becomes my contrast site."
+**Say:** "To test this I needed a neighbourhood with both hazards and many plane trees. I screened all 73 neighbourhoods with open data. To qualify, a neighbourhood had to be above the city's 60th percentile for flood hazard, surface heat and plane density at the same time. Porta, in Nou Barris, comes first at every threshold I tested. It has 832 plane trees, and the six species the city proposes as replacements already grow there, plus Styphnolobium, a seventh candidate named in the press. Sant Antoni floods more, but its heat is average, so it becomes my contrast site."
 
 ### 4. Literature, runoff side [2:05]
 **Visual:** `slides/fig/02_runoff_evidence.png`, with `01_lit_map.png` small in a corner (or as a backup slide).
