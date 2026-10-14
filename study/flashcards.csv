@@ -1,0 +1,91 @@
+id,chapter,front,back,source
+c001,problem,Give the thesis in one sentence.,"A computational method that chooses which species replace Porta's plane trees and where, scoring each layout on pedestrian heat stress (UTCI) and event runoff volume, and showing the trade-off (Pareto front).",notes/methodology.md
+c002,problem,Why will Barcelona replace many plane trees?,"The tree master plan caps any species at 15%, and plane trees are ~29% of street trees.",notes/topic_decision.md
+c003,problem,"How much did Barcelona's sealed surface grow, and when?","From 45% to 72% of the municipality, 1956–2009.",notes/topic_decision.md
+c004,problem,How often do intense storms hit Barcelona?,About 3 storms a year exceed 60 mm/h in their first 20 minutes (Barcelona Resilience Atlas).,notes/topic_decision.md
+c005,problem,What heat-health fact frames Barcelona's heat problem?,It carries one of Europe's highest urban-heat-island mortality burdens (Iungman et al. 2023).,notes/topic_decision.md
+c006,problem,Name the six replacement species the city names.,"Celtis australis, Melia azedarach, Pyrus calleryana, Jacaranda mimosifolia, Tipuana tipu, Brachychiton populneus.",notes/topic_decision.md
+c007,problem,Which replacement species has a measured canopy-storage value?,Only Pyrus calleryana (Xiao & McPherson 2016). None of the six has a measured cooling value.,notes/topic_decision.md
+c008,problem,"Which flood type does the thesis address, and which does it exclude?","Urban pluvial flooding from frequent, short storms. It excludes river (fluvial) floods and multi-day events on saturated soil.",notes/topic_decision.md
+c009,problem,Why was Bologna dropped as a flood case?,"Its recent floods (Oct 2024, May 2023 Emilia-Romagna) were multi-day, saturated-soil or culvert events where trees have negligible influence.",notes/topic_decision.md
+c010,problem,Who is the primary user of the tool?,A computational designer working on the municipal street-tree replacement.,notes/topic_decision.md
+c011,problem,What is the risk the problem statement points to?,"Replacement choices can trade away cooling or rain interception without anyone noticing, because most replacement species have no measured storage or cooling value.",notes/topic_decision.md
+c012,site,Where is the study site and how big is it?,"Porta, Nou Barris, Barcelona; 0.84 km².",notes/site_selection.md
+c013,site,"How many plane trees in Porta, and where are most?","832 plane trees (29% of 2,825 street trees); 194 on Av. Meridiana.",notes/site_selection.md
+c014,site,What were the two steps of site selection?,"1) Eligibility: flood share, surface-heat anomaly and plane density all above the city's 60th percentile. 2) Ranking by the equal-weight mean of four normalised criteria.",notes/site_selection.md
+c015,site,What does 'non-compensatory' mean in the site selection?,A strong value on one hazard cannot make up for the absence of the other: every criterion must pass the threshold first.,notes/site_selection.md
+c016,site,How was the site choice tested for robustness?,"Thresholds at the 50th, 60th and 70th percentiles: Porta is first at every threshold. 2,000 random (Dirichlet) weightings: Porta is in the top 3 in 53% of them.",notes/site_selection.md
+c017,site,"Porta's ranks for flood, surface heat and heat vulnerability?","Flood #13, surface heat #11 (+1.36 °C), heat vulnerability #12 (91% of area in the top class).",notes/site_selection.md
+c018,site,What are the four site-selection criteria?,"Pluvial flood hazard share, summer surface-temperature anomaly (Landsat), social heat vulnerability, plane-tree density.",notes/site_selection.md
+c019,site,Why is Sant Antoni not the main site?,"It is #1 for flood but #38 for surface heat (below the city median), so it fails the both-hazards condition. It is the flood-dominant contrast site.",notes/site_selection.md
+c020,site,What is Florence's role?,Transfer test case: run the same method to see if trade-off pattern and species ranking hold.,notes/methodology.md
+c021,site,Why does it help that the replacement palette already grows in Porta?,"Real crowns, heights and LAI of each species can be measured on site from LiDAR.",notes/site_selection.md
+c022,runoff,Describe the runoff chain in the model.,Rain → canopy interception (storage bucket) over crowns on sealed ground → remaining rain → SCS curve number → event runoff volume.,notes/methodology.md
+c023,runoff,Write the interception equation.,"I = min(P, S), with S = s · LAI (P rain depth, S canopy storage in mm, s storage per unit LAI).",notes/methodology.md
+c024,runoff,What is the calibrated value of s and its source?,"s = 1.75 mm per unit LAI, calibrated on Anys & Weiler (2024) Freiburg field data: 16 urban lime and maple trees, 51 storms.",notes/methodology.md
+c025,runoff,"What is the lower bound of s in sensitivity runs, and why?","0.86 mm: surface storage only, without evaporation during events (Xiao & McPherson 2016).",notes/methodology.md
+c026,runoff,How much rain does a leafy crown hold at the start of a storm?,The first 2–4 mm (Kuehler et al. 2017).,notes/topic_decision.md
+c027,runoff,Curve numbers used for sealed and pervious surfaces?,"98 for sealed surfaces and roofs; 74 for pervious (assumption: TR-55 open space, soil group C).",notes/methodology.md
+c028,runoff,"Design storm depths (60 min) for T = 1, 2, 10 years?","19.6 mm, 31.9 mm, 62.5 mm (PDISBA city IDF).",notes/methodology.md
+c029,runoff,"Why is the metric runoff volume, not peak flow?","In a paired-catchment field study, street trees cut runoff volume ~4% with no peak-flow effect (Selbig et al. 2021).",notes/topic_decision.md
+c030,runoff,What is the field benchmark for street-tree runoff reduction?,3.5–4% of runoff volume (Coville et al. 2022; Selbig et al. 2021).,notes/methodology.md
+c031,runoff,Why does the tree effect shrink as storms grow?,"Canopy storage fills in the first few mm; the rest of a big storm passes through, so the intercepted share falls.",notes/topic_decision.md
+c032,runoff,What is the main trait driving interception?,Leaf area index (LAI) / leaf area density; storage capacity also varies threefold among 20 species (Xiao & McPherson 2016).,notes/topic_decision.md
+c033,runoff,Why are roots not in the scoring?,"Only two lab studies (Bartens 2008; Zhang 2019): roots raise infiltration, but species differences are unclear (oak vs maple not significant).",notes/topic_decision.md
+c034,runoff,Why is stemflow ignored?,It is < 1% of rain (Anys & Weiler 2024).,notes/methodology.md
+c035,runoff,What is a return period T?,The average interval between storms of that size; T = 10 yr means about a 10% chance per year.,study/guide.md
+c036,runoff,What sewer design level does Barcelona use?,A 10-year return period.,notes/city_screening.md
+c037,heat,What is UTCI?,"Universal Thermal Climate Index: the 'felt' temperature for a pedestrian, from air temperature, humidity, wind and mean radiant temperature.",notes/methodology.md
+c038,heat,Which UTCI input do trees change most?,"Mean radiant temperature (MRT), through shade.",notes/methodology.md
+c039,heat,UTCI threshold for strong heat stress?,UTCI > 32 °C.,notes/methodology.md
+c040,heat,Write the canopy transmissivity formula.,"τ = exp(−k · LAI), with k = 0.5 (Beer–Lambert).",notes/methodology.md
+c041,heat,What is Ladybug Tier 1?,"Fast point-based UTCI at 1.1 m on a 2 m sidewalk grid, used for many layouts.",notes/methodology.md
+c042,heat,Two reasons Ladybug underestimates tree cooling.,"Crowns are opaque without the τ correction (shade MRT off), and it has no evapotranspiration (~2–3 °C UTCI, Mannucci 2025).",notes/methodology.md
+c043,heat,What is Tier 2 in the heat module?,"Honeybee UTCI comfort map (Radiance + EnergyPlus) with leaf-on/off transmittance, for a few final layouts.",notes/methodology.md
+c044,heat,What is Infrared City's role?,An AI surrogate API for UTCI in seconds (tutor co-founded it); would replace Tier 1 inside the optimiser. Access still to confirm.,notes/methodology.md
+c045,heat,Why does the optimiser need a heat proxy?,"Ladybug costs minutes per layout (20–25 min for 42 trees, Shaamala 2025); 832 positions × many layouts is too slow.",notes/methodology.md
+c046,heat,"Which is the stronger air-cooling term, shade or transpiration?","Transpiration (Park 2026: 1.15 °C vs shade 0.43 °C), but it needs soil water.",slides/outline_20oct.md
+c047,heat,What happened to Platanus in an extreme heatwave?,It lost roughly 30–50% of its plant area index after > 41 °C (Sanusi & Livesley 2020) → low-LAI plane variant in sensitivity.,notes/methodology.md
+c048,tradeoff,Which traits help both heat and runoff?,LAI and crown size.,notes/topic_decision.md
+c049,tradeoff,Which traits create the heat–runoff conflict?,Leaf habit (evergreen vs deciduous) and transpiration / water demand.,notes/topic_decision.md
+c050,tradeoff,Why did the leaf-on calendar not create a trade-off?,"78% of intense storm days fall in May–Oct (Esbrí et al. 2026), when all palette species are in full leaf.",shade_sponge/README.md
+c051,tradeoff,What created the first real trade-off in tool v0?,Winter sun access: winter shade on sunlit open ground counted as a cost.,shade_sponge/README.md
+c052,tradeoff,Mnemonic for the trade-off finding?,Big crowns win both; leaves in winter split them.,study/guide.md
+c053,gap,What is the gap in one sentence?,No method selects species and positions using measured traits for both heat and runoff.,notes/topic_decision.md
+c054,gap,What is SylvCiT and what is missing?,"A trait-based AI tree recommender (Nicol et al. 2026, Montreal); its runoff module is disabled, it has no heat, and it uses diversity traits.",notes/topic_decision.md
+c055,gap,"What does Mannucci et al. 2025 do, and lack?","Grasshopper + Ladybug + Kangaroo assess UTCI and runoff, but for fixed scenarios, with no species traits and no optimisation.",notes/topic_decision.md
+c056,gap,Which works optimise trees for heat only?,Shaamala et al. 2025 and Peng et al. 2026 (Shaamala names water sensitivity as future work).,notes/topic_decision.md
+c057,gap,What is the closest precedent?,"Tan & Liu 2026: NSGA-II + Random Forest surrogate in Grasshopper, species and positions of 30 trees for UTCI, CO2 and diversity.",notes/topic_decision.md
+c058,gap,What does this thesis add to Tan & Liu 2026?,"Runoff, the city's own replacement palette, and the seasons (leaf calendar, winter sun). They used 4 Chicago species, US allometry, one summer hour.",slides/outline_20oct.md
+c059,gap,Why is the trait data gap itself a finding?,"Most of the city's replacement species have no measured storage or cooling value; the method has to fill gaps with ranges, and the gap is reported.",notes/methodology.md
+c060,rq,State the research question (short form).,"In Porta, which replacement species and positions jointly reduce UTCI (peak summer hour) and event runoff volume (1-, 2-, 10-yr storms), and how large is the trade-off vs current trees, like-for-like and single-objective layouts?",notes/topic_decision.md
+c061,rq,What is H1?,"Synergy: with the same number and size class of trees, trait-based layouts beat like-for-like replacement on both UTCI and runoff, because crown size and LAI drive both.",notes/topic_decision.md
+c062,rq,What is H2?,"Trade-off: heat-optimal and runoff-optimal layouts differ mainly in species (leaf habit, transpiration), not positions; the Pareto front is not a single point.",notes/topic_decision.md
+c063,rq,What is H3?,"Validity boundary: the runoff benefit shrinks as the return period grows; extreme events (6 Sept 2018, ≈300-yr) are outside what trees can affect.",notes/topic_decision.md
+c064,rq,Mnemonic for the three hypotheses?,"S-T-B: Synergy, Trade-off, Boundary.",study/guide.md
+c065,rq,Which comparison tests each hypothesis?,H1: S4 vs S1 on both objectives. H2: species of S2 vs S3. H3: runoff benefit vs return period.,notes/methodology.md
+c066,method,List scenarios S0–S4.,S0 current trees; S1 like-for-like palette; S2 heat-only optimum; S3 runoff-only optimum; S4 multi-objective Pareto set.,notes/methodology.md
+c067,method,Mnemonic for S0–S4?,"Now, Swap, Hot, Wet, Both.",study/guide.md
+c068,method,"Which optimiser is planned, and what does v0 use?",NSGA-II (pymoo or Wallacei); v0 uses a weighted-sum linear program (HiGHS).,notes/methodology.md
+c069,method,Optimisation constraints?,≤ 15% per species; Shannon diversity floor; no invasive or pest-host species; crown clearance from façades.,notes/methodology.md
+c070,method,"Which LiDAR, and why is its date useful?","ICGC LiDAR flown 26 Sept 2021, leaf-on, ≥ 8 pts/m², CC BY 4.0: gives tree height, crown, LAI proxy, buildings and DTM.",notes/methodology.md
+c071,method,What does topo.py do?,Priority-Flood flow routing on the DTM + buildings: water convergence and flow distance to flood hotspots.,shade_sponge/README.md
+c072,method,What does heat.py compute?,"Sun position, building shadows, elliptical shadows of ellipsoid crowns with opacity from LAI and leaf month; summer shade = benefit, winter shade = cost.",shade_sponge/README.md
+c073,method,What does season.py add?,"A leaf-on calendar per species and storm months, so runoff is an expected value over the storm season.",shade_sponge/README.md
+c074,method,Rule for every parameter in tool code?,It is either sourced (cited) or marked ASSUMPTION.,CLAUDE.md
+c075,method,Name three ASSUMPTION parameters in the tool.,"CAPTURE_M = 100 m (flow path to hotspot), OP_BARE = 0.35 (leafless crown opacity), R_OFF = 0.5 (leaf-off LAI ratio).",shade_sponge/README.md
+c076,method,What are the two front-ends of the tool?,"Grasshopper (primary, computational designer, with Ladybug) and a later web app for non-technical users using the fast heat proxy.",CLAUDE.md
+c077,method,How are species without measurements handled?,Genus or leaf-habit class values with a range; every result re-run at the low and high end (sensitivity).,notes/methodology.md
+c078,results,How much do Porta's current street trees cut runoff (T2-60)?,1.85% of total runoff (2.9% on open space); range 0.4–4.0% across s and T.,notes/methodology.md
+c079,results,What happens to runoff during the transition to young trees?,Any young replacement ≈ +0.7% runoff ≈ 37% (more than a third) of the current street-tree benefit lost.,notes/methodology.md
+c080,results,What did Cortinovis et al. 2022 find for Barcelona?,"20,170 new street trees raised runoff retention only from 50.18% to 50.76% for a 20 mm event (city-wide, trees as land cover).",notes/methodology.md
+c081,results,"Optimised vs random palette, summer shade (tool v0)?",+14% summer shade; robust across 7 sensitivity variants.,shade_sponge/README.md
+c082,results,What is the no-regret swap?,"Summer-only → balanced layout: ~100 Tipuana swapped for Jacaranda, same summer shade, 9% less winter shade.",shade_sponge/README.md
+c083,results,How does placement follow the buildings?,Winter-bare Jacaranda goes to positions sunny in winter; winter-leafed species go where buildings already shade the street.,shade_sponge/README.md
+c084,results,Did any replacement layout reach S0?,No: mature planes still give more shade than any replacement layout.,shade_sponge/README.md
+c085,results,Open problem found in tool v0?,Hotspot runoff does not follow the runoff weight; the per-position water potential predicts it poorly.,shade_sponge/README.md
+c086,limits,Name four limits to state openly.,"Flood index not depth; LiDAR LAI proxy probably low; same s for all species; volume only (no sewer, routing to outlets or ponding). Also: airport EPW, no night effects.",notes/methodology.md
+c087,limits,Which TRL and innovation type should you claim?,TRL 3 (experimental proof of concept on Porta); process innovation delivered as a tool.,notes/research_method_guidelines.md
+c088,limits,What is missing according to the seminar checklist?,"Stakeholder validation (interviews, user walkthrough), an actor map, and naming innovation type and TRL.",notes/research_method_guidelines.md
+c089,limits,Answer: 'Is a 2% effect worth a thesis?',"The thesis is the method and the trade-off, not a big runoff number; H3 states the limit openly, and the heat side may dominate.",slides/outline_20oct.md
+c090,limits,Answer: 'What if the scope is too narrow?',"Widen the tree into a system: add the tree pit as one design variable; soil as 2–3 literature options; carbon reported, not optimised.",slides/outline_20oct.md

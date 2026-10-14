@@ -1,0 +1,35 @@
+id,chapter,question,a,b,c,d,answer,explanation
+q001,problem,Why will many of Barcelona's plane trees be replaced?,The master plan caps any species at 15%,Plane trees are invasive,A pest outbreak kills them,They block flood flows,a,Planes are ~29% of street trees; the cap is 15% per species.
+q002,problem,Which flood type does the thesis address?,River (fluvial) floods,Pluvial floods from frequent short storms,Multi-day saturated-soil events,Coastal storm surge,b,"Trees only matter for frequent, short pluvial storms on sealed surfaces."
+q003,problem,Which replacement species has a measured canopy-storage value in the reviewed literature?,Celtis australis,Jacaranda mimosifolia,Pyrus calleryana,Tipuana tipu,c,Only Pyrus calleryana (Xiao & McPherson 2016); none has a measured cooling value.
+q004,problem,Barcelona's sealed surface grew from … to … (1956–2009),30% → 55%,45% → 72%,60% → 85%,45% → 60%,b,45% to 72% of the municipality.
+q005,site,Why is the site selection called non-compensatory?,Weights are all equal,Every criterion must pass a threshold before ranking,Only one criterion is used,It ignores social vulnerability,b,A strong flood value cannot make up for missing heat.
+q006,site,What is the eligibility threshold in the main site-selection run?,50th percentile,60th percentile,70th percentile,90th percentile,b,"60th; tested also at 50th and 70th, Porta first each time."
+q007,site,Why is Sant Antoni the contrast site?,It has no plane trees,It is #1 for flood but below median for heat,It is outside Barcelona,It has no LiDAR,b,#38 for surface heat → fails the both-hazards rule.
+q008,site,How many plane trees are in Porta?,194,296,832,"2,825",c,"832 (29%); 194 on Av. Meridiana; 2,825 street trees in total."
+q009,runoff,"In the storage bucket model, interception I equals …",P × S,"min(P, S)","max(P, S)",S − P,b,"I = min(P, S), S = s · LAI."
+q010,runoff,The calibrated storage per unit LAI is …,0.25 mm,0.86 mm,1.75 mm,4.0 mm,c,"1.75 mm per unit LAI, calibrated on Anys & Weiler (2024)."
+q011,runoff,Why runoff volume instead of peak flow?,Peak flow needs no data,Field data show trees cut volume ~4% but not peak flow,Volume is always larger,The tutor asked for it,b,Selbig et al. 2021 paired-catchment study.
+q012,runoff,Curve number used for sealed surfaces?,74,85,98,100,c,98 sealed and roofs; 74 pervious (assumption).
+q013,runoff,"Design storm depth for T = 2 yr, 60 min (PDISBA)?",19.6 mm,31.9 mm,62.5 mm,21.2 mm,b,"T1 19.6, T2 31.9, T10 62.5 mm; T2-20 min is 21.2 mm."
+q014,runoff,Why does the tree benefit shrink with the return period?,Trees lose leaves in big storms,Canopy storage fills in the first few mm,Sewers work better in big storms,SCS-CN is not valid for big storms,b,Crowns hold the first 2–4 mm; the rest passes through.
+q015,runoff,Why are roots left out of the species score?,Roots do not affect infiltration,Only two lab studies; species differences unclear,They are too deep to model,LiDAR cannot see them,b,"Bartens 2008 and Zhang 2019: roots help, species effect unclear."
+q016,heat,Canopy transmissivity in the method is …,τ = 1 − LAI,τ = exp(−0.5 · LAI),τ = 0.5 · LAI,τ = exp(LAI),b,Beer–Lambert with k = 0.5 (Peng et al. 2026).
+q017,heat,Which UTCI input do trees change most?,Air humidity,Wind speed,Mean radiant temperature,Air pressure,c,Shade lowers MRT.
+q018,heat,Strong heat stress starts at UTCI above …,26 °C,32 °C,38 °C,46 °C,b,> 32 °C (Bröde et al. 2012).
+q019,heat,Why a heat proxy inside the optimiser?,Ladybug is inaccurate,Ladybug costs minutes per layout,UTCI is not defined at night,The tutor forbids Ladybug,b,20–25 min per layout for 42 trees (Shaamala 2025).
+q020,heat,Which air-cooling effect is larger (Park 2026)?,Shade,Transpiration,Albedo,Wind,b,1.15 °C vs 0.43 °C; transpiration needs soil water.
+q021,tradeoff,Which traits help BOTH objectives?,Leaf habit and wood anatomy,LAI and crown size,Root depth and seed size,Flower colour and bark,b,"Big, dense crowns shade and intercept."
+q022,tradeoff,What first created a real trade-off in tool v0?,Adding the leaf-on calendar,Winter sun access as a cost,Adding roots,Changing the storm depth,b,"78% of storm days are in May–Oct, so the calendar alone did not split the objectives."
+q023,gap,Closest precedent to this thesis?,SylvCiT (Nicol 2026),Tan & Liu 2026,Cortinovis 2022,Pacetti 2022,b,"Species + positions, NSGA-II + surrogate, UTCI/CO2/diversity, no runoff."
+q024,gap,What is missing in SylvCiT?,Any trait data,The runoff module (disabled) and heat,A user interface,Open-source licence,b,Runoff slider disabled; no heat; Montreal only.
+q025,gap,"Mannucci et al. 2025 assess UTCI and runoff, but …",only in Florence,"with fixed scenarios, no species traits, no optimisation",without Grasshopper,only at night,b,"Scenario testing, not optimisation."
+q026,rq,H2 states that heat- and runoff-optimal layouts differ mainly in …,positions,species,number of trees,tree age,b,Leaf habit and transpiration → the Pareto front is not a point.
+q027,rq,Which comparison tests H1?,S2 vs S3,S4 vs S1,S0 vs S0,T1 vs T10,b,Trait-based (S4) vs like-for-like (S1) on both objectives.
+q028,method,S1 is …,Current trees,Like-for-like replacement with the city palette,Heat-only optimum,Runoff-only optimum,b,"Now, Swap, Hot, Wet, Both."
+q029,method,Which is NOT an optimisation constraint?,≤ 15% per species,Shannon diversity floor,Minimum flower count,Façade clearance,c,"Constraints: cap, diversity floor, no invasive/pest hosts, clearance."
+q030,method,What does topo.py add?,Sun position,DTM flow routing to flood hotspots,Leaf calendar,Species palette,b,"Priority-Flood routing → water convergence, distance to hotspots."
+q031,results,Runoff cut by Porta's current street trees at T2-60?,0.2%,1.85%,10%,25%,b,"1.85% total, 2.9% open space; field benchmark 3.5–4%."
+q032,results,Benefit lost when planes are replaced by young trees?,≈ 5%,≈ 37%,≈ 75%,None,b,"≈ +0.7% runoff, more than a third of the current benefit."
+q033,results,The no-regret swap is …,Planes → Celtis,Tipuana → Jacaranda,Melia → Pyrus,Brachychiton → Tipuana,b,"Same summer shade, 9% less winter shade."
+q034,limits,Which TRL should the thesis claim?,TRL 1,TRL 3,TRL 6,TRL 9,b,Experimental proof of concept on Porta; TRL 4 needs validation against measured data.
