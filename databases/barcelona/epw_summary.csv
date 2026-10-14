@@ -1,0 +1,4 @@
+epw_file,source_period,lat,lon,elevation_m,n_hours,missing_Ta,missing_RH,missing_wind_speed,missing_wind_dir,calm_hours_dir0_speed0,ws_mean,ws_median,ws_p10,ws_max,summer_Ta_mean,summer_Ta_max,summer_RH_mean,summer_ws_mean,summer_ws_p10_1217h,ddy_cooling04_Tmax,ddy_cooling04_wind10m
+ESP_CT_Barcelona-El.Prat.AP.081810_TMYx.2009-2023.epw,2009-2023,41.2928,2.07,5.0,8760,0,0,0,0,0,4.15,4.1,1.5,15.9,24.82,33.0,71.6,3.7,3.6,31.3,4.8
+ESP_CT_Barcelona-El.Prat.AP.081810_TMYx.2011-2025.epw,2011-2025,41.2928,2.07,5.0,8760,0,0,0,0,0,4.16,4.1,1.5,15.9,25.2,33.0,70.1,3.94,3.6,31.3,4.8
+ESP_CT_Barcelona.081800_TMYx.2011-2025.epw,2017-2025,41.417,2.133,176.0,8760,0,0,0,0,0,2.98,2.6,1.0,17.3,24.5,29.7,74.6,3.18,2.7,,

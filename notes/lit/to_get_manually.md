@@ -4,6 +4,23 @@ Paywalled, or no open-access PDF found by the search. Get them through Zotero / 
 
 **Status 9 Oct 2026:** 45 of 96 obtained and read in full, plus Santos Nouri 2018 (added by hand); 51 of the list still to get. **12 Oct:** 28 more were obtained and read in full the same day (now in section 3, matrix rows 82-84 and 104-128); Langenheim #86 and Schrodi #87 were also read in full; none left to get (Zaman dropped, section 2). Years in the entries are the search's (often online) years; the matrix uses the issue year (e.g. Zölch 2019, Cortinovis 2022, Marrazzo 2025).
 
+## 0. Carries PS / H / validation (10 Oct 2026, issue #5)
+
+Papers whose numbers sit under the problem statement, a hypothesis or a validation claim. Table and figure names are the content needed; page numbers are not known unless stated. Already read in full and therefore not listed: Xiao & McPherson 2016 (Table 4 storage), Baptista 2018, Silva 2025, Mannucci 2025, Shaamala 2025, Peng 2026, Wu 2024.
+
+**14 Oct (merge with main):** rows 4, 34, 38 and 39 were abstract-only when this block was written (10 Oct); main read them in full on 12 Oct, so only the extraction check remains.
+
+| Matrix # | Paper | Carries | Exact item to extract |
+|---|---|---|---|
+| 4 | Dowtin 2023 (full text 12 Oct; check whether the item is captured in the matrix) | H1 mechanism (which traits cut runoff) | Table of physical tree traits vs runoff effect (LAI, bark storage, stemflow funnelling) with the quantitative ranges per trait; the summary of whether canopy or root traits dominate |
+| 9 | Kuehler, Hathaway & Tirpak 2017 (accepted manuscript only) | S range and "first 2-4 mm" in methodology 4b | Published-version table of leaf storage per unit leaf area (0.03-2.24 mm) with the source study per row; check the 2-4 mm statement against the published text |
+| 10 | Selbig 2021 (full text 9 Oct) | Validation anchor: 3.5-4% runoff effect | Table of event depth bins with runoff change and p-values; confirm the +198 m3 / 4% arithmetic against the original table |
+| 34 | de Mello 2024 (full text 12 Oct; check whether the item is captured in the matrix) | Figure 2 global median 23.9% line | Table of interception by species and forest type, to see if any Mediterranean deciduous or evergreen broadleaf class exists |
+| 38 | Rahman 2019 (full text 12 Oct; check whether the item is captured in the matrix) | Trait claim "canopy density most influential" (heat) | Meta-analysis table of effect size per trait and per climate zone (Mediterranean rows) |
+| 39 | Speak 2020 (full text 12 Oct; check whether the item is captured in the matrix) | Trait claim "LAI and crown width most important for shade" | Table or figure of correlation between shade-cooling and each trait, plus the species list |
+| none | Llorens & Domingo 2007 (10.1016/j.jhydrol.2006.10.032) | Interception percentages and S and E/R for Mediterranean species; candidate for the Mediterranean evergreen and Citrus taxa | Table of species vs interception %, S, p, E/R. Note: section 3 below ticks Llorens as read, but there is no matrix row and no E/R value was captured; re-check or add the row |
+| 33 | Huang 2017 (full text, value not captured) | Gash E_c/R input for runoff v2 | The table of E/R and S, p, LAI per species (white oak, Norway maple, green ash, Prunus) |
+
 ## 1. Get these first (6)
 Dowtin, Hassan, de Mello, Rahman 2019, Speak and Kaluarachchi carry claims that the slides, figures or notes took from abstracts only. **12 Oct: all read in full (Speak added and read the same day).**
 
@@ -116,3 +133,18 @@ Duplicate PDFs in `papers/`: the three exact copies (`Increase and Spatial Varia
 - [x] [new, 11 Oct] Dong, Ye, Su, Haase & Lausch (2026). Optimizing urban tree species composition to maximize nature-based solutions. npj Urban Sustain. 6:47. https://doi.org/10.1038/s42949-026-00361-w (matrix #85, read in full from the open PDF at https://edoc.hu-berlin.de/18452/37591; **PDF and supplement in papers/ (supplement read 13 Oct):** the supplement has only Tables 1-3 (data sources, Landsat dates, 30-species shares); there is no Table 4, and per-species i-Tree values appear in main-text Fig. 2 and, for a few species, in the text; closest species-level heat-proxy + runoff precedent)
 - [x] [new, 11 Oct] Langenheim & White (2022). Green infrastructure and urban-renewal simulation for street tree design decision-making. https://doi.org/10.3390/ijerph19138220 (matrix #86, full text (12 Oct))
 - [x] [new, 11 Oct] Schrodi et al. (2023). Climate-sensitive urban planning through optimization of tree placements. https://arxiv.org/abs/2310.05691 (matrix #87, full text (12 Oct); heat only)
+
+## Heat validation (issue #8, 14 Oct)
+Needed for `notes/method_heat_validation.md`. Not obtained; all three are read at abstract or search-summary level only.
+- [ ] [T1] Lopez-Cabeza, Videras-Rodriguez, Gomez-Melgar & Andujar-Marquez (2025). Methodology for the use of aerial thermography as a validation method for outdoor thermal comfort simulations. Energy Convers. Manag. X 28:101257. https://doi.org/10.1016/j.ecmx.2025.101257 (matrix #133, (abs); open access in the Huelva repository, handle 10272/27387; needed: the error table of Ladybug longwave MRT after calibration)
+- [ ] [T1] Lindberg & Grimmond (2011). The influence of vegetation and building morphology on shadow patterns and mean radiant temperatures in urban areas: model development and evaluation. Theor. Appl. Climatol. 105:311-323. https://doi.org/10.1007/s00704-010-0382-8 (not in matrix; needed: Goteborg evaluation RMSE and the vegetation transmissivity scheme)
+- [ ] [T2] Segura Barrero et al. (2022). How do street trees affect urban temperatures and radiation exchange? Urban Clim. 46:101288. https://doi.org/10.1016/j.uclim.2022.101288 (matrix #132, (abs); needed: data availability statement)
+- [ ] [T2] Ibrahim, Kershaw & Shepherd (2020). A methodology for modelling microclimates: a Ladybug-tools and ENVI-met verification study. PLEA 2020, pp. 1035-1040 (matrix #131, (abs); no DOI found; the BSO 2020 sister paper is #130, read in full)
+
+
+## Palette canopy parameters (issue #4, 9 Oct)
+
+- [T1] Astrid Moser-Reischl (2025). Spatial and temporal dynamics of the leaf area index (LAI) of selected tree species in urban environments (species LAI and leaf-off values; check for palette genera). https://doi.org/10.1016/j.ufug.2025.128795
+- [T1] Loyde Vieira de Abreu-Harbich (2015). Effect of tree planting design and tree species on human thermal comfort in the tropics (Tipuana, Jacaranda values). https://doi.org/10.1016/j.landurbplan.2015.02.008
+- [T2] Masami Monsi (2005). On the Factor Light in Plant Communities and its Importance for Matter Production (English translation of Monsi & Saeki 1953). https://doi.org/10.1093/aob/mci052
+- [T2] Loyde Vieira de Abreu-Harbich (2012). Reduction of Mean Radiant Temperature by Cluster of Trees in Urban and Architectural Planning in Tropical Climates (no DOI found; venue unknown; search by title / OpenAlex W2184273084)
