@@ -1,5 +1,6 @@
 species,parameter,value_or_range,unit,source,DOI,region,read_level
 Platanus x acerifolia,summer_LAI,3.02,m2/m2 (one-sided),"Baptista et al. 2018 (matrix #6); 12 juvenile potted trees 2.7 m, handheld TLS",10.1002/hyp.13255,"Melbourne, AU",full text (repo matrix)
+Platanus x acerifolia,summer_LAI,2.8 +- 0.4 (n 17),m2/m2,"Kaluarachchi et al. 2020 (matrix #45; CI-110 canopy imager, free-standing trees, Greater Sydney)",10.3390/f11111141,"Greater Sydney, AU","full text (repo matrix, added on main 12 Oct)"
 Platanus x acerifolia,LAI_vs_LiDAR_proxy,literature value is above the LiDAR proxy median (lidar_lai_proxy_med in porta_trait_table.csv); not comparable: juvenile potted trees vs mature street trees,,comparison by this note,,,derived
 Platanus x acerifolia,leaf_off_LAI,"no value found for the species (Baptista report -90% storage when defoliated, not an LAI); deciduous class value 0.3-0.5 BAI/LAI see class rows",,Baptista 2018 (#6); Moser-Reischl 2025,10.1002/hyp.13255,"Melbourne, AU",full text (repo matrix)
 Platanus x acerifolia,transmissivity_or_k,no value found species-specific; method default k = 0.5 (Peng 2026 #53),,methodology.md section 3,10.1007/s10980-026-02324-z,"Shanghai, CN (camphor)",full text (repo matrix)
@@ -20,14 +21,14 @@ Melia azedarach,transmissivity_or_k,no value found species-specific; method defa
 Melia azedarach,leaf_habit,deciduous,,Pontevedra species sheet via databases/traits/phenology_palette.csv,,"Galicia, ES",repo file
 Melia azedarach,leaf_out_fall_months,habit sourced; months = class default ASSUMPTION; see databases/traits/phenology_palette.csv,,via databases/traits/phenology_palette.csv,,,repo file
 Melia azedarach,wood_porosity,no value found in accessible sources,,,,,
-Pyrus calleryana,summer_LAI,"no value found extracted; Armson et al. 2013 measured LAI per species and relate it to cooling (abstract: Pyrus among the higher-LAI species), numbers need the PDF",,Armson et al. 2013 (matrix #62),10.48044/jauf.2013.021,"Manchester, UK",abstract (abs)
+Pyrus calleryana,summer_LAI,2.6 +- 0.8 (n 46),m2/m2,"Kaluarachchi et al. 2020 (matrix #45; CI-110 canopy imager, free-standing trees, Greater Sydney)",10.3390/f11111141,"Greater Sydney, AU","full text (repo matrix, added on main 12 Oct)"
 Pyrus calleryana,LAI_vs_LiDAR_proxy,cannot compare until Armson PDF is read,,,,,
 Pyrus calleryana,leaf_off_LAI,"no value found; winter (leafless) interception 15% of winter rain for a 9-yr Bradford pear (Xiao et al. 2000, second-hand via Kuehler 2017)",,species_measurements.csv,,"Davis, US",secondary
 Pyrus calleryana,transmissivity_or_k,no value found species-specific; method default k = 0.5,,,,,
 Pyrus calleryana,leaf_habit,deciduous,,Trees and Shrubs Online (IDS) via databases/traits/phenology_palette.csv,,,repo file
 Pyrus calleryana,leaf_out_fall_months,habit sourced; months = class default ASSUMPTION; see databases/traits/phenology_palette.csv,,via databases/traits/phenology_palette.csv,,,repo file
 Pyrus calleryana,wood_porosity,no value found in accessible sources,,,,,
-Jacaranda mimosifolia,summer_LAI,no value found,,,,,
+Jacaranda mimosifolia,summer_LAI,2.0 +- 0.6 (n 40),m2/m2,"Kaluarachchi et al. 2020 (matrix #45; CI-110 canopy imager, free-standing trees, Greater Sydney)",10.3390/f11111141,"Greater Sydney, AU","full text (repo matrix, added on main 12 Oct)"
 Jacaranda mimosifolia,LAI_vs_LiDAR_proxy,"no literature LAI; the LiDAR proxy is the highest of the palette (lidar_lai_proxy_med), which is unusual for a fine-leaved compound crown: check the proxy",,comparison by this note,,,derived
 Jacaranda mimosifolia,leaf_off_LAI,no value found; habit uncertain (see leaf_habit),,,,,
 Jacaranda mimosifolia,transmissivity_or_k,no value found species-specific; method default k = 0.5,,,,,
@@ -36,9 +37,9 @@ Jacaranda mimosifolia,leaf_out_fall_months,"leaf fall mid-December, first leaves
 Jacaranda mimosifolia,wood_porosity,no value found in accessible sources,,,,,
 Tipuana tipu,summer_LAI,no value found,,,,,
 Tipuana tipu,LAI_vs_LiDAR_proxy,no literature LAI to compare,,,,,
-Tipuana tipu,leaf_off_LAI,"no value found; keeps foliage in winter, so PET is still reduced by up to 2.7 C (a winter cost) vs 15.6 C in summer (modelled)",,Santos Nouri et al. 2018 (matrix #64),10.3390/atmos9010012,"Lisbon, PT",search summary 🟡
+Tipuana tipu,leaf_off_LAI,"no value found; keeps foliage in winter, so PET is still reduced by up to 2.7 C (a winter cost) vs 15.6 C in summer (modelled)",,Santos Nouri et al. 2018 (matrix #81),10.3390/atmos9010012,"Lisbon, PT",full text (repo matrix #81)
 Tipuana tipu,transmissivity_or_k,no value found species-specific; method default k = 0.5,,,,,
-Tipuana tipu,leaf_habit,UNCERTAIN: semi-deciduous (Santos Nouri 2018; Herbari Virtual del Mediterrani Occidental); a UPC tree guide lists deciduous,,Santos Nouri 2018 via search summary; databases/traits/phenology_palette.csv,10.3390/atmos9010012,Lisbon / Balearics,search summary 🟡
+Tipuana tipu,leaf_habit,UNCERTAIN: semi-deciduous (Santos Nouri 2018; Herbari Virtual del Mediterrani Occidental); a UPC tree guide lists deciduous,,Santos Nouri 2018 (matrix #81); Herbari Virtual del Mediterrani Occidental; databases/traits/phenology_palette.csv,10.3390/atmos9010012,Lisbon / Balearics,full text for Santos Nouri (#81); search summary 🟡 for the Herbari and UPC guide
 Tipuana tipu,leaf_out_fall_months,leaf drop at the start of spring (Betevé 2020); length of the Mar-Apr drop = ASSUMPTION; see databases/traits/phenology_palette.csv,,"Betevé, Cascante, Mar 2020 via databases/traits/phenology_palette.csv",,Barcelona,repo file
 Tipuana tipu,wood_porosity,no value found in accessible sources,,,,,
 Brachychiton populneus,summer_LAI,no value found,,,,,
@@ -97,6 +98,6 @@ Populus nigra,transmissivity_or_k,no value found; method default k = 0.5,,,,,
 Populus nigra,leaf_habit,no value found (BROT phenology field blank; leaf lifespan 7.37 months in porta_trait_table.csv suggests a deciduous habit but is not a habit label),,BROT 2.0 (repo trait table),,,repo file
 Populus nigra,leaf_out_fall_months,no value found,,,,,
 Populus nigra,wood_porosity,no value found in accessible sources (TRY request pending),,,,,
-CLASS deciduous broadleaf,summer_LAI,"1.98-4.71 (n = 9 species, measured, single trees or juveniles): Platanus 3.02, Ulmus procera 4.71, Betula pendula 2.6, Ginkgo 1.98, Zelkova 3.28, Aesculus turbinata 3.37, Styphnolobium 2.61 (full text); Tilia cordata max 4.7, Gleditsia max 2.4 (abs)",m2/m2,Baptista 2018 (#6); Zabret & Sraj 2019 (#7); Yang 2019 (#5); Moser-Reischl 2025 (#66),10.1002/hyp.13255; 10.1002/clen.201800327; 10.1007/s11355-019-00383-w; 10.1016/j.ufug.2025.128795,Melbourne; Ljubljana; Seoul; Germany,mixed: full text and abstract
-CLASS deciduous broadleaf,leaf_off_LAI,"0.8 (Betula pendula, leafless, Ljubljana, full text); 0.5 branch area index in autumn / winter (0.3 in spring; abstract only)",m2/m2,Zabret & Sraj 2019 (#7); Moser-Reischl 2025 (#66),10.1002/clen.201800327; 10.1016/j.ufug.2025.128795,Ljubljana; Germany,mixed: full text and abstract
+CLASS deciduous broadleaf,summer_LAI,"1.98-4.71 (n = 9 species, measured, single trees or juveniles): Platanus 3.02, Ulmus procera 4.71, Betula pendula 2.6, Ginkgo 1.98, Zelkova 3.28, Aesculus turbinata 3.37, Styphnolobium 2.61 (full text); Tilia cordata max 4.7, Gleditsia max 2.4 (abs)",m2/m2,Baptista 2018 (#6); Zabret & Sraj 2019 (#7); Yang 2019 (#5); Moser-Reischl 2025 (#138),10.1002/hyp.13255; 10.1002/clen.201800327; 10.1007/s11355-019-00383-w; 10.1016/j.ufug.2025.128795,Melbourne; Ljubljana; Seoul; Germany,mixed: full text and abstract
+CLASS deciduous broadleaf,leaf_off_LAI,"0.8 (Betula pendula, leafless, Ljubljana, full text); 0.5 branch area index in autumn / winter (0.3 in spring; abstract only)",m2/m2,Zabret & Sraj 2019 (#7); Moser-Reischl 2025 (#138),10.1002/clen.201800327; 10.1016/j.ufug.2025.128795,Ljubljana; Germany,mixed: full text and abstract
 CLASS all,transmissivity_or_k,"k = 0.5 (Peng 2026, Beer-Lambert on LAI); k range 0.44 (leaf angle 90 deg) to 1 (horizontal leaves) in the original theory; measured crown transmissivity 9.4-30.1% across six trees in a tropical park (species not identified)",dimensionless,"Peng et al. 2026 (#53); Monsi & Saeki 2005 (translation of 1953); Acero et al. 2025 (title only from search, DOI not found)",10.1007/s10980-026-02324-z; 10.1093/aob/mci052,Shanghai; Japan (original); tropical urban park (location not verified),full text for Peng; search summary 🟡 for the others

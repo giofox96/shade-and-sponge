@@ -35,7 +35,7 @@ The thesis tests one tree-planting method against **two hazards at once**: pedes
 - Spatial pattern (`notes/figures/porta_profile.png`): the highest flood-hazard band runs along the eastern edge (Av. Meridiana), which is also the main plane-tree corridor. Surface-heat hotspots are in the north-east and south-centre.
 
 ## 6. Limits to state openly
-- The flood indicator is a hazard **index**, not water depth. RESCCUE depth maps (1-, 10-, 100-yr) exist but are behind the city login: request them via the tutor.
+- The flood indicator is a hazard **index**, not water depth. RESCCUE depth maps (T10, T100) are readable from the atlas's public CARTO account (`rcc_iu1_*`, see `databases/data_inventory_barcelona.md` B1).
 - Surface temperature ≠ pedestrian UTCI. It is a satellite reading at ~10:30 and includes treetops. UTCI will be computed in the method (Infrared City / Ladybug).
 - The heat-vulnerability layer dates from 2015.
 - The thresholds and equal weights are choices. The sensitivity tests above show that the selection does not depend on them.

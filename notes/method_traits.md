@@ -2,6 +2,8 @@
 
 Draft, 9 Oct 2026. Data: `notes/lit/species_canopy_params.csv` (101 rows: 8 palette species, 6 optional taxa, 3 class rows). LiDAR and BROT values are in `databases/traits/porta_trait_table.csv` and are referenced, not copied. Leaf-on calendar: `databases/traits/phenology_palette.csv`. Marks: (abs) = abstract only; 🟡 = from a web-search summary, not the paper.
 
+> **Update 14 Oct (merge with main):** main now holds, in full text, Santos Nouri 2018 (#81: modelled with SkyHelios + RayMan, crown transmissivity from radiation measured under the crowns, so "simulated" stands but is no longer 🟡) and Kaluarachchi 2020 (#45: field LAI Platanus 2.8 ± 0.4, Pyrus 2.6 ± 0.8, Jacaranda 2.0 ± 0.6, Greater Sydney). `species_canopy_params.csv` is updated; the coverage counts and "no LAI" statements below predate this and undercount summer LAI (now 5 of 8 palette species).
+
 ## 1. Monsi & Saeki citation (for methodology §3, "to add")
 
 - Original: Monsi, M. & Saeki, T. (1953). Über den Lichtfaktor in den Pflanzengesellschaften und seine Bedeutung für die Stoffproduktion. *Japanese Journal of Botany* 14: 22-52. **No DOI exists for the original**; the page numbers come from a reference list that cites it, not from the journal record 🟡.
