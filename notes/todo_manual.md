@@ -10,7 +10,8 @@
 ### Requests that take time: send them first
 - [ ] **TRY data request** (try-db.org): the 21 species in `databases/traits/porta_trait_table.csv`. Ask for leaf phenology type, leaf area, wood vessel anatomy (ring- or diffuse-porous) and leaf wettability / water storage. Save the reply in `databases/TRY_DATABASE/` (git ignores it). Approval can take weeks, so nothing waits on it.
 - [ ] **Email the tutor** (one email, or bring it to the meeting):
-  - [ ] RESCCUE / Barcelona Regional **flood depth maps** (T = 1, 10, 100 yr) as GIS layers. The viewer needs a city login, which I can't and shouldn't use.
+  - [x] RESCCUE **flood depth maps**: found on 13 Oct as public tables (T10, T100, present/future) in the atlas's CARTO account, no login needed (`databases/data_inventory_barcelona.md` B1). Still worth asking: licence for thesis use, and whether a T = 1 yr run exists.
+  - [x] **Sent 13 Oct: RESCCUE licence email** to br@bcnregional.com; reminder by ~23 Oct if no reply (text and steps: `notes/resccue_data_request.md`).
   - [ ] **Infrared City access**, plus three questions: (a) how are trees represented: geometry only, or porosity/LAI per species? (b) API limits for thousands of runs; (c) published validation against ENVI-met or Ladybug.
   - [ ] Confirm the **final delivery date** (18 Dec?), and whether **Grasshopper integration** is required by the programme.
   - [ ] Slide format for the 5-min talk (Google Slides assumed).
@@ -24,7 +25,7 @@ These carry the gap and evidence slides. **First, the backup slide on tree pits*
 
 Then the gap and evidence papers:
 - [x] Mannucci 2025, Shaamala 2025, Peng 2026, Wu 2024, Xiao & McPherson 2016, Baptista 2018, Silva 2025: read in full on 8 Oct. The gap holds. Wu 2024 does heat + runoff, but with surface temperature, by scenario, without species and without optimisation.
-- [x] 16 more papers read in full on 8 Oct: Yang, Llorens & Domingo, Zabret & Sraj, Coville, Kuehler, Huang, Zhang, Marrazzo & Raimondi, Song, Liu, Berland, Bruner, Yadav, Wang, Quagliolo, Cremonini. Three PDFs in `papers/` are exact duplicates and can be deleted: `Increase and Spatial Variation in Soil Infiltration.pdf`, `Variation in leaf area density drives the rainfall storage capacity of individual urban.pdf` (= Baptista 2018), `Surface Water Storage Capacity of Twenty Tree Species in davis california.pdf` (= Xiao 2016).
+- [x] 16 more papers read in full on 8 Oct: Yang, Llorens & Domingo, Zabret & Sraj, Coville, Kuehler, Huang, Zhang, Marrazzo & Raimondi, Song, Liu, Berland, Bruner, Yadav, Wang, Quagliolo, Cremonini. Three PDFs in `papers/` were exact duplicates (deleted 12 Oct): `Increase and Spatial Variation in Soil Infiltration.pdf`, `Variation in leaf area density drives the rainfall storage capacity of individual urban.pdf` (= Baptista 2018), `Surface Water Storage Capacity of Twenty Tree Species in davis california.pdf` (= Xiao 2016).
 - [x] 15 more papers read in full on 9 Oct (Hao 2023, Elkhateeb 2025, Oneto 2026, Zölch 2019, Sanusi & Livesley 2020, Huang 2022, Rochette Cordeiro 2026, Cortinovis 2022, Livesley 2016, Rombeek 2025, Axelsson 2020, Morabito 2016, Esposito 2024, Campanale 2025, Petralli 2006). The gap holds: the new optimisers are heat-only. `to_get_manually.md` now lists what is still missing, the ones that matter first at the top. Livesley 2016 is in `papers/` twice (same paper, two different downloads), also listed there.
 - [x] **Tan & Liu 2026**: read in full on 9 Oct. Closest precedent (species + positions for UTCI, CO2, diversity), but no runoff: the gap holds.
 - [x] Selbig et al. 2021 (issue 2022): read in full on 9 Oct. 4% of runoff and no peak-flow change confirmed.

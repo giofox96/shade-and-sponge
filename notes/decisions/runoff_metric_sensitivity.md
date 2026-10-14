@@ -1,6 +1,6 @@
 # Can design-storm runoff tell street-tree species palettes apart? An exploratory bracket (issue #2)
 
-Status: **PENDING USER DECISION. Exploratory bracket, not a result.** Nothing here changes `topic_decision.md` (PS/RQ/H), `methodology.md` or `scripts/runoff_model.py`; CLAUDE.md still says the methodology is not DEFINED. Written 12 Oct 2026 from `scripts/explore_runoff_sensitivity.py` (run it to reproduce every number below; it reads repo CSVs only). Sources are matrix ids in `notes/lit/literature_matrix.csv` (all read in full text per the matrix): #1 Anys & Weiler 2024, #3 Xiao & McPherson 2016. Nothing is cited from outside the repo; **TR-55 CN values were not re-verified here (🟡)**.
+Status: **Exploratory bracket, not a result. Decision (user, 14 Oct, provisional): "not resolved by the model" is accepted as a valid outcome for the runoff part of H1, with Δmin as in §10; the rest stays pending.** Nothing here changes `topic_decision.md` (PS/RQ/H), `methodology.md` or `scripts/runoff_model.py`; CLAUDE.md still says the methodology is not DEFINED. Written 12 Oct 2026 from `scripts/explore_runoff_sensitivity.py` (run it to reproduce every number below; it reads repo CSVs only). Sources are matrix ids in `notes/lit/literature_matrix.csv` (all read in full text per the matrix): #1 Anys & Weiler 2024, #3 Xiao & McPherson 2016. Nothing is cited from outside the repo; **TR-55 CN values were not re-verified here (🟡)**.
 
 ## 1. Question
 

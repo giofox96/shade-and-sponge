@@ -32,3 +32,6 @@ cache/
 seminars/
 .pytest_cache/
 .ruff_cache/
+
+# Weather files (licence unconfirmed, re-download via scripts/bcn_epw_summary.py docstring)
+databases/*/weather/
