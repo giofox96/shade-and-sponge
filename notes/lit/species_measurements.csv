@@ -12,8 +12,8 @@ Tilia cordata,heat,in-situ shade and transpiration cooling,see paper,4-city stud
 Platanus x hispanica,heat,in-situ shade and transpiration cooling,see paper,= Platanus x acerifolia,Helletsgruber et al. 2020,40,full text digest,transpiration
 Aesculus hippocastanum,heat,in-situ shade and transpiration cooling,see paper,4-city study,Helletsgruber et al. 2020,40,full text digest,transpiration
 Robinia pseudoacacia,heat,in-situ shade and transpiration cooling,see paper,4-city study,Helletsgruber et al. 2020,40,full text digest,transpiration
-Pyrus calleryana,heat,shading effectiveness (Manchester),see paper,5-species comparison,Armson et al. 2013,,full text digest,surface_temp
-Crataegus laevigata,heat,shading effectiveness (Manchester),see paper,5-species comparison (incl. Sorbus arnoldiana),Armson et al. 2013,,full text digest,surface_temp
+Pyrus calleryana,heat,shading effectiveness (Manchester),see paper,5-species comparison,Armson et al. 2013,135,full text digest,surface_temp
+Crataegus laevigata,heat,shading effectiveness (Manchester),see paper,5-species comparison (incl. Sorbus arnoldiana),Armson et al. 2013,135,full text digest,surface_temp
 Platanus x acerifolia,runoff,"surface water storage capacity, all surfaces (rainfall simulator)",0.87,"mm per unit leaf + stem surface area; P. x hispanica; leaf 1.10, stem 0.28; range 0.68-1.06",Xiao & McPherson 2016,3,full text,storage_capacity_mm
 Pyrus calleryana,runoff,"surface water storage capacity, all surfaces (rainfall simulator)",0.51,"mm per unit leaf + stem surface area; cv. Bradford; leaf 0.57, stem 0.23; range 0.43-0.63",Xiao & McPherson 2016,3,full text,storage_capacity_mm
 Celtis sinensis,runoff,"surface water storage capacity, all surfaces (rainfall simulator)",0.71,"mm per unit leaf + stem surface area; leaf 0.94, stem 0.17; congener of C. australis",Xiao & McPherson 2016,3,full text,storage_capacity_mm
@@ -54,3 +54,7 @@ Quercus pyrenaica,runoff,canopy storage capacity S (Jackson method; revised Gash
 Platanus x acerifolia,trait,"field LAI (CI-110 canopy imager), free-standing trees",2.8 +- 0.4,"m2/m2, n 17, Greater Sydney, summer 2018-19; crown area 96.5 m2",Kaluarachchi et al. 2020,45,full text,other
 Pyrus calleryana,trait,"field LAI (CI-110 canopy imager), free-standing trees",2.6 +- 0.8,"m2/m2, n 46, Greater Sydney; crown area 17.8 m2",Kaluarachchi et al. 2020,45,full text,other
 Jacaranda mimosifolia,trait,"field LAI (CI-110 canopy imager), free-standing trees",2.0 +- 0.6,"m2/m2, n 40, Greater Sydney; crown area 99.5 m2",Kaluarachchi et al. 2020,45,full text,other
+five-species mean (incl. Pyrus calleryana),heat,"mean surface temperature reduction under tree shade (species effect significant, Pyrus and Crataegus largest)",12,"C, average over five species, Manchester summer 2012; abstract gives no per-species value",Armson et al. 2013,135,abstract,surface_temp
+five-species mean (incl. Pyrus calleryana),heat,mean radiant temperature reduction under tree shade (species and LAI effects not significant),4,"C, average over five species; abstract only",Armson et al. 2013,135,abstract,MRT
+Tipuana tipu,heat,"field-measured MRT / PET under tree cluster (six clusters), Campinas",see paper,tropical climate; abstract gives no Tipuana value,Abreu-Harbich et al. 2012,136,abstract,other
+Styphnolobium japonicum,runoff,"canopy interception, range across three species (Cinnamomum, Sophora, Platanus orientalis), 20 events",4.0-4.3,"mm per event, per-species values not in abstract; Hefei",Ji et al. 2025,134,abstract,event_interception_pct

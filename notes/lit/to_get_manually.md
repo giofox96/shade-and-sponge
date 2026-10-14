@@ -140,3 +140,11 @@ Needed for `notes/method_heat_validation.md`. Not obtained; all three are read a
 - [ ] [T1] Lindberg & Grimmond (2011). The influence of vegetation and building morphology on shadow patterns and mean radiant temperatures in urban areas: model development and evaluation. Theor. Appl. Climatol. 105:311-323. https://doi.org/10.1007/s00704-010-0382-8 (not in matrix; needed: Goteborg evaluation RMSE and the vegetation transmissivity scheme)
 - [ ] [T2] Segura Barrero et al. (2022). How do street trees affect urban temperatures and radiation exchange? Urban Clim. 46:101288. https://doi.org/10.1016/j.uclim.2022.101288 (matrix #132, (abs); needed: data availability statement)
 - [ ] [T2] Ibrahim, Kershaw & Shepherd (2020). A methodology for modelling microclimates: a Ladybug-tools and ENVI-met verification study. PLEA 2020, pp. 1035-1040 (matrix #131, (abs); no DOI found; the BSO 2020 sister paper is #130, read in full)
+
+
+## Palette canopy parameters (issue #4, 9 Oct)
+
+- [T1] Astrid Moser-Reischl (2025). Spatial and temporal dynamics of the leaf area index (LAI) of selected tree species in urban environments (species LAI and leaf-off values; check for palette genera). https://doi.org/10.1016/j.ufug.2025.128795
+- [T1] Loyde Vieira de Abreu-Harbich (2015). Effect of tree planting design and tree species on human thermal comfort in the tropics (Tipuana, Jacaranda values). https://doi.org/10.1016/j.landurbplan.2015.02.008
+- [T2] Masami Monsi (2005). On the Factor Light in Plant Communities and its Importance for Matter Production (English translation of Monsi & Saeki 1953). https://doi.org/10.1093/aob/mci052
+- [T2] Loyde Vieira de Abreu-Harbich (2012). Reduction of Mean Radiant Temperature by Cluster of Trees in Urban and Architectural Planning in Tropical Climates (no DOI found; venue unknown; search by title / OpenAlex W2184273084)
