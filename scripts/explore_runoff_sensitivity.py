@@ -27,7 +27,8 @@ import pandas as pd
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 DB = ROOT / "databases/barcelona"
-CAND = ["Celtis australis", "Melia azedarach", "Tipuana tipu", "Jacaranda mimosifolia", "Pyrus calleryana", "Brachychiton populneus"]
+CAND = ["Celtis australis", "Melia azedarach", "Tipuana tipu", "Jacaranda mimosifolia", "Pyrus calleryana", "Brachychiton populneus",
+        "Styphnolobium japonicum"]   # added 14 Oct (user); crown + LAI from only 5 LiDAR trees = estimate
 S_LEVELS = {"low": 0.86, "mid": 1.75, "high": 2.2}      # mm per unit LAI: 0.86 Xiao & McPherson 2016 (matrix #3); 1.75 calibrated (Anys & Weiler 2024, #1); 2.2 upper sens.
 YOUNG_M = 3.0                                            # ASSUMPTION (runoff_model.py)
 CN = 98.0                                                # ASSUMPTION (runoff_model.py)
