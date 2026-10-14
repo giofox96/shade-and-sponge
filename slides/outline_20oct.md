@@ -13,7 +13,7 @@
 
 ### 2. Problem: two hazards, one street, one decision [0:45]
 **On slide:**
-- Sealed surface 45% → 72% (1956–2009)
+- Sealed surface 45% → 72% (1956–2009; Resilience Atlas, citing Barcelona Regional)
 - ~3 storms a year above 60 mm/h in the first 20 min (Resilience Atlas)
 - Among Europe's highest heat-island mortality burdens (Iungman et al. 2023)
 - Tree plan: no species above 15%; plane trees are ~29% of street trees

@@ -19,7 +19,7 @@ A condensed version of the thesis for **learning it**, not for writing it. Every
 ## 1. The problem
 Source: `notes/topic_decision.md` §7.
 
-- Barcelona's **sealed surface grew from 45% to 72%** of the municipality (1956–2009).
+- Barcelona's **sealed surface grew from 45% to 72%** of the municipality (1956–2009; Barcelona Resilience Atlas, citing Barcelona Regional's climate-change impact study).
 - About **3 storms a year exceed 60 mm/h in their first 20 minutes** and flood streets where the sewer lacks capacity (Barcelona Resilience Atlas). The sewer is sized for a **10-year** return period (`notes/city_screening.md`).
 - Barcelona carries **one of Europe's highest urban-heat-island mortality burdens** (Iungman et al. 2023).
 - The **tree master plan caps any species at 15%**; plane trees are **~29%** of street trees → many will be replaced.
