@@ -42,12 +42,12 @@ Add three loose stickies from the Question prompts: failure cases (young tree; s
 ## State-of-the-art strip (5 cards, my lane)
 | Type | Candidate | Doesn't do (my gap) |
 |---|---|---|
-| Theory | Shaamala et al. 2025 | tree placement optimised for heat only; water is future work |
-| Theory | Mannucci et al. 2025 | coupled heat and runoff, no species traits |
-| Practice | SylvCiT (Nicol et al. 2026) | runoff module disabled; no heat; Montreal only |
-| Practice | Davey Tree Benefits Engine API | to fill in after reading the paper |
-| Practice | GreenInCities Barcelona tools (heatwave risk index) | to check: species choice / placement not covered? |
-Verify every "doesn't do" against the paper in `papers/` and add the source link on each card. Arrow from each card to the box it informs.
+| Theory | Shaamala et al. 2025 | placement + species optimised for heat (UTCI) only, species by morphology; authors name water sensitivity as a missing objective |
+| Theory | Mannucci et al. 2025 | heat + runoff in Grasshopper, but scenario testing only: no species traits, no optimisation |
+| Practice | SylvCiT (Nicol et al. 2026) | no heat-island or runoff service yet (authors' words); diversity and carbon only; Montreal |
+| Practice | Davey Tree Benefits Engine API | per-tree i-Tree benefits (incl. avoided runoff) for a given species and DBH; no placement or species choice; paid; US averages outside supported areas |
+| Practice | GreenInCities (EU 2024–27; Barcelona pilot in Besòs) | participatory greening with NDVI, heatwave risk index, non-human UTCI, co-monitoring; species or placement choice and runoff not described in the sources read |
+Checked against the full texts (14 Oct); GreenInCities from RT L02 notes + greenincities.eu/tools. Add the source link on each card. Arrow from each card to the box it informs.
 
 ## Steps
 1. Confirm the cluster with the advisor and message colleagues the protocol above.
