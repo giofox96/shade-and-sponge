@@ -1,0 +1,5 @@
+scenario,open_ground_ha,wet_open_ha,wet_share,auc_wet,auc_deep,hit_rate,hit_rate_tol,lift,lift_tol,spearman_acc_depth_wet,hotspot_cells_wet_share,wet_in_hotspot_share,wet_draining_to_hotspot_share
+T10 present,59.298,13.387,0.226,0.523,0.57,0.249,0.31,1.101,1.088,0.049,0.437,0.311,0.454
+T100 present,59.298,25.296,0.427,0.523,0.561,0.44,0.529,1.031,1.019,0.091,0.593,0.223,0.339
+T10 future,59.298,16.667,0.281,0.523,0.562,0.305,0.375,1.087,1.064,0.063,0.481,0.274,0.4
+T100 future,59.298,28.396,0.479,0.521,0.553,0.488,0.575,1.02,1.007,0.103,0.646,0.217,0.334
