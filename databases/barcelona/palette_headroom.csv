@@ -1,0 +1,55 @@
+species,trees_porta,trees_city,headroom_a,headroom_b,headroom_c,source
+platanus x acerifolia,832,40092.0,-409,-19032.0,-23244.0,Porta: exchange/to_gh/porta_street_trees.csv; city: species_coverage.csv (top-30 only)
+celtis australis,296,19384.0,127,1676.0,-2536.0,Porta: exchange/to_gh/porta_street_trees.csv; city: species_coverage.csv (top-30 only)
+melia azedarach,167,6263.0,256,14797.0,10585.0,Porta: exchange/to_gh/porta_street_trees.csv; city: species_coverage.csv (top-30 only)
+pyrus calleryana,147,3481.0,276,17579.0,13367.0,Porta: exchange/to_gh/porta_street_trees.csv; city: species_coverage.csv (top-30 only)
+jacaranda mimosifolia,145,3235.0,278,17825.0,13613.0,Porta: exchange/to_gh/porta_street_trees.csv; city: species_coverage.csv (top-30 only)
+tipuana tipu,139,6636.0,284,14424.0,10212.0,Porta: exchange/to_gh/porta_street_trees.csv; city: species_coverage.csv (top-30 only)
+brachychiton populneus,103,5251.0,320,15809.0,11597.0,Porta: exchange/to_gh/porta_street_trees.csv; city: species_coverage.csv (top-30 only)
+citrus x aurantium,97,2495.0,326,18565.0,14353.0,Porta: exchange/to_gh/porta_street_trees.csv; city: species_coverage.csv (top-30 only)
+robinia pseudoacacia,83,2460.0,340,18600.0,14388.0,Porta: exchange/to_gh/porta_street_trees.csv; city: species_coverage.csv (top-30 only)
+catalpa bignonioides,83,,340,,,Porta: exchange/to_gh/porta_street_trees.csv; city: species_coverage.csv (top-30 only); city count < 588 (outside top-30): headroom_b/c not computed
+grevillea robusta,67,1543.0,356,19517.0,15305.0,Porta: exchange/to_gh/porta_street_trees.csv; city: species_coverage.csv (top-30 only)
+casuarina cunninghamiana,62,696.0,361,20364.0,16152.0,Porta: exchange/to_gh/porta_street_trees.csv; city: species_coverage.csv (top-30 only)
+populus nigra,61,1021.0,362,20039.0,15827.0,Porta: exchange/to_gh/porta_street_trees.csv; city: species_coverage.csv (top-30 only)
+celtis sinensis,53,1101.0,370,19959.0,15747.0,Porta: exchange/to_gh/porta_street_trees.csv; city: species_coverage.csv (top-30 only)
+gleditsia triacanthos,52,2800.0,371,18260.0,14048.0,Porta: exchange/to_gh/porta_street_trees.csv; city: species_coverage.csv (top-30 only)
+handroanthus heptaphyllus,45,,378,,,Porta: exchange/to_gh/porta_street_trees.csv; city: species_coverage.csv (top-30 only); city count < 588 (outside top-30): headroom_b/c not computed
+fraxinus angustifolia,44,901.0,379,20159.0,15947.0,Porta: exchange/to_gh/porta_street_trees.csv; city: species_coverage.csv (top-30 only)
+populus alba,42,588.0,381,20472.0,16260.0,Porta: exchange/to_gh/porta_street_trees.csv; city: species_coverage.csv (top-30 only)
+ligustrum lucidum,39,3198.0,384,17862.0,13650.0,Porta: exchange/to_gh/porta_street_trees.csv; city: species_coverage.csv (top-30 only)
+morus alba,37,,386,,,Porta: exchange/to_gh/porta_street_trees.csv; city: species_coverage.csv (top-30 only); city count < 588 (outside top-30): headroom_b/c not computed
+prunus cerasifera,29,2830.0,394,18230.0,14018.0,Porta: exchange/to_gh/porta_street_trees.csv; city: species_coverage.csv (top-30 only)
+tilia x europaea,29,747.0,394,20313.0,16101.0,Porta: exchange/to_gh/porta_street_trees.csv; city: species_coverage.csv (top-30 only)
+acer monspessulanum,20,,403,,,Porta: exchange/to_gh/porta_street_trees.csv; city: species_coverage.csv (top-30 only); city count < 588 (outside top-30): headroom_b/c not computed
+hibiscus syriacus,19,691.0,404,20369.0,16157.0,Porta: exchange/to_gh/porta_street_trees.csv; city: species_coverage.csv (top-30 only)
+x chitalpa,19,,404,,,Porta: exchange/to_gh/porta_street_trees.csv; city: species_coverage.csv (top-30 only); city count < 588 (outside top-30): headroom_b/c not computed
+eugenia uniflora,15,,408,,,Porta: exchange/to_gh/porta_street_trees.csv; city: species_coverage.csv (top-30 only); city count < 588 (outside top-30): headroom_b/c not computed
+koelreuteria paniculata,10,2082.0,413,18978.0,14766.0,Porta: exchange/to_gh/porta_street_trees.csv; city: species_coverage.csv (top-30 only)
+tilia x euchlora,9,1321.0,414,19739.0,15527.0,Porta: exchange/to_gh/porta_street_trees.csv; city: species_coverage.csv (top-30 only)
+hesperocyparis macrocarpa,9,,414,,,Porta: exchange/to_gh/porta_street_trees.csv; city: species_coverage.csv (top-30 only); city count < 588 (outside top-30): headroom_b/c not computed
+acer campestre,8,,415,,,Porta: exchange/to_gh/porta_street_trees.csv; city: species_coverage.csv (top-30 only); city count < 588 (outside top-30): headroom_b/c not computed
+eucalyptus camaldulensis,8,,415,,,Porta: exchange/to_gh/porta_street_trees.csv; city: species_coverage.csv (top-30 only); city count < 588 (outside top-30): headroom_b/c not computed
+cercis siliquastrum,6,2603.0,417,18457.0,14245.0,Porta: exchange/to_gh/porta_street_trees.csv; city: species_coverage.csv (top-30 only)
+styphnolobium japonicum,5,8427.0,418,12633.0,8421.0,Porta: exchange/to_gh/porta_street_trees.csv; city: species_coverage.csv (top-30 only)
+prunus serrulata,5,,418,,,Porta: exchange/to_gh/porta_street_trees.csv; city: species_coverage.csv (top-30 only); city count < 588 (outside top-30): headroom_b/c not computed
+ulmus pumila,4,2557.0,419,18503.0,14291.0,Porta: exchange/to_gh/porta_street_trees.csv; city: species_coverage.csv (top-30 only)
+crataegus x media,4,,419,,,Porta: exchange/to_gh/porta_street_trees.csv; city: species_coverage.csv (top-30 only); city count < 588 (outside top-30): headroom_b/c not computed
+cupressus sempervirens,4,,419,,,Porta: exchange/to_gh/porta_street_trees.csv; city: species_coverage.csv (top-30 only); city count < 588 (outside top-30): headroom_b/c not computed
+fraxinus ornus,4,,419,,,Porta: exchange/to_gh/porta_street_trees.csv; city: species_coverage.csv (top-30 only); city count < 588 (outside top-30): headroom_b/c not computed
+acer negundo,3,,420,,,Porta: exchange/to_gh/porta_street_trees.csv; city: species_coverage.csv (top-30 only); city count < 588 (outside top-30): headroom_b/c not computed
+celtis occidentalis,3,,420,,,Porta: exchange/to_gh/porta_street_trees.csv; city: species_coverage.csv (top-30 only); city count < 588 (outside top-30): headroom_b/c not computed
+photinia x fraseri,3,,420,,,Porta: exchange/to_gh/porta_street_trees.csv; city: species_coverage.csv (top-30 only); city count < 588 (outside top-30): headroom_b/c not computed
+tilia tomentosa,3,,420,,,Porta: exchange/to_gh/porta_street_trees.csv; city: species_coverage.csv (top-30 only); city count < 588 (outside top-30): headroom_b/c not computed
+brachychiton acerifolius,2,,421,,,Porta: exchange/to_gh/porta_street_trees.csv; city: species_coverage.csv (top-30 only); city count < 588 (outside top-30): headroom_b/c not computed
+morus nigra,2,,421,,,Porta: exchange/to_gh/porta_street_trees.csv; city: species_coverage.csv (top-30 only); city count < 588 (outside top-30): headroom_b/c not computed
+populus x canadensis,2,,421,,,Porta: exchange/to_gh/porta_street_trees.csv; city: species_coverage.csv (top-30 only); city count < 588 (outside top-30): headroom_b/c not computed
+magnolia grandiflora,1,1782.0,422,19278.0,15066.0,Porta: exchange/to_gh/porta_street_trees.csv; city: species_coverage.csv (top-30 only)
+pinus pinea,1,1284.0,422,19776.0,15564.0,Porta: exchange/to_gh/porta_street_trees.csv; city: species_coverage.csv (top-30 only)
+eriobotrya japonica,1,,422,,,Porta: exchange/to_gh/porta_street_trees.csv; city: species_coverage.csv (top-30 only); city count < 588 (outside top-30): headroom_b/c not computed
+liquidambar styraciflua,1,,422,,,Porta: exchange/to_gh/porta_street_trees.csv; city: species_coverage.csv (top-30 only); city count < 588 (outside top-30): headroom_b/c not computed
+phoenix dactylifera,1,,422,,,Porta: exchange/to_gh/porta_street_trees.csv; city: species_coverage.csv (top-30 only); city count < 588 (outside top-30): headroom_b/c not computed
+ulmus,1,,422,,,Porta: exchange/to_gh/porta_street_trees.csv; city: species_coverage.csv (top-30 only); city count < 588 (outside top-30): headroom_b/c not computed
+quercus ilex,0,984.0,423,20076.0,15864.0,Porta: exchange/to_gh/porta_street_trees.csv; city: species_coverage.csv (top-30 only)
+firmiana simplex,0,978.0,423,20082.0,15870.0,Porta: exchange/to_gh/porta_street_trees.csv; city: species_coverage.csv (top-30 only)
+ginkgo biloba,0,677.0,423,20383.0,16171.0,Porta: exchange/to_gh/porta_street_trees.csv; city: species_coverage.csv (top-30 only)
