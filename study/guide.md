@@ -1,4 +1,4 @@
-# Study guide: Shade and Sponge (state of 9 Oct 2026)
+# Study guide: Shade and Sponge (state of 15 Oct 2026)
 
 A condensed version of the thesis for **learning it**, not for writing it. Every fact here comes from the project notes; the source file is named in each chapter, so check there when a number changes. If a note is updated, update this guide and the cards (`flashcards.csv`, `quiz.csv`).
 
@@ -14,6 +14,14 @@ A condensed version of the thesis for **learning it**, not for writing it. Every
 
 **The logic chain (the tutor's order):** problem → why it matters → gap → research question → hypotheses → method (data, tools) → tool → first results → limits.
 
+### What changed since 9 Oct (read this first if you studied the earlier version)
+- **A seventh candidate species:** *Styphnolobium japonicum* (user decision, 14 Oct). Its crown and LAI now come from a LiDAR sample outside Porta (§1, §9).
+- **The gap needs narrower wording** because of Dong et al. 2026: say "species **and positions**" and "**pedestrian UTCI**" (§6).
+- **H3 is true by construction of the model:** with the v1 LAI proxy every crown is full at every design storm, so the falling % is arithmetic, not a test (§3, §7).
+- **The runoff part of H1 may come out "not resolved by the model":** accepted as a valid outcome (user, provisional, 14 Oct) (§7, §9).
+- **RESCCUE flood-depth maps are public**, and the routing was checked against them (§8, §10).
+- **Several decisions wait for you** (heat metric, weather file, hypothesis wording, contribution statement): listed in §14.
+
 ---
 
 ## 1. The problem
@@ -24,7 +32,8 @@ Source: `notes/topic_decision.md` §7.
 - Barcelona carries **one of Europe's highest urban-heat-island mortality burdens** (Iungman et al. 2023).
 - The **tree master plan caps any species at 15%**; plane trees are **~29%** of street trees → many will be replaced.
 - The city's named replacement species: ***Celtis*, *Melia*, *Pyrus calleryana*, *Jacaranda*, *Tipuana*, *Brachychiton*** (mnemonic: **"CeMeP-JaTiBra"**, or the sentence *"Celtic Melodies Play Jazz To Brazil"*).
-- **The data gap:** in the reviewed literature only *Pyrus calleryana* has a measured canopy-storage value (Xiao & McPherson 2016), and **none of the six has a measured cooling value**.
+- **Seventh candidate (user, 14 Oct):** ***Styphnolobium japonicum*** (formerly *Sophora japonica*), named in the press; only 5 trees in Porta. Extended mnemonic: *"Celtic Melodies Play Jazz To Brazil, Softly"*.
+- **The data gap:** in the reviewed literature only *Pyrus calleryana* has a measured canopy-storage value (Xiao & McPherson 2016), and **none of the six city-named species has a measured cooling value**.
 - **Why it matters:** replacement choices can trade away cooling or rain interception without anyone noticing.
 
 **Primary user:** a computational designer working on the municipal street-tree replacement.
@@ -34,14 +43,14 @@ Source: `notes/topic_decision.md` §7.
 ### Check yourself
 1. What two hazards, and why do they meet in the same streets?
 2. Why are plane trees being replaced, in one sentence with both numbers?
-3. Name the six replacement species.
+3. Name the six city-named replacement species, and the seventh candidate.
 4. Why is Bologna a bad case for a tree-based flood thesis?
 
 <details><summary>Answers</summary>
 
 1. Summer heat stress (UHI) and pluvial flooding; both concentrate in dense, highly sealed districts.
 2. The master plan caps any species at 15%, and planes are ~29% of street trees.
-3. Celtis australis, Melia azedarach, Pyrus calleryana, Jacaranda mimosifolia, Tipuana tipu, Brachychiton populneus.
+3. Celtis australis, Melia azedarach, Pyrus calleryana, Jacaranda mimosifolia, Tipuana tipu, Brachychiton populneus; seventh: Styphnolobium japonicum (added 14 Oct).
 4. Its recent floods were multi-day / saturated-soil / culvert events; trees only matter for frequent, short pluvial storms.
 </details>
 
@@ -55,7 +64,7 @@ Source: `notes/site_selection.md`.
 - **Robustness:** thresholds at the 50th, 60th, 70th percentile → **Porta is first at every threshold**. Under 2,000 random weightings (Dirichlet) it is in the top 3 in 53% of cases (#2 overall on the four-criterion score).
 - Porta's ranks: flood **#13**, surface heat **#11 (+1.36 °C)**, heat vulnerability **#12** (91% of area in the top class), plane density #15.
 - **Sant Antoni** = #1 for flood, but #38 for surface heat → fails "both hazards" → **flood-dominant contrast site**. **Florence** = transfer test.
-- The replacement palette **already grows in Porta** → LiDAR can measure real crowns of each species.
+- The replacement palette **already grows in Porta** → LiDAR can measure real crowns of each species. Exception: *Styphnolobium* has only 5 trees in Porta, so its crown and LAI come from a **LiDAR sample outside Porta** (§9).
 
 **Why "non-compensatory"?** A very high flood score must not make up for no heat. Both hazards must be present.
 
@@ -87,6 +96,8 @@ Sources: `notes/topic_decision.md` §1, `notes/methodology.md` §4–4b.
 - **Species do differ:** storage capacity varies **threefold among 20 species** (Xiao & McPherson 2016); *Tilia cordata* 70% vs *Acer platanoides* 55% event interception (Anys & Weiler 2024). **LAI is the main driver.**
 - **Roots:** not in the score. Only two lab studies (Bartens 2008; Zhang 2019); roots raise infiltration, but species differences are unclear.
 - **Stemflow:** ignored (< 1% of rain).
+- **Caution: the model's crowns are always full.** At every design storm (19.6–62.5 mm) every crown is saturated, so interception is the **same volume** at T1, T2 and T10. The avoided runoff even rises a little in m³ (304 → 365 m³ from T1 to T10), but total runoff grows much faster (9,600 → 40,541 m³), so the **percentage** falls (3.16% → 0.90%). The shrinking % is arithmetic of the bucket model, **not an independent test** (`notes/decisions/hypothesis_tests.md`).
+- **LAI bias may differ by species:** field LAI in Sydney (Kaluarachchi 2020) is higher than our LiDAR proxy for *Platanus* (2.8 vs 2.31) and *Pyrus* (2.6 vs 2.08), but lower for *Jacaranda* (2.0 vs 2.91). Different city and method: a check of direction, not a correction.
 
 ### Check yourself
 1. Write the interception equation and explain each symbol.
@@ -94,6 +105,7 @@ Sources: `notes/topic_decision.md` §1, `notes/methodology.md` §4–4b.
 3. Why is the metric runoff *volume* and not *peak flow*?
 4. Why does the tree benefit shrink with the return period?
 5. Why are roots left out of the scoring?
+6. In the model, why is the falling % benefit not a real test of H3?
 
 <details><summary>Answers</summary>
 
@@ -102,6 +114,7 @@ Sources: `notes/topic_decision.md` §1, `notes/methodology.md` §4–4b.
 3. Field evidence (Selbig et al. 2021): street trees cut volume ~4% but did not change peak flow.
 4. Canopy storage is filled in the first few mm; the rest of a large storm passes through, so the intercepted share falls.
 5. Only two lab studies, young trees in tanks; species differences unclear (Bartens: oak vs maple not significant).
+6. With the v1 LAI proxy, every crown is full at every design storm, so interception is constant; the % falls only because total runoff grows. It follows from the model's own equation.
 </details>
 
 ---
@@ -118,12 +131,20 @@ Sources: `notes/methodology.md` §3, §5; `notes/topic_decision.md` §6.1.
 - **Transpiration** is the stronger *air*-cooling term (Park 2026: 1.15 °C vs shade 0.43 °C), but needs soil water.
 - **Heatwave risk:** *Platanus* lost roughly 30–50% of its plant area index after a > 41 °C heatwave (Sanusi & Livesley 2020) → low-LAI plane variant in sensitivity.
 - **Night:** dense clusters trap heat at night (Zölch et al. 2019); the design hour misses this → stated limit.
+- **Transpiration matters less in Porta:** per leaf area it is lowest in Mediterranean climates and ~10× lower for trees in paved pits than over grass, while shade cools asphalt the most (Rahman et al. 2019 meta-analysis). So Ladybug's missing transpiration is a smaller error here.
+
+**Choosing the heat metric (`notes/decisions/heat_objective.md`, pending your decision):**
+- On the **hottest** El Prat day, even full shade is ≥ 32 °C in 5 of 6 afternoon hours, so "share of points > 32 °C" **saturates** and cannot show a benefit.
+- The **sun–shade gap is 2.3–4.7 °C UTCI** (full shade; a lower bound for a tree), and the **Ladybug model error is 1–2 °C**: trust **rankings** of layouts more than absolute values.
+- Recommended default: **mean UTCI over 12–17 h on the design (DDY) cooling day**, plus the hottest real day as a check. This would change the RQ wording from "peak summer hour" to "12–17 h window on a hot design day".
+- **Weather (`notes/decisions/weather_forcing.md`, pending):** main run El Prat TMYx 2011–2025; sensitivities with the Barcelona city station file, city-terrain wind, and an urban offset of **0 to +1.5 °C**.
 
 ### Check yourself
 1. What is UTCI and which input do trees change most?
 2. Write the transmissivity formula and its k.
 3. Two reasons why Ladybug Tier 1 underestimates tree cooling.
 4. Why use a heat *proxy* inside the optimiser?
+5. Why is "share of points above 32 °C" a weak metric on the hottest day?
 
 <details><summary>Answers</summary>
 
@@ -131,6 +152,7 @@ Sources: `notes/methodology.md` §3, §5; `notes/topic_decision.md` §6.1.
 2. τ = exp(−0.5 · LAI).
 3. Crowns treated as opaque solids without the τ correction (shade MRT wrong), and no evapotranspiration.
 4. Ladybug costs minutes per layout (20–25 min for 42 trees, Shaamala 2025); 832 positions × many layouts is impossible, so a shade × τ proxy, a surrogate or Infrared City runs in the loop.
+5. Even full shade stays ≥ 32 °C in 5 of 6 afternoon hours, so sun and shade count alike: the metric saturates.
 </details>
 
 ---
@@ -163,7 +185,7 @@ Source: `notes/topic_decision.md` §6.1.
 ---
 
 ## 6. The gap and the closest precedents
-Sources: `notes/topic_decision.md` §6.1, §7; `slides/outline_20oct.md`.
+Sources: `notes/topic_decision.md` §6.1, §7; `slides/outline_20oct.md`; `notes/decisions/contribution_statement.md`.
 
 | Work | What it does | What it lacks |
 |---|---|---|
@@ -172,21 +194,24 @@ Sources: `notes/topic_decision.md` §6.1, §7; `slides/outline_20oct.md`.
 | **Shaamala et al. 2025**, **Peng et al. 2026** | Optimise species/placement | **Heat only**; Shaamala names water as future work |
 | **Tan & Liu 2026** (closest) | NSGA-II + Random Forest surrogate in Grasshopper, species + positions of 30 trees, UTCI + CO2 + diversity | **No runoff**; 4 Chicago species, US allometry, one summer hour |
 | **Cortinovis et al. 2022** | Heat + runoff for Barcelona | City-wide; trees as land cover |
+| **Dong et al. 2026** (new close neighbour) | NSGA-III over species **mixes** for stormwater + microclimate (+ air quality, carbon), Philadelphia | Heat = **building-energy proxy**, not UTCI; runoff = i-Tree Eco; **no tree positions** (species shares per 0.25 km² cell) |
 
-**The gap in one line:** *no method selects species **and** positions using measured traits for **both** heat and runoff.*
+**The gap in one line (safe wording):** *no method yet chooses street-tree species **and positions** against **pedestrian-level UTCI** and **event runoff** together.* Never say just "species for heat and runoff": Dong 2026 does that, at cell scale with an energy proxy.
 
-**Contribution in one line:** a trait-based, multi-objective species-and-position method for street-tree replacement, plus the finding that most replacement species lack measured traits (the data gap itself is a result).
+**Contribution (three candidates, pending your decision):** **A. Method:** a reproducible workflow that selects replacement species and positions against UTCI and runoff, with LiDAR crowns, a trait table and a leaf-on interception term. **B. Knowledge:** a quantified cooling-vs-interception comparison for the city's palette in Porta (how large is the trade-off?). **C. (optional) Validation:** a transparent two-tier check of the fast heat proxy against Ladybug, with known error bars. Plus: most replacement species lack measured traits, and the data gap itself is a result.
 
 ### Check yourself
 1. Name the closest precedent and three things this thesis adds to it.
 2. What is SylvCiT and what is missing in it?
-3. State the gap in one sentence.
+3. State the gap in one sentence, in the safe wording.
+4. What does Dong et al. 2026 do, and why does it force narrower wording?
 
 <details><summary>Answers</summary>
 
 1. Tan & Liu 2026. Adds: runoff, the city's own replacement palette, the seasons (leaf calendar, winter sun).
 2. Trait-based AI recommender for urban forests (Montreal); runoff module disabled, no heat, diversity traits only.
-3. No method selects species and positions using measured traits for both heat and runoff.
+3. No method yet chooses street-tree species and positions against pedestrian-level UTCI and event runoff together.
+4. NSGA-III over species mixes for stormwater and microclimate in Philadelphia, but heat is a building-energy proxy, runoff is i-Tree Eco, and there are no tree positions. So the claim must name "positions" and "pedestrian UTCI".
 </details>
 
 ---
@@ -202,14 +227,22 @@ Source: `notes/topic_decision.md` §7.
 
 **Mnemonic: S-T-B** = **S**ynergy, **T**rade-off, **B**oundary.
 
+**Status of the hypotheses (memos, pending your decision; the wording above is still the official v4):**
+- **H1, runoff part:** a minimum meaningful difference **Δmin = 91 m³** (0.9 mm over the street crowns, 0.5% of T2-60 runoff) is proposed, fixed before the runs. If the best layout beats S1 by less than Δmin, the runoff part is reported as **"not resolved by the model"**: accepted as a valid outcome (user, provisional, 14 Oct). Today's exploratory value is **78 m³** (worst case 38.5 m³) → not resolved. Then heat carries the species choice and runoff becomes a check.
+- **H2:** proposed as a species-composition claim (S2 vs S3 differ by more than a pre-fixed dissimilarity) at the fixed plane positions.
+- **H3:** proposed as a **declared boundary of the method**, not a test result (it is true by construction, §3). Question for the tutor: is that acceptable?
+- **Trade-off metric (proposed):** % loss of one objective at the other's optimum.
+
 ### Check yourself
 1. Say the RQ in under 40 words.
 2. Name H1–H3 and the scenario comparison that tests each.
+3. What is Δmin, and what happens if the best layout beats S1 by less than it?
 
 <details><summary>Answers</summary>
 
 1. In Porta, which replacement species and positions jointly reduce UTCI and runoff volume (1-, 2-, 10-yr storms), and how large is the trade-off versus current trees, like-for-like and single-objective layouts?
 2. H1 synergy: S4 vs S1 on both objectives. H2 trade-off: species composition of S2 vs S3. H3 boundary: runoff benefit vs return period T.
+3. The minimum meaningful runoff difference, 91 m³ (0.5% of T2-60 runoff). Below it, the runoff part of H1 is "not resolved by the model" (neither supported nor rejected).
 </details>
 
 ---
@@ -219,13 +252,16 @@ Sources: `notes/methodology.md`, `shade_sponge/README.md`.
 
 **Pipeline (5 steps):** LiDAR trees → trait table → runoff module + heat module → optimiser → Pareto front → test on Sant Antoni and Florence.
 
-- **Data:** street trees (Ajuntament `arbrat-viari`), **ICGC LiDAR** (flown 26 Sept 2021, leaf-on; ≥ 8 pts/m², CC BY 4.0), PDISBA IDF, Resilience Atlas flood-hazard index, EPW (Barcelona El Prat), trait databases (3TF, BROT 2, literature).
+- **Data:** street trees (Ajuntament `arbrat-viari`), **ICGC LiDAR** (flown 26 Sept 2021, leaf-on; ≥ 8 pts/m², CC BY 4.0), PDISBA IDF, Resilience Atlas flood-hazard index, **RESCCUE flood-depth maps T10/T100** (public CARTO tables, found 13 Oct; licence email sent), EPW (Barcelona El Prat), trait databases (3TF, BROT 2, literature).
 - **Tree model:** position, species, height H, crown diameter D, crown base Hb, LAI (leaf-on/off), storage S, leaf habit, wood anatomy. Missing species → genus or leaf-habit class values with a range + sensitivity.
 - **Scenarios:** **S0** current trees · **S1** like-for-like palette · **S2** heat-only optimum · **S3** runoff-only optimum · **S4** multi-objective Pareto set.
 - **Optimiser:** NSGA-II (pymoo or Wallacei). Constraints: **≤ 15% per species**, Shannon diversity floor, no invasive or pest-host species, crown clearance from façades. **v0** uses a weighted-sum LP instead (HiGHS).
 - **Tool package `shade_sponge/`:** `site.py` (1 m grid), `topo.py` (Priority-Flood routing on the DTM → water convergence, distance to flood hotspots), `heat.py` (sun position, elliptical crown shadows, opacity from LAI and leaf month), `season.py` (leaf calendar, storm months), `runoff.py` (bucket + SCS-CN), `layout.py` (palette, cap, LP, Pareto).
 - **One core, two front-ends:** Grasshopper (primary, computational designer) and a later web app (non-technical users).
+- **Palette in the tool:** the six city species + *Styphnolobium*. Species crowns and LAI come from one function, `species_lidar()` in `site.py`: Porta LiDAR medians, with a hard-coded override for *Styphnolobium* (sample outside Porta).
 - **Every parameter is cited or marked ASSUMPTION** (e.g. `CAPTURE_M` = 100 m, `OP_BARE` = 0.35, `R_OFF` = 0.5).
+- **Routing vs RESCCUE (checked 15 Oct):** upstream area barely separates RESCCUE wet from dry cells overall (**ROC AUC 0.52**), but the top 0.5% of open ground by upstream area is wet in **58–80%** of cases (1.7–2.6× random). So the routing finds the **main convergence points** but is **not a flood map**: hotspots stay tied to the atlas index (or RESCCUE depth).
+- **Proposed tool changes (methodology §12, not adopted):** weight shade by ground surface (asphalt cools ~2× grass); check SVF/street orientation of chosen positions; tag k = 0.5 as ASSUMPTION; keep R_OFF = 0.5 with new birch anchors; add birch/pine storage anchors (1.00–1.08 mm per LAI) to the s sensitivity range.
 
 **Mnemonic for scenarios: "Now, Swap, Hot, Wet, Both"** = S0 now · S1 swap like-for-like · S2 hot (heat only) · S3 wet (runoff only) · S4 both.
 
@@ -234,6 +270,7 @@ Sources: `notes/methodology.md`, `shade_sponge/README.md`.
 2. Name the optimiser and its four constraints.
 3. What does `topo.py` add that runoff v1 did not have?
 4. What is the rule for every parameter in tool code?
+5. What did the comparison with RESCCUE show about the routing?
 
 <details><summary>Answers</summary>
 
@@ -241,6 +278,7 @@ Sources: `notes/methodology.md`, `shade_sponge/README.md`.
 2. NSGA-II; ≤ 15% per species, Shannon diversity floor, no invasive/pest hosts, façade clearance.
 3. Flow routing on the DTM, so runoff that reaches flood hotspots can be targeted (positions upstream of hotspots).
 4. Either sourced (cited) or marked ASSUMPTION.
+5. It finds the main convergence points (top 0.5% of upstream area mostly wet) but is not a flood map (AUC 0.52); hotspots stay tied to the atlas index.
 </details>
 
 ---
@@ -252,7 +290,9 @@ Sources: `notes/methodology.md` §4b, §6; `shade_sponge/README.md`.
 - Current street trees cut Porta's runoff by **1.85%** (open space only: **2.9%**). Range over s and T: **0.4–4.0%**.
 - Same order as the field benchmark (**3.5–4%**, Selbig 2021 / Coville 2022). Barcelona city-wide also small (Cortinovis 2022: 20,170 new trees, retention 50.18% → 50.76% for a 20 mm event).
 - **Any young replacement: ≈ +0.7% runoff ≈ 37% of the current street-tree benefit lost** during the transition ("more than a third").
-- Benefit shrinks with return period → supports **H3**.
+- Benefit shrinks with return period (as a %), but in the model this is arithmetic, not a test of H3 (§3).
+
+**Styphnolobium (15 Oct):** a LiDAR sample from one 1 km tile outside Porta gives crown **5.32 m / LAI 2.12** from **367 trees on 25 streets** without possibly merged crowns (the tool uses these; all 607 trees give 6.43 m / 2.28). With them it ranks **5th of 8 palettes** (aggregate) and **4th of 7** (grid), and replacing the planes with it **adds runoff** (+92.5 m³, +0.52% at T2-60). Best palette: Melia (aggregate) or Jacaranda (grid). Best vs S1: **78 m³ < Δmin 91 m³** → runoff part of H1 not resolved. (The earlier 14 Oct result, where Styphnolobium came first, used only 5 Porta trees and is superseded.)
 
 **Tool v0 (shade proxy + runoff):**
 - Optimised (balanced) vs random palette: **+14% summer shade** (robust across 7 sensitivity variants).
@@ -261,29 +301,34 @@ Sources: `notes/methodology.md` §4b, §6; `shade_sponge/README.md`.
 - **Placement follows the buildings:** winter-bare Jacaranda goes where the street is sunny in winter; winter-leafed species go where buildings already shade it.
 - **Open problem:** hotspot runoff does not follow the runoff weight (to investigate).
 - **No replacement layout reached S0** (mature planes): replacement always loses shade at first.
+- Tool v0 numbers above are from the 8 Oct run with the six city species; they have not been re-run with *Styphnolobium*.
 
 ### Check yourself
 1. How much do Porta's street trees cut runoff, and is it plausible?
 2. What happens during the transition to young trees?
 3. What is the "no-regret swap"?
+4. Why did Styphnolobium drop from first to fifth?
 
 <details><summary>Answers</summary>
 
 1. 1.85% at T2-60 (2.9% on open space); same order as the 3.5–4% measured in the field.
 2. Young replacements lose ≈ 37% (more than a third) of the current street-tree runoff benefit.
 3. Swapping ~100 Tipuana for Jacaranda: same summer shade, 9% less winter shade.
+4. The first result used the medians of only 5 Porta trees (crown 8.85 m, LAI 3.32); the sample outside Porta (367 trees without merged crowns) gives a smaller crown (5.32 m) and LAI (2.12).
 </details>
 
 ---
 
 ## 10. Limits (say them before the tutor does)
-- Flood indicator is a hazard **index**, not water depth (RESCCUE depth maps behind a login).
+- Flood indicator is a hazard **index**, not water depth. RESCCUE depth maps (T10, T100) are now public; licence for thesis use asked on 13 Oct. Our routing is not a flood map (AUC 0.52).
 - Surface temperature (Landsat) ≠ pedestrian UTCI.
 - LiDAR LAI proxy (~2.3) probably **too low** → storage underestimated.
 - Same s for every species; species differ only via crown and LAI.
 - **Volume only**: no sewer, no routing to outlets, no ponding.
 - EPW from the airport, not the city (test +1/+2 °C).
 - Design hour misses night effects.
+- **H3 is true by construction** in the bucket model; declare it as a boundary.
+- Runoff differences between palettes may stay below Δmin: the runoff part of H1 may be "not resolved".
 - Most palette species lack measured traits → ranges + sensitivity; **the gap is a finding**.
 - Seminar gaps: no stakeholder validation yet; innovation type and TRL not yet stated (claim **TRL 3**, process innovation) (`notes/research_method_guidelines.md`).
 
@@ -301,6 +346,10 @@ Sources: `slides/outline_20oct.md`; the Porta and Barcelona answers from `notes/
 | Why Porta and not Sant Antoni? | Porta passes both hazards at every threshold; Sant Antoni's heat is below the city median. |
 | Why Barcelona and not Florence? | Heat-health evidence, LiDAR, open data and site access; Florence becomes the transfer test. |
 | What if the scope is too narrow? | Widen the tree into a system: add the tree pit as one design variable; carbon reported, not optimised. |
+| Hasn't Dong et al. 2026 done this? | They optimise species mixes per 0.25 km² cell with an energy proxy for heat and i-Tree runoff. I choose species and positions per tree, against pedestrian UTCI and event runoff. |
+| Isn't H3 true by definition of your model? | Yes, in the model every crown is full, so I declare H3 as a boundary of the method. In field data the intercepted fraction also falls as rain depth grows (Anys & Weiler 2024). |
+| What if runoff can't tell the palettes apart? | Then the runoff part of H1 is "not resolved" (below Δmin = 91 m³, fixed before the runs); heat carries the species choice, runoff is a check. That is still a result. |
+| How good is your flood routing? | It finds the main convergence points but is not a flood map (AUC 0.52 vs RESCCUE depth); hotspots come from the atlas index. |
 
 ---
 
@@ -332,6 +381,10 @@ Sources: `slides/outline_20oct.md`; the Porta and Barcelona answers from `notes/
 | **Leaf habit** | Evergreen vs deciduous |
 | **Non-compensatory** | Every criterion must pass; one cannot offset another |
 | **TRL** | Technology Readiness Level (thesis: TRL 3, proof of concept) |
+| **RESCCUE** | EU project whose Barcelona flood model gives water-depth maps (T10, T100) |
+| **Δmin** | Minimum meaningful difference, fixed before the runs (runoff: 91 m³) |
+| **DDY** | Design-day file: a synthetic hot (or cold) design day for a station |
+| **ROC AUC** | How well a score separates two classes; 0.5 = no better than chance |
 
 ---
 
@@ -362,5 +415,24 @@ Sources: `slides/outline_20oct.md`; the Porta and Barcelona answers from `notes/
 | 78% | Intense storm days in May–Oct |
 | +14% | Summer shade, optimised vs random palette |
 | −9% | Winter shade, no-regret swap Tipuana → Jacaranda |
+| 7 | Candidate species (6 city-named + *Styphnolobium*) |
+| 367 / 5.32 m / 2.12 | *Styphnolobium* LiDAR sample outside Porta (no merged crowns): trees / crown / LAI |
+| 91 m³ | Δmin, runoff part of H1 (0.5% of T2-60 runoff) |
+| 78 m³ | Best palette vs S1 today (below Δmin → not resolved) |
+| 3.16% → 0.90% | Street-tree effect, T1 → T10 (arithmetic of the model) |
+| 2.3–4.7 °C | Sun–shade UTCI gap on hot afternoons (lower bound) |
+| 0.52 | ROC AUC of routing vs RESCCUE wet cells |
 | 18 Dec 2026 | Probable final delivery |
 | 20 Oct 2026 | Next tutor session |
+
+---
+
+## 14. Decisions waiting for you (as of 15 Oct)
+Know these exist and what the recommended default is; the tutor may ask. Only the "not resolved" rule for H1's runoff part is provisionally accepted (14 Oct); the rest is open.
+| Decision | Recommended default | Source |
+|---|---|---|
+| Heat metric f1 | Mean UTCI, 12–17 h, DDY cooling day (+ hottest real day as check) | `notes/decisions/heat_objective.md` |
+| Weather forcing | El Prat TMYx 2011–2025, file wind, no offset; sensitivities: city station, city-terrain wind, +1.5 °C | `notes/decisions/weather_forcing.md` |
+| Hypothesis wording | H1 with Δmin and "not resolved"; H2 as species composition; H3 as a declared boundary | `notes/decisions/hypothesis_tests.md`, `runoff_metric_sensitivity.md` |
+| Contribution statement | No default given: choose among A (method), B (knowledge), C (validation, optional) | `notes/decisions/contribution_statement.md` |
+| Tool changes | Methodology §12 items 1–5 | `notes/methodology.md` §12 |

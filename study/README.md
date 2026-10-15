@@ -1,6 +1,6 @@
 # Study section
 
-Material for **learning** the thesis (not for writing it), so that you can explain and defend it without notes at the 20 Oct session and at the final review.
+Material for **learning** the thesis (not for writing it; content checked against `notes/` on 15 Oct 2026), so that you can explain and defend it without notes at the 20 Oct session and at the final review.
 
 | File | What it is | How to use it |
 |---|---|---|
