@@ -1,6 +1,6 @@
 # Winter leaf state of Tipuana and Jacaranda in Barcelona, from iNaturalist photos (15 Oct 2026)
 
-Status: **evidence for a pending user decision.** Nothing in the tool is changed. Replaces the field photos in Porta (the user lives in Florence; `notes/todo_manual.md`).
+Status: **adopted (user, 15 Oct)**: the calendar below is now in `databases/traits/phenology_palette.csv`; the old Jacaranda calendar (bare Jan–Mar) is kept as the sensitivity variant `jacaranda_bare_jan_mar`. **Tool outputs not re-run yet** (needs the raw site data, local only). Replaces the field photos in Porta (the user lives in Florence; `notes/todo_manual.md`).
 Scripts and data: `scripts/inat_leaf_state.py` → `databases/barcelona/inat_leaf_state.csv` (annotation counts); photo scores in `databases/barcelona/inat_leaf_photos.csv` (one row per observation, with its iNaturalist URL).
 
 ## Method
@@ -28,9 +28,9 @@ Many January–February Jacaranda crowns are yellow (senescing) but still carry 
 ## Consequence for the tool v0 result
 The "no-regret swap" (summer-only → balanced layout, ~100 Tipuana → Jacaranda, −9% winter shade at equal summer shade; `shade_sponge/README.md`) relies on Jacaranda being bare on the 15 Jan design day. The sensitivity runs tested Jacaranda half-leafed in Jan–Mar (the swap still appeared), but not Jacaranda fully leafed. If both species are leafed on 15 Jan, the winter advantage of Jacaranda shrinks to the difference in crown size and LAI, and the swap may weaken or vanish. **This needs a re-run of the tool**, which needs the raw site data (not in cloud sessions; run locally).
 
-## Proposed change (not applied; user decides)
-- Jacaranda f: Dec 1, Jan 0.8, Feb 0.7, Mar 0.5 (rounded from the table above), source = this note, marked as an estimate from photos.
-- Tipuana f: Feb 0.5, Mar 0.5 (Jan stays 1).
+## Change (adopted 15 Oct)
+- Jacaranda f: Dec 1, Jan 0.8, Feb 0.7, Mar 0.5 (rounded from the table above; was Dec 0.5, Jan–Mar 0), marked as an estimate from photos.
+- Tipuana f: Feb 0.5 (was 1); Mar 0.5 and Jan 1 unchanged.
 - Re-run `python -m shade_sponge` and `scripts/sensitivity_tool_v0.py` locally; update the no-regret claim in `shade_sponge/README.md`, `notes/methodology.md` §6 and the study guide.
 
 ## Limits
