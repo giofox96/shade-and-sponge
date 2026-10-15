@@ -4,10 +4,10 @@
 
 ## Leaf state of Tipuana and Jacaranda, Nov–Mar (decides the size of the winter-sun result)
 The user lives in Florence (15 Oct), so **no field photos in Porta**. Remote alternatives, which a Claude session can do:
-- [x] Dated **iNaturalist** observations of *Tipuana tipu* and *Jacaranda mimosifolia*, Dec–Mar: **done 15 Oct** (`notes/decisions/leaf_state_inat.md`): 170 Barcelona photos scored. Tipuana is in leaf in January (base case holds); **Jacaranda is mostly in leaf in January too**, not bare as the tool assumes. Why: the no-regret winter gain is −9% if Tipuana stays leafed in January and only −2% if it is bare (`shade_sponge/README.md`, sensitivity).
+- [x] Dated **iNaturalist** observations of *Tipuana tipu* and *Jacaranda mimosifolia*, Dec–Mar: **done 15 Oct** (`notes/decisions/leaf_state_inat.md`): 170 Barcelona photos scored. Tipuana is in leaf in January (base case holds); **Jacaranda is mostly in leaf in January too**, not bare as the tool assumed.
 - [ ] If iNaturalist is too thin: winter Google Street View captures of Porta's Tipuana and Jacaranda streets (check the capture date shown in Street View).
 - [x] Photo-based leaf calendar **adopted (15 Oct)** and written into `databases/traits/phenology_palette.csv`.
-- [ ] **Re-run the tool and its sensitivity locally** (raw site data are not in cloud sessions) to see whether the Tipuana → Jacaranda no-regret swap survives: see `notes/handoff_local.md`.
+- [x] **Tool and sensitivity re-run locally (15 Oct):** the Tipuana → Jacaranda no-regret swap shrinks from −9% to −2% winter shade and vanishes in 3 of 8 variants; the summer–winter trade-off beyond the balanced layout is robust (`shade_sponge/README.md`). Street View check no longer needed for the tool.
 
 ## Before the 20 Oct meeting
 

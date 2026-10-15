@@ -27,7 +27,7 @@ a.annotate("", (p2.shade_summer_m2h / 1e3, p2.shade_winter_m2h / 1e3), (p1.shade
            arrowprops=dict(arrowstyle="->", color=INK, lw=1))
 a.annotate(f"summer-only → balanced:\n{100 * (p2.shade_winter_m2h / p1.shade_winter_m2h - 1):+.0f}% winter shade,\n"
            f"{100 * (p2.shade_summer_m2h / p1.shade_summer_m2h - 1):+.1f}% summer shade\n(Tipuana → Jacaranda)",
-           (p2.shade_summer_m2h / 1e3, (p1.shade_winter_m2h + p2.shade_winter_m2h) / 2e3), xytext=(-150, 0),
+           (p2.shade_summer_m2h / 1e3, (p1.shade_winter_m2h + p2.shade_winter_m2h) / 2e3), xytext=(-170, -60),
            textcoords="offset points", fontsize=9, color=MUTED)
 a.set_xlabel("Summer shade on sunlit open ground, 15 Jul 12–17 h (thousand m²·h)  →  better", color=MUTED)
 a.set_ylabel("Winter shade on sunlit open ground, 15 Jan 10–15 h (thousand m²·h)  ↓  better", color=MUTED)

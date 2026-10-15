@@ -1,5 +1,7 @@
 # Handoff to the local session (15 Oct 2026)
 
+**Status: done (local session, 15 Oct).** Tool, figure and sensitivity re-run; README, methodology §6, study guide and cards updated.
+
 From the cloud session of 9–15 Oct (study section, study-guide update, iNaturalist leaf check). Branch: `ccr-a2a932ec-htrng0` (PR #29, the first study section, is merged; the later commits are on this branch, no PR yet).
 
 ## What was done
@@ -8,7 +10,7 @@ From the cloud session of 9–15 Oct (study section, study-guide update, iNatura
 3. **iNaturalist leaf check** (`notes/decisions/leaf_state_inat.md`; `scripts/inat_leaf_state.py`; `databases/barcelona/inat_leaf_state.csv`, `inat_leaf_photos.csv`): 170 Barcelona photos, Dec–Mar. Tipuana is in leaf in January (as assumed). **Jacaranda is mostly in leaf in January (79%), none bare before March**, whereas the tool assumed it bare Jan–Mar.
 4. **Adopted by the user (15 Oct):** new leaf calendar in `databases/traits/phenology_palette.csv` (Jacaranda Dec 1, Jan 0.8, Feb 0.7, Mar 0.5; Tipuana Feb 0.5). The old Jacaranda calendar is a new sensitivity variant `jacaranda_bare_jan_mar` in `scripts/sensitivity_tool_v0.py`. Core tests pass (`tests/`, 4 passed).
 
-## Not done (needs the local machine: raw site data and cache are not in the cloud)
+## Not done at handoff (done by the local session on 15 Oct, see Status above)
 - The tool outputs (`databases/barcelona/tool_v0_*.csv`, `exchange/to_gh/*tool_v0*`, `notes/figures/tool_v0.png`) and the numbers in `shade_sponge/README.md`, `notes/methodology.md` §6 and `study/guide.md` §5/§9 still describe the **old** calendar (no-regret swap −9% winter shade, sensitivity −2.2 to −11.6%).
 
 ## Prompt for the next (local) session
