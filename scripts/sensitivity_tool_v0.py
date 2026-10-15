@@ -12,6 +12,7 @@ VARIANTS = {
     "op_bare_0.54": dict(op=0.54),                                   # leafless London plane, Heisler (Thayer & Maeda 1985)
     "tipuana_bare_jan_feb": dict(phen={("Tipuana tipu", m): 0.0 for m in ("m01", "m02")}),   # 'briefly deciduous in winter'
     "jacaranda_half_jan_mar": dict(phen={("Jacaranda mimosifolia", m): 0.5 for m in ("m01", "m02", "m03")}),
+    "jacaranda_bare_jan_mar": dict(phen={("Jacaranda mimosifolia", m): 0.0 for m in ("m01", "m02", "m03")}),  # pre-15 Oct base (Valencia BBCH)
     "winter_21dec": dict(doy=355, month=12),
     "winter_15feb": dict(doy=46, month=2),
 }

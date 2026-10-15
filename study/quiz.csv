@@ -1,7 +1,7 @@
 id,chapter,question,a,b,c,d,answer,explanation
 q001,problem,Why will many of Barcelona's plane trees be replaced?,The master plan caps any species at 15%,Plane trees are invasive,A pest outbreak kills them,They block flood flows,a,Planes are ~29% of street trees; the cap is 15% per species.
 q002,problem,Which flood type does the thesis address?,River (fluvial) floods,Pluvial floods from frequent short storms,Multi-day saturated-soil events,Coastal storm surge,b,"Trees only matter for frequent, short pluvial storms on sealed surfaces."
-q003,problem,Which replacement species has a measured canopy-storage value in the reviewed literature?,Celtis australis,Jacaranda mimosifolia,Pyrus calleryana,Tipuana tipu,c,Only Pyrus calleryana (Xiao & McPherson 2016); none has a measured cooling value.
+q003,problem,Which of the six city-named replacement species has a measured canopy-storage value in the reviewed literature?,Celtis australis,Jacaranda mimosifolia,Pyrus calleryana,Tipuana tipu,c,Only Pyrus calleryana (Xiao & McPherson 2016); none has a measured cooling value.
 q004,problem,Barcelona's sealed surface grew from … to … (1956–2009),30% → 55%,45% → 72%,60% → 85%,45% → 60%,b,45% to 72% of the municipality.
 q005,site,Why is the site selection called non-compensatory?,Weights are all equal,Every criterion must pass a threshold before ranking,Only one criterion is used,It ignores social vulnerability,b,A strong flood value cannot make up for missing heat.
 q006,site,What is the eligibility threshold in the main site-selection run?,50th percentile,60th percentile,70th percentile,90th percentile,b,"60th; tested also at 50th and 70th, Porta first each time."
@@ -31,5 +31,14 @@ q029,method,Which is NOT an optimisation constraint?,≤ 15% per species,Shannon
 q030,method,What does topo.py add?,Sun position,DTM flow routing to flood hotspots,Leaf calendar,Species palette,b,"Priority-Flood routing → water convergence, distance to hotspots."
 q031,results,Runoff cut by Porta's current street trees at T2-60?,0.2%,1.85%,10%,25%,b,"1.85% total, 2.9% open space; field benchmark 3.5–4%."
 q032,results,Benefit lost when planes are replaced by young trees?,≈ 5%,≈ 37%,≈ 75%,None,b,"≈ +0.7% runoff, more than a third of the current benefit."
-q033,results,The no-regret swap is …,Planes → Celtis,Tipuana → Jacaranda,Melia → Pyrus,Brachychiton → Tipuana,b,"Same summer shade, 9% less winter shade."
+q033,results,The no-regret swap is …,Planes → Celtis,Tipuana → Jacaranda,Melia → Pyrus,Brachychiton → Tipuana,b,"~90 Tipuana → Jacaranda: same summer shade, only 2% less winter shade (15 Oct re-run; 9% with the old calendar), and not robust."
 q034,limits,Which TRL should the thesis claim?,TRL 1,TRL 3,TRL 6,TRL 9,b,Experimental proof of concept on Porta; TRL 4 needs validation against measured data.
+q035,problem,Which species was added as a seventh candidate on 14 Oct?,Platanus × hispanica,Styphnolobium japonicum,Quercus ilex,Tilia cordata,b,User decision; named in the press; 5 trees in Porta.
+q036,gap,Which wording of the gap is safe after Dong et al. 2026?,No one optimises species for heat and runoff,No method chooses species and positions against pedestrian UTCI and event runoff together,No one studies street trees in Barcelona,No one uses LiDAR for trees,b,"Dong 2026 optimises species mixes for stormwater and an energy proxy, without positions."
+q037,rq,The proposed Δmin for the runoff part of H1 is …,9 m³,91 m³,910 m³,0.91%,b,"0.9 mm over the street crown area, 0.5% of T2-60 runoff."
+q038,rq,"If the best layout beats S1 by less than Δmin, the runoff part of H1 is …",rejected,supported,not resolved by the model,re-run with a bigger storm,c,Neither supported nor rejected; accepted as a valid outcome (provisional).
+q039,runoff,"In the model, why does the % tree benefit fall from T1 to T10?",Crowns lose leaves in big storms,Interception is constant (crowns full) while total runoff grows,The curve number changes,Stemflow rises,b,"3.16% → 0.90%: arithmetic of the bucket model, not a test."
+q040,heat,Why is 'share above 32 °C' weak on the hottest day?,It needs night data,"Even full shade is ≥ 32 °C most afternoon hours, so it saturates",UTCI is undefined above 32 °C,Ladybug cannot compute it,b,5 of 6 hours ≥ 32 °C in full shade on the hottest El Prat day.
+q041,method,Routing vs RESCCUE depth gave ROC AUC …,0.12,0.52,0.85,0.99,b,Near chance overall; the top 0.5% of upstream area is mostly wet. Not a flood map.
+q042,results,"With the LiDAR sample outside Porta, Styphnolobium ranks for runoff …",1st of 8,5th of 8 (aggregate),last,not computed,b,"Crown 5.32 m, LAI 2.12; it adds runoff vs today's planes."
+q043,results,"After the 15 Oct re-run, the winter-heavy layout vs the balanced one gives …",No change in either,−18% winter shade for −18% summer shade,−2% winter shade at equal summer shade,More winter shade,b,The trade-off beyond the balanced layout is robust in all 8 variants; −2% is the small no-regret swap.
