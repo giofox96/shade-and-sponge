@@ -51,7 +51,7 @@ Habit and leaf calendar need no rule: they are sourced for 7 of 8 palette specie
 | Styphnolobium japonicum | 1 (LAI) | 17 |
 | Six optional taxa | 0 each | 0 |
 
-LAI literature vs the LiDAR proxy: only Platanus (3.02 literature, juvenile potted; the proxy is lower), Melia (proxy inside 1.3-3.0) and Styphnolobium (2.61, no proxy because only 5 trees) can be compared. The Jacaranda proxy is the highest of the palette although its crown is fine-leaved and possibly semi-deciduous, so it is worth a check.
+LAI literature vs the LiDAR proxy: only Platanus (3.02 literature, juvenile potted; the proxy is lower), Melia (proxy inside 1.3-3.0) and Styphnolobium (2.61; proxy 3.32 from 5 Porta trees, 2.12 from the city-wide sample of 367 trees, 15 Oct) can be compared. The Jacaranda proxy is the highest of the palette although its crown is fine-leaved and possibly semi-deciduous, so it is worth a check.
 
 ## 5. PDFs the user must fetch
 

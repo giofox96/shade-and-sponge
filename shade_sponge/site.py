@@ -29,6 +29,7 @@ def species_lidar():
         c = pd.read_csv(DB / f).set_index("group").loc[group]
         sp.loc[name, ["n", "height_med", "crown_diam_med", "crown_base_med", "lai_proxy_med", "lai_proxy_iqr"]] = [
             c.n, c.height_m_median, c.crown_diam_m_median, c.crown_base_m_median, c.lai_proxy_median, c.lai_proxy_iqr]
+        sp.loc[name, "gap_med"] = float("nan")     # not in the city summary; unused by the tool
     return sp
 
 
