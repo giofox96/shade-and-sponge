@@ -4,9 +4,9 @@
 
 ## Leaf state of Tipuana and Jacaranda, Nov–Mar (decides the size of the winter-sun result)
 The user lives in Florence (15 Oct), so **no field photos in Porta**. Remote alternatives, which a Claude session can do:
-- [ ] Dated **iNaturalist** observations of *Tipuana tipu* and *Jacaranda mimosifolia* in Barcelona and other Mediterranean cities, Dec–Mar: count leafed vs bare per month. Why: the no-regret winter gain is −9% if Tipuana stays leafed in January and only −2% if it is bare (`shade_sponge/README.md`, sensitivity).
+- [x] Dated **iNaturalist** observations of *Tipuana tipu* and *Jacaranda mimosifolia*, Dec–Mar: **done 15 Oct** (`notes/decisions/leaf_state_inat.md`): 170 Barcelona photos scored. Tipuana is in leaf in January (base case holds); **Jacaranda is mostly in leaf in January too**, not bare as the tool assumes. Why: the no-regret winter gain is −9% if Tipuana stays leafed in January and only −2% if it is bare (`shade_sponge/README.md`, sensitivity).
 - [ ] If iNaturalist is too thin: winter Google Street View captures of Porta's Tipuana and Jacaranda streets (check the capture date shown in Street View).
-Until then, the leaf state stays a cited input (Santos Nouri et al. 2018 for Tipuana) with the sensitivity range, stated as a limit.
+- [ ] **Decide:** adopt the photo-based leaf calendar proposed in `notes/decisions/leaf_state_inat.md`, then re-run the tool and its sensitivity **locally** (raw site data are not in cloud sessions) to see whether the Tipuana → Jacaranda no-regret swap survives.
 
 ## Before the 20 Oct meeting
 

@@ -296,7 +296,8 @@ Sources: `notes/methodology.md` §4b, §6; `shade_sponge/README.md`.
 
 **Tool v0 (shade proxy + runoff):**
 - Optimised (balanced) vs random palette: **+14% summer shade** (robust across 7 sensitivity variants).
-- **No-regret swap:** summer-only → balanced cuts winter shade by **9%** at equal summer shade by swapping ~100 **Tipuana → Jacaranda** (Jacaranda is bare Jan–Mar).
+- **No-regret swap:** summer-only → balanced cuts winter shade by **9%** at equal summer shade by swapping ~100 **Tipuana → Jacaranda** (the tool assumes Jacaranda is bare Jan–Mar).
+- **Caution (15 Oct):** 170 iNaturalist photos from Barcelona show **Jacaranda mostly in leaf in January** (79%; none bare before March), while Tipuana is in leaf in January as assumed. The swap may weaken or vanish; a local re-run is pending (`notes/decisions/leaf_state_inat.md`).
 - Beyond balanced: a **real trade-off** (more winter sun costs summer shade).
 - **Placement follows the buildings:** winter-bare Jacaranda goes where the street is sunny in winter; winter-leafed species go where buildings already shade it.
 - **Open problem:** hotspot runoff does not follow the runoff weight (to investigate).
