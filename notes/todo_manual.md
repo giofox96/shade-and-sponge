@@ -2,8 +2,11 @@
 
 *8 Oct 2026, updated 15 Oct. Tick items off here, or tell me and I'll update the file. Where a file should go, it's named in each item.*
 
-## Field check, Nov–Mar (decides the size of the winter-sun result)
-- [ ] **Leaf state of Tipuana and Jacaranda in Porta**, every 2–3 weeks from mid-Nov: photograph 5 trees of each from the same spot (one standard frame, sky behind the crown), and note the date and an estimate of leaf cover (0 / ¼ / ½ / ¾ / full). Nou Barris also has 11 Tipuana trees of local interest in Plaça del Virrei Amat (name in the city tree catalogue; possibly renamed Plaça Salvat-Papasseit in 2026, unconfirmed). Save to `databases/barcelona/field_phenology/` as `<species>_<YYYYMMDD>_<n>.jpg` + one `log.csv`. Why: the no-regret winter gain is −9% if Tipuana stays leafed in January and only −2% if it is bare (`shade_sponge/README.md`, sensitivity). Santos Nouri et al. 2018 (read) treat Tipuana in Lisbon as leafed in winter; the photos would confirm it for Barcelona. The same photos can also give the leafless crown opacity (sky gap fraction).
+## Leaf state of Tipuana and Jacaranda, Nov–Mar (decides the size of the winter-sun result)
+The user lives in Florence (15 Oct), so **no field photos in Porta**. Remote alternatives, which a Claude session can do:
+- [ ] Dated **iNaturalist** observations of *Tipuana tipu* and *Jacaranda mimosifolia* in Barcelona and other Mediterranean cities, Dec–Mar: count leafed vs bare per month. Why: the no-regret winter gain is −9% if Tipuana stays leafed in January and only −2% if it is bare (`shade_sponge/README.md`, sensitivity).
+- [ ] If iNaturalist is too thin: winter Google Street View captures of Porta's Tipuana and Jacaranda streets (check the capture date shown in Street View).
+Until then, the leaf state stays a cited input (Santos Nouri et al. 2018 for Tipuana) with the sensitivity range, stated as a limit.
 
 ## Before the 20 Oct meeting
 
@@ -16,10 +19,10 @@
 - [ ] **Methodology §12 proposed changes** (surface-weighted shade, SVF check, k as ASSUMPTION, R_OFF anchors, storage anchors for s): adopt or drop (`notes/methodology.md` §12).
 
 ### Requests that take time: send them first
-- [ ] **TRY data request** (try-db.org): the 21 species in `databases/traits/porta_trait_table.csv`. Ask for leaf phenology type, leaf area, wood vessel anatomy (ring- or diffuse-porous) and leaf wettability / water storage. Save the reply in `databases/TRY_DATABASE/` (git ignores it). Approval can take weeks, so nothing waits on it.
+- [x] **TRY data request sent** (user, by 15 Oct); waiting for the reply. Request covers the 21 species in `databases/traits/porta_trait_table.csv`. Ask for leaf phenology type, leaf area, wood vessel anatomy (ring- or diffuse-porous) and leaf wettability / water storage. Save the reply in `databases/TRY_DATABASE/` (git ignores it). Approval can take weeks, so nothing waits on it.
 - [ ] **Email the tutor** (one email, or bring it to the meeting):
   - [x] RESCCUE **flood depth maps**: found on 13 Oct as public tables (T10, T100, present/future) in the atlas's CARTO account, no login needed (`databases/data_inventory_barcelona.md` B1). Still worth asking: licence for thesis use, and whether a T = 1 yr run exists.
-  - [x] **Sent 13 Oct: RESCCUE licence email** to br@bcnregional.com; reminder by ~23 Oct if no reply (text and steps: `notes/resccue_data_request.md`).
+  - [x] **Sent 13 Oct: RESCCUE licence email** to br@bcnregional.com; waiting for the reply; reminder by ~23 Oct if none (text and steps: `notes/resccue_data_request.md`).
   - [ ] **Infrared City access**, plus three questions: (a) how are trees represented: geometry only, or porosity/LAI per species? (b) API limits for thousands of runs; (c) published validation against ENVI-met or Ladybug.
   - [ ] Confirm the **final delivery date** (18 Dec?), and whether **Grasshopper integration** is required by the programme.
   - [ ] Slide format for the 5-min talk (Google Slides assumed).
@@ -60,7 +63,7 @@ Then the gap and evidence papers:
 
 ## After 20 Oct
 - [ ] Rain-gauge data: request the BCASA high-resolution gauge series (1994–2019), and/or create a free Meteocat XEMA API key yourself. Both are optional, for replaying real storms.
-- [ ] Field check of crown temperature / MRT in Porta: probably not possible before December (no hot days). Decide whether to drop it.
+- [x] ~~Field check of crown temperature / MRT in Porta~~: dropped (user lives in Florence, 15 Oct). Heat validation relies on Ladybug vs ENVI-met and the papers in `notes/method_heat_validation.md`.
 
 ## Papers still to get (details in `notes/lit/to_get_manually.md`)
 - [ ] Heat validation, T1: Lopez-Cabeza et al. 2025 (open access, Huelva repository) and Lindberg & Grimmond 2011.
