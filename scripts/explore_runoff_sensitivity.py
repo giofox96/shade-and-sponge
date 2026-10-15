@@ -205,22 +205,24 @@ STY = "Styphnolobium japonicum"
 sty0 = sp.loc[STY, ["crown_diam_med", "lai_proxy_med"]].copy()
 P2 = marks["T2-60min"]
 brows = []
-for cdm in (6.0, 8.0, float(sty0.crown_diam_med)):
-    for lai_s in (2.61, float(sty0.lai_proxy_med)):
-        sp.loc[STY, ["crown_diam_med", "lai_proxy_med"]] = [cdm, lai_s]
-        for cm in ("mature", "young3"):
-            pals = palettes(cm)
-            for lc, lm in LAI_CASES.items():
-                for sk, sv in S_LEVELS.items():
-                    rr0 = tally(P2, sv, lm, None)[1]
-                    dd = {n: rr0 - tally(P2, sv, lm, ps)[1] for n, ps in pals.items()}
-                    singles = {n: v for n, v in dd.items() if n.startswith("single:")}
-                    best = min(singles, key=singles.get)
-                    brows.append(dict(sty_crown_m=cdm, sty_lai=lai_s, crown_mode=cm, lai_case=lc, s_level=sk, storm="T2-60min",
-                                      d_sty_vs_S0_m3=singles["single:Styphnolobium"],
-                                      sty_rank_of_7=1 + sum(v < singles["single:Styphnolobium"] - 0.005 for v in singles.values()),
-                                      best_single=best.split(":")[1], d_best_vs_S0_m3=singles[best], d_S1_vs_S0_m3=dd["S1"],
-                                      best_minus_S1_m3=dd["S1"] - singles[best]))
+# City-wide LiDAR sample (15 Oct, issue #42; databases/barcelona/styphnolobium_lidar_summary.csv, one 1 km tile, 6 neighbourhoods):
+# all_ok n = 607 (6.43 m, 2.28) and no_merge_flag n = 367 (5.32 m, 2.12), added as two crown/LAI pairs.
+PAIRS = [(c, l) for c in (6.0, 8.0, float(sty0.crown_diam_med)) for l in (2.61, float(sty0.lai_proxy_med))] + [(6.43, 2.28), (5.32, 2.12)]
+for cdm, lai_s in PAIRS:
+    sp.loc[STY, ["crown_diam_med", "lai_proxy_med"]] = [cdm, lai_s]
+    for cm in ("mature", "young3"):
+        pals = palettes(cm)
+        for lc, lm in LAI_CASES.items():
+            for sk, sv in S_LEVELS.items():
+                rr0 = tally(P2, sv, lm, None)[1]
+                dd = {n: rr0 - tally(P2, sv, lm, ps)[1] for n, ps in pals.items()}
+                singles = {n: v for n, v in dd.items() if n.startswith("single:")}
+                best = min(singles, key=singles.get)
+                brows.append(dict(sty_crown_m=cdm, sty_lai=lai_s, crown_mode=cm, lai_case=lc, s_level=sk, storm="T2-60min",
+                                  d_sty_vs_S0_m3=singles["single:Styphnolobium"],
+                                  sty_rank_of_7=1 + sum(v < singles["single:Styphnolobium"] - 0.005 for v in singles.values()),
+                                  best_single=best.split(":")[1], d_best_vs_S0_m3=singles[best], d_S1_vs_S0_m3=dd["S1"],
+                                  best_minus_S1_m3=dd["S1"] - singles[best]))
 sp.loc[STY, ["crown_diam_med", "lai_proxy_med"]] = sty0.values
 bdf = pd.DataFrame(brows)
 bdf.round(2).to_csv(DB / "runoff_sensitivity_styphnolobium.csv", index=False)
