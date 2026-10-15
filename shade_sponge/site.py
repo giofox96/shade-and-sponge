@@ -12,10 +12,25 @@ from . import topo
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 RAW, DB, EX = ROOT / "databases/barcelona/raw", ROOT / "databases/barcelona", ROOT / "exchange"
 RES = 1.0
+# Species whose Porta LiDAR sample is too small: crown/height/LAI medians replaced by a city-wide LiDAR sample (user, 15 Oct, issue #42).
+# Styphnolobium: 5 trees in Porta; no_merge_flag row = 367 trees on 25 streets in one 1 km tile (scripts/bcn_lidar_species_sample.py).
+CITY_LIDAR = {"Styphnolobium japonicum": ("styphnolobium_lidar_summary.csv", "no_merge_flag")}
 HAZARD_HIGH = 40        # Resilience Atlas flood-hazard index classes >= 40 = "high hazard" (same threshold as the site screening)
 CAPTURE_M = 100.0       # ASSUMPTION: surface water reaches a hotspot only if its flow path gets there within this distance
                         # (stand-in for sewer inlets taking it on the way; test 50–200 m). Unlimited: 97% of open ground
                         # would drain to some hotspot, so position would no longer matter
+
+
+def species_lidar():
+    """Per-species LiDAR medians (porta_species_lidar_summary.csv), with the CITY_LIDAR overrides applied.
+    The one place where the tool and the runoff scripts get species crown, height and LAI."""
+    sp = pd.read_csv(DB / "porta_species_lidar_summary.csv").set_index("species")
+    for name, (f, group) in CITY_LIDAR.items():
+        c = pd.read_csv(DB / f).set_index("group").loc[group]
+        sp.loc[name, ["n", "height_med", "crown_diam_med", "crown_base_med", "lai_proxy_med", "lai_proxy_iqr"]] = [
+            c.n, c.height_m_median, c.crown_diam_m_median, c.crown_base_m_median, c.lai_proxy_median, c.lai_proxy_iqr]
+        sp.loc[name, "gap_med"] = float("nan")     # not in the city summary; unused by the tool
+    return sp
 
 
 def norm(name):

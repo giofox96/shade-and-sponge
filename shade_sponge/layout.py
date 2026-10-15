@@ -6,18 +6,19 @@ NSGA-II comes later, if the weighted-sum front leaves gaps."""
 import itertools, numpy as np, pandas as pd
 from scipy import ndimage, sparse
 from scipy.optimize import linprog
-from .site import DB, rc
+from .site import rc, species_lidar
 from . import heat, runoff, season
 
 CITY_PALETTE = ["Celtis australis", "Melia azedarach", "Pyrus calleryana", "Jacaranda mimosifolia", "Tipuana tipu",
                 "Brachychiton populneus",   # named by the city as plane replacements (notes/topic_decision.md §7)
-                "Styphnolobium japonicum"]  # added by the user 14 Oct (press, inventory D1); crown from only 5 LiDAR trees = estimate
+                "Styphnolobium japonicum"]  # added by the user 14 Oct (press, inventory D1); crown + LAI from a city-wide LiDAR sample (site.CITY_LIDAR)
 MAX_SHARE = 0.15                            # tree master plan: no species above 15% (notes/topic_decision.md §7)
 
 
 def palette(site, names=CITY_PALETTE):
-    """Species traits = median of the species' trees in Porta (LiDAR 2021) and how many more each may get (cap)."""
-    s = pd.read_csv(DB / "porta_species_lidar_summary.csv").set_index("species").loc[names]
+    """Species traits = median of the species' trees in Porta (LiDAR 2021; city-wide sample where Porta has too few, site.CITY_LIDAR)
+    and how many more each may get (cap)."""
+    s = species_lidar().loc[names]
     p = pd.DataFrame(dict(species=names, crown_diam_m=s.crown_diam_med.values, height_m=s.height_med.values,
                           crown_base_m=s.crown_base_med.values, lai=s.lai_proxy_med.values, n_lidar=s.n.values))
     t = site.trees

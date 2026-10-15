@@ -14,6 +14,9 @@ from rasterio.features import rasterize
 from rasterio.transform import from_origin
 from rasterio.warp import reproject, Resampling
 from shapely.geometry import Point
+import sys
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parents[1]))
+from shade_sponge.site import species_lidar  # noqa: E402
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 RAW, DB, EX = ROOT / "databases/barcelona/raw", ROOT / "databases/barcelona", ROOT / "exchange"
@@ -29,7 +32,7 @@ P_ = dict(
 STORMS = [(1, 60), (2, 60), (10, 60), (2, 20)]          # (return period yr, duration min)
 CANDIDATES = ["Celtis australis", "Melia azedarach", "Tipuana tipu", "Jacaranda mimosifolia",
               "Pyrus calleryana", "Brachychiton populneus",
-              "Styphnolobium japonicum"]                # added 14 Oct (user); crown + LAI from only 5 LiDAR trees = estimate
+              "Styphnolobium japonicum"]                # added 14 Oct (user); crown + LAI from a city-wide LiDAR sample (15 Oct)
 YOUNG_CROWN_M = 3.0                                      # ASSUMPTION: crown diameter of a newly planted tree
 
 o = json.load(open(EX / "site_origin.json"))
@@ -109,7 +112,7 @@ def run(S, p):
 t = pd.read_csv(EX / "to_gh/porta_trees_lidar.csv")
 t = t[t.flag == "ok"].copy()
 t["x"], t["y"], t["lai"] = t.x + OX, t.y + OY, t.lai_proxy
-sp = pd.read_csv(DB / "porta_species_lidar_summary.csv").set_index("species")
+sp = species_lidar()   # Porta LiDAR medians + city-wide sample for Styphnolobium (shade_sponge/site.py CITY_LIDAR)
 # background canopy = LiDAR canopy > 2 m that is NOT a current street-tree crown (parks, squares, private gardens)
 street_now = rasterize(((Point(r.x, r.y).buffer(r.crown_diam_m / 2), 1) for r in t.itertuples()), out_shape=(H, W),
                        transform=T, fill=0).astype(bool)
