@@ -88,6 +88,31 @@ def to_png(svg):
                         "--force-device-scale-factor=2", svg.as_uri()], capture_output=True, timeout=60)
 
 
+# ---- shared rows: figures and fig_*.csv use the same data
+CARDS = [("31-49% \u2192 26-46%", "runoff cut by green infrastructure, 0.25-yr \u2192 1-yr storm", "Liu et al. 2026, dense catchment, no trees"),
+         ("28% \u2192 14%", "runoff cut by combined NbS, 2-yr \u2192 50-yr storm", "Esraz-Ul-Zannat et al. 2024, review"),
+         ("3.5-4% of runoff", "avoided by 31 street trees (shown by removal); peak flow unchanged", "Selbig et al. 2021; Coville et al. 2022, paired catchment"),
+         ("85% → 62%", "rain held by a 40-yr Zelkova crown, 2-yr → 25-yr 5-min storm", "Xiao & McPherson 2016, model; leaf-off only 16-26%")]
+BANDS = [("HELP BOTH", TREE, [
+    ("Leaf area (LAI, crown density)",
+     "Canopy density is the strongest driver of cooling (Rahman et al. 2019); LAI ranks among the top shade predictors and wide crowns help (Speak et al. 2020)",
+     "Interception rises with LAI / PAI (Anys & Weiler 2024); leaf-area density drives storage capacity (Baptista et al. 2018)"),
+    ("Crown size",
+     "Big, dense crowns with a low base give the best shade and comfort (Helletsgruber et al. 2020)",
+     "About 66 L of runoff avoided per m\u00b2 of canopy per leaf-on season (Selbig et al. 2021; Coville et al. 2022)")]),
+    ("PULL APART", WARN, [
+    ("Leaf habit and season",
+     "Dense LAI is best in summer, sparse LAI in winter (Peng et al. 2026); evergreen street trees were the weakest summer option for both heat and runoff (Wu et al. 2024)",
+     "Bare crowns hold far less rain: a Zelkova holds 85% of a 2-yr storm in leaf, 16% leaf-off (Xiao & McPherson 2016); Barcelona's intense storms come mainly in autumn (Resilience Atlas)"),
+    ("Water use",
+     "Transpiration cools the air more than shade: 1.15 vs 0.43 \u00b0C (Park et al. 2026); diffuse-porous Platanus transpires 2-3x ring-porous species (Bachofen et al. 2025)",
+     "Dry soils before a storm give ~10% more runoff reduction; wet soils give more cooling (Pace et al. 2025)")]),
+    ("LIMITS", MUTED, [
+    ("Context",
+     "Surface material can outweigh tree traits for surface cooling (Kaluarachchi et al. 2020)",
+     "Leafy crowns hold only the first 2-4 mm of a storm, so canopies work best in short, light storms (Kuehler et al. 2017)")])]
+
+
 # ---- 1. What the review covers
 def fig_lit_map():
     rows = [r for r in csv.DictReader(open(ROOT / "notes/lit/literature_matrix.csv", encoding="utf-8"))
@@ -128,13 +153,18 @@ def fig_lit_map():
 
 
 # ---- 2. Runoff evidence: species differ, effect fades with storm size
-def fig_runoff_evidence():
+def runoff_rows():
+    """Interception rows shown in fig 02 (left): first-hand, numeric, lo/hi parsed."""
     m = pd.read_csv(ROOT / "notes/lit/species_measurements.csv")
     m = m[(m.objective == "runoff") & m.measure.str.contains("interception") & (m.read_level != "secondary")
-          & m.value.astype(str).str.match(r"^[\d.]+(-[\d.]+)?$")]
+          & m.value.astype(str).str.match(r"^[\d.]+(-[\d.]+)?$")].copy()
     m[["lo", "hi"]] = m.value.astype(str).str.split("-", expand=True).reindex(columns=[0, 1]).astype(float).values
     m["hi"] = m.hi.fillna(m.lo)
-    m = m.sort_values("hi", ascending=False)
+    return m.sort_values("hi", ascending=False)
+
+
+def fig_runoff_evidence():
+    m = runoff_rows()
     ctx = {"Anys & Weiler 2024": "event mean, street trees, Freiburg", "Hassan et al. 2017": "annual, isolated trees, Spain",
            "Zabret & Sraj 2019": "share of rainfall over 2 years, Ljubljana", "Bean et al. 2021": "range by rain depth, Alabama",
            "Yang et al. 2019": "event mean, one tree, Seoul"}
@@ -161,10 +191,7 @@ def fig_runoff_evidence():
     b += n1
     x = 960
     b += t(x, 175, "...but the benefit fades as storms grow", 22, RAIN, "bold")
-    cards = [("31-49% \u2192 26-46%", "runoff cut by green infrastructure, 0.25-yr \u2192 1-yr storm", "Liu et al. 2026, dense catchment, no trees"),
-             ("28% \u2192 14%", "runoff cut by combined NbS, 2-yr \u2192 50-yr storm", "Esraz-Ul-Zannat et al. 2024, review"),
-             ("3.5-4% of runoff", "avoided by 31 street trees (shown by removal); peak flow unchanged", "Selbig et al. 2021; Coville et al. 2022, paired catchment"),
-             ("85% → 62%", "rain held by a 40-yr Zelkova crown, 2-yr → 25-yr 5-min storm", "Xiao & McPherson 2016, model; leaf-off only 16-26%")]
+    cards = CARDS
     y = 200
     for big, sub, src in cards:
         b += rect(x, y, 580, 130, RAIN, op=0.08) + rect(x, y, 6, 130, RAIN, rx=0)
@@ -180,24 +207,7 @@ def fig_traits():
     xh, xr, cw = 370, 975, 565
     b = rect(xh, 150, cw, 44, HEAT, op=0.12) + t(xh + 18, 179, "HEAT: shade + transpiration", 20, HEAT, "bold")
     b += rect(xr, 150, cw, 44, RAIN, op=0.12) + t(xr + 18, 179, "RUNOFF: canopy interception", 20, RAIN, "bold")
-    bands = [("HELP BOTH", TREE, [
-        ("Leaf area (LAI, crown density)",
-         "Canopy density is the strongest driver of cooling (Rahman et al. 2019); LAI ranks among the top shade predictors and wide crowns help (Speak et al. 2020)",
-         "Interception rises with LAI / PAI (Anys & Weiler 2024); leaf-area density drives storage capacity (Baptista et al. 2018)"),
-        ("Crown size",
-         "Big, dense crowns with a low base give the best shade and comfort (Helletsgruber et al. 2020)",
-         "About 66 L of runoff avoided per m\u00b2 of canopy per leaf-on season (Selbig et al. 2021; Coville et al. 2022)")]),
-        ("PULL APART", WARN, [
-        ("Leaf habit and season",
-         "Dense LAI is best in summer, sparse LAI in winter (Peng et al. 2026); evergreen street trees were the weakest summer option for both heat and runoff (Wu et al. 2024)",
-         "Bare crowns hold far less rain: a Zelkova holds 85% of a 2-yr storm in leaf, 16% leaf-off (Xiao & McPherson 2016); Barcelona's intense storms come mainly in autumn (Resilience Atlas)"),
-        ("Water use",
-         "Transpiration cools the air more than shade: 1.15 vs 0.43 \u00b0C (Park et al. 2026); diffuse-porous Platanus transpires 2-3x ring-porous species (Bachofen et al. 2025)",
-         "Dry soils before a storm give ~10% more runoff reduction; wet soils give more cooling (Pace et al. 2025)")]),
-        ("LIMITS", MUTED, [
-        ("Context",
-         "Surface material can outweigh tree traits for surface cooling (Kaluarachchi et al. 2020)",
-         "Leafy crowns hold only the first 2-4 mm of a storm, so canopies work best in short, light storms (Kuehler et al. 2017)")])]
+    bands = BANDS
     y = 208
     for band, col, rows in bands:
         b += t(60, y + 16, band, 15, col, "bold") + line(160, y + 11, 1540, y + 11, col, 1.5)
@@ -384,6 +394,44 @@ def fig_tree_system():
          "data_inventory_barcelona.md A1, B4. Bartens et al. 2008; Marrazzo & Raimondi 2025; Grey et al. 2018; Thom et al. 2020, 2022 (all read).")
 
 
+# ---- CSV exports (notes/lit/fig_*.csv): same rows as the figures
+def lit_level(s):
+    """1 = numeric measured value, 0.5 = qualitative / value not yet extracted, 0 = none (fig 05)."""
+    return 0 if pd.isna(s) else (1 if re.search(r"= ~?\d", s) else 0.5)
+
+
+def export_csvs():
+    d = ROOT / "notes/lit"
+    rows = [r for r in csv.DictReader(open(d / "literature_matrix.csv", encoding="utf-8"))
+            if not r["relevance_to_topic"].startswith("Not used")]
+    c = {}
+    for r in rows:
+        for b in r["bucket"].split("/"):
+            c.setdefault(b.strip(), [0, 0])["full text" in r["read_level"]] += 1
+    pd.DataFrame([(b, v[1], v[0], v[0] + v[1], "ready") for b, v in sorted(c.items())],
+                 columns=["bucket", "n_full_text", "n_abstract_only", "n_total", "status"]).to_csv(d / "fig_a_evidence_map.csv", index=False)
+    m = runoff_rows()
+    m["status"] = "provisional"   # one axis per measure_type; do not mix event %, annual % and storage mm
+    m[["measure_type", "species", "lo", "hi", "unit_or_note", "source", "matrix_row", "read_level", "status"]] \
+        .sort_values(["measure_type", "hi"], ascending=[True, False]).to_csv(d / "fig_b_interception_by_measure.csv", index=False)
+    pd.DataFrame([(big, sub, src, "provisional") for big, sub, src in CARDS],
+                 columns=["value", "claim", "source", "status"]).to_csv(d / "fig_c_storm_size.csv", index=False)
+    pd.DataFrame([(band, lab, side, txt, "provisional") for band, _, items in BANDS for lab, h, r_ in items
+                  for side, txt in (("heat", h), ("runoff", r_))],
+                 columns=["band", "trait", "side", "claim_with_source", "status"]).to_csv(d / "fig_f_shared_traits.csv", index=False)
+    tr = pd.read_csv(ROOT / "databases/traits/porta_trait_table.csv").set_index("species")
+    pal = ["Platanus \u00d7 acerifolia", "Celtis australis", "Melia azedarach", "Pyrus calleryana",
+           "Jacaranda mimosifolia", "Tipuana tipu", "Brachychiton populneus", "Styphnolobium japonicum"]
+    pd.DataFrame([(sp, int(tr.loc[sp].n_porta),
+                   float(pd.notna(tr.loc[sp].lidar_crown_diam_med) and pd.notna(tr.loc[sp].lidar_lai_proxy_med)),
+                   float(pd.notna(tr.loc[sp]["3tf_SLA"]) or pd.notna(tr.loc[sp]["3tf_WD"])),
+                   float(pd.notna(tr.loc[sp].brot_P50_MPa)), lit_level(tr.loc[sp].lit_runoff), lit_level(tr.loc[sp].lit_heat), "provisional")
+                  for sp in pal],
+                 columns=["species", "n_porta", "crown_lai_lidar", "leaf_wood_traits", "drought_P50", "rain_storage",
+                          "cooling", "status"]).to_csv(d / "fig_e_porta_trait_coverage.csv", index=False)
+    print("wrote notes/lit/fig_{a,b,c,e,f}_*.csv")
+
+
 if __name__ == "__main__":
     OUT.mkdir(parents=True, exist_ok=True)
     fig_lit_map()
@@ -393,3 +441,4 @@ if __name__ == "__main__":
     fig_palette()
     fig_method()
     fig_tree_system()
+    export_csvs()

@@ -1,0 +1,13 @@
+measure_type,species,lo,hi,unit_or_note,source,matrix_row,read_level,status
+annual_interception_pct,Quercus ilex,46.0,51.0,"% of annual P (Mediterranean Spain); 2-yr 47.4; one isolated tree, open dehesa",Hassan et al. 2017,8.0,full text,provisional
+annual_interception_pct,Pinus nigra,47.0,47.0,% of gross rainfall (abstract says 45%); LAI 4.3,Zabret & Sraj 2019,7.0,full text,provisional
+annual_interception_pct,Betula pendula,23.0,23.0,"% of gross rainfall, Ljubljana 2014-2015; leafed per-event mean 53%; LAI 2.6 leafed",Zabret & Sraj 2019,7.0,full text,provisional
+annual_interception_pct,Quercus pyrenaica,10.0,16.0,% of annual P; 2-yr 11.8; leafless Dec-Apr; one isolated tree,Hassan et al. 2017,8.0,full text,provisional
+event_interception_pct,Tilia cordata,70.3,70.3,% of gross rainfall; mean event 6.7 mm,Anys & Weiler 2024,1.0,full text digest,provisional
+event_interception_pct,Ginkgo biloba,57.93,57.93,"% of rain, Seoul, Sept-Oct 2018; range 40.8-82.8; whole-canopy whole-canopy LAI 1.98, central-section LAI 7.02 (the authors' driver)",Yang et al. 2019,5.0,full text,provisional
+event_interception_pct,Acer platanoides,54.8,54.8,% of gross rainfall,Anys & Weiler 2024,1.0,full text digest,provisional
+event_interception_pct,Quercus nigra,30.0,50.0,% depending on rain depth,Bean et al. 2021,2.0,full text digest,provisional
+event_interception_pct,Styphnolobium japonicum,35.79,35.79,"% of rain, Seoul, Sept-Oct 2018; listed as Sophora japonica; range 17.2-57.1; whole-canopy LAI 2.61, central-section LAI 5.11 (the authors' driver)",Yang et al. 2019,5.0,full text,provisional
+event_interception_pct,Aesculus turbinata,30.58,30.58,"% of rain, Seoul, Sept-Oct 2018; range 20.7-40.8; whole-canopy LAI 3.37, central-section LAI 6.37 (the authors' driver)",Yang et al. 2019,5.0,full text,provisional
+event_interception_pct,Zelkova serrata,20.59,20.59,"% of rain, Seoul, Sept-Oct 2018; range 9.6-30.6; whole-canopy LAI 3.28, central-section LAI 5.02 (the authors' driver)",Yang et al. 2019,5.0,full text,provisional
+event_interception_pct,Styphnolobium japonicum,4.0,4.3,"mm per event, per-species values not in abstract; Hefei",Ji et al. 2025,134.0,abstract,provisional
