@@ -1,0 +1,15 @@
+# Infographics plan for the 20 Oct talk (issue #10)
+
+Figures are built by `scripts/make_infographics.py` (SVG + PNG in `slides/fig/`). The same script now writes the `fig_*.csv` files in this folder (`python scripts/make_infographics.py`, or `export_csvs()` alone), so figures and CSVs share the same rows. `*` on a figure = abstract only.
+
+| Plan | Figure file | CSV | Source rows (from the figure footer) | Status | Caveats |
+|---|---|---|---|---|---|
+| (a) Evidence map | `01_lit_map` | `fig_a_evidence_map.csv` | `literature_matrix.csv`, all rows except "Not used" | ready | A paper can sit in two buckets, so `n_total` summed over buckets exceeds the number of papers. The subtitle count is computed from the matrix (135 rows on 16 Oct), but the outline says "81 sources" (slide 4, backup list): update it. |
+| (b) Interception by measure | `02_runoff_evidence` (left) | `fig_b_interception_by_measure.csv` | `species_measurements.csv`, first-hand numeric rows (matrix rows 1, 7, 8, ...) | provisional | The left panel puts event-mean %, annual % and share-of-rainfall % on one axis. The CSV is grouped by `measure_type`; split the panel by type, or keep the "ranges, not a ranking" note. Storage in mm (Xiao & McPherson 2016) is only a text note. |
+| (c) Effect fades with storm size | `02_runoff_evidence` (right) | `fig_c_storm_size.csv` | Liu 2026*, Esraz-Ul-Zannat 2024, Selbig 2021 / Coville 2022, Xiao & McPherson 2016 | provisional | Four cards with different metrics (green infrastructure vs trees, review vs measurement vs model), so no common axis. Liu 2026 is read from the abstract only. Wording "as H3 predicts" waits on the H3 decision. |
+| (d) Gap matrix | `04_gap_matrix` | none (rows are hard-coded in `fig_gap()`) | matrix rows 18, 28, 51-53, 56, 62, 69, 80 | ready (built as final) | `prior_art_matrix.csv` exists now (`notes/lit/`); check that the figure rows match it, and add the Dong 2026 narrowing from `notes/decisions/contribution_statement.md`. |
+| (e) Palette trait coverage | `05_palette_data_gap` | `fig_e_porta_trait_coverage.csv` | `databases/traits/porta_trait_table.csv` | provisional | The CSV holds the raw table-derived values (rain_storage and cooling = 1 where the table has a number, including second-hand or modelled ones). The figure overrides cells with a half ball plus footnote (a-g): rain storage is measured for Pyrus only and no species has a measured cooling value. Use the figure, or add an override column, before quoting the CSV. |
+| (f) Shared vs conflicting traits | `03_heat_runoff_traits` | `fig_f_shared_traits.csv` | matrix rows 1, 3, 6, 9-11, 13, 38-40, 42, 43, 45, 53, 56 | provisional | Each claim is a sentence with its citation, not a number. The "Water use" and "Leaf habit" rows depend on single studies. |
+| extra | `06_method_pipeline` | none | `notes/methodology.md` | ready | Status chips ("v1 done", "next") are dated 8 Oct. The heat module has moved on since (`shade_sponge/`). |
+
+`status`: ready = can be shown as is; provisional = numbers are right but the comparison is not on one axis or waits on a decision.

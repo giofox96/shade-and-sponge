@@ -27,8 +27,9 @@
 **Say:** "To test this I needed a neighbourhood with both hazards and many plane trees. I screened all 73 neighbourhoods with open data. To qualify, a neighbourhood had to be above the city's 60th percentile for flood hazard, surface heat and plane density at the same time. Porta, in Nou Barris, comes first at every threshold I tested. It has 832 plane trees, and the six species the city proposes as replacements already grow there, plus Styphnolobium, a seventh candidate named in the press. Sant Antoni floods more, but its heat is average, so it becomes my contrast site."
 
 ### 4. Literature, runoff side [2:05]
+**Fix before the talk:** the script said "81 sources" (now corrected); the matrix has 135 screened rows (128 read in full), and the figure `01_lit_map` counts them from the matrix.
 **Visual:** `slides/fig/02_runoff_evidence.png`, with `01_lit_map.png` small in a corner (or as a backup slide).
-**Say:** "The literature review covers 81 sources. On the runoff side, two findings matter. First, species differ. In field studies a crown intercepts roughly 10 to 70 percent of rainfall, and the main driver is leaf area. Second, the benefit fades as storms grow. A paired-catchment study measured a 3.5 to 4 percent cut in runoff volume from street trees, with no effect on peak flow. So trees are a tool for frequent storms, not for extreme events."
+**Say:** "The literature review covers 135 sources, 128 read in full. On the runoff side, two findings matter. First, species differ. In field studies a crown intercepts roughly 10 to 70 percent of rainfall, and the main driver is leaf area. Second, the benefit fades as storms grow. A paired-catchment study measured a 3.5 to 4 percent cut in runoff volume from street trees, with no effect on peak flow. So trees are a tool for frequent storms, not for extreme events."
 
 ### 5. Literature: same tree, two jobs [2:40]
 **Visual:** `slides/fig/03_heat_runoff_traits.png`
@@ -39,6 +40,7 @@
 **Say:** "Here is the gap. The closest precedents either assess heat and runoff for fixed scenarios without species traits, or optimise species and positions for heat only. One of them names a multi-objective version with water as future work. SylvCiT, the most advanced trait-based recommender, has its runoff module disabled. There is also a data gap. For the six replacement species we can measure crowns on site from LiDAR. But rain storage is measured for only one of them, and none has a measured cooling value."
 
 ### 7. Research question and hypotheses [3:55]
+**Waits on decision (user, tutor):** the T set (1/2/10 vs 2/5/10), the H1 comparison point and its minimum difference, the H2 wording (species vs positions), and the trade-off metric. See `notes/decisions/hypothesis_tests.md`.
 **On slide:**
 **RQ:** In Porta, as plane trees are replaced, which species and positions jointly reduce pedestrian heat stress (UTCI, peak summer hour) and event runoff volume (1-, 2-, 10-yr design storms)? How large is the trade-off?
 - **H1, synergy:** trait-based layouts beat like-for-like replacement on both goals.
@@ -48,10 +50,12 @@
 **Say:** "So my question is this. In Porta, as plane trees are replaced, which species and positions jointly reduce pedestrian heat stress, measured as UTCI at the peak summer hour, and runoff volume for 1-, 2- and 10-year design storms? And how large is the trade-off? I test three hypotheses. First, trait-based layouts beat a like-for-like replacement on both goals. Second, the heat and runoff optima differ mainly in species, not positions. Third, the runoff benefit shrinks as storms grow."
 
 ### 8. Method [4:30]
+**Waits on decision (tutor):** Infrared City vs Ladybug as the in-loop heat engine (access, per-species tree representation), and the f1 metric (`notes/decisions/heat_objective.md`). Update the "Ladybug heat module" sentence once decided.
 **Visual:** `slides/fig/06_method_pipeline.png`
 **Say:** "The method has five steps. From 2021 LiDAR I extract every tree's height, crown and a leaf-area proxy. A Python runoff module and a Ladybug heat module in Grasshopper score each layout. An NSGA-II search chooses the species at each of the 832 plane positions, under the city's 15 percent rule and a diversity floor. The output is a Pareto front between heat and runoff, which I will then test on Sant Antoni and on Florence."
 
 ### 9. First result and next steps [5:00]
+**Waits on decision (user, tutor):** "as H3 predicts" (H3 as a tested hypothesis or a declared model boundary), and runoff volume only vs a peak proxy (see Q&A "Why not peak flow?"). The last sentence asks for RESCCUE depth maps and Infrared City: keep it in step with `notes/tutor_questions_20oct.md`. The talk has no plan-to-18-Dec slide (methodology §10 has the plan): add one only if you want it, and it must fit in the 5:00.
 **Visual:** `notes/figures/runoff_results_v1.png`
 **On slide:** Street trees today: −1.9% runoff in a 2-yr storm (−2.9% on streets and squares); field benchmark 4% · young replacements lose >⅓ of the benefit · benefit shrinks with storm size (H3).
 **Say:** "The runoff module already runs. I calibrated canopy storage on open field data from Freiburg. Today's street trees cut runoff in a 2-year storm by 1.9 percent, or 2.9 percent on streets and squares. That is the same order as the 3.5 to 4 percent measured in the field. Replacing the planes with young trees loses more than a third of that benefit, and the benefit shrinks for bigger storms, as H3 predicts. The heat module is next. Two things would help me: the city's flood depth maps, and access to Infrared City."
@@ -73,7 +77,7 @@
 **Status of the evidence:** the water link rests on Park et al. 2026 (transpiration 1.15 °C vs shade 0.43 °C), Pace et al. 2025 (soil moisture: dry soils, more runoff reduction; wet soils, more cooling) and Mannucci et al. 2025 (irrigation trade-off). Bartens et al. 2008 is now read in full: roots raise infiltration through compacted subsoil (+63% overall and +153% in the more compacted soil; Ksat ×27 in structural soil over compacted subsoil), with no significant difference between oak and maple. Now also read in full: Grey et al. 2018 (Melbourne clay: 0.72 m² pits draining ~200 m² of street kept a median 11% of runoff; ~90% retention needs pits of 2.5–8% of their catchment; exfiltration, not the young tree, removes ≥ 88% of the water); Thom et al. 2020 (established evergreen street trees transpired the equivalent of 17% of the annual runoff from the ~200 m² catchment draining to each 6 m² trench, though the trenches did not raise their transpiration, probably because the trees were not water-limited); Thom et al. 2022 (13 species in pots: crop factor 0.33–1.56, *Pyrus calleryana* among the high transpirers). So the pit link is plausible for large, established crowns, but untested in the field for Barcelona's deciduous palette and autumn storms (only young or potted deciduous trees so far). Pit dimensions are not in the open inventory, which has irrigation type (`tipus_reg`) and water type (`tipus_aigua`) only.
 
 ### Other backup material
-- `slides/fig/01_lit_map.png`: what the 81 sources cover, and how many I read in full.
+- `slides/fig/01_lit_map.png`: what the 135 sources cover, and how many I read in full.
 - Site-selection robustness: 2,000 random weightings, thresholds at the 50th/60th/70th percentile (`notes/site_selection.md` §3–4).
 - Calibration: `notes/figures/interception_calibration.png` (s = 1.75 mm per unit LAI; 16 trees, 51 storms).
 - Sensitivity of the tree effect, s = 0.86–2.2 mm per unit LAI: 0.4–4.0% of total runoff (`databases/barcelona/runoff_sensitivity_storage.csv`).
