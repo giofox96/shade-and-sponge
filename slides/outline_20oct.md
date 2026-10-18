@@ -88,6 +88,16 @@
 ### Other backup material
 - `slides/fig/01_lit_map.png`: what the 81 sources cover, and how many I read in full.
 - Transferability in full (four degrees of transfer, the nine inputs, the parameters to re-derive): `notes/transferability.md`.
+
+### B2. If the tutor presses on transferability: the 22-city Catalan screening
+**Visual:** `slides/fig/11_catalonia_lidar_backup.png`
+**On slide:** 22 Catalan municipalities screened on criterion 1. **19 are leaf-on and classified**; 3 are leaf-on but unclassified (Girona, Vic, Figueres); 1 is leaf-off (Manresa). **Badalona, Santa Coloma and Sant Cugat were flown on Porta's exact mission day, 26 September 2021.**
+
+**Say (~60 words, only if asked):** "I screened twenty-two Catalan cities on the one input that decides a transfer. ICGC publishes only the flight year, so I read the date from the per-point GPS time in the cloud itself, and checked it against Porta, where it reproduces the date I already had. Nineteen are leaf-on and classified. Three are flown but unclassified, and one is flown in November."
+
+**The honest caveat, if pressed:** each date is one 150 × 150 m clip at the city centre, not a municipality-wide check — Rubí and Granollers split two missions inside a single clip, and a mission boundary runs through Porta's own tile. Data: `databases/catalonia_lidar_dates.csv`; full screening and its corrections: `notes/catalan_transfer_city.md`.
+
+**What it answers:** that the fallback is real and costed, not hand-waving — and the finding that lands hardest is the negative: **no Catalan city has a pluvial hazard map at all**, so Barcelona's RESCCUE model is why Porta was the right calibration site.
 - Site-selection robustness: 2,000 random weightings, thresholds at the 50th/60th/70th percentile (`notes/site_selection.md` §3–4).
 - Calibration: `notes/figures/interception_calibration.png` (s = 1.75 mm per unit LAI; 16 trees, 51 storms).
 - Sensitivity of the tree effect, s = 0.86–2.2 mm per unit LAI: 0.4–4.0% of total runoff (`databases/barcelona/runoff_sensitivity_storage.csv`).

@@ -440,6 +440,76 @@ def fig_transfer():
          "transfer_species_overlap.csv; catalan_transfer_city.md (ACA 3rd-cycle Annex 8 Taula 1; ICGC per-point GPS "
          "dates, sampled clips); Esbri et al. 2026 (storm months); phenology_palette.csv; notes/transferability.md.")
 
+# ---- 11. Backup: the 22-city Catalan LiDAR screening
+def fig_catalonia_lidar():
+    """Backup slide: when was each Catalan city flown, and is its cloud classified?
+    Data: databases/catalonia_lidar_dates.csv (see its header for provenance and limits)."""
+    rows = [r for r in csv.DictReader(ln for ln in open(ROOT / "databases/catalonia_lidar_dates.csv",
+                                                        encoding="utf-8") if not ln.startswith("#"))]
+    porta = next(r for r in rows if r["city"].startswith("Porta"))
+    same = [r for r in rows if r is not porta and r["flight_date"] == "2021-09-26" and r["note"].startswith("same")]
+    ok = [r for r in rows if r is not porta and r not in same and r["classified"] == "yes"]
+    unc = [r for r in rows if r["classified"] == "no" and r["leaf_on"] != "no"]
+    off = [r for r in rows if r["leaf_on"] == "no"]
+
+    def entry(x, y, r, col, show_density=True):
+        name = r["city"].replace(" de Llobregat", "").replace(" i la Geltru", "").replace(" del Valles", "")
+        name = name.replace("Porta Barcelona (control)", "Porta, Barcelona — control")
+        d = r["flight_date"]
+        if r["second_date"]:
+            d += " + " + r["second_date"][5:]
+        sub = d + (f"   {r['density_excl_overlap']} pts/m²" if show_density and r["density_excl_overlap"] else "")
+        return t(x, y, name, 17, col, "bold") + t(x, y + 19, sub, 14, MUTED)
+
+    b = ""
+    # band 1: the same-mission group
+    b += rect(45, 170, 1510, 104, TREE, op=0.1) + rect(45, 170, 6, 104, TREE, rx=0)
+    b += t(70, 198, "SAME MISSION DAY AS PORTA — 26 September 2021", 19, TREE, "bold")
+    b += t(70, 222, "zero season, sensor or campaign-year difference from the calibration site", 15, MUTED)
+    for i, r in enumerate([porta] + same):
+        x = 70 + i * 370
+        b += entry(x, 252, r, TREE if r is not porta else INK)
+
+    # band 2: leaf-on and classified
+    b += rect(45, 292, 1510, 300, TREE, op=0.05) + rect(45, 292, 6, 300, TREE, rx=0)
+    b += t(70, 320, f"LEAF-ON AND CLASSIFIED — {len(ok)} more cities, other 2021–22 missions", 19, TREE, "bold")
+    b += t(70, 344, "usable for the gap-fraction LAI proxy; densities exclude the class-12 overlap strips", 15, MUTED)
+    for i, r in enumerate(ok):
+        x, yy = 70 + (i % 4) * 370, 376 + (i // 4) * 54
+        b += entry(x, yy, r, INK)
+
+    # band 3: the exclusions
+    b += rect(45, 610, 735, 150, WARN, op=0.1) + rect(45, 610, 6, 150, WARN, rx=0)
+    b += t(70, 638, f"LEAF-ON BUT UNCLASSIFIED — {len(unc)}", 19, WARN, "bold")
+    b += t(70, 662, "no ground / vegetation / building classes in the clip: no gap fraction", 15, MUTED)
+    for i, r in enumerate(unc):
+        b += entry(70 + i * 235, 690, r, WARN, show_density=False)
+    b += t(70, 740, "Figueres is excluded by classification, not by phenology: April is leaf-on for 6 of the 8 palette species",
+           14, MUTED)
+
+    b += rect(810, 610, 745, 150, MUTED, op=0.1) + rect(810, 610, 6, 150, MUTED, rx=0)
+    b += t(835, 638, f"LEAF-OFF — {len(off)}", 19, MUTED, "bold")
+    b += t(835, 662, "ruled out on season, and unclassified as well", 15, MUTED)
+    for i, r in enumerate(off):
+        b += entry(835 + i * 235, 690, r, MUTED, show_density=False)
+    b += t(835, 740, "November: outside the May-October leaf-on window of every palette species", 14, MUTED)
+
+    # the caveat belongs on the slide, not only in the source line
+    cav, _ = para(70, 792, "How to read this: each date is from ONE 150x150 m clip at the city centre, so it is the "
+                  "date AT THE SAMPLED CLIP, not across the city. Rubi and Granollers split two missions inside a "
+                  "single clip, and a mission boundary runs through Porta's own tile.", 1470, 15, fill=INK)
+    b += rect(45, 768, 1510, 70, WARN, op=0.08) + rect(45, 768, 6, 70, WARN, rx=0) + cav
+
+    save("11_catalonia_lidar_backup", "22 Catalan cities, screened on the one input that decides a transfer",
+         "ICGC Territorial LiDAR v3: the per-sheet metadata gives only the flight YEAR, so each date was read from "
+         "PER-POINT GPS time in the cloud itself", b,
+         "databases/catalonia_lidar_dates.csv (see its header). LIMIT: one 150x150 m clip per city (~0.0225 km2) in "
+         "municipalities of 10-100+ km2 — read each date as 'at the sampled clip', not 'the city'; Rubi and Granollers "
+         "split missions inside one clip. Control: the Porta clip returned 867,739 points, 100% 2021-09-26, agreeing "
+         "with the date derived by a different route in data_inventory_barcelona.md section G. Leaf-on judged against "
+         "databases/traits/phenology_palette.csv. Full screening: notes/catalan_transfer_city.md.")
+
+
 if __name__ == "__main__":
     OUT.mkdir(parents=True, exist_ok=True)
     fig_lit_map()
@@ -450,3 +520,4 @@ if __name__ == "__main__":
     fig_method()
     fig_tree_system()
     fig_transfer()
+    fig_catalonia_lidar()
