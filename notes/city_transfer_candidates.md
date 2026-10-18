@@ -94,16 +94,23 @@ Then, unchanged from v1:
 4. **Name Valencia as the stated next step** in the thesis: Csa, PNOA 5 pts/m² published, open inventory, real dual hazard — blocked only on a pluvial map.
 5. **Drop Bologna** on flood type, quoting its own BLUE AP; that is now a documented argument, not an inference.
 
-## 7. The check that would change everything (do this before any email)
-The LAI proxy is the only reason a classified point cloud is criterion #1. Florence now offers a way to test whether it has to be:
+## 7. The check that would have changed everything — done, and the answer is no
+**Run 18 Oct** (`scripts/escapos_lai_check.py` → `databases/florence/escapos_lai_vs_porta.csv`). The hope was that *Life Escapos* — 1,459 Florence street trees carrying per-tree `lai` plus crown geometry — could calibrate LAI from species and crown size, taking the classified point cloud off the critical path for every transfer city.
 
-**Fit `lai ~ species + crown width + height` on the 1,459 Life Escapos trees**, then read crown width and height for the same trees off the **open, leaf-on 2023 CHM** (DSM−DTM, CC BY 4.0) and check the error against the measured LAI.
+**It cannot: the `lai` field is not a measurement.** Of 68 species, **51 carry one constant LAI value for every tree of that species** — covering **830 of 1,459 trees (57%)** — and the values are round (*Celtis australis* 3.5 for all 258 trees, *Cupressus* 4.5 for all 82, *Pyrus calleryana* 2.3, *Liriodendron* 1.3). That is a lookup table. The accompanying fields (`abg_mg`, `c_mg`, `co2_mg`, `o3_kg`, `pm10_kg`…) are an i-Tree-style ecosystem-service output set, so the whole table is model output, not field data. **Regressing `lai` on species would recover the lookup, not validate anything**, and it cannot be used to check the LiDAR gap-fraction proxy.
 
-- If the fit is adequate, **the point cloud leaves the critical path** — for Florence *and* for every future transfer city — and the screening rule in §1 collapses from "a classified leaf-on point cloud" to "an open leaf-on CHM plus an inventory", which most European cities have.
-- It needs **no permission, no email and no waiting**; both inputs are already open.
-- It is also a methodological result in its own right: it would let the thesis state how much of the Porta LAI proxy is really species-and-geometry, which is the question the LiDAR-proxy limitation in `notes/methodology.md` §4b already raises.
+**So criterion 1 stands**, and Florence still needs the Comune's 27 Jun 2023 cloud. The request must ask about **points/m², returns per pulse, and whether vegetation returns are retained** *before* asking about licence: a leaf-on classified cloud thinned to ground + first pulse cannot produce a gap fraction.
 
-If the fit fails, Florence needs the Comune's 27 Jun 2023 cloud, and the request must ask about **points/m², returns per pulse and whether vegetation returns are retained** *before* licence — a leaf-on classified cloud thinned to ground + first pulse cannot produce a gap fraction.
+**What the dataset is worth instead.** For the 18 species Porta and Florence share, it gives an independent (if database-derived) cross-check on our proxy — and the result is reassuring in a way that is itself informative:
+
+| Escapos LAI source | shared species | median LAI ratio, Escapos / Porta proxy |
+|---|---|---|
+| modelled per tree | 5 | **1.13** |
+| one flat value per species | 13 | **1.40** |
+
+The apparent 25–40% gap is **mostly an artefact of the flat lookup values**, not evidence that our proxy is low. The cleanest comparison is *Platanus × acerifolia*, the species Escapos models per tree (71 distinct values) and Porta's largest sample (807 trees): **LAI 2.51 vs proxy 2.31 (ratio 1.09), with identical median crown diameter, 8.35 m on both sides**. That is close agreement on the thesis's most important species, and it tempers the methodology §4b worry that the LiDAR proxy is badly low.
+
+Two palette species also gain a species-level LAI value from an independent source where `species_coverage.csv` records none: ***Celtis australis* 3.5** and ***Pyrus calleryana* 2.3**. Use them as database values with that label, never as measurements. *Melia*, *Jacaranda*, *Tipuana*, *Brachychiton* and *Styphnolobium* are absent from Florence's street stock.
 
 ## 6. Open checks, cheapest first
 - [ ] **ACA's list of the 44 municipalities with pluvial risk** (the press note cites it; the list is in the ACA planning-cycle annexes on aca.gencat.cat). Cross it with Catalan cities that publish a tree inventory → this alone produces the shortlist for recommendation 2.
