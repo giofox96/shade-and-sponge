@@ -5,7 +5,7 @@ databases/traits/porta_trait_table.csv and notes/methodology.md; every figure pr
 "*" = assessed from the abstract only. PNG export uses headless Edge/Chrome (no extra Python packages).
 Output: slides/fig/*.svg, slides/fig/*.png
 """
-import csv, re, shutil, subprocess, tempfile, pathlib, textwrap
+import csv, os, re, shutil, subprocess, tempfile, pathlib, textwrap
 from xml.sax.saxutils import escape
 import pandas as pd
 
@@ -76,14 +76,18 @@ def save(name, title, subtitle, body, source):
 
 
 def to_png(svg):
-    exe = next((e for e in (r"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe",
-                            r"C:\Program Files\Google\Chrome\Application\chrome.exe",
-                            shutil.which("msedge"), shutil.which("chrome")) if e and pathlib.Path(e).exists()), None)
+    """Headless Edge/Chrome/Chromium screenshot. Windows first (the user's machine), then the Chromium a cloud session has."""
+    cand = [r"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe",
+            r"C:\Program Files\Google\Chrome\Application\chrome.exe",
+            shutil.which("msedge"), shutil.which("chrome"), shutil.which("chromium")]
+    cand += sorted(str(p) for p in pathlib.Path("/opt/pw-browsers").glob("chromium*/chrome-linux/chrome"))
+    exe = next((e for e in cand if e and pathlib.Path(e).exists()), None)
     if not exe:
         print("  no Edge/Chrome found: PNG skipped")
         return
+    flags = [] if os.name == "nt" else ["--no-sandbox"]          # headless Chromium refuses to start as root otherwise
     with tempfile.TemporaryDirectory(ignore_cleanup_errors=True) as prof:   # Edge may still hold profile files
-        subprocess.run([exe, "--headless", "--disable-gpu", "--hide-scrollbars", f"--user-data-dir={prof}",
+        subprocess.run([exe, "--headless", "--disable-gpu", "--hide-scrollbars", f"--user-data-dir={prof}", *flags,
                         f"--screenshot={svg.with_suffix('.png')}", f"--window-size={W},{H}",
                         "--force-device-scale-factor=2", svg.as_uri()], capture_output=True, timeout=60)
 
@@ -384,6 +388,57 @@ def fig_tree_system():
          "data_inventory_barcelona.md A1, B4. Bartens et al. 2008; Marrazzo & Raimondi 2025; Grey et al. 2018; Thom et al. 2020, 2022 (all read).")
 
 
+# ---- 8. Transferability: what a new site costs
+def fig_transfer():
+    cities = [("Barcelona", "Porta, calibration", TREE, 780), ("Florence", "planned transfer", WARN, 900),
+              ("Bologna", "inventoried fallback", MUTED, 1020)]
+    b = "".join(t(x, 196, name, 19, col, "bold", "middle") + t(x, 216, sub, 14, MUTED, anchor="middle")
+                for name, sub, col, x in cities)
+    b += t(1090, 206, "What it costs to move the method", 17, INK, "bold")
+    rows = [("Boundary, buildings, DTM", "domain, building shadows, flow routing", [1, 1, .5],
+             "OSM footprints and a national DEM exist nearly everywhere; a 10 m DEM degrades the routing"),
+            ("Tree inventory: species + position", "baseline stock and the positions to replace", [1, 1, 1],
+             "140,404 / 82,226 / 87,796 trees. The one input the method cannot derive itself"),
+            ("Classified leaf-on point cloud", "crown, crown base, LAI proxy from gap fraction", [1, .5, .5],
+             "A 1 m DSM gives height, not gap fraction: species differences collapse to crown size"),
+            ("Design rainfall (IDF)", "design storms T = 1, 2, 10 yr", [1, 1, 0],
+             "Barcelona PDISBA, Florence a 1 km a-n grid; Bologna has no grid: fit it from gauge maxima"),
+            ("Pluvial flood map", "where runoff matters: the hotspot target", [1, .5, .5],
+             "Our own routing is not one: ROC AUC 0.52 against RESCCUE depth in Porta"),
+            ("Weather file (EPW)", "UTCI inputs and design hours", [1, 1, 1],
+             "TMYx coverage is global; the airport-vs-centre bias is a stated limit everywhere"),
+            ("Measured species traits", "trait table and gap-filling classes", [.5, .5, 0],
+             "A runoff or heat value for 40% of trees in Barcelona, 19% in Florence, both for 7%"),
+            ("Leaf calendar + storm season", "LAI per month, storm weighting", [1, 0, 0],
+             "City-specific: 78% of Barcelona's intense storm days fall in May-Oct, all in full leaf"),
+            ("Policy cap + replacement palette", "the feasible species set", [1, 0, 0],
+             "The 15% cap and the plane replacement are Barcelona's: elsewhere the decision variable changes")]
+    y = 238
+    for name, sub, v, cost in rows:
+        hard = v[1] < 1 or v[2] < 1
+        b += rect(45, y - 6, 1510, 50, WARN if hard else TREE, op=0.07)
+        b += t(60, y + 16, name, 19, INK, "bold") + t(60, y + 36, sub, 15, MUTED)
+        for (_, _, col, x), val in zip(cities, v):
+            b += ball(x, y + 20, val, col, 14)
+        p, _ = para(1090, y + 24, cost, 460, 15, fill=INK)
+        b += p
+        y += 52
+    for i, (val, lab) in enumerate(((1, "available"), (0.5, "to confirm"), (0, "not found"))):
+        b += ball(66 + i * 150, y + 24, val, INK, 10) + t(84 + i * 150, y + 30, lab, 15, MUTED)
+    cards = [("SITE-AGNOSTIC", TREE, "flow routing · sun and shadow geometry · SCS-CN runoff"),
+             ("NEEDS LOCAL INPUTS", WARN, "site adapter and thresholds · leaf calendar and storms · palette and cap"),
+             ("DESIGN MODE NEEDS LESS", RAIN, "the designer supplies the positions: only an EPW, a DTM and traits stay mandatory")]
+    x, w = 540, 325
+    for head, col, txt in cards:
+        p, _ = para(x + 18, y + 48, txt, w - 36, 15, fill=INK)
+        b += rect(x, y + 8, w, 112, col, rx=10, op=0.1) + t(x + 18, y + 34, head, 17, col, "bold") + p
+        x += w + 20
+    save("10_transferability", "The code travels, the evidence does not",
+         "What the method needs at a new site: Porta (calibration) vs the two inventoried transfer candidates", b,
+         "data_inventory_barcelona.md A1, A3, A7, B1-B2, C4, D1-D2, G; data_inventory.md B1, B3, B5-B7, F1, F3, F5-F7; "
+         "topic_decision.md 6.1 (trait coverage); methodology.md 4 validation (iii) (routing vs RESCCUE depth); "
+         "transfer_species_overlap.csv; Esbri et al. 2026 (storm months); notes/transferability.md.")
+
 if __name__ == "__main__":
     OUT.mkdir(parents=True, exist_ok=True)
     fig_lit_map()
@@ -393,3 +448,4 @@ if __name__ == "__main__":
     fig_palette()
     fig_method()
     fig_tree_system()
+    fig_transfer()

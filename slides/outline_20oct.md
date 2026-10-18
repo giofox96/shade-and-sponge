@@ -1,8 +1,9 @@
-# 5-minute talk, 20 Oct 2026: slide outline and script (draft v1, 8 Oct)
+# 5-minute talk, 20 Oct 2026: slide outline and script (draft v2, 18 Oct)
 
-**Format:** 9 slides, 16:9, Google Slides. Figures: `slides/fig/*.png` (insert as images) or `*.svg` (to edit). Regenerate them with `python scripts/make_infographics.py`.
-**Script:** about 650 words, which is about 4 min 40 s at a calm 140 words per minute and leaves 20 s of slack. The times in brackets are the cumulative target.
-**Sources:** every number is from `notes/topic_decision.md` §7, `notes/site_selection.md`, `notes/methodology.md` §4b, or the figures' own source lines. `*` on a figure = read from the abstract only. Get the full texts before the talk (see `notes/todo_manual.md`).
+**Format:** 10 slides, 16:9, Google Slides. Figures: `slides/fig/*.png` (insert as images) or `*.svg` (to edit). Regenerate them with `python scripts/make_infographics.py`.
+**Script:** about 710 words, which is about 5 min 05 s at a calm 140 words per minute. The times in brackets are the cumulative target.
+**Changes on 18 Oct:** slide 10 on transferability added (`notes/transferability.md`); to pay for it, slide 3 lost the screening detail that the bullets already carry, slide 6 one precedent clause, and slide 9's closing ask moved to slide 10. If the 5 minutes are strict, cut slide 3 or 9 further rather than slide 10.
+**Sources:** every number is from `notes/topic_decision.md` §7, `notes/site_selection.md`, `notes/methodology.md` §4b, `notes/transferability.md`, or the figures' own source lines. `*` on a figure = read from the abstract only. Get the full texts before the talk (see `notes/todo_manual.md`).
 
 ---
 
@@ -21,24 +22,24 @@
 **Visual:** two icons (rain / sun) over one street section.
 **Say:** "Two hazards hit the same streets. Barcelona's sealed surface grew from 45 to 72 percent between 1956 and 2009. About three storms a year exceed 60 millimetres per hour in their first twenty minutes, and they flood streets where the sewer is too small. In summer, the city carries one of Europe's highest heat-island mortality burdens. Meanwhile, the tree master plan caps every species at 15 percent. Plane trees are about 29 percent of street trees, so many will be replaced, and that choice affects both hazards."
 
-### 3. Why Porta [1:20]
+### 3. Why Porta [1:25]
 **On slide:** First of 73 neighbourhoods at every threshold · flood #13 · surface heat #11 (+1.36 °C) · heat vulnerability #12 · 832 plane trees · the six named replacement species, plus *Styphnolobium*, already grow there.
 **Visual:** `notes/figures/porta_profile.png` (or `bcn_site_screening.png`).
-**Say:** "To test this I needed a neighbourhood with both hazards and many plane trees. I screened all 73 neighbourhoods with open data. To qualify, a neighbourhood had to be above the city's 60th percentile for flood hazard, surface heat and plane density at the same time. Porta, in Nou Barris, comes first at every threshold I tested. It has 832 plane trees, and the six species the city proposes as replacements already grow there, plus Styphnolobium, a seventh candidate named in the press. Sant Antoni floods more, but its heat is average, so it becomes my contrast site."
+**Say:** "To test this I needed a neighbourhood with both hazards and many plane trees. I screened all 73 with open data: to qualify, one had to be above the city's 60th percentile for flood hazard, surface heat and plane density at the same time. Porta, in Nou Barris, comes first at every threshold. It has 832 plane trees, and the seven candidate replacement species already grow there. Sant Antoni floods more, but its heat is average, so it becomes my contrast site."
 
-### 4. Literature, runoff side [2:05]
+### 4. Literature, runoff side [2:00]
 **Visual:** `slides/fig/02_runoff_evidence.png`, with `01_lit_map.png` small in a corner (or as a backup slide).
 **Say:** "The literature review covers 81 sources. On the runoff side, two findings matter. First, species differ. In field studies a crown intercepts roughly 10 to 70 percent of rainfall, and the main driver is leaf area. Second, the benefit fades as storms grow. A paired-catchment study measured a 3.5 to 4 percent cut in runoff volume from street trees, with no effect on peak flow. So trees are a tool for frequent storms, not for extreme events."
 
-### 5. Literature: same tree, two jobs [2:40]
+### 5. Literature: same tree, two jobs [2:25]
 **Visual:** `slides/fig/03_heat_runoff_traits.png`
 **Say:** "On the heat side, leaf area and crown size also drive shade and cooling, so the two goals share drivers. But they also pull apart. Leaf habit decides whether a crown is there for summer heat or for autumn storms. And transpiration, the stronger air-cooling effect, needs water. That is why one score is not enough: species choice needs a multi-objective search."
 
-### 6. The gap [3:20]
+### 6. The gap [3:00]
 **Visual:** `slides/fig/04_gap_matrix.png` (main) and `05_palette_data_gap.png` (click-in, or next to it).
-**Say:** "Here is the gap. The closest precedents either assess heat and runoff for fixed scenarios without species traits, or optimise species and positions for heat only. One of them names a multi-objective version with water as future work. SylvCiT, the most advanced trait-based recommender, has its runoff module disabled. There is also a data gap. For the six replacement species we can measure crowns on site from LiDAR. But rain storage is measured for only one of them, and none has a measured cooling value."
+**Say:** "Here is the gap. The closest precedents either assess heat and runoff for fixed scenarios without species traits, or optimise species and positions for heat only. SylvCiT, the most advanced trait-based recommender, has its runoff module disabled. There is also a data gap. For the six replacement species we can measure crowns on site from LiDAR. But rain storage is measured for only one of them, and none has a measured cooling value."
 
-### 7. Research question and hypotheses [3:55]
+### 7. Research question and hypotheses [3:30]
 **On slide:**
 **RQ:** In Porta, as plane trees are replaced, which species and positions jointly reduce pedestrian heat stress (UTCI, peak summer hour) and event runoff volume (1-, 2-, 10-yr design storms)? How large is the trade-off?
 - **H1, synergy:** trait-based layouts beat like-for-like replacement on both goals.
@@ -47,14 +48,25 @@
 
 **Say:** "So my question is this. In Porta, as plane trees are replaced, which species and positions jointly reduce pedestrian heat stress, measured as UTCI at the peak summer hour, and runoff volume for 1-, 2- and 10-year design storms? And how large is the trade-off? I test three hypotheses. First, trait-based layouts beat a like-for-like replacement on both goals. Second, the heat and runoff optima differ mainly in species, not positions. Third, the runoff benefit shrinks as storms grow."
 
-### 8. Method [4:30]
+### 8. Method [4:05]
 **Visual:** `slides/fig/06_method_pipeline.png`
 **Say:** "The method has five steps. From 2021 LiDAR I extract every tree's height, crown and a leaf-area proxy. A Python runoff module and a Ladybug heat module in Grasshopper score each layout. An NSGA-II search chooses the species at each of the 832 plane positions, under the city's 15 percent rule and a diversity floor. The output is a Pareto front between heat and runoff, which I will then test on Sant Antoni and on Florence."
 
-### 9. First result and next steps [5:00]
+### 9. First result and next steps [4:40]
 **Visual:** `notes/figures/runoff_results_v1.png`
 **On slide:** Street trees today: −1.9% runoff in a 2-yr storm (−2.9% on streets and squares); field benchmark 4% · young replacements lose >⅓ of the benefit · benefit shrinks with storm size (H3).
-**Say:** "The runoff module already runs. I calibrated canopy storage on open field data from Freiburg. Today's street trees cut runoff in a 2-year storm by 1.9 percent, or 2.9 percent on streets and squares. That is the same order as the 3.5 to 4 percent measured in the field. Replacing the planes with young trees loses more than a third of that benefit, and the benefit shrinks for bigger storms, as H3 predicts. The heat module is next. Two things would help me: the city's flood depth maps, and access to Infrared City."
+**Say:** "The runoff module already runs. I calibrated canopy storage on open field data from Freiburg. Today's street trees cut runoff in a 2-year storm by 1.9 percent, or 2.9 percent on streets and squares. That is the same order as the 3.5 to 4 percent measured in the field. Replacing the planes with young trees loses more than a third of that benefit, and the benefit shrinks for bigger storms, as H3 predicts. The heat module is next."
+
+### 10. Transferability: the code travels, the evidence does not [5:05]
+**Visual:** `slides/fig/10_transferability.png`
+**On slide:**
+- Site-agnostic core: 3 of the 6 modules carry no local constant (routing, shade geometry, SCS-CN). A new site = one data adapter.
+- The transfer bill is **data**: inventory · leaf-on point cloud · IDF · flood map · traits · phenology · policy.
+- Florence: inventory (82,226 trees), 1 m LiDAR and a 1 km IDF grid available; measured traits for **19% of trees vs 40%** here; the pluvial hotspot map must be requested from its authors.
+- **64% of Florence's top-30 trees are species already measured in Porta** (74% at genus level); the gap is the Mediterranean evergreens (*Quercus ilex*, *Olea*).
+- Two hard dependencies: a **classified leaf-on point cloud** (the LAI proxy) and a **city flood map** (our own routing is not one: AUC 0.52).
+
+**Say:** "Last, transferability. The core is site-agnostic: half the modules carry no local constant. Florence has the inventory, the LiDAR and the rainfall grid, but half the measured traits and no usable pluvial map. And the fifteen percent cap is Barcelona's own. So the method transfers; the data has to be rebuilt each time. Two things would help me: the city's flood depth maps, and access to Infrared City."
 
 ---
 
@@ -74,6 +86,7 @@
 
 ### Other backup material
 - `slides/fig/01_lit_map.png`: what the 81 sources cover, and how many I read in full.
+- Transferability in full (four degrees of transfer, the nine inputs, the parameters to re-derive): `notes/transferability.md`.
 - Site-selection robustness: 2,000 random weightings, thresholds at the 50th/60th/70th percentile (`notes/site_selection.md` §3–4).
 - Calibration: `notes/figures/interception_calibration.png` (s = 1.75 mm per unit LAI; 16 trees, 51 storms).
 - Sensitivity of the tree effect, s = 0.86–2.2 mm per unit LAI: 0.4–4.0% of total runoff (`databases/barcelona/runoff_sensitivity_storage.csv`).
@@ -83,4 +96,5 @@
 - **Why not peak flow?** Field evidence shows that trees barely change peak flow (Selbig et al. 2021). Volume is what they can change.
 - **Hasn't Tan & Liu 2026 done this?** They optimise species and positions of 30 trees for heat (UTCI), CO2 and diversity in a Chicago block, with a similar Grasshopper + NSGA-II approach and a Random Forest surrogate. They have no runoff, use four common Chicago street trees at 5 years old (US allometry) and one summer hour. This thesis adds runoff, the city's own replacement palette and the seasons.
 - **Is a 2% effect worth a thesis?** The thesis is the method and the trade-off, not a big runoff number. H3 states the limit openly, and the heat side may dominate.
+- **Does this only work in Barcelona?** The code does not: a new site is one adapter (`build_<name>()` + `trees_<name>()`), and routing, shade geometry and SCS-CN carry no local constant. The evidence does: traits, leaf calendar, storm season, flood map and the 15% cap are all local. Sant Antoni costs days, Florence 2-3 weeks, and a city without a leaf-on point cloud loses the measured LAI. Detail: `notes/transferability.md`.
 - **Where do species values come from, if most are not measured?** LiDAR crowns and LAI on site, database traits, and genus or leaf-habit proxies with sensitivity ranges. TRY and i-Tree requests are pending.

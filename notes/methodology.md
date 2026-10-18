@@ -80,6 +80,7 @@ Tests H1 (S4 vs S1 on both objectives), H2 (species composition of S2 vs S3) and
 
 ## 8. Test / transfer phase
 Same pipeline on **Sant Antoni** (flood-dominant contrast) and **Florence** (transfer: Pacetti 2022 hotspots, 82k-tree inventory, LiDAR 1 m, regional IDF grid). Questions: do the trade-off pattern and the species ranking hold?
+What the transfer costs, input by input, and which parameters must be re-derived rather than copied: **`notes/transferability.md`** (four degrees of transfer; the two hard dependencies are a classified leaf-on point cloud and a city pluvial flood map). Measured overlap: 63.5% of Florence's top-30 trees are species already parameterised in Porta (`scripts/transfer_species_overlap.py` -> `databases/transfer_species_overlap.csv`).
 
 ## 9. Tools
 Python (geopandas, rasterio, pymoo; LiDAR via laspy/PDAL) · Rhino 8 + Grasshopper + **Ladybug Tools / Honeybee** · Infrared City API (later) · Hops (connects Python modules to Grasshopper) · Git/GitHub · Zotero. Exchange conventions: `exchange/README.md`.
