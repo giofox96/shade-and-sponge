@@ -72,4 +72,5 @@ The thesis asks **which species replace Porta's plane trees**. That question exi
 - [ ] Tuscany HSG 1:10,000 download location (F2) — the only soil input the runoff module needs beyond CN assumptions.
 - [ ] Re-derive the Florence storm season and leaf calendar, or state that the Barcelona values are used unchanged (and run them in sensitivity).
 - [ ] Decide with the tutor whether T1 (Florence) stays a chapter or becomes a discussion section, given the 18 Dec deadline (open question in `notes/agent_backlog.md`).
+- [ ] Which city T1 should be: `notes/city_transfer_candidates.md` screens the alternatives (18 Oct). Headline: the leaf-on point cloud is the binding input, Catalonia's ICGC coverage (>=8 pts/m²) is the best of every programme checked, so a second Catalan city is the cheapest credible transfer and Valencia the best cross-country one.
 - [ ] A climate-fit filter for candidate species at a new site is still on the tool's own "next" list (`shade_sponge/README.md`).
