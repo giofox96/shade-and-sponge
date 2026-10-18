@@ -60,9 +60,34 @@ Institute for Advanced Architecture of Catalonia (IAAC), Barcellona
 
 ---
 
+## Using your professional standing (user is a licensed architect in Italy)
+
+**What it changes.** A request signed by an *architetto iscritto all'Ordine*, with an albo number, reads to a technical office as a professional undertaking rather than a student enquiry, and it makes one specific lever credible: **offering to sign a *dichiarazione di utilizzo dei dati*** — a written declaration of the scope of use, of non-redistribution of the raw cloud, and of the attribution formula. In Italian municipalities that declaration is very often what unlocks a dataset sitting in an *accesso riservato* tier, because it gives the office something to file. Offer it explicitly rather than waiting to be asked.
+
+**What it does NOT change — do not waste a request on this.** Being registered with an Ordine does **not** make you an *ente pubblico*. The Regione Toscana 2019–2021 LiDAR is restricted *"solo per enti pubblici"* (owner: Italian Remote Sensing S.r.l.), and professional registration does not satisfy that condition. That dataset stays out of reach either way; the Comune's own 27 June 2023 survey is the target.
+
+**One honest-framing warning.** The purpose of this request is a **master's thesis**, i.e. research. Present the qualification as what it is — professional standing that supports a commitment to handle the data properly — and keep the stated purpose research. Do not let the letter imply a commissioned professional job that does not exist: a technical officer who later discovers the work was academic will remember it, and the Comune's SIT is a small office you may need again.
+
+**Worth one phone call, unverified:** whether the **Ordine degli Architetti PPC di Firenze** has any standing arrangement with the Comune for access to municipal cartography. This note has *not* checked that; if such a convention exists it would be a faster route than an individual request.
+
+### Paragraph to insert in the letter (after the "Perché serve la nuvola di punti" paragraph)
+
+> **Qualifica e impegni d'uso.** Sono architetto abilitato e iscritto all'Ordine degli Architetti P.P.C. di [PROVINCIA] al n. [NUMERO]; la presente richiesta è tuttavia formulata a **fini di ricerca**, nell'ambito della tesi di master sopra descritta. Sono pienamente disponibile a sottoscrivere una **dichiarazione di utilizzo dei dati** che specifichi l'ambito della ricerca, l'impegno a **non ridistribuire la nuvola di punti grezza** e la formula di citazione della fonte che il Comune riterrà corretta, nonché a concordare qualsiasi ulteriore condizione il Vostro ufficio ritenga opportuna.
+
+### Signature block, revised
+
+> Cordiali saluti,
+> **[NOME COGNOME]**
+> Architetto — Ordine degli Architetti P.P.C. di [PROVINCIA], n. [NUMERO]
+> Studente, Master in Advanced Computation for Architecture & Design (MaCAD)
+> Institute for Advanced Architecture of Catalonia (IAAC), Barcellona
+> [email] — [telefono] — [PEC, se la usi]
+
+Add your **PEC** if you have one as a professional: a PEC-to-PEC exchange with the Comune is formally tracked and tends to be answered more reliably than ordinary email. If you send from PEC, address it to the Comune's protocol PEC and name the SIT in the subject line.
+
 ## If you go in person: what to say in 30 seconds
 
-> "Buongiorno, sono uno studente di un master in architettura computazionale allo IAAC di Barcellona. Sto facendo una tesi sugli alberi stradali e uso già i vostri dati aperti sugli alberi; ho visto che pubblicate anche il DTM e il DSM LiDAR del 2023. Avrei bisogno di sapere tre cose tecniche sul volo del 27 giugno 2023: la densità di punti al metro quadrato, se sono stati registrati più ritorni per impulso e se i ritorni sulla vegetazione sono stati conservati, e se la nuvola di punti è classificata. Se la risposta alle prime due è sì, vorrei chiedere se è possibile avere la nuvola di punti di una zona limitata, Rifredi–Novoli, e sapere con quale licenza."
+> "Buongiorno, sono architetto e sto facendo un master in architettura computazionale allo IAAC di Barcellona. Sto facendo una tesi sugli alberi stradali e uso già i vostri dati aperti sugli alberi; ho visto che pubblicate anche il DTM e il DSM LiDAR del 2023. Avrei bisogno di sapere tre cose tecniche sul volo del 27 giugno 2023: la densità di punti al metro quadrato, se sono stati registrati più ritorni per impulso e se i ritorni sulla vegetazione sono stati conservati, e se la nuvola di punti è classificata. Se la risposta alle prime due è sì, vorrei chiedere se è possibile avere la nuvola di punti di una zona limitata, Rifredi–Novoli, e sapere con quale licenza."
 
 Then hand over the printed letter.
 
