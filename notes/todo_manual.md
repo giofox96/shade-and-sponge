@@ -75,3 +75,17 @@ Then the gap and evidence papers:
 ## Housekeeping
 - [ ] The Zotero MCP server timed out in this session. Restart Claude Code; if it fails again, check that `npx` works in a new terminal. Adding papers through `scripts/zotero_add.py` doesn't depend on it.
 - [ ] Optional: delete `databases/barcelona/raw/2017_NDVI.tif` (1.6 GB). The Porta crop the model uses is already saved.
+
+## Catalan transfer city: four portals blocked from the cloud container (18 Oct)
+The screening in `notes/catalan_transfer_city.md` settled everything except one criterion, and it needs a browser on Windows — about 30 minutes, no emails, no requests. **Does the city publish a street-tree inventory with species?** In priority order:
+
+- [ ] **Badalona** (the recommendation): `https://www.badalona.cat/dades-obertes` (403 from the container) and the layer list / WFS behind `https://geoportal.badalona.cat/badalona42/visor/geoportal`
+- [ ] **Mataró** (first fallback): `https://apex.mataro.org/dadesobertes` (Oracle APEX, connection reset from the container)
+- [ ] **Sabadell** (best policy driver): `https://dadesobertes.sabadell.cat/ca/dataset?q=arbrat` (connection reset)
+- [ ] **Reus**: `https://geoportal.reus.cat/inici/`
+
+For whichever city answers yes, record: record count, the species field, distinct species, any height/DBH/crown field, licence, last update, download URL.
+
+Two smaller local checks from the same note:
+- [ ] Open `https://sig.gencat.cat/ows/AIGUA/wms` (layer `AIGUA_PLUVIAL_ARPSI`) to get the 44-municipality polygon layer **and its licence**, which is still unknown.
+- [ ] For the chosen city, download the published 1×1 km `datacloud` LAZ over the study district and histogram per-point GPS date and classification over the full extent, to confirm the clip-service result.
