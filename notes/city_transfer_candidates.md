@@ -1,17 +1,21 @@
 # Transfer-city candidates: which other cities could the method move to?
 
-*Draft v1, 18 Oct 2026. Follows `notes/transferability.md` (what a transfer costs) and `notes/city_screening.md` (the 7 Oct screening that chose the study city). Status marks as in the inventories: ✅ verified in the source · 🟡 from a search summary, press or metadata, verify before citing · ❌ looked for, not found.*
+*Draft v2, 18 Oct 2026 — §0, §3 and §5 rewritten after the data search of the same day (`databases/data_inventory.md` §6). Original v1 text kept where the evidence did not move it.*
+
+*Drafted 18 Oct 2026. Follows `notes/transferability.md` (what a transfer costs) and `notes/city_screening.md` (the 7 Oct screening that chose the study city). Status marks as in the inventories: ✅ verified in the source · 🟡 from a search summary, press or metadata, verify before citing · ❌ looked for, not found.*
 
 **Answer in one line:** the binding input is not the tree inventory, it is a **classified, high-density, leaf-on LiDAR point cloud**, and Catalonia's ICGC coverage is the best of every programme checked. That makes **a second Catalan city the only transfer that is certainly affordable before 18 Dec**, with **Valencia or Madrid** as the real cross-country test (Spain's 3rd PNOA coverage now reaches 5 pts/m²), and **non-European cities viable on data but not on framing**.
 
 ---
 
-## 0. First, a correction to the premise
-Neither Florence nor Bologna was ruled out by evidence of absence:
-- **Florence** has two **unconfirmed** items, not two missing ones: whether Regione Toscana publishes the LiDAR **point cloud** (only 1 m DTM/DSM rasters are documented, F3) and whether Pacetti's pluvial hotspot map can be obtained (F6–F7). Both are one email and one portal check away, and both would restore it. It also still has the best *hazard* evidence of any candidate (`notes/city_screening.md`: pluvial hotspots and the hottest districts coincide in the sealed centre).
-- **Bologna**'s problem is not data (87,796 trees with height class, 2 m municipal contours, KOSTRA-free IDF absent but fittable). It is **flood type**: Oct 2024 was mixed, culvert-driven, on saturated soils (B7), which trees cannot meaningfully affect. That is a disqualification on substance, and no new data fixes it.
+## 0. The checks came back (18 Oct)
+Every item below was **downloaded and opened**, not read off a landing page; the two decisive Florence findings were then adversarially re-checked and both were **confirmed**. Full evidence: `databases/data_inventory.md` §6.
 
-So this note widens the field; it does not replace Florence until its two checks come back.
+- **Florence's pluvial blocker is gone.** The PGRA has no pluvial layer over Florence — its own "Alluvioni pluviali (A12)" and "A15" past-flood layers hold **zero polygons inside the Florence bbox** — but **Pacetti et al. (2022) published their Pluvial Flood Index as supplementary material**, downloaded, no login, a KML ground overlay covering the whole comune. Caveats: a **relative 1–42 colour rank**, not depth or return period, and **CC BY-NC-ND 4.0**, so the right to publish a derived raster is unresolved.
+- **Florence's point-cloud blocker is confirmed**, and the re-check made it firmer. The only public cloud is the 2008 Arno lot: **unclassified, ~1.7–2.4 pts/m²**, flown across a leaf-off-to-leaf-on window, and it **misses the built-up city** (centro storico, Novoli, Rifredi, Campo di Marte, Gavinana all fall on "nuvola di punti non disponibile" sheets). But the city **does** publish an open **leaf-on CHM**: DSM and DTM from a **27 Jun 2023** flight, whole municipality, CC BY 4.0.
+- **Three more Florence inputs are verified in hand**: the hydrologic soil group (field `gi` of the DB Pedologico, 324 polygons inside the comune), the **LSPP 1 km a/n grid** (read: a = 47.532, n = 0.25641 at the centre → h(1 h, T20) = 47.5 mm), and the tree inventory (82,324 features, daily refresh, still no height).
+- **A new dataset changes the shape of the problem**: *Life Escapos — Alberature pubbliche* (Feb 2026), **1,459 trees with measured `lai`, `dbh_cm`, `h_m`, `crn_w_m`, `can_h_m`, `canopy_area_m2`**, in Firenze Nova — inside Pacetti's own D5 Rifredi–Novoli pilot district. See §7.
+- **Bologna is out, now on its own documents.** An agent was told to **refute** the disqualification and failed. The LIFE+ **BLUE AP** strategy states that *"grazie alla struttura della rete di drenaggio di Bologna … le aree soggette a rischio idraulico sono poche e di estensione limitata"*, and **all seven named critical nodes are watercourses**; "allagamenti" appears once in 2,292 lines, with no map. Its PGRA "RSP" layer is a **reclamation-channel** product (every Bologna polygon names a *scolo*) and it has **no IDF product at all**. Only its LiDAR improved — see §3.
 
 ## 1. The screening rule
 From `notes/transferability.md` §2–3, in order of severity:
@@ -53,12 +57,12 @@ Scores are judgements on the evidence above, 1–5, same convention as `notes/ci
 | **A second Catalan city** (Girona, Terrassa, Sabadell, Mataró, Badalona, Tarragona, Reus…) | **5** (ICGC ≥8 pts/m², same as Porta) | 3 (ACA's 44 pluvial-risk municipalities 🟡; needs the list) | 4 (Girona publishes trees with scientific name, yearly CSV since 2014 ✅; the others unchecked) | 3–4 (to establish per city) | 5 | 3 (no 15% cap found outside Barcelona; the city's own tree plan would have to serve) | **5** | **Recommended.** The only transfer certain to fit the calendar |
 | **Valencia** | 4 (PNOA 5 pts/m², NPC02 published; season per tile 🟡) | 2 (no open pluvial map found; municipal drainage plan not open) | 4 (open inventory ✅; press figures on species inconsistent 🟡) | 5 | 5 | 3 | 3 | **Best cross-country test** if the pluvial map can be sourced |
 | **Madrid** | 4 (PNOA, published 🟡) | 2 | 4 🟡 | 4 (heat extreme; pluvial weaker) | 5 | 3 | 3 | Second choice to Valencia |
-| **Florence** (incumbent) | **2** (rasters only, point cloud unconfirmed) | 3 (PGRA ✅ fluvial; pluvial hotspots must be requested from the authors) | 5 (82,226 trees ✅) | **5** (best documented of all) | 5 | 2 | 4 (data already inventoried) | **Keep as fallback**; resolve its two checks first |
+| **Florence** (incumbent) | **2** (verified: open cloud is 2008, unclassified, ~2 pts/m², misses the city; open leaf-on **CHM** yes, cloud request-only) | **4** (Pacetti PFI downloaded; rank-only, CC BY-NC-ND) | 5 (82,324 trees ✅, daily) | **5** (best documented of all) | 5 | 2 | 4 (data already inventoried) | **Keep as fallback**; resolve its two checks first |
 | **Lisbon** | 2 (not checked) | 3 (PGDL 2016–2030 has a flood-vulnerability map 🟡; ~6% of the municipality classed highly vulnerable 🟡) | 4 (94,286 street trees in Mar 2021, **67,854 with species**, 26,432 without ✅) | 3 (**season conflict**: the documented floods are winter, when the deciduous palette is bare — flagged already in `city_screening.md`) | 5 | 2 | 2 | Weak: the season conflict undercuts the premise |
 | **Swiss city** (Geneva, Lugano) | 3 (not checked) | **5** (nationwide surface-runoff map) | 2 (not checked) | 3 | 1–2 (Cfb/Cfa) | 2 | 2 | Great hazard data, wrong climate |
 | **German city** (Berlin, Hamburg, Köln) | 2 (not checked) | 3 (city Starkregen maps, not checked) | **5** (Berlin: species, genus, **crown diameter**, trunk circumference, height; ~406,544 street trees 🟡; licence varies) | 3 | 1 | 2 | 2 | Best inventories in Europe, wrong climate, unchecked LiDAR |
 | **Vienna** | 2 (1 m DSM/DTM used by third parties; season unknown 🟡) | 2 (not checked) | **5** (≈480,000 trees: species, planting year, trunk **and crown** diameter, height, CC BY 4.0 🟡) | 3 | 1 | 2 | 2 | Same as above |
-| **Bologna** | 2 | 2 | 5 | **1** (flood type is mixed/culvert-driven) | 3 | 2 | 4 | **Drop** |
+| **Bologna** | **3** (leaf-on Jun 2023 city survey; metadata names "LAS classificati", CC BY 4.0 / public access — but **not served**, request-only) | **1** (verified: PGRA "RSP" = reclamation channels; BLUE AP maps no pluvial areas) | 5 (87,285 trees, species + height class) | **1** (flood type, confirmed against the city's own BLUE AP) | 3 | 2 | 4 | **Drop — on hazard, not on data** |
 
 ## 4. The non-European check (asked for explicitly)
 **Yes, it can work — and on two criteria it works better than Europe.** It fails on framing, not on data.
@@ -73,12 +77,33 @@ Scores are judgements on the evidence above, 1–5, same convention as `notes/ci
 
 **Why it should still not be the December transfer:** no site access, no municipal contact, a different policy world, and a tutor and programme anchored in European practice. It belongs in the discussion chapter as evidence that the method is not Europe-specific, not in the 2–10 Dec work package.
 
-## 5. Recommendation
+## 5. Recommendation — revised after the data search
+
+**The call: keep Florence as the transfer city, and add one Catalan city as the insurance policy. Do not pick Valencia or a non-European city this December.**
+
+Why Florence survived its own bad news: of the four inputs, **three are verified open and in hand** (trees, 1 km IDF grid, soil groups) and the fourth — the pluvial target — turned out to be **published**, not request-only. What is missing is one input, the point cloud, for which Florence has two routes the other candidates do not: an **open leaf-on CHM already published**, and **1,459 trees with measured LAI** sitting inside the very district Pacetti nominates as the pluvial pilot. No other candidate has a measured-LAI dataset at all.
+
+Why not Bologna, despite its better cloud: its leaf-on classified LAS is the more openly licensed of the two Italian options, but it fails criteria 2 and 4 — **the thesis premise**. A transfer city with no pluvial hazard to target and no design rainfall is not a cheaper Florence; it is a different thesis.
+
+Why add a Catalan city anyway: Florence's remaining input depends on a **municipal reply inside a nine-day window** (2–10 Dec). A second Catalan city needs no reply at all — it inherits Barcelona's ≥8 pts/m² leaf-on ICGC cloud, which is the best of every programme screened. It is academically the weaker test (same climate, same data pipeline), so it is the **fallback, not the headline**.
+
+Then, unchanged from v1:
 1. **Do one transfer, not two.** `notes/methodology.md` §10 allots 2–10 Dec (9 days) to Sant Antoni *and* Florence. That is already optimistic; adding a third city is scope the calendar cannot absorb.
 2. **Make it a second Catalan city.** It inherits the ≥8 pts/m² ICGC point cloud, the regional rainfall context and the species palette, so what changes is exactly what a transfer test should change: a different tree stock, a different street geometry, a different hazard pattern and a different municipality. Be explicit about the limit: this tests **site** transfer, not **climate** transfer.
 3. **Resolve Florence's two checks this week anyway.** If the Tuscany point cloud exists and Pacetti's map arrives, Florence returns as the stronger test (different country, documented dual hazard) and the Catalan city becomes the cheap backup.
 4. **Name Valencia as the stated next step** in the thesis: Csa, PNOA 5 pts/m² published, open inventory, real dual hazard — blocked only on a pluvial map.
-5. **Drop Bologna** on flood type, and say why in one line; it is a cleaner argument than a data argument.
+5. **Drop Bologna** on flood type, quoting its own BLUE AP; that is now a documented argument, not an inference.
+
+## 7. The check that would change everything (do this before any email)
+The LAI proxy is the only reason a classified point cloud is criterion #1. Florence now offers a way to test whether it has to be:
+
+**Fit `lai ~ species + crown width + height` on the 1,459 Life Escapos trees**, then read crown width and height for the same trees off the **open, leaf-on 2023 CHM** (DSM−DTM, CC BY 4.0) and check the error against the measured LAI.
+
+- If the fit is adequate, **the point cloud leaves the critical path** — for Florence *and* for every future transfer city — and the screening rule in §1 collapses from "a classified leaf-on point cloud" to "an open leaf-on CHM plus an inventory", which most European cities have.
+- It needs **no permission, no email and no waiting**; both inputs are already open.
+- It is also a methodological result in its own right: it would let the thesis state how much of the Porta LAI proxy is really species-and-geometry, which is the question the LiDAR-proxy limitation in `notes/methodology.md` §4b already raises.
+
+If the fit fails, Florence needs the Comune's 27 Jun 2023 cloud, and the request must ask about **points/m², returns per pulse and whether vegetation returns are retained** *before* licence — a leaf-on classified cloud thinned to ground + first pulse cannot produce a gap fraction.
 
 ## 6. Open checks, cheapest first
 - [ ] **ACA's list of the 44 municipalities with pluvial risk** (the press note cites it; the list is in the ACA planning-cycle annexes on aca.gencat.cat). Cross it with Catalan cities that publish a tree inventory → this alone produces the shortlist for recommendation 2.
