@@ -1,0 +1,76 @@
+# Data request: Comune di Firenze LiDAR point cloud (27 June 2023 flight)
+
+*Drafted 18 Oct 2026, for the user to send or deliver in person. Never sent by an agent (see `.claude/agents/data-scout.md`). The letter below is in **Italian** at the user's explicit request; the surrounding notes stay in English per CLAUDE.md.*
+
+## Why this request exists
+`databases/data_inventory.md` §6.1 established that **no classified, leaf-on LiDAR point cloud over the built-up area of Florence is publicly downloadable**. The only public cloud (Geoscopio lot 002 "Bacino dell'Arno") is unclassified, ~2 pts/m², flown across a leaf-off-to-leaf-on window, and misses the city centre. The Comune, however, **publishes DTM and DSM rasters derived from a LiDAR flight of 27 June 2023** — whole municipality, 485 tiles, CC BY 4.0 — which is unambiguously **leaf-on**. The point cloud behind those rasters is the missing input.
+
+**The one thing that matters most:** a leaf-on, classified cloud is still useless to this method if it was thinned to ground + first pulse. The LAI proxy is a *gap fraction of points inside each crown*, so it needs multiple returns per pulse with vegetation returns retained. **Ask that before asking about licence** — if the answer is "first pulse only", the request stops there and nothing is lost.
+
+## Who to address
+
+| | |
+|---|---|
+| **Office** | SIT — Sistema Informativo Territoriale, Comune di Firenze (Direzione Sistemi Informativi) |
+| **Address** | Via Reginaldo Giuliani 250, 50141 Firenze — **secondo piano** |
+| **Telephone** | 055 3283858 |
+| **Email** | `sit@comune.fi.it` |
+| **Second email** | `opendata@comune.fi.it` — the author/maintainer address on the Comune's own dataset records; put it in cc |
+| **Formal route, if the informal one stalls** | The Comune's general PEC (protocol mailbox) — confirm the current address on comune.firenze.it before using it — or an *accesso civico generalizzato* request (D.Lgs. 33/2013 art. 5 c. 2), which is free, needs no justification, and must be answered within 30 days. Use this only as a fallback: a technical office usually answers a technical question faster than a legal one. |
+
+Sources: the address, telephone and `sit@comune.fi.it` come from the Comune's own WMS service metadata (`https://tms.comune.fi.it/tiles/service/wms?request=GetCapabilities`, `<ContactInformation>` block); the "secondo piano" from the official SIT page (`comune.firenze.it/pagina/territorio/sistema-informativo-territoriale`); `opendata@comune.fi.it` from the CKAN record of the Comune's datasets.
+
+**Going in person:** the official page gives no counter hours and the SIT is a technical office, not a public-facing desk. **Phone 055 3283858 first** and ask for an appointment with whoever manages the *rilievi LiDAR / cartografia*; turning up unannounced risks finding nobody who can answer. Bring the letter printed, plus the three technical questions on a single sheet.
+
+---
+
+## The letter (Italian — send as email to `sit@comune.fi.it`, cc `opendata@comune.fi.it`)
+
+**Oggetto:** Richiesta di accesso alla nuvola di punti LiDAR del rilievo aereo del 27 giugno 2023 — tesi di ricerca universitaria
+
+Gentili responsabili del Sistema Informativo Territoriale,
+
+mi chiamo [NOME COGNOME] e sono studente del Master in Advanced Computation for Architecture & Design (MaCAD) presso l'Institute for Advanced Architecture of Catalonia (IAAC) di Barcellona. Sto sviluppando una tesi su un **metodo computazionale per la selezione e la collocazione delle alberature stradali**, valutate simultaneamente rispetto allo stress termico dei pedoni (indice UTCI) e alla riduzione del deflusso superficiale durante le piogge intense.
+
+Il metodo è stato messo a punto su un quartiere di Barcellona e vorrei verificarne la trasferibilità su Firenze. Utilizzo già, con grande utilità, i dati aperti del Comune: il **DTM e il DSM LiDAR 2023** (licenza CC BY 4.0), il dataset **"Alberi"** e il censimento **"Life Escapos — Alberature pubbliche"**.
+
+**Oggetto della richiesta.** Vorrei chiedere se sia possibile accedere alla **nuvola di punti LiDAR** (formato LAS/LAZ, o il formato in cui è conservata) del **volo del 27 giugno 2023**, quello da cui derivano il DSM e il DTM pubblicati. La richiesta può limitarsi a **un'area circoscritta** — sarebbe sufficiente un settore di 1–2 km² nella zona **Rifredi / Novoli (Firenze Nova)** — e non all'intero territorio comunale.
+
+**Perché serve la nuvola di punti e non il raster.** Il metodo stima l'indice di area fogliare (LAI) di ogni albero a partire dalla **frazione di vuoto dei punti laser all'interno della chioma**, cioè dalla quota di impulsi che attraversano la chioma e raggiungono il suolo. Questa informazione esiste solo nella nuvola di punti: un modello digitale di superficie, per quanto accurato, restituisce l'altezza e l'ampiezza della chioma ma non la sua densità fogliare. Il volo del 27 giugno 2023 è particolarmente prezioso proprio perché effettuato **in piena stagione vegetativa**, condizione necessaria per questo tipo di stima.
+
+**Tre domande tecniche preliminari.** Prima ancora della questione dell'accesso, mi sarebbe molto utile conoscere tre caratteristiche del rilievo, perché da esse dipende se il dato sia effettivamente utilizzabile per questo scopo:
+
+1. Qual è la **densità media e minima di punti per metro quadrato** del volo del 27 giugno 2023?
+2. Il sensore ha registrato **più ritorni per impulso** e, soprattutto, **i ritorni sulla vegetazione sono stati conservati** nel dato consegnato, oppure la nuvola è stata filtrata mantenendo solo il terreno e/o il primo ritorno?
+3. La nuvola è **classificata** (ad esempio secondo lo schema ASPRS: suolo, vegetazione bassa/media/alta, edifici) e, in caso affermativo, quali classi sono state utilizzate?
+
+Se la nuvola fosse stata filtrata al solo primo ritorno, il dato non sarebbe utilizzabile per questa analisi e non avrei motivo di procedere oltre con la richiesta: mi basterebbe saperlo.
+
+**Licenza e utilizzo.** Qualora l'accesso fosse possibile, vorrei chiedere esplicitamente sotto quale licenza il dato verrebbe fornito e se sia consentito **pubblicare i prodotti derivati** — modello di altezza delle chiome, stime di LAI per singolo albero, figure e mappe — all'interno di una **tesi di laurea magistrale** e in un **repository pubblico di codice** (GitHub), con la citazione della fonte nella forma che il Comune riterrà corretta. Segnalo che IAAC è un istituto privato, quindi, se esistessero condizioni riservate ai soli enti pubblici, preferirei saperlo in anticipo.
+
+**Disponibilità.** Sarò ben lieto di citare il Comune di Firenze come fonte in ogni elaborato, di condividere i risultati e i prodotti derivati con il Vostro ufficio, e di inviare copia della tesi una volta conclusa. Sono inoltre disponibile a passare di persona presso i Vostri uffici di via Reginaldo Giuliani 250, previo appuntamento, se ciò rendesse più semplice la valutazione della richiesta.
+
+Ringrazio per l'attenzione e resto a disposizione per qualsiasi chiarimento.
+
+Cordiali saluti,
+[NOME COGNOME]
+Master in Advanced Computation for Architecture & Design (MaCAD)
+Institute for Advanced Architecture of Catalonia (IAAC), Barcellona
+[email] — [telefono]
+
+---
+
+## If you go in person: what to say in 30 seconds
+
+> "Buongiorno, sono uno studente di un master in architettura computazionale allo IAAC di Barcellona. Sto facendo una tesi sugli alberi stradali e uso già i vostri dati aperti, il DTM e il DSM LiDAR del 2023. Avrei bisogno di sapere tre cose tecniche sul volo del 27 giugno 2023: la densità di punti al metro quadrato, se sono stati registrati più ritorni per impulso e se i ritorni sulla vegetazione sono stati conservati, e se la nuvola di punti è classificata. Se la risposta alle prime due è sì, vorrei chiedere se è possibile avere la nuvola di punti di una zona limitata, Rifredi–Novoli, e sapere con quale licenza."
+
+Then hand over the printed letter.
+
+## What the answers mean for the thesis
+| Answer | Consequence |
+|---|---|
+| Multiple returns retained + ≥ 5 pts/m² + classified | **Florence transfer is on.** Proceed exactly as in Porta |
+| Multiple returns retained, but unclassified | Workable: classify with PDAL/lasground ourselves; add it as a methodology step and a limitation |
+| First pulse / ground-filtered only | **Florence cannot support the LAI proxy.** Fall back to the Catalan city, and say so in the thesis as a data-availability finding |
+| Access refused or reserved to public bodies | Same as above; record it as the licence barrier it is |
+| No reply before ~10 Nov | Treat as a no for planning purposes — the transfer window is 2–10 Dec |
