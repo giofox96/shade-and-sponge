@@ -16,7 +16,7 @@
 | **Telephone** | 055 3283858 |
 | **Email** | `sit@comune.fi.it` |
 | **Second email** | `opendata@comune.fi.it` — the author/maintainer address on the Comune's own dataset records; put it in cc |
-| **Formal route, if the informal one stalls** | An *accesso civico generalizzato* request: D.Lgs. 33/2013 **art. 5 c. 2** establishes the right, **c. 3** says the request needs no justification, **c. 4** makes release free *salvo il rimborso del costo effettivamente sostenuto* for reproduction on physical media (the clause a multi-GB delivery would trigger), **c. 6** sets a 30-day deadline, and **art. 7** makes the data reusable citing the source. For the PEC address, look it up on the Comune's *Amministrazione trasparente* pages — this note does not record one, because none was verified. Use this route only as a fallback: a technical office answers a technical question faster than a legal one. |
+| **Formal route, if the informal one stalls** | An *accesso civico generalizzato* request: D.Lgs. 33/2013 **art. 5 c. 2** establishes the right, **c. 3** says the request needs no justification, **c. 4** makes release free *salvo il rimborso del costo effettivamente sostenuto* for reproduction on physical media (the clause a multi-GB delivery would trigger), **c. 6** sets a 30-day deadline, and **art. 7** makes the data reusable citing the source. **No general protocol PEC for the Comune is published** (its transparency page lists only the 055055 contact centre), so do not look for one. The Comune's own accesso-civico route is an **authenticated online service requiring SPID / CNS / CIE**, addressed to the office holding the data or to the Sportello al Cittadino (URP); `anticorruzione@comune.fi.it` answers questions on the procedure, and `segretario.generale@pec.comune.fi.it` handles the *riesame* after a refusal. Use this route only as a fallback: a technical office answers a technical question faster than a legal one. |
 
 Sources: the Direzione attribution comes from the Comune's *Funzionigramma* (Rev. 10.0) and the CKAN `author` field, **not** from the two sources below, neither of which names a Direzione. The address, telephone and `sit@comune.fi.it` come from the Comune's own WMS service metadata (`https://tms.comune.fi.it/tiles/service/wms?request=GetCapabilities`, `<ContactInformation>` block); the "secondo piano" from the official SIT page (`comune.firenze.it/pagina/territorio/sistema-informativo-territoriale`); `opendata@comune.fi.it` from the CKAN record of the Comune's datasets.
 
@@ -83,7 +83,7 @@ Institute for Advanced Architecture of Catalonia (IAAC), Barcellona
 > Institute for Advanced Architecture of Catalonia (IAAC), Barcellona
 > [email] — [telefono] — [PEC, se la usi]
 
-Add your **PEC** if you have one as a professional: a PEC-to-PEC exchange with the Comune is formally tracked and tends to be answered more reliably than ordinary email. If you send from PEC, address it to the Comune's protocol PEC and name the SIT in the subject line.
+**Your professional standing also solves the formal route.** The Comune's accesso-civico service is authenticated with **SPID / CNS / CIE**, which you hold, so that channel is open to you directly — there is no general protocol PEC to write to, and looking for one wastes time. Add your professional **PEC** to the signature anyway: it identifies you as a registered professional and gives the office a tracked address to reply to.
 
 ## If you go in person: what to say in 30 seconds
 

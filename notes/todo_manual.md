@@ -79,10 +79,12 @@ Then the gap and evidence papers:
 ## Catalan transfer city: four portals blocked from the cloud container (18 Oct)
 The screening in `notes/catalan_transfer_city.md` settled everything except one criterion, and it needs a browser on Windows — about 30 minutes, no emails, no requests. **Does the city publish a street-tree inventory with species?** In priority order:
 
-- [ ] **Badalona** (the recommendation): `https://www.badalona.cat/dades-obertes` (403 from the container) and the layer list / WFS behind `https://geoportal.badalona.cat/badalona42/visor/geoportal`
-- [ ] **Mataró** (first fallback): `https://apex.mataro.org/dadesobertes` (Oracle APEX, connection reset from the container)
-- [ ] **Sabadell** (best policy driver): `https://dadesobertes.sabadell.cat/ca/dataset?q=arbrat` (connection reset)
-- [ ] **Reus**: `https://geoportal.reus.cat/inici/`
+**Corrected 18 Oct after the fact-check: only two are actually blocked, and the recommendation changed.**
+
+- [ ] **Mataró — now the first choice**: `https://apex.mataro.org/dadesobertes` (Oracle APEX, genuinely proxy-blocked from the container)
+- [ ] **Sabadell**: `https://dadesobertes.sabadell.cat/ca/dataset?q=arbrat` (genuinely blocked)
+- [x] ~~Badalona~~ — **reachable, and the answer is a near-negative**: its GeoServer lists 161 WMS layers with no tree/green layer and it has no AOC CKAN organisation. Worth one look behind `https://geoportal.badalona.cat/badalona42/visor/geoportal` only if you want to be sure
+- [x] ~~Reus~~ — reachable; `https://geoportal.reus.cat/inici/` answers 200, no inventory surfaced
 
 For whichever city answers yes, record: record count, the species field, distinct species, any height/DBH/crown field, licence, last update, download URL.
 
