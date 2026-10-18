@@ -1,7 +1,7 @@
 # 5-minute talk, 20 Oct 2026: slide outline and script (draft v2, 18 Oct)
 
 **Format:** 10 slides, 16:9, Google Slides. Figures: `slides/fig/*.png` (insert as images) or `*.svg` (to edit). Regenerate them with `python scripts/make_infographics.py`.
-**Script:** about 710 words, which is about 5 min 05 s at a calm 140 words per minute. The times in brackets are the cumulative target.
+**Script:** 718 words, which is about 5 min 08 s at a calm 140 words per minute (most people present nearer 150–160, i.e. 4:30–4:50). The times in brackets are the cumulative target.
 **Changes on 18 Oct:** slide 10 on transferability added (`notes/transferability.md`); to pay for it, slide 3 lost the screening detail that the bullets already carry, slide 6 one precedent clause, and slide 9's closing ask moved to slide 10. If the 5 minutes are strict, cut slide 3 or 9 further rather than slide 10.
 **Sources:** every number is from `notes/topic_decision.md` §7, `notes/site_selection.md`, `notes/methodology.md` §4b, `notes/transferability.md`, or the figures' own source lines. `*` on a figure = read from the abstract only. Get the full texts before the talk (see `notes/todo_manual.md`).
 
