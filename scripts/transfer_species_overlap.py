@@ -6,6 +6,11 @@ most common street trees whose species already has crown, height and LAI-proxy m
 leaf-on calendar and the gap-filling class carry over; the crown geometry itself must still be re-measured
 from the new city's own LiDAR (Porta's medians reflect Barcelona's planting age and pruning regime).
 
+Caveat the output makes explicit: a match is only as good as the Porta sample behind it. This reads
+databases/barcelona/porta_species_lidar_summary.csv directly, without the small-sample overrides that
+shade_sponge/site.py applies (CITY_LIDAR, issue #42), so species with a handful of Porta trees are flagged
+(porta_sample_ok) and the summary reports the overlap with and without them.
+
 Input: databases/<city>/species_coverage.csv (top-30 species per city, from scripts/species_coverage.py).
 Output: databases/transfer_species_overlap.csv + a printed summary.
 """
@@ -17,6 +22,7 @@ import pandas as pd
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 CITIES = ["florence", "barcelona"]          # barcelona = sanity check (city-wide top-30 vs the Porta subset)
 TOTALS = {"florence": 82226, "barcelona": 140404}   # trees in the full inventory (databases/data_inventory*.md F1, A1)
+MIN_N = 5          # Porta trees below which the species medians are too thin to rely on (same bar as site.CITY_LIDAR)
 
 
 def norm(s):
@@ -41,16 +47,19 @@ def main():
         c["porta_crown_diam_m"] = c.key.map(measured.crown_diam_med)
         c["porta_lai_proxy"] = c.key.map(measured.lai_proxy_med)
         c["porta_n_trees"] = c.key.map(measured.n)
+        c["porta_sample_ok"] = c.in_porta_lidar & (c.porta_n_trees.fillna(0) >= MIN_N)
         out.append(c)
 
         top, sp, gen = c.trees.sum(), c.loc[c.in_porta_lidar, "trees"].sum(), c.loc[c.genus_in_porta_lidar, "trees"].sum()
         print(f"{city}: top-{len(c)} species = {top:,} trees ({100 * top / TOTALS[city]:.1f}% of the inventory)")
+        ok = c.loc[c.porta_sample_ok, "trees"].sum()
         print(f"  species measured in Porta: {c.in_porta_lidar.sum()} species, {sp:,} trees ({100 * sp / top:.1f}% of the top-30)")
+        print(f"    of which on >= {MIN_N} Porta trees: {c.porta_sample_ok.sum()} species, {ok:,} trees ({100 * ok / top:.1f}%)")
         print(f"  genus measured in Porta:   {gen:,} trees ({100 * gen / top:.1f}%)")
         miss = c[~c.genus_in_porta_lidar].nlargest(5, "trees")
         print("  largest gaps (not even the genus):", ", ".join(f"{r.species} {r['share_%']}%" for _, r in miss.iterrows()) or "none")
 
-    cols = ["city", "species", "trees", "share_%", "in_porta_lidar", "genus_in_porta_lidar",
+    cols = ["city", "species", "trees", "share_%", "in_porta_lidar", "porta_sample_ok", "genus_in_porta_lidar",
             "porta_n_trees", "porta_crown_diam_m", "porta_lai_proxy", "runoff_measured", "heat_measured"]
     p = ROOT / "databases/transfer_species_overlap.csv"
     pd.concat(out)[cols].to_csv(p, index=False)

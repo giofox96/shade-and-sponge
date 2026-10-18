@@ -20,12 +20,12 @@
 - Tree plan: no species above 15%; plane trees are ~29% of street trees
 
 **Visual:** two icons (rain / sun) over one street section.
-**Say:** "Two hazards hit the same streets. Barcelona's sealed surface grew from 45 to 72 percent between 1956 and 2009. About three storms a year exceed 60 millimetres per hour in their first twenty minutes, and they flood streets where the sewer is too small. In summer, the city carries one of Europe's highest heat-island mortality burdens. Meanwhile, the tree master plan caps every species at 15 percent. Plane trees are about 29 percent of street trees, so many will be replaced, and that choice affects both hazards."
+**Say:** "Two hazards hit the same streets. Barcelona's sealed surface grew from 45 to 72 percent between 1956 and 2009. About three storms a year exceed 60 millimetres per hour in their first twenty minutes, more than the sewer takes. In summer, the city carries one of Europe's highest heat-island mortality burdens. The tree master plan caps every species at 15 percent. Plane trees are about 29 percent of street trees, so many will be replaced, and that choice affects both hazards."
 
 ### 3. Why Porta [1:25]
 **On slide:** First of 73 neighbourhoods at every threshold · flood #13 · surface heat #11 (+1.36 °C) · heat vulnerability #12 · 832 plane trees · the six named replacement species, plus *Styphnolobium*, already grow there.
 **Visual:** `notes/figures/porta_profile.png` (or `bcn_site_screening.png`).
-**Say:** "To test this I needed a neighbourhood with both hazards and many plane trees. I screened all 73 with open data: to qualify, one had to be above the city's 60th percentile for flood hazard, surface heat and plane density at the same time. Porta, in Nou Barris, comes first at every threshold. It has 832 plane trees, and the seven candidate replacement species already grow there. Sant Antoni floods more, but its heat is average, so it becomes my contrast site."
+**Say:** "To test this I needed a neighbourhood with both hazards and many plane trees. I screened all 73 with open data: to qualify, one had to be above the city's 60th percentile for flood hazard, surface heat and plane density at the same time. Porta, in Nou Barris, comes first at every threshold. It has 832 plane trees, and the six named replacement species already grow there, plus a seventh from the press. Sant Antoni floods more, but its heat is average, so it becomes my contrast site."
 
 ### 4. Literature, runoff side [2:00]
 **Visual:** `slides/fig/02_runoff_evidence.png`, with `01_lit_map.png` small in a corner (or as a backup slide).
@@ -60,13 +60,13 @@
 ### 10. Transferability: the code travels, the evidence does not [5:05]
 **Visual:** `slides/fig/10_transferability.png`
 **On slide:**
-- Site-agnostic core: 3 of the 6 modules carry no local constant (routing, shade geometry, SCS-CN). A new site = one data adapter.
+- Site-agnostic core: the routing, shade-geometry and SCS-CN **kernels** carry no local constant; a new site = one data adapter. (`heat.py` and `runoff.py` still hold local design days, the calibrated *s* and the IDF path.)
 - The transfer bill is **data**: inventory · leaf-on point cloud · IDF · flood map · traits · phenology · policy.
-- Florence: inventory (82,226 trees), 1 m LiDAR and a 1 km IDF grid available; measured traits for **19% of trees vs 40%** here; the pluvial hotspot map must be requested from its authors.
-- **64% of Florence's top-30 trees are species already measured in Porta** (74% at genus level); the gap is the Mediterranean evergreens (*Quercus ilex*, *Olea*).
+- Florence: inventory (82,226 trees), 1 m LiDAR **DTM/DSM rasters** and a 1 km IDF grid available; measured traits for **19% of trees vs 40%** here; no confirmed pluvial map — the hotspot map must be requested from its authors.
+- **64% of Florence's top-30 trees are species already measured in Porta** — but only **44%** on samples of 5 Porta trees or more (*Cupressus* rests on 2, *Pinus pinea* on 1). The gap is the Mediterranean evergreens (*Quercus ilex* 8.5%, *Olea* 6.2%).
 - Two hard dependencies: a **classified leaf-on point cloud** (the LAI proxy) and a **city flood map** (our own routing is not one: AUC 0.52).
 
-**Say:** "Last, transferability. The core is site-agnostic: half the modules carry no local constant. Florence has the inventory, the LiDAR and the rainfall grid, but half the measured traits and no usable pluvial map. And the fifteen percent cap is Barcelona's own. So the method transfers; the data has to be rebuilt each time. Two things would help me: the city's flood depth maps, and access to Infrared City."
+**Say:** "Last, transferability. The core is site-agnostic: the geometry and physics kernels carry no local constant. Florence has the inventory, the LiDAR and the rainfall grid, but half the measured traits and no confirmed pluvial map. And the fifteen percent cap is Barcelona's own. So the method transfers; the data has to be rebuilt each time. Two things would help me: the city's flood depth maps, and access to Infrared City."
 
 ---
 
@@ -96,5 +96,5 @@
 - **Why not peak flow?** Field evidence shows that trees barely change peak flow (Selbig et al. 2021). Volume is what they can change.
 - **Hasn't Tan & Liu 2026 done this?** They optimise species and positions of 30 trees for heat (UTCI), CO2 and diversity in a Chicago block, with a similar Grasshopper + NSGA-II approach and a Random Forest surrogate. They have no runoff, use four common Chicago street trees at 5 years old (US allometry) and one summer hour. This thesis adds runoff, the city's own replacement palette and the seasons.
 - **Is a 2% effect worth a thesis?** The thesis is the method and the trade-off, not a big runoff number. H3 states the limit openly, and the heat side may dominate.
-- **Does this only work in Barcelona?** The code does not: a new site is one adapter (`build_<name>()` + `trees_<name>()`), and routing, shade geometry and SCS-CN carry no local constant. The evidence does: traits, leaf calendar, storm season, flood map and the 15% cap are all local. Sant Antoni costs days, Florence 2-3 weeks, and a city without a leaf-on point cloud loses the measured LAI. Detail: `notes/transferability.md`.
+- **Does this only work in Barcelona?** The code does not: a new site is one adapter (`build_<name>()` + `trees_<name>()`), and the routing, shade-geometry and SCS-CN kernels carry no local constant. The evidence does: traits, leaf calendar, storm season, flood map and the 15% cap are all local, and `heat.py`/`runoff.py` still carry Barcelona design days, the calibrated *s* and the IDF path. Sant Antoni is cheap (same city data), Florence costs a new adapter plus six datasets (estimate, not measured), and a city without a leaf-on point cloud loses the measured LAI. Detail: `notes/transferability.md`.
 - **Where do species values come from, if most are not measured?** LiDAR crowns and LAI on site, database traits, and genus or leaf-habit proxies with sensitivity ranges. TRY and i-Tree requests are pending.
