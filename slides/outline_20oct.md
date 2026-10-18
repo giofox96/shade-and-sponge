@@ -20,16 +20,16 @@
 - Tree plan: no species above 15%; plane trees are ~29% of street trees
 
 **Visual:** two icons (rain / sun) over one street section.
-**Say:** "Two hazards hit the same streets. Barcelona's sealed surface grew from 45 to 72 percent between 1956 and 2009. About three storms a year exceed 60 millimetres per hour in their first twenty minutes, more than the sewer takes. In summer, the city carries one of Europe's highest heat-island mortality burdens. The tree master plan caps every species at 15 percent. Plane trees are about 29 percent of street trees, so many will be replaced, and that choice affects both hazards."
+**Say:** "Two hazards hit the same streets. Barcelona's sealed surface grew from 45 to 72 percent between 1956 and 2009. About three storms a year exceed 60 millimetres per hour in their first twenty minutes, more than the sewer takes. In summer, the city carries one of Europe's highest heat-island mortality burdens. The tree master plan caps every species at 15 percent, and plane trees are about 29 percent of street trees, so many will be replaced."
 
 ### 3. Why Porta [1:25]
 **On slide:** First of 73 neighbourhoods at every threshold · flood #13 · surface heat #11 (+1.36 °C) · heat vulnerability #12 · 832 plane trees · the six named replacement species, plus *Styphnolobium*, already grow there.
 **Visual:** `notes/figures/porta_profile.png` (or `bcn_site_screening.png`).
-**Say:** "To test this I needed a neighbourhood with both hazards and many plane trees. I screened all 73 with open data: to qualify, one had to be above the city's 60th percentile for flood hazard, surface heat and plane density at the same time. Porta, in Nou Barris, comes first at every threshold. It has 832 plane trees, and the six named replacement species already grow there, plus a seventh from the press. Sant Antoni floods more, but its heat is average, so it becomes my contrast site."
+**Say:** "To test this I needed a neighbourhood with both hazards and many plane trees. I screened all 73 with open data: to qualify, one had to be above the city's 60th percentile for flood hazard, surface heat and plane density at the same time. Porta, in Nou Barris, comes first at every threshold. It has 832 plane trees, and the six named replacement species already grow there, plus a seventh from the press. Sant Antoni floods more but its heat is average: it becomes my contrast site."
 
 ### 4. Literature, runoff side [2:00]
 **Visual:** `slides/fig/02_runoff_evidence.png`, with `01_lit_map.png` small in a corner (or as a backup slide).
-**Say:** "The literature review covers 81 sources. On the runoff side, two findings matter. First, species differ. In field studies a crown intercepts roughly 10 to 70 percent of rainfall, and the main driver is leaf area. Second, the benefit fades as storms grow. A paired-catchment study measured a 3.5 to 4 percent cut in runoff volume from street trees, with no effect on peak flow. So trees are a tool for frequent storms, not for extreme events."
+**Say:** "The literature review covers 81 sources. On runoff, two findings matter. Species differ: in field studies a crown intercepts roughly 10 to 70 percent of rainfall, and the main driver is leaf area. Second, the benefit fades as storms grow. A paired-catchment study measured a 3.5 to 4 percent cut in runoff volume from street trees, with no effect on peak flow. So trees are a tool for frequent storms, not for extreme events."
 
 ### 5. Literature: same tree, two jobs [2:25]
 **Visual:** `slides/fig/03_heat_runoff_traits.png`
@@ -37,7 +37,7 @@
 
 ### 6. The gap [3:00]
 **Visual:** `slides/fig/04_gap_matrix.png` (main) and `05_palette_data_gap.png` (click-in, or next to it).
-**Say:** "Here is the gap. The closest precedents either assess heat and runoff for fixed scenarios without species traits, or optimise species and positions for heat only. SylvCiT, the most advanced trait-based recommender, has its runoff module disabled. There is also a data gap. For the six replacement species we can measure crowns on site from LiDAR. But rain storage is measured for only one of them, and none has a measured cooling value."
+**Say:** "Here is the gap. The closest precedents either assess heat and runoff for fixed scenarios without species traits, or optimise species and positions for heat only. SylvCiT, the most advanced trait-based recommender, has its runoff module disabled. For the six replacement species we can measure crowns on site from LiDAR. But rain storage is measured for only one of them, and none has a measured cooling value."
 
 ### 7. Research question and hypotheses [3:30]
 **On slide:**
@@ -55,18 +55,19 @@
 ### 9. First result and next steps [4:40]
 **Visual:** `notes/figures/runoff_results_v1.png`
 **On slide:** Street trees today: −1.9% runoff in a 2-yr storm (−2.9% on streets and squares); field benchmark 4% · young replacements lose >⅓ of the benefit · benefit shrinks with storm size (H3).
-**Say:** "The runoff module already runs. I calibrated canopy storage on open field data from Freiburg. Today's street trees cut runoff in a 2-year storm by 1.9 percent, or 2.9 percent on streets and squares. That is the same order as the 3.5 to 4 percent measured in the field. Replacing the planes with young trees loses more than a third of that benefit, and the benefit shrinks for bigger storms, as H3 predicts. The heat module is next."
+**Say:** "The runoff module already runs. I calibrated canopy storage on open field data from Freiburg. Today's street trees cut runoff in a 2-year storm by 1.9 percent, or 2.9 percent on streets and squares — the same order as the 3.5 to 4 percent measured in the field. Replacing the planes with young trees loses more than a third of that benefit, and the benefit shrinks for bigger storms, as H3 predicts. The heat module is next."
 
 ### 10. Transferability: the code travels, the evidence does not [5:05]
 **Visual:** `slides/fig/10_transferability.png`
 **On slide:**
 - Site-agnostic core: the routing, shade-geometry and SCS-CN **kernels** carry no local constant; a new site = one data adapter. (`heat.py` and `runoff.py` still hold local design days, the calibrated *s* and the IDF path.)
 - The transfer bill is **data**: inventory · leaf-on point cloud · IDF · flood map · traits · phenology · policy.
-- Florence: inventory (82,226 trees), 1 m LiDAR **DTM/DSM rasters** and a 1 km IDF grid available; measured traits for **19% of trees vs 40%** here; no confirmed pluvial map — the hotspot map must be requested from its authors.
-- **64% of Florence's top-30 trees are species already measured in Porta** — but only **44%** on samples of 5 Porta trees or more (*Cupressus* rests on 2, *Pinus pinea* on 1). The gap is the Mediterranean evergreens (*Quercus ilex* 8.5%, *Olea* 6.2%).
+- Florence (1st choice): inventory (82,324 trees), a 1 km IDF grid and **a published pluvial index** (Pacetti's PFI, downloaded) — but **only 1 m DTM/DSM rasters**: the point cloud is request-only. Measured traits for **19% of trees vs 40%** here.
+- A **Catalan city** (fallback) inherits Porta's ≥8 pts/m² leaf-on ICGC cloud *and* its leaf calendar and storm months — Badalona's tiles are the **same mission day** as Porta's. But **no Catalan city has a pluvial hazard map**: the ACA's pluvial polygon *is* the municipal boundary.
+- So Barcelona's RESCCUE depth model is the **only city-wide pluvial depth model found in Catalonia** — which is why Porta was the right place to calibrate.
 - Two hard dependencies: a **classified leaf-on point cloud** (the LAI proxy) and a **city flood map** (our own routing is not one: AUC 0.52).
 
-**Say:** "Last, transferability. The core is site-agnostic: the geometry and physics kernels carry no local constant. Florence has the inventory, the LiDAR and the rainfall grid, but half the measured traits and no confirmed pluvial map. And the fifteen percent cap is Barcelona's own. So the method transfers; the data has to be rebuilt each time. Two things would help me: the city's flood depth maps, and access to Infrared City."
+**Say:** "Last, transferability. The core is site-agnostic: the geometry and physics kernels carry no local constant. What does not travel is one input — a leaf-on laser scan dense enough to see inside a crown. Florence has the trees and the rainfall, but only rasters: the point cloud I have to ask for. And in all of Catalonia, no city has a pluvial depth map. Barcelona's is the only one, which is why I calibrated here. Two things would help me: the city's flood depth maps, and access to Infrared City."
 
 ---
 
