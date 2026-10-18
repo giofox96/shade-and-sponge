@@ -2,10 +2,23 @@
 
 *18 Oct 2026. Fallback to Florence (`notes/firenze_lidar_request.md`), whose point cloud must be requested. Criteria and their severity order from `notes/transferability.md` §2–3. Everything below was established by opening the document, the API or the point cloud itself; status marks as in the inventories.*
 
-## 0. The headline, including the bad news
-**Criterion 2 fails for the whole of Catalonia.** The ACA's 3rd-cycle pluvial product, approved 15 July 2026, is a **list of 44 municipalities** whose ARPSI polygon **is the administrative boundary** — Annex 8 §3.3: the delimitation is *"a partir dels límits administratius dels municipis"*, not hydrological or hydraulic — with no extent, no depth and no return period. No 3rd-cycle MAPRI exists (homologated cartography promised by end-2027), and the one pluvial ARPSI that ever had a modelled depth map (CRT Vila-seca i Salou, 2nd cycle, HEC-HMS + Iber 2D) is **proposed for deletion**. The quantitative layer behind Catalonia's only fluvial-pluvial classification (ZDD, *zones de dificultat de drenatge*) comes from an *"estudi inèdit de TRAGSATEC"* and is not public.
+## Verification status (18 Oct 2026) — READ FIRST
+A six-domain adversarial fact-check was run; **only two domains completed** before the account's weekly limit stopped the rest.
 
-**So Barcelona's RESCCUE depth model is unique in Catalonia**, and no Catalan transfer city can reproduce the hotspot-targeting half of the method from open data. That is itself a finding for the thesis: it sharpens why Porta was the right calibration site, and it is a concrete instance of the transferability argument.
+| Section | Status |
+|---|---|
+| §0, §2 — the ACA pluvial findings | ✅ **checked, 62 claims tested.** All 40 per-city numbers (ARPSI codes, typologies, euro damages, IRM values) reproduce **exactly** against Annex 8 Taula 1 and Annex 6 Apèndix. Nine problems found, all of framing or over-reading, and all corrected below |
+| §1 — the LiDAR flight-date table | ❌ **not verified.** Rests on a single research pass |
+| §3 — tree inventories | ❌ not verified |
+| §4 — dual hazard | ❌ not verified |
+| §5 — policy drivers (Sabadell's 23.95% / 30,238 / ~2,700 positions etc.) | ❌ not verified |
+
+**Do not quote §1, §3, §4 or §5 to the tutor as established.** The recommendation in §6 rests on §1 (unverified) plus §2 (verified, but with its pluvial claim corrected downward below).
+
+## 0. The headline, including the bad news
+**Criterion 2 fails for the whole of Catalonia.** The ACA's 3rd-cycle pluvial product, approved 15 July 2026, is a **list of 44 municipalities** whose ARPSI polygon **is the administrative boundary** — Annex 8 §3.3, verbatim: *"les ARPSI pluvials no es defineixen a partir de criteris hidrològics (conques) o hidràulics (eixos de drenatge), sinó a partir dels límits administratius del municipis"* (the missing *s* is the source's own typo) — with no extent, no depth and no return period. No 3rd-cycle MAPRI exists — ACA says MAPRI and PGRI *"es troben actualment en fase d'elaboració"*; a 2027 date for homologated **inundable-zone** (not pluvial) cartography comes from press coverage of a parliamentary committee statement of 12 Nov 2025, **not from any ACA document**. The one pluvial ARPSI that ever had a modelled depth map (CRT Vila-seca i Salou, 8.54 km², HEC-HMS 3.3 + IBER 2.2) is **proposed for deletion** in the APRI phase, though its maps still stand. The **2018 (2nd-cycle)** fluvial-pluvial classification rested on a quantitative layer — the ZDD, *zones de dificultat de drenatge* — taken from an *"estudi inèdit de TRAGSATEC"* and never published (2nd-cycle APRI Annex 05 §3.2.1 and footnote 4). The 3rd cycle instead derives its "Pluvial-fluvial" typology simply from the presence of a fluvial TRI.
+
+**So Barcelona's RESCCUE depth model is the only city-wide pluvial depth model found in Catalonia**, and no Catalan transfer city can reproduce the hotspot-targeting half of the method from open data. (The one other published ACA pluvial depth product covers **8.54 km² at the CRT Vila-seca i Salou** — MAPRI 2019, with modelled depth classes <40 cm / 41 cm–1 m / >1 m from IBER 2D — and it remains **current**, since no 3rd-cycle MAPRI exists to supersede it; Annex 8 only *proposes* deleting the ARPSI. Mataró's municipal drainage model is reported to exist but is not open.) That is itself a finding for the thesis: it sharpens why Porta was the right calibration site, and it is a concrete instance of the transferability argument.
 
 The 44-list is still worth a lot: it is an authoritative, euro-quantified **pre-filter** with per-municipality damages and two risk indices, and a citable justification that pluvial flooding is a real municipal problem in the chosen city.
 
@@ -44,20 +57,24 @@ Density is given excluding the class-12 overlap strips, comparable to Porta's �
 **Caveat to resolve before relying on it:** these came from the clip service, not the published `datacloud` tiles. For the chosen city, download the actual 1×1 km LAZ over the study district and histogram the per-point date and class over the full extent. The four unclassified results in particular may be an artefact of the clip route rather than of the published product.
 
 ## 2. The ACA 44 (criterion 2 pre-filter)
-Source: ACA, *APRI 3r cicle, Annex 8 — Revisió i actualització de les ARPSI d'origen pluvial*, Taula 1 (pp. 8–9); damages and indices from Annex 6. Selection required flood damages ≥ €500,000 in 2005–2023 attributed to a pluvial origin.
+Source: ACA, *Revisió i actualització de l'APRI del DCFC — 3r Cicle, Annex 8*, v3, Taula 1 pp. 8–9, `https://info.aca.gencat.cat/ca/aca/informacio/web/plans-programes/PGRI/3cicle/APRI/ca/01_08_00_Annex_8_ARPSI_Pluvials_v3.pdf` (accessed 18 Oct 2026); damages and IRM values from Annex 6, Apèndix Taula 1, `.../01_06_01_Annex_6_AP_Proposta_incorporacio_municipis_v2.pdf`.
+
+**Selection required three things, not one:** flood damages ≥ €500,000 in 2005–2023; a determination that the origin was **pluvial rather than fluvial**; and a **DGPC obligation to hold a municipal flood action plan (PAM)** — the third gate is why several high-damage municipalities are absent. Viladrau and Riells i Viabrea were admitted despite failing it.
+
+Rows below are sorted by **recorded damages**, which is ACA's own highest-weighted criterion (Annex 6 §4d). **IRM AMC = 0 does not mean low risk**: it means no indirect hazard indicator passed its threshold and the municipality is not among the 146 above ACA's risk threshold. ACA ranks this index the *most uncertain* of its three and weights it *least*.
 
 | In the 44 | ARPSI code | Type | Damages 2005–23 | IRM AMC |
 |---|---|---|---|---|
-| **Badalona** | ES100P700_050 | **Pluvial** | €658,154 | **100.00 (the index's reference municipality)** |
-| Terrassa | ES100P200_070 | Pluvial-fluvial | €2,424,305 | 93.98 |
-| Sabadell | ES100P060_040 | Pluvial-fluvial | €1,661,493 | 67.80 |
+| **Tarragona** | ES100P080_010 | Pluvial-fluvial | **€44,302,252** | 0 |
+| Castelldefels | ES100P800_010 | Pluvial | €6,826,265 | 23.68 |
 | Reus | ES100P913_010 | Pluvial-fluvial | €5,102,433 | 37.73 |
+| Rubí | ES100P200_080 | Pluvial | €4,935,265 | 0 |
+| Terrassa | ES100P200_070 | Pluvial-fluvial | €2,424,305 | 93.98 |
+| Sant Cugat del Vallès | ES100P060_060 | Pluvial | €2,052,625 | 31.47 |
+| Sabadell | ES100P060_040 | Pluvial-fluvial | €1,661,493 | 67.80 |
 | Manresa | ES100P200_020 | Pluvial-fluvial | €1,415,038 | 36.00 |
 | **Mataró** | ES100P700_030 | Pluvial-fluvial | €1,363,419 | 32.09 |
-| Sant Cugat del Vallès | ES100P060_060 | Pluvial | €2,052,625 | 31.47 |
-| Castelldefels | ES100P800_010 | Pluvial | €6,826,265 | 23.68 |
-| Tarragona | ES100P080_010 | Pluvial-fluvial | €44,302,252 | 0 |
-| Rubí | ES100P200_080 | Pluvial | €4,935,265 | 0 |
+| **Badalona** | ES100P700_050 | **Pluvial** | **€658,154 — the lowest here, just over the €500k threshold** | 100.00 (the scale maximum) |
 
 **Not in the 44:** Girona, Lleida (outside the ACA district entirely — Ebro/Segre), Santa Coloma, L'Hospitalet, Cornellà, Vilanova, Granollers, El Prat. ACA types Girona's and L'Hospitalet's risk as **fluvial**.
 
@@ -86,7 +103,7 @@ No Catalan municipality outside Barcelona has a single document mapping both haz
 - **Girona** — newest and most demanding: *Pla Director de l'Arbrat Urbà*, definitive 9 May 2025, imposes 5-10-15 city-wide with 10-20-30 per neighbourhood, restricts *Celtis australis* (its commonest species) and classes 7,497 positions — 32% of street trees — as Low or Very Low suitability.
 
 ## 6. Recommendation, and the one check only the user can do
-**Badalona**, because it is the only candidate top-ranked on the two most severe criteria at once: its LiDAR is the **identical ICGC mission to Porta's** (2021-09-26, classified, 12–16 pts/m², same 10 km block 4358), so the transfer carries **zero season, sensor or year difference**; and it has the strongest pluvial standing in Catalonia (ARPSI typed plainly *Pluvial*, IRM AMC 100.00, with a real 2025 event). Its weakness is criterion 6 — no tree plan of its own, only DIBA's provincial 15% guidance.
+**Badalona**, because it is the only candidate top-ranked on the two most severe criteria at once: its LiDAR is the **identical ICGC mission to Porta's** (2021-09-26, classified, 12–16 pts/m², same 10 km block 4358), so the transfer carries **zero season, sensor or year difference**; and it is one of the 25 municipalities ACA types plainly *Pluvial*, with a documented 2025 event. **Corrected after fact-check:** an earlier draft called this "the strongest pluvial standing in Catalonia" on the strength of IRM AMC 100.00. That is wrong twice over — the IRM AMC is **not a pluvial index** (its hazard variables are precipitation, *cabal específic*, *llindar d'escolament*, climate change on flood flows and *densitat fluvial*, three of them fluvial-channel measures, none of them urban drainage), and 100.00 is merely the top of a 0–100 min-max normalisation across 635 municipalities. Badalona's recorded damages, €658,154, are the **lowest** of the ten candidates. Its pluvial standing is **adequate, not outstanding**; what still carries the recommendation is criterion 1. Its weakness is criterion 6 — no tree plan of its own, only DIBA's provincial 15% guidance.
 
 **Its single blocking unknown is whether it publishes a tree inventory with species**, and that is a browser check, not a data request. **Four portals are blocked from this cloud container and must be opened from Windows**, in this order:
 

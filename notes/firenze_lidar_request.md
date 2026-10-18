@@ -11,14 +11,14 @@
 
 | | |
 |---|---|
-| **Office** | SIT — Sistema Informativo Territoriale, Comune di Firenze (Direzione Sistemi Informativi) |
+| **Office** | SIT — Sistema Informativo Territoriale, Comune di Firenze. **Note the Direzione:** the Comune's *Funzionigramma* (Rev. 10.0, in force 25/11/2024) assigns the *Sistema Informativo Territoriale* macrofunzione (cod. 4.8) to the **Direzione Urbanistica**; the **Direzione Sistemi Informativi** holds its *development* (cod. 4.9) and open data (cod. 36.8), and is the `author` on the CKAN records. If the first contact cannot help, ask for Urbanistica. |
 | **Address** | Via Reginaldo Giuliani 250, 50141 Firenze — **secondo piano** |
 | **Telephone** | 055 3283858 |
 | **Email** | `sit@comune.fi.it` |
 | **Second email** | `opendata@comune.fi.it` — the author/maintainer address on the Comune's own dataset records; put it in cc |
-| **Formal route, if the informal one stalls** | The Comune's general PEC (protocol mailbox) — confirm the current address on comune.firenze.it before using it — or an *accesso civico generalizzato* request (D.Lgs. 33/2013 art. 5 c. 2), which is free, needs no justification, and must be answered within 30 days. Use this only as a fallback: a technical office usually answers a technical question faster than a legal one. |
+| **Formal route, if the informal one stalls** | An *accesso civico generalizzato* request: D.Lgs. 33/2013 **art. 5 c. 2** establishes the right, **c. 3** says the request needs no justification, **c. 4** makes release free *salvo il rimborso del costo effettivamente sostenuto* for reproduction on physical media (the clause a multi-GB delivery would trigger), **c. 6** sets a 30-day deadline, and **art. 7** makes the data reusable citing the source. For the PEC address, look it up on the Comune's *Amministrazione trasparente* pages — this note does not record one, because none was verified. Use this route only as a fallback: a technical office answers a technical question faster than a legal one. |
 
-Sources: the address, telephone and `sit@comune.fi.it` come from the Comune's own WMS service metadata (`https://tms.comune.fi.it/tiles/service/wms?request=GetCapabilities`, `<ContactInformation>` block); the "secondo piano" from the official SIT page (`comune.firenze.it/pagina/territorio/sistema-informativo-territoriale`); `opendata@comune.fi.it` from the CKAN record of the Comune's datasets.
+Sources: the Direzione attribution comes from the Comune's *Funzionigramma* (Rev. 10.0) and the CKAN `author` field, **not** from the two sources below, neither of which names a Direzione. The address, telephone and `sit@comune.fi.it` come from the Comune's own WMS service metadata (`https://tms.comune.fi.it/tiles/service/wms?request=GetCapabilities`, `<ContactInformation>` block); the "secondo piano" from the official SIT page (`comune.firenze.it/pagina/territorio/sistema-informativo-territoriale`); `opendata@comune.fi.it` from the CKAN record of the Comune's datasets.
 
 **Going in person:** the official page gives no counter hours and the SIT is a technical office, not a public-facing desk. **Phone 055 3283858 first** and ask for an appointment with whoever manages the *rilievi LiDAR / cartografia*; turning up unannounced risks finding nobody who can answer. Bring the letter printed, plus the three technical questions on a single sheet.
 
@@ -32,7 +32,7 @@ Gentili responsabili del Sistema Informativo Territoriale,
 
 mi chiamo [NOME COGNOME] e sono studente del Master in Advanced Computation for Architecture & Design (MaCAD) presso l'Institute for Advanced Architecture of Catalonia (IAAC) di Barcellona. Sto sviluppando una tesi su un **metodo computazionale per la selezione e la collocazione delle alberature stradali**, valutate simultaneamente rispetto allo stress termico dei pedoni (indice UTCI) e alla riduzione del deflusso superficiale durante le piogge intense.
 
-Il metodo è stato messo a punto su un quartiere di Barcellona e vorrei verificarne la trasferibilità su Firenze. Utilizzo già, con grande utilità, i dati aperti del Comune: il **DTM e il DSM LiDAR 2023** (licenza CC BY 4.0), il dataset **"Alberi"** e il censimento **"Life Escapos — Alberature pubbliche"**.
+Il metodo è stato messo a punto su un quartiere di Barcellona e vorrei verificarne la trasferibilità su Firenze. Utilizzo già il dataset **"Alberi"** e il censimento **"Life Escapos — Alberature pubbliche"**, e ho individuato e consultato i metadati del **DTM e del DSM LiDAR 2023** (licenza CC BY 4.0).
 
 **Oggetto della richiesta.** Vorrei chiedere se sia possibile accedere alla **nuvola di punti LiDAR** (formato LAS/LAZ, o il formato in cui è conservata) del **volo del 27 giugno 2023**, quello da cui derivano il DSM e il DTM pubblicati. La richiesta può limitarsi a **un'area circoscritta** — sarebbe sufficiente un settore di 1–2 km² nella zona **Rifredi / Novoli (Firenze Nova)** — e non all'intero territorio comunale.
 
@@ -62,7 +62,7 @@ Institute for Advanced Architecture of Catalonia (IAAC), Barcellona
 
 ## If you go in person: what to say in 30 seconds
 
-> "Buongiorno, sono uno studente di un master in architettura computazionale allo IAAC di Barcellona. Sto facendo una tesi sugli alberi stradali e uso già i vostri dati aperti, il DTM e il DSM LiDAR del 2023. Avrei bisogno di sapere tre cose tecniche sul volo del 27 giugno 2023: la densità di punti al metro quadrato, se sono stati registrati più ritorni per impulso e se i ritorni sulla vegetazione sono stati conservati, e se la nuvola di punti è classificata. Se la risposta alle prime due è sì, vorrei chiedere se è possibile avere la nuvola di punti di una zona limitata, Rifredi–Novoli, e sapere con quale licenza."
+> "Buongiorno, sono uno studente di un master in architettura computazionale allo IAAC di Barcellona. Sto facendo una tesi sugli alberi stradali e uso già i vostri dati aperti sugli alberi; ho visto che pubblicate anche il DTM e il DSM LiDAR del 2023. Avrei bisogno di sapere tre cose tecniche sul volo del 27 giugno 2023: la densità di punti al metro quadrato, se sono stati registrati più ritorni per impulso e se i ritorni sulla vegetazione sono stati conservati, e se la nuvola di punti è classificata. Se la risposta alle prime due è sì, vorrei chiedere se è possibile avere la nuvola di punti di una zona limitata, Rifredi–Novoli, e sapere con quale licenza."
 
 Then hand over the printed letter.
 
@@ -74,3 +74,11 @@ Then hand over the printed letter.
 | First pulse / ground-filtered only | **Florence cannot support the LAI proxy.** Fall back to the Catalan city, and say so in the thesis as a data-availability finding |
 | Access refused or reserved to public bodies | Same as above; record it as the licence barrier it is |
 | No reply before ~10 Nov | Treat as a no for planning purposes — the transfer window is 2–10 Dec |
+
+
+---
+
+## Fact-check, 18 Oct 2026 (27 claims tested against primary sources)
+**The letter's load-bearing facts hold.** Verified independently: the flight date **27 June 2023** and licence **CC BY 4.0** are verbatim in the CKAN records of `dtm-lidar-2023` (c_d612:D.7683) and `dsm-lidar-2023` (D.7684) — *"realizzato mediante elaborazione del rilievo Lidar effettuato in data 27 giugno 2023"*; the published archive has exactly **485** tiles on a 500 m step covering X 673000–688500 / Y 4843500–4856500, with the Duomo, Novoli and Gavinana tiles all present. The point-cloud premise was re-confirmed through Geoscopio WMS GetFeatureInfo: every sheet over the built-up city reads *"Su questo foglio nuvola di punti non disponibile"*, while the Osmannoro sheet carries lot 002 "BACINO DELL'ARNO", *"Data volo: DAL 2/3/2008 AL 10/5/2008"*. Address, telephone, email and "secondo piano" are verbatim in the cited sources, and Pacetti et al. (2022) do name **district D5 Rifredi–Novoli** as their pilot.
+
+**Three things were corrected above:** the Direzione attribution (the SIT sits under Urbanistica, not Sistemi Informativi); the letter's claim to *already use* the 2023 rasters, which the repository has never downloaded; and the accesso-civico citation, which conflated four separate commi and dropped the reimbursement clause.
