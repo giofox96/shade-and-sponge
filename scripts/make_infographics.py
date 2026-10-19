@@ -76,8 +76,10 @@ def save(name, title, subtitle, body, source):
     print("wrote", p.relative_to(ROOT))
 
 
-def to_png(svg):
-    """Headless Edge/Chrome/Chromium screenshot. Windows first (the user's machine), then the Chromium a cloud session has."""
+def to_png(svg, scale=2):
+    """Headless Edge/Chrome/Chromium screenshot. Windows first (the user's machine), then the Chromium a cloud session has.
+
+    scale=1 for the photo title slide: the source photo is 1240 px wide, so a 2x render would only upscale it."""
     cand = [r"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe",
             r"C:\Program Files\Google\Chrome\Application\chrome.exe",
             shutil.which("msedge"), shutil.which("chrome"), shutil.which("chromium")]
@@ -90,7 +92,7 @@ def to_png(svg):
     with tempfile.TemporaryDirectory(ignore_cleanup_errors=True) as prof:   # Edge may still hold profile files
         subprocess.run([exe, "--headless", "--disable-gpu", "--hide-scrollbars", f"--user-data-dir={prof}", *flags,
                         f"--screenshot={svg.with_suffix('.png')}", f"--window-size={W},{H}",
-                        "--force-device-scale-factor=2", svg.as_uri()], capture_output=True, timeout=60)
+                        f"--force-device-scale-factor={scale}", svg.as_uri()], capture_output=True, timeout=60)
 
 
 # ---- 1. What the review covers
@@ -511,6 +513,39 @@ def fig_catalonia_lidar():
          "databases/traits/phenology_palette.csv. Full screening: notes/catalan_transfer_city.md.")
 
 
+# ---- Slide 1. Title, over the site itself
+def fig_title():
+    """Full-bleed photo of the Porta allotments, with the title over a scrim.
+
+    The photo file sits next to the SVG and is referenced relatively, so both the headless render and
+    an SVG editor resolve it. PHOTO CREDIT IS UNCONFIRMED (see the outline): check it before the booklet."""
+    g = ('<defs><linearGradient id="scrim" x1="0" y1="0" x2="1" y2="0">'
+         '<stop offset="0" stop-color="#0B1A20" stop-opacity="0.86"/>'
+         '<stop offset="0.52" stop-color="#0B1A20" stop-opacity="0.52"/>'
+         '<stop offset="1" stop-color="#0B1A20" stop-opacity="0.04"/></linearGradient>'
+         '<linearGradient id="foot" x1="0" y1="0" x2="0" y2="1">'
+         '<stop offset="0" stop-color="#0B1A20" stop-opacity="0"/>'
+         '<stop offset="1" stop-color="#0B1A20" stop-opacity="0.75"/></linearGradient></defs>')
+    b = (f'<image x="0" y="0" width="{W}" height="{H}" preserveAspectRatio="xMidYMid slice" '
+         'href="01_title_photo.webp"/>'
+         f'<rect width="{W}" height="{H}" fill="url(#scrim)"/>'
+         f'<rect x="0" y="{H - 150}" width="{W}" height="150" fill="url(#foot)"/>')
+    b += rect(80, 300, 88, 6, "#FFFFFF", rx=0)
+    b += t(80, 410, "Shade and Sponge", 86, "#FFFFFF", "bold")
+    b += para(80, 470, "A computational method for choosing which species replace Barcelona's plane trees, "
+                       "and where — scored on summer heat and on storm runoff.", 820, 28, fill="#E8EEF0")[0]
+    b += t(80, 596, "MaCAD, IAAC  ·  Tutor session, 20 October 2026", 22, "#9FB4BC")
+    b += t(80, 820, "Horts urbans de Porta, Carrer d'Alcúdia × Carrer de la Maladeta, Nou Barris — "
+                    "the bare crowns in the foreground are the plane trees this thesis is about.", 17, "#C6D3D8")
+    svg = (f'<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" '
+           f'width="{W}" height="{H}" viewBox="0 0 {W} {H}" font-family="{FONT}">'
+           f'<rect width="{W}" height="{H}" fill="#0B1A20"/>{g}{b}</svg>')
+    out = OUT / "01_title.svg"
+    out.write_text(svg, encoding="utf-8")
+    to_png(out, scale=1)
+    print("wrote", out.relative_to(ROOT))
+
+
 # ---- Slide 2. The thesis in one sentence
 def fig_one_sentence():
     def panel(x, w, col, head, lines, big=None):
@@ -781,6 +816,7 @@ def fig_hypotheses():
 
 if __name__ == "__main__":
     OUT.mkdir(parents=True, exist_ok=True)
+    fig_title()               # slide 1
     fig_one_sentence()        # slide 2
     fig_problem()             # slide 3
     fig_lit_map()             # slide 5

@@ -110,3 +110,5 @@ For whichever city answers yes, record: record count, the species field, distinc
 Two smaller local checks from the same note:
 - [ ] Open `https://sig.gencat.cat/ows/AIGUA/wms` (layer `AIGUA_PLUVIAL_ARPSI`) to get the 44-municipality polygon layer **and its licence**, which is still unknown.
 - [ ] For the chosen city, download the published 1×1 km `datacloud` LAZ over the study district and histogram per-point GPS date and classification over the full extent, to confirm the clip-service result.
+
+- [ ] **Title-slide photo (20 Oct):** `slides/fig/01_title_photo.webp` (Porta allotments, Carrer d'Alcúdia × Carrer de la Maladeta) came from a web image, so **author and licence are unverified**. Confirm the credit before the booklet, or replace the file with your own photo of the same corner and re-run `scripts/make_infographics.py`.

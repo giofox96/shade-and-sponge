@@ -2,12 +2,12 @@
 
 **What changed in v3 (19 Oct, evening).** The deck is rebuilt to follow the rhythm of `study/guide.md`: **one idea per slide**, the number first and its caveat in the same breath, and the limits said before the tutor asks. It goes from 10 slides to **17 + 3 backups**. Six new figures were written for it (`02_one_sentence`, `03_problem`, `07_heat_evidence`, `11_research_question`, `12_hypotheses`, `17_limits_asks`); the others are the existing ones, renamed. The two RM-seminar figures stay parked in `slides/seminar_rm/`.
 
-**Figure files = slide numbers.** `slides/fig/NN_*.png` is the figure for slide NN. Slides **1, 4, 14, 15** have no file there on purpose: they use your own photo or a plot from `notes/figures/`. Backups are `B1_*`, `B2_*`. Regenerate everything with `python scripts/make_infographics.py` (run it from `scripts/`).
+**Figure files = slide numbers.** `slides/fig/NN_*.png` is the figure for slide NN. Slides **4, 14, 15** have no file there on purpose: they use a plot from `notes/figures/`. Slide 1 is a full-bleed photo slide, built from `slides/fig/01_title_photo.webp`. Backups are `B1_*`, `B2_*`. Regenerate everything with `python scripts/make_infographics.py` (run it from `scripts/`).
 
 **Length.** Brackets in the headings are the cumulative target at **150 words a minute** (most people present at 140–160).
-- **Full deck, 17 slides:** 1,525 spoken words ≈ 10:10 (10:54 slow, 9:32 brisk).
-- **Core, 12 slides** (drop 2, 5, 7, 10, 15): 1,145 words ≈ 7:38 (7:09 brisk). **Aim for this one** — you said overrunning is fine, and it still covers all six things the tutor asked for.
-- **Short, 9 slides** (1, 3, 4, 6, 9, 11, 12, 13, 14, then one spoken line of slide 17's three asks): 858 words ≈ 5:43 (5:22 brisk). To get strictly under 5:00, drop slide 9 (the gap, 86 words) or trim slide 4 — but then say the gap in one line inside slide 11.
+- **Full deck, 17 slides:** 1,542 spoken words ≈ 10:17 (11:01 slow, 9:38 brisk).
+- **Core, 12 slides** (drop 2, 5, 7, 10, 15): 1,162 words ≈ 7:45 (7:16 brisk). **Aim for this one** — you said overrunning is fine, and it still covers all six things the tutor asked for.
+- **Short, 9 slides** (1, 3, 4, 6, 9, 11, 12, 13, 14, then one spoken line of slide 17's three asks): 875 words ≈ 5:50 (5:28 brisk). To get strictly under 5:00, drop slide 9 (the gap, 86 words) or trim slide 4 — but then say the gap in one line inside slide 11.
 - Order in which to cut if you are stopped: 5 → 10 → 15 → 7 → 2 → 16 → 8.
 - Longest single slides, if you need to trim: 16 (123 w), 12 (131 w), 7 (104 w), 15 (102 w), 4 (105 w).
 
@@ -15,16 +15,17 @@
 
 ---
 
-## 1. Title — CORE [0:21]
-**Figure:** your own photo of Av. Meridiana's plane trees (none in `slides/fig/`).
-**On slide:** *Shade and Sponge* — a computational method for choosing which species replace Barcelona's plane trees, and where. Name · MaCAD, IAAC · 20 October 2026.
+## 1. Title — CORE [0:28]
+**Figure:** `slides/fig/01_title.png` — full-bleed photo of the Porta allotments at Carrer d'Alcúdia × Carrer de la Maladeta, with the title over a scrim. The bare crowns in the foreground are plane trees, which is the whole thesis in one picture.
+**On slide (in the figure):** *Shade and Sponge* — a computational method for choosing which species replace Barcelona's plane trees, and where, scored on summer heat and on storm runoff. MaCAD, IAAC · Tutor session, 20 October 2026.
+**Two things to do yourself:** add **your name** to the title block (type it in Slides, or ask for it in the figure), and **confirm the photo credit** — the file came from a web image, so the author and licence are unverified (`notes/todo_manual.md`). If it is not yours to use, swap in your own photo of the same corner: `slides/fig/01_title_photo.webp`, then re-run `make_infographics.py`.
 
-**Say (52 words):**
-"Barcelona has to replace a large share of its street trees, because one species — the plane — is twenty-eight percent of the city stock, and twenty-nine percent in the neighbourhood I work in, while the tree plan caps every species at fifteen. My thesis is how to decide what goes back."
+**Say (69 words):**
+"This is Porta, at the corner of Alcúdia and Maladeta, and those bare crowns are plane trees. Barcelona has to replace a large share of its street trees, because one species — the plane — is twenty-eight percent of the city stock, and twenty-nine percent in the neighbourhood I work in, while the tree plan caps every species at fifteen. My thesis is how to decide what goes back."
 
 ---
 
-## 2. The thesis in one line — EXTRA [0:47]
+## 2. The thesis in one line — EXTRA [0:54]
 **Figure:** `slides/fig/02_one_sentence.png`
 **On slide:** species × position → heat + runoff → trade-off. Plus the three "what it is not" lines.
 
@@ -33,7 +34,7 @@
 
 ---
 
-## 3. The problem: two hazards, one street, one decision — CORE [1:25]
+## 3. The problem: two hazards, one street, one decision — CORE [1:32]
 **Figure:** `slides/fig/03_problem.png`
 **On slide:** the three columns of the figure (rain / heat / the decision already taken).
 
@@ -42,7 +43,7 @@
 
 ---
 
-## 4. Why Porta — CORE [2:07]
+## 4. Why Porta — CORE [2:14]
 **Figure:** `notes/figures/porta_profile.png` (fallback: `notes/figures/bcn_site_screening.png`).
 **On slide:** Porta, Nou Barris · 0.84 km² · 73 screened, **first of the eligible set at every threshold** (#2 overall on the equal-weight score; top 3 in 53% of 2,000 random weightings) · ranks among the 72 with complete data: flood #13 · surface heat #11 (+1.36 °C) · heat vulnerability #12 · **832 plane trees** · 2,825 street trees, 53 taxa · the six named replacement species, plus *Styphnolobium*, already grow there.
 
@@ -51,7 +52,7 @@
 
 ---
 
-## 5. What the review covers — EXTRA [2:26]
+## 5. What the review covers — EXTRA [2:33]
 **Figure:** `slides/fig/05_lit_map.png`
 **On slide:** 135 on-topic sources, 128 read in full; what they cover (runoff · heat · traits · optimisation · precedents).
 
@@ -60,7 +61,7 @@
 
 ---
 
-## 6. Evidence: what a tree does for rain — CORE [3:03]
+## 6. Evidence: what a tree does for rain — CORE [3:10]
 **Figure:** `slides/fig/06_runoff_evidence.png`
 **On slide:** interception 4–70% of rainfall across the field studies, leaf area the main driver · paired-catchment study: **4%** of runoff volume measured (Selbig 2021), 3.5% in the calibrated re-analysis (Coville 2022), **no effect on peak flow** · the benefit falls as the storm grows.
 
@@ -69,7 +70,7 @@
 
 ---
 
-## 7. Evidence: what a tree does for heat, and what my model cannot see — EXTRA [3:44]
+## 7. Evidence: what a tree does for heat, and what my model cannot see — EXTRA [3:51]
 **Figure:** `slides/fig/07_heat_evidence.png`
 **On slide:** the two columns of the figure.
 
@@ -78,7 +79,7 @@
 
 ---
 
-## 8. Same tree, two jobs — CORE [4:15]
+## 8. Same tree, two jobs — CORE [4:22]
 **Figure:** `slides/fig/08_heat_runoff_traits.png`
 **On slide:** shared drivers (crown size, LAI) · what pulls apart (leaf habit: summer shade vs autumn storms; transpiration needs water; winter sun is a cost).
 
@@ -87,7 +88,7 @@
 
 ---
 
-## 9. The gap — CORE [4:50]
+## 9. The gap — CORE [4:56]
 **Figure:** `slides/fig/09_gap_matrix.png`
 **On slide:** precedents either assess heat **and** runoff for fixed scenarios without species traits, or optimise species and positions for **heat only**; SylvCiT's runoff module is disabled; Dong et al. 2026 work per 0.25 km² cell with an energy proxy, not per tree with pedestrian UTCI.
 
@@ -96,7 +97,7 @@
 
 ---
 
-## 10. The other gap: the data — EXTRA [5:14]
+## 10. The other gap: the data — EXTRA [5:20]
 **Figure:** `slides/fig/10_palette_data_gap.png`
 **On slide:** for the 7 candidate species: LiDAR crown ✅ for all · rain storage measured for one · no measured cooling value.
 
@@ -105,7 +106,7 @@
 
 ---
 
-## 11. The research question (v5) — CORE [5:54]
+## 11. The research question (v5) — CORE [6:01]
 **Figure:** `slides/fig/11_research_question.png`
 **On slide (the figure carries it):**
 > **RQ (v5, 19 Oct).** In Porta, as plane trees are replaced under the city's tree plan, which replacement species and positions jointly reduce (a) pedestrian heat stress (**mean UTCI over 12–17 h on a hot design day**, along sun-exposed routes) and (b) event runoff volume from sealed street surfaces (1-, 2- and 10-year PDISBA design storms)? **How large is the trade-off between the two, compared with the current trees, a like-for-like replacement with the city's named palette, and single-objective layouts?**
@@ -117,7 +118,7 @@
 
 ---
 
-## 12. Two hypotheses, and the one I took out — CORE [6:47]
+## 12. Two hypotheses, and the one I took out — CORE [6:54]
 **Figure:** `slides/fig/12_hypotheses.png`
 **On slide (the figure carries it):**
 - **H1 · synergy** — at the same number and size class of trees, trait-based layouts beat like-for-like replacement on **both** goals.
@@ -131,7 +132,7 @@
 
 ---
 
-## 13. The method — CORE [7:25]
+## 13. The method — CORE [7:32]
 **Figure:** `slides/fig/13_method_pipeline.png`
 **On slide:** 5 steps: LiDAR trees → trait table → runoff module (Python) + heat module (Ladybug in Grasshopper) → NSGA-II over the 832 positions, under ≤ 15% per species and a diversity floor → Pareto front, scenarios S0–S4, then Sant Antoni and the transfer city.
 
@@ -140,7 +141,7 @@
 
 ---
 
-## 14. First result: the runoff module runs — CORE [8:05]
+## 14. First result: the runoff module runs — CORE [8:12]
 **Figure:** `notes/figures/runoff_results_v1.png`
 **On slide:** today's street trees: **−1.85%** runoff at T = 2 (−2.9% on open ground, i.e. everything but roofs) · field benchmark 3.5–4% · young replacements lose **≈ 37%** of that benefit · effect falls 3.16% → 0.90% from T = 1 to T = 10 · calibrated on 16 trees, 51 storms (Freiburg), s = 1.75 mm per unit LAI.
 
@@ -149,7 +150,7 @@
 
 ---
 
-## 15. First result: shade, and a real trade-off — EXTRA [8:46]
+## 15. First result: shade, and a real trade-off — EXTRA [8:53]
 **Figure:** `notes/figures/tool_v0.png`
 **On slide:** optimised vs random palette: **+16% summer shade**, robust across 8 sensitivity variants — but **no winter gain** (−0.8 to +7.9%: about equal or worse) · beyond the balanced layout a genuine trade-off: **−17.6% winter shade for −18.0% summer shade** in the base run (ratio ~0.6–1.0 across the variants) · **even with mature replacement crowns**, no layout reaches today's planes (balanced: −7.5% summer shade).
 
@@ -158,7 +159,7 @@
 
 ---
 
-## 16. Transferability: the code travels, the evidence does not — CORE [9:35]
+## 16. Transferability: the code travels, the evidence does not — CORE [9:42]
 **Figure:** `slides/fig/16_transferability.png`
 **On slide:**
 - Site-agnostic **kernels** (routing, crown-shadow geometry, SCS-CN) carry no local constant; a new site is one data adapter. `heat.py` and `runoff.py` still hold Barcelona design days, the calibrated *s* and the IDF path.
@@ -172,7 +173,7 @@
 
 ---
 
-## 17. What I cannot do yet, and what would unblock me — CORE [10:10]
+## 17. What I cannot do yet, and what would unblock me — CORE [10:17]
 **Figure:** `slides/fig/17_limits_asks.png`
 **On slide:** the limits column, the three asks, and the plan to 18 December.
 
