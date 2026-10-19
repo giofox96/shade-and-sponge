@@ -1,13 +1,14 @@
 # 5-minute talk, 20 Oct 2026: slide outline and script (draft v2, 18 Oct)
 
 **Format:** 10 slides, 16:9, Google Slides. Figures: `slides/fig/*.png` (insert as images) or `*.svg` (to edit). Regenerate them with `python scripts/make_infographics.py`.
-**Script:** 718 words, which is about 5 min 08 s at a calm 140 words per minute (most people present nearer 150–160, i.e. 4:30–4:50). The times in brackets are the cumulative target.
+**Script:** 740 words, which is about 5 min 17 s at a calm 140 words per minute (most people present nearer 150–160, i.e. 4:38–4:56). The times in brackets are the cumulative target, recomputed 19 Oct.
+**Changes on 19 Oct:** the Catalan fallback is now **Mataró**, not a generic "Catalan city" — it is the only transfer candidate with a published design storm of its own (`notes/catalan_transfer_city.md` §5b) and its tree data is resolved (§3b). Slide 10 and `slides/fig/10_transferability.png` updated; backup slide B2's Badalona mission-day line is still true but no longer the recommendation. Script +22 words; if the 5 minutes are strict, cut slide 3 or 9 rather than slide 10.
 **Changes on 18 Oct:** slide 10 on transferability added (`notes/transferability.md`); to pay for it, slide 3 lost the screening detail that the bullets already carry, slide 6 one precedent clause, and slide 9's closing ask moved to slide 10. If the 5 minutes are strict, cut slide 3 or 9 further rather than slide 10.
 **Sources:** every number is from `notes/topic_decision.md` §7, `notes/site_selection.md`, `notes/methodology.md` §4b, `notes/transferability.md`, or the figures' own source lines. `*` on a figure = read from the abstract only. Get the full texts before the talk (see `notes/todo_manual.md`).
 
 ---
 
-### 1. Title [0:10]
+### 1. Title [0:13]
 **On slide:** *Shade and Sponge*: a computational method to choose which species replace Barcelona's plane trees, for heat and runoff. Name · MaCAD, IAAC · 20 Oct 2026.
 **Visual:** one photo of Av. Meridiana's plane trees (yours).
 **Say:** "Barcelona will replace hundreds of plane trees in the coming years. My thesis is a computational method to decide which species replace them, and where, for heat and for rain."
@@ -22,24 +23,24 @@
 **Visual:** two icons (rain / sun) over one street section.
 **Say:** "Two hazards hit the same streets. Barcelona's sealed surface grew from 45 to 72 percent between 1956 and 2009. About three storms a year exceed 60 millimetres per hour in their first twenty minutes, more than the sewer takes. In summer, the city carries one of Europe's highest heat-island mortality burdens. The tree master plan caps every species at 15 percent, and plane trees are about 29 percent of street trees, so many will be replaced."
 
-### 3. Why Porta [1:25]
+### 3. Why Porta [1:23]
 **On slide:** First of 73 neighbourhoods at every threshold · flood #13 · surface heat #11 (+1.36 °C) · heat vulnerability #12 · 832 plane trees · the six named replacement species, plus *Styphnolobium*, already grow there.
 **Visual:** `notes/figures/porta_profile.png` (or `bcn_site_screening.png`).
 **Say:** "To test this I needed a neighbourhood with both hazards and many plane trees. I screened all 73 with open data: to qualify, one had to be above the city's 60th percentile for flood hazard, surface heat and plane density at the same time. Porta, in Nou Barris, comes first at every threshold. It has 832 plane trees, and the six named replacement species already grow there, plus a seventh from the press. Sant Antoni floods more but its heat is average: it becomes my contrast site."
 
-### 4. Literature, runoff side [2:00]
+### 4. Literature, runoff side [1:54]
 **Visual:** `slides/fig/02_runoff_evidence.png`, with `01_lit_map.png` small in a corner (or as a backup slide).
 **Say:** "The literature review covers 81 sources. On runoff, two findings matter. Species differ: in field studies a crown intercepts roughly 10 to 70 percent of rainfall, and the main driver is leaf area. Second, the benefit fades as storms grow. A paired-catchment study measured a 3.5 to 4 percent cut in runoff volume from street trees, with no effect on peak flow. So trees are a tool for frequent storms, not for extreme events."
 
-### 5. Literature: same tree, two jobs [2:25]
+### 5. Literature: same tree, two jobs [2:21]
 **Visual:** `slides/fig/03_heat_runoff_traits.png`
 **Say:** "On the heat side, leaf area and crown size also drive shade and cooling, so the two goals share drivers. But they also pull apart. Leaf habit decides whether a crown is there for summer heat or for autumn storms. And transpiration, the stronger air-cooling effect, needs water. That is why one score is not enough: species choice needs a multi-objective search."
 
-### 6. The gap [3:00]
+### 6. The gap [2:50]
 **Visual:** `slides/fig/04_gap_matrix.png` (main) and `05_palette_data_gap.png` (click-in, or next to it).
 **Say:** "Here is the gap. The closest precedents either assess heat and runoff for fixed scenarios without species traits, or optimise species and positions for heat only. SylvCiT, the most advanced trait-based recommender, has its runoff module disabled. For the six replacement species we can measure crowns on site from LiDAR. But rain storage is measured for only one of them, and none has a measured cooling value."
 
-### 7. Research question and hypotheses [3:30]
+### 7. Research question and hypotheses [3:24]
 **On slide:**
 **RQ:** In Porta, as plane trees are replaced, which species and positions jointly reduce pedestrian heat stress (UTCI, peak summer hour) and event runoff volume (1-, 2-, 10-yr design storms)? How large is the trade-off?
 - **H1, synergy:** trait-based layouts beat like-for-like replacement on both goals.
@@ -48,26 +49,27 @@
 
 **Say:** "So my question is this. In Porta, as plane trees are replaced, which species and positions jointly reduce pedestrian heat stress, measured as UTCI at the peak summer hour, and runoff volume for 1-, 2- and 10-year design storms? And how large is the trade-off? I test three hypotheses. First, trait-based layouts beat a like-for-like replacement on both goals. Second, the heat and runoff optima differ mainly in species, not positions. Third, the runoff benefit shrinks as storms grow."
 
-### 8. Method [4:05]
+### 8. Method [3:56]
 **Visual:** `slides/fig/06_method_pipeline.png`
 **Say:** "The method has five steps. From 2021 LiDAR I extract every tree's height, crown and a leaf-area proxy. A Python runoff module and a Ladybug heat module in Grasshopper score each layout. An NSGA-II search chooses the species at each of the 832 plane positions, under the city's 15 percent rule and a diversity floor. The output is a Pareto front between heat and runoff, which I will then test on Sant Antoni and on Florence."
 
-### 9. First result and next steps [4:40]
+### 9. First result and next steps [4:29]
 **Visual:** `notes/figures/runoff_results_v1.png`
 **On slide:** Street trees today: −1.9% runoff in a 2-yr storm (−2.9% on streets and squares); field benchmark 4% · young replacements lose >⅓ of the benefit · benefit shrinks with storm size (H3).
 **Say:** "The runoff module already runs. I calibrated canopy storage on open field data from Freiburg. Today's street trees cut runoff in a 2-year storm by 1.9 percent, or 2.9 percent on streets and squares — the same order as the 3.5 to 4 percent measured in the field. Replacing the planes with young trees loses more than a third of that benefit, and the benefit shrinks for bigger storms, as H3 predicts. The heat module is next."
 
-### 10. Transferability: the code travels, the evidence does not [5:05]
+### 10. Transferability: the code travels, the evidence does not [5:17]
 **Visual:** `slides/fig/10_transferability.png`
 **On slide:**
 - Site-agnostic core: the routing, shade-geometry and SCS-CN **kernels** carry no local constant; a new site = one data adapter. (`heat.py` and `runoff.py` still hold local design days, the calibrated *s* and the IDF path.)
 - The transfer bill is **data**: inventory · leaf-on point cloud · IDF · flood map · traits · phenology · policy.
 - Florence (1st choice): inventory (82,324 trees), a 1 km IDF grid and **a published pluvial index** (Pacetti's PFI, downloaded) — but **only 1 m DTM/DSM rasters**: the point cloud is request-only. Measured traits for **19% of trees vs 40%** here.
-- A **Catalan city** (fallback) inherits Porta's ≥8 pts/m² leaf-on ICGC cloud *and* its leaf calendar and storm months — Badalona's tiles are the **same mission day** as Porta's. But **no Catalan city has a pluvial hazard map**: the ACA's pluvial polygon *is* the municipal boundary.
+- **Mataró** (fallback, chosen 19 Oct) inherits Porta's ≥8 pts/m² leaf-on ICGC cloud *and* its leaf calendar and storm months unchanged, and is the **only candidate with a design storm of its own** — a full 5–120 min IDF table in its 2003 sewer master plan. Porta's measured species cover **52% of its street stock against 43% of Florence's**. Its inventory is **split**: 17,204 street trees by species in one file, 79,748 positions in another.
+- But **no Catalan city has a pluvial hazard map**: the ACA's pluvial polygon *is* the municipal boundary.
 - So Barcelona's RESCCUE depth model is the **only city-wide pluvial depth model found in Catalonia** — which is why Porta was the right place to calibrate.
 - Two hard dependencies: a **classified leaf-on point cloud** (the LAI proxy) and a **city flood map** (our own routing is not one: AUC 0.52).
 
-**Say:** "Last, transferability. The core is site-agnostic: the geometry and physics kernels carry no local constant. What does not travel is one input — a leaf-on laser scan dense enough to see inside a crown. Florence has the trees and the rainfall, but only rasters: the point cloud I have to ask for. And in all of Catalonia, no city has a pluvial depth map. Barcelona's is the only one, which is why I calibrated here. Two things would help me: the city's flood depth maps, and access to Infrared City."
+**Say:** "Last, transferability. The core is site-agnostic: the geometry and physics kernels carry no local constant. What does not travel is one input — a leaf-on laser scan dense enough to see inside a crown. Florence has the trees and the rainfall, but only rasters: the point cloud I have to ask for. So my fallback is Mataró: it has the scan, its own design storm, and half its street stock in species I have already measured. What no Catalan city has is a pluvial depth map. Barcelona's is the only one, which is why I calibrated here. Two things would help me: the city's flood depth maps, and access to Infrared City."
 
 ---
 
@@ -91,11 +93,21 @@
 
 ### B2. If the tutor presses on transferability: the 22-city Catalan screening
 **Visual:** `slides/fig/11_catalonia_lidar_backup.png`
-**On slide:** 22 Catalan municipalities screened on criterion 1. **19 are leaf-on and classified**; 3 are leaf-on but unclassified (Girona, Vic, Figueres); 1 is leaf-off (Manresa). **Badalona, Santa Coloma and Sant Cugat were flown on Porta's exact mission day, 26 September 2021.**
+**On slide:** 22 Catalan municipalities screened on criterion 1. **19 are leaf-on and classified**; 3 are leaf-on but unclassified (Girona, Vic, Figueres); 1 is leaf-off (Manresa). Badalona, Santa Coloma and Sant Cugat were flown on Porta's exact mission day, 26 September 2021 — **but that is a convenience, not a validity condition**, and the city chosen is **Mataró** (leaf-on July 2021, classified), on design rainfall and tree data instead (§3b, §5b).
 
 **Say (~60 words, only if asked):** "I screened twenty-two Catalan cities on the one input that decides a transfer. ICGC publishes only the flight year, so I read the date from the per-point GPS time in the cloud itself, and checked it against Porta, where it reproduces the date I already had. Nineteen are leaf-on and classified. Three are flown but unclassified, and one is flown in November."
 
-**The honest caveat, if pressed:** each date is one 150 × 150 m clip at the city centre, not a municipality-wide check — Rubí and Granollers split two missions inside a single clip, and a mission boundary runs through Porta's own tile. Data: `databases/catalonia_lidar_dates.csv`; full screening and its corrections: `notes/catalan_transfer_city.md`.
+**If the tutor asks why not Badalona:** it shares Porta's mission day and has the better rain-gauge record, but it has **no tree inventory** and **no design rainfall of its own** — the only published route is to drive its model with *Barcelona's* IDF curves, which is what the one peer-reviewed study of it does. That makes the transfer test partly circular: you would be transferring to a city whose design storm is, by assumption, the one you started from. A missing species field is a degraded input you can declare; a borrowed design storm invalidates the comparison.
+
+### B3. If the tutor presses on the design storm: method vs climate
+
+**On slide:** Comparing Mataró's published design storm with Porta's *raw* says Mataró is 19–32% drier, and **duration-dependently** so (ratio 0.81 at 10 min → 0.68 at 30 min → 0.71 at 60 min). That pattern cannot be climate. The two numbers are different *kinds* of quantity: Porta's PDISBA value is an across-gauge **envelope** (+24% over the gauge mean) from pluviograph records; Mataró's is a **central** Gumbel estimate from daily maxima with the sub-daily shape supplied analytically. Rebuild both the same way and **66–80% of the gap disappears** — the remainder is a flat 0.93 at T = 10 and 1.00 at T = 2.
+
+**Say (~55 words, only if asked):** "A naive city-to-city comparison would have reported a thirty percent climate difference. Most of it is not climate, it is how the two design storms were built — an envelope against a central estimate. Harmonised, the difference is seven percent. That is the kind of thing a transfer test has to control before it can claim anything."
+
+**The honest caveat:** the flat 0.93 is **not** a finding — it is an identity. Both cities sit in the same I1/Id = 11 region, so the duration factor is the same number at both ends and cancels; any two such cities would give a flat line. The evidence is the *raw* ratio reversing direction with duration, which climate cannot do. Also: the harmonised legs still use different frequency laws (Gumbel for Mataró, SQRT-ET max for Barcelona's), and the Témez route carries **no sub-hourly observation from either transfer city** — for Porta the sub-hourly curve is empirical, for Mataró it is an assumption. Detail: `notes/catalan_transfer_city.md` §5b.
+
+**The honest caveat on the LiDAR screening, if pressed:** each date is one 150 × 150 m clip at the city centre, not a municipality-wide check — Rubí and Granollers split two missions inside a single clip, and a mission boundary runs through Porta's own tile. Data: `databases/catalonia_lidar_dates.csv`; full screening and its corrections: `notes/catalan_transfer_city.md`.
 
 **What it answers:** that the fallback is real and costed, not hand-waving — and the finding that lands hardest is the negative: **no Catalan city has a pluvial hazard map at all**, so Barcelona's RESCCUE model is why Porta was the right calibration site.
 - Site-selection robustness: 2,000 random weightings, thresholds at the 50th/60th/70th percentile (`notes/site_selection.md` §3–4).

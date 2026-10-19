@@ -391,26 +391,26 @@ def fig_tree_system():
 # ---- 8. Transferability: what a new site costs
 def fig_transfer():
     cities = [("Barcelona", "calibration", TREE, 730), ("Florence", "1st choice", WARN, 860),
-              ("Catalan city", "fallback", RAIN, 990), ("Bologna", "dropped", MUTED, 1120)]
+              ("Mataro", "fallback", RAIN, 990), ("Bologna", "dropped", MUTED, 1120)]
     b = "".join(t(x, 196, name, 19, col, "bold", "middle") + t(x, 216, sub, 14, MUTED, anchor="middle")
                 for name, sub, col, x in cities)
     b += t(1180, 206, "What it costs to move the method", 17, INK, "bold")
     rows = [("Boundary, buildings, DTM", "domain, building shadows, flow routing", [1, 1, 1, .5],
              "OSM plus a municipal or national terrain product nearly everywhere"),
             ("Tree inventory: species + position", "baseline stock and the positions to replace", [1, 1, .5, 1],
-             "140,404 / 82,324 / 87,285 trees. In Catalonia it varies: Girona yes, Badalona none found"),
+             "140,404 / 82,324 / 87,285 trees. Mataro: species and positions published, but in separate files"),
             ("Classified leaf-on point cloud", "crown, crown base, LAI proxy from gap fraction", [1, 0, 1, .5],
              "THE binding input. Florence has rasters only; ICGC covers all Catalonia"),
-            ("Design rainfall (IDF)", "design storms T = 1, 2, 10 yr", [1, 1, .5, 0],
-             "Barcelona PDISBA, Florence a 1 km a-n grid; never checked for any Catalan city"),
+            ("Design rainfall (IDF)", "design storms T = 2, 10 yr (T = 1 only in Barcelona)", [1, 1, 1, 0],
+             "Barcelona PDISBA, Florence a 1 km a-n grid, Mataro a full 5-120 min table of its own"),
             ("Pluvial flood map", "where runoff matters: the hotspot target", [1, .5, 0, 0],
              "NO Catalan city has one: the ACA pluvial polygon IS the municipal boundary"),
             ("Weather file (EPW)", "UTCI inputs and design hours", [1, .5, 1, .5],
              "TMYx verified for Spain; the airport-vs-centre bias is a stated limit everywhere"),
             ("Measured species traits", "trait table and gap-filling classes", [.5, .5, .5, .5],
-             "A runoff or heat value for 40% of trees in Barcelona, 19% in Florence; both for 29% and 7%"),
+             "40% in Barcelona, 19% in Florence. Porta species cover 52% of Mataro stock, 43% of Florence"),
             ("Leaf calendar + storm season", "LAI per month, storm weighting", [1, .5, 1, .5],
-             "City-specific - but a Catalan city inherits Barcelona's calendar and storm months unchanged"),
+             "City-specific - but Mataro inherits Barcelona's calendar and storm months unchanged"),
             ("Policy cap + replacement palette", "the feasible species set", [.5, .5, .5, .5],
              "The 15% cap is Barcelona's own; Sabadell proposes one, Florence has none")]
     y = 238
@@ -434,7 +434,7 @@ def fig_transfer():
         b += rect(x, y + 8, w, 112, col, rx=10, op=0.1) + t(x + 18, y + 34, head, 17, col, "bold") + p
         x += w + 20
     save("10_transferability", "The code travels, the evidence does not",
-         "What the method needs at a new site: Porta (calibration) vs three transfer options, verified 18 Oct", b,
+         "What the method needs at a new site: Porta (calibration) vs three transfer options, verified 19 Oct", b,
          "data_inventory_barcelona.md A1, A3, A7, B1-B2, C4, D1-D2, G; data_inventory.md B1, B3, B5-B7, F1, F3, F5-F7; "
          "topic_decision.md 6.1 (trait coverage); methodology.md 4 validation (iii) (routing vs RESCCUE depth); "
          "transfer_species_overlap.csv; catalan_transfer_city.md (ACA 3rd-cycle Annex 8 Taula 1; ICGC per-point GPS "
