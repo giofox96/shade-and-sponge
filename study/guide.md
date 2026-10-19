@@ -1,4 +1,4 @@
-# Study guide: Shade and Sponge (state of 15 Oct 2026)
+# Study guide: Shade and Sponge (state of 19 Oct 2026)
 
 A condensed version of the thesis for **learning it**, not for writing it. Every fact here comes from the project notes; the source file is named in each chapter, so check there when a number changes. If a note is updated, update this guide and the cards (`flashcards.csv`, `quiz.csv`).
 
@@ -14,14 +14,22 @@ A condensed version of the thesis for **learning it**, not for writing it. Every
 
 **The logic chain (the tutor's order):** problem → why it matters → gap → research question → hypotheses → method (data, tools) → tool → first results → limits.
 
-### What changed since 9 Oct (read this first if you studied the earlier version)
+### What changed since 15 Oct (read this first if you studied the earlier version)
+- **A whole new chapter, §10 Transferability**, and with it **slide 10** of the talk: the code travels, the evidence does not. It is the answer to the tutor's "contribution to knowledge", so treat it as core, not as an appendix.
+- **The transfer city is decided: Mataró** (19 Oct), not a generic "Catalan city" and not Badalona. Reason: it is the only candidate with a **published design storm of its own** — borrowing Barcelona's IDF would make the transfer test circular (§10).
+- **Florence stays the first-choice transfer case** but its point cloud is request-only, and the *Life Escapos* dataset that looked like a way round it **failed** (its LAI column is synthetic) (§10).
+- **A negative result worth saying out loud:** **no Catalan city has a pluvial hazard map**. That is *why* Porta was the right place to calibrate (§10).
+- **One comparison you must not quote raw:** Mataró's design storm looks 19–32% drier than Barcelona's, but most of that gap is **method, not climate** — an envelope against a central estimate (§10).
+- **The two RM-seminar figures** (plane-tree map, shared cluster map) are **out of the tutor deck** and parked in `slides/seminar_rm/` (user decision, 19 Oct). The talk is 10 slides with figures `01-09`, three of them backups. More rehearsal time for the other slides.
+
+### What changed since 9 Oct (older, keep for reference)
 - **A seventh candidate species:** *Styphnolobium japonicum* (user decision, 14 Oct). Its crown and LAI now come from a LiDAR sample outside Porta (§1, §9).
 - **The gap needs narrower wording** because of Dong et al. 2026: say "species **and positions**" and "**pedestrian UTCI**" (§6).
 - **H3 is true by construction of the model:** with the v1 LAI proxy every crown is full at every design storm, so the falling % is arithmetic, not a test (§3, §7).
 - **The runoff part of H1 may come out "not resolved by the model":** accepted as a valid outcome (user, provisional, 14 Oct) (§7, §9).
-- **RESCCUE flood-depth maps are public**, and the routing was checked against them (§8, §10).
+- **RESCCUE flood-depth maps are public**, and the routing was checked against them (§8, §11).
 - **Leaf calendar from photos (15 Oct):** Jacaranda is mostly in leaf in January. Re-run: the "no-regret swap" shrank from −9% to −2% winter shade and is not robust; the summer–winter trade-off holds (§5, §9).
-- **Several decisions wait for you** (heat metric, weather file, hypothesis wording, contribution statement): listed in §14.
+- **Several decisions wait for you** (heat metric, weather file, hypothesis wording, contribution statement): listed in §15.
 
 ---
 
@@ -321,7 +329,70 @@ Sources: `notes/methodology.md` §4b, §6; `shade_sponge/README.md`.
 
 ---
 
-## 10. Limits (say them before the tutor does)
+## 10. Transferability: the code travels, the evidence does not
+Sources: `notes/transferability.md`, `notes/catalan_transfer_city.md` §1–§5b, `notes/city_transfer_candidates.md`, `databases/transfer_species_overlap.csv`. This is **slide 10** of the 20 Oct talk.
+
+**The one line:** the **code** is site-agnostic by construction, the **evidence is not**.
+- Constant-free kernels: flow routing (`topo.route`), sun position and crown-shadow geometry (`heat.sun`), SCS-CN (`runoff.scs`). As a *file*, only `topo.py` carries no local constant.
+- Local by construction: `heat.py` (Barcelona design days and hours), `runoff.py` (the calibrated `runoff_params.json` and the PDISBA IDF table, loaded at import), `site.py`, `season.py`, `layout.py`.
+- So a new site is **one data adapter** (`build_<name>()` + `trees_<name>()`) plus the real cost: rebuilding the local data and re-deriving the local parameters.
+
+**Four degrees of transfer:**
+| | Case | New data | Cost | Status |
+|---|---|---|---|---|
+| **T0** | Another Barcelona neighbourhood (**Sant Antoni**, flood-dominant contrast) | none: same inventory, LiDAR, IDF, flood model | days\* | planned |
+| **T1** | Another Mediterranean city with open data (**Florence**) | new adapter + 6 datasets; traits and phenology re-derived; the decision variable redefined | 2–3 weeks\* | planned 2–10 Dec, **access unchecked** |
+| **T2** | No point cloud, or no species inventory at all (**Bologna**: it *has* an inventory, ~87,000 trees, and a 2023 leaf-on classified survey covers the municipality — but **no LAS is served**) | as T1; where the inventory is missing the baseline goes with it, but the **design front-end still works** (the designer supplies the positions) | weeks–months\* | not planned |
+| **T3** | Another climate (non-Csa) | as T1, plus *s*, the leaf calendar, the storm season and the heat design days all lose their anchors | out of scope | **not claimed** |
+
+\* Order-of-magnitude estimates, **not measured** — and in tension with the plan, which gives 2–10 Dec (9 days) to Sant Antoni **and** Florence together. The thesis validates T0 and attempts T1.
+
+**The three inputs that do not travel — mnemonic CLOUD · MAP · TRAITS:**
+1. **A classified leaf-on point cloud.** LAI = −ln(gap fraction)/k from the classified points inside each segmented crown, and LAI drives *both* objectives (storage S = s·LAI, opacity 1 − e^(−0.5·LAI)). A 1 m DSM gives height and crown width but no gap fraction, so on a DSM-only city the species differences collapse to crown size. Fallback: database LAI per species — i.e. the transfer city loses the one trait we measure ourselves.
+2. **A city pluvial flood map.** Tested, not assumed: our own routing barely separates RESCCUE wet from dry cells (**ROC AUC 0.52**); only the tail is informative (the top 0.5% of open ground by upstream area is wet in **58–80%** of cases, 1.7–2.6× random). Without a municipal map the runoff objective collapses to total volume and the **placement** half of the method loses its target.
+3. **Traits and phenology.** Transfer makes the trait gap **worse**: a species-level runoff *or* heat value exists for **40%** of trees in Barcelona, **19%** in Florence (**7%** with both).
+
+**Florence (T1, first choice):** ~82,000 public trees, a 1 km IDF grid (LSPP 2012) and a **published** pluvial index (Pacetti's PFI, downloaded) — but each comes with a catch: the LSPP grid's **shortest fitted duration is 1 h**, so the 10–60 min design storms are an extrapolation (ASSUMPTION), and the PFI is a **relative 1–42 rank**, with no depth and no return period, under CC BY-**NC-ND** 4.0 (the ND clause is an open question for derived products). Terrain is only **1 m DTM/DSM rasters**; the point cloud is request-only. The *Life Escapos* dataset looked like the way round it and **failed the test (18 Oct)**: its `lai` column is not measured but a deterministic function of species and DBH (51 of 68 species flat, the other 17 an exact DBH power law, log–log R² = 1.0000), so it cannot calibrate or validate our proxy. Licence CC BY-**NC** 4.0. The point-cloud request to the Comune di Firenze is **drafted and not yet sent** (`notes/firenze_lidar_request.md`), so T1 still rests on an unanswered request.
+
+**Mataró (Catalan fallback, chosen 19 Oct):** the same ICGC product as Porta — **leaf-on and classified**, flown 20 July 2021 (*not* Porta's 26 Sept mission; same programme, another flight day, and the date was read from one 150 × 150 m clip, so download the LAZ over the study district before relying on it). Same climate zone (Csa) and the same CRS (**EPSG:25831**), so the interception constant, leaf calendar and storm season stay **inside their anchors** — but they still have to be re-derived, not copied. Of the **two finalists checked**, it is the only one with a design storm of its own: a 5–120 min IDF table in its 2003 sewer master plan (PDCLAM). **That is availability, not independent measurement** — its sub-hourly values are themselves a Témez extrapolation below the 1 h anchor, pre-computed by CLABSA rather than measured.
+Its tree data is **split in two** — **17,204 street trees** by composition (2016 street-tree master plan; "117 species" counts table entries including cultivars, **108 distinct binomials**), and **79,748 positions** in the municipal GeoPackage with **no species, no DBH, no height** (every row flagged `nivell = 'nec'`, outside the survey commission). Unless the joined per-tree table proves public, species must be assigned **probabilistically from the composition**, which turns a *species-level* transfer test into a **composition-weighted** one — a real loss of independence, to label `ASSUMPTION`. And with no numeric DBH or height, the crown/LAI proxy **cannot be validated in Mataró at all**.
+Porta's measured species cover **52.2% of Mataró's top-30 species** (counting only species with ≥5 Porta trees) — about **46% of its street stock** — and 92.9% at genus, against Florence's **43.5% of its top-30** (≈ a third of its inventory) and 74.0% at genus. **Never quote that margin bare:** Mataró and Porta are street-tree inventories while Florence's counts park trees too; the shares are the **2016** vintage, and *Platanus* at 21.4% is of *identified* street trees (a 2024 source gives 16.4% — but over ~25,300 trees of all kinds, a different universe). **Licence UNKNOWN for every Mataró asset.**
+
+**Why not Badalona:** it shares Porta's exact LiDAR mission day (26 Sept 2021) — a convenience, not a validity condition — and has the better rain-gauge record, but **no open tree inventory was found** and it has **no design rainfall of its own** — the only published route is to drive it with *Barcelona's* IDF curves, which makes the transfer test partly circular. A missing species field is a degraded input you can declare; a borrowed design storm invalidates the comparison.
+
+**The negative finding that lands hardest: no Catalan city publishes a pluvial hazard map of its own.** The ACA lists 44 pluvial municipalities, but the ARPSI polygon *is* the municipal boundary. The one exception is tiny and not a city: the Vila-seca i Salou pluvial ARPSI (8.54 km²) does have modelled depth maps, which still stand although the ARPSI is proposed for deletion. Barcelona's RESCCUE depth model is the only **city-wide** pluvial depth model found in Catalonia — which is why Porta was the right place to calibrate.
+
+**Method vs climate (only if the tutor presses on the design storm):** raw, Mataró looks **19–32% drier** than Porta, and *duration-dependently* so (ratio 0.81 at 10 min → 0.68 at 30 → 0.71 at 60). Climate cannot do that. The two numbers are different *kinds* of quantity: Porta's PDISBA value is an across-gauge **envelope** (+24% over the gauge mean), Mataró's a **central** Gumbel estimate with the sub-daily shape supplied analytically. Rebuilt the same way, **66% of the gap disappears at 10 min and 77–80% at 20–60 min** (do not pair "two thirds" with the 30% figure: at 10 min the gap is 19%, not 30%), leaving a flat **0.93 at T = 10** and **1.00 at T = 2**. The flat line is **not** a finding — it is an identity (both cities sit in the I1/Id = 11 region, so the duration factor cancels at both ends). The evidence is the **raw ratio reversing direction with duration**. Two residuals to state plainly rather than bury: the harmonised daily legs still use **different frequency laws** (Gumbel for Mataró, SQRT-ET max for Barcelona), and harmonised, the sub-hourly comparison carries no information beyond the daily one — for the transfer city the sub-hourly curve is an **assumption**, for Porta it is empirical.
+
+**The question travels less well than the method.** "Which species replace Porta's plane trees" exists because of a Barcelona rule (15% cap, planes ~29%, a named palette). No equivalent programme is recorded for Florence or Bologna, and neither was searched for one, so treat *those* as **unchecked, not absent**. Catalonia **was** searched (criterion 6), and Mataró has **no cap of its own**: outside Barcelona only L'Hospitalet has a formally approved 15% maximum, and Sabadell's is a conference-deck proposal, not policy. So in Mataró the candidate set would have to come from the city's own 2016 tree plan, which classifies species as *apte* / *restriccions* / *evitar* — a suitability list, not a cap. On transfer the decision variable has to be redefined: species at **renewal** positions, or species at **new** plantable sidewalk cells, with a diversity constraint instead of a named palette. The optimiser itself does not change. Say this out loud: it is a **framing** limit, not a code limit, and it is the specificity the tutor asked for.
+
+**Two module constraints to remember:** **T = 1 yr is published for no candidate transfer city** (Barcelona's PDISBA has one, which is exactly the problem; PDCLAM's "T = 1" column is the Gumbel T = 1.001 limit — do not use it), and Mataró's central estimate must be **harmonised** against PDISBA's envelope before any comparison.
+
+**Parameters that must be re-derived, not copied:** *s* = 1.75 mm/LAI (**already a transfer**: Freiburg, Cfb, *Tilia*/*Acer*, 51 events) · storm months (78% of intense storm days May–Oct) · leaf calendar and `R_OFF` = 0.5 · heat design days 15 Jul / 15 Jan · `HAZARD_HIGH` = 40 (**a threshold on a Barcelona-specific index**, meaningless elsewhere) · `CAPTURE_M` = 100 m. `OP_BARE` = 0.35 and k = 0.5 travel, but they travel as **assumptions**.
+
+### Check yourself
+1. What exactly is site-agnostic, and what is not?
+2. Name the three inputs that do not travel, worst first.
+3. Why is Mataró the fallback and not Badalona?
+4. What is the strongest negative result of the Catalan screening, and why does it help the thesis?
+5. Mataró's design storm looks 30% drier than Barcelona's. What do you answer?
+6. What has to be redefined in a city with no replacement programme?
+7. Why can't Florence's Escapos LAI column replace the point cloud?
+
+<details><summary>Answers</summary>
+
+1. The physics and geometry kernels (routing, sun and crown shadows, SCS-CN) carry no local constant; as a file, only `topo.py` is constant-free. `heat.py` holds Barcelona design days, `runoff.py` loads the calibrated storage and the PDISBA IDF at import, and `site.py`/`season.py`/`layout.py` are local by design. A new site = one adapter plus rebuilding the local data.
+2. (1) a classified leaf-on point cloud, because the LAI proxy and therefore both objectives depend on gap fraction; (2) a city pluvial flood map, because our routing is not one (AUC 0.52); (3) traits and phenology, which get worse on transfer (40% → 19% of trees with a measured value).
+3. Of the two finalists checked, only Mataró has a published design storm of its own; it has the same leaf-on classified ICGC product (another 2021 mission day), the same climate zone and CRS, and about **46%** of its street stock is in species already measured in Porta. For Badalona **no open tree inventory was found**, and it has no design rainfall of its own, so it would have to borrow Barcelona's IDF — a circular transfer test.
+4. No Catalan city publishes a **city-wide** pluvial hazard or depth map (the ACA's pluvial polygon is the municipal boundary; the one exception, Vila-seca i Salou, is an 8.54 km² ARPSI). It makes Porta the right calibration site, because Barcelona's RESCCUE model is the only city-wide pluvial depth model found in Catalonia.
+5. That most of it is method, not climate: an across-gauge envelope against a central Gumbel estimate. Harmonised, 66% of the gap goes at 10 min and 77–80% at 20–60 min, and the rest is 0.93 at T = 10 and 1.00 at T = 2 — and that flat line is an identity, not a finding. The real evidence is the raw ratio reversing direction with duration, which climate cannot do.
+6. The decision variable: species at renewal positions or at new plantable cells, with a diversity constraint instead of the city's named palette and 15% cap. The optimiser does not change; the framing does.
+7. Because its `lai` values are synthetic — a deterministic function of species and DBH (log–log R² = 1.0000) — so they carry no independent measurement to calibrate or validate against.
+</details>
+
+---
+
+## 11. Limits (say them before the tutor does)
 - Flood indicator is a hazard **index**, not water depth. RESCCUE depth maps (T10, T100) are now public; licence for thesis use asked on 13 Oct. Our routing is not a flood map (AUC 0.52).
 - Surface temperature (Landsat) ≠ pedestrian UTCI.
 - LiDAR LAI proxy (~2.3) probably **too low** → storage underestimated.
@@ -333,10 +404,11 @@ Sources: `notes/methodology.md` §4b, §6; `shade_sponge/README.md`.
 - Runoff differences between palettes may stay below Δmin: the runoff part of H1 may be "not resolved".
 - Most palette species lack measured traits → ranges + sensitivity; **the gap is a finding**.
 - Seminar gaps: no stakeholder validation yet; innovation type and TRL not yet stated (claim **TRL 3**, process innovation) (`notes/research_method_guidelines.md`).
+- **Calibrated in one 0.84 km² neighbourhood.** Transfer is costed input by input (§10), but the transfer costs are order-of-magnitude estimates, not measured, and the point cloud alone eliminates most cities. A city pluvial map exists in some countries (Switzerland, the Netherlands, New York City), but in Catalonia only Barcelona has one.
 
 ---
 
-## 11. Likely tutor questions (practise answering in 20 seconds each)
+## 12. Likely tutor questions (practise answering in 20 seconds each)
 Sources: `slides/outline_20oct.md`; the Porta and Barcelona answers from `notes/site_selection.md` and `notes/city_screening.md`.
 
 | Question | Short answer |
@@ -352,10 +424,16 @@ Sources: `slides/outline_20oct.md`; the Porta and Barcelona answers from `notes/
 | Isn't H3 true by definition of your model? | Yes, in the model every crown is full, so I declare H3 as a boundary of the method. In field data the intercepted fraction also falls as rain depth grows (Anys & Weiler 2024). |
 | What if runoff can't tell the palettes apart? | Then the runoff part of H1 is "not resolved" (below Δmin = 91 m³, fixed before the runs); heat carries the species choice, runoff is a check. That is still a result. |
 | How good is your flood routing? | It finds the main convergence points but is not a flood map (AUC 0.52 vs RESCCUE depth); hotspots come from the atlas index. |
+| Does this only work in Barcelona? | The code does not: a new site is one adapter, and the routing, shade-geometry and SCS-CN kernels carry no local constant. The evidence does: traits, leaf calendar, storm season, flood map and the 15% cap are all local (§10). |
+| Why Mataró and not Badalona? | Badalona has no open tree inventory and no design rainfall of its own; it would have to borrow Barcelona's IDF, which makes the transfer test circular. Mataró has its own 5–120 min design storm, the same leaf-on classified LiDAR, calendar and CRS. |
+| Isn't Mataró just 30% drier, so the comparison is unfair? | Most of that gap is method, not climate: an across-gauge envelope against a central Gumbel estimate. Harmonised, 66–80% of it disappears. The flat residual is an identity, not a finding. |
+| What stops you transferring to any city? | Two hard dependencies: a classified **leaf-on** point cloud (the LAI proxy) and a city **pluvial flood map** — our own routing is not one (AUC 0.52). |
+| Why did you calibrate in Barcelona? | It has the only city-wide pluvial depth model found in Catalonia (RESCCUE); no Catalan city publishes a pluvial hazard map. |
+| Does the research question travel too? | Less well than the method. The question exists because of a Barcelona rule; elsewhere the decision variable becomes species at renewal or at new plantable positions, with a diversity constraint instead of a named palette. |
 
 ---
 
-## 12. Glossary
+## 13. Glossary
 | Term | Meaning |
 |---|---|
 | **Pluvial flood** | Flooding from rain on the surface when drainage is overwhelmed (vs **fluvial** = river) |
@@ -387,10 +465,19 @@ Sources: `slides/outline_20oct.md`; the Porta and Barcelona answers from `notes/
 | **Δmin** | Minimum meaningful difference, fixed before the runs (runoff: 91 m³) |
 | **DDY** | Design-day file: a synthetic hot (or cold) design day for a station |
 | **ROC AUC** | How well a score separates two classes; 0.5 = no better than chance |
+| **ICGC** | Catalonia's cartographic and geological institute; publisher of the LiDAR point cloud (CC BY 4.0) |
+| **PDCLAM** | Mataró's 2003 sewer master plan; source of its own 5–120 min design storm |
+| **ACA / ARPSI** | Catalan Water Agency / its flood-risk areas. The *pluvial* ARPSI polygon is the municipal boundary, so it is not a hazard map |
+| **PFI** | Pluvial Flood Index: Florence's published pluvial hotspot index (Pacetti et al.) |
+| **Envelope vs central estimate** | Two ways to build a design storm: the upper bound across gauges (Barcelona's PDISBA) vs the best single estimate (Mataró's Gumbel fit). Never compare one with the other |
+| **Témez / I1/Id** | Spanish method for turning a daily rainfall depth into a sub-daily intensity; I1/Id = 11 over this whole region, so the duration factor cancels between the two cities |
+| **Leaf-on / leaf-off LiDAR** | Whether the flight was made with the canopy in leaf. Leaf-off makes the LAI proxy meaningless |
+| **Gap fraction** | Share of laser pulses that pass through a crown; the LAI proxy is −ln(gap)/k |
+| **T0–T3** | The four degrees of transfer: same city · another open-data city · a city missing the point cloud or the inventory · another climate (not claimed) |
 
 ---
 
-## 13. Key numbers cheat sheet
+## 14. Key numbers cheat sheet
 | Number | What |
 |---|---|
 | 45% → 72% | Barcelona sealed surface, 1956–2009 |
@@ -425,12 +512,27 @@ Sources: `slides/outline_20oct.md`; the Porta and Barcelona answers from `notes/
 | 3.16% → 0.90% | Street-tree effect, T1 → T10 (arithmetic of the model) |
 | 2.3–4.7 °C | Sun–shade UTCI gap on hot afternoons (lower bound) |
 | 0.52 | ROC AUC of routing vs RESCCUE wet cells |
+| **Transfer (§10)** | |
+| 40% → 19% | Trees with a measured species-level trait: Barcelona → Florence (7% with both) |
+| 52.2% / 92.9% | Mataró **top-30 species** covered by Porta's measured species (≥5 trees) / at genus level. As a share of the whole street stock: **46%** |
+| 43.5% / 74.0% | Same for Florence (top-30; ≈ a third of its whole inventory) — **not** like-for-like, its inventory includes park trees |
+| 17,204 / 117 | Mataró street trees / species rows (= **108** distinct binomials), composition only (2016) |
+| 79,748 | Mataró tree positions in the GeoPackage: no species, no DBH, no height |
+| ~82,000 | Florence public trees (inventory) |
+| 22 / 18 | Catalan cities screened on LiDAR date / leaf-on **and** classified (2 leaf-on unclassified, 1 partly leaf-on, 1 leaf-off) |
+| 44 | ACA pluvial municipalities — but the polygon is the municipal boundary, so **no city-wide** pluvial map (one 8.54 km² exception) |
+| 19–32% | Raw Mataró-vs-Barcelona design-storm gap (do not quote it raw) |
+| 66–80% | Share of that gap that is method, not climate (66% at 10 min, 77–80% at 20–60 min) |
+| 0.93 / 1.00 | Harmonised ratio at T = 10 / T = 2 (an identity, not a finding) |
+| 26 Sept 2021 | Porta's LiDAR mission day (shared by Badalona, Santa Coloma, Sant Cugat) |
+| EPSG:25831 | CRS shared by Porta and Mataró |
+| 2–3 weeks | Estimated cost of the Florence transfer (order of magnitude, not measured) |
 | 18 Dec 2026 | Probable final delivery |
 | 20 Oct 2026 | Next tutor session |
 
 ---
 
-## 14. Decisions waiting for you (as of 15 Oct)
+## 15. Decisions waiting for you (as of 19 Oct)
 Know these exist and what the recommended default is; the tutor may ask. Only the "not resolved" rule for H1's runoff part is provisionally accepted (14 Oct); the rest is open.
 | Decision | Recommended default | Source |
 |---|---|---|
@@ -439,3 +541,5 @@ Know these exist and what the recommended default is; the tutor may ask. Only th
 | Hypothesis wording | H1 with Δmin and "not resolved"; H2 as species composition; H3 as a declared boundary | `notes/decisions/hypothesis_tests.md`, `runoff_metric_sensitivity.md` |
 | Contribution statement | No default given: choose among A (method), B (knowledge), C (validation, optional) | `notes/decisions/contribution_statement.md` |
 | Tool changes | Methodology §12 items 1–5 | `notes/methodology.md` §12 |
+| Mataró access | Three browser URLs settle whether the joined per-tree table is public (`notes/todo_manual.md`); the licence is **UNKNOWN** for every Mataró asset, so do not record CC BY | `notes/catalan_transfer_city.md` §3b |
+| Transfer scope | Florence (T1) stays first choice, Mataró is the Catalan fallback; the plan still gives 2–10 Dec to Sant Antoni **and** Florence together, which needs reconciling | `notes/transferability.md` §1 |

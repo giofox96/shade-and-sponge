@@ -2,7 +2,8 @@
 
 **Format:** 10 slides, 16:9, Google Slides. Figures: `slides/fig/*.png` (insert as images) or `*.svg` (to edit). Regenerate them with `python scripts/make_infographics.py`.
 **Script:** 740 words, which is about 5 min 17 s at a calm 140 words per minute (most people present nearer 150–160, i.e. 4:38–4:56). The times in brackets are the cumulative target, recomputed 19 Oct.
-**Changes on 19 Oct:** the Catalan fallback is now **Mataró**, not a generic "Catalan city" — it is the only transfer candidate with a published design storm of its own (`notes/catalan_transfer_city.md` §5b) and its tree data is resolved (§3b). Slide 10 and `slides/fig/10_transferability.png` updated; backup slide B2's Badalona mission-day line is still true but no longer the recommendation. Script +22 words; if the 5 minutes are strict, cut slide 3 or 9 rather than slide 10.
+**Figures renumbered 19 Oct (evening):** the two RM-seminar figures (plane-tree map, shared cluster map) are **not part of this talk** and moved to `slides/seminar_rm/` (user decision: park them, decide later). The remaining figures are a single 01-09 run: `08_transferability` (was 10) and `09_catalonia_lidar_backup` (was 11). Figure numbers are a figure sequence, not slide numbers (fig 07 and 09 are the backup slides B1 and B2).
+**Changes on 19 Oct:** the Catalan fallback is now **Mataró**, not a generic "Catalan city" — it is the only transfer candidate with a published design storm of its own (`notes/catalan_transfer_city.md` §5b) and its tree data is resolved (§3b). Slide 10 and `slides/fig/08_transferability.png` updated; backup slide B2's Badalona mission-day line is still true but no longer the recommendation. Script +22 words; if the 5 minutes are strict, cut slide 3 or 9 rather than slide 10.
 **Changes on 18 Oct:** slide 10 on transferability added (`notes/transferability.md`); to pay for it, slide 3 lost the screening detail that the bullets already carry, slide 6 one precedent clause, and slide 9's closing ask moved to slide 10. If the 5 minutes are strict, cut slide 3 or 9 further rather than slide 10.
 **Sources:** every number is from `notes/topic_decision.md` §7, `notes/site_selection.md`, `notes/methodology.md` §4b, `notes/transferability.md`, or the figures' own source lines. `*` on a figure = read from the abstract only. Get the full texts before the talk (see `notes/todo_manual.md`).
 
@@ -59,7 +60,7 @@
 **Say:** "The runoff module already runs. I calibrated canopy storage on open field data from Freiburg. Today's street trees cut runoff in a 2-year storm by 1.9 percent, or 2.9 percent on streets and squares — the same order as the 3.5 to 4 percent measured in the field. Replacing the planes with young trees loses more than a third of that benefit, and the benefit shrinks for bigger storms, as H3 predicts. The heat module is next."
 
 ### 10. Transferability: the code travels, the evidence does not [5:17]
-**Visual:** `slides/fig/10_transferability.png`
+**Visual:** `slides/fig/08_transferability.png`
 **On slide:**
 - Site-agnostic core: the routing, shade-geometry and SCS-CN **kernels** carry no local constant; a new site = one data adapter. (`heat.py` and `runoff.py` still hold local design days, the calibrated *s* and the IDF path.)
 - The transfer bill is **data**: inventory · leaf-on point cloud · IDF · flood map · traits · phenology · policy.
@@ -92,10 +93,10 @@
 - Transferability in full (four degrees of transfer, the nine inputs, the parameters to re-derive): `notes/transferability.md`.
 
 ### B2. If the tutor presses on transferability: the 22-city Catalan screening
-**Visual:** `slides/fig/11_catalonia_lidar_backup.png`
-**On slide:** 22 Catalan municipalities screened on criterion 1. **19 are leaf-on and classified**; 3 are leaf-on but unclassified (Girona, Vic, Figueres); 1 is leaf-off (Manresa). Badalona, Santa Coloma and Sant Cugat were flown on Porta's exact mission day, 26 September 2021 — **but that is a convenience, not a validity condition**, and the city chosen is **Mataró** (leaf-on July 2021, classified), on design rainfall and tree data instead (§3b, §5b).
+**Visual:** `slides/fig/09_catalonia_lidar_backup.png`
+**On slide:** 22 Catalan municipalities screened on criterion 1. **18 are leaf-on and classified**; 3 are unclassified (Girona and Vic leaf-on, Figueres only partly, flown in April); 1 is leaf-off (Manresa, November). 18 + 3 + 1 = 22. Badalona, Santa Coloma and Sant Cugat were flown on Porta's exact mission day, 26 September 2021 — **but that is a convenience, not a validity condition**, and the city chosen is **Mataró** (leaf-on July 2021, classified), on design rainfall and tree data instead (§3b, §5b).
 
-**Say (~60 words, only if asked):** "I screened twenty-two Catalan cities on the one input that decides a transfer. ICGC publishes only the flight year, so I read the date from the per-point GPS time in the cloud itself, and checked it against Porta, where it reproduces the date I already had. Nineteen are leaf-on and classified. Three are flown but unclassified, and one is flown in November."
+**Say (~60 words, only if asked):** "I screened twenty-two Catalan cities on the one input that decides a transfer. ICGC publishes only the flight year, so I read the date from the per-point GPS time in the cloud itself, and checked it against Porta, where it reproduces the date I already had. Eighteen are leaf-on and classified. Three are flown but unclassified, and one is flown in November."
 
 **If the tutor asks why not Badalona:** it shares Porta's mission day and has the better rain-gauge record, but it has **no tree inventory** and **no design rainfall of its own** — the only published route is to drive its model with *Barcelona's* IDF curves, which is what the one peer-reviewed study of it does. That makes the transfer test partly circular: you would be transferring to a city whose design storm is, by assumption, the one you started from. A missing species field is a degraded input you can declare; a borrowed design storm invalidates the comparison.
 

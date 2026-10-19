@@ -2,7 +2,7 @@
 
 Content: notes/methodology.md, notes/topic_decision.md; state-of-the-art spans checked against the full texts in notes/lit/text
 (Shaamala 2025, Mannucci 2025, SylvCiT, Davey API) and, for GreenInCities, RT_L02_notes.md + greenincities.eu/tools (14 Oct 2026);
-"before computation" from databases/data_inventory_barcelona.md A1, D1. Output: slides/fig/08_plane_tree_map.svg + .png (2000x1250).
+"before computation" from databases/data_inventory_barcelona.md A1, D1. Output: slides/seminar_rm/plane_tree_map.svg + .png (2000x1250).
 """
 import pathlib
 from xml.sax.saxutils import escape
@@ -189,8 +189,8 @@ def build():
 if __name__ == "__main__":
     svg = (f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" font-family="{mi.FONT}">'
            f'<rect width="{W}" height="{H}" fill="#fff"/>{build()}</svg>')
-    p = mi.OUT / "08_plane_tree_map.svg"
-    mi.OUT.mkdir(parents=True, exist_ok=True)
+    p = mi.ROOT / "slides/seminar_rm/plane_tree_map.svg"
+    p.parent.mkdir(parents=True, exist_ok=True)
     p.write_text(svg, encoding="utf-8")
     mi.to_png(p)
     print("wrote", p.relative_to(mi.ROOT))
