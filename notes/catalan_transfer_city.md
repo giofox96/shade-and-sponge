@@ -13,9 +13,11 @@ A six-domain adversarial fact-check was run in full (two domains first, four aft
 | §4 — dual hazard | ⚠️ **corrected.** A wrong rainfall figure, two merged Badalona events, and Badalona's 2025 event re-measured as a low-intensity winter frontal event |
 | §5 — policy drivers | ⚠️ **heavily corrected.** The DIBA/Santamour attribution was wrong, Sabadell's figures are a conference deck not an approved plan, Girona's denominator was wrong |
 | §6 — recommendation | ❌ **re-derived twice.** Badalona no longer leads; after §5b, Mataró leads outright |
-| §5b — design rainfall | ✅ **verified against primary sources, 19 Oct.** Mataró's Gumbel and IDF tables read from PDCLAM '03 itself and regenerated from its own printed formula to 0.0107% across 48 cells; Barcelona's P̄ = 68 / Cv = 0.46 and Tabla 7.1 read from the 1999 monograph |
+| §5b — design rainfall | ✅ **verified, then fact-checked a second time (19 Oct).** All Mataró and Barcelona figures reproduce against PDCLAM '03, the 1999 monograph and the repo's PDISBA table; the Meteocat, XEMA and CAUMAX bullets were re-derived independently. **Six corrections applied**: the duration-factor attribution (the "two" formulas are the same formula), "no extrapolation", the T = 1 scope, the climate-uplift claim, the daily-basis gap, and the method/climate share. Two unsourced claims removed |
 
 **§1, §2 and §5b are citable to the tutor. §3–§6 are now corrected but thinner than the first draft claimed.**
+
+*One caveat even in §5b: Barcelona's daily quantile comes from the 1999 monograph's SQRT-ET max table while Mataró's is Gumbel, so the harmonised comparison is like-for-like in its duration factor but not in its frequency law. Stated in §5b; not yet fixed.*
 
 ## 0. The headline, including the bad news
 **Criterion 2 fails for the whole of Catalonia.** The ACA's 3rd-cycle pluvial product, approved 15 July 2026, is a **list of 44 municipalities** whose ARPSI polygon **is the administrative boundary** — Annex 8 §3.3, verbatim: *"les ARPSI pluvials no es defineixen a partir de criteris hidrològics (conques) o hidràulics (eixos de drenatge), sinó a partir dels límits administratius del municipis"* (the missing *s* is the source's own typo) — with no extent, no depth and no return period. No 3rd-cycle MAPRI exists — ACA says MAPRI and PGRI *"es troben actualment en fase d'elaboració"*; a 2027 date for homologated **inundable-zone** (not pluvial) cartography comes from press coverage of a parliamentary committee statement of 12 Nov 2025, **not from any ACA document**. The one pluvial ARPSI that ever had a modelled depth map (CRT Vila-seca i Salou, 8.54 km², HEC-HMS 3.3 + IBER 2.2) is **proposed for deletion** in the APRI phase, though its maps still stand. The **2018 (2nd-cycle)** fluvial-pluvial classification rested on a quantitative layer — the ZDD, *zones de dificultat de drenatge* — taken from an *"estudi inèdit de TRAGSATEC"* and never published (2nd-cycle APRI Annex 05 §3.2.1 and footnote 4). The 3rd cycle instead derives its "Pluvial-fluvial" typology simply from the presence of a fluvial TRI.
@@ -119,93 +121,131 @@ directly on the runoff module's inputs rather than on its calibration data.
 
 | Route | Badalona | Mataró | Shortest duration |
 |---|---|---|---|
-| ACA, *Guia tècnica* 2003 | method only | method only | 1 h published (Fig. 2.18 is dimensionless, 0–24 h, no table); its own floor is Tc ≥ 0.25 h |
+| ACA, *Guia tècnica* 2003 | method only | method only | 1 h published (Fig. 2.18 is dimensionless, 0–24 h, no table). The guide's Tc ≥ 0.25 h floor is a limit on the **rational method** (§3.2c), not on the IDF curve |
 | Meteocat *Corbes IDF municipal* | ✅ table, T = 2–500 | ✅ table, T = 2–500 | **60 min** — Meteocat states the method "tan sols permet obtenir la relació IDF a una resolució temporal màxima d'una hora" |
 | Municipal master plan | ❌ none public | ✅ **PDCLAM '03, full numeric table** | **5 min** |
 | Spanish national (1999 + 5.2-IC) | derivable | derivable | 60 min anchored; below that is extrapolation |
 
 **Mataró — PDCLAM '03** (CLABSA for Aigües de Mataró, 2003, Memòria p. 28) prints intensities in mm/h for
-durations 5–120 min in 5-min steps × T = 1/2/5/10/50/100/500/1000. It covers the module's 10/20/30/60 min grid
-natively, with no extrapolation, and goes finer than Barcelona's own PDISBA table, which stops at 10 min.
-The plan also prints its construction — Gumbel on annual daily maxima (quantiles on p. 26) plus the MOPU 1990
-form of Instrucción 5.2-IC with I1/Id = 11 — so the curve can be *regenerated* at any duration rather than
+durations 5–120 min in 5-min steps × T = 1/2/5/10/50/100/500/1000, so the module's 10/20/30/60 min grid can be
+read straight off a published municipal document, and it goes finer than Barcelona's own PDISBA table, which
+stops at 10 min. **This is availability, not independent measurement:** those sub-hourly values are themselves
+the Témez extrapolation below the 1 h anchor, pre-computed by CLABSA rather than by us (see the second
+constraint below). The plan prints its construction — Gumbel on annual daily maxima (quantiles on p. 26) plus
+the Témez/5.2-IC duration factor with I1/Id = 11 — so the curve can be *regenerated* at any duration rather than
 interpolated: `scripts/make_mataro_idf.py` reproduces all 48 checked printed cells to within **0.0107%**.
+One wrinkle to carry: the plan prints the duration factor with denominator **0.4**, a rounding of the exact
+Témez value 28^0.1 − 1 = 0.3954549 (ACA *Guia tècnica* eq. 2.9, citing MOPU 1990). The two differ by 2.2–4.2%,
+so whichever is used must be used at **both** ends of any city comparison.
 → `databases/mataro/mataro_idf_city.csv`.
 
-**Badalona has no design rainfall of its own.** Its Pla Director de Clavegueram is mid-revision and neither the
-plan, its memòria nor any environmental assessment is public. The one peer-reviewed study of Badalona's own
+**Badalona has no design rainfall of its own.** Neither its Pla Director de Clavegueram, its memòria nor any
+environmental assessment could be found published. (An agent report described the plan as "mid-revision"; no
+source on disk supports that, so it is not asserted here.) The one peer-reviewed study of Badalona's own
 calibrated 1D/2D model (Martínez-Gomariz et al., *Water* 2019, 11(12):2658, CC BY 4.0, BINGO project) drives it
 with **Barcelona's Fabra IDF curves**, justified by proximity. That is a citable precedent, but it makes a
 transfer test partly circular: we would be "transferring" to a city whose design rainfall is by assumption the
-one we started from. Three independent third-party estimates of Badalona's T = 10 / 60 min span a factor of
-**1.94** (38.2 / 48.7–50.2 / 62.5 / 74.0 mm/h), so there is no defensible way to pick one.
+one we started from. And the candidate values for Badalona's T = 10 / 60 min disagree badly: **38.2 mm/h** from
+our own Gumbel fit to its in-town XEMA station, **62.5** if Barcelona's PDISBA is adopted wholesale, and **74.0**
+from Meteocat's municipal IDF — a spread of **1.94×** over which there is no principled choice.
 
 ### Two constraints this puts on the module
 
-**1. T = 1 yr is not obtainable for any transfer city, on any route.** Meteocat starts at T = 2; the 1999
-monograph's Tabla 7.1 starts at T = 2; the ACA isomàximes product starts at T = 10. And PDCLAM's column headed
+**1. T = 1 yr is not obtainable for any candidate transfer city on any route checked.** Meteocat starts at
+T = 2 and the 1999 monograph's Tabla 7.1 starts at T = 2. (Barcelona's PDISBA *does* have a T = 1 column — which
+is the problem: the module's cheapest storm is the one no transfer city can match.) And PDCLAM's column headed
 "T = 1" is really the Gumbel **T = 1.001** limit (P24h = 13.41 mm, verified against the plan's own quantile
 table) — 15.99 mm/h at 10 min against Barcelona's 51.6, i.e. 0.27–0.31× where T = 2 and T = 10 sit at a
-plausible 0.68–0.85×. **It must not be fed to the module.** Either run the transfer test at T = 2 and T = 10
-only, or construct T = 1 for *both* cities by the same partial-duration-series route — never for one city only.
+plausible 0.68–0.85×. **It must not be fed to the module.** So: either run the transfer test at T = 2 and
+T = 10 only, or construct T = 1 for *both* cities from partial-duration series by the same route — never read it
+off a published table for one city only. "Not obtainable" means not published; it does not mean underivable.
 The CSV encodes that column as `T_years = 1.001`, not `1`, so it cannot be picked up by accident.
 
 **2. Published Mataró numbers must not be put straight next to published Porta numbers.** The two are not the
 same kind of quantity:
 
-- PDISBA's `design_intensity_mmh` is an **envelope** across gauges (at T = 10 / 60 min: design 62.53 vs
-  across-gauge mean 50.57 mm/h, i.e. +24%), derived from actual pluviograph records and carrying a climate uplift.
-- Mataró's is a **central** Gumbel estimate from daily maxima compiled in 1993, with the sub-daily shape supplied
-  analytically, and the plan states it assumes stationarity (*"s'assumeix l'estacionarietat a llarg termini de les
-  mitjanes de precipitació"*). PDCLAM's Pd(T10) = 99.28 mm is 15–18% below both modern daily products at the same place.
+- PDISBA's `design_intensity_mmh` is an across-gauge **envelope** (at T = 10 / 60 min: design 62.53 vs
+  across-gauge mean 50.57 mm/h, i.e. **+24%**), derived from actual pluviograph records. In the repo CSV it is
+  `min(max, normal95)` at all 20 rows — an envelope, not a climate adjustment. *(An earlier draft of this note
+  said it "carries a climate uplift"; that is withdrawn. PDISBA's climate-adjusted design storms are a separate
+  product, per `data_inventory_barcelona.md` §B2.)*
+- Mataró's is a **central** estimate: Gumbel on daily maxima from the 1993 preliminary plan *"ampliades amb"* a
+  later Maresme *rieres* study, with the sub-daily shape supplied analytically, and the plan states it assumes
+  stationarity (*"s'assumeix l'estacionarietat a llarg termini de les mitjanes de precipitació"*). PDCLAM's
+  Pd(T10) = 99.28 mm is **15.0% below** Meteocat's 24 h T10 for Mataró (116.8 mm) — but much of that is an
+  artefact: PDCLAM's Pd is a **calendar-day** maximum while Meteocat's is a **sliding 24 h** maximum, worth
+  roughly 13%, which leaves only ~4% of genuine difference. Do not quote the 15% as ageing.
 
-Compared raw, Mataró looks 19–33% drier than Porta, and **duration-dependently so** — which reads exactly like a
-real climatological difference:
+Compared raw, Mataró looks **19–32%** drier than Porta, and **duration-dependently so** — which reads exactly
+like a real climatological difference:
 
 | T = 10 yr | 10 min | 20 min | 30 min | 60 min |
 |---|---|---|---|---|
 | Mataró published (mm/h) | 118.38 | 82.62 | 66.15 | 44.28 |
-| Porta PDISBA design (mm/h) | 146.83 | 117.69 | 97.96 | 62.53 |
+| Barcelona PDISBA design (mm/h) | 146.83 | 117.69 | 97.96 | 62.53 |
 | ratio, raw | 0.81 | 0.70 | 0.68 | 0.71 |
 | ratio, like-for-like | **0.93** | **0.93** | **0.93** | **0.93** |
+| of the raw gap, share that is method | 66% | 78% | 80% | 77% |
 
-The bottom row is the finding. Rebuild Barcelona's design storm by the *same* construction used for Mataró
-(Gumbel daily maxima + MOPU 1990, from the 1999 monograph's own published Barcelona point values P̄ = 68 mm/day,
-Cv = 0.46, Tabla 7.1 Yt(0.46, T10) = 1.564) and the duration dependence **vanishes exactly**. It has to: both
-cities sit in the same I1/Id = 11 region, so the duration factor is literally the same number at both ends and
-cancels. Under that construction the entire city-to-city difference collapses to the ratio of daily depths —
-0.93 at T = 10, and 1.00 at T = 2.
+**Read the bottom rows carefully — the flat 0.93 is not a discovery, it is an identity.** Rebuild Barcelona's
+design storm by the same duration factor used for Mataró (from the 1999 monograph's published Barcelona point
+values P̄ = 68 mm/day, Cv = 0.46, Tabla 7.1 Yt(0.46, T10) = 1.564) and the duration dependence vanishes
+*necessarily*: both cities sit in the same I1/Id = 11 region, so f(D) is literally the same number at both ends
+of the ratio and cancels. Any two cities in that region would give a flat line. What the comparison legitimately
+shows is the **top** rows — that the raw duration-dependence (0.81 → 0.68 → 0.71) cannot be climate, because a
+genuine climatological difference would not reverse direction with duration. It is the estimator mismatch.
 
-So roughly two-thirds of the apparent "Mataró is ~30% drier" gap is **method, not climate**. Two consequences,
-and the second is uncomfortable:
+On that reading, **most of the apparent gap is method, not climate**: 66% at 10 min, 77–80% at 20–60 min. (An
+earlier draft said "roughly two-thirds of the ~30% gap"; that mispairs the numbers — two-thirds holds only at
+10 min, where the gap is 19%, not 30%.)
 
-- The thesis must harmonise before comparing, and say which construction it used. Recommended: rebuild Porta's
-  storm the Mataró way and run the transfer on that pair, reporting PDISBA as a sensitivity case.
-- **The Témez/MOPU route carries no independent sub-hourly information about either city.** Its 10–60 min shape
-  comes entirely from one national 4-class constant, and no sub-hourly observation from either transfer city
-  enters anywhere. That is a real limitation to state plainly, not to bury: for the *transfer city*, the
-  sub-hourly design storm is an assumption, whereas for Porta it is measured.
+Three consequences, and the last two are uncomfortable:
+
+- **Harmonise before comparing, and say which construction was used** — including which denominator, 0.4 or
+  0.3954549, since mixing them reintroduces a 2–4% duration drift that looks like signal. Recommended: rebuild
+  Barcelona's storm the Mataró way and run the transfer on that pair, reporting PDISBA as a sensitivity case.
+- **The two daily legs are still not the same distribution.** Mataró's Pd is **Gumbel**; the Barcelona Pd above
+  comes from Tabla 7.1, captioned *"Cuantiles Y_t, de la Ley **SQRT-ET max**"*. So even the harmonised comparison
+  is like-for-like in its *duration factor* but not in its *frequency law*. Fixing this properly means refitting
+  Barcelona's daily maxima with Gumbel rather than reading the monograph's table.
+- **Under harmonisation the sub-hourly comparison carries no information beyond the daily one.** If f(D) cancels,
+  the entire 10/20/30/60 min transfer test reduces to the ratio of daily depths — 0.93 at T = 10, 1.00 at T = 2.
+  No sub-hourly observation from Mataró enters anywhere; its shape comes from the single regional constant
+  I1/Id = 11. For Barcelona the sub-hourly curve is empirical (pluviograph records, PDISBA §2.6 *"IDF
+  empíriques"*); for the transfer city it is an assumption. State this plainly rather than burying it — it is
+  one of the most concrete costs of transfer the thesis can name.
+
+*(Note on scope: `databases/barcelona/pdisba_idf_city.csv` is a **city-wide** Barcelona table, not Porta-specific.
+"Porta's design storm" throughout this repo means the city curve applied at Porta.)*
 
 ### Smaller findings worth keeping
 
-*Provenance: unlike the rest of §5b, the bullets below were **reported by the route agents and not yet re-read against a primary source in this repo**. The Mataró and Barcelona figures above were verified directly — PDCLAM '03's own Gumbel and IDF tables, the 1999 monograph's Tabla 7.1 rendered from the page image, and `databases/barcelona/pdisba_idf_city.csv`. Treat the bullets as leads, cite none of them to the tutor without opening the source.*
+*Provenance: these began as agent reports and were then **independently re-derived in the 19 Oct fact-check** against the Meteocat comarca PDFs, the XEMA station metadata and annual-maxima series, and the CAUMAX v3.0 rasters. They are now verified, with the corrected figures below.*
 
 - Meteocat's municipal IDF tempts you to extrapolate below 1 h with its published β exponent. **Do not.** Tested
-  against PDISBA at Barcelona, the error is +1% at 60 min, +13% at 30 min, +30% at 20 min and **+82% at 10 min**
-  (T = 10). The method downscales *from* 24 h, so the Mediterranean convective sub-hourly peak is not in it.
+  against PDISBA at Barcelona (β = −0.80375, I(1 h) = 63.4 mm), the error is **+1.4%** at 60 min, **+13.0%** at
+  30 min, **+30.3%** at 20 min and **+82.3%** at 10 min (T = 10). The method downscales *from* 24 h, so the
+  Mediterranean convective sub-hourly peak is not in it.
 - **Station coverage favours Badalona**, for what it is worth: XEMA *WU "Badalona – Museu"* sits 0.2 km from the
-  centre with 20 complete years, while Mataró's own station *YV* only opened 11 Jun 2025 and any Mataró fit needs
-  an inland proxy. This is the one design-rainfall criterion Badalona wins, and it is outweighed by having no
+  centre (0.24 km from Pl. de la Vila; `data_inici` 2005-09-21, so 2006–2025 = 20 complete years), while Mataró's
+  own station *YV* only opened **11 Jun 2025** and any Mataró fit needs an inland proxy. This is the one design-rainfall criterion Badalona wins, and it is outweighed by having no
   published design storm at all.
-- A **large unexplained discrepancy at Badalona**: Meteocat's municipal IDF gives T10/1 h = 74.0 mm, 1.9× a Gumbel
-  fit to its own in-town station (38.2 mm) and well above both Barcelona (63.4) and Mataró (61.2), while the three
-  T = 2 values are effectively identical. Unresolved; another reason not to build on Badalona.
-- Mataró's printed *hyetograph* table (Taula 1.7.3.3.4) is internally inconsistent with its own IDF at T = 2
-  (peak 5-min blocks average 43.36 mm/h where the IDF gives 72.271 at 10 min). Use the IDF table and regenerate
-  hyetographs; the T = 1, 5 and 10 columns of the hyetograph check out.
+- A **large unexplained discrepancy at Badalona**, and it is real rather than an apples-to-oranges slip: Meteocat's
+  municipal IDF gives T10 / 1 h = **74.0 mm**, against **38.19 mm** from a Gumbel fit to its own in-town station
+  (XEMA WU variable 1303, *"Precipitació màxima en 1 h (diària)"*, annual maxima 2006–2025, n = 20, mean 26.17,
+  sd 9.22) — the same quantity, 1.9× apart. Meteocat also puts Badalona well above Barcelona (63.4) and Mataró
+  (61.2) at T = 10 while the three T = 2 values are effectively identical (36.3 / 36.2 / 36.0). Unresolved;
+  another reason not to build on Badalona.
+- Mataró's printed *hyetograph* table (Taula 1.7.3.3.4, p. 32) has a **broken T = 2 column**: its peak 5-min pair
+  reads 43.36 mm/h where the IDF gives 72.271 at 10 min. It is not noise — the whole column is a flat **0.600×**
+  of T = 10, against the correct Pd ratio 60.6091 / 99.2804 = **0.6105**. Every other column (T = 1, 5, 10, 50,
+  100, 500, 1000) reproduces the IDF exactly. Use the IDF table and regenerate hyetographs.
 - PDCLAM '03 states **no reuse licence**. Cite it as a document; keep the PDF out of the repo.
 - CEDEX's CAUMAX v3.0 (Feb 2025) national 500 m grid is **NoData over the whole Catalan internal basins** —
-  nearest valid cell 67 km from Badalona, 78 km from Mataró. The convenient modern product has a hole exactly here.
+  nearest valid `t10` cell **66.9 km** from Badalona and **77.7 km** from Mataró (`t2…t500`, `i1id` and `p0` are
+  all NoData at Badalona, Mataró, Barcelona and Porta; only `mdt` has values). The convenient modern product has a
+  hole exactly here — which is also why I1/Id = 11 has to be cited from the ACA *Guia tècnica* §2.8.2 (*"a Catalunya
+  es pot considerar un valor mitjà d'11, d'acord amb MOPU (1990)"*) rather than read off the national grid.
 
 ## 6. Recommendation — re-derived after the fact-check
 
