@@ -1,10 +1,10 @@
 # Study section
 
-Material for **learning** the thesis (not for writing it; content checked against `notes/` on 15 Oct 2026), so that you can explain and defend it without notes at the 20 Oct session and at the final review.
+Material for **learning** the thesis (not for writing it; content checked against `notes/` on 19 Oct 2026), so that you can explain and defend it without notes at the 20 Oct session and at the final review.
 
 | File | What it is | How to use it |
 |---|---|---|
-| `guide.md` | The thesis condensed into 13 chapters, each with "Check yourself" questions, a glossary and a key-numbers sheet | Read one chapter, close it, answer the questions, then check |
+| `guide.md` | The thesis condensed into 16 chapters (§0–§15), each with "Check yourself" questions, a glossary and a key-numbers sheet | Read one chapter, close it, answer the questions, then check |
 | `flashcards.csv` | Question → answer cards, tagged by chapter | Use in the study app, or import into Anki |
 | `quiz.csv` | Multiple-choice questions with explanations | Use in the study app |
 | `study_app.html` | Flashcards with spaced repetition (Leitner boxes), a mixed quiz and a "say it out loud" mode | Open in a browser (works offline, phone too). Rebuild after editing the CSVs: `python scripts/make_study_app.py` |
@@ -31,11 +31,32 @@ Material for **learning** the thesis (not for writing it; content checked agains
 4. **Say it out loud.** The 20 Oct deliverable is a spoken 5-minute talk; train the voice, not only the eyes.
 
 ### NotebookLM as a complement
-Upload `guide.md` and the notes in `notes/` (`topic_decision.md`, `methodology.md`, `site_selection.md`) and `slides/outline_20oct.md` as sources. Useful there: the audio overview (listen on the go) and asking it to quiz you. Check any number it gives against `guide.md`; it can mix up figures.
+Upload `guide.md` and the notes in `notes/` (`topic_decision.md`, `methodology.md`, `site_selection.md`, `transferability.md`, `catalan_transfer_city.md`) and `slides/outline_20oct.md` as sources. Useful there: the audio overview (listen on the go) and asking it to quiz you. Check any number it gives against `guide.md`; it can mix up figures.
 
 ---
 
-## Plan to 20 Oct (≈ 25 min a day)
+## Tonight and tomorrow morning (19–20 Oct)
+
+The chapter numbers moved on 19 Oct: **§10 is the new Transferability chapter**, so Limits is **§11**, tutor questions **§12**, glossary **§13**, key numbers **§14**, open decisions **§15**. The two RM-seminar figures (plane-tree map, cluster map) are **out of the tutor deck** and parked in `slides/seminar_rm/`, so the deck is 10 slides with figures `01-09`, two of which belong to backup slides (B1 tree pit, B2 the Catalan screening; B3 has no figure) — which buys rehearsal time for the rest.
+
+| Block | ≈ time | Do |
+|---|---|---|
+| 1 | 20 min | Read **§10 Transferability** once, close it, answer its 7 **Check yourself** questions aloud. This is new material and it is slide 10, so it is the weakest part of the talk. |
+| 2 | 10 min | App → Cards, chapter **Transfer** only (20 new cards). Anything you miss, read back in §10, then repeat. |
+| 3 | 10 min | App → Quiz, mixed. Aim ≥ 90%. |
+| 4 | 15 min | Full run-through with the slides, timed (target 5:00; the script is ~5:17 at 140 wpm, so speak at your normal pace). |
+| 5 | 10 min | The six new transfer rows in **§12** (why Mataró, why not Badalona, method vs climate, the two hard dependencies), each in 20 s aloud. |
+| 6 | 5 min | Skim **§14 Key numbers**, the transfer block last. |
+| Morning | 15 min | One timed run-through, then only §14 and the three backup slides (B1 tree pit, B2 the 22-city screening, B3 method vs climate). |
+
+**Three things not to say wrong tomorrow:**
+1. The harmonised 0.93 ratio is **an identity, not a finding** — the evidence is the *raw* ratio reversing direction with duration.
+2. The 52% vs 43% species overlap is **not like-for-like** (Florence's inventory includes park trees).
+3. Every Mataró asset has an **UNKNOWN licence** — do not call it CC BY.
+
+---
+
+## The original plan to 20 Oct (≈ 25 min a day; kept for reference)
 
 | Day | Date | New material | Review |
 |---|---|---|---|
@@ -44,10 +65,10 @@ Upload `guide.md` and the notes in `notes/` (`topic_decision.md`, `methodology.m
 | 3 | Sun 11 | §4 Heat, §5 Synergy / trade-off | App: due cards |
 | 4 | Mon 12 | §6 Gap, §7 RQ + H (word-perfect) | App: due cards; say the pitch aloud |
 | 5 | Tue 13 | §8 Method and tool | App: due cards |
-| 6 | Wed 14 | §9 Results, §10 Limits | Quiz, mixed |
-| 7 | Thu 15 | §11 Tutor questions: answer each in 20 s, aloud | App: due cards |
+| 6 | Wed 14 | §9 Results, §10 Transferability, §11 Limits | Quiz, mixed |
+| 7 | Thu 15 | §12 Tutor questions: answer each in 20 s, aloud | App: due cards |
 | 8 | Fri 16 | Rehearse the talk with slides (`slides/outline_20oct.md`), timed | Quiz, mixed |
-| 9 | Sat 17 | Rehearse without the script | Key-numbers sheet (§13) |
+| 9 | Sat 17 | Rehearse without the script | Key-numbers sheet (§14) |
 | 10 | Sun 18 | Rest or light review | App: due cards only |
 | 11 | Mon 19 | Full run-through ×2, timed; tutor questions | Quiz: aim ≥ 90% |
 

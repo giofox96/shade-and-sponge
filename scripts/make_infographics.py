@@ -433,7 +433,7 @@ def fig_transfer():
         p, _ = para(x + 18, y + 48, txt, w - 36, 15, fill=INK)
         b += rect(x, y + 8, w, 112, col, rx=10, op=0.1) + t(x + 18, y + 34, head, 17, col, "bold") + p
         x += w + 20
-    save("10_transferability", "The code travels, the evidence does not",
+    save("08_transferability", "The code travels, the evidence does not",
          "What the method needs at a new site: Porta (calibration) vs three transfer options, verified 19 Oct", b,
          "data_inventory_barcelona.md A1, A3, A7, B1-B2, C4, D1-D2, G; data_inventory.md B1, B3, B5-B7, F1, F3, F5-F7; "
          "topic_decision.md 6.1 (trait coverage); methodology.md 4 validation (iii) (routing vs RESCCUE depth); "
@@ -500,7 +500,7 @@ def fig_catalonia_lidar():
                   "single clip, and a mission boundary runs through Porta's own tile.", 1470, 15, fill=INK)
     b += rect(45, 768, 1510, 70, WARN, op=0.08) + rect(45, 768, 6, 70, WARN, rx=0) + cav
 
-    save("11_catalonia_lidar_backup", "22 Catalan cities, screened on the one input that decides a transfer",
+    save("09_catalonia_lidar_backup", "22 Catalan cities, screened on the one input that decides a transfer",
          "ICGC Territorial LiDAR v3: the per-sheet metadata gives only the flight YEAR, so each date was read from "
          "PER-POINT GPS time in the cloud itself", b,
          "databases/catalonia_lidar_dates.csv (see its header). LIMIT: one 150x150 m clip per city (~0.0225 km2) in "

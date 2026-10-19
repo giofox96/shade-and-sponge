@@ -1,7 +1,7 @@
 """Shared cluster map on the RM p. 37 template ("Before you draw: open up your topic"): two theses around one cluster topic.
 
 A = this thesis (notes/methodology.md, notes/miro_map_proposal.md). B = the colleague's "plaza photo" map, as drawn by her (B to check).
-The centre text is a draft to agree. Output: slides/fig/09_cluster_map.svg + .png (2400x1580).
+The centre text is a draft to agree. Output: slides/seminar_rm/cluster_map.svg + .png (2400x1580).
 """
 import math
 from xml.sax.saxutils import escape
@@ -98,8 +98,8 @@ def build():
 if __name__ == "__main__":
     svg = (f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" font-family="{mi.FONT}">'
            f'<rect width="{W}" height="{H}" fill="#fff"/>{build()}</svg>')
-    p = mi.OUT / "09_cluster_map.svg"
-    mi.OUT.mkdir(parents=True, exist_ok=True)
+    p = mi.ROOT / "slides/seminar_rm/cluster_map.svg"
+    p.parent.mkdir(parents=True, exist_ok=True)
     p.write_text(svg, encoding="utf-8")
     mi.to_png(p)
     print("wrote", p.relative_to(mi.ROOT))
