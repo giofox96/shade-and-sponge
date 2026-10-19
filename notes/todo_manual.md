@@ -92,8 +92,12 @@ The screening in `notes/catalan_transfer_city.md` settled everything except one 
      is published. Equal priority to #1: the data is unusable without reuse terms, and `mataro.cat/ca/legal` is
      restrictive by default.
   3. `https://apex.mataro.org/ords/rest/dobertes/elements` — the dataset-list API; shows what else Mataró publishes.
-  If all three fail, request the Safetree extract **and a written licence statement** from the Àrea d'Ecologia
-  Urbana (`bustia@ajmataro.cat`, `planoldelaciutat@ajmataro.cat`, +34 93 758 21 91, Mon–Fri 08:00–15:00).
+  If all three fail, request the Safetree extract from the municipality. **Contact caveat:** the phone, hours and
+  both mailboxes below are taken from the *plànols* / GeoMat page footer and belong to the **Servei en Sistemes
+  d'Informació i Telecomunicacions** (Tecnocampus Mataró Maresme), **not** the Àrea d'Ecologia Urbana as an earlier
+  draft said — `bustia@ajmataro.cat` is the generic *Bústia d'avisos* and `planoldelaciutat@ajmataro.cat` the
+  map-products request box: `+34 93 758 21 91`, Mon–Fri 08:00–15:00. The addresses are real; the attribution was
+  wrong. Confirm the right unit on mataro.cat before writing.
 - [x] ~~Mataró portal check~~ — superseded by the three URLs above; the species composition is already in the repo
   (`databases/mataro/mataro_street_tree_species_2016.csv`, 17,204 street trees, 117 species) and 79,748 tree
   positions are downloadable without any portal, from the municipal GeoPackage (EPSG:25831, same CRS as Porta).

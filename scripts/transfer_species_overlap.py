@@ -21,8 +21,13 @@ import pandas as pd
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 CITIES = ["florence", "mataro", "barcelona"]          # barcelona = sanity check (city-wide top-30 vs the Porta subset)
-TOTALS = {"florence": 82226, "mataro": 17204, "barcelona": 140404}   # full inventory (data_inventory*.md F1, A1;
-# mataro = STREET trees only, Pla Director de l'arbrat viari 2016 p.33-34 - the other two are whole-city inventories)
+TOTALS = {"florence": 82226, "mataro": 17204, "barcelona": 140404}   # inventory size (data_inventory*.md F1, A1)
+# The three universes are NOT the same, which matters when comparing the percentages below:
+UNIVERSE = {"barcelona": "street trees", "mataro": "street trees",      # arbrat viari / Pla Director 2016 p.33-34
+            "florence": "all public trees"}                             # whole municipality, parks included
+# Porta, the reference, is street trees. So Mataro is compared like-for-like and Florence is not: its top-30 is
+# diluted by park and landscape species (its two largest genus gaps are Quercus ilex 8.5% and Olea europaea 6.2%).
+# Any Mataro-vs-Florence margin is therefore inflated by an unquantified amount - state it, do not quote it bare.
 MIN_N = 5          # Porta trees below which the species medians are too thin to rely on (same bar as site.CITY_LIDAR)
 
 
@@ -53,7 +58,8 @@ def main():
         out.append(c)
 
         top, sp, gen = c.trees.sum(), c.loc[c.in_porta_lidar, "trees"].sum(), c.loc[c.genus_in_porta_lidar, "trees"].sum()
-        print(f"{city}: top-{len(c)} species = {top:,} trees ({100 * top / TOTALS[city]:.1f}% of the inventory)")
+        print(f"{city}: top-{len(c)} species = {top:,} trees "
+              f"({100 * top / TOTALS[city]:.1f}% of {TOTALS[city]:,} {UNIVERSE[city]})")
         ok = c.loc[c.porta_sample_ok, "trees"].sum()
         print(f"  species measured in Porta: {c.in_porta_lidar.sum()} species, {sp:,} trees ({100 * sp / top:.1f}% of the top-30)")
         print(f"    of which on >= {MIN_N} Porta trees: {c.porta_sample_ok.sum()} species, {ok:,} trees ({100 * ok / top:.1f}%)")

@@ -9,11 +9,12 @@
 # suitability tally 15 apte / 51 restriccions / 51 evitar, the plan's stated split; and every row's
 # percentage matches units/17204. (The colour sampling corrected two rows a visual read got wrong:
 # Populus simonii and Olea europaea are 'evitar', not 'restriccions'.)
-# CAVEAT the source contradicts itself once: the prose gives Prunus cerasifera 3.30%, the table 748 =
+# Column VALUES in street_suitability are the source's own Catalan terms: apte (suitable for streets),
+# restriccions (suitable with restrictions), evitar (avoid). CAVEAT the source contradicts itself once: the prose gives Prunus cerasifera 3.30%, the table 748 =
 # 4.35%. The table is consistent with the 17,204 total, so the table is used here.
 # LICENCE NOT STATED. mataro.cat/ca/legal forbids reproduction without written permission and grants no
 # licence; the document is published openly but carries no reuse terms. Treat as UNKNOWN, cite only.
-especie_latin,nom_catala,unitats,percentatge,aptitud_viari,source_page
+species_latin,name_catalan,units,percent,street_suitability,source_page
 Platanus ×acerifolia,Plàtan comú,3587,"20,85",evitar,33
 Celtis australis,Lledoner,1820,"10,58",evitar,33
 Melia azedarach,Mèlia,983,"5,71",apte,33

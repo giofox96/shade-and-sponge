@@ -408,7 +408,7 @@ def fig_transfer():
             ("Weather file (EPW)", "UTCI inputs and design hours", [1, .5, 1, .5],
              "TMYx verified for Spain; the airport-vs-centre bias is a stated limit everywhere"),
             ("Measured species traits", "trait table and gap-filling classes", [.5, .5, .5, .5],
-             "40% in Barcelona, 19% in Florence. Porta species cover 52% of Mataro stock, 43% of Florence"),
+             "40% in Barcelona, 19% in Florence. Porta-measured species cover 52% of Mataro streets"),
             ("Leaf calendar + storm season", "LAI per month, storm weighting", [1, .5, 1, .5],
              "City-specific - but Mataro inherits Barcelona's calendar and storm months unchanged"),
             ("Policy cap + replacement palette", "the feasible species set", [.5, .5, .5, .5],
