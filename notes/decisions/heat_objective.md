@@ -1,5 +1,7 @@
 # Heat objective f1: options memo (issue #7)
 
+**DECIDED (user, 19 Oct): mean UTCI over 12–17 h on a hot design day**, with the hottest real day as a check. The peak-hour metric is dropped because it saturates (§5). The RQ wording follows in `notes/topic_decision.md` §8. The sections below are the memo that led to it.
+
 Status: **exploratory bounding, pending user decision.** No geometry, trees or grid were used. Numbers come from `scripts/heat_bounds.py` -> `databases/barcelona/heat_design_hours.csv` (51 rows). Methodology status is PROTOTYPING; `methodology.md` and `topic_decision.md` are not edited.
 
 ## 1. What the bounding run shows (TMYx El Prat 2011-2025, EPW wind, hours 12-17)

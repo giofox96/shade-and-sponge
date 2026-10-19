@@ -1,15 +1,15 @@
 # 20 Oct 2026 tutor session: slide outline and spoken script (draft v3, 19 Oct)
 
-**What changed in v3 (19 Oct, evening).** The deck is rebuilt to follow the rhythm of `study/guide.md`: **one idea per slide**, the number first and its caveat in the same breath, and the limits said before the tutor asks. It goes from 10 slides to **17 + 3 backups**. Four new figures were written for it (`02_one_sentence`, `03_problem`, `07_heat_evidence`, `17_limits_asks`); the others are the existing ones, renamed. The two RM-seminar figures stay parked in `slides/seminar_rm/`.
+**What changed in v3 (19 Oct, evening).** The deck is rebuilt to follow the rhythm of `study/guide.md`: **one idea per slide**, the number first and its caveat in the same breath, and the limits said before the tutor asks. It goes from 10 slides to **17 + 3 backups**. Six new figures were written for it (`02_one_sentence`, `03_problem`, `07_heat_evidence`, `11_research_question`, `12_hypotheses`, `17_limits_asks`); the others are the existing ones, renamed. The two RM-seminar figures stay parked in `slides/seminar_rm/`.
 
-**Figure files = slide numbers.** `slides/fig/NN_*.png` is the figure for slide NN. Slides **1, 4, 11, 12, 14, 15** have no file there on purpose: they use your own photo, a plot from `notes/figures/`, or plain text typed in Google Slides. Backups are `B1_*`, `B2_*`. Regenerate everything with `python scripts/make_infographics.py` (run it from `scripts/`).
+**Figure files = slide numbers.** `slides/fig/NN_*.png` is the figure for slide NN. Slides **1, 4, 14, 15** have no file there on purpose: they use your own photo or a plot from `notes/figures/`. Backups are `B1_*`, `B2_*`. Regenerate everything with `python scripts/make_infographics.py` (run it from `scripts/`).
 
 **Length.** Brackets in the headings are the cumulative target at **150 words a minute** (most people present at 140–160).
-- **Full deck, 17 slides:** 1,506 spoken words ≈ 10:02 (10:45 slow, 9:25 brisk).
-- **Core, 12 slides** (drop 2, 5, 7, 10, 15): 1,126 words ≈ 7:30 (7:02 brisk). **Aim for this one** — you said overrunning is fine, and it still covers all six things the tutor asked for.
-- **Short, 9 slides** (1, 3, 4, 6, 9, 11, 12, 13, 14, then one spoken line of slide 17's three asks): 839 words ≈ 5:36 (5:15 brisk). To get strictly under 5:00, drop slide 9 (the gap, 86 words) or trim slide 4 — but then say the gap in one line inside slide 11.
+- **Full deck, 17 slides:** 1,525 spoken words ≈ 10:10 (10:54 slow, 9:32 brisk).
+- **Core, 12 slides** (drop 2, 5, 7, 10, 15): 1,145 words ≈ 7:38 (7:09 brisk). **Aim for this one** — you said overrunning is fine, and it still covers all six things the tutor asked for.
+- **Short, 9 slides** (1, 3, 4, 6, 9, 11, 12, 13, 14, then one spoken line of slide 17's three asks): 858 words ≈ 5:43 (5:22 brisk). To get strictly under 5:00, drop slide 9 (the gap, 86 words) or trim slide 4 — but then say the gap in one line inside slide 11.
 - Order in which to cut if you are stopped: 5 → 10 → 15 → 7 → 2 → 16 → 8.
-- Longest single slides, if you need to trim: 16 (123 w), 12 (120 w), 7 (104 w), 15 (102 w), 4 (105 w).
+- Longest single slides, if you need to trim: 16 (123 w), 12 (131 w), 7 (104 w), 15 (102 w), 4 (105 w).
 
 **Sources.** Every number is from `notes/topic_decision.md` §7, `notes/site_selection.md`, `notes/methodology.md` §4b and §6, `notes/transferability.md`, `notes/catalan_transfer_city.md` §1–§5b, or the figure's own source line. The study version of all of this, with the "check yourself" questions, is `study/guide.md` §0–§15.
 
@@ -105,33 +105,33 @@
 
 ---
 
-## 11. The research question — CORE [5:51]
-**Figure:** none — type the text (large, two blocks).
-**On slide:**
-> **RQ (official v4).** In Porta, as plane trees are replaced under the city's tree plan, which replacement species and positions jointly reduce (a) pedestrian heat stress (UTCI at the peak summer hour along sun-exposed routes) and (b) event runoff volume from sealed street surfaces (1-, 2- and 10-year PDISBA design storms)? **How large is the trade-off between the two, compared with the current trees, a like-for-like replacement with the city's named palette, and single-objective layouts?**
+## 11. The research question (v5) — CORE [5:54]
+**Figure:** `slides/fig/11_research_question.png`
+**On slide (the figure carries it):**
+> **RQ (v5, 19 Oct).** In Porta, as plane trees are replaced under the city's tree plan, which replacement species and positions jointly reduce (a) pedestrian heat stress (**mean UTCI over 12–17 h on a hot design day**, along sun-exposed routes) and (b) event runoff volume from sealed street surfaces (1-, 2- and 10-year PDISBA design storms)? **How large is the trade-off between the two, compared with the current trees, a like-for-like replacement with the city's named palette, and single-objective layouts?**
 
-*One wording change I want your view on — the heat metric: "peak summer hour" saturates (on the hottest day even full shade is above 32 °C in 5 of 6 afternoon hours), so I propose mean UTCI over 12–17 h on a design day instead (`notes/decisions/heat_objective.md`, still your decision).*
+*Changed on 19 Oct (your decision): the heat metric is the 12–17 h mean, not the peak summer hour — at the peak the metric saturates, since even full shade is above 32 °C in 5 of 6 afternoon hours (`notes/topic_decision.md` §8).*
 
-**Say (94 words):**
-"So, the question. In Porta, as the plane trees are replaced, which species and which positions jointly reduce pedestrian heat stress and event runoff volume for one-, two- and ten-year design storms — and how large is the trade-off, measured against three baselines: the trees that are there today, a like-for-like replacement, and each single-objective optimum. One point I would like your view on is the heat metric: at the peak hour even full shade is above the stress threshold, so the metric saturates. I propose a midday-to-five-o'clock average on a design day instead."
+**Say (102 words):**
+"So, the question. In Porta, as the plane trees are replaced, which species and which positions jointly reduce pedestrian heat stress and event runoff volume for one-, two- and ten-year design storms — and how large is the trade-off, measured against three baselines: the trees that are there today, a like-for-like replacement, and each single-objective optimum. One thing I changed yesterday: I measure heat as an average over the afternoon, twelve to five, not at the single peak hour — at the peak even full shade is above the stress threshold, so the metric saturated and no layout could show a benefit."
 
 ---
 
-## 12. Three hypotheses — CORE [6:39]
-**Figure:** none — type the text (three lines + the mnemonic).
-**On slide:**
+## 12. Two hypotheses, and the one I took out — CORE [6:47]
+**Figure:** `slides/fig/12_hypotheses.png`
+**On slide (the figure carries it):**
 - **H1 · synergy** — at the same number and size class of trees, trait-based layouts beat like-for-like replacement on **both** goals.
 - **H2 · trade-off** — heat-optimal and runoff-optimal layouts differ mainly in **species**, not in positions.
-- **H3 · boundary** — the runoff benefit shrinks as the return period grows. *Declared as a boundary of the method, not as a test.*
-- Mnemonic: **S-T-B**. Minimum meaningful difference **Δmin = 91 m³**, fixed before the runs — today's exploratory best is **78 m³**, i.e. below it.
-- **Question for you:** is a hypothesis that is true by construction acceptable, if I declare it as a boundary of the method?
+- **H3 · withdrawn, 19 Oct** — *the runoff benefit shrinks as the return period grows*. It was a hypothesis until the model showed it is an identity (I = min(P, S), every crown full at every storm), so it is now a **declared validity boundary**, not a test.
+- Minimum meaningful difference **Δmin = 91 m³**, fixed before the runs — today's exploratory best is **78 m³**, i.e. below it.
+- **Question for you:** we removed H3 and declared it a boundary instead — is that the right call?
 
-**Say (120 words):**
-"Three hypotheses. One, synergy: at the same number and size of trees, a trait-based layout beats a like-for-like replacement on both goals. Two, trade-off: the heat optimum and the runoff optimum differ mainly in species, not in positions. Three, a boundary: the runoff benefit shrinks as storms grow. I fixed a minimum meaningful difference before running anything — ninety-one cubic metres. If the best layout beats the baseline by less than that, I report the runoff half as not resolved — and on today's exploratory numbers it does not clear the bar. One question back to you: is a hypothesis that is true by construction acceptable, if I declare it as a boundary rather than claim it as a result?"
+**Say (131 words):**
+"Two hypotheses, and one I removed. One, synergy: at the same number and size of trees, a trait-based layout beats a like-for-like replacement on both goals. Two, trade-off: the heat optimum and the runoff optimum differ mainly in species, not in positions. I fixed a minimum meaningful difference before running anything — ninety-one cubic metres — and on today's exploratory numbers the best layout does not clear it, which I would report as not resolved. The third one I took out yesterday. It said the runoff benefit shrinks as storms grow, and the model cannot fail it: with a full crown at every storm that is arithmetic, not a test. So it is now a declared boundary of the method. My question to you is whether that is the right call."
 
 ---
 
-## 13. The method — CORE [7:17]
+## 13. The method — CORE [7:25]
 **Figure:** `slides/fig/13_method_pipeline.png`
 **On slide:** 5 steps: LiDAR trees → trait table → runoff module (Python) + heat module (Ladybug in Grasshopper) → NSGA-II over the 832 positions, under ≤ 15% per species and a diversity floor → Pareto front, scenarios S0–S4, then Sant Antoni and the transfer city.
 
@@ -140,7 +140,7 @@
 
 ---
 
-## 14. First result: the runoff module runs — CORE [7:58]
+## 14. First result: the runoff module runs — CORE [8:05]
 **Figure:** `notes/figures/runoff_results_v1.png`
 **On slide:** today's street trees: **−1.85%** runoff at T = 2 (−2.9% on open ground, i.e. everything but roofs) · field benchmark 3.5–4% · young replacements lose **≈ 37%** of that benefit · effect falls 3.16% → 0.90% from T = 1 to T = 10 · calibrated on 16 trees, 51 storms (Freiburg), s = 1.75 mm per unit LAI.
 
@@ -149,7 +149,7 @@
 
 ---
 
-## 15. First result: shade, and a real trade-off — EXTRA [8:38]
+## 15. First result: shade, and a real trade-off — EXTRA [8:46]
 **Figure:** `notes/figures/tool_v0.png`
 **On slide:** optimised vs random palette: **+16% summer shade**, robust across 8 sensitivity variants — but **no winter gain** (−0.8 to +7.9%: about equal or worse) · beyond the balanced layout a genuine trade-off: **−17.6% winter shade for −18.0% summer shade** in the base run (ratio ~0.6–1.0 across the variants) · **even with mature replacement crowns**, no layout reaches today's planes (balanced: −7.5% summer shade).
 
@@ -158,7 +158,7 @@
 
 ---
 
-## 16. Transferability: the code travels, the evidence does not — CORE [9:28]
+## 16. Transferability: the code travels, the evidence does not — CORE [9:35]
 **Figure:** `slides/fig/16_transferability.png`
 **On slide:**
 - Site-agnostic **kernels** (routing, crown-shadow geometry, SCS-CN) carry no local constant; a new site is one data adapter. `heat.py` and `runoff.py` still hold Barcelona design days, the calibrated *s* and the IDF path.
@@ -172,7 +172,7 @@
 
 ---
 
-## 17. What I cannot do yet, and what would unblock me — CORE [10:02]
+## 17. What I cannot do yet, and what would unblock me — CORE [10:10]
 **Figure:** `slides/fig/17_limits_asks.png`
 **On slide:** the limits column, the three asks, and the plan to 18 December.
 
@@ -224,8 +224,8 @@
 - **Why not peak flow?** Field evidence shows trees barely change peak flow (Selbig et al. 2021). Volume is what they can change.
 - **Hasn't Tan & Liu 2026 done this?** They optimise species and positions of 30 trees for heat (UTCI), CO₂ and diversity in a Chicago block, with a similar Grasshopper + NSGA-II approach and a Random Forest surrogate. No runoff, four common Chicago street trees at 5 years old (US allometry), one summer hour. This thesis adds runoff, the city's own replacement palette and the seasons.
 - **Hasn't Dong et al. 2026 done this?** They optimise species mixes per 0.25 km² cell, with an energy proxy for heat and i-Tree for runoff, and no tree positions. Hence "species **and** positions", "**pedestrian** UTCI".
-- **Is a 2% effect worth a thesis?** The thesis is the method and the trade-off, not a big runoff number. H3 states the limit openly, and the heat side may dominate.
-- **Isn't H3 true by definition of your model?** Yes — in the model every crown is full, so I declare it a boundary. In field data the intercepted fraction also falls as rain depth grows (Anys & Weiler 2024).
+- **Is a 2% effect worth a thesis?** The thesis is the method and the trade-off, not a big runoff number. The declared boundary states the limit openly, and the heat side may dominate.
+- **Isn't H3 true by definition of your model?** It is, which is why it is no longer a hypothesis: I withdrew it on 19 Oct and kept the content as a declared validity boundary. In field data the intercepted fraction does fall as rain depth grows (Anys & Weiler 2024), so the statement is true — it is just not something my model can test.
 - **What if runoff cannot separate the palettes?** Then the runoff part of H1 is "not resolved" (below Δmin = 91 m³, fixed before the runs); heat carries the species choice and runoff is a check. That is still a result.
 - **How good is your flood routing?** It finds the main convergence points but is not a flood map (ROC AUC 0.52 against RESCCUE depth); hotspots come from the city's map.
 - **Why Porta and not Sant Antoni?** Porta passes both hazards at every threshold; Sant Antoni's heat is below the city median.

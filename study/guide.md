@@ -14,6 +14,11 @@ A condensed version of the thesis for **learning it**, not for writing it. Every
 
 **The logic chain (the tutor's order):** problem → why it matters → gap → research question → hypotheses → method (data, tools) → tool → first results → limits.
 
+### What changed on 19 Oct (your two decisions — learn these first)
+- **The heat metric is decided: mean UTCI over the 12–17 h window on a hot design day**, not UTCI at the peak summer hour. The peak-hour metric saturates (on the hottest day even full shade is ≥ 32 °C in 5 of 6 afternoon hours), so no layout could show a benefit. The RQ wording follows (§7).
+- **H3 is withdrawn. The thesis has two hypotheses, H1 and H2.** The content of H3 stays as a **declared validity boundary** of the method, and you say openly that it *was* a hypothesis until the model showed it true by construction. Removing it is a result about the method, not a retreat (§7, §9, §11).
+- Both are recorded in `notes/topic_decision.md` §8 (v5).
+
 ### What changed since 15 Oct (read this first if you studied the earlier version)
 - **A whole new chapter, §10 Transferability**, and with it **slide 16** of the talk: the code travels, the evidence does not. It is the answer to the tutor's "contribution to knowledge", so treat it as core, not as an appendix.
 - **The transfer city is decided: Mataró** (19 Oct), not a generic "Catalan city" and not Badalona. Reason: it is the only candidate with a **published design storm of its own** — borrowing Barcelona's IDF would make the transfer test circular (§10).
@@ -25,7 +30,7 @@ A condensed version of the thesis for **learning it**, not for writing it. Every
 ### What changed since 9 Oct (older, keep for reference)
 - **A seventh candidate species:** *Styphnolobium japonicum* (user decision, 14 Oct). Its crown and LAI now come from a LiDAR sample outside Porta (§1, §9).
 - **The gap needs narrower wording** because of Dong et al. 2026: say "species **and positions**" and "**pedestrian UTCI**" (§6).
-- **H3 is true by construction of the model:** with the v1 LAI proxy every crown is full at every design storm, so the falling % is arithmetic, not a test (§3, §7).
+- **H3 was true by construction of the model:** with the v1 LAI proxy every crown is full at every design storm, so the falling % is arithmetic, not a test. This is what led to withdrawing it on 19 Oct (§3, §7).
 - **The runoff part of H1 may come out "not resolved by the model":** accepted as a valid outcome (user, provisional, 14 Oct) (§7, §9).
 - **RESCCUE flood-depth maps are public**, and the routing was checked against them (§8, §11).
 - **Leaf calendar from photos (15 Oct):** Jacaranda is mostly in leaf in January. Re-run: the "no-regret swap" shrank from −9% to −2% winter shade and is not robust; the summer–winter trade-off holds (§5, §9).
@@ -142,10 +147,10 @@ Sources: `notes/methodology.md` §3, §5; `notes/topic_decision.md` §6.1.
 - **Night:** dense clusters trap heat at night (Zölch et al. 2019); the design hour misses this → stated limit.
 - **Transpiration matters less in Porta:** per leaf area it is lowest in Mediterranean climates and ~10× lower for trees in paved pits than over grass, while shade cools asphalt the most (Rahman et al. 2019 meta-analysis). So Ladybug's missing transpiration is a smaller error here.
 
-**Choosing the heat metric (`notes/decisions/heat_objective.md`, pending your decision):**
+**The heat metric (`notes/decisions/heat_objective.md`, DECIDED by you on 19 Oct):**
 - On the **hottest** El Prat day, even full shade is ≥ 32 °C in 5 of 6 afternoon hours, so "share of points > 32 °C" **saturates** and cannot show a benefit.
 - The **sun–shade gap is 2.3–4.7 °C UTCI** (full shade; a lower bound for a tree), and the **Ladybug model error is 1–2 °C**: trust **rankings** of layouts more than absolute values.
-- Recommended default: **mean UTCI over 12–17 h on the design (DDY) cooling day**, plus the hottest real day as a check. This would change the RQ wording from "peak summer hour" to "12–17 h window on a hot design day".
+- **Decided: mean UTCI over 12–17 h on the design (DDY) cooling day**, plus the hottest real day as a check. This changes the RQ wording from "peak summer hour" to "12–17 h window on a hot design day".
 - **Weather (`notes/decisions/weather_forcing.md`, pending):** main run El Prat TMYx 2011–2025; sensitivities with the Barcelona city station file, city-terrain wind, and an urban offset of **0 to +1.5 °C**.
 
 ### Check yourself
@@ -228,29 +233,29 @@ Sources: `notes/topic_decision.md` §6.1, §7; `slides/outline_20oct.md`; `notes
 ## 7. Research question and hypotheses (learn word-perfect)
 Source: `notes/topic_decision.md` §7.
 
-**RQ:** *In Porta, as plane trees are replaced under the city's tree plan, which replacement species and positions jointly reduce (a) pedestrian heat stress (UTCI at the peak summer hour along sun-exposed routes) and (b) event runoff volume from sealed street surfaces (1-, 2- and 10-year design storms from the PDISBA rainfall curves)? How large is the trade-off between the two, compared with the current trees, a like-for-like replacement with the city's named palette, and single-objective layouts?*
+**RQ (v5, 19 Oct):** *In Porta, as plane trees are replaced under the city's tree plan, which replacement species and positions jointly reduce (a) pedestrian heat stress (**mean UTCI over 12–17 h on a hot design day** along sun-exposed routes) and (b) event runoff volume from sealed street surfaces (1-, 2- and 10-year design storms from the PDISBA rainfall curves)? How large is the trade-off between the two, compared with the current trees, a like-for-like replacement with the city's named palette, and single-objective layouts?*
 
 - **H1, synergy:** same number and size class of trees → trait-based layouts beat like-for-like on **both** goals (crown size and LAI drive both).
 - **H2, trade-off:** heat-optimal and runoff-optimal layouts differ mainly in **species**, not positions (leaf habit, transpiration) → the Pareto front is not a single point.
-- **H3, validity boundary:** the runoff benefit **shrinks as the return period grows**; small at T = 10 yr; extreme events (6 Sept 2018, ≈300-yr 20-min intensity) are outside what trees can affect.
+- **~~H3, validity boundary~~ — WITHDRAWN 19 Oct:** *the runoff benefit shrinks as the return period grows; small at T = 10 yr; extreme events (6 Sept 2018, ≈300-yr 20-min intensity) are outside what trees can affect.* Still true, still said — but as a **declared boundary of the method**, not a hypothesis, because the bucket model cannot fail it.
 
-**Mnemonic: S-T-B** = **S**ynergy, **T**rade-off, **B**oundary.
+**Mnemonic: S-T** = **S**ynergy, **T**rade-off — plus **one withdrawn boundary**. If you are asked for three, name two and say why the third went.
 
-**Status of the hypotheses (memos, pending your decision; the wording above is still the official v4):**
+**Status of the hypotheses (v5, `notes/topic_decision.md` §8):**
 - **H1, runoff part:** a minimum meaningful difference **Δmin = 91 m³** (0.9 mm over the street crowns, 0.5% of T2-60 runoff) is proposed, fixed before the runs. If the best layout beats S1 by less than Δmin, the runoff part is reported as **"not resolved by the model"**: accepted as a valid outcome (user, provisional, 14 Oct). Today's exploratory value is **78 m³** (worst case 38.5 m³) → not resolved. Then heat carries the species choice and runoff becomes a check.
 - **H2:** proposed as a species-composition claim (S2 vs S3 differ by more than a pre-fixed dissimilarity) at the fixed plane positions.
-- **H3:** proposed as a **declared boundary of the method**, not a test result (it is true by construction, §3). Question for the tutor: is that acceptable?
+- **H3: withdrawn (user, 19 Oct)** and kept as a **declared boundary of the method**, since it is true by construction (§3). Question for the tutor, on slide 12: is that the right call?
 - **Trade-off metric (proposed):** % loss of one objective at the other's optimum.
 
 ### Check yourself
 1. Say the RQ in under 40 words.
-2. Name H1–H3 and the scenario comparison that tests each.
+2. Name the two hypotheses and the scenario comparison that tests each — and say what happened to the third.
 3. What is Δmin, and what happens if the best layout beats S1 by less than it?
 
 <details><summary>Answers</summary>
 
 1. In Porta, which replacement species and positions jointly reduce UTCI and runoff volume (1-, 2-, 10-yr storms), and how large is the trade-off versus current trees, like-for-like and single-objective layouts?
-2. H1 synergy: S4 vs S1 on both objectives. H2 trade-off: species composition of S2 vs S3. H3 boundary: runoff benefit vs return period T.
+2. H1 synergy: S4 vs S1 on both objectives. H2 trade-off: species composition of S2 vs S3. H3 was withdrawn on 19 Oct (true by construction) and is now a declared boundary; the old comparison was runoff benefit vs return period T.
 3. The minimum meaningful runoff difference, 91 m³ (0.5% of T2-60 runoff). Below it, the runoff part of H1 is "not resolved by the model" (neither supported nor rejected).
 </details>
 
@@ -299,7 +304,7 @@ Sources: `notes/methodology.md` §4b, §6; `shade_sponge/README.md`.
 - Current street trees cut Porta's runoff by **1.85%** (open space only: **2.9%**). Range over s and T: **0.4–4.0%**.
 - Same order as the field benchmark (**3.5–4%**, Selbig 2021 / Coville 2022). Barcelona city-wide also small (Cortinovis 2022: 20,170 new trees, retention 50.18% → 50.76% for a 20 mm event).
 - **Any young replacement: ≈ +0.7% runoff ≈ 37% of the current street-tree benefit lost** during the transition ("more than a third").
-- Benefit shrinks with return period (as a %), but in the model this is arithmetic, not a test of H3 (§3).
+- Benefit shrinks with return period (as a %), but in the model this is arithmetic — which is exactly why H3 was withdrawn on 19 Oct and is now a declared boundary (§3, §7).
 
 **Styphnolobium (15 Oct):** a LiDAR sample from one 1 km tile outside Porta gives crown **5.32 m / LAI 2.12** from **367 trees on 25 streets** without possibly merged crowns (the tool uses these; all 607 trees give 6.43 m / 2.28). With them it ranks **5th of 8 palettes** (aggregate) and **4th of 7** (grid), and replacing the planes with it **adds runoff** (+92.5 m³, +0.52% at T2-60). Best palette: Melia (aggregate) or Jacaranda (grid). Best vs S1: **78 m³ < Δmin 91 m³** → runoff part of H1 not resolved. (The earlier 14 Oct result, where Styphnolobium came first, used only 5 Porta trees and is superseded.)
 
@@ -400,7 +405,7 @@ Porta's measured species cover **52.2% of Mataró's top-30 species** (counting o
 - **Volume only**: no sewer, no routing to outlets, no ponding.
 - EPW from the airport, not the city (test +1/+2 °C).
 - Design hour misses night effects.
-- **H3 is true by construction** in the bucket model; declare it as a boundary.
+- **H3 was true by construction** in the bucket model, so it is **withdrawn as a hypothesis** (19 Oct) and stated as a declared boundary instead.
 - Runoff differences between palettes may stay below Δmin: the runoff part of H1 may be "not resolved".
 - Most palette species lack measured traits → ranges + sensitivity; **the gap is a finding**.
 - Seminar gaps: no stakeholder validation yet; innovation type and TRL not yet stated (claim **TRL 3**, process innovation) (`notes/research_method_guidelines.md`).
@@ -415,13 +420,13 @@ Sources: `slides/outline_20oct.md`; the Porta and Barcelona answers from `notes/
 |---|---|
 | Why not peak flow? | Trees barely change peak flow in the field (Selbig 2021); volume is what they change. |
 | Hasn't Tan & Liu 2026 done this? | Heat, CO2, diversity only; no runoff, 4 Chicago species, one summer hour. I add runoff, the city's own palette and the seasons. |
-| Is a 2% effect worth a thesis? | The thesis is the method and the trade-off, not a big runoff number. H3 states the limit; heat may dominate. |
+| Is a 2% effect worth a thesis? | The thesis is the method and the trade-off, not a big runoff number. The declared boundary states the limit; heat may dominate. |
 | Where do species values come from? | LiDAR crowns and LAI on site, database traits, genus/leaf-habit proxies with sensitivity ranges. |
 | Why Porta and not Sant Antoni? | Porta passes both hazards at every threshold; Sant Antoni's heat is below the city median. |
 | Why Barcelona and not Florence? | Heat-health evidence, LiDAR, open data and site access; Florence becomes the transfer test. |
 | What if the scope is too narrow? | Widen the tree into a system: add the tree pit as one design variable; carbon reported, not optimised. |
 | Hasn't Dong et al. 2026 done this? | They optimise species mixes per 0.25 km² cell with an energy proxy for heat and i-Tree runoff. I choose species and positions per tree, against pedestrian UTCI and event runoff. |
-| Isn't H3 true by definition of your model? | Yes, in the model every crown is full, so I declare H3 as a boundary of the method. In field data the intercepted fraction also falls as rain depth grows (Anys & Weiler 2024). |
+| Isn't H3 true by definition of your model? | It is — which is why I withdrew it on 19 Oct and kept it as a boundary of the method. In field data the intercepted fraction also falls as rain depth grows (Anys & Weiler 2024). |
 | What if runoff can't tell the palettes apart? | Then the runoff part of H1 is "not resolved" (below Δmin = 91 m³, fixed before the runs); heat carries the species choice, runoff is a check. That is still a result. |
 | How good is your flood routing? | It finds the main convergence points but is not a flood map (AUC 0.52 vs RESCCUE depth); hotspots come from the atlas index. |
 | Does this only work in Barcelona? | The code does not: a new site is one adapter, and the routing, shade-geometry and SCS-CN kernels carry no local constant. The evidence does: traits, leaf calendar, storm season, flood map and the 15% cap are all local (§10). |
@@ -536,9 +541,9 @@ Sources: `slides/outline_20oct.md`; the Porta and Barcelona answers from `notes/
 Know these exist and what the recommended default is; the tutor may ask. Only the "not resolved" rule for H1's runoff part is provisionally accepted (14 Oct); the rest is open.
 | Decision | Recommended default | Source |
 |---|---|---|
-| Heat metric f1 | Mean UTCI, 12–17 h, DDY cooling day (+ hottest real day as check) | `notes/decisions/heat_objective.md` |
+| ~~Heat metric f1~~ **DECIDED 19 Oct** | Mean UTCI, 12–17 h, DDY cooling day (+ hottest real day as check) | `notes/decisions/heat_objective.md` |
 | Weather forcing | El Prat TMYx 2011–2025, file wind, no offset; sensitivities: city station, city-terrain wind, +1.5 °C | `notes/decisions/weather_forcing.md` |
-| Hypothesis wording | H1 with Δmin and "not resolved"; H2 as species composition; H3 as a declared boundary | `notes/decisions/hypothesis_tests.md`, `runoff_metric_sensitivity.md` |
+| ~~Hypothesis wording~~ **DECIDED 19 Oct** | H1 with Δmin and "not resolved"; H2 as species composition; **H3 withdrawn**, kept as a declared boundary | `notes/decisions/hypothesis_tests.md`, `runoff_metric_sensitivity.md` |
 | Contribution statement | No default given: choose among A (method), B (knowledge), C (validation, optional) | `notes/decisions/contribution_statement.md` |
 | Tool changes | Methodology §12 items 1–5 | `notes/methodology.md` §12 |
 | Mataró access | Three browser URLs settle whether the joined per-tree table is public (`notes/todo_manual.md`); the licence is **UNKNOWN** for every Mataró asset, so do not record CC BY | `notes/catalan_transfer_city.md` §3b |

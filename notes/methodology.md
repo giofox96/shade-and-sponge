@@ -77,7 +77,7 @@ Limit: crowns act as opaque, so species differences enter only through crown siz
 | S4 | Multi-objective Pareto set (trait-based) |
 | (opt.) | Young vs mature crowns: transition loss after replacement |
 
-Tests H1 (S4 vs S1 on both objectives), H2 (species composition of S2 vs S3) and H3 (runoff benefit vs T).
+Tests H1 (S4 vs S1 on both objectives) and H2 (species composition of S2 vs S3). **H3 was withdrawn on 19 Oct** (user): the runoff-benefit-vs-T result is true by construction of the bucket model, so it is reported as a declared validity boundary, not as a test (`notes/topic_decision.md` §8).
 
 ## 8. Test / transfer phase
 Same pipeline on **Sant Antoni** (flood-dominant contrast) and **Florence** (transfer: Pacetti 2022 hotspots, 82k-tree inventory, LiDAR 1 m, regional IDF grid). Questions: do the trade-off pattern and the species ranking hold?

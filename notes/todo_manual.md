@@ -12,9 +12,9 @@ The user lives in Florence (15 Oct), so **no field photos in Porta**. Remote alt
 ## Before the 20 Oct meeting
 
 ### Decisions only you can take (memos ready; most give a recommended default)
-- [ ] **Heat metric f1:** mean UTCI over 12–17 h on the DDY cooling day instead of one peak hour? Minimum difference = 0.8 °C (Ladybug vs ENVI-met MBE)? (`notes/decisions/heat_objective.md` §6)
+- [x] **Heat metric f1: DECIDED 19 Oct — mean UTCI over 12–17 h on a hot design day**, hottest real day as a check (`notes/topic_decision.md` §8). Still open inside it: the minimum meaningful difference (0.8 °C, Ladybug vs ENVI-met MBE).
 - [ ] **Weather forcing:** El Prat TMYx 2011–2025 for the main run, with city station / city-terrain wind / +1.5 °C as sensitivities? (`notes/decisions/weather_forcing.md` §4)
-- [ ] **H3:** declare it a boundary of the method (and reword slide 9, "as H3 predicts", and methodology §4b, "supporting H3"), or keep it testable on the Freiburg raw data? (`notes/decisions/hypothesis_tests.md` §9)
+- [x] **H3: DECIDED 19 Oct — withdrawn as a hypothesis**, kept as a declared validity boundary of the method; the talk says it was a hypothesis until the model showed it true by construction (`notes/topic_decision.md` §8). Anything still reading "supporting H3" or "as H3 predicts" is wrong.
 - [ ] **H1/H2 wording:** Δmin = 91 m³ and the "not resolved" rule for H1's runoff part (provisionally accepted 14 Oct; still to write into `topic_decision.md` §7); H2 as a species-composition claim (`notes/decisions/hypothesis_tests.md` §8, `runoff_metric_sensitivity.md` §10).
 - [ ] **Contribution statement:** pick A (method), B (knowledge) and/or C (validation); use the narrower gap wording because of Dong 2026 (`notes/decisions/contribution_statement.md`).
 - [ ] **Methodology §12 proposed changes** (surface-weighted shade, SVF check, k as ASSUMPTION, R_OFF anchors, storage anchors for s): adopt or drop (`notes/methodology.md` §12).
@@ -27,7 +27,7 @@ The user lives in Florence (15 Oct), so **no field photos in Porta**. Remote alt
   - [ ] **Infrared City access**, plus three questions: (a) how are trees represented: geometry only, or porosity/LAI per species? (b) API limits for thousands of runs; (c) published validation against ENVI-met or Ladybug.
   - [ ] Confirm the **final delivery date** (18 Dec?), and whether **Grasshopper integration** is required by the programme.
   - [ ] Slide format for the 5-min talk (Google Slides assumed).
-  - [ ] Ask the tutor: is a hypothesis that is true by construction of the model (H3) acceptable if declared as a method boundary?
+  - [ ] Ask the tutor (now on slide 12): we removed H3 because it is true by construction of the model and declared it a boundary instead — is that the right call?
 - [ ] **RESCCUE licence reminder ~23 Oct** if Barcelona Regional has not replied (`notes/resccue_data_request.md`).
 
 ### Papers (download in the browser via IAAC access; save to `papers/` and tell me, I'll digest them)

@@ -1,5 +1,7 @@
 # Options memo: make H1-H3 falsifiable (issue #3, 8 Oct 2026)
 
+**DECIDED (user, 19 Oct): H3 is withdrawn.** The thesis has two hypotheses, H1 and H2. The content of H3 is kept as a **declared validity boundary** of the method, and the talk says openly that it was a hypothesis until the model showed it to be true by construction. The open question in §9 about H3 is therefore closed; the Δmin rule for H1 (91 m³) and the H2 wording still stand as described below. See `notes/topic_decision.md` §8.
+
 Status: **options only, pending user decision.** Methodology status in CLAUDE.md is still NOT DEFINED; no tool code was written.
 Scope follows `notes/agent_backlog_status.md` §#3 (it overrides the issue body). The 'Decisions' bullets in `notes/agent_backlog.md` lines 26-34 are cited here, not copied; each section updates them with evidence now on main.
 Marks: 🟡 unverified; (abs) abstract only; (to add) no source in the repo yet. Matrix = `notes/lit/literature_matrix.csv` (row = id).

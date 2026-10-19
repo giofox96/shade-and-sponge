@@ -4,7 +4,7 @@ Numbers come from notes/lit/literature_matrix.csv, notes/lit/species_measurement
 databases/traits/porta_trait_table.csv and notes/methodology.md; every figure prints its sources.
 "*" = assessed from the abstract only. PNG export uses headless Edge/Chrome (no extra Python packages).
 Output: slides/fig/*.svg, slides/fig/*.png. File numbers are the SLIDE numbers of slides/outline_20oct.md
-(so 04, 11, 12, 14 and 15 have no figure here: they use a photo, a notes/figures plot, or text).
+(so 01, 04, 14 and 15 have no figure here: they use a photo or a notes/figures plot).
 """
 import csv, os, re, shutil, subprocess, tempfile, pathlib, textwrap
 from xml.sax.saxutils import escape
@@ -335,7 +335,7 @@ def fig_method():
         "NSGA-II", "Decision: species at each of the 832 plane positions",
         "Constraints: \u2264 15% per species, diversity floor, no invasive or pest hosts"], "planned", MUTED)
     b += box(1370, 160, 170, 600, TREE, "5  RESULT", [
-        "Pareto front: heat vs runoff", "Scenarios S0-S4", "Tests H1-H3", "Transfer: Sant Antoni, Florence"], "planned", MUTED)
+        "Pareto front: heat vs runoff", "Scenarios S0-S4", "Tests H1 and H2", "Transfer: Sant Antoni, Florence"], "planned", MUTED)
     for x1, y1, x2, y2 in ((350, 460, 398, 460), (660, 380, 708, 300), (660, 540, 708, 620),
                            (1070, 300, 1118, 400), (1070, 620, 1118, 520), (1320, 460, 1368, 460)):
         b += line(x1, y1, x2, y2, MUTED, 2.5, arrow=True)
@@ -530,7 +530,7 @@ def fig_one_sentence():
         "Which of 7 candidate species goes at each position, as the planes come out.",
         "Positions are given: the existing pits."], "832 plane positions")
     b += panel(590, 420, HEAT, "2  TWO SCORES, SEPARATELY", [
-        "f1  pedestrian heat stress: UTCI on a hot afternoon (the official RQ says the peak hour; I propose a 12–17 h mean \u2014 still your call).",
+        "f1  pedestrian heat stress: mean UTCI over 12–17 h on a hot design day (decided 19 Oct; the peak hour saturates).",
         "f2  event runoff volume: design storms T = 1, 2 and 10 yr."])
     b += panel(1120, 420, TREE, "3  THE ANSWER", [
         "A Pareto front: every layout on it is optimal, and the shape of the front is the trade-off itself.",
@@ -630,7 +630,7 @@ def fig_heat_evidence():
          "so I compare the ranking of layouts, not absolute degrees. The optimiser only ever needs the ranking."),
         ("\"Share of points above 32 °C\" saturates",
          "on the hottest El Prat day even full shade is ≥ 32 °C in 5 of 6 afternoon hours (2 of 6 on the hot-week day, "
-         "3 of 6 on the design day). So I propose mean UTCI over 12–17 h on a design cooling day — pending your decision."),
+         "3 of 6 on the design day). So the metric is the mean UTCI over 12–17 h on a design cooling day — decided 19 Oct — with the hottest real day as a check."),
         ("Night is outside the design hour",
          "dense clusters trap heat at night (Zölch et al. 2019). Stated as a limit, not modelled.")])
 
@@ -654,7 +654,7 @@ def fig_limits_asks():
                   "the site was chosen on an index; our own routing is not a flood map (ROC AUC 0.52 against RESCCUE)"),
                  ("Volume only", "no sewer, no routing to outlets, no ponding, and no peak flow"),
                  ("The LiDAR LAI proxy is probably low", "so canopy storage is underestimated, and s is the same for every species"),
-                 ("H3 is true by construction", "with a full crown at every storm the falling percentage is arithmetic: I declare it a boundary"),
+                 ("One hypothesis withdrawn (19 Oct)", "H3 could not fail: with a full crown at every storm the falling percentage is arithmetic, so it is a declared boundary, not a test"),
                  ("Runoff may not separate the palettes", "if the best palette stays under Δmin = 91 m³ the runoff half of H1 is \"not resolved\" — which is still a result"),
                  ("Surface temperature ≠ pedestrian UTCI", "and the EPW is the airport, not the street; the design hour misses the night"),
                  ("Most palette species have no measured traits", "ranges and sensitivity instead — and that gap is itself a finding")):
@@ -698,6 +698,88 @@ def fig_limits_asks():
          "scripts/compare_resccue_runoff.py (AUC 0.52).")
 
 
+# ---- Slide 11. The research question, part by part
+def fig_research_question():
+    b = rect(60, 160, 1480, 340, INK, rx=12, op=0.05)
+    b += t(84, 206, "In Porta, as plane trees are replaced under the city's tree plan,", 26, MUTED)
+    b += t(84, 250, "which replacement species and positions jointly reduce", 30, INK, "bold")
+    b += rect(84, 278, 700, 96, HEAT, rx=10, op=0.10)
+    b += t(104, 310, "(a)  pedestrian heat stress", 23, HEAT, "bold")
+    b += t(104, 342, "mean UTCI over 12–17 h on a hot design day, sun-exposed routes", 19)
+    b += rect(816, 278, 700, 96, RAIN, rx=10, op=0.10)
+    b += t(836, 310, "(b)  event runoff volume", 23, RAIN, "bold")
+    b += t(836, 342, "sealed street surfaces, 1-, 2- and 10-year PDISBA design storms", 19)
+    b += t(84, 418, "How large is the trade-off between the two,", 30, INK, "bold")
+    b += t(84, 456, "compared with the current trees, a like-for-like replacement with the city's named palette, "
+                    "and single-objective layouts?", 22)
+    b += t(84, 484, "Without those three baselines the question is not answerable — they are scenarios S0, S1 and S2/S3.", 16, MUTED)
+
+    b += t(60, 560, "Every term is fixed before the runs", 18, TREE, "bold")
+    for i, (h, d) in enumerate((
+            ("WHERE", "Porta, Nou Barris: 0.84 km², 832 plane positions, the city's own replacement palette"),
+            ("WHAT IS CHOSEN", "one species per position — the positions themselves are given by the existing pits"),
+            ("AGAINST WHAT", "S0 the trees standing today · S1 like-for-like · S2/S3 each single-objective optimum"))):
+        x = 60 + i * 500
+        b += t(x, 598, h, 16, MUTED, "bold")
+        b += para(x, 628, d, 460, 19)[0]
+
+    b += rect(60, 700, 1480, 88, TREE, rx=12, op=0.08)
+    b += t(84, 736, "Changed on 19 Oct (your decision):", 18, TREE, "bold")
+    b += para(84, 766, "the heat metric is the 12–17 h mean, not the peak summer hour — at the peak even full shade "
+              "is above 32 °C in 5 of 6 afternoon hours, so the metric saturated and no layout could show a benefit.",
+              1430, 19)[0]
+    save("11_research_question", "The research question, part by part",
+         "v5, 19 Oct — what is chosen, against what, measured how", b,
+         "notes/topic_decision.md sections 7 and 8; notes/decisions/heat_objective.md (DECIDED 19 Oct); "
+         "notes/methodology.md section 7 (scenarios S0-S4).")
+
+
+# ---- Slide 12. Two hypotheses, and the one that was withdrawn
+def fig_hypotheses():
+    def row(y, color, tag, title, claim, test, note, dead=False):
+        h = 185
+        s = rect(60, y, 1480, h, color, rx=12, op=0.05 if dead else 0.07) + rect(60, y, 8, h, color, rx=0)
+        s += t(96, y + 40, tag, 17, color, "bold")
+        tt, _ = para(96, y + 78, title, 300, 25, fill=MUTED if dead else INK, weight="bold")
+        s += tt
+        if dead:
+            s += line(96, y + 70, 96 + 0.52 * 25 * min(len(title), 23), y + 70, MUTED, 2.5)
+        s += para(430, y + 44, claim, 520, 19, fill=MUTED if dead else INK)[0]
+        s += t(990, y + 30, "TEST" if not dead else "WHAT HAPPENS TO IT", 14, MUTED, "bold")
+        s += para(990, y + 58, test, 520, 18, fill=MUTED)[0]
+        if note:
+            s += para(430, y + 146, note, 1080, 17, fill=color, weight="bold")[0]
+        return s
+
+    b = row(158, TREE, "H1  ·  SYNERGY", "Both goals at once",
+            "For the same number and size class of trees, trait-based layouts beat a like-for-like replacement "
+            "on both objectives: crown size and LAI drive shading and interception alike.",
+            "S4 against S1, on both objectives.",
+            "Decision rule fixed first: Δmin = 91 m³. Today's exploratory best is 78 m³ → it would be reported \"not resolved\".")
+    b += row(360, HEAT, "H2  ·  TRADE-OFF", "Species, not places",
+             "The heat-optimal and the runoff-optimal layout differ mainly in species — leaf habit and "
+             "transpiration — so the Pareto front is not a single point.",
+             "Species composition of S2 against S3, at the same fixed positions.",
+             "Positions are given, so this is a claim about composition, measured by a dissimilarity fixed in advance.")
+    b += row(562, MUTED, "H3  ·  WITHDRAWN, 19 Oct", "Benefit shrinks with T",
+             "It was a hypothesis until the model showed it is an identity: with I = min(P, S) and every crown full "
+             "at every design storm, the falling percentage is arithmetic, not a result.",
+             "Kept as a declared validity boundary: the benefit is small at the sewer design level (T = 10 yr), and "
+             "extreme events such as 6 Sept 2018 are outside what trees can affect.",
+             None, dead=True)
+
+    b += rect(60, 752, 900, 70, INK, rx=12, op=0.06)
+    b += t(84, 780, "Removing it is a result, not a retreat", 19, INK, "bold")
+    b += t(84, 808, "a claim the model cannot fail is not a hypothesis", 17, MUTED)
+    b += rect(990, 752, 550, 70, WARN, rx=12, op=0.10)
+    b += t(1014, 780, "Question for the tutor", 17, WARN, "bold")
+    b += t(1014, 808, "is declaring it a boundary the right call?", 19)
+    save("12_hypotheses", "Two hypotheses — and the one I took out",
+         "H1 and H2 are testable; H3 was withdrawn on 19 Oct because the model cannot fail it", b,
+         "notes/topic_decision.md section 8 (v5, user decision 19 Oct); notes/decisions/hypothesis_tests.md; "
+         "notes/decisions/runoff_metric_sensitivity.md; notes/methodology.md section 7.")
+
+
 if __name__ == "__main__":
     OUT.mkdir(parents=True, exist_ok=True)
     fig_one_sentence()        # slide 2
@@ -708,6 +790,8 @@ if __name__ == "__main__":
     fig_traits()              # slide 8
     fig_gap()                 # slide 9
     fig_palette()             # slide 10
+    fig_research_question()   # slide 11
+    fig_hypotheses()          # slide 12
     fig_method()              # slide 13
     fig_transfer()            # slide 16
     fig_limits_asks()         # slide 17

@@ -128,3 +128,14 @@ Site justification: `notes/site_selection.md`. Primary user: a **computational d
 - **H3 (validity boundary):** the runoff benefit shrinks as the storm return period grows, and is small at the sewer design level (T = 10 yr). Extreme events like 6 Sept 2018 (≈300-yr 20-min intensity) are outside what trees can affect.
 
 **Test phase (later):** Sant Antoni (flood-dominant contrast site) and Florence (transfer case) run through the same method.
+
+## 8. v5 (19 Oct, user decisions): the heat metric, and H3 withdrawn
+Two decisions taken by the user on 19 Oct. **Everything else in §7 stands**; these two points supersede it.
+
+**1. Heat metric — decided.** The objective is the **mean UTCI over the 12–17 h window on a hot design day**, not UTCI at the peak summer hour. Reason: at the peak hour the metric saturates — on the hottest El Prat day even full shade is ≥ 32 °C in 5 of 6 afternoon hours, so a layout cannot show a benefit (`notes/decisions/heat_objective.md` §5). The hottest real day stays as a check. The RQ clause becomes:
+
+> …which replacement species and positions jointly reduce (a) pedestrian heat stress (**mean UTCI over 12–17 h on a hot design day**, along sun-exposed routes) and (b) event runoff volume from sealed street surfaces (1-, 2- and 10-year design storms from the PDISBA rainfall curves)? How large is the trade-off between the two, compared with the current trees, a like-for-like replacement with the city's named palette, and single-objective layouts?
+
+**2. H3 withdrawn — decided.** The thesis now has **two hypotheses, H1 and H2**. H3 ("the runoff benefit shrinks as the return period grows") is **not a hypothesis**: in the bucket model every crown is full at every design storm, so the falling percentage is an arithmetic consequence of `I = min(P, S)`, not a test (`notes/decisions/runoff_metric_sensitivity.md`; `notes/decisions/hypothesis_tests.md` §3.3). It is kept, explicitly, as a **declared validity boundary of the method**: the runoff benefit is small at the sewer design level (T = 10 yr) and extreme events such as 6 Sept 2018 (≈300-yr 20-min intensity) are outside what trees can affect.
+
+**How to present it:** say that H3 *was* among the hypotheses and was removed once the model showed it to be true by construction. Withdrawing it is a result about the method, not a retreat: it is the difference between a claim and an identity. Anything that still reads "supporting H3" or "as H3 predicts" is wrong and must say "consistent with the declared boundary" instead.
