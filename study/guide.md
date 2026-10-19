@@ -15,12 +15,12 @@ A condensed version of the thesis for **learning it**, not for writing it. Every
 **The logic chain (the tutor's order):** problem → why it matters → gap → research question → hypotheses → method (data, tools) → tool → first results → limits.
 
 ### What changed since 15 Oct (read this first if you studied the earlier version)
-- **A whole new chapter, §10 Transferability**, and with it **slide 10** of the talk: the code travels, the evidence does not. It is the answer to the tutor's "contribution to knowledge", so treat it as core, not as an appendix.
+- **A whole new chapter, §10 Transferability**, and with it **slide 16** of the talk: the code travels, the evidence does not. It is the answer to the tutor's "contribution to knowledge", so treat it as core, not as an appendix.
 - **The transfer city is decided: Mataró** (19 Oct), not a generic "Catalan city" and not Badalona. Reason: it is the only candidate with a **published design storm of its own** — borrowing Barcelona's IDF would make the transfer test circular (§10).
 - **Florence stays the first-choice transfer case** but its point cloud is request-only, and the *Life Escapos* dataset that looked like a way round it **failed** (its LAI column is synthetic) (§10).
 - **A negative result worth saying out loud:** **no Catalan city has a pluvial hazard map**. That is *why* Porta was the right place to calibrate (§10).
 - **One comparison you must not quote raw:** Mataró's design storm looks 19–32% drier than Barcelona's, but most of that gap is **method, not climate** — an envelope against a central estimate (§10).
-- **The two RM-seminar figures** (plane-tree map, shared cluster map) are **out of the tutor deck** and parked in `slides/seminar_rm/` (user decision, 19 Oct). The talk is 10 slides with figures `01-09`, three of them backups. More rehearsal time for the other slides.
+- **The talk was rebuilt on 19 Oct** to follow this guide's rhythm: **17 slides + 3 backups**, one idea each, with a written spoken script per slide (`slides/outline_20oct.md` v3; figure files are numbered by slide). The two RM-seminar figures (plane-tree map, cluster map) are **out of the tutor deck** and parked in `slides/seminar_rm/`.
 
 ### What changed since 9 Oct (older, keep for reference)
 - **A seventh candidate species:** *Styphnolobium japonicum* (user decision, 14 Oct). Its crown and LAI now come from a LiDAR sample outside Porta (§1, §9).
@@ -330,7 +330,7 @@ Sources: `notes/methodology.md` §4b, §6; `shade_sponge/README.md`.
 ---
 
 ## 10. Transferability: the code travels, the evidence does not
-Sources: `notes/transferability.md`, `notes/catalan_transfer_city.md` §1–§5b, `notes/city_transfer_candidates.md`, `databases/transfer_species_overlap.csv`. This is **slide 10** of the 20 Oct talk.
+Sources: `notes/transferability.md`, `notes/catalan_transfer_city.md` §1–§5b, `notes/city_transfer_candidates.md`, `databases/transfer_species_overlap.csv`. This is **slide 16** of the 20 Oct talk (`slides/outline_20oct.md` v3).
 
 **The one line:** the **code** is site-agnostic by construction, the **evidence is not**.
 - Constant-free kernels: flow routing (`topo.route`), sun position and crown-shadow geometry (`heat.sun`), SCS-CN (`runoff.scs`). As a *file*, only `topo.py` carries no local constant.

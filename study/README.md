@@ -37,11 +37,11 @@ Upload `guide.md` and the notes in `notes/` (`topic_decision.md`, `methodology.m
 
 ## Tonight and tomorrow morning (19–20 Oct)
 
-The chapter numbers moved on 19 Oct: **§10 is the new Transferability chapter**, so Limits is **§11**, tutor questions **§12**, glossary **§13**, key numbers **§14**, open decisions **§15**. The two RM-seminar figures (plane-tree map, cluster map) are **out of the tutor deck** and parked in `slides/seminar_rm/`, so the deck is 10 slides with figures `01-09`, two of which belong to backup slides (B1 tree pit, B2 the Catalan screening; B3 has no figure) — which buys rehearsal time for the rest.
+The chapter numbers moved on 19 Oct: **§10 is the new Transferability chapter**, so Limits is **§11**, tutor questions **§12**, glossary **§13**, key numbers **§14**, open decisions **§15**. The two RM-seminar figures (plane-tree map, cluster map) are **out of the tutor deck** and parked in `slides/seminar_rm/`, the deck was rebuilt on 19 Oct to follow this guide's rhythm: **17 slides plus 3 backups**, each with its spoken script, in `slides/outline_20oct.md` v3. Figure file numbers are now slide numbers (`slides/fig/NN_*.png`); slides 1, 4, 11, 12, 14 and 15 use a photo, a `notes/figures/` plot or plain text.
 
 | Block | ≈ time | Do |
 |---|---|---|
-| 1 | 20 min | Read **§10 Transferability** once, close it, answer its 7 **Check yourself** questions aloud. This is new material and it is slide 10, so it is the weakest part of the talk. |
+| 1 | 20 min | Read **§10 Transferability** once, close it, answer its 7 **Check yourself** questions aloud. This is new material and it is slide 16 of the talk, so it is the weakest part. |
 | 2 | 10 min | App → Cards, chapter **Transfer** only (20 new cards). Anything you miss, read back in §10, then repeat. |
 | 3 | 10 min | App → Quiz, mixed. Aim ≥ 90%. |
 | 4 | 15 min | Full run-through with the slides, timed (target 5:00; the script is ~5:17 at 140 wpm, so speak at your normal pace). |

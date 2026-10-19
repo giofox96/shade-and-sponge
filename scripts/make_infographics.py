@@ -3,7 +3,8 @@
 Numbers come from notes/lit/literature_matrix.csv, notes/lit/species_measurements.csv,
 databases/traits/porta_trait_table.csv and notes/methodology.md; every figure prints its sources.
 "*" = assessed from the abstract only. PNG export uses headless Edge/Chrome (no extra Python packages).
-Output: slides/fig/*.svg, slides/fig/*.png
+Output: slides/fig/*.svg, slides/fig/*.png. File numbers are the SLIDE numbers of slides/outline_20oct.md
+(so 04, 11, 12, 14 and 15 have no figure here: they use a photo, a notes/figures plot, or text).
 """
 import csv, os, re, shutil, subprocess, tempfile, pathlib, textwrap
 from xml.sax.saxutils import escape
@@ -127,7 +128,7 @@ def fig_lit_map():
     b += t(x, 540, str(len(rows) - n_full), 72, MUTED, "bold") + t(x, 572, "not yet read in full", 21, MUTED)
     tk, _ = para(1150, 650, "Two large literatures, runoff and heat. The bridge between them, species traits judged on "
                             "both goals at once, is thin: that is where this thesis sits.", 390, 21, weight="bold")
-    save("01_lit_map", "What the literature review covers", f"{len(rows)} sources screened in 9 themes (7-12 Oct 2026)",
+    save("05_lit_map", "What the literature review covers", f"{len(rows)} sources screened in 9 themes (7-12 Oct 2026)",
          b + tk, "notes/lit/literature_matrix.csv (OpenAlex / Semantic Scholar search, own screening).")
 
 
@@ -174,7 +175,7 @@ def fig_runoff_evidence():
         b += rect(x, y, 580, 130, RAIN, op=0.08) + rect(x, y, 6, 130, RAIN, rx=0)
         b += t(x + 28, y + 48, big, 32, RAIN, "bold") + t(x + 28, y + 82, sub, 17) + t(x + 28, y + 110, src, 14, MUTED)
         y += 148
-    save("02_runoff_evidence", "Trees intercept rain: species differ, and the effect fades with storm size",
+    save("06_runoff_evidence", "Trees intercept rain: species differ, and the effect fades with storm size",
          "Runoff side of the review (bucket B1-B2)", b,
          "notes/lit/species_measurements.csv (first-hand values only); literature_matrix.csv rows 1-3, 5, 7-11, 24, 32, 34. * abstract only.")
 
@@ -216,7 +217,7 @@ def fig_traits():
         y += 4
     tk, _ = para(60, y + 34, "Leaf area and crown size push both goals the same way; leaf habit and water use pull them apart. "
                              "Species choice therefore needs a multi-objective search, not a single score.", 1480, 21, weight="bold")
-    save("03_heat_runoff_traits", "Same tree, two jobs: which traits help both, and where they conflict",
+    save("08_heat_runoff_traits", "Same tree, two jobs: which traits help both, and where they conflict",
          "Heat and runoff evidence side by side (buckets B1, B7, B8)", b + tk,
          "literature_matrix.csv rows 1, 3, 6, 9-11, 13, 38-40, 42, 43, 45, 53, 56; Barcelona Resilience Atlas.")
 
@@ -248,7 +249,7 @@ def fig_gap():
             b += ball(x, y + 24, val, col, 15)
         y += 54
     b += legend_balls(60, y + 20)
-    save("04_gap_matrix", "No method yet chooses species and positions for heat and runoff together",
+    save("09_gap_matrix", "No method yet chooses species and positions for heat and runoff together",
          "Closest precedents from the review vs this thesis", b,
          "literature_matrix.csv rows 18, 28, 51-53, 56, 62, 69, 80 (all read in full). Half ball: Wu = surface temperature, not UTCI; "
          "Cortinovis = heat index, not UTCI; Hao = positions only; Shaamala = crown shape only; Peng = generic LAI classes. Tan: full ball, but crowns are allometric estimates for 5-year-old trees.")
@@ -296,7 +297,7 @@ def fig_palette():
     b += "".join(t(60, y + 44 + 18 * j, f"({k}) {v}", 14, MUTED) for j, (k, v) in enumerate(dict.fromkeys(notes.values())))
     tk, _ = para(60, y + 68 + 18 * len(set(notes.values())), "Crowns are measured by LiDAR for every candidate (Styphnolobium: city sample). Rain storage is measured for Pyrus only, "
                               "Celtis via a congener; cooling only modelled or second-hand. Gaps get trait proxies and sensitivity ranges.", 1480, 19, weight="bold")
-    save("05_palette_data_gap", "The replacement palette: crowns we can measure, rain and cooling mostly not",
+    save("10_palette_data_gap", "The replacement palette: crowns we can measure, rain and cooling mostly not",
          "Plane tree vs the six replacement species the city names, plus Styphnolobium (named in the press); all grow in Porta", b + tk,
          "databases/traits/porta_trait_table.csv (ICGC LiDAR 2021; 3TF v1.3; BROT 2.0; notes/lit/species_measurements.csv); "
          "Styphnolobium crown from styphnolobium_lidar_summary.csv (city-wide sample, no_merge_flag, n = 367). "
@@ -340,7 +341,7 @@ def fig_method():
         b += line(x1, y1, x2, y2, MUTED, 2.5, arrow=True)
     v, _ = para(60, 800, "Validation: interception vs Freiburg field data (done); runoff vs the Selbig 2021 field benchmark "
                          "(same order, done); Ladybug fast vs detailed runs; sensitivity on every assumed parameter.", 1480, 17, fill=MUTED)
-    save("06_method_pipeline", "Method: from LiDAR trees to a heat-runoff trade-off",
+    save("13_method_pipeline", "Method: from LiDAR trees to a heat-runoff trade-off",
          "Python modules + Grasshopper; status on 8 Oct 2026", b + v,
          "notes/methodology.md; scripts/bcn_lidar_porta.py, runoff_model.py, calibrate_interception.py.")
 
@@ -382,7 +383,7 @@ def fig_tree_system():
         y += hgt + 12
     tk, _ = para(60, 796, "Hypothesis for the extension: the pit could link the goals, turning street runoff into water for transpiration. Mixed evidence: "
                                 "trees transpired the equivalent of 17% of their catchment's runoff, but the trench did not raise it (Thom et al. 2020).", 1480, 19, weight="bold")
-    save("07_tree_system_backup", "If broader: from the crown to the tree as a system",
+    save("B1_tree_system", "If broader: from the crown to the tree as a system",
          "Backup slide: one added design variable (the pit), soil as a parameter, carbon as an output", b + tk,
          "Park et al. 2026 (transpiration vs shade); Pace et al. 2025 (soil moisture); Mannucci et al. 2025 (irrigation trade-off); "
          "data_inventory_barcelona.md A1, B4. Bartens et al. 2008; Marrazzo & Raimondi 2025; Grey et al. 2018; Thom et al. 2020, 2022 (all read).")
@@ -433,7 +434,7 @@ def fig_transfer():
         p, _ = para(x + 18, y + 48, txt, w - 36, 15, fill=INK)
         b += rect(x, y + 8, w, 112, col, rx=10, op=0.1) + t(x + 18, y + 34, head, 17, col, "bold") + p
         x += w + 20
-    save("08_transferability", "The code travels, the evidence does not",
+    save("16_transferability", "The code travels, the evidence does not",
          "What the method needs at a new site: Porta (calibration) vs three transfer options, verified 19 Oct", b,
          "data_inventory_barcelona.md A1, A3, A7, B1-B2, C4, D1-D2, G; data_inventory.md B1, B3, B5-B7, F1, F3, F5-F7; "
          "topic_decision.md 6.1 (trait coverage); methodology.md 4 validation (iii) (routing vs RESCCUE depth); "
@@ -500,7 +501,7 @@ def fig_catalonia_lidar():
                   "single clip, and a mission boundary runs through Porta's own tile.", 1470, 15, fill=INK)
     b += rect(45, 768, 1510, 70, WARN, op=0.08) + rect(45, 768, 6, 70, WARN, rx=0) + cav
 
-    save("09_catalonia_lidar_backup", "22 Catalan cities, screened on the one input that decides a transfer",
+    save("B2_catalonia_lidar", "22 Catalan cities, screened on the one input that decides a transfer",
          "ICGC Territorial LiDAR v3: the per-sheet metadata gives only the flight YEAR, so each date was read from "
          "PER-POINT GPS time in the cloud itself", b,
          "databases/catalonia_lidar_dates.csv (see its header). LIMIT: one 150x150 m clip per city (~0.0225 km2) in "
@@ -510,14 +511,205 @@ def fig_catalonia_lidar():
          "databases/traits/phenology_palette.csv. Full screening: notes/catalan_transfer_city.md.")
 
 
+# ---- Slide 2. The thesis in one sentence
+def fig_one_sentence():
+    def panel(x, w, col, head, lines, big=None):
+        s = rect(x, 180, w, 300, col, rx=12, op=0.08) + rect(x, 180, w, 6, col, rx=0)
+        s += t(x + 22, 218, head, 18, col, "bold")
+        yy = 262
+        if big:
+            s += t(x + 22, yy, big, 34, col, "bold")
+            yy += 46
+        for ln in lines:
+            p, hh = para(x + 22, yy, ln, w - 44, 19)
+            s += p
+            yy += hh + 12
+        return s
+
+    b = panel(60, 420, INK, "1  THE DECISION", [
+        "Which of 7 candidate species goes at each position, as the planes come out.",
+        "Positions are given: the existing pits."], "832 plane positions")
+    b += panel(590, 420, HEAT, "2  TWO SCORES, SEPARATELY", [
+        "f1  pedestrian heat stress: UTCI on a hot afternoon (the official RQ says the peak hour; I propose a 12–17 h mean \u2014 still your call).",
+        "f2  event runoff volume: design storms T = 1, 2 and 10 yr."])
+    b += panel(1120, 420, TREE, "3  THE ANSWER", [
+        "A Pareto front: every layout on it is optimal, and the shape of the front is the trade-off itself.",
+        "Plus the price of each goal, in the other."], "the trade-off")
+    for x1, x2 in ((490, 578), (1020, 1108)):
+        b += line(x1, 330, x2, 330, MUTED, 3, arrow=True)
+
+    b += rect(60, 520, 1480, 112, RAIN, rx=12, op=0.07)
+    b += t(82, 556, "CONSTRAINTS, NOT OBJECTIVES", 16, RAIN, "bold")
+    b += t(82, 592, "≤ 15% per species  ·  Shannon diversity floor  ·  no invasive or pest-host species  "
+                    "·  crown clearance from façades", 21)
+    b += t(82, 618, "The city's own rules bound the search; they are not things the optimiser trades away.", 16, MUTED)
+
+    b += t(60, 700, "What it is NOT", 18, WARN, "bold")
+    for i, (h, d) in enumerate((
+            ("not a flood model", "hotspots come from the city's own depth map, not from my routing"),
+            ("not a city-wide plan", "one 0.84 km² neighbourhood, calibrated, with the transfer cost stated"),
+            ("not a species ranking", "a layout is scored, not a species: the same tree is good or bad by where it stands"))):
+        x = 60 + i * 500
+        b += t(x, 740, h, 20, INK, "bold") + para(x, 772, d, 460, 17, fill=MUTED)[0]
+
+    save("02_one_sentence", "species × position → heat + runoff → trade-off",
+         "The whole thesis in one line, and its boundaries", b,
+         "notes/topic_decision.md section 7; notes/methodology.md sections 1, 6 and 7; shade_sponge/README.md.")
+
+
+# ---- Slide 3. Two hazards, one street, one decision
+def fig_problem():
+    def col(x, w, color, head, items):
+        s = rect(x, 170, w, 480, color, rx=12, op=0.08) + rect(x, 170, w, 6, color, rx=0)
+        s += t(x + 22, 208, head, 18, color, "bold")
+        yy = 258
+        for big, small in items:
+            s += t(x + 22, yy, big, 32, color, "bold")
+            p, hh = para(x + 22, yy + 32, small, w - 44, 18, fill=INK)
+            s += p
+            yy += 32 + hh + 26
+        return s
+
+    b = col(60, 480, RAIN, "RAIN", [
+        ("45% → 72%", "sealed surface of the municipality, 1956–2009"),
+        ("~3 storms a year", "exceed 60 mm/h in their first 20 minutes, and flood streets where the sewer lacks capacity"),
+        ("T = 10 yr", "is what the sewer is sized for, per the city resilience atlas: above that, the surface carries the water")])
+    b += col(570, 480, HEAT, "HEAT", [
+        ("among the highest", "urban-heat-island mortality burdens in Europe (Iungman et al. 2023)"),
+        ("UTCI > 32 °C", "strong heat stress for a pedestrian; on the hottest day even full shade is above it in 5 of 6 afternoon hours"),
+        ("+1.36 °C", "Porta's summer surface-temperature anomaly against the city")])
+    b += col(1080, 460, TREE, "THE DECISION ALREADY TAKEN", [
+        ("15%", "maximum share of any one species, under the tree master plan"),
+        ("27.6%", "share of Platanus x acerifolia among Barcelona's 145,176 street trees, and 29% inside Porta, so many must go"),
+        ("6 + 1 species", "named by the city as replacements, plus Styphnolobium from the press")])
+
+    b += rect(60, 684, 1480, 96, INK, rx=12, op=0.06)
+    b += t(82, 722, "The two hazards and the decision land on the same streets, in the same years.", 24, INK, "bold")
+    b += t(82, 756, "That is the opening: not \"trees are good\", but a replacement programme that has to be decided "
+                    "species by species, position by position.", 18, MUTED)
+    save("03_problem", "Two hazards, one street, one decision",
+         "Why this is a design decision and not a slogan", b,
+         "Barcelona Resilience Atlas (sealed surface, citing Barcelona Regional; storm frequency); notes/city_screening.md "
+         "(sewer return period); Iungman et al. 2023; Bröde et al. 2012 (UTCI classes); notes/site_selection.md "
+         "(Porta anomaly); tree master plan via BCNROC, databases/data_inventory_barcelona.md D1 (press figures conflict).")
+
+
+# ---- Slide 7. Heat evidence, and what the model cannot see
+def fig_heat_evidence():
+    def block(x, w, color, head, items):
+        s = rect(x, 170, w, 520, color, rx=12, op=0.08) + rect(x, 170, w, 6, color, rx=0)
+        s += t(x + 22, 208, head, 18, color, "bold")
+        yy = 250
+        for h, d in items:
+            s += t(x + 22, yy, h, 21, INK, "bold")
+            p, hh = para(x + 22, yy + 26, d, w - 44, 17, fill=MUTED)
+            s += p
+            yy += 26 + hh + 22
+        return s
+
+    b = block(60, 730, TREE, "WHAT A TREE ACTUALLY DOES", [
+        ("Shade, through mean radiant temperature",
+         "MRT is the term a crown changes most; the sun–shade UTCI gap on hot afternoons is 2.3–4.7 °C in full "
+         "shade — a lower bound for a real crown (scripts/heat_bounds.py)."),
+        ("Leaf area sets how much sun gets through",
+         "τ = exp(−k · LAI) with k = 0.5 (Beer–Lambert, as in Peng et al. 2026) — k is an ASSUMPTION: leaf-angle "
+         "differences alone moved MRT by up to 9.5 °C (Li 2023). Same geometry, "
+         "different species, different shade."),
+        ("Transpiration cools the air more — but needs water",
+         "1.15 °C against 0.43 °C for shade (Park 2026). In Porta it counts for less, on two separate Rahman et al. "
+         "(2019) findings: per leaf area transpiration is lowest in Mediterranean climates, and it is ~10x lower "
+         "for trees in paved pits than over grass."),
+        ("A heatwave can take the leaf area away",
+         "Platanus lost roughly 30–50% of its plant area index after a > 41 °C heatwave (Sanusi & Livesley 2020) "
+         "→ a low-LAI plane variant in the sensitivity runs.")])
+    b += block(830, 710, WARN, "WHAT THE MODEL CANNOT SEE (AND HOW I ANSWER IT)", [
+        ("Ladybug ignores evapotranspiration",
+         "so it likely underestimates vegetation cooling by about 2–3 °C UTCI (Mannucci et al. 2025). In a paved "
+         "Mediterranean street that error is smaller than elsewhere, which is why I accept it."),
+        ("Model error 1–2 °C",
+         "so I compare the ranking of layouts, not absolute degrees. The optimiser only ever needs the ranking."),
+        ("\"Share of points above 32 °C\" saturates",
+         "on the hottest El Prat day even full shade is ≥ 32 °C in 5 of 6 afternoon hours (2 of 6 on the hot-week day, "
+         "3 of 6 on the design day). So I propose mean UTCI over 12–17 h on a design cooling day — pending your decision."),
+        ("Night is outside the design hour",
+         "dense clusters trap heat at night (Zölch et al. 2019). Stated as a limit, not modelled.")])
+
+    b += t(60, 740, "So the heat objective is a ranking of layouts on a design afternoon — not a temperature forecast.",
+           24, INK, "bold")
+    b += t(60, 776, "A fast shade x transmissivity proxy scores every layout; Ladybug Tier 1 (point UTCI on a 2 m grid) "
+                    "and Honeybee Tier 2 check the shortlist. Infrared City would replace Tier 1 if access is granted.", 18, MUTED)
+    save("07_heat_evidence", "Heat: what a tree can do, and what my model cannot see",
+         "The evidence behind f1, and the honest boundary around it", b,
+         "notes/methodology.md sections 3 and 6; notes/decisions/heat_objective.md; notes/method_heat_validation.md; "
+         "Peng et al. 2026, Park 2026, Rahman et al. 2019, Mannucci et al. 2025, Sanusi & Livesley 2020, "
+         "Zölch et al. 2019, Bröde et al. 2012 (matrix ids in notes/lit/literature_matrix.csv).")
+
+
+# ---- Slide 17. Limits stated first, and the three things that would unblock the thesis
+def fig_limits_asks():
+    b = rect(60, 170, 860, 520, WARN, rx=12, op=0.07) + rect(60, 170, 860, 6, WARN, rx=0)
+    b += t(82, 208, "LIMITS I STATE BEFORE YOU ASK", 18, WARN, "bold")
+    yy = 246
+    for h, d in (("Hazard index, not water depth",
+                  "the site was chosen on an index; our own routing is not a flood map (ROC AUC 0.52 against RESCCUE)"),
+                 ("Volume only", "no sewer, no routing to outlets, no ponding, and no peak flow"),
+                 ("The LiDAR LAI proxy is probably low", "so canopy storage is underestimated, and s is the same for every species"),
+                 ("H3 is true by construction", "with a full crown at every storm the falling percentage is arithmetic: I declare it a boundary"),
+                 ("Runoff may not separate the palettes", "if the best palette stays under Δmin = 91 m³ the runoff half of H1 is \"not resolved\" — which is still a result"),
+                 ("Surface temperature ≠ pedestrian UTCI", "and the EPW is the airport, not the street; the design hour misses the night"),
+                 ("Most palette species have no measured traits", "ranges and sensitivity instead — and that gap is itself a finding")):
+        b += t(82, yy, h, 20, INK, "bold")
+        p, hh = para(82, yy + 25, d, 816, 17, fill=MUTED)
+        b += p
+        yy += 25 + hh + 14
+
+    b += rect(960, 170, 580, 520, TREE, rx=12, op=0.08) + rect(960, 170, 580, 6, TREE, rx=0)
+    b += t(982, 208, "WHAT WOULD UNBLOCK ME", 18, TREE, "bold")
+    yy = 252
+    for n, (h, d, st, sc) in enumerate(((
+            "The RESCCUE depth maps, usable in a thesis",
+            "the T10/T100 tables are public; what I lack is a licence statement for thesis use",
+            "asked 13 Oct, no reply", WARN), (
+            "Access to Infrared City",
+            "it would replace the fast heat proxy inside the optimiser, with Ladybug kept as the cross-check",
+            "you co-founded it", RAIN), (
+            "The Florence point cloud",
+            "the decisive missing input for the transfer case (Florence also has a 1 h IDF floor and an NC-ND licence)",
+            "request drafted, not sent", WARN))):
+        b += t(982, yy, f"{n + 1}.  {h}", 21, INK, "bold")
+        p, hh = para(982, yy + 27, d, 536, 17, fill=MUTED)
+        b += p + chip(982, yy + 27 + hh + 4, st, sc)
+        yy += 27 + hh + 56
+
+    b += t(60, 738, "Plan to 18 December", 18, INK, "bold")
+    weeks = (("21 Oct – 3 Nov", "LiDAR trees, trait table, runoff validation"),
+             ("4 – 17 Nov", "Ladybug Tier 1, heat proxy calibration"),
+             ("18 Nov – 1 Dec", "optimisation S2–S4, Tier 2 checks"),
+             ("2 – 10 Dec", "Sant Antoni and the transfer city, sensitivity"),
+             ("11 – 18 Dec", "booklet, figures, final presentation"))
+    for i, (wk, what) in enumerate(weeks):
+        x = 60 + i * 300
+        b += rect(x, 756, 282, 62, INK, rx=8, op=0.06)
+        b += t(x + 14, 780, wk, 16, INK, "bold") + para(x + 14, 800, what, 258, 14, fill=MUTED)[0]
+    save("17_limits_asks", "What I cannot do yet, and what would unblock me",
+         "Limits first, then three asks and the plan to 18 December", b,
+         "notes/methodology.md sections 10 and 11; notes/decisions/hypothesis_tests.md and runoff_metric_sensitivity.md; "
+         "notes/resccue_data_request.md; notes/firenze_lidar_request.md; notes/todo_manual.md; "
+         "scripts/compare_resccue_runoff.py (AUC 0.52).")
+
+
 if __name__ == "__main__":
     OUT.mkdir(parents=True, exist_ok=True)
-    fig_lit_map()
-    fig_runoff_evidence()
-    fig_traits()
-    fig_gap()
-    fig_palette()
-    fig_method()
-    fig_tree_system()
-    fig_transfer()
-    fig_catalonia_lidar()
+    fig_one_sentence()        # slide 2
+    fig_problem()             # slide 3
+    fig_lit_map()             # slide 5
+    fig_runoff_evidence()     # slide 6
+    fig_heat_evidence()       # slide 7
+    fig_traits()              # slide 8
+    fig_gap()                 # slide 9
+    fig_palette()             # slide 10
+    fig_method()              # slide 13
+    fig_transfer()            # slide 16
+    fig_limits_asks()         # slide 17
+    fig_tree_system()         # backup B1
+    fig_catalonia_lidar()     # backup B2
