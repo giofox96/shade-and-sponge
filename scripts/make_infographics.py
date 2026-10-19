@@ -160,9 +160,9 @@ def fig_runoff_evidence():
         lab = f"{r.lo:.3g}" if r.lo == r.hi else f"{r.lo:.3g}-{r.hi:.3g}"
         b += t(sx(r.hi) + 10, y + 26, lab + "%", 17, INK, "bold", halo=True)
         y += step
-    n1, _ = para(60, y + 70, "Surface storage varies threefold across 20 urban species, 0.51-1.81 mm per unit leaf + stem area; "
+    n1, _ = para(60, y + 58, "Surface storage varies threefold across 20 urban species, 0.51-1.81 mm per unit leaf + stem area; "
                              "Platanus 0.87, Pyrus calleryana 0.51 (Xiao & McPherson 2016). Metrics differ (event vs annual): "
-                             "read as ranges, not as a ranking.", 800, 16, fill=MUTED)
+                             "read as ranges, not as a ranking.", 1040, 14, fill=MUTED)
     b += n1
     x = 960
     b += t(x, 175, "...but the benefit fades as storms grow", 22, RAIN, "bold")
@@ -645,11 +645,10 @@ def fig_heat_evidence():
          "Zölch et al. 2019, Bröde et al. 2012 (matrix ids in notes/lit/literature_matrix.csv).")
 
 
-# ---- Slide 17. Limits stated first, and the three things that would unblock the thesis
+# ---- Slide 17. Limits stated first, and what would unblock the thesis
 def fig_limits_asks():
-    b = rect(60, 170, 860, 520, WARN, rx=12, op=0.07) + rect(60, 170, 860, 6, WARN, rx=0)
-    b += t(82, 208, "LIMITS I STATE BEFORE YOU ASK", 18, WARN, "bold")
-    yy = 246
+    items = ""
+    yy = 244
     for h, d in (("Hazard index, not water depth",
                   "the site was chosen on an index; our own routing is not a flood map (ROC AUC 0.52 against RESCCUE)"),
                  ("Volume only", "no sewer, no routing to outlets, no ponding, and no peak flow"),
@@ -658,28 +657,28 @@ def fig_limits_asks():
                  ("Runoff may not separate the palettes", "if the best palette stays under Δmin = 91 m³ the runoff half of H1 is \"not resolved\" — which is still a result"),
                  ("Surface temperature ≠ pedestrian UTCI", "and the EPW is the airport, not the street; the design hour misses the night"),
                  ("Most palette species have no measured traits", "ranges and sensitivity instead — and that gap is itself a finding")):
-        b += t(82, yy, h, 20, INK, "bold")
-        p, hh = para(82, yy + 25, d, 816, 17, fill=MUTED)
-        b += p
-        yy += 25 + hh + 14
+        items += t(82, yy, h, 20, INK, "bold")
+        para_svg, hh = para(82, yy + 25, d, 816, 17, fill=MUTED)
+        items += para_svg
+        yy += 25 + hh + 8
+    box_h = yy - 170 - 6
+    b = rect(60, 170, 860, box_h, WARN, rx=12, op=0.07) + rect(60, 170, 860, 6, WARN, rx=0)
+    b += t(82, 208, "LIMITS I STATE", 18, WARN, "bold") + items
 
-    b += rect(960, 170, 580, 520, TREE, rx=12, op=0.08) + rect(960, 170, 580, 6, TREE, rx=0)
+    b += rect(960, 170, 580, box_h, TREE, rx=12, op=0.08) + rect(960, 170, 580, 6, TREE, rx=0)
     b += t(982, 208, "WHAT WOULD UNBLOCK ME", 18, TREE, "bold")
-    yy = 252
-    for n, (h, d, st, sc) in enumerate(((
-            "The RESCCUE depth maps, usable in a thesis",
-            "the T10/T100 tables are public; what I lack is a licence statement for thesis use",
-            "asked 13 Oct, no reply", WARN), (
-            "Access to Infrared City",
-            "it would replace the fast heat proxy inside the optimiser, with Ladybug kept as the cross-check",
-            "you co-founded it", RAIN), (
-            "The Florence point cloud",
-            "the decisive missing input for the transfer case (Florence also has a 1 h IDF floor and an NC-ND licence)",
-            "request drafted, not sent", WARN))):
+    yy = 256
+    for n, (h, d) in enumerate((
+            ("The RESCCUE depth maps, usable in a thesis",
+             "the T10/T100 tables are public; what I lack is a licence statement for thesis use"),
+            ("Access to Infrared City",
+             "it would replace the fast heat proxy inside the optimiser, with Ladybug kept as the cross-check"),
+            ("The Florence point cloud",
+             "the decisive missing input for the transfer case (Florence also has a 1 h IDF floor and an NC-ND licence)"))):
         b += t(982, yy, f"{n + 1}.  {h}", 21, INK, "bold")
-        p, hh = para(982, yy + 27, d, 536, 17, fill=MUTED)
-        b += p + chip(982, yy + 27 + hh + 4, st, sc)
-        yy += 27 + hh + 56
+        para_svg, hh = para(982, yy + 27, d, 536, 17, fill=MUTED)
+        b += para_svg
+        yy += 27 + hh + 30
 
     b += t(60, 738, "Plan to 18 December", 18, INK, "bold")
     weeks = (("21 Oct – 3 Nov", "LiDAR trees, trait table, runoff validation"),
