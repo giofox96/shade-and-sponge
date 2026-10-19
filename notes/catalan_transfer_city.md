@@ -141,6 +141,23 @@ relay-side failure, not evidence that Mataró is serving**; and `apex` is not un
   merged to parent binomials they are **108 distinct species**. The colour sampling corrected two rows a visual read had wrong (*Populus simonii* and
   *Olea europaea* are `evitar`, not `restriccions`).
 
+### Where to re-download these (nothing large is in the repo)
+
+The two reachable assets were opened in a cloud container and are **not** committed — only the derived CSVs are.
+To get them on a local machine:
+
+| Asset | URL | Size |
+|---|---|---|
+| ICGC RTL 1:1000 **2D** GeoPackage (79,748 tree points + relief + contours, EPSG:25831) | `https://serveisweb.mataro.cat/visorSIG/images/RecursosVisor/SSIT/minisite/descarrega_productes/Cartografia_Topografica_1_1000_3D/gpkg2d.zip` | 92 MB zip → 215 MB `.gpkg` |
+| 3D edition of the same (not opened here) | same path, `gpkg3d.zip` | ~270 MB |
+| `melia.geojson`, the 1,064-tree joined sample | `https://serveisweb.mataro.cat/GeoMat/visor/geojsons/arbrat_alergies/melia.geojson` | 759 kB |
+| PDCLAM '03 sewer master plan (the IDF table, §5b) | `https://oficinavirtual.aiguesmataro.com/api/doc/F2104/pla-dir-clavegueram` | 676 kB, 71 pp |
+| The viewer source that wires `T_C_ARBRAT` | `https://serveisweb.mataro.cat/GeoMat/visor/js/parts/capes.js` | 410 kB |
+
+The 2016 *Pla Director de l'arbrat viari* PDF (the composition table) was found through the mataro.cat site
+search; its extracted table is committed as `databases/mataro/mataro_street_tree_species_2016.csv`, so the PDF
+itself is only needed to re-verify a row. Raw downloads belong in a gitignored `databases/mataro/raw/`.
+
 ### Species overlap with Porta — Mataró beats Florence
 
 Running Mataró through the existing `scripts/transfer_species_overlap.py` (top-30, same `MIN_N = 5` bar):
