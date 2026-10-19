@@ -1,6 +1,6 @@
 # The Catalan fallback transfer city: screening of 18+ municipalities
 
-*18 Oct 2026. Fallback to Florence (`notes/firenze_lidar_request.md`), whose point cloud must be requested. Criteria and their severity order from `notes/transferability.md` §2–3. Everything below was established by opening the document, the API or the point cloud itself; status marks as in the inventories.*
+*18 Oct 2026; design rainfall added 19 Oct (§5b). Fallback to Florence (`notes/firenze_lidar_request.md`), whose point cloud must be requested. Criteria and their severity order from `notes/transferability.md` §2–3. Everything below was established by opening the document, the API or the point cloud itself; status marks as in the inventories.*
 
 ## Verification status (18 Oct 2026) — READ FIRST
 A six-domain adversarial fact-check was run in full (two domains first, four after the account limit reset). Outcome per section:
@@ -12,9 +12,10 @@ A six-domain adversarial fact-check was run in full (two domains first, four aft
 | §3 — tree inventories | ⚠️ **corrected.** Badalona and Reus are *not* unreachable; "verified absent" held for only 8 of 11; the "never geometry" claim was too strong |
 | §4 — dual hazard | ⚠️ **corrected.** A wrong rainfall figure, two merged Badalona events, and Badalona's 2025 event re-measured as a low-intensity winter frontal event |
 | §5 — policy drivers | ⚠️ **heavily corrected.** The DIBA/Santamour attribution was wrong, Sabadell's figures are a conference deck not an approved plan, Girona's denominator was wrong |
-| §6 — recommendation | ❌ **re-derived.** Badalona no longer leads; see §6 |
+| §6 — recommendation | ❌ **re-derived twice.** Badalona no longer leads; after §5b, Mataró leads outright |
+| §5b — design rainfall | ✅ **verified against primary sources, 19 Oct.** Mataró's Gumbel and IDF tables read from PDCLAM '03 itself and regenerated from its own printed formula to 0.0107% across 48 cells; Barcelona's P̄ = 68 / Cv = 0.46 and Tabla 7.1 read from the 1999 monograph |
 
-**§1 and §2 are citable to the tutor. §3–§6 are now corrected but thinner than the first draft claimed.**
+**§1, §2 and §5b are citable to the tutor. §3–§6 are now corrected but thinner than the first draft claimed.**
 
 ## 0. The headline, including the bad news
 **Criterion 2 fails for the whole of Catalonia.** The ACA's 3rd-cycle pluvial product, approved 15 July 2026, is a **list of 44 municipalities** whose ARPSI polygon **is the administrative boundary** — Annex 8 §3.3, verbatim: *"les ARPSI pluvials no es defineixen a partir de criteris hidrològics (conques) o hidràulics (eixos de drenatge), sinó a partir dels límits administratius del municipis"* (the missing *s* is the source's own typo) — with no extent, no depth and no return period. No 3rd-cycle MAPRI exists — ACA says MAPRI and PGRI *"es troben actualment en fase d'elaboració"*; a 2027 date for homologated **inundable-zone** (not pluvial) cartography comes from press coverage of a parliamentary committee statement of 12 Nov 2025, **not from any ACA document**. The one pluvial ARPSI that ever had a modelled depth map (CRT Vila-seca i Salou, 8.54 km², HEC-HMS 3.3 + IBER 2.2) is **proposed for deletion** in the APRI phase, though its maps still stand. The **2018 (2nd-cycle)** fluvial-pluvial classification rested on a quantitative layer — the ZDD, *zones de dificultat de drenatge* — taken from an *"estudi inèdit de TRAGSATEC"* and never published (2nd-cycle APRI Annex 05 §3.2.1 and footnote 4). The 3rd cycle instead derives its "Pluvial-fluvial" typology simply from the presence of a fluvial TRI.
@@ -23,7 +24,7 @@ A six-domain adversarial fact-check was run in full (two domains first, four aft
 
 The 44-list is still worth a lot: it is an authoritative, euro-quantified **pre-filter** with per-municipality damages and two risk indices, and a citable justification that pluvial flooding is a real municipal problem in the chosen city.
 
-**Recommendation: Badalona**, subject to one 30-minute check the user must do (§6).
+**Recommendation: Mataró** (§6), on three independent pillars — it is in the ACA 44, it has a leaf-on classified cloud, and after the 19 Oct design-rainfall check (§5b) it is the only finalist with a **published city design storm**. One user-side check remains, on its tree inventory.
 
 ## 1. LiDAR flight dates and classification — the most valuable result
 Criterion 1 decided more here than anywhere else, and it could be settled **exactly**. The ICGC per-sheet metadata carries only the flight *year*, but every point stores absolute GPS time. Via the ICGC's own clip service the screening read the per-point date and classification over 22 city centres. **Control: the Porta clip returned 2021-09-26 for 100% of 867,739 points, reproducing the date the repo had already derived independently** (`databases/data_inventory_barcelona.md` §G) — so the method is cross-checked against our own ground truth.
@@ -107,9 +108,108 @@ No Catalan municipality outside Barcelona has a single document mapping both haz
 - **L'Hospitalet** — the only formally approved one: *Pla Director del Verd Urbà 2018–2028* (532 pp, Junta de Govern Local, April 2019), states the 15% maximum, records *Platanus × hispanica* at 17.07% and *Ulmus* at 15.94% of 16,448 street trees (both over the cap). Four of the thesis's seven palette species are already in its top ten.
 - **Girona** — newest and most demanding: *Pla Director de l'Arbrat Urbà*, definitive 9 May 2025, imposes 5-10-15 city-wide with 10-20-30 per neighbourhood, restricts *Celtis australis* (its commonest species) and classes **7,497 positions = 20% of the whole inventory** (EV 3,084 / AV 4,413) as Low or Very Low suitability — of which the **4,413 street trees are 32% of the street-tree stock** (13% in green spaces). The earlier note applied the 32% to the wrong denominator.
 
+## 5b. Design rainfall / IDF (criterion 5) — checked 19 Oct, and it decides the city
+
+This was the last open hole in §7. Four routes were checked for both finalists: the ACA, Meteocat, the
+municipal drainage master plans, and the Spanish national route. **Mataró has a complete published design
+storm; Badalona has none.** That is a third independent pillar for Mataró, and the only one that bears
+directly on the runoff module's inputs rather than on its calibration data.
+
+### What each route gives
+
+| Route | Badalona | Mataró | Shortest duration |
+|---|---|---|---|
+| ACA, *Guia tècnica* 2003 | method only | method only | 1 h published (Fig. 2.18 is dimensionless, 0–24 h, no table); its own floor is Tc ≥ 0.25 h |
+| Meteocat *Corbes IDF municipal* | ✅ table, T = 2–500 | ✅ table, T = 2–500 | **60 min** — Meteocat states the method "tan sols permet obtenir la relació IDF a una resolució temporal màxima d'una hora" |
+| Municipal master plan | ❌ none public | ✅ **PDCLAM '03, full numeric table** | **5 min** |
+| Spanish national (1999 + 5.2-IC) | derivable | derivable | 60 min anchored; below that is extrapolation |
+
+**Mataró — PDCLAM '03** (CLABSA for Aigües de Mataró, 2003, Memòria p. 28) prints intensities in mm/h for
+durations 5–120 min in 5-min steps × T = 1/2/5/10/50/100/500/1000. It covers the module's 10/20/30/60 min grid
+natively, with no extrapolation, and goes finer than Barcelona's own PDISBA table, which stops at 10 min.
+The plan also prints its construction — Gumbel on annual daily maxima (quantiles on p. 26) plus the MOPU 1990
+form of Instrucción 5.2-IC with I1/Id = 11 — so the curve can be *regenerated* at any duration rather than
+interpolated: `scripts/make_mataro_idf.py` reproduces all 48 checked printed cells to within **0.0107%**.
+→ `databases/mataro/mataro_idf_city.csv`.
+
+**Badalona has no design rainfall of its own.** Its Pla Director de Clavegueram is mid-revision and neither the
+plan, its memòria nor any environmental assessment is public. The one peer-reviewed study of Badalona's own
+calibrated 1D/2D model (Martínez-Gomariz et al., *Water* 2019, 11(12):2658, CC BY 4.0, BINGO project) drives it
+with **Barcelona's Fabra IDF curves**, justified by proximity. That is a citable precedent, but it makes a
+transfer test partly circular: we would be "transferring" to a city whose design rainfall is by assumption the
+one we started from. Three independent third-party estimates of Badalona's T = 10 / 60 min span a factor of
+**1.94** (38.2 / 48.7–50.2 / 62.5 / 74.0 mm/h), so there is no defensible way to pick one.
+
+### Two constraints this puts on the module
+
+**1. T = 1 yr is not obtainable for any transfer city, on any route.** Meteocat starts at T = 2; the 1999
+monograph's Tabla 7.1 starts at T = 2; the ACA isomàximes product starts at T = 10. And PDCLAM's column headed
+"T = 1" is really the Gumbel **T = 1.001** limit (P24h = 13.41 mm, verified against the plan's own quantile
+table) — 15.99 mm/h at 10 min against Barcelona's 51.6, i.e. 0.27–0.31× where T = 2 and T = 10 sit at a
+plausible 0.68–0.85×. **It must not be fed to the module.** Either run the transfer test at T = 2 and T = 10
+only, or construct T = 1 for *both* cities by the same partial-duration-series route — never for one city only.
+The CSV encodes that column as `T_years = 1.001`, not `1`, so it cannot be picked up by accident.
+
+**2. Published Mataró numbers must not be put straight next to published Porta numbers.** The two are not the
+same kind of quantity:
+
+- PDISBA's `design_intensity_mmh` is an **envelope** across gauges (at T = 10 / 60 min: design 62.53 vs
+  across-gauge mean 50.57 mm/h, i.e. +24%), derived from actual pluviograph records and carrying a climate uplift.
+- Mataró's is a **central** Gumbel estimate from daily maxima compiled in 1993, with the sub-daily shape supplied
+  analytically, and the plan states it assumes stationarity (*"s'assumeix l'estacionarietat a llarg termini de les
+  mitjanes de precipitació"*). PDCLAM's Pd(T10) = 99.28 mm is 15–18% below both modern daily products at the same place.
+
+Compared raw, Mataró looks 19–33% drier than Porta, and **duration-dependently so** — which reads exactly like a
+real climatological difference:
+
+| T = 10 yr | 10 min | 20 min | 30 min | 60 min |
+|---|---|---|---|---|
+| Mataró published (mm/h) | 118.38 | 82.62 | 66.15 | 44.28 |
+| Porta PDISBA design (mm/h) | 146.83 | 117.69 | 97.96 | 62.53 |
+| ratio, raw | 0.81 | 0.70 | 0.68 | 0.71 |
+| ratio, like-for-like | **0.93** | **0.93** | **0.93** | **0.93** |
+
+The bottom row is the finding. Rebuild Barcelona's design storm by the *same* construction used for Mataró
+(Gumbel daily maxima + MOPU 1990, from the 1999 monograph's own published Barcelona point values P̄ = 68 mm/day,
+Cv = 0.46, Tabla 7.1 Yt(0.46, T10) = 1.564) and the duration dependence **vanishes exactly**. It has to: both
+cities sit in the same I1/Id = 11 region, so the duration factor is literally the same number at both ends and
+cancels. Under that construction the entire city-to-city difference collapses to the ratio of daily depths —
+0.93 at T = 10, and 1.00 at T = 2.
+
+So roughly two-thirds of the apparent "Mataró is ~30% drier" gap is **method, not climate**. Two consequences,
+and the second is uncomfortable:
+
+- The thesis must harmonise before comparing, and say which construction it used. Recommended: rebuild Porta's
+  storm the Mataró way and run the transfer on that pair, reporting PDISBA as a sensitivity case.
+- **The Témez/MOPU route carries no independent sub-hourly information about either city.** Its 10–60 min shape
+  comes entirely from one national 4-class constant, and no sub-hourly observation from either transfer city
+  enters anywhere. That is a real limitation to state plainly, not to bury: for the *transfer city*, the
+  sub-hourly design storm is an assumption, whereas for Porta it is measured.
+
+### Smaller findings worth keeping
+
+*Provenance: unlike the rest of §5b, the bullets below were **reported by the route agents and not yet re-read against a primary source in this repo**. The Mataró and Barcelona figures above were verified directly — PDCLAM '03's own Gumbel and IDF tables, the 1999 monograph's Tabla 7.1 rendered from the page image, and `databases/barcelona/pdisba_idf_city.csv`. Treat the bullets as leads, cite none of them to the tutor without opening the source.*
+
+- Meteocat's municipal IDF tempts you to extrapolate below 1 h with its published β exponent. **Do not.** Tested
+  against PDISBA at Barcelona, the error is +1% at 60 min, +13% at 30 min, +30% at 20 min and **+82% at 10 min**
+  (T = 10). The method downscales *from* 24 h, so the Mediterranean convective sub-hourly peak is not in it.
+- **Station coverage favours Badalona**, for what it is worth: XEMA *WU "Badalona – Museu"* sits 0.2 km from the
+  centre with 20 complete years, while Mataró's own station *YV* only opened 11 Jun 2025 and any Mataró fit needs
+  an inland proxy. This is the one design-rainfall criterion Badalona wins, and it is outweighed by having no
+  published design storm at all.
+- A **large unexplained discrepancy at Badalona**: Meteocat's municipal IDF gives T10/1 h = 74.0 mm, 1.9× a Gumbel
+  fit to its own in-town station (38.2 mm) and well above both Barcelona (63.4) and Mataró (61.2), while the three
+  T = 2 values are effectively identical. Unresolved; another reason not to build on Badalona.
+- Mataró's printed *hyetograph* table (Taula 1.7.3.3.4) is internally inconsistent with its own IDF at T = 2
+  (peak 5-min blocks average 43.36 mm/h where the IDF gives 72.271 at 10 min). Use the IDF table and regenerate
+  hyetographs; the T = 1, 5 and 10 columns of the hyetograph check out.
+- PDCLAM '03 states **no reuse licence**. Cite it as a document; keep the PDF out of the repo.
+- CEDEX's CAUMAX v3.0 (Feb 2025) national 500 m grid is **NoData over the whole Catalan internal basins** —
+  nearest valid cell 67 km from Badalona, 78 km from Mataró. The convenient modern product has a hole exactly here.
+
 ## 6. Recommendation — re-derived after the fact-check
 
-**Changed: Badalona no longer leads. Mataró and Badalona are joint-first, with the portal check as an explicit gate, and Mataró is the better bet on the merits.**
+**Changed twice. After the fact-check, Badalona lost the lead and the two were joint-first. After the 19 Oct design-rainfall check (§5b), Mataró leads outright: it is the only finalist with a design storm of its own, and Badalona's only route to one is to borrow Barcelona's, which makes the transfer test circular.** The tree-inventory portal check is now the single remaining gate, and it is a gate on Mataró rather than a tie-breaker between two.
 
 The first draft put Badalona first on two pillars. The fact-check left one standing and knocked the other down:
 
@@ -128,13 +228,13 @@ The first draft put Badalona first on two pillars. The fact-check left one stand
 **So:**
 1. **Check Mataró's portal first** (`https://apex.mataro.org/dadesobertes`). If it has a species-level inventory, **Mataró is the transfer city.**
 2. **Then Sabadell** (`https://dadesobertes.sabadell.cat/ca/dataset?q=arbrat`) — weakest on hazard, strongest on the decision problem, though now known to be a proposal rather than policy.
-3. **Badalona stays on the shortlist** but leads on nothing except mission-day convenience, and its inventory is probably absent. Keep it as the fallback *if* a tree layer turns up behind its geoportal.
+3. **Badalona drops to last among the finalists.** It leads on nothing except mission-day convenience and XEMA station coverage, its inventory is probably absent, and §5b shows it has no design rainfall of its own — the one input the runoff module cannot assume. Keep it only if Mataró's inventory check fails *and* a tree layer turns up behind its geoportal, and if so, state the circularity explicitly.
 4. **Castelldefels re-enters the comparison**, having been wrongly excluded by the "marginal" leaf-on label: it is the **second-highest-damage municipality** (€6,826,265, typed plainly *Pluvial*) on leaf-on October tiles. Its real blocker is criterion 3 — **no tree dataset among its 25 AOC datasets** — and a 2022 rather than 2021 flight year.
 
 **Do not pick Girona or L'Hospitalet** despite theirs being the only inventories downloadable today: L'Hospitalet is not in the 44 and ACA types it fluvial; Girona's clip came back unclassified, it is not in the 44 either, and its only heat map is 300 m per pixel.
 
 ## 7. Holes this screening did not close
-- **Criterion 5 (design rainfall / IDF) was never checked for any Catalan city.** A silent hole, not a negative finding. Start from Meteocat XEMA series and any ACA IDF curves for the chosen municipality.
+- ~~Criterion 5 (design rainfall / IDF) was never checked for any Catalan city.~~ **Closed 19 Oct — see §5b.** Mataró has a full published design storm, Badalona has none, and the Porta/Mataró comparison needs harmonising before it means anything.
 - **The licence of the ACA GIS layers is unknown.** `https://sig.gencat.cat/ows/AIGUA/wms` (layer `AIGUA_PLUVIAL_ARPSI`) rejects this container's user agent; open it locally.
 - **The four unclassified clips** (Girona, Vic, Manresa, Figueres) may be an artefact of the clip service; re-check against the published `datacloud` tile before treating them as unclassified.
 - **Correction to carry forward:** Sabadell's street-tree master plan is documented in a **2021** municipal presentation (APEVC, 18 Feb 2021), **not approved in 2019** — an earlier note in this repo said 2019 and that is withdrawn.
