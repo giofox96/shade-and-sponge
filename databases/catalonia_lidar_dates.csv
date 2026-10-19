@@ -1,0 +1,39 @@
+# ICGC Territorial LiDAR v3 (2021-2023, >=8 pts/m2 nominal, classified, CC BY 4.0): per-city flight date and
+# classification, read from PER-POINT absolute GPS time. The ICGC per-sheet metadata carries only the flight YEAR,
+# so the date was obtained by clipping the point cloud itself through the ICGC clip service and histogramming
+# GPS time and ASPRS class.
+# PROVENANCE AND LIMITS, state these wherever the table is used:
+#   - Each row is ONE 150x150 m clip at the city centre (n_spots > 1 where several were sampled), i.e. ~0.0225 km2
+#     in municipalities of 10-100+ km2. Read the date as "at the sampled clip", not "the city".
+#   - The table's own data shows why: Rubi and Granollers split missions INSIDE one clip, Reus splits over ~1 km,
+#     a second Figueres clip adds a mission, and a mission boundary runs through Porta's own tile 431586.
+#   - Densities exclude the class-12 overlap strips, to be comparable with Porta's >=8 pts/m2.
+#   - CONTROL: the Porta clip (200x200 m, 430800-431000 / 4586800-4587000) returned 867,739 points, 100% 2021-09-26,
+#     agreeing with the date the repo derived by a different route from the datacloud tiles (data_inventory_barcelona.md
+#     section G). Agreement across delivery routes, not an independent measurement.
+#   - Leaf-on judged against databases/traits/phenology_palette.csv (m05-m10 = 1 for all eight palette species).
+# Source run: notes/catalan_transfer_city.md section 1, 18 Oct 2026. Not reproducible from a committed script yet.
+city,flight_date,second_date,leaf_on,classified,density_excl_overlap,n_spots,sample_e,sample_n,tile_id1k,tile_id10k,note
+Badalona,2021-09-26,,yes,yes,12.3-15.7,3,437157,4589005,437589,4358,same mission day as Porta
+Santa Coloma de Gramenet,2021-09-26,,yes,yes,12.9,3,433839,4589264,433589,4358,same mission day as Porta; Porta's 10 km block
+Sant Cugat del Valles,2021-09-26,,yes,yes,13.5,1,423620,4591395,423591,4259,same mission day as Porta
+Reus,2021-09-17,2021-08-01,yes,yes,11.8-14.1,3,341800,4556600,341557,3455,southern spot splits between both dates
+Vilanova i la Geltru,2021-08-01,,yes,yes,12.0,1,393211,4564436,393564,3956,
+Tarragona,2021-07-27,,yes,yes,11.7-15.8,3,353430,4553264,353553,3555,
+Igualada,2021-07-21,,yes,yes,12.3,1,384756,4603928,384603,3860,
+Sabadell,2021-07-20,,yes,yes,10.3-14.0,3,425650,4599790,425599,4259,
+Terrassa,2021-07-20,,yes,yes,14.2-17.9,3,417463,4601747,417601,4160,densest urban core sampled
+Mataro,2021-07-20,,yes,yes,12.5-13.6,2,453698,4598833,453598,4559,third spot fell over water
+Rubi,2021-07-20,2021-09-26,yes,yes,12.8,1,419122,4594017,419594,4159,two missions inside one clip
+Granollers,2021-06-26,2021-07-20,yes,yes,13.3,1,440610,4606512,440606,4460,two missions inside one clip
+Tortosa,2021-07-19,,yes,yes,11.9,1,290909,4520723,290520,2952,very low vegetation point share in this clip
+L'Hospitalet de Llobregat,2022-06-01,,yes,yes,11.7,1,424698,4579079,424579,4257,different campaign year from Porta
+Cornella de Llobregat,2022-06-01,,yes,yes,12.7,1,422216,4578602,422578,4257,different campaign year from Porta
+Lleida,2022-05-23,,yes,yes,14.3,1,302257,4609732,302609,3060,earliest leaf-on date in the set
+Castelldefels,2022-10-01,,yes,yes,12.8,1,414303,4570357,414570,4157,October is leaf-on per phenology_palette.csv
+El Prat de Llobregat,2022-10-01,,yes,yes,12.1,1,424106,4575875,424575,4257,October is leaf-on per phenology_palette.csv
+Girona,2021-08-26,,yes,no,,1,,,,,unclassified in the clip: classes 0/24/104/135 only
+Vic,2023-07-19,,yes,no,,1,,,438642,4364,unclassified; only 2023 tile found
+Manresa,2021-11-18,,no,no,,1,,,402619,4061,leaf-off AND unclassified
+Figueres,2021-04-24,2021-05-04,partly,no,,2,,,496679,4967,unclassified; leaf-on for 6 of 8 palette species
+Porta Barcelona (control),2021-09-26,,yes,yes,,1,430800,4586800,,4358,200x200 m clip; 867739 points = 21.7 pts/m2 ALL classes (not comparable with the excl-overlap column); reproduces the repo's own date

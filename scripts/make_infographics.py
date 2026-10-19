@@ -5,7 +5,7 @@ databases/traits/porta_trait_table.csv and notes/methodology.md; every figure pr
 "*" = assessed from the abstract only. PNG export uses headless Edge/Chrome (no extra Python packages).
 Output: slides/fig/*.svg, slides/fig/*.png
 """
-import csv, re, shutil, subprocess, tempfile, pathlib, textwrap
+import csv, os, re, shutil, subprocess, tempfile, pathlib, textwrap
 from xml.sax.saxutils import escape
 import pandas as pd
 
@@ -76,14 +76,18 @@ def save(name, title, subtitle, body, source):
 
 
 def to_png(svg):
-    exe = next((e for e in (r"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe",
-                            r"C:\Program Files\Google\Chrome\Application\chrome.exe",
-                            shutil.which("msedge"), shutil.which("chrome")) if e and pathlib.Path(e).exists()), None)
+    """Headless Edge/Chrome/Chromium screenshot. Windows first (the user's machine), then the Chromium a cloud session has."""
+    cand = [r"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe",
+            r"C:\Program Files\Google\Chrome\Application\chrome.exe",
+            shutil.which("msedge"), shutil.which("chrome"), shutil.which("chromium")]
+    cand += sorted(str(p) for p in pathlib.Path("/opt/pw-browsers").glob("chromium*/chrome-linux/chrome"))
+    exe = next((e for e in cand if e and pathlib.Path(e).exists()), None)
     if not exe:
         print("  no Edge/Chrome found: PNG skipped")
         return
+    flags = [] if os.name == "nt" else ["--no-sandbox"]          # headless Chromium refuses to start as root otherwise
     with tempfile.TemporaryDirectory(ignore_cleanup_errors=True) as prof:   # Edge may still hold profile files
-        subprocess.run([exe, "--headless", "--disable-gpu", "--hide-scrollbars", f"--user-data-dir={prof}",
+        subprocess.run([exe, "--headless", "--disable-gpu", "--hide-scrollbars", f"--user-data-dir={prof}", *flags,
                         f"--screenshot={svg.with_suffix('.png')}", f"--window-size={W},{H}",
                         "--force-device-scale-factor=2", svg.as_uri()], capture_output=True, timeout=60)
 
@@ -384,6 +388,128 @@ def fig_tree_system():
          "data_inventory_barcelona.md A1, B4. Bartens et al. 2008; Marrazzo & Raimondi 2025; Grey et al. 2018; Thom et al. 2020, 2022 (all read).")
 
 
+# ---- 8. Transferability: what a new site costs
+def fig_transfer():
+    cities = [("Barcelona", "calibration", TREE, 730), ("Florence", "1st choice", WARN, 860),
+              ("Mataro", "fallback", RAIN, 990), ("Bologna", "dropped", MUTED, 1120)]
+    b = "".join(t(x, 196, name, 19, col, "bold", "middle") + t(x, 216, sub, 14, MUTED, anchor="middle")
+                for name, sub, col, x in cities)
+    b += t(1180, 206, "What it costs to move the method", 17, INK, "bold")
+    rows = [("Boundary, buildings, DTM", "domain, building shadows, flow routing", [1, 1, 1, .5],
+             "OSM plus a municipal or national terrain product nearly everywhere"),
+            ("Tree inventory: species + position", "baseline stock and the positions to replace", [1, 1, .5, 1],
+             "140,404 / 82,324 / 87,285 trees. Mataro: species and positions published, but in separate files"),
+            ("Classified leaf-on point cloud", "crown, crown base, LAI proxy from gap fraction", [1, 0, 1, .5],
+             "THE binding input. Florence has rasters only; ICGC covers all Catalonia"),
+            ("Design rainfall (IDF)", "design storms T = 2, 10 yr (T = 1 only in Barcelona)", [1, 1, 1, 0],
+             "Barcelona PDISBA, Florence a 1 km a-n grid, Mataro a full 5-120 min table of its own"),
+            ("Pluvial flood map", "where runoff matters: the hotspot target", [1, .5, 0, 0],
+             "NO Catalan city has one: the ACA pluvial polygon IS the municipal boundary"),
+            ("Weather file (EPW)", "UTCI inputs and design hours", [1, .5, 1, .5],
+             "TMYx verified for Spain; the airport-vs-centre bias is a stated limit everywhere"),
+            ("Measured species traits", "trait table and gap-filling classes", [.5, .5, .5, .5],
+             "40% in Barcelona, 19% in Florence. Porta-measured species cover 52% of Mataro streets"),
+            ("Leaf calendar + storm season", "LAI per month, storm weighting", [1, .5, 1, .5],
+             "City-specific - but Mataro inherits Barcelona's calendar and storm months unchanged"),
+            ("Policy cap + replacement palette", "the feasible species set", [.5, .5, .5, .5],
+             "The 15% cap is Barcelona's own; Sabadell proposes one, Florence has none")]
+    y = 238
+    for name, sub, v, cost in rows:
+        hard = v[1] < 1 or v[2] < 1
+        b += rect(45, y - 6, 1510, 50, WARN if hard else TREE, op=0.07)
+        b += t(60, y + 16, name, 19, INK, "bold") + t(60, y + 36, sub, 15, MUTED)
+        for (_, _, col, x), val in zip(cities, v):
+            b += ball(x, y + 20, val, col, 14)
+        p, _ = para(1180, y + 24, cost, 370, 15, fill=INK)
+        b += p
+        y += 52
+    for i, (val, lab) in enumerate(((1, "available"), (0.5, "to confirm / to derive"), (0, "looked for, not found"))):
+        b += ball(66 + i * 160, y + 24, val, INK, 10) + t(84 + i * 160, y + 30, lab, 14, MUTED)
+    cards = [("SITE-AGNOSTIC KERNELS", TREE, "flow routing · sun and shadow geometry · SCS-CN runoff"),
+             ("LOCAL IN EVERY DATA MODULE", WARN, "site adapter · design days and OP_BARE · calibrated s and IDF · leaf calendar · palette and cap"),
+             ("DESIGN MODE NEEDS LESS", RAIN, "the designer supplies the positions; an EPW, terrain, traits, an IDF curve and a leaf calendar stay mandatory")]
+    x, w = 540, 325
+    for head, col, txt in cards:
+        p, _ = para(x + 18, y + 48, txt, w - 36, 15, fill=INK)
+        b += rect(x, y + 8, w, 112, col, rx=10, op=0.1) + t(x + 18, y + 34, head, 17, col, "bold") + p
+        x += w + 20
+    save("10_transferability", "The code travels, the evidence does not",
+         "What the method needs at a new site: Porta (calibration) vs three transfer options, verified 19 Oct", b,
+         "data_inventory_barcelona.md A1, A3, A7, B1-B2, C4, D1-D2, G; data_inventory.md B1, B3, B5-B7, F1, F3, F5-F7; "
+         "topic_decision.md 6.1 (trait coverage); methodology.md 4 validation (iii) (routing vs RESCCUE depth); "
+         "transfer_species_overlap.csv; catalan_transfer_city.md (ACA 3rd-cycle Annex 8 Taula 1; ICGC per-point GPS "
+         "dates, sampled clips); Esbri et al. 2026 (storm months); phenology_palette.csv; notes/transferability.md.")
+
+# ---- 11. Backup: the 22-city Catalan LiDAR screening
+def fig_catalonia_lidar():
+    """Backup slide: when was each Catalan city flown, and is its cloud classified?
+    Data: databases/catalonia_lidar_dates.csv (see its header for provenance and limits)."""
+    rows = [r for r in csv.DictReader(ln for ln in open(ROOT / "databases/catalonia_lidar_dates.csv",
+                                                        encoding="utf-8") if not ln.startswith("#"))]
+    porta = next(r for r in rows if r["city"].startswith("Porta"))
+    same = [r for r in rows if r is not porta and r["flight_date"] == "2021-09-26" and r["note"].startswith("same")]
+    ok = [r for r in rows if r is not porta and r not in same and r["classified"] == "yes"]
+    unc = [r for r in rows if r["classified"] == "no" and r["leaf_on"] != "no"]
+    off = [r for r in rows if r["leaf_on"] == "no"]
+
+    def entry(x, y, r, col, show_density=True):
+        name = r["city"].replace(" de Llobregat", "").replace(" i la Geltru", "").replace(" del Valles", "")
+        name = name.replace("Porta Barcelona (control)", "Porta, Barcelona — control")
+        d = r["flight_date"]
+        if r["second_date"]:
+            d += " + " + r["second_date"][5:]
+        sub = d + (f"   {r['density_excl_overlap']} pts/m²" if show_density and r["density_excl_overlap"] else "")
+        return t(x, y, name, 17, col, "bold") + t(x, y + 19, sub, 14, MUTED)
+
+    b = ""
+    # band 1: the same-mission group
+    b += rect(45, 170, 1510, 104, TREE, op=0.1) + rect(45, 170, 6, 104, TREE, rx=0)
+    b += t(70, 198, "SAME MISSION DAY AS PORTA — 26 September 2021", 19, TREE, "bold")
+    b += t(70, 222, "zero season, sensor or campaign-year difference from the calibration site", 15, MUTED)
+    for i, r in enumerate([porta] + same):
+        x = 70 + i * 370
+        b += entry(x, 252, r, TREE if r is not porta else INK)
+
+    # band 2: leaf-on and classified
+    b += rect(45, 292, 1510, 300, TREE, op=0.05) + rect(45, 292, 6, 300, TREE, rx=0)
+    b += t(70, 320, f"LEAF-ON AND CLASSIFIED — {len(ok)} more cities, other 2021–22 missions", 19, TREE, "bold")
+    b += t(70, 344, "usable for the gap-fraction LAI proxy; densities exclude the class-12 overlap strips", 15, MUTED)
+    for i, r in enumerate(ok):
+        x, yy = 70 + (i % 4) * 370, 376 + (i // 4) * 54
+        b += entry(x, yy, r, INK)
+
+    # band 3: the exclusions
+    b += rect(45, 610, 735, 150, WARN, op=0.1) + rect(45, 610, 6, 150, WARN, rx=0)
+    b += t(70, 638, f"LEAF-ON BUT UNCLASSIFIED — {len(unc)}", 19, WARN, "bold")
+    b += t(70, 662, "no ground / vegetation / building classes in the clip: no gap fraction", 15, MUTED)
+    for i, r in enumerate(unc):
+        b += entry(70 + i * 235, 690, r, WARN, show_density=False)
+    b += t(70, 740, "Figueres is excluded by classification, not by phenology: April is leaf-on for 6 of the 8 palette species",
+           14, MUTED)
+
+    b += rect(810, 610, 745, 150, MUTED, op=0.1) + rect(810, 610, 6, 150, MUTED, rx=0)
+    b += t(835, 638, f"LEAF-OFF — {len(off)}", 19, MUTED, "bold")
+    b += t(835, 662, "ruled out on season, and unclassified as well", 15, MUTED)
+    for i, r in enumerate(off):
+        b += entry(835 + i * 235, 690, r, MUTED, show_density=False)
+    b += t(835, 740, "November: outside the May-October leaf-on window of every palette species", 14, MUTED)
+
+    # the caveat belongs on the slide, not only in the source line
+    cav, _ = para(70, 792, "How to read this: each date is from ONE 150x150 m clip at the city centre, so it is the "
+                  "date AT THE SAMPLED CLIP, not across the city. Rubi and Granollers split two missions inside a "
+                  "single clip, and a mission boundary runs through Porta's own tile.", 1470, 15, fill=INK)
+    b += rect(45, 768, 1510, 70, WARN, op=0.08) + rect(45, 768, 6, 70, WARN, rx=0) + cav
+
+    save("11_catalonia_lidar_backup", "22 Catalan cities, screened on the one input that decides a transfer",
+         "ICGC Territorial LiDAR v3: the per-sheet metadata gives only the flight YEAR, so each date was read from "
+         "PER-POINT GPS time in the cloud itself", b,
+         "databases/catalonia_lidar_dates.csv (see its header). LIMIT: one 150x150 m clip per city (~0.0225 km2) in "
+         "municipalities of 10-100+ km2 — read each date as 'at the sampled clip', not 'the city'; Rubi and Granollers "
+         "split missions inside one clip. Control: the Porta clip returned 867,739 points, 100% 2021-09-26, agreeing "
+         "with the date derived by a different route in data_inventory_barcelona.md section G. Leaf-on judged against "
+         "databases/traits/phenology_palette.csv. Full screening: notes/catalan_transfer_city.md.")
+
+
 if __name__ == "__main__":
     OUT.mkdir(parents=True, exist_ok=True)
     fig_lit_map()
@@ -393,3 +519,5 @@ if __name__ == "__main__":
     fig_palette()
     fig_method()
     fig_tree_system()
+    fig_transfer()
+    fig_catalonia_lidar()

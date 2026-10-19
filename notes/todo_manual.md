@@ -75,3 +75,38 @@ Then the gap and evidence papers:
 ## Housekeeping
 - [ ] The Zotero MCP server timed out in this session. Restart Claude Code; if it fails again, check that `npx` works in a new terminal. Adding papers through `scripts/zotero_add.py` doesn't depend on it.
 - [ ] Optional: delete `databases/barcelona/raw/2017_NDVI.tif` (1.6 GB). The Porta crop the model uses is already saved.
+
+## Catalan transfer city: four portals blocked from the cloud container (18 Oct)
+The screening in `notes/catalan_transfer_city.md` settled everything except one criterion, and it needs a browser on Windows — about 30 minutes, no emails, no requests. **Does the city publish a street-tree inventory with species?** In priority order:
+
+**Corrected 18 Oct after the fact-check: only two are actually blocked, and the recommendation changed.**
+
+- [ ] **Mataró — the three URLs that settle the transfer city (19 Oct, see `notes/catalan_transfer_city.md` §3b).**
+  All three are on `apex.mataro.org`, which is genuinely proxy-blocked from the container — **blocked, not absent**.
+  Mataró's inventory is known to exist: its own map viewer reads it from these endpoints without a key.
+  1. `https://apex.mataro.org/ords/sig/geodades/T_C_ARBRAT?limit=50000` — **the decisive one.** Does it return one
+     JSON object per tree with `ESPECIE` and a `WKT` point? And are `ALCADA` / `DIAMETRE` / `PERIMETRE` populated
+     for species other than *Melia*? (If height or DBH is populated, it also rescues the LiDAR-proxy validation
+     that the Escapos check failed to provide.) Save the JSON.
+  2. `https://apex.mataro.org/dadesobertes` — **the licence**, and whether a packaged CSV/GeoJSON of the tree layer
+     is published. Equal priority to #1: the data is unusable without reuse terms, and `mataro.cat/ca/legal` is
+     restrictive by default.
+  3. `https://apex.mataro.org/ords/rest/dobertes/elements` — the dataset-list API; shows what else Mataró publishes.
+  If all three fail, request the Safetree extract from the municipality. **Contact caveat:** the phone, hours and
+  both mailboxes below are taken from the *plànols* / GeoMat page footer and belong to the **Servei en Sistemes
+  d'Informació i Telecomunicacions** (Tecnocampus Mataró Maresme), **not** the Àrea d'Ecologia Urbana as an earlier
+  draft said — `bustia@ajmataro.cat` is the generic *Bústia d'avisos* and `planoldelaciutat@ajmataro.cat` the
+  map-products request box: `+34 93 758 21 91`, Mon–Fri 08:00–15:00. The addresses are real; the attribution was
+  wrong. Confirm the right unit on mataro.cat before writing.
+- [x] ~~Mataró portal check~~ — superseded by the three URLs above; the species composition is already in the repo
+  (`databases/mataro/mataro_street_tree_species_2016.csv`, 17,204 street trees, 117 species) and 79,748 tree
+  positions are downloadable without any portal, from the municipal GeoPackage (EPSG:25831, same CRS as Porta).
+- [ ] **Sabadell**: `https://dadesobertes.sabadell.cat/ca/dataset?q=arbrat` (genuinely blocked)
+- [x] ~~Badalona~~ — **reachable, and the answer is a near-negative**: its GeoServer lists 161 WMS layers with no tree/green layer and it has no AOC CKAN organisation. Worth one look behind `https://geoportal.badalona.cat/badalona42/visor/geoportal` only if you want to be sure
+- [x] ~~Reus~~ — reachable; `https://geoportal.reus.cat/inici/` answers 200, no inventory surfaced
+
+For whichever city answers yes, record: record count, the species field, distinct species, any height/DBH/crown field, licence, last update, download URL.
+
+Two smaller local checks from the same note:
+- [ ] Open `https://sig.gencat.cat/ows/AIGUA/wms` (layer `AIGUA_PLUVIAL_ARPSI`) to get the 44-municipality polygon layer **and its licence**, which is still unknown.
+- [ ] For the chosen city, download the published 1×1 km `datacloud` LAZ over the study district and histogram per-point GPS date and classification over the full extent, to confirm the clip-service result.
