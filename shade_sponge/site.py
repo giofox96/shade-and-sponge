@@ -21,10 +21,10 @@ CAPTURE_M = 100.0       # ASSUMPTION: surface water reaches a hotspot only if it
                         # would drain to some hotspot, so position would no longer matter
 
 
-def species_lidar():
-    """Per-species LiDAR medians (porta_species_lidar_summary.csv), with the CITY_LIDAR overrides applied.
-    The one place where the tool and the runoff scripts get species crown, height and LAI."""
-    sp = pd.read_csv(DB / "porta_species_lidar_summary.csv").set_index("species")
+def species_lidar(summary="porta_species_lidar_summary.csv"):
+    """Per-species LiDAR medians (Porta, or species_lidar_summary.csv for the Barcelona palette), with the CITY_LIDAR
+    overrides applied. The one place where the tool and the runoff scripts get species crown, height and LAI."""
+    sp = pd.read_csv(DB / summary).set_index("species")
     for name, (f, group) in CITY_LIDAR.items():
         c = pd.read_csv(DB / f).set_index("group").loc[group]
         sp.loc[name, ["n", "height_med", "crown_diam_med", "crown_base_med", "lai_proxy_med", "lai_proxy_iqr"]] = [
