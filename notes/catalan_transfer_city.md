@@ -13,6 +13,7 @@ A six-domain adversarial fact-check was run in full (two domains first, four aft
 | §4 — dual hazard | ⚠️ **corrected.** A wrong rainfall figure, two merged Badalona events, and Badalona's 2025 event re-measured as a low-intensity winter frontal event |
 | §5 — policy drivers | ⚠️ **heavily corrected.** The DIBA/Santamour attribution was wrong, Sabadell's figures are a conference deck not an approved plan, Girona's denominator was wrong |
 | §6 — recommendation | ❌ **re-derived twice.** Badalona no longer leads; after §5b, Mataró leads outright |
+| §3b — Mataró tree data | ✅ **verified first-hand, 19 Oct.** GeoPackage downloaded and queried (79,748 tree points, EPSG:25831, no species/DBH); 1,064-tree joined sample profiled; the 2016 composition table reproduced with four exact checks. The joined `T_C_ARBRAT` endpoint is **unreachable, not absent** |
 | §5b — design rainfall | ✅ **verified, then fact-checked a second time (19 Oct).** All Mataró and Barcelona figures reproduce against PDCLAM '03, the 1999 monograph and the repo's PDISBA table; the Meteocat, XEMA and CAUMAX bullets were re-derived independently. **Six corrections applied**: the duration-factor attribution (the "two" formulas are the same formula), "no extrapolation", the T = 1 scope, the climate-uplift claim, the daily-basis gap, and the method/climate share. Two unsourced claims removed |
 
 **§1, §2 and §5b are citable to the tutor. §3–§6 are now corrected but thinner than the first draft claimed.**
@@ -91,9 +92,94 @@ Rows below are sorted by **recorded damages**, which is ACA's own highest-weight
 
 **Not published in the catalogues queried — eight confirmed, three not:** confirmed by full AOC package listings (Tarragona 40 datasets, Santa Coloma 34, Vilanova 41, Granollers 18, Manresa 59, Rubí 30, Castelldefels 25, El Prat 39) plus zero public ArcGIS Online items. **Untested:** Sant Cugat (only 2 datasets on AOC, so absence proves nothing), **Terrassa** (its portal is Cloudflare-blocked, so the "126 datasets federated" claim is unverified) and Cornellà. Note this means "not in the catalogue I queried", **not** "the municipality holds no inventory".
 
-**Corrected after fact-check — only two are actually unreachable.** **Mataró** and **Sabadell** are proxy-blocked. **Badalona and Reus are reachable**, and the answer for Badalona is now a near-negative rather than an unknown: its public GeoServer lists **161 WMS layers with no tree or green layer**, it has **no AOC CKAN organisation**, and `www.badalona.cat/dades-obertes` returns 404 (not the 403 recorded earlier), while its `seu-e.cat` page answers 200. So: **no open tree inventory found for Badalona.**
+**Corrected after fact-check — only two are actually unreachable.** **Mataró** and **Sabadell** are proxy-blocked. **Mataró is now largely resolved — see §3b**: its species composition and its tree positions are both published, but in two separate files, and the joined per-tree table sits on the one host this container cannot reach. **Badalona and Reus are reachable**, and the answer for Badalona is now a near-negative rather than an unknown: its public GeoServer lists **161 WMS layers with no tree or green layer**, it has **no AOC CKAN organisation**, and `www.badalona.cat/dades-obertes` returns 404 (not the 403 recorded earlier), while its `seu-e.cat` page answers 200. So: **no open tree inventory found for Badalona.**
 
 **No numeric DBH and no crown diameter anywhere**, and only Lleida has a height attribute — but three of the six do carry a **coarse size class**: Girona's `mida_tronc` is a trunk-perimeter band (20–50 / 50–80 / 80–120 / >120 cm; n = 12,662 / 11,276 / 6,498 / 2,313), Sant Boi has `MIDA` (petit/mitjà/gran/exemplar) plus a growth stage, Lleida a perimeter class 0–4. The conclusion survives in its proper form: **the point cloud stays the binding input for LAI and crown geometry at every site**, because a size band cannot give either.
+
+## 3b. Mataró's tree data — criterion 3 reopened and largely resolved (19 Oct)
+
+§3 recorded Mataró as **proxy-blocked, therefore unknown**. That was right at the time and is now superseded.
+A six-route sweep found that **Mataró's data is split in two**, and the split is what matters:
+
+| Asset | Species? | Coordinates? | Records | Verified here |
+|---|---|---|---|---|
+| Pla Director de l'arbrat viari, Nov 2016 | ✅ Latin binomial | ❌ none | **17,204 street trees, 117 species** | ✅ opened, four checks |
+| RTL 1:1000 3D topographic base (GeoPackage) | ❌ **none** | ✅ EPSG:25831 | **79,748 tree points** | ✅ downloaded, queried |
+| `melia.geojson` (allergy-map extract) | ✅ | ✅ WGS84 | **1,064 trees, one species** | ✅ downloaded, profiled |
+| `T_C_ARBRAT` (ORDS REST, the joined table) | ✅ | ✅ | unknown | ❌ **host unreachable** |
+
+**The joined inventory exists.** The municipal geoportal "GeoMat" wires its tree layer to a public Oracle ORDS
+endpoint, `https://apex.mataro.org/ords/sig/geodades/T_C_ARBRAT`, which the viewer reads from the browser with a
+plain `$.getJSON` — no key. That host is the one thing this container cannot reach (the proxy tunnel closes
+mid-exchange), so its contents and its field list remain **unknown**. Nobody has seen `T_C_ARBRAT`'s schema.
+
+**What was verified first-hand in this session**, not taken from an agent report:
+- **The GeoPackage.** `gpkg2d.zip` (92 MB, Last-Modified 14 Oct 2026) → `topografia-local-v1r0-mataro-2d-2022.gpkg`.
+  Layer `_260_cobertes_sol_n`: **79,748 rows, all `tipus='arb'`**, and the columns are exactly
+  `id, geom, tipus, nivell, visible` — **no species, no height, no DBH**. Every layer is **EPSG:25831, the same
+  CRS as Porta**. Also present for the DTM: `_280_relleu_n` 114,317 relief points, `_580_relleu_l` 44,532 contours.
+- **The 1,064-tree joined sample.** 1,064 `Melia azedarach` points, CRS84, with `TIPUS_UG` = **Viari 822 /
+  Zona verda 242** (an explicit street-vs-park flag), `CATEGORIA` trunk-girth band, `ESTAT` condition, street and
+  neighbourhood. `ALCADA`, `DIAMETRE` and `PERIMETRE` exist as columns but are **empty**.
+- **The 2016 composition table**, pp. 33–34 → `databases/mataro/mataro_street_tree_species_2016.csv`. Page 34 came
+  from the PDF text layer; page 33 is a raster, so species and counts were transcribed from a 190 dpi render and
+  the green/yellow/red suitability column was sampled programmatically at 300 dpi. Four independent checks, all
+  exact: units **16,338 + 866 = 17,204** (the plan's printed Total); **59 + 58 = 117** species (its stated count);
+  suitability **15 apte / 51 restriccions / 51 evitar** (its stated split); and every row's percentage equals
+  units/17,204. The colour sampling corrected two rows a visual read had wrong (*Populus simonii* and
+  *Olea europaea* are `evitar`, not `restriccions`).
+
+### Species overlap with Porta — Mataró beats Florence
+
+Running Mataró through the existing `scripts/transfer_species_overlap.py` (top-30, same `MIN_N = 5` bar):
+
+| | species matched | on ≥ 5 Porta trees | genus matched |
+|---|---|---|---|
+| **Mataró** | 20 species, **63.6%** | **52.2%** | **92.9%** |
+| Florence | 15 species, 63.5% | 43.5% | 74.0% |
+| Barcelona (ceiling) | 27 species, 97.9% | 90.5% | 97.9% |
+
+The headline species line up closely: *Platanus* × *acerifolia* 21.4% of Mataró's street stock against 29.3% of
+Porta's, *Celtis australis* 10.9% against 10.5%, *Melia azedarach* 5.9% against 5.9%, *Tipuana tipu* 4.9% against
+4.9%. Largest gaps where Porta has not even the genus: *Washingtonia filifera* 2.0%, *Albizia julibrissin* 1.3%,
+*Quercus ilex* 1.0%. **On the honest measure Mataró transfers better than Florence**, which was the whole point of
+looking for a Catalan fallback.
+
+### What this means for the module
+
+**It can run — in a degraded form, and the degradation must be declared.** Crown, height and LAI come from the
+LiDAR, not from the inventory, and Mataró has leaf-on classified ICGC cover plus 79,748 open positions in Porta's
+own CRS. So an S0 baseline is buildable today, species-blind. What breaks without `T_C_ARBRAT`:
+1. **Per-tree species** drives `s·LAI` interception and the leaf-on month. Without it, species must be assigned
+   probabilistically from the published composition — which turns a *species-level* transfer test into a
+   *composition-weighted* one. That is a real loss of independence, and an `ASSUMPTION` to label as such.
+2. **No numeric DBH or height exists in any Mataró source** — not in RTL, not in OSM, not in the 2016 plan, and
+   only as a 4-class band in the Melia extract. So the LiDAR LAI/crown proxy **cannot be validated against
+   inventory measurements in Mataró either**. That is the second time this validation has failed after the Escapos
+   check (§7 of `notes/city_transfer_candidates.md`) — and it is now a pattern worth stating in the thesis rather
+   than a run of bad luck.
+3. **RTL has no street-vs-park flag**, so the street subset must be derived by buffering the road layer. The Melia
+   extract's real `TIPUS_UG` is the obvious way to check that derivation — that is its highest value.
+
+### Licence: UNKNOWN, and the default is unfavourable
+
+**No Mataró dataset carries a verified licence.** `mataro.cat/ca/legal` forbids reproduction and "tractament
+informàtic" without prior written permission and grants no licence of any kind. The open-data portal is a separate
+host whose terms nobody has read. **Do not record CC BY for any Mataró asset.** The composition CSV in this repo is
+cited, not redistributed in bulk; before publishing anything derived from the GeoPackage or `T_C_ARBRAT`, get a
+licence statement in writing from the Servei de Sistemes d'Informació i Telecomunicacions.
+
+### Open — one browser session in Windows settles it
+
+These are **blocked, not absent** (see `notes/todo_manual.md`):
+1. `https://apex.mataro.org/ords/sig/geodades/T_C_ARBRAT?limit=50000` — **the gate**. Does it return one object per
+   tree with `ESPECIE` and a WKT point, and are `ALCADA`/`DIAMETRE`/`PERIMETRE` populated for species other than Melia?
+2. `https://apex.mataro.org/dadesobertes` — **the licence**, and whether a packaged CSV/GeoJSON exists. Equal priority:
+   without it the data is unusable even if it downloads.
+3. `https://apex.mataro.org/ords/rest/dobertes/elements` — the dataset-list API; shows what else is published.
+
+If all three fail, the fallback is a data request to the **Àrea d'Ecologia Urbana** (`bustia@ajmataro.cat`,
+`planoldelaciutat@ajmataro.cat`, +34 93 758 21 91), asking for the Safetree extract **and a licence statement**.
 
 ## 4. Dual hazard (criterion 4)
 No Catalan municipality outside Barcelona has a single document mapping both hazards; the evidence comes from different institutions.
@@ -263,10 +349,10 @@ The first draft put Badalona first on two pillars. The fact-check left one stand
 
 **And the mission-day argument was overrated.** "Zero season, sensor or year difference" reads as decisive but is a *convenience*, not a validity condition: Mataró, Sabadell, Terrassa and Castelldefels are **also leaf-on, also classified, also 10–14 pts/m²**, just on other 2021 mission days. (The "same 10 km block 4358" detail is also wrong — northern Badalona sits above y = 4,590,000, in block 4359. Same date there, so the substance survives.)
 
-**Mataró, on the same evidence:** in the 44 (€1,363,419, Pluvial-fluvial), leaf-on July 2021 classified tiles, a documented **calibrated level-III municipal drainage model**, a **leaf-on high-intensity September event** (120 mm, 90 mm/h — the right storm type for this thesis), and heat named in its own PAESC. Its inventory is untested **only because its portal is proxy-blocked**, which is a very different state from Badalona's near-negative.
+**Mataró, on the same evidence:** in the 44 (€1,363,419, Pluvial-fluvial), leaf-on July 2021 classified tiles, a documented **calibrated level-III municipal drainage model**, a **leaf-on high-intensity September event** (120 mm, 90 mm/h — the right storm type for this thesis), and heat named in its own PAESC. Since 19 Oct it also has the only published design storm of any candidate (§5b) and a resolved tree-data picture (§3b), including the best species overlap with Porta of any transfer candidate — **52.2% on ≥5 Porta trees against Florence's 43.5%, and 92.9% at genus against 74.0%**.
 
 **So:**
-1. **Check Mataró's portal first** (`https://apex.mataro.org/dadesobertes`). If it has a species-level inventory, **Mataró is the transfer city.**
+1. **Mataró is the transfer city** unless its licence forbids it. §3b resolved criterion 3: the inventory exists, its composition is published (17,204 street trees, 117 species) and 79,748 positions are downloadable in Porta's own CRS. What remains is **three browser URLs** (§3b) — the decisive one being whether `T_C_ARBRAT` joins species to position, and the licence, which is currently **UNKNOWN and unfavourable by default**.
 2. **Then Sabadell** (`https://dadesobertes.sabadell.cat/ca/dataset?q=arbrat`) — weakest on hazard, strongest on the decision problem, though now known to be a proposal rather than policy.
 3. **Badalona drops to last among the finalists.** It leads on nothing except mission-day convenience and XEMA station coverage, its inventory is probably absent, and §5b shows it has no design rainfall of its own — the one input the runoff module cannot assume. Keep it only if Mataró's inventory check fails *and* a tree layer turns up behind its geoportal, and if so, state the circularity explicitly.
 4. **Castelldefels re-enters the comparison**, having been wrongly excluded by the "marginal" leaf-on label: it is the **second-highest-damage municipality** (€6,826,265, typed plainly *Pluvial*) on leaf-on October tiles. Its real blocker is criterion 3 — **no tree dataset among its 25 AOC datasets** — and a 2022 rather than 2021 flight year.

@@ -81,7 +81,22 @@ The screening in `notes/catalan_transfer_city.md` settled everything except one 
 
 **Corrected 18 Oct after the fact-check: only two are actually blocked, and the recommendation changed.**
 
-- [ ] **Mataró — now the first choice**: `https://apex.mataro.org/dadesobertes` (Oracle APEX, genuinely proxy-blocked from the container)
+- [ ] **Mataró — the three URLs that settle the transfer city (19 Oct, see `notes/catalan_transfer_city.md` §3b).**
+  All three are on `apex.mataro.org`, which is genuinely proxy-blocked from the container — **blocked, not absent**.
+  Mataró's inventory is known to exist: its own map viewer reads it from these endpoints without a key.
+  1. `https://apex.mataro.org/ords/sig/geodades/T_C_ARBRAT?limit=50000` — **the decisive one.** Does it return one
+     JSON object per tree with `ESPECIE` and a `WKT` point? And are `ALCADA` / `DIAMETRE` / `PERIMETRE` populated
+     for species other than *Melia*? (If height or DBH is populated, it also rescues the LiDAR-proxy validation
+     that the Escapos check failed to provide.) Save the JSON.
+  2. `https://apex.mataro.org/dadesobertes` — **the licence**, and whether a packaged CSV/GeoJSON of the tree layer
+     is published. Equal priority to #1: the data is unusable without reuse terms, and `mataro.cat/ca/legal` is
+     restrictive by default.
+  3. `https://apex.mataro.org/ords/rest/dobertes/elements` — the dataset-list API; shows what else Mataró publishes.
+  If all three fail, request the Safetree extract **and a written licence statement** from the Àrea d'Ecologia
+  Urbana (`bustia@ajmataro.cat`, `planoldelaciutat@ajmataro.cat`, +34 93 758 21 91, Mon–Fri 08:00–15:00).
+- [x] ~~Mataró portal check~~ — superseded by the three URLs above; the species composition is already in the repo
+  (`databases/mataro/mataro_street_tree_species_2016.csv`, 17,204 street trees, 117 species) and 79,748 tree
+  positions are downloadable without any portal, from the municipal GeoPackage (EPSG:25831, same CRS as Porta).
 - [ ] **Sabadell**: `https://dadesobertes.sabadell.cat/ca/dataset?q=arbrat` (genuinely blocked)
 - [x] ~~Badalona~~ — **reachable, and the answer is a near-negative**: its GeoServer lists 161 WMS layers with no tree/green layer and it has no AOC CKAN organisation. Worth one look behind `https://geoportal.badalona.cat/badalona42/visor/geoportal` only if you want to be sure
 - [x] ~~Reus~~ — reachable; `https://geoportal.reus.cat/inici/` answers 200, no inventory surfaced

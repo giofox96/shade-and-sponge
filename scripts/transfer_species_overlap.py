@@ -20,14 +20,16 @@ import re
 import pandas as pd
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
-CITIES = ["florence", "barcelona"]          # barcelona = sanity check (city-wide top-30 vs the Porta subset)
-TOTALS = {"florence": 82226, "barcelona": 140404}   # trees in the full inventory (databases/data_inventory*.md F1, A1)
+CITIES = ["florence", "mataro", "barcelona"]          # barcelona = sanity check (city-wide top-30 vs the Porta subset)
+TOTALS = {"florence": 82226, "mataro": 17204, "barcelona": 140404}   # full inventory (data_inventory*.md F1, A1;
+# mataro = STREET trees only, Pla Director de l'arbrat viari 2016 p.33-34 - the other two are whole-city inventories)
 MIN_N = 5          # Porta trees below which the species medians are too thin to rely on (same bar as site.CITY_LIDAR)
 
 
 def norm(s):
     """Species key without cultivar, trade mark or hybrid-sign spelling: "Platanus × acerifolia PLATANOR®" -> "platanus x acerifolia"."""
     s = re.sub(r"\s*'[^']*'|\s+\S*®", "", str(s)).strip().lower().replace("×", "x")
+    s = re.sub(r"\s+(?:subsp\.|ssp\.|var\.)\s+\S+", "", s)   # Quercus ilex subsp. ilex -> quercus ilex
     return re.sub(r"\s+", " ", s)
 
 
@@ -39,7 +41,7 @@ def main():
 
     out = []
     for city in CITIES:
-        c = pd.read_csv(ROOT / f"databases/{city}/species_coverage.csv")
+        c = pd.read_csv(ROOT / f"databases/{city}/species_coverage.csv", comment="#")
         c["key"] = c.species.map(norm)
         c["city"] = city
         c["in_porta_lidar"] = c.key.isin(measured.index)

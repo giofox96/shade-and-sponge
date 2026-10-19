@@ -1,0 +1,134 @@
+# Mataro STREET-tree species composition. Source: "Pla Director de l'arbrat viari de Mataro",
+# Servei d'Espais Publics, Ajuntament de Mataro, November 2016, 64 pp., table on Memoria pp. 33-34.
+# 17,204 street trees, 117 species + 448 unidentified. Street trees only (arbrat VIARI), not parks.
+# NO coordinates and NO per-tree records: this is a city-wide composition table, nothing more.
+# How it was read: p.34 from the PDF text layer; p.33 is a RASTER image, so species/counts were
+# transcribed from a 190 dpi render and the green/yellow/red suitability column was sampled
+# programmatically from a 300 dpi render. Validated four ways, all exact: units 16338 (p33) + 866
+# (p34) = 17204, the plan's printed Total; 59 + 58 = 117 species, the plan's stated count; the
+# suitability tally 15 apte / 51 restriccions / 51 evitar, the plan's stated split; and every row's
+# percentage matches units/17204. (The colour sampling corrected two rows a visual read got wrong:
+# Populus simonii and Olea europaea are 'evitar', not 'restriccions'.)
+# CAVEAT the source contradicts itself once: the prose gives Prunus cerasifera 3.30%, the table 748 =
+# 4.35%. The table is consistent with the 17,204 total, so the table is used here.
+# LICENCE NOT STATED. mataro.cat/ca/legal forbids reproduction without written permission and grants no
+# licence; the document is published openly but carries no reuse terms. Treat as UNKNOWN, cite only.
+especie_latin,nom_catala,unitats,percentatge,aptitud_viari,source_page
+Platanus ×acerifolia,Plàtan comú,3587,"20,85",evitar,33
+Celtis australis,Lledoner,1820,"10,58",evitar,33
+Melia azedarach,Mèlia,983,"5,71",apte,33
+Tipuana tipu,Tipuana,817,"4,75",restriccions,33
+Prunus cerasifera 'Pissardii',Prunera vermella,748,"4,35",apte,33
+Populus alba,Àlber,561,"3,26",evitar,33
+Ulmus pumila,Om de Sibèria,469,"2,73",evitar,33
+Styphnolobium japonicum (Sophora japonica),Acàcia del Japó,447,"2,60",apte,33
+Morus alba,Morera blanca,429,"2,49",evitar,33
+Ligustrum lucidum,Troana,484,"2,81",evitar,33
+Robinia pseudoacacia,Robínia,419,"2,44",evitar,33
+Phoenix dactylifera,Palmera de dàtils,355,"2,06",evitar,33
+Brachychiton populneus,Arbre ampolla,339,"1,97",restriccions,33
+Washingtonia filifera,Washingtònia de Califòrnia,330,"1,92",restriccions,33
+Acer negundo,Negundo,265,"1,54",evitar,33
+Tilia tomentosa,Tell argentat,228,"1,33",restriccions,33
+Robinia ×margaretta 'Casque Rouge',Robínia Casque Rouge,224,"1,30",evitar,33
+Tilia cordata,Tell de fulla petita,213,"1,24",restriccions,33
+Albizia julibrissin,Acàcia taperera,210,"1,22",restriccions,33
+Cupressus sempervirens 'Europa Gold',Xiprer Europa Gold,199,"1,16",evitar,33
+Populus ×canadensis,Pollancre del Canadà,199,"1,16",evitar,33
+Quercus ilex subsp. ilex,Alzina,173,"1,01",restriccions,33
+Cercis siliquastrum,Arbre de l'amor,165,"0,96",apte,33
+Liquidambar styraciflua,Liquidàmbar americà,162,"0,94",restriccions,33
+Ginkgo biloba,Ginkgo,160,"0,93",restriccions,33
+Pyrus calleryana 'Chanticleer',Perera de Callery 'Chanticleer',151,"0,88",apte,33
+Jacaranda mimosifolia,Xicranda,148,"0,86",restriccions,33
+Koelreuteria paniculata,arbre de la flama xinès,141,"0,82",apte,33
+Fraxinus excelsior,Freixe de fulla gran,113,"0,66",restriccions,33
+Prunus serrulata 'Kanzan',Cirerer de Japó 'Kanzan',108,"0,63",restriccions,33
+Photinia ×fraseri 'Red Robin',Fotínia de Fraser 'Red Robin',104,"0,60",apte,33
+Populus alba 'Pyramidalis',Àlber piramidal,96,"0,56",evitar,33
+Populus simonii,Pollancre de Simon,87,"0,51",evitar,33
+Laurus nobilis,Llorer,85,"0,49",restriccions,33
+Acacia saligna,Mimosa blava,81,"0,47",evitar,33
+Magnolia grandiflora,Magnòlia,81,"0,47",restriccions,33
+Syagrus romanzoffiana,Palmera de la reina,79,"0,46",restriccions,33
+Catalpa bignonioides,Catalpa comuna,71,"0,41",restriccions,33
+Hibiscus syriacus,Hibisc de Síria,67,"0,39",restriccions,33
+Lagerstroemia indica,Àrbre de Júpiter,66,"0,38",restriccions,33
+Populus nigra 'Italica',Pollancre gavatx,63,"0,37",evitar,33
+Firmiana simplex,Firmiana,62,"0,36",restriccions,33
+Tilia ×euchlora,Tell de Crimea,62,"0,36",restriccions,33
+Ailanthus altissima,Ailant,60,"0,35",evitar,33
+Olea europaea,Olivera,55,"0,32",evitar,33
+Fraxinus ornus,Freixe de flor,54,"0,31",apte,33
+Broussonetia papyrifera,Morera de paper,53,"0,31",restriccions,33
+Ficus microcarpa,Ficus de l'Índia,52,"0,30",restriccions,33
+Phoenix canariensis,Palmera canària,51,"0,30",evitar,33
+Quercus suber,Alzina surera,48,"0,28",restriccions,33
+Handroanthus heptaphyllus (Tabebuia heptaphylla),Ipé morat,43,"0,25",restriccions,33
+Carpinus betulus,Carpí,37,"0,22",evitar,33
+Fraxinus angustifolia,Freixe de fulla petita,37,"0,22",restriccions,33
+Pterocarya fraxinifolia,Noguera del Caucas,37,"0,22",restriccions,33
+Chamaerops humilis,Margalló,35,"0,20",restriccions,33
+Schinus molle,Pebrer bord,34,"0,20",restriccions,33
+Phytolacca dioica,Bellaombra,33,"0,19",evitar,33
+Ligustrum lucidum 'Excelsum Superbum' ('Variegatum'),Troana variegada,32,"0,19",restriccions,33
+Quercus robur 'Fastigiata Koster',Roure pènol Koster,26,"0,15",restriccions,33
+Lagunaria patersonia,Lagunària,24,"0,14",evitar,34
+Elaeagnus angustifolia,Arbre del paradís,22,"0,13",evitar,34
+Acer saccharinum,Erable argentat,20,"0,12",restriccions,34
+Citrus aurantium,Taronger agre,20,"0,12",restriccions,34
+Ceratonia siliqua,Garrofer,19,"0,11",restriccions,34
+Grevillea robusta,Grevíl·lea comuna,17,"0,10",restriccions,34
+Liriodendron tulipifera,Tuliper de Virgínia,16,"0,09",evitar,34
+Morus kagayamae,Morera de Kagayama,16,"0,09",evitar,34
+Salix babylonica,Desmai,16,"0,09",evitar,34
+Trachycarpus fortunei,Margalló de la Xina,16,"0,09",evitar,34
+Acacia dealbata,Mimosa comuna,13,"0,08",evitar,34
+Acer platanoides,Erable,13,"0,08",evitar,34
+Brachychiton acerifolius,Arbre de foc d'Austràlia,13,"0,08",restriccions,34
+Paulownia tomentosa,Paulònia,13,"0,08",restriccions,34
+× Chitalpa tashkentensis,Quitalpa,12,"0,07",restriccions,34
+Arbutus unedo,Arboç,10,"0,06",restriccions,34
+Corylus colurna,Avellaner turc,10,"0,06",apte,34
+Tilia platyphyllos,Tell de fulla gran,10,"0,06",evitar,34
+Albizia julibrissin 'Boubri' OMBRELLA®,Acàcia taperera Ombrella,8,"0,05",restriccions,34
+Bauhinia variegata,Bauhínia dels budistes,8,"0,05",apte,34
+Caesalpinia gilliesii,Poinciana,8,"0,05",evitar,34
+Prunus dulcis,Ametller,8,"0,05",restriccions,34
+Juglans regia,Noguera,7,"0,04",restriccions,34
+Eriobotrya japonica,Nesprer del Japó,6,"0,03",evitar,34
+Ficus elastica,Ficus de cautxú,6,"0,03",evitar,34
+Parkinsonia aculeata,Parkinsònia,6,"0,03",evitar,34
+Ulmus glabra,Oma,6,"0,03",evitar,34
+Malus domestica,Pomera,5,"0,03",evitar,34
+Quercus pubescens,Roure martinenc,5,"0,03",restriccions,34
+Aesculus hippocastanum,Castanyer d’Índia,4,"0,02",restriccions,34
+Cupressus sempervirens 'Stricta Aurea',Xiprer daurat,4,"0,02",evitar,34
+Fraxinus pennsylvanica,Freixe de Pennsilvània,4,"0,02",apte,34
+Mespilus germanica,Nespler,4,"0,02",evitar,34
+Morus australis 'Fruitless',Morera de Corea sense fruit,4,"0,02",apte,34
+Populus simonii 'Fastigiata',Pollancre de Simon fastigiat,4,"0,02",evitar,34
+Prunus serrulata,Cirerer del Japó,4,"0,02",restriccions,34
+Citrus limon,Llimoner,3,"0,02",evitar,34
+Eucalyptus globulus,Eucaliptus comú,3,"0,02",evitar,34
+Ficus carica,Figuera,3,"0,02",evitar,34
+Tamarix parviflora,Tamariu de flor petita,3,"0,02",restriccions,34
+Ulmus parvifolia,Om de la Xina,3,"0,02",evitar,34
+Erythrina crista-galli,Eritrina cresta de gall,2,"0,01",restriccions,34
+Fraxinus ornus 'Mecsek',Freixe de flor Mecsek,2,"0,01",apte,34
+Gleditsia triacanthos 'Skyline',Acàcia negra 'Skyline',2,"0,01",apte,34
+Magnolia liliiflora,Magnòlia de flor purpúria,2,"0,01",restriccions,34
+Quercus robur,Roure pènol,2,"0,01",restriccions,34
+Acacia salicina,Mimosa desmai,1,"0,01",evitar,34
+Acer pseudoplatanus,Fals plàtan,1,"0,01",evitar,34
+Casuarina cunninghamiana,Casuarina comuna,1,"0,01",apte,34
+Ficus lyrata,Figuera de fulla de violí,1,"0,01",evitar,34
+Laburnum anagyroides,Pluja d'or,1,"0,01",restriccions,34
+Platanus orientalis,Plàtan d'orient,1,"0,01",evitar,34
+Populus deltoides,Carolina,1,"0,01",evitar,34
+Prunus armeniaca,Albercoquer,1,"0,01",evitar,34
+Prunus avium 'Plena',Cirerer de flor doble,1,"0,01",restriccions,34
+Prunus ×blireiana,Prunera de Bléré,1,"0,01",restriccions,34
+Ulmus minor,Om,1,"0,01",evitar,34
+Ulmus minor 'Umbraculifera',Om de bola,1,"0,01",evitar,34
+Sense identificar,,448,"2,60",,34
