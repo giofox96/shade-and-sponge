@@ -13,7 +13,7 @@ A six-domain adversarial fact-check was run in full (two domains first, four aft
 | §4 — dual hazard | ⚠️ **corrected.** A wrong rainfall figure, two merged Badalona events, and Badalona's 2025 event re-measured as a low-intensity winter frontal event |
 | §5 — policy drivers | ⚠️ **heavily corrected.** The DIBA/Santamour attribution was wrong, Sabadell's figures are a conference deck not an approved plan, Girona's denominator was wrong |
 | §6 — recommendation | ❌ **re-derived twice.** Badalona no longer leads; after §5b, Mataró leads outright |
-| §3b — Mataró tree data | ✅ **verified first-hand, 19 Oct.** GeoPackage downloaded and queried (79,748 tree points, EPSG:25831, no species/DBH); 1,064-tree joined sample profiled; the 2016 composition table reproduced with four exact checks. The joined `T_C_ARBRAT` endpoint is **unreachable, not absent** |
+| §3b — Mataró tree data | ⚠️ **verified first-hand, but NOT second-passed.** The independent fact-check could not run (account session limit). Everything load-bearing was checked directly — the GeoPackage queried, the geojson profiled, both table pages read, the four arithmetic checks, the `capes.js` wiring and the `mataro.cat/ca/legal` text — but this section has not had the adversarial second reading that corrected §5b. Treat the agent-sourced details (contacts, the Safetree framing) as leads. ✅ **verified first-hand, 19 Oct.** GeoPackage downloaded and queried (79,748 tree points, EPSG:25831, no species/DBH); 1,064-tree joined sample profiled; the 2016 composition table reproduced with four exact checks. The joined `T_C_ARBRAT` endpoint is **unreachable, not absent** |
 | §5b — design rainfall | ✅ **verified, then fact-checked a second time (19 Oct).** All Mataró and Barcelona figures reproduce against PDCLAM '03, the 1999 monograph and the repo's PDISBA table; the Meteocat, XEMA and CAUMAX bullets were re-derived independently. **Six corrections applied**: the duration-factor attribution (the "two" formulas are the same formula), "no extrapolation", the T = 1 scope, the climate-uplift claim, the daily-basis gap, and the method/climate share. Two unsourced claims removed |
 
 **§1, §2 and §5b are citable to the tutor. §3–§6 are now corrected but thinner than the first draft claimed.**
@@ -108,9 +108,10 @@ A six-route sweep found that **Mataró's data is split in two**, and the split i
 | `melia.geojson` (allergy-map extract) | ✅ | ✅ WGS84 | **1,064 trees, one species** | ✅ downloaded, profiled |
 | `T_C_ARBRAT` (ORDS REST, the joined table) | ✅ | ✅ | unknown | ❌ **host unreachable** |
 
-**The joined inventory exists.** The municipal geoportal "GeoMat" wires its tree layer to a public Oracle ORDS
-endpoint, `https://apex.mataro.org/ords/sig/geodades/T_C_ARBRAT`, which the viewer reads from the browser with a
-plain `$.getJSON` — no key. That host is the one thing this container cannot reach (the proxy tunnel closes
+**The joined inventory exists** — verified first-hand in the viewer's own source. `GeoMat/visor/js/parts/capes.js`
+line 8254 reads `afegirCapaServeiWeb("https://apex.mataro.org/ords/sig/geodades/T_C_ARBRAT", …)`, and that function
+(line 545) fetches with a plain `$.getJSON` and parses the response through `new Wkt.Wkt()` — **no key, no auth
+header, WKT geometry**. Line 8244 wires the monumental-tree layer the same way. That host is the one thing this container cannot reach (the proxy tunnel closes
 mid-exchange), so its contents and its field list remain **unknown**. Nobody has seen `T_C_ARBRAT`'s schema.
 
 **What was verified first-hand in this session**, not taken from an agent report:
@@ -163,8 +164,12 @@ own CRS. So an S0 baseline is buildable today, species-blind. What breaks withou
 
 ### Licence: UNKNOWN, and the default is unfavourable
 
-**No Mataró dataset carries a verified licence.** `mataro.cat/ca/legal` forbids reproduction and "tractament
-informàtic" without prior written permission and grants no licence of any kind. The open-data portal is a separate
+**No Mataró dataset carries a verified licence**, and the municipal terms are explicitly restrictive. Read
+first-hand at `mataro.cat/ca/legal`: *"no es permet la reproducció parcial o total del portal, ni el seu
+**tractament informàtic**, sense el permís previ i per escrit dels seus propietaris"*, and, more decisively,
+*"L'Ajuntament de Mataró **no atorga cap llicència o autorització d'ús de cap classe** sobre els seus drets de
+propietat intel·lectual o industrial, o sobre qualsevol altre dret relacionat amb el portal o el seu contingut."*
+That is not silence about reuse — it is an explicit refusal to grant any licence. The open-data portal is a separate
 host whose terms nobody has read. **Do not record CC BY for any Mataró asset.** The composition CSV in this repo is
 cited, not redistributed in bulk; before publishing anything derived from the GeoPackage or `T_C_ARBRAT`, get a
 licence statement in writing from the Servei de Sistemes d'Informació i Telecomunicacions.
@@ -178,8 +183,11 @@ These are **blocked, not absent** (see `notes/todo_manual.md`):
    without it the data is unusable even if it downloads.
 3. `https://apex.mataro.org/ords/rest/dobertes/elements` — the dataset-list API; shows what else is published.
 
-If all three fail, the fallback is a data request to the **Àrea d'Ecologia Urbana** (`bustia@ajmataro.cat`,
-`planoldelaciutat@ajmataro.cat`, +34 93 758 21 91), asking for the Safetree extract **and a licence statement**.
+If all three fail, the fallback is a data request to the **Àrea d'Ecologia Urbana**, asking for the Safetree
+extract **and a licence statement in writing**. *(Contact details — `bustia@ajmataro.cat`,
+`planoldelaciutat@ajmataro.cat`, +34 93 758 21 91 — are agent-reported and **not independently verified**;
+confirm them on mataro.cat before writing. Given the licence paragraph above, the written statement is not a
+formality: without it there is nothing to rely on.)*
 
 ## 4. Dual hazard (criterion 4)
 No Catalan municipality outside Barcelona has a single document mapping both hazards; the evidence comes from different institutions.
