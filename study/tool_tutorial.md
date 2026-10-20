@@ -1,7 +1,7 @@
 # Tool tutorial: how `shade_sponge` works, how to use it, how to explain it (state of 20 Oct 2026)
 
 This file teaches **the tool**. For the thesis around it (problem, site, gap, RQ, hypotheses), use `study/guide.md` (on `main`).
-It describes the code on branch `claude/tool-update`: main's tool (7-species city palette, photo-based leaf calendar, 15 Oct) merged with the web app, the Barcelona shortlist and the diversity floor. **What changed since 12 Oct** is in the box below. Source of every number: `shade_sponge/README.md`, `notes/methodology.md` §4b and §6, `web/README.md`, `exchange/README.md`, unless another file is named. Numbers in "Worked example" boxes were computed for this tutorial from the tool's own formulas and parameters.
+It describes the tool as of 20 Oct: main's tool (7-species city palette, photo-based leaf calendar, 15 Oct) merged with the web app, the Barcelona shortlist and the diversity floor, re-run on 20 Oct and published online the same day. **What changed since 12 Oct** is in the box below. Source of every number: `shade_sponge/README.md`, `notes/methodology.md` §4b and §6, `web/README.md`, `exchange/README.md`, unless another file is named. Numbers in "Worked example" boxes were computed for this tutorial from the tool's own formulas and parameters.
 
 **Three parts, used in this order:**
 - **A. Learn** (§1–§11): what each module does, the idea, the maths, the assumptions. Each chapter ends with a one-sentence version you should be able to say.
@@ -296,7 +296,7 @@ And two honest ones: **runoff barely changes** across layouts (hotspot runoff va
 
 ## 11. The two front-ends
 
-**Web app** (`web/`, Vue + MapLibre + deck.gl + ECharts; static site, no server). Online: https://giofox96.github.io/shade-and-sponge/ (built from `claude/web-ui`, i.e. the 9 Oct state: six species, old leaf calendar, no diversity floor). Until this branch is published there, run the app locally (§15) to show the current results.
+**Web app** (`web/`, Vue + MapLibre + deck.gl + ECharts; static site, no server). Online: https://giofox96.github.io/shade-and-sponge/ (published 20 Oct: the same version and numbers as this tutorial, diversity floor included). It is rebuilt automatically whenever `web/` changes on `main` or `claude/web-ui`; a browser may keep the previous version for up to 10 minutes after a deploy, so reload if the numbers look old.
 - Shows the saved layouts on a 3D map with exact scores.
 - **Live re-optimisation:** the same LP as Python, solved in the browser with HiGHS (WebAssembly) in ~0.1–0.3 s. Checked against Python: same layout at 827–832 of 832 positions for 4 weight sets.
 - Live scores are **estimates (≈)**: summed single-tree potentials, corrected by a straight line fitted on the 16 saved layouts (R² shown). Exact scores need a Python run.
@@ -410,8 +410,8 @@ The cache (`cache/site_porta.npz`) stores the site bundle. If you change somethi
 
 ## 15. Use the web app
 
-**Online:** https://giofox96.github.io/shade-and-sponge/ (9 Oct state: six species, old leaf calendar, no diversity floor).
-**Local, latest version** (needs Node.js; from a checkout of `claude/tool-update`):
+**Online (use this for demos):** https://giofox96.github.io/shade-and-sponge/ (20 Oct version, same numbers as this tutorial; nothing to install).
+**Local** (only to see a new Python run before it is published; needs Node.js):
 ```powershell
 python -m shade_sponge.web_export                          # only after a new Python run
 python -m shade_sponge.web_export porta --palette=barcelona
@@ -428,7 +428,7 @@ cd web; npm install; npm run dev                           # then open the addre
 7. **Click a tree:** the inspector shows its sun hours, whether its ground drains to a hotspot, and what every species would deliver there. This answers "why this species here?".
 8. **Max share per species:** lower it to 10%, and the optimiser has to spread species out.
 9. **Untick a species** (e.g. a pest risk): it is removed and the layout re-optimised.
-10. **Diversity floor** (local only): tick it and raise N; watch summer shade drop slightly and the species bar diversify.
+10. **Diversity floor:** tick it and raise N; watch summer shade drop slightly and the species bar diversify.
 11. **Add trees:** click open ground; the tool recommends a species for the current priorities. "Download CSV" exports the new trees in Grasshopper coordinates.
 
 ## 16. Bring results into Grasshopper
@@ -481,7 +481,7 @@ All rules and Python snippets are in `exchange/README.md`. In short:
 **SAY:** "Each dot is the optimum for a different set of priorities. From 'summer shade only' to 'balanced', winter shade drops by only 2%. We first measured 9%, until dated photos from Barcelona showed that Jacaranda keeps most of its leaves in January; the tool lets one data check change a recommendation. Beyond that point it is a real trade-off: asking for winter sun brings in the winter-bare Pyrus and Styphnolobium, and costs roughly as much summer shade, in percent, as it saves winter shade. The designer has to choose."
 
 **6. Live design (30 s)**
-`[DO]` Click an empty spot in the triangle; untick one species; (local) tick the diversity floor.
+`[DO]` Click an empty spot in the triangle; untick one species; tick the diversity floor.
 **SAY:** "The designer can set their own priorities, exclude a species, or require a minimum diversity, and the layout is re-optimised in the browser in under a second, or a few seconds with the diversity floor. These live values are estimates; the exact ones come from the Python core."
 
 **7. Honest close (15 s)**
