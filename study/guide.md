@@ -180,7 +180,7 @@ Source: `notes/topic_decision.md` §6.1.
 | **Conflict 1: leaf habit** | Evergreen blocks *winter* sun (a cost) | Evergreen intercepts in autumn–winter storms (a benefit) |
 | **Conflict 2: water** | Transpiration cools, needs soil water | — |
 
-**Key finding of tool v0:** with the city palette there was **no trade-off at first** (the Pareto front collapsed to a point: bigger, denser crowns win both). Adding the leaf calendar did not help: **78% of intense storm days fall in May–Oct**, when all palette species are in leaf (Esbrí et al. 2026). The first **real trade-off appeared with winter sun access** (winter shade counted as a cost). It survived the 15 Oct re-run with the photo-based leaf calendar: beyond the balanced layout, **−18% winter shade costs −18% summer shade** (base run), and the trade-off holds in all 8 sensitivity variants (winter −12 to −19%, summer −17 to −20%).
+**Key finding of tool v0:** with the city palette there was **no trade-off at first** (the Pareto front collapsed to a point: bigger, denser crowns win both). Adding the leaf calendar did not help: **78% of intense storm days fall in May–Oct**, when all palette species are in leaf (Esbrí et al. 2026). The first **real trade-off appeared with winter sun access** (winter shade counted as a cost). It survived the 15 Oct re-run with the photo-based leaf calendar: beyond the balanced layout, **−20% winter shade costs −18% summer shade** (base run, 20 Oct), and the trade-off holds in all 8 sensitivity variants (winter −14 to −23%, summer −17 to −20%).
 
 **Mnemonic:** *"Big crowns win both; leaves in winter split them."*
 
@@ -308,10 +308,10 @@ Sources: `notes/methodology.md` §4b, §6; `shade_sponge/README.md`.
 
 **Styphnolobium (15 Oct):** a LiDAR sample from one 1 km tile outside Porta gives crown **5.32 m / LAI 2.12** from **367 trees on 25 streets** without possibly merged crowns (the tool uses these; all 607 trees give 6.43 m / 2.28). With them it ranks **5th of 8 palettes** (aggregate) and **4th of 7** (grid), and replacing the planes with it **adds runoff** (+92.5 m³, +0.52% at T2-60). Best palette: Melia (aggregate) or Jacaranda (grid). Best vs S1: **78 m³ < Δmin 91 m³** → runoff part of H1 not resolved. (The earlier 14 Oct result, where Styphnolobium came first, used only 5 Porta trees and is superseded.)
 
-**Tool v0 (shade proxy + runoff; re-run 15 Oct with the seven species and the photo-based leaf calendar):**
+**Tool v0 (shade proxy + runoff; re-run 15 Oct with the seven species and the photo-based leaf calendar; trade-off figures from the 20 Oct run):**
 - Optimised (balanced) vs random palette: **+16% summer shade** (robust across 8 sensitivity variants), but about **5% more winter shade** than random.
 - **No-regret swap:** summer-only → balanced still swaps ~90 **Tipuana → Jacaranda**, but now cuts winter shade by only **2%** at equal summer shade, because 170 iNaturalist photos from Barcelona show Jacaranda mostly in leaf in January (79%). The swap vanishes in 3 of 8 variants. *Superseded (old calendar, Jacaranda bare Jan–Mar): −9%.*
-- Beyond balanced: a **real trade-off**, robust: winter-heavy gives **−18% winter shade for −18% summer shade**, with the winter-bare Pyrus and Styphnolobium instead of Tipuana.
+- Beyond balanced: a **real trade-off**, robust: winter-heavy gives **−20% winter shade for −18% summer shade**, with the winter-bare Pyrus and Styphnolobium instead of Tipuana.
 - **Placement follows the buildings, partly:** the winter-bare Melia gets the sunniest winter positions (87% of winter hours in sun), evergreen Brachychiton far less (29%); but the winter-bare Styphnolobium (34%) and Pyrus (26%) also sit in winter-shaded streets.
 - **Hotspot runoff** varies only 0.5% across weights; on 15 Oct it mostly follows the runoff weight (on 8 Oct it did not), so still to check.
 - **No replacement layout reached S0** (mature planes): replacement always loses shade at first (balanced: −7.5% summer shade).
@@ -329,7 +329,7 @@ Sources: `notes/methodology.md` §4b, §6; `shade_sponge/README.md`.
 2. Young replacements lose ≈ 37% (more than a third) of the current street-tree runoff benefit.
 3. Swapping ~90 Tipuana for Jacaranda: same summer shade, only 2% less winter shade (15 Oct re-run; 9% with the old calendar), and not robust.
 4. The first result used the medians of only 5 Porta trees (crown 8.85 m, LAI 3.32); the sample outside Porta (367 trees without merged crowns) gives a smaller crown (5.32 m) and LAI (2.12).
-5. Yes: beyond the balanced layout, winter-heavy gives −18% winter shade for −18% summer shade (base run); the trade-off holds in all 8 variants (winter −12 to −19%, summer −17 to −20%). Only the "free" swap at the start of the front shrank.
+5. Yes: beyond the balanced layout, winter-heavy gives −20% winter shade for −18% summer shade (base run); the trade-off holds in all 8 variants (winter −14 to −23%, summer −17 to −20%). Only the "free" swap at the start of the front shrank.
 </details>
 
 ---

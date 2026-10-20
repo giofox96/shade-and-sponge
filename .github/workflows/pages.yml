@@ -1,0 +1,37 @@
+# Builds the web app (web/) and publishes it to the gh-pages branch, which GitHub Pages serves at
+# https://giofox96.github.io/shade-and-sponge/. Runs when web/ changes on main or claude/web-ui.
+name: Pages
+on:
+  push:
+    branches: [main, claude/web-ui]
+    paths: ["web/**", ".github/workflows/pages.yml"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: web/package-lock.json
+      - run: npm ci && npm run build
+        working-directory: web
+      - name: Publish web/dist to gh-pages
+        working-directory: web/dist
+        run: |
+          touch .nojekyll
+          git init -q -b gh-pages
+          git add -A
+          git -c user.name="github-actions[bot]" -c user.email="41898282+github-actions[bot]@users.noreply.github.com" commit -q -m "Deploy ${GITHUB_SHA::7}"
+          git push -q -f "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" gh-pages

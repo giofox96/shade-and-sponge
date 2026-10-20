@@ -9,6 +9,9 @@ The user lives in Florence (15 Oct), so **no field photos in Porta**. Remote alt
 - [x] Photo-based leaf calendar **adopted (15 Oct)** and written into `databases/traits/phenology_palette.csv`.
 - [x] **Tool and sensitivity re-run locally (15 Oct):** the Tipuana → Jacaranda no-regret swap shrinks from −9% to −2% winter shade and vanishes in 3 of 8 variants; the summer–winter trade-off beyond the balanced layout is robust (`shade_sponge/README.md`). Street View check no longer needed for the tool.
 
+## Open: data licence on the public web app
+- [ ] **Flood-hazard index licence.** The public app (https://giofox96.github.io/shade-and-sponge/) shows the hotspot layer derived from the Barcelona Resilience Atlas flood-hazard index (index ≥ 40). The source states no licence. Kept online for now (your decision, 9 Oct) with credit to Barcelona Regional. Later: ask Barcelona Regional / the Urban Resilience office for the terms, or remove the overlay (`shade_sponge/web_export.py`, layer `hotspots`).
+
 ## Before the 20 Oct meeting
 
 ### Decisions only you can take (memos ready; most give a recommended default)
