@@ -40,7 +40,7 @@ watch(
       <span class="muted">Street-tree replacement in {{ state.meta.site.name }}, Barcelona · 832 plane-tree positions</span>
       <span class="spacer"></span>
       <span class="seg" role="group" aria-label="Species palette">
-        <button :class="{ on: state.site === 'porta' }" @click="switchSite('porta')">City palette (6)</button>
+        <button :class="{ on: state.site === 'porta' }" @click="switchSite('porta')">City palette (7)</button>
         <button :class="{ on: state.site === 'porta-barcelona' }" @click="switchSite('porta-barcelona')">Barcelona shortlist</button>
       </span>
       <span class="muted">{{ label(scenario) }}</span>

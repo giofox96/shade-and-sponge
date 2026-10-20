@@ -137,7 +137,7 @@ lon_c, lat_c = to_ll(x0 + W / 2, y1 - H / 2)
 meta = dict(palette_kind=kind, grid=grid, model=model, site=dict(name=name.capitalize(), center=[round(lon_c, 6), round(lat_c, 6)], corners=[r6(c) for c in corners]),
             palette=palette, scenarios=scen, overlays=overlays, storm="PDISBA T = 2 yr, 1 h (31.9 mm), season-weighted",
             sensitivity=sens.to_dict(orient="records"),
-            assumptions=["Leafless crown opacity 0.35 (test 0.25–0.54)", "Design days 15 Jul and 15 Jan (until EPW)",
+            assumptions=["Leafless crown opacity 0.35 (test 0.25–0.54)", "Design days 15 Jul 12–17 h CEST and 15 Jan 10–15 h CET (summer window not yet aligned with the decided heat metric: mean UTCI 13–18 h CEST on a hot design day)",
                          "Runoff reaches a hotspot only within 100 m of flow path", "Tipuana half-leafed in April; class-default leaf months for most deciduous species"])
 json.dump(meta, open(out / "meta.json", "w", encoding="utf-8"), indent=1, ensure_ascii=False)
 print("wrote", out, sorted(p.name for p in out.iterdir()))
