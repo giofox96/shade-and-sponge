@@ -76,15 +76,20 @@ def save(name, title, subtitle, body, source):
     print("wrote", p.relative_to(ROOT))
 
 
-def to_png(svg, scale=2):
-    """Headless Edge/Chrome/Chromium screenshot. Windows first (the user's machine), then the Chromium a cloud session has.
-
-    scale=1 for the photo title slide: the source photo is 1240 px wide, so a 2x render would only upscale it."""
+def browser_exe():
+    """The headless browser used for PNG screenshots and (in md_to_pdf.py) for printing to PDF."""
     cand = [r"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe",
             r"C:\Program Files\Google\Chrome\Application\chrome.exe",
             shutil.which("msedge"), shutil.which("chrome"), shutil.which("chromium")]
     cand += sorted(str(p) for p in pathlib.Path("/opt/pw-browsers").glob("chromium*/chrome-linux/chrome"))
-    exe = next((e for e in cand if e and pathlib.Path(e).exists()), None)
+    return next((e for e in cand if e and pathlib.Path(e).exists()), None)
+
+
+def to_png(svg, scale=2):
+    """Headless Edge/Chrome/Chromium screenshot. Windows first (the user's machine), then the Chromium a cloud session has.
+
+    scale=1 for the photo title slide: the source photo is 1240 px wide, so a 2x render would only upscale it."""
+    exe = browser_exe()
     if not exe:
         print("  no Edge/Chrome found: PNG skipped")
         return
@@ -629,6 +634,100 @@ def fig_problem():
          "(Porta anomaly); tree master plan via BCNROC, databases/data_inventory_barcelona.md D1 (press figures conflict).")
 
 
+# ---- Slide 4. Why Porta: the screening, not a preference
+def fig_why_porta():
+    """The three-panel profile map (built by bcn_site_select.py) plus the screening rule and the ranks.
+
+    The map is referenced relatively from notes/figures/, so nothing is duplicated."""
+    b = ('<image x="60" y="150" width="1000" height="389" preserveAspectRatio="xMidYMid meet" '
+         'href="../../notes/figures/porta_profile.png"/>')
+    b += t(60, 572, "Pluvial flood hazard  \u00b7  summer surface-heat anomaly  \u00b7  street trees, the 832 planes in green",
+           16, MUTED)
+
+    b += rect(1100, 150, 440, 404, INK, rx=12, op=0.05) + rect(1100, 150, 440, 6, INK, rx=0)
+    b += t(1124, 188, "THE RULE, FIXED FIRST", 16, INK, "bold")
+    b += para(1124, 220, "A neighbourhood qualifies only if flood hazard, surface heat and plane density are "
+                         "all above the city's 60th percentile. Non-compensatory: one strong hazard cannot "
+                         "buy the absence of the other.", 392, 16)[0]
+    yy = 320
+    for lab, val in (("SCREENED", "73 neighbourhoods, 72 with complete data"),
+                     ("ELIGIBLE", "12 at the 50th percentile, 7 at the 60th, 2 at the 70th"),
+                     ("PORTA", "first of the eligible set at every threshold")):
+        b += t(1124, yy, lab, 13, MUTED, "bold")
+        ptxt, hh = para(1124, yy + 24, val, 392, 17)
+        b += ptxt
+        yy += 24 + hh + 10
+    b += para(1124, yy + 4, "#2 overall on the equal-weight score; top 3 in 53% of 2,000 random weightings.",
+              392, 13, fill=MUTED)[0]
+
+    tiles = ((TREE, "832", "plane trees, 994 per km\u00b2 (#15 of 72), inside 2,825 street trees of 53 taxa"),
+             (RAIN, "#13", "flood hazard: share of area with the index \u2265 40 (Barcelona Regional)"),
+             (HEAT, "#11", "surface heat, +1.36 \u00b0C above the city median \u00b7 #12 heat vulnerability, 91% of the area in the top class"),
+             (INK, "7 of 7", "candidate species already grow here: the six the city names, plus Styphnolobium"))
+    for i, (col, big, small) in enumerate(tiles):
+        x = 60 + i * 375
+        b += rect(x, 616, 355, 150, col, rx=12, op=0.08) + rect(x, 616, 355, 6, col, rx=0)
+        b += t(x + 20, 676, big, 38, col, "bold")
+        b += para(x + 20, 706, small, 315, 15, fill=INK)[0]
+
+    b += para(60, 796, "Why not Sant Antoni, which scores higher if you let the criteria compensate: it is #1 for "
+              "flood hazard but #38 for surface heat \u2014 below the city median \u2014 so it fails the both-hazards "
+              "gate. It stays as the flood-dominant contrast site.", 1480, 17, fill=MUTED)[0]
+    save("04_why_porta", "Porta, Nou Barris: both hazards, and the planes to replace",
+         "0.84 km\u00b2 \u00b7 chosen by a rule written before the data was ranked", b,
+         "notes/site_selection.md sections 2-4; scripts/bcn_site_screening.py, bcn_heat_check.py, bcn_site_select.py; "
+         "databases/barcelona/site_selection.csv. Map: notes/figures/porta_profile.png (flood index via the Barcelona "
+         "Resilience Atlas; Landsat 8/9 summer LST anomaly, 31 scenes 2022-2025; arbrat-viari, 1 Oct 2026).")
+
+
+# ---- Slides 14 and 15. The two results, around the plots the modules already produce
+def result_slide(name, title, subtitle, plot, tiles, caveat, source):
+    """A result plot from notes/figures (referenced, not copied) over a row of four numbers."""
+    b = (f'<image x="60" y="150" width="1480" height="520" preserveAspectRatio="xMidYMid meet" '
+         f'href="../../notes/figures/{plot}"/>')
+    for i, (col, big, small) in enumerate(tiles):
+        x = 60 + i * 375
+        b += rect(x, 690, 355, 112, col, rx=12, op=0.08) + rect(x, 690, 355, 6, col, rx=0)
+        b += t(x + 20, 736, big, 30, col, "bold")
+        b += para(x + 20, 762, small, 315, 14, fill=INK)[0]
+    b += para(60, 814, caveat, 1480, 15, fill=MUTED)[0]
+    save(name, title, subtitle, b, source)
+
+
+def fig_runoff_result():
+    result_slide(
+        "14_runoff_result", "First result: the runoff module runs",
+        "Porta, 2-year 1-hour design storm (31.9 mm); canopy storage calibrated on 16 trees and 51 storms in Freiburg",
+        "runoff_results_v1.png",
+        ((RAIN, "\u22121.85%", "runoff from the street trees standing today, at T = 2 (\u22122.9% on open ground, i.e. everything but roofs)"),
+         (TREE, "3.5\u20134%", "the field benchmark: 4% measured by removal (Selbig 2021), 3.5% in the calibrated re-analysis (Coville 2022)"),
+         (WARN, "\u2248 37%", "of that benefit lost during the transition: any young replacement gives about +0.7% runoff"),
+         (INK, "0.4\u20134.0%", "the whole effect across s = 0.86\u20132.2 mm per unit LAI and T = 1\u201310 yr")),
+        "Volume only: no sewer, no routing to outlets, no ponding, no peak flow. The benefit falls from 3.16% at "
+        "T = 1 to 0.90% at T = 10 \u2014 arithmetic, because every crown is full at every design storm, which is why "
+        "H3 was withdrawn on 19 Oct and the shrinking benefit is now stated as a boundary of the method.",
+        "notes/methodology.md section 4b; scripts/runoff_model.py, calibrate_interception.py, plot_runoff.py; "
+        "databases/barcelona/runoff_scenarios.csv and runoff_sensitivity_storage.csv; calibration data "
+        "Anys & Weiler 2024 (FreiDok); benchmark Selbig et al. 2021, Coville et al. 2022.")
+
+
+def fig_shade_result():
+    result_slide(
+        "15_shade_result", "First result: the shade trade-off is real",
+        "Tool v0 over the seven candidate species, with the photo-based leaf calendar (re-run 15 Oct)",
+        "tool_v0.png",
+        ((TREE, "+16%", "summer shade, optimised against a random palette \u2014 robust across all 8 sensitivity variants"),
+         (WARN, "no winter gain", "the same layout is about equal or worse in winter shade (\u22120.8 to +7.9%)"),
+         (HEAT, "\u221218% / \u221218%", "beyond the balanced layout, winter shade bought with summer shade: one for one in the base run, 0.6\u20131.0 across variants"),
+         (INK, "\u22127.5%", "even with mature replacement crowns, no layout reaches the planes standing today")),
+        "Shade is the fast proxy, not UTCI: the Ladybug module comes next. Positions are fixed at the 832 plane pits, "
+        "so this compares species composition, not placement \u2014 and the leaf calendar it rests on is photo-based "
+        "evidence for January only.",
+        "shade_sponge/README.md (tool v0 run and its sensitivity table); scripts/sensitivity_tool_v0.py, "
+        "plot_tool_v0.py; databases/barcelona/tool_v0_summary.csv and tool_v0_sensitivity.csv; leaf calendar "
+        "notes/decisions/leaf_state_inat.md.")
+
+
 # ---- Slide 7. Heat evidence, and what the model cannot see
 def fig_heat_evidence():
     def block(x, w, color, head, items):
@@ -819,6 +918,7 @@ if __name__ == "__main__":
     fig_title()               # slide 1
     fig_one_sentence()        # slide 2
     fig_problem()             # slide 3
+    fig_why_porta()           # slide 4
     fig_lit_map()             # slide 5
     fig_runoff_evidence()     # slide 6
     fig_heat_evidence()       # slide 7
@@ -828,6 +928,8 @@ if __name__ == "__main__":
     fig_research_question()   # slide 11
     fig_hypotheses()          # slide 12
     fig_method()              # slide 13
+    fig_runoff_result()       # slide 14
+    fig_shade_result()        # slide 15
     fig_transfer()            # slide 16
     fig_limits_asks()         # slide 17
     fig_tree_system()         # backup B1
