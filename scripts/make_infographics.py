@@ -76,15 +76,20 @@ def save(name, title, subtitle, body, source):
     print("wrote", p.relative_to(ROOT))
 
 
-def to_png(svg, scale=2):
-    """Headless Edge/Chrome/Chromium screenshot. Windows first (the user's machine), then the Chromium a cloud session has.
-
-    scale=1 for the photo title slide: the source photo is 1240 px wide, so a 2x render would only upscale it."""
+def browser_exe():
+    """The headless browser used for PNG screenshots and (in md_to_pdf.py) for printing to PDF."""
     cand = [r"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe",
             r"C:\Program Files\Google\Chrome\Application\chrome.exe",
             shutil.which("msedge"), shutil.which("chrome"), shutil.which("chromium")]
     cand += sorted(str(p) for p in pathlib.Path("/opt/pw-browsers").glob("chromium*/chrome-linux/chrome"))
-    exe = next((e for e in cand if e and pathlib.Path(e).exists()), None)
+    return next((e for e in cand if e and pathlib.Path(e).exists()), None)
+
+
+def to_png(svg, scale=2):
+    """Headless Edge/Chrome/Chromium screenshot. Windows first (the user's machine), then the Chromium a cloud session has.
+
+    scale=1 for the photo title slide: the source photo is 1240 px wide, so a 2x render would only upscale it."""
+    exe = browser_exe()
     if not exe:
         print("  no Edge/Chrome found: PNG skipped")
         return
