@@ -2,7 +2,7 @@
 
 **What changed in v3 (19 Oct, evening).** The deck is rebuilt to follow the rhythm of `study/guide.md`: **one idea per slide**, the number first and its caveat in the same breath, and the limits said before the tutor asks. It goes from 10 slides to **17 + 3 backups**. Six new figures were written for it (`02_one_sentence`, `03_problem`, `07_heat_evidence`, `11_research_question`, `12_hypotheses`, `17_limits_asks`); the others are the existing ones, renamed. The two RM-seminar figures stay parked in `slides/seminar_rm/`.
 
-**Figure files = slide numbers.** `slides/fig/NN_*.png` is the figure for slide NN. Slides **4, 14, 15** have no file there on purpose: they use a plot from `notes/figures/`. Slide 1 is a full-bleed photo slide, built from `slides/fig/01_title_photo.webp`. Backups are `B1_*`, `B2_*`. Regenerate everything with `python scripts/make_infographics.py` (run it from `scripts/`).
+**Figure files = slide numbers.** `slides/fig/NN_*.png` is the figure for slide NN. **Every slide now has its figure.** Slide 1 is a full-bleed photo (`slides/fig/01_title_photo.webp`); slides 4, 14 and 15 wrap a plot from `notes/figures/`, referenced relatively, so those plots are not duplicated — re-run their own script and the slide updates with them. Backups are `B1_*`, `B2_*`. Regenerate everything with `python scripts/make_infographics.py` (run it from `scripts/`).
 
 **Length.** Brackets in the headings are the cumulative target at **150 words a minute** (most people present at 140–160).
 - **Full deck, 17 slides:** 1,542 spoken words ≈ 10:17 (11:01 slow, 9:38 brisk).
@@ -44,7 +44,7 @@
 ---
 
 ## 4. Why Porta — CORE [2:14]
-**Figure:** `notes/figures/porta_profile.png` (fallback: `notes/figures/bcn_site_screening.png`).
+**Figure:** `slides/fig/04_why_porta.png` — the three-panel profile (flood hazard, surface heat, the 832 planes in green) plus the screening rule, the ranks and why not Sant Antoni.
 **On slide:** Porta, Nou Barris · 0.84 km² · 73 screened, **first of the eligible set at every threshold** (#2 overall on the equal-weight score; top 3 in 53% of 2,000 random weightings) · ranks among the 72 with complete data: flood #13 · surface heat #11 (+1.36 °C) · heat vulnerability #12 · **832 plane trees** · 2,825 street trees, 53 taxa · the six named replacement species, plus *Styphnolobium*, already grow there.
 
 **Say (105 words):**
@@ -142,7 +142,7 @@
 ---
 
 ## 14. First result: the runoff module runs — CORE [8:12]
-**Figure:** `notes/figures/runoff_results_v1.png`
+**Figure:** `slides/fig/14_runoff_result.png` — the two runoff panels plus the four numbers and the volume-only caveat.
 **On slide:** today's street trees: **−1.85%** runoff at T = 2 (−2.9% on open ground, i.e. everything but roofs) · field benchmark 3.5–4% · young replacements lose **≈ 37%** of that benefit · effect falls 3.16% → 0.90% from T = 1 to T = 10 · calibrated on 16 trees, 51 storms (Freiburg), s = 1.75 mm per unit LAI.
 
 **Say (101 words):**
@@ -151,7 +151,7 @@
 ---
 
 ## 15. First result: shade, and a real trade-off — EXTRA [8:53]
-**Figure:** `notes/figures/tool_v0.png`
+**Figure:** `slides/fig/15_shade_result.png` — the shade trade-off and the winter-sun map, plus the four numbers and the proxy caveat.
 **On slide:** optimised vs random palette: **+16% summer shade**, robust across 8 sensitivity variants — but **no winter gain** (−0.8 to +7.9%: about equal or worse) · beyond the balanced layout a genuine trade-off: **−17.6% winter shade for −18.0% summer shade** in the base run (ratio ~0.6–1.0 across the variants) · **even with mature replacement crowns**, no layout reaches today's planes (balanced: −7.5% summer shade).
 
 **Say (102 words):**
