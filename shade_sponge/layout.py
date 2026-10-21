@@ -14,6 +14,12 @@ CITY_PALETTE = ["Celtis australis", "Melia azedarach", "Pyrus calleryana", "Jaca
                 "Styphnolobium japonicum"]  # added by the user 14 Oct (press, inventory D1); crown + LAI from a city-wide LiDAR sample (site.CITY_LIDAR)
 MAX_SHARE = 0.15                            # tree master plan: no species above 15% (notes/topic_decision.md §7)
 MIN_LIDAR = 20                              # ASSUMPTION: species need >= 20 LiDAR-measured trees for median traits
+# Size class per species, 2011 street-tree guide catalogue pp. 49-56 (notes/tree_master_plan.md §5); species not listed
+# here get no size filter (ASSUMPTION). Sidewalk width -> position class: scripts/porta_sidewalk_width.py (guide pp. 22-23).
+SIZE_CLASS = {"Platanus x acerifolia": "large", "Celtis australis": "large", "Tipuana tipu": "large",
+              "Jacaranda mimosifolia": "large", "Melia azedarach": "medium", "Styphnolobium japonicum": "medium",
+              "Brachychiton populneus": "medium", "Pyrus calleryana": "small"}
+RANK = {"none": -1, "small": 0, "medium": 1, "large": 2}
 
 
 def slug(species):
@@ -45,13 +51,32 @@ def palette(site, kind="city"):
     return p
 
 
-def fits(site, pos, pal):
+def size_fits(pos_class, species, rule="exact"):
+    """Sizing rule of the 2011 guide: "exact" = one tree class per sidewalk class, as the guide reads literally;
+    "at_most" = smaller classes also allowed on wider sidewalks (ASSUMPTION). Positions classed "check" (no facade-bounded
+    sidewalk: medians, boulevards, plaza edges) and species without a class are not filtered (ASSUMPTION)."""
+    p = np.array([RANK.get(c, np.nan) for c in pos_class])[:, None]
+    q = np.array([RANK.get(SIZE_CLASS.get(s), np.nan) for s in species])[None, :]
+    ok = (q == p) if rule == "exact" else (q <= p)
+    return ok | np.isnan(p) | np.isnan(q)
+
+
+def sidewalk_class(pos):
+    """Size class of each position from databases/barcelona/porta_sidewalk_width.csv ("check" if not measured)."""
+    w = pd.read_csv(DB / "porta_sidewalk_width.csv").set_index("tree_id").size_class
+    return w.reindex(pos.tree_id).fillna("check").values
+
+
+def fits(site, pos, pal, size_rule=None):
     """Crown clearance from façades (methodology §6): crown radius <= distance from the position to the nearest building.
-    ASSUMPTION: no extra margin; building = OSM footprint or LiDAR building points > 3 m above ground."""
+    ASSUMPTION: no extra margin; building = OSM footprint or LiDAR building points > 3 m above ground.
+    size_rule ("exact" / "at_most"): also apply the sidewalk-width sizing rule (size_fits); None = off."""
     d = ndimage.distance_transform_edt(~(site.roof | (site.bldg_h > 3))) * site.res
     r, c = rc(site, pos.x.values, pos.y.values)
     f = d[r, c][:, None] >= pal.crown_diam_m.values[None, :] / 2
-    f[~f.any(1), pal.crown_diam_m.values.argmin()] = True     # nothing fits: smallest crown
+    if size_rule:
+        f &= size_fits(sidewalk_class(pos), pal.species, size_rule)
+    f[~f.any(1), pal.crown_diam_m.values.argmin()] = True     # nothing fits (incl. sidewalks < 2.5 m): smallest crown
     return f
 
 
@@ -158,7 +183,7 @@ def random_layout(cap, fit, rng):
 def apply(site, pos, pal, choice):
     """Full street-tree set: kept trees (LiDAR crowns) + the chosen species at the plane positions."""
     t = site.trees
-    kept = t[~t.is_plane & (t.flag == "ok")]
+    kept = t[~t.tree_id.isin(pos.tree_id) & (t.flag == "ok")]       # non-planes, plus planes kept out of the decision
     new = pos[["tree_id", "x", "y"]].copy()
     for k in ("species", "crown_diam_m", "height_m", "crown_base_m", "lai"):
         new[k] = pal[k].values[choice]

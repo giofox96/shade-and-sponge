@@ -43,3 +43,13 @@ def test_diversity_floor():
     div = layout.assign(score, cap, fit, min_eff=4)
     assert layout.eff_species(div, 5) >= 4 and np.bincount(div, minlength=5).max() <= 40
     assert score[np.arange(60), div].sum() <= score[np.arange(60), free].sum()
+
+
+def test_size_fits():
+    sp = ["Pyrus calleryana", "Melia azedarach", "Tipuana tipu", "Unlisted sp."]
+    pos = ["small", "medium", "large", "check", "none"]
+    ex = layout.size_fits(pos, sp, "exact")
+    assert ex[:3, :3].tolist() == np.eye(3, dtype=bool).tolist()
+    assert ex[3].all() and ex[:, 3].all() and not ex[4, :3].any()
+    am = layout.size_fits(pos, sp, "at_most")
+    assert am[2].all() and am[1, :2].all() and not am[1, 2] and not am[0, 1:3].any()
