@@ -13,9 +13,14 @@ import pandas as pd
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 OUT = ROOT / "slides/fig"
 W, H = 1600, 900
-INK, MUTED, GRID, BG = "#1F2933", "#6B7280", "#E5E7EB", "#FFFFFF"
-HEAT, RAIN, TREE, WARN = "#D9622B", "#2F6DB5", "#3B7F4A", "#B7791F"
-FONT = "Arial, Helvetica, sans-serif"
+# Deck palette "Earth" (slides/palette_board.html, option C): tree = moss, rain = ink blue, heat = rust, warn = ochre
+INK, MUTED, GRID, BG = "#2A2622", "#665E4F", "#DCD8CE", "#F2F0EA"
+HEAT, RAIN, TREE, WARN = "#663825", "#283F66", "#3F663E", "#8C6A24"
+DARK, DARK_INK, DARK_MUTED = "#283F2A", "#F2F0EA", "#B3BAB9"   # title / section slides
+FONT, MONO = "'IBM Plex Sans', Arial, sans-serif", "'IBM Plex Mono', monospace"
+# Google Fonts load at render time; install IBM Plex locally to edit the SVGs or use them in PowerPoint
+FONT_CSS = ('<style>@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600;700'
+            '&amp;family=IBM+Plex+Mono:wght@400;600&amp;display=block");</style>')
 
 
 # ---- SVG helpers
@@ -26,8 +31,8 @@ def t(x, y, s, size=20, fill=INK, weight="normal", anchor="start", italic=False,
 
 
 def para(x, y, s, width, size=18, lh=1.3, **k):
-    """Wrapped text (Arial ~0.5 em per character); returns (svg, height)."""
-    lines = textwrap.wrap(s, max(8, int(width / (0.5 * size))))
+    """Wrapped text (IBM Plex Sans ~0.53 em per character); returns (svg, height)."""
+    lines = textwrap.wrap(s, max(8, int(width / (0.53 * size))))
     return "".join(t(x, y + i * size * lh, ln, size, **k) for i, ln in enumerate(lines)), len(lines) * size * lh
 
 
@@ -67,7 +72,7 @@ def save(name, title, subtitle, body, source):
     head = t(60, 78, title, 38, weight="bold") + t(60, 116, subtitle, 21, MUTED)
     foot, _ = para(60, 852, "Sources: " + source, W - 120, 13, fill=MUTED)
     svg = (f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" font-family="{FONT}">'
-           '<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">'
+           f'{FONT_CSS}<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">'
            f'<path d="M0,0 L10,5 L0,10 z" fill="{MUTED}"/></marker></defs>'
            f'<rect width="{W}" height="{H}" fill="{BG}"/>{head}{body}{foot}</svg>')
     p = OUT / f"{name}.svg"
@@ -97,7 +102,7 @@ def to_png(svg, scale=2):
     with tempfile.TemporaryDirectory(ignore_cleanup_errors=True) as prof:   # Edge may still hold profile files
         subprocess.run([exe, "--headless", "--disable-gpu", "--hide-scrollbars", f"--user-data-dir={prof}", *flags,
                         f"--screenshot={svg.with_suffix('.png')}", f"--window-size={W},{H}",
-                        f"--force-device-scale-factor={scale}", svg.as_uri()], capture_output=True, timeout=60)
+                        f"--force-device-scale-factor={scale}", "--virtual-time-budget=8000", svg.as_uri()], capture_output=True, timeout=60)
 
 
 # ---- 1. What the review covers
@@ -250,7 +255,7 @@ def fig_gap():
         if me:
             b += rect(45, y - 6, 1510, 52, TREE, op=0.1)
         b += t(60, y + 18, name, 20, TREE if me else INK, "bold")
-        s, _ = para(60, y + 39, sub, 760, 15, fill=MUTED)
+        s, _ = para(60, y + 39, sub, 790, 15, fill=MUTED)
         b += s
         for x, val, col in zip(cx, v, (HEAT, RAIN, TREE, INK)):
             b += ball(x, y + 24, val, col, 15)
@@ -355,7 +360,7 @@ def fig_method():
 
 # ---- 7. Backup: the tree as a system (crown + pit + soil), scope extension
 def fig_tree_system():
-    SOIL, PAVE = "#A47148", "#9CA3AF"
+    SOIL, PAVE = "#A47148", "#B3BAB9"
     b = rect(70, 600, 680, 18, PAVE, rx=0) + t(80, 640, "sealed pavement", 14, MUTED)
     b += rect(70, 618, 680, 150, SOIL, rx=0, op=0.12) + t(520, 660, "compacted fill: no survey data", 14, MUTED)
     b += rect(330, 600, 170, 160, SOIL, rx=4, op=0.45) + t(415, 750, "pit soil", 15, BG, "bold", "middle")
@@ -525,26 +530,26 @@ def fig_title():
     The photo file sits next to the SVG and is referenced relatively, so both the headless render and
     an SVG editor resolve it. PHOTO CREDIT IS UNCONFIRMED (see the outline): check it before the booklet."""
     g = ('<defs><linearGradient id="scrim" x1="0" y1="0" x2="1" y2="0">'
-         '<stop offset="0" stop-color="#0B1A20" stop-opacity="0.86"/>'
-         '<stop offset="0.52" stop-color="#0B1A20" stop-opacity="0.52"/>'
-         '<stop offset="1" stop-color="#0B1A20" stop-opacity="0.04"/></linearGradient>'
+         f'<stop offset="0" stop-color="{DARK}" stop-opacity="0.86"/>'
+         f'<stop offset="0.52" stop-color="{DARK}" stop-opacity="0.52"/>'
+         f'<stop offset="1" stop-color="{DARK}" stop-opacity="0.04"/></linearGradient>'
          '<linearGradient id="foot" x1="0" y1="0" x2="0" y2="1">'
-         '<stop offset="0" stop-color="#0B1A20" stop-opacity="0"/>'
-         '<stop offset="1" stop-color="#0B1A20" stop-opacity="0.75"/></linearGradient></defs>')
+         f'<stop offset="0" stop-color="{DARK}" stop-opacity="0"/>'
+         f'<stop offset="1" stop-color="{DARK}" stop-opacity="0.75"/></linearGradient></defs>')
     b = (f'<image x="0" y="0" width="{W}" height="{H}" preserveAspectRatio="xMidYMid slice" '
          'href="01_title_photo.webp"/>'
          f'<rect width="{W}" height="{H}" fill="url(#scrim)"/>'
          f'<rect x="0" y="{H - 150}" width="{W}" height="150" fill="url(#foot)"/>')
-    b += rect(80, 300, 88, 6, "#FFFFFF", rx=0)
-    b += t(80, 410, "Shade and Sponge", 86, "#FFFFFF", "bold")
+    b += rect(80, 300, 88, 6, WARN, rx=0)
+    b += t(80, 410, "Shade and Sponge", 86, DARK_INK, "bold")
     b += para(80, 470, "A computational method for choosing which species replace Barcelona's plane trees, "
-                       "and where — scored on summer heat and on storm runoff.", 820, 28, fill="#E8EEF0")[0]
-    b += t(80, 596, "MaCAD, IAAC  ·  Tutor session, 20 October 2026", 22, "#9FB4BC")
+                       "and where — scored on summer heat and on storm runoff.", 820, 28, fill=DARK_INK)[0]
+    b += t(80, 596, "MaCAD, IAAC  ·  Tutor session, 20 October 2026", 22, DARK_MUTED)
     b += t(80, 820, "Horts urbans de Porta, Carrer d'Alcúdia × Carrer de la Maladeta, Nou Barris — "
-                    "the bare crowns in the foreground are the plane trees this thesis is about.", 17, "#C6D3D8")
+                    "the bare crowns in the foreground are the plane trees this thesis is about.", 17, DARK_MUTED)
     svg = (f'<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" '
            f'width="{W}" height="{H}" viewBox="0 0 {W} {H}" font-family="{FONT}">'
-           f'<rect width="{W}" height="{H}" fill="#0B1A20"/>{g}{b}</svg>')
+           f'{FONT_CSS}<rect width="{W}" height="{H}" fill="{DARK}"/>{g}{b}</svg>')
     out = OUT / "01_title.svg"
     out.write_text(svg, encoding="utf-8")
     to_png(out, scale=1)
