@@ -1,4 +1,4 @@
-# Email to Parcs i Jardins (draft, 21 Oct 2026, not sent; question 5 updated after the sidewalk extraction; also saved as a Gmail draft)
+# Email to Parcs i Jardins (SENT 21 Oct 2026 via the city web form "Atenció en línia", request code RGF7342; Catalan web-form version below)
 
 Purpose: settle the two risks in `notes/topic_decision.md` §9.8:
 - Does a per-street replacement list exist?
@@ -41,7 +41,7 @@ giovanni.carlo.volpe@students.iaac.net
 ---
 
 ## Web-form versions (≤ 1,200 characters, 21 Oct)
-The city's "Atenció en línia" form takes at most 1,200 characters. These are the versions the user chose to send through it.
+The city's "Atenció en línia" form takes at most 1,200 characters. **Sent 21 Oct 2026 (Catalan version, prefixed with "Consulta acadèmica (no és una petició de plantació).") under Trees → "Trees planting request", the closest tree category (none is an information query). Request code: RGF7342.** Reply expected at the IAAC address. If no answer by ~4 Nov, follow up with the code.
 
 **Catalan (1,122 characters):**
 
