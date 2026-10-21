@@ -1,0 +1,295 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>Urban Vulnerabilities Cluster Map</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@500;600&display=swap">
+<style>
+/* Layout: a ring of twelve template questions around the shared cluster topic, drawn on a fixed 2000×1240 board that scales to fit; below 900px it becomes a stacked list. */
+:root {
+  --bg: #f4f6f6;
+  --paper: #ffffff;
+  --ink: #17282f;
+  --muted: #5b6b72;
+  --line: #c7d0d3;
+  --core: #1d3a44;
+  --core-ink: #f1f6f7;
+  --g: #2b7a4b;   --g-soft: #e6f2ea;
+  --e: #1c69a8;   --e-soft: #e4eff8;
+  --d: #b8352a;   --d-soft: #fbe9e7;
+  --all: #4c5c64; --all-soft: #e9eef0;
+  --focus: #1c69a8;
+  --frame: #9fb0b6;
+  --on-tag: #ffffff;
+  --display: "Public Sans", "Helvetica Neue", Arial, sans-serif;
+  --body: "Public Sans", "Helvetica Neue", Arial, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0f1a1e; --paper: #16252b; --ink: #e6eef0; --muted: #9db0b6; --line: #33474e;
+    --core: #24505d; --core-ink: #f1f6f7;
+    --g: #6fcf95; --g-soft: #173327; --e: #79b6ec; --e-soft: #16304a;
+    --d: #f08a7e; --d-soft: #3a1d1a; --all: #b3c3c9; --all-soft: #24343a; --focus: #79b6ec; --frame: #4a6068; --on-tag: #0f1a1e;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0f1a1e; --paper: #16252b; --ink: #e6eef0; --muted: #9db0b6; --line: #33474e;
+  --core: #24505d; --core-ink: #f1f6f7;
+  --g: #6fcf95; --g-soft: #173327; --e: #79b6ec; --e-soft: #16304a;
+  --d: #f08a7e; --d-soft: #3a1d1a; --all: #b3c3c9; --all-soft: #24343a; --focus: #79b6ec; --frame: #4a6068; --on-tag: #0f1a1e;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body {
+  background: var(--bg); color: var(--ink); font-family: var(--body); line-height: 1.4;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+  padding-block: 28px 40px;
+}
+.page { max-width: 1600px; margin: 0 auto; display: flex; flex-direction: column; gap: 18px; }
+header { display: flex; flex-wrap: wrap; align-items: end; justify-content: space-between; gap: 16px 32px; }
+h1 { font-family: var(--display); font-weight: 800; font-size: clamp(1.6rem, 3.2vw, 2.5rem); letter-spacing: -0.02em; margin: 0; text-wrap: balance; }
+.lede { margin: 6px 0 0; color: var(--muted); max-width: 70ch; }
+.filter { display: flex; flex-wrap: wrap; gap: 6px; }
+.filter button {
+  font: 600 0.82rem var(--body); border: 1.5px solid var(--line); background: var(--paper); color: var(--ink);
+  border-radius: 999px; padding: 7px 14px; cursor: pointer; display: inline-flex; align-items: center; gap: 7px; min-height: 36px;
+}
+.filter button[aria-pressed="true"] { border-color: var(--ink); background: var(--ink); color: var(--paper); }
+.filter button:focus-visible, a:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }
+.dot { width: 10px; height: 10px; border-radius: 50%; background: currentColor; flex: none; }
+.filter [data-p="g"] .dot { background: var(--g); } .filter [data-p="e"] .dot { background: var(--e); }
+.filter [data-p="d"] .dot { background: var(--d); } .filter [data-p="all"] .dot { background: var(--all); }
+
+/* board */
+.scroller { overflow-x: auto; }
+.frame { position: relative; }
+.board { position: absolute; top: 0; left: 0; width: 2080px; height: 1230px; transform-origin: 0 0; }
+.ring { position: absolute; inset: 0; width: 2080px; height: 1230px; pointer-events: none; }
+.ring .spoke { stroke: var(--line); stroke-width: 2.5; fill: none; }
+.ring .link { stroke: var(--muted); stroke-width: 2; stroke-dasharray: 7 7; fill: none; }
+.ring .linklabel { fill: var(--muted); font: italic 500 17px var(--body); }
+
+.box {
+  position: absolute; width: 420px; height: 250px; background: var(--paper); border: 1.5px solid var(--frame);
+  border-radius: 6px; padding: 14px 20px 14px; display: flex; flex-direction: column; gap: 8px;
+  box-shadow: 0 1px 0 var(--line);
+}
+.box h2 { margin: 0 0 4px; padding-bottom: 8px; border-bottom: 1px solid var(--line); font: 600 14.5px var(--mono); letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink); }
+.row { display: grid; grid-template-columns: 30px 1fr; gap: 10px; align-items: start; font-size: 16px; line-height: 1.3; transition: opacity .2s; }
+.row p { margin: 0; min-width: 0; }
+.tag { width: 24px; height: 24px; margin-top: -2px; border-radius: 50%; display: grid; place-items: center; font: 700 12px var(--mono); color: var(--on-tag); }
+.row.g .tag { background: var(--g); } .row.g p { color: var(--g); }
+.row.e .tag { background: var(--e); } .row.e p { color: var(--e); }
+.row.d .tag { background: var(--d); } .row.d p { color: var(--d); }
+.row.all .tag { width: 30px; border-radius: 12px; background: transparent; color: var(--all); box-shadow: inset 0 0 0 1.5px var(--all); font-size: 9.5px; letter-spacing: .02em; }
+.row.all p { color: var(--muted); font-style: italic; }
+.core { position: absolute; left: 640px; top: 348px; width: 800px; display: flex; flex-direction: column; gap: 10px; }
+.core .topic { background: var(--core); color: var(--core-ink); border-radius: 4px; padding: 22px 26px 24px; }
+.core .eyebrow { font: 600 13px var(--mono); letter-spacing: 0.12em; text-transform: uppercase; opacity: .8; }
+.core .topic h2 { font: 800 31px var(--display); letter-spacing: -0.01em; margin: 8px 0 12px; text-wrap: balance; }
+.core .topic p { margin: 0; font-size: 17px; line-height: 1.4; }
+.case { border-radius: 4px; padding: 12px 18px; font-size: 16px; font-weight: 600; border: 1.5px solid; transition: opacity .2s; }
+.case b { font-size: 17px; } .case i { font-weight: 400; font-size: 14px; margin-left: 6px; }
+.case dl { display: grid; grid-template-columns: 96px 1fr; gap: 3px 12px; margin: 6px 0 0; font-weight: 400; }
+.case dt { font: 600 12px var(--mono); letter-spacing: .06em; text-transform: uppercase; padding-top: 3px; opacity: .85; }
+.case dd { margin: 0; color: var(--ink); }
+.core .topic .shared { margin-top: 12px; font: 600 13px var(--mono); letter-spacing: .06em; text-transform: uppercase; opacity: .85; }
+.case.g { color: var(--g); background: var(--g-soft); border-color: var(--g); }
+.case.e { color: var(--e); background: var(--e-soft); border-color: var(--e); }
+.case.d { color: var(--d); background: var(--d-soft); border-color: var(--d); }
+
+.legend { position: absolute; left: 40px; top: 1380px; width: 440px; font-size: 15px; color: var(--muted); display: grid; gap: 4px; }
+.legend b { font-family: var(--mono); color: var(--ink); display: inline-block; width: 40px; }
+
+.dim .row:not(.on), .dim .case:not(.on), .dim .refs:not(.on) { opacity: .18; }
+footer .refs { transition: opacity .2s; }
+
+footer { display: flex; flex-direction: column; gap: 8px; font-size: 0.85rem; color: var(--muted); border-top: 1px solid var(--line); padding-top: 14px; }
+footer .refs { display: flex; flex-wrap: wrap; gap: 6px 22px; }
+footer .refs b { font: 700 0.95rem var(--body); width: 80px; }
+footer .refs:nth-child(1) b { color: var(--g); } footer .refs:nth-child(2) b { color: var(--e); } footer .refs:nth-child(3) b { color: var(--d); }
+footer p { margin: 0; max-width: 90ch; font-style: italic; }
+
+/* phone and narrow screens: stacked */
+@media screen and (max-width: 900px) {
+  .frame { height: auto !important; }
+  .board { position: static; width: auto; height: auto; transform: none !important; display: flex; flex-direction: column; gap: 12px; }
+  .ring, .legend { display: none; }
+  .box, .core { position: static; width: auto; height: auto; }
+  .box { box-shadow: none; }
+  .core { order: -1; }
+  .core .topic h2 { font-size: 1.5rem; }
+  .row { font-size: 0.95rem; }
+}
+/* PDF export: one page, board at full size */
+@page { size: 1680px 1380px; margin: 0; }
+@media print { .filter { display: none; } }
+@media (prefers-reduced-motion: reduce) { .row, .case { transition: none; } }
+</style>
+
+<div class="page">
+  <header>
+    <div>
+      <h1>Cluster map: urban vulnerabilities and design decisions</h1>
+      <p class="lede">Giovanni, Elena and David explore the shared topic through their research. Use the buttons to follow one person around the ring.</p>
+    </div>
+    <div class="filter" role="group" aria-label="Highlight one person's answers">
+      <button type="button" id="f-none" data-p="none" aria-pressed="true">Everyone</button>
+      <button type="button" id="f-g" data-p="g" aria-pressed="false"><span class="dot"></span>Giovanni</button>
+      <button type="button" id="f-e" data-p="e" aria-pressed="false"><span class="dot"></span>Elena</button>
+      <button type="button" id="f-d" data-p="d" aria-pressed="false"><span class="dot"></span>David</button>
+      <button type="button" id="f-all" data-p="all" aria-pressed="false"><span class="dot"></span>Shared</button>
+    </div>
+  </header>
+
+  <div class="scroller">
+    <div class="frame" id="frame">
+      <div class="board" id="board">
+        <svg class="ring" viewBox="0 0 2080 1230" aria-hidden="true">
+          <rect class="spoke" x="290" y="165" width="1500" height="900" rx="60"></rect>
+        </svg>
+
+        <section class="box" style="left:830px; top:40px">
+          <h2>Users</h2>
+          <div class="row g"><span class="tag">G</span><p>Computational designer; municipal climate planner; urban hydrologist</p></div>
+          <div class="row e"><span class="tag">E</span><p>Planners; sensory-sensitive and neurodivergent people</p></div>
+          <div class="row d"><span class="tag">D</span><p>Owners and management; advising architect; residents consulted</p></div>
+          <div class="row all"><span class="tag">ALL</span><p>Designers who are not climate experts</p></div>
+        </section>
+
+        <section class="box" style="left:1330px; top:40px">
+          <h2>Impacts</h2>
+          <div class="row g"><span class="tag">G</span><p>Heat stress (mean UTCI, 12–17 h on a hot design day) and storm runoff on Porta streets</p></div>
+          <div class="row e"><span class="tag">E</span><p>Whose experience counts; risk of tokenism</p></div>
+          <div class="row d"><span class="tag">D</span><p>Hypothesis: better thermal comfort and daylight; trade-offs need checking</p></div>
+          <div class="row all"><span class="tag">ALL</span><p>Decisions affecting life in hotter summers</p></div>
+        </section>
+
+        <section class="box" style="left:1580px; top:340px">
+          <h2>Applications</h2>
+          <div class="row g"><span class="tag">G</span><p>Species and position for each plane tree replaced</p></div>
+          <div class="row e"><span class="tag">E</span><p>Persona ratings of places and of proposed changes</p></div>
+          <div class="row d"><span class="tag">D</span><p>Shading, vegetation, roofs and finishes; site layout and openings fixed</p></div>
+          <div class="row all"><span class="tag">ALL</span><p>Comparing options before they are built</p></div>
+        </section>
+
+        <section class="box" style="left:1580px; top:640px">
+          <h2>By-products</h2>
+          <div class="row g"><span class="tag">G</span><p>Porta trait table; LiDAR tree table; scenario results</p></div>
+          <div class="row e"><span class="tag">E</span><p>Rated photos of five Vienna places; corpus of persona reasons</p></div>
+          <div class="row d"><span class="tag">D</span><p>Home profiles, field records and comparisons of interventions</p></div>
+          <div class="row all"><span class="tag">ALL</span><p>Reusable data; permissions and openness to agree</p></div>
+        </section>
+
+        <section class="box" style="left:1580px; top:940px">
+          <h2>Monitoring</h2>
+          <div class="row g"><span class="tag">G</span><p>Open: no tracking after planting yet</p></div>
+          <div class="row e"><span class="tag">E</span><p>Blind checks keep testing personas against real people</p></div>
+          <div class="row d"><span class="tag">D</span><p>Record simulated effects; field follow-up only if changes are built</p></div>
+          <div class="row all"><span class="tag">ALL</span><p>Same metrics for before-and-after comparisons</p></div>
+        </section>
+
+        <section class="box" style="left:1080px; top:940px">
+          <h2>Data out</h2>
+          <div class="row g"><span class="tag">G</span><p>Ranked layouts; shade and runoff maps</p></div>
+          <div class="row e"><span class="tag">E</span><p>Mean score and full spread, with persona reasons, on a map</p></div>
+          <div class="row d"><span class="tag">D</span><p>Diagnosis and options: thermal and daylight effects, assumptions and limits</p></div>
+          <div class="row all"><span class="tag">ALL</span><p>An answer the designer can question</p></div>
+        </section>
+
+        <section class="box" style="left:580px; top:940px">
+          <h2>Serving infrastructure</h2>
+          <div class="row g"><span class="tag">G</span><p>Python core, Grasshopper and Ladybug; Infrared.city to confirm</p></div>
+          <div class="row e"><span class="tag">E</span><p>Paid model API (Claude Haiku 4.5, zero data retention); Google Forms survey</p></div>
+          <div class="row d"><span class="tag">D</span><p>Rhino/Grasshopper, Python, Ladybug, Infrared.city and ClimateStudio; to assess</p></div>
+          <div class="row all"><span class="tag">ALL</span><p>Lock-in: own code and paid services</p></div>
+        </section>
+
+        <section class="box" style="left:80px; top:940px">
+          <h2>Data in</h2>
+          <div class="row g"><span class="tag">G</span><p>ICGC LiDAR 2021, tree inventory, PDISBA storms, weather, traits</p></div>
+          <div class="row e"><span class="tag">E</span><p>Photos of five Vienna places; survey profiles and lived experience</p></div>
+          <div class="row d"><span class="tag">D</span><p>Drawings, materials, local weather, measurements and resident interviews</p></div>
+          <div class="row all"><span class="tag">ALL</span><p>Who or what is missing from the data?</p></div>
+        </section>
+
+        <section class="box" style="left:80px; top:640px">
+          <h2>Drivers</h2>
+          <div class="row g"><span class="tag">G</span><p>Plane trees to be cut toward the 15% species cap; pluvial floods</p></div>
+          <div class="row e"><span class="tag">E</span><p>Planners adopting AI synthetic participants</p></div>
+          <div class="row d"><span class="tag">D</span><p>Improve current conditions, keeping site layout and openings fixed</p></div>
+          <div class="row all"><span class="tag">ALL</span><p>Hotter summers</p></div>
+        </section>
+
+        <section class="box" style="left:80px; top:340px">
+          <h2>Verification</h2>
+          <div class="row g"><span class="tag">G</span><p>Interception vs field data; current trees as baseline; Florence transfer</p></div>
+          <div class="row e"><span class="tag">E</span><p>Each persona vs its own participant; bias gap</p></div>
+          <div class="row d"><span class="tag">D</span><p>Measurements, interviews and simulations; technical review to agree</p></div>
+          <div class="row all"><span class="tag">ALL</span><p>Who checks that the translation is right?</p></div>
+        </section>
+
+        <section class="box" style="left:330px; top:40px">
+          <h2>Knowledge</h2>
+          <div class="row g"><span class="tag">G</span><p>Does species choice trade heat against runoff?</p></div>
+          <div class="row e"><span class="tag">E</span><p>Which people can synthetic participants stand in for?</p></div>
+          <div class="row d"><span class="tag">D</span><p>How can thermal comfort and daylight improve in existing homes?</p></div>
+          <div class="row all"><span class="tag">ALL</span><p>What gets lost in translation?</p></div>
+        </section>
+
+        <div class="core">
+          <div class="topic">
+            <div class="eyebrow">Cluster topic</div>
+            <h2>Urban vulnerabilities and design decisions</h2>
+            <p>How computation turns information about places, and the people in them, into options designers can understand and question.</p>
+            <p class="shared">Shared discipline: computational design</p>
+          </div>
+          <div class="case g"><b>Giovanni</b><dl><dt>Unit</dt><dd>one plane-tree position in Porta, Barcelona</dd><dt>Disciplines</dt><dd>urban hydrology and climatology, landscape, plant ecology</dd></dl></div>
+          <div class="case e"><b>Elena</b><dl><dt>Unit</dt><dd>one photo of a Vienna public space</dd><dt>Disciplines</dt><dd>participatory planning, AI, sensory experience</dd></dl></div>
+          <div class="case d"><b>David</b><dl><dt>Unit</dt><dd>an intervention in existing homes at Ribera Payandé</dd><dt>Disciplines</dt><dd>thermal comfort, daylight, building retrofit</dd></dl></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="refs g"><b>Giovanni</b><span>T1 Shaamala et al. 2025</span><span>T2 Mannucci et al. 2025</span><span>P1 SylvCiT, Nicol et al. 2026</span><span>P2 Davey Tree Benefits Engine</span><span>P3 GreenInCities</span></div>
+    <div class="refs e"><b>Elena</b><span>T1 Arnstein 1969</span><span>T2 Argyle et al. 2023</span><span>P1 MacLennan et al. 2023</span><span>P2 Raymond et al. 2025</span><span>P3 Yao et al. 2026</span></div>
+    <div class="refs d"><b>David</b><span>T1 Huang et al. 2025</span><span>T2 Cheung et al. 2025</span><span>P1 Jia, Lu &amp; Yin 2023</span><span>P2 Taghavifard &amp; Cheraghi 2026</span><span>P3 Sadeghipour Roudsari &amp; Pak 2013</span></div>
+    <p>T = theory papers, P = practice papers.</p>
+    <p>Based on the group's draft and the faculty's cluster-map template. All three proposals are awaiting discussion.</p>
+  </footer>
+</div>
+
+<script>
+(function () {
+  var frame = document.getElementById('frame'), board = document.getElementById('board');
+  function fit() {
+    if (window.matchMedia('(max-width: 900px)').matches) { board.style.transform = ''; frame.style.height = ''; frame.style.width = ''; return; }
+    var w = frame.parentElement.clientWidth;
+    var s = Math.max(w / 2080, 0.6);
+    board.style.transform = 'scale(' + s + ')';
+    frame.style.height = (1230 * s) + 'px';
+    frame.style.width = (2080 * s) + 'px';
+  }
+  window.addEventListener('resize', fit); fit();
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(fit);
+
+  var buttons = document.querySelectorAll('.filter button');
+  function pick(p) {
+    buttons.forEach(function (b) { b.setAttribute('aria-pressed', String(b.dataset.p === p)); });
+    board.classList.toggle('dim', p !== 'none');
+    document.querySelector('footer').classList.toggle('dim', p !== 'none');
+    document.querySelectorAll('.row, .case, .refs').forEach(function (el) { el.classList.toggle('on', el.classList.contains(p)); });
+    try { localStorage.setItem('cluster-filter', p); } catch (e) {}
+  }
+  buttons.forEach(function (b) { b.addEventListener('click', function () { pick(b.dataset.p); }); });
+  var saved = 'none'; try { saved = localStorage.getItem('cluster-filter') || 'none'; } catch (e) {}
+  pick(saved);
+})();
+</script>
+
+</body></html>
