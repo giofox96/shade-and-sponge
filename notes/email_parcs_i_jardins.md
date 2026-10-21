@@ -1,4 +1,4 @@
-# Email to Parcs i Jardins (draft, 21 Oct 2026, not sent)
+# Email to Parcs i Jardins (draft, 21 Oct 2026, not sent; question 5 updated after the sidewalk extraction; also saved as a Gmail draft)
 
 Purpose: settle the two risks in `notes/topic_decision.md` §9.8:
 - Does a per-street replacement list exist?
@@ -27,13 +27,13 @@ To make sure the method follows your practice rather than my reading of the docu
 2. **Where plane trees are kept.** The 2011 guide says planes are kept on the large avenues and in emblematic places. In Porta, which streets does this include? Is Av. Meridiana one of them?
 3. **Scope of the 15% rule.** Is the 15% maximum applied only city-wide, or also by district or neighbourhood when choosing species for a street?
 4. **Target composition.** On 7 May 2026, *Betevé* reported a target of about 12% for plane trees and Celtis (I could not tell whether each or together), 7.25% for Melia and about 5% each for *Pyrus calleryana*, *Styphnolobium* and Tipuana (https://beteve.cat/medi-ambient/pla-xoc-plataners-eliminaran-meitat-10-anys/). Is there an official document with these figures?
-5. **Sidewalk width.** Does the city hold the sidewalk width at each tree position, for example in the tree inventory or in a cartographic layer? Could it be shared? The 2011 guide uses it to set the tree size class, and my method needs it as a constraint.
+5. **Sidewalk width and medians.** I measured the sidewalk width at each tree from the city's 1:1000 topographic map (façade to kerb), to apply the 2011 guide's size classes. Does the city hold an official width per tree position that I should use instead? And how is the size class chosen for trees on medians and boulevards, where there is no façade?
 
 I will gladly share the results for Porta (maps and per-position comparisons) once the work is complete, in December 2026.
 
 Thank you very much for your time.
 
 Kind regards,
-[Name]
+Giovanni [Surname]
 MaCAD student, IAAC (Institute for Advanced Architecture of Catalonia), Barcelona
 [email]
