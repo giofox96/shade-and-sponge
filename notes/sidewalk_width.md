@@ -46,3 +46,49 @@ The city inventory (`arbrat_viari.csv`) has **no sidewalk-width field**. Its col
 - **Kerb codes.** If *Línies comunicacions* mixes kerbs with other road lines under one code, step 2 needs a geometric rule (for example, the line parallel to the façade and closest to the tree).
 - **Legacy trees.** Many existing planes may stand on sidewalks narrower than the rule allows for their size. That is a result to report (the rule forces downsizing), not an error.
 - **Few options per position.** If most positions allow only one or two species, the optimisation shrinks (`notes/topic_decision.md` §9.8). Count this first.
+
+## Result v1 (21 Oct): done through the WMS, not the GeoPackage
+
+The 652 MB download failed twice from the script and once in the user's browser. The server resets the connection halfway and does not support resuming. **So the same map was read through its WMS as SVG vectors, in 250 m tiles.** This is the same source and the same licence (CC BY 4.0), with exact line coordinates (0.1 m per SVG unit).
+- **Script:** `scripts/porta_sidewalk_width.py` → `databases/barcelona/porta_sidewalk_width.csv`.
+- **Raw tiles:** cached in `databases/barcelona/raw/topo_1000/svg/` (gitignored).
+
+**How each tree is measured.** From the nearest façade line, a ray runs through the tree to the first long road line (≥ 4 m). Three cases follow:
+- **ok:** the ray reaches a kerb with no road line in between. Width = façade-to-kerb distance.
+- **median:** the ray crosses a road line *before* the tree. The tree stands on a median or across a carriageway, so the façade does not bound its sidewalk.
+- **no_facade / no_kerb:** no façade within 30 m, or no kerb beyond the tree.
+
+Tree points may sit up to 1 m past the kerb line (they mark the pit), so that is the tolerance. It is an `ASSUMPTION`.
+
+| Flag | All 2,825 trees | 832 planes |
+|---|---|---|
+| ok | 1,545 | 400 |
+| median | 569 | 206 |
+| no_facade | 571 | 196 (160 on Av. Meridiana) |
+| no_kerb | 140 | 30 |
+
+**Size class of the 400 measured planes** (2011 guide, one class per sidewalk type):
+
+| Size class | Planes |
+|---|---|
+| large (> 6 m) | 259 |
+| medium (3.5–6 m) | 126 |
+| small (< 3.5 m) | 14 |
+| none (< 2.5 m) | 1 |
+
+Widths of all ok trees: median 6.65 m, interquartile range 4.76–10.03 m.
+
+**What the numbers mean.**
+- **Few narrow streets.** Under the literal rule (narrow sidewalk → small → *Pyrus* only), only 15 plane positions face a one-species choice.
+- **Most measured positions are open.** 259 of the 400 measured planes would take the large group (Celtis, Tipuana, Jacaranda), and 126 the medium group (Melia, *Styphnolobium*, Brachychiton).
+- **The optimisation is not reduced to nothing.** The risk in `notes/topic_decision.md` §9.8 is smaller than feared, at least for the measured half.
+
+**Checked by eye, not by a formal sample.** Six 80–100 m windows (Malgrat, Valldemossa, Lluc, Rio de Janeiro ×2, Andreu Nin) were plotted with the lines, rays and widths; two are saved:
+- `notes/figures/sidewalk_width_qa_lluc.png`;
+- `notes/figures/sidewalk_width_qa_rio_de_janeiro.png`.
+
+On ordinary streets the widths match the map (Malgrat ≈ 2.4 m, Lluc ≈ 3.3–3.5 m). Widths over 15 m are real wide pedestrian areas facing a plaza; for the rule they only mean "large". The ±0.3 m 20-tree check of the plan above was **not** done.
+
+**Still open.**
+- **The 432 plane positions flagged median, no_facade or no_kerb** (194 of them on Av. Meridiana) need a kerb-to-kerb width for medians, or a rule. Medians and boulevards are likely "large" (to check).
+- **Whether the city keeps the Meridiana planes at all** is open (§9.7.2; email question 2).
