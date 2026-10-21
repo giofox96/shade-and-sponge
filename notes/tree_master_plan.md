@@ -101,10 +101,10 @@
 
 1. **Cap scope.** `shade_sponge/layout.py` applies `MAX_SHARE = 0.15` **within Porta**, but the plan caps the **city-wide** street stock. Keep the local cap, but label it `ASSUMPTION` (a local reading of a city-wide rule). The three scopes in backlog #9 still stand, and scope (c), city-wide 12%, now has a 2026 source (press). A city-wide headroom must use P's urban-fabric denominator (~201,600 in 2017), not only the 140,404 street trees.
 2. **Not every plane is a decision variable.** Planes on large avenues and in emblematic places are kept (G p. 17). Before fixing the 832 positions, check which of Porta's planes stand on avenues the city would keep.
-3. **The façade-clearance constraint now has a sourced rule** (§5.4; backlog #9 said it had none). Sidewalk width sets the allowed size class, so a large species may only go on a > 6 m sidewalk. The palette's size classes (§5.5) make this a per-position filter. This needs sidewalk widths per position (not yet in the repo).
+3. **The façade-clearance constraint now has a sourced rule** (§5.4; backlog #9 said it had none). Sidewalk width sets the allowed size class, so a large species may only go on a > 6 m sidewalk. The palette's size classes (§5.5) make this a per-position filter. This needs sidewalk widths per position: extraction plan in `notes/sidewalk_width.md`.
 4. **S1 baseline.** The 2026 target mix (§5.3) is the closest thing to "the city's named palette in its proportions". It is press-reported, so it is 🟡.
 5. **Celtis has little room.** At 13.8% city-wide, it cannot absorb many replacements under any city-wide reading.
-6. `notes/topic_decision.md` §7 says planes are "~29% of street trees". The latest figure is 27.45% (2026, N4). Left unedited.
+6. `notes/topic_decision.md` §7 says planes are "~29% of street trees". The latest figure is 27.45% (2026, N4). §7 is left as it was; v6 (§9, 21 Oct) uses the new figure and rebuilds the problem on this note.
 
 ## 7. Still to check
 
