@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Palette and Fonts</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Space+Grotesk:wght@400;500;700&family=JetBrains+Mono:wght@400;700&family=IBM+Plex+Sans:wght@400;600;700&family=IBM+Plex+Mono:wght@400;600&family=Syne:wght@600;800&display=swap" rel="stylesheet">
+<style>
+body{margin:0;background:#e9e7e2;color:#1d1d1d;font-family:Inter,sans-serif;padding:24px 16px}
+h1{margin:0 0 4px;font-size:22px} p{max-width:960px;line-height:1.45}
+.bar{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:14px 0}
+.bar b{width:80px} button{font:600 14px Inter;padding:8px 14px;border:1px solid #999;border-radius:20px;background:#fff;cursor:pointer}
+button[aria-pressed=true]{background:#1d1d1d;color:#fff;border-color:#1d1d1d}
+.sw{display:flex;flex-wrap:wrap;gap:10px;margin:10px 0 22px}
+.sw div{width:120px;font:12px/1.35 "JetBrains Mono",monospace}
+.sw i{display:block;height:46px;border-radius:4px;margin-bottom:4px;box-shadow:inset 0 0 0 1px #0002}
+.slides{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,560px),1fr));gap:24px}
+/* slide: every colour and font is a token so a palette or font switch restyles it */
+.s{aspect-ratio:16/9;container-type:inline-size;position:relative;overflow:hidden;border-radius:4px;box-shadow:0 2px 10px #0003;background:var(--bg);color:var(--ink);font-family:var(--body)}
+.s.dark{--bg:var(--dbg);--ink:var(--dink);--card:var(--dcard);--g:var(--dg);--sun:var(--dsun);--wat:var(--dwat);--hot:var(--dhot);--mute:var(--dmute)}
+.in{position:absolute;inset:6cqw 6cqw 5cqw}
+.lab{font:var(--lw,500) 1.2cqw var(--mono);letter-spacing:.14em;text-transform:uppercase}
+h2{margin:.8cqw 0 0;font:var(--hw) 4.4cqw/1.05 var(--head);letter-spacing:-.015em}
+.sub{margin:.8cqw 0 0;font-size:1.7cqw;color:var(--mute)}
+.cols{display:grid;grid-template-columns:repeat(3,1fr);gap:2cqw;margin-top:3.6cqw}
+.c{background:var(--card);padding:1.8cqw;border-top:.45cqw solid var(--a);border-radius:.5cqw}
+.n{font:var(--hw) 3.8cqw/1.1 var(--head);color:var(--a);margin:1cqw 0 .4cqw;white-space:nowrap}
+.d{font-size:1.45cqw;line-height:1.35}
+.foot{position:absolute;left:0;right:0;bottom:0;display:flex;justify-content:space-between;font:1.05cqw var(--mono);color:var(--mute)}
+.big{font:var(--hw) 7.4cqw/.95 var(--head);letter-spacing:-.03em;margin:0}
+.big em{font-style:normal;color:var(--sun)}
+.tag{margin-top:2.4cqw;font-size:1.9cqw;max-width:60cqw;line-height:1.35;color:var(--mute)}
+.grid{position:absolute;right:5cqw;top:6cqw;display:grid;grid-template-columns:repeat(8,2.6cqw);gap:.7cqw}
+.grid span{aspect-ratio:1;border-radius:50%;background:var(--g);opacity:.9}
+.grid span:nth-child(3n){background:var(--sun)}.grid span:nth-child(7n){background:var(--wat)}.grid span:nth-child(11n){background:transparent;box-shadow:inset 0 0 0 .2cqw var(--g)}
+</style></head><body>
+<h1>Shade and Sponge: palette and fonts</h1>
+<p>Built from your dark-green + yellow idea and the four Adobe palettes. The colours carry meaning across the whole deck, so a figure can be read without its legend: <b>green = trees / the decision, yellow = sun / shade, blue = water / runoff, red-orange = heat stress / warnings</b>. Each palette has a dark mode (title and section slides) and a light mode (content slides). Switch below; text colours were contrast-checked (WCAG AA for their size).</p>
+<div class="bar" id="pb"><b>Palette</b></div>
+<div class="bar" id="fb"><b>Fonts</b></div>
+<div class="sw" id="sw"></div>
+<div class="slides" id="slides">
+ <div class="s dark"><div class="in">
+  <div class="lab" style="color:var(--sun)">MaCAD · IAAC · Thesis 2026</div>
+  <p class="big" style="margin-top:9cqw">Shade<br>and <em>Sponge</em></p>
+  <p class="tag">A computational method for choosing which species replace Barcelona's plane trees, and where, scored on summer heat and storm runoff.</p>
+  <div class="grid"></div>
+  <div class="foot"><span>Porta, Nou Barris · 41.43°N 2.18°E</span><span>01</span></div></div></div>
+ <div class="s"><div class="in">
+  <div class="lab" style="color:var(--g)">03 · The problem</div>
+  <h2>Two hazards, one street, one decision</h2><p class="sub">Why this is a design decision and not a slogan</p>
+  <div class="cols">
+   <div class="c" style="--a:var(--wat)"><div class="lab" style="color:var(--a)">Rain</div><div class="n">45% → 72%</div><div class="d">sealed surface of the municipality, 1956–2009</div></div>
+   <div class="c" style="--a:var(--hot)"><div class="lab" style="color:var(--a)">Heat</div><div class="n">+1.36 °C</div><div class="d">Porta's summer surface-temperature anomaly against the city</div></div>
+   <div class="c" style="--a:var(--g)"><div class="lab" style="color:var(--a)">Decision</div><div class="n">27.6%</div><div class="d">share of plane trees in Barcelona's street stock; the plan caps any species at 15%</div></div>
+  </div>
+  <div class="foot"><span>Shade and Sponge · MaCAD IAAC</span><span>03</span></div></div></div>
+ <div class="s dark"><div class="in">
+  <div class="lab" style="color:var(--sun)">Section 02</div>
+  <h2 style="font-size:6cqw;margin-top:12cqw">Method</h2>
+  <p class="sub" style="font-size:2cqw">species × position → <span style="color:var(--sun)">shade</span> + <span style="color:var(--wat)">sponge</span> → trade-off</p>
+  <div class="foot"><span>Shade and Sponge · MaCAD IAAC</span><span>12</span></div></div></div>
+</div>
+<script>
+// Palettes: [name, note, light tokens, dark tokens, swatches[name,hex,role]]
+const P={
+ "A · Canopy (recommended)":["Your dark green + yellow. Deep forest for title slides, warm paper for content.",
+  {bg:"#F4F1E6",ink:"#1E331A",card:"#FFFFFF",g:"#14662C",sun:"#A97F12",wat:"#2B57D6",hot:"#D9452A",mute:"#55624F"},
+  {dbg:"#1E331A",dink:"#E7FFE3",dcard:"#2B4626",dg:"#9ACC91",dsun:"#DBAA28",dwat:"#6E9BFF",dhot:"#FF593C",dmute:"#9FB59A"},
+  [["Forest","#1E331A","dark background, text"],["Leaf","#14662C","trees / decision"],["Sun","#DBAA28","shade / sun (fills, dark text)"],["Sun text","#A97F12","sun on light, large only"],["Water","#2B57D6","runoff"],["Heat","#D9452A","heat stress"],["Mint","#E7FFE3","text on dark"],["Paper","#F4F1E6","light background"]]],
+ "B · Lime signal":["Same green, with your neon lime #BCFFB0 as the highlight. More 'computational', more screen-like.",
+  {bg:"#F4F7F1",ink:"#1E331A",card:"#FFFFFF",g:"#2B6620",sun:"#A97F12",wat:"#346AFF",hot:"#D9452A",mute:"#55624F"},
+  {dbg:"#121F10",dink:"#E7FFE3",dcard:"#1E331A",dg:"#BCFFB0",dsun:"#DBAA28",dwat:"#6E9BFF",dhot:"#FF593C",dmute:"#8FA88A"},
+  [["Night","#121F10","dark background"],["Forest","#1E331A","cards on dark"],["Lime","#BCFFB0","trees / highlight on dark"],["Leaf","#2B6620","trees on light"],["Sun","#DBAA28","shade / sun"],["Water","#346AFF","runoff"],["Heat","#FF593C","heat stress"],["Mint","#E7FFE3","text on dark"]]],
+ "C · Earth":["From your muted palettes: olive, ochre, ink blue, rust. Calm, architectural, less contrast.",
+  {bg:"#F2F0EA",ink:"#2A2622",card:"#FFFFFF",g:"#3F663E",sun:"#8C6A24",wat:"#283F66",hot:"#663825",mute:"#665E4F"},
+  {dbg:"#283F2A",dink:"#F2F0EA",dcard:"#34503A",dg:"#B5CFA8",dsun:"#BA9546",dwat:"#9DB4D8",dhot:"#D98C6A",dmute:"#B3BAB9"},
+  [["Moss","#3F663E","trees / decision"],["Ochre","#BA9546","sun (fills)"],["Ochre text","#8C6A24","sun on light"],["Ink blue","#283F66","runoff"],["Rust","#663825","heat"],["Olive","#665E4F","muted text"],["Stone","#B3BAB9","neutral, grids"],["Bone","#F2F0EA","light background"]]]};
+// Fonts: [heading, body, mono, heading weight]
+const F={
+ "1 · Space Grotesk + Inter + JetBrains Mono":["'Space Grotesk'","Inter","'JetBrains Mono'",700],
+ "2 · IBM Plex Sans + Plex Mono":["'IBM Plex Sans'","'IBM Plex Sans'","'IBM Plex Mono'",700],
+ "3 · Syne + Inter + JetBrains Mono":["Syne","Inter","'JetBrains Mono'",800]};
+const root=document.getElementById('slides'),sw=document.getElementById('sw');
+root.querySelector('.grid').innerHTML='<span></span>'.repeat(40);
+function setP(k){const [note,l,d,s]=P[k];Object.entries({...l,...d}).forEach(([n,v])=>root.style.setProperty('--'+n,v));
+ sw.innerHTML=`<p style="width:100%;margin:0">${note}</p>`+s.map(([n,h,r])=>`<div><i style="background:${h}"></i><b>${n}</b><br>${h}<br>${r}</div>`).join('');}
+function setF(k){const [h,b,m,w]=F[k];root.style.setProperty('--head',h);root.style.setProperty('--body',b);root.style.setProperty('--mono',m);root.style.setProperty('--hw',w);}
+function bar(id,obj,fn){const el=document.getElementById(id);Object.keys(obj).forEach((k,i)=>{const b=document.createElement('button');b.textContent=k;
+ b.onclick=()=>{el.querySelectorAll('button').forEach(x=>x.setAttribute('aria-pressed',x===b));fn(k)};el.append(b);if(!i)b.click();});}
+bar('pb',P,setP);bar('fb',F,setF);
+</script></body></html>
