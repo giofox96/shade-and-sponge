@@ -1,6 +1,8 @@
-"""Run the tool on a site: python -m shade_sponge [site] [--palette=barcelona] [--diversity=N]
-(default: porta; first run builds cache/site_<site>.npz). --diversity=N: optimised layouts keep at least N effective
-species (exp of Shannon H) among the planted positions; off by default.
+"""Run the tool on a site: python -m shade_sponge [site] [--palette=barcelona] [--diversity=N] [--size=exact|at_most]
+[--keep-meridiana] (default: porta; first run builds cache/site_<site>.npz). --diversity=N: optimised layouts keep at
+least N effective species (exp of Shannon H) among the planted positions; off by default. --size: sidewalk-width sizing
+rule of the 2011 guide (layout.size_fits); off by default. --keep-meridiana: the planes of Av. Meridiana are kept by the
+city ("large avenue", guide p. 17) and leave the decision set.
 Outputs: databases/barcelona/tool_v0_summary.csv, exchange/to_gh/{positions,layouts}_tool_v0_<YYYYMMDD>.csv"""
 import sys, json, datetime, numpy as np, pandas as pd
 from .site import load_site, rc, DB, EX
@@ -12,14 +14,16 @@ kind = "barcelona" if "--palette=barcelona" in sys.argv else "city"   # python -
 opt = dict(a[2:].split("=") for a in sys.argv[1:] if a.startswith("--") and "=" in a)
 min_eff = float(opt["diversity"]) if "diversity" in opt else None
 ptag = "" if kind == "city" else "_barcelona"
-tag = ptag + (f"_div{opt['diversity']}" if min_eff else "")
+size_rule = opt.get("size")
+keep_mer = "--keep-meridiana" in sys.argv
+tag = ptag + (f"_div{opt['diversity']}" if min_eff else "") + (f"_size{size_rule}" if size_rule else "") + ("_keepmer" if keep_mer else "")
 site = load_site(name)
 o = json.load(open(EX / "site_origin.json"))
 sun = {s: heat.design_suns(site, s) for s in heat.SEASONS}
 lit = {s: [heat.sunlit(site, *x) for x in sun[s]] for s in sun}
 p = runoff.design_storm(2, 60)                          # f2 storm: T = 2 yr, 1 h (methodology §6)
 pal = layout.palette(site, kind)
-pos = site.trees[site.trees.is_plane].reset_index(drop=True)
+pos = site.trees[site.trees.is_plane & ~(keep_mer & site.trees.street.str.contains("Meridiana"))].reset_index(drop=True)
 print(f"{len(pos)} positions, P = {p:.1f} mm; sun altitude " + ", ".join(
     f"{s} {min(np.degrees([a for a, _ in v])):.0f}–{max(np.degrees([a for a, _ in v])):.0f}°" for s, v in sun.items()))
 print(pal.to_string(index=False))
@@ -29,7 +33,7 @@ sens.round(3).to_csv(DB / f"tool_v0_storm_leaf_factor{ptag}.csv")
 print("season-weighted leaf factor in storms (sensitivity):\n", sens.round(3).to_string())
 pot = {s: layout.shade_potential(site, pos, pal, sun[s], lit[s], heat.SEASONS[s]["month"]) for s in sun}
 water = layout.water_potential(site, pos, pal, p)
-fit = layout.fits(site, pos, pal)
+fit = layout.fits(site, pos, pal, size_rule)
 print("positions where the species fits:", dict(zip(pal.species, fit.mean(0).round(2))))
 
 layouts = {f"S1_random_{k}": layout.random_layout(pal.cap.values, fit, np.random.default_rng(k)) for k in range(10)}
