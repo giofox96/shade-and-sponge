@@ -216,12 +216,15 @@ If the city's internal replacement list is obtained (§9.8), it replaces this pr
    Girona sets limits per neighbourhood (10-20-30), which gives a precedent (`notes/catalan_transfer_city.md` §5).
 2. **Not every plane is a decision variable.** The city keeps planes on large avenues and in emblematic places (2011 guide p. 17). Av. Meridiana holds 194 of Porta's 832 planes. The guide does not define which streets count as large avenues, so whether Av. Meridiana counts is open: either the thesis sets a rule or the question goes to Parcs i Jardins (§9.8).
 3. **Replacement happens one opportunity at a time.** Trees are replaced when they die or when a street is rebuilt, so the method must work for any subset of positions, not only for all of them at once. This also makes the primary user concrete: **the computational designer of a street-rebuild project**, who is the person making the replacement choice.
-4. **The sizing rule becomes a constraint.** The guide gives one size class per sidewalk type; allowing smaller classes on wider sidewalks would be an `ASSUMPTION`. The constraint needs the sidewalk width at each position, which is not yet in the repo (plan: `notes/sidewalk_width.md`).
+4. **The sizing rule becomes a constraint.** The guide gives one size class per sidewalk type; allowing smaller classes on wider sidewalks would be an `ASSUMPTION`. Sidewalk widths are now in the repo (21 Oct: `databases/barcelona/porta_sidewalk_width.csv`, `notes/sidewalk_width.md`). The tool applies the rule with `--size=exact` (literal) or `--size=at_most` (the `ASSUMPTION`) (`shade_sponge/layout.size_fits`).
 
 ### 9.8 Two risks, and how they are settled
 
 - **The city may already have a per-street replacement list.** In 2022 the city said it had determined which species can replace dying trees (press 🟡). If that list exists and uses shade, the contribution narrows to the quantities (heat, runoff, the trade-off), and S1 becomes that list. To settle it: the email to Parcs i Jardins (`notes/email_parcs_i_jardins.md`).
-- **The sizing rule may leave only one or two species per position.** Under the literal reading the palette splits into three groups (2011 catalogue): large Celtis, Tipuana, Jacaranda; medium Melia, *Styphnolobium*, Brachychiton; small *Pyrus* only. A narrow sidewalk would then take only *Pyrus*. If so, the optimisation shrinks, and the main result becomes the cost of the forced downsizing. Check this as soon as sidewalk widths exist.
+- **The sizing rule may leave only one or two species per position.** Under the literal reading the palette splits into three groups (2011 catalogue): large Celtis, Tipuana, Jacaranda; medium Melia, *Styphnolobium*, Brachychiton; small *Pyrus* only. A narrow sidewalk would then take only *Pyrus*. If so, the optimisation shrinks, and the main result becomes the cost of the forced downsizing. **Checked 21 Oct: the risk is small.**
+  - 400 of the 832 plane positions have a façade-bounded sidewalk: 259 large, 126 medium, 14 small and 1 too narrow for a tree.
+  - So only 15 positions are forced to *Pyrus* or to nothing; every other measured position keeps three species.
+  - The other 432 (176 of them on Av. Meridiana) are medians, boulevards and plaza edges. They are not filtered by size (`ASSUMPTION`, `notes/sidewalk_width.md`).
 
 ### 9.9 Crown evidence (Porta, LiDAR 2021, equal trunk size)
 

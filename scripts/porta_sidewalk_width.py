@@ -7,6 +7,10 @@ Input:  exchange/to_gh/porta_trees_lidar.csv (tree positions, local coords; orig
 Output: databases/barcelona/porta_sidewalk_width.csv; raw SVG tiles cached in databases/barcelona/raw/topo_1000/svg/
 Width = distance from the nearest facade, through the tree, to the first long road line beyond it (the kerb).
 Size class from the 2011 street-tree guide pp. 22-23 (one class per sidewalk type).
+Trees not bounded by a facade (flags median / no_facade / no_kerb) keep size_class "check"; for them strip_width_m is
+the distance between the two road lines on either side of the tree, along the perpendicular to the nearest one.
+It is provisional: a visual check of 16 cases found it plausible on wide medians and boulevards (Meridiana) but wrong
+where the tree stands on a road line inside a narrow band (notes/sidewalk_width.md, QA section).
 """
 import json, pathlib, re, time, numpy as np, pandas as pd, requests
 from shapely.geometry import LineString, Point
@@ -73,6 +77,19 @@ def lines(layer, xs, ys):
     return [g for x0 in xs for y0 in ys for g in parse(fetch(layer, x0, y0), x0, y0)]
 
 
+def strip_width(p, road, tr):
+    """Width of the strip between the road line nearest to p and the first road line on the other side (<= RAY)."""
+    g = road[tr.nearest(p)]
+    q, d0 = g.interpolate(g.project(p)), g.distance(p)
+    if d0 < 0.05 or d0 > RAY:
+        return np.nan
+    u = (np.array([p.x, p.y]) - np.array([q.x, q.y])) / d0
+    ray = LineString([(p.x, p.y), (p.x + u[0] * RAY, p.y + u[1] * RAY)])
+    d = [Point(p.x, p.y).distance(h) for h in (ray.intersection(road[j]) for j in tr.query(ray)) if not h.is_empty]
+    d = [x for x in d if x > 0.05]
+    return d0 + min(d) if d else np.nan
+
+
 def size_class(w):
     return np.select([w < 2.5, w < 3.5, w <= 6.0], ["none", "small", "medium"], "large")
 
@@ -103,7 +120,10 @@ if __name__ == "__main__":
             rows.append((tid, np.nan, df, "median")); continue
         rows.append((tid, d[0] if d else np.nan, df, "ok" if d else "no_kerb"))
     out = pd.DataFrame(rows, columns=["tree_id", "width_m", "facade_dist_m", "flag"])
-    out["width_m"] = out.width_m.round(2); out["facade_dist_m"] = out.facade_dist_m.round(2)
+    m = out.flag != "ok"
+    out["strip_width_m"] = np.nan
+    out.loc[m, "strip_width_m"] = [strip_width(Point(x, y), road, tr) for x, y in zip(X[m.values], Y[m.values])]
+    out["width_m"] = out.width_m.round(2); out["strip_width_m"] = out.strip_width_m.round(2); out["facade_dist_m"] = out.facade_dist_m.round(2)
     out["size_class"] = np.where(out.flag == "ok", size_class(out.width_m.fillna(0)), "check")
     out = t[["tree_id", "species", "is_plane", "street"]].merge(out, on="tree_id")
     assert len(out) == len(t) and out.tree_id.is_unique
@@ -113,3 +133,7 @@ if __name__ == "__main__":
     print("all trees:", out.size_class.value_counts().to_dict())
     print("planes:", out[out.is_plane].size_class.value_counts().to_dict())
     print(out[out.flag == "ok"].width_m.describe().round(2).to_dict())
+    pl = out[out.is_plane & (out.flag != "ok")].copy()
+    pl["strip_class"] = np.where(pl.strip_width_m.notna(), size_class(pl.strip_width_m.fillna(0)), "n/a")
+    pl["meridiana"] = pl.street.str.contains("Meridiana")
+    print("unmeasured planes, strip class:", pd.crosstab(pl.meridiana, pl.strip_class).to_dict("index"))
