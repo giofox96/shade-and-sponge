@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Slide Style Board</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Fraunces:opsz,wght@9..144,400;9..144,700&family=JetBrains+Mono:wght@400;700&family=Space+Grotesk:wght@400;700&family=DM+Serif+Display&family=Archivo+Black&display=swap" rel="stylesheet">
+<style>
+:root{--page:#e9e7e2;--ink:#1d1d1d}
+body{margin:0;background:var(--page);color:var(--ink);font-family:Inter,sans-serif;padding:24px 16px}
+h1{margin:0 0 4px;font-size:22px} p.lead{margin:0 0 24px;color:#555;max-width:900px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,560px),1fr));gap:28px}
+figure{margin:0} figcaption{padding:10px 2px 0;font-size:14px;line-height:1.45}
+figcaption b{font-size:16px} figcaption a{color:#1d4ed8}
+.s{aspect-ratio:16/9;container-type:inline-size;position:relative;overflow:hidden;border-radius:4px;box-shadow:0 2px 10px #0002;
+ background:var(--bg);color:var(--fg);font-family:var(--body)}
+.in{position:absolute;inset:6cqw 6cqw 5cqw}
+.s h2{margin:0;font:var(--hw) 4.4cqw/1.05 var(--head);letter-spacing:var(--ls,0);color:var(--hc,var(--fg))}
+.s .sub{margin:.8cqw 0 0;font-size:1.7cqw;opacity:.7}
+.cols{display:grid;grid-template-columns:repeat(3,1fr);gap:2.2cqw;margin-top:4cqw}
+.c{padding:var(--cp,1.8cqw);background:var(--card,transparent);border-top:var(--bt,0) solid var(--a);border-radius:var(--r,0)}
+.c:nth-child(1){--a:var(--a1)}.c:nth-child(2){--a:var(--a2)}.c:nth-child(3){--a:var(--a3)}
+.k{font:700 1.25cqw var(--label,var(--body));letter-spacing:.12em;text-transform:uppercase;color:var(--a)}
+.n{white-space:nowrap;font:var(--nw,700) 3.8cqw/1.1 var(--num,var(--head));color:var(--a);margin:1cqw 0 .4cqw}
+.d{font-size:1.45cqw;line-height:1.35;opacity:.85}
+.foot{position:absolute;left:0;right:0;bottom:0;font:1.05cqw var(--label,var(--body));opacity:.55;display:flex;justify-content:space-between}
+/* 1 Swiss editorial (current deck, refined) */
+.st1{--bg:#fff;--fg:#1f2933;--head:Inter;--body:Inter;--hw:800;--a1:#2f6db5;--a2:#d9622b;--a3:#3a7d44;--bt:.5cqw;--card:#f5f6f7;--r:.6cqw}
+/* 2 Dark data */
+.st2{--bg:#0e1116;--fg:#e6edf3;--head:"Space Grotesk";--body:Inter;--label:"JetBrains Mono";--hw:700;--a1:#4cc9f0;--a2:#ffb703;--a3:#80ed99;--card:#161b22;--r:.8cqw;--bt:.25cqw}
+/* 3 Architectural monograph */
+.st3{--bg:#f4f0e8;--fg:#2a2622;--head:Fraunces;--body:Inter;--hw:400;--ls:-.01em;--a1:#2a2622;--a2:#9c3d24;--a3:#2a2622;--num:Fraunces;--nw:400;--bt:.12cqw;--cp:1.4cqw 0 0}
+/* 4 Botanical */
+.st4{--bg:#e8ece2;--fg:#24372b;--head:"DM Serif Display";--body:Inter;--hw:400;--a1:#3d6b8c;--a2:#c46a3b;--a3:#3f6b47;--card:#f7f8f2;--r:2cqw;--cp:2.2cqw}
+/* 5 Brutalist (IAAC-like) */
+.st5{--bg:#fff;--fg:#000;--head:"Archivo Black";--body:"Space Grotesk";--label:"JetBrains Mono";--hw:400;--ls:-.02em;--a1:#000;--a2:#ff3b1f;--a3:#000;--bt:.9cqw;--cp:1.4cqw 0 0}
+.st5 h2{font-size:5.6cqw;text-transform:uppercase}
+/* 6 Blueprint */
+.st6{--bg:#123a6b;--fg:#eaf2ff;--head:"JetBrains Mono";--body:"JetBrains Mono";--hw:700;--a1:#9ad1ff;--a2:#ffd38a;--a3:#b5f5c8;--card:#ffffff0d;--cp:1.6cqw;
+ background-image:linear-gradient(#ffffff14 1px,transparent 1px),linear-gradient(90deg,#ffffff14 1px,transparent 1px);background-size:2.5cqw 2.5cqw}
+.st6 .c{border:1px dashed #ffffff55}
+.st6 h2{font-size:3.6cqw}
+</style></head><body>
+<h1>Slide style board — pick one</h1>
+<p class="lead">Same slide (slide 3, "the problem") in six directions. Each card says what it suits and where to find a ready template in that style. Tell me the number (or mix: "3 with the colours of 4").</p>
+<div class="grid" id="g"></div>
+<template id="t"><div class="in">
+ <h2>Two hazards, one street, one decision</h2><p class="sub">Why this is a design decision and not a slogan</p>
+ <div class="cols">
+  <div class="c"><div class="k">Rain</div><div class="n">45% → 72%</div><div class="d">sealed surface of the municipality, 1956–2009</div></div>
+  <div class="c"><div class="k">Heat</div><div class="n">+1.36 °C</div><div class="d">Porta's summer surface-temperature anomaly against the city</div></div>
+  <div class="c"><div class="k">Decision</div><div class="n">27.6%</div><div class="d">share of plane trees in Barcelona's street stock; the plan caps any species at 15%</div></div>
+ </div>
+ <div class="foot"><span>Shade and Sponge · MaCAD IAAC</span><span>03</span></div>
+</div></template>
+<script>
+const S=[
+ ["Swiss editorial","Your current deck, tightened. Safest for a tutor review: clean, data-first, colour-coded by theme.","SlidesCarnival (minimal / business)","https://www.slidescarnival.com/"],
+ ["Dark data","Black canvas, glowing accents. Maps, LiDAR and the web-app screenshots pop. Harder to read on bad projectors.","Slidesgo (dark tech)","https://slidesgo.com/"],
+ ["Architectural monograph","Warm paper, serif titles, hairline rules. Reads like an architecture book; strong portfolio value.","Pitch / Canva editorial templates","https://pitch.com/templates"],
+ ["Botanical","Sage and cream, soft cards. Fits the tree theme; risk of looking 'eco brochure' if overdone.","Slidesgo / SlidesMania nature","https://slidesmania.com/"],
+ ["Brutalist (IAAC-like)","Huge black type, one red accent, mono labels. Bold and very 'computational design school'.","Canva bold / Swiss templates","https://www.canva.com/presentations/templates/"],
+ ["Blueprint","Technical grid, mono font. Says 'method and tool'; weakest for long text.","SlidesCarnival / Slidesgo blueprint","https://www.slidescarnival.com/"]];
+const g=document.getElementById('g'),t=document.getElementById('t');
+S.forEach(([n,d,src,url],i)=>{const f=document.createElement('figure'),s=document.createElement('div');
+ s.className='s st'+(i+1);s.append(t.content.cloneNode(true));f.append(s);
+ f.insertAdjacentHTML('beforeend',`<figcaption><b>${i+1}. ${n}</b><br>${d}<br>Template source: <a href="${url}" target="_blank" rel="noopener">${src}</a></figcaption>`);g.append(f);});
+</script></body></html>
