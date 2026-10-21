@@ -34,6 +34,31 @@ I will gladly share the results for Porta (maps and per-position comparisons) on
 Thank you very much for your time.
 
 Kind regards,
-Giovanni [Surname]
+Giovanni Carlo Volpe
 MaCAD student, IAAC (Institute for Advanced Architecture of Catalonia), Barcelona
-[email]
+giovanni.carlo.volpe@students.iaac.net
+
+---
+
+## Web-form versions (≤ 1,200 characters, 21 Oct)
+The city's "Atenció en línia" form takes at most 1,200 characters. These are the versions the user chose to send through it.
+
+**Catalan (1,122 characters):**
+
+> Bon dia, soc Giovanni Carlo Volpe, estudiant del màster MaCAD a l'IAAC. La meva tesi desenvolupa un mètode per triar les espècies que substitueixen els plàtans a Porta (Nou Barris), dins del Pla director de l'arbrat 2017-2037 i la guia Gestió de l'arbrat viari (2011), estimant l'efecte de cada espècie sobre la calor i l'escorrentia. Agrairia que Parcs i Jardins pogués respondre:
+> 1. Hi ha un document o llista interna de quines espècies substitueixen els arbres que moren (per tipus de carrer o amplada de vorera)? Es podria compartir per a ús acadèmic?
+> 2. Quins carrers de Porta mantenen els plàtans? L'Av. Meridiana n'és un?
+> 3. El màxim del 15% per espècie s'aplica només a tota la ciutat, o també per districte o barri?
+> 4. Hi ha un document oficial de la composició objectiu 2026 publicada per Betevé (plàtans i Celtis ~12%, Melia 7,25%, Pyrus, Styphnolobium i Tipuana ~5%)?
+> 5. L'Ajuntament té l'amplada oficial de vorera per arbre, i com es tria la mida en arbres de mitjanes?
+> Compartiré els resultats per a Porta el desembre de 2026. Contacte: giovanni.carlo.volpe@students.iaac.net. Gràcies.
+
+**English (1,060 characters):**
+
+> Hello, I am Giovanni Carlo Volpe, a MaCAD master student at IAAC. My thesis develops a method to choose plane-tree replacements in Porta (Nou Barris) within the Pla director de l'arbrat 2017-2037 and the 2011 guide Gestió de l'arbrat viari, estimating each species' effect on heat and storm runoff. I would be grateful if Parcs i Jardins could answer:
+> 1. Is there a document or internal list of which species replace dying trees (by street type or sidewalk width)? Could it be shared for academic use?
+> 2. Which streets in Porta keep their plane trees? Is Av. Meridiana one of them?
+> 3. Is the 15% maximum per species applied only city-wide, or also by district or neighbourhood?
+> 4. Is there an official document for the 2026 target mix reported by Betevé (planes and Celtis ~12%, Melia 7.25%, Pyrus, Styphnolobium and Tipuana ~5%)?
+> 5. Does the city hold an official sidewalk width per tree, and how is the size class chosen for trees on medians?
+> I will share the results for Porta in December 2026. Contact: giovanni.carlo.volpe@students.iaac.net. Thank you.
