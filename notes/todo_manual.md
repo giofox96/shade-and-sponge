@@ -2,6 +2,11 @@
 
 *8 Oct 2026, updated 15 Oct. Tick items off here, or tell me and I'll update the file. Where a file should go, it's named in each item.*
 
+## Due this week (from RM L02 and RT L03, 21–22 Oct)
+- [ ] **RM cluster map, redrawn by hand on Miro by Tue ~27 Oct** (reviewed in class Thu ~29 Oct). No AI-generated canvas. Follow one unit (one Porta plane due for replacement), include the topic without the tool, list only papers you have read, 5+ precedents (2 theoretical, 3 practice). Checklist: `notes/research_method_guidelines.md` §H.
+- [ ] Read the links Mathilde leaves on Miro (Treepedia, Barcelona tree maps, the nursery's species database) and note the nursery's name.
+- [ ] Ask Fiona Demeur whether PEMB / Consorci del Besòs (GreenInCities) hold street-tree or flood data for Nou Barris.
+
 ## Leaf state of Tipuana and Jacaranda, Nov–Mar (decides the size of the winter-sun result)
 The user lives in Florence (15 Oct), so **no field photos in Porta**. Remote alternatives, which a Claude session can do:
 - [x] Dated **iNaturalist** observations of *Tipuana tipu* and *Jacaranda mimosifolia*, Dec–Mar: **done 15 Oct** (`notes/decisions/leaf_state_inat.md`): 170 Barcelona photos scored. Tipuana is in leaf in January (base case holds); **Jacaranda is mostly in leaf in January too**, not bare as the tool assumed.
