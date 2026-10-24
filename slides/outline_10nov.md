@@ -14,7 +14,7 @@ The deck follows that order.
 - **Reused:** from `slides/fig_v6/` and `slides/fig/`.
 - **Still to make:** slides 3 and 4 (marked *to make*) are text on the slide for now.
 
-**Length:** 14 slides plus backups, ~1,150 spoken words, about 7:40. The core version, dropping slides 7 and 9, is about 6:30.
+**Length:** 14 slides plus backups, ~1,115 spoken words: about 7:25 at 150 words a minute, and about 9:20 with pauses and slide changes (the timestamps in the headings). The core version, dropping slides 7 and 9, saves about 1 minute.
 
 **Sources:**
 - `notes/topic_decision.md` §10 (problem v7, RQ v7, decisions of 24 Oct);
