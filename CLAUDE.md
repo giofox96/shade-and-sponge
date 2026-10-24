@@ -42,7 +42,7 @@ Project (launch Claude Code here): `...\THESIS_MACAD\1_THESIS_PROJECT\`
 
 ## Timeline (today is 7 Oct 2026)
 - **Final delivery:** third week of December 2026, probably **18 Dec 2026** (not yet confirmed).
-- **Tutor sessions:** 7 in total. First one done (6 Oct). **Next: 20 Oct 2026.**
+- **Tutor sessions:** 7 in total. Done: 6 Oct, 20 Oct. **Next: 10 Nov 2026** (requests: `notes/research_method_guidelines.md`, "Conclusions from the week of 19–24 Oct").
 - ~13 days to the next session, ~10 weeks to final delivery.
 
 ## Tutor's requirements (from first meeting)
