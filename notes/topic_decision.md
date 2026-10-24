@@ -372,9 +372,9 @@ The tutor asked for the RQ to be scrutinised. Below, the v6 RQ (§9.4) is checke
 
 | Item | By 10 Nov? | How |
 |---|---|---|
-| Heat, proxy (effective shade), all positions | ✅ | Tool v0. S1a still has to be built: the sizing rule + the 2026 mix. Trunk-class traits need the tool change in row 8 |
-| Runoff, total vs Δmin and at hotspots, T2-60 | ✅ | Tool v0 |
-| Canopy cover after replacement | ✅ | CHM cover (`scripts/porta_canopy_cover.py`) minus plane crowns (`exchange/to_gh/porta_trees_lidar.csv`) plus replacement crowns from the tool's crown model, as in §10.3 |
+| Heat, proxy (effective shade), all positions | ✅ **done 24 Oct** | S1a and trunk-class traits are built (`shade_sponge/README.md`, "S1a and equal trunk size"). Optimised layout vs S1a: +12.4% summer shade, +6.4% winter shade |
+| Runoff, total vs Δmin and at hotspots, T2-60 | ✅ **done 24 Oct** | −33.9 m³ total vs S1a: below Δmin, "not resolved" |
+| Canopy cover after replacement | ✅ **done 24 Oct** | Implemented as crown discs + fixed background (`layout.canopy_cover`). It is a relative measure: 23.3% for S0 against 20.1% from the CHM, so compare between layouts only |
 | Trade-off (SQ3) on the proxy | ✅ | S4 weight sweep |
 | **UTCI (SQ1 in its stated metric)** | ⚠️ one street only | Ladybug Tier 1, S0 vs S1 vs S4 on one street (to-do item 3); the full Porta run is in the 4–17 Nov window |
 | Validation | ❌ results / ✅ plan | Shown as a flowchart: interception calibrated on Freiburg data (Anys & Weiler 2024; runoff v1); the published Ladybug vs ENVI-met benchmark (Mannucci et al. 2025); proxy vs Tier 1 on the same layouts; transfer test (Florence/Mataró) |

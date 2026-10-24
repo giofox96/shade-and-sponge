@@ -115,5 +115,37 @@ Re-run 20 Oct (photo-based leaf calendar, Styphnolobium city-wide values); effec
 - Diversity is cheap here: the balanced layout with the floor still gives +27.5% summer shade over the random palette mean (+30.1% without it). The floor does not touch S0 or the random layouts.
 - Browser check (same LP in `web/src/optimize.js`, HiGHS WASM): floors 6, 10 and 15 are met (6.01, 10.02, 15.02) in 1–5 s; with the six-species city palette of 12 Oct a floor of 6 was infeasible and the app said so. With the seven-species city palette (20 Oct) a floor of 6 is feasible: from the balanced weights the browser reaches 6.0 effective species in 0.7 s, at ≈ 317,800 m²·h summer shade (≈ −4% vs the balanced layout without the floor; a live estimate, not a Python run).
 
+## S1a and equal trunk size (24 Oct): first results for the 10 Nov deck
+Run: `python -m shade_sponge porta --size=exact --trunk=TERCERA` → `databases/barcelona/tool_v0_summary_sizeexact_trunkTERCERA.csv`; figures `scripts/make_results_v7.py` → `slides/fig_v7/res_01_radar`, `res_02_bars`.
+
+**Setup:**
+- **S1a** = the city's rule: the 2026 mix (Betevé 2026, press) used as relative weights (Celtis 12, Melia 7.25, Pyrus / Styphnolobium / Tipuana 5 each, `ASSUMPTION`), drawn at random within the exact sidewalk sizing rule and the 15% cap; 10 seeds. The most constrained positions are drawn first, so every tree fits in all 10 seeds, and only mix species are used.
+- **Equal trunk size:** species traits are the medians of Porta's trees in trunk class TERCERA (81–110 cm perimeter); *Pyrus* falls back to SEGONA (it has no TERCERA trees in Porta); *Styphnolobium* keeps the city-wide sample.
+- **Optimised layouts:** the weighted-sum sweep under the same sizing rule.
+- **New indicator:** canopy cover, measured as crown discs plus the fixed park/private canopy over the site. It reads 23.3% for S0, against 20.1% from the LiDAR CHM. The discs are not the cause: they cover 11.1%, below the 12.3% of segmented crowns. The excess is in the fixed background, which is built by removing only the S0 discs, so plane canopy outside each disc stays in every layout. This also makes the cover lost by replacement look smaller (a conservative bias). Compare it between layouts, not with the 30% target.
+
+**Results** (all 832 plane positions, T2-60 storm, heat = effective-shade proxy; Opt = weights 0.5 summer / 0.25 winter / 0.25 hotspot runoff):
+
+| | S0 today | S1a (mean of 10) | Opt |
+|---|---|---|---|
+| Summer shade, thousand m²·h | 359.3 | 314.0 (−12.6% vs S0) | 353.1 (−1.7%) |
+| Winter shade, thousand m²·h (a cost) | 196.2 | 196.9 | 209.5 |
+| Total runoff, m³ | 17,668.2 | 17,722.3 | 17,688.4 (−33.9 vs S1a; below Δmin = 91) |
+| Hotspot runoff, m³ | 2,682.3 | 2,694.0 | 2,681.0 |
+| Canopy cover (disc model), % | 23.3 | 21.5 | 22.2 |
+
+**Reading:**
+- Against the city's rule, the optimised layout keeps **+39 thousand m²·h of summer shade (+12.4%)**: it keeps 98% of today's summer shade, where S1a keeps 87%.
+- It pays for it with **+13 thousand m²·h of winter shade (+6.4%)**: the summer–winter trade-off again.
+- Runoff differences stay under Δmin, so the runoff half of H1 is **not resolved** by the model.
+- Opt mix: Jacaranda 278, Melia 256 (both at the cap), Tipuana 125, Styphnolobium 69, Pyrus 54, Celtis 43, Brachychiton 7. S1a mix (mean of 10): Tipuana 216, Styphnolobium 187, Pyrus 153, Melia 150, Celtis 127 (cap).
+
+**Caveats:**
+- These are not UTCI results yet; the effective-shade proxy is the heat measure.
+- The replacement trees are scored at TERCERA size, not as young trees.
+- The 15% cap is applied within Porta (`ASSUMPTION`).
+- S0 is not at equal trunk size: it has today's measured planes, 2,600 trees, while each layout puts trees at all 832 plane positions, 25 more than S0's planes with good LiDAR crowns.
+- Additions (A, R+A) are not run yet.
+
 ## Next (not done)
 align the summer design window with the heat metric decided on 19 Oct (mean UTCI over 12–17 h on a hot design day, `notes/topic_decision.md` §8; that window is EPW standard time, i.e. 13–18 h CEST, `notes/decisions/heat_objective.md` §1; the proxy uses 15 Jul 12–17 h CEST) together with the Ladybug calibration · check whether hotspot runoff follows the runoff weight (it did not on 8 Oct; it mostly does on 15 and 20 Oct) · species storage factor · young/mature horizon · `CAPTURE_M` and design-day sensitivity · calibrate the heat proxy on Ladybug Tier 1 (sub-area) · climate-fit filter for other sites · Grasshopper component (Hops) · web app.
