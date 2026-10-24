@@ -6,6 +6,8 @@
 The user lives in Florence (15 Oct), so **no field photos in Porta**. Remote alternatives, which a Claude session can do:
 - [x] Dated **iNaturalist** observations of *Tipuana tipu* and *Jacaranda mimosifolia*, Dec–Mar: **done 15 Oct** (`notes/decisions/leaf_state_inat.md`): 170 Barcelona photos scored. Tipuana is in leaf in January (base case holds); **Jacaranda is mostly in leaf in January too**, not bare as the tool assumed.
 - [ ] If iNaturalist is too thin: winter Google Street View captures of Porta's Tipuana and Jacaranda streets (check the capture date shown in Street View).
+  - **ICGC check done (24 Oct):** the ICGC orthophoto WMS reports the flight date per layer (GetFeatureInfo `data_inicial`). At Porta none of the 2008–2025 flights falls in Dec–Feb (`databases/barcelona/icgc_ortho_flight_dates_porta.csv`); only 25 Mar 2008 (50 cm) is weakly informative. Aerial imagery cannot replace Street View here.
+  - Observation sheet to fill (Google Earth Pro Street View time slider, winter dates): `databases/barcelona/leaf_state_street_obs.csv`.
 - [x] Photo-based leaf calendar **adopted (15 Oct)** and written into `databases/traits/phenology_palette.csv`.
 - [x] **Tool and sensitivity re-run locally (15 Oct):** the Tipuana → Jacaranda no-regret swap shrinks from −9% to −2% winter shade and vanishes in 3 of 8 variants; the summer–winter trade-off beyond the balanced layout is robust (`shade_sponge/README.md`). Street View check no longer needed for the tool.
 

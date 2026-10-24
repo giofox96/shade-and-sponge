@@ -1,0 +1,2 @@
+species,street_or_location,lat,lon,source,image_date,image_url_or_pano,crown_state,rater_note
+# crown_state: Lc in leaf | P partial | B bare | U cannot tell. source: google_earth_pro_streetview | google_earth_pro_aerial | other. One row per image; use several dates per street.,,,,,,,,
