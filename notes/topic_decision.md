@@ -264,7 +264,7 @@ If the city's internal replacement list is obtained (§9.8), it replaces this pr
 - an answer to whether Barcelona has enough trees.
 
 Gate 1 found a rule (`notes/tree_master_plan.md` §5b). v7 builds the problem on it.
-- **Stands from v6:** §9.3 contribution, §9.4 RQ, §9.5 hypotheses, §9.7 scope changes, §9.9 crown evidence.
+- **Stands from v6:** §9.3 contribution, §9.5 hypotheses (amended in §10.5), §9.7 scope changes, §9.9 crown evidence.
 - **Replaced:** §9.2's "the species comes from qualitative criteria the city has not published".
 
 ### 10.1 The problem in one sentence
@@ -322,7 +322,7 @@ So species choice is not a detail next to "plant more". In a neighbourhood that 
 **Palette correction to §9.6.** The 2004/2005 table names **Jacaranda** for medium sidewalks in Nou Barris, as a dead-tree replacement, so §9.6's "not named in any source" no longer holds for Jacaranda. It still holds for Brachychiton.
 
 
-Two candidate city baselines, both run:
+Two candidate city baselines, both to be run:
 - **S1a, the 2026 target mix (press 🟡)**, placed by the sizing rule (§9.6).
 - **S1b, the 2004/2005 Nou Barris table (documented):**
   - *Prunus cerasifera* on narrow sidewalks;
@@ -332,3 +332,49 @@ Two candidate city baselines, both run:
   S1b adds *Prunus cerasifera* to the species the tool must model. Keeping the plane on wide sidewalks takes at least the 259 measured large-sidewalk positions out of the decision set, plus most of the 432 unmeasured medians and boulevards (§9.8). The table also allows "the existing species" there.
 
 If Parcs i Jardins replies with a current per-street list (email sent 24 Oct), that list replaces both.
+
+### 10.5 The research question, scrutinised (24 Oct)
+
+The tutor asked for the RQ to be scrutinised. Below, the v6 RQ (§9.4) is checked against v7 one part at a time.
+
+| # | Part of the v6 RQ | Problem | Fix in v7 |
+|---|---|---|---|
+| 1 | One sentence, three questions | Too long to say aloud. It mixes the main question with two follow-ups | One main question plus three sub-questions |
+| 2 | "jointly **reduce** heat stress and runoff" | At equal trunk size the plane has the largest or near-largest crown in the palette (§9.9), so a replacement almost always *loses* shade and interception against today (S0). "Reduce" against S0 is testable, but it would almost always fail, and the wording misleads | Say what is true: **retain** the most cooling and interception, compared with the city's own rule (S1). S0 is the reference for the loss |
+| 3 | "which species … at which positions" | Asks for a layout, not a method. CLAUDE.md frames the thesis as "a computational method for X" | Ask whether the method does better than the city's rule, and by how much |
+| 4 | Heat: mean UTCI 12–17 h on a hot design day | Decided (§8). UTCI is not computed yet: the tool scores effective shade, the crown shadow × (1 − τ). Ladybug Tier 1 is planned for 4–17 Nov (methodology §10). "Sun-exposed routes" is not defined, and the clock basis is not stated | Keep the metric. **Proposed (`ASSUMPTION`, to adopt in methodology §5):** sidewalk points at 1.1 m on the 2 m grid that are sunlit for at least one hour of the window with no street trees. State the clock basis: the metric window is 12–17 h standard time (13–18 h CEST), while the proxy uses 12–17 h CEST (`shade_sponge/README.md`); align them. The optimiser uses the proxy; Ladybug checks the final layouts |
+| 5 | Runoff: event volume, T = 1, 2, 10 yr | Δmin = 91 m³ is defined on **total** Porta runoff: 0.9 mm × the S0 street crown area, 0.5% of T2-60 runoff (`notes/decisions/runoff_metric_sensitivity.md` §10). The tool optimises **hotspot** runoff, where v0 differences are about 10 m³, so a hotspot test against 91 m³ is "not resolved" by construction. Exploratory result already: best layout vs S1 = 78.3 m³ total (38.5 in the worst case), below Δmin (same memo) | Optimise hotspot runoff; **test total runoff at T2-60 against Δmin**; report hotspot runoff and T1/T10. "Not resolved" is an allowed answer, and it is the current exploratory one. T = 10 stays the declared boundary (§8) |
+| 6 | Baseline "the city's own replacement" | Two city rules now exist. **S1a:** the 2026 mix (press 🟡), placed at random within the sizing rule. **S1b:** the 2004/2005 Nou Barris table (documented), which keeps the plane on wide sidewalks. Their position sets differ. S1b replaces only the medium- and narrow-sidewalk planes: 126 + 14 measured, plus 1 too narrow for a tree. S1a covers up to 832; its set is open, since the Meridiana planes may be kept (§9.7.2) | Run the method on **each baseline's own position set** and compare there. Headline: S1a. Sensitivity: S1b. **User decision**, `notes/todo_manual.md` item 6 |
+| 7 | Scale: Porta | Implicit | Porta, 83.7 ha, up to 832 plane positions; layouts scored per position and summed. The method must work for **any subset** of positions (§9.7.3) |
+| 8 | Time | Mature vs young crowns not stated. The tool uses each species' median over all Porta trees, which are the raw medians §9.9 calls misleading | Score at equal trunk size, as in §9.9 (**tool change needed**). Report the young-tree transition as a side result |
+| 9 | Trade-off sub-question | With summer shade and runoff alone, the v0 front collapses: crown × LAI drives both. Adding winter sun access gives a robust summer–winter trade-off (`shade_sponge/README.md`; methodology §6). The heat–runoff trade-off is still open. §9.5's H2 mechanism (leaf habit, transpiration) cannot act on the objectives as modelled, and transpiration is not in Tier 1 (`notes/decisions/hypothesis_tests.md` §2) | Keep SQ3 as an open question; a collapsed heat–runoff front is a valid answer. Restate H2's mechanism as crown size and leaf-on calendar |
+| 10 | Tree cover (tutor: "are there enough trees?") | Not in the RQ | Report Porta's **canopy cover after replacement** against the plan's 30% target. It is a city-facing indicator, not an objective |
+
+**RQ v7.**
+
+> **Can a trait-based layout method, working inside Barcelona's replacement rules, choose replacement species for Porta's plane trees that retain more pedestrian cooling and storm-water interception than the city's own rule-based replacement?**
+>
+> - **SQ1 (heat):** how does the mean UTCI over 12–17 h on a hot design day differ between the city's replacement and the method's layout?
+> - **SQ2 (runoff):** how does the runoff from a 2-year, 60-minute storm differ, in total and at Porta's flood hotspots, and is the total difference larger than what the model can resolve (Δmin)?
+> - **SQ3 (trade-off):** do the heat-best and runoff-best layouts differ, and in which species?
+>
+> The method is compared with S1 on the same plane positions. Both are also reported against today (S0).
+
+**What each part tests.**
+- **H1 → SQ1 + SQ2:** the method beats S1 on both.
+- **H2 → SQ3.**
+- **The declared boundary (§8):** reported, not tested.
+- **Canopy cover:** reported for every layout.
+
+**What can be answered by 10 Nov** (`shade_sponge/` v0 already runs S0, a random-palette S1 and an S4 weight sweep; that S1 is a random palette, not S1a):
+
+| Item | By 10 Nov? | How |
+|---|---|---|
+| Heat, proxy (effective shade), all positions | ✅ | Tool v0. S1a and S1b still have to be built: S1a = sizing rule + the 2026 mix; S1b = the Nou Barris table + *Prunus cerasifera* (19 LiDAR-measured trees in Porta). Trunk-class traits need the tool change in row 8 |
+| Runoff, total vs Δmin and at hotspots, T2-60 | ✅ | Tool v0 |
+| Canopy cover after replacement | ✅ | CHM cover (`scripts/porta_canopy_cover.py`) minus plane crowns (`exchange/to_gh/porta_trees_lidar.csv`) plus replacement crowns from the tool's crown model, as in §10.3 |
+| Trade-off (SQ3) on the proxy | ✅ | S4 weight sweep |
+| **UTCI (SQ1 in its stated metric)** | ⚠️ one street only | Ladybug Tier 1, S0 vs S1 vs S4 on one street (to-do item 3); the full Porta run is in the 4–17 Nov window |
+| Validation | ❌ results / ✅ plan | Shown as a flowchart: interception calibrated on Freiburg data (Anys & Weiler 2024; runoff v1); the published Ladybug vs ENVI-met benchmark (Mannucci et al. 2025); proxy vs Tier 1 on the same layouts; transfer test (Florence/Mataró) |
+
+**Supersedes:** §9.4 (RQ v6). §9.5's H1 stands, with "the city's own replacement" read as S1a (headline) and S1b (sensitivity), and with the Δmin test applied to total runoff. H2's mechanism is restated in row 9.
