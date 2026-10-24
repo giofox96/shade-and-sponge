@@ -67,7 +67,7 @@ A running checklist of the advice from the two research seminars, checked agains
 | C2 | Separate stakeholders (a stake in the outcome, present throughout) from actors, and engage key stakeholders from the start | RT L02 slide 15, [00:35:04]–[00:39:07] | ❌ | Mark 1–2 key stakeholders in the map; they are the interviewees for B4 and E2 |
 | C3 | Know where data comes from, its licence, and local rules on collecting and processing it | RT L02 [00:26:31]–[00:27:52] | ✅ Licences recorded in `databases/data_inventory_barcelona.md` (e.g. ICGC CC BY 4.0, OSM ODbL) | Keep this up as data is added |
 | C4 | Rank stakeholders by level of engagement: empowered, collaborative, involved, consulted, informed | RT L03 slide 51, [01:14:48] | ❌ | Add a level column to `notes/actors_map.md` (C1) |
-| C5 | If you need data, find who holds it and involve them | RT L03 [01:14:48] | ⚠️ Parcs i Jardins email drafted (`notes/email_parcs_i_jardins.md`); RESCCUE request sent 13 Oct | Send the Parcs i Jardins email; ask the RT lecturer about PEMB / Consorci del Besòs (GreenInCities partners, slide 50) |
+| C5 | If you need data, find who holds it and involve them | RT L03 [01:14:48] | ⚠️ Parcs i Jardins email sent 24 Oct (`notes/email_parcs_i_jardins.md`); RESCCUE request sent 13 Oct | Wait for the reply; ask the RT lecturer about PEMB / Consorci del Besòs (GreenInCities partners, slide 50) |
 
 ## D. Evidence and methodology
 

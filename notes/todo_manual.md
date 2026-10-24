@@ -4,7 +4,7 @@
 
 ## For the next tutor session, 10 Nov (requests from the 20 Oct session)
 Full list: `notes/research_method_guidelines.md`, "Conclusions from the week of 19–24 Oct".
-- [ ] **Gate 1: does Barcelona already decide which species replaces which tree, and where, by a criterion?** Send the Parcs i Jardins email (`notes/email_parcs_i_jardins.md`); open *Arbrat viari: selecció d'espècies* (2002/2004, BCNROC).
+- [ ] **Gate 1: does Barcelona already decide which species replaces which tree, and where, by a criterion?** Email to Parcs i Jardins **sent 24 Oct**: wait for the reply. The 2004/2005 table was read: a rule exists on paper, but Porta's plantings do not follow it (`notes/tree_master_plan.md` §5b).
 - [ ] **Are there enough trees?** Current city tree cover vs the plan's 30% target; Porta's canopy cover from the LiDAR.
 - [ ] Problem 100% clear → research question scrutinised → methodology flowcharts (short) → results + validation → first results.
 

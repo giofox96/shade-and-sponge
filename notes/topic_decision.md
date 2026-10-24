@@ -220,7 +220,12 @@ If the city's internal replacement list is obtained (§9.8), it replaces this pr
 
 ### 9.8 Two risks, and how they are settled
 
-- **The city may already have a per-street replacement list.** In 2022 the city said it had determined which species can replace dying trees (press 🟡). If that list exists and uses shade, the contribution narrows to the quantities (heat, runoff, the trade-off), and S1 becomes that list. To settle it: the email to Parcs i Jardins (`notes/email_parcs_i_jardins.md`).
+- **The city may already have a per-street replacement list.** In 2022 the city said it had determined which species can replace dying trees (press 🟡). If that list exists and uses shade, the contribution narrows to the quantities (heat, runoff, the trade-off), and S1 becomes that list. To settle it: the email to Parcs i Jardins (`notes/email_parcs_i_jardins.md`; **sent 24 Oct**). **Partly settled, 24 Oct** (`notes/tree_master_plan.md` §5b):
+  - A district × sidewalk-width table for dead trees exists in 2004/2005 Parcs i Jardins documents. For Nou Barris it gives *Prunus cerasifera* on narrow sidewalks, Melia or Jacaranda on medium ones, and keeps the plane on wide ones.
+  - Its criteria are tolerance, typology and tradition; heat and runoff are absent.
+  - The 2011 guide no longer prints the table.
+  - In Porta only ~10% of dated 2007–2026 plantings on narrow and medium sidewalks match it. This is an upper bound on non-compliance: street rebuilds and exceptions follow other lists, and the inventory cannot separate them.
+  - So the problem becomes sharper: the city has a qualitative rule that is not visible in Porta's plantings, not "no rule". The 2004 table is a second candidate S1 (S1b): a documented city rule, as against the 2026 press mix.
 - **The sizing rule may leave only one or two species per position.** Under the literal reading the palette splits into three groups (2011 catalogue): large Celtis, Tipuana, Jacaranda; medium Melia, *Styphnolobium*, Brachychiton; small *Pyrus* only. A narrow sidewalk would then take only *Pyrus*. If so, the optimisation shrinks, and the main result becomes the cost of the forced downsizing. **Checked 21 Oct: the risk is small.**
   - 400 of the 832 plane positions have a façade-bounded sidewalk: 259 large, 126 medium, 14 small and 1 too narrow for a tree.
   - So only 15 positions are forced to *Pyrus* or to nothing; every other measured position keeps three species.

@@ -97,6 +97,43 @@
    PLATANOR® 'Vallis Clausa' is listed separately (p. 53), which bears on the backlog question of whether Porta's 3 trees of it count as *Platanus*. Each species also carries a coloured suitability mark (plant / restricted, i.e. only fill gaps in streets that keep the species / avoid / under study). **The colour cannot be read from the text extraction, so each species' mark is unverified.**
 6. **Not public.** In 2022 the city said it had already decided which species can replace trees that die, using street orientation, available aerial space, soil quality and desired shade (N3 🟡). That list or rule set was not found. The plan has only the actions: 1.2 balance species abundance, 1.4 plan the renewal, 2.9 select species for the future (urban resistance, habit, flowering) (P §2.2). **Nobody publishes a per-street choice, and no source quantifies runoff or thermal comfort per species or position** (G p. 16 asks only qualitatively for shade trees that feel cool in summer). That is the gap the tool fills.
 
+## 5b. Gate 1 (24 Oct): a structured "which species, where" rule exists, but on paper only
+
+Tutor, 20 Oct: check whether Barcelona already has a structured plan, decided by a criterion, that sets which trees are replaced and where.
+
+**Sources read in full text** (BCNROC, in the browser):
+- **S** = *Arbrat viari: selecció d'espècies*, Parcs i Jardins, 2002, last revised May 2004, 56 pp. https://bcnroc.ajuntament.barcelona.cat/jspui/bitstream/11703/90277/1/3265.pdf. The table was read on the rendered page, not only from the text layer.
+- **PG** = *Pla de gestió de l'arbrat viari de Barcelona*, Parcs i Jardins, Dec 2005, last revised Jan 2006. https://bcnroc.ajuntament.barcelona.cat/jspui/bitstream/11703/86305/4/3263.pdf.txt
+
+**What they decide.**
+1. **A rule for dead trees: one table, by district and sidewalk width** (S §2.4.2.1 p. 11; PG §3.4.3 p. 10, same table). In S it is marked "d'ús intern de Parcs i Jardins". **Row 8, Nou Barris:**
+
+   | Sidewalk | < 3.5 m (small) | 3.5–6 m (medium) | > 6 m (large) |
+   |---|---|---|---|
+   | Species to plant | *Prunus cerasifera* 'Atropurpurea' | *Melia azedarach* or *Jacaranda mimosifolia* | **keep *Platanus*** or the existing species; *Ulmus pumila* is replaced by a large species |
+
+2. **Why the plane is replaced** (S §2.4.2; PG §3.4.2): it is kept only on large avenues, on exceptional streets with low, airy, sunny buildings, and where its growth does not interfere with urban activity. **Priority order for replacing a plane or elm:** (1) road-safety problems, (2) dead, (3) aesthetically unrecoverable or declining, (4) to unify a stretch where another species already dominates, (5) taking advantage of street works.
+3. **Rebuilt streets** (S §2.4.2.2 p. 13): a broader list for each sidewalk class, with no district. It comes "from the experience of the technicians" and is revised periodically.
+4. **Exceptions** (S §2.4.3): a street where conversion has already started with a different species keeps that species. A well-adapted small species on a narrow street is kept.
+5. **Criteria named:** tolerance of local conditions, urban typology, tradition and earlier plantings (S §2.4.2). **Shade, heat and runoff are not among them.**
+
+**The current guide drops the table.** The 2011 guide (G §11 p. 28), still in force under the 2017 plan, says only that a dead tree is replaced by the same species or a new one "taking into account the species catalogue". The catalogue's suitability marks include "restricted: only to fill gaps in streets that keep the species". No district table is printed. The 2022 press criteria (orientation, aerial space, soil, desired shade; N3 🟡) are newer than S/PG and are not in any document found.
+
+**Does Porta follow the table?** Checked with `scripts/replacement_rule_check.py` → `databases/barcelona/replacement_rule_check.csv`. Inputs: Porta trees with a planting date (2007–2026, 559 of 2,825). Of these, 368 have a measured sidewalk class; 183 marked 'check' and 8 'none' are excluded.
+- **Narrow sidewalks:** 58 planted; **10%** are the table's *Prunus cerasifera*. All six are recorded as 'Pissardii'; the match ignores the cultivar. Most are *Pyrus calleryana* (30).
+- **Medium sidewalks:** 112 planted; **10%** match, all of them Melia (no Jacaranda). Brachychiton leads (26), then *Pyrus*, Handroanthus and Melia.
+- **Wide sidewalks:** 198 planted. Only 11 are planes: 9 *P. × acerifolia* and 2 PLATANOR, whose status is disputed (§5.5). The other 187 are other taxa, 24 taxa (21 genera) in all: Grevillea 42, Casuarina 23, Fraxinus 23, Robinia 21, … The table also allows "the existing species", and the inventory cannot tell what each tree replaced.
+
+**What the check cannot show.** The table covers dead trees only. Rebuilt streets use a broader list (S §2.4.2.2), and the exceptions apply (S §2.4.3). The inventory cannot separate these cases; the peaks of 70 plantings in 2010 and 102 in 2025 suggest street works. So ~90% is an **upper bound** on non-compliance. Planting dates exist for 20% of Porta's trees. The inventory does not record which species a new tree replaced. The size class comes from the 2021 façade-to-kerb measurement (`notes/sidewalk_width.md`).
+
+**Verdict.**
+- **Yes, a structured rule has existed since at least 2004.** It sets species by district × sidewalk width and replaces the plane everywhere except wide avenues.
+- **It is qualitative.** It rests on tradition, typology and the technicians' experience; heat and runoff are not mentioned.
+- **The 2011 guide no longer prints it.** Whether it is still used internally is unknown (question for the email).
+- **It is not visible in Porta's plantings.** Up to ~90% of dated plantings on narrow and medium sidewalks do not match the dead-tree table. This is an upper bound, since rebuilt streets and exceptions follow other lists. The per-street list announced in 2022 is still unseen.
+
+So the gap holds and becomes sharper: the city has qualitative rules for which species, but **no published rule that is visible in practice, and none that quantifies heat or runoff**. The email to Parcs i Jardins (sent 24 Oct) is the last check. If it returns a current per-street list, that list becomes S1.
+
 ## 6. Consequences for the thesis and the tool
 
 1. **Cap scope.** `shade_sponge/layout.py` applies `MAX_SHARE = 0.15` **within Porta**, but the plan caps the **city-wide** street stock. Keep the local cap, but label it `ASSUMPTION` (a local reading of a city-wide rule). The three scopes in backlog #9 still stand, and scope (c), city-wide 12%, now has a 2026 source (press). A city-wide headroom must use P's urban-fabric denominator (~201,600 in 2017), not only the 140,404 street trees.
@@ -109,7 +146,7 @@
 ## 7. Still to check
 
 - The colour suitability marks in G's catalogue (open the PDF, pp. 49–56).
-- The city's list of replacement species by street type (N3): ask Parcs i Jardins or look for a newer *selecció d'espècies* document. A web search points to an older one in BCNROC, *Arbrat viari: selecció d'espècies* (Parcs i Jardins, 2002, revised 2004; not opened 🟡).
+- The city's current list of replacement species by street type (N3). The 2004/2005 version was read on 24 Oct (§5b). A newer one: waiting on the Parcs i Jardins email (sent 24 Oct).
 - The species list behind the 40% climate-adapted target. It is not in P.
 - An official source (Ajuntament press release, or the 20minutos original) for the 2026 figures.
 - Get Santamour 1990 and Kendal et al. 2014 into Zotero.
