@@ -115,5 +115,86 @@ Re-run 20 Oct (photo-based leaf calendar, Styphnolobium city-wide values); effec
 - Diversity is cheap here: the balanced layout with the floor still gives +27.5% summer shade over the random palette mean (+30.1% without it). The floor does not touch S0 or the random layouts.
 - Browser check (same LP in `web/src/optimize.js`, HiGHS WASM): floors 6, 10 and 15 are met (6.01, 10.02, 15.02) in 1–5 s; with the six-species city palette of 12 Oct a floor of 6 was infeasible and the app said so. With the seven-species city palette (20 Oct) a floor of 6 is feasible: from the balanced weights the browser reaches 6.0 effective species in 0.7 s, at ≈ 317,800 m²·h summer shade (≈ −4% vs the balanced layout without the floor; a live estimate, not a Python run).
 
+## S1a and equal trunk size (24 Oct): first results for the 10 Nov deck
+Run: `python -m shade_sponge porta --size=exact --trunk=TERCERA` → `databases/barcelona/tool_v0_summary_sizeexact_trunkTERCERA.csv`; figures `scripts/make_results_v7.py` → `slides/fig_v7/res_01_radar`, `res_02_bars`.
+
+**Setup:**
+- **S1a** = the city's rule: the 2026 mix (Betevé 2026, press) used as relative weights (Celtis 12, Melia 7.25, Pyrus / Styphnolobium / Tipuana 5 each, `ASSUMPTION`), drawn at random within the exact sidewalk sizing rule and the 15% cap; 10 seeds. The most constrained positions are drawn first, so every tree fits in all 10 seeds, and only mix species are used.
+- **Equal trunk size:** species traits are the medians of Porta's trees in trunk class TERCERA (81–110 cm perimeter); *Pyrus* falls back to SEGONA (it has no TERCERA trees in Porta); *Styphnolobium* keeps the city-wide sample.
+- **Optimised layouts:** the weighted-sum sweep under the same sizing rule.
+- **New indicator:** canopy cover, measured as crown discs plus the fixed park/private canopy over the site. It reads 23.3% for S0, against 20.1% from the LiDAR CHM. The discs are not the cause: they cover 11.1%, below the 12.3% of segmented crowns. The excess is in the fixed background, which is built by removing only the S0 discs, so plane canopy outside each disc stays in every layout. This also makes the cover lost by replacement look smaller (a conservative bias). Compare it between layouts, not with the 30% target.
+
+**Results** (all 832 plane positions, T2-60 storm, heat = effective-shade proxy; Opt = weights 0.5 summer / 0.25 winter / 0.25 hotspot runoff):
+
+| | S0 today | S1a (mean of 10) | Opt |
+|---|---|---|---|
+| Summer shade, thousand m²·h | 359.3 | 314.0 (−12.6% vs S0) | 353.1 (−1.7%) |
+| Winter shade, thousand m²·h (a cost) | 196.2 | 196.9 | 209.5 |
+| Total runoff, m³ | 17,668.2 | 17,722.3 | 17,688.4 (−33.9 vs S1a; below Δmin = 91) |
+| Hotspot runoff, m³ | 2,682.3 | 2,694.0 | 2,681.0 |
+| Canopy cover (disc model), % | 23.3 | 21.5 | 22.2 |
+
+**Reading:**
+- Against the city's rule, the optimised layout keeps **+39 thousand m²·h of summer shade (+12.4%)**: it keeps 98% of today's summer shade, where S1a keeps 87%.
+- It pays for it with **+13 thousand m²·h of winter shade (+6.4%)**: the summer–winter trade-off again.
+- Runoff differences stay under Δmin, so the runoff half of H1 is **not resolved** by the model.
+- Opt mix: Jacaranda 278, Melia 256 (both at the cap), Tipuana 125, Styphnolobium 69, Pyrus 54, Celtis 43, Brachychiton 7. S1a mix (mean of 10): Tipuana 216, Styphnolobium 187, Pyrus 153, Melia 150, Celtis 127 (cap).
+
+**Caveats:**
+- These are not UTCI results yet; the effective-shade proxy is the heat measure.
+- The replacement trees are scored at TERCERA size, not as young trees.
+- The 15% cap is applied within Porta (`ASSUMPTION`).
+- S0 is not at equal trunk size: it has today's measured planes, 2,600 trees, while each layout puts trees at all 832 plane positions, 25 more than S0's planes with good LiDAR crowns.
+- Additions (A, R+A): see the next section.
+
+## Additions: R, A and R+A (24 Oct)
+**Spots:** `scripts/porta_planting_spots.py` → `databases/barcelona/porta_planting_spots.csv`, built in four steps:
+1. Walk every façade line of the 1:1000 map (same tiles and ray method as the sidewalk widths) and take the first road line beyond it as the kerb.
+2. Place the pit 0.7 m in from the kerb: the median kerb-to-tree distance of the measured trees is 0.69 m.
+3. Keep sidewalks ≥ 2.5 m, and only spots within 15 m of an OSM street centreline (`ASSUMPTION`; it drops paths inside blocks).
+4. Keep 7 / 9 / 13 m between trees by size class, existing trees included (2011 guide).
+
+The result is **267 spots: 142 small, 53 medium, 72 large.** This is an **upper bound**: driveways, crossings, bus stops, lamps and underground services are not in the data.
+
+**Run:** `scripts/run_additions.py` → `databases/barcelona/additions_summary.csv`. S1a has 5 seeds; Opt uses the balanced weights; both use the exact sizing rule and TERCERA traits. The cap is recomputed on the larger stock.
+
+| | Summer shade, % of today | Winter shade, % of today | Total runoff, m³ vs today | Canopy (disc model), points vs today |
+|---|---|---|---|---|
+| R, city rule | 87.3 | 100.5 | +54.4 | −1.8 |
+| R, optimised | 98.3 | 106.8 | +20.2 | −1.1 |
+| A, city rule | 104.5 | 104.1 | −16.9 | +0.6 |
+| A, optimised | 106.2 | 106.7 | −24.6 | +0.7 |
+| R+A, city rule | 92.6 | 106.5 | +35.9 | −1.2 |
+| R+A, optimised | **104.2** | 111.9 | −4.2 | −0.4 |
+
+**Reading:**
+- **Of the scenarios that replace the planes, only R+A optimised ends above today's summer shade (104.2%).** The city's rule with the same additions stays below (92.6%). Adding trees while keeping the planes (A) ends higher still (104.5% city rule, 106.2% optimised), but A is not the city's policy: the planes are being replaced.
+- **Additions alone add little through species choice** (+1.7 points over the city's rule). 174 of the 267 spots are fixed to *Pyrus* in every layout: 142 narrow sidewalks, plus 32 wider ones where no larger crown clears the façade. So species choice acts on only 93 spots.
+- **Every runoff difference stays within ±Δmin (91 m³).**
+- **Canopy stays below today in R and R+A, but the gap is smaller with optimised species.** The disc model is conservative here (see the S1a section).
+
+**Caveats:**
+- Heat is the shade proxy, and the trees are scored at TERCERA size.
+- The spots are a ceiling, not a plan. Not modelled: driveways (> 1 m), traffic lights and signs (> 3 m), lamps (3 / 4.5 / 6.5 m), balcony clearance (0.5 m), crossings, bus stops and services.
+- A new spot is spaced by its own class only, so a small spot can sit 7–13 m from an existing large tree. This slightly overstates the count.
+- R scores 832 positions; S0 has 809 planes with good LiDAR crowns.
+
+## Genus and family check (24 Oct)
+Every layout now reports its largest genus and family share: `layout.taxon_shares`, with families from standard taxonomy. These are compared with Santamour's (1990) 20% per genus and 30% per family (values from `databases/barcelona/additions_summary.csv`; city rule = mean of its 5 seeds), and reported, not constrained, because Barcelona caps species only. The denominator is the evaluated tree set (good LiDAR crowns plus the new trees), so shares run slightly above the cap's 2,825-tree denominator.
+
+| | Largest genus | Largest family |
+|---|---|---|
+| Today (S0) | Platanus 31.1% | Platanaceae 31.1% |
+| R, city rule | Celtis 17.3% | Fabaceae 25.3% (Tipuana + Styphnolobium + Robinia + …) |
+| R, optimised | Jacaranda 16.0% | Bignoniaceae 19.9% |
+| A (planes kept) | Platanus 28.2% | Platanaceae 28.2% |
+| R+A, city rule / optimised | Celtis 17.1% / Jacaranda 15.9% | Fabaceae 24.9% / Bignoniaceae 19.5% |
+
+**Reading:**
+- Today's stock fails both the genus and the family rule (31.1%). Additions-only fails the genus rule (28.2%).
+- Every replacement layout passes both the genus and the family limit.
+- The optimised layouts with balanced weights are the more even ones at family level: their largest family is about 20%, against about 25% under the city rule. Other weight sets reach Fabaceae 23–24%.
+- Santamour notes that the legume genera may share few pests across their subfamilies (p. 63), so the 25% Fabaceae of the city rule is a cautious reading.
+
 ## Next (not done)
 align the summer design window with the heat metric decided on 19 Oct (mean UTCI over 12–17 h on a hot design day, `notes/topic_decision.md` §8; that window is EPW standard time, i.e. 13–18 h CEST, `notes/decisions/heat_objective.md` §1; the proxy uses 15 Jul 12–17 h CEST) together with the Ladybug calibration · check whether hotspot runoff follows the runoff weight (it did not on 8 Oct; it mostly does on 15 and 20 Oct) · species storage factor · young/mature horizon · `CAPTURE_M` and design-day sensitivity · calibrate the heat proxy on Ladybug Tier 1 (sub-area) · climate-fit filter for other sites · Grasshopper component (Hops) · web app.

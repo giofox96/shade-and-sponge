@@ -6,7 +6,7 @@ NSGA-II comes later, if the weighted-sum front leaves gaps."""
 import itertools, numpy as np, pandas as pd
 from scipy import ndimage, sparse
 from scipy.optimize import linprog
-from .site import DB, rc, species_lidar
+from .site import DB, CITY_LIDAR, rc, species_lidar
 from . import heat, runoff, season
 
 CITY_PALETTE = ["Celtis australis", "Melia azedarach", "Pyrus calleryana", "Jacaranda mimosifolia", "Tipuana tipu",
@@ -20,6 +20,16 @@ SIZE_CLASS = {"Platanus x acerifolia": "large", "Celtis australis": "large", "Ti
               "Jacaranda mimosifolia": "large", "Melia azedarach": "medium", "Styphnolobium japonicum": "medium",
               "Brachychiton populneus": "medium", "Pyrus calleryana": "small"}
 RANK = {"none": -1, "small": 0, "medium": 1, "large": 2}
+# S1a, the city's own replacement (notes/topic_decision.md §9.6, §10.4; decided 24 Oct): the 2026 target mix (Betevé,
+# 7 May 2026, press 🟡: Celtis ~12%, Melia 7.25%, Pyrus, Sophora and Tipuana ~5% each), used as relative weights of a
+# random draw within the sizing rule. ASSUMPTION: the city-wide target shares are read as replacement proportions, and
+# Celtis's 12% as per species (the source is ambiguous: "planes and Celtis ~12%"; notes/tree_master_plan.md §5).
+S1A_MIX = {"Celtis australis": 12, "Melia azedarach": 7.25, "Pyrus calleryana": 5, "Styphnolobium japonicum": 5,
+           "Tipuana tipu": 5}
+# Equal trunk size (notes/topic_decision.md §9.9, §10.5 row 8): species traits = medians of the Porta trees in one trunk
+# class of the inventory (categoria_arbrat; TERCERA = 81–110 cm perimeter, 2011 guide p. 18). ASSUMPTION: TERCERA is the
+# reference; a species with fewer than MIN_CLASS trees there falls back to SEGONA, then to all classes.
+MIN_CLASS = 20
 
 
 def slug(species):
@@ -37,13 +47,27 @@ def palette_names(kind):
     return [s for s in sl[sl.status == "candidate"].species if n.get(s, 0) >= MIN_LIDAR], "species_lidar_summary.csv"
 
 
-def palette(site, kind="city"):
+def palette(site, kind="city", trunk=None):
     """Species traits = median of the species' LiDAR-measured trees (Porta only for 'city'; Porta + three city tiles
-    for 'barcelona'; site.CITY_LIDAR overrides in both) and how many more each may get under the cap."""
+    for 'barcelona'; site.CITY_LIDAR overrides in both) and how many more each may get under the cap.
+    trunk (e.g. "TERCERA"): use the medians of the species' Porta trees in that trunk class instead (MIN_CLASS)."""
     names, summary = palette_names(kind)
     s = species_lidar(summary).loc[names]
     p = pd.DataFrame(dict(species=names, crown_diam_m=s.crown_diam_med.values, height_m=s.height_med.values,
                           crown_base_m=s.crown_base_med.values, lai=s.lai_proxy_med.values, n_lidar=s.n.values))
+    p["trunk_class"] = "all"
+    if trunk:
+        ok = site.trees[site.trees.flag == "ok"]
+        for i, sp in enumerate(names):
+            if sp in CITY_LIDAR:                              # Porta sample too small: city-wide medians kept
+                continue
+            for cls in (trunk, "SEGONA"):
+                g = ok[(ok.sp == sp) & (ok.size_category == cls)]
+                if len(g) >= MIN_CLASS:
+                    p.loc[i, ["crown_diam_m", "height_m", "crown_base_m", "lai", "n_lidar"]] = [
+                        g.crown_diam_m.median(), g.height_m.median(), g.crown_base_m.median(), g.lai.median(), len(g)]
+                    p.loc[i, "trunk_class"] = cls
+                    break
     t = site.trees
     kept = t[~t.is_plane].sp.value_counts().reindex(names).fillna(0).values
     p["cap"] = (np.floor(MAX_SHARE * len(t)) - kept).clip(0).astype(int)
@@ -63,6 +87,8 @@ def size_fits(pos_class, species, rule="exact"):
 
 def sidewalk_class(pos):
     """Size class of each position from databases/barcelona/porta_sidewalk_width.csv ("check" if not measured)."""
+    if "size_class" in pos:                               # new planting spots carry their own class
+        return pos.size_class.values
     w = pd.read_csv(DB / "porta_sidewalk_width.csv").set_index("tree_id").size_class
     return w.reindex(pos.tree_id).fillna("check").values
 
@@ -172,12 +198,60 @@ def sweep(objs, cap, fit, step=0.25, min_eff=None):
 
 def random_layout(cap, fit, rng):
     """Baseline: each position gets a random fitting palette species that still has room under its cap."""
-    left, out = cap.copy(), []
-    for f in fit:
-        j = rng.choice(np.flatnonzero((left > 0) & f))
+    left, out = cap.copy(), np.empty(len(fit), int)
+    for i in np.argsort(fit.sum(1), kind="stable"):     # most constrained positions first, so the cap rarely blocks a fit
+        ok = np.flatnonzero((left > 0) & fit[i])
+        j = rng.choice(ok if len(ok) else np.flatnonzero(left > 0))   # last resort: any species with room (raises if none)
         left[j] -= 1
-        out.append(j)
-    return np.array(out)
+        out[i] = j
+    return out
+
+
+def s1a_layout(pal, cap, fit, rng):
+    """S1a: each position draws a fitting S1A_MIX species with probability proportional to its weight, under the cap.
+    Positions are drawn most constrained first. Where no mix species fits or has room: any fitting palette species with
+    room, else (last resort) any species with room."""
+    w = pal.species.map(S1A_MIX).fillna(0).values
+    left, out = cap.copy(), np.empty(len(fit), int)
+    for i in np.argsort((fit * (w > 0)).sum(1), kind="stable"):   # positions with fewest fitting mix species first
+        ok = (left > 0) & fit[i]
+        p = w * ok
+        alt = np.flatnonzero(ok) if ok.any() else np.flatnonzero(left > 0)  # as random_layout
+        j = rng.choice(len(w), p=p / p.sum()) if p.sum() > 0 else rng.choice(alt)
+        left[j] -= 1
+        out[i] = j
+    return out
+
+
+# Family of every genus in Porta's inventory (standard taxonomy, APG IV; "X" = ×Chitalpa). For the 10-20-30 check of
+# Santamour 1990 (#139): genus and family shares are reported, not constrained (Barcelona caps species only).
+FAMILY = {"Platanus": "Platanaceae", "Celtis": "Cannabaceae", "Melia": "Meliaceae", "Pyrus": "Rosaceae",
+          "Jacaranda": "Bignoniaceae", "Tipuana": "Fabaceae", "Brachychiton": "Malvaceae", "Populus": "Salicaceae",
+          "Citrus": "Rutaceae", "Robinia": "Fabaceae", "Catalpa": "Bignoniaceae", "Grevillea": "Proteaceae",
+          "Casuarina": "Casuarinaceae", "Gleditsia": "Fabaceae", "Fraxinus": "Oleaceae", "Handroanthus": "Bignoniaceae",
+          "Tilia": "Malvaceae", "Ligustrum": "Oleaceae", "Morus": "Moraceae", "Prunus": "Rosaceae", "Acer": "Sapindaceae",
+          "X": "Bignoniaceae", "Hibiscus": "Malvaceae", "Eugenia": "Myrtaceae", "Koelreuteria": "Sapindaceae",
+          "Hesperocyparis": "Cupressaceae", "Eucalyptus": "Myrtaceae", "Cercis": "Fabaceae", "Ulmus": "Ulmaceae",
+          "Styphnolobium": "Fabaceae", "Crataegus": "Rosaceae", "Cupressus": "Cupressaceae", "Photinia": "Rosaceae",
+          "Pinus": "Pinaceae", "Phoenix": "Arecaceae", "Liquidambar": "Altingiaceae", "Magnolia": "Magnoliaceae",
+          "Eriobotrya": "Rosaceae"}
+
+
+def taxon_shares(trees):
+    """Largest genus and family share (%) of a tree set; genera missing from FAMILY count as their own family."""
+    g = trees.species.str.split().str[0]
+    f = g.map(FAMILY).fillna(g)
+    gs, fs = g.value_counts(normalize=True), f.value_counts(normalize=True)
+    return dict(max_genus_pct=100 * gs.iloc[0], max_genus=gs.index[0], max_family_pct=100 * fs.iloc[0], max_family=fs.index[0])
+
+
+def canopy_cover(site, trees):
+    """Share of the site under canopy: street-tree crown discs (no overlap double-counting) + fixed park/private canopy."""
+    from rasterio.features import rasterize
+    from shapely.geometry import Point
+    street = rasterize(((Point(x, y).buffer(d / 2), 1) for x, y, d in zip(trees.x, trees.y, trees.crown_diam_m)),
+                       out_shape=site.domain.shape, transform=site.transform, fill=0).astype(bool)
+    return float(((street | site.background) & site.domain).sum() / site.domain.sum())
 
 
 def apply(site, pos, pal, choice):
@@ -196,7 +270,7 @@ def evaluate(site, trees, sun, lit, p_mm):
     (LiDAR, September) value for reference."""
     leafon = {f"{k}_leafon": v for k, v in runoff.event(site, trees, p_mm).items()}
     shade = {f"shade_{s}_m2h": heat.shade_m2h(site, trees, sun[s], lit[s], heat.SEASONS[s]["month"]) for s in sun}
-    return dict(**shade, **season.runoff_seasonal(site, trees, p_mm), **leafon)
+    return dict(**shade, **season.runoff_seasonal(site, trees, p_mm), **leafon, canopy_pct=100 * canopy_cover(site, trees), **taxon_shares(trees))
 
 
 def pareto(df, maximise=("shade_summer_m2h",), minimise=("shade_winter_m2h", "runoff_hot_m3")):

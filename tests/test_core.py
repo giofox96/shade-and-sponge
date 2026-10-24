@@ -53,3 +53,31 @@ def test_size_fits():
     assert ex[3].all() and ex[:, 3].all() and not ex[4, :3].any()
     am = layout.size_fits(pos, sp, "at_most")
     assert am[2].all() and am[1, :2].all() and not am[1, 2] and not am[0, 1:3].any()
+
+
+def test_s1a_mix_respects_fit_and_cap():
+    import pandas as pd
+    pal = pd.DataFrame(dict(species=["Celtis australis", "Jacaranda mimosifolia", "Pyrus calleryana"]))
+    fit = np.ones((50, 3), bool)
+    fit[:10] = [False, True, True]                       # Celtis does not fit the first 10 positions
+    ch = layout.s1a_layout(pal, np.array([30, 50, 50]), fit, np.random.default_rng(0))
+    assert np.all(fit[np.arange(50), ch])                # every choice fits
+    assert (ch == 0).sum() <= 30 and (ch == 1).sum() == 0   # cap holds; Jacaranda is not in the 2026 mix
+
+
+def test_s1a_keeps_fit_when_cap_is_tight():
+    import pandas as pd
+    pal = pd.DataFrame(dict(species=["Celtis australis", "Tipuana tipu"]))
+    fit = np.ones((40, 2), bool)
+    fit[30:] = [True, False]                             # the last 10 positions fit only Celtis
+    for seed in range(5):
+        ch = layout.s1a_layout(pal, np.array([10, 40]), fit, np.random.default_rng(seed))
+        assert np.all(fit[np.arange(40), ch])            # the tight cap goes to the positions that need it
+
+
+def test_taxon_shares():
+    import pandas as pd
+    t = pd.DataFrame(dict(species=["Tipuana tipu"] * 3 + ["Styphnolobium japonicum"] * 3 + ["Celtis australis"] * 4))
+    d = layout.taxon_shares(t)
+    assert d["max_genus"] == "Celtis" and abs(d["max_genus_pct"] - 40) < 1e-9
+    assert d["max_family"] == "Fabaceae" and abs(d["max_family_pct"] - 60) < 1e-9   # two legume genera together

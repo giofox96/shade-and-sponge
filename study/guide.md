@@ -52,7 +52,7 @@ Sources: `notes/topic_decision.md` §9 (v6) and §7; `notes/tree_master_plan.md`
 **What the city has decided, and what it has not (learn the two lists):**
 - **Decided:** reduce the planes (no species above **15%** of the urban fabric by 2037, master plan target 3; planes cut by **56%**, from **43,722 (27.45%)** to **12%**, within ten years, press May 2026); **how** (gradually, as trees die and when streets are rebuilt); **which species may be used** (the city's catalogue and a 2026 target mix, press); **which size fits which sidewalk** (2011 street-tree guide).
 - **Not decided:** **which species at each position** (the city says it set the possible replacements in advance from criteria; the list is not public); **what each choice does to heat and runoff** (no document quantifies it); **priority where heat and flooding overlap**.
-- **Why the cap exists:** pest and disease risk of a monoculture, climate resilience, biodiversity (plan §1.4.4, §2.1; 2011 guide). **No document derives the number 15**; Santamour's classic rule says 10% per species.
+- **Why the cap exists:** pest and disease risk of a monoculture, climate resilience, biodiversity (plan §1.4.4, §2.1; 2011 guide). **The plan derives no number**, but 15% sits at the loose end of the 10–15% species benchmarks in the literature (Kendal et al. 2014); Santamour's classic rule (1990) says 10% per species, 20% per genus, 30% per family. Barcelona caps species only. Kendal et al. warn that targets set well below the existing share (planes: ~27% vs 15%) risk abandoning well-adapted species and changing ecosystem services (p. 415); supplying the missing performance data is our inference and our contribution.
 - **Why it matters:** the plan's targets can pull against each other at one position. Moving away from planes serves the 15% target (though Celtis is already close to it), but a small-crowned replacement works against the **canopy target (tree cover up to 30% of the urban surface)**. At equal trunk size in Porta (2nd and 3rd trunk classes), Pyrus carries 35% of a plane's crown area and Celtis 32–52%, while Tipuana and Jacaranda carry 89–107%.
 
 - Barcelona's **sealed surface grew from 45% to 72%** of the municipality (1956–2009; Barcelona Resilience Atlas, citing Barcelona Regional's climate-change impact study).
@@ -83,7 +83,7 @@ Sources: `notes/topic_decision.md` §9 (v6) and §7; `notes/tree_master_plan.md`
 3. Named: Celtis australis, Melia azedarach, Styphnolobium japonicum, Tipuana tipu, Pyrus calleryana. Not named: Jacaranda mimosifolia, Brachychiton populneus.
 4. Its recent floods were multi-day / saturated-soil / culvert events; trees only matter for frequent, short pluvial storms.
 5. Decided: how much (15% cap, 12% planes), how and when (at death, at street works), which species may be used, which size fits which sidewalk. Not decided: which species at each position, the heat and runoff effect of each choice, priority where the hazards overlap.
-6. Pest/disease risk of a monoculture, climate resilience, biodiversity. No document derives 15; it is looser than Santamour's 10% and is the regional convention.
+6. Pest/disease risk of a monoculture, climate resilience, biodiversity. The plan derives no number; the literature's species benchmarks are mostly 10–15% (Kendal et al. 2014), Santamour's is 10%, and 15% is also the regional convention.
 </details>
 
 ---
@@ -437,7 +437,7 @@ Sources: `slides/outline_20oct.md`; the Porta and Barcelona answers from `notes/
 | Question | Short answer |
 |---|---|
 | Hasn't the city already solved this? | No. The plan fixes how much of each species (15%) and the 2011 guide which size fits which sidewalk; nobody decides which species goes where with numbers, and nothing measures heat or runoff. The method works inside their rules. |
-| Why 15%? | Pest and disease risk, climate resilience, biodiversity. No document derives the number; Santamour's rule says 10%. |
+| Why 15%? | Pest and disease risk, climate resilience, biodiversity. The plan derives no number; benchmarks in the literature are mostly 10–15% per species (Kendal 2014), Santamour's is 10-20-30. Kendal warns that targets far below the existing share can cost well-adapted species and change ecosystem services; I supply the performance data. |
 | Why not peak flow? | Trees barely change peak flow in the field (Selbig 2021); volume is what they change. |
 | Hasn't Tan & Liu 2026 done this? | Heat, CO2, diversity only; no runoff, 4 Chicago species, one summer hour. I add runoff, the city's own palette and the seasons. |
 | Is a 2% effect worth a thesis? | The thesis is the method and the trade-off, not a big runoff number. The declared boundary states the limit; heat may dominate. |

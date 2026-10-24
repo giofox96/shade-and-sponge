@@ -1,6 +1,30 @@
 # Manual to-do (things only you can do)
 
-*8 Oct 2026, updated 15 Oct. Tick items off here, or tell me and I'll update the file. Where a file should go, it's named in each item.*
+*8 Oct 2026, updated 24 Oct. Tick items off here, or tell me and I'll update the file. Where a file should go, it's named in each item.*
+
+## Fast track to the 10 Nov tutor session (only you can do these; in order)
+1. [ ] **Watch for the Parcs i Jardins reply** (sent 24 Oct). Forward it to me as soon as it arrives: a current per-street list would replace S1.
+2. [ ] **Download 3 papers into `papers/`** (open access or IAAC access):
+   - Nieuwenhuijsen et al. 2022, *Environ. Res.* 215:114387 (3-30-300 in Barcelona; open PDF: https://ddd.uab.cat/pub/artpub/2022/284178/284178.pdf);
+   - Santamour 1990 (10-20-30 rule);
+   - Kendal, Dobbs & Lohr 2014 (diversity benchmarks, 108 cities).
+3. [ ] **Ladybug Tier 1 on one Porta street, S0 vs one replacement** (≈1 evening). This is the first real UTCI number for the deck: mean UTCI 12–17 h, hot design day. I prepare the files in `exchange/to_gh/` and you run it in Grasshopper. Tell me which day you can do it.
+4. [ ] **RM cluster map by hand on Miro, by Tue 27 Oct** (below).
+5. [ ] **Ask the tutor by email (one line):** is Infrared City access possible before 10 Nov? If yes, it replaces item 3.
+6. [x] **Baseline decided (24 Oct): S1a**, the 2026 mix. S1b, the 2004 table, is cited only.
+7. [ ] Pick a day before 10 Nov for a 20-min **dry run of the deck** with me (problem → RQ → flowcharts → first results → validation).
+
+## For the next tutor session, 10 Nov (requests from the 20 Oct session)
+Full list: `notes/research_method_guidelines.md`, "Conclusions from the week of 19–24 Oct".
+- [x] **Gate 1: does Barcelona already decide which species replaces which tree, and where, by a criterion?** Partly settled 24 Oct: a 2004/2005 rule exists on paper, but Porta's plantings mostly do not follow it (`notes/tree_master_plan.md` §5b). Still waiting on the Parcs i Jardins reply.
+- [x] **Are there enough trees?** Porta has 20.1% canopy cover against the city's 30% target (`notes/topic_decision.md` §10.3).
+- [x] Problem 100% clear (v7, `notes/topic_decision.md` §10).
+- [ ] Research question scrutinised → methodology flowcharts (short) → results + validation → first results. Claude is working on these.
+
+## Due this week (from RM L02 and RT L03, 21–22 Oct)
+- [ ] **RM cluster map, redrawn by hand on Miro by Tue ~27 Oct** (reviewed in class Thu ~29 Oct). No AI-generated canvas. Follow one unit (one Porta plane due for replacement), include the topic without the tool, list only papers you have read, 5+ precedents (2 theoretical, 3 practice). Checklist: `notes/research_method_guidelines.md` §H.
+- [ ] Read the links Mathilde leaves on Miro (Treepedia, Barcelona tree maps, the nursery's species database) and note the nursery's name.
+- [ ] Ask Fiona Demeur whether PEMB / Consorci del Besòs (GreenInCities) hold street-tree or flood data for Nou Barris.
 
 ## Leaf state of Tipuana and Jacaranda, Nov–Mar (decides the size of the winter-sun result)
 The user lives in Florence (15 Oct), so **no field photos in Porta**. Remote alternatives, which a Claude session can do:

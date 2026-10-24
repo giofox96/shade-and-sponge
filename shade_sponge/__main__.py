@@ -1,9 +1,10 @@
 """Run the tool on a site: python -m shade_sponge [site] [--palette=barcelona] [--diversity=N] [--size=exact|at_most]
-[--keep-meridiana] (default: porta; first run builds cache/site_<site>.npz). --diversity=N: optimised layouts keep at
+[--keep-meridiana] [--trunk=TERCERA] (default: porta; first run builds cache/site_<site>.npz). --diversity=N: optimised layouts keep at
 least N effective species (exp of Shannon H) among the planted positions; off by default. --size: sidewalk-width sizing
 rule of the 2011 guide (layout.size_fits); off by default. --keep-meridiana: the planes of Av. Meridiana are kept by the
-city ("large avenue", guide p. 17) and leave the decision set.
-Outputs: databases/barcelona/tool_v0_summary.csv, exchange/to_gh/{positions,layouts}_tool_v0_<YYYYMMDD>.csv"""
+city ("large avenue", guide p. 17) and leave the decision set. --trunk=CLASS: species traits at equal trunk size
+(layout.palette). S1a (the city's 2026 mix within the exact sizing rule, layout.s1a_layout) is always run, 10 seeds.
+Outputs: databases/barcelona/tool_v0_summary<tag>.csv, exchange/to_gh/{positions,layouts}_tool_v0<tag>_<YYYYMMDD>.csv"""
 import sys, json, datetime, numpy as np, pandas as pd
 from .site import load_site, rc, DB, EX
 from . import heat, runoff, layout, season
@@ -16,13 +17,14 @@ min_eff = float(opt["diversity"]) if "diversity" in opt else None
 ptag = "" if kind == "city" else "_barcelona"
 size_rule = opt.get("size")
 keep_mer = "--keep-meridiana" in sys.argv
-tag = ptag + (f"_div{opt['diversity']}" if min_eff else "") + (f"_size{size_rule}" if size_rule else "") + ("_keepmer" if keep_mer else "")
+trunk = opt.get("trunk")
+tag = ptag + (f"_div{opt['diversity']}" if min_eff else "") + (f"_size{size_rule}" if size_rule else "") + ("_keepmer" if keep_mer else "") + (f"_trunk{trunk}" if trunk else "")
 site = load_site(name)
 o = json.load(open(EX / "site_origin.json"))
 sun = {s: heat.design_suns(site, s) for s in heat.SEASONS}
 lit = {s: [heat.sunlit(site, *x) for x in sun[s]] for s in sun}
 p = runoff.design_storm(2, 60)                          # f2 storm: T = 2 yr, 1 h (methodology §6)
-pal = layout.palette(site, kind)
+pal = layout.palette(site, kind, trunk)
 pos = site.trees[site.trees.is_plane & ~(keep_mer & site.trees.street.str.contains("Meridiana"))].reset_index(drop=True)
 print(f"{len(pos)} positions, P = {p:.1f} mm; sun altitude " + ", ".join(
     f"{s} {min(np.degrees([a for a, _ in v])):.0f}–{max(np.degrees([a for a, _ in v])):.0f}°" for s, v in sun.items()))
@@ -37,6 +39,10 @@ fit = layout.fits(site, pos, pal, size_rule)
 print("positions where the species fits:", dict(zip(pal.species, fit.mean(0).round(2))))
 
 layouts = {f"S1_random_{k}": layout.random_layout(pal.cap.values, fit, np.random.default_rng(k)) for k in range(10)}
+fit_s1a = fit if size_rule == "exact" else layout.fits(site, pos, pal, "exact")
+if size_rule != "exact":
+    print("note: S1a uses the exact sizing rule; the other layouts use", size_rule or "no sizing rule")
+layouts.update({f"S1a_city_{k}": layout.s1a_layout(pal, pal.cap.values, fit_s1a, np.random.default_rng(100 + k)) for k in range(10)})
 objs = {"summer": (pot["summer"], 1), "winter": (pot["winter"], -1), "runoff": (water, 1)}
 layouts.update({"S4_s{:.2f}_w{:.2f}_r{:.2f}".format(*w): ch for w, ch in layout.sweep(objs, pal.cap.values, fit, min_eff=min_eff).items()})
 rows = [dict(scenario="S0_current", **layout.evaluate(site, site.trees[site.trees.flag == "ok"], sun, lit, p))]
@@ -65,7 +71,7 @@ for j, s in enumerate(pal.species):
 out.to_csv(EX / f"to_gh/positions_tool_v0{tag}_{day}.csv", index=False)
 cur = pos.assign(species=pos.sp).loc[:, ["tree_id", "x", "y", "species", "crown_diam_m", "height_m", "crown_base_m", "lai"]]
 lay = [cur.assign(scenario="S0_current")]
-for sc in ["S1_random_0"] + [k for k in layouts if k.startswith("S4")]:
+for sc in ["S1_random_0", "S1a_city_0"] + [k for k in layouts if k.startswith("S4")]:
     lay.append(layout.apply(site, pos, pal, layouts[sc]).tail(len(pos)).assign(scenario=sc))
 lay = pd.concat(lay)
 lay["ground_z"] = site.dtm[rc(site, lay.x.values, lay.y.values)].round(2)

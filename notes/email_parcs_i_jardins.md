@@ -1,4 +1,4 @@
-# Email to Parcs i Jardins (draft, 21 Oct 2026, not sent; question 5 updated after the sidewalk extraction; also saved as a Gmail draft)
+# Email to Parcs i Jardins (drafted 21 Oct 2026, question 5 updated after the sidewalk extraction; **sent by the user 24 Oct**, awaiting reply)
 
 Purpose: settle the two risks in `notes/topic_decision.md` §9.8:
 - Does a per-street replacement list exist?
