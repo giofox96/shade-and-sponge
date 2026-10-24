@@ -2,6 +2,12 @@
 
 *8 Oct 2026, updated 15 Oct. Tick items off here, or tell me and I'll update the file. Where a file should go, it's named in each item.*
 
+## For the next tutor session (tutor, 20 Oct; date to confirm)
+Full list: `notes/research_method_guidelines.md`, "Conclusions from the week of 19–24 Oct".
+- [ ] **Gate 1: does Barcelona already decide which species replaces which tree, and where, by a criterion?** Send the Parcs i Jardins email (`notes/email_parcs_i_jardins.md`); open *Arbrat viari: selecció d'espècies* (2002/2004, BCNROC).
+- [ ] **Are there enough trees?** Current city tree cover vs the plan's 30% target; Porta's canopy cover from the LiDAR.
+- [ ] Problem 100% clear → research question scrutinised → methodology flowcharts (short) → results + validation → first results.
+
 ## Due this week (from RM L02 and RT L03, 21–22 Oct)
 - [ ] **RM cluster map, redrawn by hand on Miro by Tue ~27 Oct** (reviewed in class Thu ~29 Oct). No AI-generated canvas. Follow one unit (one Porta plane due for replacement), include the topic without the tool, list only papers you have read, 5+ precedents (2 theoretical, 3 practice). Checklist: `notes/research_method_guidelines.md` §H.
 - [ ] Read the links Mathilde leaves on Miro (Treepedia, Barcelona tree maps, the nursery's species database) and note the nursery's name.

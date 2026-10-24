@@ -14,7 +14,16 @@ A running checklist of the advice from the two research seminars, checked agains
 
 ## Conclusions from the week of 19–24 Oct
 
-**Tutor session, 20 Oct (not recorded; points come from the user).** Already recorded: the problem was not defined well enough, so the thesis must exist *because of* a problem → v6 (`notes/topic_decision.md` §9). Other requests: *to be filled in by the user.*
+**Tutor session, 20 Oct (not recorded; the points below come from the user, 24 Oct).**
+1. **The problem was not explained well.** The plan had not been read properly before the session, so v6 (`notes/topic_decision.md` §9) now rebuilds the problem on it.
+2. **First check whether Barcelona already has a structured plan, decided by a criterion, that sets which trees are replaced and where.** If it does, the problem is not "nobody decides where" but something narrower. This is the first gate of the problem, before anything else. What is known (`notes/tree_master_plan.md` §5): the mix, the mechanism and the sidewalk sizing rule are public. A per-street replacement list was announced in 2022 (press 🟡), but no copy has been found. Open leads: the older *Arbrat viari: selecció d'espècies* (Parcs i Jardins 2002/2004, BCNROC, not opened) and the email to Parcs i Jardins (`notes/email_parcs_i_jardins.md`, not sent). The RM lecturers raised the same risk (conclusion 2 below).
+3. **Add a question to the problem: are there enough trees in Barcelona?** Not answered in the repo yet. Starting points: the plan's target 1, tree cover up to 30% of the urban surface (plan §2.1); its current value has not been extracted. Porta's own canopy cover can be measured from the 2021 LiDAR crowns already in the repo. An outside benchmark would be needed (e.g. the 3-30-300 rule; not in `papers/` yet, get it before citing).
+4. **For the next session:**
+   - a problem that is 100% clear;
+   - the research question, scrutinised;
+   - the methodology well defined, with **clear but short, concise flowcharts**;
+   - what the **results** are and how the **validation** is carried out;
+   - **the first results** already.
 
 **What the two seminars change for the thesis**
 1. **Present the palette as a method that scales to N species, not as "three species"** (RM L02 [01:26:14], H5). The lecturers heard "three species". The tool already runs a 7-species city palette and a 34-species Barcelona shortlist (`shade_sponge/README.md`), but no talk has shown this. Their point applies anyway: Barcelona's problem is a monoculture, so a method tested on few species has to show that it carries over to more.
