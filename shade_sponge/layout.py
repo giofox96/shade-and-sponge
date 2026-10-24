@@ -223,6 +223,28 @@ def s1a_layout(pal, cap, fit, rng):
     return out
 
 
+# Family of every genus in Porta's inventory (standard taxonomy, APG IV; "X" = ×Chitalpa). For the 10-20-30 check of
+# Santamour 1990 (#139): genus and family shares are reported, not constrained (Barcelona caps species only).
+FAMILY = {"Platanus": "Platanaceae", "Celtis": "Cannabaceae", "Melia": "Meliaceae", "Pyrus": "Rosaceae",
+          "Jacaranda": "Bignoniaceae", "Tipuana": "Fabaceae", "Brachychiton": "Malvaceae", "Populus": "Salicaceae",
+          "Citrus": "Rutaceae", "Robinia": "Fabaceae", "Catalpa": "Bignoniaceae", "Grevillea": "Proteaceae",
+          "Casuarina": "Casuarinaceae", "Gleditsia": "Fabaceae", "Fraxinus": "Oleaceae", "Handroanthus": "Bignoniaceae",
+          "Tilia": "Malvaceae", "Ligustrum": "Oleaceae", "Morus": "Moraceae", "Prunus": "Rosaceae", "Acer": "Sapindaceae",
+          "X": "Bignoniaceae", "Hibiscus": "Malvaceae", "Eugenia": "Myrtaceae", "Koelreuteria": "Sapindaceae",
+          "Hesperocyparis": "Cupressaceae", "Eucalyptus": "Myrtaceae", "Cercis": "Fabaceae", "Ulmus": "Ulmaceae",
+          "Styphnolobium": "Fabaceae", "Crataegus": "Rosaceae", "Cupressus": "Cupressaceae", "Photinia": "Rosaceae",
+          "Pinus": "Pinaceae", "Phoenix": "Arecaceae", "Liquidambar": "Altingiaceae", "Magnolia": "Magnoliaceae",
+          "Eriobotrya": "Rosaceae"}
+
+
+def taxon_shares(trees):
+    """Largest genus and family share (%) of a tree set; genera missing from FAMILY count as their own family."""
+    g = trees.species.str.split().str[0]
+    f = g.map(FAMILY).fillna(g)
+    gs, fs = g.value_counts(normalize=True), f.value_counts(normalize=True)
+    return dict(max_genus_pct=100 * gs.iloc[0], max_genus=gs.index[0], max_family_pct=100 * fs.iloc[0], max_family=fs.index[0])
+
+
 def canopy_cover(site, trees):
     """Share of the site under canopy: street-tree crown discs (no overlap double-counting) + fixed park/private canopy."""
     from rasterio.features import rasterize
@@ -248,7 +270,7 @@ def evaluate(site, trees, sun, lit, p_mm):
     (LiDAR, September) value for reference."""
     leafon = {f"{k}_leafon": v for k, v in runoff.event(site, trees, p_mm).items()}
     shade = {f"shade_{s}_m2h": heat.shade_m2h(site, trees, sun[s], lit[s], heat.SEASONS[s]["month"]) for s in sun}
-    return dict(**shade, **season.runoff_seasonal(site, trees, p_mm), **leafon, canopy_pct=100 * canopy_cover(site, trees))
+    return dict(**shade, **season.runoff_seasonal(site, trees, p_mm), **leafon, canopy_pct=100 * canopy_cover(site, trees), **taxon_shares(trees))
 
 
 def pareto(df, maximise=("shade_summer_m2h",), minimise=("shade_winter_m2h", "runoff_hot_m3")):

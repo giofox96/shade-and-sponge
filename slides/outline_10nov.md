@@ -93,9 +93,10 @@ The deck follows that order.
 **On slide:**
 - **Practice:** rules for which species, no quantities
 - **Research:** heat and runoff for fixed scenarios without species traits (Mannucci 2025; Wu 2024); heat-only optimisers (Shaamala 2025; Peng 2026); a trait-based recommender with runoff switched off (SylvCiT, Nicol 2026)
+- **Diversity literature:** species caps are rules of thumb (Santamour 1990); targets far below the current share risk losing well-adapted species and ecosystem services (Kendal et al. 2014, p. 416)
 
-**Say (55 words):**
-"In practice there are rules but no numbers. In research, the tools either assess heat and runoff without species, or optimise heat alone. The most advanced trait-based recommender, SylvCiT, has its runoff module switched off. That is where this method sits."
+**Say (95 words):**
+"In practice there are rules but no numbers. In research, the tools either assess heat and runoff without species, or optimise heat alone. The most advanced trait-based recommender, SylvCiT, has its runoff module switched off. And the diversity literature itself warns about Barcelona's case. The fifteen percent cap is a rule of thumb. Kendal and colleagues, looking at 108 cities, warn that a target far below a species' current share risks replacing well-adapted trees with weaker ones and changing what they provide. The planes are at twenty-seven percent. That is where this method sits."
 
 ---
 

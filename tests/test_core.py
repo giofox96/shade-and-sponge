@@ -73,3 +73,11 @@ def test_s1a_keeps_fit_when_cap_is_tight():
     for seed in range(5):
         ch = layout.s1a_layout(pal, np.array([10, 40]), fit, np.random.default_rng(seed))
         assert np.all(fit[np.arange(40), ch])            # the tight cap goes to the positions that need it
+
+
+def test_taxon_shares():
+    import pandas as pd
+    t = pd.DataFrame(dict(species=["Tipuana tipu"] * 3 + ["Styphnolobium japonicum"] * 3 + ["Celtis australis"] * 4))
+    d = layout.taxon_shares(t)
+    assert d["max_genus"] == "Celtis" and abs(d["max_genus_pct"] - 40) < 1e-9
+    assert d["max_family"] == "Fabaceae" and abs(d["max_family_pct"] - 60) < 1e-9   # two legume genera together

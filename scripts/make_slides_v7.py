@@ -112,10 +112,15 @@ def fig_gap():
             svg, h = para(x + 30, y + 34, it, 640, 22)
             b += rect(x, y, 720, h + 40, c, rx=10, op=0.07) + svg
             y += h + 60
-    b += rect(60, 700, 1480, 80, TREE, rx=10, op=0.10)
-    b += t(90, 750, "This method: trait-based, inside the city's rules, scored on heat and runoff, per position.", 24, TREE, "bold")
-    save("v7_07_gap", "The gap", "Rules without numbers, and tools without species or without runoff", b,
-         "notes/topic_decision.md §7, §9.2; notes/lit/literature_matrix.csv.")
+    b += rect(60, 588, 1480, 112, WARN, rx=10, op=0.08) + t(90, 622, "IN THE DIVERSITY LITERATURE", 18, WARN, "bold")
+    b += para(90, 656, "Species caps are rules of thumb (Santamour 1990). Targets far below the current share risk that "
+              "“well adapted species may be abandoned for underperforming species” (Kendal et al. 2014, p. 416): "
+              "the planes, ~27% vs a 15% cap.", 1420, 20)[0]
+    b += rect(60, 718, 1480, 76, TREE, rx=10, op=0.10)
+    b += t(90, 765, "This method: trait-based, inside the city's rules, scored on heat and runoff, per position.", 24, TREE, "bold")
+    save("v7_07_gap", "The gap", "Rules without numbers, tools without species or runoff, and a cap with no evidence behind it", b,
+         "notes/topic_decision.md §7, §9.2, §10.2; Santamour 1990 (METRIA 7) pp. 58-64; Kendal, Dobbs & Lohr 2014 (UFUG 13:411-417); "
+         "notes/lit/literature_matrix.csv #139-140.")
 
 
 def fig_rq():

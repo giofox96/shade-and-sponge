@@ -293,6 +293,11 @@ Gate 1 found a rule (`notes/tree_master_plan.md` §5b). v7 builds the problem on
   - workflows that assess heat and runoff for fixed scenarios, without species traits (Mannucci et al. 2025; Wu et al. 2024);
   - optimisers for heat only (Shaamala et al. 2025; Peng et al. 2026);
   - a trait-based recommender whose runoff module is disabled (SylvCiT; Nicol et al. 2026).
+- **In the diversity literature:**
+  - Species caps such as the 15% are rules of thumb without an empirical basis (Santamour 1990, #139; Kendal et al. 2014, #140).
+  - Kendal et al. warn that targets set "substantially lower than existing relative abundance patterns" risk that "well adapted species may be abandoned for underperforming species", or "unexpected changes in the provision of ecosystem services" (p. 416). That is Barcelona's case: planes at ~27% against a 15% cap.
+  - Santamour adds that a species cap is the weakest of the three, since pests follow genera and families (pp. 62–63); Barcelona caps species only.
+  - Our inference: what is missing is performance data per species and position, which the method supplies, together with a genus and family check (§10.6).
 
 ### 10.3 Are there enough trees? (tutor's question)
 
@@ -316,7 +321,7 @@ So species choice is not a detail next to "plant more". In a neighbourhood that 
 **Caveats:**
 - CHM > 2 m includes tall shrubs (`ASSUMPTION`).
 - Equal trunk size is not mature size, and a new tree starts small whatever its species.
-- **Outside benchmark:** Nieuwenhuijsen et al. (2022), *Environmental Research* 215(2): 114387, doi:10.1016/j.envres.2022.114387. Their sample was 3,145 Barcelona residents from the Barcelona Health Survey 2016–2017. Only 8.7% met the rule's 30% criterion and 4.7% met all three. The 30% criterion is measured as mean NDVI ≥ 0.3 in a 500 m buffer, which the authors say probably means less than 30% canopy. Read from the open-access PDF by the fact-checker; add it to `papers/`.
+- **Outside benchmark:** Nieuwenhuijsen et al. (2022), *Environmental Research* 215(2): 114387, doi:10.1016/j.envres.2022.114387. Their sample was 3,145 Barcelona residents from the Barcelona Health Survey 2016–2017. Only 8.7% met the rule's 30% criterion and 4.7% met all three. The 30% criterion is measured as mean NDVI ≥ 0.3 in a 500 m buffer, which the authors say probably means less than 30% canopy. Read in full (24 Oct; `papers/`, matrix #141). Context only: surrounding greenness was also associated with lower odds of poor mental health (OR 0.60).
 
 ### 10.4 What changes for S1
 
@@ -391,4 +396,5 @@ The tutor asked for the RQ to be scrutinised. Below, the v6 RQ (§9.4) is checke
   §10.5's SQ1–SQ3 apply to R, A and R+A.
 - **Project area:** the tool replaces the trees inside an area the user draws. This puts §9.7.3 (any subset of positions) into practice and makes the method concrete for a street-rebuild designer.
 - **Tree health:** there is no open dataset, so a replacement-priority proxy will be built (LiDAR vigour, NDVI change, age) and validated against trees removed between inventory snapshots.
+- **Diversity check (24 Oct, after Santamour 1990 and Kendal et al. 2014):** every layout reports its largest genus and family share against Santamour's 20% and 30% (`layout.taxon_shares`, families from standard taxonomy). They are reported, not constrained, because Barcelona caps species only.
 - **City scale:** Porta first, then a city-wide screening layer and the project tool usable anywhere in Barcelona. Plan and feasibility: `notes/citywide_plan.md`.

@@ -14,7 +14,7 @@ mi.OUT = ROOT / "slides/fig_v7"
 d = pd.read_csv(ROOT / "databases/barcelona/tool_v0_summary_sizeexact_trunkTERCERA.csv").set_index("scenario")
 BAL = "S4_s0.50_w0.25_r0.25"            # balanced weights: summer 0.5, winter 0.25, hotspot runoff 0.25
 s1a = d[d.index.str.startswith("S1a_city")]
-ROWS = {"S0": d.loc["S0_current"], "S1a": s1a.mean(), "Opt": d.loc[BAL]}
+ROWS = {"S0": d.loc["S0_current"], "S1a": s1a.mean(numeric_only=True), "Opt": d.loc[BAL]}
 COL = {"S0": MUTED, "S1a": WARN, "Opt": TREE}
 NAME = {"S0": "Today (S0)", "S1a": "City rule (S1a, mean of 10)", "Opt": "Optimised (balanced)"}
 DMIN = 91.0                               # m³, notes/decisions/runoff_metric_sensitivity.md §10
@@ -130,6 +130,10 @@ def fig_scenarios():
                 b += rect(xc, min(sc(v), y0), 40, abs(sc(v) - y0), COL[m], rx=3)
                 b += t(xc + 20, sc(v) + (-8 if v >= ref else 20), f"{v:.1f}" if abs(v) < 1000 else f"{v:,.0f}", 13, INK, "bold", "middle")
             b += t(xg + 43, y0 + hh + 50, name, 15, INK, "bold", "middle") + t(xg + 43, y0 + hh + 70, sub, 12, MUTED, anchor="middle")
+    tax = a.assign(group=a.scenario.str.replace(r"_\d+$", "", regex=True)).groupby("group").first()
+    line = " · ".join(f"{n}: city {tax.loc[k + '_S1a', 'max_family']} {g.loc[k + '_S1a', 'max_family_pct']:.0f}%, "
+                      f"opt {tax.loc[k + '_Opt', 'max_family']} {g.loc[k + '_Opt', 'max_family_pct']:.0f}%" for k, n, _ in SC)
+    b += t(70, 175, f"Largest family (Santamour 30%): today {tax.loc['S0_current', 'max_family']} {s0['max_family_pct']:.0f}% · " + line, 15, MUTED)
     b += rect(70, 820 - 40, 18, 18, WARN, rx=3) + t(96, 795, "City rule (S1a, mean of 5)", 16)
     b += rect(340, 820 - 40, 18, 18, TREE, rx=3) + t(366, 795, "Optimised (balanced)", 16)
     save("res_03_scenarios", "Replacement, additions, or both",

@@ -179,5 +179,21 @@ The result is **267 spots: 142 small, 53 medium, 72 large.** This is an **upper 
 - A new spot is spaced by its own class only, so a small spot can sit 7–13 m from an existing large tree. This slightly overstates the count.
 - R scores 832 positions; S0 has 809 planes with good LiDAR crowns.
 
+## Genus and family check (24 Oct)
+Every layout now reports its largest genus and family share: `layout.taxon_shares`, with families from standard taxonomy. These are compared with Santamour's (1990) 20% per genus and 30% per family, and reported, not constrained, because Barcelona caps species only. The denominator is the evaluated tree set (good LiDAR crowns plus the new trees), so shares run slightly above the cap's 2,825-tree denominator.
+
+| | Largest genus | Largest family |
+|---|---|---|
+| Today (S0) | *Platanus* 31.1% | Platanaceae 31.1% |
+| R, city rule | Celtis 17.3% | Fabaceae 25.3% (Tipuana + *Styphnolobium* + Robinia + …) |
+| R, optimised | Jacaranda 16.0% | Bignoniaceae 19.9% |
+| A (planes kept) | *Platanus* 28.2% | Platanaceae 28.2% |
+| R+A, city rule / optimised | Celtis 17.1% / Jacaranda 15.9% | Fabaceae 24.9% / Bignoniaceae 19.5% |
+
+**Reading:**
+- Today's stock and the additions-only scenario fail Santamour's genus rule.
+- Every replacement layout passes both the genus and the family limit.
+- The optimised layouts are the more even ones at family level: their largest family is about 20%, against about 25% under the city rule.
+
 ## Next (not done)
 align the summer design window with the heat metric decided on 19 Oct (mean UTCI over 12–17 h on a hot design day, `notes/topic_decision.md` §8; that window is EPW standard time, i.e. 13–18 h CEST, `notes/decisions/heat_objective.md` §1; the proxy uses 15 Jul 12–17 h CEST) together with the Ladybug calibration · check whether hotspot runoff follows the runoff weight (it did not on 8 Oct; it mostly does on 15 and 20 Oct) · species storage factor · young/mature horizon · `CAPTURE_M` and design-day sensitivity · calibrate the heat proxy on Ladybug Tier 1 (sub-area) · climate-fit filter for other sites · Grasshopper component (Hops) · web app.
