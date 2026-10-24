@@ -145,7 +145,39 @@ Run: `python -m shade_sponge porta --size=exact --trunk=TERCERA` → `databases/
 - The replacement trees are scored at TERCERA size, not as young trees.
 - The 15% cap is applied within Porta (`ASSUMPTION`).
 - S0 is not at equal trunk size: it has today's measured planes, 2,600 trees, while each layout puts trees at all 832 plane positions, 25 more than S0's planes with good LiDAR crowns.
-- Additions (A, R+A) are not run yet.
+- Additions (A, R+A): see the next section.
+
+## Additions: R, A and R+A (24 Oct)
+**Spots:** `scripts/porta_planting_spots.py` → `databases/barcelona/porta_planting_spots.csv`, built in four steps:
+1. Walk every façade line of the 1:1000 map (same tiles and ray method as the sidewalk widths) and take the first road line beyond it as the kerb.
+2. Place the pit 0.7 m in from the kerb: the median kerb-to-tree distance of the measured trees is 0.69 m.
+3. Keep sidewalks ≥ 2.5 m, and only spots within 15 m of an OSM street centreline (`ASSUMPTION`; it drops paths inside blocks).
+4. Keep 7 / 9 / 13 m between trees by size class, existing trees included (2011 guide).
+
+The result is **267 spots: 142 small, 53 medium, 72 large.** This is an **upper bound**: driveways, crossings, bus stops, lamps and underground services are not in the data.
+
+**Run:** `scripts/run_additions.py` → `databases/barcelona/additions_summary.csv`. S1a has 5 seeds; Opt uses the balanced weights; both use the exact sizing rule and TERCERA traits. The cap is recomputed on the larger stock.
+
+| | Summer shade, % of today | Winter shade, % of today | Total runoff, m³ vs today | Canopy (disc model), points vs today |
+|---|---|---|---|---|
+| R, city rule | 87.3 | 100.5 | +54.4 | −1.8 |
+| R, optimised | 98.3 | 106.8 | +20.2 | −1.1 |
+| A, city rule | 104.5 | 104.1 | −16.9 | +0.6 |
+| A, optimised | 106.2 | 106.7 | −24.6 | +0.7 |
+| R+A, city rule | 92.6 | 106.5 | +35.9 | −1.2 |
+| R+A, optimised | **104.2** | 111.9 | −4.2 | −0.4 |
+
+**Reading:**
+- **Of the scenarios that replace the planes, only R+A optimised ends above today's summer shade (104.2%).** The city's rule with the same additions stays below (92.6%). Adding trees while keeping the planes (A) ends higher still (104.5% city rule, 106.2% optimised), but A is not the city's policy: the planes are being replaced.
+- **Additions alone add little through species choice** (+1.7 points over the city's rule). 174 of the 267 spots are fixed to *Pyrus* in every layout: 142 narrow sidewalks, plus 32 wider ones where no larger crown clears the façade. So species choice acts on only 93 spots.
+- **Every runoff difference stays within ±Δmin (91 m³).**
+- **Canopy stays below today in R and R+A, but the gap is smaller with optimised species.** The disc model is conservative here (see the S1a section).
+
+**Caveats:**
+- Heat is the shade proxy, and the trees are scored at TERCERA size.
+- The spots are a ceiling, not a plan. Not modelled: driveways (> 1 m), traffic lights and signs (> 3 m), lamps (3 / 4.5 / 6.5 m), balcony clearance (0.5 m), crossings, bus stops and services.
+- A new spot is spaced by its own class only, so a small spot can sit 7–13 m from an existing large tree. This slightly overstates the count.
+- R scores 832 positions; S0 has 809 planes with good LiDAR crowns.
 
 ## Next (not done)
 align the summer design window with the heat metric decided on 19 Oct (mean UTCI over 12–17 h on a hot design day, `notes/topic_decision.md` §8; that window is EPW standard time, i.e. 13–18 h CEST, `notes/decisions/heat_objective.md` §1; the proxy uses 15 Jul 12–17 h CEST) together with the Ladybug calibration · check whether hotspot runoff follows the runoff weight (it did not on 8 Oct; it mostly does on 15 and 20 Oct) · species storage factor · young/mature horizon · `CAPTURE_M` and design-day sensitivity · calibrate the heat proxy on Ladybug Tier 1 (sub-area) · climate-fit filter for other sites · Grasshopper component (Hops) · web app.

@@ -87,6 +87,8 @@ def size_fits(pos_class, species, rule="exact"):
 
 def sidewalk_class(pos):
     """Size class of each position from databases/barcelona/porta_sidewalk_width.csv ("check" if not measured)."""
+    if "size_class" in pos:                               # new planting spots carry their own class
+        return pos.size_class.values
     w = pd.read_csv(DB / "porta_sidewalk_width.csv").set_index("tree_id").size_class
     return w.reindex(pos.tree_id).fillna("check").values
 

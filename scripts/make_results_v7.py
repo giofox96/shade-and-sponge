@@ -99,6 +99,47 @@ def fig_bars():
          "Bars: Today and Optimised minus the S1a mean; ochre whisker = the 10 S1a seeds.")
 
 
+def fig_scenarios():
+    """R, A and R+A, each as the city's rule (S1a, mean of 5) and the optimised layout, against today."""
+    a = pd.read_csv(ROOT / "databases/barcelona/additions_summary.csv")
+    g = a.assign(group=a.scenario.str.replace(r"_\d+$", "", regex=True)).groupby("group").mean(numeric_only=True)
+    s0 = g.loc["S0_current"]
+    SC = [("R", "Replacement", "832 planes"), ("A", "Additions", "267 new spots"), ("RA", "Both", "1,099 positions")]
+    panels = [("Summer shade", "shade_summer_m2h", "% of today", lambda v, c: 100 * v / s0[c], 100, HEAT, None),
+              ("Winter shade (a cost)", "shade_winter_m2h", "% of today", lambda v, c: 100 * v / s0[c], 100, HEAT, None),
+              ("Total runoff", "runoff_m3", "m³ vs today", lambda v, c: v - s0[c], 0, RAIN, DMIN),
+              ("Canopy cover", "canopy_pct", "points vs today", lambda v, c: v - s0[c], 0, TREE, None)]
+    b, pw = "", 360
+    for i, (lab, col, unit, f, ref, c, thr) in enumerate(panels):
+        x0 = 70 + i * (pw + 20)
+        vals = {(k, m): f(g.loc[f"{k}_{m}", col], col) for k, _, _ in SC for m in ("S1a", "Opt")}
+        span = max(abs(v - ref) for v in vals.values()) * 1.25
+        span = max(span, (thr or 0) * 1.25)
+        y0, hh = 500, 200
+        sc = lambda v: y0 - (v - ref) / span * hh
+        b += t(x0, 200, lab, 20, c, "bold") + t(x0, 224, unit, 14, MUTED)
+        if thr:
+            b += rect(x0, sc(thr), pw - 20, sc(-thr) - sc(thr), RAIN, rx=0, op=0.10)
+            b += t(x0 + pw - 24, sc(thr) - 6, f"± Δmin = {thr:.0f} m³", 13, RAIN, anchor="end")
+        b += f'<line x1="{x0}" y1="{y0}" x2="{x0 + pw - 20}" y2="{y0}" stroke="{INK}" stroke-width="1.5"/>'
+        b += t(x0 - 4, y0 + 5, f"{ref:g}" if ref else "0", 13, MUTED, anchor="end")
+        for j, (k, name, sub) in enumerate(SC):
+            xg = x0 + 20 + j * 110
+            for m_i, m in enumerate(("S1a", "Opt")):
+                v, xc = vals[(k, m)], xg + m_i * 46
+                b += rect(xc, min(sc(v), y0), 40, abs(sc(v) - y0), COL[m], rx=3)
+                b += t(xc + 20, sc(v) + (-8 if v >= ref else 20), f"{v:.1f}" if abs(v) < 1000 else f"{v:,.0f}", 13, INK, "bold", "middle")
+            b += t(xg + 43, y0 + hh + 50, name, 15, INK, "bold", "middle") + t(xg + 43, y0 + hh + 70, sub, 12, MUTED, anchor="middle")
+    b += rect(70, 820 - 40, 18, 18, WARN, rx=3) + t(96, 795, "City rule (S1a, mean of 5)", 16)
+    b += rect(340, 820 - 40, 18, 18, TREE, rx=3) + t(366, 795, "Optimised (balanced)", 16)
+    save("res_03_scenarios", "Replacement, additions, or both",
+         "Keeping the planes and adding trees gives the most shade; once planes go, only trait-based choice plus additions gets back above today", b,
+         "databases/barcelona/additions_summary.csv (scripts/run_additions.py); spots: scripts/porta_planting_spots.py (sidewalk >= 2.5 m, "
+         "7/9/13 m spacing, 2011 guide; an upper bound: driveways, crossings and services are not in the data). Heat = effective-shade proxy; "
+         "runoff T2-60; canopy = crown-disc model.")
+
+
 if __name__ == "__main__":
     fig_radar()
     fig_bars()
+    fig_scenarios()
