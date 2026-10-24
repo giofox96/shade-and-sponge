@@ -255,3 +255,80 @@ If the city's internal replacement list is obtained (§9.8), it replaces this pr
 **What the table does not show.**
 - **Mature potential.** Equal trunk size is not equal age, and street trees are pruned. The table compares the trees as they stand in Porta.
 - **Exact crowns.** Crowns are watershed segments from the 2021 LiDAR, capped at a 9 m radius (`scripts/bcn_lidar_porta.py`).
+
+## 10. v7 (24 Oct): the problem after gate 1
+
+**Why v7.** At the 20 Oct session the tutor asked for three things (user-reported, 24 Oct; `notes/research_method_guidelines.md`, "Conclusions"):
+- a problem that is 100% clear;
+- a check of whether Barcelona already decides, by a criterion, which species replaces which tree and where (gate 1);
+- an answer to whether Barcelona has enough trees.
+
+Gate 1 found a rule (`notes/tree_master_plan.md` §5b). v7 builds the problem on it.
+- **Stands from v6:** §9.3 contribution, §9.4 RQ, §9.5 hypotheses, §9.7 scope changes, §9.9 crown evidence.
+- **Replaced:** §9.2's "the species comes from qualitative criteria the city has not published".
+
+### 10.1 The problem in one sentence
+
+> When Barcelona replaces a plane tree, the only documented rule for the new species is qualitative (district, sidewalk width, tradition; 2004/2005). Current practice is unpublished, and no rule quantifies heat or runoff. So thousands of replacements over the next decade will change how much shade and rain interception each street keeps, and nobody measures by how much.
+
+### 10.2 Context → problem → gap (kept apart, RT L03 slide 3)
+
+**Context: what is already decided.**
+- Barcelona will remove more than half of its plane trees within ten years (56% of 43,722; press, May 2026 🟡).
+- The tree master plan caps any species at 15% of the urban fabric (plan 2017, target 3).
+- Sidewalk width sets the tree size class (2011 guide pp. 22–23).
+- Replacement happens one tree at a time, when a tree dies or a street is rebuilt.
+
+**Problem: how the species is chosen, and what that misses.**
+1. **The rule exists, and it is qualitative.** Parcs i Jardins' table for dead trees (2004/2005) assigns species by district and sidewalk width. Nou Barris gets *Prunus cerasifera* below 3.5 m, Melia or Jacaranda at 3.5–6 m, and keeps the plane above 6 m. Its stated criteria are tolerance, urban typology, tradition and the technicians' experience (`tree_master_plan.md` §5b).
+2. **It is not visible in practice.** The 2011 guide no longer prints the table. In Porta, up to ~90% of the dated 2007–2026 plantings on narrow and medium sidewalks are other species. This is an upper bound: street rebuilds and exceptions follow other lists.
+3. **No rule quantifies the consequences.** No city document estimates what a species choice does to pedestrian heat stress or storm runoff at a position (plan; 2011 guide; 2004/2005 documents).
+4. **The consequences are large.** At equal trunk size, the palette species carry between a quarter and all of a plane's crown area (Brachychiton 24–27%, Celtis 32–52%, Melia 71–81%, Tipuana and Jacaranda 89–107%; §9.9).
+5. **They fall where both hazards overlap.** In Porta, pluvial flooding and summer heat coincide on the same streets, and the neighbourhood has 832 planes (§7; `notes/site_selection.md`). Each choice fixes the canopy for decades.
+
+**Gap.**
+- **In practice:** rules for which species, but no quantities.
+- **In research:**
+  - workflows that assess heat and runoff for fixed scenarios, without species traits (Mannucci et al. 2025; Wu et al. 2024);
+  - optimisers for heat only (Shaamala et al. 2025; Peng et al. 2026);
+  - a trait-based recommender whose runoff module is disabled (SylvCiT; Nicol et al. 2026).
+
+### 10.3 Are there enough trees? (tutor's question)
+
+**Short answer: no, and it matters most where the planes are.**
+
+| Scale | Tree cover | Source |
+|---|---|---|
+| City target, 2037 | **30%** of the urban surface | Plan 2017, target 1: *"Augmentar un 5% la cobertura arbrada a la ciutat, assolint el 30%"* (full text read 24 Oct) |
+| City, 2017 | ~25% (implied; different method and year from Porta's, so indicative) | Same sentence, read as +5 percentage points; the plan prints no baseline figure. Press gives 25% for an unstated year and boundary, possibly including Collserola 🟡 |
+| **Porta, 2021** | **20.1%** of 83.7 ha (CHM > 2 m) | `scripts/porta_canopy_cover.py` → `databases/barcelona/porta_canopy_cover.csv` (ICGC LiDAR, 26 Sept 2021, leaf-on) |
+| Porta, street-tree crowns | 12.3% segmented, clipped to the polygon (13.9% of the area lies within 9 m of an inventory street tree) | `exchange/to_gh/porta_trees_lidar.csv` |
+| **Porta, plane crowns** | **5.75%** of the area (clipped), about **29% of Porta's canopy** (832 planes) | same |
+
+**What it means:**
+- **Porta is ~10 points below the city's 2037 target (8.3 ha short), and below the city's implied 2017 level (indicative, different method).**
+- **Most of Porta's canopy is street trees, and planes are its largest single part.**
+- At equal trunk size, replacing every plane with a Brachychiton-sized crown (0.24–0.27 of a plane, §9.9) would cut Porta's cover by about 4 points, to ~16%. A Tipuana- or Jacaranda-sized crown (0.89–1.07) keeps it roughly level.
+
+So species choice is not a detail next to "plant more". In a neighbourhood that already lacks cover, the replacement of its largest canopy component decides whether it moves toward the 30% target or away from it.
+
+**Caveats:**
+- CHM > 2 m includes tall shrubs (`ASSUMPTION`).
+- Equal trunk size is not mature size, and a new tree starts small whatever its species.
+- **Outside benchmark:** Nieuwenhuijsen et al. (2022), *Environmental Research* 215(2): 114387, doi:10.1016/j.envres.2022.114387. Their sample was 3,145 Barcelona residents from the Barcelona Health Survey 2016–2017. Only 8.7% met the rule's 30% criterion and 4.7% met all three. The 30% criterion is measured as mean NDVI ≥ 0.3 in a 500 m buffer, which the authors say probably means less than 30% canopy. Read from the open-access PDF by the fact-checker; add it to `papers/`.
+
+### 10.4 What changes for S1
+
+**Palette correction to §9.6.** The 2004/2005 table names **Jacaranda** for medium sidewalks in Nou Barris, as a dead-tree replacement, so §9.6's "not named in any source" no longer holds for Jacaranda. It still holds for Brachychiton.
+
+
+Two candidate city baselines, both run:
+- **S1a, the 2026 target mix (press 🟡)**, placed by the sizing rule (§9.6).
+- **S1b, the 2004/2005 Nou Barris table (documented):**
+  - *Prunus cerasifera* on narrow sidewalks;
+  - Melia or Jacaranda on medium ones;
+  - the plane kept on wide ones.
+
+  S1b adds *Prunus cerasifera* to the species the tool must model. Keeping the plane on wide sidewalks takes at least the 259 measured large-sidewalk positions out of the decision set, plus most of the 432 unmeasured medians and boulevards (§9.8). The table also allows "the existing species" there.
+
+If Parcs i Jardins replies with a current per-street list (email sent 24 Oct), that list replaces both.
