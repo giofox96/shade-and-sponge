@@ -178,6 +178,7 @@ Two decisions taken by the user on 19 Oct. **Everything else in §7 stands**; th
 **Gap.**
 - **In practice,** the city has rules and qualitative criteria but no quantities.
 - **In research,** existing workflows either assess heat and runoff for fixed scenarios without species traits (Mannucci et al. 2025; Wu et al. 2024), or optimise trees for heat only (Shaamala et al. 2025; Peng et al. 2026). The most advanced trait-based recommender has its runoff module disabled (SylvCiT; Nicol et al. 2026). Details in §7.
+- **In the diversity literature,** caps like the 15% are rules of thumb without an empirical basis (Santamour 1990, #139; Kendal et al. 2014, #140). Kendal et al. warn that targets set well below the existing share (as for Barcelona's planes, ~27% vs 15%) risk abandoning well-adapted species for underperforming ones, with unexpected changes in ecosystem services (p. 416). Our inference: the missing piece is performance data per species and position, which the city does not publish (§9.1) and the method supplies.
 
 ### 9.3 Contribution
 

@@ -46,7 +46,50 @@
 
 ## 3. Why 15 and not 10?
 
-**No document gives a derivation.** P and G state the number without a citation or an analysis. The classic rule of thumb is Santamour's (1990) 10-20-30: no more than 10% per species, 20% per genus, 30% per family. Kendal, Dobbs & Lohr (2014, 151 inventories from 108 cities) found that the most common species usually exceeds 10%, while genus and family shares are close to the benchmarks. Barcelona's 15% is therefore looser than Santamour's rule and caps only the species level. 15% is also the regional convention: a non-binding "reasonable 15%" in the Diputació de Barcelona's street-tree guide (2012, over a municipality's whole tree inventory), the cap in L'Hospitalet's approved plan, and the objective in a Sabadell conference deck (not an approved plan). Girona is stricter (5-10-15). Details in `notes/catalan_transfer_city.md` §5. Santamour 1990 and Kendal et al. 2014 are not yet in `literature_matrix.csv` or `papers/`: get them before citing them in the thesis.
+Read in full on 24 Oct: Santamour 1990 (#139), Kendal, Dobbs & Lohr 2014 (#140).
+
+- **Barcelona gives no derivation.** P and G state the number without a citation or an analysis.
+- **The number has a lineage in the literature.**
+  - Barker (1975) proposed 5% per species to avoid repetitive landscapes. That was judged unachievable.
+  - Later benchmarks were "mostly 10–15%": Grey & Deneke 1986, Santamour 1990, Miller & Miller 1991, Raupp et al. 2006 (as reviewed by Kendal et al. 2014, #140; the original sources were not read).
+  - So Barcelona's 15% sits at the loose end of the established range.
+  - The best-known version is Santamour's 10-20-30: no more than 10% of any species, 20% of any genus and 30% of any family (Santamour 1990, p. 64). Santamour himself says he does not know who first proposed the 10% rule (p. 58).
+- **The rationale is the same as Barcelona's: protection from pests and diseases.** Santamour gives Dutch elm disease and chestnut blight as the cautionary cases (p. 58).
+- **Santamour argues the species cap is the weakest of the three.** Pests follow genera and families, so a species rule "offers little protection"; diversity across genera matters most, and across families too (pp. 62–63).
+  - **Barcelona caps species only.** It sets no genus or family limit.
+  - Santamour names two pests and one family at risk that are relevant to our palette:
+    - sycamore anthracnose on *Platanus* (p. 58);
+    - fire blight, to which the rose family genera, including *Pyrus* (mostly *P. calleryana*), are "potentially susceptible" (p. 63);
+    - the legume family, which includes *Sophora* (now *Styphnolobium*). He names no pest for *Sophora*; his legume example is mimosa webworm on *Gleditsia* and *Albizia*, and he notes "there may be limited similarity among genera in host-pest relationships" across the legume subfamilies (p. 63).
+  - **Family check of the palette** (standard taxonomy, not from the plan):
+
+    | Family | Palette species |
+    |---|---|
+    | Fabaceae (legumes) | Tipuana, *Styphnolobium* |
+    | Rosaceae | *Pyrus* |
+    | Cannabaceae | Celtis |
+    | Meliaceae | Melia |
+    | Bignoniaceae | Jacaranda |
+    | Malvaceae | Brachychiton |
+    | Platanaceae | *Platanus* |
+
+    A family-level variant of the cap would therefore bind Tipuana and *Styphnolobium* together. This is an option for the tool, not a city rule.
+- **The empirical check (Kendal et al. 2014, #140): 151 inventories from 108 cities.**
+  - **Species level:** the most common species is far above 10% in every climate group. Santamour's 10% is close to the global 10th percentile.
+  - **Genus and family:** the medians are close to 20% and 30%.
+  - **Streets:** streetscapes are less diverse than parks (most common genus 24% vs 15%), and the authors suggest higher benchmarks for streets than for other land uses.
+- **The warning that matters for this thesis.** Kendal et al. warn that targets set "substantially lower than existing relative abundance patterns" risk that "well adapted species may be abandoned for underperforming species (Richards, 1993)", or that "changing species may lead to unexpected changes in the provision of ecosystem services" (p. 416).
+  - **It applies to Barcelona's planes,** at about 27% of street trees against a 15% cap and a 12% target.
+  - **Context:** their sharper version, about "a reduction in the ecosystem service benefits" (p. 415), is written for streetscapes in Continental climates. Barcelona falls in their Temperate group, for which they say benchmarks may even need lowering (p. 416).
+  - **Our inference, not Kendal's:** that the missing piece is performance data per species and position, which the method supplies.
+- **15% is also the regional convention:**
+  - a non-binding "reasonable 15%" in the Diputació de Barcelona's street-tree guide (2012, over a municipality's whole tree inventory);
+  - the cap in L'Hospitalet's approved plan;
+  - the objective in a Sabadell conference deck (not an approved plan).
+
+  Girona is stricter (5-10-15). Details in `notes/catalan_transfer_city.md` §5.
+
+**Health co-benefit of canopy, as context.** In Barcelona, only 4.7% of 3,145 surveyed residents met a surrogate of the 3-30-300 green-space rule. Surrounding greenness (NDVI ≥ 0.3 in 500 m) was associated with lower odds of poor mental health (OR 0.60, 95% CI 0.40–0.90) (Nieuwenhuijsen et al. 2022, #141). This is not a heat or runoff result. It only adds that losing crown area has costs beyond the two objectives of the tool.
 
 ## 4. The plane in numbers (denominators differ)
 
@@ -149,4 +192,4 @@ So the gap holds and becomes sharper: the city has qualitative rules for which s
 - The city's current list of replacement species by street type (N3). The 2004/2005 version was read on 24 Oct (§5b). A newer one: waiting on the Parcs i Jardins email (sent 24 Oct).
 - The species list behind the 40% climate-adapted target. It is not in P.
 - An official source (Ajuntament press release, or the 20minutos original) for the 2026 figures.
-- Get Santamour 1990 and Kendal et al. 2014 into Zotero.
+- Add Santamour 1990, Kendal et al. 2014 and Nieuwenhuijsen et al. 2022 to Zotero (PDFs in `papers/`, matrix #139–#141).
