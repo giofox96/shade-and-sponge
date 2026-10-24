@@ -78,7 +78,7 @@ Read in full on 24 Oct: Santamour 1990 (#139), Kendal, Dobbs & Lohr 2014 (#140).
   - **Species level:** the most common species is far above 10% in every climate group. Santamour's 10% is close to the global 10th percentile.
   - **Genus and family:** the medians are close to 20% and 30%.
   - **Streets:** streetscapes are less diverse than parks (most common genus 24% vs 15%), and the authors suggest higher benchmarks for streets than for other land uses.
-- **The warning that matters for this thesis.** Kendal et al. warn that targets set "substantially lower than existing relative abundance patterns" risk that "well adapted species may be abandoned for underperforming species (Richards, 1993)", or that "changing species may lead to unexpected changes in the provision of ecosystem services" (p. 416).
+- **The warning that matters for this thesis.** Kendal et al. warn that targets set "substantially lower than existing relative abundance patterns" risk that "well adapted species may be abandoned for underperforming species (Richards, 1993)", or that "changing species may lead to unexpected changes in the provision of ecosystem services" (p. 415).
   - **It applies to Barcelona's planes,** at about 27% of street trees against a 15% cap and a 12% target.
   - **Context:** their sharper version, about "a reduction in the ecosystem service benefits" (p. 415), is written for streetscapes in Continental climates. Barcelona falls in their Temperate group, for which they say benchmarks may even need lowering (p. 416).
   - **Our inference, not Kendal's:** that the missing piece is performance data per species and position, which the method supplies.

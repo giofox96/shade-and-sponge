@@ -178,7 +178,7 @@ Two decisions taken by the user on 19 Oct. **Everything else in §7 stands**; th
 **Gap.**
 - **In practice,** the city has rules and qualitative criteria but no quantities.
 - **In research,** existing workflows either assess heat and runoff for fixed scenarios without species traits (Mannucci et al. 2025; Wu et al. 2024), or optimise trees for heat only (Shaamala et al. 2025; Peng et al. 2026). The most advanced trait-based recommender has its runoff module disabled (SylvCiT; Nicol et al. 2026). Details in §7.
-- **In the diversity literature,** caps like the 15% are rules of thumb without an empirical basis (Santamour 1990, #139; Kendal et al. 2014, #140). Kendal et al. warn that targets set well below the existing share (as for Barcelona's planes, ~27% vs 15%) risk abandoning well-adapted species for underperforming ones, with unexpected changes in ecosystem services (p. 416). Our inference: the missing piece is performance data per species and position, which the city does not publish (§9.1) and the method supplies.
+- **In the diversity literature,** caps like the 15% are rules of thumb without an empirical basis (Santamour 1990, #139; Kendal et al. 2014, #140). Kendal et al. warn that targets set well below the existing share (as for Barcelona's planes, ~27% vs 15%) risk abandoning well-adapted species for underperforming ones, with unexpected changes in ecosystem services (p. 415). Our inference: the missing piece is performance data per species and position, which the city does not publish (§9.1) and the method supplies.
 
 ### 9.3 Contribution
 
@@ -295,7 +295,7 @@ Gate 1 found a rule (`notes/tree_master_plan.md` §5b). v7 builds the problem on
   - a trait-based recommender whose runoff module is disabled (SylvCiT; Nicol et al. 2026).
 - **In the diversity literature:**
   - Species caps such as the 15% are rules of thumb without an empirical basis (Santamour 1990, #139; Kendal et al. 2014, #140).
-  - Kendal et al. warn that targets set "substantially lower than existing relative abundance patterns" risk that "well adapted species may be abandoned for underperforming species", or "unexpected changes in the provision of ecosystem services" (p. 416). That is Barcelona's case: planes at ~27% against a 15% cap.
+  - Kendal et al. warn that targets set "substantially lower than existing relative abundance patterns" risk that "well adapted species may be abandoned for underperforming species", or "unexpected changes in the provision of ecosystem services" (p. 415). That is Barcelona's case: planes at ~27% against a 15% cap.
   - Santamour adds that a species cap is the weakest of the three, since pests follow genera and families (pp. 62–63); Barcelona caps species only.
   - Our inference: what is missing is performance data per species and position, which the method supplies, together with a genus and family check (§10.6).
 
