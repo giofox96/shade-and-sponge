@@ -11,7 +11,7 @@
 3. [ ] **Ladybug Tier 1 on one Porta street, S0 vs one replacement** (≈1 evening). This is the first real UTCI number for the deck: mean UTCI 12–17 h, hot design day. I prepare the files in `exchange/to_gh/` and you run it in Grasshopper. Tell me which day you can do it.
 4. [ ] **RM cluster map by hand on Miro, by Tue 27 Oct** (below).
 5. [ ] **Ask the tutor by email (one line):** is Infrared City access possible before 10 Nov? If yes, it replaces item 3.
-6. [ ] **Decide the baseline** when I send the research-question memo: S1a (2026 press mix) or S1b (2004 documented table) as the headline.
+6. [x] **Baseline decided (24 Oct): S1a**, the 2026 mix. S1b, the 2004 table, is cited only.
 7. [ ] Pick a day before 10 Nov for a 20-min **dry run of the deck** with me (problem → RQ → flowcharts → first results → validation).
 
 ## For the next tutor session, 10 Nov (requests from the 20 Oct session)
