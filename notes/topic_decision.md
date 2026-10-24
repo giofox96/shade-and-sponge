@@ -380,3 +380,14 @@ The tutor asked for the RQ to be scrutinised. Below, the v6 RQ (§9.4) is checke
 | Validation | ❌ results / ✅ plan | Shown as a flowchart: interception calibrated on Freiburg data (Anys & Weiler 2024; runoff v1); the published Ladybug vs ENVI-met benchmark (Mannucci et al. 2025); proxy vs Tier 1 on the same layouts; transfer test (Florence/Mataró) |
 
 **Supersedes:** §9.4 (RQ v6). §9.5's H1 stands, with "the city's own replacement" read as S1a (decided 24 Oct), and with the Δmin test applied to total runoff. H2's mechanism is restated in row 9.
+
+### 10.6 Decisions, 24 Oct (user): scenarios, additions co-equal, project area, city scale
+
+- **Scenarios:** S0 today; R = replacement only (S1a city rule vs optimised); A = additions only (new trees in free spots, planes kept); R+A = both. The scenarios are compared on a radar of normalised indicators (summer cooling, winter sun, total runoff, hotspot runoff, canopy cover, diversity), always next to bars in real units with the Δmin marks.
+- **Additions are co-equal in the RQ.** The main question becomes: *can a trait-based layout method, working inside Barcelona's tree rules, choose replacement species for plane trees and new planting spots that retain and add more pedestrian cooling and storm-water interception than the city's own practice?* A fourth sub-question covers additions:
+  > **SQ4:** how much of the canopy gap to the 30% target can new street trees close within the planting rules, and where?
+  
+  §10.5's SQ1–SQ3 apply to R, A and R+A.
+- **Project area:** the tool replaces the trees inside an area the user draws. This puts §9.7.3 (any subset of positions) into practice and makes the method concrete for a street-rebuild designer.
+- **Tree health:** there is no open dataset, so a replacement-priority proxy will be built (LiDAR vigour, NDVI change, age) and validated against trees removed between inventory snapshots.
+- **City scale:** Porta first, then a city-wide screening layer and the project tool usable anywhere in Barcelona. Plan and feasibility: `notes/citywide_plan.md`.
