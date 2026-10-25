@@ -36,7 +36,7 @@ watch(
   <div v-else-if="!state.meta" class="msg">Loading site…</div>
   <div v-else class="app">
     <header>
-      <b>Shade and sponge</b>
+      <b>Shade &amp; Sponge</b>
       <span class="muted">Street-tree replacement in {{ state.meta.site.name }}, Barcelona · 832 plane-tree positions</span>
       <span class="spacer"></span>
       <span class="seg" role="group" aria-label="Species palette">
@@ -58,7 +58,7 @@ watch(
       <section>
         <h3>Priorities</h3>
         <PriorityTriangle />
-        <p class="muted small">Dots: precomputed optimal layouts (exact scores; blue = on the trade-off front). Click anywhere else to re-optimise live in your browser (estimate).</p>
+        <p class="muted small">Dots: precomputed optimal layouts (exact scores; green = on the trade-off front). Click anywhere else to re-optimise live in your browser (estimate).</p>
         <p v-if="state.busy" class="small accent">Optimising…</p>
         <p v-if="state.liveError" class="small danger">{{ state.liveError }}</p>
       </section>
@@ -100,7 +100,7 @@ watch(
       </section>
       <section>
         <h3>Species <span class="muted">untick to exclude</span></h3>
-        <p v-if="state.meta.palette_kind === 'barcelona'" class="muted small">Colour = leaf habit (blue deciduous, orange evergreen, violet semi-deciduous); darker = larger crown.</p>
+        <p v-if="state.meta.palette_kind === 'barcelona'" class="muted small">Colour = leaf habit (ochre deciduous, green evergreen, olive semi-deciduous); darker = larger crown.</p>
         <ul class="legend">
           <li v-for="p in state.meta.palette" :key="p.species">
             <input v-if="p.in_palette" type="checkbox" :value="p.species" :checked="!state.exclude.includes(p.species)"

@@ -6,14 +6,18 @@ overlay PNGs. Coordinates in WGS84; heights in m above local ground (the web map
 import sys, json, glob, gzip, numpy as np, pandas as pd, geopandas as gpd
 from scipy import ndimage
 import matplotlib.pyplot as plt
+from matplotlib.colors import LinearSegmentedColormap
 from pyproj import Transformer
 from .site import load_site, rc, species_lidar, ROOT, DB, EX
 from . import heat, layout, season, runoff
 
-COLORS = ["#2a78d6", "#eb6834", "#1baf7a", "#eda100", "#e87ba4", "#008300", "#6250d6"]   # palette order, as notes/figures/tool_v0.png
-# Barcelona palette (too many species for distinct hues): hue = leaf habit, lightness = crown size (< 4.5 / 4.5–7 / > 7 m)
-CLASS_COLORS = {"deciduous": ["#86b6ef", "#3987e5", "#184f95"], "evergreen": ["#f0997b", "#d85a30", "#993c1d"],
-                "semi-deciduous": ["#9085e9"] * 3}
+# Palette order, in the deck's "Earth" tones (scripts/make_infographics.py); fixed order validated for colour-vision
+# deficiency on adjacent slots and >= 3:1 contrast on the page background #F2F0EA (dataviz palette check, 25 Oct)
+COLORS = ["#3e8a3a", "#2f5fa8", "#b07a12", "#a33f5e", "#6e7a1e", "#8a4e9a", "#b8502a"]
+# Barcelona palette (too many species for distinct hues): hue = leaf habit (ochre = loses its leaves, green = keeps
+# them), lightness = crown size (< 4.5 / 4.5–7 / > 7 m)
+CLASS_COLORS = {"deciduous": ["#d9b871", "#b08a2e", "#7a5c14"], "evergreen": ["#9dbb8f", "#5e8f55", "#2f5230"],
+                "semi-deciduous": ["#a3a35a"] * 3}
 habit_class = lambda h: "evergreen" if h == "evergreen" else "semi-deciduous" if h == "semi-deciduous" else "deciduous"
 size_class = lambda d: 0 if d < 4.5 else 1 if d < 7 else 2
 PLANE = "Platanus × acerifolia"
@@ -45,7 +49,7 @@ palette = []
 for i, s in enumerate(sp):
     row = pal[pal.species == s].iloc[0] if s in set(pal.species) else None
     if kind == "city" or s == PLANE:
-        color = COLORS[i] if i < len(COLORS) else "#8a8a86"
+        color = COLORS[i] if i < len(COLORS) else "#7d776b"
     else:
         color = CLASS_COLORS[habit_class(phen.loc[s, "leaf_habit"])][size_class(float(lid.loc[s, "crown_diam_med"]))]
     palette.append(dict(species=s, short=s.split()[0], color=color,
@@ -109,16 +113,17 @@ show = site.domain & ~site.roof
 suns = {s: heat.design_suns(site, s) for s in heat.SEASONS}
 lits = {s: [heat.sunlit(site, *x) for x in suns[s]] for s in heat.SEASONS}
 sun = {s: np.mean(lits[s], axis=0) for s in heat.SEASONS}
-layers = [("sun_winter", "Winter sun (15 Jan 10–15 h)", sun["winter"], "cividis", 0, 1),
-          ("sun_summer", "Summer sun (15 Jul 12–17 h)", sun["summer"], "cividis", 0, 1),
-          ("water", "Water convergence (log10 upstream m²)", np.log10(np.maximum(site.acc, 1)), "Blues", 0, 5),
-          ("hotspots", "Flood hotspots (hazard index ≥ 40)", site.hot.astype(float), "Reds", 0, 1.2)]
+ramp = lambda name, *c: LinearSegmentedColormap.from_list(name, c)   # one-hue ramps in the deck's "Earth" palette
+layers = [("sun_winter", "Winter sun (15 Jan 10–15 h)", sun["winter"], ramp("stone_ochre", "#b3bab9", "#ba9546"), 0, 1),
+          ("sun_summer", "Summer sun (15 Jul 12–17 h)", sun["summer"], ramp("stone_ochre", "#b3bab9", "#ba9546"), 0, 1),
+          ("water", "Water convergence (log10 upstream m²)", np.log10(np.maximum(site.acc, 1)), ramp("bone_inkblue", "#f2f0ea", "#283f66"), 0, 5),
+          ("hotspots", "Flood hotspots (hazard index ≥ 40)", site.hot.astype(float), ramp("bone_rust", "#f2f0ea", "#663825"), 0, 1.2)]
 overlays = []
 for key, label, a, cmap, vmin, vmax in layers:
-    rgba = plt.get_cmap(cmap)((np.clip(a, vmin, vmax) - vmin) / (vmax - vmin))
+    rgba = cmap((np.clip(a, vmin, vmax) - vmin) / (vmax - vmin))
     rgba[..., 3] = np.where(show & ((a > 0) if key == "hotspots" else True), 0.85, 0)
     plt.imsave(out / f"{key}.png", rgba)
-    overlays.append(dict(id=key, label=label, file=f"{key}.png", cmap=cmap, vmin=vmin, vmax=vmax))
+    overlays.append(dict(id=key, label=label, file=f"{key}.png", cmap=cmap.name, vmin=vmin, vmax=vmax))
 
 # site grid for in-browser point potentials (web/src/pointpot.js): sun bits per design hour, ground flags, façade distance
 bits = {s: sum(l.astype(np.uint8) << h for h, l in enumerate(lits[s])).astype(np.uint8) for s in lits}

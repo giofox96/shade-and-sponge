@@ -75,9 +75,10 @@ const pc = (v) => `${Math.round(100 * v)}%`
 
 <style scoped>
 .empty { color: var(--muted); font-size: 12px; }
-.head { display: flex; align-items: center; gap: 6px; font-size: 14px; flex-wrap: wrap; }
+.head { display: flex; align-items: center; gap: 6px; font-size: 15px; font-weight: 600; flex-wrap: wrap; }
+.head b { font-style: italic; }
 .badge { font-size: 11px; background: var(--hover); color: var(--accent); padding: 1px 6px; border-radius: 4px; }
-.warn { font-size: 11px; color: #854f0b; background: #faeeda; padding: 3px 6px; border-radius: 4px; margin: 4px 0; }
+.warn { font-size: 11px; color: var(--heat); background: #f3e6dd; border-left: 3px solid var(--heat); padding: 3px 6px; border-radius: 2px; margin: 4px 0; }
 .dot { display: inline-block; width: 9px; height: 9px; border-radius: 50%; margin-right: 4px; }
 .muted { color: var(--muted); }
 .small { font-size: 11px; line-height: 1.45; }
@@ -89,10 +90,11 @@ dd { margin: 0; text-align: right; }
 .leaf i { width: 8px; border-radius: 2px; opacity: 0.8; }
 .leaf .now { color: var(--text); font-weight: 500; }
 .opt { width: 100%; border-collapse: collapse; font-size: 12px; margin-top: 4px; }
-.opt th { font-weight: 500; color: var(--muted); text-align: right; padding: 2px 4px; }
+.opt th { font: 400 10px var(--mono); letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); text-align: right; padding: 2px 4px; }
+.opt td + td, dd { font-family: var(--mono); font-variant-numeric: tabular-nums; }
 .opt th:first-child, .opt td:first-child { text-align: left; }
 .opt td { text-align: right; padding: 3px 4px; border-top: 0.5px solid var(--line); }
-.opt tr.chosen td { background: var(--hover); font-weight: 500; }
+.opt tr.chosen td { background: var(--hover); font-weight: 600; }
 .opt tr.nofit td { color: var(--muted); }
 .opt tr.pick { cursor: pointer; }
 .opt tr.pick:hover td { background: var(--hover); }

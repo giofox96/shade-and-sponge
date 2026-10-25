@@ -41,7 +41,7 @@ function crowns() {
       mesh: sphere,
       getPosition: (i) => [k.lon[i], k.lat[i], (k.height_m[i] + k.crown_base_m[i]) / 2],
       getScale: (i) => [k.crown_diam_m[i] / 2, k.crown_diam_m[i] / 2, Math.max(k.height_m[i] - k.crown_base_m[i], 1) / 2],
-      getColor: [150, 160, 140, 150],
+      getColor: [179, 186, 185, 150],   // stone: kept trees, not decided
     }),
     new SimpleMeshLayer({
       id: 'positions',
@@ -76,7 +76,7 @@ function crowns() {
       radiusUnits: 'meters',
       stroked: true,
       filled: false,
-      getLineColor: (t, { index }) => (selected === `a${index}` ? [24, 95, 165] : [255, 255, 255]),
+      getLineColor: (t, { index }) => (selected === `a${index}` ? [42, 38, 34] : [255, 255, 255]),
       lineWidthMinPixels: 2,
       updateTriggers: { getRadius: state.addedVersion, getLineColor: [selected, state.addedVersion] },
     }),
@@ -106,8 +106,8 @@ function layers() {
       data: dataUrl('buildings.geojson'),
       extruded: true,
       getElevation: (f) => f.properties.height_m,
-      getFillColor: [222, 218, 208, 235],
-      getLineColor: [180, 176, 166],
+      getFillColor: [233, 229, 220, 235],   // bone, a shade darker than the page
+      getLineColor: [179, 186, 185],
       lineWidthMinPixels: 0,
     }),
     ...crowns(),
