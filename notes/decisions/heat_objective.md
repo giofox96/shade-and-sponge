@@ -2,6 +2,8 @@
 
 **DECIDED (user, 19 Oct): mean UTCI over 12–17 h on a hot design day**, with the hottest real day as a check. The peak-hour metric is dropped because it saturates (§5). The RQ wording follows in `notes/topic_decision.md` §8. The sections below are the memo that led to it.
 
+**Clock basis, DECIDED (user, 25 Oct): 12–17 h local clock (CEST in summer)**, the window the tool's proxy already uses. The user sets the matching hours in Ladybug. The EPW is in standard time (UTC+1), so 12–17 h CEST is EPW hours 11–16. The bounding run in §1 used EPW hours 12–17 (13–18 h CEST), one hour later than the decided window.
+
 Status: **exploratory bounding, pending user decision.** No geometry, trees or grid were used. Numbers come from `scripts/heat_bounds.py` -> `databases/barcelona/heat_design_hours.csv` (51 rows). Methodology status is PROTOTYPING; `methodology.md` and `topic_decision.md` are not edited.
 
 ## 1. What the bounding run shows (TMYx El Prat 2011-2025, EPW wind, hours 12-17)

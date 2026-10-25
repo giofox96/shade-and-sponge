@@ -11,7 +11,7 @@ from shapely import affinity
 from . import season
 
 SEASONS = dict(
-    summer=dict(doy=196, month=7, hours_utc=range(10, 16)),   # ASSUMPTION 15 July, 12–17 h CEST; decided metric: 12–17 h standard time = 13–18 h CEST on a hot design day (heat_objective.md §1)
+    summer=dict(doy=196, month=7, hours_utc=range(10, 16)),   # 12–17 h CEST (window decided by the user, 25 Oct); the day, 15 July, is still an ASSUMPTION
     winter=dict(doy=15, month=1, hours_utc=range(9, 15)),     # ASSUMPTION 15 January, 10–15 h CET, until the EPW coldest week
 )
 DESIGN_MONTH = SEASONS["summer"]["month"]
