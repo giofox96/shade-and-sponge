@@ -719,11 +719,11 @@ def fig_runoff_result():
 def fig_shade_result():
     result_slide(
         "15_shade_result", "First result: the shade trade-off is real",
-        "Tool v0 over the seven candidate species, with the photo-based leaf calendar (re-run 15 Oct)",
+        "Tool v0 over the seven candidate species, with the photo-based leaf calendar (re-run 26 Oct)",
         "tool_v0.png",
         ((TREE, "+16%", "summer shade, optimised against a random palette \u2014 robust across all 8 sensitivity variants"),
-         (WARN, "no winter gain", "the same layout is about equal or worse in winter shade (\u22120.8 to +7.9%)"),
-         (HEAT, "\u221218% / \u221218%", "beyond the balanced layout, winter shade bought with summer shade: one for one in the base run, 0.6\u20131.0 across variants"),
+         (WARN, "no winter gain", "the same layout is about equal or worse in winter shade (\u22120.4 to +8.9%)"),
+         (HEAT, "\u221220% / \u221218%", "beyond the balanced layout, winter shade bought with summer shade: 1.1 to 1 in the base run, 0.8\u20131.3 across variants"),
          (INK, "\u22127.5%", "even with mature replacement crowns, no layout reaches the planes standing today")),
         "Shade is the fast proxy, not UTCI: the Ladybug module comes next. Positions are fixed at the 832 plane pits, "
         "so this compares species composition, not placement \u2014 and the leaf calendar it rests on is photo-based "
