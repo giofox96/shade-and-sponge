@@ -107,8 +107,10 @@ def fits(site, pos, pal, size_rule=None):
 
 
 def planting_spots():
-    """Free street-tree spots (additions, scenarios A and R+A; scripts/porta_planting_spots.py), with their size class."""
-    return pd.read_csv(DB / "porta_planting_spots.csv").rename(columns={"spot_id": "tree_id"})
+    """Free street-tree spots (additions, scenarios A and R+A; scripts/porta_planting_spots.py), with their size class,
+    minus those too close to crossings, signals, parking entrances or bus stops (scripts/porta_spot_exclusions.py)."""
+    s = pd.read_csv(DB / "porta_planting_spots.csv").rename(columns={"spot_id": "tree_id"})
+    return s[s.get("excluded_by", pd.Series("", index=s.index)).fillna("") == ""].drop(columns="excluded_by", errors="ignore")
 
 
 def add_cap(cap, n_total, n_add):

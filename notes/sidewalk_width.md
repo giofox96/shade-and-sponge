@@ -192,3 +192,26 @@ Lanes are tagged on 90% of the 2,782 drivable edges in the cut. Parking is tagge
 - For city screening: proxy A for existing trees, proxy C for new spots. Both labelled "approximate (OSM)".
 - Use the OSMnx crossings and bus stops to drop spots too close to them, with the 2011 guide's clearances (next step).
 - The 1:1000 map stays the reference for project areas.
+
+## Spot exclusions from OSM street furniture (26 Oct)
+
+`scripts/porta_spot_exclusions.py` adds `excluded_by` to `databases/barcelona/porta_planting_spots.csv`, and `layout.planting_spots()` drops those spots. Clearances, measured to the OSM point or line:
+
+| Obstacle (OSM tags) | Clearance | Basis |
+|---|---|---|
+| Traffic signals (`highway=traffic_signals`) | 3 m | 2011 guide: > 3 m from traffic lights and signs (`notes/tree_master_plan.md` §5) |
+| Crossings (`highway=crossing` points, `footway=crossing` lines) | 3 m | `ASSUMPTION`: the guide's sign clearance, since crossings carry signs and need sight lines |
+| Parking entrances (`amenity=parking_entrance`) | 3 m | `ASSUMPTION`: the guide's > 1 m from driveways plus half of a ~4 m driveway |
+| Bus stops (`highway=bus_stop`, `public_transport=platform`) | 8 m | `ASSUMPTION`: keeps about 16 m of kerb free for the shelter and the doors; no source yet |
+
+**Result:**
+- 267 → **232 spots** (122 small, 42 medium, 68 large).
+- Excluded: 31 by crossings, 2 by parking entrances, 1 by a traffic signal, 1 by a bus stop.
+- **Sensitivity:**
+  - crossings 2 / 3 / 5 m and bus stops 5 / 8 / 15 m: **209–243 kept**;
+  - crossings 5 m alone: 213;
+  - bus stops 15 m alone: 227.
+
+**Still an upper bound:**
+- Lamps (only 4 mapped in the Porta cut), signs, driveways without a parking entrance, underground services and balconies are not in OSM here.
+- A dropped spot does not free its neighbours from the spacing rule, so a few valid spots may be missing.

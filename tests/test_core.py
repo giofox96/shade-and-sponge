@@ -103,3 +103,8 @@ def test_priority_ranks_peers():
     assert p.vigour_deficit[0] > p.vigour_deficit[n - 1]           # smaller crown among its peers = weaker
     assert p.peer_group[0] == "species_class" and p.peer_group[n] == "species"   # one EXEMPLAR: compared within the species
     assert p.vigour_deficit[n + 1] == 1 and p.age[n] == 1 and p.priority.between(0, 1).all()
+
+
+def test_planting_spots_drop_excluded():
+    s = layout.planting_spots()
+    assert len(s) > 0 and "excluded_by" not in s and s.tree_id.str.startswith("ADD").all()

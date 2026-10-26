@@ -159,6 +159,8 @@ Run: `python -m shade_sponge porta --size=exact --trunk=TERCERA` → `databases/
 
 The result is **267 spots: 142 small, 53 medium, 72 large.** This is an **upper bound**: driveways, crossings, bus stops, lamps and underground services are not in the data.
 
+**Update 26 Oct: OSM exclusions** (`scripts/porta_spot_exclusions.py`, `notes/sidewalk_width.md` "Spot exclusions"). Spots too close to crossings, traffic signals, parking entrances or bus stops are now dropped: **232 kept** (122 small, 42 medium, 68 large), 209–243 across the assumed clearances. `layout.planting_spots()` uses the kept ones. **The A and R+A numbers below are from the 267-spot run (24 Oct) and need a local re-run** (`python scripts/run_additions.py`).
+
 **Run:** `scripts/run_additions.py` → `databases/barcelona/additions_summary.csv`. S1a has 5 seeds; Opt uses the balanced weights; both use the exact sizing rule and TERCERA traits. The cap is recomputed on the larger stock.
 
 | | Summer shade, % of today | Winter shade, % of today | Total runoff, m³ vs today | Canopy (disc model), points vs today |

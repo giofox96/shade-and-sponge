@@ -9,7 +9,8 @@
 4. [ ] **Retry the 652 MB 1:1000 GeoPackage once** (`notes/sidewalk_width.md`). This is the key to sidewalk widths for the whole city (`notes/citywide_plan.md` §6.2 step 4). OSM gets the size class right for only ~3 trees in 4 (`notes/sidewalk_width.md`, "OSM check").
 5. [ ] **Ladybug: use EPW hours 11–16.** The decided window is 12–17 h local clock (CEST), and the EPW is in standard time (`notes/decisions/heat_objective.md`).
 6. [ ] **One older street-tree inventory snapshot** (Open Data BCN `arbrat-viari`, a version from 2024 or 2025, if the portal keeps old versions). Save it as `databases/barcelona/raw/arbrat_viari_<date>.csv`. It validates the replacement-priority proxy: trees removed since then should score higher (`shade_sponge/health.py`). Blocked from the cloud.
-7. [ ] Optional: `pip install osmium` in the conda env, only if you want to re-run `scripts/osm_sidewalks.py` locally.
+7. [ ] **Re-run the additions** on your PC: `python scripts/run_additions.py`. The free spots went from 267 to 232 after the OSM exclusions (crossings, signals, bus stops), so the A and R+A numbers in `shade_sponge/README.md` and slide `res_03` need refreshing; then `python scripts/make_results_v7.py`.
+8. [ ] Optional: `pip install osmium` in the conda env, only if you want to re-run `scripts/osm_sidewalks.py` locally.
 
 ## Fast track to the 10 Nov tutor session (only you can do these; in order)
 1. [ ] **Watch for the Parcs i Jardins reply** (sent 24 Oct). Forward it to me as soon as it arrives: a current per-street list would replace S1.
