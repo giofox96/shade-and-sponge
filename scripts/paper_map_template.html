@@ -46,7 +46,7 @@ li { margin: 2px 0; }
 <main>
   <header>
     <h1>Literature Embedding Map</h1>
-    <p class="lede">Each point is a paper from the thesis literature matrix. Points that sit close together have similar titles and abstracts (SPECTER2 embedding, UMAP projection). The star is the thesis. Switch to <em>tags</em> to see the same papers placed by the matrix's bucket codes instead, and compare the two maps.</p>
+    <p class="lede">Each point is a paper from the research cluster's literature: the Shade and Sponge matrix plus the core papers of the other theses (outlined). Points that sit close together have similar titles and abstracts (SPECTER2 embedding, UMAP projection). Stars are the theses. Switch to <em>tags</em> to see the same papers placed by the matrix's bucket codes instead, and compare the two maps.</p>
   </header>
   <div class="controls">
     <label class="ctl">Placed by<span class="seg" id="rep"><button data-v="text" aria-pressed="true">Text</button><button data-v="tags" aria-pressed="false">Tags</button></span></label>
@@ -57,7 +57,7 @@ li { margin: 2px 0; }
   <div id="plot" role="img" aria-label="Scatter plot of papers in embedding space"></div>
   <p class="note" id="meta"></p>
   <div class="below">
-    <section><h2>Nearest papers to the thesis (text space)</h2><ol id="near"></ol></section>
+    <section><h2>Nearest papers to each thesis (text space)</h2><div id="near"></div></section>
     <section><h2>Clusters</h2><ul class="key" id="key"></ul></section>
   </div>
 </main>
@@ -97,7 +97,7 @@ function draw() {
   }));
   const th = D.pts.filter(p => p.kind === "thesis");
   if (th.length) traces.push({ ...coords(th), type, mode: "markers+text", name: "Thesis",
-    text: th.map(p => p.title), textposition: "top center", textfont: { color: css("--thesis"), size: 12 },
+    text: th.map(p => p.cit), textposition: "top center", textfont: { color: css("--thesis"), size: 12 },
     hovertemplate: "%{text}<extra></extra>",
     marker: { size: state.dim === "2" ? 18 : 8, symbol: state.dim === "2" ? "star" : "diamond", color: css("--thesis"), line: { width: 1, color: fg } } });
   const ax = { showgrid: false, zeroline: false, showticklabels: false, title: "" };
@@ -115,8 +115,9 @@ function side() {
   document.getElementById("meta").textContent =
     `${n.length} papers (${src.abstract || 0} placed from title + abstract, ${src.matrix || 0} from the matrix's method and results columns). ` +
     `Text vs tags, mean 10-nearest-neighbour overlap: ${D.overlap} (1 = same neighbours). Axes have no units: only distances mean something.`;
-  document.getElementById("near").innerHTML = (D.near || []).map(r =>
-    `<li>${r.citation} <span class="cos">cos ${r.cosine.toFixed(3)}</span></li>`).join("");
+  const byThesis = (D.near || []).reduce((a, r) => ((a[r.thesis] ||= []).push(r), a), {});
+  document.getElementById("near").innerHTML = Object.entries(byThesis).map(([t, rs]) =>
+    `<h3>${t}</h3><ol>` + rs.map(r => `<li>${r.citation} <span class="cos">cos ${r.cosine.toFixed(3)}</span></li>`).join("") + "</ol>").join("");
   const counts = n.reduce((a, p) => (a[p.cl] = (a[p.cl] || 0) + 1, a), {}), colors = pal();
   document.getElementById("key").innerHTML = Object.keys(counts).sort((a, b) => a - b).map((c, i) =>
     `<li><span class="sw" style="background:${colors[i % 10]}"></span>${label(c)} <span class="cos">${counts[c]}</span></li>`).join("");

@@ -11,7 +11,8 @@ Inputs
   notes/lit/literature_matrix.csv      the matrix (id, citation, doi, bucket, method, key_quantified_results, ...)
   notes/lit/{shortlist,candidates*}.csv abstracts already fetched by search_papers.py (joined on DOI)
   OpenAlex                             title + abstract for the rest (cached in notes/lit/matrix_abstracts.csv)
-  notes/lit/paper_map_extra.csv        extra points: kind=thesis (label, owner, text) or kind=core (doi, owner)
+  notes/lit/paper_map_extra.csv        extra points: kind=thesis (label, owner, title, text) or kind=core (doi, owner;
+                                       with label, title, text = abstract it is added as a new paper if not in the matrix)
 Papers with no abstract anywhere fall back to citation + method + results from the matrix (flagged `text_src`).
 
 Outputs
@@ -93,9 +94,11 @@ def add_extra(m):
     for _, r in x[x.kind == "core"].iterrows():                # highlight an existing paper
         sel = m.doi_n == norm_doi(r.doi)
         m.loc[sel, "kind"], m.loc[sel, "owner"] = "core", r.owner
-    th = x[x.kind == "thesis"].rename(columns={"label": "title"})
-    th = th.assign(citation=th.title, text=th.title + " [SEP] " + th.text, text_src="thesis", bucket="thesis")
-    return pd.concat([m, th[["kind", "owner", "title", "citation", "text", "text_src", "bucket"]]], ignore_index=True)
+    new = x[(x.kind == "core") & (x.text != "") & ~x.doi.map(norm_doi).isin(m.doi_n.dropna())]  # a cluster mate's paper not in our matrix
+    ext = pd.concat([x[x.kind == "thesis"].assign(text_src="thesis", bucket="thesis"),
+                     new.assign(text_src="abstract", bucket=new.owner)])
+    ext = ext.assign(citation=ext.label, text=ext.title + " [SEP] " + ext.text)
+    return pd.concat([m, ext[["kind", "owner", "title", "citation", "doi", "text", "text_src", "bucket"]]], ignore_index=True)
 
 
 def embed(texts):
@@ -137,7 +140,7 @@ def clusters(e):
 
 def tag_matrix(buckets):
     tags = buckets.fillna("").str.split("/")
-    cols = sorted({t for ts in tags for t in ts if t.startswith("B") or t == "thesis"})
+    cols = sorted({t for ts in tags for t in ts if t})   # B1..B9, "thesis", or a cluster mate's name
     x = np.array([[float(c in ts) for c in cols] for ts in tags])
     return x + 1e-6, cols   # epsilon: cosine needs non-zero rows (two papers have no bucket)
 
@@ -166,8 +169,8 @@ def main():
         sim = e[paper] @ e[i]
         for r, j in enumerate(np.argsort(-sim)[:K_NEIGH], 1):
             q = p[paper].iloc[j]
-            nb.append({"thesis": p.title.iloc[i], "rank": r, "cosine": round(float(sim[j]), 3),
-                       "id": int(q.id), "citation": q.citation, "cluster": int(q.cluster)})
+            nb.append({"thesis": p.citation.iloc[i], "rank": r, "cosine": round(float(sim[j]), 3),
+                       "id": None if pd.isna(q.id) else int(q.id), "citation": q.citation, "cluster": int(q.cluster)})
     pd.DataFrame(nb).to_csv(LIT / "paper_map_neighbours.csv", index=False)
 
     with open(LIT / "paper_map_clusters.md", "w", encoding="utf-8") as f:
