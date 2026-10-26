@@ -1,7 +1,7 @@
 <script setup>
-// Headline numbers of the selected layout, compared with the current trees and with the mean random palette.
+// Headline numbers of the selected layout, compared with the current trees and with the mean city-rule layout (S1a).
 import { computed } from 'vue'
-import { state, scenario, randomMean, calibration, shownMetrics, LIVE } from '../store.js'
+import { state, scenario, cityMean, calibration, shownMetrics, LIVE } from '../store.js'
 
 const ROWS = [
   ['shade_summer_m2h', 'Summer shade', 'm²·h', 1],
@@ -17,7 +17,7 @@ const good = (v, sign) => (Math.abs(v) < 0.05 ? '' : v * sign > 0 ? 'good' : 'ba
 const rows = computed(() =>
   ROWS.map(([k, name, unit, sign]) => {
     const v = shownMetrics.value?.[k] ?? 0
-    return { k, name, unit, sign, v, vs0: pct(v, s0.value?.metrics[k]), vrnd: pct(v, randomMean.value?.[k]) }
+    return { k, name, unit, sign, v, vs0: pct(v, s0.value?.metrics[k]), vcity: pct(v, cityMean.value?.[k]) }
   }),
 )
 const mix = computed(() => {
@@ -35,13 +35,13 @@ const winterRange = computed(() => {
 
 <template>
   <table class="kpi">
-    <thead><tr><th></th><th>value</th><th>vs current</th><th>vs random</th></tr></thead>
+    <thead><tr><th></th><th>value</th><th>vs current</th><th title="Mean of the 10 city-rule layouts (2026 mix within the sizing rule)">vs city rule</th></tr></thead>
     <tbody>
       <tr v-for="r in rows" :key="r.name">
         <td>{{ r.name }}</td>
         <td class="num" :title="isLive ? `estimate: R² ${calibration[r.k].r2.toFixed(2)} on the saved layouts` : ''">{{ isLive ? '≈ ' : '' }}{{ Math.round(r.v).toLocaleString('en') }} <span class="u">{{ r.unit }}</span></td>
         <td class="num" :class="good(r.vs0, r.sign)">{{ fmt(r.vs0) }}</td>
-        <td class="num" :class="good(r.vrnd, r.sign)">{{ fmt(r.vrnd) }}</td>
+        <td class="num" :class="good(r.vcity, r.sign)">{{ fmt(r.vcity) }}</td>
       </tr>
     </tbody>
   </table>

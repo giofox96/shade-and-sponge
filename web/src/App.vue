@@ -51,6 +51,7 @@ watch(
         <h3>Layout</h3>
         <div class="btns">
           <button :class="{ on: state.scenarioId === 'S0_current' }" @click="state.scenarioId = 'S0_current'">Current trees</button>
+          <button :class="{ on: state.scenarioId === 'S1a_city_0' }" @click="state.scenarioId = 'S1a_city_0'">City rule</button>
           <button :class="{ on: state.scenarioId === 'S1_random_0' }" @click="state.scenarioId = 'S1_random_0'">Random palette</button>
           <button :class="{ on: state.scenarioId.startsWith('S4') }" @click="state.scenarioId = BALANCED">Optimised</button>
         </div>

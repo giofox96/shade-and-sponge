@@ -6,10 +6,11 @@ Browse the street-tree layouts of the tool (`shade_sponge/`) on a 3D map: priori
 
 ## Run
 ```bash
-python -m shade_sponge             # tool run (layouts + metrics), from the repo root
-python -m shade_sponge.web_export  # writes web/public/data/porta/
+python -m shade_sponge porta --size=exact --trunk=TERCERA             # tool run in the thesis configuration (from the repo root)
+python -m shade_sponge.web_export porta --size=exact --trunk=TERCERA  # writes web/public/data/porta/
 cd web && npm install && npm run dev
 ```
+The published data use the **thesis configuration** (since 26 Oct): the exact sidewalk sizing rule and species traits at equal trunk size (TERCERA), with the city rule (S1a, the 2026 mix) as the comparison column. Without the two options you get the default run (no sizing rule, traits from all trunk sizes). For the Barcelona shortlist add `--palette=barcelona` to both commands.
 `npm run build` writes a static site to `web/dist/` (relative paths, so it can be hosted anywhere).
 
 **Online:** https://giofox96.github.io/shade-and-sponge/ — `.github/workflows/pages.yml` rebuilds and publishes `web/dist` to the `gh-pages` branch whenever `web/` changes on `main` or `claude/web-ui`. Data credits are in the app's left panel (Data and sources).
