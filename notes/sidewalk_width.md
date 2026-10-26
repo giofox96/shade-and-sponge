@@ -157,3 +157,38 @@ User, 26 Oct: cross the data with OpenStreetMap for the sidewalks. `scripts/osm_
 - City screening: use proxy A for the size class of existing trees, labelled "approximate (OSM)".
 - Project areas: keep the 1:1000 map, which stays the reference.
 - New spots: use the OSM crossings and bus stops as exclusions with the 2011 guide's clearances, which removes part of the "upper bound" caveat. Not done yet.
+
+## OSMnx check: a width without a tree (26 Oct)
+
+User, 26 Oct: try OSMnx. `scripts/osmnx_street_width.py` → `databases/barcelona/osmnx_street_width_check.csv`.
+- Overpass is unreachable from the cloud, so OSMnx reads an OSM XML cut of Porta plus margin. The cut comes from the BBBike extract.
+- On a PC, `graph_from_polygon` works directly; `site.py` already uses OSMnx online for green areas.
+
+**Why:** proxy A (above) needs an existing tree. New planting spots need a width estimated from the street itself.
+
+**Method:**
+1. Take the nearest drivable street centreline (OSMnx graph).
+2. Cast a ray from the centreline through the point to the first OSM building outline. Call its length D.
+3. Width = D − lanes × 3.0 m / 2 − parking.
+
+Lanes are tagged on 90% of the 2,782 drivable edges in the cut. Parking is tagged on 1%, so whether a street has a parking lane is unknown. All three values (3.0 m per lane, the default lane counts, the parking width) are `ASSUMPTION`.
+
+| On 1,182 measured trees (77% of 1,545; the rest have no building hit on the ray) | Median error | Within 1 m | Size class agrees |
+|---|---|---|---|
+| C, no parking | +1.13 m | 41% | 66% |
+| C, 1.1 m (half a parking lane, a midpoint) | +0.03 m | 43% | 66% |
+| C, 2.2 m parking everywhere | −1.07 m | 31% | 56% |
+| Baseline: every tree "large" | — | — | 50% |
+
+**Reading:**
+- **OSMnx gives a usable width without a tree: 66% class agreement, against 50% for always guessing "large".**
+- It is weaker than proxy A (76%), which uses the tree itself. The main error is the unknown parking lane, worth ±1.1 m.
+- OSMnx also gives, in the same cut, the obstacles the spots need:
+  - 1,388 crossings and 125 bus stops;
+  - 1,574 sidewalk ways;
+  - 3,649 OSM tree nodes, which could cross-check the inventory.
+
+**Proposal:**
+- For city screening: proxy A for existing trees, proxy C for new spots. Both labelled "approximate (OSM)".
+- Use the OSMnx crossings and bus stops to drop spots too close to them, with the 2011 guide's clearances (next step).
+- The 1:1000 map stays the reference for project areas.

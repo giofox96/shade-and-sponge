@@ -1,0 +1,5 @@
+proxy,n,coverage,median_error_m,within_1m,class_agrees
+C_centreline_lanes_parking0.0,1182,0.765,1.135,0.41,0.658
+C_centreline_lanes_parking1.1,1182,0.765,0.035,0.427,0.663
+C_centreline_lanes_parking2.2,1182,0.765,-1.065,0.31,0.556
+baseline_all_large,1182,0.765,,,0.497

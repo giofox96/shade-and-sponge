@@ -110,7 +110,11 @@ From `databases/barcelona/site_screening_barris.csv` (inventory as screened on 8
 
 ### 6.5 Cap denominator: DECIDED (user, 26 Oct): street trees only
 
-The tool works on street trees and sidewalks, so the city-wide cap counts the open street-tree inventory. Zone trees (`arbrat-zona`) stay out. The thesis states that the plan's 15% is over a wider base (~201,600 trees incl. squares), so the street-only reading is a local interpretation (`ASSUMPTION`). The options were:
+The tool works on street trees and sidewalks, so the city-wide cap counts the open street-tree inventory. Zone trees (`arbrat-zona`) stay out. The thesis states that the plan's 15% is over a wider base (~201,600 trees incl. squares), so the street-only reading is a local interpretation (`ASSUMPTION`).
+
+**This is a simplification for developing the tool, not a claim about the plan** (user, 26 Oct). It keeps the cap on the same tree set the tool optimises (street trees on sidewalks). Before the final results, either switch to street + zone trees or report how much the cap changes with the wider base. It is listed in `notes/methodology.md` §1 (simplifications).
+
+The options were:
 
 The **cap denominator**. The plan's 15% is over about 201,600 trees of the urban fabric, including squares (`notes/tree_master_plan.md`). The open street-tree inventory has 140,404. The city LP needed one of the two:
 - street trees only: simpler, and already in the repo;

@@ -13,6 +13,9 @@ Citations marked *(to add)* are standard references not yet in `papers/`/Zotero:
 | Unit of decision | Each plane-tree position (replacement), optionally new positions on plantable sidewalk cells | Matches the municipal replacement process |
 | Season / time | Heat: hottest summer week from the EPW, design hours 12–17 h. Runoff: design storms + observed autumn storms | Heat peaks in summer; intense rain mainly in autumn (Resilience Atlas) |
 
+**Simplifications for developing the tool** (to revisit before the final results):
+- **15% cap on street trees only** (user, 26 Oct). The plan counts a wider base (~201,600 trees including squares); the tool caps over the street-tree inventory, the same set it optimises (`notes/citywide_plan.md` §6.5).
+
 ## 2. Data (details: `databases/data_inventory_barcelona.md`)
 | Layer | Source | Use |
 |---|---|---|
