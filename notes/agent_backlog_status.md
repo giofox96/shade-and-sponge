@@ -53,7 +53,7 @@ Revised task: an exploratory bracket on the v1 outputs. Do not touch scripts/run
 3. Sweep P from about 1 to 80 mm and mark the PDISBA depths: T1/T2/T5/T10 at 20 and 60 min, as design intensity × d from pdisba_idf_city.csv. Show the saturation depth: 1.75 × median LAI is 3.5 mm (Celtis, 2.0) to 5.1 mm (Jacaranda, 2.91); per tree, LAI 0.86–7.82 gives 1.5–13.7 mm.
 4. At each P, compare the spread between palettes with the spread from:
    - s: 0.86 / IQR about 1.45–1.92 / 2.2;
-   - the LAI proxy: palette medians 1.9–2.9, against Freiburg TLS LAI 2.6–4.9;
+   - the LAI proxy: palette medians 1.9–2.9, against Freiburg LAI-2200C LAI 1.4–4.9 per tree (corrected 26 Oct; not TLS);
    - crown size: young 3 m vs the on-site median.
    State whether the palette ranking changes.
 5. Use 0.86 vs 1.75 as the bracket for 'surface storage only' vs 'effective storage incl. event evaporation'. Do not add a separate Gash E/R term on top of s = 1.75.
