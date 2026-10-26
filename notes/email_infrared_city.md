@@ -1,49 +1,36 @@
-# Email to Angelos Chronis: Infrared City access (draft, 26 Oct 2026)
+# Email to Angelos Chronis: Infrared City access request (v2, 26 Oct 2026)
 
-Sources for the numbers below, all vendor-stated and read on 26 Oct 2026 (not independently verified): pricing page https://infrared.city/pricing; SDK 1.0 docs https://infrared.city/docs/sdk/1.0/; drift report https://github.com/Infrared-city/infrared-skills/issues/148 (it says the SDK docs and the SDK differ in places, so every limit is to be confirmed with the company).
+Sources for the numbers below, all vendor-stated and read on 26 Oct 2026 (not independently verified): pricing page https://infrared.city/pricing; SDK 1.0 docs https://infrared.city/docs/sdk/1.0/; drift report https://github.com/Infrared-city/infrared-skills/issues/148 (it says the SDK docs and the SDK differ in places, so every limit is to be confirmed with the company). The pricing page says 10 tokens per standard analysis; the SDK docs say one billed job per 512 m tile. The estimates below are the author's: ~6 tiles for Porta, and the scenario and sensitivity counts are assumptions to check with `preview_area`.
 
-**Subject:** Infrared City API access for my thesis (Porta, Barcelona): what I need and expected usage
+**Subject:** Request for Infrared City research access: tree-species selection for urban heat (MaCAD thesis, Barcelona)
 
 Dear Angelos,
 
-Thank you for offering to forward my request to Infrared City. Below is what I would use it for and how much I expect to consume, so they can judge it quickly.
+As you suggested, here is what I would do with Infrared City, so you can forward it to the team. I am asking for free access for my thesis, until the final delivery on 18 Dec 2026.
 
-**Thesis in one line.** A computational method that proposes which tree species replace the plane trees due for replacement, and where, in Porta (Nou Barris, Barcelona, 0.84 km²), scored on two outcomes: mean UTCI over 12–17 h on a hot design day, and pluvial runoff. The tool is written in Python; the heat part is currently a fast shade proxy, and Ladybug is my cross-check.
+**The problem.** Barcelona's tree master plan decides how many trees of each species the city plants, but not which species goes where, and it quantifies neither heat nor runoff. In Porta (Nou Barris, 0.84 km²), planes are due for replacement, so the choice of species is real and imminent.
+
+**What I am building.** A Python tool that, for a site, proposes which species replace which tree, and where. It respects the city's own rules as hard constraints (such as the cap of 15% per species). The proposals are scored on two outcomes: outdoor thermal comfort in summer (mean UTCI, 12–17 h, hot design day) and stormwater runoff. The heat part inside the optimiser is a fast shade proxy that I wrote myself.
 
 **What I would use Infrared City for**
-1. **Validate my heat proxy.** Compare UTCI from Infrared City, Ladybug (my Tier 1) and my proxy on the same street, for the baseline and for one replacement. This is the first real UTCI number I need for the 10 Nov session.
-2. **Score the final layouts** at district scale: baseline, the city's own replacement rule, and the optimised layouts (about 5 scenarios).
-3. **Training data for a surrogate** (optional, only if the budget allows): a few hundred runs on one tile, so the optimiser can search species and positions without calling the API thousands of times.
-4. **Transfer test** in a second city (Florence), and Sant Antoni (Barcelona) as a contrast site, with 2 scenarios each.
+1. **Reference for the heat results.** The proxy is fast but simplified, so I need an independent, accepted engine to score the baseline and the final layouts. Without it, my UTCI numbers are only as good as my own model.
+2. **Validation of the proxy.** I compare Infrared City, my proxy and Ladybug on the same street and report the differences in the thesis.
+3. **A transfer test.** The same workflow in a second city (Florence) and in a contrast site in Barcelona, to show that the method is not tied to one site.
 
-**Why Infrared City rather than only Ladybug.** In the literature I use, Ladybug costs 20–25 min per layout for 42 trees (Shaamala et al. 2025), and 10–20 s up to 2–3 h per 200 evaluations on a small site (Peng et al. 2026). A UTCI run in seconds is what makes layout comparison at district scale feasible within my deadline (final delivery 18 Dec).
+**Why it matters for the thesis.** The thesis is judged on a computational workflow and its validation. A UTCI run that takes seconds, instead of the 20–25 minutes per layout reported for Ladybug in the literature (Shaamala et al. 2025), makes it possible to compare layouts at district scale in the time I have. Without it I can only compare a handful of layouts, on one street.
 
-**Expected consumption (my estimate, UTCI only, no wind analysis)**
-I read in the SDK docs that a run is billed per 512 m tile, while the pricing page lists a standard analysis at 10 tokens, so I give both counts in jobs and let you or the company convert them. Porta needs about 6 tiles; a window of 12–17 h on one hot day is one run.
+**How I would use it.** Through the Python SDK (and the Grasshopper plugin, if it covers the same analysis). Trees would go in as points with genus, height, crown diameter and canopy transmissivity (set per species from leaf area index, with a leaf-off value).
 
-| Phase | Runs | Jobs (approx.) |
-|---|---|---|
-| Validation on one street, 3 scenarios × 3 weather files × a few canopy-transmissivity values | ~20 | 20 |
-| Porta, 5 scenarios × 6 tiles × 3 weather sensitivities | 90 | 90 |
-| Sant Antoni + Florence transfer (2 scenarios each) | ~18 | 18 |
-| Margin for repeats (the docs say repeated runs are billed again) | | ~30 |
-| **Core total** | | **~160** |
-| Surrogate training set, one tile, ~300 layouts (optional) | 300 | 300 |
-| Final check of the best ~10 layouts over 6 tiles | 60 | 60 |
-| **Total with surrogate** | | **~520** |
+**Expected usage.** About 160 runs for the core work (roughly 1,600 tokens by my estimate, 10 tokens per run). If the budget allows, up to about 500 runs in total (roughly 5,000 tokens), to train a surrogate for the optimiser. I will check the cost with `preview_area` before every run, and I will not run anything larger than I need.
 
-At 10 tokens per job that is **about 1,600 tokens for the core and about 5,200 with the surrogate**. I will use `preview_area` before every run so nothing is billed unexpectedly. If the budget is smaller, I do the core only and train the surrogate on Ladybug instead.
+**Three questions**, because they change how I model species:
+1. Is a tree only a shade/radiation object, or is evapotranspiration modelled? Is genus plus transmissivity the right way to carry species differences?
+2. Is there any limit, or any reason not to submit a few hundred runs on the same tile?
+3. Is there a published or internal validation against ENVI-met or Ladybug that I can cite?
 
-**What I am asking**
-- Free or academic access for the thesis period (until 18 Dec), sized as above; or, if that is not possible, the Free tier plus a top-up of about 4,000 tokens.
-- API key for the Python SDK; I would also use the Grasshopper/Rhino plugin if it covers the same analysis.
+**Timing.** I would be very grateful for an answer before my tutor session on 10 Nov, where I would like to show a first Infrared City result.
 
-**Three technical questions** (they decide how I model species)
-1. **Trees.** The docs say a tree is a point with genus, height, crown diameter and a `canopy_transmissivity` (request-wide, with a per-tree override and a leaf-off value). Is that the right way to carry species-level differences? I plan to set transmissivity per species from LAI (τ = exp(−k·LAI)) and from the leaf-on calendar. Is evapotranspiration cooling modelled, or is the tree only a shade/radiation object?
-2. **Limits.** Is there a rate limit or a cost reason not to submit a few hundred small runs on the same tile? Does a run with identical geometry and a different tree set re-bill in full?
-3. **Validation.** Is there a published or internal validation of the UTCI/MRT output against ENVI-met or Ladybug, and which version of the model does the API currently run? I would cite it in the thesis.
+In return, I will credit Infrared City in the thesis, and I can share the Barcelona results and the validation against Ladybug with the team.
 
-I would be glad to share my results with the company afterwards (a Barcelona case with validation against Ladybug). I would ideally like an answer before the 10 Nov session, so I can show a first Infrared City number there.
-
-Thank you very much,
+Thank you,
 [your name]
