@@ -35,3 +35,6 @@ seminars/
 
 # Weather files (licence unconfirmed, re-download via scripts/bcn_epw_summary.py docstring)
 databases/*/weather/
+
+# Thesis build output
+thesis/build/
