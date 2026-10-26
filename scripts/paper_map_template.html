@@ -1,0 +1,135 @@
+<title>Literature Embedding Map</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;600&family=JetBrains+Mono:wght@400&display=swap">
+<style>
+/* Layout: a map-first tool. Controls in one row above a full-width plot; the thesis's nearest papers and the cluster key below. */
+:root {
+  --bg: #f6f7f4; --panel: #ffffff; --fg: #1c2420; --muted: #5d6a63; --line: #dde3de; --accent: #2f6b4f;
+  --thesis: #c2410c;
+  --c0: #2f6b4f; --c1: #3b6ea8; --c2: #b7791f; --c3: #8a4fa3; --c4: #c0504d; --c5: #2a8a8a; --c6: #7a6a2f; --c7: #a8487a; --c8: #4f5d75; --c9: #6b8f23;
+  --sans: "Instrument Sans", "Segoe UI", system-ui, sans-serif; --mono: "JetBrains Mono", ui-monospace, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #121815; --panel: #19211d; --fg: #e4ebe6; --muted: #98a69e; --line: #2b3631; --accent: #6fbf95; --thesis: #fb923c;
+  --c0: #6fbf95; --c1: #7aa7e0; --c2: #e0b04f; --c3: #c08ad8; --c4: #ec8a86; --c5: #5cc4c4; --c6: #c9b66a; --c7: #e08bb8; --c8: #9aa8c4; --c9: #a9cf5f;
+  color-scheme: dark } }
+:root[data-theme="dark"] {
+  --bg: #121815; --panel: #19211d; --fg: #e4ebe6; --muted: #98a69e; --line: #2b3631; --accent: #6fbf95; --thesis: #fb923c;
+  --c0: #6fbf95; --c1: #7aa7e0; --c2: #e0b04f; --c3: #c08ad8; --c4: #ec8a86; --c5: #5cc4c4; --c6: #c9b66a; --c7: #e08bb8; --c8: #9aa8c4; --c9: #a9cf5f;
+  color-scheme: dark }
+body { background: var(--bg); color: var(--fg); font-family: var(--sans); font-size: 15px; line-height: 1.5; }
+main { max-width: 1200px; margin: 0 auto; padding-block: 24px 48px;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px));
+  display: grid; gap: 20px; }
+h1 { font-size: 1.6rem; margin: 0; text-wrap: balance; letter-spacing: -0.01em; }
+h2 { font-size: .8rem; text-transform: uppercase; letter-spacing: .08em; color: var(--muted); margin: 0 0 8px; }
+.lede { color: var(--muted); max-width: 70ch; margin: 4px 0 0; }
+.controls { display: flex; flex-wrap: wrap; gap: 16px; align-items: end; }
+.seg { display: inline-flex; border: 1px solid var(--line); border-radius: 6px; overflow: hidden; background: var(--panel); }
+.seg button { font: inherit; font-size: .85rem; border: 0; background: none; color: var(--fg); padding: 6px 12px; cursor: pointer; }
+.seg button[aria-pressed="true"] { background: var(--accent); color: var(--bg); }
+.seg button:focus-visible, input:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+label.ctl { display: grid; gap: 4px; font-size: .75rem; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); }
+input[type=search] { font: inherit; font-size: .9rem; padding: 6px 10px; border: 1px solid var(--line); border-radius: 6px; background: var(--panel); color: var(--fg); width: 16rem; max-width: 100%; }
+#plot { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; height: min(70vh, 640px); min-height: 380px; }
+.note { font-family: var(--mono); font-size: .78rem; color: var(--muted); }
+.below { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
+.below > section { min-width: 0; }
+@media (max-width: 760px) { .below { grid-template-columns: 1fr; } }
+ol, ul { margin: 0; padding-left: 1.2em; }
+li { margin: 2px 0; }
+.cos { font-family: var(--mono); font-size: .8rem; color: var(--muted); font-variant-numeric: tabular-nums; }
+.sw { display: inline-block; width: .7em; height: .7em; border-radius: 50%; margin-right: 6px; vertical-align: baseline; }
+.key li { list-style: none; margin-left: -1.2em; }
+</style>
+
+<main>
+  <header>
+    <h1>Literature Embedding Map</h1>
+    <p class="lede">Each point is a paper from the thesis literature matrix. Points that sit close together have similar titles and abstracts (SPECTER2 embedding, UMAP projection). The star is the thesis. Switch to <em>tags</em> to see the same papers placed by the matrix's bucket codes instead, and compare the two maps.</p>
+  </header>
+  <div class="controls">
+    <label class="ctl">Placed by<span class="seg" id="rep"><button data-v="text" aria-pressed="true">Text</button><button data-v="tags" aria-pressed="false">Tags</button></span></label>
+    <label class="ctl">View<span class="seg" id="dim"><button data-v="2" aria-pressed="true">2D</button><button data-v="3" aria-pressed="false">3D</button></span></label>
+    <label class="ctl">Colour by<span class="seg" id="col"><button data-v="cl" aria-pressed="true">Cluster</button><button data-v="bucket" aria-pressed="false">Bucket</button></span></label>
+    <label class="ctl" for="q">Find<input type="search" id="q" placeholder="author, word in title…"></label>
+  </div>
+  <div id="plot" role="img" aria-label="Scatter plot of papers in embedding space"></div>
+  <p class="note" id="meta"></p>
+  <div class="below">
+    <section><h2>Nearest papers to the thesis (text space)</h2><ol id="near"></ol></section>
+    <section><h2>Clusters</h2><ul class="key" id="key"></ul></section>
+  </div>
+</main>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/plotly.js/2.34.0/plotly.min.js"></script>
+<script>
+const D = /*DATA*/null;
+const css = n => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+const state = { rep: "text", dim: "2", col: "cl", q: "" };
+const pal = () => Array.from({ length: 10 }, (_, i) => css("--c" + i));
+const label = c => D.labels[c] || ("Cluster " + c);
+
+function groups() {
+  const key = state.col === "cl" ? (p => p.kind === "thesis" ? null : p.cl) : (p => p.kind === "thesis" ? null : p.bucket.split("/")[0]);
+  const g = new Map();
+  for (const p of D.pts) { const k = key(p); if (k === null) continue; if (!g.has(k)) g.set(k, []); g.get(k).push(p); }
+  return [...g.entries()].sort((a, b) => String(a[0]).localeCompare(String(b[0]), undefined, { numeric: true }));
+}
+
+function coords(ps) {
+  const r = state.rep, d = state.dim;
+  return d === "2" ? { x: ps.map(p => p[r + "_x2"]), y: ps.map(p => p[r + "_y2"]) }
+                   : { x: ps.map(p => p[r + "_x3"]), y: ps.map(p => p[r + "_y3"]), z: ps.map(p => p[r + "_z3"]) };
+}
+
+function draw() {
+  const colors = pal(), fg = css("--fg"), muted = css("--muted"), line = css("--line"), q = state.q.toLowerCase();
+  const type = state.dim === "2" ? "scatter" : "scatter3d";
+  const hit = p => !q || (p.cit + " " + p.title).toLowerCase().includes(q);
+  const traces = groups().map(([name, ps], i) => ({
+    ...coords(ps), type, mode: "markers", name: state.col === "cl" ? label(name) : String(name),
+    text: ps.map(p => `<b>${p.cit}</b><br>${p.title.slice(0, 110)}<br>bucket ${p.bucket} · ${p.src}`),
+    hovertemplate: "%{text}<extra></extra>",
+    marker: { size: state.dim === "2" ? 9 : 4, color: colors[i % 10],
+              opacity: ps.map(p => hit(p) ? 0.9 : 0.12),
+              line: { width: ps.map(p => p.kind === "core" ? 2 : 0), color: fg } }
+  }));
+  const th = D.pts.filter(p => p.kind === "thesis");
+  if (th.length) traces.push({ ...coords(th), type, mode: "markers+text", name: "Thesis",
+    text: th.map(p => p.title), textposition: "top center", textfont: { color: css("--thesis"), size: 12 },
+    hovertemplate: "%{text}<extra></extra>",
+    marker: { size: state.dim === "2" ? 18 : 8, symbol: state.dim === "2" ? "star" : "diamond", color: css("--thesis"), line: { width: 1, color: fg } } });
+  const ax = { showgrid: false, zeroline: false, showticklabels: false, title: "" };
+  const ax3 = { ...ax, showbackground: false, showspikes: false, color: muted };
+  Plotly.react("plot", traces, {
+    paper_bgcolor: "rgba(0,0,0,0)", plot_bgcolor: "rgba(0,0,0,0)", font: { family: css("--sans"), color: fg },
+    margin: { l: 8, r: 8, t: 8, b: 8 }, xaxis: ax, yaxis: ax, scene: { xaxis: ax3, yaxis: ax3, zaxis: ax3 },
+    legend: { orientation: "h", y: -0.02, font: { size: 11 } }, hoverlabel: { bgcolor: css("--panel"), bordercolor: line, font: { color: fg } }
+  }, { responsive: true, displaylogo: false });
+}
+
+function side() {
+  const n = D.pts.filter(p => p.kind !== "thesis");
+  const src = n.reduce((a, p) => (a[p.src] = (a[p.src] || 0) + 1, a), {});
+  document.getElementById("meta").textContent =
+    `${n.length} papers (${src.abstract || 0} placed from title + abstract, ${src.matrix || 0} from the matrix's method and results columns). ` +
+    `Text vs tags, mean 10-nearest-neighbour overlap: ${D.overlap} (1 = same neighbours). Axes have no units: only distances mean something.`;
+  document.getElementById("near").innerHTML = (D.near || []).map(r =>
+    `<li>${r.citation} <span class="cos">cos ${r.cosine.toFixed(3)}</span></li>`).join("");
+  const counts = n.reduce((a, p) => (a[p.cl] = (a[p.cl] || 0) + 1, a), {}), colors = pal();
+  document.getElementById("key").innerHTML = Object.keys(counts).sort((a, b) => a - b).map((c, i) =>
+    `<li><span class="sw" style="background:${colors[i % 10]}"></span>${label(c)} <span class="cos">${counts[c]}</span></li>`).join("");
+}
+
+for (const id of ["rep", "dim", "col"]) document.getElementById(id).addEventListener("click", e => {
+  const b = e.target.closest("button"); if (!b) return;
+  state[id] = b.dataset.v;
+  for (const x of e.currentTarget.querySelectorAll("button")) x.setAttribute("aria-pressed", x === b);
+  draw();
+});
+document.getElementById("q").addEventListener("input", e => { state.q = e.target.value; draw(); });
+matchMedia("(prefers-color-scheme: dark)").addEventListener("change", () => { draw(); side(); });
+new MutationObserver(() => { draw(); side(); }).observe(document.documentElement, { attributes: true, attributeFilter: ["data-theme"] });
+side(); draw();
+</script>
