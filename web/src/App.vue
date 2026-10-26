@@ -6,6 +6,7 @@ import PriorityTriangle from './components/PriorityTriangle.vue'
 import TradeoffChart from './components/TradeoffChart.vue'
 import KpiPanel from './components/KpiPanel.vue'
 import TreeInspector from './components/TreeInspector.vue'
+import BarriPicker from './components/BarriPicker.vue'
 
 onMounted(() => load())
 
@@ -37,7 +38,7 @@ watch(
   <div v-else class="app">
     <header>
       <b>Shade &amp; Sponge</b>
-      <span class="muted">Street-tree replacement in {{ state.meta.site.name }}, Barcelona · 832 plane-tree positions</span>
+      <span class="muted">Street-tree replacement in {{ state.meta.site.name }}, Barcelona · {{ state.trees.positions.tree_id.length }} plane-tree positions</span>
       <span class="spacer"></span>
       <span class="seg" role="group" aria-label="Species palette">
         <button :class="{ on: state.site === 'porta' }" @click="switchSite('porta')">City palette (7)</button>
@@ -47,6 +48,10 @@ watch(
     </header>
 
     <aside class="left">
+      <section>
+        <h3>Neighbourhood</h3>
+        <BarriPicker />
+      </section>
       <section>
         <h3>Layout</h3>
         <div class="btns">
@@ -115,7 +120,7 @@ watch(
         <h3>Data and sources</h3>
         Street trees, neighbourhoods: Ajuntament de Barcelona, Open Data BCN (CC BY 4.0) ·
         LiDAR crowns, terrain, building heights: ICGC 2021–2022 (CC BY 4.0) ·
-        Building footprints and basemap: © OpenStreetMap contributors (ODbL), OpenFreeMap ·
+        Building footprints, neighbourhood outlines (provisional) and basemap: © OpenStreetMap contributors (ODbL), OpenFreeMap ·
         Flood-hazard index: Barcelona Resilience Atlas, Barcelona Regional (shown as a derived threshold; licence not stated) ·
         Design storms: PDISBA rainfall study · Storm months: Esbrí, Rigo and Llasat 2026 ·
         Interception calibration: Anys and Weiler 2024 data (CC BY-NC 4.0).

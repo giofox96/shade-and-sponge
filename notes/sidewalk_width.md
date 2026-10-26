@@ -127,3 +127,33 @@ So `strip_width_m` is kept as information only. `size_class` stays "check" for t
 **Still open.**
 - **The orthophoto check (±0.3 m).** It needs the ICGC WMS, which is reachable only from the user's PC.
 - **The two corner cases.** A rule that skips the ray at corners (for example, the façade foot within 2 m of a façade vertex) is a possible refinement.
+
+## OSM check: can OpenStreetMap give widths outside Porta? (26 Oct)
+
+User, 26 Oct: cross the data with OpenStreetMap for the sidewalks. `scripts/osm_sidewalks.py` → `databases/barcelona/osm_sidewalk_check.csv`. Source: BBBike extract "Barcelona" (ODbL), downloaded 26 Oct. Overpass and Geofabrik were unreachable from the cloud.
+
+**What OSM has in Barcelona:**
+- 1,663 km of sidewalk lines (`footway=sidewalk`), but only 21 km of them carry a width tag.
+- No street way in the extract carries a sidewalk width tag (`sidewalk:*:width`): 0 of 85,819 (osmium count, 26 Oct).
+- The extract (wider than the municipality) has 61,658 crossing nodes and 9,092 bus stops. These are the obstacles the planting spots do not model yet (`scripts/porta_planting_spots.py`).
+
+**Test on Porta's 1,545 façade-bounded measured trees (flag ok):**
+
+| Proxy | Coverage | Median error | Within 1 m | Size class agrees |
+|---|---|---|---|---|
+| A: tree → nearest OSM building + 0.69 m | 100% | −0.13 m | 65% | **76%** |
+| B: 2 × (OSM sidewalk line → building) | 90% | +1.53 m | 24% | 59% |
+| Baseline: every tree "large" | — | — | — | 56% |
+
+**Reading:**
+- **The OSM sidewalk lines do not give the width.** They are not drawn at the centre of the sidewalk, so B is barely above the baseline.
+- **The tree's distance to the building does (proxy A).** It gets the class right in about 3 trees out of 4.
+  - Most of A's errors are between neighbouring classes: 127 large read as medium, 35 small read as none.
+  - Its mean absolute error (3.15 m) comes from a heavy tail: the median absolute error is 0.51 m, but 14% of trees are off by more than 5 m.
+  - It needs a tree position, so it works for **existing trees (replacement)**, not for new spots.
+- **Caveat:** the test covers only the façade-bounded trees. Medians and boulevards ("check") are where every method struggles.
+
+**Proposal for the city scale (§6.2 step 4 of `notes/citywide_plan.md`):**
+- City screening: use proxy A for the size class of existing trees, labelled "approximate (OSM)".
+- Project areas: keep the 1:1000 map, which stays the reference.
+- New spots: use the OSM crossings and bus stops as exclusions with the 2011 guide's clearances, which removes part of the "upper bound" caveat. Not done yet.

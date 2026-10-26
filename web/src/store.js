@@ -9,11 +9,12 @@ export const LIVE = 'live'
 
 export const state = reactive({
   site: 'porta',
+  barri: 'Porta', // neighbourhood picked in the picker (only barris with exported data change `site`)
   meta: null,
   trees: null,
   pot: null,
   scenarioId: BALANCED,
-  overlay: 'sun_winter',
+  overlay: '',   // no layer at start: the ochre sun ramp would hide the ochre (deciduous) crowns
   month: 7,
   selected: null, // index into positions
   error: null,

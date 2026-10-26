@@ -108,8 +108,10 @@ From `databases/barcelona/site_screening_barris.csv` (inventory as screened on 8
 - **Sidewalk widths** (step 4) decide the schedule. Without option (a), the city layer will have "size class unknown" in most barris by December.
 - **Runoff outside Porta is indicative:** the interception calibration and the Δmin were set on Porta (§5).
 
-### 6.5 Open choice for the user
+### 6.5 Cap denominator: DECIDED (user, 26 Oct): street trees only
 
-The **cap denominator**. The plan's 15% is over about 201,600 trees of the urban fabric, including squares (`notes/tree_master_plan.md`). The open street-tree inventory has 140,404. The city LP needs one of the two:
+The tool works on street trees and sidewalks, so the city-wide cap counts the open street-tree inventory. Zone trees (`arbrat-zona`) stay out. The thesis states that the plan's 15% is over a wider base (~201,600 trees incl. squares), so the street-only reading is a local interpretation (`ASSUMPTION`). The options were:
+
+The **cap denominator**. The plan's 15% is over about 201,600 trees of the urban fabric, including squares (`notes/tree_master_plan.md`). The open street-tree inventory has 140,404. The city LP needed one of the two:
 - street trees only: simpler, and already in the repo;
 - street + zone trees (`arbrat-zona`): closer to the plan's wording.

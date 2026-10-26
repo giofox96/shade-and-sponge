@@ -76,6 +76,9 @@ select, input[type='range'] { width: 100%; }
 @media (max-width: 900px) {
   .app { grid-template-columns: 1fr; grid-template-rows: auto 55vh auto auto; height: auto; }
   header { flex-wrap: wrap; padding: 8px 16px; }
+  main { grid-row: 2; }   /* map right under the header on phones */
+  aside.left { grid-row: 3; }
+  aside.right { grid-row: 4; }
   aside.left, aside.right { border: 0; }
 }
 .sources { line-height: 1.5; }

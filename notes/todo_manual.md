@@ -1,6 +1,15 @@
 # Manual to-do (things only you can do)
 
-*8 Oct 2026, updated 24 Oct. Tick items off here, or tell me and I'll update the file. Where a file should go, it's named in each item.*
+*8 Oct 2026, updated 26 Oct. Tick items off here, or tell me and I'll update the file. Where a file should go, it's named in each item.*
+
+## New since 25 Oct: city-wide, OSM, web app (short items, in order)
+1. [ ] **Merge the branch into `main`** (`ccr-1c37970a-dgq09x`; PRs and merges are yours). This puts the new look, the neighbourhood picker and the tool options online.
+2. [ ] **On your PC, one regression run** (conda env): `python -m shade_sponge porta --size=exact --trunk=TERCERA`. Its summary must equal `databases/barcelona/tool_v0_summary_sizeexact_trunkTERCERA.csv`, since the core changed (scenarios, area, priority) and this cannot run in the cloud. Then try one project area: draw a polygon in QGIS or geojson.io, save it as `exchange/from_gh/area_test.geojson`, and run `python -m shade_sponge porta --size=exact --trunk=TERCERA --scenario=RA --area=exchange/from_gh/area_test.geojson`.
+3. [ ] **Official neighbourhood outlines:** `python scripts/make_barris_web.py` on your PC. It finds `databases/barcelona/raw/BarcelonaCiutat_Barris.csv` and replaces the provisional OSM outlines in `web/public/data/barris.geojson` (Open Data BCN blocks the cloud with a 403). Commit the file.
+4. [ ] **Retry the 652 MB 1:1000 GeoPackage once** (`notes/sidewalk_width.md`). This is the key to sidewalk widths for the whole city (`notes/citywide_plan.md` §6.2 step 4). OSM gets the size class right for only ~3 trees in 4 (`notes/sidewalk_width.md`, "OSM check").
+5. [ ] **Ladybug: use EPW hours 11–16.** The decided window is 12–17 h local clock (CEST), and the EPW is in standard time (`notes/decisions/heat_objective.md`).
+6. [ ] **One older street-tree inventory snapshot** (Open Data BCN `arbrat-viari`, a version from 2024 or 2025, if the portal keeps old versions). Save it as `databases/barcelona/raw/arbrat_viari_<date>.csv`. It validates the replacement-priority proxy: trees removed since then should score higher (`shade_sponge/health.py`). Blocked from the cloud.
+7. [ ] Optional: `pip install osmium` in the conda env, only if you want to re-run `scripts/osm_sidewalks.py` locally.
 
 ## Fast track to the 10 Nov tutor session (only you can do these; in order)
 1. [ ] **Watch for the Parcs i Jardins reply** (sent 24 Oct). Forward it to me as soon as it arrives: a current per-street list would replace S1.

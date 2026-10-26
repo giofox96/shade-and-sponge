@@ -1,0 +1,4 @@
+proxy,n,coverage,median_error_m,mae_m,within_1m,class_agrees
+A_tree_to_building,1545,1.0,-0.128,3.155,0.649,0.757
+B_sidewalk_line_x2,1394,0.902,1.527,4.515,0.237,0.595
+baseline_all_large,1545,1.0,,,,0.557
