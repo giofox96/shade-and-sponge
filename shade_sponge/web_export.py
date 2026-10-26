@@ -1,5 +1,6 @@
-"""Export one site for the web app: python -m shade_sponge.web_export [site] [--palette=barcelona]
-(run python -m shade_sponge with the same options first; the barcelona palette goes to web/public/data/<site>-barcelona/)
+"""Export one site for the web app: python -m shade_sponge.web_export [site] [--palette=barcelona] [--size=exact|at_most]
+[--trunk=CLASS] (run python -m shade_sponge with the same options first; the barcelona palette goes to
+web/public/data/<site>-barcelona/). The published app uses the thesis configuration: --size=exact --trunk=TERCERA.
 Writes web/public/data/<site>/: meta.json (palette, scenarios + metrics, sensitivity, overlays), trees.json (positions,
 kept trees, layouts), potentials.json (per-position potentials + fit, for live optimisation), buildings.geojson,
 overlay PNGs. Coordinates in WGS84; heights in m above local ground (the web map is flat)."""
@@ -21,8 +22,11 @@ PLANE = "Platanus × acerifolia"
 args = [a for a in sys.argv[1:] if not a.startswith("--")]
 name = args[0] if args else "porta"
 kind = "barcelona" if "--palette=barcelona" in sys.argv else "city"
-tag = "" if kind == "city" else "_barcelona"
-out = ROOT / "web/public/data" / (name + tag.replace("_", "-"))
+opt = dict(a[2:].split("=") for a in sys.argv[1:] if a.startswith("--") and "=" in a)
+size_rule, trunk = opt.get("size"), opt.get("trunk")
+ptag = "" if kind == "city" else "_barcelona"
+tag = ptag + (f"_size{size_rule}" if size_rule else "") + (f"_trunk{trunk}" if trunk else "")   # as __main__
+out = ROOT / "web/public/data" / (name + ptag.replace("_", "-"))
 out.mkdir(parents=True, exist_ok=True)
 site = load_site(name)
 o = json.load(open(EX / "site_origin.json"))
@@ -31,7 +35,7 @@ day = sorted(glob.glob(str(EX / f"to_gh/positions_tool_v0{tag}_2*.csv")))[-1][-1
 P = pd.read_csv(EX / f"to_gh/positions_tool_v0{tag}_{day}.csv")
 L = pd.read_csv(EX / f"to_gh/layouts_tool_v0{tag}_{day}.csv")
 S = pd.read_csv(DB / f"tool_v0_summary{tag}.csv")
-pal = layout.palette(site, kind)
+pal = layout.palette(site, kind, trunk)
 pos = site.trees[site.trees.is_plane].reset_index(drop=True)
 assert list(pos.tree_id) == list(P.tree_id)
 r6 = lambda a: np.round(np.asarray(a, float), 6).tolist()
@@ -48,9 +52,11 @@ for i, s in enumerate(sp):
         color = COLORS[i] if i < len(COLORS) else "#8a8a86"
     else:
         color = CLASS_COLORS[habit_class(phen.loc[s, "leaf_habit"])][size_class(float(lid.loc[s, "crown_diam_med"]))]
+    tr = (row.crown_diam_m, row.height_m, row.crown_base_m, row.lai) if row is not None else \
+        tuple(lid.loc[s, k] for k in ("crown_diam_med", "height_med", "crown_base_med", "lai_proxy_med"))   # plane: display only
     palette.append(dict(species=s, short=s.split()[0], color=color,
-                        crown_diam_m=float(lid.loc[s, "crown_diam_med"]), height_m=float(lid.loc[s, "height_med"]),
-                        crown_base_m=float(lid.loc[s, "crown_base_med"]), lai=float(lid.loc[s, "lai_proxy_med"]),
+                        crown_diam_m=float(tr[0]), height_m=float(tr[1]), crown_base_m=float(tr[2]), lai=float(tr[3]),
+                        trunk_class=row.trunk_class if row is not None else None,
                         cap=int(row.cap) if row is not None else None, in_palette=row is not None,
                         leaf_habit=phen.loc[s, "leaf_habit"], leaf=[float(phen.loc[s, f"m{m:02d}"]) for m in range(1, 13)],
                         leaf_basis=phen.loc[s, "months_basis"], source=phen.loc[s, "source"]))
@@ -62,7 +68,7 @@ scen, layouts = [], {}
 for _, r in S.iterrows():
     sc = r.scenario
     w = [float(x) for x in sc[4:].replace("s", "").replace("w", "").replace("r", "").split("_")] if sc.startswith("S4") else None
-    scen.append(dict(id=sc, group=sc[:2], weights=w, pareto=bool(r.pareto), in_layouts=sc in set(L.scenario),
+    scen.append(dict(id=sc, group="S1a" if sc.startswith("S1a") else sc[:2], weights=w, pareto=bool(r.pareto), in_layouts=sc in set(L.scenario),
                      metrics={m: round(float(r[m]), 1) for m in metrics},
                      counts={s: int(r[s]) for s in pal.species if not pd.isna(r[s])}))
 for sc, d in L.groupby("scenario"):
@@ -89,7 +95,7 @@ json.dump(trees, open(out / "trees.json", "w"), separators=(",", ":"))
 g = [layout.slug(s) for s in pal.species]
 kept_n = site.trees[~site.trees.is_plane].sp.value_counts().reindex(pal.species).fillna(0).astype(int)   # as layout.palette()
 pot = dict(species=list(pal.species), cap=pal.cap.tolist(), n_total=len(site.trees), kept=kept_n.tolist(),
-           max_share=layout.MAX_SHARE, fit=layout.fits(site, pos, pal).astype(int).tolist(),
+           max_share=layout.MAX_SHARE, fit=layout.fits(site, pos, pal, size_rule).astype(int).tolist(),
            shade_summer=P[[f"shade_summer_m2h_{x}" for x in g]].values.tolist(),
            shade_winter=P[[f"shade_winter_m2h_{x}" for x in g]].values.tolist(),
            water=P[[f"water_m3_{x}" for x in g]].values.tolist())
@@ -134,7 +140,7 @@ grid = dict(W=W, H=H, res=site.res, x0=x0, y1=y1, corners=[r6(c) for c in corner
             origin=[o["origin_x"], o["origin_y"]])                  # Grasshopper local origin (exchange/site_origin.json)
 sens = pd.read_csv(DB / "tool_v0_sensitivity.csv") if kind == "city" else pd.DataFrame()   # sensitivity: city palette only
 lon_c, lat_c = to_ll(x0 + W / 2, y1 - H / 2)
-meta = dict(palette_kind=kind, grid=grid, model=model, site=dict(name=name.capitalize(), center=[round(lon_c, 6), round(lat_c, 6)], corners=[r6(c) for c in corners]),
+meta = dict(palette_kind=kind, run=dict(size_rule=size_rule, trunk_class=trunk), grid=grid, model=model, site=dict(name=name.capitalize(), center=[round(lon_c, 6), round(lat_c, 6)], corners=[r6(c) for c in corners]),
             palette=palette, scenarios=scen, overlays=overlays, storm="PDISBA T = 2 yr, 1 h (31.9 mm), season-weighted",
             sensitivity=sens.to_dict(orient="records"),
             assumptions=["Leafless crown opacity 0.35 (test 0.25–0.54)", "Design days 15 Jul 12–17 h CEST and 15 Jan 10–15 h CET (summer window not yet aligned with the decided heat metric: mean UTCI 13–18 h CEST on a hot design day)",

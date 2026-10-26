@@ -13,6 +13,7 @@ use([ScatterChart, GridComponent, TooltipComponent, LegendComponent, CanvasRende
 const groups = [
   ['S0', 'Current trees', '#444441', 'rect'],
   ['S1', 'Random palette', '#b4b2a9', 'circle'],
+  ['S1a', 'City rule', '#d85a30', 'circle'],
   ['S4', 'Optimised', '#85b7eb', 'diamond'],
 ]
 
@@ -57,7 +58,7 @@ function onClick(p) {
 
 <template>
   <v-chart class="chart" :option="option" autoresize @click="onClick" />
-  <p class="note">Random palettes #1–9 are scored but have no saved layout, so only #0 opens on the map.</p>
+  <p class="note">Random palettes and city-rule layouts #1–9 are scored but have no saved layout, so only #0 of each opens on the map.</p>
 </template>
 
 <style scoped>

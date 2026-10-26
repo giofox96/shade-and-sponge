@@ -259,7 +259,7 @@ For A and R+A, the city's rule is run with 5 seeds and the optimised layout with
 
 **Web application.** A static web application shows the layouts on a 3D map, built with Vue, MapLibre and deck.gl. It has three functions:
 
-- **Live re-optimisation:** the designer moves a point in a triangle of priorities, and the browser re-solves the same transportation problem with HiGHS compiled to WebAssembly, in about 0.1–0.3 s. The web data currently come from the default run, without the sizing rule and with traits from all trunk sizes, not from the configuration used in the thesis results.
+- **Live re-optimisation:** the designer moves a point in a triangle of priorities, and the browser re-solves the same transportation problem with HiGHS compiled to WebAssembly, in about 0.1–0.3 s. The web data come from the same configuration as the thesis results: the exact sizing rule and traits at equal trunk size. Each layout is compared with today and with the mean of the city-rule layouts (S1a).
 - **Add trees:** a designer can place new trees by hand. The browser scores every palette species at that point with a port of the Python formulas.
 - **Exact check:** browser results are estimates from summed potentials, calibrated on the saved layouts. Exact scores need a Python run. How closely the browser matches Python is reported in Chapter 6.
 

@@ -72,14 +72,15 @@ export const scenario = computed(() => {
 export function label(s) {
   if (!s) return ''
   if (s.id === 'S0_current') return 'Current trees (mature planes)'
+  if (s.id.startsWith('S1a')) return `City rule (2026 mix) #${s.id.split('_').pop()}`
   if (s.id.startsWith('S1')) return `Random palette #${s.id.split('_').pop()}`
   const [a, b, c] = s.weights.map((w) => +w.toFixed(2))
   return `${s.id === LIVE ? 'Live estimate' : 'Optimised'}: summer ${a}, winter ${b}, runoff ${c}`
 }
 
-// Mean of the 10 random-palette layouts: the reference for "what a trait-blind replacement gives"
-export const randomMean = computed(() => {
-  const r = state.meta?.scenarios.filter((s) => s.group === 'S1') ?? []
+// Mean of the 10 city-rule layouts (S1a, the 2026 mix within the sizing rule): the thesis baseline
+export const cityMean = computed(() => {
+  const r = state.meta?.scenarios.filter((s) => s.group === 'S1a') ?? []
   if (!r.length) return null
   const keys = Object.keys(r[0].metrics)
   return Object.fromEntries(keys.map((k) => [k, r.reduce((a, s) => a + s.metrics[k], 0) / r.length]))
