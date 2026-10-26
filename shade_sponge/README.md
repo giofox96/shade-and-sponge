@@ -44,13 +44,13 @@ To add a site, write `build_<site>()` and `trees_<site>()` in `site.py` (same ke
 | Layout | Summer shade (m²·h) | Winter shade (m²·h, cost) | Hotspot runoff (m³) |
 |---|---|---|---|
 | S0 current (mature planes) | 359,310 | 196,218 | 2,682.3 |
-| S1 random palette (mean of 10) | 286,656 | 190,332 | 2,698.5 |
+| S1 random palette (mean of 10) | 286,479 | 190,015 | 2,698.7 |
 | S4 summer only (1, 0, 0) | 332,224 | 205,396 | 2,690.8 |
 | **S4 balanced (0.50, 0.25, 0.25)** | **332,342** | **200,750** | 2,688.9 |
 | S4 winter-heavy (0, 0.50, 0.50) | 272,596 | 159,790 | 2,691.1 |
 
 **What the kept-tree calendars changed (15 → 20 Oct):** every layout and every summer value is identical; winter shade fell by 27,090–28,005 m²·h in every layout (kept deciduous trees of those species are now bare in January), season-weighted interception by ~4 m³ and hotspot runoff rose by ~0.9 m³. The percentages below move slightly.
-- **A small free gain first:** summer-only → balanced cuts winter shade by only 2.3% at the same summer shade, still by swapping ~90 Tipuana (fully leafed in January) for Jacaranda (80% leafed). It is not robust (see sensitivity). The balanced layout beats the random palette on summer shade (+15.9%) but casts more winter shade than it (+5.5%).
+- **A small free gain first:** summer-only → balanced cuts winter shade by only 2.3% at the same summer shade, still by swapping ~90 Tipuana (fully leafed in January) for Jacaranda (80% leafed). It is not robust (see sensitivity). The balanced layout beats the random palette on summer shade (+16.0%) but casts more winter shade than it (+5.6%).
 - **Then a real trade-off:** beyond the balanced layout, more winter sun costs summer shade (winter-heavy: −20.4% winter shade for −18.0% summer shade). The winter-heavy layout drops Tipuana (0) and most Jacaranda (35) for the winter-bare Pyrus (276, its cap), Styphnolobium (223), Melia (185) and Celtis (98). The front is not a point.
 - **Placement follows the buildings, partly:** in the balanced layout the winter-bare Melia gets positions in sun 87% of winter hours, Jacaranda 62%, Tipuana 44%, evergreen Brachychiton 29% (positions file: `sun_share_winter`). But Melia already holds the sunniest streets in the summer-only layout (winter weight 0: 82% of winter hours, 98% of summer hours), so that is mostly summer sun. The winter-driven evidence is the winter-heavy layout: the winter-bare Pyrus gets positions in sun 78% of winter hours and Celtis 68%, the evergreen Brachychiton 31%. The winter-bare Styphnolobium (34% balanced, 36% winter-heavy) also sits in winter-shaded streets, so leaf habit does not explain all placements.
 - Total runoff follows interception, i.e. crown size (17,706 m³ balanced vs 17,747 m³ winter-heavy). Hotspot runoff varies by only 0.5% across weights (2,688–2,703 m³). It mostly follows the runoff weight (Spearman −0.73 between runoff weight and hotspot runoff; lowest for runoff-only). In the 8 Oct run it did not (the winter-heavy layout was lowest), so the per-position water potential is still unverified (to check: crown overlap with kept trees, the box-filter approximation).
@@ -64,7 +64,7 @@ Base run plus 7 one-change variants: leafless opacity 0.25 / 0.54; Tipuana bare 
 
 | Claim | Range across variants | Verdict |
 |---|---|---|
-| Optimised (balanced) vs random palette, summer shade | +15.8 to +15.9% (main run vs 10 random: +15.9%) | **robust** |
+| Optimised (balanced) vs random palette, summer shade | +15.8 to +15.9% (main run vs 10 random: +16.0%; the 10 random palettes were re-drawn on 26 Oct after the 24 Oct change to `random_layout`, the sensitivity run still uses the old draws) | **robust** |
 | Balanced vs random palette, winter shade | −1.0 to +8.6% (−1.0% only with the old Jacaranda calendar) | no winter gain: about equal or worse |
 | No-regret swap summer-only → balanced: winter shade at equal summer shade | −0.2 to −10.1% (base −2.3%; summer within ±0.1%) | sign holds, but **small** except with the old calendar |
 | Trade-off beyond balanced: winter-heavy vs balanced | winter −14 to −23%, summer −17 to −20% | **robust** |

@@ -275,13 +275,13 @@ Note: the methodology's S1 is "like-for-like in the city's proportions"; the too
 | Layout | Summer shade (m²·h) | Winter shade (m²·h, cost) | Hotspot runoff (m³) |
 |---|---|---|---|
 | S0 current (mature planes) | 359,310 | 196,218 | 2,682.3 |
-| S1 random palette (mean of 10) | 286,656 | 190,332 | 2,698.5 |
+| S1 random palette (mean of 10) | 286,479 | 190,015 | 2,698.7 |
 | S4 summer only (1, 0, 0) | 332,224 | 205,396 | 2,690.8 |
 | **S4 balanced (0.50, 0.25, 0.25)** | **332,342** | **200,750** | 2,688.9 |
 | S4 winter-heavy (0, 0.50, 0.50) | 272,596 | 159,790 | 2,691.1 |
 
 **Four findings to know**
-1. **Optimised beats random: +15.9% summer shade** (balanced vs random), robust across all 8 sensitivity variants (+15.8 to +15.9%). But it casts *more* winter shade than random (+5.5%): no winter gain.
+1. **Optimised beats random: +16.0% summer shade** (balanced vs random), robust across all 8 sensitivity variants (+15.8 to +15.9%). But it casts *more* winter shade than random (+5.6%): no winter gain.
 2. **The "free" gain is small now:** summer-only → balanced cuts winter shade by only **2.3%** at the same summer shade (~90 Tipuana → Jacaranda), and the swap vanishes in 3 of 8 variants. Before the photo-based calendar it was −9%, and the old calendar in today's run still gives −10%: the calendar, not the new species, shrank it (§4 worked example).
 3. **The real trade-off is robust:** beyond balanced, more winter sun costs summer shade (winter-heavy: **−20.4% winter shade for −18.0% summer shade**; across variants winter −14 to −23%, summer −17 to −20%). It is carried by the winter-bare *Pyrus* (276, at its cap) and *Styphnolobium* (213–245 in every variant), which replace Tipuana and most Jacaranda.
 4. **Placement follows the buildings, partly:** when winter sun counts (winter-heavy layout), the winter-bare Pyrus gets positions in sun 78% of winter hours and Celtis 68%, the evergreen Brachychiton 31%. But the winter-bare Styphnolobium (36%) also sits where buildings already shade the street, so leaf habit does not explain every placement. (Melia's 87% in the balanced layout is mostly summer sun: it holds the same sunny streets when winter has no weight.)
@@ -557,7 +557,7 @@ All rules and Python snippets are in `exchange/README.md`. In short:
 | Intense storms in May–Oct | 78% | `shade_sponge/README.md` |
 | Weight sets / random layouts | 15 / 10 | `shade_sponge/__main__.py` |
 | City palette | 7 species (6 named by the city + Styphnolobium) | `shade_sponge/layout.py` |
-| Balanced vs random, summer shade | +15.9% | `shade_sponge/README.md` |
+| Balanced vs random, summer shade | +16.0% | `shade_sponge/README.md` |
 | Free winter gain (summer-only → balanced) | −2.3% (was −9% with the old leaf calendar; not robust across variants) | same |
 | Trade-off, winter-heavy vs balanced | −20.4% winter shade for −18.0% summer shade | same |
 | Barcelona balanced vs mature planes, summer | +0.9% | same |
