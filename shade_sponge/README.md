@@ -44,13 +44,13 @@ To add a site, write `build_<site>()` and `trees_<site>()` in `site.py` (same ke
 | Layout | Summer shade (m²·h) | Winter shade (m²·h, cost) | Hotspot runoff (m³) |
 |---|---|---|---|
 | S0 current (mature planes) | 359,310 | 196,218 | 2,682.3 |
-| S1 random palette (mean of 10) | 286,656 | 190,332 | 2,698.5 |
+| S1 random palette (mean of 10) | 286,479 | 190,015 | 2,698.7 |
 | S4 summer only (1, 0, 0) | 332,224 | 205,396 | 2,690.8 |
 | **S4 balanced (0.50, 0.25, 0.25)** | **332,342** | **200,750** | 2,688.9 |
 | S4 winter-heavy (0, 0.50, 0.50) | 272,596 | 159,790 | 2,691.1 |
 
 **What the kept-tree calendars changed (15 → 20 Oct):** every layout and every summer value is identical; winter shade fell by 27,090–28,005 m²·h in every layout (kept deciduous trees of those species are now bare in January), season-weighted interception by ~4 m³ and hotspot runoff rose by ~0.9 m³. The percentages below move slightly.
-- **A small free gain first:** summer-only → balanced cuts winter shade by only 2.3% at the same summer shade, still by swapping ~90 Tipuana (fully leafed in January) for Jacaranda (80% leafed). It is not robust (see sensitivity). The balanced layout beats the random palette on summer shade (+15.9%) but casts more winter shade than it (+5.5%).
+- **A small free gain first:** summer-only → balanced cuts winter shade by only 2.3% at the same summer shade, still by swapping ~90 Tipuana (fully leafed in January) for Jacaranda (80% leafed). It is not robust (see sensitivity). The balanced layout beats the random palette on summer shade (+16.0%) but casts more winter shade than it (+5.6%).
 - **Then a real trade-off:** beyond the balanced layout, more winter sun costs summer shade (winter-heavy: −20.4% winter shade for −18.0% summer shade). The winter-heavy layout drops Tipuana (0) and most Jacaranda (35) for the winter-bare Pyrus (276, its cap), Styphnolobium (223), Melia (185) and Celtis (98). The front is not a point.
 - **Placement follows the buildings, partly:** in the balanced layout the winter-bare Melia gets positions in sun 87% of winter hours, Jacaranda 62%, Tipuana 44%, evergreen Brachychiton 29% (positions file: `sun_share_winter`). But Melia already holds the sunniest streets in the summer-only layout (winter weight 0: 82% of winter hours, 98% of summer hours), so that is mostly summer sun. The winter-driven evidence is the winter-heavy layout: the winter-bare Pyrus gets positions in sun 78% of winter hours and Celtis 68%, the evergreen Brachychiton 31%. The winter-bare Styphnolobium (34% balanced, 36% winter-heavy) also sits in winter-shaded streets, so leaf habit does not explain all placements.
 - Total runoff follows interception, i.e. crown size (17,706 m³ balanced vs 17,747 m³ winter-heavy). Hotspot runoff varies by only 0.5% across weights (2,688–2,703 m³). It mostly follows the runoff weight (Spearman −0.73 between runoff weight and hotspot runoff; lowest for runoff-only). In the 8 Oct run it did not (the winter-heavy layout was lowest), so the per-position water potential is still unverified (to check: crown overlap with kept trees, the box-filter approximation).
@@ -59,13 +59,13 @@ To add a site, write `build_<site>()` and `trees_<site>()` in `site.py` (same ke
 
 **Superseded (old calendar, 8 Oct; six species, Jacaranda bare Jan–Mar):** summer-only → balanced −9% winter shade (~100 Tipuana → Jacaranda) at equal summer shade; balanced vs random +14% summer, −3% winter; winter-heavy vs balanced −11% winter for −16% summer shade; placement Jacaranda 80%, Tipuana 51%, Brachychiton 29% of winter hours in sun.
 
-## Sensitivity of the winter-sun result (re-run 20 Oct, `scripts/sensitivity_tool_v0.py`)
+## Sensitivity of the winter-sun result (re-run 20 Oct; random palettes re-drawn 26 Oct after the 24 Oct change to `random_layout`, which moved only the vs-random columns; `scripts/sensitivity_tool_v0.py`)
 Base run plus 7 one-change variants: leafless opacity 0.25 / 0.54; Tipuana bare in Jan–Feb ('briefly deciduous' in winter: Santa Barbara Beautiful, Tree of the Month; search snippet only); Jacaranda half-leafed Jan–Mar; Jacaranda bare Jan–Mar (the old calendar, from the Valencia BBCH study); winter design day 21 Dec / 15 Feb. Each re-optimises summer-only, balanced and winter-heavy layouts against 3 random palettes. Results: `databases/barcelona/tool_v0_sensitivity.csv` (summary), `_raw.csv`. The base variant reproduces the main run exactly. Every variant's layouts and summer values are identical to the 15 Oct run; only winter shade moved, through the kept trees' leaf calendars.
 
 | Claim | Range across variants | Verdict |
 |---|---|---|
-| Optimised (balanced) vs random palette, summer shade | +15.8 to +15.9% (main run vs 10 random: +15.9%) | **robust** |
-| Balanced vs random palette, winter shade | −1.0 to +8.6% (−1.0% only with the old Jacaranda calendar) | no winter gain: about equal or worse |
+| Optimised (balanced) vs random palette, summer shade | +15.8 to +15.9% (main run vs 10 random: +16.0%) | **robust** |
+| Balanced vs random palette, winter shade | −0.4 to +8.9% (−0.4% only with the old Jacaranda calendar) | no winter gain: about equal or worse |
 | No-regret swap summer-only → balanced: winter shade at equal summer shade | −0.2 to −10.1% (base −2.3%; summer within ±0.1%) | sign holds, but **small** except with the old calendar |
 | Trade-off beyond balanced: winter-heavy vs balanced | winter −14 to −23%, summer −17 to −20% | **robust** |
 | Species of the balanced layout | Melia 256, Styphnolobium 67, Celtis 0 in every variant; Tipuana → Jacaranda swap (~90) in only 5 of 8 variants | swap **not robust** |
@@ -87,7 +87,7 @@ Base run plus 7 one-change variants: leafless opacity 0.25 / 0.54; Tipuana bare 
 | Layout (Barcelona palette) | Summer shade (m²·h) | Winter shade (m²·h) | Hotspot runoff (m³) |
 |---|---|---|---|
 | S0 current (mature planes) | 359,310 | 196,218 | 2,682.3 |
-| S1 random palette (mean of 10) | 278,735 | 188,043 | 2,699.0 |
+| S1 random palette (mean of 10) | 278,536 | 188,713 | 2,699.6 |
 | S4 summer only | 365,428 | 254,876 | 2,682.4 |
 | **S4 balanced** | **362,500** | **208,828** | 2,682.4 |
 | S4 winter-heavy | 272,457 | 155,655 | 2,683.7 |
