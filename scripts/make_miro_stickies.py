@@ -125,67 +125,28 @@ def does_not():
     save(fig, "05_does_does_not.png")
 
 
-DAVID = "#ffd9a8"   # third colour for David's column (placeholder, his thesis not received yet)
+def hub_block(name, hub, desc, blue, green, hub_w=2.4):
+    """One hub in the format of Elena's 27 Oct board: hub -> description <- brace -> blue (top) and green (bottom)."""
+    fig, ax = canvas(11.6, 5.6)
+    y = 2.8
+    sticky(ax, 9.6, y, hub, HUB, hub_w, fs=19, width=8)
+    sticky(ax, 6.2, y, desc, HUB, 2.2, fs=12, width=15)
+    sticky(ax, 1.4, y + 1.05, blue, ELENA, 1.8, fs=11, width=16)
+    sticky(ax, 1.4, y - 1.05, green, GIO, 1.8, fs=11, width=16)
+    kw = dict(arrowstyle="-|>", color="#222", lw=1.3, mutation_scale=14, shrinkA=0, shrinkB=0)
+    ax.annotate("", xy=(7.35, y), xytext=(8.35, y), arrowprops=kw)                                   # hub -> description
+    for ny, rad in ((y + 1.05, 0.3), (y - 1.05, -0.3)):                                              # description -> notes (curved, as hers)
+        ax.annotate("", xy=(2.4, ny), xytext=(5.05, y), arrowprops=dict(kw, connectionstyle=f"arc3,rad={rad}"))
+    save(fig, name)
 
 
-def row(ax, y, cells, h=2.3):
-    """cells: (x, text, colour, fs, width); one sticky each."""
-    for x, text, c, fs, w in cells:
-        sticky(ax, x, y, text, c, h, fs=fs, width=w)
-
-
-def preference_and_gaps():   # v2 (27 Oct): new hub Preference + two notes under existing hubs
-    rows = [("Preference", "Whose preferences shape the outcome", "Each person decides what to avoid or seek",
-             "The planner sets the weight between heat and runoff"),
-            ("Failure and uncertainty", "Who notices when the model is wrong", "A confident rating that is wrong for the person who relies on it",
-             "False precision from an uncalibrated LAI proxy"),
-            ("Lack of data", "Who or what is invisible in the data", "The people missing from the data (Kenna)",
-             "Trees without species or leaf area")]
-    fig, ax = canvas(11.4, 8.2)
-    for i, (hub, d, e, g) in enumerate(rows):
-        y = 6.9 - i * 2.65
-        row(ax, y, [(1.4, hub, HUB, 13, 14), (4.2, d, HUB, 10.5, 20), (7.0, e, ELENA, 10.5, 20), (9.8, g, GIO, 10.5, 20)])
-    save(fig, "06_preference_and_gaps.png")
-
-
-def tension():
-    fig, ax = canvas(11, 5.4)
-    sticky(ax, 1.4, 3.8, "Comfort", HUB, 2.4, fs=17, width=11)
-    sticky(ax, 4.6, 3.8, "Perceived comfort across senses", ELENA, 2.4, fs=11, width=18)
-    sticky(ax, 8.6, 3.8, "Computed thermal comfort (UTCI)", GIO, 2.4, fs=11, width=18)
-    arrow(ax, (4.6, 3.8), (8.6, 3.8), color="#c0392b", both=True, rad=0)
-    sticky(ax, 6.6, 1.0, "TENSION · UTCI is the comfort of a standard person: the average Elena argues against", NOTE, 2.0, fs=9.5, width=22)
-    save(fig, "07_tension.png")
-
-
-def hub_to_hub():
-    links = [("Representation", "What you keep of a place or a person decides what you can predict", "Impact prediction"),
-             ("Impact prediction", "A prediction for the single case needs a check on the single case", "Model validation"),
-             ("Model validation", "The check decides how far the advice can be trusted", "Decision support"),
-             ("Decision support", "LOOP · decisions change who and what is exposed", "Vulnerability")]
-    fig, ax = canvas(10.6, 10.6)
-    for i, (a, note, b) in enumerate(links):
-        y = 9.3 - i * 2.8
-        row(ax, y, [(1.4, a, HUB, 13, 11), (5.3, note, NOTE, 10, 22), (9.2, b, HUB, 13, 11)])
-        arrow(ax, (1.4, y), (9.2, y), rad=0)
-    save(fig, "08_hub_to_hub_links.png")
-
-
-def david_column():
-    qs = [("Comfort", "Does your thesis predict how a person feels in a place? Which senses?"),
-          ("Representation", "What does your thesis keep of a place or a person, and what does it lose?"),
-          ("Impact prediction", "What do you predict without measuring on site, and with which proxy?"),
-          ("Vulnerability", "Who or what bears the most harm in your case, and is there data on it?"),
-          ("Model validation", "What is your ground truth, and what simple rule must you beat?"),
-          ("Decision support", "Who takes the decision with your output, and what do they see?"),
-          ("Preference", "Whose preferences shape your result?")]
-    fig, ax = canvas(8.6, 19)
-    for i, (hub, q) in enumerate(qs):
-        y = 17.9 - i * 2.65
-        row(ax, y, [(1.4, hub, HUB, 13, 11), (4.2, q, NOTE, 10, 20)])
-        ax.add_patch(FancyBboxPatch((6.15, y - 1.15), 2.3, 2.3, boxstyle="square,pad=0", fc=DAVID + "55", ec="#d98a2b", ls="--", lw=1.4, zorder=3))
-        ax.text(7.3, y, "David", ha="center", va="center", fontsize=11, color="#b06a10", zorder=4)
-    save(fig, "09_david_column.png")
+def new_hubs_v2():   # 27 Oct: two new hubs drawn like Elena's; her convention links hubs to authors only (see notes)
+    hub_block("06_preference.png", "Preference", "Whose preferences shape the outcome",
+              "Each person decides what to avoid or seek",
+              "The planner sets the weight between heat and runoff")
+    hub_block("07_lack_of_data.png", "Lack of data", "What is not measured or recorded, and what stands in for it",
+              "Neurodivergent people's urban experience is little researched",
+              "Trees without measured LAI or species traits: proxies are used")
 
 
 if __name__ == "__main__":
