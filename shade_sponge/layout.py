@@ -86,11 +86,15 @@ def size_fits(pos_class, species, rule="exact"):
     return ok | np.isnan(p) | np.isnan(q)
 
 
-def sidewalk_class(pos):
-    """Size class of each position from databases/barcelona/porta_sidewalk_width.csv ("check" if not measured)."""
+def sidewalk_class(pos, site=None):
+    """Size class of each position from databases/barcelona/porta_sidewalk_width.csv, or barris/<slug>/sidewalk_width.csv
+    for another barri (scripts/porta_sidewalk_width.py); "check" if not measured or not measured yet."""
     if "size_class" in pos:                               # new planting spots carry their own class
         return pos.size_class.values
-    w = pd.read_csv(DB / "porta_sidewalk_width.csv").set_index("tree_id").size_class
+    f = DB / ("porta_sidewalk_width.csv" if site is None or site.name == "porta" else f"barris/{site.name}/sidewalk_width.csv")
+    if not f.exists():
+        return np.full(len(pos), "check", dtype=object)
+    w = pd.read_csv(f).set_index("tree_id").size_class
     return w.reindex(pos.tree_id).fillna("check").values
 
 
@@ -102,7 +106,7 @@ def fits(site, pos, pal, size_rule=None):
     r, c = rc(site, pos.x.values, pos.y.values)
     f = d[r, c][:, None] >= pal.crown_diam_m.values[None, :] / 2
     if size_rule:
-        f &= size_fits(sidewalk_class(pos), pal.species, size_rule)
+        f &= size_fits(sidewalk_class(pos, site), pal.species, size_rule)
     f[~f.any(1), pal.crown_diam_m.values.argmin()] = True     # nothing fits (incl. sidewalks < 2.5 m): smallest crown
     return f
 

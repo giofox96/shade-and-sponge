@@ -1,10 +1,12 @@
-"""Sidewalk width at each Porta street tree, from the city's 1:1000 topographic map (WMS vectors).
+"""Sidewalk width at each street tree of Porta (default) or of any barri, from the city's 1:1000 topographic map (WMS vectors).
 
 Source: Ajuntament de Barcelona, Mapa base topografic 1:1000, WMS http://w133.bcn.cat/WMSTOPOGRAFIC/service.svc/get
 (open data `mapa-base-topografic`, CC BY 4.0). Layers: facade lines and road lines (kerbs), fetched as SVG in tiles
 because the 652 MB GeoPackage download keeps failing (notes/sidewalk_width.md).
 Input:  exchange/to_gh/porta_trees_lidar.csv (tree positions, local coords; origin in exchange/site_origin.json)
-Output: databases/barcelona/porta_sidewalk_width.csv; raw SVG tiles cached in databases/barcelona/raw/topo_1000/svg/
+        or, with a barri name (python scripts/porta_sidewalk_width.py "Sant Antoni"), databases/barcelona/barris/<slug>/trees_lidar.csv
+        (scripts/bcn_lidar_barri.py, EPSG:25831). Run on the PC: the WMS blocks the cloud.
+Output: databases/barcelona/porta_sidewalk_width.csv or barris/<slug>/sidewalk_width.csv; raw SVG tiles cached in databases/barcelona/raw/topo_1000/svg/
 Width = distance from the nearest facade, through the tree, to the first long road line beyond it (the kerb).
 Size class from the 2011 street-tree guide pp. 22-23 (one class per sidewalk type).
 Trees not bounded by a facade (flags median / no_facade / no_kerb) keep size_class "check"; for them strip_width_m is
@@ -12,7 +14,7 @@ the distance between the two road lines on either side of the tree, along the pe
 It is provisional: a visual check of 16 cases found it plausible on wide medians and boulevards (Meridiana) but wrong
 where the tree stands on a road line inside a narrow band (notes/sidewalk_width.md, QA section).
 """
-import json, pathlib, re, time, numpy as np, pandas as pd, requests
+import json, pathlib, re, sys, time, numpy as np, pandas as pd, requests
 from shapely.geometry import LineString, Point
 from shapely.strtree import STRtree
 
@@ -96,9 +98,18 @@ def size_class(w):
 
 if __name__ == "__main__":
     SVG.mkdir(parents=True, exist_ok=True)
-    o = json.load(open(ROOT / "exchange/site_origin.json"))
-    t = pd.read_csv(ROOT / "exchange/to_gh/porta_trees_lidar.csv")
-    X, Y = t.x + o["origin_x"], t.y + o["origin_y"]
+    sys.path.insert(0, str(ROOT))
+    from shade_sponge.site import slug
+    s = slug(sys.argv[1]) if len(sys.argv) > 1 else "porta"
+    if s == "porta":
+        o = json.load(open(ROOT / "exchange/site_origin.json"))
+        t = pd.read_csv(ROOT / "exchange/to_gh/porta_trees_lidar.csv")
+        X, Y = t.x + o["origin_x"], t.y + o["origin_y"]
+        dest = ROOT / "databases/barcelona/porta_sidewalk_width.csv"
+    else:
+        t = pd.read_csv(ROOT / f"databases/barcelona/barris/{s}/trees_lidar.csv")
+        X, Y = t.x, t.y
+        dest = ROOT / f"databases/barcelona/barris/{s}/sidewalk_width.csv"
     xs = np.arange(np.floor((X.min() - RAY) / TILE) * TILE, X.max() + RAY, TILE)
     ys = np.arange(np.floor((Y.min() - RAY) / TILE) * TILE, Y.max() + RAY, TILE)
     fac, road = lines("facade", xs, ys), lines("road", xs, ys)
@@ -127,7 +138,7 @@ if __name__ == "__main__":
     out["size_class"] = np.where(out.flag == "ok", size_class(out.width_m.fillna(0)), "check")
     out = t[["tree_id", "species", "is_plane", "street"]].merge(out, on="tree_id")
     assert len(out) == len(t) and out.tree_id.is_unique
-    out.to_csv(ROOT / "databases/barcelona/porta_sidewalk_width.csv", index=False)
+    out.to_csv(dest, index=False)
     print(f"{len(fac)} facade lines, {len(road)} road lines >= {MIN_KERB} m")
     print(out.flag.value_counts().to_dict())
     print("all trees:", out.size_class.value_counts().to_dict())
