@@ -12,6 +12,10 @@
 7. [x] **Done 28 Oct (232 spots; README, slide res_03, deck, thesis ch. 5 and the app's canopy counter updated).** Re-run the additions on your PC: `python scripts/run_additions.py`. The free spots went from 267 to 232 after the OSM exclusions (crossings, signals, bus stops), so the A and R+A numbers in `shade_sponge/README.md` and slide `res_03` need refreshing; then `python scripts/make_results_v7.py`.
 8. [ ] Optional: `pip install osmium` in the conda env, only if you want to re-run `scripts/osm_sidewalks.py` locally.
 
+## Second barri: Sant Antoni (28 Oct, `notes/citywide_plan.md` §6.2)
+9. [x] **Done 28 Oct (8 tiles, all 2022-06-01).** In the conda env: `pip install laspy[lazrs] scikit-image` if missing, then `python scripts/bcn_lidar_barri.py "Sant Antoni"` (downloads 8 ICGC tiles, then crowns and buildings). It needs `databases/barcelona/raw/2017_NDVI.tif` (the 1.6 GB city NDVI, open data `cobertura-vegetal-ndvi`) for the next step: re-download it if you deleted it.
+10. [x] **Done 28 Oct: Porta identical; Sant Antoni run, `notes/citywide_plan.md` §6.6.** Regression first: delete `cache/site_porta.npz`, run `python -m shade_sponge porta --size=exact --trunk=TERCERA`; the summary must be identical (Porta's bundle was refactored, not changed). Then `python -m shade_sponge "Sant Antoni"` and commit `databases/barcelona/barris/sant-antoni/`, `lidar_tiles_dates.csv` and `tool_v0_summary_sant-antoni.csv`.
+
 ## Fast track to the 10 Nov tutor session (only you can do these; in order)
 1. [ ] **Watch for the Parcs i Jardins reply** (sent 24 Oct). Forward it to me as soon as it arrives: a current per-street list would replace S1.
 2. [x] **Download 3 papers into `papers/`** (all three are in `papers/` as of 26 Oct; Kendal and Santamour are already cited in the gap, 24 Oct):

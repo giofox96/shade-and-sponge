@@ -88,6 +88,8 @@ User, 25 Oct: start working out how to bring every Barcelona neighbourhood into 
 
 **Regression check:** the Porta bundle rebuilt by `build_barri("Porta")` must reproduce `tool_v0_summary_sizeexact_trunkTERCERA.csv`. The only differences allowed come from the 150 m buffer: Porta's current grid is the bare bounding box.
 
+**Status 28 Oct:** steps 1–3 are coded (`scripts/lidar_tiles_barris.py`, `scripts/bcn_lidar_barri.py`, `site.build_barri`; `shade_sponge/README.md`, "Any barri"). Step 1 gives **158 distinct tiles** for the 73 barris (86 for the 27 barris with ≥ 500 planes), not ~100: the 150 m margin adds tiles. Not yet run on real data; the first run is Sant Antoni (8 tiles).
+
 ### 6.3 Order of work
 
 From `databases/barcelona/site_screening_barris.csv` (inventory as screened on 8 Oct: 137,717 street trees and 39,656 planes in 72 barris; the press figure of 43,722 planes has a different date and scope):
@@ -103,7 +105,7 @@ From `databases/barcelona/site_screening_barris.csv` (inventory as screened on 8
 
 ### 6.4 Costs and risks (estimates, not measured)
 
-- **LiDAR:** about 100 tiles (§2) against the 4 used for Porta, so download and processing scale about 25×. This is a batch job on your machine (≈ 4 GB RAM per tile set, as `bcn_lidar_porta.py`).
+- **LiDAR:** 158 tiles (step 1, 28 Oct; first estimate ~100, §2) against the 4 used for Porta, so download and processing scale about 25×. This is a batch job on your machine (≈ 4 GB RAM per tile set, as `bcn_lidar_porta.py`).
 - **Tool runtime:** one Porta run takes about 4 min (`shade_sponge/README.md`). The city is roughly 100× Porta's area, so a full set of runs is likely an overnight batch. The optimiser is not the bottleneck; the raster re-scoring is.
 - **Sidewalk widths** (step 4) decide the schedule. Without option (a), the city layer will have "size class unknown" in most barris by December.
 - **Runoff outside Porta is indicative:** the interception calibration and the Δmin were set on Porta (§5).
@@ -119,3 +121,26 @@ The options were:
 The **cap denominator**. The plan's 15% is over about 201,600 trees of the urban fabric, including squares (`notes/tree_master_plan.md`). The open street-tree inventory has 140,404. The city LP needed one of the two:
 - street trees only: simpler, and already in the repo;
 - street + zone trees (`arbrat-zona`): closer to the plan's wording.
+
+### 6.6 First transfer: Sant Antoni (28 Oct)
+
+Steps 1–3 and 5 ran end to end on the user's PC (`python scripts/bcn_lidar_barri.py "Sant Antoni"`, then `python -m shade_sponge "Sant Antoni" [--trunk=TERCERA]`). Porta's regression run gave an identical summary, so the refactor of the site bundle changed nothing there.
+
+**Inputs.** 8 ICGC tiles, all flown on 2022-06-01 (leaf-on), 66.7 M points in the barri + 150 m. 2,475 street trees: 989 planes and 950 *Celtis australis*; 90% have a usable LiDAR crown. 2,415 OSM building footprints with LiDAR height (median 21.4 m). The Overpass servers were overloaded and answered after several retries; the script now falls back to LiDAR footprints if they do not answer.
+
+**Results, scenario R (replace the 989 planes), `--trunk=TERCERA`** (`databases/barcelona/tool_v0_summary_sant-antoni_trunkTERCERA.csv`; Porta from `tool_v0_summary_sizeexact_trunkTERCERA.csv`). Shares of today (S0); S1 and S1a = means of 10 seeds; "tool" = the optimised layout with the most summer shade.
+
+| | Sant Antoni | Porta |
+|---|---|---|
+| Summer shade, tool | 79.7% | 99.1% |
+| Summer shade, S1a (city's mix) | 66.8% | 87.4% |
+| Summer shade, S1 (random) | 66.2% | 89.4% |
+| Runoff to hotspots, tool / S1a | +2.5% / +3.1% | +0.1% / +0.4% |
+| Canopy cover, S0 → tool | 25.1% → 21.8% | 23.3% → 22.3% |
+
+Reading:
+- The tool's margin over the city's mix is about the same in both barris (+12.9 and +11.7 points of today's summer shade), but Sant Antoni loses about a fifth of its summer shade even with the best layout: planes are 40% of its street trees (29% in Porta) and its mature planes are large.
+- Winter shade is a third of Porta's in absolute terms (65,400 vs 196,200 m²·h at S0): Eixample's tall blocks already shade the streets in winter, so the winter-sun objective matters less there.
+- **The Porta-local 15% cap breaks here:** *Celtis* is already 38% of Sant Antoni's street trees, so its cap is 0 in every layout. A barri-by-barri cap penalises barris that are already unbalanced; this is the case for the city-wide LP of step 6.
+
+**Not comparable yet, in three ways:** (1) Porta's run uses the sidewalk sizing rule (`--size=exact`), Sant Antoni has no sidewalk widths yet (step 4), so its layouts are less constrained; (2) with `--trunk=TERCERA`, only *Celtis* (TERCERA) and *Melia* (SEGONA, 23 trees) have enough local trees; the other five species keep Porta's medians over all trunk classes; (3) the runoff calibration and Δmin are Porta's (§6.4).

@@ -108,3 +108,10 @@ def test_priority_ranks_peers():
 def test_planting_spots_drop_excluded():
     s = layout.planting_spots()
     assert len(s) > 0 and "excluded_by" not in s and s.tree_id.str.startswith("ADD").all()
+
+
+def test_barri_slug():
+    from shade_sponge.site import slug
+    assert slug("la Vila de Gràcia") == "la-vila-de-gracia"
+    assert slug("l'Antiga Esquerra de l'Eixample") == "l-antiga-esquerra-de-l-eixample"
+    assert slug("Porta") == "porta"
