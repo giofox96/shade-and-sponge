@@ -10,7 +10,8 @@ Outputs: raw/lidar/<slug>_{dtm,chm,bldg}_05m.tif
          databases/barcelona/barris/<slug>/trees_lidar.csv     per inventory street tree, EPSG:25831
          databases/barcelona/barris/<slug>/buildings.geojson   OSM footprints (ODbL) with LiDAR height, EPSG:25831
          databases/barcelona/lidar_tiles_dates.csv             flight dates of the tiles read (leaf-on check), appended
-Memory: the points of the whole extent are held at once (x, y, z, class); 8 tiles for Sant Antoni (0.8 km²)."""
+Memory: the points of the whole extent are held at once as cell index, height and class (9 bytes per point;
+Sant Antoni: 67 M points, 8 tiles)."""
 import sys, datetime, pathlib, numpy as np, pandas as pd, laspy, rasterio, requests
 from rasterio.transform import from_origin
 from rasterio.features import rasterize, shapes
@@ -65,28 +66,25 @@ else:
                 x, y = np.asarray(p.x), np.asarray(p.y)
                 m = (x >= x0) & (x <= x1) & (y >= y0) & (y <= y1)
                 if m.any():
-                    parts.append((x[m], y[m], np.asarray(p.z)[m].astype("float32"), np.asarray(p.classification)[m]))
+                    cell = ((y1 - y[m]) / RES).astype("int32").clip(0, H - 1) * W + ((x[m] - x0) / RES).astype("int32").clip(0, W - 1)
+                    parts.append((cell, np.asarray(p.z)[m].astype("float32"), np.asarray(p.classification)[m]))
                     g = np.asarray(p.gps_time)[m]
                     gmin, gmax = min(gmin, g.min()), max(gmax, g.max())
         if np.isfinite(gmin):
             off = 1e9 if adjusted else 0                     # LAS 1.4 adjusted standard GPS time
             dates.append(dict(tile=t, first=(GPS0 + datetime.timedelta(seconds=float(gmin + off))).date(),
                               last=(GPS0 + datetime.timedelta(seconds=float(gmax + off))).date()))
-    x, y, z, c = (np.concatenate(a) for a in zip(*parts))
+    idx, z, c = (np.concatenate(a) for a in zip(*parts))   # 9 bytes per point: cell index, height, class
     del parts
     d = pd.DataFrame(dates)
     d["leaf_off_check"] = pd.to_datetime(d["first"]).dt.month.isin([12, 1, 2, 3]) | pd.to_datetime(d["last"]).dt.month.isin([12, 1, 2, 3])
-    print(f"{len(x):,} points in {name} + {BUFFER_M:.0f} m from {len(tiles)} tiles; flight dates:\n{d.to_string(index=False)}")
+    print(f"{len(z):,} points in {name} + {BUFFER_M:.0f} m from {len(tiles)} tiles; flight dates:\n{d.to_string(index=False)}")
     if d.leaf_off_check.any():
         print("WARNING: some tiles were flown Dec–Mar (crowns of deciduous trees may be leafless): check before using the crowns")
     old = pd.read_csv(DB / "lidar_tiles_dates.csv", dtype={"tile": str})
     pd.concat([old, d.drop(columns="leaf_off_check").astype({"first": str, "last": str})]).drop_duplicates("tile", keep="last") \
         .to_csv(DB / "lidar_tiles_dates.csv", index=False)
 
-    col = ((x - x0) / RES).astype(int).clip(0, W - 1)
-    row = ((y1 - y) / RES).astype(int).clip(0, H - 1)
-    idx = row * W + col
-    del col, row
 
 
     def grid(mask, how):

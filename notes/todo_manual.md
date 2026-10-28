@@ -18,6 +18,8 @@
 
 11. [x] **Done 28 Oct (`notes/citywide_plan.md` §6.6).** Sidewalk widths for Sant Antoni through the WMS (the GeoPackage was reset again at 24%, 28 Oct): `python scripts/porta_sidewalk_width.py "Sant Antoni"`, then `python -m shade_sponge "Sant Antoni" --size=exact --trunk=TERCERA`; commit `databases/barcelona/barris/sant-antoni/sidewalk_width.csv` and the new summary.
 
+12. [ ] **Overnight batch, Eixample + Sant Martí (16 barris, 37 tiles):** `python scripts/run_barris.py`. It skips what is done and logs failures to `databases/barcelona/barris/run_log.csv`. Then commit `databases/barcelona/barris/`, `databases/barcelona/barris_summary.csv`, `lidar_tiles_dates.csv` and the new `tool_v0_summary_*` files.
+
 ## Fast track to the 10 Nov tutor session (only you can do these; in order)
 1. [ ] **Watch for the Parcs i Jardins reply** (sent 24 Oct). Forward it to me as soon as it arrives: a current per-street list would replace S1.
 2. [x] **Download 3 papers into `papers/`** (all three are in `papers/` as of 26 Oct; Kendal and Santamour are already cited in the gap, 24 Oct):
