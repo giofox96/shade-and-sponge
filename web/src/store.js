@@ -20,7 +20,7 @@ export const state = reactive({
   draft: [], // [lon, lat] vertices while drawing
   area: null, // { poly, idx, keptIdx, spotIdx, all, weights, layout, keptLayout, metrics, counts, city, ms }
   showStreets: true, // sidewalk edges (facades, kerbs) and free planting spots on the map
-  overlay: 'sun_winter',
+  overlay: '', // none by default: sidewalks and free spots read better (the sun / water layers are in Map display)
   month: 7,
   selected: null, // index into positions
   error: null,
