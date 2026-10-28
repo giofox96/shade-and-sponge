@@ -535,7 +535,7 @@ Sources: `slides/outline_20oct.md`; the Porta and Barcelona answers from `notes/
 | 78% | Intense storm days in May–Oct |
 | +16% | Summer shade, optimised vs random palette (15 Oct re-run; was +14%) |
 | −2% | Winter shade, no-regret swap Tipuana → Jacaranda (15 Oct re-run; −9% with the old calendar) |
-| −18% / −18% | Winter-heavy vs balanced: winter / summer shade (the trade-off) |
+| −20% / −18% | Winter-heavy vs balanced: winter / summer shade (the trade-off) |
 | 7 | Candidate species (5 named as plane replacements + Jacaranda, Brachychiton, not named as such) |
 | 367 / 5.32 m / 2.12 | *Styphnolobium* LiDAR sample outside Porta (no merged crowns): trees / crown / LAI |
 | 91 m³ | Δmin, runoff part of H1 (0.5% of T2-60 runoff) |

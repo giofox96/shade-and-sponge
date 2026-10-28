@@ -3,7 +3,7 @@
 *8 Oct 2026, updated 26 Oct. Tick items off here, or tell me and I'll update the file. Where a file should go, it's named in each item.*
 
 ## New since 25 Oct: city-wide, OSM, web app (short items, in order)
-1. [ ] **Merge the branch into `main`** (`ccr-1c37970a-dgq09x`; PRs and merges are yours). This puts the new look, the neighbourhood picker and the tool options online.
+1. [ ] **Review and merge the PR of `ccr-1c37970a-dgq09x`** (PRs and merges are yours). It puts the neighbourhood picker, the earth species colours and the tool options online.
 2. [ ] **On your PC, one regression run** (conda env): `python -m shade_sponge porta --size=exact --trunk=TERCERA`. Its summary must equal `databases/barcelona/tool_v0_summary_sizeexact_trunkTERCERA.csv`, since the core changed (scenarios, area, priority) and this cannot run in the cloud. Then try one project area: draw a polygon in QGIS or geojson.io, save it as `exchange/from_gh/area_test.geojson`, and run `python -m shade_sponge porta --size=exact --trunk=TERCERA --scenario=RA --area=exchange/from_gh/area_test.geojson`.
 3. [ ] **Official neighbourhood outlines:** `python scripts/make_barris_web.py` on your PC. It finds `databases/barcelona/raw/BarcelonaCiutat_Barris.csv` and replaces the provisional OSM outlines in `web/public/data/barris.geojson` (Open Data BCN blocks the cloud with a 403). Commit the file.
 4. [ ] **Retry the 652 MB 1:1000 GeoPackage once** (`notes/sidewalk_width.md`). This is the key to sidewalk widths for the whole city (`notes/citywide_plan.md` §6.2 step 4). OSM gets the size class right for only ~3 trees in 4 (`notes/sidewalk_width.md`, "OSM check").
@@ -14,7 +14,7 @@
 
 ## Fast track to the 10 Nov tutor session (only you can do these; in order)
 1. [ ] **Watch for the Parcs i Jardins reply** (sent 24 Oct). Forward it to me as soon as it arrives: a current per-street list would replace S1.
-2. [ ] **Download 3 papers into `papers/`** (open access or IAAC access):
+2. [x] **Download 3 papers into `papers/`** (all three are in `papers/` as of 26 Oct; Kendal and Santamour are already cited in the gap, 24 Oct):
    - Nieuwenhuijsen et al. 2022, *Environ. Res.* 215:114387 (3-30-300 in Barcelona; open PDF: https://ddd.uab.cat/pub/artpub/2022/284178/284178.pdf);
    - Santamour 1990 (10-20-30 rule);
    - Kendal, Dobbs & Lohr 2014 (diversity benchmarks, 108 cities).
@@ -41,19 +41,20 @@ The user lives in Florence (15 Oct), so **no field photos in Porta**. Remote alt
 - [x] Dated **iNaturalist** observations of *Tipuana tipu* and *Jacaranda mimosifolia*, Dec–Mar: **done 15 Oct** (`notes/decisions/leaf_state_inat.md`): 170 Barcelona photos scored. Tipuana is in leaf in January (base case holds); **Jacaranda is mostly in leaf in January too**, not bare as the tool assumed.
 - [ ] If iNaturalist is too thin: winter Google Street View captures of Porta's Tipuana and Jacaranda streets (check the capture date shown in Street View).
 - [x] Photo-based leaf calendar **adopted (15 Oct)** and written into `databases/traits/phenology_palette.csv`.
-- [x] **Tool and sensitivity re-run locally (15 Oct):** the Tipuana → Jacaranda no-regret swap shrinks from −9% to −2% winter shade and vanishes in 3 of 8 variants; the summer–winter trade-off beyond the balanced layout is robust (`shade_sponge/README.md`). Street View check no longer needed for the tool.
+- [x] **Tool and sensitivity re-run locally (15 Oct):** the Tipuana → Jacaranda no-regret swap shrinks from −9% to −2% winter shade and vanishes in 3 of 8 variants; the summer–winter trade-off beyond the balanced layout is robust (`shade_sponge/README.md`). Street View check no longer needed for the tool. **Re-run again 26 Oct on the Omen laptop** (both palettes, web export, sensitivity; PR #58): optimised layouts unchanged, only the random-palette comparisons moved by ≤ 0.6 points.
 
 ## Open: data licence on the public web app
 - [ ] **Flood-hazard index licence.** The public app (https://giofox96.github.io/shade-and-sponge/) shows the hotspot layer derived from the Barcelona Resilience Atlas flood-hazard index (index ≥ 40). The source states no licence. Kept online for now (your decision, 9 Oct) with credit to Barcelona Regional. Later: ask Barcelona Regional / the Urban Resilience office for the terms, or remove the overlay (`shade_sponge/web_export.py`, layer `hotspots`).
 
 ## Before the 20 Oct meeting
+*The 20 Oct session has been held. The "Talk" items below are past; the open decisions and requests still stand.*
 
 ### Decisions only you can take (memos ready; most give a recommended default)
 - [x] **Heat metric f1: DECIDED 19 Oct — mean UTCI over 12–17 h on a hot design day**, hottest real day as a check (`notes/topic_decision.md` §8). Still open inside it: the minimum meaningful difference (0.8 °C, Ladybug vs ENVI-met MBE).
 - [ ] **Weather forcing:** El Prat TMYx 2011–2025 for the main run, with city station / city-terrain wind / +1.5 °C as sensitivities? (`notes/decisions/weather_forcing.md` §4)
 - [x] **H3: DECIDED 19 Oct — withdrawn as a hypothesis**, kept as a declared validity boundary of the method; the talk says it was a hypothesis until the model showed it true by construction (`notes/topic_decision.md` §8). Anything still reading "supporting H3" or "as H3 predicts" is wrong.
-- [ ] **H1/H2 wording:** Δmin = 91 m³ and the "not resolved" rule for H1's runoff part (provisionally accepted 14 Oct; still to write into `topic_decision.md` §7); H2 as a species-composition claim (`notes/decisions/hypothesis_tests.md` §8, `runoff_metric_sensitivity.md` §10).
-- [ ] **Contribution statement:** pick A (method), B (knowledge) and/or C (validation); use the narrower gap wording because of Dong 2026 (`notes/decisions/contribution_statement.md`).
+- [x] **H1/H2 wording:** written into `topic_decision.md` §10 (24 Oct): Δmin = 91 m³ tested on total runoff, "not resolved" allowed; H2's mechanism restated. Original item: Δmin = 91 m³ and the "not resolved" rule for H1's runoff part (provisionally accepted 14 Oct); H2 as a species-composition claim (`notes/decisions/hypothesis_tests.md` §8, `runoff_metric_sensitivity.md` §10).
+- [x] **Contribution statement:** written as `topic_decision.md` §9.3 (v6, kept in v7: a method with the plan's rules as hard constraints). Original item: pick A (method), B (knowledge) and/or C (validation); use the narrower gap wording because of Dong 2026 (`notes/decisions/contribution_statement.md`).
 - [ ] **Methodology §12 proposed changes** (surface-weighted shade, SVF check, k as ASSUMPTION, R_OFF anchors, storage anchors for s): adopt or drop (`notes/methodology.md` §12).
 
 ### Requests that take time: send them first
@@ -61,11 +62,11 @@ The user lives in Florence (15 Oct), so **no field photos in Porta**. Remote alt
 - [ ] **Email the tutor** (one email, or bring it to the meeting):
   - [x] RESCCUE **flood depth maps**: found on 13 Oct as public tables (T10, T100, present/future) in the atlas's CARTO account, no login needed (`databases/data_inventory_barcelona.md` B1). Still worth asking: licence for thesis use, and whether a T = 1 yr run exists.
   - [x] **Sent 13 Oct: RESCCUE licence email** to br@bcnregional.com; waiting for the reply; reminder by ~23 Oct if none (text and steps: `notes/resccue_data_request.md`).
-  - [ ] **Infrared City access**, plus three questions: (a) how are trees represented: geometry only, or porosity/LAI per species? (b) API limits for thousands of runs; (c) published validation against ENVI-met or Ladybug.
+  - [ ] **Infrared City access**, plus three questions: (a) how are trees represented: geometry only, or porosity/LAI per species? (The 2020–2022 InFraReD papers have no trees in their microclimate models, only green space as an area: matrix #144–#146, read 28 Oct.) (b) API limits for thousands of runs; (c) published validation against ENVI-met or Ladybug.
   - [ ] Confirm the **final delivery date** (18 Dec?), and whether **Grasshopper integration** is required by the programme.
   - [ ] Slide format for the 5-min talk (Google Slides assumed).
   - [ ] Ask the tutor (now on slide 12): we removed H3 because it is true by construction of the model and declared it a boundary instead — is that the right call?
-- [ ] **RESCCUE licence reminder ~23 Oct** if Barcelona Regional has not replied (`notes/resccue_data_request.md`).
+- [ ] **RESCCUE licence reminder: OVERDUE (was due ~23 Oct)**; no reply is recorded in the repo. Send it if Barcelona Regional has not replied (`notes/resccue_data_request.md`).
 
 ### Papers (download in the browser via IAAC access; save to `papers/` and tell me, I'll digest them)
 These carry the gap and evidence slides. **First, the backup slide on tree pits** (`slides/outline_20oct.md` B1):
@@ -110,7 +111,7 @@ Then the gap and evidence papers:
 - [ ] Zotero by hand ("Add Item by Identifier"): Eslami, Sciuto (Zenodo DOI) and Schrodi (arXiv DOI), which have no Crossref record (`notes/handoff_papers.md`).
 
 ## Housekeeping
-- [ ] The Zotero MCP server timed out in this session. Restart Claude Code; if it fails again, check that `npx` works in a new terminal. Adding papers through `scripts/zotero_add.py` doesn't depend on it.
+- [x] Zotero MCP connects again (checked 26 Oct). Original item: the Zotero MCP server timed out in this session. Restart Claude Code; if it fails again, check that `npx` works in a new terminal. Adding papers through `scripts/zotero_add.py` doesn't depend on it.
 - [ ] Optional: delete `databases/barcelona/raw/2017_NDVI.tif` (1.6 GB). The Porta crop the model uses is already saved.
 
 ## Catalan transfer city: four portals blocked from the cloud container (18 Oct)

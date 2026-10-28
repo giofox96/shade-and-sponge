@@ -10,7 +10,8 @@ from .site import DB, CITY_LIDAR, rc, species_lidar
 from . import heat, runoff, season
 
 CITY_PALETTE = ["Celtis australis", "Melia azedarach", "Pyrus calleryana", "Jacaranda mimosifolia", "Tipuana tipu",
-                "Brachychiton populneus",   # named by the city as plane replacements (notes/topic_decision.md §7)
+                "Brachychiton populneus",   # the first five are named as replacements (city or press); Brachychiton is
+                                            # common in Porta's plantings but named in no source (notes/topic_decision.md §9.6, §10.4)
                 "Styphnolobium japonicum"]  # added by the user 14 Oct (press, inventory D1); crown + LAI from a city-wide LiDAR sample (site.CITY_LIDAR)
 MAX_SHARE = 0.15                            # tree master plan: no species above 15% (notes/topic_decision.md §7)
 MIN_LIDAR = 20                              # ASSUMPTION: species need >= 20 LiDAR-measured trees for median traits

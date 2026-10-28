@@ -47,13 +47,13 @@ To add a site, write `build_<site>()` and `trees_<site>()` in `site.py` (same ke
 | Layout | Summer shade (m²·h) | Winter shade (m²·h, cost) | Hotspot runoff (m³) |
 |---|---|---|---|
 | S0 current (mature planes) | 359,310 | 196,218 | 2,682.3 |
-| S1 random palette (mean of 10) | 286,656 | 190,332 | 2,698.5 |
+| S1 random palette (mean of 10) | 286,479 | 190,015 | 2,698.7 |
 | S4 summer only (1, 0, 0) | 332,224 | 205,396 | 2,690.8 |
 | **S4 balanced (0.50, 0.25, 0.25)** | **332,342** | **200,750** | 2,688.9 |
 | S4 winter-heavy (0, 0.50, 0.50) | 272,596 | 159,790 | 2,691.1 |
 
 **What the kept-tree calendars changed (15 → 20 Oct):** every layout and every summer value is identical; winter shade fell by 27,090–28,005 m²·h in every layout (kept deciduous trees of those species are now bare in January), season-weighted interception by ~4 m³ and hotspot runoff rose by ~0.9 m³. The percentages below move slightly.
-- **A small free gain first:** summer-only → balanced cuts winter shade by only 2.3% at the same summer shade, still by swapping ~90 Tipuana (fully leafed in January) for Jacaranda (80% leafed). It is not robust (see sensitivity). The balanced layout beats the random palette on summer shade (+15.9%) but casts more winter shade than it (+5.5%).
+- **A small free gain first:** summer-only → balanced cuts winter shade by only 2.3% at the same summer shade, still by swapping ~90 Tipuana (fully leafed in January) for Jacaranda (80% leafed). It is not robust (see sensitivity). The balanced layout beats the random palette on summer shade (+16.0%) but casts more winter shade than it (+5.6%).
 - **Then a real trade-off:** beyond the balanced layout, more winter sun costs summer shade (winter-heavy: −20.4% winter shade for −18.0% summer shade). The winter-heavy layout drops Tipuana (0) and most Jacaranda (35) for the winter-bare Pyrus (276, its cap), Styphnolobium (223), Melia (185) and Celtis (98). The front is not a point.
 - **Placement follows the buildings, partly:** in the balanced layout the winter-bare Melia gets positions in sun 87% of winter hours, Jacaranda 62%, Tipuana 44%, evergreen Brachychiton 29% (positions file: `sun_share_winter`). But Melia already holds the sunniest streets in the summer-only layout (winter weight 0: 82% of winter hours, 98% of summer hours), so that is mostly summer sun. The winter-driven evidence is the winter-heavy layout: the winter-bare Pyrus gets positions in sun 78% of winter hours and Celtis 68%, the evergreen Brachychiton 31%. The winter-bare Styphnolobium (34% balanced, 36% winter-heavy) also sits in winter-shaded streets, so leaf habit does not explain all placements.
 - Total runoff follows interception, i.e. crown size (17,706 m³ balanced vs 17,747 m³ winter-heavy). Hotspot runoff varies by only 0.5% across weights (2,688–2,703 m³). It mostly follows the runoff weight (Spearman −0.73 between runoff weight and hotspot runoff; lowest for runoff-only). In the 8 Oct run it did not (the winter-heavy layout was lowest), so the per-position water potential is still unverified (to check: crown overlap with kept trees, the box-filter approximation).
@@ -62,13 +62,13 @@ To add a site, write `build_<site>()` and `trees_<site>()` in `site.py` (same ke
 
 **Superseded (old calendar, 8 Oct; six species, Jacaranda bare Jan–Mar):** summer-only → balanced −9% winter shade (~100 Tipuana → Jacaranda) at equal summer shade; balanced vs random +14% summer, −3% winter; winter-heavy vs balanced −11% winter for −16% summer shade; placement Jacaranda 80%, Tipuana 51%, Brachychiton 29% of winter hours in sun.
 
-## Sensitivity of the winter-sun result (re-run 20 Oct, `scripts/sensitivity_tool_v0.py`)
+## Sensitivity of the winter-sun result (re-run 20 Oct; random palettes re-drawn 26 Oct after the 24 Oct change to `random_layout`, which moved only the vs-random columns; `scripts/sensitivity_tool_v0.py`)
 Base run plus 7 one-change variants: leafless opacity 0.25 / 0.54; Tipuana bare in Jan–Feb ('briefly deciduous' in winter: Santa Barbara Beautiful, Tree of the Month; search snippet only); Jacaranda half-leafed Jan–Mar; Jacaranda bare Jan–Mar (the old calendar, from the Valencia BBCH study); winter design day 21 Dec / 15 Feb. Each re-optimises summer-only, balanced and winter-heavy layouts against 3 random palettes. Results: `databases/barcelona/tool_v0_sensitivity.csv` (summary), `_raw.csv`. The base variant reproduces the main run exactly. Every variant's layouts and summer values are identical to the 15 Oct run; only winter shade moved, through the kept trees' leaf calendars.
 
 | Claim | Range across variants | Verdict |
 |---|---|---|
-| Optimised (balanced) vs random palette, summer shade | +15.8 to +15.9% (main run vs 10 random: +15.9%) | **robust** |
-| Balanced vs random palette, winter shade | −1.0 to +8.6% (−1.0% only with the old Jacaranda calendar) | no winter gain: about equal or worse |
+| Optimised (balanced) vs random palette, summer shade | +15.8 to +15.9% (main run vs 10 random: +16.0%) | **robust** |
+| Balanced vs random palette, winter shade | −0.4 to +8.9% (−0.4% only with the old Jacaranda calendar) | no winter gain: about equal or worse |
 | No-regret swap summer-only → balanced: winter shade at equal summer shade | −0.2 to −10.1% (base −2.3%; summer within ±0.1%) | sign holds, but **small** except with the old calendar |
 | Trade-off beyond balanced: winter-heavy vs balanced | winter −14 to −23%, summer −17 to −20% | **robust** |
 | Species of the balanced layout | Melia 256, Styphnolobium 67, Celtis 0 in every variant; Tipuana → Jacaranda swap (~90) in only 5 of 8 variants | swap **not robust** |
@@ -90,7 +90,7 @@ Base run plus 7 one-change variants: leafless opacity 0.25 / 0.54; Tipuana bare 
 | Layout (Barcelona palette) | Summer shade (m²·h) | Winter shade (m²·h) | Hotspot runoff (m³) |
 |---|---|---|---|
 | S0 current (mature planes) | 359,310 | 196,218 | 2,682.3 |
-| S1 random palette (mean of 10) | 278,735 | 188,043 | 2,699.0 |
+| S1 random palette (mean of 10) | 278,536 | 188,713 | 2,699.6 |
 | S4 summer only | 365,428 | 254,876 | 2,682.4 |
 | **S4 balanced** | **362,500** | **208,828** | 2,682.4 |
 | S4 winter-heavy | 272,457 | 155,655 | 2,683.7 |
@@ -150,6 +150,32 @@ Run: `python -m shade_sponge porta --size=exact --trunk=TERCERA` → `databases/
 - S0 is not at equal trunk size: it has today's measured planes, 2,600 trees, while each layout puts trees at all 832 plane positions, 25 more than S0's planes with good LiDAR crowns.
 - Additions (A, R+A): see the next section.
 
+## Growth stage: about 10 years vs established (28 Oct)
+Run: `python -m shade_sponge porta --size=exact --trunk=SEGONA` → `databases/barcelona/tool_v0_summary_sizeexact_trunkSEGONA.csv`; web: `porta-segona` (header switch "≈ 10 years | Established").
+
+**Stage definition:**
+- **About 10 years:** the second trunk class (SEGONA, 41–80 cm perimeter). Among the dated palette-species trees in the city inventory, the median time from planting to the LiDAR flight (26 Sept 2021) is 9.7 years (n = 4,213). Planting dates go back only about 14 years, so older trees are missing from this estimate.
+- **Established:** the third class (TERCERA, 81–110 cm), the thesis comparison above. Its dated trees have a median of 11.1 years, but that is censored by the same date limit, so no age is claimed for it.
+- **Planting (first class, PRIMERA):** not offered. Too few palette trees have crowns in Porta (Brachychiton 1, Tipuana 7, Jacaranda 9, Melia 10), and their LiDAR heights are implausible (Melia 12.2 m), probably small crowns segmented under larger ones.
+
+**Results** (all 832 positions, T2-60, balanced weights; S0 = today's measured trees in both rows):
+
+| Stage | S1a summer shade, % of today | Opt summer shade, % of today | Opt vs S1a, summer / winter shade | Total runoff vs today, S1a / Opt (m³) | Canopy (disc model), S1a / Opt |
+|---|---|---|---|---|---|
+| About 10 years | 75.5 | 81.8 | +8.4% / +7.6% | +84.4 / +64.1 | 20.5 / 21.0% |
+| Established | 87.4 | 98.3 | +12.4% / +6.4% | +54.1 / +20.2 | 21.5 / 22.2% |
+
+**Reading:**
+- **The transition costs a quarter of today's summer shade under the city's rule, and about a fifth with optimised species.** Both stages compare against today's mature planes.
+- **The optimised advantage is smaller at 10 years** (+8.4% vs +12.4%), because young crowns differ less between species.
+- **Every runoff difference still stays within Δmin** (91 m³), even against today. The stage barely moves the runoff answer.
+- **The 10-year optimised mix shifts to the species that grow wide fast:** Jacaranda 278 and Tipuana 284 (both at the cap), Styphnolobium 130, Melia 88, Brachychiton 38, Celtis 9, Pyrus 5.
+
+**Caveats:**
+- *Styphnolobium* keeps its city-wide all-class medians at both stages, so it is not staged, and it is favoured at 10 years. Treat its 130 trees with caution.
+- A trunk class is not an age class, and growth depends on site.
+- The dated trees are those planted since about 2007.
+
 ## Additions: R, A and R+A (24 Oct)
 **Spots:** `scripts/porta_planting_spots.py` → `databases/barcelona/porta_planting_spots.csv`, built in four steps:
 1. Walk every façade line of the 1:1000 map (same tiles and ray method as the sidewalk widths) and take the first road line beyond it as the kerb.
@@ -183,6 +209,20 @@ The result is **267 spots: 142 small, 53 medium, 72 large.** This is an **upper 
 - The spots are a ceiling, not a plan. Not modelled: driveways (> 1 m), traffic lights and signs (> 3 m), lamps (3 / 4.5 / 6.5 m), balcony clearance (0.5 m), crossings, bus stops and services.
 - A new spot is spaced by its own class only, so a small spot can sit 7–13 m from an existing large tree. This slightly overstates the count.
 - R scores 832 positions; S0 has 809 planes with good LiDAR crowns.
+
+### Canopy cover against the 30% target (28 Oct)
+**The gap:** Porta's measured cover is 20.1% (LiDAR CHM > 2 m, 2021; `databases/barcelona/porta_canopy_cover.csv`), against the plan's 30%. That is **9.9 points, about 8.3 ha of crowns**.
+
+**What street trees can close** (from the additions run above, disc model):
+- **All 267 free spots, optimised species:** **+0.70 pts**, reaching about **20.8%**, so about 7% of the gap. With the city's mix: +0.59 pts.
+- **Crown per new tree:** each optimised new tree adds on average about 22 m² of crown (0.70% × 83.7 ha / 267).
+- **Trees needed:** closing the gap would take about **3,800 street trees** of that size. That is 14 times the street spots found, which are themselves an upper bound.
+
+**Reading:**
+- **Additions are the lever on cover, replacement is not.** Every replacement layout lowers cover, and every additions layout raises it.
+- **Street trees alone cannot reach the 30%.** The rest has to come from squares, courtyards, parks and de-sealed ground (scale estimate; the 30% is a city-wide target, not a per-neighbourhood one).
+
+**In the web app:** a "Canopy cover" counter shows the layout on screen against the target. It starts from the measured 20.1% and adds the change of the disc model, and it rises with every added tree. For live layouts, project areas and added trees the change is a no-overlap sum, so it runs high.
 
 ## Genus and family check (24 Oct)
 Every layout now reports its largest genus and family share: `layout.taxon_shares`, with families from standard taxonomy. These are compared with Santamour's (1990) 20% per genus and 30% per family (values from `databases/barcelona/additions_summary.csv`; city rule = mean of its 5 seeds), and reported, not constrained, because Barcelona caps species only. The denominator is the evaluated tree set (good LiDAR crowns plus the new trees), so shares run slightly above the cap's 2,825-tree denominator.

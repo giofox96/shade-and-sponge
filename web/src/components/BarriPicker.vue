@@ -47,8 +47,7 @@ function pick(name) {
   if (!b) return
   state.barri = name
   if (!b.site) return
-  const site = state.site.endsWith('-barcelona') ? `${b.site}-barcelona` : b.site
-  if (site !== state.site) switchSite(site)
+  if (!state.site.startsWith(b.site)) switchSite(b.site)   // keeps the palette / tree-size variant of the same barri
 }
 </script>
 
@@ -81,15 +80,15 @@ function pick(name) {
 <style scoped>
 .mini { width: 100%; max-width: 260px; display: block; margin: 0 auto 6px; }
 path { fill: var(--line); stroke: var(--panel); stroke-width: 0.6; cursor: pointer; }
-path:hover { fill: var(--stone); }
-path.ready { fill: var(--accent); }
-path.ready:hover { fill: #557f53; }
-path.on { fill: var(--stone); stroke: var(--text); stroke-width: 1.6; }
-path.ready.on { fill: var(--accent); }
+path:hover { fill: var(--kept); }
+path.ready { fill: var(--good); }
+path.ready:hover { fill: var(--good); fill-opacity: 0.8; }
+path.on { fill: var(--kept); stroke: var(--text); stroke-width: 1.6; }
+path.ready.on { fill: var(--good); }
 .ink { color: var(--text); font-weight: 600; }
-.warn { color: var(--heat); }
+.warn { color: var(--bad); }
 .legend { display: flex; gap: 12px; }
 .legend > span { display: inline-flex; align-items: center; gap: 4px; }
 .sw { display: inline-block; width: 10px; height: 10px; border-radius: 2px; background: var(--line); }
-.sw.ready { background: var(--accent); }
+.sw.ready { background: var(--good); }
 </style>

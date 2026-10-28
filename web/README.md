@@ -6,16 +6,88 @@ Browse the street-tree layouts of the tool (`shade_sponge/`) on a 3D map: priori
 
 ## Run
 ```bash
-python -m shade_sponge             # tool run (layouts + metrics), from the repo root
-python -m shade_sponge.web_export  # writes web/public/data/porta/
+python -m shade_sponge porta --size=exact --trunk=TERCERA             # tool run in the thesis configuration (from the repo root)
+python -m shade_sponge.web_export porta --size=exact --trunk=TERCERA  # writes web/public/data/porta/
 cd web && npm install && npm run dev
 ```
+The published data use the **thesis configuration** (since 26 Oct): the exact sidewalk sizing rule and species traits at equal trunk size (TERCERA), with the city rule (S1a, the 2026 mix) as the comparison column. Without the two options you get the default run (no sizing rule, traits from all trunk sizes). For the Barcelona shortlist add `--palette=barcelona` to both commands. The header switch **≈ 10 years | Established** loads `data/porta-segona/` (`--trunk=SEGONA`, the second trunk class, a median of 9.7 years after planting) or `data/porta/` (`--trunk=TERCERA`); city palette only.
 `npm run build` writes a static site to `web/dist/` (relative paths, so it can be hosted anywhere).
 
 **Online:** https://giofox96.github.io/shade-and-sponge/ — `.github/workflows/pages.yml` rebuilds and publishes `web/dist` to the `gh-pages` branch whenever `web/` changes on `main` or `claude/web-ui`. Data credits are in the app's left panel (Data and sources).
 
 ## Data (`web/public/data/<site>/`, from `shade_sponge/web_export.py`)
 `meta.json` (palette with leaf calendars and sources, scenarios with metrics, sensitivity, overlays) · `trees.json` (plane positions, kept trees, species per position for each saved layout) · `potentials.json` (per-position shade and interception potentials + façade fit, for live optimisation) · `buildings.geojson` · overlay PNGs (winter sun, summer sun, water convergence, flood hotspots). The map is flat: heights are metres above local ground.
+
+## Layout (28 Oct cleanup)
+- **Header:** the site, and two labelled switches: **Palette** (city 7 / Barcelona 34) and **New trees at** (≈ 10 years / established).
+- **Left panel**, in working order:
+  1. **Scenario:** today, city rule, optimised, project area, random, plus the priority triangle.
+  2. **Project area:** draw, replace all, fill spots.
+  3. **Add trees.**
+
+  Collapsed groups: **Rules and species** (cap, diversity floor, excluded species), **Map display** (sidewalks, overlay, month) and **Data and sources**. Each closed group shows its current setting in its title. Longer explanations are under *How it works*.
+- **Map | Compare side by side:** tabs over the main view.
+- **Right panel:** canopy cover, results (with the scenario's description), trade-off (collapsible) and the selected tree.
+- **Map defaults:** no overlay, so the sidewalks and free spots read clearly. The sun and water layers are under Map display.
+- **Narrow screens:** the map comes first, then the controls, then the results.
+- **Side panels:** drag the inner edge of either panel to resize it (200–520 px; arrow keys on the focused edge). The ‹ / › button on the edge hides or shows it. Widths and open state are remembered in the browser.
+- **Cursor:** the map shows a crosshair while drawing a project area or adding trees, and the hand otherwise.
+- **Look:** the slide deck's "Earth" palette and fonts (`scripts/make_infographics.py`):
+  - **colours:** ink, moss = trees, ink blue = rain / accent, rust = heat / worse, ochre = warnings, title-slide green = header;
+  - **fonts:** IBM Plex Sans and Plex Mono, from Google Fonts.
+
+  All colours are CSS tokens in `src/style.css`. The map and the chart, which cannot read CSS, take theirs from `themeColors` in `store.js`.
+- **Dark mode:** **Auto | Light | Dark** in the header. Auto follows the system, and the choice is remembered. The basemap switches between OpenFreeMap Positron (light) and CARTO Dark Matter (dark), and buildings, sidewalks, tree outlines and the chart follow the theme.
+
+## Canopy cover counter (28 Oct)
+The top of the right panel shows the **canopy cover** of the layout on screen against the plan's **30% target**:
+- **Today:** the measured 20.1% (LiDAR CHM > 2 m).
+- **Precomputed layouts:** today plus the change of the disc model (exact, overlaps included).
+- **Live layouts, project areas and added trees:** today plus their crown discs summed without overlaps (marked ≈, runs high). Each added tree updates the counter.
+- **Gap:** the points and hectares left to the target.
+- **For scale** (city palette, established): what planting all the free street spots would add (computed on 267 spots; 232 remain after the OSM exclusions, re-run pending).
+
+The data are in `meta.json → cover`, from `databases/barcelona/porta_canopy_cover.csv` and `additions_summary.csv`.
+
+## Project area (28 Oct)
+Trees are not replaced all at once. A plane is replaced when it dies, when it is unsafe, or when a street project rebuilds the ground. **Project area** (left panel) lets the designer draw that place:
+1. **Draw area:** click the corners on the map (clicks on trees count too, and double-click zoom is off while drawing), then **Finish**.
+2. **What is replaced:** only the plane positions inside the polygon. Today's trees stay everywhere else.
+3. **Optimisation:** the same LP as the live optimiser, restricted to those positions, with the current weights, cap, excluded species and diversity floor. Clicking the triangle or a dot re-optimises the area.
+4. **The comparison** inside the area:
+   - **today:** the measured planes;
+   - **city rule:** the expected value of the 2026 mix within the sizing rule. Capped species are scaled down to their room, as in the exact S1a draws;
+   - **optimised.**
+
+   The results panel ("vs city rule") and the Compare view use the area.
+5. **Back to the whole district:** the **Whole site** button.
+6. **Replace all trees in the area** (checkbox): the other street trees inside become decision positions too, as in a street rebuild that removes the whole stretch.
+   - They are scored in the browser at their position with the sizing rule of their sidewalk (`porta_sidewalk_width.csv`).
+   - Today's version uses their LiDAR crown, LAI and leaf calendar.
+   - The cap gains the room their species free up.
+   - New trees are scored at the selected stage, so replacing young trees looks like a gain that takes years to arrive. The panel says so.
+7. **Fill the free spots:** every free planting spot inside the area (`porta_planting_spots.csv`, an upper bound) becomes an added tree with its sidewalk's size class. The optimiser then chooses its species together with the area.
+
+**Sidewalks on the map** (Map layer → *Sidewalk edges and free planting spots*, on by default):
+- façade lines (brown) and kerb lines (dark) from the 1:1000 base map, so the sidewalk is the band between them;
+- the 232 free spots as green dots (267 minus those near crossings, signals, parking entrances and bus stops; `scripts/porta_spot_exclusions.py`) (light to dark = small / medium / large). In *Add trees* mode, a click on a spot plants there.
+
+Built by `web_export.py` from the cached WMS tiles (`sidewalks.geojson`).
+
+**How the estimate works:** today's exact metrics + calibration slope × Σ (potential of the new species − potential of today's plane) over the area.
+- **Today's planes** are scored in the browser, from their measured crown and the plane's median LAI (`ASSUMPTION`). Their potentials are rescaled per metric, so that the calibration line, fed with all 832 planes, returns today's exact value.
+- **Checked on 28 Oct:** an area covering 752 of the 832 positions gives 352,534 / 207,760 m²·h and 17,691 m³. The exact full replacement gives 353,075 / 209,485 m²·h and 17,688 m³.
+- **Not estimated:** canopy cover. Added trees are counted on top, as elsewhere.
+
+## Compare side by side (28 Oct)
+The **Compare side by side** button (left panel, Layout) replaces the 3D map with three columns: **today | city rule | optimised**. The optimised column is the selected or live layout, otherwise the balanced one.
+- **Mini-map:** each column draws every crown to scale. Plane positions are coloured by species, today's planes are dark, kept trees are light grey.
+- **Metrics:** summer and winter shade, hotspot and total runoff, and canopy cover, each against today. Canopy cover is shown in percentage points.
+- **Species mix** of the replanted positions.
+- **City-rule column:** the metrics are the mean of its 10 draws; the map and mix show draw #0.
+- **Stage:** the "≈ 10 years | Established" switch applies to all three columns.
+- **Layout:** the three columns sit side by side from about 1,300 px of window width and stack on narrower screens.
+- **Canopy cover** is a new exported metric (`canopy_pct`). Live layouts show no canopy value.
 
 ## Palettes and designer mode (9 Oct)
 - **Palette switch** (header): the city palette, 7 species: the city's 6 named replacements + Styphnolobium (`data/porta/`) or the Barcelona shortlist of 34 species (`data/porta-barcelona/`, from `python -m shade_sponge porta --palette=barcelona` and `python -m shade_sponge.web_export porta --palette=barcelona`). With 34 species, crowns are coloured by leaf habit (hue: ochre deciduous, green evergreen, olive semi-deciduous) and crown size (lightness); the species is in the tooltip and the inspector.
@@ -27,7 +99,19 @@ Click anywhere inside the priority triangle (dots = precomputed exact layouts), 
 - **Check against Python:** for 4 weight sets the browser layout matches the saved Python layout at 827–832 of 832 positions, with the same species counts (one tree different in one set); the difference comes from the rounded potentials in the export.
 - **Results are estimates (marked ≈):** summed single-tree potentials (no crown overlaps), calibrated by a straight line on the 16 saved palette layouts; the R² of each line is shown in the results panel. Exact scores need a run of the Python tool.
 
-## Look (25 Oct): the deck's palette and fonts
-Same "Earth" palette and fonts as the slides (`scripts/make_infographics.py`, `slides/palette_board.html` option C), as CSS tokens in `src/style.css`. Fonts: IBM Plex Sans for text, IBM Plex Mono for labels and numbers. Colours carry the deck's meaning: moss = trees and the decision (buttons, selection, optimised layouts), ochre = sun and shade, ink blue = water and runoff, rust = heat and warnings. The header is the dark green of the title slides.
-- **Species colours (city palette):** seven earth tones in a fixed order (moss, ink blue, ochre, rose, olive, plum, rust; `shade_sponge/web_export.py`). Adjacent slots pass the colour-vision-deficiency check and every colour has ≥ 3:1 contrast on the page background. All 21 pairs together cannot pass with 7 hues, so species are also named in the legend, the tooltip and the inspector.
-- **Overlays:** one-hue ramps, stone → ochre for sun, bone → ink blue for water convergence, bone → rust for hotspots. The committed PNGs and `meta.json` colours were remapped in place (exact colour-map lookup); the next `web_export` run writes the same colours.
+## Species colours, overlays and the neighbourhood picker (25–28 Oct)
+The UI look is described under "Layout" above. On top of it:
+- **Species colours (city palette):** seven earth tones in a fixed order: moss, ink blue, ochre, rose, olive, plum, rust (`shade_sponge/web_export.py`).
+  - In light mode, adjacent slots pass the colour-vision-deficiency check, and every colour has ≥ 3:1 contrast.
+  - In dark mode they also pass the colour-vision check, but ink blue, rose and plum fall to 2.5–2.7:1 on the dark map.
+  - All 21 pairs together cannot pass with 7 hues. So species are also named in the legend, the tooltip and the inspector.
+- **Barcelona palette:** colour = leaf habit (ochre deciduous, green evergreen, olive semi-deciduous); darker = larger crown.
+- **Overlays:** one-hue ramps:
+  - sun: stone → ochre;
+  - water convergence: bone → ink blue;
+  - hotspots: bone → rust.
+
+  The committed PNGs and `meta.json` colours were remapped in place, by an exact colour-map lookup, for all three datasets. The next `web_export` run writes the same colours.
+- **Neighbourhood picker** (left panel, `src/components/BarriPicker.vue`): a mini-map of the 73 barris plus a dropdown grouped by district.
+  - Only barris with exported data open on the map (Porta for now); the others show their plane count and "not computed yet".
+  - The outlines come from `scripts/make_barris_web.py` → `public/data/barris.geojson`. They are provisional, from OSM; the official Open Data BCN boundaries are used when the script runs where they are downloaded.

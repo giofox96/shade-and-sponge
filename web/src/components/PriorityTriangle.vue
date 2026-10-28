@@ -2,7 +2,7 @@
 // Priority triangle: each point is a weight set (summer shade, winter sun, runoff) that sums to 1.
 // Dots = precomputed optimised layouts (exact scores); click anywhere else = live re-optimisation (estimate).
 import { computed, ref } from 'vue'
-import { state, runLive, LIVE } from '../store.js'
+import { state, runLive, runArea, LIVE } from '../store.js'
 
 const V = { s: [120, 18], w: [16, 186], r: [224, 186] } // summer top, winter bottom-left, runoff bottom-right
 const xy = ([s, w, r]) => [s * V.s[0] + w * V.w[0] + r * V.r[0], s * V.s[1] + w * V.w[1] + r * V.r[1]]
@@ -36,10 +36,10 @@ function weightsAt(evt) {
        aria-label="Priority triangle: pick the weights of summer shade, winter sun and runoff"
        @click="runLive(weightsAt($event))">
     <polygon :points="[V.s, V.w, V.r].map((p) => p.join(',')).join(' ')" class="edge" />
-    <text :x="V.s[0]" :y="V.s[1] - 6" text-anchor="middle" class="sun">summer shade</text>
-    <text :x="V.w[0]" :y="V.w[1] + 16" class="sun">winter sun</text>
-    <text :x="V.r[0]" :y="V.r[1] + 16" text-anchor="end" class="water">runoff</text>
-    <g v-for="pt in points" :key="pt.id" class="pt" @click.stop="state.scenarioId = pt.id">
+    <text :x="V.s[0]" :y="V.s[1] - 6" text-anchor="middle">summer shade</text>
+    <text :x="V.w[0]" :y="V.w[1] + 16">winter sun</text>
+    <text :x="V.r[0]" :y="V.r[1] + 16" text-anchor="end">runoff</text>
+    <g v-for="pt in points" :key="pt.id" class="pt" @click.stop="state.area ? runArea(pt.w) : (state.scenarioId = pt.id)">
       <title>summer {{ pt.w[0] }} · winter {{ pt.w[1] }} · runoff {{ pt.w[2] }} (exact)</title>
       <circle :cx="pt.p[0]" :cy="pt.p[1]" r="9" class="hit" />
       <circle :cx="pt.p[0]" :cy="pt.p[1]" :r="state.scenarioId === pt.id ? 7 : 4.5"
@@ -55,16 +55,14 @@ function weightsAt(evt) {
 
 <style scoped>
 .tri { width: 100%; display: block; cursor: crosshair; }
-.edge { fill: var(--bg); stroke: var(--stone); stroke-width: 1; }
-text { font: 600 10px var(--mono); letter-spacing: 0.06em; text-transform: uppercase; fill: var(--muted); pointer-events: none; }
-text.sun { fill: var(--sun); }
-text.water { fill: var(--water); }
+.edge { fill: var(--hover); fill-opacity: 0.4; stroke: var(--muted); stroke-width: 1; }
+text { font-size: 11px; fill: var(--muted); pointer-events: none; }
 .pt { cursor: pointer; }
 .hit { fill: transparent; }
-.pt circle:not(.hit) { fill: var(--stone); stroke: var(--panel); stroke-width: 1.5; }
-.pt circle.front { fill: #7a9a6f; }
+.pt circle:not(.hit) { fill: var(--line); stroke: var(--bg); stroke-width: 1.5; }
+.pt circle.front { fill: var(--accent); fill-opacity: 0.55; }
 .pt circle.on { fill: var(--accent); }
 .pt:hover circle:not(.hit) { fill: var(--accent); }
-.live polygon { fill: var(--sun-fill); stroke: var(--sun); stroke-width: 1; cursor: pointer; }
-.live polygon.on { fill: var(--sun); }
+.live polygon { fill: var(--warn); fill-opacity: 0.6; stroke: var(--warn); stroke-width: 1; cursor: pointer; }
+.live polygon.on { fill-opacity: 1; }
 </style>
