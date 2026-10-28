@@ -182,6 +182,14 @@ watch(
   () => overlay?.setProps({ layers: layers() }),
 )
 
+// a new project area: frame it (keeps the current pitch and bearing)
+watch(() => state.area?.poly, (poly) => {
+  if (!poly || !map) return
+  const lons = poly.map((p) => p[0]), lats = poly.map((p) => p[1])
+  map.fitBounds([[Math.min(...lons), Math.min(...lats)], [Math.max(...lons), Math.max(...lats)]],
+    { padding: 60, pitch: map.getPitch(), bearing: map.getBearing(), duration: 800, maxZoom: 18.5 })
+})
+
 // while drawing a project area, double clicks place corners instead of zooming
 watch(() => state.drawing, (on) => (on ? map?.doubleClickZoom.disable() : map?.doubleClickZoom.enable()))
 

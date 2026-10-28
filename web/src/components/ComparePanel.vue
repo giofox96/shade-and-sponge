@@ -26,7 +26,16 @@ const keptAll = computed(() => {
 })
 const kept = keptAll // all kept trees, for the bounding box and the 'Today' column
 const pos = computed(() => state.trees.positions.lon.map((lon, i) => proj.value(lon, state.trees.positions.lat[i])))
+// the project area's outline in local metres, when an area is on screen
+const areaPts = computed(() => (state.scenarioId === AREA && state.area ? state.area.poly.map(([lon, lat]) => proj.value(lon, lat)) : null))
+const areaPath = computed(() => areaPts.value?.map((p) => p.join(',')).join(' '))
+// frame: the whole site, or the project area with a 25 m margin
 const viewBox = computed(() => {
+  if (areaPts.value) {
+    const xs = areaPts.value.map((p) => p[0]), ys = areaPts.value.map((p) => p[1])
+    const [x0, x1, y0, y1] = [Math.min(...xs) - 25, Math.max(...xs) + 25, Math.min(...ys) - 25, Math.max(...ys) + 25]
+    return `${x0} ${y0} ${x1 - x0} ${y1 - y0}`
+  }
   const xs = [...kept.value, ...pos.value].map((p) => p[0]), ys = [...kept.value, ...pos.value].map((p) => p[1])
   const [x0, x1, y0, y1] = [Math.min(...xs), Math.max(...xs), Math.min(...ys), Math.max(...ys)]
   return `${x0 - 10} ${y0 - 10} ${x1 - x0 + 20} ${y1 - y0 + 20}`
@@ -101,6 +110,7 @@ const stage = computed(() => (state.meta?.run?.trunk_class === 'SEGONA' ? 'repla
         <svg :viewBox="viewBox" class="mini" role="img" :aria-label="`Tree crowns, ${c.title}`">
           <circle v-for="(k, i) in c.kept" :key="'k' + i" :cx="k[0]" :cy="k[1]" :r="k[2]" class="kept" />
           <circle v-for="(t, i) in c.keptNew" :key="'n' + i" :cx="t.x" :cy="t.y" :r="t.r" :fill="t.c" fill-opacity="0.75" />
+          <polygon v-if="areaPath" :points="areaPath" class="area" />
           <circle v-for="(t, i) in c.crowns" :key="i" :cx="t.x" :cy="t.y" :r="t.r" :fill="t.c" fill-opacity="0.75" />
         </svg>
         <table class="kpi">
@@ -131,6 +141,7 @@ const stage = computed(() => (state.meta?.run?.trunk_class === 'SEGONA' ? 'repla
 .sub { margin: 2px 0 6px; min-height: 2.6em; }
 .mini { width: 100%; height: auto; max-height: 46vh; background: #f4f3ef; border-radius: 4px; display: block; }
 .kept { fill: #b4b2a9; fill-opacity: 0.55; }
+.area { fill: none; stroke: #185fa5; stroke-width: 1.5; vector-effect: non-scaling-stroke; stroke-dasharray: 6 3; }
 .kpi { width: 100%; border-collapse: collapse; font-size: 12px; margin-top: 8px; }
 .kpi td { padding: 3px 4px; border-top: 0.5px solid var(--line, #ddd); }
 .num { text-align: right; white-space: nowrap; }
