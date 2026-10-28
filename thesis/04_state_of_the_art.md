@@ -61,10 +61,11 @@ Pedestrian heat stress is usually expressed as UTCI or physiological equivalent 
 - Ladybug UTCI for one configuration of 42 trees took 20–25 minutes [@shaamala2025].
 - On a 25 × 36 m site, one evaluation took 10–20 seconds at first, with the time rising during the run, so a run of 200 evaluations took 2–3 hours [@peng2026].
 - Optimisers over larger areas therefore replace the simulation with a surrogate. A random-forest surrogate trained on 1,500 simulations predicted site-mean UTCI with an RMSE of 0.09 °C [@tanliu2026]. U-Net surrogates trained on SOLWEIG predicted point-wise MRT with an L1 error of 1.93 K, up to 400,000 times faster for decade-long aggregates [@schrodi2023].
+- The surrogate approach behind Infrared City predicts solar radiation, wind and thermal comfort from building geometry. A prediction takes less than 100 ms [@chronis2020], and the networks are trained on Ladybug and OpenFOAM results [@duering2020]. Its wind model is reported as about 10,000 times faster than CFD, with 80–95% accuracy [@duering2022, citing Kabosová et al., 2021, and Galanos et al., 2019]. Neither of the two framework papers reports a validation [@chronis2020; @duering2020]. None of the three models trees or vegetation in its microclimate predictions; green space enters only as an area parameter and ratio [@chronis2020].
 
 **No study found reports the error of Ladybug Tools, standard or τ-corrected, against measured MRT under Mediterranean street trees.** The closest evidence is the SOLWEIG study in Barcelona [@colaninno2025] and the single camphor tree in Shanghai [@peng2026].
 
-The method therefore uses a fast shade proxy inside the optimiser. Ladybug UTCI, with the τ correction, checks the final layouts, and the known Ladybug–ENVI-met error is the reference for how much of a difference can be trusted (Chapters 5 and 6). A commercial fast UTCI service, Infrared City, is a candidate replacement for the Ladybug step. Access is not yet confirmed.
+The method therefore uses a fast shade proxy inside the optimiser. Ladybug UTCI, with the τ correction, checks the final layouts, and the known Ladybug–ENVI-met error is the reference for how much of a difference can be trusted (Chapters 5 and 6). Infrared City, the commercial platform spun off from that research at AIT, according to its CTO's portfolio, is a candidate replacement for the Ladybug step. Access is not yet confirmed, and how it represents trees is one of the questions for the tutor.
 
 ## Recommenders and optimisers {#sec:sota-optimisers}
 
@@ -93,10 +94,20 @@ Table 4.1 sets the closest studies against five properties that a tool for Porta
 | @schrodi2023 | MRT | no | no (uniform trees) | yes | yes (local search) |
 | @tanliu2026 | UTCI | no | species-specific crowns (US allometry) | yes (30 trees) | yes (NSGA-II) |
 | @langenheim2022 | winter sun (qualitative) | flood maps (qualitative) | four tree types | rule-based per position | no |
+| @duering2020 | thermal comfort, wind (DL surrogate) | no | no (buildings and streets only) | no | yes (Octopus) |
+| @duering2022 | wind comfort, shading | no | no (tower massing) | no | design-space exploration (5,000 variants) |
 
 : Table 4.1. Studies closest to the task, by the properties a Porta replacement tool needs. All were read in full; Eslami et al. (2025), cited in the text, is an extended abstract.
 
-Three groups emerge.
+Four groups emerge.
+
+**Fast-simulation optimisers for building form.** The Vienna work behind Infrared City optimises urban form, not trees:
+
+- **A six-block quarter:** a generated street, block and building model was scored on five objectives, including thermal comfort weighted by pedestrian flow and wind comfort. Evolutionary optimisation ran about 2,000 iterations in two hours, at about 3.5 s per variant, and the explored design space then served to benchmark manual designs [@duering2020].
+- **Two towers:** 5,000 variants were explored with a dashboard instead of an optimiser [@duering2022].
+- **Rain as a future metric:** the framework paper names rainfall and rainwater as future metrics [@chronis2020, pp. 7, 9 of the preprint].
+
+These studies show what fast surrogates make possible in Grasshopper. Their decision variables are buildings, though, and the microclimate models do not see trees.
 
 **Heat optimisers that ignore runoff.** Most optimisers place trees for heat alone:
 
@@ -176,5 +187,9 @@ hao2023         #62  Hao, Zhao & Huang 2023, Urban For. Urban Green. 86:128017 [
 elkhateeb2025   #63  Elkhateeb & Anwar 2025, Urban Sci. 9:504 [full text]
 oneto2026       #64  Oneto, Mosca, Villa & Perini 2026, Urban For. Urban Green. 120:129457 [full text]
 langenheim2022  #86  Langenheim & White 2022, Int. J. Environ. Res. Public Health 19:8220 [full text]
-Infrared City: no citation (tool; access to confirm with the tutor).
+chronis2020     #144 Chronis et al. 2020, CAADRIA 2020 Paper 179 (preprint) — INFRARED framework [full text]
+duering2020     #145 Duering, Chronis & Koenig 2020, SimAUD 2020, Vienna, pp. 503–509 [full text]
+duering2022     #146 Duering, Fink, Chronis & Koenig 2022, POST-CARBON, Proc. 27th CAADRIA, pp. 545–554, doi:10.52842/conf.caadria.2022.1.545 [full text of a pre-camera-ready draft]
+kabosova2021, galanos2019: not read; cited as "citing" inside duering2022 — no own entries.
+Infrared City (platform): no citation beyond #144–#146 (access to confirm with the tutor).
 -->
