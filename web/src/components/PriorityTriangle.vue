@@ -2,7 +2,7 @@
 // Priority triangle: each point is a weight set (summer shade, winter sun, runoff) that sums to 1.
 // Dots = precomputed optimised layouts (exact scores); click anywhere else = live re-optimisation (estimate).
 import { computed, ref } from 'vue'
-import { state, runLive, LIVE } from '../store.js'
+import { state, runLive, runArea, LIVE } from '../store.js'
 
 const V = { s: [120, 18], w: [16, 186], r: [224, 186] } // summer top, winter bottom-left, runoff bottom-right
 const xy = ([s, w, r]) => [s * V.s[0] + w * V.w[0] + r * V.r[0], s * V.s[1] + w * V.w[1] + r * V.r[1]]
@@ -39,7 +39,7 @@ function weightsAt(evt) {
     <text :x="V.s[0]" :y="V.s[1] - 6" text-anchor="middle">summer shade</text>
     <text :x="V.w[0]" :y="V.w[1] + 16">winter sun</text>
     <text :x="V.r[0]" :y="V.r[1] + 16" text-anchor="end">runoff</text>
-    <g v-for="pt in points" :key="pt.id" class="pt" @click.stop="state.scenarioId = pt.id">
+    <g v-for="pt in points" :key="pt.id" class="pt" @click.stop="state.area ? runArea(pt.w) : (state.scenarioId = pt.id)">
       <title>summer {{ pt.w[0] }} · winter {{ pt.w[1] }} · runoff {{ pt.w[2] }} (exact)</title>
       <circle :cx="pt.p[0]" :cy="pt.p[1]" r="9" class="hit" />
       <circle :cx="pt.p[0]" :cy="pt.p[1]" :r="state.scenarioId === pt.id ? 7 : 4.5"

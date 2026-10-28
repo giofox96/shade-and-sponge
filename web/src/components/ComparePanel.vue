@@ -2,7 +2,7 @@
 // Side-by-side comparison: today | city rule (S1a) | optimised. Each column draws every street-tree crown to scale
 // (plane positions coloured by species, kept trees grey) and lists the headline metrics against today.
 import { computed } from 'vue'
-import { state, scenario, cityMean, label, BALANCED, LIVE } from '../store.js'
+import { state, scenario, cityMean, label, areaLayout, BALANCED, LIVE, AREA } from '../store.js'
 
 const ROWS = [
   ['shade_summer_m2h', 'Summer shade', 'm²·h', 1],
@@ -31,11 +31,11 @@ const viewBox = computed(() => {
   return `${x0 - 10} ${y0 - 10} ${x1 - x0 + 20} ${y1 - y0 + 20}`
 })
 
-function crowns(layout, isS0) {
+function crowns(layout) {
   const P = state.trees.positions, pal = state.meta.palette
   return pos.value.map(([x, y], i) => {
     const p = pal[layout[i]]
-    return { x, y, r: (isS0 ? P.s0_crown_diam_m[i] : p.crown_diam_m) / 2, c: p.in_palette ? p.color : PLANE_COLOR }
+    return { x, y, r: (p.in_palette ? p.crown_diam_m : P.s0_crown_diam_m[i]) / 2, c: p.in_palette ? p.color : PLANE_COLOR }
   })
 }
 function mix(counts) {
@@ -46,15 +46,24 @@ function mix(counts) {
 const columns = computed(() => {
   if (!state.meta || !state.trees) return []
   const s0 = find('S0_current'), s1 = find('S1a_city_0')
+  const L = state.trees.layouts
+  const today = { title: 'Today', sub: 'Measured trees, mature planes', metrics: s0.metrics, counts: null, crowns: crowns(L.S0_current) }
+  const A = state.scenarioId === AREA && state.area
+  if (A) {
+    return [today,
+      s1 && { title: 'City rule', sub: `In the project area (${A.idx.length} positions): expected 2026 mix · map: draw #0`,
+              metrics: A.city.metrics, counts: A.city.counts, crowns: crowns(areaLayout(A.idx.map((i) => L.S1a_city_0[i]))), live: true },
+      { title: 'Optimised', sub: label(scenario.value), metrics: A.metrics, counts: A.counts, crowns: crowns(areaLayout(A.layout)), live: true },
+    ].filter(Boolean)
+  }
   const optId = state.scenarioId === LIVE || state.scenarioId.startsWith('S4') ? state.scenarioId : BALANCED
   const opt = optId === LIVE ? scenario.value : find(optId)
   const optLayout = optId === LIVE ? state.live.layout : state.trees.layouts[optId]
-  const L = state.trees.layouts
   return [
-    { title: 'Today', sub: 'Measured trees, mature planes', metrics: s0.metrics, counts: null, crowns: crowns(L.S0_current, true) },
+    today,
     s1 && { title: 'City rule', sub: 'Metrics: mean of 10 draws of the 2026 mix · map and mix: draw #0', metrics: cityMean.value,
-            counts: s1.counts, crowns: crowns(L.S1a_city_0, false) },
-    { title: 'Optimised', sub: label(opt), metrics: opt.metrics, counts: opt.counts, crowns: crowns(optLayout, false), live: optId === LIVE },
+            counts: s1.counts, crowns: crowns(L.S1a_city_0) },
+    { title: 'Optimised', sub: label(opt), metrics: opt.metrics, counts: opt.counts, crowns: crowns(optLayout), live: optId === LIVE },
   ].filter(Boolean)
 })
 const today = computed(() => find('S0_current')?.metrics ?? {})
@@ -69,7 +78,7 @@ const stage = computed(() => (state.meta?.run?.trunk_class === 'SEGONA' ? 'repla
 
 <template>
   <div class="compare">
-    <p class="head muted small">All {{ state.trees.positions.lon.length }} plane positions, {{ stage }}. Crowns drawn to scale; dark = today's planes, light grey = trees that are kept.
+    <p class="head muted small">{{ state.scenarioId === AREA && state.area ? `${state.area.idx.length} of ${state.trees.positions.lon.length} plane positions replaced (project area; today's trees elsewhere)` : `All ${state.trees.positions.lon.length} plane positions` }}, {{ stage }}. Crowns drawn to scale; dark = today's planes, light grey = trees that are kept.
       Heat is a shade proxy, not UTCI; canopy cover is a relative disc measure, compare between columns only.</p>
     <div class="cols">
       <section v-for="c in columns" :key="c.title" class="col">

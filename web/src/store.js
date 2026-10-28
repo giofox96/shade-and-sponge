@@ -1,11 +1,12 @@
 // Shared state: site data exported by `python -m shade_sponge.web_export`, plus what the user has selected.
 import { reactive, computed } from 'vue'
-import { optimise, proxySums, fitLine, effSpecies } from './optimize.js'
-import { loadGrid, pointPotentials } from './pointpot.js'
+import { optimise, proxySums, fitLine, effSpecies, caps } from './optimize.js'
+import { loadGrid, pointPotentials, crownPotential } from './pointpot.js'
 
 export const MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
 export const BALANCED = 'S4_s0.50_w0.25_r0.25'
 export const LIVE = 'live'
+export const AREA = 'area'
 
 export const state = reactive({
   site: 'porta',
@@ -14,6 +15,10 @@ export const state = reactive({
   pot: null,
   scenarioId: BALANCED,
   compare: false, // side-by-side columns (today | city rule | optimised) instead of the 3D map
+  // project area: only the plane positions inside a drawn polygon are replaced; outside, today's trees stay
+  drawing: false,
+  draft: [], // [lon, lat] vertices while drawing
+  area: null, // { poly, idx, weights, layout, metrics, counts, city: { metrics, counts }, ms }
   overlay: 'sun_winter',
   month: 7,
   selected: null, // index into positions
@@ -50,14 +55,17 @@ export async function load(site = state.site) {
 
 // Switch dataset (e.g. city palette 'porta' vs Barcelona shortlist 'porta-barcelona') and reset the view
 export async function switchSite(site) {
-  Object.assign(state, { scenarioId: BALANCED, live: null, selected: null, exclude: [], minEff: 0, liveError: null, meta: null, added: [], addMsg: null })
+  Object.assign(state, { scenarioId: BALANCED, live: null, selected: null, exclude: [], minEff: 0, liveError: null, meta: null, added: [], addMsg: null, area: null, drawing: false, draft: [] })
   grid = null
+  planePotCache.clear()
+  planeScale = null
   await load(site)
 }
 
 export const dataUrl = (file) => `./data/${state.site}/${file}`
 
 export function currentLayout() {
+  if (state.scenarioId === AREA && state.area) return areaLayout(state.area.layout)
   if (state.scenarioId === LIVE && state.live) return state.live.layout
   return state.trees.layouts[state.scenarioId] ?? state.trees.layouts.S0_current
 }
@@ -66,6 +74,7 @@ export function currentLayout() {
 export const layoutEff = computed(() => state.pot && state.trees && effSpecies(currentLayout(), state.pot.species.length))
 
 export const scenario = computed(() => {
+  if (state.scenarioId === AREA && state.area) return { id: AREA, group: 'area', ...state.area }
   if (state.scenarioId === LIVE && state.live) return { id: LIVE, group: 'live', ...state.live }
   return state.meta?.scenarios.find((s) => s.id === state.scenarioId)
 })
@@ -73,6 +82,10 @@ export const scenario = computed(() => {
 export function label(s) {
   if (!s) return ''
   if (s.id === 'S0_current') return 'Current trees (mature planes)'
+  if (s.id === AREA) {
+    const [a, b, c] = s.weights.map((w) => +w.toFixed(2))
+    return `Project area, ${s.idx.length} planes replaced: summer ${a}, winter ${b}, runoff ${c}`
+  }
   if (s.id.startsWith('S1a')) return `City rule (2026 mix) #${s.id.split('_').pop()}`
   if (s.id.startsWith('S1')) return `Random palette #${s.id.split('_').pop()}`
   const [a, b, c] = s.weights.map((w) => +w.toFixed(2))
@@ -87,6 +100,9 @@ export const cityMean = computed(() => {
   return Object.fromEntries(keys.map((k) => [k, r.reduce((a, s) => a + s.metrics[k], 0) / r.length]))
 })
 
+// "vs city rule" reference: the whole-site S1a mean, or the city rule inside the project area (estimate)
+export const baseline = computed(() => (state.scenarioId === AREA && state.area ? state.area.city.metrics : cityMean.value))
+
 // Calibration of live estimates: exact metric (full raster model) vs summed single-tree potentials, over the saved
 // palette layouts (random #0 + 15 optimised). R² says how far to trust each estimate.
 const PROXY = { shade_summer_m2h: 'shade_summer', shade_winter_m2h: 'shade_winter', runoff_hot_m3: 'water', runoff_m3: 'water', interception_m3: 'water' }
@@ -100,6 +116,7 @@ export const calibration = computed(() => {
 })
 
 export async function runLive(weights) {
+  if (state.area) return runArea(weights)
   state.busy = true
   state.liveError = null
   const res = await optimise(state.pot, weights, { share: state.share, exclude: state.exclude, extra: state.added, minEff: state.minEff })
@@ -123,10 +140,7 @@ export async function setAddMode(on) {
   state.addMsg = null
   if (on && !grid) {
     state.addMsg = 'Loading the site grid…'
-    grid = await loadGrid(dataUrl(state.meta.grid.file), state.meta.grid)
-    const p = state.trees.positions
-    const k = state.trees.kept
-    treeXY = [...p.lon.map((lon, i) => grid.toXY(lon, p.lat[i])), ...k.lon.map((lon, i) => grid.toXY(lon, k.lat[i]))]
+    await ensureGrid()
     state.addMsg = null
   }
 }
@@ -186,8 +200,9 @@ export const shownMetrics = computed(() => {
   state.addedVersion // dependency
   return Object.fromEntries(Object.entries(base).map(([m, v]) => {
     const k = DELTA[m]
+    if (!k || v == null) return [m, v] // e.g. canopy cover: no per-tree potential, left as it is
     const d = state.added.reduce((a, t) => a + (t.species >= 0 ? t.pot[k][t.species] : 0), 0)
-    return [m, v + (k ? calibration.value[m].b * d : 0)]
+    return [m, v + calibration.value[m].b * d]
   }))
 })
 
@@ -202,3 +217,184 @@ export function addedCsv() {
 }
 
 export const hexToRgb = (h) => [1, 3, 5].map((i) => parseInt(h.slice(i, i + 2), 16))
+
+// ---- project area: replace only the plane positions inside a drawn polygon ----------------------------------
+// Estimates, like the live layouts: today's exact metrics + calibration slope × Σ (potential of the new species −
+// potential of today's tree) over the positions in the area. Today's planes are scored with their measured crown
+// (trees.json) and the plane's median LAI (ASSUMPTION: per-tree LAI is not exported). Canopy cover is not estimated.
+async function ensureGrid() {
+  if (grid) return
+  grid = await loadGrid(dataUrl(state.meta.grid.file), state.meta.grid)
+  const p = state.trees.positions
+  const k = state.trees.kept
+  treeXY = [...p.lon.map((lon, i) => grid.toXY(lon, p.lat[i])), ...k.lon.map((lon, i) => grid.toXY(lon, k.lat[i]))]
+}
+
+function insidePoly(lon, lat, poly) {
+  let inside = false
+  for (let a = 0, b = poly.length - 1; a < poly.length; b = a++) {
+    const [xa, ya] = poly[a]
+    const [xb, yb] = poly[b]
+    if ((ya > lat) !== (yb > lat) && lon < ((xb - xa) * (lat - ya)) / (yb - ya) + xa) inside = !inside
+  }
+  return inside
+}
+
+// Full-length layout: today's trees everywhere, the area's species at its positions
+export function areaLayout(sub) {
+  const full = [...state.trees.layouts.S0_current]
+  state.area.idx.forEach((i, k) => (full[i] = sub[k]))
+  return full
+}
+
+export function startDrawing() {
+  Object.assign(state, { drawing: true, draft: [], compare: false, addMode: false,
+    addMsg: 'Click on the map to place the corners of the project area, then press Finish.' })
+}
+export function addVertex(lon, lat) {
+  state.draft = [...state.draft, [lon, lat]]
+}
+export function cancelDrawing() {
+  Object.assign(state, { drawing: false, draft: [], addMsg: null })
+}
+export function clearArea() {
+  Object.assign(state, { area: null, drawing: false, draft: [], addMsg: null })
+  if (state.scenarioId === AREA) state.scenarioId = BALANCED
+}
+
+const planePotCache = new Map()
+function planePot(i) {
+  if (!planePotCache.has(i)) {
+    const p = state.trees.positions
+    const plane = state.meta.palette.find((s) => !s.in_palette)
+    const [x, y] = grid.toXY(p.lon[i], p.lat[i])
+    planePotCache.set(i, p.s0_crown_diam_m[i] > 0
+      ? crownPotential(grid, state.meta.model, x, y,
+        { ...plane, crown_diam_m: p.s0_crown_diam_m[i], height_m: p.s0_height_m[i], crown_base_m: p.s0_crown_base_m[i] })
+      : { summer: 0, winter: 0, water: 0 })
+  }
+  return planePotCache.get(i)
+}
+
+const POT_KEY = { shade_summer: 'summer', shade_winter: 'winter', water: 'water' }
+// Today's planes are scored with the browser formulas and a median LAI, which can sit off the calibration line of the
+// palette potentials (Python). Scale them per metric so that the line, fed with every plane, gives today's exact value:
+// k_m = ((S0_m − a_m) / b_m) / Σ_all plane potential. An area with no positions then returns today exactly, and an area
+// with every position returns the live estimate of a full replacement.
+let planeScale = null
+function planeScales() {
+  if (planeScale) return planeScale
+  const s0 = state.meta.scenarios.find((s) => s.id === 'S0_current').metrics
+  const all = { shade_summer: 0, shade_winter: 0, water: 0 }
+  state.trees.positions.lon.forEach((_, i) => {
+    const q = planePot(i)
+    for (const k in all) all[k] += q[POT_KEY[k]]
+  })
+  planeScale = Object.fromEntries(Object.entries(calibration.value).map(([m, c]) => [m, (s0[m] - c.a) / c.b / all[PROXY[m]]]))
+  return planeScale
+}
+
+// Metrics of "today's trees outside, new trees inside": sums[k] = Σ potential of the new trees in the area
+function areaMetrics(idx, sums) {
+  const s0 = state.meta.scenarios.find((s) => s.id === 'S0_current').metrics
+  const k = planeScales()
+  const today = { shade_summer: 0, shade_winter: 0, water: 0 }
+  idx.forEach((i) => {
+    const q = planePot(i)
+    for (const key in today) today[key] += q[POT_KEY[key]]
+  })
+  return Object.fromEntries(Object.keys(s0).map((m) =>
+    [m, PROXY[m] ? s0[m] + calibration.value[m].b * (sums[PROXY[m]] - k[m] * today[PROXY[m]]) : null]))
+}
+
+// City rule inside the area: the expected value of the S1a draw (2026 mix weights among the fitting mix species;
+// any fitting species if none of the mix fits, as layout.s1a_layout's last resort)
+function areaCity(idx) {
+  const pot = state.pot
+  const cap = caps(pot, state.share, state.exclude)
+  let w = pot.species.map((s) => state.meta.s1a_mix?.[s] ?? 0)
+  const probs = () => idx.map((i) => {
+    let ww = pot.species.map((_, j) => (pot.fit[i][j] ? w[j] : 0))
+    if (!ww.some((v) => v > 0)) ww = pot.species.map((_, j) => pot.fit[i][j])
+    const tot = ww.reduce((a, b) => a + b, 0)
+    return ww.map((v) => v / tot)
+  })
+  // the 15% cap, as in the exact S1a draws: shrink the weight of any species whose expected count exceeds its room
+  let P = probs()
+  for (let it = 0; it < 20; it++) {
+    const n = pot.species.map((_, j) => P.reduce((a, p) => a + p[j], 0))
+    const over = n.map((v, j) => (v > cap[j] + 0.5 ? cap[j] / v : 1))
+    if (over.every((f) => f === 1)) break
+    w = w.map((v, j) => v * over[j])
+    P = probs()
+  }
+  const sums = { shade_summer: 0, shade_winter: 0, water: 0 }
+  const counts = Object.fromEntries(pot.species.map((s) => [s, 0]))
+  idx.forEach((i, r) => P[r].forEach((v, j) => {
+    if (!v) return
+    for (const k in sums) sums[k] += v * pot[k][i][j]
+    counts[pot.species[j]] += v
+  }))
+  return { metrics: areaMetrics(idx, sums), counts: Object.fromEntries(Object.entries(counts).map(([s, n]) => [s, Math.round(n)])) }
+}
+
+export async function finishArea() {
+  if (state.draft.length < 3) return void (state.addMsg = 'An area needs at least three corners.')
+  const poly = state.draft
+  const p = state.trees.positions
+  const idx = p.lon.map((lon, i) => (insidePoly(lon, p.lat[i], poly) ? i : -1)).filter((i) => i >= 0)
+  if (!idx.length) return void (state.addMsg = 'No plane positions inside that area: draw it around some street trees.')
+  state.addMsg = 'Loading the site grid…'
+  await ensureGrid()
+  Object.assign(state, { drawing: false, draft: [], addMsg: null })
+  state.area = { poly, idx, weights: weightsNow(), layout: [], metrics: null, counts: {}, city: areaCity(idx) }
+  await runArea(state.area.weights)
+}
+
+export async function runArea(weights) {
+  const { idx } = state.area
+  const pot = state.pot
+  const sub = { ...pot, fit: idx.map((i) => pot.fit[i]) }
+  for (const k of ['shade_summer', 'shade_winter', 'water']) sub[k] = idx.map((i) => pot[k][i])
+  state.busy = true
+  state.liveError = null
+  const res = await optimise(sub, weights, { share: state.share, exclude: state.exclude, minEff: state.minEff })
+  state.busy = false
+  if (res.error) return void (state.liveError = res.error)
+  const sums = { shade_summer: 0, shade_winter: 0, water: 0 }
+  res.layout.forEach((j, k) => {
+    for (const key in sums) sums[key] += sub[key][k][j]
+  })
+  const counts = Object.fromEntries(pot.species.map((s, j) => [s, res.layout.filter((x) => x === j).length]))
+  Object.assign(state.area, { weights, layout: res.layout, metrics: areaMetrics(idx, sums), counts, ms: res.ms,
+    version: (state.area.version ?? 0) + 1 })
+  state.scenarioId = AREA
+}
+
+// ---- canopy cover against the tree master plan's 30% target ------------------------------------------------
+// Today = measured cover (LiDAR CHM > 2 m). A precomputed layout adds the change of the crown-disc model (exact, with
+// overlaps); live layouts, project areas and added trees add the change of their crown discs summed without overlaps
+// (an estimate that runs high where new crowns overlap existing canopy).
+export const cover = computed(() => {
+  const C = state.meta?.cover
+  if (!C || !state.trees) return null
+  state.addedVersion // dependency
+  state.area?.version
+  const s = scenario.value
+  const pal = state.meta.palette
+  const disc = (d) => Math.PI * (d / 2) ** 2
+  let d = 0
+  let approx = false
+  if (s?.metrics?.canopy_pct != null && s.group !== 'live' && s.group !== 'area') d = s.metrics.canopy_pct - C.s0_disc_pct
+  else if (s && s.id !== 'S0_current') {
+    const P = state.trees.positions
+    const a = currentLayout().reduce((acc, j, i) => acc + (pal[j].in_palette ? disc(pal[j].crown_diam_m) - disc(P.s0_crown_diam_m[i]) : 0), 0)
+    d = (100 * a) / C.area_m2
+    approx = true
+  }
+  const added = (100 * state.added.reduce((acc, t) => acc + (t.species >= 0 ? disc(pal[t.species].crown_diam_m) : 0), 0)) / C.area_m2
+  if (state.added.length) approx = true
+  const pct = C.measured_pct + d + added
+  return { ...C, pct, vsToday: d + added, added, addedN: state.added.length, approx,
+    gap: C.target_pct - pct, gapHa: ((C.target_pct - pct) / 100) * C.area_m2 / 1e4 }
+})

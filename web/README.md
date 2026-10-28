@@ -18,6 +18,34 @@ The published data use the **thesis configuration** (since 26 Oct): the exact si
 ## Data (`web/public/data/<site>/`, from `shade_sponge/web_export.py`)
 `meta.json` (palette with leaf calendars and sources, scenarios with metrics, sensitivity, overlays) · `trees.json` (plane positions, kept trees, species per position for each saved layout) · `potentials.json` (per-position shade and interception potentials + façade fit, for live optimisation) · `buildings.geojson` · overlay PNGs (winter sun, summer sun, water convergence, flood hotspots). The map is flat: heights are metres above local ground.
 
+## Canopy cover counter (28 Oct)
+The top of the right panel shows the **canopy cover** of the layout on screen against the plan's **30% target**:
+- **Today:** the measured 20.1% (LiDAR CHM > 2 m).
+- **Precomputed layouts:** today plus the change of the disc model (exact, overlaps included).
+- **Live layouts, project areas and added trees:** today plus their crown discs summed without overlaps (marked ≈, runs high). Each added tree updates the counter.
+- **Gap:** the points and hectares left to the target.
+- **For scale** (city palette, established): what planting all 267 free street spots would add.
+
+The data are in `meta.json → cover`, from `databases/barcelona/porta_canopy_cover.csv` and `additions_summary.csv`.
+
+## Project area (28 Oct)
+Trees are not replaced all at once. A plane is replaced when it dies, when it is unsafe, or when a street project rebuilds the ground. **Project area** (left panel) lets the designer draw that place:
+1. **Draw area:** click the corners on the map (clicks on trees count too, and double-click zoom is off while drawing), then **Finish**.
+2. **What is replaced:** only the plane positions inside the polygon. Today's trees stay everywhere else.
+3. **Optimisation:** the same LP as the live optimiser, restricted to those positions, with the current weights, cap, excluded species and diversity floor. Clicking the triangle or a dot re-optimises the area.
+4. **The comparison** inside the area:
+   - **today:** the measured planes;
+   - **city rule:** the expected value of the 2026 mix within the sizing rule. Capped species are scaled down to their room, as in the exact S1a draws;
+   - **optimised.**
+
+   The results panel ("vs city rule") and the Compare view use the area.
+5. **Back to the whole district:** the **Whole site** button.
+
+**How the estimate works:** today's exact metrics + calibration slope × Σ (potential of the new species − potential of today's plane) over the area.
+- **Today's planes** are scored in the browser, from their measured crown and the plane's median LAI (`ASSUMPTION`). Their potentials are rescaled per metric, so that the calibration line, fed with all 832 planes, returns today's exact value.
+- **Checked on 28 Oct:** an area covering 752 of the 832 positions gives 352,534 / 207,760 m²·h and 17,691 m³. The exact full replacement gives 353,075 / 209,485 m²·h and 17,688 m³.
+- **Not estimated:** canopy cover. Added trees are counted on top, as elsewhere.
+
 ## Compare side by side (28 Oct)
 The **Compare side by side** button (left panel, Layout) replaces the 3D map with three columns: **today | city rule | optimised**. The optimised column is the selected or live layout, otherwise the balanced one.
 - **Mini-map:** each column draws every crown to scale. Plane positions are coloured by species, today's planes are dark, kept trees are light grey.
