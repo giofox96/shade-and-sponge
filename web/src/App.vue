@@ -10,6 +10,7 @@ import TreeInspector from './components/TreeInspector.vue'
 import ComparePanel from './components/ComparePanel.vue'
 import CoverCounter from './components/CoverCounter.vue'
 import PanelHandle from './components/PanelHandle.vue'
+import BarriPicker from './components/BarriPicker.vue'
 
 onMounted(() => load())
 
@@ -66,6 +67,10 @@ watch(
     </header>
 
     <aside v-show="panels.leftOpen" class="left">
+      <details class="group" open>
+        <summary>Neighbourhood <span class="muted">{{ state.barri }}</span></summary>
+        <section><BarriPicker /></section>
+      </details>
       <section>
         <h3>1 · Scenario</h3>
         <div class="btns">
@@ -81,7 +86,7 @@ watch(
         <p v-if="state.busy" class="small accent">Optimising…</p>
         <p v-if="state.liveError" class="small danger">{{ state.liveError }}</p>
         <details class="how"><summary>How it works</summary>
-          <p class="small muted">Dots are precomputed layouts with exact scores (blue = on the trade-off front). A click anywhere else re-optimises
+          <p class="small muted">Dots are precomputed layouts with exact scores (filled blue = on the trade-off front). A click anywhere else re-optimises
             in your browser: the result is an estimate. The same applies inside a project area.</p>
         </details>
       </section>
@@ -107,7 +112,7 @@ watch(
         <details class="how"><summary>How it works</summary>
           <p class="small muted">Trees are replaced where a dead tree, a project or a street rebuild opens the ground. Draw that place: only the
             trees inside are replaced and compared, today's trees stay everywhere else. Free spots are sidewalks of at least 2.5 m with room
-            for a tree by the 2011 guide's spacing (an upper bound: driveways, crossings, lamps and services are not in the data); each gets
+            for a tree by the 2011 guide's spacing, away from the crossings, traffic signals, parking entrances and bus stops mapped in OpenStreetMap (still an upper bound: driveways, lamps and services are not in the data); each gets
             its sidewalk's size class.</p>
         </details>
       </section>
@@ -142,8 +147,7 @@ watch(
         </section>
         <section>
           <h3>Species <span class="muted">untick to exclude</span></h3>
-          <p v-if="state.meta.palette_kind === 'barcelona'" class="small muted">Colour = leaf habit (blue deciduous, orange evergreen, violet
-            semi-deciduous); darker = larger crown.</p>
+          <p v-if="state.meta.palette_kind === 'barcelona'" class="small muted">Colour = leaf habit (ochre deciduous, green evergreen, olive semi-deciduous); darker = larger crown.</p>
           <ul class="legend">
             <li v-for="p in state.meta.palette" :key="p.species">
               <input v-if="p.in_palette" type="checkbox" :value="p.species" :checked="!state.exclude.includes(p.species)"
@@ -179,7 +183,7 @@ watch(
           Street trees: Ajuntament de Barcelona, Open Data BCN (CC BY 4.0) ·
           LiDAR crowns, terrain, building heights: ICGC 2021–2022 (CC BY 4.0) ·
           Sidewalks: 1:1000 base map, Ajuntament de Barcelona (CC BY 4.0) ·
-          Building footprints and basemap: © OpenStreetMap contributors (ODbL); basemap tiles OpenFreeMap (light) and © CARTO (dark) ·
+          Building footprints, neighbourhood outlines (provisional) and basemap: © OpenStreetMap contributors (ODbL); basemap tiles OpenFreeMap (light) and © CARTO (dark) ·
           Flood-hazard index: Barcelona Resilience Atlas, Barcelona Regional (derived threshold; licence not stated) ·
           Design storms: PDISBA rainfall study · Storm months: Esbrí, Rigo and Llasat ·
           Interception calibration: Anys and Weiler 2024 data (CC BY-NC 4.0).

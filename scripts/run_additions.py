@@ -18,14 +18,14 @@ lit = {s: [heat.sunlit(site, *x) for x in sun[s]] for s in sun}
 p = runoff.design_storm(2, 60)
 pal = layout.palette(site, "city", "TERCERA")
 planes = site.trees[site.trees.is_plane].reset_index(drop=True)
-spots = pd.read_csv(DB / "porta_planting_spots.csv").rename(columns={"spot_id": "tree_id"})
+spots = layout.planting_spots()
 sets = {"R": planes, "A": spots, "RA": pd.concat([planes.assign(size_class=layout.sidewalk_class(planes)), spots],
                                                  ignore_index=True)}
 N = len(site.trees)
 rows = [dict(scenario="S0_current", n_new=0, **layout.evaluate(site, site.trees[site.trees.flag == "ok"], sun, lit, p))]
 for name, pos in sets.items():
     n_add = len(spots) if name != "R" else 0
-    cap = pal.cap.values + int(np.floor(layout.MAX_SHARE * (N + n_add)) - np.floor(layout.MAX_SHARE * N))
+    cap = layout.add_cap(pal.cap.values, N, n_add)
     fit = layout.fits(site, pos, pal, "exact")
     pot = {s: layout.shade_potential(site, pos, pal, sun[s], lit[s], heat.SEASONS[s]["month"]) for s in sun}
     norm = [sg * m / m.max() for m, sg in ((pot["summer"], 1), (pot["winter"], -1),

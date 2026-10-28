@@ -8,7 +8,8 @@ Spot = KERB_OFFSET m in from the kerb: the median kerb-to-tree distance of Porta
 databases/barcelona/porta_sidewalk_width.csv, width_m - facade_dist_m).
 ASSUMPTION / upper bound: driveways, crossings, bus stops, lamps, terraces and underground services are not in the data,
 so the spots are a capacity ceiling, not a planting plan.
-Output: databases/barcelona/porta_planting_spots.csv (EPSG:25831). Run from the repo root: python scripts/porta_planting_spots.py
+Output: databases/barcelona/porta_planting_spots.csv (EPSG:25831). Run from the repo root: python scripts/porta_planting_spots.py,
+then python scripts/porta_spot_exclusions.py (adds the OSM street-furniture exclusions to the same file).
 """
 import json, numpy as np, pandas as pd, geopandas as gpd
 from shapely.geometry import LineString, Point

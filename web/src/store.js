@@ -10,6 +10,7 @@ export const AREA = 'area'
 
 export const state = reactive({
   site: 'porta',
+  barri: 'Porta', // neighbourhood picked in BarriPicker (only barris with exported data change `site`)
   meta: null,
   trees: null,
   pot: null,

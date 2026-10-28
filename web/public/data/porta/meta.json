@@ -615,7 +615,7 @@
   {
    "species": "Celtis australis",
    "short": "Celtis",
-   "color": "#2a78d6",
+   "color": "#3e8a3a",
    "crown_diam_m": 6.79,
    "height_m": 9.6,
    "crown_base_m": 4.98,
@@ -645,7 +645,7 @@
   {
    "species": "Melia azedarach",
    "short": "Melia",
-   "color": "#eb6834",
+   "color": "#2f5fa8",
    "crown_diam_m": 8.46,
    "height_m": 8.895,
    "crown_base_m": 4.605,
@@ -675,7 +675,7 @@
   {
    "species": "Pyrus calleryana",
    "short": "Pyrus",
-   "color": "#1baf7a",
+   "color": "#b07a12",
    "crown_diam_m": 3.93,
    "height_m": 8.0,
    "crown_base_m": 3.67,
@@ -705,7 +705,7 @@
   {
    "species": "Jacaranda mimosifolia",
    "short": "Jacaranda",
-   "color": "#eda100",
+   "color": "#a33f5e",
    "crown_diam_m": 9.2,
    "height_m": 10.21,
    "crown_base_m": 5.28,
@@ -735,7 +735,7 @@
   {
    "species": "Tipuana tipu",
    "short": "Tipuana",
-   "color": "#e87ba4",
+   "color": "#6e7a1e",
    "crown_diam_m": 8.98,
    "height_m": 10.559999999999999,
    "crown_base_m": 5.055,
@@ -765,7 +765,7 @@
   {
    "species": "Brachychiton populneus",
    "short": "Brachychiton",
-   "color": "#008300",
+   "color": "#8a4e9a",
    "crown_diam_m": 4.89,
    "height_m": 9.58,
    "crown_base_m": 4.17,
@@ -795,7 +795,7 @@
   {
    "species": "Styphnolobium japonicum",
    "short": "Styphnolobium",
-   "color": "#6250d6",
+   "color": "#b8502a",
    "crown_diam_m": 5.32,
    "height_m": 7.79,
    "crown_base_m": 4.4,
@@ -825,7 +825,7 @@
   {
    "species": "Platanus × acerifolia",
    "short": "Platanus",
-   "color": "#8a8a86",
+   "color": "#7d776b",
    "crown_diam_m": 8.35,
    "height_m": 14.3,
    "crown_base_m": 6.68,
@@ -1776,7 +1776,7 @@
    "id": "sun_winter",
    "label": "Winter sun (15 Jan 10–15 h)",
    "file": "sun_winter.png",
-   "cmap": "cividis",
+   "cmap": "stone_ochre",
    "vmin": 0,
    "vmax": 1
   },
@@ -1784,7 +1784,7 @@
    "id": "sun_summer",
    "label": "Summer sun (15 Jul 12–17 h)",
    "file": "sun_summer.png",
-   "cmap": "cividis",
+   "cmap": "stone_ochre",
    "vmin": 0,
    "vmax": 1
   },
@@ -1792,7 +1792,7 @@
    "id": "water",
    "label": "Water convergence (log10 upstream m²)",
    "file": "water.png",
-   "cmap": "Blues",
+   "cmap": "bone_inkblue",
    "vmin": 0,
    "vmax": 5
   },
@@ -1800,7 +1800,7 @@
    "id": "hotspots",
    "label": "Flood hotspots (hazard index ≥ 40)",
    "file": "hotspots.png",
-   "cmap": "Reds",
+   "cmap": "bone_rust",
    "vmin": 0,
    "vmax": 1.2
   }

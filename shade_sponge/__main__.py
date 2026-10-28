@@ -1,13 +1,17 @@
 """Run the tool on a site: python -m shade_sponge [site] [--palette=barcelona] [--diversity=N] [--size=exact|at_most]
-[--keep-meridiana] [--trunk=TERCERA] (default: porta; first run builds cache/site_<site>.npz). --diversity=N: optimised layouts keep at
+[--keep-meridiana] [--trunk=TERCERA] [--scenario=R|A|RA] [--area=FILE] [--priority=N] (default: porta; first run builds cache/site_<site>.npz). --diversity=N: optimised layouts keep at
 least N effective species (exp of Shannon H) among the planted positions; off by default. --size: sidewalk-width sizing
 rule of the 2011 guide (layout.size_fits); off by default. --keep-meridiana: the planes of Av. Meridiana are kept by the
 city ("large avenue", guide p. 17) and leave the decision set. --trunk=CLASS: species traits at equal trunk size
-(layout.palette). S1a (the city's 2026 mix within the exact sizing rule, layout.s1a_layout) is always run, 10 seeds.
+(layout.palette). --scenario: R = replace the planes (default), A = add trees in the free spots (planes kept),
+RA = both (notes/topic_decision.md §10.6; cap recomputed on the larger stock, layout.add_cap). --area=FILE: only the
+planes and spots inside the project area the user draws (layout.in_area). --priority=N: only the N planes with the highest
+replacement priority (health.py, a proxy). S1a (the city's 2026 mix within the exact sizing rule, layout.s1a_layout) is
+always run, 10 seeds.
 Outputs: databases/barcelona/tool_v0_summary<tag>.csv, exchange/to_gh/{positions,layouts}_tool_v0<tag>_<YYYYMMDD>.csv"""
-import sys, json, datetime, numpy as np, pandas as pd
+import sys, json, datetime, pathlib, numpy as np, pandas as pd
 from .site import load_site, rc, DB, EX
-from . import heat, runoff, layout, season
+from . import heat, runoff, layout, season, health
 
 args = [a for a in sys.argv[1:] if not a.startswith("--")]
 name = args[0] if args else "porta"
@@ -18,7 +22,11 @@ ptag = "" if kind == "city" else "_barcelona"
 size_rule = opt.get("size")
 keep_mer = "--keep-meridiana" in sys.argv
 trunk = opt.get("trunk")
+scen = opt.get("scenario", "R").upper()
+area = opt.get("area")
+top = int(opt["priority"]) if "priority" in opt else None
 tag = ptag + (f"_div{opt['diversity']}" if min_eff else "") + (f"_size{size_rule}" if size_rule else "") + ("_keepmer" if keep_mer else "") + (f"_trunk{trunk}" if trunk else "")
+tag += (f"_sc{scen}" if scen != "R" else "") + (f"_area{pathlib.Path(area).stem}" if area else "") + (f"_prio{top}" if top else "")
 site = load_site(name)
 o = json.load(open(EX / "site_origin.json"))
 sun = {s: heat.design_suns(site, s) for s in heat.SEASONS}
@@ -26,7 +34,27 @@ lit = {s: [heat.sunlit(site, *x) for x in sun[s]] for s in sun}
 p = runoff.design_storm(2, 60)                          # f2 storm: T = 2 yr, 1 h (methodology §6)
 pal = layout.palette(site, kind, trunk)
 pos = site.trees[site.trees.is_plane & ~(keep_mer & site.trees.street.str.contains("Meridiana"))].reset_index(drop=True)
-print(f"{len(pos)} positions, P = {p:.1f} mm; sun altitude " + ", ".join(
+if area:
+    pos = pos[layout.in_area(pos, area)]
+if top:                                                  # replace the most likely to go first (health.py, ASSUMPTION)
+    pos = pos.merge(health.priority(site.trees)[["tree_id", "priority"]]).nlargest(top, "priority", keep="first")
+spots = layout.planting_spots() if scen != "R" else None
+if spots is not None and area:
+    spots = spots[layout.in_area(spots, area)]
+if scen == "A":
+    if top:
+        sys.exit("--priority selects planes; it does not apply to --scenario=A")
+    pos = spots
+elif scen == "RA":
+    pos = pd.concat([pos.assign(size_class=layout.sidewalk_class(pos)), spots])
+elif scen != "R":
+    sys.exit(f"unknown --scenario={scen} (R, A or RA)")
+pos = pos.reset_index(drop=True)
+if pos.empty:
+    sys.exit("no positions in the decision set (check --area / --priority)")
+if spots is not None:
+    pal["cap"] = layout.add_cap(pal.cap.values, len(site.trees), len(spots))
+print(f"scenario {scen}: {len(pos)} positions, P = {p:.1f} mm; sun altitude " + ", ".join(
     f"{s} {min(np.degrees([a for a, _ in v])):.0f}–{max(np.degrees([a for a, _ in v])):.0f}°" for s, v in sun.items()))
 print(pal.to_string(index=False))
 sens = pd.DataFrame({**{f"r_off_{r}": season.storm_factor(pal.species, r) for r in (0.3, 0.5, 0.7)},
@@ -69,7 +97,8 @@ for j, s in enumerate(pal.species):
     out[f"shade_summer_m2h_{g}"], out[f"shade_winter_m2h_{g}"] = pot["summer"][:, j].round(1), pot["winter"][:, j].round(1)
     out[f"water_m3_{g}"] = water[:, j].round(3)
 out.to_csv(EX / f"to_gh/positions_tool_v0{tag}_{day}.csv", index=False)
-cur = pos.assign(species=pos.sp).loc[:, ["tree_id", "x", "y", "species", "crown_diam_m", "height_m", "crown_base_m", "lai"]]
+cur = pos.reindex(columns=["tree_id", "x", "y", "sp", "crown_diam_m", "height_m", "crown_base_m", "lai"])
+cur = cur.assign(species=cur.sp.fillna("none")).loc[:, ["tree_id", "x", "y", "species", "crown_diam_m", "height_m", "crown_base_m", "lai"]]
 lay = [cur.assign(scenario="S0_current")]
 for sc in ["S1_random_0", "S1a_city_0"] + [k for k in layouts if k.startswith("S4")]:
     lay.append(layout.apply(site, pos, pal, layouts[sc]).tail(len(pos)).assign(scenario=sc))

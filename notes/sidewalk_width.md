@@ -127,3 +127,91 @@ So `strip_width_m` is kept as information only. `size_class` stays "check" for t
 **Still open.**
 - **The orthophoto check (±0.3 m).** It needs the ICGC WMS, which is reachable only from the user's PC.
 - **The two corner cases.** A rule that skips the ray at corners (for example, the façade foot within 2 m of a façade vertex) is a possible refinement.
+
+## OSM check: can OpenStreetMap give widths outside Porta? (26 Oct)
+
+User, 26 Oct: cross the data with OpenStreetMap for the sidewalks. `scripts/osm_sidewalks.py` → `databases/barcelona/osm_sidewalk_check.csv`. Source: BBBike extract "Barcelona" (ODbL), downloaded 26 Oct. Overpass and Geofabrik were unreachable from the cloud.
+
+**What OSM has in Barcelona:**
+- 1,663 km of sidewalk lines (`footway=sidewalk`), but only 21 km of them carry a width tag.
+- No street way in the extract carries a sidewalk width tag (`sidewalk:*:width`): 0 of 85,819 (osmium count, 26 Oct).
+- The extract (wider than the municipality) has 61,658 crossing nodes and 9,092 bus stops. These are the obstacles the planting spots do not model yet (`scripts/porta_planting_spots.py`).
+
+**Test on Porta's 1,545 façade-bounded measured trees (flag ok):**
+
+| Proxy | Coverage | Median error | Within 1 m | Size class agrees |
+|---|---|---|---|---|
+| A: tree → nearest OSM building + 0.69 m | 100% | −0.13 m | 65% | **76%** |
+| B: 2 × (OSM sidewalk line → building) | 90% | +1.53 m | 24% | 59% |
+| Baseline: every tree "large" | — | — | — | 56% |
+
+**Reading:**
+- **The OSM sidewalk lines do not give the width.** They are not drawn at the centre of the sidewalk, so B is barely above the baseline.
+- **The tree's distance to the building does (proxy A).** It gets the class right in about 3 trees out of 4.
+  - Most of A's errors are between neighbouring classes: 127 large read as medium, 35 small read as none.
+  - Its mean absolute error (3.15 m) comes from a heavy tail: the median absolute error is 0.51 m, but 14% of trees are off by more than 5 m.
+  - It needs a tree position, so it works for **existing trees (replacement)**, not for new spots.
+- **Caveat:** the test covers only the façade-bounded trees. Medians and boulevards ("check") are where every method struggles.
+
+**Proposal for the city scale (§6.2 step 4 of `notes/citywide_plan.md`):**
+- City screening: use proxy A for the size class of existing trees, labelled "approximate (OSM)".
+- Project areas: keep the 1:1000 map, which stays the reference.
+- New spots: use the OSM crossings and bus stops as exclusions with the 2011 guide's clearances, which removes part of the "upper bound" caveat. Not done yet.
+
+## OSMnx check: a width without a tree (26 Oct)
+
+User, 26 Oct: try OSMnx. `scripts/osmnx_street_width.py` → `databases/barcelona/osmnx_street_width_check.csv`.
+- Overpass is unreachable from the cloud, so OSMnx reads an OSM XML cut of Porta plus margin. The cut comes from the BBBike extract.
+- On a PC, `graph_from_polygon` works directly; `site.py` already uses OSMnx online for green areas.
+
+**Why:** proxy A (above) needs an existing tree. New planting spots need a width estimated from the street itself.
+
+**Method:**
+1. Take the nearest drivable street centreline (OSMnx graph).
+2. Cast a ray from the centreline through the point to the first OSM building outline. Call its length D.
+3. Width = D − lanes × 3.0 m / 2 − parking.
+
+Lanes are tagged on 90% of the 2,782 drivable edges in the cut. Parking is tagged on 1%, so whether a street has a parking lane is unknown. All three values (3.0 m per lane, the default lane counts, the parking width) are `ASSUMPTION`.
+
+| On 1,182 measured trees (77% of 1,545; the rest have no building hit on the ray) | Median error | Within 1 m | Size class agrees |
+|---|---|---|---|
+| C, no parking | +1.13 m | 41% | 66% |
+| C, 1.1 m (half a parking lane, a midpoint) | +0.03 m | 43% | 66% |
+| C, 2.2 m parking everywhere | −1.07 m | 31% | 56% |
+| Baseline: every tree "large" | — | — | 50% |
+
+**Reading:**
+- **OSMnx gives a usable width without a tree: 66% class agreement, against 50% for always guessing "large".**
+- It is weaker than proxy A (76%), which uses the tree itself. The main error is the unknown parking lane, worth ±1.1 m.
+- OSMnx also gives, in the same cut, the obstacles the spots need:
+  - 1,388 crossings and 125 bus stops;
+  - 1,574 sidewalk ways;
+  - 3,649 OSM tree nodes, which could cross-check the inventory.
+
+**Proposal:**
+- For city screening: proxy A for existing trees, proxy C for new spots. Both labelled "approximate (OSM)".
+- Use the OSMnx crossings and bus stops to drop spots too close to them, with the 2011 guide's clearances (next step).
+- The 1:1000 map stays the reference for project areas.
+
+## Spot exclusions from OSM street furniture (26 Oct)
+
+`scripts/porta_spot_exclusions.py` adds `excluded_by` to `databases/barcelona/porta_planting_spots.csv`, and `layout.planting_spots()` drops those spots. Clearances, measured to the OSM point or line:
+
+| Obstacle (OSM tags) | Clearance | Basis |
+|---|---|---|
+| Traffic signals (`highway=traffic_signals`) | 3 m | 2011 guide: > 3 m from traffic lights and signs (`notes/tree_master_plan.md` §5) |
+| Crossings (`highway=crossing` points, `footway=crossing` lines) | 3 m | `ASSUMPTION`: the guide's sign clearance, since crossings carry signs and need sight lines |
+| Parking entrances (`amenity=parking_entrance`) | 3 m | `ASSUMPTION`: the guide's > 1 m from driveways plus half of a ~4 m driveway |
+| Bus stops (`highway=bus_stop`, `public_transport=platform`) | 8 m | `ASSUMPTION`: keeps about 16 m of kerb free for the shelter and the doors; no source yet |
+
+**Result:**
+- 267 → **232 spots** (122 small, 42 medium, 68 large).
+- Excluded: 31 by crossings, 2 by parking entrances, 1 by a traffic signal, 1 by a bus stop.
+- **Sensitivity:**
+  - crossings 2 / 3 / 5 m and bus stops 5 / 8 / 15 m: **209–243 kept**;
+  - crossings 5 m alone: 213;
+  - bus stops 15 m alone: 227.
+
+**Still an upper bound:**
+- Lamps (only 4 mapped in the Porta cut), signs, driveways without a parking entrance, underground services and balconies are not in OSM here.
+- A dropped spot does not free its neighbours from the spacing rule, so a few valid spots may be missing.

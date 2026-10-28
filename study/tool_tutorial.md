@@ -118,7 +118,7 @@ Two results:
 1. **Sun position** for each design hour (NOAA solar equations).
    - Summer: **15 July, 12–17 h CEST**, sun ≈ 47–70° high.
    - Winter: **15 January, 10–15 h CET**, sun ≈ 15–27° high. (Both days are ASSUMPTIONS.)
-   - **Not yet aligned with the decided heat metric** (19 Oct: mean UTCI over 12–17 h EPW standard time = 13–18 h CEST on a hot design day; `notes/decisions/heat_objective.md` §1). Moving the summer window to that day and those hours changes every shade number, so it is done together with the Ladybug calibration.
+   - The hours are the decided heat-metric window (user, 25 Oct: 12–17 h CEST, local clock). The day, 15 July, is not yet the metric's hot design day; moving it changes every shade number, so it is done together with the Ladybug calibration.
 2. **Is the pedestrian in the sun?** For each cell, at 1.1 m (pedestrian height), march towards the sun over terrain + buildings. If a building is in the way, the cell is already shaded, and a tree there adds nothing.
 3. **Crown shadow:** each crown is an **ellipsoid** (diameter D, from crown base Hb to height H). Its shadow at 1.1 m is an **ellipse**: as wide as the crown across the sun direction, longer along it when the sun is low, and shifted away from the sun by (crown-centre height − 1.1 m) / tan(altitude). Winter shadows are long and far from the trunk.
 4. **Opacity** (how much sun the crown blocks):
@@ -397,7 +397,7 @@ Assumptions sit at the top of each module as constants with a comment. To test o
 |---|---|---|---|
 | `CAPTURE_M` | `site.py` | 100 m | ASSUMPTION (test 50–200) |
 | `HAZARD_HIGH` | `site.py` | index ≥ 40 | Same as site screening |
-| `SEASONS` | `heat.py` | 15 Jul 12–17 h CEST; 15 Jan 10–15 h CET | ASSUMPTION (summer window to align with the decided metric, 13–18 h CEST on a hot design day) |
+| `SEASONS` | `heat.py` | 15 Jul 12–17 h CEST; 15 Jan 10–15 h CET | Summer hours decided (25 Oct, 12–17 h CEST); both days ASSUMPTION |
 | `K` | `heat.py` | 0.5 | Peng et al. 2026 |
 | `OP_BARE` | `heat.py` | 0.35 | ASSUMPTION, sourced range 0.25–0.54 |
 | `R_OFF` | `season.py` | 0.5 | ASSUMPTION (0.3–0.7), anchored |
@@ -509,14 +509,14 @@ All rules and Python snippets are in `exchange/README.md`. In short:
 | Runoff hardly changes: why keep it? | It is honest: trees remove ~2% at T2-60, the same order as field studies (3.5–4%). The method keeps it so the trade-off is visible, and targets hotspots. Tree pits (infiltration) are the next lever and are not modelled yet. |
 | Does hotspot runoff follow the runoff weight? | In the 15 Oct run mostly yes (Spearman −0.73), in the 8 Oct run no; it only varies 0.5%, so the per-position water potential is still unverified (suspects: overlap with kept trees, the box filter). |
 | Your first result changed: why trust it? | That is the point of the sensitivity runs. The leaf state of Jacaranda was the uncertain input; 170 dated Barcelona photos fixed it, the free gain shrank from 9% to 2%, and the robust results kept their sign and rough size (summer gain vs random +14 → +16%; trade-off −11% winter for −16% summer → −20% for −18%). |
-| Does the proxy match the decided heat metric? | Not yet: the metric is mean UTCI over 12–17 h standard time (13–18 h CEST) on a hot design day (decided 19 Oct); the proxy uses 15 July 12–17 h CEST. Aligning the window and calibrating on Ladybug Tier 1 is the next step. |
+| Does the proxy match the decided heat metric? | Partly: same window, 12–17 h CEST (decided 25 Oct), but the proxy scores effective shade on 15 July, not UTCI on the hot design day. Calibrating on Ladybug Tier 1 is the next step. |
 | Where do species values come from? | LiDAR crowns of real trees of each species in Barcelona (medians); leaf calendars from sources per species; class defaults marked ASSUMPTION. |
 | Young trees? | Not in v0: crowns are mature medians. Runoff v1 shows young replacements lose ~37% of today's street-tree runoff benefit; a young/mature horizon is planned. |
 | Does it work elsewhere? | The core is site-agnostic: a new site needs a data adapter (`build_<site>`, `trees_<site>`). Validated only for Porta; Florence is the transfer test. |
 | What about diversity, pests, allergens, roots? | 15% cap and optional Shannon floor now; species can be excluded in the web app. Pests, allergens, roots and paving are not scored. |
 
 **Limits to say first (tool-specific)**
-- Heat = shade proxy, not UTCI; no transpiration cooling; the summer window (15 July, 12–17 h CEST) is not yet aligned with the decided metric (12–17 h standard time = 13–18 h CEST, on a hot design day).
+- Heat = shade proxy, not UTCI; no transpiration cooling; the summer window is the decided 12–17 h CEST, but on 15 July rather than the hot design day.
 - Runoff = event volume only: no sewer, no ponding, no peak flow; same storage per LAI for every species; tree pits not modelled.
 - LiDAR LAI proxy is uncalibrated and probably low → storage underestimated.
 - Potentials ignore crown overlaps (fixed by re-scoring, but the hotspot-runoff mismatch remains).

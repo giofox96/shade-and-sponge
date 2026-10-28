@@ -45,7 +45,7 @@ The top of the right panel shows the **canopy cover** of the layout on screen ag
 - **Precomputed layouts:** today plus the change of the disc model (exact, overlaps included).
 - **Live layouts, project areas and added trees:** today plus their crown discs summed without overlaps (marked ≈, runs high). Each added tree updates the counter.
 - **Gap:** the points and hectares left to the target.
-- **For scale** (city palette, established): what planting all 267 free street spots would add.
+- **For scale** (city palette, established): what planting all the free street spots would add (computed on 267 spots; 232 remain after the OSM exclusions, re-run pending).
 
 The data are in `meta.json → cover`, from `databases/barcelona/porta_canopy_cover.csv` and `additions_summary.csv`.
 
@@ -70,7 +70,7 @@ Trees are not replaced all at once. A plane is replaced when it dies, when it is
 
 **Sidewalks on the map** (Map layer → *Sidewalk edges and free planting spots*, on by default):
 - façade lines (brown) and kerb lines (dark) from the 1:1000 base map, so the sidewalk is the band between them;
-- the 267 free spots as green dots (light to dark = small / medium / large). In *Add trees* mode, a click on a spot plants there.
+- the 232 free spots as green dots (267 minus those near crossings, signals, parking entrances and bus stops; `scripts/porta_spot_exclusions.py`) (light to dark = small / medium / large). In *Add trees* mode, a click on a spot plants there.
 
 Built by `web_export.py` from the cached WMS tiles (`sidewalks.geojson`).
 
@@ -90,7 +90,7 @@ The **Compare side by side** button (left panel, Layout) replaces the 3D map wit
 - **Canopy cover** is a new exported metric (`canopy_pct`). Live layouts show no canopy value.
 
 ## Palettes and designer mode (9 Oct)
-- **Palette switch** (header): the city palette, 7 species: the city's 6 named replacements + Styphnolobium (`data/porta/`) or the Barcelona shortlist of 34 species (`data/porta-barcelona/`, from `python -m shade_sponge porta --palette=barcelona` and `python -m shade_sponge.web_export porta --palette=barcelona`). With 34 species, crowns are coloured by leaf habit (hue) and crown size (lightness); the species is in the tooltip and the inspector.
+- **Palette switch** (header): the city palette, 7 species: the city's 6 named replacements + Styphnolobium (`data/porta/`) or the Barcelona shortlist of 34 species (`data/porta-barcelona/`, from `python -m shade_sponge porta --palette=barcelona` and `python -m shade_sponge.web_export porta --palette=barcelona`). With 34 species, crowns are coloured by leaf habit (hue: ochre deciduous, green evergreen, olive semi-deciduous) and crown size (lightness); the species is in the tooltip and the inspector.
 - **Add trees** (left panel, Design): click open ground to place a tree. The browser computes its summer shade, winter shade, interception and façade fit for every palette species at that point (`src/pointpot.js`, a port of the Python formulas on `grid.bin.gz`: sun bits per design hour, ground flags, façade distance), recommends the best species for the current priorities, and adds it to the estimates and to live re-optimisation. Roofs, ground outside the site and points under 1 m from a building are refused; under 4 m from another tree gives a warning (ASSUMPTION). At the 832 plane positions the port matches the Python potentials with a median difference of 0.01% of each position's largest value (95% within ~2%). No sidewalk data yet: the designer decides where planting is possible.
 - **Download CSV** gives the added trees in Grasshopper local coordinates (`exchange/README.md`).
 
@@ -98,3 +98,20 @@ The **Compare side by side** button (left panel, Layout) replaces the 3D map wit
 Click anywhere inside the priority triangle (dots = precomputed exact layouts), change the max share per species, or untick species: the browser re-solves the same transportation LP as `shade_sponge/layout.py` with HiGHS (WebAssembly, `highs` npm package) on `potentials.json`, in ~0.1–0.3 s.
 - **Check against Python:** for 4 weight sets the browser layout matches the saved Python layout at 827–832 of 832 positions, with the same species counts (one tree different in one set); the difference comes from the rounded potentials in the export.
 - **Results are estimates (marked ≈):** summed single-tree potentials (no crown overlaps), calibrated by a straight line on the 16 saved palette layouts; the R² of each line is shown in the results panel. Exact scores need a run of the Python tool.
+
+## Species colours, overlays and the neighbourhood picker (25–28 Oct)
+The UI look is described under "Layout" above. On top of it:
+- **Species colours (city palette):** seven earth tones in a fixed order: moss, ink blue, ochre, rose, olive, plum, rust (`shade_sponge/web_export.py`).
+  - In light mode, adjacent slots pass the colour-vision-deficiency check, and every colour has ≥ 3:1 contrast.
+  - In dark mode they also pass the colour-vision check, but ink blue, rose and plum fall to 2.5–2.7:1 on the dark map.
+  - All 21 pairs together cannot pass with 7 hues. So species are also named in the legend, the tooltip and the inspector.
+- **Barcelona palette:** colour = leaf habit (ochre deciduous, green evergreen, olive semi-deciduous); darker = larger crown.
+- **Overlays:** one-hue ramps:
+  - sun: stone → ochre;
+  - water convergence: bone → ink blue;
+  - hotspots: bone → rust.
+
+  The committed PNGs and `meta.json` colours were remapped in place, by an exact colour-map lookup, for all three datasets. The next `web_export` run writes the same colours.
+- **Neighbourhood picker** (left panel, `src/components/BarriPicker.vue`): a mini-map of the 73 barris plus a dropdown grouped by district.
+  - Only barris with exported data open on the map (Porta for now); the others show their plane count and "not computed yet".
+  - The outlines come from `scripts/make_barris_web.py` → `public/data/barris.geojson`. They are provisional, from OSM; the official Open Data BCN boundaries are used when the script runs where they are downloaded.

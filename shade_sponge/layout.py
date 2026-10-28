@@ -107,6 +107,28 @@ def fits(site, pos, pal, size_rule=None):
     return f
 
 
+def planting_spots():
+    """Free street-tree spots (additions, scenarios A and R+A; scripts/porta_planting_spots.py), with their size class,
+    minus those too close to crossings, signals, parking entrances or bus stops (scripts/porta_spot_exclusions.py)."""
+    s = pd.read_csv(DB / "porta_planting_spots.csv").rename(columns={"spot_id": "tree_id"})
+    return s[s.get("excluded_by", pd.Series("", index=s.index)).fillna("") == ""].drop(columns="excluded_by", errors="ignore")
+
+
+def add_cap(cap, n_total, n_add):
+    """Cap per species when n_add trees are added: the 15% share is recomputed on the larger stock (Porta-local, ASSUMPTION)."""
+    return cap + int(np.floor(MAX_SHARE * (n_total + n_add)) - np.floor(MAX_SHARE * n_total))
+
+
+def in_area(pos, path):
+    """Positions inside the project area the user draws (notes/topic_decision.md §10.6): any polygon file GeoPandas
+    reads (GeoJSON, shapefile, GeoPackage), in its own CRS; EPSG:25831 if it has none (GeoJSON without one is WGS84).
+    Trees outside stay as they are today."""
+    import geopandas as gpd
+    a = gpd.read_file(path)
+    a = a.set_crs(25831) if a.crs is None else a.to_crs(25831)
+    return gpd.GeoSeries(gpd.points_from_xy(pos.x, pos.y), crs=25831).within(a.union_all()).values
+
+
 def _box_mean(mask, side, site):
     """Share of mask cells in a square of the given side (m) around each cell."""
     return ndimage.uniform_filter(mask.astype("float32"), size=max(1, int(round(side / site.res))))
