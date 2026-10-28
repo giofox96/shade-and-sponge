@@ -2,7 +2,7 @@
 // Side-by-side comparison: today | city rule (S1a) | optimised. Each column draws every street-tree crown to scale
 // (plane positions coloured by species, kept trees grey) and lists the headline metrics against today.
 import { computed } from 'vue'
-import { state, scenario, cityMean, label, areaLayout, BALANCED, LIVE, AREA } from '../store.js'
+import { state, scenario, cityMean, label, areaLayout, keptReplaced, BALANCED, LIVE, AREA } from '../store.js'
 
 const ROWS = [
   ['shade_summer_m2h', 'Summer shade', 'm²·h', 1],
@@ -20,10 +20,11 @@ const proj = computed(() => {
   const kx = 111320 * Math.cos((lat0 * Math.PI) / 180), ky = 110540
   return (lon, lat) => [(lon - lon0) * kx, (lat0 - lat) * ky]
 })
-const kept = computed(() => {
+const keptAll = computed(() => {
   const k = state.trees.kept
   return k.lon.map((lon, i) => [...proj.value(lon, k.lat[i]), k.crown_diam_m[i] / 2])
 })
+const kept = keptAll // all kept trees, for the bounding box and the 'Today' column
 const pos = computed(() => state.trees.positions.lon.map((lon, i) => proj.value(lon, state.trees.positions.lat[i])))
 const viewBox = computed(() => {
   const xs = [...kept.value, ...pos.value].map((p) => p[0]), ys = [...kept.value, ...pos.value].map((p) => p[1])
@@ -31,6 +32,14 @@ const viewBox = computed(() => {
   return `${x0 - 10} ${y0 - 10} ${x1 - x0 + 20} ${y1 - y0 + 20}`
 })
 
+// kept trees in a column: an area that replaces every tree draws the replaced ones with their new species
+function keptIn(repl) {
+  return keptAll.value.filter((_, i) => !repl.has(i))
+}
+function keptNew(repl) {
+  const pal = state.meta.palette
+  return [...repl.entries()].map(([i, j]) => ({ x: keptAll.value[i][0], y: keptAll.value[i][1], r: pal[j].crown_diam_m / 2, c: pal[j].color }))
+}
 function crowns(layout) {
   const P = state.trees.positions, pal = state.meta.palette
   return pos.value.map(([x, y], i) => {
@@ -47,13 +56,17 @@ const columns = computed(() => {
   if (!state.meta || !state.trees) return []
   const s0 = find('S0_current'), s1 = find('S1a_city_0')
   const L = state.trees.layouts
-  const today = { title: 'Today', sub: 'Measured trees, mature planes', metrics: s0.metrics, counts: null, crowns: crowns(L.S0_current) }
+  const none = new Map()
+  const today = { title: 'Today', sub: 'Measured trees, mature planes', metrics: s0.metrics, counts: null, crowns: crowns(L.S0_current),
+    kept: keptIn(none), keptNew: [] }
   const A = state.scenarioId === AREA && state.area
   if (A) {
     return [today,
       s1 && { title: 'City rule', sub: `In the project area (${A.idx.length} positions): expected 2026 mix · map: draw #0`,
-              metrics: A.city.metrics, counts: A.city.counts, crowns: crowns(areaLayout(A.idx.map((i) => L.S1a_city_0[i]))), live: true },
-      { title: 'Optimised', sub: label(scenario.value), metrics: A.metrics, counts: A.counts, crowns: crowns(areaLayout(A.layout)), live: true },
+              metrics: A.city.metrics, counts: A.city.counts, crowns: crowns(areaLayout(A.idx.map((i) => L.S1a_city_0[i]))), live: true,
+              kept: keptIn(keptReplaced(true)), keptNew: keptNew(keptReplaced(true)) },
+      { title: 'Optimised', sub: label(scenario.value), metrics: A.metrics, counts: A.counts, crowns: crowns(areaLayout(A.layout)), live: true,
+        kept: keptIn(keptReplaced()), keptNew: keptNew(keptReplaced()) },
     ].filter(Boolean)
   }
   const optId = state.scenarioId === LIVE || state.scenarioId.startsWith('S4') ? state.scenarioId : BALANCED
@@ -62,8 +75,9 @@ const columns = computed(() => {
   return [
     today,
     s1 && { title: 'City rule', sub: 'Metrics: mean of 10 draws of the 2026 mix · map and mix: draw #0', metrics: cityMean.value,
-            counts: s1.counts, crowns: crowns(L.S1a_city_0) },
-    { title: 'Optimised', sub: label(opt), metrics: opt.metrics, counts: opt.counts, crowns: crowns(optLayout), live: optId === LIVE },
+            counts: s1.counts, crowns: crowns(L.S1a_city_0), kept: keptIn(none), keptNew: [] },
+    { title: 'Optimised', sub: label(opt), metrics: opt.metrics, counts: opt.counts, crowns: crowns(optLayout), live: optId === LIVE,
+      kept: keptIn(none), keptNew: [] },
   ].filter(Boolean)
 })
 const today = computed(() => find('S0_current')?.metrics ?? {})
@@ -85,7 +99,8 @@ const stage = computed(() => (state.meta?.run?.trunk_class === 'SEGONA' ? 'repla
         <h3>{{ c.title }}</h3>
         <p class="muted small sub">{{ c.sub }}</p>
         <svg :viewBox="viewBox" class="mini" role="img" :aria-label="`Tree crowns, ${c.title}`">
-          <circle v-for="(k, i) in kept" :key="'k' + i" :cx="k[0]" :cy="k[1]" :r="k[2]" class="kept" />
+          <circle v-for="(k, i) in c.kept" :key="'k' + i" :cx="k[0]" :cy="k[1]" :r="k[2]" class="kept" />
+          <circle v-for="(t, i) in c.keptNew" :key="'n' + i" :cx="t.x" :cy="t.y" :r="t.r" :fill="t.c" fill-opacity="0.75" />
           <circle v-for="(t, i) in c.crowns" :key="i" :cx="t.x" :cy="t.y" :r="t.r" :fill="t.c" fill-opacity="0.75" />
         </svg>
         <table class="kpi">

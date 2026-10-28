@@ -58,6 +58,7 @@ for i, s in enumerate(sp):
     palette.append(dict(species=s, short=s.split()[0], color=color,
                         crown_diam_m=float(tr[0]), height_m=float(tr[1]), crown_base_m=float(tr[2]), lai=float(tr[3]),
                         trunk_class=row.trunk_class if row is not None else None,
+                        size_class=layout.SIZE_CLASS.get(s.replace("×", "x")),
                         cap=int(row.cap) if row is not None else None, in_palette=row is not None,
                         leaf_habit=phen.loc[s, "leaf_habit"], leaf=[float(phen.loc[s, f"m{m:02d}"]) for m in range(1, 13)],
                         leaf_basis=phen.loc[s, "months_basis"], source=phen.loc[s, "source"]))
@@ -80,6 +81,10 @@ s0 = L[L.scenario == "S0_current"].set_index("tree_id").loc[P.tree_id]
 # positions, kept trees
 lon, lat = to_ll(pos.x.values, pos.y.values)
 kept = site.trees[~site.trees.is_plane & (site.trees.flag == "ok")]
+sw = pd.read_csv(DB / f"{name}_sidewalk_width.csv").set_index("tree_id")          # scripts/porta_sidewalk_width.py
+# free planting spots (scripts/porta_planting_spots.py): an upper bound, see shade_sponge/README.md "Additions"
+sp_ = pd.read_csv(DB / f"{name}_planting_spots.csv")
+slon, slat = to_ll(sp_.x.values, sp_.y.values)
 klon, klat = to_ll(kept.x.values, kept.y.values)
 trees = dict(
     positions=dict(tree_id=P.tree_id.tolist(), lon=r6(lon), lat=r6(lat), sun_summer=r2(P.sun_share_summer),
@@ -87,10 +92,31 @@ trees = dict(
                    water_convergence_m2=P.water_convergence_m2.astype(int).tolist(),
                    s0_crown_diam_m=r2(s0.crown_diam_m.fillna(0)), s0_height_m=r2(s0.height_m.fillna(0)),
                    s0_crown_base_m=r2(s0.crown_base_m.fillna(0))),
-    kept=dict(lon=r6(klon), lat=r6(klat), species=kept.sp.tolist(), crown_diam_m=r2(kept.crown_diam_m),
+    kept=dict(lon=r6(klon), lat=r6(klat), species=kept.sp.tolist(), lai=r2(kept.lai),
+              size_class=kept.tree_id.map(sw.size_class).fillna("check").tolist(), crown_diam_m=r2(kept.crown_diam_m),
               height_m=r2(kept.height_m), crown_base_m=r2(kept.crown_base_m)),
+    spots=dict(id=sp_.spot_id.tolist(), lon=r6(slon), lat=r6(slat), size_class=sp_.size_class.tolist(), width_m=r2(sp_.width_m)),
     layouts=layouts)
 json.dump(trees, open(out / "trees.json", "w"), separators=(",", ":"))
+
+# sidewalk edges: facade and kerb lines of the 1:1000 base map (cached WMS SVG tiles, scripts/porta_sidewalk_width.py)
+import importlib.util, shapely
+spec = importlib.util.spec_from_file_location("sw_lines", ROOT / "scripts/porta_sidewalk_width.py")
+swl = importlib.util.module_from_spec(spec)
+spec.loader.exec_module(swl)                            # the script's work is under __main__; this only defines functions
+tiles = sorted(swl.SVG.glob("facade_*.svg"))
+xs = sorted({float(f.stem.split("_")[1]) for f in tiles})
+ys = sorted({float(f.stem.split("_")[2]) for f in tiles})
+box = shapely.box(site.x0 - 20, site.y1 - site.domain.shape[0] * site.res - 20, site.x0 + site.domain.shape[1] * site.res + 20, site.y1 + 20)
+edges = []
+for kind_, layer in (("facade", "facade"), ("kerb", "road")):
+    for g in swl.lines(layer, xs, ys):
+        g = g.intersection(box).simplify(0.2)
+        for part in getattr(g, "geoms", [g]):
+            if part.geom_type == "LineString" and part.length >= 1.0:
+                lo, la = to_ll(*np.asarray(part.coords).T)
+                edges.append(dict(type="Feature", properties=dict(kind=kind_), geometry=dict(type="LineString", coordinates=list(zip(r6(lo), r6(la))))))
+json.dump(dict(type="FeatureCollection", features=edges), open(out / "sidewalks.geojson", "w"), separators=(",", ":"))
 
 # per-position potentials (palette order) + fit, for live optimisation
 g = [layout.slug(s) for s in pal.species]
@@ -150,7 +176,9 @@ if kind == "city" and trunk == "TERCERA" and size_rule == "exact":   # the addit
     cover["additions"] = dict(spots=int(a_.loc["A_Opt", "n_new"]), opt_pts=round(float(a_.loc["A_Opt", "canopy_pct"] - a_.loc["S0_current", "canopy_pct"]), 2),
                               city_pts=round(float(a_.filter(regex="^A_S1a", axis=0).canopy_pct.mean() - a_.loc["S0_current", "canopy_pct"]), 2))
 lon_c, lat_c = to_ll(x0 + W / 2, y1 - H / 2)
-meta = dict(palette_kind=kind, run=dict(size_rule=size_rule, trunk_class=trunk), s1a_mix=layout.S1A_MIX, cover=cover, grid=grid, model=model, site=dict(name=name.capitalize(), center=[round(lon_c, 6), round(lat_c, 6)], corners=[r6(c) for c in corners]),
+leaf_by_species = {s: [float(phen.loc[s, f"m{m:02d}"]) for m in range(1, 13)] for s in sorted(set(kept.sp)) if s in phen.index}
+meta = dict(palette_kind=kind, run=dict(size_rule=size_rule, trunk_class=trunk), s1a_mix=layout.S1A_MIX, cover=cover,
+            leaf_by_species=leaf_by_species, grid=grid, model=model, site=dict(name=name.capitalize(), center=[round(lon_c, 6), round(lat_c, 6)], corners=[r6(c) for c in corners]),
             palette=palette, scenarios=scen, overlays=overlays, storm="PDISBA T = 2 yr, 1 h (31.9 mm), season-weighted",
             sensitivity=sens.to_dict(orient="records"),
             assumptions=["Leafless crown opacity 0.35 (test 0.25–0.54)", "Design days 15 Jul 12–17 h CEST and 15 Jan 10–15 h CET (summer window not yet aligned with the decided heat metric: mean UTCI 13–18 h CEST on a hot design day)",

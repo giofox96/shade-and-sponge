@@ -1,7 +1,7 @@
 <script setup>
 import { onMounted, watch } from 'vue'
 import { state, load, switchSite, scenario, label, layoutEff, runLive, runArea, setAddMode, addedCsv, startDrawing, finishArea,
-  cancelDrawing, clearArea, MIN_SPACING_M, MONTHS, BALANCED, LIVE, AREA } from './store.js'
+  cancelDrawing, clearArea, setAreaAll, fillAreaSpots, MIN_SPACING_M, MONTHS, BALANCED, LIVE, AREA } from './store.js'
 import MapView from './components/MapView.vue'
 import PriorityTriangle from './components/PriorityTriangle.vue'
 import TradeoffChart from './components/TradeoffChart.vue'
@@ -84,6 +84,19 @@ watch(
           <button v-if="state.drawing" @click="cancelDrawing">Cancel</button>
           <button v-if="state.area && !state.drawing" @click="clearArea">Whole site</button>
         </div>
+        <template v-if="state.area && !state.drawing">
+          <label class="small"><input type="checkbox" :checked="state.area.all" :disabled="!state.area.idx.length"
+                 @change="setAreaAll($event.target.checked)" />
+            Replace all {{ state.area.idx.length + state.area.keptIdx.length }} trees in the area, not only the {{ state.area.idx.length }} planes</label>
+          <p v-if="state.area.all" class="small accent">A street rebuild can remove every tree in the stretch. New trees are scored at the
+            selected stage and today's at their size: replacing young or healthy trees looks like a gain that takes years to arrive.
+            Compare with the "≈ 10 years" stage and watch the cover counter.</p>
+          <div class="btns">
+            <button :disabled="!state.area.spotIdx.length" @click="fillAreaSpots">Fill the {{ state.area.spotIdx.length }} free spots</button>
+          </div>
+          <p class="muted small">Free spots: sidewalks of at least 2.5 m with room for a tree by the 2011 guide's spacing (an upper bound:
+            driveways, crossings, lamps and services are not in the data). Each gets the size class of its sidewalk.</p>
+        </template>
         <p class="muted small">Trees are replaced only where a project, a dead tree or a street rebuild opens the ground. Draw that area:
           only the plane positions inside are replaced and compared; today's trees stay everywhere else.</p>
       </section>
@@ -113,6 +126,8 @@ watch(
       </section>
       <section>
         <h3>Map layer</h3>
+        <label class="small"><input type="checkbox" v-model="state.showStreets" /> Sidewalk edges and free planting spots
+          <span class="muted">(brown = façade, dark = kerb, so the sidewalk is the band between them; green dots = free spots, light to dark = small / medium / large)</span></label>
         <select v-model="state.overlay">
           <option value="">None</option>
           <option v-for="o in state.meta.overlays" :key="o.id" :value="o.id">{{ o.label }}</option>

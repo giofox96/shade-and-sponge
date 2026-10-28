@@ -18,7 +18,8 @@ export const state = reactive({
   // project area: only the plane positions inside a drawn polygon are replaced; outside, today's trees stay
   drawing: false,
   draft: [], // [lon, lat] vertices while drawing
-  area: null, // { poly, idx, weights, layout, metrics, counts, city: { metrics, counts }, ms }
+  area: null, // { poly, idx, keptIdx, spotIdx, all, weights, layout, keptLayout, metrics, counts, city, ms }
+  showStreets: true, // sidewalk edges (facades, kerbs) and free planting spots on the map
   overlay: 'sun_winter',
   month: 7,
   selected: null, // index into positions
@@ -84,7 +85,8 @@ export function label(s) {
   if (s.id === 'S0_current') return 'Current trees (mature planes)'
   if (s.id === AREA) {
     const [a, b, c] = s.weights.map((w) => +w.toFixed(2))
-    return `Project area, ${s.idx.length} planes replaced: summer ${a}, winter ${b}, runoff ${c}`
+    const n = s.idx.length + (s.all ? s.keptIdx.length : 0)
+    return `Project area, ${n} ${s.all ? 'trees' : 'planes'} replaced: summer ${a}, winter ${b}, runoff ${c}`
   }
   if (s.id.startsWith('S1a')) return `City rule (2026 mix) #${s.id.split('_').pop()}`
   if (s.id.startsWith('S1')) return `Random palette #${s.id.split('_').pop()}`
@@ -218,10 +220,12 @@ export function addedCsv() {
 
 export const hexToRgb = (h) => [1, 3, 5].map((i) => parseInt(h.slice(i, i + 2), 16))
 
-// ---- project area: replace only the plane positions inside a drawn polygon ----------------------------------
-// Estimates, like the live layouts: today's exact metrics + calibration slope × Σ (potential of the new species −
-// potential of today's tree) over the positions in the area. Today's planes are scored with their measured crown
-// (trees.json) and the plane's median LAI (ASSUMPTION: per-tree LAI is not exported). Canopy cover is not estimated.
+// ---- project area: replace only the trees inside a drawn polygon ---------------------------------------------
+// Rows to decide: the plane positions inside (always) and, with "replace all trees", the other street trees inside.
+// Free planting spots inside can be filled as added trees. Estimates, like the live layouts: today's exact metrics +
+// calibration slope × Σ (potential of the new species − potential of today's tree) over the rows. Today's trees are
+// scored in the browser from their measured crown (planes: the plane's median LAI, ASSUMPTION; other trees: their LiDAR
+// LAI) and rescaled per metric so that every plane, fed to the calibration line, reproduces today exactly.
 async function ensureGrid() {
   if (grid) return
   grid = await loadGrid(dataUrl(state.meta.grid.file), state.meta.grid)
@@ -240,11 +244,28 @@ function insidePoly(lon, lat, poly) {
   return inside
 }
 
-// Full-length layout: today's trees everywhere, the area's species at its positions
+// Sizing rule, as layout.fits(size_rule="exact"): the species' class must equal the position's sidewalk class;
+// "check" (no facade-bounded sidewalk) and species without a class are not filtered; "none" (< 2.5 m) fits nothing
+const sizeFits = (cls, sp) => !cls || cls === 'check' || !sp.size_class || (cls !== 'none' && sp.size_class === cls)
+function withSizeRule(fit, cls) {
+  const sp = state.meta.palette.filter((s) => s.in_palette)
+  const f = fit.map((v, j) => (v && sizeFits(cls, sp[j]) ? 1 : 0))
+  if (!f.some(Boolean)) f[sp.reduce((m, s, j) => (s.crown_diam_m < sp[m].crown_diam_m ? j : m), 0)] = 1 // as the tool's last resort
+  return f
+}
+
+// Full-length plane layout: today's trees everywhere, the area's species at its plane positions
 export function areaLayout(sub) {
   const full = [...state.trees.layouts.S0_current]
   state.area.idx.forEach((i, k) => (full[i] = sub[k]))
   return full
+}
+// kept tree index -> new palette species, for the kept trees an area replaces (empty unless "replace all trees")
+export function keptReplaced(useCity = false) {
+  const A = state.area
+  if (!A?.all) return new Map()
+  const src = useCity ? A.city.keptLayout : A.keptLayout
+  return new Map(A.keptIdx.map((k, r) => [k, src?.[r]]).filter(([, j]) => j != null))
 }
 
 export function startDrawing() {
@@ -275,12 +296,15 @@ function planePot(i) {
   }
   return planePotCache.get(i)
 }
+const ONES = Array(12).fill(1)
+function keptToday(k) {
+  const t = state.trees.kept
+  const [x, y] = grid.toXY(t.lon[k], t.lat[k])
+  return crownPotential(grid, state.meta.model, x, y, { crown_diam_m: t.crown_diam_m[k], height_m: t.height_m[k],
+    crown_base_m: t.crown_base_m[k], lai: t.lai[k], leaf: state.meta.leaf_by_species?.[t.species[k]] ?? ONES })
+}
 
 const POT_KEY = { shade_summer: 'summer', shade_winter: 'winter', water: 'water' }
-// Today's planes are scored with the browser formulas and a median LAI, which can sit off the calibration line of the
-// palette potentials (Python). Scale them per metric so that the line, fed with every plane, gives today's exact value:
-// k_m = ((S0_m − a_m) / b_m) / Σ_all plane potential. An area with no positions then returns today exactly, and an area
-// with every position returns the live estimate of a full replacement.
 let planeScale = null
 function planeScales() {
   if (planeScale) return planeScale
@@ -294,32 +318,62 @@ function planeScales() {
   return planeScale
 }
 
-// Metrics of "today's trees outside, new trees inside": sums[k] = Σ potential of the new trees in the area
-function areaMetrics(idx, sums) {
+// Rows of the area: { kind, i, fit[], shade_summer[], shade_winter[], water[], today{summer, winter, water}, removes }
+let rowsCache = { poly: null, all: null, rows: null }
+function areaRows(A) {
+  if (rowsCache.poly === A.poly && rowsCache.all === A.all) return rowsCache.rows
+  rowsCache = { poly: A.poly, all: A.all, rows: buildRows(A) }
+  return rowsCache.rows
+}
+function buildRows(A) {
+  const pot = state.pot
+  const rows = A.idx.map((i) => ({ kind: 'plane', i, fit: pot.fit[i], shade_summer: pot.shade_summer[i], shade_winter: pot.shade_winter[i],
+    water: pot.water[i], today: planePot(i) }))
+  if (A.all) {
+    const t = state.trees.kept
+    A.keptIdx.forEach((k) => {
+      const q = pointPotentials(grid, state.meta, t.lon[k], t.lat[k])
+      rows.push({ kind: 'kept', i: k, fit: withSizeRule(q.fit, t.size_class[k]), shade_summer: q.summer, shade_winter: q.winter,
+        water: q.water, today: keptToday(k), removes: t.species[k] })
+    })
+  }
+  return rows
+}
+
+// Metrics of "today's trees outside, new trees on the rows": newSums[k] = Σ potential of the new trees on the rows
+function areaMetrics(rows, newSums) {
   const s0 = state.meta.scenarios.find((s) => s.id === 'S0_current').metrics
   const k = planeScales()
   const today = { shade_summer: 0, shade_winter: 0, water: 0 }
-  idx.forEach((i) => {
-    const q = planePot(i)
-    for (const key in today) today[key] += q[POT_KEY[key]]
+  rows.forEach((r) => {
+    for (const key in today) today[key] += r.today[POT_KEY[key]]
   })
   return Object.fromEntries(Object.keys(s0).map((m) =>
-    [m, PROXY[m] ? s0[m] + calibration.value[m].b * (sums[PROXY[m]] - k[m] * today[PROXY[m]]) : null]))
+    [m, PROXY[m] ? s0[m] + calibration.value[m].b * (newSums[PROXY[m]] - k[m] * today[PROXY[m]]) : null]))
 }
 
-// City rule inside the area: the expected value of the S1a draw (2026 mix weights among the fitting mix species;
-// any fitting species if none of the mix fits, as layout.s1a_layout's last resort)
-function areaCity(idx) {
+// Room under the cap once the kept trees an area replaces are gone
+function keptAfter(rows) {
+  const kept = [...state.pot.kept]
+  rows.forEach((r) => {
+    const j = r.kind === 'kept' ? state.pot.species.indexOf(r.removes) : -1
+    if (j >= 0) kept[j]--
+  })
+  return kept
+}
+
+// City rule on the rows: the expected value of the S1a draw (2026 mix weights among the fitting mix species; any
+// fitting species if none of the mix fits), with capped species scaled down to their room, as the exact S1a draws
+function areaCity(rows) {
   const pot = state.pot
-  const cap = caps(pot, state.share, state.exclude)
+  const cap = caps({ ...pot, kept: keptAfter(rows) }, state.share, state.exclude)
   let w = pot.species.map((s) => state.meta.s1a_mix?.[s] ?? 0)
-  const probs = () => idx.map((i) => {
-    let ww = pot.species.map((_, j) => (pot.fit[i][j] ? w[j] : 0))
-    if (!ww.some((v) => v > 0)) ww = pot.species.map((_, j) => pot.fit[i][j])
+  const probs = () => rows.map((r) => {
+    let ww = pot.species.map((_, j) => (r.fit[j] ? w[j] : 0))
+    if (!ww.some((v) => v > 0)) ww = pot.species.map((_, j) => r.fit[j])
     const tot = ww.reduce((a, b) => a + b, 0)
     return ww.map((v) => v / tot)
   })
-  // the 15% cap, as in the exact S1a draws: shrink the weight of any species whose expected count exceeds its room
   let P = probs()
   for (let it = 0; it < 20; it++) {
     const n = pot.species.map((_, j) => P.reduce((a, p) => a + p[j], 0))
@@ -330,44 +384,75 @@ function areaCity(idx) {
   }
   const sums = { shade_summer: 0, shade_winter: 0, water: 0 }
   const counts = Object.fromEntries(pot.species.map((s) => [s, 0]))
-  idx.forEach((i, r) => P[r].forEach((v, j) => {
+  P.forEach((p, r) => p.forEach((v, j) => {
     if (!v) return
-    for (const k in sums) sums[k] += v * pot[k][i][j]
+    for (const k in sums) sums[k] += v * rows[r][k][j]
     counts[pot.species[j]] += v
   }))
-  return { metrics: areaMetrics(idx, sums), counts: Object.fromEntries(Object.entries(counts).map(([s, n]) => [s, Math.round(n)])) }
+  const mostLikely = P.map((p) => p.indexOf(Math.max(...p))) // for drawing the kept trees the rule would replace
+  return { metrics: areaMetrics(rows, sums), counts: Object.fromEntries(Object.entries(counts).map(([s, n]) => [s, Math.round(n)])),
+    keptLayout: rows.map((r, n) => (r.kind === 'kept' ? mostLikely[n] : null)).filter((j) => j != null) }
 }
 
 export async function finishArea() {
   if (state.draft.length < 3) return void (state.addMsg = 'An area needs at least three corners.')
   const poly = state.draft
   const p = state.trees.positions
+  const t = state.trees.kept
   const idx = p.lon.map((lon, i) => (insidePoly(lon, p.lat[i], poly) ? i : -1)).filter((i) => i >= 0)
-  if (!idx.length) return void (state.addMsg = 'No plane positions inside that area: draw it around some street trees.')
+  const keptIdx = t.lon.map((lon, k) => (insidePoly(lon, t.lat[k], poly) ? k : -1)).filter((k) => k >= 0)
+  const spotIdx = state.trees.spots.lon.map((lon, s) => (insidePoly(lon, state.trees.spots.lat[s], poly) ? s : -1)).filter((s) => s >= 0)
+  if (!idx.length && !keptIdx.length) return void (state.addMsg = 'No street trees inside that area: draw it around some trees.')
   state.addMsg = 'Loading the site grid…'
   await ensureGrid()
   Object.assign(state, { drawing: false, draft: [], addMsg: null })
-  state.area = { poly, idx, weights: weightsNow(), layout: [], metrics: null, counts: {}, city: areaCity(idx) }
+  state.area = { poly, idx, keptIdx, spotIdx, all: !idx.length, weights: weightsNow(), layout: [], keptLayout: [], metrics: null, counts: {} }
+  await runArea(state.area.weights)
+}
+
+// "Replace all trees": the other street trees in the area become decision rows too
+export async function setAreaAll(on) {
+  state.area.all = on
+  await runArea(state.area.weights)
+}
+
+// "Fill the free spots": every free planting spot in the area becomes an added tree (sizing rule of its sidewalk)
+export async function fillAreaSpots() {
+  const S = state.trees.spots
+  const have = new Set(state.added.map((t) => t.spot))
+  for (const s of state.area.spotIdx) {
+    if (have.has(S.id[s])) continue
+    const q = pointPotentials(grid, state.meta, S.lon[s], S.lat[s])
+    const fit = withSizeRule(q.fit, S.size_class[s])
+    state.added.push({ lon: S.lon[s], lat: S.lat[s], x: q.x, y: q.y, pot: { summer: q.summer, winter: q.winter, water: q.water, fit },
+      warn: [], sun_summer: q.sun_summer, sun_winter: q.sun_winter, drains_to_hotspot: q.drains_to_hotspot, spot: S.id[s], auto: true,
+      species: fit.indexOf(1) })
+  }
+  state.addedVersion++
   await runArea(state.area.weights)
 }
 
 export async function runArea(weights) {
-  const { idx } = state.area
+  const A = state.area
+  const rows = areaRows(A)
   const pot = state.pot
-  const sub = { ...pot, fit: idx.map((i) => pot.fit[i]) }
-  for (const k of ['shade_summer', 'shade_winter', 'water']) sub[k] = idx.map((i) => pot[k][i])
+  const sub = { ...pot, kept: keptAfter(rows), fit: rows.map((r) => r.fit) }
+  for (const k of ['shade_summer', 'shade_winter', 'water']) sub[k] = rows.map((r) => r[k])
   state.busy = true
   state.liveError = null
-  const res = await optimise(sub, weights, { share: state.share, exclude: state.exclude, minEff: state.minEff })
+  const res = await optimise(sub, weights, { share: state.share, exclude: state.exclude, minEff: state.minEff, extra: state.added })
   state.busy = false
   if (res.error) return void (state.liveError = res.error)
+  res.layout.slice(rows.length).forEach((j, k) => Object.assign(state.added[k], { species: j, auto: true }))
+  const lay = res.layout.slice(0, rows.length)
   const sums = { shade_summer: 0, shade_winter: 0, water: 0 }
-  res.layout.forEach((j, k) => {
-    for (const key in sums) sums[key] += sub[key][k][j]
+  lay.forEach((j, r) => {
+    for (const key in sums) sums[key] += rows[r][key][j]
   })
-  const counts = Object.fromEntries(pot.species.map((s, j) => [s, res.layout.filter((x) => x === j).length]))
-  Object.assign(state.area, { weights, layout: res.layout, metrics: areaMetrics(idx, sums), counts, ms: res.ms,
-    version: (state.area.version ?? 0) + 1 })
+  const counts = Object.fromEntries(pot.species.map((s, j) => [s, lay.filter((x) => x === j).length]))
+  Object.assign(A, { weights, layout: lay.slice(0, A.idx.length), keptLayout: lay.slice(A.idx.length), metrics: areaMetrics(rows, sums),
+    counts, city: areaCity(rows), ms: res.ms, version: (A.version ?? 0) + 1 })
+  state.addedVersion++
   state.scenarioId = AREA
 }
 
@@ -391,6 +476,12 @@ export const cover = computed(() => {
     const a = currentLayout().reduce((acc, j, i) => acc + (pal[j].in_palette ? disc(pal[j].crown_diam_m) - disc(P.s0_crown_diam_m[i]) : 0), 0)
     d = (100 * a) / C.area_m2
     approx = true
+  }
+  if (s?.id === AREA) {
+    const t = state.trees.kept
+    let a = 0
+    keptReplaced().forEach((j, k) => (a += disc(pal[j].crown_diam_m) - disc(t.crown_diam_m[k])))
+    d += (100 * a) / C.area_m2
   }
   const added = (100 * state.added.reduce((acc, t) => acc + (t.species >= 0 ? disc(pal[t.species].crown_diam_m) : 0), 0)) / C.area_m2
   if (state.added.length) approx = true

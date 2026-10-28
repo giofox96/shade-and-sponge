@@ -9,7 +9,7 @@ import { MapboxOverlay } from '@deck.gl/mapbox'
 import { BitmapLayer, GeoJsonLayer, PathLayer, PolygonLayer, ScatterplotLayer } from '@deck.gl/layers'
 import { SimpleMeshLayer } from '@deck.gl/mesh-layers'
 import { SphereGeometry } from '@luma.gl/engine'
-import { state, dataUrl, hexToRgb, currentLayout, addTreeAt, addVertex } from '../store.js'
+import { state, dataUrl, hexToRgb, currentLayout, addTreeAt, addVertex, keptReplaced, AREA } from '../store.js'
 
 setWorkerUrl(workerUrl)
 const el = ref(null)
@@ -34,10 +34,20 @@ function crowns() {
     return [s.crown_diam_m, s.height_m, s.crown_base_m]
   }
   const k = state.trees.kept
+  const repl = scenarioId === AREA ? keptReplaced() : new Map()
   return [
     new SimpleMeshLayer({
+      id: 'kept-new',
+      data: [...repl.keys()],
+      mesh: sphere,
+      getPosition: (i) => { const s = pal[repl.get(i)]; return [k.lon[i], k.lat[i], (s.height_m + s.crown_base_m) / 2] },
+      getScale: (i) => { const s = pal[repl.get(i)]; return [s.crown_diam_m / 2, s.crown_diam_m / 2, Math.max(s.height_m - s.crown_base_m, 1) / 2] },
+      getColor: (i) => { const s = pal[repl.get(i)]; return [...hexToRgb(s.color), Math.round(60 + 170 * s.leaf[month - 1])] },
+      updateTriggers: { getPosition: state.area?.version, getScale: state.area?.version, getColor: [state.area?.version, month] },
+    }),
+    new SimpleMeshLayer({
       id: 'kept',
-      data: [...k.lon.keys()],
+      data: [...k.lon.keys()].filter((i) => !repl.has(i)),
       mesh: sphere,
       getPosition: (i) => [k.lon[i], k.lat[i], (k.height_m[i] + k.crown_base_m[i]) / 2],
       getScale: (i) => [k.crown_diam_m[i] / 2, k.crown_diam_m[i] / 2, Math.max(k.height_m[i] - k.crown_base_m[i], 1) / 2],
@@ -110,6 +120,20 @@ function layers() {
       getLineColor: [180, 176, 166],
       lineWidthMinPixels: 0,
     }),
+    state.showStreets &&
+      new GeoJsonLayer({ id: 'sidewalks', data: dataUrl('sidewalks.geojson'), stroked: true, filled: false,
+        getLineColor: (f) => (f.properties.kind === 'facade' ? [150, 95, 55, 220] : [35, 45, 60, 235]),
+        getLineWidth: (f) => (f.properties.kind === 'facade' ? 0.5 : 0.8), lineWidthUnits: 'meters', lineWidthMinPixels: 1.5 }),
+    state.showStreets &&
+      new ScatterplotLayer({ id: 'spots', data: state.trees.spots.lon.map((lon, i) => i), radiusUnits: 'meters',
+        getPosition: (i) => [state.trees.spots.lon[i], state.trees.spots.lat[i], 0.2],
+        getRadius: (i) => ({ small: 1.6, medium: 2.2, large: 2.8 })[state.trees.spots.size_class[i]], radiusMinPixels: 3,
+        getFillColor: (i) => ({ small: [168, 214, 110], medium: [92, 170, 50], large: [40, 110, 20] })[state.trees.spots.size_class[i]],
+        stroked: true, getLineColor: [20, 40, 10], lineWidthMinPixels: 1.5, pickable: true,
+        onClick: ({ object, coordinate }) => { // a click on a free spot plants there in "Add trees" mode
+          if (state.drawing) return addVertex(...coordinate)
+          if (state.addMode) addTreeAt(state.trees.spots.lon[object], state.trees.spots.lat[object])
+        } }),
     state.area &&
       new PolygonLayer({ id: 'area', data: [state.area.poly], getPolygon: (d) => d, stroked: true, filled: true,
         getFillColor: [24, 95, 165, 28], getLineColor: [24, 95, 165, 220], lineWidthMinPixels: 2 }),
@@ -143,6 +167,7 @@ onMounted(() => {
     },
     getTooltip: ({ layer, index, object }) => {
       if (layer?.id === 'added') return { text: `${state.meta.palette[object.species].species} (added)` }
+      if (layer?.id === 'spots') { const S = state.trees.spots; return { text: `Free planting spot · ${S.size_class[object]} tree · sidewalk ${S.width_m[object]} m` } }
       if (layer?.id !== 'positions' || index < 0) return null
       return { text: state.meta.palette[currentLayout()[index]].species }
     },
@@ -152,7 +177,7 @@ onMounted(() => {
 })
 
 watch(
-  () => [state.scenarioId, state.live?.version, state.area?.version, state.area, state.drawing, state.draft, state.overlay,
+  () => [state.scenarioId, state.live?.version, state.area?.version, state.area, state.drawing, state.draft, state.overlay, state.showStreets,
     state.month, state.selected, state.addedVersion],
   () => overlay?.setProps({ layers: layers() }),
 )
