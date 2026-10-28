@@ -141,7 +141,7 @@ grid = dict(W=W, H=H, res=site.res, x0=x0, y1=y1, corners=[r6(c) for c in corner
             origin=[o["origin_x"], o["origin_y"]])                  # Grasshopper local origin (exchange/site_origin.json)
 sens = pd.read_csv(DB / "tool_v0_sensitivity.csv") if kind == "city" else pd.DataFrame()   # sensitivity: city palette only
 lon_c, lat_c = to_ll(x0 + W / 2, y1 - H / 2)
-meta = dict(palette_kind=kind, run=dict(size_rule=size_rule, trunk_class=trunk), grid=grid, model=model, site=dict(name=name.capitalize(), center=[round(lon_c, 6), round(lat_c, 6)], corners=[r6(c) for c in corners]),
+meta = dict(palette_kind=kind, run=dict(size_rule=size_rule, trunk_class=trunk), s1a_mix=layout.S1A_MIX, grid=grid, model=model, site=dict(name=name.capitalize(), center=[round(lon_c, 6), round(lat_c, 6)], corners=[r6(c) for c in corners]),
             palette=palette, scenarios=scen, overlays=overlays, storm="PDISBA T = 2 yr, 1 h (31.9 mm), season-weighted",
             sensitivity=sens.to_dict(orient="records"),
             assumptions=["Leafless crown opacity 0.35 (test 0.25–0.54)", "Design days 15 Jul 12–17 h CEST and 15 Jan 10–15 h CET (summer window not yet aligned with the decided heat metric: mean UTCI 13–18 h CEST on a hot design day)",

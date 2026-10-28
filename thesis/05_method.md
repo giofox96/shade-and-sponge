@@ -253,7 +253,7 @@ The scenarios are combined with three planting options:
 
 For A and R+A, the city's rule is run with 5 seeds and the optimised layout with one weight set (summer 0.5, winter 0.25, runoff 0.25), not the full sweep. The free spots come from the same base map. Pits are placed 0.7 m in from the kerb, on sidewalks of at least 2.5 m, within 15 m of a street centreline (`ASSUMPTION`), and spaced 7, 9 or 13 m by size class. This gives 267 spots in Porta. They are an upper bound, because driveways, crossings, bus stops, lamps and underground services are not in the data.
 
-**Project area.** A designer will be able to draw a project area so that only the positions inside it are decided. This is planned, not yet implemented.
+**Project area.** Plane trees are replaced one at a time, when they die or when a street project rebuilds the ground (Chapter 3), so the web application lets a designer draw a project area. Only the plane positions inside it are decided, by the same optimisation; today's trees stay everywhere else. The comparison with today and with the city rule is made for that area. These are browser estimates: today's exact metrics plus the calibrated change in the potentials of the positions inside the area. Today's planes are rescaled so that an area covering every position reproduces today's exact values. An exact Python run for an area is not yet implemented.
 
 ## Front-ends {#sec:method-frontends}
 

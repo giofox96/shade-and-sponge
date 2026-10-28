@@ -1,6 +1,7 @@
 <script setup>
 import { onMounted, watch } from 'vue'
-import { state, load, switchSite, scenario, label, layoutEff, runLive, setAddMode, addedCsv, MIN_SPACING_M, MONTHS, BALANCED, LIVE } from './store.js'
+import { state, load, switchSite, scenario, label, layoutEff, runLive, runArea, setAddMode, addedCsv, startDrawing, finishArea,
+  cancelDrawing, clearArea, MIN_SPACING_M, MONTHS, BALANCED, LIVE, AREA } from './store.js'
 import MapView from './components/MapView.vue'
 import PriorityTriangle from './components/PriorityTriangle.vue'
 import TradeoffChart from './components/TradeoffChart.vue'
@@ -26,8 +27,8 @@ function clearAdded() {
 watch(
   () => [state.share, state.exclude.length, state.minEff],
   () => {
-    const w = state.scenarioId === LIVE ? state.live?.weights : scenario.value?.weights
-    if (w) runLive(w)
+    const w = state.scenarioId === LIVE || state.scenarioId === AREA ? scenario.value?.weights : scenario.value?.weights
+    if (w) state.scenarioId === AREA ? runArea(w) : runLive(w)
   },
 )
 </script>
@@ -61,6 +62,7 @@ watch(
           <button :class="{ on: state.scenarioId === 'S1a_city_0' }" @click="state.scenarioId = 'S1a_city_0'">City rule</button>
           <button :class="{ on: state.scenarioId === 'S1_random_0' }" @click="state.scenarioId = 'S1_random_0'">Random palette</button>
           <button :class="{ on: state.scenarioId.startsWith('S4') }" @click="state.scenarioId = BALANCED">Optimised</button>
+          <button v-if="state.area" :class="{ on: state.scenarioId === AREA }" @click="state.scenarioId = AREA">Project area</button>
         </div>
         <div class="btns">
           <button :class="{ on: state.compare }" :aria-pressed="state.compare" @click="state.compare = !state.compare">{{ state.compare ? 'Back to the map' : 'Compare side by side' }}</button>
@@ -72,6 +74,17 @@ watch(
         <p class="muted small">Dots: precomputed optimal layouts (exact scores; blue = on the trade-off front). Click anywhere else to re-optimise live in your browser (estimate).</p>
         <p v-if="state.busy" class="small accent">Optimising…</p>
         <p v-if="state.liveError" class="small danger">{{ state.liveError }}</p>
+      </section>
+      <section>
+        <h3>Project area <span class="muted">{{ state.area ? `${state.area.idx.length} planes` : 'whole site' }}</span></h3>
+        <div class="btns">
+          <button v-if="!state.drawing" @click="startDrawing">{{ state.area ? 'Redraw area' : 'Draw area' }}</button>
+          <button v-if="state.drawing" :disabled="state.draft.length < 3" @click="finishArea">Finish ({{ state.draft.length }} corners)</button>
+          <button v-if="state.drawing" @click="cancelDrawing">Cancel</button>
+          <button v-if="state.area && !state.drawing" @click="clearArea">Whole site</button>
+        </div>
+        <p class="muted small">Trees are replaced only where a project, a dead tree or a street rebuild opens the ground. Draw that area:
+          only the plane positions inside are replaced and compared; today's trees stay everywhere else.</p>
       </section>
       <section>
         <h3>Design <span class="muted">{{ state.added.length }} added</span></h3>

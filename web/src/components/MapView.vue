@@ -6,10 +6,10 @@ import { Map as MapLibreMap, NavigationControl, setWorkerUrl } from 'maplibre-gl
 import workerUrl from 'maplibre-gl/dist/maplibre-gl-worker.mjs?url' // v6 looks for the worker next to its module; Vite moves it
 import 'maplibre-gl/dist/maplibre-gl.css'
 import { MapboxOverlay } from '@deck.gl/mapbox'
-import { BitmapLayer, GeoJsonLayer, ScatterplotLayer } from '@deck.gl/layers'
+import { BitmapLayer, GeoJsonLayer, PathLayer, PolygonLayer, ScatterplotLayer } from '@deck.gl/layers'
 import { SimpleMeshLayer } from '@deck.gl/mesh-layers'
 import { SphereGeometry } from '@luma.gl/engine'
-import { state, dataUrl, hexToRgb, currentLayout, addTreeAt } from '../store.js'
+import { state, dataUrl, hexToRgb, currentLayout, addTreeAt, addVertex } from '../store.js'
 
 setWorkerUrl(workerUrl)
 const el = ref(null)
@@ -20,15 +20,15 @@ function crowns() {
   const { trees, meta, scenarioId, month, selected } = state
   const p = trees.positions
   const lay = currentLayout()
-  const isS0 = scenarioId === 'S0_current'
   const pal = meta.palette
   const ids = [...p.lon.keys()]
   const dims = (i) => {
-    if (isS0) return [p.s0_crown_diam_m[i], p.s0_height_m[i], p.s0_crown_base_m[i]]
+    // today's tree (S0, or outside a project area): its measured crown
+    if (!pal[lay[i]].in_palette) return [p.s0_crown_diam_m[i], p.s0_height_m[i], p.s0_crown_base_m[i]]
     const s = pal[lay[i]]
     return [s.crown_diam_m, s.height_m, s.crown_base_m]
   }
-  const add = state.added
+  const add = [...state.added] // a new array: deck.gl only notices data changes by reference
   const aDims = (t) => {
     const s = pal[t.species]
     return [s.crown_diam_m, s.height_m, s.crown_base_m]
@@ -61,11 +61,11 @@ function crowns() {
         const leaf = s.leaf[month - 1]
         return [...hexToRgb(s.color), i === selected ? 255 : Math.round(60 + 170 * leaf)]
       },
-      onClick: ({ index }) => (state.selected = index),
+      onClick: ({ index, coordinate }) => (state.drawing ? addVertex(...coordinate) : (state.selected = index)),
       updateTriggers: {
-        getPosition: [scenarioId, state.live?.version],
-        getScale: [scenarioId, state.live?.version],
-        getColor: [scenarioId, state.live?.version, month, selected],
+        getPosition: [scenarioId, state.live?.version, state.area?.version],
+        getScale: [scenarioId, state.live?.version, state.area?.version],
+        getColor: [scenarioId, state.live?.version, state.area?.version, month, selected],
       },
     }),
     new ScatterplotLayer({
@@ -88,7 +88,7 @@ function crowns() {
       getPosition: (t) => [t.lon, t.lat, (aDims(t)[1] + aDims(t)[2]) / 2],
       getScale: (t) => [aDims(t)[0] / 2, aDims(t)[0] / 2, Math.max(aDims(t)[1] - aDims(t)[2], 1) / 2],
       getColor: (t) => [...hexToRgb(pal[t.species].color), Math.round(60 + 170 * pal[t.species].leaf[month - 1])],
-      onClick: ({ index }) => (state.selected = `a${index}`),
+      onClick: ({ index, coordinate }) => (state.drawing ? addVertex(...coordinate) : (state.selected = `a${index}`)),
       updateTriggers: { getPosition: state.addedVersion, getScale: state.addedVersion, getColor: [state.addedVersion, month] },
     }),
   ]
@@ -110,6 +110,14 @@ function layers() {
       getLineColor: [180, 176, 166],
       lineWidthMinPixels: 0,
     }),
+    state.area &&
+      new PolygonLayer({ id: 'area', data: [state.area.poly], getPolygon: (d) => d, stroked: true, filled: true,
+        getFillColor: [24, 95, 165, 28], getLineColor: [24, 95, 165, 220], lineWidthMinPixels: 2 }),
+    state.drawing && state.draft.length > 1 &&
+      new PathLayer({ id: 'draft-path', data: [state.draft], getPath: (d) => d, getColor: [216, 90, 48], widthMinPixels: 2 }),
+    state.drawing &&
+      new ScatterplotLayer({ id: 'draft-pts', data: [...state.draft], getPosition: (d) => d, getRadius: 4, radiusUnits: 'pixels',
+        getFillColor: [216, 90, 48] }),
     ...crowns(),
   ].filter(Boolean)
 }
@@ -128,8 +136,9 @@ onMounted(() => {
   overlay = new MapboxOverlay({
     interleaved: false,
     layers: layers(),
-    getCursor: ({ isHovering }) => (state.addMode ? 'crosshair' : isHovering ? 'pointer' : 'grab'),
+    getCursor: ({ isHovering }) => (state.addMode || state.drawing ? 'crosshair' : isHovering ? 'pointer' : 'grab'),
     onClick: (info) => {
+      if (state.drawing && info.coordinate) return addVertex(info.coordinate[0], info.coordinate[1])
       if (state.addMode && !info.layer && info.coordinate) addTreeAt(info.coordinate[0], info.coordinate[1])
     },
     getTooltip: ({ layer, index, object }) => {
@@ -143,9 +152,13 @@ onMounted(() => {
 })
 
 watch(
-  () => [state.scenarioId, state.live?.version, state.overlay, state.month, state.selected, state.addedVersion],
+  () => [state.scenarioId, state.live?.version, state.area?.version, state.area, state.drawing, state.draft, state.overlay,
+    state.month, state.selected, state.addedVersion],
   () => overlay?.setProps({ layers: layers() }),
 )
+
+// while drawing a project area, double clicks place corners instead of zooming
+watch(() => state.drawing, (on) => (on ? map?.doubleClickZoom.disable() : map?.doubleClickZoom.enable()))
 
 onBeforeUnmount(() => map?.remove())
 </script>
