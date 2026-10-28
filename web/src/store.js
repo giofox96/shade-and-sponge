@@ -501,3 +501,28 @@ export const panels = reactive({ leftW: 270, rightW: 330, leftOpen: true, rightO
 watch(panels, (p) => {
   try { localStorage.setItem(PANEL_KEY, JSON.stringify(p)) } catch { /* private window or blocked storage: keep the defaults */ }
 })
+
+// ---- theme: 'auto' follows the system; the choice is remembered in this browser ---------------------------------
+const THEME_KEY = 'shade-sponge-theme'
+const mq = typeof matchMedia === 'function' ? matchMedia('(prefers-color-scheme: dark)') : null
+export const ui = reactive({ theme: (() => { try { return localStorage.getItem(THEME_KEY) || 'auto' } catch { return 'auto' } })(),
+  systemDark: !!mq?.matches })
+mq?.addEventListener?.('change', (e) => (ui.systemDark = e.matches))
+export const isDark = computed(() => ui.theme === 'dark' || (ui.theme === 'auto' && ui.systemDark))
+watch(() => ui.theme, (t) => {
+  try { localStorage.setItem(THEME_KEY, t) } catch { /* storage blocked: the choice lasts this visit */ }
+  if (t === 'auto') document.documentElement.removeAttribute('data-theme')
+  else document.documentElement.setAttribute('data-theme', t)
+}, { immediate: true })
+// Earth palette (as the slides) for deck.gl and ECharts, light and dark
+export const themeColors = computed(() => (isDark.value
+  ? { text: '#F2F0EA', muted: '#B3BAB9', grid: '#333A33', plane: '#E4DFD3', other: '#5E5B54', kept: [150, 150, 140, 150],
+      building: [64, 70, 64, 235], buildingLine: [40, 44, 40], facade: [196, 140, 100, 230], kerb: [214, 220, 228, 235],
+      spotLine: [230, 240, 220], ring: [242, 240, 234], ringOn: [157, 180, 222], area: [157, 180, 222], draft: [217, 184, 102],
+      random: '#7A776E', city: '#D9B866', optimised: '#9DB4DE', current: '#E4DFD3', on: '#F2F0EA',
+      basemap: 'https://basemaps.cartocdn.com/gl/dark-matter-gl-style/style.json' }
+  : { text: '#2A2622', muted: '#665E4F', grid: '#DCD8CE', plane: '#3A3630', other: '#C9C4B8', kept: [150, 155, 135, 150],
+      building: [222, 218, 208, 235], buildingLine: [180, 176, 166], facade: [150, 95, 55, 220], kerb: [40, 48, 64, 235],
+      spotLine: [20, 40, 10], ring: [255, 255, 255], ringOn: [40, 63, 102], area: [40, 63, 102], draft: [140, 106, 36],
+      random: '#B4AE9F', city: '#8C6A24', optimised: '#5D7BAA', current: '#2A2622', on: '#283F66',
+      basemap: 'https://tiles.openfreemap.org/styles/positron' }))

@@ -2,7 +2,7 @@
 // Side-by-side comparison: today | city rule (S1a) | optimised. Each column draws every street-tree crown to scale
 // (plane positions coloured by species, kept trees grey) and lists the headline metrics against today.
 import { computed } from 'vue'
-import { state, scenario, cityMean, label, areaLayout, keptReplaced, BALANCED, LIVE, AREA } from '../store.js'
+import { state, scenario, cityMean, label, areaLayout, keptReplaced, themeColors, BALANCED, LIVE, AREA } from '../store.js'
 
 const ROWS = [
   ['shade_summer_m2h', 'Summer shade', 'm²·h', 1],
@@ -12,7 +12,8 @@ const ROWS = [
   ['canopy_pct', 'Canopy cover', '%', 1],
 ]
 const find = (id) => state.meta.scenarios.find((s) => s.id === id)
-const PLANE_COLOR = '#444441' // today's planes, as 'Current trees' in the trade-off chart (kept trees stay grey)
+// today's planes, as 'Current trees' in the trade-off chart (kept trees stay grey); follows the theme
+const PLANE = computed(() => themeColors.value.plane)
 
 // Local metres from WGS84 (equirectangular around the site centre): enough for a 1 km site
 const proj = computed(() => {
@@ -53,14 +54,14 @@ function crowns(layout) {
   const P = state.trees.positions, pal = state.meta.palette
   return pos.value.map(([x, y], i) => {
     const p = pal[layout[i]]
-    return { x, y, r: (p.in_palette ? p.crown_diam_m : P.s0_crown_diam_m[i]) / 2, c: p.in_palette ? p.color : PLANE_COLOR }
+    return { x, y, r: (p.in_palette ? p.crown_diam_m : P.s0_crown_diam_m[i]) / 2, c: p.in_palette ? p.color : PLANE.value }
   })
 }
 // Today: every tree in its species colour (palette species as in the palette, planes dark, other species light grey)
-const OTHER_COLOR = '#c9c6bd'
+const OTHER = computed(() => themeColors.value.other)
 const colorOf = computed(() => {
   const m = new Map(state.meta.palette.filter((p) => p.in_palette).map((p) => [p.species, p.color]))
-  return (sp) => m.get(sp) ?? OTHER_COLOR
+  return (sp) => m.get(sp) ?? OTHER.value
 })
 const inArea = (x, y) => {
   const P = areaPts.value
@@ -85,9 +86,9 @@ const todayMix = computed(() => {
   const tot = rows.reduce((a, [, v]) => a + v, 0)
   const top = rows.slice(0, 8)
   const rest = rows.slice(8).reduce((a, [, v]) => a + v, 0)
-  const col = (sp) => (sp === plane.species ? PLANE_COLOR : colorOf.value(sp))
+  const col = (sp) => (sp === plane.species ? PLANE.value : colorOf.value(sp))
   return [...top.map(([sp, v]) => ({ species: sp, short: sp.replace(/\s*×\s*/, ' ').split(' ').slice(0, 2).join(' '), n: v, w: (100 * v) / tot, color: col(sp) })),
-    ...(rest ? [{ species: 'other species', short: `${rows.length - 8} other species`, n: rest, w: (100 * rest) / tot, color: OTHER_COLOR }] : [])]
+    ...(rest ? [{ species: 'other species', short: `${rows.length - 8} other species`, n: rest, w: (100 * rest) / tot, color: OTHER.value }] : [])]
 })
 
 function mix(counts) {
@@ -150,7 +151,7 @@ const stage = computed(() => (state.meta?.run?.trunk_class === 'SEGONA' ? 'repla
           <circle v-for="(t, i) in c.keptNew" :key="'n' + i" :cx="t.x" :cy="t.y" :r="t.r" :fill="t.c" fill-opacity="0.75" />
           <polygon v-if="areaPath" :points="areaPath" class="area" />
           <circle v-for="(t, i) in c.crowns" :key="i" :cx="t.x" :cy="t.y" :r="t.r" :fill="t.c" fill-opacity="0.75">
-            <title v-if="c.todayKept">{{ t.c === PLANE_COLOR ? 'Platanus × acerifolia' : '' }}</title></circle>
+            <title v-if="c.todayKept">{{ t.c === PLANE ? 'Platanus × acerifolia' : '' }}</title></circle>
         </svg>
         <table class="kpi">
           <tr v-for="[k, name, unit, sign] in ROWS" :key="k">
@@ -187,15 +188,13 @@ const stage = computed(() => (state.meta?.run?.trunk_class === 'SEGONA' ? 'repla
 .col { min-width: 0; }
 .col h3 { margin: 0; font-size: 14px; }
 .sub { margin: 2px 0 6px; min-height: 2.6em; }
-.mini { width: 100%; height: auto; max-height: 46vh; background: #f4f3ef; border-radius: 4px; display: block; }
-.kept { fill: #b4b2a9; fill-opacity: 0.55; }
-.area { fill: none; stroke: #185fa5; stroke-width: 1.5; vector-effect: non-scaling-stroke; stroke-dasharray: 6 3; }
+.mini { width: 100%; height: auto; max-height: 46vh; background: var(--map-bg); border-radius: 4px; display: block; }
+.kept { fill: var(--kept); fill-opacity: 0.6; }
+.area { fill: none; stroke: var(--accent); stroke-width: 1.5; vector-effect: non-scaling-stroke; stroke-dasharray: 6 3; }
 .kpi { width: 100%; border-collapse: collapse; font-size: 12px; margin-top: 8px; }
 .kpi td { padding: 3px 4px; border-top: 0.5px solid var(--line, #ddd); }
 .num { text-align: right; white-space: nowrap; }
 .u { color: var(--muted, #777); font-size: 11px; }
-.good { color: #3b6d11; }
-.bad { color: #a32d2d; }
 .mix { display: flex; height: 10px; border-radius: 3px; overflow: hidden; margin: 8px 0 4px; gap: 1px; }
 .mixlist { list-style: none; padding: 0; margin: 0; display: flex; flex-wrap: wrap; gap: 2px 10px; }
 .dot { display: inline-block; width: 8px; height: 8px; border-radius: 50%; margin-right: 4px; }

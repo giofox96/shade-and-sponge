@@ -1,7 +1,7 @@
 <script setup>
 import { onMounted, watch } from 'vue'
 import { state, load, switchSite, scenario, label, layoutEff, runLive, runArea, setAddMode, addedCsv, startDrawing, finishArea,
-  cancelDrawing, clearArea, setAreaAll, fillAreaSpots, panels, MIN_SPACING_M, MONTHS, BALANCED, LIVE, AREA } from './store.js'
+  cancelDrawing, clearArea, setAreaAll, fillAreaSpots, panels, ui, MIN_SPACING_M, MONTHS, BALANCED, LIVE, AREA } from './store.js'
 import MapView from './components/MapView.vue'
 import PriorityTriangle from './components/PriorityTriangle.vue'
 import TradeoffChart from './components/TradeoffChart.vue'
@@ -59,6 +59,10 @@ watch(
                   @click="switchSite('porta')">Established</button>
         </span>
       </template>
+      <span class="seg" role="group" aria-label="Colour theme">
+        <button v-for="[t, l] in [['auto', 'Auto'], ['light', 'Light'], ['dark', 'Dark']]" :key="t" :class="{ on: ui.theme === t }"
+                :aria-pressed="ui.theme === t" :title="t === 'auto' ? 'Follow the system setting' : `${l} theme`" @click="ui.theme = t">{{ l }}</button>
+      </span>
     </header>
 
     <aside v-show="panels.leftOpen" class="left">
@@ -175,7 +179,7 @@ watch(
           Street trees: Ajuntament de Barcelona, Open Data BCN (CC BY 4.0) ·
           LiDAR crowns, terrain, building heights: ICGC 2021–2022 (CC BY 4.0) ·
           Sidewalks: 1:1000 base map, Ajuntament de Barcelona (CC BY 4.0) ·
-          Building footprints and basemap: © OpenStreetMap contributors (ODbL), OpenFreeMap ·
+          Building footprints and basemap: © OpenStreetMap contributors (ODbL); basemap tiles OpenFreeMap (light) and © CARTO (dark) ·
           Flood-hazard index: Barcelona Resilience Atlas, Barcelona Regional (derived threshold; licence not stated) ·
           Design storms: PDISBA rainfall study · Storm months: Esbrí, Rigo and Llasat ·
           Interception calibration: Anys and Weiler 2024 data (CC BY-NC 4.0).

@@ -9,7 +9,7 @@ import { MapboxOverlay } from '@deck.gl/mapbox'
 import { BitmapLayer, GeoJsonLayer, PathLayer, PolygonLayer, ScatterplotLayer } from '@deck.gl/layers'
 import { SimpleMeshLayer } from '@deck.gl/mesh-layers'
 import { SphereGeometry } from '@luma.gl/engine'
-import { state, dataUrl, hexToRgb, currentLayout, addTreeAt, addVertex, keptReplaced, AREA } from '../store.js'
+import { state, dataUrl, hexToRgb, currentLayout, addTreeAt, addVertex, keptReplaced, themeColors, isDark, AREA } from '../store.js'
 
 setWorkerUrl(workerUrl)
 const el = ref(null)
@@ -51,7 +51,7 @@ function crowns() {
       mesh: sphere,
       getPosition: (i) => [k.lon[i], k.lat[i], (k.height_m[i] + k.crown_base_m[i]) / 2],
       getScale: (i) => [k.crown_diam_m[i] / 2, k.crown_diam_m[i] / 2, Math.max(k.height_m[i] - k.crown_base_m[i], 1) / 2],
-      getColor: [150, 160, 140, 150],
+      getColor: themeColors.value.kept,
     }),
     new SimpleMeshLayer({
       id: 'positions',
@@ -86,7 +86,7 @@ function crowns() {
       radiusUnits: 'meters',
       stroked: true,
       filled: false,
-      getLineColor: (t, { index }) => (selected === `a${index}` ? [24, 95, 165] : [255, 255, 255]),
+      getLineColor: (t, { index }) => (selected === `a${index}` ? themeColors.value.ringOn : themeColors.value.ring),
       lineWidthMinPixels: 2,
       updateTriggers: { getRadius: state.addedVersion, getLineColor: [selected, state.addedVersion] },
     }),
@@ -116,32 +116,34 @@ function layers() {
       data: dataUrl('buildings.geojson'),
       extruded: true,
       getElevation: (f) => f.properties.height_m,
-      getFillColor: [222, 218, 208, 235],
-      getLineColor: [180, 176, 166],
+      getFillColor: themeColors.value.building,
+      getLineColor: themeColors.value.buildingLine,
+      updateTriggers: { getFillColor: isDark.value, getLineColor: isDark.value },
       lineWidthMinPixels: 0,
     }),
     state.showStreets &&
       new GeoJsonLayer({ id: 'sidewalks', data: dataUrl('sidewalks.geojson'), stroked: true, filled: false,
-        getLineColor: (f) => (f.properties.kind === 'facade' ? [150, 95, 55, 220] : [35, 45, 60, 235]),
+        getLineColor: (f) => (f.properties.kind === 'facade' ? themeColors.value.facade : themeColors.value.kerb),
+        updateTriggers: { getLineColor: isDark.value },
         getLineWidth: (f) => (f.properties.kind === 'facade' ? 0.5 : 0.8), lineWidthUnits: 'meters', lineWidthMinPixels: 1.5 }),
     state.showStreets &&
       new ScatterplotLayer({ id: 'spots', data: state.trees.spots.lon.map((lon, i) => i), radiusUnits: 'meters',
         getPosition: (i) => [state.trees.spots.lon[i], state.trees.spots.lat[i], 0.2],
         getRadius: (i) => ({ small: 1.6, medium: 2.2, large: 2.8 })[state.trees.spots.size_class[i]], radiusMinPixels: 3,
         getFillColor: (i) => ({ small: [168, 214, 110], medium: [92, 170, 50], large: [40, 110, 20] })[state.trees.spots.size_class[i]],
-        stroked: true, getLineColor: [20, 40, 10], lineWidthMinPixels: 1.5, pickable: true,
+        stroked: true, getLineColor: themeColors.value.spotLine, lineWidthMinPixels: 1.5, pickable: true, updateTriggers: { getLineColor: isDark.value },
         onClick: ({ object, coordinate }) => { // a click on a free spot plants there in "Add trees" mode
           if (state.drawing) return addVertex(...coordinate)
           if (state.addMode) addTreeAt(state.trees.spots.lon[object], state.trees.spots.lat[object])
         } }),
     state.area &&
       new PolygonLayer({ id: 'area', data: [state.area.poly], getPolygon: (d) => d, stroked: true, filled: true,
-        getFillColor: [24, 95, 165, 28], getLineColor: [24, 95, 165, 220], lineWidthMinPixels: 2 }),
+        getFillColor: [...themeColors.value.area, 30], getLineColor: [...themeColors.value.area, 230], lineWidthMinPixels: 2 }),
     state.drawing && state.draft.length > 1 &&
-      new PathLayer({ id: 'draft-path', data: [state.draft], getPath: (d) => d, getColor: [216, 90, 48], widthMinPixels: 2 }),
+      new PathLayer({ id: 'draft-path', data: [state.draft], getPath: (d) => d, getColor: themeColors.value.draft, widthMinPixels: 2 }),
     state.drawing &&
       new ScatterplotLayer({ id: 'draft-pts', data: [...state.draft], getPosition: (d) => d, getRadius: 4, radiusUnits: 'pixels',
-        getFillColor: [216, 90, 48] }),
+        getFillColor: themeColors.value.draft }),
     ...crowns(),
   ].filter(Boolean)
 }
@@ -149,7 +151,7 @@ function layers() {
 onMounted(() => {
   map = new MapLibreMap({
     container: el.value,
-    style: 'https://tiles.openfreemap.org/styles/positron',
+    style: themeColors.value.basemap,
     center: state.meta.site.center,
     zoom: 15.4,
     pitch: 50,
@@ -179,10 +181,13 @@ onMounted(() => {
 })
 
 watch(
-  () => [state.scenarioId, state.live?.version, state.area?.version, state.area, state.drawing, state.draft, state.overlay, state.showStreets,
+  () => [state.scenarioId, state.live?.version, state.area?.version, state.area, state.drawing, state.draft, state.overlay, state.showStreets, isDark.value,
     state.month, state.selected, state.addedVersion],
   () => overlay?.setProps({ layers: layers() }),
 )
+
+// theme switch: swap the basemap (the deck.gl layers sit on their own canvas and stay)
+watch(isDark, () => map?.setStyle(themeColors.value.basemap))
 
 // a new project area: frame it (keeps the current pitch and bearing)
 watch(() => state.area?.poly, (poly) => {

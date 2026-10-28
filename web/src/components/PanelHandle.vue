@@ -46,7 +46,7 @@ function key_(e) {
 .grip { position: absolute; top: 0; bottom: 0; width: 8px; cursor: col-resize; }
 .left .grip { left: -4px; }
 .right .grip { right: -4px; }
-.grip:hover, .grip:focus-visible { background: rgba(24, 95, 165, 0.25); outline: none; }
+.grip:hover, .grip:focus-visible { background: color-mix(in srgb, var(--accent) 30%, transparent); outline: none; }
 .fold { position: absolute; top: 50%; transform: translateY(-50%); width: 18px; height: 44px; padding: 0; font-size: 14px; line-height: 1;
   border-radius: 0 6px 6px 0; background: var(--panel); box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15); }
 .left .fold { left: 0; }

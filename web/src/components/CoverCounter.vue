@@ -37,14 +37,12 @@ const width = (v) => `${Math.max(0, Math.min(100, (100 * v) / c.value.target_pct
 <style scoped>
 .cover { margin-bottom: 4px; }
 .row { display: flex; align-items: baseline; gap: 8px; }
-.big { font-size: 22px; font-weight: 600; }
+.big { font-size: 24px; font-weight: 700; }
 .bar { position: relative; height: 10px; border-radius: 5px; background: var(--line, #e4e2dc); overflow: hidden; margin: 6px 0; }
 .bar span { position: absolute; left: 0; top: 0; bottom: 0; }
-.bar .today { background: #b4b2a9; }
-.bar .now { background: #a32d2d; opacity: 0.75; }
-.bar .now.up { background: #3b6d11; }
-.good { color: #3b6d11; }
-.bad { color: #a32d2d; }
+.bar .today { background: var(--kept); }
+.bar .now { background: var(--bad); opacity: 0.8; }
+.bar .now.up { background: var(--good); }
 p { margin: 4px 0; }
 .note { font-size: 10.5px; }
 </style>
