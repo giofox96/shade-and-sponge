@@ -24,6 +24,22 @@ CAPTURE_M = 100.0       # ASSUMPTION: surface water reaches a hotspot only if it
                         # would drain to some hotspot, so position would no longer matter
 
 
+def osm(polygon, tags, tries=6):
+    """OSM features (osmnx) inside a WGS84 polygon, retried with backoff over two Overpass servers (the main one answers
+    502 when at capacity)."""
+    import time, osmnx as ox
+    urls = ["https://overpass-api.de/api", "https://overpass.kumi.systems/api"]
+    for i in range(tries):
+        ox.settings.overpass_url = urls[i % 2]
+        try:
+            return ox.features_from_polygon(polygon, tags=tags)
+        except Exception as e:                               # 502/504 or a non-JSON answer from a busy server
+            if i == tries - 1:
+                raise
+            print(f"Overpass: {type(e).__name__}; retrying in {15 * 2 ** i} s on {urls[(i + 1) % 2]}")
+            time.sleep(15 * 2 ** i)
+
+
 def species_lidar(summary="porta_species_lidar_summary.csv"):
     """Per-species LiDAR medians (Porta, or species_lidar_summary.csv for the Barcelona palette), with the CITY_LIDAR
     overrides applied. The one place where the tool and the runoff scripts get species crown, height and LAI."""
@@ -101,7 +117,6 @@ def build_barri(name):
 
 
 def _build(site, buf, bld, ndvi_of, lidar, trees):
-    import osmnx as ox
     x0, y0, x1, y1 = site.total_bounds + np.array([-buf, -buf, buf, buf])
     W, H = int(np.ceil((x1 - x0) / RES)), int(np.ceil((y1 - y0) / RES))
     T = from_origin(x0, y1, RES, RES)
@@ -122,8 +137,7 @@ def _build(site, buf, bld, ndvi_of, lidar, trees):
     ndvi = ndvi_of(grid)
     ndvi[(ndvi < -1) | (ndvi > 1)] = np.nan
     chm = grid(f"{lidar}_chm_05m.tif")
-    green = ox.features_from_polygon(site.to_crs(4326).iloc[0].geometry,
-                                     tags={"leisure": ["park", "garden"], "landuse": ["grass"]})
+    green = osm(site.to_crs(4326).iloc[0].geometry, {"leisure": ["park", "garden"], "landuse": ["grass"]})
     green = green[green.geom_type.isin(["Polygon", "MultiPolygon"])].to_crs(25831)
     osm_green = rasterize(((g, 1) for g in green.geometry), out_shape=(H, W), transform=T, fill=0).astype(bool)
     P = json.load(open(DB / "runoff_params.json"))
