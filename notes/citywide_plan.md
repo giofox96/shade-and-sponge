@@ -143,4 +143,15 @@ Reading:
 - Winter shade is a third of Porta's in absolute terms (65,400 vs 196,200 m²·h at S0): Eixample's tall blocks already shade the streets in winter, so the winter-sun objective matters less there.
 - **The Porta-local 15% cap breaks here:** *Celtis* is already 38% of Sant Antoni's street trees, so its cap is 0 in every layout. A barri-by-barri cap penalises barris that are already unbalanced; this is the case for the city-wide LP of step 6.
 
-**Not comparable yet, in three ways:** (1) Porta's run uses the sidewalk sizing rule (`--size=exact`), Sant Antoni has no sidewalk widths yet (step 4), so its layouts are less constrained; (2) with `--trunk=TERCERA`, only *Celtis* (TERCERA) and *Melia* (SEGONA, 23 trees) have enough local trees; the other five species keep Porta's medians over all trunk classes; (3) the runoff calibration and Δmin are Porta's (§6.4).
+**With sidewalk widths (same evening).** The 652 MB GeoPackage download was reset again at 24%, so the widths come from the WMS, as for Porta (`python scripts/porta_sidewalk_width.py "Sant Antoni"` → `barris/sant-antoni/sidewalk_width.csv`). 1,747 of 2,475 trees are measured (`ok`, median width 5.0 m against Porta's 6.7 m); 630 are flagged `median`, 54 `no_facade`, 44 `no_kerb`. Of the 989 planes, 322 are large, 293 medium, 2 small and 372 unmeasured (`check`, no size filter). With `--size=exact --trunk=TERCERA` (`tool_v0_summary_sant-antoni_sizeexact_trunkTERCERA.csv`), now the same options as Porta's run:
+
+| | Sant Antoni | Porta |
+|---|---|---|
+| Summer shade, tool | 79.0% | 99.1% |
+| Summer shade, S1a (city's mix) | 72.1% | 87.4% |
+| Summer shade, S1 (random) | 71.0% | 89.4% |
+| Runoff to hotspots, tool / S1a | +2.5% / +2.8% | +0.1% / +0.4% |
+
+The sizing rule narrows the tool's margin over the city's mix to 6.9 points (11.7 in Porta). S1a rises from 66.8% to 72.1% because the rule keeps the small *Pyrus* off the wide sidewalks. So in Sant Antoni the sidewalk rule decides most of the outcome, and species choice adds less than in Porta.
+
+**Still not fully comparable, in two ways:** (1) with `--trunk=TERCERA`, only *Celtis* (TERCERA) and *Melia* (SEGONA, 23 trees) have enough local trees; the other five species keep Porta's medians over all trunk classes; (2) the runoff calibration and Δmin are Porta's (§6.4).

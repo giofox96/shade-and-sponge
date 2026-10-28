@@ -27,9 +27,9 @@ area = opt.get("area")
 top = int(opt["priority"]) if "priority" in opt else None
 tag = ptag + (f"_div{opt['diversity']}" if min_eff else "") + (f"_size{size_rule}" if size_rule else "") + ("_keepmer" if keep_mer else "") + (f"_trunk{trunk}" if trunk else "")
 tag += (f"_sc{scen}" if scen != "R" else "") + (f"_area{pathlib.Path(area).stem}" if area else "") + (f"_prio{top}" if top else "")
-if name != "porta" and (scen != "R" or size_rule or top):
-    sys.exit("other barris: only --scenario=R without --size/--priority for now (free spots, sidewalk widths and the "
-             "priority proxy exist for Porta only; notes/citywide_plan.md §6.2 step 4)")
+if name != "porta" and (scen != "R" or top):
+    sys.exit("other barris: only --scenario=R without --priority for now (free spots and the priority proxy exist for "
+             "Porta only; notes/citywide_plan.md §6.2 step 4). --size needs scripts/porta_sidewalk_width.py \"<barri>\" first")
 tag = ("" if name == "porta" else "_" + slug(name)) + tag    # Porta keeps its file names
 site = load_site(name)
 o = json.load(open(EX / "site_origin.json"))
@@ -50,7 +50,7 @@ if scen == "A":
         sys.exit("--priority selects planes; it does not apply to --scenario=A")
     pos = spots
 elif scen == "RA":
-    pos = pd.concat([pos.assign(size_class=layout.sidewalk_class(pos)), spots])
+    pos = pd.concat([pos.assign(size_class=layout.sidewalk_class(pos, site)), spots])
 elif scen != "R":
     sys.exit(f"unknown --scenario={scen} (R, A or RA)")
 pos = pos.reset_index(drop=True)
