@@ -1,0 +1,2476 @@
+tree_id,species,is_plane,street,width_m,facade_dist_m,flag,strip_width_m,size_class
+0091810AR,Parkinsonia aculeata,False,Pl Universitat,,52.06,no_facade,30.31,check
+0091813AR,Parkinsonia aculeata,False,Pl Universitat,,49.95,no_facade,30.4,check
+0091826AR,Casuarina cunninghamiana,False,Pl Universitat,,51.57,no_facade,30.4,check
+0091834AR,Parkinsonia aculeata,False,Pl Universitat,,52.29,no_facade,30.41,check
+0091837AR,Casuarina cunninghamiana,False,Pl Universitat,,49.07,no_facade,30.41,check
+0091950AR,Robinia pseudoacacia,False,C\ Muntaner,5.17,4.13,ok,,medium
+0091951AR,Platanus × acerifolia,True,C\ Comte Borrell,4.91,4.1,ok,,medium
+0091952AR,Platanus × acerifolia,True,C\ Parlament,4.84,4.21,ok,,medium
+0091953AR,Casuarina cunninghamiana,False,Pl Universitat,,20.47,median,,check
+0091955AR,Robinia pseudoacacia,False,Av Mistral,,6.01,median,28.38,check
+0091956AR,Celtis australis,False,C\ Viladomat,5.05,4.0,ok,,medium
+0091958AR,Celtis australis,False,C\ Comte Borrell,,4.52,median,7.11,check
+0091959AR,Celtis australis,False,C\ Sepúlveda,4.94,4.31,ok,,medium
+0091960AR,Platanus × acerifolia,True,C\ Tamarit,,4.32,no_kerb,,check
+0091961AR,Celtis australis,False,C\ Viladomat,4.77,3.65,ok,,medium
+0091962AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,8.78,median,,check
+0091963AR,Celtis australis,False,C\ Comte Borrell,5.02,3.89,ok,,medium
+0091965AR,Jacaranda mimosifolia,False,C\ Vilamarí,4.86,3.78,ok,,medium
+0091966AR,Celtis australis,False,C\ Parlament,4.87,4.25,ok,,medium
+0091967AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,8.73,median,24.84,check
+0091968AR,Celtis australis,False,C\ Casanova,4.96,3.94,ok,,medium
+0091969AR,Platanus × acerifolia,True,Av Paral·lel,7.92,7.27,ok,,large
+0091970AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,9.01,median,9.2,check
+0091971AR,Celtis australis,False,C\ Floridablanca,,11.11,median,10.47,check
+0091972AR,Celtis australis,False,C\ Tamarit,20.21,4.19,ok,,large
+0091974AR,Celtis australis,False,C\ Manso,5.04,3.94,ok,,medium
+0091975AR,Celtis australis,False,C\ Manso,4.9,4.25,ok,,medium
+0091976AR,Celtis australis,False,C\ Comte Borrell,,4.4,median,2.34,check
+0091977AR,Celtis australis,False,C\ Manso,4.99,4.13,ok,,medium
+0091978AR,Celtis australis,False,C\ Floridablanca,4.94,4.11,ok,,medium
+0091979AR,Celtis australis,False,C\ Parlament,4.84,4.3,ok,,medium
+0091980AR,Pyrus calleryana 'Chanticleer',False,Av Mistral,,7.51,median,28.01,check
+0091981AR,Styphnolobium japonicum,False,C\ Tamarit,4.65,3.75,ok,,medium
+0091982AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,16.17,median,9.46,check
+0091983AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,15.95,median,8.83,check
+0091984AR,Celtis australis,False,C\ Viladomat,4.92,4.2,ok,,medium
+0091985AR,Platanus × acerifolia,True,C\ Comte d'Urgell,7.43,7.29,ok,,large
+0091986AR,Melia azedarach,False,C\ Rocafort,4.99,4.53,ok,,medium
+0091987AR,Platanus × acerifolia,True,C\ Comte d'Urgell,7.31,6.32,ok,,large
+0091988AR,Platanus × acerifolia,True,Rda Sant Antoni,,6.55,no_kerb,,check
+0091989AR,Platanus × acerifolia,True,C\ Tamarit,,12.11,median,2.3,check
+0091991AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,42.18,no_facade,9.13,check
+0091992AR,Celtis australis,False,C\ Floridablanca,4.95,4.0,ok,,medium
+0091993AR,Grevillea robusta,False,C\ Muntaner,4.81,3.85,ok,,medium
+0091994AR,Platanus × acerifolia,True,C\ Rocafort,5.01,4.4,ok,,medium
+0091995AR,Styphnolobium japonicum,False,C\ Sepúlveda,11.8,4.09,ok,,large
+0091996AR,Celtis australis,False,C\ Aldana,4.91,4.24,ok,,medium
+0091997AR,Celtis australis,False,C\ Calàbria,4.84,4.06,ok,,medium
+0091998AR,Celtis australis,False,C\ Rocafort,5.07,4.57,ok,,medium
+0091999AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,9.0,median,24.68,check
+0092000AR,Celtis australis,False,C\ Floridablanca,4.99,4.28,ok,,medium
+0092001AR,Celtis australis,False,C\ Comte Borrell,,7.43,median,2.31,check
+0092002AR,Celtis australis,False,C\ Viladomat,4.87,4.11,ok,,medium
+0092003AR,Platanus × acerifolia,True,Av Paral·lel,8.0,7.23,ok,,large
+0092004AR,Platanus × acerifolia,True,C\ Viladomat,5.0,4.69,ok,,medium
+0092005AR,Platanus × acerifolia,True,Av Paral·lel,7.97,7.25,ok,,large
+0092006AR,Celtis australis,False,C\ Comte Borrell,10.14,4.32,ok,,large
+0092007AR,Celtis australis,False,C\ Comte Borrell,5.0,3.92,ok,,medium
+0092008AR,Celtis australis,False,C\ Calàbria,4.7,3.92,ok,,medium
+0092009AR,Celtis australis,False,C\ Calàbria,4.09,3.13,ok,,medium
+0092010AR,Celtis australis,False,C\ Calàbria,5.06,4.3,ok,,medium
+0092011AR,Platanus × acerifolia,True,Pl Universitat,5.4,4.42,ok,,medium
+0092012AR,Platanus × acerifolia,True,C\ Entença,6.36,5.32,ok,,large
+0092014AR,Celtis australis,False,C\ Sepúlveda,5.03,4.06,ok,,medium
+0092017AR,Platanus × acerifolia,True,C\ Marquès de Campo Sagrado,5.15,4.56,ok,,medium
+0092018AR,Platanus × acerifolia,True,C\ Tamarit,5.15,4.66,ok,,medium
+0092019AR,Cupressus sempervirens,False,C\ Marquès de Campo Sagrado,18.37,7.46,ok,,large
+0092020AR,Jacaranda mimosifolia,False,C\ Floridablanca,,14.43,median,13.91,check
+0092021AR,Platanus × acerifolia,True,C\ Entença,4.91,3.94,ok,,medium
+0092023AR,Platanus × acerifolia,True,C\ Parlament,4.81,4.3,ok,,medium
+0092024AR,Robinia pseudoacacia,False,Av Mistral,,6.17,median,27.68,check
+0092025AR,Celtis australis,False,C\ Floridablanca,5.12,4.55,ok,,medium
+0092026AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,8.27,median,24.88,check
+0092027AR,Melia azedarach,False,C\ Villarroel,4.95,3.52,ok,,medium
+0092028AR,Platanus × acerifolia,True,C\ Manso,4.87,3.63,ok,,medium
+0092029AR,Koelreuteria paniculata 'Fastigiata',False,Av Mistral,,21.21,median,1.61,check
+0092030AR,Styphnolobium japonicum,False,C\ Sepúlveda,4.92,3.82,ok,,medium
+0092031AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,33.52,no_facade,9.16,check
+0092032AR,Celtis australis,False,C\ Rocafort,5.06,4.65,ok,,medium
+0092034AR,Celtis australis,False,C\ Tamarit,3.05,3.61,ok,,small
+0092037AR,Grevillea robusta,False,C\ Muntaner,5.16,3.86,ok,,medium
+0092038AR,Celtis australis,False,C\ Marquès de Campo Sagrado,4.89,3.51,ok,,medium
+0092040AR,Celtis australis,False,C\ Calàbria,4.92,4.03,ok,,medium
+0092041AR,Platanus × acerifolia,True,C\ Sepúlveda,4.7,3.98,ok,,medium
+0092042AR,Styphnolobium japonicum,False,C\ Parlament,5.32,4.44,ok,,medium
+0092043AR,Celtis australis,False,C\ Tamarit,5.03,4.46,ok,,medium
+0092044AR,Celtis australis,False,C\ Sepúlveda,4.91,4.12,ok,,medium
+0092045AR,Melia azedarach,False,C\ Comte Borrell,4.85,4.17,ok,,medium
+0092046AR,Celtis australis,False,C\ Calàbria,5.09,4.52,ok,,medium
+0092047AR,Celtis australis,False,C\ Comte Borrell,,4.29,median,7.1,check
+0092048AR,Celtis australis,False,C\ Floridablanca,4.65,4.07,ok,,medium
+0092049AR,Celtis australis,False,C\ Comte Borrell,10.21,4.25,ok,,large
+0092050AR,Platanus × acerifolia,True,C\ Comte d'Urgell,7.09,6.61,ok,,large
+0092052AR,Celtis australis,False,C\ Calàbria,5.1,4.51,ok,,medium
+0092054AR,Celtis australis,False,C\ Floridablanca,4.71,4.37,ok,,medium
+0092055AR,Casuarina cunninghamiana,False,Pl Universitat,,35.03,no_facade,30.5,check
+0092056AR,Cercis siliquastrum,False,C\ Marquès de Campo Sagrado,9.93,8.92,ok,,large
+0092057AR,Celtis australis,False,C\ Entença,5.0,4.17,ok,,medium
+0092059AR,Platanus × acerifolia,True,C\ Comte d'Urgell,7.4,5.93,ok,,large
+0092060AR,Celtis australis,False,C\ Parlament,4.82,4.22,ok,,medium
+0092061AR,Celtis australis,False,C\ Sepúlveda,4.85,4.5,ok,,medium
+0092062AR,Celtis australis,False,C\ Rocafort,5.01,3.86,ok,,medium
+0092064AR,Platanus × acerifolia,True,C\ Parlament,4.82,4.36,ok,,medium
+0092065AR,Celtis australis,False,C\ Vilamarí,5.03,3.91,ok,,medium
+0092066AR,Celtis australis,False,C\ Viladomat,7.98,6.85,ok,,large
+0092067AR,Celtis australis,False,C\ Floridablanca,4.91,4.21,ok,,medium
+0092068AR,Celtis australis,False,C\ Comte Borrell,,4.4,median,2.32,check
+0092069AR,Robinia pseudoacacia,False,Av Mistral,,6.55,median,23.83,check
+0092070AR,Celtis australis,False,C\ Manso,4.46,3.77,ok,,medium
+0092071AR,Platanus × acerifolia,True,Av Paral·lel,7.98,7.31,ok,,large
+0092072AR,Celtis australis,False,C\ Marquès de Campo Sagrado,9.88,6.66,ok,,large
+0092073AR,Celtis australis,False,C\ Casanova,5.09,3.85,ok,,medium
+0092074AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,8.56,median,,check
+0092075AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,9.37,median,8.87,check
+0092076AR,Celtis australis,False,C\ Rocafort,4.88,3.1,ok,,medium
+0092077AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,9.22,median,,check
+0092078AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,8.77,median,9.15,check
+0092079AR,Celtis australis,False,C\ Floridablanca,4.92,4.26,ok,,medium
+0092080AR,Celtis australis,False,C\ Comte Borrell,4.77,3.7,ok,,medium
+0092081AR,Platanus × acerifolia,True,C\ Tamarit,4.78,4.02,ok,,medium
+0092082AR,Platanus × acerifolia,True,C\ Villarroel,6.94,6.27,ok,,large
+0092083AR,Styphnolobium japonicum,False,C\ Floridablanca,5.19,3.73,ok,,medium
+0092084AR,Celtis australis,False,C\ Tamarit,3.48,4.08,ok,,small
+0092085AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,9.27,median,9.23,check
+0092086AR,Platanus × acerifolia,True,C\ Aldana,16.84,4.97,ok,,large
+0092088AR,Celtis australis,False,C\ Marquès de Campo Sagrado,4.87,3.89,ok,,medium
+0092089AR,Celtis australis,False,C\ Entença,5.09,3.98,ok,,medium
+0092090AR,Platanus × acerifolia,True,C\ Comte d'Urgell,7.41,6.02,ok,,large
+0092091AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,15.82,median,9.0,check
+0092092AR,Celtis australis,False,C\ Calàbria,4.66,4.17,ok,,medium
+0092093AR,Platanus × acerifolia,True,C\ Casanova,,4.16,no_kerb,,check
+0092094AR,Platanus × acerifolia,True,Rda Sant Pau,7.61,6.56,ok,,large
+0092095AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,9.24,median,8.81,check
+0092096AR,Celtis australis,False,C\ Parlament,4.75,3.96,ok,,medium
+0092097AR,Celtis australis,False,C\ Floridablanca,5.14,4.5,ok,,medium
+0092098AR,Platanus × acerifolia,True,Av Paral·lel,7.89,7.51,ok,,large
+0092100AR,Platanus × acerifolia,True,C\ Calàbria,5.18,4.71,ok,,medium
+0092101AR,Celtis australis,False,C\ Parlament,4.83,3.96,ok,,medium
+0092102AR,Cupressus sempervirens,False,C\ Marquès de Campo Sagrado,19.05,11.43,ok,,large
+0092103AR,Styphnolobium japonicum,False,C\ Tamarit,26.15,4.78,ok,,large
+0092105AR,Platanus × acerifolia,True,Rda Sant Antoni,7.49,6.34,ok,,large
+0092106AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,16.93,median,9.22,check
+0092107AR,Platanus × acerifolia,True,C\ Tamarit,6.14,4.66,ok,,large
+0092108AR,Celtis australis,False,C\ Vilamarí,4.84,4.09,ok,,medium
+0092109AR,Platanus × acerifolia,True,Rda Sant Pau,7.61,6.53,ok,,large
+0092110AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,9.61,median,,check
+0092111AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,23.74,median,27.89,check
+0092112AR,Platanus × acerifolia,True,C\ Rocafort,,18.04,median,,check
+0092113AR,Platanus × acerifolia,True,Rda Sant Antoni,7.51,6.61,ok,,large
+0092114AR,Celtis australis,False,C\ Rocafort,4.94,4.64,ok,,medium
+0092115AR,Platanus × acerifolia,True,Av Paral·lel,7.95,7.25,ok,,large
+0092117AR,Platanus × acerifolia,True,C\ Manso,4.88,4.43,ok,,medium
+0092118AR,Celtis australis,False,C\ Entença,4.76,3.97,ok,,medium
+0092119AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,21.64,median,9.11,check
+0092121AR,Platanus × acerifolia,True,C\ Aldana,6.36,5.75,ok,,large
+0092122AR,Cercis siliquastrum,False,C\ Marquès de Campo Sagrado,10.13,9.48,ok,,large
+0092123AR,Jacaranda mimosifolia,False,C\ Floridablanca,,16.76,median,16.38,check
+0092124AR,Celtis australis,False,C\ Aldana,16.13,8.19,ok,,large
+0092125AR,Platanus × acerifolia,True,C\ Floridablanca,,11.68,median,11.34,check
+0092126AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,41.91,no_facade,9.21,check
+0092127AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,8.66,median,9.07,check
+0092129AR,Celtis australis,False,C\ Vilamarí,4.9,4.43,ok,,medium
+0092130AR,Platanus × acerifolia,True,Pl Goya,,15.97,median,2.08,check
+0092131AR,Celtis australis,False,C\ Manso,5.02,4.47,ok,,medium
+0092132AR,Styphnolobium japonicum,False,C\ Calàbria,4.83,3.87,ok,,medium
+0092133AR,Platanus × acerifolia,True,C\ Comte d'Urgell,7.23,6.67,ok,,large
+0092134AR,Platanus × acerifolia,True,C\ Calàbria,5.1,4.81,ok,,medium
+0092135AR,Grevillea robusta,False,C\ Muntaner,5.18,4.08,ok,,medium
+0092137AR,Platanus × acerifolia,True,C\ Tamarit,4.8,4.22,ok,,medium
+0092138AR,Platanus × acerifolia,True,C\ Marquès de Campo Sagrado,9.94,6.28,ok,,large
+0092139AR,Platanus × acerifolia,True,C\ Viladomat,5.13,4.29,ok,,medium
+0092140AR,Platanus × acerifolia,True,C\ Comte Borrell,14.25,13.84,ok,,large
+0092141AR,Celtis australis,False,C\ Vilamarí,4.9,4.16,ok,,medium
+0092142AR,Platanus × acerifolia,True,C\ Marquès de Campo Sagrado,4.87,3.97,ok,,medium
+0092143AR,Populus alba 'Pyramidalis',False,Av Mistral,,5.96,median,28.1,check
+0092144AR,Celtis australis,False,C\ Rocafort,5.23,4.27,ok,,medium
+0092145AR,Celtis australis,False,C\ Tamarit,4.91,3.97,ok,,medium
+0092146AR,Celtis australis,False,C\ Viladomat,4.89,4.32,ok,,medium
+0092147AR,Platanus × acerifolia,True,C\ Marquès de Campo Sagrado,9.82,6.15,ok,,large
+0092148AR,Celtis australis,False,C\ Comte Borrell,4.94,3.74,ok,,medium
+0092149AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,15.96,median,10.53,check
+0092151AR,Celtis australis,False,C\ Viladomat,4.86,4.09,ok,,medium
+0092153AR,Styphnolobium japonicum,False,C\ Calàbria,4.93,4.01,ok,,medium
+0092154AR,Platanus × acerifolia,True,C\ Floridablanca,7.47,4.72,ok,,large
+0092155AR,Celtis australis,False,C\ Sepúlveda,4.75,4.36,ok,,medium
+0092156AR,Cercis siliquastrum,False,C\ Marquès de Campo Sagrado,9.91,9.16,ok,,large
+0092157AR,Quercus ilex,False,Pl Goya,,24.9,median,28.15,check
+0092159AR,Celtis australis,False,C\ Tamarit,12.7,4.48,ok,,large
+0092160AR,Celtis australis,False,C\ Tamarit,9.96,4.4,ok,,large
+0092161AR,Celtis australis,False,C\ Llança,4.63,3.78,ok,,medium
+0092163AR,Styphnolobium japonicum,False,C\ Calàbria,5.15,4.18,ok,,medium
+0092164AR,Platanus × acerifolia,True,C\ Parlament,7.38,5.07,ok,,large
+0092165AR,Prunus cerasifera 'Pissardii',False,Av Mistral,,6.01,median,1.03,check
+0092166AR,Celtis australis,False,C\ Sepúlveda,5.06,4.09,ok,,medium
+0092167AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,16.02,median,8.78,check
+0092168AR,Celtis australis,False,C\ Viladomat,5.13,4.73,ok,,medium
+0092169AR,Celtis australis,False,C\ Viladomat,4.63,3.52,ok,,medium
+0092170AR,Casuarina cunninghamiana,False,Pl Universitat,,34.4,no_facade,30.51,check
+0092171AR,Platanus × acerifolia,True,Av Paral·lel,7.95,7.44,ok,,large
+0092173AR,Celtis australis,False,C\ Floridablanca,5.13,4.27,ok,,medium
+0092174AR,Celtis australis,False,C\ Comte Borrell,5.01,4.25,ok,,medium
+0092176AR,Celtis australis,False,C\ Sepúlveda,5.28,4.06,ok,,medium
+0092177AR,Celtis australis,False,C\ Calàbria,5.29,4.78,ok,,medium
+0092178AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,16.09,median,8.97,check
+0092179AR,Celtis australis,False,C\ Rocafort,5.13,3.9,ok,,medium
+0092180AR,Platanus × acerifolia,True,C\ Comte d'Urgell,6.99,6.47,ok,,large
+0092181AR,Platanus × acerifolia,True,Av Paral·lel,7.91,7.13,ok,,large
+0092182AR,Celtis australis,False,C\ Comte Borrell,,4.36,median,2.33,check
+0092183AR,Platanus × acerifolia,True,C\ Floridablanca,8.75,7.21,ok,,large
+0092184AR,Celtis australis,False,C\ Parlament,4.86,4.04,ok,,medium
+0092185AR,Celtis australis,False,C\ Floridablanca,5.21,4.51,ok,,medium
+0092186AR,Celtis australis,False,C\ Parlament,4.85,4.18,ok,,medium
+0092187AR,Celtis australis,False,C\ Casanova,4.72,4.13,ok,,medium
+0092188AR,Styphnolobium japonicum,False,C\ Parlament,5.47,4.61,ok,,medium
+0092189AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,8.9,median,,check
+0092192AR,Platanus × acerifolia,True,C\ Parlament,4.89,4.46,ok,,medium
+0092193AR,Platanus × acerifolia,True,C\ Entença,5.14,4.14,ok,,medium
+0092194AR,Celtis australis,False,C\ Tamarit,3.66,4.64,ok,,medium
+0092195AR,Celtis australis,False,C\ Rocafort,4.97,4.48,ok,,medium
+0092196AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,16.15,median,9.74,check
+0092197AR,Celtis australis,False,C\ Floridablanca,5.17,4.13,ok,,medium
+0092198AR,Celtis australis,False,C\ Sepúlveda,5.33,4.17,ok,,medium
+0092199AR,Celtis australis,False,C\ Calàbria,5.02,4.49,ok,,medium
+0092200AR,Styphnolobium japonicum,False,C\ Sepúlveda,4.98,3.68,ok,,medium
+0092201AR,Platanus × acerifolia,True,C\ Calàbria,5.01,4.27,ok,,medium
+0092202AR,Celtis australis,False,C\ Llança,5.37,4.7,ok,,medium
+0092203AR,Celtis australis,False,C\ Casanova,5.02,3.69,ok,,medium
+0092204AR,Platanus × acerifolia,True,C\ Tamarit,3.48,4.02,ok,,small
+0092205AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,16.56,median,9.29,check
+0092206AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,8.84,median,9.2,check
+0092207AR,Celtis australis,False,C\ Comte Borrell,4.96,4.0,ok,,medium
+0092208AR,Platanus × acerifolia,True,Av Paral·lel,7.76,7.12,ok,,large
+0092209AR,Celtis australis,False,C\ Entença,4.81,4.27,ok,,medium
+0092210AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,19.34,median,9.01,check
+0092211AR,Prunus cerasifera 'Pissardii',False,Av Mistral,,7.42,median,27.99,check
+0092212AR,Celtis australis,False,C\ Floridablanca,4.76,3.67,ok,,medium
+0092213AR,Styphnolobium japonicum,False,C\ Sepúlveda,,4.29,median,7.09,check
+0092214AR,Celtis australis,False,C\ Manso,4.93,3.89,ok,,medium
+0092215AR,Platanus × acerifolia,True,C\ Sepúlveda,4.72,3.47,ok,,medium
+0092216AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,16.29,median,9.44,check
+0092217AR,Platanus × acerifolia,True,C\ Sepúlveda,12.23,4.17,ok,,large
+0092219AR,Celtis australis,False,C\ Sepúlveda,5.21,4.21,ok,,medium
+0092220AR,Prunus cerasifera 'Pissardii',False,Av Mistral,,19.48,median,22.62,check
+0092221AR,Celtis australis,False,C\ Casanova,5.3,4.37,ok,,medium
+0092222AR,Platanus × acerifolia,True,C\ Marquès de Campo Sagrado,6.36,5.18,ok,,large
+0092223AR,Platanus × acerifolia,True,C\ Tamarit,4.96,3.92,ok,,medium
+0092224AR,Celtis australis,False,C\ Viladomat,8.78,7.31,ok,,large
+0092225AR,Platanus × acerifolia,True,Av Paral·lel,7.97,7.28,ok,,large
+0092226AR,Celtis australis,False,C\ Parlament,4.84,4.39,ok,,medium
+0092227AR,Celtis australis,False,C\ Tamarit,4.89,4.15,ok,,medium
+0092228AR,Celtis australis,False,C\ Sepúlveda,4.75,4.43,ok,,medium
+0092229AR,Platanus × acerifolia,True,Av Paral·lel,7.89,7.02,ok,,large
+0092230AR,Platanus × acerifolia,True,C\ Comte Borrell,15.38,12.14,ok,,large
+0092231AR,Celtis australis,False,C\ Viladomat,4.92,3.99,ok,,medium
+0092232AR,Platanus × acerifolia,True,C\ Comte d'Urgell,7.52,7.49,ok,,large
+0092233AR,Celtis australis,False,C\ Floridablanca,4.63,4.17,ok,,medium
+0092234AR,Celtis australis,False,C\ Floridablanca,11.39,3.71,ok,,large
+0092235AR,Platanus × acerifolia,True,C\ Comte d'Urgell,7.47,7.66,ok,,large
+0092236AR,Celtis australis,False,C\ Viladomat,4.77,3.99,ok,,medium
+0092237AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,15.97,median,20.96,check
+0092238AR,Platanus × acerifolia,True,C\ Viladomat,4.81,4.32,ok,,medium
+0092239AR,Platanus × acerifolia,True,Av Paral·lel,7.82,7.44,ok,,large
+0092240AR,Celtis australis,False,C\ Villarroel,4.75,4.03,ok,,medium
+0092243AR,Celtis australis,False,C\ Rocafort,4.74,4.0,ok,,medium
+0092245AR,Bauhinia variegata,False,C\ Calàbria,5.34,4.85,ok,,medium
+0092246AR,Platanus × acerifolia,True,C\ Tamarit,4.6,3.55,ok,,medium
+0092247AR,Platanus × acerifolia,True,C\ Tamarit,4.59,5.55,ok,,medium
+0092248AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,8.54,median,,check
+0092249AR,Platanus × acerifolia,True,C\ Tamarit,4.57,3.83,ok,,medium
+0092250AR,Celtis australis,False,C\ Viladomat,5.1,3.83,ok,,medium
+0092251AR,Platanus × acerifolia,True,C\ Aldana,4.87,4.42,ok,,medium
+0092252AR,Platanus × acerifolia,True,C\ Comte Borrell,4.86,3.98,ok,,medium
+0092254AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,9.25,median,9.22,check
+0092256AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,34.32,no_facade,9.13,check
+0092258AR,Celtis australis,False,C\ Floridablanca,5.05,3.81,ok,,medium
+0092259AR,Celtis australis,False,C\ Floridablanca,4.85,4.0,ok,,medium
+0092260AR,Prunus cerasifera 'Pissardii',False,Av Mistral,,22.98,median,,check
+0092261AR,Platanus × acerifolia,True,Av Paral·lel,7.98,7.12,ok,,large
+0092262AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,14.73,median,9.11,check
+0092265AR,Platanus × acerifolia,True,Rda Sant Antoni,7.53,6.4,ok,,large
+0092266AR,Celtis australis,False,C\ Parlament,4.8,4.02,ok,,medium
+0092267AR,Platanus × acerifolia,True,C\ Calàbria,6.82,6.4,ok,,large
+0092268AR,Styphnolobium japonicum,False,C\ Manso,9.88,4.83,ok,,large
+0092269AR,Celtis australis,False,C\ Rocafort,4.94,4.49,ok,,medium
+0092270AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,15.77,median,9.21,check
+0092271AR,Celtis australis,False,C\ Entença,4.86,3.85,ok,,medium
+0092272AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,33.92,no_facade,9.19,check
+0092273AR,Quercus ilex,False,Pl Goya,,15.75,median,,check
+0092274AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,8.76,median,9.34,check
+0092275AR,Styphnolobium japonicum,False,C\ Viladomat,9.31,5.22,ok,,large
+0092276AR,Platanus × acerifolia,True,Rda Sant Antoni,,6.55,no_kerb,,check
+0092277AR,Celtis australis,False,C\ Floridablanca,4.96,3.78,ok,,medium
+0092278AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,8.66,median,8.81,check
+0092279AR,Platanus × acerifolia,True,C\ Tamarit,16.43,5.34,ok,,large
+0092280AR,Koelreuteria paniculata 'Fastigiata',False,Av Mistral,,6.49,median,27.86,check
+0092282AR,Platanus × acerifolia,True,Rda Sant Pau,7.98,7.61,ok,,large
+0092283AR,Platanus × acerifolia,True,C\ Comte Borrell,5.05,4.33,ok,,medium
+0092284AR,Prunus cerasifera 'Pissardii',False,Av Mistral,,13.65,median,9.16,check
+0092285AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,9.35,median,9.3,check
+0092286AR,Platanus × acerifolia,True,Rda Sant Antoni,7.57,6.38,ok,,large
+0092287AR,Platanus × acerifolia,True,C\ Sepúlveda,5.14,4.36,ok,,medium
+0092288AR,Celtis australis,False,C\ Casanova,4.96,3.99,ok,,medium
+0092289AR,Celtis australis,False,C\ Sepúlveda,4.77,4.06,ok,,medium
+0092290AR,Platanus × acerifolia,True,C\ Rocafort,4.99,4.45,ok,,medium
+0092292AR,Tipuana tipu,False,Pl Goya,,23.98,median,23.07,check
+0092293AR,Celtis australis,False,C\ Floridablanca,4.89,4.01,ok,,medium
+0092294AR,Celtis australis,False,C\ Entença,4.86,4.11,ok,,medium
+0092295AR,Platanus × acerifolia,True,C\ Vilamarí,,16.17,median,,check
+0092296AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,8.7,median,9.13,check
+0092297AR,Celtis australis,False,C\ Sepúlveda,4.95,4.42,ok,,medium
+0092302AR,Celtis australis,False,C\ Sepúlveda,5.32,4.11,ok,,medium
+0092304AR,Platanus × acerifolia,True,C\ Comte Borrell,,36.92,no_facade,29.86,check
+0092305AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,16.33,median,9.18,check
+0092306AR,Platanus × acerifolia,True,C\ Comte d'Urgell,6.09,5.5,ok,,large
+0092307AR,Celtis australis,False,C\ Sepúlveda,5.45,4.74,ok,,medium
+0092308AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,16.71,median,27.11,check
+0092309AR,Celtis australis,False,C\ Comte Borrell,,4.41,median,2.3,check
+0092310AR,Celtis australis,False,C\ Sepúlveda,5.31,4.51,ok,,medium
+0092312AR,Celtis australis,False,C\ Sepúlveda,5.01,4.4,ok,,medium
+0092313AR,Celtis australis,False,C\ Aldana,4.93,4.03,ok,,medium
+0092314AR,Platanus × acerifolia,True,C\ Tamarit,6.08,4.81,ok,,large
+0092316AR,Platanus × acerifolia,True,C\ Muntaner,4.8,3.87,ok,,medium
+0092317AR,Celtis australis,False,C\ Rocafort,4.71,3.92,ok,,medium
+0092318AR,Celtis australis,False,C\ Calàbria,4.85,4.12,ok,,medium
+0092319AR,Celtis australis,False,C\ Calàbria,4.95,4.48,ok,,medium
+0092320AR,Celtis australis,False,C\ Viladomat,4.82,3.59,ok,,medium
+0092321AR,Celtis australis,False,C\ Floridablanca,5.03,4.42,ok,,medium
+0092322AR,Platanus × acerifolia,True,Av Paral·lel,7.92,7.4,ok,,large
+0092323AR,Celtis australis,False,C\ Comte Borrell,3.41,4.3,ok,,small
+0092324AR,Platanus × acerifolia,True,C\ Sepúlveda,5.2,3.8,ok,,medium
+0092325AR,Celtis australis,False,C\ Tamarit,4.27,3.31,ok,,medium
+0092326AR,Populus alba 'Pyramidalis',False,Av Mistral,,6.59,median,28.05,check
+0092327AR,Celtis australis,False,C\ Manso,4.89,4.29,ok,,medium
+0092328AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,41.2,no_facade,9.16,check
+0092329AR,Celtis australis,False,C\ Villarroel,4.91,4.49,ok,,medium
+0092330AR,Celtis australis,False,C\ Floridablanca,4.89,4.19,ok,,medium
+0092331AR,Celtis australis,False,C\ Comte Borrell,,7.55,median,7.09,check
+0092332AR,Celtis australis,False,C\ Floridablanca,4.91,4.58,ok,,medium
+0092333AR,Celtis australis,False,C\ Sepúlveda,4.92,4.59,ok,,medium
+0092334AR,Celtis australis,False,C\ Sepúlveda,4.92,4.25,ok,,medium
+0092335AR,Celtis australis,False,C\ Rocafort,5.06,4.6,ok,,medium
+0092337AR,Platanus × acerifolia,True,C\ Sepúlveda,4.83,3.74,ok,,medium
+0092338AR,Styphnolobium japonicum,False,C\ Floridablanca,5.43,4.45,ok,,medium
+0092339AR,Celtis australis,False,C\ Calàbria,4.84,3.78,ok,,medium
+0092340AR,Ginkgo biloba,False,C\ Marquès de Campo Sagrado,4.94,4.18,ok,,medium
+0092341AR,Platanus × acerifolia,True,C\ Tamarit,,15.38,median,7.1,check
+0092342AR,Platanus × acerifolia,True,C\ Comte d'Urgell,7.22,7.48,ok,,large
+0092343AR,Prunus cerasifera 'Pissardii',False,Av Mistral,,9.28,median,31.64,check
+0092344AR,Platanus × acerifolia,True,Av Paral·lel,10.56,9.45,ok,,large
+0092345AR,Styphnolobium japonicum,False,C\ Entença,4.78,3.88,ok,,medium
+0092346AR,Platanus × acerifolia,True,Av Paral·lel,7.99,7.28,ok,,large
+0092347AR,Platanus × acerifolia,True,C\ Floridablanca,5.29,4.35,ok,,medium
+0092349AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,9.33,median,9.34,check
+0092350AR,Celtis australis,False,C\ Villarroel,4.91,3.94,ok,,medium
+0092351AR,Platanus × acerifolia,True,C\ Casanova,5.09,3.95,ok,,medium
+0092352AR,Celtis australis,False,C\ Parlament,4.95,4.16,ok,,medium
+0092353AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,16.14,median,24.73,check
+0092355AR,Celtis australis,False,C\ Parlament,5.07,4.17,ok,,medium
+0092358AR,Celtis australis,False,C\ Viladomat,4.5,4.32,ok,,medium
+0092359AR,Celtis australis,False,C\ Calàbria,4.73,3.83,ok,,medium
+0092360AR,Celtis australis,False,C\ Tamarit,4.88,4.16,ok,,medium
+0092361AR,Celtis australis,False,C\ Viladomat,4.84,4.21,ok,,medium
+0092362AR,Platanus × acerifolia,True,C\ Sepúlveda,12.1,4.38,ok,,large
+0092363AR,Celtis australis,False,C\ Viladomat,4.79,4.12,ok,,medium
+0092364AR,Celtis australis,False,C\ Casanova,4.98,4.01,ok,,medium
+0092365AR,Celtis australis,False,C\ Floridablanca,5.18,4.59,ok,,medium
+0092366AR,Celtis australis,False,C\ Sepúlveda,5.28,4.12,ok,,medium
+0092367AR,Celtis australis,False,C\ Sepúlveda,4.88,3.92,ok,,medium
+0092368AR,Platanus × acerifolia,True,C\ Tamarit,5.25,4.76,ok,,medium
+0092369AR,Celtis australis,False,C\ Marquès de Campo Sagrado,4.87,4.22,ok,,medium
+0092370AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,8.77,median,9.0,check
+0092371AR,Celtis australis,False,C\ Sepúlveda,5.14,4.05,ok,,medium
+0092372AR,Celtis australis,False,C\ Sepúlveda,5.32,4.49,ok,,medium
+0092373AR,Styphnolobium japonicum,False,C\ Tamarit,14.22,6.16,ok,,large
+0092374AR,Celtis australis,False,C\ Vilamarí,4.84,3.74,ok,,medium
+0092375AR,Celtis australis,False,C\ Sepúlveda,5.02,4.33,ok,,medium
+0092376AR,Celtis australis,False,C\ Villarroel,5.1,4.12,ok,,medium
+0092377AR,Celtis australis,False,C\ Entença,4.96,4.24,ok,,medium
+0092378AR,Celtis australis,False,C\ Sepúlveda,5.0,4.09,ok,,medium
+0092380AR,Celtis australis,False,C\ Floridablanca,4.78,3.67,ok,,medium
+0092381AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,16.27,median,9.17,check
+0092382AR,Celtis australis,False,C\ Sepúlveda,5.1,4.17,ok,,medium
+0092383AR,Celtis australis,False,Pl Goya,,15.39,median,25.62,check
+0092384AR,Platanus × acerifolia,True,C\ Floridablanca,5.24,4.39,ok,,medium
+0092385AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,33.94,no_facade,9.21,check
+0092387AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,8.53,median,9.75,check
+0092388AR,Celtis australis,False,C\ Sepúlveda,5.35,4.02,ok,,medium
+0092390AR,Celtis australis,False,C\ Viladomat,4.86,4.19,ok,,medium
+0092391AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,17.05,median,8.86,check
+0092392AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,8.48,median,9.55,check
+0092393AR,Jacaranda mimosifolia,False,C\ Vilamarí,5.04,4.42,ok,,medium
+0092394AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,17.48,median,8.79,check
+0092396AR,Celtis australis,False,C\ Viladomat,4.89,3.91,ok,,medium
+0092397AR,Celtis australis,False,C\ Sepúlveda,5.25,4.33,ok,,medium
+0092398AR,Platanus × acerifolia,True,Rda Sant Pau,7.49,6.28,ok,,large
+0092399AR,Styphnolobium japonicum,False,C\ Parlament,4.87,4.34,ok,,medium
+0092402AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,15.93,median,24.69,check
+0092403AR,Platanus × acerifolia,True,C\ Floridablanca,7.35,6.61,ok,,large
+0092404AR,Celtis australis,False,C\ Manso,4.88,4.12,ok,,medium
+0092406AR,Celtis australis,False,C\ Viladomat,5.05,3.8,ok,,medium
+0092407AR,Celtis australis,False,C\ Tamarit,22.34,9.26,ok,,large
+0092408AR,Platanus × acerifolia,True,Av Paral·lel,7.98,7.25,ok,,large
+0092409AR,Melia azedarach,False,C\ Rocafort,4.81,4.65,ok,,medium
+0092410AR,Platanus × acerifolia,True,C\ Tamarit,21.58,5.59,ok,,large
+0092411AR,Casuarina cunninghamiana,False,Pl Universitat,,31.75,no_facade,,check
+0092412AR,Styphnolobium japonicum,False,C\ Manso,4.97,3.93,ok,,medium
+0092413AR,Celtis australis,False,C\ Tamarit,3.68,3.99,ok,,medium
+0092414AR,Celtis australis,False,C\ Sepúlveda,4.78,3.98,ok,,medium
+0092415AR,Platanus × acerifolia,True,Rda Sant Pau,17.63,12.15,ok,,large
+0092416AR,Celtis australis,False,C\ Tamarit,18.46,4.06,ok,,large
+0092417AR,Platanus × acerifolia,True,C\ Comte d'Urgell,6.96,6.96,ok,,large
+0092418AR,Styphnolobium japonicum,False,C\ Sepúlveda,5.34,4.1,ok,,medium
+0092419AR,Styphnolobium japonicum,False,C\ Floridablanca,5.43,3.93,ok,,medium
+0092420AR,Platanus × acerifolia,True,Rda Sant Pau,7.49,6.53,ok,,large
+0092421AR,Platanus × acerifolia,True,C\ Comte d'Urgell,7.29,7.42,ok,,large
+0092422AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,8.65,median,24.73,check
+0092423AR,Styphnolobium japonicum,False,C\ Tamarit,13.02,4.04,ok,,large
+0092424AR,Celtis australis,False,C\ Llança,4.66,3.78,ok,,medium
+0092425AR,Celtis australis,False,C\ Tamarit,4.8,4.06,ok,,medium
+0092427AR,Platanus × acerifolia,True,C\ Sepúlveda,5.26,3.47,ok,,medium
+0092428AR,Celtis australis,False,C\ Floridablanca,5.12,4.2,ok,,medium
+0092429AR,Celtis australis,False,C\ Rocafort,4.69,3.8,ok,,medium
+0092430AR,Platanus × acerifolia,True,C\ Comte d'Urgell,7.45,6.38,ok,,large
+0092432AR,Celtis australis,False,C\ Floridablanca,4.84,4.34,ok,,medium
+0092433AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,9.25,median,9.25,check
+0092434AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,11.51,median,9.01,check
+0092435AR,Celtis australis,False,C\ Casanova,4.91,4.32,ok,,medium
+0092436AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,8.94,median,,check
+0092437AR,Platanus × acerifolia,True,C\ Sepúlveda,4.96,4.32,ok,,medium
+0092438AR,Melia azedarach,False,C\ Rocafort,4.87,4.55,ok,,medium
+0092439AR,Celtis australis,False,C\ Sepúlveda,4.85,4.14,ok,,medium
+0092443AR,Platanus × acerifolia,True,C\ Manso,4.95,4.46,ok,,medium
+0092445AR,Platanus × acerifolia,True,Pl Goya,,19.49,median,8.03,check
+0092446AR,Platanus × acerifolia,True,C\ Floridablanca,,26.62,median,,check
+0092447AR,Platanus × acerifolia,True,C\ Tamarit,,5.7,no_kerb,,check
+0092448AR,Celtis australis,False,C\ Tamarit,4.86,4.19,ok,,medium
+0092449AR,Celtis australis,False,C\ Comte Borrell,4.99,4.17,ok,,medium
+0092450AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,9.09,median,9.28,check
+0092452AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,15.74,median,9.26,check
+0092453AR,Platanus × acerifolia,True,C\ Tamarit,4.94,4.3,ok,,medium
+0092454AR,Celtis australis,False,C\ Floridablanca,4.9,4.14,ok,,medium
+0092455AR,Celtis australis,False,C\ Comte Borrell,5.01,3.86,ok,,medium
+0092456AR,Platanus × acerifolia,True,C\ Casanova,5.18,4.0,ok,,medium
+0092457AR,Prunus cerasifera 'Pissardii',False,Av Mistral,,8.42,median,20.83,check
+0092458AR,Celtis australis,False,C\ Parlament,4.68,3.66,ok,,medium
+0092460AR,Platanus × acerifolia,True,C\ Comte d'Urgell,7.45,6.34,ok,,large
+0092461AR,Celtis australis,False,C\ Villarroel,4.93,3.9,ok,,medium
+0092462AR,Casuarina cunninghamiana,False,Pl Universitat,,51.92,no_facade,30.41,check
+0092463AR,Platanus × acerifolia,True,C\ Villarroel,5.03,4.31,ok,,medium
+0092464AR,Populus alba 'Pyramidalis',False,Av Mistral,,5.34,median,19.23,check
+0092465AR,Celtis australis,False,C\ Vilamarí,5.01,3.79,ok,,medium
+0092466AR,Platanus × acerifolia,True,C\ Rocafort,,16.62,median,,check
+0092467AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,8.95,median,9.32,check
+0092468AR,Styphnolobium japonicum,False,C\ Sepúlveda,9.34,4.34,ok,,large
+0092469AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,15.92,median,33.7,check
+0092470AR,Platanus × acerifolia,True,C\ Comte d'Urgell,8.68,8.11,ok,,large
+0092471AR,Platanus × acerifolia,True,C\ Parlament,14.21,5.62,ok,,large
+0092472AR,Platanus × acerifolia,True,Rda Sant Pau,7.54,6.52,ok,,large
+0092473AR,Celtis australis,False,C\ Sepúlveda,4.76,3.92,ok,,medium
+0092474AR,Platanus × acerifolia,True,C\ Manso,10.4,3.91,ok,,large
+0092475AR,Celtis australis,False,C\ Llança,4.62,3.71,ok,,medium
+0092476AR,Cupressus sempervirens,False,Rda Sant Pau,16.74,7.18,ok,,large
+0092477AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,16.4,median,9.32,check
+0092478AR,Celtis australis,False,C\ Tamarit,4.99,3.81,ok,,medium
+0092479AR,Platanus × acerifolia,True,C\ Sepúlveda,3.63,2.64,ok,,medium
+0092483AR,Bauhinia variegata,False,C\ Calàbria,5.34,4.83,ok,,medium
+0092484AR,Platanus × acerifolia,True,C\ Sepúlveda,4.9,4.77,ok,,medium
+0092485AR,Celtis australis,False,C\ Parlament,4.79,3.96,ok,,medium
+0092487AR,Celtis australis,False,C\ Rocafort,4.64,3.86,ok,,medium
+0092488AR,Platanus × acerifolia,True,C\ Entença,4.88,3.7,ok,,medium
+0092489AR,Celtis australis,False,C\ Comte Borrell,4.91,4.13,ok,,medium
+0092490AR,Platanus × acerifolia,True,C\ Comte Borrell,5.12,4.56,ok,,medium
+0092491AR,Celtis australis,False,C\ Sepúlveda,4.94,4.41,ok,,medium
+0092493AR,Celtis australis,False,C\ Rocafort,5.08,3.99,ok,,medium
+0092494AR,Platanus × acerifolia,True,C\ Comte d'Urgell,7.96,7.46,ok,,large
+0092496AR,Platanus × acerifolia,True,Av Paral·lel,17.73,16.53,ok,,large
+0092498AR,Platanus × acerifolia,True,Av Paral·lel,7.93,7.22,ok,,large
+0092499AR,Platanus × acerifolia,True,C\ Viladomat,4.99,4.0,ok,,medium
+0092500AR,Celtis australis,False,C\ Muntaner,5.35,4.4,ok,,medium
+0092501AR,Platanus × acerifolia,True,C\ Tamarit,,17.26,median,,check
+0092502AR,Celtis australis,False,C\ Llança,4.63,3.7,ok,,medium
+0092503AR,Platanus × acerifolia,True,C\ Muntaner,5.13,4.29,ok,,medium
+0092504AR,Celtis australis,False,C\ Casanova,4.92,3.85,ok,,medium
+0092505AR,Styphnolobium japonicum,False,C\ Sepúlveda,5.15,4.15,ok,,medium
+0092506AR,Celtis australis,False,C\ Floridablanca,4.76,4.04,ok,,medium
+0092507AR,Celtis australis,False,C\ Floridablanca,4.95,4.4,ok,,medium
+0092508AR,Platanus × acerifolia,True,C\ Floridablanca,4.99,4.06,ok,,medium
+0092509AR,Celtis australis,False,C\ Viladomat,4.62,4.16,ok,,medium
+0092511AR,Platanus × acerifolia,True,C\ Aldana,4.91,4.46,ok,,medium
+0092513AR,Platanus × acerifolia,True,Rda Sant Pau,23.93,13.8,ok,,large
+0092514AR,Celtis australis,False,C\ Comte Borrell,3.08,3.94,ok,,small
+0092515AR,Celtis australis,False,C\ Comte Borrell,10.12,4.3,ok,,large
+0092516AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,39.93,no_facade,9.28,check
+0092517AR,Platanus × acerifolia,True,C\ Tamarit,,16.9,median,15.71,check
+0092518AR,Platanus × acerifolia,True,C\ Sepúlveda,4.85,3.43,ok,,medium
+0092519AR,Styphnolobium japonicum,False,C\ Vilamarí,4.86,4.29,ok,,medium
+0092520AR,Celtis australis,False,C\ Vilamarí,4.92,4.39,ok,,medium
+0092521AR,Celtis australis,False,C\ Villarroel,4.93,4.37,ok,,medium
+0092522AR,Celtis australis,False,C\ Manso,5.01,4.14,ok,,medium
+0092523AR,Celtis australis,False,C\ Parlament,4.84,3.98,ok,,medium
+0092524AR,Robinia pseudoacacia,False,Av Mistral,,6.08,median,8.2,check
+0092525AR,Platanus × acerifolia,True,C\ Comte d'Urgell,7.36,6.87,ok,,large
+0092527AR,Celtis australis,False,C\ Floridablanca,11.92,4.71,ok,,large
+0092528AR,Platanus × acerifolia,True,Rda Sant Pau,7.46,6.52,ok,,large
+0092529AR,Celtis australis,False,C\ Viladomat,4.7,4.19,ok,,medium
+0092530AR,Celtis australis,False,C\ Sepúlveda,4.73,4.21,ok,,medium
+0092531AR,Celtis australis,False,C\ Floridablanca,4.93,3.96,ok,,medium
+0092535AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,15.92,median,33.62,check
+0092536AR,Platanus × acerifolia,True,C\ Sepúlveda,4.81,4.5,ok,,medium
+0092537AR,Celtis australis,False,C\ Villarroel,4.67,4.19,ok,,medium
+0092538AR,Celtis australis,False,Pl Goya,,15.41,median,19.46,check
+0092539AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,9.4,median,8.87,check
+0092540AR,Platanus × acerifolia,True,C\ Entença,4.72,3.85,ok,,medium
+0092541AR,Platanus × acerifolia,True,C\ Manso,5.09,4.0,ok,,medium
+0092542AR,Celtis australis,False,C\ Sepúlveda,4.99,4.18,ok,,medium
+0092543AR,Platanus × acerifolia,True,C\ Parlament,5.22,4.47,ok,,medium
+0092544AR,Platanus × acerifolia,True,C\ Manso,4.81,3.89,ok,,medium
+0092545AR,Celtis australis,False,C\ Rocafort,4.95,3.84,ok,,medium
+0092546AR,Platanus × acerifolia,True,C\ Comte Borrell,4.86,4.38,ok,,medium
+0092547AR,Celtis australis,False,C\ Floridablanca,5.12,4.52,ok,,medium
+0092548AR,Koelreuteria paniculata 'Fastigiata',False,Av Mistral,,15.05,median,8.43,check
+0092549AR,Styphnolobium japonicum,False,C\ Floridablanca,4.52,3.96,ok,,medium
+0092550AR,Platanus × acerifolia,True,C\ Aldana,4.69,4.29,ok,,medium
+0092551AR,Celtis australis,False,C\ Comte Borrell,4.96,4.05,ok,,medium
+0092552AR,Styphnolobium japonicum,False,C\ Tamarit,5.99,4.33,ok,,medium
+0092554AR,Celtis australis,False,C\ Tamarit,,4.12,median,4.54,check
+0092556AR,Celtis australis,False,C\ Rocafort,4.78,4.24,ok,,medium
+0092557AR,Celtis australis,False,C\ Llança,5.13,4.39,ok,,medium
+0092558AR,Celtis australis,False,C\ Sepúlveda,5.14,4.38,ok,,medium
+0092559AR,Celtis australis,False,C\ Sepúlveda,4.95,3.88,ok,,medium
+0092560AR,Koelreuteria paniculata 'Fastigiata',False,Av Mistral,,6.92,median,8.27,check
+0092561AR,Celtis australis,False,C\ Viladomat,4.69,3.46,ok,,medium
+0092562AR,Platanus × acerifolia,True,C\ Villarroel,6.56,5.69,ok,,large
+0092563AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,8.75,median,24.67,check
+0092564AR,Celtis australis,False,C\ Rocafort,4.66,3.84,ok,,medium
+0092566AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,9.72,median,8.94,check
+0092567AR,Celtis australis,False,C\ Sepúlveda,4.96,4.27,ok,,medium
+0092568AR,Populus alba 'Pyramidalis',False,Av Mistral,,5.35,median,27.67,check
+0092569AR,Platanus × acerifolia,True,C\ Tamarit,21.61,4.21,ok,,large
+0092570AR,Platanus × acerifolia,True,C\ Comte Borrell,5.09,4.31,ok,,medium
+0092571AR,Platanus × acerifolia,True,C\ Tamarit,4.08,4.26,ok,,medium
+0092572AR,Platanus × acerifolia,True,C\ Viladomat,4.96,4.38,ok,,medium
+0092573AR,Styphnolobium japonicum,False,C\ Floridablanca,,17.1,median,17.79,check
+0092574AR,Quercus ilex,False,Pl Goya,,23.54,median,20.94,check
+0092576AR,Platanus × acerifolia,True,C\ Floridablanca,5.37,4.88,ok,,medium
+0092578AR,Celtis australis,False,C\ Floridablanca,4.94,3.9,ok,,medium
+0092580AR,Celtis australis,False,C\ Sepúlveda,4.74,3.94,ok,,medium
+0092581AR,Koelreuteria paniculata 'Fastigiata',False,Av Mistral,,6.0,median,,check
+0092582AR,Celtis australis,False,C\ Rocafort,4.63,3.75,ok,,medium
+0092583AR,Celtis australis,False,C\ Floridablanca,5.03,4.3,ok,,medium
+0092584AR,Platanus × acerifolia,True,Pl Goya,,24.11,median,30.26,check
+0092586AR,Celtis australis,False,C\ Villarroel,4.72,3.9,ok,,medium
+0092587AR,Styphnolobium japonicum,False,C\ Floridablanca,4.17,2.82,ok,,medium
+0092588AR,Platanus × acerifolia,True,Rda Sant Antoni,7.55,6.28,ok,,large
+0092589AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,8.68,median,,check
+0092591AR,Platanus × acerifolia,True,Av Paral·lel,7.87,7.08,ok,,large
+0092592AR,Platanus × acerifolia,True,C\ Manso,4.87,4.01,ok,,medium
+0092593AR,Populus alba 'Pyramidalis',False,Av Mistral,,6.42,median,27.68,check
+0092594AR,Celtis australis,False,C\ Entença,5.1,4.15,ok,,medium
+0092595AR,Platanus × acerifolia,True,C\ Muntaner,5.21,4.1,ok,,medium
+0092596AR,Platanus × acerifolia,True,C\ Calàbria,4.69,3.74,ok,,medium
+0092597AR,Platanus × acerifolia,True,Av Paral·lel,9.86,7.17,ok,,large
+0092598AR,Celtis australis,False,C\ Sepúlveda,5.09,4.28,ok,,medium
+0092599AR,Celtis australis,False,C\ Sepúlveda,4.79,4.05,ok,,medium
+0092600AR,Celtis australis,False,C\ Calàbria,4.69,4.02,ok,,medium
+0092602AR,Casuarina cunninghamiana,False,Pl Universitat,,53.77,no_facade,30.32,check
+0092603AR,Celtis australis,False,C\ Sepúlveda,4.96,4.31,ok,,medium
+0092604AR,Parkinsonia aculeata,False,Pl Universitat,,29.81,median,30.46,check
+0092605AR,Styphnolobium japonicum,False,C\ Parlament,4.95,3.94,ok,,medium
+0092606AR,Celtis australis,False,C\ Sepúlveda,5.02,4.15,ok,,medium
+0092607AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,9.05,median,9.24,check
+0092608AR,Cercis siliquastrum,False,C\ Marquès de Campo Sagrado,9.94,9.03,ok,,large
+0092609AR,Koelreuteria paniculata 'Fastigiata',False,Av Mistral,,6.18,median,27.78,check
+0092610AR,Platanus × acerifolia,True,C\ Marquès de Campo Sagrado,7.03,5.59,ok,,large
+0092611AR,Platanus × acerifolia,True,Av Paral·lel,7.86,7.09,ok,,large
+0092612AR,Platanus × acerifolia,True,C\ Tamarit,3.66,4.59,ok,,medium
+0092613AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,16.64,median,9.35,check
+0092614AR,Platanus × acerifolia,True,C\ Muntaner,5.32,4.33,ok,,medium
+0092615AR,Platanus × acerifolia,True,C\ Manso,4.83,4.09,ok,,medium
+0092616AR,Parkinsonia aculeata,False,Pl Universitat,,20.26,median,15.51,check
+0092617AR,Celtis australis,False,C\ Floridablanca,4.89,4.3,ok,,medium
+0092618AR,Celtis australis,False,C\ Sepúlveda,4.75,3.94,ok,,medium
+0092619AR,Platanus × acerifolia,True,C\ Calàbria,5.28,4.01,ok,,medium
+0092620AR,Celtis australis,False,C\ Floridablanca,5.35,4.54,ok,,medium
+0092621AR,Celtis australis,False,C\ Llança,5.39,4.5,ok,,medium
+0092622AR,Celtis australis,False,C\ Sepúlveda,4.86,4.23,ok,,medium
+0092623AR,Celtis australis,False,C\ Viladomat,4.66,4.33,ok,,medium
+0092624AR,Celtis australis,False,C\ Calàbria,4.86,3.98,ok,,medium
+0092625AR,Celtis australis,False,C\ Parlament,4.75,3.89,ok,,medium
+0092626AR,Platanus × acerifolia,True,C\ Viladomat,4.94,4.6,ok,,medium
+0092627AR,Jacaranda mimosifolia,False,Pl Goya,,21.53,median,30.73,check
+0092628AR,Celtis australis,False,C\ Entença,4.76,4.07,ok,,medium
+0092629AR,Platanus × acerifolia,True,Rda Sant Pau,7.54,6.29,ok,,large
+0092630AR,Platanus × acerifolia,True,Rda Sant Pau,7.56,6.06,ok,,large
+0092631AR,Celtis australis,False,C\ Floridablanca,22.05,4.53,ok,,large
+0092633AR,Platanus × acerifolia,True,C\ Comte d'Urgell,7.27,6.27,ok,,large
+0092634AR,Platanus × acerifolia,True,Av Paral·lel,10.08,7.11,ok,,large
+0092635AR,Celtis australis,False,C\ Llança,5.4,4.36,ok,,medium
+0092637AR,Celtis australis,False,C\ Calàbria,4.94,4.72,ok,,medium
+0092639AR,Celtis australis,False,C\ Viladomat,4.8,3.88,ok,,medium
+0092640AR,Celtis australis,False,C\ Rocafort,5.15,4.19,ok,,medium
+0092641AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,41.82,no_facade,9.2,check
+0092642AR,Platanus × acerifolia,True,C\ Manso,5.02,4.34,ok,,medium
+0092644AR,Celtis australis,False,C\ Floridablanca,4.95,4.59,ok,,medium
+0092645AR,Celtis australis,False,C\ Comte Borrell,4.78,3.96,ok,,medium
+0092646AR,Celtis australis,False,C\ Sepúlveda,5.44,4.25,ok,,medium
+0092647AR,Platanus × acerifolia,True,C\ Parlament,4.95,3.87,ok,,medium
+0092648AR,Celtis australis,False,C\ Tamarit,,15.36,median,4.55,check
+0092649AR,Celtis australis,False,C\ Tamarit,9.98,4.08,ok,,large
+0092650AR,Celtis australis,False,C\ Tamarit,5.25,5.03,ok,,medium
+0092651AR,Styphnolobium japonicum,False,C\ Aldana,7.61,5.65,ok,,large
+0092652AR,Koelreuteria paniculata 'Fastigiata',False,Av Mistral,,5.3,median,31.16,check
+0092654AR,Platanus × acerifolia,True,C\ Calàbria,4.83,4.25,ok,,medium
+0092655AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,14.14,median,9.08,check
+0092657AR,Platanus × acerifolia,True,C\ Floridablanca,4.86,4.47,ok,,medium
+0092658AR,Platanus × acerifolia,True,C\ Sepúlveda,12.84,4.11,ok,,large
+0092659AR,Prunus cerasifera 'Pissardii',False,Av Mistral,,16.78,median,12.27,check
+0092660AR,Styphnolobium japonicum,False,C\ Floridablanca,5.08,4.35,ok,,medium
+0092661AR,Celtis australis,False,C\ Sepúlveda,4.82,3.93,ok,,medium
+0092662AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,16.93,median,9.0,check
+0092663AR,Casuarina cunninghamiana,False,Pl Universitat,,37.77,no_facade,30.53,check
+0092664AR,Platanus × acerifolia,True,Av Paral·lel,7.92,7.3,ok,,large
+0092665AR,Celtis australis,False,C\ Sepúlveda,5.12,4.56,ok,,medium
+0092666AR,Robinia pseudoacacia,False,Av Mistral,,4.75,median,2.7,check
+0092667AR,Celtis australis,False,C\ Floridablanca,14.86,4.57,ok,,large
+0092668AR,Celtis australis,False,C\ Calàbria,4.85,4.04,ok,,medium
+0092669AR,Prunus cerasifera 'Pissardii',False,Av Mistral,,16.44,median,28.22,check
+0092670AR,Platanus × acerifolia,True,Av Paral·lel,7.94,7.13,ok,,large
+0092671AR,Celtis australis,False,C\ Floridablanca,5.15,4.46,ok,,medium
+0092672AR,Prunus cerasifera 'Pissardii',False,Av Mistral,,14.03,median,10.31,check
+0092673AR,Celtis australis,False,C\ Tamarit,5.01,4.29,ok,,medium
+0092674AR,Platanus × acerifolia,True,C\ Floridablanca,5.31,4.42,ok,,medium
+0092676AR,Casuarina cunninghamiana,False,Pl Universitat,,37.04,no_facade,,check
+0092677AR,Platanus × acerifolia,True,C\ Vilamarí,,17.84,median,5.49,check
+0092678AR,Platanus × acerifolia,True,Rda Sant Antoni,,15.87,no_kerb,,check
+0092679AR,Celtis australis,False,C\ Tamarit,4.38,3.26,ok,,medium
+0092680AR,Celtis australis,False,C\ Vilamarí,4.88,3.79,ok,,medium
+0092681AR,Koelreuteria paniculata 'Fastigiata',False,Av Mistral,,5.49,median,1.61,check
+0092682AR,Styphnolobium japonicum,False,C\ Sepúlveda,4.79,4.3,ok,,medium
+0092683AR,Celtis australis,False,C\ Tamarit,,4.09,no_kerb,,check
+0092684AR,Koelreuteria paniculata 'Fastigiata',False,Av Mistral,,5.28,median,31.16,check
+0092685AR,Cercis siliquastrum,False,C\ Marquès de Campo Sagrado,9.72,8.89,ok,,large
+0092686AR,Platanus × acerifolia,True,Rda Sant Pau,19.15,17.78,ok,,large
+0092687AR,Celtis australis,False,C\ Casanova,4.99,3.71,ok,,medium
+0092688AR,Melia azedarach,False,C\ Comte Borrell,9.25,4.28,ok,,large
+0092689AR,Celtis australis,False,C\ Viladomat,4.87,4.29,ok,,medium
+0092690AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,9.67,median,8.84,check
+0092691AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,13.29,median,9.32,check
+0092692AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,9.05,median,9.03,check
+0092693AR,Celtis australis,False,C\ Sepúlveda,4.79,4.06,ok,,medium
+0092694AR,Celtis australis,False,C\ Floridablanca,4.96,4.36,ok,,medium
+0092695AR,Celtis australis,False,C\ Rocafort,4.98,4.45,ok,,medium
+0092696AR,Platanus × acerifolia,True,C\ Sepúlveda,4.99,4.87,ok,,medium
+0092697AR,Platanus × acerifolia,True,C\ Comte d'Urgell,7.38,6.83,ok,,large
+0092698AR,Melia azedarach,False,C\ Floridablanca,3.7,4.67,ok,,medium
+0092700AR,Cercis siliquastrum,False,C\ Viladomat,4.85,4.17,ok,,medium
+0092701AR,Platanus × acerifolia,True,Av Paral·lel,7.81,7.22,ok,,large
+0092702AR,Celtis australis,False,C\ Viladomat,4.98,4.01,ok,,medium
+0092703AR,Pyrus calleryana 'Chanticleer',False,Av Mistral,,6.34,median,25.41,check
+0092704AR,Styphnolobium japonicum,False,C\ Sepúlveda,5.67,4.43,ok,,medium
+0092705AR,Platanus × acerifolia,True,C\ Parlament,4.79,4.24,ok,,medium
+0092706AR,Styphnolobium japonicum,False,C\ Sepúlveda,5.93,5.38,ok,,medium
+0092707AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,8.32,median,9.85,check
+0092708AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,8.77,median,9.08,check
+0092709AR,Platanus × acerifolia,True,Av Paral·lel,7.93,7.27,ok,,large
+0092710AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,16.04,median,33.49,check
+0092711AR,Celtis australis,False,C\ Aldana,4.69,4.01,ok,,medium
+0092712AR,Populus alba,False,Av Mistral,,6.02,median,17.19,check
+0092713AR,Celtis australis,False,C\ Sepúlveda,4.85,4.4,ok,,medium
+0092714AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,8.82,median,8.83,check
+0092715AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,8.93,median,,check
+0092716AR,Celtis australis,False,C\ Calàbria,4.85,3.87,ok,,medium
+0092717AR,Celtis australis,False,C\ Tamarit,13.02,4.51,ok,,large
+0092718AR,Parkinsonia aculeata,False,Pl Universitat,,43.24,no_facade,30.48,check
+0092719AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,8.46,median,,check
+0092720AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,15.99,median,8.81,check
+0092721AR,Celtis australis,False,C\ Aldana,4.93,4.26,ok,,medium
+0092722AR,Platanus × acerifolia,True,C\ Viladomat,4.97,4.53,ok,,medium
+0092723AR,Platanus × acerifolia,True,C\ Sepúlveda,4.43,3.66,ok,,medium
+0092724AR,Platanus × acerifolia,True,C\ Tamarit,6.21,5.48,ok,,large
+0092725AR,Platanus × acerifolia,True,C\ Casanova,4.85,4.45,ok,,medium
+0092727AR,Platanus × acerifolia,True,C\ Aldana,7.67,5.78,ok,,large
+0092728AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,8.51,median,,check
+0092729AR,Platanus × acerifolia,True,C\ Marquès de Campo Sagrado,16.67,5.86,ok,,large
+0092730AR,Platanus × acerifolia,True,C\ Sepúlveda,4.8,4.09,ok,,medium
+0092731AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,33.88,no_facade,9.14,check
+0092732AR,Celtis australis,False,C\ Sepúlveda,4.93,3.97,ok,,medium
+0092733AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,15.9,median,10.67,check
+0092735AR,Celtis australis,False,C\ Sepúlveda,5.01,4.1,ok,,medium
+0092736AR,Platanus × acerifolia,True,Av Paral·lel,7.92,7.14,ok,,large
+0092737AR,Celtis australis,False,C\ Floridablanca,4.81,3.8,ok,,medium
+0092738AR,Celtis australis,False,C\ Rocafort,4.67,3.7,ok,,medium
+0092739AR,Platanus × acerifolia,True,C\ Floridablanca,7.15,6.13,ok,,large
+0092740AR,Celtis australis,False,C\ Casanova,5.2,4.33,ok,,medium
+0092741AR,Celtis australis,False,C\ Muntaner,5.24,4.02,ok,,medium
+0092742AR,Platanus × acerifolia,True,C\ Aldana,9.83,5.17,ok,,large
+0092743AR,Celtis australis,False,C\ Parlament,4.85,4.02,ok,,medium
+0092744AR,Celtis australis,False,C\ Calàbria,,7.32,median,25.03,check
+0092745AR,Celtis australis,False,C\ Villarroel,4.78,4.05,ok,,medium
+0092746AR,Celtis australis,False,C\ Casanova,4.97,3.95,ok,,medium
+0092747AR,Prunus cerasifera 'Pissardii',False,Av Mistral,,19.11,median,24.6,check
+0092748AR,Celtis australis,False,C\ Aldana,4.97,4.47,ok,,medium
+0092749AR,Pyrus calleryana 'Chanticleer',False,Av Mistral,,9.28,median,31.54,check
+0092750AR,Styphnolobium japonicum,False,C\ Tamarit,20.08,5.15,ok,,large
+0092751AR,Celtis australis,False,C\ Sepúlveda,4.6,4.32,ok,,medium
+0092752AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,13.09,median,9.07,check
+0092753AR,Celtis australis,False,C\ Entença,4.83,4.37,ok,,medium
+0092754AR,Styphnolobium japonicum,False,C\ Tamarit,7.85,5.07,ok,,large
+0092755AR,Celtis australis,False,C\ Sepúlveda,4.93,4.27,ok,,medium
+0092757AR,Celtis australis,False,C\ Sepúlveda,4.87,4.77,ok,,medium
+0092758AR,Celtis australis,False,C\ Floridablanca,4.9,4.03,ok,,medium
+0092759AR,Casuarina cunninghamiana,False,Pl Universitat,,26.51,median,12.05,check
+0092760AR,Celtis australis,False,C\ Sepúlveda,5.19,4.06,ok,,medium
+0092762AR,Celtis australis,False,C\ Entença,4.79,4.55,ok,,medium
+0092763AR,Bauhinia variegata,False,C\ Calàbria,5.18,4.7,ok,,medium
+0092764AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,16.26,median,8.87,check
+0092765AR,Celtis australis,False,C\ Floridablanca,4.98,4.06,ok,,medium
+0092767AR,Robinia pseudoacacia,False,Av Mistral,,6.09,median,24.76,check
+0092768AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,15.71,median,24.67,check
+0092769AR,Melia azedarach,False,C\ Comte Borrell,4.98,4.26,ok,,medium
+0092770AR,Robinia pseudoacacia,False,Av Mistral,,4.81,median,28.19,check
+0092771AR,Styphnolobium japonicum,False,C\ Aldana,20.23,4.95,ok,,large
+0092773AR,Celtis australis,False,Pl Goya,,15.64,median,,check
+0092774AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,32.21,no_facade,9.4,check
+0092776AR,Platanus × acerifolia,True,C\ Entença,,17.68,median,,check
+0092777AR,Pyrus calleryana 'Chanticleer',False,Av Mistral,,6.68,median,12.66,check
+0092778AR,Platanus × acerifolia,True,Rda Sant Antoni,7.55,5.81,ok,,large
+0092779AR,Styphnolobium japonicum,False,C\ Floridablanca,4.69,3.96,ok,,medium
+0092780AR,Platanus × acerifolia,True,Av Paral·lel,9.57,7.14,ok,,large
+0092781AR,Celtis australis,False,C\ Tamarit,4.97,3.96,ok,,medium
+0092782AR,Platanus × acerifolia,True,C\ Parlament,4.9,4.04,ok,,medium
+0092783AR,Platanus × acerifolia,True,Av Paral·lel,8.0,7.16,ok,,large
+0092784AR,Platanus × acerifolia,True,C\ Marquès de Campo Sagrado,4.97,3.16,ok,,medium
+0092785AR,Catalpa bignonioides,False,C\ Tamarit,,15.44,median,2.32,check
+0092786AR,Celtis australis,False,C\ Marquès de Campo Sagrado,4.89,3.84,ok,,medium
+0092787AR,Styphnolobium japonicum,False,C\ Manso,4.79,4.31,ok,,medium
+0092788AR,Celtis australis,False,C\ Floridablanca,4.81,3.86,ok,,medium
+0092789AR,Quercus ilex,False,Pl Goya,,23.82,median,14.12,check
+0092790AR,Celtis australis,False,C\ Llança,5.27,4.52,ok,,medium
+0092791AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,15.9,median,33.65,check
+0092792AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,9.06,median,,check
+0092793AR,Koelreuteria paniculata 'Fastigiata',False,Av Mistral,,6.44,median,15.35,check
+0092794AR,Platanus × acerifolia,True,C\ Rocafort,,18.55,median,,check
+0092795AR,Celtis australis,False,C\ Floridablanca,5.17,4.47,ok,,medium
+0092798AR,Celtis australis,False,C\ Tamarit,,4.14,no_kerb,,check
+0092799AR,Celtis australis,False,C\ Rocafort,4.83,3.38,ok,,medium
+0092800AR,Platanus × acerifolia,True,C\ Floridablanca,5.35,4.59,ok,,medium
+0092802AR,Robinia pseudoacacia,False,Av Mistral,,5.58,median,1.66,check
+0092803AR,Styphnolobium japonicum,False,C\ Sepúlveda,5.35,4.36,ok,,medium
+0092805AR,Celtis australis,False,C\ Floridablanca,5.16,4.57,ok,,medium
+0092806AR,Celtis australis,False,C\ Floridablanca,5.11,4.45,ok,,medium
+0092807AR,Platanus × acerifolia,True,C\ Marquès de Campo Sagrado,10.01,5.82,ok,,large
+0092808AR,Platanus × acerifolia,True,C\ Tamarit,,3.31,no_kerb,,check
+0092809AR,Platanus × acerifolia,True,C\ Comte Borrell,9.01,4.33,ok,,large
+0092810AR,Celtis australis,False,C\ Comte Borrell,,4.21,median,7.09,check
+0092811AR,Celtis australis,False,C\ Calàbria,5.21,4.24,ok,,medium
+0092812AR,Celtis australis,False,C\ Vilamarí,6.19,4.82,ok,,large
+0092813AR,Platanus × acerifolia,True,C\ Vilamarí,,9.79,median,19.22,check
+0092815AR,Styphnolobium japonicum,False,C\ Sepúlveda,5.15,4.19,ok,,medium
+0092817AR,Platanus × acerifolia,True,C\ Manso,5.04,4.12,ok,,medium
+0092818AR,Celtis australis,False,C\ Sepúlveda,5.13,4.05,ok,,medium
+0092819AR,Platanus × acerifolia,True,C\ Floridablanca,4.89,4.49,ok,,medium
+0092820AR,Celtis australis,False,C\ Villarroel,4.82,4.04,ok,,medium
+0092821AR,Celtis australis,False,C\ Sepúlveda,4.88,4.37,ok,,medium
+0092822AR,Celtis australis,False,C\ Marquès de Campo Sagrado,4.98,3.94,ok,,medium
+0092823AR,Celtis australis,False,C\ Floridablanca,4.93,3.94,ok,,medium
+0092824AR,Celtis australis,False,C\ Floridablanca,4.91,3.94,ok,,medium
+0092825AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,9.18,median,9.32,check
+0092826AR,Celtis australis,False,C\ Floridablanca,5.11,4.48,ok,,medium
+0092827AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,37.22,no_facade,9.14,check
+0092828AR,Celtis australis,False,C\ Floridablanca,5.19,4.49,ok,,medium
+0092829AR,Celtis australis,False,C\ Villarroel,4.98,4.03,ok,,medium
+0092830AR,Platanus × acerifolia,True,C\ Tamarit,,14.46,median,2.31,check
+0092831AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,16.46,median,9.3,check
+0092832AR,Celtis australis,False,C\ Comte Borrell,5.09,4.2,ok,,medium
+0092833AR,Platanus × acerifolia,True,C\ Manso,5.06,4.62,ok,,medium
+0092834AR,Platanus × acerifolia,True,C\ Manso,4.68,4.37,ok,,medium
+0092835AR,Platanus × acerifolia,True,Pl Goya,,15.2,median,2.01,check
+0092836AR,Celtis australis,False,C\ Sepúlveda,5.16,4.33,ok,,medium
+0092837AR,Platanus × acerifolia,True,Av Paral·lel,7.78,6.8,ok,,large
+0092838AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,8.79,median,9.02,check
+0092839AR,Platanus × acerifolia,True,C\ Manso,5.02,4.57,ok,,medium
+0092840AR,Styphnolobium japonicum,False,C\ Floridablanca,5.17,3.75,ok,,medium
+0092841AR,Platanus × acerifolia,True,C\ Muntaner,5.08,4.14,ok,,medium
+0092843AR,Celtis australis,False,C\ Viladomat,4.64,4.36,ok,,medium
+0092846AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,16.18,median,,check
+0092847AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,9.11,median,9.23,check
+0092848AR,Koelreuteria paniculata 'Fastigiata',False,Av Mistral,,5.34,median,3.63,check
+0092849AR,Platanus × acerifolia,True,Av Paral·lel,7.84,7.04,ok,,large
+0092850AR,Celtis australis,False,C\ Entença,4.91,4.05,ok,,medium
+0092852AR,Platanus × acerifolia,True,Av Paral·lel,7.83,7.21,ok,,large
+0092853AR,Celtis australis,False,C\ Entença,4.89,3.91,ok,,medium
+0092854AR,Robinia pseudoacacia,False,Pl Goya,,15.42,median,25.64,check
+0092855AR,Platanus × acerifolia,True,Av Paral·lel,7.98,7.17,ok,,large
+0092856AR,Robinia pseudoacacia,False,Av Mistral,,6.28,median,27.67,check
+0092857AR,Platanus × acerifolia,True,C\ Manso,4.87,4.32,ok,,medium
+0092858AR,Celtis australis,False,C\ Sepúlveda,4.68,3.66,ok,,medium
+0092859AR,Styphnolobium japonicum,False,C\ Floridablanca,5.59,4.01,ok,,medium
+0092860AR,Celtis australis,False,C\ Villarroel,5.14,4.14,ok,,medium
+0092861AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,22.0,median,8.96,check
+0092862AR,Platanus × acerifolia,True,C\ Sepúlveda,6.09,5.54,ok,,large
+0092863AR,Celtis australis,False,C\ Rocafort,4.58,4.02,ok,,medium
+0092864AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,13.51,median,9.0,check
+0092865AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,16.06,median,9.0,check
+0092867AR,Populus alba 'Pyramidalis',False,Av Mistral,,7.25,median,27.64,check
+0092868AR,Styphnolobium japonicum,False,C\ Sepúlveda,5.12,3.93,ok,,medium
+0092869AR,Celtis australis,False,C\ Sepúlveda,5.2,4.66,ok,,medium
+0092871AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,16.44,median,13.76,check
+0092872AR,Tipuana tipu,False,Av Mistral,,21.93,median,34.51,check
+0092873AR,Platanus × acerifolia,True,C\ Floridablanca,6.16,5.64,ok,,large
+0092874AR,Celtis australis,False,C\ Floridablanca,4.7,4.46,ok,,medium
+0092875AR,Styphnolobium japonicum,False,C\ Tamarit,5.05,4.69,ok,,medium
+0092877AR,Platanus × acerifolia,True,C\ Floridablanca,,15.68,median,15.55,check
+0092878AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,8.77,median,8.79,check
+0092880AR,Celtis australis,False,C\ Parlament,4.67,4.1,ok,,medium
+0092881AR,Platanus × acerifolia,True,C\ Sepúlveda,4.95,4.24,ok,,medium
+0092882AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,19.31,median,9.03,check
+0092883AR,Celtis australis,False,C\ Tamarit,,3.83,no_kerb,,check
+0092884AR,Celtis australis,False,C\ Sepúlveda,4.95,4.27,ok,,medium
+0092885AR,Styphnolobium japonicum,False,C\ Parlament,5.0,3.84,ok,,medium
+0092886AR,Styphnolobium japonicum,False,C\ Floridablanca,,4.7,no_kerb,29.36,check
+0092887AR,Celtis australis,False,C\ Sepúlveda,4.69,3.94,ok,,medium
+0092889AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,9.1,median,9.33,check
+0092890AR,Platanus × acerifolia,True,C\ Tamarit,,4.04,median,2.3,check
+0092892AR,Celtis australis,False,C\ Floridablanca,4.96,4.05,ok,,medium
+0092893AR,Celtis australis,False,C\ Marquès de Campo Sagrado,4.88,4.02,ok,,medium
+0092895AR,Celtis australis,False,C\ Floridablanca,4.88,3.82,ok,,medium
+0092896AR,Platanus × acerifolia,True,C\ Rocafort,5.14,4.53,ok,,medium
+0092897AR,Celtis australis,False,C\ Floridablanca,4.89,4.61,ok,,medium
+0092898AR,Pyrus calleryana 'Chanticleer',False,Av Mistral,,6.47,median,30.88,check
+0092899AR,Platanus × acerifolia,True,C\ Manso,5.19,4.31,ok,,medium
+0092901AR,Celtis australis,False,C\ Entença,4.8,4.23,ok,,medium
+0092902AR,Celtis australis,False,C\ Viladomat,4.85,3.81,ok,,medium
+0092903AR,Grevillea robusta,False,C\ Muntaner,5.14,4.02,ok,,medium
+0092904AR,Celtis australis,False,C\ Floridablanca,5.7,4.64,ok,,medium
+0092905AR,Celtis australis,False,C\ Comte Borrell,5.01,4.11,ok,,medium
+0092906AR,Platanus × acerifolia,True,C\ Comte d'Urgell,7.16,6.63,ok,,large
+0092907AR,Celtis australis,False,C\ Entença,4.84,4.33,ok,,medium
+0092908AR,Celtis australis,False,C\ Sepúlveda,10.47,7.59,ok,,large
+0092911AR,Robinia pseudoacacia,False,Av Mistral,,16.58,median,1.62,check
+0092912AR,Celtis australis,False,C\ Rocafort,6.44,3.75,ok,,large
+0092914AR,Casuarina cunninghamiana,False,Pl Universitat,,28.38,median,9.76,check
+0092915AR,Platanus × acerifolia,True,C\ Tamarit,26.01,5.29,ok,,large
+0092916AR,Celtis australis,False,C\ Casanova,5.0,4.14,ok,,medium
+0092917AR,Styphnolobium japonicum,False,C\ Vilamarí,4.88,3.67,ok,,medium
+0092918AR,Styphnolobium japonicum,False,C\ Sepúlveda,5.01,4.0,ok,,medium
+0092919AR,Celtis australis,False,C\ Comte Borrell,,4.37,median,2.32,check
+0092920AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,8.65,median,,check
+0092921AR,Celtis australis,False,C\ Villarroel,4.96,4.0,ok,,medium
+0092922AR,Platanus × acerifolia,True,C\ Parlament,4.86,3.9,ok,,medium
+0092923AR,Platanus × acerifolia,True,C\ Muntaner,5.3,4.37,ok,,medium
+0092927AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,8.7,median,9.75,check
+0092929AR,Prunus cerasifera 'Pissardii',False,Av Mistral,,17.36,median,4.16,check
+0092930AR,Styphnolobium japonicum,False,C\ Entença,5.14,4.36,ok,,medium
+0092931AR,Styphnolobium japonicum,False,C\ Tamarit,13.91,4.05,ok,,large
+0092933AR,Platanus × acerifolia,True,C\ Tamarit,11.25,3.63,ok,,large
+0092934AR,Styphnolobium japonicum,False,C\ Sepúlveda,5.31,4.29,ok,,medium
+0092935AR,Platanus × acerifolia,True,C\ Viladomat,4.78,4.22,ok,,medium
+0092936AR,Styphnolobium japonicum,False,C\ Tamarit,,5.45,no_kerb,,check
+0092937AR,Robinia pseudoacacia,False,Av Mistral,,5.7,median,27.59,check
+0092938AR,Robinia pseudoacacia,False,Av Mistral,,26.09,median,1.59,check
+0092939AR,Platanus × acerifolia,True,C\ Comte Borrell,2.96,3.96,ok,,small
+0092940AR,Platanus × acerifolia,True,C\ Parlament,5.0,3.78,ok,,medium
+0092941AR,Celtis australis,False,C\ Entença,4.82,3.97,ok,,medium
+0092942AR,Celtis australis,False,C\ Viladomat,4.46,4.2,ok,,medium
+0092943AR,Platanus × acerifolia,True,Rda Sant Pau,7.53,6.48,ok,,large
+0092944AR,Celtis australis,False,C\ Comte Borrell,5.05,4.49,ok,,medium
+0092945AR,Celtis australis,False,C\ Floridablanca,4.95,4.5,ok,,medium
+0092946AR,Celtis australis,False,C\ Rocafort,4.87,4.25,ok,,medium
+0092947AR,Celtis australis,False,C\ Parlament,4.67,4.02,ok,,medium
+0092948AR,Populus alba 'Pyramidalis',False,Av Mistral,,7.29,median,28.11,check
+0092949AR,Platanus × acerifolia,True,C\ Parlament,4.88,4.67,ok,,medium
+0092951AR,Celtis australis,False,C\ Tamarit,4.88,4.7,ok,,medium
+0092952AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,16.11,median,8.68,check
+0092953AR,Celtis australis,False,C\ Floridablanca,4.91,4.13,ok,,medium
+0092954AR,Platanus × acerifolia,True,C\ Sepúlveda,4.78,4.26,ok,,medium
+0092955AR,Celtis australis,False,C\ Aldana,5.02,4.39,ok,,medium
+0092956AR,Celtis australis,False,C\ Comte Borrell,5.01,3.86,ok,,medium
+0092957AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,16.04,median,24.77,check
+0092958AR,Platanus × acerifolia,True,Av Paral·lel,7.93,7.12,ok,,large
+0092959AR,Celtis australis,False,C\ Marquès de Campo Sagrado,4.87,3.24,ok,,medium
+0092960AR,Celtis australis,False,C\ Manso,5.1,4.59,ok,,medium
+0092961AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,45.57,no_facade,9.19,check
+0092962AR,Celtis australis,False,C\ Sepúlveda,4.99,4.1,ok,,medium
+0092963AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,16.09,median,9.17,check
+0092964AR,Celtis australis,False,C\ Viladomat,5.01,4.0,ok,,medium
+0092965AR,Celtis australis,False,C\ Calàbria,5.07,4.45,ok,,medium
+0092966AR,Styphnolobium japonicum,False,C\ Floridablanca,4.91,3.95,ok,,medium
+0092967AR,Platanus × acerifolia,True,Rda Sant Pau,7.61,6.44,ok,,large
+0092968AR,Casuarina cunninghamiana,False,Pl Universitat,,44.85,no_facade,30.53,check
+0092969AR,Platanus × acerifolia,True,C\ Sepúlveda,4.43,3.99,ok,,medium
+0092970AR,Celtis australis,False,C\ Comte Borrell,5.04,4.23,ok,,medium
+0092971AR,Ulmus pumila,False,C\ Rocafort,4.75,4.32,ok,,medium
+0092972AR,Platanus × acerifolia,True,C\ Parlament,4.84,4.38,ok,,medium
+0092973AR,Celtis australis,False,C\ Floridablanca,4.97,4.35,ok,,medium
+0092974AR,Pyrus calleryana 'Chanticleer',False,Av Mistral,,5.79,median,31.58,check
+0092975AR,Celtis australis,False,C\ Tamarit,4.89,4.34,ok,,medium
+0092976AR,Pyrus calleryana 'Chanticleer',False,Av Mistral,,6.02,median,22.45,check
+0092978AR,Platanus × acerifolia,True,Av Paral·lel,7.9,7.04,ok,,large
+0092979AR,Celtis australis,False,C\ Parlament,4.64,3.96,ok,,medium
+0092980AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,16.25,median,9.55,check
+0092981AR,Celtis australis,False,C\ Calàbria,4.85,4.08,ok,,medium
+0092982AR,Celtis australis,False,C\ Floridablanca,11.6,5.45,ok,,large
+0092983AR,Styphnolobium japonicum,False,C\ Floridablanca,5.23,4.23,ok,,medium
+0092984AR,Celtis australis,False,C\ Floridablanca,4.9,4.47,ok,,medium
+0092985AR,Celtis australis,False,C\ Rocafort,4.65,4.07,ok,,medium
+0092986AR,Celtis australis,False,C\ Villarroel,4.71,3.95,ok,,medium
+0092987AR,Celtis australis,False,C\ Entença,5.04,4.1,ok,,medium
+0092990AR,Platanus × acerifolia,True,C\ Floridablanca,,15.97,median,25.63,check
+0092991AR,Platanus × acerifolia,True,Av Paral·lel,7.84,7.02,ok,,large
+0092992AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,9.05,median,,check
+0092994AR,Celtis australis,False,C\ Sepúlveda,4.71,4.33,ok,,medium
+0092995AR,Cercis siliquastrum,False,Ptge Pere Calders,3.41,3.25,ok,,small
+0092996AR,Celtis australis,False,C\ Villarroel,4.96,4.15,ok,,medium
+0092997AR,Casuarina cunninghamiana,False,Pl Universitat,,40.96,no_facade,30.53,check
+0092998AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,15.38,median,9.05,check
+0092999AR,Celtis australis,False,C\ Comte Borrell,,4.43,median,4.58,check
+0093000AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,23.44,median,22.48,check
+0093001AR,Platanus × acerifolia,True,C\ Floridablanca,,15.99,median,,check
+0093002AR,Styphnolobium japonicum,False,C\ Sepúlveda,5.18,4.25,ok,,medium
+0093003AR,Celtis australis,False,C\ Sepúlveda,4.79,3.73,ok,,medium
+0093004AR,Platanus × acerifolia,True,C\ Floridablanca,5.48,4.1,ok,,medium
+0093005AR,Platanus × acerifolia,True,C\ Parlament,14.91,4.11,ok,,large
+0093006AR,Celtis australis,False,C\ Sepúlveda,4.94,4.19,ok,,medium
+0093007AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,19.83,median,9.1,check
+0093010AR,Celtis australis,False,C\ Entença,4.83,4.35,ok,,medium
+0093011AR,Platanus × acerifolia,True,C\ Comte Borrell,9.27,4.14,ok,,large
+0093013AR,Platanus × acerifolia,True,C\ Tamarit,5.06,4.37,ok,,medium
+0093014AR,Celtis australis,False,C\ Tamarit,5.04,4.12,ok,,medium
+0093015AR,Celtis australis,False,C\ Manso,5.15,4.3,ok,,medium
+0093016AR,Robinia pseudoacacia,False,Av Mistral,,5.16,median,28.12,check
+0093018AR,Celtis australis,False,C\ Sepúlveda,4.84,4.71,ok,,medium
+0093019AR,Celtis australis,False,C\ Tamarit,,15.41,median,2.32,check
+0093020AR,Celtis australis,False,C\ Calàbria,4.92,3.86,ok,,medium
+0093021AR,Ulmus pumila,False,C\ Sepúlveda,5.06,4.8,ok,,medium
+0093022AR,Celtis australis,False,C\ Viladomat,4.84,4.03,ok,,medium
+0093023AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,16.11,median,33.69,check
+0093024AR,Platanus × acerifolia,True,C\ Calàbria,4.68,3.86,ok,,medium
+0093025AR,Celtis australis,False,C\ Vilamarí,4.84,3.87,ok,,medium
+0093027AR,Celtis australis,False,C\ Rocafort,4.99,4.36,ok,,medium
+0093028AR,Celtis australis,False,C\ Comte Borrell,5.0,4.12,ok,,medium
+0093030AR,Styphnolobium japonicum,False,C\ Floridablanca,5.02,4.2,ok,,medium
+0093031AR,Celtis australis,False,C\ Viladomat,5.07,4.49,ok,,medium
+0093032AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,9.16,median,,check
+0093033AR,Platanus × acerifolia,True,C\ Sepúlveda,5.07,4.3,ok,,medium
+0093034AR,Platanus × acerifolia,True,Rda Sant Pau,7.6,5.98,ok,,large
+0093035AR,Celtis australis,False,C\ Sepúlveda,4.9,4.22,ok,,medium
+0093036AR,Platanus × acerifolia,True,Rda Sant Pau,7.56,5.75,ok,,large
+0093037AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,9.32,median,9.15,check
+0093038AR,Platanus × acerifolia,True,C\ Sepúlveda,4.98,4.28,ok,,medium
+0093039AR,Celtis australis,False,C\ Sepúlveda,5.04,4.44,ok,,medium
+0093040AR,Celtis australis,False,C\ Viladomat,4.91,4.09,ok,,medium
+0093041AR,Celtis australis,False,C\ Comte Borrell,4.9,4.25,ok,,medium
+0093042AR,Celtis australis,False,C\ Entença,5.21,4.57,ok,,medium
+0093043AR,Styphnolobium japonicum,False,C\ Floridablanca,14.12,4.16,ok,,large
+0093044AR,Platanus × acerifolia,True,C\ Manso,4.77,3.93,ok,,medium
+0093045AR,Celtis australis,False,C\ Rocafort,4.91,4.23,ok,,medium
+0093046AR,Celtis australis,False,C\ Muntaner,5.16,3.77,ok,,medium
+0093047AR,Celtis australis,False,C\ Parlament,4.62,3.9,ok,,medium
+0093048AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,8.57,median,8.78,check
+0093049AR,Celtis australis,False,C\ Tamarit,3.51,4.1,ok,,medium
+0093050AR,Celtis australis,False,C\ Manso,5.21,4.12,ok,,medium
+0093051AR,Celtis australis,False,C\ Vilamarí,,15.92,median,24.79,check
+0093052AR,Parkinsonia aculeata,False,Pl Universitat,,51.36,no_facade,30.37,check
+0093053AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,16.1,median,8.79,check
+0093054AR,Platanus × acerifolia,True,C\ Sepúlveda,6.09,5.71,ok,,large
+0093055AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,9.36,median,9.13,check
+0093056AR,Robinia pseudoacacia,False,Av Mistral,,5.97,median,6.57,check
+0093057AR,Platanus × acerifolia,True,C\ Manso,5.15,4.68,ok,,medium
+0093058AR,Styphnolobium japonicum,False,C\ Manso,4.91,3.96,ok,,medium
+0093059AR,Celtis australis,False,C\ Floridablanca,5.1,4.35,ok,,medium
+0093060AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,8.76,median,8.92,check
+0093061AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,13.15,median,9.16,check
+0093062AR,Celtis australis,False,C\ Villarroel,4.97,4.18,ok,,medium
+0093063AR,Celtis australis,False,C\ Tamarit,,15.37,median,2.31,check
+0093064AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,16.29,median,9.75,check
+0093065AR,Celtis australis,False,C\ Floridablanca,5.25,4.66,ok,,medium
+0093066AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,8.5,median,24.81,check
+0093067AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,19.04,median,9.02,check
+0093068AR,Celtis australis,False,C\ Marquès de Campo Sagrado,4.97,3.89,ok,,medium
+0093069AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,33.89,no_facade,9.2,check
+0093070AR,Platanus × acerifolia,True,C\ Aldana,4.9,3.81,ok,,medium
+0093071AR,Platanus × acerifolia,True,Rda Sant Antoni,,6.6,no_kerb,,check
+0093072AR,Celtis australis,False,C\ Floridablanca,4.99,4.27,ok,,medium
+0093074AR,Celtis australis,False,C\ Sepúlveda,4.82,4.03,ok,,medium
+0093075AR,Platanus × acerifolia,True,C\ Vilamarí,,14.51,median,5.33,check
+0093077AR,Celtis australis,False,C\ Sepúlveda,4.71,3.92,ok,,medium
+0093078AR,Platanus × acerifolia,True,C\ Parlament,5.08,4.27,ok,,medium
+0093079AR,Platanus × acerifolia,True,Rda Sant Pau,7.49,6.56,ok,,large
+0093080AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,16.35,median,9.23,check
+0093082AR,Celtis australis,False,C\ Sepúlveda,5.33,4.36,ok,,medium
+0093083AR,Platanus × acerifolia,True,C\ Casanova,4.94,3.83,ok,,medium
+0093084AR,Celtis australis,False,C\ Floridablanca,5.13,4.43,ok,,medium
+0093085AR,Platanus × acerifolia,True,C\ Comte d'Urgell,7.47,6.29,ok,,large
+0093086AR,Celtis australis,False,C\ Sepúlveda,4.76,4.06,ok,,medium
+0093087AR,Platanus × acerifolia,True,C\ Comte d'Urgell,7.43,6.83,ok,,large
+0093088AR,Celtis australis,False,C\ Sepúlveda,5.51,4.41,ok,,medium
+0093089AR,Celtis australis,False,C\ Sepúlveda,5.32,4.28,ok,,medium
+0093090AR,Styphnolobium japonicum,False,C\ Floridablanca,19.46,3.16,ok,,large
+0093091AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,16.53,median,9.34,check
+0093092AR,Celtis australis,False,C\ Sepúlveda,4.96,4.53,ok,,medium
+0093093AR,Celtis australis,False,C\ Floridablanca,4.93,3.93,ok,,medium
+0093094AR,Celtis australis,False,C\ Rocafort,15.87,4.4,ok,,large
+0093095AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,12.7,median,9.17,check
+0093096AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,9.01,median,9.35,check
+0093097AR,Celtis australis,False,C\ Comte Borrell,4.88,4.08,ok,,medium
+0093098AR,Celtis australis,False,C\ Rocafort,4.91,4.49,ok,,medium
+0093099AR,Celtis australis,False,C\ Floridablanca,4.92,4.06,ok,,medium
+0093100AR,Platanus × acerifolia,True,C\ Comte d'Urgell,7.25,6.69,ok,,large
+0093101AR,Celtis australis,False,C\ Comte Borrell,5.05,4.14,ok,,medium
+0093102AR,Celtis australis,False,C\ Tamarit,4.85,3.8,ok,,medium
+0093103AR,Celtis australis,False,C\ Calàbria,4.92,4.18,ok,,medium
+0093104AR,Platanus × acerifolia,True,C\ Calàbria,5.03,4.55,ok,,medium
+0093106AR,Celtis australis,False,C\ Rocafort,4.87,4.36,ok,,medium
+0093107AR,Styphnolobium japonicum,False,Rda Sant Antoni,,15.28,no_kerb,,check
+0093108AR,Styphnolobium japonicum,False,C\ Sepúlveda,5.2,3.9,ok,,medium
+0093109AR,Celtis australis,False,C\ Calàbria,4.96,4.44,ok,,medium
+0093110AR,Platanus × acerifolia,True,Av Paral·lel,7.87,6.98,ok,,large
+0093111AR,Celtis australis,False,C\ Comte Borrell,3.1,4.07,ok,,small
+0093112AR,Platanus × acerifolia,True,C\ Manso,6.12,5.04,ok,,large
+0093113AR,Populus alba,False,Av Mistral,,6.37,median,28.46,check
+0093114AR,Celtis australis,False,C\ Viladomat,4.73,3.71,ok,,medium
+0093115AR,Jacaranda mimosifolia,False,C\ Vilamarí,5.11,4.01,ok,,medium
+0093117AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,16.21,median,11.55,check
+0093120AR,Celtis australis,False,C\ Floridablanca,,6.36,median,1.91,check
+0093121AR,Celtis australis,False,C\ Comte Borrell,4.78,3.9,ok,,medium
+0093122AR,Platanus × acerifolia,True,Rda Sant Antoni,,6.57,no_kerb,,check
+0093124AR,Celtis australis,False,C\ Calàbria,4.95,4.52,ok,,medium
+0093125AR,Platanus × acerifolia,True,C\ Marquès de Campo Sagrado,9.97,6.87,ok,,large
+0093127AR,Robinia pseudoacacia,False,C\ Muntaner,5.17,4.07,ok,,medium
+0093128AR,Platanus × acerifolia,True,C\ Parlament,5.3,4.6,ok,,medium
+0093129AR,Celtis australis,False,C\ Comte Borrell,5.02,3.98,ok,,medium
+0093130AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,8.73,median,9.21,check
+0093131AR,Bauhinia variegata,False,C\ Calàbria,5.03,4.69,ok,,medium
+0093133AR,Celtis australis,False,C\ Comte Borrell,4.97,4.25,ok,,medium
+0093134AR,Styphnolobium japonicum,False,C\ Floridablanca,5.5,4.85,ok,,medium
+0093135AR,Celtis australis,False,C\ Sepúlveda,,15.65,median,19.32,check
+0093136AR,Celtis australis,False,C\ Viladomat,5.12,4.07,ok,,medium
+0093137AR,Celtis australis,False,C\ Villarroel,4.93,4.09,ok,,medium
+0093138AR,Celtis australis,False,C\ Tamarit,10.07,4.13,ok,,large
+0093141AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,9.19,median,,check
+0093142AR,Celtis australis,False,C\ Sepúlveda,4.91,3.92,ok,,medium
+0093144AR,Platanus × acerifolia,True,C\ Calàbria,5.42,3.92,ok,,medium
+0093146AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,16.44,median,8.9,check
+0093147AR,Celtis australis,False,C\ Rocafort,4.87,4.43,ok,,medium
+0093148AR,Cercis siliquastrum,False,Ptge Pere Calders,3.4,3.22,ok,,small
+0093150AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,23.24,median,10.44,check
+0093151AR,Platanus × acerifolia,True,C\ Villarroel,4.93,4.49,ok,,medium
+0093155AR,Celtis australis,False,C\ Parlament,4.85,3.93,ok,,medium
+0093156AR,Celtis australis,False,C\ Aldana,4.9,4.2,ok,,medium
+0093157AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,8.55,median,24.63,check
+0093158AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,16.4,median,9.26,check
+0093159AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,47.29,no_facade,9.12,check
+0093160AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,16.41,median,9.33,check
+0093161AR,Styphnolobium japonicum,False,C\ Sepúlveda,10.87,4.2,ok,,large
+0093162AR,Platanus × acerifolia,True,C\ Marquès de Campo Sagrado,12.5,6.06,ok,,large
+0093163AR,Koelreuteria paniculata,False,Av Mistral,,5.5,median,16.4,check
+0093164AR,Celtis australis,False,C\ Comte Borrell,,4.43,median,4.55,check
+0093165AR,Celtis australis,False,C\ Floridablanca,4.89,4.32,ok,,medium
+0093167AR,Melia azedarach,False,C\ Manso,5.11,3.95,ok,,medium
+0093168AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,15.94,median,33.61,check
+0093169AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,41.4,no_facade,9.19,check
+0093170AR,Platanus × acerifolia,True,C\ Comte d'Urgell,7.41,6.99,ok,,large
+0093172AR,Platanus × acerifolia,True,C\ Marquès de Campo Sagrado,4.92,3.23,ok,,medium
+0093174AR,Platanus × acerifolia,True,C\ Tamarit,4.77,4.0,ok,,medium
+0093175AR,Koelreuteria paniculata 'Fastigiata',False,Av Mistral,,6.38,median,27.79,check
+0093176AR,Celtis australis,False,C\ Manso,5.09,4.05,ok,,medium
+0093177AR,Celtis australis,False,C\ Floridablanca,4.81,3.89,ok,,medium
+0093178AR,Platanus × acerifolia,True,C\ Tamarit,,3.56,no_kerb,,check
+0093179AR,Platanus × acerifolia,True,C\ Comte d'Urgell,7.34,6.8,ok,,large
+0093180AR,Platanus × acerifolia,True,C\ Floridablanca,10.41,5.93,ok,,large
+0093181AR,Celtis australis,False,C\ Casanova,4.92,3.69,ok,,medium
+0093182AR,Platanus × acerifolia,True,C\ Calàbria,5.55,4.72,ok,,medium
+0093183AR,Celtis australis,False,C\ Villarroel,5.45,4.72,ok,,medium
+0093184AR,Platanus × acerifolia,True,C\ Floridablanca,5.0,4.29,ok,,medium
+0093185AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,16.08,median,9.6,check
+0093186AR,Celtis australis,False,C\ Entença,4.98,4.13,ok,,medium
+0093187AR,Celtis australis,False,C\ Tamarit,,3.85,no_kerb,,check
+0093188AR,Celtis australis,False,C\ Floridablanca,4.95,4.54,ok,,medium
+0093189AR,Platanus × acerifolia,True,C\ Comte Borrell,5.12,4.94,ok,,medium
+0093190AR,Casuarina cunninghamiana,False,Pl Universitat,,25.57,median,,check
+0093191AR,Celtis australis,False,C\ Floridablanca,5.19,4.54,ok,,medium
+0093192AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,22.23,median,9.0,check
+0093193AR,Platanus × acerifolia,True,C\ Tamarit,5.08,4.47,ok,,medium
+0093195AR,Celtis australis,False,C\ Tamarit,4.86,4.44,ok,,medium
+0093196AR,Celtis australis,False,C\ Floridablanca,5.05,4.27,ok,,medium
+0093197AR,Koelreuteria paniculata 'Fastigiata',False,Av Mistral,,6.69,median,28.21,check
+0093198AR,Celtis australis,False,C\ Tamarit,,4.52,no_kerb,,check
+0093199AR,Platanus × acerifolia,True,Av Paral·lel,7.88,7.14,ok,,large
+0093200AR,Platanus × acerifolia,True,C\ Manso,4.93,4.17,ok,,medium
+0093201AR,Celtis australis,False,C\ Sepúlveda,4.96,4.0,ok,,medium
+0093202AR,Celtis australis,False,C\ Villarroel,5.05,4.01,ok,,medium
+0093203AR,Styphnolobium japonicum,False,C\ Tamarit,4.94,4.01,ok,,medium
+0093204AR,Casuarina cunninghamiana,False,Pl Universitat,,26.48,median,6.52,check
+0093205AR,Platanus × acerifolia,True,C\ Rocafort,,7.4,median,14.45,check
+0093206AR,Pyrus calleryana 'Chanticleer',False,Av Mistral,,8.64,median,28.14,check
+0093207AR,Catalpa bignonioides,False,C\ Tamarit,10.04,4.49,ok,,large
+0093208AR,Casuarina cunninghamiana,False,Pl Universitat,,16.83,median,18.56,check
+0093209AR,Celtis australis,False,C\ Sepúlveda,4.71,4.38,ok,,medium
+0093210AR,Celtis australis,False,C\ Floridablanca,4.85,4.06,ok,,medium
+0093211AR,Celtis australis,False,C\ Villarroel,4.93,4.46,ok,,medium
+0093212AR,Celtis australis,False,C\ Sepúlveda,5.11,4.26,ok,,medium
+0093213AR,Celtis australis,False,C\ Floridablanca,4.9,3.93,ok,,medium
+0093214AR,Platanus × acerifolia,True,C\ Marquès de Campo Sagrado,10.07,7.02,ok,,large
+0093215AR,Platanus × acerifolia,True,Av Paral·lel,7.73,7.12,ok,,large
+0093217AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,9.07,median,9.66,check
+0093219AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,16.52,median,9.37,check
+0093220AR,Celtis australis,False,C\ Comte Borrell,5.0,3.73,ok,,medium
+0093221AR,Celtis australis,False,C\ Comte Borrell,3.06,3.8,ok,,small
+0093222AR,Celtis australis,False,C\ Calàbria,4.45,3.43,ok,,medium
+0093223AR,Celtis australis,False,C\ Floridablanca,,17.44,median,18.19,check
+0093224AR,Celtis australis,False,C\ Manso,4.84,3.94,ok,,medium
+0093226AR,Styphnolobium japonicum,False,C\ Sepúlveda,4.85,3.81,ok,,medium
+0093227AR,Celtis australis,False,C\ Comte Borrell,4.99,4.14,ok,,medium
+0093228AR,Celtis australis,False,C\ Villarroel,4.98,4.11,ok,,medium
+0093229AR,Platanus × acerifolia,True,C\ Parlament,4.9,4.3,ok,,medium
+0093230AR,Celtis australis,False,C\ Floridablanca,4.91,4.58,ok,,medium
+0093231AR,Celtis australis,False,C\ Entença,4.93,3.71,ok,,medium
+0093232AR,Celtis australis,False,C\ Tamarit,5.08,4.64,ok,,medium
+0093233AR,Celtis australis,False,C\ Viladomat,4.83,4.0,ok,,medium
+0093235AR,Platanus × acerifolia,True,C\ Comte Borrell,4.85,4.04,ok,,medium
+0093236AR,Celtis australis,False,C\ Viladomat,4.81,4.23,ok,,medium
+0093237AR,Platanus × acerifolia,True,C\ Sepúlveda,,18.1,median,19.57,check
+0093238AR,Celtis australis,False,C\ Aldana,4.79,4.3,ok,,medium
+0093239AR,Platanus × acerifolia,True,Av Paral·lel,7.9,7.27,ok,,large
+0093241AR,Celtis australis,False,C\ Viladomat,5.04,3.85,ok,,medium
+0093242AR,Celtis australis,False,C\ Sepúlveda,5.2,4.67,ok,,medium
+0093243AR,Platanus × acerifolia,True,C\ Floridablanca,8.05,6.51,ok,,large
+0093244AR,Celtis australis,False,C\ Comte Borrell,,4.25,median,7.08,check
+0093245AR,Celtis australis,False,C\ Vilamarí,4.92,4.24,ok,,medium
+0093246AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,16.01,median,33.56,check
+0093247AR,Celtis australis,False,C\ Tamarit,,4.21,median,2.28,check
+0093248AR,Platanus × acerifolia,True,C\ Calàbria,4.68,3.99,ok,,medium
+0093250AR,Styphnolobium japonicum,False,C\ Tamarit,7.89,3.93,ok,,large
+0093251AR,Styphnolobium japonicum,False,C\ Tamarit,5.01,4.29,ok,,medium
+0093252AR,Celtis australis,False,C\ Casanova,4.92,3.92,ok,,medium
+0093253AR,Platanus × acerifolia,True,Av Paral·lel,7.94,7.2,ok,,large
+0093254AR,Celtis australis,False,C\ Vilamarí,4.91,4.0,ok,,medium
+0093255AR,Celtis australis,False,C\ Viladomat,4.87,4.17,ok,,medium
+0093256AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,16.09,median,9.12,check
+0093257AR,Celtis australis,False,C\ Floridablanca,4.88,4.07,ok,,medium
+0093258AR,Platanus × acerifolia,True,C\ Marquès de Campo Sagrado,9.86,5.57,ok,,large
+0093259AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,16.06,median,33.65,check
+0093260AR,Celtis australis,False,C\ Aldana,4.89,4.46,ok,,medium
+0093261AR,Celtis australis,False,C\ Viladomat,4.83,3.94,ok,,medium
+0093262AR,Platanus × acerifolia,True,Av Paral·lel,16.82,9.62,ok,,large
+0093263AR,Grevillea robusta,False,Pl Universitat,5.4,4.66,ok,,medium
+0093264AR,Celtis australis,False,C\ Rocafort,4.68,4.0,ok,,medium
+0093266AR,Prunus cerasifera 'Pissardii',False,Av Mistral,,10.45,median,31.45,check
+0093267AR,Platanus × acerifolia,True,C\ Sepúlveda,5.1,4.39,ok,,medium
+0093268AR,Platanus × acerifolia,True,Rda Sant Pau,15.25,6.28,ok,,large
+0093269AR,Platanus × acerifolia,True,C\ Calàbria,,18.24,median,,check
+0093271AR,Platanus × acerifolia,True,C\ Comte d'Urgell,7.21,6.94,ok,,large
+0093272AR,Platanus × acerifolia,True,C\ Floridablanca,,9.54,median,5.34,check
+0093273AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,37.68,no_facade,9.09,check
+0093275AR,Celtis australis,False,C\ Viladomat,4.74,4.2,ok,,medium
+0093277AR,Casuarina cunninghamiana,False,Pl Universitat,,17.93,median,,check
+0093278AR,Platanus × acerifolia,True,C\ Manso,6.93,5.16,ok,,large
+0093279AR,Celtis australis,False,C\ Tamarit,5.02,3.89,ok,,medium
+0093280AR,Platanus × acerifolia,True,Av Paral·lel,7.92,7.27,ok,,large
+0093281AR,Celtis australis,False,C\ Parlament,4.89,4.09,ok,,medium
+0093282AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,15.82,median,33.67,check
+0093283AR,Celtis australis,False,C\ Floridablanca,5.01,4.12,ok,,medium
+0093284AR,Prunus cerasifera 'Pissardii',False,Av Mistral,,17.17,median,28.14,check
+0093285AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,8.67,median,8.8,check
+0093286AR,Celtis australis,False,C\ Tamarit,4.87,3.96,ok,,medium
+0093287AR,Celtis australis,False,C\ Casanova,5.09,4.25,ok,,medium
+0093288AR,Celtis australis,False,Rda Sant Antoni,,16.45,median,,check
+0093290AR,Celtis australis,False,C\ Floridablanca,4.93,4.04,ok,,medium
+0093291AR,Celtis australis,False,C\ Marquès de Campo Sagrado,4.83,3.78,ok,,medium
+0093292AR,Celtis australis,False,C\ Rocafort,5.2,3.77,ok,,medium
+0093293AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,19.14,median,8.53,check
+0093294AR,Brachychiton populneus,False,C\ Casanova,4.91,3.95,ok,,medium
+0093296AR,Celtis australis,False,C\ Floridablanca,4.87,3.93,ok,,medium
+0093297AR,Celtis australis,False,C\ Manso,5.11,4.12,ok,,medium
+0093299AR,Celtis australis,False,C\ Comte Borrell,4.77,3.82,ok,,medium
+0093300AR,Celtis australis,False,C\ Marquès de Campo Sagrado,9.89,6.69,ok,,large
+0093301AR,Platanus × acerifolia,True,C\ Floridablanca,7.59,7.5,ok,,large
+0093303AR,Platanus × acerifolia,True,C\ Calàbria,14.65,13.17,ok,,large
+0093304AR,Styphnolobium japonicum,False,C\ Sepúlveda,5.13,4.23,ok,,medium
+0093305AR,Celtis australis,False,C\ Tamarit,,4.03,no_kerb,,check
+0093307AR,Melia azedarach,False,C\ Comte Borrell,4.9,4.18,ok,,medium
+0093308AR,Cercis siliquastrum,False,C\ Marquès de Campo Sagrado,9.77,9.22,ok,,large
+0093309AR,Celtis australis,False,C\ Viladomat,4.97,3.88,ok,,medium
+0093310AR,Celtis australis,False,C\ Sepúlveda,4.78,3.84,ok,,medium
+0093312AR,Platanus × acerifolia,True,C\ Floridablanca,12.34,4.29,ok,,large
+0093313AR,Celtis australis,False,C\ Parlament,4.91,4.24,ok,,medium
+0093314AR,Celtis australis,False,C\ Sepúlveda,5.01,4.27,ok,,medium
+0093315AR,Styphnolobium japonicum,False,C\ Floridablanca,5.4,4.14,ok,,medium
+0093316AR,Celtis australis,False,C\ Entença,4.89,4.18,ok,,medium
+0093317AR,Celtis australis,False,C\ Marquès de Campo Sagrado,4.89,4.8,ok,,medium
+0093318AR,Platanus × acerifolia,True,C\ Sepúlveda,,15.61,median,4.9,check
+0093319AR,Platanus × acerifolia,True,C\ Parlament,4.98,3.95,ok,,medium
+0093320AR,Celtis australis,False,C\ Viladomat,5.02,3.84,ok,,medium
+0093321AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,12.63,median,9.12,check
+0093322AR,Celtis australis,False,C\ Aldana,16.16,13.61,ok,,large
+0093324AR,Celtis australis,False,C\ Tamarit,,15.39,median,4.58,check
+0093325AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,16.01,median,9.2,check
+0093326AR,Celtis australis,False,C\ Viladomat,4.76,4.32,ok,,medium
+0093327AR,Celtis australis,False,C\ Viladomat,4.8,3.82,ok,,medium
+0093328AR,Platanus × acerifolia,True,C\ Sepúlveda,5.03,3.95,ok,,medium
+0093329AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,18.68,median,9.32,check
+0093330AR,Celtis australis,False,C\ Casanova,4.44,4.38,ok,,medium
+0093331AR,Platanus × acerifolia,True,C\ Tamarit,,15.43,median,7.11,check
+0093332AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,9.56,median,8.9,check
+0093333AR,Platanus × acerifolia,True,C\ Marquès de Campo Sagrado,4.93,4.19,ok,,medium
+0093334AR,Ulmus pumila,False,C\ Rocafort,4.78,4.48,ok,,medium
+0093336AR,Platanus × acerifolia,True,C\ Parlament,4.99,3.83,ok,,medium
+0093337AR,Celtis australis,False,C\ Viladomat,4.91,3.13,ok,,medium
+0093338AR,Styphnolobium japonicum,False,C\ Manso,4.72,4.18,ok,,medium
+0093339AR,Platanus × acerifolia,True,C\ Floridablanca,,15.81,median,21.21,check
+0093340AR,Celtis australis,False,C\ Viladomat,4.77,4.21,ok,,medium
+0093341AR,Celtis australis,False,C\ Sepúlveda,5.15,4.43,ok,,medium
+0093342AR,Celtis australis,False,C\ Parlament,4.82,4.1,ok,,medium
+0093343AR,Celtis australis,False,C\ Viladomat,4.87,4.01,ok,,medium
+0093344AR,Styphnolobium japonicum,False,C\ Floridablanca,5.54,4.73,ok,,medium
+0093345AR,Styphnolobium japonicum,False,C\ Marquès de Campo Sagrado,7.11,5.24,ok,,large
+0093346AR,Celtis australis,False,C\ Floridablanca,5.1,4.28,ok,,medium
+0093347AR,Platanus × acerifolia,True,Rda Sant Pau,7.54,6.56,ok,,large
+0093348AR,Celtis australis,False,C\ Sepúlveda,5.15,4.42,ok,,medium
+0093349AR,Tipuana tipu,False,Av Mistral,,19.56,median,32.83,check
+0093350AR,Celtis australis,False,C\ Comte Borrell,,4.46,median,7.1,check
+0093351AR,Celtis australis,False,C\ Parlament,4.67,3.97,ok,,medium
+0093352AR,Celtis australis,False,C\ Parlament,4.85,4.17,ok,,medium
+0093353AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,19.46,median,,check
+0093354AR,Robinia pseudoacacia,False,Av Mistral,,12.12,median,1.64,check
+0093356AR,Celtis australis,False,C\ Calàbria,4.75,3.96,ok,,medium
+0093358AR,Platanus × acerifolia,True,Av Paral·lel,,21.43,median,8.13,check
+0093359AR,Celtis australis,False,C\ Calàbria,4.32,3.25,ok,,medium
+0093360AR,Platanus × acerifolia,True,C\ Comte Borrell,5.06,4.68,ok,,medium
+0093361AR,Styphnolobium japonicum,False,C\ Floridablanca,5.94,4.89,ok,,medium
+0093364AR,Populus alba,False,Av Mistral,,6.27,median,9.86,check
+0093365AR,Celtis australis,False,C\ Tamarit,4.82,4.05,ok,,medium
+0093366AR,Celtis australis,False,C\ Sepúlveda,4.94,4.3,ok,,medium
+0093367AR,Celtis australis,False,C\ Sepúlveda,5.26,4.33,ok,,medium
+0093368AR,Celtis australis,False,C\ Sepúlveda,4.97,4.25,ok,,medium
+0093369AR,Platanus × acerifolia,True,C\ Villarroel,5.08,4.17,ok,,medium
+0093370AR,Celtis australis,False,C\ Comte Borrell,10.21,4.22,ok,,large
+0093371AR,Platanus × acerifolia,True,C\ Rocafort,,13.03,median,29.18,check
+0093372AR,Celtis australis,False,C\ Marquès de Campo Sagrado,4.81,3.72,ok,,medium
+0093373AR,Platanus × acerifolia,True,Av Paral·lel,7.99,7.11,ok,,large
+0093374AR,Styphnolobium japonicum,False,C\ Floridablanca,5.2,4.24,ok,,medium
+0093375AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,9.36,median,,check
+0093376AR,Robinia pseudoacacia,False,Av Mistral,,21.63,median,28.82,check
+0093377AR,Celtis australis,False,C\ Villarroel,4.84,4.04,ok,,medium
+0093379AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,19.03,median,9.1,check
+0093380AR,Celtis australis,False,C\ Tamarit,4.42,3.1,ok,,medium
+0093381AR,Styphnolobium japonicum,False,C\ Parlament,4.95,4.31,ok,,medium
+0093383AR,Platanus × acerifolia,True,C\ Manso,4.97,3.89,ok,,medium
+0093385AR,Styphnolobium japonicum,False,C\ Sepúlveda,5.04,3.36,ok,,medium
+0093386AR,Styphnolobium japonicum,False,C\ Sepúlveda,5.74,4.67,ok,,medium
+0093387AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,11.42,median,,check
+0093388AR,Celtis australis,False,C\ Sepúlveda,4.79,4.08,ok,,medium
+0093389AR,Platanus × acerifolia,True,C\ Casanova,4.8,4.24,ok,,medium
+0093391AR,Platanus × acerifolia,True,Av Paral·lel,10.99,10.16,ok,,large
+0093392AR,Celtis australis,False,C\ Manso,4.85,4.18,ok,,medium
+0093393AR,Platanus × acerifolia,True,C\ Muntaner,5.13,4.0,ok,,medium
+0093395AR,Melia azedarach,False,C\ Rocafort,4.84,2.43,ok,,medium
+0093396AR,Celtis australis,False,C\ Viladomat,4.92,3.92,ok,,medium
+0093397AR,Casuarina cunninghamiana,False,Pl Universitat,,30.36,no_facade,30.46,check
+0093398AR,Platanus × acerifolia,True,C\ Parlament,4.83,4.36,ok,,medium
+0093399AR,Celtis australis,False,C\ Sepúlveda,5.18,4.39,ok,,medium
+0093400AR,Celtis australis,False,C\ Comte Borrell,9.26,3.99,ok,,large
+0093401AR,Celtis australis,False,C\ Tamarit,4.91,4.2,ok,,medium
+0093402AR,Celtis australis,False,C\ Sepúlveda,4.94,4.28,ok,,medium
+0093403AR,Casuarina cunninghamiana,False,Pl Universitat,,26.19,median,30.43,check
+0093404AR,Platanus × acerifolia,True,C\ Marquès de Campo Sagrado,4.86,4.05,ok,,medium
+0093405AR,Celtis australis,False,C\ Sepúlveda,4.91,4.2,ok,,medium
+0093406AR,Styphnolobium japonicum,False,C\ Floridablanca,5.19,4.12,ok,,medium
+0093407AR,Platanus × acerifolia,True,C\ Tamarit,4.96,3.92,ok,,medium
+0093408AR,Celtis australis,False,C\ Parlament,4.79,4.16,ok,,medium
+0093409AR,Platanus × acerifolia,True,C\ Parlament,7.38,5.12,ok,,large
+0093411AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,8.62,median,9.61,check
+0093413AR,Robinia pseudoacacia,False,Av Mistral,,5.95,median,27.67,check
+0093414AR,Brachychiton populneus,False,C\ Casanova,4.81,4.36,ok,,medium
+0093415AR,Platanus × acerifolia,True,C\ Viladomat,4.84,4.27,ok,,medium
+0093416AR,Platanus × acerifolia,True,C\ Manso,5.02,4.44,ok,,medium
+0093417AR,Platanus × acerifolia,True,C\ Parlament,4.77,4.01,ok,,medium
+0093419AR,Celtis australis,False,C\ Tamarit,,4.4,median,4.56,check
+0093420AR,Celtis australis,False,C\ Villarroel,5.04,4.3,ok,,medium
+0093422AR,Platanus × acerifolia,True,Rda Sant Antoni,7.25,6.42,ok,,large
+0093423AR,Celtis australis,False,C\ Sepúlveda,5.08,4.33,ok,,medium
+0093424AR,Celtis australis,False,C\ Comte Borrell,4.92,3.99,ok,,medium
+0093425AR,Celtis australis,False,C\ Muntaner,5.09,3.79,ok,,medium
+0093426AR,Celtis australis,False,C\ Floridablanca,5.22,4.59,ok,,medium
+0093427AR,Celtis australis,False,C\ Viladomat,4.8,3.91,ok,,medium
+0093428AR,Platanus × acerifolia,True,C\ Manso,12.91,5.59,ok,,large
+0093429AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,47.62,no_facade,9.2,check
+0093430AR,Celtis australis,False,C\ Comte Borrell,10.24,4.29,ok,,large
+0093431AR,Platanus × acerifolia,True,C\ Parlament,4.96,3.96,ok,,medium
+0093432AR,Celtis australis,False,C\ Villarroel,5.17,4.03,ok,,medium
+0093433AR,Celtis australis,False,C\ Sepúlveda,5.28,4.47,ok,,medium
+0093434AR,Platanus × acerifolia,True,C\ Comte d'Urgell,7.06,6.84,ok,,large
+0093435AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,8.37,median,9.01,check
+0093436AR,Celtis australis,False,C\ Calàbria,4.73,3.75,ok,,medium
+0093437AR,Platanus × acerifolia,True,C\ Floridablanca,5.24,4.73,ok,,medium
+0093438AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,8.5,median,,check
+0093440AR,Celtis australis,False,C\ Casanova,5.22,4.4,ok,,medium
+0093441AR,Celtis australis,False,C\ Sepúlveda,4.7,4.0,ok,,medium
+0093442AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,16.49,median,9.28,check
+0093443AR,Platanus × acerifolia,True,Rda Sant Pau,7.6,6.4,ok,,large
+0093444AR,Styphnolobium japonicum,False,C\ Calàbria,4.89,3.93,ok,,medium
+0093445AR,Platanus × acerifolia,True,C\ Manso,20.8,5.6,ok,,large
+0093447AR,Styphnolobium japonicum,False,C\ Sepúlveda,4.92,3.89,ok,,medium
+0093448AR,Celtis australis,False,C\ Vilamarí,4.95,3.99,ok,,medium
+0093450AR,Platanus × acerifolia,True,Pl Universitat,,17.73,median,18.67,check
+0093451AR,Styphnolobium japonicum,False,C\ Tamarit,5.16,4.99,ok,,medium
+0093452AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,16.03,median,9.02,check
+0093454AR,Platanus × acerifolia,True,C\ Comte d'Urgell,7.4,6.42,ok,,large
+0093455AR,Styphnolobium japonicum,False,C\ Floridablanca,5.17,3.82,ok,,medium
+0093456AR,Celtis australis,False,C\ Sepúlveda,5.19,4.0,ok,,medium
+0093457AR,Platanus × acerifolia,True,C\ Viladomat,5.05,4.75,ok,,medium
+0093459AR,Celtis australis,False,C\ Tamarit,3.53,4.23,ok,,medium
+0093460AR,Celtis australis,False,C\ Sepúlveda,4.87,4.17,ok,,medium
+0093461AR,Celtis australis,False,C\ Tamarit,4.91,3.23,ok,,medium
+0093462AR,Platanus × acerifolia,True,C\ Manso,4.9,4.21,ok,,medium
+0093463AR,Celtis australis,False,C\ Tamarit,4.91,4.53,ok,,medium
+0093464AR,Platanus × acerifolia,True,C\ Vilamarí,,18.1,median,,check
+0093465AR,Ulmus pumila,False,C\ Rocafort,4.75,3.02,ok,,medium
+0093466AR,Celtis australis,False,C\ Comte Borrell,4.84,3.96,ok,,medium
+0093467AR,Celtis australis,False,C\ Parlament,5.13,4.32,ok,,medium
+0093468AR,Platanus × acerifolia,True,Av Paral·lel,7.88,7.1,ok,,large
+0093469AR,Styphnolobium japonicum,False,C\ Floridablanca,4.59,3.25,ok,,medium
+0093470AR,Platanus × acerifolia,True,C\ Sepúlveda,4.96,4.01,ok,,medium
+0093471AR,Platanus × acerifolia,True,C\ Floridablanca,5.31,4.61,ok,,medium
+0093472AR,Platanus × acerifolia,True,Rda Sant Antoni,7.54,6.07,ok,,large
+0093473AR,Koelreuteria paniculata 'Fastigiata',False,Av Mistral,,6.36,median,27.83,check
+0093474AR,Celtis australis,False,C\ Sepúlveda,5.41,4.81,ok,,medium
+0093475AR,Celtis australis,False,C\ Viladomat,4.84,3.73,ok,,medium
+0093476AR,Melia azedarach,False,C\ Villarroel,4.81,4.0,ok,,medium
+0093477AR,Celtis australis,False,C\ Sepúlveda,5.23,4.38,ok,,medium
+0093478AR,Celtis australis,False,C\ Manso,5.07,4.1,ok,,medium
+0093479AR,Jacaranda mimosifolia,False,C\ Vilamarí,4.76,4.03,ok,,medium
+0093481AR,Celtis australis,False,C\ Tamarit,,3.97,no_kerb,,check
+0093482AR,Platanus × acerifolia,True,C\ Comte d'Urgell,7.35,6.48,ok,,large
+0093483AR,Celtis australis,False,C\ Entença,4.83,4.14,ok,,medium
+0093484AR,Celtis australis,False,Rda Sant Antoni,,15.99,median,,check
+0093485AR,Celtis australis,False,C\ Entença,4.87,4.06,ok,,medium
+0093486AR,Celtis australis,False,C\ Casanova,4.96,4.03,ok,,medium
+0093487AR,Platanus × acerifolia,True,Av Paral·lel,7.98,7.37,ok,,large
+0093488AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,19.1,median,9.08,check
+0093489AR,Platanus × acerifolia,True,C\ Calàbria,8.23,6.94,ok,,large
+0093491AR,Celtis australis,False,C\ Entença,5.08,4.14,ok,,medium
+0093492AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,16.03,median,9.08,check
+0093493AR,Platanus × acerifolia,True,Av Paral·lel,7.79,7.3,ok,,large
+0093494AR,Celtis australis,False,C\ Sepúlveda,5.13,4.21,ok,,medium
+0093496AR,Celtis australis,False,C\ Calàbria,7.52,6.56,ok,,large
+0093497AR,Koelreuteria paniculata 'Fastigiata',False,Av Mistral,,7.78,median,,check
+0093498AR,Platanus × acerifolia,True,C\ Floridablanca,4.89,4.47,ok,,medium
+0093499AR,Platanus × acerifolia,True,C\ Parlament,19.09,5.14,ok,,large
+0093500AR,Celtis australis,False,C\ Villarroel,4.96,4.16,ok,,medium
+0093501AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,16.13,median,24.8,check
+0093502AR,Platanus × acerifolia,True,Av Paral·lel,7.87,7.01,ok,,large
+0093504AR,Platanus × acerifolia,True,C\ Comte d'Urgell,7.19,6.23,ok,,large
+0093505AR,Platanus × acerifolia,True,C\ Tamarit,5.19,4.38,ok,,medium
+0093506AR,Platanus × acerifolia,True,C\ Comte d'Urgell,7.33,6.36,ok,,large
+0093507AR,Robinia pseudoacacia,False,Av Mistral,,6.4,median,19.14,check
+0093508AR,Platanus × acerifolia,True,C\ Muntaner,5.1,3.86,ok,,medium
+0093510AR,Platanus × acerifolia,True,C\ Calàbria,8.73,7.76,ok,,large
+0093511AR,Platanus × acerifolia,True,C\ Manso,4.28,5.03,ok,,medium
+0093512AR,Celtis australis,False,C\ Tamarit,5.06,4.35,ok,,medium
+0093514AR,Platanus × acerifolia,True,Rda Sant Pau,7.6,5.8,ok,,large
+0093517AR,Celtis australis,False,C\ Floridablanca,5.09,4.32,ok,,medium
+0093518AR,Celtis australis,False,C\ Tamarit,13.01,10.02,ok,,large
+0093519AR,Cercis siliquastrum,False,C\ Marquès de Campo Sagrado,9.87,9.03,ok,,large
+0093521AR,Celtis australis,False,C\ Tamarit,4.86,4.03,ok,,medium
+0093523AR,Celtis australis,False,C\ Rocafort,5.16,4.57,ok,,medium
+0093524AR,Platanus × acerifolia,True,C\ Comte Borrell,5.2,4.69,ok,,medium
+0093525AR,Platanus × acerifolia,True,C\ Tamarit,,15.51,median,7.1,check
+0093526AR,Celtis australis,False,C\ Sepúlveda,5.21,4.68,ok,,medium
+0093527AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,15.91,median,33.75,check
+0093529AR,Styphnolobium japonicum,False,C\ Comte Borrell,,29.92,median,33.14,check
+0093530AR,Celtis australis,False,C\ Comte Borrell,5.02,4.06,ok,,medium
+0093531AR,Populus alba,False,Av Mistral,,6.75,median,14.63,check
+0093532AR,Platanus × acerifolia,True,C\ Manso,14.06,4.5,ok,,large
+0093533AR,Celtis australis,False,C\ Calàbria,4.91,4.44,ok,,medium
+0093535AR,Celtis australis,False,C\ Tamarit,5.01,4.67,ok,,medium
+0093536AR,Celtis australis,False,C\ Muntaner,5.02,4.02,ok,,medium
+0093537AR,Platanus × acerifolia,True,Rda Sant Pau,8.47,8.18,ok,,large
+0093539AR,Platanus × acerifolia,True,C\ Calàbria,4.9,4.62,ok,,medium
+0093540AR,Parkinsonia aculeata,False,Pl Universitat,,19.71,median,17.06,check
+0093541AR,Jacaranda mimosifolia,False,C\ Vilamarí,5.07,3.97,ok,,medium
+0093542AR,Styphnolobium japonicum,False,C\ Tamarit,4.77,3.9,ok,,medium
+0093543AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,8.81,median,9.31,check
+0093544AR,Styphnolobium japonicum,False,C\ Marquès de Campo Sagrado,7.15,5.59,ok,,large
+0093545AR,Celtis australis,False,C\ Viladomat,5.08,3.94,ok,,medium
+0093546AR,Melia azedarach,False,C\ Comte Borrell,,4.26,median,2.33,check
+0093547AR,Celtis australis,False,C\ Viladomat,4.84,4.25,ok,,medium
+0093548AR,Celtis australis,False,C\ Rocafort,5.04,4.71,ok,,medium
+0093549AR,Celtis australis,False,C\ Viladomat,5.1,3.89,ok,,medium
+0093550AR,Celtis australis,False,C\ Parlament,4.67,3.94,ok,,medium
+0093551AR,Celtis australis,False,C\ Muntaner,5.21,3.73,ok,,medium
+0093553AR,Platanus × acerifolia,True,Rda Sant Pau,7.54,6.35,ok,,large
+0093554AR,Platanus × acerifolia,True,Av Paral·lel,7.82,7.06,ok,,large
+0093555AR,Platanus × acerifolia,True,C\ Comte d'Urgell,7.32,7.05,ok,,large
+0093556AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,16.06,median,9.13,check
+0093557AR,Platanus × acerifolia,True,C\ Calàbria,,13.02,median,28.08,check
+0093558AR,Koelreuteria paniculata 'Fastigiata',False,Av Mistral,,6.25,median,11.15,check
+0093559AR,Celtis australis,False,C\ Parlament,4.78,4.2,ok,,medium
+0093560AR,Prunus cerasifera 'Pissardii',False,Av Mistral,,10.65,median,30.5,check
+0093561AR,Celtis australis,False,C\ Rocafort,5.1,3.87,ok,,medium
+0093562AR,Celtis australis,False,C\ Viladomat,4.54,4.37,ok,,medium
+0093563AR,Platanus × acerifolia,True,C\ Sepúlveda,4.82,3.97,ok,,medium
+0093564AR,Platanus × acerifolia,True,C\ Tamarit,4.96,4.54,ok,,medium
+0093566AR,Celtis australis,False,C\ Floridablanca,5.13,4.46,ok,,medium
+0093567AR,Platanus × acerifolia,True,C\ Manso,5.02,4.36,ok,,medium
+0093568AR,Celtis australis,False,C\ Villarroel,4.7,4.04,ok,,medium
+0093569AR,Styphnolobium japonicum,False,C\ Tamarit,14.58,6.54,ok,,large
+0093570AR,Celtis australis,False,C\ Tamarit,12.63,4.39,ok,,large
+0093571AR,Quercus ilex,False,Pl Goya,,24.21,median,19.14,check
+0093572AR,Platanus × acerifolia,True,C\ Sepúlveda,4.99,4.98,ok,,medium
+0093574AR,Celtis australis,False,C\ Comte Borrell,3.01,4.0,ok,,small
+0093575AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,16.55,median,24.93,check
+0093576AR,Platanus × acerifolia,True,C\ Floridablanca,11.57,10.47,ok,,large
+0093578AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,15.98,median,,check
+0093579AR,Celtis australis,False,C\ Villarroel,7.65,5.91,ok,,large
+0093580AR,Platanus × acerifolia,True,C\ Tamarit,3.67,4.55,ok,,medium
+0093581AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,8.61,median,9.44,check
+0093582AR,Celtis australis,False,C\ Calàbria,4.81,4.06,ok,,medium
+0093583AR,Celtis australis,False,C\ Floridablanca,5.48,4.08,ok,,medium
+0093584AR,Cercis siliquastrum,False,C\ Marquès de Campo Sagrado,9.88,9.35,ok,,large
+0093585AR,Celtis australis,False,C\ Calàbria,4.85,3.91,ok,,medium
+0093586AR,Celtis australis,False,C\ Comte Borrell,,4.44,median,4.57,check
+0093589AR,Platanus × acerifolia,True,C\ Sepúlveda,5.26,3.63,ok,,medium
+0093590AR,Platanus × acerifolia,True,C\ Calàbria,,18.67,median,5.25,check
+0093591AR,Celtis australis,False,C\ Viladomat,4.49,4.21,ok,,medium
+0093592AR,Melia azedarach,False,C\ Manso,4.87,4.04,ok,,medium
+0093593AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,18.93,median,,check
+0093594AR,Robinia pseudoacacia,False,Av Mistral,,5.1,median,28.12,check
+0093595AR,Platanus × acerifolia,True,Rda Sant Pau,7.55,6.36,ok,,large
+0093596AR,Celtis australis,False,C\ Tamarit,3.51,4.14,ok,,medium
+0093597AR,Koelreuteria paniculata 'Fastigiata',False,Av Mistral,,6.49,median,27.76,check
+0093598AR,Celtis australis,False,C\ Llança,4.63,3.72,ok,,medium
+0093599AR,Celtis australis,False,C\ Calàbria,5.4,4.23,ok,,medium
+0093600AR,Platanus × acerifolia,True,Av Paral·lel,7.86,7.2,ok,,large
+0093601AR,Platanus × acerifolia,True,C\ Floridablanca,5.88,5.02,ok,,medium
+0093603AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,15.75,median,9.13,check
+0093604AR,Platanus × acerifolia,True,C\ Floridablanca,,15.8,median,,check
+0093605AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,19.22,median,9.09,check
+0093606AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,16.03,median,24.68,check
+0093607AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,9.12,median,,check
+0093608AR,Celtis australis,False,C\ Sepúlveda,4.66,3.68,ok,,medium
+0093609AR,Styphnolobium japonicum,False,C\ Muntaner,5.52,4.54,ok,,medium
+0093610AR,Platanus × acerifolia,True,Av Paral·lel,7.98,7.3,ok,,large
+0093611AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,17.16,median,23.87,check
+0093612AR,Celtis australis,False,C\ Floridablanca,5.09,4.51,ok,,medium
+0093613AR,Celtis australis,False,C\ Sepúlveda,4.93,4.41,ok,,medium
+0093614AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,8.88,median,9.39,check
+0093615AR,Celtis australis,False,C\ Viladomat,18.3,5.41,ok,,large
+0093617AR,Styphnolobium japonicum,False,C\ Sepúlveda,4.87,4.0,ok,,medium
+0093618AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,21.67,median,11.07,check
+0093619AR,Prunus cerasifera 'Pissardii',False,Av Mistral,,15.78,median,24.69,check
+0093621AR,Celtis australis,False,C\ Entença,5.09,4.08,ok,,medium
+0093623AR,Celtis australis,False,C\ Tamarit,4.86,4.28,ok,,medium
+0093624AR,Celtis australis,False,C\ Tamarit,,4.14,median,4.52,check
+0093628AR,Platanus × acerifolia,True,C\ Comte d'Urgell,7.52,7.62,ok,,large
+0093629AR,Casuarina cunninghamiana,False,Pl Universitat,,40.17,no_facade,,check
+0093630AR,Platanus × acerifolia,True,C\ Sepúlveda,4.86,4.3,ok,,medium
+0093631AR,Celtis australis,False,C\ Calàbria,4.85,4.09,ok,,medium
+0093632AR,Pyrus calleryana 'Chanticleer',False,Ptge Pere Calders,,3.17,no_kerb,,check
+0093633AR,Celtis australis,False,C\ Aldana,4.69,4.08,ok,,medium
+0093634AR,Pyrus calleryana 'Chanticleer',False,Av Mistral,,7.43,median,,check
+0093635AR,Platanus × acerifolia,True,C\ Sepúlveda,4.66,4.21,ok,,medium
+0093637AR,Celtis australis,False,C\ Tamarit,5.03,3.1,ok,,medium
+0093638AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,13.87,median,9.01,check
+0093639AR,Pyrus calleryana 'Chanticleer',False,Av Mistral,,5.41,median,4.0,check
+0093640AR,Platanus × acerifolia,True,C\ Manso,5.02,4.38,ok,,medium
+0093641AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,8.98,median,9.23,check
+0093642AR,Platanus × acerifolia,True,C\ Parlament,5.03,4.25,ok,,medium
+0093643AR,Platanus × acerifolia,True,C\ Comte d'Urgell,7.97,8.18,ok,,large
+0093644AR,Platanus × acerifolia,True,Av Paral·lel,7.86,6.98,ok,,large
+0093645AR,Platanus × acerifolia,True,C\ Floridablanca,5.33,4.46,ok,,medium
+0093646AR,Celtis australis,False,C\ Comte Borrell,,4.18,median,4.54,check
+0093647AR,Platanus × acerifolia,True,Rda Sant Antoni,7.55,6.73,ok,,large
+0093649AR,Celtis australis,False,C\ Tamarit,,4.72,median,6.25,check
+0093650AR,Robinia pseudoacacia,False,Av Mistral,,4.94,median,,check
+0093651AR,Celtis australis,False,C\ Sepúlveda,4.98,4.35,ok,,medium
+0093652AR,Celtis australis,False,C\ Floridablanca,4.87,4.04,ok,,medium
+0093653AR,Celtis australis,False,C\ Entença,7.87,6.7,ok,,large
+0093655AR,Platanus × acerifolia,True,C\ Comte d'Urgell,6.99,6.03,ok,,large
+0093656AR,Celtis australis,False,C\ Parlament,4.9,4.11,ok,,medium
+0093657AR,Platanus × acerifolia,True,C\ Vilamarí,4.92,4.1,ok,,medium
+0093658AR,Melia azedarach,False,C\ Comte Borrell,10.18,5.54,ok,,large
+0093659AR,Styphnolobium japonicum,False,C\ Floridablanca,5.19,3.84,ok,,medium
+0093660AR,Platanus × acerifolia,True,C\ Vilamarí,5.29,4.47,ok,,medium
+0093661AR,Platanus × acerifolia,True,C\ Comte Borrell,,4.11,median,7.08,check
+0093662AR,Platanus × acerifolia,True,C\ Comte d'Urgell,7.52,7.43,ok,,large
+0093663AR,Celtis australis,False,C\ Comte Borrell,5.01,3.81,ok,,medium
+0093664AR,Celtis australis,False,C\ Manso,4.88,4.06,ok,,medium
+0093665AR,Celtis australis,False,C\ Entença,5.11,4.04,ok,,medium
+0093666AR,Celtis australis,False,C\ Sepúlveda,5.02,4.19,ok,,medium
+0093667AR,Cercis siliquastrum,False,C\ Marquès de Campo Sagrado,10.21,9.29,ok,,large
+0093668AR,Platanus × acerifolia,True,C\ Aldana,4.69,4.26,ok,,medium
+0093669AR,Platanus × acerifolia,True,Av Paral·lel,7.89,6.99,ok,,large
+0093670AR,Platanus × acerifolia,True,Rda Sant Pau,13.86,12.47,ok,,large
+0093671AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,22.65,median,9.08,check
+0093672AR,Styphnolobium japonicum,False,C\ Manso,5.03,4.54,ok,,medium
+0093673AR,Melia azedarach,False,C\ Comte Borrell,9.26,3.83,ok,,large
+0093674AR,Celtis australis,False,C\ Parlament,4.84,4.11,ok,,medium
+0093675AR,Catalpa bignonioides,False,C\ Tamarit,10.13,4.58,ok,,large
+0093676AR,Celtis australis,False,C\ Casanova,4.63,4.33,ok,,medium
+0093677AR,Platanus × acerifolia,True,C\ Manso,6.07,5.1,ok,,large
+0093678AR,Tipuana tipu,False,Pl Goya,,21.67,median,26.25,check
+0093679AR,Platanus × acerifolia,True,C\ Tamarit,,3.88,no_kerb,,check
+0093680AR,Celtis australis,False,C\ Sepúlveda,4.94,4.51,ok,,medium
+0093681AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,16.07,median,9.0,check
+0093682AR,Styphnolobium japonicum,False,C\ Floridablanca,5.0,4.56,ok,,medium
+0093683AR,Populus alba,False,Av Mistral,,5.96,median,27.75,check
+0093684AR,Celtis australis,False,C\ Floridablanca,4.65,4.0,ok,,medium
+0093685AR,Platanus × acerifolia,True,Rda Sant Antoni,,6.6,no_kerb,,check
+0093686AR,Platanus × acerifolia,True,C\ Tamarit,15.29,5.35,ok,,large
+0093688AR,Celtis australis,False,C\ Sepúlveda,4.99,4.21,ok,,medium
+0093689AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,8.94,median,9.05,check
+0093690AR,Platanus × acerifolia,True,C\ Casanova,5.03,3.62,ok,,medium
+0093693AR,Celtis australis,False,C\ Calàbria,4.94,4.06,ok,,medium
+0093694AR,Platanus × acerifolia,True,C\ Muntaner,5.1,3.92,ok,,medium
+0093695AR,Celtis australis,False,C\ Floridablanca,4.87,4.05,ok,,medium
+0093696AR,Celtis australis,False,C\ Tamarit,,3.3,no_kerb,,check
+0093697AR,Robinia pseudoacacia,False,Pl Goya,,15.53,median,13.5,check
+0093698AR,Prunus cerasifera 'Pissardii',False,Av Mistral,,16.48,median,27.8,check
+0093699AR,Platanus × acerifolia,True,C\ Calàbria,,16.53,median,,check
+0093700AR,Platanus × acerifolia,True,C\ Floridablanca,7.71,5.16,ok,,large
+0093701AR,Celtis australis,False,C\ Tamarit,4.84,4.09,ok,,medium
+0093702AR,Platanus × acerifolia,True,Av Paral·lel,7.86,7.18,ok,,large
+0093703AR,Platanus × acerifolia,True,C\ Parlament,7.41,5.16,ok,,large
+0093704AR,Platanus × acerifolia,True,C\ Manso,5.0,4.21,ok,,medium
+0093705AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,8.57,median,9.1,check
+0093706AR,Celtis australis,False,C\ Rocafort,4.82,4.02,ok,,medium
+0093707AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,16.28,median,9.27,check
+0093709AR,Celtis australis,False,C\ Sepúlveda,4.94,4.41,ok,,medium
+0093710AR,Platanus × acerifolia,True,Av Paral·lel,,14.52,median,8.1,check
+0093712AR,Celtis australis,False,C\ Rocafort,4.78,3.48,ok,,medium
+0093713AR,Platanus × acerifolia,True,Av Paral·lel,7.95,7.28,ok,,large
+0093715AR,Prunus cerasifera 'Pissardii',False,Av Mistral,,10.58,median,34.06,check
+0093716AR,Celtis australis,False,C\ Entença,4.86,4.24,ok,,medium
+0093717AR,Platanus × acerifolia,True,Pl Universitat,5.4,4.73,ok,,medium
+0093718AR,Platanus × acerifolia,True,C\ Floridablanca,5.22,4.49,ok,,medium
+0093719AR,Celtis australis,False,C\ Floridablanca,5.56,4.82,ok,,medium
+0093720AR,Platanus × acerifolia,True,C\ Floridablanca,5.1,4.36,ok,,medium
+0093721AR,Celtis australis,False,C\ Marquès de Campo Sagrado,7.0,5.61,ok,,large
+0093722AR,Styphnolobium japonicum,False,C\ Vilamarí,4.9,3.83,ok,,medium
+0093724AR,Platanus × acerifolia,True,Av Paral·lel,8.0,7.17,ok,,large
+0093725AR,Platanus × acerifolia,True,C\ Villarroel,5.15,4.21,ok,,medium
+0093726AR,Platanus × acerifolia,True,C\ Tamarit,22.66,5.59,ok,,large
+0093727AR,Platanus × acerifolia,True,C\ Calàbria,5.06,4.48,ok,,medium
+0093728AR,Celtis australis,False,C\ Comte Borrell,4.86,4.32,ok,,medium
+0093729AR,Platanus × acerifolia,True,C\ Manso,5.29,4.97,ok,,medium
+0093730AR,Celtis australis,False,C\ Entença,5.04,4.04,ok,,medium
+0093731AR,Celtis australis,False,C\ Entença,4.8,4.06,ok,,medium
+0093732AR,Celtis australis,False,C\ Manso,4.85,4.12,ok,,medium
+0093734AR,Platanus × acerifolia,True,C\ Entença,5.26,4.82,ok,,medium
+0093735AR,Celtis australis,False,C\ Rocafort,4.71,4.16,ok,,medium
+0093737AR,Celtis australis,False,C\ Viladomat,4.95,4.46,ok,,medium
+0093738AR,Celtis australis,False,C\ Viladomat,5.04,4.29,ok,,medium
+0093740AR,Platanus × acerifolia,True,Rda Sant Antoni,,6.29,no_kerb,,check
+0093741AR,Celtis australis,False,C\ Comte Borrell,9.19,4.32,ok,,large
+0093743AR,Styphnolobium japonicum,False,C\ Marquès de Campo Sagrado,10.68,6.11,ok,,large
+0093744AR,Celtis australis,False,C\ Villarroel,4.78,3.96,ok,,medium
+0093745AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,18.57,median,9.18,check
+0093746AR,Celtis australis,False,C\ Vilamarí,5.05,3.73,ok,,medium
+0093747AR,Platanus × acerifolia,True,Av Paral·lel,7.94,7.3,ok,,large
+0093748AR,Platanus × acerifolia,True,Av Paral·lel,7.93,7.28,ok,,large
+0093749AR,Platanus × acerifolia,True,C\ Calàbria,4.92,4.63,ok,,medium
+0093751AR,Celtis australis,False,C\ Floridablanca,4.97,4.27,ok,,medium
+0093752AR,Celtis australis,False,C\ Entença,4.83,4.18,ok,,medium
+0093753AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,8.77,median,,check
+0093756AR,Platanus × acerifolia,True,C\ Sepúlveda,4.95,3.99,ok,,medium
+0093757AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,15.76,median,24.63,check
+0093758AR,Platanus × acerifolia,True,C\ Comte Borrell,23.96,19.61,ok,,large
+0093759AR,Celtis australis,False,C\ Sepúlveda,4.86,4.2,ok,,medium
+0093760AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,8.66,median,9.17,check
+0093761AR,Platanus × acerifolia,True,Av Paral·lel,7.96,7.1,ok,,large
+0093762AR,Celtis australis,False,C\ Floridablanca,5.17,4.6,ok,,medium
+0093763AR,Celtis australis,False,C\ Comte Borrell,5.01,4.24,ok,,medium
+0093764AR,Celtis australis,False,C\ Manso,4.93,4.5,ok,,medium
+0093765AR,Celtis australis,False,C\ Entença,4.81,4.07,ok,,medium
+0093766AR,Celtis australis,False,C\ Llança,5.06,4.41,ok,,medium
+0093768AR,Melia azedarach,False,C\ Manso,5.1,4.04,ok,,medium
+0093770AR,Celtis australis,False,C\ Floridablanca,4.99,4.19,ok,,medium
+0093771AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,16.34,median,9.34,check
+0093773AR,Platanus × acerifolia,True,C\ Sepúlveda,4.79,4.17,ok,,medium
+0093775AR,Platanus × acerifolia,True,C\ Manso,4.87,4.11,ok,,medium
+0093776AR,Platanus × acerifolia,True,Av Paral·lel,7.99,7.15,ok,,large
+0093777AR,Platanus × acerifolia,True,C\ Floridablanca,7.93,6.55,ok,,large
+0093778AR,Platanus × acerifolia,True,C\ Marquès de Campo Sagrado,8.36,6.56,ok,,large
+0093779AR,Celtis australis,False,C\ Rocafort,4.95,4.42,ok,,medium
+0093780AR,Celtis australis,False,C\ Tamarit,,15.54,median,4.57,check
+0093781AR,Celtis australis,False,C\ Vilamarí,5.0,4.56,ok,,medium
+0093782AR,Casuarina cunninghamiana,False,Pl Universitat,,41.06,no_facade,30.53,check
+0093783AR,Platanus × acerifolia,True,Av Paral·lel,7.98,7.36,ok,,large
+0093784AR,Celtis australis,False,C\ Floridablanca,4.91,3.79,ok,,medium
+0093785AR,Celtis australis,False,C\ Tamarit,4.89,3.72,ok,,medium
+0093786AR,Robinia pseudoacacia,False,Av Mistral,,6.41,median,16.84,check
+0093788AR,Platanus × acerifolia,True,Rda Sant Pau,7.51,6.33,ok,,large
+0093789AR,Celtis australis,False,C\ Sepúlveda,5.0,4.44,ok,,medium
+0093790AR,Celtis australis,False,C\ Sepúlveda,4.83,4.32,ok,,medium
+0093791AR,Platanus × acerifolia,True,C\ Viladomat,4.77,3.42,ok,,medium
+0093792AR,Platanus × acerifolia,True,Av Paral·lel,7.94,7.25,ok,,large
+0093793AR,Celtis australis,False,C\ Vilamarí,4.85,3.77,ok,,medium
+0093794AR,Platanus × acerifolia,True,C\ Sepúlveda,4.99,5.05,ok,,medium
+0093795AR,Prunus cerasifera 'Pissardii',False,Av Mistral,,9.67,median,33.88,check
+0093796AR,Cupressus sempervirens,False,C\ Marquès de Campo Sagrado,20.24,8.9,ok,,large
+0093797AR,Celtis australis,False,C\ Manso,4.96,4.13,ok,,medium
+0093798AR,Platanus × acerifolia,True,C\ Entença,5.13,4.2,ok,,medium
+0093799AR,Platanus × acerifolia,True,Av Paral·lel,7.9,7.07,ok,,large
+0093801AR,Celtis australis,False,C\ Parlament,4.85,4.36,ok,,medium
+0093803AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,15.96,median,33.63,check
+0093804AR,Celtis australis,False,C\ Sepúlveda,4.92,4.42,ok,,medium
+0093805AR,Celtis australis,False,C\ Floridablanca,4.84,3.99,ok,,medium
+0093806AR,Platanus × acerifolia,True,Rda Sant Pau,7.41,6.39,ok,,large
+0093807AR,Ginkgo biloba 'Fastigiata',False,C\ Floridablanca,,8.73,median,4.43,check
+0093808AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,16.43,median,8.8,check
+0093809AR,Platanus × acerifolia,True,C\ Viladomat,19.45,5.45,ok,,large
+0093810AR,Prunus cerasifera 'Pissardii',False,Av Mistral,,21.68,median,37.29,check
+0093812AR,Styphnolobium japonicum,False,C\ Sepúlveda,6.04,5.09,ok,,large
+0093815AR,Celtis australis,False,C\ Manso,4.97,4.56,ok,,medium
+0093816AR,Platanus × acerifolia,True,C\ Comte Borrell,4.89,3.84,ok,,medium
+0093818AR,Celtis australis,False,C\ Manso,13.05,4.38,ok,,large
+0093819AR,Celtis australis,False,C\ Sepúlveda,4.9,3.98,ok,,medium
+0093820AR,Platanus × acerifolia,True,C\ Manso,4.98,4.27,ok,,medium
+0093821AR,Platanus × acerifolia,True,Rda Sant Pau,7.57,6.4,ok,,large
+0093822AR,Celtis australis,False,C\ Floridablanca,4.96,3.92,ok,,medium
+0093823AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,9.15,median,,check
+0093825AR,Koelreuteria paniculata 'Fastigiata',False,Av Mistral,,5.4,median,28.08,check
+0093826AR,Platanus × acerifolia,True,C\ Marquès de Campo Sagrado,9.76,6.33,ok,,large
+0093829AR,Celtis australis,False,C\ Marquès de Campo Sagrado,4.97,4.04,ok,,medium
+0093830AR,Celtis australis,False,C\ Manso,5.04,4.13,ok,,medium
+0093831AR,Celtis australis,False,C\ Parlament,5.13,4.28,ok,,medium
+0093835AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,13.25,median,8.53,check
+0093836AR,Celtis australis,False,C\ Rocafort,,18.57,median,,check
+0093837AR,Celtis australis,False,C\ Tamarit,4.87,4.29,ok,,medium
+0093838AR,Styphnolobium japonicum,False,C\ Sepúlveda,5.25,4.24,ok,,medium
+0093839AR,Platanus × acerifolia,True,C\ Comte Borrell,6.79,5.53,ok,,large
+0093840AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,19.01,median,9.07,check
+0093841AR,Celtis australis,False,C\ Villarroel,5.07,5.05,ok,,medium
+0093842AR,Celtis australis,False,C\ Comte Borrell,4.8,3.92,ok,,medium
+0093843AR,Celtis australis,False,C\ Vilamarí,4.79,3.74,ok,,medium
+0093844AR,Celtis australis,False,C\ Villarroel,4.74,3.94,ok,,medium
+0093845AR,Celtis australis,False,C\ Marquès de Campo Sagrado,9.9,6.57,ok,,large
+0093846AR,Platanus × acerifolia,True,C\ Rocafort,4.85,3.8,ok,,medium
+0093847AR,Platanus × acerifolia,True,C\ Tamarit,4.98,4.39,ok,,medium
+0093848AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,12.6,median,9.18,check
+0093849AR,Styphnolobium japonicum,False,C\ Floridablanca,5.35,4.28,ok,,medium
+0093850AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,8.66,median,24.69,check
+0093851AR,Platanus × acerifolia,True,Rda Sant Antoni,,6.26,no_kerb,,check
+0093852AR,Styphnolobium japonicum,False,C\ Sepúlveda,5.35,3.33,ok,,medium
+0093853AR,Celtis australis,False,C\ Sepúlveda,5.52,3.95,ok,,medium
+0093854AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,16.09,median,9.23,check
+0093856AR,Platanus × acerifolia,True,C\ Villarroel,4.93,3.76,ok,,medium
+0093857AR,Parkinsonia aculeata,False,Pl Universitat,,46.51,no_facade,30.45,check
+0093859AR,Platanus × acerifolia,True,C\ Muntaner,4.86,3.9,ok,,medium
+0093860AR,Populus alba 'Pyramidalis',False,Av Mistral,,6.8,median,20.68,check
+0093862AR,Celtis australis,False,C\ Entença,4.81,3.89,ok,,medium
+0093863AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,15.85,median,,check
+0093864AR,Celtis australis,False,C\ Floridablanca,5.12,4.54,ok,,medium
+0093865AR,Celtis australis,False,C\ Sepúlveda,4.85,4.66,ok,,medium
+0093866AR,Styphnolobium japonicum,False,C\ Sepúlveda,4.8,4.18,ok,,medium
+0093867AR,Platanus × acerifolia,True,C\ Vilamarí,8.69,6.64,ok,,large
+0093868AR,Celtis australis,False,C\ Manso,4.86,4.21,ok,,medium
+0093869AR,Celtis australis,False,C\ Entença,4.82,3.97,ok,,medium
+0093870AR,Celtis australis,False,C\ Sepúlveda,4.97,4.26,ok,,medium
+0093871AR,Celtis australis,False,C\ Entença,5.08,4.11,ok,,medium
+0093872AR,Celtis australis,False,C\ Sepúlveda,5.06,4.49,ok,,medium
+0093873AR,Platanus × acerifolia,True,C\ Floridablanca,6.85,5.41,ok,,large
+0093874AR,Prunus cerasifera 'Pissardii',False,Av Mistral,,17.2,median,28.06,check
+0093875AR,Celtis australis,False,C\ Entença,8.95,7.21,ok,,large
+0093876AR,Styphnolobium japonicum,False,C\ Manso,13.58,4.4,ok,,large
+0093877AR,Platanus × acerifolia,True,C\ Villarroel,4.93,4.54,ok,,medium
+0093878AR,Celtis australis,False,C\ Sepúlveda,4.88,3.89,ok,,medium
+0093879AR,Celtis australis,False,C\ Entença,5.13,4.06,ok,,medium
+0093880AR,Platanus × acerifolia,True,C\ Marquès de Campo Sagrado,9.92,6.5,ok,,large
+0093881AR,Platanus × acerifolia,True,C\ Comte d'Urgell,7.17,7.31,ok,,large
+0093882AR,Celtis australis,False,C\ Manso,4.86,4.35,ok,,medium
+0093883AR,Platanus × acerifolia,True,C\ Comte d'Urgell,7.45,6.75,ok,,large
+0093884AR,Platanus × acerifolia,True,C\ Calàbria,6.63,5.84,ok,,large
+0093885AR,Platanus × acerifolia,True,C\ Sepúlveda,4.74,3.87,ok,,medium
+0093886AR,Platanus × acerifolia,True,C\ Parlament,4.87,4.03,ok,,medium
+0093887AR,Celtis australis,False,C\ Sepúlveda,4.57,3.62,ok,,medium
+0093888AR,Platanus × acerifolia,True,Rda Sant Pau,7.54,6.31,ok,,large
+0093889AR,Cercis siliquastrum,False,Ptge Pere Calders,3.42,3.22,ok,,small
+0093890AR,Prunus cerasifera 'Pissardii',False,Av Mistral,,18.59,median,19.42,check
+0093891AR,Platanus × acerifolia,True,C\ Manso,4.93,4.03,ok,,medium
+0093892AR,Celtis australis,False,C\ Sepúlveda,3.66,2.84,ok,,medium
+0093893AR,Platanus × acerifolia,True,C\ Sepúlveda,5.3,4.47,ok,,medium
+0093894AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,16.49,median,9.24,check
+0093895AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,15.49,median,33.72,check
+0093896AR,Platanus × acerifolia,True,C\ Marquès de Campo Sagrado,4.92,4.1,ok,,medium
+0093897AR,Platanus × acerifolia,True,C\ Floridablanca,,16.04,median,23.11,check
+0093898AR,Styphnolobium japonicum,False,C\ Parlament,4.86,4.16,ok,,medium
+0093899AR,Celtis australis,False,C\ Calàbria,5.09,4.83,ok,,medium
+0093902AR,Platanus × acerifolia,True,C\ Vilamarí,4.7,3.97,ok,,medium
+0093903AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,8.92,median,9.34,check
+0093905AR,Ginkgo biloba,False,C\ Marquès de Campo Sagrado,4.89,3.03,ok,,medium
+0093906AR,Platanus × acerifolia,True,C\ Parlament,6.75,5.62,ok,,large
+0093907AR,Celtis australis,False,C\ Parlament,5.01,4.19,ok,,medium
+0093908AR,Platanus × acerifolia,True,Rda Sant Antoni,7.41,6.53,ok,,large
+0093910AR,Celtis australis,False,C\ Floridablanca,5.0,3.92,ok,,medium
+0093911AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,15.8,median,9.36,check
+0093912AR,Platanus × acerifolia,True,Av Paral·lel,9.98,7.46,ok,,large
+0093913AR,Celtis australis,False,C\ Floridablanca,5.23,4.24,ok,,medium
+0093915AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,8.55,median,9.46,check
+0093916AR,Celtis australis,False,C\ Tamarit,4.86,3.69,ok,,medium
+0093918AR,Celtis australis,False,C\ Floridablanca,4.82,4.45,ok,,medium
+0093919AR,Celtis australis,False,C\ Villarroel,5.11,4.1,ok,,medium
+0093920AR,Celtis australis,False,C\ Tamarit,4.9,3.47,ok,,medium
+0093922AR,Celtis australis,False,C\ Calàbria,5.02,4.72,ok,,medium
+0093923AR,Celtis australis,False,C\ Muntaner,4.87,3.72,ok,,medium
+0093925AR,Celtis australis,False,C\ Villarroel,4.86,3.99,ok,,medium
+0093927AR,Celtis australis,False,C\ Sepúlveda,5.23,4.28,ok,,medium
+0093928AR,Celtis australis,False,C\ Viladomat,5.1,3.76,ok,,medium
+0093929AR,Platanus × acerifolia,True,C\ Floridablanca,,22.67,median,29.22,check
+0093932AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,8.89,median,9.29,check
+0093933AR,Platanus × acerifolia,True,Rda Sant Pau,7.56,5.87,ok,,large
+0093934AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,16.26,median,9.39,check
+0093935AR,Celtis australis,False,C\ Comte Borrell,5.06,4.09,ok,,medium
+0093936AR,Pyrus calleryana 'Chanticleer',False,Av Mistral,,6.22,median,26.5,check
+0093938AR,Celtis australis,False,C\ Tamarit,4.89,4.32,ok,,medium
+0093939AR,Styphnolobium japonicum,False,C\ Floridablanca,5.2,4.13,ok,,medium
+0093940AR,Catalpa bignonioides,False,C\ Tamarit,3.55,4.25,ok,,medium
+0093941AR,Platanus × acerifolia,True,Av Paral·lel,10.46,9.72,ok,,large
+0093942AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,15.76,median,9.36,check
+0093944AR,Celtis australis,False,C\ Viladomat,4.86,3.89,ok,,medium
+0093945AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,17.0,median,8.95,check
+0093946AR,Celtis australis,False,C\ Comte Borrell,,4.3,median,2.33,check
+0093947AR,Celtis australis,False,C\ Calàbria,5.06,4.21,ok,,medium
+0093949AR,Celtis australis,False,C\ Rocafort,4.66,3.63,ok,,medium
+0093950AR,Platanus × acerifolia,True,C\ Comte d'Urgell,7.08,6.12,ok,,large
+0093951AR,Platanus × acerifolia,True,Rda Sant Antoni,7.52,6.22,ok,,large
+0093952AR,Celtis australis,False,C\ Sepúlveda,4.82,4.15,ok,,medium
+0093953AR,Platanus × acerifolia,True,C\ Comte d'Urgell,7.34,5.82,ok,,large
+0093954AR,Celtis australis,False,C\ Viladomat,4.9,4.09,ok,,medium
+0093955AR,Platanus × acerifolia,True,C\ Parlament,4.91,4.22,ok,,medium
+0093956AR,Koelreuteria paniculata 'Fastigiata',False,Av Mistral,,5.64,median,28.0,check
+0093957AR,Platanus × acerifolia,True,C\ Rocafort,4.67,3.76,ok,,medium
+0093958AR,Platanus × acerifolia,True,Pl Universitat,5.4,4.79,ok,,medium
+0093959AR,Celtis australis,False,C\ Manso,5.32,4.02,ok,,medium
+0093960AR,Platanus × acerifolia,True,C\ Floridablanca,5.54,3.71,ok,,medium
+0093961AR,Styphnolobium japonicum,False,C\ Parlament,4.86,4.09,ok,,medium
+0093963AR,Melia azedarach,False,C\ Comte Borrell,,4.31,median,4.58,check
+0093964AR,Celtis australis,False,C\ Comte Borrell,,4.4,median,3.0,check
+0093965AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,41.88,no_facade,9.2,check
+0093966AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,40.93,no_facade,9.12,check
+0093968AR,Styphnolobium japonicum,False,C\ Floridablanca,4.89,3.96,ok,,medium
+0093969AR,Platanus × acerifolia,True,C\ Comte d'Urgell,7.37,6.5,ok,,large
+0093970AR,Populus alba,False,Av Mistral,,6.05,median,27.67,check
+0093971AR,Styphnolobium japonicum,False,C\ Floridablanca,,16.65,median,,check
+0093973AR,Melia azedarach,False,C\ Rocafort,4.96,4.42,ok,,medium
+0093974AR,Celtis australis,False,C\ Rocafort,6.44,3.76,ok,,large
+0093975AR,Platanus × acerifolia,True,C\ Marquès de Campo Sagrado,9.88,6.13,ok,,large
+0093976AR,Koelreuteria paniculata 'Fastigiata',False,Av Mistral,,5.29,median,28.04,check
+0093978AR,Jacaranda mimosifolia,False,C\ Vilamarí,5.03,4.58,ok,,medium
+0093980AR,Celtis australis,False,C\ Calàbria,4.2,3.51,ok,,medium
+0093982AR,Platanus × acerifolia,True,Rda Sant Pau,7.53,6.53,ok,,large
+0093983AR,Platanus × acerifolia,True,C\ Floridablanca,5.84,5.66,ok,,medium
+0093984AR,Platanus × acerifolia,True,C\ Sepúlveda,5.06,3.86,ok,,medium
+0093985AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,16.42,median,9.23,check
+0093986AR,Styphnolobium japonicum,False,C\ Floridablanca,5.26,4.03,ok,,medium
+0093990AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,16.07,median,33.47,check
+0093992AR,Celtis australis,False,C\ Comte Borrell,,4.3,median,2.3,check
+0093993AR,Koelreuteria paniculata 'Fastigiata',False,Av Mistral,,5.24,median,27.97,check
+0093994AR,Platanus × acerifolia,True,C\ Sepúlveda,5.12,4.36,ok,,medium
+0093995AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,44.35,no_facade,9.09,check
+0093996AR,Robinia pseudoacacia,False,Av Mistral,,6.72,median,24.69,check
+0093997AR,Celtis australis,False,C\ Floridablanca,4.86,4.18,ok,,medium
+0093998AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,8.65,median,,check
+0093999AR,Styphnolobium japonicum,False,C\ Floridablanca,5.2,3.59,ok,,medium
+0094000AR,Celtis australis,False,C\ Calàbria,5.19,4.62,ok,,medium
+0094001AR,Celtis australis,False,C\ Manso,4.99,4.1,ok,,medium
+0094002AR,Celtis australis,False,C\ Aldana,14.15,7.17,ok,,large
+0094003AR,Platanus × acerifolia,True,C\ Comte d'Urgell,5.93,5.55,ok,,medium
+0094004AR,Celtis australis,False,C\ Llança,5.39,4.54,ok,,medium
+0094006AR,Celtis australis,False,C\ Tamarit,,9.6,median,2.29,check
+0094007AR,Platanus × acerifolia,True,C\ Sepúlveda,5.22,4.61,ok,,medium
+0094008AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,16.81,median,9.14,check
+0094009AR,Celtis australis,False,C\ Sepúlveda,5.04,4.12,ok,,medium
+0094010AR,Celtis australis,False,C\ Villarroel,4.64,4.18,ok,,medium
+0094011AR,Platanus × acerifolia,True,C\ Floridablanca,4.7,4.15,ok,,medium
+0094012AR,Celtis australis,False,C\ Sepúlveda,18.49,14.99,ok,,large
+0094013AR,Styphnolobium japonicum,False,C\ Calàbria,5.3,4.05,ok,,medium
+0094014AR,Celtis australis,False,C\ Floridablanca,4.71,4.09,ok,,medium
+0094015AR,Cercis siliquastrum,False,C\ Marquès de Campo Sagrado,9.84,9.06,ok,,large
+0094016AR,Melia azedarach,False,C\ Comte Borrell,,4.31,median,2.3,check
+0094017AR,Platanus × acerifolia,True,Rda Sant Pau,26.95,22.43,ok,,large
+0094018AR,Platanus × acerifolia,True,C\ Sepúlveda,4.87,4.68,ok,,medium
+0094019AR,Platanus × acerifolia,True,Rda Sant Antoni,,5.9,no_kerb,,check
+0094021AR,Platanus × acerifolia,True,C\ Floridablanca,5.83,4.5,ok,,medium
+0094022AR,Celtis australis,False,C\ Comte Borrell,,4.77,median,2.31,check
+0094024AR,Celtis australis,False,C\ Sepúlveda,5.0,4.06,ok,,medium
+0094025AR,Celtis australis,False,C\ Floridablanca,4.81,3.89,ok,,medium
+0094027AR,Celtis australis,False,C\ Sepúlveda,4.88,4.26,ok,,medium
+0094029AR,Platanus × acerifolia,True,C\ Rocafort,4.85,4.1,ok,,medium
+0094030AR,Celtis australis,False,C\ Tamarit,3.67,4.19,ok,,medium
+0094031AR,Celtis australis,False,C\ Sepúlveda,4.27,3.71,ok,,medium
+0094033AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,10.56,median,24.96,check
+0094034AR,Prunus cerasifera 'Pissardii',False,Av Mistral,,9.22,median,25.36,check
+0094035AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,16.03,median,24.67,check
+0094036AR,Celtis australis,False,C\ Floridablanca,5.06,3.93,ok,,medium
+0094037AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,8.73,median,8.79,check
+0094038AR,Platanus × acerifolia,True,C\ Comte d'Urgell,7.36,6.39,ok,,large
+0094039AR,Celtis australis,False,C\ Viladomat,4.78,3.92,ok,,medium
+0094040AR,Platanus × acerifolia,True,C\ Comte d'Urgell,7.0,6.58,ok,,large
+0094041AR,Robinia pseudoacacia,False,Av Mistral,,5.96,median,27.76,check
+0094043AR,Celtis australis,False,C\ Floridablanca,4.82,4.35,ok,,medium
+0094044AR,Platanus × acerifolia,True,C\ Viladomat,9.79,5.04,ok,,large
+0094045AR,Celtis australis,False,C\ Rocafort,4.62,3.68,ok,,medium
+0094046AR,Celtis australis,False,C\ Rocafort,5.11,4.44,ok,,medium
+0094047AR,Celtis australis,False,C\ Villarroel,4.99,3.89,ok,,medium
+0094048AR,Celtis australis,False,C\ Calàbria,4.82,3.9,ok,,medium
+0094049AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,8.83,median,8.9,check
+0094050AR,Celtis australis,False,C\ Calàbria,4.89,4.15,ok,,medium
+0094051AR,Koelreuteria paniculata 'Fastigiata',False,Av Mistral,,6.43,median,28.27,check
+0094052AR,Celtis australis,False,C\ Parlament,5.12,4.32,ok,,medium
+0094054AR,Platanus × acerifolia,True,C\ Sepúlveda,4.98,4.29,ok,,medium
+0094055AR,Celtis australis,False,C\ Sepúlveda,4.91,4.76,ok,,medium
+0094056AR,Platanus × acerifolia,True,C\ Marquès de Campo Sagrado,10.01,6.99,ok,,large
+0094057AR,Platanus × acerifolia,True,Av Paral·lel,7.94,7.09,ok,,large
+0094058AR,Celtis australis,False,C\ Viladomat,4.97,4.45,ok,,medium
+0094060AR,Celtis australis,False,C\ Villarroel,4.91,4.2,ok,,medium
+0094061AR,Platanus × acerifolia,True,C\ Viladomat,4.87,4.3,ok,,medium
+0094062AR,Celtis australis,False,C\ Floridablanca,5.16,4.5,ok,,medium
+0094064AR,Celtis australis,False,C\ Floridablanca,5.11,4.68,ok,,medium
+0094065AR,Celtis australis,False,Pl Goya,,15.39,median,29.25,check
+0094066AR,Celtis australis,False,C\ Tamarit,,4.15,median,2.29,check
+0094067AR,Celtis australis,False,C\ Villarroel,4.72,4.04,ok,,medium
+0094069AR,Platanus × acerifolia,True,C\ Sepúlveda,5.05,4.17,ok,,medium
+0094070AR,Celtis australis,False,C\ Floridablanca,,13.32,median,13.0,check
+0094071AR,Platanus × acerifolia,True,C\ Tamarit,,22.92,median,,check
+0094072AR,Platanus × acerifolia,True,C\ Comte d'Urgell,7.2,6.31,ok,,large
+0094073AR,Platanus × acerifolia,True,Av Paral·lel,7.94,7.59,ok,,large
+0094075AR,Platanus × acerifolia,True,Av Paral·lel,7.91,7.02,ok,,large
+0094076AR,Celtis australis,False,C\ Comte Borrell,5.04,4.13,ok,,medium
+0094077AR,Celtis sinensis,False,C\ Viladomat,4.9,4.05,ok,,medium
+0094078AR,Platanus × acerifolia,True,C\ Sepúlveda,5.03,4.3,ok,,medium
+0094079AR,Celtis australis,False,C\ Parlament,4.67,4.0,ok,,medium
+0094080AR,Celtis australis,False,C\ Casanova,5.05,4.53,ok,,medium
+0094081AR,Celtis australis,False,C\ Calàbria,4.85,3.95,ok,,medium
+0094082AR,Melia azedarach,False,C\ Villarroel,4.98,3.79,ok,,medium
+0094083AR,Cercis siliquastrum,False,C\ Marquès de Campo Sagrado,9.99,9.33,ok,,large
+0094084AR,Cercis siliquastrum,False,Ptge Pere Calders,3.41,3.33,ok,,small
+0094085AR,Platanus × acerifolia,True,C\ Sepúlveda,6.17,5.38,ok,,large
+0094086AR,Platanus × acerifolia,True,Rda Sant Pau,7.61,6.72,ok,,large
+0094087AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,16.12,median,8.84,check
+0094088AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,15.95,median,9.2,check
+0094089AR,Platanus × acerifolia,True,C\ Sepúlveda,5.4,4.34,ok,,medium
+0094090AR,Celtis australis,False,C\ Tamarit,4.72,4.01,ok,,medium
+0094091AR,Celtis australis,False,C\ Calàbria,3.97,2.97,ok,,medium
+0094092AR,Platanus × acerifolia,True,C\ Marquès de Campo Sagrado,9.83,6.8,ok,,large
+0094093AR,Celtis australis,False,C\ Marquès de Campo Sagrado,9.86,7.01,ok,,large
+0094094AR,Celtis australis,False,C\ Rocafort,5.07,4.54,ok,,medium
+0094095AR,Celtis australis,False,C\ Entença,4.84,4.3,ok,,medium
+0094096AR,Celtis australis,False,C\ Viladomat,4.9,4.43,ok,,medium
+0094097AR,Platanus × acerifolia,True,C\ Viladomat,4.93,4.54,ok,,medium
+0094098AR,Celtis australis,False,C\ Viladomat,4.67,3.61,ok,,medium
+0094099AR,Pyrus calleryana 'Chanticleer',False,Av Mistral,,7.4,median,31.16,check
+0094100AR,Handroanthus heptaphyllus,False,Av Mistral,,10.28,median,31.47,check
+0094102AR,Celtis australis,False,C\ Calàbria,5.23,4.75,ok,,medium
+0094103AR,Platanus × acerifolia,True,C\ Vilamarí,,14.76,median,5.18,check
+0094104AR,Bauhinia variegata,False,C\ Calàbria,6.85,4.72,ok,,large
+0094106AR,Celtis australis,False,C\ Aldana,4.72,4.23,ok,,medium
+0094109AR,Celtis australis,False,C\ Vilamarí,4.93,4.52,ok,,medium
+0094111AR,Celtis australis,False,C\ Viladomat,4.95,3.9,ok,,medium
+0094112AR,Koelreuteria paniculata 'Fastigiata',False,Av Mistral,,5.54,median,14.37,check
+0094113AR,Platanus × acerifolia,True,C\ Rocafort,5.05,4.53,ok,,medium
+0094115AR,Platanus × acerifolia,True,C\ Sepúlveda,6.13,4.92,ok,,large
+0094116AR,Celtis australis,False,C\ Sepúlveda,5.03,4.35,ok,,medium
+0094119AR,Populus alba,False,Av Mistral,,5.7,median,27.76,check
+0094120AR,Platanus × acerifolia,True,C\ Comte d'Urgell,7.23,6.76,ok,,large
+0094123AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,18.74,median,9.16,check
+0094124AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,16.2,median,9.34,check
+0094125AR,Platanus × acerifolia,True,Rda Sant Antoni,,6.37,no_kerb,,check
+0094126AR,Celtis australis,False,C\ Tamarit,,4.54,no_kerb,,check
+0094127AR,Koelreuteria paniculata 'Fastigiata',False,Av Mistral,,6.27,median,7.8,check
+0094129AR,Celtis australis,False,C\ Parlament,4.82,4.21,ok,,medium
+0094130AR,Parkinsonia aculeata,False,Pl Universitat,,52.1,no_facade,30.41,check
+0094131AR,Platanus × acerifolia,True,C\ Sepúlveda,4.85,4.25,ok,,medium
+0094132AR,Celtis australis,False,C\ Sepúlveda,4.99,4.72,ok,,medium
+0094133AR,Platanus × acerifolia,True,C\ Comte Borrell,10.77,4.49,ok,,large
+0094134AR,Platanus × acerifolia,True,C\ Manso,5.14,4.02,ok,,medium
+0094135AR,Celtis australis,False,C\ Floridablanca,5.36,4.38,ok,,medium
+0094136AR,Pyrus calleryana 'Chanticleer',False,Av Mistral,,6.19,median,10.54,check
+0094138AR,Celtis australis,False,C\ Parlament,4.85,4.24,ok,,medium
+0094139AR,Platanus × acerifolia,True,C\ Floridablanca,11.18,4.44,ok,,large
+0094140AR,Cercis siliquastrum,False,Ptge Pere Calders,3.42,3.24,ok,,small
+0094141AR,Celtis australis,False,C\ Sepúlveda,4.87,4.44,ok,,medium
+0094142AR,Platanus × acerifolia,True,C\ Comte d'Urgell,6.99,6.92,ok,,large
+0094143AR,Celtis australis,False,C\ Sepúlveda,5.22,4.86,ok,,medium
+0094145AR,Koelreuteria paniculata 'Fastigiata',False,Av Mistral,,6.59,median,8.06,check
+0094146AR,Prunus cerasifera 'Pissardii',False,Av Mistral,,16.95,median,27.69,check
+0094148AR,Platanus × acerifolia,True,C\ Floridablanca,5.63,4.95,ok,,medium
+0094149AR,Platanus × acerifolia,True,Av Paral·lel,9.57,7.2,ok,,large
+0094150AR,Celtis australis,False,C\ Sepúlveda,4.99,4.42,ok,,medium
+0094151AR,Celtis australis,False,C\ Parlament,4.8,4.56,ok,,medium
+0094152AR,Platanus × acerifolia,True,C\ Marquès de Campo Sagrado,9.75,6.37,ok,,large
+0094153AR,Celtis australis,False,C\ Manso,5.02,4.13,ok,,medium
+0094154AR,Celtis australis,False,C\ Sepúlveda,4.74,3.98,ok,,medium
+0094155AR,Prunus cerasifera 'Pissardii',False,Av Mistral,,16.43,median,28.95,check
+0094157AR,Platanus × acerifolia,True,C\ Casanova,4.79,4.22,ok,,medium
+0094159AR,Celtis australis,False,C\ Floridablanca,5.02,3.93,ok,,medium
+0094160AR,Melia azedarach,False,C\ Comte Borrell,,4.38,median,2.33,check
+0094161AR,Celtis australis,False,C\ Floridablanca,5.08,4.11,ok,,medium
+0094162AR,Celtis australis,False,C\ Floridablanca,4.95,4.29,ok,,medium
+0094163AR,Celtis australis,False,C\ Sepúlveda,4.79,4.41,ok,,medium
+0094164AR,Casuarina cunninghamiana,False,Pl Universitat,,32.42,no_facade,30.48,check
+0094165AR,Casuarina cunninghamiana,False,Pl Universitat,,47.45,no_facade,30.42,check
+0094166AR,Celtis australis,False,C\ Viladomat,5.11,4.25,ok,,medium
+0094167AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,8.22,median,9.05,check
+0094168AR,Celtis australis,False,C\ Manso,6.16,4.65,ok,,large
+0094169AR,Celtis australis,False,C\ Manso,5.02,4.42,ok,,medium
+0094170AR,Celtis australis,False,C\ Sepúlveda,4.73,4.24,ok,,medium
+0094171AR,Platanus × acerifolia,True,Av Paral·lel,7.93,6.96,ok,,large
+0094172AR,Platanus × acerifolia,True,C\ Calàbria,5.15,4.03,ok,,medium
+0094173AR,Celtis australis,False,C\ Floridablanca,5.23,4.12,ok,,medium
+0094174AR,Platanus × acerifolia,True,C\ Floridablanca,5.36,4.55,ok,,medium
+0094175AR,Platanus × acerifolia,True,C\ Sepúlveda,4.98,4.24,ok,,medium
+0094176AR,Platanus × acerifolia,True,C\ Parlament,5.05,4.52,ok,,medium
+0094177AR,Platanus × acerifolia,True,C\ Comte d'Urgell,7.45,6.51,ok,,large
+0094178AR,Platanus × acerifolia,True,C\ Sepúlveda,5.48,4.64,ok,,medium
+0094179AR,Celtis australis,False,C\ Entença,4.81,4.02,ok,,medium
+0094180AR,Celtis australis,False,C\ Parlament,4.87,4.12,ok,,medium
+0094181AR,Styphnolobium japonicum,False,C\ Floridablanca,5.93,4.85,ok,,medium
+0094182AR,Celtis australis,False,C\ Parlament,4.84,4.26,ok,,medium
+0094183AR,Melia azedarach,False,C\ Comte Borrell,4.84,4.2,ok,,medium
+0094184AR,Styphnolobium japonicum,False,C\ Floridablanca,4.95,4.22,ok,,medium
+0094185AR,Platanus × acerifolia,True,C\ Viladomat,4.8,4.0,ok,,medium
+0094186AR,Celtis australis,False,C\ Sepúlveda,5.1,4.12,ok,,medium
+0094187AR,Celtis australis,False,C\ Casanova,4.95,3.88,ok,,medium
+0094188AR,Platanus × acerifolia,True,C\ Tamarit,,15.44,median,7.1,check
+0094189AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,13.22,median,9.1,check
+0094190AR,Celtis australis,False,C\ Villarroel,4.69,3.94,ok,,medium
+0094191AR,Styphnolobium japonicum 'Dot',False,Av Mistral,,6.12,median,27.68,check
+0094192AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,9.01,median,9.27,check
+0094193AR,Platanus × acerifolia,True,Av Paral·lel,7.96,7.22,ok,,large
+0094194AR,Platanus × acerifolia,True,C\ Calàbria,,16.07,median,,check
+0094196AR,Platanus × acerifolia,True,C\ Tamarit,,4.42,no_kerb,,check
+0094197AR,Celtis australis,False,C\ Entença,5.28,4.06,ok,,medium
+0094198AR,Tipuana tipu,False,Av Mistral,,17.93,median,,check
+0094201AR,Koelreuteria paniculata 'Fastigiata',False,Av Mistral,,6.2,median,10.73,check
+0094202AR,Styphnolobium japonicum,False,C\ Calàbria,,20.89,no_kerb,30.53,check
+0094203AR,Celtis australis,False,C\ Villarroel,4.8,3.92,ok,,medium
+0094204AR,Celtis australis,False,C\ Floridablanca,,7.14,median,2.51,check
+0094205AR,Styphnolobium japonicum,False,C\ Floridablanca,5.09,4.08,ok,,medium
+0094206AR,Celtis australis,False,C\ Sepúlveda,5.44,3.95,ok,,medium
+0094207AR,Platanus × acerifolia,True,C\ Tamarit,5.08,4.33,ok,,medium
+0094209AR,Celtis australis,False,C\ Marquès de Campo Sagrado,9.92,6.11,ok,,large
+0094210AR,Platanus × acerifolia,True,C\ Manso,4.72,4.14,ok,,medium
+0094211AR,Platanus × acerifolia,True,C\ Villarroel,4.97,3.9,ok,,medium
+0094212AR,Platanus × acerifolia,True,Rda Sant Antoni,7.48,6.53,ok,,large
+0094213AR,Celtis australis,False,C\ Tamarit,10.01,4.13,ok,,large
+0094214AR,Celtis australis,False,C\ Sepúlveda,5.6,4.03,ok,,medium
+0094215AR,Styphnolobium japonicum,False,C\ Floridablanca,,10.82,median,,check
+0094217AR,Celtis australis,False,C\ Comte Borrell,3.03,3.99,ok,,small
+0094218AR,Celtis australis,False,C\ Tamarit,4.9,4.0,ok,,medium
+0094219AR,Platanus × acerifolia,True,C\ Manso,5.45,4.33,ok,,medium
+0094220AR,Platanus × acerifolia,True,Rda Sant Pau,7.52,6.75,ok,,large
+0094221AR,Platanus × acerifolia,True,C\ Sepúlveda,5.13,4.28,ok,,medium
+0094222AR,Celtis australis,False,C\ Parlament,4.83,3.96,ok,,medium
+0094224AR,Platanus × acerifolia,True,C\ Calàbria,4.97,4.63,ok,,medium
+0094225AR,Platanus × acerifolia,True,Rda Sant Antoni,6.77,6.71,ok,,large
+0094226AR,Celtis australis,False,C\ Tamarit,,4.08,median,2.29,check
+0094227AR,Melia azedarach,False,C\ Manso,5.02,4.49,ok,,medium
+0094229AR,Styphnolobium japonicum,False,C\ Floridablanca,5.44,4.07,ok,,medium
+0094230AR,Celtis australis,False,C\ Floridablanca,4.87,4.03,ok,,medium
+0094231AR,Styphnolobium japonicum,False,C\ Rocafort,5.0,5.08,ok,,medium
+0094232AR,Robinia pseudoacacia,False,Av Mistral,,4.61,median,2.7,check
+0094233AR,Platanus × acerifolia,True,C\ Comte d'Urgell,7.63,6.45,ok,,large
+0094234AR,Platanus × acerifolia,True,C\ Floridablanca,4.99,3.97,ok,,medium
+0094235AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,9.15,median,9.01,check
+0094236AR,Koelreuteria paniculata 'Fastigiata',False,Av Mistral,,6.48,median,24.76,check
+0094237AR,Tipuana tipu,False,Av Mistral,,16.18,median,26.97,check
+0094238AR,Celtis australis,False,C\ Llança,5.4,4.58,ok,,medium
+0094239AR,Celtis australis,False,C\ Sepúlveda,6.04,5.3,ok,,large
+0094240AR,Platanus × acerifolia,True,C\ Calàbria,5.04,4.56,ok,,medium
+0094241AR,Platanus × acerifolia,True,C\ Tamarit,4.95,4.29,ok,,medium
+0094242AR,Celtis australis,False,C\ Floridablanca,4.97,4.04,ok,,medium
+0094243AR,Celtis australis,False,C\ Entença,4.74,4.4,ok,,medium
+0094244AR,Styphnolobium japonicum,False,C\ Floridablanca,5.32,4.09,ok,,medium
+0094245AR,Celtis australis,False,C\ Sepúlveda,4.95,3.96,ok,,medium
+0094246AR,Celtis australis,False,C\ Villarroel,5.16,3.91,ok,,medium
+0094247AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,9.18,median,9.26,check
+0094249AR,Koelreuteria paniculata 'Fastigiata',False,Av Mistral,,6.22,median,33.27,check
+0094250AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,8.47,median,,check
+0094251AR,Platanus × acerifolia,True,C\ Calàbria,,10.65,median,27.95,check
+0094252AR,Celtis australis,False,Pl Goya,,15.39,median,18.25,check
+0094253AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,16.75,median,9.9,check
+0094254AR,Celtis australis,False,C\ Floridablanca,5.2,4.41,ok,,medium
+0094255AR,Celtis australis,False,C\ Vilamarí,4.9,4.09,ok,,medium
+0094256AR,Celtis australis,False,C\ Floridablanca,5.54,4.97,ok,,medium
+0094257AR,Platanus × acerifolia,True,Av Paral·lel,7.89,6.95,ok,,large
+0094258AR,Platanus × acerifolia,True,C\ Parlament,5.01,4.27,ok,,medium
+0094259AR,Celtis australis,False,C\ Viladomat,5.1,3.89,ok,,medium
+0094260AR,Melia azedarach,False,C\ Comte Borrell,3.56,2.88,ok,,medium
+0094261AR,Celtis australis,False,C\ Sepúlveda,5.03,3.99,ok,,medium
+0094262AR,Celtis australis,False,C\ Muntaner,5.17,4.12,ok,,medium
+0094263AR,Platanus × acerifolia,True,C\ Casanova,4.95,4.03,ok,,medium
+0094264AR,Celtis australis,False,C\ Comte Borrell,4.95,4.05,ok,,medium
+0094265AR,Celtis australis,False,C\ Sepúlveda,4.98,4.13,ok,,medium
+0094266AR,Platanus × acerifolia,True,Av Paral·lel,7.91,7.16,ok,,large
+0094267AR,Celtis australis,False,C\ Comte Borrell,,4.35,median,2.33,check
+0094268AR,Celtis australis,False,C\ Sepúlveda,5.1,4.5,ok,,medium
+0094269AR,Platanus × acerifolia,True,C\ Manso,5.24,3.88,ok,,medium
+0094270AR,Celtis australis,False,C\ Viladomat,5.11,4.65,ok,,medium
+0094271AR,Platanus × acerifolia,True,C\ Floridablanca,5.36,5.03,ok,,medium
+0094272AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,16.19,median,33.5,check
+0094273AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,9.28,median,,check
+0094274AR,Styphnolobium japonicum,False,C\ Tamarit,5.81,3.41,ok,,medium
+0094276AR,Platanus × acerifolia,True,C\ Muntaner,5.27,3.78,ok,,medium
+0094277AR,Celtis australis,False,C\ Parlament,4.83,4.4,ok,,medium
+0094278AR,Celtis australis,False,C\ Comte Borrell,3.07,3.94,ok,,small
+0094279AR,Celtis australis,False,C\ Floridablanca,4.85,4.29,ok,,medium
+0094280AR,Celtis australis,False,C\ Sepúlveda,5.32,4.05,ok,,medium
+0094282AR,Celtis australis,False,C\ Calàbria,5.19,4.88,ok,,medium
+0094283AR,Platanus × acerifolia,True,C\ Sepúlveda,6.29,6.18,ok,,large
+0094284AR,Celtis australis,False,C\ Calàbria,4.78,3.92,ok,,medium
+0094285AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,9.11,median,9.17,check
+0094286AR,Platanus × acerifolia,True,C\ Comte d'Urgell,7.34,6.39,ok,,large
+0094287AR,Platanus × acerifolia,True,C\ Viladomat,5.15,4.55,ok,,medium
+0094288AR,Celtis australis,False,C\ Entença,4.9,4.16,ok,,medium
+0094289AR,Platanus × acerifolia,True,C\ Comte Borrell,,25.14,median,31.63,check
+0094290AR,Platanus × acerifolia,True,C\ Vilamarí,4.87,4.09,ok,,medium
+0094291AR,Platanus × acerifolia,True,C\ Sepúlveda,6.84,6.33,ok,,large
+0094293AR,Platanus × acerifolia,True,C\ Parlament,4.88,4.11,ok,,medium
+0094294AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,16.43,median,9.35,check
+0094295AR,Styphnolobium japonicum,False,C\ Marquès de Campo Sagrado,4.89,3.88,ok,,medium
+0094296AR,Celtis australis,False,C\ Comte Borrell,6.06,5.35,ok,,large
+0094297AR,Celtis australis,False,C\ Marquès de Campo Sagrado,4.87,4.25,ok,,medium
+0094298AR,Cercis siliquastrum,False,C\ Marquès de Campo Sagrado,9.88,8.92,ok,,large
+0094299AR,Celtis australis,False,C\ Tamarit,5.05,5.01,ok,,medium
+0094300AR,Celtis australis,False,C\ Comte Borrell,,4.36,median,7.1,check
+0094301AR,Celtis australis,False,C\ Manso,4.86,4.22,ok,,medium
+0094302AR,Platanus × acerifolia,True,C\ Marquès de Campo Sagrado,9.79,6.97,ok,,large
+0094303AR,Celtis australis,False,C\ Viladomat,4.81,4.18,ok,,medium
+0094304AR,Jacaranda mimosifolia,False,C\ Floridablanca,,17.05,median,18.78,check
+0094306AR,Celtis australis,False,C\ Casanova,5.02,3.65,ok,,medium
+0094307AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,15.96,median,,check
+0094308AR,Celtis australis,False,C\ Floridablanca,4.9,4.1,ok,,medium
+0094309AR,Platanus × acerifolia,True,Av Paral·lel,8.01,7.3,ok,,large
+0094311AR,Celtis australis,False,C\ Villarroel,5.1,4.12,ok,,medium
+0094312AR,Platanus × acerifolia,True,Av Paral·lel,7.92,7.07,ok,,large
+0094313AR,Platanus × acerifolia,True,C\ Rocafort,5.59,4.55,ok,,medium
+0094314AR,Platanus × acerifolia,True,C\ Muntaner,5.33,4.22,ok,,medium
+0094315AR,Celtis australis,False,C\ Floridablanca,4.84,3.93,ok,,medium
+0094317AR,Platanus × acerifolia,True,C\ Villarroel,4.96,3.77,ok,,medium
+0094318AR,Platanus × acerifolia,True,C\ Sepúlveda,,22.24,median,8.43,check
+0094319AR,Platanus × acerifolia,True,Av Paral·lel,,23.13,no_kerb,,check
+0094320AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,22.71,median,8.79,check
+0094321AR,Celtis australis,False,C\ Marquès de Campo Sagrado,4.88,3.9,ok,,medium
+0094323AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,22.04,median,8.16,check
+0094324AR,Platanus × acerifolia,True,Av Paral·lel,7.91,7.22,ok,,large
+0094325AR,Celtis australis,False,C\ Tamarit,,4.31,no_kerb,,check
+0094326AR,Celtis australis,False,C\ Vilamarí,4.9,4.31,ok,,medium
+0094327AR,Celtis australis,False,C\ Entença,4.85,4.29,ok,,medium
+0094328AR,Celtis australis,False,C\ Viladomat,4.74,4.43,ok,,medium
+0094329AR,Platanus × acerifolia,True,C\ Sepúlveda,,15.97,median,2.38,check
+0094331AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,8.94,median,9.23,check
+0094332AR,Robinia pseudoacacia,False,C\ Sepúlveda,5.07,4.48,ok,,medium
+0094333AR,Platanus × acerifolia,True,Av Paral·lel,17.5,12.75,ok,,large
+0094334AR,Celtis australis,False,C\ Viladomat,4.9,4.15,ok,,medium
+0094335AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,16.94,median,8.96,check
+0094336AR,Celtis australis,False,C\ Viladomat,4.7,3.91,ok,,medium
+0094338AR,Platanus × acerifolia,True,C\ Floridablanca,,16.01,median,28.11,check
+0094340AR,Ginkgo biloba,False,C\ Marquès de Campo Sagrado,4.91,2.92,ok,,medium
+0094341AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,18.79,median,9.08,check
+0094342AR,Celtis australis,False,C\ Rocafort,4.92,4.49,ok,,medium
+0094343AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,16.03,median,8.81,check
+0094344AR,Platanus × acerifolia,True,C\ Calàbria,5.21,4.52,ok,,medium
+0094345AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,16.26,median,8.88,check
+0094346AR,Platanus × acerifolia,True,C\ Parlament,4.88,4.1,ok,,medium
+0094347AR,Styphnolobium japonicum,False,C\ Sepúlveda,5.15,4.17,ok,,medium
+0094349AR,Platanus × acerifolia,True,C\ Sepúlveda,5.17,4.39,ok,,medium
+0094350AR,Platanus × acerifolia,True,C\ Parlament,4.58,3.97,ok,,medium
+0094351AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,13.19,median,9.08,check
+0094353AR,Styphnolobium japonicum,False,C\ Sepúlveda,5.35,4.09,ok,,medium
+0094355AR,Platanus × acerifolia,True,Av Paral·lel,,29.01,median,8.15,check
+0094356AR,Celtis australis,False,C\ Viladomat,4.84,4.22,ok,,medium
+0094357AR,Celtis australis,False,C\ Floridablanca,4.94,3.89,ok,,medium
+0094358AR,Celtis australis,False,C\ Llança,5.36,4.68,ok,,medium
+0094359AR,Celtis australis,False,C\ Rocafort,4.99,4.27,ok,,medium
+0094360AR,Platanus × acerifolia,True,C\ Comte Borrell,5.1,4.43,ok,,medium
+0094361AR,Platanus × acerifolia,True,C\ Sepúlveda,5.15,4.35,ok,,medium
+0094362AR,Platanus × acerifolia,True,C\ Calàbria,4.86,4.5,ok,,medium
+0094363AR,Prunus cerasifera 'Pissardii',False,Av Mistral,,12.88,median,35.6,check
+0094364AR,Celtis australis,False,C\ Vilamarí,4.84,3.7,ok,,medium
+0094365AR,Platanus × acerifolia,True,C\ Parlament,5.0,4.13,ok,,medium
+0094366AR,Melia azedarach,False,C\ Comte Borrell,5.01,4.21,ok,,medium
+0094367AR,Platanus × acerifolia,True,C\ Comte d'Urgell,7.3,6.7,ok,,large
+0094368AR,Celtis australis,False,C\ Floridablanca,4.73,4.46,ok,,medium
+0094369AR,Platanus × acerifolia,True,C\ Tamarit,,4.88,median,6.35,check
+0094371AR,Platanus × acerifolia,True,C\ Tamarit,3.65,4.58,ok,,medium
+0094372AR,Celtis australis,False,C\ Sepúlveda,4.91,4.37,ok,,medium
+0094373AR,Platanus × acerifolia,True,C\ Viladomat,4.75,4.14,ok,,medium
+0094374AR,Melia azedarach,False,C\ Villarroel,4.89,4.33,ok,,medium
+0094376AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,16.15,median,15.75,check
+0094377AR,Platanus × acerifolia,True,C\ Viladomat,4.8,4.01,ok,,medium
+0094378AR,Koelreuteria paniculata 'Fastigiata',False,Av Mistral,,5.11,median,27.97,check
+0094379AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,42.5,no_facade,9.27,check
+0094380AR,Celtis australis,False,C\ Tamarit,3.68,3.83,ok,,medium
+0094381AR,Platanus × acerifolia,True,C\ Casanova,4.54,4.0,ok,,medium
+0094382AR,Celtis australis,False,C\ Comte Borrell,,4.07,median,2.3,check
+0094384AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,8.89,median,24.92,check
+0094385AR,Platanus × acerifolia,True,C\ Comte d'Urgell,7.49,6.4,ok,,large
+0094386AR,Celtis australis,False,C\ Viladomat,5.09,4.34,ok,,medium
+0094387AR,Celtis australis,False,C\ Viladomat,5.11,4.08,ok,,medium
+0094388AR,Platanus × acerifolia,True,C\ Parlament,4.82,3.87,ok,,medium
+0094389AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,16.0,median,24.84,check
+0094390AR,Quercus ilex,False,Pl Goya,,15.31,median,10.67,check
+0094391AR,Celtis australis,False,C\ Tamarit,,4.13,median,2.27,check
+0094392AR,Celtis australis,False,C\ Tamarit,4.93,3.93,ok,,medium
+0094393AR,Celtis australis,False,C\ Floridablanca,4.95,4.17,ok,,medium
+0094394AR,Platanus × acerifolia,True,C\ Aldana,4.86,4.57,ok,,medium
+0094396AR,Celtis australis,False,C\ Marquès de Campo Sagrado,9.95,6.27,ok,,large
+0094398AR,Celtis australis,False,C\ Viladomat,4.96,4.4,ok,,medium
+0094399AR,Celtis australis,False,C\ Entença,4.71,4.33,ok,,medium
+0094400AR,Celtis australis,False,C\ Marquès de Campo Sagrado,5.01,4.12,ok,,medium
+0094401AR,Platanus × acerifolia,True,C\ Manso,4.77,3.97,ok,,medium
+0094402AR,Pyrus calleryana 'Chanticleer',False,Av Mistral,,5.81,median,31.57,check
+0094403AR,Platanus × acerifolia,True,C\ Manso,5.22,4.02,ok,,medium
+0094404AR,Platanus × acerifolia,True,C\ Casanova,4.9,4.42,ok,,medium
+0094405AR,Jacaranda mimosifolia,False,C\ Vilamarí,4.9,4.34,ok,,medium
+0094406AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,18.34,median,16.44,check
+0094408AR,Celtis australis,False,C\ Comte Borrell,,4.4,median,2.31,check
+0094409AR,Platanus × acerifolia,True,C\ Parlament,4.77,4.08,ok,,medium
+0094410AR,Platanus × acerifolia,True,Av Paral·lel,8.99,8.26,ok,,large
+0094411AR,Platanus × acerifolia,True,C\ Floridablanca,5.4,4.08,ok,,medium
+0094412AR,Celtis australis,False,C\ Floridablanca,5.1,4.32,ok,,medium
+0094413AR,Celtis australis,False,C\ Villarroel,4.95,4.36,ok,,medium
+0094414AR,Celtis australis,False,C\ Parlament,4.67,3.99,ok,,medium
+0094415AR,Celtis australis,False,C\ Entença,4.81,4.1,ok,,medium
+0094416AR,Platanus × acerifolia,True,C\ Comte d'Urgell,7.26,6.37,ok,,large
+0094417AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,16.46,median,9.37,check
+0094419AR,Celtis australis,False,C\ Villarroel,4.65,3.95,ok,,medium
+0094420AR,Platanus × acerifolia,True,Rda Sant Pau,7.5,6.48,ok,,large
+0094421AR,Platanus × acerifolia,True,C\ Comte Borrell,,4.29,median,7.09,check
+0094422AR,Celtis australis,False,C\ Tamarit,4.89,4.11,ok,,medium
+0094423AR,Celtis australis,False,C\ Sepúlveda,5.1,4.34,ok,,medium
+0094425AR,Platanus × acerifolia,True,C\ Floridablanca,5.15,4.34,ok,,medium
+0094426AR,Styphnolobium japonicum,False,C\ Floridablanca,5.17,3.68,ok,,medium
+0094427AR,Platanus × acerifolia,True,C\ Floridablanca,5.6,4.73,ok,,medium
+0094428AR,Celtis australis,False,C\ Entença,4.78,4.14,ok,,medium
+0094429AR,Platanus × acerifolia,True,Av Paral·lel,12.93,12.4,ok,,large
+0094430AR,Platanus × acerifolia,True,C\ Comte d'Urgell,7.37,7.02,ok,,large
+0094431AR,Styphnolobium japonicum,False,C\ Manso,4.68,4.18,ok,,medium
+0094432AR,Platanus × acerifolia,True,Rda Sant Pau,7.58,6.55,ok,,large
+0094433AR,Platanus × acerifolia,True,Pl Universitat,5.4,4.46,ok,,medium
+0094434AR,Celtis australis,False,C\ Tamarit,4.55,4.0,ok,,medium
+0094435AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,8.8,median,24.67,check
+0094436AR,Celtis australis,False,C\ Llança,5.39,3.91,ok,,medium
+0094437AR,Platanus × acerifolia,True,C\ Parlament,6.3,5.45,ok,,large
+0094438AR,Celtis australis,False,C\ Sepúlveda,4.97,3.97,ok,,medium
+0094439AR,Melia azedarach,False,C\ Rocafort,5.05,5.55,ok,,medium
+0094440AR,Platanus × acerifolia,True,C\ Calàbria,4.86,5.29,ok,,medium
+0094441AR,Celtis australis,False,C\ Viladomat,5.12,4.58,ok,,medium
+0094442AR,Celtis australis,False,C\ Sepúlveda,5.08,4.51,ok,,medium
+0094443AR,Celtis australis,False,C\ Viladomat,4.92,4.49,ok,,medium
+0094446AR,Celtis australis,False,C\ Comte Borrell,10.25,4.42,ok,,large
+0094447AR,Celtis australis,False,C\ Floridablanca,4.78,3.93,ok,,medium
+0094448AR,Celtis australis,False,C\ Parlament,4.58,3.83,ok,,medium
+0094449AR,Platanus × acerifolia,True,Av Paral·lel,,9.19,median,7.98,check
+0094450AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,16.24,median,33.93,check
+0094451AR,Celtis australis,False,C\ Entença,4.82,3.87,ok,,medium
+0094452AR,Platanus × acerifolia,True,C\ Viladomat,4.95,4.38,ok,,medium
+0094453AR,Platanus × acerifolia,True,C\ Tamarit,,3.79,no_kerb,,check
+0094454AR,Platanus × acerifolia,True,C\ Floridablanca,5.68,4.9,ok,,medium
+0094455AR,Platanus × acerifolia,True,Av Paral·lel,16.07,14.96,ok,,large
+0094456AR,Celtis australis,False,C\ Sepúlveda,5.11,4.02,ok,,medium
+0094457AR,Platanus × acerifolia,True,Rda Sant Pau,7.61,6.33,ok,,large
+0094458AR,Casuarina cunninghamiana,False,Pl Universitat,,33.53,no_facade,30.49,check
+0094459AR,Platanus × acerifolia,True,Rda Sant Antoni,7.1,6.66,ok,,large
+0094460AR,Styphnolobium japonicum,False,C\ Marquès de Campo Sagrado,16.52,9.13,ok,,large
+0094461AR,Styphnolobium japonicum,False,C\ Sepúlveda,5.35,4.14,ok,,medium
+0094462AR,Platanus × acerifolia,True,C\ Marquès de Campo Sagrado,19.39,5.98,ok,,large
+0094463AR,Platanus × acerifolia,True,C\ Floridablanca,7.35,6.59,ok,,large
+0094464AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,16.33,median,8.82,check
+0094465AR,Celtis australis,False,C\ Rocafort,4.93,4.33,ok,,medium
+0094466AR,Platanus × acerifolia,True,C\ Muntaner,6.82,5.13,ok,,large
+0094467AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,8.88,median,,check
+0094468AR,Celtis australis,False,C\ Floridablanca,4.7,3.39,ok,,medium
+0094469AR,Styphnolobium japonicum,False,C\ Sepúlveda,12.5,4.13,ok,,large
+0094470AR,Platanus × acerifolia,True,Pl Universitat,,18.01,median,,check
+0094471AR,Styphnolobium japonicum,False,C\ Floridablanca,4.85,3.8,ok,,medium
+0094472AR,Grevillea robusta,False,C\ Muntaner,5.37,4.31,ok,,medium
+0094474AR,Styphnolobium japonicum,False,C\ Tamarit,9.41,4.47,ok,,large
+0094475AR,Celtis australis,False,C\ Floridablanca,4.97,3.96,ok,,medium
+0094476AR,Celtis australis,False,C\ Calàbria,4.64,4.1,ok,,medium
+0094477AR,Celtis australis,False,C\ Floridablanca,4.92,3.98,ok,,medium
+0094478AR,Platanus × acerifolia,True,C\ Comte d'Urgell,7.14,6.33,ok,,large
+0094479AR,Populus alba,False,Av Mistral,,6.11,median,27.83,check
+0094480AR,Platanus × acerifolia,True,C\ Floridablanca,7.35,6.64,ok,,large
+0094481AR,Platanus × acerifolia,True,C\ Marquès de Campo Sagrado,10.18,6.4,ok,,large
+0094482AR,Platanus × acerifolia,True,C\ Tamarit,4.64,5.46,ok,,medium
+0094483AR,Robinia pseudoacacia,False,Av Mistral,,5.06,median,,check
+0094484AR,Robinia pseudoacacia,False,Av Mistral,,5.93,median,27.64,check
+0094485AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,17.43,median,9.12,check
+0094486AR,Platanus × acerifolia,True,C\ Floridablanca,5.17,4.52,ok,,medium
+0094487AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,9.68,median,,check
+0094488AR,Platanus × acerifolia,True,C\ Viladomat,4.85,4.14,ok,,medium
+0094489AR,Celtis australis,False,C\ Calàbria,5.05,4.01,ok,,medium
+0094490AR,Styphnolobium japonicum,False,C\ Floridablanca,,15.27,median,15.69,check
+0094491AR,Platanus × acerifolia,True,C\ Calàbria,5.16,4.6,ok,,medium
+0094492AR,Platanus × acerifolia,True,C\ Casanova,5.05,4.62,ok,,medium
+0094493AR,Platanus × acerifolia,True,C\ Manso,4.75,4.56,ok,,medium
+0094494AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,8.59,median,9.12,check
+0094495AR,Styphnolobium japonicum,False,C\ Floridablanca,4.87,3.83,ok,,medium
+0094496AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,9.12,median,9.37,check
+0094497AR,Celtis australis,False,C\ Sepúlveda,5.01,4.31,ok,,medium
+0094499AR,Jacaranda mimosifolia,False,C\ Vilamarí,5.09,3.79,ok,,medium
+0094501AR,Styphnolobium japonicum,False,C\ Floridablanca,5.46,4.04,ok,,medium
+0094502AR,Celtis australis,False,C\ Casanova,4.35,4.15,ok,,medium
+0094503AR,Catalpa bignonioides,False,C\ Tamarit,5.02,4.35,ok,,medium
+0094504AR,Celtis australis,False,C\ Comte Borrell,4.99,4.01,ok,,medium
+0094505AR,Ulmus pumila,False,Pl Goya,,15.58,median,,check
+0094506AR,Celtis australis,False,C\ Comte Borrell,14.72,14.38,ok,,large
+0094507AR,Styphnolobium japonicum,False,C\ Viladomat,15.51,8.38,ok,,large
+0094508AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,8.8,median,8.82,check
+0094509AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,15.98,median,33.65,check
+0094510AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,17.56,median,9.06,check
+0094511AR,Platanus × acerifolia,True,C\ Vilamarí,,9.81,median,5.22,check
+0094512AR,Celtis australis,False,C\ Sepúlveda,5.24,4.25,ok,,medium
+0094513AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,22.4,median,9.13,check
+0094514AR,Cercis siliquastrum,False,C\ Marquès de Campo Sagrado,9.78,9.09,ok,,large
+0094515AR,Platanus × acerifolia,True,C\ Floridablanca,4.99,4.44,ok,,medium
+0094517AR,Platanus × acerifolia,True,C\ Comte d'Urgell,7.36,6.81,ok,,large
+0094518AR,Platanus × acerifolia,True,C\ Viladomat,4.94,4.48,ok,,medium
+0094519AR,Celtis australis,False,C\ Rocafort,4.81,4.09,ok,,medium
+0094520AR,Catalpa bignonioides,False,C\ Tamarit,4.97,4.15,ok,,medium
+0094521AR,Celtis australis,False,C\ Comte Borrell,10.26,4.43,ok,,large
+0094522AR,Celtis australis,False,C\ Floridablanca,4.84,3.82,ok,,medium
+0094523AR,Platanus × acerifolia,True,C\ Marquès de Campo Sagrado,6.56,5.49,ok,,large
+0094524AR,Platanus × acerifolia,True,C\ Calàbria,4.96,4.0,ok,,medium
+0094526AR,Celtis australis,False,C\ Rocafort,4.87,4.27,ok,,medium
+0094528AR,Celtis australis,False,C\ Manso,5.01,4.2,ok,,medium
+0094529AR,Celtis australis,False,C\ Calàbria,4.95,4.58,ok,,medium
+0094530AR,Celtis australis,False,C\ Floridablanca,,16.08,median,20.65,check
+0094531AR,Celtis australis,False,C\ Tamarit,3.67,4.53,ok,,medium
+0094532AR,Koelreuteria paniculata 'Fastigiata',False,Av Mistral,,10.39,median,8.39,check
+0094533AR,Styphnolobium japonicum,False,C\ Sepúlveda,4.83,3.87,ok,,medium
+0094534AR,Celtis australis,False,C\ Entença,5.01,3.83,ok,,medium
+0094535AR,Platanus × acerifolia,True,C\ Calàbria,4.85,3.91,ok,,medium
+0094536AR,Prunus cerasifera 'Pissardii',False,Av Mistral,,8.33,median,18.55,check
+0094537AR,Casuarina cunninghamiana,False,Pl Universitat,,51.37,no_facade,30.41,check
+0094539AR,Celtis australis,False,C\ Sepúlveda,5.03,4.09,ok,,medium
+0094540AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,9.04,median,9.35,check
+0094541AR,Platanus × acerifolia,True,C\ Villarroel,4.91,4.51,ok,,medium
+0094542AR,Prunus cerasifera 'Pissardii',False,Av Mistral,,14.86,median,11.37,check
+0094543AR,Prunus cerasifera 'Pissardii',False,C\ Floridablanca,,19.71,median,20.37,check
+0094544AR,Platanus × acerifolia,True,C\ Floridablanca,,23.15,median,,check
+0094545AR,Casuarina cunninghamiana,False,Pl Universitat,,25.81,median,,check
+0094546AR,Celtis australis,False,C\ Sepúlveda,5.21,4.26,ok,,medium
+0094547AR,Celtis australis,False,C\ Calàbria,4.76,4.02,ok,,medium
+0094548AR,Platanus × acerifolia,True,C\ Marquès de Campo Sagrado,20.85,6.34,ok,,large
+0094549AR,Celtis australis,False,C\ Comte Borrell,4.79,3.98,ok,,medium
+0094550AR,Koelreuteria paniculata 'Fastigiata',False,Av Mistral,,6.42,median,,check
+0094553AR,Celtis australis,False,C\ Sepúlveda,4.78,3.75,ok,,medium
+0094556AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,9.36,median,,check
+0094557AR,Celtis australis,False,C\ Floridablanca,4.81,3.8,ok,,medium
+0094561AR,Melia azedarach,False,C\ Manso,4.92,3.89,ok,,medium
+0094562AR,Styphnolobium japonicum,False,C\ Sepúlveda,5.15,4.09,ok,,medium
+0094563AR,Tipuana tipu,False,Pl Goya,,24.31,median,26.38,check
+0094564AR,Platanus × acerifolia,True,C\ Calàbria,7.27,4.64,ok,,large
+0094565AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,14.66,median,9.13,check
+0094566AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,16.55,median,9.84,check
+0094567AR,Melia azedarach,False,C\ Comte Borrell,3.08,3.83,ok,,small
+0094568AR,Platanus × acerifolia,True,Rda Sant Antoni,,6.46,no_kerb,,check
+0094570AR,Platanus × acerifolia,True,C\ Comte d'Urgell,6.91,6.04,ok,,large
+0094572AR,Melia azedarach,False,C\ Comte Borrell,3.5,4.19,ok,,medium
+0094573AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,8.8,median,9.91,check
+0094575AR,Platanus × acerifolia,True,C\ Sepúlveda,10.69,4.04,ok,,large
+0094576AR,Platanus × acerifolia,True,C\ Tamarit,,22.46,median,,check
+0094578AR,Celtis australis,False,C\ Tamarit,4.89,4.47,ok,,medium
+0094579AR,Platanus × acerifolia,True,C\ Comte Borrell,13.31,11.98,ok,,large
+0094580AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,15.91,median,8.89,check
+0094581AR,Celtis australis,False,C\ Floridablanca,4.8,3.8,ok,,medium
+0094582AR,Celtis australis,False,C\ Comte Borrell,4.96,4.04,ok,,medium
+0094583AR,Celtis australis,False,C\ Viladomat,4.58,4.35,ok,,medium
+0094584AR,Grevillea robusta,False,C\ Muntaner,5.42,4.54,ok,,medium
+0094585AR,Styphnolobium japonicum,False,C\ Tamarit,14.35,3.76,ok,,large
+0094586AR,Celtis australis,False,C\ Tamarit,3.72,4.26,ok,,medium
+0094587AR,Platanus × acerifolia,True,C\ Casanova,4.73,4.05,ok,,medium
+0094588AR,Celtis australis,False,C\ Sepúlveda,4.93,4.29,ok,,medium
+0094589AR,Celtis australis,False,C\ Vilamarí,4.89,3.85,ok,,medium
+0282501AR,Olea europaea,False,Av Mistral,,25.98,median,,check
+0282513AR,Cercis siliquastrum,False,Av Mistral,,22.86,median,30.95,check
+0288580AR,Celtis australis,False,C\ Entença,5.04,4.11,ok,,medium
+0288581AR,Celtis australis,False,C\ Tamarit,4.85,4.33,ok,,medium
+0288582AR,Celtis australis,False,C\ Tamarit,4.95,4.0,ok,,medium
+0288583AR,Celtis australis,False,C\ Tamarit,4.82,3.92,ok,,medium
+0288930AR,Celtis australis,False,C\ Floridablanca,4.88,4.14,ok,,medium
+0288931AR,Platanus × acerifolia,True,C\ Comte d'Urgell,7.26,6.19,ok,,large
+0288932AR,Platanus × acerifolia,True,C\ Muntaner,5.02,3.83,ok,,medium
+0288982AR,Robinia pseudoacacia,False,Av Mistral,,6.01,median,,check
+0288983AR,Platanus × acerifolia,True,Av Paral·lel,7.95,7.34,ok,,large
+0288984AR,Celtis australis,False,C\ Sepúlveda,4.77,4.27,ok,,medium
+0288985AR,Celtis australis,False,C\ Sepúlveda,4.75,4.05,ok,,medium
+0288992AR,Platanus × acerifolia,True,C\ Manso,4.98,4.23,ok,,medium
+0288993AR,Celtis australis,False,C\ Calàbria,4.97,4.05,ok,,medium
+0288996AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,15.94,median,33.56,check
+0289374AR,Platanus × acerifolia,True,Pl Goya,,21.4,median,11.03,check
+0289617AR,Celtis australis,False,C\ Sepúlveda,,15.82,median,5.29,check
+0289618AR,Celtis australis,False,C\ Sepúlveda,,15.9,median,13.88,check
+0289619AR,Celtis australis,False,C\ Vilamarí,4.93,4.36,ok,,medium
+0289629AR,Styphnolobium japonicum,False,C\ Parlament,5.46,4.94,ok,,medium
+0289630AR,Platanus × acerifolia,True,C\ Calàbria,5.05,4.08,ok,,medium
+0289688AR,Quercus ilex,False,Pl Goya,,20.88,median,,check
+0289762AR,Melia azedarach,False,C\ Comte Borrell,,4.07,median,2.33,check
+0290543AR,Koelreuteria paniculata 'Fastigiata',False,Av Mistral,,7.24,median,31.58,check
+0291049AR,Melia azedarach,False,C\ Comte Borrell,5.15,4.49,ok,,medium
+0291050AR,Melia azedarach,False,C\ Comte Borrell,5.12,4.68,ok,,medium
+0291051AR,Melia azedarach,False,C\ Comte Borrell,5.1,4.65,ok,,medium
+0291052AR,Melia azedarach,False,C\ Comte Borrell,5.06,4.52,ok,,medium
+0291053AR,Melia azedarach,False,C\ Comte Borrell,5.08,4.19,ok,,medium
+0294107AR,Platanus × acerifolia,True,Av Paral·lel,,32.45,no_facade,22.15,check
+0294108AR,Platanus × acerifolia,True,Av Paral·lel,,32.42,no_facade,29.47,check
+0294109AR,Platanus × acerifolia,True,Av Paral·lel,,30.61,no_facade,,check
+0294110AR,Platanus × acerifolia,True,Av Paral·lel,26.27,23.85,ok,,large
+0294111AR,Platanus × acerifolia,True,Av Paral·lel,7.9,7.18,ok,,large
+0294112AR,Platanus × acerifolia,True,Av Paral·lel,9.73,7.47,ok,,large
+0294113AR,Platanus × acerifolia,True,Av Paral·lel,7.85,7.23,ok,,large
+0294114AR,Platanus × acerifolia,True,Av Paral·lel,20.1,16.34,ok,,large
+0294116AR,Styphnolobium japonicum,False,C\ Calàbria,15.93,4.11,ok,,large
+0304017AR,Platanus × acerifolia,True,Av Paral·lel,7.9,6.99,ok,,large
+0304018AR,Platanus × acerifolia,True,Av Paral·lel,7.98,7.38,ok,,large
+0304019AR,Platanus × acerifolia,True,Av Paral·lel,19.54,14.35,ok,,large
+0304020AR,Platanus × acerifolia,True,Av Paral·lel,7.92,7.41,ok,,large
+0304021AR,Platanus × acerifolia,True,Av Paral·lel,19.93,15.34,ok,,large
+0304022AR,Styphnolobium japonicum,False,C\ Manso,17.19,5.27,ok,,large
+0304023AR,Styphnolobium japonicum,False,C\ Manso,7.7,4.92,ok,,large
+0304024AR,Styphnolobium japonicum,False,C\ Manso,5.47,4.57,ok,,medium
+0304025AR,Platanus × acerifolia,True,Av Paral·lel,19.46,14.79,ok,,large
+0304026AR,Platanus × acerifolia,True,Av Paral·lel,7.99,7.45,ok,,large
+0304027AR,Platanus × acerifolia,True,Av Paral·lel,7.98,7.23,ok,,large
+0304028AR,Platanus × acerifolia,True,Av Paral·lel,9.91,7.41,ok,,large
+0304029AR,Platanus × acerifolia,True,Av Paral·lel,9.9,7.41,ok,,large
+0304034AR,Platanus × acerifolia,True,Av Paral·lel,9.9,7.49,ok,,large
+0304035AR,Platanus × acerifolia,True,Av Paral·lel,7.99,7.21,ok,,large
+0304063AR,Platanus × acerifolia,True,Av Paral·lel,,27.91,no_kerb,29.13,check
+0304064AR,Platanus × acerifolia,True,Av Paral·lel,,31.11,no_facade,22.39,check
+0304065AR,Platanus × acerifolia,True,Av Paral·lel,7.88,7.26,ok,,large
+0304066AR,Platanus × acerifolia,True,Av Paral·lel,17.37,12.46,ok,,large
+0304067AR,Platanus × acerifolia,True,Av Paral·lel,9.82,7.31,ok,,large
+0304068AR,Platanus × acerifolia,True,Av Paral·lel,7.9,7.14,ok,,large
+0304069AR,Platanus × acerifolia,True,Rda Sant Pau,28.55,7.74,ok,,large
+0304070AR,Platanus × acerifolia,True,Av Paral·lel,22.94,17.22,ok,,large
+0304071AR,Platanus × acerifolia,True,Av Paral·lel,,27.74,no_kerb,13.96,check
+0304104AR,Casuarina cunninghamiana,False,Pl Universitat,,50.63,no_facade,30.4,check
+0304115AR,Celtis australis,False,C\ Villarroel,16.74,15.42,ok,,large
+0304874AR,Styphnolobium japonicum,False,C\ Tamarit,6.56,5.31,ok,,large
+0305215AR,Styphnolobium japonicum,False,C\ Floridablanca,4.08,2.85,ok,,medium
+0305216AR,Celtis australis,False,C\ Calàbria,5.03,4.34,ok,,medium
+0305406AR,Hibiscus rosa-sinensis,False,Ptge Pere Calders,,1.44,no_kerb,,check
+0306311AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,16.42,median,9.27,check
+0311512AR,Celtis australis,False,C\ Rocafort,4.79,3.16,ok,,medium
+0319759AR,Prunus amygdalus,False,C\ Tamarit,8.39,5.74,ok,,large
+0319760AR,Prunus amygdalus,False,C\ Comte d'Urgell,13.52,4.05,ok,,large
+0319761AR,Prunus amygdalus,False,C\ Comte d'Urgell,12.24,8.91,ok,,large
+0319763AR,Prunus amygdalus,False,C\ Manso,13.41,10.33,ok,,large
+0319764AR,Olea europaea,False,C\ Manso,15.5,11.16,ok,,large
+0319765AR,Prunus amygdalus,False,C\ Manso,18.73,14.46,ok,,large
+0319766AR,Prunus amygdalus,False,C\ Comte Borrell,10.2,7.34,ok,,large
+0319767AR,Prunus amygdalus,False,C\ Comte Borrell,13.88,8.6,ok,,large
+0319768AR,Prunus amygdalus,False,C\ Tamarit,14.47,8.38,ok,,large
+0319776AR,Olea europaea,False,C\ Manso,9.92,6.11,ok,,large
+0319817AR,Styphnolobium japonicum,False,C\ Comte Borrell,5.95,5.08,ok,,medium
+0319818AR,Styphnolobium japonicum,False,C\ Comte Borrell,,5.47,median,7.01,check
+0319819AR,Quercus ilex,False,C\ Tamarit,,14.47,median,26.94,check
+0319820AR,Styphnolobium japonicum,False,C\ Comte Borrell,5.62,3.73,ok,,medium
+0319821AR,Melia azedarach,False,C\ Comte Borrell,9.22,3.85,ok,,large
+0319822AR,Quercus ilex,False,C\ Comte Borrell,,12.25,median,36.01,check
+0319823AR,Jacaranda mimosifolia,False,C\ Comte Borrell,,17.61,median,35.75,check
+0319824AR,Quercus ilex,False,C\ Tamarit,,18.31,median,26.97,check
+0319825AR,Melia azedarach,False,C\ Manso,5.18,4.26,ok,,medium
+0319826AR,Melia azedarach,False,C\ Manso,5.08,4.22,ok,,medium
+0319827AR,Melia azedarach,False,C\ Manso,5.25,4.27,ok,,medium
+0321133AR,Melia azedarach,False,C\ Comte Borrell,,4.19,median,2.32,check
+0321137AR,Melia azedarach,False,C\ Comte Borrell,3.05,3.88,ok,,small
+0321138AR,Melia azedarach,False,C\ Comte Borrell,,4.01,median,2.3,check
+0321140AR,Styphnolobium japonicum,False,C\ Floridablanca,10.1,4.24,ok,,large
+0321274AR,Casuarina cunninghamiana,False,Pl Universitat,,51.17,no_facade,30.4,check
+0321282AR,Prunus cerasifera,False,Av Mistral,,19.4,median,4.13,check
+0324009AR,Handroanthus heptaphyllus,False,Av Mistral,,11.26,median,28.18,check
+0324419AR,Prunus cerasifera 'Pissardii',False,Av Mistral,,27.74,median,37.61,check
+0324498AR,Styphnolobium japonicum 'Columnare',False,Av Mistral,,5.9,median,27.67,check
+0325399AR,Platanus × acerifolia,True,Av Paral·lel,7.84,7.3,ok,,large
+0325592AR,Celtis australis,False,C\ Sepúlveda,4.73,4.23,ok,,medium
+0327282AR,Ginkgo biloba,False,Av Mistral,,11.75,median,28.32,check
+0332659AR,Ginkgo biloba,False,Av Mistral,,7.06,median,31.57,check
+0332661AR,Styphnolobium japonicum,False,Av Mistral,,11.28,median,31.59,check
+0332666AR,Pyrus calleryana 'Chanticleer',False,Av Mistral,,9.03,median,35.17,check
+0332672AR,Handroanthus heptaphyllus,False,Av Mistral,,9.61,median,10.3,check
+0346103AR,Platanus × acerifolia,True,C\ Casanova,,4.52,no_kerb,,check
+0346111AR,Platanus × acerifolia,True,Rda Sant Antoni,,6.8,no_kerb,,check
+0346113AR,Platanus × acerifolia,True,Rda Sant Antoni,,6.84,no_kerb,,check
+0346114AR,Platanus × acerifolia,True,Rda Sant Antoni,,5.77,no_kerb,,check
+0346115AR,Platanus × acerifolia,True,Rda Sant Antoni,,6.76,no_kerb,,check
+0346117AR,Platanus × acerifolia,True,Rda Sant Antoni,,4.74,no_kerb,,check
+0346118AR,Platanus × acerifolia,True,C\ Tamarit,26.48,16.62,ok,,large
+0346119AR,Tipuana tipu,False,C\ Tamarit,19.4,17.5,ok,,large
+0346120AR,Tipuana tipu,False,C\ Comte d'Urgell,14.71,13.47,ok,,large
+0346121AR,Tipuana tipu,False,C\ Tamarit,24.62,11.49,ok,,large
+0346122AR,Platanus × acerifolia,True,Rda Sant Antoni,7.47,5.4,ok,,large
+0346123AR,Platanus × acerifolia,True,Rda Sant Antoni,7.61,5.27,ok,,large
+0346124AR,Platanus × acerifolia,True,Rda Sant Antoni,7.44,5.62,ok,,large
+0346125AR,Platanus × acerifolia,True,Rda Sant Antoni,7.43,5.65,ok,,large
+0346126AR,Platanus × acerifolia,True,Rda Sant Antoni,7.43,4.95,ok,,large
+0346127AR,Platanus × acerifolia,True,Rda Sant Antoni,7.43,4.87,ok,,large
+0346128AR,Platanus × acerifolia,True,Rda Sant Antoni,7.43,5.11,ok,,large
+0346888AR,Brachychiton acerifolius,False,Av Mistral,,9.63,median,12.39,check
+0346889AR,Brachychiton acerifolius,False,Av Mistral,,12.8,median,31.16,check
+0346890AR,Brachychiton acerifolius,False,Av Mistral,,10.98,median,27.59,check
+0346891AR,Brachychiton acerifolius,False,Av Mistral,,9.73,median,9.94,check
+0346892AR,Brachychiton acerifolius,False,Av Mistral,,10.62,median,28.08,check
+0346893AR,Brachychiton acerifolius,False,Av Mistral,,11.83,median,31.51,check
+0346894AR,Brachychiton acerifolius,False,Av Mistral,,10.39,median,34.93,check
+0346895AR,Brachychiton acerifolius,False,Av Mistral,,19.2,median,25.44,check
+0346896AR,Brachychiton acerifolius,False,C\ Tamarit,,23.43,median,,check
+0346898AR,Ginkgo biloba,False,Av Mistral,,5.81,median,3.88,check
+0346899AR,Ginkgo biloba,False,Av Mistral,,6.3,median,,check
+0346900AR,Ginkgo biloba,False,Av Mistral,,8.25,median,27.76,check
+0346902AR,Ginkgo biloba,False,Av Mistral,,5.07,median,12.84,check
+0346904AR,Ginkgo biloba,False,Av Mistral,,6.43,median,21.54,check
+0346906AR,Ginkgo biloba,False,Av Mistral,,6.48,median,28.08,check
+0346907AR,Ginkgo biloba,False,Av Mistral,,6.33,median,28.07,check
+0346908AR,Ginkgo biloba,False,Av Mistral,,6.44,median,31.61,check
+0346910AR,Ginkgo biloba,False,Av Mistral,,5.69,median,31.59,check
+0346911AR,Ginkgo biloba,False,Av Mistral,,6.16,median,,check
+0346912AR,Ginkgo biloba,False,Av Mistral,,5.32,median,26.46,check
+0346913AR,Ginkgo biloba,False,Av Mistral,,6.57,median,18.56,check
+0346914AR,Ginkgo biloba,False,Av Mistral,,6.89,median,27.32,check
+0346915AR,Ginkgo biloba,False,Av Mistral,,5.9,median,28.11,check
+0346916AR,Ginkgo biloba,False,Av Mistral,,7.59,median,9.22,check
+0346917AR,Ginkgo biloba,False,Av Mistral,,5.65,median,4.34,check
+0346918AR,Handroanthus heptaphyllus,False,Av Mistral,,11.64,median,27.99,check
+0346920AR,Handroanthus heptaphyllus,False,Av Mistral,,11.14,median,27.68,check
+0346921AR,Handroanthus heptaphyllus,False,Av Mistral,,9.64,median,30.81,check
+0346922AR,Handroanthus heptaphyllus,False,Av Mistral,,10.18,median,18.76,check
+0346923AR,Handroanthus heptaphyllus,False,Av Mistral,,8.21,median,29.99,check
+0346924AR,Jacaranda mimosifolia,False,Av Mistral,,14.41,median,27.76,check
+0346925AR,Jacaranda mimosifolia,False,Av Mistral,,18.18,median,4.19,check
+0346926AR,Jacaranda mimosifolia,False,Av Mistral,,18.91,median,20.75,check
+0346927AR,Jacaranda mimosifolia,False,Av Mistral,,23.81,median,,check
+0346928AR,Jacaranda mimosifolia,False,Av Mistral,,14.7,median,28.1,check
+0346929AR,Jacaranda mimosifolia,False,Av Mistral,,14.03,median,28.1,check
+0346930AR,Jacaranda mimosifolia,False,Av Mistral,,12.56,median,28.25,check
+0346931AR,Jacaranda mimosifolia,False,Av Mistral,,10.34,median,29.94,check
+0346932AR,Jacaranda mimosifolia,False,C\ Rocafort,,11.73,median,27.7,check
+0346933AR,Jacaranda mimosifolia,False,Av Mistral,,14.51,median,26.11,check
+0346934AR,Jacaranda mimosifolia,False,Av Mistral,,15.67,median,27.68,check
+0346935AR,Jacaranda mimosifolia,False,Av Mistral,,14.8,median,29.53,check
+0346936AR,Jacaranda mimosifolia,False,Av Mistral,,17.69,median,4.14,check
+0346937AR,Jacaranda mimosifolia,False,Av Mistral,,16.51,median,4.0,check
+0346941AR,Liriodendron tulipifera,False,Av Mistral,,12.39,median,28.1,check
+0346944AR,Liriodendron tulipifera,False,Av Mistral,,11.96,median,27.66,check
+0346945AR,Liriodendron tulipifera,False,Av Mistral,,10.54,median,24.7,check
+0346947AR,Liriodendron tulipifera,False,Av Mistral,,11.27,median,31.61,check
+0346948AR,Styphnolobium japonicum,False,Av Mistral,,5.36,median,28.14,check
+0346949AR,Styphnolobium japonicum,False,Av Mistral,,5.9,median,30.85,check
+0346950AR,Styphnolobium japonicum,False,Av Mistral,,4.84,median,28.26,check
+0346951AR,Styphnolobium japonicum,False,C\ Rocafort,,21.29,median,33.23,check
+0346952AR,Styphnolobium japonicum,False,Av Mistral,,14.96,median,19.77,check
+0346954AR,Styphnolobium japonicum,False,Av Mistral,,6.18,median,27.74,check
+0346955AR,Styphnolobium japonicum,False,Av Mistral,,6.05,median,10.31,check
+0346956AR,Styphnolobium japonicum,False,Av Mistral,,5.06,median,12.57,check
+0346958AR,Styphnolobium japonicum,False,Av Mistral,,6.35,median,31.16,check
+0346959AR,Styphnolobium japonicum,False,Av Mistral,,6.2,median,28.14,check
+0346960AR,Styphnolobium japonicum,False,Av Mistral,,6.51,median,28.36,check
+0346961AR,Styphnolobium japonicum,False,Av Mistral,,6.83,median,27.61,check
+0346962AR,Styphnolobium japonicum,False,Av Mistral,,9.66,median,31.54,check
+0346963AR,Styphnolobium japonicum,False,C\ Rocafort,,5.36,median,,check
+0346964AR,Styphnolobium japonicum,False,Av Mistral,,6.76,median,32.76,check
+0346965AR,Styphnolobium japonicum,False,Av Mistral,,6.72,median,16.87,check
+0346966AR,Styphnolobium japonicum,False,Av Mistral,,6.84,median,22.9,check
+0346967AR,Styphnolobium japonicum,False,Av Mistral,,5.45,median,2.32,check
+0346968AR,Tipuana tipu,False,Av Mistral,,16.16,median,28.01,check
+0346969AR,Tipuana tipu,False,Av Mistral,,16.47,median,28.26,check
+0346995AR,Pyrus calleryana 'Chanticleer',False,Av Mistral,,7.06,median,31.49,check
+0347124AR,Ginkgo biloba,False,Av Mistral,,6.41,median,,check
+0347125AR,Pyrus calleryana 'Chanticleer',False,Av Mistral,,10.3,median,31.16,check
