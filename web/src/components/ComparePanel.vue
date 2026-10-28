@@ -22,7 +22,7 @@ const proj = computed(() => {
 })
 const keptAll = computed(() => {
   const k = state.trees.kept
-  return k.lon.map((lon, i) => [...proj.value(lon, k.lat[i]), k.crown_diam_m[i] / 2])
+  return k.lon.map((lon, i) => [...proj.value(lon, k.lat[i]), k.crown_diam_m[i] / 2, k.species[i]])
 })
 const kept = keptAll // all kept trees, for the bounding box and the 'Today' column
 const pos = computed(() => state.trees.positions.lon.map((lon, i) => proj.value(lon, state.trees.positions.lat[i])))
@@ -56,6 +56,40 @@ function crowns(layout) {
     return { x, y, r: (p.in_palette ? p.crown_diam_m : P.s0_crown_diam_m[i]) / 2, c: p.in_palette ? p.color : PLANE_COLOR }
   })
 }
+// Today: every tree in its species colour (palette species as in the palette, planes dark, other species light grey)
+const OTHER_COLOR = '#c9c6bd'
+const colorOf = computed(() => {
+  const m = new Map(state.meta.palette.filter((p) => p.in_palette).map((p) => [p.species, p.color]))
+  return (sp) => m.get(sp) ?? OTHER_COLOR
+})
+const inArea = (x, y) => {
+  const P = areaPts.value
+  if (!P) return true
+  let ins = false
+  for (let a = 0, b = P.length - 1; a < P.length; b = a++) {
+    const [xa, ya] = P[a], [xb, yb] = P[b]
+    if ((ya > y) !== (yb > y) && x < ((xb - xa) * (y - ya)) / (yb - ya) + xa) ins = !ins
+  }
+  return ins
+}
+const todayKept = computed(() => keptAll.value.map(([x, y, r, sp]) => ({ x, y, r, c: colorOf.value(sp), sp })))
+// species present today (in the project area, if one is drawn), most common first; the plane counts its positions
+const todayMix = computed(() => {
+  const n = new Map()
+  const plane = state.meta.palette.find((p) => !p.in_palette)
+  pos.value.forEach(([x, y], i) => {
+    if (inArea(x, y)) n.set(plane.species, (n.get(plane.species) ?? 0) + 1)
+  })
+  keptAll.value.forEach(([x, y, , sp]) => inArea(x, y) && n.set(sp, (n.get(sp) ?? 0) + 1))
+  const rows = [...n.entries()].sort((a, b) => b[1] - a[1])
+  const tot = rows.reduce((a, [, v]) => a + v, 0)
+  const top = rows.slice(0, 8)
+  const rest = rows.slice(8).reduce((a, [, v]) => a + v, 0)
+  const col = (sp) => (sp === plane.species ? PLANE_COLOR : colorOf.value(sp))
+  return [...top.map(([sp, v]) => ({ species: sp, short: sp.replace(/\s*×\s*/, ' ').split(' ').slice(0, 2).join(' '), n: v, w: (100 * v) / tot, color: col(sp) })),
+    ...(rest ? [{ species: 'other species', short: `${rows.length - 8} other species`, n: rest, w: (100 * rest) / tot, color: OTHER_COLOR }] : [])]
+})
+
 function mix(counts) {
   const n = Object.values(counts ?? {}).reduce((a, b) => a + b, 0)
   return state.meta.palette.filter((p) => counts?.[p.species]).map((p) => ({ ...p, n: counts[p.species], w: (100 * counts[p.species]) / n }))
@@ -66,8 +100,8 @@ const columns = computed(() => {
   const s0 = find('S0_current'), s1 = find('S1a_city_0')
   const L = state.trees.layouts
   const none = new Map()
-  const today = { title: 'Today', sub: 'Measured trees, mature planes', metrics: s0.metrics, counts: null, crowns: crowns(L.S0_current),
-    kept: keptIn(none), keptNew: [] }
+  const today = { title: 'Today', sub: 'Measured trees, by species', metrics: s0.metrics, counts: null, crowns: crowns(L.S0_current),
+    kept: [], keptNew: [], todayKept: true }
   const A = state.scenarioId === AREA && state.area
   if (A) {
     return [today,
@@ -101,17 +135,22 @@ const stage = computed(() => (state.meta?.run?.trunk_class === 'SEGONA' ? 'repla
 
 <template>
   <div class="compare">
-    <p class="head muted small">{{ state.scenarioId === AREA && state.area ? `${state.area.idx.length} of ${state.trees.positions.lon.length} plane positions replaced (project area; today's trees elsewhere)` : `All ${state.trees.positions.lon.length} plane positions` }}, {{ stage }}. Crowns drawn to scale; dark = today's planes, light grey = trees that are kept.
+    <p class="head muted small">{{ state.scenarioId === AREA && state.area ? `${state.area.idx.length} of ${state.trees.positions.lon.length} plane positions replaced (project area; today's trees elsewhere)` : `All ${state.trees.positions.lon.length} plane positions` }}, {{ stage }}. Crowns drawn to scale. Today: every tree in its species colour (planes dark, species outside the palette light grey; hover for the name).
+      Other columns: new trees in colour, kept trees grey.
       Heat is a shade proxy, not UTCI; canopy cover is a relative disc measure, compare between columns only.</p>
     <div class="cols">
       <section v-for="c in columns" :key="c.title" class="col">
         <h3>{{ c.title }}</h3>
         <p class="muted small sub">{{ c.sub }}</p>
         <svg :viewBox="viewBox" class="mini" role="img" :aria-label="`Tree crowns, ${c.title}`">
+          <template v-if="c.todayKept">
+            <circle v-for="(t, i) in todayKept" :key="'t' + i" :cx="t.x" :cy="t.y" :r="t.r" :fill="t.c" fill-opacity="0.8"><title>{{ t.sp }}</title></circle>
+          </template>
           <circle v-for="(k, i) in c.kept" :key="'k' + i" :cx="k[0]" :cy="k[1]" :r="k[2]" class="kept" />
           <circle v-for="(t, i) in c.keptNew" :key="'n' + i" :cx="t.x" :cy="t.y" :r="t.r" :fill="t.c" fill-opacity="0.75" />
           <polygon v-if="areaPath" :points="areaPath" class="area" />
-          <circle v-for="(t, i) in c.crowns" :key="i" :cx="t.x" :cy="t.y" :r="t.r" :fill="t.c" fill-opacity="0.75" />
+          <circle v-for="(t, i) in c.crowns" :key="i" :cx="t.x" :cy="t.y" :r="t.r" :fill="t.c" fill-opacity="0.75">
+            <title v-if="c.todayKept">{{ t.c === PLANE_COLOR ? 'Platanus × acerifolia' : '' }}</title></circle>
         </svg>
         <table class="kpi">
           <tr v-for="[k, name, unit, sign] in ROWS" :key="k">
@@ -121,6 +160,15 @@ const stage = computed(() => (state.meta?.run?.trunk_class === 'SEGONA' ? 'repla
               {{ c.title === 'Today' || c.metrics?.[k] == null || (c.live && k === 'canopy_pct') ? '' : fmtDelta(k, delta(k, c.metrics[k], today[k])) }}</td>
           </tr>
         </table>
+        <template v-if="c.todayKept">
+          <div class="mix" aria-label="Species present today">
+            <span v-for="m in todayMix" :key="m.species" :style="{ width: m.w + '%', background: m.color }" :title="`${m.species}: ${m.n}`"></span>
+          </div>
+          <p class="muted small">{{ state.scenarioId === AREA && state.area ? 'In the project area' : 'Whole site' }}: plane positions and the other street trees with LiDAR crowns.</p>
+          <ul class="mixlist small">
+            <li v-for="m in todayMix" :key="m.species"><span class="dot" :style="{ background: m.color }"></span>{{ m.short }} {{ m.n }}</li>
+          </ul>
+        </template>
         <div v-if="c.counts" class="mix" :aria-label="`Species mix, ${c.title}`">
           <span v-for="m in mix(c.counts)" :key="m.species" :style="{ width: m.w + '%', background: m.color }" :title="`${m.species}: ${m.n}`"></span>
         </div>
