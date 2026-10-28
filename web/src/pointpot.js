@@ -50,6 +50,35 @@ export function opacity(sp, month, K, OP_BARE) {
   return f * (1 - Math.exp(-K * sp.lai)) + (1 - f) * OP_BARE
 }
 
+// Potentials of one crown at grid metres (x, y): sp = { crown_diam_m, height_m, crown_base_m, lai, leaf[12] }
+export function crownPotential(G, P, x, y, sp) {
+  const [r, c] = rc(G, x, y)
+  const a = sp.crown_diam_m / 2
+  const b = Math.max(sp.height_m - sp.crown_base_m, 1) / 2
+  const zc = (sp.height_m + sp.crown_base_m) / 2
+  const out = {}
+  for (const season of ['summer', 'winter']) {
+    const op = opacity(sp, P.months[season], P.K, P.OP_BARE)
+    let tot = 0
+    P.suns[season].forEach(([alt, az], h) => {
+      const along = Math.sqrt(a * a * Math.sin(alt) ** 2 + b * b * Math.cos(alt) ** 2) / Math.sin(alt)
+      const off = Math.max(zc - P.Z_PED, 0) / Math.tan(alt)
+      const area = Math.PI * a * along
+      const [r2, c2] = rc(G, x - off * Math.sin(az), y - off * Math.cos(az))
+      const n = Math.max(1, Math.round(Math.sqrt(area) / G.res))
+      tot += boxMean(G, r2, c2, n, (q) => (G[season][q] >> h) & 1 & G.flags[q]) * area * op
+    })
+    out[season] = tot
+  }
+  const stor = P.storms.reduce((acc, [m, w]) => {
+    const g = P.R_OFF + (1 - P.R_OFF) * sp.leaf[m - 1]
+    return acc + w * Math.min(P.p_mm, P.s_mm_per_lai * sp.lai * g)
+  }, 0) / P.storms.reduce((acc, [, w]) => acc + w, 0)
+  const n = Math.max(1, Math.round(sp.crown_diam_m / G.res))
+  out.water = boxMean(G, r, c, n, (q) => (G.flags[q] & 3) === 3 ? 1 : 0) * Math.PI * a * a * stor / 1000
+  return out
+}
+
 // Potentials of every palette species at (lon, lat): { x, y, inSite, onRoof, facade_m, fit[], summer[], winter[], water[] }
 export function pointPotentials(G, M, lon, lat) {
   const [x, y] = G.toXY(lon, lat)
@@ -61,29 +90,9 @@ export function pointPotentials(G, M, lon, lat) {
   const out = { x, y, inSite: (G.flags[k] & 1) === 1, onRoof: (G.flags[k] & 4) === 4, facade_m: facade,
     fit: [], summer: [], winter: [], water: [] }
   for (const sp of species) {
-    const a = sp.crown_diam_m / 2
-    const b = Math.max(sp.height_m - sp.crown_base_m, 1) / 2
-    const zc = (sp.height_m + sp.crown_base_m) / 2
-    for (const season of ['summer', 'winter']) {
-      const op = opacity(sp, P.months[season], P.K, P.OP_BARE)
-      let tot = 0
-      P.suns[season].forEach(([alt, az], h) => {
-        const along = Math.sqrt(a * a * Math.sin(alt) ** 2 + b * b * Math.cos(alt) ** 2) / Math.sin(alt)
-        const off = Math.max(zc - P.Z_PED, 0) / Math.tan(alt)
-        const area = Math.PI * a * along
-        const [r2, c2] = rc(G, x - off * Math.sin(az), y - off * Math.cos(az))
-        const n = Math.max(1, Math.round(Math.sqrt(area) / G.res))
-        tot += boxMean(G, r2, c2, n, (q) => (G[season][q] >> h) & 1 & G.flags[q]) * area * op
-      })
-      out[season].push(tot)
-    }
-    const stor = P.storms.reduce((acc, [m, w]) => {
-      const g = P.R_OFF + (1 - P.R_OFF) * sp.leaf[m - 1]
-      return acc + w * Math.min(P.p_mm, P.s_mm_per_lai * sp.lai * g)
-    }, 0) / P.storms.reduce((acc, [, w]) => acc + w, 0)
-    const n = Math.max(1, Math.round(sp.crown_diam_m / G.res))
-    out.water.push(boxMean(G, r, c, n, (q) => (G.flags[q] & 3) === 3 ? 1 : 0) * Math.PI * a * a * stor / 1000)
-    out.fit.push(facade >= a ? 1 : 0)
+    const q = crownPotential(G, P, x, y, sp)
+    for (const key of ['summer', 'winter', 'water']) out[key].push(q[key])
+    out.fit.push(facade >= sp.crown_diam_m / 2 ? 1 : 0)
   }
   const share = (season) => P.suns[season].reduce((acc, _, h) => acc + ((G[season][k] >> h) & 1), 0) / P.suns[season].length
   out.sun_summer = share('summer')

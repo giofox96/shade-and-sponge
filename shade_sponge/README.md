@@ -147,6 +147,32 @@ Run: `python -m shade_sponge porta --size=exact --trunk=TERCERA` → `databases/
 - S0 is not at equal trunk size: it has today's measured planes, 2,600 trees, while each layout puts trees at all 832 plane positions, 25 more than S0's planes with good LiDAR crowns.
 - Additions (A, R+A): see the next section.
 
+## Growth stage: about 10 years vs established (28 Oct)
+Run: `python -m shade_sponge porta --size=exact --trunk=SEGONA` → `databases/barcelona/tool_v0_summary_sizeexact_trunkSEGONA.csv`; web: `porta-segona` (header switch "≈ 10 years | Established").
+
+**Stage definition:**
+- **About 10 years:** the second trunk class (SEGONA, 41–80 cm perimeter). Among the dated palette-species trees in the city inventory, the median time from planting to the LiDAR flight (26 Sept 2021) is 9.7 years (n = 4,213). Planting dates go back only about 14 years, so older trees are missing from this estimate.
+- **Established:** the third class (TERCERA, 81–110 cm), the thesis comparison above. Its dated trees have a median of 11.1 years, but that is censored by the same date limit, so no age is claimed for it.
+- **Planting (first class, PRIMERA):** not offered. Too few palette trees have crowns in Porta (Brachychiton 1, Tipuana 7, Jacaranda 9, Melia 10), and their LiDAR heights are implausible (Melia 12.2 m), probably small crowns segmented under larger ones.
+
+**Results** (all 832 positions, T2-60, balanced weights; S0 = today's measured trees in both rows):
+
+| Stage | S1a summer shade, % of today | Opt summer shade, % of today | Opt vs S1a, summer / winter shade | Total runoff vs today, S1a / Opt (m³) | Canopy (disc model), S1a / Opt |
+|---|---|---|---|---|---|
+| About 10 years | 75.5 | 81.8 | +8.4% / +7.6% | +84.4 / +64.1 | 20.5 / 21.0% |
+| Established | 87.4 | 98.3 | +12.4% / +6.4% | +54.1 / +20.2 | 21.5 / 22.2% |
+
+**Reading:**
+- **The transition costs a quarter of today's summer shade under the city's rule, and about a fifth with optimised species.** Both stages compare against today's mature planes.
+- **The optimised advantage is smaller at 10 years** (+8.4% vs +12.4%), because young crowns differ less between species.
+- **Every runoff difference still stays within Δmin** (91 m³), even against today. The stage barely moves the runoff answer.
+- **The 10-year optimised mix shifts to the species that grow wide fast:** Jacaranda 278 and Tipuana 284 (both at the cap), Styphnolobium 130, Melia 88, Brachychiton 38, Celtis 9, Pyrus 5.
+
+**Caveats:**
+- *Styphnolobium* keeps its city-wide all-class medians at both stages, so it is not staged, and it is favoured at 10 years. Treat its 130 trees with caution.
+- A trunk class is not an age class, and growth depends on site.
+- The dated trees are those planted since about 2007.
+
 ## Additions: R, A and R+A (24 Oct)
 **Spots:** `scripts/porta_planting_spots.py` → `databases/barcelona/porta_planting_spots.csv`, built in four steps:
 1. Walk every façade line of the 1:1000 map (same tiles and ray method as the sidewalk widths) and take the first road line beyond it as the kerb.
@@ -178,6 +204,20 @@ The result is **267 spots: 142 small, 53 medium, 72 large.** This is an **upper 
 - The spots are a ceiling, not a plan. Not modelled: driveways (> 1 m), traffic lights and signs (> 3 m), lamps (3 / 4.5 / 6.5 m), balcony clearance (0.5 m), crossings, bus stops and services.
 - A new spot is spaced by its own class only, so a small spot can sit 7–13 m from an existing large tree. This slightly overstates the count.
 - R scores 832 positions; S0 has 809 planes with good LiDAR crowns.
+
+### Canopy cover against the 30% target (28 Oct)
+**The gap:** Porta's measured cover is 20.1% (LiDAR CHM > 2 m, 2021; `databases/barcelona/porta_canopy_cover.csv`), against the plan's 30%. That is **9.9 points, about 8.3 ha of crowns**.
+
+**What street trees can close** (from the additions run above, disc model):
+- **All 267 free spots, optimised species:** **+0.70 pts**, reaching about **20.8%**, so about 7% of the gap. With the city's mix: +0.59 pts.
+- **Crown per new tree:** each optimised new tree adds on average about 22 m² of crown (0.70% × 83.7 ha / 267).
+- **Trees needed:** closing the gap would take about **3,800 street trees** of that size. That is 14 times the street spots found, which are themselves an upper bound.
+
+**Reading:**
+- **Additions are the lever on cover, replacement is not.** Every replacement layout lowers cover, and every additions layout raises it.
+- **Street trees alone cannot reach the 30%.** The rest has to come from squares, courtyards, parks and de-sealed ground (scale estimate; the 30% is a city-wide target, not a per-neighbourhood one).
+
+**In the web app:** a "Canopy cover" counter shows the layout on screen against the target. It starts from the measured 20.1% and adds the change of the disc model, and it rises with every added tree. For live layouts, project areas and added trees the change is a no-overlap sum, so it runs high.
 
 ## Genus and family check (24 Oct)
 Every layout now reports its largest genus and family share: `layout.taxon_shares`, with families from standard taxonomy. These are compared with Santamour's (1990) 20% per genus and 30% per family (values from `databases/barcelona/additions_summary.csv`; city rule = mean of its 5 seeds), and reported, not constrained, because Barcelona caps species only. The denominator is the evaluated tree set (good LiDAR crowns plus the new trees), so shares run slightly above the cap's 2,825-tree denominator.
