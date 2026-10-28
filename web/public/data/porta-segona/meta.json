@@ -417,7 +417,8 @@
     "shade_winter_m2h": 196218.3,
     "runoff_hot_m3": 2682.3,
     "runoff_m3": 17668.2,
-    "interception_m3": 794.4
+    "interception_m3": 794.4,
+    "canopy_pct": 23.3
    },
    "counts": {}
   },
@@ -432,7 +433,8 @@
     "shade_winter_m2h": 182763.2,
     "runoff_hot_m3": 2700.0,
     "runoff_m3": 17749.6,
-    "interception_m3": 690.2
+    "interception_m3": 690.2,
+    "canopy_pct": 20.3
    },
    "counts": {
     "Celtis australis": 127,
@@ -455,7 +457,8 @@
     "shade_winter_m2h": 182998.4,
     "runoff_hot_m3": 2700.2,
     "runoff_m3": 17748.6,
-    "interception_m3": 691.7
+    "interception_m3": 691.7,
+    "canopy_pct": 20.4
    },
    "counts": {
     "Celtis australis": 127,
@@ -478,7 +481,8 @@
     "shade_winter_m2h": 180708.7,
     "runoff_hot_m3": 2701.6,
     "runoff_m3": 17750.8,
-    "interception_m3": 689.0
+    "interception_m3": 689.0,
+    "canopy_pct": 20.3
    },
    "counts": {
     "Celtis australis": 127,
@@ -501,7 +505,8 @@
     "shade_winter_m2h": 181230.2,
     "runoff_hot_m3": 2701.0,
     "runoff_m3": 17749.5,
-    "interception_m3": 690.2
+    "interception_m3": 690.2,
+    "canopy_pct": 20.3
    },
    "counts": {
     "Celtis australis": 127,
@@ -524,7 +529,8 @@
     "shade_winter_m2h": 179811.5,
     "runoff_hot_m3": 2700.2,
     "runoff_m3": 17749.6,
-    "interception_m3": 689.8
+    "interception_m3": 689.8,
+    "canopy_pct": 20.3
    },
    "counts": {
     "Celtis australis": 127,
@@ -547,7 +553,8 @@
     "shade_winter_m2h": 181679.2,
     "runoff_hot_m3": 2700.5,
     "runoff_m3": 17750.0,
-    "interception_m3": 690.2
+    "interception_m3": 690.2,
+    "canopy_pct": 20.3
    },
    "counts": {
     "Celtis australis": 127,
@@ -570,7 +577,8 @@
     "shade_winter_m2h": 180896.9,
     "runoff_hot_m3": 2699.9,
     "runoff_m3": 17750.5,
-    "interception_m3": 689.2
+    "interception_m3": 689.2,
+    "canopy_pct": 20.3
    },
    "counts": {
     "Celtis australis": 127,
@@ -593,7 +601,8 @@
     "shade_winter_m2h": 179704.6,
     "runoff_hot_m3": 2699.9,
     "runoff_m3": 17750.2,
-    "interception_m3": 688.2
+    "interception_m3": 688.2,
+    "canopy_pct": 20.3
    },
    "counts": {
     "Celtis australis": 127,
@@ -616,7 +625,8 @@
     "shade_winter_m2h": 181256.0,
     "runoff_hot_m3": 2700.1,
     "runoff_m3": 17749.9,
-    "interception_m3": 689.8
+    "interception_m3": 689.8,
+    "canopy_pct": 20.3
    },
    "counts": {
     "Celtis australis": 127,
@@ -639,7 +649,8 @@
     "shade_winter_m2h": 182128.1,
     "runoff_hot_m3": 2700.5,
     "runoff_m3": 17749.4,
-    "interception_m3": 690.7
+    "interception_m3": 690.7,
+    "canopy_pct": 20.3
    },
    "counts": {
     "Celtis australis": 127,
@@ -662,7 +673,8 @@
     "shade_winter_m2h": 179411.2,
     "runoff_hot_m3": 2701.4,
     "runoff_m3": 17752.6,
-    "interception_m3": 687.0
+    "interception_m3": 687.0,
+    "canopy_pct": 20.5
    },
    "counts": {
     "Celtis australis": 127,
@@ -685,7 +697,8 @@
     "shade_winter_m2h": 178788.4,
     "runoff_hot_m3": 2701.3,
     "runoff_m3": 17752.5,
-    "interception_m3": 687.1
+    "interception_m3": 687.1,
+    "canopy_pct": 20.5
    },
    "counts": {
     "Celtis australis": 127,
@@ -708,7 +721,8 @@
     "shade_winter_m2h": 180527.2,
     "runoff_hot_m3": 2701.1,
     "runoff_m3": 17752.1,
-    "interception_m3": 687.6
+    "interception_m3": 687.6,
+    "canopy_pct": 20.5
    },
    "counts": {
     "Celtis australis": 127,
@@ -731,7 +745,8 @@
     "shade_winter_m2h": 178798.7,
     "runoff_hot_m3": 2701.0,
     "runoff_m3": 17752.4,
-    "interception_m3": 687.3
+    "interception_m3": 687.3,
+    "canopy_pct": 20.5
    },
    "counts": {
     "Celtis australis": 127,
@@ -754,7 +769,8 @@
     "shade_winter_m2h": 178435.8,
     "runoff_hot_m3": 2701.1,
     "runoff_m3": 17753.3,
-    "interception_m3": 686.2
+    "interception_m3": 686.2,
+    "canopy_pct": 20.4
    },
    "counts": {
     "Celtis australis": 127,
@@ -777,7 +793,8 @@
     "shade_winter_m2h": 179125.0,
     "runoff_hot_m3": 2701.3,
     "runoff_m3": 17753.3,
-    "interception_m3": 686.1
+    "interception_m3": 686.1,
+    "canopy_pct": 20.4
    },
    "counts": {
     "Celtis australis": 127,
@@ -800,7 +817,8 @@
     "shade_winter_m2h": 178114.4,
     "runoff_hot_m3": 2701.4,
     "runoff_m3": 17752.8,
-    "interception_m3": 686.8
+    "interception_m3": 686.8,
+    "canopy_pct": 20.5
    },
    "counts": {
     "Celtis australis": 127,
@@ -823,7 +841,8 @@
     "shade_winter_m2h": 181621.5,
     "runoff_hot_m3": 2701.4,
     "runoff_m3": 17752.2,
-    "interception_m3": 687.7
+    "interception_m3": 687.7,
+    "canopy_pct": 20.5
    },
    "counts": {
     "Celtis australis": 127,
@@ -846,7 +865,8 @@
     "shade_winter_m2h": 178991.2,
     "runoff_hot_m3": 2701.4,
     "runoff_m3": 17752.3,
-    "interception_m3": 687.2
+    "interception_m3": 687.2,
+    "canopy_pct": 20.5
    },
    "counts": {
     "Celtis australis": 127,
@@ -869,7 +889,8 @@
     "shade_winter_m2h": 179092.6,
     "runoff_hot_m3": 2701.0,
     "runoff_m3": 17752.7,
-    "interception_m3": 686.8
+    "interception_m3": 686.8,
+    "canopy_pct": 20.5
    },
    "counts": {
     "Celtis australis": 127,
@@ -896,7 +917,8 @@
     "shade_winter_m2h": 183575.4,
     "runoff_hot_m3": 2694.0,
     "runoff_m3": 17733.4,
-    "interception_m3": 710.4
+    "interception_m3": 710.4,
+    "canopy_pct": 20.8
    },
    "counts": {
     "Celtis australis": 9,
@@ -923,7 +945,8 @@
     "shade_winter_m2h": 169630.0,
     "runoff_hot_m3": 2694.0,
     "runoff_m3": 17752.7,
-    "interception_m3": 685.0
+    "interception_m3": 685.0,
+    "canopy_pct": 20.1
    },
    "counts": {
     "Celtis australis": 127,
@@ -950,7 +973,8 @@
     "shade_winter_m2h": 168393.2,
     "runoff_hot_m3": 2694.2,
     "runoff_m3": 17752.7,
-    "interception_m3": 684.5
+    "interception_m3": 684.5,
+    "canopy_pct": 20.1
    },
    "counts": {
     "Celtis australis": 127,
@@ -977,7 +1001,8 @@
     "shade_winter_m2h": 159567.9,
     "runoff_hot_m3": 2699.4,
     "runoff_m3": 17755.8,
-    "interception_m3": 678.7
+    "interception_m3": 678.7,
+    "canopy_pct": 20.0
    },
    "counts": {
     "Celtis australis": 127,
@@ -1004,7 +1029,8 @@
     "shade_winter_m2h": 159112.7,
     "runoff_hot_m3": 2702.4,
     "runoff_m3": 17756.5,
-    "interception_m3": 677.6
+    "interception_m3": 677.6,
+    "canopy_pct": 20.0
    },
    "counts": {
     "Celtis australis": 127,
@@ -1031,7 +1057,8 @@
     "shade_winter_m2h": 198334.5,
     "runoff_hot_m3": 2694.0,
     "runoff_m3": 17732.2,
-    "interception_m3": 714.0
+    "interception_m3": 714.0,
+    "canopy_pct": 21.0
    },
    "counts": {
     "Celtis australis": 11,
@@ -1058,7 +1085,8 @@
     "shade_winter_m2h": 182554.5,
     "runoff_hot_m3": 2694.0,
     "runoff_m3": 17733.6,
-    "interception_m3": 710.0
+    "interception_m3": 710.0,
+    "canopy_pct": 20.8
    },
    "counts": {
     "Celtis australis": 9,
@@ -1085,7 +1113,8 @@
     "shade_winter_m2h": 171505.2,
     "runoff_hot_m3": 2695.6,
     "runoff_m3": 17738.8,
-    "interception_m3": 702.4
+    "interception_m3": 702.4,
+    "canopy_pct": 20.6
    },
    "counts": {
     "Celtis australis": 43,
@@ -1112,7 +1141,8 @@
     "shade_winter_m2h": 162950.3,
     "runoff_hot_m3": 2700.9,
     "runoff_m3": 17748.8,
-    "interception_m3": 689.8
+    "interception_m3": 689.8,
+    "canopy_pct": 20.4
    },
    "counts": {
     "Celtis australis": 114,
@@ -1139,7 +1169,8 @@
     "shade_winter_m2h": 198643.1,
     "runoff_hot_m3": 2694.1,
     "runoff_m3": 17732.2,
-    "interception_m3": 713.9
+    "interception_m3": 713.9,
+    "canopy_pct": 21.0
    },
    "counts": {
     "Celtis australis": 11,
@@ -1166,7 +1197,8 @@
     "shade_winter_m2h": 192927.8,
     "runoff_hot_m3": 2694.4,
     "runoff_m3": 17732.3,
-    "interception_m3": 714.5
+    "interception_m3": 714.5,
+    "canopy_pct": 21.0
    },
    "counts": {
     "Celtis australis": 9,
@@ -1193,7 +1225,8 @@
     "shade_winter_m2h": 176526.6,
     "runoff_hot_m3": 2697.5,
     "runoff_m3": 17735.8,
-    "interception_m3": 706.3
+    "interception_m3": 706.3,
+    "canopy_pct": 20.7
    },
    "counts": {
     "Celtis australis": 10,
@@ -1220,7 +1253,8 @@
     "shade_winter_m2h": 198838.0,
     "runoff_hot_m3": 2694.1,
     "runoff_m3": 17732.3,
-    "interception_m3": 713.9
+    "interception_m3": 713.9,
+    "canopy_pct": 21.0
    },
    "counts": {
     "Celtis australis": 11,
@@ -1247,7 +1281,8 @@
     "shade_winter_m2h": 194111.8,
     "runoff_hot_m3": 2695.9,
     "runoff_m3": 17732.8,
-    "interception_m3": 713.8
+    "interception_m3": 713.8,
+    "canopy_pct": 21.0
    },
    "counts": {
     "Celtis australis": 10,
@@ -1274,7 +1309,8 @@
     "shade_winter_m2h": 199357.3,
     "runoff_hot_m3": 2695.2,
     "runoff_m3": 17733.0,
-    "interception_m3": 713.8
+    "interception_m3": 713.8,
+    "canopy_pct": 21.0
    },
    "counts": {
     "Celtis australis": 15,

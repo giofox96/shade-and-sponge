@@ -6,6 +6,7 @@ import PriorityTriangle from './components/PriorityTriangle.vue'
 import TradeoffChart from './components/TradeoffChart.vue'
 import KpiPanel from './components/KpiPanel.vue'
 import TreeInspector from './components/TreeInspector.vue'
+import ComparePanel from './components/ComparePanel.vue'
 
 onMounted(() => load())
 
@@ -60,6 +61,9 @@ watch(
           <button :class="{ on: state.scenarioId === 'S1a_city_0' }" @click="state.scenarioId = 'S1a_city_0'">City rule</button>
           <button :class="{ on: state.scenarioId === 'S1_random_0' }" @click="state.scenarioId = 'S1_random_0'">Random palette</button>
           <button :class="{ on: state.scenarioId.startsWith('S4') }" @click="state.scenarioId = BALANCED">Optimised</button>
+        </div>
+        <div class="btns">
+          <button :class="{ on: state.compare }" :aria-pressed="state.compare" @click="state.compare = !state.compare">{{ state.compare ? 'Back to the map' : 'Compare side by side' }}</button>
         </div>
       </section>
       <section>
@@ -131,7 +135,7 @@ watch(
       </section>
     </aside>
 
-    <main><MapView :key="state.site" /></main>
+    <main><ComparePanel v-if="state.compare" /><MapView v-else :key="state.site" /></main>
 
     <aside class="right">
       <section><h3>Results</h3><KpiPanel /></section>

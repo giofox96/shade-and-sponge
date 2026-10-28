@@ -64,7 +64,7 @@ for i, s in enumerate(sp):
 
 # scenarios with metrics (layout species per position only for the ones in the layouts file)
 idx = {s: i for i, s in enumerate(sp)}
-metrics = ["shade_summer_m2h", "shade_winter_m2h", "runoff_hot_m3", "runoff_m3", "interception_m3"]
+metrics = ["shade_summer_m2h", "shade_winter_m2h", "runoff_hot_m3", "runoff_m3", "interception_m3", "canopy_pct"]
 scen, layouts = [], {}
 for _, r in S.iterrows():
     sc = r.scenario

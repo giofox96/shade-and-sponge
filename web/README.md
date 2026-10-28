@@ -18,6 +18,16 @@ The published data use the **thesis configuration** (since 26 Oct): the exact si
 ## Data (`web/public/data/<site>/`, from `shade_sponge/web_export.py`)
 `meta.json` (palette with leaf calendars and sources, scenarios with metrics, sensitivity, overlays) · `trees.json` (plane positions, kept trees, species per position for each saved layout) · `potentials.json` (per-position shade and interception potentials + façade fit, for live optimisation) · `buildings.geojson` · overlay PNGs (winter sun, summer sun, water convergence, flood hotspots). The map is flat: heights are metres above local ground.
 
+## Compare side by side (28 Oct)
+The **Compare side by side** button (left panel, Layout) replaces the 3D map with three columns: **today | city rule | optimised**. The optimised column is the selected or live layout, otherwise the balanced one.
+- **Mini-map:** each column draws every crown to scale. Plane positions are coloured by species, today's planes are dark, kept trees are light grey.
+- **Metrics:** summer and winter shade, hotspot and total runoff, and canopy cover, each against today. Canopy cover is shown in percentage points.
+- **Species mix** of the replanted positions.
+- **City-rule column:** the metrics are the mean of its 10 draws; the map and mix show draw #0.
+- **Stage:** the "≈ 10 years | Established" switch applies to all three columns.
+- **Layout:** the three columns sit side by side from about 1,300 px of window width and stack on narrower screens.
+- **Canopy cover** is a new exported metric (`canopy_pct`). Live layouts show no canopy value.
+
 ## Palettes and designer mode (9 Oct)
 - **Palette switch** (header): the city palette, 7 species: the city's 6 named replacements + Styphnolobium (`data/porta/`) or the Barcelona shortlist of 34 species (`data/porta-barcelona/`, from `python -m shade_sponge porta --palette=barcelona` and `python -m shade_sponge.web_export porta --palette=barcelona`). With 34 species, crowns are coloured by leaf habit (hue) and crown size (lightness); the species is in the tooltip and the inspector.
 - **Add trees** (left panel, Design): click open ground to place a tree. The browser computes its summer shade, winter shade, interception and façade fit for every palette species at that point (`src/pointpot.js`, a port of the Python formulas on `grid.bin.gz`: sun bits per design hour, ground flags, façade distance), recommends the best species for the current priorities, and adds it to the estimates and to live re-optimisation. Roofs, ground outside the site and points under 1 m from a building are refused; under 4 m from another tree gives a warning (ASSUMPTION). At the 832 plane positions the port matches the Python potentials with a median difference of 0.01% of each position's largest value (95% within ~2%). No sidewalk data yet: the designer decides where planting is possible.
