@@ -13,7 +13,9 @@ Outputs: raw/lidar/<slug>_{dtm,chm,bldg}_05m.tif
 Memory: the points of the whole extent are held at once (x, y, z, class); 8 tiles for Sant Antoni (0.8 km²)."""
 import sys, datetime, pathlib, numpy as np, pandas as pd, laspy, rasterio, requests
 from rasterio.transform import from_origin
-from rasterio.features import rasterize
+from rasterio.features import rasterize, shapes
+from shapely.geometry import shape
+import geopandas as gpd
 from scipy import ndimage
 from skimage.segmentation import watershed
 
@@ -144,9 +146,16 @@ else:
     out.to_csv(out_dir / "trees_lidar.csv", index=False)
     print(f"trees: {len(out)} ({out.is_plane.sum()} planes), ok {(out.flag == 'ok').mean():.0%}; flags:", out.flag.value_counts().to_dict())
 
-# ---- 4. buildings: OSM footprints + LiDAR height (median of roof heights inside footprint)
-bld = osm(site.buffer(BUFFER_M).to_crs(4326).iloc[0], {"building": True})
-bld = bld[bld.geom_type.isin(["Polygon", "MultiPolygon"])].to_crs(25831).reset_index()[["geometry"]]
+# ---- 4. buildings: OSM footprints + LiDAR height (median of roof heights inside footprint). If Overpass stays busy,
+# footprints from the LiDAR building class itself (cells > 2.5 m, opened once, parts >= 10 m²; source = "lidar")
+try:
+    bld = osm(site.buffer(BUFFER_M).to_crs(4326).iloc[0], {"building": True}, tries=3)
+    bld = bld[bld.geom_type.isin(["Polygon", "MultiPolygon"])].to_crs(25831).reset_index()[["geometry"]].assign(source="osm")
+except Exception as e:
+    print(f"WARNING: no OSM buildings ({type(e).__name__}); footprints from the LiDAR building points instead")
+    m = ndimage.binary_opening(np.nan_to_num(bldg) > 2.5).astype("uint8")
+    bld = gpd.GeoDataFrame(geometry=[shape(g) for g, v in shapes(m, mask=m.astype(bool), transform=T)], crs=25831)
+    bld = bld[bld.area >= 10].reset_index(drop=True).assign(source="lidar")
 lab_b = rasterize(((geom, i + 1) for i, geom in enumerate(bld.geometry)), out_shape=(H, W), transform=T, fill=0, dtype="int32")
 bi = np.arange(1, len(bld) + 1)
 bld["height_m"] = np.round(ndimage.median(np.nan_to_num(bldg, nan=0), lab_b, bi), 2)
@@ -154,4 +163,4 @@ bld["lidar_cover"] = np.round(ndimage.mean(~np.isnan(bldg), lab_b, bi), 2)
 bld["ground_z"] = np.round(ndimage.median(dtm, lab_b, bi), 2)
 bld = bld[(bld.height_m > 2.5) & (bld.lidar_cover > 0.3)]
 bld.to_file(out_dir / "buildings.geojson", driver="GeoJSON")
-print(f"buildings: {len(bld)} OSM footprints with LiDAR height; median {bld.height_m.median():.1f} m")
+print(f"buildings: {len(bld)} footprints ({bld.source.iloc[0]}) with LiDAR height; median {bld.height_m.median():.1f} m")

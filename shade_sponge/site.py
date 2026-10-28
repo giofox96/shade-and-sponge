@@ -137,9 +137,13 @@ def _build(site, buf, bld, ndvi_of, lidar, trees):
     ndvi = ndvi_of(grid)
     ndvi[(ndvi < -1) | (ndvi > 1)] = np.nan
     chm = grid(f"{lidar}_chm_05m.tif")
-    green = osm(site.to_crs(4326).iloc[0].geometry, {"leisure": ["park", "garden"], "landuse": ["grass"]})
-    green = green[green.geom_type.isin(["Polygon", "MultiPolygon"])].to_crs(25831)
-    osm_green = rasterize(((g, 1) for g in green.geometry), out_shape=(H, W), transform=T, fill=0).astype(bool)
+    try:
+        green = osm(site.to_crs(4326).iloc[0].geometry, {"leisure": ["park", "garden"], "landuse": ["grass"]}, tries=3)
+        green = green[green.geom_type.isin(["Polygon", "MultiPolygon"])].to_crs(25831)
+        osm_green = rasterize(((g, 1) for g in green.geometry), out_shape=(H, W), transform=T, fill=0).astype(bool)
+    except Exception as e:                               # pervious ground then comes from NDVI alone
+        print(f"WARNING: no OSM green areas ({type(e).__name__}); pervious ground from NDVI only. Delete the cache and rebuild later")
+        osm_green = np.zeros((H, W), bool)
     P = json.load(open(DB / "runoff_params.json"))
     pervious = domain & ~roof & (((np.nan_to_num(ndvi) >= P["ndvi_green"]) & (np.nan_to_num(chm) < 2)) | osm_green)
     cn = np.where(roof, P["cn_roof"], np.where(pervious, P["cn_pervious"], P["cn_sealed"])).astype("float32")
