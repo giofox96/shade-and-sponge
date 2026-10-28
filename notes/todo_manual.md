@@ -1,6 +1,6 @@
 # Manual to-do (things only you can do)
 
-*8 Oct 2026, updated 26 Oct. Tick items off here, or tell me and I'll update the file. Where a file should go, it's named in each item.*
+*8 Oct 2026, updated 28 Oct. Tick items off here, or tell me and I'll update the file. Where a file should go, it's named in each item.*
 
 ## Fast track to the 10 Nov tutor session (only you can do these; in order)
 1. [ ] **Watch for the Parcs i Jardins reply** (sent 24 Oct). Forward it to me as soon as it arrives: a current per-street list would replace S1.
@@ -10,7 +10,7 @@
    - Kendal, Dobbs & Lohr 2014 (diversity benchmarks, 108 cities).
 3. [ ] **Ladybug Tier 1 on one Porta street, S0 vs one replacement** (≈1 evening). This is the first real UTCI number for the deck: mean UTCI 12–17 h, hot design day. I prepare the files in `exchange/to_gh/` and you run it in Grasshopper. Tell me which day you can do it.
 4. [ ] **RM cluster map by hand on Miro, by Tue 27 Oct** (below).
-5. [ ] **Ask the tutor by email (one line):** is Infrared City access possible before 10 Nov? If yes, it replaces item 3.
+5. [x] **Infrared City email sent to the tutor (28 Oct)** for him to forward: what I need it for, estimated use (~160 runs core, up to ~500 with a surrogate; ~1,600 to ~5,000 tokens) and the three questions (text: `notes/email_infrared_city.md`). **Waiting for the reply.** When access arrives: run `preview_area` on Porta first to get the real job count, then the UTCI for S0 and S1a on one street. If it works, it replaces item 3 (Ladybug Tier 1). Reminder to the tutor on ~3 Nov if no reply.
 6. [x] **Baseline decided (24 Oct): S1a**, the 2026 mix. S1b, the 2004 table, is cited only.
 7. [ ] Pick a day before 10 Nov for a 20-min **dry run of the deck** with me (problem → RQ → flowcharts → first results → validation).
 
@@ -52,7 +52,7 @@ The user lives in Florence (15 Oct), so **no field photos in Porta**. Remote alt
 - [ ] **Email the tutor** (one email, or bring it to the meeting):
   - [x] RESCCUE **flood depth maps**: found on 13 Oct as public tables (T10, T100, present/future) in the atlas's CARTO account, no login needed (`databases/data_inventory_barcelona.md` B1). Still worth asking: licence for thesis use, and whether a T = 1 yr run exists.
   - [x] **Sent 13 Oct: RESCCUE licence email** to br@bcnregional.com; waiting for the reply; reminder by ~23 Oct if none (text and steps: `notes/resccue_data_request.md`).
-  - [ ] **Infrared City access**, plus three questions: (a) how are trees represented: geometry only, or porosity/LAI per species? (The 2020–2022 InFraReD papers have no trees in their microclimate models, only green space as an area: matrix #144–#146, read 28 Oct.) (b) API limits for thousands of runs; (c) published validation against ENVI-met or Ladybug.
+  - [x] **Infrared City access** (sent 28 Oct, waiting for the reply), plus three questions: (a) how are trees represented: geometry only, or porosity/LAI per species? (The 2020–2022 InFraReD papers have no trees in their microclimate models, only green space as an area: matrix #144–#146, read 28 Oct.) (b) API limits for thousands of runs; (c) published validation against ENVI-met or Ladybug.
   - [ ] Confirm the **final delivery date** (18 Dec?), and whether **Grasshopper integration** is required by the programme.
   - [ ] Slide format for the 5-min talk (Google Slides assumed).
   - [ ] Ask the tutor (now on slide 12): we removed H3 because it is true by construction of the model and declared it a boundary instead — is that the right call?
