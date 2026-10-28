@@ -10,13 +10,23 @@ python -m shade_sponge porta --size=exact --trunk=TERCERA             # tool run
 python -m shade_sponge.web_export porta --size=exact --trunk=TERCERA  # writes web/public/data/porta/
 cd web && npm install && npm run dev
 ```
-The published data use the **thesis configuration** (since 26 Oct): the exact sidewalk sizing rule and species traits at equal trunk size (TERCERA), with the city rule (S1a, the 2026 mix) as the comparison column. Without the two options you get the default run (no sizing rule, traits from all trunk sizes). For the Barcelona shortlist add `--palette=barcelona` to both commands.
+The published data use the **thesis configuration** (since 26 Oct): the exact sidewalk sizing rule and species traits at equal trunk size (TERCERA), with the city rule (S1a, the 2026 mix) as the comparison column. Without the two options you get the default run (no sizing rule, traits from all trunk sizes). For the Barcelona shortlist add `--palette=barcelona` to both commands. The header switch **≈ 10 years | Established** loads `data/porta-segona/` (`--trunk=SEGONA`, the second trunk class, a median of 9.7 years after planting) or `data/porta/` (`--trunk=TERCERA`); city palette only.
 `npm run build` writes a static site to `web/dist/` (relative paths, so it can be hosted anywhere).
 
 **Online:** https://giofox96.github.io/shade-and-sponge/ — `.github/workflows/pages.yml` rebuilds and publishes `web/dist` to the `gh-pages` branch whenever `web/` changes on `main` or `claude/web-ui`. Data credits are in the app's left panel (Data and sources).
 
 ## Data (`web/public/data/<site>/`, from `shade_sponge/web_export.py`)
 `meta.json` (palette with leaf calendars and sources, scenarios with metrics, sensitivity, overlays) · `trees.json` (plane positions, kept trees, species per position for each saved layout) · `potentials.json` (per-position shade and interception potentials + façade fit, for live optimisation) · `buildings.geojson` · overlay PNGs (winter sun, summer sun, water convergence, flood hotspots). The map is flat: heights are metres above local ground.
+
+## Compare side by side (28 Oct)
+The **Compare side by side** button (left panel, Layout) replaces the 3D map with three columns: **today | city rule | optimised**. The optimised column is the selected or live layout, otherwise the balanced one.
+- **Mini-map:** each column draws every crown to scale. Plane positions are coloured by species, today's planes are dark, kept trees are light grey.
+- **Metrics:** summer and winter shade, hotspot and total runoff, and canopy cover, each against today. Canopy cover is shown in percentage points.
+- **Species mix** of the replanted positions.
+- **City-rule column:** the metrics are the mean of its 10 draws; the map and mix show draw #0.
+- **Stage:** the "≈ 10 years | Established" switch applies to all three columns.
+- **Layout:** the three columns sit side by side from about 1,300 px of window width and stack on narrower screens.
+- **Canopy cover** is a new exported metric (`canopy_pct`). Live layouts show no canopy value.
 
 ## Palettes and designer mode (9 Oct)
 - **Palette switch** (header): the city palette, 7 species: the city's 6 named replacements + Styphnolobium (`data/porta/`) or the Barcelona shortlist of 34 species (`data/porta-barcelona/`, from `python -m shade_sponge porta --palette=barcelona` and `python -m shade_sponge.web_export porta --palette=barcelona`). With 34 species, crowns are coloured by leaf habit (hue) and crown size (lightness); the species is in the tooltip and the inspector.

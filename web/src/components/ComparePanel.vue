@@ -1,0 +1,119 @@
+<script setup>
+// Side-by-side comparison: today | city rule (S1a) | optimised. Each column draws every street-tree crown to scale
+// (plane positions coloured by species, kept trees grey) and lists the headline metrics against today.
+import { computed } from 'vue'
+import { state, scenario, cityMean, label, BALANCED, LIVE } from '../store.js'
+
+const ROWS = [
+  ['shade_summer_m2h', 'Summer shade', 'm²·h', 1],
+  ['shade_winter_m2h', 'Winter shade', 'm²·h', -1],
+  ['runoff_hot_m3', 'Runoff to hotspots', 'm³', -1],
+  ['runoff_m3', 'Total runoff', 'm³', -1],
+  ['canopy_pct', 'Canopy cover', '%', 1],
+]
+const find = (id) => state.meta.scenarios.find((s) => s.id === id)
+const PLANE_COLOR = '#444441' // today's planes, as 'Current trees' in the trade-off chart (kept trees stay grey)
+
+// Local metres from WGS84 (equirectangular around the site centre): enough for a 1 km site
+const proj = computed(() => {
+  const [lon0, lat0] = state.meta.site.center
+  const kx = 111320 * Math.cos((lat0 * Math.PI) / 180), ky = 110540
+  return (lon, lat) => [(lon - lon0) * kx, (lat0 - lat) * ky]
+})
+const kept = computed(() => {
+  const k = state.trees.kept
+  return k.lon.map((lon, i) => [...proj.value(lon, k.lat[i]), k.crown_diam_m[i] / 2])
+})
+const pos = computed(() => state.trees.positions.lon.map((lon, i) => proj.value(lon, state.trees.positions.lat[i])))
+const viewBox = computed(() => {
+  const xs = [...kept.value, ...pos.value].map((p) => p[0]), ys = [...kept.value, ...pos.value].map((p) => p[1])
+  const [x0, x1, y0, y1] = [Math.min(...xs), Math.max(...xs), Math.min(...ys), Math.max(...ys)]
+  return `${x0 - 10} ${y0 - 10} ${x1 - x0 + 20} ${y1 - y0 + 20}`
+})
+
+function crowns(layout, isS0) {
+  const P = state.trees.positions, pal = state.meta.palette
+  return pos.value.map(([x, y], i) => {
+    const p = pal[layout[i]]
+    return { x, y, r: (isS0 ? P.s0_crown_diam_m[i] : p.crown_diam_m) / 2, c: p.in_palette ? p.color : PLANE_COLOR }
+  })
+}
+function mix(counts) {
+  const n = Object.values(counts ?? {}).reduce((a, b) => a + b, 0)
+  return state.meta.palette.filter((p) => counts?.[p.species]).map((p) => ({ ...p, n: counts[p.species], w: (100 * counts[p.species]) / n }))
+}
+
+const columns = computed(() => {
+  if (!state.meta || !state.trees) return []
+  const s0 = find('S0_current'), s1 = find('S1a_city_0')
+  const optId = state.scenarioId === LIVE || state.scenarioId.startsWith('S4') ? state.scenarioId : BALANCED
+  const opt = optId === LIVE ? scenario.value : find(optId)
+  const optLayout = optId === LIVE ? state.live.layout : state.trees.layouts[optId]
+  const L = state.trees.layouts
+  return [
+    { title: 'Today', sub: 'Measured trees, mature planes', metrics: s0.metrics, counts: null, crowns: crowns(L.S0_current, true) },
+    s1 && { title: 'City rule', sub: 'Metrics: mean of 10 draws of the 2026 mix · map and mix: draw #0', metrics: cityMean.value,
+            counts: s1.counts, crowns: crowns(L.S1a_city_0, false) },
+    { title: 'Optimised', sub: label(opt), metrics: opt.metrics, counts: opt.counts, crowns: crowns(optLayout, false), live: optId === LIVE },
+  ].filter(Boolean)
+})
+const today = computed(() => find('S0_current')?.metrics ?? {})
+const pct = (a, b) => (b ? 100 * (a / b - 1) : 0)
+// change vs today: relative % for amounts, percentage points for canopy cover (already a share)
+const delta = (k, a, b) => (k === 'canopy_pct' ? a - b : pct(a, b))
+const fmtDelta = (k, v) => `${v > 0 ? '+' : ''}${v.toFixed(k === 'canopy_pct' || Math.abs(v) < 1 ? 1 : 0)}${k === 'canopy_pct' ? ' pts' : '%'}`
+const fmtVal = (k, v) => (v == null ? '—' : k === 'canopy_pct' ? v.toFixed(1) : Math.round(v).toLocaleString('en'))
+const tone = (v, sign) => (Math.abs(v) < 0.05 ? '' : v * sign > 0 ? 'good' : 'bad')
+const stage = computed(() => (state.meta?.run?.trunk_class === 'SEGONA' ? 'replacements at about 10 years' : 'replacements established'))
+</script>
+
+<template>
+  <div class="compare">
+    <p class="head muted small">All {{ state.trees.positions.lon.length }} plane positions, {{ stage }}. Crowns drawn to scale; dark = today's planes, light grey = trees that are kept.
+      Heat is a shade proxy, not UTCI; canopy cover is a relative disc measure, compare between columns only.</p>
+    <div class="cols">
+      <section v-for="c in columns" :key="c.title" class="col">
+        <h3>{{ c.title }}</h3>
+        <p class="muted small sub">{{ c.sub }}</p>
+        <svg :viewBox="viewBox" class="mini" role="img" :aria-label="`Tree crowns, ${c.title}`">
+          <circle v-for="(k, i) in kept" :key="'k' + i" :cx="k[0]" :cy="k[1]" :r="k[2]" class="kept" />
+          <circle v-for="(t, i) in c.crowns" :key="i" :cx="t.x" :cy="t.y" :r="t.r" :fill="t.c" fill-opacity="0.75" />
+        </svg>
+        <table class="kpi">
+          <tr v-for="[k, name, unit, sign] in ROWS" :key="k">
+            <td>{{ name }}</td>
+            <td class="num">{{ c.live && k === 'canopy_pct' ? '—' : fmtVal(k, c.metrics?.[k]) }} <span class="u">{{ unit }}</span></td>
+            <td class="num" :class="c.title === 'Today' || c.metrics?.[k] == null ? '' : tone(delta(k, c.metrics[k], today[k]), sign)">
+              {{ c.title === 'Today' || c.metrics?.[k] == null || (c.live && k === 'canopy_pct') ? '' : fmtDelta(k, delta(k, c.metrics[k], today[k])) }}</td>
+          </tr>
+        </table>
+        <div v-if="c.counts" class="mix" :aria-label="`Species mix, ${c.title}`">
+          <span v-for="m in mix(c.counts)" :key="m.species" :style="{ width: m.w + '%', background: m.color }" :title="`${m.species}: ${m.n}`"></span>
+        </div>
+        <ul v-if="c.counts" class="mixlist small">
+          <li v-for="m in mix(c.counts)" :key="m.species"><span class="dot" :style="{ background: m.color }"></span>{{ m.short }} {{ m.n }}</li>
+        </ul>
+      </section>
+    </div>
+  </div>
+</template>
+
+<style scoped>
+.compare { height: 100%; overflow: auto; padding: 12px 16px; box-sizing: border-box; background: var(--bg, #fff); }
+.head { margin: 0 0 8px; }
+.cols { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 14px; }
+.col { min-width: 0; }
+.col h3 { margin: 0; font-size: 14px; }
+.sub { margin: 2px 0 6px; min-height: 2.6em; }
+.mini { width: 100%; height: auto; max-height: 46vh; background: #f4f3ef; border-radius: 4px; display: block; }
+.kept { fill: #b4b2a9; fill-opacity: 0.55; }
+.kpi { width: 100%; border-collapse: collapse; font-size: 12px; margin-top: 8px; }
+.kpi td { padding: 3px 4px; border-top: 0.5px solid var(--line, #ddd); }
+.num { text-align: right; white-space: nowrap; }
+.u { color: var(--muted, #777); font-size: 11px; }
+.good { color: #3b6d11; }
+.bad { color: #a32d2d; }
+.mix { display: flex; height: 10px; border-radius: 3px; overflow: hidden; margin: 8px 0 4px; gap: 1px; }
+.mixlist { list-style: none; padding: 0; margin: 0; display: flex; flex-wrap: wrap; gap: 2px 10px; }
+.dot { display: inline-block; width: 8px; height: 8px; border-radius: 50%; margin-right: 4px; }
+</style>

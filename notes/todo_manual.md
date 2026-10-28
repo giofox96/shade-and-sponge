@@ -52,7 +52,7 @@ The user lives in Florence (15 Oct), so **no field photos in Porta**. Remote alt
 - [ ] **Email the tutor** (one email, or bring it to the meeting):
   - [x] RESCCUE **flood depth maps**: found on 13 Oct as public tables (T10, T100, present/future) in the atlas's CARTO account, no login needed (`databases/data_inventory_barcelona.md` B1). Still worth asking: licence for thesis use, and whether a T = 1 yr run exists.
   - [x] **Sent 13 Oct: RESCCUE licence email** to br@bcnregional.com; waiting for the reply; reminder by ~23 Oct if none (text and steps: `notes/resccue_data_request.md`).
-  - [ ] **Infrared City access**, plus three questions: (a) how are trees represented: geometry only, or porosity/LAI per species? (b) API limits for thousands of runs; (c) published validation against ENVI-met or Ladybug.
+  - [ ] **Infrared City access**, plus three questions: (a) how are trees represented: geometry only, or porosity/LAI per species? (The 2020–2022 InFraReD papers have no trees in their microclimate models, only green space as an area: matrix #144–#146, read 28 Oct.) (b) API limits for thousands of runs; (c) published validation against ENVI-met or Ladybug.
   - [ ] Confirm the **final delivery date** (18 Dec?), and whether **Grasshopper integration** is required by the programme.
   - [ ] Slide format for the 5-min talk (Google Slides assumed).
   - [ ] Ask the tutor (now on slide 12): we removed H3 because it is true by construction of the model and declared it a boundary instead — is that the right call?

@@ -13,6 +13,7 @@ export const state = reactive({
   trees: null,
   pot: null,
   scenarioId: BALANCED,
+  compare: false, // side-by-side columns (today | city rule | optimised) instead of the 3D map
   overlay: 'sun_winter',
   month: 7,
   selected: null, // index into positions

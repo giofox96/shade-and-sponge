@@ -81,6 +81,8 @@ The LAI proxy is not calibrated and spans a narrow range: 1.9–2.9 across the m
 
 Equal trunk size is a fair comparison between species, not a forecast of how large a new tree will be (Chapter 8).
 
+**Growth stage.** The same rule, applied to the second trunk class (41–80 cm), gives a second stage: about ten years after planting. Among the dated trees of the palette species in the city inventory, the median time from planting to the LiDAR flight is 9.7 years (n = 4,213). Planting dates are recorded only from 2007, so the third class gets no age; it is called *established*. The first class is not used: too few palette trees in Porta have crown metrics there, and their LiDAR heights are implausible. The two stages show the transition: what a replacement keeps of today's mature planes after about ten years, and once established (Chapter 7).
+
 **Palettes.** Two palettes are available:
 
 - **City palette:** seven species. Five are named as replacements in city or press sources: Celtis, Melia, *Pyrus calleryana*, Jacaranda and Tipuana. Two more complete it: *Brachychiton populneus*, common in Porta's recent plantings but named in no source, and *Styphnolobium japonicum*, named in the press. This is the palette used in the thesis results.

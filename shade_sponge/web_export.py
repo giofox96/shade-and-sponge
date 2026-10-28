@@ -26,7 +26,8 @@ opt = dict(a[2:].split("=") for a in sys.argv[1:] if a.startswith("--") and "=" 
 size_rule, trunk = opt.get("size"), opt.get("trunk")
 ptag = "" if kind == "city" else "_barcelona"
 tag = ptag + (f"_size{size_rule}" if size_rule else "") + (f"_trunk{trunk}" if trunk else "")   # as __main__
-out = ROOT / "web/public/data" / (name + ptag.replace("_", "-"))
+stage = "" if trunk in (None, "TERCERA") else "-" + trunk.lower()     # growth stage: SEGONA ≈ 10 years after planting
+out = ROOT / "web/public/data" / (name + ptag.replace("_", "-") + stage)
 out.mkdir(parents=True, exist_ok=True)
 site = load_site(name)
 o = json.load(open(EX / "site_origin.json"))
@@ -63,7 +64,7 @@ for i, s in enumerate(sp):
 
 # scenarios with metrics (layout species per position only for the ones in the layouts file)
 idx = {s: i for i, s in enumerate(sp)}
-metrics = ["shade_summer_m2h", "shade_winter_m2h", "runoff_hot_m3", "runoff_m3", "interception_m3"]
+metrics = ["shade_summer_m2h", "shade_winter_m2h", "runoff_hot_m3", "runoff_m3", "interception_m3", "canopy_pct"]
 scen, layouts = [], {}
 for _, r in S.iterrows():
     sc = r.scenario
