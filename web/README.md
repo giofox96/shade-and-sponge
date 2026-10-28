@@ -40,6 +40,18 @@ Trees are not replaced all at once. A plane is replaced when it dies, when it is
 
    The results panel ("vs city rule") and the Compare view use the area.
 5. **Back to the whole district:** the **Whole site** button.
+6. **Replace all trees in the area** (checkbox): the other street trees inside become decision positions too, as in a street rebuild that removes the whole stretch.
+   - They are scored in the browser at their position with the sizing rule of their sidewalk (`porta_sidewalk_width.csv`).
+   - Today's version uses their LiDAR crown, LAI and leaf calendar.
+   - The cap gains the room their species free up.
+   - New trees are scored at the selected stage, so replacing young trees looks like a gain that takes years to arrive. The panel says so.
+7. **Fill the free spots:** every free planting spot inside the area (`porta_planting_spots.csv`, an upper bound) becomes an added tree with its sidewalk's size class. The optimiser then chooses its species together with the area.
+
+**Sidewalks on the map** (Map layer → *Sidewalk edges and free planting spots*, on by default):
+- façade lines (brown) and kerb lines (dark) from the 1:1000 base map, so the sidewalk is the band between them;
+- the 267 free spots as green dots (light to dark = small / medium / large). In *Add trees* mode, a click on a spot plants there.
+
+Built by `web_export.py` from the cached WMS tiles (`sidewalks.geojson`).
 
 **How the estimate works:** today's exact metrics + calibration slope × Σ (potential of the new species − potential of today's plane) over the area.
 - **Today's planes** are scored in the browser, from their measured crown and the plane's median LAI (`ASSUMPTION`). Their potentials are rescaled per metric, so that the calibration line, fed with all 832 planes, returns today's exact value.
