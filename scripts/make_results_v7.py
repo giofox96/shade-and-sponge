@@ -104,7 +104,9 @@ def fig_scenarios():
     a = pd.read_csv(ROOT / "databases/barcelona/additions_summary.csv")
     g = a.assign(group=a.scenario.str.replace(r"_\d+$", "", regex=True)).groupby("group").mean(numeric_only=True)
     s0 = g.loc["S0_current"]
-    SC = [("R", "Replacement", "832 planes"), ("A", "Additions", "267 new spots"), ("RA", "Both", "1,099 positions")]
+    n = g.n_new                                          # positions decided in each scenario (planes, spots, both)
+    SC = [("R", "Replacement", f"{n['R_Opt']:,.0f} planes"), ("A", "Additions", f"{n['A_Opt']:,.0f} new spots"),
+          ("RA", "Both", f"{n['RA_Opt']:,.0f} positions")]
     panels = [("Summer shade", "shade_summer_m2h", "% of today", lambda v, c: 100 * v / s0[c], 100, HEAT, None),
               ("Winter shade (a cost)", "shade_winter_m2h", "% of today", lambda v, c: 100 * v / s0[c], 100, HEAT, None),
               ("Total runoff", "runoff_m3", "m³ vs today", lambda v, c: v - s0[c], 0, RAIN, DMIN),
@@ -139,7 +141,8 @@ def fig_scenarios():
     save("res_03_scenarios", "Replacement, additions, or both",
          "Keeping the planes and adding trees gives the most shade; once planes go, only trait-based choice plus additions gets back above today", b,
          "databases/barcelona/additions_summary.csv (scripts/run_additions.py); spots: scripts/porta_planting_spots.py (sidewalk >= 2.5 m, "
-         "7/9/13 m spacing, 2011 guide; an upper bound: driveways, crossings and services are not in the data). Heat = effective-shade proxy; "
+         "7/9/13 m spacing, 2011 guide; minus spots near OSM crossings, signals, parking entrances and bus stops, "
+         "scripts/porta_spot_exclusions.py; still an upper bound: driveways, lamps and services are not in the data). Heat = effective-shade proxy; "
          "runoff T2-60; canopy = crown-disc model.")
 
 
