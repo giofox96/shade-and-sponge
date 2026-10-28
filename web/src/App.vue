@@ -40,8 +40,14 @@ watch(
       <span class="muted">Street-tree replacement in {{ state.meta.site.name }}, Barcelona · 832 plane-tree positions</span>
       <span class="spacer"></span>
       <span class="seg" role="group" aria-label="Species palette">
-        <button :class="{ on: state.site === 'porta' }" @click="switchSite('porta')">City palette (7)</button>
+        <button :class="{ on: state.site !== 'porta-barcelona' }" @click="switchSite('porta')">City palette (7)</button>
         <button :class="{ on: state.site === 'porta-barcelona' }" @click="switchSite('porta-barcelona')">Barcelona shortlist</button>
+      </span>
+      <span v-if="state.site !== 'porta-barcelona'" class="seg" role="group" aria-label="Size of the replacement trees">
+        <button :class="{ on: state.site === 'porta-segona' }" aria-label="About 10 years after planting" title="Second trunk class (41–80 cm perimeter): median 9.7 years after planting for the dated palette trees"
+                @click="switchSite('porta-segona')">≈ 10 years</button>
+        <button :class="{ on: state.site === 'porta' }" aria-label="Established trees" title="Third trunk class (81–110 cm perimeter): the thesis comparison at equal trunk size"
+                @click="switchSite('porta')">Established</button>
       </span>
       <span class="muted">{{ label(scenario) }}</span>
     </header>

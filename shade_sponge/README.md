@@ -147,6 +147,32 @@ Run: `python -m shade_sponge porta --size=exact --trunk=TERCERA` → `databases/
 - S0 is not at equal trunk size: it has today's measured planes, 2,600 trees, while each layout puts trees at all 832 plane positions, 25 more than S0's planes with good LiDAR crowns.
 - Additions (A, R+A): see the next section.
 
+## Growth stage: about 10 years vs established (28 Oct)
+Run: `python -m shade_sponge porta --size=exact --trunk=SEGONA` → `databases/barcelona/tool_v0_summary_sizeexact_trunkSEGONA.csv`; web: `porta-segona` (header switch "≈ 10 years | Established").
+
+**Stage definition:**
+- **About 10 years:** the second trunk class (SEGONA, 41–80 cm perimeter). Among the dated palette-species trees in the city inventory, the median time from planting to the LiDAR flight (26 Sept 2021) is 9.7 years (n = 4,213). Planting dates go back only about 14 years, so older trees are missing from this estimate.
+- **Established:** the third class (TERCERA, 81–110 cm), the thesis comparison above. Its dated trees have a median of 11.1 years, but that is censored by the same date limit, so no age is claimed for it.
+- **Planting (first class, PRIMERA):** not offered. Too few palette trees have crowns in Porta (Brachychiton 1, Tipuana 7, Jacaranda 9, Melia 10), and their LiDAR heights are implausible (Melia 12.2 m), probably small crowns segmented under larger ones.
+
+**Results** (all 832 positions, T2-60, balanced weights; S0 = today's measured trees in both rows):
+
+| Stage | S1a summer shade, % of today | Opt summer shade, % of today | Opt vs S1a, summer / winter shade | Total runoff vs today, S1a / Opt (m³) | Canopy (disc model), S1a / Opt |
+|---|---|---|---|---|---|
+| About 10 years | 75.5 | 81.8 | +8.4% / +7.6% | +84.4 / +64.1 | 20.5 / 21.0% |
+| Established | 87.4 | 98.3 | +12.4% / +6.4% | +54.1 / +20.2 | 21.5 / 22.2% |
+
+**Reading:**
+- **The transition costs a quarter of today's summer shade under the city's rule, and about a fifth with optimised species.** Both stages compare against today's mature planes.
+- **The optimised advantage is smaller at 10 years** (+8.4% vs +12.4%), because young crowns differ less between species.
+- **Every runoff difference still stays within Δmin** (91 m³), even against today. The stage barely moves the runoff answer.
+- **The 10-year optimised mix shifts to the species that grow wide fast:** Jacaranda 278 and Tipuana 284 (both at the cap), Styphnolobium 130, Melia 88, Brachychiton 38, Celtis 9, Pyrus 5.
+
+**Caveats:**
+- *Styphnolobium* keeps its city-wide all-class medians at both stages, so it is not staged, and it is favoured at 10 years. Treat its 130 trees with caution.
+- A trunk class is not an age class, and growth depends on site.
+- The dated trees are those planted since about 2007.
+
 ## Additions: R, A and R+A (24 Oct)
 **Spots:** `scripts/porta_planting_spots.py` → `databases/barcelona/porta_planting_spots.csv`, built in four steps:
 1. Walk every façade line of the 1:1000 map (same tiles and ray method as the sidewalk widths) and take the first road line beyond it as the kerb.
