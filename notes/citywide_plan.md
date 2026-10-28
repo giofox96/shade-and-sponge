@@ -88,6 +88,8 @@ User, 25 Oct: start working out how to bring every Barcelona neighbourhood into 
 
 **Regression check:** the Porta bundle rebuilt by `build_barri("Porta")` must reproduce `tool_v0_summary_sizeexact_trunkTERCERA.csv`. The only differences allowed come from the 150 m buffer: Porta's current grid is the bare bounding box.
 
+**Status 28 Oct:** steps 1–3 are coded (`scripts/lidar_tiles_barris.py`, `scripts/bcn_lidar_barri.py`, `site.build_barri`; `shade_sponge/README.md`, "Any barri"). Step 1 gives **158 distinct tiles** for the 73 barris (86 for the 27 barris with ≥ 500 planes), not ~100: the 150 m margin adds tiles. Not yet run on real data; the first run is Sant Antoni (8 tiles).
+
 ### 6.3 Order of work
 
 From `databases/barcelona/site_screening_barris.csv` (inventory as screened on 8 Oct: 137,717 street trees and 39,656 planes in 72 barris; the press figure of 43,722 planes has a different date and scope):
@@ -103,7 +105,7 @@ From `databases/barcelona/site_screening_barris.csv` (inventory as screened on 8
 
 ### 6.4 Costs and risks (estimates, not measured)
 
-- **LiDAR:** about 100 tiles (§2) against the 4 used for Porta, so download and processing scale about 25×. This is a batch job on your machine (≈ 4 GB RAM per tile set, as `bcn_lidar_porta.py`).
+- **LiDAR:** 158 tiles (step 1, 28 Oct; first estimate ~100, §2) against the 4 used for Porta, so download and processing scale about 25×. This is a batch job on your machine (≈ 4 GB RAM per tile set, as `bcn_lidar_porta.py`).
 - **Tool runtime:** one Porta run takes about 4 min (`shade_sponge/README.md`). The city is roughly 100× Porta's area, so a full set of runs is likely an overnight batch. The optimiser is not the bottleneck; the raster re-scoring is.
 - **Sidewalk widths** (step 4) decide the schedule. Without option (a), the city layer will have "size class unknown" in most barris by December.
 - **Runoff outside Porta is indicative:** the interception calibration and the Δmin were set on Porta (§5).

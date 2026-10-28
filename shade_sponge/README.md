@@ -7,6 +7,7 @@ Suggests **which species go at which street-tree position**, scoring each layout
 python -m shade_sponge                                  # city palette (7 species)
 python -m shade_sponge porta --palette=barcelona --diversity=10   # Barcelona shortlist, diversity floor on
 python -m shade_sponge porta --size=exact --trunk=TERCERA --scenario=RA --area=my_street.geojson   # project area, R+A
+python -m shade_sponge "Sant Antoni"                    # any other barri (scenario R), after scripts/bcn_lidar_barri.py
 python -m shade_sponge.health                           # replacement-priority proxy -> databases/barcelona/porta_priority.csv
 ```
 Run from the project root with the conda env `shade-and-sponge` (`<env>/Library/bin` on PATH). The first run builds `cache/site_porta.npz` (~15 s); a full run takes ~4 min. Figure: `PYTHONPATH=. python scripts/plot_tool_v0.py`.
@@ -251,6 +252,13 @@ The decisions of 24 Oct (`notes/topic_decision.md` §10.6, `notes/citywide_plan.
 **Priority proxy, first reading** (`databases/barcelona/porta_priority.csv`, 2,825 trees): the plane scores have quartiles 0.42 / 0.54 / 0.65. The age term dominates the top of the ranking: the 100 highest planes are 68 EXEMPLAR and 32 TERCERA. Trees without a usable LiDAR crown (23 planes) get the maximum vigour deficit (`ASSUMPTION`: missing, dead or heavily pruned). The weights and both proxies are untested; the planned check is that trees removed between two quarterly inventory snapshots scored higher.
 
 Not run yet in the cloud (no raw data there): the full tool with these options. The core tests cover `in_area`, `add_cap` and `health.priority`.
+
+## Any barri, not only Porta (28 Oct; `notes/citywide_plan.md` §6.2 steps 1–3)
+- `scripts/lidar_tiles_barris.py` → `databases/barcelona/lidar_tiles_barris.csv`: the 1 km ICGC tiles each barri needs (polygon + 150 m). **158 distinct tiles for the 73 barris** (median 6 per barri); the 27 barris with ≥ 500 planes need 86, Eixample + Sant Martí 37. The ~100 of §6.4 was an underestimate, because the 150 m margin adds tiles. Flight dates are known for 3 tiles so far.
+- `scripts/bcn_lidar_barri.py "<barri>"` (PC only): the method of `bcn_lidar_porta.py` on barri bounds + 150 m. It downloads missing tiles, writes `raw/lidar/<slug>_{dtm,chm,bldg}_05m.tif` and `databases/barcelona/barris/<slug>/{trees_lidar.csv, buildings.geojson}` (EPSG:25831, no local origin), and appends the flight dates (warning if a tile was flown Dec–Mar).
+- `site.build_barri(name)`: the same model as `build_porta()`, on a grid = barri bounds + `BUFFER_M` = 150 m, with the barri polygon as the domain. NDVI is cropped from the city raster `raw/2017_NDVI.tif`. `build_porta()` keeps Porta's bare bounding box, so Porta's results cannot change (both share `_build`).
+- `python -m shade_sponge "<barri>"`: scenario R only for now. Free spots, sidewalk widths and the priority proxy exist for Porta only, so `--scenario=A|RA`, `--size` and `--priority` stop with a message. Outputs carry the slug: `tool_v0_summary_<slug>.csv`.
+- Known gaps: the street trees of the neighbouring barris (inside the 150 m margin) are not in the site, so their shade on edge streets is missing, as it already is in Porta. The 15% cap is still computed on the barri's own trees (step 6 replaces it with the city LP).
 
 ## Next (not done)
 move the summer design day (15 July) to the hot design day of the heat metric, together with the Ladybug calibration (the 12–17 h CEST window is decided, 25 Oct) · check whether hotspot runoff follows the runoff weight (it did not on 8 Oct; it mostly does on 15 and 20 Oct) · species storage factor · young/mature horizon · `CAPTURE_M` and design-day sensitivity · calibrate the heat proxy on Ladybug Tier 1 (sub-area) · climate-fit filter for other sites · validate the priority proxy on inventory snapshots · project area and scenarios in the web app · Grasshopper component (Hops).

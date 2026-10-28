@@ -1,5 +1,5 @@
 """Run the tool on a site: python -m shade_sponge [site] [--palette=barcelona] [--diversity=N] [--size=exact|at_most]
-[--keep-meridiana] [--trunk=TERCERA] [--scenario=R|A|RA] [--area=FILE] [--priority=N] (default: porta; first run builds cache/site_<site>.npz). --diversity=N: optimised layouts keep at
+[--keep-meridiana] [--trunk=TERCERA] [--scenario=R|A|RA] [--area=FILE] [--priority=N] (default: porta; any barri by name or slug, e.g. "Sant Antoni", once scripts/bcn_lidar_barri.py has run; first run builds cache/site_<site>.npz). --diversity=N: optimised layouts keep at
 least N effective species (exp of Shannon H) among the planted positions; off by default. --size: sidewalk-width sizing
 rule of the 2011 guide (layout.size_fits); off by default. --keep-meridiana: the planes of Av. Meridiana are kept by the
 city ("large avenue", guide p. 17) and leave the decision set. --trunk=CLASS: species traits at equal trunk size
@@ -10,7 +10,7 @@ replacement priority (health.py, a proxy). S1a (the city's 2026 mix within the e
 always run, 10 seeds.
 Outputs: databases/barcelona/tool_v0_summary<tag>.csv, exchange/to_gh/{positions,layouts}_tool_v0<tag>_<YYYYMMDD>.csv"""
 import sys, json, datetime, pathlib, numpy as np, pandas as pd
-from .site import load_site, rc, DB, EX
+from .site import load_site, rc, slug, DB, EX
 from . import heat, runoff, layout, season, health
 
 args = [a for a in sys.argv[1:] if not a.startswith("--")]
@@ -27,6 +27,10 @@ area = opt.get("area")
 top = int(opt["priority"]) if "priority" in opt else None
 tag = ptag + (f"_div{opt['diversity']}" if min_eff else "") + (f"_size{size_rule}" if size_rule else "") + ("_keepmer" if keep_mer else "") + (f"_trunk{trunk}" if trunk else "")
 tag += (f"_sc{scen}" if scen != "R" else "") + (f"_area{pathlib.Path(area).stem}" if area else "") + (f"_prio{top}" if top else "")
+if name != "porta" and (scen != "R" or size_rule or top):
+    sys.exit("other barris: only --scenario=R without --size/--priority for now (free spots, sidewalk widths and the "
+             "priority proxy exist for Porta only; notes/citywide_plan.md §6.2 step 4)")
+tag = ("" if name == "porta" else "_" + slug(name)) + tag    # Porta keeps its file names
 site = load_site(name)
 o = json.load(open(EX / "site_origin.json"))
 sun = {s: heat.design_suns(site, s) for s in heat.SEASONS}

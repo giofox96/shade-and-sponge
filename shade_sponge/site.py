@@ -1,6 +1,6 @@
 """Site bundle: what the tool needs about one site on one grid, built once and cached in cache/site_<name>.npz.
-A new site = a new build_<name>() + trees_<name>() returning the same keys/columns. Coordinates: EPSG:25831, 1 m cells."""
-import json, pathlib, re, numpy as np, pandas as pd, geopandas as gpd, rasterio
+Porta: build_porta() (validated bundle); any other barri: build_barri(name), same model with a BUFFER_M margin. Coordinates: EPSG:25831, 1 m cells."""
+import json, pathlib, re, unicodedata, numpy as np, pandas as pd, geopandas as gpd, rasterio
 from types import SimpleNamespace
 from rasterio.features import rasterize
 from rasterio.transform import from_origin
@@ -11,7 +11,10 @@ from . import topo
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 RAW, DB, EX = ROOT / "databases/barcelona/raw", ROOT / "databases/barcelona", ROOT / "exchange"
+BARRIS = DB / "barris"   # per-barri inputs (scripts/bcn_lidar_barri.py)
 RES = 1.0
+BUFFER_M = 150.0        # grid margin around a barri: at the lowest winter design sun (15°) a 40 m building casts a 149 m
+                        # shadow, and the CAPTURE_M flow path stays on the grid (notes/citywide_plan.md §6.2 step 3)
 # Species whose Porta LiDAR sample is too small: crown/height/LAI medians replaced by a city-wide LiDAR sample (user, 15 Oct, issue #42).
 # Styphnolobium: 5 trees in Porta; no_merge_flag row = 367 trees on 25 streets in one 1 km tile (scripts/bcn_lidar_species_sample.py).
 CITY_LIDAR = {"Styphnolobium japonicum": ("styphnolobium_lidar_summary.csv", "no_merge_flag")}
@@ -55,13 +58,51 @@ def trees_porta():
 
 def build_porta():
     """Surfaces exactly as runoff module v1 (scripts/runoff_model.py), plus LiDAR DTM and building heights,
-    the flood-hazard index and the surface-water routing (topo.py)."""
-    import osmnx as ox
+    the flood-hazard index and the surface-water routing (topo.py). Grid = Porta's bare bounding box (kept for regression)."""
     o = json.load(open(EX / "site_origin.json"))
+    bld = gpd.read_file(EX / "to_gh/porta_buildings.geojson").set_crs(None, allow_override=True)
+    bld = bld.set_geometry(bld.translate(o["origin_x"], o["origin_y"])).set_crs(25831)
+
+    def ndvi(grid):
+        with rasterio.open(RAW / "porta_ndvi_2017.tif") as s:      # cropped by scripts/runoff_model.py
+            return s.read(1)
+    return _build(barri("Porta"), 0.0, bld, ndvi, RAW / "lidar/porta", trees_porta())
+
+
+def slug(name):
+    """File name of a barri: "la Vila de Gràcia" -> "la-vila-de-gracia"."""
+    return re.sub(r"[^a-z0-9]+", "-", unicodedata.normalize("NFKD", name).encode("ascii", "ignore").decode().lower()).strip("-")
+
+
+def barri(name):
+    """One barri polygon (Open Data BCN, EPSG:25831), by name or slug."""
     b = pd.read_csv(RAW / "BarcelonaCiutat_Barris.csv")
-    site = gpd.GeoDataFrame(b, geometry=gpd.GeoSeries.from_wkt(b.geometria_etrs89), crs=25831)
-    site = site[site.nom_barri == "Porta"]
-    x0, y0, x1, y1 = site.total_bounds
+    b = gpd.GeoDataFrame(b, geometry=gpd.GeoSeries.from_wkt(b.geometria_etrs89), crs=25831)
+    b = b[(b.nom_barri == name) | (b.nom_barri.map(slug) == name)]
+    if b.empty:
+        raise SystemExit(f"no barri called {name!r} in BarcelonaCiutat_Barris.csv")
+    return b
+
+
+def trees_barri(name):
+    """Street trees of one barri with LiDAR crowns (scripts/bcn_lidar_barri.py), EPSG:25831."""
+    t = pd.read_csv(BARRIS / slug(name) / "trees_lidar.csv")
+    t["lai"], t["sp"] = t.lai_proxy, t.species.map(norm)
+    return t
+
+
+def build_barri(name):
+    """Any barri, same model as Porta: grid = barri + BUFFER_M, domain = the barri polygon (notes/citywide_plan.md §6.2).
+    Inputs from scripts/bcn_lidar_barri.py; NDVI cropped from the city raster raw/2017_NDVI.tif."""
+    d = BARRIS / slug(name)
+    bld = gpd.read_file(d / "buildings.geojson").to_crs(25831)
+    return _build(barri(name), BUFFER_M, bld, lambda grid: grid(RAW / "2017_NDVI.tif"), RAW / f"lidar/{slug(name)}",
+                  trees_barri(name))
+
+
+def _build(site, buf, bld, ndvi_of, lidar, trees):
+    import osmnx as ox
+    x0, y0, x1, y1 = site.total_bounds + np.array([-buf, -buf, buf, buf])
     W, H = int(np.ceil((x1 - x0) / RES)), int(np.ceil((y1 - y0) / RES))
     T = from_origin(x0, y1, RES, RES)
     domain = rasterize([(site.geometry.iloc[0], 1)], out_shape=(H, W), transform=T, fill=0).astype(bool)
@@ -77,13 +118,10 @@ def build_porta():
         return a[tuple(ndimage.distance_transform_edt(np.isnan(a), return_distances=False, return_indices=True))]
 
     # surfaces (runoff module v1)
-    bld = gpd.read_file(EX / "to_gh/porta_buildings.geojson").set_crs(None, allow_override=True)
-    bld = bld.set_geometry(bld.translate(o["origin_x"], o["origin_y"])).set_crs(25831)
     roof = rasterize(((g, 1) for g in bld.geometry), out_shape=(H, W), transform=T, fill=0).astype(bool)
-    with rasterio.open(RAW / "porta_ndvi_2017.tif") as s:      # cropped by scripts/runoff_model.py
-        ndvi = s.read(1)
+    ndvi = ndvi_of(grid)
     ndvi[(ndvi < -1) | (ndvi > 1)] = np.nan
-    chm = grid(RAW / "lidar/porta_chm_05m.tif")
+    chm = grid(f"{lidar}_chm_05m.tif")
     green = ox.features_from_polygon(site.to_crs(4326).iloc[0].geometry,
                                      tags={"leisure": ["park", "garden"], "landuse": ["grass"]})
     green = green[green.geom_type.isin(["Polygon", "MultiPolygon"])].to_crs(25831)
@@ -91,16 +129,15 @@ def build_porta():
     P = json.load(open(DB / "runoff_params.json"))
     pervious = domain & ~roof & (((np.nan_to_num(ndvi) >= P["ndvi_green"]) & (np.nan_to_num(chm) < 2)) | osm_green)
     cn = np.where(roof, P["cn_roof"], np.where(pervious, P["cn_pervious"], P["cn_sealed"])).astype("float32")
-    t = trees_porta()
-    t = t[t.flag == "ok"]
+    t = trees[trees.flag == "ok"]
     street = rasterize(((Point(r.x, r.y).buffer(r.crown_diam_m / 2), 1) for r in t.itertuples()), out_shape=(H, W),
                        transform=T, fill=0).astype(bool)
     background = domain & ~roof & (np.nan_to_num(chm) >= 2) & ~street   # park/private canopy, fixed in every layout
 
     # topography, buildings, flood hazard
-    dtm = fill_nan(grid(RAW / "lidar/porta_dtm_05m.tif"))
-    bldg_h = np.nan_to_num(grid(RAW / "lidar/porta_bldg_05m.tif")).clip(0, None)   # LiDAR building height above ground
-                                                         # (whole grid, also outside Porta, so edge streets get shaded)
+    dtm = fill_nan(grid(f"{lidar}_dtm_05m.tif"))
+    bldg_h = np.nan_to_num(grid(f"{lidar}_bldg_05m.tif")).clip(0, None)   # LiDAR building height above ground
+                                                         # (whole grid, also outside the barri, so edge streets get shaded)
     hz = gpd.read_file(RAW / "flood_hazard_present.geojson").to_crs(25831).cx[x0:x1, y0:y1]
     hot = rasterize(((g, 1) for g, v in zip(hz.geometry, hz.grid_code) if v >= HAZARD_HIGH), out_shape=(H, W),
                     transform=T, fill=0).astype(bool)
@@ -114,13 +151,16 @@ def build_porta():
 
 
 def load_site(name="porta", capture_m=CAPTURE_M):
+    """Porta (build_porta, the validated bundle) or any other barri by name or slug (build_barri)."""
+    name = slug(name)
+    porta = name == "porta"
     f = ROOT / f"cache/site_{name}.npz"
     if not f.exists():
         f.parent.mkdir(exist_ok=True)
-        np.savez_compressed(f, **globals()[f"build_{name}"]())
+        np.savez_compressed(f, **(build_porta() if porta else build_barri(name)))
     z = np.load(f)
     s = SimpleNamespace(**{k: (z[k].item() if z[k].ndim == 0 else z[k]) for k in z.files}, name=name)
     s.transform = from_origin(s.x0, s.y1, s.res, s.res)
     s.to_hot = s.dist_hot <= capture_m                    # ground whose runoff reaches a high-hazard cell
-    s.trees = globals()[f"trees_{name}"]()
+    s.trees = trees_porta() if porta else trees_barri(name)
     return s
