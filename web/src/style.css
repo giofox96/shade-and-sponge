@@ -14,7 +14,7 @@
 body { margin: 0; }
 .app {
   display: grid;
-  grid-template-columns: 270px minmax(0, 1fr) 330px;
+  grid-template-columns: var(--lw, 270px) minmax(0, 1fr) var(--rw, 330px);
   grid-template-rows: 44px minmax(0, 1fr);
   height: 100vh;
 }
@@ -91,3 +91,8 @@ main .tabs { position: absolute; top: 10px; left: 10px; z-index: 5; box-shadow: 
 main .tabs button { background: var(--panel); }
 main .tabs button.on { background: var(--panel); font-weight: 500; }
 .compare { padding-top: 50px !important; }
+
+body.resizing { cursor: col-resize; user-select: none; }
+body.resizing main { pointer-events: none; }
+main .tabs { left: 24px; } /* clear of the left panel's fold button */
+@media (max-width: 900px) { main .handle { display: none; } aside.left, aside.right { display: block !important; } }

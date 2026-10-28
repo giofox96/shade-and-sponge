@@ -13,7 +13,7 @@ import { state, dataUrl, hexToRgb, currentLayout, addTreeAt, addVertex, keptRepl
 
 setWorkerUrl(workerUrl)
 const el = ref(null)
-let map, overlay
+let map, overlay, ro
 const sphere = new SphereGeometry({ nlat: 10, nlong: 16, radius: 1 })
 
 function crowns() {
@@ -174,6 +174,8 @@ onMounted(() => {
   })
   map.addControl(overlay)
   map.on('load', () => overlay.setProps({ layers: layers() })) // redraw once the style and images are in
+  ro = new ResizeObserver(() => map.resize())
+  ro.observe(el.value)
 })
 
 watch(
@@ -193,16 +195,24 @@ watch(() => state.area?.poly, (poly) => {
 // while drawing a project area, double clicks place corners instead of zooming
 watch(() => state.drawing, (on) => (on ? map?.doubleClickZoom.disable() : map?.doubleClickZoom.enable()))
 
-onBeforeUnmount(() => map?.remove())
+onBeforeUnmount(() => {
+  ro?.disconnect()
+  map?.remove()
+})
 </script>
 
 <template>
-  <div ref="el" class="map"></div>
+  <div ref="el" class="map" :class="{ crosshair: state.addMode || state.drawing }"></div>
 </template>
 
 <style scoped>
 .map {
   position: absolute;
   inset: 0;
+}
+/* MapLibre sets its own grab cursor on the canvas; while drawing an area or adding trees, show a crosshair instead */
+.map.crosshair :deep(.maplibregl-canvas-container.maplibregl-interactive),
+.map.crosshair :deep(canvas) {
+  cursor: crosshair !important;
 }
 </style>

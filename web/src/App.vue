@@ -1,7 +1,7 @@
 <script setup>
 import { onMounted, watch } from 'vue'
 import { state, load, switchSite, scenario, label, layoutEff, runLive, runArea, setAddMode, addedCsv, startDrawing, finishArea,
-  cancelDrawing, clearArea, setAreaAll, fillAreaSpots, MIN_SPACING_M, MONTHS, BALANCED, LIVE, AREA } from './store.js'
+  cancelDrawing, clearArea, setAreaAll, fillAreaSpots, panels, MIN_SPACING_M, MONTHS, BALANCED, LIVE, AREA } from './store.js'
 import MapView from './components/MapView.vue'
 import PriorityTriangle from './components/PriorityTriangle.vue'
 import TradeoffChart from './components/TradeoffChart.vue'
@@ -9,6 +9,7 @@ import KpiPanel from './components/KpiPanel.vue'
 import TreeInspector from './components/TreeInspector.vue'
 import ComparePanel from './components/ComparePanel.vue'
 import CoverCounter from './components/CoverCounter.vue'
+import PanelHandle from './components/PanelHandle.vue'
 
 onMounted(() => load())
 
@@ -37,7 +38,7 @@ watch(
 <template>
   <div v-if="state.error" class="msg">{{ state.error }}</div>
   <div v-else-if="!state.meta" class="msg">Loading site…</div>
-  <div v-else class="app">
+  <div v-else class="app" :style="{ '--lw': panels.leftOpen ? panels.leftW + 'px' : '0px', '--rw': panels.rightOpen ? panels.rightW + 'px' : '0px' }">
     <header>
       <b>Shade and sponge</b>
       <span class="muted">{{ state.meta.site.name }}, Barcelona</span>
@@ -60,7 +61,7 @@ watch(
       </template>
     </header>
 
-    <aside class="left">
+    <aside v-show="panels.leftOpen" class="left">
       <section>
         <h3>1 · Scenario</h3>
         <div class="btns">
@@ -191,9 +192,11 @@ watch(
       </div>
       <ComparePanel v-if="state.compare" />
       <MapView v-else :key="state.site" />
+      <PanelHandle side="left" />
+      <PanelHandle side="right" />
     </main>
 
-    <aside class="right">
+    <aside v-show="panels.rightOpen" class="right">
       <section><h3>Canopy cover</h3><CoverCounter /></section>
       <section>
         <h3>Results</h3>

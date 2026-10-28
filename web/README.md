@@ -30,6 +30,8 @@ The published data use the **thesis configuration** (since 26 Oct): the exact si
 - **Right panel:** canopy cover, results (with the scenario's description), trade-off (collapsible) and the selected tree.
 - **Map defaults:** no overlay, so the sidewalks and free spots read clearly. The sun and water layers are under Map display.
 - **Narrow screens:** the map comes first, then the controls, then the results.
+- **Side panels:** drag the inner edge of either panel to resize it (200–520 px; arrow keys on the focused edge). The ‹ / › button on the edge hides or shows it. Widths and open state are remembered in the browser.
+- **Cursor:** the map shows a crosshair while drawing a project area or adding trees, and the hand otherwise.
 
 ## Canopy cover counter (28 Oct)
 The top of the right panel shows the **canopy cover** of the layout on screen against the plan's **30% target**:

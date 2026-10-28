@@ -1,5 +1,5 @@
 // Shared state: site data exported by `python -m shade_sponge.web_export`, plus what the user has selected.
-import { reactive, computed } from 'vue'
+import { reactive, computed, watch } from 'vue'
 import { optimise, proxySums, fitLine, effSpecies, caps } from './optimize.js'
 import { loadGrid, pointPotentials, crownPotential } from './pointpot.js'
 
@@ -488,4 +488,16 @@ export const cover = computed(() => {
   const pct = C.measured_pct + d + added
   return { ...C, pct, vsToday: d + added, added, addedN: state.added.length, approx,
     gap: C.target_pct - pct, gapHa: ((C.target_pct - pct) / 100) * C.area_m2 / 1e4 }
+})
+
+// ---- side panels: width and open state, remembered in this browser ---------------------------------------------
+export const MIN_W = 200
+export const MAX_W = 520
+const PANEL_KEY = 'shade-sponge-panels'
+const savedPanels = (() => {
+  try { return JSON.parse(localStorage.getItem(PANEL_KEY) ?? '{}') } catch { return {} }
+})()
+export const panels = reactive({ leftW: 270, rightW: 330, leftOpen: true, rightOpen: true, ...savedPanels })
+watch(panels, (p) => {
+  try { localStorage.setItem(PANEL_KEY, JSON.stringify(p)) } catch { /* private window or blocked storage: keep the defaults */ }
 })
