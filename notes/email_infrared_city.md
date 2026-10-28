@@ -1,6 +1,6 @@
-# Email to Angelos Chronis: Infrared City access request (v2, 26 Oct 2026)
+# Email to Angelos Chronis: Infrared City access request (v3, updated 28 Oct 2026)
 
-Sources for the numbers below, all vendor-stated and read on 26 Oct 2026 (not independently verified): pricing page https://infrared.city/pricing; SDK 1.0 docs https://infrared.city/docs/sdk/1.0/; drift report https://github.com/Infrared-city/infrared-skills/issues/148 (it says the SDK docs and the SDK differ in places, so every limit is to be confirmed with the company). The pricing page says 10 tokens per standard analysis; the SDK docs say one billed job per 512 m tile. The estimates below are the author's: ~6 tiles for Porta, and the scenario and sensitivity counts are assumptions to check with `preview_area`.
+Sources for the numbers below, all vendor-stated and read on 26 Oct 2026 (not independently verified): pricing page https://infrared.city/pricing; SDK 1.0 docs https://infrared.city/docs/sdk/1.0/; drift report https://github.com/Infrared-city/infrared-skills/issues/148 (it says the SDK docs and the SDK differ in places, so every limit is to be confirmed with the company). Added 28 Oct: the web-app status, and the fit with the INFRARED papers and the 2025 Riyadh app (sources: `notes/precedent_duering_tech.md`, a portfolio, so the author's own claims; `notes/lit/literature_matrix.csv` #144–#146, read in full). The pricing page says 10 tokens per standard analysis; the SDK docs say one billed job per 512 m tile. The estimates below are the author's: ~6 tiles for Porta, and the scenario and sensitivity counts are assumptions to check with `preview_area`.
 
 **Subject:** Request for Infrared City research access: tree-species selection for urban heat (MaCAD thesis, Barcelona)
 
@@ -12,10 +12,14 @@ As you suggested, here is what I would do with Infrared City, so you can forward
 
 **What I am building.** A Python tool that, for a site, proposes which species replace which tree, and where. It respects the city's own rules as hard constraints (such as the cap of 15% per species). The proposals are scored on two outcomes: outdoor thermal comfort in summer (mean UTCI, 12–17 h, hot design day) and stormwater runoff. The heat part inside the optimiser is a fast shade proxy that I wrote myself.
 
+**Where the tool is today.** The core (Python) and a public web app already run for Porta: https://giofox96.github.io/shade-and-sponge/. It compares three layouts side by side (today's trees, the city's own replacement rule, and the optimised layout), for a project area drawn on the map, with replacement trees at planting size or at about 10 years. Runoff is computed with my own model. Heat is the part that still rests on my shade proxy, with Ladybug as the planned check, which is why the independent engine matters.
+
 **What I would use Infrared City for**
 1. **Reference for the heat results.** The proxy is fast but simplified, so I need an independent, accepted engine to score the baseline and the final layouts. Without it, my UTCI numbers are only as good as my own model.
 2. **Validation of the proxy.** I compare Infrared City, my proxy and Ladybug on the same street and report the differences in the thesis.
 3. **A transfer test.** The same workflow in a second city (Florence) and in a contrast site in Barcelona, to show that the method is not tied to one site.
+
+**How it fits your own work.** The INFRARED papers (CAADRIA 2020, SimAUD 2020, CAADRIA 2022) optimise buildings and streets, and none of them models trees or runoff. My thesis adds the tree dimension (species, position, runoff) on top of that approach, and it follows the pattern of the 2025 Riyadh climate web app that combines the Infrared API with a trees layer. I cite the three papers in the literature chapter, and Infrared City would appear as the reference engine.
 
 **Why it matters for the thesis.** The thesis is judged on a computational workflow and its validation. A UTCI run that takes seconds, instead of the 20–25 minutes per layout reported for Ladybug in the literature (Shaamala et al. 2025), makes it possible to compare layouts at district scale in the time I have. Without it I can only compare a handful of layouts, on one street.
 
