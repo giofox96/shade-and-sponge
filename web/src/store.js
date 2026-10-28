@@ -370,3 +370,31 @@ export async function runArea(weights) {
     version: (state.area.version ?? 0) + 1 })
   state.scenarioId = AREA
 }
+
+// ---- canopy cover against the tree master plan's 30% target ------------------------------------------------
+// Today = measured cover (LiDAR CHM > 2 m). A precomputed layout adds the change of the crown-disc model (exact, with
+// overlaps); live layouts, project areas and added trees add the change of their crown discs summed without overlaps
+// (an estimate that runs high where new crowns overlap existing canopy).
+export const cover = computed(() => {
+  const C = state.meta?.cover
+  if (!C || !state.trees) return null
+  state.addedVersion // dependency
+  state.area?.version
+  const s = scenario.value
+  const pal = state.meta.palette
+  const disc = (d) => Math.PI * (d / 2) ** 2
+  let d = 0
+  let approx = false
+  if (s?.metrics?.canopy_pct != null && s.group !== 'live' && s.group !== 'area') d = s.metrics.canopy_pct - C.s0_disc_pct
+  else if (s && s.id !== 'S0_current') {
+    const P = state.trees.positions
+    const a = currentLayout().reduce((acc, j, i) => acc + (pal[j].in_palette ? disc(pal[j].crown_diam_m) - disc(P.s0_crown_diam_m[i]) : 0), 0)
+    d = (100 * a) / C.area_m2
+    approx = true
+  }
+  const added = (100 * state.added.reduce((acc, t) => acc + (t.species >= 0 ? disc(pal[t.species].crown_diam_m) : 0), 0)) / C.area_m2
+  if (state.added.length) approx = true
+  const pct = C.measured_pct + d + added
+  return { ...C, pct, vsToday: d + added, added, addedN: state.added.length, approx,
+    gap: C.target_pct - pct, gapHa: ((C.target_pct - pct) / 100) * C.area_m2 / 1e4 }
+})

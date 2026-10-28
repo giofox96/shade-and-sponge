@@ -140,8 +140,17 @@ model = dict(suns={s: [[round(a, 6), round(z, 6)] for a, z in suns[s]] for s in 
 grid = dict(W=W, H=H, res=site.res, x0=x0, y1=y1, corners=[r6(c) for c in corners], file="grid.bin.gz",
             origin=[o["origin_x"], o["origin_y"]])                  # Grasshopper local origin (exchange/site_origin.json)
 sens = pd.read_csv(DB / "tool_v0_sensitivity.csv") if kind == "city" else pd.DataFrame()   # sensitivity: city palette only
+# canopy cover vs the plan's target: today's measured cover (LiDAR CHM > 2 m) is the anchor; layouts add the change of
+# the crown-disc model (canopy_pct), which reads higher than the CHM in absolute terms (shade_sponge/README.md)
+cc = pd.read_csv(DB / f"{name}_canopy_cover.csv").iloc[0]
+cover = dict(measured_pct=round(100 * float(cc.canopy_cover), 2), target_pct=round(100 * float(cc.target), 1),
+             area_m2=round(float(cc.area_ha) * 1e4), s0_disc_pct=float(S.set_index("scenario").loc["S0_current", "canopy_pct"]))
+if kind == "city" and trunk == "TERCERA" and size_rule == "exact":   # the additions run uses this configuration
+    a_ = pd.read_csv(DB / "additions_summary.csv").set_index("scenario")
+    cover["additions"] = dict(spots=int(a_.loc["A_Opt", "n_new"]), opt_pts=round(float(a_.loc["A_Opt", "canopy_pct"] - a_.loc["S0_current", "canopy_pct"]), 2),
+                              city_pts=round(float(a_.filter(regex="^A_S1a", axis=0).canopy_pct.mean() - a_.loc["S0_current", "canopy_pct"]), 2))
 lon_c, lat_c = to_ll(x0 + W / 2, y1 - H / 2)
-meta = dict(palette_kind=kind, run=dict(size_rule=size_rule, trunk_class=trunk), s1a_mix=layout.S1A_MIX, grid=grid, model=model, site=dict(name=name.capitalize(), center=[round(lon_c, 6), round(lat_c, 6)], corners=[r6(c) for c in corners]),
+meta = dict(palette_kind=kind, run=dict(size_rule=size_rule, trunk_class=trunk), s1a_mix=layout.S1A_MIX, cover=cover, grid=grid, model=model, site=dict(name=name.capitalize(), center=[round(lon_c, 6), round(lat_c, 6)], corners=[r6(c) for c in corners]),
             palette=palette, scenarios=scen, overlays=overlays, storm="PDISBA T = 2 yr, 1 h (31.9 mm), season-weighted",
             sensitivity=sens.to_dict(orient="records"),
             assumptions=["Leafless crown opacity 0.35 (test 0.25–0.54)", "Design days 15 Jul 12–17 h CEST and 15 Jan 10–15 h CET (summer window not yet aligned with the decided heat metric: mean UTCI 13–18 h CEST on a hot design day)",

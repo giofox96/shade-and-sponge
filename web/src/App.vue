@@ -8,6 +8,7 @@ import TradeoffChart from './components/TradeoffChart.vue'
 import KpiPanel from './components/KpiPanel.vue'
 import TreeInspector from './components/TreeInspector.vue'
 import ComparePanel from './components/ComparePanel.vue'
+import CoverCounter from './components/CoverCounter.vue'
 
 onMounted(() => load())
 
@@ -151,6 +152,7 @@ watch(
     <main><ComparePanel v-if="state.compare" /><MapView v-else :key="state.site" /></main>
 
     <aside class="right">
+      <section><h3>Canopy cover</h3><CoverCounter /></section>
       <section><h3>Results</h3><KpiPanel /></section>
       <section><h3>Trade-off</h3><TradeoffChart /></section>
       <section><h3>Selected tree</h3><TreeInspector /></section>
