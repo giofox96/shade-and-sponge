@@ -185,7 +185,7 @@ Run: `python -m shade_sponge porta --size=exact --trunk=SEGONA` → `databases/b
 
 The result is **267 spots: 142 small, 53 medium, 72 large.** This is an **upper bound**: driveways, crossings, bus stops, lamps and underground services are not in the data.
 
-**Update 26 Oct: OSM exclusions** (`scripts/porta_spot_exclusions.py`, `notes/sidewalk_width.md` "Spot exclusions"). Spots too close to crossings, traffic signals, parking entrances or bus stops are now dropped: **232 kept** (122 small, 42 medium, 68 large), 209–243 across the assumed clearances. `layout.planting_spots()` uses the kept ones. **The A and R+A numbers below are from the 267-spot run (24 Oct) and need a local re-run** (`python scripts/run_additions.py`).
+**Update 26 Oct: OSM exclusions** (`scripts/porta_spot_exclusions.py`, `notes/sidewalk_width.md` "Spot exclusions"). Spots too close to crossings, traffic signals, parking entrances or bus stops are now dropped: **232 kept** (122 small, 42 medium, 68 large), 209–243 across the assumed clearances. `layout.planting_spots()` uses the kept ones. The A and R+A numbers below are from the **232-spot re-run (28 Oct, user's PC)**; the 24 Oct run on 267 spots gave R+A optimised 104.2% and R+A city rule 92.6% of today's summer shade.
 
 **Run:** `scripts/run_additions.py` → `databases/barcelona/additions_summary.csv`. S1a has 5 seeds; Opt uses the balanced weights; both use the exact sizing rule and TERCERA traits. The cap is recomputed on the larger stock.
 
@@ -193,20 +193,20 @@ The result is **267 spots: 142 small, 53 medium, 72 large.** This is an **upper 
 |---|---|---|---|---|
 | R, city rule | 87.3 | 100.5 | +54.4 | −1.8 |
 | R, optimised | 98.3 | 106.8 | +20.2 | −1.1 |
-| A, city rule | 104.5 | 104.1 | −16.9 | +0.6 |
-| A, optimised | 106.2 | 106.7 | −24.6 | +0.7 |
-| R+A, city rule | 92.6 | 106.5 | +35.9 | −1.2 |
-| R+A, optimised | **104.2** | 111.9 | −4.2 | −0.4 |
+| A, city rule | 103.9 | 103.4 | −14.5 | +0.5 |
+| A, optimised | 105.6 | 106.2 | −22.1 | +0.6 |
+| R+A, city rule | 91.8 | 105.3 | +38.3 | −1.3 |
+| R+A, optimised | **103.5** | 111.2 | −1.4 | −0.5 |
 
 **Reading:**
-- **Of the scenarios that replace the planes, only R+A optimised ends above today's summer shade (104.2%).** The city's rule with the same additions stays below (92.6%). Adding trees while keeping the planes (A) ends higher still (104.5% city rule, 106.2% optimised), but A is not the city's policy: the planes are being replaced.
-- **Additions alone add little through species choice** (+1.7 points over the city's rule). 174 of the 267 spots are fixed to *Pyrus* in every layout: 142 narrow sidewalks, plus 32 wider ones where no larger crown clears the façade. So species choice acts on only 93 spots.
+- **Of the scenarios that replace the planes, only R+A optimised ends above today's summer shade (103.5%).** The city's rule with the same additions stays below (91.8%). Adding trees while keeping the planes (A) ends higher still (103.9% city rule, 105.6% optimised), but A is not the city's policy: the planes are being replaced.
+- **Additions alone add little through species choice** (+1.7 points over the city's rule). 151 of the 232 spots are fixed to *Pyrus* in every layout: 122 narrow sidewalks, plus 29 wider ones where no larger crown clears the façade. So species choice acts on only 81 spots.
 - **Every runoff difference stays within ±Δmin (91 m³).**
 - **Canopy stays below today in R and R+A, but the gap is smaller with optimised species.** The disc model is conservative here (see the S1a section).
 
 **Caveats:**
 - Heat is the shade proxy, and the trees are scored at TERCERA size.
-- The spots are a ceiling, not a plan. Not modelled: driveways (> 1 m), traffic lights and signs (> 3 m), lamps (3 / 4.5 / 6.5 m), balcony clearance (0.5 m), crossings, bus stops and services.
+- The spots are a ceiling, not a plan. Spots near OSM crossings, traffic signals, parking entrances and bus stops are already dropped. Not modelled: driveways without a parking entrance (> 1 m), signs (> 3 m), lamps (3 / 4.5 / 6.5 m), balcony clearance (0.5 m) and services.
 - A new spot is spaced by its own class only, so a small spot can sit 7–13 m from an existing large tree. This slightly overstates the count.
 - R scores 832 positions; S0 has 809 planes with good LiDAR crowns.
 
@@ -214,9 +214,9 @@ The result is **267 spots: 142 small, 53 medium, 72 large.** This is an **upper 
 **The gap:** Porta's measured cover is 20.1% (LiDAR CHM > 2 m, 2021; `databases/barcelona/porta_canopy_cover.csv`), against the plan's 30%. That is **9.9 points, about 8.3 ha of crowns**.
 
 **What street trees can close** (from the additions run above, disc model):
-- **All 267 free spots, optimised species:** **+0.70 pts**, reaching about **20.8%**, so about 7% of the gap. With the city's mix: +0.59 pts.
-- **Crown per new tree:** each optimised new tree adds on average about 22 m² of crown (0.70% × 83.7 ha / 267).
-- **Trees needed:** closing the gap would take about **3,800 street trees** of that size. That is 14 times the street spots found, which are themselves an upper bound.
+- **All 232 free spots, optimised species:** **+0.62 pts**, reaching about **20.7%**, so about 6% of the gap. With the city's mix: +0.51 pts. (On the 267 spots of 24 Oct: +0.70 and +0.59.)
+- **Crown per new tree:** each optimised new tree adds on average about 22 m² of crown (0.62% × 83.7 ha / 232).
+- **Trees needed:** closing the gap would take about **3,700 street trees** of that size. That is 16 times the street spots found, which are themselves an upper bound.
 
 **Reading:**
 - **Additions are the lever on cover, replacement is not.** Every replacement layout lowers cover, and every additions layout raises it.
@@ -232,11 +232,11 @@ Every layout now reports its largest genus and family share: `layout.taxon_share
 | Today (S0) | Platanus 31.1% | Platanaceae 31.1% |
 | R, city rule | Celtis 17.3% | Fabaceae 25.3% (Tipuana + Styphnolobium + Robinia + …) |
 | R, optimised | Jacaranda 16.0% | Bignoniaceae 19.9% |
-| A (planes kept) | Platanus 28.2% | Platanaceae 28.2% |
-| R+A, city rule / optimised | Celtis 17.1% / Jacaranda 15.9% | Fabaceae 24.9% / Bignoniaceae 19.5% |
+| A (planes kept) | Platanus 28.6% | Platanaceae 28.6% |
+| R+A, city rule / optimised | Celtis 17.1% / Jacaranda 15.9% | Fabaceae 24.7% / Bignoniaceae 19.5% |
 
 **Reading:**
-- Today's stock fails both the genus and the family rule (31.1%). Additions-only fails the genus rule (28.2%).
+- Today's stock fails both the genus and the family rule (31.1%). Additions-only fails the genus rule (28.6%).
 - Every replacement layout passes both the genus and the family limit.
 - The optimised layouts with balanced weights are the more even ones at family level: their largest family is about 20%, against about 25% under the city rule. Other weight sets reach Fabaceae 23–24%.
 - Santamour notes that the legume genera may share few pests across their subfamilies (p. 63), so the 25% Fabaceae of the city rule is a cautious reading.

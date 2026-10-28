@@ -153,7 +153,7 @@ The deck follows that order.
 **Figure:** `slides/fig_v7/res_03_scenarios.png`
 
 **Say (100 words):**
-"Then I added trees. In Porta there are 267 free spots on sidewalks wide enough under the city's rules. That's an upper bound, because driveways and services aren't in the data. Keeping the planes and adding trees gives the most shade, but the planes are going. Once they go, the city's rule plus the same new trees still ends below today, at ninety-three percent. Trait-based replacement plus additions ends above today, at a hundred and four. So the combination of the two levers, chosen with numbers, is the only path that does better than today."
+"Then I added trees. In Porta there are 232 free spots on sidewalks wide enough under the city's rules, away from crossings and bus stops. That's still an upper bound, because driveways and services aren't in the data. Keeping the planes and adding trees gives the most shade, but the planes are going. Once they go, the city's rule plus the same new trees still ends below today, at ninety-two percent. Trait-based replacement plus additions ends above today, at a hundred and three and a half. So the combination of the two levers, chosen with numbers, is the only path that does better than today."
 
 ---
 

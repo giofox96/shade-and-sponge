@@ -45,7 +45,7 @@ The top of the right panel shows the **canopy cover** of the layout on screen ag
 - **Precomputed layouts:** today plus the change of the disc model (exact, overlaps included).
 - **Live layouts, project areas and added trees:** today plus their crown discs summed without overlaps (marked ≈, runs high). Each added tree updates the counter.
 - **Gap:** the points and hectares left to the target.
-- **For scale** (city palette, established): what planting all the free street spots would add (computed on 267 spots; 232 remain after the OSM exclusions, re-run pending).
+- **For scale** (city palette, established): what planting all 232 free street spots would add (after the OSM exclusions; re-run 28 Oct).
 
 The data are in `meta.json → cover`, from `databases/barcelona/porta_canopy_cover.csv` and `additions_summary.csv`.
 
@@ -114,4 +114,4 @@ The UI look is described under "Layout" above. On top of it:
   The committed PNGs and `meta.json` colours were remapped in place, by an exact colour-map lookup, for all three datasets. The next `web_export` run writes the same colours.
 - **Neighbourhood picker** (left panel, `src/components/BarriPicker.vue`): a mini-map of the 73 barris plus a dropdown grouped by district.
   - Only barris with exported data open on the map (Porta for now); the others show their plane count and "not computed yet".
-  - The outlines come from `scripts/make_barris_web.py` → `public/data/barris.geojson`. They are provisional, from OSM; the official Open Data BCN boundaries are used when the script runs where they are downloaded.
+  - The outlines come from `scripts/make_barris_web.py` → `public/data/barris.geojson`. Since 28 Oct they are the official Open Data BCN boundaries (CC BY 4.0); without that file the script falls back to OSM.
