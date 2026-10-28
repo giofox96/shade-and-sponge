@@ -16,7 +16,7 @@
 9. [x] **Done 28 Oct (8 tiles, all 2022-06-01).** In the conda env: `pip install laspy[lazrs] scikit-image` if missing, then `python scripts/bcn_lidar_barri.py "Sant Antoni"` (downloads 8 ICGC tiles, then crowns and buildings). It needs `databases/barcelona/raw/2017_NDVI.tif` (the 1.6 GB city NDVI, open data `cobertura-vegetal-ndvi`) for the next step: re-download it if you deleted it.
 10. [x] **Done 28 Oct: Porta identical; Sant Antoni run, `notes/citywide_plan.md` §6.6.** Regression first: delete `cache/site_porta.npz`, run `python -m shade_sponge porta --size=exact --trunk=TERCERA`; the summary must be identical (Porta's bundle was refactored, not changed). Then `python -m shade_sponge "Sant Antoni"` and commit `databases/barcelona/barris/sant-antoni/`, `lidar_tiles_dates.csv` and `tool_v0_summary_sant-antoni.csv`.
 
-11. [ ] Sidewalk widths for Sant Antoni through the WMS (the GeoPackage was reset again at 24%, 28 Oct): `python scripts/porta_sidewalk_width.py "Sant Antoni"`, then `python -m shade_sponge "Sant Antoni" --size=exact --trunk=TERCERA`; commit `databases/barcelona/barris/sant-antoni/sidewalk_width.csv` and the new summary.
+11. [x] **Done 28 Oct (`notes/citywide_plan.md` §6.6).** Sidewalk widths for Sant Antoni through the WMS (the GeoPackage was reset again at 24%, 28 Oct): `python scripts/porta_sidewalk_width.py "Sant Antoni"`, then `python -m shade_sponge "Sant Antoni" --size=exact --trunk=TERCERA`; commit `databases/barcelona/barris/sant-antoni/sidewalk_width.csv` and the new summary.
 
 ## Fast track to the 10 Nov tutor session (only you can do these; in order)
 1. [ ] **Watch for the Parcs i Jardins reply** (sent 24 Oct). Forward it to me as soon as it arrives: a current per-street list would replace S1.
