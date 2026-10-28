@@ -77,7 +77,7 @@ const pc = (v) => `${Math.round(100 * v)}%`
 .empty { color: var(--muted); font-size: 12px; }
 .head { display: flex; align-items: center; gap: 6px; font-size: 14px; flex-wrap: wrap; }
 .badge { font-size: 11px; background: var(--hover); color: var(--accent); padding: 1px 6px; border-radius: 4px; }
-.warn { font-size: 11px; color: #854f0b; background: #faeeda; padding: 3px 6px; border-radius: 4px; margin: 4px 0; }
+.warn { font-size: 11px; color: var(--warn); background: var(--warn-bg); padding: 3px 6px; border-radius: 4px; margin: 4px 0; }
 .dot { display: inline-block; width: 9px; height: 9px; border-radius: 50%; margin-right: 4px; }
 .muted { color: var(--muted); }
 .small { font-size: 11px; line-height: 1.45; }

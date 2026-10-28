@@ -73,8 +73,6 @@ const winterRange = computed(() => {
 .kpi td { padding: 4px; border-top: 0.5px solid var(--line); }
 .num { text-align: right; white-space: nowrap; }
 .u { color: var(--muted); font-size: 11px; }
-.good { color: #3b6d11; }
-.bad { color: #a32d2d; }
 .mix { display: flex; height: 10px; border-radius: 3px; overflow: hidden; margin: 10px 0 4px; gap: 1px; }
 .note.live { color: var(--accent); }
 .note { font-size: 11px; color: var(--muted); margin: 6px 0 0; line-height: 1.45; }

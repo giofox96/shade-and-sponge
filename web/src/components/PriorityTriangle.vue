@@ -60,9 +60,9 @@ text { font-size: 11px; fill: var(--muted); pointer-events: none; }
 .pt { cursor: pointer; }
 .hit { fill: transparent; }
 .pt circle:not(.hit) { fill: var(--line); stroke: var(--bg); stroke-width: 1.5; }
-.pt circle.front { fill: #85b7eb; }
+.pt circle.front { fill: var(--accent); fill-opacity: 0.55; }
 .pt circle.on { fill: var(--accent); }
 .pt:hover circle:not(.hit) { fill: var(--accent); }
-.live polygon { fill: #f0997b; stroke: #993c1d; stroke-width: 1; cursor: pointer; }
-.live polygon.on { fill: #d85a30; }
+.live polygon { fill: var(--warn); fill-opacity: 0.6; stroke: var(--warn); stroke-width: 1; cursor: pointer; }
+.live polygon.on { fill-opacity: 1; }
 </style>

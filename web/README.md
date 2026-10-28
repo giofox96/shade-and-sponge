@@ -18,6 +18,27 @@ The published data use the **thesis configuration** (since 26 Oct): the exact si
 ## Data (`web/public/data/<site>/`, from `shade_sponge/web_export.py`)
 `meta.json` (palette with leaf calendars and sources, scenarios with metrics, sensitivity, overlays) · `trees.json` (plane positions, kept trees, species per position for each saved layout) · `potentials.json` (per-position shade and interception potentials + façade fit, for live optimisation) · `buildings.geojson` · overlay PNGs (winter sun, summer sun, water convergence, flood hotspots). The map is flat: heights are metres above local ground.
 
+## Layout (28 Oct cleanup)
+- **Header:** the site, and two labelled switches: **Palette** (city 7 / Barcelona 34) and **New trees at** (≈ 10 years / established).
+- **Left panel**, in working order:
+  1. **Scenario:** today, city rule, optimised, project area, random, plus the priority triangle.
+  2. **Project area:** draw, replace all, fill spots.
+  3. **Add trees.**
+
+  Collapsed groups: **Rules and species** (cap, diversity floor, excluded species), **Map display** (sidewalks, overlay, month) and **Data and sources**. Each closed group shows its current setting in its title. Longer explanations are under *How it works*.
+- **Map | Compare side by side:** tabs over the main view.
+- **Right panel:** canopy cover, results (with the scenario's description), trade-off (collapsible) and the selected tree.
+- **Map defaults:** no overlay, so the sidewalks and free spots read clearly. The sun and water layers are under Map display.
+- **Narrow screens:** the map comes first, then the controls, then the results.
+- **Side panels:** drag the inner edge of either panel to resize it (200–520 px; arrow keys on the focused edge). The ‹ / › button on the edge hides or shows it. Widths and open state are remembered in the browser.
+- **Cursor:** the map shows a crosshair while drawing a project area or adding trees, and the hand otherwise.
+- **Look:** the slide deck's "Earth" palette and fonts (`scripts/make_infographics.py`):
+  - **colours:** ink, moss = trees, ink blue = rain / accent, rust = heat / worse, ochre = warnings, title-slide green = header;
+  - **fonts:** IBM Plex Sans and Plex Mono, from Google Fonts.
+
+  All colours are CSS tokens in `src/style.css`. The map and the chart, which cannot read CSS, take theirs from `themeColors` in `store.js`.
+- **Dark mode:** **Auto | Light | Dark** in the header. Auto follows the system, and the choice is remembered. The basemap switches between OpenFreeMap Positron (light) and CARTO Dark Matter (dark), and buildings, sidewalks, tree outlines and the chart follow the theme.
+
 ## Canopy cover counter (28 Oct)
 The top of the right panel shows the **canopy cover** of the layout on screen against the plan's **30% target**:
 - **Today:** the measured 20.1% (LiDAR CHM > 2 m).
