@@ -48,6 +48,12 @@ The **Species** tab (next to Map and Compare) shows one botanical card per speci
 
 All values come from `meta.json → palette`: no new parameters.
 
+**Summary (29 Oct):** above the cards, the street trees of the layout on screen (`src/speciesview.js`): today's trees with their own LiDAR crown, height and LAI, new and added trees with the palette medians. Drawing a project area switches the tab to the area (a toggle goes back to the whole neighbourhood); a "replace all" area counts the replaced trees with their new species.
+- **Tiles:** trees, species, effective species (exp Shannon H), the largest species' share (red above the plan's 15% in the neighbourhood view), share evergreen, mean height, crown width and LAI, crown disc area.
+- **Species mix:** ranked bars (top 10 + other) with the 15% cap as a dashed line; a donut would not read with 50 species.
+- **Donuts:** leaf habit (palette text, or the leaf calendar for today's other species), crown width (< 4.5 / 4.5–7 / > 7 m, the Barcelona palette classes), today's vs new vs added trees.
+- Trees without a matched LiDAR crown (`flag != ok`, 202 of 2,825 in Porta) are not counted.
+
 ## Canopy cover counter (28 Oct)
 The top of the right panel shows the **canopy cover** of the layout on screen against the plan's **30% target**:
 - **Today:** the measured 20.1% (LiDAR CHM > 2 m).
