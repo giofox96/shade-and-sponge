@@ -16,6 +16,7 @@ setWorkerUrl(workerUrl)
 const el = ref(null)
 let map, overlay, ro
 const sphere = new SphereGeometry({ nlat: 10, nlong: 16, radius: 1 })
+const ON_TOP = { depthCompare: 'always', depthWriteEnabled: false }
 
 function crowns() {
   const { trees, meta, scenarioId, month, selected } = state
@@ -89,6 +90,8 @@ function crowns() {
       filled: false,
       getLineColor: (t, { index }) => (selected === `a${index}` ? themeColors.value.ringOn : themeColors.value.ring),
       lineWidthMinPixels: 2,
+      radiusMinPixels: 7, // young crowns are small: keep the ring findable at any zoom
+      parameters: ON_TOP, // an added tree can sit inside an existing crown or behind a building: its ring stays visible
       updateTriggers: { getRadius: state.addedVersion, getLineColor: [selected, state.addedVersion] },
     }),
     new SimpleMeshLayer({
@@ -105,13 +108,25 @@ function crowns() {
   ]
 }
 
-const ON_TOP = { depthCompare: 'always', depthWriteEnabled: false }
+
+// "Add trees": a short note next to the cursor when a click is refused, or accepted with a warning
+const tip = ref(null)
+let tipTimer
+function tryAdd(lon, lat, { x, y }) {
+  const n = state.added.length
+  addTreeAt(lon, lat)
+  const t = state.added.length > n ? state.added.at(-1) : null
+  const text = t ? (t.warn.length ? `Added, but ${t.warn.join(' and ')}` : null) : state.addMsg
+  clearTimeout(tipTimer)
+  tip.value = text ? { x, y, text, ok: !!t } : null
+  if (text) tipTimer = setTimeout(() => (tip.value = null), 3000)
+}
 
 // "Add trees": where a click is accepted, rebuilt when trees are added (the spacing ring moves)
 let mask = null, maskKey = null
 function addMask() {
   const key = `${state.site}:${state.addedVersion}`
-  if (key !== maskKey) [mask, maskKey] = [addableMask(), key]
+  if (key !== maskKey || !mask) [mask, maskKey] = [addableMask(), key] // no grid yet: try again on the next redraw
   return mask
 }
 
@@ -148,9 +163,10 @@ function layers() {
         getRadius: (i) => ({ small: 1.6, medium: 2.2, large: 2.8 })[state.trees.spots.size_class[i]], radiusMinPixels: 3,
         getFillColor: (i) => ({ small: [168, 214, 110], medium: [92, 170, 50], large: [40, 110, 20] })[state.trees.spots.size_class[i]],
         stroked: true, getLineColor: themeColors.value.spotLine, lineWidthMinPixels: 1.5, pickable: true, updateTriggers: { getLineColor: isDark.value },
-        onClick: ({ object, coordinate }) => { // a click on a free spot plants there in "Add trees" mode
+        onClick: (info) => { // a click on a free spot plants there in "Add trees" mode
+          const { coordinate } = info
           if (state.drawing) return addVertex(...coordinate)
-          if (state.addMode) addTreeAt(state.trees.spots.lon[object], state.trees.spots.lat[object])
+          if (state.addMode) tryAdd(state.trees.spots.lon[info.index], state.trees.spots.lat[info.index], info)
         } }),
     state.area &&
       new PolygonLayer({ id: 'area', data: [state.area.poly], getPolygon: (d) => d, stroked: false, filled: true,
@@ -186,11 +202,11 @@ onMounted(() => {
     getCursor: ({ isHovering }) => (state.addMode || state.drawing ? 'crosshair' : isHovering ? 'pointer' : 'grab'),
     onClick: (info) => {
       if (state.drawing && info.coordinate) return addVertex(info.coordinate[0], info.coordinate[1])
-      if (state.addMode && !info.layer && info.coordinate) addTreeAt(info.coordinate[0], info.coordinate[1])
+      if (state.addMode && !info.layer && info.coordinate) tryAdd(info.coordinate[0], info.coordinate[1], info)
     },
     getTooltip: ({ layer, index, object }) => {
       if (layer?.id === 'added') return { text: `${state.meta.palette[object.species].species} (added)` }
-      if (layer?.id === 'spots') { const S = state.trees.spots; return { text: `Free planting spot · ${S.size_class[object]} tree · sidewalk ${S.width_m[object]} m` } }
+      if (layer?.id === 'spots') { const S = state.trees.spots; return { text: `Free planting spot · ${S.size_class[index]} tree · sidewalk ${S.width_m[index]} m` } }
       if (layer?.id !== 'positions' || index < 0) return null
       return { text: state.meta.palette[currentLayout()[index]].species }
     },
@@ -251,6 +267,7 @@ onBeforeUnmount(() => {
 
 <template>
   <div ref="el" class="map" :class="{ crosshair: state.addMode || state.drawing }"></div>
+  <div v-if="tip" class="tip" :class="{ warn: tip.ok }" :style="{ left: tip.x + 14 + 'px', top: tip.y + 14 + 'px' }" role="status">{{ tip.text }}</div>
 </template>
 
 <style scoped>
@@ -263,4 +280,10 @@ onBeforeUnmount(() => {
 .map.crosshair :deep(canvas) {
   cursor: crosshair !important;
 }
+.tip {
+  position: absolute; z-index: 5; max-width: 240px; pointer-events: none; padding: 5px 8px; border-radius: 6px;
+  font-size: 12px; line-height: 1.35; background: var(--panel); color: var(--text); border: 1px solid var(--bad);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.18);
+}
+.tip.warn { border-color: var(--warn); }
 </style>
