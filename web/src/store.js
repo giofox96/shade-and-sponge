@@ -15,7 +15,7 @@ export const state = reactive({
   trees: null,
   pot: null,
   scenarioId: BALANCED,
-  compare: false, // side-by-side columns (today | city rule | optimised) instead of the 3D map
+  view: 'map', // 'map' | 'compare' (side-by-side columns: today | city rule | optimised) | 'species' (botanical cards)
   // project area: only the plane positions inside a drawn polygon are replaced; outside, today's trees stay
   drawing: false,
   draft: [], // [lon, lat] vertices while drawing
@@ -270,7 +270,7 @@ export function keptReplaced(useCity = false) {
 }
 
 export function startDrawing() {
-  Object.assign(state, { drawing: true, draft: [], compare: false, addMode: false,
+  Object.assign(state, { drawing: true, draft: [], view: 'map', addMode: false,
     addMsg: 'Click on the map to place the corners of the project area, then press Finish.' })
 }
 export function addVertex(lon, lat) {
