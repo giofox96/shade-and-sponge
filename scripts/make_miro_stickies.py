@@ -125,6 +125,30 @@ def does_not():
     save(fig, "05_does_does_not.png")
 
 
+def hub_block(name, hub, desc, blue, green, hub_w=2.4):
+    """One hub in the format of Elena's 27 Oct board: hub -> description <- brace -> blue (top) and green (bottom)."""
+    fig, ax = canvas(11.6, 5.6)
+    y = 2.8
+    sticky(ax, 9.6, y, hub, HUB, hub_w, fs=19, width=8)
+    sticky(ax, 6.2, y, desc, HUB, 2.2, fs=12, width=15)
+    sticky(ax, 1.4, y + 1.05, blue, ELENA, 1.8, fs=11, width=16)
+    sticky(ax, 1.4, y - 1.05, green, GIO, 1.8, fs=11, width=16)
+    kw = dict(arrowstyle="-|>", color="#222", lw=1.3, mutation_scale=14, shrinkA=0, shrinkB=0)
+    ax.annotate("", xy=(7.35, y), xytext=(8.35, y), arrowprops=kw)                                   # hub -> description
+    for ny, rad in ((y + 1.05, 0.3), (y - 1.05, -0.3)):                                              # description -> notes (curved, as hers)
+        ax.annotate("", xy=(2.4, ny), xytext=(5.05, y), arrowprops=dict(kw, connectionstyle=f"arc3,rad={rad}"))
+    save(fig, name)
+
+
+def new_hubs_v2():   # 27 Oct: two new hubs drawn like Elena's; her convention links hubs to authors only (see notes)
+    hub_block("06_preference.png", "Preference", "Whose preferences shape the outcome",
+              "Each person decides what to avoid or seek",
+              "The planner sets the weight between heat and runoff")
+    hub_block("07_lack_of_data.png", "Lack of data", "What is not measured or recorded, and what stands in for it",
+              "Neurodivergent people's urban experience is little researched",
+              "Trees without measured LAI or species traits: proxies are used")
+
+
 if __name__ == "__main__":
     for f in (hub_links, centre, new_hubs, before_and_practice, does_not):
         f()
