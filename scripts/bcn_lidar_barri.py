@@ -150,8 +150,12 @@ else:
 # ---- 4. buildings: OSM footprints + LiDAR height (median of roof heights inside footprint). If Overpass stays busy,
 # footprints from the LiDAR building class itself (cells > 2.5 m, opened once, parts >= 10 m²; source = "lidar")
 OSM_ONLY = "--osm-only" in sys.argv                     # rerun for OSM footprints: fail instead of the LiDAR fallback
+LOCAL = DB / "raw/osm/buildings.gpkg"                    # scripts/osm_buildings.py (BBBike extract), no Overpass needed
 try:
-    bld = osm(site.buffer(BUFFER_M).to_crs(4326).iloc[0], {"building": True}, tries=6 if OSM_ONLY else 3)
+    if LOCAL.exists():
+        bld = gpd.read_file(LOCAL, mask=site.buffer(BUFFER_M).iloc[0]).explode(index_parts=False)
+    else:
+        bld = osm(site.buffer(BUFFER_M).to_crs(4326).iloc[0], {"building": True}, tries=6 if OSM_ONLY else 3)
     bld = bld[bld.geom_type.isin(["Polygon", "MultiPolygon"])].to_crs(25831).reset_index()[["geometry"]].assign(source="osm")
 except Exception as e:
     if OSM_ONLY:
