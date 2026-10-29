@@ -39,7 +39,8 @@ x0, y0, x1, y1 = site.total_bounds + np.array([-BUFFER_M, -BUFFER_M, BUFFER_M, B
 W, H = int(np.ceil((x1 - x0) / RES)), int(np.ceil((y1 - y0) / RES))
 T = from_origin(x0, y1, RES, RES)
 
-done = (out_dir / "trees_lidar.csv").exists() and all((LID / f"{s}_{k}_05m.tif").exists() for k in ("dtm", "bldg"))
+tf = out_dir / "trees_lidar.csv"
+done = tf.exists() and len(pd.read_csv(tf)) > 0 and all((LID / f"{s}_{k}_05m.tif").exists() for k in ("dtm", "bldg"))
 if done:                                                 # LiDAR already processed: only the buildings step is redone
     print("LiDAR outputs found: skipping to the buildings (delete trees_lidar.csv to redo the LiDAR)")
     dtm, bldg = (rasterio.open(LID / f"{s}_{k}_05m.tif").read(1) for k in ("dtm", "bldg"))
@@ -106,7 +107,9 @@ else:
 
     # ---- 3. trees: seed watershed at inventory positions on the CHM
     t = pd.read_csv(DB / "arbrat_viari.csv")
-    t = t[(t.tipus_element == "ARBRE VIARI") & (t.nom_barri.fillna("").map(slug) == s)].reset_index(drop=True)
+    key = lambda n: slug(n).replace("-", "")          # the inventory spells some names without the apostrophe
+    t = t[(t.tipus_element == "ARBRE VIARI") & (t.nom_barri.fillna("").map(key) == key(name))].reset_index(drop=True)
+    assert len(t), f"no inventory street trees for {name!r}; inventory names: {sorted(t.nom_barri.dropna().unique())}"
     tc = ((t.x_etrs89 - x0) / RES).astype(int).values
     tr = ((y1 - t.y_etrs89) / RES).astype(int).values
     canopy = ndimage.binary_opening(chm > 2.0, iterations=1)
@@ -154,6 +157,7 @@ except Exception as e:
     m = ndimage.binary_opening(np.nan_to_num(bldg) > 2.5).astype("uint8")
     bld = gpd.GeoDataFrame(geometry=[shape(g) for g, v in shapes(m, mask=m.astype(bool), transform=T)], crs=25831)
     bld = bld[bld.area >= 10].reset_index(drop=True).assign(source="lidar")
+    bld["geometry"] = bld.simplify(RES)                  # drop the 0.5 m stair steps (files were up to 87 MB)
 lab_b = rasterize(((geom, i + 1) for i, geom in enumerate(bld.geometry)), out_shape=(H, W), transform=T, fill=0, dtype="int32")
 bi = np.arange(1, len(bld) + 1)
 bld["height_m"] = np.round(ndimage.median(np.nan_to_num(bldg, nan=0), lab_b, bi), 2)
