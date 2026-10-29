@@ -1,0 +1,2306 @@
+tree_id,species,is_plane,street,width_m,facade_dist_m,flag,strip_width_m,size_class
+0113318AR,Platanus × acerifolia,True,C\ Wellington,20.61,14.73,ok,,large
+0113328AR,Quercus ilex,False,C\ Salvador Espriu,,35.29,no_facade,,check
+0113345AR,Platanus × acerifolia,True,C\ Wellington,9.08,4.66,ok,,large
+0113590AR,Celtis australis,False,C\ Salvador Espriu,,41.82,no_facade,,check
+0113625AR,Platanus × acerifolia,True,C\ Wellington,10.26,3.54,ok,,large
+0113654AR,Platanus × acerifolia,True,C\ Wellington,,17.78,median,,check
+0113661AR,Quercus ilex,False,C\ Salvador Espriu,,57.23,no_facade,9.85,check
+0113673AR,Celtis australis,False,C\ Salvador Espriu,,51.6,no_facade,11.27,check
+0113802AR,Platanus × acerifolia,True,C\ Wellington,,17.23,median,,check
+0113941AR,Platanus × acerifolia,True,C\ Wellington,5.73,1.98,ok,,medium
+0113976AR,Casuarina cunninghamiana,False,C\ Wellington,,20.95,median,,check
+0114035AR,Platanus × acerifolia,True,C\ Wellington,,19.79,median,,check
+0114069AR,Platanus × acerifolia,True,C\ Wellington,10.17,5.43,ok,,large
+0114165AR,Platanus × acerifolia,True,C\ Wellington,5.28,1.96,ok,,medium
+0114204AR,Platanus × acerifolia,True,C\ Wellington,17.41,9.26,ok,,large
+0114222AR,Platanus × acerifolia,True,C\ Wellington,,9.1,no_kerb,,check
+0114230AR,Platanus × acerifolia,True,C\ Wellington,10.31,5.78,ok,,large
+0114233AR,Platanus × acerifolia,True,C\ Wellington,,17.29,median,,check
+0114256AR,Platanus × acerifolia,True,C\ Wellington,10.23,5.71,ok,,large
+0114326AR,Platanus × acerifolia,True,C\ Wellington,,18.74,median,,check
+0114335AR,Platanus × acerifolia,True,C\ Wellington,,13.47,no_kerb,,check
+0114517AR,Platanus × acerifolia,True,C\ Wellington,,16.61,median,,check
+0114590AR,Platanus × acerifolia,True,C\ Wellington,,16.44,median,,check
+0114705AR,Celtis australis,False,C\ Salvador Espriu,,30.05,no_facade,,check
+0114763AR,Platanus × acerifolia,True,C\ Wellington,9.04,4.66,ok,,large
+0114936AR,Celtis australis,False,C\ Salvador Espriu,,46.5,no_facade,12.55,check
+0116463AR,Quercus ilex,False,Av Icària,,15.6,median,13.78,check
+0116687AR,Quercus ilex,False,Av Icària,,23.44,median,13.81,check
+0117217AR,Quercus ilex,False,Av Icària,,14.23,median,13.77,check
+0117308AR,Quercus ilex,False,Av Icària,,15.38,median,13.76,check
+0117418AR,Quercus ilex,False,Av Icària,,14.61,median,13.77,check
+0118264AR,Quercus ilex,False,Av Icària,,15.0,median,13.77,check
+0118390AR,Quercus ilex,False,Av Icària,,14.03,median,13.77,check
+0119733AR,Quercus ilex,False,Av Icària,,14.6,median,13.75,check
+0119760AR,Quercus ilex,False,Av Icària,,14.11,median,13.76,check
+0119821AR,Quercus ilex,False,Av Icària,,14.79,median,13.75,check
+0157398AR,Celtis australis,False,C\ Salvador Espriu,27.42,23.34,ok,,large
+0157402AR,Ceratonia siliqua,False,C\ Marina,19.48,16.53,ok,,large
+0157443AR,Koelreuteria paniculata 'Fastigiata',False,Pl Tirant lo Blanc,,16.42,no_kerb,,check
+0157445AR,Melia azedarach,False,C\ Marina,12.65,10.99,ok,,large
+0157462AR,Koelreuteria paniculata 'Fastigiata',False,Av Litoral,,21.77,median,4.17,check
+0157550AR,Cupressus sempervirens 'Stricta',False,C\ Marina,19.3,17.16,ok,,large
+0157575AR,Morus alba 'Fruitless',False,C\ Marina,,133.88,no_facade,,check
+0157615AR,Cupressus sempervirens 'Stricta',False,C\ Marina,22.34,17.74,ok,,large
+0157709AR,Koelreuteria paniculata 'Fastigiata',False,Pl Tirant lo Blanc,,13.68,no_kerb,29.37,check
+0157714AR,Melia azedarach,False,C\ Marina,11.71,10.34,ok,,large
+0157770AR,Platanus × acerifolia,True,C\ Marina,13.12,8.14,ok,,large
+0157781AR,Magnolia grandiflora 'Gallisoniensis',False,C\ Marina,,43.42,no_facade,,check
+0157862AR,Casuarina cunninghamiana,False,C\ Marina,,51.78,no_facade,30.5,check
+0159664AR,Tipuana tipu,False,Av Bogatell,22.03,2.29,ok,,large
+0159665AR,Pistacia atlantica,False,C\ Salvador Espriu,,9.14,no_kerb,,check
+0159667AR,Platanus × acerifolia,True,C\ Joan Miró,5.89,5.79,ok,,medium
+0159669AR,Platanus × acerifolia,True,C\ Àlaba,10.75,3.77,ok,,large
+0159670AR,Platanus × acerifolia,True,C\ Sardenya,5.01,4.15,ok,,medium
+0159671AR,Platanus × acerifolia,True,C\ Doctor Trueta,7.91,6.85,ok,,large
+0159672AR,Platanus × acerifolia,True,C\ Ramon Trias Fargas,4.88,4.02,ok,,medium
+0159673AR,Tipuana tipu,False,C\ Salvador Espriu,,14.01,no_kerb,,check
+0159674AR,Quercus ilex,False,Av Icària,,17.12,median,13.6,check
+0159675AR,Platanus × acerifolia,True,C\ Joan Miró,4.97,4.52,ok,,medium
+0159676AR,Platanus × acerifolia,True,C\ Zamora,4.78,3.46,ok,,medium
+0159677AR,Platanus × acerifolia,True,C\ Ramon Trias Fargas,15.17,14.32,ok,,large
+0159678AR,Tipuana tipu,False,Av Bogatell,,28.91,no_kerb,,check
+0159679AR,Citrus × aurantium,False,C\ Marina,7.67,8.49,ok,,large
+0159680AR,Platanus × acerifolia,True,C\ Jaume Vicens i Vives,8.87,7.84,ok,,large
+0159682AR,Platanus × acerifolia,True,C\ Sardenya,5.01,4.6,ok,,medium
+0159683AR,Quercus ilex,False,C\ Salvador Espriu,11.37,10.58,ok,,large
+0159684AR,Celtis australis,False,C\ Llull,,29.05,median,,check
+0159685AR,Platanus × acerifolia,True,C\ Ramon Turró,7.79,6.62,ok,,large
+0159686AR,Platanus × acerifolia,True,C\ Ramon Trias Fargas,23.35,21.7,ok,,large
+0159687AR,Platanus × acerifolia,True,C\ Joan Miró,5.77,5.92,ok,,medium
+0159688AR,Tipuana tipu,False,Av Bogatell,,25.78,median,,check
+0159689AR,Platanus × acerifolia,True,Av Icària,4.88,4.23,ok,,medium
+0159690AR,Pinus pinea,False,Av Icària,,53.24,no_facade,16.01,check
+0159691AR,Platanus × acerifolia,True,C\ Moscou,12.14,10.92,ok,,large
+0159692AR,Platanus × acerifolia,True,C\ Doctor Trueta,4.7,4.22,ok,,medium
+0159693AR,Platanus × acerifolia,True,C\ Arquitecte Sert,9.05,7.88,ok,,large
+0159694AR,Platanus × acerifolia,True,C\ Joan Miró,5.14,4.9,ok,,medium
+0159695AR,Platanus × acerifolia,True,C\ Frederic Mompou,15.03,13.91,ok,,large
+0159696AR,Platanus × acerifolia,True,Av Icària,5.0,4.43,ok,,medium
+0159697AR,Quercus ilex,False,Av Icària,,14.42,median,13.65,check
+0159698AR,Quercus ilex,False,Av Icària,,14.24,median,13.64,check
+0159699AR,Platanus × acerifolia,True,C\ Moscou,11.99,10.36,ok,,large
+0159700AR,Platanus × acerifolia,True,Av Icària,7.38,6.83,ok,,large
+0159701AR,Platanus × acerifolia,True,C\ Ramon Turró,5.95,5.23,ok,,medium
+0159702AR,Platanus × acerifolia,True,C\ Moscou,11.92,11.27,ok,,large
+0159703AR,Platanus × acerifolia,True,Av Icària,9.49,8.8,ok,,large
+0159705AR,Platanus × acerifolia,True,C\ Doctor Trueta,4.62,3.9,ok,,medium
+0159706AR,Tipuana tipu,False,Av Bogatell,20.61,18.46,ok,,large
+0159707AR,Pinus pinea,False,Av Icària,,64.83,no_facade,20.69,check
+0159708AR,Platanus × acerifolia,True,Av Icària,12.35,9.32,ok,,large
+0159710AR,Platanus × acerifolia,True,C\ Àlaba,,15.63,median,,check
+0159711AR,Quercus ilex,False,C\ Salvador Espriu,25.33,11.48,ok,,large
+0159712AR,Platanus × acerifolia,True,C\ Ramon Turró,,15.97,median,,check
+0159713AR,Celtis australis,False,C\ Doctor Trueta,,11.97,median,8.11,check
+0159714AR,Melia azedarach,False,C\ Marina,13.26,3.76,ok,,large
+0159715AR,Schinus molle,False,C\ Salvador Espriu,,7.56,no_kerb,,check
+0159716AR,Celtis australis,False,Av Icària,5.17,4.18,ok,,medium
+0159717AR,Tipuana tipu,False,C\ Salvador Espriu,28.96,12.4,ok,,large
+0159719AR,Platanus × acerifolia,True,C\ Wellington,9.21,3.93,ok,,large
+0159720AR,Platanus × acerifolia,True,C\ Àlaba,10.55,9.49,ok,,large
+0159721AR,Ligustrum lucidum,False,C\ Ramon Trias Fargas,8.98,4.34,ok,,large
+0159722AR,Platanus × acerifolia,True,C\ Arquitecte Sert,4.91,4.23,ok,,medium
+0159723AR,Platanus × acerifolia,True,C\ Joan Miró,14.67,13.72,ok,,large
+0159724AR,Pinus pinea,False,Av Icària,,30.45,no_facade,13.22,check
+0159726AR,Quercus ilex,False,Av Icària,,12.87,median,13.65,check
+0159727AR,Pinus pinea,False,Av Icària,,38.68,no_facade,,check
+0159728AR,Platanus × acerifolia,True,Av Icària,5.03,4.63,ok,,medium
+0159729AR,Gleditsia triacanthos f. inermis,False,C\ Ramon Turró,4.68,3.84,ok,,medium
+0159730AR,Platanus × acerifolia,True,C\ Wellington,9.83,5.56,ok,,large
+0159731AR,Tipuana tipu,False,C\ Salvador Espriu,,19.23,no_kerb,,check
+0159732AR,Platanus × acerifolia,True,C\ Arquitecte Sert,9.3,8.59,ok,,large
+0159733AR,Morus alba,False,C\ Marina,16.18,10.47,ok,,large
+0159734AR,Gleditsia triacanthos f. inermis,False,C\ Ramon Turró,3.69,3.07,ok,,medium
+0159735AR,Celtis australis,False,C\ Àvila,4.28,3.57,ok,,medium
+0159736AR,Tipuana tipu,False,C\ Marina,22.01,7.66,ok,,large
+0159737AR,Platanus × acerifolia,True,Av Icària,,79.97,no_facade,,check
+0159739AR,Tipuana tipu,False,Av Bogatell,16.41,5.8,ok,,large
+0159740AR,Jacaranda mimosifolia,False,C\ Marina,19.3,9.87,ok,,large
+0159741AR,Celtis australis,False,C\ Ramon Turró,4.91,4.16,ok,,medium
+0159742AR,Tipuana tipu,False,C\ Salvador Espriu,,11.12,no_kerb,,check
+0159744AR,Citrus × aurantium,False,C\ Marina,,10.2,median,18.52,check
+0159745AR,Brachychiton populneus,False,C\ Jaume Vicens i Vives,8.96,3.73,ok,,large
+0159746AR,Platanus × acerifolia,True,Av Icària,4.88,4.32,ok,,medium
+0159747AR,Citrus × aurantium,False,C\ Marina,,14.36,median,6.78,check
+0159748AR,Platanus × acerifolia,True,C\ Ramon Turró,4.23,3.81,ok,,medium
+0159749AR,Tipuana tipu,False,C\ Salvador Espriu,27.36,17.53,ok,,large
+0159750AR,Platanus × acerifolia,True,C\ Joan Oliver,,8.12,no_kerb,5.4,check
+0159751AR,Platanus × acerifolia,True,C\ Joan Miró,4.8,3.36,ok,,medium
+0159752AR,Platanus × acerifolia,True,C\ Joan Miró,,16.6,no_kerb,,check
+0159753AR,Platanus × acerifolia,True,C\ Joan Miró,4.84,3.65,ok,,medium
+0159754AR,Platanus × acerifolia,True,C\ Wellington,9.19,3.76,ok,,large
+0159755AR,Platanus × acerifolia,True,C\ Rosa Sensat,9.05,8.15,ok,,large
+0159756AR,Melia azedarach,False,C\ Marina,13.11,3.84,ok,,large
+0159757AR,Quercus ilex,False,Av Icària,,20.25,median,13.6,check
+0159758AR,Schinus molle,False,C\ Salvador Espriu,,25.42,no_kerb,,check
+0159759AR,Platanus × acerifolia,True,C\ Ramon Trias Fargas,9.66,7.77,ok,,large
+0159760AR,Tipuana tipu,False,Av Bogatell,,6.04,no_kerb,,check
+0159761AR,Platanus × acerifolia,True,C\ Llull,4.51,3.9,ok,,medium
+0159762AR,Tipuana tipu,False,C\ Salvador Espriu,21.58,8.92,ok,,large
+0159764AR,Tipuana tipu,False,C\ Salvador Espriu,,19.43,no_kerb,,check
+0159765AR,Platanus × acerifolia,True,C\ Arquitecte Sert,5.01,3.92,ok,,medium
+0159766AR,Celtis australis,False,C\ Zamora,4.38,3.44,ok,,medium
+0159767AR,Platanus × acerifolia,True,C\ Ramon Turró,4.62,4.03,ok,,medium
+0159768AR,Platanus × acerifolia,True,C\ Pamplona,13.57,11.89,ok,,large
+0159769AR,Platanus × acerifolia,True,C\ Ramon Turró,4.79,4.19,ok,,medium
+0159770AR,Tipuana tipu,False,C\ Salvador Espriu,21.83,11.1,ok,,large
+0159771AR,Platanus × acerifolia,True,C\ Frederic Mompou,5.17,4.9,ok,,medium
+0159772AR,Platanus × acerifolia,True,C\ Ramon Trias Fargas,4.85,4.34,ok,,medium
+0159773AR,Platanus × acerifolia,True,C\ Frederic Mompou,20.62,19.26,ok,,large
+0159774AR,Celtis australis,False,C\ Moscou,14.57,12.64,ok,,large
+0159775AR,Celtis australis,False,C\ Àlaba,4.82,4.04,ok,,medium
+0159777AR,Gleditsia triacanthos 'sunburst',False,C\ Pamplona,4.85,4.07,ok,,medium
+0159778AR,Platanus × acerifolia,True,C\ Arquitecte Sert,8.86,7.56,ok,,large
+0159779AR,Platanus × acerifolia,True,C\ Arquitecte Sert,9.42,8.74,ok,,large
+0159780AR,Tipuana tipu,False,Av Bogatell,,17.54,no_kerb,,check
+0159781AR,Tipuana tipu,False,Av Bogatell,,28.81,no_kerb,,check
+0159782AR,Citrus × aurantium,False,C\ Salvador Espriu,27.41,16.81,ok,,large
+0159783AR,Celtis australis,False,C\ Àlaba,5.05,4.44,ok,,medium
+0159784AR,Platanus × acerifolia,True,C\ Doctor Trueta,4.91,3.79,ok,,medium
+0159785AR,Platanus × acerifolia,True,Av Icària,7.19,4.58,ok,,large
+0159786AR,Platanus × acerifolia,True,C\ Villena,,20.22,median,,check
+0159787AR,Celtis australis,False,C\ Ramon Trias Fargas,8.98,7.79,ok,,large
+0159788AR,Pinus pinea,False,Av Icària,,49.39,no_facade,16.01,check
+0159789AR,Platanus × acerifolia,True,C\ Moscou,12.73,11.52,ok,,large
+0159790AR,Tipuana tipu,False,C\ Joan Oliver,,20.31,no_kerb,,check
+0159791AR,Celtis australis,False,C\ Ramon Turró,5.19,4.68,ok,,medium
+0159792AR,Platanus × acerifolia,True,C\ Arquitecte Sert,9.05,7.72,ok,,large
+0159793AR,Platanus × acerifolia,True,C\ Joan Miró,28.86,18.86,ok,,large
+0159794AR,Melia azedarach,False,C\ Marina,13.17,3.82,ok,,large
+0159795AR,Citrus × aurantium,False,C\ Doctor Trueta,,15.35,median,10.02,check
+0159797AR,Platanus × acerifolia,True,Av Icària,7.25,4.37,ok,,large
+0159798AR,Platanus × acerifolia,True,Av Icària,7.13,4.36,ok,,large
+0159799AR,Cupressus sempervirens 'Stricta',False,C\ Marina,,28.65,median,14.22,check
+0159800AR,Platanus × acerifolia,True,C\ Ramon Trias Fargas,,33.36,no_facade,,check
+0159801AR,Platanus × acerifolia,True,C\ Arquitecte Sert,9.05,7.49,ok,,large
+0159802AR,Platanus × acerifolia,True,Av Icària,5.0,4.36,ok,,medium
+0159803AR,Quercus ilex,False,Av Icària,,12.29,median,13.63,check
+0159804AR,Celtis australis,False,C\ Salvador Espriu,27.37,22.97,ok,,large
+0159805AR,Platanus × acerifolia,True,C\ Frederic Mompou,5.23,5.05,ok,,medium
+0159806AR,Melia azedarach,False,C\ Marina,10.79,3.9,ok,,large
+0159807AR,Platanus × acerifolia,True,C\ Sardenya,5.02,3.05,ok,,medium
+0159808AR,Celtis australis,False,Av Icària,5.89,2.95,ok,,medium
+0159809AR,Platanus × acerifolia,True,C\ Àlaba,,15.57,median,,check
+0159810AR,Platanus × acerifolia,True,C\ Joan Miró,,15.72,median,,check
+0159812AR,Platanus × acerifolia,True,Av Icària,5.05,4.31,ok,,medium
+0159814AR,Platanus × acerifolia,True,C\ Doctor Trueta,4.49,4.04,ok,,medium
+0159815AR,Platanus × acerifolia,True,C\ Ramon Trias Fargas,8.91,7.97,ok,,large
+0159817AR,Platanus × acerifolia,True,C\ Wellington,22.98,12.93,ok,,large
+0159818AR,Celtis australis,False,C\ Rosa Sensat,6.11,5.14,ok,,large
+0159819AR,Platanus × acerifolia,True,C\ Doctor Trueta,9.6,8.7,ok,,large
+0159820AR,Celtis australis,False,C\ Àvila,4.01,3.49,ok,,medium
+0159821AR,Celtis australis,False,C\ Salvador Espriu,27.5,23.09,ok,,large
+0159822AR,Cupressus sempervirens,False,C\ Marina,19.3,17.08,ok,,large
+0159823AR,Platanus × acerifolia,True,Av Icària,22.03,17.77,ok,,large
+0159824AR,Cupressus sempervirens,False,Parc Carles I,,34.28,no_facade,16.47,check
+0159825AR,Morus alba,False,C\ Marina,,110.12,no_facade,,check
+0159826AR,Celtis australis,False,C\ Salvador Espriu,,39.91,no_facade,,check
+0159827AR,Platanus × acerifolia,True,C\ Moscou,11.8,11.1,ok,,large
+0159828AR,Platanus × acerifolia,True,C\ Joan Miró,5.1,3.82,ok,,medium
+0159829AR,Platanus × acerifolia,True,C\ Ramon Turró,,15.68,median,,check
+0159830AR,Koelreuteria paniculata 'Fastigiata',False,C\ Ramon Trias Fargas,,13.61,median,12.14,check
+0159831AR,Platanus × acerifolia,True,Av Icària,,103.87,no_facade,,check
+0159832AR,Platanus × acerifolia,True,C\ Doctor Trueta,4.67,3.98,ok,,medium
+0159833AR,Quercus ilex,False,Av Icària,,16.65,median,13.59,check
+0159834AR,Quercus ilex,False,Av Icària,,12.44,median,13.64,check
+0159835AR,Platanus × acerifolia,True,C\ Llull,4.92,4.4,ok,,medium
+0159836AR,Platanus × acerifolia,True,C\ Joan Miró,5.26,3.53,ok,,medium
+0159837AR,Tipuana tipu,False,C\ Salvador Espriu,27.4,17.51,ok,,large
+0159838AR,Platanus × acerifolia,True,C\ Arquitecte Sert,9.38,8.76,ok,,large
+0159839AR,Brachychiton populneus,False,C\ Jaume Vicens i Vives,8.97,3.65,ok,,large
+0159840AR,Platanus × acerifolia,True,C\ Moscou,11.23,9.83,ok,,large
+0159841AR,Platanus × acerifolia,True,C\ Llull,4.51,4.07,ok,,medium
+0159842AR,Tipuana tipu,False,Av Icària,,47.94,no_facade,,check
+0159843AR,Platanus × acerifolia,True,C\ Àvila,4.88,3.99,ok,,medium
+0159845AR,Morus alba 'Fruitless',False,C\ Marina,24.95,10.84,ok,,large
+0159846AR,Platanus × acerifolia,True,Av Icària,7.82,4.45,ok,,large
+0159847AR,Melia azedarach,False,C\ Marina,11.42,6.1,ok,,large
+0159848AR,Platanus × acerifolia,True,C\ Villena,,20.34,median,18.0,check
+0159849AR,Platanus × acerifolia,True,C\ Moscou,13.22,11.45,ok,,large
+0159850AR,Schinus molle,False,C\ Salvador Espriu,,21.58,no_kerb,,check
+0159851AR,Celtis australis,False,C\ Salvador Espriu,27.4,23.12,ok,,large
+0159852AR,Platanus × acerifolia,True,C\ Llull,4.27,3.33,ok,,medium
+0159853AR,Tipuana tipu,False,Av Bogatell,,5.94,no_kerb,,check
+0159854AR,Platanus × acerifolia,True,C\ Llull,6.78,6.16,ok,,large
+0159855AR,Platanus × acerifolia,True,C\ Ramon Turró,4.82,4.33,ok,,medium
+0159856AR,Platanus × acerifolia,True,Av Icària,5.15,3.95,ok,,medium
+0159857AR,Celtis australis,False,C\ Salvador Espriu,27.41,23.29,ok,,large
+0159860AR,Platanus × acerifolia,True,C\ Ramon Trias Fargas,4.61,4.0,ok,,medium
+0159861AR,Celtis australis,False,C\ Llull,5.02,4.04,ok,,medium
+0159862AR,Tipuana tipu,False,C\ Salvador Espriu,,13.53,no_kerb,,check
+0159864AR,Tipuana tipu,False,C\ Salvador Espriu,,3.87,no_kerb,,check
+0159865AR,Platanus × acerifolia,True,C\ Wellington,8.89,4.42,ok,,large
+0159866AR,Citrus × aurantium,False,C\ Joan Miró,,19.48,median,11.36,check
+0159867AR,Platanus × acerifolia,True,C\ Àvila,4.89,4.04,ok,,medium
+0159868AR,Pistacia atlantica,False,C\ Salvador Espriu,23.86,12.67,ok,,large
+0159869AR,Magnolia grandiflora,False,C\ Salvador Espriu,23.87,17.34,ok,,large
+0159870AR,Tipuana tipu,False,Av Bogatell,19.77,3.9,ok,,large
+0159871AR,Platanus × acerifolia,True,C\ Ramon Turró,4.89,3.02,ok,,medium
+0159872AR,Platanus × acerifolia,True,C\ Moscou,12.05,10.74,ok,,large
+0159873AR,Cupressus sempervirens,False,C\ Moscou,,19.49,median,11.58,check
+0159874AR,Magnolia grandiflora,False,C\ Salvador Espriu,,27.52,no_kerb,,check
+0159875AR,Platanus × acerifolia,True,C\ Joan Miró,5.17,3.51,ok,,medium
+0159877AR,Platanus × acerifolia,True,Av Icària,,100.3,no_facade,,check
+0159878AR,Platanus × acerifolia,True,C\ Arquitecte Sert,9.28,8.78,ok,,large
+0159879AR,Melia azedarach,False,C\ Marina,13.23,3.78,ok,,large
+0159880AR,Brachychiton populneus,False,C\ Jaume Vicens i Vives,8.96,3.73,ok,,large
+0159881AR,Platanus × acerifolia,True,C\ Joan Miró,,20.56,no_kerb,,check
+0159882AR,Citrus × aurantium,False,C\ Marina,,25.02,median,5.56,check
+0159885AR,Platanus × acerifolia,True,C\ Ramon Turró,9.26,8.98,ok,,large
+0159886AR,Platanus × acerifolia,True,C\ Ramon Turró,,17.03,median,6.19,check
+0159887AR,Platanus × acerifolia,True,C\ Doctor Trueta,,41.71,no_facade,23.38,check
+0159888AR,Gleditsia triacanthos,False,C\ Doctor Trueta,10.07,9.55,ok,,large
+0159890AR,Platanus × acerifolia,True,C\ Ramon Turró,4.9,4.37,ok,,medium
+0159891AR,Platanus × acerifolia,True,C\ Joan Miró,10.4,10.1,ok,,large
+0159892AR,Melia azedarach,False,C\ Marina,12.61,6.32,ok,,large
+0159893AR,Schinus molle,False,C\ Salvador Espriu,,6.95,no_kerb,,check
+0159894AR,Platanus × acerifolia,True,C\ Moscou,10.51,10.21,ok,,large
+0159895AR,Ligustrum lucidum,False,C\ Villena,8.65,5.69,ok,,large
+0159896AR,Citrus × aurantium,False,C\ Marina,,14.67,median,13.44,check
+0159897AR,Tipuana tipu,False,C\ Salvador Espriu,,9.03,no_kerb,,check
+0159898AR,Platanus × acerifolia,True,C\ Arquitecte Sert,8.87,8.42,ok,,large
+0159899AR,Platanus × acerifolia,True,C\ Arquitecte Sert,9.17,7.91,ok,,large
+0159900AR,Tipuana tipu,False,Av Bogatell,,19.18,median,,check
+0159902AR,Brachychiton populneus,False,C\ Jaume Vicens i Vives,8.96,3.78,ok,,large
+0159903AR,Platanus × acerifolia,True,C\ Rosa Sensat,,23.08,no_kerb,,check
+0159904AR,Tipuana tipu,False,C\ Marina,21.67,8.37,ok,,large
+0159906AR,Platanus × acerifolia,True,C\ Ramon Turró,4.56,3.94,ok,,medium
+0159907AR,Platanus × acerifolia,True,C\ Rosa Sensat,5.47,4.3,ok,,medium
+0159908AR,Platanus × acerifolia,True,C\ Ramon Turró,3.69,3.68,ok,,medium
+0159910AR,Platanus × acerifolia,True,C\ Arquitecte Sert,5.03,3.93,ok,,medium
+0159911AR,Platanus × acerifolia,True,Av Icària,7.31,4.14,ok,,large
+0159912AR,Platanus × acerifolia,True,C\ Pamplona,3.97,3.37,ok,,medium
+0159913AR,Platanus × acerifolia,True,C\ Ramon Turró,5.4,4.74,ok,,medium
+0159914AR,Platanus × acerifolia,True,C\ Joan Miró,5.03,3.69,ok,,medium
+0159915AR,Platanus × acerifolia,True,C\ Rosa Sensat,,22.41,no_kerb,,check
+0159916AR,Platanus × acerifolia,True,Av Icària,7.31,4.16,ok,,large
+0159917AR,Platanus × acerifolia,True,C\ Ramon Turró,4.8,4.16,ok,,medium
+0159918AR,Platanus × acerifolia,True,C\ Llull,,17.59,median,,check
+0159919AR,Celtis australis,False,C\ Ramon Turró,8.8,8.55,ok,,large
+0159921AR,Platanus × acerifolia,True,Av Icària,4.88,4.32,ok,,medium
+0159922AR,Tipuana tipu,False,C\ Salvador Espriu,,7.79,no_kerb,29.44,check
+0159923AR,Platanus × acerifolia,True,Av Icària,5.62,4.64,ok,,medium
+0159924AR,Platanus × acerifolia,True,C\ Wellington,21.56,11.65,ok,,large
+0159925AR,Schinus molle,False,C\ Salvador Espriu,,7.41,no_kerb,,check
+0159927AR,Platanus × acerifolia,True,Av Icària,7.22,4.29,ok,,large
+0159928AR,Platanus × acerifolia,True,C\ Rosa Sensat,,18.05,no_kerb,,check
+0159930AR,Ligustrum lucidum,False,C\ Ramon Trias Fargas,9.07,4.32,ok,,large
+0159932AR,Platanus × acerifolia,True,C\ Rosa Sensat,,7.27,no_kerb,,check
+0159933AR,Platanus × acerifolia,True,Av Icària,,99.39,no_facade,,check
+0159934AR,Tipuana tipu,False,C\ Salvador Espriu,27.42,17.68,ok,,large
+0159935AR,Platanus × acerifolia,True,C\ Doctor Trueta,4.96,3.89,ok,,medium
+0159936AR,Platanus × acerifolia,True,C\ Rosa Sensat,4.92,3.76,ok,,medium
+0159937AR,Platanus × acerifolia,True,C\ Joan Miró,13.43,10.08,ok,,large
+0159938AR,Platanus × acerifolia,True,Av Icària,7.21,4.3,ok,,large
+0159939AR,Platanus × acerifolia,True,C\ Llull,4.68,4.14,ok,,medium
+0159940AR,Platanus × acerifolia,True,C\ Arquitecte Sert,4.99,3.61,ok,,medium
+0159941AR,Citrus × aurantium,False,C\ Doctor Trueta,,12.12,median,1.01,check
+0159942AR,Platanus × acerifolia,True,C\ Ramon Turró,,15.66,median,5.01,check
+0159943AR,Platanus × acerifolia,True,C\ Joan Miró,8.26,7.05,ok,,large
+0159944AR,Platanus × acerifolia,True,C\ Rosa Sensat,5.0,4.52,ok,,medium
+0159945AR,Tipuana tipu,False,Av Bogatell,11.13,4.83,ok,,large
+0159946AR,Schinus molle,False,C\ Salvador Espriu,27.5,13.58,ok,,large
+0159947AR,Citrus × aurantium,False,C\ Doctor Trueta,10.77,10.19,ok,,large
+0159948AR,Schinus molle,False,C\ Salvador Espriu,,24.4,no_kerb,,check
+0159949AR,Platanus × acerifolia,True,C\ Ramon Turró,4.76,4.35,ok,,medium
+0159950AR,Platanus × acerifolia,True,C\ Àvila,4.97,4.2,ok,,medium
+0159951AR,Quercus ilex,False,Av Icària,,15.3,median,13.74,check
+0159952AR,Quercus ilex,False,Av Icària,,12.9,median,13.67,check
+0159953AR,Citrus × aurantium,False,C\ Marina,,8.5,median,12.46,check
+0159954AR,Celtis australis,False,C\ Salvador Espriu,23.34,20.07,ok,,large
+0159955AR,Pistacia atlantica,False,C\ Salvador Espriu,,25.41,no_kerb,,check
+0159956AR,Schinus molle,False,C\ Salvador Espriu,,8.59,no_kerb,,check
+0159958AR,Quercus ilex,False,Av Icària,,13.08,median,13.66,check
+0159959AR,Platanus × acerifolia,True,C\ Ramon Turró,4.32,3.78,ok,,medium
+0159960AR,Platanus × acerifolia,True,C\ Arquitecte Sert,9.14,7.93,ok,,large
+0159961AR,Quercus ilex,False,Av Icària,,16.61,median,13.67,check
+0159962AR,Gleditsia triacanthos 'skyline',False,C\ Doctor Trueta,4.72,3.79,ok,,medium
+0159963AR,Platanus × acerifolia,True,C\ Rosa Sensat,18.67,15.74,ok,,large
+0159964AR,Platanus × acerifolia,True,C\ Villena,,20.12,median,10.93,check
+0159965AR,Tipuana tipu,False,Av Bogatell,,6.06,no_kerb,28.68,check
+0159966AR,Platanus × acerifolia,True,C\ Rosa Sensat,26.11,21.75,ok,,large
+0159967AR,Platanus × acerifolia,True,C\ Wellington,10.61,6.43,ok,,large
+0159968AR,Platanus × acerifolia,True,C\ Doctor Trueta,4.65,3.68,ok,,medium
+0159969AR,Platanus × acerifolia,True,Av Icària,7.2,4.93,ok,,large
+0159970AR,Platanus × acerifolia,True,C\ Ramon Turró,4.9,5.1,ok,,medium
+0159971AR,Platanus × acerifolia,True,C\ Villena,9.09,8.01,ok,,large
+0159972AR,Platanus × acerifolia,True,C\ Ramon Turró,,15.92,median,,check
+0159973AR,Quercus ilex,False,C\ Salvador Espriu,,11.72,no_kerb,,check
+0159974AR,Tipuana tipu,False,C\ Salvador Espriu,27.4,17.81,ok,,large
+0159975AR,Platanus × acerifolia,True,C\ Wellington,10.62,5.27,ok,,large
+0159976AR,Platanus × acerifolia,True,C\ Rosa Sensat,7.36,6.44,ok,,large
+0159977AR,Platanus × acerifolia,True,C\ Joan Miró,,15.61,median,6.25,check
+0159978AR,Ligustrum lucidum,False,C\ Villena,,5.68,no_kerb,,check
+0159979AR,Platanus × acerifolia,True,C\ Llull,,16.67,no_kerb,,check
+0159980AR,Platanus × acerifolia,True,Av Icària,5.17,4.11,ok,,medium
+0159982AR,Celtis australis,False,C\ Salvador Espriu,29.86,23.39,ok,,large
+0159983AR,Platanus × acerifolia,True,C\ Joan Miró,19.31,18.55,ok,,large
+0159984AR,Celtis australis,False,C\ Ramon Turró,3.6,2.97,ok,,medium
+0159985AR,Quercus ilex,False,Av Icària,,12.9,median,13.68,check
+0159986AR,Tipuana tipu,False,Av Bogatell,,18.97,no_kerb,,check
+0159987AR,Platanus × acerifolia,True,C\ Frederic Mompou,10.47,9.06,ok,,large
+0159988AR,Platanus × acerifolia,True,C\ Arquitecte Sert,4.93,3.87,ok,,medium
+0159990AR,Tipuana tipu,False,Av Bogatell,,14.01,no_kerb,,check
+0159991AR,Platanus × acerifolia,True,C\ Doctor Trueta,4.72,3.8,ok,,medium
+0159992AR,Pistacia atlantica,False,C\ Salvador Espriu,,27.38,no_kerb,,check
+0159993AR,Tipuana tipu,False,C\ Marina,19.3,14.22,ok,,large
+0159994AR,Platanus × acerifolia,True,C\ Joan Miró,4.95,3.97,ok,,medium
+0159995AR,Quercus ilex,False,Av Icària,,15.18,median,13.62,check
+0159996AR,Gleditsia triacanthos 'skyline',False,C\ Doctor Trueta,11.39,10.41,ok,,large
+0159997AR,Melia azedarach,False,C\ Marina,11.56,6.1,ok,,large
+0159998AR,Ligustrum lucidum,False,C\ Ramon Trias Fargas,8.14,3.64,ok,,large
+0159999AR,Tipuana tipu,False,C\ Salvador Espriu,,23.75,no_kerb,,check
+0160000AR,Tipuana tipu,False,Av Bogatell,,5.97,no_kerb,,check
+0160001AR,Tipuana tipu,False,C\ Salvador Espriu,,16.78,no_kerb,,check
+0160003AR,Platanus × acerifolia,True,C\ Rosa Sensat,8.07,6.42,ok,,large
+0160004AR,Platanus × acerifolia,True,C\ Frederic Mompou,5.82,5.71,ok,,medium
+0160005AR,Celtis australis,False,C\ Rosa Sensat,6.58,5.75,ok,,large
+0160006AR,Platanus × acerifolia,True,C\ Arquitecte Sert,5.04,3.85,ok,,medium
+0160008AR,Platanus × acerifolia,True,C\ Moscou,,13.48,median,11.74,check
+0160009AR,Schinus molle,False,C\ Salvador Espriu,,16.47,no_kerb,,check
+0160010AR,Platanus × acerifolia,True,Av Icària,7.29,4.55,ok,,large
+0160011AR,Gleditsia triacanthos f. inermis,False,C\ Ramon Turró,3.43,2.88,ok,,small
+0160012AR,Platanus × acerifolia,True,Av Icària,7.29,4.25,ok,,large
+0160013AR,Platanus × acerifolia,True,Av Icària,,82.4,no_facade,,check
+0160014AR,Quercus ilex,False,Av Icària,,15.07,median,13.56,check
+0160016AR,Platanus × acerifolia,True,C\ Joan d'Àustria,5.24,4.85,ok,,medium
+0160017AR,Tipuana tipu,False,Av Bogatell,,5.84,no_kerb,,check
+0160018AR,Platanus × acerifolia,True,C\ Arquitecte Sert,8.99,8.02,ok,,large
+0160019AR,Jacaranda mimosifolia,False,C\ Arquitecte Sert,9.26,8.74,ok,,large
+0160020AR,Platanus × acerifolia,True,C\ Rosa Sensat,5.93,5.46,ok,,medium
+0160022AR,Tipuana tipu,False,Av Bogatell,,26.29,no_kerb,,check
+0160023AR,Platanus × acerifolia,True,C\ Doctor Trueta,4.78,4.25,ok,,medium
+0160025AR,Melia azedarach,False,C\ Marina,10.77,3.96,ok,,large
+0160026AR,Melia azedarach,False,C\ Marina,12.16,5.89,ok,,large
+0160027AR,Ulmus pumila,False,C\ Salvador Espriu,,20.37,no_kerb,,check
+0160028AR,Platanus × acerifolia,True,C\ Ramon Trias Fargas,16.52,14.75,ok,,large
+0160029AR,Morus alba 'Fruitless',False,C\ Marina,,28.56,no_kerb,,check
+0160030AR,Tipuana tipu,False,Av Bogatell,,19.53,no_kerb,28.92,check
+0160031AR,Magnolia grandiflora,False,C\ Salvador Espriu,27.42,23.23,ok,,large
+0160032AR,Platanus × acerifolia,True,C\ Ramon Turró,4.24,3.88,ok,,medium
+0160033AR,Platanus × acerifolia,True,C\ Moscou,,8.14,median,4.34,check
+0160034AR,Celtis australis,False,C\ Rosa Sensat,5.84,5.34,ok,,medium
+0160035AR,Platanus × acerifolia,True,Av Icària,5.03,4.74,ok,,medium
+0160036AR,Platanus × acerifolia,True,C\ Doctor Trueta,12.32,10.73,ok,,large
+0160037AR,Celtis australis,False,C\ Salvador Espriu,,37.65,no_facade,,check
+0160038AR,Platanus × acerifolia,True,C\ Doctor Trueta,5.34,4.35,ok,,medium
+0160039AR,Schinus molle,False,C\ Salvador Espriu,21.67,7.53,ok,,large
+0160040AR,Platanus × acerifolia,True,C\ Arquitecte Sert,9.29,9.07,ok,,large
+0160041AR,Platanus × acerifolia,True,C\ Àlaba,4.76,3.87,ok,,medium
+0160044AR,Platanus × acerifolia,True,C\ Zamora,5.08,4.27,ok,,medium
+0160045AR,Platanus × acerifolia,True,Av Icària,5.13,4.06,ok,,medium
+0160046AR,Platanus × acerifolia,True,C\ Moscou,10.86,9.99,ok,,large
+0160047AR,Celtis australis,False,C\ Doctor Trueta,5.03,4.02,ok,,medium
+0160049AR,Tipuana tipu,False,C\ Salvador Espriu,27.5,13.57,ok,,large
+0160050AR,Tipuana tipu,False,C\ Marina,19.2,7.25,ok,,large
+0160051AR,Citrus × aurantium,False,C\ Marina,,11.94,median,1.08,check
+0160052AR,Ulmus pumila,False,C\ Marina,,23.67,median,25.71,check
+0160053AR,Ligustrum lucidum,False,C\ Ramon Trias Fargas,9.05,4.57,ok,,large
+0160054AR,Platanus × acerifolia,True,C\ Joan Miró,,9.15,no_kerb,,check
+0160055AR,Morus alba,False,C\ Marina,,78.74,no_facade,,check
+0160056AR,Cupressus sempervirens,False,C\ Marina,7.02,1.68,ok,,large
+0160057AR,Platanus × acerifolia,True,C\ Pamplona,,16.54,median,,check
+0160058AR,Platanus × acerifolia,True,C\ Doctor Trueta,5.01,3.87,ok,,medium
+0160059AR,Platanus × acerifolia,True,Av Icària,6.62,5.63,ok,,large
+0160060AR,Celtis australis,False,C\ Salvador Espriu,27.35,14.71,ok,,large
+0160061AR,Platanus × acerifolia,True,C\ Doctor Trueta,,30.73,no_facade,6.27,check
+0160062AR,Morus alba,False,C\ Marina,,44.91,no_facade,,check
+0160063AR,Brachychiton populneus,False,C\ Jaume Vicens i Vives,8.95,3.69,ok,,large
+0160064AR,Platanus × acerifolia,True,C\ Ramon Turró,4.98,3.27,ok,,medium
+0160065AR,Platanus × acerifolia,True,C\ Doctor Trueta,9.64,8.61,ok,,large
+0160066AR,Platanus × acerifolia,True,C\ Àlaba,,15.48,median,5.34,check
+0160067AR,Platanus × acerifolia,True,Av Icària,5.0,4.35,ok,,medium
+0160068AR,Platanus × acerifolia,True,C\ Joan Miró,,15.07,no_kerb,,check
+0160069AR,Gleditsia triacanthos,False,C\ Doctor Trueta,9.23,8.61,ok,,large
+0160071AR,Celtis australis,False,C\ Villena,8.15,7.49,ok,,large
+0160072AR,Platanus × acerifolia,True,Av Icària,,93.34,no_facade,,check
+0160073AR,Platanus × acerifolia,True,Av Icària,5.18,3.93,ok,,medium
+0160074AR,Platanus × acerifolia,True,C\ Rosa Sensat,8.73,7.7,ok,,large
+0160076AR,Platanus × acerifolia,True,C\ Doctor Trueta,13.52,12.56,ok,,large
+0160077AR,Platanus × acerifolia,True,C\ Joan Miró,4.82,3.5,ok,,medium
+0160078AR,Platanus × acerifolia,True,C\ Jaume Vicens i Vives,8.95,7.93,ok,,large
+0160079AR,Celtis australis,False,C\ Àlaba,5.02,4.46,ok,,medium
+0160080AR,Quercus ilex,False,Av Icària,,15.44,median,13.64,check
+0160081AR,Platanus × acerifolia,True,C\ Doctor Trueta,6.44,5.81,ok,,large
+0160082AR,Ulmus pumila,False,C\ Marina,,23.91,median,25.65,check
+0160083AR,Platanus × acerifolia,True,C\ Wellington,10.13,6.41,ok,,large
+0160084AR,Platanus × acerifolia,True,Av Icària,4.78,4.38,ok,,medium
+0160085AR,Celtis australis,False,C\ Salvador Espriu,,43.29,no_facade,,check
+0160086AR,Tipuana tipu,False,C\ Salvador Espriu,,9.87,no_kerb,,check
+0160087AR,Schinus molle,False,C\ Salvador Espriu,,21.31,no_kerb,,check
+0160088AR,Celtis australis,False,C\ Ramon Turró,4.28,3.73,ok,,medium
+0160089AR,Platanus × acerifolia,True,C\ Llull,7.08,3.67,ok,,large
+0160090AR,Tipuana tipu,False,C\ Salvador Espriu,27.5,17.14,ok,,large
+0160091AR,Quercus ilex,False,Av Icària,,15.25,median,13.68,check
+0160092AR,Quercus ilex,False,Av Icària,,14.99,median,13.59,check
+0160093AR,Pinus pinea,False,Av Icària,,58.35,no_facade,16.06,check
+0160094AR,Quercus ilex,False,C\ Salvador Espriu,16.71,15.78,ok,,large
+0160095AR,Platanus × acerifolia,True,Av Icària,5.18,4.09,ok,,medium
+0160097AR,Platanus × acerifolia,True,C\ Moscou,12.06,11.03,ok,,large
+0160099AR,Celtis australis,False,C\ Salvador Espriu,27.5,22.74,ok,,large
+0160100AR,Jacaranda mimosifolia,False,C\ Joan Miró,26.38,4.98,ok,,large
+0160101AR,Platanus × acerifolia,True,C\ Moscou,9.66,8.21,ok,,large
+0160102AR,Morus alba,False,C\ Marina,23.12,14.91,ok,,large
+0160103AR,Ligustrum lucidum,False,C\ Ramon Turró,8.77,5.23,ok,,large
+0160105AR,Tipuana tipu,False,Av Bogatell,,11.56,no_kerb,,check
+0160107AR,Tipuana tipu,False,C\ Salvador Espriu,27.5,17.94,ok,,large
+0160108AR,Pinus pinea,False,Av Icària,,49.12,no_facade,,check
+0160110AR,Platanus × acerifolia,True,C\ Àlaba,4.85,3.96,ok,,medium
+0160111AR,Platanus × acerifolia,True,C\ Pamplona,,16.33,median,,check
+0160112AR,Platanus × acerifolia,True,C\ Doctor Trueta,4.81,4.29,ok,,medium
+0160113AR,Celtis australis,False,C\ Ramon Trias Fargas,8.94,7.49,ok,,large
+0160114AR,Ulmus pumila,False,C\ Marina,,24.34,median,25.69,check
+0160115AR,Tipuana tipu,False,Av Bogatell,,4.01,no_kerb,,check
+0160116AR,Platanus × acerifolia,True,C\ Moscou,11.85,6.07,ok,,large
+0160117AR,Platanus × acerifolia,True,C\ Moscou,12.66,12.45,ok,,large
+0160118AR,Platanus × acerifolia,True,C\ Frederic Mompou,9.88,8.51,ok,,large
+0160120AR,Platanus × acerifolia,True,C\ Rosa Sensat,,27.15,no_kerb,,check
+0160121AR,Platanus × acerifolia,True,Av Icària,7.24,4.22,ok,,large
+0160122AR,Melia azedarach,False,C\ Marina,13.05,3.87,ok,,large
+0160123AR,Celtis australis,False,C\ Àvila,4.26,3.86,ok,,medium
+0160124AR,Platanus × acerifolia,True,C\ Àvila,4.96,4.01,ok,,medium
+0160126AR,Quercus ilex,False,Av Icària,,21.45,median,13.68,check
+0160127AR,Platanus × acerifolia,True,C\ Doctor Trueta,4.9,3.98,ok,,medium
+0160128AR,Platanus × acerifolia,True,C\ Pamplona,4.76,4.03,ok,,medium
+0160130AR,Jacaranda mimosifolia,False,C\ Arquitecte Sert,9.98,8.71,ok,,large
+0160131AR,Quercus ilex,False,Av Icària,,14.66,median,13.61,check
+0160132AR,Platanus × acerifolia,True,C\ Joan Miró,,17.37,median,6.24,check
+0160133AR,Gleditsia triacanthos 'skyline',False,C\ Doctor Trueta,4.67,3.99,ok,,medium
+0160134AR,Albizia julibrissin,False,Av Icària,,84.38,no_facade,,check
+0160135AR,Quercus ilex,False,Av Icària,,20.95,median,13.76,check
+0160136AR,Tipuana tipu,False,Av Bogatell,,11.13,no_kerb,,check
+0160137AR,Platanus × acerifolia,True,C\ Llull,,30.17,no_facade,,check
+0160138AR,Platanus × acerifolia,True,C\ Doctor Trueta,,20.12,median,,check
+0160139AR,Tipuana tipu,False,C\ Marina,,16.26,no_kerb,37.41,check
+0160140AR,Morus alba 'Fruitless',False,C\ Marina,17.54,8.37,ok,,large
+0160141AR,Schinus molle,False,C\ Salvador Espriu,27.5,15.71,ok,,large
+0160143AR,Platanus × acerifolia,True,C\ Arquitecte Sert,4.86,4.7,ok,,medium
+0160144AR,Tipuana tipu,False,Av Bogatell,,4.78,no_kerb,,check
+0160145AR,Platanus × acerifolia,True,C\ Rosa Sensat,10.06,8.38,ok,,large
+0160147AR,Platanus × acerifolia,True,C\ Doctor Trueta,6.41,5.69,ok,,large
+0160148AR,Tipuana tipu,False,Av Bogatell,,17.93,median,24.07,check
+0160150AR,Celtis australis,False,C\ Ramon Trias Fargas,9.0,7.43,ok,,large
+0160151AR,Platanus × acerifolia,True,Av Icària,7.32,4.53,ok,,large
+0160152AR,Platanus × acerifolia,True,Av Icària,7.31,4.21,ok,,large
+0160153AR,Quercus ilex,False,Av Icària,,15.28,median,13.69,check
+0160154AR,Gleditsia triacanthos f. inermis,False,C\ Doctor Trueta,4.94,3.85,ok,,medium
+0160155AR,Quercus ilex,False,Av Icària,,15.75,median,13.58,check
+0160157AR,Platanus × acerifolia,True,C\ Àvila,8.11,7.26,ok,,large
+0160158AR,Tamarix gallica,False,Pg Marítim de Nova Icària,,65.64,no_facade,16.84,check
+0160160AR,Platanus × acerifolia,True,C\ Moscou,11.92,6.6,ok,,large
+0160161AR,Celtis australis,False,C\ Salvador Espriu,,31.71,no_facade,,check
+0160162AR,Platanus × acerifolia,True,C\ Frederic Mompou,,17.27,median,14.53,check
+0160163AR,Ulmus pumila,False,C\ Salvador Espriu,,27.33,no_kerb,,check
+0160164AR,Platanus × acerifolia,True,C\ Frederic Mompou,,21.66,median,,check
+0160165AR,Platanus × acerifolia,True,C\ Ramon Turró,4.72,4.46,ok,,medium
+0160167AR,Pinus pinea,False,Av Icària,,31.69,no_facade,42.89,check
+0160168AR,Platanus × acerifolia,True,C\ Zamora,5.18,4.19,ok,,medium
+0160169AR,Citrus × aurantium,False,C\ Joan Miró,17.26,18.24,ok,,large
+0160171AR,Tipuana tipu,False,Av Bogatell,,28.85,no_kerb,,check
+0160172AR,Celtis australis,False,C\ Salvador Espriu,27.36,17.05,ok,,large
+0160173AR,Platanus × acerifolia,True,Av Icària,5.92,2.99,ok,,medium
+0160174AR,Tipuana tipu,False,Av Bogatell,29.91,4.44,ok,,large
+0160175AR,Tipuana tipu,False,C\ Salvador Espriu,27.37,13.96,ok,,large
+0160176AR,Tipuana tipu,False,Av Bogatell,,23.07,median,28.68,check
+0160177AR,Platanus × acerifolia,True,C\ Llull,6.71,6.32,ok,,large
+0160179AR,Platanus × acerifolia,True,C\ Wellington,14.63,8.3,ok,,large
+0160180AR,Celtis australis,False,C\ Salvador Espriu,29.41,15.51,ok,,large
+0160181AR,Celtis australis,False,C\ Àvila,4.26,3.65,ok,,medium
+0160182AR,Platanus × acerifolia,True,C\ Joan Miró,,15.6,median,6.24,check
+0160183AR,Platanus × acerifolia,True,Av Icària,10.18,7.44,ok,,large
+0160184AR,Platanus × acerifolia,True,C\ Llull,4.51,3.89,ok,,medium
+0160185AR,Platanus × acerifolia,True,C\ Àlaba,13.28,12.44,ok,,large
+0160186AR,Morus alba,False,C\ Marina,,53.29,no_facade,,check
+0160187AR,Platanus × acerifolia,True,Av Icària,,75.86,no_facade,,check
+0160188AR,Celtis australis,False,C\ Àlaba,,15.51,median,,check
+0160191AR,Tipuana tipu,False,C\ Salvador Espriu,,18.12,no_kerb,,check
+0160192AR,Quercus ilex,False,Av Icària,,19.3,median,13.63,check
+0160193AR,Platanus × acerifolia,True,C\ Wellington,9.1,4.29,ok,,large
+0160195AR,Platanus × acerifolia,True,C\ Sardenya,,15.79,median,,check
+0160196AR,Pistacia atlantica,False,Av Litoral,,22.7,no_kerb,,check
+0160197AR,Gleditsia triacanthos 'skyline',False,C\ Ramon Turró,5.06,3.49,ok,,medium
+0160198AR,Platanus × acerifolia,True,C\ Jaume Vicens i Vives,9.29,8.61,ok,,large
+0160199AR,Platanus × acerifolia,True,C\ Àlaba,10.02,9.53,ok,,large
+0160200AR,Quercus ilex,False,C\ Salvador Espriu,20.57,19.15,ok,,large
+0160201AR,Platanus × acerifolia,True,C\ Frederic Mompou,5.05,3.57,ok,,medium
+0160202AR,Cupressus sempervirens,False,C\ Marina,19.2,15.79,ok,,large
+0160203AR,Tipuana tipu,False,C\ Salvador Espriu,,15.02,no_kerb,22.05,check
+0160204AR,Schinus molle,False,C\ Salvador Espriu,,29.25,no_kerb,,check
+0160205AR,Celtis australis,False,C\ Salvador Espriu,27.45,22.9,ok,,large
+0160206AR,Celtis australis,False,C\ Rosa Sensat,5.05,3.84,ok,,medium
+0160207AR,Platanus × acerifolia,True,C\ Ramon Turró,11.95,11.12,ok,,large
+0160208AR,Platanus × acerifolia,True,C\ Àlaba,,15.76,median,,check
+0160209AR,Platanus × acerifolia,True,C\ Ramon Trias Fargas,,87.14,no_facade,,check
+0160210AR,Quercus ilex,False,Av Icària,,15.99,median,13.59,check
+0160211AR,Platanus × acerifolia,True,C\ Àlaba,4.92,4.26,ok,,medium
+0160212AR,Pistacia atlantica,False,C\ Salvador Espriu,,33.19,no_facade,,check
+0160213AR,Tipuana tipu,False,C\ Salvador Espriu,,20.3,no_kerb,,check
+0160214AR,Celtis australis,False,C\ Àvila,4.26,3.65,ok,,medium
+0160215AR,Jacaranda mimosifolia,False,C\ Arquitecte Sert,4.88,4.65,ok,,medium
+0160216AR,Platanus × acerifolia,True,C\ Arquitecte Sert,9.05,7.56,ok,,large
+0160217AR,Platanus × acerifolia,True,C\ Ramon Trias Fargas,8.87,7.91,ok,,large
+0160218AR,Morus alba 'Fruitless',False,C\ Marina,,18.9,no_kerb,,check
+0160220AR,Gleditsia triacanthos f. inermis,False,C\ Doctor Trueta,5.45,4.82,ok,,medium
+0160221AR,Tipuana tipu,False,Av Bogatell,,5.78,no_kerb,,check
+0160222AR,Platanus × acerifolia,True,C\ Zamora,4.85,3.61,ok,,medium
+0160224AR,Tipuana tipu,False,C\ Salvador Espriu,27.42,14.25,ok,,large
+0160225AR,Tipuana tipu,False,C\ Salvador Espriu,,25.14,no_kerb,,check
+0160226AR,Tipuana tipu,False,C\ Marina,19.2,10.08,ok,,large
+0160228AR,Platanus × acerifolia,True,C\ Ramon Trias Fargas,,60.63,no_facade,2.69,check
+0160230AR,Celtis australis,False,C\ Salvador Espriu,,9.65,no_kerb,,check
+0160231AR,Platanus × acerifolia,True,C\ Joan Miró,11.23,10.44,ok,,large
+0160232AR,Platanus × acerifolia,True,Av Icària,4.98,3.53,ok,,medium
+0160233AR,Platanus × acerifolia,True,C\ Sardenya,14.92,3.06,ok,,large
+0160235AR,Platanus × acerifolia,True,Av Icària,5.16,3.97,ok,,medium
+0160236AR,Platanus × acerifolia,True,C\ Àlaba,5.08,4.43,ok,,medium
+0160237AR,Platanus × acerifolia,True,C\ Arquitecte Sert,4.86,4.71,ok,,medium
+0160238AR,Platanus × acerifolia,True,Av Icària,6.96,5.94,ok,,large
+0160239AR,Platanus × acerifolia,True,C\ Llull,4.51,3.6,ok,,medium
+0160240AR,Jacaranda mimosifolia,False,C\ Arquitecte Sert,5.08,3.82,ok,,medium
+0160241AR,Platanus × acerifolia,True,C\ Arquitecte Sert,9.15,7.71,ok,,large
+0160242AR,Platanus × acerifolia,True,Av Icària,5.82,2.88,ok,,medium
+0160243AR,Tipuana tipu,False,Av Bogatell,,28.96,no_kerb,,check
+0160244AR,Citrus × aurantium,False,C\ Marina,,22.79,median,5.56,check
+0160245AR,Ulmus pumila,False,C\ Joan Miró,,2.45,no_kerb,,check
+0160246AR,Tipuana tipu,False,C\ Marina,19.3,8.64,ok,,large
+0160247AR,Quercus ilex,False,Av Icària,,14.6,median,13.63,check
+0160248AR,Platanus × acerifolia,True,Av Icària,7.11,4.24,ok,,large
+0160249AR,Platanus × acerifolia,True,C\ Doctor Trueta,,22.63,median,5.3,check
+0160250AR,Quercus ilex,False,Av Icària,,17.36,median,13.59,check
+0160251AR,Platanus × acerifolia,True,C\ Joan Oliver,,15.19,median,,check
+0160252AR,Platanus × acerifolia,True,C\ Ramon Turró,19.23,18.21,ok,,large
+0160253AR,Celtis australis,False,C\ Rosa Sensat,5.15,3.99,ok,,medium
+0160254AR,Tipuana tipu,False,C\ Salvador Espriu,28.97,17.74,ok,,large
+0160255AR,Morus alba 'Fruitless',False,C\ Marina,,118.27,no_facade,,check
+0160256AR,Jacaranda mimosifolia,False,C\ Arquitecte Sert,5.01,3.97,ok,,medium
+0160257AR,Celtis australis,False,C\ Rosa Sensat,5.15,3.94,ok,,medium
+0160258AR,Platanus × acerifolia,True,C\ Wellington,8.69,4.08,ok,,large
+0160259AR,Quercus ilex,False,Av Icària,,14.76,median,13.64,check
+0160260AR,Platanus × acerifolia,True,C\ Rosa Sensat,10.35,8.88,ok,,large
+0160261AR,Tipuana tipu,False,C\ Salvador Espriu,27.45,16.16,ok,,large
+0160262AR,Platanus × acerifolia,True,C\ Frederic Mompou,20.67,19.75,ok,,large
+0160263AR,Platanus × acerifolia,True,C\ Doctor Trueta,4.52,4.1,ok,,medium
+0160264AR,Schinus molle,False,C\ Salvador Espriu,,7.88,no_kerb,,check
+0160265AR,Melia azedarach,False,C\ Marina,14.93,5.92,ok,,large
+0160266AR,Tipuana tipu,False,C\ Salvador Espriu,,15.12,no_kerb,,check
+0160267AR,Schinus molle,False,C\ Salvador Espriu,,30.45,no_facade,,check
+0160268AR,Tipuana tipu,False,C\ Marina,21.72,9.99,ok,,large
+0160269AR,Platanus × acerifolia,True,Av Icària,6.1,5.36,ok,,large
+0160270AR,Platanus × acerifolia,True,C\ Wellington,10.87,5.25,ok,,large
+0160272AR,Schinus molle,False,C\ Marina,19.3,12.47,ok,,large
+0160273AR,Platanus × acerifolia,True,Av Icària,7.12,4.39,ok,,large
+0160274AR,Citrus × aurantium,False,C\ Marina,,10.15,median,6.67,check
+0160275AR,Platanus × acerifolia,True,C\ Rosa Sensat,10.35,8.69,ok,,large
+0160276AR,Celtis australis,False,Av Icària,5.2,4.55,ok,,medium
+0160277AR,Celtis australis,False,C\ Ramon Turró,5.71,4.38,ok,,medium
+0160278AR,Platanus × acerifolia,True,C\ Doctor Trueta,3.91,3.86,ok,,medium
+0160279AR,Platanus × acerifolia,True,C\ Àvila,4.97,4.16,ok,,medium
+0160280AR,Platanus × acerifolia,True,C\ Ramon Turró,3.63,3.38,ok,,medium
+0160283AR,Cupressus sempervirens,False,Parc Carles I,,27.59,median,16.54,check
+0160285AR,Platanus × acerifolia,True,Av Icària,11.72,6.59,ok,,large
+0160286AR,Platanus × acerifolia,True,C\ Frederic Mompou,,26.51,median,27.28,check
+0160287AR,Platanus × acerifolia,True,C\ Villena,,20.3,median,23.56,check
+0160288AR,Tipuana tipu,False,C\ Salvador Espriu,,6.26,no_kerb,,check
+0160289AR,Platanus × acerifolia,True,C\ Ramon Trias Fargas,9.09,8.04,ok,,large
+0160290AR,Celtis australis,False,C\ Àlaba,4.65,4.05,ok,,medium
+0160291AR,Morus alba 'Fruitless',False,C\ Marina,,57.31,no_facade,17.95,check
+0160292AR,Cupressus sempervirens,False,C\ Marina,19.3,17.19,ok,,large
+0160293AR,Tipuana tipu,False,C\ Salvador Espriu,,14.88,no_kerb,,check
+0160294AR,Celtis australis,False,C\ Salvador Espriu,,30.17,no_facade,,check
+0160295AR,Tipuana tipu,False,C\ Salvador Espriu,,9.06,no_kerb,,check
+0160297AR,Tipuana tipu,False,C\ Marina,19.2,11.68,ok,,large
+0160298AR,Celtis australis,False,C\ Salvador Espriu,21.81,17.25,ok,,large
+0160300AR,Platanus × acerifolia,True,C\ Arquitecte Sert,5.04,3.69,ok,,medium
+0160301AR,Tipuana tipu,False,C\ Marina,19.3,8.45,ok,,large
+0160302AR,Platanus × acerifolia,True,Av Icària,5.14,4.1,ok,,medium
+0160303AR,Platanus × acerifolia,True,C\ Llull,4.51,3.54,ok,,medium
+0160304AR,Platanus × acerifolia,True,C\ Ramon Turró,5.25,4.73,ok,,medium
+0160305AR,Platanus × acerifolia,True,C\ Moscou,10.04,8.54,ok,,large
+0160306AR,Celtis australis,False,Av Icària,5.06,4.48,ok,,medium
+0160307AR,Celtis australis,False,C\ Doctor Trueta,5.09,4.8,ok,,medium
+0160308AR,Platanus × acerifolia,True,C\ Arquitecte Sert,5.04,3.95,ok,,medium
+0160309AR,Platanus × acerifolia,True,C\ Ramon Trias Fargas,14.94,14.11,ok,,large
+0160310AR,Gleditsia triacanthos f. inermis,False,C\ Ramon Turró,4.92,3.89,ok,,medium
+0160311AR,Tipuana tipu,False,C\ Salvador Espriu,27.92,17.4,ok,,large
+0160312AR,Tipuana tipu,False,C\ Salvador Espriu,29.4,13.97,ok,,large
+0160313AR,Platanus × acerifolia,True,C\ Arquitecte Sert,9.27,8.76,ok,,large
+0160314AR,Platanus × acerifolia,True,C\ Joan Miró,,3.29,no_kerb,,check
+0160315AR,Celtis australis,False,C\ Rosa Sensat,6.07,5.3,ok,,large
+0160316AR,Platanus × acerifolia,True,C\ Moscou,9.68,8.14,ok,,large
+0160317AR,Tipuana tipu,False,Av Bogatell,,6.53,no_kerb,,check
+0160318AR,Celtis australis,False,C\ Ramon Turró,4.67,4.12,ok,,medium
+0160319AR,Platanus × acerifolia,True,Av Icària,5.08,4.18,ok,,medium
+0160320AR,Platanus × acerifolia,True,C\ Ramon Trias Fargas,,13.61,median,12.22,check
+0160321AR,Tipuana tipu,False,Av Bogatell,,13.15,median,30.75,check
+0160322AR,Platanus × acerifolia,True,C\ Ramon Trias Fargas,14.95,13.95,ok,,large
+0160323AR,Platanus × acerifolia,True,Av Icària,5.2,4.41,ok,,medium
+0160326AR,Celtis australis,False,C\ Salvador Espriu,27.5,23.14,ok,,large
+0160327AR,Schinus molle,False,C\ Marina,19.3,15.12,ok,,large
+0160328AR,Schinus molle,False,C\ Salvador Espriu,21.62,10.76,ok,,large
+0160329AR,Celtis australis,False,Av Icària,5.04,4.21,ok,,medium
+0160330AR,Tipuana tipu,False,C\ Salvador Espriu,,13.28,no_kerb,,check
+0160331AR,Platanus × acerifolia,True,C\ Rosa Sensat,20.24,17.17,ok,,large
+0160332AR,Platanus × acerifolia,True,C\ Jaume Vicens i Vives,8.93,8.2,ok,,large
+0160333AR,Celtis australis,False,C\ Salvador Espriu,,28.03,no_kerb,,check
+0160334AR,Platanus × acerifolia,True,C\ Doctor Trueta,5.08,4.46,ok,,medium
+0160335AR,Melia azedarach,False,C\ Marina,11.49,6.52,ok,,large
+0160336AR,Platanus × acerifolia,True,C\ Àlaba,4.79,4.05,ok,,medium
+0160337AR,Schinus molle,False,C\ Salvador Espriu,,8.04,no_kerb,,check
+0160338AR,Platanus × acerifolia,True,C\ Àlaba,,15.47,median,5.34,check
+0160339AR,Tipuana tipu,False,C\ Joan Oliver,,15.13,no_kerb,,check
+0160340AR,Platanus × acerifolia,True,C\ Llull,6.57,5.69,ok,,large
+0160341AR,Platanus × acerifolia,True,C\ Moscou,12.08,11.26,ok,,large
+0160342AR,Platanus × acerifolia,True,C\ Sardenya,5.11,3.13,ok,,medium
+0160343AR,Tipuana tipu,False,C\ Salvador Espriu,,16.89,no_kerb,,check
+0160344AR,Quercus ilex,False,C\ Salvador Espriu,13.43,11.5,ok,,large
+0160345AR,Platanus × acerifolia,True,C\ Joan Miró,4.9,3.78,ok,,medium
+0160347AR,Celtis australis,False,C\ Salvador Espriu,27.38,23.22,ok,,large
+0160349AR,Platanus × acerifolia,True,Av Icària,12.98,7.97,ok,,large
+0160350AR,Platanus × acerifolia,True,C\ Àlaba,4.58,3.94,ok,,medium
+0160351AR,Platanus × acerifolia,True,C\ Moscou,12.12,11.32,ok,,large
+0160352AR,Platanus × acerifolia,True,C\ Ramon Turró,4.93,3.66,ok,,medium
+0160354AR,Tipuana tipu,False,C\ Marina,21.66,12.07,ok,,large
+0160355AR,Celtis australis,False,C\ Ramon Turró,3.69,3.15,ok,,medium
+0160356AR,Platanus × acerifolia,True,C\ Doctor Trueta,9.72,9.23,ok,,large
+0160358AR,Tipuana tipu,False,C\ Salvador Espriu,,17.07,no_kerb,,check
+0160360AR,Platanus × acerifolia,True,C\ Llull,11.41,9.74,ok,,large
+0160361AR,Platanus × acerifolia,True,C\ Llull,4.53,3.52,ok,,medium
+0160362AR,Tipuana tipu,False,C\ Salvador Espriu,29.4,17.76,ok,,large
+0160363AR,Platanus × acerifolia,True,C\ Sardenya,6.74,2.98,ok,,large
+0160364AR,Schinus molle,False,C\ Salvador Espriu,27.45,16.88,ok,,large
+0160365AR,Tipuana tipu,False,C\ Salvador Espriu,,11.27,no_kerb,,check
+0160366AR,Quercus ilex,False,Av Icària,,14.27,median,13.65,check
+0160368AR,Gleditsia triacanthos 'skyline',False,C\ Doctor Trueta,4.57,3.93,ok,,medium
+0160369AR,Celtis australis,False,C\ Sardenya,5.01,4.01,ok,,medium
+0160370AR,Platanus × acerifolia,True,C\ Arquitecte Sert,8.99,7.94,ok,,large
+0160371AR,Platanus × acerifolia,True,C\ Pamplona,,16.95,median,,check
+0160372AR,Quercus ilex,False,Av Icària,,15.21,median,13.69,check
+0160373AR,Platanus × acerifolia,True,C\ Àlaba,4.92,3.91,ok,,medium
+0160374AR,Celtis australis,False,C\ Doctor Trueta,5.52,4.29,ok,,medium
+0160375AR,Platanus × acerifolia,True,C\ Doctor Trueta,4.99,4.42,ok,,medium
+0160376AR,Platanus × acerifolia,True,C\ Llull,4.34,3.72,ok,,medium
+0160377AR,Celtis australis,False,C\ Jaume Vicens i Vives,8.95,8.14,ok,,large
+0160378AR,Platanus × acerifolia,True,C\ Joan Miró,5.88,5.63,ok,,medium
+0160379AR,Citrus × aurantium,False,C\ Marina,,15.16,median,1.0,check
+0160380AR,Platanus × acerifolia,True,C\ Llull,6.48,5.67,ok,,large
+0160381AR,Platanus × acerifolia,True,C\ Joan Miró,4.97,4.4,ok,,medium
+0160382AR,Platanus × acerifolia,True,C\ Ramon Turró,4.92,4.47,ok,,medium
+0160383AR,Pistacia atlantica,False,C\ Salvador Espriu,,13.18,no_kerb,,check
+0160384AR,Celtis australis,False,C\ Salvador Espriu,27.5,23.18,ok,,large
+0160385AR,Platanus × acerifolia,True,C\ Llull,5.0,3.57,ok,,medium
+0160386AR,Tipuana tipu,False,C\ Salvador Espriu,,14.24,no_kerb,,check
+0160387AR,Celtis australis,False,C\ Llull,,35.47,no_facade,,check
+0160388AR,Platanus × acerifolia,True,C\ Ramon Trias Fargas,,13.62,median,12.11,check
+0160389AR,Schinus molle,False,C\ Salvador Espriu,27.96,11.42,ok,,large
+0160392AR,Platanus × acerifolia,True,C\ Doctor Trueta,5.01,4.25,ok,,medium
+0160393AR,Tipuana tipu,False,Av Bogatell,,28.58,no_kerb,28.92,check
+0160394AR,Morus alba,False,C\ Marina,16.22,7.23,ok,,large
+0160395AR,Platanus × acerifolia,True,C\ Joan Miró,5.34,4.56,ok,,medium
+0160396AR,Celtis australis,False,Av Icària,5.0,4.35,ok,,medium
+0160397AR,Citrus × aurantium,False,C\ Marina,,11.96,median,9.7,check
+0160398AR,Albizia julibrissin,False,Av Icària,,98.16,no_facade,,check
+0160399AR,Platanus × acerifolia,True,C\ Llull,4.48,3.67,ok,,medium
+0160401AR,Platanus × acerifolia,True,C\ Joan Miró,,9.21,no_kerb,,check
+0160402AR,Platanus × acerifolia,True,C\ Moscou,11.81,11.5,ok,,large
+0160403AR,Platanus × acerifolia,True,Av Icària,6.1,5.46,ok,,large
+0160404AR,Celtis australis,False,C\ Salvador Espriu,29.41,23.08,ok,,large
+0160405AR,Platanus × acerifolia,True,C\ Rosa Sensat,,16.55,median,,check
+0160406AR,Schinus molle,False,C\ Salvador Espriu,27.46,13.31,ok,,large
+0160407AR,Platanus × acerifolia,True,C\ Pamplona,4.01,3.48,ok,,medium
+0160408AR,Platanus × acerifolia,True,Av Icària,9.44,8.9,ok,,large
+0160409AR,Platanus × acerifolia,True,C\ Ramon Trias Fargas,10.14,9.48,ok,,large
+0160411AR,Platanus × acerifolia,True,C\ Villena,,21.1,median,6.31,check
+0160413AR,Jacaranda mimosifolia,False,C\ Joan Miró,,4.71,no_kerb,,check
+0160414AR,Ligustrum lucidum,False,C\ Ramon Trias Fargas,8.98,4.49,ok,,large
+0160416AR,Celtis australis,False,Av Icària,10.35,9.02,ok,,large
+0160417AR,Tipuana tipu,False,Av Bogatell,,21.09,median,,check
+0160418AR,Celtis australis,False,C\ Salvador Espriu,27.5,23.04,ok,,large
+0160419AR,Platanus × acerifolia,True,C\ Rosa Sensat,8.68,7.37,ok,,large
+0160420AR,Platanus × acerifolia,True,Av Icària,5.05,4.19,ok,,medium
+0160421AR,Platanus × acerifolia,True,C\ Frederic Mompou,16.85,15.67,ok,,large
+0160422AR,Quercus ilex,False,C\ Salvador Espriu,27.79,11.75,ok,,large
+0160423AR,Albizia julibrissin,False,Av Icària,4.9,4.22,ok,,medium
+0160424AR,Platanus × acerifolia,True,C\ Ramon Turró,5.0,4.13,ok,,medium
+0160425AR,Celtis australis,False,C\ Salvador Espriu,27.38,23.17,ok,,large
+0160426AR,Platanus × acerifolia,True,C\ Pamplona,4.86,4.1,ok,,medium
+0160427AR,Quercus ilex,False,Av Icària,,18.55,median,13.6,check
+0160428AR,Citrus × aurantium,False,C\ Marina,,14.61,median,1.14,check
+0160429AR,Platanus × acerifolia,True,C\ Moscou,12.06,6.83,ok,,large
+0160431AR,Tipuana tipu,False,C\ Salvador Espriu,,19.26,no_kerb,,check
+0160432AR,Platanus × acerifolia,True,C\ Joan d'Àustria,5.3,3.76,ok,,medium
+0160433AR,Platanus × acerifolia,True,C\ Arquitecte Sert,8.93,7.95,ok,,large
+0160434AR,Platanus × acerifolia,True,C\ Llull,4.92,4.18,ok,,medium
+0160435AR,Morus alba 'Fruitless',False,C\ Marina,,66.29,no_facade,,check
+0160436AR,Platanus × acerifolia,True,C\ Àlaba,5.01,4.22,ok,,medium
+0160437AR,Morus alba,False,C\ Marina,21.85,17.42,ok,,large
+0160438AR,Citrus × aurantium,False,C\ Marina,,19.39,median,10.27,check
+0160439AR,Celtis australis,False,C\ Ramon Trias Fargas,,52.91,no_facade,2.62,check
+0160440AR,Platanus × acerifolia,True,C\ Pamplona,3.92,3.36,ok,,medium
+0160441AR,Platanus × acerifolia,True,Av Icària,7.22,4.0,ok,,large
+0160442AR,Tipuana tipu,False,C\ Salvador Espriu,,21.69,no_kerb,,check
+0160443AR,Platanus × acerifolia,True,Av Icària,7.25,4.16,ok,,large
+0160444AR,Platanus × acerifolia,True,C\ Joan Miró,,19.72,no_kerb,,check
+0160445AR,Morus alba 'Fruitless',False,C\ Marina,,59.3,no_facade,,check
+0160446AR,Platanus × acerifolia,True,Av Icària,7.44,4.49,ok,,large
+0160448AR,Schinus molle,False,C\ Marina,19.3,14.65,ok,,large
+0160449AR,Celtis australis,False,C\ Salvador Espriu,,7.2,no_kerb,,check
+0160450AR,Pistacia atlantica,False,C\ Salvador Espriu,21.41,12.0,ok,,large
+0160451AR,Magnolia grandiflora,False,C\ Marina,,49.35,no_facade,,check
+0160452AR,Platanus × acerifolia,True,C\ Joan Miró,20.57,14.66,ok,,large
+0160453AR,Platanus × acerifolia,True,C\ Ramon Trias Fargas,5.96,5.52,ok,,medium
+0160454AR,Platanus × acerifolia,True,C\ Jaume Vicens i Vives,12.94,12.09,ok,,large
+0160455AR,Schinus molle,False,C\ Marina,19.3,10.21,ok,,large
+0160456AR,Platanus × acerifolia,True,C\ Ramon Turró,5.57,4.84,ok,,medium
+0160457AR,Citrus × aurantium,False,C\ Doctor Trueta,9.11,8.71,ok,,large
+0160458AR,Celtis australis,False,C\ Salvador Espriu,29.42,13.96,ok,,large
+0160459AR,Jacaranda mimosifolia,False,C\ Joan Miró,,16.83,median,6.24,check
+0160460AR,Celtis australis,False,C\ Ramon Turró,8.8,8.61,ok,,large
+0160461AR,Platanus × acerifolia,True,Av Icària,16.18,13.93,ok,,large
+0160462AR,Tipuana tipu,False,Av Litoral,,18.68,no_kerb,,check
+0160463AR,Platanus × acerifolia,True,Av Icària,7.44,4.11,ok,,large
+0160465AR,Tipuana tipu,False,Av Bogatell,24.9,6.05,ok,,large
+0160466AR,Tipuana tipu,False,C\ Salvador Espriu,,31.45,no_facade,,check
+0160467AR,Celtis australis,False,C\ Ramon Turró,4.25,3.69,ok,,medium
+0160468AR,Schinus molle,False,C\ Marina,19.3,7.78,ok,,large
+0160469AR,Tipuana tipu,False,C\ Salvador Espriu,21.54,11.29,ok,,large
+0160470AR,Platanus × acerifolia,True,C\ Pamplona,5.76,5.04,ok,,medium
+0160471AR,Platanus × acerifolia,True,Av Icària,5.02,3.74,ok,,medium
+0160472AR,Tipuana tipu,False,C\ Marina,19.2,7.47,ok,,large
+0160473AR,Tipuana tipu,False,Av Bogatell,,6.03,no_kerb,,check
+0160475AR,Platanus × acerifolia,True,C\ Arquitecte Sert,9.11,7.6,ok,,large
+0160476AR,Celtis australis,False,C\ Ramon Turró,4.99,3.62,ok,,medium
+0160477AR,Platanus × acerifolia,True,C\ Joan Miró,4.44,3.85,ok,,medium
+0160478AR,Pistacia atlantica,False,C\ Salvador Espriu,,23.92,no_kerb,,check
+0160480AR,Pistacia atlantica,False,C\ Salvador Espriu,,29.51,no_kerb,,check
+0160481AR,Tipuana tipu,False,Av Bogatell,,17.42,no_kerb,,check
+0160482AR,Morus alba,False,C\ Marina,,99.07,no_facade,,check
+0160483AR,Celtis australis,False,C\ Salvador Espriu,21.57,17.45,ok,,large
+0160484AR,Platanus × acerifolia,True,C\ Ramon Turró,,15.35,median,,check
+0160485AR,Quercus ilex,False,Av Icària,,15.24,median,13.65,check
+0160486AR,Platanus × acerifolia,True,C\ Joan Miró,,14.83,no_kerb,,check
+0160487AR,Platanus × acerifolia,True,Av Icària,5.99,3.02,ok,,medium
+0160488AR,Platanus × acerifolia,True,Av Icària,5.09,4.53,ok,,medium
+0160489AR,Platanus × acerifolia,True,C\ Ramon Turró,9.45,8.7,ok,,large
+0160490AR,Platanus × acerifolia,True,Av Icària,5.0,4.3,ok,,medium
+0160491AR,Platanus × acerifolia,True,C\ Joan Miró,8.51,6.94,ok,,large
+0160492AR,Tipuana tipu,False,Av Bogatell,,28.77,no_kerb,,check
+0160493AR,Tipuana tipu,False,C\ Salvador Espriu,21.69,12.12,ok,,large
+0160494AR,Platanus × acerifolia,True,Av Icària,10.74,9.51,ok,,large
+0160495AR,Platanus × acerifolia,True,C\ Rosa Sensat,10.47,8.8,ok,,large
+0160496AR,Platanus × acerifolia,True,Av Icària,5.16,4.2,ok,,medium
+0160497AR,Tipuana tipu,False,Av Bogatell,,16.31,no_kerb,,check
+0160498AR,Platanus × acerifolia,True,C\ Doctor Trueta,4.98,4.05,ok,,medium
+0160499AR,Platanus × acerifolia,True,C\ Àlaba,9.26,8.08,ok,,large
+0160500AR,Platanus × acerifolia,True,Av Icària,6.1,5.31,ok,,large
+0160501AR,Platanus × acerifolia,True,C\ Àvila,4.94,3.92,ok,,medium
+0160502AR,Pinus pinea,False,Av Icària,,33.6,no_facade,,check
+0160503AR,Platanus × acerifolia,True,C\ Ramon Turró,8.8,8.09,ok,,large
+0160505AR,Jacaranda mimosifolia,False,C\ Joan Miró,,15.34,median,6.29,check
+0160506AR,Platanus × acerifolia,True,C\ Villena,,20.17,median,12.03,check
+0160507AR,Platanus × acerifolia,True,C\ Llull,4.32,3.62,ok,,medium
+0160509AR,Platanus × acerifolia,True,C\ Wellington,9.2,3.71,ok,,large
+0160510AR,Platanus × acerifolia,True,C\ Ramon Turró,4.53,3.96,ok,,medium
+0160511AR,Celtis australis,False,C\ Salvador Espriu,,23.31,no_kerb,,check
+0160512AR,Morus alba,False,C\ Marina,16.18,7.05,ok,,large
+0160514AR,Platanus × acerifolia,True,C\ Ramon Turró,5.06,5.0,ok,,medium
+0160515AR,Celtis australis,False,C\ Doctor Trueta,5.18,4.29,ok,,medium
+0160516AR,Platanus × acerifolia,True,C\ Llull,4.92,4.26,ok,,medium
+0160517AR,Platanus × acerifolia,True,C\ Pamplona,4.87,4.15,ok,,medium
+0160518AR,Platanus × acerifolia,True,C\ Llull,,17.59,median,,check
+0160519AR,Morus alba 'Fruitless',False,C\ Marina,,60.05,no_facade,,check
+0160521AR,Tipuana tipu,False,C\ Salvador Espriu,,11.33,no_kerb,,check
+0160522AR,Platanus × acerifolia,True,C\ Zamora,10.5,8.7,ok,,large
+0160523AR,Platanus × acerifolia,True,C\ Doctor Trueta,6.35,5.74,ok,,large
+0160524AR,Tipuana tipu,False,Av Bogatell,,16.76,no_kerb,,check
+0160525AR,Celtis australis,False,C\ Salvador Espriu,27.8,23.37,ok,,large
+0160526AR,Platanus × acerifolia,True,C\ Ramon Turró,,8.8,no_kerb,20.74,check
+0160527AR,Tipuana tipu,False,C\ Moscou,10.55,5.99,ok,,large
+0160529AR,Ulmus pumila,False,C\ Joan Miró,,2.38,no_kerb,,check
+0160530AR,Platanus × acerifolia,True,C\ Wellington,10.97,5.69,ok,,large
+0160531AR,Platanus × acerifolia,True,C\ Moscou,12.0,11.43,ok,,large
+0160532AR,Platanus × acerifolia,True,C\ Joan Oliver,,4.73,no_kerb,,check
+0160533AR,Platanus × acerifolia,True,C\ Arquitecte Sert,9.45,8.92,ok,,large
+0160534AR,Platanus × acerifolia,True,C\ Joan Miró,11.07,8.94,ok,,large
+0160535AR,Ulmus pumila,False,C\ Joan Miró,,2.49,no_kerb,,check
+0160536AR,Platanus × acerifolia,True,C\ Llull,4.81,4.96,ok,,medium
+0160537AR,Platanus × acerifolia,True,Av Icària,4.89,4.53,ok,,medium
+0160538AR,Platanus × acerifolia,True,C\ Doctor Trueta,4.09,3.45,ok,,medium
+0160540AR,Platanus × acerifolia,True,C\ Ramon Turró,9.23,8.75,ok,,large
+0160541AR,Magnolia grandiflora,False,C\ Marina,,44.53,no_facade,33.02,check
+0160542AR,Platanus × acerifolia,True,C\ Ramon Turró,11.48,10.83,ok,,large
+0160543AR,Morus alba 'Fruitless',False,C\ Marina,,116.85,no_facade,,check
+0160544AR,Platanus × acerifolia,True,C\ Moscou,11.89,11.15,ok,,large
+0160545AR,Celtis australis,False,C\ Ramon Turró,3.69,3.05,ok,,medium
+0160546AR,Tipuana tipu,False,Av Bogatell,24.77,5.79,ok,,large
+0160547AR,Platanus × acerifolia,True,C\ Sardenya,6.76,3.0,ok,,large
+0160548AR,Celtis australis,False,C\ Salvador Espriu,,30.13,no_facade,,check
+0160549AR,Schinus molle,False,C\ Marina,21.44,11.9,ok,,large
+0160550AR,Platanus × acerifolia,True,C\ Rosa Sensat,10.71,9.89,ok,,large
+0160551AR,Platanus × acerifolia,True,C\ Àlaba,4.93,4.18,ok,,medium
+0160552AR,Platanus × acerifolia,True,C\ Jaume Vicens i Vives,8.97,8.01,ok,,large
+0160553AR,Tipuana tipu,False,Av Bogatell,,28.86,no_kerb,,check
+0160554AR,Celtis australis,False,Av Icària,10.59,9.29,ok,,large
+0160555AR,Platanus × acerifolia,True,Av Icària,9.88,8.47,ok,,large
+0160556AR,Platanus × acerifolia,True,Av Icària,7.35,4.15,ok,,large
+0160557AR,Platanus × acerifolia,True,C\ Ramon Trias Fargas,15.13,13.57,ok,,large
+0160558AR,Platanus × acerifolia,True,C\ Zamora,17.35,14.02,ok,,large
+0160559AR,Platanus × acerifolia,True,Av Icària,7.37,4.48,ok,,large
+0160560AR,Tipuana tipu,False,C\ Marina,19.2,11.63,ok,,large
+0160561AR,Celtis australis,False,C\ Zamora,6.76,5.72,ok,,large
+0160562AR,Platanus × acerifolia,True,C\ Llull,4.94,3.74,ok,,medium
+0160563AR,Platanus × acerifolia,True,C\ Ramon Turró,5.16,4.29,ok,,medium
+0160564AR,Celtis australis,False,C\ Salvador Espriu,27.5,23.2,ok,,large
+0160565AR,Tipuana tipu,False,C\ Salvador Espriu,29.81,15.57,ok,,large
+0160566AR,Platanus × acerifolia,True,C\ Ramon Turró,4.94,3.84,ok,,medium
+0160567AR,Tipuana tipu,False,C\ Salvador Espriu,29.41,16.95,ok,,large
+0160569AR,Celtis australis,False,C\ Arquitecte Sert,5.09,3.23,ok,,medium
+0160570AR,Celtis australis,False,C\ Doctor Trueta,4.85,4.2,ok,,medium
+0160571AR,Ligustrum lucidum,False,C\ Ramon Trias Fargas,8.96,4.23,ok,,large
+0160572AR,Platanus × acerifolia,True,C\ Ramon Turró,5.03,3.15,ok,,medium
+0160573AR,Platanus × acerifolia,True,C\ Ramon Trias Fargas,,41.6,no_facade,2.42,check
+0160574AR,Platanus × acerifolia,True,C\ Arquitecte Sert,16.58,15.22,ok,,large
+0160575AR,Platanus × acerifolia,True,C\ Ramon Turró,4.26,3.78,ok,,medium
+0160576AR,Tipuana tipu,False,Av Bogatell,29.79,21.54,ok,,large
+0160577AR,Celtis australis,False,C\ Doctor Trueta,4.7,3.57,ok,,medium
+0160579AR,Platanus × acerifolia,True,C\ Arquitecte Sert,5.02,4.26,ok,,medium
+0160580AR,Schinus molle,False,C\ Salvador Espriu,,17.45,no_kerb,,check
+0160581AR,Platanus × acerifolia,True,C\ Zamora,5.13,4.27,ok,,medium
+0160582AR,Morus alba,False,C\ Marina,,51.89,no_facade,16.43,check
+0160583AR,Celtis australis,False,C\ Salvador Espriu,27.43,23.12,ok,,large
+0160584AR,Platanus × acerifolia,True,C\ Rosa Sensat,4.94,4.07,ok,,medium
+0160585AR,Platanus × acerifolia,True,C\ Ramon Turró,4.89,4.21,ok,,medium
+0160586AR,Koelreuteria paniculata 'Fastigiata',False,C\ Ramon Trias Fargas,8.85,7.8,ok,,large
+0160587AR,Schinus molle,False,C\ Marina,19.3,12.08,ok,,large
+0160588AR,Tipuana tipu,False,C\ Marina,19.2,11.12,ok,,large
+0160589AR,Platanus × acerifolia,True,Av Icària,5.05,4.27,ok,,medium
+0160590AR,Platanus × acerifolia,True,C\ Ramon Trias Fargas,,13.96,median,12.07,check
+0160591AR,Tipuana tipu,False,C\ Salvador Espriu,,12.19,no_kerb,,check
+0160593AR,Gleditsia triacanthos 'skyline',False,C\ Doctor Trueta,4.75,4.15,ok,,medium
+0160594AR,Tipuana tipu,False,C\ Salvador Espriu,,15.86,no_kerb,,check
+0160595AR,Tipuana tipu,False,C\ Salvador Espriu,,6.27,no_kerb,,check
+0160596AR,Quercus ilex,False,Av Icària,,15.3,median,13.61,check
+0160597AR,Quercus ilex,False,Av Icària,,15.03,median,13.58,check
+0160598AR,Morus alba 'Fruitless',False,C\ Marina,,53.65,no_facade,30.39,check
+0160599AR,Platanus × acerifolia,True,C\ Moscou,11.72,10.92,ok,,large
+0160600AR,Tipuana tipu,False,Av Bogatell,,20.4,no_kerb,,check
+0160601AR,Platanus × acerifolia,True,C\ Doctor Trueta,13.58,12.71,ok,,large
+0160602AR,Celtis australis,False,C\ Salvador Espriu,21.51,17.29,ok,,large
+0160603AR,Schinus molle,False,C\ Marina,19.7,7.95,ok,,large
+0160604AR,Platanus × acerifolia,True,C\ Doctor Trueta,,26.09,median,6.32,check
+0160605AR,Ligustrum lucidum,False,C\ Villena,8.17,4.37,ok,,large
+0160607AR,Brachychiton populneus,False,C\ Jaume Vicens i Vives,8.96,3.62,ok,,large
+0160608AR,Citrus × aurantium,False,C\ Marina,,24.32,median,19.91,check
+0160609AR,Melia azedarach,False,C\ Marina,12.88,4.05,ok,,large
+0160610AR,Morus alba,False,C\ Marina,17.2,12.37,ok,,large
+0160613AR,Citrus × aurantium,False,C\ Marina,,15.95,median,0.81,check
+0160614AR,Tipuana tipu,False,C\ Salvador Espriu,27.4,14.11,ok,,large
+0160615AR,Celtis australis,False,C\ Salvador Espriu,29.41,16.94,ok,,large
+0160617AR,Celtis australis,False,C\ Zamora,4.79,3.66,ok,,medium
+0160618AR,Celtis australis,False,C\ Àlaba,4.83,4.44,ok,,medium
+0160619AR,Tipuana tipu,False,Av Bogatell,,20.86,no_kerb,,check
+0160620AR,Cupressus sempervirens,False,C\ Marina,19.2,15.77,ok,,large
+0160621AR,Tipuana tipu,False,Av Bogatell,21.04,1.82,ok,,large
+0160622AR,Platanus × acerifolia,True,C\ Ramon Turró,3.79,3.66,ok,,medium
+0160623AR,Platanus × acerifolia,True,C\ Joan Miró,4.48,3.98,ok,,medium
+0160624AR,Morus alba,False,C\ Marina,6.84,2.17,ok,,large
+0160625AR,Platanus × acerifolia,True,C\ Rosa Sensat,6.52,5.12,ok,,large
+0160626AR,Platanus × acerifolia,True,C\ Doctor Trueta,4.67,3.86,ok,,medium
+0160627AR,Tipuana tipu,False,C\ Salvador Espriu,27.39,17.1,ok,,large
+0160628AR,Platanus × acerifolia,True,C\ Moscou,11.84,11.28,ok,,large
+0160630AR,Platanus × acerifolia,True,C\ Llull,4.92,4.48,ok,,medium
+0160631AR,Morus alba 'Fruitless',False,C\ Marina,,56.59,no_facade,,check
+0160632AR,Ligustrum lucidum,False,C\ Ramon Trias Fargas,9.04,4.42,ok,,large
+0160633AR,Platanus × acerifolia,True,C\ Wellington,8.69,4.15,ok,,large
+0160634AR,Tipuana tipu,False,C\ Salvador Espriu,,19.92,no_kerb,,check
+0160635AR,Tipuana tipu,False,Av Bogatell,,28.95,no_kerb,,check
+0160636AR,Jacaranda mimosifolia,False,C\ Joan Miró,4.17,3.74,ok,,medium
+0160637AR,Schinus molle,False,C\ Salvador Espriu,,15.06,no_kerb,,check
+0160638AR,Platanus × acerifolia,True,C\ Pamplona,4.73,4.13,ok,,medium
+0160639AR,Platanus × acerifolia,True,C\ Pamplona,4.71,4.29,ok,,medium
+0160640AR,Platanus × acerifolia,True,C\ Pamplona,13.85,12.98,ok,,large
+0160641AR,Platanus × acerifolia,True,C\ Jaume Vicens i Vives,8.95,8.0,ok,,large
+0160642AR,Tipuana tipu,False,C\ Salvador Espriu,,29.72,no_kerb,,check
+0160643AR,Tipuana tipu,False,C\ Joan Oliver,,10.89,no_kerb,,check
+0160644AR,Tipuana tipu,False,Av Bogatell,,21.72,no_kerb,,check
+0160645AR,Platanus × acerifolia,True,C\ Àlaba,4.92,4.15,ok,,medium
+0160646AR,Platanus × acerifolia,True,C\ Àlaba,5.19,4.53,ok,,medium
+0160647AR,Platanus × acerifolia,True,C\ Doctor Trueta,13.56,12.46,ok,,large
+0160648AR,Celtis australis,False,Av Icària,5.2,4.36,ok,,medium
+0160649AR,Platanus × acerifolia,True,Av Icària,5.12,3.9,ok,,medium
+0160650AR,Celtis australis,False,C\ Salvador Espriu,24.63,20.77,ok,,large
+0160651AR,Tipuana tipu,False,C\ Marina,19.2,12.6,ok,,large
+0160653AR,Platanus × acerifolia,True,Av Icària,,97.69,no_facade,,check
+0160654AR,Platanus × acerifolia,True,Av Icària,10.44,9.15,ok,,large
+0160656AR,Platanus × acerifolia,True,C\ Ramon Turró,8.8,8.36,ok,,large
+0160657AR,Platanus × acerifolia,True,C\ Ramon Turró,,21.78,median,7.32,check
+0160658AR,Celtis australis,False,C\ Salvador Espriu,29.86,23.54,ok,,large
+0160659AR,Pistacia atlantica,False,C\ Joan Oliver,,24.0,no_kerb,,check
+0160660AR,Tipuana tipu,False,C\ Salvador Espriu,,10.73,no_kerb,,check
+0160661AR,Platanus × acerifolia,True,Av Icària,5.0,4.23,ok,,medium
+0160662AR,Tipuana tipu,False,C\ Marina,19.2,10.16,ok,,large
+0160663AR,Celtis australis,False,C\ Salvador Espriu,29.41,22.96,ok,,large
+0160664AR,Tipuana tipu,False,C\ Marina,19.2,7.78,ok,,large
+0160665AR,Platanus × acerifolia,True,Av Icària,5.12,4.52,ok,,medium
+0160666AR,Platanus × acerifolia,True,C\ Moscou,12.05,6.75,ok,,large
+0160667AR,Gleditsia triacanthos f. inermis,False,C\ Ramon Turró,5.12,3.95,ok,,medium
+0160668AR,Celtis australis,False,C\ Àlaba,4.83,4.19,ok,,medium
+0160670AR,Tipuana tipu,False,C\ Salvador Espriu,,17.31,no_kerb,,check
+0160671AR,Platanus × acerifolia,True,C\ Llull,4.93,4.39,ok,,medium
+0160673AR,Platanus × acerifolia,True,C\ Joan Miró,6.25,5.08,ok,,large
+0160674AR,Platanus × acerifolia,True,C\ Doctor Trueta,4.18,3.82,ok,,medium
+0160675AR,Tipuana tipu,False,C\ Salvador Espriu,,14.68,no_kerb,,check
+0160676AR,Platanus × acerifolia,True,C\ Rosa Sensat,4.83,3.83,ok,,medium
+0160677AR,Tipuana tipu,False,C\ Salvador Espriu,29.42,17.66,ok,,large
+0160678AR,Quercus ilex,False,Av Icària,,15.54,median,13.78,check
+0160679AR,Platanus × acerifolia,True,C\ Joan Miró,4.84,3.78,ok,,medium
+0160680AR,Platanus × acerifolia,True,C\ Ramon Turró,4.94,3.64,ok,,medium
+0160681AR,Platanus × acerifolia,True,C\ Joan Oliver,,13.96,no_kerb,,check
+0160682AR,Quercus ilex,False,Av Icària,,15.4,median,13.66,check
+0160683AR,Schinus molle,False,C\ Salvador Espriu,27.4,14.02,ok,,large
+0160684AR,Platanus × acerifolia,True,Av Icària,5.05,4.36,ok,,medium
+0160685AR,Melia azedarach,False,C\ Marina,13.71,6.03,ok,,large
+0160686AR,Celtis australis,False,C\ Salvador Espriu,21.69,17.32,ok,,large
+0160687AR,Tipuana tipu,False,C\ Salvador Espriu,,15.97,no_kerb,,check
+0160688AR,Brachychiton populneus,False,C\ Jaume Vicens i Vives,8.97,3.75,ok,,large
+0160690AR,Platanus × acerifolia,True,C\ Ramon Trias Fargas,15.08,13.6,ok,,large
+0160691AR,Gleditsia triacanthos 'skyline',False,C\ Doctor Trueta,4.95,3.71,ok,,medium
+0160692AR,Platanus × acerifolia,True,C\ Moscou,9.6,8.5,ok,,large
+0160693AR,Platanus × acerifolia,True,C\ Villena,,20.21,no_kerb,,check
+0160694AR,Platanus × acerifolia,True,C\ Ramon Turró,5.1,4.31,ok,,medium
+0160695AR,Schinus molle,False,C\ Salvador Espriu,27.38,14.08,ok,,large
+0160696AR,Platanus × acerifolia,True,C\ Doctor Trueta,10.33,9.21,ok,,large
+0160697AR,Melia azedarach,False,C\ Marina,12.54,6.35,ok,,large
+0160698AR,Celtis australis,False,C\ Salvador Espriu,,31.94,no_facade,,check
+0160699AR,Tipuana tipu,False,C\ Marina,19.3,11.96,ok,,large
+0160700AR,Morus alba 'Fruitless',False,C\ Marina,,87.86,no_facade,,check
+0160701AR,Platanus × acerifolia,True,C\ Ramon Turró,4.7,4.18,ok,,medium
+0160703AR,Celtis australis,False,C\ Salvador Espriu,,7.23,no_kerb,,check
+0160704AR,Tipuana tipu,False,Av Bogatell,,5.8,no_kerb,,check
+0160705AR,Schinus molle,False,C\ Salvador Espriu,21.57,9.76,ok,,large
+0160706AR,Platanus × acerifolia,True,Av Icària,7.81,4.98,ok,,large
+0160707AR,Celtis australis,False,C\ Salvador Espriu,27.36,13.95,ok,,large
+0160708AR,Tipuana tipu,False,Av Bogatell,,3.71,no_kerb,24.21,check
+0160709AR,Platanus × acerifolia,True,C\ Moscou,12.1,9.26,ok,,large
+0160710AR,Celtis australis,False,C\ Salvador Espriu,29.42,22.34,ok,,large
+0160711AR,Platanus × acerifolia,True,C\ Ramon Turró,4.53,4.05,ok,,medium
+0160712AR,Platanus × acerifolia,True,C\ Llull,4.92,4.31,ok,,medium
+0160713AR,Morus alba,False,C\ Marina,16.87,11.58,ok,,large
+0160714AR,Platanus × acerifolia,True,Av Icària,5.14,4.0,ok,,medium
+0160715AR,Platanus × acerifolia,True,C\ Ramon Turró,4.92,3.34,ok,,medium
+0160717AR,Platanus × acerifolia,True,C\ Rosa Sensat,,27.06,median,,check
+0160718AR,Platanus × acerifolia,True,Av Icària,,106.14,no_facade,,check
+0160719AR,Platanus × acerifolia,True,C\ Llull,4.38,3.88,ok,,medium
+0160720AR,Pistacia atlantica,False,C\ Salvador Espriu,,18.84,no_kerb,,check
+0160721AR,Platanus × acerifolia,True,Av Icària,7.2,4.34,ok,,large
+0160722AR,Platanus × acerifolia,True,Av Icària,11.41,10.72,ok,,large
+0160723AR,Celtis australis,False,C\ Salvador Espriu,29.42,22.98,ok,,large
+0160724AR,Platanus × acerifolia,True,C\ Jaume Vicens i Vives,8.96,8.04,ok,,large
+0160725AR,Platanus × acerifolia,True,Av Icària,,90.03,no_facade,,check
+0160726AR,Platanus × acerifolia,True,C\ Ramon Turró,4.95,4.1,ok,,medium
+0160727AR,Platanus × acerifolia,True,C\ Llull,4.4,3.81,ok,,medium
+0160728AR,Platanus × acerifolia,True,C\ Àlaba,16.85,15.91,ok,,large
+0160729AR,Schinus molle,False,C\ Salvador Espriu,,30.28,no_facade,,check
+0160730AR,Tipuana tipu,False,C\ Salvador Espriu,,32.39,no_facade,,check
+0160731AR,Celtis australis,False,C\ Ramon Turró,4.54,3.94,ok,,medium
+0160732AR,Ulmus pumila,False,C\ Marina,,24.65,median,25.66,check
+0160733AR,Platanus × acerifolia,True,C\ Doctor Trueta,4.47,3.81,ok,,medium
+0160734AR,Tipuana tipu,False,Av Bogatell,20.84,18.44,ok,,large
+0160735AR,Quercus ilex,False,Av Icària,,15.57,median,13.68,check
+0160736AR,Jacaranda mimosifolia,False,C\ Arquitecte Sert,8.9,7.69,ok,,large
+0160737AR,Quercus ilex,False,Av Icària,,15.14,median,13.75,check
+0160738AR,Platanus × acerifolia,True,C\ Wellington,10.42,6.5,ok,,large
+0160739AR,Platanus × acerifolia,True,C\ Joan Miró,28.67,21.52,ok,,large
+0160740AR,Tipuana tipu,False,C\ Salvador Espriu,21.44,8.77,ok,,large
+0160741AR,Celtis australis,False,C\ Ramon Turró,3.52,2.98,ok,,medium
+0160742AR,Celtis australis,False,C\ Àvila,4.27,3.73,ok,,medium
+0160743AR,Platanus × acerifolia,True,C\ Doctor Trueta,4.88,4.42,ok,,medium
+0160744AR,Platanus × acerifolia,True,C\ Àvila,4.96,3.88,ok,,medium
+0160746AR,Ligustrum lucidum,False,C\ Villena,24.97,5.69,ok,,large
+0160747AR,Platanus × acerifolia,True,C\ Joan Miró,4.93,3.92,ok,,medium
+0160748AR,Platanus × acerifolia,True,Av Icària,4.79,3.9,ok,,medium
+0160749AR,Celtis australis,False,C\ Pamplona,4.43,3.81,ok,,medium
+0160750AR,Platanus × acerifolia,True,C\ Àlaba,8.54,7.68,ok,,large
+0160751AR,Pinus pinea,False,Av Icària,,40.99,no_facade,31.21,check
+0160752AR,Quercus ilex,False,Av Icària,,14.97,median,13.54,check
+0160754AR,Tipuana tipu,False,Av Litoral,,20.28,no_kerb,,check
+0160755AR,Platanus × acerifolia,True,C\ Ramon Trias Fargas,4.79,4.12,ok,,medium
+0160756AR,Brachychiton populneus,False,C\ Jaume Vicens i Vives,8.97,3.76,ok,,large
+0160757AR,Platanus × acerifolia,True,Av Icària,7.22,4.41,ok,,large
+0160758AR,Platanus × acerifolia,True,Av Icària,7.17,4.52,ok,,large
+0160760AR,Platanus × acerifolia,True,C\ Ramon Turró,5.06,3.65,ok,,medium
+0160761AR,Tipuana tipu,False,C\ Marina,19.3,8.6,ok,,large
+0160762AR,Platanus × acerifolia,True,C\ Moscou,12.14,7.15,ok,,large
+0160763AR,Jacaranda mimosifolia,False,C\ Joan Miró,4.79,3.69,ok,,medium
+0160765AR,Platanus × acerifolia,True,C\ Ramon Trias Fargas,8.83,7.75,ok,,large
+0160766AR,Celtis australis,False,Av Icària,17.38,13.84,ok,,large
+0160767AR,Platanus × acerifolia,True,Av Icària,5.16,3.99,ok,,medium
+0160768AR,Tipuana tipu,False,C\ Salvador Espriu,21.59,7.95,ok,,large
+0160770AR,Tipuana tipu,False,C\ Joan Oliver,,23.92,no_kerb,,check
+0160771AR,Platanus × acerifolia,True,C\ Moscou,10.86,10.0,ok,,large
+0160772AR,Platanus × acerifolia,True,C\ Moscou,12.07,10.69,ok,,large
+0160773AR,Morus alba,False,C\ Marina,17.64,9.3,ok,,large
+0160776AR,Platanus × acerifolia,True,C\ Ramon Turró,4.95,3.37,ok,,medium
+0160778AR,Platanus × acerifolia,True,C\ Ramon Trias Fargas,9.0,7.48,ok,,large
+0160779AR,Pistacia atlantica,False,C\ Salvador Espriu,,8.02,no_kerb,,check
+0160780AR,Tipuana tipu,False,C\ Salvador Espriu,,33.79,no_facade,,check
+0160781AR,Platanus × acerifolia,True,Av Icària,14.42,7.95,ok,,large
+0160782AR,Platanus × acerifolia,True,C\ Llull,4.92,4.41,ok,,medium
+0160783AR,Platanus × acerifolia,True,C\ Ramon Turró,5.06,3.66,ok,,medium
+0160784AR,Tipuana tipu,False,Av Bogatell,,6.17,no_kerb,,check
+0160785AR,Tipuana tipu,False,C\ Marina,19.2,8.84,ok,,large
+0160786AR,Platanus × acerifolia,True,C\ Doctor Trueta,4.74,4.1,ok,,medium
+0160787AR,Platanus × acerifolia,True,C\ Jaume Vicens i Vives,9.39,8.44,ok,,large
+0160788AR,Morus alba 'Fruitless',False,C\ Marina,,75.89,no_facade,,check
+0160789AR,Morus alba 'Fruitless',False,C\ Marina,,57.4,no_facade,30.5,check
+0160790AR,Citrus × aurantium,False,C\ Marina,,19.81,median,1.05,check
+0160791AR,Platanus × acerifolia,True,C\ Àlaba,4.99,4.36,ok,,medium
+0160792AR,Platanus × acerifolia,True,C\ Ramon Trias Fargas,8.96,7.58,ok,,large
+0160793AR,Platanus × acerifolia,True,C\ Rosa Sensat,8.74,7.17,ok,,large
+0160794AR,Celtis australis,False,C\ Àlaba,,15.5,median,5.33,check
+0160795AR,Tipuana tipu,False,Av Bogatell,17.51,9.83,ok,,large
+0160796AR,Tipuana tipu,False,C\ Salvador Espriu,27.4,14.1,ok,,large
+0160797AR,Tipuana tipu,False,C\ Salvador Espriu,,11.52,no_kerb,,check
+0160798AR,Platanus × acerifolia,True,Av Icària,13.94,11.3,ok,,large
+0160799AR,Platanus × acerifolia,True,C\ Moscou,11.96,11.57,ok,,large
+0160800AR,Platanus × acerifolia,True,C\ Joan Miró,,20.64,no_kerb,,check
+0160801AR,Cupressus sempervirens,False,C\ Marina,19.2,15.7,ok,,large
+0160802AR,Celtis australis,False,C\ Àvila,4.39,3.91,ok,,medium
+0160803AR,Platanus × acerifolia,True,Av Icària,5.05,4.04,ok,,medium
+0160804AR,Platanus × acerifolia,True,Av Icària,4.85,3.98,ok,,medium
+0160805AR,Platanus × acerifolia,True,C\ Llull,4.92,4.37,ok,,medium
+0160806AR,Platanus × acerifolia,True,C\ Ramon Turró,3.87,3.81,ok,,medium
+0160807AR,Tipuana tipu,False,C\ Salvador Espriu,21.59,12.15,ok,,large
+0160808AR,Platanus × acerifolia,True,C\ Arquitecte Sert,5.06,4.07,ok,,medium
+0160809AR,Celtis australis,False,C\ Ramon Turró,4.69,4.19,ok,,medium
+0160811AR,Platanus × acerifolia,True,C\ Frederic Mompou,21.93,21.56,ok,,large
+0160813AR,Handroanthus heptaphyllus,False,C\ Ramon Turró,17.22,9.28,ok,,large
+0160814AR,Platanus × acerifolia,True,C\ Doctor Trueta,11.51,10.52,ok,,large
+0160815AR,Platanus × acerifolia,True,C\ Joan Miró,8.57,8.71,ok,,large
+0160818AR,Celtis australis,False,C\ Zamora,4.86,3.79,ok,,medium
+0160819AR,Platanus × acerifolia,True,C\ Llull,6.88,3.16,ok,,large
+0160820AR,Tipuana tipu,False,C\ Salvador Espriu,,18.3,no_kerb,23.03,check
+0160821AR,Platanus × acerifolia,True,Av Icària,7.15,4.36,ok,,large
+0160822AR,Platanus × acerifolia,True,C\ Ramon Trias Fargas,,51.72,no_facade,,check
+0160823AR,Morus alba 'Fruitless',False,C\ Marina,,62.29,no_facade,,check
+0160824AR,Tipuana tipu,False,Av Bogatell,22.28,4.88,ok,,large
+0160825AR,Platanus × acerifolia,True,Av Icària,4.97,4.32,ok,,medium
+0160826AR,Celtis australis,False,C\ Àvila,4.48,3.99,ok,,medium
+0160827AR,Platanus × acerifolia,True,C\ Doctor Trueta,5.03,4.22,ok,,medium
+0160828AR,Platanus × acerifolia,True,C\ Doctor Trueta,4.93,3.62,ok,,medium
+0160830AR,Quercus ilex,False,Av Icària,,18.43,median,13.68,check
+0160831AR,Platanus × acerifolia,True,C\ Arquitecte Sert,9.24,8.05,ok,,large
+0160832AR,Tipuana tipu,False,Av Litoral,,27.11,no_kerb,49.11,check
+0160833AR,Quercus ilex,False,Av Icària,,14.34,median,13.61,check
+0160834AR,Tipuana tipu,False,C\ Salvador Espriu,,11.12,no_kerb,,check
+0160835AR,Platanus × acerifolia,True,C\ Doctor Trueta,9.05,8.46,ok,,large
+0160836AR,Citrus × aurantium,False,C\ Marina,,14.55,median,9.68,check
+0160837AR,Platanus × acerifolia,True,C\ Àlaba,22.59,17.98,ok,,large
+0160838AR,Platanus × acerifolia,True,C\ Arquitecte Sert,5.03,3.97,ok,,medium
+0160839AR,Celtis australis,False,C\ Rosa Sensat,5.05,4.01,ok,,medium
+0160840AR,Tipuana tipu,False,C\ Marina,19.3,13.64,ok,,large
+0160841AR,Platanus × acerifolia,True,C\ Moscou,12.11,7.64,ok,,large
+0160842AR,Platanus × acerifolia,True,C\ Doctor Trueta,,19.81,median,,check
+0160843AR,Celtis australis,False,C\ Salvador Espriu,23.97,17.88,ok,,large
+0160844AR,Platanus × acerifolia,True,Av Icària,7.21,3.28,ok,,large
+0160845AR,Platanus × acerifolia,True,C\ Ramon Trias Fargas,8.86,7.85,ok,,large
+0160846AR,Quercus ilex,False,C\ Salvador Espriu,8.4,7.87,ok,,large
+0160847AR,Tipuana tipu,False,Av Bogatell,20.08,4.27,ok,,large
+0160848AR,Tipuana tipu,False,C\ Salvador Espriu,29.83,17.22,ok,,large
+0160849AR,Tipuana tipu,False,Av Bogatell,,4.62,no_kerb,,check
+0160850AR,Celtis australis,False,C\ Ramon Turró,4.31,3.84,ok,,medium
+0160851AR,Morus alba 'Fruitless',False,C\ Marina,,53.85,no_facade,30.29,check
+0160852AR,Platanus × acerifolia,True,C\ Sardenya,5.07,4.93,ok,,medium
+0160853AR,Platanus × acerifolia,True,C\ Arquitecte Sert,4.9,4.15,ok,,medium
+0160854AR,Platanus × acerifolia,True,C\ Pamplona,4.18,3.46,ok,,medium
+0160855AR,Albizia julibrissin,False,Av Icària,7.25,4.32,ok,,large
+0160856AR,Platanus × acerifolia,True,C\ Doctor Trueta,4.68,4.26,ok,,medium
+0160857AR,Magnolia grandiflora,False,C\ Salvador Espriu,29.81,22.96,ok,,large
+0160859AR,Schinus molle,False,C\ Salvador Espriu,,27.88,no_kerb,,check
+0160860AR,Platanus × acerifolia,True,C\ Llull,,17.38,median,,check
+0160861AR,Ligustrum lucidum,False,C\ Ramon Trias Fargas,11.91,6.91,ok,,large
+0160862AR,Platanus × acerifolia,True,C\ Doctor Trueta,5.0,4.14,ok,,medium
+0160863AR,Albizia julibrissin,False,Av Icària,,101.2,no_facade,,check
+0160864AR,Platanus × acerifolia,True,C\ Zamora,5.23,4.27,ok,,medium
+0160865AR,Tipuana tipu,False,Av Bogatell,,10.54,no_kerb,,check
+0160866AR,Tipuana tipu,False,C\ Marina,19.3,9.17,ok,,large
+0160867AR,Tipuana tipu,False,Av Bogatell,,26.22,median,,check
+0160868AR,Tipuana tipu,False,C\ Salvador Espriu,21.61,8.9,ok,,large
+0160869AR,Platanus × acerifolia,True,C\ Sardenya,4.99,3.03,ok,,medium
+0160870AR,Jacaranda mimosifolia,False,C\ Arquitecte Sert,4.88,4.67,ok,,medium
+0160871AR,Gleditsia triacanthos 'sunburst',False,C\ Pamplona,4.86,4.01,ok,,medium
+0160872AR,Platanus × acerifolia,True,Av Icària,5.05,4.12,ok,,medium
+0160873AR,Platanus × acerifolia,True,Av Icària,7.97,7.0,ok,,large
+0160874AR,Tipuana tipu,False,C\ Salvador Espriu,,24.61,no_kerb,,check
+0160875AR,Celtis australis,False,C\ Doctor Trueta,,16.94,median,20.67,check
+0160876AR,Platanus × acerifolia,True,C\ Jaume Vicens i Vives,8.95,8.02,ok,,large
+0160877AR,Platanus × acerifolia,True,C\ Ramon Turró,9.02,8.47,ok,,large
+0160878AR,Tipuana tipu,False,C\ Salvador Espriu,29.72,15.84,ok,,large
+0160879AR,Jacaranda mimosifolia,False,C\ Arquitecte Sert,4.89,4.53,ok,,medium
+0160881AR,Platanus × acerifolia,True,Av Icària,14.7,13.73,ok,,large
+0160882AR,Ligustrum lucidum,False,C\ Ramon Trias Fargas,9.09,5.1,ok,,large
+0160883AR,Platanus × acerifolia,True,C\ Arquitecte Sert,5.0,3.76,ok,,medium
+0160885AR,Tipuana tipu,False,C\ Salvador Espriu,,15.76,no_kerb,,check
+0160886AR,Platanus × acerifolia,True,C\ Àlaba,9.22,8.69,ok,,large
+0160887AR,Schinus molle,False,C\ Salvador Espriu,27.46,17.48,ok,,large
+0160888AR,Platanus × acerifolia,True,Av Icària,5.18,4.06,ok,,medium
+0160890AR,Platanus × acerifolia,True,C\ Rosa Sensat,4.9,4.44,ok,,medium
+0160891AR,Celtis australis,False,Av Icària,5.2,4.08,ok,,medium
+0160892AR,Platanus × acerifolia,True,Av Icària,14.06,8.43,ok,,large
+0160893AR,Platanus × acerifolia,True,C\ Ramon Trias Fargas,,91.23,no_facade,6.23,check
+0160894AR,Platanus × acerifolia,True,C\ Moscou,10.92,10.61,ok,,large
+0160895AR,Quercus ilex,False,C\ Salvador Espriu,27.85,11.48,ok,,large
+0160896AR,Platanus × acerifolia,True,Av Icària,7.11,4.16,ok,,large
+0160898AR,Platanus × acerifolia,True,C\ Joan Miró,5.86,5.59,ok,,medium
+0160899AR,Tipuana tipu,False,C\ Salvador Espriu,,7.83,no_kerb,,check
+0160900AR,Platanus × acerifolia,True,C\ Moscou,10.2,8.89,ok,,large
+0160901AR,Platanus × acerifolia,True,C\ Ramon Trias Fargas,9.07,8.01,ok,,large
+0160902AR,Pistacia atlantica,False,C\ Salvador Espriu,,12.5,no_kerb,,check
+0160903AR,Quercus ilex,False,Av Icària,,15.27,median,13.62,check
+0160904AR,Citrus × aurantium,False,C\ Marina,,20.22,median,5.56,check
+0160905AR,Tipuana tipu,False,C\ Salvador Espriu,,20.77,no_kerb,,check
+0160907AR,Platanus × acerifolia,True,Av Icària,9.41,6.32,ok,,large
+0160908AR,Platanus × acerifolia,True,Av Icària,8.99,8.11,ok,,large
+0160909AR,Platanus × acerifolia,True,C\ Joan Miró,4.8,4.01,ok,,medium
+0160910AR,Platanus × acerifolia,True,Av Icària,10.52,9.18,ok,,large
+0160911AR,Morus alba 'Fruitless',False,C\ Marina,,64.12,no_facade,,check
+0160912AR,Platanus × acerifolia,True,Av Icària,4.88,4.18,ok,,medium
+0160915AR,Tipuana tipu,False,C\ Salvador Espriu,,24.55,no_kerb,28.46,check
+0160916AR,Tipuana tipu,False,Av Bogatell,,11.62,no_kerb,,check
+0160917AR,Celtis australis,False,Av Icària,4.8,4.2,ok,,medium
+0160918AR,Platanus × acerifolia,True,Av Icària,8.3,7.28,ok,,large
+0160919AR,Celtis australis,False,Av Icària,6.27,5.49,ok,,large
+0160920AR,Platanus × acerifolia,True,C\ Wellington,9.2,3.41,ok,,large
+0160921AR,Celtis australis,False,C\ Doctor Trueta,4.93,4.54,ok,,medium
+0160922AR,Platanus × acerifolia,True,C\ Llull,16.54,15.67,ok,,large
+0160923AR,Tipuana tipu,False,Av Bogatell,22.79,15.14,ok,,large
+0160924AR,Tipuana tipu,False,C\ Salvador Espriu,,14.78,no_kerb,,check
+0160925AR,Platanus × acerifolia,True,C\ Llull,4.51,3.69,ok,,medium
+0160926AR,Albizia julibrissin,False,Av Icària,5.0,4.8,ok,,medium
+0160927AR,Tipuana tipu,False,C\ Salvador Espriu,29.42,13.2,ok,,large
+0160928AR,Platanus × acerifolia,True,C\ Ramon Turró,4.91,4.01,ok,,medium
+0160929AR,Platanus × acerifolia,True,C\ Ramon Turró,,17.82,median,4.88,check
+0160931AR,Celtis australis,False,C\ Salvador Espriu,21.63,17.26,ok,,large
+0160932AR,Celtis australis,False,C\ Àlaba,4.93,4.14,ok,,medium
+0160933AR,Platanus × acerifolia,True,C\ Villena,,20.27,median,,check
+0160934AR,Tipuana tipu,False,C\ Marina,15.01,3.97,ok,,large
+0160935AR,Quercus ilex,False,Av Icària,,15.07,median,13.55,check
+0160937AR,Platanus × acerifolia,True,C\ Doctor Trueta,4.67,4.07,ok,,medium
+0160938AR,Platanus × acerifolia,True,C\ Wellington,17.92,6.91,ok,,large
+0160939AR,Tipuana tipu,False,Av Bogatell,,5.76,no_kerb,,check
+0160940AR,Platanus × acerifolia,True,C\ Àvila,4.9,3.79,ok,,medium
+0160941AR,Platanus × acerifolia,True,Av Icària,6.05,4.6,ok,,large
+0160942AR,Platanus × acerifolia,True,C\ Villena,,16.61,no_kerb,,check
+0160944AR,Ligustrum lucidum,False,C\ Ramon Trias Fargas,9.0,3.21,ok,,large
+0160945AR,Tipuana tipu,False,C\ Salvador Espriu,27.5,17.18,ok,,large
+0160946AR,Pistacia atlantica,False,C\ Salvador Espriu,,31.9,no_facade,,check
+0160948AR,Platanus × acerifolia,True,C\ Joan Miró,,16.32,median,,check
+0160949AR,Platanus × acerifolia,True,C\ Doctor Trueta,4.99,3.91,ok,,medium
+0160950AR,Jacaranda mimosifolia,False,C\ Joan Miró,,15.38,median,6.28,check
+0160951AR,Platanus × acerifolia,True,C\ Doctor Trueta,5.6,4.49,ok,,medium
+0160952AR,Platanus × acerifolia,True,C\ Pamplona,8.49,7.68,ok,,large
+0160953AR,Tipuana tipu,False,Av Litoral,,24.44,no_kerb,,check
+0160954AR,Platanus × acerifolia,True,C\ Ramon Turró,4.86,4.2,ok,,medium
+0160955AR,Platanus × acerifolia,True,C\ Arquitecte Sert,9.27,8.76,ok,,large
+0160957AR,Quercus ilex,False,Av Icària,,17.82,median,13.61,check
+0160958AR,Platanus × acerifolia,True,C\ Joan Miró,14.52,12.61,ok,,large
+0160959AR,Tipuana tipu,False,C\ Salvador Espriu,24.38,13.68,ok,,large
+0160960AR,Schinus molle,False,C\ Salvador Espriu,,10.48,no_kerb,,check
+0160961AR,Platanus × acerifolia,True,C\ Àvila,4.91,3.95,ok,,medium
+0160962AR,Platanus × acerifolia,True,C\ Llull,6.72,4.37,ok,,large
+0160963AR,Platanus × acerifolia,True,C\ Sardenya,5.08,3.1,ok,,medium
+0160964AR,Celtis australis,False,C\ Salvador Espriu,29.63,22.84,ok,,large
+0160965AR,Platanus × acerifolia,True,Av Icària,7.27,4.24,ok,,large
+0160966AR,Tipuana tipu,False,C\ Salvador Espriu,29.64,16.88,ok,,large
+0160967AR,Platanus × acerifolia,True,C\ Pamplona,,16.55,median,,check
+0160968AR,Platanus × acerifolia,True,C\ Ramon Turró,4.56,3.92,ok,,medium
+0160969AR,Platanus × acerifolia,True,C\ Ramon Turró,5.22,4.62,ok,,medium
+0160970AR,Platanus × acerifolia,True,C\ Doctor Trueta,5.13,4.13,ok,,medium
+0160971AR,Celtis australis,False,C\ Àlaba,4.75,4.13,ok,,medium
+0160972AR,Platanus × acerifolia,True,Av Icària,7.25,4.1,ok,,large
+0160973AR,Platanus × acerifolia,True,C\ Moscou,12.11,11.29,ok,,large
+0160974AR,Platanus × acerifolia,True,C\ Doctor Trueta,4.89,3.89,ok,,medium
+0160975AR,Platanus × acerifolia,True,Av Icària,6.46,3.3,ok,,large
+0160976AR,Platanus × acerifolia,True,C\ Doctor Trueta,4.73,4.41,ok,,medium
+0160977AR,Platanus × acerifolia,True,C\ Doctor Trueta,5.03,4.24,ok,,medium
+0160978AR,Schinus molle,False,C\ Salvador Espriu,27.39,17.04,ok,,large
+0160979AR,Tipuana tipu,False,Av Bogatell,,28.9,no_kerb,,check
+0160980AR,Quercus ilex,False,Av Icària,,15.34,median,13.57,check
+0160981AR,Platanus × acerifolia,True,C\ Rosa Sensat,13.07,11.57,ok,,large
+0160982AR,Platanus × acerifolia,True,C\ Ramon Trias Fargas,21.88,20.27,ok,,large
+0160984AR,Platanus × acerifolia,True,C\ Moscou,11.98,6.41,ok,,large
+0160985AR,Platanus × acerifolia,True,C\ Joan Miró,4.86,3.77,ok,,medium
+0160986AR,Platanus × acerifolia,True,Av Icària,6.82,4.36,ok,,large
+0160987AR,Platanus × acerifolia,True,C\ Rosa Sensat,4.85,4.44,ok,,medium
+0160988AR,Melia azedarach,False,C\ Marina,10.75,4.01,ok,,large
+0160989AR,Platanus × acerifolia,True,C\ Wellington,10.39,5.93,ok,,large
+0160990AR,Platanus × acerifolia,True,C\ Villena,,16.58,no_kerb,,check
+0160991AR,Tipuana tipu,False,C\ Salvador Espriu,,32.59,no_facade,,check
+0160992AR,Morus alba 'Fruitless',False,C\ Marina,,85.99,no_facade,,check
+0160994AR,Quercus ilex,False,Av Icària,,16.34,median,13.59,check
+0160995AR,Platanus × acerifolia,True,Av Icària,9.28,8.67,ok,,large
+0160996AR,Platanus × acerifolia,True,C\ Moscou,12.55,10.62,ok,,large
+0160997AR,Cupressus sempervirens,False,C\ Marina,19.3,16.89,ok,,large
+0160998AR,Gleditsia triacanthos f. inermis,False,C\ Ramon Turró,4.84,4.29,ok,,medium
+0160999AR,Platanus × acerifolia,True,C\ Ramon Turró,4.85,4.2,ok,,medium
+0161001AR,Platanus × acerifolia,True,C\ Wellington,10.5,6.0,ok,,large
+0161002AR,Tipuana tipu,False,C\ Salvador Espriu,29.79,18.14,ok,,large
+0161003AR,Platanus × acerifolia,True,C\ Ramon Turró,3.68,3.17,ok,,medium
+0161005AR,Platanus × acerifolia,True,C\ Llull,4.92,4.34,ok,,medium
+0161006AR,Platanus × acerifolia,True,C\ Arquitecte Sert,12.77,10.95,ok,,large
+0161007AR,Platanus × acerifolia,True,C\ Ramon Turró,4.93,3.47,ok,,medium
+0161008AR,Platanus × acerifolia,True,C\ Ramon Trias Fargas,,80.92,no_facade,2.62,check
+0161009AR,Platanus × acerifolia,True,Av Icària,5.52,2.82,ok,,medium
+0161010AR,Morus alba,False,C\ Marina,,56.01,no_facade,30.38,check
+0161012AR,Platanus × acerifolia,True,C\ Joan Miró,5.81,5.14,ok,,medium
+0161013AR,Platanus × acerifolia,True,C\ Frederic Mompou,,12.95,no_kerb,9.0,check
+0161014AR,Tipuana tipu,False,Av Bogatell,,28.66,median,,check
+0161015AR,Tipuana tipu,False,C\ Marina,19.2,8.21,ok,,large
+0161016AR,Citrus × aurantium,False,C\ Joan Miró,,24.59,median,13.0,check
+0161018AR,Platanus × acerifolia,True,C\ Ramon Turró,8.76,7.67,ok,,large
+0161019AR,Schinus molle,False,C\ Salvador Espriu,21.6,9.84,ok,,large
+0161020AR,Platanus × acerifolia,True,C\ Arquitecte Sert,5.03,3.75,ok,,medium
+0161021AR,Tipuana tipu,False,C\ Salvador Espriu,,17.82,no_kerb,,check
+0161022AR,Celtis australis,False,C\ Villena,8.66,7.95,ok,,large
+0161023AR,Tipuana tipu,False,C\ Marina,,18.78,no_kerb,20.6,check
+0161024AR,Styphnolobium japonicum,False,C\ Marina,,18.29,no_kerb,,check
+0161025AR,Schinus molle,False,C\ Salvador Espriu,,21.01,no_kerb,,check
+0161026AR,Platanus × acerifolia,True,C\ Moscou,10.9,9.38,ok,,large
+0161027AR,Tipuana tipu,False,Av Bogatell,,5.94,no_kerb,,check
+0161028AR,Platanus × acerifolia,True,C\ Joan Miró,5.87,5.32,ok,,medium
+0161029AR,Platanus × acerifolia,True,C\ Rosa Sensat,6.14,4.97,ok,,large
+0161030AR,Tipuana tipu,False,C\ Salvador Espriu,21.58,11.99,ok,,large
+0161031AR,Platanus × acerifolia,True,Av Icària,5.04,4.44,ok,,medium
+0161033AR,Platanus × acerifolia,True,C\ Àlaba,9.32,8.67,ok,,large
+0161034AR,Celtis australis,False,C\ Ramon Turró,4.99,4.19,ok,,medium
+0161035AR,Platanus × acerifolia,True,C\ Ramon Trias Fargas,4.88,4.69,ok,,medium
+0161037AR,Gleditsia triacanthos 'skyline',False,C\ Ramon Turró,4.62,3.99,ok,,medium
+0161038AR,Platanus × acerifolia,True,C\ Doctor Trueta,6.69,5.72,ok,,large
+0161039AR,Tipuana tipu,False,C\ Salvador Espriu,,14.7,no_kerb,,check
+0161040AR,Platanus × acerifolia,True,C\ Arquitecte Sert,16.62,15.31,ok,,large
+0161041AR,Platanus × acerifolia,True,C\ Ramon Turró,5.01,3.28,ok,,medium
+0161042AR,Celtis australis,False,C\ Salvador Espriu,27.5,23.03,ok,,large
+0161043AR,Quercus ilex,False,Av Icària,,22.22,median,13.69,check
+0161044AR,Cupressus sempervirens,False,C\ Marina,19.2,16.09,ok,,large
+0161045AR,Platanus × acerifolia,True,C\ Ramon Turró,3.35,2.78,ok,,small
+0161046AR,Ligustrum lucidum,False,C\ Villena,8.66,5.7,ok,,large
+0161047AR,Platanus × acerifolia,True,C\ Ramon Turró,,22.42,median,,check
+0161048AR,Platanus × acerifolia,True,Av Icària,5.1,4.15,ok,,medium
+0161049AR,Platanus × acerifolia,True,C\ Doctor Trueta,16.56,15.65,ok,,large
+0161050AR,Tipuana tipu,False,C\ Salvador Espriu,,19.06,no_kerb,,check
+0161051AR,Quercus ilex,False,C\ Salvador Espriu,12.52,11.3,ok,,large
+0161053AR,Platanus × acerifolia,True,C\ Pamplona,3.99,3.58,ok,,medium
+0161054AR,Schinus molle,False,C\ Salvador Espriu,,7.64,no_kerb,,check
+0161055AR,Ulmus pumila,False,C\ Joan Miró,,4.88,no_kerb,37.31,check
+0161056AR,Platanus × acerifolia,True,C\ Ramon Trias Fargas,17.43,15.49,ok,,large
+0161058AR,Tipuana tipu,False,Av Bogatell,,21.69,median,,check
+0161059AR,Jacaranda mimosifolia,False,C\ Marina,19.3,12.23,ok,,large
+0161060AR,Schinus molle,False,C\ Salvador Espriu,,1.61,no_kerb,,check
+0161061AR,Platanus × acerifolia,True,C\ Rosa Sensat,6.02,5.36,ok,,large
+0161062AR,Platanus × acerifolia,True,C\ Doctor Trueta,10.41,9.73,ok,,large
+0161063AR,Platanus × acerifolia,True,C\ Frederic Mompou,7.23,5.31,ok,,large
+0161064AR,Melia azedarach,False,C\ Marina,12.31,6.33,ok,,large
+0161065AR,Platanus × acerifolia,True,C\ Joan Miró,5.78,4.38,ok,,medium
+0161066AR,Platanus × acerifolia,True,C\ Rosa Sensat,13.86,13.23,ok,,large
+0161067AR,Tipuana tipu,False,Av Icària,,37.69,no_facade,39.22,check
+0161068AR,Celtis australis,False,C\ Ramon Trias Fargas,,13.6,median,12.41,check
+0161069AR,Tipuana tipu,False,Av Bogatell,,5.96,no_kerb,,check
+0161070AR,Platanus × acerifolia,True,C\ Àlaba,,15.68,median,,check
+0161071AR,Platanus × acerifolia,True,Parc Carles I,,76.23,no_facade,,check
+0161072AR,Ulmus pumila,False,C\ Joan Miró,,2.16,no_kerb,,check
+0161073AR,Platanus × acerifolia,True,C\ Doctor Trueta,4.67,3.88,ok,,medium
+0161074AR,Platanus × acerifolia,True,C\ Ramon Turró,5.3,4.31,ok,,medium
+0161075AR,Celtis australis,False,Av Icària,6.28,5.09,ok,,large
+0161076AR,Platanus × acerifolia,True,Av Icària,11.72,8.37,ok,,large
+0161077AR,Tipuana tipu,False,C\ Salvador Espriu,,16.3,no_kerb,27.69,check
+0161078AR,Platanus × acerifolia,True,C\ Frederic Mompou,,24.13,median,,check
+0161079AR,Celtis australis,False,C\ Villena,,7.9,no_kerb,,check
+0161080AR,Quercus ilex,False,Av Icària,,15.52,median,13.66,check
+0161081AR,Schinus molle,False,C\ Salvador Espriu,21.61,10.97,ok,,large
+0161082AR,Platanus × acerifolia,True,C\ Joan Miró,5.22,3.53,ok,,medium
+0161083AR,Platanus × acerifolia,True,C\ Llull,12.03,11.31,ok,,large
+0161084AR,Platanus × acerifolia,True,C\ Villena,27.15,4.65,ok,,large
+0161085AR,Platanus × acerifolia,True,C\ Pamplona,,16.71,median,,check
+0161086AR,Melia azedarach,False,C\ Marina,11.56,6.15,ok,,large
+0161087AR,Platanus × acerifolia,True,C\ Ramon Turró,,28.71,median,7.32,check
+0161088AR,Tipuana tipu,False,Av Bogatell,27.43,22.06,ok,,large
+0161089AR,Gleditsia triacanthos f. inermis,False,C\ Ramon Turró,5.19,4.75,ok,,medium
+0161090AR,Gleditsia triacanthos,False,C\ Doctor Trueta,10.09,9.41,ok,,large
+0161091AR,Celtis australis,False,C\ Rosa Sensat,7.41,5.56,ok,,large
+0161092AR,Tipuana tipu,False,C\ Salvador Espriu,,10.48,no_kerb,,check
+0161094AR,Albizia julibrissin,False,Av Icària,4.86,4.53,ok,,medium
+0161095AR,Gleditsia triacanthos 'skyline',False,C\ Marina,,67.02,no_facade,,check
+0161096AR,Platanus × acerifolia,True,C\ Llull,,24.3,no_kerb,,check
+0161097AR,Tipuana tipu,False,C\ Salvador Espriu,,27.12,no_kerb,,check
+0161098AR,Platanus × acerifolia,True,C\ Rosa Sensat,,16.39,median,,check
+0161099AR,Platanus × acerifolia,True,C\ Arquitecte Sert,4.85,4.93,ok,,medium
+0161100AR,Platanus × acerifolia,True,C\ Rosa Sensat,6.19,4.51,ok,,large
+0161101AR,Citrus × aurantium,False,C\ Joan Miró,,23.31,median,0.94,check
+0161102AR,Platanus × acerifolia,True,C\ Jaume Vicens i Vives,8.99,8.1,ok,,large
+0161103AR,Ligustrum lucidum,False,C\ Ramon Turró,8.8,5.58,ok,,large
+0161105AR,Platanus × acerifolia,True,C\ Àlaba,4.86,3.87,ok,,medium
+0161106AR,Platanus × acerifolia,True,C\ Jaume Vicens i Vives,8.97,8.1,ok,,large
+0161107AR,Celtis australis,False,C\ Rosa Sensat,10.19,8.92,ok,,large
+0161108AR,Tipuana tipu,False,C\ Salvador Espriu,,14.78,no_kerb,25.0,check
+0161109AR,Platanus × acerifolia,True,C\ Moscou,11.98,10.85,ok,,large
+0161110AR,Morus alba,False,C\ Marina,,12.35,no_kerb,,check
+0161111AR,Platanus × acerifolia,True,C\ Moscou,11.89,10.87,ok,,large
+0161112AR,Celtis australis,False,C\ Doctor Trueta,5.19,4.05,ok,,medium
+0161113AR,Platanus × acerifolia,True,C\ Ramon Turró,4.69,3.97,ok,,medium
+0161114AR,Platanus × acerifolia,True,Av Icària,7.66,6.72,ok,,large
+0161115AR,Platanus × acerifolia,True,C\ Joan Miró,,15.48,median,6.26,check
+0161116AR,Jacaranda mimosifolia,False,C\ Joan Miró,5.92,5.85,ok,,medium
+0161118AR,Tipuana tipu,False,C\ Salvador Espriu,,16.08,no_kerb,23.34,check
+0161119AR,Platanus × acerifolia,True,C\ Llull,4.46,3.48,ok,,medium
+0161120AR,Platanus × acerifolia,True,C\ Rosa Sensat,6.08,5.44,ok,,large
+0161121AR,Platanus × acerifolia,True,C\ Ramon Turró,4.88,4.12,ok,,medium
+0161122AR,Platanus × acerifolia,True,C\ Llull,,22.78,median,27.78,check
+0161123AR,Platanus × acerifolia,True,Av Icària,7.52,7.01,ok,,large
+0161124AR,Platanus × acerifolia,True,C\ Ramon Turró,8.8,8.63,ok,,large
+0161126AR,Platanus × acerifolia,True,Av Icària,5.05,4.32,ok,,medium
+0161127AR,Tipuana tipu,False,Av Bogatell,,16.78,no_kerb,,check
+0161128AR,Celtis australis,False,C\ Rosa Sensat,5.08,4.55,ok,,medium
+0161129AR,Tipuana tipu,False,C\ Salvador Espriu,27.51,14.78,ok,,large
+0161130AR,Platanus × acerifolia,True,Av Icària,7.31,6.28,ok,,large
+0161131AR,Tipuana tipu,False,C\ Salvador Espriu,,17.88,no_kerb,,check
+0161132AR,Tipuana tipu,False,C\ Moscou,11.19,9.05,ok,,large
+0161134AR,Platanus × acerifolia,True,C\ Arquitecte Sert,4.87,4.74,ok,,medium
+0161135AR,Tipuana tipu,False,Av Bogatell,,28.97,no_kerb,,check
+0161136AR,Tipuana tipu,False,Av Bogatell,,20.33,median,,check
+0161137AR,Celtis australis,False,C\ Ramon Trias Fargas,9.05,8.08,ok,,large
+0161138AR,Platanus × acerifolia,True,C\ Ramon Turró,5.35,4.7,ok,,medium
+0161139AR,Tipuana tipu,False,C\ Salvador Espriu,29.81,13.39,ok,,large
+0161140AR,Celtis australis,False,C\ Doctor Trueta,5.01,4.77,ok,,medium
+0161141AR,Pistacia atlantica,False,C\ Salvador Espriu,,23.47,no_kerb,,check
+0161143AR,Platanus × acerifolia,True,C\ Joan Miró,4.88,3.75,ok,,medium
+0161144AR,Gleditsia triacanthos f. inermis,False,C\ Pamplona,4.86,4.03,ok,,medium
+0161145AR,Tipuana tipu,False,C\ Salvador Espriu,,13.83,no_kerb,,check
+0161146AR,Cupressus sempervirens,False,C\ Marina,19.2,15.5,ok,,large
+0161147AR,Cupressus sempervirens,False,C\ Ramon Trias Fargas,,86.93,no_facade,2.59,check
+0161148AR,Platanus × acerifolia,True,C\ Doctor Trueta,4.77,4.23,ok,,medium
+0161149AR,Platanus × acerifolia,True,C\ Joan Miró,,15.97,median,,check
+0161150AR,Platanus × acerifolia,True,C\ Zamora,4.57,3.75,ok,,medium
+0161151AR,Platanus × acerifolia,True,Av Icària,7.18,3.82,ok,,large
+0161152AR,Platanus × acerifolia,True,C\ Pamplona,7.3,6.27,ok,,large
+0161153AR,Platanus × acerifolia,True,C\ Àlaba,,15.79,median,,check
+0161154AR,Schinus molle,False,C\ Salvador Espriu,,22.63,no_kerb,,check
+0161155AR,Tipuana tipu,False,C\ Salvador Espriu,,24.74,no_kerb,23.65,check
+0161156AR,Celtis australis,False,C\ Salvador Espriu,28.89,7.21,ok,,large
+0161157AR,Celtis australis,False,C\ Salvador Espriu,21.77,17.3,ok,,large
+0161158AR,Platanus × acerifolia,True,C\ Arquitecte Sert,4.91,4.32,ok,,medium
+0161159AR,Platanus × acerifolia,True,C\ Sardenya,5.05,3.08,ok,,medium
+0161160AR,Tipuana tipu,False,C\ Marina,19.3,9.76,ok,,large
+0161161AR,Celtis australis,False,C\ Ramon Turró,9.95,9.06,ok,,large
+0161162AR,Tipuana tipu,False,C\ Salvador Espriu,27.5,17.18,ok,,large
+0161163AR,Tipuana tipu,False,C\ Salvador Espriu,21.8,12.05,ok,,large
+0161164AR,Celtis australis,False,C\ Doctor Trueta,,20.58,median,,check
+0161165AR,Platanus × acerifolia,True,Av Icària,6.02,4.55,ok,,large
+0161166AR,Platanus × acerifolia,True,C\ Wellington,10.45,6.67,ok,,large
+0161167AR,Platanus × acerifolia,True,C\ Doctor Trueta,7.93,6.97,ok,,large
+0161169AR,Brachychiton populneus,False,Pl Tirant lo Blanc,,6.73,no_kerb,,check
+0161170AR,Magnolia grandiflora,False,C\ Salvador Espriu,27.47,22.96,ok,,large
+0161171AR,Platanus × acerifolia,True,C\ Jaume Vicens i Vives,8.95,7.99,ok,,large
+0161172AR,Platanus × acerifolia,True,C\ Doctor Trueta,5.01,4.33,ok,,medium
+0161173AR,Celtis australis,False,C\ Àvila,4.26,3.84,ok,,medium
+0161174AR,Platanus × acerifolia,True,Av Icària,4.98,3.94,ok,,medium
+0161175AR,Platanus × acerifolia,True,C\ Llull,4.95,4.26,ok,,medium
+0161176AR,Platanus × acerifolia,True,C\ Pamplona,5.73,3.43,ok,,medium
+0161178AR,Platanus × acerifolia,True,C\ Arquitecte Sert,9.34,8.64,ok,,large
+0161179AR,Melia azedarach,False,C\ Marina,11.46,6.21,ok,,large
+0161180AR,Platanus × acerifolia,True,C\ Arquitecte Sert,4.88,4.51,ok,,medium
+0161181AR,Celtis australis,False,C\ Ramon Turró,3.7,3.17,ok,,medium
+0161182AR,Platanus × acerifolia,True,Av Icària,5.17,4.12,ok,,medium
+0161183AR,Celtis australis,False,C\ Ramon Turró,8.8,7.68,ok,,large
+0161184AR,Platanus × acerifolia,True,C\ Ramon Turró,4.92,3.49,ok,,medium
+0161186AR,Tipuana tipu,False,C\ Salvador Espriu,,29.33,no_kerb,,check
+0161187AR,Pinus pinea,False,Av Icària,,53.11,no_facade,18.79,check
+0161188AR,Platanus × acerifolia,True,C\ Joan Miró,10.41,9.62,ok,,large
+0161189AR,Morus alba 'Fruitless',False,C\ Marina,,100.85,no_facade,,check
+0161190AR,Tipuana tipu,False,Av Bogatell,,5.93,no_kerb,,check
+0161191AR,Platanus × acerifolia,True,C\ Moscou,11.84,11.37,ok,,large
+0161192AR,Tipuana tipu,False,Av Bogatell,16.07,5.88,ok,,large
+0161193AR,Platanus × acerifolia,True,C\ Ramon Turró,,15.77,median,,check
+0161194AR,Citrus × aurantium,False,C\ Joan Miró,,19.45,median,9.56,check
+0161195AR,Platanus × acerifolia,True,C\ Àvila,4.95,4.2,ok,,medium
+0161196AR,Schinus molle,False,C\ Salvador Espriu,27.39,14.02,ok,,large
+0161197AR,Tipuana tipu,False,Av Bogatell,20.61,18.45,ok,,large
+0161198AR,Platanus × acerifolia,True,Parc Carles I,,63.72,no_facade,40.1,check
+0161199AR,Platanus × acerifolia,True,C\ Llull,4.3,3.42,ok,,medium
+0161200AR,Brachychiton populneus,False,Pl Tirant lo Blanc,,6.47,no_kerb,,check
+0161201AR,Celtis australis,False,C\ Ramon Turró,8.67,9.03,ok,,large
+0161202AR,Platanus × acerifolia,True,Av Icària,4.97,4.46,ok,,medium
+0161203AR,Prunus cerasifera 'Pissardii',False,C\ Moscou,12.07,6.89,ok,,large
+0161204AR,Platanus × acerifolia,True,C\ Marina,,59.97,no_facade,,check
+0161205AR,Citrus × aurantium,False,C\ Marina,,24.46,median,,check
+0161206AR,Platanus × acerifolia,True,C\ Arquitecte Sert,9.28,8.78,ok,,large
+0161207AR,Quercus ilex,False,Av Icària,,21.15,median,13.63,check
+0161208AR,Platanus × acerifolia,True,C\ Àlaba,11.79,9.77,ok,,large
+0161209AR,Schinus molle,False,C\ Salvador Espriu,,10.33,no_kerb,,check
+0161210AR,Platanus × acerifolia,True,C\ Joan Miró,10.39,10.04,ok,,large
+0161211AR,Tipuana tipu,False,Av Bogatell,,21.75,no_kerb,,check
+0161212AR,Celtis australis,False,C\ Ramon Turró,3.7,3.2,ok,,medium
+0161213AR,Platanus × acerifolia,True,C\ Sardenya,17.07,15.76,ok,,large
+0161214AR,Platanus × acerifolia,True,C\ Jaume Vicens i Vives,8.95,7.97,ok,,large
+0161215AR,Cupressus sempervirens,False,C\ Marina,19.3,16.96,ok,,large
+0161216AR,Gleditsia triacanthos 'skyline',False,C\ Doctor Trueta,4.55,3.86,ok,,medium
+0161217AR,Platanus × acerifolia,True,C\ Jaume Vicens i Vives,11.61,10.66,ok,,large
+0161218AR,Platanus × acerifolia,True,C\ Ramon Turró,8.8,8.3,ok,,large
+0161219AR,Tipuana tipu,False,Av Bogatell,,12.12,no_kerb,28.8,check
+0161221AR,Celtis australis,False,C\ Pamplona,4.9,4.11,ok,,medium
+0161222AR,Platanus × acerifolia,True,C\ Ramon Turró,,15.79,median,,check
+0161223AR,Melia azedarach,False,C\ Marina,10.78,3.93,ok,,large
+0161224AR,Tipuana tipu,False,C\ Salvador Espriu,30.0,15.07,ok,,large
+0161225AR,Platanus × acerifolia,True,C\ Ramon Turró,5.06,3.4,ok,,medium
+0161226AR,Tipuana tipu,False,C\ Salvador Espriu,,17.86,no_kerb,,check
+0161227AR,Platanus × acerifolia,True,Av Icària,5.02,4.62,ok,,medium
+0161228AR,Schinus molle,False,C\ Salvador Espriu,,3.56,no_kerb,,check
+0161229AR,Platanus × acerifolia,True,C\ Ramon Turró,9.08,8.68,ok,,large
+0161230AR,Platanus × acerifolia,True,C\ Jaume Vicens i Vives,8.97,8.06,ok,,large
+0161231AR,Platanus × acerifolia,True,C\ Ramon Turró,10.09,9.62,ok,,large
+0161232AR,Celtis australis,False,C\ Sardenya,5.0,3.61,ok,,medium
+0161233AR,Platanus × acerifolia,True,C\ Joan Miró,13.04,8.54,ok,,large
+0161234AR,Platanus × acerifolia,True,C\ Joan Miró,4.44,4.48,ok,,medium
+0161235AR,Celtis australis,False,C\ Rosa Sensat,5.05,3.67,ok,,medium
+0161236AR,Platanus × acerifolia,True,C\ Ramon Turró,4.29,3.78,ok,,medium
+0161237AR,Tipuana tipu,False,C\ Salvador Espriu,23.78,10.81,ok,,large
+0161238AR,Platanus × acerifolia,True,C\ Joan d'Àustria,5.24,3.7,ok,,medium
+0161239AR,Gleditsia triacanthos f. inermis,False,C\ Pamplona,4.86,4.22,ok,,medium
+0161240AR,Celtis australis,False,C\ Salvador Espriu,,44.49,no_facade,,check
+0161241AR,Morus alba 'Fruitless',False,C\ Marina,,43.95,no_facade,,check
+0161242AR,Platanus × acerifolia,True,C\ Ramon Turró,4.84,3.83,ok,,medium
+0161243AR,Tipuana tipu,False,C\ Salvador Espriu,,28.53,no_kerb,,check
+0161244AR,Platanus × acerifolia,True,C\ Arquitecte Sert,9.29,8.76,ok,,large
+0161245AR,Platanus × acerifolia,True,C\ Zamora,,16.34,median,5.38,check
+0161246AR,Gleditsia triacanthos 'sunburst',False,C\ Pamplona,4.8,3.94,ok,,medium
+0161247AR,Cupressus sempervirens,False,C\ Marina,19.36,11.67,ok,,large
+0161248AR,Celtis australis,False,C\ Salvador Espriu,27.43,25.61,ok,,large
+0161249AR,Magnolia grandiflora,False,C\ Salvador Espriu,22.79,18.94,ok,,large
+0161250AR,Platanus × acerifolia,True,C\ Wellington,13.9,8.49,ok,,large
+0161251AR,Platanus × acerifolia,True,C\ Moscou,11.99,6.98,ok,,large
+0161252AR,Platanus × acerifolia,True,Av Icària,16.93,15.94,ok,,large
+0161253AR,Celtis australis,False,C\ Salvador Espriu,,40.13,no_facade,,check
+0161254AR,Tipuana tipu,False,Av Bogatell,,18.04,no_kerb,,check
+0161255AR,Tipuana tipu,False,Av Bogatell,,5.84,no_kerb,,check
+0161256AR,Tipuana tipu,False,Av Bogatell,24.31,18.83,ok,,large
+0161257AR,Platanus × acerifolia,True,C\ Joan Miró,,9.53,no_kerb,,check
+0161258AR,Platanus × acerifolia,True,C\ Rosa Sensat,,13.36,no_kerb,,check
+0161260AR,Ligustrum lucidum,False,C\ Ramon Turró,8.8,5.47,ok,,large
+0161261AR,Platanus × acerifolia,True,C\ Ramon Turró,5.47,4.84,ok,,medium
+0161263AR,Platanus × acerifolia,True,C\ Àlaba,,15.4,median,5.34,check
+0161264AR,Platanus × acerifolia,True,C\ Jaume Vicens i Vives,8.94,8.13,ok,,large
+0161265AR,Pistacia atlantica,False,C\ Salvador Espriu,,17.19,no_kerb,,check
+0161266AR,Tipuana tipu,False,C\ Joan Oliver,,19.75,no_kerb,,check
+0161267AR,Platanus × acerifolia,True,C\ Ramon Trias Fargas,8.98,7.64,ok,,large
+0161269AR,Tamarix gallica,False,Pg Marítim de Nova Icària,,74.53,no_facade,16.68,check
+0161270AR,Platanus × acerifolia,True,C\ Àlaba,4.94,4.22,ok,,medium
+0161272AR,Morus alba,False,C\ Marina,,127.29,no_facade,,check
+0161273AR,Gleditsia triacanthos 'skyline',False,C\ Doctor Trueta,4.88,3.97,ok,,medium
+0161274AR,Tipuana tipu,False,C\ Salvador Espriu,,12.94,no_kerb,,check
+0161275AR,Tipuana tipu,False,Av Bogatell,,6.06,no_kerb,,check
+0161277AR,Citrus × aurantium,False,C\ Marina,,19.72,median,14.89,check
+0161278AR,Platanus × acerifolia,True,C\ Wellington,9.83,4.31,ok,,large
+0161279AR,Quercus ilex,False,Av Icària,,15.96,median,13.64,check
+0161280AR,Pistacia atlantica,False,C\ Salvador Espriu,,16.82,no_kerb,,check
+0161281AR,Tipuana tipu,False,C\ Salvador Espriu,,30.19,no_facade,,check
+0161282AR,Platanus × acerifolia,True,Av Icària,5.14,4.32,ok,,medium
+0161283AR,Melia azedarach,False,C\ Marina,12.76,6.48,ok,,large
+0161284AR,Platanus × acerifolia,True,C\ Ramon Trias Fargas,,51.26,no_facade,,check
+0161286AR,Celtis australis,False,C\ Ramon Turró,17.9,16.59,ok,,large
+0161287AR,Tipuana tipu,False,C\ Salvador Espriu,,23.66,no_kerb,25.03,check
+0161289AR,Schinus molle,False,C\ Salvador Espriu,27.38,17.84,ok,,large
+0161290AR,Platanus × acerifolia,True,Av Icària,17.55,8.64,ok,,large
+0161291AR,Celtis australis,False,C\ Salvador Espriu,21.54,17.24,ok,,large
+0161293AR,Tipuana tipu,False,C\ Salvador Espriu,,19.19,no_kerb,,check
+0161294AR,Tipuana tipu,False,C\ Marina,19.2,13.27,ok,,large
+0161295AR,Celtis australis,False,C\ Joan Miró,26.18,4.72,ok,,large
+0161296AR,Platanus × acerifolia,True,Av Icària,5.16,4.05,ok,,medium
+0161297AR,Platanus × acerifolia,True,C\ Doctor Trueta,4.47,3.97,ok,,medium
+0161298AR,Platanus × acerifolia,True,C\ Doctor Trueta,21.94,19.17,ok,,large
+0161299AR,Platanus × acerifolia,True,C\ Doctor Trueta,12.94,11.32,ok,,large
+0161301AR,Platanus × acerifolia,True,C\ Llull,4.87,4.24,ok,,medium
+0161302AR,Tipuana tipu,False,C\ Marina,18.16,6.24,ok,,large
+0161303AR,Tipuana tipu,False,Av Bogatell,,23.44,median,,check
+0161305AR,Tipuana tipu,False,C\ Salvador Espriu,,21.76,no_kerb,,check
+0161306AR,Platanus × acerifolia,True,C\ Ramon Turró,4.89,3.9,ok,,medium
+0161307AR,Schinus molle,False,C\ Salvador Espriu,,25.71,no_kerb,,check
+0161308AR,Platanus × acerifolia,True,C\ Joan Miró,20.77,8.72,ok,,large
+0161310AR,Tipuana tipu,False,Av Bogatell,,23.74,no_kerb,,check
+0161311AR,Tamarix gallica,False,Pg Marítim de Nova Icària,,61.97,no_facade,16.39,check
+0161312AR,Platanus × acerifolia,True,C\ Moscou,11.88,11.61,ok,,large
+0161313AR,Platanus × acerifolia,True,C\ Àlaba,4.93,4.38,ok,,medium
+0161314AR,Citrus × aurantium,False,C\ Marina,,14.73,median,17.61,check
+0161315AR,Platanus × acerifolia,True,C\ Doctor Trueta,5.46,4.79,ok,,medium
+0161316AR,Celtis australis,False,C\ Àlaba,,15.71,median,5.34,check
+0161317AR,Brachychiton populneus,False,C\ Jaume Vicens i Vives,8.97,3.71,ok,,large
+0161318AR,Platanus × acerifolia,True,C\ Sardenya,4.89,5.23,ok,,medium
+0161319AR,Platanus × acerifolia,True,C\ Llull,,23.39,median,,check
+0161321AR,Platanus × acerifolia,True,C\ Doctor Trueta,7.34,6.52,ok,,large
+0161323AR,Celtis australis,False,C\ Jaume Vicens i Vives,8.89,7.87,ok,,large
+0161324AR,Platanus × acerifolia,True,C\ Doctor Trueta,,35.81,no_facade,6.21,check
+0161325AR,Melia azedarach,False,C\ Marina,11.55,6.02,ok,,large
+0161327AR,Platanus × acerifolia,True,C\ Ramon Trias Fargas,8.96,7.93,ok,,large
+0161328AR,Gleditsia triacanthos f. inermis,False,C\ Doctor Trueta,4.96,3.65,ok,,medium
+0161329AR,Platanus × acerifolia,True,C\ Joan Miró,,14.83,no_kerb,,check
+0161330AR,Tipuana tipu,False,Av Bogatell,,7.07,no_kerb,,check
+0161331AR,Platanus × acerifolia,True,C\ Ramon Trias Fargas,,39.72,no_facade,,check
+0161332AR,Magnolia grandiflora,False,C\ Salvador Espriu,29.8,23.24,ok,,large
+0161333AR,Celtis australis,False,C\ Ramon Turró,9.14,8.74,ok,,large
+0161334AR,Schinus molle,False,Av Litoral,,8.63,no_kerb,,check
+0161335AR,Quercus ilex,False,Av Icària,,14.87,median,13.62,check
+0161336AR,Tipuana tipu,False,C\ Joan Oliver,,14.44,no_kerb,,check
+0161338AR,Tipuana tipu,False,Av Bogatell,26.63,19.83,ok,,large
+0161339AR,Platanus × acerifolia,True,C\ Joan Miró,5.87,4.78,ok,,medium
+0161340AR,Platanus × acerifolia,True,C\ Ramon Turró,4.99,4.26,ok,,medium
+0161341AR,Platanus × acerifolia,True,C\ Arquitecte Sert,9.04,7.94,ok,,large
+0161342AR,Platanus × acerifolia,True,Av Icària,5.97,4.99,ok,,medium
+0161343AR,Tipuana tipu,False,C\ Joan Oliver,,15.98,no_kerb,,check
+0161344AR,Platanus × acerifolia,True,C\ Llull,4.92,4.38,ok,,medium
+0161345AR,Citrus × aurantium,False,C\ Marina,,15.81,median,5.66,check
+0161346AR,Platanus × acerifolia,True,C\ Frederic Mompou,27.22,26.71,ok,,large
+0161347AR,Platanus × acerifolia,True,C\ Doctor Trueta,10.11,9.3,ok,,large
+0161348AR,Platanus × acerifolia,True,C\ Pamplona,,16.75,median,,check
+0161349AR,Platanus × acerifolia,True,C\ Ramon Turró,4.95,4.27,ok,,medium
+0161350AR,Platanus × acerifolia,True,C\ Joan Miró,,7.4,no_kerb,,check
+0161351AR,Platanus × acerifolia,True,C\ Rosa Sensat,15.91,14.4,ok,,large
+0161352AR,Platanus × acerifolia,True,C\ Ramon Trias Fargas,10.99,10.31,ok,,large
+0161353AR,Celtis australis,False,C\ Salvador Espriu,28.08,23.34,ok,,large
+0161354AR,Platanus × acerifolia,True,C\ Doctor Trueta,5.11,4.19,ok,,medium
+0161355AR,Tipuana tipu,False,Av Bogatell,,28.98,no_kerb,,check
+0161356AR,Platanus × acerifolia,True,C\ Llull,7.26,6.67,ok,,large
+0161357AR,Platanus × acerifolia,True,C\ Moscou,12.05,10.86,ok,,large
+0161358AR,Morus alba,False,C\ Marina,,37.05,no_facade,,check
+0161360AR,Platanus × acerifolia,True,C\ Llull,6.48,5.6,ok,,large
+0161361AR,Celtis australis,False,Av Icària,5.2,4.53,ok,,medium
+0161362AR,Platanus × acerifolia,True,C\ Doctor Trueta,4.81,3.86,ok,,medium
+0161363AR,Celtis australis,False,C\ Villena,,3.25,no_kerb,43.51,check
+0161364AR,Celtis australis,False,C\ Ramon Trias Fargas,8.14,7.35,ok,,large
+0161366AR,Platanus × acerifolia,True,C\ Àvila,4.98,4.22,ok,,medium
+0161367AR,Tipuana tipu,False,Av Bogatell,,11.85,no_kerb,,check
+0161368AR,Platanus × acerifolia,True,C\ Frederic Mompou,9.57,8.2,ok,,large
+0161369AR,Platanus × acerifolia,True,C\ Doctor Trueta,4.68,3.33,ok,,medium
+0161370AR,Cupressus sempervirens,False,C\ Marina,19.3,16.9,ok,,large
+0161371AR,Citrus × aurantium,False,C\ Joan Miró,,19.26,median,8.23,check
+0161372AR,Platanus × acerifolia,True,C\ Wellington,10.3,4.18,ok,,large
+0161373AR,Platanus × acerifolia,True,C\ Moscou,11.97,11.58,ok,,large
+0161374AR,Platanus × acerifolia,True,C\ Ramon Turró,,15.08,median,,check
+0161375AR,Celtis australis,False,C\ Salvador Espriu,,34.93,no_facade,,check
+0161376AR,Platanus × acerifolia,True,C\ Ramon Trias Fargas,4.88,4.25,ok,,medium
+0161377AR,Melia azedarach,False,C\ Marina,12.2,5.54,ok,,large
+0161378AR,Celtis australis,False,C\ Àlaba,4.99,4.38,ok,,medium
+0161379AR,Platanus × acerifolia,True,C\ Joan Miró,4.88,3.94,ok,,medium
+0161380AR,Platanus × acerifolia,True,C\ Ramon Trias Fargas,,55.99,no_facade,,check
+0161381AR,Platanus × acerifolia,True,C\ Rosa Sensat,4.89,3.99,ok,,medium
+0161382AR,Platanus × acerifolia,True,C\ Arquitecte Sert,4.87,4.67,ok,,medium
+0161384AR,Platanus × acerifolia,True,C\ Sardenya,4.82,4.95,ok,,medium
+0161385AR,Platanus × acerifolia,True,C\ Llull,4.43,3.68,ok,,medium
+0161386AR,Platanus × acerifolia,True,C\ Doctor Trueta,6.35,5.26,ok,,large
+0161387AR,Platanus × acerifolia,True,Av Icària,7.67,7.06,ok,,large
+0161388AR,Citrus × aurantium,False,C\ Doctor Trueta,,16.74,median,,check
+0161389AR,Platanus × acerifolia,True,C\ Frederic Mompou,17.58,16.48,ok,,large
+0161391AR,Celtis australis,False,C\ Salvador Espriu,,35.62,no_facade,,check
+0161392AR,Celtis australis,False,C\ Salvador Espriu,29.42,24.88,ok,,large
+0161393AR,Schinus molle,False,C\ Salvador Espriu,,14.9,no_kerb,,check
+0161394AR,Tipuana tipu,False,C\ Salvador Espriu,,16.04,no_kerb,25.22,check
+0161395AR,Pinus pinea,False,Av Icària,,36.17,no_facade,23.51,check
+0161396AR,Platanus × acerifolia,True,C\ Rosa Sensat,10.88,9.55,ok,,large
+0161397AR,Citrus × aurantium,False,C\ Marina,,19.56,median,16.55,check
+0161398AR,Platanus × acerifolia,True,C\ Frederic Mompou,,7.09,no_kerb,,check
+0161399AR,Jacaranda mimosifolia,False,C\ Marina,19.3,10.43,ok,,large
+0161400AR,Morus alba 'Fruitless',False,C\ Marina,,108.5,no_facade,,check
+0161401AR,Cupressus sempervirens,False,C\ Marina,19.3,17.02,ok,,large
+0161402AR,Platanus × acerifolia,True,C\ Ramon Trias Fargas,8.98,7.5,ok,,large
+0161403AR,Celtis australis,False,C\ Llull,,35.78,no_facade,,check
+0161405AR,Tipuana tipu,False,Av Bogatell,,5.29,no_kerb,,check
+0161407AR,Morus alba,False,C\ Marina,21.15,13.65,ok,,large
+0161408AR,Platanus × acerifolia,True,C\ Joan Miró,5.96,4.87,ok,,medium
+0161409AR,Tipuana tipu,False,Av Bogatell,,5.86,no_kerb,,check
+0161410AR,Celtis australis,False,Av Icària,5.15,3.97,ok,,medium
+0161411AR,Pistacia atlantica,False,C\ Joan Oliver,,25.33,no_kerb,,check
+0161412AR,Platanus × acerifolia,True,C\ Frederic Mompou,26.68,26.23,ok,,large
+0161413AR,Platanus × acerifolia,True,C\ Àlaba,10.16,9.05,ok,,large
+0161414AR,Morus alba 'Fruitless',False,C\ Marina,,54.6,no_facade,30.5,check
+0161415AR,Melia azedarach,False,C\ Marina,11.56,6.04,ok,,large
+0161416AR,Celtis australis,False,C\ Rosa Sensat,5.14,3.9,ok,,medium
+0161417AR,Platanus × acerifolia,True,C\ Ramon Trias Fargas,9.01,7.87,ok,,large
+0161419AR,Platanus × acerifolia,True,C\ Rosa Sensat,11.58,10.45,ok,,large
+0161421AR,Tipuana tipu,False,C\ Salvador Espriu,,26.19,no_kerb,,check
+0161422AR,Tipuana tipu,False,C\ Salvador Espriu,,20.18,no_kerb,,check
+0161423AR,Platanus × acerifolia,True,C\ Joan Miró,5.91,5.82,ok,,medium
+0161424AR,Platanus × acerifolia,True,C\ Àlaba,4.92,4.34,ok,,medium
+0161425AR,Platanus × acerifolia,True,C\ Doctor Trueta,,23.33,median,5.31,check
+0161426AR,Platanus × acerifolia,True,C\ Frederic Mompou,15.04,13.95,ok,,large
+0161428AR,Pinus pinea,False,Av Icària,,19.35,median,16.04,check
+0161429AR,Citrus × aurantium,False,C\ Doctor Trueta,,25.88,median,27.56,check
+0161430AR,Platanus × acerifolia,True,C\ Ramon Turró,4.99,3.75,ok,,medium
+0161431AR,Melia azedarach,False,C\ Marina,12.49,5.97,ok,,large
+0161432AR,Gleditsia triacanthos f. inermis,False,C\ Pamplona,5.05,4.48,ok,,medium
+0161434AR,Jacaranda mimosifolia,False,C\ Joan Miró,4.23,3.86,ok,,medium
+0161435AR,Platanus × acerifolia,True,C\ Doctor Trueta,,20.45,median,,check
+0161436AR,Platanus × acerifolia,True,C\ Ramon Turró,5.64,4.79,ok,,medium
+0161437AR,Platanus × acerifolia,True,C\ Doctor Trueta,,19.68,median,,check
+0161438AR,Celtis australis,False,C\ Llull,,17.48,median,,check
+0161439AR,Platanus × acerifolia,True,C\ Ramon Turró,4.92,4.52,ok,,medium
+0161441AR,Platanus × acerifolia,True,C\ Wellington,8.83,3.97,ok,,large
+0161442AR,Platanus × acerifolia,True,C\ Frederic Mompou,14.59,12.93,ok,,large
+0161443AR,Platanus × acerifolia,True,C\ Doctor Trueta,4.47,4.02,ok,,medium
+0161444AR,Celtis australis,False,C\ Salvador Espriu,27.31,22.9,ok,,large
+0161445AR,Platanus × acerifolia,True,C\ Doctor Trueta,4.74,4.13,ok,,medium
+0161446AR,Platanus × acerifolia,True,C\ Arquitecte Sert,4.89,4.66,ok,,medium
+0161447AR,Schinus molle,False,C\ Marina,21.44,7.41,ok,,large
+0161448AR,Platanus × acerifolia,True,C\ Joan Miró,6.01,4.18,ok,,large
+0161450AR,Platanus × acerifolia,True,C\ Rosa Sensat,10.36,9.16,ok,,large
+0161451AR,Platanus × acerifolia,True,C\ Moscou,11.9,11.51,ok,,large
+0161452AR,Platanus × acerifolia,True,Av Icària,4.93,4.58,ok,,medium
+0161454AR,Tipuana tipu,False,C\ Salvador Espriu,,35.24,no_facade,,check
+0161455AR,Platanus × acerifolia,True,Av Icària,5.63,4.92,ok,,medium
+0161456AR,Platanus × acerifolia,True,C\ Ramon Turró,,11.48,median,,check
+0161457AR,Celtis australis,False,C\ Ramon Turró,4.77,4.23,ok,,medium
+0161458AR,Gleditsia triacanthos 'skyline',False,C\ Doctor Trueta,4.92,3.65,ok,,medium
+0161459AR,Platanus × acerifolia,True,C\ Joan Miró,5.85,5.89,ok,,medium
+0161460AR,Schinus molle,False,C\ Marina,19.3,9.55,ok,,large
+0161462AR,Pinus pinea,False,Av Icària,,45.89,no_facade,29.32,check
+0161463AR,Celtis australis,False,C\ Ramon Turró,4.57,3.9,ok,,medium
+0161465AR,Citrus × aurantium,False,C\ Doctor Trueta,,14.91,median,1.0,check
+0161467AR,Celtis australis,False,C\ Àlaba,4.95,3.81,ok,,medium
+0161468AR,Platanus × acerifolia,True,Av Icària,5.0,4.39,ok,,medium
+0161469AR,Cupressus sempervirens,False,C\ Marina,19.2,15.77,ok,,large
+0161470AR,Platanus × acerifolia,True,C\ Arquitecte Sert,9.23,8.02,ok,,large
+0161471AR,Platanus × acerifolia,True,C\ Rosa Sensat,5.95,5.45,ok,,medium
+0161473AR,Platanus × acerifolia,True,C\ Doctor Trueta,6.47,5.58,ok,,large
+0161474AR,Platanus × acerifolia,True,C\ Doctor Trueta,4.82,4.1,ok,,medium
+0161475AR,Platanus × acerifolia,True,C\ Llull,6.92,6.02,ok,,large
+0161476AR,Albizia julibrissin,False,Av Icària,4.87,4.03,ok,,medium
+0161477AR,Platanus × acerifolia,True,C\ Doctor Trueta,4.88,3.91,ok,,medium
+0161478AR,Platanus × acerifolia,True,C\ Ramon Trias Fargas,12.5,6.66,ok,,large
+0161479AR,Platanus × acerifolia,True,C\ Joan Miró,4.29,4.17,ok,,medium
+0161480AR,Tipuana tipu,False,C\ Salvador Espriu,,11.67,no_kerb,,check
+0161481AR,Platanus × acerifolia,True,Av Icària,5.18,4.64,ok,,medium
+0161482AR,Pinus pinea,False,Av Icària,,23.18,median,,check
+0161483AR,Tipuana tipu,False,C\ Marina,22.66,10.35,ok,,large
+0161484AR,Platanus × acerifolia,True,C\ Arquitecte Sert,9.17,7.88,ok,,large
+0161485AR,Platanus × acerifolia,True,C\ Wellington,8.94,4.15,ok,,large
+0161486AR,Platanus × acerifolia,True,C\ Ramon Turró,,15.45,median,,check
+0161487AR,Celtis australis,False,Av Icària,5.52,2.77,ok,,medium
+0161488AR,Platanus × acerifolia,True,C\ Llull,5.06,3.83,ok,,medium
+0161489AR,Celtis australis,False,C\ Rosa Sensat,5.06,4.2,ok,,medium
+0161490AR,Celtis australis,False,C\ Rosa Sensat,,26.42,no_kerb,,check
+0161491AR,Celtis australis,False,C\ Llull,,24.33,no_kerb,,check
+0161492AR,Platanus × acerifolia,True,C\ Ramon Turró,5.13,3.87,ok,,medium
+0161493AR,Pistacia atlantica,False,C\ Salvador Espriu,,38.08,no_facade,39.1,check
+0161494AR,Platanus × acerifolia,True,C\ Moscou,9.54,7.75,ok,,large
+0161495AR,Celtis australis,False,C\ Ramon Turró,5.0,4.02,ok,,medium
+0161496AR,Brachychiton populneus,False,C\ Jaume Vicens i Vives,8.99,3.46,ok,,large
+0161498AR,Pistacia atlantica,False,C\ Salvador Espriu,,26.56,no_kerb,,check
+0161499AR,Platanus × acerifolia,True,C\ Arquitecte Sert,9.09,7.68,ok,,large
+0161500AR,Citrus × aurantium,False,C\ Doctor Trueta,,22.05,median,23.4,check
+0161501AR,Platanus × acerifolia,True,C\ Ramon Turró,4.9,3.88,ok,,medium
+0161503AR,Platanus × acerifolia,True,C\ Jaume Vicens i Vives,16.22,15.14,ok,,large
+0161504AR,Platanus × acerifolia,True,Av Icària,5.11,4.46,ok,,medium
+0161507AR,Platanus × acerifolia,True,C\ Joan Miró,,15.18,median,,check
+0161508AR,Tipuana tipu,False,C\ Salvador Espriu,21.58,8.76,ok,,large
+0161510AR,Celtis australis,False,C\ Llull,,32.04,no_facade,,check
+0161511AR,Pinus pinea,False,Av Icària,,48.39,no_facade,12.72,check
+0161512AR,Celtis australis,False,C\ Doctor Trueta,11.56,10.24,ok,,large
+0161513AR,Pistacia atlantica,False,C\ Salvador Espriu,,30.83,no_facade,,check
+0161514AR,Platanus × acerifolia,True,C\ Joan Oliver,,15.19,no_kerb,5.2,check
+0161515AR,Tipuana tipu,False,Av Bogatell,,7.43,no_kerb,,check
+0161517AR,Platanus × acerifolia,True,C\ Frederic Mompou,,18.4,no_kerb,,check
+0161518AR,Platanus × acerifolia,True,C\ Ramon Turró,4.65,4.19,ok,,medium
+0161519AR,Tipuana tipu,False,Av Bogatell,,17.41,no_kerb,,check
+0161520AR,Tipuana tipu,False,C\ Marina,19.2,11.69,ok,,large
+0161521AR,Celtis australis,False,C\ Salvador Espriu,25.96,8.13,ok,,large
+0161523AR,Quercus ilex,False,Av Icària,,12.59,median,13.69,check
+0161525AR,Tipuana tipu,False,C\ Salvador Espriu,27.32,15.57,ok,,large
+0161526AR,Celtis australis,False,C\ Rosa Sensat,5.16,4.03,ok,,medium
+0161527AR,Schinus molle,False,C\ Salvador Espriu,,20.32,no_kerb,,check
+0161528AR,Tipuana tipu,False,Av Bogatell,27.05,21.15,ok,,large
+0161529AR,Platanus × acerifolia,True,C\ Moscou,11.89,11.19,ok,,large
+0161531AR,Platanus × acerifolia,True,C\ Ramon Turró,4.89,4.4,ok,,medium
+0161532AR,Platanus × acerifolia,True,C\ Ramon Trias Fargas,4.88,4.37,ok,,medium
+0161533AR,Platanus × acerifolia,True,C\ Àlaba,4.55,4.04,ok,,medium
+0161534AR,Melia azedarach,False,C\ Marina,11.56,6.18,ok,,large
+0161535AR,Tipuana tipu,False,C\ Salvador Espriu,21.71,7.59,ok,,large
+0161536AR,Ulmus pumila,False,C\ Marina,,24.83,median,,check
+0161537AR,Tipuana tipu,False,C\ Salvador Espriu,21.39,9.64,ok,,large
+0161539AR,Platanus × acerifolia,True,C\ Arquitecte Sert,9.23,8.09,ok,,large
+0161541AR,Tipuana tipu,False,C\ Salvador Espriu,,15.72,no_kerb,36.92,check
+0161542AR,Schinus molle,False,C\ Marina,21.16,3.26,ok,,large
+0161543AR,Platanus × acerifolia,True,C\ Rosa Sensat,6.03,5.13,ok,,large
+0161544AR,Platanus × acerifolia,True,C\ Moscou,13.45,12.77,ok,,large
+0161545AR,Platanus × acerifolia,True,Av Icària,5.16,4.04,ok,,medium
+0161546AR,Platanus × acerifolia,True,C\ Joan Miró,,15.22,median,,check
+0161547AR,Platanus × acerifolia,True,C\ Joan Miró,4.98,3.71,ok,,medium
+0161548AR,Quercus ilex,False,Av Icària,,13.29,median,13.61,check
+0161549AR,Platanus × acerifolia,True,C\ Doctor Trueta,4.9,3.62,ok,,medium
+0161550AR,Cupressus sempervirens,False,C\ Marina,21.66,17.13,ok,,large
+0161551AR,Platanus × acerifolia,True,C\ Joan Miró,4.46,3.9,ok,,medium
+0161552AR,Celtis australis,False,C\ Doctor Trueta,5.32,4.34,ok,,medium
+0161553AR,Celtis australis,False,C\ Salvador Espriu,,7.46,no_kerb,,check
+0161554AR,Tipuana tipu,False,C\ Salvador Espriu,,35.42,no_facade,,check
+0161555AR,Platanus × acerifolia,True,C\ Moscou,17.84,15.8,ok,,large
+0161556AR,Celtis australis,False,C\ Villena,8.64,7.96,ok,,large
+0161557AR,Celtis australis,False,C\ Ramon Turró,4.9,4.35,ok,,medium
+0161558AR,Platanus × acerifolia,True,C\ Frederic Mompou,5.1,3.71,ok,,medium
+0161559AR,Platanus × acerifolia,True,Av Icària,7.16,4.52,ok,,large
+0161561AR,Celtis australis,False,C\ Salvador Espriu,29.77,23.07,ok,,large
+0161562AR,Brachychiton populneus,False,C\ Jaume Vicens i Vives,8.98,3.64,ok,,large
+0161564AR,Platanus × acerifolia,True,Av Icària,,102.17,no_facade,,check
+0161565AR,Platanus × acerifolia,True,C\ Ramon Trias Fargas,10.74,9.77,ok,,large
+0161566AR,Platanus × acerifolia,True,C\ Joan d'Àustria,5.19,4.94,ok,,medium
+0161567AR,Tipuana tipu,False,C\ Salvador Espriu,,27.86,no_kerb,,check
+0161569AR,Platanus × acerifolia,True,C\ Joan Miró,4.86,3.79,ok,,medium
+0161570AR,Melia azedarach,False,C\ Marina,14.04,6.25,ok,,large
+0161572AR,Platanus × acerifolia,True,C\ Àlaba,4.64,4.23,ok,,medium
+0161573AR,Gleditsia triacanthos 'skyline',False,C\ Doctor Trueta,5.06,3.77,ok,,medium
+0161574AR,Platanus × acerifolia,True,C\ Joan Miró,5.85,5.62,ok,,medium
+0161575AR,Tipuana tipu,False,C\ Salvador Espriu,,23.9,no_kerb,,check
+0161576AR,Celtis australis,False,C\ Sardenya,9.57,5.95,ok,,large
+0161577AR,Brachychiton populneus,False,C\ Jaume Vicens i Vives,8.96,3.8,ok,,large
+0161579AR,Platanus × acerifolia,True,C\ Joan Miró,5.01,3.69,ok,,medium
+0161580AR,Citrus × aurantium,False,C\ Marina,,19.23,median,0.72,check
+0161581AR,Tipuana tipu,False,Av Bogatell,,28.74,median,,check
+0161582AR,Platanus × acerifolia,True,C\ Llull,5.11,3.62,ok,,medium
+0161583AR,Tipuana tipu,False,Av Bogatell,,22.35,no_kerb,,check
+0161584AR,Pinus pinea,False,Av Icària,,30.27,no_facade,17.85,check
+0161585AR,Platanus × acerifolia,True,C\ Doctor Trueta,,16.35,median,5.93,check
+0161587AR,Tipuana tipu,False,C\ Marina,19.2,7.03,ok,,large
+0161588AR,Pinus pinea,False,Av Icària,,28.53,median,14.4,check
+0161589AR,Platanus × acerifolia,True,C\ Rosa Sensat,6.04,4.91,ok,,large
+0161590AR,Schinus molle,False,C\ Salvador Espriu,27.5,17.89,ok,,large
+0161591AR,Tipuana tipu,False,Av Bogatell,,17.77,no_kerb,,check
+0161592AR,Celtis australis,False,C\ Salvador Espriu,27.35,22.87,ok,,large
+0161593AR,Tipuana tipu,False,C\ Marina,19.3,14.39,ok,,large
+0161595AR,Tipuana tipu,False,C\ Marina,19.3,8.46,ok,,large
+0161596AR,Platanus × acerifolia,True,C\ Pamplona,,16.46,median,5.64,check
+0161598AR,Gleditsia triacanthos 'skyline',False,C\ Doctor Trueta,4.47,3.72,ok,,medium
+0161599AR,Celtis australis,False,C\ Salvador Espriu,23.99,11.19,ok,,large
+0161600AR,Platanus × acerifolia,True,C\ Arquitecte Sert,9.05,7.67,ok,,large
+0161601AR,Platanus × acerifolia,True,C\ Ramon Trias Fargas,4.72,4.08,ok,,medium
+0161605AR,Cupressus sempervirens,False,C\ Marina,19.3,16.78,ok,,large
+0161606AR,Platanus × acerifolia,True,C\ Ramon Turró,4.7,4.29,ok,,medium
+0161607AR,Schinus molle,False,C\ Salvador Espriu,23.78,7.05,ok,,large
+0161608AR,Platanus × acerifolia,True,C\ Ramon Turró,,15.85,median,,check
+0161609AR,Platanus × acerifolia,True,C\ Ramon Turró,4.66,4.17,ok,,medium
+0161610AR,Platanus × acerifolia,True,C\ Doctor Trueta,4.98,3.79,ok,,medium
+0161611AR,Platanus × acerifolia,True,Av Icària,11.52,8.33,ok,,large
+0161612AR,Platanus × acerifolia,True,C\ Ramon Turró,4.99,3.88,ok,,medium
+0161613AR,Platanus × acerifolia,True,C\ Joan Miró,17.96,14.43,ok,,large
+0161614AR,Platanus × acerifolia,True,C\ Ramon Turró,4.64,4.11,ok,,medium
+0161615AR,Celtis australis,False,C\ Àlaba,,15.51,median,5.34,check
+0161616AR,Platanus × acerifolia,True,C\ Joan Miró,4.1,3.21,ok,,medium
+0161617AR,Gleditsia triacanthos f. inermis,False,C\ Pamplona,3.95,3.46,ok,,medium
+0161618AR,Celtis australis,False,C\ Pamplona,4.85,4.18,ok,,medium
+0161619AR,Platanus × acerifolia,True,C\ Ramon Turró,12.22,10.93,ok,,large
+0161620AR,Tipuana tipu,False,C\ Salvador Espriu,,7.5,no_kerb,,check
+0161621AR,Schinus molle,False,C\ Salvador Espriu,28.25,14.24,ok,,large
+0161622AR,Tipuana tipu,False,C\ Salvador Espriu,23.88,8.26,ok,,large
+0161623AR,Platanus × acerifolia,True,Av Icària,4.82,4.69,ok,,medium
+0161624AR,Platanus × acerifolia,True,C\ Wellington,11.89,6.47,ok,,large
+0161626AR,Celtis australis,False,C\ Salvador Espriu,21.59,17.2,ok,,large
+0161628AR,Tipuana tipu,False,Av Bogatell,,5.96,no_kerb,,check
+0161629AR,Platanus × acerifolia,True,Av Icària,5.04,3.59,ok,,medium
+0161630AR,Platanus × acerifolia,True,C\ Llull,4.51,3.81,ok,,medium
+0161631AR,Platanus × acerifolia,True,C\ Llull,4.36,3.73,ok,,medium
+0161632AR,Tipuana tipu,False,C\ Salvador Espriu,27.48,16.9,ok,,large
+0161635AR,Platanus × acerifolia,True,C\ Ramon Trias Fargas,,73.17,no_facade,2.66,check
+0161636AR,Platanus × acerifolia,True,C\ Ramon Turró,10.73,5.43,ok,,large
+0161637AR,Platanus × acerifolia,True,C\ Ramon Turró,8.79,7.93,ok,,large
+0161638AR,Platanus × acerifolia,True,C\ Àlaba,,15.55,median,,check
+0161639AR,Platanus × acerifolia,True,C\ Wellington,10.36,6.03,ok,,large
+0161640AR,Citrus × aurantium,False,C\ Marina,,18.71,median,10.32,check
+0161641AR,Platanus × acerifolia,True,Av Icària,,104.89,no_facade,,check
+0161642AR,Gleditsia triacanthos 'sunburst',False,C\ Pamplona,4.85,3.94,ok,,medium
+0161643AR,Platanus × acerifolia,True,C\ Doctor Trueta,4.66,3.46,ok,,medium
+0161644AR,Platanus × acerifolia,True,C\ Joan Miró,24.82,22.95,ok,,large
+0161645AR,Platanus × acerifolia,True,C\ Doctor Trueta,4.47,3.78,ok,,medium
+0161646AR,Tipuana tipu,False,C\ Salvador Espriu,27.53,17.89,ok,,large
+0161648AR,Platanus × acerifolia,True,C\ Llull,4.92,4.26,ok,,medium
+0161650AR,Platanus × acerifolia,True,C\ Pamplona,,16.87,median,,check
+0161651AR,Tipuana tipu,False,Av Bogatell,,5.91,no_kerb,,check
+0161652AR,Tipuana tipu,False,C\ Salvador Espriu,,31.01,no_facade,,check
+0161653AR,Platanus × acerifolia,True,C\ Àvila,4.92,4.32,ok,,medium
+0161654AR,Morus alba,False,C\ Marina,,20.22,no_kerb,,check
+0161655AR,Magnolia grandiflora,False,C\ Marina,,52.36,no_facade,,check
+0161656AR,Citrus × aurantium,False,C\ Marina,,18.55,median,5.68,check
+0161657AR,Platanus × acerifolia,True,C\ Moscou,11.79,11.35,ok,,large
+0161658AR,Celtis australis,False,C\ Ramon Turró,4.69,4.01,ok,,medium
+0161659AR,Platanus × acerifolia,True,C\ Doctor Trueta,5.71,4.9,ok,,medium
+0161660AR,Jacaranda mimosifolia,False,C\ Salvador Espriu,27.5,18.29,ok,,large
+0161661AR,Platanus × acerifolia,True,C\ Doctor Trueta,7.79,6.75,ok,,large
+0161662AR,Platanus × acerifolia,True,C\ Jaume Vicens i Vives,8.92,8.16,ok,,large
+0161663AR,Platanus × acerifolia,True,C\ Llull,5.11,4.45,ok,,medium
+0161664AR,Platanus × acerifolia,True,Av Icària,,98.02,no_facade,,check
+0161666AR,Platanus × acerifolia,True,C\ Zamora,,15.94,median,4.92,check
+0161667AR,Celtis australis,False,C\ Jaume Vicens i Vives,8.9,8.05,ok,,large
+0161668AR,Platanus × acerifolia,True,C\ Doctor Trueta,,17.11,median,7.82,check
+0161669AR,Platanus × acerifolia,True,C\ Frederic Mompou,9.6,8.42,ok,,large
+0161670AR,Platanus × acerifolia,True,C\ Moscou,11.94,10.13,ok,,large
+0161671AR,Celtis australis,False,C\ Villena,8.55,7.96,ok,,large
+0161672AR,Celtis australis,False,C\ Ramon Turró,5.17,5.77,ok,,medium
+0161673AR,Platanus × acerifolia,True,C\ Àlaba,,15.34,median,5.34,check
+0161674AR,Celtis australis,False,C\ Salvador Espriu,28.9,24.6,ok,,large
+0161675AR,Tipuana tipu,False,C\ Salvador Espriu,,20.59,no_kerb,,check
+0161676AR,Celtis australis,False,Av Icària,7.32,4.31,ok,,large
+0161677AR,Citrus × aurantium,False,C\ Doctor Trueta,15.52,15.3,ok,,large
+0161678AR,Platanus × acerifolia,True,C\ Doctor Trueta,4.97,3.9,ok,,medium
+0161679AR,Ligustrum lucidum,False,C\ Ramon Trias Fargas,8.91,2.72,ok,,large
+0161680AR,Platanus × acerifolia,True,Av Icària,,95.45,no_facade,,check
+0161681AR,Pistacia atlantica,False,C\ Joan Oliver,,20.24,no_kerb,,check
+0161682AR,Platanus × acerifolia,True,C\ Llull,4.54,4.01,ok,,medium
+0161683AR,Ligustrum lucidum,False,C\ Villena,8.58,5.07,ok,,large
+0161684AR,Celtis australis,False,C\ Àlaba,,15.58,median,5.33,check
+0161685AR,Platanus × acerifolia,True,C\ Joan Miró,27.71,13.04,ok,,large
+0161686AR,Brachychiton populneus,False,C\ Jaume Vicens i Vives,8.97,3.69,ok,,large
+0161687AR,Celtis australis,False,C\ Ramon Turró,3.7,3.21,ok,,medium
+0161688AR,Tipuana tipu,False,Av Bogatell,,16.74,no_kerb,,check
+0161689AR,Platanus × acerifolia,True,C\ Ramon Trias Fargas,,37.58,no_facade,,check
+0161690AR,Platanus × acerifolia,True,C\ Villena,8.66,7.95,ok,,large
+0161691AR,Platanus × acerifolia,True,C\ Moscou,10.98,8.35,ok,,large
+0161692AR,Platanus × acerifolia,True,C\ Doctor Trueta,,16.34,median,,check
+0161694AR,Platanus × acerifolia,True,C\ Joan Oliver,,10.01,no_kerb,,check
+0161695AR,Quercus ilex,False,Av Icària,,15.86,median,13.79,check
+0161696AR,Citrus × aurantium,False,C\ Doctor Trueta,,14.38,median,1.33,check
+0161697AR,Platanus × acerifolia,True,C\ Llull,4.51,3.54,ok,,medium
+0161698AR,Quercus ilex,False,Av Icària,,14.45,median,13.66,check
+0161699AR,Celtis australis,False,Av Icària,5.85,2.69,ok,,medium
+0161700AR,Citrus × aurantium,False,C\ Doctor Trueta,,19.14,median,,check
+0161701AR,Citrus × aurantium,False,C\ Joan Miró,14.8,14.29,ok,,large
+0161702AR,Platanus × acerifolia,True,C\ Moscou,12.29,10.75,ok,,large
+0161703AR,Gleditsia triacanthos 'skyline',False,C\ Doctor Trueta,4.64,3.67,ok,,medium
+0161704AR,Platanus × acerifolia,True,C\ Moscou,9.61,8.26,ok,,large
+0161705AR,Pinus halepensis,False,Av Icària,,56.26,no_facade,16.01,check
+0161706AR,Platanus × acerifolia,True,C\ Ramon Trias Fargas,13.81,12.85,ok,,large
+0161707AR,Platanus × acerifolia,True,C\ Moscou,9.43,7.85,ok,,large
+0161708AR,Morus alba,False,C\ Marina,16.22,10.63,ok,,large
+0161709AR,Citrus × aurantium,False,C\ Marina,9.06,9.9,ok,,large
+0161710AR,Platanus × acerifolia,True,C\ Moscou,11.8,11.65,ok,,large
+0161711AR,Celtis australis,False,Av Icària,5.02,4.29,ok,,medium
+0161712AR,Platanus × acerifolia,True,C\ Ramon Turró,,15.86,median,4.99,check
+0161713AR,Celtis australis,False,C\ Àlaba,4.6,3.94,ok,,medium
+0161714AR,Platanus × acerifolia,True,C\ Ramon Turró,,22.71,median,,check
+0161716AR,Tipuana tipu,False,C\ Marina,21.78,13.65,ok,,large
+0161717AR,Celtis australis,False,C\ Salvador Espriu,21.59,17.42,ok,,large
+0161718AR,Platanus × acerifolia,True,C\ Moscou,11.97,10.86,ok,,large
+0161719AR,Citrus × aurantium,False,C\ Doctor Trueta,,26.58,median,12.99,check
+0161720AR,Schinus molle,False,C\ Salvador Espriu,,13.94,no_kerb,,check
+0161721AR,Platanus × acerifolia,True,C\ Ramon Trias Fargas,17.25,16.19,ok,,large
+0161724AR,Platanus × acerifolia,True,C\ Joan Miró,5.88,5.87,ok,,medium
+0161726AR,Platanus × acerifolia,True,C\ Ramon Turró,13.4,12.84,ok,,large
+0161727AR,Platanus × acerifolia,True,C\ Joan Miró,,15.14,median,,check
+0161728AR,Schinus molle,False,C\ Marina,19.3,8.51,ok,,large
+0161729AR,Celtis australis,False,Av Litoral,22.24,11.67,ok,,large
+0161730AR,Koelreuteria paniculata 'Fastigiata',False,C\ Ramon Trias Fargas,9.02,8.12,ok,,large
+0161731AR,Jacaranda mimosifolia,False,C\ Joan Miró,,15.43,median,6.27,check
+0161733AR,Tipuana tipu,False,C\ Salvador Espriu,,12.35,no_kerb,,check
+0161734AR,Tipuana tipu,False,C\ Salvador Espriu,27.5,14.35,ok,,large
+0161735AR,Metrosideros excelsa,False,C\ Salvador Espriu,,23.52,no_kerb,,check
+0161736AR,Tipuana tipu,False,Av Bogatell,29.53,21.53,ok,,large
+0161737AR,Tipuana tipu,False,C\ Salvador Espriu,,15.99,no_kerb,,check
+0161738AR,Platanus × acerifolia,True,C\ Frederic Mompou,,21.93,median,18.73,check
+0161739AR,Quercus ilex,False,Av Icària,,19.93,median,13.65,check
+0161740AR,Platanus × acerifolia,True,C\ Doctor Trueta,11.36,10.65,ok,,large
+0161741AR,Celtis australis,False,Av Litoral,22.11,7.15,ok,,large
+0161742AR,Quercus ilex,False,Av Icària,,15.3,median,13.55,check
+0161743AR,Platanus × acerifolia,True,C\ Wellington,8.86,4.2,ok,,large
+0161744AR,Morus alba 'Fruitless',False,C\ Marina,,126.0,no_facade,,check
+0161745AR,Celtis australis,False,C\ Salvador Espriu,,30.65,no_facade,,check
+0161746AR,Tipuana tipu,False,Av Bogatell,,5.83,no_kerb,,check
+0161747AR,Morus alba 'Fruitless',False,C\ Marina,,70.07,no_facade,,check
+0161748AR,Gleditsia triacanthos f. inermis,False,C\ Ramon Turró,,23.31,median,4.8,check
+0161749AR,Platanus × acerifolia,True,Av Icària,4.97,3.96,ok,,medium
+0161750AR,Schinus molle,False,Av Litoral,,4.11,no_kerb,,check
+0161751AR,Platanus × acerifolia,True,C\ Rosa Sensat,6.11,4.9,ok,,large
+0161752AR,Platanus × acerifolia,True,C\ Moscou,12.08,11.08,ok,,large
+0161753AR,Platanus × acerifolia,True,C\ Ramon Trias Fargas,4.66,3.99,ok,,medium
+0161754AR,Platanus × acerifolia,True,C\ Ramon Turró,4.27,3.84,ok,,medium
+0161755AR,Platanus × acerifolia,True,C\ Ramon Trias Fargas,18.42,16.85,ok,,large
+0161756AR,Platanus × acerifolia,True,C\ Villena,24.8,16.87,ok,,large
+0161759AR,Ligustrum lucidum,False,C\ Ramon Trias Fargas,8.95,2.58,ok,,large
+0161760AR,Celtis australis,False,C\ Ramon Turró,9.52,8.48,ok,,large
+0161761AR,Platanus × acerifolia,True,Av Icària,7.25,3.98,ok,,large
+0161763AR,Tipuana tipu,False,C\ Marina,19.2,8.29,ok,,large
+0161764AR,Platanus × acerifolia,True,C\ Frederic Mompou,9.58,8.4,ok,,large
+0161765AR,Platanus × acerifolia,True,C\ Pamplona,10.29,9.66,ok,,large
+0161766AR,Platanus × acerifolia,True,C\ Moscou,9.45,8.27,ok,,large
+0161767AR,Tipuana tipu,False,Av Bogatell,,18.96,no_kerb,,check
+0161768AR,Platanus × acerifolia,True,Av Icària,5.1,3.63,ok,,medium
+0161769AR,Celtis australis,False,Av Icària,5.0,4.34,ok,,medium
+0161770AR,Morus alba,False,C\ Marina,,91.97,no_facade,,check
+0161771AR,Celtis australis,False,C\ Salvador Espriu,21.72,17.26,ok,,large
+0161772AR,Platanus × acerifolia,True,C\ Joan Miró,5.12,3.91,ok,,medium
+0161773AR,Quercus ilex,False,Av Icària,,15.24,median,13.66,check
+0161775AR,Celtis australis,False,C\ Doctor Trueta,,21.99,median,15.83,check
+0161776AR,Platanus × acerifolia,True,C\ Joan Oliver,21.8,3.47,ok,,large
+0161777AR,Cupressus sempervirens,False,C\ Marina,21.71,17.0,ok,,large
+0161778AR,Tipuana tipu,False,Av Bogatell,,23.08,median,17.39,check
+0161779AR,Melia azedarach,False,C\ Marina,11.38,5.82,ok,,large
+0161780AR,Pistacia atlantica,False,C\ Salvador Espriu,,21.45,no_kerb,,check
+0161781AR,Platanus × acerifolia,True,C\ Wellington,8.79,4.31,ok,,large
+0161782AR,Platanus × acerifolia,True,C\ Jaume Vicens i Vives,18.54,16.96,ok,,large
+0161783AR,Gleditsia triacanthos 'skyline',False,C\ Doctor Trueta,4.74,4.22,ok,,medium
+0161784AR,Tipuana tipu,False,C\ Salvador Espriu,,7.56,no_kerb,,check
+0161785AR,Platanus × acerifolia,True,C\ Ramon Trias Fargas,15.12,14.52,ok,,large
+0161787AR,Platanus × acerifolia,True,C\ Llull,,17.12,median,,check
+0161788AR,Platanus × acerifolia,True,C\ Ramon Turró,8.66,8.9,ok,,large
+0161789AR,Celtis australis,False,C\ Salvador Espriu,24.46,7.04,ok,,large
+0161791AR,Tipuana tipu,False,Av Bogatell,,28.84,no_kerb,,check
+0161792AR,Platanus × acerifolia,True,C\ Frederic Mompou,15.09,14.03,ok,,large
+0161793AR,Ligustrum lucidum,False,C\ Ramon Trias Fargas,8.85,3.16,ok,,large
+0161795AR,Platanus × acerifolia,True,C\ Joan Miró,10.38,10.0,ok,,large
+0161796AR,Celtis australis,False,C\ Ramon Trias Fargas,15.15,14.42,ok,,large
+0161797AR,Platanus × acerifolia,True,C\ Arquitecte Sert,9.46,8.83,ok,,large
+0161798AR,Ligustrum lucidum,False,C\ Ramon Trias Fargas,8.87,3.0,ok,,large
+0161799AR,Platanus × acerifolia,True,C\ Doctor Trueta,4.71,4.32,ok,,medium
+0161800AR,Tipuana tipu,False,Av Bogatell,13.96,3.92,ok,,large
+0161801AR,Platanus × acerifolia,True,C\ Joan Miró,27.54,14.65,ok,,large
+0161802AR,Platanus × acerifolia,True,C\ Llull,5.24,3.52,ok,,medium
+0161803AR,Tipuana tipu,False,C\ Salvador Espriu,29.61,13.89,ok,,large
+0161804AR,Quercus ilex,False,C\ Salvador Espriu,29.88,11.47,ok,,large
+0161805AR,Platanus × acerifolia,True,C\ Jaume Vicens i Vives,9.02,8.23,ok,,large
+0161806AR,Citrus × aurantium,False,C\ Marina,,20.66,median,6.12,check
+0161807AR,Tipuana tipu,False,C\ Salvador Espriu,,10.13,no_kerb,,check
+0161808AR,Platanus × acerifolia,True,C\ Llull,6.88,6.17,ok,,large
+0161809AR,Platanus × acerifolia,True,C\ Ramon Turró,4.97,4.32,ok,,medium
+0161810AR,Platanus × acerifolia,True,C\ Llull,4.93,4.57,ok,,medium
+0161811AR,Morus alba 'Fruitless',False,C\ Marina,,56.34,no_facade,30.28,check
+0161812AR,Platanus × acerifolia,True,C\ Joan Miró,5.1,3.18,ok,,medium
+0161813AR,Platanus × acerifolia,True,C\ Joan Miró,21.61,15.5,ok,,large
+0161814AR,Tipuana tipu,False,Av Bogatell,,12.4,no_kerb,,check
+0161815AR,Celtis australis,False,C\ Rosa Sensat,13.92,13.15,ok,,large
+0161816AR,Platanus × acerifolia,True,C\ Villena,8.65,7.93,ok,,large
+0161817AR,Tipuana tipu,False,C\ Marina,19.2,11.45,ok,,large
+0161818AR,Platanus × acerifolia,True,C\ Wellington,9.19,3.89,ok,,large
+0161819AR,Tipuana tipu,False,Av Bogatell,,6.09,no_kerb,,check
+0161820AR,Platanus × acerifolia,True,C\ Ramon Turró,4.95,4.23,ok,,medium
+0161822AR,Platanus × acerifolia,True,C\ Ramon Turró,5.34,4.58,ok,,medium
+0161823AR,Platanus × acerifolia,True,C\ Ramon Turró,8.8,8.63,ok,,large
+0161824AR,Platanus × acerifolia,True,C\ Llull,6.48,5.83,ok,,large
+0161825AR,Tipuana tipu,False,Av Bogatell,,3.91,no_kerb,,check
+0161826AR,Tipuana tipu,False,C\ Salvador Espriu,,15.39,no_kerb,,check
+0161827AR,Platanus × acerifolia,True,C\ Ramon Turró,,16.08,median,4.98,check
+0161829AR,Platanus × acerifolia,True,C\ Àlaba,,16.9,median,15.48,check
+0161830AR,Tipuana tipu,False,C\ Salvador Espriu,24.19,9.34,ok,,large
+0161831AR,Jacaranda mimosifolia,False,C\ Joan Miró,,4.8,no_kerb,33.91,check
+0161832AR,Platanus × acerifolia,True,C\ Àlaba,,15.68,median,,check
+0161833AR,Jacaranda mimosifolia,False,C\ Salvador Espriu,27.5,18.05,ok,,large
+0161834AR,Pistacia atlantica,False,C\ Salvador Espriu,,32.28,no_facade,,check
+0161835AR,Platanus × acerifolia,True,C\ Ramon Turró,4.96,4.33,ok,,medium
+0161836AR,Gleditsia triacanthos 'skyline',False,C\ Doctor Trueta,4.94,3.43,ok,,medium
+0161837AR,Pinus halepensis,False,Av Icària,,59.68,no_facade,16.0,check
+0161838AR,Melia azedarach,False,C\ Marina,12.36,6.29,ok,,large
+0161839AR,Quercus ilex,False,Av Icària,,15.68,median,13.7,check
+0161840AR,Platanus × acerifolia,True,C\ Doctor Trueta,4.92,4.54,ok,,medium
+0161841AR,Quercus ilex,False,Av Icària,,18.53,median,13.6,check
+0161842AR,Platanus × acerifolia,True,C\ Ramon Turró,4.9,3.99,ok,,medium
+0161843AR,Melia azedarach,False,C\ Marina,10.76,3.99,ok,,large
+0161844AR,Platanus × acerifolia,True,C\ Ramon Turró,4.69,4.13,ok,,medium
+0161845AR,Tipuana tipu,False,C\ Marina,19.2,11.05,ok,,large
+0161846AR,Gleditsia triacanthos 'skyline',False,C\ Ramon Turró,9.22,8.49,ok,,large
+0161847AR,Platanus × acerifolia,True,C\ Llull,7.0,6.45,ok,,large
+0161848AR,Melia azedarach,False,C\ Marina,12.22,6.1,ok,,large
+0161849AR,Platanus × acerifolia,True,C\ Pamplona,4.02,3.46,ok,,medium
+0161850AR,Platanus × acerifolia,True,C\ Jaume Vicens i Vives,8.95,8.17,ok,,large
+0161851AR,Tipuana tipu,False,C\ Salvador Espriu,21.47,7.07,ok,,large
+0161852AR,Quercus ilex,False,Av Icària,,18.84,median,13.71,check
+0161853AR,Morus alba,False,C\ Marina,,54.58,no_facade,17.27,check
+0161854AR,Platanus × acerifolia,True,C\ Arquitecte Sert,5.2,4.66,ok,,medium
+0161855AR,Celtis australis,False,C\ Ramon Turró,3.69,3.03,ok,,medium
+0161856AR,Platanus × acerifolia,True,C\ Joan Miró,,15.14,no_kerb,,check
+0161857AR,Ulmus pumila,False,C\ Joan Miró,,2.51,no_kerb,48.49,check
+0161858AR,Celtis australis,False,C\ Llull,,17.84,median,,check
+0161860AR,Celtis australis,False,C\ Rosa Sensat,4.85,4.44,ok,,medium
+0161861AR,Celtis australis,False,C\ Ramon Turró,4.99,3.85,ok,,medium
+0161862AR,Tipuana tipu,False,Av Bogatell,,5.8,no_kerb,,check
+0161863AR,Platanus × acerifolia,True,C\ Llull,4.68,4.13,ok,,medium
+0161864AR,Ulmus pumila,False,C\ Joan Oliver,,6.11,no_kerb,,check
+0161865AR,Morus alba 'Fruitless',False,C\ Marina,,72.06,no_facade,,check
+0161866AR,Gleditsia triacanthos f. inermis,False,C\ Ramon Turró,4.64,4.15,ok,,medium
+0161867AR,Platanus × acerifolia,True,C\ Moscou,12.08,6.99,ok,,large
+0161868AR,Celtis australis,False,C\ Villena,8.65,7.93,ok,,large
+0161869AR,Platanus × acerifolia,True,C\ Joan Miró,5.06,3.99,ok,,medium
+0161870AR,Celtis australis,False,C\ Rosa Sensat,5.07,4.38,ok,,medium
+0161871AR,Melia azedarach,False,C\ Marina,12.41,5.63,ok,,large
+0161872AR,Platanus × acerifolia,True,C\ Joan Miró,4.82,3.8,ok,,medium
+0161873AR,Cupressus sempervirens,False,C\ Marina,21.73,17.16,ok,,large
+0161874AR,Platanus × acerifolia,True,C\ Ramon Trias Fargas,4.88,4.47,ok,,medium
+0161875AR,Platanus × acerifolia,True,Av Icària,,99.87,no_facade,,check
+0161876AR,Platanus × acerifolia,True,Av Icària,5.05,4.26,ok,,medium
+0161877AR,Tipuana tipu,False,C\ Salvador Espriu,,25.92,no_kerb,,check
+0161878AR,Platanus × acerifolia,True,C\ Moscou,11.91,10.39,ok,,large
+0161879AR,Celtis australis,False,C\ Salvador Espriu,,31.77,no_facade,,check
+0161880AR,Tipuana tipu,False,Av Bogatell,,4.01,no_kerb,20.19,check
+0161881AR,Tipuana tipu,False,C\ Salvador Espriu,,23.21,no_kerb,,check
+0161882AR,Schinus molle,False,C\ Salvador Espriu,29.9,15.01,ok,,large
+0161883AR,Platanus × acerifolia,True,C\ Doctor Trueta,4.65,3.47,ok,,medium
+0161884AR,Tipuana tipu,False,C\ Salvador Espriu,,20.16,no_kerb,,check
+0161885AR,Gleditsia triacanthos,False,C\ Doctor Trueta,10.13,9.57,ok,,large
+0161886AR,Tipuana tipu,False,C\ Salvador Espriu,21.85,11.19,ok,,large
+0161887AR,Platanus × acerifolia,True,C\ Ramon Turró,,15.87,median,5.0,check
+0161888AR,Platanus × acerifolia,True,C\ Pamplona,4.93,4.31,ok,,medium
+0161889AR,Platanus × acerifolia,True,C\ Àvila,4.93,3.98,ok,,medium
+0161890AR,Morus alba,False,C\ Marina,,35.71,no_facade,,check
+0161892AR,Cupressus sempervirens,False,C\ Marina,12.08,4.44,ok,,large
+0161893AR,Platanus × acerifolia,True,C\ Joan Oliver,21.37,16.16,ok,,large
+0161894AR,Gleditsia triacanthos 'skyline',False,C\ Ramon Turró,3.68,3.04,ok,,medium
+0161895AR,Ligustrum lucidum,False,C\ Ramon Trias Fargas,9.34,3.0,ok,,large
+0161896AR,Gleditsia triacanthos 'skyline',False,C\ Doctor Trueta,4.7,4.2,ok,,medium
+0161897AR,Platanus × acerifolia,True,Av Icària,5.17,4.16,ok,,medium
+0161898AR,Platanus × acerifolia,True,C\ Joan Miró,5.13,3.51,ok,,medium
+0161900AR,Platanus × acerifolia,True,C\ Jaume Vicens i Vives,8.95,7.96,ok,,large
+0161901AR,Platanus × acerifolia,True,C\ Pamplona,,16.46,median,,check
+0250473AR,Morus kagayamae,False,Pg Marítim de Nova Icària,,13.6,median,15.23,check
+0250475AR,Platanus × acerifolia,True,Pg Marítim de Nova Icària,24.74,10.78,ok,,large
+0250484AR,Cupressus sempervirens,False,Parc Carles I,,46.86,no_facade,23.56,check
+0250490AR,Morus alba 'Fruitless',False,Pg Marítim de Nova Icària,,80.93,no_facade,15.23,check
+0250498AR,Morus kagayamae,False,Pg Marítim de Nova Icària,,64.92,no_facade,15.23,check
+0250504AR,Tamarix gallica,False,Pg Marítim de Nova Icària,,99.62,no_facade,16.86,check
+0250507AR,Morus kagayamae,False,Pg Marítim de Nova Icària,,12.99,median,15.31,check
+0250511AR,Platanus × acerifolia,True,Parc Carles I,,51.06,no_facade,32.57,check
+0250516AR,Lagerstroemia indica,False,Jard Alícia de Larrocha,,14.85,no_kerb,,check
+0250520AR,Platanus × acerifolia,True,Pg Marítim de Nova Icària,,38.37,no_facade,20.85,check
+0250522AR,Tamarix gallica,False,Pg Marítim de Nova Icària,,34.72,no_facade,,check
+0250546AR,Morus alba,False,Parc Carles I,,17.71,no_kerb,,check
+0250548AR,Phytolacca dioica,False,Pg Marítim de Nova Icària,,42.23,no_facade,16.39,check
+0250549AR,Platanus × acerifolia,True,Pg Marítim de Nova Icària,,26.42,no_kerb,16.85,check
+0250575AR,Cupressus sempervirens,False,Parc Carles I,,45.92,no_facade,24.54,check
+0250582AR,Platanus × acerifolia,True,Pg Marítim de Nova Icària,,12.69,no_kerb,16.59,check
+0250595AR,Platanus × acerifolia,True,Pg Marítim de Nova Icària,,81.12,no_facade,14.71,check
+0250596AR,Pinus pinea,False,Parc Carles I,,33.52,no_facade,19.01,check
+0250599AR,Morus kagayamae,False,Pg Marítim de Nova Icària,,32.05,no_facade,15.3,check
+0250600AR,Pinus pinea,False,Parc Carles I,,28.45,no_kerb,,check
+0250607AR,Morus kagayamae,False,Pg Marítim de Nova Icària,,86.25,no_facade,15.33,check
+0250623AR,Morus kagayamae,False,Pg Marítim de Nova Icària,,34.32,no_facade,15.12,check
+0250627AR,Morus alba 'Fruitless',False,Pg Marítim de Nova Icària,,10.3,median,15.31,check
+0250629AR,Morus alba 'Fruitless',False,Pg Marítim de Nova Icària,,78.26,no_facade,14.85,check
+0250648AR,Platanus × acerifolia,True,Pg Marítim de Nova Icària,,62.58,no_facade,16.39,check
+0250653AR,Tamarix gallica,False,Pg Marítim de Nova Icària,,33.04,no_facade,16.69,check
+0250656AR,Platanus × acerifolia,True,Parc Carles I,,45.78,no_facade,,check
+0250662AR,Morus alba 'Fruitless',False,Pg Marítim de Nova Icària,,43.27,no_facade,14.46,check
+0250664AR,Platanus × acerifolia,True,Parc Carles I,,45.05,no_facade,7.15,check
+0250674AR,Platanus × acerifolia,True,Pg Marítim de Nova Icària,,60.02,no_facade,16.85,check
+0250679AR,Platanus × acerifolia,True,Pg Marítim de Nova Icària,,10.11,no_kerb,,check
+0250685AR,Morus kagayamae,False,Pg Marítim de Nova Icària,,7.77,median,10.82,check
+0250691AR,Tamarix gallica,False,Pg Marítim de Nova Icària,,99.16,no_facade,16.86,check
+0250692AR,Morus kagayamae,False,Pg Marítim de Nova Icària,,18.91,median,15.32,check
+0250699AR,Morus kagayamae,False,Pg Marítim de Nova Icària,,26.54,median,14.97,check
+0250700AR,Morus kagayamae,False,Pg Marítim de Nova Icària,,95.94,no_facade,15.14,check
+0250708AR,Tamarix gallica,False,Pg Marítim de Nova Icària,12.4,5.22,ok,,large
+0250713AR,Platanus × acerifolia,True,C\ Joan Miró,,4.66,no_kerb,25.49,check
+0250725AR,Morus alba 'Fruitless',False,Pg Marítim de Nova Icària,,62.83,no_facade,15.11,check
+0250729AR,Tamarix gallica,False,Pg Marítim de Nova Icària,,71.8,no_facade,16.77,check
+0250737AR,Morus kagayamae,False,Pg Marítim de Nova Icària,,37.11,no_facade,15.23,check
+0250746AR,Platanus × acerifolia,True,Pg Marítim de Nova Icària,,93.97,no_facade,16.81,check
+0250775AR,Morus kagayamae,False,Pg Marítim de Nova Icària,,6.7,median,15.2,check
+0250788AR,Morus kagayamae,False,Pg Marítim de Nova Icària,,7.73,median,10.77,check
+0250802AR,Morus alba 'Fruitless',False,Pg Marítim de Nova Icària,,88.78,no_facade,15.23,check
+0250805AR,Pinus pinea,False,Parc Carles I,,36.42,no_facade,14.39,check
+0250807AR,Morus kagayamae,False,Pg Marítim de Nova Icària,,98.66,no_facade,15.1,check
+0250820AR,Lagerstroemia indica,False,Jard Alícia de Larrocha,,18.61,no_kerb,,check
+0250836AR,Morus alba 'Fruitless',False,Pg Marítim de Nova Icària,,14.47,median,15.25,check
+0250850AR,Morus alba 'Fruitless',False,Pg Marítim de Nova Icària,,38.55,no_facade,16.56,check
+0250856AR,Platanus × acerifolia,True,Pg Marítim de Nova Icària,,7.87,no_kerb,16.58,check
+0250858AR,Platanus × acerifolia,True,Pg Marítim de Nova Icària,,84.07,no_facade,14.73,check
+0250870AR,Pinus pinea,False,Parc Carles I,,45.31,no_facade,,check
+0250875AR,Tamarix ramosissima,False,Pg Marítim de Nova Icària,,65.5,no_facade,16.84,check
+0250880AR,Morus alba 'Fruitless',False,Pg Marítim de Nova Icària,,93.67,no_facade,16.71,check
+0250895AR,Platanus × acerifolia,True,Pg Marítim de Nova Icària,,53.55,no_facade,,check
+0250906AR,Morus kagayamae,False,Pg Marítim de Nova Icària,,27.91,median,14.97,check
+0250915AR,Morus kagayamae,False,Pg Marítim de Nova Icària,,69.23,no_facade,15.23,check
+0250921AR,Tamarix gallica,False,Pg Marítim de Nova Icària,,80.9,no_facade,14.7,check
+0250929AR,Tamarix gallica,False,Pg Marítim de Nova Icària,,68.62,no_facade,16.63,check
+0250969AR,Morus alba 'Fruitless',False,Pg Marítim de Nova Icària,,80.47,no_facade,15.32,check
+0250974AR,Pinus pinea,False,Parc Carles I,,31.83,no_facade,15.23,check
+0251004AR,Tamarix gallica,False,Pg Marítim de Nova Icària,,59.18,no_facade,16.85,check
+0251014AR,Brachychiton acerifolius,False,Jard Alícia de Larrocha,,17.5,no_kerb,,check
+0251018AR,Platanus × acerifolia,True,Parc Carles I,,50.06,no_facade,,check
+0251024AR,Platanus × acerifolia,True,Pg Marítim de Nova Icària,,21.84,no_kerb,16.7,check
+0251039AR,Platanus × acerifolia,True,Pg Marítim de Nova Icària,,66.41,no_facade,16.84,check
+0251047AR,Platanus × acerifolia,True,Parc Carles I,,84.14,no_facade,,check
+0251048AR,Tamarix gallica,False,Pg Marítim de Nova Icària,,86.97,no_facade,14.82,check
+0251056AR,Lagerstroemia indica,False,Jard Alícia de Larrocha,,18.33,no_kerb,,check
+0251072AR,Morus kagayamae,False,Pg Marítim de Nova Icària,,10.51,median,15.2,check
+0251074AR,Morus alba,False,Parc Carles I,,16.57,no_kerb,,check
+0251085AR,Platanus × acerifolia,True,Parc Carles I,,88.76,no_facade,,check
+0251109AR,Morus alba 'Fruitless',False,Pg Marítim de Nova Icària,,76.53,no_facade,15.23,check
+0251116AR,Platanus × acerifolia,True,C\ Joan Miró,17.24,9.71,ok,,large
+0251142AR,Morus kagayamae,False,Pg Marítim de Nova Icària,,20.01,median,15.26,check
+0251150AR,Platanus × acerifolia,True,Pg Marítim de Nova Icària,,20.51,no_kerb,,check
+0251154AR,Lagerstroemia indica,False,Jard Alícia de Larrocha,,18.62,no_kerb,,check
+0251163AR,Morus kagayamae,False,Pg Marítim de Nova Icària,,37.46,no_facade,15.31,check
+0251166AR,Cupressus sempervirens,False,Parc Carles I,,41.28,no_facade,24.12,check
+0251178AR,Tamarix gallica,False,Pg Marítim de Nova Icària,,83.47,no_facade,14.73,check
+0251197AR,Morus alba,False,Parc Carles I,,19.43,no_kerb,,check
+0251223AR,Platanus × acerifolia,True,Pg Marítim de Nova Icària,,38.15,no_facade,16.63,check
+0251247AR,Morus alba,False,Parc Carles I,,17.06,no_kerb,,check
+0251249AR,Morus kagayamae,False,Pg Marítim de Nova Icària,,15.6,median,15.2,check
+0251250AR,Morus kagayamae,False,Pg Marítim de Nova Icària,,10.37,median,15.34,check
+0251251AR,Morus kagayamae,False,Pg Marítim de Nova Icària,,7.99,median,10.63,check
+0251255AR,Tamarix gallica,False,Pg Marítim de Nova Icària,,92.55,no_facade,16.82,check
+0251260AR,Morus alba 'Fruitless',False,Pg Marítim de Nova Icària,,100.51,no_facade,15.1,check
+0251266AR,Pinus pinea,False,Parc Carles I,,39.27,no_facade,11.6,check
+0251272AR,Morus kagayamae,False,Pg Marítim de Nova Icària,,23.65,median,15.24,check
+0251283AR,Platanus × acerifolia,True,Pg Marítim de Nova Icària,,43.94,no_facade,16.35,check
+0251286AR,Morus alba 'Fruitless',False,Pg Marítim de Nova Icària,,13.27,median,15.21,check
+0251297AR,Cupressus sempervirens,False,Parc Carles I,,42.87,no_facade,22.01,check
+0251302AR,Populus nigra 'Italica',False,Jard Alícia de Larrocha,,8.16,no_kerb,,check
+0251306AR,Pinus pinea,False,Parc Carles I,,39.5,no_facade,22.22,check
+0251319AR,Platanus × acerifolia,True,Pg Marítim de Nova Icària,,85.01,no_facade,14.73,check
+0251324AR,Pinus pinea,False,Parc Carles I,,33.35,no_facade,14.23,check
+0251326AR,Morus alba 'Fruitless',False,Pg Marítim de Nova Icària,,63.05,no_facade,15.23,check
+0251330AR,Pinus pinea,False,C\ Wellington,,33.05,no_facade,29.28,check
+0251334AR,Morus alba,False,Parc Carles I,,15.47,no_kerb,,check
+0251338AR,Populus nigra 'Italica',False,Jard Alícia de Larrocha,,13.05,no_kerb,,check
+0251344AR,Lagerstroemia indica,False,Jard Alícia de Larrocha,,11.84,no_kerb,,check
+0251348AR,Phytolacca dioica,False,Pg Marítim de Nova Icària,,12.12,no_kerb,16.6,check
+0251352AR,Platanus × acerifolia,True,Pg Marítim de Nova Icària,,20.32,no_kerb,16.81,check
+0251356AR,Platanus × acerifolia,True,Pg Marítim de Nova Icària,,35.6,no_facade,,check
+0251366AR,Platanus × acerifolia,True,Pg Marítim de Nova Icària,,10.36,no_kerb,,check
+0251368AR,Platanus × acerifolia,True,Pg Marítim de Nova Icària,,56.32,no_facade,16.39,check
+0251387AR,Platanus × acerifolia,True,Pg Marítim de Nova Icària,,10.06,no_kerb,,check
+0251407AR,Morus alba 'Fruitless',False,Pg Marítim de Nova Icària,,31.14,no_facade,15.3,check
+0251413AR,Morus alba 'Fruitless',False,Pg Marítim de Nova Icària,,97.87,no_facade,15.14,check
+0251418AR,Morus alba,False,Parc Carles I,,14.39,no_kerb,,check
+0251427AR,Morus kagayamae,False,Pg Marítim de Nova Icària,,83.98,no_facade,15.33,check
+0251434AR,Morus alba,False,Parc Carles I,,18.07,no_kerb,,check
+0251436AR,Cupressus sempervirens,False,Parc Carles I,,41.98,no_facade,23.12,check
+0251448AR,Morus alba 'Fruitless',False,Pg Marítim de Nova Icària,,41.3,no_facade,,check
+0251453AR,Morus alba 'Fruitless',False,Pg Marítim de Nova Icària,,17.06,median,15.32,check
+0251462AR,Pinus pinea,False,Parc Carles I,,29.1,no_kerb,,check
+0251475AR,Tamarix gallica,False,Pg Marítim de Nova Icària,,56.73,no_facade,16.39,check
+0251480AR,Morus kagayamae,False,Pg Marítim de Nova Icària,,10.16,median,15.27,check
+0251483AR,Morus kagayamae,False,Pg Marítim de Nova Icària,,7.8,median,10.8,check
+0251497AR,Platanus × acerifolia,True,C\ Joan Miró,17.22,3.71,ok,,large
+0251508AR,Morus alba 'Fruitless',False,Pg Marítim de Nova Icària,,101.61,no_facade,15.23,check
+0251519AR,Morus alba 'Fruitless',False,Pg Marítim de Nova Icària,,19.42,median,15.06,check
+0251520AR,Morus kagayamae,False,Pg Marítim de Nova Icària,,20.23,median,15.06,check
+0251523AR,Koelreuteria paniculata 'Fastigiata',False,Jard Alícia de Larrocha,,3.73,no_kerb,,check
+0251527AR,Platanus × acerifolia,True,Pg Marítim de Nova Icària,,8.13,no_kerb,16.55,check
+0251542AR,Platanus × acerifolia,True,Pg Marítim de Nova Icària,,100.59,no_facade,16.86,check
+0251551AR,Morus kagayamae,False,Pg Marítim de Nova Icària,,26.3,median,15.18,check
+0251556AR,Phytolacca dioica,False,Pg Marítim de Nova Icària,,39.59,no_facade,14.55,check
+0251557AR,Morus kagayamae,False,Pg Marítim de Nova Icària,,20.95,median,15.06,check
+0251564AR,Pinus pinea,False,Parc Carles I,,58.07,no_facade,,check
+0251568AR,Morus kagayamae,False,Pg Marítim de Nova Icària,,33.13,no_facade,15.12,check
+0251570AR,Platanus × acerifolia,True,Pg Marítim de Nova Icària,,15.52,no_kerb,,check
+0251573AR,Platanus × acerifolia,True,Pg Marítim de Nova Icària,,53.2,no_facade,,check
+0251609AR,Tamarix gallica,False,Pg Marítim de Nova Icària,,86.74,no_facade,14.82,check
+0251624AR,Morus alba 'Fruitless',False,Pg Marítim de Nova Icària,,86.85,no_facade,15.23,check
+0251655AR,Platanus × acerifolia,True,Pg Marítim de Nova Icària,,89.91,no_facade,16.67,check
+0251660AR,Morus kagayamae,False,Pg Marítim de Nova Icària,,24.62,median,15.24,check
+0251666AR,Platanus × acerifolia,True,Pg Marítim de Nova Icària,,11.69,no_kerb,,check
+0251671AR,Morus kagayamae,False,Pg Marítim de Nova Icària,,66.75,no_facade,15.23,check
+0251676AR,Morus kagayamae,False,Pg Marítim de Nova Icària,,21.64,median,15.06,check
+0251682AR,Populus nigra 'Italica',False,Jard Alícia de Larrocha,,15.88,no_kerb,,check
+0251683AR,Morus kagayamae,False,Pg Marítim de Nova Icària,,7.07,median,15.34,check
+0251697AR,Phytolacca dioica,False,Pg Marítim de Nova Icària,,33.12,no_facade,16.68,check
+0251704AR,Morus alba 'Fruitless',False,Pg Marítim de Nova Icària,,30.69,no_facade,16.58,check
+0251715AR,Phytolacca dioica,False,Pg Marítim de Nova Icària,,30.46,no_facade,16.58,check
+0251729AR,Platanus × acerifolia,True,Parc Carles I,,86.93,no_facade,39.86,check
+0251733AR,Pinus pinea,False,C\ Wellington,,37.68,no_facade,20.32,check
+0251734AR,Phytolacca dioica,False,Pg Marítim de Nova Icària,,38.88,no_facade,16.53,check
+0251739AR,Platanus × acerifolia,True,C\ Joan Miró,,11.86,no_kerb,18.81,check
+0251742AR,Pinus pinea,False,Parc Carles I,,39.43,no_facade,14.51,check
+0251747AR,Platanus × acerifolia,True,Pg Marítim de Nova Icària,,48.03,no_facade,,check
+0251752AR,Platanus × acerifolia,True,Parc Carles I,,45.42,no_facade,9.74,check
+0251786AR,Morus kagayamae,False,Pg Marítim de Nova Icària,,7.23,median,15.27,check
+0251791AR,Morus kagayamae,False,Pg Marítim de Nova Icària,,36.63,no_facade,15.24,check
+0251805AR,Platanus × acerifolia,True,Pg Marítim de Nova Icària,,24.27,no_kerb,16.57,check
+0251808AR,Morus kagayamae,False,Pg Marítim de Nova Icària,,7.75,median,10.85,check
+0251816AR,Morus kagayamae,False,Pg Marítim de Nova Icària,,82.97,no_facade,15.23,check
+0251821AR,Lagerstroemia indica,False,Jard Alícia de Larrocha,,14.87,no_kerb,,check
+0251823AR,Pinus pinea,False,Parc Carles I,,41.09,no_facade,,check
+0251825AR,Pinus pinea,False,Parc Carles I,,37.0,no_facade,13.82,check
+0251831AR,Morus kagayamae,False,Pg Marítim de Nova Icària,,31.2,no_facade,15.2,check
+0251832AR,Morus kagayamae,False,Pg Marítim de Nova Icària,,9.01,median,15.3,check
+0251843AR,Morus alba 'Fruitless',False,Pg Marítim de Nova Icària,,27.41,no_kerb,16.7,check
+0251846AR,Platanus × acerifolia,True,C\ Joan Miró,27.63,10.1,ok,,large
+0251872AR,Morus kagayamae,False,Pg Marítim de Nova Icària,,37.93,no_facade,15.32,check
+0251892AR,Platanus × acerifolia,True,Pg Marítim de Nova Icària,,41.86,no_facade,,check
+0251902AR,Pinus pinea,False,C\ Wellington,,25.32,no_kerb,,check
+0251913AR,Platanus × acerifolia,True,Parc Carles I,,87.01,no_facade,,check
+0251915AR,Populus nigra 'Italica',False,Jard Alícia de Larrocha,,3.9,no_kerb,,check
+0251919AR,Tamarix gallica,False,Pg Marítim de Nova Icària,,59.7,no_facade,16.85,check
+0251920AR,Pinus pinea,False,C\ Wellington,,29.06,no_kerb,,check
+0251937AR,Morus kagayamae,False,Pg Marítim de Nova Icària,,20.96,median,15.27,check
+0251950AR,Morus alba 'Fruitless',False,Pg Marítim de Nova Icària,,60.75,no_facade,15.11,check
+0251961AR,Platanus × acerifolia,True,Pg Marítim de Nova Icària,,47.26,no_facade,,check
+0251963AR,Platanus × acerifolia,True,Pg Marítim de Nova Icària,,25.99,no_kerb,,check
+0251982AR,Morus alba 'Fruitless',False,Pg Marítim de Nova Icària,,70.77,no_facade,15.23,check
+0251983AR,Morus kagayamae,False,Pg Marítim de Nova Icària,,25.22,median,15.18,check
+0252001AR,Morus alba,False,Parc Carles I,,15.05,no_kerb,,check
+0252034AR,Platanus × acerifolia,True,Pg Marítim de Nova Icària,,87.77,no_facade,14.82,check
+0252064AR,Populus nigra 'Italica',False,Jard Alícia de Larrocha,,3.56,no_kerb,,check
+0252066AR,Populus nigra 'Italica',False,Jard Alícia de Larrocha,,7.78,no_kerb,,check
+0252079AR,Phytolacca dioica,False,Pg Marítim de Nova Icària,,6.13,no_kerb,16.53,check
+0252080AR,Morus alba 'Fruitless',False,Pg Marítim de Nova Icària,,90.04,no_facade,15.3,check
+0252081AR,Ulmus pumila,False,Parc Carles I,,34.84,no_facade,,check
+0252104AR,Platanus × acerifolia,True,Pg Marítim de Nova Icària,,42.5,no_facade,41.02,check
+0252111AR,Morus kagayamae,False,Pg Marítim de Nova Icària,,92.1,no_facade,15.3,check
+0252114AR,Morus alba 'Fruitless',False,Pg Marítim de Nova Icària,,75.19,no_facade,15.23,check
+0252125AR,Pinus pinea,False,Parc Carles I,,38.98,no_facade,21.12,check
+0252135AR,Morus kagayamae,False,Pg Marítim de Nova Icària,,30.07,no_facade,15.21,check
+0252142AR,Morus alba 'Fruitless',False,Pg Marítim de Nova Icària,,94.66,no_facade,15.08,check
+0252157AR,Morus alba 'Fruitless',False,Pg Marítim de Nova Icària,,13.09,median,15.2,check
+0252163AR,Platanus × acerifolia,True,Pg Marítim de Nova Icària,,48.0,no_facade,,check
+0252165AR,Platanus × acerifolia,True,Pg Marítim de Nova Icària,18.3,7.61,ok,,large
+0252166AR,Platanus × acerifolia,True,Pg Marítim de Nova Icària,,32.19,no_facade,16.73,check
+0252179AR,Lagerstroemia indica,False,Jard Alícia de Larrocha,,11.44,no_kerb,,check
+0252182AR,Populus nigra 'Italica',False,Jard Alícia de Larrocha,,3.65,no_kerb,,check
+0252186AR,Tamarix gallica,False,Pg Marítim de Nova Icària,,74.75,no_facade,16.68,check
+0252189AR,Morus alba 'Fruitless',False,Pg Marítim de Nova Icària,,104.11,no_facade,15.24,check
+0252200AR,Morus alba,False,Parc Carles I,,16.91,no_kerb,,check
+0252211AR,Morus kagayamae,False,Pg Marítim de Nova Icària,,92.81,no_facade,15.08,check
+0292100AR,Celtis australis,False,C\ Ramon Turró,4.6,4.1,ok,,medium
+0292101AR,Platanus × acerifolia,True,C\ Ramon Turró,4.81,4.23,ok,,medium
+0292102AR,Platanus × acerifolia,True,C\ Ramon Turró,6.55,5.93,ok,,large
+0292103AR,Platanus × acerifolia,True,C\ Ramon Turró,14.61,13.18,ok,,large
+0292104AR,Platanus × acerifolia,True,C\ Ramon Turró,,15.44,median,,check
+0292105AR,Celtis australis,False,C\ Ramon Turró,4.58,4.12,ok,,medium
+0292106AR,Celtis australis,False,C\ Ramon Turró,4.84,4.25,ok,,medium
+0292376AR,Schinus molle,False,Av Bogatell,,29.04,median,,check
+0294453AR,Platanus × acerifolia,True,Parc Carles I,,80.06,no_facade,,check
+0304350AR,Koelreuteria paniculata 'Fastigiata',False,Av Litoral,27.78,21.78,ok,,large
+0304529AR,Pinus pinea,False,C\ Ramon Trias Fargas,15.16,10.1,ok,,large
+0305267AR,Tipuana tipu,False,C\ Wellington,18.02,6.67,ok,,large
+0305268AR,Tipuana tipu,False,C\ Wellington,22.72,10.48,ok,,large
+0305269AR,Tipuana tipu,False,C\ Wellington,22.94,7.32,ok,,large
+0305270AR,Tipuana tipu,False,C\ Wellington,26.88,3.79,ok,,large
+0305271AR,Tipuana tipu,False,C\ Wellington,,3.71,no_kerb,38.97,check
+0305272AR,Tipuana tipu,False,C\ Wellington,,4.52,no_kerb,,check
+0305273AR,Tipuana tipu,False,C\ Wellington,29.91,8.51,ok,,large
+0305274AR,Tipuana tipu,False,C\ Wellington,,11.56,no_kerb,39.04,check
+0305276AR,Platanus × acerifolia,True,C\ Ramon Trias Fargas,16.92,11.16,ok,,large
+0305277AR,Morus alba,False,C\ Marina,,134.99,no_facade,,check
+0305293AR,Platanus × acerifolia,True,C\ Ramon Turró,4.37,3.96,ok,,medium
+0306513AR,Cupressus sempervirens 'Stricta',False,C\ Marina,,30.99,no_facade,24.21,check
+0309029AR,Morus alba 'Fruitless',False,Pg Marítim de Nova Icària,,72.37,no_facade,15.29,check
+0313969AR,Ulmus pumila,False,Parc Carles I,,44.78,no_facade,27.46,check
+0318941AR,Tamarix gallica,False,Pg Marítim de Nova Icària,,74.87,no_facade,16.68,check
+0318943AR,Morus alba 'Fruitless',False,Pg Marítim de Nova Icària,,98.48,no_facade,16.83,check
+0321339AR,Cupressus sempervirens 'Stricta',False,C\ Marina,7.08,1.54,ok,,large
+0322091AR,Ulmus pumila,False,C\ Marina,,24.57,median,25.7,check
+0322115AR,Celtis australis,False,C\ Rosa Sensat,10.35,8.77,ok,,large
+0322140AR,Platanus × acerifolia,True,Av Icària,8.64,7.82,ok,,large
+0322141AR,Celtis australis,False,C\ Salvador Espriu,21.63,16.87,ok,,large
+0322169AR,Tipuana tipu,False,C\ Salvador Espriu,29.48,17.51,ok,,large
+0322171AR,Tipuana tipu,False,C\ Salvador Espriu,27.5,12.86,ok,,large
+0330852AR,Quercus ilex,False,C\ Salvador Espriu,,11.52,no_kerb,,check
+0335065AR,Melia azedarach,False,C\ Marina,11.56,10.52,ok,,large
+0335503AR,Celtis australis,False,C\ Salvador Espriu,27.39,23.13,ok,,large
+0335701AR,Tipuana tipu,False,C\ Salvador Espriu,,26.09,no_kerb,,check
+0335702AR,Tipuana tipu,False,C\ Salvador Espriu,,29.77,no_kerb,,check
+0335703AR,Tipuana tipu,False,C\ Salvador Espriu,,32.24,no_facade,,check
+0335704AR,Pistacia atlantica,False,C\ Salvador Espriu,,41.45,no_facade,,check
+0335705AR,Tipuana tipu,False,C\ Salvador Espriu,,39.09,no_facade,,check
+0335706AR,Pistacia atlantica,False,C\ Salvador Espriu,,35.23,no_facade,,check
+0335707AR,Tipuana tipu,False,C\ Salvador Espriu,,37.29,no_facade,,check
+0335708AR,Schinus molle,False,C\ Salvador Espriu,,31.41,no_facade,,check
+0335709AR,Schinus molle,False,C\ Salvador Espriu,,25.05,no_kerb,,check
+0335710AR,Schinus molle,False,C\ Salvador Espriu,,20.55,no_kerb,,check
+0335711AR,Tipuana tipu,False,C\ Salvador Espriu,,23.06,no_kerb,,check
+0335712AR,Tipuana tipu,False,C\ Salvador Espriu,,24.11,no_kerb,,check
+0335713AR,Tipuana tipu,False,C\ Salvador Espriu,,21.72,no_kerb,,check
+0335714AR,Tipuana tipu,False,C\ Salvador Espriu,,18.0,no_kerb,,check
+0335715AR,Tipuana tipu,False,C\ Salvador Espriu,,19.79,no_kerb,,check
+0335716AR,Tipuana tipu,False,C\ Salvador Espriu,,15.58,no_kerb,,check
+0335717AR,Tipuana tipu,False,C\ Salvador Espriu,,14.32,no_kerb,,check

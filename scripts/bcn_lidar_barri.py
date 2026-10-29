@@ -10,7 +10,8 @@ Outputs: raw/lidar/<slug>_{dtm,chm,bldg}_05m.tif
          databases/barcelona/barris/<slug>/trees_lidar.csv     per inventory street tree, EPSG:25831
          databases/barcelona/barris/<slug>/buildings.geojson   OSM footprints (ODbL) with LiDAR height, EPSG:25831
          databases/barcelona/lidar_tiles_dates.csv             flight dates of the tiles read (leaf-on check), appended
-Memory: the points of the whole extent are held at once (x, y, z, class); 8 tiles for Sant Antoni (0.8 km²)."""
+Memory: the points of the whole extent are held at once as cell index, height and class (9 bytes per point;
+Sant Antoni: 67 M points, 8 tiles)."""
 import sys, datetime, pathlib, numpy as np, pandas as pd, laspy, rasterio, requests
 from rasterio.transform import from_origin
 from rasterio.features import rasterize, shapes
@@ -38,7 +39,8 @@ x0, y0, x1, y1 = site.total_bounds + np.array([-BUFFER_M, -BUFFER_M, BUFFER_M, B
 W, H = int(np.ceil((x1 - x0) / RES)), int(np.ceil((y1 - y0) / RES))
 T = from_origin(x0, y1, RES, RES)
 
-done = (out_dir / "trees_lidar.csv").exists() and all((LID / f"{s}_{k}_05m.tif").exists() for k in ("dtm", "bldg"))
+tf = out_dir / "trees_lidar.csv"
+done = tf.exists() and len(pd.read_csv(tf)) > 0 and all((LID / f"{s}_{k}_05m.tif").exists() for k in ("dtm", "bldg"))
 if done:                                                 # LiDAR already processed: only the buildings step is redone
     print("LiDAR outputs found: skipping to the buildings (delete trees_lidar.csv to redo the LiDAR)")
     dtm, bldg = (rasterio.open(LID / f"{s}_{k}_05m.tif").read(1) for k in ("dtm", "bldg"))
@@ -65,28 +67,25 @@ else:
                 x, y = np.asarray(p.x), np.asarray(p.y)
                 m = (x >= x0) & (x <= x1) & (y >= y0) & (y <= y1)
                 if m.any():
-                    parts.append((x[m], y[m], np.asarray(p.z)[m].astype("float32"), np.asarray(p.classification)[m]))
+                    cell = ((y1 - y[m]) / RES).astype("int32").clip(0, H - 1) * W + ((x[m] - x0) / RES).astype("int32").clip(0, W - 1)
+                    parts.append((cell, np.asarray(p.z)[m].astype("float32"), np.asarray(p.classification)[m]))
                     g = np.asarray(p.gps_time)[m]
                     gmin, gmax = min(gmin, g.min()), max(gmax, g.max())
         if np.isfinite(gmin):
             off = 1e9 if adjusted else 0                     # LAS 1.4 adjusted standard GPS time
             dates.append(dict(tile=t, first=(GPS0 + datetime.timedelta(seconds=float(gmin + off))).date(),
                               last=(GPS0 + datetime.timedelta(seconds=float(gmax + off))).date()))
-    x, y, z, c = (np.concatenate(a) for a in zip(*parts))
+    idx, z, c = (np.concatenate(a) for a in zip(*parts))   # 9 bytes per point: cell index, height, class
     del parts
     d = pd.DataFrame(dates)
     d["leaf_off_check"] = pd.to_datetime(d["first"]).dt.month.isin([12, 1, 2, 3]) | pd.to_datetime(d["last"]).dt.month.isin([12, 1, 2, 3])
-    print(f"{len(x):,} points in {name} + {BUFFER_M:.0f} m from {len(tiles)} tiles; flight dates:\n{d.to_string(index=False)}")
+    print(f"{len(z):,} points in {name} + {BUFFER_M:.0f} m from {len(tiles)} tiles; flight dates:\n{d.to_string(index=False)}")
     if d.leaf_off_check.any():
         print("WARNING: some tiles were flown Dec–Mar (crowns of deciduous trees may be leafless): check before using the crowns")
     old = pd.read_csv(DB / "lidar_tiles_dates.csv", dtype={"tile": str})
     pd.concat([old, d.drop(columns="leaf_off_check").astype({"first": str, "last": str})]).drop_duplicates("tile", keep="last") \
         .to_csv(DB / "lidar_tiles_dates.csv", index=False)
 
-    col = ((x - x0) / RES).astype(int).clip(0, W - 1)
-    row = ((y1 - y) / RES).astype(int).clip(0, H - 1)
-    idx = row * W + col
-    del col, row
 
 
     def grid(mask, how):
@@ -108,7 +107,9 @@ else:
 
     # ---- 3. trees: seed watershed at inventory positions on the CHM
     t = pd.read_csv(DB / "arbrat_viari.csv")
-    t = t[(t.tipus_element == "ARBRE VIARI") & (t.nom_barri.fillna("").map(slug) == s)].reset_index(drop=True)
+    key = lambda n: slug(n).replace("-", "")          # the inventory spells some names without the apostrophe
+    t = t[(t.tipus_element == "ARBRE VIARI") & (t.nom_barri.fillna("").map(key) == key(name))].reset_index(drop=True)
+    assert len(t), f"no inventory street trees for {name!r}; inventory names: {sorted(t.nom_barri.dropna().unique())}"
     tc = ((t.x_etrs89 - x0) / RES).astype(int).values
     tr = ((y1 - t.y_etrs89) / RES).astype(int).values
     canopy = ndimage.binary_opening(chm > 2.0, iterations=1)
@@ -156,6 +157,7 @@ except Exception as e:
     m = ndimage.binary_opening(np.nan_to_num(bldg) > 2.5).astype("uint8")
     bld = gpd.GeoDataFrame(geometry=[shape(g) for g, v in shapes(m, mask=m.astype(bool), transform=T)], crs=25831)
     bld = bld[bld.area >= 10].reset_index(drop=True).assign(source="lidar")
+    bld["geometry"] = bld.simplify(RES)                  # drop the 0.5 m stair steps (files were up to 87 MB)
 lab_b = rasterize(((geom, i + 1) for i, geom in enumerate(bld.geometry)), out_shape=(H, W), transform=T, fill=0, dtype="int32")
 bi = np.arange(1, len(bld) + 1)
 bld["height_m"] = np.round(ndimage.median(np.nan_to_num(bldg, nan=0), lab_b, bi), 2)

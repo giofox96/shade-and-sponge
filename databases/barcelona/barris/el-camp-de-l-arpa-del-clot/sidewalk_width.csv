@@ -1,0 +1,2008 @@
+tree_id,species,is_plane,street,width_m,facade_dist_m,flag,strip_width_m,size_class
+0155033AR,Koelreuteria paniculata 'Fastigiata',False,Pl Carme Montoriol,11.42,6.12,ok,,large
+0155231AR,Cedrus atlantica,False,C\ Guinardó,10.59,7.34,ok,,large
+0155232AR,Eriobotrya japonica,False,C\ Guinardó,10.6,3.92,ok,,large
+0155233AR,Cupressus sempervirens,False,C\ Guinardó,10.58,7.43,ok,,large
+0155234AR,Morus alba 'Pendula',False,C\ Guinardó,10.6,6.04,ok,,large
+0155235AR,Jacaranda mimosifolia,False,C\ Freser,12.25,8.35,ok,,large
+0155236AR,Platanus × acerifolia,True,C\ Trinxant,4.86,5.23,ok,,medium
+0155237AR,Celtis australis,False,C\ Independència,4.74,4.06,ok,,medium
+0155238AR,Koelreuteria paniculata,False,C\ Provença,5.06,4.03,ok,,medium
+0155239AR,Melia azedarach,False,Pl Can Robacols,,14.16,median,38.8,check
+0155240AR,Cercis siliquastrum,False,C\ Nació,2.96,2.49,ok,,small
+0155241AR,Platanus × acerifolia,True,C\ València,5.68,4.52,ok,,medium
+0155242AR,Celtis australis,False,C\ Provença,5.22,3.39,ok,,medium
+0155243AR,Platanus × acerifolia,True,C\ Independència,4.83,4.83,ok,,medium
+0155244AR,Ulmus pumila,False,C\ Mallorca,8.1,4.73,ok,,large
+0155245AR,Platanus × acerifolia,True,C\ Mallorca,,15.93,median,27.84,check
+0155246AR,Celtis australis,False,C\ Degà Bahí,4.22,3.55,ok,,medium
+0155247AR,Platanus × acerifolia,True,C\ Indústria,5.37,4.05,ok,,medium
+0155248AR,Platanus × acerifolia,True,C\ Conca,4.95,3.93,ok,,medium
+0155249AR,Celtis australis,False,C\ Rosselló,4.92,3.44,ok,,medium
+0155250AR,Ulmus pumila,False,C\ Freser,5.25,4.17,ok,,medium
+0155252AR,Platanus × acerifolia,True,C\ Conca,4.94,3.91,ok,,medium
+0155253AR,Celtis australis,False,C\ Mallorca,4.7,3.33,ok,,medium
+0155255AR,Platanus × acerifolia,True,C\ Sant Antoni Maria Claret,5.05,4.22,ok,,medium
+0155257AR,Celtis australis,False,C\ Rogent,,2.48,no_kerb,,check
+0155258AR,Celtis australis,False,Pg Maragall,6.75,6.0,ok,,large
+0155259AR,Platanus × acerifolia,True,Av Meridiana,,11.46,median,,check
+0155261AR,Celtis australis,False,C\ Enamorats,3.47,2.7,ok,,small
+0155262AR,Celtis australis,False,C\ Còrsega,4.62,3.51,ok,,medium
+0155263AR,Celtis australis,False,C\ Sant Antoni Maria Claret,5.27,3.73,ok,,medium
+0155264AR,Celtis australis,False,C\ Enamorats,,5.58,no_kerb,,check
+0155265AR,Platanus × acerifolia,True,C\ Rosselló,4.85,3.97,ok,,medium
+0155266AR,Celtis australis,False,C\ Rogent,,1.79,no_kerb,,check
+0155268AR,Platanus × acerifolia,True,C\ Sant Antoni Maria Claret,5.03,4.11,ok,,medium
+0155269AR,Platanus × acerifolia,True,C\ Indústria,5.35,3.91,ok,,medium
+0155270AR,Celtis australis,False,C\ Dos de Maig,3.94,3.29,ok,,medium
+0155271AR,Celtis australis,False,C\ Provença,4.68,3.61,ok,,medium
+0155272AR,Celtis australis,False,C\ Rogent,,2.66,no_kerb,,check
+0155273AR,Celtis australis,False,C\ Independència,4.52,3.59,ok,,medium
+0155274AR,Celtis australis,False,C\ Conca,,15.85,median,,check
+0155275AR,Melia azedarach,False,C\ Dos de Maig,4.8,4.51,ok,,medium
+0155276AR,Ulmus pumila,False,C\ Sant Antoni Maria Claret,5.28,3.83,ok,,medium
+0155277AR,Acer platanoides,False,C\ Josepa Massanés,3.21,2.33,ok,,small
+0155278AR,Platanus × acerifolia,True,Av Meridiana,11.9,8.67,ok,,large
+0155280AR,Platanus × acerifolia,True,C\ Mallorca,,15.33,median,,check
+0155281AR,Celtis australis,False,C\ Mallorca,5.18,4.25,ok,,medium
+0155282AR,Celtis australis,False,C\ Independència,4.83,3.21,ok,,medium
+0155283AR,Cercis siliquastrum,False,C\ Nació,3.37,2.14,ok,,small
+0155284AR,Ulmus pumila,False,C\ Freser,5.2,3.86,ok,,medium
+0155285AR,Platanus × acerifolia,True,C\ València,3.73,2.78,ok,,medium
+0155286AR,Cercis siliquastrum,False,C\ Nació,3.03,2.13,ok,,small
+0155287AR,Celtis australis,False,C\ Indústria,3.83,4.41,ok,,medium
+0155290AR,Celtis australis,False,C\ Rogent,14.56,5.74,ok,,large
+0155292AR,Celtis australis,False,C\ Sant Antoni Maria Claret,5.08,4.02,ok,,medium
+0155294AR,Platanus × acerifolia,True,C\ Independència,4.75,2.92,ok,,medium
+0155295AR,Platanus × acerifolia,True,C\ Indústria,5.15,3.8,ok,,medium
+0155296AR,Prunus cerasifera 'Pissardii',False,C\ Sibelius,,1.78,no_kerb,,check
+0155297AR,Celtis australis,False,C\ Indústria,5.06,4.06,ok,,medium
+0155298AR,Ulmus pumila,False,C\ Sant Antoni Maria Claret,4.97,3.58,ok,,medium
+0155299AR,Celtis australis,False,C\ Enamorats,4.16,3.49,ok,,medium
+0155300AR,Melia azedarach,False,C\ Sant Antoni Maria Claret,9.78,8.74,ok,,large
+0155301AR,Celtis australis,False,C\ Conca,4.95,3.69,ok,,medium
+0155302AR,Platanus × acerifolia,True,C\ Trinxant,6.7,5.2,ok,,large
+0155303AR,Platanus × acerifolia,True,C\ Indústria,4.64,3.32,ok,,medium
+0155304AR,Celtis australis,False,Av Meridiana,,10.18,median,3.24,check
+0155305AR,Celtis australis,False,C\ Enamorats,,3.12,no_kerb,,check
+0155307AR,Cercis siliquastrum,False,C\ Xifré,3.22,2.42,ok,,small
+0155308AR,Celtis australis,False,C\ Dos de Maig,3.85,3.54,ok,,medium
+0155309AR,Platanus × acerifolia,True,C\ Conca,,22.34,median,8.35,check
+0155310AR,Celtis australis,False,C\ Degà Bahí,4.71,3.86,ok,,medium
+0155311AR,Citrus × aurantium,False,C\ Vidiella,1.78,1.44,ok,,none
+0155312AR,Cercis siliquastrum,False,C\ Xifré,3.24,2.17,ok,,small
+0155313AR,Platanus × acerifolia,True,C\ Aragó,5.3,4.24,ok,,medium
+0155314AR,Celtis australis,False,C\ Rogent,13.63,3.84,ok,,large
+0155315AR,Celtis australis,False,C\ Mallorca,4.81,3.18,ok,,medium
+0155316AR,Platanus × acerifolia,True,C\ Trinxant,7.59,7.09,ok,,large
+0155317AR,Platanus × acerifolia,True,C\ Sant Quintí,4.99,4.09,ok,,medium
+0155318AR,Platanus × acerifolia,True,C\ València,5.7,3.47,ok,,medium
+0155319AR,Styphnolobium japonicum,False,C\ Sant Antoni Maria Claret,4.8,4.13,ok,,medium
+0155321AR,Platanus × acerifolia,True,C\ Provença,5.21,4.39,ok,,medium
+0155322AR,Celtis australis,False,C\ Rogent,,3.07,no_kerb,,check
+0155323AR,Celtis australis,False,C\ Independència,5.14,5.15,ok,,medium
+0155324AR,Celtis australis,False,C\ Provença,5.24,3.95,ok,,medium
+0155326AR,Platanus × acerifolia,True,C\ Indústria,3.32,2.45,ok,,small
+0155327AR,Platanus × acerifolia,True,C\ Indústria,5.08,4.59,ok,,medium
+0155328AR,Melia azedarach,False,C\ Sant Antoni Maria Claret,5.06,3.9,ok,,medium
+0155329AR,Celtis australis,False,C\ Independència,4.74,5.02,ok,,medium
+0155330AR,Platanus × acerifolia,True,C\ Freser,11.11,5.11,ok,,large
+0155331AR,Celtis australis,False,C\ Sant Antoni Maria Claret,2.95,2.07,ok,,small
+0155332AR,Celtis australis,False,C\ Rogent,13.52,3.87,ok,,large
+0155334AR,Platanus × acerifolia,True,C\ Mallorca,4.76,3.65,ok,,medium
+0155335AR,Magnolia grandiflora,False,C\ Ripollès,,8.41,median,,check
+0155336AR,Grevillea robusta,False,C\ Freser,4.86,4.41,ok,,medium
+0155337AR,Celtis australis,False,C\ Independència,4.94,4.26,ok,,medium
+0155338AR,Platanus × acerifolia,True,C\ Independència,4.97,4.36,ok,,medium
+0155339AR,Celtis australis,False,C\ Independència,4.87,4.66,ok,,medium
+0155341AR,Platanus × acerifolia,True,C\ Josepa Massanés,3.15,2.18,ok,,small
+0155342AR,Platanus × acerifolia,True,C\ València,4.25,3.3,ok,,medium
+0155343AR,Prunus cerasifera 'Pissardii',False,C\ Sibelius,,1.32,no_kerb,,check
+0155344AR,Ligustrum lucidum,False,Pl Can Robacols,,14.5,median,,check
+0155345AR,Celtis australis,False,C\ Rogent,,5.33,no_kerb,,check
+0155346AR,Platanus × acerifolia,True,C\ Indústria,14.09,13.86,ok,,large
+0155347AR,Robinia pseudoacacia,False,C\ Pistó,,5.79,median,,check
+0155348AR,Platanus × acerifolia,True,C\ Trinxant,6.26,4.77,ok,,large
+0155349AR,Celtis australis,False,C\ Rogent,,3.34,no_kerb,,check
+0155350AR,Celtis australis,False,C\ Degà Bahí,4.55,3.38,ok,,medium
+0155351AR,Ulmus pumila,False,C\ Mallorca,5.04,3.81,ok,,medium
+0155352AR,Celtis australis,False,C\ Indústria,3.23,2.44,ok,,small
+0155353AR,Platanus × acerifolia,True,C\ Enamorats,4.42,3.2,ok,,medium
+0155354AR,Celtis australis,False,C\ Independència,4.58,2.23,ok,,medium
+0155355AR,Platanus × acerifolia,True,C\ Josepa Massanés,3.06,2.17,ok,,small
+0155356AR,Celtis australis,False,C\ Trinxant,,9.04,median,9.42,check
+0155358AR,Celtis australis,False,C\ Trinxant,7.59,7.11,ok,,large
+0155359AR,Brachychiton acerifolius,False,C\ Rosselló,5.23,4.08,ok,,medium
+0155360AR,Celtis australis,False,Pg Maragall,7.93,7.7,ok,,large
+0155362AR,Celtis australis,False,C\ Freser,5.43,5.16,ok,,medium
+0155365AR,Cercis siliquastrum,False,C\ Xifré,3.16,2.31,ok,,small
+0155366AR,Ginkgo biloba 'Fastigiata',False,C\ Sibelius,16.1,1.11,ok,,large
+0155367AR,Platanus × acerifolia,True,C\ Còrsega,5.05,3.73,ok,,medium
+0155368AR,Celtis australis,False,C\ Independència,5.03,3.56,ok,,medium
+0155369AR,Robinia pseudoacacia,False,Pl Can Robacols,,9.24,median,,check
+0155370AR,Robinia pseudoacacia,False,C\ Dos de Maig,4.78,4.62,ok,,medium
+0155371AR,Platanus × acerifolia,True,C\ Indústria,6.3,5.03,ok,,large
+0155372AR,Celtis australis,False,C\ Conca,,16.22,median,5.0,check
+0155373AR,Ligustrum lucidum,False,C\ Rosselló,3.88,3.33,ok,,medium
+0155375AR,Celtis australis,False,Av Meridiana,,22.41,median,,check
+0155376AR,Magnolia grandiflora,False,C\ Josepa Massanés,,9.89,median,22.75,check
+0155377AR,Celtis australis,False,C\ Enamorats,3.59,2.85,ok,,medium
+0155378AR,Ginkgo biloba 'Fastigiata',False,C\ Sibelius,,1.51,no_kerb,,check
+0155379AR,Platanus × acerifolia,True,Av Meridiana,11.76,8.48,ok,,large
+0155380AR,Ulmus pumila,False,C\ Freser,4.36,3.85,ok,,medium
+0155381AR,Platanus × acerifolia,True,C\ Rosselló,3.87,3.34,ok,,medium
+0155382AR,Ginkgo biloba 'Fastigiata',False,C\ Sibelius,,2.44,no_kerb,,check
+0155384AR,Celtis australis,False,C\ Trinxant,5.04,4.6,ok,,medium
+0155385AR,Cercis siliquastrum,False,C\ Nació,3.12,1.68,ok,,small
+0155386AR,Platanus × acerifolia,True,C\ Trinxant,7.71,6.99,ok,,large
+0155387AR,Gleditsia triacanthos f. inermis,False,C\ Mallorca,4.93,2.61,ok,,medium
+0155388AR,Celtis australis,False,C\ Conca,5.23,3.07,ok,,medium
+0155389AR,Celtis australis,False,C\ Rogent,,7.91,no_kerb,,check
+0155390AR,Celtis australis,False,C\ Enamorats,4.2,2.88,ok,,medium
+0155391AR,Prunus cerasifera 'Pissardii',False,C\ Sibelius,,1.28,no_kerb,,check
+0155392AR,Platanus × acerifolia,True,C\ Provença,4.94,3.32,ok,,medium
+0155393AR,Celtis australis,False,Pg Maragall,8.88,6.47,ok,,large
+0155394AR,Celtis australis,False,C\ Enamorats,9.35,6.79,ok,,large
+0155395AR,Celtis australis,False,C\ Rosselló,5.78,4.06,ok,,medium
+0155396AR,Platanus × acerifolia,True,C\ Indústria,3.27,2.56,ok,,small
+0155397AR,Ulmus pumila,False,C\ Sant Antoni Maria Claret,,16.06,median,5.17,check
+0155398AR,Gleditsia triacanthos f. inermis,False,Pl Doctor Serrat,,19.25,median,14.53,check
+0155399AR,Celtis australis,False,C\ Mallorca,5.04,3.79,ok,,medium
+0155400AR,Celtis australis,False,Pg Maragall,6.3,5.76,ok,,large
+0155401AR,Celtis australis,False,C\ Mallorca,4.76,3.2,ok,,medium
+0155402AR,Celtis australis,False,C\ Còrsega,4.71,3.33,ok,,medium
+0155403AR,Cercis siliquastrum,False,C\ Nació,3.27,2.1,ok,,small
+0155404AR,Celtis australis,False,C\ Rogent,,3.8,no_kerb,40.92,check
+0155405AR,Celtis australis,False,C\ Còrsega,5.0,3.72,ok,,medium
+0155406AR,Platanus × acerifolia,True,C\ Rosselló,5.25,4.49,ok,,medium
+0155407AR,Robinia pseudoacacia,False,C\ Ripollès,,11.36,median,,check
+0155409AR,Celtis australis,False,C\ València,3.9,1.85,ok,,medium
+0155410AR,Celtis australis,False,C\ Rogent,,4.04,no_kerb,,check
+0155411AR,Celtis australis,False,C\ Degà Bahí,4.68,4.0,ok,,medium
+0155412AR,Celtis australis,False,C\ Sant Antoni Maria Claret,5.21,3.65,ok,,medium
+0155414AR,Platanus × acerifolia,True,C\ Independència,4.96,4.59,ok,,medium
+0155415AR,Platanus × acerifolia,True,C\ Enamorats,4.41,3.38,ok,,medium
+0155416AR,Celtis australis,False,C\ Rogent,,3.56,no_kerb,,check
+0155417AR,Celtis australis,False,C\ Rogent,,2.14,no_kerb,,check
+0155418AR,Cercis siliquastrum,False,C\ Nació,3.22,1.82,ok,,small
+0155419AR,Celtis australis,False,C\ Freser,6.27,4.89,ok,,large
+0155420AR,Celtis australis,False,C\ Rogent,,2.31,no_kerb,,check
+0155421AR,Magnolia grandiflora,False,C\ Josepa Massanés,,11.02,median,,check
+0155422AR,Celtis australis,False,C\ Mallorca,4.75,3.18,ok,,medium
+0155423AR,Celtis australis,False,C\ Rogent,,3.08,no_kerb,,check
+0155424AR,Platanus × acerifolia,True,C\ Sant Quintí,6.2,5.17,ok,,large
+0155426AR,Celtis australis,False,Pg Maragall,8.65,6.66,ok,,large
+0155427AR,Platanus × acerifolia,True,C\ Independència,5.02,4.47,ok,,medium
+0155428AR,Platanus × acerifolia,True,C\ Enamorats,27.58,5.93,ok,,large
+0155430AR,Ulmus pumila,False,C\ Indústria,5.31,4.01,ok,,medium
+0155431AR,Celtis australis,False,Pg Maragall,18.56,17.73,ok,,large
+0155432AR,Ulmus pumila,False,C\ Sant Antoni Maria Claret,,16.57,median,5.14,check
+0155433AR,Platanus × acerifolia,True,Av Meridiana,12.68,9.43,ok,,large
+0155434AR,Pyrus calleryana 'Chanticleer',False,C\ Nació,3.19,2.87,ok,,small
+0155435AR,Celtis australis,False,C\ Rogent,,2.87,no_kerb,,check
+0155436AR,Celtis australis,False,C\ Rogent,,2.18,no_kerb,,check
+0155437AR,Platanus × acerifolia,True,C\ Indústria,5.57,4.09,ok,,medium
+0155438AR,Celtis australis,False,C\ Independència,5.19,4.06,ok,,medium
+0155440AR,Celtis australis,False,C\ Mallorca,6.0,4.01,ok,,medium
+0155441AR,Melia azedarach,False,C\ Sant Antoni Maria Claret,6.69,5.65,ok,,large
+0155442AR,Robinia pseudoacacia,False,C\ Antic de Bofarull,2.53,2.14,ok,,small
+0155443AR,Fraxinus ornus OBELISK® 'Paus Johannes-Paulus II',False,C\ Antic de Bofarull,2.56,2.1,ok,,small
+0155444AR,Celtis australis,False,C\ Rogent,,2.19,no_kerb,,check
+0155445AR,Celtis australis,False,C\ Rosselló,4.97,3.87,ok,,medium
+0155446AR,Celtis australis,False,C\ Indústria,3.88,3.89,ok,,medium
+0155447AR,Celtis australis,False,C\ Rogent,18.18,7.68,ok,,large
+0155448AR,Platanus × acerifolia,True,C\ Mallorca,5.12,4.27,ok,,medium
+0155449AR,Celtis australis,False,Pg Maragall,8.81,6.45,ok,,large
+0155450AR,Pyrus calleryana 'Chanticleer',False,C\ Nació,3.02,1.69,ok,,small
+0155451AR,Celtis australis,False,C\ Trinxant,4.49,3.48,ok,,medium
+0155453AR,Platanus × acerifolia,True,C\ Sant Quintí,4.92,3.8,ok,,medium
+0155455AR,Platanus × acerifolia,True,C\ Dos de Maig,4.14,4.1,ok,,medium
+0155456AR,Cercis siliquastrum,False,C\ Nació,3.08,1.66,ok,,small
+0155457AR,Celtis australis,False,C\ Provença,5.05,4.51,ok,,medium
+0155459AR,Celtis australis,False,C\ Rogent,,2.76,no_kerb,,check
+0155461AR,Celtis australis,False,C\ Dos de Maig,3.91,4.12,ok,,medium
+0155462AR,Celtis australis,False,C\ Mallorca,4.76,3.58,ok,,medium
+0155463AR,Magnolia grandiflora,False,C\ Pistó,,6.09,median,,check
+0155464AR,Celtis australis,False,Pl Doctor Serrat,,19.27,median,30.89,check
+0155465AR,Celtis australis,False,C\ Sant Antoni Maria Claret,18.34,14.71,ok,,large
+0155466AR,Robinia pseudoacacia,False,Pl Can Robacols,,14.88,median,,check
+0155467AR,Prunus cerasifera 'Pissardii',False,C\ Josepa Massanés,3.21,2.3,ok,,small
+0155468AR,Cercis siliquastrum,False,C\ Nació,3.22,3.1,ok,,small
+0155470AR,Celtis australis,False,C\ Rogent,,2.42,no_kerb,,check
+0155472AR,Gleditsia triacanthos f. inermis,False,C\ Mallorca,4.94,3.71,ok,,medium
+0155473AR,Platanus × acerifolia,True,C\ Provença,5.21,4.6,ok,,medium
+0155474AR,Celtis australis,False,C\ Sant Antoni Maria Claret,5.03,4.43,ok,,medium
+0155475AR,Celtis australis,False,C\ Còrsega,4.89,3.52,ok,,medium
+0155476AR,Platanus × acerifolia,True,C\ Dos de Maig,4.75,4.68,ok,,medium
+0155477AR,Platanus × acerifolia,True,C\ Rogent,24.24,5.17,ok,,large
+0155478AR,Celtis australis,False,C\ València,4.58,3.49,ok,,medium
+0155479AR,Ulmus pumila,False,C\ Freser,5.34,4.06,ok,,medium
+0155480AR,Platanus × acerifolia,True,Av Meridiana,12.61,9.71,ok,,large
+0155481AR,Cercis siliquastrum,False,C\ Nació,2.98,2.08,ok,,small
+0155482AR,Celtis australis,False,C\ Rogent,,1.9,no_kerb,,check
+0155483AR,Parrotia persica 'Vanessa',False,C\ Nació,3.2,2.1,ok,,small
+0155484AR,Ulmus pumila,False,C\ Sant Antoni Maria Claret,5.31,3.83,ok,,medium
+0155485AR,Celtis australis,False,C\ Conca,4.92,3.87,ok,,medium
+0155487AR,Celtis australis,False,C\ Conca,4.88,3.77,ok,,medium
+0155488AR,Platanus × acerifolia,True,C\ Independència,4.91,4.91,ok,,medium
+0155489AR,Celtis australis,False,C\ Conca,,4.02,no_kerb,,check
+0155490AR,Prunus cerasifera 'Pissardii',False,C\ Josepa Massanés,3.48,2.17,ok,,small
+0155491AR,Cercis siliquastrum,False,C\ Xifré,2.99,2.77,ok,,small
+0155492AR,Platanus × acerifolia,True,C\ Josepa Massanés,3.13,1.99,ok,,small
+0155493AR,Celtis australis,False,Av Meridiana,,3.34,median,3.21,check
+0155494AR,Platanus × acerifolia,True,C\ Trinxant,5.15,3.72,ok,,medium
+0155495AR,Celtis australis,False,C\ Dos de Maig,4.88,4.68,ok,,medium
+0155496AR,Celtis australis,False,C\ Provença,4.85,3.99,ok,,medium
+0155497AR,Ulmus pumila,False,C\ Freser,4.84,4.73,ok,,medium
+0155498AR,Platanus × acerifolia,True,C\ Provença,4.38,3.4,ok,,medium
+0155499AR,Platanus × acerifolia,True,C\ Freser,,11.82,median,15.38,check
+0155500AR,Grevillea robusta,False,C\ Enamorats,23.29,5.69,ok,,large
+0155501AR,Celtis australis,False,C\ Independència,4.95,4.03,ok,,medium
+0155502AR,Celtis australis,False,C\ Sant Antoni Maria Claret,5.12,2.93,ok,,medium
+0155503AR,Celtis australis,False,C\ València,3.35,2.71,ok,,small
+0155504AR,Platanus × acerifolia,True,C\ Independència,4.68,3.36,ok,,medium
+0155505AR,Celtis australis,False,C\ Mallorca,5.22,4.39,ok,,medium
+0155507AR,Cercis siliquastrum,False,C\ Xifré,3.03,1.27,ok,,small
+0155510AR,Robinia pseudoacacia,False,Pl Can Robacols,,14.62,median,,check
+0155511AR,Celtis australis,False,C\ Rosselló,5.78,4.58,ok,,medium
+0155512AR,Gleditsia triacanthos f. inermis,False,C\ Mallorca,5.04,3.78,ok,,medium
+0155513AR,Melia azedarach,False,C\ Indústria,6.25,4.76,ok,,large
+0155514AR,Platanus × acerifolia,True,C\ Independència,4.98,4.46,ok,,medium
+0155515AR,Platanus × acerifolia,True,C\ Sant Quintí,5.13,3.11,ok,,medium
+0155516AR,Celtis australis,False,C\ Independència,4.73,3.42,ok,,medium
+0155517AR,Platanus × acerifolia,True,C\ Independència,4.92,3.47,ok,,medium
+0155518AR,Celtis australis,False,C\ Mallorca,4.81,4.06,ok,,medium
+0155519AR,Cercis siliquastrum,False,C\ Nació,3.25,2.28,ok,,small
+0155520AR,Platanus × acerifolia,True,C\ Dos de Maig,5.09,5.21,ok,,medium
+0155521AR,Celtis australis,False,C\ Independència,4.95,3.96,ok,,medium
+0155522AR,Celtis australis,False,C\ Degà Bahí,10.05,9.26,ok,,large
+0155523AR,Platanus × acerifolia,True,C\ Conca,,16.05,median,,check
+0155524AR,Celtis australis,False,C\ Rogent,,1.5,no_kerb,,check
+0155525AR,Celtis australis,False,C\ Degà Bahí,4.32,2.87,ok,,medium
+0155526AR,Celtis australis,False,Av Meridiana,,37.86,no_facade,,check
+0155527AR,Celtis australis,False,C\ Enamorats,4.31,3.0,ok,,medium
+0155528AR,Prunus cerasifera 'Pissardii',False,C\ Josepa Massanés,2.92,2.05,ok,,small
+0155529AR,Cercis siliquastrum,False,C\ Nació,3.0,2.92,ok,,small
+0155530AR,Ulmus pumila,False,C\ Freser,23.7,4.03,ok,,large
+0155531AR,Cercis siliquastrum,False,C\ Xifré,6.76,5.99,ok,,large
+0155532AR,Robinia pseudoacacia,False,C\ Josepa Massanés,,10.11,median,,check
+0155533AR,Platanus × acerifolia,True,C\ Provença,4.73,3.73,ok,,medium
+0155534AR,Ulmus pumila,False,C\ Sant Antoni Maria Claret,2.57,1.69,ok,,small
+0155535AR,Platanus × acerifolia,True,C\ Sant Quintí,4.97,3.49,ok,,medium
+0155536AR,Celtis australis,False,C\ Rogent,,3.65,no_kerb,,check
+0155537AR,Robinia pseudoacacia,False,C\ Sant Antoni Maria Claret,4.98,4.46,ok,,medium
+0155538AR,Koelreuteria paniculata,False,C\ Conca,4.98,4.0,ok,,medium
+0155539AR,Celtis australis,False,C\ Conca,,3.89,no_kerb,28.14,check
+0155541AR,Celtis australis,False,C\ Sant Quintí,5.18,4.62,ok,,medium
+0155542AR,Platanus × acerifolia,True,C\ Las Navas de Tolosa,4.55,3.1,ok,,medium
+0155543AR,Platanus × acerifolia,True,Av Meridiana,11.77,8.29,ok,,large
+0155544AR,Platanus × acerifolia,True,C\ Indústria,3.26,2.97,ok,,small
+0155545AR,Celtis australis,False,Pg Maragall,6.74,5.84,ok,,large
+0155546AR,Celtis australis,False,C\ Rogent,,3.54,no_kerb,44.1,check
+0155547AR,Celtis australis,False,C\ Mallorca,4.8,4.87,ok,,medium
+0155548AR,Robinia pseudoacacia,False,Pl Can Robacols,,19.49,median,40.55,check
+0155549AR,Celtis australis,False,C\ Mallorca,4.68,4.1,ok,,medium
+0155551AR,Celtis australis,False,C\ Rogent,,3.28,no_kerb,,check
+0155552AR,Celtis australis,False,C\ Sant Antoni Maria Claret,,16.76,median,,check
+0155553AR,Celtis australis,False,C\ Corunya,5.1,4.16,ok,,medium
+0155554AR,Catalpa bignonioides,False,C\ Indústria,5.14,4.8,ok,,medium
+0155555AR,Celtis australis,False,Pg Maragall,6.49,5.62,ok,,large
+0155558AR,Platanus × acerifolia,True,C\ Freser,5.78,1.5,ok,,medium
+0155560AR,Celtis australis,False,C\ Enamorats,3.25,2.4,ok,,small
+0155561AR,Platanus × acerifolia,True,C\ Mallorca,5.07,3.06,ok,,medium
+0155563AR,Celtis australis,False,C\ Rogent,,3.24,no_kerb,,check
+0155565AR,Celtis australis,False,C\ Indústria,5.16,4.47,ok,,medium
+0155566AR,Platanus × acerifolia,True,C\ Rosselló,4.87,3.8,ok,,medium
+0155567AR,Celtis australis,False,Pg Maragall,5.66,4.9,ok,,medium
+0155568AR,Jacaranda mimosifolia,False,Pl Carme Montoriol,17.45,2.67,ok,,large
+0155569AR,Celtis australis,False,C\ Indústria,25.54,11.11,ok,,large
+0155570AR,Platanus × acerifolia,True,C\ Dos de Maig,5.06,4.81,ok,,medium
+0155571AR,Celtis australis,False,Pg Maragall,5.58,5.06,ok,,medium
+0155573AR,Platanus × acerifolia,True,C\ Trinxant,5.49,3.75,ok,,medium
+0155574AR,Platanus × acerifolia,True,C\ Las Navas de Tolosa,5.07,3.28,ok,,medium
+0155575AR,Celtis australis,False,C\ Rogent,,3.17,no_kerb,,check
+0155576AR,Celtis australis,False,C\ Dos de Maig,4.92,4.56,ok,,medium
+0155577AR,Celtis australis,False,C\ Independència,4.9,3.65,ok,,medium
+0155578AR,Platanus × acerifolia,True,C\ Sant Quintí,4.7,4.32,ok,,medium
+0155579AR,Celtis australis,False,C\ Enamorats,3.94,2.73,ok,,medium
+0155581AR,Platanus × acerifolia,True,C\ Provença,5.09,3.79,ok,,medium
+0155582AR,Platanus × acerifolia,True,C\ Freser,24.82,19.34,ok,,large
+0155583AR,Celtis australis,False,C\ Rogent,,3.67,no_kerb,,check
+0155584AR,Celtis australis,False,C\ Rogent,,3.68,no_kerb,45.08,check
+0155585AR,Platanus × acerifolia,True,Av Meridiana,12.62,9.94,ok,,large
+0155586AR,Celtis australis,False,C\ Rogent,12.64,2.53,ok,,large
+0155587AR,Celtis australis,False,C\ Dos de Maig,3.76,3.75,ok,,medium
+0155588AR,Celtis australis,False,Pg Maragall,6.8,6.76,ok,,large
+0155590AR,Cercis siliquastrum,False,Pg Maragall,18.02,11.11,ok,,large
+0155591AR,Acer platanoides,False,C\ Josepa Massanés,2.96,2.76,ok,,small
+0155592AR,Celtis australis,False,C\ Degà Bahí,3.62,3.25,ok,,medium
+0155593AR,Celtis australis,False,C\ Mallorca,5.0,3.95,ok,,medium
+0155594AR,Gleditsia triacanthos f. inermis,False,C\ Mallorca,4.82,3.75,ok,,medium
+0155595AR,Platanus × acerifolia,True,C\ Conca,4.86,3.93,ok,,medium
+0155596AR,Celtis australis,False,C\ Freser,5.02,4.04,ok,,medium
+0155597AR,Platanus × acerifolia,True,C\ Enamorats,3.98,3.41,ok,,medium
+0155598AR,Robinia pseudoacacia,False,C\ Josepa Massanés,,10.35,median,,check
+0155600AR,Platanus × acerifolia,True,C\ Freser,,10.48,median,22.54,check
+0155601AR,Grevillea robusta,False,C\ Enamorats,3.75,3.48,ok,,medium
+0155603AR,Celtis australis,False,C\ València,4.5,3.5,ok,,medium
+0155604AR,Melia azedarach,False,C\ Mallorca,5.26,4.81,ok,,medium
+0155605AR,Jacaranda mimosifolia,False,Pl Carme Montoriol,,3.45,median,14.49,check
+0155606AR,Platanus × acerifolia,True,C\ Indústria,4.93,4.96,ok,,medium
+0155608AR,Celtis australis,False,C\ Dos de Maig,5.16,4.82,ok,,medium
+0155609AR,Platanus × acerifolia,True,C\ València,3.97,3.4,ok,,medium
+0155610AR,Cercis siliquastrum,False,C\ Nació,3.14,2.87,ok,,small
+0155611AR,Celtis australis,False,C\ Rogent,,2.15,no_kerb,,check
+0155616AR,Melia azedarach,False,C\ Las Navas de Tolosa,3.82,3.0,ok,,medium
+0155617AR,Platanus × acerifolia,True,C\ Còrsega,5.29,5.41,ok,,medium
+0155618AR,Celtis australis,False,C\ Còrsega,4.83,3.69,ok,,medium
+0155619AR,Celtis australis,False,C\ València,3.26,2.68,ok,,small
+0155620AR,Celtis australis,False,C\ Còrsega,4.87,3.47,ok,,medium
+0155621AR,Melia azedarach,False,C\ Dos de Maig,4.81,4.36,ok,,medium
+0155622AR,Celtis australis,False,C\ Rogent,,3.44,no_kerb,40.88,check
+0155623AR,Platanus × acerifolia,True,Av Meridiana,,28.66,median,18.61,check
+0155624AR,Celtis australis,False,C\ Indústria,3.53,3.44,ok,,medium
+0155625AR,Platanus × acerifolia,True,C\ Sant Quintí,5.03,2.98,ok,,medium
+0155626AR,Celtis australis,False,C\ Rogent,,2.27,no_kerb,,check
+0155627AR,Platanus × acerifolia,True,C\ Indústria,,15.99,median,4.91,check
+0155628AR,Celtis australis,False,C\ Rogent,,3.16,no_kerb,,check
+0155630AR,Celtis australis,False,C\ Independència,4.77,3.46,ok,,medium
+0155631AR,Cercis siliquastrum,False,C\ Xifré,6.65,6.29,ok,,large
+0155632AR,Cercis siliquastrum,False,C\ Xifré,6.68,7.05,ok,,large
+0155633AR,Celtis australis,False,C\ Provença,5.2,3.22,ok,,medium
+0155636AR,Celtis australis,False,C\ Mallorca,,15.61,median,11.14,check
+0155637AR,Platanus × acerifolia,True,C\ Còrsega,4.8,3.83,ok,,medium
+0155638AR,Celtis australis,False,C\ Còrsega,,16.29,median,4.35,check
+0155639AR,Styphnolobium japonicum,False,C\ Sant Antoni Maria Claret,4.8,3.71,ok,,medium
+0155640AR,Platanus × acerifolia,True,C\ Mallorca,5.03,4.57,ok,,medium
+0155641AR,Celtis australis,False,C\ Mallorca,5.18,3.75,ok,,medium
+0155642AR,Celtis australis,False,C\ València,3.44,1.07,ok,,small
+0155644AR,Parrotia persica 'Vanessa',False,C\ Nació,3.0,1.98,ok,,small
+0155646AR,Celtis australis,False,C\ València,3.55,3.6,ok,,medium
+0155648AR,Platanus × acerifolia,True,C\ Sant Quintí,5.13,4.13,ok,,medium
+0155649AR,Celtis australis,False,C\ Conca,4.96,3.97,ok,,medium
+0155650AR,Platanus × acerifolia,True,Av Meridiana,,40.81,no_facade,,check
+0155652AR,Melia azedarach,False,C\ Rosselló,6.8,6.11,ok,,large
+0155653AR,Platanus × acerifolia,True,C\ Enamorats,4.1,2.83,ok,,medium
+0155654AR,Celtis australis,False,C\ Mallorca,4.87,3.54,ok,,medium
+0155655AR,Styphnolobium japonicum 'Dot',False,Av Meridiana,21.17,6.26,ok,,large
+0155656AR,Celtis australis,False,C\ Enamorats,4.28,3.12,ok,,medium
+0155657AR,Platanus × acerifolia,True,C\ Freser,21.1,12.0,ok,,large
+0155658AR,Celtis australis,False,C\ Rogent,24.9,6.71,ok,,large
+0155660AR,Platanus × acerifolia,True,C\ Còrsega,5.08,3.34,ok,,medium
+0155661AR,Cercis siliquastrum,False,C\ Nació,3.26,2.07,ok,,small
+0155662AR,Gleditsia triacanthos f. inermis,False,C\ Mallorca,4.83,4.39,ok,,medium
+0155663AR,Platanus × acerifolia,True,C\ Mallorca,4.86,4.0,ok,,medium
+0155664AR,Platanus × acerifolia,True,C\ Mallorca,4.78,3.8,ok,,medium
+0155666AR,Ligustrum lucidum,False,Pl Heroïnes de Girona,,19.84,median,27.71,check
+0155668AR,Platanus × acerifolia,True,C\ Conca,5.01,4.61,ok,,medium
+0155669AR,Celtis australis,False,C\ Dos de Maig,3.8,3.42,ok,,medium
+0155670AR,Celtis australis,False,Pg Maragall,6.7,5.7,ok,,large
+0155671AR,Platanus × acerifolia,True,C\ Indústria,3.27,1.84,ok,,small
+0155672AR,Celtis australis,False,C\ Degà Bahí,7.88,3.2,ok,,large
+0155673AR,Celtis australis,False,C\ Dos de Maig,5.2,5.1,ok,,medium
+0155674AR,Platanus × acerifolia,True,Av Meridiana,11.78,8.62,ok,,large
+0155675AR,Platanus × acerifolia,True,C\ Indústria,21.52,18.85,ok,,large
+0155676AR,Celtis australis,False,C\ Còrsega,,22.9,median,4.56,check
+0155677AR,Celtis australis,False,C\ Dos de Maig,4.91,5.13,ok,,medium
+0155678AR,Celtis australis,False,C\ Degà Bahí,8.44,4.01,ok,,large
+0155679AR,Platanus × acerifolia,True,C\ Sant Antoni Maria Claret,4.93,4.13,ok,,medium
+0155680AR,Platanus × acerifolia,True,C\ Trinxant,4.91,4.49,ok,,medium
+0155681AR,Celtis australis,False,Pg Maragall,6.37,5.58,ok,,large
+0155682AR,Fraxinus ornus OBELISK® 'Paus Johannes-Paulus II',False,C\ Antic de Bofarull,2.57,1.94,ok,,small
+0155683AR,Platanus × acerifolia,True,C\ Sant Quintí,5.0,3.96,ok,,medium
+0155684AR,Prunus cerasifera 'Pissardii',False,C\ Sibelius,,2.31,no_kerb,,check
+0155685AR,Celtis australis,False,C\ Degà Bahí,4.07,3.61,ok,,medium
+0155686AR,Celtis australis,False,C\ Còrsega,4.83,4.3,ok,,medium
+0155688AR,Celtis australis,False,C\ Rogent,29.99,2.11,ok,,large
+0155689AR,Celtis australis,False,C\ Mallorca,4.83,3.84,ok,,medium
+0155690AR,Robinia pseudoacacia,False,C\ Dos de Maig,4.82,4.5,ok,,medium
+0155691AR,Celtis australis,False,C\ Còrsega,4.97,3.61,ok,,medium
+0155692AR,Cercis siliquastrum,False,C\ Nació,4.62,4.26,ok,,medium
+0155693AR,Platanus × acerifolia,True,C\ Sant Quintí,5.0,3.78,ok,,medium
+0155694AR,Citrus × aurantium,False,C\ Vidiella,1.9,1.27,ok,,none
+0155695AR,Platanus × acerifolia,True,C\ Sant Antoni Maria Claret,4.78,4.18,ok,,medium
+0155696AR,Platanus × acerifolia,True,Av Meridiana,20.47,17.35,ok,,large
+0155697AR,Platanus × acerifolia,True,C\ Enamorats,4.18,3.65,ok,,medium
+0155698AR,Celtis australis,False,C\ Independència,4.85,3.64,ok,,medium
+0155699AR,Platanus × acerifolia,True,Av Meridiana,11.73,9.1,ok,,large
+0155700AR,Cercis siliquastrum,False,C\ Xifré,3.08,2.48,ok,,small
+0155702AR,Fraxinus ornus OBELISK® 'Paus Johannes-Paulus II',False,C\ Antic de Bofarull,2.64,2.17,ok,,small
+0155704AR,Parrotia persica 'Vanessa',False,C\ Nació,3.44,3.2,ok,,small
+0155706AR,Celtis australis,False,C\ Rogent,20.09,8.79,ok,,large
+0155707AR,Platanus × acerifolia,True,C\ Independència,4.3,3.19,ok,,medium
+0155708AR,Platanus × acerifolia,True,C\ Independència,4.92,4.38,ok,,medium
+0155709AR,Celtis australis,False,C\ Sant Antoni Maria Claret,4.78,4.05,ok,,medium
+0155710AR,Robinia pseudoacacia,False,C\ Josepa Massanés,,10.11,median,,check
+0155711AR,Ulmus pumila,False,C\ Sant Antoni Maria Claret,,16.62,median,5.1,check
+0155712AR,Celtis australis,False,C\ Mallorca,5.01,4.16,ok,,medium
+0155713AR,Ginkgo biloba 'Fastigiata',False,C\ Sibelius,,8.03,no_kerb,,check
+0155714AR,Platanus × acerifolia,True,C\ Independència,4.85,3.98,ok,,medium
+0155715AR,Tipuana tipu,False,C\ València,,17.14,median,,check
+0155716AR,Platanus × acerifolia,True,C\ Indústria,3.4,2.74,ok,,small
+0155717AR,Platanus × acerifolia,True,C\ Trinxant,7.17,3.77,ok,,large
+0155718AR,Celtis australis,False,C\ València,3.41,2.87,ok,,small
+0155719AR,Platanus × acerifolia,True,C\ Josepa Massanés,3.23,3.4,ok,,small
+0155721AR,Ulmus pumila,False,C\ Sant Antoni Maria Claret,6.53,6.08,ok,,large
+0155722AR,Platanus × acerifolia,True,C\ Freser,,9.23,median,12.68,check
+0155723AR,Celtis australis,False,Av Meridiana,11.82,3.01,ok,,large
+0155724AR,Styphnolobium japonicum,False,C\ Trinxant,5.44,4.44,ok,,medium
+0155725AR,Celtis australis,False,C\ Còrsega,5.26,4.02,ok,,medium
+0155726AR,Platanus × acerifolia,True,C\ Trinxant,4.87,2.99,ok,,medium
+0155727AR,Platanus × acerifolia,True,C\ Mallorca,5.0,2.83,ok,,medium
+0155728AR,Citrus × aurantium,False,C\ Vidiella,1.83,1.23,ok,,none
+0155729AR,Celtis australis,False,C\ Còrsega,4.74,3.45,ok,,medium
+0155730AR,Celtis australis,False,C\ Rogent,,2.4,no_kerb,,check
+0155731AR,Celtis australis,False,C\ Còrsega,4.88,3.81,ok,,medium
+0155733AR,Platanus × acerifolia,True,C\ Indústria,5.08,4.21,ok,,medium
+0155734AR,Melia azedarach,False,C\ Sant Antoni Maria Claret,4.94,4.21,ok,,medium
+0155735AR,Styphnolobium japonicum,False,C\ Sant Antoni Maria Claret,4.8,3.83,ok,,medium
+0155736AR,Celtis australis,False,C\ Còrsega,4.71,4.05,ok,,medium
+0155737AR,Celtis australis,False,C\ Còrsega,5.06,4.45,ok,,medium
+0155738AR,Tipuana tipu,False,C\ València,,17.07,median,,check
+0155740AR,Platanus × acerifolia,True,C\ Trinxant,3.39,2.47,ok,,small
+0155741AR,Platanus × acerifolia,True,C\ València,3.47,1.49,ok,,small
+0155742AR,Celtis australis,False,C\ Indústria,3.95,3.82,ok,,medium
+0155743AR,Celtis australis,False,C\ Enamorats,4.4,3.23,ok,,medium
+0155744AR,Platanus × acerifolia,True,C\ Indústria,5.07,3.29,ok,,medium
+0155745AR,Platanus × acerifolia,True,C\ Aragó,5.14,4.01,ok,,medium
+0155746AR,Platanus × acerifolia,True,C\ Còrsega,4.54,3.36,ok,,medium
+0155748AR,Celtis australis,False,C\ Provença,5.22,3.44,ok,,medium
+0155749AR,Robinia pseudoacacia,False,C\ Antic de Bofarull,2.54,1.19,ok,,small
+0155750AR,Celtis australis,False,C\ Independència,4.89,4.31,ok,,medium
+0155751AR,Celtis australis,False,C\ Sant Antoni Maria Claret,4.98,4.0,ok,,medium
+0155752AR,Platanus × acerifolia,True,C\ Sant Antoni Maria Claret,5.14,4.5,ok,,medium
+0155753AR,Cercis siliquastrum,False,C\ Xifré,3.18,2.65,ok,,small
+0155754AR,Celtis australis,False,C\ Sant Quintí,4.71,4.21,ok,,medium
+0155755AR,Gleditsia triacanthos,False,C\ Mallorca,9.49,3.92,ok,,large
+0155756AR,Cercis siliquastrum,False,C\ Nació,3.04,1.53,ok,,small
+0155757AR,Platanus × acerifolia,True,C\ Enamorats,3.7,3.53,ok,,medium
+0155758AR,Platanus × acerifolia,True,Av Meridiana,11.82,8.42,ok,,large
+0155760AR,Platanus × acerifolia,True,C\ Indústria,13.6,11.55,ok,,large
+0155761AR,Cercis siliquastrum,False,C\ Nació,3.25,2.61,ok,,small
+0155762AR,Platanus × acerifolia,True,C\ Independència,4.96,3.86,ok,,medium
+0155763AR,Platanus × acerifolia,True,C\ Provença,5.08,3.9,ok,,medium
+0155766AR,Celtis australis,False,C\ Mallorca,5.26,4.75,ok,,medium
+0155767AR,Ginkgo biloba 'Fastigiata Blagon',False,C\ Antic de Bofarull,2.57,1.95,ok,,small
+0155768AR,Platanus × acerifolia,True,C\ Conca,4.9,3.26,ok,,medium
+0155769AR,Platanus × acerifolia,True,C\ Independència,4.85,3.19,ok,,medium
+0155770AR,Celtis australis,False,C\ Mallorca,5.01,3.88,ok,,medium
+0155771AR,Robinia pseudoacacia,False,Pl Can Robacols,,14.51,median,,check
+0155772AR,Platanus × acerifolia,True,C\ Conca,4.99,4.54,ok,,medium
+0155773AR,Celtis australis,False,C\ Còrsega,18.92,16.97,ok,,large
+0155774AR,Platanus × acerifolia,True,Av Meridiana,,40.32,no_facade,,check
+0155775AR,Robinia pseudoacacia,False,C\ Antic de Bofarull,8.08,1.84,ok,,large
+0155777AR,Celtis australis,False,C\ Rogent,,3.41,no_kerb,,check
+0155778AR,Celtis australis,False,C\ Enamorats,4.08,3.16,ok,,medium
+0155779AR,Ulmus pumila,False,C\ Sibelius,,1.72,no_kerb,,check
+0155780AR,Koelreuteria paniculata,False,C\ Indústria,4.55,2.92,ok,,medium
+0155781AR,Platanus × acerifolia,True,C\ Independència,5.02,4.31,ok,,medium
+0155782AR,Platanus × acerifolia,True,C\ Trinxant,3.51,2.77,ok,,medium
+0155783AR,Celtis australis,False,C\ Rogent,,3.61,no_kerb,,check
+0155784AR,Celtis australis,False,C\ Rogent,,2.76,no_kerb,,check
+0155785AR,Celtis australis,False,C\ Rogent,,2.43,no_kerb,,check
+0155786AR,Platanus × acerifolia,True,C\ Indústria,,22.73,median,4.95,check
+0155787AR,Cercis siliquastrum,False,Pg Maragall,26.71,9.35,ok,,large
+0155788AR,Celtis australis,False,C\ Indústria,3.98,3.56,ok,,medium
+0155789AR,Celtis australis,False,Pg Maragall,7.1,5.95,ok,,large
+0155790AR,Prunus cerasifera 'Pissardii',False,C\ Sibelius,,2.19,no_kerb,,check
+0155792AR,Gleditsia triacanthos f. inermis,False,C\ Mallorca,4.83,4.18,ok,,medium
+0155793AR,Cercis siliquastrum,False,C\ Xifré,3.13,1.98,ok,,small
+0155794AR,Platanus × acerifolia,True,Pg Maragall,21.79,4.74,ok,,large
+0155795AR,Platanus × acerifolia,True,C\ Indústria,3.9,2.27,ok,,medium
+0155796AR,Celtis australis,False,C\ València,3.39,2.93,ok,,small
+0155797AR,Celtis australis,False,C\ Dos de Maig,4.37,4.29,ok,,medium
+0155800AR,Citrus × aurantium,False,C\ Vidiella,2.05,1.29,ok,,none
+0155801AR,Platanus × acerifolia,True,C\ Dos de Maig,4.9,4.58,ok,,medium
+0155802AR,Cercis siliquastrum,False,C\ Xifré,3.18,2.05,ok,,small
+0155803AR,Platanus × acerifolia,True,C\ Independència,5.72,5.08,ok,,medium
+0155804AR,Celtis australis,False,C\ Còrsega,5.07,4.06,ok,,medium
+0155805AR,Celtis australis,False,C\ Rogent,,3.31,no_kerb,,check
+0155807AR,Cercis siliquastrum,False,C\ Nació,3.16,3.06,ok,,small
+0155808AR,Celtis australis,False,C\ Rosselló,5.22,3.83,ok,,medium
+0155809AR,Robinia pseudoacacia,False,C\ Antic de Bofarull,3.66,1.97,ok,,medium
+0155811AR,Celtis australis,False,C\ Enamorats,3.93,2.84,ok,,medium
+0155812AR,Parrotia persica 'Vanessa',False,C\ Nació,3.19,3.09,ok,,small
+0155814AR,Celtis australis,False,C\ Rogent,,2.14,no_kerb,,check
+0155815AR,Platanus × acerifolia,True,Av Meridiana,19.41,16.53,ok,,large
+0155816AR,Celtis australis,False,C\ Rogent,,3.29,no_kerb,,check
+0155817AR,Cercis siliquastrum,False,C\ Nació,3.02,1.74,ok,,small
+0155818AR,Celtis australis,False,Pg Maragall,6.98,6.72,ok,,large
+0155819AR,Celtis australis,False,C\ Indústria,4.14,4.31,ok,,medium
+0155820AR,Ginkgo biloba 'Fastigiata',False,C\ Sibelius,,2.02,median,,check
+0155821AR,Celtis australis,False,C\ València,3.4,2.89,ok,,small
+0155822AR,Celtis australis,False,C\ Rogent,,2.25,no_kerb,,check
+0155823AR,Celtis australis,False,C\ València,4.58,3.69,ok,,medium
+0155824AR,Celtis australis,False,C\ Provença,4.98,4.63,ok,,medium
+0155827AR,Platanus × acerifolia,True,C\ Indústria,5.19,4.16,ok,,medium
+0155828AR,Celtis australis,False,C\ Rogent,21.97,10.43,ok,,large
+0155829AR,Jacaranda mimosifolia,False,Pl Carme Montoriol,,7.0,median,14.59,check
+0155830AR,Melia azedarach,False,C\ Las Navas de Tolosa,3.83,2.78,ok,,medium
+0155831AR,Celtis australis,False,C\ Degà Bahí,8.26,7.23,ok,,large
+0155832AR,Platanus × acerifolia,True,C\ Independència,4.85,3.08,ok,,medium
+0155833AR,Celtis australis,False,C\ Trinxant,5.03,3.9,ok,,medium
+0155834AR,Platanus × acerifolia,True,C\ Mallorca,5.18,3.98,ok,,medium
+0155835AR,Gleditsia triacanthos f. inermis,False,C\ Mallorca,4.82,4.0,ok,,medium
+0155836AR,Celtis australis,False,C\ València,19.31,18.0,ok,,large
+0155837AR,Celtis australis,False,C\ Dos de Maig,3.98,3.49,ok,,medium
+0155838AR,Celtis australis,False,C\ Degà Bahí,4.29,3.28,ok,,medium
+0155839AR,Celtis australis,False,C\ Rogent,,2.32,no_kerb,,check
+0155840AR,Platanus × acerifolia,True,C\ Rosselló,4.84,3.85,ok,,medium
+0155841AR,Liquidambar styraciflua,False,C\ Josepa Massanés,3.17,3.01,ok,,small
+0155842AR,Celtis australis,False,C\ Corunya,5.08,4.18,ok,,medium
+0155843AR,Celtis australis,False,C\ Dos de Maig,4.51,4.26,ok,,medium
+0155844AR,Citrus × aurantium,False,C\ Vidiella,1.84,1.27,ok,,none
+0155846AR,Celtis australis,False,C\ Degà Bahí,4.31,3.11,ok,,medium
+0155847AR,Celtis australis,False,C\ Indústria,5.08,4.62,ok,,medium
+0155848AR,Celtis australis,False,C\ Indústria,5.36,4.06,ok,,medium
+0155849AR,Celtis australis,False,C\ València,3.67,2.77,ok,,medium
+0155850AR,Celtis australis,False,C\ Independència,4.73,3.39,ok,,medium
+0155851AR,Celtis australis,False,C\ Sant Antoni Maria Claret,4.89,4.17,ok,,medium
+0155852AR,Celtis australis,False,C\ Mallorca,4.51,3.86,ok,,medium
+0155854AR,Celtis australis,False,C\ Independència,4.95,3.92,ok,,medium
+0155855AR,Pyrus calleryana 'Chanticleer',False,C\ Nació,2.98,2.08,ok,,small
+0155856AR,Celtis australis,False,C\ Rogent,,2.46,no_kerb,,check
+0155858AR,Gleditsia triacanthos f. inermis,False,C\ Mallorca,6.48,5.97,ok,,large
+0155859AR,Gleditsia triacanthos f. inermis,False,C\ Mallorca,5.23,4.38,ok,,medium
+0155860AR,Celtis australis,False,C\ Rogent,,2.27,no_kerb,,check
+0155861AR,Celtis australis,False,C\ Provença,5.11,3.75,ok,,medium
+0155862AR,Cercis siliquastrum,False,C\ Nació,3.04,1.98,ok,,small
+0155863AR,Ginkgo biloba 'Fastigiata Blagon',False,C\ Antic de Bofarull,2.75,1.99,ok,,small
+0155864AR,Platanus × acerifolia,True,C\ Independència,4.9,4.62,ok,,medium
+0155865AR,Celtis australis,False,C\ Mallorca,4.93,4.34,ok,,medium
+0155866AR,Celtis australis,False,C\ València,3.46,2.19,ok,,small
+0155867AR,Celtis australis,False,C\ Rogent,,3.44,no_kerb,,check
+0155868AR,Celtis australis,False,C\ Mallorca,,5.17,median,4.98,check
+0155869AR,Celtis australis,False,C\ Mallorca,5.15,4.54,ok,,medium
+0155870AR,Celtis australis,False,C\ Còrsega,4.94,4.41,ok,,medium
+0155871AR,Parrotia persica 'Vanessa',False,C\ Nació,3.19,2.51,ok,,small
+0155872AR,Celtis australis,False,C\ Sant Quintí,5.07,2.93,ok,,medium
+0155873AR,Celtis australis,False,C\ Rogent,,6.62,no_kerb,,check
+0155874AR,Robinia pseudoacacia,False,C\ Antic de Bofarull,2.71,1.88,ok,,small
+0155875AR,Ulmus pumila,False,C\ Trinxant,5.15,3.9,ok,,medium
+0155877AR,Celtis australis,False,C\ Rogent,,2.44,no_kerb,,check
+0155878AR,Celtis australis,False,C\ Rogent,,3.19,no_kerb,,check
+0155879AR,Celtis australis,False,C\ Provença,5.21,3.33,ok,,medium
+0155880AR,Celtis australis,False,C\ Independència,4.8,3.98,ok,,medium
+0155881AR,Celtis australis,False,C\ Còrsega,8.34,6.1,ok,,large
+0155882AR,Celtis australis,False,C\ Provença,4.89,4.18,ok,,medium
+0155883AR,Platanus × acerifolia,True,C\ Independència,5.01,4.41,ok,,medium
+0155884AR,Platanus × acerifolia,True,C\ Trinxant,5.0,3.77,ok,,medium
+0155885AR,Celtis australis,False,C\ Còrsega,5.44,4.31,ok,,medium
+0155887AR,Platanus × acerifolia,True,C\ Independència,4.77,2.44,ok,,medium
+0155888AR,Celtis australis,False,C\ València,3.42,2.83,ok,,small
+0155889AR,Platanus × acerifolia,True,C\ Trinxant,4.86,3.85,ok,,medium
+0155890AR,Celtis australis,False,C\ Dos de Maig,4.99,4.93,ok,,medium
+0155892AR,Celtis australis,False,C\ Mallorca,4.91,4.42,ok,,medium
+0155893AR,Melia azedarach,False,Pl Can Robacols,,8.58,median,,check
+0155894AR,Celtis australis,False,C\ Sant Antoni Maria Claret,4.87,3.51,ok,,medium
+0155895AR,Platanus × acerifolia,True,C\ Sant Antoni Maria Claret,4.49,4.04,ok,,medium
+0155896AR,Cercis siliquastrum,False,C\ Xifré,3.15,2.93,ok,,small
+0155897AR,Tipuana tipu,False,C\ València,,17.15,median,,check
+0155899AR,Celtis australis,False,Pg Maragall,6.81,6.8,ok,,large
+0155900AR,Cercis siliquastrum,False,C\ Xifré,3.2,1.72,ok,,small
+0155901AR,Celtis australis,False,C\ Enamorats,4.42,3.48,ok,,medium
+0155902AR,Cercis siliquastrum,False,C\ Rosselló,5.08,3.52,ok,,medium
+0155903AR,Celtis australis,False,C\ Mallorca,5.07,4.42,ok,,medium
+0155905AR,Melia azedarach,False,C\ Dos de Maig,4.8,4.45,ok,,medium
+0155906AR,Celtis australis,False,C\ Dos de Maig,4.79,4.95,ok,,medium
+0155907AR,Platanus × acerifolia,True,C\ Indústria,5.06,4.14,ok,,medium
+0155908AR,Ulmus pumila,False,C\ Freser,5.17,3.77,ok,,medium
+0155910AR,Celtis australis,False,C\ Rogent,,1.69,no_kerb,,check
+0155911AR,Platanus × acerifolia,True,C\ Indústria,4.54,2.78,ok,,medium
+0155912AR,Celtis australis,False,C\ València,3.18,2.63,ok,,small
+0155913AR,Platanus × acerifolia,True,C\ Trinxant,5.42,4.62,ok,,medium
+0155914AR,Platanus × acerifolia,True,Av Meridiana,12.46,9.43,ok,,large
+0155915AR,Celtis australis,False,C\ Rosselló,5.23,3.6,ok,,medium
+0155916AR,Celtis australis,False,Pg Maragall,6.7,6.51,ok,,large
+0155918AR,Platanus × acerifolia,True,C\ Trinxant,4.79,3.87,ok,,medium
+0155919AR,Celtis australis,False,C\ Dos de Maig,4.7,4.62,ok,,medium
+0155921AR,Platanus × acerifolia,True,C\ Freser,,9.45,median,21.85,check
+0155922AR,Celtis australis,False,C\ Trinxant,6.03,5.07,ok,,large
+0155924AR,Platanus × acerifolia,True,C\ Rosselló,4.88,3.68,ok,,medium
+0155926AR,Celtis australis,False,C\ Trinxant,4.86,3.95,ok,,medium
+0155927AR,Gleditsia triacanthos f. inermis,False,C\ Mallorca,4.75,4.2,ok,,medium
+0155928AR,Celtis australis,False,C\ Dos de Maig,3.92,3.19,ok,,medium
+0155929AR,Celtis australis,False,C\ Dos de Maig,3.85,4.16,ok,,medium
+0155930AR,Celtis australis,False,C\ Indústria,4.75,3.57,ok,,medium
+0155931AR,Platanus × acerifolia,True,C\ Enamorats,,6.08,no_kerb,,check
+0155932AR,Platanus × acerifolia,True,C\ València,4.92,4.12,ok,,medium
+0155933AR,Ulmus pumila,False,C\ Sant Antoni Maria Claret,,17.0,median,5.08,check
+0155934AR,Celtis australis,False,C\ Enamorats,4.14,3.37,ok,,medium
+0155935AR,Celtis australis,False,C\ Enamorats,4.18,2.78,ok,,medium
+0155936AR,Platanus × acerifolia,True,Av Meridiana,11.73,8.47,ok,,large
+0155937AR,Celtis australis,False,C\ Còrsega,5.03,4.48,ok,,medium
+0155938AR,Celtis australis,False,Pg Maragall,7.23,6.45,ok,,large
+0155939AR,Celtis australis,False,C\ València,3.85,2.87,ok,,medium
+0155940AR,Celtis australis,False,C\ Mallorca,5.31,4.46,ok,,medium
+0155941AR,Celtis australis,False,C\ Mallorca,5.07,4.36,ok,,medium
+0155942AR,Gleditsia triacanthos f. inermis,False,C\ Mallorca,4.98,3.78,ok,,medium
+0155943AR,Celtis australis,False,C\ Rogent,,2.02,no_kerb,,check
+0155944AR,Celtis australis,False,C\ Conca,,15.99,median,4.97,check
+0155945AR,Platanus × acerifolia,True,C\ Dos de Maig,4.8,4.77,ok,,medium
+0155946AR,Platanus × acerifolia,True,C\ Provença,4.94,4.13,ok,,medium
+0155947AR,Cercis siliquastrum,False,C\ Nació,3.01,1.85,ok,,small
+0155948AR,Celtis australis,False,C\ Indústria,5.18,4.25,ok,,medium
+0155949AR,Celtis australis,False,C\ Provença,5.0,3.99,ok,,medium
+0155950AR,Cercis siliquastrum,False,C\ Xifré,5.11,3.45,ok,,medium
+0155951AR,Gleditsia triacanthos f. inermis,False,C\ Mallorca,5.01,4.35,ok,,medium
+0155952AR,Celtis australis,False,C\ Conca,,16.36,median,,check
+0155953AR,Cercis siliquastrum,False,C\ Xifré,3.07,1.11,ok,,small
+0155954AR,Platanus × acerifolia,True,C\ Sant Quintí,5.0,3.65,ok,,medium
+0155955AR,Platanus × acerifolia,True,C\ Independència,5.2,3.74,ok,,medium
+0155956AR,Celtis australis,False,C\ Sant Quintí,4.88,3.67,ok,,medium
+0155957AR,Ginkgo biloba 'Fastigiata Blagon',False,C\ Antic de Bofarull,2.59,1.93,ok,,small
+0155958AR,Celtis australis,False,C\ Rogent,,3.37,no_kerb,,check
+0155959AR,Platanus × acerifolia,True,C\ Corunya,5.09,4.25,ok,,medium
+0155960AR,Celtis australis,False,C\ Còrsega,5.22,4.82,ok,,medium
+0155961AR,Gleditsia triacanthos f. inermis,False,C\ Mallorca,4.93,4.48,ok,,medium
+0155962AR,Platanus × acerifolia,True,C\ Enamorats,3.86,3.52,ok,,medium
+0155963AR,Cercis siliquastrum,False,C\ Provença,7.17,4.14,ok,,large
+0155964AR,Gleditsia triacanthos f. inermis,False,C\ Mallorca,5.18,4.26,ok,,medium
+0155965AR,Melia azedarach,False,C\ Dos de Maig,4.75,4.05,ok,,medium
+0155966AR,Platanus × acerifolia,True,C\ Indústria,4.93,2.23,ok,,medium
+0155967AR,Celtis australis,False,C\ Provença,4.98,4.35,ok,,medium
+0155968AR,Celtis australis,False,C\ Degà Bahí,3.78,2.96,ok,,medium
+0155969AR,Platanus × acerifolia,True,C\ Indústria,5.38,4.22,ok,,medium
+0155972AR,Celtis australis,False,C\ Rogent,,3.34,no_kerb,,check
+0155973AR,Pyrus calleryana 'Chanticleer',False,C\ Finestrat,2.66,1.08,ok,,small
+0155974AR,Platanus × acerifolia,True,C\ Independència,4.97,4.17,ok,,medium
+0155975AR,Celtis australis,False,Pg Maragall,6.24,5.68,ok,,large
+0155976AR,Platanus × acerifolia,True,C\ Provença,4.85,4.36,ok,,medium
+0155977AR,Celtis australis,False,C\ Provença,4.97,4.4,ok,,medium
+0155978AR,Platanus × acerifolia,True,C\ Las Navas de Tolosa,4.16,3.66,ok,,medium
+0155979AR,Platanus × acerifolia,True,C\ Corunya,5.06,3.99,ok,,medium
+0155980AR,Platanus × acerifolia,True,C\ Enamorats,4.41,3.42,ok,,medium
+0155981AR,Celtis australis,False,C\ Rogent,6.0,3.35,ok,,medium
+0155983AR,Platanus × acerifolia,True,C\ Còrsega,12.81,4.37,ok,,large
+0155984AR,Jacaranda mimosifolia,False,Pl Carme Montoriol,18.34,2.07,ok,,large
+0155985AR,Pyrus calleryana 'Chanticleer',False,C\ Nació,3.27,2.35,ok,,small
+0155986AR,Platanus × acerifolia,True,C\ Conca,4.98,4.91,ok,,medium
+0155987AR,Celtis australis,False,Pg Maragall,5.98,5.34,ok,,medium
+0155989AR,Gleditsia triacanthos f. inermis,False,C\ Mallorca,4.84,3.79,ok,,medium
+0155990AR,Platanus × acerifolia,True,C\ Indústria,,16.07,median,5.04,check
+0155991AR,Jacaranda mimosifolia,False,Pl Carme Montoriol,,7.35,median,14.7,check
+0155992AR,Melia azedarach,False,C\ Mallorca,9.4,3.52,ok,,large
+0155993AR,Tipuana tipu,False,C\ València,14.15,10.66,ok,,large
+0155994AR,Celtis australis,False,C\ Degà Bahí,4.6,3.18,ok,,medium
+0155995AR,Celtis australis,False,C\ Sant Antoni Maria Claret,5.14,4.17,ok,,medium
+0155996AR,Cercis siliquastrum,False,C\ Xifré,2.98,1.58,ok,,small
+0155997AR,Fraxinus ornus OBELISK® 'Paus Johannes-Paulus II',False,C\ Nació,3.28,2.52,ok,,small
+0155998AR,Melia azedarach,False,C\ Dos de Maig,4.81,4.34,ok,,medium
+0155999AR,Celtis australis,False,C\ Rogent,,1.36,no_kerb,,check
+0156001AR,Celtis australis,False,C\ Independència,4.85,3.11,ok,,medium
+0156002AR,Celtis australis,False,C\ Rogent,,5.21,no_kerb,,check
+0156003AR,Platanus × acerifolia,True,C\ Provença,4.74,3.99,ok,,medium
+0156004AR,Gleditsia triacanthos f. inermis,False,C\ Mallorca,4.96,4.25,ok,,medium
+0156005AR,Celtis australis,False,C\ Mallorca,,14.86,median,,check
+0156006AR,Gleditsia triacanthos f. inermis,False,C\ Mallorca,4.97,4.19,ok,,medium
+0156007AR,Catalpa bignonioides,False,C\ Indústria,5.17,3.72,ok,,medium
+0156009AR,Robinia pseudoacacia,False,C\ Antic de Bofarull,2.54,2.05,ok,,small
+0156011AR,Celtis australis,False,C\ Independència,4.93,4.34,ok,,medium
+0156012AR,Platanus × acerifolia,True,C\ Independència,5.0,4.23,ok,,medium
+0156013AR,Platanus × acerifolia,True,C\ Trinxant,5.09,4.08,ok,,medium
+0156014AR,Cercis siliquastrum 'Rosea',False,C\ Nació,3.1,1.68,ok,,small
+0156017AR,Celtis australis,False,C\ Indústria,5.21,4.03,ok,,medium
+0156019AR,Platanus × acerifolia,True,Av Meridiana,12.71,9.9,ok,,large
+0156020AR,Celtis australis,False,C\ Independència,4.75,3.56,ok,,medium
+0156021AR,Platanus × acerifolia,True,C\ Enamorats,4.15,3.93,ok,,medium
+0156022AR,Celtis australis,False,C\ Independència,5.07,3.88,ok,,medium
+0156023AR,Prunus cerasifera 'Pissardii',False,C\ Josepa Massanés,3.5,2.72,ok,,medium
+0156024AR,Celtis australis,False,C\ Provença,4.99,4.24,ok,,medium
+0156025AR,Celtis australis,False,C\ Còrsega,4.7,3.66,ok,,medium
+0156026AR,Cercis siliquastrum,False,C\ Nació,3.17,2.17,ok,,small
+0156027AR,Celtis australis,False,C\ Rogent,,4.66,no_kerb,,check
+0156028AR,Celtis australis,False,C\ Còrsega,,16.57,median,4.31,check
+0156029AR,Platanus × acerifolia,True,C\ Conca,4.98,3.62,ok,,medium
+0156030AR,Celtis australis,False,C\ Enamorats,3.6,2.61,ok,,medium
+0156031AR,Celtis australis,False,C\ Rogent,14.04,3.33,ok,,large
+0156032AR,Cercis siliquastrum,False,C\ Freser,,9.84,no_kerb,20.61,check
+0156033AR,Ulmus pumila,False,C\ Sant Antoni Maria Claret,5.11,3.96,ok,,medium
+0156034AR,Platanus × acerifolia,True,C\ Trinxant,6.35,4.85,ok,,large
+0156035AR,Platanus × acerifolia,True,C\ Trinxant,3.54,2.27,ok,,medium
+0156036AR,Cercis siliquastrum,False,C\ Nació,3.07,3.12,ok,,small
+0156037AR,Gleditsia triacanthos f. inermis,False,C\ Mallorca,4.88,4.09,ok,,medium
+0156038AR,Celtis australis,False,C\ Sant Quintí,4.86,3.39,ok,,medium
+0156040AR,Celtis australis,False,Pg Maragall,6.75,6.58,ok,,large
+0156041AR,Platanus × acerifolia,True,C\ Enamorats,3.81,3.53,ok,,medium
+0156042AR,Ulmus pumila,False,C\ Freser,26.49,4.45,ok,,large
+0156043AR,Cercis siliquastrum,False,C\ Xifré,2.98,2.24,ok,,small
+0156044AR,Cercis siliquastrum,False,C\ Nació,,9.79,median,,check
+0156045AR,Cercis siliquastrum,False,C\ Nació,5.14,2.13,ok,,medium
+0156046AR,Celtis australis,False,C\ Corunya,5.07,4.08,ok,,medium
+0156047AR,Platanus × acerifolia,True,C\ Provença,5.07,4.09,ok,,medium
+0156048AR,Pyrus calleryana 'Chanticleer',False,C\ Finestrat,2.76,1.09,ok,,small
+0156049AR,Cercis siliquastrum,False,C\ Xifré,3.24,3.37,ok,,small
+0156050AR,Celtis australis,False,C\ Indústria,5.2,4.19,ok,,medium
+0156051AR,Platanus × acerifolia,True,C\ València,3.17,2.28,ok,,small
+0156052AR,Platanus × acerifolia,True,Av Meridiana,24.02,17.79,ok,,large
+0156054AR,Cercis siliquastrum,False,C\ Nació,3.04,2.75,ok,,small
+0156055AR,Celtis australis,False,C\ Mallorca,4.75,3.55,ok,,medium
+0156056AR,Platanus × acerifolia,True,C\ Trinxant,6.44,4.93,ok,,large
+0156057AR,Jacaranda mimosifolia,False,Pl Carme Montoriol,,4.6,no_kerb,,check
+0156059AR,Cercis siliquastrum,False,C\ Nació,,9.7,median,,check
+0156060AR,Platanus × acerifolia,True,C\ Indústria,8.83,8.57,ok,,large
+0156061AR,Celtis australis,False,C\ Rogent,,1.58,no_kerb,,check
+0156063AR,Celtis australis,False,C\ Enamorats,3.52,2.58,ok,,medium
+0156064AR,Platanus × acerifolia,True,C\ Sant Quintí,7.06,6.09,ok,,large
+0156065AR,Platanus × acerifolia,True,C\ Provença,4.96,3.46,ok,,medium
+0156066AR,Ulmus pumila,False,C\ Sant Antoni Maria Claret,5.12,3.66,ok,,medium
+0156067AR,Celtis australis,False,C\ Còrsega,5.33,4.38,ok,,medium
+0156068AR,Celtis australis,False,Pg Maragall,6.72,5.62,ok,,large
+0156069AR,Pyrus calleryana 'Chanticleer',False,C\ Finestrat,2.71,1.07,ok,,small
+0156070AR,Cercis siliquastrum,False,C\ Xifré,3.05,2.11,ok,,small
+0156071AR,Ulmus pumila,False,C\ Freser,4.78,4.2,ok,,medium
+0156072AR,Pyrus calleryana 'Chanticleer',False,C\ Nació,3.01,2.0,ok,,small
+0156073AR,Celtis australis,False,C\ Indústria,3.79,3.06,ok,,medium
+0156074AR,Celtis australis,False,C\ Degà Bahí,8.4,3.97,ok,,large
+0156075AR,Robinia pseudoacacia,False,C\ Antic de Bofarull,2.74,1.59,ok,,small
+0156076AR,Celtis australis,False,C\ Rogent,19.38,9.79,ok,,large
+0156077AR,Celtis australis,False,C\ Conca,4.87,3.64,ok,,medium
+0156078AR,Styphnolobium japonicum,False,C\ Trinxant,4.67,3.94,ok,,medium
+0156079AR,Gleditsia triacanthos f. inermis,False,C\ Mallorca,4.85,4.05,ok,,medium
+0156080AR,Celtis australis,False,C\ Independència,4.95,3.7,ok,,medium
+0156081AR,Citrus × aurantium,False,C\ Vidiella,1.79,1.25,ok,,none
+0156082AR,Celtis australis,False,C\ Rogent,,2.21,no_kerb,,check
+0156083AR,Celtis australis,False,C\ Rogent,,2.54,no_kerb,,check
+0156084AR,Platanus × acerifolia,True,C\ Trinxant,4.65,3.91,ok,,medium
+0156085AR,Platanus × acerifolia,True,C\ Sant Antoni Maria Claret,7.02,5.17,ok,,large
+0156086AR,Celtis australis,False,C\ Rogent,,2.87,no_kerb,,check
+0156087AR,Cercis siliquastrum,False,C\ Xifré,3.13,2.06,ok,,small
+0156088AR,Platanus × acerifolia,True,C\ Enamorats,4.09,4.15,ok,,medium
+0156089AR,Celtis australis,False,C\ Rogent,,3.24,no_kerb,,check
+0156090AR,Gleditsia triacanthos f. inermis,False,C\ Mallorca,5.44,4.52,ok,,medium
+0156091AR,Celtis australis,False,C\ Rosselló,5.19,4.04,ok,,medium
+0156092AR,Celtis australis,False,C\ Indústria,4.83,3.72,ok,,medium
+0156093AR,Celtis australis,False,C\ Sant Antoni Maria Claret,,16.05,median,,check
+0156094AR,Koelreuteria paniculata,False,C\ Sant Quintí,4.73,4.44,ok,,medium
+0156096AR,Celtis australis,False,C\ Rogent,,4.58,no_kerb,,check
+0156097AR,Celtis australis,False,C\ Freser,,9.2,median,,check
+0156098AR,Celtis australis,False,C\ Independència,4.83,4.78,ok,,medium
+0156099AR,Celtis australis,False,C\ Rogent,,3.5,no_kerb,,check
+0156100AR,Celtis australis,False,C\ Rogent,,2.31,no_kerb,,check
+0156101AR,Platanus × acerifolia,True,C\ Indústria,4.16,3.09,ok,,medium
+0156102AR,Prunus cerasifera 'Pissardii',False,C\ Josepa Massanés,3.01,2.1,ok,,small
+0156103AR,Celtis australis,False,C\ Rogent,,2.44,no_kerb,,check
+0156104AR,Grevillea robusta,False,C\ Enamorats,3.92,3.32,ok,,medium
+0156105AR,Celtis australis,False,C\ Rogent,,4.96,no_kerb,,check
+0156106AR,Robinia pseudoacacia,False,Pl Can Robacols,,9.23,median,,check
+0156107AR,Celtis australis,False,C\ Rogent,,3.9,no_kerb,,check
+0156109AR,Celtis australis,False,C\ Rogent,,2.48,no_kerb,,check
+0156110AR,Platanus × acerifolia,True,C\ Conca,4.96,3.65,ok,,medium
+0156111AR,Robinia pseudoacacia,False,Pl Can Robacols,,8.58,median,,check
+0156112AR,Pyrus calleryana 'Chanticleer',False,C\ Nació,3.27,2.83,ok,,small
+0156113AR,Celtis australis,False,C\ Sant Quintí,5.14,3.41,ok,,medium
+0156114AR,Celtis australis,False,Pg Maragall,6.71,6.35,ok,,large
+0156115AR,Ulmus pumila,False,C\ Freser,4.75,4.03,ok,,medium
+0156116AR,Celtis australis,False,C\ Independència,4.7,3.92,ok,,medium
+0156117AR,Platanus × acerifolia,True,C\ Sant Quintí,4.73,3.84,ok,,medium
+0156118AR,Parrotia persica 'Vanessa',False,C\ Nació,3.1,2.74,ok,,small
+0156119AR,Platanus × acerifolia,True,C\ Provença,4.75,3.89,ok,,medium
+0156120AR,Celtis australis,False,C\ Enamorats,3.34,2.44,ok,,small
+0156123AR,Cercis siliquastrum,False,C\ Nació,3.25,3.12,ok,,small
+0156125AR,Platanus × acerifolia,True,C\ Independència,4.93,4.37,ok,,medium
+0156126AR,Ulmus pumila,False,C\ Sant Antoni Maria Claret,5.18,4.2,ok,,medium
+0156127AR,Celtis australis,False,C\ Independència,4.68,3.43,ok,,medium
+0156128AR,Platanus × acerifolia,True,C\ Conca,,15.86,median,,check
+0156129AR,Cercis siliquastrum,False,C\ Nació,3.13,3.16,ok,,small
+0156130AR,Cercis siliquastrum,False,C\ Provença,7.37,5.71,ok,,large
+0156131AR,Platanus × acerifolia,True,C\ Independència,4.96,4.18,ok,,medium
+0156132AR,Platanus × acerifolia,True,C\ Conca,4.97,4.06,ok,,medium
+0156133AR,Platanus × acerifolia,True,C\ Enamorats,29.09,5.84,ok,,large
+0156134AR,Platanus × acerifolia,True,C\ Indústria,3.47,2.91,ok,,small
+0156135AR,Celtis australis,False,C\ Rogent,,2.56,no_kerb,,check
+0156136AR,Platanus × acerifolia,True,Av Meridiana,,16.48,median,,check
+0156137AR,Melia azedarach,False,C\ Mallorca,9.13,5.38,ok,,large
+0156138AR,Platanus × acerifolia,True,C\ Rosselló,5.0,4.07,ok,,medium
+0156139AR,Platanus × acerifolia,True,C\ Sant Quintí,4.73,3.87,ok,,medium
+0156140AR,Celtis australis,False,C\ Dos de Maig,3.89,3.88,ok,,medium
+0156142AR,Platanus × acerifolia,True,C\ Indústria,5.1,4.64,ok,,medium
+0156143AR,Ulmus pumila,False,C\ Indústria,9.18,4.44,ok,,large
+0156144AR,Pyrus calleryana 'Chanticleer',False,C\ Finestrat,3.1,1.33,ok,,small
+0156145AR,Citrus × aurantium,False,C\ Vidiella,1.89,1.48,ok,,none
+0156146AR,Pyrus calleryana 'Chanticleer',False,C\ Nació,6.83,5.64,ok,,large
+0156147AR,Celtis australis,False,C\ Rogent,,2.66,no_kerb,,check
+0156148AR,Celtis australis,False,C\ Còrsega,,17.2,median,4.44,check
+0156149AR,Platanus × acerifolia,True,C\ Indústria,3.77,2.67,ok,,medium
+0156150AR,Platanus × acerifolia,True,C\ Trinxant,5.5,3.98,ok,,medium
+0156151AR,Platanus × acerifolia,True,C\ València,3.39,3.22,ok,,small
+0156152AR,Brachychiton acerifolius,False,C\ Rosselló,5.2,3.96,ok,,medium
+0156153AR,Celtis australis,False,C\ València,3.9,3.42,ok,,medium
+0156154AR,Ulmus pumila,False,C\ Sant Antoni Maria Claret,6.49,5.59,ok,,large
+0156155AR,Gleditsia triacanthos f. inermis,False,C\ Mallorca,4.97,4.46,ok,,medium
+0156156AR,Celtis australis,False,C\ Conca,4.76,4.39,ok,,medium
+0156157AR,Cercis siliquastrum,False,C\ Nació,3.18,3.06,ok,,small
+0156158AR,Celtis australis,False,C\ Còrsega,4.78,3.56,ok,,medium
+0156159AR,Platanus × acerifolia,True,C\ Trinxant,4.72,3.89,ok,,medium
+0156160AR,Celtis australis,False,C\ Enamorats,4.24,3.12,ok,,medium
+0156162AR,Crataegus x lavalleei 'Carrierei',False,C\ Nació,2.99,2.21,ok,,small
+0156163AR,Cercis siliquastrum,False,C\ Xifré,3.18,2.74,ok,,small
+0156164AR,Melia azedarach,False,C\ Sant Antoni Maria Claret,4.86,4.09,ok,,medium
+0156165AR,Platanus × acerifolia,True,C\ Mallorca,4.78,3.86,ok,,medium
+0156166AR,Celtis australis,False,C\ Sant Antoni Maria Claret,5.06,3.65,ok,,medium
+0156167AR,Platanus × acerifolia,True,C\ Sant Quintí,5.01,3.58,ok,,medium
+0156168AR,Celtis australis,False,C\ Mallorca,5.09,4.4,ok,,medium
+0156169AR,Celtis australis,False,C\ Freser,4.64,3.47,ok,,medium
+0156170AR,Platanus × acerifolia,True,C\ Las Navas de Tolosa,4.07,2.93,ok,,medium
+0156171AR,Celtis australis,False,C\ Indústria,3.81,4.32,ok,,medium
+0156172AR,Celtis australis,False,C\ Sant Antoni Maria Claret,6.3,5.84,ok,,large
+0156173AR,Platanus × acerifolia,True,C\ Freser,,9.42,median,,check
+0156174AR,Platanus × acerifolia,True,C\ Indústria,5.0,4.22,ok,,medium
+0156175AR,Magnolia grandiflora,False,Pl Can Robacols,,14.97,median,,check
+0156176AR,Celtis australis,False,C\ Rogent,,3.14,no_kerb,,check
+0156177AR,Koelreuteria paniculata,False,C\ Provença,4.96,3.59,ok,,medium
+0156178AR,Celtis australis,False,C\ Freser,,9.17,median,24.87,check
+0156180AR,Prunus cerasifera 'Pissardii',False,C\ Sibelius,,1.32,no_kerb,,check
+0156181AR,Grevillea robusta,False,C\ Enamorats,3.37,2.49,ok,,small
+0156182AR,Crataegus x lavalleei 'Carrierei',False,C\ Nació,3.03,2.22,ok,,small
+0156183AR,Ulmus pumila,False,C\ Freser,4.82,4.68,ok,,medium
+0156184AR,Cercis siliquastrum,False,C\ Xifré,2.95,2.3,ok,,small
+0156185AR,Jacaranda mimosifolia,False,Pl Carme Montoriol,,8.87,median,14.6,check
+0156186AR,Celtis australis,False,C\ València,3.67,3.41,ok,,medium
+0156190AR,Celtis australis,False,C\ Rogent,,3.4,no_kerb,,check
+0156191AR,Platanus × acerifolia,True,C\ Provença,9.14,8.31,ok,,large
+0156192AR,Platanus × acerifolia,True,C\ Independència,4.88,2.94,ok,,medium
+0156193AR,Ginkgo biloba 'Fastigiata Blagon',False,C\ Antic de Bofarull,2.62,2.1,ok,,small
+0156194AR,Celtis australis,False,C\ València,3.9,2.93,ok,,medium
+0156195AR,Celtis australis,False,C\ Dos de Maig,3.77,3.73,ok,,medium
+0156196AR,Celtis australis,False,C\ Independència,5.1,4.15,ok,,medium
+0156197AR,Ulmus pumila,False,C\ Freser,16.87,3.99,ok,,large
+0156198AR,Gleditsia triacanthos f. inermis,False,C\ Mallorca,5.31,4.35,ok,,medium
+0156199AR,Celtis australis,False,C\ Independència,4.93,3.71,ok,,medium
+0156200AR,Celtis australis,False,C\ Rogent,,3.17,no_kerb,,check
+0156201AR,Celtis australis,False,C\ Rogent,21.52,4.42,ok,,large
+0156202AR,Platanus × acerifolia,True,C\ Enamorats,4.17,3.15,ok,,medium
+0156204AR,Ginkgo biloba 'Fastigiata',False,C\ Sibelius,,1.97,no_kerb,,check
+0156205AR,Celtis australis,False,Pg Maragall,6.34,5.39,ok,,large
+0156206AR,Ulmus pumila,False,C\ Indústria,5.52,4.0,ok,,medium
+0156207AR,Celtis australis,False,C\ Rogent,20.33,4.37,ok,,large
+0156208AR,Robinia pseudoacacia,False,C\ Còrsega,4.73,5.16,ok,,medium
+0156209AR,Celtis australis,False,C\ Dos de Maig,3.96,4.07,ok,,medium
+0156210AR,Cercis siliquastrum,False,C\ Rosselló,4.95,3.82,ok,,medium
+0156211AR,Celtis australis,False,C\ Dos de Maig,3.66,3.55,ok,,medium
+0156212AR,Cercis siliquastrum,False,C\ Xifré,2.96,2.37,ok,,small
+0156213AR,Celtis australis,False,C\ Rogent,,3.46,no_kerb,,check
+0156214AR,Celtis australis,False,C\ Josepa Massanés,3.23,1.98,ok,,small
+0156215AR,Ulmus pumila,False,C\ Sant Antoni Maria Claret,2.73,2.29,ok,,small
+0156216AR,Celtis australis,False,C\ Mallorca,4.76,3.86,ok,,medium
+0156217AR,Celtis australis,False,C\ Indústria,4.3,2.98,ok,,medium
+0156218AR,Platanus × acerifolia,True,C\ Indústria,5.16,4.4,ok,,medium
+0156219AR,Celtis australis,False,C\ València,3.3,2.7,ok,,small
+0156220AR,Celtis australis,False,C\ Freser,,9.72,median,12.61,check
+0156221AR,Jacaranda mimosifolia,False,Pl Carme Montoriol,,3.57,median,15.54,check
+0156222AR,Celtis australis,False,C\ Còrsega,5.14,4.17,ok,,medium
+0156224AR,Celtis australis,False,C\ Sant Quintí,4.87,4.78,ok,,medium
+0156225AR,Celtis australis,False,Pg Maragall,6.64,6.48,ok,,large
+0156226AR,Celtis australis,False,C\ Sant Antoni Maria Claret,5.33,3.81,ok,,medium
+0156227AR,Celtis australis,False,C\ Provença,4.85,3.88,ok,,medium
+0156229AR,Platanus × acerifolia,True,C\ Indústria,5.08,4.48,ok,,medium
+0156231AR,Cercis siliquastrum,False,C\ Xifré,3.29,3.48,ok,,small
+0156232AR,Ulmus pumila,False,C\ Sant Antoni Maria Claret,5.11,3.78,ok,,medium
+0156233AR,Ulmus pumila,False,C\ Freser,4.83,4.28,ok,,medium
+0156234AR,Cercis siliquastrum,False,C\ Xifré,3.08,2.05,ok,,small
+0156235AR,Platanus × acerifolia,True,C\ Indústria,3.28,2.57,ok,,small
+0156236AR,Celtis australis,False,C\ Rogent,,2.53,no_kerb,,check
+0156239AR,Celtis australis,False,C\ Indústria,3.97,3.69,ok,,medium
+0156240AR,Platanus × acerifolia,True,C\ Rosselló,5.21,3.51,ok,,medium
+0156242AR,Celtis australis,False,C\ Rogent,,3.52,no_kerb,,check
+0156243AR,Celtis australis,False,C\ Independència,4.88,3.59,ok,,medium
+0156244AR,Platanus × acerifolia,True,C\ Conca,5.0,4.48,ok,,medium
+0156245AR,Celtis australis,False,C\ Dos de Maig,5.18,4.72,ok,,medium
+0156246AR,Platanus × acerifolia,True,C\ Conca,5.0,4.96,ok,,medium
+0156247AR,Celtis australis,False,C\ Sant Quintí,5.1,4.29,ok,,medium
+0156248AR,Celtis australis,False,C\ Freser,,8.88,median,12.66,check
+0156249AR,Fraxinus ornus OBELISK® 'Paus Johannes-Paulus II',False,C\ Antic de Bofarull,2.62,1.99,ok,,small
+0156250AR,Celtis australis,False,C\ Indústria,3.96,3.75,ok,,medium
+0156251AR,Celtis australis,False,C\ Rosselló,5.23,4.14,ok,,medium
+0156252AR,Celtis australis,False,Pg Maragall,6.73,5.44,ok,,large
+0156253AR,Platanus × acerifolia,True,C\ Conca,,15.72,median,,check
+0156254AR,Cercis siliquastrum,False,C\ Xifré,3.01,1.66,ok,,small
+0156255AR,Gleditsia triacanthos f. inermis,False,C\ Mallorca,8.81,8.23,ok,,large
+0156258AR,Melia azedarach,False,C\ Las Navas de Tolosa,3.92,2.65,ok,,medium
+0156259AR,Celtis australis,False,C\ Degà Bahí,4.63,3.91,ok,,medium
+0156260AR,Platanus × acerifolia,True,C\ Independència,6.14,4.73,ok,,large
+0156262AR,Fraxinus ornus OBELISK® 'Paus Johannes-Paulus II',False,C\ Antic de Bofarull,2.73,1.85,ok,,small
+0156263AR,Robinia pseudoacacia,False,C\ Josepa Massanés,,9.76,median,,check
+0156265AR,Fraxinus angustifolia,False,C\ Las Navas de Tolosa,4.05,2.73,ok,,medium
+0156266AR,Robinia pseudoacacia,False,C\ Antic de Bofarull,2.5,2.34,ok,,small
+0156267AR,Platanus × acerifolia,True,C\ Corunya,5.04,4.29,ok,,medium
+0156268AR,Celtis australis,False,C\ Rogent,,3.71,no_kerb,,check
+0156269AR,Celtis australis,False,Pg Maragall,6.92,6.79,ok,,large
+0156270AR,Prunus cerasifera 'Pissardii',False,C\ Josepa Massanés,3.28,2.22,ok,,small
+0156271AR,Celtis australis,False,C\ Sant Antoni Maria Claret,5.25,3.79,ok,,medium
+0156272AR,Tipuana tipu,False,C\ València,,19.02,median,,check
+0156273AR,Platanus × acerifolia,True,C\ Enamorats,3.89,2.77,ok,,medium
+0156274AR,Celtis australis,False,C\ Conca,4.88,3.91,ok,,medium
+0156275AR,Celtis australis,False,C\ Freser,,13.7,median,17.55,check
+0156276AR,Platanus × acerifolia,True,Av Meridiana,12.66,9.51,ok,,large
+0156277AR,Platanus × acerifolia,True,C\ Enamorats,4.47,3.51,ok,,medium
+0156278AR,Platanus × acerifolia,True,C\ Indústria,,16.58,median,,check
+0156279AR,Celtis australis,False,C\ Rogent,,2.07,no_kerb,,check
+0156280AR,Platanus × acerifolia,True,C\ Sant Antoni Maria Claret,5.15,3.41,ok,,medium
+0156281AR,Platanus × acerifolia,True,C\ Corunya,5.1,4.11,ok,,medium
+0156282AR,Celtis australis,False,C\ Sant Antoni Maria Claret,4.72,4.09,ok,,medium
+0156283AR,Celtis australis,False,C\ Degà Bahí,4.73,3.94,ok,,medium
+0156284AR,Platanus × acerifolia,True,C\ Sant Antoni Maria Claret,4.91,3.97,ok,,medium
+0156285AR,Robinia pseudoacacia,False,C\ Antic de Bofarull,2.66,2.07,ok,,small
+0156286AR,Platanus × acerifolia,True,C\ Sant Antoni Maria Claret,5.04,4.09,ok,,medium
+0156287AR,Celtis australis,False,Pg Maragall,8.74,6.55,ok,,large
+0156288AR,Pyrus calleryana 'Chanticleer',False,C\ Nació,3.11,2.35,ok,,small
+0156289AR,Platanus × acerifolia,True,C\ Provença,5.18,3.11,ok,,medium
+0156291AR,Celtis australis,False,C\ València,3.57,3.18,ok,,medium
+0156292AR,Celtis australis,False,C\ Rogent,,2.17,no_kerb,,check
+0156293AR,Brachychiton acerifolius,False,C\ Rosselló,4.0,2.97,ok,,medium
+0156294AR,Platanus × acerifolia,True,C\ València,3.9,3.63,ok,,medium
+0156295AR,Celtis australis,False,C\ Indústria,5.01,4.79,ok,,medium
+0156296AR,Celtis australis,False,C\ Còrsega,4.86,4.34,ok,,medium
+0156297AR,Celtis australis,False,Av Meridiana,,31.35,no_facade,28.25,check
+0156298AR,Tipuana tipu,False,C\ València,21.54,17.94,ok,,large
+0156299AR,Celtis australis,False,C\ Rosselló,5.14,4.13,ok,,medium
+0156300AR,Platanus × acerifolia,True,C\ València,3.75,2.55,ok,,medium
+0156301AR,Ulmus pumila,False,C\ Freser,5.13,4.04,ok,,medium
+0156302AR,Celtis australis,False,C\ Mallorca,5.17,4.21,ok,,medium
+0156304AR,Platanus × acerifolia,True,C\ Josepa Massanés,3.26,3.35,ok,,small
+0156305AR,Celtis australis,False,C\ Indústria,3.7,2.83,ok,,medium
+0156306AR,Jacaranda mimosifolia,False,Pl Carme Montoriol,,12.43,median,15.57,check
+0156307AR,Cercis siliquastrum,False,C\ Xifré,3.02,1.98,ok,,small
+0156309AR,Celtis australis,False,C\ Degà Bahí,3.46,2.77,ok,,small
+0156310AR,Cercis siliquastrum,False,C\ Nació,3.16,2.87,ok,,small
+0156311AR,Celtis australis,False,C\ Sant Antoni Maria Claret,5.13,3.75,ok,,medium
+0156313AR,Celtis australis,False,C\ Rogent,,2.65,no_kerb,,check
+0156314AR,Melia azedarach,False,Pl Can Robacols,,13.49,median,,check
+0156315AR,Celtis australis,False,C\ Trinxant,4.94,3.79,ok,,medium
+0156316AR,Cercis siliquastrum,False,C\ Nació,3.17,1.83,ok,,small
+0156317AR,Platanus × acerifolia,True,C\ Còrsega,5.01,3.92,ok,,medium
+0156318AR,Celtis australis,False,C\ Corunya,5.02,4.37,ok,,medium
+0156319AR,Celtis australis,False,C\ Freser,13.25,4.35,ok,,large
+0156320AR,Platanus × acerifolia,True,C\ Aragó,5.0,3.24,ok,,medium
+0156321AR,Platanus × acerifolia,True,Av Meridiana,11.72,9.07,ok,,large
+0156322AR,Celtis australis,False,C\ Provença,4.66,3.52,ok,,medium
+0156323AR,Celtis australis,False,C\ Rogent,21.61,4.49,ok,,large
+0156324AR,Celtis australis,False,C\ Rogent,,2.31,no_kerb,,check
+0156325AR,Celtis australis,False,C\ Trinxant,,8.78,median,13.59,check
+0156326AR,Celtis australis,False,C\ Indústria,3.27,2.33,ok,,small
+0156328AR,Platanus × acerifolia,True,C\ Independència,5.11,4.54,ok,,medium
+0156329AR,Celtis australis,False,C\ Conca,4.9,3.78,ok,,medium
+0156330AR,Platanus × acerifolia,True,C\ Còrsega,4.44,3.34,ok,,medium
+0156331AR,Celtis australis,False,C\ Rogent,,2.94,no_kerb,,check
+0156332AR,Celtis australis,False,C\ Dos de Maig,4.81,3.17,ok,,medium
+0156333AR,Tipuana tipu,False,C\ València,,16.84,median,,check
+0156334AR,Celtis australis,False,C\ Independència,4.77,3.51,ok,,medium
+0156335AR,Cercis siliquastrum,False,C\ Xifré,4.58,2.69,ok,,medium
+0156337AR,Celtis australis,False,C\ Còrsega,5.17,3.55,ok,,medium
+0156338AR,Platanus × acerifolia,True,C\ Enamorats,4.38,3.3,ok,,medium
+0156339AR,Celtis australis,False,C\ Degà Bahí,7.72,3.21,ok,,large
+0156340AR,Celtis australis,False,C\ València,3.72,3.4,ok,,medium
+0156341AR,Celtis australis,False,C\ València,4.4,3.06,ok,,medium
+0156344AR,Platanus × acerifolia,True,Av Meridiana,20.66,17.29,ok,,large
+0156346AR,Celtis australis,False,C\ Degà Bahí,4.77,4.01,ok,,medium
+0156347AR,Fraxinus ornus OBELISK® 'Paus Johannes-Paulus II',False,C\ Nació,3.24,3.22,ok,,small
+0156348AR,Celtis australis,False,C\ València,3.45,2.37,ok,,small
+0156349AR,Platanus × acerifolia,True,C\ Independència,5.17,4.08,ok,,medium
+0156350AR,Celtis australis,False,C\ València,3.44,2.09,ok,,small
+0156351AR,Robinia pseudoacacia,False,C\ Antic de Bofarull,5.73,1.53,ok,,medium
+0156352AR,Platanus × acerifolia,True,C\ Indústria,3.66,3.85,ok,,medium
+0156353AR,Ulmus pumila,False,C\ Freser,4.81,4.26,ok,,medium
+0156354AR,Ginkgo biloba 'Fastigiata Blagon',False,C\ Antic de Bofarull,2.6,1.93,ok,,small
+0156355AR,Celtis australis,False,C\ València,6.56,5.67,ok,,large
+0156356AR,Platanus × acerifolia,True,C\ Indústria,3.4,2.68,ok,,small
+0156358AR,Platanus × acerifolia,True,C\ Trinxant,3.42,2.45,ok,,small
+0156359AR,Platanus × acerifolia,True,C\ Indústria,3.27,2.33,ok,,small
+0156360AR,Celtis australis,False,C\ Conca,,15.7,median,,check
+0156361AR,Celtis australis,False,C\ Trinxant,7.12,5.94,ok,,large
+0156362AR,Celtis australis,False,C\ Rogent,,2.43,no_kerb,,check
+0156363AR,Platanus × acerifolia,True,C\ Indústria,5.05,4.46,ok,,medium
+0156364AR,Celtis australis,False,C\ Rogent,,3.39,no_kerb,,check
+0156365AR,Platanus × acerifolia,True,C\ Sant Quintí,4.72,4.52,ok,,medium
+0156368AR,Celtis australis,False,C\ Dos de Maig,4.06,3.98,ok,,medium
+0156369AR,Pyrus calleryana 'Chanticleer',False,C\ Nació,3.16,2.32,ok,,small
+0156371AR,Platanus × acerifolia,True,C\ Sant Antoni Maria Claret,,20.73,median,,check
+0156373AR,Platanus × acerifolia,True,C\ Sant Antoni Maria Claret,4.71,3.99,ok,,medium
+0156374AR,Ginkgo biloba 'Fastigiata Blagon',False,C\ Antic de Bofarull,2.62,1.97,ok,,small
+0156375AR,Parrotia persica 'Vanessa',False,C\ Nació,2.98,2.67,ok,,small
+0156376AR,Platanus × acerifolia,True,C\ Indústria,5.06,4.6,ok,,medium
+0156377AR,Celtis australis,False,C\ Enamorats,24.73,5.75,ok,,large
+0156378AR,Platanus × acerifolia,True,C\ Dos de Maig,5.27,5.13,ok,,medium
+0156379AR,Cercis siliquastrum,False,C\ Xifré,3.24,2.42,ok,,small
+0156380AR,Celtis australis,False,Av Meridiana,,33.38,no_facade,8.45,check
+0156382AR,Celtis australis,False,C\ Independència,4.91,3.67,ok,,medium
+0156383AR,Magnolia grandiflora,False,C\ Pistó,,5.79,median,,check
+0156384AR,Celtis australis,False,C\ Independència,4.83,4.77,ok,,medium
+0156385AR,Celtis australis,False,Pg Maragall,13.56,12.79,ok,,large
+0156386AR,Platanus × acerifolia,True,C\ Provença,4.92,3.62,ok,,medium
+0156387AR,Celtis australis,False,C\ Sant Antoni Maria Claret,,24.11,median,,check
+0156388AR,Platanus × acerifolia,True,C\ Indústria,10.6,10.52,ok,,large
+0156389AR,Platanus × acerifolia,True,C\ Indústria,4.94,3.85,ok,,medium
+0156390AR,Celtis australis,False,C\ Mallorca,5.1,4.13,ok,,medium
+0156391AR,Celtis australis,False,C\ Rogent,,2.05,no_kerb,,check
+0156392AR,Platanus × acerifolia,True,Pl Doctor Serrat,,19.0,median,,check
+0156393AR,Celtis australis,False,C\ Rogent,14.8,4.46,ok,,large
+0156395AR,Celtis australis,False,C\ Independència,4.54,2.19,ok,,medium
+0156397AR,Celtis australis,False,Pg Maragall,6.04,5.56,ok,,large
+0156398AR,Platanus × acerifolia,True,C\ Indústria,5.13,4.49,ok,,medium
+0156399AR,Platanus × acerifolia,True,C\ Indústria,4.0,3.36,ok,,medium
+0156401AR,Celtis australis,False,C\ Independència,5.04,3.63,ok,,medium
+0156402AR,Celtis australis,False,C\ Rogent,,9.45,no_kerb,,check
+0156403AR,Parrotia persica 'Vanessa',False,C\ Nació,2.96,2.53,ok,,small
+0156405AR,Platanus × acerifolia,True,C\ Indústria,4.95,4.18,ok,,medium
+0156406AR,Celtis australis,False,C\ Rogent,,2.16,no_kerb,,check
+0156408AR,Brachychiton acerifolius,False,C\ Rosselló,3.89,3.22,ok,,medium
+0156409AR,Celtis australis,False,C\ Còrsega,5.06,4.33,ok,,medium
+0156410AR,Cercis siliquastrum,False,C\ Nació,3.37,2.2,ok,,small
+0156411AR,Celtis australis,False,C\ Trinxant,21.09,3.72,ok,,large
+0156412AR,Ginkgo biloba 'Fastigiata',False,C\ Sibelius,,1.39,no_kerb,,check
+0156413AR,Celtis australis,False,C\ Independència,4.62,2.27,ok,,medium
+0156414AR,Celtis australis,False,C\ Rogent,,3.64,no_kerb,,check
+0156416AR,Cercis siliquastrum,False,C\ Nació,,9.73,median,9.11,check
+0156417AR,Platanus × acerifolia,True,C\ Trinxant,5.47,3.95,ok,,medium
+0156418AR,Platanus × acerifolia,True,C\ Mallorca,5.07,4.63,ok,,medium
+0156419AR,Celtis australis,False,C\ Rogent,,2.79,no_kerb,,check
+0156421AR,Celtis australis,False,C\ Sant Antoni Maria Claret,4.84,4.39,ok,,medium
+0156422AR,Celtis australis,False,Pl Doctor Serrat,,22.4,median,15.19,check
+0156423AR,Celtis australis,False,C\ Rogent,,2.37,no_kerb,,check
+0156424AR,Celtis australis,False,C\ Indústria,5.39,4.34,ok,,medium
+0156425AR,Cercis siliquastrum,False,C\ Nació,,9.76,median,,check
+0156426AR,Celtis australis,False,C\ Corunya,5.09,4.01,ok,,medium
+0156427AR,Platanus × acerifolia,True,C\ Indústria,3.7,2.86,ok,,medium
+0156428AR,Celtis australis,False,C\ Rogent,17.79,5.05,ok,,large
+0156429AR,Platanus × acerifolia,True,C\ Trinxant,7.57,6.97,ok,,large
+0156430AR,Celtis australis,False,C\ Independència,6.45,4.32,ok,,large
+0156431AR,Platanus × acerifolia,True,C\ Independència,5.2,3.98,ok,,medium
+0156432AR,Platanus × acerifolia,True,C\ Conca,5.11,4.64,ok,,medium
+0156434AR,Platanus × acerifolia,True,C\ Indústria,3.26,2.51,ok,,small
+0156435AR,Platanus × acerifolia,True,C\ Dos de Maig,4.94,5.1,ok,,medium
+0156436AR,Celtis australis,False,C\ Sant Quintí,5.02,3.46,ok,,medium
+0156437AR,Platanus × acerifolia,True,C\ Mallorca,4.76,3.19,ok,,medium
+0156439AR,Platanus × acerifolia,True,C\ Independència,4.9,3.74,ok,,medium
+0156440AR,Platanus × acerifolia,True,C\ Còrsega,5.05,4.17,ok,,medium
+0156441AR,Platanus × acerifolia,True,C\ Còrsega,4.93,4.46,ok,,medium
+0156442AR,Platanus × acerifolia,True,C\ Mallorca,4.8,4.64,ok,,medium
+0156443AR,Platanus × acerifolia,True,C\ Josepa Massanés,3.3,3.49,ok,,small
+0156444AR,Photinia x fraseri 'Red Robin',False,C\ Antic de Bofarull,2.52,2.13,ok,,small
+0156447AR,Platanus × acerifolia,True,C\ Indústria,4.66,3.39,ok,,medium
+0156448AR,Celtis australis,False,C\ Rosselló,3.83,3.4,ok,,medium
+0156450AR,Celtis australis,False,C\ Conca,4.9,3.81,ok,,medium
+0156451AR,Celtis australis,False,C\ Mallorca,4.94,3.5,ok,,medium
+0156452AR,Platanus × acerifolia,True,C\ Trinxant,4.96,4.05,ok,,medium
+0156453AR,Pyrus calleryana 'Chanticleer',False,C\ Nació,11.16,9.77,ok,,large
+0156455AR,Celtis australis,False,C\ Rogent,,2.62,no_kerb,,check
+0156458AR,Platanus × acerifolia,True,C\ Indústria,5.33,3.68,ok,,medium
+0156459AR,Celtis australis,False,C\ Indústria,4.9,4.58,ok,,medium
+0156460AR,Celtis australis,False,Pg Maragall,6.1,5.56,ok,,large
+0156462AR,Celtis australis,False,C\ Rogent,,7.18,no_kerb,,check
+0156463AR,Celtis australis,False,C\ Independència,4.85,3.14,ok,,medium
+0156464AR,Celtis australis,False,C\ Rogent,,3.21,no_kerb,,check
+0156465AR,Ginkgo biloba 'Fastigiata',False,C\ Sibelius,,3.25,no_kerb,,check
+0156466AR,Robinia pseudoacacia,False,C\ Indústria,4.19,4.02,ok,,medium
+0156467AR,Celtis australis,False,C\ Provença,5.19,3.16,ok,,medium
+0156468AR,Citrus × aurantium,False,C\ Vidiella,1.88,1.32,ok,,none
+0156469AR,Platanus × acerifolia,True,C\ Indústria,4.62,4.0,ok,,medium
+0156470AR,Platanus × acerifolia,True,C\ Independència,5.16,5.2,ok,,medium
+0156471AR,Celtis australis,False,C\ Sant Quintí,4.91,3.2,ok,,medium
+0156474AR,Platanus × acerifolia,True,C\ Independència,4.95,3.46,ok,,medium
+0156475AR,Celtis australis,False,C\ Dos de Maig,4.84,4.76,ok,,medium
+0156476AR,Celtis australis,False,C\ Sant Antoni Maria Claret,5.19,3.76,ok,,medium
+0156477AR,Prunus cerasifera 'Pissardii',False,C\ Sibelius,,2.14,no_kerb,,check
+0156478AR,Platanus × acerifolia,True,C\ Còrsega,5.32,5.12,ok,,medium
+0156479AR,Platanus × acerifolia,True,C\ Indústria,5.1,4.25,ok,,medium
+0156480AR,Celtis australis,False,C\ Rogent,,7.16,no_kerb,,check
+0156481AR,Celtis australis,False,C\ Independència,4.78,4.69,ok,,medium
+0156482AR,Ulmus parvifolia,False,C\ Còrsega,5.05,4.19,ok,,medium
+0156483AR,Celtis australis,False,C\ Enamorats,3.6,2.59,ok,,medium
+0156484AR,Celtis australis,False,C\ Independència,4.9,3.43,ok,,medium
+0156485AR,Celtis australis,False,C\ Degà Bahí,10.03,9.3,ok,,large
+0156486AR,Platanus × acerifolia,True,C\ València,4.97,4.57,ok,,medium
+0156487AR,Celtis australis,False,C\ Indústria,3.96,2.45,ok,,medium
+0156488AR,Celtis australis,False,C\ Còrsega,5.07,4.08,ok,,medium
+0156489AR,Celtis australis,False,C\ Provença,5.05,4.35,ok,,medium
+0156490AR,Melia azedarach,False,C\ Mallorca,9.41,3.47,ok,,large
+0156492AR,Platanus × acerifolia,True,C\ Corunya,5.42,4.38,ok,,medium
+0156493AR,Celtis australis,False,C\ Independència,4.65,4.25,ok,,medium
+0156495AR,Parrotia persica 'Vanessa',False,C\ Nació,3.28,3.23,ok,,small
+0156496AR,Platanus × acerifolia,True,C\ Indústria,3.4,2.74,ok,,small
+0156497AR,Celtis australis,False,C\ Rogent,,3.01,no_kerb,,check
+0156498AR,Celtis australis,False,C\ Dos de Maig,3.77,3.69,ok,,medium
+0156499AR,Celtis australis,False,C\ Indústria,3.99,2.45,ok,,medium
+0156500AR,Celtis australis,False,C\ Provença,4.68,3.75,ok,,medium
+0156501AR,Robinia pseudoacacia,False,C\ Antic de Bofarull,2.55,1.62,ok,,small
+0156502AR,Platanus × acerifolia,True,C\ Provença,5.0,4.65,ok,,medium
+0156503AR,Celtis australis,False,C\ Rogent,,2.61,no_kerb,,check
+0156504AR,Celtis australis,False,C\ Rogent,,3.4,no_kerb,,check
+0156505AR,Prunus cerasifera 'Pissardii',False,C\ Josepa Massanés,2.91,2.2,ok,,small
+0156507AR,Platanus × acerifolia,True,C\ Mallorca,4.95,3.18,ok,,medium
+0156508AR,Celtis australis,False,C\ València,3.41,2.85,ok,,small
+0156509AR,Robinia pseudoacacia 'Bessoniana',False,Pl Can Robacols,,9.37,median,,check
+0156510AR,Tipuana tipu,False,C\ València,,17.61,median,,check
+0156511AR,Platanus × acerifolia,True,C\ Mallorca,5.06,4.42,ok,,medium
+0156512AR,Celtis australis,False,Pg Maragall,6.65,6.0,ok,,large
+0156513AR,Platanus × acerifolia,True,C\ Independència,4.43,3.95,ok,,medium
+0156514AR,Platanus × acerifolia,True,Av Meridiana,11.73,9.04,ok,,large
+0156515AR,Platanus × acerifolia,True,Av Meridiana,,35.49,no_facade,8.62,check
+0156516AR,Celtis australis,False,C\ Rogent,,3.73,no_kerb,,check
+0156517AR,Gleditsia triacanthos f. inermis,False,C\ Mallorca,4.72,3.32,ok,,medium
+0156518AR,Cercis siliquastrum,False,C\ Xifré,3.34,2.39,ok,,small
+0156519AR,Ulmus pumila,False,C\ Sant Antoni Maria Claret,5.01,3.24,ok,,medium
+0156520AR,Celtis australis,False,C\ Independència,4.91,3.92,ok,,medium
+0156522AR,Celtis australis,False,C\ Rogent,,3.35,no_kerb,,check
+0156523AR,Cercis siliquastrum,False,C\ Xifré,3.02,2.0,ok,,small
+0156524AR,Ulmus pumila,False,C\ Sant Antoni Maria Claret,4.92,3.54,ok,,medium
+0156525AR,Robinia pseudoacacia,False,C\ Josepa Massanés,,10.66,median,,check
+0156527AR,Celtis australis,False,C\ Rogent,,3.89,no_kerb,,check
+0156528AR,Celtis australis,False,C\ Dos de Maig,4.79,4.39,ok,,medium
+0156529AR,Ulmus pumila,False,C\ Sant Antoni Maria Claret,5.14,4.0,ok,,medium
+0156531AR,Celtis australis,False,C\ Independència,4.82,3.42,ok,,medium
+0156532AR,Platanus × acerifolia,True,C\ Independència,5.0,4.15,ok,,medium
+0156533AR,Platanus × acerifolia,True,C\ Indústria,3.22,2.38,ok,,small
+0156534AR,Platanus × acerifolia,True,C\ Independència,4.88,4.07,ok,,medium
+0156535AR,Celtis australis,False,C\ Sant Antoni Maria Claret,4.69,4.02,ok,,medium
+0156536AR,Celtis australis,False,Av Meridiana,11.7,2.92,ok,,large
+0156537AR,Gleditsia triacanthos f. inermis,False,C\ Mallorca,5.22,4.42,ok,,medium
+0156538AR,Platanus × acerifolia,True,C\ Indústria,5.34,3.84,ok,,medium
+0156539AR,Platanus × acerifolia,True,C\ Indústria,5.17,4.16,ok,,medium
+0156540AR,Celtis australis,False,C\ Enamorats,4.09,3.0,ok,,medium
+0156541AR,Platanus × acerifolia,True,C\ Enamorats,21.76,5.76,ok,,large
+0156542AR,Celtis australis,False,C\ Provença,4.96,4.59,ok,,medium
+0156543AR,Cercis siliquastrum,False,C\ Xifré,3.08,2.1,ok,,small
+0156544AR,Platanus × acerifolia,True,C\ València,4.55,3.49,ok,,medium
+0156545AR,Celtis australis,False,C\ València,3.22,2.65,ok,,small
+0156546AR,Platanus × acerifolia,True,C\ Indústria,19.56,11.1,ok,,large
+0156547AR,Celtis australis,False,C\ Còrsega,5.18,4.12,ok,,medium
+0156548AR,Platanus × acerifolia,True,C\ Còrsega,4.87,3.97,ok,,medium
+0156549AR,Celtis australis,False,Av Meridiana,,16.91,median,3.23,check
+0156550AR,Platanus × acerifolia,True,C\ Indústria,3.4,2.23,ok,,small
+0156551AR,Platanus × acerifolia,True,C\ Indústria,5.19,3.57,ok,,medium
+0156552AR,Celtis australis,False,C\ Rogent,,3.5,no_kerb,40.97,check
+0156553AR,Celtis australis,False,C\ Indústria,5.17,3.72,ok,,medium
+0156554AR,Platanus × acerifolia,True,C\ Independència,4.97,3.61,ok,,medium
+0156555AR,Celtis australis,False,C\ Dos de Maig,5.13,5.26,ok,,medium
+0156556AR,Robinia pseudoacacia,False,Pl Can Robacols,,19.1,median,40.23,check
+0156557AR,Platanus × acerifolia,True,Av Meridiana,11.75,8.56,ok,,large
+0156558AR,Celtis australis,False,C\ Rogent,20.81,8.12,ok,,large
+0156559AR,Platanus × acerifolia,True,C\ Enamorats,4.08,2.8,ok,,medium
+0156560AR,Celtis australis,False,C\ Indústria,3.99,3.49,ok,,medium
+0156561AR,Celtis australis,False,C\ Freser,,9.53,median,12.65,check
+0156563AR,Celtis australis,False,C\ Independència,4.84,4.66,ok,,medium
+0156564AR,Celtis australis,False,C\ Sant Antoni Maria Claret,5.1,3.68,ok,,medium
+0156565AR,Platanus × acerifolia,True,Av Meridiana,,40.27,no_facade,8.61,check
+0156566AR,Platanus × acerifolia,True,C\ Rosselló,5.0,4.15,ok,,medium
+0156567AR,Gleditsia triacanthos f. inermis,False,C\ Mallorca,4.93,4.22,ok,,medium
+0156568AR,Platanus × acerifolia,True,C\ Las Navas de Tolosa,4.02,3.14,ok,,medium
+0156569AR,Platanus × acerifolia,True,C\ Indústria,3.5,2.7,ok,,medium
+0156570AR,Platanus × acerifolia,True,C\ Dos de Maig,3.76,3.69,ok,,medium
+0156573AR,Melia azedarach,False,C\ Las Navas de Tolosa,4.03,2.97,ok,,medium
+0156574AR,Melia azedarach,False,C\ Las Navas de Tolosa,3.93,3.22,ok,,medium
+0156575AR,Platanus × acerifolia,True,Av Meridiana,,14.68,median,16.07,check
+0156576AR,Celtis australis,False,C\ Rogent,,2.65,no_kerb,,check
+0156577AR,Celtis australis,False,C\ Rogent,20.69,11.16,ok,,large
+0156579AR,Celtis australis,False,C\ Rogent,,3.54,no_kerb,53.32,check
+0156580AR,Gleditsia triacanthos f. inermis,False,C\ Mallorca,4.74,4.46,ok,,medium
+0156582AR,Platanus × acerifolia,True,C\ Indústria,3.88,2.44,ok,,medium
+0156583AR,Grevillea robusta,False,C\ Enamorats,3.65,3.1,ok,,medium
+0156584AR,Brachychiton populneus,False,C\ Corunya,4.99,4.4,ok,,medium
+0156585AR,Platanus × acerifolia,True,C\ Sant Antoni Maria Claret,4.7,3.97,ok,,medium
+0156586AR,Celtis australis,False,C\ Dos de Maig,3.99,3.68,ok,,medium
+0156587AR,Cercis siliquastrum,False,C\ Xifré,3.1,2.74,ok,,small
+0156588AR,Celtis australis,False,C\ Independència,4.85,3.84,ok,,medium
+0156589AR,Melia azedarach,False,C\ Dos de Maig,4.83,4.91,ok,,medium
+0156590AR,Celtis australis,False,C\ València,3.39,2.73,ok,,small
+0156591AR,Celtis australis,False,C\ Mallorca,5.0,3.99,ok,,medium
+0156592AR,Celtis australis,False,C\ Rogent,,2.29,no_kerb,,check
+0156594AR,Platanus × acerifolia,True,C\ Mallorca,4.79,3.94,ok,,medium
+0156595AR,Celtis australis,False,C\ Rogent,,3.55,no_kerb,,check
+0156596AR,Celtis australis,False,C\ Rogent,,2.13,no_kerb,,check
+0156597AR,Celtis australis,False,Pg Maragall,9.34,8.48,ok,,large
+0156598AR,Celtis australis,False,C\ Rogent,,2.47,no_kerb,,check
+0156600AR,Celtis australis,False,C\ Còrsega,5.1,3.64,ok,,medium
+0156601AR,Platanus × acerifolia,True,C\ Enamorats,4.0,2.62,ok,,medium
+0156602AR,Celtis australis,False,C\ Mallorca,4.8,4.01,ok,,medium
+0156603AR,Cercis siliquastrum,False,C\ Xifré,3.08,1.54,ok,,small
+0156605AR,Platanus × acerifolia,True,Av Meridiana,11.76,8.89,ok,,large
+0156606AR,Celtis australis,False,C\ Mallorca,5.19,4.2,ok,,medium
+0156607AR,Parrotia persica 'Vanessa',False,C\ Nació,3.12,2.51,ok,,small
+0156608AR,Platanus × acerifolia,True,C\ Independència,5.21,4.71,ok,,medium
+0156609AR,Celtis australis,False,Pg Maragall,8.35,8.02,ok,,large
+0156610AR,Celtis australis,False,Pg Maragall,6.88,6.68,ok,,large
+0156611AR,Platanus × acerifolia,True,C\ Independència,4.81,2.88,ok,,medium
+0156612AR,Platanus × acerifolia,True,C\ Mallorca,5.09,3.81,ok,,medium
+0156613AR,Robinia pseudoacacia,False,Pl Can Robacols,,14.14,median,,check
+0156614AR,Cercis siliquastrum,False,C\ Nació,3.06,1.95,ok,,small
+0156615AR,Platanus × acerifolia,True,C\ Trinxant,4.84,4.42,ok,,medium
+0156616AR,Celtis australis,False,C\ Dos de Maig,4.27,4.15,ok,,medium
+0156617AR,Platanus × acerifolia,True,C\ Sant Antoni Maria Claret,5.08,3.93,ok,,medium
+0156618AR,Grevillea robusta,False,Av Meridiana,20.43,11.61,ok,,large
+0156619AR,Cercis siliquastrum,False,C\ Nació,6.11,4.9,ok,,large
+0156620AR,Gleditsia triacanthos f. inermis,False,C\ Mallorca,4.89,4.01,ok,,medium
+0156621AR,Celtis australis,False,C\ Rogent,,2.89,no_kerb,,check
+0156622AR,Pyrus calleryana 'Chanticleer',False,C\ Finestrat,2.81,1.12,ok,,small
+0156623AR,Platanus × acerifolia,True,C\ Provença,5.13,3.71,ok,,medium
+0156624AR,Celtis australis,False,C\ Degà Bahí,4.13,3.68,ok,,medium
+0156625AR,Robinia pseudoacacia,False,C\ Dos de Maig,4.82,4.39,ok,,medium
+0156626AR,Celtis australis,False,Av Meridiana,11.81,2.9,ok,,large
+0156627AR,Platanus × acerifolia,True,C\ Las Navas de Tolosa,3.75,3.21,ok,,medium
+0156628AR,Cercis siliquastrum,False,C\ Xifré,3.19,3.15,ok,,small
+0156629AR,Platanus × acerifolia,True,C\ Indústria,4.02,3.72,ok,,medium
+0156631AR,Celtis australis,False,C\ Enamorats,3.95,2.84,ok,,medium
+0156632AR,Platanus × acerifolia,True,C\ Indústria,3.63,2.51,ok,,medium
+0156633AR,Celtis australis,False,C\ Provença,4.52,3.8,ok,,medium
+0156635AR,Platanus × acerifolia,True,C\ Aragó,13.29,6.46,ok,,large
+0156636AR,Platanus × acerifolia,True,C\ Enamorats,4.06,2.91,ok,,medium
+0156637AR,Celtis australis,False,C\ Rogent,,3.2,no_kerb,,check
+0156638AR,Platanus × acerifolia,True,C\ Provença,4.92,4.5,ok,,medium
+0156639AR,Citrus × aurantium,False,C\ Vidiella,1.87,0.91,ok,,none
+0156640AR,Celtis australis,False,C\ Mallorca,11.98,4.91,ok,,large
+0156641AR,Prunus cerasifera 'Pissardii',False,C\ Antic de Bofarull,8.21,6.84,ok,,large
+0156643AR,Platanus × acerifolia,True,C\ Sant Quintí,5.1,3.12,ok,,medium
+0156644AR,Catalpa bignonioides,False,C\ Indústria,4.88,3.74,ok,,medium
+0156645AR,Corylus colurna,False,Ptge Dos de Maig,3.32,2.94,ok,,small
+0156646AR,Platanus × acerifolia,True,C\ València,4.78,3.94,ok,,medium
+0156647AR,Celtis australis,False,C\ Mallorca,5.18,3.52,ok,,medium
+0156648AR,Celtis australis,False,C\ Independència,4.59,2.02,ok,,medium
+0156649AR,Platanus × acerifolia,True,C\ Trinxant,5.48,4.01,ok,,medium
+0156650AR,Platanus × acerifolia,True,C\ Independència,4.96,3.75,ok,,medium
+0156652AR,Ulmus pumila,False,C\ Freser,5.39,4.11,ok,,medium
+0156653AR,Celtis australis,False,Pg Maragall,8.67,8.42,ok,,large
+0156654AR,Celtis australis,False,C\ Enamorats,,5.81,no_kerb,,check
+0156656AR,Ulmus pumila,False,C\ Sant Antoni Maria Claret,5.15,3.72,ok,,medium
+0156657AR,Platanus × acerifolia,True,C\ Indústria,11.97,11.07,ok,,large
+0156659AR,Celtis australis,False,C\ Degà Bahí,7.47,3.18,ok,,large
+0156660AR,Cercis siliquastrum,False,C\ Xifré,7.22,5.82,ok,,large
+0156661AR,Melia azedarach,False,C\ Còrsega,4.7,5.35,ok,,medium
+0156662AR,Platanus × acerifolia,True,C\ Rosselló,4.79,4.19,ok,,medium
+0156664AR,Liquidambar styraciflua,False,C\ Josepa Massanés,3.27,3.02,ok,,small
+0156665AR,Platanus × acerifolia,True,Av Meridiana,12.65,9.44,ok,,large
+0156667AR,Platanus × acerifolia,True,C\ Sant Quintí,5.04,3.87,ok,,medium
+0156668AR,Platanus × acerifolia,True,Av Meridiana,,39.9,no_facade,,check
+0156669AR,Platanus × acerifolia,True,Av Meridiana,11.72,9.1,ok,,large
+0156670AR,Platanus × acerifolia,True,Av Meridiana,14.83,11.47,ok,,large
+0156671AR,Platanus × acerifolia,True,C\ Josepa Massanés,3.52,2.58,ok,,medium
+0156673AR,Prunus cerasifera 'Pissardii',False,C\ Josepa Massanés,3.3,1.83,ok,,small
+0156674AR,Platanus × acerifolia,True,C\ Provença,4.73,3.8,ok,,medium
+0156675AR,Platanus × acerifolia,True,C\ Mallorca,5.34,4.55,ok,,medium
+0156676AR,Magnolia grandiflora,False,Pl Can Robacols,,14.41,median,,check
+0156678AR,Celtis australis,False,C\ Sant Quintí,4.95,3.15,ok,,medium
+0156679AR,Robinia pseudoacacia,False,Pl Can Robacols,,10.22,median,,check
+0156681AR,Platanus × acerifolia,True,C\ Independència,4.73,3.44,ok,,medium
+0156683AR,Parrotia persica 'Vanessa',False,C\ Nació,3.05,2.18,ok,,small
+0156684AR,Celtis australis,False,C\ Rogent,,3.3,no_kerb,,check
+0156685AR,Platanus × acerifolia,True,C\ Freser,11.13,9.95,ok,,large
+0156686AR,Platanus × acerifolia,True,C\ Enamorats,4.08,3.11,ok,,medium
+0156688AR,Platanus × acerifolia,True,C\ Trinxant,4.72,3.95,ok,,medium
+0156689AR,Celtis australis,False,C\ Rogent,,2.86,no_kerb,,check
+0156690AR,Celtis australis,False,C\ Rogent,,2.3,no_kerb,,check
+0156691AR,Parrotia persica 'Vanessa',False,C\ Nació,2.99,2.05,ok,,small
+0156692AR,Celtis australis,False,C\ Mallorca,4.85,3.85,ok,,medium
+0156693AR,Celtis australis,False,Pg Maragall,6.69,5.14,ok,,large
+0156694AR,Celtis australis,False,C\ Dos de Maig,4.4,4.54,ok,,medium
+0156695AR,Platanus × acerifolia,True,C\ Còrsega,5.26,4.23,ok,,medium
+0156697AR,Platanus × acerifolia,True,C\ Indústria,5.2,4.15,ok,,medium
+0156698AR,Ulmus pumila,False,C\ Freser,3.54,2.45,ok,,medium
+0156699AR,Platanus × acerifolia,True,C\ Conca,,15.88,median,,check
+0156700AR,Celtis australis,False,C\ Còrsega,5.09,3.58,ok,,medium
+0156702AR,Platanus × acerifolia,True,C\ Independència,4.96,3.85,ok,,medium
+0156703AR,Platanus × acerifolia,True,C\ Independència,5.03,4.11,ok,,medium
+0156704AR,Celtis australis,False,C\ Còrsega,15.82,2.67,ok,,large
+0156706AR,Celtis australis,False,C\ Mallorca,4.96,3.92,ok,,medium
+0156707AR,Platanus × acerifolia,True,C\ Mallorca,4.74,3.14,ok,,medium
+0156708AR,Celtis australis,False,C\ Còrsega,5.1,3.67,ok,,medium
+0156710AR,Tipuana tipu,False,C\ València,9.41,7.32,ok,,large
+0156711AR,Celtis australis,False,C\ Còrsega,4.89,3.78,ok,,medium
+0156712AR,Platanus × acerifolia,True,C\ Independència,5.23,5.29,ok,,medium
+0156713AR,Robinia pseudoacacia,False,C\ Antic de Bofarull,2.51,1.76,ok,,small
+0156714AR,Platanus × acerifolia,True,C\ Provença,4.71,4.08,ok,,medium
+0156715AR,Celtis australis,False,C\ Rosselló,5.22,4.2,ok,,medium
+0156716AR,Celtis australis,False,C\ Corunya,5.01,4.06,ok,,medium
+0156717AR,Platanus × acerifolia,True,C\ Independència,4.81,3.22,ok,,medium
+0156718AR,Cercis siliquastrum,False,C\ Xifré,7.16,5.8,ok,,large
+0156719AR,Ulmus pumila,False,C\ Freser,18.02,7.35,ok,,large
+0156720AR,Celtis australis,False,C\ Provença,5.0,4.75,ok,,medium
+0156721AR,Populus nigra 'Italica',False,Av Meridiana,11.28,1.43,ok,,large
+0156722AR,Platanus × acerifolia,True,C\ Indústria,4.67,2.96,ok,,medium
+0156723AR,Celtis australis,False,C\ Conca,19.21,2.72,ok,,large
+0156724AR,Platanus × acerifolia,True,C\ Sant Quintí,5.0,3.85,ok,,medium
+0156725AR,Celtis australis,False,C\ Rogent,,3.17,no_kerb,,check
+0156726AR,Robinia pseudoacacia,False,C\ Antic de Bofarull,2.72,2.12,ok,,small
+0156727AR,Celtis australis,False,C\ València,4.67,4.34,ok,,medium
+0156728AR,Ulmus pumila,False,C\ Freser,4.18,2.42,ok,,medium
+0156729AR,Ulmus pumila,False,C\ Sant Antoni Maria Claret,8.53,7.76,ok,,large
+0156730AR,Platanus × acerifolia,True,C\ Indústria,5.08,4.34,ok,,medium
+0156731AR,Celtis australis,False,C\ Freser,,9.36,median,,check
+0156732AR,Ulmus pumila,False,C\ Freser,4.93,4.6,ok,,medium
+0156733AR,Magnolia grandiflora 'Goliath',False,C\ Pistó,,5.53,median,,check
+0156734AR,Celtis australis,False,C\ Còrsega,4.96,3.93,ok,,medium
+0156735AR,Ulmus pumila,False,C\ Sant Antoni Maria Claret,4.7,4.03,ok,,medium
+0156737AR,Celtis australis,False,C\ Rogent,,2.32,no_kerb,46.8,check
+0156739AR,Platanus × acerifolia,True,Av Meridiana,29.52,21.02,ok,,large
+0156740AR,Prunus cerasifera 'Pissardii',False,C\ Josepa Massanés,3.19,2.38,ok,,small
+0156741AR,Ginkgo biloba 'Fastigiata',False,C\ Sibelius,,6.85,median,,check
+0156742AR,Celtis australis,False,C\ Dos de Maig,4.37,3.91,ok,,medium
+0156743AR,Cercis siliquastrum,False,C\ Xifré,3.25,2.37,ok,,small
+0156745AR,Celtis australis,False,C\ Enamorats,3.27,2.54,ok,,small
+0156746AR,Ulmus pumila,False,C\ Freser,4.9,4.72,ok,,medium
+0156747AR,Celtis australis,False,C\ Rogent,,5.53,no_kerb,,check
+0156748AR,Platanus × acerifolia,True,C\ València,3.6,2.47,ok,,medium
+0156749AR,Cercis siliquastrum,False,C\ Xifré,2.99,2.09,ok,,small
+0156750AR,Cercis siliquastrum,False,C\ Xifré,3.04,2.13,ok,,small
+0156751AR,Platanus × acerifolia,True,C\ Còrsega,5.02,4.0,ok,,medium
+0156752AR,Platanus × acerifolia,True,C\ Mallorca,4.78,3.39,ok,,medium
+0156753AR,Platanus × acerifolia,True,Av Meridiana,,34.59,no_facade,16.91,check
+0156754AR,Celtis australis,False,C\ Sant Quintí,5.07,3.87,ok,,medium
+0156755AR,Celtis australis,False,C\ Rosselló,4.97,4.05,ok,,medium
+0156756AR,Celtis australis,False,C\ Dos de Maig,4.81,4.47,ok,,medium
+0156757AR,Ulmus pumila,False,C\ Freser,6.5,6.1,ok,,large
+0156758AR,Celtis australis,False,C\ València,3.47,1.93,ok,,small
+0156759AR,Koelreuteria paniculata,False,C\ Conca,4.93,3.71,ok,,medium
+0156760AR,Celtis australis,False,C\ Rogent,,2.44,no_kerb,,check
+0156761AR,Celtis australis,False,C\ Dos de Maig,3.96,3.39,ok,,medium
+0156762AR,Magnolia grandiflora,False,C\ Pistó,,5.38,median,,check
+0156763AR,Ulmus pumila,False,C\ Mallorca,4.88,3.74,ok,,medium
+0156764AR,Cercis siliquastrum,False,C\ Nació,3.25,1.9,ok,,small
+0156765AR,Celtis australis,False,C\ Rogent,,2.16,no_kerb,,check
+0156766AR,Celtis australis,False,C\ Rogent,,3.56,no_kerb,,check
+0156767AR,Celtis australis,False,C\ Sant Antoni Maria Claret,4.79,3.99,ok,,medium
+0156768AR,Celtis australis,False,C\ Sant Quintí,5.06,3.44,ok,,medium
+0156769AR,Styphnolobium japonicum,False,C\ Trinxant,6.52,5.02,ok,,large
+0156770AR,Platanus × acerifolia,True,C\ València,17.94,12.49,ok,,large
+0156771AR,Platanus × acerifolia,True,C\ València,4.19,2.93,ok,,medium
+0156772AR,Celtis australis,False,C\ Rogent,,3.33,no_kerb,,check
+0156773AR,Celtis australis,False,C\ Independència,4.77,3.79,ok,,medium
+0156774AR,Celtis australis,False,C\ Rogent,,2.48,no_kerb,,check
+0156776AR,Celtis australis,False,C\ Rogent,,3.38,no_kerb,,check
+0156778AR,Celtis australis,False,C\ Rosselló,6.8,6.18,ok,,large
+0156779AR,Platanus × acerifolia,True,C\ Enamorats,3.6,2.94,ok,,medium
+0156780AR,Celtis australis,False,C\ Mallorca,4.91,4.11,ok,,medium
+0156781AR,Celtis australis,False,C\ Degà Bahí,10.01,9.14,ok,,large
+0156783AR,Platanus × acerifolia,True,C\ Trinxant,6.61,5.1,ok,,large
+0156784AR,Platanus × acerifolia,True,C\ Còrsega,5.12,4.55,ok,,medium
+0156785AR,Platanus × acerifolia,True,C\ Sant Antoni Maria Claret,5.06,4.14,ok,,medium
+0156786AR,Celtis australis,False,C\ Dos de Maig,4.01,4.03,ok,,medium
+0156787AR,Celtis australis,False,C\ Freser,,9.21,median,,check
+0156788AR,Melia azedarach,False,C\ Dos de Maig,4.8,4.05,ok,,medium
+0156789AR,Pyrus calleryana 'Chanticleer',False,Pl Doctor Serrat,,29.38,median,25.05,check
+0156790AR,Platanus × acerifolia,True,Av Meridiana,11.79,8.66,ok,,large
+0156791AR,Melia azedarach,False,C\ Las Navas de Tolosa,4.13,3.09,ok,,medium
+0156793AR,Celtis australis,False,C\ Rogent,,2.4,no_kerb,,check
+0156794AR,Platanus × acerifolia,True,C\ Indústria,4.51,3.54,ok,,medium
+0156795AR,Celtis australis,False,C\ Còrsega,5.0,3.83,ok,,medium
+0156796AR,Celtis australis,False,C\ Mallorca,10.6,9.12,ok,,large
+0156797AR,Platanus × acerifolia,True,C\ València,4.94,4.27,ok,,medium
+0156798AR,Jacaranda mimosifolia,False,Pl Carme Montoriol,17.98,2.3,ok,,large
+0156799AR,Platanus × acerifolia,True,C\ Sant Antoni Maria Claret,4.86,4.09,ok,,medium
+0156800AR,Celtis australis,False,C\ Dos de Maig,4.79,4.12,ok,,medium
+0156801AR,Gleditsia triacanthos f. inermis,False,C\ Mallorca,5.15,4.22,ok,,medium
+0156802AR,Celtis australis,False,C\ Rogent,,2.1,no_kerb,,check
+0156803AR,Platanus × acerifolia,True,C\ València,3.75,3.45,ok,,medium
+0156804AR,Celtis australis,False,C\ Trinxant,7.64,7.12,ok,,large
+0156805AR,Celtis australis,False,C\ Independència,4.6,2.08,ok,,medium
+0156806AR,Celtis australis,False,C\ Conca,4.87,3.74,ok,,medium
+0156807AR,Styphnolobium japonicum,False,C\ Trinxant,7.58,6.8,ok,,large
+0156808AR,Celtis australis,False,C\ Rogent,20.74,3.66,ok,,large
+0156810AR,Celtis australis,False,C\ Degà Bahí,4.59,3.95,ok,,medium
+0156811AR,Celtis australis,False,C\ Mallorca,4.82,3.21,ok,,medium
+0156812AR,Parrotia persica 'Vanessa',False,C\ Nació,3.14,2.39,ok,,small
+0156813AR,Celtis australis,False,C\ Freser,,9.18,median,12.67,check
+0156814AR,Platanus × acerifolia,True,C\ Mallorca,4.86,3.45,ok,,medium
+0156815AR,Koelreuteria paniculata,False,C\ Provença,5.06,3.96,ok,,medium
+0156816AR,Platanus × acerifolia,True,C\ Rosselló,5.0,3.98,ok,,medium
+0156818AR,Platanus × acerifolia,True,C\ Còrsega,5.41,5.33,ok,,medium
+0156819AR,Celtis australis,False,C\ Trinxant,5.18,4.22,ok,,medium
+0156820AR,Platanus × acerifolia,True,Av Meridiana,11.73,8.49,ok,,large
+0156822AR,Parrotia persica 'Vanessa',False,C\ Nació,3.04,2.8,ok,,small
+0156823AR,Robinia pseudoacacia,False,Pl Can Robacols,,14.73,median,,check
+0156824AR,Platanus × acerifolia,True,C\ Conca,4.99,3.59,ok,,medium
+0156825AR,Cercis siliquastrum,False,C\ Xifré,3.15,2.17,ok,,small
+0156826AR,Celtis australis,False,C\ Rogent,,3.4,no_kerb,,check
+0156827AR,Pyrus calleryana 'Chanticleer',False,C\ Nació,3.36,2.22,ok,,small
+0156829AR,Celtis australis,False,C\ Enamorats,,10.37,no_kerb,,check
+0156830AR,Pyrus calleryana 'Chanticleer',False,C\ Nació,3.05,2.16,ok,,small
+0156831AR,Magnolia x soulangeana,False,C\ Pistó,,9.74,median,,check
+0156832AR,Celtis australis,False,C\ Còrsega,,21.1,median,4.5,check
+0156833AR,Platanus × acerifolia,True,C\ Còrsega,,16.07,median,15.72,check
+0156835AR,Robinia pseudoacacia,False,C\ Antic de Bofarull,2.72,1.77,ok,,small
+0156836AR,Citrus × aurantium,False,C\ Vidiella,1.86,0.9,ok,,none
+0156837AR,Platanus × acerifolia,True,Av Meridiana,19.92,14.49,ok,,large
+0156838AR,Celtis australis,False,C\ Rogent,,3.58,no_kerb,,check
+0156839AR,Celtis australis,False,C\ Indústria,4.29,4.08,ok,,medium
+0156840AR,Platanus × acerifolia,True,C\ València,3.63,2.51,ok,,medium
+0156841AR,Celtis australis,False,C\ Rogent,,3.63,no_kerb,28.31,check
+0156842AR,Celtis australis,False,C\ Degà Bahí,3.31,2.51,ok,,small
+0156843AR,Platanus × acerifolia,True,C\ Indústria,4.13,4.62,ok,,medium
+0156844AR,Magnolia grandiflora,False,C\ Josepa Massanés,,10.38,median,,check
+0156845AR,Ulmus pumila,False,C\ Freser,20.72,3.72,ok,,large
+0156846AR,Cercis siliquastrum,False,C\ Xifré,3.04,1.07,ok,,small
+0156847AR,Celtis australis,False,C\ València,3.76,2.77,ok,,medium
+0156848AR,Gleditsia triacanthos f. inermis,False,C\ Mallorca,4.68,3.31,ok,,medium
+0156849AR,Melia azedarach,False,C\ Independència,9.21,6.55,ok,,large
+0156850AR,Celtis australis,False,C\ Sant Antoni Maria Claret,5.01,3.61,ok,,medium
+0156851AR,Celtis australis,False,C\ Còrsega,,16.12,median,6.75,check
+0156852AR,Celtis australis,False,C\ Rogent,,5.21,no_kerb,,check
+0156853AR,Platanus × acerifolia,True,C\ Las Navas de Tolosa,3.68,3.0,ok,,medium
+0156854AR,Gleditsia triacanthos f. inermis,False,C\ Mallorca,4.95,4.34,ok,,medium
+0156855AR,Platanus × acerifolia,True,C\ Enamorats,3.41,2.65,ok,,small
+0156856AR,Celtis australis,False,C\ Enamorats,7.53,6.3,ok,,large
+0156858AR,Celtis australis,False,C\ Sant Antoni Maria Claret,4.83,4.29,ok,,medium
+0156859AR,Celtis australis,False,C\ Mallorca,5.02,4.25,ok,,medium
+0156860AR,Celtis australis,False,C\ València,3.63,3.43,ok,,medium
+0156861AR,Pinus pinea,False,Pl Heroïnes de Girona,,23.68,median,25.77,check
+0156862AR,Celtis australis,False,C\ Degà Bahí,4.75,3.9,ok,,medium
+0156863AR,Jacaranda mimosifolia,False,Pl Carme Montoriol,,13.71,median,14.7,check
+0156864AR,Celtis australis,False,C\ Indústria,4.91,3.87,ok,,medium
+0156865AR,Celtis australis,False,C\ Mallorca,6.09,4.63,ok,,large
+0156866AR,Celtis australis,False,C\ Còrsega,4.71,3.21,ok,,medium
+0156867AR,Platanus × acerifolia,True,C\ Provença,5.21,3.27,ok,,medium
+0156869AR,Celtis australis,False,C\ València,3.5,3.4,ok,,medium
+0156870AR,Parrotia persica 'Vanessa',False,C\ Nació,3.08,2.93,ok,,small
+0156871AR,Platanus × acerifolia,True,C\ Indústria,4.67,3.51,ok,,medium
+0156872AR,Celtis australis,False,Pg Maragall,10.04,2.66,ok,,large
+0156874AR,Celtis australis,False,C\ Trinxant,,8.75,median,13.59,check
+0156875AR,Celtis australis,False,C\ Provença,5.07,4.07,ok,,medium
+0156876AR,Platanus × acerifolia,True,C\ Rosselló,4.94,3.32,ok,,medium
+0156878AR,Celtis australis,False,C\ Còrsega,4.77,3.85,ok,,medium
+0156879AR,Platanus × acerifolia,True,C\ Indústria,3.93,2.33,ok,,medium
+0156880AR,Platanus × acerifolia,True,C\ Indústria,5.08,4.06,ok,,medium
+0156881AR,Celtis australis,False,C\ Enamorats,3.45,2.59,ok,,small
+0156882AR,Celtis australis,False,C\ Sant Quintí,4.95,3.32,ok,,medium
+0156883AR,Magnolia grandiflora,False,C\ Pistó,,5.64,median,,check
+0156884AR,Platanus × acerifolia,True,C\ Sant Quintí,5.0,3.9,ok,,medium
+0156886AR,Platanus × acerifolia,True,C\ Independència,4.85,3.18,ok,,medium
+0156887AR,Cercis siliquastrum,False,C\ Nació,2.97,2.48,ok,,small
+0156888AR,Platanus × acerifolia,True,C\ Indústria,25.64,3.17,ok,,large
+0156889AR,Celtis australis,False,C\ Rogent,26.31,6.25,ok,,large
+0156890AR,Platanus × acerifolia,True,C\ Enamorats,3.93,3.23,ok,,medium
+0156891AR,Celtis australis,False,C\ Dos de Maig,4.64,4.41,ok,,medium
+0156892AR,Celtis australis,False,C\ Rogent,,3.17,no_kerb,,check
+0156893AR,Pyrus calleryana 'Chanticleer',False,C\ Finestrat,3.0,1.26,ok,,small
+0156894AR,Robinia pseudoacacia,False,Pl Can Robacols,,8.43,median,,check
+0156895AR,Celtis australis,False,C\ Provença,4.93,3.31,ok,,medium
+0156897AR,Platanus × acerifolia,True,C\ Mallorca,4.8,4.44,ok,,medium
+0156898AR,Melia azedarach,False,C\ Mallorca,9.42,4.05,ok,,large
+0156899AR,Celtis australis,False,C\ Còrsega,5.01,4.1,ok,,medium
+0156900AR,Celtis australis,False,C\ Sant Antoni Maria Claret,4.83,4.13,ok,,medium
+0156902AR,Platanus × acerifolia,True,C\ Enamorats,4.25,3.6,ok,,medium
+0156903AR,Celtis australis,False,C\ Independència,4.96,4.37,ok,,medium
+0156904AR,Celtis australis,False,C\ Mallorca,4.75,4.01,ok,,medium
+0156905AR,Platanus × acerifolia,True,C\ Freser,,13.87,median,19.72,check
+0156906AR,Platanus × acerifolia,True,C\ València,4.52,3.47,ok,,medium
+0156907AR,Ulmus pumila,False,C\ Sant Antoni Maria Claret,5.08,3.49,ok,,medium
+0156908AR,Platanus × acerifolia,True,C\ Indústria,4.18,3.75,ok,,medium
+0156909AR,Platanus × acerifolia,True,Av Meridiana,,13.49,median,8.62,check
+0156910AR,Celtis australis,False,C\ Mallorca,4.87,3.17,ok,,medium
+0156911AR,Celtis australis,False,Pg Maragall,7.12,6.08,ok,,large
+0156912AR,Platanus × acerifolia,True,C\ València,3.75,2.68,ok,,medium
+0156913AR,Celtis australis,False,C\ Independència,4.79,3.16,ok,,medium
+0156915AR,Celtis australis,False,Av Meridiana,11.77,2.51,ok,,large
+0156916AR,Platanus × acerifolia,True,C\ Provença,4.71,3.71,ok,,medium
+0156917AR,Celtis australis,False,C\ Rogent,,3.04,no_kerb,,check
+0156918AR,Platanus × acerifolia,True,C\ Mallorca,4.93,3.54,ok,,medium
+0156919AR,Celtis australis,False,Pg Maragall,7.11,6.02,ok,,large
+0156921AR,Platanus × acerifolia,True,C\ Conca,18.4,4.53,ok,,large
+0156922AR,Citrus × aurantium,False,C\ Vidiella,1.98,1.33,ok,,none
+0156923AR,Ginkgo biloba 'Fastigiata',False,C\ Sibelius,,1.5,no_kerb,,check
+0156924AR,Robinia pseudoacacia,False,Pl Can Robacols,,10.63,median,,check
+0156925AR,Celtis australis,False,C\ Rogent,,2.11,no_kerb,,check
+0156926AR,Celtis australis,False,C\ Sant Antoni Maria Claret,5.13,4.04,ok,,medium
+0156927AR,Platanus × acerifolia,True,C\ Indústria,4.15,4.62,ok,,medium
+0156928AR,Celtis australis,False,C\ Còrsega,,15.69,median,21.2,check
+0156929AR,Celtis australis,False,C\ Corunya,4.99,3.95,ok,,medium
+0156930AR,Celtis australis,False,C\ Sant Antoni Maria Claret,8.82,8.48,ok,,large
+0156931AR,Celtis australis,False,C\ Rogent,,6.19,no_kerb,,check
+0156932AR,Platanus × acerifolia,True,C\ Sant Antoni Maria Claret,5.11,3.79,ok,,medium
+0156933AR,Celtis australis,False,C\ Rogent,,3.42,no_kerb,,check
+0156934AR,Platanus × acerifolia,True,C\ Trinxant,5.04,4.58,ok,,medium
+0156935AR,Ulmus pumila,False,C\ Freser,5.05,4.0,ok,,medium
+0156937AR,Celtis australis,False,C\ Dos de Maig,5.23,4.95,ok,,medium
+0156938AR,Celtis australis,False,C\ Rogent,,2.44,no_kerb,,check
+0156939AR,Celtis australis,False,C\ Còrsega,,16.06,median,18.33,check
+0156940AR,Platanus × acerifolia,True,C\ Còrsega,5.17,4.16,ok,,medium
+0156941AR,Platanus × acerifolia,True,C\ Còrsega,6.05,4.89,ok,,large
+0156942AR,Platanus × acerifolia,True,C\ Indústria,4.12,4.51,ok,,medium
+0156944AR,Celtis australis,False,C\ Rogent,,2.36,no_kerb,,check
+0156945AR,Celtis australis,False,C\ Dos de Maig,5.08,5.15,ok,,medium
+0156947AR,Celtis australis,False,C\ Independència,4.84,3.45,ok,,medium
+0156948AR,Cercis siliquastrum,False,C\ Nació,3.4,3.44,ok,,small
+0156949AR,Brachychiton acerifolius,False,C\ Rosselló,4.9,3.56,ok,,medium
+0156950AR,Celtis australis,False,Av Meridiana,11.8,2.71,ok,,large
+0156951AR,Platanus × acerifolia,True,C\ Provença,5.06,3.83,ok,,medium
+0156952AR,Citrus × aurantium,False,C\ Vidiella,1.82,1.39,ok,,none
+0156954AR,Platanus × acerifolia,True,C\ Independència,4.8,3.65,ok,,medium
+0156955AR,Celtis australis,False,C\ Rogent,,3.19,no_kerb,,check
+0156956AR,Parrotia persica 'Vanessa',False,C\ Nació,3.19,3.37,ok,,small
+0156957AR,Celtis australis,False,C\ Dos de Maig,4.0,3.59,ok,,medium
+0156958AR,Celtis australis,False,C\ Independència,4.83,4.92,ok,,medium
+0156959AR,Cercis siliquastrum,False,C\ Nació,3.23,3.07,ok,,small
+0156960AR,Platanus × acerifolia,True,C\ Trinxant,4.93,3.82,ok,,medium
+0156961AR,Celtis australis,False,C\ Trinxant,5.01,3.87,ok,,medium
+0156962AR,Celtis australis,False,C\ Mallorca,4.9,3.47,ok,,medium
+0156963AR,Celtis australis,False,C\ Rogent,,1.35,no_kerb,,check
+0156964AR,Platanus × acerifolia,True,C\ Mallorca,4.85,3.94,ok,,medium
+0156965AR,Celtis australis,False,C\ Mallorca,5.08,4.05,ok,,medium
+0156966AR,Platanus × acerifolia,True,C\ Conca,4.99,4.03,ok,,medium
+0156967AR,Celtis australis,False,Av Meridiana,11.8,2.82,ok,,large
+0156968AR,Celtis australis,False,C\ Indústria,3.92,2.45,ok,,medium
+0156969AR,Celtis australis,False,C\ Rogent,,3.96,no_kerb,,check
+0156970AR,Celtis australis,False,C\ Indústria,5.11,4.34,ok,,medium
+0156972AR,Robinia pseudoacacia,False,Pl Can Robacols,,9.79,median,30.04,check
+0156973AR,Platanus × acerifolia,True,C\ Trinxant,4.23,1.55,ok,,medium
+0156974AR,Celtis australis,False,C\ Rosselló,5.21,3.99,ok,,medium
+0156976AR,Grevillea robusta,False,C\ Enamorats,4.34,3.23,ok,,medium
+0156977AR,Parrotia persica 'Vanessa',False,C\ Nació,3.57,3.24,ok,,medium
+0156978AR,Platanus × acerifolia,True,Av Meridiana,13.02,9.73,ok,,large
+0156979AR,Platanus × acerifolia,True,C\ Enamorats,4.11,3.45,ok,,medium
+0156980AR,Ulmus pumila,False,C\ Freser,4.84,4.6,ok,,medium
+0156981AR,Platanus × acerifolia,True,C\ Sant Antoni Maria Claret,4.6,4.08,ok,,medium
+0156982AR,Celtis australis,False,C\ Sant Antoni Maria Claret,5.14,3.57,ok,,medium
+0156983AR,Celtis australis,False,C\ Degà Bahí,4.61,3.27,ok,,medium
+0156984AR,Celtis australis,False,C\ Dos de Maig,5.1,5.33,ok,,medium
+0156985AR,Celtis australis,False,C\ Còrsega,,16.31,median,24.01,check
+0156986AR,Platanus × acerifolia,True,C\ Trinxant,5.45,4.29,ok,,medium
+0156989AR,Platanus × acerifolia,True,C\ Enamorats,3.91,2.76,ok,,medium
+0156990AR,Platanus × acerifolia,True,C\ Freser,,3.7,no_kerb,,check
+0156991AR,Celtis australis,False,Pg Maragall,13.74,10.15,ok,,large
+0156992AR,Celtis australis,False,C\ Rosselló,4.05,3.14,ok,,medium
+0156993AR,Celtis australis,False,C\ Rogent,24.01,2.99,ok,,large
+0156994AR,Melia azedarach,False,Pl Can Robacols,,11.86,median,,check
+0156995AR,Celtis australis,False,C\ Rogent,24.47,4.67,ok,,large
+0156996AR,Pyrus calleryana 'Chanticleer',False,C\ Nació,3.11,2.96,ok,,small
+0156998AR,Celtis australis,False,C\ Mallorca,10.25,8.75,ok,,large
+0156999AR,Celtis australis,False,Av Meridiana,,27.93,median,19.58,check
+0157000AR,Celtis australis,False,C\ Degà Bahí,4.67,4.04,ok,,medium
+0157001AR,Corylus colurna,False,C\ Dos de Maig,3.14,2.75,ok,,small
+0157002AR,Celtis australis,False,C\ Mallorca,4.75,3.06,ok,,medium
+0157003AR,Platanus × acerifolia,True,C\ Sant Quintí,4.74,3.87,ok,,medium
+0157004AR,Celtis australis,False,C\ Còrsega,15.03,4.28,ok,,large
+0157006AR,Celtis australis,False,C\ Mallorca,5.14,4.24,ok,,medium
+0157007AR,Cercis siliquastrum,False,C\ Nació,3.14,2.75,ok,,small
+0157008AR,Platanus × acerifolia,True,Av Meridiana,,35.75,no_facade,27.18,check
+0157009AR,Platanus × acerifolia,True,C\ Las Navas de Tolosa,4.79,4.19,ok,,medium
+0157010AR,Celtis australis,False,C\ València,3.9,3.32,ok,,medium
+0157011AR,Celtis australis,False,C\ Dos de Maig,4.81,4.56,ok,,medium
+0157013AR,Celtis australis,False,C\ Mallorca,4.82,3.41,ok,,medium
+0157014AR,Celtis australis,False,C\ Fontova,5.24,3.85,ok,,medium
+0157015AR,Ginkgo biloba 'Fastigiata',False,C\ Sibelius,,2.46,no_kerb,,check
+0157016AR,Cercis siliquastrum,False,C\ Xifré,3.23,2.55,ok,,small
+0157017AR,Celtis australis,False,C\ Indústria,4.0,3.43,ok,,medium
+0157018AR,Celtis australis,False,Pl Doctor Serrat,,19.84,median,18.43,check
+0157019AR,Platanus × acerifolia,True,C\ Còrsega,,16.08,median,13.31,check
+0157020AR,Pyrus calleryana 'Chanticleer',False,C\ Finestrat,7.75,1.19,ok,,large
+0157021AR,Celtis australis,False,C\ Rogent,,4.19,no_kerb,,check
+0157023AR,Celtis australis,False,C\ Mallorca,4.71,3.51,ok,,medium
+0157024AR,Cercis siliquastrum,False,C\ Xifré,3.2,2.83,ok,,small
+0157025AR,Platanus × acerifolia,True,C\ Independència,4.83,4.47,ok,,medium
+0157026AR,Celtis australis,False,C\ Indústria,4.3,2.89,ok,,medium
+0157027AR,Ulmus pumila,False,C\ Sibelius,,1.37,no_kerb,,check
+0157028AR,Celtis australis,False,C\ Degà Bahí,4.54,3.09,ok,,medium
+0157029AR,Celtis australis,False,C\ Sant Quintí,5.24,4.46,ok,,medium
+0157030AR,Celtis australis,False,C\ Degà Bahí,4.15,3.48,ok,,medium
+0157031AR,Platanus × acerifolia,True,C\ Enamorats,4.22,4.16,ok,,medium
+0157032AR,Celtis australis,False,C\ Provença,4.97,4.71,ok,,medium
+0157033AR,Ulmus pumila,False,C\ Mallorca,4.79,3.43,ok,,medium
+0157034AR,Platanus × acerifolia,True,C\ Indústria,6.88,5.8,ok,,large
+0157035AR,Celtis australis,False,C\ Independència,4.85,3.15,ok,,medium
+0157037AR,Celtis australis,False,C\ Corunya,5.11,4.15,ok,,medium
+0157038AR,Tipuana tipu,False,C\ València,,16.66,median,,check
+0157039AR,Celtis australis,False,C\ Rogent,,3.61,no_kerb,,check
+0157040AR,Fraxinus ornus OBELISK® 'Paus Johannes-Paulus II',False,C\ Antic de Bofarull,2.6,1.96,ok,,small
+0157041AR,Ulmus pumila,False,C\ Sant Antoni Maria Claret,,16.72,median,,check
+0157042AR,Celtis australis,False,C\ Degà Bahí,8.01,3.0,ok,,large
+0157043AR,Platanus × acerifolia,True,C\ València,,18.01,median,,check
+0157044AR,Celtis australis,False,C\ Còrsega,5.07,4.4,ok,,medium
+0157045AR,Cercis siliquastrum,False,C\ Nació,3.07,2.71,ok,,small
+0157046AR,Cercis siliquastrum,False,C\ Nació,3.19,1.71,ok,,small
+0157047AR,Celtis australis,False,C\ Enamorats,,5.6,no_kerb,,check
+0157048AR,Celtis australis,False,C\ Còrsega,4.71,4.06,ok,,medium
+0157049AR,Celtis australis,False,C\ Còrsega,4.95,2.68,ok,,medium
+0157050AR,Cercis siliquastrum,False,C\ Xifré,3.21,2.13,ok,,small
+0157052AR,Celtis australis,False,C\ Rogent,,3.31,no_kerb,,check
+0157053AR,Cercis siliquastrum,False,C\ Xifré,3.3,2.29,ok,,small
+0157054AR,Celtis australis,False,C\ Mallorca,5.27,3.79,ok,,medium
+0157055AR,Platanus × acerifolia,True,C\ Mallorca,4.74,3.36,ok,,medium
+0157056AR,Celtis australis,False,C\ València,3.4,2.91,ok,,small
+0157057AR,Ulmus pumila,False,C\ Sibelius,14.36,4.61,ok,,large
+0157058AR,Platanus × acerifolia,True,C\ Enamorats,4.03,3.58,ok,,medium
+0157059AR,Platanus × acerifolia,True,C\ Freser,,9.2,median,13.0,check
+0157060AR,Cercis siliquastrum,False,C\ Nació,3.32,2.76,ok,,small
+0157061AR,Gleditsia triacanthos f. inermis,False,C\ Mallorca,4.88,4.24,ok,,medium
+0157062AR,Platanus × acerifolia,True,C\ Indústria,4.54,4.07,ok,,medium
+0157063AR,Celtis australis,False,C\ Rogent,,2.37,no_kerb,,check
+0157064AR,Celtis australis,False,C\ Rogent,,3.37,no_kerb,,check
+0157065AR,Celtis australis,False,C\ Còrsega,4.96,4.18,ok,,medium
+0157066AR,Cercis siliquastrum,False,C\ Xifré,3.39,3.09,ok,,small
+0157067AR,Melia azedarach,False,C\ Las Navas de Tolosa,4.05,2.67,ok,,medium
+0157068AR,Celtis australis,False,C\ Rogent,23.76,5.85,ok,,large
+0157069AR,Platanus × acerifolia,True,C\ Sant Antoni Maria Claret,4.53,4.0,ok,,medium
+0157071AR,Platanus × acerifolia,True,C\ Freser,11.15,5.61,ok,,large
+0157072AR,Cercis siliquastrum,False,C\ Xifré,3.14,2.77,ok,,small
+0157073AR,Platanus × acerifolia,True,C\ Rosselló,5.04,3.25,ok,,medium
+0157075AR,Platanus × acerifolia,True,C\ Enamorats,3.92,3.89,ok,,medium
+0157076AR,Gleditsia triacanthos f. inermis,False,C\ Mallorca,4.86,4.17,ok,,medium
+0157078AR,Celtis australis,False,C\ Mallorca,4.6,3.93,ok,,medium
+0157079AR,Celtis australis,False,C\ Rogent,,3.42,no_kerb,,check
+0157080AR,Grevillea robusta,False,C\ Enamorats,,3.74,no_kerb,33.6,check
+0157082AR,Brachychiton acerifolius,False,C\ Rosselló,4.43,3.44,ok,,medium
+0157084AR,Pyrus calleryana 'Chanticleer',False,C\ Nació,3.0,1.8,ok,,small
+0157085AR,Cercis siliquastrum,False,C\ Nació,3.06,2.22,ok,,small
+0157086AR,Platanus × acerifolia,True,C\ Enamorats,4.55,3.52,ok,,medium
+0157087AR,Celtis australis,False,C\ Rogent,,2.78,no_kerb,,check
+0157088AR,Celtis australis,False,C\ Enamorats,3.98,2.49,ok,,medium
+0157089AR,Grevillea robusta,False,C\ Freser,4.98,4.25,ok,,medium
+0157090AR,Brachychiton populneus,False,C\ Sibelius,,1.48,no_kerb,,check
+0157092AR,Cercis siliquastrum,False,Pg Maragall,21.68,8.76,ok,,large
+0157093AR,Citrus × aurantium,False,C\ Vidiella,1.91,1.31,ok,,none
+0157094AR,Platanus × acerifolia,True,C\ Rosselló,5.26,4.48,ok,,medium
+0157095AR,Platanus × acerifolia,True,C\ Mallorca,4.91,3.9,ok,,medium
+0157097AR,Cercis siliquastrum,False,C\ Nació,3.06,2.74,ok,,small
+0157098AR,Platanus × acerifolia,True,C\ Indústria,4.68,3.45,ok,,medium
+0157099AR,Celtis australis,False,C\ Rosselló,5.16,4.09,ok,,medium
+0157100AR,Cercis siliquastrum,False,C\ Xifré,3.34,3.34,ok,,small
+0157103AR,Celtis australis,False,C\ Rogent,,3.01,no_kerb,,check
+0157104AR,Celtis australis,False,C\ Degà Bahí,3.03,2.56,ok,,small
+0157105AR,Celtis australis,False,C\ Sant Antoni Maria Claret,4.87,4.25,ok,,medium
+0157106AR,Ulmus pumila,False,C\ Freser,5.09,4.67,ok,,medium
+0157107AR,Ginkgo biloba 'Fastigiata',False,C\ Sibelius,,2.18,no_kerb,,check
+0157108AR,Celtis australis,False,C\ Indústria,4.59,3.32,ok,,medium
+0157109AR,Grevillea robusta,False,Av Meridiana,19.68,3.76,ok,,large
+0157110AR,Platanus × acerifolia,True,C\ Sant Quintí,4.92,3.49,ok,,medium
+0157112AR,Pyrus calleryana 'Chanticleer',False,C\ Nació,,9.69,median,27.26,check
+0157113AR,Celtis australis,False,Av Meridiana,,24.03,median,,check
+0157114AR,Celtis australis,False,C\ Rogent,,2.34,no_kerb,,check
+0157115AR,Platanus × acerifolia,True,Av Meridiana,11.73,8.74,ok,,large
+0157116AR,Cercis siliquastrum,False,C\ Xifré,3.09,1.51,ok,,small
+0157117AR,Platanus × acerifolia,True,Av Meridiana,11.75,8.4,ok,,large
+0157118AR,Platanus × acerifolia,True,C\ València,4.35,3.14,ok,,medium
+0157119AR,Celtis australis,False,C\ Dos de Maig,4.58,4.55,ok,,medium
+0157120AR,Cercis siliquastrum,False,C\ Xifré,3.15,2.97,ok,,small
+0157121AR,Cercis siliquastrum,False,C\ Xifré,3.14,2.11,ok,,small
+0157123AR,Celtis australis,False,Pg Maragall,7.53,6.17,ok,,large
+0157124AR,Ulmus pumila,False,C\ Sant Antoni Maria Claret,5.01,3.99,ok,,medium
+0157125AR,Celtis australis,False,C\ Rogent,,8.05,no_kerb,,check
+0157126AR,Platanus × acerifolia,True,C\ Indústria,5.02,4.36,ok,,medium
+0157127AR,Platanus × acerifolia,True,Av Meridiana,11.73,8.68,ok,,large
+0157128AR,Celtis australis,False,C\ Mallorca,5.16,4.4,ok,,medium
+0157129AR,Citrus × aurantium,False,C\ Vidiella,1.79,0.88,ok,,none
+0157130AR,Ligustrum lucidum,False,Pl Heroïnes de Girona,,20.86,median,22.25,check
+0157131AR,Celtis australis,False,C\ Sant Quintí,4.97,3.1,ok,,medium
+0157134AR,Platanus × acerifolia,True,C\ Freser,,9.29,median,29.8,check
+0157135AR,Platanus × acerifolia,True,C\ Sant Antoni Maria Claret,4.85,4.2,ok,,medium
+0157136AR,Citrus × aurantium,False,C\ Vidiella,1.8,0.91,ok,,none
+0157137AR,Cercis siliquastrum,False,C\ Xifré,3.17,2.9,ok,,small
+0157138AR,Prunus cerasifera 'Pissardii',False,C\ Josepa Massanés,3.49,3.01,ok,,small
+0157139AR,Corylus colurna,False,Ptge Dos de Maig,3.1,2.81,ok,,small
+0157140AR,Celtis australis,False,C\ Rogent,,2.6,no_kerb,,check
+0157141AR,Celtis australis,False,C\ Rogent,25.91,3.41,ok,,large
+0157142AR,Platanus × acerifolia,True,C\ València,,19.39,median,,check
+0157143AR,Platanus × acerifolia,True,C\ Sant Antoni Maria Claret,4.84,4.1,ok,,medium
+0157144AR,Platanus × acerifolia,True,Pl Heroïnes de Girona,,16.34,median,,check
+0157145AR,Cercis siliquastrum,False,C\ Nació,3.25,3.1,ok,,small
+0157146AR,Celtis australis,False,C\ Indústria,3.27,2.34,ok,,small
+0157147AR,Cercis siliquastrum,False,C\ Nació,2.98,2.77,ok,,small
+0157148AR,Ginkgo biloba 'Fastigiata Blagon',False,C\ Antic de Bofarull,2.6,1.96,ok,,small
+0157149AR,Celtis australis,False,C\ Rogent,,2.7,no_kerb,,check
+0157150AR,Celtis australis,False,C\ Independència,4.3,2.37,ok,,medium
+0157151AR,Platanus × acerifolia,True,Pg Maragall,18.33,5.24,ok,,large
+0157153AR,Celtis australis,False,C\ Rogent,,3.44,no_kerb,,check
+0157154AR,Celtis australis,False,C\ Rogent,,2.35,no_kerb,,check
+0157155AR,Platanus × acerifolia,True,C\ Independència,4.85,3.61,ok,,medium
+0157156AR,Platanus × acerifolia,True,C\ Trinxant,4.98,4.54,ok,,medium
+0157157AR,Platanus × acerifolia,True,C\ Sant Antoni Maria Claret,4.88,4.42,ok,,medium
+0157158AR,Cercis siliquastrum,False,C\ Xifré,3.02,2.06,ok,,small
+0157159AR,Celtis australis,False,C\ Independència,4.84,3.75,ok,,medium
+0157160AR,Cercis siliquastrum,False,C\ Xifré,3.92,3.47,ok,,medium
+0157161AR,Celtis australis,False,C\ Sant Quintí,4.92,3.19,ok,,medium
+0157162AR,Melia azedarach,False,C\ Las Navas de Tolosa,4.11,2.9,ok,,medium
+0157163AR,Celtis australis,False,C\ València,3.43,2.75,ok,,small
+0157164AR,Celtis australis,False,C\ Còrsega,5.15,4.14,ok,,medium
+0157166AR,Platanus × acerifolia,True,C\ Mallorca,5.43,4.84,ok,,medium
+0157167AR,Celtis australis,False,C\ València,4.75,3.57,ok,,medium
+0157168AR,Celtis australis,False,C\ Degà Bahí,4.33,3.26,ok,,medium
+0157169AR,Celtis australis,False,C\ Independència,4.77,5.15,ok,,medium
+0157170AR,Celtis australis,False,C\ Provença,5.05,3.89,ok,,medium
+0157171AR,Celtis australis,False,Av Meridiana,11.79,2.84,ok,,large
+0157173AR,Celtis australis,False,C\ Rogent,,3.36,no_kerb,,check
+0157174AR,Celtis australis,False,C\ Sant Quintí,4.88,2.96,ok,,medium
+0157175AR,Cercis siliquastrum,False,Pg Maragall,21.81,15.15,ok,,large
+0157176AR,Celtis australis,False,C\ Sant Antoni Maria Claret,8.47,5.42,ok,,large
+0157178AR,Jacaranda mimosifolia,False,Pl Carme Montoriol,,4.23,median,14.5,check
+0157179AR,Cercis siliquastrum,False,C\ Nació,3.03,2.25,ok,,small
+0157181AR,Gleditsia triacanthos f. inermis,False,C\ Mallorca,4.75,4.08,ok,,medium
+0157182AR,Gleditsia triacanthos f. inermis,False,C\ Mallorca,5.02,4.39,ok,,medium
+0157183AR,Platanus × acerifolia,True,C\ Indústria,10.54,10.44,ok,,large
+0157184AR,Celtis australis,False,C\ Las Navas de Tolosa,3.99,2.64,ok,,medium
+0157185AR,Cercis siliquastrum,False,C\ Nació,3.15,2.93,ok,,small
+0157186AR,Prunus cerasifera 'Pissardii',False,C\ Josepa Massanés,3.49,2.94,ok,,small
+0157187AR,Platanus × acerifolia,True,C\ Sant Antoni Maria Claret,4.95,3.81,ok,,medium
+0157188AR,Ginkgo biloba 'Fastigiata',False,C\ Sibelius,,2.3,no_kerb,,check
+0157189AR,Platanus × acerifolia,True,C\ Rosselló,4.95,4.18,ok,,medium
+0157190AR,Platanus × acerifolia,True,C\ Sant Antoni Maria Claret,5.1,4.28,ok,,medium
+0157191AR,Platanus × acerifolia,True,C\ Mallorca,4.77,3.72,ok,,medium
+0157192AR,Celtis australis,False,C\ Independència,4.82,3.75,ok,,medium
+0157193AR,Celtis australis,False,C\ Freser,6.64,5.49,ok,,large
+0157194AR,Celtis australis,False,Pg Maragall,6.85,5.94,ok,,large
+0157195AR,Cercis siliquastrum,False,C\ Xifré,2.98,1.91,ok,,small
+0157196AR,Platanus × acerifolia,True,C\ Dos de Maig,3.72,3.62,ok,,medium
+0157197AR,Celtis australis,False,C\ Degà Bahí,3.92,3.6,ok,,medium
+0157199AR,Celtis australis,False,C\ Dos de Maig,3.77,3.48,ok,,medium
+0157201AR,Platanus × acerifolia,True,C\ Provença,4.96,3.53,ok,,medium
+0157202AR,Platanus × acerifolia,True,C\ Mallorca,5.13,3.29,ok,,medium
+0157203AR,Citrus × aurantium,False,C\ Vidiella,2.05,1.4,ok,,none
+0157204AR,Celtis australis,False,C\ Independència,5.0,4.2,ok,,medium
+0157205AR,Cercis siliquastrum,False,C\ Xifré,5.1,3.77,ok,,medium
+0157206AR,Celtis australis,False,C\ Provença,4.93,4.34,ok,,medium
+0157207AR,Jacaranda mimosifolia,False,Pl Carme Montoriol,,8.57,median,14.6,check
+0157208AR,Cercis siliquastrum,False,C\ Xifré,3.06,1.86,ok,,small
+0157211AR,Celtis australis,False,C\ Còrsega,5.2,4.11,ok,,medium
+0157212AR,Celtis australis,False,C\ Degà Bahí,3.16,2.58,ok,,small
+0157213AR,Celtis australis,False,C\ Independència,4.73,3.37,ok,,medium
+0157214AR,Celtis australis,False,Pg Maragall,6.71,5.56,ok,,large
+0157215AR,Platanus × acerifolia,True,Pg Maragall,19.73,4.48,ok,,large
+0157216AR,Celtis australis,False,C\ Rosselló,5.24,3.99,ok,,medium
+0157217AR,Ginkgo biloba 'Fastigiata',False,C\ Sibelius,,1.54,no_kerb,,check
+0157218AR,Celtis australis,False,C\ Indústria,5.36,4.84,ok,,medium
+0157220AR,Celtis australis,False,C\ Enamorats,26.29,5.73,ok,,large
+0157221AR,Ginkgo biloba 'Fastigiata',False,C\ Sibelius,11.88,1.48,ok,,large
+0157222AR,Platanus × acerifolia,True,C\ Indústria,5.15,3.94,ok,,medium
+0157223AR,Celtis australis,False,C\ Degà Bahí,4.35,2.97,ok,,medium
+0255698AR,Koelreuteria paniculata 'Fastigiata',False,C\ Josepa Massanés,8.16,2.62,ok,,large
+0255699AR,Ligustrum lucidum,False,Pl Heroïnes de Girona,,9.7,median,21.98,check
+0255703AR,Prunus cerasifera 'Pissardii',False,Pl Heroïnes de Girona,,15.76,median,16.67,check
+0255707AR,Prunus cerasifera 'Pissardii',False,Pl Heroïnes de Girona,,16.09,median,22.28,check
+0255715AR,Paulownia tomentosa,False,Pl Heroïnes de Girona,,16.04,median,10.59,check
+0255716AR,Pinus pinea,False,Pl Heroïnes de Girona,,23.38,median,27.06,check
+0255731AR,Prunus cerasifera 'Pissardii',False,Pl Heroïnes de Girona,,15.95,median,18.32,check
+0255732AR,Pinus pinea,False,Pl Heroïnes de Girona,,16.56,median,24.71,check
+0255735AR,Cupressus sempervirens,False,Pl Heroïnes de Girona,,13.06,median,5.72,check
+0255749AR,Morus alba,False,C\ Guinardó,10.61,7.07,ok,,large
+0255767AR,Prunus cerasifera 'Pissardii',False,C\ Guinardó,10.61,3.65,ok,,large
+0255770AR,Prunus cerasifera 'Pissardii',False,Pl Heroïnes de Girona,,15.98,median,26.52,check
+0255792AR,Pinus pinea,False,Pl Heroïnes de Girona,,18.97,median,22.24,check
+0255808AR,Ligustrum lucidum,False,Pl Heroïnes de Girona,,11.79,median,23.86,check
+0255817AR,Pinus pinea,False,Pl Heroïnes de Girona,,26.84,median,24.59,check
+0255823AR,Ligustrum lucidum,False,Pl Heroïnes de Girona,,9.56,median,19.44,check
+0255836AR,Pinus pinea,False,Pl Heroïnes de Girona,,20.28,median,,check
+0255838AR,Pinus pinea,False,Pl Heroïnes de Girona,,22.68,median,24.68,check
+0255858AR,Prunus cerasifera 'Pissardii',False,Pl Heroïnes de Girona,,16.1,median,19.98,check
+0255869AR,Pinus pinea,False,Pl Heroïnes de Girona,,23.55,median,22.5,check
+0255870AR,Paulownia tomentosa,False,Pl Heroïnes de Girona,,16.06,median,14.51,check
+0255876AR,Prunus cerasifera 'Pissardii',False,Pl Heroïnes de Girona,,15.9,median,24.73,check
+0255886AR,Ligustrum lucidum,False,Pl Heroïnes de Girona,,11.67,median,26.87,check
+0255887AR,Pinus pinea,False,Pl Heroïnes de Girona,,15.54,median,27.1,check
+0287608AR,Cercis siliquastrum,False,C\ Xifré,6.93,5.87,ok,,large
+0287609AR,Cercis siliquastrum,False,C\ Xifré,3.09,2.84,ok,,small
+0289101AR,Cercis siliquastrum,False,C\ Xifré,2.96,1.68,ok,,small
+0289523AR,Acer campestre 'Elsrijk',False,C\ Freser,9.56,4.25,ok,,large
+0289524AR,Prunus cerasifera,False,C\ Freser,10.06,3.88,ok,,large
+0289525AR,Prunus cerasifera,False,C\ Freser,9.94,4.29,ok,,large
+0289740AR,Platanus × acerifolia,True,C\ Indústria,5.03,4.3,ok,,medium
+0289741AR,Catalpa bignonioides,False,C\ Indústria,5.07,3.83,ok,,medium
+0290493AR,Ulmus pumila,False,C\ Freser,4.8,4.45,ok,,medium
+0294523AR,Pyrus calleryana 'Chanticleer',False,Ptge Puigmadrona,3.05,2.47,ok,,small
+0294524AR,Pyrus calleryana 'Chanticleer',False,Ptge Puigmadrona,3.06,2.2,ok,,small
+0294525AR,Pyrus calleryana 'Chanticleer',False,Ptge Puigmadrona,3.06,2.39,ok,,small
+0294526AR,Pyrus calleryana 'Chanticleer',False,Ptge Puigmadrona,3.07,2.52,ok,,small
+0294527AR,Pyrus calleryana 'Chanticleer',False,Ptge Puigmadrona,3.08,2.64,ok,,small
+0294528AR,Pyrus calleryana 'Chanticleer',False,Ptge Puigmadrona,3.6,2.73,ok,,medium
+0294530AR,Pyrus calleryana 'Chanticleer',False,Ptge Puigmadrona,3.08,2.75,ok,,small
+0294531AR,Pyrus calleryana 'Chanticleer',False,Ptge Puigmadrona,3.07,2.64,ok,,small
+0294532AR,Pyrus calleryana 'Chanticleer',False,Ptge Puigmadrona,2.97,2.58,ok,,small
+0294533AR,Pyrus calleryana 'Chanticleer',False,Ptge Puigmadrona,2.91,2.69,ok,,small
+0294534AR,Pyrus calleryana 'Chanticleer',False,Ptge Puigmadrona,2.75,2.73,ok,,small
+0294566AR,Celtis australis,False,C\ Rogent,13.66,4.11,ok,,large
+0301618AR,Prunus cerasifera 'Pissardii',False,Pl Heroïnes de Girona,,15.78,median,8.87,check
+0301619AR,Paulownia tomentosa,False,Pl Heroïnes de Girona,,16.0,median,12.25,check
+0302192AR,Pyrus calleryana 'Chanticleer',False,C\ Ripollès,3.93,3.01,ok,,medium
+0302193AR,Pyrus calleryana 'Chanticleer',False,C\ Ripollès,3.95,2.79,ok,,medium
+0302194AR,Pyrus calleryana 'Chanticleer',False,C\ Ripollès,3.97,2.88,ok,,medium
+0302195AR,Pyrus communis,False,C\ Ripollès,3.93,2.38,ok,,medium
+0302196AR,Pyrus calleryana 'Chanticleer',False,C\ Ripollès,3.95,2.38,ok,,medium
+0302197AR,Pyrus calleryana 'Chanticleer',False,C\ Ripollès,,6.06,median,,check
+0302198AR,Pyrus calleryana 'Chanticleer',False,C\ Ripollès,,5.95,median,,check
+0302199AR,Pyrus calleryana 'Chanticleer',False,C\ Ripollès,3.94,2.91,ok,,medium
+0302200AR,Pyrus calleryana 'Chanticleer',False,C\ Ripollès,3.94,2.79,ok,,medium
+0302201AR,Pyrus calleryana 'Chanticleer',False,C\ Ripollès,3.96,2.7,ok,,medium
+0302202AR,Pyrus calleryana 'Chanticleer',False,C\ Ripollès,3.88,2.54,ok,,medium
+0302203AR,Pyrus calleryana 'Chanticleer',False,C\ Ripollès,3.92,2.47,ok,,medium
+0302204AR,Pyrus calleryana 'Chanticleer',False,C\ Ripollès,3.96,2.56,ok,,medium
+0302206AR,Pyrus calleryana 'Chanticleer',False,C\ Ripollès,4.15,2.66,ok,,medium
+0302207AR,Pyrus calleryana 'Chanticleer',False,C\ Ripollès,4.18,2.53,ok,,medium
+0302208AR,Pyrus calleryana 'Chanticleer',False,C\ Ripollès,4.39,2.69,ok,,medium
+0302209AR,Pyrus calleryana 'Chanticleer',False,C\ Ripollès,4.7,3.27,ok,,medium
+0302210AR,Pyrus calleryana 'Chanticleer',False,C\ Ripollès,4.42,2.43,ok,,medium
+0302211AR,Pyrus calleryana 'Chanticleer',False,C\ Ripollès,4.68,3.28,ok,,medium
+0304735AR,Celtis australis,False,Av Meridiana,25.31,6.8,ok,,large
+0304736AR,Celtis australis,False,Av Meridiana,,8.71,median,13.6,check
+0304737AR,Celtis australis,False,Av Meridiana,,12.98,median,13.6,check
+0304738AR,Celtis australis,False,Av Meridiana,,11.92,no_kerb,13.6,check
+0304739AR,Celtis australis,False,Av Meridiana,,14.57,median,11.29,check
+0304764AR,Acer saccharinum,False,C\ Degà Bahí,11.68,5.98,ok,,large
+0306420AR,Corylus colurna,False,Ptge Dos de Maig,3.07,2.99,ok,,small
+0306421AR,Corylus colurna,False,Ptge Dos de Maig,3.17,2.97,ok,,small
+0306422AR,Corylus colurna,False,Ptge Dos de Maig,3.11,2.86,ok,,small
+0306423AR,Corylus colurna,False,Ptge Dos de Maig,3.29,2.95,ok,,small
+0307395AR,Platanus × acerifolia,True,C\ Sant Antoni Maria Claret,4.6,3.98,ok,,medium
+0307639AR,Schinus molle,False,Av Meridiana,,15.66,median,12.24,check
+0307640AR,Schinus molle,False,Av Meridiana,,22.06,median,19.4,check
+0307731AR,Celtis australis,False,C\ Degà Bahí,12.26,9.17,ok,,large
+0307732AR,Celtis australis,False,C\ Degà Bahí,12.27,9.24,ok,,large
+0307733AR,Celtis australis,False,C\ Degà Bahí,12.28,9.27,ok,,large
+0307734AR,Celtis australis,False,C\ Degà Bahí,,10.97,median,6.83,check
+0307735AR,Celtis australis,False,C\ Degà Bahí,,10.97,median,8.61,check
+0307736AR,Celtis australis,False,C\ Degà Bahí,,10.92,median,6.23,check
+0307737AR,Celtis australis,False,C\ Degà Bahí,26.87,4.8,ok,,large
+0309837AR,Grevillea robusta,False,C\ Enamorats,4.08,3.15,ok,,medium
+0309838AR,Grevillea robusta,False,C\ Enamorats,4.11,3.2,ok,,medium
+0318315AR,Cercis siliquastrum,False,C\ Nació,3.3,2.62,ok,,small
+0319147AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Pistó,3.02,1.9,ok,,small
+0319148AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Pistó,3.0,1.55,ok,,small
+0319151AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Pistó,2.82,1.51,ok,,small
+0321769AR,Pyrus calleryana 'Chanticleer',False,C\ Trinxant,,20.48,median,,check
+0321770AR,Pyrus calleryana 'Chanticleer',False,C\ Indústria,19.94,15.15,ok,,large
+0321771AR,Erythrina crista-galli,False,C\ Trinxant,,20.66,no_kerb,,check
+0321772AR,Cercis siliquastrum,False,C\ Indústria,13.53,12.91,ok,,large
+0321773AR,Cercis siliquastrum,False,C\ Indústria,,15.3,median,,check
+0321774AR,Cercis siliquastrum,False,C\ Indústria,,15.3,median,,check
+0321775AR,Cercis siliquastrum,False,C\ Indústria,,15.47,median,,check
+0321776AR,Cercis siliquastrum,False,C\ Trinxant,,15.37,median,,check
+0321777AR,Cercis siliquastrum,False,C\ Trinxant,10.21,9.78,ok,,large
+0321792AR,Cercis siliquastrum,False,C\ Bassols,,3.84,no_kerb,,check
+0321793AR,Corylus colurna,False,C\ Bassols,,3.79,no_kerb,,check
+0321799AR,Corylus colurna,False,C\ Bassols,,3.73,no_kerb,,check
+0321801AR,Corylus colurna,False,C\ Bassols,,3.71,no_kerb,,check
+0321802AR,Cercis siliquastrum,False,C\ Bassols,,3.77,no_kerb,,check
+0321803AR,Cercis siliquastrum,False,C\ Bassols,,3.41,no_kerb,,check
+0321804AR,Corylus colurna,False,C\ Bassols,,3.61,no_kerb,,check
+0321805AR,Cercis siliquastrum,False,C\ Bassols,,3.16,no_kerb,,check
+0321806AR,Corylus colurna,False,C\ Bassols,,3.28,no_kerb,,check
+0321807AR,Cercis siliquastrum,False,C\ Bassols,,3.32,no_kerb,,check
+0321808AR,Corylus colurna,False,C\ Bassols,,3.42,no_kerb,,check
+0321809AR,Cercis siliquastrum,False,C\ Bassols,,3.31,no_kerb,,check
+0321810AR,Corylus colurna,False,C\ Bassols,,3.31,no_kerb,,check
+0321811AR,Cercis siliquastrum,False,C\ Bassols,,3.28,no_kerb,,check
+0321812AR,Corylus colurna,False,C\ Bassols,,3.18,no_kerb,,check
+0321815AR,Koelreuteria paniculata,False,C\ Conca,4.95,4.68,ok,,medium
+0321855AR,Cercis siliquastrum,False,C\ Xifré,3.11,1.51,ok,,small
+0321856AR,Cercis siliquastrum,False,C\ Xifré,3.05,1.61,ok,,small
+0321857AR,Cercis siliquastrum,False,C\ Xifré,3.0,1.62,ok,,small
+0321858AR,Cercis siliquastrum,False,C\ Xifré,2.96,1.55,ok,,small
+0321860AR,Cercis siliquastrum,False,C\ Xifré,3.06,1.51,ok,,small
+0321861AR,Cercis siliquastrum,False,C\ Xifré,3.19,1.8,ok,,small
+0321862AR,Cercis siliquastrum,False,C\ Xifré,5.53,3.37,ok,,medium
+0321863AR,Cercis siliquastrum,False,C\ Xifré,,10.14,median,,check
+0321864AR,Cercis siliquastrum,False,C\ Xifré,,10.08,median,,check
+0321865AR,Cercis siliquastrum,False,C\ Xifré,3.03,1.61,ok,,small
+0321866AR,Cercis siliquastrum,False,C\ Xifré,2.96,1.56,ok,,small
+0321867AR,Cercis siliquastrum,False,C\ Xifré,3.16,1.78,ok,,small
+0321868AR,Cercis siliquastrum,False,C\ Xifré,3.34,1.67,ok,,small
+0321869AR,Cercis siliquastrum,False,C\ Xifré,3.33,1.8,ok,,small
+0321870AR,Cercis siliquastrum,False,C\ Xifré,3.31,1.9,ok,,small
+0321871AR,Cercis siliquastrum,False,C\ Xifré,3.29,1.89,ok,,small
+0321872AR,Cercis siliquastrum,False,C\ Xifré,3.31,1.89,ok,,small
+0321873AR,Cercis siliquastrum,False,C\ Xifré,7.87,5.79,ok,,large
+0321874AR,Cercis siliquastrum,False,C\ Xifré,3.49,1.78,ok,,small
+0321875AR,Cercis siliquastrum,False,C\ Xifré,3.39,1.92,ok,,small
+0321876AR,Cercis siliquastrum,False,C\ Xifré,3.29,2.15,ok,,small
+0321877AR,Cercis siliquastrum,False,C\ Xifré,3.2,1.73,ok,,small
+0321878AR,Cercis siliquastrum,False,C\ Xifré,2.89,1.72,ok,,small
+0321879AR,Cercis siliquastrum,False,C\ Xifré,2.91,1.97,ok,,small
+0321880AR,Cercis siliquastrum,False,C\ Xifré,9.92,6.18,ok,,large
+0321881AR,Cercis siliquastrum,False,C\ Xifré,,10.04,median,,check
+0321882AR,Cercis siliquastrum,False,C\ Xifré,,11.65,median,,check
+0329151AR,Cercis siliquastrum,False,C\ Rosselló,6.97,6.73,ok,,large
+0329245AR,Celtis australis,False,Av Meridiana,,20.68,median,2.8,check
+0329246AR,Acer campestre,False,Av Meridiana,11.24,8.06,ok,,large
+0329247AR,Acer campestre,False,Av Meridiana,11.15,8.05,ok,,large
+0329248AR,Celtis australis,False,Av Meridiana,,21.37,median,2.78,check
+0329249AR,Celtis australis,False,Av Meridiana,,21.32,median,2.77,check
+0329250AR,Celtis australis,False,Av Meridiana,,21.3,median,2.77,check
+0329251AR,Celtis australis,False,Av Meridiana,,21.29,median,2.78,check
+0329252AR,Celtis australis,False,Av Meridiana,,21.32,median,2.78,check
+0329253AR,Platanus × acerifolia,True,Av Meridiana,,18.74,median,8.65,check
+0329255AR,Platanus × acerifolia,True,Av Meridiana,11.79,8.64,ok,,large
+0329256AR,Celtis australis,False,Av Meridiana,,21.35,median,2.76,check
+0329259AR,Ceratonia siliqua,False,Av Meridiana,,21.36,median,2.79,check
+0329260AR,Cercis siliquastrum,False,Av Meridiana,,27.73,median,2.79,check
+0329261AR,Gleditsia triacanthos,False,Av Meridiana,,30.42,no_facade,2.77,check
+0329262AR,Acer campestre,False,Av Meridiana,11.12,7.93,ok,,large
+0329263AR,Acer campestre,False,Av Meridiana,11.12,7.95,ok,,large
+0329264AR,Acer campestre,False,Av Meridiana,11.14,8.02,ok,,large
+0329265AR,Acer campestre,False,Av Meridiana,11.18,8.02,ok,,large
+0329266AR,Acer campestre,False,Av Meridiana,11.19,8.06,ok,,large
+0329267AR,Acer campestre,False,Av Meridiana,11.2,8.09,ok,,large
+0329269AR,Acer campestre,False,Av Meridiana,11.22,8.07,ok,,large
+0329270AR,Acer campestre,False,Av Meridiana,11.3,8.15,ok,,large
+0329271AR,Acer campestre,False,Av Meridiana,11.34,8.22,ok,,large
+0329272AR,Acer campestre,False,Av Meridiana,11.28,8.1,ok,,large
+0329274AR,Acer campestre,False,Av Meridiana,11.23,8.06,ok,,large
+0329277AR,Celtis australis,False,Av Meridiana,,20.72,median,2.77,check
+0329278AR,Celtis australis,False,Av Meridiana,,20.75,median,2.78,check
+0329280AR,Celtis australis,False,Av Meridiana,,20.78,median,2.76,check
+0329281AR,Celtis australis,False,Av Meridiana,,20.76,median,2.76,check
+0329283AR,Celtis australis,False,Av Meridiana,,20.79,median,2.76,check
+0329284AR,Celtis australis,False,Av Meridiana,,20.96,median,2.76,check
+0329287AR,Celtis australis,False,Av Meridiana,,21.08,median,2.77,check
+0329288AR,Celtis australis,False,Av Meridiana,,20.92,median,2.78,check
+0329289AR,Celtis australis,False,Av Meridiana,,21.65,median,2.79,check
+0329292AR,Celtis australis,False,Av Meridiana,,23.34,median,2.78,check
+0329305AR,Celtis australis,False,Av Meridiana,,20.67,median,2.77,check
+0329308AR,Platanus × acerifolia,True,Av Meridiana,,24.32,median,8.64,check
+0329309AR,Platanus × acerifolia,True,Av Meridiana,,29.91,median,8.63,check
+0329310AR,Ceratonia siliqua,False,Av Meridiana,,24.96,median,2.79,check
+0329311AR,Quercus pubescens,False,Av Meridiana,,27.55,median,2.76,check
+0329312AR,Quercus pubescens,False,Av Meridiana,,27.52,median,2.73,check
+0329313AR,Gleditsia triacanthos,False,Av Meridiana,,27.74,median,2.79,check
+0329314AR,Tipuana tipu,False,Av Meridiana,,27.71,median,2.78,check
+0331135AR,Celtis australis,False,Av Meridiana,,29.72,median,9.49,check
+0331136AR,Celtis australis,False,Av Meridiana,,28.2,median,6.93,check
+0331137AR,Celtis australis,False,Av Meridiana,,27.46,median,9.5,check
+0331138AR,Celtis australis,False,Av Meridiana,,27.59,median,9.52,check
+0331139AR,Celtis australis,False,Av Meridiana,,27.72,median,6.96,check
+0331140AR,Celtis australis,False,Av Meridiana,,27.86,median,9.53,check
+0331148AR,Celtis australis,False,Av Meridiana,,26.07,median,9.5,check
+0331150AR,Celtis australis,False,Av Meridiana,,21.04,median,6.89,check
+0331151AR,Celtis australis,False,Av Meridiana,,24.12,median,9.48,check
+0331153AR,Celtis australis,False,Av Meridiana,,28.34,median,9.49,check
+0331155AR,Celtis australis,False,Av Meridiana,,21.18,median,9.5,check
+0331157AR,Celtis australis,False,Av Meridiana,,22.95,median,6.9,check
+0331159AR,Celtis australis,False,Av Meridiana,,21.18,median,9.49,check
+0331160AR,Celtis australis,False,Av Meridiana,,21.18,median,6.91,check
+0331164AR,Celtis australis,False,Av Meridiana,,21.17,median,9.5,check
+0331165AR,Celtis australis,False,Av Meridiana,,21.17,median,9.5,check
+0331167AR,Celtis australis,False,Av Meridiana,,21.15,median,9.05,check
+0331182AR,Ceratonia siliqua,False,Av Meridiana,,22.15,median,9.49,check
+0331184AR,Ceratonia siliqua,False,Av Meridiana,,22.13,median,9.47,check
+0331185AR,Cercis siliquastrum,False,Av Meridiana,19.44,10.51,ok,,large
+0331186AR,Fraxinus angustifolia 'Raywood',False,Av Meridiana,,22.11,median,9.5,check
+0331187AR,Fraxinus angustifolia 'Raywood',False,Av Meridiana,,22.09,median,9.5,check
+0331191AR,Gleditsia triacanthos 'sunburst',False,Av Meridiana,,28.15,median,9.48,check
+0331196AR,Malus PERPETU® 'Evereste',False,Av Meridiana,,21.86,median,6.73,check
+0331197AR,Malus PERPETU® 'Evereste',False,Av Meridiana,,21.94,median,9.49,check
+0331200AR,Olea europaea,False,Av Meridiana,,24.97,median,9.56,check
+0331201AR,Olea europaea,False,Av Meridiana,,22.83,median,9.62,check
+0331205AR,Prunus serrulata 'Kanzan',False,Av Meridiana,,22.07,median,6.93,check
+0331208AR,Platanus × acerifolia,True,Av Meridiana,12.5,9.3,ok,,large
+0331209AR,Platanus × acerifolia,True,Av Meridiana,12.59,9.39,ok,,large
+0331219AR,Platanus × acerifolia,True,Av Meridiana,,14.54,median,,check
+0331224AR,Platanus × acerifolia,True,Av Meridiana,,26.96,no_kerb,,check
+0335677AR,Platanus × acerifolia,True,Av Meridiana,12.63,9.05,ok,,large
+0335679AR,Platanus × acerifolia,True,Av Meridiana,12.69,9.6,ok,,large
+0335680AR,Platanus × acerifolia,True,Av Meridiana,,21.13,median,,check
+0335747AR,Ulmus pumila,False,C\ Sant Antoni Maria Claret,8.48,6.53,ok,,large
+0339389AR,Celtis australis,False,C\ Independència,4.59,1.71,ok,,medium
+0339390AR,Celtis australis,False,C\ Independència,4.67,2.36,ok,,medium
+0339391AR,Celtis australis,False,C\ Independència,4.64,2.14,ok,,medium
+0339756AR,Platanus × acerifolia,True,C\ Conca,,4.33,no_kerb,26.47,check
+0339757AR,Ginkgo biloba,False,C\ Còrsega,10.83,9.75,ok,,large
+0339758AR,Ginkgo biloba,False,C\ Conca,14.45,13.33,ok,,large
+0339759AR,Ginkgo biloba,False,C\ Conca,15.57,8.17,ok,,large
+0339760AR,Ginkgo biloba,False,C\ Conca,,17.75,median,22.94,check
+0339761AR,Ginkgo biloba,False,C\ Freser,16.32,15.26,ok,,large
+0339762AR,Ginkgo biloba,False,C\ Conca,19.54,10.33,ok,,large
+0339763AR,Ginkgo biloba,False,C\ Freser,13.13,12.2,ok,,large
+0339764AR,Ginkgo biloba,False,Pg Maragall,6.59,5.55,ok,,large
+0339765AR,Ginkgo biloba,False,C\ Conca,,8.78,no_kerb,22.58,check
+0339766AR,Ginkgo biloba,False,C\ Conca,16.03,7.47,ok,,large
+0340549AR,Pyrus calleryana 'Chanticleer',False,C\ Muntanya,,4.82,no_kerb,,check
+0340550AR,Pyrus calleryana 'Chanticleer',False,C\ Muntanya,,4.86,no_kerb,,check
+0340551AR,Pyrus calleryana 'Chanticleer',False,C\ Muntanya,,4.91,no_kerb,,check
+0340552AR,Pyrus calleryana 'Chanticleer',False,C\ Muntanya,,4.96,no_kerb,,check
+0340553AR,Pyrus calleryana 'Chanticleer',False,C\ Muntanya,,5.15,no_kerb,,check
+0340554AR,Pyrus calleryana 'Chanticleer',False,C\ Muntanya,,5.1,no_kerb,,check
+0340555AR,Pyrus calleryana 'Chanticleer',False,C\ Muntanya,,5.06,no_kerb,,check
+0340556AR,Pyrus calleryana 'Chanticleer',False,C\ Muntanya,,5.01,no_kerb,,check
+0340557AR,Pyrus calleryana 'Chanticleer',False,C\ Muntanya,10.12,5.11,ok,,large
+0340558AR,Pyrus calleryana 'Chanticleer',False,C\ Muntanya,,5.01,no_kerb,,check
+0340559AR,Pyrus calleryana 'Chanticleer',False,C\ Muntanya,,4.96,no_kerb,,check
+0340560AR,Pyrus calleryana 'Chanticleer',False,C\ Muntanya,10.0,5.0,ok,,large
+0340561AR,Pyrus calleryana 'Chanticleer',False,C\ Muntanya,10.09,5.08,ok,,large
+0340562AR,Pyrus calleryana 'Chanticleer',False,C\ Muntanya,10.22,5.14,ok,,large
+0340563AR,Pyrus calleryana 'Chanticleer',False,C\ Eterna Memòria,6.15,5.1,ok,,large
+0340564AR,Pyrus calleryana 'Chanticleer',False,C\ Eterna Memòria,6.11,4.98,ok,,large
+0340565AR,Pyrus calleryana 'Chanticleer',False,C\ Eterna Memòria,6.11,4.79,ok,,large
+0340566AR,Pyrus calleryana 'Chanticleer',False,C\ Eterna Memòria,6.63,5.1,ok,,large
+0340567AR,Acer monspessulanum,False,C\ Muntanya,5.34,4.1,ok,,medium
+0340568AR,Acer monspessulanum,False,C\ Muntanya,,4.36,no_kerb,,check
+0340569AR,Acer monspessulanum,False,C\ Muntanya,,4.32,no_kerb,,check
+0340570AR,Acer monspessulanum,False,C\ Muntanya,,4.21,no_kerb,,check
+0340571AR,Acer monspessulanum,False,C\ Muntanya,,4.2,no_kerb,,check
+0340572AR,Acer monspessulanum,False,C\ Muntanya,,4.21,no_kerb,,check
+0340573AR,Acer monspessulanum,False,C\ Muntanya,5.33,4.12,ok,,medium
+0340574AR,Acer monspessulanum,False,C\ Muntanya,5.34,4.12,ok,,medium
+0340575AR,Acer monspessulanum,False,C\ Muntanya,5.32,4.16,ok,,medium
+0340576AR,Acer monspessulanum,False,C\ Muntanya,5.24,4.18,ok,,medium
+0345873AR,Celtis australis,False,C\ València,3.46,3.17,ok,,small

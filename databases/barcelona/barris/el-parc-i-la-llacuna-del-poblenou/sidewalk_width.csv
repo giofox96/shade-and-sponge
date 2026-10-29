@@ -1,0 +1,2543 @@
+tree_id,species,is_plane,street,width_m,facade_dist_m,flag,strip_width_m,size_class
+0026137AR,Melia azedarach,False,C\ Marina,,34.8,no_facade,,check
+0026142AR,Melia azedarach,False,C\ Marina,12.16,4.67,ok,,large
+0026149AR,Platanus × acerifolia,True,Av Diagonal,,20.57,median,14.27,check
+0026180AR,Melia azedarach,False,C\ Marina,,36.64,no_facade,17.89,check
+0026192AR,Melia azedarach,False,C\ Marina,9.85,8.37,ok,,large
+0026208AR,Platanus × acerifolia,True,C\ Marina,13.23,12.23,ok,,large
+0026209AR,Melia azedarach,False,C\ Marina,10.33,5.58,ok,,large
+0026210AR,Melia azedarach,False,C\ Marina,12.23,6.61,ok,,large
+0026213AR,Melia azedarach,False,C\ Marina,13.01,11.67,ok,,large
+0026750AR,Platanus × acerifolia,True,Av Diagonal,,18.9,median,14.79,check
+0026751AR,Pinus pinea,False,Ctra Antiga de Mataró,,15.11,no_kerb,,check
+0026753AR,Brachychiton populneus,False,C\ Pujades,17.96,14.71,ok,,large
+0026754AR,Celtis australis,False,C\ Àlaba,13.55,10.95,ok,,large
+0026755AR,Platanus × acerifolia,True,C\ Pujades,16.78,7.02,ok,,large
+0026756AR,Platanus × acerifolia,True,C\ Ciutat de Granada,4.82,4.35,ok,,medium
+0026757AR,Platanus × acerifolia,True,C\ Badajoz,4.83,4.87,ok,,medium
+0026758AR,Platanus × acerifolia,True,C\ Llull,4.88,4.08,ok,,medium
+0026759AR,Melia azedarach,False,C\ Marina,15.34,6.04,ok,,large
+0026760AR,Platanus × acerifolia,True,C\ Almogàvers,5.0,4.63,ok,,medium
+0026761AR,Brachychiton populneus,False,C\ Pujades,16.2,12.47,ok,,large
+0026762AR,Platanus × acerifolia,True,C\ Pamplona,16.44,13.5,ok,,large
+0026763AR,Platanus × acerifolia,True,C\ Llacuna,6.14,6.19,ok,,large
+0026764AR,Platanus × acerifolia,True,Av Diagonal,,19.07,median,14.27,check
+0026765AR,Platanus × acerifolia,True,C\ Wellington,,14.71,median,5.14,check
+0026766AR,Melia azedarach,False,C\ Marina,14.57,5.25,ok,,large
+0026768AR,Platanus × acerifolia,True,Av Diagonal,4.7,4.12,ok,,medium
+0026770AR,Melia azedarach,False,C\ Nàpols,5.02,5.12,ok,,medium
+0026772AR,Celtis australis,False,C\ Wellington,12.64,11.97,ok,,large
+0026773AR,Platanus × acerifolia,True,Pg Pujades,11.34,7.31,ok,,large
+0026775AR,Gleditsia triacanthos,False,Av Meridiana,16.84,9.67,ok,,large
+0026776AR,Platanus × acerifolia,True,C\ Llacuna,,15.67,median,,check
+0026777AR,Platanus × acerifolia,True,Av Diagonal,4.8,4.19,ok,,medium
+0026778AR,Gleditsia triacanthos,False,C\ Roc Boronat,6.02,5.0,ok,,large
+0026780AR,Cupressus sempervirens,False,C\ Marina,,24.77,median,,check
+0026781AR,Celtis australis,False,C\ Bolívia,4.57,3.98,ok,,medium
+0026782AR,Grevillea robusta,False,C\ Tànger,4.45,2.76,ok,,medium
+0026783AR,Gleditsia triacanthos,False,C\ Almogàvers,14.68,4.44,ok,,large
+0026784AR,Gleditsia triacanthos,False,C\ Sancho de Ávila,11.03,9.83,ok,,large
+0026786AR,Platanus × acerifolia,True,C\ Tànger,11.18,4.65,ok,,large
+0026787AR,Platanus × acerifolia,True,C\ Llull,8.46,4.38,ok,,large
+0026788AR,Gleditsia triacanthos,False,Av Meridiana,16.64,9.37,ok,,large
+0026789AR,Platanus × acerifolia,True,C\ Sancho de Ávila,3.97,3.48,ok,,medium
+0026790AR,Platanus × acerifolia,True,Av Diagonal,4.7,4.0,ok,,medium
+0026791AR,Platanus × acerifolia,True,C\ Pujades,16.78,7.74,ok,,large
+0026792AR,Gleditsia triacanthos,False,C\ Sancho de Ávila,5.25,4.38,ok,,medium
+0026793AR,Platanus × acerifolia,True,C\ Àvila,4.07,2.97,ok,,medium
+0026794AR,Platanus × acerifolia,True,Av Diagonal,,18.99,median,14.61,check
+0026795AR,Platanus × acerifolia,True,C\ Buenaventura Muñoz,4.94,5.14,ok,,medium
+0026796AR,Platanus × acerifolia,True,C\ Zamora,4.95,3.5,ok,,medium
+0026799AR,Pinus pinea,False,C\ Pujades,,13.37,no_kerb,,check
+0026800AR,Brachychiton populneus,False,C\ Pujades,16.26,12.7,ok,,large
+0026801AR,Platanus × acerifolia,True,C\ Llull,5.12,4.37,ok,,medium
+0026802AR,Platanus × acerifolia,True,C\ Ciutat de Granada,5.3,4.92,ok,,medium
+0026804AR,Gleditsia triacanthos,False,C\ Almogàvers,11.85,5.41,ok,,large
+0026806AR,Platanus × acerifolia,True,C\ Bolívia,21.0,19.76,ok,,large
+0026807AR,Platanus × acerifolia,True,Pg Pujades,,15.22,median,4.83,check
+0026808AR,Platanus × acerifolia,True,C\ Llacuna,,15.83,median,,check
+0026809AR,Platanus × acerifolia,True,C\ Buenaventura Muñoz,4.93,5.0,ok,,medium
+0026810AR,Platanus × acerifolia,True,C\ Ciutat de Granada,5.51,5.1,ok,,medium
+0026811AR,Grevillea robusta,False,C\ Tànger,3.81,3.56,ok,,medium
+0026813AR,Prunus cerasifera 'Pissardii',False,Av Meridiana,,36.71,no_facade,27.94,check
+0026814AR,Gleditsia triacanthos,False,C\ Roc Boronat,4.98,3.77,ok,,medium
+0026815AR,Platanus × acerifolia,True,C\ Pallars,16.14,15.37,ok,,large
+0026816AR,Platanus × acerifolia,True,C\ Llull,4.38,3.47,ok,,medium
+0026817AR,Platanus × acerifolia,True,C\ Badajoz,,7.56,median,5.13,check
+0026818AR,Gleditsia triacanthos,False,Av Meridiana,17.18,9.37,ok,,large
+0026819AR,Melia azedarach,False,C\ Marina,10.73,4.06,ok,,large
+0026821AR,Platanus × acerifolia,True,C\ Sardenya,5.45,4.32,ok,,medium
+0026823AR,Melia azedarach,False,C\ Marina,13.85,4.98,ok,,large
+0026824AR,Ulmus pumila,False,C\ Almogàvers,4.5,3.1,ok,,medium
+0026825AR,Pinus pinea,False,Ctra Antiga de Mataró,22.61,10.99,ok,,large
+0026826AR,Melia azedarach,False,C\ Marina,12.35,5.35,ok,,large
+0026827AR,Gleditsia triacanthos,False,C\ Sancho de Ávila,4.95,4.5,ok,,medium
+0026828AR,Gleditsia triacanthos,False,C\ Pamplona,4.09,4.36,ok,,medium
+0026829AR,Platanus × acerifolia,True,Av Diagonal,,42.2,no_facade,4.71,check
+0026830AR,Platanus × acerifolia,True,Pg Pujades,10.89,7.45,ok,,large
+0026831AR,Gleditsia triacanthos,False,C\ Sancho de Ávila,4.99,4.41,ok,,medium
+0026832AR,Celtis australis,False,C\ Àlaba,12.17,7.52,ok,,large
+0026833AR,Brachychiton populneus,False,C\ Pujades,16.7,14.4,ok,,large
+0026834AR,Platanus × acerifolia,True,Av Diagonal,21.08,19.38,ok,,large
+0026835AR,Celtis australis,False,C\ Buenaventura Muñoz,4.79,4.36,ok,,medium
+0026836AR,Grevillea robusta,False,C\ Almogàvers,4.76,3.15,ok,,medium
+0026837AR,Gleditsia triacanthos,False,C\ Sancho de Ávila,,15.02,median,20.09,check
+0026838AR,Platanus × acerifolia,True,Av Meridiana,25.25,11.76,ok,,large
+0026839AR,Celtis australis,False,C\ Nàpols,5.06,4.59,ok,,medium
+0026840AR,Platanus × acerifolia,True,C\ Ciutat de Granada,4.9,4.69,ok,,medium
+0026841AR,Platanus × acerifolia,True,C\ Almogàvers,29.37,19.96,ok,,large
+0026842AR,Pinus pinea,False,Ctra Antiga de Mataró,,26.84,median,,check
+0026843AR,Platanus × acerifolia,True,C\ Pamplona,22.75,21.36,ok,,large
+0026844AR,Platanus × acerifolia,True,C\ Llull,5.01,4.66,ok,,medium
+0026845AR,Gleditsia triacanthos,False,C\ Sancho de Ávila,5.69,5.09,ok,,medium
+0026846AR,Platanus × acerifolia,True,C\ Roger de Flor,4.89,3.99,ok,,medium
+0026848AR,Gleditsia triacanthos f. inermis,False,C\ Pamplona,5.07,3.89,ok,,medium
+0026849AR,Pinus pinea,False,C\ Pere IV,,20.6,no_kerb,,check
+0026850AR,Brachychiton populneus,False,C\ Pujades,15.95,13.14,ok,,large
+0026851AR,Platanus × acerifolia,True,C\ Llull,4.94,3.08,ok,,medium
+0026852AR,Gleditsia triacanthos,False,C\ Roc Boronat,,16.27,median,,check
+0026854AR,Platanus × acerifolia,True,Av Diagonal,,18.93,median,14.37,check
+0026855AR,Gleditsia triacanthos,False,Av Meridiana,17.19,9.99,ok,,large
+0026856AR,Platanus × acerifolia,True,C\ Nàpols,4.72,4.75,ok,,medium
+0026857AR,Tipuana tipu,False,C\ Sancho de Ávila,,12.8,no_kerb,,check
+0026858AR,Platanus × acerifolia,True,C\ Badajoz,,16.07,median,,check
+0026860AR,Platanus × acerifolia,True,C\ Pujades,9.03,5.23,ok,,large
+0026861AR,Gleditsia triacanthos,False,Av Meridiana,17.18,12.05,ok,,large
+0026862AR,Platanus × acerifolia,True,Av Diagonal,4.81,4.3,ok,,medium
+0026863AR,Platanus × acerifolia,True,C\ Àvila,,15.36,median,5.09,check
+0026864AR,Platanus × acerifolia,True,C\ Buenaventura Muñoz,4.98,4.54,ok,,medium
+0026865AR,Ulmus pumila,False,Av Meridiana,9.38,2.59,ok,,large
+0026866AR,Platanus × acerifolia,True,C\ Joan d'Àustria,5.05,5.02,ok,,medium
+0026867AR,Platanus × acerifolia,True,C\ Pallars,19.38,18.38,ok,,large
+0026869AR,Platanus × acerifolia,True,C\ Llull,6.87,6.19,ok,,large
+0026870AR,Platanus × acerifolia,True,Av Diagonal,,21.8,median,14.48,check
+0026871AR,Platanus × acerifolia,True,C\ Joan d'Àustria,4.91,4.58,ok,,medium
+0026872AR,Platanus × acerifolia,True,C\ Llull,4.86,2.39,ok,,medium
+0026873AR,Platanus × acerifolia,True,Pg Pujades,16.07,15.09,ok,,large
+0026874AR,Platanus × acerifolia,True,Pg Pujades,16.46,15.63,ok,,large
+0026875AR,Platanus × acerifolia,True,C\ Buenaventura Muñoz,4.74,4.23,ok,,medium
+0026876AR,Platanus × acerifolia,True,C\ Sardenya,4.88,3.74,ok,,medium
+0026877AR,Melia azedarach,False,C\ Marina,14.22,4.38,ok,,large
+0026878AR,Platanus × acerifolia,True,C\ Wellington,4.71,4.09,ok,,medium
+0026879AR,Platanus × acerifolia,True,C\ Ciutat de Granada,5.2,3.92,ok,,medium
+0026880AR,Platanus × acerifolia,True,C\ Wellington,4.91,4.17,ok,,medium
+0026881AR,Platanus × acerifolia,True,C\ Ciutat de Granada,4.89,4.13,ok,,medium
+0026882AR,Celtis australis,False,Pl Tísner,20.48,12.89,ok,,large
+0026883AR,Platanus × acerifolia,True,C\ Pallars,3.46,2.49,ok,,small
+0026884AR,Melia azedarach,False,C\ Marina,13.21,6.21,ok,,large
+0026885AR,Grevillea robusta,False,C\ Tànger,4.66,3.7,ok,,medium
+0026886AR,Platanus × acerifolia,True,C\ Sardenya,4.83,5.56,ok,,medium
+0026887AR,Gleditsia triacanthos,False,C\ Bolívia,4.27,3.88,ok,,medium
+0026888AR,Platanus × acerifolia,True,C\ Àvila,3.95,3.55,ok,,medium
+0026889AR,Platanus × acerifolia,True,C\ Pamplona,14.79,13.66,ok,,large
+0026891AR,Gleditsia triacanthos,False,C\ Pamplona,,16.82,median,,check
+0026892AR,Pinus pinea,False,Ctra Antiga de Mataró,20.85,12.73,ok,,large
+0026893AR,Celtis australis,False,C\ Àlaba,7.18,4.82,ok,,large
+0026894AR,Platanus × acerifolia,True,C\ Sancho de Ávila,16.24,15.29,ok,,large
+0026895AR,Ligustrum lucidum,False,C\ Wellington,5.7,4.1,ok,,medium
+0026896AR,Celtis australis,False,C\ Joan d'Àustria,5.11,4.12,ok,,medium
+0026897AR,Platanus × acerifolia,True,Av Meridiana,17.21,6.62,ok,,large
+0026898AR,Celtis australis,False,C\ Ciutat de Granada,6.13,5.1,ok,,large
+0026899AR,Gleditsia triacanthos f. inermis,False,C\ Pujades,4.78,1.91,ok,,medium
+0026900AR,Jacaranda mimosifolia,False,C\ Àlaba,,12.81,median,3.69,check
+0026901AR,Melia azedarach,False,C\ Buenaventura Muñoz,5.36,4.37,ok,,medium
+0026902AR,Pinus pinea,False,C\ Pujades,,14.11,no_kerb,,check
+0026903AR,Platanus × acerifolia,True,C\ Zamora,9.31,4.23,ok,,large
+0026904AR,Celtis australis,False,C\ Bolívia,5.44,3.66,ok,,medium
+0026905AR,Jacaranda mimosifolia,False,C\ Àlaba,,0.99,no_kerb,,check
+0026906AR,Pinus pinea,False,Ctra Antiga de Mataró,,10.66,no_kerb,,check
+0026907AR,Platanus × acerifolia,True,C\ Pallars,4.68,4.52,ok,,medium
+0026908AR,Ulmus pumila,False,C\ Almogàvers,6.84,4.59,ok,,large
+0026909AR,Gleditsia triacanthos,False,C\ Roc Boronat,5.21,4.44,ok,,medium
+0026910AR,Platanus × acerifolia,True,C\ Llacuna,,15.87,median,,check
+0026911AR,Platanus × acerifolia,True,C\ Wellington,4.89,4.18,ok,,medium
+0026912AR,Gleditsia triacanthos,False,C\ Bolívia,5.04,4.42,ok,,medium
+0026913AR,Gleditsia triacanthos,False,C\ Bolívia,4.97,4.49,ok,,medium
+0026914AR,Gleditsia triacanthos,False,C\ Sancho de Ávila,4.87,3.98,ok,,medium
+0026917AR,Gleditsia triacanthos,False,Av Meridiana,25.16,17.1,ok,,large
+0026918AR,Platanus × acerifolia,True,C\ Llacuna,,16.78,median,,check
+0026920AR,Celtis sinensis,False,Av Meridiana,9.23,8.03,ok,,large
+0026921AR,Platanus × acerifolia,True,C\ Àvila,4.83,4.52,ok,,medium
+0026922AR,Gleditsia triacanthos,False,C\ Sancho de Ávila,,20.15,median,,check
+0026923AR,Melia azedarach,False,C\ Roger de Flor,5.04,5.38,ok,,medium
+0026925AR,Platanus × acerifolia,True,Av Meridiana,8.87,7.44,ok,,large
+0026926AR,Brachychiton populneus,False,C\ Pere IV,15.33,13.04,ok,,large
+0026927AR,Platanus × acerifolia,True,Av Diagonal,4.81,4.66,ok,,medium
+0026928AR,Pinus pinea,False,C\ Pere IV,,30.37,no_facade,,check
+0026929AR,Ligustrum lucidum,False,C\ Wellington,5.7,3.92,ok,,medium
+0026930AR,Platanus × acerifolia,True,C\ Ciutat de Granada,5.05,4.19,ok,,medium
+0026933AR,Platanus × acerifolia,True,Av Meridiana,9.35,7.76,ok,,large
+0026934AR,Platanus × acerifolia,True,C\ Ciutat de Granada,10.94,9.55,ok,,large
+0026935AR,Gleditsia triacanthos f. inermis,False,C\ Sancho de Ávila,17.38,15.66,ok,,large
+0026936AR,Gleditsia triacanthos,False,C\ Sancho de Ávila,,19.46,median,,check
+0026937AR,Platanus × acerifolia,True,C\ Àvila,3.86,4.33,ok,,medium
+0026938AR,Platanus × acerifolia,True,C\ Ciutat de Granada,5.61,5.16,ok,,medium
+0026939AR,Platanus × acerifolia,True,C\ Llull,4.56,4.36,ok,,medium
+0026940AR,Grevillea robusta,False,C\ Tànger,3.86,2.93,ok,,medium
+0026941AR,Gleditsia triacanthos,False,Av Meridiana,17.2,10.47,ok,,large
+0026942AR,Platanus × acerifolia,True,Av Meridiana,9.84,7.27,ok,,large
+0026943AR,Celtis australis,False,C\ Roger de Flor,5.04,4.84,ok,,medium
+0026945AR,Platanus × acerifolia,True,Av Diagonal,,24.97,median,14.3,check
+0026946AR,Platanus × acerifolia,True,C\ Wellington,,14.2,median,6.38,check
+0026947AR,Gleditsia triacanthos,False,C\ Bolívia,5.02,4.42,ok,,medium
+0026948AR,Platanus × acerifolia,True,C\ Àvila,3.89,4.48,ok,,medium
+0026949AR,Platanus × acerifolia,True,C\ Ciutat de Granada,5.22,3.4,ok,,medium
+0026950AR,Platanus × acerifolia,True,C\ Pallars,4.32,2.76,ok,,medium
+0026951AR,Celtis australis,False,C\ Àvila,5.16,4.01,ok,,medium
+0026952AR,Platanus × acerifolia,True,Av Diagonal,,19.19,median,14.27,check
+0026953AR,Gleditsia triacanthos,False,C\ Sancho de Ávila,,15.92,median,,check
+0026954AR,Platanus × acerifolia,True,C\ Àvila,3.98,2.67,ok,,medium
+0026955AR,Platanus × acerifolia,True,C\ Llull,5.09,4.26,ok,,medium
+0026956AR,Gleditsia triacanthos,False,C\ Sancho de Ávila,5.08,3.87,ok,,medium
+0026957AR,Platanus × acerifolia,True,Av Diagonal,,20.05,median,14.34,check
+0026960AR,Platanus × acerifolia,True,C\ Ciutat de Granada,4.75,3.92,ok,,medium
+0026961AR,Platanus × acerifolia,True,Av Diagonal,4.98,3.65,ok,,medium
+0026962AR,Platanus × acerifolia,True,C\ Llacuna,,8.92,median,5.3,check
+0026963AR,Platanus × acerifolia,True,C\ Pallars,3.75,3.07,ok,,medium
+0026965AR,Grevillea robusta,False,C\ Tànger,,9.37,median,4.61,check
+0026966AR,Platanus × acerifolia,True,C\ Ciutat de Granada,,4.11,no_kerb,22.33,check
+0026967AR,Celtis australis,False,C\ Àlaba,5.29,3.71,ok,,medium
+0026968AR,Platanus × acerifolia,True,C\ Llull,29.45,14.35,ok,,large
+0026969AR,Platanus × acerifolia,True,Av Diagonal,11.06,9.91,ok,,large
+0026970AR,Gleditsia triacanthos,False,Av Meridiana,17.17,11.74,ok,,large
+0026971AR,Pinus pinea,False,Ctra Antiga de Mataró,,26.67,no_kerb,,check
+0026972AR,Ulmus pumila,False,C\ Marina,,24.64,median,25.47,check
+0026973AR,Celtis australis,False,C\ Zamora,6.22,3.62,ok,,large
+0026975AR,Gleditsia triacanthos,False,C\ Roc Boronat,5.37,4.4,ok,,medium
+0026976AR,Celtis australis,False,C\ Wellington,4.91,4.1,ok,,medium
+0026977AR,Platanus × acerifolia,True,C\ Sardenya,4.93,4.41,ok,,medium
+0026979AR,Platanus × acerifolia,True,Av Diagonal,4.71,4.05,ok,,medium
+0026980AR,Platanus × acerifolia,True,C\ Zamora,4.94,3.43,ok,,medium
+0026981AR,Celtis australis,False,C\ Buenaventura Muñoz,4.76,4.55,ok,,medium
+0026982AR,Celtis australis,False,C\ Zamora,6.8,4.73,ok,,large
+0026983AR,Platanus × acerifolia,True,C\ Joan d'Àustria,5.06,5.49,ok,,medium
+0026984AR,Celtis australis,False,C\ Buenaventura Muñoz,4.88,4.17,ok,,medium
+0026985AR,Platanus × acerifolia,True,C\ Zamora,6.86,4.15,ok,,large
+0026987AR,Celtis australis,False,C\ Wellington,4.91,4.91,ok,,medium
+0026989AR,Gleditsia triacanthos,False,C\ Roc Boronat,,15.21,median,5.64,check
+0026990AR,Gleditsia triacanthos,False,Av Meridiana,16.73,9.97,ok,,large
+0026991AR,Gleditsia triacanthos,False,C\ Sancho de Ávila,18.48,8.86,ok,,large
+0026992AR,Platanus × acerifolia,True,Av Diagonal,5.0,3.72,ok,,medium
+0026993AR,Platanus × acerifolia,True,C\ Pallars,22.25,4.51,ok,,large
+0026994AR,Platanus × acerifolia,True,C\ Joan d'Àustria,4.99,4.4,ok,,medium
+0026995AR,Grevillea robusta,False,C\ Badajoz,,39.76,no_facade,,check
+0026996AR,Platanus × acerifolia,True,C\ Zamora,,15.02,median,8.44,check
+0026997AR,Grevillea robusta,False,C\ Badajoz,,21.04,median,,check
+0026998AR,Platanus × acerifolia,True,C\ Joan d'Àustria,4.58,3.38,ok,,medium
+0026999AR,Gleditsia triacanthos,False,C\ Sancho de Ávila,21.16,10.29,ok,,large
+0027001AR,Platanus × acerifolia,True,C\ Llull,12.0,6.55,ok,,large
+0027002AR,Gleditsia triacanthos f. inermis,False,C\ Pujades,,21.61,median,,check
+0027003AR,Grevillea robusta,False,C\ Tànger,,14.29,median,4.42,check
+0027004AR,Platanus × acerifolia,True,C\ Ciutat de Granada,5.36,5.08,ok,,medium
+0027005AR,Celtis australis,False,C\ Joan d'Àustria,,16.27,median,,check
+0027006AR,Platanus × acerifolia,True,C\ Badajoz,4.82,4.69,ok,,medium
+0027007AR,Grevillea robusta,False,C\ Tànger,,10.38,median,4.63,check
+0027008AR,Platanus × acerifolia,True,C\ Buenaventura Muñoz,4.92,5.02,ok,,medium
+0027009AR,Jacaranda mimosifolia,False,C\ Àlaba,,5.03,no_kerb,,check
+0027010AR,Ligustrum lucidum,False,C\ Wellington,5.7,3.99,ok,,medium
+0027011AR,Celtis australis,False,C\ Almogàvers,11.32,10.71,ok,,large
+0027012AR,Tipuana tipu,False,Av Bogatell,29.81,5.97,ok,,large
+0027015AR,Gleditsia triacanthos,False,Av Meridiana,17.22,9.7,ok,,large
+0027016AR,Gleditsia triacanthos,False,C\ Pamplona,4.57,3.46,ok,,medium
+0027017AR,Ligustrum lucidum,False,C\ Wellington,5.7,3.94,ok,,medium
+0027019AR,Platanus × acerifolia,True,C\ Pallars,12.93,10.26,ok,,large
+0027020AR,Platanus × acerifolia,True,Av Diagonal,4.84,4.07,ok,,medium
+0027021AR,Gleditsia triacanthos,False,Av Meridiana,17.2,11.49,ok,,large
+0027022AR,Pinus pinea,False,Ctra Antiga de Mataró,,19.32,no_kerb,,check
+0027023AR,Platanus × acerifolia,True,Av Meridiana,8.93,7.52,ok,,large
+0027024AR,Platanus × acerifolia,True,C\ Pallars,5.68,4.09,ok,,medium
+0027025AR,Melia azedarach,False,C\ Marina,12.82,4.07,ok,,large
+0027027AR,Platanus × acerifolia,True,Av Diagonal,,19.18,median,14.42,check
+0027028AR,Platanus × acerifolia,True,C\ Buenaventura Muñoz,4.8,4.52,ok,,medium
+0027029AR,Grevillea robusta,False,C\ Badajoz,,32.94,no_facade,11.17,check
+0027030AR,Celtis sinensis,False,Av Meridiana,9.35,8.33,ok,,large
+0027031AR,Platanus × acerifolia,True,C\ Pujades,11.42,11.06,ok,,large
+0027032AR,Platanus × acerifolia,True,C\ Llull,5.3,4.18,ok,,medium
+0027033AR,Grevillea robusta,False,C\ Almogàvers,4.87,3.44,ok,,medium
+0027034AR,Platanus × acerifolia,True,C\ Nàpols,5.0,4.0,ok,,medium
+0027035AR,Platanus × acerifolia,True,C\ Pujades,,20.69,median,,check
+0027038AR,Platanus × acerifolia,True,C\ Buenaventura Muñoz,4.99,4.94,ok,,medium
+0027039AR,Celtis australis,False,Pl Tísner,,13.03,median,,check
+0027040AR,Platanus × acerifolia,True,Av Diagonal,,51.58,no_facade,6.98,check
+0027041AR,Platanus × acerifolia,True,C\ Sardenya,5.05,5.17,ok,,medium
+0027042AR,Celtis australis,False,C\ Bolívia,4.5,4.04,ok,,medium
+0027043AR,Celtis australis,False,C\ Sardenya,4.95,4.89,ok,,medium
+0027044AR,Platanus × acerifolia,True,C\ Wellington,4.68,4.77,ok,,medium
+0027045AR,Grevillea robusta,False,C\ Almogàvers,4.78,3.18,ok,,medium
+0027046AR,Platanus × acerifolia,True,C\ Llacuna,5.34,4.49,ok,,medium
+0027047AR,Gleditsia triacanthos,False,C\ Roc Boronat,,16.03,median,,check
+0027048AR,Celtis australis,False,C\ Pujades,,24.27,median,,check
+0027049AR,Celtis australis,False,C\ Sardenya,4.99,4.36,ok,,medium
+0027050AR,Platanus × acerifolia,True,C\ Pallars,4.36,3.76,ok,,medium
+0027053AR,Platanus × acerifolia,True,Av Diagonal,,14.79,median,5.38,check
+0027054AR,Platanus × acerifolia,True,C\ Llull,6.36,3.93,ok,,large
+0027055AR,Platanus × acerifolia,True,C\ Llacuna,,9.68,median,5.33,check
+0027057AR,Platanus × acerifolia,True,C\ Àvila,4.88,2.59,ok,,medium
+0027058AR,Pinus pinea,False,Ctra Antiga de Mataró,,4.89,no_kerb,,check
+0027059AR,Platanus × acerifolia,True,Pg Pujades,15.97,7.5,ok,,large
+0027060AR,Platanus × acerifolia,True,C\ Sardenya,5.21,4.24,ok,,medium
+0027061AR,Platanus × acerifolia,True,C\ Llull,,23.34,median,6.24,check
+0027062AR,Gleditsia triacanthos,False,Av Meridiana,22.72,13.86,ok,,large
+0027063AR,Grevillea robusta,False,C\ Badajoz,14.45,14.23,ok,,large
+0027064AR,Platanus × acerifolia,True,C\ Àvila,4.83,2.81,ok,,medium
+0027065AR,Platanus × acerifolia,True,C\ Àlaba,4.77,5.14,ok,,medium
+0027066AR,Melia azedarach,False,C\ Marina,14.1,5.05,ok,,large
+0027067AR,Platanus × acerifolia,True,C\ Wellington,4.69,4.0,ok,,medium
+0027068AR,Platanus × acerifolia,True,C\ Pallars,,16.36,median,5.0,check
+0027069AR,Platanus × acerifolia,True,C\ Pallars,4.87,4.15,ok,,medium
+0027070AR,Platanus × acerifolia,True,C\ Pallars,3.06,2.05,ok,,small
+0027071AR,Grevillea robusta,False,C\ Badajoz,4.75,4.09,ok,,medium
+0027072AR,Platanus × acerifolia,True,Av Diagonal,,18.78,median,14.42,check
+0027073AR,Platanus × acerifolia,True,C\ Pujades,4.1,2.71,ok,,medium
+0027074AR,Gleditsia triacanthos,False,C\ Sancho de Ávila,7.82,6.96,ok,,large
+0027075AR,Pinus pinea,False,C\ Pujades,,17.87,no_kerb,,check
+0027076AR,Gleditsia triacanthos,False,C\ Sancho de Ávila,,15.67,median,,check
+0027077AR,Platanus × acerifolia,True,C\ Sancho de Ávila,4.71,0.82,ok,,medium
+0027078AR,Gleditsia triacanthos,False,C\ Pamplona,4.09,3.69,ok,,medium
+0027080AR,Platanus × acerifolia,True,Av Meridiana,17.23,6.77,ok,,large
+0027081AR,Celtis australis,False,C\ Àlaba,5.07,3.75,ok,,medium
+0027083AR,Celtis australis,False,C\ Pujades,7.1,5.95,ok,,large
+0027084AR,Melia azedarach,False,C\ Buenaventura Muñoz,4.92,5.22,ok,,medium
+0027085AR,Platanus × acerifolia,True,Av Diagonal,,7.63,median,5.31,check
+0027086AR,Platanus × acerifolia,True,C\ Pamplona,5.01,4.29,ok,,medium
+0027087AR,Gleditsia triacanthos,False,C\ Roc Boronat,4.91,3.81,ok,,medium
+0027088AR,Celtis australis,False,C\ Sardenya,4.91,4.14,ok,,medium
+0027089AR,Platanus × acerifolia,True,C\ Sancho de Ávila,4.87,3.93,ok,,medium
+0027090AR,Grevillea robusta,False,C\ Tànger,8.24,7.27,ok,,large
+0027091AR,Gleditsia triacanthos f. inermis,False,Av Meridiana,17.21,6.83,ok,,large
+0027094AR,Gleditsia triacanthos,False,Av Meridiana,,30.52,no_facade,28.35,check
+0027095AR,Gleditsia triacanthos f. inermis,False,C\ Pamplona,4.69,3.81,ok,,medium
+0027096AR,Platanus × acerifolia,True,C\ Tànger,7.16,5.86,ok,,large
+0027097AR,Platanus × acerifolia,True,C\ Àvila,4.84,4.63,ok,,medium
+0027098AR,Gleditsia triacanthos,False,Av Meridiana,16.85,10.57,ok,,large
+0027100AR,Platanus × acerifolia,True,Av Meridiana,9.0,6.72,ok,,large
+0027102AR,Pinus pinea,False,Ctra Antiga de Mataró,,21.18,no_kerb,,check
+0027103AR,Platanus × acerifolia,True,C\ Llull,4.94,4.69,ok,,medium
+0027104AR,Platanus × acerifolia,True,C\ Ciutat de Granada,4.86,4.33,ok,,medium
+0027105AR,Platanus × acerifolia,True,Av Diagonal,,19.04,median,14.54,check
+0027106AR,Platanus × acerifolia,True,C\ Pujades,16.76,15.38,ok,,large
+0027107AR,Platanus × acerifolia,True,C\ Ciutat de Granada,8.81,6.78,ok,,large
+0027108AR,Pinus pinea,False,Ctra Antiga de Mataró,,4.53,no_kerb,,check
+0027109AR,Platanus × acerifolia,True,Av Diagonal,,43.75,no_facade,4.73,check
+0027110AR,Platanus × acerifolia,True,C\ Wellington,4.76,3.83,ok,,medium
+0027111AR,Pinus pinea,False,Ctra Antiga de Mataró,,22.25,no_kerb,,check
+0027112AR,Platanus × acerifolia,True,Av Diagonal,4.81,4.27,ok,,medium
+0027113AR,Platanus × acerifolia,True,C\ Pujades,,34.42,no_facade,,check
+0027116AR,Platanus × acerifolia,True,Av Meridiana,17.17,6.46,ok,,large
+0027118AR,Platanus × acerifolia,True,C\ Pallars,4.77,3.78,ok,,medium
+0027119AR,Gleditsia triacanthos,False,C\ Sancho de Ávila,10.58,9.09,ok,,large
+0027120AR,Gleditsia triacanthos,False,C\ Sancho de Ávila,5.18,4.44,ok,,medium
+0027121AR,Platanus × acerifolia,True,Av Diagonal,,19.09,median,14.7,check
+0027122AR,Platanus × acerifolia,True,C\ Llull,8.49,7.0,ok,,large
+0027123AR,Grevillea robusta,False,C\ Badajoz,4.35,5.28,ok,,medium
+0027124AR,Gleditsia triacanthos,False,C\ Sancho de Ávila,,18.28,median,9.99,check
+0027125AR,Melia azedarach,False,C\ Marina,12.34,5.01,ok,,large
+0027127AR,Platanus × acerifolia,True,Pg Pujades,10.9,7.34,ok,,large
+0027128AR,Gleditsia triacanthos,False,C\ Sancho de Ávila,6.67,4.66,ok,,large
+0027129AR,Platanus × acerifolia,True,Av Diagonal,,47.38,no_facade,4.72,check
+0027130AR,Platanus × acerifolia,True,C\ Bolívia,6.2,4.62,ok,,large
+0027131AR,Platanus × acerifolia,True,C\ Llacuna,20.19,4.86,ok,,large
+0027132AR,Celtis australis,False,C\ Nàpols,4.73,4.1,ok,,medium
+0027133AR,Platanus × acerifolia,True,C\ Almogàvers,7.85,5.13,ok,,large
+0027134AR,Gleditsia triacanthos,False,C\ Bolívia,6.7,6.0,ok,,large
+0027135AR,Platanus × acerifolia,True,C\ Zamora,9.56,4.49,ok,,large
+0027136AR,Gleditsia triacanthos,False,C\ Marina,,25.03,no_kerb,,check
+0027137AR,Celtis australis,False,C\ Llull,4.82,4.18,ok,,medium
+0027138AR,Platanus × acerifolia,True,Av Diagonal,4.74,4.19,ok,,medium
+0027139AR,Platanus × acerifolia,True,C\ Pallars,4.44,3.71,ok,,medium
+0027140AR,Olea europaea,False,Ctra Antiga de Mataró,,17.56,no_kerb,,check
+0027142AR,Platanus × acerifolia,True,C\ Almogàvers,7.48,4.76,ok,,large
+0027143AR,Platanus × acerifolia,True,Av Meridiana,17.17,6.56,ok,,large
+0027144AR,Platanus × acerifolia,True,C\ Pujades,4.64,2.76,ok,,medium
+0027145AR,Platanus × acerifolia,True,C\ Pujades,12.95,7.52,ok,,large
+0027146AR,Grevillea robusta,False,C\ Tànger,4.45,3.4,ok,,medium
+0027147AR,Platanus × acerifolia,True,C\ Pamplona,5.03,4.02,ok,,medium
+0027149AR,Celtis australis,False,C\ Buenaventura Muñoz,4.95,4.43,ok,,medium
+0027150AR,Platanus × acerifolia,True,C\ Àvila,,15.72,median,19.57,check
+0027151AR,Gleditsia triacanthos 'sunburst',False,C\ Roc Boronat,4.92,4.03,ok,,medium
+0027152AR,Grevillea robusta,False,C\ Tànger,4.42,2.47,ok,,medium
+0027153AR,Platanus × acerifolia,True,Av Diagonal,,19.04,median,14.4,check
+0027154AR,Platanus × acerifolia,True,C\ Wellington,,15.17,median,21.81,check
+0027155AR,Platanus × acerifolia,True,C\ Pujades,16.78,15.31,ok,,large
+0027156AR,Platanus × acerifolia,True,C\ Llull,7.66,6.57,ok,,large
+0027157AR,Platanus × acerifolia,True,Av Meridiana,9.48,6.83,ok,,large
+0027158AR,Platanus × acerifolia,True,C\ Àvila,,15.42,median,23.21,check
+0027159AR,Celtis australis,False,C\ Almogàvers,5.01,4.04,ok,,medium
+0027160AR,Platanus × acerifolia,True,C\ Bolívia,10.69,3.56,ok,,large
+0027161AR,Gleditsia triacanthos,False,C\ Pamplona,4.08,4.12,ok,,medium
+0027162AR,Celtis australis,False,C\ Bolívia,13.44,4.41,ok,,large
+0027163AR,Platanus × acerifolia,True,C\ Bolívia,18.86,16.83,ok,,large
+0027164AR,Gleditsia triacanthos,False,C\ Roc Boronat,,16.11,median,,check
+0027165AR,Celtis australis,False,C\ Zamora,6.69,4.38,ok,,large
+0027166AR,Gleditsia triacanthos,False,C\ Sancho de Ávila,14.83,14.01,ok,,large
+0027167AR,Gleditsia triacanthos,False,C\ Sancho de Ávila,4.88,3.99,ok,,medium
+0027168AR,Platanus × acerifolia,True,Pg Pujades,16.03,15.44,ok,,large
+0027169AR,Gleditsia triacanthos,False,Av Meridiana,16.84,11.05,ok,,large
+0027170AR,Gleditsia triacanthos f. inermis,False,Av Meridiana,16.84,9.29,ok,,large
+0027171AR,Platanus × acerifolia,True,C\ Sancho de Ávila,6.32,5.03,ok,,large
+0027174AR,Gleditsia triacanthos,False,C\ Bolívia,5.02,4.43,ok,,medium
+0027176AR,Platanus × acerifolia,True,C\ Pamplona,4.99,3.66,ok,,medium
+0027177AR,Platanus × acerifolia,True,C\ Zamora,6.11,4.61,ok,,large
+0027178AR,Gleditsia triacanthos,False,C\ Sancho de Ávila,18.93,9.64,ok,,large
+0027179AR,Gleditsia triacanthos,False,C\ Bolívia,5.26,4.97,ok,,medium
+0027181AR,Platanus × acerifolia,True,C\ Roger de Flor,5.04,4.51,ok,,medium
+0027182AR,Gleditsia triacanthos,False,C\ Pamplona,16.95,13.77,ok,,large
+0027183AR,Celtis australis,False,C\ Wellington,4.85,3.86,ok,,medium
+0027184AR,Platanus × acerifolia,True,C\ Pallars,3.83,3.23,ok,,medium
+0027186AR,Platanus × acerifolia,True,C\ Llull,24.89,24.52,ok,,large
+0027187AR,Melia azedarach,False,C\ Marina,14.64,5.27,ok,,large
+0027188AR,Platanus × acerifolia,True,Av Diagonal,5.02,4.08,ok,,medium
+0027189AR,Platanus × acerifolia,True,Av Meridiana,9.28,7.47,ok,,large
+0027190AR,Platanus × acerifolia,True,C\ Almogàvers,,6.65,median,5.43,check
+0027191AR,Grevillea robusta,False,C\ Badajoz,,18.66,median,,check
+0027192AR,Celtis sinensis,False,Av Meridiana,9.34,8.33,ok,,large
+0027193AR,Platanus × acerifolia,True,C\ Pallars,6.26,5.49,ok,,large
+0027195AR,Platanus × acerifolia,True,C\ Pere IV,,3.25,no_kerb,,check
+0027197AR,Brachychiton populneus,False,C\ Pujades,16.27,12.73,ok,,large
+0027198AR,Gleditsia triacanthos,False,C\ Sancho de Ávila,5.04,4.3,ok,,medium
+0027199AR,Platanus × acerifolia,True,C\ Àvila,4.82,3.71,ok,,medium
+0027200AR,Platanus × acerifolia,True,C\ Llacuna,6.81,5.91,ok,,large
+0027201AR,Platanus × acerifolia,True,C\ Sardenya,5.12,4.03,ok,,medium
+0027204AR,Gleditsia triacanthos,False,Av Meridiana,16.66,9.95,ok,,large
+0027205AR,Platanus × acerifolia,True,Av Diagonal,7.64,6.2,ok,,large
+0027206AR,Celtis australis,False,C\ Ciutat de Granada,5.0,4.25,ok,,medium
+0027207AR,Platanus × acerifolia,True,Pg Pujades,11.05,7.61,ok,,large
+0027208AR,Pinus pinea,False,Ctra Antiga de Mataró,,14.96,no_kerb,,check
+0027209AR,Melia azedarach,False,C\ Marina,10.7,4.22,ok,,large
+0027210AR,Platanus × acerifolia,True,C\ Almogàvers,4.39,3.46,ok,,medium
+0027211AR,Platanus × acerifolia,True,Pg Pujades,,14.65,median,5.25,check
+0027213AR,Grevillea robusta,False,C\ Badajoz,4.33,5.22,ok,,medium
+0027214AR,Grevillea robusta,False,C\ Tànger,3.82,3.0,ok,,medium
+0027215AR,Platanus × acerifolia,True,C\ Bolívia,7.27,2.59,ok,,large
+0027216AR,Celtis australis,False,C\ Àlaba,5.04,3.51,ok,,medium
+0027217AR,Melia azedarach,False,C\ Marina,13.2,6.06,ok,,large
+0027219AR,Platanus × acerifolia,True,C\ Pujades,16.76,7.42,ok,,large
+0027220AR,Platanus × acerifolia,True,C\ Pallars,4.36,3.61,ok,,medium
+0027221AR,Tipuana tipu,False,C\ Sancho de Ávila,,18.25,no_kerb,29.65,check
+0027222AR,Grevillea robusta,False,C\ Badajoz,,29.86,median,,check
+0027223AR,Grevillea robusta,False,C\ Badajoz,29.15,27.3,ok,,large
+0027225AR,Olea europaea,False,C\ Pujades,28.55,22.11,ok,,large
+0027227AR,Grevillea robusta,False,C\ Tànger,5.2,3.36,ok,,medium
+0027228AR,Platanus × acerifolia,True,Av Diagonal,,18.86,median,14.37,check
+0027229AR,Grevillea robusta,False,C\ Tànger,4.45,3.69,ok,,medium
+0027230AR,Celtis sinensis,False,Av Meridiana,9.22,7.9,ok,,large
+0027231AR,Grevillea robusta,False,C\ Tànger,4.47,2.16,ok,,medium
+0027232AR,Gleditsia triacanthos f. inermis,False,C\ Roc Boronat,4.97,4.31,ok,,medium
+0027233AR,Platanus × acerifolia,True,C\ Àvila,4.84,4.57,ok,,medium
+0027234AR,Platanus × acerifolia,True,C\ Llacuna,,17.18,median,,check
+0027235AR,Platanus × acerifolia,True,Av Meridiana,9.02,7.29,ok,,large
+0027237AR,Platanus × acerifolia,True,C\ Llacuna,,17.05,median,,check
+0027238AR,Platanus × acerifolia,True,C\ Sancho de Ávila,4.98,4.53,ok,,medium
+0027239AR,Platanus × acerifolia,True,Pg Pujades,10.92,6.99,ok,,large
+0027240AR,Tipuana tipu,False,Av Bogatell,,5.99,no_kerb,,check
+0027241AR,Platanus × acerifolia,True,C\ Llacuna,10.63,8.8,ok,,large
+0027242AR,Platanus × acerifolia,True,Av Diagonal,,35.23,no_facade,14.46,check
+0027244AR,Pinus pinea,False,C\ Pujades,,24.12,no_kerb,,check
+0027245AR,Platanus × acerifolia,True,C\ Ciutat de Granada,4.91,4.16,ok,,medium
+0027246AR,Celtis australis,False,C\ Wellington,4.82,3.75,ok,,medium
+0027247AR,Platanus × acerifolia,True,C\ Pallars,4.8,3.85,ok,,medium
+0027248AR,Platanus × acerifolia,True,C\ Pallars,,27.65,no_kerb,,check
+0027249AR,Gleditsia triacanthos f. inermis,False,C\ Roc Boronat,5.0,4.1,ok,,medium
+0027250AR,Celtis australis,False,Pl Tísner,20.46,13.17,ok,,large
+0027251AR,Gleditsia triacanthos,False,C\ Roc Boronat,5.2,4.3,ok,,medium
+0027252AR,Brachychiton populneus,False,C\ Pujades,15.57,12.98,ok,,large
+0027253AR,Gleditsia triacanthos,False,C\ Bolívia,4.28,3.87,ok,,medium
+0027254AR,Platanus × acerifolia,True,C\ Pujades,,21.14,median,,check
+0027256AR,Cupressus sempervirens,False,C\ Pujades,,29.88,no_kerb,,check
+0027257AR,Platanus × acerifolia,True,C\ Joan d'Àustria,5.07,5.07,ok,,medium
+0027258AR,Brachychiton populneus,False,C\ Pujades,11.4,8.61,ok,,large
+0027259AR,Platanus × acerifolia,True,Pg Pujades,,15.34,median,5.21,check
+0027260AR,Platanus × acerifolia,True,Av Diagonal,,21.25,median,14.54,check
+0027261AR,Gleditsia triacanthos,False,C\ Pamplona,4.66,3.46,ok,,medium
+0027262AR,Pinus pinea,False,Ctra Antiga de Mataró,,25.93,no_kerb,,check
+0027263AR,Celtis australis,False,C\ Tànger,7.67,5.04,ok,,large
+0027264AR,Platanus × acerifolia,True,Av Diagonal,,19.3,median,14.31,check
+0027265AR,Platanus × acerifolia,True,C\ Wellington,4.91,4.96,ok,,medium
+0027266AR,Gleditsia triacanthos,False,C\ Sancho de Ávila,4.78,3.95,ok,,medium
+0027267AR,Platanus × acerifolia,True,C\ Sancho de Ávila,4.75,1.37,ok,,medium
+0027268AR,Platanus × acerifolia,True,C\ Almogàvers,4.89,4.11,ok,,medium
+0027269AR,Platanus × acerifolia,True,C\ Llull,5.4,1.91,ok,,medium
+0027270AR,Platanus × acerifolia,True,C\ Pallars,4.3,3.5,ok,,medium
+0027271AR,Gleditsia triacanthos 'sunburst',False,C\ Roc Boronat,10.64,8.83,ok,,large
+0027273AR,Gleditsia triacanthos,False,Av Meridiana,17.24,12.9,ok,,large
+0027274AR,Pinus pinea,False,C\ Pujades,,22.32,no_kerb,,check
+0027275AR,Platanus × acerifolia,True,C\ Nàpols,4.92,4.64,ok,,medium
+0027276AR,Grevillea robusta,False,C\ Almogàvers,,5.22,median,10.74,check
+0027277AR,Platanus × acerifolia,True,Pg Pujades,10.94,7.73,ok,,large
+0027278AR,Brachychiton populneus,False,C\ Pere IV,15.44,11.58,ok,,large
+0027279AR,Grevillea robusta,False,C\ Tànger,3.79,2.8,ok,,medium
+0027280AR,Grevillea robusta,False,C\ Almogàvers,6.46,4.0,ok,,large
+0027281AR,Platanus × acerifolia,True,C\ Sardenya,10.44,9.6,ok,,large
+0027282AR,Platanus × acerifolia,True,Av Diagonal,5.04,4.34,ok,,medium
+0027283AR,Prunus cerasifera 'Pissardii',False,Av Meridiana,,47.18,no_facade,23.16,check
+0027284AR,Celtis australis,False,C\ Àlaba,4.84,5.0,ok,,medium
+0027285AR,Platanus × acerifolia,True,Pg Pujades,15.91,7.29,ok,,large
+0027286AR,Platanus × acerifolia,True,Pg Pujades,,15.45,median,5.17,check
+0027287AR,Platanus × acerifolia,True,C\ Pallars,26.78,25.9,ok,,large
+0027288AR,Platanus × acerifolia,True,Av Diagonal,,20.51,median,14.5,check
+0027289AR,Gleditsia triacanthos f. inermis,False,C\ Roc Boronat,4.95,4.18,ok,,medium
+0027290AR,Platanus × acerifolia,True,C\ Bolívia,4.4,3.49,ok,,medium
+0027291AR,Platanus × acerifolia,True,C\ Llacuna,,15.69,median,,check
+0027293AR,Gleditsia triacanthos,False,C\ Sancho de Ávila,,31.02,no_facade,,check
+0027294AR,Platanus × acerifolia,True,C\ Nàpols,4.94,4.81,ok,,medium
+0027295AR,Gleditsia triacanthos,False,C\ Sancho de Ávila,5.09,4.88,ok,,medium
+0027296AR,Celtis australis,False,C\ Buenaventura Muñoz,5.16,4.95,ok,,medium
+0027297AR,Platanus × acerifolia,True,Av Diagonal,,33.37,no_facade,14.57,check
+0027298AR,Platanus × acerifolia,True,C\ Llacuna,,16.39,median,,check
+0027299AR,Platanus × acerifolia,True,C\ Pamplona,5.18,4.58,ok,,medium
+0027300AR,Gleditsia triacanthos,False,C\ Roc Boronat,5.08,4.04,ok,,medium
+0027301AR,Platanus × acerifolia,True,C\ Pujades,4.62,3.18,ok,,medium
+0027302AR,Platanus × acerifolia,True,C\ Pujades,17.1,7.64,ok,,large
+0027303AR,Ulmus pumila,False,C\ Sardenya,4.87,4.49,ok,,medium
+0027304AR,Grevillea robusta,False,C\ Badajoz,4.83,5.16,ok,,medium
+0027305AR,Gleditsia triacanthos,False,C\ Pamplona,6.39,5.6,ok,,large
+0027306AR,Platanus × acerifolia,True,Av Meridiana,27.95,18.25,ok,,large
+0027307AR,Grevillea robusta,False,C\ Badajoz,,36.23,no_facade,,check
+0027308AR,Platanus × acerifolia,True,Av Diagonal,5.03,3.84,ok,,medium
+0027309AR,Celtis australis,False,C\ Zamora,6.31,3.94,ok,,large
+0027310AR,Platanus × acerifolia,True,C\ Sancho de Ávila,21.71,15.23,ok,,large
+0027312AR,Gleditsia triacanthos,False,C\ Roc Boronat,5.04,4.24,ok,,medium
+0027313AR,Melia azedarach,False,C\ Buenaventura Muñoz,5.29,4.34,ok,,medium
+0027314AR,Celtis australis,False,C\ Bolívia,4.51,3.99,ok,,medium
+0027315AR,Platanus × acerifolia,True,C\ Badajoz,4.91,4.81,ok,,medium
+0027316AR,Gleditsia triacanthos,False,C\ Tànger,6.73,5.97,ok,,large
+0027318AR,Platanus × acerifolia,True,Pg Pujades,,15.32,median,4.83,check
+0027319AR,Platanus × acerifolia,True,Av Diagonal,,42.8,no_facade,14.57,check
+0027320AR,Platanus × acerifolia,True,C\ Sardenya,5.03,4.98,ok,,medium
+0027321AR,Platanus × acerifolia,True,C\ Àvila,,13.45,median,6.67,check
+0027322AR,Platanus × acerifolia,True,C\ Llull,,22.08,median,9.48,check
+0027323AR,Grevillea robusta,False,C\ Almogàvers,,16.15,median,,check
+0027325AR,Platanus × acerifolia,True,C\ Sancho de Ávila,,15.86,median,,check
+0027326AR,Gleditsia triacanthos,False,Av Meridiana,16.84,12.95,ok,,large
+0027327AR,Gleditsia triacanthos,False,C\ Roc Boronat,7.72,6.55,ok,,large
+0027328AR,Gleditsia triacanthos,False,C\ Pamplona,4.62,3.47,ok,,medium
+0027329AR,Platanus × acerifolia,True,Av Diagonal,,19.29,median,14.31,check
+0027330AR,Platanus × acerifolia,True,C\ Almogàvers,,17.61,no_kerb,,check
+0027331AR,Olea europaea,False,Ctra Antiga de Mataró,18.18,7.68,ok,,large
+0027333AR,Celtis australis,False,C\ Bolívia,4.5,3.3,ok,,medium
+0027334AR,Grevillea robusta,False,C\ Tànger,,5.41,median,4.61,check
+0027335AR,Platanus × acerifolia,True,C\ Pallars,7.0,4.18,ok,,large
+0027336AR,Gleditsia triacanthos,False,C\ Pamplona,4.09,4.14,ok,,medium
+0027337AR,Platanus × acerifolia,True,C\ Pallars,3.89,3.33,ok,,medium
+0027338AR,Melia azedarach,False,C\ Marina,13.22,6.33,ok,,large
+0027339AR,Celtis australis,False,C\ Àlaba,7.18,4.85,ok,,large
+0027340AR,Platanus × acerifolia,True,C\ Badajoz,7.72,6.54,ok,,large
+0027341AR,Platanus × acerifolia,True,C\ Llull,,8.79,median,5.92,check
+0027342AR,Platanus × acerifolia,True,C\ Joan d'Àustria,5.1,5.54,ok,,medium
+0027343AR,Platanus × acerifolia,True,C\ Pamplona,12.61,10.75,ok,,large
+0027344AR,Celtis australis,False,C\ Wellington,4.7,4.25,ok,,medium
+0027345AR,Platanus × acerifolia,True,C\ Llull,24.89,24.56,ok,,large
+0027346AR,Platanus × acerifolia,True,C\ Almogàvers,11.78,4.43,ok,,large
+0027347AR,Platanus × acerifolia,True,C\ Zamora,4.88,3.47,ok,,medium
+0027348AR,Platanus × acerifolia,True,Av Diagonal,4.82,4.28,ok,,medium
+0027349AR,Platanus × acerifolia,True,Av Meridiana,9.31,7.35,ok,,large
+0027350AR,Celtis australis,False,C\ Buenaventura Muñoz,4.99,5.28,ok,,medium
+0027351AR,Platanus × acerifolia,True,Av Meridiana,18.09,7.34,ok,,large
+0027352AR,Pinus pinea,False,C\ Pujades,,19.93,no_kerb,,check
+0027353AR,Platanus × acerifolia,True,Av Diagonal,4.81,4.12,ok,,medium
+0027354AR,Celtis australis,False,C\ Sardenya,4.9,4.64,ok,,medium
+0027355AR,Gleditsia triacanthos,False,Av Meridiana,25.79,15.18,ok,,large
+0027356AR,Grevillea robusta,False,C\ Tànger,10.83,9.69,ok,,large
+0027358AR,Platanus × acerifolia,True,C\ Àvila,4.85,3.36,ok,,medium
+0027359AR,Platanus × acerifolia,True,C\ Ciutat de Granada,4.8,4.64,ok,,medium
+0027360AR,Celtis australis,False,Pl Tísner,20.47,12.99,ok,,large
+0027361AR,Platanus × acerifolia,True,C\ Ciutat de Granada,5.02,4.98,ok,,medium
+0027362AR,Pinus pinea,False,Ctra Antiga de Mataró,,4.84,no_kerb,,check
+0027363AR,Platanus × acerifolia,True,C\ Nàpols,4.93,4.35,ok,,medium
+0027364AR,Grevillea robusta,False,C\ Tànger,4.56,2.15,ok,,medium
+0027365AR,Grevillea robusta,False,C\ Badajoz,4.79,4.22,ok,,medium
+0027366AR,Grevillea robusta,False,C\ Badajoz,28.64,28.06,ok,,large
+0027368AR,Platanus × acerifolia,True,C\ Pamplona,7.86,5.81,ok,,large
+0027369AR,Platanus × acerifolia,True,C\ Pallars,4.41,3.7,ok,,medium
+0027370AR,Pinus pinea,False,Ctra Antiga de Mataró,,23.88,no_kerb,,check
+0027371AR,Celtis australis,False,C\ Buenaventura Muñoz,4.97,4.6,ok,,medium
+0027372AR,Platanus × acerifolia,True,C\ Buenaventura Muñoz,5.11,4.53,ok,,medium
+0027373AR,Gleditsia triacanthos f. inermis,False,Av Meridiana,16.73,13.66,ok,,large
+0027374AR,Platanus × acerifolia,True,C\ Badajoz,,5.97,median,5.09,check
+0027375AR,Platanus × acerifolia,True,C\ Buenaventura Muñoz,4.93,4.74,ok,,medium
+0027376AR,Platanus × acerifolia,True,C\ Sancho de Ávila,8.86,5.08,ok,,large
+0027377AR,Gleditsia triacanthos f. inermis,False,Av Meridiana,16.76,13.25,ok,,large
+0027378AR,Celtis australis,False,C\ Àlaba,,15.52,median,,check
+0027379AR,Platanus × acerifolia,True,C\ Llacuna,,16.22,median,,check
+0027380AR,Gleditsia triacanthos,False,Av Meridiana,16.63,11.47,ok,,large
+0027381AR,Celtis australis,False,C\ Almogàvers,4.46,3.73,ok,,medium
+0027382AR,Platanus × acerifolia,True,Pg Pujades,15.99,15.64,ok,,large
+0027383AR,Ulmus pumila,False,C\ Almogàvers,5.42,4.66,ok,,medium
+0027384AR,Celtis australis,False,C\ Àvila,3.87,4.56,ok,,medium
+0027385AR,Platanus × acerifolia,True,C\ Zamora,9.24,3.75,ok,,large
+0027386AR,Platanus × acerifolia,True,C\ Pallars,4.6,3.51,ok,,medium
+0027387AR,Platanus × acerifolia,True,C\ Zamora,,14.93,median,,check
+0027388AR,Gleditsia triacanthos,False,Av Meridiana,,30.93,no_facade,28.9,check
+0027389AR,Platanus × acerifolia,True,C\ Llacuna,5.31,4.55,ok,,medium
+0027391AR,Platanus × acerifolia,True,C\ Ciutat de Granada,4.97,4.04,ok,,medium
+0027392AR,Platanus × acerifolia,True,Av Meridiana,9.11,6.96,ok,,large
+0027393AR,Gleditsia triacanthos,False,C\ Sancho de Ávila,6.79,5.71,ok,,large
+0027394AR,Grevillea robusta,False,C\ Badajoz,6.35,6.36,ok,,large
+0027395AR,Platanus × acerifolia,True,C\ Tànger,6.59,3.39,ok,,large
+0027396AR,Gleditsia triacanthos,False,Av Meridiana,16.67,9.57,ok,,large
+0027397AR,Platanus × acerifolia,True,C\ Almogàvers,11.72,5.83,ok,,large
+0027398AR,Platanus × acerifolia,True,C\ Joan d'Àustria,5.04,4.95,ok,,medium
+0027399AR,Platanus × acerifolia,True,Av Diagonal,,20.46,median,14.61,check
+0027400AR,Platanus × acerifolia,True,C\ Pujades,16.89,15.83,ok,,large
+0027401AR,Platanus × acerifolia,True,Av Diagonal,,32.34,no_facade,14.51,check
+0027402AR,Platanus × acerifolia,True,C\ Ciutat de Granada,4.93,3.8,ok,,medium
+0027404AR,Platanus × acerifolia,True,C\ Àvila,4.04,2.51,ok,,medium
+0027406AR,Platanus × acerifolia,True,C\ Pujades,,11.05,median,13.63,check
+0027407AR,Pinus pinea,False,Ctra Antiga de Mataró,,9.52,no_kerb,,check
+0027408AR,Celtis australis,False,C\ Àlaba,4.9,5.05,ok,,medium
+0027411AR,Platanus × acerifolia,True,C\ Pallars,4.83,3.78,ok,,medium
+0027412AR,Gleditsia triacanthos,False,C\ Bolívia,17.34,13.53,ok,,large
+0027413AR,Gleditsia triacanthos,False,C\ Bolívia,4.63,2.97,ok,,medium
+0027414AR,Grevillea robusta,False,C\ Tànger,4.58,3.67,ok,,medium
+0027415AR,Platanus × acerifolia,True,C\ Zamora,6.82,4.99,ok,,large
+0027416AR,Grevillea robusta,False,C\ Almogàvers,4.59,2.89,ok,,medium
+0027417AR,Gleditsia triacanthos,False,C\ Sancho de Ávila,9.23,9.93,ok,,large
+0027418AR,Platanus × acerifolia,True,C\ Joan d'Àustria,14.28,13.13,ok,,large
+0027419AR,Gleditsia triacanthos,False,C\ Sancho de Ávila,5.11,4.32,ok,,medium
+0027420AR,Gleditsia triacanthos,False,C\ Pamplona,4.1,3.33,ok,,medium
+0027421AR,Gleditsia triacanthos,False,Av Meridiana,16.74,13.62,ok,,large
+0027423AR,Ulmus pumila,False,Av Meridiana,9.42,2.58,ok,,large
+0027425AR,Platanus × acerifolia,True,C\ Pallars,6.79,5.09,ok,,large
+0027426AR,Platanus × acerifolia,True,C\ Àvila,15.43,12.59,ok,,large
+0027427AR,Platanus × acerifolia,True,C\ Llull,20.66,11.28,ok,,large
+0027428AR,Platanus × acerifolia,True,C\ Pujades,15.84,13.38,ok,,large
+0027429AR,Platanus × acerifolia,True,C\ Llacuna,5.72,4.87,ok,,medium
+0027430AR,Gleditsia triacanthos,False,Av Meridiana,17.2,13.46,ok,,large
+0027431AR,Gleditsia triacanthos,False,C\ Sancho de Ávila,22.47,10.85,ok,,large
+0027432AR,Grevillea robusta,False,C\ Tànger,,20.71,median,,check
+0027433AR,Gleditsia triacanthos,False,C\ Sancho de Ávila,6.03,5.61,ok,,large
+0027434AR,Gleditsia triacanthos,False,C\ Sancho de Ávila,29.65,28.89,ok,,large
+0027435AR,Platanus × acerifolia,True,Av Diagonal,4.7,4.07,ok,,medium
+0027436AR,Platanus × acerifolia,True,C\ Pallars,4.54,0.33,ok,,medium
+0027437AR,Platanus × acerifolia,True,Av Diagonal,8.75,7.64,ok,,large
+0027439AR,Melia azedarach,False,C\ Marina,14.4,5.65,ok,,large
+0027441AR,Platanus × acerifolia,True,C\ Ciutat de Granada,5.09,4.26,ok,,medium
+0027442AR,Gleditsia triacanthos,False,C\ Sancho de Ávila,18.48,17.48,ok,,large
+0027443AR,Gleditsia triacanthos f. inermis,False,C\ Bolívia,16.47,15.23,ok,,large
+0027444AR,Platanus × acerifolia,True,Av Diagonal,,37.25,no_facade,14.4,check
+0027445AR,Platanus × acerifolia,True,C\ Almogàvers,11.46,4.36,ok,,large
+0027446AR,Platanus × acerifolia,True,C\ Sancho de Ávila,4.72,1.81,ok,,medium
+0027447AR,Platanus × acerifolia,True,C\ Zamora,6.82,4.29,ok,,large
+0027448AR,Platanus × acerifolia,True,Av Diagonal,,19.03,median,14.77,check
+0027450AR,Platanus × acerifolia,True,C\ Tànger,9.08,7.89,ok,,large
+0027451AR,Platanus × acerifolia,True,C\ Bolívia,7.33,5.09,ok,,large
+0027452AR,Platanus × acerifolia,True,C\ Llull,5.57,4.85,ok,,medium
+0027453AR,Gleditsia triacanthos 'skyline',False,C\ Pujades,4.74,2.78,ok,,medium
+0027456AR,Grevillea robusta,False,C\ Tànger,,16.03,median,,check
+0027458AR,Platanus × acerifolia,True,C\ Pujades,8.81,4.93,ok,,large
+0027459AR,Platanus × acerifolia,True,C\ Àvila,4.93,4.0,ok,,medium
+0027460AR,Gleditsia triacanthos,False,C\ Sancho de Ávila,18.61,8.79,ok,,large
+0027461AR,Celtis australis,False,C\ Nàpols,5.17,5.13,ok,,medium
+0027462AR,Brachychiton populneus,False,C\ Pujades,17.03,13.08,ok,,large
+0027463AR,Pinus pinea,False,Ctra Antiga de Mataró,,4.82,no_kerb,,check
+0027464AR,Tipuana tipu,False,Av Bogatell,24.89,5.9,ok,,large
+0027466AR,Pinus pinea,False,Ctra Antiga de Mataró,25.13,18.11,ok,,large
+0027467AR,Gleditsia triacanthos,False,C\ Sancho de Ávila,4.99,4.23,ok,,medium
+0027469AR,Gleditsia triacanthos f. inermis,False,C\ Pujades,,21.08,median,,check
+0027470AR,Platanus × acerifolia,True,C\ Pujades,16.85,15.78,ok,,large
+0027472AR,Platanus × acerifolia,True,C\ Llacuna,,23.45,median,,check
+0027473AR,Grevillea robusta,False,C\ Badajoz,,33.69,no_facade,,check
+0027475AR,Platanus × acerifolia,True,C\ Ciutat de Granada,5.02,4.99,ok,,medium
+0027476AR,Platanus × acerifolia,True,C\ Sancho de Ávila,18.25,16.39,ok,,large
+0027477AR,Gleditsia triacanthos,False,C\ Roc Boronat,5.41,4.42,ok,,medium
+0027478AR,Gleditsia triacanthos,False,C\ Sancho de Ávila,5.2,4.73,ok,,medium
+0027479AR,Celtis australis,False,C\ Almogàvers,5.0,4.06,ok,,medium
+0027480AR,Platanus × acerifolia,True,C\ Llull,5.11,4.61,ok,,medium
+0027481AR,Melia azedarach,False,C\ Marina,10.99,4.41,ok,,large
+0027482AR,Platanus × acerifolia,True,C\ Pujades,6.58,4.08,ok,,large
+0027484AR,Pinus pinea,False,Ctra Antiga de Mataró,,30.93,no_facade,,check
+0027485AR,Platanus × acerifolia,True,C\ Llull,4.4,3.23,ok,,medium
+0027487AR,Celtis australis,False,C\ Almogàvers,4.47,4.16,ok,,medium
+0027489AR,Platanus × acerifolia,True,C\ Tànger,12.82,5.25,ok,,large
+0027490AR,Grevillea robusta,False,C\ Almogàvers,,5.01,median,10.76,check
+0027491AR,Celtis australis,False,C\ Nàpols,4.79,4.4,ok,,medium
+0027492AR,Platanus × acerifolia,True,C\ Sardenya,9.84,8.79,ok,,large
+0027493AR,Gleditsia triacanthos 'sunburst',False,C\ Roc Boronat,,15.99,median,21.45,check
+0027494AR,Platanus × acerifolia,True,Av Diagonal,16.05,14.53,ok,,large
+0027495AR,Ligustrum lucidum,False,C\ Wellington,5.7,3.9,ok,,medium
+0027496AR,Platanus × acerifolia,True,C\ Buenaventura Muñoz,5.12,4.72,ok,,medium
+0027497AR,Platanus × acerifolia,True,C\ Llull,4.3,3.03,ok,,medium
+0027498AR,Celtis australis,False,Av Meridiana,9.45,8.22,ok,,large
+0027499AR,Platanus × acerifolia,True,C\ Bolívia,7.5,6.12,ok,,large
+0027500AR,Grevillea robusta,False,C\ Badajoz,14.88,14.68,ok,,large
+0027501AR,Platanus × acerifolia,True,Pg Pujades,10.93,7.47,ok,,large
+0027502AR,Platanus × acerifolia,True,C\ Àlaba,4.96,4.28,ok,,medium
+0027503AR,Celtis australis,False,C\ Almogàvers,18.93,4.31,ok,,large
+0027504AR,Platanus × acerifolia,True,Av Diagonal,5.09,3.87,ok,,medium
+0027505AR,Celtis australis,False,C\ Wellington,4.88,4.62,ok,,medium
+0027506AR,Platanus × acerifolia,True,C\ Joan d'Àustria,4.97,4.6,ok,,medium
+0027509AR,Gleditsia triacanthos,False,Av Meridiana,16.82,10.39,ok,,large
+0027510AR,Platanus × acerifolia,True,C\ Tànger,14.56,10.51,ok,,large
+0027511AR,Melia azedarach,False,C\ Marina,13.24,6.25,ok,,large
+0027512AR,Platanus × acerifolia,True,C\ Bolívia,4.53,2.92,ok,,medium
+0027514AR,Platanus × acerifolia,True,C\ Joan d'Àustria,9.27,7.41,ok,,large
+0027515AR,Platanus × acerifolia,True,Av Diagonal,8.57,6.55,ok,,large
+0027517AR,Brachychiton populneus,False,C\ Pere IV,14.64,12.48,ok,,large
+0027518AR,Platanus × acerifolia,True,C\ Bolívia,4.37,3.33,ok,,medium
+0027519AR,Platanus × acerifolia,True,C\ Wellington,,14.18,median,6.35,check
+0027520AR,Celtis australis,False,C\ Àvila,9.69,9.66,ok,,large
+0027521AR,Gleditsia triacanthos,False,C\ Sancho de Ávila,19.8,17.8,ok,,large
+0027522AR,Ligustrum lucidum,False,C\ Wellington,5.7,4.05,ok,,medium
+0027523AR,Brachychiton populneus,False,C\ Pujades,15.7,12.98,ok,,large
+0027525AR,Platanus × acerifolia,True,Av Diagonal,,30.76,no_facade,14.42,check
+0027526AR,Platanus × acerifolia,True,C\ Bolívia,9.41,4.35,ok,,large
+0027527AR,Gleditsia triacanthos,False,C\ Roc Boronat,5.47,4.6,ok,,medium
+0027528AR,Platanus × acerifolia,True,C\ Llull,4.33,3.7,ok,,medium
+0027529AR,Grevillea robusta,False,C\ Badajoz,,35.59,no_facade,,check
+0027530AR,Celtis australis,False,C\ Pujades,4.99,3.66,ok,,medium
+0027531AR,Platanus × acerifolia,True,C\ Pujades,11.6,11.4,ok,,large
+0027532AR,Celtis australis,False,C\ Sancho de Ávila,8.97,6.29,ok,,large
+0027533AR,Platanus × acerifolia,True,C\ Tànger,7.15,5.99,ok,,large
+0027534AR,Platanus × acerifolia,True,C\ Buenaventura Muñoz,5.1,4.65,ok,,medium
+0027535AR,Pinus pinea,False,Ctra Antiga de Mataró,,19.36,no_kerb,,check
+0027536AR,Platanus × acerifolia,True,C\ Ciutat de Granada,5.02,4.76,ok,,medium
+0027538AR,Gleditsia triacanthos f. inermis,False,C\ Pamplona,,14.45,median,10.13,check
+0027539AR,Grevillea robusta,False,C\ Badajoz,,20.29,median,,check
+0027540AR,Platanus × acerifolia,True,C\ Sancho de Ávila,4.98,4.58,ok,,medium
+0027541AR,Celtis australis,False,C\ Joan d'Àustria,,15.75,median,,check
+0027542AR,Melia azedarach,False,C\ Marina,14.75,5.42,ok,,large
+0027543AR,Platanus × acerifolia,True,C\ Llull,5.1,4.27,ok,,medium
+0027544AR,Grevillea robusta,False,C\ Almogàvers,4.8,3.02,ok,,medium
+0027545AR,Celtis australis,False,C\ Buenaventura Muñoz,5.12,4.72,ok,,medium
+0027546AR,Grevillea robusta,False,C\ Badajoz,,24.07,median,,check
+0027547AR,Melia azedarach,False,C\ Marina,14.69,5.34,ok,,large
+0027549AR,Platanus × acerifolia,True,C\ Ciutat de Granada,4.97,4.57,ok,,medium
+0027550AR,Pinus pinea,False,C\ Pujades,28.85,18.41,ok,,large
+0027552AR,Grevillea robusta,False,C\ Almogàvers,5.01,4.02,ok,,medium
+0027554AR,Grevillea robusta,False,C\ Almogàvers,5.0,4.14,ok,,medium
+0027555AR,Gleditsia triacanthos,False,C\ Roc Boronat,,16.22,median,,check
+0027556AR,Platanus × acerifolia,True,Av Diagonal,,19.06,median,14.27,check
+0027557AR,Platanus × acerifolia,True,C\ Sancho de Ávila,,27.93,median,14.9,check
+0027558AR,Platanus × acerifolia,True,Pg Pujades,,15.47,median,5.25,check
+0027559AR,Grevillea robusta,False,C\ Almogàvers,5.6,4.72,ok,,medium
+0027561AR,Platanus × acerifolia,True,C\ Buenaventura Muñoz,4.92,4.36,ok,,medium
+0027562AR,Platanus × acerifolia,True,C\ Nàpols,5.03,4.12,ok,,medium
+0027563AR,Gleditsia triacanthos,False,C\ Pamplona,4.71,3.46,ok,,medium
+0027564AR,Platanus × acerifolia,True,C\ Àvila,4.9,4.82,ok,,medium
+0027566AR,Gleditsia triacanthos,False,Av Meridiana,16.84,12.2,ok,,large
+0027567AR,Platanus × acerifolia,True,C\ Pujades,8.73,3.6,ok,,large
+0027568AR,Platanus × acerifolia,True,C\ Pujades,10.69,9.59,ok,,large
+0027569AR,Platanus × acerifolia,True,C\ Badajoz,8.32,7.78,ok,,large
+0027570AR,Platanus × acerifolia,True,C\ Llacuna,,15.97,median,,check
+0027571AR,Platanus × acerifolia,True,C\ Llull,,19.27,median,12.51,check
+0027572AR,Gleditsia triacanthos,False,C\ Sancho de Ávila,,17.98,median,10.03,check
+0027573AR,Celtis australis,False,C\ Sancho de Ávila,3.99,3.53,ok,,medium
+0027574AR,Celtis australis,False,C\ Zamora,,4.47,median,6.2,check
+0027575AR,Cercis siliquastrum,False,Av Meridiana,8.86,7.78,ok,,large
+0027576AR,Platanus × acerifolia,True,Av Diagonal,4.81,4.2,ok,,medium
+0027577AR,Celtis australis,False,C\ Almogàvers,10.75,10.25,ok,,large
+0027578AR,Platanus × acerifolia,True,C\ Llull,11.82,7.49,ok,,large
+0027579AR,Platanus × acerifolia,True,C\ Nàpols,4.83,4.17,ok,,medium
+0027580AR,Platanus × acerifolia,True,C\ Joan d'Àustria,5.04,3.88,ok,,medium
+0027581AR,Platanus × acerifolia,True,C\ Ciutat de Granada,4.94,4.7,ok,,medium
+0027582AR,Platanus × acerifolia,True,C\ Pallars,4.29,3.12,ok,,medium
+0027583AR,Platanus × acerifolia,True,Pg Pujades,11.29,6.97,ok,,large
+0027584AR,Brachychiton populneus,False,C\ Pere IV,15.21,11.64,ok,,large
+0027585AR,Gleditsia triacanthos,False,C\ Marina,,24.07,no_kerb,30.62,check
+0027586AR,Platanus × acerifolia,True,C\ Joan d'Àustria,5.09,5.2,ok,,medium
+0027587AR,Platanus × acerifolia,True,C\ Almogàvers,,15.0,median,5.44,check
+0027588AR,Pinus pinea,False,Ctra Antiga de Mataró,,28.38,median,,check
+0027589AR,Platanus × acerifolia,True,C\ Buenaventura Muñoz,4.68,4.02,ok,,medium
+0027590AR,Platanus × acerifolia,True,C\ Àvila,8.48,6.93,ok,,large
+0027591AR,Platanus × acerifolia,True,C\ Wellington,4.89,3.7,ok,,medium
+0027592AR,Platanus × acerifolia,True,Av Diagonal,,40.09,no_facade,4.73,check
+0027593AR,Platanus × acerifolia,True,C\ Llacuna,5.4,4.73,ok,,medium
+0027594AR,Platanus × acerifolia,True,C\ Pallars,4.63,4.11,ok,,medium
+0027595AR,Platanus × acerifolia,True,C\ Pamplona,4.89,4.06,ok,,medium
+0027596AR,Platanus × acerifolia,True,Av Diagonal,,32.97,no_facade,4.74,check
+0027597AR,Platanus × acerifolia,True,C\ Zamora,6.8,3.98,ok,,large
+0027598AR,Platanus × acerifolia,True,C\ Pallars,4.34,3.33,ok,,medium
+0027601AR,Platanus × acerifolia,True,C\ Sancho de Ávila,6.82,6.13,ok,,large
+0027602AR,Platanus × acerifolia,True,C\ Ciutat de Granada,4.93,5.11,ok,,medium
+0027603AR,Platanus × acerifolia,True,C\ Ciutat de Granada,5.08,4.02,ok,,medium
+0027604AR,Prunus cerasifera 'Pissardii',False,Av Meridiana,,31.91,no_facade,,check
+0027605AR,Platanus × acerifolia,True,C\ Ciutat de Granada,5.04,4.33,ok,,medium
+0027606AR,Platanus × acerifolia,True,C\ Ciutat de Granada,4.86,4.07,ok,,medium
+0027607AR,Melia azedarach,False,C\ Roger de Flor,5.03,4.67,ok,,medium
+0027608AR,Celtis sinensis,False,Av Meridiana,9.41,8.35,ok,,large
+0027609AR,Gleditsia triacanthos f. inermis,False,C\ Roc Boronat,5.02,3.94,ok,,medium
+0027612AR,Platanus × acerifolia,True,Av Meridiana,9.24,7.5,ok,,large
+0027613AR,Platanus × acerifolia,True,Av Meridiana,9.07,7.09,ok,,large
+0027614AR,Celtis australis,False,C\ Sardenya,4.95,4.7,ok,,medium
+0027615AR,Gleditsia triacanthos,False,C\ Bolívia,4.25,3.45,ok,,medium
+0027616AR,Gleditsia triacanthos,False,C\ Roc Boronat,5.02,4.03,ok,,medium
+0027617AR,Platanus × acerifolia,True,Av Diagonal,12.95,11.23,ok,,large
+0027618AR,Platanus × acerifolia,True,C\ Sardenya,5.63,3.97,ok,,medium
+0027619AR,Platanus × acerifolia,True,C\ Pamplona,5.15,4.07,ok,,medium
+0027620AR,Platanus × acerifolia,True,C\ Pamplona,4.93,3.81,ok,,medium
+0027621AR,Celtis occidentalis,False,Av Meridiana,9.18,7.97,ok,,large
+0027622AR,Gleditsia triacanthos f. inermis,False,C\ Bolívia,22.67,21.31,ok,,large
+0027623AR,Platanus × acerifolia,True,Av Diagonal,6.5,5.54,ok,,large
+0027625AR,Platanus × acerifolia,True,Pg Pujades,11.15,7.21,ok,,large
+0027626AR,Platanus × acerifolia,True,C\ Pujades,13.45,12.07,ok,,large
+0027627AR,Brachychiton populneus,False,C\ Pujades,10.98,8.31,ok,,large
+0027628AR,Tipuana tipu,False,Av Bogatell,,8.03,no_kerb,44.13,check
+0027631AR,Platanus × acerifolia,True,Av Diagonal,,18.99,median,14.77,check
+0027633AR,Grevillea robusta,False,C\ Almogàvers,,5.42,median,,check
+0027634AR,Tipuana tipu,False,Av Bogatell,,6.02,no_kerb,,check
+0027636AR,Platanus × acerifolia,True,C\ Sancho de Ávila,5.01,4.24,ok,,medium
+0027637AR,Melia azedarach,False,C\ Marina,,13.98,no_kerb,,check
+0027638AR,Platanus × acerifolia,True,C\ Wellington,,14.64,median,6.49,check
+0027639AR,Platanus × acerifolia,True,C\ Àvila,4.97,2.58,ok,,medium
+0027640AR,Platanus × acerifolia,True,C\ Badajoz,,11.74,median,5.18,check
+0027641AR,Pinus pinea,False,Ctra Antiga de Mataró,,10.83,no_kerb,,check
+0027643AR,Platanus × acerifolia,True,C\ Joan d'Àustria,5.08,5.13,ok,,medium
+0027644AR,Platanus × acerifolia,True,Pg Pujades,,15.22,median,4.83,check
+0027645AR,Platanus × acerifolia,True,Pg Pujades,10.96,6.8,ok,,large
+0027646AR,Platanus × acerifolia,True,C\ Sancho de Ávila,14.57,12.51,ok,,large
+0027647AR,Platanus × acerifolia,True,C\ Tànger,4.41,3.32,ok,,medium
+0027648AR,Gleditsia triacanthos f. inermis,False,C\ Pamplona,,14.07,median,10.12,check
+0027649AR,Platanus × acerifolia,True,Av Meridiana,,17.87,median,,check
+0027650AR,Platanus × acerifolia,True,C\ Pallars,4.58,3.71,ok,,medium
+0027651AR,Platanus × acerifolia,True,C\ Ciutat de Granada,4.99,4.28,ok,,medium
+0027652AR,Platanus × acerifolia,True,C\ Ciutat de Granada,4.82,3.3,ok,,medium
+0027653AR,Celtis australis,False,C\ Àlaba,5.21,3.95,ok,,medium
+0027655AR,Gleditsia triacanthos,False,C\ Tànger,16.25,15.18,ok,,large
+0027656AR,Pinus pinea,False,Ctra Antiga de Mataró,,14.36,no_kerb,,check
+0027657AR,Gleditsia triacanthos,False,C\ Bolívia,5.05,4.36,ok,,medium
+0027658AR,Celtis australis,False,C\ Bolívia,4.46,3.38,ok,,medium
+0027659AR,Platanus × acerifolia,True,C\ Àvila,3.99,2.89,ok,,medium
+0027660AR,Grevillea robusta,False,C\ Badajoz,,16.24,median,29.94,check
+0027661AR,Platanus × acerifolia,True,C\ Wellington,4.77,4.99,ok,,medium
+0027664AR,Celtis australis,False,C\ Àlaba,6.57,4.86,ok,,large
+0027665AR,Platanus × acerifolia,True,C\ Sancho de Ávila,4.85,3.24,ok,,medium
+0027666AR,Platanus × acerifolia,True,C\ Ciutat de Granada,5.05,3.99,ok,,medium
+0027668AR,Platanus × acerifolia,True,C\ Pallars,4.64,3.75,ok,,medium
+0027669AR,Celtis australis,False,C\ Àlaba,5.04,4.94,ok,,medium
+0027670AR,Platanus × acerifolia,True,C\ Bolívia,4.37,3.29,ok,,medium
+0027671AR,Platanus × acerifolia,True,C\ Àvila,,15.44,median,,check
+0027672AR,Grevillea robusta,False,C\ Almogàvers,6.56,3.64,ok,,large
+0027673AR,Platanus × acerifolia,True,Av Diagonal,4.73,4.24,ok,,medium
+0027675AR,Cupressus sempervirens,False,Ctra Antiga de Mataró,,21.48,no_kerb,,check
+0027677AR,Prunus cerasifera 'Pissardii',False,Av Meridiana,,31.88,no_facade,,check
+0027679AR,Platanus × acerifolia,True,Pg Pujades,,15.28,median,5.22,check
+0027680AR,Grevillea robusta,False,C\ Tànger,4.45,3.85,ok,,medium
+0027681AR,Celtis australis,False,C\ Bolívia,4.66,4.12,ok,,medium
+0027683AR,Celtis australis,False,C\ Buenaventura Muñoz,4.95,4.93,ok,,medium
+0027685AR,Celtis australis,False,C\ Sardenya,4.97,4.99,ok,,medium
+0027686AR,Platanus × acerifolia,True,C\ Almogàvers,,19.18,median,5.42,check
+0027687AR,Celtis australis,False,C\ Sardenya,12.34,9.38,ok,,large
+0027689AR,Gleditsia triacanthos,False,C\ Roc Boronat,,15.91,median,,check
+0027690AR,Platanus × acerifolia,True,Pg Pujades,,15.48,median,4.83,check
+0027691AR,Grevillea robusta,False,C\ Badajoz,,36.74,no_facade,,check
+0027694AR,Platanus × acerifolia,True,Av Diagonal,5.28,4.81,ok,,medium
+0027695AR,Grevillea robusta,False,C\ Badajoz,11.53,10.84,ok,,large
+0027698AR,Celtis australis,False,C\ Àlaba,5.39,4.5,ok,,medium
+0027699AR,Pinus pinea,False,C\ Pujades,,28.57,no_kerb,,check
+0027700AR,Melia azedarach,False,C\ Marina,14.21,4.33,ok,,large
+0027701AR,Gleditsia triacanthos,False,C\ Sancho de Ávila,,35.17,no_facade,,check
+0027702AR,Cupressus sempervirens,False,C\ Pujades,,31.21,no_facade,,check
+0027703AR,Platanus × acerifolia,True,Av Diagonal,,20.21,median,14.53,check
+0027704AR,Melia azedarach,False,C\ Sardenya,5.14,4.44,ok,,medium
+0027705AR,Celtis australis,False,C\ Àlaba,5.2,3.99,ok,,medium
+0027706AR,Platanus × acerifolia,True,C\ Pallars,4.63,3.94,ok,,medium
+0027707AR,Platanus × acerifolia,True,Av Diagonal,,23.95,median,14.46,check
+0027709AR,Platanus × acerifolia,True,C\ Pallars,3.62,2.88,ok,,medium
+0027711AR,Platanus × acerifolia,True,C\ Pujades,16.75,7.24,ok,,large
+0027712AR,Platanus × acerifolia,True,Av Diagonal,,18.9,median,14.72,check
+0027713AR,Platanus × acerifolia,True,C\ Pamplona,5.0,4.22,ok,,medium
+0027714AR,Grevillea robusta,False,C\ Badajoz,,29.11,median,,check
+0027716AR,Gleditsia triacanthos,False,C\ Sancho de Ávila,,16.11,median,,check
+0027717AR,Cupressus sempervirens,False,C\ Marina,,24.74,median,25.49,check
+0027718AR,Grevillea robusta,False,C\ Badajoz,9.48,9.39,ok,,large
+0027719AR,Platanus × acerifolia,True,Av Diagonal,4.7,4.24,ok,,medium
+0027720AR,Platanus × acerifolia,True,C\ Llacuna,,14.94,median,,check
+0027721AR,Gleditsia triacanthos f. inermis,False,C\ Pujades,4.8,3.21,ok,,medium
+0027722AR,Platanus × acerifolia,True,C\ Pamplona,,29.04,median,,check
+0027723AR,Platanus × acerifolia,True,C\ Joan d'Àustria,4.98,5.1,ok,,medium
+0027724AR,Grevillea robusta,False,C\ Tànger,6.66,5.73,ok,,large
+0027725AR,Ulmus pumila,False,Av Meridiana,9.35,2.49,ok,,large
+0027726AR,Platanus × acerifolia,True,C\ Llacuna,,9.07,median,5.31,check
+0027727AR,Gleditsia triacanthos,False,Av Meridiana,17.17,9.86,ok,,large
+0027728AR,Pinus pinea,False,Ctra Antiga de Mataró,,32.0,no_facade,,check
+0027729AR,Gleditsia triacanthos f. inermis,False,C\ Sancho de Ávila,,9.55,median,,check
+0027730AR,Platanus × acerifolia,True,C\ Llull,4.79,3.27,ok,,medium
+0027731AR,Gleditsia triacanthos,False,C\ Sancho de Ávila,5.04,4.33,ok,,medium
+0027732AR,Platanus × acerifolia,True,Av Diagonal,,18.7,median,14.29,check
+0027733AR,Platanus × acerifolia,True,C\ Àvila,4.77,2.23,ok,,medium
+0027734AR,Platanus × acerifolia,True,C\ Àvila,5.02,4.73,ok,,medium
+0027735AR,Platanus × acerifolia,True,C\ Pallars,16.35,14.79,ok,,large
+0027737AR,Celtis australis,False,C\ Bolívia,10.45,9.3,ok,,large
+0027738AR,Celtis australis,False,C\ Buenaventura Muñoz,5.03,5.27,ok,,medium
+0027739AR,Platanus × acerifolia,True,C\ Ciutat de Granada,,5.17,no_kerb,,check
+0027740AR,Platanus × acerifolia,True,C\ Pujades,,22.17,median,,check
+0027741AR,Gleditsia triacanthos,False,C\ Roc Boronat,4.97,3.76,ok,,medium
+0027742AR,Brachychiton populneus,False,C\ Pujades,16.69,13.09,ok,,large
+0027743AR,Platanus × acerifolia,True,C\ Pamplona,5.13,4.28,ok,,medium
+0027744AR,Platanus × acerifolia,True,Av Meridiana,9.14,7.37,ok,,large
+0027746AR,Gleditsia triacanthos,False,Av Meridiana,17.18,12.19,ok,,large
+0027747AR,Platanus × acerifolia,True,Av Diagonal,,29.04,median,14.27,check
+0027748AR,Grevillea robusta,False,C\ Almogàvers,4.9,3.16,ok,,medium
+0027749AR,Gleditsia triacanthos,False,C\ Bolívia,13.33,11.95,ok,,large
+0027750AR,Gleditsia triacanthos f. inermis,False,C\ Pujades,,26.93,no_kerb,,check
+0027751AR,Celtis australis,False,C\ Àlaba,7.38,4.87,ok,,large
+0027752AR,Gleditsia triacanthos,False,C\ Sancho de Ávila,,32.47,no_facade,,check
+0027754AR,Celtis australis,False,C\ Àlaba,5.22,2.46,ok,,medium
+0027755AR,Platanus × acerifolia,True,Av Diagonal,,18.84,median,14.46,check
+0027756AR,Celtis australis,False,C\ Almogàvers,5.22,4.99,ok,,medium
+0027757AR,Platanus × acerifolia,True,C\ Pallars,4.6,3.48,ok,,medium
+0027758AR,Platanus × acerifolia,True,Pg Pujades,11.18,6.97,ok,,large
+0027759AR,Melia azedarach,False,C\ Marina,12.55,9.06,ok,,large
+0027760AR,Platanus × acerifolia,True,C\ Nàpols,4.89,4.63,ok,,medium
+0027761AR,Platanus × acerifolia,True,Av Diagonal,4.85,4.47,ok,,medium
+0027762AR,Celtis australis,False,Av Meridiana,9.23,2.48,ok,,large
+0027763AR,Platanus × acerifolia,True,C\ Buenaventura Muñoz,5.22,4.52,ok,,medium
+0027764AR,Celtis australis,False,C\ Bolívia,4.92,2.65,ok,,medium
+0027766AR,Platanus × acerifolia,True,C\ Wellington,,14.32,median,6.35,check
+0027767AR,Platanus × acerifolia,True,C\ Sancho de Ávila,,15.72,median,5.06,check
+0027769AR,Platanus × acerifolia,True,Av Diagonal,7.14,5.96,ok,,large
+0027770AR,Celtis australis,False,C\ Àlaba,7.28,4.5,ok,,large
+0027771AR,Platanus × acerifolia,True,C\ Pallars,4.91,4.74,ok,,medium
+0027772AR,Platanus × acerifolia,True,Av Diagonal,,19.28,median,14.46,check
+0027773AR,Platanus × acerifolia,True,Pg Pujades,,15.3,median,4.83,check
+0027774AR,Platanus × acerifolia,True,C\ Ciutat de Granada,4.93,4.0,ok,,medium
+0027775AR,Celtis australis,False,C\ Nàpols,4.96,4.18,ok,,medium
+0027777AR,Platanus × acerifolia,True,C\ Àvila,4.05,2.86,ok,,medium
+0027778AR,Platanus × acerifolia,True,C\ Àlaba,4.9,4.86,ok,,medium
+0027779AR,Gleditsia triacanthos,False,C\ Sancho de Ávila,,22.65,median,,check
+0027780AR,Platanus × acerifolia,True,C\ Pujades,,24.85,median,,check
+0027781AR,Platanus × acerifolia,True,C\ Almogàvers,,19.2,median,5.42,check
+0027782AR,Platanus × acerifolia,True,C\ Nàpols,4.86,4.65,ok,,medium
+0027783AR,Melia azedarach,False,C\ Buenaventura Muñoz,4.88,4.39,ok,,medium
+0027784AR,Grevillea robusta,False,C\ Tànger,4.59,3.98,ok,,medium
+0027785AR,Platanus × acerifolia,True,C\ Sancho de Ávila,3.06,4.05,ok,,small
+0027786AR,Platanus × acerifolia,True,C\ Bolívia,4.35,3.31,ok,,medium
+0027787AR,Grevillea robusta,False,C\ Tànger,4.61,4.03,ok,,medium
+0027788AR,Gleditsia triacanthos 'sunburst',False,C\ Roc Boronat,4.86,3.81,ok,,medium
+0027790AR,Grevillea robusta,False,C\ Almogàvers,4.85,3.22,ok,,medium
+0027791AR,Grevillea robusta,False,C\ Tànger,3.85,2.92,ok,,medium
+0027792AR,Platanus × acerifolia,True,C\ Pujades,11.28,10.41,ok,,large
+0027794AR,Platanus × acerifolia,True,C\ Àvila,5.14,4.76,ok,,medium
+0027795AR,Platanus × acerifolia,True,Av Diagonal,,19.2,median,14.39,check
+0027796AR,Grevillea robusta,False,C\ Tànger,,19.09,median,,check
+0027797AR,Platanus × acerifolia,True,Av Meridiana,16.76,6.91,ok,,large
+0027798AR,Platanus × acerifolia,True,Pg Pujades,15.94,14.53,ok,,large
+0027799AR,Platanus × acerifolia,True,C\ Llull,12.24,8.5,ok,,large
+0027801AR,Tipuana tipu,False,Av Bogatell,,5.88,no_kerb,,check
+0027802AR,Brachychiton populneus,False,C\ Pere IV,15.13,13.01,ok,,large
+0027803AR,Brachychiton populneus,False,C\ Pere IV,11.1,8.63,ok,,large
+0027804AR,Grevillea robusta,False,C\ Badajoz,,37.64,no_facade,,check
+0027805AR,Platanus × acerifolia,True,Av Meridiana,9.55,6.99,ok,,large
+0027806AR,Platanus × acerifolia,True,Av Meridiana,16.78,6.94,ok,,large
+0027807AR,Platanus × acerifolia,True,C\ Ciutat de Granada,4.93,3.81,ok,,medium
+0027808AR,Celtis australis,False,C\ Buenaventura Muñoz,4.89,4.4,ok,,medium
+0027809AR,Gleditsia triacanthos,False,C\ Sancho de Ávila,5.07,4.4,ok,,medium
+0027810AR,Grevillea robusta,False,C\ Tànger,,15.79,median,4.41,check
+0027811AR,Gleditsia triacanthos,False,C\ Sancho de Ávila,,5.7,median,4.97,check
+0027812AR,Platanus × acerifolia,True,C\ Buenaventura Muñoz,5.09,4.56,ok,,medium
+0027813AR,Pinus pinea,False,Ctra Antiga de Mataró,,26.0,no_kerb,,check
+0027815AR,Platanus × acerifolia,True,C\ Pallars,7.23,4.25,ok,,large
+0027816AR,Pinus pinea,False,Ctra Antiga de Mataró,,22.52,no_kerb,,check
+0027817AR,Platanus × acerifolia,True,C\ Badajoz,4.91,3.86,ok,,medium
+0027818AR,Platanus × acerifolia,True,C\ Sancho de Ávila,4.69,1.08,ok,,medium
+0027821AR,Platanus × acerifolia,True,C\ Almogàvers,4.83,4.06,ok,,medium
+0027822AR,Platanus × acerifolia,True,C\ Llull,5.57,4.77,ok,,medium
+0027823AR,Pinus pinea,False,Ctra Antiga de Mataró,,14.17,no_kerb,,check
+0027824AR,Gleditsia triacanthos,False,C\ Roc Boronat,5.26,3.99,ok,,medium
+0027826AR,Gleditsia triacanthos,False,C\ Tànger,7.23,6.1,ok,,large
+0027827AR,Platanus × acerifolia,True,C\ Pujades,4.68,3.5,ok,,medium
+0027828AR,Platanus × acerifolia,True,C\ Llull,24.99,24.68,ok,,large
+0027829AR,Platanus × acerifolia,True,C\ Pallars,4.01,3.33,ok,,medium
+0027830AR,Platanus × acerifolia,True,Av Meridiana,8.73,7.19,ok,,large
+0027832AR,Platanus × acerifolia,True,C\ Llacuna,18.94,11.48,ok,,large
+0027833AR,Platanus × acerifolia,True,C\ Joan d'Àustria,4.96,5.39,ok,,medium
+0027834AR,Platanus × acerifolia,True,C\ Pallars,4.8,3.87,ok,,medium
+0027835AR,Platanus × acerifolia,True,C\ Zamora,4.97,4.88,ok,,medium
+0027836AR,Grevillea robusta,False,C\ Tànger,,18.69,median,,check
+0027837AR,Platanus × acerifolia,True,Av Meridiana,8.97,7.03,ok,,large
+0027838AR,Celtis australis,False,C\ Àlaba,6.96,5.45,ok,,large
+0027839AR,Gleditsia triacanthos,False,C\ Roc Boronat,,15.85,median,,check
+0027840AR,Platanus × acerifolia,True,C\ Pujades,8.46,4.32,ok,,large
+0027841AR,Melia azedarach,False,C\ Marina,13.18,6.03,ok,,large
+0027842AR,Melia azedarach,False,C\ Marina,14.03,5.05,ok,,large
+0027843AR,Platanus × acerifolia,True,C\ Zamora,4.95,5.08,ok,,medium
+0027844AR,Grevillea robusta,False,C\ Tànger,6.94,5.8,ok,,large
+0027845AR,Pinus pinea,False,C\ Pujades,,22.51,no_kerb,,check
+0027846AR,Grevillea robusta,False,C\ Tànger,4.58,3.92,ok,,medium
+0027847AR,Gleditsia triacanthos,False,C\ Roc Boronat,5.22,4.32,ok,,medium
+0027849AR,Grevillea robusta,False,C\ Badajoz,4.95,4.65,ok,,medium
+0027850AR,Pinus pinea,False,Ctra Antiga de Mataró,,15.89,no_kerb,,check
+0027851AR,Gleditsia triacanthos f. inermis,False,C\ Roc Boronat,,15.91,median,24.72,check
+0027852AR,Gleditsia triacanthos 'sunburst',False,C\ Roc Boronat,,16.09,median,6.89,check
+0027853AR,Platanus × acerifolia,True,C\ Ciutat de Granada,4.95,4.19,ok,,medium
+0027854AR,Platanus × acerifolia,True,C\ Àlaba,4.9,4.74,ok,,medium
+0027855AR,Platanus × acerifolia,True,C\ Joan d'Àustria,,15.9,median,,check
+0027857AR,Celtis australis,False,C\ Buenaventura Muñoz,4.76,4.37,ok,,medium
+0027858AR,Ligustrum lucidum,False,C\ Wellington,5.7,4.06,ok,,medium
+0027859AR,Platanus × acerifolia,True,C\ Ciutat de Granada,4.96,4.86,ok,,medium
+0027860AR,Gleditsia triacanthos f. inermis,False,C\ Pamplona,4.95,4.09,ok,,medium
+0027861AR,Platanus × acerifolia,True,C\ Llull,4.89,2.24,ok,,medium
+0027862AR,Platanus × acerifolia,True,C\ Buenaventura Muñoz,4.93,4.85,ok,,medium
+0027863AR,Grevillea robusta,False,C\ Badajoz,24.03,22.64,ok,,large
+0027864AR,Platanus × acerifolia,True,C\ Bolívia,12.9,9.25,ok,,large
+0027865AR,Platanus × acerifolia,True,C\ Tànger,17.32,3.4,ok,,large
+0027866AR,Gleditsia triacanthos f. inermis,False,C\ Pujades,,20.87,median,,check
+0027868AR,Platanus × acerifolia,True,C\ Nàpols,4.94,4.82,ok,,medium
+0027869AR,Ulmus pumila,False,C\ Marina,,24.61,median,25.46,check
+0027870AR,Gleditsia triacanthos f. inermis,False,Av Meridiana,,21.04,median,15.94,check
+0027871AR,Platanus × acerifolia,True,C\ Pallars,4.47,3.8,ok,,medium
+0027873AR,Platanus × acerifolia,True,C\ Ciutat de Granada,5.02,5.16,ok,,medium
+0027876AR,Platanus × acerifolia,True,C\ Zamora,11.01,4.26,ok,,large
+0027878AR,Platanus × acerifolia,True,C\ Joan d'Àustria,4.92,4.24,ok,,medium
+0027881AR,Platanus × acerifolia,True,C\ Pujades,,21.23,median,,check
+0027883AR,Platanus × acerifolia,True,C\ Pallars,4.22,3.39,ok,,medium
+0027884AR,Celtis australis,False,Av Meridiana,9.29,8.15,ok,,large
+0027885AR,Platanus × acerifolia,True,C\ Llull,,16.58,median,9.27,check
+0027886AR,Platanus × acerifolia,True,C\ Pujades,8.05,5.12,ok,,large
+0027887AR,Platanus × acerifolia,True,Pg Pujades,16.03,7.2,ok,,large
+0027888AR,Platanus × acerifolia,True,Av Diagonal,,24.16,median,14.27,check
+0027889AR,Gleditsia triacanthos,False,C\ Sancho de Ávila,4.76,3.94,ok,,medium
+0027890AR,Gleditsia triacanthos,False,C\ Sancho de Ávila,20.41,20.17,ok,,large
+0027893AR,Grevillea robusta,False,C\ Badajoz,4.89,3.32,ok,,medium
+0027894AR,Platanus × acerifolia,True,C\ Bolívia,6.39,5.04,ok,,large
+0027895AR,Platanus × acerifolia,True,C\ Buenaventura Muñoz,4.92,4.72,ok,,medium
+0027896AR,Platanus × acerifolia,True,C\ Llacuna,20.4,11.26,ok,,large
+0027897AR,Platanus × acerifolia,True,Av Diagonal,,18.82,median,14.33,check
+0027898AR,Platanus × acerifolia,True,C\ Pamplona,,14.19,median,10.12,check
+0027901AR,Ligustrum lucidum,False,C\ Wellington,5.7,4.08,ok,,medium
+0027902AR,Celtis australis,False,C\ Àlaba,7.32,4.77,ok,,large
+0027903AR,Platanus × acerifolia,True,C\ Ciutat de Granada,,3.76,no_kerb,14.86,check
+0027904AR,Platanus × acerifolia,True,Av Diagonal,,19.29,median,14.34,check
+0027905AR,Gleditsia triacanthos,False,C\ Roc Boronat,,16.01,median,7.69,check
+0027906AR,Platanus × acerifolia,True,C\ Joan d'Àustria,5.01,4.94,ok,,medium
+0027907AR,Platanus × acerifolia,True,Av Diagonal,18.96,14.93,ok,,large
+0027908AR,Celtis australis,False,C\ Almogàvers,7.2,5.22,ok,,large
+0027909AR,Platanus × acerifolia,True,C\ Sancho de Ávila,4.73,1.24,ok,,medium
+0027910AR,Platanus × acerifolia,True,Av Diagonal,25.28,21.35,ok,,large
+0027911AR,Celtis australis,False,C\ Pamplona,12.85,10.92,ok,,large
+0027912AR,Platanus × acerifolia,True,C\ Àvila,,6.26,median,4.88,check
+0027913AR,Celtis australis,False,C\ Bolívia,17.45,15.13,ok,,large
+0027915AR,Platanus × acerifolia,True,C\ Àvila,,18.1,median,,check
+0027916AR,Platanus × acerifolia,True,C\ Sancho de Ávila,,16.01,median,,check
+0027917AR,Grevillea robusta,False,C\ Almogàvers,5.2,4.74,ok,,medium
+0027918AR,Platanus × acerifolia,True,C\ Llacuna,,16.92,median,,check
+0027919AR,Platanus × acerifolia,True,C\ Ciutat de Granada,5.32,4.15,ok,,medium
+0027920AR,Platanus × acerifolia,True,C\ Llull,5.1,4.44,ok,,medium
+0027921AR,Gleditsia triacanthos f. inermis,False,C\ Roc Boronat,4.92,3.89,ok,,medium
+0027922AR,Gleditsia triacanthos,False,Av Meridiana,17.17,9.12,ok,,large
+0027923AR,Platanus × acerifolia,True,C\ Pujades,6.61,5.21,ok,,large
+0027924AR,Grevillea robusta,False,C\ Badajoz,,8.62,median,10.82,check
+0027925AR,Platanus × acerifolia,True,Av Diagonal,,19.07,median,14.5,check
+0027927AR,Celtis australis,False,C\ Bolívia,4.37,3.06,ok,,medium
+0027928AR,Brachychiton populneus,False,C\ Pere IV,15.24,13.25,ok,,large
+0027929AR,Gleditsia triacanthos,False,C\ Sancho de Ávila,,21.3,median,,check
+0027930AR,Platanus × acerifolia,True,Pg Pujades,10.75,6.98,ok,,large
+0027931AR,Platanus × acerifolia,True,C\ Tànger,6.08,3.59,ok,,large
+0027932AR,Platanus × acerifolia,True,C\ Zamora,23.57,10.68,ok,,large
+0027933AR,Celtis australis,False,C\ Bolívia,4.46,3.64,ok,,medium
+0027934AR,Celtis australis,False,C\ Joan d'Àustria,,10.26,median,4.33,check
+0027935AR,Platanus × acerifolia,True,C\ Llacuna,,22.72,median,,check
+0027936AR,Prunus cerasifera 'Pissardii',False,Av Meridiana,,33.14,no_facade,27.19,check
+0027937AR,Gleditsia triacanthos,False,C\ Sancho de Ávila,4.86,4.01,ok,,medium
+0027938AR,Celtis sinensis,False,Av Meridiana,11.4,9.82,ok,,large
+0027939AR,Celtis australis,False,C\ Àlaba,4.91,5.14,ok,,medium
+0027940AR,Gleditsia triacanthos,False,C\ Sancho de Ávila,16.21,14.35,ok,,large
+0027941AR,Platanus × acerifolia,True,Av Diagonal,,46.42,no_facade,1.52,check
+0027942AR,Gleditsia triacanthos,False,C\ Roc Boronat,,15.67,median,,check
+0027944AR,Gleditsia triacanthos,False,Av Meridiana,17.52,12.35,ok,,large
+0027946AR,Gleditsia triacanthos f. inermis,False,Av Meridiana,17.26,6.67,ok,,large
+0027947AR,Platanus × acerifolia,True,C\ Ciutat de Granada,4.94,3.86,ok,,medium
+0027948AR,Melia azedarach,False,C\ Marina,10.84,4.29,ok,,large
+0027949AR,Platanus × acerifolia,True,C\ Zamora,4.24,4.65,ok,,medium
+0027950AR,Grevillea robusta,False,C\ Tànger,4.7,3.44,ok,,medium
+0027951AR,Platanus × acerifolia,True,Av Diagonal,5.26,4.36,ok,,medium
+0027952AR,Platanus × acerifolia,True,C\ Ciutat de Granada,4.85,4.05,ok,,medium
+0027954AR,Platanus × acerifolia,True,C\ Ciutat de Granada,6.16,4.93,ok,,large
+0027955AR,Gleditsia triacanthos,False,C\ Roc Boronat,5.05,4.05,ok,,medium
+0027956AR,Platanus × acerifolia,True,C\ Zamora,11.86,12.75,ok,,large
+0027957AR,Grevillea robusta,False,C\ Badajoz,4.32,4.98,ok,,medium
+0027958AR,Platanus × acerifolia,True,C\ Sancho de Ávila,6.76,5.55,ok,,large
+0027959AR,Platanus × acerifolia,True,C\ Pamplona,,15.93,median,5.12,check
+0027960AR,Platanus × acerifolia,True,C\ Buenaventura Muñoz,4.84,4.62,ok,,medium
+0027961AR,Platanus × acerifolia,True,C\ Pallars,4.2,3.5,ok,,medium
+0027962AR,Platanus × acerifolia,True,C\ Llull,,17.43,median,,check
+0027963AR,Platanus × acerifolia,True,C\ Sancho de Ávila,24.86,19.9,ok,,large
+0027964AR,Ligustrum lucidum,False,C\ Wellington,5.7,3.95,ok,,medium
+0027965AR,Platanus × acerifolia,True,C\ Bolívia,12.54,3.78,ok,,large
+0027966AR,Celtis australis,False,C\ Buenaventura Muñoz,4.82,4.91,ok,,medium
+0027967AR,Platanus × acerifolia,True,Av Meridiana,16.84,6.85,ok,,large
+0027969AR,Melia azedarach,False,C\ Marina,12.35,5.4,ok,,large
+0027970AR,Platanus × acerifolia,True,Av Diagonal,,18.8,median,14.4,check
+0027971AR,Platanus × acerifolia,True,Av Diagonal,4.8,4.2,ok,,medium
+0027972AR,Platanus × acerifolia,True,C\ Joan d'Àustria,5.1,5.27,ok,,medium
+0027973AR,Platanus × acerifolia,True,C\ Pujades,16.54,7.0,ok,,large
+0027974AR,Gleditsia triacanthos,False,C\ Roc Boronat,5.08,4.14,ok,,medium
+0027975AR,Platanus × acerifolia,True,C\ Pallars,4.5,2.81,ok,,medium
+0027976AR,Platanus × acerifolia,True,C\ Pamplona,4.99,4.47,ok,,medium
+0027977AR,Ligustrum lucidum,False,C\ Wellington,5.7,4.03,ok,,medium
+0027978AR,Platanus × acerifolia,True,C\ Pujades,10.51,5.64,ok,,large
+0027979AR,Pinus pinea,False,C\ Pujades,,18.27,no_kerb,,check
+0027980AR,Platanus × acerifolia,True,C\ Àvila,4.08,3.03,ok,,medium
+0027981AR,Grevillea robusta,False,C\ Tànger,5.93,4.66,ok,,medium
+0027982AR,Celtis sinensis,False,Av Meridiana,9.31,8.15,ok,,large
+0027983AR,Platanus × acerifolia,True,C\ Zamora,4.92,3.46,ok,,medium
+0027984AR,Gleditsia triacanthos,False,C\ Bolívia,4.26,3.4,ok,,medium
+0027985AR,Gleditsia triacanthos,False,C\ Roc Boronat,5.02,4.15,ok,,medium
+0027986AR,Platanus × acerifolia,True,C\ Àvila,4.79,2.19,ok,,medium
+0027987AR,Gleditsia triacanthos,False,C\ Almogàvers,18.95,5.14,ok,,large
+0027989AR,Pinus pinea,False,C\ Pujades,,23.53,no_kerb,,check
+0027990AR,Platanus × acerifolia,True,C\ Joan d'Àustria,5.04,4.1,ok,,medium
+0027991AR,Brachychiton populneus,False,C\ Pujades,16.38,14.03,ok,,large
+0027992AR,Platanus × acerifolia,True,C\ Ciutat de Granada,4.95,3.94,ok,,medium
+0027993AR,Grevillea robusta,False,C\ Badajoz,4.79,4.04,ok,,medium
+0027994AR,Platanus × acerifolia,True,C\ Àvila,5.13,3.77,ok,,medium
+0027995AR,Platanus × acerifolia,True,C\ Sardenya,18.83,8.95,ok,,large
+0027996AR,Gleditsia triacanthos,False,C\ Roc Boronat,,16.27,median,,check
+0027997AR,Gleditsia triacanthos,False,C\ Roc Boronat,5.03,4.49,ok,,medium
+0027998AR,Platanus × acerifolia,True,C\ Llacuna,,9.01,median,5.36,check
+0027999AR,Gleditsia triacanthos,False,C\ Sancho de Ávila,,19.59,median,,check
+0028000AR,Cupressus sempervirens,False,C\ Pujades,,13.93,no_kerb,,check
+0028002AR,Platanus × acerifolia,True,C\ Nàpols,5.33,5.41,ok,,medium
+0028003AR,Ficus benjamina,False,Pg Pujades,16.55,7.98,ok,,large
+0028004AR,Gleditsia triacanthos,False,C\ Sancho de Ávila,10.03,8.46,ok,,large
+0028005AR,Platanus × acerifolia,True,C\ Bolívia,13.75,3.91,ok,,large
+0028008AR,Celtis australis,False,Av Meridiana,,36.56,no_facade,12.81,check
+0028009AR,Platanus × acerifolia,True,Av Meridiana,18.3,16.07,ok,,large
+0028010AR,Platanus × acerifolia,True,C\ Pujades,11.85,7.02,ok,,large
+0028011AR,Gleditsia triacanthos,False,Av Meridiana,16.78,10.82,ok,,large
+0028012AR,Grevillea robusta,False,C\ Almogàvers,4.89,4.07,ok,,medium
+0028014AR,Grevillea robusta,False,C\ Almogàvers,4.94,3.53,ok,,medium
+0028015AR,Celtis australis,False,C\ Sancho de Ávila,,15.37,median,11.95,check
+0028019AR,Platanus × acerifolia,True,C\ Nàpols,4.81,4.87,ok,,medium
+0028021AR,Celtis australis,False,C\ Wellington,4.76,5.01,ok,,medium
+0028022AR,Platanus × acerifolia,True,Av Diagonal,,19.29,median,14.36,check
+0028023AR,Platanus × acerifolia,True,C\ Pujades,8.98,4.67,ok,,large
+0028024AR,Platanus × acerifolia,True,Av Meridiana,17.86,7.33,ok,,large
+0028025AR,Gleditsia triacanthos,False,C\ Pamplona,4.15,3.38,ok,,medium
+0028027AR,Grevillea robusta,False,C\ Badajoz,4.99,4.41,ok,,medium
+0028028AR,Brachychiton populneus,False,C\ Pere IV,14.9,11.71,ok,,large
+0028030AR,Celtis australis,False,C\ Pujades,11.35,5.73,ok,,large
+0028031AR,Platanus × acerifolia,True,Av Meridiana,27.63,11.67,ok,,large
+0028032AR,Platanus × acerifolia,True,C\ Àvila,7.46,5.12,ok,,large
+0028033AR,Gleditsia triacanthos,False,Av Meridiana,16.7,10.37,ok,,large
+0028035AR,Melia azedarach,False,C\ Marina,12.35,5.2,ok,,large
+0028036AR,Grevillea robusta,False,C\ Badajoz,4.78,5.12,ok,,medium
+0028037AR,Celtis australis,False,C\ Almogàvers,,14.93,median,,check
+0028039AR,Gleditsia triacanthos,False,C\ Sancho de Ávila,18.8,9.7,ok,,large
+0028040AR,Platanus × acerifolia,True,Av Diagonal,,19.13,median,14.3,check
+0028041AR,Gleditsia triacanthos f. inermis,False,C\ Pujades,3.16,3.02,ok,,small
+0028042AR,Gleditsia triacanthos,False,C\ Almogàvers,15.24,5.68,ok,,large
+0028043AR,Platanus × acerifolia,True,C\ Àvila,4.85,4.58,ok,,medium
+0028044AR,Gleditsia triacanthos,False,C\ Sancho de Ávila,5.31,4.55,ok,,medium
+0028045AR,Grevillea robusta,False,C\ Badajoz,4.76,4.4,ok,,medium
+0028046AR,Platanus × acerifolia,True,C\ Almogàvers,6.57,5.74,ok,,large
+0028047AR,Pinus pinea,False,C\ Pujades,,18.42,no_kerb,,check
+0028048AR,Platanus × acerifolia,True,Pg Pujades,,15.52,median,4.83,check
+0028049AR,Platanus × acerifolia,True,C\ Joan d'Àustria,15.48,5.12,ok,,large
+0028050AR,Gleditsia triacanthos,False,Av Meridiana,16.72,10.82,ok,,large
+0028051AR,Platanus × acerifolia,True,C\ Llull,,32.96,no_facade,15.49,check
+0028052AR,Platanus × acerifolia,True,C\ Àvila,4.92,4.69,ok,,medium
+0028053AR,Platanus × acerifolia,True,C\ Ciutat de Granada,5.03,4.43,ok,,medium
+0028054AR,Gleditsia triacanthos f. inermis,False,C\ Nàpols,4.95,4.39,ok,,medium
+0028055AR,Platanus × acerifolia,True,C\ Àvila,4.95,3.51,ok,,medium
+0028056AR,Platanus × acerifolia,True,C\ Buenaventura Muñoz,5.09,4.36,ok,,medium
+0028057AR,Gleditsia triacanthos,False,C\ Roc Boronat,5.02,4.33,ok,,medium
+0028058AR,Gleditsia triacanthos,False,C\ Roc Boronat,5.01,3.73,ok,,medium
+0028059AR,Platanus × acerifolia,True,Av Diagonal,5.07,3.79,ok,,medium
+0028060AR,Platanus × acerifolia,True,C\ Àvila,4.69,4.62,ok,,medium
+0028062AR,Gleditsia triacanthos,False,C\ Tànger,7.23,6.13,ok,,large
+0028063AR,Platanus × acerifolia,True,C\ Wellington,4.67,3.81,ok,,medium
+0028064AR,Platanus × acerifolia,True,C\ Joan d'Àustria,,16.01,median,,check
+0028065AR,Grevillea robusta,False,C\ Almogàvers,4.44,3.27,ok,,medium
+0028066AR,Platanus × acerifolia,True,C\ Àvila,4.93,4.66,ok,,medium
+0028067AR,Celtis australis,False,C\ Sardenya,4.96,4.37,ok,,medium
+0028068AR,Platanus × acerifolia,True,C\ Àvila,4.01,2.74,ok,,medium
+0028069AR,Brachychiton populneus,False,C\ Pujades,16.28,13.93,ok,,large
+0028070AR,Platanus × acerifolia,True,C\ Sancho de Ávila,4.76,1.4,ok,,medium
+0028072AR,Platanus × acerifolia,True,C\ Pallars,5.2,3.79,ok,,medium
+0028073AR,Platanus × acerifolia,True,C\ Llacuna,,15.95,median,,check
+0028074AR,Gleditsia triacanthos 'skyline',False,C\ Sancho de Ávila,,15.79,median,,check
+0028075AR,Platanus × acerifolia,True,C\ Llacuna,,15.96,median,,check
+0028076AR,Platanus × acerifolia,True,Av Meridiana,16.63,6.76,ok,,large
+0028077AR,Melia azedarach,False,C\ Buenaventura Muñoz,9.77,8.08,ok,,large
+0028078AR,Platanus × acerifolia,True,C\ Àvila,3.83,4.05,ok,,medium
+0028079AR,Gleditsia triacanthos,False,C\ Bolívia,4.97,4.21,ok,,medium
+0028081AR,Celtis australis,False,C\ Buenaventura Muñoz,5.01,4.43,ok,,medium
+0028082AR,Gleditsia triacanthos f. inermis,False,C\ Pujades,4.79,2.72,ok,,medium
+0028083AR,Gleditsia triacanthos,False,C\ Pamplona,,16.49,median,,check
+0028084AR,Platanus × acerifolia,True,C\ Ciutat de Granada,20.99,3.77,ok,,large
+0028085AR,Gleditsia triacanthos,False,Av Meridiana,17.26,10.53,ok,,large
+0028086AR,Grevillea robusta,False,C\ Tànger,4.46,4.9,ok,,medium
+0028087AR,Tipuana tipu,False,C\ Sancho de Ávila,,18.72,median,20.08,check
+0028088AR,Platanus × acerifolia,True,C\ Zamora,,14.33,median,10.11,check
+0028089AR,Celtis australis,False,C\ Àlaba,5.07,5.06,ok,,medium
+0028090AR,Platanus × acerifolia,True,C\ Pamplona,4.86,3.9,ok,,medium
+0028091AR,Platanus × acerifolia,True,C\ Llacuna,,22.94,median,,check
+0028092AR,Platanus × acerifolia,True,C\ Pujades,,24.63,median,,check
+0028093AR,Pinus pinea,False,Ctra Antiga de Mataró,,16.95,no_kerb,,check
+0028094AR,Platanus × acerifolia,True,C\ Sardenya,4.8,5.25,ok,,medium
+0028095AR,Gleditsia triacanthos f. inermis,False,C\ Sancho de Ávila,6.64,4.67,ok,,large
+0028096AR,Platanus × acerifolia,True,Av Diagonal,,42.45,no_facade,4.73,check
+0028097AR,Platanus × acerifolia,True,C\ Sardenya,4.88,3.55,ok,,medium
+0028098AR,Gleditsia triacanthos,False,C\ Sancho de Ávila,,7.83,median,4.73,check
+0028099AR,Grevillea robusta,False,C\ Tànger,4.63,3.61,ok,,medium
+0028100AR,Platanus × acerifolia,True,C\ Wellington,6.84,6.55,ok,,large
+0028101AR,Grevillea robusta,False,C\ Tànger,5.14,3.98,ok,,medium
+0028102AR,Platanus × acerifolia,True,C\ Pujades,16.77,7.17,ok,,large
+0028103AR,Grevillea robusta,False,C\ Tànger,3.87,3.02,ok,,medium
+0028104AR,Gleditsia triacanthos 'skyline',False,C\ Sancho de Ávila,5.04,4.51,ok,,medium
+0028105AR,Platanus × acerifolia,True,C\ Joan d'Àustria,,16.18,median,,check
+0028106AR,Platanus × acerifolia,True,C\ Àvila,,9.71,median,4.91,check
+0028107AR,Platanus × acerifolia,True,C\ Pallars,,20.73,median,8.37,check
+0028108AR,Platanus × acerifolia,True,C\ Sardenya,4.88,4.58,ok,,medium
+0028109AR,Platanus × acerifolia,True,C\ Nàpols,5.28,5.41,ok,,medium
+0028110AR,Platanus × acerifolia,True,C\ Ciutat de Granada,5.41,5.35,ok,,medium
+0028111AR,Platanus × acerifolia,True,C\ Roger de Flor,4.93,4.6,ok,,medium
+0028112AR,Platanus × acerifolia,True,C\ Ciutat de Granada,4.94,3.4,ok,,medium
+0028113AR,Platanus × acerifolia,True,C\ Pallars,6.4,5.22,ok,,large
+0028114AR,Platanus × acerifolia,True,C\ Àvila,4.97,5.32,ok,,medium
+0028115AR,Platanus × acerifolia,True,Av Diagonal,5.04,4.05,ok,,medium
+0028117AR,Platanus × acerifolia,True,C\ Tànger,13.05,5.79,ok,,large
+0028118AR,Platanus × acerifolia,True,C\ Pujades,4.1,2.41,ok,,medium
+0028119AR,Gleditsia triacanthos,False,C\ Sancho de Ávila,9.04,9.58,ok,,large
+0028120AR,Platanus × acerifolia,True,C\ Àlaba,5.02,3.61,ok,,medium
+0028121AR,Gleditsia triacanthos,False,C\ Almogàvers,21.64,3.87,ok,,large
+0028122AR,Platanus × acerifolia,True,C\ Almogàvers,4.71,3.82,ok,,medium
+0028123AR,Platanus × acerifolia,True,Pg Pujades,16.07,7.5,ok,,large
+0028124AR,Platanus × acerifolia,True,C\ Joan d'Àustria,5.74,5.26,ok,,medium
+0028125AR,Grevillea robusta,False,C\ Almogàvers,6.58,3.9,ok,,large
+0028126AR,Gleditsia triacanthos f. inermis,False,C\ Sancho de Ávila,11.73,9.98,ok,,large
+0028127AR,Platanus × acerifolia,True,C\ Llacuna,,22.65,median,,check
+0028128AR,Platanus × acerifolia,True,C\ Pamplona,4.91,3.61,ok,,medium
+0028130AR,Platanus × acerifolia,True,C\ Tànger,15.72,13.9,ok,,large
+0028131AR,Platanus × acerifolia,True,C\ Wellington,4.74,4.84,ok,,medium
+0028132AR,Pinus pinea,False,Ctra Antiga de Mataró,,4.58,no_kerb,,check
+0028133AR,Celtis sinensis,False,Av Meridiana,9.29,8.27,ok,,large
+0028134AR,Platanus × acerifolia,True,C\ Bolívia,,29.64,no_kerb,10.55,check
+0028135AR,Celtis australis,False,C\ Àvila,4.06,2.92,ok,,medium
+0028136AR,Platanus × acerifolia,True,C\ Pujades,4.79,2.58,ok,,medium
+0028137AR,Platanus × acerifolia,True,Pg Pujades,10.79,6.98,ok,,large
+0028138AR,Platanus × acerifolia,True,C\ Buenaventura Muñoz,4.85,4.4,ok,,medium
+0028139AR,Platanus × acerifolia,True,C\ Àvila,5.08,3.8,ok,,medium
+0028140AR,Grevillea robusta,False,C\ Almogàvers,,6.32,median,10.75,check
+0028141AR,Platanus × acerifolia,True,C\ Almogàvers,,19.84,median,5.45,check
+0028142AR,Grevillea robusta,False,C\ Tànger,4.7,3.75,ok,,medium
+0028143AR,Platanus × acerifolia,True,C\ Ciutat de Granada,12.86,10.21,ok,,large
+0028144AR,Platanus × acerifolia,True,C\ Zamora,6.9,5.29,ok,,large
+0028145AR,Gleditsia triacanthos,False,C\ Sancho de Ávila,29.99,29.18,ok,,large
+0028146AR,Gleditsia triacanthos,False,C\ Roc Boronat,4.87,4.19,ok,,medium
+0028147AR,Ulmus pumila,False,Av Meridiana,9.26,2.1,ok,,large
+0028148AR,Gleditsia triacanthos,False,C\ Tànger,9.85,7.97,ok,,large
+0028149AR,Platanus × acerifolia,True,C\ Bolívia,4.51,3.74,ok,,medium
+0028150AR,Grevillea robusta,False,C\ Tànger,3.86,2.05,ok,,medium
+0028151AR,Platanus × acerifolia,True,Pg Pujades,16.02,15.07,ok,,large
+0028152AR,Platanus × acerifolia,True,C\ Badajoz,13.94,12.37,ok,,large
+0028153AR,Gleditsia triacanthos,False,C\ Sancho de Ávila,4.99,4.73,ok,,medium
+0028154AR,Tipuana tipu,False,Av Bogatell,24.89,5.83,ok,,large
+0028155AR,Brachychiton populneus,False,C\ Pujades,16.27,13.29,ok,,large
+0028156AR,Cupressus sempervirens,False,C\ Marina,,23.61,median,,check
+0028157AR,Platanus × acerifolia,True,C\ Ciutat de Granada,4.88,4.1,ok,,medium
+0028158AR,Platanus × acerifolia,True,C\ Bolívia,15.45,3.03,ok,,large
+0028159AR,Platanus × acerifolia,True,C\ Buenaventura Muñoz,5.08,5.54,ok,,medium
+0028160AR,Gleditsia triacanthos,False,C\ Sancho de Ávila,,15.6,median,,check
+0028161AR,Grevillea robusta,False,C\ Badajoz,,34.17,no_facade,,check
+0028162AR,Platanus × acerifolia,True,C\ Llacuna,,9.63,median,5.31,check
+0028163AR,Platanus × acerifolia,True,C\ Sardenya,5.02,4.15,ok,,medium
+0028164AR,Platanus × acerifolia,True,C\ Sardenya,4.83,5.66,ok,,medium
+0028165AR,Platanus × acerifolia,True,Pg Pujades,10.82,7.32,ok,,large
+0028166AR,Platanus × acerifolia,True,C\ Zamora,4.95,3.26,ok,,medium
+0028167AR,Celtis sinensis,False,Av Meridiana,9.15,7.91,ok,,large
+0028168AR,Platanus × acerifolia,True,C\ Pallars,5.65,3.89,ok,,medium
+0028169AR,Platanus × acerifolia,True,C\ Wellington,,14.24,median,6.32,check
+0028170AR,Platanus × acerifolia,True,C\ Àlaba,4.9,5.03,ok,,medium
+0028171AR,Platanus × acerifolia,True,C\ Pallars,4.3,3.22,ok,,medium
+0028172AR,Platanus × acerifolia,True,C\ Pujades,16.75,15.53,ok,,large
+0028173AR,Platanus × acerifolia,True,C\ Llacuna,,9.0,median,5.39,check
+0028175AR,Celtis australis,False,C\ Pujades,11.95,11.54,ok,,large
+0028176AR,Grevillea robusta,False,C\ Tànger,3.84,3.56,ok,,medium
+0028177AR,Platanus × acerifolia,True,C\ Pallars,6.71,6.01,ok,,large
+0028178AR,Platanus × acerifolia,True,C\ Zamora,,15.6,median,11.81,check
+0028179AR,Celtis australis,False,C\ Buenaventura Muñoz,4.78,4.64,ok,,medium
+0028180AR,Platanus × acerifolia,True,C\ Pallars,3.08,2.18,ok,,small
+0028181AR,Gleditsia triacanthos,False,C\ Sancho de Ávila,,23.71,median,22.46,check
+0028182AR,Gleditsia triacanthos,False,Av Meridiana,16.8,8.79,ok,,large
+0028183AR,Platanus × acerifolia,True,C\ Llacuna,6.63,5.68,ok,,large
+0028184AR,Platanus × acerifolia,True,C\ Bolívia,,22.05,median,3.49,check
+0028185AR,Platanus × acerifolia,True,C\ Llull,5.57,4.93,ok,,medium
+0028186AR,Platanus × acerifolia,True,C\ Llull,5.01,4.19,ok,,medium
+0028187AR,Platanus × acerifolia,True,Av Meridiana,16.84,6.93,ok,,large
+0028188AR,Platanus × acerifolia,True,C\ Nàpols,4.91,3.86,ok,,medium
+0028189AR,Melia azedarach,False,C\ Buenaventura Muñoz,4.94,5.23,ok,,medium
+0028190AR,Platanus × acerifolia,True,Av Diagonal,4.73,4.24,ok,,medium
+0028191AR,Melia azedarach,False,C\ Marina,11.04,4.58,ok,,large
+0028192AR,Platanus × acerifolia,True,C\ Joan d'Àustria,16.67,15.8,ok,,large
+0028193AR,Platanus × acerifolia,True,C\ Llull,6.57,3.68,ok,,large
+0028194AR,Platanus × acerifolia,True,C\ Sardenya,4.82,5.59,ok,,medium
+0028195AR,Gleditsia triacanthos,False,C\ Sancho de Ávila,8.67,6.97,ok,,large
+0028196AR,Pinus pinea,False,Ctra Antiga de Mataró,,4.86,no_kerb,,check
+0028197AR,Platanus × acerifolia,True,C\ Pujades,8.78,4.56,ok,,large
+0028198AR,Platanus × acerifolia,True,C\ Pallars,8.4,5.82,ok,,large
+0028199AR,Gleditsia triacanthos,False,C\ Sancho de Ávila,4.81,3.36,ok,,medium
+0028200AR,Platanus × acerifolia,True,C\ Sardenya,4.96,4.77,ok,,medium
+0028201AR,Grevillea robusta,False,C\ Tànger,4.61,3.94,ok,,medium
+0028203AR,Platanus × acerifolia,True,C\ Buenaventura Muñoz,4.87,4.38,ok,,medium
+0028204AR,Platanus × acerifolia,True,C\ Llacuna,,22.4,median,,check
+0028205AR,Platanus × acerifolia,True,Av Diagonal,11.19,9.85,ok,,large
+0028207AR,Platanus × acerifolia,True,Av Diagonal,,19.01,median,14.75,check
+0028208AR,Platanus × acerifolia,True,Av Diagonal,,18.57,median,14.39,check
+0028209AR,Platanus × acerifolia,True,C\ Pallars,3.56,2.55,ok,,medium
+0028210AR,Gleditsia triacanthos,False,C\ Sancho de Ávila,19.28,17.87,ok,,large
+0028212AR,Platanus × acerifolia,True,C\ Wellington,4.68,3.66,ok,,medium
+0028213AR,Platanus × acerifolia,True,C\ Ciutat de Granada,4.95,4.16,ok,,medium
+0028214AR,Platanus × acerifolia,True,C\ Llacuna,10.64,9.03,ok,,large
+0028215AR,Platanus × acerifolia,True,Av Meridiana,24.01,18.2,ok,,large
+0028217AR,Platanus × acerifolia,True,C\ Almogàvers,8.93,6.69,ok,,large
+0028218AR,Pinus pinea,False,Ctra Antiga de Mataró,24.38,14.8,ok,,large
+0028219AR,Celtis australis,False,C\ Buenaventura Muñoz,5.21,5.02,ok,,medium
+0028220AR,Brachychiton populneus,False,C\ Pujades,16.23,13.95,ok,,large
+0028221AR,Platanus × acerifolia,True,Pg Pujades,,15.32,median,4.83,check
+0028222AR,Platanus × acerifolia,True,C\ Àvila,3.94,3.84,ok,,medium
+0028223AR,Melia azedarach,False,C\ Nàpols,4.86,3.56,ok,,medium
+0028224AR,Platanus × acerifolia,True,Av Diagonal,,27.15,median,14.44,check
+0028225AR,Gleditsia triacanthos,False,C\ Sancho de Ávila,,24.15,median,22.45,check
+0028226AR,Celtis sinensis,False,Av Meridiana,9.43,8.39,ok,,large
+0028227AR,Platanus × acerifolia,True,C\ Tànger,5.71,4.2,ok,,medium
+0028228AR,Gleditsia triacanthos,False,C\ Roc Boronat,4.98,4.33,ok,,medium
+0028229AR,Grevillea robusta,False,C\ Tànger,,16.56,median,4.58,check
+0028230AR,Platanus × acerifolia,True,C\ Bolívia,4.46,3.74,ok,,medium
+0028231AR,Platanus × acerifolia,True,C\ Llull,,16.35,median,,check
+0028232AR,Platanus × acerifolia,True,Av Diagonal,4.83,4.28,ok,,medium
+0028233AR,Platanus × acerifolia,True,C\ Llacuna,10.66,8.72,ok,,large
+0028234AR,Celtis australis,False,C\ Buenaventura Muñoz,4.98,4.49,ok,,medium
+0028236AR,Platanus × acerifolia,True,C\ Pallars,5.14,3.41,ok,,medium
+0028237AR,Platanus × acerifolia,True,Av Diagonal,,21.7,median,14.68,check
+0028238AR,Platanus × acerifolia,True,C\ Joan d'Àustria,4.94,4.53,ok,,medium
+0028239AR,Platanus × acerifolia,True,Av Meridiana,16.73,6.6,ok,,large
+0028240AR,Platanus × acerifolia,True,Pg Pujades,11.4,6.99,ok,,large
+0028241AR,Ligustrum lucidum,False,C\ Wellington,5.7,4.01,ok,,medium
+0028242AR,Celtis australis,False,C\ Àlaba,6.38,5.25,ok,,large
+0028243AR,Platanus × acerifolia,True,C\ Àvila,5.14,4.86,ok,,medium
+0028245AR,Platanus × acerifolia,True,C\ Sancho de Ávila,5.88,5.38,ok,,medium
+0028247AR,Platanus × acerifolia,True,C\ Llacuna,,16.69,median,,check
+0028248AR,Robinia pseudoacacia,False,C\ Pujades,,0.75,no_kerb,18.38,check
+0028250AR,Platanus × acerifolia,True,Av Diagonal,4.71,4.13,ok,,medium
+0028251AR,Pinus pinea,False,C\ Pujades,29.62,14.91,ok,,large
+0028253AR,Platanus × acerifolia,True,Pg Pujades,16.33,15.51,ok,,large
+0028254AR,Celtis australis,False,C\ Nàpols,4.92,4.64,ok,,medium
+0028255AR,Gleditsia triacanthos,False,C\ Roc Boronat,4.97,3.79,ok,,medium
+0028257AR,Platanus × acerifolia,True,C\ Wellington,,14.24,median,6.31,check
+0028258AR,Gleditsia triacanthos,False,C\ Sancho de Ávila,6.5,5.4,ok,,large
+0028261AR,Pinus pinea,False,C\ Pujades,,28.26,no_kerb,,check
+0028262AR,Melia azedarach,False,C\ Marina,14.42,5.2,ok,,large
+0028263AR,Platanus × acerifolia,True,C\ Almogàvers,28.78,16.54,ok,,large
+0028264AR,Platanus × acerifolia,True,C\ Wellington,,14.1,median,6.29,check
+0028265AR,Platanus × acerifolia,True,Av Meridiana,16.84,7.12,ok,,large
+0028266AR,Gleditsia triacanthos,False,C\ Sancho de Ávila,5.12,4.48,ok,,medium
+0028267AR,Platanus × acerifolia,True,C\ Almogàvers,,19.59,median,6.02,check
+0028268AR,Platanus × acerifolia,True,C\ Badajoz,,5.42,median,11.92,check
+0028269AR,Gleditsia triacanthos,False,C\ Sancho de Ávila,10.41,6.44,ok,,large
+0028271AR,Platanus × acerifolia,True,C\ Tànger,5.67,4.36,ok,,medium
+0028272AR,Brachychiton populneus,False,C\ Pujades,16.24,13.95,ok,,large
+0028273AR,Platanus × acerifolia,True,Pg Pujades,16.03,15.45,ok,,large
+0028274AR,Platanus × acerifolia,True,Av Diagonal,,45.64,no_facade,14.57,check
+0028275AR,Platanus × acerifolia,True,C\ Pujades,4.96,1.14,ok,,medium
+0028276AR,Melia azedarach,False,C\ Nàpols,4.99,4.0,ok,,medium
+0028277AR,Platanus × acerifolia,True,C\ Buenaventura Muñoz,5.01,4.85,ok,,medium
+0028278AR,Platanus × acerifolia,True,C\ Llull,5.16,4.23,ok,,medium
+0028279AR,Platanus × acerifolia,True,C\ Pujades,4.74,3.09,ok,,medium
+0028280AR,Gleditsia triacanthos,False,C\ Roc Boronat,4.99,3.76,ok,,medium
+0028281AR,Platanus × acerifolia,True,C\ Buenaventura Muñoz,4.92,4.93,ok,,medium
+0028282AR,Brachychiton populneus,False,C\ Pujades,16.24,13.96,ok,,large
+0028283AR,Platanus × acerifolia,True,C\ Ciutat de Granada,,4.78,median,16.01,check
+0028284AR,Platanus × acerifolia,True,C\ Ciutat de Granada,4.97,4.0,ok,,medium
+0028285AR,Gleditsia triacanthos,False,C\ Pamplona,4.08,3.22,ok,,medium
+0028286AR,Gleditsia triacanthos,False,C\ Sancho de Ávila,5.2,4.3,ok,,medium
+0028287AR,Ulmus pumila,False,C\ Marina,,23.04,no_kerb,25.55,check
+0028288AR,Platanus × acerifolia,True,Av Meridiana,9.04,7.13,ok,,large
+0028289AR,Platanus × acerifolia,True,C\ Llull,6.9,6.35,ok,,large
+0028290AR,Platanus × acerifolia,True,C\ Badajoz,4.97,5.21,ok,,medium
+0028292AR,Platanus × acerifolia,True,Av Meridiana,16.81,6.85,ok,,large
+0028293AR,Platanus × acerifolia,True,C\ Pujades,4.96,1.54,ok,,medium
+0028294AR,Celtis australis,False,C\ Almogàvers,5.41,4.34,ok,,medium
+0028296AR,Platanus × acerifolia,True,C\ Almogàvers,14.96,4.14,ok,,large
+0028297AR,Celtis australis,False,C\ Almogàvers,4.39,3.39,ok,,medium
+0028298AR,Platanus × acerifolia,True,C\ Pallars,3.57,2.51,ok,,medium
+0028300AR,Platanus × acerifolia,True,Av Diagonal,,30.86,no_facade,14.33,check
+0028301AR,Brachychiton populneus,False,C\ Pujades,16.26,14.02,ok,,large
+0028303AR,Platanus × acerifolia,True,C\ Àvila,7.33,4.41,ok,,large
+0028304AR,Celtis australis,False,C\ Àlaba,6.59,4.3,ok,,large
+0028305AR,Platanus × acerifolia,True,Av Meridiana,13.98,11.73,ok,,large
+0028306AR,Celtis australis,False,C\ Nàpols,4.95,4.25,ok,,medium
+0028307AR,Platanus × acerifolia,True,C\ Pujades,,30.47,no_facade,,check
+0028308AR,Grevillea robusta,False,C\ Almogàvers,4.58,2.63,ok,,medium
+0028309AR,Platanus × acerifolia,True,Pg Pujades,11.23,7.27,ok,,large
+0028310AR,Platanus × acerifolia,True,Av Diagonal,6.86,5.91,ok,,large
+0028311AR,Melia azedarach,False,C\ Marina,13.09,6.14,ok,,large
+0028313AR,Tipuana tipu,False,C\ Sancho de Ávila,,18.74,no_kerb,29.15,check
+0028314AR,Platanus × acerifolia,True,C\ Àvila,,7.56,median,5.04,check
+0028316AR,Gleditsia triacanthos,False,C\ Pamplona,4.11,4.15,ok,,medium
+0028317AR,Grevillea robusta,False,C\ Tànger,4.72,3.75,ok,,medium
+0028318AR,Platanus × acerifolia,True,C\ Pujades,10.66,10.11,ok,,large
+0028319AR,Brachychiton populneus,False,C\ Pujades,16.94,14.76,ok,,large
+0028320AR,Platanus × acerifolia,True,C\ Sancho de Ávila,,15.8,median,,check
+0028322AR,Platanus × acerifolia,True,C\ Tànger,18.93,4.33,ok,,large
+0028323AR,Platanus × acerifolia,True,C\ Buenaventura Muñoz,4.96,4.8,ok,,medium
+0028324AR,Celtis australis,False,C\ Badajoz,4.89,4.76,ok,,medium
+0028325AR,Celtis australis,False,C\ Bolívia,,10.79,median,3.29,check
+0028327AR,Platanus × acerifolia,True,C\ Joan d'Àustria,4.59,3.57,ok,,medium
+0028328AR,Melia azedarach,False,C\ Marina,14.24,4.48,ok,,large
+0028329AR,Gleditsia triacanthos,False,Av Meridiana,17.17,13.4,ok,,large
+0028330AR,Brachychiton populneus,False,C\ Pujades,16.26,13.38,ok,,large
+0028332AR,Gleditsia triacanthos f. inermis,False,C\ Roc Boronat,5.04,4.45,ok,,medium
+0028333AR,Platanus × acerifolia,True,Av Meridiana,9.34,7.83,ok,,large
+0028334AR,Gleditsia triacanthos,False,C\ Sancho de Ávila,5.21,3.91,ok,,medium
+0028335AR,Pinus pinea,False,Ctra Antiga de Mataró,20.21,7.58,ok,,large
+0028336AR,Platanus × acerifolia,True,C\ Pallars,3.48,2.68,ok,,small
+0028337AR,Platanus × acerifolia,True,Av Diagonal,4.73,4.02,ok,,medium
+0028340AR,Grevillea robusta,False,C\ Tànger,4.64,3.88,ok,,medium
+0028341AR,Platanus × acerifolia,True,Av Diagonal,,19.03,median,14.34,check
+0028342AR,Tipuana tipu,False,Av Bogatell,23.04,5.94,ok,,large
+0028343AR,Celtis australis,False,C\ Àlaba,5.25,3.55,ok,,medium
+0028344AR,Platanus × acerifolia,True,C\ Ciutat de Granada,4.96,4.11,ok,,medium
+0028345AR,Platanus × acerifolia,True,C\ Ciutat de Granada,4.87,4.74,ok,,medium
+0028346AR,Celtis australis,False,C\ Pujades,8.32,5.07,ok,,large
+0028347AR,Gleditsia triacanthos,False,C\ Sancho de Ávila,9.77,7.01,ok,,large
+0028349AR,Casuarina cunninghamiana,False,C\ Wellington,,14.57,median,6.48,check
+0028350AR,Gleditsia triacanthos,False,Av Meridiana,16.81,11.78,ok,,large
+0028352AR,Melia azedarach,False,C\ Marina,10.89,4.26,ok,,large
+0028353AR,Platanus × acerifolia,True,C\ Pujades,4.75,1.41,ok,,medium
+0028354AR,Platanus × acerifolia,True,C\ Àlaba,4.9,4.84,ok,,medium
+0028355AR,Platanus × acerifolia,True,Av Diagonal,,34.75,no_facade,14.55,check
+0028356AR,Platanus × acerifolia,True,C\ Bolívia,7.55,6.12,ok,,large
+0028357AR,Gleditsia triacanthos,False,Av Meridiana,18.26,14.72,ok,,large
+0028358AR,Cupressus sempervirens,False,C\ Pujades,,31.09,no_facade,,check
+0028360AR,Celtis australis,False,C\ Buenaventura Muñoz,4.9,5.05,ok,,medium
+0028361AR,Gleditsia triacanthos,False,Av Meridiana,17.17,10.7,ok,,large
+0028362AR,Platanus × acerifolia,True,C\ Ciutat de Granada,4.75,3.64,ok,,medium
+0028363AR,Gleditsia triacanthos,False,C\ Roc Boronat,,15.71,median,,check
+0028364AR,Platanus × acerifolia,True,C\ Roger de Flor,5.0,4.64,ok,,medium
+0028365AR,Platanus × acerifolia,True,Pg Pujades,16.33,7.7,ok,,large
+0028366AR,Grevillea robusta,False,C\ Tànger,3.78,2.88,ok,,medium
+0028367AR,Pinus pinea,False,Ctra Antiga de Mataró,26.16,9.87,ok,,large
+0028368AR,Platanus × acerifolia,True,Av Diagonal,,19.09,median,14.42,check
+0028369AR,Grevillea robusta,False,C\ Sancho de Ávila,6.3,4.94,ok,,large
+0028370AR,Platanus × acerifolia,True,C\ Nàpols,4.84,4.82,ok,,medium
+0028371AR,Platanus × acerifolia,True,C\ Buenaventura Muñoz,4.85,4.69,ok,,medium
+0028372AR,Platanus × acerifolia,True,C\ Pamplona,4.75,4.54,ok,,medium
+0028373AR,Celtis australis,False,C\ Pujades,8.6,7.03,ok,,large
+0028374AR,Platanus × acerifolia,True,C\ Llull,5.07,4.57,ok,,medium
+0028375AR,Platanus × acerifolia,True,C\ Llacuna,5.33,4.54,ok,,medium
+0028377AR,Gleditsia triacanthos,False,C\ Pamplona,4.08,3.72,ok,,medium
+0028378AR,Gleditsia triacanthos,False,C\ Sancho de Ávila,,15.63,median,,check
+0028379AR,Platanus × acerifolia,True,C\ Sardenya,4.96,3.92,ok,,medium
+0028382AR,Grevillea robusta,False,C\ Almogàvers,5.97,4.51,ok,,medium
+0028383AR,Platanus × acerifolia,True,C\ Ciutat de Granada,4.94,4.28,ok,,medium
+0028384AR,Gleditsia triacanthos,False,C\ Roc Boronat,5.21,4.08,ok,,medium
+0028385AR,Gleditsia triacanthos,False,C\ Sancho de Ávila,5.03,4.46,ok,,medium
+0028386AR,Platanus × acerifolia,True,C\ Sancho de Ávila,4.85,3.48,ok,,medium
+0028387AR,Platanus × acerifolia,True,C\ Buenaventura Muñoz,4.91,4.38,ok,,medium
+0028389AR,Grevillea robusta,False,C\ Tànger,4.65,1.83,ok,,medium
+0028391AR,Platanus × acerifolia,True,Av Diagonal,,36.18,no_facade,4.73,check
+0028392AR,Celtis australis,False,C\ Buenaventura Muñoz,4.85,4.77,ok,,medium
+0028393AR,Platanus × acerifolia,True,C\ Badajoz,4.93,4.76,ok,,medium
+0028394AR,Gleditsia triacanthos f. inermis,False,C\ Sancho de Ávila,6.61,4.5,ok,,large
+0028395AR,Platanus × acerifolia,True,C\ Ciutat de Granada,4.98,3.66,ok,,medium
+0028396AR,Platanus × acerifolia,True,C\ Llacuna,26.39,14.96,ok,,large
+0028397AR,Gleditsia triacanthos,False,C\ Sancho de Ávila,4.91,4.07,ok,,medium
+0028398AR,Platanus × acerifolia,True,Av Diagonal,4.8,4.16,ok,,medium
+0028399AR,Celtis australis,False,C\ Buenaventura Muñoz,4.88,5.05,ok,,medium
+0028400AR,Gleditsia triacanthos,False,C\ Bolívia,6.4,4.46,ok,,large
+0028401AR,Platanus × acerifolia,True,C\ Llacuna,,23.82,median,,check
+0028402AR,Grevillea robusta,False,C\ Sancho de Ávila,,25.65,median,,check
+0028403AR,Platanus × acerifolia,True,C\ Pallars,6.4,4.72,ok,,large
+0028404AR,Celtis australis,False,C\ Buenaventura Muñoz,4.89,4.18,ok,,medium
+0028405AR,Platanus × acerifolia,True,Pg Pujades,,15.59,median,4.83,check
+0028406AR,Gleditsia triacanthos,False,C\ Sancho de Ávila,26.62,25.55,ok,,large
+0028407AR,Grevillea robusta,False,C\ Badajoz,4.32,4.81,ok,,medium
+0028408AR,Gleditsia triacanthos,False,C\ Sancho de Ávila,,13.72,median,7.9,check
+0028409AR,Platanus × acerifolia,True,Av Diagonal,5.31,4.41,ok,,medium
+0028410AR,Platanus × acerifolia,True,Av Diagonal,,6.77,median,5.36,check
+0028411AR,Celtis australis,False,C\ Llull,9.95,5.45,ok,,large
+0028412AR,Pinus pinea,False,C\ Pere IV,,29.83,median,,check
+0028413AR,Platanus × acerifolia,True,Av Diagonal,11.87,9.02,ok,,large
+0028414AR,Celtis australis,False,C\ Almogàvers,15.08,14.56,ok,,large
+0028417AR,Platanus × acerifolia,True,C\ Llull,4.31,3.5,ok,,medium
+0028418AR,Platanus × acerifolia,True,C\ Joan d'Àustria,4.96,4.29,ok,,medium
+0028420AR,Pinus pinaster,False,C\ Pere IV,,32.76,no_facade,,check
+0028421AR,Platanus × acerifolia,True,Av Diagonal,,19.37,median,14.46,check
+0028422AR,Platanus × acerifolia,True,Pg Pujades,,15.37,median,5.24,check
+0028423AR,Grevillea robusta,False,C\ Tànger,4.62,4.08,ok,,medium
+0028425AR,Platanus × acerifolia,True,C\ Pallars,4.52,3.91,ok,,medium
+0028426AR,Celtis australis,False,C\ Àlaba,13.29,8.07,ok,,large
+0028428AR,Platanus × acerifolia,True,C\ Pujades,16.78,15.44,ok,,large
+0028429AR,Gleditsia triacanthos f. inermis,False,C\ Bolívia,4.63,3.8,ok,,medium
+0028430AR,Platanus × acerifolia,True,C\ Sardenya,15.65,14.37,ok,,large
+0028431AR,Platanus × acerifolia,True,C\ Zamora,,15.99,median,6.86,check
+0028432AR,Grevillea robusta,False,C\ Tànger,6.62,2.23,ok,,large
+0028434AR,Grevillea robusta,False,C\ Tànger,,15.22,median,,check
+0028435AR,Cercis siliquastrum,False,Av Meridiana,6.37,5.55,ok,,large
+0028436AR,Platanus × acerifolia,True,Pg Pujades,11.45,7.11,ok,,large
+0028437AR,Gleditsia triacanthos f. inermis,False,C\ Pujades,10.62,5.6,ok,,large
+0028438AR,Platanus × acerifolia,True,C\ Pallars,4.77,4.02,ok,,medium
+0028439AR,Gleditsia triacanthos,False,C\ Pamplona,8.67,7.08,ok,,large
+0028440AR,Platanus × acerifolia,True,C\ Pamplona,4.97,4.71,ok,,medium
+0028441AR,Platanus × acerifolia,True,Av Diagonal,5.29,4.31,ok,,medium
+0028442AR,Gleditsia triacanthos f. inermis,False,Av Meridiana,16.79,10.23,ok,,large
+0028443AR,Platanus × acerifolia,True,C\ Bolívia,18.29,3.14,ok,,large
+0028444AR,Celtis australis,False,C\ Àlaba,5.34,4.11,ok,,medium
+0028445AR,Platanus × acerifolia,True,C\ Sardenya,4.81,5.76,ok,,medium
+0028446AR,Platanus × acerifolia,True,C\ Ciutat de Granada,5.12,4.26,ok,,medium
+0028447AR,Platanus × acerifolia,True,Av Diagonal,4.8,4.16,ok,,medium
+0028448AR,Gleditsia triacanthos,False,C\ Sancho de Ávila,9.24,8.23,ok,,large
+0028449AR,Platanus × acerifolia,True,C\ Zamora,4.19,4.34,ok,,medium
+0028450AR,Platanus × acerifolia,True,C\ Wellington,4.77,4.91,ok,,medium
+0028452AR,Grevillea robusta,False,C\ Badajoz,12.55,11.43,ok,,large
+0028454AR,Platanus × acerifolia,True,C\ Joan d'Àustria,5.11,4.02,ok,,medium
+0028455AR,Grevillea robusta,False,C\ Tànger,4.43,2.28,ok,,medium
+0028456AR,Gleditsia triacanthos,False,Av Meridiana,16.84,9.57,ok,,large
+0028457AR,Gleditsia triacanthos f. inermis,False,C\ Pujades,4.81,2.85,ok,,medium
+0028458AR,Platanus × acerifolia,True,C\ Joan d'Àustria,4.75,4.34,ok,,medium
+0028459AR,Platanus × acerifolia,True,C\ Llull,8.23,4.35,ok,,large
+0028460AR,Gleditsia triacanthos,False,C\ Sancho de Ávila,5.14,4.33,ok,,medium
+0028461AR,Platanus × acerifolia,True,C\ Llull,5.57,4.86,ok,,medium
+0028462AR,Platanus × acerifolia,True,Av Diagonal,,28.38,median,14.27,check
+0028463AR,Platanus × acerifolia,True,C\ Ciutat de Granada,,16.49,median,,check
+0028464AR,Platanus × acerifolia,True,C\ Sardenya,4.94,4.16,ok,,medium
+0028466AR,Celtis australis,False,C\ Àlaba,6.63,4.04,ok,,large
+0028467AR,Platanus × acerifolia,True,C\ Sancho de Ávila,25.79,14.9,ok,,large
+0028468AR,Platanus × acerifolia,True,C\ Wellington,4.89,4.02,ok,,medium
+0028469AR,Cupressus sempervirens,False,C\ Marina,,23.45,median,25.49,check
+0028470AR,Platanus × acerifolia,True,C\ Pamplona,4.97,4.25,ok,,medium
+0028471AR,Gleditsia triacanthos,False,C\ Pamplona,4.14,3.41,ok,,medium
+0028472AR,Platanus × acerifolia,True,C\ Pujades,10.56,9.75,ok,,large
+0028473AR,Platanus × acerifolia,True,C\ Llull,5.05,4.44,ok,,medium
+0028474AR,Grevillea robusta,False,C\ Tànger,4.58,3.65,ok,,medium
+0028475AR,Platanus × acerifolia,True,Av Meridiana,9.12,7.36,ok,,large
+0028476AR,Olea europaea,False,Ctra Antiga de Mataró,24.24,9.65,ok,,large
+0028477AR,Melia azedarach,False,C\ Marina,11.14,4.67,ok,,large
+0028478AR,Celtis australis,False,C\ Bolívia,13.48,4.63,ok,,large
+0028479AR,Grevillea robusta,False,C\ Almogàvers,4.57,2.79,ok,,medium
+0028481AR,Platanus × acerifolia,True,C\ Àvila,4.85,2.83,ok,,medium
+0028483AR,Platanus × acerifolia,True,C\ Ciutat de Granada,4.94,3.77,ok,,medium
+0028486AR,Platanus × acerifolia,True,C\ Buenaventura Muñoz,5.04,4.6,ok,,medium
+0028487AR,Platanus × acerifolia,True,Av Diagonal,,20.17,median,14.35,check
+0028488AR,Platanus × acerifolia,True,Av Diagonal,,18.81,median,14.37,check
+0028489AR,Platanus × acerifolia,True,Av Meridiana,16.69,6.55,ok,,large
+0028490AR,Platanus × acerifolia,True,C\ Sardenya,4.82,5.61,ok,,medium
+0028492AR,Platanus × acerifolia,True,Pg Pujades,,15.25,median,5.2,check
+0028493AR,Platanus × acerifolia,True,C\ Sancho de Ávila,4.95,4.76,ok,,medium
+0028494AR,Platanus × acerifolia,True,C\ Llull,5.08,4.18,ok,,medium
+0028496AR,Platanus × acerifolia,True,C\ Almogàvers,4.77,3.81,ok,,medium
+0028497AR,Celtis australis,False,C\ Nàpols,5.08,5.03,ok,,medium
+0028499AR,Platanus × acerifolia,True,Av Diagonal,,18.46,median,14.34,check
+0028500AR,Celtis australis,False,C\ Buenaventura Muñoz,4.85,5.25,ok,,medium
+0028501AR,Platanus × acerifolia,True,C\ Pamplona,5.03,4.41,ok,,medium
+0028502AR,Pinus pinea,False,Ctra Antiga de Mataró,,27.48,median,,check
+0028503AR,Platanus × acerifolia,True,C\ Bolívia,17.47,10.92,ok,,large
+0028504AR,Platanus × acerifolia,True,C\ Llacuna,5.33,4.49,ok,,medium
+0028505AR,Platanus × acerifolia,True,C\ Nàpols,4.9,4.58,ok,,medium
+0028506AR,Gleditsia triacanthos,False,C\ Sancho de Ávila,,15.69,median,,check
+0028507AR,Platanus × acerifolia,True,C\ Buenaventura Muñoz,5.09,4.58,ok,,medium
+0028508AR,Gleditsia triacanthos,False,C\ Roc Boronat,5.09,4.64,ok,,medium
+0028509AR,Platanus × acerifolia,True,Av Diagonal,,19.82,median,14.44,check
+0028510AR,Platanus × acerifolia,True,C\ Badajoz,,8.44,median,10.1,check
+0028511AR,Platanus × acerifolia,True,C\ Ciutat de Granada,5.15,4.13,ok,,medium
+0028512AR,Platanus × acerifolia,True,Av Diagonal,,18.76,median,14.77,check
+0028513AR,Platanus × acerifolia,True,C\ Bolívia,15.83,3.46,ok,,large
+0028515AR,Platanus × acerifolia,True,Av Meridiana,16.71,7.03,ok,,large
+0028516AR,Platanus × acerifolia,True,C\ Pujades,4.88,3.61,ok,,medium
+0028518AR,Gleditsia triacanthos,False,C\ Sancho de Ávila,,15.23,median,17.34,check
+0028519AR,Melia azedarach,False,C\ Nàpols,4.81,4.77,ok,,medium
+0028520AR,Platanus × acerifolia,True,C\ Pujades,16.85,7.16,ok,,large
+0028521AR,Platanus × acerifolia,True,C\ Badajoz,,17.19,median,,check
+0028522AR,Platanus × acerifolia,True,C\ Tànger,6.28,3.99,ok,,large
+0028523AR,Celtis australis,False,C\ Sardenya,4.95,4.08,ok,,medium
+0028524AR,Platanus × acerifolia,True,C\ Sancho de Ávila,4.96,4.59,ok,,medium
+0028525AR,Platanus × acerifolia,True,C\ Ciutat de Granada,4.81,3.23,ok,,medium
+0028526AR,Gleditsia triacanthos 'skyline',False,C\ Sancho de Ávila,4.82,3.45,ok,,medium
+0028528AR,Platanus × acerifolia,True,C\ Ciutat de Granada,,16.06,median,,check
+0028529AR,Grevillea robusta,False,C\ Tànger,6.2,5.29,ok,,large
+0028530AR,Platanus × acerifolia,True,C\ Roger de Flor,4.95,4.7,ok,,medium
+0028531AR,Gleditsia triacanthos,False,C\ Roc Boronat,4.87,3.98,ok,,medium
+0028532AR,Platanus × acerifolia,True,C\ Joan d'Àustria,4.94,5.09,ok,,medium
+0028533AR,Gleditsia triacanthos,False,C\ Sancho de Ávila,18.66,9.19,ok,,large
+0028534AR,Platanus × acerifolia,True,Av Diagonal,5.13,3.94,ok,,medium
+0028535AR,Platanus × acerifolia,True,Av Meridiana,8.99,7.34,ok,,large
+0028536AR,Celtis australis,False,C\ Almogàvers,5.21,5.01,ok,,medium
+0028537AR,Platanus × acerifolia,True,Pg Pujades,15.96,15.61,ok,,large
+0028538AR,Platanus × acerifolia,True,Av Diagonal,4.72,4.08,ok,,medium
+0028539AR,Gleditsia triacanthos,False,C\ Sancho de Ávila,,24.12,median,22.43,check
+0028540AR,Platanus × acerifolia,True,C\ Buenaventura Muñoz,5.07,5.03,ok,,medium
+0028541AR,Platanus × acerifolia,True,C\ Buenaventura Muñoz,4.91,4.68,ok,,medium
+0028542AR,Platanus × acerifolia,True,C\ Pujades,4.77,1.81,ok,,medium
+0028543AR,Gleditsia triacanthos,False,Av Meridiana,17.24,12.24,ok,,large
+0028544AR,Platanus × acerifolia,True,C\ Pallars,4.33,3.27,ok,,medium
+0028545AR,Gleditsia triacanthos,False,C\ Sancho de Ávila,4.83,3.94,ok,,medium
+0028546AR,Celtis australis,False,C\ Sancho de Ávila,,15.38,median,24.13,check
+0028547AR,Melia azedarach,False,C\ Buenaventura Muñoz,4.87,4.97,ok,,medium
+0028548AR,Platanus × acerifolia,True,Av Diagonal,,44.73,no_facade,4.72,check
+0028549AR,Platanus × acerifolia,True,C\ Pujades,11.54,6.9,ok,,large
+0028550AR,Platanus × acerifolia,True,Av Diagonal,,22.97,median,14.3,check
+0028551AR,Celtis australis,False,C\ Àlaba,5.19,4.1,ok,,medium
+0028552AR,Celtis australis,False,C\ Pere IV,,3.28,no_kerb,,check
+0028553AR,Celtis australis,False,C\ Joan d'Àustria,4.73,4.29,ok,,medium
+0028554AR,Pinus pinea,False,Ctra Antiga de Mataró,22.56,15.46,ok,,large
+0028556AR,Platanus × acerifolia,True,C\ Pallars,4.61,3.57,ok,,medium
+0028557AR,Grevillea robusta,False,C\ Tànger,,4.29,median,4.44,check
+0028558AR,Gleditsia triacanthos,False,C\ Sancho de Ávila,7.65,6.45,ok,,large
+0028560AR,Platanus × acerifolia,True,Av Meridiana,10.84,7.02,ok,,large
+0028561AR,Platanus × acerifolia,True,C\ Ciutat de Granada,4.75,3.48,ok,,medium
+0028562AR,Platanus × acerifolia,True,C\ Buenaventura Muñoz,4.96,4.48,ok,,medium
+0028563AR,Platanus × acerifolia,True,C\ Nàpols,4.77,4.33,ok,,medium
+0028565AR,Platanus × acerifolia,True,C\ Almogàvers,5.02,4.4,ok,,medium
+0028567AR,Grevillea robusta,False,C\ Tànger,4.45,2.86,ok,,medium
+0028568AR,Gleditsia triacanthos,False,C\ Sancho de Ávila,18.56,8.73,ok,,large
+0028569AR,Melia azedarach,False,C\ Marina,21.97,8.41,ok,,large
+0028570AR,Pinus pinea,False,C\ Pujades,,13.38,no_kerb,,check
+0028571AR,Platanus × acerifolia,True,C\ Llacuna,7.49,6.27,ok,,large
+0028572AR,Platanus × acerifolia,True,C\ Llacuna,5.54,4.4,ok,,medium
+0028573AR,Brachychiton populneus,False,C\ Pujades,16.31,13.61,ok,,large
+0028574AR,Platanus × acerifolia,True,C\ Llull,,28.39,median,12.94,check
+0028575AR,Gleditsia triacanthos,False,Av Meridiana,17.18,12.04,ok,,large
+0028576AR,Platanus × acerifolia,True,C\ Buenaventura Muñoz,4.92,4.45,ok,,medium
+0028577AR,Platanus × acerifolia,True,C\ Llull,,17.57,median,23.28,check
+0028578AR,Platanus × acerifolia,True,C\ Àvila,5.96,4.29,ok,,medium
+0028579AR,Platanus × acerifolia,True,Av Diagonal,4.81,4.11,ok,,medium
+0028580AR,Gleditsia triacanthos,False,C\ Sancho de Ávila,9.52,8.58,ok,,large
+0028581AR,Gleditsia triacanthos,False,Av Meridiana,19.12,11.01,ok,,large
+0028582AR,Platanus × acerifolia,True,C\ Pallars,17.06,13.58,ok,,large
+0028583AR,Platanus × acerifolia,True,C\ Llull,4.56,4.28,ok,,medium
+0028584AR,Platanus × acerifolia,True,C\ Ciutat de Granada,4.74,3.96,ok,,medium
+0028585AR,Platanus × acerifolia,True,C\ Badajoz,,4.55,median,4.99,check
+0028586AR,Platanus × acerifolia,True,C\ Pallars,7.0,4.66,ok,,large
+0028587AR,Grevillea robusta,False,C\ Badajoz,4.34,4.63,ok,,medium
+0028589AR,Platanus × acerifolia,True,C\ Àvila,4.02,2.96,ok,,medium
+0028590AR,Platanus × acerifolia,True,C\ Sardenya,4.99,4.91,ok,,medium
+0028591AR,Platanus × acerifolia,True,C\ Joan d'Àustria,6.26,5.84,ok,,large
+0028592AR,Brachychiton populneus,False,C\ Pujades,16.31,12.56,ok,,large
+0028593AR,Grevillea robusta,False,C\ Tànger,4.73,3.91,ok,,medium
+0028594AR,Platanus × acerifolia,True,C\ Llull,4.32,3.43,ok,,medium
+0028595AR,Pinus pinea,False,C\ Pujades,,14.52,no_kerb,,check
+0028596AR,Gleditsia triacanthos,False,C\ Sancho de Ávila,22.35,20.62,ok,,large
+0028598AR,Platanus × acerifolia,True,Av Diagonal,,33.99,no_facade,14.38,check
+0028599AR,Platanus × acerifolia,True,Av Diagonal,,19.3,median,14.7,check
+0028600AR,Platanus × acerifolia,True,C\ Bolívia,7.02,3.15,ok,,large
+0028601AR,Brachychiton populneus,False,C\ Pere IV,13.98,11.11,ok,,large
+0028602AR,Platanus × acerifolia,True,C\ Badajoz,4.86,3.57,ok,,medium
+0028603AR,Gleditsia triacanthos,False,C\ Sancho de Ávila,5.02,4.87,ok,,medium
+0028605AR,Platanus × acerifolia,True,C\ Badajoz,4.74,3.59,ok,,medium
+0028606AR,Platanus × acerifolia,True,C\ Àvila,4.03,2.59,ok,,medium
+0028607AR,Platanus × acerifolia,True,Av Meridiana,9.21,7.02,ok,,large
+0028608AR,Celtis australis,False,C\ Àvila,5.08,3.91,ok,,medium
+0028609AR,Grevillea robusta,False,C\ Tànger,3.77,3.1,ok,,medium
+0028610AR,Platanus × acerifolia,True,C\ Sancho de Ávila,4.81,4.02,ok,,medium
+0028611AR,Gleditsia triacanthos f. inermis,False,C\ Roc Boronat,5.15,4.39,ok,,medium
+0028612AR,Gleditsia triacanthos,False,C\ Sancho de Ávila,,36.26,no_facade,,check
+0028613AR,Grevillea robusta,False,C\ Tànger,4.61,3.94,ok,,medium
+0028614AR,Celtis australis,False,C\ Àlaba,5.1,5.18,ok,,medium
+0028615AR,Platanus × acerifolia,True,C\ Bolívia,13.0,7.35,ok,,large
+0028616AR,Platanus × acerifolia,True,C\ Ciutat de Granada,18.07,14.13,ok,,large
+0028617AR,Platanus × acerifolia,True,C\ Àvila,4.97,4.55,ok,,medium
+0028618AR,Celtis sinensis,False,Av Meridiana,9.26,8.0,ok,,large
+0028620AR,Platanus × acerifolia,True,C\ Zamora,,14.93,median,,check
+0028621AR,Grevillea robusta,False,C\ Tànger,3.84,2.15,ok,,medium
+0028622AR,Celtis australis,False,C\ Sardenya,5.36,4.14,ok,,medium
+0028623AR,Platanus × acerifolia,True,Av Meridiana,17.18,6.59,ok,,large
+0028624AR,Gleditsia triacanthos f. inermis,False,C\ Sancho de Ávila,4.99,4.59,ok,,medium
+0028625AR,Platanus × acerifolia,True,Av Diagonal,,30.69,no_facade,14.31,check
+0028626AR,Celtis australis,False,C\ Joan d'Àustria,4.7,4.25,ok,,medium
+0028627AR,Grevillea robusta,False,C\ Tànger,9.94,9.08,ok,,large
+0028628AR,Platanus × acerifolia,True,C\ Llull,5.3,4.31,ok,,medium
+0028629AR,Platanus × acerifolia,True,Av Diagonal,8.16,7.04,ok,,large
+0028630AR,Celtis australis,False,C\ Àlaba,5.26,4.16,ok,,medium
+0028631AR,Celtis australis,False,C\ Àlaba,6.55,3.64,ok,,large
+0028634AR,Gleditsia triacanthos,False,C\ Roc Boronat,,16.0,median,,check
+0028635AR,Grevillea robusta,False,C\ Badajoz,6.49,5.97,ok,,large
+0028636AR,Brachychiton populneus,False,C\ Pere IV,15.11,12.48,ok,,large
+0028637AR,Platanus × acerifolia,True,C\ Llull,6.97,6.33,ok,,large
+0028638AR,Platanus × acerifolia,True,Pg Pujades,,15.52,median,5.25,check
+0028641AR,Platanus × acerifolia,True,C\ Joan d'Àustria,4.97,5.1,ok,,medium
+0028642AR,Platanus × acerifolia,True,C\ Ciutat de Granada,4.91,3.71,ok,,medium
+0028643AR,Platanus × acerifolia,True,C\ Pujades,10.84,6.24,ok,,large
+0028644AR,Gleditsia triacanthos,False,C\ Sancho de Ávila,25.25,24.28,ok,,large
+0028646AR,Platanus × acerifolia,True,Av Meridiana,17.35,7.32,ok,,large
+0028647AR,Gleditsia triacanthos,False,C\ Roc Boronat,4.89,4.01,ok,,medium
+0028648AR,Celtis australis,False,C\ Almogàvers,5.16,5.25,ok,,medium
+0028650AR,Platanus × acerifolia,True,C\ Ciutat de Granada,5.02,4.96,ok,,medium
+0028651AR,Platanus × acerifolia,True,C\ Pallars,24.96,23.64,ok,,large
+0028652AR,Gleditsia triacanthos,False,C\ Sancho de Ávila,5.18,4.34,ok,,medium
+0028653AR,Platanus × acerifolia,True,C\ Buenaventura Muñoz,4.79,4.51,ok,,medium
+0028654AR,Gleditsia triacanthos,False,C\ Sancho de Ávila,,16.35,median,,check
+0028655AR,Platanus × acerifolia,True,Av Diagonal,,19.11,median,14.46,check
+0028657AR,Pinus pinea,False,Ctra Antiga de Mataró,,24.63,no_kerb,,check
+0028658AR,Platanus × acerifolia,True,C\ Llull,4.4,3.05,ok,,medium
+0028659AR,Gleditsia triacanthos,False,C\ Roc Boronat,4.94,4.11,ok,,medium
+0028660AR,Platanus × acerifolia,True,Av Meridiana,17.19,6.74,ok,,large
+0028662AR,Platanus × acerifolia,True,C\ Pujades,,23.92,median,,check
+0028663AR,Platanus × acerifolia,True,C\ Bolívia,11.89,3.61,ok,,large
+0028664AR,Platanus × acerifolia,True,Pg Pujades,11.09,6.73,ok,,large
+0028665AR,Grevillea robusta,False,C\ Badajoz,21.23,20.82,ok,,large
+0028666AR,Platanus × acerifolia,True,C\ Nàpols,5.04,4.13,ok,,medium
+0028667AR,Platanus × acerifolia,True,C\ Wellington,4.87,3.55,ok,,medium
+0028668AR,Grevillea robusta,False,C\ Tànger,4.45,2.56,ok,,medium
+0028669AR,Platanus × acerifolia,True,C\ Sancho de Ávila,6.83,5.99,ok,,large
+0028670AR,Platanus × acerifolia,True,C\ Almogàvers,5.0,4.49,ok,,medium
+0028671AR,Platanus × acerifolia,True,C\ Zamora,6.96,4.5,ok,,large
+0028672AR,Platanus × acerifolia,True,C\ Ciutat de Granada,5.02,4.32,ok,,medium
+0028673AR,Platanus × acerifolia,True,C\ Llacuna,,16.22,median,,check
+0028674AR,Platanus × acerifolia,True,C\ Buenaventura Muñoz,4.75,4.39,ok,,medium
+0028675AR,Gleditsia triacanthos,False,C\ Sancho de Ávila,10.42,9.83,ok,,large
+0028676AR,Gleditsia triacanthos,False,C\ Roc Boronat,5.07,4.32,ok,,medium
+0028677AR,Brachychiton populneus,False,C\ Pere IV,15.39,12.76,ok,,large
+0028678AR,Platanus × acerifolia,True,C\ Àvila,3.81,3.77,ok,,medium
+0028680AR,Brachychiton populneus,False,C\ Pere IV,13.2,11.11,ok,,large
+0028681AR,Platanus × acerifolia,True,C\ Ciutat de Granada,4.84,4.63,ok,,medium
+0028682AR,Platanus × acerifolia,True,C\ Ciutat de Granada,5.17,4.98,ok,,medium
+0028683AR,Platanus × acerifolia,True,C\ Pujades,15.21,13.98,ok,,large
+0028684AR,Gleditsia triacanthos,False,C\ Sancho de Ávila,18.53,9.45,ok,,large
+0028686AR,Platanus × acerifolia,True,C\ Pujades,16.78,15.87,ok,,large
+0028687AR,Platanus × acerifolia,True,Av Diagonal,,31.16,no_facade,4.74,check
+0028688AR,Gleditsia triacanthos,False,C\ Sancho de Ávila,5.11,4.45,ok,,medium
+0028690AR,Cupressus sempervirens,False,C\ Marina,,24.21,median,25.51,check
+0028691AR,Platanus × acerifolia,True,C\ Àvila,4.91,4.59,ok,,medium
+0028693AR,Platanus × acerifolia,True,C\ Pallars,3.66,2.97,ok,,medium
+0028694AR,Platanus × acerifolia,True,C\ Ciutat de Granada,4.83,4.03,ok,,medium
+0028695AR,Platanus × acerifolia,True,C\ Ciutat de Granada,4.84,3.54,ok,,medium
+0028696AR,Platanus × acerifolia,True,C\ Zamora,4.88,3.03,ok,,medium
+0028697AR,Platanus × acerifolia,True,C\ Badajoz,,16.77,median,,check
+0028698AR,Platanus × acerifolia,True,Av Diagonal,6.86,5.79,ok,,large
+0028700AR,Ligustrum lucidum,False,C\ Wellington,5.7,3.97,ok,,medium
+0028701AR,Gleditsia triacanthos 'skyline',False,C\ Sancho de Ávila,6.53,4.76,ok,,large
+0028702AR,Platanus × acerifolia,True,C\ Pallars,4.25,3.41,ok,,medium
+0028703AR,Gleditsia triacanthos,False,Av Meridiana,16.87,9.66,ok,,large
+0028704AR,Gleditsia triacanthos,False,C\ Sancho de Ávila,15.49,13.24,ok,,large
+0028706AR,Platanus × acerifolia,True,Av Diagonal,,42.89,no_facade,4.72,check
+0028707AR,Gleditsia triacanthos,False,Av Meridiana,16.68,11.55,ok,,large
+0028708AR,Platanus × acerifolia,True,C\ Pamplona,8.33,6.81,ok,,large
+0028709AR,Gleditsia triacanthos,False,Av Meridiana,17.22,9.81,ok,,large
+0028710AR,Platanus × acerifolia,True,Av Diagonal,,18.98,median,14.34,check
+0028711AR,Gleditsia triacanthos f. inermis,False,C\ Bolívia,4.62,3.46,ok,,medium
+0028712AR,Ulmus pumila,False,C\ Almogàvers,6.74,6.35,ok,,large
+0028713AR,Celtis australis,False,C\ Àlaba,4.9,4.81,ok,,medium
+0028714AR,Melia azedarach,False,C\ Marina,,5.93,no_kerb,33.29,check
+0028715AR,Grevillea robusta,False,C\ Almogàvers,5.05,3.82,ok,,medium
+0028716AR,Platanus × acerifolia,True,C\ Pallars,4.58,3.69,ok,,medium
+0028717AR,Platanus × acerifolia,True,C\ Pujades,,21.64,median,,check
+0028718AR,Platanus × acerifolia,True,Pg Pujades,,15.7,median,5.25,check
+0028719AR,Gleditsia triacanthos f. inermis,False,C\ Roc Boronat,4.99,3.99,ok,,medium
+0028720AR,Platanus × acerifolia,True,C\ Sancho de Ávila,3.96,3.7,ok,,medium
+0028722AR,Platanus × acerifolia,True,C\ Pujades,15.49,3.87,ok,,large
+0028723AR,Gleditsia triacanthos,False,C\ Roc Boronat,5.2,4.67,ok,,medium
+0028724AR,Gleditsia triacanthos,False,Av Meridiana,24.5,18.69,ok,,large
+0028725AR,Celtis australis,False,C\ Badajoz,8.79,8.15,ok,,large
+0028726AR,Gleditsia triacanthos,False,C\ Roc Boronat,,16.15,median,,check
+0028727AR,Platanus × acerifolia,True,C\ Àvila,4.97,2.91,ok,,medium
+0028728AR,Celtis australis,False,C\ Bolívia,10.4,3.42,ok,,large
+0028730AR,Platanus × acerifolia,True,C\ Sardenya,4.97,4.04,ok,,medium
+0028731AR,Grevillea robusta,False,C\ Badajoz,,43.15,no_facade,,check
+0028732AR,Platanus × acerifolia,True,C\ Almogàvers,,20.33,median,,check
+0028733AR,Platanus × acerifolia,True,C\ Llacuna,10.65,8.76,ok,,large
+0028734AR,Celtis australis,False,C\ Sardenya,4.98,4.86,ok,,medium
+0028735AR,Platanus × acerifolia,True,C\ Ciutat de Granada,4.87,3.86,ok,,medium
+0028737AR,Platanus × acerifolia,True,C\ Pere IV,,4.67,no_kerb,33.99,check
+0028738AR,Platanus × acerifolia,True,C\ Àvila,5.15,5.12,ok,,medium
+0028739AR,Celtis australis,False,C\ Sardenya,5.06,4.23,ok,,medium
+0028740AR,Platanus × acerifolia,True,C\ Buenaventura Muñoz,4.86,4.85,ok,,medium
+0028741AR,Platanus × acerifolia,True,Av Diagonal,,19.01,median,14.27,check
+0028742AR,Platanus × acerifolia,True,C\ Joan d'Àustria,,15.86,median,,check
+0028743AR,Melia azedarach,False,C\ Marina,13.23,6.26,ok,,large
+0028744AR,Platanus × acerifolia,True,C\ Pamplona,6.19,5.36,ok,,large
+0028745AR,Platanus × acerifolia,True,C\ Llacuna,,16.38,median,,check
+0028746AR,Platanus × acerifolia,True,C\ Pallars,4.58,3.62,ok,,medium
+0028747AR,Celtis australis,False,C\ Àlaba,7.31,4.94,ok,,large
+0028748AR,Platanus × acerifolia,True,C\ Joan d'Àustria,4.93,4.27,ok,,medium
+0028749AR,Pinus pinea,False,C\ Pujades,,13.64,no_kerb,,check
+0028750AR,Platanus × acerifolia,True,C\ Àlaba,4.69,5.12,ok,,medium
+0028751AR,Platanus × acerifolia,True,Av Meridiana,9.05,7.59,ok,,large
+0028752AR,Grevillea robusta,False,C\ Almogàvers,4.86,3.72,ok,,medium
+0028753AR,Platanus × acerifolia,True,C\ Roger de Flor,4.96,3.89,ok,,medium
+0028754AR,Platanus × acerifolia,True,C\ Bolívia,12.34,8.74,ok,,large
+0028755AR,Grevillea robusta,False,C\ Tànger,4.44,2.65,ok,,medium
+0028756AR,Platanus × acerifolia,True,C\ Badajoz,4.82,3.72,ok,,medium
+0028757AR,Gleditsia triacanthos f. inermis,False,C\ Pamplona,4.11,3.9,ok,,medium
+0028758AR,Gleditsia triacanthos,False,C\ Roc Boronat,,15.46,median,8.67,check
+0028759AR,Celtis australis,False,C\ Sancho de Ávila,4.0,3.57,ok,,medium
+0028760AR,Platanus × acerifolia,True,C\ Pallars,4.57,3.3,ok,,medium
+0028761AR,Celtis australis,False,C\ Buenaventura Muñoz,4.84,4.26,ok,,medium
+0028762AR,Platanus × acerifolia,True,Av Meridiana,16.84,6.9,ok,,large
+0028763AR,Grevillea robusta,False,C\ Badajoz,22.22,20.82,ok,,large
+0028764AR,Platanus × acerifolia,True,Av Diagonal,4.74,4.25,ok,,medium
+0028766AR,Gleditsia triacanthos,False,C\ Sancho de Ávila,6.53,4.85,ok,,large
+0028767AR,Gleditsia triacanthos,False,C\ Sancho de Ávila,5.09,4.32,ok,,medium
+0028768AR,Platanus × acerifolia,True,C\ Llull,,16.48,median,,check
+0028769AR,Gleditsia triacanthos,False,C\ Sancho de Ávila,,15.81,median,,check
+0028770AR,Platanus × acerifolia,True,C\ Llacuna,13.35,11.6,ok,,large
+0028771AR,Grevillea robusta,False,C\ Tànger,4.57,3.85,ok,,medium
+0028772AR,Melia azedarach,False,C\ Marina,13.2,6.08,ok,,large
+0028773AR,Platanus × acerifolia,True,C\ Pallars,10.86,9.45,ok,,large
+0028774AR,Platanus × acerifolia,True,C\ Zamora,4.14,4.19,ok,,medium
+0028775AR,Platanus × acerifolia,True,C\ Zamora,4.77,3.4,ok,,medium
+0028776AR,Platanus × acerifolia,True,C\ Àvila,4.94,4.77,ok,,medium
+0028777AR,Pinus pinea,False,Ctra Antiga de Mataró,,11.33,no_kerb,,check
+0028778AR,Platanus × acerifolia,True,C\ Pujades,3.14,2.64,ok,,small
+0028779AR,Grevillea robusta,False,C\ Almogàvers,4.82,4.71,ok,,medium
+0028780AR,Platanus × acerifolia,True,C\ Pallars,5.56,4.77,ok,,medium
+0028781AR,Platanus × acerifolia,True,C\ Buenaventura Muñoz,5.06,4.7,ok,,medium
+0028782AR,Pinus pinea,False,Ctra Antiga de Mataró,,8.99,no_kerb,,check
+0028783AR,Platanus × acerifolia,True,Av Diagonal,,18.57,median,14.72,check
+0028785AR,Grevillea robusta,False,C\ Tànger,4.74,3.67,ok,,medium
+0028786AR,Platanus × acerifolia,True,C\ Llull,4.4,3.35,ok,,medium
+0028787AR,Platanus × acerifolia,True,Av Diagonal,,19.03,median,14.62,check
+0028788AR,Platanus × acerifolia,True,C\ Pujades,16.66,15.61,ok,,large
+0028789AR,Celtis australis,False,C\ Pujades,11.77,10.88,ok,,large
+0028790AR,Grevillea robusta,False,C\ Almogàvers,4.72,3.12,ok,,medium
+0028791AR,Grevillea robusta,False,C\ Llacuna,5.93,5.42,ok,,medium
+0028792AR,Grevillea robusta,False,C\ Almogàvers,,5.26,median,10.69,check
+0028793AR,Celtis australis,False,C\ Llacuna,,15.62,median,,check
+0028794AR,Platanus × acerifolia,True,Av Diagonal,5.79,4.71,ok,,medium
+0028795AR,Gleditsia triacanthos,False,C\ Roc Boronat,,15.86,median,,check
+0028796AR,Celtis australis,False,C\ Sardenya,5.11,4.5,ok,,medium
+0028798AR,Grevillea robusta,False,C\ Tànger,3.89,3.18,ok,,medium
+0028799AR,Platanus × acerifolia,True,C\ Pujades,16.78,7.65,ok,,large
+0028800AR,Platanus × acerifolia,True,C\ Joan d'Àustria,4.94,5.22,ok,,medium
+0028801AR,Platanus × acerifolia,True,C\ Wellington,,14.78,median,5.19,check
+0028802AR,Pinus pinea,False,C\ Pujades,,13.67,no_kerb,,check
+0028803AR,Melia azedarach,False,C\ Marina,10.71,4.16,ok,,large
+0028804AR,Platanus × acerifolia,True,C\ Pallars,5.56,4.69,ok,,medium
+0028805AR,Platanus × acerifolia,True,C\ Llull,,33.98,no_facade,18.32,check
+0028806AR,Gleditsia triacanthos,False,C\ Sancho de Ávila,4.36,5.01,ok,,medium
+0028807AR,Platanus × acerifolia,True,C\ Pujades,4.98,3.92,ok,,medium
+0028808AR,Platanus × acerifolia,True,Pg Pujades,10.86,6.95,ok,,large
+0028810AR,Platanus × acerifolia,True,Av Diagonal,5.29,4.34,ok,,medium
+0028812AR,Celtis australis,False,C\ Sardenya,5.11,4.37,ok,,medium
+0028813AR,Celtis australis,False,C\ Àlaba,6.56,3.76,ok,,large
+0028815AR,Platanus × acerifolia,True,C\ Llull,6.77,6.13,ok,,large
+0028816AR,Platanus × acerifolia,True,C\ Llull,,22.26,median,9.3,check
+0028817AR,Platanus × acerifolia,True,C\ Pujades,10.99,6.2,ok,,large
+0028818AR,Tipuana tipu,False,Av Bogatell,,8.82,no_kerb,39.93,check
+0028820AR,Gleditsia triacanthos,False,C\ Almogàvers,11.35,5.08,ok,,large
+0028821AR,Platanus × acerifolia,True,C\ Nàpols,4.95,4.54,ok,,medium
+0028822AR,Platanus × acerifolia,True,C\ Llull,4.4,3.71,ok,,medium
+0028823AR,Gleditsia triacanthos,False,C\ Sancho de Ávila,,17.26,median,,check
+0028824AR,Gleditsia triacanthos,False,C\ Sancho de Ávila,5.28,4.3,ok,,medium
+0028825AR,Grevillea robusta,False,C\ Badajoz,22.19,20.94,ok,,large
+0028826AR,Platanus × acerifolia,True,C\ Llacuna,,16.52,median,,check
+0028827AR,Platanus × acerifolia,True,C\ Pallars,4.58,4.01,ok,,medium
+0028828AR,Platanus × acerifolia,True,C\ Pujades,11.13,5.49,ok,,large
+0028829AR,Grevillea robusta,False,C\ Badajoz,4.71,4.99,ok,,medium
+0028830AR,Platanus × acerifolia,True,C\ Llull,5.09,4.09,ok,,medium
+0028831AR,Gleditsia triacanthos f. inermis,False,C\ Pujades,,21.13,median,,check
+0028832AR,Prunus cerasifera 'Pissardii',False,Av Meridiana,,33.37,no_facade,29.9,check
+0028833AR,Celtis australis,False,C\ Sardenya,5.28,3.77,ok,,medium
+0028834AR,Platanus × acerifolia,True,C\ Ciutat de Granada,5.02,4.96,ok,,medium
+0028835AR,Platanus × acerifolia,True,C\ Llull,9.42,6.95,ok,,large
+0028836AR,Platanus × acerifolia,True,Av Diagonal,,20.99,median,14.27,check
+0028837AR,Platanus × acerifolia,True,C\ Badajoz,4.94,4.98,ok,,medium
+0028838AR,Platanus × acerifolia,True,C\ Pamplona,4.83,3.91,ok,,medium
+0028839AR,Gleditsia triacanthos,False,Av Meridiana,16.71,11.48,ok,,large
+0028840AR,Celtis australis,False,C\ Àlaba,4.91,3.97,ok,,medium
+0028841AR,Platanus × acerifolia,True,C\ Wellington,4.69,4.09,ok,,medium
+0028842AR,Pinus pinea,False,Ctra Antiga de Mataró,28.11,8.66,ok,,large
+0028844AR,Tipuana tipu,False,C\ Sancho de Ávila,,18.78,median,12.08,check
+0028845AR,Platanus × acerifolia,True,C\ Llacuna,,21.46,median,,check
+0028846AR,Pinus pinea,False,C\ Pere IV,,19.28,no_kerb,,check
+0028847AR,Platanus × acerifolia,True,C\ Pujades,4.8,2.5,ok,,medium
+0028848AR,Gleditsia triacanthos,False,C\ Sancho de Ávila,,15.55,median,,check
+0028849AR,Celtis australis,False,C\ Àlaba,5.39,4.41,ok,,medium
+0028850AR,Platanus × acerifolia,True,C\ Llacuna,,16.29,median,,check
+0028851AR,Platanus × acerifolia,True,C\ Pamplona,4.92,3.87,ok,,medium
+0028852AR,Celtis australis,False,C\ Sardenya,5.04,4.11,ok,,medium
+0028853AR,Platanus × acerifolia,True,Av Meridiana,24.51,12.46,ok,,large
+0028855AR,Platanus × acerifolia,True,C\ Bolívia,15.05,4.2,ok,,large
+0028857AR,Platanus × acerifolia,True,C\ Pallars,,16.6,median,5.02,check
+0028858AR,Pinus pinea,False,Ctra Antiga de Mataró,18.92,11.21,ok,,large
+0028859AR,Platanus × acerifolia,True,C\ Tànger,9.42,7.61,ok,,large
+0028860AR,Grevillea robusta,False,C\ Tànger,4.63,3.99,ok,,medium
+0028861AR,Pinus pinea,False,C\ Pujades,,24.37,no_kerb,,check
+0028862AR,Platanus × acerifolia,True,Pg Pujades,,15.26,median,4.83,check
+0028863AR,Grevillea robusta,False,C\ Badajoz,9.17,9.05,ok,,large
+0028864AR,Gleditsia triacanthos,False,C\ Sancho de Ávila,16.47,14.28,ok,,large
+0028865AR,Platanus × acerifolia,True,Av Diagonal,4.72,4.48,ok,,medium
+0028866AR,Platanus × acerifolia,True,C\ Nàpols,4.92,4.44,ok,,medium
+0028867AR,Celtis australis,False,C\ Àlaba,5.07,4.1,ok,,medium
+0028868AR,Platanus × acerifolia,True,C\ Sardenya,,5.88,median,9.98,check
+0028869AR,Platanus × acerifolia,True,C\ Almogàvers,6.37,6.35,ok,,large
+0028871AR,Celtis australis,False,C\ Buenaventura Muñoz,4.9,4.38,ok,,medium
+0028872AR,Gleditsia triacanthos,False,C\ Sancho de Ávila,4.84,4.01,ok,,medium
+0028873AR,Celtis australis,False,C\ Ciutat de Granada,12.52,10.11,ok,,large
+0028874AR,Celtis australis,False,C\ Almogàvers,4.82,4.16,ok,,medium
+0028875AR,Platanus × acerifolia,True,C\ Pallars,3.35,2.48,ok,,small
+0028876AR,Platanus × acerifolia,True,Av Diagonal,,32.87,no_facade,14.54,check
+0028877AR,Gleditsia triacanthos,False,Av Meridiana,16.76,10.36,ok,,large
+0028878AR,Celtis australis,False,C\ Roger de Flor,4.93,4.61,ok,,medium
+0028880AR,Ulmus pumila,False,Av Meridiana,9.45,2.54,ok,,large
+0028881AR,Melia azedarach,False,C\ Marina,14.41,5.23,ok,,large
+0028884AR,Celtis australis,False,C\ Llacuna,,17.61,median,,check
+0028885AR,Grevillea robusta,False,C\ Tànger,4.45,3.68,ok,,medium
+0028886AR,Platanus × acerifolia,True,C\ Pujades,16.67,7.39,ok,,large
+0028887AR,Platanus × acerifolia,True,C\ Almogàvers,4.41,3.56,ok,,medium
+0028888AR,Melia azedarach,False,C\ Pallars,9.15,7.86,ok,,large
+0028890AR,Platanus × acerifolia,True,C\ Llull,23.72,11.26,ok,,large
+0028891AR,Celtis australis,False,C\ Wellington,4.8,3.82,ok,,medium
+0028892AR,Platanus × acerifolia,True,C\ Pallars,6.2,5.47,ok,,large
+0028893AR,Firmiana simplex,False,C\ Pujades,,18.33,median,24.39,check
+0028894AR,Melia azedarach,False,C\ Marina,13.21,6.34,ok,,large
+0028895AR,Celtis australis,False,C\ Llacuna,5.32,4.19,ok,,medium
+0028896AR,Platanus × acerifolia,True,Av Diagonal,5.17,4.03,ok,,medium
+0028897AR,Platanus × acerifolia,True,C\ Llacuna,10.83,9.11,ok,,large
+0028898AR,Gleditsia triacanthos,False,C\ Sancho de Ávila,6.54,4.48,ok,,large
+0028899AR,Pinus pinea,False,C\ Pere IV,,29.6,no_kerb,,check
+0028900AR,Melia azedarach,False,C\ Buenaventura Muñoz,15.16,12.49,ok,,large
+0028901AR,Brachychiton populneus,False,C\ Pere IV,14.51,12.07,ok,,large
+0028903AR,Gleditsia triacanthos,False,C\ Bolívia,4.94,4.33,ok,,medium
+0028904AR,Platanus × acerifolia,True,Pg Pujades,10.98,6.85,ok,,large
+0028905AR,Platanus × acerifolia,True,Av Diagonal,,33.37,no_facade,14.48,check
+0028906AR,Gleditsia triacanthos,False,C\ Bolívia,5.02,4.44,ok,,medium
+0028908AR,Platanus × acerifolia,True,C\ Badajoz,,12.68,median,5.13,check
+0028909AR,Platanus × acerifolia,True,C\ Llacuna,5.32,4.55,ok,,medium
+0028910AR,Gleditsia triacanthos,False,C\ Tànger,9.7,8.19,ok,,large
+0028911AR,Platanus × acerifolia,True,C\ Llacuna,,21.3,median,,check
+0028913AR,Platanus × acerifolia,True,C\ Pujades,4.96,3.6,ok,,medium
+0028914AR,Celtis australis,False,C\ Buenaventura Muñoz,5.13,5.6,ok,,medium
+0028915AR,Platanus × acerifolia,True,C\ Pallars,4.58,3.4,ok,,medium
+0028916AR,Platanus × acerifolia,True,C\ Pujades,4.77,2.98,ok,,medium
+0028917AR,Platanus × acerifolia,True,Av Diagonal,,23.37,median,14.37,check
+0028918AR,Platanus × acerifolia,True,C\ Sancho de Ávila,4.96,4.7,ok,,medium
+0028919AR,Brachychiton populneus,False,C\ Pujades,16.27,13.43,ok,,large
+0028922AR,Platanus × acerifolia,True,C\ Zamora,5.01,5.34,ok,,medium
+0028923AR,Gleditsia triacanthos,False,C\ Roc Boronat,5.05,4.39,ok,,medium
+0028924AR,Platanus × acerifolia,True,C\ Badajoz,13.09,3.47,ok,,large
+0028925AR,Platanus × acerifolia,True,C\ Badajoz,5.26,4.69,ok,,medium
+0028926AR,Celtis australis,False,C\ Àlaba,4.92,5.31,ok,,medium
+0028927AR,Platanus × acerifolia,True,C\ Wellington,,14.17,median,6.28,check
+0028928AR,Celtis sinensis,False,Av Meridiana,9.37,8.21,ok,,large
+0028929AR,Platanus × acerifolia,True,C\ Badajoz,13.27,13.97,ok,,large
+0028930AR,Platanus × acerifolia,True,C\ Sancho de Ávila,12.01,10.22,ok,,large
+0028931AR,Grevillea robusta,False,C\ Badajoz,,24.42,median,,check
+0028932AR,Celtis australis,False,C\ Àlaba,7.31,4.92,ok,,large
+0028933AR,Platanus × acerifolia,True,C\ Pallars,16.04,13.09,ok,,large
+0028934AR,Platanus × acerifolia,True,C\ Ciutat de Granada,5.02,5.04,ok,,medium
+0028935AR,Gleditsia triacanthos,False,C\ Pamplona,4.53,3.47,ok,,medium
+0028936AR,Melia azedarach,False,C\ Marina,12.35,5.21,ok,,large
+0028937AR,Platanus × acerifolia,True,C\ Tànger,9.04,8.4,ok,,large
+0028938AR,Gleditsia triacanthos,False,C\ Pamplona,9.82,8.48,ok,,large
+0028939AR,Grevillea robusta,False,C\ Almogàvers,4.52,2.34,ok,,medium
+0028940AR,Platanus × acerifolia,True,C\ Pujades,,23.92,median,,check
+0028941AR,Platanus × acerifolia,True,C\ Pamplona,,22.07,median,10.15,check
+0028943AR,Platanus × acerifolia,True,C\ Pallars,23.39,19.02,ok,,large
+0028944AR,Platanus × acerifolia,True,C\ Ciutat de Granada,5.02,4.91,ok,,medium
+0028945AR,Brachychiton populneus,False,C\ Pujades,10.97,8.42,ok,,large
+0028946AR,Platanus × acerifolia,True,C\ Wellington,4.89,3.83,ok,,medium
+0028947AR,Platanus × acerifolia,True,C\ Bolívia,,16.05,median,3.58,check
+0028948AR,Gleditsia triacanthos,False,Av Meridiana,,27.8,median,24.07,check
+0028950AR,Platanus × acerifolia,True,C\ Tànger,10.9,6.06,ok,,large
+0028951AR,Gleditsia triacanthos,False,C\ Tànger,22.29,21.31,ok,,large
+0028952AR,Melia azedarach,False,C\ Marina,16.63,6.35,ok,,large
+0028953AR,Platanus × acerifolia,True,C\ Ciutat de Granada,4.92,3.84,ok,,medium
+0028954AR,Platanus × acerifolia,True,C\ Almogàvers,,13.86,median,18.67,check
+0028955AR,Gleditsia triacanthos,False,C\ Roc Boronat,4.81,3.97,ok,,medium
+0028956AR,Platanus × acerifolia,True,C\ Pallars,4.71,4.06,ok,,medium
+0028957AR,Melia azedarach,False,C\ Marina,13.22,6.23,ok,,large
+0028958AR,Platanus × acerifolia,True,C\ Llacuna,,16.18,median,,check
+0028959AR,Melia azedarach,False,C\ Marina,13.95,5.03,ok,,large
+0028960AR,Grevillea robusta,False,C\ Almogàvers,4.74,3.22,ok,,medium
+0028961AR,Platanus × acerifolia,True,C\ Llull,17.23,6.59,ok,,large
+0028962AR,Platanus × acerifolia,True,Pg Pujades,,15.28,median,4.83,check
+0028963AR,Platanus × acerifolia,True,C\ Llull,5.1,4.52,ok,,medium
+0028964AR,Celtis australis,False,C\ Sardenya,5.09,4.55,ok,,medium
+0028965AR,Platanus × acerifolia,True,C\ Ciutat de Granada,4.89,3.73,ok,,medium
+0028966AR,Celtis australis,False,C\ Wellington,4.7,4.08,ok,,medium
+0028967AR,Grevillea robusta,False,C\ Almogàvers,17.21,9.68,ok,,large
+0028968AR,Gleditsia triacanthos,False,C\ Pamplona,4.11,3.93,ok,,medium
+0028969AR,Celtis australis,False,C\ Buenaventura Muñoz,5.0,4.76,ok,,medium
+0028970AR,Platanus × acerifolia,True,C\ Àvila,3.97,2.6,ok,,medium
+0028971AR,Platanus × acerifolia,True,Av Meridiana,,23.1,no_kerb,31.49,check
+0028972AR,Melia azedarach,False,C\ Buenaventura Muñoz,5.13,4.67,ok,,medium
+0028973AR,Grevillea robusta,False,C\ Tànger,5.89,4.9,ok,,medium
+0028974AR,Platanus × acerifolia,True,C\ Pallars,3.86,3.24,ok,,medium
+0028976AR,Celtis australis,False,C\ Àlaba,7.31,4.51,ok,,large
+0028977AR,Platanus × acerifolia,True,C\ Sancho de Ávila,6.56,2.71,ok,,large
+0028978AR,Gleditsia triacanthos f. inermis,False,C\ Sancho de Ávila,9.79,6.83,ok,,large
+0028979AR,Platanus × acerifolia,True,C\ Pujades,,23.6,median,,check
+0028980AR,Melia azedarach,False,C\ Marina,14.86,5.49,ok,,large
+0028981AR,Platanus × acerifolia,True,C\ Pujades,5.25,2.93,ok,,medium
+0028982AR,Platanus × acerifolia,True,C\ Àvila,,17.14,median,11.82,check
+0028984AR,Gleditsia triacanthos,False,C\ Roc Boronat,4.82,3.91,ok,,medium
+0028985AR,Gleditsia triacanthos,False,C\ Bolívia,4.96,4.05,ok,,medium
+0028986AR,Platanus × acerifolia,True,C\ Ciutat de Granada,4.96,3.72,ok,,medium
+0028987AR,Platanus × acerifolia,True,C\ Pamplona,8.53,6.8,ok,,large
+0028988AR,Platanus × acerifolia,True,C\ Ciutat de Granada,4.94,3.89,ok,,medium
+0028989AR,Platanus × acerifolia,True,C\ Llacuna,,15.93,median,,check
+0028990AR,Platanus × acerifolia,True,C\ Bolívia,4.63,4.12,ok,,medium
+0028991AR,Platanus × acerifolia,True,Av Diagonal,,40.9,no_facade,14.42,check
+0028992AR,Grevillea robusta,False,C\ Tànger,6.27,4.04,ok,,large
+0028993AR,Platanus × acerifolia,True,C\ Badajoz,4.9,4.8,ok,,medium
+0028995AR,Gleditsia triacanthos,False,C\ Sancho de Ávila,5.04,4.33,ok,,medium
+0028996AR,Platanus × acerifolia,True,C\ Sancho de Ávila,9.74,8.55,ok,,large
+0028997AR,Melia azedarach,False,C\ Marina,13.13,6.09,ok,,large
+0028999AR,Platanus × acerifolia,True,Av Diagonal,,43.83,no_facade,4.75,check
+0029000AR,Gleditsia triacanthos,False,C\ Sancho de Ávila,,29.48,median,,check
+0029001AR,Platanus × acerifolia,True,C\ Ciutat de Granada,6.47,5.1,ok,,large
+0029003AR,Melia azedarach,False,C\ Marina,13.37,4.72,ok,,large
+0029004AR,Brachychiton populneus,False,C\ Pujades,17.14,14.85,ok,,large
+0029005AR,Gleditsia triacanthos 'sunburst',False,C\ Roc Boronat,4.79,3.78,ok,,medium
+0029006AR,Platanus × acerifolia,True,C\ Badajoz,5.12,3.89,ok,,medium
+0029007AR,Platanus × acerifolia,True,C\ Llull,5.08,4.1,ok,,medium
+0029008AR,Grevillea robusta,False,C\ Tànger,4.71,4.03,ok,,medium
+0029010AR,Platanus × acerifolia,True,C\ Buenaventura Muñoz,5.03,4.8,ok,,medium
+0029011AR,Platanus × acerifolia,True,C\ Sancho de Ávila,,20.79,median,23.43,check
+0029012AR,Platanus × acerifolia,True,C\ Zamora,,14.92,median,,check
+0029013AR,Celtis australis,False,C\ Àlaba,4.96,3.79,ok,,medium
+0029014AR,Gleditsia triacanthos,False,C\ Sancho de Ávila,8.88,8.03,ok,,large
+0029015AR,Platanus × acerifolia,True,C\ Zamora,4.12,4.4,ok,,medium
+0029016AR,Gleditsia triacanthos,False,C\ Sancho de Ávila,17.11,16.33,ok,,large
+0029018AR,Gleditsia triacanthos,False,C\ Sancho de Ávila,13.77,12.87,ok,,large
+0029019AR,Platanus × acerifolia,True,C\ Pujades,,23.25,median,,check
+0029020AR,Platanus × acerifolia,True,C\ Pamplona,4.63,4.03,ok,,medium
+0029021AR,Melia azedarach,False,C\ Marina,11.09,4.5,ok,,large
+0029023AR,Brachychiton populneus,False,C\ Pere IV,12.61,10.01,ok,,large
+0029024AR,Celtis australis,False,C\ Sancho de Ávila,15.95,14.76,ok,,large
+0029025AR,Platanus × acerifolia,True,C\ Àlaba,4.9,3.83,ok,,medium
+0029026AR,Pinus pinea,False,C\ Pujades,,29.53,median,,check
+0029027AR,Platanus × acerifolia,True,C\ Llull,4.35,3.84,ok,,medium
+0029029AR,Platanus × acerifolia,True,C\ Sancho de Ávila,,7.83,median,,check
+0029030AR,Platanus × acerifolia,True,C\ Badajoz,4.79,3.93,ok,,medium
+0029031AR,Platanus × acerifolia,True,C\ Buenaventura Muñoz,5.11,4.59,ok,,medium
+0029032AR,Cupressus sempervirens,False,Ctra Antiga de Mataró,,22.22,no_kerb,,check
+0029033AR,Celtis australis,False,C\ Almogàvers,5.43,4.27,ok,,medium
+0029035AR,Platanus × acerifolia,True,C\ Llacuna,,16.24,median,,check
+0029036AR,Platanus × acerifolia,True,C\ Tànger,5.87,5.36,ok,,medium
+0029037AR,Grevillea robusta,False,C\ Badajoz,4.34,4.65,ok,,medium
+0029038AR,Platanus × acerifolia,True,C\ Joan d'Àustria,8.08,8.23,ok,,large
+0029039AR,Platanus × acerifolia,True,C\ Sancho de Ávila,6.8,5.77,ok,,large
+0029040AR,Gleditsia triacanthos,False,C\ Llacuna,,16.86,median,,check
+0029041AR,Platanus × acerifolia,True,C\ Llacuna,,16.35,median,,check
+0029042AR,Platanus × acerifolia,True,Av Diagonal,,8.53,median,5.38,check
+0029043AR,Platanus × acerifolia,True,C\ Pallars,4.63,3.66,ok,,medium
+0029044AR,Platanus × acerifolia,True,C\ Llacuna,,23.11,median,,check
+0029045AR,Platanus × acerifolia,True,C\ Àvila,9.11,8.41,ok,,large
+0029046AR,Gleditsia triacanthos,False,C\ Sancho de Ávila,,15.9,median,,check
+0029047AR,Platanus × acerifolia,True,C\ Pallars,4.31,3.43,ok,,medium
+0029048AR,Platanus × acerifolia,True,Av Diagonal,4.73,4.02,ok,,medium
+0029049AR,Gleditsia triacanthos f. inermis,False,C\ Pujades,4.72,3.06,ok,,medium
+0029050AR,Platanus × acerifolia,True,C\ Pujades,12.99,11.91,ok,,large
+0029051AR,Melia azedarach,False,C\ Sardenya,5.01,4.84,ok,,medium
+0029052AR,Grevillea robusta,False,C\ Badajoz,,34.51,no_facade,,check
+0029053AR,Platanus × acerifolia,True,Av Diagonal,4.74,3.98,ok,,medium
+0029054AR,Celtis australis,False,C\ Buenaventura Muñoz,5.02,4.52,ok,,medium
+0029055AR,Platanus × acerifolia,True,C\ Pamplona,5.05,4.11,ok,,medium
+0029056AR,Platanus × acerifolia,True,C\ Zamora,,15.88,median,,check
+0029057AR,Gleditsia triacanthos,False,C\ Pamplona,4.96,3.99,ok,,medium
+0029058AR,Platanus × acerifolia,True,C\ Pujades,4.96,4.83,ok,,medium
+0029059AR,Brachychiton populneus,False,C\ Pere IV,12.47,9.7,ok,,large
+0029060AR,Platanus × acerifolia,True,Pg Pujades,15.67,7.3,ok,,large
+0029061AR,Platanus × acerifolia,True,C\ Ciutat de Granada,3.41,4.36,ok,,small
+0029062AR,Platanus × acerifolia,True,C\ Joan d'Àustria,4.87,4.07,ok,,medium
+0029063AR,Gleditsia triacanthos,False,C\ Sancho de Ávila,27.3,25.99,ok,,large
+0029064AR,Tipuana tipu,False,Av Bogatell,24.89,5.96,ok,,large
+0029065AR,Platanus × acerifolia,True,C\ Àlaba,4.9,4.55,ok,,medium
+0029066AR,Celtis australis,False,Av Meridiana,,46.23,no_facade,,check
+0029067AR,Tipuana tipu,False,C\ Sancho de Ávila,,14.75,no_kerb,33.19,check
+0029068AR,Grevillea robusta,False,C\ Bolívia,28.63,27.27,ok,,large
+0029070AR,Platanus × acerifolia,True,Pg Pujades,,15.4,median,5.19,check
+0252742AR,Phytolacca dioica,False,C\ Marina,,29.21,median,12.72,check
+0283721AR,Brachychiton populneus,False,Av Meridiana,,40.22,no_facade,4.25,check
+0283765AR,Brachychiton populneus,False,Av Meridiana,,39.12,no_facade,4.18,check
+0287146AR,Jacaranda mimosifolia,False,C\ Àlaba,,0.47,no_kerb,,check
+0290229AR,Tipuana tipu,False,Pl Josep Antoni Coderch,,56.55,no_facade,8.52,check
+0290230AR,Koelreuteria paniculata,False,Pl Josep Antoni Coderch,,45.8,no_facade,9.55,check
+0290231AR,Tipuana tipu,False,Pl Josep Antoni Coderch,,50.16,no_facade,9.14,check
+0290233AR,Koelreuteria paniculata,False,Pl Josep Antoni Coderch,,60.41,no_facade,8.48,check
+0290235AR,Cercis siliquastrum,False,Pl Josep Antoni Coderch,,66.16,no_facade,13.35,check
+0290236AR,Tipuana tipu,False,Pl Josep Antoni Coderch,,69.12,no_facade,10.23,check
+0290239AR,Cercis siliquastrum,False,Pl Josep Antoni Coderch,,61.4,no_facade,6.6,check
+0290240AR,Koelreuteria paniculata,False,Pl Josep Antoni Coderch,,56.26,no_facade,17.09,check
+0290241AR,Tipuana tipu,False,Pl Josep Antoni Coderch,,54.36,no_facade,11.92,check
+0290242AR,Cercis siliquastrum,False,Pl Josep Antoni Coderch,,57.36,no_facade,11.14,check
+0290244AR,Jacaranda mimosifolia,False,Pl Josep Antoni Coderch,,52.44,no_facade,5.25,check
+0290248AR,Tipuana tipu,False,Pl Santiago Pey,,38.32,no_facade,,check
+0290249AR,Tipuana tipu,False,Pl Santiago Pey,,36.81,no_facade,,check
+0290250AR,Tipuana tipu,False,Pl Santiago Pey,,46.77,no_facade,,check
+0290251AR,Tipuana tipu,False,Pl Santiago Pey,,45.06,no_facade,,check
+0290252AR,Tipuana tipu,False,Pl Santiago Pey,,54.1,no_facade,,check
+0290253AR,Tipuana tipu,False,Pl Santiago Pey,,52.84,no_facade,,check
+0290254AR,Tipuana tipu,False,Pl Santiago Pey,,63.65,no_facade,16.85,check
+0290256AR,Tipuana tipu,False,Pl Santiago Pey,,66.92,no_facade,16.83,check
+0290258AR,Tipuana tipu,False,Pl Santiago Pey,,57.33,no_facade,16.82,check
+0290261AR,Gleditsia triacanthos f. inermis,False,Jard Elisava,,7.1,median,,check
+0290262AR,Gleditsia triacanthos f. inermis,False,Jard Elisava,,7.34,median,,check
+0290263AR,Gleditsia triacanthos f. inermis,False,Jard Elisava,,7.26,median,,check
+0290264AR,Gleditsia triacanthos f. inermis,False,Jard Elisava,,7.05,median,,check
+0290266AR,Gleditsia triacanthos f. inermis,False,Jard Elisava,,7.05,median,,check
+0290267AR,Gleditsia triacanthos f. inermis,False,Jard Elisava,,7.0,median,,check
+0290268AR,Gleditsia triacanthos f. inermis,False,Jard Elisava,,6.96,median,,check
+0290269AR,Gleditsia triacanthos f. inermis,False,Jard Elisava,,6.92,median,,check
+0290270AR,Gleditsia triacanthos f. inermis,False,Jard Elisava,,6.87,median,,check
+0290271AR,Gleditsia triacanthos f. inermis,False,Jard Elisava,,6.81,median,,check
+0290272AR,Gleditsia triacanthos f. inermis,False,Jard Elisava,,6.76,median,,check
+0290273AR,Gleditsia triacanthos f. inermis,False,Jard Elisava,,6.71,median,,check
+0290274AR,Gleditsia triacanthos f. inermis,False,Jard Elisava,,6.66,median,27.48,check
+0290275AR,Gleditsia triacanthos f. inermis,False,Jard Elisava,,6.61,median,27.47,check
+0290276AR,Jacaranda mimosifolia,False,Pl Santiago Pey,,38.81,no_facade,,check
+0290277AR,Melia azedarach,False,Jard Elisava,,13.06,median,27.46,check
+0290278AR,Melia azedarach,False,Jard Elisava,,13.22,median,27.46,check
+0290279AR,Melia azedarach,False,Jard Elisava,,13.42,median,27.49,check
+0290280AR,Gleditsia triacanthos f. inermis,False,Jard Elisava,,6.5,median,27.49,check
+0290281AR,Jacaranda mimosifolia,False,Pl Santiago Pey,,25.28,median,,check
+0290282AR,Jacaranda mimosifolia,False,Pl Santiago Pey,,29.95,median,,check
+0290283AR,Grevillea robusta,False,C\ Badajoz,,36.51,no_facade,,check
+0290284AR,Jacaranda mimosifolia,False,Pl Santiago Pey,,32.21,no_facade,49.98,check
+0290285AR,Jacaranda mimosifolia,False,Pl Santiago Pey,,35.53,no_facade,,check
+0290286AR,Jacaranda mimosifolia,False,Pl Santiago Pey,,41.5,no_facade,,check
+0290287AR,Melia azedarach,False,Jard Elisava,,13.14,median,27.46,check
+0290288AR,Melia azedarach,False,Jard Elisava,,13.17,median,27.46,check
+0290289AR,Melia azedarach,False,Jard Elisava,,13.02,median,27.46,check
+0290290AR,Melia azedarach,False,Jard Elisava,,12.89,median,27.47,check
+0290291AR,Jacaranda mimosifolia,False,Pl Josep Antoni Coderch,,46.28,no_facade,,check
+0290293AR,Jacaranda mimosifolia,False,Pl Josep Antoni Coderch,,46.19,no_facade,,check
+0290294AR,Jacaranda mimosifolia,False,Pl Josep Antoni Coderch,,52.17,no_facade,,check
+0290295AR,Jacaranda mimosifolia,False,Pl Josep Antoni Coderch,,52.22,no_facade,,check
+0290296AR,Jacaranda mimosifolia,False,Pl Josep Antoni Coderch,,52.26,no_facade,,check
+0290297AR,Jacaranda mimosifolia,False,Pl Josep Antoni Coderch,,52.3,no_facade,,check
+0290298AR,Jacaranda mimosifolia,False,Pl Josep Antoni Coderch,,46.5,no_facade,,check
+0290299AR,Jacaranda mimosifolia,False,Pl Josep Antoni Coderch,,46.46,no_facade,,check
+0290300AR,Jacaranda mimosifolia,False,Pl Josep Antoni Coderch,,47.01,no_facade,,check
+0290301AR,Jacaranda mimosifolia,False,Pl Josep Antoni Coderch,,52.35,no_facade,,check
+0290302AR,Jacaranda mimosifolia,False,Pl Santiago Pey,,34.75,no_facade,,check
+0290303AR,Jacaranda mimosifolia,False,Pl Santiago Pey,,37.19,no_facade,,check
+0290304AR,Jacaranda mimosifolia,False,Pl Santiago Pey,,39.66,no_facade,,check
+0290305AR,Melia azedarach,False,Jard Elisava,,15.24,median,,check
+0290309AR,Melia azedarach,False,Jard Elisava,,16.8,median,,check
+0290310AR,Melia azedarach,False,Jard Elisava,,26.6,median,,check
+0290311AR,Melia azedarach,False,Jard Elisava,,22.11,median,,check
+0290312AR,Melia azedarach,False,Jard Elisava,,23.66,median,,check
+0290314AR,Melia azedarach,False,Jard Elisava,,17.22,median,,check
+0290315AR,Melia azedarach,False,Jard Elisava,,12.32,median,,check
+0290316AR,Gleditsia triacanthos f. inermis,False,Jard Elisava,,6.0,median,4.76,check
+0290317AR,Gleditsia triacanthos f. inermis,False,Jard Elisava,,6.06,median,4.77,check
+0290318AR,Gleditsia triacanthos f. inermis,False,Jard Elisava,,5.92,median,4.75,check
+0290319AR,Gleditsia triacanthos f. inermis,False,Jard Elisava,,5.96,median,4.75,check
+0290320AR,Gleditsia triacanthos f. inermis,False,Jard Elisava,,6.1,median,4.78,check
+0290321AR,Gleditsia triacanthos f. inermis,False,Jard Elisava,,6.13,median,4.79,check
+0290322AR,Gleditsia triacanthos f. inermis,False,Jard Elisava,,6.18,median,4.8,check
+0290323AR,Gleditsia triacanthos f. inermis,False,Jard Elisava,,6.22,median,4.81,check
+0290324AR,Gleditsia triacanthos f. inermis,False,Jard Elisava,,6.25,median,4.81,check
+0290325AR,Gleditsia triacanthos f. inermis,False,Jard Elisava,,6.29,median,4.82,check
+0291210AR,Platanus × acerifolia,True,Av Diagonal,,26.18,median,14.27,check
+0291212AR,Platanus × acerifolia,True,Av Diagonal,,19.35,median,14.27,check
+0291240AR,Platanus × acerifolia,True,Av Diagonal,,18.65,median,14.44,check
+0291779AR,Prunus cerasifera 'Pissardii',False,Av Meridiana,,32.08,no_facade,,check
+0292186AR,Gleditsia triacanthos,False,C\ Roc Boronat,,16.15,median,5.71,check
+0292187AR,Gleditsia triacanthos,False,C\ Roc Boronat,,15.99,median,4.75,check
+0293489AR,Grevillea robusta,False,C\ Llacuna,13.04,11.76,ok,,large
+0294405AR,Prunus cerasifera 'Pissardii',False,Av Meridiana,,31.67,no_facade,,check
+0294889AR,Grevillea robusta,False,C\ Almogàvers,4.45,3.0,ok,,medium
+0294890AR,Grevillea robusta,False,C\ Almogàvers,4.3,3.04,ok,,medium
+0294891AR,Grevillea robusta,False,C\ Almogàvers,4.24,2.94,ok,,medium
+0294892AR,Grevillea robusta,False,C\ Almogàvers,4.23,2.74,ok,,medium
+0294893AR,Grevillea robusta,False,C\ Almogàvers,4.17,2.38,ok,,medium
+0294894AR,Grevillea robusta,False,C\ Almogàvers,4.13,2.71,ok,,medium
+0294895AR,Grevillea robusta,False,C\ Almogàvers,4.1,2.81,ok,,medium
+0294896AR,Grevillea robusta,False,C\ Almogàvers,11.86,5.69,ok,,large
+0294897AR,Grevillea robusta,False,C\ Almogàvers,20.73,5.64,ok,,large
+0294899AR,Grevillea robusta,False,C\ Almogàvers,12.18,5.81,ok,,large
+0294900AR,Grevillea robusta,False,C\ Almogàvers,6.67,5.34,ok,,large
+0294901AR,Grevillea robusta,False,C\ Almogàvers,6.68,6.11,ok,,large
+0294902AR,Grevillea robusta,False,C\ Almogàvers,6.89,5.52,ok,,large
+0294903AR,Grevillea robusta,False,C\ Almogàvers,6.95,5.53,ok,,large
+0295433AR,Tipuana tipu,False,Pl Santiago Pey,,55.69,no_facade,7.0,check
+0297922AR,Platanus × acerifolia,True,C\ Ciutat de Granada,17.86,13.86,ok,,large
+0297923AR,Platanus × acerifolia,True,C\ Bolívia,,17.31,median,19.95,check
+0297924AR,Platanus × acerifolia,True,C\ Bolívia,,8.11,median,4.99,check
+0297995AR,Grevillea robusta,False,C\ Tànger,4.71,3.87,ok,,medium
+0305309AR,Melia azedarach,False,Jard Elisava,,13.85,median,,check
+0305310AR,Gleditsia triacanthos,False,C\ Pamplona,8.98,6.76,ok,,large
+0311345AR,Platanus orientalis,True,C\ Àlaba,11.27,8.06,ok,,large
+0316103AR,Platanus × acerifolia,True,Av Diagonal,7.43,5.62,ok,,large
+0316104AR,Platanus × acerifolia,True,Av Diagonal,5.26,4.12,ok,,medium
+0318171AR,Tilia x euchlora,False,C\ Pere IV,5.49,4.35,ok,,medium
+0318172AR,Tilia x euchlora,False,C\ Pere IV,5.51,4.24,ok,,medium
+0318173AR,Tilia x euchlora,False,C\ Pere IV,5.51,4.33,ok,,medium
+0318174AR,Tilia x euchlora,False,C\ Pere IV,5.51,4.21,ok,,medium
+0318175AR,Tilia x euchlora,False,C\ Pere IV,5.52,4.03,ok,,medium
+0318176AR,Tilia x euchlora,False,C\ Pere IV,5.5,4.31,ok,,medium
+0318177AR,Tilia x euchlora,False,C\ Pere IV,5.43,4.18,ok,,medium
+0320369AR,Pyrus calleryana 'Chanticleer',False,Ptge Ratés,,4.27,no_kerb,,check
+0320370AR,Pyrus calleryana 'Chanticleer',False,Ptge Ratés,,3.78,no_kerb,,check
+0320371AR,Pyrus calleryana 'Chanticleer',False,Ptge Ratés,,3.8,no_kerb,,check
+0320372AR,Pyrus calleryana 'Chanticleer',False,Ptge Ratés,,3.8,no_kerb,,check
+0320373AR,Pyrus calleryana 'Chanticleer',False,Ptge Ratés,,3.75,no_kerb,,check
+0320374AR,Pyrus calleryana 'Chanticleer',False,Ptge Ratés,,3.74,no_kerb,,check
+0320375AR,Pyrus calleryana 'Chanticleer',False,Ptge Ratés,,3.76,no_kerb,,check
+0320376AR,Pyrus calleryana 'Chanticleer',False,Ptge Ratés,,3.73,no_kerb,,check
+0320377AR,Pyrus calleryana 'Chanticleer',False,Ptge Ratés,,3.78,no_kerb,28.05,check
+0320378AR,Pyrus calleryana 'Chanticleer',False,Ptge Ratés,,4.01,no_kerb,,check
+0320379AR,Pyrus calleryana 'Chanticleer',False,Ptge Ratés,,3.95,no_kerb,,check
+0320380AR,Pyrus calleryana 'Chanticleer',False,Ptge Ratés,,3.87,no_kerb,,check
+0320381AR,Pyrus calleryana 'Chanticleer',False,Ptge Ratés,,3.86,no_kerb,,check
+0320382AR,Pyrus calleryana 'Chanticleer',False,Ptge Ratés,,3.86,no_kerb,,check
+0320383AR,Pyrus calleryana 'Chanticleer',False,Ptge Ratés,27.56,4.06,ok,,large
+0320384AR,Pyrus calleryana 'Chanticleer',False,Ptge Ratés,,4.09,no_kerb,,check
+0320385AR,Pyrus calleryana 'Chanticleer',False,Ptge Ratés,,4.04,no_kerb,,check
+0320386AR,Pyrus calleryana 'Chanticleer',False,Ptge Ratés,,4.06,no_kerb,,check
+0320387AR,Pyrus calleryana 'Chanticleer',False,Ptge Ratés,,4.01,no_kerb,,check
+0322094AR,Pinus pinea,False,C\ Pujades,,17.62,no_kerb,,check
+0322095AR,Cupressus sempervirens,False,C\ Pujades,,13.68,no_kerb,,check
+0322096AR,Gleditsia triacanthos,False,C\ Tànger,,16.74,median,,check
+0322097AR,Gleditsia triacanthos,False,C\ Tànger,,44.54,no_facade,,check
+0322098AR,Gleditsia triacanthos,False,C\ Tànger,,37.47,no_facade,,check
+0322099AR,Gleditsia triacanthos,False,C\ Tànger,,30.41,no_facade,,check
+0322100AR,Gleditsia triacanthos,False,C\ Tànger,,23.67,median,19.02,check
+0322101AR,Gleditsia triacanthos,False,C\ Tànger,,19.54,median,18.92,check
+0322103AR,Platanus × acerifolia,True,C\ Almogàvers,7.15,5.21,ok,,large
+0322104AR,Melia azedarach,False,Jard Elisava,,19.51,median,,check
+0322106AR,Celtis australis,False,C\ Àlaba,7.32,4.83,ok,,large
+0322114AR,Pinus pinea,False,C\ Pujades,,28.48,no_kerb,,check
+0322455AR,Jacaranda mimosifolia,False,C\ Tànger,8.33,4.45,ok,,large
+0322460AR,Jacaranda mimosifolia,False,C\ Tànger,16.49,6.03,ok,,large
+0322480AR,Erythrina crista-galli,False,C\ Ciutat de Granada,,34.1,no_facade,,check
+0325095AR,Grevillea robusta,False,C\ Roc Boronat,14.3,4.09,ok,,large
+0325096AR,Grevillea robusta,False,C\ Almogàvers,12.6,3.78,ok,,large
+0325097AR,Fraxinus ornus,False,C\ Almogàvers,15.59,4.47,ok,,large
+0325098AR,Fraxinus ornus,False,C\ Almogàvers,15.59,4.45,ok,,large
+0325099AR,Fraxinus ornus,False,C\ Almogàvers,3.38,4.27,ok,,small
+0325101AR,Fraxinus ornus,False,C\ Almogàvers,15.59,4.27,ok,,large
+0325102AR,Celtis australis,False,C\ Almogàvers,4.52,3.41,ok,,medium
+0325103AR,Celtis australis,False,C\ Almogàvers,4.5,3.5,ok,,medium
+0325104AR,Celtis australis,False,C\ Almogàvers,4.48,3.44,ok,,medium
+0325105AR,Celtis australis,False,C\ Almogàvers,4.44,3.41,ok,,medium
+0325106AR,Celtis australis,False,C\ Almogàvers,4.41,3.31,ok,,medium
+0325107AR,Fraxinus ornus,False,C\ Almogàvers,4.52,4.34,ok,,medium
+0325108AR,Celtis australis,False,C\ Almogàvers,4.53,2.91,ok,,medium
+0325109AR,Fraxinus ornus,False,C\ Almogàvers,4.5,4.26,ok,,medium
+0325110AR,Fraxinus ornus,False,C\ Almogàvers,4.48,4.25,ok,,medium
+0325111AR,Fraxinus ornus,False,C\ Almogàvers,4.46,4.24,ok,,medium
+0325113AR,Fraxinus ornus,False,C\ Llacuna,11.6,11.12,ok,,large
+0325114AR,Albizia julibrissin,False,C\ Almogàvers,,10.48,median,11.56,check
+0325115AR,Albizia julibrissin,False,C\ Almogàvers,,11.36,median,21.23,check
+0325116AR,Albizia julibrissin,False,C\ Almogàvers,19.21,5.15,ok,,large
+0325117AR,Albizia julibrissin,False,C\ Almogàvers,22.26,12.31,ok,,large
+0325118AR,Acer campestre,False,C\ Almogàvers,,16.1,median,19.71,check
+0325119AR,Acer campestre,False,C\ Almogàvers,,12.18,median,20.47,check
+0325120AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Almogàvers,,18.06,median,16.9,check
+0325121AR,Acer campestre,False,C\ Almogàvers,,17.49,median,11.65,check
+0325122AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Almogàvers,,17.77,median,10.73,check
+0326067AR,Pinus pinea,False,C\ Pujades,,19.72,no_kerb,,check
+0329561AR,Celtis australis,False,C\ Bolívia,,15.6,median,,check
+0329562AR,Celtis australis,False,C\ Bolívia,7.15,6.02,ok,,large
+0329565AR,Celtis australis,False,C\ Bolívia,4.56,3.67,ok,,medium
+0329566AR,Celtis australis,False,C\ Bolívia,16.26,13.07,ok,,large
+0329567AR,Celtis australis,False,C\ Bolívia,4.39,3.37,ok,,medium
+0329568AR,Celtis australis,False,C\ Bolívia,4.36,3.31,ok,,medium
+0329569AR,Celtis australis,False,C\ Bolívia,4.37,3.44,ok,,medium
+0329571AR,Grevillea robusta,False,C\ Àvila,14.92,12.04,ok,,large
+0329573AR,Celtis occidentalis,False,C\ Bolívia,13.08,10.78,ok,,large
+0329574AR,Celtis australis,False,C\ Bolívia,5.76,4.72,ok,,medium
+0329575AR,Celtis australis,False,C\ Bolívia,7.17,5.24,ok,,large
+0329576AR,Celtis australis,False,C\ Bolívia,4.48,4.13,ok,,medium
+0329577AR,Celtis australis,False,C\ Bolívia,4.49,3.78,ok,,medium
+0329578AR,Celtis australis,False,C\ Bolívia,4.52,3.67,ok,,medium
+0329579AR,Celtis australis,False,C\ Bolívia,4.54,3.84,ok,,medium
+0329580AR,Celtis australis,False,C\ Bolívia,4.57,4.22,ok,,medium
+0329673AR,Jacaranda mimosifolia,False,C\ Àvila,7.41,6.11,ok,,large
+0329674AR,Jacaranda mimosifolia,False,C\ Àvila,7.45,6.15,ok,,large
+0329675AR,Jacaranda mimosifolia,False,C\ Àvila,12.79,10.55,ok,,large
+0329676AR,Jacaranda mimosifolia,False,C\ Àvila,9.52,7.92,ok,,large
+0329677AR,Jacaranda mimosifolia,False,C\ Àvila,,6.4,no_kerb,,check
+0329680AR,Jacaranda mimosifolia,False,C\ Àvila,7.25,5.95,ok,,large
+0329681AR,Jacaranda mimosifolia,False,C\ Àvila,,5.93,no_kerb,,check
+0329682AR,Jacaranda mimosifolia,False,C\ Àvila,,5.91,no_kerb,,check
+0329684AR,Jacaranda mimosifolia,False,C\ Àlaba,,7.7,median,3.73,check
+0329685AR,Jacaranda mimosifolia,False,C\ Àlaba,,13.49,median,3.74,check
+0330027AR,Gleditsia triacanthos 'sunburst',False,C\ Sancho de Ávila,5.13,4.72,ok,,medium
+0330328AR,Gleditsia triacanthos,False,C\ Tànger,,50.22,no_facade,15.62,check
+0330329AR,Gleditsia triacanthos,False,C\ Tànger,,44.01,no_facade,25.68,check
+0330330AR,Gleditsia triacanthos,False,C\ Tànger,,38.18,no_facade,,check
+0330331AR,Gleditsia triacanthos,False,C\ Tànger,,34.0,no_facade,12.96,check
+0330332AR,Gleditsia triacanthos,False,C\ Tànger,,31.17,no_facade,24.87,check
+0330333AR,Grevillea robusta,False,C\ Tànger,,35.83,no_facade,22.33,check
+0330334AR,Grevillea robusta,False,C\ Tànger,19.16,15.46,ok,,large
+0330335AR,Grevillea robusta,False,C\ Tànger,9.53,5.77,ok,,large
+0330336AR,Grevillea robusta,False,C\ Tànger,,42.97,no_facade,16.07,check
+0330337AR,Gleditsia triacanthos,False,C\ Pamplona,,32.16,no_facade,14.75,check
+0330338AR,Gleditsia triacanthos,False,C\ Pamplona,,38.18,no_facade,23.97,check
+0330339AR,Gleditsia triacanthos,False,C\ Pamplona,,45.72,no_facade,,check
+0330340AR,Gleditsia triacanthos,False,C\ Pamplona,,52.98,no_facade,8.03,check
+0330341AR,Gleditsia triacanthos,False,C\ Pamplona,,49.29,no_facade,7.28,check
+0330342AR,Gleditsia triacanthos,False,C\ Pamplona,18.83,17.84,ok,,large
+0330343AR,Gleditsia triacanthos,False,C\ Pamplona,24.82,23.59,ok,,large
+0330344AR,Gleditsia triacanthos,False,C\ Pamplona,,31.32,no_facade,,check
+0330345AR,Gleditsia triacanthos,False,C\ Pamplona,,41.12,no_facade,,check
+0330346AR,Gleditsia triacanthos,False,C\ Pamplona,,49.18,no_facade,,check
+0330347AR,Gleditsia triacanthos,False,C\ Pamplona,,43.06,no_facade,,check
+0330348AR,Grevillea robusta,False,C\ Tànger,,31.96,no_facade,,check
+0330349AR,Celtis australis,False,C\ Tànger,,24.95,median,,check
+0330350AR,Grevillea robusta,False,C\ Tànger,,18.64,median,,check
+0330351AR,Grevillea robusta,False,C\ Pamplona,17.3,15.9,ok,,large
+0330354AR,Grevillea robusta,False,C\ Almogàvers,6.83,5.02,ok,,large
+0330359AR,Celtis australis,False,C\ Zamora,6.61,4.8,ok,,large
+0330360AR,Celtis australis,False,C\ Almogàvers,6.62,4.82,ok,,large
+0332141AR,Albizia julibrissin 'OMBRELLA'®,False,C\ Àvila,10.48,9.22,ok,,large
+0332142AR,Albizia julibrissin 'OMBRELLA'®,False,C\ Àvila,10.56,9.41,ok,,large
+0332143AR,Jacaranda mimosifolia,False,C\ Àlaba,,18.02,median,3.68,check
+0332144AR,Jacaranda mimosifolia,False,C\ Àlaba,,7.38,median,3.74,check
+0332145AR,Jacaranda mimosifolia,False,C\ Àlaba,,14.57,median,3.73,check
+0332146AR,Celtis australis,False,C\ Bolívia,4.89,3.84,ok,,medium
+0332147AR,Celtis australis,False,C\ Bolívia,,15.32,median,12.7,check
+0332148AR,Fraxinus angustifolia 'Raywood',False,C\ Àlaba,7.32,5.59,ok,,large
+0332149AR,Fraxinus angustifolia 'Raywood',False,C\ Àlaba,7.35,5.09,ok,,large
+0332150AR,Celtis australis,False,C\ Àlaba,7.32,4.77,ok,,large
+0332151AR,Koelreuteria paniculata,False,C\ Àlaba,7.33,4.73,ok,,large
+0332287AR,Celtis australis,False,C\ Zamora,6.64,4.49,ok,,large
+0332288AR,Celtis australis,False,C\ Zamora,4.07,4.58,ok,,medium
+0332289AR,Celtis australis,False,C\ Zamora,6.98,4.85,ok,,large
+0332290AR,Celtis australis,False,C\ Zamora,4.18,4.38,ok,,medium
+0332291AR,Heptapleurum actinophyllum,False,C\ Zamora,6.93,4.08,ok,,large
+0332292AR,Heptapleurum actinophyllum,False,C\ Zamora,6.71,4.45,ok,,large
+0332293AR,Heptapleurum actinophyllum,False,C\ Zamora,9.31,7.85,ok,,large
+0332294AR,Heptapleurum actinophyllum,False,C\ Zamora,6.84,4.67,ok,,large
+0332333AR,Celtis australis,False,C\ Zamora,,14.61,median,9.02,check
+0332334AR,Celtis australis,False,C\ Zamora,,17.33,median,6.32,check
+0332335AR,Celtis australis,False,C\ Zamora,,13.16,median,8.41,check
+0332336AR,Celtis australis,False,C\ Almogàvers,21.17,18.6,ok,,large
+0332337AR,Celtis australis,False,C\ Almogàvers,,22.75,median,,check
+0332338AR,Celtis australis,False,C\ Zamora,,24.23,median,,check
+0332339AR,Grevillea robusta,False,C\ Almogàvers,,7.86,median,17.77,check
+0332340AR,Grevillea robusta,False,C\ Joan d'Àustria,12.69,11.46,ok,,large
+0332341AR,Grevillea robusta,False,C\ Almogàvers,6.87,5.27,ok,,large
+0332342AR,Grevillea robusta,False,C\ Almogàvers,6.85,5.17,ok,,large
+0332343AR,Grevillea robusta,False,C\ Almogàvers,9.69,4.17,ok,,large
+0332344AR,Grevillea robusta,False,C\ Almogàvers,11.15,9.16,ok,,large
+0332345AR,Grevillea robusta,False,C\ Almogàvers,16.17,14.78,ok,,large
+0332346AR,Grevillea robusta,False,C\ Almogàvers,24.49,13.66,ok,,large
+0332347AR,Grevillea robusta,False,C\ Almogàvers,9.13,6.35,ok,,large
+0332348AR,Grevillea robusta,False,C\ Almogàvers,9.47,7.64,ok,,large
+0332349AR,Grevillea robusta,False,C\ Almogàvers,,15.03,median,4.14,check
+0332350AR,Grevillea robusta,False,C\ Almogàvers,13.95,11.66,ok,,large
+0332352AR,Grevillea robusta,False,C\ Almogàvers,,6.61,median,,check
+0332353AR,Grevillea robusta,False,C\ Almogàvers,9.62,8.05,ok,,large
+0332354AR,Grevillea robusta,False,C\ Almogàvers,17.59,16.27,ok,,large
+0332355AR,Grevillea robusta,False,C\ Almogàvers,11.33,7.81,ok,,large
+0332356AR,Grevillea robusta,False,C\ Almogàvers,6.86,4.78,ok,,large
+0332357AR,Grevillea robusta,False,C\ Almogàvers,,10.23,median,,check
+0332358AR,Grevillea robusta,False,C\ Almogàvers,8.38,6.34,ok,,large
+0332359AR,Ficus microcarpa,False,C\ Almogàvers,6.82,5.21,ok,,large
+0332360AR,Ficus microcarpa,False,C\ Almogàvers,6.89,4.53,ok,,large
+0332361AR,Ficus microcarpa,False,C\ Almogàvers,6.94,4.62,ok,,large
+0332362AR,Ficus microcarpa,False,C\ Almogàvers,6.86,4.55,ok,,large
+0332364AR,Handroanthus heptaphyllus,False,C\ Almogàvers,6.79,4.99,ok,,large
+0332366AR,Ficus microcarpa,False,C\ Almogàvers,12.97,8.94,ok,,large
+0332367AR,Handroanthus heptaphyllus,False,C\ Almogàvers,,15.16,median,,check
+0332368AR,Handroanthus heptaphyllus,False,C\ Almogàvers,6.8,4.66,ok,,large
+0332369AR,Handroanthus heptaphyllus,False,C\ Almogàvers,6.84,4.77,ok,,large
+0332370AR,Ficus microcarpa,False,C\ Almogàvers,9.64,6.73,ok,,large
+0332371AR,Ficus microcarpa,False,C\ Almogàvers,9.62,4.8,ok,,large
+0332372AR,Ficus microcarpa,False,C\ Almogàvers,6.77,4.83,ok,,large
+0332373AR,Ficus microcarpa,False,C\ Almogàvers,6.83,4.89,ok,,large
+0332374AR,Phytolacca dioica,False,C\ Zamora,,19.77,median,10.15,check
+0332376AR,Phytolacca dioica,False,C\ Almogàvers,,19.15,median,18.02,check
+0332377AR,Phytolacca dioica,False,C\ Almogàvers,,24.32,median,18.01,check
+0332945AR,Celtis australis,False,C\ Àlaba,7.34,6.97,ok,,large
+0332946AR,Koelreuteria paniculata,False,C\ Àlaba,7.59,4.21,ok,,large
+0332947AR,Gleditsia triacanthos,False,C\ Tànger,4.58,3.81,ok,,medium
+0332948AR,Gleditsia triacanthos,False,C\ Tànger,9.4,8.36,ok,,large
+0332949AR,Gleditsia triacanthos,False,C\ Tànger,10.81,9.81,ok,,large
+0332950AR,Gleditsia triacanthos,False,C\ Tànger,15.44,14.32,ok,,large
+0332951AR,Gleditsia triacanthos,False,C\ Tànger,4.4,3.6,ok,,medium
+0332952AR,Gleditsia triacanthos,False,C\ Tànger,8.02,7.01,ok,,large
+0332953AR,Gleditsia triacanthos,False,C\ Tànger,,23.51,median,,check
+0332954AR,Gleditsia triacanthos,False,C\ Tànger,,17.51,median,22.65,check
+0332955AR,Gleditsia triacanthos,False,C\ Àvila,16.77,15.78,ok,,large
+0332956AR,Casuarina cunninghamiana,False,C\ Tànger,,25.08,median,22.63,check
+0332957AR,Fraxinus angustifolia,False,C\ Àvila,13.38,11.08,ok,,large
+0332958AR,Handroanthus heptaphyllus,False,C\ Àvila,11.09,8.52,ok,,large
+0332959AR,Handroanthus heptaphyllus,False,C\ Àvila,10.96,6.27,ok,,large
+0332960AR,Handroanthus heptaphyllus,False,C\ Àvila,,14.98,median,23.4,check
+0332961AR,Casuarina cunninghamiana,False,C\ Àvila,15.71,5.99,ok,,large
+0332962AR,Casuarina cunninghamiana,False,C\ Àvila,14.28,11.82,ok,,large
+0332963AR,Handroanthus heptaphyllus,False,C\ Àvila,9.95,5.31,ok,,large
+0332964AR,Fraxinus angustifolia,False,C\ Àvila,15.98,9.7,ok,,large
+0332965AR,Fraxinus angustifolia,False,C\ Àvila,,19.98,median,29.5,check
+0332966AR,Gleditsia triacanthos,False,C\ Tànger,,15.81,median,,check
+0332967AR,Gleditsia triacanthos,False,C\ Tànger,,16.09,median,,check
+0332968AR,Gleditsia triacanthos,False,C\ Tànger,4.52,3.79,ok,,medium
+0332969AR,Gleditsia triacanthos,False,C\ Tànger,4.6,3.85,ok,,medium
+0332970AR,Gleditsia triacanthos,False,C\ Tànger,4.52,3.72,ok,,medium
+0332971AR,Gleditsia triacanthos,False,C\ Tànger,,4.32,median,6.71,check
+0332972AR,Gleditsia triacanthos,False,C\ Tànger,4.28,3.48,ok,,medium
+0332973AR,Gleditsia triacanthos,False,C\ Tànger,4.28,3.58,ok,,medium
+0332974AR,Gleditsia triacanthos,False,C\ Tànger,4.26,3.46,ok,,medium
+0332975AR,Gleditsia triacanthos,False,C\ Tànger,16.53,15.49,ok,,large
+0332976AR,Gleditsia triacanthos,False,C\ Tànger,,17.78,median,,check
+0332977AR,Gleditsia triacanthos,False,C\ Tànger,,8.38,median,11.76,check
+0332978AR,Gleditsia triacanthos,False,C\ Tànger,4.3,3.58,ok,,medium
+0332979AR,Gleditsia triacanthos,False,C\ Tànger,4.49,3.81,ok,,medium
+0332980AR,Gleditsia triacanthos,False,C\ Tànger,4.52,3.84,ok,,medium
+0332981AR,Gleditsia triacanthos,False,C\ Tànger,8.88,7.92,ok,,large
+0332982AR,Gleditsia triacanthos,False,C\ Àlaba,15.59,14.64,ok,,large
+0332983AR,Koelreuteria paniculata,False,C\ Àlaba,7.52,4.32,ok,,large
+0332984AR,Gleditsia triacanthos,False,C\ Tànger,4.5,3.73,ok,,medium
+0332985AR,Gleditsia triacanthos,False,C\ Tànger,9.88,8.71,ok,,large
+0332986AR,Casuarina cunninghamiana,False,C\ Tànger,18.57,11.14,ok,,large
+0332987AR,Casuarina cunninghamiana,False,C\ Tànger,,8.8,median,16.57,check
+0332988AR,Casuarina cunninghamiana,False,C\ Tànger,,9.85,median,15.05,check
+0332989AR,Fraxinus angustifolia,False,C\ Tànger,16.96,5.31,ok,,large
+0332990AR,Prunus cerasifera,False,C\ Àlaba,,16.2,median,12.75,check
+0332991AR,Prunus cerasifera,False,C\ Àlaba,,17.06,median,16.38,check
+0332992AR,Casuarina cunninghamiana,False,C\ Tànger,15.87,8.16,ok,,large
+0332993AR,Casuarina cunninghamiana,False,C\ Tànger,14.7,6.34,ok,,large
+0332994AR,Fraxinus angustifolia,False,C\ Àlaba,15.19,10.87,ok,,large
+0332995AR,Casuarina cunninghamiana,False,C\ Tànger,15.67,5.89,ok,,large
+0332996AR,Handroanthus heptaphyllus,False,C\ Tànger,14.66,2.95,ok,,large
+0332997AR,Handroanthus heptaphyllus,False,C\ Àlaba,20.1,11.78,ok,,large
+0332998AR,Fraxinus angustifolia,False,C\ Àlaba,12.2,10.69,ok,,large
+0332999AR,Handroanthus heptaphyllus,False,C\ Àlaba,10.6,9.61,ok,,large
+0333000AR,Casuarina cunninghamiana,False,C\ Àlaba,11.78,6.62,ok,,large
+0333001AR,Gleditsia triacanthos,False,C\ Tànger,4.51,3.78,ok,,medium
+0333002AR,Gleditsia triacanthos,False,C\ Tànger,4.46,3.7,ok,,medium
+0333003AR,Gleditsia triacanthos,False,C\ Tànger,4.46,3.72,ok,,medium
+0333004AR,Gleditsia triacanthos,False,C\ Tànger,4.27,3.57,ok,,medium
+0333005AR,Gleditsia triacanthos,False,C\ Tànger,,16.23,median,,check
+0333006AR,Gleditsia triacanthos,False,C\ Tànger,4.52,3.85,ok,,medium
+0333007AR,Gleditsia triacanthos,False,C\ Tànger,,16.15,median,,check
+0333008AR,Gleditsia triacanthos,False,C\ Tànger,,17.25,median,11.03,check
+0333009AR,Gleditsia triacanthos,False,C\ Tànger,,22.15,median,11.03,check
+0333010AR,Gleditsia triacanthos,False,C\ Tànger,,24.99,median,11.04,check
+0333011AR,Gleditsia triacanthos,False,C\ Tànger,,18.91,median,,check
+0333012AR,Gleditsia triacanthos,False,C\ Tànger,8.46,7.23,ok,,large
+0333013AR,Gleditsia triacanthos,False,C\ Tànger,18.23,15.59,ok,,large
+0333014AR,Gleditsia triacanthos,False,C\ Tànger,21.35,19.27,ok,,large
+0333015AR,Gleditsia triacanthos,False,C\ Tànger,4.54,3.87,ok,,medium
+0333016AR,Gleditsia triacanthos,False,C\ Tànger,,16.19,median,,check
+0333017AR,Prunus cerasifera,False,C\ Àlaba,7.54,6.04,ok,,large
+0333018AR,Prunus cerasifera,False,C\ Àlaba,7.61,5.67,ok,,large
+0333019AR,Koelreuteria paniculata,False,C\ Àlaba,7.62,5.64,ok,,large
+0333020AR,Koelreuteria paniculata,False,C\ Àlaba,7.6,5.03,ok,,large
+0333021AR,Koelreuteria paniculata,False,C\ Àlaba,7.58,5.16,ok,,large
+0333022AR,Prunus cerasifera,False,C\ Àlaba,7.61,5.9,ok,,large
+0333023AR,Koelreuteria paniculata,False,C\ Àlaba,7.33,6.16,ok,,large
+0333024AR,Koelreuteria paniculata,False,C\ Àlaba,7.32,4.32,ok,,large
+0333028AR,Koelreuteria paniculata,False,C\ Àlaba,7.34,4.27,ok,,large
+0333029AR,Koelreuteria paniculata,False,C\ Àlaba,7.33,4.75,ok,,large
+0333030AR,Celtis australis,False,C\ Àlaba,7.17,4.17,ok,,large
+0333031AR,Fraxinus angustifolia 'Raywood',False,C\ Àlaba,7.18,6.03,ok,,large
+0333032AR,Fraxinus angustifolia 'Raywood',False,C\ Àlaba,7.18,5.91,ok,,large
+0333033AR,Prunus cerasifera,False,C\ Àlaba,7.43,5.75,ok,,large
+0333034AR,Prunus cerasifera,False,C\ Àlaba,13.3,9.25,ok,,large
+0333035AR,Prunus cerasifera,False,C\ Àlaba,7.48,6.31,ok,,large
+0333036AR,Prunus cerasifera,False,C\ Àlaba,7.47,5.6,ok,,large
+0333037AR,Prunus cerasifera,False,C\ Àlaba,7.44,5.94,ok,,large
+0333038AR,Prunus cerasifera,False,C\ Àlaba,7.42,5.87,ok,,large
+0333039AR,Prunus cerasifera,False,C\ Àlaba,,7.39,median,7.43,check
+0333040AR,Prunus cerasifera,False,C\ Àlaba,7.45,5.84,ok,,large
+0333041AR,Prunus cerasifera,False,C\ Àlaba,7.42,5.9,ok,,large
+0333042AR,Prunus cerasifera,False,C\ Àlaba,7.49,3.97,ok,,large
+0333894AR,Melia azedarach,False,C\ Pallars,8.78,8.1,ok,,large
+0333895AR,Melia azedarach,False,C\ Pallars,,15.97,median,,check
+0333896AR,Melia azedarach,False,C\ Pallars,,15.99,median,,check
+0333897AR,Melia azedarach,False,C\ Pallars,4.56,3.86,ok,,medium
+0333898AR,Melia azedarach,False,C\ Pallars,4.56,3.86,ok,,medium
+0333899AR,Melia azedarach,False,C\ Pallars,15.19,12.85,ok,,large
+0333900AR,Melia azedarach,False,C\ Pallars,4.55,3.85,ok,,medium
+0333901AR,Melia azedarach,False,C\ Pallars,4.56,3.85,ok,,medium
+0333902AR,Melia azedarach,False,C\ Pallars,4.57,3.88,ok,,medium
+0333903AR,Melia azedarach,False,C\ Pallars,4.59,3.89,ok,,medium
+0333904AR,Melia azedarach,False,C\ Pallars,4.57,3.87,ok,,medium
+0333905AR,Melia azedarach,False,C\ Pallars,5.93,5.03,ok,,medium
+0333906AR,Melia azedarach,False,C\ Pallars,4.55,3.85,ok,,medium
+0333907AR,Melia azedarach,False,C\ Pallars,4.56,3.87,ok,,medium
+0333908AR,Melia azedarach,False,C\ Pallars,4.6,3.91,ok,,medium
+0333909AR,Melia azedarach,False,C\ Pallars,5.04,4.27,ok,,medium
+0333910AR,Melia azedarach,False,C\ Pallars,4.59,3.89,ok,,medium
+0338440AR,Platanus × acerifolia,True,C\ Sancho de Ávila,,17.09,no_kerb,,check
+0338441AR,Platanus × acerifolia,True,C\ Sancho de Ávila,,9.97,no_kerb,,check
+0338442AR,Platanus × acerifolia,True,C\ Sancho de Ávila,,6.46,no_kerb,,check
+0338461AR,Platanus × acerifolia,True,C\ Sancho de Ávila,21.44,14.87,ok,,large
+0338462AR,Platanus × acerifolia,True,C\ Sancho de Ávila,,13.63,no_kerb,,check
+0338463AR,Platanus × acerifolia,True,C\ Sancho de Ávila,21.42,14.8,ok,,large
+0338464AR,Platanus × acerifolia,True,C\ Sancho de Ávila,25.21,17.56,ok,,large
+0338465AR,Platanus × acerifolia,True,C\ Sancho de Ávila,23.03,16.24,ok,,large
+0338466AR,Platanus × acerifolia,True,C\ Sancho de Ávila,20.17,13.69,ok,,large
+0338699AR,Gleditsia triacanthos,False,C\ Badajoz,21.09,16.2,ok,,large
+0343354AR,Celtis australis,False,C\ Roc Boronat,7.65,6.28,ok,,large
+0343355AR,Celtis australis,False,C\ Badajoz,,17.11,median,1.07,check
+0343356AR,Celtis australis,False,C\ Roc Boronat,5.06,3.85,ok,,medium
+0343357AR,Celtis australis,False,C\ Roc Boronat,5.81,4.68,ok,,medium
+0343358AR,Celtis australis,False,C\ Almogàvers,,4.21,median,1.92,check
+0343359AR,Celtis australis,False,C\ Almogàvers,,19.89,median,,check
+0343360AR,Celtis australis,False,C\ Roc Boronat,13.91,12.2,ok,,large
+0343361AR,Celtis australis,False,C\ Almogàvers,16.59,16.83,ok,,large
+0343362AR,Celtis australis,False,C\ Badajoz,,11.47,median,1.07,check
+0343363AR,Celtis australis,False,C\ Roc Boronat,,4.16,median,1.97,check
+0343364AR,Celtis australis,False,C\ Almogàvers,28.7,9.53,ok,,large
+0343365AR,Celtis australis,False,C\ Almogàvers,26.44,12.34,ok,,large
+0343366AR,Celtis australis,False,C\ Almogàvers,,17.08,no_kerb,,check
+0343367AR,Celtis australis,False,C\ Almogàvers,,18.68,no_kerb,,check
+0343368AR,Celtis australis,False,C\ Almogàvers,22.69,10.77,ok,,large
+0343369AR,Celtis australis,False,C\ Roc Boronat,3.66,4.54,ok,,medium
+0343370AR,Celtis australis,False,C\ Almogàvers,9.76,10.66,ok,,large
+0343371AR,Celtis australis,False,C\ Almogàvers,21.7,3.88,ok,,large
+0343372AR,Erythrina caffra,False,C\ Almogàvers,29.14,8.1,ok,,large
+0343373AR,Erythrina caffra,False,C\ Almogàvers,29.24,14.47,ok,,large
+0343374AR,Erythrina caffra,False,C\ Almogàvers,,6.09,no_kerb,,check
+0343375AR,Erythrina caffra,False,C\ Almogàvers,,5.93,no_kerb,,check
+0343376AR,Erythrina caffra,False,C\ Almogàvers,,8.0,no_kerb,,check
+0343377AR,Erythrina caffra,False,C\ Almogàvers,,6.0,no_kerb,,check
+0343378AR,Erythrina caffra,False,C\ Almogàvers,,5.8,no_kerb,,check
+0343379AR,Erythrina caffra,False,C\ Almogàvers,,8.06,no_kerb,,check
+0343380AR,Erythrina caffra,False,C\ Almogàvers,,5.79,no_kerb,,check
+0343381AR,Erythrina caffra,False,C\ Almogàvers,,8.0,no_kerb,,check
+0343382AR,Erythrina caffra,False,C\ Almogàvers,,8.15,no_kerb,,check
+0343384AR,Erythrina caffra,False,C\ Almogàvers,,14.26,no_kerb,,check
+0343385AR,Ficus elastica,False,C\ Almogàvers,,10.6,median,2.53,check
+0343386AR,Ficus elastica,False,C\ Almogàvers,,8.8,median,2.52,check
+0343389AR,Phytolacca dioica,False,C\ Ciutat de Granada,,21.98,median,25.27,check
+0343390AR,Phytolacca dioica,False,C\ Almogàvers,,21.58,median,25.27,check
+0343391AR,Phytolacca dioica,False,C\ Ciutat de Granada,,19.45,median,24.24,check
+0343392AR,Paulownia tomentosa,False,C\ Almogàvers,,7.27,no_kerb,,check
+0343393AR,Paulownia tomentosa,False,C\ Almogàvers,,7.47,no_kerb,,check
+0343394AR,Paulownia tomentosa,False,C\ Almogàvers,,7.41,no_kerb,,check
+0343395AR,Grevillea robusta,False,C\ Almogàvers,,12.44,no_kerb,34.17,check
+0343396AR,Grevillea robusta,False,C\ Almogàvers,,4.52,no_kerb,,check
+0343397AR,Grevillea robusta,False,C\ Almogàvers,,5.0,no_kerb,,check
+0343398AR,Grevillea robusta,False,C\ Almogàvers,,4.51,no_kerb,,check
+0343399AR,Grevillea robusta,False,C\ Almogàvers,5.55,6.39,ok,,medium
+0343400AR,Grevillea robusta,False,C\ Almogàvers,,9.77,median,2.08,check
+0343401AR,Grevillea robusta,False,C\ Almogàvers,,4.62,no_kerb,,check
+0343402AR,Grevillea robusta,False,C\ Almogàvers,,7.99,no_kerb,,check
+0343403AR,Grevillea robusta,False,C\ Almogàvers,,8.17,no_kerb,,check
+0343404AR,Grevillea robusta,False,C\ Almogàvers,,4.41,no_kerb,,check
+0343405AR,Grevillea robusta,False,C\ Almogàvers,,15.23,median,25.27,check
+0343406AR,Grevillea robusta,False,C\ Ciutat de Granada,,15.27,median,25.27,check
+0343409AR,Grevillea robusta,False,C\ Almogàvers,,4.52,no_kerb,,check
+0343410AR,Grevillea robusta,False,C\ Almogàvers,,7.98,no_kerb,,check
+0343411AR,Grevillea robusta,False,C\ Almogàvers,,9.18,no_kerb,,check
+0343412AR,Grevillea robusta,False,C\ Almogàvers,,11.08,no_kerb,34.43,check
+0343413AR,Grevillea robusta,False,C\ Almogàvers,,4.5,no_kerb,,check
+0343414AR,Grevillea robusta,False,C\ Almogàvers,,4.33,no_kerb,,check
+0343415AR,Grevillea robusta,False,C\ Almogàvers,,4.59,no_kerb,,check
+0343416AR,Grevillea robusta,False,C\ Almogàvers,19.96,4.57,ok,,large
+0343417AR,Grevillea robusta,False,C\ Almogàvers,,5.06,no_kerb,,check
+0343418AR,Grevillea robusta,False,C\ Almogàvers,,4.31,no_kerb,,check
+0343419AR,Grevillea robusta,False,C\ Almogàvers,,4.39,no_kerb,,check
+0343420AR,Grevillea robusta,False,C\ Almogàvers,,5.34,no_kerb,,check
+0343421AR,Grevillea robusta,False,C\ Almogàvers,,15.18,median,24.24,check
+0343422AR,Grevillea robusta,False,C\ Ciutat de Granada,,13.7,median,25.27,check
+0343423AR,Grevillea robusta,False,C\ Almogàvers,7.83,8.81,ok,,large
+0343424AR,Grevillea robusta,False,C\ Ciutat de Granada,,7.21,median,1.96,check
+0343425AR,Grevillea robusta,False,C\ Ciutat de Granada,,5.03,median,1.82,check
+0343426AR,Grevillea robusta,False,C\ Almogàvers,,4.97,median,1.87,check
+0343427AR,Grevillea robusta,False,C\ Ciutat de Granada,,14.34,median,25.27,check
+0343428AR,Grevillea robusta,False,C\ Almogàvers,,4.94,no_kerb,,check
+0345716AR,Jacaranda mimosifolia,False,C\ Àlaba,,14.84,median,20.03,check
+0345717AR,Styphnolobium japonicum,False,Av Meridiana,,49.18,no_facade,9.92,check
+0345718AR,Gleditsia triacanthos f. inermis,False,C\ Àlaba,,55.03,no_facade,12.53,check
+0345719AR,Jacaranda mimosifolia,False,C\ Àlaba,,48.31,no_facade,21.17,check
+0345720AR,Jacaranda mimosifolia,False,C\ Àlaba,,49.45,no_facade,21.3,check
+0345721AR,Jacaranda mimosifolia,False,C\ Àlaba,,39.64,no_facade,21.38,check
+0345722AR,Styphnolobium japonicum,False,Av Meridiana,,50.06,no_facade,25.82,check
+0345729AR,Celtis australis,False,Pl Glòries Catalanes,,5.86,no_kerb,,check
+0345730AR,Gleditsia triacanthos f. inermis,False,Pl Glòries Catalanes,,14.41,no_kerb,,check
+0345731AR,Styphnolobium japonicum,False,C\ Badajoz,,60.45,no_facade,,check
+0345732AR,Celtis australis,False,E.M. Glòries,,70.54,no_facade,16.84,check
+0345986AR,Prunus cerasifera 'Pissardii',False,Av Meridiana,,32.07,no_facade,,check
+0345987AR,Platanus × acerifolia,True,C\ Àvila,7.2,3.19,ok,,large
+0346010AR,Platanus × acerifolia,True,C\ Bolívia,5.02,4.98,ok,,medium
+0346011AR,Platanus × acerifolia,True,C\ Bolívia,5.02,4.71,ok,,medium
+0346012AR,Platanus × acerifolia,True,C\ Bolívia,5.02,4.65,ok,,medium
+0346015AR,Gleditsia triacanthos,False,C\ Roc Boronat,5.24,4.15,ok,,medium
+0346016AR,Platanus × acerifolia,True,Av Diagonal,,18.77,median,14.75,check
+0346022AR,Platanus × acerifolia,True,C\ Llacuna,,19.09,median,5.22,check
+0346023AR,Platanus × acerifolia,True,C\ Llacuna,,15.84,median,,check
+0346266AR,Brachychiton populneus,False,C\ Ciutat de Granada,,16.97,median,,check
+0346267AR,Platanus × acerifolia,True,C\ Nàpols,4.75,4.39,ok,,medium
