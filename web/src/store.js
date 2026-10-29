@@ -16,6 +16,7 @@ export const state = reactive({
   pot: null,
   scenarioId: BALANCED,
   view: 'map', // 'map' | 'compare' (side-by-side columns: today | city rule | optimised) | 'species' (botanical cards)
+  speciesScope: 'site', // Species tab: 'site' (whole neighbourhood) or 'area' (the project area, when one is drawn)
   // project area: only the plane positions inside a drawn polygon are replaced; outside, today's trees stay
   drawing: false,
   draft: [], // [lon, lat] vertices while drawing
@@ -235,7 +236,7 @@ async function ensureGrid() {
   treeXY = [...p.lon.map((lon, i) => grid.toXY(lon, p.lat[i])), ...k.lon.map((lon, i) => grid.toXY(lon, k.lat[i]))]
 }
 
-function insidePoly(lon, lat, poly) {
+export function insidePoly(lon, lat, poly) {
   let inside = false
   for (let a = 0, b = poly.length - 1; a < poly.length; b = a++) {
     const [xa, ya] = poly[a]

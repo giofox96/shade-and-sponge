@@ -3,7 +3,9 @@
 // scripts/fetch_species_photos.py) and a dashboard of the traits the tool uses (meta.json → palette). The profile
 // drawing is to one scale on every card, with a 1.7 m person, so the species compare at a glance.
 import { computed, ref } from 'vue'
-import { state, MONTHS, currentLayout } from '../store.js'
+import { state, MONTHS } from '../store.js'
+import { summary, scopeIsArea } from '../speciesview.js'
+import SpeciesStats from './SpeciesStats.vue'
 
 // Trunk classes of the inventory, 2011 street-tree guide p. 18 (shade_sponge/health.py); diameter = perimeter / π
 const TRUNK = { SEGONA: [41, 80], TERCERA: [81, 110] }
@@ -14,15 +16,10 @@ const photos = ref({})
 fetch('./species/photos.json').then((r) => (r.ok ? r.json() : {})).then((j) => (photos.value = j)).catch(() => {})
 
 const sort = ref('palette')
-const counts = computed(() => {
-  const n = new Array(state.meta.palette.length).fill(0)
-  for (const j of currentLayout()) n[j]++
-  return n
-})
 const maxH = computed(() => Math.max(...state.meta.palette.map((p) => p.height_m)))
 const maxLai = computed(() => Math.max(...state.meta.palette.map((p) => p.lai)))
 const cards = computed(() => {
-  const c = state.meta.palette.map((p, j) => ({ ...p, j, n: counts.value[j], photo: photos.value[p.species] }))
+  const c = state.meta.palette.map((p, j) => ({ ...p, j, n: summary.value.counts.get(j) ?? 0, photo: photos.value[p.species] }))
   const key = { height: 'height_m', crown: 'crown_diam_m', lai: 'lai', used: 'n' }[sort.value]
   return key ? c.sort((a, b) => b[key] - a[key]) : c
 })
@@ -45,20 +42,25 @@ const evergreen = (h) => h.startsWith('evergreen')
   <div class="cards-view">
     <div class="bar">
       <div>
-        <h2>Species</h2>
-        <p class="small muted">The {{ state.meta.palette.length }} species of this palette, with the traits the tool uses: medians of the
-          Porta trees measured by LiDAR (ICGC 2021). Same drawing scale on every card.</p>
+        <h2>Species <span class="muted">{{ scopeIsArea ? 'project area' : 'whole neighbourhood' }}</span></h2>
+        <p class="small muted">The street trees of the layout on screen, then the {{ state.meta.palette.length }} species of this palette with
+          the traits the tool uses: medians of the Porta trees measured by LiDAR (ICGC 2021). Same drawing scale on every card.</p>
       </div>
+      <span v-if="state.area" class="seg" role="group" aria-label="Trees counted">
+        <button :class="{ on: !scopeIsArea }" @click="state.speciesScope = 'site'">Whole neighbourhood</button>
+        <button :class="{ on: scopeIsArea }" @click="state.speciesScope = 'area'">Project area</button>
+      </span>
       <label class="small muted">Sort
         <select v-model="sort" aria-label="Sort species">
           <option value="palette">Palette order</option>
-          <option value="used">Trees in this layout</option>
+          <option value="used">Trees in view</option>
           <option value="height">Height</option>
           <option value="crown">Crown width</option>
           <option value="lai">LAI</option>
         </select>
       </label>
     </div>
+    <SpeciesStats />
     <div class="grid">
       <article v-for="p in cards" :key="p.species + p.j" class="card">
         <figure class="photo">
@@ -78,7 +80,7 @@ const evergreen = (h) => h.startsWith('evergreen')
           <div class="tags small">
             <span class="tag">{{ evergreen(p.leaf_habit) ? '● ' : '○ ' }}{{ p.leaf_habit }}</span>
             <span v-if="!p.in_palette" class="tag">today's tree, not in the palette</span>
-            <span v-if="p.n" class="tag accent">{{ p.n.toLocaleString('en') }} in this layout</span>
+            <span v-if="p.n" class="tag accent">{{ p.n.toLocaleString('en') }} {{ scopeIsArea ? 'in the area' : 'in view' }}</span>
           </div>
 
           <div class="dash">
@@ -152,10 +154,11 @@ const evergreen = (h) => h.startsWith('evergreen')
 .cards-view { height: 100%; overflow: auto; padding: 54px 16px 16px; box-sizing: border-box; background: var(--bg); }
 .bar { display: flex; justify-content: space-between; align-items: flex-end; gap: 12px; margin-bottom: 12px; flex-wrap: wrap; }
 .bar h2 { font-size: 16px; font-weight: 500; margin: 0; }
+.bar h2 .muted { font-size: 12px; font-weight: 400; margin-left: 6px; }
 .bar p { max-width: 60ch; }
 .bar label { display: flex; align-items: center; gap: 6px; }
 .bar select { width: auto; }
-.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 14px; }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 14px; }
 .card { background: var(--panel); border: 0.5px solid var(--line); border-radius: 8px; overflow: hidden; display: flex; flex-direction: column; }
 .photo { margin: 0; position: relative; aspect-ratio: 16 / 10; background: var(--hover); }
 .photo img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; display: block; }
