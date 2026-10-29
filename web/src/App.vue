@@ -12,6 +12,7 @@ import CoverCounter from './components/CoverCounter.vue'
 import PanelHandle from './components/PanelHandle.vue'
 import BarriPicker from './components/BarriPicker.vue'
 import SpeciesCards from './components/SpeciesCards.vue'
+import Icon from './components/Icon.vue'
 
 onMounted(() => load())
 
@@ -101,14 +102,17 @@ watch(
           <button v-if="state.area && !state.drawing" @click="clearArea">Whole site</button>
         </div>
         <template v-if="state.area && !state.drawing">
-          <label class="check"><input type="checkbox" :checked="state.area.all" :disabled="!state.area.idx.length"
-                 @change="setAreaAll($event.target.checked)" />
-            Replace all {{ state.area.idx.length + state.area.keptIdx.length }} trees, not only the {{ state.area.idx.length }} planes</label>
+          <div class="btns">
+            <button class="ico" :class="{ on: state.area.all }" :aria-pressed="state.area.all" :disabled="!state.area.idx.length"
+                    :title="`Replace all ${state.area.idx.length + state.area.keptIdx.length} trees, not only the ${state.area.idx.length} planes`"
+                    @click="setAreaAll(!state.area.all)">
+              <Icon name="swap" />Replace all {{ state.area.idx.length + state.area.keptIdx.length }}</button>
+            <button class="ico" :disabled="!state.area.spotIdx.length" title="Plant a tree on every free spot inside the area"
+                    @click="fillAreaSpots"><Icon name="fill" />Fill {{ state.area.spotIdx.length }} spots</button>
+          </div>
+          <p class="small muted">{{ state.area.all ? 'All the street trees inside are replaced.' : `Only the ${state.area.idx.length} planes are replaced.` }}</p>
           <p v-if="state.area.all" class="small accent">New trees are scored at the selected size, today's at theirs: replacing young or healthy
             trees looks like a gain that takes years to arrive. Check "≈ 10 years".</p>
-          <div class="btns">
-            <button :disabled="!state.area.spotIdx.length" @click="fillAreaSpots">Fill the {{ state.area.spotIdx.length }} free spots</button>
-          </div>
         </template>
         <details class="how"><summary>How it works</summary>
           <p class="small muted">Trees are replaced where a dead tree, a project or a street rebuild opens the ground. Draw that place: only the
@@ -121,12 +125,14 @@ watch(
       <section>
         <h3>3 · Add trees <span class="muted">{{ state.added.length ? `${state.added.length} added` : '' }}</span></h3>
         <div class="btns">
-          <button :class="{ on: state.addMode }" @click="setAddMode(!state.addMode)">{{ state.addMode ? 'Stop adding' : 'Add trees' }}</button>
+          <button class="ico" :class="{ on: state.addMode }" :aria-pressed="state.addMode" title="Click on the map to add trees"
+                  @click="setAddMode(!state.addMode)"><Icon name="add" />{{ state.addMode ? 'Stop adding' : 'Add trees' }}</button>
           <button v-if="state.added.length" @click="downloadAdded">Download CSV</button>
           <button v-if="state.added.length" @click="clearAdded">Clear</button>
         </div>
-        <p v-if="state.addMode" class="small muted">Click open ground or a green free spot. Each tree gets the best species for the current
-          priorities (change it in the inspector). Warns under {{ MIN_SPACING_M }} m from another tree (assumption).</p>
+        <p v-if="state.addMode" class="small muted">The map shades where a tree can go: green = open ground, amber = allowed with a
+          warning (under 2 m from a building or {{ MIN_SPACING_M }} m from a tree). Click there or on a green free spot. Each tree gets the best species for the current
+          priorities (change it in the inspector). The {{ MIN_SPACING_M }} m spacing is an assumption.</p>
         <p v-if="state.addMsg" class="small accent">{{ state.addMsg }}</p>
       </section>
 
