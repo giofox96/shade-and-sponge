@@ -33,6 +33,7 @@ FILE = {  # species -> Commons file name, to replace a lead image that is not th
     'Cupressus sempervirens': "Abbazia di Sant'Andrea (Borzone, Borzonasca) - cipresso 2022-06-09.jpg",
     'Fraxinus angustifolia': 'Fraxinus angustifolia 20190614.jpg',
     'Hibiscus syriacus': 'Hibiscus-syriacus-street-tree.JPG',
+    'Koelreuteria paniculata': 'Koelreuteria habitus.jpg',
     'Jacaranda mimosifolia': 'Jacaranda tree (Jacaranda mimosifolia) in bloom, Miguel Bombarda Avenue, Lisbon, Portugal julesvernex2.jpg',
     'Magnolia grandiflora': 'Magnolia grandiflora "Sempreverde".jpg',
     'Prunus cerasifera': '2025.08.13 Prunus cerasifera tree Salihorsk Paŭnočnaja 8.jpg',
