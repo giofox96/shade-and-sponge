@@ -9,7 +9,8 @@ import { MapboxOverlay } from '@deck.gl/mapbox'
 import { BitmapLayer, GeoJsonLayer, PathLayer, PolygonLayer, ScatterplotLayer } from '@deck.gl/layers'
 import { SimpleMeshLayer } from '@deck.gl/mesh-layers'
 import { SphereGeometry } from '@luma.gl/engine'
-import { state, dataUrl, hexToRgb, currentLayout, addTreeAt, addVertex, keptReplaced, themeColors, isDark, AREA } from '../store.js'
+import { state, dataUrl, hexToRgb, currentLayout, addTreeAt, addVertex, keptReplaced, themeColors, isDark, AREA, addableMask, finishArea,
+  cancelDrawing } from '../store.js'
 
 setWorkerUrl(workerUrl)
 const el = ref(null)
@@ -106,6 +107,14 @@ function crowns() {
 
 const ON_TOP = { depthCompare: 'always', depthWriteEnabled: false }
 
+// "Add trees": where a click is accepted, rebuilt when trees are added (the spacing ring moves)
+let mask = null, maskKey = null
+function addMask() {
+  const key = `${state.site}:${state.addedVersion}`
+  if (key !== maskKey) [mask, maskKey] = [addableMask(), key]
+  return mask
+}
+
 function layers() {
   if (!state.meta) return []
   const ov = state.meta.overlays.find((o) => o.id === state.overlay)
@@ -113,6 +122,8 @@ function layers() {
   return [
     ov &&
       new BitmapLayer({ id: 'overlay-' + ov.id, image: dataUrl(ov.file), bounds: c, opacity: 0.55 }),
+    state.addMode && addMask() &&
+      new BitmapLayer({ id: 'addable-' + maskKey, image: mask, bounds: c, textureParameters: { minFilter: 'nearest', magFilter: 'nearest' } }),
     new GeoJsonLayer({
       id: 'buildings',
       data: dataUrl('buildings.geojson'),
@@ -192,7 +203,7 @@ onMounted(() => {
 
 watch(
   () => [state.scenarioId, state.live?.version, state.area?.version, state.area, state.drawing, state.draft, state.overlay, state.showStreets, isDark.value,
-    state.month, state.selected, state.addedVersion, state.buildingOpacity],
+    state.month, state.selected, state.addedVersion, state.buildingOpacity, state.addMode],
   () => overlay?.setProps({ layers: layers() }),
 )
 
@@ -209,6 +220,28 @@ watch(() => state.area?.poly, (poly) => {
 
 // while drawing a project area, double clicks place corners instead of zooming
 watch(() => state.drawing, (on) => (on ? map?.doubleClickZoom.disable() : map?.doubleClickZoom.enable()))
+
+// while drawing, a right click (without dragging the view), Enter or Space closes the area; Escape cancels it
+let rightDown = null
+const onMouseDown = (e) => (rightDown = e.button === 2 ? [e.clientX, e.clientY] : null)
+const onContextMenu = (e) => {
+  if (!state.drawing) return
+  e.preventDefault()
+  if (rightDown && Math.hypot(e.clientX - rightDown[0], e.clientY - rightDown[1]) < 5 && state.draft.length >= 3) finishArea()
+}
+const onKey = (e) => {
+  if (!state.drawing || e.target.closest?.('input, select, textarea')) return
+  if (e.key === 'Escape') return cancelDrawing()
+  if (e.key !== 'Enter' && e.key !== ' ') return
+  e.preventDefault() // Space would otherwise press the focused button
+  if (state.draft.length >= 3) finishArea()
+}
+onMounted(() => {
+  el.value.addEventListener('mousedown', onMouseDown, true)
+  el.value.addEventListener('contextmenu', onContextMenu, true)
+  window.addEventListener('keydown', onKey)
+})
+onBeforeUnmount(() => window.removeEventListener('keydown', onKey))
 
 onBeforeUnmount(() => {
   ro?.disconnect()

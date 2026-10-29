@@ -106,7 +106,7 @@ export const cityMean = computed(() => {
 })
 
 // "vs city rule" reference: the whole-site S1a mean, or the city rule inside the project area (estimate)
-export const baseline = computed(() => (state.scenarioId === AREA && state.area ? state.area.city.metrics : cityMean.value))
+export const baseline = computed(() => (state.scenarioId === AREA && state.area?.city ? state.area.city.metrics : cityMean.value))
 
 // Calibration of live estimates: exact metric (full raster model) vs summed single-tree potentials, over the saved
 // palette layouts (random #0 + 15 optimised). R² says how far to trust each estimate.
@@ -141,13 +141,13 @@ export async function runLive(weights) {
 
 // ---- designer mode: add trees -------------------------------------------------------------------------------
 export async function setAddMode(on) {
-  state.addMode = on
   state.addMsg = null
   if (on && !grid) {
     state.addMsg = 'Loading the site grid…'
     await ensureGrid()
     state.addMsg = null
   }
+  state.addMode = on // after the grid: the map draws where trees can go from it
 }
 
 // weights on screen (live, precomputed optimised) or balanced
@@ -166,6 +166,32 @@ function recommend(q) {
     if (sc > bs) [best, bs] = [j, sc]
   })
   return best
+}
+
+// Where "Add trees" accepts a click, as an RGBA canvas on the site grid (row 0 = north): open ground in the site, not a
+// roof, at least 1 m from a building. Amber where the click is accepted with a warning: under 2 m from a building or under
+// MIN_SPACING_M from another tree. The same rules as addTreeAt.
+export function addableMask() {
+  if (!grid) return null
+  const { W, H, flags, facade, res } = grid
+  const near = new Uint8Array(W * H)
+  const R = MIN_SPACING_M / res
+  for (const [x, y] of [...treeXY, ...state.added.map((a) => [a.x, a.y])]) {
+    const c0 = (x - grid.x0) / res, r0 = (grid.y1 - y) / res
+    for (let r = Math.max(0, Math.floor(r0 - R)); r <= Math.min(H - 1, Math.ceil(r0 + R)); r++)
+      for (let c = Math.max(0, Math.floor(c0 - R)); c <= Math.min(W - 1, Math.ceil(c0 + R)); c++)
+        if (Math.hypot(c + 0.5 - c0, r + 0.5 - r0) < R) near[r * W + c] = 1
+  }
+  const cv = document.createElement('canvas')
+  Object.assign(cv, { width: W, height: H })
+  const ctx = cv.getContext('2d')
+  const img = ctx.createImageData(W, H)
+  for (let k = 0; k < W * H; k++) {
+    if ((flags[k] & 5) !== 1 || facade[k] < 10) continue
+    img.data.set(near[k] || facade[k] < 20 ? [230, 160, 30, 120] : [70, 190, 80, 120], 4 * k)
+  }
+  ctx.putImageData(img, 0, 0)
+  return cv
 }
 
 export function addTreeAt(lon, lat) {
@@ -260,7 +286,7 @@ function withSizeRule(fit, cls) {
 // Full-length plane layout: today's trees everywhere, the area's species at its plane positions
 export function areaLayout(sub) {
   const full = [...state.trees.layouts.S0_current]
-  state.area.idx.forEach((i, k) => (full[i] = sub[k]))
+  state.area.idx.forEach((i, k) => (full[i] = sub[k] ?? full[i])) // today's species until the new area is optimised
   return full
 }
 // kept tree index -> new palette species, for the kept trees an area replaces (empty unless "replace all trees")
@@ -273,7 +299,7 @@ export function keptReplaced(useCity = false) {
 
 export function startDrawing() {
   Object.assign(state, { drawing: true, draft: [], view: 'map', addMode: false,
-    addMsg: 'Click on the map to place the corners of the project area, then press Finish.' })
+    addMsg: 'Click on the map to place the corners of the project area. Right-click, Enter or Space closes it.' })
 }
 export function addVertex(lon, lat) {
   state.draft = [...state.draft, [lon, lat]]
