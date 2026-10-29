@@ -1,7 +1,7 @@
 <script setup>
 import { onMounted, watch } from 'vue'
 import { state, load, switchSite, scenario, label, layoutEff, runLive, runArea, setAddMode, addedCsv, startDrawing, finishArea,
-  cancelDrawing, clearArea, setAreaAll, fillAreaSpots, panels, ui, MIN_SPACING_M, MONTHS, BALANCED, LIVE, AREA } from './store.js'
+  cancelDrawing, clearArea, startEditArea, finishEditArea, cancelEditArea, setAreaAll, fillAreaSpots, panels, ui, MIN_SPACING_M, MONTHS, BALANCED, LIVE, AREA } from './store.js'
 import MapView from './components/MapView.vue'
 import PriorityTriangle from './components/PriorityTriangle.vue'
 import TradeoffChart from './components/TradeoffChart.vue'
@@ -96,12 +96,16 @@ watch(
       <section>
         <h3>2 · Project area <span class="muted">{{ state.area ? `${state.area.all ? state.area.idx.length + state.area.keptIdx.length + ' trees' : state.area.idx.length + ' planes'}` : 'whole site' }}</span></h3>
         <div class="btns">
-          <button v-if="!state.drawing" @click="startDrawing">{{ state.area ? 'Redraw' : 'Draw an area' }}</button>
+          <button v-if="!state.drawing && !state.editing" @click="startDrawing">{{ state.area ? 'Redraw' : 'Draw an area' }}</button>
+          <button v-if="state.area && !state.drawing" class="ico" :class="{ on: state.editing }" :aria-pressed="state.editing"
+                  title="Move, add or remove the corners of the area" @click="state.editing ? finishEditArea() : startEditArea()">
+            <Icon name="edit" />{{ state.editing ? 'Done' : 'Edit area' }}</button>
+          <button v-if="state.editing" @click="cancelEditArea">Cancel</button>
           <button v-if="state.drawing" :disabled="state.draft.length < 3" @click="finishArea">Finish ({{ state.draft.length }} corners)</button>
           <button v-if="state.drawing" @click="cancelDrawing">Cancel</button>
-          <button v-if="state.area && !state.drawing" @click="clearArea">Whole site</button>
+          <button v-if="state.area && !state.drawing && !state.editing" @click="clearArea">Whole site</button>
         </div>
-        <template v-if="state.area && !state.drawing">
+        <template v-if="state.area && !state.drawing && !state.editing">
           <div class="btns">
             <button class="ico" :class="{ on: state.area.all }" :aria-pressed="state.area.all" :disabled="!state.area.idx.length"
                     :title="`Replace all ${state.area.idx.length + state.area.keptIdx.length} trees, not only the ${state.area.idx.length} planes`"
@@ -125,7 +129,8 @@ watch(
       <section>
         <h3>3 · Add trees <span class="muted">{{ state.added.length ? `${state.added.length} added` : '' }}</span></h3>
         <div class="btns">
-          <button class="ico" :class="{ on: state.addMode }" :aria-pressed="state.addMode" title="Click on the map to add trees"
+          <button class="ico" :class="{ on: state.addMode }" :aria-pressed="state.addMode" :disabled="state.drawing || state.editing"
+                  :title="state.area ? 'Click inside the project area to add trees' : 'Click on the map to add trees'"
                   @click="setAddMode(!state.addMode)"><Icon name="add" />{{ state.addMode ? 'Stop adding' : 'Add trees' }}</button>
           <button v-if="state.added.length" @click="downloadAdded">Download CSV</button>
           <button v-if="state.added.length" @click="clearAdded">Clear</button>

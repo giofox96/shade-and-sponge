@@ -1,6 +1,6 @@
 <script setup>
 // Small line icons for the sidebar buttons (24 × 24, currentColor): swap = replace all trees, add = add trees,
-// fill = fill the free spots
+// fill = fill the free spots, edit = edit the project area
 defineProps({ name: { type: String, required: true } })
 </script>
 
@@ -19,6 +19,11 @@ defineProps({ name: { type: String, required: true } })
       <path d="M2 12h8M6 8v8" />
       <ellipse cx="16.5" cy="9" rx="5.5" ry="5" fill="currentColor" fill-opacity="0.25" />
       <path d="M16.5 14V21" />
+    </template>
+    <template v-else-if="name === 'edit'">
+      <path d="M4 18L7 5l12 3 1 9z" stroke-dasharray="2.5 2" />
+      <rect v-for="[x, y] in [[4, 18], [7, 5], [19, 8], [20, 17]]" :key="x" :x="x - 1.8" :y="y - 1.8" width="3.6" height="3.6"
+            fill="currentColor" stroke="none" />
     </template>
     <template v-else-if="name === 'fill'">
       <rect x="2" y="3" width="20" height="18" rx="2" stroke-dasharray="2.5 2" />
