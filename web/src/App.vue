@@ -167,6 +167,9 @@ watch(
           <label class="check"><input type="checkbox" v-model="state.showStreets" /> Sidewalks and free spots</label>
           <p class="small muted">Brown = façade, dark = kerb: the sidewalk is the band between them. Green dots = free spots, light to dark =
             small / medium / large tree.</p>
+          <h3 class="mt">Buildings <span class="muted">{{ Math.round(state.buildingOpacity * 100) }}% opaque</span></h3>
+          <input type="range" min="0" max="1" step="0.05" v-model.number="state.buildingOpacity" aria-label="Building opacity" />
+          <p class="small muted">Lower it to see the trees and the project area behind the buildings.</p>
           <h3 class="mt">Overlay</h3>
           <select v-model="state.overlay" aria-label="Map overlay">
             <option value="">None</option>
