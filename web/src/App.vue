@@ -11,6 +11,7 @@ import ComparePanel from './components/ComparePanel.vue'
 import CoverCounter from './components/CoverCounter.vue'
 import PanelHandle from './components/PanelHandle.vue'
 import BarriPicker from './components/BarriPicker.vue'
+import SpeciesCards from './components/SpeciesCards.vue'
 
 onMounted(() => load())
 
@@ -195,10 +196,11 @@ watch(
 
     <main>
       <div class="tabs seg" role="tablist" aria-label="View">
-        <button role="tab" :aria-selected="!state.compare" :class="{ on: !state.compare }" @click="state.compare = false">Map</button>
-        <button role="tab" :aria-selected="state.compare" :class="{ on: state.compare }" @click="state.compare = true">Compare side by side</button>
+        <button v-for="[v, l] in [['map', 'Map'], ['compare', 'Compare side by side'], ['species', 'Species']]" :key="v" role="tab"
+                :aria-selected="state.view === v" :class="{ on: state.view === v }" @click="state.view = v">{{ l }}</button>
       </div>
-      <ComparePanel v-if="state.compare" />
+      <ComparePanel v-if="state.view === 'compare'" />
+      <SpeciesCards v-else-if="state.view === 'species'" />
       <MapView v-else :key="state.site" />
       <PanelHandle side="left" />
       <PanelHandle side="right" />

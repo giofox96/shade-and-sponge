@@ -39,6 +39,15 @@ The published data use the **thesis configuration** (since 26 Oct): the exact si
   All colours are CSS tokens in `src/style.css`. The map and the chart, which cannot read CSS, take theirs from `themeColors` in `store.js`.
 - **Dark mode:** **Auto | Light | Dark** in the header. Auto follows the system, and the choice is remembered. The basemap switches between OpenFreeMap Positron (light) and CARTO Dark Matter (dark), and buildings, sidewalks, tree outlines and the chart follow the theme.
 
+## Species cards (29 Oct)
+The **Species** tab (next to Map and Compare) shows one botanical card per species of the palette on screen:
+- a **photo** from Wikimedia Commons, free licences only (CC0, public domain, CC BY, CC BY-SA), with author and licence on the photo. `scripts/fetch_species_photos.py` (run on the PC: Wikimedia is not reachable from the cloud) writes `public/species/<slug>.jpg` and `photos.json`; `FILE` in the script replaces a lead image that is not the whole tree (`--candidates` lists options);
+- a **profile drawing** to one scale on every card (height, crown width, clear trunk, a 1.7 m person);
+- **icons** for height, crown width, clear trunk (crown base), trunk diameter (from the trunk class: perimeter / π, 2011 guide p. 18), LAI (LiDAR proxy, five pips relative to the palette's largest), sidewalk size class, the 15% cap, and the leaf calendar;
+- how many positions of the layout on screen get the species (sortable).
+
+All values come from `meta.json → palette`: no new parameters.
+
 ## Canopy cover counter (28 Oct)
 The top of the right panel shows the **canopy cover** of the layout on screen against the plan's **30% target**:
 - **Today:** the measured 20.1% (LiDAR CHM > 2 m).
