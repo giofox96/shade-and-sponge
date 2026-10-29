@@ -66,7 +66,7 @@ const share = (rows, k) => (S.value.n ? (rows.find((r) => r.name === k)?.n ?? 0)
 
 <template>
   <div v-if="S.n" class="stats">
-    <div class="tiles">
+    <div class="tiles box">
       <div><b>{{ S.n.toLocaleString('en') }}</b><small>street trees</small></div>
       <div><b>{{ S.nSpecies }}</b><small>species</small></div>
       <div :title="'exp(Shannon H): the number of equally common species with the same diversity'"><b>{{ S.eff.toFixed(1) }}</b><small>effective species</small></div>
@@ -79,7 +79,7 @@ const share = (rows, k) => (S.value.n ? (rows.find((r) => r.name === k)?.n ?? 0)
     </div>
 
     <div class="row">
-      <section class="mix">
+      <section class="mix box">
         <h4>Species mix <span class="muted">dashed line = 15% cap</span></h4>
         <ul class="bars">
           <li v-for="b in bars" :key="b.name" :title="`${b.name}: ${b.n.toLocaleString('en')} trees, ${pct(b.share)}`">
@@ -92,7 +92,7 @@ const share = (rows, k) => (S.value.n ? (rows.find((r) => r.name === k)?.n ?? 0)
           </li>
         </ul>
       </section>
-      <section v-for="d in donuts" :key="d.title" class="donut">
+      <section v-for="d in donuts" :key="d.title" class="donut box">
         <h4>{{ d.title }}</h4>
         <VChart class="pie" :option="d.option" autoresize :aria-label="`${d.title} donut chart`" />
         <ul class="legend">
@@ -109,8 +109,9 @@ const share = (rows, k) => (S.value.n ? (rows.find((r) => r.name === k)?.n ?? 0)
 </template>
 
 <style scoped>
-.stats { background: var(--panel); border: 0.5px solid var(--line); border-radius: 8px; padding: 12px; margin-bottom: 14px; }
-.tiles { display: grid; grid-template-columns: repeat(auto-fill, minmax(104px, 1fr)); gap: 8px; margin-bottom: 12px; }
+.stats { margin-bottom: 18px; }
+.box { background: var(--panel); border: 0.5px solid var(--line); border-radius: 8px; padding: 12px; }
+.tiles { display: grid; grid-template-columns: repeat(auto-fill, minmax(104px, 1fr)); gap: 8px; margin-bottom: 14px; }
 .tiles div { border-left: 2px solid var(--line); padding-left: 8px; }
 .tiles b { display: block; font-size: 17px; font-weight: 500; font-variant-numeric: tabular-nums; }
 .tiles b.bad { color: var(--bad); }
@@ -133,5 +134,5 @@ h4 .muted { font-weight: 400; font-size: 10px; }
 .dot { display: inline-block; width: 8px; height: 8px; border-radius: 50%; flex: none; margin-right: 4px; }
 .small { font-size: 11px; line-height: 1.45; margin: 10px 0 0; }
 .muted { color: var(--muted); }
-section { padding: 0; border: 0; }
+section.box { padding: 12px; border: 0.5px solid var(--line); }
 </style>
