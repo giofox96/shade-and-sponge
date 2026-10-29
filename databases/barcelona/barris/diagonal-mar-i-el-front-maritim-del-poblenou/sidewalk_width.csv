@@ -1,0 +1,2073 @@
+tree_id,species,is_plane,street,width_m,facade_dist_m,flag,strip_width_m,size_class
+0016769AR,Tipuana tipu,False,Pg Garcia Fària,,55.03,no_facade,,check
+0017006AR,Melia azedarach,False,Pg Garcia Fària,,14.11,no_kerb,,check
+0017256AR,Celtis australis,False,C\ Llull,,60.63,no_facade,20.07,check
+0017853AR,Platanus × acerifolia,True,Av Diagonal,,40.23,no_facade,17.87,check
+0018050AR,Platanus × acerifolia,True,Av Diagonal,,32.08,no_facade,18.08,check
+0019299AR,Gleditsia triacanthos 'skyline',False,C\ Ramon Turró,5.25,4.03,ok,,medium
+0019300AR,Gleditsia triacanthos,False,C\ Fluvià,13.17,10.9,ok,,large
+0019301AR,Platanus × acerifolia,True,C\ Pallars,4.9,5.14,ok,,medium
+0019302AR,Platanus × acerifolia,True,Av Diagonal,,32.97,no_facade,19.06,check
+0019303AR,Platanus × acerifolia,True,C\ Pallars,6.22,6.36,ok,,large
+0019304AR,Celtis australis,False,C\ Josep Ferrater i Móra,5.29,4.89,ok,,medium
+0019305AR,Celtis australis,False,C\ Selva de Mar,,22.71,median,,check
+0019306AR,Celtis australis,False,C\ Josep Ferrater i Móra,7.45,5.55,ok,,large
+0019307AR,Celtis sinensis,False,C\ Ramon Turró,5.06,3.57,ok,,medium
+0019308AR,Platanus × acerifolia,True,C\ Bac de Roda,9.95,6.75,ok,,large
+0019309AR,Platanus × acerifolia,True,C\ Llull,,22.67,median,,check
+0019310AR,Prunus cerasifera 'Pissardii',False,Ptge Maria Llimona,,6.17,no_kerb,,check
+0019311AR,Gleditsia triacanthos,False,C\ Pujades,8.36,1.38,ok,,large
+0019312AR,Celtis australis,False,C\ Ramon Turró,,9.86,median,4.92,check
+0019313AR,Celtis australis,False,C\ Ramon Turró,5.22,3.86,ok,,medium
+0019315AR,Celtis australis,False,C\ Selva de Mar,8.1,6.95,ok,,large
+0019316AR,Platanus × acerifolia,True,Av Diagonal,,28.75,median,16.49,check
+0019317AR,Platanus × acerifolia,True,Av Diagonal,8.12,6.65,ok,,large
+0019318AR,Celtis australis,False,C\ Josep Pla,8.01,7.09,ok,,large
+0019319AR,Platanus × acerifolia,True,C\ Pallars,,28.59,median,,check
+0019320AR,Celtis australis,False,C\ Bac de Roda,5.0,4.13,ok,,medium
+0019321AR,Gleditsia triacanthos,False,C\ Pujades,,21.75,no_kerb,,check
+0019323AR,Koelreuteria paniculata 'Fastigiata',False,Pg Taulat,,23.7,median,13.6,check
+0019326AR,Tipuana tipu,False,Pg Taulat,8.02,6.61,ok,,large
+0019327AR,Celtis australis,False,C\ Bac de Roda,7.95,7.33,ok,,large
+0019328AR,Tipuana tipu,False,C\ Llull,,19.98,no_kerb,,check
+0019329AR,Celtis australis,False,C\ Ramon Turró,5.23,3.24,ok,,medium
+0019330AR,Celtis australis,False,C\ Provençals,5.19,4.72,ok,,medium
+0019331AR,Platanus × acerifolia,True,Av Diagonal,,27.02,median,12.86,check
+0019333AR,Platanus × acerifolia,True,C\ Pallars,5.1,4.76,ok,,medium
+0019335AR,Celtis australis,False,C\ Provençals,5.14,4.34,ok,,medium
+0019336AR,Platanus × acerifolia,True,C\ Pallars,4.9,4.94,ok,,medium
+0019337AR,Tipuana tipu,False,Pg Taulat,6.21,4.81,ok,,large
+0019339AR,Celtis australis,False,C\ Ramon Turró,11.65,8.17,ok,,large
+0019341AR,Celtis australis,False,C\ Ramon Turró,5.11,4.5,ok,,medium
+0019342AR,Platanus × acerifolia,True,Av Diagonal,,54.56,no_facade,19.5,check
+0019343AR,Celtis australis,False,Pg Taulat,12.77,11.6,ok,,large
+0019344AR,Platanus × acerifolia,True,Av Diagonal,9.59,8.64,ok,,large
+0019345AR,Ginkgo biloba 'Fastigiata Blagon',False,C\ Pujades,5.51,4.6,ok,,medium
+0019346AR,Platanus × acerifolia,True,Av Diagonal,6.79,5.18,ok,,large
+0019347AR,Celtis australis,False,C\ Selva de Mar,7.93,6.91,ok,,large
+0019348AR,Celtis sinensis,False,C\ Provençals,5.39,4.5,ok,,medium
+0019349AR,Tipuana tipu,False,C\ Llull,,30.87,no_facade,,check
+0019350AR,Celtis australis,False,C\ Lope de Vega,,8.27,median,5.78,check
+0019352AR,Celtis australis,False,C\ Ramon Turró,4.96,4.0,ok,,medium
+0019353AR,Celtis sinensis,False,C\ Ramon Turró,10.34,8.5,ok,,large
+0019355AR,Gleditsia triacanthos,False,C\ Fluvià,8.26,7.22,ok,,large
+0019356AR,Celtis australis,False,Pg Taulat,13.94,13.22,ok,,large
+0019357AR,Celtis australis,False,C\ Lope de Vega,5.15,4.61,ok,,medium
+0019358AR,Celtis australis,False,C\ Provençals,4.92,3.97,ok,,medium
+0019359AR,Gleditsia triacanthos,False,C\ Pujades,8.39,2.67,ok,,large
+0019360AR,Celtis australis,False,C\ Bac de Roda,7.81,5.84,ok,,large
+0019361AR,Celtis australis,False,C\ Bac de Roda,8.01,7.27,ok,,large
+0019363AR,Platanus × acerifolia,True,Av Diagonal,9.52,8.65,ok,,large
+0019364AR,Celtis australis,False,C\ Ramon Turró,5.2,3.4,ok,,medium
+0019365AR,Callistemon viminalis,False,Ptge Maria Llimona,,8.74,no_kerb,,check
+0019366AR,Celtis sinensis,False,C\ Fluvià,5.07,4.3,ok,,medium
+0019369AR,Celtis australis,False,C\ Selva de Mar,,22.61,median,16.63,check
+0019370AR,Celtis australis,False,C\ Selva de Mar,,34.71,no_facade,33.68,check
+0019371AR,Tipuana tipu,False,C\ Llull,,30.08,no_facade,,check
+0019372AR,Platanus × acerifolia,True,Av Diagonal,,49.54,no_facade,4.93,check
+0019373AR,Platanus × acerifolia,True,C\ Pallars,5.4,5.53,ok,,medium
+0019374AR,Platanus × acerifolia,True,C\ Llull,,29.95,median,,check
+0019375AR,Celtis australis,False,C\ Ramon Turró,,16.54,median,,check
+0019376AR,Platanus × acerifolia,True,C\ Pujades,,15.34,median,,check
+0019377AR,Celtis australis,False,C\ Josep Ferrater i Móra,5.12,4.63,ok,,medium
+0019378AR,Celtis australis,False,C\ Josep Pla,7.88,7.2,ok,,large
+0019379AR,Gleditsia triacanthos f. inermis,False,C\ Provençals,4.87,1.2,ok,,medium
+0019380AR,Platanus × acerifolia,True,C\ Pallars,,16.87,median,25.65,check
+0019381AR,Platanus × acerifolia,True,Av Diagonal,,27.14,median,16.15,check
+0019382AR,Platanus × acerifolia,True,Av Diagonal,,67.57,no_facade,5.12,check
+0019383AR,Celtis sinensis,False,C\ Fluvià,5.08,4.61,ok,,medium
+0019384AR,Platanus × acerifolia,True,Av Diagonal,8.06,6.54,ok,,large
+0019385AR,Tipuana tipu,False,Pg Taulat,,29.68,median,36.64,check
+0019386AR,Platanus × acerifolia,True,Av Diagonal,,34.62,no_facade,,check
+0019387AR,Platanus × acerifolia,True,C\ Josep Pla,11.58,7.59,ok,,large
+0019388AR,Celtis australis,False,C\ Selva de Mar,9.41,8.19,ok,,large
+0019389AR,Jacaranda mimosifolia,False,C\ Ferrers,2.92,2.57,ok,,small
+0019390AR,Celtis sinensis,False,C\ Fluvià,5.06,4.18,ok,,medium
+0019391AR,Platanus × acerifolia,True,C\ Provençals,18.49,17.66,ok,,large
+0019392AR,Tipuana tipu,False,Pg Taulat,,19.25,median,33.81,check
+0019393AR,Gleditsia triacanthos,False,C\ Pujades,8.39,2.46,ok,,large
+0019394AR,Celtis australis,False,C\ Bac de Roda,9.99,9.24,ok,,large
+0019396AR,Platanus × acerifolia,True,C\ Josep Pla,5.17,4.41,ok,,medium
+0019397AR,Platanus × acerifolia,True,C\ Pallars,11.73,10.42,ok,,large
+0019398AR,Celtis sinensis,False,C\ Fluvià,4.92,3.65,ok,,medium
+0019399AR,Platanus × acerifolia,True,Av Diagonal,,30.85,no_facade,11.72,check
+0019400AR,Prunus cerasifera 'Pissardii',False,Ptge Maria Llimona,,5.67,no_kerb,,check
+0019401AR,Platanus × acerifolia,True,C\ Pallars,5.05,4.61,ok,,medium
+0019402AR,Celtis australis,False,C\ Ramon Turró,4.96,3.96,ok,,medium
+0019403AR,Populus nigra,False,C\ Pujades,26.75,2.96,ok,,large
+0019404AR,Celtis australis,False,C\ Ramon Turró,,16.56,median,,check
+0019405AR,Celtis australis,False,C\ Selva de Mar,7.97,6.85,ok,,large
+0019406AR,Celtis australis,False,C\ Espronceda,6.48,5.33,ok,,large
+0019407AR,Celtis australis,False,C\ Selva de Mar,,31.02,no_facade,,check
+0019408AR,Tipuana tipu,False,C\ Llull,,32.98,no_facade,,check
+0019409AR,Platanus × acerifolia,True,C\ Pallars,6.85,5.8,ok,,large
+0019410AR,Celtis australis,False,C\ Selva de Mar,8.49,7.09,ok,,large
+0019411AR,Celtis australis,False,C\ Selva de Mar,,29.71,median,21.11,check
+0019413AR,Paulownia tomentosa,False,C\ Provençals,,32.43,no_facade,21.56,check
+0019414AR,Celtis australis,False,C\ Josep Ferrater i Móra,5.09,4.62,ok,,medium
+0019415AR,Platanus × acerifolia,True,Av Diagonal,,19.83,median,7.46,check
+0019418AR,Prunus cerasifera 'Pissardii',False,Ptge Maria Llimona,,6.59,no_kerb,,check
+0019419AR,Platanus × acerifolia,True,C\ Pallars,,21.73,median,31.47,check
+0019420AR,Gleditsia triacanthos,False,C\ Pujades,10.55,6.47,ok,,large
+0019422AR,Platanus × acerifolia,True,C\ Llull,,32.34,no_facade,,check
+0019423AR,Celtis australis,False,C\ Selva de Mar,7.95,6.9,ok,,large
+0019424AR,Platanus × acerifolia,True,Av Diagonal,,53.72,no_facade,17.89,check
+0019425AR,Celtis australis,False,C\ Provençals,4.94,3.68,ok,,medium
+0019426AR,Tipuana tipu,False,C\ Llull,,28.52,no_kerb,,check
+0019427AR,Platanus × acerifolia,True,C\ Bac de Roda,9.51,8.78,ok,,large
+0019428AR,Platanus × acerifolia,True,Av Diagonal,,56.99,no_facade,17.86,check
+0019430AR,Platanus × acerifolia,True,C\ Llull,,18.22,median,,check
+0019431AR,Celtis australis,False,C\ Selva de Mar,7.89,6.46,ok,,large
+0019432AR,Celtis australis,False,C\ Llull,6.38,5.24,ok,,large
+0019433AR,Tipuana tipu,False,Pg Taulat,7.27,6.96,ok,,large
+0019434AR,Populus nigra 'Italica',False,C\ Selva de Mar,25.16,17.72,ok,,large
+0019435AR,Celtis australis,False,C\ Provençals,5.14,4.3,ok,,medium
+0019437AR,Celtis australis,False,C\ Fluvià,,23.28,median,,check
+0019438AR,Platanus × acerifolia,True,Av Diagonal,,52.71,no_facade,4.93,check
+0019439AR,Morus alba,False,Pg Garcia Fària,17.42,15.53,ok,,large
+0019440AR,Callistemon viminalis,False,Ptge Maria Llimona,,6.31,no_kerb,,check
+0019441AR,Celtis australis,False,C\ Selva de Mar,8.02,7.28,ok,,large
+0019442AR,Platanus × acerifolia,True,C\ Agricultura,5.12,3.64,ok,,medium
+0019443AR,Gleditsia triacanthos,False,C\ Fluvià,4.97,3.93,ok,,medium
+0019445AR,Gleditsia triacanthos,False,C\ Fluvià,5.11,4.19,ok,,medium
+0019446AR,Celtis australis,False,C\ Espronceda,4.9,3.89,ok,,medium
+0019447AR,Koelreuteria paniculata 'Fastigiata',False,Pg Taulat,,22.65,median,27.0,check
+0019448AR,Celtis sinensis,False,C\ Provençals,5.42,4.64,ok,,medium
+0019450AR,Gleditsia triacanthos,False,C\ Fluvià,4.89,3.97,ok,,medium
+0019451AR,Celtis australis,False,C\ Selva de Mar,,37.56,no_facade,,check
+0019452AR,Platanus × acerifolia,True,C\ Llull,,22.62,median,,check
+0019453AR,Platanus × acerifolia,True,Av Diagonal,,33.04,no_facade,17.63,check
+0019454AR,Celtis australis,False,C\ Bac de Roda,7.91,5.95,ok,,large
+0019455AR,Celtis sinensis,False,C\ Llull,5.25,4.73,ok,,medium
+0019456AR,Platanus × acerifolia,True,C\ Selva de Mar,,25.71,median,,check
+0019458AR,Platanus × acerifolia,True,Av Diagonal,,26.93,median,,check
+0019459AR,Celtis australis,False,C\ Ramon Turró,5.1,4.23,ok,,medium
+0019460AR,Tipuana tipu,False,Pg Taulat,6.01,5.02,ok,,large
+0019461AR,Platanus × acerifolia,True,C\ Bac de Roda,8.94,7.42,ok,,large
+0019462AR,Platanus × acerifolia,True,Av Diagonal,9.53,8.69,ok,,large
+0019463AR,Celtis australis,False,C\ Provençals,5.38,4.37,ok,,medium
+0019464AR,Platanus × acerifolia,True,C\ Pallars,4.91,5.0,ok,,medium
+0019465AR,Celtis sinensis,False,C\ Ramon Turró,7.78,6.37,ok,,large
+0019466AR,Celtis australis,False,C\ Selva de Mar,,22.89,median,,check
+0019467AR,Koelreuteria paniculata,False,C\ Selva de Mar,26.18,20.22,ok,,large
+0019468AR,Celtis australis,False,C\ Josep Pla,10.32,8.56,ok,,large
+0019469AR,Celtis australis,False,C\ Josep Ferrater i Móra,8.57,6.66,ok,,large
+0019470AR,Jacaranda mimosifolia,False,C\ Ferrers,2.94,2.29,ok,,small
+0019471AR,Platanus × acerifolia,True,C\ Llull,,42.53,no_facade,,check
+0019472AR,Jacaranda mimosifolia,False,C\ Ferrers,2.85,2.82,ok,,small
+0019474AR,Populus nigra 'Italica',False,C\ Selva de Mar,25.03,20.13,ok,,large
+0019475AR,Celtis australis,False,C\ Lope de Vega,4.98,4.69,ok,,medium
+0019476AR,Platanus × acerifolia,True,C\ Josep Pla,,9.83,median,5.09,check
+0019477AR,Koelreuteria paniculata 'Fastigiata',False,Pg Taulat,,17.5,median,15.51,check
+0019478AR,Jacaranda mimosifolia,False,C\ Ferrers,2.83,2.75,ok,,small
+0019479AR,Tipuana tipu,False,Pg Taulat,6.12,4.46,ok,,large
+0019480AR,Platanus × acerifolia,True,Av Diagonal,,70.6,no_facade,5.1,check
+0019481AR,Platanus × acerifolia,True,Av Diagonal,,27.88,median,7.61,check
+0019482AR,Celtis australis,False,C\ Provençals,5.14,4.25,ok,,medium
+0019483AR,Celtis australis,False,C\ Lope de Vega,6.32,5.69,ok,,large
+0019484AR,Gleditsia triacanthos,False,C\ Fluvià,5.21,4.05,ok,,medium
+0019486AR,Celtis australis,False,C\ Selva de Mar,8.09,6.91,ok,,large
+0019487AR,Celtis australis,False,C\ Selva de Mar,8.11,7.26,ok,,large
+0019488AR,Platanus × acerifolia,True,C\ Pujades,,15.31,median,,check
+0019489AR,Platanus × acerifolia,True,C\ Llull,,60.75,no_facade,30.52,check
+0019490AR,Platanus × acerifolia,True,Av Diagonal,11.13,10.45,ok,,large
+0019492AR,Platanus × acerifolia,True,C\ Pallars,4.91,4.8,ok,,medium
+0019494AR,Tipuana tipu,False,C\ Llull,,32.41,no_facade,,check
+0019495AR,Celtis australis,False,C\ Lope de Vega,8.87,7.89,ok,,large
+0019496AR,Pyrus calleryana 'Chanticleer',False,Pg Taulat,,23.79,median,13.21,check
+0019497AR,Celtis australis,False,C\ Provençals,5.17,4.64,ok,,medium
+0019498AR,Celtis australis,False,C\ Josep Pla,7.89,7.09,ok,,large
+0019499AR,Prunus cerasifera 'Pissardii',False,Ptge Maria Llimona,,5.61,no_kerb,,check
+0019501AR,Celtis australis,False,C\ Lope de Vega,5.05,4.72,ok,,medium
+0019502AR,Tipuana tipu,False,C\ Llull,,21.47,no_kerb,,check
+0019503AR,Tipuana tipu,False,Pg Taulat,5.99,5.7,ok,,medium
+0019504AR,Platanus × acerifolia,True,C\ Josep Pla,,9.47,median,5.23,check
+0019506AR,Platanus × acerifolia,True,C\ Selva de Mar,19.28,18.7,ok,,large
+0019507AR,Platanus × acerifolia,True,C\ Selva de Mar,7.3,6.24,ok,,large
+0019508AR,Prunus cerasifera 'Pissardii',False,Ptge Maria Llimona,,9.09,no_kerb,,check
+0019509AR,Celtis australis,False,C\ Lope de Vega,5.01,4.73,ok,,medium
+0019511AR,Platanus × acerifolia,True,Av Diagonal,29.18,27.96,ok,,large
+0019512AR,Celtis australis,False,C\ Ramon Turró,9.28,8.11,ok,,large
+0019513AR,Koelreuteria paniculata,False,Pg Taulat,,17.74,median,15.14,check
+0019514AR,Platanus × acerifolia,True,C\ Pallars,4.6,4.02,ok,,medium
+0019515AR,Tipuana tipu,False,C\ Llull,,22.05,no_kerb,,check
+0019516AR,Tipuana tipu,False,Pg Taulat,5.96,5.52,ok,,medium
+0019519AR,Tipuana tipu,False,Pg Taulat,8.13,7.84,ok,,large
+0019520AR,Styphnolobium japonicum,False,C\ Selva de Mar,,32.01,no_facade,16.05,check
+0019521AR,Celtis sinensis,False,C\ Llull,5.08,4.96,ok,,medium
+0019522AR,Platanus × acerifolia,True,Av Diagonal,9.5,8.7,ok,,large
+0019523AR,Platanus × acerifolia,True,C\ Llull,,25.88,median,,check
+0019524AR,Celtis australis,False,C\ Espronceda,6.55,5.15,ok,,large
+0019525AR,Platanus × acerifolia,True,C\ Selva de Mar,,26.71,median,,check
+0019526AR,Ginkgo biloba 'Fastigiata Blagon',False,C\ Pujades,4.98,3.62,ok,,medium
+0019527AR,Platanus × acerifolia,True,Av Diagonal,18.32,17.19,ok,,large
+0019528AR,Platanus × acerifolia,True,Av Diagonal,,29.88,median,26.55,check
+0019529AR,Tipuana tipu,False,C\ Llull,,31.14,no_facade,,check
+0019530AR,Platanus × acerifolia,True,Av Diagonal,,31.69,no_facade,,check
+0019531AR,Gleditsia triacanthos,False,C\ Fluvià,9.63,6.87,ok,,large
+0019532AR,Celtis sinensis,False,C\ Ramon Turró,5.28,4.48,ok,,medium
+0019535AR,Platanus × acerifolia,True,Av Diagonal,,32.48,no_facade,17.76,check
+0019536AR,Koelreuteria paniculata 'Fastigiata',False,Pg Taulat,,26.69,median,,check
+0019537AR,Platanus × acerifolia,True,Av Diagonal,,67.51,no_facade,5.08,check
+0019538AR,Platanus × acerifolia,True,Av Diagonal,,72.64,no_facade,5.12,check
+0019539AR,Koelreuteria paniculata 'Fastigiata',False,Pg Taulat,,18.28,median,14.92,check
+0019540AR,Celtis sinensis,False,C\ Ramon Turró,5.03,4.03,ok,,medium
+0019541AR,Celtis australis,False,C\ Llull,10.08,9.52,ok,,large
+0019543AR,Platanus × acerifolia,True,Av Diagonal,8.33,6.56,ok,,large
+0019544AR,Platanus × acerifolia,True,Av Diagonal,25.71,24.82,ok,,large
+0019545AR,Pyrus calleryana 'Chanticleer',False,Pg Taulat,,24.83,median,12.98,check
+0019546AR,Platanus × acerifolia,True,Av Diagonal,6.21,4.97,ok,,large
+0019547AR,Platanus × acerifolia,True,Av Diagonal,,56.29,no_facade,5.16,check
+0019548AR,Tipuana tipu,False,Pg Taulat,7.18,6.94,ok,,large
+0019549AR,Platanus × acerifolia,True,Av Diagonal,,40.73,no_facade,,check
+0019550AR,Platanus × acerifolia,True,Av Diagonal,9.49,8.34,ok,,large
+0019551AR,Platanus × acerifolia,True,Av Diagonal,,23.11,median,18.03,check
+0019552AR,Celtis sinensis,False,C\ Fluvià,4.92,3.62,ok,,medium
+0019553AR,Celtis australis,False,C\ Provençals,9.27,7.27,ok,,large
+0019555AR,Celtis australis,False,C\ Selva de Mar,,44.86,no_facade,24.93,check
+0019556AR,Platanus × acerifolia,True,Av Diagonal,,26.4,median,,check
+0019557AR,Celtis australis,False,C\ Josep Ferrater i Móra,5.44,4.98,ok,,medium
+0019558AR,Celtis australis,False,C\ Selva de Mar,,22.71,median,,check
+0019559AR,Callistemon viminalis,False,Ptge Maria Llimona,,5.92,no_kerb,,check
+0019560AR,Celtis australis,False,C\ Bac de Roda,9.57,8.69,ok,,large
+0019561AR,Koelreuteria paniculata,False,C\ Selva de Mar,,28.59,no_kerb,,check
+0019563AR,Celtis australis,False,C\ Josep Pla,8.68,7.39,ok,,large
+0019564AR,Platanus × acerifolia,True,Av Diagonal,,46.17,no_facade,4.98,check
+0019565AR,Gleditsia triacanthos,False,C\ Pujades,,10.97,median,4.29,check
+0019566AR,Platanus × acerifolia,True,Av Diagonal,,23.46,median,16.49,check
+0019567AR,Callistemon viminalis,False,C\ Selva de Mar,,18.28,no_kerb,,check
+0019568AR,Gleditsia triacanthos 'skyline',False,C\ Ramon Turró,5.01,4.47,ok,,medium
+0019569AR,Celtis australis,False,C\ Provençals,5.04,3.94,ok,,medium
+0019570AR,Tipuana tipu,False,Pg Taulat,6.04,5.65,ok,,large
+0019571AR,Platanus × acerifolia,True,C\ Agricultura,5.01,3.21,ok,,medium
+0019572AR,Platanus × acerifolia,True,C\ Provençals,,31.78,no_facade,,check
+0019573AR,Celtis australis,False,C\ Espronceda,14.0,11.59,ok,,large
+0019574AR,Platanus × acerifolia,True,Av Diagonal,16.9,15.81,ok,,large
+0019575AR,Jacaranda mimosifolia,False,C\ Ferrers,3.72,2.88,ok,,medium
+0019576AR,Ginkgo biloba 'Fastigiata Blagon',False,C\ Pujades,5.04,3.29,ok,,medium
+0019577AR,Prunus cerasifera 'Pissardii',False,Ptge Maria Llimona,,8.99,no_kerb,,check
+0019578AR,Celtis australis,False,C\ Espronceda,5.16,4.1,ok,,medium
+0019580AR,Platanus × acerifolia,True,C\ Pallars,4.84,3.62,ok,,medium
+0019581AR,Celtis australis,False,C\ Selva de Mar,,22.65,median,23.34,check
+0019582AR,Celtis australis,False,C\ Selva de Mar,7.97,6.97,ok,,large
+0019584AR,Platanus × acerifolia,True,C\ Llull,10.11,7.24,ok,,large
+0019585AR,Celtis australis,False,C\ Josep Ferrater i Móra,5.18,3.89,ok,,medium
+0019586AR,Celtis australis,False,C\ Espronceda,5.16,3.67,ok,,medium
+0019587AR,Tipuana tipu,False,C\ Llull,,30.41,no_facade,,check
+0019589AR,Tipuana tipu,False,Pg Taulat,6.03,4.94,ok,,large
+0019590AR,Celtis australis,False,C\ Llull,,55.58,no_facade,11.24,check
+0019591AR,Platanus × acerifolia,True,C\ Josep Pla,,11.23,median,,check
+0019592AR,Celtis australis,False,C\ Ramon Turró,5.91,5.72,ok,,medium
+0019593AR,Celtis australis,False,Pg Taulat,8.23,6.16,ok,,large
+0019594AR,Ginkgo biloba 'Fastigiata Blagon',False,C\ Pujades,5.03,3.37,ok,,medium
+0019595AR,Platanus × acerifolia,True,Av Diagonal,8.96,7.94,ok,,large
+0019596AR,Tipuana tipu,False,C\ Llull,,12.56,no_kerb,,check
+0019598AR,Koelreuteria paniculata,False,Pg Taulat,,24.76,median,,check
+0019599AR,Platanus × acerifolia,True,Av Diagonal,,39.37,no_facade,5.11,check
+0019600AR,Platanus × acerifolia,True,Av Diagonal,,68.15,no_facade,5.1,check
+0019601AR,Tipuana tipu,False,Pg Taulat,7.23,6.45,ok,,large
+0019602AR,Tipuana tipu,False,Pg Taulat,7.32,6.97,ok,,large
+0019603AR,Prunus cerasifera 'Pissardii',False,Ptge Maria Llimona,,6.31,no_kerb,,check
+0019604AR,Celtis sinensis,False,C\ Ramon Turró,5.36,3.31,ok,,medium
+0019605AR,Platanus × acerifolia,True,Av Diagonal,,30.58,no_facade,17.82,check
+0019606AR,Celtis australis,False,C\ Provençals,7.05,5.79,ok,,large
+0019607AR,Platanus × acerifolia,True,C\ Selva de Mar,,20.31,median,10.88,check
+0019608AR,Ulmus pumila,False,Pg Taulat,,17.8,median,,check
+0019609AR,Celtis australis,False,C\ Provençals,5.43,4.63,ok,,medium
+0019611AR,Celtis australis,False,C\ Selva de Mar,,22.54,median,,check
+0019612AR,Styphnolobium japonicum,False,C\ Provençals,,29.84,median,24.52,check
+0019613AR,Celtis australis,False,C\ Josep Pla,7.91,7.28,ok,,large
+0019614AR,Platanus × acerifolia,True,C\ Llull,7.46,4.68,ok,,large
+0019615AR,Tipuana tipu,False,Pg Taulat,7.27,6.47,ok,,large
+0019616AR,Platanus × acerifolia,True,C\ Llull,,26.95,median,,check
+0019617AR,Tipuana tipu,False,Pg Taulat,6.01,5.53,ok,,large
+0019618AR,Platanus × acerifolia,True,Av Diagonal,,57.67,no_facade,18.16,check
+0019619AR,Platanus × acerifolia,True,C\ Llull,,18.07,median,,check
+0019620AR,Platanus × acerifolia,True,C\ Selva de Mar,9.53,4.27,ok,,large
+0019621AR,Celtis australis,False,C\ Josep Ferrater i Móra,5.45,4.9,ok,,medium
+0019622AR,Celtis australis,False,C\ Selva de Mar,7.96,6.81,ok,,large
+0019623AR,Gleditsia triacanthos,False,C\ Agricultura,9.89,9.6,ok,,large
+0019625AR,Tipuana tipu,False,Pg Garcia Fària,,21.52,no_kerb,,check
+0019626AR,Celtis australis,False,C\ Fluvià,7.25,4.67,ok,,large
+0019629AR,Platanus × acerifolia,True,Av Diagonal,,34.03,no_facade,11.85,check
+0019631AR,Celtis australis,False,C\ Bac de Roda,7.99,7.2,ok,,large
+0019632AR,Tipuana tipu,False,C\ Llull,,30.24,no_facade,,check
+0019633AR,Platanus × acerifolia,True,C\ Pallars,6.64,5.56,ok,,large
+0019634AR,Celtis australis,False,C\ Provençals,13.57,12.56,ok,,large
+0019635AR,Celtis australis,False,C\ Bac de Roda,7.99,7.31,ok,,large
+0019637AR,Celtis australis,False,C\ Bac de Roda,12.09,9.14,ok,,large
+0019638AR,Platanus × acerifolia,True,Av Diagonal,,35.18,no_facade,18.0,check
+0019639AR,Platanus × acerifolia,True,C\ Llull,,17.65,median,,check
+0019640AR,Prunus cerasifera 'Pissardii',False,Ptge Maria Llimona,,5.61,no_kerb,,check
+0019643AR,Platanus × acerifolia,True,Av Diagonal,,58.63,no_facade,5.09,check
+0019645AR,Platanus × acerifolia,True,Av Diagonal,,47.63,no_facade,5.02,check
+0019646AR,Tipuana tipu,False,C\ Llull,,30.1,no_facade,,check
+0019647AR,Platanus × acerifolia,True,Av Diagonal,,46.48,no_facade,18.06,check
+0019648AR,Platanus × acerifolia,True,C\ Fluvià,12.31,10.67,ok,,large
+0019649AR,Koelreuteria paniculata 'Fastigiata',False,Pg Taulat,,28.13,median,,check
+0019650AR,Gleditsia triacanthos f. inermis,False,C\ Pujades,,17.33,median,,check
+0019651AR,Platanus × acerifolia,True,Av Diagonal,23.34,22.63,ok,,large
+0019652AR,Ginkgo biloba 'Fastigiata Blagon',False,C\ Pujades,5.2,3.56,ok,,medium
+0019653AR,Ulmus pumila,False,C\ Selva de Mar,8.61,6.59,ok,,large
+0019654AR,Platanus × acerifolia,True,C\ Pallars,,8.42,median,4.92,check
+0019655AR,Platanus × acerifolia,True,Av Diagonal,,33.15,no_facade,16.29,check
+0019656AR,Celtis australis,False,C\ Lope de Vega,,7.29,median,5.79,check
+0019657AR,Celtis australis,False,C\ Provençals,5.03,3.35,ok,,medium
+0019658AR,Tipuana tipu,False,Pg Taulat,6.07,3.34,ok,,large
+0019659AR,Platanus × acerifolia,True,C\ Llull,7.43,4.63,ok,,large
+0019661AR,Prunus cerasifera 'Pissardii',False,Ptge Maria Llimona,,6.19,no_kerb,,check
+0019663AR,Celtis australis,False,C\ Ramon Turró,4.96,3.8,ok,,medium
+0019664AR,Platanus × acerifolia,True,Av Diagonal,,43.49,no_facade,17.95,check
+0019665AR,Platanus × acerifolia,True,C\ Llull,,32.94,no_facade,,check
+0019666AR,Celtis australis,False,C\ Josep Ferrater i Móra,4.87,3.55,ok,,medium
+0019667AR,Celtis australis,False,C\ Selva de Mar,,30.45,no_facade,27.39,check
+0019668AR,Tipuana tipu,False,Pg Taulat,,30.08,no_facade,35.87,check
+0019669AR,Platanus × acerifolia,True,C\ Bac de Roda,9.94,6.87,ok,,large
+0019670AR,Platanus × acerifolia,True,Av Diagonal,,29.69,median,9.85,check
+0019673AR,Celtis australis,False,C\ Provençals,5.4,4.63,ok,,medium
+0019674AR,Platanus × acerifolia,True,C\ Llull,7.46,4.62,ok,,large
+0019675AR,Tipuana tipu,False,C\ Llull,,20.22,no_kerb,,check
+0019676AR,Platanus × acerifolia,True,Av Diagonal,,26.94,median,19.3,check
+0019677AR,Platanus × acerifolia,True,C\ Pujades,,15.47,median,21.5,check
+0019678AR,Platanus × acerifolia,True,Av Diagonal,,42.76,no_facade,17.74,check
+0019679AR,Platanus × acerifolia,True,C\ Pujades,,15.7,median,,check
+0019680AR,Tipuana tipu,False,Pg Taulat,6.05,5.72,ok,,large
+0019682AR,Platanus × acerifolia,True,C\ Pallars,10.61,9.65,ok,,large
+0019683AR,Platanus × acerifolia,True,Av Diagonal,,46.27,no_facade,5.06,check
+0019684AR,Platanus × acerifolia,True,Av Diagonal,,55.91,no_facade,5.08,check
+0019685AR,Koelreuteria paniculata,False,Pg Taulat,,17.23,median,13.61,check
+0019686AR,Platanus × acerifolia,True,C\ Pallars,5.37,5.13,ok,,medium
+0019688AR,Platanus × acerifolia,True,C\ Pallars,6.23,6.37,ok,,large
+0019689AR,Koelreuteria paniculata,False,Pg Taulat,,26.43,median,14.57,check
+0019690AR,Platanus × acerifolia,True,Av Diagonal,18.13,14.76,ok,,large
+0019691AR,Celtis sinensis,False,C\ Ramon Turró,5.09,3.0,ok,,medium
+0019692AR,Platanus × acerifolia,True,Av Diagonal,,40.37,no_facade,17.9,check
+0019693AR,Gleditsia triacanthos f. inermis,False,C\ Provençals,5.0,1.48,ok,,medium
+0019694AR,Celtis australis,False,C\ Ramon Turró,4.85,4.31,ok,,medium
+0019695AR,Platanus × acerifolia,True,Av Diagonal,20.4,19.64,ok,,large
+0019696AR,Celtis australis,False,C\ Lope de Vega,5.04,4.78,ok,,medium
+0019697AR,Celtis australis,False,C\ Ramon Turró,4.96,3.94,ok,,medium
+0019698AR,Celtis australis,False,C\ Josep Pla,7.91,7.34,ok,,large
+0019699AR,Gleditsia triacanthos f. inermis,False,C\ Provençals,,13.83,no_kerb,,check
+0019700AR,Platanus × acerifolia,True,C\ Llull,20.18,11.92,ok,,large
+0019701AR,Platanus × acerifolia,True,Av Diagonal,,30.63,no_facade,17.76,check
+0019702AR,Platanus × acerifolia,True,C\ Pujades,,16.13,median,21.5,check
+0019703AR,Platanus × acerifolia,True,Av Diagonal,,56.32,no_facade,17.75,check
+0019704AR,Platanus × acerifolia,True,Av Diagonal,,34.19,no_facade,18.0,check
+0019705AR,Celtis sinensis,False,C\ Llull,4.99,4.54,ok,,medium
+0019706AR,Platanus × acerifolia,True,Av Diagonal,,43.46,no_facade,23.96,check
+0019707AR,Platanus × acerifolia,True,C\ Llull,,60.34,no_facade,,check
+0019708AR,Jacaranda mimosifolia,False,C\ Ferrers,3.2,3.06,ok,,small
+0019709AR,Platanus × acerifolia,True,Av Diagonal,,32.2,no_facade,22.39,check
+0019710AR,Platanus × acerifolia,True,Av Diagonal,9.3,7.99,ok,,large
+0019711AR,Tipuana tipu,False,Pg Taulat,10.21,8.21,ok,,large
+0019712AR,Tipuana tipu,False,Pg Taulat,9.69,8.62,ok,,large
+0019713AR,Celtis australis,False,C\ Pallars,9.48,7.56,ok,,large
+0019714AR,Celtis australis,False,C\ Josep Pla,6.18,4.94,ok,,large
+0019715AR,Celtis australis,False,C\ Selva de Mar,,23.71,median,,check
+0019716AR,Jacaranda mimosifolia,False,C\ Ferrers,2.89,2.64,ok,,small
+0019717AR,Platanus × acerifolia,True,C\ Bac de Roda,2.88,2.36,ok,,small
+0019718AR,Celtis australis,False,C\ Provençals,7.43,7.02,ok,,large
+0019719AR,Celtis australis,False,C\ Ramon Turró,5.1,3.89,ok,,medium
+0019720AR,Celtis australis,False,C\ Provençals,5.0,3.8,ok,,medium
+0019721AR,Tipuana tipu,False,C\ Llull,,29.67,median,,check
+0019722AR,Tipuana tipu,False,C\ Llull,,29.81,median,,check
+0019723AR,Tipuana tipu,False,C\ Llull,,28.74,median,,check
+0019724AR,Platanus × acerifolia,True,C\ Pallars,5.42,5.26,ok,,medium
+0019725AR,Platanus × acerifolia,True,Av Diagonal,,30.95,no_facade,11.85,check
+0019726AR,Celtis australis,False,C\ Fluvià,,14.68,median,16.51,check
+0019727AR,Tipuana tipu,False,Pg Taulat,7.25,6.37,ok,,large
+0019729AR,Platanus × acerifolia,True,Av Diagonal,,37.17,no_facade,14.32,check
+0019730AR,Tipuana tipu,False,Pg Taulat,10.13,8.79,ok,,large
+0019731AR,Celtis australis,False,C\ Selva de Mar,7.97,7.19,ok,,large
+0019732AR,Celtis australis,False,C\ Selva de Mar,,43.95,no_facade,24.65,check
+0019733AR,Magnolia grandiflora 'Gallisoniensis',False,Av Diagonal,26.58,12.42,ok,,large
+0019734AR,Celtis australis,False,C\ Provençals,5.07,3.43,ok,,medium
+0019735AR,Platanus × acerifolia,True,C\ Selva de Mar,8.68,8.01,ok,,large
+0019737AR,Celtis australis,False,C\ Espronceda,4.95,3.93,ok,,medium
+0019738AR,Koelreuteria paniculata,False,Pg Taulat,,25.85,median,15.79,check
+0019740AR,Celtis australis,False,C\ Provençals,5.42,4.83,ok,,medium
+0019741AR,Celtis australis,False,C\ Fluvià,7.58,5.56,ok,,large
+0019742AR,Platanus × acerifolia,True,Av Diagonal,6.71,5.05,ok,,large
+0019743AR,Platanus × acerifolia,True,C\ Pallars,5.42,5.41,ok,,medium
+0019744AR,Platanus × acerifolia,True,Av Diagonal,9.42,8.68,ok,,large
+0019745AR,Celtis sinensis,False,C\ Llull,6.19,5.68,ok,,large
+0019746AR,Platanus × acerifolia,True,C\ Josep Pla,,22.0,median,,check
+0019747AR,Celtis australis,False,C\ Provençals,5.13,3.44,ok,,medium
+0019748AR,Celtis australis,False,C\ Bac de Roda,7.9,5.92,ok,,large
+0019749AR,Platanus × acerifolia,True,C\ Llull,,19.49,no_kerb,,check
+0019750AR,Celtis australis,False,C\ Ramon Turró,6.56,5.95,ok,,large
+0019751AR,Koelreuteria paniculata,False,Pg Taulat,,17.47,median,15.36,check
+0019752AR,Tipuana tipu,False,Pg Taulat,6.01,5.83,ok,,large
+0019753AR,Celtis australis,False,C\ Selva de Mar,,22.26,median,16.05,check
+0019754AR,Platanus × acerifolia,True,Av Diagonal,19.09,18.66,ok,,large
+0019755AR,Platanus × acerifolia,True,Av Diagonal,,57.06,no_facade,5.15,check
+0019756AR,Celtis australis,False,C\ Ramon Turró,5.01,3.69,ok,,medium
+0019757AR,Gleditsia triacanthos,False,C\ Pujades,8.39,1.81,ok,,large
+0019758AR,Celtis sinensis,False,C\ Llull,9.58,8.35,ok,,large
+0019759AR,Platanus × acerifolia,True,C\ Agricultura,5.15,4.07,ok,,medium
+0019760AR,Platanus × acerifolia,True,C\ Llull,,26.0,no_kerb,,check
+0019761AR,Platanus × acerifolia,True,C\ Bac de Roda,,18.71,median,9.49,check
+0019762AR,Tipuana tipu,False,Pg Taulat,6.02,5.76,ok,,large
+0019763AR,Celtis sinensis,False,C\ Fluvià,5.06,3.99,ok,,medium
+0019764AR,Celtis australis,False,C\ Provençals,14.97,13.33,ok,,large
+0019765AR,Platanus × acerifolia,True,C\ Selva de Mar,9.72,4.73,ok,,large
+0019766AR,Celtis australis,False,C\ Provençals,5.01,3.29,ok,,medium
+0019767AR,Platanus × acerifolia,True,Av Diagonal,,31.01,no_facade,17.73,check
+0019768AR,Platanus × acerifolia,True,Av Diagonal,,22.21,median,15.23,check
+0019769AR,Platanus × acerifolia,True,C\ Pallars,4.98,5.14,ok,,medium
+0019770AR,Jacaranda mimosifolia,False,C\ Ferrers,3.0,2.37,ok,,small
+0019771AR,Celtis sinensis,False,C\ Llull,6.48,4.05,ok,,large
+0019772AR,Platanus × acerifolia,True,Av Diagonal,,42.06,no_facade,17.91,check
+0019773AR,Celtis sinensis,False,C\ Ramon Turró,5.3,4.04,ok,,medium
+0019774AR,Platanus × acerifolia,True,C\ Pallars,4.91,4.97,ok,,medium
+0019775AR,Platanus × acerifolia,True,Av Diagonal,,63.2,no_facade,17.71,check
+0019776AR,Jacaranda mimosifolia,False,C\ Ferrers,4.88,5.72,ok,,medium
+0019777AR,Tipuana tipu,False,Pg Taulat,7.09,5.84,ok,,large
+0019778AR,Platanus × acerifolia,True,Av Diagonal,,52.8,no_facade,5.13,check
+0019779AR,Tipuana tipu,False,Pg Taulat,6.0,5.76,ok,,medium
+0019780AR,Celtis australis,False,C\ Josep Pla,8.61,7.49,ok,,large
+0019782AR,Celtis australis,False,C\ Fluvià,14.53,13.7,ok,,large
+0019783AR,Platanus × acerifolia,True,C\ Josep Pla,,9.77,median,5.1,check
+0019784AR,Tipuana tipu,False,C\ Llull,,32.57,no_facade,,check
+0019785AR,Celtis australis,False,C\ Josep Ferrater i Móra,13.68,11.91,ok,,large
+0019787AR,Platanus × acerifolia,True,Av Diagonal,,33.67,no_facade,17.94,check
+0019789AR,Populus nigra 'Italica',False,C\ Selva de Mar,25.05,23.86,ok,,large
+0019790AR,Platanus × acerifolia,True,Av Diagonal,,44.19,no_facade,5.47,check
+0019791AR,Tipuana tipu,False,Pg Taulat,6.07,5.66,ok,,large
+0019793AR,Platanus × acerifolia,True,Av Diagonal,9.57,8.58,ok,,large
+0019794AR,Platanus × acerifolia,True,C\ Selva de Mar,,29.89,no_kerb,,check
+0019795AR,Platanus × acerifolia,True,C\ Agricultura,5.1,4.27,ok,,medium
+0019796AR,Callistemon viminalis,False,Ptge Maria Llimona,,5.47,no_kerb,,check
+0019797AR,Celtis australis,False,C\ Selva de Mar,8.02,7.04,ok,,large
+0019798AR,Platanus × acerifolia,True,C\ Pallars,4.97,5.2,ok,,medium
+0019799AR,Platanus × acerifolia,True,C\ Bac de Roda,2.75,2.49,ok,,small
+0019800AR,Tipuana tipu,False,Pg Taulat,7.26,6.5,ok,,large
+0019803AR,Koelreuteria paniculata 'Fastigiata',False,Pg Taulat,,13.93,median,13.94,check
+0019804AR,Styphnolobium japonicum,False,C\ Pujades,8.39,2.03,ok,,large
+0019805AR,Platanus × acerifolia,True,Av Diagonal,4.68,2.85,ok,,medium
+0019807AR,Celtis sinensis,False,C\ Llull,5.09,4.98,ok,,medium
+0019808AR,Celtis australis,False,C\ Selva de Mar,,34.33,no_facade,,check
+0019810AR,Tipuana tipu,False,C\ Llull,,3.66,no_kerb,,check
+0019811AR,Platanus × acerifolia,True,C\ Provençals,,30.57,no_facade,,check
+0019813AR,Platanus × acerifolia,True,Av Diagonal,,26.66,median,19.45,check
+0019814AR,Platanus × acerifolia,True,Av Diagonal,,21.99,median,17.97,check
+0019815AR,Platanus × acerifolia,True,C\ Pallars,4.59,3.76,ok,,medium
+0019816AR,Celtis australis,False,C\ Agricultura,8.07,7.42,ok,,large
+0019817AR,Platanus × acerifolia,True,C\ Pallars,5.36,4.99,ok,,medium
+0019818AR,Celtis sinensis,False,C\ Fluvià,5.03,4.59,ok,,medium
+0019819AR,Tipuana tipu,False,Pg Taulat,7.26,6.34,ok,,large
+0019820AR,Tipuana tipu,False,C\ Llull,,30.5,no_facade,,check
+0019822AR,Gleditsia triacanthos f. inermis,False,C\ Provençals,,30.93,no_facade,,check
+0019823AR,Platanus × acerifolia,True,C\ Selva de Mar,,42.47,no_facade,27.86,check
+0019825AR,Tipuana tipu,False,Pg Taulat,14.39,12.6,ok,,large
+0019827AR,Celtis australis,False,C\ Selva de Mar,7.94,7.11,ok,,large
+0019828AR,Celtis australis,False,C\ Selva de Mar,,22.73,median,23.33,check
+0019829AR,Prunus cerasifera 'Pissardii',False,Ptge Maria Llimona,,6.34,no_kerb,,check
+0019830AR,Jacaranda mimosifolia,False,C\ Ferrers,2.95,2.51,ok,,small
+0019832AR,Platanus × acerifolia,True,C\ Pallars,,15.81,median,27.91,check
+0019833AR,Platanus × acerifolia,True,Av Diagonal,8.96,7.67,ok,,large
+0019834AR,Tipuana tipu,False,Pg Taulat,6.19,4.87,ok,,large
+0019835AR,Celtis sinensis,False,C\ Provençals,5.21,4.1,ok,,medium
+0019836AR,Celtis australis,False,C\ Ramon Turró,5.24,4.67,ok,,medium
+0019838AR,Platanus × acerifolia,True,Av Diagonal,12.32,11.06,ok,,large
+0019839AR,Celtis sinensis,False,C\ Fluvià,5.13,4.76,ok,,medium
+0019840AR,Tipuana tipu,False,C\ Llull,,29.96,no_kerb,,check
+0019841AR,Platanus × acerifolia,True,C\ Fluvià,,20.36,median,,check
+0019842AR,Celtis sinensis,False,C\ Llull,6.24,5.12,ok,,large
+0019843AR,Platanus × acerifolia,True,C\ Llull,16.93,14.95,ok,,large
+0019844AR,Platanus × acerifolia,True,C\ Agricultura,4.99,3.18,ok,,medium
+0019846AR,Platanus × acerifolia,True,Av Diagonal,,27.12,median,15.28,check
+0019847AR,Platanus × acerifolia,True,Av Diagonal,,37.79,no_facade,20.39,check
+0019848AR,Celtis australis,False,C\ Ramon Turró,5.08,4.53,ok,,medium
+0019849AR,Tipuana tipu,False,C\ Llull,,22.38,no_kerb,,check
+0019851AR,Platanus orientalis,True,C\ Fluvià,18.71,14.81,ok,,large
+0019852AR,Platanus × acerifolia,True,C\ Pujades,,28.58,no_kerb,,check
+0019853AR,Platanus × acerifolia,True,Av Diagonal,,37.25,no_facade,17.81,check
+0019855AR,Platanus × acerifolia,True,Av Diagonal,,50.4,no_facade,5.11,check
+0019856AR,Tipuana tipu,False,Pg Taulat,15.67,14.0,ok,,large
+0019857AR,Platanus × acerifolia,True,Av Diagonal,6.93,6.47,ok,,large
+0019858AR,Celtis australis,False,C\ Bac de Roda,15.7,15.12,ok,,large
+0019859AR,Celtis australis,False,C\ Josep Ferrater i Móra,5.11,4.78,ok,,medium
+0019860AR,Platanus × acerifolia,True,C\ Llull,,21.23,median,,check
+0019861AR,Platanus × acerifolia,True,Av Diagonal,,55.76,no_facade,4.94,check
+0019862AR,Platanus × acerifolia,True,C\ Josep Pla,5.72,6.08,ok,,medium
+0019863AR,Gleditsia triacanthos f. inermis,False,C\ Pujades,8.39,2.89,ok,,large
+0019864AR,Platanus × acerifolia,True,Av Diagonal,,38.05,no_facade,27.11,check
+0019865AR,Tipuana tipu,False,Pg Taulat,,20.31,median,,check
+0019866AR,Tipuana tipu,False,Pg Taulat,6.14,4.68,ok,,large
+0019867AR,Tipuana tipu,False,C\ Llull,,30.99,no_facade,,check
+0019868AR,Platanus × acerifolia,True,Av Diagonal,7.35,6.79,ok,,large
+0019869AR,Celtis australis,False,C\ Ramon Turró,9.59,8.12,ok,,large
+0019870AR,Celtis australis,False,C\ Pallars,4.89,4.91,ok,,medium
+0019871AR,Gleditsia triacanthos f. inermis,False,C\ Fluvià,10.08,7.33,ok,,large
+0019872AR,Celtis australis,False,C\ Provençals,14.13,12.12,ok,,large
+0019874AR,Gleditsia triacanthos,False,C\ Pujades,,16.57,median,10.03,check
+0019875AR,Celtis australis,False,C\ Lope de Vega,9.6,9.38,ok,,large
+0019877AR,Pyrus calleryana 'Chanticleer',False,Pg Taulat,,20.95,median,16.25,check
+0019878AR,Gleditsia triacanthos f. inermis,False,C\ Provençals,5.05,4.47,ok,,medium
+0019879AR,Gleditsia triacanthos 'sunburst',False,C\ Espronceda,6.43,5.02,ok,,large
+0019880AR,Platanus × acerifolia,True,Av Diagonal,10.49,9.46,ok,,large
+0019881AR,Platanus × acerifolia,True,Av Diagonal,,40.12,no_facade,17.73,check
+0019882AR,Celtis australis,False,C\ Provençals,5.02,4.42,ok,,medium
+0019883AR,Platanus × acerifolia,True,Av Diagonal,,37.91,no_facade,18.11,check
+0019885AR,Platanus × acerifolia,True,C\ Pallars,4.62,3.8,ok,,medium
+0019886AR,Platanus × acerifolia,True,C\ Pallars,4.88,3.85,ok,,medium
+0019887AR,Celtis australis,False,C\ Selva de Mar,,22.66,median,,check
+0019888AR,Platanus × acerifolia,True,C\ Llull,14.09,12.64,ok,,large
+0019889AR,Platanus × acerifolia,True,Av Diagonal,,71.34,no_facade,5.11,check
+0019890AR,Platanus × acerifolia,True,C\ Selva de Mar,5.08,3.37,ok,,medium
+0019891AR,Platanus × acerifolia,True,C\ Pallars,4.6,3.81,ok,,medium
+0019892AR,Platanus × acerifolia,True,C\ Llull,,21.18,median,,check
+0019893AR,Platanus × acerifolia,True,Av Diagonal,,34.34,no_facade,17.74,check
+0019894AR,Celtis australis,False,C\ Selva de Mar,8.04,7.69,ok,,large
+0019895AR,Platanus × acerifolia,True,Av Diagonal,,52.75,no_facade,5.06,check
+0019896AR,Celtis australis,False,C\ Bac de Roda,7.94,5.95,ok,,large
+0019897AR,Celtis australis,False,C\ Provençals,5.17,4.68,ok,,medium
+0019898AR,Jacaranda mimosifolia,False,C\ Pellaires,,3.77,no_kerb,44.24,check
+0019899AR,Celtis australis,False,C\ Fluvià,,17.44,median,30.89,check
+0019900AR,Tipuana tipu,False,Pg Taulat,6.03,5.75,ok,,large
+0019901AR,Celtis australis,False,C\ Bac de Roda,8.01,7.31,ok,,large
+0019903AR,Platanus × acerifolia,True,Av Diagonal,,47.16,no_facade,5.0,check
+0019904AR,Tipuana tipu,False,C\ Llull,,21.82,no_kerb,,check
+0019905AR,Celtis australis,False,Pg Taulat,,31.48,no_facade,,check
+0019906AR,Tipuana tipu,False,C\ Llull,,21.92,no_kerb,,check
+0019907AR,Jacaranda mimosifolia,False,C\ Ferrers,2.86,2.69,ok,,small
+0019908AR,Tipuana tipu,False,C\ Llull,,25.0,no_kerb,,check
+0019909AR,Platanus × acerifolia,True,Av Diagonal,,23.07,median,18.04,check
+0019910AR,Platanus × acerifolia,True,Av Diagonal,,52.48,no_facade,17.72,check
+0019911AR,Gleditsia triacanthos f. inermis,False,C\ Pujades,5.01,4.07,ok,,medium
+0019912AR,Koelreuteria paniculata,False,C\ Selva de Mar,,23.29,no_kerb,,check
+0019913AR,Celtis australis,False,C\ Josep Pla,5.2,4.3,ok,,medium
+0019914AR,Jacaranda mimosifolia,False,C\ Ferrers,,6.02,median,,check
+0019916AR,Celtis australis,False,C\ Provençals,5.02,4.42,ok,,medium
+0019917AR,Platanus × acerifolia,True,Av Diagonal,22.66,21.74,ok,,large
+0019919AR,Platanus × acerifolia,True,Av Diagonal,9.48,8.62,ok,,large
+0019920AR,Platanus × acerifolia,True,Av Diagonal,,27.89,median,17.73,check
+0019921AR,Callistemon viminalis,False,Ptge Maria Llimona,,9.19,no_kerb,,check
+0019922AR,Platanus × acerifolia,True,Av Diagonal,,43.33,no_facade,21.29,check
+0019924AR,Platanus × acerifolia,True,Av Diagonal,,65.36,no_facade,5.11,check
+0019925AR,Celtis sinensis,False,C\ Llull,5.29,4.12,ok,,medium
+0019926AR,Tipuana tipu,False,Pg Taulat,7.24,6.96,ok,,large
+0019927AR,Tipuana tipu,False,Pg Taulat,6.14,5.36,ok,,large
+0019928AR,Celtis australis,False,C\ Provençals,5.38,4.69,ok,,medium
+0019929AR,Celtis australis,False,C\ Josep Ferrater i Móra,5.25,4.68,ok,,medium
+0019931AR,Platanus × acerifolia,True,Av Diagonal,4.69,2.47,ok,,medium
+0019932AR,Celtis australis,False,C\ Ramon Turró,5.21,3.31,ok,,medium
+0019934AR,Platanus × acerifolia,True,Av Diagonal,,27.18,median,9.68,check
+0019935AR,Tipuana tipu,False,Pg Taulat,,37.05,no_facade,,check
+0019936AR,Platanus × acerifolia,True,C\ Fluvià,,28.14,median,,check
+0019937AR,Celtis australis,False,C\ Pallars,5.02,4.75,ok,,medium
+0019938AR,Celtis australis,False,C\ Ramon Turró,5.04,3.97,ok,,medium
+0019939AR,Celtis australis,False,C\ Pallars,5.33,5.09,ok,,medium
+0019940AR,Platanus × acerifolia,True,Av Diagonal,,24.67,median,11.72,check
+0019944AR,Platanus × acerifolia,True,Av Diagonal,,55.85,no_facade,14.43,check
+0019945AR,Tipuana tipu,False,C\ Llull,,28.84,no_kerb,,check
+0019946AR,Koelreuteria paniculata 'Fastigiata',False,Pg Taulat,,21.89,median,15.55,check
+0019947AR,Celtis australis,False,C\ Bac de Roda,8.03,7.3,ok,,large
+0019948AR,Gleditsia triacanthos f. inermis,False,C\ Provençals,7.12,5.42,ok,,large
+0019949AR,Platanus × acerifolia,True,C\ Pallars,,22.98,median,,check
+0019951AR,Platanus × acerifolia,True,C\ Josep Pla,,10.0,median,5.06,check
+0019953AR,Gleditsia triacanthos,False,C\ Pujades,,29.04,no_kerb,4.64,check
+0019954AR,Platanus × acerifolia,True,C\ Bac de Roda,8.98,7.6,ok,,large
+0019955AR,Celtis sinensis,False,C\ Ramon Turró,,16.19,median,,check
+0019956AR,Celtis sinensis,False,C\ Fluvià,5.09,3.62,ok,,medium
+0019958AR,Platanus × acerifolia,True,C\ Pallars,,16.66,median,15.59,check
+0019960AR,Gleditsia triacanthos f. inermis,False,C\ Provençals,5.28,1.99,ok,,medium
+0019961AR,Platanus × acerifolia,True,Av Diagonal,6.22,4.92,ok,,large
+0019964AR,Celtis australis,False,C\ Provençals,9.33,8.45,ok,,large
+0019965AR,Tipuana tipu,False,C\ Llull,,33.94,no_facade,,check
+0019966AR,Celtis australis,False,C\ Pallars,5.48,5.36,ok,,medium
+0019967AR,Tipuana tipu,False,Pg Taulat,6.07,5.7,ok,,large
+0019969AR,Celtis australis,False,C\ Llull,,60.81,no_facade,16.57,check
+0019970AR,Tipuana tipu,False,Pg Taulat,7.23,6.41,ok,,large
+0019971AR,Celtis australis,False,C\ Espronceda,5.97,4.65,ok,,medium
+0019972AR,Celtis australis,False,C\ Llull,6.97,4.19,ok,,large
+0019973AR,Platanus × acerifolia,True,C\ Llull,,50.62,no_facade,,check
+0019974AR,Celtis australis,False,C\ Selva de Mar,14.88,13.63,ok,,large
+0019976AR,Celtis australis,False,C\ Ramon Turró,5.26,4.13,ok,,medium
+0019977AR,Tipuana tipu,False,Pg Taulat,6.06,5.72,ok,,large
+0019978AR,Tipuana tipu,False,C\ Llull,,32.27,no_facade,,check
+0019979AR,Celtis australis,False,C\ Provençals,5.13,3.49,ok,,medium
+0019980AR,Platanus × acerifolia,True,C\ Llull,11.73,6.56,ok,,large
+0019981AR,Celtis australis,False,C\ Selva de Mar,,23.58,median,23.39,check
+0019983AR,Celtis australis,False,C\ Ramon Turró,5.23,4.7,ok,,medium
+0019984AR,Platanus × acerifolia,True,C\ Selva de Mar,,21.17,median,,check
+0019985AR,Tipuana tipu,False,C\ Llull,,22.0,no_kerb,,check
+0019986AR,Platanus × acerifolia,True,C\ Pallars,,4.24,median,4.89,check
+0019988AR,Platanus × acerifolia,True,C\ Pujades,,22.86,median,11.2,check
+0019989AR,Callistemon viminalis,False,Ptge Maria Llimona,,8.91,no_kerb,,check
+0019990AR,Celtis australis,False,C\ Provençals,,9.08,median,3.12,check
+0019991AR,Gleditsia triacanthos,False,C\ Fluvià,17.71,12.94,ok,,large
+0019992AR,Tipuana tipu,False,Pg Taulat,7.28,6.96,ok,,large
+0019993AR,Celtis australis,False,C\ Selva de Mar,,23.4,median,22.71,check
+0019994AR,Tipuana tipu,False,C\ Llull,,29.85,median,,check
+0019995AR,Tipuana tipu,False,Pg Taulat,8.23,6.59,ok,,large
+0019996AR,Tipuana tipu,False,C\ Llull,,32.42,no_facade,,check
+0019997AR,Platanus × acerifolia,True,Av Diagonal,,57.47,no_facade,17.71,check
+0019999AR,Gleditsia triacanthos,False,C\ Pujades,8.39,1.59,ok,,large
+0020000AR,Gleditsia triacanthos,False,C\ Pujades,9.35,5.55,ok,,large
+0020001AR,Platanus × acerifolia,True,C\ Pallars,4.97,3.91,ok,,medium
+0020002AR,Gleditsia triacanthos,False,C\ Fluvià,5.15,3.57,ok,,medium
+0020003AR,Platanus × acerifolia,True,C\ Llull,17.36,14.99,ok,,large
+0020004AR,Platanus × acerifolia,True,Av Diagonal,,19.58,median,17.79,check
+0020005AR,Celtis sinensis,False,C\ Ramon Turró,5.21,4.13,ok,,medium
+0020006AR,Platanus × acerifolia,True,C\ Josep Pla,5.21,4.25,ok,,medium
+0020007AR,Celtis australis,False,C\ Ramon Turró,10.08,9.26,ok,,large
+0020009AR,Celtis australis,False,C\ Pallars,4.89,4.7,ok,,medium
+0020011AR,Tipuana tipu,False,C\ Llull,,15.32,no_kerb,,check
+0020012AR,Tipuana tipu,False,Pg Taulat,5.92,5.44,ok,,medium
+0020013AR,Celtis australis,False,C\ Selva de Mar,,48.57,no_facade,28.76,check
+0020014AR,Celtis australis,False,C\ Provençals,5.45,4.83,ok,,medium
+0020015AR,Platanus × acerifolia,True,C\ Agricultura,5.03,3.04,ok,,medium
+0020016AR,Celtis australis,False,Pg Taulat,8.35,6.52,ok,,large
+0020017AR,Platanus × acerifolia,True,Av Diagonal,,40.27,no_facade,24.65,check
+0020018AR,Celtis australis,False,C\ Espronceda,8.1,5.23,ok,,large
+0020021AR,Celtis australis,False,C\ Josep Pla,7.91,7.24,ok,,large
+0020022AR,Tipuana tipu,False,C\ Llull,,21.86,no_kerb,,check
+0020023AR,Celtis australis,False,C\ Selva de Mar,,22.8,median,,check
+0020024AR,Ginkgo biloba 'Fastigiata Blagon',False,C\ Pujades,5.01,3.45,ok,,medium
+0020026AR,Celtis sinensis,False,C\ Ramon Turró,5.64,4.14,ok,,medium
+0020027AR,Jacaranda mimosifolia,False,C\ Pellaires,,3.84,no_kerb,,check
+0020028AR,Platanus × acerifolia,True,Av Diagonal,8.75,7.23,ok,,large
+0020029AR,Koelreuteria paniculata 'Fastigiata',False,C\ Selva de Mar,,11.21,no_kerb,,check
+0020030AR,Celtis sinensis,False,C\ Provençals,5.46,4.74,ok,,medium
+0020031AR,Platanus × acerifolia,True,C\ Pujades,17.06,14.78,ok,,large
+0020035AR,Celtis australis,False,C\ Josep Pla,7.95,7.3,ok,,large
+0020036AR,Platanus × acerifolia,True,C\ Josep Pla,,9.54,median,5.21,check
+0020037AR,Celtis australis,False,C\ Llull,,50.31,no_facade,7.0,check
+0020038AR,Celtis australis,False,C\ Ramon Turró,5.24,4.69,ok,,medium
+0020039AR,Platanus × acerifolia,True,Av Diagonal,19.61,18.68,ok,,large
+0020041AR,Platanus × acerifolia,True,C\ Pallars,5.03,4.69,ok,,medium
+0020042AR,Platanus × acerifolia,True,C\ Llull,,73.72,no_facade,20.57,check
+0020043AR,Platanus × acerifolia,True,C\ Llull,,19.5,median,,check
+0020044AR,Celtis sinensis,False,C\ Llull,10.8,7.26,ok,,large
+0020045AR,Prunus cerasifera 'Pissardii',False,Ptge Maria Llimona,,9.08,no_kerb,,check
+0020046AR,Celtis australis,False,C\ Bac de Roda,7.94,7.34,ok,,large
+0020047AR,Tipuana tipu,False,Pg Taulat,6.04,5.73,ok,,large
+0020048AR,Populus nigra 'Italica',False,C\ Selva de Mar,,23.09,median,,check
+0020049AR,Celtis australis,False,C\ Provençals,5.04,4.47,ok,,medium
+0020052AR,Celtis australis,False,C\ Lope de Vega,6.18,5.46,ok,,large
+0020053AR,Platanus × acerifolia,True,C\ Pallars,5.41,5.32,ok,,medium
+0020055AR,Platanus × acerifolia,True,Av Diagonal,13.53,12.53,ok,,large
+0020056AR,Platanus × acerifolia,True,C\ Llull,17.16,14.94,ok,,large
+0020057AR,Celtis australis,False,C\ Selva de Mar,,22.74,median,23.33,check
+0020058AR,Platanus × acerifolia,True,C\ Bac de Roda,10.0,6.84,ok,,large
+0020059AR,Celtis australis,False,C\ Provençals,5.15,4.38,ok,,medium
+0020060AR,Celtis australis,False,C\ Ramon Turró,4.96,4.38,ok,,medium
+0020061AR,Celtis australis,False,C\ Provençals,5.0,4.37,ok,,medium
+0020062AR,Platanus × acerifolia,True,C\ Llull,,22.96,median,,check
+0020063AR,Koelreuteria paniculata,False,Pg Taulat,,16.55,median,13.23,check
+0020064AR,Platanus × acerifolia,True,Av Diagonal,,22.37,median,17.9,check
+0020065AR,Tipuana tipu,False,Pg Taulat,7.19,6.95,ok,,large
+0020066AR,Celtis sinensis,False,C\ Fluvià,4.97,3.65,ok,,medium
+0020067AR,Celtis sinensis,False,C\ Llull,5.18,4.37,ok,,medium
+0020068AR,Ginkgo biloba 'Fastigiata Blagon',False,C\ Pujades,5.02,3.41,ok,,medium
+0020069AR,Platanus × acerifolia,True,Av Diagonal,9.97,9.5,ok,,large
+0020070AR,Celtis australis,False,C\ Provençals,14.77,12.43,ok,,large
+0020071AR,Tipuana tipu,False,C\ Llull,,18.65,no_kerb,,check
+0020072AR,Gleditsia triacanthos f. inermis,False,C\ Provençals,4.96,3.97,ok,,medium
+0020073AR,Gleditsia triacanthos,False,C\ Pujades,8.39,3.11,ok,,large
+0020074AR,Gleditsia triacanthos f. inermis,False,C\ Provençals,5.01,4.17,ok,,medium
+0020076AR,Platanus × acerifolia,True,Av Diagonal,,50.78,no_facade,17.93,check
+0020078AR,Tipuana tipu,False,Pg Taulat,7.19,6.35,ok,,large
+0020079AR,Platanus × acerifolia,True,C\ Llull,,23.48,median,,check
+0020080AR,Platanus × acerifolia,True,Av Diagonal,,34.04,no_facade,,check
+0020081AR,Platanus × acerifolia,True,Av Diagonal,,43.23,no_facade,,check
+0020082AR,Platanus × acerifolia,True,Av Diagonal,19.12,18.36,ok,,large
+0020083AR,Celtis sinensis,False,C\ Llull,5.06,4.57,ok,,medium
+0020084AR,Celtis australis,False,C\ Josep Pla,7.91,7.24,ok,,large
+0020085AR,Platanus × acerifolia,True,C\ Bac de Roda,9.51,8.26,ok,,large
+0020087AR,Platanus × acerifolia,True,C\ Provençals,7.75,6.99,ok,,large
+0020088AR,Platanus × acerifolia,True,C\ Agricultura,5.14,4.1,ok,,medium
+0020089AR,Platanus × acerifolia,True,C\ Llull,,21.28,median,,check
+0020090AR,Platanus × acerifolia,True,C\ Agricultura,5.06,3.44,ok,,medium
+0020091AR,Platanus × acerifolia,True,C\ Agricultura,4.98,3.99,ok,,medium
+0020092AR,Platanus × acerifolia,True,Av Diagonal,,53.02,no_facade,18.14,check
+0020093AR,Platanus × acerifolia,True,Av Diagonal,7.45,6.27,ok,,large
+0020094AR,Platanus × acerifolia,True,Av Diagonal,9.43,8.4,ok,,large
+0020095AR,Platanus × acerifolia,True,C\ Pallars,,16.17,median,10.27,check
+0020096AR,Gleditsia triacanthos f. inermis,False,C\ Provençals,5.42,2.57,ok,,medium
+0020097AR,Celtis australis,False,C\ Josep Pla,8.76,7.51,ok,,large
+0020098AR,Celtis australis,False,Pg Taulat,,30.78,no_facade,,check
+0020099AR,Celtis australis,False,C\ Bac de Roda,4.11,3.24,ok,,medium
+0020101AR,Gleditsia triacanthos,False,C\ Fluvià,4.86,3.81,ok,,medium
+0020102AR,Platanus × acerifolia,True,C\ Llull,,18.09,median,,check
+0020103AR,Tipuana tipu,False,Pg Taulat,7.19,6.94,ok,,large
+0020104AR,Platanus × acerifolia,True,C\ Pallars,5.59,5.27,ok,,medium
+0020105AR,Platanus × acerifolia,True,Av Diagonal,,34.91,no_facade,,check
+0020107AR,Platanus × acerifolia,True,C\ Selva de Mar,9.81,8.47,ok,,large
+0020109AR,Celtis australis,False,Pg Taulat,,29.94,median,,check
+0020110AR,Platanus × acerifolia,True,Av Diagonal,,34.34,no_facade,17.88,check
+0020111AR,Celtis australis,False,C\ Bac de Roda,7.97,7.31,ok,,large
+0020112AR,Celtis australis,False,C\ Provençals,4.7,3.48,ok,,medium
+0020113AR,Platanus × acerifolia,True,Av Diagonal,,50.29,no_facade,4.98,check
+0020114AR,Celtis sinensis,False,C\ Fluvià,5.01,3.62,ok,,medium
+0020115AR,Koelreuteria paniculata 'Fastigiata',False,Pg Taulat,,20.07,median,13.11,check
+0020116AR,Pyrus calleryana 'Chanticleer',False,Pg Taulat,,18.01,median,17.33,check
+0020117AR,Gleditsia triacanthos,False,C\ Fluvià,7.61,5.76,ok,,large
+0020118AR,Platanus × acerifolia,True,Av Diagonal,,54.59,no_facade,17.71,check
+0020119AR,Celtis australis,False,C\ Ramon Turró,7.87,6.91,ok,,large
+0020120AR,Platanus × acerifolia,True,Av Diagonal,,43.87,no_facade,5.05,check
+0020121AR,Platanus × acerifolia,True,Av Diagonal,,46.57,no_facade,16.39,check
+0020123AR,Tipuana tipu,False,C\ Llull,,29.96,no_kerb,,check
+0020124AR,Platanus × acerifolia,True,C\ Pallars,,16.66,median,18.91,check
+0020125AR,Platanus × acerifolia,True,Av Diagonal,,49.22,no_facade,5.02,check
+0020126AR,Tipuana tipu,False,Pg Taulat,6.12,4.65,ok,,large
+0020127AR,Gleditsia triacanthos,False,C\ Agricultura,5.01,3.64,ok,,medium
+0020129AR,Tipuana tipu,False,Pg Taulat,12.36,12.17,ok,,large
+0020130AR,Gleditsia triacanthos,False,C\ Fluvià,8.41,7.44,ok,,large
+0020132AR,Celtis australis,False,C\ Selva de Mar,15.7,14.11,ok,,large
+0020133AR,Populus x canadensis,False,Pg Taulat,,22.6,median,31.51,check
+0020134AR,Styphnolobium japonicum,False,C\ Provençals,,31.41,no_facade,,check
+0020136AR,Tipuana tipu,False,Pg Taulat,6.02,5.29,ok,,large
+0020137AR,Celtis australis,False,C\ Bac de Roda,,19.94,median,2.8,check
+0020138AR,Celtis australis,False,C\ Ramon Turró,,16.52,median,,check
+0020139AR,Celtis australis,False,C\ Provençals,5.05,3.42,ok,,medium
+0020140AR,Platanus × acerifolia,True,Av Diagonal,,20.23,median,,check
+0020141AR,Platanus × acerifolia,True,C\ Llull,,22.25,median,,check
+0020142AR,Celtis australis,False,C\ Josep Ferrater i Móra,5.08,5.06,ok,,medium
+0020143AR,Gleditsia triacanthos,False,C\ Pujades,21.14,13.3,ok,,large
+0020144AR,Platanus × acerifolia,True,C\ Pujades,,16.36,median,21.5,check
+0020145AR,Celtis australis,False,C\ Ramon Turró,4.88,3.88,ok,,medium
+0020146AR,Celtis australis,False,C\ Selva de Mar,,23.59,median,23.34,check
+0020147AR,Platanus × acerifolia,True,Av Diagonal,9.44,8.55,ok,,large
+0020148AR,Platanus × acerifolia,True,C\ Bac de Roda,10.04,8.46,ok,,large
+0020149AR,Platanus × acerifolia,True,Av Diagonal,,62.92,no_facade,5.11,check
+0020150AR,Callistemon viminalis,False,Ptge Maria Llimona,,8.99,no_kerb,,check
+0020151AR,Celtis australis,False,C\ Josep Pla,8.05,7.19,ok,,large
+0020152AR,Platanus × acerifolia,True,Av Diagonal,,51.34,no_facade,16.22,check
+0020153AR,Tipuana tipu,False,C\ Llull,,34.09,no_facade,,check
+0020154AR,Platanus × acerifolia,True,C\ Pallars,,35.35,no_facade,,check
+0020155AR,Tipuana tipu,False,C\ Llull,,30.47,no_facade,,check
+0020156AR,Celtis australis,False,C\ Bac de Roda,7.94,7.33,ok,,large
+0020158AR,Celtis australis,False,C\ Josep Pla,8.71,7.4,ok,,large
+0020159AR,Tipuana tipu,False,C\ Llull,,21.26,no_kerb,,check
+0020160AR,Celtis australis,False,C\ Josep Pla,7.91,7.24,ok,,large
+0020162AR,Celtis australis,False,C\ Josep Ferrater i Móra,5.17,4.63,ok,,medium
+0020163AR,Tipuana tipu,False,C\ Llull,17.21,3.2,ok,,large
+0020165AR,Platanus × acerifolia,True,C\ Llull,,28.45,median,,check
+0020166AR,Platanus × acerifolia,True,C\ Llull,10.25,5.69,ok,,large
+0020167AR,Platanus × acerifolia,True,C\ Pallars,5.46,5.2,ok,,medium
+0020170AR,Platanus × acerifolia,True,C\ Bac de Roda,9.04,7.26,ok,,large
+0020172AR,Platanus × acerifolia,True,Av Diagonal,,38.48,no_facade,,check
+0020173AR,Jacaranda mimosifolia,False,C\ Pellaires,,3.74,no_kerb,,check
+0020174AR,Celtis australis,False,C\ Espronceda,9.14,7.04,ok,,large
+0020175AR,Celtis sinensis,False,C\ Provençals,5.32,4.38,ok,,medium
+0020177AR,Koelreuteria paniculata 'Fastigiata',False,Pg Taulat,,21.9,median,15.88,check
+0020178AR,Celtis australis,False,Pg Taulat,8.73,7.42,ok,,large
+0020180AR,Platanus × acerifolia,True,C\ Selva de Mar,9.71,9.17,ok,,large
+0020181AR,Celtis australis,False,C\ Fluvià,,26.21,median,,check
+0020182AR,Platanus × acerifolia,True,Av Diagonal,,30.53,no_facade,,check
+0020183AR,Platanus × acerifolia,True,C\ Pallars,5.29,5.07,ok,,medium
+0020184AR,Platanus × acerifolia,True,C\ Llull,20.45,17.72,ok,,large
+0020185AR,Platanus × acerifolia,True,C\ Pujades,,15.34,median,10.57,check
+0020186AR,Platanus × acerifolia,True,Av Diagonal,,49.6,no_facade,18.14,check
+0020187AR,Celtis australis,False,Pg Taulat,18.5,17.52,ok,,large
+0020188AR,Celtis sinensis,False,C\ Fluvià,5.12,3.57,ok,,medium
+0020189AR,Celtis australis,False,C\ Provençals,5.2,4.86,ok,,medium
+0020190AR,Celtis australis,False,C\ Selva de Mar,,22.72,median,23.33,check
+0020191AR,Koelreuteria paniculata 'Fastigiata',False,Pg Taulat,,27.21,median,16.27,check
+0020192AR,Celtis sinensis,False,C\ Llull,5.11,4.95,ok,,medium
+0020193AR,Celtis australis,False,C\ Provençals,5.15,4.47,ok,,medium
+0020194AR,Platanus × acerifolia,True,Av Diagonal,9.47,8.68,ok,,large
+0020195AR,Tipuana tipu,False,C\ Llull,17.07,3.77,ok,,large
+0020197AR,Celtis sinensis,False,C\ Llull,5.11,4.61,ok,,medium
+0020198AR,Populus nigra,False,C\ Pujades,26.8,2.92,ok,,large
+0020199AR,Platanus × acerifolia,True,C\ Pallars,5.39,5.97,ok,,medium
+0020200AR,Koelreuteria paniculata 'Fastigiata',False,Pg Taulat,,24.37,median,15.18,check
+0020201AR,Tipuana tipu,False,Pg Taulat,6.57,5.64,ok,,large
+0020202AR,Celtis australis,False,C\ Provençals,5.04,4.38,ok,,medium
+0020203AR,Platanus × acerifolia,True,C\ Pallars,5.35,5.87,ok,,medium
+0020204AR,Celtis australis,False,C\ Bac de Roda,8.23,6.24,ok,,large
+0020206AR,Celtis sinensis,False,C\ Llull,6.4,5.33,ok,,large
+0020207AR,Platanus × acerifolia,True,C\ Agricultura,9.19,8.14,ok,,large
+0020208AR,Platanus × acerifolia,True,C\ Pallars,,14.39,median,4.95,check
+0020210AR,Celtis australis,False,C\ Ramon Turró,14.98,14.01,ok,,large
+0020211AR,Celtis australis,False,C\ Josep Ferrater i Móra,5.4,4.87,ok,,medium
+0020212AR,Celtis australis,False,C\ Selva de Mar,7.99,6.98,ok,,large
+0020213AR,Celtis australis,False,C\ Ramon Turró,15.13,13.73,ok,,large
+0020214AR,Platanus × acerifolia,True,Av Diagonal,,49.73,no_facade,17.78,check
+0020215AR,Platanus × acerifolia,True,C\ Pujades,,15.49,median,,check
+0020216AR,Platanus × acerifolia,True,Av Diagonal,,20.0,median,16.63,check
+0020217AR,Platanus × acerifolia,True,Av Diagonal,,58.21,no_facade,17.69,check
+0020218AR,Platanus × acerifolia,True,C\ Pallars,4.83,3.74,ok,,medium
+0020219AR,Platanus × acerifolia,True,C\ Pallars,4.87,3.94,ok,,medium
+0020220AR,Celtis australis,False,C\ Selva de Mar,10.02,8.7,ok,,large
+0020221AR,Gleditsia triacanthos f. inermis,False,C\ Provençals,3.05,1.47,ok,,small
+0020222AR,Platanus × acerifolia,True,C\ Bac de Roda,8.99,7.33,ok,,large
+0020223AR,Koelreuteria paniculata 'Fastigiata',False,Pg Taulat,,19.77,median,25.0,check
+0020224AR,Gleditsia triacanthos f. inermis,False,C\ Provençals,,33.12,no_facade,27.88,check
+0020225AR,Celtis sinensis,False,C\ Ramon Turró,5.0,3.55,ok,,medium
+0020226AR,Platanus × acerifolia,True,C\ Pallars,4.89,3.85,ok,,medium
+0020227AR,Platanus × acerifolia,True,Av Diagonal,,34.3,no_facade,15.26,check
+0020228AR,Gleditsia triacanthos f. inermis,False,C\ Provençals,15.99,14.03,ok,,large
+0020229AR,Platanus × acerifolia,True,C\ Pallars,,16.66,median,12.26,check
+0020230AR,Celtis australis,False,C\ Provençals,4.76,3.46,ok,,medium
+0020231AR,Platanus × acerifolia,True,C\ Bac de Roda,9.9,8.53,ok,,large
+0020232AR,Platanus × acerifolia,True,C\ Josep Pla,5.21,4.11,ok,,medium
+0020233AR,Prunus cerasifera 'Pissardii',False,Ptge Maria Llimona,,9.21,no_kerb,,check
+0020234AR,Tipuana tipu,False,Pg Taulat,6.02,5.78,ok,,large
+0020236AR,Platanus × acerifolia,True,Av Diagonal,,34.11,no_facade,17.82,check
+0020237AR,Platanus × acerifolia,True,Av Diagonal,,31.41,no_facade,17.83,check
+0020238AR,Platanus × acerifolia,True,Av Diagonal,,35.02,no_facade,17.8,check
+0020239AR,Platanus × acerifolia,True,Av Diagonal,,34.09,no_facade,18.0,check
+0020240AR,Tipuana tipu,False,Pg Taulat,15.44,15.61,ok,,large
+0020241AR,Celtis australis,False,C\ Josep Ferrater i Móra,5.05,3.77,ok,,medium
+0020242AR,Celtis australis,False,C\ Provençals,5.1,4.3,ok,,medium
+0020243AR,Gleditsia triacanthos f. inermis,False,Pg Garcia Fària,,23.31,median,,check
+0020244AR,Celtis australis,False,C\ Provençals,4.71,3.41,ok,,medium
+0020245AR,Tipuana tipu,False,Pg Taulat,14.31,12.41,ok,,large
+0020246AR,Platanus × acerifolia,True,Av Diagonal,,37.94,no_facade,11.2,check
+0020247AR,Tipuana tipu,False,C\ Llull,,30.46,no_facade,,check
+0020248AR,Gleditsia triacanthos,False,C\ Pujades,8.3,1.16,ok,,large
+0020249AR,Jacaranda mimosifolia,False,C\ Ferrers,6.06,5.29,ok,,large
+0020252AR,Tipuana tipu,False,Pg Taulat,6.13,4.61,ok,,large
+0020253AR,Platanus × acerifolia,True,C\ Pallars,4.87,3.77,ok,,medium
+0020254AR,Celtis australis,False,C\ Josep Pla,7.9,7.21,ok,,large
+0020255AR,Platanus × acerifolia,True,Av Diagonal,12.12,9.72,ok,,large
+0020256AR,Populus nigra 'Italica',False,C\ Selva de Mar,27.57,26.17,ok,,large
+0020257AR,Celtis australis,False,C\ Provençals,5.47,4.94,ok,,medium
+0020258AR,Platanus × acerifolia,True,C\ Llull,,29.59,no_kerb,,check
+0020259AR,Platanus × acerifolia,True,Av Diagonal,23.44,21.58,ok,,large
+0020260AR,Callistemon viminalis,False,Ptge Maria Llimona,,6.66,no_kerb,,check
+0020262AR,Platanus × acerifolia,True,Av Diagonal,9.47,9.01,ok,,large
+0020263AR,Platanus × acerifolia,True,C\ Agricultura,4.97,2.95,ok,,medium
+0020264AR,Platanus × acerifolia,True,Av Diagonal,10.44,9.65,ok,,large
+0020265AR,Platanus × acerifolia,True,Av Diagonal,,23.3,median,17.98,check
+0020266AR,Gleditsia triacanthos,False,C\ Pujades,,29.64,no_kerb,,check
+0020267AR,Platanus × acerifolia,True,Av Diagonal,4.69,2.94,ok,,medium
+0020268AR,Koelreuteria paniculata 'Fastigiata',False,Pg Taulat,,18.27,median,15.95,check
+0020269AR,Tipuana tipu,False,Pg Taulat,7.22,6.95,ok,,large
+0020270AR,Platanus × acerifolia,True,C\ Pallars,4.61,4.12,ok,,medium
+0020271AR,Celtis australis,False,C\ Bac de Roda,8.06,6.06,ok,,large
+0020272AR,Jacaranda mimosifolia,False,C\ Ferrers,2.98,2.45,ok,,small
+0020273AR,Celtis sinensis,False,C\ Ramon Turró,5.07,2.91,ok,,medium
+0020274AR,Tipuana tipu,False,Pg Taulat,13.62,13.16,ok,,large
+0020275AR,Celtis australis,False,Pg Taulat,,30.07,no_facade,20.2,check
+0020276AR,Platanus × acerifolia,True,Av Diagonal,,35.89,no_facade,,check
+0020277AR,Gleditsia triacanthos,False,Pg Garcia Fària,,81.26,no_facade,,check
+0020278AR,Platanus × acerifolia,True,C\ Llull,,18.15,median,,check
+0020279AR,Platanus × acerifolia,True,Av Diagonal,11.21,10.55,ok,,large
+0020280AR,Celtis australis,False,C\ Ramon Turró,10.56,9.46,ok,,large
+0020281AR,Celtis australis,False,C\ Bac de Roda,8.08,6.09,ok,,large
+0020282AR,Platanus × acerifolia,True,Av Diagonal,4.69,2.96,ok,,medium
+0020283AR,Ginkgo biloba 'Fastigiata Blagon',False,C\ Pujades,5.01,4.19,ok,,medium
+0020284AR,Tipuana tipu,False,C\ Llull,,31.38,no_facade,,check
+0020286AR,Platanus × acerifolia,True,C\ Bac de Roda,2.95,2.28,ok,,small
+0020287AR,Prunus cerasifera 'Pissardii',False,Ptge Maria Llimona,,8.22,no_kerb,,check
+0020289AR,Celtis sinensis,False,C\ Provençals,5.44,4.69,ok,,medium
+0020290AR,Platanus × acerifolia,True,Av Diagonal,,53.5,no_facade,17.84,check
+0020291AR,Platanus × acerifolia,True,C\ Selva de Mar,24.72,18.82,ok,,large
+0020292AR,Gleditsia triacanthos f. inermis,False,C\ Provençals,5.09,4.51,ok,,medium
+0020293AR,Tipuana tipu,False,Pg Taulat,6.02,4.98,ok,,large
+0020294AR,Platanus × acerifolia,True,C\ Llull,,36.42,no_facade,,check
+0020295AR,Koelreuteria paniculata,False,Pg Taulat,,19.05,median,12.85,check
+0020296AR,Gleditsia triacanthos,False,Pg Taulat,,14.47,median,13.53,check
+0020297AR,Tipuana tipu,False,Pg Taulat,7.25,6.96,ok,,large
+0020298AR,Ginkgo biloba 'Fastigiata Blagon',False,C\ Pujades,5.01,3.79,ok,,medium
+0020299AR,Prunus cerasifera 'Pissardii',False,Ptge Maria Llimona,,8.24,no_kerb,,check
+0020300AR,Tipuana tipu,False,Pg Taulat,13.27,12.94,ok,,large
+0020301AR,Platanus × acerifolia,True,Av Diagonal,,29.29,median,17.85,check
+0020302AR,Celtis australis,False,C\ Ramon Turró,7.69,6.66,ok,,large
+0020303AR,Gleditsia triacanthos,False,C\ Fluvià,10.21,6.98,ok,,large
+0020304AR,Platanus × acerifolia,True,Av Diagonal,,19.71,median,17.71,check
+0020306AR,Celtis australis,False,C\ Provençals,5.24,4.69,ok,,medium
+0020307AR,Platanus × acerifolia,True,C\ Josep Pla,5.21,4.18,ok,,medium
+0020308AR,Celtis australis,False,C\ Josep Ferrater i Móra,5.21,4.85,ok,,medium
+0020309AR,Platanus × acerifolia,True,Av Diagonal,,43.8,no_facade,17.79,check
+0020310AR,Tipuana tipu,False,Pg Taulat,5.98,5.29,ok,,medium
+0020312AR,Magnolia grandiflora,False,Av Diagonal,,8.18,no_kerb,,check
+0020313AR,Platanus × acerifolia,True,C\ Agricultura,5.16,3.53,ok,,medium
+0020314AR,Celtis australis,False,C\ Provençals,4.97,3.8,ok,,medium
+0020315AR,Platanus × acerifolia,True,C\ Selva de Mar,9.61,8.8,ok,,large
+0020316AR,Celtis australis,False,C\ Ramon Turró,5.32,3.88,ok,,medium
+0020317AR,Platanus × acerifolia,True,C\ Llull,,17.67,median,,check
+0020318AR,Jacaranda mimosifolia,False,C\ Ferrers,4.88,5.83,ok,,medium
+0020319AR,Celtis australis,False,C\ Selva de Mar,,25.73,median,,check
+0020320AR,Platanus × acerifolia,True,C\ Selva de Mar,9.75,5.16,ok,,large
+0020321AR,Celtis australis,False,C\ Ramon Turró,4.86,4.02,ok,,medium
+0020322AR,Gleditsia triacanthos f. inermis,False,C\ Provençals,,23.59,no_kerb,,check
+0020323AR,Platanus × acerifolia,True,Av Diagonal,15.53,14.92,ok,,large
+0020324AR,Platanus × acerifolia,True,C\ Llull,,23.63,no_kerb,31.07,check
+0020325AR,Platanus × acerifolia,True,C\ Llull,11.23,10.68,ok,,large
+0020326AR,Platanus × acerifolia,True,Av Diagonal,,53.97,no_facade,17.8,check
+0020327AR,Celtis australis,False,C\ Ramon Turró,5.03,4.45,ok,,medium
+0020328AR,Platanus × acerifolia,True,Av Diagonal,,46.43,no_facade,5.04,check
+0020329AR,Tipuana tipu,False,Pg Taulat,6.01,5.79,ok,,large
+0020331AR,Platanus × acerifolia,True,C\ Llull,,21.87,median,,check
+0020332AR,Platanus × acerifolia,True,Av Diagonal,,23.05,median,18.06,check
+0020333AR,Tipuana tipu,False,Pg Taulat,11.43,6.09,ok,,large
+0020334AR,Platanus × acerifolia,True,Av Diagonal,,36.91,no_facade,18.03,check
+0020335AR,Tipuana tipu,False,C\ Llull,,30.72,no_facade,,check
+0020337AR,Celtis australis,False,C\ Selva de Mar,,25.65,median,,check
+0020339AR,Platanus × acerifolia,True,Av Diagonal,,48.62,no_facade,12.52,check
+0020340AR,Tipuana tipu,False,Pg Taulat,6.07,3.33,ok,,large
+0020341AR,Celtis australis,False,C\ Josep Ferrater i Móra,5.48,5.14,ok,,medium
+0020342AR,Gleditsia triacanthos 'skyline',False,C\ Pujades,7.52,2.6,ok,,large
+0020343AR,Platanus × acerifolia,True,Av Diagonal,,58.6,no_facade,5.11,check
+0020344AR,Platanus × acerifolia,True,Av Diagonal,,30.77,no_facade,19.2,check
+0020345AR,Celtis sinensis,False,C\ Llull,5.02,4.56,ok,,medium
+0020346AR,Gleditsia triacanthos,False,C\ Pujades,9.0,4.48,ok,,large
+0020347AR,Tipuana tipu,False,Pg Taulat,6.04,5.55,ok,,large
+0020349AR,Platanus × acerifolia,True,Av Diagonal,8.05,6.51,ok,,large
+0020350AR,Platanus × acerifolia,True,Av Diagonal,10.98,9.76,ok,,large
+0020351AR,Platanus × acerifolia,True,C\ Llull,,41.02,no_facade,,check
+0020352AR,Celtis australis,False,C\ Provençals,7.94,6.94,ok,,large
+0020353AR,Celtis sinensis,False,C\ Ramon Turró,5.12,3.66,ok,,medium
+0020355AR,Celtis australis,False,C\ Provençals,7.92,6.6,ok,,large
+0020359AR,Platanus × acerifolia,True,C\ Llull,17.27,14.93,ok,,large
+0020360AR,Celtis australis,False,C\ Provençals,5.08,3.42,ok,,medium
+0020361AR,Platanus × acerifolia,True,C\ Agricultura,8.95,6.58,ok,,large
+0020362AR,Platanus × acerifolia,True,C\ Llull,28.29,17.04,ok,,large
+0020363AR,Platanus × acerifolia,True,C\ Pallars,4.6,3.98,ok,,medium
+0020364AR,Platanus × acerifolia,True,C\ Pallars,,16.66,median,8.96,check
+0020365AR,Tipuana tipu,False,Pg Taulat,8.31,7.9,ok,,large
+0020368AR,Celtis australis,False,C\ Josep Ferrater i Móra,5.42,4.95,ok,,medium
+0020369AR,Platanus × acerifolia,True,Av Diagonal,,29.46,median,6.62,check
+0020371AR,Platanus × acerifolia,True,Av Diagonal,20.75,20.31,ok,,large
+0020372AR,Platanus × acerifolia,True,Av Diagonal,,47.04,no_facade,16.2,check
+0020373AR,Platanus × acerifolia,True,C\ Llull,,80.7,no_facade,24.46,check
+0020374AR,Ginkgo biloba 'Fastigiata',False,Pg Taulat,,23.27,median,23.57,check
+0020375AR,Platanus × acerifolia,True,C\ Llull,7.57,4.74,ok,,large
+0020376AR,Populus nigra 'Italica',False,Pg Taulat,,23.14,median,15.34,check
+0020377AR,Platanus × acerifolia,True,C\ Pujades,,16.1,median,27.52,check
+0020378AR,Gleditsia triacanthos,False,C\ Pujades,8.92,4.2,ok,,large
+0020379AR,Platanus × acerifolia,True,Av Diagonal,,40.02,no_facade,17.94,check
+0020380AR,Celtis australis,False,C\ Bac de Roda,7.94,7.34,ok,,large
+0020381AR,Callistemon viminalis,False,Ptge Maria Llimona,,9.29,no_kerb,,check
+0020383AR,Celtis australis,False,C\ Ramon Turró,5.26,3.17,ok,,medium
+0020384AR,Celtis australis,False,C\ Ramon Turró,3.73,3.17,ok,,medium
+0020385AR,Celtis australis,False,C\ Provençals,5.09,3.4,ok,,medium
+0020386AR,Celtis australis,False,C\ Llull,10.5,3.9,ok,,large
+0020388AR,Platanus × acerifolia,True,C\ Llull,,17.41,median,,check
+0020390AR,Platanus × acerifolia,True,Av Diagonal,,41.24,no_facade,17.75,check
+0020391AR,Celtis australis,False,C\ Provençals,12.68,11.29,ok,,large
+0020392AR,Celtis australis,False,Pg Taulat,,29.7,median,,check
+0020393AR,Tipuana tipu,False,Pg Garcia Fària,,21.8,no_kerb,,check
+0020394AR,Ginkgo biloba 'Fastigiata Blagon',False,C\ Pujades,5.0,3.49,ok,,medium
+0020395AR,Platanus × acerifolia,True,Av Diagonal,,47.51,no_facade,4.94,check
+0020396AR,Platanus × acerifolia,True,C\ Llull,,18.16,median,,check
+0020397AR,Tipuana tipu,False,C\ Llull,,30.53,no_facade,,check
+0020398AR,Celtis australis,False,C\ Espronceda,6.46,5.09,ok,,large
+0020399AR,Celtis sinensis,False,C\ Llull,6.08,5.26,ok,,large
+0020402AR,Platanus × acerifolia,True,C\ Pujades,,15.55,median,21.45,check
+0020403AR,Prunus cerasifera 'Pissardii',False,Ptge Maria Llimona,,8.76,no_kerb,,check
+0020404AR,Platanus × acerifolia,True,Av Diagonal,8.18,6.63,ok,,large
+0020406AR,Platanus × acerifolia,True,C\ Fluvià,,28.12,no_kerb,,check
+0020407AR,Platanus × acerifolia,True,C\ Pallars,,16.1,median,,check
+0020408AR,Celtis australis,False,Pg Taulat,8.42,6.54,ok,,large
+0020409AR,Celtis australis,False,C\ Josep Pla,7.92,7.31,ok,,large
+0020410AR,Celtis sinensis,False,C\ Ramon Turró,5.03,3.6,ok,,medium
+0020411AR,Celtis australis,False,C\ Lope de Vega,9.6,9.25,ok,,large
+0020412AR,Platanus × acerifolia,True,C\ Pallars,,24.29,median,,check
+0020413AR,Platanus × acerifolia,True,Av Diagonal,12.63,12.06,ok,,large
+0020414AR,Tipuana tipu,False,Pg Taulat,6.14,4.67,ok,,large
+0020415AR,Platanus × acerifolia,True,Av Diagonal,9.41,8.59,ok,,large
+0020416AR,Celtis australis,False,C\ Selva de Mar,7.94,6.92,ok,,large
+0020417AR,Celtis australis,False,C\ Espronceda,5.11,4.1,ok,,medium
+0020419AR,Celtis australis,False,C\ Selva de Mar,,22.63,median,23.38,check
+0020420AR,Platanus × acerifolia,True,Av Diagonal,9.5,8.63,ok,,large
+0020424AR,Morus alba,False,Pg Garcia Fària,21.25,18.54,ok,,large
+0020426AR,Platanus × acerifolia,True,C\ Bac de Roda,14.92,10.25,ok,,large
+0020427AR,Koelreuteria paniculata 'Fastigiata',False,Pg Taulat,,17.03,median,14.06,check
+0020428AR,Platanus × acerifolia,True,Av Diagonal,,40.12,no_facade,,check
+0020429AR,Celtis australis,False,C\ Selva de Mar,15.6,13.98,ok,,large
+0020430AR,Tipuana tipu,False,C\ Llull,,22.73,no_kerb,,check
+0020431AR,Celtis australis,False,C\ Provençals,4.95,3.72,ok,,medium
+0020433AR,Gleditsia triacanthos,False,C\ Pujades,4.11,1.54,ok,,medium
+0020435AR,Celtis australis,False,C\ Ramon Turró,5.14,4.18,ok,,medium
+0020437AR,Platanus × acerifolia,True,C\ Agricultura,5.14,3.82,ok,,medium
+0020438AR,Celtis sinensis,False,C\ Llull,4.88,4.47,ok,,medium
+0020440AR,Celtis australis,False,C\ Josep Ferrater i Móra,5.03,3.86,ok,,medium
+0020441AR,Gleditsia triacanthos,False,C\ Pujades,26.7,23.48,ok,,large
+0020442AR,Celtis australis,False,C\ Provençals,17.37,8.77,ok,,large
+0020443AR,Celtis australis,False,C\ Selva de Mar,,38.21,no_facade,26.77,check
+0020444AR,Platanus × acerifolia,True,Av Diagonal,,62.4,no_facade,5.13,check
+0020445AR,Platanus × acerifolia,True,Av Diagonal,,37.09,no_facade,11.91,check
+0020446AR,Celtis australis,False,C\ Selva de Mar,,25.97,median,23.34,check
+0020447AR,Tipuana tipu,False,C\ Llull,,20.68,no_kerb,,check
+0020449AR,Platanus × acerifolia,True,C\ Provençals,,30.86,no_facade,,check
+0020450AR,Celtis australis,False,C\ Selva de Mar,,22.75,median,23.36,check
+0020452AR,Celtis australis,False,C\ Ramon Turró,5.94,5.87,ok,,medium
+0020453AR,Platanus × acerifolia,True,C\ Bac de Roda,9.12,8.42,ok,,large
+0020454AR,Platanus × acerifolia,True,Av Diagonal,,48.75,no_facade,17.96,check
+0020455AR,Celtis australis,False,C\ Selva de Mar,9.59,8.29,ok,,large
+0020456AR,Populus nigra 'Italica',False,Pg Taulat,,21.11,median,15.75,check
+0020457AR,Celtis australis,False,C\ Selva de Mar,,40.03,no_facade,,check
+0020458AR,Platanus × acerifolia,True,C\ Llull,,18.27,median,,check
+0020459AR,Celtis australis,False,C\ Ramon Turró,5.0,3.66,ok,,medium
+0020460AR,Celtis sinensis,False,C\ Llull,5.12,4.94,ok,,medium
+0020462AR,Platanus × acerifolia,True,Av Diagonal,,33.98,no_facade,17.84,check
+0020463AR,Celtis sinensis,False,C\ Llull,5.25,4.06,ok,,medium
+0020464AR,Celtis australis,False,C\ Ramon Turró,20.5,13.62,ok,,large
+0020465AR,Tipuana tipu,False,Pg Taulat,6.05,5.7,ok,,large
+0020466AR,Platanus × acerifolia,True,Av Diagonal,,43.35,no_facade,17.97,check
+0020467AR,Celtis sinensis,False,C\ Llull,5.14,4.92,ok,,medium
+0020468AR,Platanus × acerifolia,True,Av Diagonal,9.47,8.96,ok,,large
+0020470AR,Platanus × acerifolia,True,C\ Pallars,4.9,4.99,ok,,medium
+0020471AR,Gleditsia triacanthos 'sunburst',False,C\ Ramon Turró,5.35,3.0,ok,,medium
+0020472AR,Celtis australis,False,C\ Josep Pla,7.91,7.26,ok,,large
+0020474AR,Celtis sinensis,False,C\ Fluvià,5.04,4.29,ok,,medium
+0020475AR,Platanus × acerifolia,True,Av Diagonal,,34.88,no_facade,18.48,check
+0020476AR,Tipuana tipu,False,Pg Taulat,6.13,4.99,ok,,large
+0020477AR,Celtis australis,False,C\ Espronceda,5.12,4.11,ok,,medium
+0020478AR,Platanus × acerifolia,True,Av Diagonal,,41.01,no_facade,18.09,check
+0020479AR,Celtis australis,False,C\ Provençals,5.1,4.06,ok,,medium
+0020480AR,Platanus × acerifolia,True,Av Diagonal,8.09,6.62,ok,,large
+0020481AR,Prunus cerasifera 'Pissardii',False,Ptge Maria Llimona,,6.5,no_kerb,,check
+0020482AR,Celtis australis,False,C\ Provençals,5.01,4.27,ok,,medium
+0020483AR,Celtis australis,False,C\ Lope de Vega,6.13,6.82,ok,,large
+0020484AR,Celtis sinensis,False,C\ Ramon Turró,5.22,3.63,ok,,medium
+0020486AR,Callistemon viminalis,False,Ptge Maria Llimona,,8.18,no_kerb,,check
+0020488AR,Celtis australis,False,C\ Josep Pla,8.72,7.53,ok,,large
+0020490AR,Celtis australis,False,C\ Selva de Mar,,23.35,median,16.47,check
+0020492AR,Tipuana tipu,False,Pg Taulat,7.37,7.16,ok,,large
+0020493AR,Celtis sinensis,False,C\ Fluvià,5.23,4.79,ok,,medium
+0020494AR,Platanus × acerifolia,True,C\ Fluvià,,29.78,no_kerb,,check
+0020495AR,Platanus × acerifolia,True,C\ Llull,,32.24,no_facade,,check
+0020496AR,Jacaranda mimosifolia,False,C\ Pellaires,24.92,8.45,ok,,large
+0020497AR,Platanus × acerifolia,True,C\ Llull,,23.08,median,,check
+0020498AR,Tipuana tipu,False,Pg Taulat,7.21,6.43,ok,,large
+0020499AR,Celtis australis,False,C\ Josep Pla,7.96,7.36,ok,,large
+0020500AR,Tipuana tipu,False,Pg Taulat,5.95,5.21,ok,,medium
+0020501AR,Koelreuteria paniculata 'Fastigiata',False,Pg Taulat,,19.89,median,13.32,check
+0020502AR,Celtis australis,False,Pg Taulat,12.76,11.7,ok,,large
+0020503AR,Platanus × acerifolia,True,C\ Pallars,5.44,5.28,ok,,medium
+0020504AR,Celtis sinensis,False,C\ Llull,5.15,5.0,ok,,medium
+0020505AR,Celtis australis,False,C\ Espronceda,6.52,5.05,ok,,large
+0020506AR,Gleditsia triacanthos,False,C\ Fluvià,20.17,14.24,ok,,large
+0020507AR,Platanus × acerifolia,True,C\ Pallars,6.08,5.21,ok,,large
+0020508AR,Celtis australis,False,C\ Selva de Mar,7.98,6.74,ok,,large
+0020509AR,Tipuana tipu,False,Pg Taulat,6.21,4.77,ok,,large
+0020510AR,Tipuana tipu,False,C\ Llull,,30.7,no_facade,,check
+0020511AR,Platanus × acerifolia,True,Av Diagonal,,34.42,no_facade,23.15,check
+0020512AR,Tipuana tipu,False,C\ Llull,,28.9,median,,check
+0020513AR,Platanus × acerifolia,True,Av Diagonal,5.32,3.38,ok,,medium
+0020514AR,Platanus × acerifolia,True,C\ Llull,,22.57,median,,check
+0020515AR,Celtis sinensis,False,C\ Llull,4.95,4.51,ok,,medium
+0020516AR,Platanus × acerifolia,True,C\ Pallars,5.17,5.01,ok,,medium
+0020519AR,Platanus × acerifolia,True,Av Diagonal,,45.14,no_facade,17.78,check
+0020520AR,Platanus × acerifolia,True,Av Diagonal,15.35,14.14,ok,,large
+0020521AR,Koelreuteria paniculata,False,Pg Taulat,,24.5,median,,check
+0020522AR,Platanus × acerifolia,True,C\ Agricultura,,15.49,median,,check
+0020523AR,Celtis australis,False,C\ Espronceda,13.99,12.11,ok,,large
+0020524AR,Platanus × acerifolia,True,C\ Selva de Mar,12.12,11.86,ok,,large
+0020525AR,Celtis australis,False,C\ Bac de Roda,7.95,7.32,ok,,large
+0020526AR,Platanus × acerifolia,True,Av Diagonal,,19.05,no_kerb,30.05,check
+0020527AR,Celtis australis,False,C\ Provençals,5.15,4.43,ok,,medium
+0020528AR,Platanus × acerifolia,True,C\ Llull,7.1,3.56,ok,,large
+0020529AR,Gleditsia triacanthos,False,C\ Pujades,9.16,5.01,ok,,large
+0020531AR,Celtis australis,False,C\ Provençals,4.99,3.3,ok,,medium
+0020532AR,Celtis australis,False,C\ Provençals,5.01,4.13,ok,,medium
+0020533AR,Platanus × acerifolia,True,C\ Selva de Mar,9.51,3.99,ok,,large
+0020536AR,Gleditsia triacanthos,False,C\ Fluvià,5.28,4.14,ok,,medium
+0020537AR,Celtis australis,False,C\ Selva de Mar,11.58,10.21,ok,,large
+0020538AR,Platanus × acerifolia,True,C\ Provençals,,22.95,median,,check
+0020539AR,Platanus × acerifolia,True,C\ Llull,7.46,4.87,ok,,large
+0020541AR,Celtis australis,False,Pg Taulat,12.76,11.92,ok,,large
+0020542AR,Tipuana tipu,False,C\ Llull,,22.81,no_kerb,,check
+0020543AR,Celtis australis,False,C\ Espronceda,,15.89,median,,check
+0020544AR,Platanus × acerifolia,True,Av Diagonal,,40.33,no_facade,18.16,check
+0020546AR,Celtis australis,False,C\ Espronceda,6.4,4.98,ok,,large
+0020549AR,Platanus × acerifolia,True,Av Diagonal,,48.66,no_facade,17.79,check
+0020550AR,Platanus × acerifolia,True,Av Diagonal,26.48,25.75,ok,,large
+0020552AR,Celtis australis,False,C\ Bac de Roda,7.86,5.9,ok,,large
+0020553AR,Platanus × acerifolia,True,Av Diagonal,,51.54,no_facade,17.74,check
+0020554AR,Platanus × acerifolia,True,Av Diagonal,,34.0,no_facade,17.97,check
+0020555AR,Celtis australis,False,C\ Selva de Mar,,22.71,median,,check
+0020557AR,Platanus × acerifolia,True,C\ Bac de Roda,12.02,9.82,ok,,large
+0020558AR,Platanus × acerifolia,True,C\ Josep Pla,,10.38,median,,check
+0020559AR,Celtis australis,False,C\ Bac de Roda,3.52,2.91,ok,,medium
+0020560AR,Tipuana tipu,False,Pg Taulat,7.3,6.97,ok,,large
+0020561AR,Platanus × acerifolia,True,C\ Pallars,4.98,5.09,ok,,medium
+0020562AR,Platanus × acerifolia,True,Av Diagonal,,37.1,no_facade,17.85,check
+0020563AR,Platanus × acerifolia,True,C\ Selva de Mar,9.54,9.05,ok,,large
+0020564AR,Celtis sinensis,False,C\ Ramon Turró,9.15,6.24,ok,,large
+0020565AR,Platanus × acerifolia,True,C\ Agricultura,7.99,7.29,ok,,large
+0020567AR,Platanus × acerifolia,True,Av Diagonal,,37.13,no_facade,17.96,check
+0020568AR,Tipuana tipu,False,C\ Llull,,7.56,no_kerb,,check
+0020569AR,Celtis australis,False,C\ Selva de Mar,8.09,7.0,ok,,large
+0020570AR,Ginkgo biloba 'Fastigiata Blagon',False,C\ Pujades,5.03,3.33,ok,,medium
+0020571AR,Platanus × acerifolia,True,C\ Llull,,61.2,no_facade,28.43,check
+0020572AR,Prunus cerasifera 'Pissardii',False,Ptge Maria Llimona,,5.57,no_kerb,,check
+0020573AR,Pyrus calleryana 'Chanticleer',False,Pg Taulat,,26.51,median,15.81,check
+0020574AR,Platanus × acerifolia,True,C\ Llull,,21.39,median,,check
+0020575AR,Platanus × acerifolia,True,C\ Selva de Mar,9.84,9.56,ok,,large
+0020576AR,Celtis australis,False,C\ Josep Ferrater i Móra,5.33,4.64,ok,,medium
+0020577AR,Gleditsia triacanthos f. inermis,False,C\ Pujades,5.51,3.96,ok,,medium
+0020579AR,Platanus × acerifolia,True,Av Diagonal,,46.86,no_facade,5.08,check
+0020580AR,Platanus × acerifolia,True,C\ Selva de Mar,5.17,3.34,ok,,medium
+0020581AR,Celtis sinensis,False,C\ Provençals,5.28,4.29,ok,,medium
+0020582AR,Platanus × acerifolia,True,Av Diagonal,,34.32,no_facade,10.95,check
+0020584AR,Platanus × acerifolia,True,Av Diagonal,,22.56,median,17.94,check
+0020586AR,Celtis australis,False,C\ Lope de Vega,12.79,11.57,ok,,large
+0020587AR,Celtis australis,False,C\ Ramon Turró,5.0,3.75,ok,,medium
+0020588AR,Platanus × acerifolia,True,C\ Josep Pla,,16.7,median,,check
+0020589AR,Celtis australis,False,C\ Llull,6.37,5.3,ok,,large
+0020590AR,Populus nigra 'Italica',False,C\ Selva de Mar,12.99,11.06,ok,,large
+0020591AR,Celtis australis,False,C\ Provençals,5.91,3.99,ok,,medium
+0020592AR,Jacaranda mimosifolia,False,C\ Ferrers,2.98,2.34,ok,,small
+0020593AR,Tipuana tipu,False,C\ Llull,,23.3,no_kerb,,check
+0020595AR,Platanus × acerifolia,True,C\ Pallars,4.61,4.16,ok,,medium
+0020596AR,Tipuana tipu,False,Pg Taulat,6.0,5.66,ok,,medium
+0020597AR,Platanus × acerifolia,True,Av Diagonal,,30.97,no_facade,17.89,check
+0020598AR,Celtis australis,False,C\ Provençals,5.16,4.59,ok,,medium
+0020600AR,Platanus × acerifolia,True,C\ Pallars,14.4,13.34,ok,,large
+0020601AR,Tipuana tipu,False,C\ Llull,,21.63,no_kerb,,check
+0020602AR,Platanus × acerifolia,True,Av Diagonal,,51.89,no_facade,4.98,check
+0020603AR,Tipuana tipu,False,Pg Taulat,6.02,5.88,ok,,large
+0020606AR,Celtis australis,False,C\ Bac de Roda,8.18,6.22,ok,,large
+0020607AR,Populus nigra 'Italica',False,C\ Selva de Mar,28.93,19.19,ok,,large
+0020608AR,Tipuana tipu,False,Pg Taulat,6.0,5.81,ok,,medium
+0020611AR,Platanus × acerifolia,True,C\ Pallars,6.21,5.83,ok,,large
+0020612AR,Tipuana tipu,False,Pg Taulat,,32.09,no_facade,,check
+0020614AR,Celtis australis,False,C\ Josep Ferrater i Móra,5.04,3.82,ok,,medium
+0020615AR,Celtis australis,False,C\ Josep Pla,7.98,7.35,ok,,large
+0020617AR,Platanus × acerifolia,True,C\ Agricultura,,15.19,median,,check
+0020618AR,Platanus × acerifolia,True,C\ Selva de Mar,,20.15,median,10.69,check
+0020619AR,Platanus × acerifolia,True,Av Diagonal,,23.47,median,11.35,check
+0020621AR,Platanus × acerifolia,True,C\ Agricultura,5.07,3.91,ok,,medium
+0020622AR,Celtis australis,False,C\ Selva de Mar,,22.62,median,,check
+0020623AR,Celtis sinensis,False,C\ Llull,6.37,5.51,ok,,large
+0020624AR,Platanus × acerifolia,True,Av Diagonal,,52.84,no_facade,17.72,check
+0020625AR,Platanus × acerifolia,True,Av Diagonal,,31.64,no_facade,15.82,check
+0020626AR,Platanus × acerifolia,True,Av Diagonal,,27.32,median,,check
+0020627AR,Koelreuteria paniculata 'Fastigiata',False,Pg Taulat,,25.07,median,14.38,check
+0020629AR,Platanus × acerifolia,True,C\ Bac de Roda,9.53,8.01,ok,,large
+0020630AR,Celtis australis,False,C\ Bac de Roda,8.12,6.15,ok,,large
+0020631AR,Celtis australis,False,C\ Josep Pla,8.75,7.51,ok,,large
+0020632AR,Platanus × acerifolia,True,Av Diagonal,,33.4,no_facade,16.33,check
+0020633AR,Platanus × acerifolia,True,Av Diagonal,4.68,2.88,ok,,medium
+0020634AR,Jacaranda mimosifolia,False,C\ Ferrers,2.96,2.32,ok,,small
+0020635AR,Celtis australis,False,C\ Ramon Turró,5.18,3.9,ok,,medium
+0020636AR,Tipuana tipu,False,C\ Llull,,22.08,no_kerb,,check
+0020637AR,Celtis australis,False,C\ Selva de Mar,7.96,7.0,ok,,large
+0020638AR,Callistemon viminalis,False,Ptge Maria Llimona,,9.47,no_kerb,,check
+0020639AR,Tipuana tipu,False,Pg Taulat,6.06,5.46,ok,,large
+0020640AR,Platanus × acerifolia,True,C\ Josep Pla,10.4,10.9,ok,,large
+0020641AR,Celtis australis,False,C\ Ramon Turró,5.07,4.52,ok,,medium
+0020642AR,Celtis australis,False,C\ Provençals,5.03,4.37,ok,,medium
+0020643AR,Platanus × acerifolia,True,Av Diagonal,,31.25,no_facade,17.8,check
+0020644AR,Tipuana tipu,False,Pg Taulat,14.32,12.27,ok,,large
+0020645AR,Tipuana tipu,False,Pg Taulat,13.6,11.9,ok,,large
+0020646AR,Celtis australis,False,C\ Ramon Turró,5.24,4.78,ok,,medium
+0020649AR,Celtis sinensis,False,C\ Fluvià,5.07,4.62,ok,,medium
+0020650AR,Platanus × acerifolia,True,C\ Pujades,,15.46,median,,check
+0020651AR,Gleditsia triacanthos f. inermis,False,Pg Taulat,,23.89,median,13.92,check
+0020652AR,Platanus × acerifolia,True,C\ Pujades,,15.45,median,21.5,check
+0020653AR,Platanus × acerifolia,True,C\ Llull,5.24,2.79,ok,,medium
+0020654AR,Platanus × acerifolia,True,C\ Bac de Roda,10.55,7.11,ok,,large
+0020655AR,Platanus × acerifolia,True,Av Diagonal,8.76,6.3,ok,,large
+0020656AR,Celtis australis,False,C\ Espronceda,5.1,4.16,ok,,medium
+0020657AR,Celtis australis,False,C\ Selva de Mar,,41.91,no_facade,,check
+0020658AR,Celtis australis,False,Pg Taulat,28.5,27.72,ok,,large
+0020659AR,Celtis australis,False,C\ Llull,9.09,4.5,ok,,large
+0020660AR,Koelreuteria paniculata 'Fastigiata',False,Pg Taulat,,16.57,median,13.73,check
+0020661AR,Celtis australis,False,C\ Selva de Mar,7.92,6.77,ok,,large
+0020662AR,Celtis sinensis,False,C\ Llull,5.15,4.36,ok,,medium
+0020663AR,Platanus × acerifolia,True,Av Diagonal,,31.1,no_facade,17.7,check
+0020664AR,Platanus × acerifolia,True,Av Diagonal,,64.24,no_facade,5.09,check
+0020665AR,Platanus × acerifolia,True,C\ Selva de Mar,9.56,9.25,ok,,large
+0020666AR,Celtis australis,False,C\ Provençals,5.03,3.8,ok,,medium
+0020667AR,Celtis australis,False,C\ Josep Ferrater i Móra,7.44,6.95,ok,,large
+0020668AR,Jacaranda mimosifolia,False,C\ Ferrers,5.91,4.68,ok,,medium
+0020669AR,Celtis australis,False,C\ Ramon Turró,5.1,4.15,ok,,medium
+0020670AR,Celtis australis,False,C\ Ramon Turró,5.1,3.98,ok,,medium
+0020671AR,Jacaranda mimosifolia,False,C\ Ferrers,2.96,2.87,ok,,small
+0020672AR,Platanus × acerifolia,True,C\ Bac de Roda,10.43,7.09,ok,,large
+0020673AR,Platanus × acerifolia,True,Av Diagonal,,40.73,no_facade,5.09,check
+0020674AR,Celtis australis,False,Pg Taulat,8.5,6.61,ok,,large
+0020675AR,Tipuana tipu,False,C\ Llull,,20.74,no_kerb,,check
+0020676AR,Platanus × acerifolia,True,C\ Josep Pla,10.17,9.93,ok,,large
+0020677AR,Populus nigra 'Italica',False,C\ Selva de Mar,25.11,22.23,ok,,large
+0020678AR,Platanus × acerifolia,True,C\ Llull,,18.2,median,,check
+0020679AR,Tipuana tipu,False,C\ Llull,,30.6,no_facade,,check
+0020680AR,Callistemon viminalis,False,C\ Selva de Mar,,27.57,no_kerb,,check
+0020681AR,Celtis australis,False,C\ Selva de Mar,,22.73,median,,check
+0020683AR,Tipuana tipu,False,Pg Taulat,14.88,13.85,ok,,large
+0020684AR,Platanus × acerifolia,True,C\ Llull,,65.06,no_facade,4.51,check
+0020685AR,Platanus × acerifolia,True,Av Diagonal,,42.34,no_facade,,check
+0020686AR,Koelreuteria paniculata,False,C\ Selva de Mar,28.24,21.42,ok,,large
+0020687AR,Platanus × acerifolia,True,C\ Pallars,,19.11,median,29.02,check
+0020688AR,Tipuana tipu,False,C\ Llull,,33.72,no_facade,,check
+0020689AR,Populus nigra 'Italica',False,Pg Taulat,,24.09,median,14.9,check
+0020690AR,Platanus × acerifolia,True,C\ Pallars,11.74,10.59,ok,,large
+0020691AR,Celtis sinensis,False,C\ Ramon Turró,5.25,4.08,ok,,medium
+0020692AR,Platanus × acerifolia,True,Av Diagonal,9.46,8.57,ok,,large
+0020693AR,Pyrus calleryana 'Chanticleer',False,Pg Taulat,,19.96,median,14.76,check
+0020694AR,Celtis sinensis,False,C\ Ramon Turró,5.35,3.26,ok,,medium
+0020695AR,Tipuana tipu,False,Pg Taulat,6.06,5.68,ok,,large
+0020696AR,Tipuana tipu,False,Pg Taulat,6.13,4.22,ok,,large
+0020697AR,Celtis australis,False,C\ Lope de Vega,5.14,4.71,ok,,medium
+0020698AR,Celtis australis,False,C\ Josep Ferrater i Móra,5.37,4.94,ok,,medium
+0020699AR,Celtis australis,False,C\ Lope de Vega,,8.2,median,5.83,check
+0020700AR,Celtis australis,False,C\ Bac de Roda,,12.95,median,6.35,check
+0020701AR,Platanus × acerifolia,True,Av Diagonal,6.83,5.25,ok,,large
+0020702AR,Platanus × acerifolia,True,C\ Pallars,5.35,5.17,ok,,medium
+0020703AR,Celtis australis,False,C\ Josep Pla,8.04,7.15,ok,,large
+0020704AR,Platanus × acerifolia,True,Av Diagonal,24.32,23.33,ok,,large
+0020706AR,Gleditsia triacanthos,False,C\ Pujades,4.99,2.87,ok,,medium
+0020707AR,Platanus × acerifolia,True,C\ Pallars,6.31,5.55,ok,,large
+0020709AR,Celtis sinensis,False,C\ Fluvià,5.06,3.99,ok,,medium
+0020711AR,Celtis sinensis,False,C\ Llull,4.9,4.54,ok,,medium
+0020712AR,Platanus × acerifolia,True,C\ Llull,9.5,5.96,ok,,large
+0020713AR,Platanus × acerifolia,True,C\ Pallars,,16.66,median,22.24,check
+0020715AR,Celtis sinensis,False,C\ Fluvià,5.06,4.15,ok,,medium
+0020716AR,Celtis australis,False,C\ Josep Pla,8.72,7.36,ok,,large
+0020718AR,Celtis australis,False,C\ Selva de Mar,,23.01,median,,check
+0020721AR,Tipuana tipu,False,Pg Taulat,13.66,12.16,ok,,large
+0020722AR,Tipuana tipu,False,Pg Taulat,7.29,6.55,ok,,large
+0020724AR,Populus nigra,False,C\ Pujades,26.69,3.0,ok,,large
+0020725AR,Styphnolobium japonicum,False,Pg Taulat,13.67,9.31,ok,,large
+0020726AR,Celtis australis,False,C\ Espronceda,5.14,4.1,ok,,medium
+0020727AR,Celtis australis,False,C\ Selva de Mar,,22.73,median,23.33,check
+0020729AR,Celtis australis,False,C\ Lope de Vega,9.68,9.24,ok,,large
+0020730AR,Platanus × acerifolia,True,C\ Selva de Mar,9.56,4.5,ok,,large
+0020732AR,Platanus × acerifolia,True,C\ Bac de Roda,9.12,8.29,ok,,large
+0020733AR,Celtis australis,False,C\ Selva de Mar,8.53,6.67,ok,,large
+0020734AR,Celtis australis,False,C\ Espronceda,6.46,5.12,ok,,large
+0020735AR,Platanus × acerifolia,True,C\ Llull,,18.74,median,,check
+0020736AR,Tipuana tipu,False,Pg Taulat,7.0,5.67,ok,,large
+0020737AR,Platanus × acerifolia,True,Av Diagonal,6.75,5.11,ok,,large
+0020739AR,Celtis australis,False,C\ Selva de Mar,,23.11,median,23.41,check
+0020740AR,Platanus × acerifolia,True,C\ Llull,,18.04,median,,check
+0020741AR,Tipuana tipu,False,C\ Llull,,21.26,no_kerb,,check
+0020742AR,Celtis australis,False,C\ Ramon Turró,5.25,4.71,ok,,medium
+0020743AR,Platanus × acerifolia,True,Av Diagonal,21.32,20.27,ok,,large
+0020744AR,Styphnolobium japonicum,False,Pg Taulat,8.88,6.14,ok,,large
+0020746AR,Platanus × acerifolia,True,C\ Selva de Mar,9.64,4.34,ok,,large
+0020747AR,Platanus × acerifolia,True,Av Diagonal,,53.1,no_facade,5.11,check
+0020748AR,Tipuana tipu,False,C\ Llull,,29.36,no_kerb,,check
+0020749AR,Gleditsia triacanthos f. inermis,False,C\ Provençals,25.62,7.98,ok,,large
+0020751AR,Celtis australis,False,C\ Josep Pla,8.76,7.53,ok,,large
+0020752AR,Gleditsia triacanthos,False,C\ Pujades,15.55,4.75,ok,,large
+0020754AR,Platanus × acerifolia,True,Av Diagonal,,22.09,median,17.94,check
+0020755AR,Celtis australis,False,C\ Provençals,5.43,4.85,ok,,medium
+0020756AR,Celtis australis,False,C\ Bac de Roda,8.15,6.18,ok,,large
+0020758AR,Celtis australis,False,C\ Josep Ferrater i Móra,13.42,12.75,ok,,large
+0020759AR,Platanus × acerifolia,True,C\ Josep Pla,5.19,4.37,ok,,medium
+0020760AR,Celtis sinensis,False,C\ Fluvià,4.88,3.66,ok,,medium
+0020761AR,Tipuana tipu,False,C\ Llull,,29.36,median,,check
+0020762AR,Celtis australis,False,Pg Taulat,12.22,11.56,ok,,large
+0020763AR,Platanus × acerifolia,True,Av Diagonal,,48.45,no_facade,5.1,check
+0020764AR,Platanus × acerifolia,True,Av Diagonal,,38.37,no_facade,5.15,check
+0020765AR,Celtis australis,False,C\ Josep Pla,7.93,7.29,ok,,large
+0020766AR,Tipuana tipu,False,Pg Taulat,7.2,6.95,ok,,large
+0020767AR,Platanus × acerifolia,True,C\ Selva de Mar,9.58,8.91,ok,,large
+0020768AR,Celtis australis,False,C\ Ramon Turró,5.14,4.6,ok,,medium
+0020769AR,Platanus × acerifolia,True,C\ Pallars,4.63,4.13,ok,,medium
+0020770AR,Platanus × acerifolia,True,Av Diagonal,,74.59,no_facade,5.12,check
+0020771AR,Platanus × acerifolia,True,Av Diagonal,10.71,9.74,ok,,large
+0020772AR,Platanus × acerifolia,True,C\ Fluvià,16.96,15.1,ok,,large
+0020773AR,Celtis sinensis,False,C\ Llull,5.2,4.34,ok,,medium
+0020774AR,Platanus × acerifolia,True,C\ Josep Pla,,13.88,median,,check
+0020775AR,Platanus × acerifolia,True,Av Diagonal,,34.21,no_facade,17.9,check
+0020776AR,Ulmus pumila,False,Pg Taulat,,24.36,median,34.06,check
+0020778AR,Celtis sinensis,False,C\ Ramon Turró,5.23,3.66,ok,,medium
+0020779AR,Platanus × acerifolia,True,C\ Selva de Mar,9.69,9.48,ok,,large
+0020781AR,Celtis australis,False,C\ Provençals,5.03,4.48,ok,,medium
+0020782AR,Celtis australis,False,C\ Lope de Vega,,7.66,median,5.84,check
+0020783AR,Populus nigra 'Italica',False,Pg Taulat,,25.72,median,15.44,check
+0020784AR,Platanus × acerifolia,True,C\ Llull,,21.34,median,,check
+0020785AR,Gleditsia triacanthos,False,C\ Fluvià,10.88,7.64,ok,,large
+0020786AR,Celtis australis,False,C\ Ramon Turró,5.15,4.14,ok,,medium
+0020787AR,Platanus × acerifolia,True,Av Diagonal,15.99,13.03,ok,,large
+0020788AR,Platanus × acerifolia,True,C\ Llull,15.69,10.41,ok,,large
+0020789AR,Platanus × acerifolia,True,C\ Josep Pla,,9.72,median,5.94,check
+0020790AR,Gleditsia triacanthos,False,C\ Pujades,9.24,5.29,ok,,large
+0020791AR,Celtis australis,False,C\ Provençals,5.25,4.55,ok,,medium
+0020792AR,Koelreuteria paniculata,False,C\ Selva de Mar,21.92,12.18,ok,,large
+0020793AR,Prunus cerasifera 'Pissardii',False,Ptge Maria Llimona,,6.66,no_kerb,,check
+0020794AR,Celtis australis,False,C\ Ramon Turró,4.95,4.62,ok,,medium
+0020795AR,Tipuana tipu,False,C\ Provençals,,31.41,no_facade,,check
+0020796AR,Tipuana tipu,False,C\ Llull,,35.02,no_facade,,check
+0020797AR,Jacaranda mimosifolia,False,C\ Pellaires,,4.08,no_kerb,,check
+0020798AR,Celtis australis,False,C\ Pujades,,15.42,median,21.53,check
+0020799AR,Celtis australis,False,C\ Pujades,,15.39,median,21.43,check
+0020800AR,Paulownia tomentosa,False,C\ Provençals,3.06,1.47,ok,,small
+0020802AR,Tipuana tipu,False,C\ Llull,,21.59,no_kerb,,check
+0020803AR,Platanus × acerifolia,True,Av Diagonal,,19.93,median,17.87,check
+0020804AR,Celtis australis,False,Pg Taulat,8.23,6.47,ok,,large
+0020805AR,Platanus × acerifolia,True,Av Diagonal,,53.89,no_facade,17.94,check
+0020807AR,Gleditsia triacanthos,False,C\ Pujades,9.08,4.75,ok,,large
+0020808AR,Celtis australis,False,Pg Taulat,8.47,6.57,ok,,large
+0020809AR,Platanus × acerifolia,True,Av Diagonal,8.79,7.3,ok,,large
+0020810AR,Platanus × acerifolia,True,C\ Llull,13.0,7.9,ok,,large
+0020811AR,Ginkgo biloba 'Fastigiata Blagon',False,C\ Pujades,5.01,3.79,ok,,medium
+0020812AR,Prunus cerasifera 'Pissardii',False,Ptge Maria Llimona,,6.34,no_kerb,,check
+0020813AR,Celtis australis,False,C\ Provençals,5.38,4.51,ok,,medium
+0020814AR,Jacaranda mimosifolia,False,C\ Ferrers,4.9,5.61,ok,,medium
+0020815AR,Gleditsia triacanthos 'skyline',False,C\ Ramon Turró,5.0,4.37,ok,,medium
+0020817AR,Tipuana tipu,False,C\ Llull,,30.51,no_facade,,check
+0020819AR,Platanus × acerifolia,True,Av Diagonal,,46.07,no_facade,18.66,check
+0020821AR,Platanus × acerifolia,True,C\ Pujades,,15.45,median,28.96,check
+0020822AR,Morus alba,False,Pg Garcia Fària,,47.08,no_facade,,check
+0020824AR,Platanus × acerifolia,True,C\ Llull,17.04,14.95,ok,,large
+0020825AR,Celtis australis,False,C\ Pallars,4.89,4.91,ok,,medium
+0020826AR,Celtis australis,False,C\ Selva de Mar,9.49,8.34,ok,,large
+0020827AR,Platanus × acerifolia,True,Av Diagonal,,50.5,no_facade,17.79,check
+0020828AR,Morus alba,False,Pg Garcia Fària,17.74,15.61,ok,,large
+0020829AR,Platanus × acerifolia,True,Av Diagonal,,37.62,no_facade,17.83,check
+0020831AR,Platanus × acerifolia,True,Av Diagonal,,31.43,no_facade,7.99,check
+0020832AR,Gleditsia triacanthos f. inermis,False,C\ Provençals,5.46,5.38,ok,,medium
+0020833AR,Celtis australis,False,C\ Provençals,7.91,6.71,ok,,large
+0020834AR,Platanus × acerifolia,True,C\ Agricultura,8.15,7.51,ok,,large
+0020835AR,Platanus × acerifolia,True,Av Diagonal,,27.39,median,17.85,check
+0020836AR,Celtis australis,False,C\ Llull,5.24,2.43,ok,,medium
+0020837AR,Platanus × acerifolia,True,Av Diagonal,,54.17,no_facade,17.68,check
+0020840AR,Platanus × acerifolia,True,Av Diagonal,,39.0,no_facade,5.2,check
+0020841AR,Celtis australis,False,C\ Josep Pla,9.67,8.34,ok,,large
+0020842AR,Celtis australis,False,C\ Ramon Turró,4.89,4.51,ok,,medium
+0020843AR,Platanus × acerifolia,True,C\ Pujades,,15.4,median,21.48,check
+0020844AR,Platanus × acerifolia,True,C\ Agricultura,4.95,3.47,ok,,medium
+0020845AR,Celtis australis,False,C\ Provençals,4.92,4.12,ok,,medium
+0020846AR,Celtis australis,False,Pg Taulat,,36.39,no_facade,,check
+0020847AR,Celtis australis,False,C\ Espronceda,6.49,5.05,ok,,large
+0020848AR,Celtis australis,False,C\ Josep Pla,5.84,4.68,ok,,medium
+0020849AR,Celtis australis,False,C\ Ramon Turró,5.0,3.42,ok,,medium
+0020850AR,Platanus × acerifolia,True,C\ Selva de Mar,9.68,4.96,ok,,large
+0020851AR,Koelreuteria paniculata 'Fastigiata',False,Pg Taulat,,20.82,median,14.39,check
+0020853AR,Celtis sinensis,False,C\ Fluvià,5.3,5.04,ok,,medium
+0020854AR,Platanus × acerifolia,True,C\ Pallars,4.9,4.78,ok,,medium
+0020856AR,Platanus × acerifolia,True,Av Diagonal,,48.07,no_facade,5.02,check
+0020857AR,Tipuana tipu,False,C\ Llull,,29.33,median,,check
+0020858AR,Platanus × acerifolia,True,C\ Bac de Roda,9.98,6.95,ok,,large
+0020859AR,Celtis sinensis,False,C\ Ramon Turró,,20.61,median,,check
+0020860AR,Platanus × acerifolia,True,Av Diagonal,,27.62,median,22.73,check
+0020861AR,Platanus × acerifolia,True,Av Diagonal,6.67,4.99,ok,,large
+0020862AR,Koelreuteria paniculata 'Fastigiata',False,Pg Taulat,,21.94,median,12.91,check
+0020863AR,Celtis australis,False,C\ Bac de Roda,8.09,6.12,ok,,large
+0020864AR,Celtis australis,False,C\ Ramon Turró,9.79,8.31,ok,,large
+0020865AR,Tipuana tipu,False,C\ Llull,,29.45,median,,check
+0020866AR,Platanus × acerifolia,True,Av Diagonal,,23.4,median,18.01,check
+0020867AR,Celtis australis,False,C\ Provençals,5.59,5.12,ok,,medium
+0020868AR,Platanus × acerifolia,True,Av Diagonal,,60.63,no_facade,5.15,check
+0020870AR,Celtis sinensis,False,C\ Llull,5.22,4.83,ok,,medium
+0020871AR,Platanus × acerifolia,True,Av Diagonal,,40.16,no_facade,,check
+0020873AR,Platanus × acerifolia,True,C\ Bac de Roda,17.47,15.33,ok,,large
+0020874AR,Platanus × acerifolia,True,Av Diagonal,,37.67,no_facade,16.9,check
+0020875AR,Platanus × acerifolia,True,C\ Selva de Mar,,39.13,no_facade,,check
+0020876AR,Celtis australis,False,C\ Provençals,5.16,4.51,ok,,medium
+0020877AR,Celtis australis,False,C\ Selva de Mar,7.94,6.78,ok,,large
+0020878AR,Tipuana tipu,False,C\ Llull,,21.8,no_kerb,,check
+0020879AR,Platanus × acerifolia,True,Av Diagonal,,61.66,no_facade,5.09,check
+0020880AR,Celtis australis,False,C\ Ramon Turró,5.07,4.66,ok,,medium
+0020881AR,Tipuana tipu,False,Pg Taulat,7.9,6.41,ok,,large
+0020882AR,Platanus × acerifolia,True,Av Diagonal,4.67,2.83,ok,,medium
+0020883AR,Callistemon viminalis,False,Ptge Maria Llimona,,8.92,no_kerb,,check
+0020884AR,Celtis sinensis,False,C\ Llull,4.92,4.49,ok,,medium
+0020885AR,Platanus × acerifolia,True,Av Diagonal,,31.93,no_facade,13.53,check
+0020886AR,Tipuana tipu,False,C\ Llull,,30.95,no_facade,,check
+0020887AR,Platanus × acerifolia,True,C\ Fluvià,,22.23,no_kerb,,check
+0020889AR,Celtis australis,False,C\ Selva de Mar,,22.63,median,23.34,check
+0020890AR,Platanus × acerifolia,True,Av Diagonal,,32.53,no_facade,10.1,check
+0020891AR,Platanus × acerifolia,True,Av Diagonal,,31.19,no_facade,7.5,check
+0020892AR,Platanus × acerifolia,True,C\ Llull,7.4,4.46,ok,,large
+0020894AR,Celtis australis,False,C\ Ramon Turró,4.99,4.03,ok,,medium
+0020895AR,Celtis australis,False,C\ Llull,5.29,4.13,ok,,medium
+0020896AR,Platanus × acerifolia,True,Av Diagonal,10.4,9.42,ok,,large
+0020897AR,Tipuana tipu,False,Pg Taulat,9.01,9.06,ok,,large
+0020898AR,Celtis australis,False,C\ Espronceda,5.25,3.98,ok,,medium
+0020899AR,Koelreuteria paniculata,False,Pg Taulat,,27.0,median,15.98,check
+0020900AR,Tipuana tipu,False,Pg Taulat,7.37,6.49,ok,,large
+0020901AR,Tipuana tipu,False,Pg Taulat,9.74,8.3,ok,,large
+0020902AR,Platanus × acerifolia,True,Av Diagonal,9.46,8.48,ok,,large
+0020904AR,Celtis sinensis,False,C\ Provençals,5.48,4.79,ok,,medium
+0020905AR,Celtis australis,False,C\ Pallars,5.14,4.35,ok,,medium
+0020906AR,Celtis australis,False,C\ Selva de Mar,,22.78,median,23.34,check
+0020907AR,Celtis australis,False,C\ Lope de Vega,,8.5,median,5.81,check
+0020908AR,Tipuana tipu,False,Pg Taulat,,24.62,median,,check
+0020909AR,Platanus × acerifolia,True,Av Diagonal,10.36,9.44,ok,,large
+0020910AR,Tipuana tipu,False,Pg Taulat,13.85,12.81,ok,,large
+0020911AR,Celtis australis,False,C\ Provençals,,24.28,no_kerb,23.13,check
+0020912AR,Gleditsia triacanthos f. inermis,False,C\ Pujades,8.39,2.24,ok,,large
+0020913AR,Platanus × acerifolia,True,C\ Pallars,4.62,4.24,ok,,medium
+0020914AR,Celtis australis,False,C\ Espronceda,5.0,3.97,ok,,medium
+0020915AR,Tipuana tipu,False,Pg Taulat,7.25,6.28,ok,,large
+0020917AR,Gleditsia triacanthos,False,C\ Pujades,26.81,23.74,ok,,large
+0020918AR,Celtis australis,False,C\ Lope de Vega,5.11,4.73,ok,,medium
+0020920AR,Platanus × acerifolia,True,C\ Selva de Mar,,25.58,no_kerb,,check
+0020921AR,Celtis australis,False,Pg Taulat,13.09,12.07,ok,,large
+0020922AR,Platanus × acerifolia,True,C\ Josep Pla,5.18,4.39,ok,,medium
+0020923AR,Platanus × acerifolia,True,C\ Pallars,,33.78,no_facade,21.32,check
+0020924AR,Platanus × acerifolia,True,Av Diagonal,,43.67,no_facade,,check
+0020925AR,Celtis sinensis,False,C\ Llull,5.15,4.65,ok,,medium
+0020926AR,Platanus × acerifolia,True,C\ Llull,,17.96,median,,check
+0020927AR,Tipuana tipu,False,Pg Taulat,6.04,6.01,ok,,large
+0020928AR,Jacaranda mimosifolia,False,C\ Ferrers,4.88,5.77,ok,,medium
+0020929AR,Ginkgo biloba 'Fastigiata Blagon',False,C\ Pujades,5.0,3.53,ok,,medium
+0020931AR,Platanus × acerifolia,True,Av Diagonal,,35.28,no_facade,18.03,check
+0020932AR,Celtis australis,False,C\ Ramon Turró,5.28,3.91,ok,,medium
+0020933AR,Tipuana tipu,False,Pg Taulat,6.21,4.71,ok,,large
+0020935AR,Ginkgo biloba 'Fastigiata Blagon',False,C\ Pujades,5.51,4.35,ok,,medium
+0020936AR,Celtis australis,False,C\ Provençals,5.12,3.48,ok,,medium
+0020937AR,Celtis australis,False,C\ Llull,10.48,4.09,ok,,large
+0020938AR,Platanus × acerifolia,True,C\ Fluvià,,32.83,no_facade,,check
+0020939AR,Celtis australis,False,C\ Selva de Mar,,22.77,median,22.95,check
+0020941AR,Koelreuteria paniculata 'Fastigiata',False,Pg Taulat,,17.84,median,15.67,check
+0020943AR,Celtis sinensis,False,C\ Provençals,5.49,4.86,ok,,medium
+0020944AR,Platanus × acerifolia,True,Av Diagonal,14.36,13.18,ok,,large
+0020946AR,Tipuana tipu,False,C\ Llull,,22.21,no_kerb,,check
+0020948AR,Platanus × acerifolia,True,C\ Agricultura,,15.13,median,,check
+0020949AR,Platanus × acerifolia,True,C\ Ramon Turró,3.0,2.15,ok,,small
+0020950AR,Platanus × acerifolia,True,Av Diagonal,9.47,8.91,ok,,large
+0020951AR,Celtis australis,False,C\ Provençals,5.16,4.55,ok,,medium
+0020952AR,Koelreuteria paniculata 'Fastigiata',False,Pg Taulat,,25.6,median,19.56,check
+0020954AR,Celtis australis,False,C\ Bac de Roda,8.02,6.02,ok,,large
+0020955AR,Celtis australis,False,C\ Ramon Turró,5.21,3.51,ok,,medium
+0020957AR,Platanus × acerifolia,True,C\ Agricultura,5.14,3.91,ok,,medium
+0020958AR,Platanus × acerifolia,True,Av Diagonal,,19.68,median,17.82,check
+0020959AR,Celtis australis,False,C\ Llull,6.38,5.69,ok,,large
+0020960AR,Gleditsia triacanthos f. inermis,False,C\ Agricultura,5.04,3.75,ok,,medium
+0020961AR,Platanus × acerifolia,True,C\ Selva de Mar,14.06,12.77,ok,,large
+0020962AR,Platanus × acerifolia,True,Av Diagonal,,46.84,no_facade,4.96,check
+0020963AR,Platanus × acerifolia,True,C\ Provençals,,29.2,median,,check
+0020964AR,Callistemon viminalis,False,Ptge Maria Llimona,,6.59,no_kerb,,check
+0020965AR,Platanus × acerifolia,True,Av Diagonal,,35.29,no_facade,18.04,check
+0020966AR,Celtis sinensis,False,C\ Llull,5.17,4.39,ok,,medium
+0020969AR,Gleditsia triacanthos,False,C\ Pujades,24.39,21.48,ok,,large
+0020970AR,Platanus × acerifolia,True,C\ Selva de Mar,,20.1,median,10.88,check
+0020971AR,Tipuana tipu,False,C\ Llull,,20.65,no_kerb,,check
+0020972AR,Celtis australis,False,C\ Bac de Roda,8.3,6.27,ok,,large
+0020973AR,Tipuana tipu,False,C\ Llull,,29.92,median,,check
+0020974AR,Platanus × acerifolia,True,C\ Llull,,55.34,no_facade,,check
+0020977AR,Platanus × acerifolia,True,Av Diagonal,,26.89,median,6.52,check
+0020978AR,Celtis australis,False,C\ Lope de Vega,,8.22,median,5.8,check
+0020979AR,Platanus × acerifolia,True,C\ Llull,,25.83,median,,check
+0020981AR,Tipuana tipu,False,C\ Llull,,30.69,no_facade,,check
+0020982AR,Celtis sinensis,False,C\ Ramon Turró,5.19,3.64,ok,,medium
+0020983AR,Celtis australis,False,C\ Provençals,4.97,4.03,ok,,medium
+0020984AR,Platanus × acerifolia,True,C\ Pallars,4.91,5.03,ok,,medium
+0020985AR,Celtis australis,False,C\ Josep Pla,8.07,7.2,ok,,large
+0020986AR,Tipuana tipu,False,C\ Llull,,32.12,no_facade,,check
+0020987AR,Celtis australis,False,C\ Llull,9.34,8.23,ok,,large
+0020988AR,Platanus × acerifolia,True,Av Diagonal,,20.14,median,17.82,check
+0020989AR,Celtis australis,False,C\ Pallars,5.09,4.48,ok,,medium
+0020990AR,Prunus cerasifera 'Pissardii',False,Ptge Maria Llimona,,5.83,no_kerb,,check
+0020991AR,Platanus × acerifolia,True,Av Diagonal,9.47,8.54,ok,,large
+0020992AR,Platanus × acerifolia,True,Av Diagonal,,24.77,median,17.74,check
+0020994AR,Platanus × acerifolia,True,C\ Pallars,,22.92,median,,check
+0020995AR,Celtis australis,False,C\ Selva de Mar,,31.0,no_facade,22.86,check
+0020996AR,Celtis australis,False,C\ Josep Ferrater i Móra,5.04,4.66,ok,,medium
+0020997AR,Celtis australis,False,C\ Bac de Roda,7.94,7.11,ok,,large
+0020998AR,Platanus × acerifolia,True,C\ Bac de Roda,10.64,9.51,ok,,large
+0021000AR,Platanus × acerifolia,True,Av Diagonal,7.49,6.64,ok,,large
+0021001AR,Platanus × acerifolia,True,C\ Llull,,29.03,median,,check
+0021002AR,Celtis australis,False,C\ Ramon Turró,5.05,4.37,ok,,medium
+0021003AR,Celtis australis,False,C\ Llull,7.03,4.11,ok,,large
+0021005AR,Celtis australis,False,C\ Ramon Turró,4.86,4.15,ok,,medium
+0021006AR,Celtis australis,False,C\ Josep Ferrater i Móra,5.43,4.95,ok,,medium
+0021007AR,Platanus × acerifolia,True,C\ Llull,17.34,14.93,ok,,large
+0021010AR,Tipuana tipu,False,C\ Llull,,21.61,no_kerb,,check
+0021012AR,Platanus × acerifolia,True,C\ Pallars,7.06,6.28,ok,,large
+0021013AR,Tipuana tipu,False,C\ Llull,,30.3,no_facade,,check
+0021015AR,Platanus × acerifolia,True,C\ Llull,,77.27,no_facade,,check
+0021016AR,Celtis australis,False,C\ Provençals,5.12,3.44,ok,,medium
+0021017AR,Tipuana tipu,False,Pg Taulat,6.03,5.95,ok,,large
+0021018AR,Platanus × acerifolia,True,C\ Selva de Mar,9.6,4.61,ok,,large
+0021019AR,Populus nigra 'Italica',False,Pg Taulat,,24.6,median,14.25,check
+0021020AR,Celtis australis,False,C\ Pujades,,15.22,median,,check
+0021021AR,Gleditsia triacanthos f. inermis,False,C\ Provençals,4.94,1.34,ok,,medium
+0021022AR,Celtis australis,False,C\ Provençals,5.07,3.41,ok,,medium
+0021023AR,Platanus × acerifolia,True,Av Diagonal,5.04,3.05,ok,,medium
+0021025AR,Tipuana tipu,False,C\ Llull,,30.11,no_facade,,check
+0021026AR,Celtis australis,False,C\ Bac de Roda,11.36,9.99,ok,,large
+0021027AR,Celtis australis,False,C\ Llull,,66.25,no_facade,,check
+0021028AR,Platanus × acerifolia,True,Av Diagonal,5.49,4.99,ok,,medium
+0021029AR,Tipuana tipu,False,Pg Taulat,5.99,5.26,ok,,medium
+0021030AR,Platanus × acerifolia,True,C\ Provençals,,15.4,median,5.13,check
+0021031AR,Gleditsia triacanthos,False,C\ Fluvià,5.04,4.08,ok,,medium
+0021033AR,Celtis australis,False,C\ Bac de Roda,16.67,14.57,ok,,large
+0021036AR,Celtis australis,False,C\ Llull,,36.48,no_facade,,check
+0021038AR,Platanus × acerifolia,True,C\ Agricultura,4.93,3.14,ok,,medium
+0021039AR,Platanus × acerifolia,True,Av Diagonal,,42.9,no_facade,17.89,check
+0021040AR,Platanus × acerifolia,True,C\ Llull,,18.06,median,,check
+0021041AR,Platanus × acerifolia,True,Av Diagonal,8.13,6.8,ok,,large
+0021042AR,Gleditsia triacanthos f. inermis,False,Pg Taulat,,30.92,no_facade,16.49,check
+0021043AR,Platanus × acerifolia,True,C\ Pallars,9.8,8.7,ok,,large
+0021044AR,Platanus × acerifolia,True,Av Diagonal,11.63,10.87,ok,,large
+0021045AR,Platanus × acerifolia,True,C\ Selva de Mar,10.37,4.43,ok,,large
+0021047AR,Platanus × acerifolia,True,C\ Pallars,5.44,5.47,ok,,medium
+0021048AR,Celtis australis,False,C\ Bac de Roda,7.97,7.15,ok,,large
+0021049AR,Prunus cerasifera 'Pissardii',False,Ptge Maria Llimona,,8.52,no_kerb,,check
+0021050AR,Platanus × acerifolia,True,C\ Selva de Mar,5.25,3.4,ok,,medium
+0021052AR,Celtis australis,False,Pg Taulat,11.1,10.23,ok,,large
+0021053AR,Celtis sinensis,False,C\ Fluvià,5.0,3.64,ok,,medium
+0021054AR,Celtis australis,False,C\ Josep Ferrater i Móra,4.88,3.62,ok,,medium
+0021055AR,Platanus × acerifolia,True,C\ Pallars,15.25,12.84,ok,,large
+0021056AR,Tipuana tipu,False,C\ Llull,,22.47,no_kerb,,check
+0021057AR,Gleditsia triacanthos,False,C\ Pujades,8.24,1.71,ok,,large
+0021058AR,Celtis australis,False,C\ Espronceda,5.06,3.96,ok,,medium
+0021060AR,Celtis sinensis,False,C\ Ramon Turró,5.26,4.34,ok,,medium
+0021061AR,Celtis australis,False,Pg Taulat,8.52,7.58,ok,,large
+0021063AR,Celtis sinensis,False,C\ Llull,11.36,10.21,ok,,large
+0021066AR,Platanus × acerifolia,True,Av Diagonal,10.53,9.48,ok,,large
+0021067AR,Platanus × acerifolia,True,C\ Agricultura,5.06,3.59,ok,,medium
+0021068AR,Celtis australis,False,C\ Lope de Vega,5.07,4.76,ok,,medium
+0021069AR,Celtis australis,False,C\ Provençals,5.05,4.4,ok,,medium
+0021070AR,Platanus × acerifolia,True,C\ Fluvià,6.95,5.93,ok,,large
+0021071AR,Platanus × acerifolia,True,Av Diagonal,,42.26,no_facade,14.83,check
+0021073AR,Celtis australis,False,C\ Espronceda,6.41,5.08,ok,,large
+0021074AR,Platanus × acerifolia,True,Av Diagonal,,64.2,no_facade,5.13,check
+0021075AR,Koelreuteria paniculata 'Fastigiata',False,Pg Taulat,,21.93,median,14.09,check
+0021076AR,Tipuana tipu,False,Pg Taulat,,33.24,no_facade,,check
+0021078AR,Platanus × acerifolia,True,C\ Pallars,4.61,4.02,ok,,medium
+0021079AR,Celtis australis,False,C\ Espronceda,6.58,5.19,ok,,large
+0021080AR,Celtis australis,False,Pg Taulat,11.3,10.13,ok,,large
+0021081AR,Celtis australis,False,C\ Provençals,5.47,4.41,ok,,medium
+0021082AR,Celtis australis,False,C\ Josep Ferrater i Móra,5.06,3.78,ok,,medium
+0021083AR,Platanus × acerifolia,True,Av Diagonal,29.96,28.34,ok,,large
+0021085AR,Populus nigra 'Italica',False,C\ Selva de Mar,,21.94,no_kerb,,check
+0021086AR,Celtis australis,False,C\ Ramon Turró,5.61,5.65,ok,,medium
+0021087AR,Platanus × acerifolia,True,C\ Josep Pla,,16.04,median,,check
+0021088AR,Gleditsia triacanthos,False,C\ Fluvià,5.15,2.11,ok,,medium
+0021089AR,Platanus × acerifolia,True,Av Diagonal,,59.37,no_facade,5.14,check
+0021090AR,Tipuana tipu,False,Pg Taulat,8.45,6.43,ok,,large
+0021092AR,Platanus × acerifolia,True,C\ Pallars,7.07,6.6,ok,,large
+0021093AR,Tipuana tipu,False,Pg Taulat,6.07,3.21,ok,,large
+0021095AR,Platanus × acerifolia,True,Av Diagonal,,44.52,no_facade,18.13,check
+0021096AR,Platanus × acerifolia,True,Av Diagonal,,21.61,median,17.83,check
+0021097AR,Jacaranda mimosifolia,False,C\ Ferrers,4.89,5.67,ok,,medium
+0021098AR,Platanus × acerifolia,True,C\ Selva de Mar,5.21,3.3,ok,,medium
+0021099AR,Tipuana tipu,False,Pg Taulat,6.16,4.81,ok,,large
+0021100AR,Jacaranda mimosifolia,False,C\ Pellaires,,7.88,no_kerb,,check
+0021101AR,Celtis australis,False,C\ Josep Pla,6.35,5.02,ok,,large
+0021102AR,Platanus × acerifolia,True,C\ Pallars,,21.34,median,23.6,check
+0021103AR,Prunus cerasifera 'Pissardii',False,Ptge Maria Llimona,,9.21,no_kerb,,check
+0021104AR,Celtis australis,False,C\ Selva de Mar,7.95,6.84,ok,,large
+0021105AR,Tipuana tipu,False,Pg Taulat,6.1,5.02,ok,,large
+0021106AR,Platanus × acerifolia,True,Av Diagonal,7.45,6.4,ok,,large
+0021107AR,Celtis australis,False,C\ Selva de Mar,11.0,9.68,ok,,large
+0021108AR,Celtis australis,False,C\ Provençals,4.98,3.78,ok,,medium
+0021109AR,Celtis sinensis,False,C\ Provençals,5.25,4.19,ok,,medium
+0021110AR,Celtis australis,False,C\ Josep Pla,5.19,4.43,ok,,medium
+0021111AR,Platanus × acerifolia,True,C\ Llull,,67.17,no_facade,4.8,check
+0021112AR,Platanus × acerifolia,True,C\ Agricultura,14.5,14.41,ok,,large
+0021113AR,Celtis australis,False,C\ Selva de Mar,16.3,14.55,ok,,large
+0021114AR,Celtis australis,False,C\ Espronceda,5.16,4.08,ok,,medium
+0021115AR,Gleditsia triacanthos f. inermis,False,C\ Provençals,11.04,4.38,ok,,large
+0021117AR,Platanus × acerifolia,True,C\ Pallars,4.98,4.31,ok,,medium
+0021119AR,Platanus × acerifolia,True,Av Diagonal,13.1,12.54,ok,,large
+0021120AR,Platanus × acerifolia,True,C\ Bac de Roda,9.5,8.53,ok,,large
+0021122AR,Platanus × acerifolia,True,Av Diagonal,9.47,8.47,ok,,large
+0021123AR,Koelreuteria paniculata 'Fastigiata',False,Pg Taulat,,13.54,median,13.39,check
+0021124AR,Jacaranda mimosifolia,False,C\ Ferrers,,5.88,median,,check
+0021125AR,Celtis australis,False,C\ Provençals,5.04,3.38,ok,,medium
+0021127AR,Prunus cerasifera 'Pissardii',False,Ptge Maria Llimona,,8.66,no_kerb,,check
+0021128AR,Celtis australis,False,C\ Josep Ferrater i Móra,5.13,4.91,ok,,medium
+0021129AR,Tipuana tipu,False,C\ Llull,17.35,3.7,ok,,large
+0021130AR,Celtis australis,False,C\ Provençals,5.28,4.42,ok,,medium
+0021131AR,Platanus × acerifolia,True,C\ Selva de Mar,16.18,10.67,ok,,large
+0021133AR,Tipuana tipu,False,C\ Selva de Mar,,28.49,median,,check
+0021135AR,Tipuana tipu,False,C\ Llull,,29.77,no_kerb,,check
+0021136AR,Tipuana tipu,False,C\ Llull,19.04,4.61,ok,,large
+0021137AR,Gleditsia triacanthos f. inermis,False,C\ Provençals,5.22,1.85,ok,,medium
+0021138AR,Celtis australis,False,Pg Taulat,15.37,14.65,ok,,large
+0021139AR,Celtis australis,False,C\ Ramon Turró,5.18,4.5,ok,,medium
+0021141AR,Platanus × acerifolia,True,Av Diagonal,9.15,8.66,ok,,large
+0023236AR,Platanus × acerifolia,True,Av Diagonal,,31.19,no_facade,17.73,check
+0023320AR,Platanus × acerifolia,True,Av Diagonal,,31.22,no_facade,17.81,check
+0023355AR,Platanus × acerifolia,True,Av Diagonal,,18.78,median,17.86,check
+0023873AR,Platanus × acerifolia,True,Av Diagonal,,20.58,median,18.1,check
+0023882AR,Platanus × acerifolia,True,Av Diagonal,,31.23,no_facade,21.51,check
+0023916AR,Platanus × acerifolia,True,Av Diagonal,,31.09,no_facade,22.57,check
+0023978AR,Platanus × acerifolia,True,Av Diagonal,,31.06,no_facade,26.1,check
+0024140AR,Platanus × acerifolia,True,Av Diagonal,,20.66,median,18.04,check
+0024164AR,Platanus × acerifolia,True,Av Diagonal,,18.74,median,17.84,check
+0024263AR,Platanus × acerifolia,True,Av Diagonal,,31.26,no_facade,17.76,check
+0024303AR,Platanus × acerifolia,True,Av Diagonal,,20.74,median,18.08,check
+0024418AR,Platanus × acerifolia,True,Av Diagonal,,18.71,median,17.81,check
+0024512AR,Platanus × acerifolia,True,Av Diagonal,,18.88,median,22.64,check
+0024559AR,Platanus × acerifolia,True,Av Diagonal,,22.52,median,17.94,check
+0024644AR,Platanus × acerifolia,True,Av Diagonal,,31.32,no_facade,17.76,check
+0024674AR,Platanus × acerifolia,True,Av Diagonal,,29.98,median,17.89,check
+0024710AR,Platanus × acerifolia,True,Av Diagonal,,31.05,no_facade,17.81,check
+0025099AR,Platanus × acerifolia,True,Av Diagonal,,20.69,median,21.49,check
+0025107AR,Platanus × acerifolia,True,Av Diagonal,,22.54,median,17.89,check
+0025241AR,Platanus × acerifolia,True,Av Diagonal,,29.97,median,17.78,check
+0025292AR,Platanus × acerifolia,True,Av Diagonal,,20.43,median,14.67,check
+0025797AR,Platanus × acerifolia,True,Av Diagonal,,25.7,median,17.81,check
+0026047AR,Platanus × acerifolia,True,Av Diagonal,,18.66,median,17.77,check
+0026065AR,Platanus × acerifolia,True,Av Diagonal,,30.72,no_facade,17.94,check
+0115997AR,Grevillea robusta,False,C\ Jonquera,,16.97,median,,check
+0116181AR,Tipuana tipu,False,Pg Taulat,,46.89,no_facade,,check
+0116667AR,Grevillea robusta,False,C\ Jonquera,,17.46,median,,check
+0117320AR,Grevillea robusta,False,C\ Jonquera,28.99,23.95,ok,,large
+0117599AR,Grevillea robusta,False,C\ Jonquera,8.88,8.33,ok,,large
+0117772AR,Tipuana tipu,False,Pg Taulat,,35.1,no_facade,,check
+0118076AR,Tipuana tipu,False,Pg Taulat,,40.12,no_facade,13.99,check
+0118098AR,Grevillea robusta,False,C\ Jonquera,19.99,16.07,ok,,large
+0118359AR,Grevillea robusta,False,C\ Jonquera,10.7,9.08,ok,,large
+0118558AR,Tipuana tipu,False,Pg Taulat,29.24,28.32,ok,,large
+0118614AR,Tipuana tipu,False,Pg Taulat,,42.18,no_facade,,check
+0118732AR,Grevillea robusta,False,C\ Jonquera,8.98,8.83,ok,,large
+0118878AR,Tipuana tipu,False,Pg Taulat,22.78,20.87,ok,,large
+0119208AR,Tipuana tipu,False,Pg Taulat,10.15,9.46,ok,,large
+0119663AR,Grevillea robusta,False,C\ Jonquera,,33.06,no_facade,,check
+0120460AR,Grevillea robusta,False,C\ Jonquera,8.8,7.65,ok,,large
+0120896AR,Grevillea robusta,False,C\ Jonquera,,25.84,median,,check
+0120932AR,Grevillea robusta,False,C\ Jonquera,,20.81,median,,check
+0247156AR,Tipuana tipu,False,Pg Taulat,,25.33,median,,check
+0247157AR,Tipuana tipu,False,Pg Taulat,,34.81,no_facade,26.45,check
+0247158AR,Tipuana tipu,False,Pg Taulat,,20.69,median,,check
+0247161AR,Platanus × acerifolia,True,Av Diagonal,,8.09,no_kerb,,check
+0247173AR,Tipuana tipu,False,Pg Taulat,,26.15,median,42.93,check
+0247175AR,Populus nigra 'Italica',False,Pg Taulat,,18.62,median,26.8,check
+0247176AR,Tipuana tipu,False,Pg Taulat,,28.31,median,38.17,check
+0247177AR,Tipuana tipu,False,Pg Taulat,,19.09,median,,check
+0247179AR,Tipuana tipu,False,Pg Taulat,,21.13,median,27.56,check
+0247181AR,Styphnolobium japonicum,False,Av Diagonal,,13.12,no_kerb,,check
+0247196AR,Ulmus pumila,False,Pg Taulat,,22.09,median,31.6,check
+0247205AR,Tipuana tipu,False,Pg Taulat,,22.24,median,,check
+0247207AR,Platanus × acerifolia,True,Av Diagonal,,12.11,no_kerb,,check
+0247210AR,Tipuana tipu,False,Av Diagonal,16.85,5.21,ok,,large
+0247215AR,Ulmus pumila,False,Pg Taulat,,22.15,median,,check
+0247220AR,Populus nigra 'Italica',False,Pg Taulat,,27.08,median,,check
+0247221AR,Platanus × acerifolia,True,Av Diagonal,,8.24,no_kerb,,check
+0247226AR,Robinia pseudoacacia,False,C\ Ramon Turró,15.36,2.48,ok,,large
+0247227AR,Platanus × acerifolia,True,Av Diagonal,,15.25,no_kerb,,check
+0247234AR,Tipuana tipu,False,Pg Taulat,,15.17,median,,check
+0247235AR,Tipuana tipu,False,Pg Taulat,,24.77,median,,check
+0247238AR,Gleditsia triacanthos f. inermis,False,Pg Taulat,,27.05,median,,check
+0247242AR,Platanus × acerifolia,True,Av Diagonal,19.32,6.33,ok,,large
+0247248AR,Populus nigra 'Italica',False,Pg Taulat,,18.98,median,24.53,check
+0247249AR,Platanus × acerifolia,True,Av Diagonal,22.45,6.0,ok,,large
+0247254AR,Tipuana tipu,False,Pg Taulat,,19.98,median,,check
+0247257AR,Koelreuteria paniculata,False,Pg Taulat,,23.64,median,24.51,check
+0247258AR,Platanus × acerifolia,True,Av Diagonal,,15.08,no_kerb,,check
+0247259AR,Ulmus pumila,False,Pg Taulat,,30.2,no_facade,,check
+0247261AR,Magnolia grandiflora 'Gallisoniensis',False,Av Diagonal,,12.08,no_kerb,,check
+0247264AR,Tipuana tipu,False,Pg Taulat,,23.71,median,36.07,check
+0247270AR,Ulmus pumila,False,Pg Taulat,,19.38,median,,check
+0247271AR,Ulmus pumila,False,Pg Taulat,,29.21,median,,check
+0247274AR,Platanus × acerifolia,True,Av Diagonal,19.23,6.0,ok,,large
+0247277AR,Ulmus pumila,False,Pg Taulat,,16.91,median,28.19,check
+0247281AR,Tipuana tipu,False,Pg Taulat,,21.51,median,,check
+0247282AR,Ulmus pumila,False,Pg Taulat,,28.55,median,34.41,check
+0247284AR,Ulmus pumila,False,Pg Taulat,,18.79,median,,check
+0247286AR,Styphnolobium japonicum,False,Av Diagonal,,8.46,no_kerb,,check
+0247288AR,Platanus × acerifolia,True,Av Diagonal,23.63,8.72,ok,,large
+0247290AR,Tipuana tipu,False,Pg Taulat,,27.08,median,43.87,check
+0247295AR,Platanus × acerifolia,True,Av Diagonal,,19.21,no_kerb,,check
+0247297AR,Platanus × acerifolia,True,Av Diagonal,,12.22,no_kerb,,check
+0247300AR,Tipuana tipu,False,Pg Taulat,,27.02,median,,check
+0247301AR,Ginkgo biloba,False,Pg Taulat,,24.41,median,,check
+0247303AR,Platanus × acerifolia,True,Av Diagonal,,6.54,no_kerb,,check
+0247306AR,Populus nigra 'Italica',False,Pg Taulat,,18.8,median,25.39,check
+0247308AR,Platanus × acerifolia,True,Av Diagonal,,15.1,no_kerb,,check
+0247315AR,Tipuana tipu,False,Pg Taulat,,23.05,median,,check
+0247316AR,Ulmus pumila,False,Pg Taulat,,24.08,median,,check
+0247318AR,Ginkgo biloba 'Fastigiata',False,Pg Taulat,,21.03,median,,check
+0247323AR,Platanus × acerifolia,True,Av Diagonal,,13.38,no_kerb,,check
+0247324AR,Styphnolobium japonicum 'Dot',False,Av Diagonal,,15.95,no_kerb,,check
+0247326AR,Ulmus pumila,False,Pg Taulat,,29.68,median,45.69,check
+0247331AR,Ulmus pumila,False,Pg Taulat,,19.41,median,,check
+0247333AR,Tipuana tipu,False,Pg Taulat,,24.52,median,,check
+0247338AR,Tipuana tipu,False,Pg Taulat,,29.26,median,,check
+0247340AR,Ginkgo biloba 'Fastigiata',False,Pg Taulat,,33.17,no_facade,47.0,check
+0247341AR,Ulmus pumila,False,Pg Taulat,,32.5,no_facade,,check
+0247348AR,Morus alba,False,Av Diagonal,,8.23,no_kerb,,check
+0247349AR,Koelreuteria paniculata 'Fastigiata',False,Pg Taulat,,32.84,no_facade,,check
+0247352AR,Gleditsia triacanthos f. inermis,False,Pg Taulat,,23.66,median,30.37,check
+0247356AR,Tipuana tipu,False,Pg Taulat,,21.15,median,,check
+0247359AR,Tipuana tipu,False,Pg Taulat,,14.68,median,,check
+0247362AR,Platanus × acerifolia,True,Av Diagonal,,8.16,no_kerb,49.91,check
+0247364AR,Tipuana tipu,False,Pg Taulat,,22.67,median,34.39,check
+0247368AR,Populus nigra 'Italica',False,Pg Taulat,,29.02,median,,check
+0247371AR,Tipuana tipu,False,Pg Taulat,,32.49,no_facade,47.17,check
+0247372AR,Tipuana tipu,False,Pg Taulat,,18.58,median,,check
+0247376AR,Platanus × acerifolia,True,Av Diagonal,,12.43,no_kerb,,check
+0247377AR,Platanus × acerifolia,True,Av Diagonal,,6.65,no_kerb,,check
+0247382AR,Platanus × acerifolia,True,Av Diagonal,22.87,8.39,ok,,large
+0247390AR,Platanus × acerifolia,True,Av Diagonal,,15.15,no_kerb,,check
+0247394AR,Platanus × acerifolia,True,Av Diagonal,,6.51,no_kerb,,check
+0247397AR,Platanus × acerifolia,True,Av Diagonal,26.59,18.27,ok,,large
+0247399AR,Platanus × acerifolia,True,Av Diagonal,,6.34,no_kerb,,check
+0247401AR,Tipuana tipu,False,Pg Taulat,,13.85,median,,check
+0247403AR,Tipuana tipu,False,Pg Taulat,,21.66,median,33.14,check
+0247404AR,Platanus × acerifolia,True,Av Diagonal,,12.34,no_kerb,,check
+0247406AR,Tipuana tipu,False,Pg Taulat,,39.73,no_facade,,check
+0247410AR,Koelreuteria paniculata 'Fastigiata',False,Pg Taulat,,33.89,no_facade,,check
+0247411AR,Styphnolobium japonicum,False,Av Diagonal,,9.55,no_kerb,,check
+0247412AR,Tipuana tipu,False,Pg Taulat,,19.86,median,,check
+0247413AR,Magnolia grandiflora,False,Av Diagonal,8.12,4.8,ok,,large
+0247414AR,Platanus × acerifolia,True,Av Diagonal,,18.28,no_kerb,,check
+0247416AR,Tipuana tipu,False,Pg Taulat,,25.75,median,,check
+0247423AR,Platanus × acerifolia,True,Av Diagonal,,18.42,no_kerb,,check
+0247428AR,Platanus × acerifolia,True,Av Diagonal,,6.41,no_kerb,,check
+0247430AR,Platanus × acerifolia,True,Av Diagonal,,18.14,no_kerb,,check
+0247431AR,Platanus × acerifolia,True,Av Diagonal,25.34,8.35,ok,,large
+0247433AR,Tipuana tipu,False,Pg Taulat,,30.77,no_facade,43.6,check
+0247434AR,Magnolia grandiflora 'Gallisoniensis',False,Av Diagonal,,13.28,no_kerb,,check
+0247439AR,Tipuana tipu,False,Pg Taulat,,26.75,median,36.85,check
+0247440AR,Tipuana tipu,False,Pg Taulat,,29.35,median,,check
+0247447AR,Tipuana tipu,False,Pg Taulat,,24.72,median,,check
+0247450AR,Tipuana tipu,False,Pg Taulat,,19.57,median,,check
+0247451AR,Platanus × acerifolia,True,Av Diagonal,,6.3,no_kerb,,check
+0247460AR,Tipuana tipu,False,Pg Taulat,,17.73,median,,check
+0247463AR,Tipuana tipu,False,Pg Taulat,,30.67,no_facade,,check
+0247466AR,Ginkgo biloba 'Fastigiata',False,Pg Taulat,,27.85,median,42.26,check
+0247470AR,Ulmus pumila,False,Av Diagonal,28.9,19.27,ok,,large
+0247474AR,Tipuana tipu,False,Pg Taulat,,24.34,median,36.91,check
+0247476AR,Platanus × acerifolia,True,Av Diagonal,,9.62,no_kerb,,check
+0247480AR,Styphnolobium japonicum,False,Av Diagonal,24.21,9.48,ok,,large
+0247483AR,Styphnolobium japonicum,False,Av Diagonal,25.49,9.38,ok,,large
+0247495AR,Tipuana tipu,False,Pg Taulat,,18.23,median,,check
+0247498AR,Platanus × acerifolia,True,Av Diagonal,19.34,6.29,ok,,large
+0247505AR,Ginkgo biloba,False,Pg Taulat,,21.73,median,24.88,check
+0247510AR,Platanus × acerifolia,True,Av Diagonal,,5.56,no_kerb,,check
+0247517AR,Tilia x europaea,False,Av Diagonal,23.48,5.49,ok,,large
+0247518AR,Platanus × acerifolia,True,Av Diagonal,,6.32,no_kerb,,check
+0247525AR,Ulmus pumila,False,Pg Taulat,,29.6,median,34.67,check
+0247527AR,Tipuana tipu,False,Pg Taulat,,25.99,median,,check
+0247534AR,Tipuana tipu,False,Pg Taulat,,24.09,median,,check
+0247535AR,Populus nigra 'Italica',False,Pg Taulat,,24.97,median,,check
+0247536AR,Ulmus pumila,False,Pg Taulat,,26.04,median,34.78,check
+0247543AR,Platanus × acerifolia,True,C\ Pujades,,22.62,no_kerb,29.83,check
+0247548AR,Ulmus pumila,False,Pg Taulat,,29.76,median,,check
+0247550AR,Tipuana tipu,False,Pg Taulat,,24.15,median,,check
+0247552AR,Magnolia grandiflora,False,Av Diagonal,,5.03,no_kerb,,check
+0247558AR,Platanus × acerifolia,True,Av Diagonal,27.96,6.44,ok,,large
+0247559AR,Platanus × acerifolia,True,Av Diagonal,23.44,13.43,ok,,large
+0247562AR,Tilia x europaea,False,Av Diagonal,,5.27,no_kerb,,check
+0247563AR,Tipuana tipu,False,Pg Taulat,,21.45,median,,check
+0247564AR,Populus nigra 'Italica',False,Pg Taulat,,18.53,median,24.77,check
+0247565AR,Gleditsia triacanthos f. inermis,False,Pg Taulat,,19.23,median,24.15,check
+0247572AR,Platanus × acerifolia,True,Av Diagonal,,13.35,no_kerb,,check
+0247576AR,Tipuana tipu,False,Pg Taulat,,15.31,median,,check
+0247577AR,Platanus × acerifolia,True,Av Diagonal,29.24,13.31,ok,,large
+0247579AR,Tipuana tipu,False,Pg Taulat,,25.57,median,27.91,check
+0247580AR,Tipuana tipu,False,Pg Taulat,,18.52,median,,check
+0247581AR,Tipuana tipu,False,Pg Taulat,,20.63,median,,check
+0247585AR,Grevillea robusta,False,Pg Taulat,,15.71,no_kerb,,check
+0247586AR,Ulmus pumila,False,Pg Taulat,,17.4,median,,check
+0247590AR,Tipuana tipu,False,Pg Taulat,,33.66,no_facade,45.42,check
+0247591AR,Magnolia grandiflora 'Gallisoniensis',False,Av Diagonal,24.22,5.54,ok,,large
+0247595AR,Tipuana tipu,False,Pg Taulat,,21.81,median,,check
+0247597AR,Tipuana tipu,False,Pg Taulat,,31.62,no_facade,,check
+0247599AR,Tipuana tipu,False,Pg Taulat,,19.3,median,,check
+0247605AR,Ulmus pumila,False,Pg Taulat,,26.18,median,33.94,check
+0247609AR,Tipuana tipu,False,Pg Taulat,,14.26,median,,check
+0247610AR,Populus nigra 'Italica',False,Pg Taulat,,21.2,median,24.25,check
+0247614AR,Gleditsia triacanthos f. inermis,False,Pg Taulat,,19.77,median,,check
+0247620AR,Ulmus pumila,False,Av Diagonal,26.37,13.74,ok,,large
+0247621AR,Tipuana tipu,False,Pg Taulat,,26.1,median,34.31,check
+0247623AR,Platanus × acerifolia,True,Av Diagonal,,12.16,no_kerb,,check
+0247626AR,Platanus × acerifolia,True,Av Diagonal,20.93,6.35,ok,,large
+0247627AR,Platanus × acerifolia,True,Av Diagonal,,22.11,no_kerb,,check
+0247628AR,Tipuana tipu,False,Pg Taulat,,29.17,median,,check
+0247632AR,Ulmus pumila,False,Pg Taulat,,32.63,no_facade,,check
+0247640AR,Platanus × acerifolia,True,Av Diagonal,,13.27,no_kerb,,check
+0247645AR,Platanus × acerifolia,True,Av Diagonal,20.07,18.99,ok,,large
+0247646AR,Eucalyptus camaldulensis,False,Av Diagonal,,20.31,no_kerb,,check
+0247650AR,Grevillea robusta,False,Pg Taulat,,22.88,no_kerb,,check
+0247652AR,Tipuana tipu,False,Pg Taulat,,26.2,median,,check
+0247655AR,Platanus × acerifolia,True,Av Diagonal,,20.93,no_kerb,,check
+0247657AR,Tipuana tipu,False,Pg Taulat,,31.2,no_facade,,check
+0247660AR,Magnolia grandiflora,False,Av Diagonal,,15.85,no_kerb,,check
+0247661AR,Tipuana tipu,False,Pg Taulat,,18.44,median,,check
+0247663AR,Styphnolobium japonicum,False,Av Diagonal,,9.54,no_kerb,,check
+0247664AR,Koelreuteria paniculata 'Fastigiata',False,Pg Taulat,,26.67,median,37.51,check
+0247668AR,Tipuana tipu,False,Pg Taulat,,15.05,median,,check
+0247672AR,Populus nigra 'Italica',False,Pg Taulat,,28.74,median,,check
+0247675AR,Ulmus pumila,False,Pg Taulat,,19.59,median,,check
+0247679AR,Tipuana tipu,False,Pg Taulat,,21.12,median,,check
+0247680AR,Ulmus pumila,False,Pg Taulat,,18.44,median,,check
+0247692AR,Ulmus pumila,False,Pg Taulat,,21.42,median,,check
+0247703AR,Pyrus calleryana 'Chanticleer',False,Pg Taulat,,20.77,median,24.69,check
+0247705AR,Platanus × acerifolia,True,Av Diagonal,,6.64,no_kerb,,check
+0247707AR,Ulmus pumila,False,Av Diagonal,,19.39,no_kerb,,check
+0247712AR,Tipuana tipu,False,Pg Taulat,,16.25,median,,check
+0247715AR,Tipuana tipu,False,Pg Taulat,,25.86,median,,check
+0247716AR,Platanus × acerifolia,True,Av Diagonal,,13.38,no_kerb,,check
+0247717AR,Platanus × acerifolia,True,Av Diagonal,,20.94,no_kerb,,check
+0247720AR,Platanus × acerifolia,True,Av Diagonal,,13.52,no_kerb,,check
+0247728AR,Pyrus calleryana 'Chanticleer',False,Pg Taulat,,23.03,median,26.84,check
+0247729AR,Tipuana tipu,False,Pg Taulat,,14.41,median,,check
+0247740AR,Tipuana tipu,False,Pg Taulat,,39.6,no_facade,,check
+0247742AR,Styphnolobium japonicum,False,Av Diagonal,24.14,9.54,ok,,large
+0247743AR,Platanus × acerifolia,True,Av Diagonal,,6.45,no_kerb,,check
+0247744AR,Magnolia grandiflora 'Gallisoniensis',False,Av Diagonal,,13.13,no_kerb,,check
+0247745AR,Koelreuteria paniculata,False,Pg Taulat,,20.79,median,27.11,check
+0247750AR,Tipuana tipu,False,Pg Taulat,,14.63,median,,check
+0247754AR,Tipuana tipu,False,Pg Taulat,,26.25,median,,check
+0247755AR,Gleditsia triacanthos f. inermis,False,Pg Taulat,,28.36,median,34.18,check
+0247756AR,Platanus × acerifolia,True,Av Diagonal,,27.69,no_kerb,,check
+0247757AR,Platanus × acerifolia,True,Av Diagonal,,6.22,no_kerb,,check
+0247761AR,Tipuana tipu,False,Pg Taulat,,17.66,median,,check
+0247764AR,Platanus × acerifolia,True,Av Diagonal,20.8,8.5,ok,,large
+0247766AR,Tipuana tipu,False,Pg Taulat,,16.41,median,,check
+0247768AR,Tipuana tipu,False,Pg Taulat,,33.79,no_facade,47.56,check
+0247776AR,Platanus × acerifolia,True,Av Diagonal,,8.35,no_kerb,47.84,check
+0247777AR,Koelreuteria paniculata,False,Pg Taulat,,26.08,median,21.21,check
+0247778AR,Pinus pinea,False,Av Diagonal,,15.0,no_kerb,,check
+0247779AR,Ulmus pumila,False,Pg Taulat,,28.66,median,35.22,check
+0247781AR,Platanus × acerifolia,True,Av Diagonal,,8.25,no_kerb,,check
+0247793AR,Platanus × acerifolia,True,Av Diagonal,26.8,8.19,ok,,large
+0247798AR,Handroanthus heptaphyllus,False,Pg Taulat,,22.66,median,24.09,check
+0247803AR,Styphnolobium japonicum,False,Av Diagonal,,8.47,no_kerb,,check
+0247809AR,Magnolia grandiflora 'Gallisoniensis',False,Av Diagonal,,16.14,no_kerb,,check
+0247811AR,Tipuana tipu,False,Pg Taulat,,28.43,median,46.35,check
+0247818AR,Grevillea robusta,False,Pg Taulat,,17.3,no_kerb,,check
+0247822AR,Platanus × acerifolia,True,Av Diagonal,,12.38,no_kerb,,check
+0247823AR,Ulmus pumila,False,Pg Taulat,,19.44,median,,check
+0247824AR,Gleditsia triacanthos f. inermis,False,Pg Taulat,,22.7,median,22.28,check
+0247825AR,Ulmus pumila,False,Pg Taulat,,36.32,no_facade,,check
+0247830AR,Platanus × acerifolia,True,Av Diagonal,9.87,9.6,ok,,large
+0247833AR,Ulmus pumila,False,Pg Taulat,,22.58,median,,check
+0247835AR,Tipuana tipu,False,Pg Taulat,,28.8,median,36.87,check
+0247836AR,Ulmus pumila,False,Pg Taulat,,19.17,median,,check
+0247839AR,Tipuana tipu,False,Pg Taulat,,30.08,no_facade,,check
+0247841AR,Tipuana tipu,False,Pg Taulat,,31.53,no_facade,35.35,check
+0247843AR,Tipuana tipu,False,Pg Taulat,,31.4,no_facade,,check
+0247845AR,Tipuana tipu,False,Pg Taulat,,18.99,median,31.7,check
+0247846AR,Tipuana tipu,False,Pg Taulat,,29.18,median,,check
+0247854AR,Platanus × acerifolia,True,Av Diagonal,,24.88,no_kerb,,check
+0247860AR,Ulmus pumila,False,Pg Taulat,,25.3,median,33.64,check
+0247863AR,Ulmus pumila,False,Pg Taulat,,29.8,median,33.17,check
+0247865AR,Tipuana tipu,False,Pg Taulat,,21.86,median,,check
+0247873AR,Tilia x europaea,False,Av Diagonal,24.16,5.09,ok,,large
+0247874AR,Tipuana tipu,False,Pg Taulat,,27.66,median,,check
+0247875AR,Tipuana tipu,False,Pg Taulat,,19.3,median,,check
+0247876AR,Tipuana tipu,False,Pg Taulat,,23.64,median,36.5,check
+0247885AR,Ulmus pumila,False,Pg Taulat,,25.38,median,32.85,check
+0247891AR,Ulmus pumila,False,C\ Bac de Roda,,29.73,median,,check
+0247893AR,Populus nigra 'Italica',False,Pg Taulat,,19.11,median,25.15,check
+0247897AR,Magnolia grandiflora,False,Av Diagonal,,5.39,no_kerb,,check
+0247903AR,Magnolia grandiflora,False,Av Diagonal,,4.56,no_kerb,,check
+0247905AR,Ginkgo biloba 'Fastigiata',False,Pg Taulat,,31.25,no_facade,,check
+0247906AR,Tipuana tipu,False,Pg Taulat,,25.68,median,30.49,check
+0247913AR,Tipuana tipu,False,Pg Taulat,,35.4,no_facade,,check
+0247915AR,Tipuana tipu,False,Pg Taulat,,26.0,median,,check
+0247925AR,Tipuana tipu,False,Pg Taulat,,39.77,no_facade,,check
+0247927AR,Styphnolobium japonicum 'Dot',False,Av Diagonal,,12.34,no_kerb,,check
+0247934AR,Tipuana tipu,False,Pg Taulat,,25.27,median,,check
+0247935AR,Grevillea robusta,False,Pg Taulat,,23.72,no_kerb,,check
+0247937AR,Platanus × acerifolia,True,Av Diagonal,,9.93,no_kerb,,check
+0247942AR,Ulmus pumila,False,Av Diagonal,,20.32,no_kerb,,check
+0247944AR,Ulmus pumila,False,Pg Taulat,,25.12,median,35.08,check
+0247948AR,Ulmus pumila,False,Pg Taulat,,27.5,median,36.59,check
+0247950AR,Tipuana tipu,False,Pg Taulat,,24.59,median,,check
+0247966AR,Ulmus pumila,False,Pg Taulat,,19.78,median,,check
+0247970AR,Tipuana tipu,False,Pg Taulat,,15.4,median,,check
+0247976AR,Ginkgo biloba 'Fastigiata',False,Pg Taulat,,31.6,no_facade,,check
+0247989AR,Magnolia grandiflora,False,Av Diagonal,,20.49,no_kerb,,check
+0247990AR,Populus nigra 'Italica',False,Pg Taulat,,19.23,median,27.36,check
+0247991AR,Tipuana tipu,False,Pg Taulat,,30.11,no_facade,,check
+0247994AR,Pyrus calleryana 'Chanticleer',False,Pg Taulat,,25.36,median,24.44,check
+0247997AR,Tipuana tipu,False,Pg Taulat,,27.48,median,,check
+0247998AR,Tipuana tipu,False,Pg Taulat,,31.68,no_facade,,check
+0248000AR,Platanus × acerifolia,True,Av Diagonal,20.07,12.42,ok,,large
+0248002AR,Tipuana tipu,False,Pg Taulat,,27.57,median,34.92,check
+0248004AR,Platanus × acerifolia,True,Av Diagonal,,15.23,no_kerb,,check
+0248006AR,Gleditsia triacanthos f. inermis,False,Pg Taulat,,23.65,median,,check
+0248011AR,Tipuana tipu,False,Pg Taulat,,33.27,no_facade,,check
+0248020AR,Tipuana tipu,False,Pg Taulat,,20.72,median,32.72,check
+0248021AR,Tipuana tipu,False,Pg Taulat,,20.58,median,,check
+0248022AR,Tipuana tipu,False,Pg Taulat,,30.94,no_facade,,check
+0248024AR,Tipuana tipu,False,Pg Taulat,,16.46,median,,check
+0248027AR,Ulmus pumila,False,Pg Taulat,,22.13,median,,check
+0248034AR,Handroanthus heptaphyllus,False,Pg Taulat,,27.92,median,,check
+0248036AR,Tipuana tipu,False,Pg Taulat,,22.87,median,,check
+0248037AR,Ginkgo biloba 'Fastigiata',False,Pg Taulat,,28.1,median,47.2,check
+0248046AR,Tipuana tipu,False,Pg Taulat,,37.47,no_facade,,check
+0248054AR,Platanus × acerifolia,True,Av Diagonal,,9.72,no_kerb,,check
+0248059AR,Tipuana tipu,False,Pg Taulat,,34.65,no_facade,35.97,check
+0248061AR,Ulmus pumila,False,Pg Taulat,,22.57,median,33.23,check
+0248062AR,Quercus ilex,False,Av Diagonal,,26.35,no_kerb,,check
+0248063AR,Platanus × acerifolia,True,Av Diagonal,,9.7,no_kerb,,check
+0248064AR,Tilia x europaea,False,Av Diagonal,,4.94,no_kerb,,check
+0248072AR,Tipuana tipu,False,Pg Taulat,,24.38,median,,check
+0248075AR,Tipuana tipu,False,Pg Taulat,,28.37,median,44.97,check
+0248077AR,Tipuana tipu,False,Pg Taulat,,31.38,no_facade,47.37,check
+0248080AR,Ulmus pumila,False,Pg Taulat,,23.46,median,33.01,check
+0248082AR,Platanus × acerifolia,True,Av Diagonal,,18.87,no_kerb,,check
+0248085AR,Tipuana tipu,False,Pg Taulat,,26.02,median,,check
+0248087AR,Ulmus pumila,False,Pg Taulat,,34.17,no_facade,,check
+0248088AR,Tipuana tipu,False,Pg Taulat,,26.12,median,,check
+0248093AR,Ulmus pumila,False,Av Diagonal,,15.77,no_kerb,,check
+0248098AR,Tipuana tipu,False,Pg Taulat,,28.1,median,43.34,check
+0248100AR,Platanus × acerifolia,True,Av Diagonal,21.91,11.95,ok,,large
+0248102AR,Ulmus pumila,False,Pg Taulat,,19.91,median,,check
+0248103AR,Platanus × acerifolia,True,Av Diagonal,,21.05,no_kerb,,check
+0248108AR,Platanus × acerifolia,True,Av Diagonal,,18.26,no_kerb,,check
+0248117AR,Ulmus pumila,False,C\ Bac de Roda,,27.25,median,,check
+0248119AR,Ulmus pumila,False,Pg Taulat,,23.64,median,,check
+0248121AR,Platanus × acerifolia,True,Av Diagonal,19.36,5.41,ok,,large
+0248134AR,Tipuana tipu,False,Pg Taulat,,20.0,median,,check
+0248139AR,Tipuana tipu,False,Pg Taulat,,18.71,median,25.88,check
+0248140AR,Koelreuteria paniculata 'Fastigiata',False,Pg Taulat,,18.51,median,25.06,check
+0248141AR,Tipuana tipu,False,Pg Taulat,,13.95,median,,check
+0248143AR,Ulmus pumila,False,Pg Taulat,,27.5,median,43.25,check
+0248145AR,Populus nigra 'Italica',False,Pg Taulat,,21.65,median,21.31,check
+0248147AR,Tipuana tipu,False,Pg Taulat,,16.45,median,32.32,check
+0248149AR,Handroanthus heptaphyllus,False,Pg Taulat,,18.94,median,23.67,check
+0248154AR,Morus alba 'Fastigiata',False,Av Diagonal,,20.79,no_kerb,,check
+0248162AR,Tipuana tipu,False,Pg Taulat,,25.72,median,43.16,check
+0248168AR,Gleditsia triacanthos f. inermis,False,Pg Taulat,,20.56,median,26.86,check
+0248170AR,Platanus × acerifolia,True,Av Diagonal,17.49,13.38,ok,,large
+0248176AR,Tipuana tipu,False,Pg Taulat,,13.91,median,,check
+0248177AR,Tipuana tipu,False,Pg Taulat,,35.59,no_facade,,check
+0248179AR,Ulmus pumila,False,Pg Taulat,,22.54,median,34.68,check
+0248183AR,Tipuana tipu,False,Pg Taulat,,28.39,median,35.17,check
+0248192AR,Platanus × acerifolia,True,Av Diagonal,29.13,8.2,ok,,large
+0248197AR,Tipuana tipu,False,Pg Taulat,,30.64,no_facade,40.83,check
+0248198AR,Ulmus pumila,False,Pg Taulat,,31.83,no_facade,36.5,check
+0248202AR,Populus nigra 'Italica',False,Pg Taulat,,20.7,median,23.95,check
+0248206AR,Ginkgo biloba,False,Pg Taulat,,21.9,median,25.07,check
+0248210AR,Ginkgo biloba 'Fastigiata',False,Pg Taulat,,25.05,median,,check
+0248216AR,Tipuana tipu,False,Pg Taulat,,31.47,no_facade,,check
+0248219AR,Tipuana tipu,False,Pg Taulat,,21.65,median,,check
+0248220AR,Tipuana tipu,False,Pg Taulat,,21.96,median,,check
+0248224AR,Platanus × acerifolia,True,Av Diagonal,16.21,6.07,ok,,large
+0248226AR,Tipuana tipu,False,Pg Taulat,,25.83,median,,check
+0248227AR,Pyrus calleryana 'Chanticleer',False,Pg Taulat,,23.13,median,34.72,check
+0248229AR,Platanus × acerifolia,True,Av Diagonal,,12.36,no_kerb,,check
+0248232AR,Platanus × acerifolia,True,Av Diagonal,20.07,6.28,ok,,large
+0248238AR,Koelreuteria paniculata 'Fastigiata',False,Pg Taulat,,19.02,median,26.16,check
+0248240AR,Platanus × acerifolia,True,Av Diagonal,,12.38,no_kerb,,check
+0248242AR,Platanus × acerifolia,True,Av Diagonal,19.32,18.12,ok,,large
+0248243AR,Ulmus pumila,False,Pg Taulat,,27.01,median,35.52,check
+0248246AR,Ulmus pumila,False,Pg Taulat,,14.55,median,,check
+0248252AR,Tipuana tipu,False,Pg Taulat,,19.12,median,,check
+0248254AR,Populus nigra 'Italica',False,Pg Taulat,,20.83,median,26.88,check
+0248263AR,Magnolia grandiflora 'Gallisoniensis',False,Av Diagonal,,8.38,no_kerb,,check
+0248266AR,Tipuana tipu,False,Pg Taulat,,31.94,no_facade,,check
+0248268AR,Ulmus pumila,False,Pg Taulat,,23.3,median,21.98,check
+0248269AR,Ulmus pumila,False,Pg Taulat,,21.77,median,,check
+0248271AR,Grevillea robusta,False,Pg Taulat,,24.92,no_kerb,,check
+0248273AR,Grevillea robusta,False,Pg Taulat,,15.98,no_kerb,,check
+0248274AR,Tipuana tipu,False,Pg Taulat,,19.74,median,,check
+0248275AR,Tipuana tipu,False,Pg Taulat,,30.37,no_facade,,check
+0248276AR,Koelreuteria paniculata 'Fastigiata',False,Pg Taulat,,20.78,median,24.36,check
+0248280AR,Tipuana tipu,False,Pg Taulat,,23.13,median,,check
+0248286AR,Platanus × acerifolia,True,Av Diagonal,20.78,13.59,ok,,large
+0248288AR,Tipuana tipu,False,Pg Taulat,,29.32,median,,check
+0248289AR,Ulmus pumila,False,Pg Taulat,,18.33,median,,check
+0248290AR,Platanus × acerifolia,True,Av Diagonal,24.94,6.22,ok,,large
+0248291AR,Robinia pseudoacacia,False,C\ Ramon Turró,10.69,3.7,ok,,large
+0248295AR,Tipuana tipu,False,Pg Taulat,,27.2,median,31.64,check
+0248300AR,Tipuana tipu,False,Pg Taulat,,26.5,median,,check
+0248311AR,Ulmus pumila,False,Av Diagonal,,21.5,no_kerb,,check
+0248313AR,Platanus × acerifolia,True,Av Diagonal,,6.51,no_kerb,,check
+0248314AR,Tipuana tipu,False,Pg Taulat,,31.11,no_facade,,check
+0248320AR,Koelreuteria paniculata 'Fastigiata',False,Pg Taulat,,19.2,median,32.34,check
+0248321AR,Tipuana tipu,False,Pg Taulat,,24.88,median,,check
+0248328AR,Tipuana tipu,False,Pg Taulat,,36.26,no_facade,,check
+0248329AR,Ulmus pumila,False,Pg Taulat,,24.51,median,31.88,check
+0248331AR,Tipuana tipu,False,Pg Taulat,,18.15,median,,check
+0248340AR,Ginkgo biloba 'Fastigiata',False,Pg Taulat,,25.27,median,,check
+0248342AR,Platanus × acerifolia,True,Av Diagonal,19.34,18.31,ok,,large
+0248345AR,Styphnolobium japonicum,False,Av Diagonal,22.96,9.48,ok,,large
+0248348AR,Tipuana tipu,False,Pg Taulat,,17.41,median,,check
+0248349AR,Pyrus calleryana 'Chanticleer',False,Pg Taulat,,20.86,median,30.02,check
+0286720AR,Grevillea robusta,False,C\ Jonquera,8.84,7.88,ok,,large
+0289064AR,X chitalpa tashkentensis 'minsum' SUMMER BELLS®,False,C\ Agricultura,19.39,16.44,ok,,large
+0289065AR,X chitalpa tashkentensis 'minsum' SUMMER BELLS®,False,C\ Agricultura,19.43,16.55,ok,,large
+0289066AR,X chitalpa tashkentensis 'minsum' SUMMER BELLS®,False,C\ Agricultura,19.37,16.44,ok,,large
+0289067AR,X chitalpa tashkentensis 'minsum' SUMMER BELLS®,False,C\ Agricultura,,16.57,no_kerb,,check
+0289068AR,X chitalpa tashkentensis 'minsum' SUMMER BELLS®,False,C\ Agricultura,23.26,16.74,ok,,large
+0291171AR,Koelreuteria paniculata 'Fastigiata',False,C\ Jonquera,,22.3,median,12.52,check
+0291173AR,Koelreuteria paniculata,False,Pg Taulat,,24.12,median,12.59,check
+0291174AR,Gleditsia triacanthos f. inermis,False,Pg Taulat,,27.59,median,12.76,check
+0291175AR,Koelreuteria paniculata,False,Pg Taulat,,19.0,median,,check
+0292093AR,Platanus × acerifolia,True,C\ Selva de Mar,8.72,3.29,ok,,large
+0292094AR,Platanus × acerifolia,True,C\ Selva de Mar,8.68,3.32,ok,,large
+0292095AR,Platanus × acerifolia,True,C\ Selva de Mar,8.66,3.2,ok,,large
+0292096AR,Platanus × acerifolia,True,C\ Selva de Mar,,17.25,no_kerb,,check
+0292097AR,Platanus × acerifolia,True,C\ Selva de Mar,25.21,19.15,ok,,large
+0292421AR,Platanus × acerifolia,True,C\ Pallars,4.86,3.82,ok,,medium
+0292422AR,Platanus × acerifolia,True,C\ Pallars,4.85,3.69,ok,,medium
+0292423AR,Platanus × acerifolia,True,C\ Pallars,,16.15,median,24.87,check
+0292425AR,Platanus × acerifolia,True,C\ Pallars,14.53,12.14,ok,,large
+0292429AR,Styphnolobium japonicum,False,C\ Pallars,7.36,4.85,ok,,large
+0292522AR,Celtis australis,False,C\ Fluvià,4.94,4.41,ok,,medium
+0292523AR,Platanus × acerifolia,True,C\ Bac de Roda,2.85,2.68,ok,,small
+0292972AR,Ulmus pumila,False,C\ Agricultura,,3.6,median,8.03,check
+0292973AR,Grevillea robusta,False,C\ Agricultura,5.07,3.12,ok,,medium
+0292974AR,Grevillea robusta,False,C\ Agricultura,,3.91,no_kerb,,check
+0292975AR,Ulmus pumila,False,C\ Agricultura,,4.85,no_kerb,,check
+0292976AR,Ulmus pumila,False,C\ Agricultura,,5.95,no_kerb,,check
+0292977AR,Ulmus pumila,False,C\ Agricultura,,6.66,no_kerb,,check
+0292978AR,Pinus pinea,False,C\ Agricultura,,10.81,no_kerb,,check
+0292979AR,Pinus pinea,False,C\ Agricultura,,6.85,no_kerb,,check
+0292980AR,Pinus pinea,False,C\ Agricultura,,10.43,no_kerb,,check
+0292981AR,Prunus cerasifera 'Pissardii',False,C\ Agricultura,,10.65,no_kerb,,check
+0292982AR,Prunus cerasifera 'Pissardii',False,C\ Agricultura,,10.48,no_kerb,,check
+0292983AR,Jacaranda mimosifolia,False,C\ Pallars,5.05,1.51,ok,,medium
+0292985AR,Grevillea robusta,False,C\ Pallars,9.71,7.18,ok,,large
+0292986AR,Grevillea robusta,False,C\ Pallars,9.68,4.82,ok,,large
+0292987AR,Prunus cerasifera 'Pissardii',False,C\ Pallars,9.64,8.74,ok,,large
+0292988AR,Grevillea robusta,False,C\ Pallars,9.65,5.54,ok,,large
+0292989AR,Pinus pinea,False,C\ Pallars,9.6,10.45,ok,,large
+0292990AR,Pinus pinea,False,C\ Pallars,9.59,6.57,ok,,large
+0292991AR,Grevillea robusta,False,C\ Pallars,9.57,3.73,ok,,large
+0292992AR,Grevillea robusta,False,C\ Pallars,9.83,5.43,ok,,large
+0292993AR,Robinia pseudoacacia,False,C\ Pallars,10.76,5.25,ok,,large
+0294212AR,Ginkgo biloba 'Fastigiata',False,C\ Fluvià,26.17,8.77,ok,,large
+0302126AR,Populus nigra 'Italica',False,Pg Taulat,,26.87,median,15.65,check
+0302128AR,Tipuana tipu,False,Pg Taulat,6.04,4.79,ok,,large
+0302176AR,X chitalpa tashkentensis 'minsum' SUMMER BELLS®,False,C\ Perelló,3.03,2.86,ok,,small
+0302177AR,X chitalpa tashkentensis 'minsum' SUMMER BELLS®,False,C\ Perelló,7.01,6.83,ok,,large
+0302178AR,X chitalpa tashkentensis 'minsum' SUMMER BELLS®,False,C\ Perelló,4.86,4.89,ok,,medium
+0302179AR,X chitalpa tashkentensis 'minsum' SUMMER BELLS®,False,C\ Perelló,3.02,3.13,ok,,small
+0302180AR,X chitalpa tashkentensis 'minsum' SUMMER BELLS®,False,C\ Perelló,3.26,3.47,ok,,small
+0302181AR,X chitalpa tashkentensis 'minsum' SUMMER BELLS®,False,C\ Perelló,8.43,9.25,ok,,large
+0302183AR,X chitalpa tashkentensis 'minsum' SUMMER BELLS®,False,C\ Perelló,3.02,3.48,ok,,small
+0302230AR,Ulmus pumila,False,Pg Taulat,,28.94,median,,check
+0302231AR,Ulmus pumila,False,Pg Taulat,,25.52,median,,check
+0302232AR,Tipuana tipu,False,C\ Selva de Mar,,29.93,median,,check
+0302397AR,Grevillea robusta,False,C\ Agricultura,5.07,3.11,ok,,medium
+0305443AR,Celtis australis,False,C\ Fluvià,4.28,1.64,ok,,medium
+0305444AR,Platanus × acerifolia,True,C\ Selva de Mar,8.72,8.03,ok,,large
+0305445AR,Tipuana tipu,False,Pg Taulat,26.12,12.6,ok,,large
+0305446AR,Tipuana tipu,False,Pg Taulat,,10.97,no_kerb,,check
+0305447AR,Tipuana tipu,False,Pg Taulat,,14.8,no_kerb,,check
+0305448AR,Tipuana tipu,False,Pg Taulat,,10.17,no_kerb,,check
+0305449AR,Tipuana tipu,False,Pg Taulat,,16.38,no_kerb,,check
+0305450AR,Tipuana tipu,False,Pg Taulat,25.34,17.6,ok,,large
+0305451AR,Platanus × acerifolia,True,C\ Selva de Mar,,28.86,median,,check
+0305452AR,Platanus × acerifolia,True,C\ Selva de Mar,,28.12,median,,check
+0305453AR,Gleditsia triacanthos,False,C\ Pujades,,17.17,median,,check
+0305454AR,Gleditsia triacanthos,False,C\ Pujades,,17.04,median,9.93,check
+0305455AR,Gleditsia triacanthos 'sunburst',False,C\ Pujades,,22.58,median,,check
+0305460AR,Gleditsia triacanthos,False,C\ Pujades,,16.51,median,10.01,check
+0305461AR,Platanus × acerifolia,True,C\ Pallars,14.93,12.08,ok,,large
+0305462AR,Platanus × acerifolia,True,C\ Pallars,4.61,4.34,ok,,medium
+0308522AR,Ginkgo biloba 'Fastigiata',False,C\ Fluvià,18.66,5.66,ok,,large
+0311213AR,Populus alba 'Pyramidalis',False,C\ Selva de Mar,,29.15,no_kerb,,check
+0311284AR,Platanus orientalis,True,C\ Selva de Mar,9.63,9.32,ok,,large
+0311290AR,Celtis australis,False,C\ Ramon Turró,5.05,3.6,ok,,medium
+0311408AR,Pinus pinea,False,C\ Agricultura,,21.95,median,,check
+0311409AR,Populus nigra,False,C\ Agricultura,,21.63,median,31.06,check
+0312377AR,Ulmus pumila,False,C\ Llull,,67.66,no_facade,,check
+0312378AR,Ulmus pumila,False,C\ Llull,,55.78,no_facade,6.02,check
+0312380AR,Ulmus pumila,False,C\ Llull,,24.47,median,7.22,check
+0312382AR,Jacaranda mimosifolia,False,C\ Llull,,25.82,median,,check
+0312540AR,Tamarix gallica,False,Pg Garcia Fària,,51.76,no_facade,,check
+0319307AR,Tamarix gallica,False,Pg Marítim de la Mar Bella,,131.11,no_facade,3.14,check
+0319308AR,Tamarix gallica,False,Pg Marítim de la Mar Bella,,134.54,no_facade,3.36,check
+0319309AR,Tamarix gallica,False,Pg Marítim de la Mar Bella,,138.75,no_facade,3.58,check
+0319310AR,Tamarix gallica,False,Pg Marítim de la Mar Bella,,141.71,no_facade,3.75,check
+0319311AR,Tamarix gallica,False,Pg Marítim de la Mar Bella,,145.77,no_facade,3.97,check
+0319312AR,Tamarix gallica,False,Pg Marítim de la Mar Bella,,148.83,no_facade,4.15,check
+0319313AR,Tamarix gallica,False,Pg Marítim de la Mar Bella,,153.13,no_facade,8.43,check
+0321783AR,Platanus × acerifolia,True,C\ Selva de Mar,,47.43,no_facade,,check
+0333631AR,Celtis australis,False,C\ Selva de Mar,,49.38,no_facade,29.26,check
+0335669AR,Celtis australis,False,C\ Selva de Mar,,30.27,no_facade,23.84,check
+0339211AR,Platanus × acerifolia,True,C\ Bac de Roda,2.91,1.61,ok,,small
+0339712AR,Acacia saligna,False,Pg Garcia Fària,,100.96,no_facade,31.37,check
+0343438AR,X chitalpa tashkentensis 'minsum' SUMMER BELLS®,False,Pl Rafael Campalans,4.16,4.07,ok,,medium
+0345996AR,Platanus × acerifolia,True,Av Diagonal,,35.17,no_facade,16.2,check
+0346231AR,Ulmus pumila,False,C\ Agricultura,,6.25,no_kerb,,check
+0346232AR,Ulmus pumila,False,C\ Agricultura,,8.76,no_kerb,,check
+0346233AR,Grevillea robusta,False,Av Diagonal,9.62,5.01,ok,,large
+0346252AR,Styphnolobium japonicum 'Dot',False,C\ Agricultura,,9.24,no_kerb,,check
+0346253AR,Platanus × acerifolia,True,Av Diagonal,5.03,4.95,ok,,medium
+0346322AR,Platanus × acerifolia,True,C\ Selva de Mar,9.52,9.36,ok,,large
+0346327AR,Fraxinus angustifolia,False,Pg Taulat,,70.41,no_facade,,check
+0346491AR,Washingtonia filifera,False,Pg Garcia Fària,,27.1,median,,check
+0346713AR,Celtis sinensis,False,C\ Bac de Roda,5.03,4.4,ok,,medium
+0346878AR,Koelreuteria paniculata,False,C\ Jonquera,,24.32,median,12.7,check
+0346879AR,Pyrus calleryana 'Chanticleer',False,Pg Taulat,,19.12,median,15.26,check
