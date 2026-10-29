@@ -138,7 +138,9 @@ def _build(site, buf, bld, ndvi_of, lidar, trees):
     ndvi[(ndvi < -1) | (ndvi > 1)] = np.nan
     chm = grid(f"{lidar}_chm_05m.tif")
     try:
-        green = osm(site.to_crs(4326).iloc[0].geometry, {"leisure": ["park", "garden"], "landuse": ["grass"]}, tries=3)
+        local = RAW / "osm/green.gpkg"                    # scripts/osm_buildings.py (BBBike extract), no Overpass needed
+        green = gpd.read_file(local, mask=site.geometry.iloc[0]) if local.exists() else \
+            osm(site.to_crs(4326).iloc[0].geometry, {"leisure": ["park", "garden"], "landuse": ["grass"]}, tries=3)
         green = green[green.geom_type.isin(["Polygon", "MultiPolygon"])].to_crs(25831)
         osm_green = rasterize(((g, 1) for g in green.geometry), out_shape=(H, W), transform=T, fill=0).astype(bool)
     except Exception as e:                               # pervious ground then comes from NDVI alone

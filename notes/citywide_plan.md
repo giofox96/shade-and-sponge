@@ -176,7 +176,7 @@ The first night, four barris got zero inventory trees: their names carry an apos
 | Sant Martí de Provençals | 33.8% | Platanus 46.7% | 70.2 / 71.6 / 78.4% | +6.8 | 100.7 / 118.4% | +1.7 / +1.5% | LiDAR |
 | el Besòs i el Maresme | 25.5% | Platanus 40.0% | 71.1 / 77.3 / 82.6% | +5.3 | 103.0 / 110.1% | +1.3 / +1.3% | LiDAR |
 | el Camp de l'Arpa del Clot | 20.2% | Celtis 42.6% | 77.2 / 79.0 / 81.2% | +2.2 | 95.7 / 96.5% | +0.8 / +0.8% | LiDAR |
-| el Clot | 24.6% | Platanus 35.9% | 67.3 / 70.6 / 76.7% | +6.1 | 95.5 / 101.5% | +1.3 / +1.2% | LiDAR |
+| el Clot | 24.0% | Platanus 35.9% | 67.1 / 70.6 / 76.5% | +5.9 | 95.6 / 101.5% | +1.3 / +1.2% | OSM (rerun) |
 | el Parc i la Llacuna del Poblenou | 21.3% | Platanus 48.2% | 62.3 / 72.2 / 78.4% | +6.2 | 89.0 / 92.7% | +1.3 / +1.2% | LiDAR |
 | el Poblenou | 23.8% | Platanus 53.0% | 60.2 / 65.2 / 75.3% | +10.1 | 96.6 / 115.9% | +1.5 / +1.3% | LiDAR |
 | la Verneda i la Pau | 29.9% | Platanus 44.5% | 72.8 / 72.0 / 82.2% | +10.2 | 101.9 / 126.0% | +0.8 / +0.7% | LiDAR |
@@ -189,6 +189,6 @@ Reading (the 16 new barris, Porta excluded):
 - The tool buys its summer shade partly with winter shade (median 103.6% of today against 95.6% for the city's mix; up to 126% in la Verneda). This is the known cost of the weighted-sum sweep picking its summer-best layout.
 
 Caveats:
-- **Buildings come from two sources.** Overpass was overloaded on most of the night, so 11 barris use footprints traced from the LiDAR building class (`source = "lidar"`): city blocks merge into one polygon with the median roof height. Five use OSM. The median tool margin is 5.7 points with LiDAR footprints and 8.4 with OSM, so the source may matter; the LiDAR ones should be rerun with OSM before the numbers are quoted.
+- **Buildings come from two sources.** Overpass was overloaded on most of the night, so 11 barris first used footprints traced from the LiDAR building class (`source = "lidar"`, city blocks merge into one polygon) and five used OSM; el Clot was then rerun with OSM (below), so ten keep LiDAR footprints. Shadows do not depend on this: the heat proxy always casts them from the LiDAR building-height raster (`bldg_h`). The footprints only set the roof mask (runoff CN), which cells count as pedestrian ground, and which canopy is background. The median tool margin is 5.7 points with LiDAR footprints and 8.4 with OSM, but the groups are confounded with the district (five of the six OSM barris are in Eixample), so this is not evidence that the source matters. **Test (29 Oct): el Clot rerun with OSM footprints** (1,350 from the local BBBike extract, `scripts/osm_buildings.py`, against 646 LiDAR polygons): tool 76.7% → 76.5%, city mix 70.6% → 70.6%, margin 6.1 → 5.9 points, canopy S0 24.6% → 24.0%, hot runoff unchanged. The source moves the results by 0.2 points at most, so the other ten barris keep their LiDAR footprints. Overpass did not answer from the PC all day; buildings and green areas now come from the local extract (`raw/osm/{buildings,green}.gpkg`).
 - Sidewalk widths: 14–54% of the trees per barri are unmeasured (`check`, no size filter), highest in el Besòs i el Maresme (54%) and Diagonal Mar (50%).
 - As in §6.6: trunk sizes fall back to Porta's medians for species with few local trees; the runoff calibration is Porta's; the cap is still per barri.

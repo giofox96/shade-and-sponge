@@ -6,9 +6,10 @@ stopped and restarted; a failed step is logged and the batch moves on. Each step
 Usage (PC, project env):  python scripts/run_barris.py                       # Eixample + Sant Martí (default)
                           python scripts/run_barris.py "Gràcia" "Sant Andreu"  # districts or barri names
                           python scripts/run_barris.py --summary               # only rebuild the summary table
+                          python scripts/run_barris.py --osm                   # redo buildings + tool where footprints are LiDAR
 Outputs: databases/barcelona/barris/run_log.csv, databases/barcelona/barris_summary.csv (one row per barri, shares of
 today's S0: S1 random and S1a city mix = mean of 10 seeds, tool = the optimised layout with the most summer shade)."""
-import sys, time, subprocess, pathlib, pandas as pd
+import re, sys, time, subprocess, pathlib, pandas as pd
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 
@@ -26,6 +27,26 @@ def steps(name, s):
     return [("lidar", d / "buildings.geojson", ["scripts/bcn_lidar_barri.py", name]),
             ("sidewalks", d / "sidewalk_width.csv", ["scripts/porta_sidewalk_width.py", name]),
             ("tool", summary_file(s), ["-m", "shade_sponge", name, "--size=exact", "--trunk=TERCERA"])]
+
+
+def redo_osm(barris, log):
+    """Barris whose buildings came from the LiDAR fallback (Overpass busy): fetch OSM footprints again and, if that
+    works, rebuild the site cache and rerun the tool. Barris where Overpass still fails keep their LiDAR footprints."""
+    for name, s in barris:
+        f = DB / "barris" / s / "buildings.geojson"
+        if not f.exists() or not re.search(r'"source": ?"lidar"', f.read_text(encoding="utf-8")[:2000]):
+            continue
+        for step, cmd in (("buildings_osm", ["scripts/bcn_lidar_barri.py", name, "--osm-only"]), ("tool", steps(name, s)[2][2])):
+            t = time.time()
+            print(f"\n=== {name}: {step} ===", flush=True)
+            if step == "tool":
+                (ROOT / f"cache/site_{s}.npz").unlink(missing_ok=True)
+            r = subprocess.run([sys.executable, *cmd], cwd=ROOT)
+            status = "ok" if r.returncode == 0 else f"failed ({r.returncode})"
+            pd.DataFrame([dict(barri=name, step=step, status=status, minutes=round((time.time() - t) / 60, 1),
+                               when=time.strftime("%Y-%m-%d %H:%M"))]).to_csv(log, mode="a", header=not log.exists(), index=False)
+            if status != "ok":
+                break
 
 
 def summarise(barris):
@@ -56,8 +77,10 @@ if __name__ == "__main__":
     idx = pd.read_csv(DB / "lidar_tiles_barris.csv").drop_duplicates("barri")
     sel = idx[idx.district.isin(args) | idx.barri.isin(args)]
     barris = [("Porta", "porta")] + list(zip(sel.barri, sel.slug))
-    if "--summary" not in sys.argv:
-        log = DB / "barris" / "run_log.csv"
+    log = DB / "barris" / "run_log.csv"
+    if "--osm" in sys.argv:
+        redo_osm(barris[1:], log)
+    elif "--summary" not in sys.argv:
         for name, s in barris[1:]:
             for step, done, cmd in steps(name, s):
                 if done.exists():
