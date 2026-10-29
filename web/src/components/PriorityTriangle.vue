@@ -2,7 +2,7 @@
 // Priority triangle: each point is a weight set (summer shade, winter sun, runoff) that sums to 1.
 // Dots = precomputed optimised layouts (exact scores); click anywhere else = live re-optimisation (estimate).
 import { computed, ref } from 'vue'
-import { state, runLive, runArea, LIVE } from '../store.js'
+import { state, runLive, runArea, LIVE, AREA } from '../store.js'
 
 const V = { s: [120, 18], w: [16, 186], r: [224, 186] } // summer top, winter bottom-left, runoff bottom-right
 const xy = ([s, w, r]) => [s * V.s[0] + w * V.w[0] + r * V.r[0], s * V.s[1] + w * V.w[1] + r * V.r[1]]
@@ -13,7 +13,11 @@ const points = computed(() =>
     .filter((s) => s.weights && s.in_layouts)
     .map((s) => ({ id: s.id, w: s.weights, p: xy(s.weights), pareto: s.pareto })),
 )
-const live = computed(() => (state.live ? xy(state.live.weights) : null))
+// the selected dot: the layout on screen, or the weights a project area was optimised with
+const isOn = (pt) => state.scenarioId === pt.id || (state.scenarioId === AREA && state.area?.weights?.every((v, k) => Math.abs(v - pt.w[k]) < 1e-6))
+// the live estimate (or the project area's weights when they match no dot) as a triangle marker
+const liveW = computed(() => (state.scenarioId === AREA && state.area?.weights ? (points.value.some(isOn) ? null : state.area.weights) : state.live?.weights))
+const live = computed(() => (liveW.value ? xy(liveW.value) : null))
 
 function weightsAt(evt) {
   const pt = svg.value.createSVGPoint()
@@ -42,13 +46,13 @@ function weightsAt(evt) {
     <g v-for="pt in points" :key="pt.id" class="pt" @click.stop="state.area ? runArea(pt.w) : (state.scenarioId = pt.id)">
       <title>summer {{ pt.w[0] }} · winter {{ pt.w[1] }} · runoff {{ pt.w[2] }} (exact)</title>
       <circle :cx="pt.p[0]" :cy="pt.p[1]" r="9" class="hit" />
-      <circle :cx="pt.p[0]" :cy="pt.p[1]" :r="state.scenarioId === pt.id ? 7 : 4.5"
-              :class="{ on: state.scenarioId === pt.id, front: pt.pareto }" />
+      <circle :cx="pt.p[0]" :cy="pt.p[1]" :r="isOn(pt) ? 7 : 4.5"
+              :class="{ on: isOn(pt), front: pt.pareto }" />
     </g>
-    <g v-if="live" class="live" @click.stop="state.scenarioId = LIVE">
-      <title>live estimate: summer {{ state.live.weights[0] }} · winter {{ state.live.weights[1] }} · runoff {{ state.live.weights[2] }}</title>
+    <g v-if="live" class="live" @click.stop="state.scenarioId = state.area ? AREA : LIVE">
+      <title>live estimate: summer {{ liveW[0] }} · winter {{ liveW[1] }} · runoff {{ liveW[2] }}</title>
       <polygon :points="`${live[0]},${live[1] - 8} ${live[0] - 7},${live[1] + 5} ${live[0] + 7},${live[1] + 5}`"
-               :class="{ on: state.scenarioId === LIVE }" />
+               :class="{ on: state.scenarioId === LIVE || state.scenarioId === AREA }" />
     </g>
   </svg>
 </template>
@@ -61,8 +65,8 @@ text { font-size: 11px; fill: var(--muted); pointer-events: none; }
 .hit { fill: transparent; }
 .pt circle:not(.hit) { fill: var(--line); stroke: var(--bg); stroke-width: 1.5; }
 .pt circle.front { fill: var(--accent); fill-opacity: 0.55; }
-.pt circle.on { fill: var(--accent); }
+.pt circle.on { fill: var(--accent); fill-opacity: 1; stroke: var(--text); stroke-width: 2; }
 .pt:hover circle:not(.hit) { fill: var(--accent); }
 .live polygon { fill: var(--warn); fill-opacity: 0.6; stroke: var(--warn); stroke-width: 1; cursor: pointer; }
-.live polygon.on { fill-opacity: 1; }
+.live polygon.on { fill-opacity: 1; stroke: var(--text); stroke-width: 1.5; }
 </style>
