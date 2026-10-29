@@ -104,6 +104,8 @@ function crowns() {
   ]
 }
 
+const ON_TOP = { depthCompare: 'always', depthWriteEnabled: false }
+
 function layers() {
   if (!state.meta) return []
   const ov = state.meta.overlays.find((o) => o.id === state.overlay)
@@ -120,6 +122,9 @@ function layers() {
       getLineColor: themeColors.value.buildingLine,
       updateTriggers: { getFillColor: isDark.value, getLineColor: isDark.value },
       lineWidthMinPixels: 0,
+      opacity: state.buildingOpacity,
+      // see-through buildings must not hide the crowns behind them
+      parameters: { depthWriteEnabled: state.buildingOpacity >= 1 },
     }),
     state.showStreets &&
       new GeoJsonLayer({ id: 'sidewalks', data: dataUrl('sidewalks.geojson'), stroked: true, filled: false,
@@ -137,14 +142,19 @@ function layers() {
           if (state.addMode) addTreeAt(state.trees.spots.lon[object], state.trees.spots.lat[object])
         } }),
     state.area &&
-      new PolygonLayer({ id: 'area', data: [state.area.poly], getPolygon: (d) => d, stroked: true, filled: true,
-        getFillColor: [...themeColors.value.area, 30], getLineColor: [...themeColors.value.area, 230], lineWidthMinPixels: 2 }),
+      new PolygonLayer({ id: 'area', data: [state.area.poly], getPolygon: (d) => d, stroked: false, filled: true,
+        getFillColor: [...themeColors.value.area, 30] }),
+    ...crowns(),
+    // the project-area outline and the corners being drawn go over buildings and crowns (no depth test)
+    state.area &&
+      new PathLayer({ id: 'area-line', data: [[...state.area.poly, state.area.poly[0]]], getPath: (d) => d, parameters: ON_TOP,
+        getColor: [...themeColors.value.area, 240], widthMinPixels: 2.5 }),
     state.drawing && state.draft.length > 1 &&
-      new PathLayer({ id: 'draft-path', data: [state.draft], getPath: (d) => d, getColor: themeColors.value.draft, widthMinPixels: 2 }),
+      new PathLayer({ id: 'draft-path', data: [state.draft], getPath: (d) => d, getColor: themeColors.value.draft, widthMinPixels: 2.5,
+        parameters: ON_TOP }),
     state.drawing &&
       new ScatterplotLayer({ id: 'draft-pts', data: [...state.draft], getPosition: (d) => d, getRadius: 4, radiusUnits: 'pixels',
-        getFillColor: themeColors.value.draft }),
-    ...crowns(),
+        getFillColor: themeColors.value.draft, parameters: ON_TOP }),
   ].filter(Boolean)
 }
 
@@ -182,7 +192,7 @@ onMounted(() => {
 
 watch(
   () => [state.scenarioId, state.live?.version, state.area?.version, state.area, state.drawing, state.draft, state.overlay, state.showStreets, isDark.value,
-    state.month, state.selected, state.addedVersion],
+    state.month, state.selected, state.addedVersion, state.buildingOpacity],
   () => overlay?.setProps({ layers: layers() }),
 )
 

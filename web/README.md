@@ -31,6 +31,7 @@ The published data use the **thesis configuration** (since 26 Oct): the exact si
 - **Map defaults:** no overlay, so the sidewalks and free spots read clearly. The sun and water layers are under Map display.
 - **Narrow screens:** the map comes first, then the controls, then the results.
 - **Side panels:** drag the inner edge of either panel to resize it (200–520 px; arrow keys on the focused edge). The ‹ / › button on the edge hides or shows it. Widths and open state are remembered in the browser.
+- **Project-area outline** (29 Oct): the outline and the corners being drawn are drawn over buildings and crowns (no depth test), so they stay visible behind tall blocks. **Buildings slider** in Map display: building opacity, 0–100% (below 100% the buildings stop hiding the crowns behind them).
 - **Cursor:** the map shows a crosshair while drawing a project area or adding trees, and the hand otherwise.
 - **Look:** the slide deck's "Earth" palette and fonts (`scripts/make_infographics.py`):
   - **colours:** ink, moss = trees, ink blue = rain / accent, rust = heat / worse, ochre = warnings, title-slide green = header;

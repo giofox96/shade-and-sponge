@@ -21,6 +21,7 @@ export const state = reactive({
   drawing: false,
   draft: [], // [lon, lat] vertices while drawing
   area: null, // { poly, idx, keptIdx, spotIdx, all, weights, layout, keptLayout, metrics, counts, city, ms }
+  buildingOpacity: 1, // Map display slider: 1 = solid, lower = see-through buildings
   showStreets: true, // sidewalk edges (facades, kerbs) and free planting spots on the map
   overlay: '', // none by default: sidewalks and free spots read better (the sun / water layers are in Map display)
   month: 7,
