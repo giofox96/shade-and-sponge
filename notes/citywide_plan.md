@@ -155,3 +155,40 @@ Reading:
 The sizing rule narrows the tool's margin over the city's mix to 6.9 points (11.7 in Porta). S1a rises from 66.8% to 72.1% because the rule keeps the small *Pyrus* off the wide sidewalks. So in Sant Antoni the sidewalk rule decides most of the outcome, and species choice adds less than in Porta.
 
 **Still not fully comparable, in two ways:** (1) with `--trunk=TERCERA`, only *Celtis* (TERCERA) and *Melia* (SEGONA, 23 trees) have enough local trees; the other five species keep Porta's medians over all trunk classes; (2) the runoff calibration and Δmin are Porta's (§6.4).
+
+### 6.7 Batch: Eixample + Sant Martí (28–29 Oct)
+
+`python scripts/run_barris.py` on the user's PC, all 16 barris of the two districts (37 tiles, all flown in 2022, leaf-on), same options as Porta's reference run (`--size=exact --trunk=TERCERA`, scenario R: replace every plane). Table: `databases/barcelona/barris_summary.csv`; log: `databases/barcelona/barris/run_log.csv`. Shares of today (S0); random and city mix = means of 10 seeds; tool = the optimised layout with the most summer shade.
+
+The first night, four barris got zero inventory trees: their names carry an apostrophe and the inventory spells them differently, so the slug match failed silently. `bcn_lidar_barri.py` now matches names without separators and stops if no tree matches; the four were rerun on 29 Oct.
+
+| Barri | Canopy S0 | Largest genus | Summer: random / city mix / tool | Tool margin (pts) | Winter: city mix / tool | Hot runoff: city mix / tool | Buildings |
+|---|---|---|---|---|---|---|---|
+| Porta | 23.3% | Platanus 31.1% | 89.4 / 87.4 / 99.1% | +11.7 | 100.3 / 120.6% | +0.4 / +0.1% | Porta set |
+| Sant Antoni | 25.1% | Platanus 41.5% | 71.0 / 72.1 / 79.0% | +6.9 | 97.8 / 113.7% | +2.8 / +2.5% | OSM |
+| el Fort Pienc | 28.1% | Platanus 43.1% | 67.5 / 68.2 / 78.0% | +9.8 | 88.8 / 100.3% | +0.8 / +0.6% | OSM |
+| l'Antiga Esquerra de l'Eixample | 21.9% | Platanus 42.9% | 61.8 / 61.8 / 69.7% | +7.9 | 91.0 / 105.7% | +3.6 / +3.0% | OSM |
+| la Dreta de l'Eixample | 24.8% | Platanus 46.4% | 60.4 / 59.9 / 70.9% | +11.0 | 89.0 / 106.2% | +4.1 / +3.2% | OSM |
+| la Nova Esquerra de l'Eixample | 22.8% | Celtis 37.5% | 72.7 / 75.1 / 83.5% | +8.4 | 98.7 / 115.4% | +3.6 / +2.3% | OSM |
+| la Sagrada Família | 26.3% | Celtis 36.8% | 68.8 / 74.7 / 77.8% | +3.1 | 97.2 / 99.6% | +3.3 / +3.2% | LiDAR |
+| Diagonal Mar i el Front Marítim del Poblenou | 22.6% | Platanus 36.2% | 71.5 / 74.1 / 79.8% | +5.7 | 88.9 / 97.9% | +0.5 / +0.4% | LiDAR |
+| Provençals del Poblenou | 31.9% | Platanus 53.7% | 58.0 / 65.2 / 68.8% | +3.6 | 80.2 / 81.2% | +1.1 / +0.9% | LiDAR |
+| Sant Martí de Provençals | 33.8% | Platanus 46.7% | 70.2 / 71.6 / 78.4% | +6.8 | 100.7 / 118.4% | +1.7 / +1.5% | LiDAR |
+| el Besòs i el Maresme | 25.5% | Platanus 40.0% | 71.1 / 77.3 / 82.6% | +5.3 | 103.0 / 110.1% | +1.3 / +1.3% | LiDAR |
+| el Camp de l'Arpa del Clot | 20.2% | Celtis 42.6% | 77.2 / 79.0 / 81.2% | +2.2 | 95.7 / 96.5% | +0.8 / +0.8% | LiDAR |
+| el Clot | 24.6% | Platanus 35.9% | 67.3 / 70.6 / 76.7% | +6.1 | 95.5 / 101.5% | +1.3 / +1.2% | LiDAR |
+| el Parc i la Llacuna del Poblenou | 21.3% | Platanus 48.2% | 62.3 / 72.2 / 78.4% | +6.2 | 89.0 / 92.7% | +1.3 / +1.2% | LiDAR |
+| el Poblenou | 23.8% | Platanus 53.0% | 60.2 / 65.2 / 75.3% | +10.1 | 96.6 / 115.9% | +1.5 / +1.3% | LiDAR |
+| la Verneda i la Pau | 29.9% | Platanus 44.5% | 72.8 / 72.0 / 82.2% | +10.2 | 101.9 / 126.0% | +0.8 / +0.7% | LiDAR |
+| la Vila Olímpica del Poblenou | 28.1% | Platanus 48.1% | 70.5 / 72.3 / 77.8% | +5.5 | 92.9 / 96.8% | +1.4 / +1.2% | LiDAR |
+
+Reading (the 16 new barris, Porta excluded):
+- **The tool beats the city's mix in all 16**, by 2.2 to 11.0 points of today's summer shade (median 6.5). The margin does not follow the share of the largest genus (r = 0.19), so the local 15% cap is not what drives it.
+- **No barri gets back to today's summer shade:** tool 68.8–83.5% (median 78.2), city mix 59.9–79.0% (median 72.0). Porta (99.1%) is the exception, not the rule: its sidewalks are wider (median 6.7 m against 4.9–5.1 m in the six Eixample barris).
+- Runoff to the hotspots rises a little in every barri, because the canopy that replaces the planes is smaller: +0.4 to +3.2% with the tool, +0.5 to +4.1% with the city's mix. The tool is never worse than the city's mix on runoff.
+- The tool buys its summer shade partly with winter shade (median 103.6% of today against 95.6% for the city's mix; up to 126% in la Verneda). This is the known cost of the weighted-sum sweep picking its summer-best layout.
+
+Caveats:
+- **Buildings come from two sources.** Overpass was overloaded on most of the night, so 11 barris use footprints traced from the LiDAR building class (`source = "lidar"`): city blocks merge into one polygon with the median roof height. Five use OSM. The median tool margin is 5.7 points with LiDAR footprints and 8.4 with OSM, so the source may matter; the LiDAR ones should be rerun with OSM before the numbers are quoted.
+- Sidewalk widths: 14–54% of the trees per barri are unmeasured (`check`, no size filter), highest in el Besòs i el Maresme (54%) and Diagonal Mar (50%).
+- As in §6.6: trunk sizes fall back to Porta's medians for species with few local trees; the runoff calibration is Porta's; the cap is still per barri.
