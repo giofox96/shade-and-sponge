@@ -25,7 +25,20 @@ OUT = ROOT / "web" / "public" / "species"
 UA = {"User-Agent": "shade-and-sponge-thesis/0.1 (https://github.com/giofox96/shade-and-sponge)"}
 FREE = re.compile(r"^(cc0|public domain|pd\b|cc[ -]by(-sa)?[ -]?\d|cc[ -]by(-sa)?$)", re.I)
 TITLE = {}  # species -> Wikipedia title, when the name does not resolve
-FILE = {}   # species -> Commons file name, to replace a lead image that is not the whole tree
+FILE = {  # species -> Commons file name, to replace a lead image that is not the whole tree
+    'Acer monspessulanum': 'Acer monspessulanum trees, Novi Beograd.jpg',
+    'Catalpa bignonioides': 'Trompetenbaum Catalpa bignonioides -20201009-RM-170911.jpg',
+    'Celtis australis': 'Bad Dürkheim Kurpark Zürgelbaum 001 2021 10 10.jpg',
+    'Citrus × aurantium': 'Turunç - Citrus aurantium 05.JPG',
+    'Cupressus sempervirens': "Abbazia di Sant'Andrea (Borzone, Borzonasca) - cipresso 2022-06-09.jpg",
+    'Fraxinus angustifolia': 'Fraxinus angustifolia 20190614.jpg',
+    'Hibiscus syriacus': 'Hibiscus-syriacus-street-tree.JPG',
+    'Jacaranda mimosifolia': 'Jacaranda tree (Jacaranda mimosifolia) in bloom, Miguel Bombarda Avenue, Lisbon, Portugal julesvernex2.jpg',
+    'Magnolia grandiflora': 'Magnolia grandiflora "Sempreverde".jpg',
+    'Prunus cerasifera': '2025.08.13 Prunus cerasifera tree Salihorsk Paŭnočnaja 8.jpg',
+    'Robinia pseudoacacia': 'Robinia pseudoacacia - Robinie - Mörfelden-Walldorf - Germany - 01.jpg',
+    'Tilia x euchlora': 'Tilia x euchlora 5zz.jpg',
+}
 
 
 def slug(s):
@@ -33,10 +46,14 @@ def slug(s):
 
 
 def api(url, **params):
-    r = requests.get(url, params=dict(format="json", formatversion=2, **params), headers=UA, timeout=30)
-    r.raise_for_status()
-    time.sleep(0.5)
-    return r.json()
+    for wait in (2, 5, 15, 30):  # Commons sometimes answers with an error body (rate limit): back off and retry
+        r = requests.get(url, params=dict(format="json", formatversion=2, **params), headers=UA, timeout=30)
+        r.raise_for_status()
+        time.sleep(0.5)
+        if "query" in r.json():
+            return r.json()
+        time.sleep(wait)
+    raise RuntimeError(f"{url} {params}: {r.text[:300]}")
 
 
 def lead_file(species):
