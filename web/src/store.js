@@ -59,7 +59,7 @@ export async function load(site = state.site) {
 
 // Switch dataset (e.g. city palette 'porta' vs Barcelona shortlist 'porta-barcelona') and reset the view
 export async function switchSite(site) {
-  Object.assign(state, { scenarioId: BALANCED, live: null, selected: null, exclude: [], minEff: 0, liveError: null, meta: null, added: [], addMsg: null, area: null, drawing: false, draft: [] })
+  Object.assign(state, { scenarioId: BALANCED, live: null, selected: null, exclude: [], minEff: 0, liveError: null, meta: null, added: [], addMsg: null, area: null, drawing: false, draft: [], addMode: false }) // the new site's grid loads with the next Add trees
   grid = null
   planePotCache.clear()
   planeScale = null
