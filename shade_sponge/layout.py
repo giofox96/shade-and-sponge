@@ -229,9 +229,10 @@ def eff_species(choice, n_species):
 def sweep(objs, cap, fit, step=0.25, min_eff=None, local=None):
     """objs: {name: (potential matrix, +1 to maximise / −1 to minimise)}. Every weight combination on a simplex grid
     (step 0.25 -> 15 combinations for 3 objectives); potentials normalised by their maximum. A 1e-3 share of the
-    unweighted sum breaks ties (e.g. positions that do not drain to a hotspot)."""
+    unweighted sum breaks ties (e.g. positions that do not drain to a hotspot). An all-zero potential (e.g. no
+    position drains to a hotspot) stays zero instead of 0/0."""
     n = int(round(1 / step))
-    norm = [sign * m / m.max() for m, sign in objs.values()]
+    norm = [sign * m / m.max() if m.max() > 0 else np.zeros_like(m, float) for m, sign in objs.values()]
     out = {}
     for c in itertools.product(range(n + 1), repeat=len(objs)):
         if sum(c) == n:

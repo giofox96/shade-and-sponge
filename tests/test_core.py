@@ -129,3 +129,10 @@ def test_assign_local_caps():
     g = np.repeat([0, 1], 20)
     ch = layout.assign(score, np.array([30, 40, 40]), np.ones((40, 3), bool), local=(g, np.array([[5, 20, 20], [20, 20, 20]])))
     assert np.bincount(ch[g == 0], minlength=3)[0] == 5 and (ch == 0).sum() == 25   # barri 0 capped at 5, barri 1 takes 20
+
+
+def test_sweep_zero_objective():
+    """An all-zero potential (no position drains to a hotspot) must not give NaN costs."""
+    sun = np.array([[1.0, 0.0], [0.0, 1.0]])
+    out = layout.sweep({"sun": (sun, 1), "water": (np.zeros((2, 2)), 1)}, np.array([2, 2]), np.ones((2, 2), bool))
+    assert all((c == [0, 1]).all() for c in out.values() if c is not None)
