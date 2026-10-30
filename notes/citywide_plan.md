@@ -224,3 +224,11 @@ Reading:
 - The gain comes from moving species to where they work best. 712 of the 885 Celtis the cap allows go to la Dreta de l'Eixample. Diagonal Mar gets 612 Tipuana, which its local cap had set to 0 because the barri already has many.
 - **The city cap alone allows local monocultures.** In Diagonal Mar, Tipuana becomes 48.5% of the barri's street trees, against a plane share of 36.2% today. The cap's reasons are pest risk and resilience (`notes/tree_master_plan.md`), and these act locally too. So a city cap without any local ceiling can recreate the problem it is meant to solve. In 15 of the 17 barris, the largest species stays below today's largest genus share; the exceptions are Diagonal Mar and Sant Antoni (42.3% against 41.5%).
 - Winter shade rises with summer shade (median 115%): the summer-only layout ignores the winter cost.
+
+**With a local ceiling (`--local-ceiling`, second run, 30 Oct).** The ceiling is that in each barri, no species ends with more trees than the barri has planes today (`ASSUMPTION`). The idea is that a replacement should never create a larger single-species share than the one it removes. The summary now always reads one joint layout, the one with the most summer shade in total; here that is `S4_s1.00_w0.00_r0.00` again. Outputs: `citylp/*_local_*`, `citylp_local_summary.csv`, `citylp_local_species.csv`.
+- The ceiling moves 219 Tipuana to Melia (214) and Jacaranda (5), and Celtis stays at its cap (885). Eight barris change.
+- **Diagonal Mar:** Tipuana falls from 48.5% to 37.2% and summer shade from 102.0% to 97.2%. The 37.2% sits above the barri's 36.2% plane share because the shares are over trees with a usable LiDAR crown, while the ceiling counts every tree.
+- **Sant Antoni:** summer shade falls from 81.1% to 80.1% (Celtis 40.3%).
+- **la Dreta de l'Eixample:** summer shade rises from 78.0% to 78.4%.
+- Overall the city cap with the local ceiling beats the local cap by 0.0 to +17.4 points (median +2.4), and beats the city's mix by +2.2 to +23.1 (median +9.2). Porta stays at 103.3%.
+- **The ceiling costs little and removes the monoculture problem. It is the proposed rule:** the city's 15% fixes how much of each species, and the barri ceiling stops any barri from ending more concentrated than today.
