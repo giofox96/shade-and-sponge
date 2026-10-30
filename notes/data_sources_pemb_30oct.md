@@ -2,30 +2,34 @@
 
 PEMB (Pla Estratègic Metropolità de Barcelona) replied to Giovanni and Fiona that it has no direct access or contact for
 the data, and pointed to two public sources, suggesting to contact the "providers" if the data is not there.
-Status checked from a cloud container on 30 Oct: the Barcelona hosts (`arbres.barcelona`, the open data portal API,
-the atlas CARTO account) refused the connection from the container, so the checks below were made through a web
-reader and need one browser look where marked.
+The Barcelona hosts are blocked from cloud containers; the tree checks were run from the OMEN PC on 30 Oct.
 
 ## 1. Street trees: "Arbres de Barcelona" (https://arbres.barcelona/)
-- **Not an official source.** The page metadata names one author, Manuel Cerezo; no city logo, licence or data
-  source is stated. Its description: map with filters by species, district, neighbourhood and space type, statistics,
-  and "historial de l'inventari municipal".
-- It almost certainly re-publishes the city's open inventory (`arbrat-viari`, `arbrat-parcs`, `arbrat-zona`), which the
-  tool already uses (`databases/data_inventory_barcelona.md` A1–A2). That is an inference, not checked: the page body
-  is rendered by JavaScript and could not be read.
-- **What it could add:** the "inventory history". If the author kept weekly snapshots of `arbrat-viari`, they show
-  which trees were removed and what was planted in their place, street by street. That would give an observed S1
-  (the city's real replacement practice) instead of the 2004/2005 table (`notes/tree_master_plan.md` §5b).
-- **What it does not solve:** DBH and height. The open inventory has neither, and nothing suggests this site does.
-  Per-tree size stays with the LiDAR proxy.
-- **Browser check (2 min):** open a tree in Porta and note the fields shown; look for a "Sobre"/About page, the data
-  source, and whether the history can be downloaded.
+Checked from the OMEN PC on 30 Oct (static files under `https://arbres.barcelona/data/`).
+- **Not an official source**: a static React/MapLibre app by Manuel Cerezo. Its JSON-LD names Open Data BCN
+  (Ajuntament de Barcelona, CC BY 4.0) as the data provider. No API; the data are static JSON files
+  (`meta.json`, `trees-{viari,parcs,zona}.json.gz`, stats). 222,617 trees: viari 145,305, parcs 33,336, zona 43,976.
+- **Same fields as the open inventory** (A1–A2): code, position, species, size category, district, barri, address,
+  irrigation. Street trees: height filled on 0 of 145,305, planting date on 32,006, sidewalk width and tree-pit
+  fields empty, no DBH, no trunk perimeter, no crown. **It does not solve DBH or height**; the LiDAR proxy stays.
+- **What it adds: inventory history.** 23 quarterly snapshots, 2021 Q1 to 2026 Q3, rebuilt from the Open Data BCN
+  quarterly files (each keeps its CKAN download URL), plus weekly copies of the app data since 1 Jul 2026. Across the
+  series: 45,830 trees missing, 26,488 added, 11,635 reappeared, 9,086 category changes. Downloadable as plain JSON:
+  `/data/history/official/manifest.json`, `observations-*.json`, `records/*.json.gz`.
+  The site itself warns that a missing tree is not proof of a felling, nor an added one of a planting.
+- **Use for the thesis:** an observed S1. Matching removals and additions at the same position or street (2021–2026)
+  would show which species the city actually plants when it replaces a tree, instead of the 2004/2005 table
+  (`notes/tree_master_plan.md` §5b). Better to rebuild it from the **official quarterly files on Open Data BCN** (the
+  primary source the site uses) than to cite the site.
 
-### Related find: Biodiversity Atlas tree layer (official)
-`atles-biodiversitat-arbrat-geometries` on Open Data BCN (CC BY 4.0, published 25 Feb 2025, weekly update, file
-`ab_vw_arbrat_geometries.csv`, 14.3 MB; Direcció d'Espais Verds i Biodiversitat). The portal page does not list its
-fields or geometry type. **Browser check:** download it and look at the header: crown polygons or a size field would
-matter; points with species only would duplicate A1–A2.
+### Related: Biodiversity Atlas tree layers (official, CC BY 4.0, last modified 23 Sep 2025)
+- `atles-biodiversitat-arbrat-geometries` (`ab_vw_arbrat_geometries.csv`, 14.66 MB, 243,999 rows): **points only**
+  (WGS84 WKT); columns `geom_fid, nom_cat, nom_cas, nom_eng, geom_wgs84`; names only on 662 rows (named groups).
+  `atles-biodiversitat-arbrat-especies`: 525 species with descriptive text, no traits.
+- Same tables on the atlas CARTO account (`urbisadmin`, no key): `ab_vw_arbrat_geometries` (243,999),
+  `ab_arbrat_geometries` (133,375), `ab_vw_arbrat_especies` (525), `ab_arbrat_especies` (465). The CARTO geometry
+  tables carry `codi` (the inventory tree code, unique), so they join to the inventory, plus `tipus_elem_invent_id`
+  (codes 1, 2, 4, 5, 6, 8; meaning not found). **No height, DBH or crown anywhere: nothing new for the tool.**
 
 ## 2. Flood data: "Inundabilitat – Atles de resiliència"
 (https://coneixement-eu.bcn.cat/widget/atles-resiliencia/index_inundabilitat.html)
@@ -43,7 +47,7 @@ matter; points with species only would duplicate A1–A2.
 | Tree replacement rules, sidewalk widths, 15% cap scope | Parcs i Jardins (via Atenció en línia form) | Sent 21 Oct, code **RGF7342**; follow up ~4 Nov |
 | RESCCUE depth licence, units, T = 1 yr | Barcelona Regional, br@bcnregional.com | Sent 13 Oct; **reminder overdue** (was due 23 Oct) |
 | Rain-gauge series 1994–2019, sewer model results | BCASA | Not contacted. No verified email: use the contact page on BCASA's own site or the Ecologia Urbana form |
-| Inventory history | Manuel Cerezo (arbres.barcelona) | Optional; contact only if the browser check shows a history |
+| Inventory history | Open Data BCN quarterly files (also mirrored by arbres.barcelona) | Public, no request needed |
 
 So PEMB's advice points to providers already contacted, except BCASA. Drafts below; **nothing has been sent.**
 
@@ -88,9 +92,3 @@ All data would be credited to BCASA and not redistributed.
 
 Kind regards,
 Giovanni Carlo Volpe, MaCAD student, IAAC · giovanni.carlo.volpe@students.iaac.net
-
-### 4c. Optional, to the author of arbres.barcelona (only after the browser check)
-Hi Manuel, I am a master's student at IAAC working on street-tree selection in Barcelona. Your site mentions the history
-of the municipal inventory: do you keep past snapshots of the street-tree dataset, and would you share them (or the
-dates covered) for academic use? It would let me see which species the city actually plants when it replaces a tree.
-Thanks, Giovanni Carlo Volpe (giovanni.carlo.volpe@students.iaac.net)
