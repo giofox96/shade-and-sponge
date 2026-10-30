@@ -1,0 +1,1272 @@
+tree_id,species,is_plane,street,width_m,facade_dist_m,flag,strip_width_m,size_class
+0046961AR,Cercis siliquastrum,False,C\ Mare de Déu de Lorda,2.86,2.32,ok,,small
+0046962AR,Citrus × aurantium,False,C\ Foradada,2.52,2.15,ok,,small
+0046963AR,Styphnolobium japonicum,False,C\ Pare Manjón,12.59,5.5,ok,,large
+0046965AR,Melia azedarach,False,Via Bàrcino,17.45,10.98,ok,,large
+0046967AR,Platanus × acerifolia,True,C\ Pare Pérez del Pulgar,,12.74,median,8.19,check
+0046969AR,Citrus × aurantium,False,C\ Foradada,2.72,2.31,ok,,small
+0046970AR,Platanus × acerifolia,True,C\ Pare Pérez del Pulgar,,24.55,median,20.06,check
+0046972AR,Catalpa bignonioides,False,C\ Torrent de Perera,,11.62,median,21.9,check
+0046976AR,Cercis siliquastrum,False,C\ Mare de Déu de Lorda,2.49,2.06,ok,,none
+0046978AR,Prunus cerasifera 'Pissardii',False,C\ Foradada,4.35,3.88,ok,,medium
+0046980AR,Styphnolobium japonicum,False,C\ Pare Manjón,12.66,5.64,ok,,large
+0046981AR,Platanus × acerifolia,True,Via Bàrcino,,20.79,median,17.37,check
+0046983AR,Firmiana simplex,False,C\ Peníscola,7.44,5.91,ok,,large
+0046984AR,Pyrus calleryana 'Chanticleer',False,C\ Mireia,,6.58,median,14.01,check
+0046987AR,Citrus × aurantium,False,C\ Turó de la Trinitat,,6.03,median,12.32,check
+0046988AR,Citrus × aurantium,False,C\ Mireia,2.66,2.06,ok,,small
+0046989AR,Platanus × acerifolia,True,Via Bàrcino,4.67,3.82,ok,,medium
+0046992AR,Jacaranda mimosifolia,False,Av Meridiana,16.62,15.37,ok,,large
+0046995AR,Prunus cerasifera 'Pissardii',False,C\ Finestrelles,3.74,3.09,ok,,medium
+0046998AR,Gleditsia triacanthos 'sunburst',False,C\ Torrent de Perera,,13.0,median,20.27,check
+0046999AR,Pyrus calleryana 'Chanticleer',False,C\ Peníscola,3.91,3.27,ok,,medium
+0047000AR,Melia azedarach,False,Pl Josep Andreu i Abelló,,19.35,median,22.37,check
+0047001AR,Acer negundo,False,C\ Tossal,2.52,1.77,ok,,small
+0047002AR,Melia azedarach,False,Via Bàrcino,,23.54,no_kerb,18.19,check
+0047003AR,Ulmus pumila,False,Ctra Ribes,3.04,2.35,ok,,small
+0047005AR,Styphnolobium japonicum,False,C\ Pare Manjón,12.65,11.8,ok,,large
+0047007AR,Melia azedarach,False,Ctra Ribes,,28.07,median,9.96,check
+0047010AR,Citrus × aurantium,False,C\ Finestrelles,1.93,1.38,ok,,none
+0047012AR,Melia azedarach,False,Pl Josep Andreu i Abelló,,46.27,no_facade,10.52,check
+0047013AR,Crataegus x media 'Paul's Scarlet',False,Via Bàrcino,,9.47,median,6.44,check
+0047015AR,Cercis siliquastrum,False,C\ Mare de Déu de Lorda,2.35,1.86,ok,,none
+0047022AR,Cercis siliquastrum,False,C\ Mare de Déu de Lorda,2.2,1.83,ok,,none
+0047023AR,Ligustrum lucidum,False,C\ Mossèn Epifani Lorda,2.46,2.13,ok,,none
+0047024AR,Platanus × acerifolia,True,Via Bàrcino,3.98,3.68,ok,,medium
+0047025AR,Styphnolobium japonicum,False,Pl Trinitat,,12.44,no_kerb,,check
+0047027AR,Platanus × acerifolia,True,C\ Pare Pérez del Pulgar,,14.25,median,2.9,check
+0047028AR,Pyrus calleryana 'Chanticleer',False,C\ Ausona,2.02,1.41,ok,,none
+0047029AR,Citrus × aurantium,False,C\ Mireia,2.57,2.09,ok,,small
+0047030AR,Cupressus sempervirens,False,Via Bàrcino,18.32,17.02,ok,,large
+0047031AR,Citrus × aurantium,False,C\ Turó de la Trinitat,3.11,2.29,ok,,small
+0047033AR,Cercis siliquastrum,False,C\ Mare de Déu de Lorda,2.54,2.29,ok,,small
+0047034AR,Platanus × acerifolia,True,Via Bàrcino,4.39,3.45,ok,,medium
+0047037AR,Pyrus calleryana 'Chanticleer',False,C\ Mireia,,6.45,median,2.34,check
+0047039AR,Melia azedarach,False,Pl Josep Andreu i Abelló,,50.89,no_facade,10.52,check
+0047040AR,Platanus × acerifolia,True,Pl Trinitat,,6.34,median,,check
+0047041AR,Melia azedarach,False,Ctra Ribes,,60.17,no_facade,29.44,check
+0047043AR,Pyrus calleryana 'Chanticleer',False,C\ Mireia,,6.82,median,16.49,check
+0047045AR,Citrus × aurantium,False,C\ Mireia,2.51,1.97,ok,,small
+0047047AR,Citrus × aurantium,False,C\ Foradada,2.71,2.28,ok,,small
+0047051AR,Platanus × acerifolia,True,Via Bàrcino,4.09,3.52,ok,,medium
+0047052AR,Styphnolobium japonicum,False,C\ Pare Manjón,24.97,11.21,ok,,large
+0047054AR,Platanus × acerifolia,True,Via Bàrcino,6.38,3.44,ok,,large
+0047055AR,Styphnolobium japonicum,False,C\ Pare Manjón,12.67,5.84,ok,,large
+0047056AR,Styphnolobium japonicum,False,Via Bàrcino,,3.38,no_kerb,42.14,check
+0047057AR,Platanus × acerifolia,True,Via Bàrcino,6.43,3.44,ok,,large
+0047059AR,Hibiscus syriacus,False,C\ Ausona,2.4,1.68,ok,,none
+0047060AR,Cercis siliquastrum,False,C\ Mare de Déu de Lorda,2.59,2.22,ok,,small
+0047061AR,Styphnolobium japonicum,False,C\ Pare Manjón,12.68,5.92,ok,,large
+0047063AR,Pyrus calleryana 'Chanticleer',False,C\ Peníscola,6.75,5.98,ok,,large
+0047064AR,Platanus × acerifolia,True,Via Bàrcino,3.92,3.49,ok,,medium
+0047067AR,Cercis siliquastrum,False,C\ Mare de Déu de Lorda,2.12,1.62,ok,,none
+0047069AR,Ligustrum lucidum,False,C\ Mossèn Epifani Lorda,2.58,2.03,ok,,small
+0047070AR,Platanus × acerifolia,True,Via Bàrcino,3.91,3.35,ok,,medium
+0047071AR,Platanus × acerifolia,True,C\ Pare Pérez del Pulgar,6.38,5.89,ok,,large
+0047073AR,Populus alba 'Pyramidalis',False,C\ Torné,5.31,4.72,ok,,medium
+0047074AR,Cercis siliquastrum,False,C\ Mare de Déu de Lorda,2.02,1.61,ok,,none
+0047075AR,Melia azedarach,False,Via Bàrcino,,35.21,no_facade,,check
+0047076AR,Pyrus calleryana 'Chanticleer',False,C\ Mireia,1.86,1.22,ok,,none
+0047077AR,Cercis siliquastrum,False,C\ Mare de Déu de Lorda,2.37,1.96,ok,,none
+0047078AR,Prunus avium,False,C\ Torrent de Perera,5.51,5.0,ok,,medium
+0047079AR,Cercis siliquastrum,False,C\ Mare de Déu de Lorda,5.12,2.16,ok,,medium
+0047082AR,Acer negundo,False,Via Bàrcino,,28.95,no_kerb,18.18,check
+0047085AR,Melia azedarach,False,Ctra Ribes,,65.59,no_facade,30.18,check
+0047086AR,Ligustrum lucidum,False,C\ Mossèn Epifani Lorda,2.22,1.67,ok,,none
+0047087AR,Cercis siliquastrum,False,C\ Mare de Déu de Lorda,2.01,1.44,ok,,none
+0047088AR,Gleditsia triacanthos 'sunburst',False,C\ Torrent de Perera,,14.38,median,6.73,check
+0047089AR,Melia azedarach,False,Ctra Ribes,,43.86,no_facade,28.32,check
+0047093AR,Platanus × acerifolia,True,Via Bàrcino,4.11,3.39,ok,,medium
+0047094AR,Platanus × acerifolia,True,Via Bàrcino,4.11,3.44,ok,,medium
+0047095AR,Citrus × aurantium,False,C\ Mireia,2.71,1.81,ok,,small
+0047097AR,Gleditsia triacanthos f. inermis,False,C\ Torrent de Perera,7.12,6.47,ok,,large
+0047098AR,Ligustrum lucidum,False,C\ Mossèn Epifani Lorda,2.46,2.01,ok,,none
+0047100AR,Melia azedarach,False,Pl Josep Andreu i Abelló,,31.52,no_facade,,check
+0047104AR,Pyrus calleryana 'Chanticleer',False,C\ Peníscola,4.16,3.35,ok,,medium
+0047105AR,Platanus × acerifolia,True,Via Bàrcino,4.36,3.56,ok,,medium
+0047107AR,Melia azedarach,False,C\ Torrent de Perera,5.53,4.98,ok,,medium
+0047110AR,Styphnolobium japonicum,False,C\ Pare Manjón,19.46,6.59,ok,,large
+0047111AR,Melia azedarach,False,Via Bàrcino,,36.47,no_facade,11.61,check
+0047113AR,Platanus × acerifolia,True,C\ Pare Pérez del Pulgar,7.91,7.16,ok,,large
+0047114AR,Citrus × aurantium,False,C\ Foradada,2.2,1.87,ok,,none
+0047117AR,Melia azedarach,False,Pl Josep Andreu i Abelló,,30.69,no_facade,,check
+0047118AR,Prunus cerasifera 'Pissardii',False,C\ Turó de la Trinitat,5.66,4.8,ok,,medium
+0047121AR,Melia azedarach,False,C\ Torrent de Perera,,24.28,median,12.77,check
+0047123AR,Crataegus x media 'Paul's Scarlet',False,C\ Mossèn Epifani Lorda,2.18,2.33,ok,,none
+0047124AR,Prunus cerasifera 'Pissardii',False,C\ Foradada,2.45,2.02,ok,,none
+0047125AR,Melia azedarach,False,C\ Torrent de Perera,,10.91,median,21.24,check
+0047127AR,Citrus × aurantium,False,C\ Foradada,2.74,2.4,ok,,small
+0047131AR,Prunus cerasifera 'Pissardii',False,C\ Foradada,2.3,1.91,ok,,none
+0047133AR,Pyrus calleryana 'Chanticleer',False,C\ Pare Pérez del Pulgar,8.22,7.3,ok,,large
+0047134AR,Fraxinus angustifolia,False,C\ Tossal,19.05,16.96,ok,,large
+0047135AR,Citrus × aurantium,False,C\ Mireia,4.74,3.95,ok,,medium
+0047136AR,Prunus cerasifera 'Pissardii',False,C\ Foradada,2.59,2.2,ok,,small
+0047138AR,Styphnolobium japonicum,False,C\ Pare Manjón,12.67,11.94,ok,,large
+0047139AR,Cercis siliquastrum,False,C\ Mare de Déu de Lorda,5.15,1.9,ok,,medium
+0047141AR,Platanus × acerifolia,True,Via Bàrcino,,35.73,no_facade,3.03,check
+0047143AR,Platanus × acerifolia,True,C\ Pare Pérez del Pulgar,9.19,8.62,ok,,large
+0047144AR,Styphnolobium japonicum,False,C\ Pare Manjón,12.55,11.67,ok,,large
+0047145AR,Melia azedarach,False,C\ Torrent de Perera,,33.85,no_facade,16.01,check
+0047146AR,Acer buergerianum,False,Via Bàrcino,,15.34,median,3.58,check
+0047148AR,Prunus cerasifera 'Pissardii',False,C\ Turó de la Trinitat,2.87,2.26,ok,,small
+0047149AR,Ligustrum lucidum,False,C\ Mossèn Epifani Lorda,2.98,2.38,ok,,small
+0047150AR,Pyrus calleryana 'Chanticleer',False,C\ Mireia,,6.95,median,17.08,check
+0047152AR,Citrus × aurantium,False,C\ Mireia,2.66,2.26,ok,,small
+0047153AR,Citrus × aurantium,False,C\ Turó de la Trinitat,2.48,1.9,ok,,none
+0047154AR,Prunus cerasifera 'Pissardii',False,C\ Foradada,2.64,2.18,ok,,small
+0047155AR,Citrus × aurantium,False,C\ Foradada,2.31,1.92,ok,,none
+0047156AR,Styphnolobium japonicum,False,C\ Pare Manjón,13.04,5.69,ok,,large
+0047157AR,Cercis siliquastrum,False,C\ Mare de Déu de Lorda,2.21,1.67,ok,,none
+0047158AR,Pinus halepensis,False,Pl Turó de la Trinitat,,22.43,median,25.55,check
+0047159AR,Prunus cerasifera 'Pissardii',False,C\ Turó de la Trinitat,2.87,2.18,ok,,small
+0047160AR,Melia azedarach,False,C\ Pare Manjón,12.46,5.5,ok,,large
+0047161AR,Melia azedarach,False,Pl Josep Andreu i Abelló,,48.86,no_facade,8.91,check
+0047162AR,Cercis siliquastrum,False,C\ Mare de Déu de Lorda,2.78,2.43,ok,,small
+0047165AR,Platanus × acerifolia,True,C\ Pare Manjón,4.82,4.05,ok,,medium
+0047168AR,Citrus × aurantium,False,C\ Mireia,2.65,2.13,ok,,small
+0047169AR,Melia azedarach,False,C\ Torrent de Perera,5.4,4.88,ok,,medium
+0047170AR,Cercis siliquastrum,False,C\ Mare de Déu de Lorda,1.91,1.65,ok,,none
+0047173AR,Cercis siliquastrum,False,C\ Mare de Déu de Lorda,2.3,1.97,ok,,none
+0047174AR,Cercis siliquastrum,False,C\ Mare de Déu de Lorda,2.48,2.21,ok,,none
+0047175AR,Citrus × aurantium,False,C\ Mireia,2.98,2.47,ok,,small
+0047176AR,Melia azedarach,False,Pl Josep Andreu i Abelló,,37.51,no_facade,23.01,check
+0047178AR,Platanus × acerifolia,True,Via Bàrcino,4.24,3.61,ok,,medium
+0047180AR,Ulmus pumila,False,C\ Tossal,,10.93,median,19.33,check
+0047181AR,Citrus × aurantium,False,C\ Turó de la Trinitat,2.18,1.59,ok,,none
+0047183AR,Melia azedarach,False,Ctra Ribes,,30.32,no_facade,5.53,check
+0047186AR,Prunus cerasifera 'Pissardii',False,C\ Turó de la Trinitat,3.8,3.27,ok,,medium
+0047188AR,Melia azedarach,False,C\ Torrent de Perera,7.41,6.83,ok,,large
+0047189AR,Platanus × acerifolia,True,Pl Trinitat,,6.42,median,,check
+0047190AR,Pyrus calleryana 'Chanticleer',False,C\ Ausona,2.23,1.51,ok,,none
+0047191AR,Populus alba,False,C\ Torné,5.18,4.28,ok,,medium
+0047194AR,Citrus × aurantium,False,C\ Turó de la Trinitat,2.4,1.86,ok,,none
+0047195AR,Styphnolobium japonicum,False,C\ Pare Manjón,12.62,5.4,ok,,large
+0047197AR,Citrus × aurantium,False,C\ Finestrelles,3.24,2.89,ok,,small
+0047199AR,Melia azedarach,False,Ctra Ribes,,30.37,no_facade,5.51,check
+0047203AR,Cercis siliquastrum,False,C\ Mare de Déu de Lorda,2.43,2.0,ok,,none
+0047204AR,Melia azedarach,False,Ctra Ribes,,54.82,no_facade,29.07,check
+0047206AR,Cercis siliquastrum,False,C\ Mare de Déu de Lorda,2.55,2.06,ok,,small
+0047207AR,Citrus × aurantium,False,C\ Turó de la Trinitat,2.65,1.91,ok,,small
+0047211AR,Platanus × acerifolia,True,C\ Pare Pérez del Pulgar,,13.0,median,5.7,check
+0047213AR,Platanus × acerifolia,True,Via Bàrcino,4.3,3.79,ok,,medium
+0047214AR,Citrus × aurantium,False,C\ Turó de la Trinitat,2.56,1.96,ok,,small
+0047217AR,Robinia pseudoacacia,False,C\ Pare Pérez del Pulgar,,9.61,median,2.93,check
+0047219AR,Acer negundo,False,Via Bàrcino,25.74,9.5,ok,,large
+0047220AR,Cercis siliquastrum,False,C\ Mare de Déu de Lorda,3.18,2.11,ok,,small
+0047222AR,Hibiscus syriacus,False,C\ Ausona,2.26,1.66,ok,,none
+0047224AR,Jacaranda mimosifolia,False,C\ Mireia,,11.48,median,12.74,check
+0047225AR,Prunus cerasifera 'Pissardii',False,C\ Turó de la Trinitat,3.79,3.29,ok,,medium
+0047226AR,Melia azedarach,False,Via Bàrcino,26.63,16.8,ok,,large
+0047227AR,Melia azedarach,False,Ctra Ribes,15.16,14.56,ok,,large
+0047229AR,Styphnolobium japonicum,False,C\ Pare Manjón,,9.01,no_kerb,,check
+0047230AR,Prunus avium,False,C\ Torrent de Perera,3.76,3.24,ok,,medium
+0047232AR,Citrus × aurantium,False,C\ Turó de la Trinitat,2.48,1.98,ok,,none
+0047234AR,Citrus × aurantium,False,C\ Foradada,2.89,2.51,ok,,small
+0047235AR,Acer platanoides,False,Via Bàrcino,,31.28,no_facade,,check
+0047236AR,Melia azedarach,False,C\ Torrent de Perera,,12.24,median,16.9,check
+0047237AR,Citrus × aurantium,False,C\ Mireia,2.78,2.36,ok,,small
+0047238AR,Platanus × acerifolia,True,C\ Pare Pérez del Pulgar,2.31,1.64,ok,,none
+0047239AR,Citrus × aurantium,False,C\ Mireia,2.85,2.3,ok,,small
+0047240AR,Robinia pseudoacacia,False,Ctra Ribes,,49.46,no_facade,28.7,check
+0047241AR,Pyrus calleryana 'Chanticleer',False,C\ Tossal,17.64,13.89,ok,,large
+0047242AR,Acer campestre,False,C\ Almassora,3.1,2.19,ok,,small
+0047243AR,Citrus × aurantium,False,C\ Turó de la Trinitat,2.32,1.72,ok,,none
+0047245AR,Acer pseudoplatanus,False,C\ Torrent de Perera,8.95,8.58,ok,,large
+0047246AR,Melia azedarach,False,C\ Torrent de Perera,5.72,4.97,ok,,medium
+0047247AR,Pyrus calleryana 'Chanticleer',False,C\ Tossal,2.76,1.84,ok,,small
+0047248AR,Platanus × acerifolia,True,C\ Pare Pérez del Pulgar,12.09,9.95,ok,,large
+0047249AR,Citrus × aurantium,False,C\ Turó de la Trinitat,2.19,1.79,ok,,none
+0047250AR,Jacaranda mimosifolia,False,Av Meridiana,9.92,9.2,ok,,large
+0047251AR,Citrus × aurantium,False,C\ Mireia,2.66,2.2,ok,,small
+0047252AR,Prunus cerasifera 'Pissardii',False,C\ Foradada,2.96,2.59,ok,,small
+0047254AR,Melia azedarach,False,Ctra Ribes,,30.62,no_facade,5.57,check
+0047257AR,Platanus × acerifolia,True,C\ Pare Pérez del Pulgar,,13.78,median,7.54,check
+0047259AR,Cercis siliquastrum,False,C\ Mare de Déu de Lorda,3.38,2.97,ok,,small
+0047260AR,Robinia pseudoacacia,False,Pl Josep Andreu i Abelló,,68.3,no_facade,9.22,check
+0047262AR,Pyrus calleryana 'Chanticleer',False,C\ Pare Pérez del Pulgar,6.7,6.27,ok,,large
+0047264AR,Melia azedarach,False,C\ Torrent de Perera,5.38,4.83,ok,,medium
+0047265AR,Cercis siliquastrum,False,C\ Mare de Déu de Lorda,2.17,1.71,ok,,none
+0047267AR,Citrus × aurantium,False,C\ Tossal,2.58,1.73,ok,,small
+0047269AR,Platanus × acerifolia,True,Pl Trinitat,,8.66,median,,check
+0047270AR,Populus alba 'Pyramidalis',False,C\ Torné,5.25,4.64,ok,,medium
+0047271AR,Platanus × acerifolia,True,C\ Suñol i Gras,,11.11,median,2.24,check
+0047272AR,Citrus × aurantium,False,C\ Turó de la Trinitat,2.11,1.61,ok,,none
+0047279AR,Platanus × acerifolia,True,C\ Pare Pérez del Pulgar,6.08,5.66,ok,,large
+0047280AR,Platanus × acerifolia,True,Via Bàrcino,4.37,3.49,ok,,medium
+0047282AR,Firmiana simplex,False,C\ Peníscola,,6.72,no_kerb,25.08,check
+0047283AR,Platanus × acerifolia,True,C\ Mireia,,8.18,median,2.38,check
+0047285AR,Citrus × aurantium,False,C\ Finestrelles,3.07,2.49,ok,,small
+0047289AR,Ligustrum lucidum,False,C\ Mossèn Epifani Lorda,2.64,2.11,ok,,small
+0047290AR,Ligustrum lucidum,False,C\ Mossèn Epifani Lorda,2.08,1.76,ok,,none
+0047291AR,Platanus × acerifolia,True,C\ Pare Pérez del Pulgar,4.74,3.53,ok,,medium
+0047292AR,Photinia x fraseri 'Red Robin',False,Pl Trinitat,3.03,2.39,ok,,small
+0047293AR,Citrus × aurantium,False,C\ Foradada,2.8,2.45,ok,,small
+0047296AR,Jacaranda mimosifolia,False,Av Meridiana,,21.22,median,16.06,check
+0047297AR,Prunus cerasifera 'Pissardii',False,C\ Foradada,2.34,1.92,ok,,none
+0047298AR,Quercus robur 'Fastigiata',False,C\ Vinya Llarga,,3.22,no_kerb,38.05,check
+0047299AR,Catalpa bignonioides,False,C\ Torrent de Perera,,12.67,median,19.09,check
+0047300AR,Gleditsia triacanthos 'sunburst',False,C\ Torrent de Perera,,11.56,median,24.26,check
+0047302AR,Platanus × acerifolia,True,C\ Mireia,,8.08,median,2.38,check
+0047303AR,Cercis siliquastrum,False,C\ Mare de Déu de Lorda,2.51,2.17,ok,,small
+0047304AR,Jacaranda mimosifolia,False,C\ Mireia,,14.94,median,15.44,check
+0047305AR,Cercis siliquastrum,False,C\ Turó de la Trinitat,,7.03,median,7.94,check
+0047309AR,Pyrus calleryana 'Chanticleer',False,C\ Tossal,3.66,2.91,ok,,medium
+0047310AR,Melia azedarach,False,Via Bàrcino,29.59,18.94,ok,,large
+0047312AR,Tipuana tipu,False,Pg Santa Coloma,,87.27,no_facade,26.45,check
+0047316AR,Styphnolobium japonicum,False,C\ Pare Manjón,,15.78,median,,check
+0047317AR,Melia azedarach,False,Via Bàrcino,17.31,5.97,ok,,large
+0047318AR,Cercis siliquastrum,False,C\ Mare de Déu de Lorda,5.06,2.4,ok,,medium
+0047319AR,Styphnolobium japonicum,False,C\ Pare Manjón,12.65,5.64,ok,,large
+0047322AR,Platanus × acerifolia,True,C\ Pare Pérez del Pulgar,,14.31,median,7.66,check
+0047323AR,Melia azedarach,False,Ctra Ribes,15.02,14.52,ok,,large
+0047325AR,Acer buergerianum,False,Via Bàrcino,,15.34,median,3.65,check
+0047327AR,Acer platanoides,False,Via Bàrcino,17.79,11.53,ok,,large
+0047328AR,Melia azedarach,False,Pl Josep Andreu i Abelló,,23.5,median,16.82,check
+0047329AR,Melia azedarach,False,Ctra Ribes,,54.69,no_facade,5.41,check
+0047331AR,Tipuana tipu,False,Pg Santa Coloma,,122.63,no_facade,10.51,check
+0047333AR,Prunus cerasifera 'Pissardii',False,C\ Turó de la Trinitat,2.83,2.26,ok,,small
+0047334AR,Platanus × acerifolia,True,Via Bàrcino,4.09,3.36,ok,,medium
+0047335AR,Quercus robur 'Fastigiata',False,C\ Vinya Llarga,,2.49,no_kerb,,check
+0047336AR,Styphnolobium japonicum,False,C\ Pare Manjón,,8.9,median,25.07,check
+0047337AR,Firmiana simplex,False,C\ Peníscola,,13.29,no_kerb,20.74,check
+0047339AR,Robinia pseudoacacia,False,Pl Josep Andreu i Abelló,,42.15,no_facade,10.53,check
+0047341AR,Robinia pseudoacacia,False,C\ Pare Pérez del Pulgar,2.55,1.71,ok,,small
+0047342AR,Melia azedarach,False,Pl Josep Andreu i Abelló,,47.28,no_facade,11.36,check
+0047343AR,Citrus × aurantium,False,C\ Mireia,2.75,2.21,ok,,small
+0047344AR,Prunus cerasifera 'Pissardii',False,C\ Turó de la Trinitat,3.7,3.22,ok,,medium
+0047345AR,Citrus × aurantium,False,C\ Finestrelles,2.98,2.22,ok,,small
+0047346AR,Melia azedarach,False,Pl Josep Andreu i Abelló,,23.03,median,29.16,check
+0047347AR,Pyrus calleryana 'Chanticleer',False,C\ Peníscola,4.78,4.17,ok,,medium
+0047350AR,Quercus robur 'Fastigiata',False,C\ Vinya Llarga,,2.55,no_kerb,,check
+0047351AR,Prunus cerasifera 'Pissardii',False,C\ Torné,5.4,5.0,ok,,medium
+0047352AR,Catalpa bignonioides,False,C\ Torrent de Perera,,10.47,median,13.38,check
+0047355AR,Acer campestre 'Pyramidale',False,Via Bàrcino,,15.32,median,,check
+0047356AR,Acer buergerianum,False,Via Bàrcino,13.65,12.96,ok,,large
+0047360AR,Prunus cerasifera 'Pissardii',False,C\ Foradada,2.47,2.19,ok,,none
+0047362AR,Melia azedarach,False,Pl Josep Andreu i Abelló,,39.6,no_facade,,check
+0047363AR,Melia azedarach,False,Ctra Ribes,,14.55,median,7.87,check
+0047365AR,Melia azedarach,False,C\ Tossal,,12.2,median,15.21,check
+0047367AR,Platanus × acerifolia,True,Pl Trinitat,,8.72,median,,check
+0047369AR,Populus alba,False,C\ Torné,5.08,4.45,ok,,medium
+0047370AR,Melia azedarach,False,C\ Suñol i Gras,4.8,3.74,ok,,medium
+0047372AR,Prunus cerasifera 'Pissardii',False,C\ Turó de la Trinitat,5.99,5.63,ok,,medium
+0047373AR,Tipuana tipu,False,C\ Mossèn Epifani Lorda,16.87,4.59,ok,,large
+0047374AR,Platanus × acerifolia,True,Via Bàrcino,5.29,3.66,ok,,medium
+0047375AR,Fraxinus angustifolia,False,C\ Pare Pérez del Pulgar,6.05,5.58,ok,,large
+0047376AR,Melia azedarach,False,Ctra Ribes,,14.51,median,7.94,check
+0047377AR,Platanus × acerifolia,True,C\ Pare Pérez del Pulgar,8.09,7.64,ok,,large
+0047379AR,Platanus × acerifolia,True,Via Bàrcino,3.5,3.11,ok,,medium
+0047380AR,Melia azedarach,False,C\ Torrent de Perera,,13.41,median,6.99,check
+0047381AR,Crataegus x media 'Paul's Scarlet',False,C\ Mossèn Epifani Lorda,2.45,1.97,ok,,none
+0047383AR,Platanus × acerifolia,True,Via Bàrcino,,10.06,median,15.66,check
+0047388AR,Platanus × acerifolia,True,Pl Trinitat,,6.39,median,,check
+0047389AR,Melia azedarach,False,C\ Torrent de Perera,,13.26,median,7.32,check
+0047390AR,X chitalpa tashkentensis 'minsum' SUMMER BELLS®,False,C\ Peníscola,13.33,1.97,ok,,large
+0047391AR,Styphnolobium japonicum,False,C\ Pare Manjón,12.3,4.51,ok,,large
+0047392AR,Ulmus pumila,False,Ctra Ribes,3.04,2.23,ok,,small
+0047394AR,Citrus × aurantium,False,C\ Foradada,2.25,1.94,ok,,none
+0047395AR,Platanus × acerifolia,True,Via Bàrcino,2.88,2.4,ok,,small
+0047396AR,Melia azedarach,False,Pl Josep Andreu i Abelló,,20.39,median,,check
+0047397AR,Melia azedarach,False,Ctra Ribes,,30.32,no_facade,5.58,check
+0047400AR,Platanus × acerifolia,True,Pl Trinitat,3.03,2.38,ok,,small
+0047401AR,Acer buergerianum,False,Via Bàrcino,4.91,3.73,ok,,medium
+0047402AR,Styphnolobium japonicum,False,C\ Pare Manjón,,25.69,median,,check
+0047403AR,Melia azedarach,False,Via Bàrcino,4.1,3.29,ok,,medium
+0047406AR,Hibiscus syriacus,False,C\ Ausona,2.26,1.48,ok,,none
+0047409AR,Platanus × acerifolia,True,Via Bàrcino,4.9,3.44,ok,,medium
+0047411AR,Prunus cerasifera 'Pissardii',False,C\ Torné,5.38,4.98,ok,,medium
+0047413AR,Cercis siliquastrum,False,C\ Mare de Déu de Lorda,,7.38,median,,check
+0047414AR,Platanus × acerifolia,True,Via Bàrcino,4.05,3.52,ok,,medium
+0047415AR,Citrus × aurantium,False,C\ Finestrelles,1.94,1.47,ok,,none
+0047416AR,Acer negundo,False,Via Bàrcino,,30.99,no_facade,,check
+0047418AR,Ligustrum lucidum,False,C\ Mossèn Epifani Lorda,2.87,2.44,ok,,small
+0047420AR,Prunus cerasifera 'Pissardii',False,C\ Foradada,,12.18,median,3.48,check
+0047421AR,Prunus cerasifera 'Pissardii',False,C\ Turó de la Trinitat,4.94,4.09,ok,,medium
+0047422AR,Robinia pseudoacacia,False,Pl Josep Andreu i Abelló,,50.81,no_facade,9.29,check
+0047424AR,Cercis siliquastrum,False,C\ Mare de Déu de Lorda,2.49,2.14,ok,,none
+0047425AR,Prunus cerasifera 'Pissardii',False,C\ Turó de la Trinitat,3.68,3.21,ok,,medium
+0047427AR,Melia azedarach,False,Via Bàrcino,,40.55,no_facade,,check
+0047429AR,Melia azedarach,False,C\ Torrent de Perera,,12.43,median,7.83,check
+0047430AR,Acer campestre 'Pyramidale',False,Via Bàrcino,,7.47,median,6.74,check
+0047431AR,Robinia pseudoacacia,False,C\ Pare Pérez del Pulgar,2.31,1.66,ok,,none
+0047432AR,Pyrus calleryana 'Chanticleer',False,C\ Peníscola,4.35,3.61,ok,,medium
+0047433AR,Platanus × acerifolia,True,Via Bàrcino,6.45,3.34,ok,,large
+0047434AR,Pyrus calleryana 'Chanticleer',False,C\ Peníscola,4.11,3.63,ok,,medium
+0047435AR,Platanus × acerifolia,True,Via Bàrcino,,20.14,median,17.58,check
+0047436AR,Styphnolobium japonicum,False,C\ Pare Manjón,12.54,5.47,ok,,large
+0047437AR,Pyrus calleryana 'Chanticleer',False,C\ Tossal,2.47,1.75,ok,,none
+0047439AR,Cercis siliquastrum,False,C\ Mare de Déu de Lorda,3.69,3.41,ok,,medium
+0047440AR,Pyrus calleryana 'Chanticleer',False,C\ Peníscola,,13.05,median,15.42,check
+0047441AR,Robinia pseudoacacia,False,C\ Pare Pérez del Pulgar,2.48,1.82,ok,,none
+0047442AR,Prunus cerasifera 'Pissardii',False,C\ Turó de la Trinitat,3.87,3.47,ok,,medium
+0047443AR,Acer buergerianum,False,Via Bàrcino,4.35,3.68,ok,,medium
+0047444AR,Pyrus calleryana 'Chanticleer',False,C\ Mireia,2.62,1.96,ok,,small
+0047445AR,Melia azedarach,False,Ctra Ribes,,30.55,no_facade,5.51,check
+0047448AR,Melia azedarach,False,Via Bàrcino,,25.96,no_kerb,,check
+0047452AR,Platanus × acerifolia,True,C\ Torrent de Perera,,13.47,median,8.05,check
+0047453AR,Cercis siliquastrum,False,C\ Mare de Déu de Lorda,2.49,1.99,ok,,none
+0047454AR,Melia azedarach,False,Pl Josep Andreu i Abelló,,66.43,no_facade,10.33,check
+0047458AR,Citrus × aurantium,False,C\ Finestrelles,2.04,1.56,ok,,none
+0047459AR,Styphnolobium japonicum,False,C\ Pare Manjón,13.45,5.16,ok,,large
+0047461AR,Prunus cerasifera 'Pissardii',False,C\ Foradada,2.7,2.26,ok,,small
+0047462AR,Pyrus calleryana 'Chanticleer',False,C\ Peníscola,3.76,3.11,ok,,medium
+0047466AR,Melia azedarach,False,Pl Josep Andreu i Abelló,,69.79,no_facade,9.08,check
+0047467AR,Melia azedarach,False,C\ Torrent de Perera,,15.98,median,18.04,check
+0047468AR,Cercis siliquastrum,False,C\ Mare de Déu de Lorda,2.22,1.85,ok,,none
+0047469AR,Tipuana tipu,False,Pg Santa Coloma,,94.0,no_facade,13.3,check
+0047470AR,Acer platanoides,False,Via Bàrcino,,30.86,no_facade,,check
+0047471AR,Citrus × aurantium,False,C\ Turó de la Trinitat,2.5,2.08,ok,,small
+0047474AR,Melia azedarach,False,Via Bàrcino,26.36,24.97,ok,,large
+0047475AR,Pyrus calleryana 'Chanticleer',False,C\ Finestrelles,3.0,2.27,ok,,small
+0047476AR,Pyrus calleryana 'Chanticleer',False,C\ Tossal,,12.25,median,6.85,check
+0047477AR,Platanus × acerifolia,True,C\ Pare Manjón,4.52,3.75,ok,,medium
+0047478AR,Prunus cerasifera 'Pissardii',False,C\ Ausona,2.82,2.18,ok,,small
+0047479AR,Cercis siliquastrum,False,C\ Mare de Déu de Lorda,5.1,2.0,ok,,medium
+0047481AR,Pyrus calleryana 'Chanticleer',False,C\ Mireia,2.67,2.06,ok,,small
+0047482AR,Citrus × aurantium,False,C\ Finestrelles,2.0,1.55,ok,,none
+0047484AR,Robinia pseudoacacia,False,C\ Pare Pérez del Pulgar,,9.87,median,2.92,check
+0047487AR,Platanus × acerifolia,True,C\ Mare de Déu de Lorda,,8.42,median,,check
+0047491AR,Cercis siliquastrum,False,C\ Mare de Déu de Lorda,,5.35,median,26.78,check
+0047492AR,Acer buergerianum,False,Via Bàrcino,,15.27,median,3.66,check
+0047493AR,Styphnolobium japonicum,False,Pl Trinitat,,13.02,median,,check
+0047495AR,Platanus × acerifolia,True,C\ Pare Pérez del Pulgar,7.15,6.67,ok,,large
+0047496AR,Citrus × aurantium,False,C\ Mireia,2.84,2.15,ok,,small
+0047497AR,Quercus robur 'Fastigiata',False,C\ Vinya Llarga,,3.16,no_kerb,,check
+0047498AR,Citrus × aurantium,False,C\ Mireia,2.66,2.17,ok,,small
+0047500AR,Melia azedarach,False,Ctra Ribes,,14.5,median,7.75,check
+0047501AR,Melia azedarach,False,C\ Torrent de Perera,4.91,4.24,ok,,medium
+0047502AR,Styphnolobium japonicum,False,C\ Pare Manjón,,22.7,median,,check
+0047503AR,Pyrus calleryana 'Chanticleer',False,C\ Peníscola,4.03,3.31,ok,,medium
+0047504AR,Prunus cerasifera 'Pissardii',False,C\ Turó de la Trinitat,3.75,3.24,ok,,medium
+0047505AR,Pyrus calleryana 'Chanticleer',False,C\ Finestrelles,3.23,2.73,ok,,small
+0047506AR,Cercis siliquastrum,False,C\ Turó de la Trinitat,,9.32,median,4.33,check
+0047507AR,Robinia pseudoacacia,False,C\ Pare Pérez del Pulgar,,21.17,median,3.02,check
+0047508AR,Citrus × aurantium,False,C\ Finestrelles,1.87,1.2,ok,,none
+0047509AR,Styphnolobium japonicum,False,C\ Pare Manjón,,9.76,no_kerb,36.96,check
+0047510AR,Pyrus calleryana 'Chanticleer',False,C\ Tossal,,13.65,median,12.54,check
+0047511AR,Prunus cerasifera 'Pissardii',False,C\ Turó de la Trinitat,11.81,9.11,ok,,large
+0047512AR,Washingtonia filifera,False,C\ Foradada,9.07,2.01,ok,,large
+0047513AR,Ulmus pumila,False,C\ Tossal,,15.08,median,19.24,check
+0047514AR,Platanus × acerifolia,True,C\ Mare de Déu de Lorda,,9.55,median,,check
+0047515AR,Melia azedarach,False,Via Bàrcino,17.79,6.39,ok,,large
+0047516AR,Prunus cerasifera 'Pissardii',False,C\ Foradada,2.37,1.93,ok,,none
+0047518AR,Citrus × aurantium,False,C\ Foradada,2.73,2.27,ok,,small
+0047521AR,Melia azedarach,False,C\ Torrent de Perera,3.65,3.09,ok,,medium
+0047522AR,Catalpa bignonioides,False,C\ Torrent de Perera,,10.42,median,20.46,check
+0047523AR,Pyrus calleryana 'Chanticleer',False,C\ Peníscola,5.41,4.8,ok,,medium
+0047525AR,Styphnolobium japonicum,False,C\ Pare Manjón,12.59,11.8,ok,,large
+0047527AR,Prunus cerasifera 'Pissardii',False,C\ Turó de la Trinitat,3.69,3.2,ok,,medium
+0047528AR,Platanus × acerifolia,True,C\ Pare Pérez del Pulgar,,14.45,median,18.91,check
+0047529AR,Platanus × acerifolia,True,Via Bàrcino,,10.09,median,25.4,check
+0047530AR,Acer buergerianum,False,Via Bàrcino,,15.96,median,3.95,check
+0047531AR,Styphnolobium japonicum,False,C\ Pare Manjón,2.98,2.19,ok,,small
+0047532AR,Prunus avium,False,C\ Torrent de Perera,5.92,5.12,ok,,medium
+0047533AR,Platanus × acerifolia,True,Pl Trinitat,,6.49,median,5.69,check
+0047534AR,Robinia pseudoacacia,False,Pl Josep Andreu i Abelló,7.59,6.61,ok,,large
+0047538AR,Melia azedarach,False,C\ Tossal,3.49,2.88,ok,,small
+0047539AR,Photinia x fraseri 'Red Robin',False,Pl Trinitat,3.04,2.29,ok,,small
+0047540AR,Citrus × aurantium,False,C\ Mireia,3.1,2.64,ok,,small
+0047543AR,Robinia pseudoacacia,False,Ctra Ribes,,30.24,no_facade,5.55,check
+0047544AR,Melia azedarach,False,C\ Tossal,3.49,2.64,ok,,small
+0047546AR,Melia azedarach,False,Pl Josep Andreu i Abelló,,61.68,no_facade,9.73,check
+0047547AR,Platanus × acerifolia,True,Via Bàrcino,3.99,3.38,ok,,medium
+0047548AR,Catalpa bignonioides,False,Pl Turó de la Trinitat,7.45,6.96,ok,,large
+0047551AR,Platanus × acerifolia,True,Via Bàrcino,3.82,3.11,ok,,medium
+0047553AR,Citrus × aurantium,False,C\ Turó de la Trinitat,2.95,2.55,ok,,small
+0047554AR,Styphnolobium japonicum,False,C\ Pare Manjón,,11.37,median,,check
+0047555AR,Pyrus calleryana 'Chanticleer',False,C\ Pare Pérez del Pulgar,6.74,6.23,ok,,large
+0047556AR,Melia azedarach,False,Ctra Ribes,15.07,14.49,ok,,large
+0047557AR,Acer buergerianum,False,Via Bàrcino,4.98,3.7,ok,,medium
+0047558AR,Acer saccharinum,False,Via Bàrcino,4.75,3.57,ok,,medium
+0047559AR,Citrus × aurantium,False,C\ Mireia,2.54,2.12,ok,,small
+0047560AR,Citrus × aurantium,False,C\ Mireia,2.39,1.86,ok,,none
+0047561AR,Styphnolobium japonicum,False,C\ Pare Manjón,12.55,5.28,ok,,large
+0047562AR,Cercis siliquastrum,False,C\ Mare de Déu de Lorda,2.7,2.26,ok,,small
+0047564AR,Platanus × acerifolia,True,Pl Trinitat,,6.38,median,,check
+0047566AR,Cercis siliquastrum,False,C\ Mare de Déu de Lorda,2.26,1.95,ok,,none
+0047567AR,Jacaranda mimosifolia,False,Av Meridiana,8.41,3.81,ok,,large
+0047569AR,Melia azedarach,False,Pl Josep Andreu i Abelló,,41.87,no_facade,11.85,check
+0047570AR,Gleditsia triacanthos 'sunburst',False,C\ Torrent de Perera,,20.25,median,7.55,check
+0047571AR,Pyrus calleryana 'Chanticleer',False,C\ Peníscola,4.31,3.71,ok,,medium
+0047573AR,Pyrus calleryana 'Chanticleer',False,C\ Mireia,1.91,1.14,ok,,none
+0047574AR,Citrus × aurantium,False,C\ Mireia,2.52,1.86,ok,,small
+0047575AR,Platanus × acerifolia,True,C\ Torrent de Perera,,13.53,median,6.77,check
+0047577AR,Platanus × acerifolia,True,Via Bàrcino,6.46,3.51,ok,,large
+0047579AR,Catalpa bignonioides,False,C\ Torrent de Perera,4.13,3.62,ok,,medium
+0047582AR,Catalpa bignonioides,False,C\ Torrent de Perera,,26.29,median,17.98,check
+0047583AR,Citrus × aurantium,False,C\ Turó de la Trinitat,3.04,2.75,ok,,small
+0047584AR,Prunus cerasifera 'Pissardii',False,C\ Foradada,12.67,7.06,ok,,large
+0047585AR,Citrus × aurantium,False,C\ Foradada,6.82,5.64,ok,,large
+0047586AR,Cercis siliquastrum,False,C\ Mare de Déu de Lorda,2.52,2.12,ok,,small
+0047589AR,Pyrus calleryana 'Chanticleer',False,C\ Peníscola,,12.8,median,20.74,check
+0047590AR,Prunus cerasifera 'Pissardii',False,C\ Foradada,2.89,2.47,ok,,small
+0047591AR,Cercis siliquastrum,False,C\ Mare de Déu de Lorda,2.58,2.13,ok,,small
+0047593AR,Acer platanoides,False,Via Bàrcino,17.3,5.74,ok,,large
+0047596AR,Citrus × aurantium,False,C\ Foradada,2.4,2.09,ok,,none
+0047598AR,Prunus cerasifera 'Pissardii',False,C\ Foradada,4.57,3.86,ok,,medium
+0047604AR,Melia azedarach,False,Ctra Ribes,,63.88,no_facade,30.08,check
+0047605AR,Platanus × acerifolia,True,Pl Trinitat,,6.5,median,,check
+0047609AR,Citrus × aurantium,False,C\ Finestrelles,1.96,1.45,ok,,none
+0047610AR,Styphnolobium japonicum,False,C\ Pare Manjón,12.69,11.87,ok,,large
+0047611AR,Robinia pseudoacacia,False,C\ Tossal,,12.8,median,7.07,check
+0047612AR,Hibiscus syriacus,False,C\ Ausona,2.36,1.7,ok,,none
+0047615AR,Melia azedarach,False,C\ Tossal,3.54,2.65,ok,,medium
+0047616AR,Melia azedarach,False,C\ Torrent de Perera,,26.96,median,16.73,check
+0047619AR,Catalpa bignonioides,False,C\ Torrent de Perera,,11.64,median,24.12,check
+0047622AR,Citrus × aurantium,False,C\ Pare Pérez del Pulgar,,24.88,median,2.72,check
+0047624AR,Styphnolobium japonicum,False,C\ Pare Manjón,12.29,5.02,ok,,large
+0047626AR,Platanus × acerifolia,True,Pl Trinitat,,8.64,median,13.3,check
+0047627AR,Cercis siliquastrum,False,C\ Mare de Déu de Lorda,2.3,1.89,ok,,none
+0047629AR,Pyrus calleryana 'Chanticleer',False,C\ Mireia,2.06,1.57,ok,,none
+0047633AR,Prunus cerasifera 'Pissardii',False,C\ Turó de la Trinitat,3.51,3.01,ok,,medium
+0047634AR,Melia azedarach,False,Pl Josep Andreu i Abelló,,63.44,no_facade,9.52,check
+0047636AR,Pyrus calleryana 'Chanticleer',False,C\ Mireia,1.88,1.34,ok,,none
+0047637AR,Citrus × aurantium,False,C\ Finestrelles,1.95,1.43,ok,,none
+0047638AR,Citrus × aurantium,False,C\ Turó de la Trinitat,2.98,2.53,ok,,small
+0047640AR,Melia azedarach,False,Pl Josep Andreu i Abelló,,53.73,no_facade,8.98,check
+0047641AR,Platanus × acerifolia,True,C\ Pare Pérez del Pulgar,,3.41,median,2.26,check
+0047643AR,Ligustrum lucidum,False,C\ Mossèn Epifani Lorda,2.37,1.78,ok,,none
+0047645AR,Melia azedarach,False,C\ Tossal,2.33,1.65,ok,,none
+0047648AR,Citrus × aurantium,False,C\ Turó de la Trinitat,2.2,1.67,ok,,none
+0047649AR,Robinia pseudoacacia,False,Pl Josep Andreu i Abelló,,34.73,no_facade,,check
+0047650AR,Prunus cerasifera 'Pissardii',False,C\ Foradada,2.14,1.87,ok,,none
+0047652AR,Platanus × acerifolia,True,C\ Mireia,,8.44,median,2.4,check
+0047653AR,Citrus × aurantium,False,C\ Foradada,2.71,2.29,ok,,small
+0047656AR,Citrus × aurantium,False,C\ Finestrelles,1.9,1.49,ok,,none
+0047662AR,Cercis siliquastrum,False,C\ Mare de Déu de Lorda,2.63,2.1,ok,,small
+0047663AR,Platanus × acerifolia,True,Via Bàrcino,,20.18,median,19.16,check
+0047664AR,Styphnolobium japonicum,False,C\ Pare Manjón,12.7,5.85,ok,,large
+0047666AR,Prunus cerasifera 'Pissardii',False,C\ Torné,8.3,7.55,ok,,large
+0047667AR,Pyrus calleryana 'Chanticleer',False,C\ Tossal,,14.21,median,9.57,check
+0047668AR,Pyrus calleryana 'Chanticleer',False,C\ Peníscola,4.05,3.45,ok,,medium
+0047669AR,Acer platanoides,False,Via Bàrcino,,35.56,no_facade,,check
+0047671AR,Platanus × acerifolia,True,C\ Pare Pérez del Pulgar,,15.67,median,8.33,check
+0047672AR,Platanus × acerifolia,True,C\ Pare Pérez del Pulgar,,14.53,median,,check
+0047673AR,Cercis siliquastrum,False,C\ Mare de Déu de Lorda,2.56,2.07,ok,,small
+0047674AR,Melia azedarach,False,Via Bàrcino,,27.76,no_kerb,,check
+0047675AR,Cercis siliquastrum,False,C\ Mare de Déu de Lorda,2.48,2.02,ok,,none
+0047676AR,Hibiscus syriacus,False,C\ Ausona,2.35,1.72,ok,,none
+0047677AR,Robinia pseudoacacia,False,C\ Tossal,,12.13,median,6.94,check
+0047678AR,Prunus cerasifera 'Pissardii',False,C\ Foradada,3.9,3.49,ok,,medium
+0047680AR,Prunus cerasifera 'Pissardii',False,C\ Foradada,2.23,1.77,ok,,none
+0047681AR,Citrus × aurantium,False,C\ Mireia,2.44,2.06,ok,,none
+0047682AR,Quercus robur 'Fastigiata',False,C\ Vinya Llarga,,2.73,no_kerb,,check
+0047683AR,Citrus × aurantium,False,C\ Mireia,2.87,2.06,ok,,small
+0047685AR,Acer platanoides,False,Via Bàrcino,,31.25,no_facade,,check
+0047687AR,Platanus × acerifolia,True,C\ Pare Pérez del Pulgar,,15.28,median,,check
+0047688AR,Platanus × acerifolia,True,Pl Trinitat,,9.16,median,,check
+0047689AR,Platanus × acerifolia,True,C\ Pare Pérez del Pulgar,,12.26,median,7.8,check
+0047691AR,Gleditsia triacanthos 'sunburst',False,C\ Torrent de Perera,,11.7,median,24.31,check
+0047692AR,Cercis siliquastrum,False,C\ Mare de Déu de Lorda,3.05,2.67,ok,,small
+0047693AR,Platanus × acerifolia,True,C\ Torrent de Perera,,13.04,median,7.87,check
+0047695AR,Pyrus calleryana 'Chanticleer',False,C\ Peníscola,4.17,3.68,ok,,medium
+0047697AR,Prunus cerasifera 'Pissardii',False,C\ Foradada,15.88,13.4,ok,,large
+0047700AR,Platanus × acerifolia,True,C\ Pare Manjón,4.52,3.79,ok,,medium
+0047702AR,Firmiana simplex,False,C\ Peníscola,,2.98,no_kerb,27.15,check
+0047703AR,Cercis siliquastrum,False,C\ Mare de Déu de Lorda,2.54,2.06,ok,,small
+0047704AR,Platanus × acerifolia,True,C\ Mare de Déu de Lorda,5.06,1.38,ok,,medium
+0047705AR,Cercis siliquastrum,False,C\ Mare de Déu de Lorda,,5.51,median,26.93,check
+0047708AR,Catalpa bignonioides,False,C\ Torrent de Perera,4.18,3.64,ok,,medium
+0047709AR,Melia azedarach,False,Via Bàrcino,,31.28,no_facade,,check
+0047714AR,Melia azedarach,False,Pl Josep Andreu i Abelló,,16.16,median,12.9,check
+0047716AR,Platanus × acerifolia,True,Pl Trinitat,3.04,2.27,ok,,small
+0047717AR,Robinia pseudoacacia,False,C\ Pare Pérez del Pulgar,6.71,6.37,ok,,large
+0047718AR,Platanus × acerifolia,True,C\ Mireia,,8.5,median,2.43,check
+0047719AR,Tipuana tipu,False,Pg Santa Coloma,,111.73,no_facade,15.81,check
+0047720AR,Cercis siliquastrum,False,C\ Mare de Déu de Lorda,2.48,2.09,ok,,none
+0047721AR,Cupressus sempervirens,False,C\ Suñol i Gras,,6.07,median,6.21,check
+0047724AR,Platanus × acerifolia,True,Via Bàrcino,,14.12,median,2.82,check
+0047728AR,Styphnolobium japonicum,False,Pl Trinitat,,13.07,median,,check
+0047730AR,Platanus × acerifolia,True,C\ Pare Pérez del Pulgar,8.64,8.17,ok,,large
+0047732AR,Prunus cerasifera 'Pissardii',False,C\ Turó de la Trinitat,3.57,3.04,ok,,medium
+0047737AR,Melia azedarach,False,Ctra Ribes,,33.09,no_facade,5.5,check
+0047738AR,Tipuana tipu,False,Pg Santa Coloma,,115.65,no_facade,13.78,check
+0047740AR,Citrus × aurantium,False,C\ Turó de la Trinitat,2.77,2.24,ok,,small
+0047741AR,Acer buergerianum,False,Via Bàrcino,7.45,5.6,ok,,large
+0047743AR,Melia azedarach,False,Via Bàrcino,,22.05,no_kerb,,check
+0047744AR,Platanus × acerifolia,True,C\ Pare Pérez del Pulgar,,14.22,median,7.43,check
+0047745AR,Pyrus calleryana 'Chanticleer',False,C\ Ausona,2.3,1.78,ok,,none
+0047746AR,Platanus × acerifolia,True,C\ Pare Pérez del Pulgar,4.76,4.11,ok,,medium
+0047748AR,Styphnolobium japonicum,False,C\ Pare Manjón,,10.69,no_kerb,,check
+0047750AR,Pyrus calleryana 'Chanticleer',False,C\ Tossal,2.55,1.92,ok,,small
+0047751AR,Platanus × acerifolia,True,C\ Pare Pérez del Pulgar,5.19,4.66,ok,,medium
+0047752AR,Styphnolobium japonicum,False,C\ Pare Manjón,,8.09,median,,check
+0047753AR,Cercis siliquastrum,False,C\ Mare de Déu de Lorda,3.27,2.81,ok,,small
+0047754AR,Pyrus calleryana 'Chanticleer',False,C\ Tossal,3.52,2.85,ok,,medium
+0047759AR,Robinia pseudoacacia,False,Pl Josep Andreu i Abelló,,36.92,no_facade,12.28,check
+0047761AR,Acer buergerianum,False,Via Bàrcino,,15.71,median,3.49,check
+0047762AR,Hibiscus syriacus,False,C\ Ausona,2.14,1.39,ok,,none
+0047763AR,Pyrus calleryana 'Chanticleer',False,C\ Tossal,,10.37,median,5.12,check
+0047764AR,Platanus × acerifolia,True,C\ Pare Pérez del Pulgar,,15.46,median,7.71,check
+0047768AR,Prunus cerasifera 'Pissardii',False,C\ Turó de la Trinitat,3.72,3.24,ok,,medium
+0047769AR,Platanus × acerifolia,True,Via Bàrcino,,22.86,median,17.52,check
+0047770AR,Robinia pseudoacacia,False,C\ Pare Pérez del Pulgar,2.67,1.91,ok,,small
+0047771AR,Prunus cerasifera 'Pissardii',False,C\ Turó de la Trinitat,3.0,2.51,ok,,small
+0047772AR,Pyrus calleryana 'Chanticleer',False,C\ Mireia,2.21,1.38,ok,,none
+0047777AR,Platanus × acerifolia,True,C\ Pare Pérez del Pulgar,,14.42,median,,check
+0047778AR,Citrus × aurantium,False,C\ Mireia,2.92,2.43,ok,,small
+0047779AR,Citrus × aurantium,False,C\ Turó de la Trinitat,2.47,1.86,ok,,none
+0047780AR,Pyrus calleryana 'Chanticleer',False,C\ Finestrelles,3.24,2.78,ok,,small
+0047781AR,Platanus × acerifolia,True,Via Bàrcino,6.44,3.42,ok,,large
+0047782AR,Pyrus calleryana 'Chanticleer',False,C\ Peníscola,,13.91,median,,check
+0047783AR,Platanus × acerifolia,True,Via Bàrcino,,10.47,median,,check
+0047784AR,Platanus × acerifolia,True,Via Bàrcino,,9.9,median,14.06,check
+0047785AR,Citrus × aurantium,False,C\ Mireia,2.89,2.14,ok,,small
+0047786AR,Acer buergerianum,False,Via Bàrcino,,16.0,median,3.78,check
+0047788AR,Platanus × acerifolia,True,C\ Torrent de Perera,,18.03,median,21.24,check
+0047791AR,Prunus cerasifera 'Pissardii',False,C\ Foradada,2.22,1.84,ok,,none
+0047792AR,Cercis siliquastrum,False,C\ Mare de Déu de Lorda,3.32,2.94,ok,,small
+0047793AR,Tipuana tipu,False,C\ Alt,2.75,2.0,ok,,small
+0047794AR,Citrus × aurantium,False,C\ Finestrelles,1.98,1.44,ok,,none
+0047795AR,Platanus × acerifolia,True,C\ Pare Pérez del Pulgar,2.53,1.9,ok,,small
+0047797AR,Robinia pseudoacacia,False,Pl Josep Andreu i Abelló,,45.94,no_facade,9.13,check
+0047799AR,Melia azedarach,False,Pl Josep Andreu i Abelló,,64.81,no_facade,8.93,check
+0047800AR,Acer buergerianum,False,Via Bàrcino,17.13,14.2,ok,,large
+0047802AR,Cercis siliquastrum,False,C\ Mare de Déu de Lorda,2.94,2.66,ok,,small
+0047803AR,Citrus × aurantium,False,C\ Tossal,3.57,3.04,ok,,medium
+0047804AR,Cercis siliquastrum,False,C\ Mare de Déu de Lorda,5.08,2.31,ok,,medium
+0047805AR,Pyrus calleryana 'Chanticleer',False,C\ Peníscola,4.24,3.43,ok,,medium
+0047806AR,Platanus × acerifolia,True,C\ Pare Pérez del Pulgar,,13.45,median,7.75,check
+0047807AR,Acer buergerianum,False,Via Bàrcino,,10.44,median,6.41,check
+0047809AR,Platanus × acerifolia,True,Pl Trinitat,,12.31,median,,check
+0047811AR,Citrus × aurantium,False,C\ Turó de la Trinitat,2.14,1.72,ok,,none
+0047812AR,Quercus robur 'Fastigiata',False,C\ Vinya Llarga,,2.7,no_kerb,,check
+0047813AR,Citrus × aurantium,False,C\ Foradada,2.32,1.93,ok,,none
+0047814AR,Platanus × acerifolia,True,C\ Mare de Déu de Lorda,,8.6,median,,check
+0047817AR,Cercis siliquastrum,False,C\ Mare de Déu de Lorda,2.41,1.96,ok,,none
+0047819AR,Pyrus calleryana 'Chanticleer',False,C\ Pare Pérez del Pulgar,,19.78,median,19.21,check
+0047820AR,Citrus × aurantium,False,C\ Foradada,2.7,2.29,ok,,small
+0047821AR,Tipuana tipu,False,C\ Mossèn Epifani Lorda,,9.15,median,,check
+0047823AR,Platanus × acerifolia,True,C\ Pare Pérez del Pulgar,5.22,4.72,ok,,medium
+0047824AR,Platanus × acerifolia,True,Via Bàrcino,4.06,3.45,ok,,medium
+0047825AR,Catalpa bignonioides,False,C\ Torrent de Perera,,20.72,median,17.2,check
+0047826AR,Ulmus pumila,False,C\ Tossal,,15.02,median,21.96,check
+0047827AR,Ligustrum lucidum,False,C\ Mossèn Epifani Lorda,,6.44,median,24.63,check
+0047828AR,Styphnolobium japonicum,False,C\ Pare Manjón,12.51,11.6,ok,,large
+0047829AR,Platanus × acerifolia,True,Via Bàrcino,,25.57,median,18.55,check
+0047836AR,Pyrus calleryana 'Chanticleer',False,C\ Mireia,1.87,1.18,ok,,none
+0047837AR,Pyrus calleryana 'Chanticleer',False,C\ Peníscola,4.22,3.46,ok,,medium
+0047838AR,Ulmus pumila,False,C\ Tossal,,15.23,median,29.29,check
+0047839AR,Citrus × aurantium,False,C\ Foradada,2.21,1.76,ok,,none
+0047841AR,Platanus × acerifolia,True,Via Bàrcino,,9.89,median,14.18,check
+0047842AR,Melia azedarach,False,C\ Torrent de Perera,8.1,7.44,ok,,large
+0047843AR,Acer negundo,False,Via Bàrcino,,20.24,no_kerb,,check
+0047845AR,Pyrus calleryana 'Chanticleer',False,C\ Pare Pérez del Pulgar,6.07,5.55,ok,,large
+0047846AR,Prunus cerasifera 'Pissardii',False,C\ Foradada,8.92,8.29,ok,,large
+0047847AR,Melia azedarach,False,C\ Tossal,3.54,2.88,ok,,medium
+0047848AR,Acer buergerianum,False,Via Bàrcino,6.24,3.83,ok,,large
+0047852AR,Populus alba,False,C\ Torné,5.36,4.69,ok,,medium
+0047853AR,Acer platanoides,False,Via Bàrcino,17.26,6.29,ok,,large
+0047855AR,Platanus × acerifolia,True,Via Bàrcino,,10.23,median,,check
+0047856AR,Robinia pseudoacacia,False,Pl Josep Andreu i Abelló,,67.38,no_facade,10.01,check
+0047858AR,Prunus cerasifera 'Pissardii',False,C\ Torné,5.16,4.67,ok,,medium
+0047859AR,Cercis siliquastrum,False,C\ Mare de Déu de Lorda,2.26,1.78,ok,,none
+0047864AR,Robinia pseudoacacia,False,C\ Pare Pérez del Pulgar,6.78,6.1,ok,,large
+0047865AR,Cercis siliquastrum,False,C\ Mare de Déu de Lorda,2.41,1.91,ok,,none
+0047866AR,Melia azedarach,False,Via Bàrcino,,30.06,no_facade,,check
+0047867AR,Melia azedarach,False,Via Bàrcino,,31.1,no_facade,,check
+0047868AR,Platanus × acerifolia,True,C\ Pare Manjón,4.53,3.81,ok,,medium
+0047869AR,Citrus × aurantium,False,C\ Turó de la Trinitat,2.29,1.81,ok,,none
+0047870AR,Platanus × acerifolia,True,Via Bàrcino,4.37,3.45,ok,,medium
+0047871AR,Melia azedarach,False,C\ Torrent de Perera,,28.98,median,14.35,check
+0047873AR,Melia azedarach,False,Via Bàrcino,15.19,13.55,ok,,large
+0047874AR,Cercis siliquastrum,False,C\ Mare de Déu de Lorda,,5.47,median,27.0,check
+0047875AR,Melia azedarach,False,C\ Torrent de Perera,5.49,4.78,ok,,medium
+0047877AR,Cercis siliquastrum,False,C\ Mare de Déu de Lorda,2.97,2.4,ok,,small
+0047878AR,Platanus × acerifolia,True,C\ Suñol i Gras,,8.92,median,,check
+0047879AR,Citrus × aurantium,False,C\ Turó de la Trinitat,,6.16,median,,check
+0047880AR,Citrus × aurantium,False,C\ Foradada,2.23,1.64,ok,,none
+0047881AR,Citrus × aurantium,False,C\ Turó de la Trinitat,2.05,1.52,ok,,none
+0047885AR,Cercis siliquastrum,False,C\ Mare de Déu de Lorda,2.51,2.29,ok,,small
+0047887AR,Melia azedarach,False,Via Bàrcino,,39.85,no_facade,,check
+0047889AR,Platanus × acerifolia,True,C\ Torrent de Perera,,11.98,median,6.04,check
+0047891AR,Pyrus calleryana 'Chanticleer',False,C\ Mireia,2.62,2.09,ok,,small
+0047895AR,Platanus × acerifolia,True,C\ Pare Pérez del Pulgar,6.23,5.62,ok,,large
+0047899AR,Styphnolobium japonicum,False,C\ Pare Manjón,12.65,11.85,ok,,large
+0047900AR,Cercis siliquastrum,False,C\ Mare de Déu de Lorda,,5.54,median,26.71,check
+0047901AR,Firmiana simplex,False,C\ Peníscola,12.06,10.21,ok,,large
+0047902AR,Styphnolobium japonicum,False,Pl Trinitat,,13.1,median,13.29,check
+0047903AR,Platanus × acerifolia,True,Via Bàrcino,4.35,3.57,ok,,medium
+0047904AR,Styphnolobium japonicum,False,C\ Pare Manjón,12.68,11.97,ok,,large
+0047908AR,Platanus × acerifolia,True,C\ Mare de Déu de Lorda,,8.92,median,,check
+0047910AR,Acer negundo,False,Via Bàrcino,,14.37,no_kerb,,check
+0047911AR,Pinus halepensis,False,Pl Turó de la Trinitat,,19.59,median,25.83,check
+0047912AR,Platanus × acerifolia,True,C\ Suñol i Gras,5.94,5.3,ok,,medium
+0047913AR,Prunus cerasifera 'Pissardii',False,C\ Turó de la Trinitat,3.64,3.22,ok,,medium
+0047914AR,Melia azedarach,False,Via Bàrcino,,35.21,no_facade,,check
+0047915AR,Prunus cerasifera 'Pissardii',False,C\ Turó de la Trinitat,3.71,3.16,ok,,medium
+0047919AR,Catalpa bignonioides,False,C\ Torrent de Perera,,11.12,median,15.46,check
+0047921AR,Platanus × acerifolia,True,Via Bàrcino,,20.46,median,18.67,check
+0047922AR,Melia azedarach,False,Ctra Ribes,,59.23,no_facade,5.4,check
+0047923AR,Cercis siliquastrum,False,C\ Mare de Déu de Lorda,2.43,2.02,ok,,none
+0047924AR,Cercis siliquastrum,False,C\ Mare de Déu de Lorda,2.57,2.12,ok,,small
+0047926AR,Platanus × acerifolia,True,Pl Trinitat,,6.35,median,,check
+0047931AR,Melia azedarach,False,C\ Tossal,3.52,2.77,ok,,medium
+0047936AR,Prunus cerasifera 'Pissardii',False,C\ Foradada,2.44,1.94,ok,,none
+0047937AR,Cercis siliquastrum,False,C\ Mare de Déu de Lorda,2.54,2.18,ok,,small
+0047938AR,Ligustrum lucidum,False,C\ Mossèn Epifani Lorda,2.47,2.11,ok,,none
+0047940AR,Citrus × aurantium,False,C\ Foradada,2.83,2.44,ok,,small
+0047941AR,Platanus × acerifolia,True,C\ Pare Pérez del Pulgar,,26.79,median,20.17,check
+0047943AR,Platanus × acerifolia,True,Via Bàrcino,,11.6,median,,check
+0047944AR,Prunus cerasifera 'Pissardii',False,C\ Foradada,2.58,2.09,ok,,small
+0047946AR,Melia azedarach,False,Via Bàrcino,,34.27,no_facade,,check
+0047950AR,Melia azedarach,False,Pl Josep Andreu i Abelló,,56.22,no_facade,9.5,check
+0047951AR,Platanus × acerifolia,True,Via Bàrcino,4.52,3.49,ok,,medium
+0047952AR,Citrus × aurantium,False,C\ Turó de la Trinitat,2.3,1.88,ok,,none
+0047955AR,Cercis siliquastrum,False,C\ Mare de Déu de Lorda,2.43,2.12,ok,,none
+0047957AR,Prunus cerasifera 'Pissardii',False,C\ Foradada,2.2,1.92,ok,,none
+0047958AR,Prunus cerasifera 'Pissardii',False,C\ Foradada,2.16,1.84,ok,,none
+0047959AR,Cercis siliquastrum,False,C\ Mare de Déu de Lorda,2.53,2.11,ok,,small
+0047961AR,Prunus cerasifera 'Pissardii',False,C\ Foradada,2.12,1.59,ok,,none
+0047965AR,Citrus × aurantium,False,C\ Turó de la Trinitat,2.22,1.72,ok,,none
+0047966AR,Prunus cerasifera 'Pissardii',False,C\ Torné,5.39,5.06,ok,,medium
+0047967AR,Pyrus calleryana 'Chanticleer',False,C\ Mireia,,6.8,median,13.4,check
+0047968AR,Pyrus calleryana 'Chanticleer',False,C\ Mireia,2.07,1.36,ok,,none
+0047973AR,Citrus × aurantium,False,C\ Tossal,2.63,1.95,ok,,small
+0047974AR,Acer negundo,False,Via Bàrcino,,21.45,no_kerb,18.19,check
+0047975AR,Prunus cerasifera 'Pissardii',False,C\ Foradada,3.15,2.52,ok,,small
+0047976AR,Prunus avium,False,Via Bàrcino,,14.84,median,3.69,check
+0047979AR,Pyrus calleryana 'Chanticleer',False,C\ Mireia,2.19,1.62,ok,,none
+0047980AR,Styphnolobium japonicum,False,C\ Pare Manjón,12.62,11.75,ok,,large
+0047981AR,Melia azedarach,False,Via Bàrcino,22.53,19.76,ok,,large
+0047982AR,Cercis siliquastrum,False,C\ Mare de Déu de Lorda,2.66,2.19,ok,,small
+0047984AR,Prunus cerasifera 'Pissardii',False,C\ Foradada,2.51,1.98,ok,,small
+0047985AR,Prunus cerasifera 'Pissardii',False,C\ Turó de la Trinitat,3.65,3.34,ok,,medium
+0047986AR,Melia azedarach,False,C\ Tossal,3.76,2.85,ok,,medium
+0047989AR,Platanus × acerifolia,True,Via Bàrcino,4.41,3.54,ok,,medium
+0047993AR,Ulmus pumila,False,C\ Tossal,,14.93,median,14.49,check
+0047998AR,Pyrus calleryana 'Chanticleer',False,C\ Tossal,7.35,5.91,ok,,large
+0047999AR,Platanus × acerifolia,True,C\ Mare de Déu de Lorda,,9.16,median,,check
+0048000AR,Pinus halepensis,False,Pl Turó de la Trinitat,,15.56,median,25.08,check
+0048001AR,Prunus cerasifera 'Pissardii',False,C\ Ausona,2.51,2.01,ok,,small
+0048003AR,Pyrus calleryana 'Chanticleer',False,C\ Tossal,2.71,2.05,ok,,small
+0048005AR,Melia azedarach,False,Ctra Ribes,,61.17,no_facade,2.44,check
+0048009AR,Melia azedarach,False,Pl Josep Andreu i Abelló,,57.67,no_facade,10.13,check
+0048010AR,Pyrus calleryana 'Chanticleer',False,C\ Mireia,2.4,1.68,ok,,none
+0048011AR,Platanus × acerifolia,True,Via Bàrcino,6.33,3.2,ok,,large
+0048012AR,Citrus × aurantium,False,C\ Mireia,2.7,2.13,ok,,small
+0048013AR,Citrus × aurantium,False,C\ Pare Pérez del Pulgar,,15.36,median,19.05,check
+0048014AR,Acer buergerianum,False,Via Bàrcino,,15.75,median,3.74,check
+0048015AR,Cercis siliquastrum,False,C\ Mare de Déu de Lorda,,5.58,median,26.59,check
+0048016AR,Citrus × aurantium,False,C\ Turó de la Trinitat,2.34,1.91,ok,,none
+0048018AR,Melia azedarach,False,Pl Josep Andreu i Abelló,,19.42,median,21.03,check
+0048023AR,Prunus cerasifera 'Pissardii',False,C\ Turó de la Trinitat,3.02,2.19,ok,,small
+0048025AR,Jacaranda mimosifolia,False,C\ Mireia,,12.75,median,13.91,check
+0048027AR,Prunus cerasifera 'Pissardii',False,C\ Turó de la Trinitat,2.78,2.34,ok,,small
+0048031AR,Styphnolobium japonicum,False,Via Bàrcino,,4.96,no_kerb,,check
+0048032AR,Pyrus calleryana 'Chanticleer',False,C\ Mireia,2.11,1.51,ok,,none
+0048033AR,Melia azedarach,False,Pl Josep Andreu i Abelló,,26.74,median,30.58,check
+0048035AR,Citrus × aurantium,False,C\ Foradada,2.29,1.99,ok,,none
+0048036AR,Pyrus calleryana 'Chanticleer',False,C\ Tossal,23.62,19.28,ok,,large
+0048038AR,Prunus cerasifera 'Pissardii',False,C\ Foradada,3.37,2.82,ok,,small
+0048040AR,Platanus × acerifolia,True,Via Bàrcino,4.09,3.59,ok,,medium
+0048041AR,Platanus × acerifolia,True,C\ Torrent de Perera,,12.13,median,8.13,check
+0048042AR,Pyrus calleryana 'Chanticleer',False,C\ Peníscola,3.96,2.91,ok,,medium
+0048043AR,Melia azedarach,False,Pl Josep Andreu i Abelló,,70.85,no_facade,10.25,check
+0048044AR,Citrus × aurantium,False,C\ Turó de la Trinitat,2.26,1.81,ok,,none
+0048045AR,Platanus × acerifolia,True,C\ Torrent de Perera,,18.59,median,27.63,check
+0048046AR,Cercis siliquastrum,False,C\ Mare de Déu de Lorda,,5.37,median,26.65,check
+0048047AR,Styphnolobium japonicum,False,C\ Pare Manjón,12.69,5.68,ok,,large
+0048052AR,Citrus × aurantium,False,C\ Turó de la Trinitat,2.17,1.76,ok,,none
+0048053AR,Pyrus calleryana 'Chanticleer',False,C\ Mireia,2.61,2.0,ok,,small
+0048054AR,Catalpa bignonioides,False,C\ Torrent de Perera,,12.24,median,19.13,check
+0048056AR,Citrus × aurantium,False,C\ Finestrelles,3.08,2.67,ok,,small
+0048057AR,Melia azedarach,False,Via Bàrcino,,31.22,no_facade,19.87,check
+0048058AR,Prunus cerasifera 'Pissardii',False,C\ Turó de la Trinitat,6.31,5.73,ok,,large
+0048061AR,Styphnolobium japonicum,False,C\ Pare Manjón,,9.81,median,,check
+0048062AR,Citrus × aurantium,False,C\ Finestrelles,3.23,2.73,ok,,small
+0048063AR,Prunus cerasifera 'Pissardii',False,C\ Foradada,2.34,2.09,ok,,none
+0048068AR,Citrus × aurantium,False,C\ Turó de la Trinitat,2.39,1.78,ok,,none
+0048072AR,Acer platanoides,False,Via Bàrcino,,30.83,no_facade,,check
+0048073AR,Citrus × aurantium,False,C\ Turó de la Trinitat,2.38,1.83,ok,,none
+0048074AR,Platanus × acerifolia,True,C\ Pare Pérez del Pulgar,4.35,3.74,ok,,medium
+0048076AR,Melia azedarach,False,Via Bàrcino,9.68,7.41,ok,,large
+0048078AR,Catalpa bignonioides,False,C\ Torrent de Perera,,11.25,median,23.71,check
+0048080AR,Prunus cerasifera 'Pissardii',False,C\ Foradada,2.3,1.97,ok,,none
+0048081AR,Platanus × acerifolia,True,C\ Torrent de Perera,,12.67,median,6.57,check
+0048084AR,Platanus × acerifolia,True,Via Bàrcino,,24.96,median,17.27,check
+0048085AR,Melia azedarach,False,Via Bàrcino,4.41,3.62,ok,,medium
+0048087AR,Platanus × acerifolia,True,Via Bàrcino,,10.08,median,,check
+0048089AR,Platanus × acerifolia,True,Via Bàrcino,,24.98,median,17.47,check
+0048090AR,Hibiscus syriacus,False,C\ Ausona,2.25,1.49,ok,,none
+0048091AR,Citrus × aurantium,False,C\ Mireia,2.48,2.04,ok,,none
+0048092AR,Citrus × aurantium,False,C\ Pare Pérez del Pulgar,2.49,1.7,ok,,none
+0048094AR,Citrus × aurantium,False,C\ Pare Pérez del Pulgar,,11.7,median,2.65,check
+0048095AR,Citrus × aurantium,False,C\ Mireia,2.66,2.19,ok,,small
+0048096AR,Melia azedarach,False,Via Bàrcino,18.0,6.14,ok,,large
+0048097AR,Prunus cerasifera 'Pissardii',False,C\ Foradada,2.44,2.01,ok,,none
+0048098AR,Photinia x fraseri 'Red Robin',False,Pl Trinitat,3.14,2.5,ok,,small
+0048099AR,Citrus × aurantium,False,C\ Finestrelles,1.96,1.45,ok,,none
+0048105AR,Pyrus calleryana 'Chanticleer',False,C\ Tossal,3.53,2.95,ok,,medium
+0048106AR,Prunus cerasifera 'Pissardii',False,C\ Foradada,,10.08,median,5.16,check
+0048109AR,Jacaranda mimosifolia,False,Av Meridiana,,17.59,median,12.59,check
+0048110AR,Citrus × aurantium,False,C\ Mireia,2.88,2.27,ok,,small
+0048111AR,Acer platanoides,False,Via Bàrcino,18.04,11.63,ok,,large
+0048112AR,Styphnolobium japonicum,False,C\ Pare Manjón,11.88,11.08,ok,,large
+0048114AR,Jacaranda mimosifolia,False,C\ Mireia,,12.2,median,13.4,check
+0048118AR,Cercis siliquastrum,False,C\ Mare de Déu de Lorda,3.28,2.92,ok,,small
+0048120AR,Citrus × aurantium,False,C\ Foradada,2.43,2.08,ok,,none
+0048121AR,Acer campestre,False,C\ Almassora,3.15,2.38,ok,,small
+0048122AR,Pyrus calleryana 'Chanticleer',False,C\ Mireia,,6.96,median,2.45,check
+0048123AR,Acer negundo,False,C\ Torrent de Perera,11.77,10.97,ok,,large
+0048125AR,Quercus robur 'Fastigiata',False,C\ Vinya Llarga,24.11,4.35,ok,,large
+0048130AR,Ulmus pumila,False,C\ Tossal,,6.03,median,5.9,check
+0048131AR,Melia azedarach,False,Via Bàrcino,,40.63,no_facade,6.56,check
+0048133AR,Citrus × aurantium,False,C\ Turó de la Trinitat,2.2,1.61,ok,,none
+0048134AR,Cercis siliquastrum,False,C\ Mare de Déu de Lorda,2.62,2.16,ok,,small
+0048135AR,Citrus × aurantium,False,C\ Mireia,2.83,1.96,ok,,small
+0048136AR,Pyrus calleryana 'Chanticleer',False,C\ Pare Pérez del Pulgar,2.43,1.75,ok,,none
+0048137AR,Prunus cerasifera 'Pissardii',False,C\ Turó de la Trinitat,2.91,2.49,ok,,small
+0048138AR,Jacaranda mimosifolia,False,C\ Mireia,,13.31,median,14.42,check
+0048139AR,Cercis siliquastrum,False,C\ Mare de Déu de Lorda,,5.44,median,26.86,check
+0048140AR,Citrus × aurantium,False,C\ Tossal,2.59,1.81,ok,,small
+0048142AR,Pyrus calleryana 'Chanticleer',False,C\ Pare Pérez del Pulgar,2.7,2.02,ok,,small
+0048143AR,Melia azedarach,False,Via Bàrcino,,35.25,no_facade,,check
+0048144AR,Citrus × aurantium,False,C\ Tossal,2.49,1.79,ok,,none
+0048149AR,Citrus × aurantium,False,C\ Foradada,2.72,2.27,ok,,small
+0048150AR,Prunus cerasifera 'Pissardii',False,C\ Foradada,,5.96,median,13.03,check
+0048151AR,Styphnolobium japonicum,False,C\ Pare Manjón,,8.62,no_kerb,36.78,check
+0048152AR,Melia azedarach,False,C\ Torrent de Perera,,14.38,median,10.29,check
+0048154AR,Pyrus calleryana 'Chanticleer',False,C\ Mireia,1.89,1.43,ok,,none
+0048156AR,Ulmus pumila,False,Ctra Ribes,16.92,16.19,ok,,large
+0048157AR,Gleditsia triacanthos 'sunburst',False,C\ Torrent de Perera,,12.58,median,18.04,check
+0048159AR,Citrus × aurantium,False,C\ Finestrelles,2.93,2.4,ok,,small
+0048160AR,Pyrus calleryana 'Chanticleer',False,C\ Peníscola,4.17,3.48,ok,,medium
+0048161AR,Pyrus calleryana 'Chanticleer',False,C\ Peníscola,11.99,9.7,ok,,large
+0048162AR,Melia azedarach,False,C\ Tossal,3.48,2.78,ok,,small
+0048163AR,Platanus × acerifolia,True,C\ Pare Pérez del Pulgar,,13.77,median,7.45,check
+0048165AR,Citrus × aurantium,False,C\ Mireia,,5.78,median,,check
+0048166AR,Citrus × aurantium,False,C\ Turó de la Trinitat,3.61,3.05,ok,,medium
+0048167AR,Citrus × aurantium,False,C\ Foradada,2.21,1.69,ok,,none
+0048169AR,Robinia pseudoacacia,False,C\ Pare Pérez del Pulgar,,10.26,median,18.98,check
+0048170AR,Populus nigra 'Italica',False,Via Bàrcino,,29.49,median,,check
+0048171AR,Platanus × acerifolia,True,Pl Trinitat,3.32,2.76,ok,,small
+0048172AR,Prunus cerasifera 'Pissardii',False,C\ Foradada,11.99,7.22,ok,,large
+0048173AR,Ligustrum lucidum,False,C\ Mossèn Epifani Lorda,2.64,2.17,ok,,small
+0048174AR,Platanus × acerifolia,True,C\ Pare Pérez del Pulgar,,16.16,median,8.2,check
+0048177AR,Citrus × aurantium,False,C\ Turó de la Trinitat,2.29,1.83,ok,,none
+0048178AR,Hibiscus syriacus,False,C\ Ausona,2.35,1.71,ok,,none
+0048179AR,Melia azedarach,False,Ctra Ribes,,50.22,no_facade,5.42,check
+0048180AR,Citrus × aurantium,False,C\ Turó de la Trinitat,3.65,3.06,ok,,medium
+0048183AR,Gleditsia triacanthos 'sunburst',False,C\ Torrent de Perera,,12.45,median,11.57,check
+0048185AR,Platanus × acerifolia,True,Via Bàrcino,,25.29,median,,check
+0048188AR,Platanus × acerifolia,True,Via Bàrcino,,10.32,median,22.45,check
+0048189AR,Crataegus x media 'Paul's Scarlet',False,C\ Torrent de Perera,3.89,3.33,ok,,medium
+0048190AR,Melia azedarach,False,C\ Torrent de Perera,4.23,3.86,ok,,medium
+0048194AR,Platanus × acerifolia,True,Pl Trinitat,6.93,4.45,ok,,large
+0048195AR,Prunus cerasifera 'Pissardii',False,C\ Foradada,2.16,1.86,ok,,none
+0048196AR,Citrus × aurantium,False,C\ Finestrelles,3.51,2.52,ok,,medium
+0048197AR,Populus alba 'Pyramidalis',False,C\ Torné,5.19,4.6,ok,,medium
+0048199AR,Citrus × aurantium,False,C\ Turó de la Trinitat,2.24,1.7,ok,,none
+0048200AR,Robinia pseudoacacia,False,Pl Josep Andreu i Abelló,,19.18,median,25.13,check
+0048201AR,Citrus × aurantium,False,C\ Tossal,2.45,1.85,ok,,none
+0048202AR,Melia azedarach,False,Via Bàrcino,,10.88,no_kerb,22.36,check
+0048203AR,Populus alba 'Pyramidalis',False,C\ Torné,5.35,4.75,ok,,medium
+0048204AR,Styphnolobium japonicum,False,Via Bàrcino,,4.13,no_kerb,,check
+0048205AR,Melia azedarach,False,Ctra Ribes,,38.33,no_facade,5.49,check
+0048206AR,Pyrus calleryana 'Chanticleer',False,C\ Peníscola,4.11,3.36,ok,,medium
+0048207AR,Melia azedarach,False,Ctra Ribes,15.02,14.45,ok,,large
+0048208AR,Ulmus pumila,False,Ctra Ribes,3.07,2.27,ok,,small
+0048210AR,Quercus robur 'Fastigiata',False,C\ Vinya Llarga,,2.64,no_kerb,,check
+0048211AR,Washingtonia filifera,False,C\ Foradada,8.9,2.07,ok,,large
+0048213AR,Cercis siliquastrum,False,C\ Mare de Déu de Lorda,3.49,2.93,ok,,small
+0048215AR,Melia azedarach,False,Pl Josep Andreu i Abelló,7.51,6.67,ok,,large
+0048216AR,Platanus × acerifolia,True,Via Bàrcino,,9.99,median,14.94,check
+0048217AR,Prunus avium,False,Via Bàrcino,,15.35,median,3.58,check
+0048219AR,Melia azedarach,False,C\ Torrent de Perera,,25.51,median,17.18,check
+0048221AR,Pyrus calleryana 'Chanticleer',False,C\ Mireia,2.09,1.34,ok,,none
+0048222AR,Melia azedarach,False,C\ Tossal,2.58,2.08,ok,,small
+0048223AR,Citrus × aurantium,False,C\ Mireia,2.54,1.91,ok,,small
+0048225AR,Gleditsia triacanthos 'sunburst',False,C\ Torrent de Perera,,13.25,median,21.47,check
+0048227AR,Tipuana tipu,False,Pg Santa Coloma,,100.61,no_facade,19.55,check
+0048228AR,Cercis siliquastrum,False,C\ Mare de Déu de Lorda,2.08,1.54,ok,,none
+0048229AR,Platanus × acerifolia,True,Via Bàrcino,,10.11,median,16.8,check
+0048230AR,Citrus × aurantium,False,C\ Mireia,5.95,4.63,ok,,medium
+0048232AR,Citrus × aurantium,False,C\ Foradada,2.23,1.86,ok,,none
+0048233AR,Citrus × aurantium,False,C\ Tossal,2.67,1.88,ok,,small
+0048236AR,Melia azedarach,False,Via Bàrcino,,37.91,no_facade,,check
+0048237AR,Prunus cerasifera 'Pissardii',False,C\ Turó de la Trinitat,2.88,2.27,ok,,small
+0048239AR,Melia azedarach,False,Ctra Ribes,,68.7,no_facade,30.13,check
+0048240AR,Ulmus pumila,False,C\ Tossal,,14.78,median,17.77,check
+0048242AR,Acer platanoides,False,Via Bàrcino,17.74,6.17,ok,,large
+0048245AR,Melia azedarach,False,C\ Tossal,3.51,2.78,ok,,medium
+0048247AR,Pyrus calleryana 'Chanticleer',False,C\ Pare Pérez del Pulgar,6.76,6.22,ok,,large
+0048248AR,Platanus × acerifolia,True,Via Bàrcino,,20.47,median,17.49,check
+0048249AR,Cercis siliquastrum,False,C\ Mare de Déu de Lorda,2.34,1.83,ok,,none
+0048254AR,Platanus × acerifolia,True,Via Bàrcino,3.77,3.19,ok,,medium
+0048255AR,Cercis siliquastrum,False,C\ Mare de Déu de Lorda,3.57,3.15,ok,,medium
+0048257AR,Citrus × aurantium,False,C\ Mireia,2.66,1.89,ok,,small
+0048258AR,Pyrus calleryana 'Chanticleer',False,C\ Mireia,2.09,1.55,ok,,none
+0048259AR,Melia azedarach,False,Ctra Ribes,,45.99,no_facade,5.43,check
+0048260AR,Platanus × acerifolia,True,Via Bàrcino,,12.52,median,,check
+0048261AR,Ulmus pumila,False,Ctra Ribes,15.02,14.46,ok,,large
+0048262AR,Styphnolobium japonicum,False,Via Bàrcino,,2.37,no_kerb,,check
+0048264AR,Prunus avium,False,Via Bàrcino,,15.88,median,3.82,check
+0048266AR,Catalpa bignonioides,False,C\ Torrent de Perera,,12.03,median,22.78,check
+0048267AR,Ligustrum lucidum,False,C\ Mossèn Epifani Lorda,2.35,1.78,ok,,none
+0048268AR,Prunus cerasifera 'Pissardii',False,C\ Foradada,2.56,2.11,ok,,small
+0048270AR,Prunus cerasifera 'Pissardii',False,C\ Ausona,5.22,3.1,ok,,medium
+0048272AR,Melia azedarach,False,Ctra Ribes,,35.51,no_facade,5.51,check
+0048273AR,Prunus cerasifera 'Pissardii',False,C\ Foradada,2.24,1.65,ok,,none
+0048274AR,Pyrus calleryana 'Chanticleer',False,C\ Mireia,2.14,1.61,ok,,none
+0048275AR,Citrus × aurantium,False,C\ Foradada,2.71,2.26,ok,,small
+0048276AR,Melia azedarach,False,Pl Josep Andreu i Abelló,,55.6,no_facade,10.48,check
+0048279AR,Cercis siliquastrum,False,C\ Mare de Déu de Lorda,2.99,2.73,ok,,small
+0048281AR,Pyrus calleryana 'Chanticleer',False,C\ Mireia,2.61,2.18,ok,,small
+0048282AR,Melia azedarach,False,Ctra Ribes,,38.43,no_facade,28.06,check
+0048286AR,Cercis siliquastrum,False,C\ Mare de Déu de Lorda,2.52,2.36,ok,,small
+0048288AR,Platanus × acerifolia,True,C\ Pare Pérez del Pulgar,,20.19,median,19.94,check
+0048289AR,Pyrus calleryana 'Chanticleer',False,C\ Mireia,4.11,3.22,ok,,medium
+0048290AR,Tipuana tipu,False,Pg Santa Coloma,,78.64,no_facade,18.24,check
+0048291AR,Ligustrum lucidum,False,C\ Mossèn Epifani Lorda,,6.96,median,24.91,check
+0048294AR,Melia azedarach,False,C\ Torrent de Perera,,19.79,median,7.64,check
+0048296AR,Firmiana simplex,False,C\ Peníscola,28.9,5.54,ok,,large
+0048297AR,Melia azedarach,False,Pl Josep Andreu i Abelló,,19.17,median,23.71,check
+0048299AR,Albizia julibrissin,False,C\ Foradada,,3.65,no_kerb,,check
+0048300AR,Pyrus calleryana 'Chanticleer',False,C\ Mireia,,6.63,median,2.37,check
+0048303AR,Acer campestre,False,C\ Almassora,3.24,2.41,ok,,small
+0048304AR,Cercis siliquastrum,False,C\ Mare de Déu de Lorda,3.49,2.93,ok,,small
+0048305AR,Robinia pseudoacacia,False,C\ Tossal,,12.3,median,6.75,check
+0048307AR,Acer saccharinum,False,Via Bàrcino,4.4,3.7,ok,,medium
+0048309AR,Melia azedarach,False,Via Bàrcino,18.57,11.97,ok,,large
+0048310AR,Platanus × acerifolia,True,C\ Torrent de Perera,,13.18,median,7.63,check
+0048311AR,Cercis siliquastrum,False,C\ Mare de Déu de Lorda,2.53,2.15,ok,,small
+0048312AR,Platanus × acerifolia,True,Via Bàrcino,3.93,3.47,ok,,medium
+0048314AR,Pyrus calleryana 'Chanticleer',False,C\ Peníscola,3.83,3.21,ok,,medium
+0048315AR,Prunus cerasifera 'Pissardii',False,C\ Turó de la Trinitat,4.41,3.77,ok,,medium
+0048316AR,Pyrus calleryana 'Chanticleer',False,C\ Mireia,2.11,1.57,ok,,none
+0048317AR,Melia azedarach,False,Via Bàrcino,17.84,11.66,ok,,large
+0048318AR,Pyrus calleryana 'Chanticleer',False,C\ Mireia,2.12,1.37,ok,,none
+0048322AR,Ulmus pumila,False,C\ Tossal,,14.9,median,17.6,check
+0048323AR,Acer buergerianum,False,Via Bàrcino,,8.8,median,5.84,check
+0048325AR,Pyrus calleryana 'Chanticleer',False,C\ Pare Pérez del Pulgar,,10.19,median,18.93,check
+0048326AR,Prunus cerasifera 'Pissardii',False,C\ Torné,5.65,5.33,ok,,medium
+0048328AR,Robinia pseudoacacia,False,C\ Pare Pérez del Pulgar,6.72,6.26,ok,,large
+0048330AR,Melia azedarach,False,Ctra Ribes,,42.24,no_facade,5.45,check
+0048335AR,Pyrus calleryana 'Chanticleer',False,C\ Peníscola,3.74,3.06,ok,,medium
+0048336AR,Populus alba 'Pyramidalis',False,C\ Torné,5.27,4.65,ok,,medium
+0048337AR,Pyrus calleryana 'Chanticleer',False,C\ Tossal,2.37,1.89,ok,,none
+0048338AR,Citrus × aurantium,False,C\ Foradada,2.53,2.12,ok,,small
+0048341AR,Melia azedarach,False,C\ Torrent de Perera,,11.6,median,23.52,check
+0048342AR,Pyrus calleryana 'Chanticleer',False,C\ Peníscola,4.55,3.7,ok,,medium
+0048343AR,Tipuana tipu,False,Pg Santa Coloma,,119.08,no_facade,12.07,check
+0048344AR,Tipuana tipu,False,Pg Santa Coloma,,97.45,no_facade,15.99,check
+0048349AR,Platanus × acerifolia,True,C\ Pare Pérez del Pulgar,2.39,1.79,ok,,none
+0048351AR,Hibiscus syriacus,False,C\ Ausona,,6.62,median,15.32,check
+0048354AR,Cercis siliquastrum,False,C\ Mare de Déu de Lorda,2.3,1.86,ok,,none
+0048355AR,Melia azedarach,False,C\ Torrent de Perera,,31.47,no_facade,17.79,check
+0048356AR,Prunus cerasifera 'Pissardii',False,C\ Turó de la Trinitat,2.91,2.3,ok,,small
+0048358AR,Cercis siliquastrum,False,C\ Mare de Déu de Lorda,2.85,2.56,ok,,small
+0048361AR,Jacaranda mimosifolia,False,Av Meridiana,,20.13,median,15.07,check
+0048362AR,Robinia pseudoacacia,False,Pl Josep Andreu i Abelló,7.61,6.72,ok,,large
+0048364AR,Styphnolobium japonicum,False,C\ Pare Manjón,12.63,11.8,ok,,large
+0048365AR,Prunus cerasifera 'Pissardii',False,C\ Finestrelles,2.68,2.2,ok,,small
+0048367AR,Pyrus calleryana 'Chanticleer',False,C\ Mireia,,7.72,median,15.34,check
+0048368AR,Platanus × acerifolia,True,Via Bàrcino,3.63,2.67,ok,,medium
+0048369AR,Ligustrum lucidum,False,C\ Mossèn Epifani Lorda,2.64,2.22,ok,,small
+0048370AR,Prunus cerasifera 'Pissardii',False,C\ Torné,,7.7,median,4.55,check
+0048371AR,Styphnolobium japonicum,False,C\ Pare Manjón,,9.33,median,,check
+0048372AR,Prunus cerasifera 'Pissardii',False,C\ Foradada,,6.3,median,8.7,check
+0048373AR,Citrus × aurantium,False,C\ Finestrelles,1.97,1.45,ok,,none
+0048374AR,Platanus × acerifolia,True,Via Bàrcino,6.47,3.35,ok,,large
+0048375AR,Cercis siliquastrum,False,C\ Mare de Déu de Lorda,5.09,2.22,ok,,medium
+0048377AR,Prunus cerasifera 'Pissardii',False,C\ Foradada,3.25,1.85,ok,,small
+0048379AR,Melia azedarach,False,Pl Josep Andreu i Abelló,,44.12,no_facade,,check
+0048380AR,Robinia pseudoacacia,False,C\ Pare Pérez del Pulgar,,10.07,median,18.86,check
+0048382AR,Acer buergerianum,False,Via Bàrcino,,15.47,median,3.81,check
+0048383AR,Melia azedarach,False,Pl Josep Andreu i Abelló,,20.65,median,27.8,check
+0048384AR,Platanus × acerifolia,True,C\ Torrent de Perera,,15.24,median,12.06,check
+0048386AR,Melia azedarach,False,Via Bàrcino,17.93,6.59,ok,,large
+0048387AR,Cercis siliquastrum,False,C\ Mare de Déu de Lorda,2.92,2.52,ok,,small
+0048389AR,Pyrus calleryana 'Chanticleer',False,C\ Tossal,,24.8,no_kerb,,check
+0048390AR,Melia azedarach,False,Pl Josep Andreu i Abelló,,19.32,median,18.39,check
+0048393AR,Robinia pseudoacacia,False,Pl Josep Andreu i Abelló,,59.09,no_facade,9.04,check
+0048394AR,Cercis siliquastrum,False,C\ Mare de Déu de Lorda,2.19,1.71,ok,,none
+0048396AR,Pyrus calleryana 'Chanticleer',False,C\ Mireia,1.9,1.41,ok,,none
+0048399AR,Prunus cerasifera 'Pissardii',False,C\ Turó de la Trinitat,2.82,2.36,ok,,small
+0048403AR,Tipuana tipu,False,Pg Santa Coloma,,72.04,no_facade,15.63,check
+0048406AR,Crataegus x media 'Paul's Scarlet',False,C\ Torrent de Perera,5.23,4.43,ok,,medium
+0048407AR,Platanus × acerifolia,True,C\ Mireia,,8.26,median,2.45,check
+0048408AR,Platanus × acerifolia,True,Via Bàrcino,,10.24,median,,check
+0048411AR,Citrus × aurantium,False,C\ Finestrelles,3.65,2.93,ok,,medium
+0048412AR,Platanus × acerifolia,True,C\ Mireia,,8.54,median,2.39,check
+0048413AR,Jacaranda mimosifolia,False,Av Meridiana,,19.45,median,14.21,check
+0048414AR,Melia azedarach,False,Pl Josep Andreu i Abelló,,19.24,median,26.57,check
+0048415AR,Acer platanoides,False,Via Bàrcino,17.93,11.62,ok,,large
+0048418AR,Pyrus calleryana 'Chanticleer',False,C\ Mireia,2.97,2.58,ok,,small
+0048419AR,Pyrus calleryana 'Chanticleer',False,C\ Mireia,1.82,1.19,ok,,none
+0048421AR,Platanus × acerifolia,True,C\ Pare Pérez del Pulgar,,13.48,median,7.66,check
+0048422AR,Robinia pseudoacacia,False,C\ Pare Pérez del Pulgar,5.71,5.09,ok,,medium
+0048423AR,Catalpa bignonioides,False,C\ Torrent de Perera,,11.54,median,22.7,check
+0048424AR,Pyrus calleryana 'Chanticleer',False,C\ Pare Pérez del Pulgar,2.72,1.94,ok,,small
+0048425AR,Pyrus calleryana 'Chanticleer',False,C\ Finestrelles,,6.62,median,19.77,check
+0048430AR,Cercis siliquastrum,False,C\ Mare de Déu de Lorda,2.38,1.95,ok,,none
+0048432AR,Tipuana tipu,False,Pg Santa Coloma,,122.16,no_facade,10.11,check
+0048433AR,Citrus × aurantium,False,C\ Finestrelles,1.97,1.53,ok,,none
+0048434AR,Platanus × acerifolia,True,Via Bàrcino,7.7,4.13,ok,,large
+0048436AR,Platanus × acerifolia,True,C\ Suñol i Gras,8.21,7.13,ok,,large
+0048437AR,Pyrus calleryana 'Chanticleer',False,C\ Tossal,3.66,2.81,ok,,medium
+0048439AR,Cercis siliquastrum,False,C\ Mare de Déu de Lorda,6.15,5.52,ok,,large
+0048440AR,Platanus × acerifolia,True,C\ Pare Pérez del Pulgar,2.38,1.63,ok,,none
+0048443AR,Styphnolobium japonicum,False,C\ Pare Manjón,12.29,11.6,ok,,large
+0048445AR,Ligustrum lucidum,False,C\ Mossèn Epifani Lorda,,5.59,median,,check
+0048447AR,Jacaranda mimosifolia,False,Av Meridiana,,18.73,median,13.36,check
+0048449AR,Tipuana tipu,False,Pg Santa Coloma,,108.09,no_facade,17.89,check
+0048451AR,Platanus × acerifolia,True,C\ Mare de Déu de Lorda,,8.99,median,,check
+0048452AR,Pyrus calleryana 'Chanticleer',False,C\ Peníscola,3.78,3.11,ok,,medium
+0048454AR,Melia azedarach,False,Via Bàrcino,20.76,12.97,ok,,large
+0048456AR,Melia azedarach,False,C\ Torrent de Perera,6.23,5.79,ok,,large
+0048458AR,Tipuana tipu,False,Pg Santa Coloma,,75.44,no_facade,16.52,check
+0048459AR,Pyrus calleryana 'Chanticleer',False,C\ Peníscola,3.19,2.47,ok,,small
+0048462AR,Tipuana tipu,False,Pg Santa Coloma,,104.58,no_facade,19.92,check
+0048463AR,Citrus × aurantium,False,C\ Turó de la Trinitat,2.53,2.02,ok,,small
+0048464AR,Acer buergerianum,False,Via Bàrcino,14.89,12.8,ok,,large
+0048466AR,Melia azedarach,False,C\ Torrent de Perera,5.51,4.74,ok,,medium
+0048467AR,Prunus cerasifera 'Pissardii',False,C\ Foradada,2.25,1.93,ok,,none
+0048468AR,Melia azedarach,False,Ctra Ribes,15.02,14.41,ok,,large
+0048470AR,Citrus × aurantium,False,C\ Mireia,2.59,2.02,ok,,small
+0048472AR,Pyrus calleryana 'Chanticleer',False,C\ Mireia,2.06,1.28,ok,,none
+0048473AR,Pyrus calleryana 'Chanticleer',False,C\ Mireia,,6.57,median,2.36,check
+0048474AR,Citrus × aurantium,False,C\ Finestrelles,1.96,1.38,ok,,none
+0048475AR,Prunus cerasifera 'Pissardii',False,C\ Foradada,2.45,2.02,ok,,none
+0048476AR,Platanus × acerifolia,True,Via Bàrcino,,10.5,median,18.85,check
+0048477AR,Styphnolobium japonicum,False,C\ Pare Manjón,12.63,5.32,ok,,large
+0048478AR,Cercis siliquastrum,False,C\ Mare de Déu de Lorda,2.91,2.55,ok,,small
+0048479AR,Cercis siliquastrum,False,C\ Mare de Déu de Lorda,5.11,2.05,ok,,medium
+0048480AR,Melia azedarach,False,Ctra Ribes,,33.16,no_facade,27.8,check
+0048482AR,Pyrus calleryana 'Chanticleer',False,C\ Mireia,2.03,1.36,ok,,none
+0048483AR,Platanus × acerifolia,True,Via Bàrcino,3.83,3.26,ok,,medium
+0048484AR,Quercus robur 'Fastigiata',False,C\ Vinya Llarga,,2.7,no_kerb,,check
+0048486AR,Platanus × acerifolia,True,Pl Trinitat,3.05,2.32,ok,,small
+0048488AR,Robinia pseudoacacia,False,C\ Pare Pérez del Pulgar,,22.35,median,3.06,check
+0048490AR,Platanus × acerifolia,True,C\ Pare Pérez del Pulgar,,13.85,median,8.28,check
+0048491AR,Platanus × acerifolia,True,Via Bàrcino,,20.68,median,16.48,check
+0048495AR,Cercis siliquastrum,False,C\ Mare de Déu de Lorda,3.09,2.65,ok,,small
+0048496AR,Ulmus pumila,False,C\ Tossal,,15.63,median,16.43,check
+0048497AR,Platanus × acerifolia,True,C\ Suñol i Gras,5.38,4.78,ok,,medium
+0048498AR,Melia azedarach,False,Ctra Ribes,,31.31,no_facade,5.49,check
+0048499AR,Styphnolobium japonicum,False,C\ Pare Manjón,,5.45,no_kerb,41.47,check
+0048500AR,Citrus × aurantium,False,C\ Turó de la Trinitat,2.26,1.79,ok,,none
+0048503AR,Populus alba 'Pyramidalis',False,C\ Torné,8.24,7.2,ok,,large
+0048505AR,Melia azedarach,False,C\ Torrent de Perera,5.53,4.96,ok,,medium
+0048506AR,Platanus × acerifolia,True,Via Bàrcino,,10.04,median,23.52,check
+0048508AR,Citrus × aurantium,False,C\ Finestrelles,3.03,2.42,ok,,small
+0048509AR,Pyrus calleryana 'Chanticleer',False,C\ Peníscola,4.24,3.58,ok,,medium
+0048510AR,Firmiana simplex,False,C\ Peníscola,18.0,7.23,ok,,large
+0048513AR,Melia azedarach,False,C\ Torrent de Perera,,17.59,median,,check
+0048516AR,Platanus × acerifolia,True,Via Bàrcino,,9.99,median,27.98,check
+0048518AR,Pyrus calleryana 'Chanticleer',False,C\ Tossal,14.15,11.69,ok,,large
+0048520AR,Hibiscus syriacus,False,C\ Ausona,2.3,1.58,ok,,none
+0048521AR,Citrus × aurantium,False,C\ Turó de la Trinitat,2.21,1.7,ok,,none
+0048522AR,Robinia pseudoacacia,False,C\ Pare Pérez del Pulgar,,9.93,median,2.7,check
+0048524AR,Platanus × acerifolia,True,C\ Suñol i Gras,8.81,8.08,ok,,large
+0048527AR,Styphnolobium japonicum,False,Via Bàrcino,,6.07,no_kerb,,check
+0048529AR,Cercis siliquastrum,False,C\ Mare de Déu de Lorda,,7.71,median,,check
+0048530AR,Styphnolobium japonicum,False,C\ Pare Manjón,,9.1,median,,check
+0048531AR,Citrus × aurantium,False,C\ Mireia,2.79,2.2,ok,,small
+0048534AR,Pyrus calleryana 'Chanticleer',False,C\ Peníscola,4.18,3.59,ok,,medium
+0048535AR,Cercis siliquastrum,False,C\ Mare de Déu de Lorda,5.14,2.14,ok,,medium
+0048537AR,Citrus × aurantium,False,C\ Foradada,2.75,2.36,ok,,small
+0048538AR,Platanus × acerifolia,True,Via Bàrcino,4.4,3.71,ok,,medium
+0048539AR,Robinia pseudoacacia,False,Pl Josep Andreu i Abelló,7.39,6.58,ok,,large
+0048541AR,Acer buergerianum,False,Via Bàrcino,,15.33,median,3.72,check
+0048542AR,Platanus × acerifolia,True,Pl Trinitat,,8.95,median,,check
+0048543AR,Styphnolobium japonicum,False,C\ Pare Manjón,12.64,11.78,ok,,large
+0048544AR,Citrus × aurantium,False,C\ Foradada,2.85,2.23,ok,,small
+0048545AR,Populus alba 'Pyramidalis',False,C\ Torné,5.14,4.62,ok,,medium
+0048547AR,Prunus cerasifera 'Pissardii',False,C\ Foradada,2.4,2.19,ok,,none
+0048548AR,Populus alba 'Pyramidalis',False,C\ Torné,5.09,4.66,ok,,medium
+0048549AR,Styphnolobium japonicum,False,C\ Pare Manjón,24.97,5.14,ok,,large
+0048550AR,Platanus × acerifolia,True,C\ Mare de Déu de Lorda,,8.99,median,,check
+0048551AR,Jacaranda mimosifolia,False,Av Meridiana,8.34,3.71,ok,,large
+0048552AR,Prunus cerasifera 'Pissardii',False,C\ Foradada,2.45,1.94,ok,,none
+0048555AR,Pyrus calleryana 'Chanticleer',False,C\ Mireia,2.56,1.92,ok,,small
+0048557AR,Tipuana tipu,False,Pg Santa Coloma,,90.85,no_facade,9.18,check
+0048558AR,Prunus cerasifera 'Pissardii',False,C\ Turó de la Trinitat,6.1,5.37,ok,,large
+0048561AR,Melia azedarach,False,Via Bàrcino,19.56,6.9,ok,,large
+0048563AR,Albizia julibrissin,False,C\ Foradada,,3.8,no_kerb,,check
+0048564AR,Styphnolobium japonicum,False,C\ Pare Manjón,,19.55,median,,check
+0048565AR,Firmiana simplex,False,C\ Peníscola,17.21,2.99,ok,,large
+0048566AR,Firmiana simplex,False,C\ Peníscola,,10.87,no_kerb,23.07,check
+0048569AR,Melia azedarach,False,Via Bàrcino,17.84,6.39,ok,,large
+0048570AR,Melia azedarach,False,Via Bàrcino,,31.29,no_facade,,check
+0048573AR,Melia azedarach,False,Via Bàrcino,,39.97,no_facade,,check
+0048574AR,Platanus × acerifolia,True,Pl Trinitat,12.0,7.82,ok,,large
+0048575AR,Melia azedarach,False,Ctra Ribes,,30.68,no_facade,25.26,check
+0048576AR,Gleditsia triacanthos 'sunburst',False,C\ Torrent de Perera,,15.87,median,7.62,check
+0048578AR,Pyrus calleryana 'Chanticleer',False,C\ Mireia,2.74,2.18,ok,,small
+0048579AR,Populus nigra 'Italica',False,Via Bàrcino,,32.75,no_facade,,check
+0048583AR,Platanus × acerifolia,True,Via Bàrcino,,25.33,median,19.16,check
+0048584AR,Platanus × acerifolia,True,C\ Pare Pérez del Pulgar,2.58,1.67,ok,,small
+0048585AR,Cercis siliquastrum,False,C\ Mare de Déu de Lorda,1.94,1.48,ok,,none
+0048586AR,Platanus × acerifolia,True,Via Bàrcino,4.37,3.62,ok,,medium
+0048588AR,Platanus × acerifolia,True,C\ Mireia,,8.0,median,2.44,check
+0258636AR,Olea europaea,False,C\ Turó de la Trinitat,,10.18,no_kerb,11.3,check
+0258638AR,Jacaranda mimosifolia,False,C\ Mireia,,11.57,median,15.77,check
+0258645AR,Platanus × acerifolia,True,C\ Torrent de Perera,,13.41,median,6.33,check
+0258658AR,Jacaranda mimosifolia,False,C\ Mireia,29.05,7.14,ok,,large
+0258761AR,Jacaranda mimosifolia,False,C\ Mireia,,12.15,no_kerb,16.96,check
+0258785AR,Jacaranda mimosifolia,False,C\ Mireia,,15.01,median,15.98,check
+0258908AR,Jacaranda mimosifolia,False,C\ Mireia,,15.62,median,16.44,check
+0258974AR,Prunus cerasifera 'Pissardii',False,C\ Ausona,3.47,2.77,ok,,small
+0259196AR,Prunus cerasifera 'Pissardii',False,C\ Torné,5.23,4.33,ok,,medium
+0259221AR,Prunus cerasifera 'Pissardii',False,C\ Ausona,3.61,2.99,ok,,medium
+0259287AR,Pyrus calleryana 'Chanticleer',False,C\ Finestrelles,2.92,2.45,ok,,small
+0259291AR,Jacaranda mimosifolia,False,C\ Mireia,,12.27,median,16.21,check
+0287040AR,Robinia pseudoacacia,False,C\ Pare Pérez del Pulgar,,10.08,median,2.74,check
+0287715AR,Citrus × aurantium,False,C\ Foradada,6.66,6.04,ok,,large
+0289333AR,Acer saccharinum,False,Via Favència,,18.81,median,,check
+0289334AR,Celtis australis,False,Via Favència,,15.69,median,,check
+0289335AR,Celtis australis,False,Via Favència,,15.81,median,,check
+0289336AR,Celtis australis,False,Via Favència,,15.88,median,,check
+0289337AR,Celtis australis,False,Via Favència,,15.54,median,17.4,check
+0289338AR,Celtis australis,False,Via Favència,,25.22,median,,check
+0289339AR,Celtis australis,False,Via Favència,,23.89,median,,check
+0289340AR,Celtis australis,False,Via Favència,,25.62,median,12.78,check
+0289341AR,Celtis australis,False,Via Favència,,43.14,no_facade,,check
+0289344AR,Celtis australis,False,Via Favència,,42.75,no_facade,20.72,check
+0289345AR,Celtis australis,False,Via Favència,,35.44,no_facade,,check
+0289346AR,Celtis australis,False,Via Favència,,29.36,median,21.65,check
+0289348AR,Grevillea robusta,False,Via Favència,,20.8,median,16.26,check
+0289349AR,Grevillea robusta,False,Via Favència,,21.6,median,15.37,check
+0289350AR,Acer saccharinum,False,Via Favència,,32.71,no_facade,8.8,check
+0289353AR,Acer saccharinum,False,Via Favència,,48.55,no_facade,,check
+0289354AR,Grevillea robusta,False,Via Favència,,37.37,no_facade,,check
+0289355AR,Acer saccharinum,False,Via Favència,,30.26,no_facade,31.33,check
+0289356AR,Acer saccharinum,False,Via Favència,,21.31,median,12.06,check
+0289371AR,Olea europaea,False,C\ Galícia,7.2,3.06,ok,,large
+0290594AR,Ulmus pumila,False,Pg Santa Coloma,,103.87,no_facade,14.55,check
+0290595AR,Ulmus pumila,False,Pg Santa Coloma,,124.54,no_facade,18.4,check
+0290596AR,Celtis australis,False,Pg Santa Coloma,,136.39,no_facade,13.49,check
+0290597AR,Celtis australis,False,Pg Santa Coloma,,132.14,no_facade,10.06,check
+0290598AR,Celtis australis,False,Pg Santa Coloma,,123.25,no_facade,12.14,check
+0290599AR,Tipuana tipu,False,Pg Santa Coloma,,127.04,no_facade,4.66,check
+0290600AR,Tipuana tipu,False,Pg Santa Coloma,,131.94,no_facade,10.69,check
+0290601AR,Tipuana tipu,False,Pg Santa Coloma,,128.19,no_facade,0.41,check
+0290602AR,Tipuana tipu,False,Pg Santa Coloma,,133.96,no_facade,14.85,check
+0290603AR,Tipuana tipu,False,Pg Santa Coloma,,132.55,no_facade,14.19,check
+0290604AR,Tipuana tipu,False,Pg Santa Coloma,,135.72,no_facade,15.63,check
+0290605AR,Tipuana tipu,False,Pg Santa Coloma,,125.51,no_facade,11.61,check
+0290606AR,Ulmus pumila,False,Pg Santa Coloma,,138.86,no_facade,4.69,check
+0290607AR,Ulmus pumila,False,Pg Santa Coloma,,144.95,no_facade,3.64,check
+0290608AR,Ulmus pumila,False,Pg Santa Coloma,,134.27,no_facade,5.11,check
+0290609AR,Ulmus pumila,False,Pg Santa Coloma,,131.39,no_facade,5.78,check
+0297059AR,Robinia pseudoacacia,False,Pl Josep Andreu i Abelló,,26.17,median,,check
+0297101AR,Jacaranda mimosifolia,False,C\ Mireia,,11.74,median,26.66,check
+0297102AR,Pyrus calleryana 'Chanticleer',False,C\ Mireia,,11.95,median,23.08,check
+0297103AR,Jacaranda mimosifolia,False,C\ Mireia,,11.71,median,20.39,check
+0297104AR,Jacaranda mimosifolia,False,C\ Mireia,,12.48,median,17.68,check
+0297105AR,Jacaranda mimosifolia,False,C\ Mireia,,12.14,median,15.56,check
+0297106AR,Jacaranda mimosifolia,False,C\ Mireia,,11.4,median,13.93,check
+0297107AR,Pyrus calleryana 'Chanticleer',False,C\ Mireia,,6.63,median,2.42,check
+0297108AR,Pyrus calleryana 'Chanticleer',False,C\ Mireia,,6.66,median,2.42,check
+0297109AR,Pyrus calleryana 'Chanticleer',False,C\ Mireia,2.62,2.11,ok,,small
+0297110AR,Prunus cerasifera 'Pissardii',False,C\ Ausona,2.48,1.89,ok,,none
+0297111AR,Prunus cerasifera 'Pissardii',False,C\ Ausona,2.41,2.0,ok,,none
+0297112AR,Prunus cerasifera 'Pissardii',False,C\ Ausona,2.38,1.99,ok,,none
+0297113AR,Prunus cerasifera 'Pissardii',False,C\ Ausona,2.37,2.07,ok,,none
+0297114AR,Prunus cerasifera 'Pissardii',False,C\ Ausona,2.89,2.11,ok,,small
+0297115AR,Prunus cerasifera 'Pissardii',False,C\ Ausona,2.27,1.66,ok,,none
+0297116AR,Prunus cerasifera 'Pissardii',False,C\ Ausona,2.29,1.85,ok,,none
+0297117AR,Prunus cerasifera 'Pissardii',False,C\ Ausona,2.31,1.66,ok,,none
+0297118AR,Prunus cerasifera 'Pissardii',False,C\ Ausona,2.32,1.9,ok,,none
+0297119AR,Prunus cerasifera 'Pissardii',False,C\ Ausona,3.93,3.25,ok,,medium
+0297120AR,Prunus cerasifera 'Pissardii',False,C\ Ausona,2.31,1.8,ok,,none
+0297123AR,Ulmus pumila,False,Pg Santa Coloma,,110.23,no_facade,12.74,check
+0297124AR,Robinia pseudoacacia,False,C\ Pare Manjón,,15.67,median,,check
+0297127AR,Platycladus orientalis,False,C\ Torrent de Perera,11.21,6.77,ok,,large
+0297718AR,Prunus cerasifera 'Pissardii',False,C\ Ausona,3.51,2.98,ok,,medium
+0297719AR,Prunus cerasifera 'Pissardii',False,C\ Ausona,3.57,2.97,ok,,medium
+0297720AR,Prunus cerasifera 'Pissardii',False,C\ Ausona,3.01,2.13,ok,,small
+0297721AR,Prunus cerasifera 'Pissardii',False,C\ Ausona,2.96,2.38,ok,,small
+0297722AR,Prunus cerasifera 'Pissardii',False,C\ Ausona,2.8,2.05,ok,,small
+0297728AR,Prunus cerasifera 'Pissardii',False,C\ Ausona,2.8,2.22,ok,,small
+0297731AR,Prunus cerasifera 'Pissardii',False,C\ Ausona,3.0,2.65,ok,,small
+0297732AR,Prunus cerasifera 'Pissardii',False,C\ Ausona,3.62,2.83,ok,,medium
+0297733AR,Prunus cerasifera 'Pissardii',False,C\ Ausona,3.51,2.99,ok,,medium
+0297734AR,Prunus cerasifera 'Pissardii',False,C\ Ausona,3.24,2.62,ok,,small
+0297735AR,Pyrus calleryana 'Chanticleer',False,C\ Turó de la Trinitat,,5.95,median,7.65,check
+0297736AR,Pyrus calleryana 'Chanticleer',False,C\ Turó de la Trinitat,,6.0,median,9.64,check
+0297737AR,Pyrus calleryana 'Chanticleer',False,C\ Turó de la Trinitat,,5.98,median,11.66,check
+0297738AR,Pyrus calleryana 'Chanticleer',False,C\ Turó de la Trinitat,5.72,5.09,ok,,medium
+0297739AR,Pyrus calleryana 'Chanticleer',False,C\ Turó de la Trinitat,4.3,3.75,ok,,medium
+0297740AR,Pyrus calleryana 'Chanticleer',False,C\ Turó de la Trinitat,4.32,3.76,ok,,medium
+0297741AR,Pyrus calleryana 'Chanticleer',False,C\ Turó de la Trinitat,4.33,3.75,ok,,medium
+0297742AR,Pyrus calleryana 'Chanticleer',False,C\ Turó de la Trinitat,4.36,3.82,ok,,medium
+0297743AR,Pyrus calleryana 'Chanticleer',False,C\ Turó de la Trinitat,4.38,3.81,ok,,medium
+0297744AR,Pyrus calleryana 'Chanticleer',False,C\ Turó de la Trinitat,4.39,3.9,ok,,medium
+0297745AR,Pyrus calleryana 'Chanticleer',False,C\ Turó de la Trinitat,2.79,2.35,ok,,small
+0297746AR,Pyrus calleryana 'Chanticleer',False,C\ Turó de la Trinitat,2.8,2.36,ok,,small
+0297747AR,Pyrus calleryana 'Chanticleer',False,C\ Turó de la Trinitat,2.81,2.37,ok,,small
+0297748AR,Pyrus calleryana 'Chanticleer',False,C\ Turó de la Trinitat,2.82,2.24,ok,,small
+0297749AR,Pyrus calleryana 'Chanticleer',False,C\ Turó de la Trinitat,2.83,2.29,ok,,small
+0297750AR,Pyrus calleryana 'Chanticleer',False,C\ Turó de la Trinitat,2.84,2.39,ok,,small
+0297751AR,Pyrus calleryana 'Chanticleer',False,C\ Turó de la Trinitat,2.86,2.38,ok,,small
+0297752AR,Pyrus calleryana 'Chanticleer',False,C\ Turó de la Trinitat,2.86,2.38,ok,,small
+0297753AR,Pyrus calleryana 'Chanticleer',False,C\ Turó de la Trinitat,2.87,2.37,ok,,small
+0297755AR,Pyrus calleryana 'Chanticleer',False,C\ Turó de la Trinitat,2.85,2.35,ok,,small
+0297756AR,Pyrus calleryana 'Chanticleer',False,C\ Turó de la Trinitat,2.85,2.36,ok,,small
+0297757AR,Pyrus calleryana 'Chanticleer',False,C\ Turó de la Trinitat,2.84,2.36,ok,,small
+0297758AR,Pyrus calleryana 'Chanticleer',False,C\ Turó de la Trinitat,2.84,2.37,ok,,small
+0297759AR,Pyrus calleryana 'Chanticleer',False,C\ Turó de la Trinitat,4.25,3.7,ok,,medium
+0297760AR,Pyrus calleryana 'Chanticleer',False,C\ Turó de la Trinitat,5.83,4.76,ok,,medium
+0297762AR,Pyrus calleryana 'Chanticleer',False,C\ Turó de la Trinitat,4.14,3.32,ok,,medium
+0297763AR,Pyrus calleryana 'Chanticleer',False,C\ Turó de la Trinitat,4.15,3.31,ok,,medium
+0302037AR,Pyrus calleryana 'Chanticleer',False,C\ Peníscola,7.53,6.06,ok,,large
+0306679AR,Jacaranda mimosifolia,False,C\ Mireia,,18.71,median,15.82,check
+0306681AR,Jacaranda mimosifolia,False,Av Meridiana,7.06,5.9,ok,,large
+0306682AR,Jacaranda mimosifolia,False,Av Meridiana,15.3,12.91,ok,,large
+0306683AR,Jacaranda mimosifolia,False,Av Meridiana,22.74,20.12,ok,,large
+0306684AR,Jacaranda mimosifolia,False,Av Meridiana,,27.88,median,22.0,check
+0306685AR,Jacaranda mimosifolia,False,Av Meridiana,,25.29,median,18.62,check
+0306686AR,Jacaranda mimosifolia,False,Av Meridiana,,22.83,median,15.7,check
+0306687AR,Jacaranda mimosifolia,False,Av Meridiana,,20.55,median,13.32,check
+0306688AR,Jacaranda mimosifolia,False,Av Meridiana,,18.87,median,11.27,check
+0306689AR,Jacaranda mimosifolia,False,Av Meridiana,,17.19,median,9.69,check
+0306690AR,Jacaranda mimosifolia,False,Av Meridiana,,16.02,median,8.39,check
+0306691AR,Jacaranda mimosifolia,False,Av Meridiana,,15.13,median,7.76,check
+0306692AR,Jacaranda mimosifolia,False,Av Meridiana,,15.5,median,7.88,check
+0306693AR,Jacaranda mimosifolia,False,Av Meridiana,,15.97,median,10.79,check
+0306694AR,Jacaranda mimosifolia,False,Av Meridiana,,17.11,median,2.63,check
+0306695AR,Jacaranda mimosifolia,False,C\ Mireia,,16.9,median,14.1,check
+0306702AR,Jacaranda mimosifolia,False,Av Meridiana,,4.34,no_kerb,,check
+0306703AR,Jacaranda mimosifolia,False,Av Meridiana,6.24,5.28,ok,,large
+0306704AR,Jacaranda mimosifolia,False,Av Meridiana,,14.28,median,2.67,check
+0306705AR,Jacaranda mimosifolia,False,Av Meridiana,,8.46,median,2.59,check
+0306706AR,Jacaranda mimosifolia,False,Av Meridiana,,3.43,median,2.47,check
+0308366AR,Prunus cerasifera 'Pissardii',False,C\ Peníscola,,10.77,median,21.56,check
+0308367AR,Lagerstroemia indica,False,C\ Peníscola,,6.61,no_kerb,25.62,check
+0308368AR,Magnolia grandiflora,False,C\ Peníscola,,11.18,median,17.73,check
+0312386AR,Jacaranda mimosifolia,False,C\ Mireia,,5.31,no_kerb,,check
+0312387AR,Jacaranda mimosifolia,False,C\ Mireia,,10.14,no_kerb,31.22,check
+0313493AR,Prunus cerasifera 'Pissardii',False,C\ Torné,6.26,3.82,ok,,large
+0313494AR,Prunus cerasifera 'Pissardii',False,C\ Torné,7.57,3.3,ok,,large
+0313496AR,Jacaranda mimosifolia,False,Av Meridiana,8.93,4.93,ok,,large
+0313497AR,Jacaranda mimosifolia,False,Av Meridiana,7.92,4.05,ok,,large
+0316404AR,Ulmus pumila,False,Pg Santa Coloma,,138.02,no_facade,4.35,check
+0316405AR,Ulmus pumila,False,Pg Santa Coloma,,141.95,no_facade,3.68,check
+0316406AR,Ulmus pumila,False,Pg Santa Coloma,,145.55,no_facade,3.31,check
+0316407AR,Morus alba,False,Pg Santa Coloma,,95.74,no_facade,3.51,check
+0316408AR,Ulmus pumila,False,Pg Santa Coloma,,109.86,no_facade,5.24,check
+0316409AR,Ulmus pumila,False,Pg Santa Coloma,,113.21,no_facade,2.58,check
+0316410AR,Ulmus pumila,False,Pg Santa Coloma,,118.86,no_facade,7.06,check
+0316575AR,Jacaranda mimosifolia,False,Ctra Ribes,4.87,4.16,ok,,medium
+0316576AR,Jacaranda mimosifolia,False,Ctra Ribes,,11.91,median,4.03,check
+0316577AR,Jacaranda mimosifolia,False,Ctra Ribes,4.73,3.91,ok,,medium
+0316578AR,Jacaranda mimosifolia,False,Ctra Ribes,,19.12,median,13.86,check
+0316579AR,Jacaranda mimosifolia,False,Ctra Ribes,,21.51,median,4.46,check
+0316580AR,Jacaranda mimosifolia,False,Ctra Ribes,5.05,4.24,ok,,medium
+0316581AR,Jacaranda mimosifolia,False,Ctra Ribes,,13.72,median,3.99,check
+0316582AR,Jacaranda mimosifolia,False,Ctra Ribes,,11.96,median,3.99,check
+0316583AR,Jacaranda mimosifolia,False,Ctra Ribes,,11.93,median,3.98,check
+0316584AR,Jacaranda mimosifolia,False,Ctra Ribes,,11.9,median,10.55,check
+0316585AR,Jacaranda mimosifolia,False,Ctra Ribes,6.04,4.99,ok,,large
+0316586AR,Jacaranda mimosifolia,False,Ctra Ribes,5.09,3.89,ok,,medium
+0316587AR,Jacaranda mimosifolia,False,Ctra Ribes,4.61,3.8,ok,,medium
+0316588AR,Jacaranda mimosifolia,False,Ctra Ribes,5.06,4.06,ok,,medium
+0316589AR,Jacaranda mimosifolia,False,Ctra Ribes,,7.46,median,5.08,check
+0316590AR,Jacaranda mimosifolia,False,Ctra Ribes,,7.27,median,5.07,check
+0316591AR,Jacaranda mimosifolia,False,Ctra Ribes,,7.08,median,5.07,check
+0316592AR,Jacaranda mimosifolia,False,Ctra Ribes,,6.9,median,5.07,check
+0316593AR,Jacaranda mimosifolia,False,Ctra Ribes,,12.83,median,8.12,check
+0316748AR,Prunus cerasifera 'Pissardii',False,C\ Ausona,2.24,1.9,ok,,none
+0316749AR,Jacaranda mimosifolia,False,C\ Ausona,2.37,2.14,ok,,none
+0316750AR,Prunus cerasifera 'Pissardii',False,C\ Ausona,2.44,2.04,ok,,none
+0316751AR,Prunus cerasifera 'Pissardii',False,C\ Ausona,2.56,2.0,ok,,small
+0316752AR,Prunus cerasifera 'Pissardii',False,C\ Ausona,4.0,3.39,ok,,medium
+0316754AR,Jacaranda mimosifolia,False,C\ Torrent de Perera,,11.08,median,3.57,check
+0316755AR,Jacaranda mimosifolia,False,C\ Torrent de Perera,,11.65,median,6.25,check
+0316756AR,Jacaranda mimosifolia,False,C\ Torrent de Perera,,12.2,median,23.76,check
+0316757AR,Jacaranda mimosifolia,False,C\ Torrent de Perera,,13.74,median,28.75,check
+0316758AR,Jacaranda mimosifolia,False,C\ Torrent de Perera,,16.25,median,21.62,check
+0316759AR,Jacaranda mimosifolia,False,C\ Torrent de Perera,,20.1,median,20.08,check
+0316760AR,Jacaranda mimosifolia,False,C\ Torrent de Perera,,15.38,median,18.06,check
+0316761AR,Jacaranda mimosifolia,False,C\ Torrent de Perera,,12.07,median,17.23,check
+0316762AR,Jacaranda mimosifolia,False,C\ Torrent de Perera,,11.89,median,17.44,check
+0316763AR,Jacaranda mimosifolia,False,C\ Torrent de Perera,,11.99,median,18.81,check
+0316764AR,Jacaranda mimosifolia,False,C\ Torrent de Perera,,12.06,median,26.02,check
+0316765AR,Jacaranda mimosifolia,False,C\ Torrent de Perera,,12.16,median,30.0,check
+0316766AR,Jacaranda mimosifolia,False,C\ Torrent de Perera,,12.59,median,,check
+0316767AR,Jacaranda mimosifolia,False,C\ Torrent de Perera,,12.67,median,,check
+0316769AR,Jacaranda mimosifolia,False,C\ Torrent de Perera,,13.65,median,,check
+0316770AR,Jacaranda mimosifolia,False,C\ Torrent de Perera,,17.78,median,24.59,check
+0316771AR,Pyrus communis,False,C\ Torrent de Perera,5.88,4.88,ok,,medium
+0316772AR,Pyrus communis,False,C\ Pare Pérez del Pulgar,3.54,2.55,ok,,medium
+0316773AR,Pyrus communis,False,C\ Torrent de Perera,3.59,2.77,ok,,medium
+0316774AR,Pyrus communis,False,C\ Pare Pérez del Pulgar,3.48,2.58,ok,,small
+0316775AR,Pyrus communis,False,C\ Torrent de Perera,4.84,3.79,ok,,medium
+0316776AR,Pyrus communis,False,C\ Torrent de Perera,3.53,2.68,ok,,medium
+0316777AR,Pyrus communis,False,C\ Pare Pérez del Pulgar,3.46,2.44,ok,,small
+0316778AR,Pyrus communis,False,C\ Pare Pérez del Pulgar,4.68,3.62,ok,,medium
+0316779AR,Pyrus communis,False,C\ Torrent de Perera,3.73,2.66,ok,,medium
+0316780AR,Pyrus communis,False,C\ Pare Pérez del Pulgar,3.66,2.75,ok,,medium
+0316781AR,Pyrus communis,False,C\ Torrent de Perera,4.62,3.81,ok,,medium
+0316782AR,Pyrus communis,False,C\ Torrent de Perera,4.3,3.6,ok,,medium
+0316783AR,Pyrus communis,False,C\ Torrent de Perera,11.57,10.81,ok,,large
+0316784AR,Pyrus communis,False,C\ Torrent de Perera,3.53,2.86,ok,,medium
+0316785AR,Pyrus communis,False,C\ Torrent de Perera,4.12,2.9,ok,,medium
+0316786AR,Pyrus communis,False,C\ Torrent de Perera,13.97,10.43,ok,,large
+0316787AR,Pyrus communis,False,C\ Pare Pérez del Pulgar,3.72,2.68,ok,,medium
+0322762AR,Jacaranda mimosifolia,False,C\ Galícia,5.17,4.48,ok,,medium
+0322764AR,Pyrus calleryana 'Chanticleer',False,C\ Galícia,,11.12,median,3.42,check
+0322765AR,Jacaranda mimosifolia,False,C\ Galícia,5.15,4.48,ok,,medium
+0322766AR,Pyrus calleryana 'Chanticleer',False,C\ Galícia,,7.97,median,3.44,check
+0322767AR,Pyrus calleryana 'Chanticleer',False,C\ Galícia,,2.87,median,3.13,check
+0322768AR,Pyrus calleryana 'Chanticleer',False,C\ Galícia,,3.57,median,3.42,check
+0322770AR,Jacaranda mimosifolia,False,C\ Galícia,9.86,8.01,ok,,large
+0322771AR,Pyrus calleryana 'Chanticleer',False,C\ Galícia,3.53,3.15,ok,,medium
+0322772AR,Pyrus calleryana 'Chanticleer',False,C\ Galícia,3.53,3.05,ok,,medium
+0322773AR,Pyrus calleryana 'Chanticleer',False,C\ Galícia,3.52,3.1,ok,,medium
+0322774AR,Pyrus calleryana 'Chanticleer',False,C\ Galícia,3.52,3.1,ok,,medium
+0322775AR,Pyrus calleryana 'Chanticleer',False,C\ Galícia,3.53,2.91,ok,,medium
+0332568AR,Albizia julibrissin 'OMBRELLA'®,False,C\ Madriguera,,13.49,median,16.75,check
+0332569AR,Albizia julibrissin 'OMBRELLA'®,False,C\ Madriguera,,8.25,median,20.57,check
+0332570AR,Albizia julibrissin 'OMBRELLA'®,False,C\ Madriguera,5.14,4.33,ok,,medium
+0332571AR,Albizia julibrissin 'OMBRELLA'®,False,C\ Madriguera,5.18,4.36,ok,,medium
+0332572AR,Celtis australis,False,Via Bàrcino,9.32,8.32,ok,,large
+0332573AR,Celtis australis,False,Via Bàrcino,,13.17,median,7.39,check
+0332574AR,Celtis australis,False,Via Bàrcino,22.47,12.98,ok,,large
+0332575AR,Celtis australis,False,Via Bàrcino,27.63,19.99,ok,,large
+0334269AR,Paulownia tomentosa,False,C\ Torrent de Perera,,25.9,median,28.38,check
+0334270AR,Cercis siliquastrum,False,C\ Torrent de Perera,,33.63,no_facade,29.58,check
+0339742AR,Pyrus calleryana 'Chanticleer',False,C\ Torné,7.2,3.4,ok,,large
+0339743AR,Prunus cerasifera,False,C\ Torné,,15.43,median,11.87,check
+0339744AR,Prunus cerasifera,False,C\ Torné,,11.67,median,11.91,check
+0339745AR,Pyrus calleryana 'Chanticleer',False,C\ Torné,,5.41,median,1.96,check
+0339746AR,Pyrus calleryana 'Chanticleer',False,C\ Torné,,5.3,median,1.96,check
+0339747AR,Pyrus calleryana 'Chanticleer',False,C\ Torné,1.79,0.51,ok,,none
+0339748AR,Pyrus calleryana 'Chanticleer',False,C\ Torné,1.84,0.56,ok,,none
+0339749AR,Pyrus calleryana 'Chanticleer',False,C\ Torné,,5.59,median,,check
+0339750AR,Pyrus calleryana 'Chanticleer',False,C\ Galícia,,5.23,median,,check
+0340710AR,Acer saccharinum,False,C\ Ausona,3.49,2.08,ok,,small
+0340711AR,Platanus × acerifolia,True,Via Bàrcino,5.71,3.67,ok,,medium
+0340713AR,Pinus halepensis,False,Pl Turó de la Trinitat,10.13,7.84,ok,,large
+0342491AR,Pyrus calleryana 'Chanticleer',False,C\ Finestrelles,,10.83,median,19.61,check
+0342575AR,Tipuana tipu,False,C\ Alt,2.75,1.57,ok,,small
+0346296AR,Acer buergerianum,False,Via Bàrcino,,13.18,median,8.46,check
+0346299AR,Acer buergerianum,False,Via Bàrcino,4.4,3.75,ok,,medium
+0346300AR,Acer buergerianum,False,Via Bàrcino,4.72,3.7,ok,,medium
+0346301AR,Acer buergerianum,False,Via Bàrcino,,14.14,median,,check
+0346302AR,Acer buergerianum,False,Via Bàrcino,,14.0,median,,check
+0346303AR,Acer buergerianum,False,Via Bàrcino,,13.98,median,,check
+0346304AR,Tipuana tipu,False,C\ Ausona,,7.99,median,10.84,check
+0346305AR,Acer buergerianum,False,Via Bàrcino,,10.81,median,7.63,check
+0346306AR,Acer buergerianum,False,Via Bàrcino,14.4,13.35,ok,,large
+0346307AR,Acer buergerianum,False,Via Bàrcino,15.32,14.31,ok,,large
+0346308AR,Acer buergerianum,False,C\ Ausona,4.9,4.3,ok,,medium
+0346309AR,Acer buergerianum,False,Via Bàrcino,,13.34,median,,check
+0346310AR,Acer buergerianum,False,Via Bàrcino,,14.05,median,,check
+0346311AR,Acer buergerianum,False,Via Bàrcino,,14.73,median,29.14,check
+0346313AR,Acer buergerianum,False,Via Bàrcino,,14.29,median,23.09,check
+0346314AR,Acer buergerianum,False,Via Bàrcino,,13.8,median,29.14,check
+0346315AR,Acer buergerianum,False,Via Bàrcino,,14.13,median,,check
+0346316AR,Acer buergerianum,False,Via Bàrcino,,15.26,median,,check
+0346317AR,Acer buergerianum,False,Via Bàrcino,,16.91,median,,check
+0346318AR,Acer buergerianum,False,Via Bàrcino,,17.34,median,,check
+0346320AR,Acer buergerianum,False,Via Bàrcino,,17.19,median,,check
+0346321AR,Acer buergerianum,False,Via Bàrcino,,19.71,median,,check
+0347147AR,Koelreuteria paniculata,False,C\ Palafrugell,,13.28,no_kerb,,check
+0347148AR,Koelreuteria paniculata,False,C\ Palafrugell,,10.13,no_kerb,,check
+0347149AR,Melia azedarach,False,C\ Palafrugell,23.48,9.19,ok,,large
+0347150AR,Melia azedarach,False,C\ Palafrugell,,10.88,no_kerb,36.0,check
+0347151AR,Melia azedarach,False,C\ Palafrugell,,18.71,no_kerb,,check
