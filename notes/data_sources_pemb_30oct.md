@@ -90,3 +90,43 @@ All data would be credited to BCASA and not redistributed.
 
 Kind regards,
 Giovanni Carlo Volpe, MaCAD student, IAAC · giovanni.carlo.volpe@students.iaac.net
+
+## 5. BCASA reply to BDM9240 (30 Oct) and the formal request
+BCASA (Sanejament, AM27188) answered the same day: published material is the PDISBA
+(http://hdl.handle.net/11703/119275, already used for the city IDF, `databases/barcelona/pdisba_idf_city.csv`).
+Unpublished data needs a formal **instància** registered with the Ajuntament, with: project title, data requested,
+**a separate form for rain-gauge data** (not attached to the reply; to ask for), and **a letter from the tutor**
+(confirming enrolment, programme, title and content of the work). Online registration needs a digital certificate
+(https://seuelectronica.ajuntament.barcelona.cat/ca/registre-electronic); otherwise fill the PDF
+(https://seuelectronica.ajuntament.barcelona.cat/sites/default/files/00106_instancia_formulari_0.pdf) and register it at
+an Oficina d'Atenció Ciutadana.
+
+**Conditions** (they bind the thesis): academic and teaching use only; no disclosure or transfer to third parties; no
+commercial use; do not alter the content or its meaning; cite "Barcelona Cicle de l'Aigua, SA, Ajuntament de Barcelona"
+and the date of last update (Ley 37/2007, art. 8). **Consequence:** BCASA data may appear in the thesis document and in
+academic presentations, but **not in the public repo or the public web app** (GitHub Pages); keep it in `raw/`
+(gitignored) and publish only derived figures, if at all.
+
+### 5a. Instància text (Spanish; paste in "Exposo / Sol·licito")
+**Expongo:** Soy estudiante del Master in Advanced Computation for Architecture & Design (MaCAD) del Institute for
+Advanced Architecture of Catalonia (IAAC), curso 2025–2026. Mi trabajo final de máster, «[título exacto de la tesis]»,
+desarrolla un método computacional que propone especies y posiciones de arbolado viario para reducir el estrés térmico
+estival y la escorrentía pluvial, aplicado al barrio de la Porta (Nou Barris). Siguiendo la respuesta de BCASA a la
+consulta BDM9240, adjunto la carta de mi tutor/a [y el formulario de datos pluviométricos].
+**Solicito**, para uso exclusivamente académico, sin cesión a terceros y citando «Barcelona Cicle de l'Aigua, SA,
+Ajuntament de Barcelona»:
+1. Series de precipitación a 5 minutos de los pluviómetros de BCASA más cercanos a Nou Barris (periodo disponible).
+2. Resultados del modelo 1D/2D de drenaje (PDISBA) para Nou Barris: calados y velocidades máximas para los periodos de
+   retorno disponibles, en especial T = 1 o 2 años, en formato SIG.
+3. Si existe, la autorización para usar en la tesis las capas RESCCUE publicadas en el Atles de Resiliència
+   (tablas `rcc_iu1_*`), con la cita que indiquen.
+
+### 5b. Tutor letter (to be signed by the tutor on IAAC letterhead)
+To: Barcelona Cicle de l'Aigua, SA (BCASA), Ajuntament de Barcelona
+I confirm that Giovanni Carlo Volpe is enrolled in the Master in Advanced Computation for Architecture & Design (MaCAD)
+at the Institute for Advanced Architecture of Catalonia (IAAC), academic year 2025–2026, and that I supervise his
+master's thesis "[title]". The thesis develops a computational method that suggests street-tree species and positions
+to reduce summer heat stress and pluvial runoff, tested in the Porta neighbourhood (Nou Barris). The data requested
+(rain-gauge series and drainage-model results) will be used only for this academic work, will not be shared with third
+parties and will be credited to Barcelona Cicle de l'Aigua, SA, Ajuntament de Barcelona.
+[Name, role, IAAC, date, signature]
