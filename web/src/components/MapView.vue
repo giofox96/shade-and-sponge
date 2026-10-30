@@ -10,13 +10,14 @@ import { BitmapLayer, GeoJsonLayer, PathLayer, PolygonLayer, ScatterplotLayer } 
 import { SimpleMeshLayer } from '@deck.gl/mesh-layers'
 import { SphereGeometry } from '@luma.gl/engine'
 import { state, dataUrl, hexToRgb, currentLayout, addTreeAt, addVertex, keptReplaced, themeColors, isDark, AREA, addableMask, finishArea,
-  cancelDrawing } from '../store.js'
+  cancelDrawing, finishEditArea, cancelEditArea } from '../store.js'
 
 setWorkerUrl(workerUrl)
 const el = ref(null)
 let map, overlay, ro
 const sphere = new SphereGeometry({ nlat: 10, nlong: 16, radius: 1 })
 const ON_TOP = { depthCompare: 'always', depthWriteEnabled: false }
+const mid = (a, b) => [(a[0] + b[0]) / 2, (a[1] + b[1]) / 2]
 
 function crowns() {
   const { trees, meta, scenarioId, month, selected } = state
@@ -94,6 +95,16 @@ function crowns() {
       parameters: ON_TOP, // an added tree can sit inside an existing crown or behind a building: its ring stays visible
       updateTriggers: { getRadius: state.addedVersion, getLineColor: [selected, state.addedVersion] },
     }),
+    // a trunk up to the crown, so a small or young added tree is easy to spot next to the bigger crowns
+    new PathLayer({
+      id: 'added-trunks',
+      data: add,
+      getPath: (t) => [[t.lon, t.lat, 0], [t.lon, t.lat, (aDims(t)[1] + aDims(t)[2]) / 2]],
+      getColor: [90, 70, 50, 230],
+      getWidth: 0.35,
+      widthMinPixels: 2,
+      updateTriggers: { getPath: state.addedVersion },
+    }),
     new SimpleMeshLayer({
       id: 'added',
       data: add,
@@ -123,10 +134,11 @@ function tryAdd(lon, lat, { x, y }) {
 }
 
 // "Add trees": where a click is accepted, rebuilt when trees are added (the spacing ring moves)
-let mask = null, maskKey = null
+let mask = null, maskKey = null, maskPoly = null
 function addMask() {
   const key = `${state.site}:${state.addedVersion}`
-  if (key !== maskKey || !mask) [mask, maskKey] = [addableMask(), key] // no grid yet: try again on the next redraw
+  if (key !== maskKey || state.area?.poly !== maskPoly || !mask) // no grid yet: try again on the next redraw
+    [mask, maskKey, maskPoly] = [addableMask(), key, state.area?.poly]
   return mask
 }
 
@@ -138,7 +150,7 @@ function layers() {
     ov &&
       new BitmapLayer({ id: 'overlay-' + ov.id, image: dataUrl(ov.file), bounds: c, opacity: 0.55 }),
     state.addMode && addMask() &&
-      new BitmapLayer({ id: 'addable-' + maskKey, image: mask, bounds: c, textureParameters: { minFilter: 'nearest', magFilter: 'nearest' } }),
+      new BitmapLayer({ id: 'addable-' + maskKey + (maskPoly ? ':area' + maskPoly.length + maskPoly[0] : ''), image: mask, bounds: c, textureParameters: { minFilter: 'nearest', magFilter: 'nearest' } }),
     new GeoJsonLayer({
       id: 'buildings',
       data: dataUrl('buildings.geojson'),
@@ -173,7 +185,7 @@ function layers() {
         getFillColor: [...themeColors.value.area, 30] }),
     ...crowns(),
     // the project-area outline and the corners being drawn go over buildings and crowns (no depth test)
-    state.area &&
+    state.area && !state.editing &&
       new PathLayer({ id: 'area-line', data: [[...state.area.poly, state.area.poly[0]]], getPath: (d) => d, parameters: ON_TOP,
         getColor: [...themeColors.value.area, 240], widthMinPixels: 2.5 }),
     state.drawing && state.draft.length > 1 &&
@@ -182,6 +194,18 @@ function layers() {
     state.drawing &&
       new ScatterplotLayer({ id: 'draft-pts', data: [...state.draft], getPosition: (d) => d, getRadius: 4, radiusUnits: 'pixels',
         getFillColor: themeColors.value.draft, parameters: ON_TOP }),
+    // editing the area: the polygon, its corners (drag, right-click removes) and midpoints (click adds a corner)
+    state.editing &&
+      new PathLayer({ id: 'edit-path', data: [[...state.draft, state.draft[0]]], getPath: (d) => d, getColor: themeColors.value.draft,
+        widthMinPixels: 2.5, parameters: ON_TOP }),
+    state.editing &&
+      new ScatterplotLayer({ id: 'edit-mid', data: state.draft.map((q, i) => mid(q, state.draft[(i + 1) % state.draft.length])),
+        getPosition: (d) => d, getRadius: 4, radiusUnits: 'pixels', stroked: true, filled: true, getFillColor: [255, 255, 255, 200],
+        getLineColor: themeColors.value.draft, lineWidthMinPixels: 1.5, pickable: true, parameters: ON_TOP }),
+    state.editing &&
+      new ScatterplotLayer({ id: 'edit-pts', data: [...state.draft], getPosition: (d) => d, getRadius: 6, radiusUnits: 'pixels',
+        getFillColor: themeColors.value.draft, stroked: true, getLineColor: [255, 255, 255], lineWidthMinPixels: 1.5, pickable: true,
+        parameters: ON_TOP }),
   ].filter(Boolean)
 }
 
@@ -199,8 +223,9 @@ onMounted(() => {
   overlay = new MapboxOverlay({
     interleaved: false,
     layers: layers(),
-    getCursor: ({ isHovering }) => (state.addMode || state.drawing ? 'crosshair' : isHovering ? 'pointer' : 'grab'),
+    getCursor: ({ isHovering }) => (state.editing ? (isHovering ? 'move' : 'grab') : state.addMode || state.drawing ? 'crosshair' : isHovering ? 'pointer' : 'grab'),
     onClick: (info) => {
+      if (state.editing) return
       if (state.drawing && info.coordinate) return addVertex(info.coordinate[0], info.coordinate[1])
       if (state.addMode && !info.layer && info.coordinate) tryAdd(info.coordinate[0], info.coordinate[1], info)
     },
@@ -219,7 +244,7 @@ onMounted(() => {
 
 watch(
   () => [state.scenarioId, state.live?.version, state.area?.version, state.area, state.drawing, state.draft, state.overlay, state.showStreets, isDark.value,
-    state.month, state.selected, state.addedVersion, state.buildingOpacity, state.addMode],
+    state.month, state.selected, state.addedVersion, state.buildingOpacity, state.addMode, state.editing],
   () => overlay?.setProps({ layers: layers() }),
 )
 
@@ -228,7 +253,7 @@ watch(isDark, () => map?.setStyle(themeColors.value.basemap))
 
 // a new project area: frame it (keeps the current pitch and bearing)
 watch(() => state.area?.poly, (poly) => {
-  if (!poly || !map) return
+  if (!poly || !map || state.area.edited) return // an edited area stays where the view is
   const lons = poly.map((p) => p[0]), lats = poly.map((p) => p[1])
   map.fitBounds([[Math.min(...lons), Math.min(...lats)], [Math.max(...lons), Math.max(...lats)]],
     { padding: 60, pitch: map.getPitch(), bearing: map.getBearing(), duration: 800, maxZoom: 18.5 })
@@ -237,20 +262,51 @@ watch(() => state.area?.poly, (poly) => {
 // while drawing a project area, double clicks place corners instead of zooming
 watch(() => state.drawing, (on) => (on ? map?.doubleClickZoom.disable() : map?.doubleClickZoom.enable()))
 
-// while drawing, a right click (without dragging the view), Enter or Space closes the area; Escape cancels it
+// while drawing, a right click (without dragging the view), Enter or Space closes the area; Escape cancels it.
+// While editing, a corner or midpoint under the mouse is dragged instead of the map, and a right click on a corner removes it.
 let rightDown = null
-const onMouseDown = (e) => (rightDown = e.button === 2 ? [e.clientX, e.clientY] : null)
+let dragging = null // index of the corner being moved
+const px = (e) => { const r = el.value.getBoundingClientRect(); return [e.clientX - r.left, e.clientY - r.top] }
+const pickEdit = (e) => { const [x, y] = px(e); return overlay?.pickObject({ x, y, radius: 6, layerIds: ['edit-pts', 'edit-mid'] }) }
+const onMouseDown = (e) => {
+  rightDown = e.button === 2 ? [e.clientX, e.clientY] : null
+  if (!state.editing || e.button !== 0) return
+  const hit = pickEdit(e)
+  if (!hit) return
+  e.stopPropagation() // keep MapLibre from panning
+  e.preventDefault()
+  if (hit.layer.id === 'edit-mid') state.draft = [...state.draft.slice(0, hit.index + 1), hit.object, ...state.draft.slice(hit.index + 1)]
+  dragging = hit.layer.id === 'edit-mid' ? hit.index + 1 : hit.index
+  window.addEventListener('mousemove', onDrag)
+  window.addEventListener('mouseup', onDrop, { once: true })
+}
+const onDrag = (e) => {
+  const { lng, lat } = map.unproject(px(e))
+  state.draft = state.draft.map((q, i) => (i === dragging ? [lng, lat] : q))
+}
+const onDrop = () => {
+  dragging = null
+  window.removeEventListener('mousemove', onDrag)
+}
 const onContextMenu = (e) => {
+  if (state.editing) {
+    e.preventDefault()
+    const hit = pickEdit(e)
+    if (hit?.layer.id !== 'edit-pts') return
+    if (state.draft.length <= 3) return void (state.addMsg = 'An area needs at least three corners.')
+    state.draft = state.draft.filter((_, i) => i !== hit.index)
+    return
+  }
   if (!state.drawing) return
   e.preventDefault()
   if (rightDown && Math.hypot(e.clientX - rightDown[0], e.clientY - rightDown[1]) < 5 && state.draft.length >= 3) finishArea()
 }
 const onKey = (e) => {
-  if (!state.drawing || e.target.closest?.('input, select, textarea')) return
-  if (e.key === 'Escape') return cancelDrawing()
+  if (!(state.drawing || state.editing) || e.target.closest?.('input, select, textarea')) return
+  if (e.key === 'Escape') return state.editing ? cancelEditArea() : cancelDrawing()
   if (e.key !== 'Enter' && e.key !== ' ') return
   e.preventDefault() // Space would otherwise press the focused button
-  if (state.draft.length >= 3) finishArea()
+  if (state.draft.length >= 3) state.editing ? finishEditArea() : finishArea()
 }
 onMounted(() => {
   el.value.addEventListener('mousedown', onMouseDown, true)
