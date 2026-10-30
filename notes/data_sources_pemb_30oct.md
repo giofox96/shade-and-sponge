@@ -45,7 +45,7 @@ Checked from the OMEN PC on 30 Oct (static files under `https://arbres.barcelona
 | Data | Provider | Status |
 |---|---|---|
 | Tree replacement rules, sidewalk widths, 15% cap scope | Parcs i Jardins (via Atenció en línia form) | Sent 21 Oct, code **RGF7342**; follow up ~4 Nov |
-| RESCCUE depth licence, units, T = 1 yr | Barcelona Regional, **contact form** https://www.bcnregional.com/contacte-2/ (type "Research / Study"); phone +34 932 237 400 | **br@bcnregional.com bounced on 30 Oct** (address not found), so the 13 Oct email most likely never arrived. Send the full request (4a) through the form |
+| RESCCUE depth licence, units, T = 1 yr | Barcelona Regional, **contact form** https://www.bcnregional.com/contacte-2/ (type "Research / Study"); phone +34 932 237 400 | **br@bcnregional.com bounced on 30 Oct** (address not found), so the 13 Oct email most likely never arrived. **Full request (4a) sent through the form on 30 Oct** (no request code) |
 | Rain-gauge series 1994–2019, sewer model results | BCASA (site https://www.barcelona.cat/bcasa/ca: no email, no own form) | **Sent 30 Oct, code BDM9240** (category "Información sobre la red de alcantarillado"). Channel: the city online-service form https://atencioenlinia.ajuntament.barcelona.cat/ca (general contact form, ask to forward to BCASA), or 010 |
 | Inventory history | Open Data BCN quarterly files (also mirrored by arbres.barcelona) | Public, no request needed |
 
