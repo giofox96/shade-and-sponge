@@ -192,3 +192,35 @@ Caveats:
 - **Buildings come from two sources.** Overpass was overloaded on most of the night, so 11 barris first used footprints traced from the LiDAR building class (`source = "lidar"`, city blocks merge into one polygon) and five used OSM; el Clot was then rerun with OSM (below), so ten keep LiDAR footprints. Shadows do not depend on this: the heat proxy always casts them from the LiDAR building-height raster (`bldg_h`). The footprints only set the roof mask (runoff CN), which cells count as pedestrian ground, and which canopy is background. The median tool margin is 5.7 points with LiDAR footprints and 8.4 with OSM, but the groups are confounded with the district (five of the six OSM barris are in Eixample), so this is not evidence that the source matters. **Test (29 Oct): el Clot rerun with OSM footprints** (1,350 from the local BBBike extract, `scripts/osm_buildings.py`, against 646 LiDAR polygons): tool 76.7% → 76.5%, city mix 70.6% → 70.6%, margin 6.1 → 5.9 points, canopy S0 24.6% → 24.0%, hot runoff unchanged. The source moves the results by 0.2 points at most, so the other ten barris keep their LiDAR footprints. Overpass did not answer from the PC all day; buildings and green areas now come from the local extract (`raw/osm/{buildings,green}.gpkg`).
 - Sidewalk widths: 14–54% of the trees per barri are unmeasured (`check`, no size filter), highest in el Besòs i el Maresme (54%) and Diagonal Mar (50%).
 - As in §6.6: trunk sizes fall back to Porta's medians for species with few local trees; the runoff calibration is Porta's; the cap is still per barri.
+
+### 6.8 City-wide cap: one LP for 17 barris (30 Oct)
+
+`python scripts/city_lp.py` on the user's PC: Porta + the 16 Eixample and Sant Martí barris, 21,201 planes, stacked in one LP (`layout.assign`) with the same 15-point weight sweep as the tool. The cap is the city's (`layout.city_cap`): floor(15% × 140,404 street trees) minus each species' trees today, and of that headroom only the share of the city's 40,137 planes replaced here (21,201 / 40,137, `ASSUMPTION`: otherwise the first barris computed would use up the headroom of the rest). Cap here: Celtis 885, Styphnolobium 6,809, Tipuana 7,618, Melia 7,816, Brachychiton 8,350, Jacaranda 9,415, Pyrus 11,123. Outputs: `databases/barcelona/citylp/`, `citylp_summary.csv`, `citylp_species.csv`.
+
+**Read one joint layout, not the best per barri.** `citylp_summary.csv` picks, in each barri, the swept layout with the most summer shade. Different barris then come from different weights, and their species counts added together are not one layout under the cap. The numbers below are all from the single summer-only layout (`S4_s1.00_w0.00_r0.00`). Its species totals are Celtis 885 (at the cap in every weight), Melia 3,252, Pyrus 1,641, Jacaranda 3,119, Tipuana 6,714, Brachychiton 986 and Styphnolobium 4,604. The top three summer-weighted layouts differ by less than 0.2% in total summer shade.
+
+| Barri | Summer: city mix / local cap / city cap | City cap − local cap (pts) | Winter, city cap | Hot runoff, city cap | Largest species, city cap (S0: largest genus) |
+|---|---|---|---|---|---|
+| Porta | 87.4 / 99.1 / 103.3% | +4.2 | 124.2% | 0.0% | Jacaranda 29.6% (Platanus 31.1%) |
+| Sant Antoni | 72.1 / 79.0 / 81.1% | +2.1 | 115.1% | +2.5% | Celtis 42.3% (Platanus 41.5%) |
+| el Fort Pienc | 68.2 / 78.0 / 82.4% | +4.4 | 110.6% | +0.6% | Jacaranda 34.9% (Platanus 43.1%) |
+| l'Antiga Esquerra de l'Eixample | 61.8 / 69.7 / 70.1% | +0.4 | 106.0% | +3.0% | Celtis 31.5% (Platanus 42.9%) |
+| la Dreta de l'Eixample | 59.9 / 70.9 / 78.0% | +7.1 | 94.5% | +2.1% | Celtis 40.3% (Platanus 46.4%) |
+| la Nova Esquerra de l'Eixample | 75.1 / 83.5 / 84.3% | +0.8 | 117.3% | +2.2% | Celtis 36.1% (Celtis 37.5%) |
+| la Sagrada Família | 74.7 / 77.8 / 79.9% | +2.1 | 94.9% | +3.2% | Celtis 35.2% (Celtis 36.8%) |
+| Diagonal Mar i el Front Marítim del Poblenou | 74.1 / 79.8 / 102.0% | +22.2 | 145.5% | +0.1% | Tipuana 48.5% (Platanus 36.2%) |
+| Provençals del Poblenou | 65.2 / 68.8 / 69.7% | +0.9 | 85.4% | +1.1% | Melia 23.9% (Platanus 53.7%) |
+| Sant Martí de Provençals | 71.6 / 78.4 / 83.7% | +5.3 | 128.1% | +1.2% | Tipuana 27.6% (Platanus 46.7%) |
+| el Besòs i el Maresme | 77.3 / 82.6 / 86.8% | +4.2 | 134.8% | +1.0% | Tipuana 32.3% (Platanus 40.0%) |
+| el Camp de l'Arpa del Clot | 79.0 / 81.2 / 81.2% | 0.0 | 96.5% | +0.8% | Celtis 40.8% (Celtis 42.6%) |
+| el Clot | 70.6 / 76.5 / 78.9% | +2.4 | 115.0% | +1.0% | Tipuana 26.3% (Platanus 35.9%) |
+| el Parc i la Llacuna del Poblenou | 72.2 / 78.4 / 78.7% | +0.3 | 95.2% | +1.1% | Melia 22.0% (Platanus 48.2%) |
+| el Poblenou | 65.2 / 75.3 / 77.9% | +2.6 | 120.5% | +1.2% | Tipuana 21.5% (Platanus 53.0%) |
+| la Verneda i la Pau | 72.0 / 82.2 / 83.1% | +0.9 | 126.7% | +0.7% | Jacaranda 27.6% (Platanus 44.5%) |
+| la Vila Olímpica del Poblenou | 72.3 / 77.8 / 80.4% | +2.6 | 115.8% | +1.2% | Tipuana 41.5% (Platanus 48.1%) |
+
+Reading:
+- **The city cap never does worse than the local one** (0.0 to +22.2 points, median +2.4). Its margin over the city's mix grows to +2.2 to +27.9 points (median +9.2). Two barris, Porta and Diagonal Mar, now get back to more than today's summer shade.
+- The gain comes from moving species to where they work best. 712 of the 885 Celtis the cap allows go to la Dreta de l'Eixample. Diagonal Mar gets 612 Tipuana, which its local cap had set to 0 because the barri already has many.
+- **The city cap alone allows local monocultures.** In Diagonal Mar, Tipuana becomes 48.5% of the barri's street trees, against a plane share of 36.2% today. The cap's reasons are pest risk and resilience (`notes/tree_master_plan.md`), and these act locally too. So a city cap without any local ceiling can recreate the problem it is meant to solve. In 15 of the 17 barris, the largest species stays below today's largest genus share; the exceptions are Diagonal Mar and Sant Antoni (42.3% against 41.5%).
+- Winter shade rises with summer shade (median 115%): the summer-only layout ignores the winter cost.
