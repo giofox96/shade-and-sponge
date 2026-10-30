@@ -231,4 +231,4 @@ Reading:
 - **Sant Antoni:** summer shade falls from 81.1% to 80.1% (Celtis 40.3%).
 - **la Dreta de l'Eixample:** summer shade rises from 78.0% to 78.4%.
 - Overall the city cap with the local ceiling beats the local cap by 0.0 to +17.4 points (median +2.4), and beats the city's mix by +2.2 to +23.1 (median +9.2). Porta stays at 103.3%.
-- **The ceiling costs little and removes the monoculture problem. It is the proposed rule:** the city's 15% fixes how much of each species, and the barri ceiling stops any barri from ending more concentrated than today.
+- **The ceiling costs little and removes the monoculture problem. It is the rule (DECIDED, user, 30 Oct):** the city's 15% fixes how much of each species, and the barri ceiling stops any barri from ending more concentrated than today.
