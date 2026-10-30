@@ -123,6 +123,14 @@ def add_cap(cap, n_total, n_add):
     return cap + int(np.floor(MAX_SHARE * (n_total + n_add)) - np.floor(MAX_SHARE * n_total))
 
 
+def city_cap(n_species, n_total, planes_here, planes_city):
+    """City-wide 15% cap (tree master plan; street trees only, notes/citywide_plan.md §6.5) for a joint layout of some
+    barris: headroom = floor(15% of the city's street trees) − the species' trees today, then the pro-rata part of it
+    for the planes replaced here (ASSUMPTION: so that the barris run first do not use up the headroom of the others)."""
+    head = (np.floor(MAX_SHARE * n_total) - np.asarray(n_species)).clip(0)
+    return np.floor(head * planes_here / planes_city).astype(int)
+
+
 def in_area(pos, path):
     """Positions inside the project area the user draws (notes/topic_decision.md §10.6): any polygon file GeoPandas
     reads (GeoJSON, shapefile, GeoPackage), in its own CRS; EPSG:25831 if it has none (GeoJSON without one is WGS84).

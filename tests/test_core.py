@@ -115,3 +115,9 @@ def test_barri_slug():
     assert slug("la Vila de Gràcia") == "la-vila-de-gracia"
     assert slug("l'Antiga Esquerra de l'Eixample") == "l-antiga-esquerra-de-l-eixample"
     assert slug("Porta") == "porta"
+
+
+def test_city_cap_pro_rata():
+    cap = layout.city_cap([19384, 3235, 30000], 140000, 10000, 40000)
+    assert list(cap) == [(21000 - 19384) // 4, (21000 - 3235) // 4, 0]   # over-quota species get no headroom
+    assert layout.city_cap([0], 100, 5, 5)[0] == 15                      # whole city: full headroom
