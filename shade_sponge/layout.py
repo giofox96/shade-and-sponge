@@ -123,6 +123,14 @@ def add_cap(cap, n_total, n_add):
     return cap + int(np.floor(MAX_SHARE * (n_total + n_add)) - np.floor(MAX_SHARE * n_total))
 
 
+def city_cap(n_species, n_total, planes_here, planes_city):
+    """City-wide 15% cap (tree master plan; street trees only, notes/citywide_plan.md §6.5) for a joint layout of some
+    barris: headroom = floor(15% of the city's street trees) − the species' trees today, then the pro-rata part of it
+    for the planes replaced here (ASSUMPTION: so that the barris run first do not use up the headroom of the others)."""
+    head = (np.floor(MAX_SHARE * n_total) - np.asarray(n_species)).clip(0)
+    return np.floor(head * planes_here / planes_city).astype(int)
+
+
 def in_area(pos, path):
     """Positions inside the project area the user draws (notes/topic_decision.md §10.6): any polygon file GeoPandas
     reads (GeoJSON, shapefile, GeoPackage), in its own CRS; EPSG:25831 if it has none (GeoJSON without one is WGS84).
@@ -176,14 +184,23 @@ def _entropy_chords(n_pos):
     return g[:-1] - b * n[:-1], b                     # line k: a_k + b_k·n
 
 
-def assign(score, cap, fit, min_eff=None):
+def assign(score, cap, fit, min_eff=None, local=None):
     """Max total score, one fitting species per position, species counts <= cap (transportation LP, integral at a vertex).
+    local = (group of each position, G×S caps): also species counts per group (barri) <= its cap. The groups nest
+    inside the species totals, so the LP is still a network flow and stays integral.
     min_eff: optional diversity floor (methodology §6) on the planted positions as an effective number of species,
     exp(Shannon H) as in SylvCiT (Nicol et al. 2026). Linear in the counts via _entropy_chords; only the S counts are
     integer, the x-part stays a transportation problem."""
     P, S = score.shape
     A_eq = sparse.kron(sparse.eye(P), np.ones((1, S)))
     A_ub = sparse.kron(np.ones((1, P)), sparse.eye(S))
+    if local is not None:
+        if min_eff is not None:
+            raise NotImplementedError("local caps with a diversity floor")
+        g, lcap = local
+        rows = (np.asarray(g)[:, None] * S + np.arange(S)).ravel()
+        A_ub = sparse.vstack([A_ub, sparse.csr_matrix((np.ones(P * S), (rows, np.arange(P * S))), shape=(lcap.size, P * S))])
+        cap = np.r_[cap, lcap.ravel()]
     if min_eff is None:
         res = linprog(-score.ravel(), A_ub=A_ub, b_ub=cap, A_eq=A_eq, b_eq=np.ones(P),
                       bounds=np.c_[np.zeros(P * S), fit.ravel()], method="highs")
@@ -209,7 +226,7 @@ def eff_species(choice, n_species):
     return float(np.exp(-(p * np.log(p)).sum()))
 
 
-def sweep(objs, cap, fit, step=0.25, min_eff=None):
+def sweep(objs, cap, fit, step=0.25, min_eff=None, local=None):
     """objs: {name: (potential matrix, +1 to maximise / −1 to minimise)}. Every weight combination on a simplex grid
     (step 0.25 -> 15 combinations for 3 objectives); potentials normalised by their maximum. A 1e-3 share of the
     unweighted sum breaks ties (e.g. positions that do not drain to a hotspot)."""
@@ -219,7 +236,7 @@ def sweep(objs, cap, fit, step=0.25, min_eff=None):
     for c in itertools.product(range(n + 1), repeat=len(objs)):
         if sum(c) == n:
             w = np.array(c) / n
-            out[tuple(w)] = assign(sum(wk * m for wk, m in zip(w, norm)) + 1e-3 * sum(norm), cap, fit, min_eff)
+            out[tuple(w)] = assign(sum(wk * m for wk, m in zip(w, norm)) + 1e-3 * sum(norm), cap, fit, min_eff, local)
     return out
 
 

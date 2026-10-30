@@ -115,3 +115,17 @@ def test_barri_slug():
     assert slug("la Vila de Gràcia") == "la-vila-de-gracia"
     assert slug("l'Antiga Esquerra de l'Eixample") == "l-antiga-esquerra-de-l-eixample"
     assert slug("Porta") == "porta"
+
+
+def test_city_cap_pro_rata():
+    cap = layout.city_cap([19384, 3235, 30000], 140000, 10000, 40000)
+    assert list(cap) == [(21000 - 19384) // 4, (21000 - 3235) // 4, 0]   # over-quota species get no headroom
+    assert layout.city_cap([0], 100, 5, 5)[0] == 15                      # whole city: full headroom
+
+
+def test_assign_local_caps():
+    rng = np.random.default_rng(2)
+    score = rng.random((40, 3)) + np.array([5, 0, 0])               # everyone wants species 0
+    g = np.repeat([0, 1], 20)
+    ch = layout.assign(score, np.array([30, 40, 40]), np.ones((40, 3), bool), local=(g, np.array([[5, 20, 20], [20, 20, 20]])))
+    assert np.bincount(ch[g == 0], minlength=3)[0] == 5 and (ch == 0).sum() == 25   # barri 0 capped at 5, barri 1 takes 20
