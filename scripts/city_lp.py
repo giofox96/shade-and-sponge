@@ -39,7 +39,8 @@ def setup(name):
 if __name__ == "__main__":
     args = [a for a in sys.argv[1:] if not a.startswith("--")] or ["Eixample", "Sant Martí"]
     idx = pd.read_csv(DB / "lidar_tiles_barris.csv").drop_duplicates("barri")
-    sel = idx[idx.district.isin(args) | idx.barri.isin(args)]
+    dist = [a for a in args if a not in set(idx.barri)]  # a name that is also a barri ("Sant Andreu") means the barri only
+    sel = idx[idx.district.isin(dist) | idx.barri.isin(args)]
     barris = [("Porta", "porta")] + list(zip(sel.barri, sel.slug))
     p = runoff.design_storm(2, 60)
     loc = "--local-ceiling" in sys.argv
