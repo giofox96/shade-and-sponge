@@ -45,7 +45,7 @@ Checked from the OMEN PC on 30 Oct (static files under `https://arbres.barcelona
 | Data | Provider | Status |
 |---|---|---|
 | Tree replacement rules, sidewalk widths, 15% cap scope | Parcs i Jardins (via Atenció en línia form) | Sent 21 Oct, code **RGF7342**; follow up ~4 Nov |
-| RESCCUE depth licence, units, T = 1 yr | Barcelona Regional, br@bcnregional.com | Sent 13 Oct; **reminder overdue** (was due 23 Oct) |
+| RESCCUE depth licence, units, T = 1 yr | Barcelona Regional, **contact form** https://www.bcnregional.com/contacte-2/ (type "Research / Study"); phone +34 932 237 400 | **br@bcnregional.com bounced on 30 Oct** (address not found), so the 13 Oct email most likely never arrived. Send the full request (4a) through the form |
 | Rain-gauge series 1994–2019, sewer model results | BCASA | Not contacted. No verified email: use the contact page on BCASA's own site or the Ecologia Urbana form |
 | Inventory history | Open Data BCN quarterly files (also mirrored by arbres.barcelona) | Public, no request needed |
 
@@ -53,16 +53,14 @@ So PEMB's advice points to providers already contacted, except BCASA. Drafts bel
 
 ## 4. Drafts (not sent)
 
-### 4a. Reminder to Barcelona Regional
-**To:** br@bcnregional.com
-**Subject:** Follow-up: permission to use RESCCUE flood-depth layers in a master's thesis (IAAC)
+### 4a. Request to Barcelona Regional (web form, "Research / Study")
+**Subject:** Permission to use RESCCUE flood-depth layers in a master's thesis (IAAC)
 
 Dear Barcelona Regional team,
 
-On 13 October I wrote to ask for permission to use the RESCCUE flood-depth results published in the Barcelona
-Resilience Atlas (tables `rcc_iu1_t10_actual`, `rcc_iu1_t100_actual`, `rcc_iu1_t10_futur`, `rcc_iu1_t100_futur`) in my
+I would like to ask for permission to use the RESCCUE flood-depth results published in the Barcelona Resilience Atlas (tables `rcc_iu1_t10_actual`, `rcc_iu1_t100_actual`, `rcc_iu1_t10_futur`, `rcc_iu1_t100_futur`) in my
 MaCAD master's thesis at IAAC. PEMB has since confirmed that the Atlas is the right source and suggested I contact the
-data provider directly, so I am writing again.
+data provider directly.
 
 In short, I would be grateful to know:
 1. whether I may use these layers for academic, non-commercial work, credited to PDISBA'19-RESCCUE / Barcelona
