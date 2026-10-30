@@ -59,7 +59,7 @@ So PEMB's advice points to providers already contacted, except BCASA. Drafts bel
 Dear Barcelona Regional team,
 
 I would like to ask for permission to use the RESCCUE flood-depth results published in the Barcelona Resilience Atlas (tables `rcc_iu1_t10_actual`, `rcc_iu1_t100_actual`, `rcc_iu1_t10_futur`, `rcc_iu1_t100_futur`) in my
-MaCAD master's thesis at IAAC. PEMB has since confirmed that the Atlas is the right source and suggested I contact the
+MaCAD master's thesis at IAAC. PEMB (Pla Estratègic Metropolità de Barcelona) confirmed that the Atlas is the right source and suggested I contact the
 data provider directly.
 
 In short, I would be grateful to know:
