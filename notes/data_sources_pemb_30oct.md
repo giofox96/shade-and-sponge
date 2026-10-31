@@ -130,3 +130,23 @@ to reduce summer heat stress and pluvial runoff, tested in the Porta neighbourho
 (rain-gauge series and drainage-model results) will be used only for this academic work, will not be shared with third
 parties and will be credited to Barcelona Cicle de l'Aigua, SA, Ajuntament de Barcelona.
 [Name, role, IAAC, date, signature]
+
+## 6. Observed replacements from the quarterly inventory (31 Oct, `scripts/inventory_history.py`)
+Run on the OMEN PC. Open Data BCN `arbrat-viari` holds **35 quarterly files, 2018 Q1 – 2026 Q3** (zipped CSVs).
+Street trees: 156,253 (2018 Q1), peak 157,674 (2020 Q3), 145,034 (2026 Q3).
+- **The city keeps a tree-pit code when it replants it**, so most replacements show up as a species change on the same
+  code, not as a removal + new code (only 225 position-matched pairs). Raw species changes are dominated by re-coding
+  (e.g. 42,106 *Platanus × hispanica* → *× acerifolia* in 2023 Q1; spelling fixes; re-identifications). After filters
+  (genus+species names, same-genus changes dropped, >50 identical changes per quarter = re-coding, reversed changes =
+  corrections, 9 listed renames; all ASSUMPTION): **10,758 same-code replacements** + 218 position-matched ones.
+- **Planes replaced 1,444 times** city-wide; species planted instead: *Celtis australis* 296, *Melia azedarach* 219,
+  *Gleditsia triacanthos* 105, *Koelreuteria paniculata* 89, *Styphnolobium japonicum* 86, *Grevillea robusta* 70,
+  *Pyrus calleryana* 65, *Jacaranda mimosifolia* 54.
+- **Porta: 227 replacements**, mostly not planes (10): *Catalpa* → *Handroanthus heptaphyllus* 47, *Populus nigra* →
+  *Fraxinus angustifolia* 28 / *Casuarina* 21 / *Grevillea* 15, *Populus alba* → *Fraxinus angustifolia* 11 /
+  *Pyrus calleryana* 10.
+- Same-species replanting is invisible on a kept code, so its share cannot be measured (22% only on the 218 new-code pairs).
+- Not yet checked: the synonym list against a taxonomic authority; whether the 50-per-quarter threshold drops real
+  whole-street replantings.
+Outputs: `databases/barcelona/inventory_snapshots.csv`, `inventory_replacements.csv` (column `kind`),
+`inventory_replacement_matrix.csv`.
