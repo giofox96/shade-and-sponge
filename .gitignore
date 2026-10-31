@@ -38,3 +38,6 @@ databases/*/weather/
 
 # Thesis build output
 thesis/build/
+
+# City policy PDFs and their extracted text (re-downloadable, see notes/tree_master_plan.md §8)
+databases/policy/

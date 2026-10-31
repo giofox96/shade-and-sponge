@@ -289,6 +289,7 @@ Gate 1 found a rule (`notes/tree_master_plan.md` §5b). v7 builds the problem on
 
 **Gap.**
 - **In practice:** rules for which species, but no quantities.
+  - City strategy sets targets in hectares, not per tree: 9 ha of shade from structures, 7 ha of SUDS, +5% tree cover by 2037 (Climate Plan 2024, p.33). The Nature Plan 2021-2030 has no street-tree target and lists "which species for shade, and where" as a study still to do (project 83, p.114) (`tree_master_plan.md` §8).
 - **In research:**
   - workflows that assess heat and runoff for fixed scenarios, without species traits (Mannucci et al. 2025; Wu et al. 2024);
   - optimisers for heat only (Shaamala et al. 2025; Peng et al. 2026);

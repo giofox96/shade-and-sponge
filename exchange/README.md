@@ -28,6 +28,23 @@ grasshopper/            your .gh definitions (commit them; screenshots welcome a
 | `positions_tool_v0_barcelona_<date>.csv`, `layouts_tool_v0_barcelona_<date>.csv` | as above | Same files for the Barcelona shortlist palette (34 species) |
 | `porta_buildings.geojson` | geometry (local coords), height_m, ground_z, lidar_cover | 745 OSM footprints (© OpenStreetMap contributors, ODbL) extruded by LiDAR median roof height above ground. Read with GH Python `json`, extrude by height_m |
 
+## Ladybug Tier 1 test: one street, S0 vs one replacement (prepared 31 Oct)
+Street: **Pg Andreu Nin**, 80 planes (`street_andreu-nin_*_20261031.*`, cut from `layouts_tool_v0_sizeexact_trunkTERCERA_20261026.csv`).
+| File | Content |
+|---|---|
+| `street_andreu-nin_trees_S0_current_20261031.csv` | the 80 planes today (layout columns, as `layouts_tool_v0_*`) |
+| `street_andreu-nin_trees_S4_s1.00_w0.00_r0.00_20261031.csv` | the same 80 positions, tool layout with the most summer shade: 42 Jacaranda, 18 Styphnolobium, 12 Tipuana, 7 Melia, 1 Brachychiton |
+| `street_andreu-nin_context_trees_20261031.csv` | 87 other trees within 60 m (`porta_trees_lidar` columns, `flag == ok`); identical in both runs |
+| `street_andreu-nin_buildings_20261031.geojson` | 30 buildings whose centroid is within 90 m of the street trees (same format as `porta_buildings.geojson`) |
+| `street_andreu-nin_testpoints_20261031.csv` | point_id, x, y, z: 1,974 points on a 2 m grid within 8 m of a street tree, outside footprints, 1.1 m above ground |
+
+Steps in Grasshopper:
+1. Buildings: building snippet below on the buildings file. Context trees: crown snippet on the context file. Street trees: crown snippet on the S0 file (skip the `flag` check; use `lai` instead of `lai_proxy`).
+2. Shade context = buildings + all crowns. Ladybug: EPW TMYx El Prat 2011–2025, hot design day 15 Jul, **12–17 h local clock (CEST) = EPW hours 11–16** (the EPW is in standard time; decided 25 Oct, `notes/decisions/heat_objective.md`). MRT with *LB Outdoor Solar MRT* per test point, then *LB UTCI Comfort*.
+3. Write the results with the UTCI snippet below to `from_gh/utci_S0_current_<date>.csv`, one row per point × hour.
+4. Swap the street-tree file for the S4 file, rerun, write `from_gh/utci_S4_s1.00_w0.00_r0.00_<date>.csv`.
+5. Record the settings in `from_gh/run_log.md` (EPW, hours, wind, albedo, crown transmittance). Claude computes mean UTCI 12–17 h per scenario and the difference.
+
 ## Grasshopper Python: read a CSV of points (Rhino 8 Python 3 or Rhino 7 IronPython)
 Inputs: `path` (str). Outputs: `pts`, `species`, `is_plane`.
 ```python

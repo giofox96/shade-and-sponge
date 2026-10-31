@@ -21,7 +21,7 @@
 12. [x] **Overnight batch, Eixample + Sant Martí (16 barris, 37 tiles):** `python scripts/run_barris.py`. It skips what is done and logs failures to `databases/barcelona/barris/run_log.csv`. Then commit `databases/barcelona/barris/`, `databases/barcelona/barris_summary.csv`, `lidar_tiles_dates.csv` and the new `tool_v0_summary_*` files.
 
 ## Fast track to the 10 Nov tutor session (only you can do these; in order)
-1. [ ] **Watch for the Parcs i Jardins reply** (sent 24 Oct). Forward it to me as soon as it arrives: a current per-street list would replace S1.
+1. [ ] **Watch for the Parcs i Jardins reply** (sent 24 Oct). Forward it to me as soon as it arrives: a current per-street list would replace S1. In the ~4 Nov follow-up (RGF7342), also ask for the list of species that count as "adapted" for the 30% → 40% target (`tree_master_plan.md` §7–8).
 2. [x] **Download 3 papers into `papers/`** (all three are in `papers/` as of 26 Oct; Kendal and Santamour are already cited in the gap, 24 Oct):
    - Nieuwenhuijsen et al. 2022, *Environ. Res.* 215:114387 (3-30-300 in Barcelona; open PDF: https://ddd.uab.cat/pub/artpub/2022/284178/284178.pdf);
    - Santamour 1990 (10-20-30 rule);

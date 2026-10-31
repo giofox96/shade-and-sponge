@@ -510,7 +510,7 @@ Sources: `slides/outline_20oct.md`; the Porta and Barcelona answers from `notes/
 | 15% | Max share per species (tree master plan), city-wide over the urban fabric (~201,600 trees, 2017) |
 | 27.45% / 43,722 | Plane trees in Barcelona (press, May 2026); ~29% among Porta's street trees |
 | −56% → 12% | Plane cut within ten years (press, May 2026) |
-| 30% / 40% | Master-plan 2037 targets: tree cover of the urban surface / climate-adapted species |
+| 30% / 40% | Master-plan 2037 targets: tree cover of the urban surface / climate-adapted species (both restated in the Climate Plan 2024, p.33: "+5%" cover, adapted species 30% → 40%) |
 | < 3.5 / 3.5–6 / > 6 m | Sidewalk width → small / medium / large tree (2011 guide; < 2.5 m no tree) |
 | 7 / 9 / 13 m | Tree spacing for small / medium / large |
 | 194 of 832 | Porta's planes on Av. Meridiana (the city keeps planes on large avenues; whether Meridiana counts is open) |
