@@ -28,7 +28,7 @@
    - Kendal, Dobbs & Lohr 2014 (diversity benchmarks, 108 cities).
 3. [ ] **Ladybug Tier 1 on one Porta street, S0 vs one replacement** (≈1 evening). This is the first real UTCI number for the deck: mean UTCI 12–17 h, hot design day. I prepare the files in `exchange/to_gh/` and you run it in Grasshopper. Tell me which day you can do it.
 4. [ ] **RM cluster map by hand on Miro, by Tue 27 Oct** (below).
-5. [ ] **Ask the tutor by email (one line):** is Infrared City access possible before 10 Nov? If yes, it replaces item 3.
+5. [x] **Ask the tutor by email (one line):** is Infrared City access possible before 10 Nov? If yes, it replaces item 3. **Sent (user, 30 Oct); awaiting reply.**
 6. [x] **Baseline decided (24 Oct): S1a**, the 2026 mix. S1b, the 2004 table, is cited only.
 7. [ ] Pick a day before 10 Nov for a 20-min **dry run of the deck** with me (problem → RQ → flowcharts → first results → validation).
 
@@ -70,10 +70,10 @@ The user lives in Florence (15 Oct), so **no field photos in Porta**. Remote alt
 - [ ] **Email the tutor** (one email, or bring it to the meeting):
   - [x] RESCCUE **flood depth maps**: found on 13 Oct as public tables (T10, T100, present/future) in the atlas's CARTO account, no login needed (`databases/data_inventory_barcelona.md` B1). Still worth asking: licence for thesis use, and whether a T = 1 yr run exists.
   - [x] **Sent 13 Oct: RESCCUE licence email** to br@bcnregional.com; waiting for the reply; reminder by ~23 Oct if none (text and steps: `notes/resccue_data_request.md`).
-  - [ ] **Infrared City access**, plus three questions: (a) how are trees represented: geometry only, or porosity/LAI per species? (The 2020–2022 InFraReD papers have no trees in their microclimate models, only green space as an area: matrix #144–#146, read 28 Oct.) (b) API limits for thousands of runs; (c) published validation against ENVI-met or Ladybug.
-  - [ ] Confirm the **final delivery date** (18 Dec?), and whether **Grasshopper integration** is required by the programme.
+  - [x] **Infrared City access** (email sent 30 Oct; awaiting reply), plus three questions: (a) how are trees represented: geometry only, or porosity/LAI per species? (The 2020–2022 InFraReD papers have no trees in their microclimate models, only green space as an area: matrix #144–#146, read 28 Oct.) (b) API limits for thousands of runs; (c) published validation against ENVI-met or Ladybug.
+  - [ ] Confirm the **final delivery date** (18 Dec?). Grasshopper integration: **not required by the programme (user, 30 Oct)**.
   - [ ] Slide format for the 5-min talk (Google Slides assumed).
-  - [ ] Ask the tutor (now on slide 12): we removed H3 because it is true by construction of the model and declared it a boundary instead — is that the right call?
+  - [x] (Closed 30 Oct: the tutor gave no objection when it was discussed, so the user keeps the decision.) Ask the tutor (now on slide 12): we removed H3 because it is true by construction of the model and declared it a boundary instead — is that the right call?
 - [ ] **RESCCUE licence reminder: OVERDUE (was due ~23 Oct)**; no reply is recorded in the repo. Send it if Barcelona Regional has not replied (`notes/resccue_data_request.md`).
 
 ### Papers (download in the browser via IAAC access; save to `papers/` and tell me, I'll digest them)

@@ -1,0 +1,682 @@
+tree_id,species,is_plane,street,width_m,facade_dist_m,flag,strip_width_m,size_class
+0044349AR,Melia azedarach,False,C\ Clariana,5.08,4.17,ok,,medium
+0044351AR,Celtis australis,False,Pg Potosí,8.4,2.78,ok,,large
+0044353AR,Celtis australis,False,C\ Ferran Junoy,,54.74,no_facade,8.05,check
+0044354AR,Celtis australis,False,Pg Potosí,,56.62,no_facade,14.24,check
+0044356AR,Melia azedarach,False,C\ Clariana,5.3,4.0,ok,,medium
+0044357AR,Celtis australis,False,C\ Ferran Junoy,,52.58,no_facade,10.14,check
+0044358AR,Tipuana tipu,False,Pg Guayaquil,,13.3,median,13.58,check
+0044359AR,Celtis australis,False,C\ Ciutat d'Asunción,7.58,6.76,ok,,large
+0044360AR,Celtis australis,False,Pg Potosí,,76.73,no_facade,36.32,check
+0044362AR,Tipuana tipu,False,Pg Guayaquil,,10.95,median,,check
+0044363AR,Melia azedarach,False,C\ Campins,,7.97,median,11.24,check
+0044364AR,Brachychiton populneus,False,C\ Ciutat d'Asunción,5.44,4.72,ok,,medium
+0044365AR,Celtis australis,False,C\ Sense Nom (Tucuman-Junoy),,66.62,no_facade,5.01,check
+0044366AR,Brachychiton populneus,False,C\ Quito,3.99,2.75,ok,,medium
+0044367AR,Melia azedarach,False,C\ Campins,,12.17,median,11.1,check
+0044368AR,Celtis australis,False,C\ Ferran Junoy,,41.67,no_facade,6.96,check
+0044370AR,Celtis australis,False,C\ Ferran Junoy,,55.94,no_facade,9.93,check
+0044372AR,Celtis australis,False,C\ Ferran Junoy,,55.84,no_facade,10.31,check
+0044373AR,Celtis australis,False,Pg Potosí,,46.23,no_facade,16.19,check
+0044375AR,Melia azedarach,False,Pg Guayaquil,7.03,4.63,ok,,large
+0044376AR,Bauhinia variegata,False,C\ Ciutat d'Asunción,,16.67,median,9.82,check
+0044377AR,Jacaranda mimosifolia,False,C\ Ciutat d'Asunción,,20.56,median,9.85,check
+0044378AR,Fraxinus excelsior,False,C\ Clariana,5.04,4.45,ok,,medium
+0044379AR,Melia azedarach,False,Pg Guayaquil,5.7,2.84,ok,,medium
+0044380AR,Celtis australis,False,Pg Potosí,,21.76,median,20.32,check
+0044382AR,Celtis australis,False,C\ Ferran Junoy,,68.73,no_facade,7.94,check
+0044383AR,Tipuana tipu,False,Pg Guayaquil,,11.37,median,,check
+0044385AR,Melia azedarach,False,Pg Guayaquil,7.83,4.13,ok,,large
+0044386AR,Celtis australis,False,C\ Ciutat d'Asunción,3.82,3.26,ok,,medium
+0044388AR,Melia azedarach,False,C\ Campins,6.06,5.55,ok,,large
+0044389AR,Celtis australis,False,C\ Ciutat d'Asunción,4.89,4.28,ok,,medium
+0044390AR,Melia azedarach,False,C\ Clariana,5.17,3.88,ok,,medium
+0044391AR,Celtis australis,False,C\ Sense Nom (Tucuman-Junoy),,63.55,no_facade,4.9,check
+0044392AR,Celtis australis,False,C\ Ferran Junoy,,56.87,no_facade,8.03,check
+0044393AR,Celtis australis,False,C\ Ferran Junoy,,40.28,no_facade,7.16,check
+0044394AR,Celtis australis,False,Pg Potosí,,59.77,no_facade,14.5,check
+0044395AR,Melia azedarach,False,Pg Guayaquil,5.69,2.98,ok,,medium
+0044396AR,Melia azedarach,False,Pg Guayaquil,5.65,3.26,ok,,medium
+0044397AR,Celtis australis,False,C\ Sense Nom (Tucuman-Junoy),,51.55,no_facade,5.09,check
+0044398AR,Bauhinia variegata,False,C\ Ciutat d'Asunción,,20.72,median,9.71,check
+0044399AR,Celtis australis,False,C\ Ferran Junoy,,41.2,no_facade,7.02,check
+0044402AR,Melia azedarach,False,C\ Campins,8.05,7.45,ok,,large
+0044407AR,Koelreuteria paniculata,False,C\ Clariana,5.02,3.52,ok,,medium
+0044408AR,Jacaranda mimosifolia,False,C\ Ciutat d'Asunción,,39.22,no_facade,9.86,check
+0044410AR,Melia azedarach,False,C\ Quito,7.77,7.24,ok,,large
+0044411AR,Celtis australis,False,Pg Potosí,,38.97,no_facade,15.95,check
+0044412AR,Brachychiton populneus,False,C\ Ciutat d'Asunción,5.65,4.97,ok,,medium
+0044413AR,Brachychiton populneus,False,C\ Clariana,5.08,4.21,ok,,medium
+0044414AR,Fraxinus excelsior,False,C\ Clariana,5.03,4.45,ok,,medium
+0044415AR,Albizia julibrissin,False,C\ Caracas,11.11,8.94,ok,,large
+0044416AR,Bauhinia variegata,False,C\ Ciutat d'Asunción,,19.99,median,9.23,check
+0044418AR,Melia azedarach,False,C\ Clariana,8.7,6.67,ok,,large
+0044419AR,Styphnolobium japonicum,False,Pl Veracruz,,19.41,median,24.06,check
+0044421AR,Celtis australis,False,C\ Ciutat d'Asunción,,28.59,median,4.26,check
+0044423AR,Celtis australis,False,C\ Ferran Junoy,,40.25,no_facade,7.03,check
+0044424AR,Melia azedarach,False,C\ Tucumán,,15.21,median,,check
+0044425AR,Celtis australis,False,C\ Ferran Junoy,,72.75,no_facade,7.91,check
+0044429AR,Celtis australis,False,C\ Ferran Junoy,,81.91,no_facade,7.12,check
+0044430AR,Celtis australis,False,Pg Potosí,,55.1,no_facade,15.1,check
+0044431AR,Celtis australis,False,Pg Potosí,,34.37,no_facade,18.95,check
+0044433AR,Fraxinus excelsior,False,C\ Clariana,5.02,4.4,ok,,medium
+0044434AR,Brachychiton populneus,False,C\ Ciutat d'Asunción,5.61,5.0,ok,,medium
+0044435AR,Celtis australis,False,C\ Ferran Junoy,,55.45,no_facade,7.72,check
+0044436AR,Celtis australis,False,C\ Sense Nom (Tucuman-Junoy),,38.58,no_facade,5.07,check
+0044437AR,Melia azedarach,False,C\ Tucumán,,15.08,median,23.0,check
+0044439AR,Celtis australis,False,Pg Potosí,,62.77,no_facade,14.24,check
+0044440AR,Celtis australis,False,Pg Potosí,,75.71,no_facade,13.44,check
+0044441AR,Ulmus pumila,False,C\ Quito,,18.35,median,28.11,check
+0044442AR,Melia azedarach,False,C\ Tucumán,,15.55,median,,check
+0044445AR,Celtis australis,False,Pg Potosí,,20.06,no_kerb,7.91,check
+0044446AR,Albizia julibrissin,False,C\ Caracas,7.9,4.73,ok,,large
+0044449AR,Jacaranda mimosifolia,False,C\ Ciutat d'Asunción,,51.69,no_facade,9.53,check
+0044450AR,Fraxinus angustifolia,False,C\ Campins,6.11,5.49,ok,,large
+0044451AR,Celtis australis,False,C\ Ciutat d'Asunción,10.17,8.84,ok,,large
+0044452AR,Jacaranda mimosifolia,False,C\ Beat Domènec Savio,16.83,10.77,ok,,large
+0044453AR,Celtis australis,False,C\ Ferran Junoy,,40.36,no_facade,7.09,check
+0044454AR,Melia azedarach,False,C\ Campins,6.38,5.91,ok,,large
+0044455AR,Celtis australis,False,C\ Ciutat d'Asunción,,26.79,median,4.3,check
+0044457AR,Celtis australis,False,C\ Ferran Junoy,,40.58,no_facade,7.04,check
+0044458AR,Jacaranda mimosifolia,False,C\ Beat Domènec Savio,,8.38,median,,check
+0044460AR,Celtis australis,False,C\ Ferran Junoy,,42.22,no_facade,6.99,check
+0044461AR,Celtis australis,False,C\ Sense Nom (Tucuman-Junoy),,30.78,no_facade,5.0,check
+0044462AR,Tipuana tipu,False,Pg Guayaquil,,9.61,median,,check
+0044463AR,Albizia julibrissin,False,C\ Caracas,5.97,4.11,ok,,medium
+0044464AR,Melia azedarach,False,C\ Campins,9.37,6.46,ok,,large
+0044465AR,Brachychiton populneus,False,C\ Ciutat d'Asunción,5.58,4.97,ok,,medium
+0044466AR,Celtis australis,False,C\ Ferran Junoy,,40.65,no_facade,7.09,check
+0044467AR,Fraxinus excelsior,False,C\ Campins,6.33,5.8,ok,,large
+0044468AR,Celtis australis,False,C\ Ferran Junoy,,55.41,no_facade,7.72,check
+0044471AR,Grevillea robusta,False,Pg Guayaquil,,9.51,median,,check
+0044472AR,Melia azedarach,False,C\ Quito,,17.97,median,3.84,check
+0044473AR,Melia azedarach,False,C\ Campins,17.1,12.64,ok,,large
+0044474AR,Celtis australis,False,Pg Potosí,,55.64,no_facade,15.97,check
+0044476AR,Celtis australis,False,Pg Potosí,,15.4,median,19.78,check
+0044477AR,Celtis australis,False,C\ Ferran Junoy,,54.87,no_facade,8.06,check
+0044479AR,Melia azedarach,False,C\ Clariana,7.49,7.11,ok,,large
+0044480AR,Celtis australis,False,C\ Ciutat d'Asunción,6.27,4.97,ok,,large
+0044481AR,Celtis australis,False,Pg Potosí,,65.28,no_facade,,check
+0044483AR,Albizia julibrissin,False,C\ Caracas,,15.3,median,11.18,check
+0044484AR,Melia azedarach,False,Pg Guayaquil,9.44,6.9,ok,,large
+0044485AR,Albizia julibrissin,False,C\ Tiana,5.16,3.93,ok,,medium
+0044486AR,Melia azedarach,False,C\ Quito,2.07,1.49,ok,,none
+0044488AR,Celtis australis,False,C\ Ferran Junoy,,41.75,no_facade,6.9,check
+0044489AR,Brachychiton populneus,False,C\ Quito,4.09,3.23,ok,,medium
+0044490AR,Fraxinus angustifolia,False,C\ Campins,6.11,5.63,ok,,large
+0044491AR,Melia azedarach,False,C\ Campins,,7.96,median,11.31,check
+0044492AR,Celtis australis,False,C\ Ferran Junoy,,41.19,no_facade,7.03,check
+0044493AR,Jacaranda mimosifolia,False,C\ Ciutat d'Asunción,,11.89,median,9.34,check
+0044494AR,Celtis australis,False,C\ Ciutat d'Asunción,5.09,4.38,ok,,medium
+0044495AR,Melia azedarach,False,C\ Tucumán,,15.59,median,7.5,check
+0044496AR,Melia azedarach,False,C\ Clariana,5.15,3.86,ok,,medium
+0044497AR,Melia azedarach,False,C\ Campins,,7.9,median,9.33,check
+0044498AR,Melia azedarach,False,Pg Guayaquil,5.65,5.12,ok,,medium
+0044499AR,Celtis australis,False,Pg Potosí,,53.53,no_facade,19.84,check
+0044500AR,Celtis australis,False,Pg Potosí,,28.83,median,19.49,check
+0044502AR,Albizia julibrissin,False,C\ Caracas,5.91,4.29,ok,,medium
+0044503AR,Melia azedarach,False,C\ Campins,6.25,5.7,ok,,large
+0044504AR,Celtis australis,False,C\ Ciutat d'Asunción,,30.17,no_facade,4.3,check
+0044507AR,Celtis australis,False,C\ Sense Nom (Tucuman-Junoy),,71.08,no_facade,5.15,check
+0044509AR,Celtis australis,False,C\ Ciutat d'Asunción,,27.99,median,4.34,check
+0044510AR,Celtis australis,False,Pg Potosí,,35.03,no_facade,18.42,check
+0044511AR,Fraxinus excelsior,False,C\ Clariana,5.09,4.54,ok,,medium
+0044512AR,Celtis australis,False,Pg Potosí,,28.82,median,18.43,check
+0044513AR,Melia azedarach,False,C\ Tucumán,6.53,5.81,ok,,large
+0044514AR,Melia azedarach,False,C\ Quito,,4.05,no_kerb,,check
+0044515AR,Celtis australis,False,C\ Ferran Junoy,,41.12,no_facade,7.0,check
+0044516AR,Fraxinus angustifolia,False,C\ Clariana,5.16,3.75,ok,,medium
+0044517AR,Platanus × acerifolia,True,C\ Tucumán,,15.79,median,,check
+0044518AR,Paulownia tomentosa,False,C\ Ciutat d'Asunción,,21.09,median,9.75,check
+0044519AR,Albizia julibrissin,False,C\ Caracas,4.76,3.77,ok,,medium
+0044520AR,Jacaranda mimosifolia,False,C\ Ciutat d'Asunción,,11.76,median,9.7,check
+0044521AR,Albizia julibrissin,False,C\ Caracas,5.95,4.38,ok,,medium
+0044522AR,Celtis australis,False,Pg Potosí,,51.75,no_facade,,check
+0044523AR,Albizia julibrissin,False,C\ Tiana,4.98,4.14,ok,,medium
+0044524AR,Celtis australis,False,Pg Potosí,,30.57,no_facade,16.67,check
+0044525AR,Celtis australis,False,C\ Ferran Junoy,,41.36,no_facade,7.0,check
+0044527AR,Albizia julibrissin,False,C\ Tiana,4.95,3.49,ok,,medium
+0044528AR,Melia azedarach,False,C\ Quito,3.52,2.96,ok,,medium
+0044530AR,Melia azedarach,False,C\ Clariana,6.01,4.38,ok,,large
+0044531AR,Tipuana tipu,False,Pg Guayaquil,,10.73,median,,check
+0044532AR,Albizia julibrissin,False,C\ Ciutat d'Asunción,,20.25,median,9.33,check
+0044533AR,Celtis australis,False,C\ Ferran Junoy,,42.18,no_facade,6.69,check
+0044537AR,Melia azedarach,False,Pg Guayaquil,5.71,3.02,ok,,medium
+0044539AR,Celtis australis,False,C\ Ferran Junoy,,42.41,no_facade,6.83,check
+0044540AR,Celtis australis,False,C\ Ferran Junoy,,41.7,no_facade,6.91,check
+0044541AR,Platanus × acerifolia,True,C\ Tucumán,10.36,9.8,ok,,large
+0044542AR,Celtis australis,False,Pg Potosí,,71.12,no_facade,13.45,check
+0044545AR,Celtis australis,False,C\ Ciutat d'Asunción,,34.05,no_facade,,check
+0044546AR,Melia azedarach,False,C\ Campins,,12.01,median,11.3,check
+0044547AR,Melia azedarach,False,C\ Tucumán,6.64,5.88,ok,,large
+0044549AR,Melia azedarach,False,C\ Quito,3.02,2.39,ok,,small
+0044550AR,Bauhinia variegata,False,C\ Ciutat d'Asunción,,18.37,median,9.81,check
+0044551AR,Celtis australis,False,Pg Potosí,,52.05,no_facade,16.01,check
+0044553AR,Jacaranda mimosifolia,False,C\ Ciutat d'Asunción,,32.66,no_facade,9.78,check
+0044554AR,Fraxinus excelsior,False,C\ Campins,6.26,5.66,ok,,large
+0044556AR,Morus alba,False,C\ Clariana,5.08,3.88,ok,,medium
+0044557AR,Celtis australis,False,C\ Ferran Junoy,,40.46,no_facade,7.09,check
+0044560AR,Celtis australis,False,Pg Potosí,,37.03,no_facade,15.68,check
+0044562AR,Celtis australis,False,C\ Ferran Junoy,,41.77,no_facade,6.89,check
+0044563AR,Celtis australis,False,Pg Potosí,,26.68,median,7.91,check
+0044564AR,Celtis australis,False,Pg Potosí,,33.96,no_facade,19.22,check
+0044566AR,Celtis australis,False,C\ Ferran Junoy,,54.22,no_facade,8.05,check
+0044567AR,Celtis australis,False,Pg Potosí,,66.86,no_facade,13.95,check
+0044568AR,Koelreuteria paniculata,False,C\ Clariana,16.62,11.64,ok,,large
+0044570AR,Jacaranda mimosifolia,False,C\ Ciutat d'Asunción,,24.81,median,9.78,check
+0044571AR,Brachychiton populneus,False,C\ Quito,4.11,3.49,ok,,medium
+0044572AR,Melia azedarach,False,C\ Campins,6.42,5.93,ok,,large
+0044573AR,Celtis australis,False,Pg Potosí,,41.96,no_facade,15.67,check
+0044574AR,Styphnolobium japonicum,False,Pl Veracruz,,11.16,median,24.32,check
+0044575AR,Melia azedarach,False,C\ Campins,,8.82,median,9.35,check
+0044576AR,Celtis australis,False,C\ Ciutat d'Asunción,12.85,11.18,ok,,large
+0044577AR,Jacaranda mimosifolia,False,C\ Ciutat d'Asunción,,34.5,no_facade,9.8,check
+0044578AR,Jacaranda mimosifolia,False,C\ Ciutat d'Asunción,,14.13,median,9.81,check
+0044579AR,Jacaranda mimosifolia,False,C\ Ciutat d'Asunción,,10.34,median,9.81,check
+0044581AR,Celtis australis,False,Pg Potosí,,71.28,no_facade,13.69,check
+0044582AR,Melia azedarach,False,C\ Quito,,7.62,median,3.31,check
+0044583AR,Styphnolobium japonicum,False,Pl Veracruz,,19.34,median,24.2,check
+0044584AR,Celtis australis,False,C\ Ferran Junoy,,48.75,no_facade,10.18,check
+0044585AR,Celtis australis,False,Pg Potosí,,46.03,no_facade,17.91,check
+0044586AR,Celtis australis,False,C\ Ciutat d'Asunción,4.03,3.47,ok,,medium
+0044589AR,Jacaranda mimosifolia,False,C\ Clarà,4.61,4.16,ok,,medium
+0044590AR,Melia azedarach,False,C\ Clariana,4.98,3.35,ok,,medium
+0044595AR,Celtis australis,False,C\ Ferran Junoy,,41.68,no_facade,6.95,check
+0044596AR,Ficus microcarpa,False,C\ Ciutat d'Asunción,,14.75,median,9.75,check
+0044597AR,Celtis australis,False,C\ Ferran Junoy,,55.27,no_facade,8.02,check
+0044599AR,Celtis australis,False,C\ Ferran Junoy,,55.41,no_facade,,check
+0044602AR,Celtis australis,False,Pg Potosí,,22.4,median,20.04,check
+0044605AR,Celtis australis,False,Pg Potosí,,65.96,no_facade,13.69,check
+0044607AR,Celtis australis,False,C\ Sense Nom (Tucuman-Junoy),,34.95,no_facade,5.02,check
+0044608AR,Populus nigra 'Italica',False,Pg Guayaquil,,9.33,median,,check
+0044609AR,Jacaranda mimosifolia,False,C\ Ciutat d'Asunción,,20.69,median,9.97,check
+0044610AR,Melia azedarach,False,C\ Quito,3.93,3.51,ok,,medium
+0044614AR,Melia azedarach,False,Pg Guayaquil,10.23,7.53,ok,,large
+0044615AR,Fraxinus angustifolia,False,C\ Clariana,9.11,4.31,ok,,large
+0044619AR,Melia azedarach,False,C\ Quito,,3.83,no_kerb,,check
+0044620AR,Melia azedarach,False,C\ Clariana,5.14,3.79,ok,,medium
+0044621AR,Celtis australis,False,C\ Sense Nom (Tucuman-Junoy),26.54,25.73,ok,,large
+0044622AR,Celtis australis,False,Pg Potosí,,46.07,no_facade,18.43,check
+0044623AR,Grevillea robusta,False,Pg Guayaquil,,9.34,median,,check
+0044624AR,Celtis australis,False,C\ Ciutat d'Asunción,,28.49,median,4.25,check
+0044626AR,Melia azedarach,False,C\ Campins,6.09,5.58,ok,,large
+0044627AR,Albizia julibrissin,False,C\ Caracas,5.64,4.13,ok,,medium
+0044628AR,Paulownia tomentosa,False,C\ Ciutat d'Asunción,,21.27,median,9.74,check
+0044629AR,Celtis australis,False,C\ Ciutat d'Asunción,,28.52,median,4.14,check
+0044630AR,Melia azedarach,False,C\ Clariana,5.19,3.88,ok,,medium
+0044632AR,Melia azedarach,False,Pg Guayaquil,12.16,7.27,ok,,large
+0044634AR,Melia azedarach,False,Pg Guayaquil,5.66,3.0,ok,,medium
+0044635AR,Celtis australis,False,C\ Ferran Junoy,,65.08,no_facade,7.97,check
+0044636AR,Celtis australis,False,Pg Potosí,,58.43,no_facade,14.07,check
+0044637AR,Tipuana tipu,False,Pg Guayaquil,,11.28,median,,check
+0044638AR,Bauhinia forficata subsp. pruinosa,False,C\ Ciutat d'Asunción,,39.21,no_facade,9.86,check
+0044639AR,Platanus × acerifolia,True,C\ Tucumán,,15.6,median,26.68,check
+0044640AR,Celtis australis,False,C\ Ciutat d'Asunción,,26.5,median,4.3,check
+0044641AR,Fraxinus angustifolia,False,C\ Campins,6.11,5.56,ok,,large
+0044642AR,Celtis australis,False,C\ Ferran Junoy,,57.2,no_facade,7.21,check
+0044644AR,Celtis australis,False,C\ Ciutat d'Asunción,,28.26,median,4.3,check
+0044645AR,Celtis australis,False,C\ Sense Nom (Tucuman-Junoy),,64.0,no_facade,9.39,check
+0044646AR,Tipuana tipu,False,Pg Guayaquil,,9.49,median,,check
+0044647AR,Albizia julibrissin,False,C\ Ciutat d'Asunción,,11.96,median,9.77,check
+0044648AR,Celtis australis,False,C\ Ferran Junoy,,41.35,no_facade,10.21,check
+0044650AR,Celtis australis,False,C\ Ciutat d'Asunción,6.29,4.5,ok,,large
+0044651AR,Fraxinus angustifolia,False,C\ Campins,6.11,5.59,ok,,large
+0044653AR,Celtis australis,False,Pg Potosí,,45.97,no_facade,18.18,check
+0044654AR,Celtis australis,False,C\ Ferran Junoy,,41.1,no_facade,7.02,check
+0044655AR,Celtis australis,False,C\ Ferran Junoy,,54.5,no_facade,8.05,check
+0044656AR,Celtis australis,False,C\ Ferran Junoy,,55.82,no_facade,10.3,check
+0044657AR,Celtis australis,False,C\ Ferran Junoy,,54.67,no_facade,8.05,check
+0044659AR,Styphnolobium japonicum,False,Pl Veracruz,,8.36,median,24.23,check
+0044660AR,Brachychiton populneus,False,C\ Ciutat d'Asunción,5.4,4.63,ok,,medium
+0044661AR,Celtis australis,False,Pg Potosí,,33.41,no_facade,7.91,check
+0044662AR,Celtis australis,False,C\ Ferran Junoy,,59.04,no_facade,8.02,check
+0044663AR,Styphnolobium japonicum,False,Pl Veracruz,,17.1,median,22.61,check
+0044665AR,Celtis australis,False,Pg Potosí,,34.48,no_facade,18.97,check
+0044666AR,Melia azedarach,False,C\ Quito,7.74,7.19,ok,,large
+0044668AR,Celtis australis,False,C\ Ciutat d'Asunción,,28.21,median,4.3,check
+0044670AR,Celtis australis,False,C\ Ciutat d'Asunción,,34.03,no_facade,12.16,check
+0044671AR,Albizia julibrissin,False,C\ Caracas,7.12,4.15,ok,,large
+0044672AR,Melia azedarach,False,C\ Quito,,4.6,no_kerb,,check
+0044673AR,Tipuana tipu,False,C\ Tiana,,14.63,median,,check
+0044674AR,Celtis australis,False,Pg Potosí,,52.19,no_facade,18.93,check
+0044675AR,Bauhinia variegata,False,C\ Ciutat d'Asunción,,10.74,median,9.81,check
+0044676AR,Celtis australis,False,C\ Sense Nom (Tucuman-Junoy),,37.25,no_facade,5.1,check
+0044678AR,Jacaranda mimosifolia,False,C\ Clarà,4.61,4.17,ok,,medium
+0044680AR,Bauhinia variegata,False,C\ Ciutat d'Asunción,,12.33,median,9.77,check
+0044681AR,Celtis australis,False,Pg Potosí,,61.04,no_facade,13.96,check
+0044683AR,Cercis siliquastrum,False,C\ Clarà,16.41,3.13,ok,,large
+0044684AR,Melia azedarach,False,C\ Tucumán,,15.43,median,,check
+0044687AR,Celtis australis,False,Pg Potosí,,48.04,no_facade,14.52,check
+0044688AR,Celtis australis,False,C\ Ciutat d'Asunción,,29.85,median,11.85,check
+0044690AR,Tipuana tipu,False,Pg Guayaquil,,10.65,median,,check
+0044691AR,Melia azedarach,False,C\ Quito,6.28,3.91,ok,,large
+0044693AR,Celtis australis,False,C\ Ciutat d'Asunción,,33.29,no_facade,4.3,check
+0044695AR,Platanus × acerifolia,True,C\ Tucumán,,15.62,median,,check
+0044696AR,Celtis australis,False,C\ Sense Nom (Tucuman-Junoy),,69.28,no_facade,4.92,check
+0044697AR,Celtis australis,False,Pg Potosí,,45.83,no_facade,16.89,check
+0044700AR,Fraxinus angustifolia,False,C\ Clariana,5.22,3.85,ok,,medium
+0044702AR,Melia azedarach,False,C\ Clariana,4.81,4.3,ok,,medium
+0044703AR,Celtis australis,False,C\ Ciutat d'Asunción,6.18,5.32,ok,,large
+0044704AR,Celtis australis,False,C\ Ferran Junoy,,55.98,no_facade,9.95,check
+0044707AR,Celtis australis,False,Pg Potosí,17.33,6.3,ok,,large
+0044708AR,Albizia julibrissin,False,C\ Caracas,4.95,3.94,ok,,medium
+0044709AR,Celtis australis,False,C\ Ferran Junoy,,70.9,no_facade,7.16,check
+0044711AR,Cercis siliquastrum,False,C\ Ciutat d'Asunción,,27.6,median,9.8,check
+0044712AR,Celtis australis,False,Pg Potosí,,28.48,median,18.71,check
+0044715AR,Celtis australis,False,C\ Ferran Junoy,,41.77,no_facade,6.89,check
+0044716AR,Bauhinia variegata,False,C\ Ciutat d'Asunción,,20.41,median,9.82,check
+0044718AR,Jacaranda mimosifolia,False,C\ Ciutat d'Asunción,,40.87,no_facade,9.88,check
+0044721AR,Brachychiton populneus,False,C\ Ciutat d'Asunción,5.5,4.84,ok,,medium
+0044722AR,Melia azedarach,False,C\ Clariana,5.02,3.54,ok,,medium
+0044724AR,Celtis australis,False,Pg Potosí,,52.03,no_facade,,check
+0044725AR,Celtis australis,False,Pg Potosí,,28.06,median,20.32,check
+0044728AR,Celtis australis,False,Pg Potosí,8.4,8.93,ok,,large
+0044729AR,Celtis australis,False,Pg Potosí,,57.28,no_facade,13.95,check
+0044730AR,Melia azedarach,False,C\ Clariana,5.27,3.84,ok,,medium
+0044731AR,Celtis australis,False,Pg Potosí,,36.2,no_facade,16.88,check
+0044734AR,Celtis australis,False,Pg Potosí,,28.19,median,18.96,check
+0044735AR,Celtis australis,False,C\ Ferran Junoy,,54.84,no_facade,8.07,check
+0044736AR,Celtis australis,False,C\ Ciutat d'Asunción,,28.67,median,4.18,check
+0044737AR,Celtis australis,False,Pg Potosí,,62.39,no_facade,13.69,check
+0044739AR,Koelreuteria paniculata,False,C\ Clariana,8.34,6.31,ok,,large
+0044740AR,Celtis australis,False,Pg Potosí,,41.62,no_facade,18.69,check
+0044741AR,Celtis australis,False,C\ Sense Nom (Tucuman-Junoy),,39.81,no_facade,5.04,check
+0044742AR,Celtis australis,False,C\ Sense Nom (Tucuman-Junoy),,57.82,no_facade,4.9,check
+0044743AR,Celtis australis,False,C\ Ferran Junoy,,55.62,no_facade,7.77,check
+0044744AR,Celtis australis,False,C\ Ferran Junoy,,54.83,no_facade,8.05,check
+0044745AR,Celtis australis,False,Pg Potosí,,67.96,no_facade,,check
+0044746AR,Jacaranda mimosifolia,False,C\ Ciutat d'Asunción,,38.37,no_facade,9.86,check
+0044747AR,Celtis australis,False,C\ Ferran Junoy,,41.86,no_facade,6.88,check
+0044749AR,Celtis australis,False,Pg Potosí,,45.9,no_facade,17.15,check
+0044750AR,Celtis australis,False,C\ Ferran Junoy,,41.46,no_facade,7.0,check
+0044751AR,Celtis australis,False,C\ Ciutat d'Asunción,,27.9,median,4.3,check
+0044752AR,Celtis australis,False,C\ Ciutat d'Asunción,6.4,4.63,ok,,large
+0044753AR,Celtis australis,False,Pg Potosí,,23.38,median,,check
+0044754AR,Grevillea robusta,False,Pg Guayaquil,,9.44,median,,check
+0044756AR,Populus nigra 'Italica',False,Pg Guayaquil,,9.4,median,,check
+0044757AR,Populus nigra 'Italica',False,Pg Guayaquil,,9.43,median,,check
+0044759AR,Celtis australis,False,C\ Ferran Junoy,,55.64,no_facade,7.74,check
+0044761AR,Celtis australis,False,C\ Ferran Junoy,,54.92,no_facade,7.99,check
+0044763AR,Melia azedarach,False,C\ Tucumán,6.28,5.56,ok,,large
+0044766AR,Morus alba,False,C\ Clariana,5.08,4.1,ok,,medium
+0044767AR,Celtis australis,False,C\ Ferran Junoy,,42.23,no_facade,6.68,check
+0044769AR,Celtis australis,False,Pg Potosí,,46.78,no_facade,15.1,check
+0044770AR,Celtis australis,False,C\ Ferran Junoy,,40.42,no_facade,7.09,check
+0044771AR,Albizia julibrissin,False,C\ Caracas,7.35,4.11,ok,,large
+0044772AR,Tipuana tipu,False,Pg Guayaquil,,9.62,median,,check
+0044774AR,Brachychiton acerifolius,False,C\ Ciutat d'Asunción,5.42,4.46,ok,,medium
+0044775AR,Ulmus pumila,False,C\ Caracas,8.02,7.04,ok,,large
+0044777AR,Fraxinus angustifolia,False,C\ Tucumán,,15.18,median,25.36,check
+0044778AR,Celtis australis,False,C\ Ferran Junoy,,54.84,no_facade,8.08,check
+0044779AR,Celtis australis,False,C\ Ciutat d'Asunción,6.31,4.97,ok,,large
+0044781AR,Celtis australis,False,C\ Ciutat d'Asunción,6.26,5.08,ok,,large
+0044782AR,Celtis australis,False,C\ Ferran Junoy,,41.09,no_facade,7.06,check
+0044783AR,Celtis australis,False,C\ Ciutat d'Asunción,6.39,4.58,ok,,large
+0044785AR,Celtis australis,False,C\ Ferran Junoy,,40.49,no_facade,7.07,check
+0044787AR,Celtis australis,False,C\ Ciutat d'Asunción,,28.31,median,4.3,check
+0044788AR,Celtis australis,False,C\ Sense Nom (Tucuman-Junoy),,25.94,median,5.04,check
+0044790AR,Celtis australis,False,C\ Ciutat d'Asunción,,26.38,median,4.3,check
+0044791AR,Platanus × acerifolia,True,C\ Tucumán,,15.64,median,3.13,check
+0044792AR,Melia azedarach,False,C\ Tucumán,6.91,6.26,ok,,large
+0044793AR,Celtis australis,False,C\ Ferran Junoy,,55.05,no_facade,8.06,check
+0044795AR,Celtis australis,False,Pg Potosí,8.4,8.92,ok,,large
+0044796AR,Tipuana tipu,False,C\ Clariana,5.47,4.87,ok,,medium
+0044798AR,Paulownia tomentosa,False,C\ Ciutat d'Asunción,,12.02,median,9.74,check
+0044799AR,Brachychiton populneus,False,C\ Clariana,5.46,4.43,ok,,medium
+0044800AR,Celtis australis,False,Pg Potosí,,36.35,no_facade,16.43,check
+0044801AR,Celtis australis,False,Pg Potosí,,60.78,no_facade,12.4,check
+0044802AR,Celtis australis,False,C\ Ferran Junoy,,42.2,no_facade,7.06,check
+0044803AR,Celtis australis,False,C\ Ferran Junoy,,55.46,no_facade,7.75,check
+0044804AR,Melia azedarach,False,C\ Quito,13.81,9.23,ok,,large
+0044805AR,Melia azedarach,False,C\ Clariana,4.82,4.31,ok,,medium
+0044806AR,Albizia julibrissin,False,C\ Caracas,5.97,4.22,ok,,medium
+0044807AR,Jacaranda mimosifolia,False,C\ Beat Domènec Savio,4.93,4.47,ok,,medium
+0044808AR,Celtis australis,False,C\ Ferran Junoy,,41.46,no_facade,7.0,check
+0044809AR,Celtis australis,False,C\ Ferran Junoy,,42.11,no_facade,5.99,check
+0044810AR,Celtis australis,False,Pg Potosí,9.89,10.65,ok,,large
+0044811AR,Brachychiton populneus,False,C\ Quito,4.04,3.18,ok,,medium
+0044813AR,Celtis australis,False,C\ Ferran Junoy,,41.62,no_facade,6.91,check
+0044814AR,Celtis australis,False,Pg Potosí,8.78,9.35,ok,,large
+0044815AR,Jacaranda mimosifolia,False,C\ Beat Domènec Savio,16.76,10.9,ok,,large
+0044816AR,Melia azedarach,False,C\ Tucumán,16.48,14.35,ok,,large
+0044817AR,Platanus × acerifolia,True,C\ Tucumán,,15.49,median,,check
+0044818AR,Styphnolobium japonicum,False,Pl Veracruz,,19.99,median,18.69,check
+0044819AR,Celtis australis,False,C\ Ferran Junoy,,46.46,no_facade,7.23,check
+0044820AR,Celtis australis,False,C\ Ferran Junoy,,40.62,no_facade,7.19,check
+0044821AR,Celtis australis,False,C\ Ferran Junoy,,53.06,no_facade,7.23,check
+0044822AR,Populus nigra 'Italica',False,Pg Guayaquil,,9.3,median,,check
+0044823AR,Albizia julibrissin,False,C\ Tiana,8.03,4.66,ok,,large
+0044824AR,Melia azedarach,False,C\ Campins,,12.04,median,11.32,check
+0044825AR,Celtis australis,False,C\ Ciutat d'Asunción,,28.26,median,4.32,check
+0044826AR,Melia azedarach,False,C\ Campins,,12.06,median,11.33,check
+0044827AR,Platanus × acerifolia,True,C\ Tucumán,5.97,5.48,ok,,medium
+0044829AR,Brachychiton populneus,False,C\ Ciutat d'Asunción,5.47,4.86,ok,,medium
+0044830AR,Celtis australis,False,C\ Ciutat d'Asunción,,28.38,median,4.19,check
+0044837AR,Tipuana tipu,False,Pg Guayaquil,,10.72,median,,check
+0044838AR,Celtis australis,False,C\ Ferran Junoy,,55.36,no_facade,7.73,check
+0044839AR,Celtis australis,False,C\ Ferran Junoy,,40.32,no_facade,7.08,check
+0044840AR,Celtis australis,False,C\ Sense Nom (Tucuman-Junoy),,65.4,no_facade,5.09,check
+0044842AR,Celtis australis,False,Pg Potosí,,67.86,no_facade,13.44,check
+0044843AR,Albizia julibrissin,False,C\ Tiana,4.89,3.35,ok,,medium
+0044844AR,Celtis australis,False,C\ Ferran Junoy,,55.06,no_facade,8.07,check
+0044845AR,Celtis australis,False,C\ Ferran Junoy,,54.93,no_facade,8.11,check
+0044846AR,Fraxinus excelsior,False,C\ Clariana,5.02,3.49,ok,,medium
+0044847AR,Celtis australis,False,Pg Potosí,,28.57,median,19.23,check
+0044848AR,Paulownia tomentosa,False,C\ Ciutat d'Asunción,,11.9,median,9.76,check
+0044849AR,Cercis siliquastrum,False,C\ Clarà,16.44,3.17,ok,,large
+0044854AR,Celtis australis,False,Pg Potosí,,30.33,no_facade,19.78,check
+0044857AR,Celtis australis,False,C\ Ciutat d'Asunción,6.32,4.85,ok,,large
+0044858AR,Celtis australis,False,C\ Ferran Junoy,,41.52,no_facade,7.03,check
+0044859AR,Celtis australis,False,C\ Ferran Junoy,,40.7,no_facade,7.08,check
+0044860AR,Celtis australis,False,C\ Ciutat d'Asunción,,21.56,median,11.32,check
+0044862AR,Styphnolobium japonicum,False,Pl Veracruz,29.65,19.3,ok,,large
+0044863AR,Celtis australis,False,Pg Potosí,,33.36,no_facade,15.96,check
+0044865AR,Melia azedarach,False,Pg Guayaquil,5.67,2.96,ok,,medium
+0044866AR,Fraxinus excelsior,False,C\ Clariana,5.02,3.36,ok,,medium
+0044868AR,Celtis australis,False,C\ Ciutat d'Asunción,,25.39,median,11.55,check
+0044870AR,Celtis australis,False,Pg Potosí,,35.65,no_facade,17.9,check
+0044873AR,Celtis australis,False,C\ Ciutat d'Asunción,16.73,14.52,ok,,large
+0044874AR,Albizia julibrissin,False,C\ Ciutat d'Asunción,,14.28,median,9.8,check
+0044876AR,Celtis australis,False,Pg Potosí,,21.9,median,20.58,check
+0044877AR,Celtis australis,False,C\ Sense Nom (Tucuman-Junoy),,75.71,no_facade,4.95,check
+0044879AR,Celtis australis,False,Pg Potosí,10.79,11.44,ok,,large
+0044880AR,Platanus × acerifolia,True,C\ Tucumán,9.78,8.68,ok,,large
+0044881AR,Albizia julibrissin,False,C\ Tiana,18.94,15.34,ok,,large
+0044882AR,Celtis australis,False,C\ Ferran Junoy,,41.45,no_facade,6.99,check
+0044883AR,Celtis australis,False,C\ Ciutat d'Asunción,,32.68,no_facade,,check
+0044885AR,Celtis australis,False,C\ Ferran Junoy,,40.99,no_facade,7.03,check
+0044887AR,Melia azedarach,False,C\ Campins,,7.76,median,,check
+0044889AR,Bauhinia variegata,False,C\ Ciutat d'Asunción,,15.59,median,9.8,check
+0044890AR,Melia azedarach,False,C\ Clariana,11.24,5.41,ok,,large
+0044892AR,Celtis australis,False,C\ Ciutat d'Asunción,,28.03,median,4.3,check
+0044893AR,Platanus × acerifolia,True,C\ Tucumán,,15.63,median,,check
+0044896AR,Melia azedarach,False,C\ Quito,24.74,15.65,ok,,large
+0044901AR,Celtis australis,False,C\ Sense Nom (Tucuman-Junoy),26.69,25.92,ok,,large
+0044902AR,Melia azedarach,False,C\ Tucumán,,15.41,median,,check
+0044903AR,Melia azedarach,False,C\ Campins,,11.97,median,9.32,check
+0044905AR,Celtis australis,False,C\ Ferran Junoy,,49.37,no_facade,7.25,check
+0044906AR,Celtis australis,False,C\ Ferran Junoy,,55.36,no_facade,7.71,check
+0044907AR,Celtis australis,False,Pg Potosí,,28.32,median,20.06,check
+0044908AR,Celtis australis,False,C\ Ciutat d'Asunción,7.11,5.24,ok,,large
+0044909AR,Celtis australis,False,C\ Ferran Junoy,,41.77,no_facade,6.93,check
+0044910AR,Melia azedarach,False,C\ Clariana,4.8,4.4,ok,,medium
+0044911AR,Celtis australis,False,C\ Ferran Junoy,,41.29,no_facade,7.04,check
+0044913AR,Celtis australis,False,C\ Ciutat d'Asunción,6.3,4.62,ok,,large
+0044914AR,Celtis australis,False,C\ Sense Nom (Tucuman-Junoy),,73.14,no_facade,4.98,check
+0044915AR,Celtis australis,False,C\ Sense Nom (Tucuman-Junoy),,37.21,no_facade,5.12,check
+0044916AR,Celtis australis,False,C\ Ferran Junoy,,45.21,no_facade,10.2,check
+0044917AR,Celtis australis,False,C\ Ferran Junoy,,55.77,no_facade,10.29,check
+0044918AR,Fraxinus excelsior,False,C\ Clariana,5.06,4.38,ok,,medium
+0044919AR,Celtis australis,False,Pg Potosí,,71.94,no_facade,,check
+0044920AR,Celtis australis,False,C\ Ciutat d'Asunción,,31.58,no_facade,,check
+0044922AR,Celtis australis,False,C\ Ferran Junoy,,54.95,no_facade,8.08,check
+0044923AR,Jacaranda mimosifolia,False,C\ Ciutat d'Asunción,,12.28,median,9.41,check
+0044924AR,Koelreuteria paniculata,False,C\ Clariana,5.0,3.41,ok,,medium
+0044926AR,Celtis australis,False,C\ Ferran Junoy,,55.48,no_facade,8.04,check
+0044927AR,Celtis australis,False,Pg Potosí,,35.17,no_facade,17.63,check
+0044929AR,Paulownia tomentosa,False,C\ Ciutat d'Asunción,,19.08,median,9.83,check
+0044930AR,Melia azedarach,False,C\ Quito,15.78,10.59,ok,,large
+0044931AR,Albizia julibrissin,False,C\ Tiana,8.02,4.63,ok,,large
+0044932AR,Melia azedarach,False,C\ Tucumán,12.51,11.42,ok,,large
+0044933AR,Celtis australis,False,Pg Potosí,,30.07,no_facade,17.13,check
+0044936AR,Jacaranda mimosifolia,False,C\ Ciutat d'Asunción,,13.07,median,9.76,check
+0044938AR,Albizia julibrissin,False,C\ Tiana,,13.34,median,25.29,check
+0044939AR,Celtis australis,False,C\ Ferran Junoy,,61.18,no_facade,7.19,check
+0044940AR,Celtis australis,False,C\ Ferran Junoy,,40.42,no_facade,7.13,check
+0044941AR,Paulownia tomentosa,False,C\ Ciutat d'Asunción,,20.81,median,9.79,check
+0044942AR,Albizia julibrissin,False,C\ Tiana,11.36,9.36,ok,,large
+0044944AR,Celtis australis,False,Pg Potosí,,52.17,no_facade,29.52,check
+0044945AR,Tipuana tipu,False,C\ Clariana,4.85,4.38,ok,,medium
+0044947AR,Celtis australis,False,Pg Potosí,,35.61,no_facade,17.38,check
+0044949AR,Cercis siliquastrum,False,C\ Ciutat d'Asunción,,19.32,median,9.81,check
+0044951AR,Melia azedarach,False,C\ Quito,7.51,6.87,ok,,large
+0044952AR,Tipuana tipu,False,C\ Tiana,,13.14,median,,check
+0044953AR,Celtis australis,False,C\ Sense Nom (Tucuman-Junoy),,40.87,no_facade,5.0,check
+0044955AR,Paulownia tomentosa,False,C\ Ciutat d'Asunción,,20.8,median,9.8,check
+0044956AR,Fraxinus angustifolia,False,C\ Campins,6.15,5.78,ok,,large
+0044957AR,Fraxinus angustifolia,False,C\ Clariana,24.44,17.62,ok,,large
+0044959AR,Albizia julibrissin,False,C\ Tiana,8.0,4.46,ok,,large
+0044960AR,Ulmus pumila,False,C\ Quito,,7.28,median,3.82,check
+0044962AR,Brachychiton populneus,False,C\ Clariana,5.09,3.89,ok,,medium
+0044963AR,Albizia julibrissin,False,C\ Ciutat d'Asunción,,49.05,no_facade,9.87,check
+0044964AR,Celtis australis,False,Pg Potosí,,47.74,no_facade,7.91,check
+0044965AR,Celtis australis,False,C\ Ciutat d'Asunción,6.38,4.96,ok,,large
+0044967AR,Celtis australis,False,C\ Ferran Junoy,,40.77,no_facade,7.08,check
+0044968AR,Celtis australis,False,C\ Ferran Junoy,,77.38,no_facade,7.97,check
+0044969AR,Melia azedarach,False,C\ Campins,6.18,5.57,ok,,large
+0044970AR,Celtis australis,False,C\ Ferran Junoy,,55.53,no_facade,7.79,check
+0044971AR,Celtis australis,False,C\ Ferran Junoy,,42.28,no_facade,6.92,check
+0044972AR,Cercis siliquastrum,False,C\ Clarà,,9.48,median,,check
+0044973AR,Albizia julibrissin,False,C\ Ciutat d'Asunción,,38.66,no_facade,9.86,check
+0044974AR,Bauhinia variegata,False,C\ Ciutat d'Asunción,,32.68,no_facade,9.86,check
+0044975AR,Melia azedarach,False,C\ Campins,,8.01,median,11.3,check
+0044976AR,Bauhinia variegata,False,C\ Ciutat d'Asunción,,12.33,median,9.79,check
+0044977AR,Celtis australis,False,C\ Ferran Junoy,,40.29,no_facade,7.06,check
+0044978AR,Melia azedarach,False,Pg Guayaquil,5.67,2.94,ok,,medium
+0044980AR,Celtis australis,False,Pg Potosí,,52.53,no_facade,14.52,check
+0044981AR,Cercis siliquastrum,False,C\ Ciutat d'Asunción,,12.5,median,9.74,check
+0044982AR,Jacaranda mimosifolia,False,C\ Ciutat d'Asunción,,20.75,median,9.76,check
+0044984AR,Celtis australis,False,C\ Ciutat d'Asunción,6.33,4.71,ok,,large
+0044985AR,Melia azedarach,False,C\ Tucumán,,15.64,median,,check
+0044986AR,Celtis australis,False,C\ Ciutat d'Asunción,,28.8,median,4.3,check
+0044987AR,Albizia julibrissin,False,C\ Tiana,8.01,4.27,ok,,large
+0044989AR,Fraxinus angustifolia,False,C\ Campins,6.11,5.67,ok,,large
+0044990AR,Populus nigra 'Italica',False,Pg Guayaquil,,9.35,median,,check
+0044992AR,Celtis australis,False,Pg Potosí,,51.95,no_facade,,check
+0044993AR,Melia azedarach,False,C\ Quito,,4.39,no_kerb,,check
+0044994AR,Celtis australis,False,C\ Sense Nom (Tucuman-Junoy),,77.02,no_facade,5.15,check
+0044996AR,Celtis australis,False,Pg Potosí,,13.1,no_kerb,7.91,check
+0044997AR,Fraxinus excelsior,False,C\ Clariana,5.11,4.57,ok,,medium
+0045000AR,Celtis australis,False,Pg Potosí,,27.98,median,19.22,check
+0045001AR,Albizia julibrissin,False,C\ Caracas,5.94,4.53,ok,,medium
+0045003AR,Celtis australis,False,C\ Sense Nom (Tucuman-Junoy),,53.33,no_facade,4.89,check
+0045005AR,Celtis australis,False,Pg Potosí,,44.5,no_facade,14.81,check
+0045006AR,Melia azedarach,False,C\ Campins,6.03,5.54,ok,,large
+0045008AR,Melia azedarach,False,C\ Quito,,4.0,no_kerb,,check
+0045011AR,Celtis australis,False,C\ Ciutat d'Asunción,,28.72,median,4.1,check
+0045012AR,Celtis australis,False,C\ Ferran Junoy,,55.4,no_facade,7.71,check
+0045013AR,Platanus × acerifolia,True,C\ Tucumán,,15.06,median,23.75,check
+0045014AR,Celtis australis,False,Pg Potosí,,30.24,no_facade,19.5,check
+0045016AR,Cercis siliquastrum,False,C\ Ciutat d'Asunción,,20.79,median,9.66,check
+0045017AR,Celtis australis,False,C\ Sense Nom (Tucuman-Junoy),,57.95,no_facade,5.13,check
+0045018AR,Tipuana tipu,False,C\ Tiana,,12.94,median,,check
+0045020AR,Melia azedarach,False,C\ Tucumán,,15.61,median,,check
+0045021AR,Melia azedarach,False,C\ Campins,,8.09,median,11.3,check
+0045022AR,Celtis australis,False,Pg Potosí,,72.97,no_facade,,check
+0045023AR,Melia azedarach,False,C\ Quito,,7.38,median,28.8,check
+0045024AR,Fraxinus excelsior,False,C\ Clariana,5.04,4.39,ok,,medium
+0045027AR,Celtis australis,False,C\ Ferran Junoy,,40.96,no_facade,7.02,check
+0045030AR,Melia azedarach,False,C\ Tucumán,6.35,5.61,ok,,large
+0045031AR,Celtis australis,False,C\ Ciutat d'Asunción,,27.81,median,4.3,check
+0045032AR,Melia azedarach,False,C\ Tucumán,6.45,5.7,ok,,large
+0045033AR,Celtis australis,False,C\ Ferran Junoy,,41.68,no_facade,6.98,check
+0045035AR,Celtis australis,False,C\ Sense Nom (Tucuman-Junoy),,44.0,no_facade,4.92,check
+0045037AR,Celtis australis,False,C\ Ferran Junoy,,41.15,no_facade,7.02,check
+0045039AR,Melia azedarach,False,C\ Tucumán,6.72,6.06,ok,,large
+0045040AR,Bauhinia variegata,False,C\ Ciutat d'Asunción,,11.64,median,9.83,check
+0045042AR,Celtis australis,False,Pg Potosí,,35.8,no_facade,17.13,check
+0045043AR,Albizia julibrissin,False,C\ Tiana,7.98,4.66,ok,,large
+0045044AR,Celtis australis,False,Pg Potosí,,50.0,no_facade,15.66,check
+0045045AR,Celtis australis,False,C\ Ferran Junoy,,55.82,no_facade,10.21,check
+0045046AR,Paulownia tomentosa,False,C\ Ciutat d'Asunción,,21.05,median,9.77,check
+0045049AR,Melia azedarach,False,Pg Guayaquil,6.81,4.25,ok,,large
+0045050AR,Celtis australis,False,C\ Sense Nom (Tucuman-Junoy),,71.72,no_facade,5.13,check
+0045053AR,Celtis australis,False,C\ Ferran Junoy,,41.47,no_facade,7.0,check
+0045054AR,Cercis siliquastrum,False,C\ Ciutat d'Asunción,,12.05,median,9.78,check
+0045055AR,Celtis australis,False,C\ Ferran Junoy,,55.07,no_facade,8.08,check
+0045056AR,Melia azedarach,False,C\ Campins,,8.07,median,10.46,check
+0045057AR,Melia azedarach,False,C\ Tucumán,6.82,6.26,ok,,large
+0045058AR,Celtis australis,False,Pg Potosí,,46.05,no_facade,17.66,check
+0045059AR,Celtis australis,False,Pg Potosí,,30.23,no_facade,16.88,check
+0045060AR,Brachychiton populneus,False,C\ Clariana,5.08,3.88,ok,,medium
+0045061AR,Celtis australis,False,C\ Ciutat d'Asunción,6.36,4.47,ok,,large
+0045062AR,Melia azedarach,False,Pg Guayaquil,6.7,4.06,ok,,large
+0045063AR,Jacaranda mimosifolia,False,C\ Beat Domènec Savio,16.8,5.06,ok,,large
+0045065AR,Celtis australis,False,Pg Potosí,,36.4,no_facade,16.66,check
+0045067AR,Jacaranda mimosifolia,False,C\ Clarà,4.61,4.13,ok,,medium
+0045068AR,Melia azedarach,False,C\ Campins,6.3,5.75,ok,,large
+0045069AR,Celtis australis,False,C\ Ciutat d'Asunción,5.27,4.83,ok,,medium
+0045070AR,Styphnolobium japonicum,False,Pl Veracruz,,19.95,median,24.13,check
+0045072AR,Celtis australis,False,Pg Potosí,,51.89,no_facade,7.88,check
+0045074AR,Celtis australis,False,Pg Potosí,,21.54,median,19.5,check
+0045075AR,Albizia julibrissin,False,C\ Tiana,8.04,4.8,ok,,large
+0045078AR,Fraxinus angustifolia,False,C\ Clariana,5.2,3.95,ok,,medium
+0045079AR,Platanus × acerifolia,True,C\ Tucumán,,15.5,median,,check
+0045081AR,Styphnolobium japonicum,False,Pl Veracruz,29.65,7.22,ok,,large
+0045082AR,Melia azedarach,False,C\ Quito,13.63,9.64,ok,,large
+0045083AR,Celtis australis,False,Pg Potosí,,41.07,no_facade,7.91,check
+0045087AR,Albizia julibrissin,False,C\ Caracas,9.88,6.35,ok,,large
+0045088AR,Celtis australis,False,C\ Ferran Junoy,,55.31,no_facade,8.0,check
+0045090AR,Tipuana tipu,False,C\ Tiana,16.21,13.69,ok,,large
+0045091AR,Bauhinia variegata,False,C\ Ciutat d'Asunción,,15.04,median,9.74,check
+0045092AR,Jacaranda mimosifolia,False,C\ Ciutat d'Asunción,,37.57,no_facade,9.86,check
+0045093AR,Cercis siliquastrum,False,C\ Clarà,,9.74,median,,check
+0045094AR,Melia azedarach,False,Pg Guayaquil,5.64,4.96,ok,,medium
+0045096AR,Melia azedarach,False,C\ Campins,,7.94,median,11.16,check
+0045098AR,Brachychiton populneus,False,C\ Ciutat d'Asunción,5.38,4.67,ok,,medium
+0045100AR,Celtis australis,False,Pg Potosí,,62.6,no_facade,8.14,check
+0045102AR,Jacaranda mimosifolia,False,C\ Ciutat d'Asunción,,27.7,median,9.82,check
+0045103AR,Celtis australis,False,C\ Sense Nom (Tucuman-Junoy),,37.32,no_facade,5.14,check
+0045104AR,Celtis australis,False,C\ Ciutat d'Asunción,,27.91,median,14.09,check
+0045105AR,Celtis australis,False,C\ Ferran Junoy,,54.69,no_facade,8.04,check
+0045106AR,Melia azedarach,False,C\ Quito,,7.43,no_kerb,,check
+0045108AR,Styphnolobium japonicum,False,Pl Veracruz,,16.74,median,,check
+0045109AR,Jacaranda mimosifolia,False,C\ Beat Domènec Savio,,8.35,median,,check
+0045110AR,Albizia julibrissin,False,C\ Tiana,8.01,4.85,ok,,large
+0045111AR,Bauhinia variegata,False,C\ Ciutat d'Asunción,,18.24,median,9.4,check
+0045112AR,Celtis australis,False,C\ Ferran Junoy,,40.49,no_facade,7.09,check
+0045116AR,Melia azedarach,False,C\ Quito,,7.24,median,3.62,check
+0045117AR,Celtis australis,False,Pg Potosí,,39.7,no_facade,15.41,check
+0045118AR,Celtis australis,False,C\ Ferran Junoy,,55.07,no_facade,7.96,check
+0045120AR,Celtis australis,False,C\ Sense Nom (Tucuman-Junoy),,48.4,no_facade,4.89,check
+0045122AR,Jacaranda mimosifolia,False,C\ Ciutat d'Asunción,,32.76,no_facade,9.78,check
+0045123AR,Platanus × acerifolia,True,C\ Tucumán,,15.68,median,30.31,check
+0045125AR,Celtis australis,False,C\ Ferran Junoy,,55.66,no_facade,7.75,check
+0045128AR,Celtis australis,False,C\ Ferran Junoy,,40.4,no_facade,7.1,check
+0045130AR,Celtis australis,False,C\ Ciutat d'Asunción,12.16,10.52,ok,,large
+0045131AR,Celtis australis,False,C\ Ciutat d'Asunción,6.37,5.01,ok,,large
+0045133AR,Albizia julibrissin,False,C\ Tiana,,15.34,median,29.62,check
+0045134AR,Celtis australis,False,C\ Sense Nom (Tucuman-Junoy),,45.73,no_facade,5.06,check
+0045136AR,Celtis australis,False,C\ Ferran Junoy,,55.84,no_facade,10.02,check
+0045137AR,Jacaranda mimosifolia,False,C\ Beat Domènec Savio,,8.41,median,,check
+0045139AR,Fraxinus angustifolia,False,C\ Clariana,5.13,3.7,ok,,medium
+0045140AR,Celtis australis,False,C\ Ferran Junoy,,40.54,no_facade,7.09,check
+0045141AR,Melia azedarach,False,C\ Campins,6.22,5.75,ok,,large
+0045143AR,Celtis australis,False,C\ Ferran Junoy,,55.14,no_facade,7.97,check
+0045145AR,Melia azedarach,False,C\ Clariana,5.02,3.53,ok,,medium
+0045146AR,Jacaranda mimosifolia,False,C\ Beat Domènec Savio,16.86,5.25,ok,,large
+0045147AR,Celtis australis,False,Pg Potosí,,22.02,median,20.87,check
+0045148AR,Melia azedarach,False,C\ Tucumán,,15.61,median,6.67,check
+0045149AR,Brachychiton populneus,False,C\ Quito,4.13,3.4,ok,,medium
+0045150AR,Fraxinus excelsior,False,C\ Clariana,5.06,4.49,ok,,medium
+0045151AR,Melia azedarach,False,C\ Campins,,7.6,median,,check
+0045152AR,Celtis australis,False,Pg Potosí,,29.33,median,17.89,check
+0045153AR,Albizia julibrissin,False,C\ Caracas,,16.18,median,8.41,check
+0045154AR,Celtis australis,False,Pg Potosí,,45.89,no_facade,16.44,check
+0045155AR,Albizia julibrissin,False,C\ Caracas,5.96,4.27,ok,,medium
+0045156AR,Jacaranda mimosifolia,False,C\ Ciutat d'Asunción,,21.07,median,9.86,check
+0045157AR,Melia azedarach,False,C\ Quito,,7.56,median,28.99,check
+0045159AR,Cercis siliquastrum,False,C\ Clarà,16.39,3.37,ok,,large
+0045161AR,Platanus × acerifolia,True,C\ Tucumán,6.6,5.86,ok,,large
+0045163AR,Celtis australis,False,Pg Potosí,,57.01,no_facade,14.81,check
+0045164AR,Celtis australis,False,Pg Potosí,,24.68,median,19.77,check
+0045165AR,Celtis australis,False,C\ Ferran Junoy,,54.71,no_facade,8.03,check
+0045166AR,Melia azedarach,False,C\ Campins,6.12,5.54,ok,,large
+0045167AR,Celtis australis,False,C\ Ciutat d'Asunción,6.26,5.72,ok,,large
+0045168AR,Celtis australis,False,Pg Potosí,,31.36,no_facade,16.21,check
+0045169AR,Melia azedarach,False,C\ Clariana,5.01,3.45,ok,,medium
+0045170AR,Melia azedarach,False,C\ Quito,,5.32,no_kerb,,check
+0045171AR,Celtis australis,False,Pg Potosí,,29.06,median,18.2,check
+0045172AR,Melia azedarach,False,C\ Clariana,6.02,4.51,ok,,large
+0045173AR,Bauhinia variegata,False,C\ Ciutat d'Asunción,,13.75,median,9.79,check
+0045174AR,Tipuana tipu,False,Pg Guayaquil,,9.41,median,,check
+0045175AR,Albizia julibrissin,False,C\ Ciutat d'Asunción,,17.46,median,9.29,check
+0045181AR,Celtis australis,False,C\ Ferran Junoy,,43.9,no_facade,7.22,check
+0045182AR,Platanus × acerifolia,True,C\ Quito,5.15,1.21,ok,,medium
+0045184AR,Celtis australis,False,C\ Ferran Junoy,,55.49,no_facade,7.99,check
+0045185AR,Celtis australis,False,C\ Ferran Junoy,,41.97,no_facade,7.21,check
+0045186AR,Melia azedarach,False,Pg Guayaquil,5.68,2.96,ok,,medium
+0045187AR,Koelreuteria paniculata,False,C\ Clariana,4.99,3.45,ok,,medium
+0045188AR,Melia azedarach,False,C\ Clariana,5.33,4.02,ok,,medium
+0045189AR,Melia azedarach,False,C\ Tucumán,,15.14,median,24.54,check
+0045191AR,Melia azedarach,False,C\ Campins,8.27,7.8,ok,,large
+0045193AR,Celtis australis,False,C\ Ciutat d'Asunción,6.28,4.96,ok,,large
+0045197AR,Celtis australis,False,C\ Ferran Junoy,,55.16,no_facade,8.04,check
+0045198AR,Albizia julibrissin,False,C\ Tiana,4.95,3.57,ok,,medium
+0045199AR,Melia azedarach,False,C\ Tucumán,6.44,5.76,ok,,large
+0045200AR,Celtis australis,False,C\ Ferran Junoy,,54.81,no_facade,8.01,check
+0045201AR,Melia azedarach,False,C\ Quito,5.15,4.55,ok,,medium
+0045202AR,Celtis australis,False,C\ Ferran Junoy,,75.7,no_facade,7.14,check
+0045203AR,Celtis australis,False,Pg Potosí,,36.93,no_facade,16.21,check
+0045204AR,Celtis australis,False,C\ Ferran Junoy,,55.67,no_facade,,check
+0045205AR,Celtis australis,False,C\ Ferran Junoy,,55.41,no_facade,7.71,check
+0045207AR,Cercis siliquastrum,False,C\ Ciutat d'Asunción,,20.24,median,9.83,check
+0045208AR,Celtis australis,False,C\ Ferran Junoy,,54.78,no_facade,8.05,check
+0045210AR,Melia azedarach,False,C\ Clariana,4.98,2.9,ok,,medium
+0045211AR,Celtis australis,False,Pg Potosí,,29.68,median,17.38,check
+0045212AR,Albizia julibrissin,False,C\ Caracas,4.85,3.88,ok,,medium
+0045213AR,Melia azedarach,False,C\ Campins,,11.98,median,11.34,check
+0045214AR,Brachychiton populneus,False,C\ Ciutat d'Asunción,5.54,4.9,ok,,medium
+0045217AR,Melia azedarach,False,Pg Guayaquil,5.69,2.86,ok,,medium
+0045218AR,Melia azedarach,False,C\ Tucumán,,15.57,median,27.6,check
+0045219AR,Celtis australis,False,Pg Potosí,,45.92,no_facade,16.67,check
+0045220AR,Celtis australis,False,Pg Potosí,,47.63,no_facade,15.94,check
+0045221AR,Celtis australis,False,Pg Potosí,,45.05,no_facade,15.4,check
+0045222AR,Celtis australis,False,Pg Potosí,,30.78,no_facade,16.43,check
+0045223AR,Celtis australis,False,C\ Ferran Junoy,,41.47,no_facade,7.0,check
+0045224AR,Celtis australis,False,C\ Ciutat d'Asunción,6.4,5.1,ok,,large
+0045225AR,Melia azedarach,False,C\ Campins,,7.99,median,9.33,check
+0045226AR,Platanus × acerifolia,True,C\ Tucumán,10.81,9.73,ok,,large
+0045227AR,Celtis australis,False,C\ Ciutat d'Asunción,,29.22,median,4.3,check
+0045228AR,Celtis australis,False,Pg Potosí,,29.55,median,17.64,check
+0045230AR,Celtis australis,False,C\ Ciutat d'Asunción,6.34,5.11,ok,,large
+0045232AR,Phytolacca dioica,False,C\ Clarà,16.43,9.51,ok,,large
+0045233AR,Celtis australis,False,Pg Potosí,,49.53,no_facade,14.82,check
+0045234AR,Fraxinus angustifolia,False,C\ Campins,6.11,5.5,ok,,large
+0045237AR,Celtis australis,False,C\ Sense Nom (Tucuman-Junoy),,27.46,median,5.0,check
+0045238AR,Albizia julibrissin,False,C\ Caracas,10.74,7.02,ok,,large
+0045239AR,Populus nigra 'Italica',False,Pg Guayaquil,,10.43,median,,check
+0045240AR,Celtis australis,False,C\ Ferran Junoy,,66.13,no_facade,7.17,check
+0045241AR,Jacaranda mimosifolia,False,C\ Ciutat d'Asunción,,23.04,median,9.87,check
+0045242AR,Albizia julibrissin,False,C\ Caracas,5.98,4.33,ok,,medium
+0045243AR,Celtis australis,False,C\ Ferran Junoy,,40.39,no_facade,7.09,check
+0045245AR,Melia azedarach,False,C\ Clariana,4.98,3.28,ok,,medium
+0045246AR,Melia azedarach,False,C\ Clariana,5.02,3.56,ok,,medium
+0045247AR,Celtis australis,False,C\ Ferran Junoy,,41.23,no_facade,7.01,check
+0045249AR,Celtis australis,False,C\ Ciutat d'Asunción,,27.57,median,4.3,check
+0045253AR,Jacaranda mimosifolia,False,C\ Beat Domènec Savio,4.94,4.55,ok,,medium
+0045254AR,Melia azedarach,False,C\ Quito,,7.42,median,,check
+0045255AR,Celtis australis,False,Pg Potosí,,53.09,no_facade,15.39,check
+0045256AR,Melia azedarach,False,C\ Clariana,4.98,3.36,ok,,medium
+0045257AR,Melia azedarach,False,C\ Clariana,5.02,3.59,ok,,medium
+0045258AR,Albizia julibrissin,False,C\ Caracas,6.0,4.23,ok,,medium
+0045259AR,Jacaranda mimosifolia,False,C\ Ciutat d'Asunción,,20.72,median,9.75,check
+0045260AR,Albizia julibrissin,False,C\ Tiana,,15.2,median,25.53,check
+0045261AR,Morus alba,False,C\ Clariana,5.08,4.14,ok,,medium
+0045262AR,Celtis australis,False,C\ Ferran Junoy,,40.57,no_facade,7.09,check
+0045264AR,Jacaranda mimosifolia,False,C\ Beat Domènec Savio,16.89,11.05,ok,,large
+0045265AR,Celtis australis,False,Pg Potosí,,45.87,no_facade,17.4,check
+0045266AR,Celtis australis,False,C\ Ciutat d'Asunción,,28.68,median,4.3,check
+0045268AR,Celtis australis,False,C\ Ferran Junoy,,61.94,no_facade,8.0,check
+0045269AR,Fraxinus angustifolia,False,C\ Campins,6.11,5.65,ok,,large
+0045270AR,Celtis australis,False,C\ Ferran Junoy,,40.64,no_facade,7.09,check
+0045271AR,Celtis australis,False,C\ Ciutat d'Asunción,6.38,5.08,ok,,large
+0045272AR,Melia azedarach,False,C\ Campins,6.29,5.88,ok,,large
+0045273AR,Celtis australis,False,C\ Ciutat d'Asunción,8.14,6.79,ok,,large
+0045275AR,Celtis australis,False,C\ Ferran Junoy,,40.74,no_facade,7.07,check
+0045276AR,Melia azedarach,False,Pg Guayaquil,6.6,4.01,ok,,large
+0045278AR,Melia azedarach,False,C\ Clariana,9.39,8.75,ok,,large
+0045280AR,Celtis australis,False,C\ Ciutat d'Asunción,,27.84,median,18.57,check
+0045281AR,Celtis australis,False,C\ Ciutat d'Asunción,,45.75,no_facade,,check
+0258494AR,Celtis australis,False,Pg Potosí,,41.96,no_facade,15.09,check
+0288253AR,Celtis australis,False,C\ Ciutat d'Asunción,,31.54,no_facade,,check
+0288254AR,Celtis australis,False,C\ Ciutat d'Asunción,,31.15,no_facade,,check
+0288255AR,Celtis australis,False,C\ Ciutat d'Asunción,,31.08,no_facade,,check
+0288258AR,Celtis australis,False,C\ Ciutat d'Asunción,,32.97,no_facade,,check
+0296512AR,Brachychiton populneus,False,C\ Quito,7.05,6.48,ok,,large
+0296513AR,Brachychiton populneus,False,C\ Quito,7.26,6.65,ok,,large
+0296633AR,Celtis australis,False,C\ Ciutat d'Asunción,21.87,17.75,ok,,large
+0309688AR,Melia azedarach,False,C\ Quito,4.96,3.42,ok,,medium
+0316442AR,Prunus avium,False,C\ Tucumán,,15.66,median,,check
+0329887AR,Tipuana tipu,False,C\ Ciutat d'Asunción,21.61,3.98,ok,,large
+0329888AR,Tipuana tipu,False,C\ Ciutat d'Asunción,21.6,14.61,ok,,large

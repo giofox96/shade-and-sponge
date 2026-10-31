@@ -152,5 +152,5 @@ SylvCiT; Davey Tree Benefits Engine API usage; systematic review of cooling effe
 5. Draft methodology outline (data + tools) only after steps 1 to 3.
 
 ## Open questions for the user
-- Is Grasshopper integration a hard requirement of the programme?
+- ~~Is Grasshopper integration a hard requirement of the programme?~~ No (user, 30 Oct): Grasshopper stays a front-end, not a requirement.
 - Slide format and language constraints for the 5-minute talk (Google Slides assumed)?

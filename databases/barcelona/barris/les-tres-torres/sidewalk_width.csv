@@ -1,0 +1,2106 @@
+tree_id,species,is_plane,street,width_m,facade_dist_m,flag,strip_width_m,size_class
+0007084AR,Casuarina cunninghamiana,False,Rda General Mitre,10.32,8.63,ok,,large
+0007189AR,Tipuana tipu,False,Rda General Mitre,,11.54,no_kerb,,check
+0007191AR,Tipuana tipu,False,Rda General Mitre,,16.83,no_kerb,,check
+0007196AR,Tipuana tipu,False,Rda General Mitre,,14.02,no_kerb,,check
+0007197AR,Tipuana tipu,False,Rda General Mitre,,11.75,no_kerb,,check
+0007299AR,Pinus pinea,False,C\ Bori i Fontestà,,32.22,no_facade,15.48,check
+0007300AR,Pinus pinea,False,C\ Bori i Fontestà,,31.44,no_facade,17.15,check
+0007301AR,Pinus pinea,False,C\ Bori i Fontestà,,32.45,no_facade,22.64,check
+0007302AR,Pinus pinea,False,C\ Bori i Fontestà,,26.09,median,10.98,check
+0007303AR,Pinus pinea,False,C\ Bori i Fontestà,,28.05,median,13.92,check
+0193396AR,Grevillea robusta,False,Pl Martí Llauradó,,17.15,median,18.99,check
+0193400AR,Grevillea robusta,False,Pl Martí Llauradó,,8.39,median,18.99,check
+0193823AR,Celtis australis,False,Rda General Mitre,16.98,6.08,ok,,large
+0193824AR,Brachychiton populneus,False,Via Augusta,16.28,15.01,ok,,large
+0193825AR,Platanus × acerifolia,True,C\ Can Ràbia,14.89,14.47,ok,,large
+0193826AR,Platanus × acerifolia,True,C\ Doctor Carulla,8.46,7.78,ok,,large
+0193827AR,Celtis australis,False,Rda General Mitre,,23.76,median,6.0,check
+0193828AR,Platanus × acerifolia,True,C\ Can Ràbia,4.78,3.38,ok,,medium
+0193829AR,Magnolia grandiflora,False,C\ Rafael Batlle,9.55,3.35,ok,,large
+0193830AR,Tipuana tipu,False,Rda General Mitre,11.8,6.76,ok,,large
+0193831AR,Melia azedarach,False,Pl Àngel Rodríguez,,23.04,no_kerb,,check
+0193832AR,Platanus × acerifolia,True,C\ Vergós,7.14,5.49,ok,,large
+0193834AR,Magnolia grandiflora,False,C\ Rafael Batlle,,19.52,median,,check
+0193835AR,Melia azedarach,False,Rda General Mitre,22.25,5.8,ok,,large
+0193836AR,Celtis australis,False,Av Sarrià,,35.48,no_facade,,check
+0193837AR,Koelreuteria paniculata 'Fastigiata',False,C\ Doctor Carulla,,15.85,median,,check
+0193838AR,Tipuana tipu,False,Rda General Mitre,11.96,8.79,ok,,large
+0193840AR,Tipuana tipu,False,C\ Nena Casas,2.05,2.53,ok,,none
+0193842AR,Platanus × acerifolia,True,Pg Bonanova,6.83,5.67,ok,,large
+0193843AR,Platanus × acerifolia,True,C\ Doctor Roux,7.6,7.08,ok,,large
+0193844AR,Brachychiton populneus,False,C\ Nena Casas,6.74,5.78,ok,,large
+0193845AR,Tipuana tipu,False,Rda General Mitre,7.84,5.79,ok,,large
+0193846AR,Magnolia grandiflora,False,C\ Milanesat,6.12,5.04,ok,,large
+0193849AR,Koelreuteria paniculata,False,C\ Can Ràbia,,11.23,median,,check
+0193850AR,Melia azedarach,False,Rda General Mitre,22.22,11.97,ok,,large
+0193851AR,Koelreuteria paniculata,False,C\ Ganduxer,3.12,2.54,ok,,small
+0193852AR,Celtis australis,False,C\ Doctor Fleming,23.04,13.97,ok,,large
+0193853AR,Platanus × acerifolia,True,C\ Escoles Pies,4.63,3.86,ok,,medium
+0193854AR,Platanus × acerifolia,True,C\ Escoles Pies,2.41,2.08,ok,,none
+0193855AR,Platanus × acerifolia,True,Pg Sant Joan Bosco,4.66,3.87,ok,,medium
+0193856AR,Styphnolobium japonicum,False,C\ Doctor Roux,10.94,9.44,ok,,large
+0193857AR,Platanus × acerifolia,True,C\ Àngel Guimerà,4.86,3.83,ok,,medium
+0193858AR,Brachychiton populneus,False,C\ Nena Casas,3.22,2.49,ok,,small
+0193859AR,Quercus ilex,False,Via Augusta,15.58,12.51,ok,,large
+0193860AR,Styphnolobium japonicum,False,C\ Ricardo Villa,11.93,9.14,ok,,large
+0193861AR,Magnolia grandiflora,False,C\ Calatrava,5.09,3.73,ok,,medium
+0193862AR,Melia azedarach,False,Rda General Mitre,23.66,5.79,ok,,large
+0193863AR,Brachychiton populneus,False,C\ Rosari,6.55,5.76,ok,,large
+0193864AR,Platanus × acerifolia,True,C\ Doctor Carulla,6.41,4.7,ok,,large
+0193865AR,Platanus × acerifolia,True,C\ Pau Alcover,7.88,5.76,ok,,large
+0193866AR,Cupressus sempervirens,False,C\ Calatrava,5.68,5.45,ok,,medium
+0193867AR,Styphnolobium japonicum,False,C\ Milanesat,4.82,3.51,ok,,medium
+0193868AR,Tipuana tipu,False,C\ Nena Casas,,9.8,median,,check
+0193870AR,Celtis australis,False,C\ Doctor Fleming,,25.99,median,,check
+0193871AR,Platanus × acerifolia,True,C\ Doctor Roux,7.13,5.53,ok,,large
+0193873AR,Melia azedarach,False,Rda General Mitre,,30.57,no_facade,,check
+0193874AR,Celtis australis,False,C\ Castellnou,,9.4,median,,check
+0193875AR,Melia azedarach,False,Pl Àngel Rodríguez,,11.65,no_kerb,,check
+0193876AR,Platanus × acerifolia,True,Via Augusta,11.22,8.38,ok,,large
+0193877AR,Styphnolobium japonicum,False,C\ Doctor Roux,6.94,6.09,ok,,large
+0193878AR,Tipuana tipu,False,C\ Bori i Fontestà,,15.91,median,3.5,check
+0193879AR,Styphnolobium japonicum,False,C\ Calatrava,4.76,3.57,ok,,medium
+0193880AR,Celtis australis,False,Via Augusta,15.9,14.9,ok,,large
+0193881AR,Platanus × acerifolia,True,C\ Can Ràbia,7.18,5.29,ok,,large
+0193882AR,Platanus × acerifolia,True,C\ Pau Alcover,11.2,10.18,ok,,large
+0193883AR,Styphnolobium japonicum,False,C\ Pau Alcover,9.38,9.01,ok,,large
+0193884AR,Platanus × acerifolia,True,C\ Escoles Pies,3.9,2.79,ok,,medium
+0193885AR,Platanus × acerifolia,True,Via Augusta,10.35,7.89,ok,,large
+0193886AR,Platanus × acerifolia,True,C\ Doctor Roux,11.46,11.26,ok,,large
+0193887AR,Platanus × acerifolia,True,C\ Calatrava,4.41,3.57,ok,,medium
+0193888AR,Celtis australis,False,C\ Castellnou,25.15,10.51,ok,,large
+0193889AR,Firmiana simplex,False,C\ Emancipació,7.6,6.35,ok,,large
+0193890AR,Celtis australis,False,C\ Doctor Fleming,23.51,15.34,ok,,large
+0193891AR,Platanus × acerifolia,True,C\ Pau Alcover,6.41,5.66,ok,,large
+0193892AR,Platanus × acerifolia,True,C\ Ricardo Villa,25.32,10.17,ok,,large
+0193893AR,Magnolia grandiflora,False,C\ Rafael Batlle,,12.55,no_kerb,,check
+0193894AR,Quercus robur 'Fastigiata',False,C\ Calatrava,5.49,5.82,ok,,medium
+0193895AR,Tipuana tipu,False,C\ Doctor Fleming,24.3,6.81,ok,,large
+0193896AR,Styphnolobium japonicum,False,C\ Doctor Roux,5.46,4.68,ok,,medium
+0193897AR,Celtis australis,False,Rda General Mitre,,28.05,median,6.19,check
+0193898AR,Tipuana tipu,False,Rda General Mitre,8.45,7.9,ok,,large
+0193900AR,Platanus × acerifolia,True,C\ Pau Alcover,5.61,4.55,ok,,medium
+0193901AR,Platanus × acerifolia,True,C\ Escoles Pies,3.89,2.58,ok,,medium
+0193903AR,Styphnolobium japonicum,False,C\ Doctor Carulla,6.14,5.58,ok,,large
+0193904AR,Platanus × acerifolia,True,Via Augusta,13.19,12.65,ok,,large
+0193906AR,Styphnolobium japonicum,False,C\ Ricardo Villa,12.05,8.9,ok,,large
+0193907AR,Platanus × acerifolia,True,C\ Castellnou,2.98,2.5,ok,,small
+0193908AR,Magnolia grandiflora,False,C\ Calatrava,3.42,2.48,ok,,small
+0193909AR,Tipuana tipu,False,Pl Joaquim Pena,4.41,3.2,ok,,medium
+0193910AR,Styphnolobium japonicum,False,C\ Emancipació,7.62,6.48,ok,,large
+0193911AR,Populus nigra 'Italica',False,Rda General Mitre,6.77,5.81,ok,,large
+0193914AR,Tipuana tipu,False,Rda General Mitre,8.28,6.17,ok,,large
+0193915AR,Populus alba 'Pyramidalis',False,Rda General Mitre,15.47,8.46,ok,,large
+0193916AR,Magnolia grandiflora,False,Rda General Mitre,,15.97,no_kerb,,check
+0193917AR,Platanus × acerifolia,True,C\ Doctor Carulla,6.01,4.89,ok,,large
+0193918AR,Platanus × acerifolia,True,Pg Bonanova,9.1,7.29,ok,,large
+0193919AR,Magnolia grandiflora,False,C\ Alt de Gironella,7.82,6.67,ok,,large
+0193920AR,Celtis australis,False,C\ Doctor Fleming,23.0,14.56,ok,,large
+0193921AR,Styphnolobium japonicum,False,Pl Àngel Rodríguez,15.35,14.99,ok,,large
+0193922AR,Melia azedarach,False,Pl Àngel Rodríguez,,10.8,no_kerb,,check
+0193923AR,Platanus × acerifolia,True,C\ Doctor Roux,5.89,4.39,ok,,medium
+0193924AR,Platanus × acerifolia,True,C\ Pau Alcover,,12.07,median,3.2,check
+0193925AR,Robinia pseudoacacia,False,C\ Calatrava,5.35,5.66,ok,,medium
+0193927AR,Styphnolobium japonicum,False,C\ Rosari,,4.42,median,3.15,check
+0193928AR,Celtis australis,False,C\ Doctor Fleming,26.81,16.2,ok,,large
+0193929AR,Quercus robur 'Fastigiata',False,C\ Calatrava,6.72,5.48,ok,,large
+0193930AR,Melia azedarach,False,Rda General Mitre,,17.57,no_kerb,,check
+0193931AR,Melia azedarach,False,Pl Àngel Rodríguez,12.11,11.57,ok,,large
+0193932AR,Celtis australis,False,Rda General Mitre,14.92,14.11,ok,,large
+0193933AR,Platanus × acerifolia,True,C\ Doctor Carulla,7.93,7.09,ok,,large
+0193935AR,Platanus × acerifolia,True,C\ Escoles Pies,4.3,2.85,ok,,medium
+0193936AR,Brachychiton populneus,False,C\ Nena Casas,6.32,5.17,ok,,large
+0193937AR,Celtis australis,False,Rda General Mitre,12.26,11.92,ok,,large
+0193938AR,Styphnolobium japonicum,False,C\ Alt de Gironella,6.35,5.31,ok,,large
+0193939AR,Celtis australis,False,C\ Doctor Fleming,24.93,15.24,ok,,large
+0193940AR,Styphnolobium japonicum,False,Ptge Ricard Zamora,1.58,2.36,ok,,none
+0193942AR,Magnolia grandiflora,False,Rda General Mitre,9.82,2.66,ok,,large
+0193943AR,Jacaranda mimosifolia,False,C\ Milanesat,5.7,4.27,ok,,medium
+0193944AR,Magnolia grandiflora,False,Rda General Mitre,10.07,2.32,ok,,large
+0193945AR,Firmiana simplex,False,C\ Emancipació,7.75,6.44,ok,,large
+0193947AR,Magnolia grandiflora,False,C\ Emancipació,7.66,6.7,ok,,large
+0193949AR,Platanus × acerifolia,True,Pg Sant Joan Bosco,3.69,3.17,ok,,medium
+0193950AR,Celtis australis,False,Via Augusta,16.16,14.97,ok,,large
+0193951AR,Tipuana tipu,False,Rda General Mitre,12.91,8.87,ok,,large
+0193952AR,Platanus × acerifolia,True,C\ Ricardo Villa,10.02,2.57,ok,,large
+0193953AR,Melia azedarach,False,Pl Àngel Rodríguez,,17.93,no_kerb,,check
+0193954AR,Photinia x fraseri 'Red Robin',False,C\ Vergós,,15.29,median,,check
+0193955AR,Brachychiton acerifolius,False,C\ Nena Casas,7.7,7.14,ok,,large
+0193956AR,Populus nigra 'Italica',False,Rda General Mitre,4.94,4.33,ok,,medium
+0193957AR,Brachychiton populneus,False,C\ Nena Casas,8.39,7.45,ok,,large
+0193958AR,Platanus × acerifolia,True,C\ Doctor Roux,5.06,4.64,ok,,medium
+0193959AR,Magnolia grandiflora,False,C\ Alt de Gironella,2.07,1.24,ok,,none
+0193960AR,Tipuana tipu,False,Pl Martí Llauradó,,19.53,median,13.54,check
+0193963AR,Platanus × acerifolia,True,C\ Vergós,7.03,5.48,ok,,large
+0193964AR,Pinus halepensis,False,Via Augusta,9.77,7.67,ok,,large
+0193965AR,Platanus × acerifolia,True,Pg Sant Joan Bosco,3.7,3.62,ok,,medium
+0193966AR,Tipuana tipu,False,Rda General Mitre,11.06,6.38,ok,,large
+0193967AR,Tipuana tipu,False,C\ Bori i Fontestà,11.64,10.06,ok,,large
+0193968AR,Platanus × acerifolia,True,C\ Doctor Roux,10.07,9.21,ok,,large
+0193969AR,Tipuana tipu,False,C\ Santa Fe de Nou Mèxic,5.0,4.07,ok,,medium
+0193970AR,Platanus × acerifolia,True,C\ Castellnou,3.53,3.54,ok,,medium
+0193971AR,Melia azedarach,False,Pl Àngel Rodríguez,,13.64,no_kerb,,check
+0193972AR,Firmiana simplex,False,C\ Emancipació,4.44,4.31,ok,,medium
+0193973AR,Platanus × acerifolia,True,C\ Escoles Pies,4.72,4.23,ok,,medium
+0193974AR,Platanus × acerifolia,True,C\ Doctor Roux,5.24,4.3,ok,,medium
+0193975AR,Brachychiton populneus,False,Via Augusta,18.29,16.89,ok,,large
+0193976AR,Celtis australis,False,C\ Doctor Fleming,23.0,21.54,ok,,large
+0193977AR,Platanus × acerifolia,True,C\ Vergós,6.44,5.38,ok,,large
+0193978AR,Photinia x fraseri 'Red Robin',False,C\ Vergós,,15.27,median,,check
+0193979AR,Platanus × acerifolia,True,Pg Bonanova,7.29,6.26,ok,,large
+0193980AR,Platanus × acerifolia,True,Pl Eguilaz,4.21,3.92,ok,,medium
+0193981AR,Platanus × acerifolia,True,C\ Doctor Roux,5.71,4.7,ok,,medium
+0193982AR,Platanus × acerifolia,True,C\ Pau Alcover,6.32,5.76,ok,,large
+0193983AR,Cupressus sempervirens,False,C\ Milanesat,4.94,2.62,ok,,medium
+0193984AR,Platanus × acerifolia,True,C\ Doctor Roux,,5.28,median,4.67,check
+0193985AR,Platanus × acerifolia,True,C\ Escoles Pies,2.4,0.85,ok,,none
+0193987AR,Platanus × acerifolia,True,Pl Eguilaz,15.54,14.85,ok,,large
+0193988AR,Platanus × acerifolia,True,C\ Calatrava,5.64,4.38,ok,,medium
+0193989AR,Platanus × acerifolia,True,C\ Àngel Guimerà,2.0,1.17,ok,,none
+0193991AR,Magnolia grandiflora,False,C\ Ganduxer,,13.17,median,,check
+0193992AR,Platanus × acerifolia,True,Pg Bonanova,14.25,12.25,ok,,large
+0193993AR,Koelreuteria paniculata,False,C\ Ganduxer,6.33,5.6,ok,,large
+0193994AR,Celtis australis,False,Via Augusta,16.69,16.0,ok,,large
+0193995AR,Quercus ilex,False,Via Augusta,6.89,5.5,ok,,large
+0193996AR,Tipuana tipu,False,Rda General Mitre,11.44,7.94,ok,,large
+0193997AR,Cupressus sempervirens,False,Via Augusta,9.83,7.82,ok,,large
+0193998AR,Platanus × acerifolia,True,Via Augusta,26.62,12.34,ok,,large
+0193999AR,Platanus × acerifolia,True,C\ Can Ràbia,,13.98,median,3.19,check
+0194000AR,Koelreuteria paniculata,False,C\ Ganduxer,6.53,5.64,ok,,large
+0194001AR,Gleditsia triacanthos f. inermis,False,Rda General Mitre,,34.82,no_facade,,check
+0194002AR,Tipuana tipu,False,C\ Nena Casas,,9.45,median,,check
+0194003AR,Tipuana tipu,False,Rda General Mitre,7.85,5.57,ok,,large
+0194004AR,Platanus × acerifolia,True,C\ Vergós,,12.05,median,,check
+0194005AR,Tipuana tipu,False,Pl Martí Llauradó,,15.5,median,12.7,check
+0194006AR,Brachychiton populneus,False,C\ Nena Casas,8.74,7.74,ok,,large
+0194008AR,Celtis australis,False,C\ Doctor Fleming,,21.93,median,22.89,check
+0194009AR,Firmiana simplex,False,C\ Emancipació,,9.01,median,2.77,check
+0194010AR,Platanus × acerifolia,True,C\ Demestre,7.25,6.32,ok,,large
+0194011AR,Celtis australis,False,Av Sarrià,,41.24,no_facade,,check
+0194012AR,Brachychiton populneus,False,C\ Nena Casas,5.23,3.95,ok,,medium
+0194013AR,Platanus × acerifolia,True,C\ Pau Alcover,3.31,2.65,ok,,small
+0194014AR,Platanus × acerifolia,True,Via Augusta,12.47,10.61,ok,,large
+0194015AR,Styphnolobium japonicum,False,C\ Ganduxer,5.44,4.49,ok,,medium
+0194016AR,Platanus × acerifolia,True,Pg Sant Joan Bosco,3.69,3.47,ok,,medium
+0194017AR,Platanus × acerifolia,True,Pg Sant Joan Bosco,3.61,3.14,ok,,medium
+0194018AR,Styphnolobium japonicum,False,C\ Ganduxer,3.06,2.02,ok,,small
+0194019AR,Styphnolobium japonicum,False,C\ Vergós,3.15,2.53,ok,,small
+0194020AR,Gleditsia triacanthos f. inermis,False,Rda General Mitre,7.8,6.97,ok,,large
+0194021AR,Platanus × acerifolia,True,C\ Vergós,3.21,2.34,ok,,small
+0194022AR,Platanus × acerifolia,True,C\ Doctor Roux,,13.28,median,,check
+0194023AR,Platanus × acerifolia,True,C\ Escoles Pies,8.17,6.75,ok,,large
+0194024AR,Melia azedarach,False,Pl Àngel Rodríguez,25.01,3.62,ok,,large
+0194025AR,Magnolia grandiflora,False,C\ Castellnou,3.19,2.14,ok,,small
+0194026AR,Magnolia grandiflora,False,C\ Rosales,6.58,5.81,ok,,large
+0194027AR,Robinia pseudoacacia,False,C\ Alt de Gironella,5.86,5.58,ok,,medium
+0194028AR,Platanus × acerifolia,True,C\ Tres Torres,2.16,1.67,ok,,none
+0194029AR,Platanus × acerifolia,True,Via Augusta,23.87,14.47,ok,,large
+0194030AR,Tipuana tipu,False,Rda General Mitre,7.77,5.68,ok,,large
+0194031AR,Tipuana tipu,False,C\ Nena Casas,,11.69,median,,check
+0194032AR,Magnolia grandiflora,False,C\ Emancipació,9.02,9.27,ok,,large
+0194033AR,Platanus × acerifolia,True,C\ Doctor Carulla,6.38,5.75,ok,,large
+0194034AR,Tipuana tipu,False,Rda General Mitre,10.18,5.38,ok,,large
+0194035AR,Platanus × acerifolia,True,Pg Bonanova,14.22,13.21,ok,,large
+0194036AR,Pinus pinea,False,C\ Doctor Carulla,6.22,6.45,ok,,large
+0194037AR,Celtis australis,False,Rda General Mitre,,25.07,median,9.31,check
+0194038AR,Styphnolobium japonicum,False,C\ Ganduxer,6.46,5.81,ok,,large
+0194039AR,Ulmus pumila,False,C\ Vergós,24.85,20.21,ok,,large
+0194040AR,Ligustrum lucidum,False,C\ Castellnou,2.7,1.76,ok,,small
+0194041AR,Platanus × acerifolia,True,Via Augusta,12.34,5.38,ok,,large
+0194043AR,Platanus × acerifolia,True,C\ Pau Alcover,8.7,7.9,ok,,large
+0194044AR,Aesculus hippocastanum,False,Ptge Fontanelles,,9.81,no_kerb,,check
+0194045AR,Populus alba 'Pyramidalis',False,Rda General Mitre,9.51,4.15,ok,,large
+0194046AR,Ulmus pumila,False,C\ Emancipació,8.47,7.69,ok,,large
+0194048AR,Celtis australis,False,Via Augusta,9.07,7.86,ok,,large
+0194049AR,Tipuana tipu,False,C\ Nena Casas,2.34,3.16,ok,,none
+0194050AR,Gleditsia triacanthos f. inermis,False,Rda General Mitre,20.91,19.31,ok,,large
+0194051AR,Platanus × acerifolia,True,Pg Bonanova,,8.35,median,4.0,check
+0194054AR,Platanus × acerifolia,True,C\ Calatrava,4.83,4.54,ok,,medium
+0194055AR,Brachychiton populneus,False,C\ Nena Casas,5.91,5.08,ok,,medium
+0194056AR,Quercus ilex,False,Via Augusta,6.45,4.51,ok,,large
+0194057AR,Tipuana tipu,False,Pl Martí Llauradó,22.78,16.78,ok,,large
+0194058AR,Celtis australis,False,Rda General Mitre,18.79,15.31,ok,,large
+0194059AR,Tipuana tipu,False,Pl Martí Llauradó,,18.51,no_kerb,11.9,check
+0194060AR,Platanus × acerifolia,True,Via Augusta,,11.69,median,10.25,check
+0194061AR,Firmiana simplex,False,C\ Emancipació,5.9,4.35,ok,,medium
+0194062AR,Tipuana tipu,False,C\ Doctor Fleming,,7.98,no_kerb,,check
+0194063AR,Styphnolobium japonicum,False,C\ Emancipació,8.09,7.1,ok,,large
+0194064AR,Aesculus hippocastanum,False,Ptge Fontanelles,,9.27,no_kerb,,check
+0194065AR,Jacaranda mimosifolia,False,C\ Gironella,,5.75,median,2.76,check
+0194066AR,Styphnolobium japonicum,False,C\ Calatrava,6.57,6.44,ok,,large
+0194067AR,Platanus × acerifolia,True,C\ Escoles Pies,5.49,4.52,ok,,medium
+0194068AR,Styphnolobium japonicum,False,C\ Emancipació,11.94,12.05,ok,,large
+0194069AR,Platanus × acerifolia,True,C\ Doctor Roux,6.98,6.12,ok,,large
+0194070AR,Brachychiton populneus,False,C\ Rosari,6.08,5.55,ok,,large
+0194071AR,Platanus × acerifolia,True,C\ Doctor Roux,8.43,6.84,ok,,large
+0194072AR,Tipuana tipu,False,Pl Joaquim Pena,4.43,3.37,ok,,medium
+0194074AR,Tipuana tipu,False,C\ Doctor Fleming,23.1,5.32,ok,,large
+0194075AR,Platanus × acerifolia,True,Pg Bonanova,10.19,8.34,ok,,large
+0194076AR,Platanus × acerifolia,True,C\ Ricardo Villa,12.98,3.75,ok,,large
+0194077AR,Magnolia grandiflora,False,Pl Eguilaz,19.15,8.32,ok,,large
+0194078AR,Celtis australis,False,Rda General Mitre,12.93,12.44,ok,,large
+0194080AR,Casuarina cunninghamiana,False,Rda General Mitre,10.95,9.44,ok,,large
+0194081AR,Celtis australis,False,C\ Santa Fe de Nou Mèxic,21.4,15.93,ok,,large
+0194082AR,Platanus × acerifolia,True,C\ Doctor Carulla,12.96,10.42,ok,,large
+0194083AR,Ulmus pumila,False,C\ Castellnou,3.0,2.14,ok,,small
+0194084AR,Melia azedarach,False,Rda General Mitre,16.35,5.77,ok,,large
+0194085AR,Magnolia grandiflora,False,C\ Alt de Gironella,1.97,1.19,ok,,none
+0194087AR,Platanus × acerifolia,True,Pg Sant Joan Bosco,3.52,3.65,ok,,medium
+0194088AR,Magnolia grandiflora,False,Rda General Mitre,,10.4,no_kerb,,check
+0194089AR,Platanus × acerifolia,True,C\ Escoles Pies,4.83,4.83,ok,,medium
+0194090AR,Tipuana tipu,False,Rda General Mitre,12.83,8.18,ok,,large
+0194091AR,Melia azedarach,False,Pl Àngel Rodríguez,25.28,10.02,ok,,large
+0194092AR,Platanus × acerifolia,True,C\ Escoles Pies,3.68,2.5,ok,,medium
+0194093AR,Tipuana tipu,False,Rda General Mitre,10.67,7.61,ok,,large
+0194094AR,Celtis australis,False,Rda General Mitre,7.83,6.96,ok,,large
+0194095AR,Jacaranda mimosifolia,False,C\ Vergós,,21.14,median,,check
+0194096AR,Brachychiton populneus,False,C\ Àngel Guimerà,,13.41,median,23.78,check
+0194097AR,Platanus × acerifolia,True,C\ Alt de Gironella,,8.65,median,,check
+0194098AR,Tipuana tipu,False,Pl Martí Llauradó,24.24,22.2,ok,,large
+0194099AR,Koelreuteria paniculata 'Fastigiata',False,C\ Doctor Carulla,11.19,10.55,ok,,large
+0194100AR,Ligustrum lucidum,False,C\ Castellnou,2.77,1.2,ok,,small
+0194101AR,Platanus × acerifolia,True,C\ Vergós,3.45,2.78,ok,,small
+0194102AR,Melia azedarach,False,Pl Àngel Rodríguez,,6.26,no_kerb,,check
+0194104AR,Platanus × acerifolia,True,C\ Escoles Pies,4.37,4.07,ok,,medium
+0194105AR,Cupressus sempervirens,False,C\ Calatrava,4.45,3.42,ok,,medium
+0194106AR,Platanus × acerifolia,True,C\ Pau Alcover,5.08,4.51,ok,,medium
+0194107AR,Jacaranda mimosifolia,False,Via Augusta,23.42,21.58,ok,,large
+0194108AR,Jacaranda mimosifolia,False,C\ Milanesat,4.41,2.41,ok,,medium
+0194109AR,Platanus × acerifolia,True,Pg Sant Joan Bosco,3.66,3.04,ok,,medium
+0194110AR,Platanus × acerifolia,True,C\ Doctor Carulla,5.55,4.71,ok,,medium
+0194111AR,Jacaranda mimosifolia,False,Pg Sant Joan Bosco,,19.31,median,10.75,check
+0194112AR,Magnolia grandiflora,False,C\ Tres Torres,6.87,3.47,ok,,large
+0194113AR,Melia azedarach,False,Pl Àngel Rodríguez,24.13,14.46,ok,,large
+0194114AR,Jacaranda mimosifolia,False,C\ Milanesat,6.73,5.39,ok,,large
+0194115AR,Magnolia grandiflora,False,C\ Rosari,4.17,2.74,ok,,medium
+0194117AR,Platanus × acerifolia,True,C\ Doctor Carulla,,4.02,median,3.21,check
+0194118AR,Tipuana tipu,False,Rda General Mitre,12.62,7.84,ok,,large
+0194119AR,Jacaranda mimosifolia,False,C\ Milanesat,6.0,4.67,ok,,medium
+0194120AR,Platanus × acerifolia,True,C\ Calatrava,5.18,4.95,ok,,medium
+0194121AR,Cupressus sempervirens,False,Via Augusta,15.53,12.14,ok,,large
+0194123AR,Gleditsia triacanthos f. inermis,False,Rda General Mitre,,26.91,median,,check
+0194124AR,Platanus × acerifolia,True,C\ Doctor Carulla,6.34,5.64,ok,,large
+0194125AR,Tipuana tipu,False,C\ Santa Fe de Nou Mèxic,4.89,4.16,ok,,medium
+0194126AR,Celtis australis,False,Rda General Mitre,13.54,10.6,ok,,large
+0194127AR,Platanus × acerifolia,True,C\ Doctor Roux,6.18,5.34,ok,,large
+0194128AR,Styphnolobium japonicum,False,C\ Ganduxer,13.19,11.21,ok,,large
+0194129AR,Celtis australis,False,Via Augusta,16.63,15.84,ok,,large
+0194130AR,Celtis australis,False,C\ Doctor Fleming,23.09,21.77,ok,,large
+0194131AR,Firmiana simplex,False,C\ Emancipació,6.74,6.01,ok,,large
+0194133AR,Celtis australis,False,Rda General Mitre,9.8,8.32,ok,,large
+0194134AR,Magnolia grandiflora,False,C\ Escoles Pies,7.37,7.32,ok,,large
+0194135AR,Styphnolobium japonicum,False,C\ Ricardo Villa,16.95,9.04,ok,,large
+0194136AR,Tipuana tipu,False,C\ Doctor Fleming,,7.71,median,22.91,check
+0194137AR,Magnolia grandiflora,False,Pl Eguilaz,15.55,6.73,ok,,large
+0194139AR,Koelreuteria paniculata,False,C\ Ganduxer,4.52,3.65,ok,,medium
+0194140AR,Tipuana tipu,False,Pl Eguilaz,25.01,16.05,ok,,large
+0194141AR,Styphnolobium japonicum,False,C\ Rosari,4.61,3.44,ok,,medium
+0194142AR,Platanus × acerifolia,True,C\ Rosari,5.36,4.56,ok,,medium
+0194143AR,Styphnolobium japonicum,False,C\ Doctor Roux,6.9,3.66,ok,,large
+0194144AR,Acer negundo,False,C\ Àngel Guimerà,8.12,7.06,ok,,large
+0194146AR,Tilia x euchlora,False,C\ Milanesat,4.86,3.01,ok,,medium
+0194147AR,Platanus × acerifolia,True,C\ José de Agulló,6.29,5.71,ok,,large
+0194148AR,Gleditsia triacanthos 'sunburst',False,Rda General Mitre,,25.95,median,,check
+0194149AR,Populus alba 'Pyramidalis',False,Rda General Mitre,18.77,17.29,ok,,large
+0194151AR,Cupressus sempervirens,False,C\ Calatrava,8.49,8.03,ok,,large
+0194152AR,Styphnolobium japonicum,False,C\ Milanesat,3.18,1.82,ok,,small
+0194153AR,Cupressus sempervirens,False,C\ Calatrava,6.7,6.69,ok,,large
+0194154AR,Platanus × acerifolia,True,C\ Alt de Gironella,2.01,1.17,ok,,none
+0194155AR,Brachychiton populneus,False,C\ Nena Casas,6.35,5.7,ok,,large
+0194157AR,Platanus × acerifolia,True,C\ Doctor Roux,5.96,4.84,ok,,medium
+0194158AR,Platanus × acerifolia,True,Pl Eguilaz,17.35,16.52,ok,,large
+0194159AR,Platanus × acerifolia,True,C\ Pau Alcover,5.93,5.43,ok,,medium
+0194160AR,Styphnolobium japonicum,False,C\ Emancipació,6.99,5.97,ok,,large
+0194161AR,Celtis australis,False,Rda General Mitre,13.81,12.96,ok,,large
+0194162AR,Cercis siliquastrum,False,C\ Ricardo Villa,,21.34,median,31.6,check
+0194163AR,Platanus × acerifolia,True,Pg Bonanova,8.33,6.97,ok,,large
+0194164AR,Tipuana tipu,False,C\ Doctor Fleming,23.26,5.56,ok,,large
+0194165AR,Styphnolobium japonicum,False,C\ Milanesat,5.29,4.75,ok,,medium
+0194166AR,Melia azedarach,False,Rda General Mitre,19.74,5.85,ok,,large
+0194167AR,Platanus × acerifolia,True,C\ Pau Alcover,6.11,4.87,ok,,large
+0194168AR,Platanus × acerifolia,True,Pg Bonanova,9.46,7.73,ok,,large
+0194169AR,Platanus × acerifolia,True,C\ Can Ràbia,,10.28,median,,check
+0194170AR,Casuarina cunninghamiana,False,Rda General Mitre,12.06,10.3,ok,,large
+0194171AR,Platanus × acerifolia,True,Pg Sant Joan Bosco,3.52,2.74,ok,,medium
+0194172AR,Quercus robur 'Fastigiata',False,C\ Calatrava,5.01,4.46,ok,,medium
+0194173AR,Magnolia grandiflora,False,C\ Pau Alcover,,5.33,median,3.29,check
+0194174AR,Magnolia grandiflora,False,C\ Vergós,,25.5,median,,check
+0194176AR,Melia azedarach,False,Pl Àngel Rodríguez,,5.28,no_kerb,,check
+0194177AR,Platanus × acerifolia,True,C\ Calatrava,7.12,7.24,ok,,large
+0194179AR,Platanus × acerifolia,True,C\ Alt de Gironella,1.89,1.56,ok,,none
+0194180AR,Tipuana tipu,False,Rda General Mitre,11.39,5.15,ok,,large
+0194181AR,Tipuana tipu,False,Rda General Mitre,12.04,6.5,ok,,large
+0194182AR,Populus nigra 'Italica',False,Rda General Mitre,10.78,9.96,ok,,large
+0194183AR,Magnolia grandiflora,False,C\ Calatrava,5.54,4.59,ok,,medium
+0194184AR,Celtis australis,False,C\ Doctor Fleming,23.01,14.68,ok,,large
+0194185AR,Celtis australis,False,C\ Doctor Fleming,23.85,14.5,ok,,large
+0194186AR,Platanus × acerifolia,True,C\ Alt de Gironella,,8.21,median,,check
+0194187AR,Platanus × acerifolia,True,C\ Escoles Pies,4.45,4.49,ok,,medium
+0194188AR,Platanus × acerifolia,True,C\ Doctor Carulla,,15.03,median,,check
+0194189AR,Styphnolobium japonicum,False,C\ Escoles Pies,7.42,7.28,ok,,large
+0194190AR,Celtis australis,False,C\ Doctor Fleming,23.12,14.61,ok,,large
+0194191AR,Gleditsia triacanthos f. inermis,False,Rda General Mitre,13.06,11.85,ok,,large
+0194192AR,Magnolia grandiflora,False,C\ Calatrava,5.69,4.23,ok,,medium
+0194193AR,Celtis australis,False,C\ Doctor Fleming,22.81,22.06,ok,,large
+0194194AR,Tipuana tipu,False,C\ Nena Casas,20.45,15.06,ok,,large
+0194196AR,Populus alba 'Pyramidalis',False,Rda General Mitre,18.2,16.73,ok,,large
+0194197AR,Celtis australis,False,C\ Doctor Fleming,22.97,21.71,ok,,large
+0194198AR,Celtis australis,False,Rda General Mitre,10.51,9.66,ok,,large
+0194199AR,Platanus × acerifolia,True,C\ Castellnou,2.66,2.96,ok,,small
+0194200AR,Tipuana tipu,False,Pl Joaquim Pena,3.93,2.93,ok,,medium
+0194201AR,Tipuana tipu,False,C\ Nena Casas,16.59,11.18,ok,,large
+0194202AR,Styphnolobium japonicum,False,C\ Calatrava,2.47,1.89,ok,,none
+0194203AR,Tipuana tipu,False,Rda General Mitre,12.69,6.37,ok,,large
+0194204AR,Gleditsia triacanthos f. inermis,False,Rda General Mitre,10.36,8.25,ok,,large
+0194205AR,Platanus × acerifolia,True,Pg Bonanova,14.21,12.24,ok,,large
+0194206AR,Celtis australis,False,C\ Doctor Fleming,,30.21,no_facade,,check
+0194207AR,Casuarina cunninghamiana,False,Rda General Mitre,10.82,9.58,ok,,large
+0194208AR,Platanus × acerifolia,True,C\ Doctor Roux,,4.12,median,3.12,check
+0194209AR,Tipuana tipu,False,C\ Doctor Fleming,25.45,7.43,ok,,large
+0194210AR,Platanus × acerifolia,True,C\ Vergós,4.97,4.29,ok,,medium
+0194211AR,Styphnolobium japonicum,False,C\ Rosales,8.13,6.81,ok,,large
+0194212AR,Populus nigra 'Italica',False,Rda General Mitre,9.36,7.99,ok,,large
+0194213AR,Firmiana simplex,False,C\ Emancipació,4.35,4.37,ok,,medium
+0194214AR,Cupressus sempervirens,False,C\ Calatrava,4.58,5.0,ok,,medium
+0194215AR,Platanus × acerifolia,True,C\ Doctor Carulla,7.53,6.87,ok,,large
+0194216AR,Platanus × acerifolia,True,C\ Doctor Roux,6.8,5.91,ok,,large
+0194217AR,Platanus × acerifolia,True,Pg Bonanova,,9.25,median,4.67,check
+0194218AR,Platanus × acerifolia,True,Pg Sant Joan Bosco,5.9,4.83,ok,,medium
+0194219AR,Platanus × acerifolia,True,C\ Doctor Roux,2.74,1.74,ok,,small
+0194220AR,Platanus × acerifolia,True,C\ Doctor Carulla,6.27,4.93,ok,,large
+0194221AR,Tipuana tipu,False,C\ Nena Casas,,13.44,median,,check
+0194222AR,Populus alba 'Pyramidalis',False,Rda General Mitre,20.81,19.12,ok,,large
+0194223AR,Styphnolobium japonicum,False,C\ Doctor Carulla,9.68,8.37,ok,,large
+0194224AR,Platanus × acerifolia,True,C\ Vergós,7.86,6.58,ok,,large
+0194226AR,Celtis australis,False,C\ Doctor Fleming,23.07,22.07,ok,,large
+0194230AR,Platanus × acerifolia,True,C\ Calatrava,5.86,5.68,ok,,medium
+0194231AR,Platanus × acerifolia,True,C\ Can Ràbia,6.47,4.88,ok,,large
+0194232AR,Platanus × acerifolia,True,C\ Doctor Roux,5.57,4.68,ok,,medium
+0194233AR,Tipuana tipu,False,C\ Doctor Fleming,23.24,5.63,ok,,large
+0194234AR,Ligustrum lucidum,False,C\ Castellnou,2.92,1.85,ok,,small
+0194235AR,Celtis australis,False,Via Augusta,13.04,12.31,ok,,large
+0194238AR,Platanus × acerifolia,True,Pg Bonanova,11.68,10.65,ok,,large
+0194239AR,Platanus × acerifolia,True,Pg Sant Joan Bosco,3.62,3.76,ok,,medium
+0194240AR,Platanus × acerifolia,True,Pg Bonanova,8.34,6.9,ok,,large
+0194243AR,Cupressus sempervirens,False,C\ Calatrava,4.3,3.16,ok,,medium
+0194244AR,Celtis australis,False,Rda General Mitre,13.25,12.38,ok,,large
+0194245AR,Tipuana tipu,False,Rda General Mitre,7.8,5.68,ok,,large
+0194246AR,Platanus × acerifolia,True,C\ Doctor Roux,3.14,1.45,ok,,small
+0194247AR,Styphnolobium japonicum,False,C\ Ricardo Villa,12.49,9.03,ok,,large
+0194248AR,Platanus × acerifolia,True,C\ Demestre,6.98,5.85,ok,,large
+0194249AR,Styphnolobium japonicum,False,C\ Doctor Roux,8.02,6.09,ok,,large
+0194250AR,Populus alba 'Pyramidalis',False,Rda General Mitre,10.65,5.6,ok,,large
+0194251AR,Styphnolobium japonicum,False,C\ Alt de Gironella,6.11,5.74,ok,,large
+0194252AR,Cupressus sempervirens,False,C\ Calatrava,5.35,5.25,ok,,medium
+0194253AR,Magnolia grandiflora,False,C\ Vergós,,11.54,median,,check
+0194254AR,Magnolia grandiflora,False,C\ Àngel Guimerà,5.39,4.21,ok,,medium
+0194255AR,Tipuana tipu,False,C\ Bori i Fontestà,,13.62,median,3.12,check
+0194256AR,Platanus × acerifolia,True,C\ Doctor Carulla,6.66,5.31,ok,,large
+0194257AR,Celtis australis,False,C\ Doctor Fleming,25.05,23.18,ok,,large
+0194258AR,Celtis australis,False,Av Sarrià,,29.98,median,9.41,check
+0194259AR,Gleditsia triacanthos f. inermis,False,Rda General Mitre,10.75,9.83,ok,,large
+0194260AR,Styphnolobium japonicum,False,C\ Àngel Guimerà,4.54,3.83,ok,,medium
+0194261AR,Platanus × acerifolia,True,C\ Pau Alcover,6.93,5.74,ok,,large
+0194262AR,Pyrus calleryana 'Chanticleer',False,Pg Sant Joan Bosco,4.72,3.77,ok,,medium
+0194263AR,Platanus × acerifolia,True,Via Augusta,14.2,6.71,ok,,large
+0194264AR,Gleditsia triacanthos f. inermis,False,Rda General Mitre,,31.95,no_facade,,check
+0194265AR,Celtis australis,False,C\ Castellnou,,7.21,no_kerb,,check
+0194266AR,Platanus × acerifolia,True,C\ Doctor Roux,3.0,1.55,ok,,small
+0194267AR,Magnolia grandiflora,False,C\ Doctor Roux,4.85,4.13,ok,,medium
+0194268AR,Styphnolobium japonicum,False,C\ Calatrava,6.74,5.37,ok,,large
+0194269AR,Melia azedarach,False,Pl Àngel Rodríguez,18.94,9.98,ok,,large
+0194270AR,Tipuana tipu,False,C\ Santa Fe de Nou Mèxic,5.12,4.26,ok,,medium
+0194271AR,Platanus × acerifolia,True,C\ Escoles Pies,5.15,4.79,ok,,medium
+0194272AR,Magnolia grandiflora,False,C\ Vergós,6.4,5.21,ok,,large
+0194274AR,Platanus × acerifolia,True,C\ Escoles Pies,5.33,5.45,ok,,medium
+0194275AR,Platanus × acerifolia,True,C\ Doctor Carulla,5.67,5.39,ok,,medium
+0194276AR,Platanus × acerifolia,True,C\ Pau Alcover,6.69,5.71,ok,,large
+0194277AR,Magnolia grandiflora,False,Rda General Mitre,10.93,3.76,ok,,large
+0194279AR,Brachychiton populneus,False,C\ Rosari,,10.67,median,,check
+0194280AR,Celtis australis,False,C\ Doctor Fleming,24.12,15.26,ok,,large
+0194281AR,Cupressus sempervirens,False,C\ Calatrava,4.93,4.42,ok,,medium
+0194282AR,Tipuana tipu,False,C\ Santa Fe de Nou Mèxic,5.11,4.14,ok,,medium
+0194283AR,Platanus × acerifolia,True,C\ Pau Alcover,5.51,3.52,ok,,medium
+0194284AR,Platanus × acerifolia,True,C\ Vergós,8.23,7.87,ok,,large
+0194285AR,Magnolia grandiflora,False,C\ Doctor Roux,5.65,4.63,ok,,medium
+0194286AR,Platanus × acerifolia,True,C\ Calatrava,,11.43,median,,check
+0194287AR,Brachychiton populneus,False,Via Augusta,20.71,9.61,ok,,large
+0194288AR,Brachychiton populneus,False,C\ Milanesat,2.92,1.79,ok,,small
+0194289AR,Platanus × acerifolia,True,Pg Bonanova,7.87,6.5,ok,,large
+0194290AR,Ligustrum lucidum,False,C\ Castellnou,3.4,2.55,ok,,small
+0194291AR,Magnolia grandiflora,False,C\ Rafael Batlle,2.61,0.89,ok,,small
+0194292AR,Platanus × acerifolia,True,C\ Escoles Pies,2.54,1.87,ok,,small
+0194293AR,Platanus × acerifolia,True,C\ Pau Alcover,,10.2,median,12.72,check
+0194294AR,Platanus × acerifolia,True,C\ Nena Casas,3.2,2.23,ok,,small
+0194295AR,Celtis australis,False,Av Sarrià,,30.44,no_facade,,check
+0194296AR,Celtis australis,False,C\ Castellnou,,10.66,no_kerb,,check
+0194297AR,Celtis australis,False,C\ Castellnou,,7.36,no_kerb,,check
+0194298AR,Platanus × acerifolia,True,Pg Bonanova,7.78,6.35,ok,,large
+0194299AR,Tilia x europaea,False,Pl Martí Llauradó,,10.16,no_kerb,10.26,check
+0194301AR,Tipuana tipu,False,Rda General Mitre,12.3,7.49,ok,,large
+0194302AR,Gleditsia triacanthos f. inermis,False,Rda General Mitre,8.44,7.02,ok,,large
+0194303AR,Pinus pinea,False,Via Augusta,16.02,9.73,ok,,large
+0194304AR,Melia azedarach,False,Pl Àngel Rodríguez,,9.7,no_kerb,,check
+0194305AR,Platanus × acerifolia,True,Via Augusta,13.62,6.32,ok,,large
+0194307AR,Brachychiton populneus,False,C\ Nena Casas,9.25,7.71,ok,,large
+0194308AR,Platanus × acerifolia,True,C\ Àngel Guimerà,5.19,4.32,ok,,medium
+0194309AR,Styphnolobium japonicum,False,C\ Alt de Gironella,5.58,4.89,ok,,medium
+0194310AR,Tipuana tipu,False,Pl Joaquim Pena,3.85,2.73,ok,,medium
+0194311AR,Celtis australis,False,C\ Doctor Fleming,,31.41,no_facade,,check
+0194312AR,Platanus × acerifolia,True,Pg Sant Joan Bosco,3.54,2.66,ok,,medium
+0194313AR,Magnolia grandiflora,False,Pl Eguilaz,15.76,6.78,ok,,large
+0194314AR,Tilia x euchlora,False,C\ Milanesat,3.02,1.34,ok,,small
+0194315AR,Platanus × acerifolia,True,C\ Pau Alcover,6.41,4.78,ok,,large
+0194316AR,Jacaranda mimosifolia,False,C\ Milanesat,2.43,1.36,ok,,none
+0194317AR,Styphnolobium japonicum,False,C\ Ricardo Villa,12.15,10.85,ok,,large
+0194318AR,Styphnolobium japonicum,False,C\ Ganduxer,3.1,1.75,ok,,small
+0194319AR,Gleditsia triacanthos f. inermis,False,Rda General Mitre,16.44,14.54,ok,,large
+0194320AR,Brachychiton populneus,False,Via Augusta,22.38,18.09,ok,,large
+0194321AR,Platanus × acerifolia,True,C\ Doctor Carulla,6.43,5.87,ok,,large
+0194322AR,Gleditsia triacanthos f. inermis,False,Rda General Mitre,7.23,6.31,ok,,large
+0194323AR,Styphnolobium japonicum,False,C\ Vergós,,11.52,median,,check
+0194324AR,Melia azedarach,False,Rda General Mitre,26.81,12.14,ok,,large
+0194325AR,Platanus × acerifolia,True,Pg Bonanova,12.32,7.94,ok,,large
+0194326AR,Platanus × acerifolia,True,Pg Bonanova,6.74,5.1,ok,,large
+0194327AR,Platanus × acerifolia,True,C\ Escoles Pies,7.01,5.73,ok,,large
+0194328AR,Platanus × acerifolia,True,C\ Doctor Carulla,6.16,4.26,ok,,large
+0194329AR,Tipuana tipu,False,Pl Joaquim Pena,4.3,3.05,ok,,medium
+0194330AR,Platanus × acerifolia,True,C\ Ricardo Villa,17.07,3.96,ok,,large
+0194331AR,Platanus × acerifolia,True,C\ Escoles Pies,4.49,3.37,ok,,medium
+0194332AR,Styphnolobium japonicum,False,C\ Doctor Roux,3.18,2.18,ok,,small
+0194333AR,Magnolia grandiflora,False,C\ Vergós,12.0,11.51,ok,,large
+0194334AR,Ligustrum lucidum,False,C\ Tres Torres,4.02,3.25,ok,,medium
+0194335AR,Platanus × acerifolia,True,Pg Sant Joan Bosco,,18.42,median,10.74,check
+0194336AR,Celtis australis,False,C\ Doctor Fleming,23.23,13.95,ok,,large
+0194337AR,Magnolia grandiflora 'Goliath',False,C\ Àngel Guimerà,4.73,3.8,ok,,medium
+0194338AR,Jacaranda mimosifolia,False,Pl Martí Llauradó,,19.73,median,12.39,check
+0194339AR,Styphnolobium japonicum,False,C\ Doctor Roux,9.11,8.48,ok,,large
+0194340AR,Tipuana tipu,False,Pl Martí Llauradó,,16.49,median,14.89,check
+0194341AR,Platanus × acerifolia,True,C\ Escoles Pies,13.81,12.19,ok,,large
+0194342AR,Populus alba 'Pyramidalis',False,Rda General Mitre,9.4,7.77,ok,,large
+0194343AR,Platanus × acerifolia,True,C\ Escoles Pies,12.46,4.64,ok,,large
+0194344AR,Celtis australis,False,Av Sarrià,,34.19,no_facade,18.93,check
+0194345AR,Platanus × acerifolia,True,C\ Doctor Roux,3.1,1.58,ok,,small
+0194346AR,Koelreuteria paniculata,False,C\ Ganduxer,4.47,3.57,ok,,medium
+0194347AR,Gleditsia triacanthos 'sunburst',False,Rda General Mitre,24.07,21.96,ok,,large
+0194349AR,Cercis siliquastrum,False,C\ Ricardo Villa,,21.39,median,,check
+0194350AR,Platanus × acerifolia,True,C\ Demestre,5.13,3.96,ok,,medium
+0194351AR,Melia azedarach,False,Rda General Mitre,,30.53,no_facade,,check
+0194352AR,Platanus × acerifolia,True,C\ Doctor Carulla,4.89,4.01,ok,,medium
+0194353AR,Platanus × acerifolia,True,C\ Vergós,6.72,5.76,ok,,large
+0194354AR,Styphnolobium japonicum,False,C\ Doctor Carulla,5.5,4.7,ok,,medium
+0194355AR,Celtis australis,False,C\ Doctor Fleming,,34.95,no_facade,,check
+0194356AR,Platanus × acerifolia,True,C\ Doctor Roux,3.0,2.95,ok,,small
+0194357AR,Tipuana tipu,False,Rda General Mitre,24.15,22.39,ok,,large
+0194358AR,Platanus × acerifolia,True,Via Augusta,8.55,5.63,ok,,large
+0194361AR,Celtis australis,False,Via Augusta,7.2,6.94,ok,,large
+0194362AR,Gleditsia triacanthos 'sunburst',False,Rda General Mitre,,26.25,median,,check
+0194363AR,Styphnolobium japonicum,False,C\ Ganduxer,5.49,4.11,ok,,medium
+0194364AR,Styphnolobium japonicum,False,C\ Milanesat,5.31,4.39,ok,,medium
+0194366AR,Celtis australis,False,C\ Castellnou,21.48,11.52,ok,,large
+0194367AR,Magnolia grandiflora,False,C\ Rafael Batlle,2.57,0.83,ok,,small
+0194368AR,Celtis australis,False,Via Augusta,8.31,7.07,ok,,large
+0194369AR,Platanus × acerifolia,True,Pg Bonanova,,8.38,median,4.42,check
+0194370AR,Celtis australis,False,Via Augusta,4.93,3.69,ok,,medium
+0194371AR,Celtis australis,False,Via Augusta,10.57,9.39,ok,,large
+0194372AR,Platanus × acerifolia,True,C\ Calatrava,4.92,4.54,ok,,medium
+0194373AR,Platanus × acerifolia,True,C\ Pau Alcover,10.02,9.11,ok,,large
+0194374AR,Jacaranda mimosifolia,False,C\ Vergós,18.55,14.19,ok,,large
+0194375AR,Platanus × acerifolia,True,C\ Demestre,6.33,4.69,ok,,large
+0194376AR,Platanus × acerifolia,True,C\ Pau Alcover,5.85,4.96,ok,,medium
+0194377AR,Casuarina cunninghamiana,False,Rda General Mitre,12.67,10.31,ok,,large
+0194379AR,Platanus × acerifolia,True,C\ Doctor Carulla,6.22,5.02,ok,,large
+0194380AR,Platanus × acerifolia,True,C\ Doctor Carulla,,5.49,median,3.11,check
+0194381AR,Platanus × acerifolia,True,C\ Pau Alcover,7.04,6.54,ok,,large
+0194383AR,Melia azedarach,False,Rda General Mitre,17.36,5.79,ok,,large
+0194384AR,Platanus × acerifolia,True,C\ Doctor Roux,6.54,5.32,ok,,large
+0194385AR,Platanus × acerifolia,True,C\ Vergós,3.26,2.46,ok,,small
+0194386AR,Platanus × acerifolia,True,C\ Escoles Pies,6.5,5.26,ok,,large
+0194387AR,Tipuana tipu,False,Pl Eguilaz,25.04,17.48,ok,,large
+0194390AR,Acer negundo,False,C\ Calatrava,5.05,4.37,ok,,medium
+0194391AR,Platanus × acerifolia,True,C\ Pau Alcover,5.46,4.6,ok,,medium
+0194392AR,Platanus × acerifolia,True,C\ Doctor Carulla,6.4,4.98,ok,,large
+0194393AR,Platanus × acerifolia,True,C\ Doctor Roux,5.94,4.28,ok,,medium
+0194394AR,Platanus × acerifolia,True,C\ Pau Alcover,5.73,4.98,ok,,medium
+0194395AR,Platanus × acerifolia,True,C\ Pau Alcover,7.89,4.61,ok,,large
+0194396AR,Melia azedarach,False,Pl Àngel Rodríguez,,16.27,no_kerb,,check
+0194397AR,Jacaranda mimosifolia,False,C\ Milanesat,,6.87,median,2.83,check
+0194398AR,Platanus × acerifolia,True,C\ Vergós,7.36,6.05,ok,,large
+0194399AR,Celtis australis,False,Via Augusta,6.41,5.48,ok,,large
+0194400AR,Jacaranda mimosifolia,False,C\ Gironella,,5.18,median,2.72,check
+0194401AR,Koelreuteria paniculata 'Fastigiata',False,C\ Doctor Carulla,6.28,5.89,ok,,large
+0194402AR,Platanus × acerifolia,True,Pg Bonanova,,8.12,median,4.18,check
+0194403AR,Platanus × acerifolia,True,C\ Nena Casas,4.49,3.58,ok,,medium
+0194404AR,Quercus robur 'Fastigiata',False,C\ Calatrava,6.74,5.46,ok,,large
+0194405AR,Platanus × acerifolia,True,C\ Pau Alcover,6.85,6.41,ok,,large
+0194406AR,Acer negundo,False,C\ Rosari,10.26,9.16,ok,,large
+0194407AR,Platanus × acerifolia,True,Pg Bonanova,7.15,5.83,ok,,large
+0194409AR,Platanus × acerifolia,True,C\ Calatrava,2.4,1.24,ok,,none
+0194410AR,Celtis australis,False,C\ Doctor Fleming,22.99,21.82,ok,,large
+0194411AR,Tipuana tipu,False,C\ Doctor Fleming,23.04,5.53,ok,,large
+0194412AR,Platanus × acerifolia,True,C\ Pau Alcover,6.54,5.2,ok,,large
+0194413AR,Styphnolobium japonicum,False,C\ Ricardo Villa,11.93,8.72,ok,,large
+0194414AR,Melia azedarach,False,Pl Àngel Rodríguez,,10.11,no_kerb,,check
+0194415AR,Acer negundo,False,C\ Àngel Guimerà,4.62,3.57,ok,,medium
+0194416AR,Melia azedarach,False,Pl Àngel Rodríguez,,8.6,no_kerb,,check
+0194417AR,Tipuana tipu,False,C\ Bori i Fontestà,7.85,7.22,ok,,large
+0194418AR,Platanus × acerifolia,True,C\ Escoles Pies,6.52,6.58,ok,,large
+0194419AR,Platanus × acerifolia,True,C\ Doctor Carulla,13.87,13.02,ok,,large
+0194420AR,Platanus × acerifolia,True,Pg Bonanova,8.21,6.78,ok,,large
+0194421AR,Pinus halepensis,False,Via Augusta,9.79,7.79,ok,,large
+0194422AR,Platanus × acerifolia,True,C\ Can Ràbia,9.04,8.2,ok,,large
+0194423AR,Ligustrum lucidum,False,C\ Castellnou,6.27,5.3,ok,,large
+0194424AR,Melia azedarach,False,Pl Àngel Rodríguez,,15.13,no_kerb,,check
+0194425AR,Platanus × acerifolia,True,C\ Doctor Roux,7.64,6.74,ok,,large
+0194426AR,Jacaranda mimosifolia,False,C\ Milanesat,2.51,1.4,ok,,small
+0194427AR,Platanus × acerifolia,True,C\ Doctor Roux,6.91,6.24,ok,,large
+0194428AR,Platanus × acerifolia,True,C\ Tres Torres,4.95,4.12,ok,,medium
+0194429AR,Tipuana tipu,False,Pl Joaquim Pena,14.43,13.87,ok,,large
+0194430AR,Platanus × acerifolia,True,C\ Doctor Carulla,5.2,3.56,ok,,medium
+0194431AR,Platanus × acerifolia,True,Via Augusta,,15.74,no_kerb,33.09,check
+0194432AR,Styphnolobium japonicum,False,C\ Escoles Pies,2.39,1.84,ok,,none
+0194433AR,Pyrus calleryana 'Chanticleer',False,C\ Escoles Pies,6.51,5.22,ok,,large
+0194434AR,Platanus × acerifolia,True,C\ Pau Alcover,5.68,3.89,ok,,medium
+0194435AR,Styphnolobium japonicum,False,C\ Can Ràbia,15.55,15.0,ok,,large
+0194436AR,Celtis australis,False,C\ Doctor Fleming,,26.02,median,31.78,check
+0194438AR,Magnolia grandiflora,False,C\ Ganduxer,5.86,4.85,ok,,medium
+0194439AR,Koelreuteria paniculata,False,C\ Ganduxer,5.49,4.37,ok,,medium
+0194440AR,Tipuana tipu,False,C\ Doctor Fleming,23.1,5.24,ok,,large
+0194441AR,Platanus × acerifolia,True,C\ Can Ràbia,25.35,24.06,ok,,large
+0194442AR,Brachychiton populneus,False,C\ Nena Casas,5.67,5.31,ok,,medium
+0194443AR,Styphnolobium japonicum,False,C\ Alt de Gironella,1.87,1.39,ok,,none
+0194444AR,Tipuana tipu,False,Pl Joaquim Pena,12.72,11.98,ok,,large
+0194445AR,Tipuana tipu,False,C\ Doctor Fleming,23.8,5.65,ok,,large
+0194446AR,Platanus × acerifolia,True,Pl Eguilaz,,11.83,median,1.5,check
+0194447AR,Styphnolobium japonicum,False,C\ Ricardo Villa,18.49,10.92,ok,,large
+0194448AR,Platanus × acerifolia,True,Via Augusta,10.48,2.48,ok,,large
+0194449AR,Celtis australis,False,Rda General Mitre,12.07,11.86,ok,,large
+0194451AR,Styphnolobium japonicum,False,C\ Calatrava,5.13,5.09,ok,,medium
+0194452AR,Magnolia grandiflora,False,C\ Emancipació,5.75,4.37,ok,,medium
+0194453AR,Platanus × acerifolia,True,C\ Can Ràbia,,12.33,median,,check
+0194454AR,Melia azedarach,False,Pl Àngel Rodríguez,25.5,16.26,ok,,large
+0194455AR,Platanus × acerifolia,True,C\ Vergós,6.0,5.42,ok,,medium
+0194456AR,Melia azedarach,False,Rda General Mitre,26.71,11.96,ok,,large
+0194458AR,Ulmus pumila,False,C\ Emancipació,7.81,6.53,ok,,large
+0194459AR,Cercis siliquastrum,False,C\ Ricardo Villa,,21.44,median,,check
+0194460AR,Brachychiton populneus,False,C\ Rosari,10.33,9.08,ok,,large
+0194461AR,Platanus × acerifolia,True,C\ Alt de Gironella,7.67,6.86,ok,,large
+0194462AR,Platanus × acerifolia,True,Pg Bonanova,7.21,5.9,ok,,large
+0194463AR,Styphnolobium japonicum,False,C\ Milanesat,5.81,4.91,ok,,medium
+0194464AR,Styphnolobium japonicum,False,C\ Rosales,16.59,15.75,ok,,large
+0194465AR,Quercus robur 'Fastigiata',False,C\ Calatrava,4.85,3.56,ok,,medium
+0194466AR,Celtis australis,False,C\ Doctor Fleming,24.36,15.14,ok,,large
+0194467AR,Styphnolobium japonicum,False,C\ Ganduxer,9.12,7.46,ok,,large
+0194468AR,Quercus robur 'Fastigiata',False,C\ Calatrava,4.37,4.23,ok,,medium
+0194469AR,Styphnolobium japonicum,False,C\ Ganduxer,6.6,5.83,ok,,large
+0194470AR,Styphnolobium japonicum,False,Ptge Ricard Zamora,7.4,6.96,ok,,large
+0194472AR,Celtis australis,False,C\ Doctor Fleming,23.1,13.73,ok,,large
+0194473AR,Magnolia grandiflora,False,C\ Rosari,3.06,2.15,ok,,small
+0194474AR,Celtis australis,False,C\ Doctor Fleming,23.2,14.01,ok,,large
+0194475AR,Magnolia grandiflora,False,C\ Doctor Roux,5.91,5.98,ok,,medium
+0194476AR,Platanus × acerifolia,True,C\ Pau Alcover,6.87,3.82,ok,,large
+0194477AR,Platanus × acerifolia,True,C\ Àngel Guimerà,2.01,1.22,ok,,none
+0194478AR,Tipuana tipu,False,C\ Bori i Fontestà,6.5,5.96,ok,,large
+0194479AR,Styphnolobium japonicum,False,C\ Rosales,7.3,6.15,ok,,large
+0194480AR,Celtis australis,False,C\ Doctor Fleming,23.32,22.01,ok,,large
+0194481AR,Platanus × acerifolia,True,C\ Doctor Carulla,6.16,5.49,ok,,large
+0194482AR,Platanus × acerifolia,True,C\ Pau Alcover,7.54,7.69,ok,,large
+0194483AR,Platanus × acerifolia,True,C\ Pau Alcover,7.24,6.9,ok,,large
+0194484AR,Platanus × acerifolia,True,Pg Sant Joan Bosco,3.56,3.66,ok,,medium
+0194485AR,Magnolia grandiflora,False,C\ Alt de Gironella,7.13,4.08,ok,,large
+0194486AR,Platanus × acerifolia,True,C\ Doctor Roux,5.11,4.64,ok,,medium
+0194487AR,Platanus × acerifolia,True,Pg Bonanova,,6.08,median,4.22,check
+0194488AR,Platanus × acerifolia,True,C\ Pau Alcover,9.38,8.81,ok,,large
+0194489AR,Platanus × acerifolia,True,Pg Bonanova,6.91,5.81,ok,,large
+0194490AR,Jacaranda mimosifolia,False,C\ Vergós,,25.04,median,,check
+0194491AR,Platanus × acerifolia,True,Pg Bonanova,7.69,6.79,ok,,large
+0194492AR,Styphnolobium japonicum,False,C\ Ganduxer,6.4,5.11,ok,,large
+0194493AR,Brachychiton populneus,False,C\ Nena Casas,6.57,5.12,ok,,large
+0194494AR,Gleditsia triacanthos 'sunburst',False,Rda General Mitre,7.69,5.04,ok,,large
+0194495AR,Melia azedarach,False,Pl Àngel Rodríguez,,29.16,no_kerb,,check
+0194496AR,Platanus × acerifolia,True,Pg Bonanova,4.78,3.87,ok,,medium
+0194497AR,Platanus × acerifolia,True,C\ Doctor Roux,,2.99,median,3.18,check
+0194498AR,Celtis australis,False,Via Augusta,7.44,6.26,ok,,large
+0194499AR,Platanus × acerifolia,True,Pg Bonanova,8.05,6.76,ok,,large
+0194500AR,Platanus × acerifolia,True,C\ Pau Alcover,10.59,9.33,ok,,large
+0194502AR,Magnolia grandiflora,False,Rda General Mitre,9.64,2.48,ok,,large
+0194503AR,Melia azedarach,False,Pl Àngel Rodríguez,29.64,20.74,ok,,large
+0194504AR,Prunus cerasifera 'Pissardii',False,C\ Nena Casas,,7.78,median,15.92,check
+0194505AR,Platanus × acerifolia,True,C\ Escoles Pies,7.38,6.3,ok,,large
+0194506AR,Platanus × acerifolia,True,C\ Calatrava,8.36,6.84,ok,,large
+0194507AR,Platanus × acerifolia,True,C\ Rosari,3.14,2.37,ok,,small
+0194509AR,Quercus robur 'Fastigiata',False,C\ Calatrava,5.42,5.74,ok,,medium
+0194510AR,Platanus × acerifolia,True,Pg Bonanova,,6.15,median,4.31,check
+0194511AR,Platanus × acerifolia,True,C\ Pau Alcover,,7.56,median,3.5,check
+0194512AR,Platanus × acerifolia,True,C\ Doctor Roux,5.4,4.88,ok,,medium
+0194513AR,Tipuana tipu,False,C\ Nena Casas,,10.13,median,16.01,check
+0194514AR,Platanus × acerifolia,True,Via Augusta,9.73,3.11,ok,,large
+0194515AR,Platanus × acerifolia,True,C\ Can Ràbia,16.69,16.21,ok,,large
+0194516AR,Magnolia grandiflora,False,C\ Rafael Batlle,,14.24,median,,check
+0194517AR,Celtis australis,False,C\ Doctor Fleming,23.04,20.84,ok,,large
+0194518AR,Platanus × acerifolia,True,C\ Pau Alcover,5.45,4.18,ok,,medium
+0194519AR,Platanus × acerifolia,True,Pg Sant Joan Bosco,4.28,4.47,ok,,medium
+0194520AR,Platanus × acerifolia,True,C\ Can Ràbia,,9.93,median,,check
+0194521AR,Magnolia grandiflora,False,C\ Tres Torres,6.54,5.63,ok,,large
+0194522AR,Tipuana tipu,False,Rda General Mitre,10.65,4.94,ok,,large
+0194524AR,Celtis australis,False,Rda General Mitre,19.25,17.61,ok,,large
+0194525AR,Tipuana tipu,False,Rda General Mitre,8.87,8.14,ok,,large
+0194526AR,Styphnolobium japonicum,False,C\ Ricardo Villa,9.48,8.68,ok,,large
+0194528AR,Platanus × acerifolia,True,C\ Pau Alcover,5.56,4.12,ok,,medium
+0194529AR,Brachychiton populneus,False,C\ Nena Casas,7.46,6.55,ok,,large
+0194530AR,Brachychiton acerifolius,False,C\ Nena Casas,9.05,7.92,ok,,large
+0194531AR,Celtis australis,False,C\ Doctor Fleming,22.73,13.59,ok,,large
+0194532AR,Melia azedarach,False,Rda General Mitre,,25.13,no_kerb,,check
+0194533AR,Celtis australis,False,Rda General Mitre,10.93,10.62,ok,,large
+0194534AR,Magnolia grandiflora,False,C\ Rafael Batlle,,16.21,median,,check
+0194535AR,Tipuana tipu,False,C\ Doctor Fleming,,8.2,no_kerb,,check
+0194536AR,Platanus × acerifolia,True,C\ Vergós,,11.37,median,,check
+0194537AR,Celtis australis,False,C\ Doctor Fleming,23.1,13.81,ok,,large
+0194538AR,Tipuana tipu,False,C\ Bori i Fontestà,7.86,6.97,ok,,large
+0194539AR,Platanus × acerifolia,True,C\ Doctor Carulla,,15.49,median,,check
+0194540AR,Magnolia grandiflora,False,C\ Àngel Guimerà,8.41,7.53,ok,,large
+0194541AR,Phytolacca dioica,False,Pl Martí Llauradó,,4.29,no_kerb,40.78,check
+0194542AR,Prunus cerasifera 'Pissardii',False,C\ Nena Casas,18.69,7.04,ok,,large
+0194543AR,Jacaranda mimosifolia,False,C\ Milanesat,5.41,4.7,ok,,medium
+0194544AR,Styphnolobium japonicum,False,C\ Ricardo Villa,11.95,10.54,ok,,large
+0194545AR,Tipuana tipu,False,Pl Eguilaz,24.95,16.14,ok,,large
+0194546AR,Celtis australis,False,C\ Doctor Fleming,22.93,14.74,ok,,large
+0194547AR,Tipuana tipu,False,Pl Joaquim Pena,7.35,6.81,ok,,large
+0194548AR,Tipuana tipu,False,C\ Doctor Fleming,29.75,8.0,ok,,large
+0194549AR,Celtis australis,False,C\ Doctor Fleming,23.09,14.44,ok,,large
+0194550AR,Platanus × acerifolia,True,C\ Vergós,3.82,2.72,ok,,medium
+0194551AR,Styphnolobium japonicum,False,C\ Doctor Carulla,7.95,6.47,ok,,large
+0194553AR,Celtis australis,False,C\ Doctor Fleming,22.88,14.68,ok,,large
+0194554AR,Ginkgo biloba 'Fastigiata',False,C\ Rosales,17.5,16.7,ok,,large
+0194555AR,Celtis australis,False,C\ Doctor Fleming,,32.28,no_facade,31.78,check
+0194556AR,Platanus × acerifolia,True,C\ Escoles Pies,5.38,4.23,ok,,medium
+0194557AR,Styphnolobium japonicum,False,C\ Pau Alcover,8.13,7.44,ok,,large
+0194558AR,Platanus × acerifolia,True,C\ Doctor Carulla,6.45,5.19,ok,,large
+0194559AR,Celtis australis,False,Via Augusta,17.14,16.36,ok,,large
+0194560AR,Styphnolobium japonicum,False,C\ Ricardo Villa,9.45,9.06,ok,,large
+0194561AR,Brachychiton populneus,False,Via Augusta,20.83,12.85,ok,,large
+0194562AR,Celtis australis,False,C\ Doctor Fleming,23.1,21.19,ok,,large
+0194563AR,Melia azedarach,False,Pl Àngel Rodríguez,,22.09,no_kerb,,check
+0194565AR,Brachychiton populneus,False,C\ Gironella,6.11,1.55,ok,,large
+0194566AR,Populus nigra 'Italica',False,Rda General Mitre,,5.65,median,3.23,check
+0194567AR,Styphnolobium japonicum,False,C\ Rosari,7.48,6.53,ok,,large
+0194568AR,Tipuana tipu,False,Rda General Mitre,12.07,7.16,ok,,large
+0194569AR,Platanus × acerifolia,True,C\ Can Ràbia,8.19,5.77,ok,,large
+0194570AR,Celtis australis,False,C\ Castellnou,24.19,4.9,ok,,large
+0194571AR,Styphnolobium japonicum,False,Via Augusta,8.97,7.86,ok,,large
+0194572AR,Platanus × acerifolia,True,Pg Bonanova,8.26,7.15,ok,,large
+0194573AR,Jacaranda mimosifolia,False,C\ Gironella,,5.39,median,2.73,check
+0194574AR,Magnolia grandiflora,False,Rda General Mitre,26.96,12.96,ok,,large
+0194575AR,Tipuana tipu,False,C\ Nena Casas,,13.57,median,15.92,check
+0194576AR,Platanus × acerifolia,True,Pg Sant Joan Bosco,3.44,3.25,ok,,small
+0194578AR,Platanus × acerifolia,True,C\ Doctor Carulla,12.4,10.71,ok,,large
+0194579AR,Celtis australis,False,Rda General Mitre,12.7,12.15,ok,,large
+0194580AR,Styphnolobium japonicum,False,C\ Ricardo Villa,13.1,11.78,ok,,large
+0194581AR,Platanus × acerifolia,True,C\ Doctor Roux,8.17,6.03,ok,,large
+0194582AR,Celtis australis,False,Via Augusta,14.37,14.01,ok,,large
+0194583AR,Platanus × acerifolia,True,C\ Doctor Roux,7.45,5.5,ok,,large
+0194584AR,Platanus × acerifolia,True,C\ Doctor Carulla,5.95,4.72,ok,,medium
+0194585AR,Platanus × acerifolia,True,C\ Doctor Carulla,7.58,6.67,ok,,large
+0194586AR,Platanus × acerifolia,True,C\ Can Ràbia,11.93,10.98,ok,,large
+0194587AR,Magnolia grandiflora,False,C\ Ganduxer,,17.81,median,,check
+0194588AR,Platanus × acerifolia,True,C\ Calatrava,5.4,4.84,ok,,medium
+0194589AR,Platanus × acerifolia,True,C\ Doctor Carulla,5.62,4.74,ok,,medium
+0194590AR,Platanus × acerifolia,True,C\ Can Ràbia,,31.11,no_facade,,check
+0194591AR,Platanus × acerifolia,True,C\ Can Ràbia,11.24,10.3,ok,,large
+0194594AR,Melia azedarach,False,Pl Àngel Rodríguez,,6.78,no_kerb,,check
+0194595AR,Melia azedarach,False,Pl Àngel Rodríguez,18.68,3.54,ok,,large
+0194596AR,Tipuana tipu,False,C\ Nena Casas,,14.15,median,,check
+0194597AR,Platanus × acerifolia,True,C\ Pau Alcover,6.53,5.92,ok,,large
+0194598AR,Brachychiton populneus,False,C\ Rosari,6.34,5.7,ok,,large
+0194603AR,Celtis australis,False,Via Augusta,9.54,8.27,ok,,large
+0194604AR,Celtis australis,False,C\ Doctor Fleming,23.1,13.88,ok,,large
+0194605AR,Magnolia grandiflora,False,C\ Rosari,6.6,6.12,ok,,large
+0194606AR,Magnolia grandiflora 'Goliath',False,C\ Vergós,3.2,2.12,ok,,small
+0194607AR,Platanus × acerifolia,True,Via Augusta,9.05,6.96,ok,,large
+0194608AR,Melia azedarach,False,Rda General Mitre,23.9,6.23,ok,,large
+0194610AR,Platanus × acerifolia,True,C\ Doctor Roux,,13.17,median,,check
+0194611AR,Platanus × acerifolia,True,C\ Doctor Carulla,7.47,6.46,ok,,large
+0194612AR,Robinia pseudoacacia,False,C\ Rosari,3.09,2.15,ok,,small
+0194613AR,Platanus × acerifolia,True,C\ Doctor Carulla,7.5,6.77,ok,,large
+0194614AR,Melia azedarach,False,Pl Àngel Rodríguez,,21.31,no_kerb,,check
+0194615AR,Firmiana simplex,False,C\ Emancipació,6.99,7.13,ok,,large
+0194616AR,Styphnolobium japonicum,False,C\ Ricardo Villa,12.37,11.46,ok,,large
+0194618AR,Platanus × acerifolia,True,C\ Pau Alcover,,6.01,median,,check
+0194619AR,Platanus × acerifolia,True,Pg Sant Joan Bosco,6.29,6.36,ok,,large
+0194620AR,Styphnolobium japonicum,False,C\ Milanesat,6.34,4.95,ok,,large
+0194621AR,Pinus pinea,False,C\ Doctor Carulla,6.34,6.22,ok,,large
+0194622AR,Tipuana tipu,False,C\ Doctor Fleming,23.08,5.89,ok,,large
+0194623AR,Celtis australis,False,C\ Doctor Fleming,23.09,13.66,ok,,large
+0194624AR,Celtis australis,False,Rda General Mitre,16.59,15.85,ok,,large
+0194625AR,Platanus × acerifolia,True,C\ Doctor Roux,,3.63,median,3.02,check
+0194626AR,Brachychiton populneus,False,C\ Nena Casas,3.1,2.67,ok,,small
+0194627AR,Celtis australis,False,C\ Doctor Fleming,23.03,14.02,ok,,large
+0194628AR,Ulmus pumila,False,C\ Vergós,,26.64,median,,check
+0194629AR,Platanus × acerifolia,True,Pg Bonanova,8.25,7.04,ok,,large
+0194630AR,Tipuana tipu,False,Rda General Mitre,11.96,5.58,ok,,large
+0194631AR,Tipuana tipu,False,C\ Santa Fe de Nou Mèxic,4.92,4.12,ok,,medium
+0194632AR,Celtis australis,False,C\ Doctor Fleming,23.07,14.11,ok,,large
+0194633AR,Cupressus sempervirens,False,C\ Calatrava,2.51,1.32,ok,,small
+0194634AR,Styphnolobium japonicum,False,C\ Can Ràbia,3.6,2.53,ok,,medium
+0194635AR,Platanus × acerifolia,True,C\ Escoles Pies,5.84,4.72,ok,,medium
+0194636AR,Platanus × acerifolia,True,Pg Sant Joan Bosco,11.16,10.47,ok,,large
+0194637AR,Brachychiton populneus,False,C\ Rosari,11.13,10.27,ok,,large
+0194638AR,Tipuana tipu,False,Pl Joaquim Pena,7.29,6.2,ok,,large
+0194639AR,Melia azedarach,False,Rda General Mitre,,17.22,median,,check
+0194640AR,Platanus × acerifolia,True,Pg Sant Joan Bosco,15.05,15.57,ok,,large
+0194641AR,Platanus × acerifolia,True,C\ Doctor Carulla,6.42,5.22,ok,,large
+0194642AR,Tipuana tipu,False,C\ Nena Casas,16.29,10.26,ok,,large
+0194643AR,Platanus × acerifolia,True,C\ Escoles Pies,6.49,5.3,ok,,large
+0194645AR,Styphnolobium japonicum,False,Ptge Ricard Zamora,4.95,4.43,ok,,medium
+0194646AR,Platanus × acerifolia,True,C\ Doctor Carulla,,15.01,median,,check
+0194647AR,Platanus × acerifolia,True,Rda General Mitre,9.79,4.77,ok,,large
+0194648AR,Celtis australis,False,Rda General Mitre,12.13,11.97,ok,,large
+0194649AR,Platanus × acerifolia,True,C\ Pau Alcover,,15.66,median,17.86,check
+0194650AR,Melia azedarach,False,Rda General Mitre,25.1,11.96,ok,,large
+0194651AR,Platanus × acerifolia,True,C\ Alt de Gironella,8.42,7.73,ok,,large
+0194652AR,Platanus × acerifolia,True,Pg Bonanova,7.31,5.65,ok,,large
+0194654AR,Platanus × acerifolia,True,C\ Vergós,6.82,6.12,ok,,large
+0194655AR,Tipuana tipu,False,C\ Doctor Fleming,23.04,6.37,ok,,large
+0194656AR,Platanus × acerifolia,True,C\ Doctor Roux,6.61,5.84,ok,,large
+0194658AR,Platanus × acerifolia,True,Pg Bonanova,,6.36,median,4.29,check
+0194659AR,Platanus × acerifolia,True,C\ Alt de Gironella,5.24,4.33,ok,,medium
+0194660AR,Magnolia grandiflora,False,C\ Castellnou,2.84,2.21,ok,,small
+0194661AR,Magnolia grandiflora,False,Rda General Mitre,17.83,5.15,ok,,large
+0194662AR,Platanus × acerifolia,True,C\ Calatrava,4.26,2.98,ok,,medium
+0194663AR,Platanus × acerifolia,True,C\ Can Ràbia,4.97,3.19,ok,,medium
+0194664AR,Celtis australis,False,Av Sarrià,,30.52,no_facade,,check
+0194666AR,Platanus × acerifolia,True,Via Augusta,13.61,6.72,ok,,large
+0194667AR,Koelreuteria paniculata 'Fastigiata',False,C\ Doctor Carulla,7.31,6.18,ok,,large
+0194668AR,Styphnolobium japonicum,False,C\ Ganduxer,18.4,11.5,ok,,large
+0194669AR,Platanus × acerifolia,True,C\ Doctor Roux,5.87,4.38,ok,,medium
+0194670AR,Cupressus sempervirens,False,C\ Calatrava,5.06,5.15,ok,,medium
+0194671AR,Platanus × acerifolia,True,C\ Pau Alcover,7.78,7.8,ok,,large
+0194672AR,Magnolia grandiflora,False,C\ Doctor Roux,9.51,8.96,ok,,large
+0194674AR,Platanus × acerifolia,True,Pg Sant Joan Bosco,3.68,3.13,ok,,medium
+0194675AR,Celtis australis,False,Av Sarrià,,30.35,no_facade,,check
+0194677AR,Pyrus calleryana 'Chanticleer',False,C\ Escoles Pies,2.5,1.42,ok,,small
+0194678AR,Magnolia grandiflora,False,C\ Calatrava,,10.03,median,,check
+0194679AR,Acer negundo,False,C\ Calatrava,6.75,5.44,ok,,large
+0194680AR,Platanus × acerifolia,True,Pg Sant Joan Bosco,3.51,3.64,ok,,medium
+0194681AR,Celtis australis,False,C\ Doctor Fleming,23.04,14.5,ok,,large
+0194682AR,Platanus × acerifolia,True,C\ Vergós,10.53,8.88,ok,,large
+0194683AR,Platanus × acerifolia,True,C\ Doctor Roux,3.03,1.98,ok,,small
+0194684AR,Platanus × acerifolia,True,C\ Can Ràbia,9.1,8.02,ok,,large
+0194685AR,Melia azedarach,False,Pl Àngel Rodríguez,,27.29,no_kerb,,check
+0194686AR,Cupressus sempervirens,False,C\ Calatrava,6.01,5.1,ok,,large
+0194687AR,Platanus × acerifolia,True,Pg Sant Joan Bosco,3.51,3.65,ok,,medium
+0194688AR,Magnolia grandiflora,False,C\ Àngel Guimerà,3.99,3.98,ok,,medium
+0194689AR,Styphnolobium japonicum,False,C\ Ricardo Villa,9.46,8.9,ok,,large
+0194690AR,Melia azedarach,False,Rda General Mitre,26.76,5.76,ok,,large
+0194692AR,Brachychiton populneus,False,C\ Nena Casas,6.62,5.49,ok,,large
+0194693AR,Platanus × acerifolia,True,C\ Doctor Carulla,8.33,6.43,ok,,large
+0194695AR,Platanus × acerifolia,True,C\ Nena Casas,6.35,5.07,ok,,large
+0194696AR,Platanus × acerifolia,True,C\ Doctor Roux,5.15,4.11,ok,,medium
+0194697AR,Tipuana tipu,False,Pl Eguilaz,19.97,14.97,ok,,large
+0194698AR,Platanus × acerifolia,True,C\ Can Ràbia,9.39,7.4,ok,,large
+0194699AR,Magnolia grandiflora,False,C\ Rafael Batlle,,13.56,median,,check
+0194700AR,Platanus × acerifolia,True,C\ Nena Casas,6.94,5.98,ok,,large
+0194701AR,Styphnolobium japonicum,False,C\ Ganduxer,6.19,5.14,ok,,large
+0194702AR,Magnolia grandiflora,False,C\ Milanesat,7.6,5.92,ok,,large
+0194703AR,Ligustrum lucidum,False,C\ Castellnou,3.27,2.4,ok,,small
+0194704AR,Celtis australis,False,Via Augusta,15.67,11.62,ok,,large
+0194706AR,Koelreuteria paniculata,False,C\ Ganduxer,5.77,5.08,ok,,medium
+0194709AR,Platanus × acerifolia,True,Pg Bonanova,9.09,7.14,ok,,large
+0194710AR,Platanus × acerifolia,True,C\ Can Ràbia,3.6,2.54,ok,,medium
+0194711AR,Styphnolobium japonicum,False,C\ Doctor Roux,8.51,7.37,ok,,large
+0194712AR,Styphnolobium japonicum,False,C\ Ricardo Villa,12.46,11.19,ok,,large
+0194714AR,Brachychiton populneus,False,Via Augusta,19.99,8.49,ok,,large
+0194715AR,Styphnolobium japonicum,False,C\ Ganduxer,5.54,4.25,ok,,medium
+0194716AR,Populus alba 'Pyramidalis',False,Rda General Mitre,19.44,17.78,ok,,large
+0194717AR,Ulmus pumila,False,C\ Vergós,,11.88,median,,check
+0194718AR,Cupressus sempervirens,False,C\ Calatrava,5.61,4.83,ok,,medium
+0194719AR,Platanus × acerifolia,True,C\ Vergós,,15.28,median,,check
+0194720AR,Styphnolobium japonicum,False,C\ Milanesat,3.06,2.56,ok,,small
+0194721AR,Magnolia grandiflora,False,C\ Àngel Guimerà,4.28,3.38,ok,,medium
+0194722AR,Platanus × acerifolia,True,C\ Pau Alcover,5.86,4.84,ok,,medium
+0194723AR,Celtis australis,False,C\ Doctor Fleming,,31.69,no_facade,,check
+0194724AR,Platanus × acerifolia,True,C\ Can Ràbia,,10.15,median,,check
+0194725AR,Styphnolobium japonicum,False,C\ Ricardo Villa,23.63,15.95,ok,,large
+0194726AR,Platanus × acerifolia,True,Pg Bonanova,,6.56,median,4.37,check
+0194727AR,Platanus × acerifolia,True,C\ Calatrava,11.29,4.72,ok,,large
+0194728AR,Tipuana tipu,False,Pl Martí Llauradó,27.33,14.9,ok,,large
+0194729AR,Celtis australis,False,Via Augusta,8.47,8.08,ok,,large
+0194730AR,Styphnolobium japonicum,False,C\ Ganduxer,3.05,1.85,ok,,small
+0194731AR,Celtis australis,False,C\ Doctor Fleming,23.53,22.32,ok,,large
+0194732AR,Styphnolobium japonicum,False,C\ Milanesat,4.98,3.64,ok,,medium
+0194733AR,Ligustrum lucidum,False,C\ Castellnou,5.78,4.65,ok,,medium
+0194734AR,Platanus × acerifolia,True,C\ Emancipació,7.11,5.99,ok,,large
+0194735AR,Brachychiton populneus,False,C\ Rosari,6.6,5.77,ok,,large
+0194736AR,Styphnolobium japonicum,False,C\ Calatrava,4.78,3.62,ok,,medium
+0194737AR,Platanus × acerifolia,True,C\ Escoles Pies,6.24,5.48,ok,,large
+0194738AR,Platanus × acerifolia,True,Pg Sant Joan Bosco,3.59,3.34,ok,,medium
+0194739AR,Casuarina cunninghamiana,False,Rda General Mitre,22.39,17.48,ok,,large
+0194740AR,Celtis australis,False,Rda General Mitre,18.74,17.91,ok,,large
+0194741AR,Platanus × acerifolia,True,C\ Vergós,6.49,5.39,ok,,large
+0194742AR,Ginkgo biloba 'Fastigiata',False,C\ Rosales,10.04,9.41,ok,,large
+0194743AR,Quercus ilex,False,Via Augusta,,8.57,median,10.01,check
+0194744AR,Melia azedarach,False,Pl Àngel Rodríguez,,28.54,no_kerb,,check
+0194745AR,Brachychiton populneus,False,C\ Nena Casas,8.02,7.08,ok,,large
+0194746AR,Magnolia grandiflora 'Goliath',False,C\ Vergós,6.92,4.36,ok,,large
+0194747AR,Platanus × acerifolia,True,C\ Àngel Guimerà,4.02,3.76,ok,,medium
+0194748AR,Platanus × acerifolia,True,Pg Bonanova,8.7,7.38,ok,,large
+0194749AR,Platanus × acerifolia,True,C\ Can Ràbia,17.63,16.69,ok,,large
+0194750AR,Platanus × acerifolia,True,C\ Demestre,6.21,5.54,ok,,large
+0194751AR,Styphnolobium japonicum,False,C\ Doctor Carulla,,8.44,median,,check
+0194752AR,Tipuana tipu,False,C\ Doctor Fleming,23.0,6.53,ok,,large
+0194753AR,Platanus × acerifolia,True,Via Augusta,20.24,12.45,ok,,large
+0194754AR,Styphnolobium japonicum,False,C\ Vergós,3.3,2.46,ok,,small
+0194755AR,Styphnolobium japonicum,False,C\ Can Ràbia,17.06,16.25,ok,,large
+0194756AR,Brachychiton populneus,False,C\ José de Agulló,,12.1,median,20.67,check
+0194757AR,Platanus × acerifolia,True,C\ Doctor Carulla,5.58,5.72,ok,,medium
+0194758AR,Celtis australis,False,Rda General Mitre,17.8,14.53,ok,,large
+0194759AR,Platanus × acerifolia,True,C\ Tres Torres,5.32,4.21,ok,,medium
+0194760AR,Cupressus sempervirens,False,Via Augusta,20.63,9.67,ok,,large
+0194761AR,Cupressus sempervirens,False,C\ Milanesat,6.41,3.11,ok,,large
+0194762AR,Celtis australis,False,C\ Ricardo Villa,14.38,13.21,ok,,large
+0194764AR,Platanus × acerifolia,True,C\ Doctor Carulla,5.17,5.2,ok,,medium
+0194765AR,Tilia x euchlora,False,C\ Milanesat,6.09,5.86,ok,,large
+0194766AR,Brachychiton populneus,False,C\ Nena Casas,,13.04,median,,check
+0194768AR,Magnolia grandiflora,False,C\ Rafael Batlle,,13.49,median,,check
+0194769AR,Tipuana tipu,False,Rda General Mitre,11.78,7.45,ok,,large
+0194770AR,Brachychiton populneus,False,C\ Rosari,3.11,2.11,ok,,small
+0194771AR,Magnolia grandiflora,False,C\ Doctor Roux,7.91,7.79,ok,,large
+0194772AR,Firmiana simplex,False,C\ Emancipació,7.76,6.89,ok,,large
+0194773AR,Platanus × acerifolia,True,C\ Doctor Carulla,7.79,5.96,ok,,large
+0194774AR,Tipuana tipu,False,Rda General Mitre,12.93,8.53,ok,,large
+0194775AR,Gleditsia triacanthos f. inermis,False,Rda General Mitre,7.93,6.47,ok,,large
+0194777AR,Jacaranda mimosifolia,False,C\ Milanesat,2.49,1.46,ok,,none
+0194778AR,Styphnolobium japonicum,False,C\ Rosales,7.74,6.51,ok,,large
+0194779AR,Magnolia grandiflora,False,C\ Alt de Gironella,5.29,2.79,ok,,medium
+0194780AR,Celtis australis,False,Rda General Mitre,16.26,15.36,ok,,large
+0194781AR,Platanus × acerifolia,True,C\ Doctor Roux,,11.78,median,14.95,check
+0194782AR,Styphnolobium japonicum,False,Ptge Ricard Zamora,,8.33,no_kerb,,check
+0194783AR,Platanus × acerifolia,True,C\ Can Ràbia,23.99,22.89,ok,,large
+0194784AR,Platanus × acerifolia,True,C\ Can Ràbia,,12.29,median,2.95,check
+0194785AR,Platanus × acerifolia,True,C\ Doctor Roux,,6.06,median,2.98,check
+0194786AR,Styphnolobium japonicum,False,C\ Milanesat,2.96,1.56,ok,,small
+0194788AR,Tipuana tipu,False,Rda General Mitre,8.65,6.73,ok,,large
+0194789AR,Platanus × acerifolia,True,C\ Can Ràbia,11.35,10.37,ok,,large
+0194790AR,Brachychiton populneus,False,Via Augusta,22.27,21.72,ok,,large
+0194791AR,Celtis australis,False,Rda General Mitre,9.78,8.0,ok,,large
+0194792AR,Celtis australis,False,C\ Doctor Fleming,29.86,29.04,ok,,large
+0194793AR,Magnolia grandiflora,False,C\ Castellnou,2.87,1.9,ok,,small
+0194794AR,Tipuana tipu,False,C\ Doctor Fleming,23.03,5.59,ok,,large
+0194795AR,Magnolia grandiflora,False,C\ Escoles Pies,7.42,7.24,ok,,large
+0194796AR,Melia azedarach,False,Pl Àngel Rodríguez,,22.67,no_kerb,46.76,check
+0194797AR,Magnolia grandiflora,False,C\ Vergós,10.75,10.25,ok,,large
+0194798AR,Platanus × acerifolia,True,Pg Bonanova,6.78,5.22,ok,,large
+0194799AR,Brachychiton populneus,False,C\ Rosari,6.76,5.76,ok,,large
+0194800AR,Tipuana tipu,False,C\ Bori i Fontestà,7.04,6.17,ok,,large
+0194801AR,Ligustrum lucidum,False,C\ Tres Torres,4.57,3.53,ok,,medium
+0194802AR,Magnolia grandiflora,False,C\ Rafael Batlle,,13.38,median,,check
+0194803AR,Platanus × acerifolia,True,Via Augusta,20.04,18.01,ok,,large
+0194805AR,Magnolia grandiflora,False,C\ Calatrava,4.82,3.52,ok,,medium
+0194806AR,Platanus × acerifolia,True,C\ Vergós,11.72,8.29,ok,,large
+0194807AR,Brachychiton populneus,False,Via Augusta,20.07,9.29,ok,,large
+0194808AR,Platanus × acerifolia,True,Pg Sant Joan Bosco,3.67,3.85,ok,,medium
+0194809AR,Gleditsia triacanthos f. inermis,False,Rda General Mitre,8.63,7.81,ok,,large
+0194810AR,Brachychiton acerifolius,False,C\ Nena Casas,5.3,4.45,ok,,medium
+0194811AR,Styphnolobium japonicum,False,C\ Ricardo Villa,11.93,8.91,ok,,large
+0194813AR,Platanus × acerifolia,True,C\ Doctor Carulla,6.66,5.38,ok,,large
+0194814AR,Platanus × acerifolia,True,Pg Bonanova,7.54,6.52,ok,,large
+0194815AR,Melia azedarach,False,Pl Àngel Rodríguez,,24.78,no_kerb,47.06,check
+0194816AR,Styphnolobium japonicum,False,C\ Ricardo Villa,15.38,13.86,ok,,large
+0194817AR,Styphnolobium japonicum,False,C\ Can Ràbia,4.83,3.85,ok,,medium
+0194819AR,Styphnolobium japonicum,False,C\ Alt de Gironella,1.82,0.9,ok,,none
+0194820AR,Styphnolobium japonicum,False,C\ Ganduxer,7.22,6.08,ok,,large
+0194821AR,Brachychiton populneus,False,C\ Nena Casas,,10.68,median,,check
+0194822AR,Platanus × acerifolia,True,C\ Escoles Pies,4.07,4.01,ok,,medium
+0194823AR,Quercus ilex,False,Via Augusta,12.28,10.05,ok,,large
+0194824AR,Celtis australis,False,C\ Doctor Fleming,23.43,22.16,ok,,large
+0194825AR,Cupressus sempervirens,False,C\ Doctor Carulla,6.28,5.12,ok,,large
+0194826AR,Tipuana tipu,False,C\ Nena Casas,19.72,14.08,ok,,large
+0194827AR,Platanus × acerifolia,True,C\ Doctor Carulla,6.6,5.67,ok,,large
+0194828AR,Magnolia grandiflora,False,C\ Doctor Roux,5.83,5.63,ok,,medium
+0194829AR,Platanus × acerifolia,True,C\ Can Ràbia,11.59,9.51,ok,,large
+0194830AR,Platanus × acerifolia,True,C\ Pau Alcover,7.57,7.18,ok,,large
+0194831AR,Celtis australis,False,Rda General Mitre,,31.74,no_facade,6.27,check
+0194832AR,Magnolia grandiflora,False,Rda General Mitre,12.03,4.87,ok,,large
+0194833AR,Styphnolobium japonicum,False,C\ Ganduxer,3.04,2.09,ok,,small
+0194834AR,Platanus × acerifolia,True,C\ Doctor Roux,8.54,7.64,ok,,large
+0194835AR,Populus nigra 'Italica',False,Rda General Mitre,6.02,5.34,ok,,large
+0194836AR,Tipuana tipu,False,Pl Martí Llauradó,,14.64,no_kerb,,check
+0194837AR,Platanus × acerifolia,True,C\ Doctor Carulla,6.99,5.61,ok,,large
+0194838AR,Platanus × acerifolia,True,C\ Escoles Pies,6.49,5.37,ok,,large
+0194839AR,Styphnolobium japonicum,False,C\ Calatrava,2.45,1.88,ok,,none
+0194840AR,Magnolia grandiflora,False,C\ Doctor Roux,6.2,5.05,ok,,large
+0194841AR,Magnolia grandiflora,False,C\ Milanesat,5.57,4.2,ok,,medium
+0194842AR,Melia azedarach,False,Pl Àngel Rodríguez,,16.27,no_kerb,,check
+0194843AR,Platanus × acerifolia,True,Pg Bonanova,6.74,5.41,ok,,large
+0194844AR,Styphnolobium japonicum,False,C\ Doctor Roux,4.61,3.62,ok,,medium
+0194845AR,Platanus × acerifolia,True,C\ Doctor Roux,5.79,5.07,ok,,medium
+0194847AR,Platanus × acerifolia,True,C\ Escoles Pies,2.38,0.8,ok,,none
+0194848AR,Ligustrum lucidum,False,C\ Castellnou,4.52,4.38,ok,,medium
+0194850AR,Platanus × acerifolia,True,C\ Doctor Roux,8.69,7.43,ok,,large
+0194851AR,Styphnolobium japonicum,False,C\ Ricardo Villa,9.51,8.75,ok,,large
+0194852AR,Platanus × acerifolia,True,Pg Sant Joan Bosco,,19.62,median,10.76,check
+0194853AR,Platanus × acerifolia,True,C\ Pau Alcover,5.44,4.66,ok,,medium
+0194854AR,Celtis australis,False,Via Augusta,4.93,3.79,ok,,medium
+0194856AR,Brachychiton populneus,False,Via Augusta,,20.4,median,26.0,check
+0194858AR,Platanus × acerifolia,True,C\ Pau Alcover,,17.32,median,17.6,check
+0194859AR,Celtis australis,False,C\ Doctor Fleming,23.03,21.51,ok,,large
+0194860AR,Magnolia grandiflora,False,C\ Doctor Roux,11.29,11.06,ok,,large
+0194861AR,Gleditsia triacanthos f. inermis,False,Rda General Mitre,,25.6,median,,check
+0194862AR,Platanus × acerifolia,True,C\ Pau Alcover,6.79,5.84,ok,,large
+0194863AR,Gleditsia triacanthos f. inermis,False,Rda General Mitre,6.47,5.16,ok,,large
+0194864AR,Platanus × acerifolia,True,Via Augusta,20.72,18.09,ok,,large
+0194866AR,Brachychiton populneus,False,C\ Nena Casas,3.2,2.3,ok,,small
+0194867AR,Styphnolobium japonicum,False,C\ Milanesat,6.14,5.56,ok,,large
+0194869AR,Platanus × acerifolia,True,Via Augusta,16.91,7.53,ok,,large
+0194870AR,Styphnolobium japonicum,False,C\ Ricardo Villa,11.93,8.67,ok,,large
+0194871AR,Platanus × acerifolia,True,C\ Doctor Roux,7.29,7.33,ok,,large
+0194872AR,Celtis australis,False,C\ Doctor Fleming,23.05,21.42,ok,,large
+0194874AR,Platanus × acerifolia,True,C\ José de Agulló,2.88,2.29,ok,,small
+0194875AR,Koelreuteria paniculata,False,C\ Ganduxer,6.11,5.5,ok,,large
+0194876AR,Magnolia grandiflora,False,C\ Calatrava,8.24,7.94,ok,,large
+0194878AR,Platanus × acerifolia,True,C\ Calatrava,,4.96,median,2.41,check
+0194879AR,Quercus ilex,False,Via Augusta,9.87,7.6,ok,,large
+0194880AR,Platanus × acerifolia,True,Pg Bonanova,7.31,5.68,ok,,large
+0194881AR,Gleditsia triacanthos f. inermis,False,Rda General Mitre,,43.39,no_facade,,check
+0194882AR,Platanus × acerifolia,True,C\ Doctor Roux,5.01,4.24,ok,,medium
+0194883AR,Tipuana tipu,False,C\ Nena Casas,19.88,14.45,ok,,large
+0194884AR,Tipuana tipu,False,C\ Nena Casas,,13.7,median,,check
+0194886AR,Platanus × acerifolia,True,C\ Vergós,3.15,2.52,ok,,small
+0194887AR,Magnolia grandiflora,False,C\ Escoles Pies,8.17,7.87,ok,,large
+0194888AR,Celtis australis,False,Rda General Mitre,12.1,11.51,ok,,large
+0194889AR,Melia azedarach,False,Rda General Mitre,,30.72,no_facade,,check
+0194890AR,Styphnolobium japonicum,False,C\ Ganduxer,,16.8,median,,check
+0194891AR,Celtis australis,False,Av Sarrià,,31.76,no_facade,29.62,check
+0194892AR,Celtis australis,False,C\ Doctor Fleming,22.88,21.54,ok,,large
+0194893AR,Platanus × acerifolia,True,C\ Escoles Pies,6.7,3.67,ok,,large
+0194895AR,Magnolia grandiflora,False,Rda General Mitre,9.46,2.3,ok,,large
+0194896AR,Magnolia grandiflora,False,C\ Ganduxer,4.27,3.34,ok,,medium
+0194897AR,Koelreuteria paniculata 'Fastigiata',False,C\ Doctor Carulla,5.51,4.47,ok,,medium
+0194898AR,Brachychiton populneus,False,Rda General Mitre,18.64,9.89,ok,,large
+0194899AR,Casuarina cunninghamiana,False,Rda General Mitre,10.44,8.44,ok,,large
+0194900AR,Platanus × acerifolia,True,Pl Eguilaz,,12.0,median,1.5,check
+0194901AR,Celtis australis,False,C\ Castellnou,,3.97,no_kerb,,check
+0194902AR,Magnolia grandiflora,False,Pl Eguilaz,15.72,6.75,ok,,large
+0194903AR,Koelreuteria paniculata 'Fastigiata',False,C\ Doctor Carulla,,4.48,median,3.16,check
+0194904AR,Platanus × acerifolia,True,C\ Doctor Roux,6.04,4.92,ok,,large
+0194905AR,Celtis australis,False,Via Augusta,10.01,6.61,ok,,large
+0194906AR,Platanus × acerifolia,True,C\ Doctor Roux,7.58,6.03,ok,,large
+0194907AR,Celtis australis,False,Rda General Mitre,17.73,15.63,ok,,large
+0194908AR,Tipuana tipu,False,Pl Joaquim Pena,4.61,3.6,ok,,medium
+0194909AR,Platanus × acerifolia,True,C\ Calatrava,5.4,4.0,ok,,medium
+0194910AR,Platanus × acerifolia,True,C\ Rosari,12.33,10.8,ok,,large
+0194911AR,Platanus × acerifolia,True,C\ Pau Alcover,5.42,4.52,ok,,medium
+0194912AR,Platanus × acerifolia,True,C\ Can Ràbia,7.67,4.63,ok,,large
+0194913AR,Styphnolobium japonicum,False,Pl Àngel Rodríguez,,19.77,median,,check
+0194915AR,Platanus × acerifolia,True,C\ Pau Alcover,7.21,6.09,ok,,large
+0194916AR,Tipuana tipu,False,Pl Joaquim Pena,3.87,2.84,ok,,medium
+0194917AR,Platanus × acerifolia,True,C\ Castellnou,3.28,2.13,ok,,small
+0194918AR,Platanus × acerifolia,True,C\ Alt de Gironella,5.65,3.14,ok,,medium
+0194919AR,Platanus × acerifolia,True,Pg Sant Joan Bosco,,20.82,median,,check
+0194920AR,Styphnolobium japonicum,False,C\ Doctor Roux,,3.67,median,3.15,check
+0194921AR,Platanus × acerifolia,True,C\ Escoles Pies,,4.75,median,2.83,check
+0194922AR,Platanus × acerifolia,True,C\ Pau Alcover,8.74,8.09,ok,,large
+0194923AR,Styphnolobium japonicum,False,C\ Escoles Pies,2.78,1.89,ok,,small
+0194924AR,Magnolia grandiflora,False,C\ Rosales,,15.32,median,,check
+0194925AR,Magnolia grandiflora,False,C\ Calatrava,4.91,5.07,ok,,medium
+0194926AR,Platanus × acerifolia,True,Pg Bonanova,,9.33,median,4.23,check
+0194927AR,Celtis australis,False,Rda General Mitre,12.63,12.07,ok,,large
+0194928AR,Gleditsia triacanthos 'sunburst',False,Rda General Mitre,27.17,24.87,ok,,large
+0194929AR,Celtis australis,False,Rda General Mitre,,16.73,median,6.13,check
+0194930AR,Celtis australis,False,C\ Doctor Fleming,24.19,23.42,ok,,large
+0194931AR,Platanus × acerifolia,True,Pg Sant Joan Bosco,3.67,3.12,ok,,medium
+0194932AR,Platanus × acerifolia,True,Via Augusta,12.35,5.13,ok,,large
+0194933AR,Brachychiton populneus,False,C\ Rosari,10.32,7.12,ok,,large
+0194934AR,Tipuana tipu,False,C\ Bori i Fontestà,10.13,9.41,ok,,large
+0194935AR,Styphnolobium japonicum,False,C\ Rosari,4.82,3.79,ok,,medium
+0194936AR,Platanus × acerifolia,True,Pg Bonanova,,8.89,median,4.22,check
+0194937AR,Melia azedarach,False,Pl Àngel Rodríguez,,5.32,no_kerb,,check
+0194938AR,Brachychiton populneus,False,C\ Rosari,5.88,5.11,ok,,medium
+0194939AR,Ulmus pumila,False,C\ Vergós,,23.63,median,,check
+0194940AR,Platanus × acerifolia,True,C\ Pau Alcover,5.42,4.22,ok,,medium
+0194941AR,Tipuana tipu,False,Pl Martí Llauradó,22.99,11.68,ok,,large
+0194942AR,Styphnolobium japonicum,False,C\ Pau Alcover,9.13,7.81,ok,,large
+0194943AR,Brachychiton populneus,False,C\ Rosari,6.71,6.48,ok,,large
+0194944AR,Styphnolobium japonicum,False,C\ Doctor Roux,5.42,5.09,ok,,medium
+0194946AR,Platanus × acerifolia,True,Pg Bonanova,7.63,6.73,ok,,large
+0194947AR,Styphnolobium japonicum,False,C\ Rosari,6.17,4.09,ok,,large
+0194948AR,Prunus cerasifera 'Pissardii',False,Via Augusta,8.33,6.9,ok,,large
+0194949AR,Tipuana tipu,False,C\ Nena Casas,2.37,3.36,ok,,none
+0194951AR,Platanus × acerifolia,True,C\ Pau Alcover,5.99,4.7,ok,,medium
+0194952AR,Styphnolobium japonicum,False,C\ Milanesat,6.97,6.28,ok,,large
+0194953AR,Gleditsia triacanthos f. inermis,False,Rda General Mitre,,26.86,median,,check
+0194954AR,Platanus × acerifolia,True,Via Augusta,9.87,2.99,ok,,large
+0194956AR,Cupressus sempervirens,False,C\ Milanesat,5.9,3.48,ok,,medium
+0194957AR,Magnolia grandiflora,False,C\ Tres Torres,7.24,6.3,ok,,large
+0194958AR,Styphnolobium japonicum,False,C\ Ganduxer,5.49,4.25,ok,,medium
+0194959AR,Celtis australis,False,C\ Doctor Fleming,,33.82,no_facade,,check
+0194960AR,Celtis australis,False,C\ Doctor Fleming,23.06,14.19,ok,,large
+0194961AR,Platanus × acerifolia,True,C\ Vergós,6.37,5.13,ok,,large
+0194962AR,Brachychiton populneus,False,C\ Nena Casas,5.77,4.85,ok,,medium
+0194963AR,Platanus × acerifolia,True,C\ Pau Alcover,5.54,4.75,ok,,medium
+0194964AR,Platanus × acerifolia,True,C\ Doctor Roux,,11.77,median,14.95,check
+0194965AR,Platanus × acerifolia,True,C\ Doctor Roux,6.58,5.76,ok,,large
+0194967AR,Styphnolobium japonicum,False,Via Augusta,20.22,16.12,ok,,large
+0194968AR,Platanus × acerifolia,True,C\ Pau Alcover,3.87,2.93,ok,,medium
+0194969AR,Platanus × acerifolia,True,Via Augusta,8.75,5.71,ok,,large
+0194970AR,Prunus cerasifera 'Pissardii',False,C\ Nena Casas,22.15,8.4,ok,,large
+0194971AR,Magnolia grandiflora,False,C\ Doctor Roux,3.08,1.82,ok,,small
+0194972AR,Styphnolobium japonicum,False,C\ Ganduxer,8.23,6.72,ok,,large
+0194973AR,Styphnolobium japonicum,False,C\ Ricardo Villa,28.08,14.96,ok,,large
+0194975AR,Platanus × acerifolia,True,C\ Alt de Gironella,4.81,3.82,ok,,medium
+0194976AR,Celtis australis,False,C\ Doctor Fleming,,32.22,no_facade,23.19,check
+0194977AR,Tipuana tipu,False,Pl Joaquim Pena,13.12,12.21,ok,,large
+0194978AR,Styphnolobium japonicum 'Columnare',False,C\ Doctor Carulla,7.4,6.38,ok,,large
+0194979AR,Tipuana tipu,False,Rda General Mitre,10.69,6.77,ok,,large
+0194981AR,Gleditsia triacanthos 'sunburst',False,Rda General Mitre,,27.16,median,,check
+0194982AR,Gleditsia triacanthos 'sunburst',False,Rda General Mitre,,27.84,median,,check
+0194983AR,Ginkgo biloba 'Fastigiata',False,C\ Rosales,7.55,6.49,ok,,large
+0194984AR,Tipuana tipu,False,Rda General Mitre,8.01,5.94,ok,,large
+0194985AR,Platanus × acerifolia,True,C\ Alt de Gironella,6.26,5.53,ok,,large
+0194986AR,Gleditsia triacanthos f. inermis,False,Rda General Mitre,11.06,9.62,ok,,large
+0194987AR,Platanus × acerifolia,True,C\ Rosari,4.04,2.38,ok,,medium
+0194988AR,Platanus × acerifolia,True,C\ Can Ràbia,17.09,16.11,ok,,large
+0194989AR,Celtis australis,False,Av Sarrià,,30.36,no_facade,,check
+0194990AR,Styphnolobium japonicum,False,C\ Doctor Carulla,5.96,5.0,ok,,medium
+0194991AR,Styphnolobium japonicum,False,Ptge Ricard Zamora,3.17,2.33,ok,,small
+0194992AR,Cercis siliquastrum,False,C\ Ricardo Villa,,21.29,median,26.58,check
+0194993AR,Styphnolobium japonicum,False,C\ Rosales,8.28,6.81,ok,,large
+0194994AR,Melia azedarach,False,Rda General Mitre,,11.94,no_kerb,,check
+0194995AR,Platanus × acerifolia,True,C\ Doctor Roux,5.52,4.47,ok,,medium
+0194996AR,Magnolia grandiflora,False,C\ Tres Torres,2.0,1.13,ok,,none
+0194997AR,Platanus × acerifolia,True,Pg Sant Joan Bosco,3.69,2.99,ok,,medium
+0194998AR,Platanus × acerifolia,True,C\ Doctor Roux,,12.81,median,,check
+0194999AR,Tipuana tipu,False,C\ Nena Casas,,12.59,median,,check
+0195000AR,Melia azedarach,False,Rda General Mitre,,29.29,median,30.43,check
+0195001AR,Jacaranda mimosifolia,False,C\ Gironella,,5.83,median,2.77,check
+0195002AR,Magnolia grandiflora,False,C\ Ganduxer,,17.27,median,,check
+0195003AR,Celtis australis,False,C\ Doctor Fleming,23.04,21.83,ok,,large
+0195004AR,Styphnolobium japonicum,False,C\ Ricardo Villa,15.17,14.67,ok,,large
+0195005AR,Quercus ilex,False,Via Augusta,12.42,9.59,ok,,large
+0195006AR,Platanus × acerifolia,True,C\ Àngel Guimerà,4.19,3.71,ok,,medium
+0195008AR,Crataegus x media 'Paul's Scarlet',False,C\ Tres Torres,5.06,4.5,ok,,medium
+0195009AR,Melia azedarach,False,Pl Àngel Rodríguez,29.82,14.48,ok,,large
+0195010AR,Platanus × acerifolia,True,Pl Eguilaz,,4.28,median,13.33,check
+0195012AR,Celtis australis,False,Av Sarrià,,30.41,no_facade,,check
+0195013AR,Brachychiton populneus,False,C\ Nena Casas,7.09,6.13,ok,,large
+0195014AR,Magnolia grandiflora,False,C\ Àngel Guimerà,10.44,5.79,ok,,large
+0195015AR,Brachychiton populneus,False,C\ Nena Casas,5.85,4.85,ok,,medium
+0195016AR,Platanus × acerifolia,True,C\ Pau Alcover,5.84,4.38,ok,,medium
+0195017AR,Ligustrum lucidum,False,C\ Castellnou,,9.8,median,,check
+0195018AR,Celtis australis,False,Rda General Mitre,17.15,16.43,ok,,large
+0195019AR,Platanus × acerifolia,True,C\ Doctor Roux,6.94,6.18,ok,,large
+0195020AR,Magnolia grandiflora,False,C\ Emancipació,9.46,9.37,ok,,large
+0195021AR,Tipuana tipu,False,C\ Nena Casas,,13.58,median,,check
+0195022AR,Celtis australis,False,C\ Doctor Fleming,,26.05,median,23.41,check
+0195023AR,Populus alba 'Pyramidalis',False,Rda General Mitre,16.62,13.72,ok,,large
+0195024AR,Styphnolobium japonicum,False,C\ Milanesat,5.45,3.71,ok,,medium
+0195025AR,Platanus × acerifolia,True,C\ Doctor Roux,5.22,4.11,ok,,medium
+0195026AR,Melia azedarach,False,Rda General Mitre,,5.74,no_kerb,,check
+0195027AR,Celtis australis,False,Rda General Mitre,16.03,15.27,ok,,large
+0195028AR,Platanus × acerifolia,True,C\ Doctor Roux,,5.2,median,,check
+0195029AR,Styphnolobium japonicum,False,C\ Doctor Carulla,5.95,5.3,ok,,medium
+0195030AR,Magnolia grandiflora,False,C\ Emancipació,9.33,9.16,ok,,large
+0195031AR,Brachychiton populneus,False,Via Augusta,20.03,8.33,ok,,large
+0195032AR,Platanus × acerifolia,True,Pl Eguilaz,15.6,15.03,ok,,large
+0195034AR,Brachychiton populneus,False,Via Augusta,11.55,8.38,ok,,large
+0195035AR,Brachychiton populneus,False,C\ Rosari,6.67,5.84,ok,,large
+0195037AR,Magnolia grandiflora,False,C\ Alt de Gironella,,9.65,median,,check
+0195038AR,Magnolia grandiflora,False,C\ Doctor Roux,4.26,3.22,ok,,medium
+0195039AR,Platanus × acerifolia,True,C\ Escoles Pies,2.72,2.1,ok,,small
+0195040AR,Platanus × acerifolia,True,C\ Pau Alcover,6.81,5.89,ok,,large
+0195041AR,Tipuana tipu,False,Pl Martí Llauradó,,9.96,no_kerb,,check
+0195042AR,Brachychiton populneus,False,C\ Rosari,3.98,3.0,ok,,medium
+0195043AR,Platanus × acerifolia,True,C\ Can Ràbia,,12.83,median,,check
+0195044AR,Brachychiton populneus,False,C\ Nena Casas,6.31,5.43,ok,,large
+0195045AR,Styphnolobium japonicum,False,C\ Ricardo Villa,9.53,8.97,ok,,large
+0195046AR,Gleditsia triacanthos 'sunburst',False,Rda General Mitre,6.33,5.32,ok,,large
+0195047AR,Tipuana tipu,False,C\ Doctor Fleming,,9.82,no_kerb,,check
+0195049AR,Brachychiton populneus,False,C\ Nena Casas,7.67,7.06,ok,,large
+0195050AR,Platanus × acerifolia,True,C\ Doctor Roux,,11.98,median,,check
+0195052AR,Jacaranda mimosifolia,False,C\ Vergós,,25.97,median,,check
+0195053AR,Magnolia grandiflora,False,C\ Milanesat,2.92,1.93,ok,,small
+0195054AR,Celtis australis,False,Via Augusta,15.49,14.36,ok,,large
+0195055AR,Platanus × acerifolia,True,Pg Bonanova,6.82,5.75,ok,,large
+0195056AR,Platanus × acerifolia,True,C\ Pau Alcover,5.2,4.63,ok,,medium
+0195057AR,Platanus × acerifolia,True,C\ Doctor Roux,10.23,8.79,ok,,large
+0195058AR,Platanus × acerifolia,True,Pg Bonanova,12.26,11.03,ok,,large
+0195059AR,Brachychiton populneus,False,C\ Nena Casas,7.07,5.98,ok,,large
+0195060AR,Styphnolobium japonicum,False,Ptge Ricard Zamora,12.64,12.05,ok,,large
+0195062AR,Magnolia grandiflora,False,C\ Rafael Batlle,2.65,1.06,ok,,small
+0195063AR,Brachychiton populneus,False,C\ Rosari,3.28,2.37,ok,,small
+0195064AR,Tipuana tipu,False,Pl Joaquim Pena,4.1,3.21,ok,,medium
+0195065AR,Tipuana tipu,False,C\ Nena Casas,,3.45,median,8.0,check
+0195066AR,Gleditsia triacanthos 'sunburst',False,Rda General Mitre,,28.34,median,,check
+0195067AR,Ligustrum lucidum,False,C\ Castellnou,3.49,2.45,ok,,small
+0195069AR,Platanus × acerifolia,True,C\ Pau Alcover,9.24,7.93,ok,,large
+0195071AR,Platanus × acerifolia,True,C\ Doctor Carulla,6.38,5.01,ok,,large
+0195072AR,Styphnolobium japonicum,False,C\ Ganduxer,,16.62,median,,check
+0195074AR,Styphnolobium japonicum,False,C\ Àngel Guimerà,4.4,3.56,ok,,medium
+0195075AR,Brachychiton populneus,False,C\ Nena Casas,6.33,5.41,ok,,large
+0195076AR,Tipuana tipu,False,Rda General Mitre,10.11,6.55,ok,,large
+0195077AR,Gleditsia triacanthos 'sunburst',False,Rda General Mitre,21.48,19.72,ok,,large
+0195078AR,Jacaranda mimosifolia,False,C\ Gironella,,5.18,median,2.81,check
+0195079AR,Tipuana tipu,False,C\ Doctor Fleming,23.09,6.3,ok,,large
+0195080AR,Celtis australis,False,C\ Doctor Fleming,22.96,21.84,ok,,large
+0195081AR,Gleditsia triacanthos f. inermis,False,Rda General Mitre,22.66,16.85,ok,,large
+0195082AR,Platanus × acerifolia,True,C\ Doctor Roux,11.54,11.26,ok,,large
+0195083AR,Styphnolobium japonicum,False,C\ Ganduxer,3.07,1.75,ok,,small
+0195084AR,Celtis australis,False,Av Sarrià,,24.48,median,5.12,check
+0195085AR,Styphnolobium japonicum,False,C\ Àngel Guimerà,6.41,5.72,ok,,large
+0195086AR,Platanus × acerifolia,True,C\ Doctor Carulla,6.67,5.64,ok,,large
+0195087AR,Styphnolobium japonicum,False,C\ Calatrava,4.27,4.28,ok,,medium
+0195088AR,Styphnolobium japonicum,False,C\ Emancipació,8.37,7.69,ok,,large
+0195089AR,Styphnolobium japonicum,False,C\ Calatrava,5.35,4.23,ok,,medium
+0195090AR,Tipuana tipu,False,Pl Martí Llauradó,,14.85,no_kerb,11.12,check
+0195091AR,Styphnolobium japonicum,False,C\ Ricardo Villa,11.76,6.53,ok,,large
+0195092AR,Melia azedarach,False,Rda General Mitre,23.11,9.61,ok,,large
+0195093AR,Celtis australis,False,Rda General Mitre,10.5,9.85,ok,,large
+0195094AR,Aesculus hippocastanum,False,Ptge Fontanelles,,8.39,no_kerb,,check
+0195095AR,Tipuana tipu,False,C\ Doctor Fleming,22.97,5.7,ok,,large
+0195096AR,Styphnolobium japonicum,False,C\ Can Ràbia,,16.79,median,,check
+0195097AR,Tipuana tipu,False,C\ Bori i Fontestà,,14.37,median,3.21,check
+0195098AR,Platanus × acerifolia,True,C\ Calatrava,6.02,6.04,ok,,large
+0195099AR,Platanus × acerifolia,True,C\ Alt de Gironella,4.73,2.57,ok,,medium
+0195100AR,Aesculus hippocastanum,False,Ptge Fontanelles,,9.03,no_kerb,,check
+0195101AR,Platanus × acerifolia,True,C\ Castellnou,2.74,1.47,ok,,small
+0195102AR,Melia azedarach,False,Pl Àngel Rodríguez,,20.05,no_kerb,46.38,check
+0195103AR,Styphnolobium japonicum,False,C\ Milanesat,3.08,2.37,ok,,small
+0195104AR,Tipuana tipu,False,Pl Eguilaz,,8.35,median,6.4,check
+0195105AR,Styphnolobium japonicum,False,C\ Rosales,7.32,6.11,ok,,large
+0195106AR,Styphnolobium japonicum,False,C\ Pau Alcover,,8.19,median,,check
+0195107AR,Gleditsia triacanthos 'sunburst',False,Rda General Mitre,,27.47,median,,check
+0195108AR,Celtis australis,False,Via Augusta,5.82,4.42,ok,,medium
+0195109AR,Celtis australis,False,Rda General Mitre,10.82,10.4,ok,,large
+0195110AR,Melia azedarach,False,Rda General Mitre,,30.55,no_facade,,check
+0195111AR,Platanus × acerifolia,True,C\ Calatrava,4.43,3.52,ok,,medium
+0195112AR,Magnolia grandiflora,False,Pl Eguilaz,15.8,6.8,ok,,large
+0195113AR,Brachychiton populneus,False,C\ Nena Casas,3.32,2.25,ok,,small
+0195114AR,Platanus × acerifolia,True,C\ Pau Alcover,18.64,17.83,ok,,large
+0195115AR,Robinia pseudoacacia,False,C\ Castellnou,6.46,5.26,ok,,large
+0195116AR,Platanus × acerifolia,True,C\ Doctor Roux,6.92,5.53,ok,,large
+0195117AR,Platanus × acerifolia,True,C\ Can Ràbia,7.34,6.08,ok,,large
+0195118AR,Ligustrum lucidum,False,C\ Tres Torres,2.09,2.09,ok,,none
+0195119AR,Tipuana tipu,False,Pl Martí Llauradó,23.47,21.55,ok,,large
+0195121AR,Platanus × acerifolia,True,Pg Sant Joan Bosco,8.78,9.12,ok,,large
+0195122AR,Platanus × acerifolia,True,Pl Eguilaz,,13.68,median,,check
+0195123AR,Platanus × acerifolia,True,C\ Doctor Carulla,13.86,12.65,ok,,large
+0195124AR,Styphnolobium japonicum,False,C\ Ricardo Villa,11.96,6.8,ok,,large
+0195125AR,Magnolia grandiflora,False,C\ Rafael Batlle,22.32,6.71,ok,,large
+0195126AR,Tipuana tipu,False,Rda General Mitre,17.43,14.65,ok,,large
+0195127AR,Platanus × acerifolia,True,C\ Doctor Carulla,5.12,5.38,ok,,medium
+0195128AR,Celtis australis,False,C\ Doctor Fleming,22.96,14.37,ok,,large
+0195129AR,Magnolia grandiflora,False,C\ Escoles Pies,3.81,2.79,ok,,medium
+0195130AR,Styphnolobium japonicum,False,C\ Milanesat,5.28,4.79,ok,,medium
+0195132AR,Populus alba 'Pyramidalis',False,Rda General Mitre,23.54,22.24,ok,,large
+0195133AR,Platanus × acerifolia,True,C\ Vergós,3.27,2.38,ok,,small
+0195134AR,Platanus × acerifolia,True,C\ Pau Alcover,9.8,8.63,ok,,large
+0195135AR,Platanus × acerifolia,True,C\ Vergós,5.65,4.48,ok,,medium
+0195136AR,Platanus × acerifolia,True,Pg Bonanova,7.74,6.64,ok,,large
+0195138AR,Tipuana tipu,False,Pl Martí Llauradó,27.18,20.25,ok,,large
+0195139AR,Celtis australis,False,Via Augusta,,11.3,median,5.82,check
+0195140AR,Celtis australis,False,C\ Santa Fe de Nou Mèxic,17.38,15.79,ok,,large
+0195141AR,Platanus × acerifolia,True,C\ Alt de Gironella,1.89,1.0,ok,,none
+0195142AR,Ligustrum lucidum,False,C\ Castellnou,7.14,6.77,ok,,large
+0195143AR,Magnolia grandiflora,False,C\ Doctor Roux,8.92,7.6,ok,,large
+0195144AR,Platanus × acerifolia,True,C\ Escoles Pies,4.01,1.57,ok,,medium
+0195145AR,Platanus × acerifolia,True,Pg Sant Joan Bosco,,19.02,median,10.75,check
+0195146AR,Platanus × acerifolia,True,C\ Ricardo Villa,,11.81,no_kerb,,check
+0195147AR,Platanus × acerifolia,True,C\ Doctor Roux,7.27,5.39,ok,,large
+0195148AR,Platanus × acerifolia,True,Via Augusta,21.71,15.23,ok,,large
+0195149AR,Magnolia grandiflora,False,C\ Escoles Pies,2.61,1.5,ok,,small
+0195150AR,Platanus × acerifolia,True,C\ Pau Alcover,10.05,8.12,ok,,large
+0195151AR,Tipuana tipu,False,Pl Martí Llauradó,23.39,17.54,ok,,large
+0195152AR,Platanus × acerifolia,True,C\ Alt de Gironella,9.5,9.31,ok,,large
+0195153AR,Ligustrum lucidum,False,C\ Castellnou,3.45,2.64,ok,,small
+0195154AR,Jacaranda mimosifolia,False,C\ Milanesat,,5.43,median,2.84,check
+0195155AR,Platanus × acerifolia,True,Pg Sant Joan Bosco,3.69,3.68,ok,,medium
+0195156AR,Magnolia grandiflora,False,C\ Rafael Batlle,,19.13,median,,check
+0195157AR,Ligustrum lucidum,False,C\ Tres Torres,5.21,4.12,ok,,medium
+0195158AR,Pyrus calleryana 'Chanticleer',False,C\ Escoles Pies,2.45,1.88,ok,,none
+0195159AR,Magnolia grandiflora,False,C\ Calatrava,4.77,3.53,ok,,medium
+0195160AR,Pinus halepensis,False,Via Augusta,20.63,8.1,ok,,large
+0195161AR,Styphnolobium japonicum,False,C\ Vergós,,11.58,median,,check
+0195163AR,Platanus × acerifolia,True,C\ Doctor Roux,9.47,8.97,ok,,large
+0195164AR,Platanus × acerifolia,True,C\ Doctor Roux,12.63,10.8,ok,,large
+0195165AR,Tipuana tipu,False,Rda General Mitre,9.71,6.62,ok,,large
+0195166AR,Gleditsia triacanthos 'sunburst',False,Rda General Mitre,,27.46,median,,check
+0195167AR,Magnolia grandiflora,False,Rda General Mitre,9.99,2.85,ok,,large
+0195168AR,Platanus × acerifolia,True,C\ Ricardo Villa,10.99,3.04,ok,,large
+0195169AR,Pyrus calleryana 'Chanticleer',False,C\ Escoles Pies,2.44,2.34,ok,,none
+0195170AR,Celtis australis,False,Av Sarrià,,30.46,no_facade,,check
+0195171AR,Platanus × acerifolia,True,C\ Doctor Carulla,6.35,4.91,ok,,large
+0195172AR,Tipuana tipu,False,C\ Nena Casas,,14.01,median,,check
+0195173AR,Styphnolobium japonicum,False,C\ Ricardo Villa,20.64,19.64,ok,,large
+0195174AR,Platanus × acerifolia,True,C\ Àngel Guimerà,5.68,4.34,ok,,medium
+0195175AR,Platanus × acerifolia,True,C\ Escoles Pies,4.46,4.5,ok,,medium
+0195176AR,Tilia x euchlora,False,C\ Milanesat,5.71,4.7,ok,,medium
+0195177AR,Brachychiton populneus,False,C\ Nena Casas,5.72,4.38,ok,,medium
+0195178AR,Platanus × acerifolia,True,C\ Doctor Roux,,9.32,median,3.15,check
+0195179AR,Tipuana tipu,False,C\ Doctor Fleming,23.1,5.41,ok,,large
+0195180AR,Platanus × acerifolia,True,C\ Doctor Carulla,,8.55,median,2.82,check
+0195181AR,Platanus × acerifolia,True,C\ Doctor Roux,9.45,8.86,ok,,large
+0195182AR,Platanus × acerifolia,True,Pl Eguilaz,,11.54,median,,check
+0195184AR,Celtis australis,False,C\ Bori i Fontestà,,19.89,median,16.02,check
+0195185AR,Robinia pseudoacacia,False,C\ Tres Torres,3.81,3.02,ok,,medium
+0195186AR,Styphnolobium japonicum,False,C\ Rosari,,10.19,median,,check
+0195187AR,Cupressus sempervirens,False,Via Augusta,13.67,11.33,ok,,large
+0195188AR,Celtis australis,False,C\ Doctor Fleming,24.81,15.15,ok,,large
+0195189AR,Populus alba 'Pyramidalis',False,Rda General Mitre,22.55,13.79,ok,,large
+0195190AR,Platanus × acerifolia,True,Pl Eguilaz,,3.96,median,,check
+0195191AR,Tipuana tipu,False,Rda General Mitre,11.25,7.11,ok,,large
+0195192AR,Platanus × acerifolia,True,Pg Bonanova,7.8,6.55,ok,,large
+0195193AR,Ligustrum lucidum,False,C\ Castellnou,3.24,2.35,ok,,small
+0195194AR,Tipuana tipu,False,C\ Doctor Fleming,22.75,5.08,ok,,large
+0195195AR,Platanus × acerifolia,True,C\ Doctor Roux,5.97,4.87,ok,,medium
+0195196AR,Platanus × acerifolia,True,C\ Can Ràbia,,10.7,median,,check
+0195197AR,Platanus × acerifolia,True,C\ Calatrava,6.82,6.51,ok,,large
+0195198AR,Platanus × acerifolia,True,Via Augusta,24.06,8.78,ok,,large
+0195199AR,Styphnolobium japonicum,False,C\ Rosales,7.93,7.2,ok,,large
+0195200AR,Tipuana tipu,False,C\ Bori i Fontestà,,14.45,median,3.34,check
+0195202AR,Jacaranda mimosifolia,False,C\ Milanesat,5.63,4.22,ok,,medium
+0195203AR,Platanus × acerifolia,True,C\ Tres Torres,5.53,4.48,ok,,medium
+0195204AR,Tipuana tipu,False,C\ Nena Casas,17.92,12.76,ok,,large
+0195205AR,Platanus × acerifolia,True,Via Augusta,13.61,6.91,ok,,large
+0195206AR,Platanus × acerifolia,True,Pg Sant Joan Bosco,21.67,22.35,ok,,large
+0195207AR,Celtis australis,False,Rda General Mitre,12.39,10.98,ok,,large
+0195208AR,Styphnolobium japonicum,False,C\ Rosari,10.4,9.86,ok,,large
+0195209AR,Platanus × acerifolia,True,C\ Maria Auxiliadora,,8.92,median,,check
+0195210AR,Platanus × acerifolia,True,Pg Bonanova,7.54,6.65,ok,,large
+0195211AR,Magnolia grandiflora,False,Pl Eguilaz,15.63,6.73,ok,,large
+0195212AR,Platanus × acerifolia,True,Via Augusta,13.36,13.01,ok,,large
+0195213AR,Celtis australis,False,C\ Doctor Fleming,,24.26,median,6.99,check
+0195214AR,Melia azedarach,False,Rda General Mitre,20.99,11.98,ok,,large
+0195215AR,Styphnolobium japonicum,False,C\ Doctor Carulla,3.31,2.3,ok,,small
+0195216AR,Lagerstroemia indica,False,Via Augusta,7.62,6.28,ok,,large
+0195217AR,Platanus × acerifolia,True,C\ Calatrava,6.79,7.16,ok,,large
+0195218AR,Platanus × acerifolia,True,C\ Pau Alcover,14.46,12.49,ok,,large
+0195219AR,Platanus × acerifolia,True,C\ Pau Alcover,7.58,6.93,ok,,large
+0195221AR,Melia azedarach,False,Rda General Mitre,16.06,6.13,ok,,large
+0195222AR,Celtis australis,False,C\ Doctor Fleming,23.0,21.77,ok,,large
+0195224AR,Platanus × acerifolia,True,C\ Vergós,,10.26,median,5.13,check
+0195225AR,Melia azedarach,False,Rda General Mitre,,11.95,no_kerb,,check
+0195227AR,Platanus × acerifolia,True,C\ Pau Alcover,16.03,14.67,ok,,large
+0195228AR,Platanus × acerifolia,True,C\ Doctor Roux,,12.81,median,,check
+0195229AR,Platanus × acerifolia,True,C\ Àngel Guimerà,,3.44,median,2.06,check
+0195230AR,Platanus × acerifolia,True,C\ Doctor Carulla,,15.27,median,,check
+0195231AR,Platanus × acerifolia,True,C\ Can Ràbia,11.68,10.33,ok,,large
+0195232AR,Melia azedarach,False,Rda General Mitre,21.02,5.8,ok,,large
+0195233AR,Casuarina cunninghamiana,False,Rda General Mitre,10.86,9.15,ok,,large
+0195234AR,Jacaranda mimosifolia,False,C\ Gironella,,5.83,median,2.75,check
+0195235AR,Platanus × acerifolia,True,C\ Pau Alcover,,13.33,median,,check
+0195237AR,Platanus × acerifolia,True,C\ Alt de Gironella,1.89,1.62,ok,,none
+0195238AR,Melia azedarach,False,Rda General Mitre,18.5,5.82,ok,,large
+0195239AR,Styphnolobium japonicum,False,C\ Emancipació,7.81,6.54,ok,,large
+0195240AR,Styphnolobium japonicum,False,C\ Escoles Pies,6.44,5.71,ok,,large
+0195241AR,Tipuana tipu,False,Rda General Mitre,12.82,8.99,ok,,large
+0195242AR,Styphnolobium japonicum,False,C\ Àngel Guimerà,5.68,4.74,ok,,medium
+0195243AR,Platanus × acerifolia,True,C\ Doctor Roux,5.86,4.38,ok,,medium
+0195244AR,Platanus × acerifolia,True,C\ Doctor Roux,,11.64,median,,check
+0195245AR,Platanus × acerifolia,True,C\ Doctor Carulla,7.92,6.5,ok,,large
+0195246AR,Celtis australis,False,C\ Doctor Fleming,24.14,14.91,ok,,large
+0195247AR,Magnolia grandiflora,False,C\ Àngel Guimerà,10.29,9.39,ok,,large
+0195248AR,Platanus × acerifolia,True,C\ Pau Alcover,6.31,5.76,ok,,large
+0195249AR,Koelreuteria paniculata,False,C\ Ganduxer,4.83,3.88,ok,,medium
+0195250AR,Celtis australis,False,Rda General Mitre,,30.3,no_facade,9.28,check
+0195251AR,Platanus × acerifolia,True,C\ Milanesat,2.86,3.33,ok,,small
+0195252AR,Tipuana tipu,False,C\ Doctor Fleming,27.69,6.94,ok,,large
+0195253AR,Platanus × acerifolia,True,Via Augusta,13.64,6.37,ok,,large
+0195254AR,Tipuana tipu,False,C\ Doctor Fleming,22.96,6.17,ok,,large
+0195255AR,Platanus × acerifolia,True,C\ Doctor Carulla,6.01,4.32,ok,,large
+0195256AR,Populus alba 'Pyramidalis',False,Rda General Mitre,16.15,10.13,ok,,large
+0195257AR,Styphnolobium japonicum,False,C\ Ganduxer,,16.84,median,,check
+0195259AR,Celtis australis,False,Rda General Mitre,5.93,5.3,ok,,medium
+0195260AR,Celtis australis,False,Rda General Mitre,,20.57,median,6.11,check
+0195261AR,Platanus × acerifolia,True,C\ Vergós,10.24,9.87,ok,,large
+0195262AR,Platanus × acerifolia,True,Pg Bonanova,6.8,5.28,ok,,large
+0195264AR,Tipuana tipu,False,C\ Bori i Fontestà,16.22,15.6,ok,,large
+0195265AR,Platanus × acerifolia,True,Pg Bonanova,8.43,7.12,ok,,large
+0195266AR,Platanus × acerifolia,True,Pg Sant Joan Bosco,3.47,3.24,ok,,small
+0195268AR,Melia azedarach,False,Pl Àngel Rodríguez,,10.71,no_kerb,,check
+0195269AR,Celtis australis,False,Rda General Mitre,15.48,14.69,ok,,large
+0195270AR,Celtis australis,False,C\ Castellnou,,4.76,no_kerb,,check
+0195271AR,Styphnolobium japonicum,False,C\ Vergós,11.61,10.82,ok,,large
+0195272AR,Platanus × acerifolia,True,C\ Doctor Carulla,,14.49,median,,check
+0195273AR,Magnolia grandiflora,False,C\ Rafael Batlle,2.45,1.02,ok,,none
+0195275AR,Magnolia grandiflora,False,C\ Castellnou,2.73,2.93,ok,,small
+0195276AR,Brachychiton populneus,False,C\ Nena Casas,9.94,8.81,ok,,large
+0195277AR,Platanus × acerifolia,True,C\ Escoles Pies,8.57,8.19,ok,,large
+0195278AR,Brachychiton populneus,False,C\ Nena Casas,7.67,6.75,ok,,large
+0195279AR,Platanus × acerifolia,True,Pg Sant Joan Bosco,3.52,3.65,ok,,medium
+0195280AR,Tipuana tipu,False,C\ Nena Casas,,13.84,median,16.14,check
+0195281AR,Platanus × acerifolia,True,C\ Doctor Carulla,6.67,5.83,ok,,large
+0195282AR,Platanus × acerifolia,True,Pg Bonanova,6.87,6.13,ok,,large
+0195283AR,Platanus × acerifolia,True,Via Augusta,9.94,2.6,ok,,large
+0195284AR,Platanus × acerifolia,True,C\ Escoles Pies,2.73,1.93,ok,,small
+0195285AR,Platanus × acerifolia,True,C\ Castellnou,3.9,3.24,ok,,medium
+0195286AR,Tipuana tipu,False,Pl Martí Llauradó,,19.81,no_kerb,,check
+0195287AR,Aesculus hippocastanum,False,Ptge Fontanelles,,8.59,no_kerb,,check
+0195288AR,Celtis australis,False,Rda General Mitre,6.77,6.06,ok,,large
+0195289AR,Tipuana tipu,False,C\ Nena Casas,,3.46,median,8.02,check
+0195290AR,Ginkgo biloba 'Fastigiata',False,C\ Rosales,10.11,9.71,ok,,large
+0195291AR,Platanus × acerifolia,True,C\ Doctor Roux,5.69,4.68,ok,,medium
+0195292AR,Melia azedarach,False,Pl Àngel Rodríguez,,15.43,no_kerb,,check
+0195293AR,Platanus × acerifolia,True,C\ Pau Alcover,7.25,6.96,ok,,large
+0195294AR,Styphnolobium japonicum,False,C\ Pau Alcover,9.56,9.05,ok,,large
+0195295AR,Ulmus pumila,False,C\ Milanesat,2.93,2.03,ok,,small
+0195297AR,Platanus × acerifolia,True,C\ Escoles Pies,5.86,4.8,ok,,medium
+0195298AR,Platanus × acerifolia,True,C\ Àngel Guimerà,6.44,4.63,ok,,large
+0195299AR,Tipuana tipu,False,Rda General Mitre,20.14,17.82,ok,,large
+0195300AR,Platanus × acerifolia,True,C\ Escoles Pies,2.57,1.4,ok,,small
+0195301AR,Melia azedarach,False,Rda General Mitre,,17.64,no_kerb,,check
+0195302AR,Platanus × acerifolia,True,Pg Sant Joan Bosco,12.22,12.23,ok,,large
+0195303AR,Platanus × acerifolia,True,C\ Pau Alcover,15.32,14.5,ok,,large
+0195305AR,Melia azedarach,False,Rda General Mitre,23.62,11.97,ok,,large
+0195306AR,Magnolia grandiflora,False,Rda General Mitre,11.0,3.81,ok,,large
+0195307AR,Platanus × acerifolia,True,Pg Bonanova,8.39,6.95,ok,,large
+0195308AR,Magnolia grandiflora,False,C\ Rafael Batlle,,13.43,median,,check
+0195309AR,Magnolia grandiflora,False,C\ Rafael Batlle,2.79,0.98,ok,,small
+0195310AR,Styphnolobium japonicum,False,C\ Ganduxer,6.39,5.16,ok,,large
+0195311AR,Celtis australis,False,C\ Doctor Fleming,23.48,14.19,ok,,large
+0195312AR,Melia azedarach,False,Pl Àngel Rodríguez,,11.95,no_kerb,,check
+0195313AR,Melia azedarach,False,Rda General Mitre,,30.59,no_facade,,check
+0195314AR,Platanus × acerifolia,True,C\ Demestre,7.91,6.15,ok,,large
+0195315AR,Platanus × acerifolia,True,C\ Demestre,3.62,2.2,ok,,medium
+0195317AR,Platanus × acerifolia,True,C\ Doctor Roux,7.08,4.56,ok,,large
+0195318AR,Platanus × acerifolia,True,Pg Sant Joan Bosco,,22.09,median,10.79,check
+0195319AR,Platanus × acerifolia,True,C\ Can Ràbia,,12.11,median,,check
+0195320AR,Platanus × acerifolia,True,C\ Àngel Guimerà,1.99,1.02,ok,,none
+0195321AR,Magnolia grandiflora,False,C\ Ganduxer,6.63,5.26,ok,,large
+0195322AR,Platanus × acerifolia,True,C\ Maria Auxiliadora,1.96,0.65,ok,,none
+0195323AR,Casuarina cunninghamiana,False,Rda General Mitre,10.21,7.66,ok,,large
+0195324AR,Platanus × acerifolia,True,Pg Bonanova,8.38,6.67,ok,,large
+0195327AR,Platanus × acerifolia,True,C\ Escoles Pies,10.78,9.04,ok,,large
+0195328AR,Platanus × acerifolia,True,C\ Pau Alcover,6.35,3.62,ok,,large
+0195329AR,Firmiana simplex,False,C\ Emancipació,6.24,4.68,ok,,large
+0195330AR,Platanus × acerifolia,True,C\ Escoles Pies,4.06,2.25,ok,,medium
+0195331AR,Ligustrum lucidum,False,C\ Castellnou,2.92,2.21,ok,,small
+0195332AR,Platanus × acerifolia,True,Pg Bonanova,6.76,5.15,ok,,large
+0195334AR,Platanus × acerifolia,True,Pg Bonanova,9.65,8.03,ok,,large
+0195337AR,Acer negundo,False,C\ Àngel Guimerà,8.62,7.25,ok,,large
+0195339AR,Magnolia grandiflora,False,C\ Rafael Batlle,,13.91,median,,check
+0195341AR,Quercus ilex,False,Via Augusta,12.05,9.98,ok,,large
+0195342AR,Platanus × acerifolia,True,C\ Vergós,5.86,4.87,ok,,medium
+0195343AR,Tipuana tipu,False,C\ Doctor Fleming,23.06,5.97,ok,,large
+0195344AR,Brachychiton populneus,False,Via Augusta,20.65,16.12,ok,,large
+0195345AR,Platanus × acerifolia,True,C\ Doctor Roux,,11.8,median,11.75,check
+0195346AR,Melia azedarach,False,Pl Àngel Rodríguez,,17.07,no_kerb,,check
+0195350AR,Platanus × acerifolia,True,C\ Calatrava,,12.2,median,,check
+0195353AR,Platanus × acerifolia,True,Via Augusta,8.98,6.64,ok,,large
+0195354AR,Styphnolobium japonicum,False,C\ Ricardo Villa,9.76,9.29,ok,,large
+0195355AR,Platanus × acerifolia,True,C\ Doctor Roux,5.56,5.03,ok,,medium
+0195356AR,Styphnolobium japonicum,False,C\ Milanesat,4.97,3.42,ok,,medium
+0195357AR,Platanus × acerifolia,True,C\ Doctor Carulla,6.14,5.11,ok,,large
+0195358AR,Tipuana tipu,False,C\ Doctor Fleming,23.01,6.65,ok,,large
+0195360AR,Platanus × acerifolia,True,C\ Àngel Guimerà,2.13,0.92,ok,,none
+0195361AR,Platanus × acerifolia,True,C\ Calatrava,6.67,7.05,ok,,large
+0195362AR,Platanus × acerifolia,True,C\ Doctor Roux,8.86,6.26,ok,,large
+0195363AR,Platanus × acerifolia,True,C\ Doctor Carulla,6.54,5.58,ok,,large
+0195364AR,Gleditsia triacanthos f. inermis,False,Rda General Mitre,7.93,6.67,ok,,large
+0195366AR,Magnolia grandiflora,False,Rda General Mitre,10.87,3.71,ok,,large
+0195367AR,Magnolia grandiflora,False,C\ Doctor Carulla,,18.05,median,14.03,check
+0195368AR,Magnolia grandiflora,False,C\ Rafael Batlle,3.7,1.44,ok,,medium
+0195370AR,Platanus × acerifolia,True,C\ Doctor Roux,7.14,5.01,ok,,large
+0195371AR,Gleditsia triacanthos 'sunburst',False,Rda General Mitre,,28.01,median,,check
+0195372AR,Platanus × acerifolia,True,C\ Àngel Guimerà,7.58,6.83,ok,,large
+0195373AR,Platanus × acerifolia,True,C\ Escoles Pies,,5.53,median,2.76,check
+0195374AR,Platanus × acerifolia,True,C\ Milanesat,6.25,5.75,ok,,large
+0195375AR,Firmiana simplex,False,C\ Emancipació,4.53,4.26,ok,,medium
+0195377AR,Styphnolobium japonicum,False,C\ Ricardo Villa,9.49,8.69,ok,,large
+0195378AR,Magnolia grandiflora,False,C\ Rafael Batlle,3.55,2.27,ok,,medium
+0195379AR,Platanus × acerifolia,True,C\ Doctor Roux,,5.31,median,3.15,check
+0195380AR,Platanus × acerifolia,True,C\ Rosari,10.81,10.0,ok,,large
+0195381AR,Melia azedarach,False,Pl Àngel Rodríguez,,19.66,no_kerb,47.57,check
+0195383AR,Platanus × acerifolia,True,Via Augusta,17.81,13.02,ok,,large
+0195386AR,Styphnolobium japonicum,False,C\ Rosari,3.02,2.01,ok,,small
+0195387AR,Melia azedarach,False,Pl Àngel Rodríguez,,10.06,no_kerb,,check
+0195388AR,Styphnolobium japonicum,False,C\ Ganduxer,4.46,3.4,ok,,medium
+0195389AR,Magnolia grandiflora,False,C\ Calatrava,,14.06,median,,check
+0195390AR,Ginkgo biloba 'Fastigiata',False,C\ Rosales,11.34,10.6,ok,,large
+0195391AR,Platanus × acerifolia,True,C\ Pau Alcover,9.63,9.25,ok,,large
+0195392AR,Styphnolobium japonicum,False,C\ Ganduxer,5.64,4.85,ok,,medium
+0195393AR,Tipuana tipu,False,Pl Eguilaz,24.98,16.04,ok,,large
+0195394AR,Magnolia grandiflora,False,Pl Eguilaz,15.58,6.72,ok,,large
+0195395AR,Platanus × acerifolia,True,C\ Doctor Roux,5.93,4.77,ok,,medium
+0195396AR,Platanus × acerifolia,True,C\ Ricardo Villa,11.98,3.49,ok,,large
+0195397AR,Platanus × acerifolia,True,C\ Doctor Roux,,13.84,median,,check
+0195398AR,Populus nigra 'Italica',False,Rda General Mitre,5.4,4.77,ok,,medium
+0195399AR,Melia azedarach,False,Rda General Mitre,,14.47,no_kerb,,check
+0195400AR,Platanus × acerifolia,True,C\ Pau Alcover,5.38,4.51,ok,,medium
+0195401AR,Platanus × acerifolia,True,C\ Can Ràbia,,10.9,median,,check
+0195402AR,Platanus × acerifolia,True,C\ Can Ràbia,11.4,10.34,ok,,large
+0195403AR,Tipuana tipu,False,C\ Santa Fe de Nou Mèxic,12.31,9.26,ok,,large
+0195404AR,Celtis australis,False,C\ Doctor Fleming,23.1,20.95,ok,,large
+0195405AR,Tipuana tipu,False,C\ Doctor Fleming,27.76,7.77,ok,,large
+0195406AR,Magnolia grandiflora,False,C\ Ganduxer,4.2,3.28,ok,,medium
+0195407AR,Celtis australis,False,C\ Castellnou,,4.16,no_kerb,,check
+0195408AR,Brachychiton populneus,False,C\ Rosari,5.64,4.23,ok,,medium
+0195409AR,Platanus × acerifolia,True,C\ Doctor Roux,7.23,6.39,ok,,large
+0195410AR,Tipuana tipu,False,Rda General Mitre,14.75,6.72,ok,,large
+0195411AR,Gleditsia triacanthos 'sunburst',False,Rda General Mitre,6.42,5.4,ok,,large
+0195412AR,Platanus × acerifolia,True,Via Augusta,8.67,1.78,ok,,large
+0195413AR,Melia azedarach,False,Pl Àngel Rodríguez,,11.61,no_kerb,,check
+0195414AR,Styphnolobium japonicum,False,C\ Ricardo Villa,18.62,16.66,ok,,large
+0195415AR,Platanus × acerifolia,True,C\ Tres Torres,6.58,5.78,ok,,large
+0195416AR,Celtis australis,False,Via Augusta,16.44,15.49,ok,,large
+0195417AR,Gleditsia triacanthos 'sunburst',False,Rda General Mitre,6.51,5.45,ok,,large
+0195418AR,Platanus × acerifolia,True,C\ Pau Alcover,6.86,5.77,ok,,large
+0195420AR,Magnolia grandiflora,False,C\ Demestre,6.77,5.46,ok,,large
+0195421AR,Platanus × acerifolia,True,C\ Ricardo Villa,,15.79,no_kerb,,check
+0195422AR,Platanus × acerifolia,True,C\ Doctor Carulla,6.09,4.61,ok,,large
+0195424AR,Styphnolobium japonicum,False,C\ Ganduxer,6.51,5.61,ok,,large
+0195425AR,Gleditsia triacanthos 'sunburst',False,Rda General Mitre,7.03,6.32,ok,,large
+0195426AR,Tipuana tipu,False,C\ Santa Fe de Nou Mèxic,4.9,4.24,ok,,medium
+0195427AR,Styphnolobium japonicum,False,C\ Emancipació,6.97,5.35,ok,,large
+0195428AR,Platanus × acerifolia,True,Pg Bonanova,,6.02,median,4.86,check
+0195429AR,Platanus × acerifolia,True,C\ Can Ràbia,13.42,9.53,ok,,large
+0195430AR,Tipuana tipu,False,Rda General Mitre,12.39,6.76,ok,,large
+0195431AR,Platanus × acerifolia,True,Pg Sant Joan Bosco,3.63,2.96,ok,,medium
+0195432AR,Celtis australis,False,C\ Castellnou,,7.48,no_kerb,,check
+0195433AR,Celtis australis,False,C\ Doctor Fleming,,24.89,median,15.28,check
+0195434AR,Celtis australis,False,C\ Doctor Fleming,25.55,24.72,ok,,large
+0195435AR,Platanus × acerifolia,True,Pg Sant Joan Bosco,8.46,7.14,ok,,large
+0195436AR,Styphnolobium japonicum,False,C\ Escoles Pies,6.52,5.54,ok,,large
+0195437AR,Celtis australis,False,Via Augusta,8.1,6.98,ok,,large
+0195438AR,Magnolia grandiflora 'Goliath',False,C\ Àngel Guimerà,3.5,3.07,ok,,medium
+0195439AR,Populus alba 'Pyramidalis',False,Rda General Mitre,20.1,18.41,ok,,large
+0195440AR,Quercus ilex,False,Via Augusta,13.63,11.45,ok,,large
+0195441AR,Casuarina cunninghamiana,False,Rda General Mitre,11.42,10.06,ok,,large
+0195442AR,Tipuana tipu,False,Pl Joaquim Pena,7.27,6.29,ok,,large
+0195443AR,Magnolia grandiflora,False,C\ Doctor Roux,8.77,7.96,ok,,large
+0195444AR,Platanus × acerifolia,True,C\ Emancipació,7.61,6.55,ok,,large
+0195445AR,Styphnolobium japonicum,False,C\ Vergós,12.25,11.84,ok,,large
+0195446AR,Platanus × acerifolia,True,C\ Pau Alcover,,10.58,median,6.22,check
+0195447AR,Magnolia grandiflora,False,C\ Ganduxer,3.08,1.9,ok,,small
+0195448AR,Tipuana tipu,False,C\ Bori i Fontestà,,15.01,median,3.27,check
+0195449AR,Melia azedarach,False,Pl Àngel Rodríguez,12.52,12.2,ok,,large
+0195450AR,Platanus × acerifolia,True,Pg Bonanova,,15.92,median,,check
+0195451AR,Styphnolobium japonicum,False,C\ Milanesat,5.26,4.18,ok,,medium
+0195452AR,Celtis australis,False,C\ Milanesat,6.21,5.09,ok,,large
+0195453AR,Platanus × acerifolia,True,C\ Pau Alcover,7.12,6.14,ok,,large
+0195454AR,Brachychiton populneus,False,C\ Nena Casas,5.88,4.97,ok,,medium
+0195455AR,Platanus × acerifolia,True,Pg Bonanova,10.03,7.81,ok,,large
+0195456AR,Melia azedarach,False,Rda General Mitre,,5.72,no_kerb,,check
+0195458AR,Magnolia grandiflora 'Goliath',False,C\ Àngel Guimerà,6.93,5.95,ok,,large
+0195459AR,Styphnolobium japonicum,False,C\ Rosari,3.06,2.81,ok,,small
+0195460AR,Cupressus sempervirens,False,C\ Calatrava,5.42,4.95,ok,,medium
+0195461AR,Tipuana tipu,False,Pl Martí Llauradó,27.52,25.53,ok,,large
+0195462AR,Aesculus hippocastanum,False,Ptge Fontanelles,,10.01,no_kerb,,check
+0195463AR,Aesculus hippocastanum,False,Ptge Fontanelles,,9.43,no_kerb,,check
+0195464AR,Celtis australis,False,Rda General Mitre,11.93,11.26,ok,,large
+0195465AR,Jacaranda mimosifolia,False,C\ Gironella,,5.4,median,2.73,check
+0195466AR,Platanus × acerifolia,True,C\ Alt de Gironella,4.18,3.21,ok,,medium
+0195467AR,Firmiana simplex,False,C\ Emancipació,7.23,6.63,ok,,large
+0195468AR,Platanus × acerifolia,True,C\ Calatrava,6.87,6.06,ok,,large
+0195470AR,Tipuana tipu,False,Rda General Mitre,12.82,5.97,ok,,large
+0195471AR,Platanus × acerifolia,True,C\ Doctor Carulla,5.31,3.82,ok,,medium
+0195472AR,Platanus × acerifolia,True,Pg Sant Joan Bosco,4.87,5.04,ok,,medium
+0195473AR,Styphnolobium japonicum,False,C\ Ricardo Villa,11.75,10.25,ok,,large
+0195474AR,Tipuana tipu,False,Pl Joaquim Pena,6.23,5.62,ok,,large
+0195475AR,Koelreuteria paniculata,False,C\ Ganduxer,,17.29,median,,check
+0195476AR,Magnolia grandiflora 'Goliath',False,C\ Àngel Guimerà,3.88,2.97,ok,,medium
+0195477AR,Platanus × acerifolia,True,C\ Doctor Roux,5.9,4.69,ok,,medium
+0195478AR,Platanus × acerifolia,True,C\ Doctor Roux,,14.26,median,,check
+0195479AR,Platanus × acerifolia,True,C\ Doctor Roux,7.55,6.44,ok,,large
+0195480AR,Melia azedarach,False,Rda General Mitre,25.15,5.78,ok,,large
+0195481AR,Platanus × acerifolia,True,C\ Escoles Pies,6.24,5.71,ok,,large
+0195482AR,Tilia x euchlora,False,C\ Milanesat,6.66,5.4,ok,,large
+0195483AR,Platanus × acerifolia,True,C\ Calatrava,,12.77,median,,check
+0195484AR,Platanus × acerifolia,True,C\ Can Ràbia,16.97,16.92,ok,,large
+0195485AR,Platanus × acerifolia,True,C\ Doctor Roux,4.36,4.02,ok,,medium
+0195486AR,Magnolia grandiflora,False,C\ Calatrava,8.32,7.87,ok,,large
+0195487AR,Gleditsia triacanthos 'sunburst',False,Rda General Mitre,17.8,16.46,ok,,large
+0195488AR,Platanus × acerifolia,True,C\ Pau Alcover,5.89,4.38,ok,,medium
+0195489AR,Platanus × acerifolia,True,C\ Calatrava,5.86,4.77,ok,,medium
+0195490AR,Celtis australis,False,Rda General Mitre,10.2,9.58,ok,,large
+0195491AR,Styphnolobium japonicum,False,C\ Alt de Gironella,3.69,2.7,ok,,medium
+0195492AR,Robinia pseudoacacia,False,C\ Tres Torres,2.0,2.03,ok,,none
+0195493AR,Platanus × acerifolia,True,C\ Maria Auxiliadora,7.2,6.45,ok,,large
+0195494AR,Casuarina cunninghamiana,False,Rda General Mitre,11.0,9.68,ok,,large
+0195495AR,Celtis australis,False,C\ Doctor Fleming,23.1,21.07,ok,,large
+0195496AR,Casuarina cunninghamiana,False,Rda General Mitre,20.42,16.98,ok,,large
+0195497AR,Styphnolobium japonicum,False,C\ Emancipació,12.0,11.99,ok,,large
+0195498AR,Tipuana tipu,False,C\ Nena Casas,18.41,12.32,ok,,large
+0195499AR,Magnolia grandiflora,False,C\ Tres Torres,3.96,3.18,ok,,medium
+0195500AR,Jacaranda mimosifolia,False,C\ Gironella,,5.56,median,2.72,check
+0195501AR,Celtis australis,False,Av Sarrià,,30.39,no_facade,,check
+0195503AR,Platanus × acerifolia,True,C\ Pau Alcover,5.23,3.5,ok,,medium
+0195504AR,Platanus × acerifolia,True,C\ Escoles Pies,,9.36,median,,check
+0195506AR,Tipuana tipu,False,Rda General Mitre,10.21,8.38,ok,,large
+0195507AR,Brachychiton populneus,False,Rda General Mitre,20.93,12.48,ok,,large
+0195510AR,Platanus × acerifolia,True,C\ Calatrava,4.07,2.87,ok,,medium
+0195511AR,Aesculus hippocastanum,False,Ptge Fontanelles,,9.11,no_kerb,,check
+0195512AR,Platanus × acerifolia,True,C\ Doctor Roux,6.73,6.01,ok,,large
+0195513AR,Celtis australis,False,Av Sarrià,,34.44,no_facade,25.15,check
+0195514AR,Platanus × acerifolia,True,C\ Doctor Carulla,,15.63,median,,check
+0195515AR,Platanus × acerifolia,True,C\ Nena Casas,2.85,1.98,ok,,small
+0195516AR,Tipuana tipu,False,C\ Doctor Fleming,22.88,6.74,ok,,large
+0195517AR,Platanus × acerifolia,True,C\ Can Ràbia,15.45,14.73,ok,,large
+0195518AR,Platanus × acerifolia,True,Via Augusta,10.42,3.49,ok,,large
+0195519AR,Platanus × acerifolia,True,C\ Calatrava,,11.6,median,,check
+0195520AR,Gleditsia triacanthos 'sunburst',False,Rda General Mitre,,25.68,median,,check
+0195521AR,Platanus × acerifolia,True,C\ Pau Alcover,8.9,8.85,ok,,large
+0195522AR,Styphnolobium japonicum,False,C\ Milanesat,8.46,6.88,ok,,large
+0195523AR,Platanus × acerifolia,True,Pg Bonanova,,6.78,median,4.46,check
+0195524AR,Styphnolobium japonicum 'Dot',False,Via Augusta,13.47,10.27,ok,,large
+0195525AR,Magnolia grandiflora,False,C\ Castellnou,3.18,2.16,ok,,small
+0195526AR,Platanus × acerifolia,True,Pg Bonanova,7.13,5.8,ok,,large
+0195527AR,Tilia x euchlora,False,C\ Milanesat,9.23,7.52,ok,,large
+0195528AR,Styphnolobium japonicum,False,C\ Doctor Carulla,,15.71,median,,check
+0195529AR,Magnolia grandiflora,False,C\ Ganduxer,6.43,5.26,ok,,large
+0195530AR,Platanus × acerifolia,True,C\ Doctor Carulla,,6.44,median,2.94,check
+0195531AR,Platanus × acerifolia,True,C\ Doctor Carulla,7.51,6.31,ok,,large
+0195532AR,Platanus × acerifolia,True,Via Augusta,17.53,9.93,ok,,large
+0195533AR,Celtis australis,False,Via Augusta,8.24,7.88,ok,,large
+0195534AR,Platanus × acerifolia,True,C\ Doctor Roux,3.62,2.33,ok,,medium
+0195535AR,Styphnolobium japonicum,False,C\ Maria Auxiliadora,7.05,6.43,ok,,large
+0195536AR,Platanus × acerifolia,True,C\ Can Ràbia,11.33,10.4,ok,,large
+0195537AR,Platanus × acerifolia,True,C\ Escoles Pies,2.48,1.91,ok,,none
+0195538AR,Tipuana tipu,False,Rda General Mitre,9.05,6.96,ok,,large
+0195539AR,Platanus × acerifolia,True,C\ Doctor Roux,,3.62,median,,check
+0195540AR,Platanus × acerifolia,True,C\ Calatrava,5.42,4.06,ok,,medium
+0195541AR,Magnolia grandiflora,False,C\ Tres Torres,2.97,2.23,ok,,small
+0195543AR,Tipuana tipu,False,C\ Nena Casas,,13.89,median,,check
+0195544AR,Platanus × acerifolia,True,C\ Alt de Gironella,6.1,5.47,ok,,large
+0195545AR,Platanus × acerifolia,True,C\ Escoles Pies,3.78,2.95,ok,,medium
+0195546AR,Platanus × acerifolia,True,Pg Sant Joan Bosco,4.47,4.64,ok,,medium
+0195547AR,Tipuana tipu,False,C\ Santa Fe de Nou Mèxic,5.06,4.42,ok,,medium
+0195548AR,Platanus × acerifolia,True,C\ Doctor Carulla,8.14,6.83,ok,,large
+0195549AR,Styphnolobium japonicum,False,Ptge Ricard Zamora,1.53,2.36,ok,,none
+0195550AR,Platanus × acerifolia,True,C\ Can Ràbia,,15.91,median,,check
+0195552AR,Platanus × acerifolia,True,C\ Calatrava,5.14,5.03,ok,,medium
+0195553AR,Celtis australis,False,Rda General Mitre,11.45,10.89,ok,,large
+0195554AR,Magnolia grandiflora,False,C\ Escoles Pies,4.58,3.82,ok,,medium
+0195555AR,Platanus × acerifolia,True,Via Augusta,13.64,6.95,ok,,large
+0195556AR,Platanus × acerifolia,True,C\ Pau Alcover,,13.21,median,,check
+0195557AR,Styphnolobium japonicum,False,C\ Ricardo Villa,9.47,8.74,ok,,large
+0195558AR,Casuarina cunninghamiana,False,Via Augusta,20.62,10.79,ok,,large
+0195559AR,Platanus × acerifolia,True,C\ Vergós,3.09,2.2,ok,,small
+0195560AR,Styphnolobium japonicum,False,C\ Rosales,8.13,6.81,ok,,large
+0195561AR,Styphnolobium japonicum,False,C\ Rosari,,9.88,median,,check
+0195562AR,Jacaranda mimosifolia,False,C\ Vergós,,24.1,median,,check
+0195563AR,Celtis australis,False,C\ Doctor Fleming,,26.89,median,,check
+0195564AR,Platanus × acerifolia,True,C\ Doctor Carulla,10.68,10.18,ok,,large
+0195565AR,Styphnolobium japonicum,False,C\ Castellnou,5.75,4.9,ok,,medium
+0195566AR,Melia azedarach,False,Rda General Mitre,28.48,5.75,ok,,large
+0195568AR,Magnolia grandiflora,False,Rda General Mitre,17.77,8.55,ok,,large
+0195569AR,Platanus × acerifolia,True,C\ Escoles Pies,5.8,4.67,ok,,medium
+0195570AR,Platanus × acerifolia,True,C\ José de Agulló,4.88,4.14,ok,,medium
+0195571AR,Styphnolobium japonicum,False,C\ Rosales,7.61,6.46,ok,,large
+0195572AR,Celtis australis,False,C\ Castellnou,19.54,7.61,ok,,large
+0195573AR,Tipuana tipu,False,Pl Martí Llauradó,29.59,21.49,ok,,large
+0195574AR,Platanus × acerifolia,True,C\ Can Ràbia,16.13,11.37,ok,,large
+0195575AR,Melia azedarach,False,Pl Àngel Rodríguez,,10.77,no_kerb,,check
+0195576AR,Platanus × acerifolia,True,C\ Can Ràbia,13.32,11.94,ok,,large
+0195577AR,Tipuana tipu,False,C\ Santa Fe de Nou Mèxic,5.13,4.49,ok,,medium
+0195578AR,Platanus × acerifolia,True,Pg Bonanova,8.97,7.61,ok,,large
+0195580AR,Jacaranda mimosifolia,False,C\ Milanesat,7.77,6.18,ok,,large
+0195581AR,Platanus × acerifolia,True,Pg Sant Joan Bosco,3.51,3.08,ok,,medium
+0195582AR,Celtis australis,False,C\ Doctor Fleming,22.7,21.84,ok,,large
+0195583AR,Platanus × acerifolia,True,C\ Àngel Guimerà,5.6,4.73,ok,,medium
+0195585AR,Styphnolobium japonicum,False,C\ Alt de Gironella,,12.66,median,,check
+0195586AR,Platanus × acerifolia,True,C\ Doctor Carulla,8.38,7.16,ok,,large
+0195587AR,Melia azedarach,False,Pl Àngel Rodríguez,,3.7,no_kerb,,check
+0195588AR,Styphnolobium japonicum,False,C\ Ganduxer,8.05,5.86,ok,,large
+0195589AR,Tipuana tipu,False,C\ Doctor Fleming,24.44,6.04,ok,,large
+0195590AR,Gleditsia triacanthos 'sunburst',False,Rda General Mitre,,6.62,median,5.46,check
+0195591AR,Celtis australis,False,C\ Doctor Fleming,23.83,22.42,ok,,large
+0195592AR,Styphnolobium japonicum,False,C\ Àngel Guimerà,2.07,1.07,ok,,none
+0195593AR,Platanus × acerifolia,True,C\ Doctor Carulla,6.61,5.58,ok,,large
+0195594AR,Jacaranda mimosifolia,False,C\ Vergós,,15.45,median,,check
+0195595AR,Platanus × acerifolia,True,C\ Calatrava,6.67,6.92,ok,,large
+0195597AR,Platanus × acerifolia,True,C\ Àngel Guimerà,2.07,1.29,ok,,none
+0195598AR,Platanus × acerifolia,True,C\ Àngel Guimerà,4.4,3.29,ok,,medium
+0195599AR,Platanus × acerifolia,True,C\ Doctor Carulla,6.59,5.48,ok,,large
+0195600AR,Platanus × acerifolia,True,C\ Vergós,3.1,2.69,ok,,small
+0195601AR,Populus nigra 'Italica',False,Rda General Mitre,,19.66,median,19.19,check
+0195602AR,Platanus × acerifolia,True,Pg Bonanova,8.24,7.13,ok,,large
+0195603AR,Platanus × acerifolia,True,C\ Escoles Pies,7.31,6.97,ok,,large
+0195604AR,Gleditsia triacanthos 'sunburst',False,Rda General Mitre,19.52,17.96,ok,,large
+0195605AR,Magnolia grandiflora,False,C\ Ganduxer,,19.29,median,,check
+0195607AR,Celtis australis,False,C\ Doctor Fleming,23.06,21.71,ok,,large
+0195608AR,Styphnolobium japonicum,False,C\ Milanesat,2.93,2.26,ok,,small
+0195609AR,Styphnolobium japonicum,False,C\ Doctor Roux,5.25,4.04,ok,,medium
+0195610AR,Gleditsia triacanthos f. inermis,False,Rda General Mitre,,26.55,median,,check
+0195611AR,Platanus × acerifolia,True,C\ Pau Alcover,7.13,5.88,ok,,large
+0195612AR,Magnolia grandiflora,False,C\ Doctor Roux,5.87,4.97,ok,,medium
+0195613AR,Styphnolobium japonicum,False,C\ Milanesat,5.15,4.57,ok,,medium
+0195614AR,Platanus × acerifolia,True,C\ Can Ràbia,22.62,18.25,ok,,large
+0195616AR,Gleditsia triacanthos 'sunburst',False,Rda General Mitre,,23.25,median,,check
+0195618AR,Platanus × acerifolia,True,Pg Sant Joan Bosco,3.57,3.35,ok,,medium
+0195619AR,Platanus × acerifolia,True,C\ Doctor Roux,5.67,4.6,ok,,medium
+0195620AR,Styphnolobium japonicum,False,C\ Ricardo Villa,10.82,5.76,ok,,large
+0195622AR,Platanus × acerifolia,True,C\ Doctor Roux,3.16,2.9,ok,,small
+0195623AR,Brachychiton populneus,False,Via Augusta,9.96,3.14,ok,,large
+0195624AR,Platanus × acerifolia,True,C\ Doctor Carulla,8.94,6.0,ok,,large
+0195625AR,Platanus × acerifolia,True,C\ Escoles Pies,2.36,0.75,ok,,none
+0195626AR,Tipuana tipu,False,C\ Nena Casas,18.69,13.37,ok,,large
+0195627AR,Koelreuteria paniculata,False,C\ Ganduxer,4.5,3.49,ok,,medium
+0195628AR,Tipuana tipu,False,Pl Joaquim Pena,6.21,5.57,ok,,large
+0195629AR,Celtis australis,False,Pl Eguilaz,4.44,4.12,ok,,medium
+0195630AR,Platanus × acerifolia,True,Via Augusta,9.7,7.09,ok,,large
+0195631AR,Platanus × acerifolia,True,C\ Doctor Carulla,5.8,4.2,ok,,medium
+0195632AR,Tipuana tipu,False,C\ Bori i Fontestà,18.73,18.08,ok,,large
+0195633AR,Platanus × acerifolia,True,Pg Bonanova,6.95,6.36,ok,,large
+0195634AR,Melia azedarach,False,Rda General Mitre,28.42,11.95,ok,,large
+0195635AR,Platanus × acerifolia,True,Via Augusta,12.31,5.25,ok,,large
+0195636AR,Melia azedarach,False,Pl Àngel Rodríguez,,17.48,no_kerb,,check
+0195637AR,Platanus × acerifolia,True,C\ Escoles Pies,2.69,1.75,ok,,small
+0195638AR,Styphnolobium japonicum,False,C\ Emancipació,7.03,5.98,ok,,large
+0195639AR,Brachychiton populneus,False,Via Augusta,19.97,18.25,ok,,large
+0195640AR,Styphnolobium japonicum,False,C\ Emancipació,7.24,6.09,ok,,large
+0195641AR,Platanus × acerifolia,True,Via Augusta,8.31,5.41,ok,,large
+0195642AR,Gleditsia triacanthos 'sunburst',False,Rda General Mitre,,28.25,median,,check
+0195643AR,Tipuana tipu,False,Pl Martí Llauradó,,16.07,no_kerb,,check
+0195644AR,Magnolia grandiflora,False,C\ Vergós,3.18,2.42,ok,,small
+0195646AR,Styphnolobium japonicum,False,C\ Rosari,,10.12,median,,check
+0195647AR,Platanus × acerifolia,True,C\ Demestre,6.76,5.57,ok,,large
+0195648AR,Platanus × acerifolia,True,C\ Doctor Carulla,,15.92,median,,check
+0195649AR,Jacaranda mimosifolia,False,C\ Milanesat,6.88,5.34,ok,,large
+0195650AR,Celtis australis,False,Via Augusta,9.14,7.6,ok,,large
+0195651AR,Platanus × acerifolia,True,C\ Vergós,3.21,2.46,ok,,small
+0195652AR,Ligustrum lucidum,False,C\ Tres Torres,5.94,5.04,ok,,medium
+0195653AR,Brachychiton populneus,False,C\ Nena Casas,8.58,7.86,ok,,large
+0195654AR,Brachychiton populneus,False,C\ Àngel Guimerà,28.44,10.53,ok,,large
+0195655AR,Platanus × acerifolia,True,C\ Doctor Carulla,6.63,5.85,ok,,large
+0195656AR,Platanus × acerifolia,True,Pg Sant Joan Bosco,3.4,3.66,ok,,small
+0195657AR,Koelreuteria paniculata,False,C\ Ganduxer,4.34,3.4,ok,,medium
+0195658AR,Quercus ilex,False,Via Augusta,13.66,11.39,ok,,large
+0195659AR,Platanus × acerifolia,True,C\ Escoles Pies,20.55,6.15,ok,,large
+0195660AR,Platanus × acerifolia,True,C\ Can Ràbia,6.93,5.93,ok,,large
+0195661AR,Pinus halepensis,False,C\ Milanesat,7.46,6.6,ok,,large
+0195662AR,Celtis australis,False,Via Augusta,9.87,9.15,ok,,large
+0195663AR,Styphnolobium japonicum 'Dot',False,C\ Ganduxer,5.6,4.44,ok,,medium
+0195665AR,Platanus × acerifolia,True,C\ Can Ràbia,,26.65,median,,check
+0195666AR,Platanus × acerifolia,True,Via Augusta,16.78,12.11,ok,,large
+0195667AR,Platanus × acerifolia,True,C\ Doctor Roux,8.23,7.64,ok,,large
+0195668AR,Magnolia grandiflora,False,C\ Castellnou,5.31,4.21,ok,,medium
+0195670AR,Platanus × acerifolia,True,C\ Àngel Guimerà,4.48,3.77,ok,,medium
+0195671AR,Magnolia grandiflora,False,C\ Alt de Gironella,8.98,7.66,ok,,large
+0195672AR,Platanus × acerifolia,True,Pg Sant Joan Bosco,,20.0,median,10.78,check
+0195673AR,Celtis australis,False,Rda General Mitre,8.18,7.63,ok,,large
+0195674AR,Magnolia grandiflora,False,Rda General Mitre,10.8,3.65,ok,,large
+0195675AR,Styphnolobium japonicum,False,C\ Ricardo Villa,20.82,18.83,ok,,large
+0195676AR,Acer negundo,False,C\ Calatrava,4.88,3.57,ok,,medium
+0195678AR,Platanus × acerifolia,True,C\ Doctor Carulla,6.33,5.22,ok,,large
+0195679AR,Platanus × acerifolia,True,C\ Escoles Pies,5.92,5.22,ok,,medium
+0195680AR,Platanus × acerifolia,True,C\ Can Ràbia,12.36,11.45,ok,,large
+0195681AR,Brachychiton populneus,False,C\ Rosari,5.82,5.05,ok,,medium
+0195682AR,Platanus × acerifolia,True,C\ Doctor Roux,5.53,3.85,ok,,medium
+0195683AR,Casuarina cunninghamiana,False,Rda General Mitre,15.37,12.24,ok,,large
+0195684AR,Celtis australis,False,Rda General Mitre,11.54,11.34,ok,,large
+0195685AR,Styphnolobium japonicum,False,C\ Doctor Carulla,7.94,6.49,ok,,large
+0195686AR,Platanus × acerifolia,True,C\ Can Ràbia,3.6,2.54,ok,,medium
+0195687AR,Styphnolobium japonicum,False,C\ Doctor Roux,1.95,0.35,ok,,none
+0195688AR,Photinia x fraseri 'Red Robin',False,C\ Àngel Guimerà,8.76,7.98,ok,,large
+0195689AR,Melia azedarach,False,Pl Àngel Rodríguez,,8.65,no_kerb,,check
+0195691AR,Platanus × acerifolia,True,Via Augusta,18.37,10.65,ok,,large
+0195692AR,Platanus × acerifolia,True,C\ Alt de Gironella,7.4,7.23,ok,,large
+0195693AR,Cercis siliquastrum,False,C\ Ricardo Villa,,21.24,median,21.56,check
+0195694AR,Platanus × acerifolia,True,C\ Pau Alcover,5.23,4.27,ok,,medium
+0195696AR,Populus alba 'Pyramidalis',False,Rda General Mitre,22.83,21.62,ok,,large
+0195697AR,Platanus × acerifolia,True,C\ Vergós,11.6,11.07,ok,,large
+0195701AR,Cupressus sempervirens,False,C\ Calatrava,4.86,3.57,ok,,medium
+0195702AR,Celtis australis,False,C\ Doctor Fleming,,26.76,median,16.13,check
+0195703AR,Platanus × acerifolia,True,C\ Ricardo Villa,25.19,5.41,ok,,large
+0195704AR,Melia azedarach,False,Pl Àngel Rodríguez,,19.38,no_kerb,,check
+0195705AR,Ulmus pumila,False,C\ Vergós,9.31,7.99,ok,,large
+0195706AR,Celtis australis,False,Rda General Mitre,10.05,9.45,ok,,large
+0195708AR,Ligustrum lucidum,False,C\ Castellnou,6.08,5.7,ok,,large
+0195709AR,Tipuana tipu,False,C\ Santa Fe de Nou Mèxic,5.39,4.24,ok,,medium
+0195710AR,Styphnolobium japonicum,False,C\ Ganduxer,6.43,5.67,ok,,large
+0195712AR,Gleditsia triacanthos 'sunburst',False,Rda General Mitre,,27.71,no_kerb,,check
+0195713AR,Platanus × acerifolia,True,C\ Doctor Roux,7.41,5.91,ok,,large
+0195714AR,Celtis australis,False,C\ Bori i Fontestà,16.51,15.52,ok,,large
+0195716AR,Melia azedarach,False,Rda General Mitre,,19.72,no_kerb,,check
+0195717AR,Platanus × acerifolia,True,C\ Pau Alcover,6.06,4.37,ok,,large
+0195718AR,Platanus × acerifolia,True,Pg Bonanova,9.93,8.22,ok,,large
+0195719AR,Brachychiton populneus,False,C\ Nena Casas,5.33,3.94,ok,,medium
+0195720AR,Pinus pinea,False,Via Augusta,16.58,10.93,ok,,large
+0195721AR,Melia azedarach,False,Pl Àngel Rodríguez,,22.71,no_kerb,,check
+0195722AR,Celtis australis,False,C\ Doctor Fleming,22.93,21.27,ok,,large
+0195724AR,Ulmus pumila,False,C\ Emancipació,7.06,5.99,ok,,large
+0195725AR,Magnolia grandiflora 'Goliath',False,C\ Àngel Guimerà,4.6,3.69,ok,,medium
+0195726AR,Platanus × acerifolia,True,C\ Doctor Roux,5.23,4.34,ok,,medium
+0195727AR,Populus alba,False,Rda General Mitre,21.49,19.99,ok,,large
+0195729AR,Platanus × acerifolia,True,Pl Eguilaz,,19.58,median,1.5,check
+0195730AR,Cercis siliquastrum,False,C\ Ricardo Villa,,21.19,median,18.89,check
+0195731AR,Tilia x euchlora,False,C\ Milanesat,6.66,6.66,ok,,large
+0195732AR,Brachychiton populneus,False,C\ Nena Casas,,10.95,median,,check
+0195733AR,Platanus × acerifolia,True,C\ Doctor Roux,,11.99,median,,check
+0195735AR,Tipuana tipu,False,C\ Nena Casas,3.66,3.74,ok,,medium
+0195737AR,Styphnolobium japonicum,False,C\ Vergós,14.13,14.04,ok,,large
+0195738AR,Brachychiton acerifolius,False,C\ Nena Casas,5.88,4.72,ok,,medium
+0195739AR,Celtis australis,False,C\ Doctor Fleming,23.26,13.89,ok,,large
+0195740AR,Celtis australis,False,C\ Doctor Fleming,26.52,25.67,ok,,large
+0195741AR,Platanus × acerifolia,True,C\ Milanesat,14.1,9.07,ok,,large
+0195743AR,Celtis australis,False,Via Augusta,9.11,7.5,ok,,large
+0195744AR,Celtis australis,False,Rda General Mitre,12.02,11.24,ok,,large
+0195745AR,Styphnolobium japonicum,False,Ptge Ricard Zamora,3.17,2.31,ok,,small
+0195746AR,Casuarina cunninghamiana,False,Rda General Mitre,13.57,11.16,ok,,large
+0195747AR,Platanus × acerifolia,True,Pl Eguilaz,,7.15,median,,check
+0195748AR,Prunus cerasifera 'Pissardii',False,C\ Nena Casas,17.92,6.01,ok,,large
+0195749AR,Styphnolobium japonicum,False,C\ Milanesat,3.07,0.79,ok,,small
+0195750AR,Celtis australis,False,Via Augusta,12.33,11.7,ok,,large
+0195751AR,Platanus × acerifolia,True,Pg Sant Joan Bosco,3.54,3.35,ok,,medium
+0195752AR,Styphnolobium japonicum,False,Ptge Ricard Zamora,5.02,4.56,ok,,medium
+0195753AR,Platanus × acerifolia,True,C\ Àngel Guimerà,5.88,5.3,ok,,medium
+0195754AR,Platanus × acerifolia,True,C\ Can Ràbia,14.73,9.74,ok,,large
+0195755AR,Platanus × acerifolia,True,C\ Doctor Roux,6.88,6.29,ok,,large
+0195756AR,Casuarina cunninghamiana,False,Rda General Mitre,10.79,9.2,ok,,large
+0195757AR,Magnolia grandiflora,False,C\ Castellnou,6.38,5.68,ok,,large
+0195758AR,Platanus × acerifolia,True,C\ Alt de Gironella,4.71,3.9,ok,,medium
+0195760AR,Platanus × acerifolia,True,C\ Escoles Pies,4.49,4.57,ok,,medium
+0195761AR,Magnolia grandiflora,False,C\ Àngel Guimerà,5.22,4.71,ok,,medium
+0195762AR,Platanus × acerifolia,True,C\ Pau Alcover,6.15,5.64,ok,,large
+0195763AR,Brachychiton populneus,False,C\ José de Agulló,25.25,9.82,ok,,large
+0195764AR,Styphnolobium japonicum,False,C\ Doctor Carulla,20.37,18.15,ok,,large
+0195765AR,Platanus × acerifolia,True,C\ Vergós,4.85,4.08,ok,,medium
+0195766AR,Styphnolobium japonicum,False,C\ Milanesat,7.23,5.1,ok,,large
+0195767AR,Quercus ilex,False,Via Augusta,11.9,8.9,ok,,large
+0195768AR,Magnolia grandiflora,False,C\ Àngel Guimerà,6.19,5.45,ok,,large
+0195769AR,Tilia x euchlora,False,C\ Milanesat,3.15,2.51,ok,,small
+0195770AR,Brachychiton populneus,False,Via Augusta,,11.82,median,,check
+0195771AR,Populus nigra 'Italica',False,Rda General Mitre,13.63,11.85,ok,,large
+0195772AR,Platanus × acerifolia,True,C\ Doctor Carulla,5.78,5.94,ok,,medium
+0195773AR,Styphnolobium japonicum,False,C\ Milanesat,3.95,2.28,ok,,medium
+0195775AR,Platanus × acerifolia,True,C\ Pau Alcover,5.51,4.29,ok,,medium
+0195776AR,Platanus × acerifolia,True,C\ Doctor Carulla,6.79,5.19,ok,,large
+0195777AR,Tipuana tipu,False,C\ Doctor Fleming,23.09,5.15,ok,,large
+0195778AR,Quercus ilex,False,Via Augusta,18.1,15.83,ok,,large
+0195779AR,Styphnolobium japonicum,False,C\ Ganduxer,3.05,2.0,ok,,small
+0195780AR,Platanus × acerifolia,True,C\ Castellnou,6.39,5.25,ok,,large
+0195781AR,Brachychiton populneus,False,Rda General Mitre,23.01,15.28,ok,,large
+0195782AR,Populus alba 'Pyramidalis',False,Rda General Mitre,19.87,13.78,ok,,large
+0195783AR,Magnolia grandiflora,False,C\ Castellnou,3.21,2.48,ok,,small
+0195784AR,Celtis australis,False,Via Augusta,15.37,11.79,ok,,large
+0195785AR,Platanus × acerifolia,True,C\ Doctor Roux,4.72,4.27,ok,,medium
+0195786AR,Magnolia grandiflora,False,C\ Emancipació,9.04,9.6,ok,,large
+0195787AR,Platanus × acerifolia,True,Pg Sant Joan Bosco,10.01,8.86,ok,,large
+0195788AR,Casuarina cunninghamiana,False,Rda General Mitre,9.32,7.57,ok,,large
+0195789AR,Jacaranda mimosifolia,False,Pg Sant Joan Bosco,3.5,3.64,ok,,medium
+0195790AR,Platanus × acerifolia,True,C\ Pau Alcover,5.19,4.41,ok,,medium
+0195791AR,Brachychiton populneus,False,Via Augusta,20.04,8.14,ok,,large
+0195792AR,Quercus ilex,False,Via Augusta,24.73,18.51,ok,,large
+0195793AR,Tipuana tipu,False,C\ Nena Casas,2.05,2.62,ok,,none
+0195795AR,Platanus × acerifolia,True,C\ Pau Alcover,5.18,4.3,ok,,medium
+0195796AR,Tipuana tipu,False,C\ Bori i Fontestà,,14.0,median,3.42,check
+0195797AR,Styphnolobium japonicum,False,C\ Vergós,6.47,5.5,ok,,large
+0195798AR,Platanus × acerifolia,True,C\ Doctor Roux,6.51,5.41,ok,,large
+0195800AR,Magnolia grandiflora,False,C\ Emancipació,7.64,6.6,ok,,large
+0195801AR,Styphnolobium japonicum,False,C\ Doctor Roux,5.77,4.78,ok,,medium
+0195802AR,Platanus × acerifolia,True,Pl Eguilaz,,17.93,median,1.5,check
+0195803AR,Celtis australis,False,Rda General Mitre,8.74,8.21,ok,,large
+0195804AR,Platanus × acerifolia,True,C\ Pau Alcover,,5.51,median,3.35,check
+0195805AR,Styphnolobium japonicum,False,C\ Calatrava,4.81,3.55,ok,,medium
+0195806AR,Celtis australis,False,Av Sarrià,,31.35,no_facade,11.85,check
+0195807AR,Tipuana tipu,False,Pl Joaquim Pena,4.15,2.79,ok,,medium
+0195809AR,Pinus halepensis,False,Via Augusta,13.65,11.12,ok,,large
+0195810AR,Styphnolobium japonicum,False,C\ Ricardo Villa,,23.42,median,,check
+0195811AR,Magnolia grandiflora,False,C\ Doctor Roux,5.46,5.17,ok,,medium
+0195812AR,Styphnolobium japonicum,False,C\ Emancipació,8.0,6.69,ok,,large
+0195814AR,Jacaranda mimosifolia,False,C\ Milanesat,6.7,5.41,ok,,large
+0195815AR,Gleditsia triacanthos f. inermis,False,Rda General Mitre,,32.53,no_facade,,check
+0195817AR,Styphnolobium japonicum,False,C\ Ganduxer,6.53,5.46,ok,,large
+0195818AR,Tipuana tipu,False,C\ Nena Casas,17.96,12.76,ok,,large
+0195819AR,Celtis australis,False,Pl Eguilaz,,5.97,median,,check
+0195820AR,Platanus × acerifolia,True,C\ Can Ràbia,17.03,16.55,ok,,large
+0195821AR,Tipuana tipu,False,C\ Bori i Fontestà,,15.54,median,15.25,check
+0195822AR,Acer buergerianum,False,Ptge Ricard Zamora,4.98,4.5,ok,,medium
+0195823AR,Acer negundo,False,C\ Calatrava,3.93,3.04,ok,,medium
+0195824AR,Platanus × acerifolia,True,Pl Eguilaz,15.57,14.95,ok,,large
+0195825AR,Tipuana tipu,False,C\ Nena Casas,16.01,10.75,ok,,large
+0195826AR,Celtis australis,False,Rda General Mitre,7.61,7.05,ok,,large
+0195828AR,Melia azedarach,False,Pl Àngel Rodríguez,,15.15,no_kerb,,check
+0195829AR,Styphnolobium japonicum,False,C\ Ricardo Villa,9.51,8.51,ok,,large
+0195830AR,Populus nigra 'Italica',False,Rda General Mitre,9.17,8.16,ok,,large
+0195832AR,Celtis australis,False,C\ Doctor Fleming,23.72,22.3,ok,,large
+0195834AR,Platanus × acerifolia,True,C\ Doctor Roux,5.85,4.41,ok,,medium
+0195835AR,Platanus × acerifolia,True,Pg Bonanova,7.15,6.12,ok,,large
+0195836AR,Celtis australis,False,C\ Doctor Fleming,23.75,22.27,ok,,large
+0195837AR,Tipuana tipu,False,Rda General Mitre,12.0,7.65,ok,,large
+0195838AR,Platanus × acerifolia,True,C\ Escoles Pies,6.51,6.44,ok,,large
+0195839AR,Platanus × acerifolia,True,C\ Doctor Roux,13.77,11.34,ok,,large
+0195840AR,Acer negundo,False,C\ Àngel Guimerà,1.81,1.39,ok,,none
+0195841AR,Styphnolobium japonicum,False,C\ Ricardo Villa,9.52,8.99,ok,,large
+0195842AR,Platanus × acerifolia,True,C\ Tres Torres,6.25,5.33,ok,,large
+0195843AR,Platanus × acerifolia,True,C\ Milanesat,7.93,7.05,ok,,large
+0195844AR,Tipuana tipu,False,Rda General Mitre,22.43,20.17,ok,,large
+0195845AR,Populus alba 'Pyramidalis',False,Rda General Mitre,16.43,10.1,ok,,large
+0195846AR,Platanus × acerifolia,True,Via Augusta,12.18,5.21,ok,,large
+0195847AR,Platanus × acerifolia,True,C\ Àngel Guimerà,6.77,5.78,ok,,large
+0195848AR,Styphnolobium japonicum,False,C\ Doctor Carulla,3.13,2.32,ok,,small
+0195849AR,Magnolia grandiflora,False,C\ Castellnou,3.43,2.47,ok,,small
+0195850AR,Platanus × acerifolia,True,C\ Doctor Carulla,,5.79,median,3.12,check
+0195851AR,Brachychiton populneus,False,C\ Nena Casas,6.68,5.17,ok,,large
+0195852AR,Platanus × acerifolia,True,C\ Escoles Pies,5.25,4.41,ok,,medium
+0195854AR,Styphnolobium japonicum,False,Ptge Ricard Zamora,5.05,4.62,ok,,medium
+0195855AR,Platanus × acerifolia,True,Pg Bonanova,10.18,8.78,ok,,large
+0195856AR,Platanus × acerifolia,True,C\ Doctor Carulla,6.79,5.34,ok,,large
+0195857AR,Ulmus pumila,False,C\ Castellnou,3.29,2.48,ok,,small
+0195858AR,Melia azedarach,False,Pl Àngel Rodríguez,,10.64,no_kerb,,check
+0195859AR,Ligustrum lucidum,False,C\ Calatrava,5.94,5.57,ok,,medium
+0195860AR,Platanus × acerifolia,True,C\ Doctor Carulla,5.74,5.68,ok,,medium
+0195862AR,Platanus × acerifolia,True,C\ Rosari,5.25,4.38,ok,,medium
+0195863AR,Styphnolobium japonicum,False,C\ Vergós,7.02,5.53,ok,,large
+0195864AR,Brachychiton populneus,False,C\ Nena Casas,6.59,5.42,ok,,large
+0195865AR,Jacaranda mimosifolia,False,C\ Milanesat,2.51,1.43,ok,,small
+0195866AR,Platanus × acerifolia,True,C\ Alt de Gironella,,8.92,median,,check
+0195868AR,Platanus × acerifolia,True,Pg Sant Joan Bosco,18.88,18.87,ok,,large
+0195869AR,Melia azedarach,False,Pl Àngel Rodríguez,12.1,6.15,ok,,large
+0195870AR,Jacaranda mimosifolia,False,C\ Gironella,,5.73,median,2.75,check
+0195871AR,Platanus × acerifolia,True,C\ Doctor Carulla,6.59,6.01,ok,,large
+0195872AR,Aesculus hippocastanum,False,Ptge Fontanelles,,7.32,median,,check
+0195873AR,Magnolia grandiflora,False,C\ Àngel Guimerà,4.61,3.79,ok,,medium
+0195874AR,Magnolia grandiflora,False,C\ Castellnou,,6.17,median,2.81,check
+0195875AR,Platanus × acerifolia,True,C\ Doctor Roux,5.83,4.37,ok,,medium
+0195876AR,Platanus × acerifolia,True,C\ Pau Alcover,3.27,2.67,ok,,small
+0195877AR,Platanus × acerifolia,True,C\ Doctor Carulla,4.88,3.82,ok,,medium
+0195878AR,Platanus × acerifolia,True,C\ Doctor Carulla,6.77,6.29,ok,,large
+0195879AR,Platanus × acerifolia,True,Pg Sant Joan Bosco,9.47,9.29,ok,,large
+0195880AR,Magnolia grandiflora,False,C\ Demestre,4.08,2.67,ok,,medium
+0195881AR,Platanus × acerifolia,True,Pg Bonanova,8.3,7.18,ok,,large
+0195882AR,Platanus × acerifolia,True,Pg Sant Joan Bosco,3.66,3.73,ok,,medium
+0195883AR,Platanus × acerifolia,True,C\ Demestre,,8.64,median,3.56,check
+0195884AR,Koelreuteria paniculata,False,C\ Ganduxer,3.08,2.31,ok,,small
+0195885AR,Melia azedarach,False,Pl Àngel Rodríguez,,5.24,no_kerb,,check
+0195888AR,Magnolia grandiflora,False,C\ Calatrava,7.51,6.78,ok,,large
+0195889AR,Platanus × acerifolia,True,Pg Sant Joan Bosco,3.49,3.22,ok,,small
+0195890AR,Firmiana simplex,False,C\ Emancipació,6.96,7.14,ok,,large
+0195891AR,Cercis siliquastrum,False,C\ Ricardo Villa,,21.14,median,13.87,check
+0195892AR,Platanus × acerifolia,True,Pg Bonanova,7.15,6.08,ok,,large
+0195893AR,Melia azedarach,False,Pl Àngel Rodríguez,,11.4,no_kerb,,check
+0195895AR,Platanus × acerifolia,True,C\ Doctor Roux,,11.86,median,,check
+0195896AR,Celtis australis,False,Rda General Mitre,12.7,11.8,ok,,large
+0195897AR,Brachychiton acerifolius,False,C\ Nena Casas,6.33,5.25,ok,,large
+0195898AR,Styphnolobium japonicum,False,C\ Àngel Guimerà,4.63,3.74,ok,,medium
+0195899AR,Platanus × acerifolia,True,C\ Pau Alcover,5.76,5.56,ok,,medium
+0195900AR,Celtis australis,False,C\ Doctor Fleming,23.31,14.95,ok,,large
+0195901AR,Platanus × acerifolia,True,C\ Doctor Carulla,8.23,7.44,ok,,large
+0195902AR,Melia azedarach,False,Pl Àngel Rodríguez,,8.72,no_kerb,,check
+0195903AR,Platanus × acerifolia,True,C\ Milanesat,6.54,6.23,ok,,large
+0195904AR,Styphnolobium japonicum,False,C\ Rosales,6.54,5.52,ok,,large
+0195906AR,Casuarina cunninghamiana,False,Rda General Mitre,12.03,10.29,ok,,large
+0195907AR,Melia azedarach,False,Rda General Mitre,,5.73,no_kerb,,check
+0195908AR,Platanus × acerifolia,True,C\ Alt de Gironella,,8.19,median,,check
+0195909AR,Platanus × acerifolia,True,C\ Milanesat,5.9,4.9,ok,,medium
+0195910AR,Gleditsia triacanthos f. inermis,False,Rda General Mitre,,17.83,median,15.71,check
+0195911AR,Magnolia grandiflora,False,C\ Ganduxer,7.93,7.03,ok,,large
+0195912AR,Populus alba 'Pyramidalis',False,Rda General Mitre,19.47,13.1,ok,,large
+0195913AR,Styphnolobium japonicum,False,C\ Ganduxer,6.02,4.89,ok,,large
+0195914AR,Acer negundo,False,C\ Calatrava,8.32,7.91,ok,,large
+0195915AR,Platanus × acerifolia,True,C\ Escoles Pies,2.49,1.9,ok,,none
+0195916AR,Celtis australis,False,C\ Castellnou,,4.15,no_kerb,,check
+0195917AR,Quercus ilex,False,Via Augusta,9.93,7.67,ok,,large
+0195918AR,Platanus × acerifolia,True,C\ Doctor Carulla,,4.65,median,3.14,check
+0195920AR,Gleditsia triacanthos 'sunburst',False,Rda General Mitre,13.19,12.32,ok,,large
+0195921AR,Magnolia grandiflora,False,C\ Castellnou,2.89,2.16,ok,,small
+0195922AR,Platanus × acerifolia,True,C\ Doctor Roux,5.48,4.88,ok,,medium
+0195923AR,Platanus × acerifolia,True,C\ Vergós,6.5,5.48,ok,,large
+0195924AR,Melia azedarach,False,Rda General Mitre,,30.59,no_facade,,check
+0195925AR,Gleditsia triacanthos 'sunburst',False,Rda General Mitre,7.85,7.21,ok,,large
+0195926AR,Styphnolobium japonicum,False,C\ Milanesat,6.04,5.38,ok,,large
+0195927AR,Platanus × acerifolia,True,Pg Sant Joan Bosco,,18.72,median,10.74,check
+0195928AR,Populus nigra 'Italica',False,Rda General Mitre,17.61,16.59,ok,,large
+0195929AR,Quercus ilex,False,Via Augusta,6.83,5.2,ok,,large
+0195930AR,Platanus × acerifolia,True,Pg Sant Joan Bosco,3.53,3.65,ok,,medium
+0195931AR,Tipuana tipu,False,C\ Nena Casas,,9.91,median,16.23,check
+0195932AR,Tipuana tipu,False,Pl Eguilaz,,7.39,no_kerb,25.11,check
+0195933AR,Celtis australis,False,Via Augusta,8.47,7.55,ok,,large
+0195934AR,Styphnolobium japonicum,False,C\ Milanesat,3.02,2.3,ok,,small
+0195935AR,Celtis australis,False,Via Augusta,9.03,8.14,ok,,large
+0195936AR,Platanus × acerifolia,True,C\ Pau Alcover,3.84,3.01,ok,,medium
+0195937AR,Platanus × acerifolia,True,C\ Alt de Gironella,4.78,3.99,ok,,medium
+0195940AR,Pyrus calleryana 'Chanticleer',False,C\ Escoles Pies,2.65,1.55,ok,,small
+0195941AR,Platanus × acerifolia,True,C\ Pau Alcover,5.71,4.69,ok,,medium
+0195942AR,Tipuana tipu,False,C\ Santa Fe de Nou Mèxic,10.43,9.21,ok,,large
+0195943AR,Ligustrum lucidum,False,C\ Tres Torres,3.89,3.21,ok,,medium
+0195944AR,Platanus × acerifolia,True,C\ Can Ràbia,17.07,10.84,ok,,large
+0195945AR,Magnolia grandiflora,False,C\ Àngel Guimerà,8.73,8.02,ok,,large
+0195946AR,Brachychiton populneus,False,Via Augusta,22.39,21.45,ok,,large
+0195947AR,Styphnolobium japonicum,False,C\ Milanesat,2.99,1.5,ok,,small
+0195948AR,Casuarina cunninghamiana,False,Rda General Mitre,10.9,9.44,ok,,large
+0195949AR,Tipuana tipu,False,C\ Santa Fe de Nou Mèxic,9.52,8.57,ok,,large
+0195950AR,Styphnolobium japonicum,False,C\ Ricardo Villa,9.5,8.7,ok,,large
+0195951AR,Platanus × acerifolia,True,C\ Pau Alcover,7.94,5.43,ok,,large
+0195952AR,Platanus × acerifolia,True,C\ Doctor Carulla,,10.16,median,,check
+0195953AR,Platanus × acerifolia,True,C\ Doctor Roux,,12.0,median,,check
+0195954AR,Melia azedarach,False,Pl Àngel Rodríguez,,5.36,no_kerb,,check
+0195955AR,Platanus × acerifolia,True,C\ Doctor Roux,7.08,6.93,ok,,large
+0195956AR,Platanus × acerifolia,True,C\ Escoles Pies,10.4,8.76,ok,,large
+0195958AR,Tipuana tipu,False,C\ Doctor Fleming,27.79,7.31,ok,,large
+0195959AR,Celtis australis,False,C\ Doctor Fleming,23.01,21.71,ok,,large
+0195960AR,Platanus × acerifolia,True,Via Augusta,12.24,5.26,ok,,large
+0195961AR,Magnolia grandiflora,False,C\ Ganduxer,,17.89,median,,check
+0195962AR,Magnolia grandiflora,False,C\ Doctor Roux,,10.56,median,,check
+0195963AR,Magnolia grandiflora,False,C\ Alt de Gironella,1.99,1.09,ok,,none
+0195964AR,Platanus × acerifolia,True,C\ Pau Alcover,,11.28,median,3.2,check
+0195965AR,Platanus × acerifolia,True,Pg Sant Joan Bosco,3.52,3.35,ok,,medium
+0195966AR,Robinia pseudoacacia,False,C\ Nena Casas,8.79,6.38,ok,,large
+0195967AR,Brachychiton populneus,False,C\ Nena Casas,8.53,7.79,ok,,large
+0195968AR,Celtis australis,False,C\ Doctor Fleming,,32.59,no_facade,,check
+0195969AR,Platanus × acerifolia,True,C\ Can Ràbia,3.74,3.2,ok,,medium
+0195971AR,Celtis australis,False,Rda General Mitre,14.37,13.54,ok,,large
+0195972AR,Platanus × acerifolia,True,C\ Alt de Gironella,4.9,4.04,ok,,medium
+0195973AR,Platanus × acerifolia,True,Via Augusta,9.8,3.14,ok,,large
+0195974AR,Tipuana tipu,False,Rda General Mitre,9.31,7.83,ok,,large
+0195975AR,Tipuana tipu,False,C\ Doctor Fleming,22.92,6.82,ok,,large
+0195976AR,Platanus × acerifolia,True,C\ Vergós,10.86,10.35,ok,,large
+0195977AR,Populus alba 'Pyramidalis',False,Rda General Mitre,22.15,20.84,ok,,large
+0195978AR,Melia azedarach,False,Pl Àngel Rodríguez,,3.77,no_kerb,,check
+0195979AR,Platanus × acerifolia,True,C\ Pau Alcover,9.42,9.01,ok,,large
+0195980AR,Platanus × acerifolia,True,C\ Doctor Roux,5.03,4.44,ok,,medium
+0195981AR,Celtis australis,False,C\ Doctor Fleming,22.97,14.09,ok,,large
+0195982AR,Platanus × acerifolia,True,C\ Vergós,,14.94,median,,check
+0195983AR,Magnolia grandiflora,False,C\ Doctor Roux,5.01,4.54,ok,,medium
+0195984AR,Tipuana tipu,False,C\ Santa Fe de Nou Mèxic,4.9,4.2,ok,,medium
+0195985AR,Tipuana tipu,False,Pl Joaquim Pena,4.15,2.77,ok,,medium
+0195986AR,Platanus × acerifolia,True,C\ Escoles Pies,2.58,1.94,ok,,small
+0195987AR,Styphnolobium japonicum,False,C\ Ganduxer,,18.09,median,,check
+0195988AR,Platanus × acerifolia,True,C\ Pau Alcover,7.49,7.61,ok,,large
+0195990AR,Platanus × acerifolia,True,C\ Can Ràbia,16.4,12.66,ok,,large
+0195991AR,Platanus × acerifolia,True,C\ Vergós,,10.6,median,,check
+0195992AR,Tipuana tipu,False,Pl Martí Llauradó,,13.04,median,13.63,check
+0195993AR,Platanus × acerifolia,True,C\ Escoles Pies,11.69,9.99,ok,,large
+0195994AR,Tipuana tipu,False,C\ Santa Fe de Nou Mèxic,5.13,4.38,ok,,medium
+0195996AR,Platanus × acerifolia,True,C\ Doctor Carulla,6.16,4.65,ok,,large
+0195997AR,Tipuana tipu,False,Pl Eguilaz,,14.9,no_kerb,,check
+0195999AR,Platanus × acerifolia,True,C\ Àngel Guimerà,1.92,0.72,ok,,none
+0196000AR,Magnolia grandiflora,False,C\ Milanesat,2.97,1.97,ok,,small
+0196001AR,Platanus × acerifolia,True,C\ Vergós,6.96,5.66,ok,,large
+0196002AR,Celtis australis,False,Rda General Mitre,6.49,5.88,ok,,large
+0196003AR,Styphnolobium japonicum,False,C\ Ricardo Villa,11.93,8.8,ok,,large
+0196004AR,Magnolia grandiflora,False,Rda General Mitre,13.68,4.61,ok,,large
+0196005AR,Styphnolobium japonicum,False,C\ Calatrava,13.63,9.86,ok,,large
+0196006AR,Melia azedarach,False,Rda General Mitre,,11.94,no_kerb,,check
+0196007AR,Platanus × acerifolia,True,C\ Pau Alcover,8.33,7.75,ok,,large
+0196008AR,Magnolia grandiflora,False,C\ Àngel Guimerà,5.81,4.87,ok,,medium
+0196009AR,Celtis australis,False,Via Augusta,11.61,10.73,ok,,large
+0196010AR,Styphnolobium japonicum,False,Ptge Ricard Zamora,,4.31,median,1.47,check
+0196012AR,Platanus × acerifolia,True,C\ Doctor Carulla,,13.81,median,9.87,check
+0196013AR,Styphnolobium japonicum,False,C\ Vergós,3.14,2.16,ok,,small
+0196014AR,Styphnolobium japonicum,False,C\ Ganduxer,3.05,1.93,ok,,small
+0196015AR,Platanus × acerifolia,True,Via Augusta,13.99,6.32,ok,,large
+0196016AR,Ginkgo biloba 'Fastigiata',False,C\ Rosales,6.56,5.58,ok,,large
+0196017AR,Melia azedarach,False,Pl Àngel Rodríguez,,22.09,no_kerb,,check
+0196018AR,Platanus × acerifolia,True,C\ Doctor Carulla,6.7,5.4,ok,,large
+0196019AR,Celtis australis,False,Av Sarrià,,31.42,no_facade,26.38,check
+0196020AR,Platanus × acerifolia,True,C\ Escoles Pies,6.56,5.16,ok,,large
+0196021AR,Magnolia grandiflora,False,C\ Ganduxer,4.32,3.45,ok,,medium
+0196022AR,Platanus × acerifolia,True,C\ Doctor Roux,3.4,1.75,ok,,small
+0196023AR,Styphnolobium japonicum,False,C\ Doctor Carulla,7.02,5.97,ok,,large
+0196024AR,Brachychiton populneus,False,Rda General Mitre,26.03,19.0,ok,,large
+0196025AR,Platanus × acerifolia,True,C\ Doctor Carulla,6.33,5.24,ok,,large
+0196026AR,Styphnolobium japonicum,False,C\ Àngel Guimerà,1.84,1.11,ok,,none
+0196027AR,Brachychiton populneus,False,C\ Nena Casas,8.65,7.64,ok,,large
+0196029AR,Platanus × acerifolia,True,C\ Alt de Gironella,1.93,1.25,ok,,none
+0196030AR,Tipuana tipu,False,C\ Bori i Fontestà,14.24,13.57,ok,,large
+0196031AR,Platanus × acerifolia,True,Pg Sant Joan Bosco,,18.51,median,,check
+0196032AR,Styphnolobium japonicum,False,C\ Àngel Guimerà,5.13,3.29,ok,,medium
+0196033AR,Platanus × acerifolia,True,Pg Bonanova,4.43,3.08,ok,,medium
+0196034AR,Platanus × acerifolia,True,Via Augusta,12.39,5.57,ok,,large
+0196036AR,Platanus × acerifolia,True,Pg Sant Joan Bosco,3.7,3.54,ok,,medium
+0196037AR,Celtis australis,False,C\ Castellnou,,11.32,no_kerb,,check
+0196038AR,Platanus × acerifolia,True,C\ Doctor Carulla,,5.23,median,2.97,check
+0196040AR,Robinia pseudoacacia,False,C\ Nena Casas,,9.76,median,,check
+0196042AR,Ligustrum lucidum,False,C\ Castellnou,3.2,2.28,ok,,small
+0196043AR,Celtis australis,False,C\ Castellnou,,4.07,no_kerb,,check
+0196044AR,Platanus × acerifolia,True,C\ Pau Alcover,6.58,6.26,ok,,large
+0196045AR,Celtis australis,False,C\ Doctor Fleming,,15.28,median,22.9,check
+0196047AR,Firmiana simplex,False,C\ Emancipació,9.47,7.24,ok,,large
+0272444AR,Tipuana tipu,False,Pl Joaquim Pena,,22.58,median,29.31,check
+0272464AR,Jacaranda mimosifolia,False,Pl Joaquim Pena,,10.44,median,29.32,check
+0272466AR,Jacaranda mimosifolia,False,Pl Joaquim Pena,,10.74,median,29.3,check
+0272475AR,Tipuana tipu,False,Pl Joaquim Pena,,20.91,median,,check
+0272486AR,Jacaranda mimosifolia,False,Pl Joaquim Pena,,16.47,median,,check
+0272510AR,Tipuana tipu,False,Pl Joaquim Pena,,16.86,median,,check
+0272515AR,Jacaranda mimosifolia,False,Pl Joaquim Pena,,13.96,median,,check
+0272522AR,Tipuana tipu,False,Pl Joaquim Pena,,21.57,median,29.44,check
+0272528AR,Jacaranda mimosifolia,False,Pl Joaquim Pena,,12.83,median,29.31,check
+0272540AR,Tipuana tipu,False,Pl Joaquim Pena,,16.76,median,29.46,check
+0272546AR,Tipuana tipu,False,Pl Joaquim Pena,,21.55,median,29.39,check
+0272547AR,Tipuana tipu,False,Pl Joaquim Pena,,17.82,median,29.41,check
+0272559AR,Tipuana tipu,False,Pl Joaquim Pena,,13.86,median,,check
+0272573AR,Handroanthus heptaphyllus,False,Via Augusta,,17.1,median,17.54,check
+0272576AR,Jacaranda mimosifolia,False,Pl Joaquim Pena,,19.1,median,29.34,check
+0272585AR,Jacaranda mimosifolia,False,Pl Joaquim Pena,,11.59,median,29.32,check
+0272608AR,Jacaranda mimosifolia,False,Pl Joaquim Pena,,15.51,median,29.33,check
+0272615AR,Tipuana tipu,False,Pl Joaquim Pena,,11.47,median,,check
+0272618AR,Jacaranda mimosifolia,False,Pl Joaquim Pena,,11.7,median,,check
+0272624AR,Tipuana tipu,False,Pl Joaquim Pena,,26.28,median,29.39,check
+0272647AR,Jacaranda mimosifolia,False,Pl Joaquim Pena,,18.75,median,29.31,check
+0272650AR,Ligustrum lucidum,False,Rda General Mitre,17.86,10.06,ok,,large
+0272691AR,Tipuana tipu,False,Pl Joaquim Pena,,13.87,median,29.4,check
+0272692AR,Jacaranda mimosifolia,False,Pl Joaquim Pena,,18.7,median,,check
+0272703AR,Tipuana tipu,False,Pl Joaquim Pena,,18.29,median,29.3,check
+0272720AR,Platanus × acerifolia,True,Via Augusta,,16.77,median,29.93,check
+0272743AR,Platanus × acerifolia,True,Via Augusta,,20.98,median,32.62,check
+0272764AR,Tipuana tipu,False,Pl Joaquim Pena,,13.22,median,,check
+0272770AR,Tipuana tipu,False,Pl Joaquim Pena,,22.86,median,29.43,check
+0272773AR,Tipuana tipu,False,Pl Joaquim Pena,,10.73,median,,check
+0272781AR,Jacaranda mimosifolia,False,Pl Joaquim Pena,,19.72,median,,check
+0272810AR,Tipuana tipu,False,Pl Joaquim Pena,,14.06,median,29.49,check
+0272813AR,Tipuana tipu,False,Pl Joaquim Pena,,16.78,median,,check
+0286690AR,Tipuana tipu,False,Pl Joaquim Pena,,22.52,median,29.31,check
+0286710AR,Celtis australis,False,C\ Doctor Fleming,23.23,21.76,ok,,large
+0286742AR,Morus alba 'Fruitless',False,C\ Milanesat,5.45,4.84,ok,,medium
+0286746AR,Platanus × acerifolia,True,Via Augusta,12.66,5.18,ok,,large
+0288280AR,Populus alba 'Pyramidalis',False,Rda General Mitre,,28.76,no_kerb,,check
+0289120AR,Magnolia grandiflora,False,C\ Rosales,6.34,4.59,ok,,large
+0289121AR,Ligustrum lucidum,False,C\ Rosales,,7.87,no_kerb,10.43,check
+0289122AR,Magnolia grandiflora,False,C\ Rosales,4.76,2.43,ok,,medium
+0289123AR,Magnolia grandiflora,False,C\ Calatrava,8.53,6.42,ok,,large
+0289124AR,Magnolia grandiflora,False,C\ Rosales,7.81,3.61,ok,,large
+0289125AR,Magnolia grandiflora,False,C\ Rosales,7.08,2.99,ok,,large
+0289206AR,Tipuana tipu,False,Pl Martí Llauradó,,16.27,no_kerb,,check
+0289207AR,Tipuana tipu,False,Pl Martí Llauradó,,15.92,no_kerb,,check
+0289208AR,Tipuana tipu,False,Pl Martí Llauradó,27.21,6.58,ok,,large
+0289209AR,Tipuana tipu,False,Pl Martí Llauradó,,10.99,no_kerb,,check
+0289210AR,Platanus × acerifolia,True,C\ Alt de Gironella,,9.12,median,,check
+0290179AR,Platanus × acerifolia,True,C\ Pau Alcover,8.39,7.62,ok,,large
+0294461AR,Platanus × acerifolia,True,C\ Doctor Roux,7.45,6.62,ok,,large
+0294462AR,Magnolia grandiflora,False,C\ Doctor Roux,4.74,3.09,ok,,medium
+0294511AR,Celtis australis,False,C\ Castellnou,,11.2,no_kerb,,check
+0294512AR,Platanus × acerifolia,True,C\ Rosari,4.46,3.74,ok,,medium
+0294567AR,Platanus × acerifolia,True,C\ Rosari,6.61,5.59,ok,,large
+0294568AR,Styphnolobium japonicum,False,C\ Maria Auxiliadora,,8.75,median,,check
+0294569AR,Magnolia grandiflora 'Goliath',False,C\ Alt de Gironella,,8.29,median,,check
+0296328AR,Platanus × acerifolia,True,C\ Pau Alcover,7.16,6.71,ok,,large
+0296329AR,Platanus × acerifolia,True,C\ Pau Alcover,6.45,6.08,ok,,large
+0296330AR,Platanus × acerifolia,True,C\ Doctor Carulla,5.1,4.14,ok,,medium
+0296857AR,Magnolia grandiflora,False,C\ Emancipació,7.23,6.76,ok,,large
+0296858AR,Platanus × acerifolia,True,C\ Doctor Roux,,9.58,median,,check
+0296859AR,Magnolia grandiflora,False,C\ Doctor Roux,6.29,5.85,ok,,large
+0297358AR,Acer negundo,False,C\ Àngel Guimerà,1.7,1.04,ok,,none
+0297359AR,Styphnolobium japonicum,False,C\ Àngel Guimerà,4.59,3.89,ok,,medium
+0297360AR,Acer negundo,False,C\ Àngel Guimerà,,8.97,median,,check
+0298000AR,Styphnolobium japonicum,False,C\ Milanesat,5.73,5.01,ok,,medium
+0317023AR,Acer campestre,False,C\ Vilana,8.6,7.46,ok,,large
+0317024AR,Gleditsia triacanthos f. inermis,False,C\ Vilana,7.59,6.48,ok,,large
+0317025AR,Acer campestre,False,C\ Vilana,6.18,5.18,ok,,large
+0317026AR,Crataegus x lavalleei 'Carrierei',False,C\ Vilana,8.37,6.9,ok,,large
+0317027AR,Acer campestre,False,C\ Vilana,7.91,6.52,ok,,large
+0317028AR,Acer campestre,False,C\ Vilana,,6.39,median,4.4,check
+0317029AR,Acer campestre,False,C\ Vilana,7.6,6.34,ok,,large
+0317030AR,Acer campestre,False,C\ Vilana,7.57,6.77,ok,,large
+0317031AR,Cercis siliquastrum,False,C\ Vilana,9.9,7.8,ok,,large
+0317032AR,Crataegus x lavalleei 'Carrierei',False,C\ Vilana,8.48,5.35,ok,,large
+0317033AR,Cercis siliquastrum,False,C\ Vilana,7.38,5.84,ok,,large
+0317034AR,Crataegus x lavalleei 'Carrierei',False,C\ Vilana,7.41,5.66,ok,,large
+0317035AR,Cercis siliquastrum,False,C\ Vilana,7.42,5.73,ok,,large
+0317036AR,Crataegus x lavalleei 'Carrierei',False,C\ Vilana,7.52,5.19,ok,,large
+0317037AR,Cercis siliquastrum,False,C\ Vilana,7.66,4.99,ok,,large
+0317271AR,Firmiana simplex,False,C\ Rosari,,7.45,median,20.57,check
+0317272AR,Firmiana simplex,False,C\ Rosari,,7.15,median,13.47,check
+0324399AR,Gleditsia triacanthos f. inermis,False,Rda General Mitre,16.21,14.72,ok,,large
+0324400AR,Gleditsia triacanthos f. inermis,False,Rda General Mitre,15.66,14.29,ok,,large
+0324401AR,Gleditsia triacanthos 'sunburst',False,Rda General Mitre,16.1,14.51,ok,,large
+0333705AR,Casuarina cunninghamiana,False,Rda General Mitre,6.83,5.16,ok,,large
+0333706AR,Casuarina cunninghamiana,False,Rda General Mitre,6.15,4.39,ok,,large
+0333870AR,Melia azedarach,False,C\ Bori i Fontestà,,9.82,no_kerb,,check
+0333965AR,Styphnolobium japonicum 'Dot',False,C\ Doctor Carulla,7.96,6.74,ok,,large
+0333993AR,Platanus × acerifolia,True,C\ Pau Alcover,5.52,4.77,ok,,medium
+0339738AR,Casuarina cunninghamiana,False,Rda General Mitre,8.73,6.48,ok,,large
+0339739AR,Casuarina cunninghamiana,False,Rda General Mitre,17.21,14.52,ok,,large
+0339740AR,Casuarina cunninghamiana,False,Rda General Mitre,11.04,9.07,ok,,large
+0341187AR,Koelreuteria paniculata,False,C\ Ganduxer,5.55,5.22,ok,,medium

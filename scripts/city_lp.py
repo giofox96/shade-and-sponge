@@ -39,7 +39,8 @@ def setup(name):
 if __name__ == "__main__":
     args = [a for a in sys.argv[1:] if not a.startswith("--")] or ["Eixample", "Sant Martí"]
     idx = pd.read_csv(DB / "lidar_tiles_barris.csv").drop_duplicates("barri")
-    sel = idx[idx.district.isin(args) | idx.barri.isin(args)]
+    dist = [a for a in args if a not in set(idx.barri)]  # a name that is also a barri ("Sant Andreu") means the barri only
+    sel = idx[idx.district.isin(dist) | idx.barri.isin(args)]
     barris = [("Porta", "porta")] + list(zip(sel.barri, sel.slug))
     p = runoff.design_storm(2, 60)
     loc = "--local-ceiling" in sys.argv
@@ -69,6 +70,13 @@ if __name__ == "__main__":
     stack = lambda k: np.vstack([q[k] for q in parts])
     objs = {"summer": (stack("summer"), 1), "winter": (stack("winter"), -1), "runoff": (stack("water"), 1)}
     local = (np.repeat(np.arange(len(parts)), [len(q["pos"]) for q in parts]), np.vstack([q["local"] for q in parts])) if loc else None
+    if loc:                                           # name the barris where the local ceiling leaves no feasible layout
+        for q in parts:
+            try:
+                layout.assign(np.zeros(q["fit"].shape), cap, q["fit"], local=(np.zeros(len(q["pos"]), int), q["local"][None]))
+            except RuntimeError:
+                print(f"INFEASIBLE {q['name']}: {len(q['pos'])} positions, no fit {int((~q['fit'].any(1)).sum())},",
+                      "local cap", dict(zip(species, q["local"])), "fit per species", dict(zip(species, q["fit"].sum(0))))
     lay = layout.sweep(objs, cap, stack("fit"), local=local)
     cut = np.cumsum([0] + [len(q["pos"]) for q in parts])
 

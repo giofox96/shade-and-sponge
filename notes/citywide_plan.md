@@ -232,3 +232,53 @@ Reading:
 - **la Dreta de l'Eixample:** summer shade rises from 78.0% to 78.4%.
 - Overall the city cap with the local ceiling beats the local cap by 0.0 to +17.4 points (median +2.4), and beats the city's mix by +2.2 to +23.1 (median +9.2). Porta stays at 103.3%.
 - **The ceiling costs little and removes the monoculture problem. It is the rule (DECIDED, user, 30 Oct):** the city's 15% fixes how much of each species, and the barri ceiling stops any barri from ending more concentrated than today.
+
+
+### 6.9 Batch 2 and the city LP over 28 barris (30–31 Oct)
+
+**Batch 2.** `run_barris.py` on the user's PC (30 Oct, 19:46–23:38) added the 11 barris with ≥500 planes outside Eixample and Sant Martí. "Sant Andreu" is both a barri and a district, and the script matches districts too, so it also ran five Sant Andreu barris below 500 planes (Navas 324, el Congrés i els Indians 184, la Sagrera 417, la Trinitat Vella 167, Baró de Viver 15). `barris_summary.csv` now has 33 rows. The tool beats the city's mix (S1a) in all 33.
+- Four barris (la Maternitat i Sant Ramon, Sant Gervasi - la Bonanova, Baró de Viver, la Trinitat Vella) first failed in the LP: **no position drains to a flood hotspot**, so the runoff potential is all zero and its normalisation gave 0/0. Fixed in `layout.sweep` (an all-zero potential stays zero, test `test_sweep_zero_objective`); there the runoff weight has no effect.
+- LiDAR: of the 90 tiles, 59 are from the 2022-06-01 flight, 20 from 2021-09-26 (Porta's) and 11 mixed. Both are leaf-on, but **the crown/LAI proxy mixes a June and a late-September canopy** across barris. Declared as a limitation; not corrected.
+
+**The local ceiling can be infeasible.** With all 33 barris the city LP with `--local-ceiling` had no solution. A per-barri check (now printed by `city_lp.py`) named Baró de Viver and la Trinitat Vella. In Baró de Viver (15 planes) the existing trees already exceed 15 for five of the seven species, so only Pyrus (15) and Styphnolobium (5) have room, and each fits only 10 of the 15 positions. In la Trinitat Vella the total room is ample, but some positions fit only species with little room there (Melia 19, Pyrus 16). **Finding: the ceiling (no species above today's plane count) breaks down where few planes are replaced.** Both barris are outside the ≥500-plane criterion, so the LP was run on the planned 28; a barri with few planes would need a different ceiling (open).
+- `city_lp.py`: a name that is both a barri and a district now selects the barri only.
+
+**City LP with the local ceiling, 28 barris (31 Oct).** 31,580 planes. Cap here: Celtis 1,318, Styphnolobium 10,142, Tipuana 11,348, Melia 11,642, Brachychiton 12,438, Jacaranda 14,024, Pyrus 16,569. The joint layout is again `S4_s1.00_w0.00_r0.00`. Totals: **Celtis 1,318 and Tipuana 11,348 at the cap**; Melia 5,851, Styphnolobium 5,300, Jacaranda 3,966, Pyrus 2,591, Brachychiton 1,206.
+
+| Barri | Planes | Summer: city mix / local cap / city LP | City LP − local cap (pts) | Winter, city LP | Largest species, city LP |
+|---|---|---|---|---|---|
+| Porta | 832 | 87.4 / 99.1 / 103.3% | +4.2 | 124.2% | Jacaranda 29.6% |
+| Sant Pere, Santa Caterina i la Ribera | 830 | 77.6 / 87.5 / 99.7% | +12.2 | 148.5% | Tipuana 49.2% |
+| Sant Antoni | 989 | 72.1 / 79.0 / 79.2% | +0.2 | 115.4% | Celtis 38.6% |
+| el Fort Pienc | 980 | 68.2 / 78.0 / 82.4% | +4.4 | 110.6% | Jacaranda 34.9% |
+| l'Antiga Esquerra de l'Eixample | 1,444 | 61.8 / 69.7 / 70.1% | +0.4 | 106.0% | Celtis 31.5% |
+| la Dreta de l'Eixample | 2,696 | 59.9 / 70.9 / 71.2% | +0.3 | 108.5% | Celtis 27.6% |
+| la Nova Esquerra de l'Eixample | 1,186 | 75.1 / 83.5 / 84.3% | +0.8 | 117.3% | Celtis 36.1% |
+| la Sagrada Família | 1,147 | 74.7 / 77.8 / 79.9% | +2.1 | 94.9% | Celtis 35.2% |
+| Horta | 552 | 91.1 / 98.2 / 98.6% | +0.4 | 128.4% | Tipuana 22.1% |
+| Pedralbes | 980 | 86.1 / 89.5 / 91.6% | +2.1 | 112.5% | Tipuana 25.6% |
+| la Maternitat i Sant Ramon | 729 | 89.2 / 94.0 / 99.6% | +5.6 | 127.7% | Tipuana 26.5% |
+| les Corts | 1,633 | 77.3 / 79.4 / 87.3% | +7.9 | 102.1% | Tipuana 22.5% |
+| Sant Andreu | 681 | 96.3 / 106.3 / 105.7% | -0.6 | 121.3% | Citrus 16.8% |
+| el Bon Pastor | 666 | 78.6 / 84.0 / 84.7% | +0.7 | 100.4% | Celtis 32.5% |
+| Diagonal Mar i el Front Marítim del Poblenou | 728 | 74.1 / 79.8 / 97.2% | +17.4 | 129.2% | Tipuana 37.2% |
+| Provençals del Poblenou | 1,463 | 65.2 / 68.8 / 69.7% | +0.9 | 85.4% | Melia 23.9% |
+| Sant Martí de Provençals | 1,258 | 71.6 / 78.4 / 83.7% | +5.3 | 128.1% | Tipuana 27.6% |
+| el Besòs i el Maresme | 1,583 | 77.3 / 82.6 / 86.6% | +4.0 | 134.8% | Tipuana 32.3% |
+| el Camp de l'Arpa del Clot | 496 | 79.0 / 81.2 / 81.2% | +0.0 | 95.9% | Celtis 40.8% |
+| el Clot | 657 | 70.6 / 76.5 / 78.6% | +2.1 | 104.5% | Tipuana 20.9% |
+| el Parc i la Llacuna del Poblenou | 1,120 | 72.2 / 78.4 / 78.7% | +0.3 | 95.2% | Melia 22.0% |
+| el Poblenou | 1,861 | 65.2 / 75.3 / 77.9% | +2.6 | 120.5% | Tipuana 21.5% |
+| la Verneda i la Pau | 1,692 | 72.0 / 82.2 / 83.1% | +0.9 | 126.7% | Jacaranda 27.6% |
+| la Vila Olímpica del Poblenou | 1,069 | 72.3 / 77.8 / 80.4% | +2.6 | 115.8% | Tipuana 41.2% |
+| el Poble-sec | 2,289 | 79.9 / 83.5 / 105.3% | +21.8 | 95.4% | Celtis 38.4% |
+| Sant Gervasi - Galvany | 722 | 83.8 / 90.7 / 90.0% | -0.7 | 103.4% | Styphnolobium 19.1% |
+| Sant Gervasi - la Bonanova | 550 | 92.2 / 95.0 / 90.8% | -4.2 | 109.9% | Tipuana 17.1% |
+| les Tres Torres | 747 | 75.5 / 80.2 / 88.5% | +8.3 | 116.6% | Tipuana 31.0% |
+
+Reading:
+- **Against the city's mix:** −1.4 to +25.4 points (median +9.2). The only loss is Sant Gervasi - la Bonanova (90.8% against 92.2%).
+- **Against the local cap:** −4.2 to +21.8 (median +2.1). With 28 barris the joint LP is no longer never-worse: three barris lose (la Bonanova −4.2, Galvany −0.7, Sant Andreu −0.6) because the capped Celtis and Tipuana go where they add most, el Poble-sec (+21.8) and Diagonal Mar (+17.4) first. The total gains; a barri can lose. If a per-barri floor is wanted (no barri below its local cap or below the city mix), it is one more constraint set; not added.
+- Three barris end above today's summer shade (Porta 103.3%, el Poble-sec 105.3%, Sant Andreu 105.7%). Winter shade median 114%.
+- Sant Pere, Santa Caterina i la Ribera reaches 49.2% Tipuana. The ceiling allows it because planes are 51.5% of the barri today, so it is not more concentrated than now, but it is a high share for one species.
+- The 17-barri numbers in §6.8 change slightly (e.g. Sant Antoni 80.1 → 79.2%) because the cap is pro-rata to the planes in the run.
