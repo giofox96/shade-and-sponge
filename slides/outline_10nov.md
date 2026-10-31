@@ -62,7 +62,7 @@ The deck follows that order.
 
 ## 4. Are there enough trees? [2:30]
 **Figure:** `slides/fig_v7/v7_04_trees.png`. **On slide:**
-- City target: **30%** tree cover by 2037 (plan, target 1)
+- City target: **30%** tree cover by 2037 (plan 2017, target 1; reaffirmed as "+5% (2037)" in the Climate Plan 2024, p.33)
 - **Porta today: 20.1%** (LiDAR 2021) → about 10 points short, **8.3 ha** of crown
 - **Planes = ~29% of Porta's canopy**
 - At equal trunk size: all Brachychiton-size → cover ~16%; Tipuana/Jacaranda-size → roughly unchanged
@@ -92,6 +92,7 @@ The deck follows that order.
 ## 7. The gap [4:15]
 **On slide:**
 - **Practice:** rules for which species, no quantities
+- **City strategy:** targets in hectares, not per tree; the Nature Plan lists "which species for shade, where" as a study still to do (project 83, p.114)
 - **Research:** heat and runoff for fixed scenarios without species traits (Mannucci 2025; Wu 2024); heat-only optimisers (Shaamala 2025; Peng 2026); a trait-based recommender with runoff switched off (SylvCiT, Nicol 2026)
 - **Diversity literature:** species caps are rules of thumb (Kendal et al. 2014, after Santamour 1990); targets far below the current share risk losing well-adapted species and ecosystem services (Kendal et al. 2014, p. 415)
 

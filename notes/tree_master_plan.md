@@ -14,6 +14,8 @@
 | N3 | Time Out Barcelona, 17 Jun 2022 | 🟡 | https://www.timeout.es/barcelona/es/noticias/uno-de-cada-cuatro-arboles-de-barcelona-genera-cantidades-maximas-de-polen-y-alergia-061722 |
 | N4 | Nació Digital, 4 May 2026 (citing 20minutos) | 🟡 | https://naciodigital.cat/impacte/ciutats/barcelona-eliminara-mes-de-la-meitat-dels-plataners-en-la-proxima-decada.html |
 | N5 | Betevé, 7 May 2026 | 🟡 | https://beteve.cat/medi-ambient/pla-xoc-plataners-eliminaran-meitat-10-anys/ |
+| C | *Climate Plan. Government Measure*, Ajuntament de Barcelona, Nov 2024 (English edition, 84 pp.; printed page = PDF page) | full text (pdftotext, 31 Oct) | https://heathealth.info/wp-content/uploads/Pla_Clima_EN.pdf |
+| NP | *Barcelona Nature Plan 2021-2030*, Àrea d'Ecologia Urbana, Sept 2021 (English edition, 127 pp.; printed page = PDF page + 1) | full text (pdftotext, 31 Oct) | https://www.cakex.org/sites/default/files/documents/Barcelona%20Nature%20Plan%202030%20English.pdf |
 | E | EPPO Global Database, *Ceratocystis platani*, Spain | full text | https://gd.eppo.int/taxon/CERAFP/distribution/ES |
 
 ## 1. The rule as written
@@ -190,6 +192,17 @@ So the gap holds and becomes sharper: the city has qualitative rules for which s
 
 - The colour suitability marks in G's catalogue (open the PDF, pp. 49–56).
 - The city's current list of replacement species by street type (N3). The 2004/2005 version was read on 24 Oct (§5b). A newer one: waiting on the Parcs i Jardins email (sent 24 Oct).
-- The species list behind the 40% climate-adapted target. It is not in P.
+- The species list behind the 40% climate-adapted target. It is not in P, C or NP (§8). Ask for it in the Parcs i Jardins follow-up (RGF7342).
 - An official source (Ajuntament press release, or the 20minutos original) for the 2026 figures.
 - Add Santamour 1990, Kendal et al. 2014 and Nieuwenhuijsen et al. 2022 to Zotero (PDFs in `papers/`, matrix #139–#141).
+
+## 8. City strategy documents, 2021 and 2024 (read 31 Oct)
+
+PDFs and page-tagged text in `databases/policy/` (not committed). Page numbers are printed pages.
+
+- **Both master-plan 2037 targets still stand in 2024.** C p.33 (adaptation goals): "Increase tree cover by 5% (2037)." and "Increase adapted tree species from 30% to 40%." The second matches P target 2. C does not say whether "5%" is points or relative and gives no baseline, so quote it as printed and do not convert it.
+- **Tree pits are a drainage measure in C.** "Installing aligned tree pits." is listed under the goal "Reducing the risk of flooding due to poor drainage" (C p.43; D2 on p.62 reads "Installing more aligned tree pits."), next to permeable paving and 7 ha of SUDS (p.33).
+- **City shade targets are structures, not trees.** 9 ha of shade "using either seasonal shading or fixed productive structures" (C p.33), the Shade programme of 216 shaded areas (p.60) and a Shade Plan (E5, p.65). No tree-based shade figure.
+- **NP sets no street-tree or canopy target.** Its 2030 targets are in hectares and people (NP pp.9, 91: +160 ha of greenery from 2015, +100 ha naturalised, 10 biodiversity shelters, double the participants, 40 "All hands to greenery" projects). "Canopy" and "tree cover" do not occur. It names P only as a strategy (p.77: 50 actions in 10 lines) and gives no species list.
+- **NP lists the missing knowledge as a study to do.** Project 83 (Action 14, p.114): study the plant species most adapted to shading and the areas that need especially thermoregulatory plants. The Greenery Model (p.38) prioritises, qualitatively, places where greenery can regulate the temperature of the urban fabric more; NP project 1 (p.98, lead project) plans the green infrastructure from that diagnosis.
+- **Do not mix tree counts.** NP's 242,789 trees (2020, p.21) cover the urban fabric and parks, a different base from P's ~201,600 (urban fabric) and the repo's 140,404 street trees.
