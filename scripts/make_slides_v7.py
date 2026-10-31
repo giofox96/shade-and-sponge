@@ -174,7 +174,8 @@ SLIDES = [  # (outline heading number, figure path relative to slides/)
     (1, "fig/01_title.png"), (2, "fig_v7/v7_02_context.png"), (3, "fig_v7/v7_03_gate1.png"), (4, "fig_v7/v7_04_trees.png"),
     (5, "fig_v7/v7_05_problem.png"), (6, "fig_v6/v6_04_crowns.png"), (7, "fig_v7/v7_07_gap.png"), (8, "fig_v7/v7_08_rq.png"),
     (9, "fig_v7/v7_09_hyp.png"), (10, "fig_v7/flow_00_overview.png"), (11, "fig_v7/flow_04_design.png"),
-    (12, "fig_v7/res_01_radar.png"), (13, "fig_v7/res_03_scenarios.png"), (14, "fig_v7/flow_05_validation.png"),
+    (12, "fig_v7/res_01_radar.png"), (13, "fig_v7/res_03_scenarios.png"), (14, "fig_v7/res_04_city_map.png"),
+    (15, "fig_v7/res_05_city_cap.png"), (16, "fig_v7/flow_05_validation.png"),
     (None, "fig_v7/v7_15_next.png"),
     (None, "fig_v7/flow_02_heat.png"), (None, "fig_v7/flow_03_runoff.png"), (None, "fig_v7/flow_01_screening.png"),
     (None, "fig_v7/res_02_bars.png"), (None, "fig_v6/v6_09_sizing_rule.png")]
@@ -194,7 +195,7 @@ def build_pptx():
         s.notes_slide.notes_text_frame.text = notes.get(n, "Backup." if n is None and "next" not in fig else "")
     out = ROOT / "slides/shade_and_sponge_10nov.pptx"
     prs.save(out)
-    assert len(notes) == 14, sorted(notes)
+    assert len(notes) == 16, sorted(notes)
     print("wrote", out.relative_to(ROOT), f"({len(SLIDES)} slides, {len(notes)} with a script)")
 
 
