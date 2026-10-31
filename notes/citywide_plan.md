@@ -277,7 +277,7 @@ Reading:
 | les Tres Torres | 747 | 75.5 / 80.2 / 88.5% | +8.3 | 116.6% | Tipuana 31.0% |
 
 Reading:
-- **Against the city's mix:** −1.4 to +25.4 points (median +9.3). The only loss is Sant Gervasi - la Bonanova (90.8% against 92.2%).
+- **Against the city's mix:** −1.4 to +25.4 points (median +9.2). The only loss is Sant Gervasi - la Bonanova (90.8% against 92.2%).
 - **Against the local cap:** −4.2 to +21.8 (median +2.1). With 28 barris the joint LP is no longer never-worse: three barris lose (la Bonanova −4.2, Galvany −0.7, Sant Andreu −0.6) because the capped Celtis and Tipuana go where they add most, el Poble-sec (+21.8) and Diagonal Mar (+17.4) first. The total gains; a barri can lose. If a per-barri floor is wanted (no barri below its local cap or below the city mix), it is one more constraint set; not added.
 - Three barris end above today's summer shade (Porta 103.3%, el Poble-sec 105.3%, Sant Andreu 105.7%). Winter shade median 114%.
 - Sant Pere, Santa Caterina i la Ribera reaches 49.2% Tipuana. The ceiling allows it because planes are 51.5% of the barri today, so it is not more concentrated than now, but it is a high share for one species.
