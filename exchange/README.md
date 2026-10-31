@@ -38,7 +38,7 @@ Street: **Pg Andreu Nin**, 80 planes (`street_andreu-nin_*_20261031.*`, cut from
 | `street_andreu-nin_buildings_20261031.geojson` | 30 buildings whose centroid is within 90 m of the street trees (same format as `porta_buildings.geojson`) |
 | `street_andreu-nin_testpoints_20261031.csv` | point_id, x, y, z: 1,974 points on a 2 m grid within 8 m of a street tree, outside footprints, 1.1 m above ground |
 
-Steps in Grasshopper:
+Steps in Grasshopper (full step-by-step guide with snippets: `exchange/ladybug_tier1_steps.md`):
 1. Buildings: building snippet below on the buildings file. Context trees: crown snippet on the context file. Street trees: crown snippet on the S0 file (skip the `flag` check; use `lai` instead of `lai_proxy`).
 2. Shade context = buildings + all crowns. Ladybug: EPW TMYx El Prat 2011–2025, hot design day 15 Jul, **12–17 h local clock (CEST) = EPW hours 11–16** (the EPW is in standard time; decided 25 Oct, `notes/decisions/heat_objective.md`). MRT with *LB Outdoor Solar MRT* per test point, then *LB UTCI Comfort*.
 3. Write the results with the UTCI snippet below to `from_gh/utci_S0_current_<date>.csv`, one row per point × hour.
