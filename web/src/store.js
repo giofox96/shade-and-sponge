@@ -19,6 +19,7 @@ export const state = reactive({
   speciesScope: 'site', // Species tab: 'site' (whole neighbourhood) or 'area' (the project area, when one is drawn)
   // project area: only the plane positions inside a drawn polygon are replaced; outside, today's trees stay
   drawing: false,
+  editing: false, // moving the corners of the project area (draft holds the polygon being edited)
   draft: [], // [lon, lat] vertices while drawing
   area: null, // { poly, idx, keptIdx, spotIdx, all, weights, layout, keptLayout, metrics, counts, city, ms }
   buildingOpacity: 1, // Map display slider: 1 = solid, lower = see-through buildings
@@ -59,7 +60,7 @@ export async function load(site = state.site) {
 
 // Switch dataset (e.g. city palette 'porta' vs Barcelona shortlist 'porta-barcelona') and reset the view
 export async function switchSite(site) {
-  Object.assign(state, { scenarioId: BALANCED, live: null, selected: null, exclude: [], minEff: 0, liveError: null, meta: null, added: [], addMsg: null, area: null, drawing: false, draft: [], addMode: false }) // the new site's grid loads with the next Add trees
+  Object.assign(state, { scenarioId: BALANCED, live: null, selected: null, exclude: [], minEff: 0, liveError: null, meta: null, added: [], addMsg: null, area: null, drawing: false, editing: false, draft: [], addMode: false }) // the new site's grid loads with the next Add trees
   grid = null
   planePotCache.clear()
   planeScale = null
@@ -170,7 +171,7 @@ function recommend(q) {
 
 // Where "Add trees" accepts a click, as an RGBA canvas on the site grid (row 0 = north): open ground in the site, not a
 // roof, at least 1 m from a building. Amber where the click is accepted with a warning: under 2 m from a building or under
-// MIN_SPACING_M from another tree. The same rules as addTreeAt.
+// MIN_SPACING_M from another tree. The same rules as addTreeAt, inside the project area when there is one.
 export function addableMask() {
   if (!grid) return null
   const { W, H, flags, facade, res } = grid
@@ -182,12 +183,15 @@ export function addableMask() {
       for (let c = Math.max(0, Math.floor(c0 - R)); c <= Math.min(W - 1, Math.ceil(c0 + R)); c++)
         if (Math.hypot(c + 0.5 - c0, r + 0.5 - r0) < R) near[r * W + c] = 1
   }
+  // with a project area, only the cells inside it (cell centres, in grid metres)
+  const poly = state.area?.poly.map(([lon, lat]) => grid.toXY(lon, lat))
+  const inArea = (k) => !poly || insidePoly(grid.x0 + ((k % W) + 0.5) * res, grid.y1 - (Math.floor(k / W) + 0.5) * res, poly)
   const cv = document.createElement('canvas')
   Object.assign(cv, { width: W, height: H })
   const ctx = cv.getContext('2d')
   const img = ctx.createImageData(W, H)
   for (let k = 0; k < W * H; k++) {
-    if ((flags[k] & 5) !== 1 || facade[k] < 10) continue
+    if ((flags[k] & 5) !== 1 || facade[k] < 10 || !inArea(k)) continue
     img.data.set(near[k] || facade[k] < 20 ? [230, 160, 30, 120] : [70, 190, 80, 120], 4 * k)
   }
   ctx.putImageData(img, 0, 0)
@@ -198,6 +202,7 @@ export function addTreeAt(lon, lat) {
   const q = pointPotentials(grid, state.meta, lon, lat)
   if (!q.inSite) return void (state.addMsg = q.onRoof ? "That's a roof: pick open ground." : 'Outside the site: pick open ground in Porta.')
   if (q.facade_m < 1) return void (state.addMsg = 'Against a building (under 1 m): pick open ground.')
+  if (state.area && !insidePoly(lon, lat, state.area.poly)) return void (state.addMsg = 'Outside the project area: add trees inside it, or use Whole site.')
   const near = Math.min(...[...treeXY, ...state.added.map((a) => [a.x, a.y])].map(([x, y]) => Math.hypot(x - q.x, y - q.y)))
   const warn = []
   if (near < MIN_SPACING_M) warn.push(`${near.toFixed(1)} m from another tree (under ${MIN_SPACING_M} m)`)
@@ -298,7 +303,7 @@ export function keptReplaced(useCity = false) {
 }
 
 export function startDrawing() {
-  Object.assign(state, { drawing: true, draft: [], view: 'map', addMode: false,
+  Object.assign(state, { drawing: true, editing: false, draft: [], view: 'map', addMode: false,
     addMsg: 'Click on the map to place the corners of the project area. Right-click, Enter or Space closes it.' })
 }
 export function addVertex(lon, lat) {
@@ -308,7 +313,7 @@ export function cancelDrawing() {
   Object.assign(state, { drawing: false, draft: [], addMsg: null })
 }
 export function clearArea() {
-  Object.assign(state, { area: null, drawing: false, draft: [], addMsg: null })
+  Object.assign(state, { area: null, drawing: false, editing: false, draft: [], addMsg: null })
   if (state.scenarioId === AREA) state.scenarioId = BALANCED
 }
 
@@ -425,7 +430,11 @@ function areaCity(rows) {
 
 export async function finishArea() {
   if (state.draft.length < 3) return void (state.addMsg = 'An area needs at least three corners.')
-  const poly = state.draft
+  await applyArea(state.draft)
+}
+
+// Set the project area to a polygon (drawn, or edited: keep its "replace all" choice and priorities)
+async function applyArea(poly, keep = {}) {
   const p = state.trees.positions
   const t = state.trees.kept
   const idx = p.lon.map((lon, i) => (insidePoly(lon, p.lat[i], poly) ? i : -1)).filter((i) => i >= 0)
@@ -434,9 +443,23 @@ export async function finishArea() {
   if (!idx.length && !keptIdx.length) return void (state.addMsg = 'No street trees inside that area: draw it around some trees.')
   state.addMsg = 'Loading the site grid…'
   await ensureGrid()
-  Object.assign(state, { drawing: false, draft: [], addMsg: null })
-  state.area = { poly, idx, keptIdx, spotIdx, all: !idx.length, weights: weightsNow(), layout: [], keptLayout: [], metrics: null, counts: {} }
+  Object.assign(state, { drawing: false, editing: false, draft: [], addMsg: null })
+  state.area = { poly, idx, keptIdx, spotIdx, all: !!keep.all || !idx.length, weights: keep.weights ?? weightsNow(), layout: [], keptLayout: [],
+    metrics: null, counts: {}, edited: !!keep.weights }
   await runArea(state.area.weights)
+}
+
+// Edit the project area: drag corners, click a midpoint to add a corner, right-click a corner to remove it
+export function startEditArea() {
+  Object.assign(state, { editing: true, draft: state.area.poly.map((q) => [...q]), addMode: false,
+    addMsg: 'Drag a corner to move it, click a midpoint to add one, right-click a corner to remove it. Enter or Done applies, Escape cancels.' })
+}
+export async function finishEditArea() {
+  if (state.draft.length < 3) return void (state.addMsg = 'An area needs at least three corners.')
+  await applyArea(state.draft, { all: state.area.all, weights: state.area.weights })
+}
+export function cancelEditArea() {
+  Object.assign(state, { editing: false, draft: [], addMsg: null })
 }
 
 // "Replace all trees": the other street trees in the area become decision rows too

@@ -1,0 +1,1321 @@
+tree_id,x,y,ground_z,species,is_plane,size_category,street,height_m,crown_area_m2,crown_diam_m,crown_base_m,gap_fraction,lai_proxy,n_points,flag
+0150308AR,431554.57,4585779.24,43.81,Casuarina cunninghamiana,False,SEGONA,Pl Maragall,13.69,35.5,6.72,5.54,0.156,3.72,700,ok
+0150309AR,431647.62,4585985.57,39.87,Koelreuteria paniculata 'Fastigiata',False,SEGONA,C\ Matanzas,14.1,15.5,4.44,6.1,0.35,2.1,511,ok
+0150310AR,431341.77,4586234.4,52.42,Melia azedarach,False,SEGONA,Ptge Salvador Riera,7.8,3.0,1.95,6.67,0.283,2.53,79,ok
+0150311AR,431734.85,4585962.75,36.27,Magnolia grandiflora,False,SEGONA,C\ Pinar del Río,6.96,15.2,4.41,3.86,0.419,1.74,301,ok
+0150312AR,431659.33,4586197.5,38.98,Platanus × acerifolia,True,SEGONA,C\ Felip Bertran i Güell,17.43,35.5,6.72,8.62,0.201,3.21,1429,ok
+0150314AR,431439.34,4586159.67,47.53,Platanus × acerifolia,True,SEGONA,C\ Manigua,9.65,48.5,7.86,6.19,0.295,2.44,1776,ok
+0150315AR,431264.43,4586272.23,55.1,Grevillea robusta,False,SEGONA,C\ Ramon Albó,9.91,9.5,3.48,5.35,0.39,1.88,503,ok
+0150316AR,431401.41,4586299.81,48.95,Magnolia grandiflora,False,SEGONA,Ptge Ordi,9.65,25.2,5.67,3.8,0.228,2.95,1096,ok
+0150317AR,431335.5,4586135.54,52.46,Robinia pseudoacacia,False,SEGONA,C\ Acàcies,10.78,47.5,7.78,6.27,0.246,2.81,2050,ok
+0150318AR,431453.5,4586389.83,43.86,Styphnolobium japonicum,False,TERCERA,C\ Espiga,8.22,25.2,5.67,4.02,0.285,2.51,988,ok
+0150319AR,431727.78,4585954.74,36.44,Handroanthus heptaphyllus,False,PRIMERA,Pl Rom Cremat,3.0,0.2,0.56,3.0,0.667,0.81,3,no_crown_detected
+0150321AR,431486.91,4586405.65,43.16,Styphnolobium japonicum,False,SEGONA,C\ Espiga,6.41,17.5,4.72,3.44,0.243,2.83,442,ok
+0150322AR,431180.0,4586306.0,57.54,Celtis australis,False,TERCERA,Pg Maragall,11.34,55.8,8.43,7.48,0.301,2.4,1939,ok
+0150323AR,431760.68,4586175.12,36.78,Bauhinia variegata,False,SEGONA,C\ Cienfuegos,15.52,7.0,2.99,3.07,0.286,2.51,259,ok
+0150324AR,431580.91,4586328.73,41.45,Platanus × acerifolia,True,SEGONA,Pl Congrés Eucarístic,15.18,71.0,9.51,8.08,0.355,2.07,2841,ok
+0150325AR,431262.46,4586335.95,53.37,Quercus robur 'Fastigiata',False,PRIMERA,C\ Ramon Albó,4.94,1.2,1.26,3.37,0.429,1.69,32,no_crown_detected
+0150326AR,431444.32,4586115.96,47.92,Platanus × acerifolia,True,TERCERA,C\ Manigua,9.6,0.8,0.98,8.78,0.455,1.58,31,no_crown_detected
+0150327AR,431605.82,4586075.82,41.27,Brachychiton populneus,False,SEGONA,C\ Garcilaso,,0.0,0.0,,,,0,no_crown_detected
+0150328AR,431685.38,4586113.55,38.04,Fraxinus pennsylvanica,False,SEGONA,C\ Felip II,8.85,67.0,9.24,4.99,0.257,2.72,2451,ok
+0150329AR,431709.27,4586089.83,37.56,Fraxinus pennsylvanica,False,SEGONA,C\ Felip II,6.9,43.5,7.44,3.87,0.424,1.72,1692,ok
+0150331AR,431520.92,4585790.62,45.36,Celtis australis,False,SEGONA,Pg Maragall,12.29,27.5,5.92,8.59,0.069,5.35,333,ok
+0150332AR,431559.64,4586478.45,42.14,Populus alba 'Pyramidalis',False,SEGONA,C\ Can Ros,13.35,32.2,6.41,5.37,0.203,3.19,1753,ok
+0150333AR,431653.98,4586027.52,39.5,Koelreuteria paniculata 'Fastigiata',False,SEGONA,C\ Matanzas,9.94,8.5,3.29,5.1,0.223,3.0,323,ok
+0150335AR,431801.2,4585973.41,34.55,Melia azedarach,False,SEGONA,C\ Concepción Arenal,10.15,52.2,8.16,5.62,0.285,2.51,1749,ok
+0150336AR,431428.49,4586086.2,48.46,Melia azedarach,False,TERCERA,C\ Manigua,16.78,76.0,9.84,6.35,0.238,2.87,2698,ok
+0150337AR,431769.19,4585957.81,35.53,Magnolia grandiflora,False,SEGONA,C\ Pinar del Río,13.41,47.5,7.78,5.29,0.176,3.48,1228,ok
+0150339AR,431266.29,4586201.17,55.68,Grevillea robusta,False,SEGONA,C\ Ramon Albó,10.08,12.0,3.91,4.82,0.287,2.5,436,ok
+0150341AR,431804.29,4586152.57,35.29,Platanus × acerifolia,True,EXEMPLAR,C\ Cienfuegos,21.33,119.8,12.35,9.67,0.202,3.2,6398,ok
+0150342AR,431691.83,4586211.82,38.36,Platanus × acerifolia,True,SEGONA,C\ Felip Bertran i Güell,18.23,77.8,9.95,10.63,0.202,3.2,3427,ok
+0150343AR,431493.63,4586293.59,43.24,Melia azedarach,False,SEGONA,Pl Doctor Modrego,6.19,15.0,4.37,3.89,0.469,1.51,560,ok
+0150344AR,431794.54,4586164.17,35.63,Platanus × acerifolia,True,TERCERA,C\ Cienfuegos,12.99,2.2,1.69,4.23,0.185,3.37,60,ok
+0150346AR,431489.6,4586497.85,43.14,Ligustrum lucidum,False,SEGONA,C\ Cardenal Tedeschini,8.23,1.2,1.26,5.62,0.25,2.77,19,no_crown_detected
+0150347AR,431458.82,4586345.98,43.66,Styphnolobium japonicum,False,EXEMPLAR,C\ Felip II,11.75,76.2,9.85,5.4,0.224,2.99,2537,ok
+0150348AR,431561.25,4585772.46,43.57,Casuarina cunninghamiana,False,EXEMPLAR,Pl Maragall,22.51,55.0,8.37,5.27,0.247,2.8,941,ok
+0150349AR,431674.98,4585964.67,38.58,Magnolia grandiflora,False,SEGONA,C\ Pinar del Río,7.86,0.8,0.98,4.1,0.286,2.51,14,no_crown_detected
+0150350AR,431782.14,4586165.92,35.92,Platanus × acerifolia,True,SEGONA,C\ Cienfuegos,11.87,1.5,1.38,7.1,0.0,7.82,39,no_crown_detected
+0150352AR,431665.15,4586111.24,38.5,Koelreuteria paniculata 'Fastigiata',False,SEGONA,C\ Matanzas,12.2,9.5,3.48,4.98,0.161,3.65,416,ok
+0150353AR,431268.41,4586462.32,49.04,Quercus robur 'Fastigiata',False,PRIMERA,C\ Ramon Albó,4.35,7.0,2.99,3.44,0.474,1.49,134,ok
+0150354AR,431624.7,4585731.68,40.86,Jacaranda mimosifolia,False,SEGONA,C\ Olesa,9.46,26.2,5.78,6.5,0.36,2.04,472,ok
+0150355AR,431735.82,4586460.97,39.76,Acer campestre 'Elsrijk',False,PRIMERA,C\ Can Ros,8.58,35.2,6.7,4.51,0.307,2.36,1519,ok
+0150356AR,431459.97,4586224.23,46.03,Melia azedarach,False,EXEMPLAR,C\ Manigua,16.63,82.0,10.22,7.89,0.125,4.16,3074,ok
+0150357AR,431530.8,4586517.52,42.37,Styphnolobium japonicum,False,TERCERA,C\ Vèlia,16.83,136.0,13.16,4.85,0.199,3.23,5703,ok
+0150358AR,431453.01,4586176.63,46.8,Melia azedarach,False,SEGONA,C\ Manigua,13.5,23.2,5.44,7.29,0.11,4.41,630,ok
+0150359AR,431677.45,4586312.18,40.14,Melia azedarach,False,SEGONA,C\ Cep,5.34,28.5,6.02,3.0,0.435,1.67,975,ok
+0150361AR,431405.19,4586548.31,44.24,Platanus × acerifolia,True,SEGONA,C\ Sant Pasqual Bailón,17.59,36.5,6.82,9.06,0.105,4.52,1725,ok
+0150362AR,431637.39,4586465.45,41.33,Koelreuteria paniculata 'Fastigiata',False,PRIMERA,C\ Can Ros,,0.0,0.0,,,,0,no_crown_detected
+0150363AR,431412.86,4586423.13,44.25,Melia azedarach,False,EXEMPLAR,C\ Felip II,13.47,6.2,2.82,7.52,0.11,4.41,194,ok
+0150364AR,431552.94,4586478.86,42.14,Populus alba,False,SEGONA,C\ Can Ros,14.16,47.2,7.76,5.05,0.302,2.39,2492,ok
+0150365AR,431685.76,4586407.34,40.54,Styphnolobium japonicum,False,PRIMERA,C\ Pardo,5.62,12.2,3.95,3.25,0.426,1.71,429,ok
+0150366AR,431754.89,4585858.35,35.9,Jacaranda mimosifolia,False,SEGONA,C\ Olesa,8.57,40.0,7.14,4.69,0.404,1.81,1002,ok
+0150367AR,431756.52,4586551.38,38.95,Platanus × acerifolia,True,SEGONA,C\ Riera d'Horta,14.51,55.8,8.43,8.61,0.248,2.79,2266,ok
+0150368AR,431687.99,4586075.77,38.11,Brachychiton populneus,False,SEGONA,C\ Garcilaso,6.12,8.0,3.19,3.56,0.345,2.13,330,ok
+0150369AR,431722.92,4585943.85,36.55,Magnolia grandiflora,False,PRIMERA,C\ Jordi de Sant Jordi,4.5,2.5,1.78,3.05,0.537,1.24,54,ok
+0150371AR,431661.91,4586313.76,40.32,Firmiana simplex,False,PRIMERA,C\ Cep,16.31,2.2,1.69,6.88,0.0,7.82,84,ok
+0150372AR,431324.02,4586095.59,53.2,Platanus × acerifolia,True,SEGONA,Jard Jaume Ferran i Clua,11.87,71.8,9.56,4.86,0.305,2.37,3403,ok
+0150373AR,431268.21,4586536.41,47.33,Platanus × acerifolia,True,EXEMPLAR,C\ Ramon Albó,15.1,0.5,0.8,14.25,0.222,3.01,15,no_crown_detected
+0150376AR,431726.55,4585830.95,37.04,Tilia x europaea,False,SEGONA,C\ Olesa,6.35,16.8,4.62,3.44,0.348,2.11,322,ok
+0150378AR,431466.6,4586567.29,43.28,Styphnolobium japonicum,False,PRIMERA,C\ Riera d'Horta,3.57,12.0,3.91,2.24,0.255,2.73,195,ok
+0150379AR,431786.3,4586033.54,34.66,Casuarina cunninghamiana,False,PRIMERA,C\ Felip II,11.27,4.0,2.26,6.67,0.224,3.0,159,ok
+0150380AR,431549.87,4585983.26,43.31,Magnolia grandiflora,False,SEGONA,C\ Pinar del Río,8.4,24.5,5.59,4.27,0.333,2.2,1067,ok
+0150383AR,431243.89,4586218.45,56.26,Acer buergerianum,False,PRIMERA,C\ Ramon Albó,,0.0,0.0,,,,0,no_crown_detected
+0150384AR,431646.6,4585977.88,39.92,Koelreuteria paniculata 'Fastigiata',False,SEGONA,C\ Matanzas,,0.0,0.0,,,,0,no_crown_detected
+0150385AR,431358.96,4586412.1,45.58,Robinia pseudoacacia,False,SEGONA,Pas Sant Tarsici,12.13,38.0,6.96,6.69,0.315,2.31,1408,ok
+0150387AR,431633.48,4585885.35,40.47,Koelreuteria paniculata 'Fastigiata',False,SEGONA,C\ Matanzas,13.34,7.8,3.14,4.61,0.219,3.03,155,ok
+0150389AR,431832.17,4586497.1,37.78,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Concepción Arenal,6.0,4.2,2.33,2.74,0.421,1.73,177,ok
+0150390AR,431504.77,4586565.25,42.62,Melia azedarach,False,PRIMERA,C\ Riera d'Horta,,0.0,0.0,,,,0,no_crown_detected
+0150391AR,431250.5,4586271.31,55.36,Grevillea robusta,False,PRIMERA,C\ Ramon Albó,20.26,42.0,7.31,4.21,0.216,3.07,1764,ok
+0150392AR,431291.86,4586546.52,46.54,Pinus halepensis,False,TERCERA,C\ Felip II,10.84,6.0,2.76,6.17,0.11,4.41,220,ok
+0150393AR,431536.74,4586519.8,42.22,Celtis australis,False,SEGONA,C\ Vèlia,9.01,21.5,5.23,4.17,0.207,3.15,829,ok
+0150395AR,431726.58,4585970.42,36.48,Magnolia grandiflora,False,SEGONA,C\ Jordi de Sant Jordi,8.8,20.5,5.11,5.12,0.11,4.42,564,ok
+0150396AR,431426.56,4585995.38,48.79,Platanus × acerifolia,True,TERCERA,C\ Manigua,13.12,1.8,1.49,6.93,0.194,3.28,81,no_crown_detected
+0150398AR,431600.26,4586559.46,40.99,Platanus × acerifolia,True,SEGONA,C\ Riera d'Horta,11.06,24.8,5.61,6.13,0.213,3.09,974,ok
+0150399AR,431720.88,4586461.87,40.2,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Can Ros,10.69,55.0,8.37,4.35,0.209,3.13,2287,ok
+0150401AR,431732.13,4585924.85,36.44,Brachychiton populneus,False,SEGONA,Pl Rom Cremat,10.58,12.0,3.91,4.28,0.289,2.48,356,ok
+0150402AR,431662.07,4585973.3,39.24,Magnolia grandiflora,False,PRIMERA,C\ Pinar del Río,6.68,2.0,1.6,4.17,0.512,1.34,44,few_points
+0150403AR,431714.83,4586175.78,37.46,Platanus × acerifolia,True,TERCERA,C\ Cienfuegos,17.77,63.0,8.96,10.25,0.136,3.99,2596,ok
+0150405AR,431312.36,4586118.69,53.55,Schinus molle,False,EXEMPLAR,Jard Jaume Ferran i Clua,13.23,126.2,12.68,4.84,0.24,2.85,5480,ok
+0150406AR,431552.32,4586375.24,42.28,Platanus × acerifolia,True,SEGONA,Pl Congrés Eucarístic,9.95,12.0,3.91,7.07,0.294,2.45,405,ok
+0150407AR,431646.57,4586072.32,39.68,Brachychiton populneus,False,SEGONA,C\ Garcilaso,7.41,16.5,4.58,3.58,0.394,1.86,707,ok
+0150408AR,431790.83,4585948.05,35.12,Magnolia grandiflora,False,SEGONA,C\ Pinar del Río,10.13,1.2,1.26,6.73,0.233,2.91,30,no_crown_detected
+0150409AR,431690.58,4586517.11,40.04,Catalpa bignonioides,False,SEGONA,C\ Pardo,6.07,17.2,4.69,3.1,0.216,3.07,530,ok
+0150410AR,431393.63,4586537.29,44.3,Platanus × acerifolia,True,SEGONA,C\ Sant Pasqual Bailón,13.84,16.8,4.62,4.83,0.091,4.8,725,ok
+0150411AR,431713.85,4585818.32,37.42,Tilia x europaea,False,SEGONA,C\ Olesa,6.89,26.5,5.81,3.75,0.312,2.33,504,ok
+0150412AR,431397.11,4586301.01,48.99,Magnolia grandiflora,False,SEGONA,Ptge Ordi,11.72,10.0,3.57,3.98,0.405,1.81,309,ok
+0150413AR,431749.96,4585940.32,36.02,Brachychiton populneus,False,TERCERA,Pl Rom Cremat,9.47,22.8,5.38,2.51,0.278,2.56,436,ok
+0150414AR,431466.42,4586402.57,43.49,Styphnolobium japonicum,False,SEGONA,C\ Espiga,9.92,41.2,7.25,5.65,0.136,3.99,1717,ok
+0150415AR,431627.44,4585831.26,40.87,Koelreuteria paniculata 'Fastigiata',False,SEGONA,C\ Matanzas,13.5,31.0,6.28,4.5,0.142,3.9,690,ok
+0150416AR,431691.03,4585968.94,37.84,Magnolia grandiflora,False,SEGONA,C\ Pinar del Río,8.84,16.5,4.58,4.78,0.346,2.12,390,ok
+0150417AR,431705.67,4586093.34,37.63,Fraxinus pennsylvanica,False,PRIMERA,C\ Felip II,9.08,35.5,6.72,3.68,0.356,2.06,1504,ok
+0150418AR,431508.01,4586478.93,42.85,Ligustrum lucidum,False,SEGONA,C\ Cardenal Tedeschini,8.73,8.5,3.29,1.59,0.195,3.26,203,ok
+0150422AR,431380.69,4586582.39,45.05,Platanus × acerifolia,True,EXEMPLAR,C\ Riera d'Horta,12.12,22.5,5.35,6.2,0.191,3.31,1052,ok
+0150423AR,431261.58,4586372.54,51.76,Grevillea robusta,False,PRIMERA,C\ Ramon Albó,12.93,13.2,4.11,7.65,0.234,2.91,382,ok
+0150424AR,431509.76,4586444.65,42.73,Styphnolobium japonicum,False,SEGONA,C\ Espiga,7.5,7.5,3.09,4.4,0.155,3.73,191,ok
+0150425AR,431276.59,4586562.12,47.11,Tipuana tipu,False,TERCERA,C\ Felip II,13.19,69.0,9.37,6.89,0.077,5.13,2563,ok
+0150426AR,431708.13,4586074.08,37.5,Cercis siliquastrum,False,SEGONA,C\ Garcilaso,6.63,70.5,9.47,3.41,0.336,2.18,2626,ok
+0150427AR,431418.88,4586415.34,44.17,Cupressus sempervirens,False,EXEMPLAR,C\ Felip II,19.99,47.5,7.78,6.45,0.13,4.08,2128,ok
+0150428AR,431264.85,4586249.19,55.41,Grevillea robusta,False,SEGONA,C\ Ramon Albó,9.97,14.8,4.33,4.6,0.294,2.45,434,ok
+0150430AR,431747.72,4586050.13,35.88,Catalpa bignonioides,False,EXEMPLAR,C\ Felip II,13.43,102.0,11.4,5.87,0.286,2.5,4131,ok
+0150431AR,431580.88,4586248.37,40.97,Melia azedarach,False,SEGONA,C\ Felip II,12.24,98.2,11.18,5.52,0.166,3.59,3912,ok
+0150432AR,431801.13,4585967.55,34.54,Melia azedarach,False,SEGONA,C\ Concepción Arenal,13.44,119.5,12.33,5.4,0.145,3.86,2547,ok
+0150433AR,431762.55,4586168.92,36.39,Platanus × acerifolia,True,EXEMPLAR,C\ Cienfuegos,21.1,84.0,10.34,12.05,0.124,4.17,3917,ok
+0150434AR,431652.75,4586018.91,39.6,Koelreuteria paniculata 'Fastigiata',False,SEGONA,C\ Matanzas,,0.0,0.0,,,,0,no_crown_detected
+0150435AR,431640.1,4586292.23,40.4,Firmiana simplex,False,SEGONA,C\ Cep,7.41,20.5,5.11,3.53,0.188,3.35,806,ok
+0150436AR,431517.62,4586435.08,42.66,Styphnolobium japonicum,False,SEGONA,C\ Espiga,11.13,2.2,1.69,5.73,0.0,7.82,110,ok
+0150437AR,431502.08,4586284.99,42.93,Melia azedarach,False,SEGONA,Pl Doctor Modrego,5.15,19.5,4.98,3.58,0.518,1.32,797,ok
+0150438AR,431633.96,4585784.38,40.56,Melia azedarach,False,SEGONA,C\ Biscaia,12.7,76.2,9.85,4.68,0.181,3.41,1593,ok
+0150439AR,431798.0,4586153.0,35.44,Quercus robur 'Fastigiata',False,PRIMERA,C\ Cienfuegos,15.3,1.5,1.38,11.37,0.133,4.03,29,no_crown_detected
+0150440AR,431415.06,4585970.03,49.52,Magnolia grandiflora,False,SEGONA,C\ Manigua,4.78,7.2,3.04,3.2,0.395,1.86,129,ok
+0150441AR,431365.09,4586226.8,51.04,Jacaranda mimosifolia,False,SEGONA,Ptge Salvador Riera,9.06,22.8,5.38,4.89,0.344,2.13,921,ok
+0150442AR,431681.73,4586329.62,40.26,Styphnolobium japonicum,False,SEGONA,C\ Pardo,6.94,27.0,5.86,4.05,0.321,2.27,1070,ok
+0150444AR,431483.64,4586267.21,43.69,Tipuana tipu,False,SEGONA,Pl Doctor Modrego,12.41,22.8,5.38,7.34,0.404,1.81,943,ok
+0150445AR,431739.57,4585843.99,36.46,Tilia x europaea,False,SEGONA,C\ Olesa,6.87,21.5,5.23,3.65,0.381,1.93,394,ok
+0150447AR,431660.0,4586464.0,41.12,Koelreuteria paniculata 'Fastigiata',False,PRIMERA,C\ Can Ros,,0.0,0.0,,,,0,no_crown_detected
+0150448AR,431609.28,4586218.98,40.27,Cupressus sempervirens,False,TERCERA,C\ Felip II,16.53,69.8,9.42,4.56,0.156,3.71,2575,ok
+0150449AR,431590.56,4586337.63,41.38,Platanus × acerifolia,True,SEGONA,Pl Congrés Eucarístic,16.57,79.8,10.08,7.47,0.34,2.16,3217,ok
+0150450AR,431628.64,4585838.29,40.81,Koelreuteria paniculata 'Fastigiata',False,SEGONA,C\ Matanzas,11.35,21.8,5.26,6.45,0.098,4.64,356,ok
+0150453AR,431247.53,4586280.39,55.23,Melia azedarach,False,PRIMERA,C\ Ramon Albó,6.79,1.2,1.26,5.98,0.0,7.82,25,no_crown_detected
+0150454AR,431520.02,4586564.28,42.37,Robinia pseudoacacia,False,SEGONA,C\ Riera d'Horta,6.29,3.8,2.19,2.11,0.232,2.92,88,ok
+0150455AR,431481.75,4586282.39,43.77,Tipuana tipu,False,SEGONA,Pl Doctor Modrego,10.31,6.0,2.76,6.43,0.407,1.8,282,ok
+0150456AR,431606.48,4586192.53,40.13,Melia azedarach,False,SEGONA,C\ Felip II,12.75,98.8,11.21,7.18,0.143,3.89,3623,ok
+0150457AR,431756.21,4585959.59,35.79,Magnolia grandiflora,False,SEGONA,C\ Pinar del Río,9.53,27.2,5.89,5.31,0.23,2.94,574,ok
+0150459AR,431523.83,4586125.76,44.56,Magnolia grandiflora,False,SEGONA,C\ Francesc Tàrrega,15.18,24.2,5.56,4.64,0.259,2.7,912,ok
+0150460AR,431395.1,4585975.98,50.46,Celtis australis,False,SEGONA,Pg Maragall,9.47,38.2,6.98,6.26,0.392,1.87,1268,ok
+0150461AR,431445.34,4586200.17,46.74,Platanus × acerifolia,True,EXEMPLAR,C\ Manigua,23.23,207.0,16.23,12.3,0.204,3.18,10883,ok
+0150462AR,431267.24,4586542.08,47.28,Platanus × acerifolia,True,SEGONA,C\ Ramon Albó,15.72,5.8,2.71,6.6,0.279,2.55,208,ok
+0150463AR,431391.5,4586416.82,44.54,Melia azedarach,False,SEGONA,C\ Felip II,12.04,78.5,10.0,5.74,0.278,2.56,2927,ok
+0150464AR,431774.43,4585876.88,35.38,Jacaranda mimosifolia,False,PRIMERA,C\ Olesa,,0.0,0.0,,,,0,no_crown_detected
+0150465AR,431427.47,4586206.6,47.64,Tipuana tipu,False,EXEMPLAR,Ptge Salvador Riera,20.54,107.8,11.71,11.75,0.225,2.99,4124,ok
+0150466AR,431612.36,4586358.5,41.14,Platanus × acerifolia,True,SEGONA,Pl Congrés Eucarístic,8.3,1.2,1.26,6.2,0.4,1.83,62,no_crown_detected
+0150467AR,431264.5,4586255.94,55.38,Grevillea robusta,False,PRIMERA,C\ Ramon Albó,,0.0,0.0,,,,0,no_crown_detected
+0150468AR,431655.21,4586035.73,39.42,Koelreuteria paniculata 'Fastigiata',False,SEGONA,C\ Matanzas,8.34,7.2,3.04,6.07,0.358,2.05,297,ok
+0150469AR,431580.83,4585807.92,42.66,Koelreuteria paniculata 'Fastigiata',False,PRIMERA,Ptge Can Berdura,4.25,1.2,1.26,2.76,0.355,2.07,31,no_crown_detected
+0150470AR,431272.13,4586607.34,47.1,Platanus × acerifolia,True,SEGONA,C\ Riera d'Horta,16.59,98.2,11.18,8.44,0.223,3.0,2607,ok
+0150471AR,431702.21,4586097.02,37.72,Fraxinus pennsylvanica,False,SEGONA,C\ Felip II,10.6,48.5,7.86,4.75,0.278,2.56,2241,ok
+0150472AR,431262.52,4586585.9,47.32,Platanus × acerifolia,True,SEGONA,C\ Arnau d'Oms,16.35,77.2,9.92,8.41,0.275,2.58,3493,ok
+0150475AR,431647.28,4585753.76,39.69,Jacaranda mimosifolia,False,SEGONA,C\ Olesa,10.26,51.8,8.12,6.34,0.367,2.0,1100,ok
+0150476AR,431816.89,4586547.8,38.36,Melia azedarach,False,SEGONA,C\ Riera d'Horta,6.96,55.0,8.37,4.19,0.384,1.92,1921,ok
+0150477AR,431529.27,4586099.03,44.44,Brachychiton populneus,False,SEGONA,C\ Garcilaso,5.08,23.0,5.41,2.24,0.378,1.95,775,ok
+0150478AR,431325.05,4586311.49,51.74,Robinia pseudoacacia,False,EXEMPLAR,C\ Acàcies,14.19,62.5,8.92,6.88,0.232,2.92,2533,ok
+0150480AR,431553.6,4586302.14,41.78,Platanus × acerifolia,True,TERCERA,Pl Congrés Eucarístic,18.38,85.5,10.43,8.73,0.221,3.02,3625,ok
+0150481AR,431298.19,4586601.19,46.59,Platanus × acerifolia,True,SEGONA,C\ Riera d'Horta,13.86,38.0,6.96,8.66,0.269,2.63,949,ok
+0150482AR,431327.41,4586203.79,53.25,Robinia pseudoacacia,False,SEGONA,C\ Acàcies,11.92,71.8,9.56,6.65,0.285,2.51,3509,ok
+0150483AR,431766.85,4586031.23,35.13,Catalpa bignonioides,False,TERCERA,C\ Felip II,11.87,53.2,8.23,6.65,0.332,2.2,2223,ok
+0150484AR,431676.78,4586197.0,38.53,Platanus × acerifolia,True,TERCERA,C\ Felip Bertran i Güell,18.42,85.8,10.45,8.46,0.253,2.75,3787,ok
+0150485AR,431717.03,4586072.71,37.24,Cercis siliquastrum,False,SEGONA,C\ Garcilaso,6.56,29.5,6.13,3.18,0.439,1.65,1138,ok
+0150486AR,431362.9,4586415.98,45.4,Robinia pseudoacacia,False,SEGONA,Pas Sant Tarsici,10.36,2.8,1.87,5.41,0.312,2.33,43,few_points
+0150487AR,431752.65,4586045.71,35.72,Catalpa bignonioides,False,TERCERA,C\ Felip II,9.1,21.8,5.26,4.54,0.252,2.75,747,ok
+0150488AR,431250.0,4586294.0,54.94,Grevillea robusta,False,PRIMERA,C\ Ramon Albó,14.11,34.0,6.58,3.39,0.303,2.39,1633,ok
+0150489AR,431566.27,4586263.25,41.3,Melia azedarach,False,SEGONA,C\ Felip II,11.29,42.0,7.31,6.18,0.245,2.81,1627,ok
+0150490AR,431572.06,4586257.03,41.18,Styphnolobium japonicum,False,EXEMPLAR,C\ Felip II,9.0,9.8,3.52,3.89,0.196,3.26,391,ok
+0150492AR,431409.85,4586217.48,48.6,Tipuana tipu,False,EXEMPLAR,Ptge Salvador Riera,18.71,57.8,8.57,11.81,0.314,2.32,2524,ok
+0150494AR,431408.93,4586398.9,44.39,Tipuana tipu,False,EXEMPLAR,C\ Felip II,20.0,99.0,11.23,9.85,0.193,3.29,3638,ok
+0150495AR,431352.26,4586231.11,51.46,Jacaranda mimosifolia,False,PRIMERA,Ptge Salvador Riera,5.37,4.8,2.46,4.07,0.529,1.27,177,ok
+0150496AR,431749.8,4586282.54,38.21,Firmiana simplex,False,PRIMERA,Pl Cardenal Cicognani,4.52,9.0,3.39,2.69,0.373,1.97,268,ok
+0150497AR,431514.23,4586109.54,45.06,Magnolia grandiflora,False,SEGONA,C\ Francesc Tàrrega,13.91,14.5,4.3,4.62,0.375,1.96,414,ok
+0150498AR,431402.6,4586305.66,48.8,Magnolia grandiflora,False,SEGONA,Ptge Ordi,6.75,11.8,3.87,3.44,0.343,2.14,445,ok
+0150499AR,431582.35,4586421.05,41.64,Platanus × acerifolia,True,TERCERA,C\ Cardenal Tedeschini,16.31,120.5,12.39,6.69,0.211,3.11,5414,ok
+0150500AR,431521.26,4586344.87,42.65,Platanus × acerifolia,True,TERCERA,Pl Congrés Eucarístic,35.41,7.2,3.04,3.0,0.218,3.04,291,ok
+0150501AR,431744.75,4586283.21,38.38,Firmiana simplex,False,SEGONA,Pl Cardenal Cicognani,6.33,21.2,5.2,4.2,0.414,1.77,584,ok
+0150502AR,431469.82,4586533.43,43.34,Ligustrum lucidum,False,SEGONA,C\ Cardenal Tedeschini,6.16,11.5,3.83,4.46,0.267,2.64,370,ok
+0150503AR,431482.05,4586350.19,43.39,Cupressus sempervirens,False,SEGONA,C\ Felip II,13.09,91.0,10.76,5.23,0.25,2.77,3482,ok
+0150504AR,431478.0,4586353.96,43.44,Pinus halepensis,False,TERCERA,C\ Felip II,12.25,1.0,1.13,9.78,0.071,5.28,46,no_crown_detected
+0150505AR,431744.22,4586551.68,39.1,Platanus × acerifolia,True,SEGONA,C\ Riera d'Horta,15.01,32.2,6.41,6.38,0.299,2.41,1680,ok
+0150506AR,431487.71,4586263.22,43.51,Tipuana tipu,False,SEGONA,Pl Doctor Modrego,12.86,56.2,8.46,6.25,0.322,2.26,2292,ok
+0150507AR,431488.85,4585997.69,45.92,Magnolia grandiflora,False,SEGONA,C\ Pinar del Río,7.09,25.8,5.73,4.34,0.412,1.77,884,ok
+0150508AR,431645.03,4585773.12,39.86,Melia azedarach,False,EXEMPLAR,C\ Biscaia,16.73,102.8,11.44,6.21,0.06,5.62,2047,ok
+0150509AR,431325.55,4586282.72,52.32,Robinia pseudoacacia,False,SEGONA,C\ Acàcies,14.97,22.0,5.29,7.89,0.225,2.98,918,ok
+0150510AR,431399.89,4586311.68,48.81,Magnolia grandiflora,False,SEGONA,Ptge Ordi,14.51,35.5,6.72,3.93,0.217,3.06,1228,ok
+0150512AR,431548.17,4586370.65,42.31,Platanus × acerifolia,True,SEGONA,Pl Congrés Eucarístic,11.59,22.0,5.29,7.89,0.365,2.02,748,ok
+0150513AR,431730.05,4586173.55,37.09,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Cienfuegos,16.89,2.8,1.87,11.47,0.364,2.02,102,ok
+0150514AR,431585.6,4586333.07,41.41,Platanus × acerifolia,True,SEGONA,Pl Congrés Eucarístic,5.78,2.2,1.69,5.22,0.455,1.58,58,ok
+0150516AR,431692.09,4586229.04,38.63,Platanus × acerifolia,True,TERCERA,C\ Felip Bertran i Güell,15.17,32.8,6.46,9.05,0.165,3.61,1462,ok
+0150517AR,431500.04,4586417.85,42.94,Styphnolobium japonicum,False,SEGONA,C\ Espiga,7.16,6.0,2.76,4.72,0.351,2.09,250,ok
+0150518AR,431466.18,4586365.68,43.81,Cupressus sempervirens,False,SEGONA,C\ Felip II,9.35,10.2,3.61,4.26,0.191,3.31,447,ok
+0150519AR,431265.23,4586237.99,55.6,Quercus robur 'Fastigiata',False,PRIMERA,C\ Ramon Albó,6.49,1.2,1.26,3.54,0.214,3.08,46,no_crown_detected
+0150520AR,431538.85,4586538.41,42.0,Celtis australis,False,SEGONA,C\ Vèlia,17.04,75.2,9.79,4.09,0.168,3.56,2919,ok
+0150521AR,431618.34,4586363.8,41.07,Platanus × acerifolia,True,SEGONA,Pl Congrés Eucarístic,12.06,85.2,10.42,6.32,0.423,1.72,3450,ok
+0150522AR,431311.12,4586099.12,53.46,Celtis australis,False,SEGONA,Pg Maragall,9.77,47.0,7.74,6.29,0.275,2.58,1575,ok
+0150523AR,431422.22,4586043.75,48.66,Melia azedarach,False,SEGONA,C\ Manigua,19.14,39.2,7.07,7.75,0.232,2.92,1419,ok
+0150524AR,431332.85,4586244.28,52.9,Acer monspessulanum,False,PRIMERA,C\ Acàcies,4.87,1.2,1.26,2.43,0.4,1.83,35,no_crown_detected
+0150525AR,431429.43,4586017.56,48.71,Platanus × acerifolia,True,SEGONA,C\ Manigua,18.04,72.0,9.57,9.77,0.263,2.67,3222,ok
+0150526AR,431260.77,4586408.04,50.32,Quercus robur 'Fastigiata',False,PRIMERA,C\ Ramon Albó,,0.0,0.0,,,,0,no_crown_detected
+0150527AR,431662.34,4586091.45,38.94,Koelreuteria paniculata 'Fastigiata',False,PRIMERA,C\ Matanzas,,0.0,0.0,,,,0,no_crown_detected
+0150528AR,431684.29,4586366.71,40.32,Styphnolobium japonicum,False,PRIMERA,C\ Pardo,5.68,17.2,4.69,3.55,0.419,1.74,712,ok
+0150530AR,431477.52,4586295.51,39.88,Grevillea robusta,False,SEGONA,Pl Doctor Modrego,19.25,58.2,8.61,5.65,0.04,6.45,3056,ok
+0150531AR,431788.11,4586457.42,38.66,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Can Ros,9.36,41.2,7.25,3.09,0.331,2.21,1752,ok
+0150532AR,431533.33,4586190.5,43.02,Magnolia grandiflora,False,SEGONA,C\ Francesc Tàrrega,11.06,2.8,1.87,3.96,0.229,2.95,75,ok
+0150533AR,431285.5,4586554.22,46.86,Tipuana tipu,False,TERCERA,C\ Felip II,15.05,79.0,10.03,7.74,0.088,4.87,2856,ok
+0150534AR,431531.74,4586525.86,42.32,Styphnolobium japonicum,False,SEGONA,C\ Vèlia,16.88,33.8,6.56,4.41,0.342,2.14,1599,ok
+0150535AR,431391.17,4586553.24,44.43,Platanus × acerifolia,True,TERCERA,C\ Sant Pasqual Bailón,13.8,5.2,2.59,8.9,0.193,3.29,146,ok
+0150536AR,431726.08,4585852.46,36.83,Tipuana tipu,False,SEGONA,Pl Havaneres,7.55,14.2,4.26,5.16,0.34,2.16,256,ok
+0150537AR,431571.55,4586319.52,41.54,Platanus × acerifolia,True,SEGONA,Pl Congrés Eucarístic,13.6,1.5,1.38,13.16,0.4,1.83,30,no_crown_detected
+0150538AR,431567.56,4586436.78,41.86,Melia azedarach,False,SEGONA,C\ Cardenal Tedeschini,7.38,27.5,5.92,4.81,0.391,1.88,900,ok
+0150540AR,431338.86,4586541.28,46.14,Celtis australis,False,PRIMERA,C\ Felip II,,0.0,0.0,,,,0,no_crown_detected
+0150541AR,431769.18,4586550.41,38.83,Melia azedarach,False,SEGONA,C\ Riera d'Horta,11.08,8.0,3.19,7.7,0.348,2.11,320,ok
+0150542AR,431632.25,4585875.49,40.54,Koelreuteria paniculata 'Fastigiata',False,SEGONA,C\ Matanzas,,0.0,0.0,,,,0,no_crown_detected
+0150544AR,431587.01,4586212.85,40.57,Melia azedarach,False,SEGONA,C\ Felip II,16.94,157.0,14.14,5.57,0.2,3.22,6228,ok
+0150545AR,431413.07,4585981.7,49.44,Melia azedarach,False,SEGONA,C\ Manigua,7.39,16.0,4.51,4.34,0.532,1.26,393,ok
+0150546AR,431381.88,4586418.36,44.79,Robinia pseudoacacia,False,TERCERA,Pas Sant Tarsici,15.36,69.5,9.41,7.26,0.306,2.37,2710,ok
+0150547AR,431498.58,4586273.47,43.11,Tipuana tipu,False,SEGONA,Pl Doctor Modrego,8.05,2.2,1.69,3.76,0.423,1.72,127,ok
+0150548AR,431305.08,4586599.93,46.44,Platanus × acerifolia,True,SEGONA,C\ Riera d'Horta,14.0,0.5,0.8,12.61,0.364,2.02,11,no_crown_detected
+0150549AR,431652.22,4586348.82,40.56,Platanus × acerifolia,True,SEGONA,C\ Cardenal Tedeschini,11.41,2.5,1.78,5.8,0.196,3.26,90,ok
+0150550AR,431671.13,4586329.32,40.26,Platanus × acerifolia,True,EXEMPLAR,C\ Cardenal Tedeschini,14.53,58.0,8.59,7.11,0.313,2.32,3231,ok
+0150551AR,431350.28,4586495.43,44.67,Platanus × acerifolia,True,EXEMPLAR,C\ Sant Pasqual Bailón,13.69,1.8,1.49,4.71,0.448,1.6,42,no_crown_detected
+0150554AR,431749.11,4585933.62,36.06,Brachychiton populneus,False,TERCERA,Pl Rom Cremat,7.74,38.8,7.02,2.3,0.261,2.69,510,ok
+0150555AR,431399.57,4586542.91,44.3,Platanus × acerifolia,True,EXEMPLAR,C\ Sant Pasqual Bailón,18.85,94.8,10.98,9.62,0.139,3.94,4536,ok
+0150556AR,431526.59,4586142.87,44.3,Magnolia grandiflora,False,SEGONA,C\ Francesc Tàrrega,8.11,13.2,4.11,4.27,0.31,2.34,506,ok
+0150557AR,431265.96,4586213.04,55.9,Populus nigra 'Italica',False,SEGONA,C\ Ramon Albó,15.59,17.2,4.69,6.15,0.21,3.12,786,ok
+0150559AR,431455.12,4586190.41,46.65,Melia azedarach,False,SEGONA,C\ Manigua,21.7,18.2,4.82,10.27,0.0,7.82,478,ok
+0150562AR,431625.81,4585792.36,41.12,Melia azedarach,False,PRIMERA,C\ Biscaia,16.97,40.5,7.18,4.59,0.202,3.2,835,ok
+0150563AR,431181.0,4586301.0,57.58,Celtis australis,False,TERCERA,Pg Maragall,10.99,42.0,7.31,6.45,0.259,2.7,1304,ok
+0150564AR,431694.3,4585800.09,37.81,Jacaranda mimosifolia,False,SEGONA,C\ Olesa,11.63,47.0,7.74,6.83,0.321,2.27,1037,ok
+0150565AR,431314.53,4586496.96,45.88,Melia azedarach,False,EXEMPLAR,C\ Felip II,8.38,52.5,8.18,3.69,0.269,2.63,2359,ok
+0150566AR,431380.86,4586454.04,44.51,Melia azedarach,False,TERCERA,C\ Felip II,13.67,78.0,9.97,7.02,0.12,4.24,3207,ok
+0150567AR,431484.1,4586402.75,43.28,Styphnolobium japonicum,False,PRIMERA,C\ Espiga,4.09,8.5,3.29,2.77,0.145,3.86,221,ok
+0150568AR,431438.14,4586395.25,43.95,Cupressus sempervirens,False,EXEMPLAR,C\ Felip II,22.41,27.0,5.86,6.86,0.1,4.6,1051,ok
+0150569AR,431456.3,4586198.63,46.46,Melia azedarach,False,TERCERA,C\ Manigua,19.72,29.5,6.13,11.6,0.157,3.71,1288,ok
+0150570AR,431386.42,4586010.47,50.52,Magnolia grandiflora,False,PRIMERA,C\ Pinar del Río,6.83,15.8,4.48,3.37,0.366,2.01,403,ok
+0150571AR,431387.73,4585986.63,50.66,Celtis australis,False,SEGONA,Pg Maragall,8.52,25.0,5.64,5.68,0.297,2.43,745,ok
+0150573AR,431453.24,4586353.33,43.85,Cupressus sempervirens,False,EXEMPLAR,C\ Felip II,21.56,26.8,5.84,5.32,0.199,3.23,1181,ok
+0150574AR,431247.0,4586297.0,54.92,Melia azedarach,False,SEGONA,C\ Ramon Albó,6.37,22.2,5.32,4.16,0.419,1.74,792,ok
+0150575AR,431346.19,4586510.38,44.65,Platanus × acerifolia,True,TERCERA,C\ Sant Pasqual Bailón,14.99,1.5,1.38,9.75,0.259,2.7,62,no_crown_detected
+0150577AR,431501.73,4585819.4,46.01,Celtis australis,False,SEGONA,Pg Maragall,13.62,4.2,2.33,7.8,0.0,7.82,55,ok
+0150578AR,431667.15,4586463.84,41.11,Koelreuteria paniculata 'Fastigiata',False,SEGONA,C\ Can Ros,6.97,35.2,6.7,2.81,0.249,2.78,1106,ok
+0150579AR,431705.95,4586166.92,37.47,Citrus × aurantium,False,PRIMERA,C\ Cienfuegos,5.19,11.5,3.83,2.15,0.24,2.86,258,ok
+0150580AR,431423.52,4585973.66,49.19,Platanus × acerifolia,True,EXEMPLAR,C\ Manigua,18.61,116.2,12.17,7.42,0.344,2.13,3797,ok
+0150581AR,431686.48,4586426.33,40.6,Styphnolobium japonicum,False,SEGONA,C\ Pardo,15.25,31.0,6.28,4.66,0.354,2.08,1161,ok
+0150583AR,431539.37,4586449.53,42.26,Platanus × acerifolia,True,EXEMPLAR,C\ Cardenal Tedeschini,19.84,171.0,14.76,8.9,0.246,2.81,8590,ok
+0150584AR,431466.76,4586337.23,43.44,Melia azedarach,False,TERCERA,C\ Felip II,10.79,69.8,9.42,5.31,0.304,2.38,2808,ok
+0150585AR,431648.01,4586149.72,39.1,Melia azedarach,False,SEGONA,C\ Felip II,10.95,10.5,3.66,5.07,0.077,5.12,379,ok
+0150586AR,431416.06,4585977.72,49.41,Magnolia grandiflora,False,SEGONA,C\ Manigua,11.07,4.2,2.33,3.14,0.459,1.56,149,ok
+0150588AR,431833.43,4586546.37,38.22,Melia azedarach,False,TERCERA,C\ Riera d'Horta,7.96,80.5,10.12,4.25,0.37,1.99,3110,ok
+0150589AR,431348.64,4586043.93,52.08,Celtis australis,False,SEGONA,Pg Maragall,14.2,73.5,9.67,7.57,0.312,2.33,2981,ok
+0150590AR,431521.81,4586438.9,42.64,Styphnolobium japonicum,False,SEGONA,C\ Espiga,12.65,156.0,14.09,5.6,0.156,3.72,7665,ok
+0150591AR,431716.46,4586082.73,37.25,Casuarina cunninghamiana,False,PRIMERA,C\ Felip II,,0.0,0.0,,,,0,no_crown_detected
+0150592AR,431728.19,4585930.83,36.63,Brachychiton populneus,False,SEGONA,C\ Jordi de Sant Jordi,8.05,32.8,6.46,3.9,0.331,2.21,721,ok
+0150593AR,431260.5,4586437.78,49.59,Grevillea robusta,False,PRIMERA,C\ Ramon Albó,5.14,2.0,1.6,2.51,0.393,1.87,45,few_points
+0150594AR,431544.82,4586444.08,42.18,Platanus × acerifolia,True,TERCERA,C\ Cardenal Tedeschini,17.18,2.0,1.6,5.05,0.333,2.2,114,ok
+0150595AR,431509.38,4585988.83,45.17,Magnolia grandiflora,False,TERCERA,C\ Pinar del Río,7.36,29.8,6.15,3.7,0.438,1.65,1242,ok
+0150596AR,431807.88,4586361.83,37.62,Melia azedarach,False,PRIMERA,C\ Concepción Arenal,,0.0,0.0,,,,0,no_crown_detected
+0150597AR,431439.17,4586082.01,48.18,Platanus × acerifolia,True,SEGONA,C\ Manigua,17.92,9.2,3.43,5.91,0.272,2.61,352,ok
+0150598AR,431391.61,4586277.94,49.54,Magnolia grandiflora,False,SEGONA,Ptge Ordi,10.35,23.5,5.47,4.07,0.145,3.87,1160,ok
+0150600AR,431545.38,4586501.39,42.15,Celtis australis,False,SEGONA,C\ Vèlia,8.95,62.5,8.92,4.44,0.198,3.24,2047,ok
+0150601AR,431691.64,4586179.19,38.09,Platanus × acerifolia,True,EXEMPLAR,C\ Cienfuegos,17.02,29.2,6.1,9.48,0.135,4.01,1079,ok
+0150602AR,431774.98,4586549.93,38.76,Melia azedarach,False,PRIMERA,C\ Riera d'Horta,14.26,37.0,6.86,6.78,0.284,2.52,1650,ok
+0150603AR,431325.9,4586268.01,52.66,Robinia pseudoacacia,False,SEGONA,C\ Acàcies,7.11,0.5,0.8,6.38,0.0,7.82,13,no_crown_detected
+0150604AR,431559.39,4586428.85,42.04,Melia azedarach,False,SEGONA,C\ Cardenal Tedeschini,8.51,10.5,3.66,3.85,0.257,2.72,492,ok
+0150606AR,431514.7,4586280.14,42.58,Melia azedarach,False,SEGONA,Pl Doctor Modrego,5.18,5.0,2.52,3.59,0.356,2.07,150,ok
+0150608AR,431248.94,4586227.57,56.2,Acer negundo,False,SEGONA,C\ Ramon Albó,8.76,2.2,1.69,2.78,0.123,4.19,93,ok
+0150609AR,431575.06,4585758.52,43.02,Casuarina cunninghamiana,False,EXEMPLAR,Pl Maragall,17.49,58.5,8.63,4.79,0.179,3.44,1182,ok
+0150610AR,431373.5,4586434.43,44.78,Styphnolobium japonicum,False,TERCERA,C\ Felip II,7.75,26.0,5.75,4.52,0.265,2.66,653,ok
+0150611AR,431813.91,4586296.28,37.06,Ulmus pumila,False,EXEMPLAR,C\ Cardenal Tedeschini,11.52,92.5,10.85,3.38,0.232,2.92,3589,ok
+0150613AR,431574.54,4586403.25,42.26,Olea europaea,False,SEGONA,Pl Congrés Eucarístic,4.3,4.5,2.39,2.72,0.389,1.89,84,ok
+0150614AR,431630.14,4585853.1,40.67,Koelreuteria paniculata 'Fastigiata',False,PRIMERA,C\ Matanzas,12.58,10.5,3.66,1.64,0.198,3.24,217,ok
+0150615AR,431366.74,4586441.92,44.92,Casuarina cunninghamiana,False,SEGONA,C\ Felip II,7.23,6.2,2.82,2.09,0.351,2.1,218,ok
+0150616AR,431401.1,4586002.89,49.81,Magnolia grandiflora,False,PRIMERA,C\ Pinar del Río,6.29,8.8,3.34,3.83,0.309,2.35,345,ok
+0150618AR,431822.56,4586200.27,35.62,Melia azedarach,False,SEGONA,C\ Concepción Arenal,11.58,76.5,9.87,6.84,0.237,2.88,2555,ok
+0150619AR,431409.53,4586007.26,49.34,Magnolia grandiflora,False,PRIMERA,C\ Pinar del Río,6.42,9.2,3.43,3.63,0.324,2.26,238,ok
+0150620AR,431818.62,4586361.73,37.08,Jacaranda mimosifolia,False,SEGONA,C\ Concepción Arenal,10.77,68.0,9.3,4.82,0.252,2.76,2571,ok
+0150621AR,431825.53,4586326.36,36.66,Jacaranda mimosifolia,False,PRIMERA,C\ Cardenal Tedeschini,6.58,45.8,7.63,3.22,0.409,1.79,1899,ok
+0150622AR,431324.47,4586337.15,51.14,Acer monspessulanum,False,PRIMERA,C\ Acàcies,15.76,4.2,2.33,9.03,0.17,3.54,251,ok
+0150623AR,431323.31,4586382.09,49.34,Acer monspessulanum,False,PRIMERA,C\ Acàcies,,0.0,0.0,,,,0,no_crown_detected
+0150624AR,431440.13,4586090.68,48.1,Platanus × acerifolia,True,SEGONA,C\ Manigua,16.48,108.2,11.74,7.56,0.26,2.69,4715,ok
+0150625AR,431334.73,4586165.67,52.75,Robinia pseudoacacia,False,SEGONA,C\ Acàcies,10.14,47.2,7.76,5.02,0.369,1.99,2350,ok
+0150627AR,431491.76,4586427.25,43.18,Styphnolobium japonicum,False,PRIMERA,C\ Espiga,16.81,53.0,8.21,4.7,0.226,2.97,1996,ok
+0150628AR,431268.63,4586468.54,48.88,Quercus robur 'Fastigiata',False,PRIMERA,C\ Ramon Albó,,0.0,0.0,,,,0,no_crown_detected
+0150629AR,431703.23,4586074.75,37.65,Cercis siliquastrum,False,TERCERA,C\ Garcilaso,5.06,3.2,2.03,3.4,0.407,1.8,97,ok
+0150630AR,431414.15,4585989.0,49.31,Melia azedarach,False,SEGONA,C\ Manigua,9.03,23.5,5.47,5.68,0.402,1.82,745,ok
+0150631AR,431710.03,4585959.25,36.97,Magnolia grandiflora,False,SEGONA,C\ Pinar del Río,,0.0,0.0,,,,0,no_crown_detected
+0150632AR,431764.6,4586158.57,36.07,Platanus × acerifolia,True,SEGONA,C\ Cienfuegos,18.15,23.5,5.47,12.08,0.059,5.65,1009,ok
+0150633AR,431682.9,4585970.46,38.27,Magnolia grandiflora,False,SEGONA,C\ Pinar del Río,10.28,32.0,6.38,4.93,0.26,2.69,899,ok
+0150634AR,431522.53,4586116.23,44.72,Magnolia grandiflora,False,SEGONA,C\ Francesc Tàrrega,7.55,13.8,4.18,4.77,0.294,2.45,531,ok
+0150635AR,431434.62,4586370.97,44.13,Casuarina cunninghamiana,False,SEGONA,C\ Felip II,8.15,15.2,4.41,2.85,0.357,2.06,772,ok
+0150636AR,431259.49,4586461.53,48.94,Grevillea robusta,False,PRIMERA,C\ Ramon Albó,5.21,5.0,2.52,2.82,0.474,1.49,179,ok
+0150637AR,431710.63,4585966.24,36.91,Magnolia grandiflora,False,SEGONA,C\ Pinar del Río,8.59,27.8,5.94,4.41,0.278,2.56,645,ok
+0150638AR,431542.75,4585984.07,43.62,Magnolia grandiflora,False,SEGONA,C\ Pinar del Río,13.99,22.5,5.35,4.76,0.355,2.07,1117,ok
+0150639AR,431376.41,4586223.29,50.4,Quercus ilex,False,SEGONA,Ptge Salvador Riera,11.04,35.5,6.72,6.15,0.262,2.68,1390,ok
+0150641AR,431780.68,4586457.89,38.76,Acer campestre,False,PRIMERA,C\ Can Ros,5.54,15.2,4.41,2.47,0.34,2.16,534,ok
+0150642AR,431288.37,4586550.12,46.68,Melia azedarach,False,SEGONA,C\ Felip II,12.75,77.8,9.95,5.87,0.113,4.36,3047,ok
+0150643AR,431768.57,4586167.91,36.24,Platanus × acerifolia,True,EXEMPLAR,C\ Cienfuegos,20.18,114.8,12.09,11.52,0.133,4.04,5391,ok
+0150644AR,431649.29,4586271.34,40.13,Pinus halepensis,False,TERCERA,C\ Cep,5.97,8.5,3.29,3.1,0.444,1.62,315,ok
+0150645AR,431386.42,4586005.0,50.56,Magnolia grandiflora,False,PRIMERA,C\ Pinar del Río,5.8,15.2,4.41,2.22,0.412,1.78,605,ok
+0150646AR,431330.05,4586365.54,49.66,Robinia pseudoacacia,False,SEGONA,C\ Acàcies,12.69,25.8,5.73,5.4,0.27,2.62,968,ok
+0150647AR,431263.58,4586468.25,48.9,Quercus robur 'Fastigiata',False,PRIMERA,C\ Ramon Albó,4.33,2.0,1.6,2.54,0.512,1.34,62,ok
+0150648AR,431566.84,4586315.15,41.63,Platanus × acerifolia,True,TERCERA,Pl Congrés Eucarístic,22.58,130.8,12.9,9.62,0.154,3.74,6395,ok
+0150649AR,431394.1,4586271.1,49.51,Magnolia grandiflora,False,PRIMERA,Ptge Ordi,7.88,12.8,4.03,3.9,0.304,2.38,525,ok
+0150650AR,431690.92,4586524.22,40.02,Catalpa bignonioides,False,TERCERA,C\ Pardo,13.08,54.0,8.29,5.87,0.268,2.63,2358,ok
+0150651AR,431408.9,4586001.78,49.39,Magnolia grandiflora,False,PRIMERA,C\ Pinar del Río,5.92,15.5,4.44,3.66,0.385,1.91,473,ok
+0150652AR,431498.66,4586306.2,42.95,Melia azedarach,False,TERCERA,Pl Doctor Modrego,9.55,99.8,11.27,5.47,0.335,2.19,3400,ok
+0150655AR,431508.39,4586493.76,42.68,Ligustrum lucidum,False,PRIMERA,C\ Cardenal Tedeschini,16.3,15.0,4.37,3.41,0.376,1.96,608,ok
+0150656AR,431831.01,4586485.39,37.7,Melia azedarach,False,TERCERA,C\ Concepción Arenal,7.72,88.8,10.63,4.69,0.339,2.17,2907,ok
+0150657AR,431249.0,4586203.0,55.94,Melia azedarach,False,PRIMERA,C\ Ramon Albó,,0.0,0.0,,,,0,no_crown_detected
+0150658AR,431836.25,4586541.2,38.18,Melia azedarach,False,PRIMERA,C\ Concepción Arenal,6.31,9.8,3.52,2.61,0.339,2.16,479,ok
+0150661AR,431743.28,4586460.43,39.61,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Can Ros,5.81,7.5,3.09,3.2,0.359,2.05,286,ok
+0150662AR,431506.93,4586441.82,42.72,Styphnolobium japonicum,False,SEGONA,C\ Espiga,9.13,25.5,5.7,5.33,0.125,4.15,847,ok
+0150663AR,431689.54,4586493.51,40.41,Catalpa bignonioides,False,SEGONA,C\ Pardo,6.57,17.2,4.69,3.07,0.211,3.11,416,ok
+0150664AR,431609.73,4586475.28,41.57,Koelreuteria paniculata 'Fastigiata',False,PRIMERA,C\ Can Ros,10.68,12.5,3.99,4.33,0.226,2.98,657,ok
+0150665AR,431689.97,4586506.36,40.27,Styphnolobium japonicum,False,SEGONA,C\ Pardo,8.72,53.5,8.25,3.69,0.174,3.5,1999,ok
+0150666AR,431478.36,4586414.19,43.4,Styphnolobium japonicum,False,EXEMPLAR,C\ Espiga,16.48,49.5,7.94,4.39,0.167,3.58,2010,ok
+0150667AR,431322.33,4586415.77,48.81,Robinia pseudoacacia,False,SEGONA,C\ Acàcies,16.46,57.0,8.52,5.21,0.19,3.32,2108,ok
+0150668AR,431727.17,4585950.19,36.51,Acacia retinodes,False,SEGONA,Pl Rom Cremat,4.92,27.5,5.92,2.97,0.356,2.07,500,ok
+0150669AR,431648.96,4585993.88,39.82,Koelreuteria paniculata 'Fastigiata',False,SEGONA,C\ Matanzas,12.06,41.0,7.23,4.35,0.298,2.42,1632,ok
+0150670AR,431322.92,4586091.02,53.2,Cercis siliquastrum,False,SEGONA,Jard Jaume Ferran i Clua,9.95,2.2,1.69,6.34,0.103,4.54,64,ok
+0150672AR,431742.54,4586112.74,36.47,Magnolia grandiflora,False,SEGONA,C\ Jordi de Sant Jordi,16.16,16.5,4.58,4.22,0.367,2.0,458,ok
+0150673AR,431618.42,4586358.09,41.34,Olea europaea,False,SEGONA,Pl Congrés Eucarístic,4.25,17.0,4.65,2.47,0.477,1.48,309,ok
+0150674AR,431751.45,4586145.37,36.4,Magnolia grandiflora,False,SEGONA,C\ Jordi de Sant Jordi,8.12,17.2,4.69,3.9,0.3,2.41,749,ok
+0150675AR,431399.89,4586293.8,49.07,Magnolia grandiflora,False,SEGONA,Ptge Ordi,8.65,19.2,4.95,3.3,0.282,2.53,819,ok
+0150676AR,431421.66,4586213.67,47.92,Jacaranda mimosifolia,False,SEGONA,Ptge Salvador Riera,14.13,2.0,1.6,6.7,0.182,3.41,59,ok
+0150677AR,431587.18,4585807.03,42.43,Koelreuteria paniculata 'Fastigiata',False,PRIMERA,Ptge Can Berdura,4.99,2.0,1.6,3.62,0.417,1.75,48,few_points
+0150679AR,431362.43,4586507.31,44.51,Platanus × acerifolia,True,EXEMPLAR,C\ Sant Pasqual Bailón,18.45,118.5,12.28,6.71,0.146,3.85,5475,ok
+0150680AR,431251.0,4586266.0,55.42,Grevillea robusta,False,SEGONA,C\ Ramon Albó,9.37,14.8,4.33,4.08,0.307,2.36,590,ok
+0150681AR,431388.63,4586266.31,49.64,Magnolia grandiflora,False,SEGONA,Ptge Ordi,11.7,15.8,4.48,3.88,0.265,2.65,646,ok
+0150682AR,431334.41,4586177.86,52.86,Robinia pseudoacacia,False,SEGONA,C\ Acàcies,7.94,14.5,4.3,4.58,0.355,2.07,658,ok
+0150684AR,431340.98,4586055.46,52.37,Celtis australis,False,SEGONA,Pg Maragall,11.81,65.5,9.13,6.86,0.296,2.44,2472,ok
+0150685AR,431575.98,4586323.81,41.51,Grevillea robusta,False,PRIMERA,Pl Congrés Eucarístic,,0.0,0.0,,,,0,no_crown_detected
+0150686AR,431415.6,4586215.52,48.27,Melia azedarach,False,SEGONA,Ptge Salvador Riera,8.09,0.2,0.56,8.09,0.667,0.81,5,no_crown_detected
+0150688AR,431671.84,4586555.75,39.88,Robinia pseudoacacia,False,SEGONA,C\ Riera d'Horta,10.19,26.2,5.78,4.7,0.297,2.43,996,ok
+0150689AR,431689.53,4586499.56,40.37,Catalpa bignonioides,False,SEGONA,C\ Pardo,8.68,16.2,4.55,2.62,0.29,2.48,635,ok
+0150690AR,431332.3,4586265.07,52.49,Robinia pseudoacacia,False,SEGONA,C\ Acàcies,15.15,58.0,8.59,7.84,0.253,2.75,2622,ok
+0150691AR,431623.76,4586174.99,39.69,Pinus halepensis,False,SEGONA,C\ Felip II,8.62,0.2,0.56,8.62,0.0,7.82,3,no_crown_detected
+0150693AR,431247.6,4586274.86,55.32,Acer negundo,False,SEGONA,C\ Ramon Albó,8.69,1.0,1.13,6.57,0.125,4.16,20,no_crown_detected
+0150694AR,431516.82,4586340.31,42.73,Platanus × acerifolia,True,TERCERA,Pl Congrés Eucarístic,19.14,129.8,12.85,9.18,0.212,3.11,5428,ok
+0150697AR,431639.03,4586346.25,40.73,Platanus × acerifolia,True,TERCERA,C\ Cardenal Tedeschini,14.35,94.0,10.94,4.88,0.222,3.01,3869,ok
+0150698AR,431251.0,4586260.0,55.5,Grevillea robusta,False,SEGONA,C\ Ramon Albó,17.05,53.2,8.23,3.93,0.261,2.69,2390,ok
+0150699AR,431543.44,4586191.98,42.28,Celtis australis,False,TERCERA,C\ Alexandre Galí,16.1,86.8,10.51,7.79,0.183,3.4,2609,ok
+0150702AR,431618.75,4586558.67,40.68,Fraxinus angustifolia,False,SEGONA,C\ Riera d'Horta,6.0,21.5,5.23,3.72,0.372,1.98,681,ok
+0150703AR,431657.11,4586343.55,40.48,Platanus × acerifolia,True,SEGONA,C\ Cardenal Tedeschini,12.43,16.2,4.55,6.57,0.207,3.15,704,ok
+0150704AR,431436.73,4586143.02,47.84,Melia azedarach,False,TERCERA,C\ Manigua,9.37,2.2,1.69,7.25,0.25,2.77,90,ok
+0150707AR,431584.18,4586245.09,40.9,Pinus halepensis,False,EXEMPLAR,C\ Felip II,10.17,2.0,1.6,4.73,0.0,7.82,72,ok
+0150708AR,431432.57,4586556.75,44.0,Ligustrum lucidum,False,SEGONA,C\ Cardenal Tedeschini,,0.0,0.0,,,,0,no_crown_detected
+0150709AR,431618.72,4586208.94,40.0,Styphnolobium japonicum,False,EXEMPLAR,C\ Felip II,8.33,48.0,7.82,5.13,0.2,3.22,1530,ok
+0150711AR,431833.26,4586509.54,37.87,Melia azedarach,False,PRIMERA,C\ Concepción Arenal,8.39,48.8,7.88,3.66,0.316,2.31,2022,ok
+0150712AR,431546.56,4586097.35,43.73,Brachychiton populneus,False,SEGONA,C\ Garcilaso,8.1,12.5,3.99,3.71,0.342,2.15,642,ok
+0150713AR,431707.41,4586115.19,37.2,Casuarina cunninghamiana,False,SEGONA,C\ Felip II,10.92,20.2,5.08,3.15,0.363,2.03,815,ok
+0150714AR,431539.58,4586547.07,41.96,Celtis australis,False,SEGONA,C\ Vèlia,17.38,34.5,6.63,3.79,0.149,3.81,1072,ok
+0150715AR,431830.69,4586479.72,37.62,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Concepción Arenal,5.02,2.0,1.6,2.48,0.396,1.85,95,ok
+0150716AR,431593.88,4585975.94,41.54,Magnolia grandiflora,False,PRIMERA,C\ Pinar del Río,6.21,0.8,0.98,5.95,0.273,2.6,26,no_crown_detected
+0150717AR,431323.3,4586486.79,45.49,Casuarina cunninghamiana,False,SEGONA,C\ Felip II,12.84,52.8,8.2,3.32,0.327,2.24,2402,ok
+0150720AR,431783.66,4585955.89,35.23,Magnolia grandiflora,False,SEGONA,C\ Pinar del Río,12.14,46.5,7.69,6.11,0.175,3.48,1134,ok
+0150721AR,431637.63,4585915.03,40.27,Koelreuteria paniculata 'Fastigiata',False,SEGONA,C\ Matanzas,12.69,25.5,5.7,6.66,0.258,2.71,562,ok
+0150722AR,431663.07,4586298.15,40.21,Firmiana simplex,False,SEGONA,C\ Cep,8.52,25.2,5.67,5.93,0.32,2.28,843,ok
+0150723AR,431826.05,4586547.01,38.27,Melia azedarach,False,SEGONA,C\ Riera d'Horta,8.17,53.0,8.21,4.33,0.376,1.96,2017,ok
+0150724AR,431446.28,4585996.53,47.51,Magnolia grandiflora,False,PRIMERA,C\ Pinar del Río,7.71,14.2,4.26,4.1,0.314,2.31,543,ok
+0150725AR,431330.72,4586331.81,51.05,Robinia pseudoacacia,False,SEGONA,C\ Acàcies,12.07,12.2,3.95,6.65,0.324,2.25,309,ok
+0150726AR,431483.08,4586527.83,43.14,Melia azedarach,False,SEGONA,C\ Cardenal Tedeschini,15.89,28.8,6.05,4.31,0.111,4.39,1261,ok
+0150727AR,431696.73,4586168.16,37.62,Citrus × aurantium,False,PRIMERA,C\ Cienfuegos,5.05,1.2,1.26,4.4,0.364,2.02,21,no_crown_detected
+0150728AR,431450.0,4586156.48,47.17,Melia azedarach,False,SEGONA,C\ Manigua,6.66,3.5,2.11,3.94,0.357,2.06,97,ok
+0150729AR,431683.47,4586354.72,40.28,Styphnolobium japonicum,False,SEGONA,C\ Pardo,6.7,33.2,6.51,3.35,0.336,2.18,965,ok
+0150731AR,431475.57,4586527.68,43.14,Ligustrum lucidum,False,SEGONA,C\ Cardenal Tedeschini,5.51,14.2,4.26,3.69,0.416,1.75,493,ok
+0150732AR,431735.83,4586172.86,37.03,Platanus × acerifolia,True,EXEMPLAR,C\ Cienfuegos,20.46,165.0,14.49,10.12,0.248,2.79,8532,ok
+0150733AR,431417.19,4586389.44,44.33,Celtis australis,False,SEGONA,C\ Felip II,9.41,31.2,6.31,5.77,0.29,2.47,953,ok
+0150734AR,431607.92,4586354.58,41.18,Platanus × acerifolia,True,SEGONA,Pl Congrés Eucarístic,6.96,0.2,0.56,6.96,0.5,1.39,7,no_crown_detected
+0150735AR,431497.81,4586297.82,43.02,Melia azedarach,False,SEGONA,Pl Doctor Modrego,7.41,24.0,5.53,4.27,0.44,1.64,945,ok
+0150736AR,431319.33,4586117.58,53.3,Cupressus sempervirens,False,PRIMERA,Jard Jaume Ferran i Clua,9.18,3.2,2.03,3.48,0.352,2.09,155,ok
+0150737AR,431663.67,4586101.34,38.69,Koelreuteria paniculata 'Fastigiata',False,SEGONA,C\ Matanzas,12.38,16.8,4.62,2.9,0.16,3.66,659,ok
+0150739AR,431384.31,4586249.48,49.83,Magnolia grandiflora,False,PRIMERA,Ptge Ordi,4.83,3.0,1.95,3.1,0.45,1.6,88,ok
+0150740AR,431773.22,4586458.35,38.92,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Can Ros,7.53,8.8,3.34,4.23,0.23,2.94,315,ok
+0150741AR,431250.59,4586288.9,54.98,Grevillea robusta,False,PRIMERA,C\ Ramon Albó,6.04,4.0,2.26,2.91,0.364,2.02,168,ok
+0150742AR,431417.3,4585985.11,49.3,Magnolia grandiflora,False,SEGONA,C\ Manigua,10.01,30.2,6.21,4.6,0.257,2.72,902,ok
+0150743AR,431326.81,4586228.52,53.24,Acer monspessulanum,False,PRIMERA,C\ Acàcies,,0.0,0.0,,,,0,no_crown_detected
+0150744AR,431512.92,4586564.76,42.45,Quercus robur 'Fastigiata',False,PRIMERA,C\ Riera d'Horta,5.91,8.5,3.29,3.59,0.335,2.19,209,ok
+0150745AR,431507.31,4586264.45,39.2,Grevillea robusta,False,SEGONA,Pl Doctor Modrego,15.09,20.0,5.05,4.63,0.018,7.82,925,ok
+0150746AR,431608.8,4586467.24,41.6,Koelreuteria paniculata 'Fastigiata',False,PRIMERA,C\ Can Ros,7.06,3.2,2.03,3.59,0.459,1.56,121,ok
+0150747AR,431802.27,4586044.99,34.08,Melia azedarach,False,SEGONA,C\ Concepción Arenal,11.54,168.0,14.63,5.69,0.156,3.71,6325,ok
+0150748AR,431627.86,4586280.2,40.43,Pinus pinea,False,SEGONA,C\ Cep,6.21,17.0,4.65,3.25,0.257,2.71,668,ok
+0150749AR,431480.44,4586416.16,43.31,Styphnolobium japonicum,False,SEGONA,C\ Espiga,9.09,4.0,2.26,4.87,0.0,7.82,107,ok
+0150750AR,431446.91,4586133.9,47.6,Platanus × acerifolia,True,SEGONA,C\ Manigua,11.95,56.2,8.46,6.48,0.295,2.44,2070,ok
+0150751AR,431502.12,4586293.78,42.95,Melia azedarach,False,PRIMERA,Pl Doctor Modrego,7.81,56.5,8.48,3.97,0.397,1.85,2252,ok
+0150752AR,431371.37,4586408.28,45.35,Melia azedarach,False,SEGONA,Pas Sant Tarsici,23.42,75.5,9.8,6.41,0.227,2.97,2586,ok
+0150754AR,431312.24,4586598.1,46.34,Melia azedarach,False,TERCERA,C\ Riera d'Horta,15.82,83.5,10.31,8.84,0.229,2.95,2237,ok
+0150755AR,431806.46,4586076.81,34.2,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Concepción Arenal,4.06,2.8,1.87,3.28,0.14,3.94,87,ok
+0150756AR,431758.26,4586459.34,39.26,Quercus ilex,False,PRIMERA,C\ Can Ros,,0.0,0.0,,,,0,no_crown_detected
+0150757AR,431670.19,4586459.7,41.23,Cupressus sempervirens,False,TERCERA,C\ Can Ros,19.16,32.5,6.43,4.12,0.183,3.4,1504,ok
+0150758AR,431798.97,4586020.96,34.42,Catalpa bignonioides,False,SEGONA,C\ Felip II,6.09,5.0,2.52,3.85,0.473,1.5,189,ok
+0150759AR,431826.77,4586255.03,36.22,Melia azedarach,False,SEGONA,C\ Concepción Arenal,21.61,76.8,9.89,5.38,0.274,2.59,2227,ok
+0150760AR,431561.81,4586383.78,42.15,Grevillea robusta,False,PRIMERA,Pl Congrés Eucarístic,8.75,0.2,0.56,6.79,0.333,2.2,9,no_crown_detected
+0150761AR,431822.45,4586292.52,36.79,Jacaranda mimosifolia,False,PRIMERA,C\ Cardenal Tedeschini,4.93,2.5,1.78,2.51,0.478,1.48,107,ok
+0150762AR,431491.78,4586258.66,43.4,Tipuana tipu,False,SEGONA,Pl Doctor Modrego,7.41,4.2,2.33,5.68,0.218,3.04,109,ok
+0150763AR,431440.63,4586168.31,47.35,Platanus × acerifolia,True,SEGONA,C\ Manigua,9.81,3.2,2.03,7.17,0.318,2.29,113,ok
+0150765AR,431626.55,4585824.38,40.96,Koelreuteria paniculata 'Fastigiata',False,SEGONA,C\ Matanzas,12.44,18.5,4.85,5.37,0.207,3.15,372,ok
+0150768AR,431307.67,4586112.83,53.77,Cercis siliquastrum,False,SEGONA,Jard Jaume Ferran i Clua,8.57,7.8,3.14,5.83,0.092,4.76,251,ok
+0150772AR,431714.49,4586165.68,37.26,Platanus × acerifolia,True,TERCERA,C\ Cienfuegos,17.58,48.0,7.82,8.98,0.205,3.16,2208,ok
+0150773AR,431686.96,4586432.06,40.59,Styphnolobium japonicum,False,SEGONA,C\ Pardo,9.27,45.5,7.61,4.35,0.277,2.57,1863,ok
+0150774AR,431687.29,4586444.98,40.72,Styphnolobium japonicum,False,SEGONA,C\ Pardo,7.8,49.0,7.9,3.34,0.319,2.29,2115,ok
+0150776AR,431387.22,4586260.56,49.7,Magnolia grandiflora,False,PRIMERA,Ptge Ordi,8.4,8.0,3.19,2.97,0.41,1.78,278,ok
+0150777AR,431599.42,4586346.0,41.33,Platanus × acerifolia,True,SEGONA,Pl Congrés Eucarístic,,0.0,0.0,,,,0,no_crown_detected
+0150778AR,431502.99,4586260.05,42.91,Grevillea robusta,False,SEGONA,Pl Doctor Modrego,15.46,19.2,4.95,6.39,0.177,3.46,1054,ok
+0150779AR,431614.85,4586267.59,40.64,Pinus halepensis,False,EXEMPLAR,C\ Cep,14.39,111.8,11.93,7.33,0.258,2.71,3635,ok
+0150780AR,431425.03,4586408.27,44.1,Melia azedarach,False,SEGONA,C\ Felip II,11.53,102.2,11.41,6.09,0.135,4.01,3825,ok
+0150781AR,431372.24,4586229.75,50.76,Quercus ilex,False,SEGONA,Ptge Salvador Riera,9.54,21.5,5.23,5.4,0.327,2.24,629,ok
+0150782AR,431726.59,4585945.93,36.52,Acacia saligna,False,SEGONA,C\ Jordi de Sant Jordi,5.48,21.2,5.2,2.94,0.374,1.97,388,ok
+0150783AR,431318.62,4586491.75,45.68,Casuarina cunninghamiana,False,SEGONA,C\ Felip II,11.41,56.2,8.46,2.76,0.312,2.33,2101,ok
+0150784AR,431624.47,4586377.79,41.01,Platanus × acerifolia,True,EXEMPLAR,C\ Cardenal Tedeschini,15.98,130.5,12.89,6.32,0.284,2.52,6620,ok
+0150785AR,431573.95,4586413.79,41.96,Platanus × acerifolia,True,SEGONA,C\ Cardenal Tedeschini,12.53,25.2,5.67,6.82,0.187,3.35,862,ok
+0150788AR,431347.18,4586590.3,45.58,Melia azedarach,False,SEGONA,C\ Riera d'Horta,17.55,21.2,5.2,5.46,0.208,3.14,688,ok
+0150789AR,431529.12,4586446.37,42.46,Pinus halepensis,False,EXEMPLAR,C\ Espiga,15.84,61.2,8.83,6.86,0.207,3.15,2454,ok
+0150790AR,431447.9,4586141.84,47.44,Platanus × acerifolia,True,TERCERA,C\ Manigua,14.8,110.2,11.85,7.59,0.227,2.97,4232,ok
+0150791AR,431557.89,4586446.52,42.01,Platanus × acerifolia,True,SEGONA,C\ Cardenal Tedeschini,11.35,53.8,8.27,6.0,0.297,2.43,2238,ok
+0150792AR,431829.6,4586468.3,37.51,Acer negundo,False,TERCERA,C\ Concepción Arenal,8.72,41.0,7.23,3.86,0.319,2.29,1954,ok
+0150793AR,431521.08,4586157.45,44.4,Magnolia grandiflora,False,SEGONA,C\ Francesc Tàrrega,14.52,11.5,3.83,4.47,0.267,2.64,428,ok
+0150796AR,431628.18,4586373.74,40.9,Fraxinus angustifolia,False,SEGONA,C\ Cardenal Tedeschini,8.53,5.5,2.65,4.88,0.385,1.91,264,ok
+0150797AR,431490.6,4586408.58,43.18,Styphnolobium japonicum,False,SEGONA,C\ Espiga,15.97,100.2,11.3,2.52,0.26,2.69,4017,ok
+0150798AR,431329.18,4586100.91,52.78,Platanus × acerifolia,True,SEGONA,Jard Jaume Ferran i Clua,10.95,20.2,5.08,5.19,0.333,2.2,965,ok
+0150799AR,431417.5,4586012.37,49.0,Platanus × acerifolia,True,TERCERA,C\ Manigua,19.37,99.2,11.24,9.37,0.246,2.8,4148,ok
+0150800AR,431749.73,4585960.49,35.91,Magnolia grandiflora,False,SEGONA,C\ Pinar del Río,8.61,22.5,5.35,4.53,0.296,2.44,480,ok
+0150801AR,431643.33,4585975.85,40.03,Magnolia grandiflora,False,SEGONA,C\ Pinar del Río,13.1,25.5,5.7,4.48,0.262,2.68,854,ok
+0150802AR,431786.1,4585888.21,35.11,Jacaranda mimosifolia,False,SEGONA,C\ Olesa,8.35,84.5,10.37,3.48,0.261,2.68,1897,ok
+0150803AR,431534.16,4586099.13,44.26,Brachychiton populneus,False,SEGONA,C\ Garcilaso,8.19,29.5,6.13,4.61,0.421,1.73,1346,ok
+0150806AR,431700.96,4586265.83,39.68,Ginkgo biloba,False,PRIMERA,C\ Cep,,0.0,0.0,,,,0,no_crown_detected
+0150807AR,431594.66,4585805.87,42.2,Koelreuteria paniculata 'Fastigiata',False,SEGONA,Ptge Can Berdura,9.37,24.0,5.53,4.82,0.271,2.61,513,ok
+0150808AR,431602.66,4585805.25,41.93,Koelreuteria paniculata 'Fastigiata',False,SEGONA,Ptge Can Berdura,12.38,23.0,5.41,5.3,0.289,2.48,526,ok
+0150809AR,431474.57,4586356.82,43.62,Cupressus sempervirens,False,TERCERA,C\ Felip II,15.68,19.0,4.92,3.78,0.253,2.75,719,ok
+0150810AR,431461.08,4586232.55,45.83,Melia azedarach,False,SEGONA,C\ Manigua,12.95,18.0,4.79,7.52,0.091,4.8,642,ok
+0150811AR,431663.6,4586202.09,38.92,Platanus × acerifolia,True,EXEMPLAR,C\ Felip Bertran i Güell,16.07,4.5,2.39,13.51,0.392,1.87,131,ok
+0150812AR,431810.78,4586547.82,38.41,Melia azedarach,False,PRIMERA,C\ Riera d'Horta,,0.0,0.0,,,,0,no_crown_detected
+0150814AR,431248.0,4586233.0,56.15,Melia azedarach,False,PRIMERA,C\ Ramon Albó,11.49,3.5,2.11,5.43,0.175,3.49,145,ok
+0150815AR,431510.54,4586427.81,42.79,Pinus halepensis,False,TERCERA,C\ Espiga,15.51,57.5,8.56,6.06,0.162,3.64,1920,ok
+0150816AR,431631.33,4585860.28,40.62,Koelreuteria paniculata 'Fastigiata',False,SEGONA,C\ Matanzas,13.16,11.2,3.78,6.36,0.243,2.83,218,ok
+0150817AR,431436.23,4586062.84,48.35,Platanus × acerifolia,True,TERCERA,C\ Manigua,18.19,103.5,11.48,8.24,0.262,2.68,4868,ok
+0150818AR,431420.59,4586033.97,48.78,Melia azedarach,False,SEGONA,C\ Manigua,14.99,74.5,9.74,7.46,0.21,3.12,2906,ok
+0150819AR,431558.49,4586470.82,42.04,Koelreuteria paniculata 'Fastigiata',False,PRIMERA,C\ Can Ros,6.46,18.0,4.79,4.06,0.216,3.06,334,ok
+0150821AR,431262.54,4586342.37,53.07,Grevillea robusta,False,PRIMERA,C\ Ramon Albó,,0.0,0.0,,,,0,no_crown_detected
+0150822AR,431826.9,4586400.95,36.94,Acer negundo,False,SEGONA,C\ Concepción Arenal,7.24,24.0,5.53,3.93,0.329,2.22,627,ok
+0150823AR,431543.01,4586289.52,41.97,Platanus × acerifolia,True,SEGONA,Pl Congrés Eucarístic,14.04,105.5,11.59,5.96,0.267,2.64,4284,ok
+0150824AR,431686.24,4586420.61,40.68,Styphnolobium japonicum,False,TERCERA,C\ Pardo,10.78,87.2,10.54,5.54,0.207,3.15,3528,ok
+0150827AR,431354.07,4586588.7,45.55,Melia azedarach,False,SEGONA,C\ Riera d'Horta,17.1,24.2,5.56,5.16,0.176,3.47,866,ok
+0150828AR,431493.59,4586301.7,43.14,Melia azedarach,False,SEGONA,Pl Doctor Modrego,7.18,23.2,5.44,4.37,0.443,1.63,820,ok
+0150829AR,431481.81,4586321.8,43.28,Pinus halepensis,False,SEGONA,C\ Felip II,8.83,37.2,6.89,5.16,0.338,2.17,1092,ok
+0150830AR,431265.55,4586225.09,55.78,Grevillea robusta,False,PRIMERA,C\ Ramon Albó,,0.0,0.0,,,,0,no_crown_detected
+0150831AR,431587.77,4585983.76,41.78,Magnolia grandiflora,False,SEGONA,C\ Pinar del Río,8.05,27.5,5.92,4.01,0.348,2.11,1052,ok
+0150832AR,431489.96,4585837.18,46.56,Celtis australis,False,SEGONA,Pg Maragall,10.29,45.5,7.61,6.7,0.181,3.42,609,ok
+0150833AR,431696.02,4586215.71,38.26,Platanus × acerifolia,True,TERCERA,C\ Felip Bertran i Güell,15.63,2.8,1.87,10.53,0.019,7.82,101,ok
+0150834AR,431801.34,4585985.15,34.5,Melia azedarach,False,SEGONA,C\ Concepción Arenal,11.95,109.8,11.82,5.75,0.232,2.92,3604,ok
+0150835AR,431826.75,4586230.16,35.95,Melia azedarach,False,PRIMERA,C\ Concepción Arenal,7.85,11.0,3.74,3.58,0.398,1.84,406,ok
+0150836AR,431662.65,4586556.33,40.02,Robinia pseudoacacia,False,EXEMPLAR,C\ Riera d'Horta,13.78,62.0,8.88,6.57,0.243,2.83,2667,ok
+0150837AR,431654.68,4586193.28,39.1,Platanus × acerifolia,True,EXEMPLAR,C\ Felip Bertran i Güell,16.65,2.0,1.6,3.19,0.222,3.01,62,ok
+0150838AR,431330.33,4586505.88,45.32,Melia azedarach,False,EXEMPLAR,C\ Felip II,9.06,88.8,10.63,5.41,0.381,1.93,2952,ok
+0150839AR,431327.24,4586215.09,53.22,Robinia pseudoacacia,False,SEGONA,C\ Acàcies,12.99,48.8,7.88,6.64,0.31,2.34,2214,ok
+0150840AR,431449.18,4586150.47,47.27,Fraxinus angustifolia,False,SEGONA,C\ Manigua,8.49,18.2,4.82,3.59,0.308,2.36,610,ok
+0150841AR,431351.22,4586515.25,44.63,Melia azedarach,False,SEGONA,C\ Sant Pasqual Bailón,19.15,157.0,14.14,7.27,0.141,3.91,7127,ok
+0150842AR,431685.26,4586138.22,37.97,Catalpa bignonioides,False,SEGONA,C\ Felip II,9.11,41.8,7.29,4.74,0.337,2.17,1351,ok
+0150843AR,431621.07,4586177.75,39.78,Pinus halepensis,False,SEGONA,C\ Felip II,,0.0,0.0,,,,0,no_crown_detected
+0150844AR,431265.08,4586243.78,55.58,Grevillea robusta,False,PRIMERA,C\ Ramon Albó,,0.0,0.0,,,,0,no_crown_detected
+0150845AR,431477.96,4585854.13,47.05,Celtis australis,False,SEGONA,Pg Maragall,11.53,50.0,7.98,7.35,0.127,4.13,732,ok
+0150846AR,431600.8,4586237.44,40.46,Pinus halepensis,False,TERCERA,C\ Cep,8.16,5.8,2.71,4.47,0.214,3.08,155,ok
+0150849AR,431547.83,4586527.99,41.9,Celtis australis,False,SEGONA,C\ Vèlia,8.76,69.2,9.39,3.88,0.203,3.19,2417,ok
+0150851AR,431821.49,4586195.32,35.55,Melia azedarach,False,PRIMERA,C\ Concepción Arenal,11.24,4.2,2.33,4.65,0.338,2.17,105,ok
+0150852AR,431606.51,4585974.41,41.15,Magnolia grandiflora,False,SEGONA,C\ Pinar del Río,9.46,23.5,5.47,4.68,0.376,1.96,1181,ok
+0150854AR,431273.75,4586462.4,48.98,Quercus robur 'Fastigiata',False,PRIMERA,C\ Ramon Albó,4.34,7.0,2.99,2.69,0.49,1.43,160,ok
+0150855AR,431402.13,4586577.42,44.64,Platanus × acerifolia,True,SEGONA,C\ Riera d'Horta,15.16,116.8,12.19,5.96,0.267,2.64,5306,ok
+0150856AR,431573.37,4585809.03,42.96,Koelreuteria paniculata 'Fastigiata',False,PRIMERA,Ptge Can Berdura,,0.0,0.0,,,,0,no_crown_detected
+0150857AR,431638.75,4585789.61,40.42,Melia azedarach,False,SEGONA,C\ Biscaia,19.6,119.2,12.32,4.99,0.138,3.97,2063,ok
+0150858AR,431562.6,4586442.12,41.93,Melia azedarach,False,SEGONA,C\ Cardenal Tedeschini,9.2,32.8,6.46,4.51,0.349,2.11,1176,ok
+0150859AR,431262.72,4586329.9,53.63,Populus nigra,False,TERCERA,C\ Ramon Albó,18.43,22.0,5.29,7.94,0.23,2.94,1008,ok
+0150860AR,431603.89,4586350.65,41.24,Platanus × acerifolia,True,SEGONA,Pl Congrés Eucarístic,10.46,55.2,8.39,6.54,0.381,1.93,1782,ok
+0150861AR,431712.62,4585871.95,37.25,Magnolia grandiflora,False,SEGONA,C\ Jordi de Sant Jordi,12.45,12.2,3.95,3.55,0.204,3.18,191,ok
+0150864AR,431332.73,4586555.65,46.36,Celtis australis,False,SEGONA,C\ Felip II,,0.0,0.0,,,,0,no_crown_detected
+0150865AR,431768.04,4585871.14,35.51,Jacaranda mimosifolia,False,SEGONA,C\ Olesa,6.89,8.0,3.19,4.9,0.503,1.37,159,ok
+0150866AR,431185.0,4586289.0,57.39,Celtis australis,False,TERCERA,Pg Maragall,10.47,49.5,7.94,5.91,0.256,2.72,1790,ok
+0150867AR,431395.14,4586579.33,44.76,Platanus × acerifolia,True,SEGONA,C\ Riera d'Horta,,0.0,0.0,,,,0,no_crown_detected
+0150868AR,431494.45,4586277.98,43.19,Tipuana tipu,False,SEGONA,Pl Doctor Modrego,6.35,7.2,3.04,3.92,0.487,1.44,344,ok
+0150869AR,431447.0,4586003.62,47.51,Magnolia grandiflora,False,PRIMERA,C\ Pinar del Río,19.27,12.5,3.99,3.23,0.276,2.57,355,ok
+0150870AR,431378.72,4586011.55,50.9,Magnolia grandiflora,False,PRIMERA,C\ Pinar del Río,13.98,15.5,4.44,3.56,0.364,2.02,360,ok
+0150872AR,431757.06,4586159.52,36.39,Platanus × acerifolia,True,TERCERA,C\ Cienfuegos,20.99,138.8,13.29,11.15,0.134,4.02,6359,ok
+0150873AR,431472.95,4586291.42,44.07,Grevillea robusta,False,SEGONA,Pl Doctor Modrego,11.07,15.8,4.48,4.86,0.104,4.52,722,ok
+0150874AR,431577.38,4586426.27,41.72,Melia azedarach,False,SEGONA,C\ Cardenal Tedeschini,7.26,2.2,1.69,4.42,0.235,2.89,95,ok
+0150875AR,431352.78,4586037.92,51.98,Celtis australis,False,SEGONA,Pg Maragall,9.3,31.0,6.28,6.24,0.291,2.47,908,ok
+0150877AR,431672.29,4586160.21,38.54,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Cienfuegos,7.94,2.0,1.6,3.26,0.261,2.69,87,ok
+0150878AR,431663.67,4586321.17,40.29,Platanus × acerifolia,True,EXEMPLAR,C\ Cardenal Tedeschini,16.43,121.5,12.44,7.73,0.293,2.46,6684,ok
+0150879AR,431328.32,4586481.63,45.33,Casuarina cunninghamiana,False,SEGONA,C\ Felip II,12.0,61.2,8.83,2.69,0.295,2.44,2269,ok
+0150880AR,431285.23,4586604.28,46.92,Platanus × acerifolia,True,SEGONA,C\ Riera d'Horta,15.75,69.5,9.41,7.59,0.174,3.49,1750,ok
+0150881AR,431509.83,4585807.66,45.73,Celtis australis,False,SEGONA,Pg Maragall,9.79,37.0,6.86,6.19,0.151,3.78,477,ok
+0150882AR,431731.4,4586552.44,39.21,Melia azedarach,False,SEGONA,C\ Riera d'Horta,7.46,43.2,7.42,4.34,0.45,1.6,1582,ok
+0150883AR,431517.31,4585796.38,45.44,Celtis australis,False,TERCERA,Pg Maragall,13.15,99.5,11.26,7.33,0.098,4.65,1717,ok
+0150884AR,431689.13,4586554.98,39.62,Robinia pseudoacacia,False,EXEMPLAR,C\ Riera d'Horta,17.14,87.2,10.54,6.28,0.413,1.77,3691,ok
+0150885AR,431601.08,4585981.83,41.37,Magnolia grandiflora,False,SEGONA,C\ Pinar del Río,10.85,19.5,4.98,3.62,0.251,2.77,668,ok
+0150886AR,431327.4,4586086.29,53.01,Cercis siliquastrum,False,SEGONA,Jard Jaume Ferran i Clua,8.94,3.0,1.95,5.49,0.27,2.62,137,ok
+0150887AR,431546.42,4586256.74,41.47,Cupressus sempervirens,False,TERCERA,C\ Felip II,15.81,21.2,5.2,6.78,0.081,5.03,777,ok
+0150888AR,431261.13,4586396.4,50.74,Quercus robur 'Fastigiata',False,PRIMERA,C\ Ramon Albó,,0.0,0.0,,,,0,no_crown_detected
+0150889AR,431434.92,4586054.44,48.37,Platanus × acerifolia,True,SEGONA,C\ Manigua,10.18,2.0,1.6,5.59,0.333,2.2,77,ok
+0150890AR,431404.0,4586403.05,44.52,Tipuana tipu,False,EXEMPLAR,C\ Felip II,19.21,137.8,13.24,10.98,0.186,3.36,5530,ok
+0150891AR,431385.29,4586235.29,49.93,Magnolia grandiflora,False,PRIMERA,Ptge Ordi,14.56,19.2,4.95,4.67,0.228,2.95,636,ok
+0150893AR,431381.37,4586525.13,44.41,Platanus × acerifolia,True,SEGONA,C\ Sant Pasqual Bailón,15.61,70.0,9.44,8.32,0.177,3.46,2706,ok
+0150894AR,431435.24,4586134.65,48.01,Platanus × acerifolia,True,SEGONA,C\ Manigua,9.54,19.5,4.98,5.3,0.317,2.3,764,ok
+0150895AR,431399.6,4586215.78,48.96,Melia azedarach,False,SEGONA,Ptge Salvador Riera,14.5,2.5,1.78,9.55,0.204,3.18,105,ok
+0150896AR,431717.28,4585837.53,37.26,Tilia x europaea,False,PRIMERA,Pl Havaneres,6.4,3.2,2.03,3.4,0.271,2.61,59,ok
+0150897AR,431614.69,4585973.12,40.92,Magnolia grandiflora,False,SEGONA,C\ Pinar del Río,9.62,20.2,5.08,4.58,0.357,2.06,1149,ok
+0150900AR,431390.12,4586254.78,49.66,Magnolia grandiflora,False,SEGONA,Ptge Ordi,9.14,24.0,5.53,4.39,0.206,3.16,1039,ok
+0150902AR,431440.38,4586207.61,46.94,Quercus ilex,False,SEGONA,Ptge Salvador Riera,20.0,8.2,3.24,9.06,0.223,3.0,305,ok
+0150903AR,431550.54,4586555.26,41.82,Celtis australis,False,SEGONA,C\ Vèlia,9.3,64.5,9.06,4.1,0.252,2.76,2308,ok
+0150905AR,431778.8,4586041.21,34.94,Casuarina cunninghamiana,False,PRIMERA,C\ Felip II,11.41,10.5,3.66,5.86,0.286,2.5,316,ok
+0150907AR,431705.84,4586462.78,40.42,Acer campestre,False,PRIMERA,C\ Can Ros,5.85,4.8,2.46,1.53,0.213,3.1,100,ok
+0150908AR,431427.9,4586211.65,47.59,Robinia pseudoacacia,False,SEGONA,Ptge Salvador Riera,18.42,2.0,1.6,17.22,0.321,2.27,65,ok
+0150910AR,431571.12,4586392.91,42.02,Platanus × acerifolia,True,SEGONA,Pl Congrés Eucarístic,10.84,24.0,5.53,7.07,0.381,1.93,885,ok
+0150911AR,431396.91,4586558.5,44.38,Platanus × acerifolia,True,TERCERA,C\ Sant Pasqual Bailón,31.2,104.2,11.52,9.6,0.137,3.98,4967,ok
+0150912AR,431832.64,4586502.7,37.82,Melia azedarach,False,PRIMERA,C\ Concepción Arenal,6.01,6.8,2.93,3.26,0.241,2.85,372,ok
+0150913AR,431291.31,4586602.88,46.77,Platanus × acerifolia,True,SEGONA,C\ Riera d'Horta,16.13,50.8,8.04,7.26,0.208,3.14,1219,ok
+0150914AR,431616.64,4586474.89,41.51,Koelreuteria paniculata 'Fastigiata',False,SEGONA,C\ Can Ros,6.52,22.8,5.38,3.88,0.217,3.05,783,ok
+0150915AR,431503.61,4586421.3,42.86,Styphnolobium japonicum,False,SEGONA,C\ Espiga,14.2,88.8,10.63,4.66,0.271,2.61,4289,ok
+0150916AR,431654.06,4586556.95,40.12,Melia azedarach,False,PRIMERA,C\ Riera d'Horta,,0.0,0.0,,,,0,no_crown_detected
+0150918AR,431482.15,4586290.79,43.69,Tipuana tipu,False,SEGONA,Pl Doctor Modrego,11.36,134.2,13.07,6.5,0.416,1.75,6224,ok
+0150919AR,431356.73,4586032.25,51.85,Celtis australis,False,SEGONA,Pg Maragall,11.4,54.0,8.29,5.55,0.256,2.72,1856,ok
+0150920AR,431570.59,4586469.89,41.92,Koelreuteria paniculata 'Fastigiata',False,PRIMERA,C\ Can Ros,5.11,1.2,1.26,3.71,0.455,1.58,43,no_crown_detected
+0150921AR,431801.82,4586548.41,38.53,Melia azedarach,False,EXEMPLAR,C\ Riera d'Horta,9.28,37.2,6.89,4.72,0.327,2.24,1465,ok
+0150922AR,431668.74,4586206.87,38.88,Platanus × acerifolia,True,TERCERA,C\ Felip Bertran i Güell,17.89,137.8,13.24,9.62,0.314,2.32,5916,ok
+0150923AR,431834.55,4586522.49,37.97,Melia azedarach,False,EXEMPLAR,C\ Concepción Arenal,11.69,69.0,9.37,5.07,0.257,2.72,2486,ok
+0150928AR,431684.95,4586384.39,40.35,Styphnolobium japonicum,False,SEGONA,C\ Pardo,6.35,23.5,5.47,3.24,0.417,1.75,940,ok
+0150930AR,431605.82,4586242.56,40.4,Pinus halepensis,False,SEGONA,C\ Cep,10.85,70.2,9.46,4.75,0.235,2.9,2496,ok
+0150931AR,431331.34,4586306.8,51.62,Acer monspessulanum,False,PRIMERA,C\ Acàcies,,0.0,0.0,,,,0,no_crown_detected
+0150932AR,431627.95,4586199.25,39.64,Melia azedarach,False,SEGONA,C\ Felip II,7.92,9.8,3.52,4.96,0.299,2.42,264,ok
+0150934AR,431260.83,4586413.84,50.11,Grevillea robusta,False,PRIMERA,C\ Ramon Albó,,0.0,0.0,,,,0,no_crown_detected
+0150935AR,431328.38,4586154.57,52.84,Acer monspessulanum,False,PRIMERA,C\ Acàcies,,0.0,0.0,,,,0,no_crown_detected
+0150937AR,431274.13,4586565.84,47.18,Tipuana tipu,False,EXEMPLAR,C\ Felip II,11.28,1.5,1.38,10.23,0.25,2.77,33,no_crown_detected
+0150938AR,431799.58,4585998.1,34.41,Catalpa bignonioides,False,SEGONA,C\ Felip II,9.63,36.5,6.82,5.38,0.409,1.79,1451,ok
+0150940AR,431781.25,4586549.61,38.69,Quercus robur 'Fastigiata',False,PRIMERA,C\ Riera d'Horta,6.12,2.5,1.78,2.85,0.368,2.0,118,ok
+0150941AR,431555.58,4586095.38,43.31,Brachychiton populneus,False,SEGONA,C\ Garcilaso,5.83,5.2,2.59,3.05,0.519,1.31,219,ok
+0150942AR,431391.29,4586259.66,49.59,Magnolia grandiflora,False,SEGONA,Ptge Ordi,8.26,13.0,4.07,3.87,0.394,1.86,568,ok
+0150943AR,431264.69,4586573.06,47.36,Pinus halepensis,False,TERCERA,C\ Felip II,9.38,34.2,6.6,6.43,0.352,2.09,1036,ok
+0150944AR,431625.65,4585817.35,41.05,Koelreuteria paniculata 'Fastigiata',False,SEGONA,C\ Matanzas,11.72,13.5,4.15,4.93,0.181,3.41,259,ok
+0150946AR,431747.87,4585927.98,36.03,Brachychiton acerifolius,False,PRIMERA,Pl Rom Cremat,3.91,2.0,1.6,3.17,0.484,1.45,31,few_points
+0150947AR,431810.47,4586108.75,34.58,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Concepción Arenal,5.48,3.0,1.95,3.17,0.306,2.37,111,ok
+0150948AR,431495.69,4586336.39,43.28,Pinus halepensis,False,EXEMPLAR,C\ Felip II,15.15,53.0,8.21,5.41,0.237,2.88,1973,ok
+0150949AR,431801.06,4585936.55,34.72,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Concepción Arenal,4.77,1.0,1.13,2.97,0.4,1.83,15,no_crown_detected
+0150950AR,431386.48,4586530.38,44.36,Platanus × acerifolia,True,TERCERA,C\ Sant Pasqual Bailón,15.44,97.2,11.13,7.84,0.181,3.41,3812,ok
+0150951AR,431581.71,4586468.92,41.81,Koelreuteria paniculata 'Fastigiata',False,PRIMERA,C\ Can Ros,11.41,2.8,1.87,3.22,0.426,1.71,77,ok
+0150952AR,431572.68,4586335.28,41.67,Robinia pseudoacacia,False,SEGONA,Pl Congrés Eucarístic,12.24,98.5,11.2,5.43,0.32,2.28,4518,ok
+0150953AR,431609.85,4586559.24,40.83,Melia azedarach,False,PRIMERA,C\ Riera d'Horta,,0.0,0.0,,,,0,no_crown_detected
+0150955AR,431330.78,4586326.73,51.26,Robinia pseudoacacia,False,EXEMPLAR,C\ Acàcies,17.74,10.5,3.66,5.5,0.208,3.14,380,ok
+0150956AR,431307.79,4586104.57,53.58,Celtis australis,False,TERCERA,Pg Maragall,9.78,62.8,8.94,5.26,0.195,3.27,2074,ok
+0150957AR,431682.9,4586343.52,40.26,Styphnolobium japonicum,False,SEGONA,C\ Pardo,17.8,65.5,9.13,4.61,0.293,2.45,2332,ok
+0150958AR,431502.83,4586302.34,42.8,Melia azedarach,False,SEGONA,Pl Doctor Modrego,8.22,20.2,5.08,5.17,0.4,1.83,652,ok
+0150959AR,431303.25,4586110.93,53.68,Celtis australis,False,TERCERA,Pg Maragall,9.63,50.2,8.0,5.91,0.23,2.94,1680,ok
+0150960AR,431676.65,4585782.51,38.24,Jacaranda mimosifolia,False,SEGONA,C\ Olesa,11.29,37.5,6.91,6.98,0.271,2.61,814,ok
+0150961AR,431591.87,4586245.42,40.67,Firmiana simplex,False,EXEMPLAR,C\ Cep,13.73,101.2,11.35,6.22,0.251,2.77,3377,ok
+0150962AR,431252.01,4586242.41,55.84,Grevillea robusta,False,PRIMERA,C\ Ramon Albó,,0.0,0.0,,,,0,no_crown_detected
+0150964AR,431324.41,4586331.74,51.29,Robinia pseudoacacia,False,SEGONA,C\ Acàcies,12.93,19.0,4.92,7.06,0.188,3.34,755,ok
+0150965AR,431680.33,4586555.37,39.69,Robinia pseudoacacia,False,SEGONA,C\ Riera d'Horta,7.99,16.2,4.55,4.76,0.326,2.24,689,ok
+0150967AR,431418.03,4586018.94,48.9,Platanus × acerifolia,True,SEGONA,C\ Manigua,19.13,4.8,2.46,10.06,0.06,5.63,132,ok
+0150968AR,431422.27,4586208.3,47.81,Jacaranda mimosifolia,False,SEGONA,Ptge Salvador Riera,17.28,8.0,3.19,10.84,0.018,7.82,226,ok
+0150969AR,431439.12,4585997.54,47.94,Magnolia grandiflora,False,PRIMERA,C\ Pinar del Río,5.54,0.5,0.8,4.29,0.308,2.36,28,no_crown_detected
+0150970AR,431741.83,4585952.76,36.14,Acacia retinodes,False,SEGONA,Pl Rom Cremat,7.21,53.0,8.21,3.01,0.297,2.43,1043,ok
+0150971AR,431651.62,4586010.6,39.67,Koelreuteria paniculata 'Fastigiata',False,SEGONA,C\ Matanzas,,0.0,0.0,,,,0,no_crown_detected
+0150972AR,431688.41,4585793.9,37.92,Jacaranda mimosifolia,False,SEGONA,C\ Olesa,10.4,4.0,2.26,6.9,0.361,2.04,97,ok
+0150973AR,431750.52,4585945.83,35.97,Brachychiton populneus,False,SEGONA,Pl Rom Cremat,7.2,16.5,4.58,3.05,0.366,2.01,331,ok
+0150975AR,431308.32,4586529.55,46.2,Pinus halepensis,False,TERCERA,C\ Felip II,15.18,56.5,8.48,7.07,0.249,2.78,2394,ok
+0150976AR,431707.96,4585812.47,37.48,Tilia x europaea,False,SEGONA,C\ Olesa,6.84,23.8,5.5,3.69,0.288,2.49,476,ok
+0150977AR,431576.12,4586224.06,40.72,Styphnolobium japonicum,False,TERCERA,C\ Felip II,7.78,18.2,4.82,3.73,0.259,2.7,692,ok
+0150978AR,431435.21,4585917.01,48.73,Celtis australis,False,SEGONA,Pg Maragall,9.24,36.8,6.84,6.07,0.225,2.98,511,ok
+0150979AR,431537.72,4586528.86,42.12,Celtis australis,False,SEGONA,C\ Vèlia,8.7,65.0,9.1,3.75,0.232,2.92,2254,ok
+0150980AR,431330.72,4586337.57,50.84,Robinia pseudoacacia,False,SEGONA,C\ Acàcies,15.55,59.0,8.67,6.83,0.215,3.07,2704,ok
+0150981AR,431707.31,4586553.54,39.51,Platanus × acerifolia,True,TERCERA,C\ Riera d'Horta,16.64,133.2,13.03,6.35,0.268,2.63,6359,ok
+0150982AR,431251.9,4586217.7,56.17,Populus nigra,False,SEGONA,C\ Ramon Albó,14.74,23.5,5.47,5.36,0.346,2.12,1199,ok
+0150983AR,431329.36,4586388.41,49.11,Robinia pseudoacacia,False,SEGONA,C\ Acàcies,14.17,51.5,8.1,7.25,0.312,2.33,2062,ok
+0150984AR,431382.5,4586241.86,50.0,Magnolia grandiflora,False,PRIMERA,Ptge Ordi,18.54,24.0,5.53,4.12,0.208,3.14,1245,ok
+0150985AR,431742.08,4586171.82,36.86,Platanus × acerifolia,True,EXEMPLAR,C\ Cienfuegos,19.37,104.0,11.51,9.97,0.317,2.3,5300,ok
+0150986AR,431622.01,4586274.37,40.35,Pinus pinea,False,SEGONA,C\ Cep,7.17,24.8,5.61,2.95,0.215,3.08,1112,ok
+0150987AR,431505.88,4586280.57,42.86,Melia azedarach,False,SEGONA,Pl Doctor Modrego,6.89,64.0,9.03,3.51,0.445,1.62,2478,ok
+0150988AR,431263.78,4586292.35,54.6,Grevillea robusta,False,PRIMERA,C\ Ramon Albó,9.96,10.0,3.57,4.81,0.286,2.51,354,ok
+0150989AR,431681.84,4585963.62,38.26,Magnolia grandiflora,False,SEGONA,C\ Pinar del Río,9.07,0.2,0.56,5.96,0.0,7.82,7,no_crown_detected
+0150990AR,431557.4,4585982.2,42.92,Magnolia grandiflora,False,SEGONA,C\ Pinar del Río,12.73,26.8,5.84,4.43,0.32,2.28,1249,ok
+0150991AR,431611.98,4586215.73,40.12,Styphnolobium japonicum,False,SEGONA,C\ Felip II,7.46,2.2,1.69,5.07,0.0,7.82,50,ok
+0150992AR,431252.73,4586212.75,56.09,Grevillea robusta,False,PRIMERA,C\ Ramon Albó,5.03,6.0,2.76,2.52,0.448,1.61,230,ok
+0150994AR,431766.65,4585920.13,35.55,Brachychiton populneus,False,SEGONA,Pl Rom Cremat,7.65,30.0,6.18,3.5,0.317,2.3,706,ok
+0150995AR,431666.57,4586333.76,40.33,Platanus × acerifolia,True,SEGONA,C\ Cardenal Tedeschini,14.36,63.0,8.96,7.22,0.25,2.78,2711,ok
+0150996AR,431737.74,4586552.27,39.12,Melia azedarach,False,PRIMERA,C\ Riera d'Horta,,0.0,0.0,,,,0,no_crown_detected
+0150997AR,431516.6,4586469.99,42.76,Citrus × aurantium,False,PRIMERA,C\ Cardenal Tedeschini,3.92,4.2,2.33,2.58,0.426,1.71,61,ok
+0150998AR,431238.0,4586226.0,56.33,Broussonetia papyrifera,False,SEGONA,C\ Ramon Albó,5.96,10.0,3.57,3.01,0.262,2.68,310,ok
+0150999AR,431311.22,4586526.43,46.04,Casuarina cunninghamiana,False,PRIMERA,C\ Felip II,,0.0,0.0,,,,0,no_crown_detected
+0151000AR,431697.59,4586234.42,38.63,Platanus × acerifolia,True,EXEMPLAR,C\ Felip Bertran i Güell,15.75,78.5,10.0,8.69,0.255,2.74,3318,ok
+0151001AR,431606.44,4586222.14,40.34,Styphnolobium japonicum,False,EXEMPLAR,C\ Felip II,12.22,4.5,2.39,4.95,0.135,4.0,138,ok
+0151002AR,431714.47,4585829.69,28.92,Brachychiton acerifolius,False,PRIMERA,C\ Olesa,14.25,26.0,5.75,3.71,0.162,3.64,530,ok
+0151003AR,431634.15,4585970.22,40.32,Magnolia grandiflora,False,PRIMERA,C\ Pinar del Río,7.58,0.8,0.98,5.84,0.154,3.74,18,no_crown_detected
+0151004AR,431761.65,4585920.79,35.66,Brachychiton populneus,False,SEGONA,Pl Rom Cremat,8.76,33.0,6.48,3.76,0.326,2.24,806,ok
+0151005AR,431538.73,4586361.65,42.43,Platanus × acerifolia,True,SEGONA,Pl Congrés Eucarístic,11.57,1.2,1.26,8.66,0.429,1.69,29,no_crown_detected
+0151006AR,431430.25,4586375.18,44.15,Styphnolobium japonicum,False,TERCERA,C\ Felip II,7.32,58.8,8.65,3.42,0.328,2.23,2371,ok
+0151007AR,431497.83,4586504.82,42.85,Ligustrum lucidum,False,SEGONA,C\ Cardenal Tedeschini,6.18,13.0,4.07,4.05,0.331,2.21,332,ok
+0151008AR,431762.7,4585958.7,35.68,Magnolia grandiflora,False,SEGONA,C\ Pinar del Río,12.32,56.5,8.48,5.66,0.198,3.24,1341,ok
+0151009AR,431461.84,4586381.18,43.75,Styphnolobium japonicum,False,SEGONA,C\ Espiga,9.41,48.0,7.82,3.88,0.182,3.4,2222,ok
+0151010AR,431596.04,4585736.36,42.21,Casuarina cunninghamiana,False,TERCERA,Pl Maragall,13.49,37.5,6.91,6.41,0.129,4.09,758,ok
+0151011AR,431424.06,4585933.84,49.32,Celtis australis,False,SEGONA,Pg Maragall,8.45,27.8,5.94,6.02,0.288,2.49,423,ok
+0151012AR,431507.32,4586424.86,42.8,Styphnolobium japonicum,False,SEGONA,C\ Espiga,10.86,53.0,8.21,5.62,0.207,3.15,2084,ok
+0151014AR,431429.57,4586093.4,48.48,Platanus × acerifolia,True,SEGONA,C\ Manigua,16.5,51.2,8.08,8.25,0.284,2.51,2345,ok
+0151016AR,431737.68,4585941.69,36.32,Brachychiton populneus,False,TERCERA,Pl Rom Cremat,9.24,16.2,4.55,3.64,0.326,2.24,362,ok
+0151017AR,431736.47,4586041.36,36.38,Magnolia grandiflora,False,SEGONA,C\ Jordi de Sant Jordi,19.62,22.2,5.32,4.06,0.273,2.6,866,ok
+0151018AR,431350.11,4586459.0,44.95,Casuarina cunninghamiana,False,PRIMERA,C\ Felip II,8.77,4.2,2.33,2.58,0.308,2.36,167,ok
+0151019AR,431681.6,4586201.82,38.42,Citrus × aurantium,False,PRIMERA,C\ Felip Bertran i Güell,4.42,8.8,3.34,3.09,0.162,3.64,143,ok
+0151020AR,431637.23,4586364.04,40.83,Platanus × acerifolia,True,TERCERA,C\ Cardenal Tedeschini,16.07,71.8,9.56,7.19,0.245,2.81,3885,ok
+0151022AR,431398.65,4586287.79,49.24,Magnolia grandiflora,False,SEGONA,Ptge Ordi,8.91,22.2,5.32,3.64,0.281,2.54,1049,ok
+0151023AR,431388.47,4586248.27,49.69,Magnolia grandiflora,False,SEGONA,Ptge Ordi,11.13,21.2,5.2,4.49,0.226,2.97,965,ok
+0151024AR,431469.81,4585865.85,47.33,Celtis australis,False,SEGONA,Pg Maragall,12.35,79.8,10.08,6.99,0.165,3.61,1166,ok
+0151025AR,431607.41,4585980.78,41.13,Magnolia grandiflora,False,PRIMERA,C\ Pinar del Río,12.9,38.8,7.02,5.09,0.174,3.5,1200,ok
+0151026AR,431281.23,4586557.21,47.04,Tipuana tipu,False,EXEMPLAR,C\ Felip II,15.16,108.0,11.73,7.82,0.153,3.76,3654,ok
+0151027AR,431245.92,4586290.27,55.08,Melia azedarach,False,SEGONA,C\ Ramon Albó,7.11,24.5,5.59,3.85,0.296,2.43,809,ok
+0151028AR,431458.18,4586545.62,43.51,Ligustrum lucidum,False,PRIMERA,C\ Cardenal Tedeschini,12.22,10.0,3.57,3.29,0.393,1.87,370,ok
+0151029AR,431527.88,4586152.1,44.21,Magnolia grandiflora,False,SEGONA,C\ Francesc Tàrrega,14.18,20.0,5.05,5.02,0.225,2.99,891,ok
+0151030AR,431602.58,4586255.78,40.62,Firmiana simplex,False,SEGONA,C\ Cep,4.0,7.2,3.04,3.1,0.185,3.38,268,ok
+0151031AR,431489.45,4586297.86,43.34,Melia azedarach,False,SEGONA,Pl Doctor Modrego,6.27,25.5,5.7,3.83,0.493,1.42,1001,ok
+0151032AR,431563.24,4586266.39,41.48,Melia azedarach,False,SEGONA,C\ Felip II,12.26,73.5,9.67,5.92,0.242,2.84,2814,ok
+0151033AR,431461.25,4586001.46,46.9,Magnolia grandiflora,False,SEGONA,C\ Pinar del Río,14.78,35.5,6.72,3.86,0.337,2.18,1386,ok
+0151035AR,431534.98,4586193.91,42.88,Celtis australis,False,TERCERA,C\ Alexandre Galí,13.27,85.8,10.45,5.95,0.191,3.31,3163,ok
+0151037AR,431827.02,4586425.0,37.04,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Concepción Arenal,5.46,2.5,1.78,2.96,0.457,1.57,77,ok
+0151038AR,431568.42,4586232.9,40.9,Melia azedarach,False,SEGONA,C\ Felip II,13.06,142.5,13.47,5.57,0.242,2.84,5306,ok
+0151039AR,431750.75,4586551.58,38.99,Platanus × acerifolia,True,SEGONA,C\ Riera d'Horta,12.97,30.2,6.21,7.95,0.321,2.27,1309,ok
+0151040AR,431334.92,4586147.93,52.6,Robinia pseudoacacia,False,PRIMERA,C\ Acàcies,7.76,22.0,5.29,4.27,0.381,1.93,975,ok
+0151041AR,431790.47,4586029.46,34.63,Casuarina cunninghamiana,False,SEGONA,C\ Felip II,12.78,164.2,14.46,6.28,0.209,3.13,5934,ok
+0151042AR,431635.83,4586557.94,40.42,Melia azedarach,False,PRIMERA,C\ Riera d'Horta,,0.0,0.0,,,,0,no_crown_detected
+0151043AR,431564.97,4585986.5,42.54,Magnolia grandiflora,False,SEGONA,C\ Pinar del Río,8.49,10.8,3.7,4.69,0.345,2.13,288,ok
+0151044AR,431378.39,4586415.04,44.96,Pyrus calleryana 'Chanticleer',False,PRIMERA,Pas Sant Tarsici,,0.0,0.0,,,,0,no_crown_detected
+0151045AR,431540.73,4586556.6,41.95,Celtis australis,False,SEGONA,C\ Vèlia,17.65,59.5,8.7,4.86,0.131,4.07,1977,ok
+0151047AR,431544.36,4586491.15,42.23,Celtis australis,False,SEGONA,C\ Vèlia,9.46,60.5,8.78,4.7,0.183,3.39,2150,ok
+0151048AR,431518.22,4586137.27,44.7,Magnolia grandiflora,False,SEGONA,C\ Francesc Tàrrega,9.58,24.8,5.61,4.39,0.243,2.83,1229,ok
+0151049AR,431562.02,4586094.58,43.09,Brachychiton populneus,False,SEGONA,C\ Garcilaso,6.34,6.5,2.88,3.36,0.433,1.67,280,ok
+0151050AR,431699.34,4586178.02,37.82,Platanus × acerifolia,True,EXEMPLAR,C\ Cienfuegos,17.34,99.0,11.23,8.73,0.156,3.72,3749,ok
+0151053AR,431457.21,4586393.89,43.78,Styphnolobium japonicum,False,SEGONA,C\ Espiga,16.21,52.5,8.18,5.17,0.177,3.47,2292,ok
+0151054AR,431445.19,4586122.59,47.8,Melia azedarach,False,SEGONA,C\ Manigua,8.57,2.8,1.87,5.68,0.32,2.28,67,ok
+0151055AR,431698.93,4585967.64,37.46,Magnolia grandiflora,False,SEGONA,C\ Pinar del Río,12.1,18.0,4.79,4.08,0.312,2.33,420,ok
+0151056AR,431328.18,4586168.21,52.93,Acer monspessulanum,False,PRIMERA,C\ Acàcies,,0.0,0.0,,,,0,no_crown_detected
+0151057AR,431251.0,4586277.0,55.23,Populus nigra,False,SEGONA,C\ Ramon Albó,18.94,55.8,8.43,5.34,0.245,2.81,2552,ok
+0151058AR,431261.2,4586390.27,50.95,Populus nigra,False,SEGONA,C\ Ramon Albó,19.5,20.8,5.14,7.14,0.167,3.58,1123,ok
+0151059AR,431718.79,4586553.21,39.34,Melia azedarach,False,PRIMERA,C\ Riera d'Horta,,0.0,0.0,,,,0,no_crown_detected
+0151060AR,431633.94,4586072.74,40.17,Brachychiton populneus,False,PRIMERA,C\ Garcilaso,,0.0,0.0,,,,0,no_crown_detected
+0151061AR,431826.79,4586236.36,36.05,Melia azedarach,False,PRIMERA,C\ Concepción Arenal,,0.0,0.0,,,,0,no_crown_detected
+0151062AR,431367.3,4586469.14,44.6,Melia azedarach,False,SEGONA,C\ Felip II,14.83,80.2,10.11,6.02,0.184,3.38,2980,ok
+0151063AR,431249.02,4586221.64,56.2,Acer negundo,False,SEGONA,C\ Ramon Albó,7.08,17.2,4.69,3.39,0.245,2.81,605,ok
+0151064AR,431475.76,4586328.15,43.32,Styphnolobium japonicum,False,TERCERA,C\ Felip II,25.06,95.2,11.01,4.94,0.186,3.36,2643,ok
+0151066AR,431489.59,4586521.48,43.12,Platanus × acerifolia,True,TERCERA,C\ Cardenal Tedeschini,19.18,141.5,13.42,6.94,0.175,3.49,7259,ok
+0151068AR,431551.17,4585988.42,43.21,Magnolia grandiflora,False,PRIMERA,C\ Pinar del Río,13.89,8.2,3.24,4.17,0.311,2.34,216,ok
+0151069AR,431739.02,4586283.47,38.47,Firmiana simplex,False,SEGONA,Pl Cardenal Cicognani,7.47,24.0,5.53,4.94,0.306,2.37,729,ok
+0151070AR,431683.41,4586470.64,40.87,Koelreuteria paniculata 'Fastigiata',False,PRIMERA,C\ Can Ros,5.88,3.0,1.95,3.7,0.507,1.36,142,ok
+0151071AR,431683.94,4586180.07,38.18,Platanus × acerifolia,True,EXEMPLAR,C\ Cienfuegos,13.65,4.8,2.46,9.24,0.126,4.14,88,ok
+0151073AR,431801.16,4585942.84,34.64,Melia azedarach,False,SEGONA,C\ Concepción Arenal,9.91,62.2,8.9,4.33,0.149,3.81,1084,ok
+0151074AR,431538.22,4585990.51,43.8,Magnolia grandiflora,False,PRIMERA,C\ Pinar del Río,13.16,10.5,3.66,4.58,0.412,1.77,263,ok
+0151076AR,431330.06,4586544.13,46.19,Celtis australis,False,PRIMERA,C\ Felip II,,0.0,0.0,,,,0,no_crown_detected
+0151077AR,431374.91,4586411.88,45.16,Robinia pseudoacacia,False,SEGONA,Pas Sant Tarsici,15.74,47.0,7.74,7.92,0.321,2.27,2047,ok
+0151079AR,431616.26,4586252.79,40.31,Casuarina cunninghamiana,False,PRIMERA,C\ Cep,,0.0,0.0,,,,0,no_crown_detected
+0151080AR,431750.87,4585949.63,35.97,Handroanthus heptaphyllus,False,PRIMERA,Pl Rom Cremat,,0.0,0.0,,,,0,no_crown_detected
+0151081AR,431662.69,4586338.13,40.38,Melia azedarach,False,SEGONA,C\ Cardenal Tedeschini,10.33,32.0,6.38,4.88,0.209,3.13,1292,ok
+0151082AR,431781.42,4586016.21,34.42,Catalpa bignonioides,False,TERCERA,C\ Felip II,10.13,54.5,8.33,4.91,0.427,1.7,2317,ok
+0151085AR,431333.93,4586189.77,53.0,Robinia pseudoacacia,False,PRIMERA,C\ Acàcies,9.58,29.0,6.08,5.41,0.292,2.46,1560,ok
+0151086AR,431511.1,4586267.93,40.09,Grevillea robusta,False,PRIMERA,Pl Doctor Modrego,10.49,8.0,3.19,2.54,0.051,5.94,350,ok
+0151087AR,431805.22,4586069.57,34.28,Acer negundo,False,TERCERA,C\ Concepción Arenal,10.5,72.2,9.59,3.84,0.3,2.41,3406,ok
+0151088AR,431656.55,4586044.04,39.34,Koelreuteria paniculata 'Fastigiata',False,SEGONA,C\ Matanzas,11.98,14.2,4.26,5.24,0.329,2.23,605,ok
+0151089AR,431666.48,4586120.99,38.31,Koelreuteria paniculata 'Fastigiata',False,SEGONA,C\ Matanzas,,0.0,0.0,,,,0,no_crown_detected
+0151090AR,431630.78,4585796.92,40.86,Melia azedarach,False,SEGONA,C\ Biscaia,18.02,94.0,10.94,4.93,0.134,4.02,1453,ok
+0151092AR,431393.3,4586004.0,50.23,Magnolia grandiflora,False,PRIMERA,C\ Pinar del Río,5.25,11.0,3.74,3.81,0.522,1.3,444,ok
+0151093AR,431730.69,4586030.0,36.43,Magnolia grandiflora,False,PRIMERA,C\ Jordi de Sant Jordi,14.2,10.2,3.61,3.52,0.297,2.43,245,ok
+0151094AR,431555.64,4586247.35,41.25,Cupressus sempervirens,False,SEGONA,C\ Felip II,13.67,28.0,5.97,4.69,0.202,3.2,1259,ok
+0151096AR,431259.74,4586431.92,49.64,Populus nigra,False,SEGONA,C\ Ramon Albó,13.57,9.5,3.48,6.02,0.205,3.17,455,ok
+0151097AR,431264.02,4586287.41,54.71,Grevillea robusta,False,PRIMERA,C\ Ramon Albó,12.42,9.2,3.43,7.23,0.299,2.41,381,ok
+0151099AR,431334.39,4586475.6,45.1,Styphnolobium japonicum,False,EXEMPLAR,C\ Felip II,9.18,65.8,9.15,4.44,0.277,2.57,2601,ok
+0151100AR,431485.3,4586420.71,43.24,Styphnolobium japonicum,False,EXEMPLAR,C\ Espiga,16.62,57.8,8.57,4.88,0.151,3.79,2102,ok
+0151101AR,431531.67,4586179.1,43.32,Magnolia grandiflora,False,SEGONA,C\ Francesc Tàrrega,9.46,16.0,4.51,4.53,0.303,2.39,589,ok
+0151102AR,431819.6,4586295.42,36.89,Jacaranda mimosifolia,False,PRIMERA,C\ Cardenal Tedeschini,5.4,2.8,1.87,2.37,0.275,2.58,107,ok
+0151104AR,431713.69,4586108.8,37.17,Catalpa bignonioides,False,SEGONA,C\ Felip II,8.31,37.5,6.91,4.47,0.323,2.26,1331,ok
+0151105AR,431678.22,4586216.49,38.69,Citrus × aurantium,False,PRIMERA,C\ Felip Bertran i Güell,12.78,9.0,3.39,3.34,0.451,1.59,233,ok
+0151106AR,431371.1,4586224.99,50.74,Melia azedarach,False,SEGONA,Ptge Salvador Riera,9.69,29.8,6.15,5.85,0.276,2.58,1112,ok
+0151107AR,431750.82,4586459.89,39.43,Acer campestre,False,PRIMERA,C\ Can Ros,8.33,52.5,8.18,3.97,0.318,2.29,2167,ok
+0151108AR,431493.9,4586269.3,43.32,Tipuana tipu,False,SEGONA,Pl Doctor Modrego,10.07,87.2,10.54,4.32,0.399,1.84,4719,ok
+0151109AR,431682.08,4585787.93,38.1,Jacaranda mimosifolia,False,SEGONA,C\ Olesa,10.9,69.2,9.39,6.1,0.297,2.43,1471,ok
+0151110AR,431587.32,4586416.08,41.53,Melia azedarach,False,SEGONA,C\ Cardenal Tedeschini,19.98,53.5,8.25,3.56,0.207,3.15,2032,ok
+0151111AR,431347.37,4586232.6,51.83,Melia azedarach,False,SEGONA,Ptge Salvador Riera,8.86,64.0,9.03,6.2,0.369,1.99,2220,ok
+0151112AR,431537.87,4586087.81,44.1,Brachychiton populneus,False,TERCERA,C\ Garcilaso,10.61,23.0,5.41,4.6,0.373,1.97,1082,ok
+0151114AR,431716.01,4585896.56,37.05,Magnolia grandiflora,False,SEGONA,C\ Jordi de Sant Jordi,12.44,15.5,4.44,4.65,0.178,3.45,247,ok
+0151115AR,431548.8,4586280.91,41.76,Melia azedarach,False,SEGONA,C\ Felip II,9.31,82.5,10.25,4.84,0.249,2.78,2201,ok
+0151116AR,431768.28,4585951.14,35.6,Magnolia grandiflora,False,SEGONA,C\ Pinar del Río,10.04,0.8,0.98,6.36,0.417,1.75,12,no_crown_detected
+0151117AR,431713.06,4586553.39,39.4,Melia azedarach,False,SEGONA,C\ Riera d'Horta,6.57,2.0,1.6,5.24,0.294,2.45,60,ok
+0151118AR,431427.63,4585928.08,49.07,Celtis australis,False,SEGONA,Pg Maragall,18.31,45.8,7.63,6.96,0.204,3.18,727,ok
+0151119AR,431315.16,4586093.47,53.36,Celtis australis,False,SEGONA,Pg Maragall,10.42,53.2,8.23,6.63,0.293,2.46,1675,ok
+0151120AR,431459.43,4586529.1,43.62,Ligustrum lucidum,False,SEGONA,C\ Cardenal Tedeschini,6.77,15.2,4.41,3.99,0.198,3.24,280,ok
+0151121AR,431644.72,4586557.4,40.31,Melia azedarach,False,SEGONA,C\ Riera d'Horta,,0.0,0.0,,,,0,no_crown_detected
+0151122AR,431395.54,4586276.85,49.45,Magnolia grandiflora,False,SEGONA,Ptge Ordi,9.77,14.2,4.26,5.0,0.232,2.93,584,ok
+0151124AR,431628.98,4586356.82,40.88,Platanus × acerifolia,True,TERCERA,C\ Cardenal Tedeschini,33.58,97.0,11.11,5.12,0.267,2.64,4076,ok
+0151125AR,431722.18,4586174.59,37.32,Platanus × acerifolia,True,EXEMPLAR,C\ Cienfuegos,17.09,58.0,8.59,9.42,0.181,3.41,2206,ok
+0151126AR,431815.0,4586175.58,35.43,Tipuana tipu,False,TERCERA,C\ Concepción Arenal,19.7,99.5,11.26,5.37,0.19,3.32,3166,ok
+0151127AR,431635.11,4585976.94,40.28,Magnolia grandiflora,False,SEGONA,C\ Pinar del Río,10.37,34.2,6.6,4.5,0.336,2.18,1343,ok
+0151128AR,431328.85,4586135.32,52.64,Acer monspessulanum,False,PRIMERA,C\ Acàcies,8.86,0.8,0.98,7.05,0.571,1.12,19,no_crown_detected
+0151129AR,431522.53,4585987.28,44.53,Magnolia grandiflora,False,SEGONA,C\ Pinar del Río,10.11,7.5,3.09,4.58,0.238,2.87,283,ok
+0151130AR,431246.92,4586303.31,54.84,Acer negundo,False,SEGONA,C\ Ramon Albó,19.19,59.8,8.72,4.11,0.321,2.27,3198,ok
+0151133AR,431668.14,4586303.09,40.13,Pinus halepensis,False,TERCERA,C\ Cep,10.6,62.8,8.94,5.82,0.237,2.88,2129,ok
+0151134AR,431814.61,4586301.39,37.07,Melia azedarach,False,SEGONA,C\ Cardenal Tedeschini,6.93,18.5,4.85,2.82,0.18,3.43,702,ok
+0151135AR,431833.91,4586516.12,37.96,Melia azedarach,False,SEGONA,C\ Concepción Arenal,10.41,84.5,10.37,4.6,0.233,2.91,3563,ok
+0151138AR,431375.22,4586537.62,44.43,Platanus × acerifolia,True,TERCERA,C\ Sant Pasqual Bailón,17.05,92.0,10.82,8.74,0.192,3.3,4315,ok
+0151139AR,431283.96,4586138.85,54.5,Celtis australis,False,SEGONA,Pg Maragall,11.97,64.2,9.04,6.31,0.211,3.11,2235,ok
+0151140AR,431586.47,4585977.03,41.78,Magnolia grandiflora,False,PRIMERA,C\ Pinar del Río,,0.0,0.0,,,,0,no_crown_detected
+0151141AR,431476.09,4586394.83,43.46,Pinus halepensis,False,TERCERA,C\ Espiga,11.16,56.0,8.44,4.9,0.198,3.23,2109,ok
+0151143AR,431387.49,4586581.05,44.96,Platanus × acerifolia,True,EXEMPLAR,C\ Riera d'Horta,18.17,92.2,10.84,7.54,0.181,3.42,3539,ok
+0151144AR,431326.43,4586595.1,46.0,Melia azedarach,False,PRIMERA,C\ Riera d'Horta,,0.0,0.0,,,,0,no_crown_detected
+0151145AR,431464.2,4586539.13,43.37,Ligustrum lucidum,False,PRIMERA,C\ Cardenal Tedeschini,4.47,7.5,3.09,2.76,0.458,1.56,245,ok
+0151146AR,431830.22,4586474.12,37.58,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Concepción Arenal,5.26,2.8,1.87,2.39,0.493,1.42,129,ok
+0151148AR,431258.0,4586527.6,47.76,Platanus × acerifolia,True,SEGONA,C\ Ramon Albó,19.37,82.2,10.23,9.79,0.256,2.73,3267,ok
+0151149AR,431549.45,4586253.54,41.44,Styphnolobium japonicum,False,EXEMPLAR,C\ Felip II,15.81,84.2,10.36,5.01,0.129,4.1,2850,ok
+0151151AR,431649.96,4586281.15,40.19,Pinus halepensis,False,SEGONA,C\ Cep,12.62,88.5,10.62,3.19,0.187,3.35,3001,ok
+0151152AR,431640.2,4585934.85,40.21,Koelreuteria paniculata 'Fastigiata',False,SEGONA,C\ Matanzas,11.52,9.8,3.52,5.96,0.237,2.88,198,ok
+0151153AR,431743.47,4586177.7,37.1,Bauhinia variegata,False,SEGONA,C\ Cienfuegos,5.39,5.0,2.52,4.23,0.369,1.99,140,ok
+0151154AR,431819.08,4586174.94,35.21,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Concepción Arenal,10.54,16.8,4.62,5.34,0.339,2.16,697,ok
+0151155AR,431567.36,4586478.1,42.08,Koelreuteria paniculata 'Fastigiata',False,PRIMERA,C\ Can Ros,7.09,4.0,2.26,4.05,0.338,2.17,184,ok
+0151156AR,431432.89,4586040.39,48.53,Platanus × acerifolia,True,EXEMPLAR,C\ Manigua,17.79,30.0,6.18,6.94,0.288,2.49,1307,ok
+0151157AR,431519.37,4586275.96,42.34,Grevillea robusta,False,SEGONA,Pl Doctor Modrego,15.74,39.5,7.09,5.65,0.314,2.32,2092,ok
+0151158AR,431323.9,4586113.05,53.18,Melia azedarach,False,SEGONA,Jard Jaume Ferran i Clua,12.15,4.0,2.26,4.85,0.333,2.2,157,ok
+0151159AR,431485.99,4586278.08,43.54,Tipuana tipu,False,SEGONA,Pl Doctor Modrego,9.31,36.2,6.79,5.13,0.461,1.55,1452,ok
+0151160AR,431411.83,4585974.07,49.64,Melia azedarach,False,SEGONA,C\ Manigua,6.42,46.0,7.65,3.71,0.524,1.29,1495,ok
+0151161AR,431813.86,4586323.39,37.26,Jacaranda mimosifolia,False,SEGONA,C\ Cardenal Tedeschini,6.05,29.0,6.08,2.84,0.336,2.18,1082,ok
+0151162AR,431453.44,4585995.52,47.15,Magnolia grandiflora,False,PRIMERA,C\ Pinar del Río,7.82,22.0,5.29,3.93,0.36,2.04,920,ok
+0151163AR,431603.11,4586225.66,40.38,Melia azedarach,False,SEGONA,C\ Felip II,13.24,103.2,11.47,4.97,0.25,2.77,4066,ok
+0151164AR,431532.22,4586088.72,44.34,Brachychiton populneus,False,EXEMPLAR,C\ Garcilaso,11.72,83.8,10.33,2.83,0.229,2.95,3928,ok
+0151165AR,431261.58,4586379.93,51.43,Grevillea robusta,False,PRIMERA,C\ Ramon Albó,8.28,8.2,3.24,3.73,0.352,2.09,257,ok
+0151167AR,431551.24,4586277.83,41.72,Styphnolobium japonicum,False,SEGONA,C\ Felip II,7.83,26.0,5.75,3.81,0.173,3.51,753,ok
+0151169AR,431733.99,4585956.26,36.29,Magnolia grandiflora,False,PRIMERA,C\ Pinar del Río,5.52,13.5,4.15,3.45,0.479,1.47,267,ok
+0151170AR,431728.33,4586461.34,39.97,Acer campestre,False,PRIMERA,C\ Can Ros,6.88,0.8,0.98,6.57,0.0,7.82,22,no_crown_detected
+0151171AR,431634.98,4585742.06,40.29,Jacaranda mimosifolia,False,SEGONA,C\ Olesa,9.55,34.8,6.65,6.27,0.335,2.19,702,ok
+0151172AR,431761.36,4585952.23,35.73,Magnolia grandiflora,False,SEGONA,C\ Pinar del Río,9.16,1.2,1.26,6.15,0.273,2.6,33,no_crown_detected
+0151173AR,431473.9,4585859.82,46.99,Celtis australis,False,SEGONA,Pg Maragall,11.79,46.2,7.67,7.65,0.139,3.95,649,ok
+0151174AR,431451.64,4586166.57,46.99,Platanus × acerifolia,True,TERCERA,C\ Manigua,16.22,112.2,11.95,6.58,0.262,2.68,5035,ok
+0151175AR,431367.7,4586585.17,45.37,Platanus × acerifolia,True,SEGONA,C\ Riera d'Horta,19.45,52.8,8.2,9.44,0.183,3.4,2211,ok
+0151176AR,431475.01,4585992.65,46.37,Magnolia grandiflora,False,PRIMERA,C\ Pinar del Río,9.27,20.2,5.08,4.45,0.363,2.03,1003,ok
+0151177AR,431403.15,4586564.67,44.29,Platanus × acerifolia,True,EXEMPLAR,C\ Sant Pasqual Bailón,18.15,91.5,10.79,7.54,0.138,3.96,3378,ok
+0151178AR,431543.45,4586366.22,42.36,Platanus × acerifolia,True,SEGONA,Pl Congrés Eucarístic,13.56,69.5,9.41,8.54,0.292,2.46,2765,ok
+0151180AR,431328.75,4586141.16,52.7,Robinia pseudoacacia,False,TERCERA,C\ Acàcies,11.26,25.5,5.7,6.45,0.322,2.26,879,ok
+0151181AR,431742.62,4585928.67,36.2,Brachychiton populneus,False,SEGONA,Pl Rom Cremat,5.26,10.5,3.66,3.09,0.461,1.55,206,ok
+0151182AR,431713.33,4586462.31,40.28,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Can Ros,,0.0,0.0,,,,0,no_crown_detected
+0151183AR,431578.91,4586408.72,42.01,Platanus × acerifolia,True,EXEMPLAR,C\ Cardenal Tedeschini,15.22,153.8,13.99,6.93,0.246,2.81,6514,ok
+0151184AR,431776.96,4586021.07,34.49,Catalpa bignonioides,False,SEGONA,C\ Felip II,7.11,17.2,4.69,3.69,0.42,1.74,583,ok
+0151185AR,431648.3,4586187.34,39.19,Platanus × acerifolia,True,EXEMPLAR,C\ Felip Bertran i Güell,18.75,114.0,12.05,8.19,0.208,3.14,5279,ok
+0151187AR,431712.8,4586073.94,37.4,Cercis siliquastrum,False,SEGONA,C\ Garcilaso,7.48,29.2,6.1,3.76,0.3,2.41,1139,ok
+0151188AR,431746.92,4585922.91,36.02,Brachychiton populneus,False,PRIMERA,Pl Rom Cremat,5.6,3.0,1.95,3.21,0.485,1.45,66,ok
+0151190AR,431716.45,4585933.2,36.66,Magnolia grandiflora,False,SEGONA,C\ Jordi de Sant Jordi,12.72,9.0,3.39,3.42,0.424,1.72,118,ok
+0151191AR,431534.75,4586268.49,41.8,Casuarina cunninghamiana,False,PRIMERA,C\ Felip II,26.78,76.0,9.84,4.6,0.23,2.94,2482,ok
+0151192AR,431689.57,4586169.12,37.81,Platanus × acerifolia,True,TERCERA,C\ Cienfuegos,17.45,63.2,8.97,8.61,0.249,2.78,3137,ok
+0151193AR,431333.43,4586220.01,53.22,Robinia pseudoacacia 'Bessoniana',False,PRIMERA,C\ Acàcies,5.81,5.2,2.59,3.1,0.471,1.51,181,ok
+0151194AR,431421.49,4585959.67,49.4,Platanus × acerifolia,True,SEGONA,C\ Manigua,7.09,0.2,0.56,5.36,0.0,7.82,2,no_crown_detected
+0151196AR,431723.75,4585980.48,36.46,Magnolia grandiflora,False,SEGONA,C\ Jordi de Sant Jordi,15.2,28.2,6.0,4.45,0.301,2.4,1227,ok
+0151198AR,431439.06,4586202.45,47.0,Quercus ilex,False,TERCERA,Ptge Salvador Riera,20.37,4.2,2.33,10.39,0.043,6.27,135,ok
+0151199AR,431385.67,4586547.74,44.45,Platanus × acerifolia,True,TERCERA,C\ Sant Pasqual Bailón,18.97,99.2,11.24,8.52,0.139,3.94,4719,ok
+0151200AR,431621.81,4586205.85,39.87,Casuarina cunninghamiana,False,PRIMERA,C\ Felip II,9.45,31.5,6.33,4.84,0.172,3.52,1400,ok
+0151201AR,431580.46,4586221.63,40.75,Styphnolobium japonicum,False,TERCERA,C\ Felip II,8.3,87.0,10.52,4.18,0.214,3.08,3347,ok
+0151202AR,431582.87,4586560.92,41.25,Melia azedarach,False,EXEMPLAR,C\ Riera d'Horta,12.29,79.2,10.05,5.88,0.217,3.05,3198,ok
+0151203AR,431620.46,4586466.57,41.5,Koelreuteria paniculata 'Fastigiata',False,PRIMERA,C\ Can Ros,6.92,7.5,3.09,3.69,0.451,1.59,301,ok
+0151205AR,431327.63,4586187.69,53.17,Acer monspessulanum,False,PRIMERA,C\ Acàcies,,0.0,0.0,,,,0,no_crown_detected
+0151206AR,431544.77,4586464.45,42.24,Platanus × acerifolia,True,EXEMPLAR,C\ Cardenal Tedeschini,15.12,75.0,9.77,7.34,0.239,2.86,3797,ok
+0151208AR,431644.09,4586153.53,39.34,Melia azedarach,False,SEGONA,C\ Felip II,11.44,59.0,8.67,7.67,0.258,2.71,1970,ok
+0151209AR,431248.42,4586245.24,55.82,Acer negundo,False,SEGONA,C\ Ramon Albó,7.31,40.0,7.14,4.26,0.478,1.48,1640,ok
+0151210AR,431733.07,4586017.83,36.36,Magnolia grandiflora,False,PRIMERA,C\ Jordi de Sant Jordi,13.85,9.5,3.48,3.05,0.333,2.2,338,ok
+0151211AR,431429.13,4586010.58,48.76,Platanus × acerifolia,True,EXEMPLAR,C\ Manigua,19.25,83.0,10.28,9.73,0.282,2.53,4008,ok
+0151212AR,431703.79,4586119.23,37.38,Casuarina cunninghamiana,False,TERCERA,C\ Felip II,14.25,27.2,5.89,3.97,0.22,3.03,1124,ok
+0151213AR,431654.84,4586330.0,40.45,Fraxinus angustifolia,False,SEGONA,C\ Cardenal Tedeschini,10.46,3.5,2.11,6.72,0.415,1.76,143,ok
+0151214AR,431521.91,4586464.4,42.65,Ligustrum lucidum,False,PRIMERA,C\ Cardenal Tedeschini,4.12,5.0,2.52,2.29,0.38,1.94,92,ok
+0151215AR,431549.23,4586297.66,41.88,Platanus × acerifolia,True,TERCERA,Pl Congrés Eucarístic,18.51,59.8,8.72,8.49,0.223,3.0,3145,ok
+0151216AR,431775.13,4586045.38,35.16,Catalpa bignonioides,False,TERCERA,C\ Felip II,10.44,26.5,5.81,6.32,0.399,1.84,1076,ok
+0151217AR,431473.6,4586409.27,43.43,Styphnolobium japonicum,False,EXEMPLAR,C\ Espiga,9.76,44.8,7.55,4.77,0.098,4.65,1502,ok
+0151218AR,431679.44,4586250.97,39.69,Platanus × acerifolia,True,EXEMPLAR,C\ Cep,18.9,152.5,13.93,5.78,0.193,3.29,6964,ok
+0151219AR,431404.04,4586310.3,48.79,Magnolia grandiflora,False,SEGONA,Ptge Ordi,6.23,1.8,1.49,3.79,0.194,3.28,60,no_crown_detected
+0151221AR,431658.69,4586325.87,40.32,Platanus × acerifolia,True,TERCERA,C\ Cardenal Tedeschini,13.58,2.8,1.87,5.34,0.4,1.83,145,ok
+0151222AR,431535.41,4586501.88,42.2,Celtis australis,False,SEGONA,C\ Vèlia,25.81,59.0,8.67,3.92,0.19,3.32,1888,ok
+0151223AR,431610.48,4586086.73,41.04,Brachychiton populneus,False,SEGONA,C\ Garcilaso,7.06,6.8,2.93,3.32,0.497,1.4,293,ok
+0151225AR,431820.23,4586182.2,35.37,Melia azedarach,False,TERCERA,C\ Concepción Arenal,10.81,35.5,6.72,6.7,0.262,2.68,1119,ok
+0151226AR,431316.71,4586520.57,45.87,Pinus halepensis,False,TERCERA,C\ Felip II,10.73,40.5,7.18,5.95,0.321,2.27,1581,ok
+0151228AR,431558.08,4586306.27,41.73,Platanus × acerifolia,True,SEGONA,Pl Congrés Eucarístic,11.13,3.8,2.19,8.17,0.346,2.12,121,ok
+0151229AR,431826.7,4586248.76,36.14,Melia azedarach,False,PRIMERA,C\ Concepción Arenal,6.86,39.0,7.05,3.4,0.278,2.56,1238,ok
+0151230AR,431776.55,4585918.5,35.29,Brachychiton populneus,False,SEGONA,Pl Rom Cremat,7.28,24.8,5.61,3.21,0.351,2.1,579,ok
+0151231AR,431795.21,4586548.64,38.61,Melia azedarach,False,EXEMPLAR,C\ Riera d'Horta,10.3,52.0,8.14,5.27,0.323,2.26,1827,ok
+0151232AR,431498.58,4586264.77,43.13,Tipuana tipu,False,SEGONA,Pl Doctor Modrego,9.4,37.2,6.89,4.62,0.388,1.89,1738,ok
+0151233AR,431263.4,4586597.25,47.22,Platanus × acerifolia,True,SEGONA,C\ Arnau d'Oms,15.75,48.5,7.86,8.24,0.33,2.22,1986,ok
+0151234AR,431679.22,4586463.02,40.98,Koelreuteria paniculata 'Fastigiata',False,SEGONA,C\ Can Ros,7.78,8.0,3.19,4.31,0.268,2.63,288,ok
+0151235AR,431392.66,4586265.35,49.55,Magnolia grandiflora,False,PRIMERA,Ptge Ordi,11.65,15.8,4.48,4.3,0.298,2.42,679,ok
+0151237AR,431786.72,4586155.13,35.62,Platanus × acerifolia,True,SEGONA,C\ Cienfuegos,12.38,2.8,1.87,8.4,0.183,3.39,113,ok
+0151239AR,431422.24,4586385.52,44.26,Pinus halepensis,False,TERCERA,C\ Felip II,10.22,46.0,7.65,5.18,0.296,2.43,1783,ok
+0151240AR,431322.79,4586082.04,53.07,Celtis australis,False,TERCERA,Pg Maragall,10.89,62.0,8.88,5.73,0.299,2.41,2342,ok
+0151241AR,431374.88,4586519.32,44.4,Platanus × acerifolia,True,TERCERA,C\ Sant Pasqual Bailón,15.2,47.5,7.78,8.1,0.24,2.85,2170,ok
+0151243AR,431744.91,4586098.97,36.35,Magnolia grandiflora,False,SEGONA,C\ Jordi de Sant Jordi,10.43,32.8,6.46,4.65,0.198,3.24,1422,ok
+0151246AR,431594.65,4586341.81,41.3,Platanus × acerifolia,True,SEGONA,Pl Congrés Eucarístic,11.59,46.0,7.65,7.57,0.399,1.84,1684,ok
+0151249AR,431624.6,4585810.76,41.22,Koelreuteria paniculata,False,SEGONA,C\ Matanzas,8.44,48.0,7.82,4.89,0.077,5.12,595,ok
+0151250AR,431676.05,4586270.68,40.0,Pinus pinea,False,PRIMERA,C\ Cep,17.6,70.8,9.49,7.9,0.312,2.33,4054,ok
+0151251AR,431420.17,4585939.38,49.43,Celtis australis,False,SEGONA,Pg Maragall,9.49,39.8,7.11,5.87,0.202,3.19,662,ok
+0151252AR,431683.13,4586348.83,40.26,Styphnolobium japonicum,False,SEGONA,C\ Pardo,7.94,29.8,6.15,4.37,0.239,2.86,910,ok
+0151253AR,431506.79,4586298.07,42.74,Melia azedarach,False,SEGONA,Pl Doctor Modrego,8.72,16.5,4.58,4.74,0.331,2.21,552,ok
+0151254AR,431733.96,4586283.74,38.57,Firmiana simplex,False,SEGONA,Pl Cardenal Cicognani,8.55,32.5,6.43,5.97,0.269,2.62,895,ok
+0151255AR,431745.21,4586135.4,36.52,Magnolia grandiflora,False,SEGONA,C\ Jordi de Sant Jordi,8.9,21.0,5.17,4.55,0.205,3.16,714,ok
+0151256AR,431686.16,4586414.16,40.58,Styphnolobium japonicum,False,SEGONA,C\ Pardo,8.37,41.2,7.25,4.06,0.389,1.89,1608,ok
+0151257AR,431443.09,4586184.88,47.11,Platanus × acerifolia,True,EXEMPLAR,C\ Manigua,21.34,153.5,13.98,9.48,0.182,3.41,7495,ok
+0151258AR,431339.6,4586469.97,45.09,Styphnolobium japonicum,False,EXEMPLAR,C\ Felip II,10.4,86.0,10.46,4.47,0.198,3.23,3376,ok
+0151260AR,431600.57,4585975.3,41.31,Magnolia grandiflora,False,PRIMERA,C\ Pinar del Río,5.16,5.8,2.71,3.01,0.465,1.53,241,ok
+0151261AR,431360.81,4586026.01,51.68,Celtis australis,False,SEGONA,Pg Maragall,18.48,58.2,8.61,6.15,0.267,2.64,2202,ok
+0151262AR,431393.83,4586217.42,49.3,Tipuana tipu,False,EXEMPLAR,Ptge Salvador Riera,14.96,76.2,9.85,8.92,0.316,2.3,2978,ok
+0151263AR,431524.22,4586179.95,43.68,Magnolia grandiflora,False,SEGONA,C\ Francesc Tàrrega,13.75,18.8,4.89,4.81,0.237,2.88,770,ok
+0151264AR,431599.89,4586201.75,40.28,Cupressus sempervirens,False,SEGONA,C\ Felip II,20.24,71.2,9.52,6.32,0.147,3.84,2321,ok
+0151266AR,431491.16,4586511.39,43.0,Ligustrum lucidum,False,SEGONA,C\ Cardenal Tedeschini,7.01,19.2,4.95,4.21,0.301,2.4,582,ok
+0151267AR,431641.43,4585944.82,40.12,Koelreuteria paniculata 'Fastigiata',False,SEGONA,C\ Matanzas,13.52,22.0,5.29,4.92,0.151,3.78,469,ok
+0151268AR,431677.06,4586460.09,41.08,Koelreuteria paniculata 'Fastigiata',False,PRIMERA,C\ Can Ros,12.12,40.2,7.16,2.95,0.239,2.86,1425,ok
+0151269AR,431566.68,4586388.74,42.08,Platanus × acerifolia,True,SEGONA,Pl Congrés Eucarístic,9.76,22.8,5.38,6.08,0.307,2.36,964,ok
+0151270AR,431263.72,4586296.18,54.52,Grevillea robusta,False,PRIMERA,C\ Ramon Albó,13.83,17.0,4.65,5.42,0.321,2.27,621,ok
+0151272AR,431687.38,4586451.27,40.89,Styphnolobium japonicum,False,SEGONA,C\ Pardo,8.22,57.8,8.57,2.41,0.257,2.71,2261,ok
+0151273AR,431816.84,4586292.9,36.9,Melia azedarach,False,SEGONA,C\ Cardenal Tedeschini,9.53,3.5,2.11,3.63,0.355,2.07,127,ok
+0151274AR,431469.61,4586363.38,43.73,Styphnolobium japonicum,False,TERCERA,C\ Felip II,7.67,29.0,6.08,3.81,0.23,2.94,1234,ok
+0151275AR,431361.13,4586524.34,44.53,Platanus × acerifolia,True,TERCERA,C\ Sant Pasqual Bailón,13.15,1.5,1.38,6.65,0.15,3.79,34,no_crown_detected
+0151276AR,431562.26,4586310.72,41.7,Platanus × acerifolia,True,TERCERA,Pl Congrés Eucarístic,7.29,0.2,0.56,7.29,0.0,7.82,5,no_crown_detected
+0151277AR,431780.08,4585882.46,35.27,Jacaranda mimosifolia,False,SEGONA,C\ Olesa,6.45,19.2,4.95,3.77,0.434,1.67,433,ok
+0151278AR,431263.49,4586300.99,54.42,Grevillea robusta,False,PRIMERA,C\ Ramon Albó,9.54,2.8,1.87,6.3,0.302,2.39,60,ok
+0151279AR,431327.65,4586090.52,52.98,Platanus × acerifolia,True,SEGONA,Jard Jaume Ferran i Clua,11.95,50.0,7.98,5.11,0.309,2.35,2161,ok
+0151280AR,431719.49,4585953.27,36.57,Magnolia grandiflora,False,SEGONA,C\ Jordi de Sant Jordi,12.88,11.5,3.83,2.72,0.289,2.48,166,ok
+0151281AR,431191.0,4586276.0,57.22,Celtis australis,False,TERCERA,Pg Maragall,9.61,45.0,7.57,6.53,0.281,2.54,1522,ok
+0151282AR,431638.84,4586473.4,41.34,Koelreuteria paniculata 'Fastigiata',False,PRIMERA,C\ Can Ros,5.59,1.2,1.26,3.61,0.316,2.31,54,no_crown_detected
+0151283AR,431567.85,4585809.57,43.18,Koelreuteria paniculata 'Fastigiata',False,SEGONA,Ptge Can Berdura,10.96,11.2,3.78,4.29,0.223,3.0,265,ok
+0151284AR,431431.87,4586033.15,48.52,Platanus × acerifolia,True,SEGONA,C\ Manigua,19.9,110.5,11.86,8.5,0.245,2.81,5064,ok
+0151285AR,431482.19,4586566.32,43.01,Robinia pseudoacacia,False,SEGONA,C\ Riera d'Horta,10.64,25.8,5.73,5.44,0.235,2.89,926,ok
+0151286AR,431737.08,4585924.28,36.28,Brachychiton populneus,False,SEGONA,Pl Rom Cremat,,0.0,0.0,,,,0,no_crown_detected
+0151287AR,431772.34,4586025.61,34.7,Casuarina cunninghamiana,False,SEGONA,C\ Felip II,16.11,13.5,4.15,4.49,0.317,2.3,772,ok
+0151288AR,431426.77,4586562.37,44.09,Ligustrum lucidum,False,SEGONA,C\ Cardenal Tedeschini,15.8,29.0,6.08,4.34,0.295,2.44,820,ok
+0151289AR,431493.95,4586493.3,43.06,Ligustrum lucidum,False,SEGONA,C\ Cardenal Tedeschini,9.45,59.0,8.67,5.52,0.179,3.44,1629,ok
+0151290AR,431324.71,4586326.82,51.47,Robinia pseudoacacia,False,SEGONA,C\ Acàcies,15.16,68.0,9.3,5.62,0.204,3.18,2907,ok
+0151291AR,431629.39,4585845.92,40.73,Koelreuteria paniculata 'Fastigiata',False,SEGONA,C\ Matanzas,10.18,6.8,2.93,5.65,0.229,2.95,131,ok
+0151293AR,431472.51,4586391.26,43.5,Styphnolobium japonicum,False,SEGONA,C\ Espiga,8.37,27.2,5.89,3.54,0.19,3.32,1173,ok
+0151294AR,431737.88,4585953.32,36.22,Handroanthus heptaphyllus,False,PRIMERA,Pl Rom Cremat,,0.0,0.0,,,,0,no_crown_detected
+0151295AR,431319.1,4586087.87,53.21,Celtis australis,False,SEGONA,Pg Maragall,9.72,42.2,7.33,5.86,0.293,2.46,1472,ok
+0151296AR,431503.2,4586438.19,42.89,Styphnolobium japonicum,False,PRIMERA,C\ Espiga,16.97,48.5,7.86,5.57,0.239,2.87,1866,ok
+0151297AR,431585.75,4585747.31,42.61,Casuarina cunninghamiana,False,SEGONA,Pl Maragall,15.59,29.5,6.13,5.6,0.25,2.77,612,ok
+0151298AR,431340.5,4586591.76,45.83,Platanus × acerifolia,True,EXEMPLAR,C\ Riera d'Horta,22.27,121.5,12.44,8.58,0.165,3.61,5051,ok
+0151299AR,431529.4,4585986.29,44.23,Magnolia grandiflora,False,SEGONA,C\ Pinar del Río,11.36,28.8,6.05,4.58,0.297,2.43,1219,ok
+0151301AR,431627.66,4585971.18,40.52,Magnolia grandiflora,False,PRIMERA,C\ Pinar del Río,9.98,18.5,4.85,4.71,0.383,1.92,1054,ok
+0151302AR,431493.03,4585831.83,46.49,Celtis australis,False,SEGONA,Pg Maragall,8.79,29.2,6.1,5.57,0.232,2.92,375,ok
+0151303AR,431486.65,4586528.37,43.22,Melia azedarach,False,PRIMERA,C\ Cardenal Tedeschini,13.48,2.2,1.69,4.21,0.079,5.08,55,ok
+0151304AR,431685.27,4586397.07,40.48,Styphnolobium japonicum,False,PRIMERA,C\ Pardo,10.52,101.8,11.38,2.9,0.38,1.93,4406,ok
+0151305AR,431589.14,4585743.92,42.5,Casuarina cunninghamiana,False,EXEMPLAR,Pl Maragall,10.62,31.2,6.31,4.7,0.254,2.74,684,ok
+0151307AR,431359.27,4586228.7,51.3,Pyrus calleryana 'Chanticleer',False,PRIMERA,Ptge Salvador Riera,8.37,1.2,1.26,2.99,0.424,1.71,51,no_crown_detected
+0151308AR,431303.94,4586506.06,46.16,Styphnolobium japonicum,False,SEGONA,C\ Felip II,10.57,122.0,12.46,4.94,0.189,3.33,4016,ok
+0151309AR,431668.79,4585972.23,38.91,Magnolia grandiflora,False,SEGONA,C\ Pinar del Río,9.68,14.0,4.22,4.8,0.315,2.31,553,ok
+0151310AR,431445.07,4586389.08,44.08,Melia azedarach,False,EXEMPLAR,C\ Felip II,11.83,81.0,10.16,5.68,0.192,3.31,3208,ok
+0151311AR,431496.75,4586414.74,42.98,Styphnolobium japonicum,False,SEGONA,C\ Espiga,8.14,35.2,6.7,4.16,0.316,2.3,1603,ok
+0151315AR,431484.57,4586302.94,42.63,Grevillea robusta,False,SEGONA,Pl Doctor Modrego,6.37,5.8,2.71,3.88,0.113,4.36,190,ok
+0151316AR,431763.02,4586550.99,38.86,Platanus × acerifolia,True,SEGONA,C\ Riera d'Horta,15.77,65.0,9.1,6.36,0.213,3.1,3018,ok
+0151317AR,431774.53,4586166.86,36.08,Platanus × acerifolia,True,EXEMPLAR,C\ Cienfuegos,18.62,61.8,8.87,9.46,0.135,4.01,2530,ok
+0151318AR,431498.66,4586095.23,45.58,Brachychiton populneus,False,PRIMERA,C\ Garcilaso,,0.0,0.0,,,,0,no_crown_detected
+0151321AR,431731.63,4585942.34,36.41,Brachychiton populneus,False,SEGONA,C\ Jordi de Sant Jordi,6.89,11.5,3.83,2.96,0.378,1.95,270,ok
+0151322AR,431636.17,4585905.28,40.37,Koelreuteria paniculata 'Fastigiata',False,SEGONA,C\ Matanzas,12.71,15.2,4.41,4.95,0.213,3.09,361,ok
+0151323AR,431639.45,4585778.49,40.22,Melia azedarach,False,TERCERA,C\ Biscaia,19.81,69.8,9.42,5.17,0.129,4.1,1147,ok
+0151325AR,431188.0,4586283.0,57.3,Celtis australis,False,TERCERA,Pg Maragall,10.29,54.8,8.35,5.53,0.24,2.85,1924,ok
+0151326AR,431725.92,4586096.24,36.92,Casuarina cunninghamiana,False,TERCERA,C\ Felip II,15.19,73.8,9.69,4.97,0.178,3.45,3209,ok
+0151327AR,431426.24,4586073.19,48.56,Platanus × acerifolia,True,TERCERA,C\ Manigua,15.47,59.8,8.72,8.12,0.302,2.39,2650,ok
+0151328AR,431791.23,4585916.33,35.01,Brachychiton populneus,False,SEGONA,Pl Rom Cremat,7.8,22.8,5.38,3.49,0.344,2.13,511,ok
+0151329AR,431488.16,4585990.84,45.92,Magnolia grandiflora,False,PRIMERA,C\ Pinar del Río,6.6,2.2,1.69,3.94,0.348,2.11,56,ok
+0151330AR,431641.24,4586360.13,40.72,Platanus × acerifolia,True,SEGONA,C\ Cardenal Tedeschini,15.72,17.0,4.65,6.77,0.246,2.8,904,ok
+0151331AR,431368.78,4586467.31,44.56,Populus nigra,False,SEGONA,C\ Felip II,17.05,77.0,9.9,5.27,0.149,3.81,3220,ok
+0151332AR,431652.32,4586145.93,38.9,Melia azedarach,False,EXEMPLAR,C\ Felip II,11.95,70.8,9.49,6.14,0.286,2.51,2483,ok
+0151333AR,431264.58,4586266.78,55.24,Grevillea robusta,False,PRIMERA,C\ Ramon Albó,,0.0,0.0,,,,0,no_crown_detected
+0151335AR,431424.46,4585980.18,49.07,Platanus × acerifolia,True,SEGONA,C\ Manigua,8.49,0.8,0.98,7.07,0.417,1.75,25,no_crown_detected
+0151336AR,431333.22,4586593.53,45.91,Platanus × acerifolia,True,SEGONA,C\ Riera d'Horta,19.55,58.2,8.61,10.71,0.306,2.37,2612,ok
+0151337AR,431251.54,4586248.49,55.75,Grevillea robusta,False,PRIMERA,C\ Ramon Albó,5.59,1.2,1.26,2.68,0.463,1.54,70,no_crown_detected
+0151339AR,431642.89,4585954.45,40.11,Koelreuteria paniculata 'Fastigiata',False,SEGONA,C\ Matanzas,11.28,20.8,5.14,4.99,0.127,4.12,401,ok
+0151340AR,431486.09,4585842.43,46.68,Celtis australis,False,SEGONA,Pg Maragall,22.91,38.5,7.0,6.46,0.154,3.75,566,ok
+0151341AR,431459.33,4586567.58,43.41,Platanus × acerifolia,True,SEGONA,C\ Riera d'Horta,12.68,68.0,9.3,7.39,0.38,1.93,2874,ok
+0151343AR,431401.82,4586008.33,49.72,Magnolia grandiflora,False,PRIMERA,C\ Pinar del Río,7.01,11.0,3.74,3.87,0.32,2.28,286,ok
+0151344AR,431365.35,4586528.72,44.48,Melia azedarach,False,SEGONA,C\ Sant Pasqual Bailón,12.06,2.2,1.69,9.41,0.053,5.89,68,ok
+0151345AR,431720.68,4585838.96,37.21,Tipuana tipu,False,SEGONA,Pl Havaneres,12.61,53.2,8.23,4.57,0.257,2.72,864,ok
+0151350AR,431354.19,4586455.23,44.92,Styphnolobium japonicum,False,EXEMPLAR,C\ Felip II,9.86,80.8,10.14,4.93,0.191,3.31,2679,ok
+0151351AR,431620.18,4586073.31,40.74,Brachychiton populneus,False,SEGONA,C\ Garcilaso,6.41,8.0,3.19,3.75,0.472,1.5,376,ok
+0151352AR,431498.36,4586433.54,42.9,Styphnolobium japonicum,False,TERCERA,C\ Espiga,8.74,39.2,7.07,4.3,0.24,2.85,1719,ok
+0151353AR,431439.56,4586004.59,47.92,Magnolia grandiflora,False,PRIMERA,C\ Pinar del Río,6.67,24.0,5.53,3.97,0.371,1.98,716,ok
+0151355AR,431535.25,4586563.58,42.11,Melia azedarach,False,PRIMERA,C\ Riera d'Horta,,0.0,0.0,,,,0,no_crown_detected
+0151357AR,431565.46,4586085.86,42.85,Brachychiton populneus,False,PRIMERA,C\ Garcilaso,5.94,2.8,1.87,3.63,0.329,2.22,168,ok
+0151359AR,431247.0,4586286.0,55.15,Melia azedarach,False,SEGONA,C\ Ramon Albó,5.66,2.0,1.6,5.0,0.294,2.45,41,few_points
+0151360AR,431700.81,4586091.26,37.86,Cercis siliquastrum,False,PRIMERA,C\ Garcilaso,4.05,0.8,0.98,2.65,0.7,0.71,18,no_crown_detected
+0151361AR,431786.66,4585917.2,35.1,Brachychiton populneus,False,SEGONA,Pl Rom Cremat,9.05,47.8,7.8,3.73,0.322,2.27,1131,ok
+0151362AR,431813.58,4586164.41,35.32,Tipuana tipu,False,TERCERA,C\ Concepción Arenal,12.01,54.2,8.31,4.3,0.365,2.02,2427,ok
+0151363AR,431502.75,4586269.3,42.98,Tipuana tipu,False,PRIMERA,Pl Doctor Modrego,6.25,20.2,5.08,3.54,0.401,1.83,782,ok
+0151364AR,431719.25,4585919.24,36.77,Magnolia grandiflora,False,SEGONA,C\ Jordi de Sant Jordi,5.04,5.2,2.59,3.45,0.452,1.59,62,ok
+0151365AR,431289.21,4586521.71,46.55,Melia azedarach,False,EXEMPLAR,C\ Felip II,12.03,88.2,10.6,6.58,0.322,2.26,3396,ok
+0151366AR,431531.37,4585991.33,44.14,Magnolia grandiflora,False,PRIMERA,C\ Pinar del Río,5.67,1.8,1.49,3.28,0.341,2.15,41,no_crown_detected
+0151367AR,431826.86,4586381.13,36.86,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Concepción Arenal,5.8,7.0,2.99,3.07,0.378,1.95,237,ok
+0151369AR,431442.12,4586101.02,48.01,Platanus × acerifolia,True,EXEMPLAR,C\ Manigua,18.55,84.2,10.36,9.25,0.321,2.27,4030,ok
+0151370AR,431516.78,4585993.3,44.83,Magnolia grandiflora,False,PRIMERA,C\ Pinar del Río,17.28,5.8,2.71,4.08,0.358,2.05,122,ok
+0151371AR,431490.19,4586342.24,43.56,Styphnolobium japonicum,False,EXEMPLAR,C\ Felip II,8.39,38.8,7.02,4.04,0.269,2.63,1240,ok
+0151373AR,431678.05,4586470.96,40.9,Koelreuteria paniculata 'Fastigiata',False,SEGONA,C\ Can Ros,13.85,26.0,5.75,2.99,0.268,2.63,887,ok
+0151374AR,431644.21,4586341.17,40.62,Melia azedarach,False,SEGONA,C\ Cardenal Tedeschini,10.51,8.8,3.34,6.4,0.313,2.32,363,ok
+0151375AR,431327.95,4586181.2,53.04,Robinia pseudoacacia 'Bessoniana',False,TERCERA,C\ Acàcies,13.41,58.2,8.61,6.43,0.213,3.1,2853,ok
+0151376AR,431802.27,4586031.86,34.09,Citrus × aurantium,False,PRIMERA,C\ Concepción Arenal,4.43,7.2,3.04,3.32,0.482,1.46,246,ok
+0151377AR,431373.48,4586426.15,44.84,Robinia pseudoacacia,False,SEGONA,Pas Sant Tarsici,24.62,98.0,11.17,5.39,0.248,2.79,4380,ok
+0151378AR,431534.46,4586357.67,42.5,Platanus × acerifolia,True,SEGONA,Pl Congrés Eucarístic,15.97,63.5,8.99,9.07,0.223,3.0,2449,ok
+0151379AR,431360.8,4586587.09,45.44,Platanus × acerifolia,True,EXEMPLAR,C\ Riera d'Horta,21.49,147.8,13.72,8.21,0.208,3.14,7759,ok
+0151380AR,431813.57,4586287.37,36.8,Jacaranda mimosifolia,False,PRIMERA,C\ Cardenal Tedeschini,5.62,11.0,3.74,2.98,0.491,1.42,433,ok
+0151381AR,431748.14,4586121.58,36.38,Magnolia grandiflora,False,SEGONA,C\ Jordi de Sant Jordi,15.41,35.2,6.7,4.26,0.174,3.49,1499,ok
+0151382AR,431277.99,4586605.89,47.03,Melia azedarach,False,SEGONA,C\ Riera d'Horta,13.25,16.8,4.62,6.5,0.153,3.75,372,ok
+0151383AR,431515.12,4586289.33,42.53,Melia azedarach,False,SEGONA,Pl Doctor Modrego,9.8,104.5,11.53,5.92,0.306,2.37,3239,ok
+0151385AR,431500.18,4585824.27,46.43,Platanus × acerifolia,True,TERCERA,Pg Maragall,18.28,102.5,11.42,7.84,0.123,4.19,2108,ok
+0151386AR,431801.73,4585993.56,34.38,Melia azedarach,False,SEGONA,C\ Concepción Arenal,9.64,16.0,4.51,5.77,0.195,3.27,622,ok
+0151387AR,431683.84,4586446.7,40.96,Styphnolobium japonicum,False,SEGONA,C\ Pardo,6.62,11.0,3.74,3.0,0.343,2.14,427,ok
+0151389AR,431398.46,4585970.97,50.37,Celtis australis,False,SEGONA,Pg Maragall,9.73,42.8,7.38,5.53,0.259,2.7,912,ok
+0151390AR,431384.12,4585994.27,50.94,Platanus × acerifolia,True,TERCERA,Pg Maragall,17.2,108.5,11.75,9.01,0.237,2.88,5021,ok
+0151391AR,431682.88,4586220.67,38.72,Platanus × acerifolia,True,EXEMPLAR,C\ Felip Bertran i Güell,17.61,78.0,9.97,9.32,0.221,3.02,3872,ok
+0151393AR,431775.82,4585956.93,35.39,Magnolia grandiflora,False,SEGONA,C\ Pinar del Río,17.4,43.2,7.42,5.55,0.205,3.17,977,ok
+0151394AR,431424.84,4586063.07,48.66,Melia azedarach,False,SEGONA,C\ Manigua,17.02,35.8,6.75,6.48,0.218,3.05,953,ok
+0151395AR,431530.15,4586168.04,43.7,Magnolia grandiflora,False,SEGONA,C\ Francesc Tàrrega,14.76,26.0,5.75,5.69,0.215,3.07,1069,ok
+0151396AR,431564.3,4585981.36,42.56,Magnolia grandiflora,False,SEGONA,C\ Pinar del Río,8.29,21.0,5.17,4.77,0.389,1.89,905,ok
+0151398AR,431333.87,4586196.06,53.01,Robinia pseudoacacia 'Bessoniana',False,PRIMERA,C\ Acàcies,,0.0,0.0,,,,0,no_crown_detected
+0151399AR,431700.52,4586220.39,38.2,Platanus × acerifolia,True,SEGONA,C\ Felip Bertran i Güell,14.43,3.0,1.95,5.63,0.0,7.82,72,ok
+0151400AR,431261.98,4586580.11,47.37,Platanus × acerifolia,True,SEGONA,C\ Arnau d'Oms,11.92,26.8,5.84,6.63,0.381,1.93,929,ok
+0151401AR,431742.38,4585961.66,36.09,Magnolia grandiflora,False,SEGONA,C\ Pinar del Río,6.82,13.0,4.07,3.76,0.322,2.26,307,ok
+0151402AR,431654.34,4585967.42,39.57,Magnolia grandiflora,False,SEGONA,C\ Pinar del Río,9.04,20.2,5.08,4.35,0.336,2.18,797,ok
+0151403AR,431331.47,4586300.47,51.73,Acer monspessulanum,False,PRIMERA,C\ Acàcies,9.77,20.0,5.05,7.21,0.326,2.24,519,ok
+0151405AR,431263.28,4586306.56,54.28,Grevillea robusta,False,PRIMERA,C\ Ramon Albó,20.3,23.5,5.47,6.96,0.221,3.02,1110,ok
+0151407AR,431453.99,4586183.35,46.71,Melia azedarach,False,SEGONA,C\ Manigua,17.17,69.8,9.42,9.03,0.051,5.94,2500,ok
+0151409AR,431539.38,4586195.99,42.55,Celtis australis,False,SEGONA,C\ Alexandre Galí,12.62,30.5,6.23,7.36,0.134,4.02,1074,ok
+0151410AR,431685.06,4586390.15,40.42,Styphnolobium japonicum,False,SEGONA,C\ Pardo,15.6,48.0,7.82,3.84,0.295,2.44,1609,ok
+0151411AR,431587.0,4586476.0,41.85,Populus alba,False,PRIMERA,C\ Can Ros,8.9,13.2,4.11,1.71,0.21,3.12,707,ok
+0151412AR,431624.86,4586277.34,40.45,Pinus pinea,False,SEGONA,C\ Cep,6.17,18.8,4.89,1.92,0.201,3.2,723,ok
+0151413AR,431321.19,4586515.16,45.68,Melia azedarach,False,SEGONA,C\ Felip II,7.54,49.5,7.94,3.48,0.327,2.24,1929,ok
+0151414AR,431425.37,4585987.29,48.87,Platanus × acerifolia,True,SEGONA,C\ Manigua,15.58,94.5,10.97,8.46,0.357,2.06,3809,ok
+0151415AR,431720.47,4585824.79,37.18,Jacaranda mimosifolia,False,PRIMERA,C\ Olesa,5.17,6.2,2.82,3.32,0.504,1.37,135,ok
+0151416AR,431394.12,4586009.4,50.1,Magnolia grandiflora,False,PRIMERA,C\ Pinar del Río,5.49,8.8,3.34,3.72,0.44,1.64,222,ok
+0151417AR,431536.06,4586511.17,42.23,Celtis australis,False,SEGONA,C\ Vèlia,7.84,34.2,6.6,3.76,0.178,3.45,1114,ok
+0151420AR,431638.97,4585925.0,40.21,Koelreuteria paniculata 'Fastigiata',False,SEGONA,C\ Matanzas,11.07,17.5,4.72,5.45,0.277,2.57,383,ok
+0151421AR,431668.13,4585965.72,38.91,Magnolia grandiflora,False,SEGONA,C\ Pinar del Río,9.91,17.2,4.69,4.64,0.293,2.45,574,ok
+0151423AR,431709.61,4585886.0,37.17,Magnolia grandiflora,False,SEGONA,C\ Jordi de Sant Jordi,14.25,21.5,5.23,4.14,0.191,3.31,414,ok
+0151424AR,431816.54,4586319.91,37.03,Jacaranda mimosifolia,False,SEGONA,C\ Cardenal Tedeschini,5.34,17.2,4.69,3.44,0.322,2.27,618,ok
+0151426AR,431493.65,4586411.57,43.1,Styphnolobium japonicum,False,SEGONA,C\ Espiga,7.61,2.2,1.69,3.24,0.37,1.99,124,ok
+0151427AR,431396.51,4586410.65,44.6,Casuarina cunninghamiana,False,SEGONA,C\ Felip II,13.32,11.2,3.78,3.56,0.259,2.7,396,ok
+0151428AR,431658.85,4586293.79,40.19,Pinus halepensis,False,EXEMPLAR,C\ Cep,9.48,40.5,7.18,5.17,0.278,2.56,1557,ok
+0151429AR,431788.13,4586549.25,38.69,Melia azedarach,False,EXEMPLAR,C\ Riera d'Horta,10.21,52.2,8.16,1.91,0.352,2.09,1781,ok
+0151430AR,431334.53,4586171.7,52.84,Robinia pseudoacacia,False,SEGONA,C\ Acàcies,8.6,2.5,1.78,6.1,0.56,1.16,127,ok
+0151431AR,431328.33,4586148.26,52.78,Acer monspessulanum,False,PRIMERA,C\ Acàcies,18.2,4.0,2.26,3.66,0.212,3.1,168,ok
+0151432AR,431450.18,4586233.22,46.16,Platanus × acerifolia,True,EXEMPLAR,C\ Manigua,20.24,112.2,11.95,11.13,0.137,3.98,4894,ok
+0151433AR,431539.77,4586098.17,44.03,Brachychiton populneus,False,SEGONA,C\ Garcilaso,9.22,28.0,5.97,2.2,0.259,2.71,1129,ok
+0151435AR,431265.88,4586218.98,55.8,Grevillea robusta,False,SEGONA,C\ Ramon Albó,9.46,12.2,3.95,4.78,0.256,2.72,326,ok
+0151436AR,431821.16,4586188.35,35.44,Melia azedarach,False,SEGONA,C\ Concepción Arenal,10.96,43.2,7.42,7.09,0.233,2.92,1264,ok
+0151437AR,431803.24,4586456.48,38.32,Acer campestre 'Elsrijk',False,PRIMERA,C\ Can Ros,10.11,30.0,6.18,3.8,0.281,2.54,875,ok
+0151438AR,431523.87,4585992.27,44.48,Magnolia grandiflora,False,PRIMERA,C\ Pinar del Río,20.18,145.8,13.62,5.83,0.223,3.01,4647,ok
+0151439AR,431336.51,4586236.2,52.94,Quercus ilex,False,SEGONA,Ptge Salvador Riera,9.62,51.8,8.12,5.23,0.302,2.39,1903,ok
+0151440AR,431550.56,4586315.46,41.97,Cercis siliquastrum,False,SEGONA,Pl Congrés Eucarístic,4.55,3.5,2.11,3.58,0.466,1.53,88,ok
+0151441AR,431333.6,4586208.25,53.1,Acacia retinodes,False,SEGONA,C\ Acàcies,6.49,13.5,4.15,3.68,0.409,1.79,490,ok
+0151442AR,431388.73,4586219.25,49.57,Melia azedarach,False,SEGONA,Ptge Salvador Riera,12.09,4.8,2.46,6.7,0.255,2.74,182,ok
+0151443AR,431782.82,4585949.11,35.31,Magnolia grandiflora,False,SEGONA,C\ Pinar del Río,10.29,1.2,1.26,5.86,0.188,3.35,32,no_crown_detected
+0151444AR,431649.29,4586335.65,40.51,Platanus × acerifolia,True,SEGONA,C\ Cardenal Tedeschini,14.31,49.2,7.92,7.76,0.234,2.9,2411,ok
+0151446AR,431411.65,4586554.36,44.19,Platanus × acerifolia,True,TERCERA,C\ Sant Pasqual Bailón,18.74,95.2,11.01,7.67,0.157,3.7,4320,ok
+0151447AR,431680.93,4586117.91,38.06,Fraxinus angustifolia,False,SEGONA,C\ Felip II,10.63,85.8,10.45,4.67,0.285,2.51,3802,ok
+0151449AR,431385.96,4586256.08,49.8,Magnolia grandiflora,False,PRIMERA,Ptge Ordi,8.08,9.5,3.48,3.36,0.207,3.15,296,ok
+0151450AR,431559.32,4585811.12,43.48,Koelreuteria paniculata 'Fastigiata',False,SEGONA,Ptge Can Berdura,10.38,18.0,4.79,5.43,0.328,2.23,409,ok
+0151451AR,431591.57,4586560.24,41.09,Melia azedarach,False,PRIMERA,C\ Riera d'Horta,,0.0,0.0,,,,0,no_crown_detected
+0151452AR,431360.72,4586233.75,51.29,Tipuana tipu,False,SEGONA,Ptge Salvador Riera,10.58,69.2,9.39,5.84,0.353,2.08,2380,ok
+0151453AR,431394.34,4586289.13,49.28,Magnolia grandiflora,False,PRIMERA,Ptge Ordi,11.07,16.5,4.58,3.58,0.293,2.45,699,ok
+0151455AR,431366.59,4586419.73,45.2,Robinia pseudoacacia,False,TERCERA,Pas Sant Tarsici,15.03,52.5,8.18,7.71,0.297,2.43,2417,ok
+0151456AR,431477.93,4586286.56,43.92,Tipuana tipu,False,SEGONA,Pl Doctor Modrego,8.99,17.5,4.72,5.55,0.402,1.83,674,ok
+0151457AR,431771.7,4586157.57,35.95,Platanus × acerifolia,True,TERCERA,C\ Cienfuegos,18.54,48.8,7.88,9.44,0.143,3.88,2045,ok
+0151459AR,431330.04,4586377.02,49.37,Robinia pseudoacacia,False,SEGONA,C\ Acàcies,12.72,27.0,5.86,4.6,0.342,2.15,946,ok
+0151460AR,431264.66,4586261.01,55.25,Grevillea robusta,False,SEGONA,C\ Ramon Albó,12.71,17.8,4.75,5.6,0.299,2.41,865,ok
+0151461AR,431795.5,4586002.42,34.37,Casuarina cunninghamiana,False,PRIMERA,C\ Felip II,9.56,14.8,4.33,3.27,0.337,2.18,727,ok
+0151463AR,431808.91,4586096.23,34.44,Melia azedarach,False,EXEMPLAR,C\ Concepción Arenal,14.23,141.0,13.4,6.51,0.263,2.67,5260,ok
+0151464AR,431727.44,4586006.69,36.4,Magnolia grandiflora,False,SEGONA,C\ Jordi de Sant Jordi,12.51,22.5,5.35,4.63,0.226,2.97,859,ok
+0151465AR,431355.27,4586500.29,44.56,Platanus × acerifolia,True,SEGONA,C\ Sant Pasqual Bailón,16.45,74.0,9.71,6.63,0.182,3.41,3357,ok
+0151466AR,431262.23,4586354.14,52.59,Grevillea robusta,False,PRIMERA,C\ Ramon Albó,,0.0,0.0,,,,0,no_crown_detected
+0151467AR,431599.56,4585732.58,42.12,Casuarina cunninghamiana,False,EXEMPLAR,Pl Maragall,18.03,75.5,9.8,5.64,0.183,3.4,1841,ok
+0151468AR,431748.08,4586155.57,36.53,Magnolia grandiflora,False,SEGONA,C\ Jordi de Sant Jordi,16.89,19.0,4.92,3.28,0.233,2.92,603,ok
+0151469AR,431677.41,4586182.99,38.3,Platanus × acerifolia,True,EXEMPLAR,C\ Cienfuegos,17.53,124.0,12.57,7.91,0.187,3.35,5301,ok
+0151470AR,431356.09,4586519.79,44.61,Platanus × acerifolia,True,SEGONA,C\ Sant Pasqual Bailón,12.21,1.5,1.38,2.71,0.152,3.77,61,no_crown_detected
+0151471AR,431381.33,4586236.46,50.12,Magnolia grandiflora,False,SEGONA,Ptge Ordi,17.66,7.5,3.09,3.51,0.269,2.63,294,ok
+0151472AR,431576.09,4586397.34,41.93,Platanus × acerifolia,True,SEGONA,Pl Congrés Eucarístic,9.73,16.5,4.58,5.08,0.373,1.97,624,ok
+0151473AR,431558.95,4586087.39,43.08,Brachychiton populneus,False,SEGONA,C\ Garcilaso,5.1,8.0,3.19,3.57,0.527,1.28,329,ok
+0151474AR,431419.31,4586026.63,48.87,Melia azedarach,False,SEGONA,C\ Manigua,11.17,19.8,5.01,8.27,0.377,1.95,692,ok
+0151475AR,431252.33,4586206.82,56.02,Populus nigra,False,SEGONA,C\ Ramon Albó,15.32,43.0,7.4,5.41,0.337,2.18,2136,ok
+0151476AR,431374.47,4586584.02,45.14,Melia azedarach,False,PRIMERA,C\ Riera d'Horta,3.57,0.8,0.98,3.15,0.545,1.21,11,no_crown_detected
+0151477AR,431673.23,4586463.51,40.96,Koelreuteria paniculata 'Fastigiata',False,PRIMERA,C\ Can Ros,5.63,6.0,2.76,3.17,0.343,2.14,232,ok
+0151478AR,431252.0,4586236.0,55.94,Grevillea robusta,False,PRIMERA,C\ Ramon Albó,9.91,10.2,3.61,4.67,0.309,2.35,476,ok
+0151481AR,431520.01,4586454.54,42.68,Styphnolobium japonicum,False,SEGONA,C\ Espiga,10.04,61.0,8.81,4.66,0.207,3.15,1962,ok
+0151482AR,431618.42,4586086.19,40.76,Brachychiton populneus,False,SEGONA,C\ Garcilaso,6.52,7.5,3.09,3.78,0.492,1.42,332,ok
+0151483AR,431481.23,4586299.32,41.1,Grevillea robusta,False,PRIMERA,Pl Doctor Modrego,2.95,3.8,2.19,2.12,0.0,7.82,60,low_tree
+0151485AR,431790.25,4586006.81,34.42,Casuarina cunninghamiana,False,TERCERA,C\ Felip II,16.88,44.0,7.48,3.62,0.245,2.81,2233,ok
+0151486AR,431360.92,4586447.99,44.92,Melia azedarach,False,SEGONA,C\ Felip II,11.47,65.0,9.1,5.09,0.278,2.56,2586,ok
+0151488AR,431455.1,4585887.92,47.9,Celtis australis,False,SEGONA,Pg Maragall,11.59,68.0,9.3,7.26,0.188,3.34,973,ok
+0151489AR,431332.1,4586286.67,52.02,Robinia pseudoacacia,False,SEGONA,C\ Acàcies,11.71,31.0,6.28,7.93,0.291,2.47,1178,ok
+0151490AR,431704.77,4586224.46,38.17,Platanus × acerifolia,True,EXEMPLAR,C\ Felip Bertran i Güell,17.24,77.0,9.9,9.42,0.202,3.2,3282,ok
+0151491AR,431515.1,4586450.12,42.72,Styphnolobium japonicum,False,SEGONA,C\ Espiga,11.24,62.5,8.92,5.14,0.196,3.26,2112,ok
+0151492AR,431479.49,4586271.69,43.84,Tipuana tipu,False,SEGONA,Pl Doctor Modrego,13.66,65.5,9.13,7.3,0.31,2.34,3271,ok
+0151493AR,431762.32,4586036.06,35.32,Catalpa bignonioides,False,TERCERA,C\ Felip II,9.55,24.0,5.53,5.73,0.234,2.91,767,ok
+0151495AR,431499.2,4586256.26,43.09,Grevillea robusta,False,SEGONA,Pl Doctor Modrego,17.98,66.2,9.18,5.77,0.254,2.74,3229,ok
+0151496AR,431791.48,4585893.38,35.03,Jacaranda mimosifolia,False,SEGONA,C\ Olesa,8.07,48.0,7.82,4.55,0.427,1.7,1110,ok
+0151497AR,431719.41,4586079.23,37.24,Fraxinus pennsylvanica,False,SEGONA,C\ Felip II,6.18,18.8,4.89,3.27,0.479,1.47,761,ok
+0151498AR,431650.19,4586002.09,39.76,Koelreuteria paniculata 'Fastigiata',False,SEGONA,C\ Matanzas,,0.0,0.0,,,,0,no_crown_detected
+0151500AR,431710.87,4585833.74,37.34,Brachychiton acerifolius,False,PRIMERA,Pl Havaneres,5.67,2.8,1.87,2.84,0.188,3.34,69,ok
+0151501AR,431553.28,4586451.43,42.09,Melia azedarach,False,SEGONA,C\ Cardenal Tedeschini,9.55,24.2,5.56,6.75,0.22,3.02,814,ok
+0151502AR,431433.1,4586117.76,48.44,Platanus × acerifolia,True,SEGONA,C\ Manigua,13.58,107.5,11.7,7.45,0.362,2.03,4575,ok
+0151503AR,431279.11,4586534.48,47.01,Pinus halepensis,False,EXEMPLAR,C\ Felip II,11.05,97.5,11.14,6.31,0.276,2.57,3142,ok
+0151504AR,431407.19,4586568.62,44.26,Melia azedarach,False,SEGONA,C\ Sant Pasqual Bailón,13.01,15.8,4.48,5.05,0.138,3.96,414,ok
+0151506AR,431280.23,4586144.28,54.63,Celtis australis,False,SEGONA,Pg Maragall,11.1,58.5,8.63,7.52,0.208,3.14,1612,ok
+0151507AR,431713.27,4585909.25,36.92,Magnolia grandiflora,False,SEGONA,C\ Jordi de Sant Jordi,9.42,23.8,5.5,4.42,0.065,5.45,382,ok
+0151509AR,431390.26,4586272.46,49.57,Magnolia grandiflora,False,SEGONA,Ptge Ordi,6.59,6.8,2.93,4.31,0.364,2.02,265,ok
+0151510AR,431194.0,4586271.0,57.17,Celtis australis,False,TERCERA,Pg Maragall,20.07,47.8,7.8,5.95,0.257,2.72,1827,ok
+0151512AR,431261.84,4586533.78,47.62,Platanus × acerifolia,True,TERCERA,C\ Ramon Albó,17.07,1.2,1.26,5.88,0.317,2.3,78,no_crown_detected
+0151513AR,431505.41,4585813.89,45.93,Celtis australis,False,TERCERA,Pg Maragall,12.65,59.5,8.7,8.12,0.143,3.88,795,ok
+0151515AR,431370.05,4586533.11,44.46,Platanus × acerifolia,True,TERCERA,C\ Sant Pasqual Bailón,16.4,14.8,4.33,10.25,0.139,3.94,523,ok
+0151516AR,431652.26,4586266.89,40.08,Ligustrum lucidum,False,SEGONA,C\ Cep,10.44,6.2,2.82,5.97,0.365,2.02,299,ok
+0151518AR,431717.97,4585848.43,37.28,Tipuana tipu,False,TERCERA,Pl Havaneres,13.95,110.5,11.86,6.07,0.234,2.91,1872,ok
+0151519AR,431513.3,4585802.25,45.6,Celtis australis,False,SEGONA,Pg Maragall,11.09,45.8,7.63,6.05,0.12,4.24,700,ok
+0151523AR,431578.84,4585754.74,42.86,Casuarina cunninghamiana,False,EXEMPLAR,Pl Maragall,17.68,42.0,7.31,6.57,0.179,3.44,819,ok
+0151524AR,431558.07,4585987.53,42.89,Magnolia grandiflora,False,SEGONA,C\ Pinar del Río,14.01,10.8,3.7,3.76,0.258,2.71,320,ok
+0151525AR,431258.0,4586508.71,48.01,Platanus × acerifolia,True,TERCERA,C\ Ramon Albó,18.6,105.5,11.59,10.99,0.266,2.65,4128,ok
+0151526AR,431615.41,4585803.0,41.55,Koelreuteria paniculata 'Fastigiata',False,SEGONA,Ptge Can Berdura,12.86,18.8,4.89,5.14,0.326,2.24,438,ok
+0151527AR,431319.15,4586596.68,46.12,Platanus × acerifolia,True,SEGONA,C\ Riera d'Horta,13.53,29.8,6.15,6.64,0.23,2.94,1127,ok
+0151528AR,431569.33,4586418.41,42.0,Platanus × acerifolia,True,SEGONA,C\ Cardenal Tedeschini,11.36,70.0,9.44,5.26,0.266,2.65,2485,ok
+0151529AR,431609.16,4585804.29,41.71,Koelreuteria paniculata 'Fastigiata',False,PRIMERA,Ptge Can Berdura,9.08,4.5,2.39,3.22,0.306,2.37,121,ok
+0151530AR,431509.32,4585994.64,45.2,Magnolia grandiflora,False,PRIMERA,C\ Pinar del Río,5.34,2.0,1.6,4.11,0.519,1.31,91,ok
+0151531AR,431422.37,4586413.27,44.14,Styphnolobium japonicum,False,EXEMPLAR,C\ Felip II,16.91,2.0,1.6,6.91,0.043,6.27,62,ok
+0151532AR,431729.93,4585994.92,36.4,Magnolia grandiflora,False,SEGONA,C\ Jordi de Sant Jordi,9.44,24.5,5.59,5.04,0.269,2.62,1070,ok
+0151533AR,431661.27,4585966.77,39.24,Magnolia grandiflora,False,SEGONA,C\ Pinar del Río,8.89,31.5,6.33,4.36,0.391,1.88,1164,ok
+0151536AR,431651.95,4586303.76,40.18,Firmiana simplex,False,PRIMERA,C\ Cep,9.61,2.5,1.78,4.29,0.024,7.48,91,ok
+0151537AR,431510.39,4586284.89,42.75,Melia azedarach,False,SEGONA,Pl Doctor Modrego,8.04,13.2,4.11,3.36,0.176,3.48,483,ok
+0151538AR,431690.2,4586510.39,40.12,Catalpa bignonioides,False,PRIMERA,C\ Pardo,5.74,2.0,1.6,3.36,0.167,3.58,81,ok
+0151539AR,431595.15,4585982.67,41.52,Magnolia grandiflora,False,SEGONA,C\ Pinar del Río,8.5,27.2,5.89,4.18,0.331,2.21,1161,ok
+0151540AR,431826.71,4586260.32,36.26,Melia azedarach,False,PRIMERA,C\ Concepción Arenal,7.18,35.0,6.68,3.68,0.307,2.36,964,ok
+0151541AR,431527.69,4586563.7,42.24,Robinia pseudoacacia,False,EXEMPLAR,C\ Riera d'Horta,10.18,58.8,8.65,4.35,0.211,3.11,1857,ok
+0151542AR,431422.29,4585966.41,49.33,Melia azedarach,False,SEGONA,C\ Manigua,12.24,48.8,7.88,6.28,0.191,3.31,801,ok
+0151544AR,431183.0,4586295.0,57.51,Celtis australis,False,TERCERA,Pg Maragall,11.0,51.2,8.08,6.29,0.231,2.93,1947,ok
+0151546AR,431826.9,4586395.21,36.88,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Concepción Arenal,4.62,4.2,2.33,2.35,0.404,1.81,86,ok
+0151547AR,431444.21,4586192.49,46.89,Platanus × acerifolia,True,EXEMPLAR,C\ Manigua,20.35,3.8,2.19,3.98,0.19,3.32,216,ok
+0151548AR,431557.47,4586273.16,41.6,Styphnolobium japonicum,False,TERCERA,C\ Felip II,7.91,35.2,6.7,3.83,0.201,3.21,1441,ok
+0151550AR,431321.73,4586119.4,52.99,Cupressus sempervirens,False,PRIMERA,Jard Jaume Ferran i Clua,,0.0,0.0,,,,0,no_crown_detected
+0151551AR,431632.94,4586193.08,39.59,Cupressus sempervirens,False,TERCERA,C\ Felip II,13.22,31.0,6.28,2.24,0.159,3.68,1076,ok
+0151552AR,431354.94,4586408.35,45.81,Robinia pseudoacacia,False,SEGONA,Pas Sant Tarsici,12.32,40.5,7.18,4.94,0.297,2.43,1445,ok
+0151553AR,431564.15,4586423.71,42.05,Melia azedarach,False,TERCERA,C\ Cardenal Tedeschini,11.08,68.5,9.34,4.64,0.28,2.55,2514,ok
+0151554AR,431732.59,4585930.21,36.49,Brachychiton populneus,False,TERCERA,Pl Rom Cremat,9.23,18.2,4.82,3.58,0.328,2.23,488,ok
+0151555AR,431557.32,4586379.3,42.19,Platanus × acerifolia,True,SEGONA,Pl Congrés Eucarístic,14.49,58.0,8.59,7.92,0.239,2.86,2590,ok
+0151556AR,431687.31,4586224.74,38.68,Platanus × acerifolia,True,TERCERA,C\ Felip Bertran i Güell,14.9,3.8,2.19,11.57,0.381,1.93,151,ok
+0151557AR,431659.09,4586270.37,40.29,Pinus pinea,False,EXEMPLAR,C\ Cep,13.09,109.2,11.79,5.73,0.223,3.0,4520,ok
+0151558AR,431580.66,4586402.85,42.0,Platanus × acerifolia,True,SEGONA,Pl Congrés Eucarístic,11.55,18.2,4.82,6.21,0.296,2.43,662,ok
+0151559AR,431471.35,4586280.15,44.19,Tipuana tipu,False,SEGONA,Pl Doctor Modrego,13.46,134.2,13.07,6.84,0.237,2.88,5432,ok
+0151560AR,431673.13,4586164.54,38.55,Robinia pseudoacacia,False,SEGONA,C\ Cienfuegos,13.35,144.5,13.56,5.47,0.266,2.65,7296,ok
+0151561AR,431835.1,4586528.88,38.05,Melia azedarach,False,SEGONA,C\ Concepción Arenal,9.35,52.0,8.14,4.79,0.279,2.56,1888,ok
+0151562AR,431549.67,4586546.5,41.86,Celtis australis,False,SEGONA,C\ Vèlia,10.31,62.8,8.94,4.69,0.161,3.65,2523,ok
+0151563AR,431326.84,4586076.21,52.88,Celtis australis,False,SEGONA,Pg Maragall,9.94,46.0,7.65,5.63,0.357,2.06,1839,ok
+0151564AR,431686.82,4586206.71,38.34,Platanus × acerifolia,True,TERCERA,C\ Felip Bertran i Güell,18.29,72.2,9.59,8.52,0.245,2.81,3334,ok
+0151565AR,431525.33,4586522.06,42.39,Robinia pseudoacacia,False,SEGONA,C\ Vèlia,16.64,41.2,7.25,4.74,0.206,3.16,1701,ok
+0151567AR,431564.07,4586470.24,42.02,Populus alba,False,SEGONA,C\ Can Ros,11.72,25.8,5.73,5.08,0.225,2.99,960,ok
+0151568AR,431366.84,4586017.19,51.54,Celtis australis,False,SEGONA,Pg Maragall,11.7,84.8,10.39,6.47,0.218,3.05,2595,ok
+0151569AR,431621.17,4585972.15,40.71,Magnolia grandiflora,False,SEGONA,C\ Pinar del Río,10.03,30.5,6.23,4.3,0.331,2.21,1428,ok
+0151570AR,431761.41,4585864.82,35.72,Jacaranda mimosifolia,False,SEGONA,C\ Olesa,5.23,12.8,4.03,3.27,0.479,1.47,282,ok
+0151572AR,431415.43,4586419.43,44.2,Casuarina cunninghamiana,False,SEGONA,C\ Felip II,15.07,82.8,10.26,6.49,0.13,4.07,3566,ok
+0151573AR,431687.56,4586456.32,40.81,Styphnolobium japonicum,False,SEGONA,C\ Pardo,11.73,80.8,10.14,5.02,0.316,2.3,3805,ok
+0151574AR,431687.05,4586437.68,40.67,Styphnolobium japonicum,False,SEGONA,C\ Pardo,6.36,34.8,6.65,3.46,0.303,2.39,1121,ok
+0151575AR,431261.72,4586366.31,52.02,Quercus robur 'Fastigiata',False,PRIMERA,C\ Ramon Albó,,0.0,0.0,,,,0,no_crown_detected
+0151577AR,431733.63,4585954.05,36.32,Handroanthus heptaphyllus,False,PRIMERA,Pl Rom Cremat,4.01,3.5,2.11,3.21,0.552,1.19,67,ok
+0151578AR,431831.64,4586491.31,37.68,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Concepción Arenal,5.34,5.2,2.59,2.8,0.429,1.69,178,ok
+0151580AR,431468.37,4585993.55,46.63,Magnolia grandiflora,False,PRIMERA,C\ Pinar del Río,8.66,18.8,4.89,4.34,0.379,1.94,948,ok
+0151581AR,431782.64,4586037.29,34.78,Casuarina cunninghamiana,False,SEGONA,C\ Felip II,11.34,4.5,2.39,4.36,0.255,2.73,165,ok
+0151582AR,431433.32,4586204.26,47.33,Pyrus calleryana 'Chanticleer',False,PRIMERA,Ptge Salvador Riera,16.83,1.8,1.49,9.96,0.286,2.51,40,no_crown_detected
+0151583AR,431780.12,4586156.03,35.82,Platanus × acerifolia,True,EXEMPLAR,C\ Cienfuegos,18.24,62.5,8.92,10.38,0.176,3.48,2714,ok
+0151584AR,431377.85,4586456.98,44.47,Melia azedarach,False,SEGONA,C\ Felip II,13.92,91.2,10.78,6.27,0.149,3.81,3811,ok
+0151586AR,431392.7,4586283.59,49.41,Magnolia grandiflora,False,SEGONA,Ptge Ordi,9.26,12.2,3.95,3.39,0.381,1.93,482,ok
+0151587AR,431460.6,4585994.51,46.88,Magnolia grandiflora,False,PRIMERA,C\ Pinar del Río,7.11,1.5,1.38,3.0,0.243,2.83,64,no_crown_detected
+0151589AR,431482.02,4585848.28,46.85,Celtis australis,False,SEGONA,Pg Maragall,10.63,52.0,8.14,6.67,0.131,4.06,708,ok
+0151590AR,431785.72,4586011.43,34.45,Catalpa bignonioides,False,TERCERA,C\ Felip II,10.31,60.0,8.74,4.99,0.332,2.21,2918,ok
+0151592AR,431368.25,4586512.55,44.51,Platanus × acerifolia,True,TERCERA,C\ Sant Pasqual Bailón,15.36,1.2,1.26,9.02,0.233,2.91,59,no_crown_detected
+0151594AR,431726.96,4585925.57,36.59,Brachychiton populneus,False,SEGONA,Pl Rom Cremat,,0.0,0.0,,,,0,no_crown_detected
+0151595AR,431577.89,4586251.75,41.03,Melia azedarach,False,SEGONA,C\ Felip II,9.81,2.8,1.87,4.35,0.0,7.82,132,ok
+0151598AR,431703.79,4586087.7,37.76,Cercis siliquastrum,False,SEGONA,C\ Garcilaso,6.33,34.8,6.65,2.87,0.268,2.63,1247,ok
+0151600AR,431684.72,4586378.42,40.4,Styphnolobium japonicum,False,SEGONA,C\ Pardo,9.58,70.2,9.46,3.59,0.265,2.66,3132,ok
+0151601AR,431516.5,4586125.56,44.84,Magnolia grandiflora,False,SEGONA,C\ Francesc Tàrrega,14.96,21.2,5.2,3.96,0.233,2.92,683,ok
+0151602AR,431250.0,4586300.0,54.79,Grevillea robusta,False,PRIMERA,C\ Ramon Albó,6.73,6.2,2.82,3.16,0.337,2.17,315,ok
+0151604AR,431719.32,4585832.43,37.22,Brachychiton acerifolius,False,PRIMERA,C\ Olesa,5.11,6.0,2.76,3.22,0.537,1.25,123,ok
+0151606AR,431755.61,4586169.85,36.51,Platanus × acerifolia,True,TERCERA,C\ Cienfuegos,20.46,116.0,12.15,10.65,0.234,2.91,5989,ok
+0151607AR,431434.14,4586209.63,47.26,Jacaranda mimosifolia,False,SEGONA,Ptge Salvador Riera,7.67,0.2,0.56,7.4,0.25,2.77,12,no_crown_detected
+0151608AR,431666.43,4586267.62,39.96,Eriobotrya japonica,False,PRIMERA,C\ Cep,2.83,2.0,1.6,1.87,0.553,1.18,67,low_tree
+0151609AR,431680.1,4586143.2,38.11,Catalpa bignonioides,False,SEGONA,C\ Felip II,7.86,65.2,9.11,4.56,0.424,1.72,2134,ok
+0151610AR,431765.71,4586458.82,39.14,Acer campestre,False,PRIMERA,C\ Can Ros,10.18,62.2,8.9,4.53,0.261,2.68,2233,ok
+0151611AR,431431.6,4586401.7,43.99,Melia azedarach,False,TERCERA,C\ Felip II,10.57,68.0,9.3,5.46,0.093,4.74,2292,ok
+0151612AR,431648.6,4586300.19,40.31,Pinus halepensis,False,EXEMPLAR,C\ Cep,13.8,95.5,11.03,6.56,0.189,3.33,3286,ok
+0151613AR,431650.58,4586464.88,41.19,Koelreuteria paniculata 'Fastigiata',False,PRIMERA,C\ Can Ros,6.12,18.0,4.79,3.28,0.267,2.64,381,ok
+0151614AR,431518.45,4586483.4,42.52,Ligustrum lucidum,False,PRIMERA,C\ Cardenal Tedeschini,25.52,19.5,4.98,4.05,0.291,2.47,624,ok
+0151616AR,431771.54,4585919.37,35.38,Brachychiton populneus,False,SEGONA,Pl Rom Cremat,6.65,17.8,4.75,3.53,0.367,2.0,395,ok
+0151617AR,431545.47,4586086.96,43.75,Brachychiton populneus,False,TERCERA,C\ Garcilaso,7.75,18.0,4.79,4.53,0.401,1.83,890,ok
+0151618AR,431488.76,4586307.04,43.16,Grevillea robusta,False,SEGONA,Pl Doctor Modrego,15.25,41.8,7.29,6.76,0.23,2.94,2263,ok
+0151619AR,431248.0,4586269.0,55.41,Melia azedarach,False,PRIMERA,C\ Ramon Albó,6.08,7.0,2.99,4.44,0.236,2.88,102,ok
+0151620AR,431565.32,4586561.57,41.56,Melia azedarach,False,PRIMERA,C\ Riera d'Horta,,0.0,0.0,,,,0,no_crown_detected
+0151621AR,431547.68,4586457.44,42.16,Platanus × acerifolia,True,SEGONA,C\ Cardenal Tedeschini,14.92,28.2,6.0,7.5,0.22,3.03,1117,ok
+0151622AR,431497.57,4586489.57,43.03,Citrus × aurantium,False,PRIMERA,C\ Cardenal Tedeschini,3.95,4.8,2.46,1.6,0.32,2.28,77,ok
+0151623AR,431563.34,4586239.3,41.18,Cupressus sempervirens,False,TERCERA,C\ Felip II,18.17,68.5,9.34,5.4,0.188,3.34,2442,ok
+0151624AR,431395.64,4586294.86,49.14,Magnolia grandiflora,False,SEGONA,Ptge Ordi,10.8,18.0,4.79,3.69,0.179,3.44,707,ok
+0151626AR,431593.0,4586468.0,41.72,Koelreuteria paniculata 'Fastigiata',False,PRIMERA,C\ Can Ros,16.72,109.8,11.82,4.74,0.222,3.01,5455,ok
+0151627AR,431519.09,4586284.96,42.4,Melia azedarach,False,SEGONA,Pl Doctor Modrego,8.74,2.5,1.78,7.66,0.257,2.72,71,ok
+0151628AR,431383.43,4586220.88,49.91,Melia azedarach,False,SEGONA,Ptge Salvador Riera,11.47,39.8,7.11,7.04,0.326,2.24,1668,ok
+0151629AR,431675.78,4585971.31,38.59,Magnolia grandiflora,False,SEGONA,C\ Pinar del Río,9.61,31.8,6.36,4.78,0.293,2.46,1070,ok
+0151630AR,431327.95,4586175.02,52.96,Robinia pseudoacacia,False,SEGONA,C\ Acàcies,12.95,76.2,9.85,6.32,0.333,2.2,3672,ok
+0151631AR,431511.26,4586293.6,42.61,Melia azedarach,False,SEGONA,Pl Doctor Modrego,10.24,121.0,12.41,5.36,0.234,2.91,4032,ok
+0151632AR,431626.46,4586466.32,41.45,Koelreuteria paniculata 'Fastigiata',False,SEGONA,C\ Can Ros,12.72,63.0,8.96,3.54,0.288,2.49,2693,ok
+0151633AR,431554.9,4586275.94,41.68,Styphnolobium japonicum,False,TERCERA,C\ Felip II,7.19,3.5,2.11,4.12,0.048,6.06,115,ok
+0151635AR,431489.91,4586565.93,42.85,Robinia pseudoacacia,False,SEGONA,C\ Riera d'Horta,10.37,29.8,6.15,4.92,0.272,2.61,1056,ok
+0151636AR,431497.3,4586565.55,42.74,Quercus robur 'Fastigiata',False,PRIMERA,C\ Riera d'Horta,2.86,1.2,1.26,2.49,0.45,1.6,20,no_crown_detected
+0151637AR,431252.31,4586224.02,56.12,Grevillea robusta,False,PRIMERA,C\ Ramon Albó,13.78,53.2,8.23,3.64,0.234,2.9,2540,ok
+0151638AR,431340.77,4586505.72,44.82,Platanus × acerifolia,True,EXEMPLAR,C\ Sant Pasqual Bailón,14.56,15.5,4.44,8.85,0.213,3.09,653,ok
+0151639AR,431575.14,4586254.88,41.17,Styphnolobium japonicum,False,EXEMPLAR,C\ Felip II,9.63,40.2,7.16,3.64,0.129,4.09,1380,ok
+0151642AR,431649.78,4585778.18,39.76,Melia azedarach,False,SEGONA,C\ Biscaia,19.44,68.8,9.36,4.99,0.057,5.73,1036,ok
+0151643AR,431514.65,4586271.64,41.34,Grevillea robusta,False,SEGONA,Pl Doctor Modrego,9.31,9.0,3.39,3.99,0.145,3.86,427,ok
+0151645AR,431468.85,4586287.51,44.29,Grevillea robusta,False,SEGONA,Pl Doctor Modrego,14.7,45.0,7.57,6.17,0.282,2.53,2008,ok
+0151646AR,431266.12,4586206.94,55.78,Grevillea robusta,False,SEGONA,C\ Ramon Albó,11.01,20.2,5.08,5.17,0.271,2.61,706,ok
+0151647AR,431737.18,4585853.27,36.51,Tilia x europaea,False,PRIMERA,Pl Havaneres,5.73,11.0,3.74,2.68,0.39,1.88,228,ok
+0151648AR,431817.19,4586298.14,36.93,Jacaranda mimosifolia,False,PRIMERA,C\ Cardenal Tedeschini,9.32,6.2,2.82,2.93,0.275,2.58,238,ok
+0151651AR,431447.72,4586215.6,46.41,Platanus × acerifolia,True,EXEMPLAR,C\ Manigua,16.74,2.0,1.6,13.3,0.0,7.82,51,ok
+0151653AR,431464.99,4586384.32,43.68,Styphnolobium japonicum,False,PRIMERA,C\ Espiga,7.66,5.2,2.59,2.99,0.114,4.35,168,ok
+0151655AR,431202.05,4586259.05,57.0,Celtis australis,False,TERCERA,Pg Maragall,9.58,93.0,10.88,5.97,0.219,3.03,2747,ok
+0151656AR,431475.25,4586276.0,44.0,Tipuana tipu,False,SEGONA,Pl Doctor Modrego,10.94,2.0,1.6,7.97,0.37,1.99,98,ok
+0151657AR,431534.17,4586492.2,42.34,Celtis australis,False,SEGONA,C\ Vèlia,8.32,45.2,7.59,4.43,0.279,2.55,1396,ok
+0151658AR,431430.47,4586101.21,48.53,Platanus × acerifolia,True,SEGONA,C\ Manigua,14.8,49.0,7.9,8.61,0.309,2.35,2274,ok
+0151659AR,431277.15,4586466.55,48.89,Quercus robur 'Fastigiata',False,PRIMERA,C\ Ramon Albó,,0.0,0.0,,,,0,no_crown_detected
+0151660AR,431554.5,4586434.02,42.09,Platanus × acerifolia,True,SEGONA,C\ Cardenal Tedeschini,11.97,67.8,9.29,4.39,0.257,2.72,2799,ok
+0151661AR,431748.67,4586171.01,36.66,Platanus × acerifolia,True,EXEMPLAR,C\ Cienfuegos,16.53,2.0,1.6,12.17,0.175,3.49,84,ok
+0151662AR,431282.58,4586529.44,46.85,Melia azedarach,False,SEGONA,C\ Felip II,9.76,56.2,8.46,5.52,0.263,2.67,1877,ok
+0151664AR,431441.86,4586176.94,47.22,Platanus × acerifolia,True,SEGONA,C\ Manigua,16.29,3.0,1.95,8.08,0.256,2.73,157,ok
+0151665AR,431410.57,4586212.03,48.5,Tipuana tipu,False,EXEMPLAR,Ptge Salvador Riera,18.45,62.2,8.9,12.89,0.26,2.69,2779,ok
+0151666AR,431823.33,4586205.16,35.66,Melia azedarach,False,PRIMERA,C\ Concepción Arenal,10.6,38.8,7.02,4.89,0.349,2.1,1445,ok
+0151667AR,431263.95,4586462.18,49.09,Quercus robur 'Fastigiata',False,PRIMERA,C\ Ramon Albó,,0.0,0.0,,,,0,no_crown_detected
+0151668AR,431788.22,4586165.1,35.76,Platanus × acerifolia,True,SEGONA,C\ Cienfuegos,16.3,73.0,9.64,8.57,0.077,5.12,2942,ok
+0151669AR,431657.78,4586052.76,39.28,Koelreuteria paniculata 'Fastigiata',False,SEGONA,C\ Matanzas,12.93,27.0,5.86,4.99,0.288,2.49,1169,ok
+0151670AR,431659.16,4586310.36,40.3,Pinus halepensis,False,EXEMPLAR,C\ Cep,18.47,148.0,13.73,9.58,0.24,2.85,5501,ok
+0151671AR,431432.12,4586005.57,48.38,Magnolia grandiflora,False,PRIMERA,C\ Pinar del Río,19.86,7.2,3.04,3.53,0.35,2.1,192,ok
+0151672AR,431634.82,4585895.2,40.41,Koelreuteria paniculata 'Fastigiata',False,SEGONA,C\ Matanzas,,0.0,0.0,,,,0,no_crown_detected
+0151673AR,431548.76,4586537.26,41.88,Celtis australis,False,SEGONA,C\ Vèlia,8.48,69.2,9.39,4.37,0.209,3.13,2275,ok
+0151675AR,431531.01,4585778.98,45.0,Platanus × acerifolia,True,EXEMPLAR,Pg Maragall,24.82,215.8,16.57,12.77,0.127,4.12,5354,ok
+0151677AR,431821.4,4586323.55,36.87,Jacaranda mimosifolia,False,PRIMERA,C\ Cardenal Tedeschini,,0.0,0.0,,,,0,no_crown_detected
+0151678AR,431724.58,4586552.86,39.29,Melia azedarach,False,SEGONA,C\ Riera d'Horta,6.93,45.5,7.61,4.01,0.371,1.98,1656,ok
+0151679AR,431826.48,4586367.94,36.8,Melia azedarach,False,PRIMERA,C\ Concepción Arenal,6.76,6.0,2.76,3.68,0.376,1.95,249,ok
+0151681AR,431739.13,4586089.76,36.6,Magnolia grandiflora,False,SEGONA,C\ Jordi de Sant Jordi,8.41,31.5,6.33,3.88,0.324,2.26,1454,ok
+0151682AR,431622.92,4585978.86,40.67,Magnolia grandiflora,False,PRIMERA,C\ Pinar del Río,7.99,1.5,1.38,4.49,0.256,2.73,43,no_crown_detected
+0151683AR,431386.59,4586241.01,49.76,Magnolia grandiflora,False,PRIMERA,Ptge Ordi,14.72,17.0,4.65,4.54,0.211,3.11,658,ok
+0151685AR,431690.08,4586108.5,37.94,Fraxinus pennsylvanica,False,SEGONA,C\ Felip II,9.82,55.0,8.37,4.74,0.3,2.41,2332,ok
+0151686AR,431260.73,4586539.32,47.51,Quercus robur 'Fastigiata',False,PRIMERA,C\ Ramon Albó,18.0,117.2,12.22,8.83,0.305,2.37,5708,ok
+0151687AR,431460.66,4586372.89,43.87,Melia azedarach,False,SEGONA,C\ Felip II,8.41,70.5,9.47,2.36,0.162,3.64,2693,ok
+0151690AR,431506.26,4586289.38,42.86,Melia azedarach,False,SEGONA,Pl Doctor Modrego,7.77,15.2,4.41,3.42,0.395,1.86,585,ok
+0151692AR,431755.53,4586281.87,38.11,Firmiana simplex,False,SEGONA,Pl Cardenal Cicognani,6.27,14.5,4.3,4.86,0.354,2.08,383,ok
+0151693AR,431624.59,4586202.54,39.71,Styphnolobium japonicum,False,SEGONA,C\ Felip II,10.81,55.2,8.39,4.86,0.16,3.66,1964,ok
+0151694AR,431754.56,4585953.37,35.85,Magnolia grandiflora,False,SEGONA,C\ Pinar del Río,8.37,24.0,5.53,4.31,0.287,2.5,519,ok
+0151696AR,431431.97,4585998.55,48.35,Magnolia grandiflora,False,PRIMERA,C\ Pinar del Río,6.62,13.0,4.07,3.84,0.413,1.77,535,ok
+0151697AR,431404.8,4586213.76,48.77,Pyrus calleryana 'Chanticleer',False,PRIMERA,Ptge Salvador Riera,16.53,9.2,3.43,12.87,0.121,4.23,273,ok
+0151698AR,431391.31,4585981.7,50.54,Celtis australis,False,SEGONA,Pg Maragall,9.07,25.0,5.64,5.91,0.371,1.98,911,ok
+0151700AR,431655.53,4586073.31,39.23,Brachychiton populneus,False,TERCERA,C\ Garcilaso,7.1,41.0,7.23,3.24,0.429,1.69,1909,ok
+0151702AR,431596.33,4586249.33,40.6,Firmiana simplex,False,SEGONA,C\ Cep,8.45,12.8,4.03,4.24,0.231,2.93,486,ok
+0151704AR,431366.9,4586231.67,51.06,Cercis siliquastrum,False,SEGONA,Ptge Salvador Riera,7.81,5.5,2.65,4.03,0.362,2.03,178,ok
+0151705AR,431634.0,4586286.37,40.44,Firmiana simplex,False,EXEMPLAR,C\ Cep,12.66,103.0,11.45,5.09,0.216,3.07,4633,ok
+0151706AR,431490.24,4586282.29,43.4,Tipuana tipu,False,SEGONA,Pl Doctor Modrego,9.27,40.0,7.14,4.73,0.456,1.57,2008,ok
+0151707AR,431791.51,4585954.85,35.08,Magnolia grandiflora,False,SEGONA,C\ Pinar del Río,16.78,49.5,7.94,5.76,0.183,3.4,1196,ok
+0151708AR,431646.8,4586354.32,40.62,Platanus × acerifolia,True,EXEMPLAR,C\ Cardenal Tedeschini,18.96,150.8,13.85,8.23,0.205,3.17,7881,ok
+0151709AR,431474.07,4586566.97,43.2,Melia azedarach,False,PRIMERA,C\ Riera d'Horta,,0.0,0.0,,,,0,no_crown_detected
+0151710AR,431497.43,4586289.56,43.09,Melia azedarach,False,SEGONA,Pl Doctor Modrego,5.48,9.8,3.52,4.06,0.538,1.24,378,ok
+0151711AR,431528.42,4586351.45,42.54,Platanus × acerifolia,True,SEGONA,Pl Congrés Eucarístic,11.76,1.5,1.38,9.95,0.364,2.02,47,no_crown_detected
+0212706AR,431565.77,4585674.56,43.19,Jacaranda mimosifolia,False,SEGONA,Pl Maragall,8.03,38.0,6.96,5.21,0.47,1.51,1837,ok
+0212871AR,431578.72,4585714.21,43.1,Styphnolobium japonicum 'Columnare',False,SEGONA,Pl Maragall,8.32,103.5,11.48,3.82,0.257,2.72,2001,ok
+0212913AR,431569.14,4585703.83,43.16,Tipuana tipu,False,SEGONA,Pl Maragall,9.42,103.8,11.49,4.11,0.286,2.5,3708,ok
+0213126AR,431584.19,4585692.97,42.57,Jacaranda mimosifolia,False,SEGONA,Pl Maragall,6.4,19.2,4.95,3.95,0.496,1.4,875,ok
+0213162AR,431563.98,4585727.44,43.49,Styphnolobium japonicum 'Columnare',False,SEGONA,Pl Maragall,8.76,68.2,9.32,4.4,0.172,3.52,1217,ok
+0213185AR,431559.91,4585761.45,43.83,Schinus molle,False,PRIMERA,Pl Maragall,9.86,86.0,10.46,3.75,0.252,2.76,2087,ok
+0213195AR,431551.92,4585748.35,44.13,Quercus ilex,False,SEGONA,Pl Maragall,6.32,22.0,5.29,3.91,0.356,2.06,376,ok
+0213224AR,431574.37,4585717.39,43.43,Styphnolobium japonicum 'Columnare',False,SEGONA,Pl Maragall,5.35,20.0,5.05,2.4,0.351,2.09,387,ok
+0213292AR,431603.74,4585711.78,41.91,Jacaranda mimosifolia,False,SEGONA,Pl Maragall,7.09,15.5,4.44,4.59,0.456,1.57,391,ok
+0213446AR,431568.3,4585711.65,43.27,Tipuana tipu,False,SEGONA,Pl Maragall,7.52,39.8,7.11,3.66,0.302,2.39,769,ok
+0213485AR,431575.33,4585722.28,43.38,Styphnolobium japonicum 'Columnare',False,SEGONA,Pl Maragall,6.27,20.2,5.08,3.75,0.333,2.2,406,ok
+0213593AR,431585.52,4585732.13,42.81,Jacaranda mimosifolia,False,SEGONA,Pl Maragall,6.99,15.8,4.48,3.46,0.432,1.68,352,ok
+0213621AR,431591.06,4585699.46,42.38,Jacaranda mimosifolia,False,SEGONA,Pl Maragall,9.06,41.5,7.27,5.17,0.428,1.7,1976,ok
+0213647AR,431571.03,4585680.3,43.03,Jacaranda mimosifolia,False,SEGONA,Pl Maragall,8.0,31.2,6.31,5.29,0.459,1.56,1417,ok
+0213655AR,431569.03,4585686.59,43.13,Tipuana tipu,False,SEGONA,Pl Maragall,9.06,86.5,10.49,4.0,0.298,2.42,3116,ok
+0213899AR,431559.32,4585747.35,43.83,Quercus ilex,False,SEGONA,Pl Maragall,7.56,31.8,6.36,2.95,0.204,3.18,539,ok
+0213938AR,431591.72,4585717.36,42.42,Jacaranda mimosifolia,False,PRIMERA,Pl Maragall,9.31,37.5,6.91,4.37,0.33,2.22,1048,ok
+0214084AR,431554.77,4585762.42,43.97,Styphnolobium japonicum 'Columnare',False,SEGONA,Pl Maragall,7.57,89.5,10.67,2.96,0.21,3.12,1536,ok
+0214202AR,431577.55,4585686.23,42.77,Jacaranda mimosifolia,False,SEGONA,Pl Maragall,6.9,20.2,5.08,4.23,0.457,1.57,991,ok
+0214361AR,431574.56,4585709.97,42.87,Styphnolobium japonicum,False,SEGONA,Pl Maragall,4.51,0.2,0.56,4.51,0.667,0.81,3,no_crown_detected
+0214397AR,431589.34,4585725.07,42.65,Styphnolobium japonicum,False,SEGONA,Pl Maragall,7.76,55.0,8.37,3.6,0.236,2.88,1053,ok
+0214411AR,431569.26,4585729.5,43.66,Styphnolobium japonicum 'Columnare',False,SEGONA,Pl Maragall,7.94,26.0,5.75,4.38,0.213,3.09,478,ok
+0214475AR,431597.9,4585706.15,42.1,Jacaranda mimosifolia,False,SEGONA,Pl Maragall,22.91,74.2,9.72,6.37,0.355,2.07,3156,ok
+0214533AR,431558.7,4585689.34,43.55,Tipuana tipu,False,TERCERA,Pl Maragall,11.21,134.0,13.06,4.8,0.267,2.64,4993,ok
+0214552AR,431564.12,4585683.03,43.28,Tipuana tipu,False,SEGONA,Pl Maragall,7.57,32.5,6.43,4.32,0.234,2.91,1090,ok
+0214714AR,431557.98,4585724.05,43.79,Tipuana tipu,False,SEGONA,Pl Maragall,11.4,105.2,11.58,3.32,0.211,3.11,1661,ok
+0214775AR,431564.44,4585718.93,43.52,Tipuana tipu,False,SEGONA,Pl Maragall,7.08,33.0,6.48,3.73,0.308,2.36,647,ok
+0214784AR,431599.4,4585718.04,42.12,Tipuana tipu,False,SEGONA,Pl Maragall,9.87,94.0,10.94,4.75,0.239,2.86,1791,ok
+0214791AR,431572.95,4585696.48,43.05,Styphnolobium japonicum 'Columnare',False,SEGONA,Pl Maragall,7.69,35.0,6.68,4.12,0.331,2.21,1340,ok
+0214802AR,431565.69,4585695.77,43.3,Tipuana tipu,False,SEGONA,Pl Maragall,7.78,58.8,8.65,3.83,0.366,2.01,2223,ok
+0214880AR,431597.22,4585726.11,42.23,Tipuana tipu,False,SEGONA,Pl Maragall,13.84,12.2,3.95,4.87,0.23,2.94,239,ok
+0214914AR,431574.76,4585703.15,42.98,Styphnolobium japonicum 'Columnare',False,SEGONA,Pl Maragall,7.3,12.2,3.95,3.98,0.502,1.38,557,ok
+0214939AR,431565.94,4585744.58,43.43,Quercus ilex,False,SEGONA,Pl Maragall,7.53,34.2,6.6,3.75,0.255,2.73,612,ok
+0257168AR,431323.13,4586105.51,53.42,Pinus halepensis,False,EXEMPLAR,Jard Jaume Ferran i Clua,14.39,158.5,14.21,5.49,0.233,2.91,5972,ok
+0287656AR,431375.53,4586120.54,50.66,Brachychiton populneus,False,SEGONA,C\ Garcilaso,7.57,12.0,3.91,2.68,0.426,1.71,547,ok
+0287657AR,431368.29,4586121.63,51.0,Brachychiton populneus,False,SEGONA,C\ Garcilaso,,0.0,0.0,,,,0,no_crown_detected
+0287658AR,431361.6,4586122.53,51.28,Brachychiton populneus,False,SEGONA,C\ Garcilaso,6.03,24.8,5.61,2.28,0.363,2.02,1023,ok
+0287659AR,431408.8,4586115.48,49.35,Brachychiton populneus,False,SEGONA,C\ Garcilaso,,0.0,0.0,,,,0,no_crown_detected
+0287660AR,431391.62,4586118.19,50.06,Brachychiton populneus,False,SEGONA,C\ Garcilaso,6.31,0.2,0.56,6.31,0.5,1.39,5,no_crown_detected
+0287661AR,431383.12,4586119.82,50.33,Brachychiton populneus,False,PRIMERA,C\ Garcilaso,11.68,53.5,8.25,3.95,0.318,2.29,2616,ok
+0287662AR,431353.1,4586123.98,51.62,Brachychiton populneus,False,SEGONA,C\ Garcilaso,,0.0,0.0,,,,0,no_crown_detected
+0287663AR,431418.74,4586114.22,48.95,Brachychiton populneus,False,SEGONA,C\ Garcilaso,,0.0,0.0,,,,0,no_crown_detected
+0287664AR,431499.21,4586102.47,45.64,Brachychiton populneus,False,SEGONA,C\ Garcilaso,8.14,10.2,3.61,4.63,0.44,1.64,268,ok
+0287665AR,431490.16,4586104.09,46.03,Brachychiton populneus,False,SEGONA,C\ Garcilaso,15.86,8.0,3.19,3.51,0.298,2.42,237,ok
+0287666AR,431482.57,4586104.82,46.34,Brachychiton populneus,False,SEGONA,C\ Garcilaso,8.25,8.0,3.19,4.02,0.42,1.73,216,ok
+0287667AR,431474.25,4586105.72,46.62,Brachychiton populneus,False,SEGONA,C\ Garcilaso,,0.0,0.0,,,,0,no_crown_detected
+0287668AR,431456.71,4586109.15,47.4,Brachychiton populneus,False,SEGONA,C\ Garcilaso,,0.0,0.0,,,,0,no_crown_detected
+0287669AR,431473.48,4586099.46,46.64,Brachychiton populneus,False,SEGONA,C\ Garcilaso,10.72,12.5,3.99,1.93,0.093,4.75,628,ok
+0287671AR,431467.2,4586100.66,46.96,Brachychiton populneus,False,SEGONA,C\ Garcilaso,10.25,9.5,3.48,5.33,0.332,2.21,415,ok
+0287672AR,431488.9,4586096.86,46.08,Brachychiton populneus,False,SEGONA,C\ Garcilaso,11.03,6.8,2.93,5.25,0.231,2.93,378,ok
+0287673AR,431456.35,4586101.74,47.36,Brachychiton populneus,False,SEGONA,C\ Garcilaso,,0.0,0.0,,,,0,no_crown_detected
+0287674AR,431648.76,4586084.16,36.3,Brachychiton populneus,False,SEGONA,C\ Garcilaso,6.25,16.0,4.51,2.27,0.117,4.29,537,ok
+0287683AR,431644.12,4585964.75,40.03,Koelreuteria paniculata 'Fastigiata',False,SEGONA,C\ Matanzas,,0.0,0.0,,,,0,no_crown_detected
+0287778AR,431381.49,4586112.23,50.44,Brachychiton populneus,False,SEGONA,C\ Garcilaso,,0.0,0.0,,,,0,no_crown_detected
+0287779AR,431365.38,4586114.37,51.08,Brachychiton populneus,False,SEGONA,C\ Garcilaso,9.17,8.2,3.24,5.79,0.276,2.58,439,ok
+0287780AR,431398.67,4586110.24,49.77,Brachychiton populneus,False,SEGONA,C\ Garcilaso,10.52,13.0,4.07,5.4,0.329,2.23,670,ok
+0287781AR,431408.07,4586108.43,49.41,Brachychiton populneus,False,SEGONA,C\ Garcilaso,,0.0,0.0,,,,0,no_crown_detected
+0287782AR,431417.66,4586107.53,48.97,Brachychiton populneus,False,SEGONA,C\ Garcilaso,10.84,10.2,3.61,5.85,0.309,2.35,529,ok
+0287783AR,431399.94,4586117.11,49.78,Brachychiton populneus,False,SEGONA,C\ Garcilaso,,0.0,0.0,,,,0,no_crown_detected
+0289262AR,431463.83,4586107.99,47.1,Brachychiton populneus,False,SEGONA,C\ Garcilaso,,0.0,0.0,,,,0,no_crown_detected
+0289263AR,431525.72,4586089.68,44.62,Brachychiton populneus,False,SEGONA,C\ Garcilaso,7.95,6.2,2.82,4.09,0.377,1.95,258,ok
+0289264AR,431554.92,4586082.88,43.37,Brachychiton populneus,False,SEGONA,C\ Garcilaso,6.64,3.5,2.11,4.23,0.384,1.92,193,ok
+0289265AR,431563.58,4586081.43,42.96,Brachychiton populneus,False,SEGONA,C\ Garcilaso,5.06,10.5,3.66,3.67,0.491,1.42,502,ok
+0289266AR,431567.67,4586080.64,42.79,Brachychiton populneus,False,SEGONA,C\ Garcilaso,5.66,11.2,3.78,3.7,0.534,1.25,467,ok
+0289267AR,431574.54,4586080.28,42.46,Brachychiton populneus,False,SEGONA,C\ Garcilaso,5.48,11.0,3.74,3.46,0.502,1.38,461,ok
+0289270AR,431559.31,4586098.81,43.35,Brachychiton populneus,False,TERCERA,C\ Garcilaso,7.6,28.8,6.05,3.97,0.314,2.32,744,ok
+0289271AR,431565.35,4586097.93,43.05,Brachychiton populneus,False,SEGONA,C\ Garcilaso,7.93,13.5,4.15,4.17,0.42,1.74,367,ok
+0289272AR,431571.54,4586097.5,42.82,Brachychiton populneus,False,TERCERA,C\ Garcilaso,6.38,10.5,3.66,4.09,0.39,1.88,247,ok
+0289273AR,431577.58,4586096.17,42.49,Brachychiton populneus,False,PRIMERA,C\ Garcilaso,,0.0,0.0,,,,0,no_crown_detected
+0289274AR,431573.38,4586093.38,42.66,Brachychiton populneus,False,SEGONA,C\ Garcilaso,6.74,2.5,1.78,4.05,0.373,1.97,111,ok
+0289275AR,431637.57,4586087.95,40.13,Brachychiton populneus,False,SEGONA,C\ Garcilaso,7.41,14.2,4.26,3.62,0.451,1.59,514,ok
+0289276AR,431615.79,4586091.36,40.97,Brachychiton populneus,False,SEGONA,C\ Garcilaso,6.1,9.2,3.43,3.56,0.452,1.59,307,ok
+0289277AR,431607.74,4586092.44,41.27,Brachychiton populneus,False,TERCERA,C\ Garcilaso,6.94,20.5,5.11,3.49,0.434,1.67,792,ok
+0289278AR,431720.9,4586072.41,37.14,Cercis siliquastrum,False,EXEMPLAR,C\ Garcilaso,4.26,3.2,2.03,3.02,0.547,1.21,131,ok
+0289279AR,431676.32,4586077.53,38.48,Brachychiton populneus,False,PRIMERA,C\ Garcilaso,5.01,2.5,1.78,3.84,0.491,1.42,99,ok
+0289280AR,431616.94,4586077.9,40.81,Brachychiton populneus,False,SEGONA,C\ Garcilaso,10.53,13.5,4.15,3.9,0.38,1.94,741,ok
+0289281AR,431610.12,4586079.62,41.08,Brachychiton populneus,False,SEGONA,C\ Garcilaso,9.15,13.8,4.18,3.56,0.389,1.89,738,ok
+0289282AR,431601.24,4586080.95,41.41,Brachychiton populneus,False,TERCERA,C\ Garcilaso,7.61,11.5,3.83,3.69,0.429,1.69,501,ok
+0294309AR,431732.54,4585836.98,36.82,Tilia x europaea,False,PRIMERA,C\ Olesa,5.93,6.0,2.76,2.64,0.345,2.13,116,ok
+0294311AR,431626.76,4586072.88,40.5,Brachychiton populneus,False,SEGONA,C\ Garcilaso,7.04,7.8,3.14,3.76,0.444,1.62,376,ok
+0294312AR,431612.57,4586074.58,41.02,Brachychiton populneus,False,SEGONA,C\ Garcilaso,8.08,2.0,1.6,6.92,0.283,2.52,139,ok
+0294313AR,431413.81,4586114.88,49.18,Brachychiton populneus,False,SEGONA,C\ Garcilaso,9.33,7.5,3.09,4.65,0.439,1.65,243,ok
+0294451AR,431561.97,4585733.9,43.77,Tipuana tipu,False,SEGONA,Pl Maragall,9.14,76.0,9.84,5.17,0.231,2.93,1282,ok
+0294464AR,431526.13,4586483.15,42.48,Celtis australis,False,TERCERA,C\ Cardenal Tedeschini,9.01,55.5,8.41,4.15,0.23,2.94,1835,ok
+0294468AR,431792.73,4586153.9,35.57,Platanus × acerifolia,True,TERCERA,C\ Cienfuegos,19.99,101.5,11.37,10.19,0.15,3.8,4484,ok
+0294469AR,431583.85,4586216.9,40.67,Casuarina cunninghamiana,False,SEGONA,C\ Felip II,15.36,21.2,5.2,5.25,0.187,3.35,1100,ok
+0294470AR,431423.35,4586382.13,44.26,Styphnolobium japonicum,False,SEGONA,C\ Felip II,7.87,46.2,7.67,4.85,0.38,1.94,1354,ok
+0294471AR,431444.62,4586359.96,43.9,Casuarina cunninghamiana,False,PRIMERA,C\ Felip II,10.12,125.2,12.63,3.59,0.273,2.6,4797,ok
+0308468AR,431245.0,4586233.9,56.18,Ulmus pumila,False,EXEMPLAR,C\ Ramon Albó,14.37,137.8,13.24,4.25,0.168,3.56,5190,ok
+0308500AR,431546.95,4586519.18,41.99,Celtis australis,False,SEGONA,C\ Vèlia,8.98,102.0,11.4,3.91,0.245,2.81,4518,ok
+0312503AR,431472.84,4586360.91,43.7,Casuarina cunninghamiana,False,SEGONA,C\ Felip II,11.33,23.5,5.47,3.91,0.227,2.96,995,ok
+0312504AR,431559.86,4586270.65,41.53,Casuarina cunninghamiana,False,PRIMERA,C\ Felip II,8.54,5.8,2.71,3.79,0.053,5.87,245,ok
+0312505AR,431615.44,4586212.69,40.05,Casuarina cunninghamiana,False,SEGONA,C\ Felip II,8.64,17.0,4.65,3.62,0.108,4.45,646,ok
+0316809AR,431695.16,4586322.81,39.92,Jacaranda mimosifolia,False,PRIMERA,C\ Cardenal Tedeschini,4.49,3.2,2.03,3.12,0.526,1.28,137,ok
+0316810AR,431706.57,4586322.11,39.62,Jacaranda mimosifolia,False,PRIMERA,C\ Cardenal Tedeschini,5.08,12.0,3.91,2.9,0.439,1.64,487,ok
+0316811AR,431720.72,4586320.88,39.31,Jacaranda mimosifolia,False,SEGONA,C\ Cardenal Tedeschini,5.69,13.2,4.11,2.79,0.404,1.81,550,ok
+0316812AR,431731.87,4586320.0,39.08,Jacaranda mimosifolia,False,PRIMERA,C\ Cardenal Tedeschini,4.26,6.8,2.93,3.04,0.431,1.68,243,ok
+0316813AR,431741.54,4586319.3,38.83,Jacaranda mimosifolia,False,SEGONA,C\ Cardenal Tedeschini,5.57,13.0,4.07,2.92,0.371,1.98,535,ok
+0316814AR,431752.52,4586318.33,38.55,Jacaranda mimosifolia,False,SEGONA,C\ Cardenal Tedeschini,5.94,10.8,3.7,2.94,0.373,1.97,489,ok
+0316815AR,431764.74,4586317.61,38.26,Jacaranda mimosifolia,False,SEGONA,C\ Cardenal Tedeschini,5.38,11.2,3.78,2.9,0.371,1.99,521,ok
+0316816AR,431776.39,4586316.83,38.01,Jacaranda mimosifolia,False,PRIMERA,C\ Cardenal Tedeschini,6.14,8.2,3.24,2.75,0.424,1.72,375,ok
+0316817AR,431788.38,4586316.27,37.74,Jacaranda mimosifolia,False,PRIMERA,C\ Cardenal Tedeschini,5.41,11.5,3.83,2.63,0.354,2.08,538,ok
+0316818AR,431799.13,4586315.39,37.49,Jacaranda mimosifolia,False,PRIMERA,C\ Cardenal Tedeschini,,0.0,0.0,,,,0,no_crown_detected
+0316819AR,431684.53,4586314.29,40.05,Jacaranda mimosifolia,False,PRIMERA,C\ Cardenal Tedeschini,3.99,8.2,3.24,2.61,0.516,1.32,284,ok
+0316820AR,431694.36,4586313.33,39.81,Jacaranda mimosifolia,False,SEGONA,C\ Cardenal Tedeschini,4.9,7.0,2.99,2.72,0.433,1.67,192,ok
+0316821AR,431707.89,4586312.45,39.55,Jacaranda mimosifolia,False,SEGONA,C\ Cardenal Tedeschini,5.5,15.0,4.37,2.32,0.252,2.76,403,ok
+0316822AR,431720.01,4586311.39,39.21,Jacaranda mimosifolia,False,SEGONA,C\ Cardenal Tedeschini,5.52,14.0,4.22,3.27,0.294,2.45,491,ok
+0316823AR,431730.99,4586310.43,38.92,Jacaranda mimosifolia,False,PRIMERA,C\ Cardenal Tedeschini,4.9,8.0,3.19,1.89,0.348,2.11,356,ok
+0316824AR,431741.01,4586309.81,38.65,Jacaranda mimosifolia,False,SEGONA,C\ Cardenal Tedeschini,6.51,18.5,4.85,2.6,0.447,1.61,784,ok
+0316825AR,431752.95,4586308.85,38.38,Jacaranda mimosifolia,False,PRIMERA,C\ Cardenal Tedeschini,6.33,14.5,4.3,3.15,0.206,3.16,598,ok
+0316826AR,431764.29,4586307.88,38.16,Jacaranda mimosifolia,False,PRIMERA,C\ Cardenal Tedeschini,4.9,9.8,3.52,2.84,0.358,2.05,369,ok
+0316828AR,431788.09,4586305.95,37.6,Jacaranda mimosifolia,False,PRIMERA,C\ Cardenal Tedeschini,5.14,11.0,3.74,2.94,0.193,3.29,291,ok
+0316829AR,431799.51,4586305.25,37.37,Jacaranda mimosifolia,False,PRIMERA,C\ Cardenal Tedeschini,6.65,16.8,4.62,3.63,0.361,2.04,542,ok
+0317073AR,431633.11,4586156.11,39.77,Jacaranda mimosifolia,False,SEGONA,C\ Puerto Príncipe,7.39,11.2,3.78,3.64,0.403,1.82,463,ok
+0317074AR,431613.03,4586136.64,40.6,Jacaranda mimosifolia,False,PRIMERA,C\ Puerto Príncipe,,0.0,0.0,,,,0,no_crown_detected
+0317075AR,431593.1,4586128.78,41.38,Cormus domestica,False,PRIMERA,C\ Puerto Príncipe,7.21,5.2,2.59,4.03,0.405,1.81,217,ok
+0317076AR,431561.05,4585908.7,42.84,Cormus domestica,False,PRIMERA,C\ Puerto Príncipe,7.67,4.0,2.26,5.0,0.306,2.37,62,ok
+0317077AR,431553.71,4585858.64,43.33,Cormus domestica,False,SEGONA,C\ Puerto Príncipe,11.51,4.5,2.39,4.47,0.127,4.13,79,ok
+0317078AR,431625.5,4586165.44,39.71,Cormus domestica,False,PRIMERA,C\ Puerto Príncipe,5.86,5.0,2.52,4.24,0.406,1.8,105,ok
+0317079AR,431620.22,4586160.17,39.92,Cormus domestica,False,PRIMERA,C\ Puerto Príncipe,7.63,5.0,2.52,4.49,0.46,1.55,157,ok
+0317082AR,431551.49,4585843.0,43.44,Cormus domestica,False,SEGONA,C\ Puerto Príncipe,7.54,4.8,2.46,4.4,0.333,2.2,114,ok
+0317083AR,431615.66,4586155.61,40.12,Cormus domestica,False,PRIMERA,C\ Puerto Príncipe,7.37,4.2,2.33,5.1,0.435,1.67,102,ok
+0317084AR,431610.59,4586151.0,40.35,Cormus domestica,False,PRIMERA,C\ Puerto Príncipe,7.74,5.5,2.65,3.81,0.441,1.64,195,ok
+0317086AR,431622.72,4586146.0,40.2,Jacaranda mimosifolia,False,PRIMERA,C\ Puerto Príncipe,7.27,10.0,3.57,4.25,0.394,1.86,390,ok
+0317087AR,431604.29,4586127.52,41.03,Jacaranda mimosifolia,False,PRIMERA,C\ Puerto Príncipe,,0.0,0.0,,,,0,no_crown_detected
+0317088AR,431600.09,4586097.28,41.54,Jacaranda mimosifolia,False,SEGONA,C\ Puerto Príncipe,5.44,8.8,3.34,3.5,0.45,1.6,310,ok
+0317089AR,431602.17,4586113.75,41.24,Jacaranda mimosifolia,False,SEGONA,C\ Puerto Príncipe,6.26,17.8,4.75,3.43,0.401,1.83,702,ok
+0317091AR,431588.68,4586099.06,42.06,Cormus domestica,False,PRIMERA,C\ Puerto Príncipe,7.17,4.2,2.33,4.13,0.505,1.36,164,ok
+0317092AR,431590.98,4586115.03,41.7,Cormus domestica,False,PRIMERA,C\ Puerto Príncipe,6.64,2.2,1.69,4.24,0.417,1.75,43,few_points
+0317093AR,431592.16,4586121.99,41.51,Cormus domestica,False,PRIMERA,C\ Puerto Príncipe,6.7,4.2,2.33,3.27,0.419,1.74,152,ok
+0317094AR,431589.96,4586107.21,41.86,Cormus domestica,False,PRIMERA,C\ Puerto Príncipe,6.51,3.0,1.95,4.03,0.474,1.49,63,ok
+0317095AR,431585.16,4586073.75,41.98,Cormus domestica,False,PRIMERA,C\ Puerto Príncipe,8.68,4.8,2.46,4.83,0.222,3.01,166,ok
+0317096AR,431573.77,4585995.34,42.15,Cormus domestica,False,PRIMERA,C\ Puerto Príncipe,6.91,5.2,2.59,4.51,0.324,2.25,144,ok
+0317097AR,431574.83,4586002.79,42.13,Cormus domestica,False,PRIMERA,C\ Puerto Príncipe,15.9,7.2,3.04,4.42,0.172,3.52,270,ok
+0317098AR,431577.03,4586018.34,42.09,Cormus domestica,False,PRIMERA,C\ Puerto Príncipe,7.82,6.2,2.82,5.53,0.344,2.14,198,ok
+0317099AR,431578.4,4586026.95,42.06,Cormus domestica,False,PRIMERA,C\ Puerto Príncipe,7.29,3.5,2.11,5.02,0.268,2.63,123,ok
+0317100AR,431579.34,4586034.52,42.07,Cormus domestica,False,PRIMERA,C\ Puerto Príncipe,7.66,5.2,2.59,4.73,0.327,2.24,179,ok
+0317101AR,431580.5,4586042.08,42.02,Cormus domestica,False,PRIMERA,C\ Puerto Príncipe,7.06,4.0,2.26,4.25,0.243,2.83,137,ok
+0317102AR,431581.65,4586050.38,42.02,Cormus domestica,False,PRIMERA,C\ Puerto Príncipe,8.24,4.8,2.46,5.67,0.451,1.59,174,ok
+0317103AR,431582.7,4586058.78,42.01,Cormus domestica,False,PRIMERA,C\ Puerto Príncipe,7.94,5.8,2.71,4.89,0.356,2.07,205,ok
+0317104AR,431583.86,4586066.24,42.02,Cormus domestica,False,PRIMERA,C\ Puerto Príncipe,7.14,3.2,2.03,5.05,0.344,2.14,125,ok
+0317105AR,431570.04,4585970.89,42.29,Cormus domestica,False,PRIMERA,C\ Puerto Príncipe,12.39,6.0,2.76,4.49,0.353,2.08,231,ok
+0317106AR,431568.87,4585963.3,42.31,Cormus domestica,False,PRIMERA,C\ Puerto Príncipe,9.18,5.5,2.65,5.17,0.266,2.65,139,ok
+0317107AR,431567.82,4585955.25,42.4,Cormus domestica,False,PRIMERA,C\ Puerto Príncipe,8.76,6.5,2.88,4.49,0.218,3.04,110,ok
+0317108AR,431566.66,4585947.67,42.48,Cormus domestica,False,PRIMERA,C\ Puerto Príncipe,8.34,4.8,2.46,5.15,0.296,2.43,81,ok
+0317109AR,431565.37,4585939.38,42.52,Cormus domestica,False,PRIMERA,C\ Puerto Príncipe,7.66,5.2,2.59,4.78,0.256,2.72,82,ok
+0317110AR,431559.65,4585900.06,42.93,Cormus domestica,False,PRIMERA,C\ Puerto Príncipe,7.36,2.8,1.87,3.84,0.289,2.48,38,few_points
+0317111AR,431563.16,4585924.1,42.7,Cormus domestica,False,PRIMERA,C\ Puerto Príncipe,8.2,3.5,2.11,4.81,0.258,2.71,66,ok
+0317112AR,431562.1,4585916.75,42.75,Cormus domestica,False,PRIMERA,C\ Puerto Príncipe,7.6,5.8,2.71,4.37,0.302,2.39,86,ok
+0317113AR,431544.84,4585795.86,43.87,Cormus domestica,False,SEGONA,C\ Puerto Príncipe,7.34,3.2,2.03,4.02,0.348,2.11,46,few_points
+0317115AR,431549.39,4585827.37,43.57,Cormus domestica,False,SEGONA,C\ Puerto Príncipe,8.09,6.5,2.88,3.96,0.257,2.72,109,ok
+0317116AR,431550.32,4585834.95,43.52,Cormus domestica,False,SEGONA,C\ Puerto Príncipe,8.22,4.2,2.33,4.84,0.162,3.63,80,ok
+0317117AR,431554.99,4585867.27,43.24,Cormus domestica,False,SEGONA,C\ Puerto Príncipe,8.48,4.8,2.46,5.33,0.338,2.17,65,ok
+0333193AR,431260.42,4586422.36,49.94,Grevillea robusta,False,PRIMERA,C\ Ramon Albó,10.98,10.2,3.61,4.96,0.329,2.23,514,ok
+0335504AR,431671.64,4586457.64,41.13,Platanus × acerifolia,True,TERCERA,C\ Can Ros,18.54,61.8,8.87,5.97,0.236,2.89,2924,ok
+0339287AR,431252.08,4586230.28,56.05,Grevillea robusta,False,PRIMERA,C\ Ramon Albó,9.38,18.8,4.89,4.97,0.346,2.13,942,ok
+0340687AR,431725.42,4585933.89,36.67,Handroanthus heptaphyllus,False,PRIMERA,C\ Jordi de Sant Jordi,4.7,0.2,0.56,4.65,0.5,1.39,4,no_crown_detected
+0340688AR,431725.95,4585937.37,36.65,Handroanthus heptaphyllus,False,PRIMERA,C\ Jordi de Sant Jordi,4.69,12.0,3.91,3.42,0.461,1.55,230,ok
+0340689AR,431726.45,4585941.45,36.56,Handroanthus heptaphyllus,False,PRIMERA,C\ Jordi de Sant Jordi,,0.0,0.0,,,,0,no_crown_detected
+0344375AR,431754.86,4586465.14,39.35,Quercus ilex,False,PRIMERA,C\ Can Ros,,0.0,0.0,,,,0,no_crown_detected
+0344376AR,431762.35,4586464.67,39.17,Quercus ilex,False,PRIMERA,C\ Can Ros,,0.0,0.0,,,,0,no_crown_detected
+0344377AR,431717.44,4586467.48,40.16,Acer campestre,False,PRIMERA,C\ Can Ros,,0.0,0.0,,,,0,no_crown_detected
+0344378AR,431739.89,4586466.08,39.68,Acer campestre,False,PRIMERA,C\ Can Ros,,0.0,0.0,,,,0,no_crown_detected
+0344379AR,431810.63,4586456.02,38.07,Acer campestre,False,PRIMERA,C\ Can Ros,,0.0,0.0,,,,0,no_crown_detected
+0344380AR,431795.6,4586456.95,38.43,Acer campestre,False,PRIMERA,C\ Can Ros,8.38,36.8,6.84,3.8,0.304,2.38,1403,ok
+0344381AR,431814.75,4586461.4,37.98,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Can Ros,,0.0,0.0,,,,0,no_crown_detected
+0344382AR,431732.41,4586466.54,39.82,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Can Ros,,0.0,0.0,,,,0,no_crown_detected
+0344383AR,431818.16,4586455.55,37.82,Acer campestre 'Elsrijk',False,PRIMERA,C\ Can Ros,,0.0,0.0,,,,0,no_crown_detected
+0344384AR,431799.78,4586462.34,38.38,Acer campestre 'Elsrijk',False,PRIMERA,C\ Can Ros,,0.0,0.0,,,,0,no_crown_detected
+0344385AR,431792.29,4586462.8,38.56,Acer campestre 'Elsrijk',False,PRIMERA,C\ Can Ros,,0.0,0.0,,,,0,no_crown_detected
+0344386AR,431784.8,4586463.27,38.69,Acer campestre 'Elsrijk',False,PRIMERA,C\ Can Ros,,0.0,0.0,,,,0,no_crown_detected
+0344387AR,431777.32,4586463.74,38.89,Acer campestre 'Elsrijk',False,PRIMERA,C\ Can Ros,,0.0,0.0,,,,0,no_crown_detected
+0344388AR,431769.83,4586464.2,39.03,Acer campestre 'Elsrijk',False,PRIMERA,C\ Can Ros,,0.0,0.0,,,,0,no_crown_detected
+0344389AR,431747.38,4586465.61,39.54,Acer campestre 'Elsrijk',False,PRIMERA,C\ Can Ros,,0.0,0.0,,,,0,no_crown_detected
+0344390AR,431724.92,4586467.01,40.02,Acer campestre 'Elsrijk',False,PRIMERA,C\ Can Ros,10.63,84.8,10.39,5.5,0.253,2.75,3145,ok
+0347384AR,431592.99,4586410.71,41.52,Melia azedarach,False,PRIMERA,C\ Cardenal Tedeschini,,0.0,0.0,,,,0,no_crown_detected
+0347385AR,431598.55,4586404.95,41.38,Melia azedarach,False,PRIMERA,C\ Cardenal Tedeschini,,0.0,0.0,,,,0,no_crown_detected
+0347386AR,431608.5,4586377.3,41.42,Melia azedarach,False,PRIMERA,Pl Congrés Eucarístic,,0.0,0.0,,,,0,no_crown_detected
+0347387AR,431624.33,4586362.0,40.96,Melia azedarach,False,PRIMERA,C\ Cardenal Tedeschini,,0.0,0.0,,,,0,no_crown_detected
+0347388AR,431598.49,4586387.66,41.62,Melia azedarach,False,PRIMERA,Pl Congrés Eucarístic,,0.0,0.0,,,,0,no_crown_detected
+0347389AR,431603.5,4586382.48,41.49,Melia azedarach,False,PRIMERA,Pl Congrés Eucarístic,,0.0,0.0,,,,0,no_crown_detected
+0347390AR,431593.49,4586392.84,41.75,Melia azedarach,False,PRIMERA,Pl Congrés Eucarístic,,0.0,0.0,,,,0,no_crown_detected

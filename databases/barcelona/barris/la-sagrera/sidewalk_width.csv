@@ -1,0 +1,2291 @@
+tree_id,species,is_plane,street,width_m,facade_dist_m,flag,strip_width_m,size_class
+0152281AR,Citrus × aurantium,False,C\ Monlau,2.61,2.2,ok,,small
+0152283AR,Melia azedarach,False,C\ Costa Rica,5.42,4.03,ok,,medium
+0152285AR,Platanus × acerifolia,True,C\ Olesa,4.89,4.09,ok,,medium
+0152286AR,Tipuana tipu,False,C\ Olesa,20.72,1.21,ok,,large
+0152287AR,Ulmus pumila,False,C\ Felip II,5.09,5.22,ok,,medium
+0152288AR,Jacaranda mimosifolia,False,C\ Olesa,7.37,4.5,ok,,large
+0152289AR,Platanus × acerifolia,True,C\ Clot,,23.55,median,17.86,check
+0152290AR,Tipuana tipu,False,C\ Camp de la Ferro,9.17,7.26,ok,,large
+0152291AR,Ulmus pumila,False,C\ Torroella de Montgrí,12.84,5.73,ok,,large
+0152293AR,Melia azedarach,False,C\ Felip II,,20.87,median,,check
+0152294AR,Citrus × aurantium,False,C\ Pacífic,1.75,1.09,ok,,none
+0152295AR,Citrus × aurantium,False,C\ Monlau,2.59,2.57,ok,,small
+0152298AR,Tipuana tipu,False,C\ Berenguer de Palou,15.13,11.8,ok,,large
+0152299AR,Brachychiton populneus,False,C\ Olesa,5.92,3.49,ok,,medium
+0152300AR,Melia azedarach,False,C\ Gran de la Sagrera,,22.76,median,,check
+0152301AR,Citrus × aurantium,False,C\ Cortit,,2.34,no_kerb,,check
+0152302AR,Celtis australis,False,C\ Garcilaso,,7.39,median,17.48,check
+0152303AR,Melia azedarach,False,C\ Dublín,14.07,10.1,ok,,large
+0152304AR,Fraxinus excelsior,False,C\ Portugal,,12.26,median,,check
+0152305AR,Jacaranda mimosifolia,False,C\ Emilia Pardo Bazán,3.48,2.96,ok,,small
+0152306AR,Citrus × aurantium,False,C\ Monlau,2.58,1.89,ok,,small
+0152307AR,Celtis australis,False,C\ Garcilaso,,7.4,median,17.48,check
+0152308AR,Pyrus calleryana 'Chanticleer',False,C\ Concepción Arenal,3.99,3.18,ok,,medium
+0152309AR,Melia azedarach,False,C\ Gran de la Sagrera,4.48,3.16,ok,,medium
+0152310AR,Platanus × acerifolia,True,C\ Clot,3.86,3.27,ok,,medium
+0152312AR,Platanus × acerifolia,True,C\ Rovira i Virgili,,19.06,median,,check
+0152313AR,Styphnolobium japonicum,False,C\ Felip II,,21.89,median,,check
+0152314AR,Jacaranda mimosifolia,False,C\ Emilia Pardo Bazán,3.67,2.7,ok,,medium
+0152315AR,Magnolia grandiflora,False,C\ Garcilaso,22.75,15.45,ok,,large
+0152316AR,Melia azedarach,False,C\ Felip II,5.03,4.28,ok,,medium
+0152317AR,Tipuana tipu,False,C\ Garcilaso,28.13,19.07,ok,,large
+0152319AR,Tipuana tipu,False,C\ Ferran Turné,4.82,4.57,ok,,medium
+0152320AR,Ulmus pumila,False,C\ Felip II,4.85,4.47,ok,,medium
+0152321AR,Citrus × aurantium,False,C\ Açores,,8.41,median,,check
+0152322AR,Melia azedarach,False,C\ Felip II,4.83,4.59,ok,,medium
+0152323AR,Acer negundo,False,C\ Concepción Arenal,6.6,5.48,ok,,large
+0152324AR,Melia azedarach,False,C\ Gran de la Sagrera,4.56,3.85,ok,,medium
+0152325AR,Melia azedarach,False,C\ Berenguer de Palou,6.02,5.07,ok,,large
+0152326AR,Melia azedarach,False,C\ Gran de la Sagrera,4.62,3.6,ok,,medium
+0152328AR,Tipuana tipu,False,C\ Camp de la Ferro,5.01,3.25,ok,,medium
+0152330AR,Jacaranda mimosifolia,False,C\ Cardenal Tedeschini,5.43,4.87,ok,,medium
+0152332AR,Prunus cerasifera 'Pissardii',False,C\ Monlau,2.54,1.5,ok,,small
+0152333AR,Melia azedarach,False,C\ Felip II,8.29,6.9,ok,,large
+0152334AR,Citrus × aurantium,False,C\ Monlau,2.47,1.99,ok,,none
+0152335AR,Platanus × acerifolia,True,C\ Portugal,12.46,8.34,ok,,large
+0152337AR,Jacaranda mimosifolia,False,C\ Emilia Pardo Bazán,3.48,2.8,ok,,small
+0152338AR,Pyrus calleryana 'Chanticleer',False,C\ Concepción Arenal,4.05,3.25,ok,,medium
+0152340AR,Styphnolobium japonicum,False,C\ Hondures,8.7,7.94,ok,,large
+0152341AR,Citrus × aurantium,False,C\ Monlau,2.53,2.17,ok,,small
+0152343AR,Quercus ilex,False,C\ Hondures,,18.32,no_kerb,,check
+0152344AR,Tipuana tipu,False,Pl Assemblea de Catalunya,7.1,5.78,ok,,large
+0152348AR,Tipuana tipu,False,Av Meridiana,,24.3,median,21.48,check
+0152350AR,Pyrus calleryana 'Chanticleer',False,C\ Concepción Arenal,,17.99,median,,check
+0152351AR,Platanus × acerifolia,True,C\ Garcilaso,29.42,28.13,ok,,large
+0152352AR,Citrus × aurantium,False,C\ Pacífic,3.65,3.86,ok,,medium
+0152353AR,Platanus × acerifolia,True,C\ Hondures,2.83,2.14,ok,,small
+0152354AR,Platanus × acerifolia,True,Av Meridiana,,29.66,no_kerb,,check
+0152355AR,Melia azedarach,False,C\ Gran de la Sagrera,,32.77,no_facade,,check
+0152356AR,Platanus × acerifolia,True,C\ Pare Manyanet,11.76,10.88,ok,,large
+0152358AR,Jacaranda mimosifolia,False,C\ Emilia Pardo Bazán,3.67,2.9,ok,,medium
+0152359AR,Acer negundo,False,C\ Concepción Arenal,,27.8,median,,check
+0152361AR,Platanus × acerifolia,True,Av Meridiana,16.66,14.4,ok,,large
+0152362AR,Melia azedarach,False,C\ Indústria,4.79,4.44,ok,,medium
+0152363AR,Jacaranda mimosifolia,False,C\ Emilia Pardo Bazán,3.67,2.76,ok,,medium
+0152364AR,Melia azedarach,False,C\ Ciutat d'Elx,4.18,3.18,ok,,medium
+0152365AR,Fraxinus excelsior,False,C\ Portugal,,12.23,median,,check
+0152366AR,Melia azedarach,False,C\ Gran de la Sagrera,11.76,10.59,ok,,large
+0152367AR,Melia azedarach,False,C\ Martí Molins,3.7,2.67,ok,,medium
+0152368AR,Melia azedarach,False,C\ Gran de la Sagrera,4.48,3.56,ok,,medium
+0152369AR,Melia azedarach,False,C\ Hondures,,6.26,median,5.39,check
+0152370AR,Platanus × acerifolia,True,C\ Costa Rica,13.33,10.2,ok,,large
+0152373AR,Ulmus pumila,False,C\ Felip II,4.84,4.36,ok,,medium
+0152376AR,Melia azedarach,False,Pl Doctor Cararach Mauri,,9.28,median,,check
+0152377AR,Prunus cerasifera 'Pissardii',False,C\ Monlau,2.5,1.32,ok,,small
+0152379AR,Platanus × acerifolia,True,C\ Hondures,3.15,2.18,ok,,small
+0152380AR,Firmiana simplex,False,C\ Josep Estivill,4.12,2.94,ok,,medium
+0152383AR,Platanus × acerifolia,True,Av Meridiana,12.0,9.06,ok,,large
+0152384AR,Tipuana tipu,False,C\ Garcilaso,22.71,21.78,ok,,large
+0152385AR,Melia azedarach,False,C\ Gran de la Sagrera,4.16,3.39,ok,,medium
+0152386AR,Jacaranda mimosifolia,False,C\ Costa Rica,11.08,2.87,ok,,large
+0152388AR,Tipuana tipu,False,C\ Garcilaso,6.85,5.08,ok,,large
+0152389AR,Melia azedarach,False,C\ Ciutat d'Elx,15.84,14.78,ok,,large
+0152390AR,Platanus × acerifolia,True,C\ Hondures,,9.33,median,5.39,check
+0152391AR,Jacaranda mimosifolia,False,C\ Olesa,9.87,8.97,ok,,large
+0152392AR,Citrus × aurantium,False,C\ Monlau,2.48,2.31,ok,,none
+0152393AR,Firmiana simplex,False,C\ Palència,5.23,4.57,ok,,medium
+0152395AR,Firmiana simplex,False,C\ Olesa,13.4,3.29,ok,,large
+0152396AR,Brachychiton populneus,False,C\ Garcilaso,21.25,20.43,ok,,large
+0152397AR,Citrus × aurantium,False,C\ Pacífic,1.55,1.81,ok,,none
+0152398AR,Melia azedarach,False,C\ Gran de la Sagrera,9.4,8.64,ok,,large
+0152399AR,Citrus × aurantium,False,C\ Pacífic,1.55,1.44,ok,,none
+0152400AR,Tipuana tipu,False,C\ Ferran Turné,10.7,9.08,ok,,large
+0152401AR,Melia azedarach,False,C\ Felip II,,22.86,median,,check
+0152402AR,Platanus × acerifolia,True,Av Meridiana,22.97,19.95,ok,,large
+0152403AR,Tipuana tipu,False,C\ Olesa,20.74,0.82,ok,,large
+0152404AR,Citrus × aurantium,False,C\ Pacífic,1.58,1.24,ok,,none
+0152405AR,Styphnolobium japonicum,False,C\ Felip II,,21.88,median,,check
+0152406AR,Platanus × acerifolia,True,Av Meridiana,20.58,17.2,ok,,large
+0152407AR,Jacaranda mimosifolia,False,C\ Cardenal Tedeschini,5.25,5.15,ok,,medium
+0152408AR,Tipuana tipu,False,C\ Camp de la Ferro,17.15,12.64,ok,,large
+0152409AR,Jacaranda mimosifolia,False,C\ Emilia Pardo Bazán,3.66,2.81,ok,,medium
+0152410AR,Platanus × acerifolia,True,C\ Garcilaso,,29.38,no_kerb,,check
+0152411AR,Robinia pseudoacacia,False,C\ Cienfuegos,2.6,2.48,ok,,small
+0152412AR,Pyrus calleryana 'Chanticleer',False,Pl Masadas,,3.44,no_kerb,,check
+0152413AR,Melia azedarach,False,C\ Indústria,4.84,3.51,ok,,medium
+0152415AR,Citrus × aurantium,False,C\ Monlau,2.63,2.57,ok,,small
+0152416AR,Melia azedarach,False,C\ Martí Molins,3.14,2.39,ok,,small
+0152418AR,Platanus × acerifolia,True,Av Meridiana,18.44,7.58,ok,,large
+0152420AR,Pyrus calleryana 'Chanticleer',False,C\ Concepción Arenal,,24.4,no_kerb,,check
+0152421AR,Platanus × acerifolia,True,Av Meridiana,16.75,6.34,ok,,large
+0152422AR,Firmiana simplex,False,C\ Ciutat d'Elx,4.77,3.9,ok,,medium
+0152423AR,Ligustrum lucidum,False,Av Meridiana,11.47,8.79,ok,,large
+0152424AR,Tipuana tipu,False,C\ Berenguer de Palou,5.01,3.96,ok,,medium
+0152425AR,Citrus × aurantium,False,C\ Monlau,2.33,1.86,ok,,none
+0152426AR,Platanus × acerifolia,True,C\ Pare Manyanet,16.58,15.51,ok,,large
+0152427AR,Melia azedarach,False,C\ Gran de la Sagrera,4.54,3.68,ok,,medium
+0152429AR,Citrus × aurantium,False,C\ Açores,,8.61,median,,check
+0152430AR,Melia azedarach,False,C\ Gran de la Sagrera,,28.15,median,11.91,check
+0152436AR,Melia azedarach,False,C\ Gran de la Sagrera,4.19,3.6,ok,,medium
+0152437AR,Tipuana tipu,False,C\ Camp de la Ferro,15.61,12.69,ok,,large
+0152438AR,Melia azedarach,False,C\ Hondures,3.08,2.14,ok,,small
+0152439AR,Platanus × acerifolia,True,Av Meridiana,16.29,12.82,ok,,large
+0152440AR,Melia azedarach,False,C\ Martí Molins,3.06,2.12,ok,,small
+0152441AR,Platanus × acerifolia,True,C\ Olesa,4.88,3.9,ok,,medium
+0152442AR,Melia azedarach,False,C\ Cienfuegos,2.89,2.05,ok,,small
+0152443AR,Platanus × acerifolia,True,C\ Olesa,4.88,4.31,ok,,medium
+0152444AR,Ligustrum lucidum,False,C\ Gran de la Sagrera,,38.82,no_facade,12.89,check
+0152446AR,Citrus × aurantium,False,C\ Pacífic,1.56,0.99,ok,,none
+0152448AR,Melia azedarach,False,C\ Hondures,3.03,2.17,ok,,small
+0152450AR,Platanus × acerifolia,True,C\ Olesa,4.9,3.89,ok,,medium
+0152451AR,Melia azedarach,False,C\ Indústria,13.46,12.73,ok,,large
+0152452AR,Melia azedarach,False,C\ Gran de la Sagrera,4.57,3.6,ok,,medium
+0152453AR,Jacaranda mimosifolia,False,C\ Emilia Pardo Bazán,3.44,3.0,ok,,small
+0152456AR,Melia azedarach,False,C\ Gran de la Sagrera,4.46,3.69,ok,,medium
+0152457AR,Platanus × acerifolia,True,C\ Dublín,,7.81,median,6.92,check
+0152458AR,Melia azedarach,False,C\ Portugal,,12.23,median,,check
+0152459AR,Jacaranda mimosifolia,False,C\ Torroella de Montgrí,,20.27,median,,check
+0152460AR,Melia azedarach,False,C\ Gran de la Sagrera,4.61,4.02,ok,,medium
+0152462AR,Citrus × aurantium,False,C\ Açores,6.63,5.04,ok,,large
+0152463AR,Prunus cerasifera 'Pissardii',False,Pl Masadas,,3.6,no_kerb,,check
+0152465AR,Tipuana tipu,False,C\ Camp de la Ferro,5.95,4.92,ok,,medium
+0152467AR,Styphnolobium japonicum,False,C\ Felip II,,30.94,no_facade,,check
+0152468AR,Nerium oleander,False,C\ Açores,3.25,2.19,ok,,small
+0152469AR,Firmiana simplex,False,C\ Josep Estivill,4.24,2.84,ok,,medium
+0152471AR,Platanus × acerifolia,True,C\ Portugal,3.83,2.58,ok,,medium
+0152472AR,Firmiana simplex,False,C\ Juan de Garay,4.05,3.84,ok,,medium
+0152473AR,Tipuana tipu,False,C\ Portugal,4.98,3.35,ok,,medium
+0152474AR,Styphnolobium japonicum,False,C\ Pere Terré i Domènech,,4.73,no_kerb,,check
+0152476AR,Firmiana simplex,False,C\ Ciutat d'Elx,5.06,4.66,ok,,medium
+0152477AR,Tipuana tipu,False,C\ Berenguer de Palou,4.71,3.37,ok,,medium
+0152478AR,Styphnolobium japonicum,False,C\ Gran de la Sagrera,,31.74,no_facade,18.72,check
+0152479AR,Citrus × aurantium,False,C\ Açores,3.28,2.05,ok,,small
+0152480AR,Acer negundo,False,C\ Concepción Arenal,,20.0,median,,check
+0152481AR,Schinus molle,False,C\ Dublín,,7.19,no_kerb,,check
+0152482AR,Melia azedarach,False,C\ Berenguer de Palou,3.97,1.98,ok,,medium
+0152485AR,Pyrus calleryana 'Chanticleer',False,Pl Masadas,,3.91,no_kerb,,check
+0152486AR,Melia azedarach,False,C\ Martí Molins,3.02,2.31,ok,,small
+0152487AR,Styphnolobium japonicum,False,C\ Hondures,5.45,4.54,ok,,medium
+0152490AR,Pyrus calleryana 'Chanticleer',False,C\ Vallès i Ribot,2.98,2.11,ok,,small
+0152492AR,Platanus × acerifolia,True,C\ Dublín,,7.1,median,6.88,check
+0152493AR,Styphnolobium japonicum,False,C\ Felip II,,21.88,median,,check
+0152494AR,Platanus × acerifolia,True,Av Meridiana,16.66,5.85,ok,,large
+0152496AR,Platanus × acerifolia,True,Av Meridiana,18.44,7.39,ok,,large
+0152498AR,Pyrus calleryana 'Chanticleer',False,C\ Nobel,3.01,1.59,ok,,small
+0152499AR,Jacaranda mimosifolia,False,C\ Olesa,11.37,10.34,ok,,large
+0152501AR,Platanus × acerifolia,True,Av Meridiana,16.73,14.4,ok,,large
+0152502AR,Ulmus pumila,False,C\ Concepción Arenal,,8.76,no_kerb,27.43,check
+0152503AR,Citrus × aurantium,False,C\ Pacífic,1.56,1.85,ok,,none
+0152506AR,Citrus × aurantium,False,C\ Monlau,2.6,2.21,ok,,small
+0152510AR,Platanus × acerifolia,True,Av Meridiana,18.41,16.02,ok,,large
+0152511AR,Pyrus calleryana 'Chanticleer',False,C\ Concepción Arenal,3.87,2.98,ok,,medium
+0152513AR,Melia azedarach,False,C\ Indústria,4.9,3.66,ok,,medium
+0152514AR,Melia azedarach,False,C\ Clara Zetkin,4.18,2.92,ok,,medium
+0152516AR,Tipuana tipu,False,C\ Camp de la Ferro,4.99,3.63,ok,,medium
+0152517AR,Parkinsonia aculeata,False,C\ Dublín,14.61,9.8,ok,,large
+0152519AR,Platanus × acerifolia,True,Av Meridiana,26.17,22.84,ok,,large
+0152520AR,Citrus × aurantium,False,C\ Pacífic,1.57,1.53,ok,,none
+0152523AR,Styphnolobium japonicum,False,C\ Pere Terré i Domènech,,5.49,no_kerb,,check
+0152524AR,Platanus × acerifolia,True,Av Meridiana,11.95,8.63,ok,,large
+0152525AR,Melia azedarach,False,C\ Martí Molins,3.3,2.05,ok,,small
+0152528AR,Citrus × aurantium,False,C\ Pacífic,1.5,0.85,ok,,none
+0152529AR,Pyrus calleryana 'Chanticleer',False,C\ Mossèn Juliana,2.26,1.45,ok,,none
+0152531AR,Melia azedarach,False,C\ Felip II,,21.84,median,,check
+0152532AR,Melia azedarach,False,C\ Monlau,2.6,1.68,ok,,small
+0152533AR,Platanus × acerifolia,True,C\ Rovira i Virgili,,21.19,median,,check
+0152534AR,Melia azedarach,False,C\ Gran de la Sagrera,4.44,3.8,ok,,medium
+0152535AR,Styphnolobium japonicum,False,C\ Pere Terré i Domènech,,4.45,no_kerb,,check
+0152536AR,Melia azedarach,False,C\ Gran de la Sagrera,4.56,3.35,ok,,medium
+0152537AR,Platanus × acerifolia,True,C\ Costa Rica,4.5,3.62,ok,,medium
+0152538AR,Platanus × acerifolia,True,C\ Gran de la Sagrera,,23.33,median,,check
+0152539AR,Melia azedarach,False,C\ Garcilaso,,16.08,median,17.48,check
+0152540AR,Tipuana tipu,False,C\ Ferran Turné,,16.75,median,12.67,check
+0152541AR,Platanus × acerifolia,True,Av Meridiana,5.42,4.46,ok,,medium
+0152542AR,Pyrus calleryana 'Chanticleer',False,C\ Vallès i Ribot,3.56,2.91,ok,,medium
+0152543AR,Melia azedarach,False,C\ Torroella de Montgrí,,16.28,median,,check
+0152545AR,Jacaranda mimosifolia,False,C\ Emilia Pardo Bazán,3.46,2.73,ok,,small
+0152546AR,Pyrus calleryana 'Chanticleer',False,C\ Vallès i Ribot,3.19,2.54,ok,,small
+0152547AR,Ligustrum lucidum,False,C\ Gran de la Sagrera,,65.81,no_facade,,check
+0152548AR,Tipuana tipu,False,C\ Camp de la Ferro,,15.19,median,25.57,check
+0152549AR,Tipuana tipu,False,C\ Camp de la Ferro,4.98,3.43,ok,,medium
+0152550AR,Magnolia grandiflora,False,C\ Garcilaso,,16.58,median,17.64,check
+0152552AR,Platanus × acerifolia,True,C\ Costa Rica,,18.37,median,,check
+0152554AR,Melia azedarach,False,C\ Felip II,9.61,8.47,ok,,large
+0152556AR,Jacaranda mimosifolia,False,C\ Emilia Pardo Bazán,3.45,2.81,ok,,small
+0152558AR,Styphnolobium japonicum,False,C\ Pere Terré i Domènech,,4.78,no_kerb,,check
+0152559AR,Acer negundo,False,C\ Concepción Arenal,22.66,18.7,ok,,large
+0152560AR,Platanus × acerifolia,True,C\ Portugal,12.42,7.81,ok,,large
+0152562AR,Melia azedarach,False,C\ Felip II,6.76,5.48,ok,,large
+0152563AR,Brachychiton populneus,False,C\ Garcilaso,6.87,4.7,ok,,large
+0152564AR,Melia azedarach,False,C\ Felip II,5.06,4.18,ok,,medium
+0152567AR,Melia azedarach,False,C\ Martí Molins,3.39,2.33,ok,,small
+0152571AR,Melia azedarach,False,C\ Torroella de Montgrí,,16.33,median,,check
+0152572AR,Styphnolobium japonicum,False,C\ Pere Terré i Domènech,,4.68,no_kerb,,check
+0152573AR,Jacaranda mimosifolia,False,C\ Cardenal Tedeschini,5.6,5.38,ok,,medium
+0152575AR,Melia azedarach,False,C\ Gran de la Sagrera,4.63,3.65,ok,,medium
+0152576AR,Platanus × acerifolia,True,C\ Palència,,18.11,median,,check
+0152577AR,Firmiana simplex,False,C\ Josep Estivill,5.02,4.41,ok,,medium
+0152578AR,Platanus × acerifolia,True,C\ Costa Rica,13.84,7.94,ok,,large
+0152579AR,Tipuana tipu,False,Pl Assemblea de Catalunya,7.17,4.38,ok,,large
+0152581AR,Melia azedarach,False,C\ Monlau,2.6,1.67,ok,,small
+0152582AR,Jacaranda mimosifolia,False,C\ Emilia Pardo Bazán,3.41,2.52,ok,,small
+0152583AR,Brachychiton populneus,False,C\ Garcilaso,,21.32,median,17.47,check
+0152584AR,Platanus × acerifolia,True,C\ Costa Rica,4.54,3.84,ok,,medium
+0152585AR,Jacaranda mimosifolia,False,C\ Cardenal Tedeschini,4.74,3.93,ok,,medium
+0152586AR,Citrus × aurantium,False,C\ Pacífic,1.59,1.41,ok,,none
+0152588AR,Melia azedarach,False,C\ Garcilaso,,15.63,median,17.66,check
+0152590AR,Platanus × acerifolia,True,C\ Hondures,5.15,4.32,ok,,medium
+0152591AR,Photinia x fraseri 'Red Robin',False,C\ Hondures,4.9,3.98,ok,,medium
+0152592AR,Jacaranda mimosifolia,False,C\ Emilia Pardo Bazán,3.67,2.84,ok,,medium
+0152593AR,Melia azedarach,False,C\ Martí Molins,,7.35,median,,check
+0152595AR,Citrus × aurantium,False,C\ Coll,5.0,4.18,ok,,medium
+0152596AR,Jacaranda mimosifolia,False,C\ Costa Rica,,3.84,no_kerb,,check
+0152597AR,Jacaranda mimosifolia,False,C\ Juan de Garay,4.02,2.94,ok,,medium
+0152599AR,Pyrus calleryana 'Chanticleer',False,C\ Vallès i Ribot,3.3,2.31,ok,,small
+0152600AR,Platanus × acerifolia,True,C\ Hondures,25.07,22.8,ok,,large
+0152602AR,Tipuana tipu,False,C\ Garcilaso,6.87,4.66,ok,,large
+0152604AR,Citrus × aurantium,False,C\ Pacífic,3.87,3.29,ok,,medium
+0152605AR,Ligustrum lucidum,False,C\ Pare Manyanet,14.73,5.34,ok,,large
+0152606AR,Melia azedarach,False,C\ Gran de la Sagrera,,3.5,median,4.54,check
+0152607AR,Styphnolobium japonicum,False,C\ Felip II,,26.43,median,,check
+0152609AR,Prunus cerasifera 'Pissardii',False,C\ Josep Estivill,11.04,5.64,ok,,large
+0152610AR,Hibiscus syriacus,False,C\ Josep Estivill,,25.49,no_kerb,,check
+0152611AR,Citrus × aurantium,False,C\ Pacífic,3.66,3.57,ok,,medium
+0152612AR,Melia azedarach,False,C\ Martí Molins,3.15,2.1,ok,,small
+0152613AR,Platanus × acerifolia,True,Av Meridiana,,29.6,no_kerb,,check
+0152614AR,Platanus × acerifolia,True,Av Meridiana,26.59,22.49,ok,,large
+0152616AR,Melia azedarach,False,C\ Monlau,2.7,1.84,ok,,small
+0152618AR,Citrus × aurantium,False,C\ Monlau,2.6,2.45,ok,,small
+0152619AR,Jacaranda mimosifolia,False,C\ Emilia Pardo Bazán,3.42,2.28,ok,,small
+0152620AR,Styphnolobium japonicum,False,C\ Pere Terré i Domènech,,7.27,no_kerb,,check
+0152621AR,Melia azedarach,False,C\ Gran de la Sagrera,4.47,3.54,ok,,medium
+0152622AR,Melia azedarach,False,C\ Gran de la Sagrera,,21.6,median,,check
+0152623AR,Styphnolobium japonicum,False,C\ Berenguer de Palou,,56.91,no_facade,29.67,check
+0152625AR,Melia azedarach,False,C\ Felip II,8.14,6.67,ok,,large
+0152627AR,Jacaranda mimosifolia,False,C\ Costa Rica,11.12,9.19,ok,,large
+0152629AR,Melia azedarach,False,C\ Martí Molins,3.33,2.21,ok,,small
+0152630AR,Tipuana tipu,False,Av Meridiana,24.23,16.0,ok,,large
+0152631AR,Ulmus pumila,False,C\ Concepción Arenal,,8.64,no_kerb,27.96,check
+0152633AR,Styphnolobium japonicum,False,C\ Felip II,,21.79,median,,check
+0152634AR,Jacaranda mimosifolia,False,C\ Cardenal Tedeschini,7.42,4.74,ok,,large
+0152637AR,Platanus × acerifolia,True,C\ Portugal,,12.08,median,,check
+0152638AR,Styphnolobium japonicum,False,C\ Felip II,,22.88,median,,check
+0152639AR,Platanus × acerifolia,True,C\ Costa Rica,4.52,3.88,ok,,medium
+0152640AR,Melia azedarach,False,C\ Gran de la Sagrera,4.3,3.22,ok,,medium
+0152641AR,Melia azedarach,False,C\ Gran de la Sagrera,4.69,4.03,ok,,medium
+0152642AR,Melia azedarach,False,C\ Concepción Arenal,4.18,3.56,ok,,medium
+0152643AR,Platanus × acerifolia,True,C\ Hondures,5.37,3.91,ok,,medium
+0152644AR,Melia azedarach,False,C\ Gran de la Sagrera,4.56,3.79,ok,,medium
+0152646AR,Melia azedarach,False,C\ Sant Antoni Maria Claret,2.82,2.1,ok,,small
+0152648AR,Melia azedarach,False,C\ Gran de la Sagrera,4.02,3.3,ok,,medium
+0152649AR,Platanus × acerifolia,True,C\ Portugal,3.57,2.73,ok,,medium
+0152650AR,Jacaranda mimosifolia,False,C\ Cardenal Tedeschini,4.84,3.66,ok,,medium
+0152652AR,Platanus × acerifolia,True,Av Meridiana,18.44,15.98,ok,,large
+0152654AR,Styphnolobium japonicum,False,C\ Felip II,,28.13,median,,check
+0152655AR,Melia azedarach,False,C\ Concepción Arenal,4.14,2.55,ok,,medium
+0152656AR,Melia azedarach,False,C\ Gran de la Sagrera,9.47,8.35,ok,,large
+0152657AR,Melia azedarach,False,C\ Gran de la Sagrera,4.37,3.52,ok,,medium
+0152659AR,Platanus × acerifolia,True,Av Meridiana,21.09,17.43,ok,,large
+0152661AR,Melia azedarach,False,C\ Gran de la Sagrera,4.48,3.8,ok,,medium
+0152664AR,Melia azedarach,False,C\ Martí Molins,3.36,2.28,ok,,small
+0152666AR,Pyrus calleryana 'Chanticleer',False,C\ Concepción Arenal,4.04,3.07,ok,,medium
+0152667AR,Tipuana tipu,False,C\ Camp de la Ferro,4.93,3.43,ok,,medium
+0152668AR,Melia azedarach,False,C\ Torroella de Montgrí,,16.52,median,,check
+0152669AR,Firmiana simplex,False,C\ Ciutat d'Elx,3.93,3.45,ok,,medium
+0152670AR,Pyrus calleryana 'Chanticleer',False,C\ Concepción Arenal,4.15,3.37,ok,,medium
+0152674AR,Melia azedarach,False,C\ Indústria,4.85,3.86,ok,,medium
+0152675AR,Platanus × acerifolia,True,Av Meridiana,12.59,9.63,ok,,large
+0152677AR,Platanus × acerifolia,True,Av Meridiana,11.9,8.42,ok,,large
+0152678AR,Citrus × aurantium,False,C\ Pacífic,1.58,1.56,ok,,none
+0152680AR,Styphnolobium japonicum,False,C\ Hondures,15.66,12.06,ok,,large
+0152681AR,Tipuana tipu,False,Pl Assemblea de Catalunya,4.75,2.45,ok,,medium
+0152683AR,Pyrus calleryana 'Chanticleer',False,Pl Masadas,,3.69,no_kerb,,check
+0152685AR,Tipuana tipu,False,C\ Camp de la Ferro,5.92,4.52,ok,,medium
+0152686AR,Jacaranda mimosifolia,False,C\ Emilia Pardo Bazán,3.37,2.52,ok,,small
+0152687AR,Firmiana simplex,False,C\ Olesa,6.12,3.21,ok,,large
+0152688AR,Melia azedarach,False,C\ Felip II,8.4,7.16,ok,,large
+0152690AR,Melia azedarach,False,C\ Clara Zetkin,4.33,3.72,ok,,medium
+0152692AR,Citrus × aurantium,False,C\ Coll,5.72,5.08,ok,,medium
+0152694AR,Platanus × acerifolia,True,C\ Gran de la Sagrera,,54.46,no_facade,,check
+0152695AR,Jacaranda mimosifolia,False,C\ Olesa,14.59,13.66,ok,,large
+0152696AR,Jacaranda mimosifolia,False,C\ Olesa,17.75,16.68,ok,,large
+0152697AR,Ligustrum lucidum,False,C\ Pare Manyanet,11.79,4.11,ok,,large
+0152699AR,Jacaranda mimosifolia,False,C\ Cardenal Tedeschini,5.06,4.72,ok,,medium
+0152700AR,Firmiana simplex,False,C\ Josep Estivill,5.78,4.77,ok,,medium
+0152704AR,Melia azedarach,False,C\ Felip II,5.0,4.35,ok,,medium
+0152706AR,Platanus × acerifolia,True,C\ Rovira i Virgili,,36.36,no_facade,,check
+0152707AR,Platanus × acerifolia,True,C\ Rovira i Virgili,,18.94,median,,check
+0152708AR,Platanus × acerifolia,True,C\ Dublín,15.29,12.13,ok,,large
+0152710AR,Jacaranda mimosifolia,False,C\ Emilia Pardo Bazán,3.43,2.89,ok,,small
+0152711AR,Styphnolobium japonicum,False,C\ Pere Terré i Domènech,,7.98,no_kerb,,check
+0152712AR,Jacaranda mimosifolia,False,C\ Olesa,8.29,7.27,ok,,large
+0152713AR,Ulmus pumila,False,C\ Felip II,8.2,7.36,ok,,large
+0152714AR,Citrus × aurantium,False,C\ Monlau,2.52,2.18,ok,,small
+0152715AR,Platanus × acerifolia,True,Av Meridiana,11.55,8.29,ok,,large
+0152717AR,Firmiana simplex,False,C\ Olesa,,18.44,median,,check
+0152719AR,Melia azedarach,False,C\ Berenguer de Palou,6.21,5.58,ok,,large
+0152720AR,Brachychiton populneus,False,C\ Garcilaso,,23.44,median,,check
+0152721AR,Platanus × acerifolia,True,C\ Gran de la Sagrera,,67.93,no_facade,,check
+0152722AR,Pinus pinea,False,C\ Hondures,25.44,14.92,ok,,large
+0152724AR,Platanus × acerifolia,True,Av Meridiana,12.04,9.16,ok,,large
+0152725AR,Tipuana tipu,False,Av Meridiana,,17.09,median,21.4,check
+0152727AR,Melia azedarach,False,C\ Gran de la Sagrera,4.59,3.9,ok,,medium
+0152728AR,Melia azedarach,False,C\ Gran de la Sagrera,7.73,7.06,ok,,large
+0152729AR,Tipuana tipu,False,C\ Garcilaso,6.8,4.97,ok,,large
+0152730AR,Jacaranda mimosifolia,False,C\ Cardenal Tedeschini,6.09,4.05,ok,,large
+0152731AR,Firmiana simplex,False,C\ Juan de Garay,4.02,3.39,ok,,medium
+0152733AR,Melia azedarach,False,C\ Berenguer de Palou,5.87,5.07,ok,,medium
+0152734AR,Firmiana simplex,False,C\ Juan de Garay,3.97,3.24,ok,,medium
+0152735AR,Tipuana tipu,False,Av Meridiana,24.09,8.5,ok,,large
+0152737AR,Jacaranda mimosifolia,False,C\ Cardenal Tedeschini,5.06,3.94,ok,,medium
+0152740AR,Celtis australis,False,C\ Garcilaso,,7.45,median,17.6,check
+0152742AR,Styphnolobium japonicum,False,C\ Hondures,23.48,18.45,ok,,large
+0152743AR,Tipuana tipu,False,C\ Berenguer de Palou,4.17,3.4,ok,,medium
+0152744AR,Tipuana tipu,False,C\ Berenguer de Palou,9.04,6.52,ok,,large
+0152747AR,Jacaranda mimosifolia,False,C\ Olesa,16.94,16.16,ok,,large
+0152750AR,Citrus × aurantium,False,C\ Coll,,2.59,no_kerb,,check
+0152752AR,Tipuana tipu,False,C\ Camp de la Ferro,,14.5,median,,check
+0152754AR,Styphnolobium japonicum,False,C\ Hondures,,10.1,median,5.2,check
+0152755AR,Platanus × acerifolia,True,Av Meridiana,,27.83,no_kerb,,check
+0152756AR,Citrus × aurantium,False,C\ Pacífic,1.58,1.51,ok,,none
+0152757AR,Melia azedarach,False,C\ Indústria,5.02,4.66,ok,,medium
+0152758AR,Platanus × acerifolia,True,C\ Dublín,,13.96,median,,check
+0152759AR,Firmiana simplex,False,C\ Josep Estivill,4.19,2.92,ok,,medium
+0152760AR,Melia azedarach,False,C\ Gran de la Sagrera,4.81,3.7,ok,,medium
+0152761AR,Citrus × aurantium,False,C\ Pacífic,1.49,0.83,ok,,none
+0152762AR,Ligustrum lucidum,False,C\ Gran de la Sagrera,,36.53,no_facade,10.75,check
+0152763AR,Platanus × acerifolia,True,C\ Hondures,5.12,3.78,ok,,medium
+0152764AR,Jacaranda mimosifolia,False,C\ Torroella de Montgrí,,25.0,median,,check
+0152765AR,Tipuana tipu,False,Av Meridiana,24.08,12.89,ok,,large
+0152766AR,Platanus × acerifolia,True,C\ Clot,24.27,17.9,ok,,large
+0152769AR,Melia azedarach,False,C\ Gran de la Sagrera,4.46,3.55,ok,,medium
+0152770AR,Firmiana simplex,False,C\ Olesa,6.06,2.31,ok,,large
+0152771AR,Tipuana tipu,False,C\ Olesa,20.67,1.53,ok,,large
+0152772AR,Melia azedarach,False,C\ Berenguer de Palou,7.61,6.92,ok,,large
+0152774AR,Styphnolobium japonicum,False,C\ Hondures,4.37,3.2,ok,,medium
+0152775AR,Melia azedarach,False,C\ Martí Molins,4.16,3.08,ok,,medium
+0152776AR,Melia azedarach,False,C\ Clara Zetkin,4.16,2.96,ok,,medium
+0152777AR,Pyrus calleryana 'Chanticleer',False,C\ Cienfuegos,2.9,2.24,ok,,small
+0152778AR,Melia azedarach,False,C\ Dublín,,14.09,median,,check
+0152784AR,Platanus × acerifolia,True,Av Meridiana,16.81,6.09,ok,,large
+0152785AR,Jacaranda mimosifolia,False,C\ Cardenal Tedeschini,4.88,3.68,ok,,medium
+0152786AR,Platanus × acerifolia,True,C\ Portugal,3.79,2.7,ok,,medium
+0152789AR,Melia azedarach,False,C\ Filipines,1.99,1.47,ok,,none
+0152790AR,Platanus × acerifolia,True,C\ Portugal,12.49,12.21,ok,,large
+0152791AR,Melia azedarach,False,C\ Martí Molins,3.15,2.3,ok,,small
+0152794AR,Prunus cerasifera 'Pissardii',False,C\ Mossèn Juliana,2.2,1.24,ok,,none
+0152795AR,Platanus × acerifolia,True,Av Meridiana,11.95,9.32,ok,,large
+0152796AR,Citrus × aurantium,False,C\ Pacífic,1.58,1.7,ok,,none
+0152797AR,Platanus × acerifolia,True,Av Meridiana,18.43,7.37,ok,,large
+0152798AR,Platanus × acerifolia,True,Av Meridiana,,29.68,no_kerb,,check
+0152799AR,Tipuana tipu,False,C\ Berenguer de Palou,5.01,3.86,ok,,medium
+0152800AR,Brachychiton populneus,False,C\ Josep Estivill,13.41,4.1,ok,,large
+0152801AR,Melia azedarach,False,C\ Berenguer de Palou,3.94,3.34,ok,,medium
+0152804AR,Platanus × acerifolia,True,C\ Rovira i Virgili,,19.75,median,,check
+0152805AR,Platanus × acerifolia,True,Av Meridiana,16.14,11.67,ok,,large
+0152806AR,Platanus × acerifolia,True,C\ Gran de la Sagrera,,47.21,no_facade,,check
+0152808AR,Platanus × acerifolia,True,Av Meridiana,12.01,9.06,ok,,large
+0152809AR,Melia azedarach,False,C\ Martí Molins,3.05,2.39,ok,,small
+0152810AR,Prunus cerasifera 'Pissardii',False,C\ Mossèn Juliana,2.19,1.47,ok,,none
+0152812AR,Melia azedarach,False,C\ Indústria,5.07,4.26,ok,,medium
+0152813AR,Melia azedarach,False,C\ Clara Zetkin,4.17,2.9,ok,,medium
+0152814AR,Pyrus calleryana 'Chanticleer',False,Pl Masadas,,3.97,no_kerb,27.99,check
+0152815AR,Platanus × acerifolia,True,C\ Gran de la Sagrera,,68.97,no_facade,,check
+0152816AR,Brachychiton populneus,False,C\ Josep Estivill,19.85,10.14,ok,,large
+0152817AR,Styphnolobium japonicum,False,C\ Gran de la Sagrera,,46.74,no_facade,23.32,check
+0152818AR,Robinia pseudoacacia,False,C\ Cienfuegos,3.17,2.28,ok,,small
+0152819AR,Platanus × acerifolia,True,Av Meridiana,16.78,6.77,ok,,large
+0152820AR,Styphnolobium japonicum,False,C\ Pere Terré i Domènech,,3.96,no_kerb,,check
+0152821AR,Platanus × acerifolia,True,C\ Clot,15.07,10.98,ok,,large
+0152822AR,Platanus × acerifolia,True,Av Meridiana,,26.55,no_kerb,,check
+0152823AR,Melia azedarach,False,C\ Gran de la Sagrera,4.57,3.89,ok,,medium
+0152824AR,Melia azedarach,False,C\ Gran de la Sagrera,19.06,18.23,ok,,large
+0152826AR,Fraxinus angustifolia,False,C\ Ciutat d'Elx,2.74,1.66,ok,,small
+0152827AR,Platanus × acerifolia,True,C\ Rovira i Virgili,,25.6,median,,check
+0152831AR,Firmiana simplex,False,C\ Olesa,7.51,2.77,ok,,large
+0152833AR,Tipuana tipu,False,C\ Garcilaso,,7.74,median,17.58,check
+0152834AR,Platanus × acerifolia,True,Av Meridiana,25.44,9.69,ok,,large
+0152839AR,Melia azedarach,False,C\ Gran de la Sagrera,4.62,4.02,ok,,medium
+0152840AR,Melia azedarach,False,C\ Martí Molins,3.31,2.44,ok,,small
+0152841AR,Robinia pseudoacacia,False,C\ Cienfuegos,2.81,2.2,ok,,small
+0152842AR,Citrus × aurantium,False,C\ Pacífic,1.6,1.47,ok,,none
+0152844AR,Melia azedarach,False,C\ Sant Antoni Maria Claret,2.87,2.06,ok,,small
+0152846AR,Tipuana tipu,False,Av Meridiana,23.95,9.0,ok,,large
+0152847AR,Pyrus calleryana 'Chanticleer',False,C\ Vallès i Ribot,2.94,2.25,ok,,small
+0152848AR,Nerium oleander,False,C\ Açores,3.38,2.27,ok,,small
+0152849AR,Styphnolobium japonicum,False,C\ Pere Terré i Domènech,,4.35,no_kerb,,check
+0152850AR,Melia azedarach,False,C\ Gran de la Sagrera,4.82,4.18,ok,,medium
+0152853AR,Pyrus calleryana 'Chanticleer',False,C\ Cienfuegos,3.06,2.43,ok,,small
+0152854AR,Tipuana tipu,False,C\ Ferran Turné,5.03,3.4,ok,,medium
+0152855AR,Platanus × acerifolia,True,C\ Palència,,21.81,median,,check
+0152856AR,Tipuana tipu,False,C\ Berenguer de Palou,4.98,3.75,ok,,medium
+0152858AR,Styphnolobium japonicum,False,C\ Hondures,12.61,11.69,ok,,large
+0152860AR,Citrus × aurantium,False,C\ Pacífic,1.83,1.15,ok,,none
+0152863AR,Melia azedarach,False,C\ Torroella de Montgrí,6.37,5.71,ok,,large
+0152864AR,Melia azedarach,False,C\ Clara Zetkin,4.17,2.93,ok,,medium
+0152865AR,Platanus × acerifolia,True,Av Meridiana,24.32,9.77,ok,,large
+0152866AR,Tipuana tipu,False,Pl Assemblea de Catalunya,7.21,4.08,ok,,large
+0152867AR,Olea europaea,False,Av Meridiana,16.49,5.2,ok,,large
+0152868AR,Pyrus calleryana 'Chanticleer',False,C\ Nobel,3.16,1.84,ok,,small
+0152869AR,Melia azedarach,False,C\ Felip II,15.75,4.88,ok,,large
+0152870AR,Firmiana simplex,False,C\ Olesa,5.22,4.28,ok,,medium
+0152871AR,Melia azedarach,False,C\ Portugal,,12.79,median,,check
+0152873AR,Firmiana simplex,False,C\ Juan de Garay,4.02,3.52,ok,,medium
+0152875AR,Citrus × aurantium,False,C\ Pacífic,1.55,0.91,ok,,none
+0152876AR,Tipuana tipu,False,C\ Garcilaso,,21.4,median,17.62,check
+0152877AR,Platanus × acerifolia,True,C\ Portugal,3.81,2.76,ok,,medium
+0152878AR,Platanus × acerifolia,True,C\ Rovira i Virgili,,44.5,no_facade,,check
+0152879AR,Platanus × acerifolia,True,Av Meridiana,11.97,8.96,ok,,large
+0152881AR,Tipuana tipu,False,C\ Ferran Turné,5.03,3.7,ok,,medium
+0152882AR,Tipuana tipu,False,C\ Garcilaso,,22.12,median,17.76,check
+0152883AR,Melia azedarach,False,C\ Gran de la Sagrera,4.43,3.07,ok,,medium
+0152884AR,Platanus × acerifolia,True,Av Meridiana,15.11,11.02,ok,,large
+0152885AR,Platanus × acerifolia,True,Av Meridiana,16.64,13.93,ok,,large
+0152886AR,Ligustrum lucidum,False,Av Meridiana,11.74,2.74,ok,,large
+0152887AR,Platanus × acerifolia,True,Av Meridiana,,27.14,no_kerb,,check
+0152888AR,Firmiana simplex,False,C\ Josep Estivill,5.03,4.34,ok,,medium
+0152889AR,Citrus × aurantium,False,C\ Açores,3.37,2.08,ok,,small
+0152890AR,Tipuana tipu,False,C\ Camp de la Ferro,5.72,5.45,ok,,medium
+0152891AR,Jacaranda mimosifolia,False,C\ Emilia Pardo Bazán,3.49,2.88,ok,,small
+0152892AR,Celtis australis,False,C\ Garcilaso,,7.49,median,17.5,check
+0152893AR,Platanus × acerifolia,True,C\ Olesa,13.09,11.89,ok,,large
+0152894AR,Melia azedarach,False,C\ Berenguer de Palou,,62.89,no_facade,20.77,check
+0152895AR,Melia azedarach,False,C\ Gran de la Sagrera,4.56,3.64,ok,,medium
+0152896AR,Platanus × acerifolia,True,C\ Rovira i Virgili,,31.33,no_facade,,check
+0152898AR,Melia azedarach,False,C\ Berenguer de Palou,6.22,5.62,ok,,large
+0152899AR,Pyrus calleryana 'Chanticleer',False,C\ Mossèn Juliana,2.08,1.19,ok,,none
+0152900AR,Pyrus calleryana 'Chanticleer',False,C\ Vallès i Ribot,3.59,2.87,ok,,medium
+0152901AR,Firmiana simplex,False,C\ Ciutat d'Elx,4.36,3.32,ok,,medium
+0152902AR,Prunus cerasifera 'Pissardii',False,C\ Monlau,2.44,1.51,ok,,none
+0152903AR,Melia azedarach,False,C\ Dublín,,15.98,median,7.2,check
+0152904AR,Tipuana tipu,False,C\ Ferran Turné,,16.25,median,4.75,check
+0152905AR,Jacaranda mimosifolia,False,C\ Gran de la Sagrera,,3.69,no_kerb,,check
+0152906AR,Citrus × aurantium,False,C\ Pacífic,1.6,1.71,ok,,none
+0152907AR,Platanus × acerifolia,True,Av Meridiana,22.62,20.27,ok,,large
+0152908AR,Melia azedarach,False,C\ Torroella de Montgrí,,16.25,median,,check
+0152909AR,Pyrus calleryana 'Chanticleer',False,C\ Vallès i Ribot,3.26,2.53,ok,,small
+0152910AR,Tipuana tipu,False,Pl Assemblea de Catalunya,,10.62,median,2.23,check
+0152912AR,Platanus × acerifolia,True,Av Meridiana,11.59,8.25,ok,,large
+0152913AR,Platanus × acerifolia,True,Av Meridiana,23.89,20.83,ok,,large
+0152914AR,Melia azedarach,False,C\ Gran de la Sagrera,4.65,3.8,ok,,medium
+0152915AR,Ulmus pumila,False,C\ Felip II,4.6,4.63,ok,,medium
+0152916AR,Melia azedarach,False,C\ Felip II,8.38,6.91,ok,,large
+0152917AR,Styphnolobium japonicum,False,C\ Gran de la Sagrera,,41.77,no_facade,23.9,check
+0152918AR,Melia azedarach,False,C\ Torroella de Montgrí,,16.18,median,,check
+0152920AR,Firmiana simplex,False,C\ Ciutat d'Elx,4.08,3.76,ok,,medium
+0152922AR,Ulmus pumila,False,C\ Felip II,4.85,4.44,ok,,medium
+0152923AR,Jacaranda mimosifolia,False,C\ Olesa,16.25,15.26,ok,,large
+0152924AR,Citrus × aurantium,False,C\ Monlau,2.32,1.92,ok,,none
+0152927AR,Tipuana tipu,False,C\ Camp de la Ferro,7.33,5.66,ok,,large
+0152928AR,Platanus × acerifolia,True,Av Meridiana,5.16,4.13,ok,,medium
+0152931AR,Firmiana simplex,False,C\ Ciutat d'Elx,4.8,3.68,ok,,medium
+0152932AR,Tipuana tipu,False,C\ Garcilaso,,21.86,median,17.46,check
+0152933AR,Platanus × acerifolia,True,Av Meridiana,11.52,8.13,ok,,large
+0152937AR,Citrus × aurantium,False,C\ Pacífic,1.88,1.19,ok,,none
+0152938AR,Tipuana tipu,False,Av Meridiana,,22.81,median,21.9,check
+0152944AR,Pyrus calleryana 'Chanticleer',False,C\ Vallès i Ribot,2.83,2.17,ok,,small
+0152946AR,Tipuana tipu,False,Av Meridiana,,12.73,median,22.04,check
+0152947AR,Robinia pseudoacacia,False,C\ Cienfuegos,2.7,2.27,ok,,small
+0152948AR,Platanus × acerifolia,True,C\ Portugal,,12.6,median,,check
+0152949AR,Citrus × aurantium,False,C\ Coll,5.03,3.53,ok,,medium
+0152950AR,Melia azedarach,False,C\ Hondures,4.91,4.43,ok,,medium
+0152951AR,Acer negundo,False,C\ Concepción Arenal,4.25,3.4,ok,,medium
+0152952AR,Melia azedarach,False,C\ Torroella de Montgrí,6.44,5.63,ok,,large
+0152955AR,Tipuana tipu,False,Pl Assemblea de Catalunya,,12.77,median,9.41,check
+0152956AR,Tipuana tipu,False,C\ Garcilaso,,7.4,median,17.47,check
+0152957AR,Melia azedarach,False,C\ Portugal,3.57,2.26,ok,,medium
+0152958AR,Firmiana simplex,False,C\ Ciutat d'Elx,3.79,3.63,ok,,medium
+0152959AR,Firmiana simplex,False,C\ Ciutat d'Elx,,13.08,median,1.51,check
+0152960AR,Platanus × acerifolia,True,Av Meridiana,16.73,13.74,ok,,large
+0152962AR,Platanus × acerifolia,True,C\ Portugal,3.72,2.68,ok,,medium
+0152965AR,Platanus × acerifolia,True,Av Meridiana,,23.0,no_kerb,,check
+0152968AR,Tipuana tipu,False,Av Meridiana,,22.5,median,21.44,check
+0152969AR,Melia azedarach,False,C\ Gran de la Sagrera,4.6,4.03,ok,,medium
+0152970AR,Pyrus calleryana 'Chanticleer',False,C\ Vallès i Ribot,3.5,2.54,ok,,medium
+0152972AR,Melia azedarach,False,C\ Ciutat d'Elx,4.26,3.86,ok,,medium
+0152973AR,Citrus × aurantium,False,C\ Açores,,8.58,median,,check
+0152974AR,Tipuana tipu,False,C\ Ferran Turné,6.41,5.42,ok,,large
+0152975AR,Tipuana tipu,False,C\ Garcilaso,15.82,13.94,ok,,large
+0152976AR,Tipuana tipu,False,Av Meridiana,,13.18,median,21.42,check
+0152977AR,Jacaranda mimosifolia,False,C\ Costa Rica,5.01,3.08,ok,,medium
+0152978AR,Platanus × acerifolia,True,Av Meridiana,23.23,17.35,ok,,large
+0152979AR,Styphnolobium japonicum,False,C\ Felip II,,27.71,median,,check
+0152981AR,Cercis siliquastrum,False,C\ Berenguer de Palou,,68.6,no_facade,,check
+0152983AR,Melia azedarach,False,C\ Dublín,13.13,11.61,ok,,large
+0152984AR,Platanus × acerifolia,True,C\ Gran de la Sagrera,11.33,6.03,ok,,large
+0152985AR,Platanus × acerifolia,True,Av Meridiana,12.28,8.96,ok,,large
+0152986AR,Platanus × acerifolia,True,Av Meridiana,19.71,15.09,ok,,large
+0152987AR,Tipuana tipu,False,C\ Camp de la Ferro,5.1,4.38,ok,,medium
+0152989AR,Citrus × aurantium,False,C\ Monlau,2.64,2.54,ok,,small
+0152991AR,Platanus × acerifolia,True,Av Meridiana,12.52,9.33,ok,,large
+0152992AR,Platanus × acerifolia,True,Pl Doctor Cararach Mauri,,11.8,median,,check
+0152995AR,Melia azedarach,False,C\ Indústria,5.5,3.95,ok,,medium
+0152996AR,Styphnolobium japonicum,False,C\ Felip II,,21.9,median,,check
+0152997AR,Melia azedarach,False,C\ Berenguer de Palou,3.92,3.46,ok,,medium
+0152998AR,Melia azedarach,False,C\ Costa Rica,,17.08,no_kerb,,check
+0153000AR,Citrus × aurantium,False,C\ Pacífic,1.95,1.13,ok,,none
+0153002AR,Platanus × acerifolia,True,Av Meridiana,11.8,8.71,ok,,large
+0153005AR,Melia azedarach,False,C\ Gran de la Sagrera,4.53,4.09,ok,,medium
+0153009AR,Tipuana tipu,False,Pl Assemblea de Catalunya,,11.19,median,5.3,check
+0153011AR,Melia azedarach,False,C\ Filipines,2.57,2.07,ok,,small
+0153012AR,Tipuana tipu,False,Av Meridiana,,19.71,median,,check
+0153013AR,Firmiana simplex,False,C\ Juan de Garay,4.03,3.47,ok,,medium
+0153014AR,Melia azedarach,False,C\ Martí Molins,3.24,2.41,ok,,small
+0153015AR,Brachychiton populneus,False,C\ Garcilaso,,20.92,median,17.52,check
+0153016AR,Melia azedarach,False,C\ Garcilaso,,15.96,median,17.49,check
+0153017AR,Melia azedarach,False,C\ Felip II,8.41,7.18,ok,,large
+0153020AR,Styphnolobium japonicum,False,C\ Gran de la Sagrera,,36.49,no_facade,19.58,check
+0153021AR,Platanus × acerifolia,True,C\ Hondures,4.89,3.69,ok,,medium
+0153023AR,Melia azedarach,False,C\ Gran de la Sagrera,4.47,3.82,ok,,medium
+0153024AR,Magnolia grandiflora,False,C\ Garcilaso,,15.71,median,17.48,check
+0153025AR,Styphnolobium japonicum,False,C\ Pere Terré i Domènech,,4.11,no_kerb,,check
+0153027AR,Tipuana tipu,False,Pl Assemblea de Catalunya,7.22,5.48,ok,,large
+0153028AR,Citrus × aurantium,False,C\ Pacífic,1.53,1.55,ok,,none
+0153029AR,Firmiana simplex,False,C\ Juan de Garay,3.96,3.35,ok,,medium
+0153030AR,Melia azedarach,False,C\ Martí Molins,3.37,2.4,ok,,small
+0153032AR,Tipuana tipu,False,Pl Assemblea de Catalunya,,9.76,median,3.59,check
+0153034AR,Jacaranda mimosifolia,False,C\ Cardenal Tedeschini,10.0,9.47,ok,,large
+0153036AR,Platanus × acerifolia,True,C\ Felip II,4.89,4.37,ok,,medium
+0153037AR,Prunus cerasifera 'Pissardii',False,C\ Monlau,2.43,1.53,ok,,none
+0153038AR,Melia azedarach,False,C\ Gran de la Sagrera,4.7,3.64,ok,,medium
+0153039AR,Brachychiton populneus,False,C\ Josep Estivill,21.36,4.18,ok,,large
+0153040AR,Citrus × aurantium,False,C\ Monlau,2.57,2.26,ok,,small
+0153041AR,Styphnolobium japonicum,False,C\ Pere Terré i Domènech,,4.98,no_kerb,,check
+0153042AR,Citrus × aurantium,False,C\ Pacífic,1.51,1.57,ok,,none
+0153043AR,Melia azedarach,False,C\ Gran de la Sagrera,4.62,4.03,ok,,medium
+0153044AR,Firmiana simplex,False,C\ Olesa,6.09,3.15,ok,,large
+0153046AR,Jacaranda mimosifolia,False,C\ Olesa,,17.01,median,,check
+0153047AR,Celtis australis,False,C\ Josep Estivill,,34.19,no_facade,30.34,check
+0153048AR,Melia azedarach,False,C\ Gran de la Sagrera,4.6,3.67,ok,,medium
+0153050AR,Platanus × acerifolia,True,Av Meridiana,18.35,15.01,ok,,large
+0153053AR,Jacaranda mimosifolia,False,C\ Emilia Pardo Bazán,3.48,2.69,ok,,small
+0153054AR,Melia azedarach,False,C\ Berenguer de Palou,9.02,7.27,ok,,large
+0153056AR,Tipuana tipu,False,C\ Ferran Turné,,16.09,median,,check
+0153057AR,Firmiana simplex,False,C\ Juan de Garay,3.94,3.04,ok,,medium
+0153058AR,Melia azedarach,False,C\ Torroella de Montgrí,,16.54,median,,check
+0153059AR,Citrus × aurantium,False,C\ Pacífic,1.81,1.18,ok,,none
+0153060AR,Pinus pinea,False,C\ Hondures,,24.21,no_kerb,,check
+0153062AR,Styphnolobium japonicum,False,C\ Felip II,,30.91,no_facade,38.36,check
+0153063AR,Grevillea robusta,False,C\ Clot,,22.59,median,12.05,check
+0153064AR,Melia azedarach,False,C\ Martí Molins,3.09,2.27,ok,,small
+0153066AR,Tipuana tipu,False,C\ Garcilaso,22.72,7.28,ok,,large
+0153067AR,Platanus × acerifolia,True,Av Meridiana,18.45,8.11,ok,,large
+0153068AR,Platanus × acerifolia,True,C\ Rovira i Virgili,,26.4,median,,check
+0153069AR,Melia azedarach,False,C\ Gran de la Sagrera,4.45,3.72,ok,,medium
+0153070AR,Jacaranda mimosifolia,False,C\ Costa Rica,11.18,9.35,ok,,large
+0153071AR,Melia azedarach,False,C\ Gran de la Sagrera,4.42,3.51,ok,,medium
+0153073AR,Platanus × acerifolia,True,C\ Pare Manyanet,11.85,10.81,ok,,large
+0153075AR,Platanus × acerifolia,True,Av Meridiana,18.38,7.88,ok,,large
+0153076AR,Pyrus calleryana 'Chanticleer',False,C\ Concepción Arenal,4.22,3.46,ok,,medium
+0153077AR,Citrus × aurantium,False,C\ Pacífic,1.57,1.37,ok,,none
+0153078AR,Platanus × acerifolia,True,C\ Portugal,,12.28,median,,check
+0153079AR,Platanus × acerifolia,True,C\ Palència,,16.14,median,,check
+0153080AR,Tipuana tipu,False,Av Meridiana,,19.44,median,21.57,check
+0153083AR,Platanus × acerifolia,True,C\ Portugal,25.79,20.99,ok,,large
+0153084AR,Melia azedarach,False,C\ Josep Estivill,9.61,8.77,ok,,large
+0153085AR,Jacaranda mimosifolia,False,C\ Olesa,,17.29,median,,check
+0153086AR,Melia azedarach,False,C\ Felip II,4.65,4.01,ok,,medium
+0153087AR,Melia azedarach,False,C\ Monlau,2.7,1.73,ok,,small
+0153089AR,Melia azedarach,False,C\ Portugal,,12.49,median,,check
+0153092AR,Platanus × acerifolia,True,Av Meridiana,18.73,16.18,ok,,large
+0153094AR,Platanus × acerifolia,True,Av Meridiana,18.26,7.42,ok,,large
+0153095AR,Tipuana tipu,False,Av Meridiana,,17.66,median,21.79,check
+0153096AR,Jacaranda mimosifolia,False,C\ Cardenal Tedeschini,5.19,5.14,ok,,medium
+0153097AR,Grevillea robusta,False,C\ Clot,3.21,2.3,ok,,small
+0153099AR,Brachychiton populneus,False,C\ Garcilaso,10.44,8.31,ok,,large
+0153102AR,Platanus × acerifolia,True,Av Meridiana,12.02,9.25,ok,,large
+0153104AR,Platanus × acerifolia,True,Av Meridiana,11.67,8.52,ok,,large
+0153105AR,Tipuana tipu,False,C\ Camp de la Ferro,5.1,3.94,ok,,medium
+0153106AR,Citrus × aurantium,False,C\ Pacífic,3.95,3.07,ok,,medium
+0153108AR,Melia azedarach,False,C\ Gran de la Sagrera,11.38,6.28,ok,,large
+0153109AR,Platanus × acerifolia,True,C\ Palència,,16.17,median,,check
+0153110AR,Jacaranda mimosifolia,False,C\ Cardenal Tedeschini,7.61,6.34,ok,,large
+0153111AR,Platanus × acerifolia,True,Av Meridiana,18.5,7.4,ok,,large
+0153112AR,Melia azedarach,False,C\ Berenguer de Palou,3.97,3.28,ok,,medium
+0153114AR,Firmiana simplex,False,C\ Ciutat d'Elx,5.19,3.87,ok,,medium
+0153115AR,Platanus × acerifolia,True,Av Meridiana,11.52,8.2,ok,,large
+0153116AR,Melia azedarach,False,C\ Martí Molins,7.92,5.87,ok,,large
+0153118AR,Firmiana simplex,False,C\ Olesa,6.24,3.05,ok,,large
+0153119AR,Melia azedarach,False,C\ Ciutat d'Elx,8.6,7.12,ok,,large
+0153120AR,Melia azedarach,False,C\ Martí Molins,3.15,2.23,ok,,small
+0153124AR,Platanus × acerifolia,True,C\ Hondures,3.12,2.44,ok,,small
+0153125AR,Jacaranda mimosifolia,False,C\ Costa Rica,17.35,6.42,ok,,large
+0153126AR,Melia azedarach,False,C\ Gran de la Sagrera,4.61,4.07,ok,,medium
+0153128AR,Melia azedarach,False,C\ Garcilaso,22.63,14.81,ok,,large
+0153129AR,Pyrus calleryana 'Chanticleer',False,C\ Nobel,3.13,1.9,ok,,small
+0153130AR,Tipuana tipu,False,C\ Ferran Turné,7.52,6.46,ok,,large
+0153131AR,Tipuana tipu,False,C\ Garcilaso,22.64,7.31,ok,,large
+0153132AR,Jacaranda mimosifolia,False,C\ Costa Rica,,3.96,no_kerb,,check
+0153133AR,Firmiana simplex,False,C\ Ciutat d'Elx,4.84,3.3,ok,,medium
+0153134AR,Platanus × acerifolia,True,C\ Costa Rica,3.07,1.91,ok,,small
+0153137AR,Pyrus calleryana 'Chanticleer',False,C\ Mossèn Juliana,2.1,1.23,ok,,none
+0153138AR,Nerium oleander,False,C\ Açores,3.21,2.77,ok,,small
+0153139AR,Platanus × acerifolia,True,Av Meridiana,18.28,15.35,ok,,large
+0153140AR,Platanus × acerifolia,True,C\ Portugal,3.77,2.81,ok,,medium
+0153141AR,Citrus × aurantium,False,C\ Pacífic,3.64,3.78,ok,,medium
+0153142AR,Tipuana tipu,False,Pl Assemblea de Catalunya,,12.73,median,4.44,check
+0153143AR,Citrus × aurantium,False,C\ Pacífic,1.6,1.43,ok,,none
+0153144AR,Populus nigra,False,Av Meridiana,,7.49,no_kerb,,check
+0153145AR,Citrus × aurantium,False,C\ Pacífic,1.65,1.04,ok,,none
+0153147AR,Tipuana tipu,False,Av Meridiana,24.26,9.62,ok,,large
+0153149AR,Styphnolobium japonicum,False,C\ Felip II,,21.75,median,,check
+0153151AR,Tipuana tipu,False,C\ Camp de la Ferro,5.0,3.3,ok,,medium
+0153153AR,Jacaranda mimosifolia,False,C\ Costa Rica,4.97,3.2,ok,,medium
+0153154AR,Tipuana tipu,False,Pl Assemblea de Catalunya,,11.33,median,,check
+0153155AR,Platanus × acerifolia,True,Av Meridiana,11.99,8.86,ok,,large
+0153156AR,Tipuana tipu,False,Av Meridiana,,15.71,median,21.44,check
+0153157AR,Melia azedarach,False,C\ Hondures,4.88,4.47,ok,,medium
+0153159AR,Platanus × acerifolia,True,C\ Clot,,22.25,median,10.02,check
+0153160AR,Citrus × aurantium,False,C\ Coll,,2.84,no_kerb,,check
+0153161AR,Melia azedarach,False,C\ Gran de la Sagrera,4.81,3.6,ok,,medium
+0153162AR,Platanus × acerifolia,True,Av Meridiana,13.25,9.7,ok,,large
+0153163AR,Tipuana tipu,False,C\ Berenguer de Palou,5.02,3.99,ok,,medium
+0153164AR,Tipuana tipu,False,C\ Camp de la Ferro,5.02,3.27,ok,,medium
+0153166AR,Tipuana tipu,False,C\ Berenguer de Palou,5.02,4.03,ok,,medium
+0153167AR,Tipuana tipu,False,C\ Camp de la Ferro,5.02,4.12,ok,,medium
+0153168AR,Melia azedarach,False,C\ Gran de la Sagrera,6.62,5.14,ok,,large
+0153169AR,Citrus × aurantium,False,C\ Pacífic,1.6,1.48,ok,,none
+0153170AR,Platanus × acerifolia,True,Av Meridiana,17.41,14.88,ok,,large
+0153174AR,Photinia x fraseri 'Red Robin',False,C\ Antonio Ricardos,,11.39,median,,check
+0153178AR,Melia azedarach,False,C\ Berenguer de Palou,,20.38,median,,check
+0153179AR,Melia azedarach,False,C\ Josep Estivill,,18.75,median,,check
+0153180AR,Melia azedarach,False,C\ Gran de la Sagrera,,29.24,median,,check
+0153181AR,Melia azedarach,False,C\ Hondures,2.94,2.01,ok,,small
+0153182AR,Platanus × acerifolia,True,C\ Rovira i Virgili,,21.26,median,,check
+0153185AR,Styphnolobium japonicum,False,C\ Pere Terré i Domènech,,6.09,no_kerb,,check
+0153186AR,Pyrus calleryana 'Chanticleer',False,C\ Cienfuegos,2.76,2.3,ok,,small
+0153187AR,Citrus × aurantium,False,C\ Pacífic,3.65,2.28,ok,,medium
+0153188AR,Melia azedarach,False,C\ Concepción Arenal,4.04,3.27,ok,,medium
+0153189AR,Acer negundo,False,C\ Concepción Arenal,3.95,3.08,ok,,medium
+0153190AR,Jacaranda mimosifolia,False,C\ Emilia Pardo Bazán,3.48,2.81,ok,,small
+0153191AR,Firmiana simplex,False,C\ Josep Estivill,5.02,4.26,ok,,medium
+0153192AR,Melia azedarach,False,C\ Felip II,8.61,4.69,ok,,large
+0153193AR,Melia azedarach,False,C\ Martí Molins,3.15,2.67,ok,,small
+0153194AR,Platanus orientalis,True,C\ Hondures,8.45,7.73,ok,,large
+0153198AR,Melia azedarach,False,C\ Garcilaso,,15.84,median,17.51,check
+0153199AR,Platanus × acerifolia,True,Av Meridiana,12.21,9.27,ok,,large
+0153200AR,Platanus × acerifolia,True,C\ Olesa,4.8,4.12,ok,,medium
+0153202AR,Jacaranda mimosifolia,False,C\ Olesa,,16.86,median,,check
+0153203AR,Firmiana simplex,False,C\ Juan de Garay,3.92,3.04,ok,,medium
+0153205AR,Melia azedarach,False,C\ Indústria,4.45,4.01,ok,,medium
+0153208AR,Jacaranda mimosifolia,False,C\ Olesa,12.86,11.93,ok,,large
+0153209AR,Tipuana tipu,False,C\ Ferran Turné,,4.7,no_kerb,21.36,check
+0153211AR,Jacaranda mimosifolia,False,C\ Emilia Pardo Bazán,3.62,2.76,ok,,medium
+0153212AR,Styphnolobium japonicum,False,C\ Berenguer de Palou,,61.66,no_facade,,check
+0153213AR,Jacaranda mimosifolia,False,C\ Dublín,,14.18,median,,check
+0153214AR,Citrus × aurantium,False,C\ Coll,5.02,4.09,ok,,medium
+0153217AR,Jacaranda mimosifolia,False,C\ Torroella de Montgrí,,12.9,no_kerb,,check
+0153220AR,Tipuana tipu,False,C\ Berenguer de Palou,4.79,3.9,ok,,medium
+0153221AR,Citrus × aurantium,False,C\ Monlau,2.55,2.25,ok,,small
+0153222AR,Prunus cerasifera 'Pissardii',False,C\ Mossèn Juliana,2.2,1.19,ok,,none
+0153223AR,Jacaranda mimosifolia,False,C\ Cardenal Tedeschini,4.9,3.91,ok,,medium
+0153224AR,Melia azedarach,False,C\ Cienfuegos,2.93,2.13,ok,,small
+0153225AR,Tipuana tipu,False,C\ Ferran Turné,4.72,3.85,ok,,medium
+0153226AR,Platanus × acerifolia,True,Av Meridiana,13.53,10.13,ok,,large
+0153227AR,Pyrus calleryana 'Chanticleer',False,C\ Mossèn Juliana,2.81,1.8,ok,,small
+0153228AR,Tipuana tipu,False,C\ Berenguer de Palou,4.98,4.21,ok,,medium
+0153230AR,Prunus cerasifera 'Pissardii',False,C\ Monlau,2.37,1.26,ok,,none
+0153231AR,Jacaranda mimosifolia,False,C\ Costa Rica,11.02,9.13,ok,,large
+0153232AR,Platanus × acerifolia,True,Av Meridiana,26.91,17.31,ok,,large
+0153234AR,Melia azedarach,False,C\ Josep Estivill,22.89,22.04,ok,,large
+0153235AR,Melia azedarach,False,C\ Indústria,4.93,4.67,ok,,medium
+0153237AR,Melia azedarach,False,C\ Gran de la Sagrera,,31.07,no_facade,,check
+0153240AR,Ulmus pumila,False,C\ Felip II,4.8,3.95,ok,,medium
+0153241AR,Platanus × acerifolia,True,C\ Gran de la Sagrera,,50.31,no_facade,,check
+0153242AR,Brachychiton populneus,False,C\ Garcilaso,28.62,27.83,ok,,large
+0153243AR,Pyrus calleryana 'Chanticleer',False,C\ Concepción Arenal,4.03,3.38,ok,,medium
+0153244AR,Firmiana simplex,False,C\ Palència,5.25,4.34,ok,,medium
+0153246AR,Pyrus calleryana 'Chanticleer',False,C\ Vallès i Ribot,2.9,2.22,ok,,small
+0153247AR,Tipuana tipu,False,C\ Garcilaso,,21.26,median,17.5,check
+0153248AR,Platanus × acerifolia,True,Av Meridiana,16.79,14.06,ok,,large
+0153249AR,Tipuana tipu,False,C\ Berenguer de Palou,14.38,10.42,ok,,large
+0153250AR,Melia azedarach,False,C\ Portugal,,12.39,median,,check
+0153251AR,Melia azedarach,False,C\ Gran de la Sagrera,4.58,3.89,ok,,medium
+0153253AR,Melia azedarach,False,C\ Felip II,4.67,4.07,ok,,medium
+0153254AR,Tipuana tipu,False,C\ Olesa,20.87,1.53,ok,,large
+0153255AR,Platanus × acerifolia,True,Av Meridiana,18.41,15.57,ok,,large
+0153258AR,Platanus × acerifolia,True,C\ Olesa,4.84,3.92,ok,,medium
+0153261AR,Platanus × acerifolia,True,C\ Palència,,16.16,median,,check
+0153262AR,Melia azedarach,False,C\ Dublín,,7.07,median,6.89,check
+0153263AR,Platanus × acerifolia,True,C\ Pare Manyanet,,20.63,median,,check
+0153264AR,Ulmus pumila,False,C\ Torroella de Montgrí,,19.24,median,,check
+0153265AR,Platanus × acerifolia,True,C\ Portugal,22.25,18.11,ok,,large
+0153266AR,Citrus × aurantium,False,C\ Monlau,2.44,2.29,ok,,none
+0153267AR,Firmiana simplex,False,C\ Juan de Garay,3.89,3.35,ok,,medium
+0153268AR,Platanus × acerifolia,True,C\ Palència,,16.18,median,,check
+0153270AR,Melia azedarach,False,C\ Filipines,1.89,1.56,ok,,none
+0153271AR,Brachychiton acerifolius,False,C\ Garcilaso,,29.75,no_kerb,,check
+0153276AR,Melia azedarach,False,C\ Berenguer de Palou,7.68,0.65,ok,,large
+0153277AR,Platanus × acerifolia,True,Av Meridiana,12.0,8.74,ok,,large
+0153278AR,Melia azedarach,False,C\ Gran de la Sagrera,4.52,3.73,ok,,medium
+0153279AR,Styphnolobium japonicum,False,C\ Hondures,7.21,6.22,ok,,large
+0153280AR,Tipuana tipu,False,C\ Ferran Turné,21.24,14.15,ok,,large
+0153282AR,Jacaranda mimosifolia,False,C\ Emilia Pardo Bazán,3.41,2.47,ok,,small
+0153283AR,Brachychiton populneus,False,C\ Olesa,11.29,4.68,ok,,large
+0153284AR,Brachychiton populneus,False,C\ Josep Estivill,,3.69,no_kerb,,check
+0153285AR,Melia azedarach,False,C\ Torroella de Montgrí,15.05,14.52,ok,,large
+0153286AR,Firmiana simplex,False,C\ Palència,5.3,4.77,ok,,medium
+0153287AR,Tipuana tipu,False,C\ Garcilaso,,24.02,median,,check
+0153288AR,Citrus × aurantium,False,C\ Monlau,2.54,2.06,ok,,small
+0153289AR,Brachychiton populneus,False,C\ Garcilaso,6.81,4.41,ok,,large
+0153291AR,Firmiana simplex,False,C\ Palència,7.35,6.47,ok,,large
+0153292AR,Platanus × acerifolia,True,Av Meridiana,11.51,8.4,ok,,large
+0153293AR,Platanus × acerifolia,True,C\ Pare Manyanet,13.05,11.79,ok,,large
+0153294AR,Pyrus calleryana 'Chanticleer',False,C\ Nobel,3.08,1.61,ok,,small
+0153298AR,Firmiana simplex,False,C\ Juan de Garay,4.1,3.46,ok,,medium
+0153299AR,Tipuana tipu,False,C\ Ferran Turné,5.03,3.56,ok,,medium
+0153300AR,Brachychiton populneus,False,C\ Garcilaso,6.87,4.49,ok,,large
+0153302AR,Jacaranda mimosifolia,False,C\ Cardenal Tedeschini,7.65,6.58,ok,,large
+0153305AR,Firmiana simplex,False,C\ Juan de Garay,4.27,3.5,ok,,medium
+0153308AR,Ligustrum lucidum,False,C\ Gran de la Sagrera,,46.12,no_facade,21.38,check
+0153309AR,Platanus × acerifolia,True,Av Meridiana,16.37,13.22,ok,,large
+0153310AR,Pyrus calleryana 'Chanticleer',False,Pl Masadas,,3.29,no_kerb,,check
+0153311AR,Jacaranda mimosifolia,False,C\ Cardenal Tedeschini,9.13,3.86,ok,,large
+0153312AR,Quercus ilex,False,C\ Pegàs,15.41,7.68,ok,,large
+0153315AR,Platanus × acerifolia,True,Av Meridiana,12.34,8.68,ok,,large
+0153316AR,Citrus × aurantium,False,C\ Pacífic,1.64,0.98,ok,,none
+0153318AR,Brachychiton populneus,False,C\ Josep Estivill,25.78,4.0,ok,,large
+0153319AR,Melia azedarach,False,C\ Gran de la Sagrera,,32.88,no_facade,,check
+0153320AR,Melia azedarach,False,C\ Gran de la Sagrera,4.53,4.29,ok,,medium
+0153322AR,Styphnolobium japonicum,False,C\ Hondures,4.72,3.81,ok,,medium
+0153325AR,Melia azedarach,False,C\ Portugal,3.73,3.03,ok,,medium
+0153326AR,Citrus × aurantium,False,C\ Monlau,2.61,1.96,ok,,small
+0153327AR,Prunus cerasifera 'Pissardii',False,C\ Mossèn Juliana,2.12,1.48,ok,,none
+0153329AR,Melia azedarach,False,C\ Indústria,4.84,3.54,ok,,medium
+0153330AR,Tipuana tipu,False,C\ Berenguer de Palou,17.35,12.76,ok,,large
+0153333AR,Jacaranda mimosifolia,False,C\ Cardenal Tedeschini,9.24,8.62,ok,,large
+0153334AR,Melia azedarach,False,C\ Gran de la Sagrera,,25.66,median,11.49,check
+0153335AR,Tipuana tipu,False,C\ Camp de la Ferro,5.1,4.2,ok,,medium
+0153336AR,Platanus × acerifolia,True,Av Meridiana,11.95,9.38,ok,,large
+0153337AR,Pyrus calleryana 'Chanticleer',False,C\ Vallès i Ribot,2.86,2.1,ok,,small
+0153338AR,Tipuana tipu,False,C\ Garcilaso,7.34,6.28,ok,,large
+0153339AR,Pyrus calleryana 'Chanticleer',False,C\ Concepción Arenal,3.91,3.0,ok,,medium
+0153340AR,Melia azedarach,False,C\ Felip II,8.53,7.65,ok,,large
+0153341AR,Ulmus pumila,False,C\ Torroella de Montgrí,11.17,10.54,ok,,large
+0153343AR,Tipuana tipu,False,C\ Camp de la Ferro,12.87,9.47,ok,,large
+0153344AR,Platanus × acerifolia,True,Av Meridiana,11.48,8.06,ok,,large
+0153345AR,Styphnolobium japonicum,False,C\ Pere Terré i Domènech,,4.9,no_kerb,,check
+0153346AR,Platanus × acerifolia,True,C\ Portugal,3.69,2.57,ok,,medium
+0153347AR,Magnolia grandiflora,False,C\ Garcilaso,,15.87,median,,check
+0153348AR,Prunus cerasifera 'Pissardii',False,C\ Josep Estivill,14.15,5.68,ok,,large
+0153349AR,Tipuana tipu,False,C\ Camp de la Ferro,,15.83,median,,check
+0153350AR,Fraxinus ornus OBELISK® 'Paus Johannes-Paulus II',False,C\ Ciutat d'Elx,3.91,3.21,ok,,medium
+0153351AR,Citrus × aurantium,False,C\ Pacífic,3.66,3.63,ok,,medium
+0153352AR,Tipuana tipu,False,C\ Ferran Turné,5.03,3.69,ok,,medium
+0153353AR,Citrus × aurantium,False,C\ Pacífic,1.94,0.75,ok,,none
+0153354AR,Pyrus calleryana 'Chanticleer',False,C\ Nobel,3.14,1.86,ok,,small
+0153356AR,Melia azedarach,False,C\ Felip II,,21.99,median,,check
+0153357AR,Platanus × acerifolia,True,C\ Hondures,2.81,1.96,ok,,small
+0153360AR,Brachychiton populneus,False,C\ Garcilaso,,21.58,median,17.65,check
+0153363AR,Platanus × acerifolia,True,C\ Clot,,23.1,median,15.22,check
+0153364AR,Brachychiton populneus,False,C\ Garcilaso,,21.6,median,17.58,check
+0153365AR,Melia azedarach,False,C\ Felip II,8.14,6.8,ok,,large
+0153366AR,Melia azedarach,False,C\ Gran de la Sagrera,,21.56,median,,check
+0153367AR,Tipuana tipu,False,C\ Camp de la Ferro,5.0,3.25,ok,,medium
+0153368AR,Melia azedarach,False,C\ Felip II,4.78,4.34,ok,,medium
+0153369AR,Firmiana simplex,False,C\ Ciutat d'Elx,3.72,2.47,ok,,medium
+0153370AR,Melia azedarach,False,C\ Felip II,5.06,4.58,ok,,medium
+0153371AR,Ulmus pumila,False,C\ Torroella de Montgrí,4.28,3.77,ok,,medium
+0153372AR,Jacaranda mimosifolia,False,C\ Emilia Pardo Bazán,3.45,2.7,ok,,small
+0153375AR,Prunus cerasifera 'Pissardii',False,C\ Mossèn Juliana,2.2,1.31,ok,,none
+0153376AR,Tipuana tipu,False,Pl Assemblea de Catalunya,7.14,5.41,ok,,large
+0153377AR,Citrus × aurantium,False,C\ Pacífic,1.53,0.64,ok,,none
+0153378AR,Firmiana simplex,False,C\ Josep Estivill,4.14,3.26,ok,,medium
+0153379AR,Platanus × acerifolia,True,Av Meridiana,19.21,16.93,ok,,large
+0153380AR,Prunus cerasifera 'Pissardii',False,C\ Mossèn Juliana,2.2,1.28,ok,,none
+0153382AR,Styphnolobium japonicum,False,C\ Hondures,8.7,6.91,ok,,large
+0153383AR,Citrus × aurantium,False,C\ Monlau,2.57,2.19,ok,,small
+0153384AR,Citrus × aurantium,False,C\ Pacífic,1.62,1.52,ok,,none
+0153385AR,Platanus × acerifolia,True,Av Meridiana,16.78,6.05,ok,,large
+0153386AR,Tipuana tipu,False,C\ Olesa,18.4,1.37,ok,,large
+0153387AR,Styphnolobium japonicum,False,C\ Hondures,5.63,4.45,ok,,medium
+0153388AR,Firmiana simplex,False,C\ Ciutat d'Elx,11.11,11.05,ok,,large
+0153389AR,Platanus × acerifolia,True,C\ Costa Rica,4.52,3.79,ok,,medium
+0153390AR,Citrus × aurantium,False,C\ Pacífic,1.54,0.99,ok,,none
+0153391AR,Citrus × aurantium,False,C\ Monlau,2.42,2.16,ok,,none
+0153393AR,Platanus × acerifolia,True,Av Meridiana,12.03,9.26,ok,,large
+0153394AR,Citrus × aurantium,False,C\ Monlau,2.59,2.25,ok,,small
+0153396AR,Jacaranda mimosifolia,False,C\ Cardenal Tedeschini,4.98,3.8,ok,,medium
+0153397AR,Ulmus pumila,False,C\ Felip II,10.4,4.91,ok,,large
+0153398AR,Styphnolobium japonicum,False,C\ Pere Terré i Domènech,,10.48,no_kerb,,check
+0153400AR,Prunus cerasifera 'Pissardii',False,C\ Monlau,2.62,1.74,ok,,small
+0153401AR,Melia azedarach,False,C\ Martí Molins,5.23,3.84,ok,,medium
+0153402AR,Citrus × aurantium,False,C\ Pacífic,1.64,0.89,ok,,none
+0153403AR,Melia azedarach,False,C\ Clot,,22.14,median,7.65,check
+0153406AR,Styphnolobium japonicum,False,C\ Pere Terré i Domènech,,4.82,no_kerb,,check
+0153408AR,Tipuana tipu,False,C\ Garcilaso,,21.91,median,17.69,check
+0153411AR,Ulmus pumila,False,C\ Torroella de Montgrí,8.67,7.92,ok,,large
+0153414AR,Platanus × acerifolia,True,C\ Dublín,12.9,10.1,ok,,large
+0153415AR,Brachychiton populneus,False,C\ Garcilaso,,23.59,median,,check
+0153416AR,Citrus × aurantium,False,C\ Pacífic,1.64,1.02,ok,,none
+0153417AR,Platanus × acerifolia,True,C\ Hondures,3.18,2.65,ok,,small
+0153419AR,Jacaranda mimosifolia,False,C\ Cardenal Tedeschini,4.94,3.76,ok,,medium
+0153420AR,Pyrus calleryana 'Chanticleer',False,C\ Concepción Arenal,3.81,2.99,ok,,medium
+0153421AR,Platanus × acerifolia,True,C\ Hondures,,19.81,median,,check
+0153423AR,Citrus × aurantium,False,C\ Pacífic,3.9,3.12,ok,,medium
+0153424AR,Brachychiton populneus,False,C\ Garcilaso,,22.15,median,17.72,check
+0153425AR,Melia azedarach,False,C\ Concepción Arenal,4.26,3.25,ok,,medium
+0153426AR,Melia azedarach,False,C\ Felip II,8.56,7.57,ok,,large
+0153427AR,Ulmus pumila,False,C\ Felip II,4.68,3.75,ok,,medium
+0153428AR,Hibiscus syriacus,False,C\ Josep Estivill,,24.87,no_kerb,20.02,check
+0153429AR,Platanus × acerifolia,True,C\ Olesa,8.4,7.26,ok,,large
+0153431AR,Celtis sinensis,False,C\ Garcilaso,22.68,7.13,ok,,large
+0153433AR,Citrus × aurantium,False,C\ Pacífic,3.93,3.21,ok,,medium
+0153434AR,Citrus × aurantium,False,C\ Pacífic,1.53,1.36,ok,,none
+0153435AR,Tipuana tipu,False,C\ Camp de la Ferro,5.03,3.34,ok,,medium
+0153436AR,Melia azedarach,False,C\ Ciutat d'Elx,8.85,6.91,ok,,large
+0153438AR,Platanus × acerifolia,True,C\ Portugal,,12.36,median,,check
+0153439AR,Ligustrum lucidum,False,C\ Gran de la Sagrera,,30.69,no_facade,6.34,check
+0153440AR,Jacaranda mimosifolia,False,C\ Emilia Pardo Bazán,3.47,2.86,ok,,small
+0153443AR,Tipuana tipu,False,C\ Camp de la Ferro,4.93,4.47,ok,,medium
+0153444AR,Platanus × acerifolia,True,C\ Berenguer de Palou,,20.5,median,,check
+0153446AR,Platanus × acerifolia,True,C\ Palència,,16.25,median,,check
+0153447AR,Citrus × aurantium,False,C\ Monlau,2.31,1.91,ok,,none
+0153448AR,Tipuana tipu,False,C\ Berenguer de Palou,5.0,4.16,ok,,medium
+0153449AR,Platanus × acerifolia,True,C\ Palència,,16.46,median,,check
+0153450AR,Jacaranda mimosifolia,False,C\ Cardenal Tedeschini,7.29,3.78,ok,,large
+0153451AR,Citrus × aurantium,False,C\ Monlau,2.34,2.22,ok,,none
+0153453AR,Cercis siliquastrum,False,C\ Berenguer de Palou,,70.28,no_facade,,check
+0153456AR,Tipuana tipu,False,C\ Ferran Turné,,3.69,no_kerb,,check
+0153457AR,Tipuana tipu,False,C\ Camp de la Ferro,,15.44,median,,check
+0153458AR,Styphnolobium japonicum,False,C\ Hondures,,18.17,median,,check
+0153460AR,Citrus × aurantium,False,C\ Monlau,2.51,2.15,ok,,small
+0153461AR,Tipuana tipu,False,C\ Berenguer de Palou,4.94,3.55,ok,,medium
+0153463AR,Melia azedarach,False,C\ Gran de la Sagrera,4.67,3.88,ok,,medium
+0153464AR,Tipuana tipu,False,C\ Indústria,26.26,23.13,ok,,large
+0153465AR,Melia azedarach,False,C\ Ciutat d'Elx,5.3,4.82,ok,,medium
+0153466AR,Melia azedarach,False,C\ Berenguer de Palou,6.57,5.41,ok,,large
+0153467AR,Jacaranda mimosifolia,False,C\ Juan de Garay,4.02,3.06,ok,,medium
+0153468AR,Platanus × acerifolia,True,C\ Palència,,16.75,median,,check
+0153469AR,Firmiana simplex,False,C\ Olesa,6.01,3.25,ok,,large
+0153472AR,Citrus × aurantium,False,C\ Pacífic,1.68,0.94,ok,,none
+0153473AR,Tipuana tipu,False,C\ Olesa,20.8,0.98,ok,,large
+0153474AR,Citrus × aurantium,False,C\ Pacífic,9.94,5.72,ok,,large
+0153475AR,Platanus × acerifolia,True,C\ Portugal,3.76,2.67,ok,,medium
+0153476AR,Citrus × aurantium,False,C\ Coll,5.02,4.38,ok,,medium
+0153477AR,Firmiana simplex,False,C\ Olesa,17.55,3.12,ok,,large
+0153479AR,Tipuana tipu,False,Pl Assemblea de Catalunya,7.21,4.13,ok,,large
+0153481AR,Brachychiton populneus,False,C\ Garcilaso,,23.46,median,,check
+0153483AR,Citrus × aurantium,False,C\ Pacífic,1.61,1.48,ok,,none
+0153484AR,Melia azedarach,False,C\ Gran de la Sagrera,4.56,3.82,ok,,medium
+0153485AR,Platanus × acerifolia,True,C\ Berenguer de Palou,,21.31,median,,check
+0153486AR,Citrus × aurantium,False,C\ Pacífic,1.99,1.64,ok,,none
+0153487AR,Jacaranda mimosifolia,False,C\ Torroella de Montgrí,,16.45,median,22.81,check
+0153488AR,Platanus × acerifolia,True,Av Meridiana,18.47,7.46,ok,,large
+0153489AR,Pyrus calleryana 'Chanticleer',False,C\ Concepción Arenal,4.05,3.14,ok,,medium
+0153490AR,Citrus × aurantium,False,C\ Pacífic,1.5,0.69,ok,,none
+0153491AR,Pyrus calleryana 'Chanticleer',False,C\ Mossèn Juliana,2.29,1.41,ok,,none
+0153492AR,Firmiana simplex,False,C\ Josep Estivill,3.95,2.97,ok,,medium
+0153493AR,Platanus × acerifolia,True,Av Meridiana,18.42,8.71,ok,,large
+0153495AR,Prunus cerasifera 'Pissardii',False,C\ Monlau,2.35,1.49,ok,,none
+0153496AR,Citrus × aurantium,False,C\ Açores,3.35,2.03,ok,,small
+0153497AR,Firmiana simplex,False,C\ Josep Estivill,4.07,2.94,ok,,medium
+0153498AR,Jacaranda mimosifolia,False,C\ Torroella de Montgrí,,20.28,median,17.15,check
+0153499AR,Jacaranda mimosifolia,False,C\ Cardenal Tedeschini,8.13,7.08,ok,,large
+0153500AR,Platanus × acerifolia,True,C\ Portugal,3.82,2.81,ok,,medium
+0153501AR,Platanus × acerifolia,True,C\ Portugal,3.92,2.91,ok,,medium
+0153502AR,Jacaranda mimosifolia,False,C\ Gran de la Sagrera,,7.4,no_kerb,,check
+0153503AR,Acer negundo,False,C\ Felip II,8.58,8.02,ok,,large
+0153504AR,Ligustrum lucidum,False,Av Meridiana,13.64,7.23,ok,,large
+0153505AR,Pyrus calleryana 'Chanticleer',False,C\ Nobel,3.05,1.61,ok,,small
+0153506AR,Jacaranda mimosifolia,False,C\ Emilia Pardo Bazán,3.49,2.9,ok,,small
+0153508AR,Tipuana tipu,False,C\ Indústria,26.26,6.91,ok,,large
+0153509AR,Platanus × acerifolia,True,C\ Portugal,,11.92,median,,check
+0153512AR,Styphnolobium japonicum,False,C\ Felip II,,33.88,no_facade,,check
+0153514AR,Melia azedarach,False,C\ Berenguer de Palou,6.18,5.2,ok,,large
+0153515AR,Melia azedarach,False,C\ Felip II,8.13,7.1,ok,,large
+0153516AR,Citrus × aurantium,False,C\ Monlau,2.52,2.14,ok,,small
+0153517AR,Melia azedarach,False,C\ Indústria,4.92,3.78,ok,,medium
+0153519AR,Tipuana tipu,False,C\ Ferran Turné,13.54,4.3,ok,,large
+0153520AR,Pyrus calleryana 'Chanticleer',False,C\ Nobel,3.12,1.85,ok,,small
+0153521AR,Firmiana simplex,False,C\ Olesa,17.74,14.62,ok,,large
+0153522AR,Firmiana simplex,False,C\ Olesa,5.91,4.96,ok,,medium
+0153524AR,Prunus cerasifera 'Pissardii',False,C\ Josep Estivill,16.78,4.47,ok,,large
+0153525AR,Tipuana tipu,False,C\ Garcilaso,7.51,6.15,ok,,large
+0153526AR,Melia azedarach,False,C\ Gran de la Sagrera,23.1,22.13,ok,,large
+0153527AR,Platanus × acerifolia,True,Av Meridiana,16.81,6.38,ok,,large
+0153528AR,Melia azedarach,False,C\ Gran de la Sagrera,4.54,3.35,ok,,medium
+0153530AR,Firmiana simplex,False,C\ Palència,5.22,4.4,ok,,medium
+0153531AR,Platanus × acerifolia,True,Av Meridiana,18.51,16.01,ok,,large
+0153532AR,Prunus cerasifera 'Pissardii',False,C\ Mossèn Juliana,2.13,1.6,ok,,none
+0153533AR,Firmiana simplex,False,C\ Josep Estivill,4.12,3.04,ok,,medium
+0153534AR,Styphnolobium japonicum,False,C\ Pere Terré i Domènech,,4.63,no_kerb,,check
+0153535AR,Platanus × acerifolia,True,Av Meridiana,17.75,14.49,ok,,large
+0153539AR,Acer negundo,False,C\ Concepción Arenal,4.33,3.52,ok,,medium
+0153540AR,Prunus cerasifera 'Pissardii',False,C\ Monlau,2.63,1.72,ok,,small
+0153541AR,Platanus × acerifolia,True,C\ Hondures,2.92,1.93,ok,,small
+0153542AR,Platanus × acerifolia,True,Av Meridiana,,35.1,no_facade,,check
+0153543AR,Platanus × acerifolia,True,Av Meridiana,16.67,14.14,ok,,large
+0153544AR,Melia azedarach,False,C\ Martí Molins,3.07,2.1,ok,,small
+0153545AR,Styphnolobium japonicum,False,C\ Felip II,,24.65,median,,check
+0153546AR,Prunus cerasifera 'Pissardii',False,C\ Monlau,2.38,1.38,ok,,none
+0153548AR,Firmiana simplex,False,C\ Olesa,7.97,3.63,ok,,large
+0153549AR,Citrus × aurantium,False,C\ Pacífic,1.59,1.26,ok,,none
+0153550AR,Brachychiton populneus,False,C\ Garcilaso,6.86,4.47,ok,,large
+0153552AR,Citrus × aurantium,False,C\ Monlau,2.61,2.42,ok,,small
+0153553AR,Ligustrum lucidum,False,C\ Pare Manyanet,19.31,11.36,ok,,large
+0153556AR,Magnolia grandiflora,False,C\ Garcilaso,,16.16,median,17.49,check
+0153558AR,Celtis australis,False,C\ Garcilaso,,7.43,median,17.52,check
+0153560AR,Melia azedarach,False,C\ Gran de la Sagrera,6.52,4.96,ok,,large
+0153563AR,Melia azedarach,False,C\ Indústria,4.85,3.9,ok,,medium
+0153564AR,Ulmus pumila,False,Av Meridiana,24.25,4.82,ok,,large
+0153565AR,Styphnolobium japonicum,False,C\ Felip II,,21.88,median,,check
+0153566AR,Firmiana simplex,False,C\ Josep Estivill,3.79,2.95,ok,,medium
+0153567AR,Melia azedarach,False,C\ Felip II,4.88,4.7,ok,,medium
+0153568AR,Jacaranda mimosifolia,False,C\ Torroella de Montgrí,,21.85,median,33.11,check
+0153571AR,Magnolia grandiflora,False,C\ Garcilaso,,15.6,median,17.49,check
+0153573AR,Tipuana tipu,False,C\ Berenguer de Palou,4.99,3.7,ok,,medium
+0153574AR,Tipuana tipu,False,C\ Ferran Turné,5.03,3.5,ok,,medium
+0153579AR,Platanus × acerifolia,True,Av Meridiana,18.3,16.02,ok,,large
+0153582AR,Jacaranda mimosifolia,False,C\ Cardenal Tedeschini,7.32,7.01,ok,,large
+0153583AR,Platanus × acerifolia,True,C\ Portugal,21.64,20.98,ok,,large
+0153584AR,Melia azedarach,False,C\ Felip II,,39.46,no_facade,48.53,check
+0153585AR,Firmiana simplex,False,C\ Ciutat d'Elx,4.82,3.52,ok,,medium
+0153587AR,Pyrus calleryana 'Chanticleer',False,C\ Vallès i Ribot,3.3,2.48,ok,,small
+0153588AR,Platanus × acerifolia,True,Av Meridiana,12.7,9.61,ok,,large
+0153590AR,Prunus cerasifera 'Pissardii',False,C\ Mossèn Juliana,2.05,1.39,ok,,none
+0153591AR,Tipuana tipu,False,C\ Olesa,13.63,4.09,ok,,large
+0153593AR,Platanus × acerifolia,True,C\ Dublín,,14.1,median,,check
+0153595AR,Styphnolobium japonicum,False,C\ Hondures,4.92,3.75,ok,,medium
+0153596AR,Platanus × acerifolia,True,C\ Rovira i Virgili,,18.94,median,,check
+0153597AR,Styphnolobium japonicum,False,C\ Pere Terré i Domènech,,4.68,no_kerb,,check
+0153598AR,Tipuana tipu,False,Av Meridiana,,13.47,median,21.4,check
+0153599AR,Jacaranda mimosifolia,False,C\ Olesa,,16.98,median,,check
+0153600AR,Firmiana simplex,False,C\ Juan de Garay,3.95,3.16,ok,,medium
+0153601AR,Ulmus pumila,False,C\ Torroella de Montgrí,6.42,5.79,ok,,large
+0153603AR,Platanus × acerifolia,True,C\ Portugal,3.88,2.93,ok,,medium
+0153606AR,Firmiana simplex,False,C\ Palència,5.22,4.44,ok,,medium
+0153607AR,Platanus × acerifolia,True,Av Meridiana,16.71,14.4,ok,,large
+0153608AR,Brachychiton populneus,False,C\ Josep Estivill,18.94,4.19,ok,,large
+0153611AR,Platanus × acerifolia,True,Av Meridiana,19.11,15.31,ok,,large
+0153613AR,Tipuana tipu,False,C\ Ferran Turné,4.72,3.8,ok,,medium
+0153614AR,Ligustrum lucidum,False,C\ Gran de la Sagrera,,73.56,no_facade,21.07,check
+0153616AR,Ligustrum lucidum,False,Av Meridiana,11.64,2.5,ok,,large
+0153617AR,Jacaranda mimosifolia,False,C\ Torroella de Montgrí,,21.86,no_kerb,,check
+0153619AR,Melia azedarach,False,C\ Gran de la Sagrera,4.63,3.65,ok,,medium
+0153620AR,Jacaranda mimosifolia,False,C\ Cardenal Tedeschini,5.43,4.87,ok,,medium
+0153622AR,Melia azedarach,False,C\ Martí Molins,3.1,2.28,ok,,small
+0153624AR,Tipuana tipu,False,Pl Assemblea de Catalunya,7.2,4.65,ok,,large
+0153625AR,Citrus × aurantium,False,C\ Pacífic,1.54,0.67,ok,,none
+0153627AR,Magnolia grandiflora,False,C\ Garcilaso,,16.01,median,17.59,check
+0153628AR,Citrus × aurantium,False,C\ Pacífic,1.54,0.8,ok,,none
+0153629AR,Jacaranda mimosifolia,False,C\ Emilia Pardo Bazán,3.47,2.74,ok,,small
+0153630AR,Platanus × acerifolia,True,C\ Palència,,16.86,median,,check
+0153631AR,Jacaranda mimosifolia,False,C\ Olesa,,16.66,median,,check
+0153633AR,Jacaranda mimosifolia,False,C\ Costa Rica,,9.32,no_kerb,,check
+0153634AR,Styphnolobium japonicum,False,C\ Hondures,4.91,3.81,ok,,medium
+0153636AR,Platanus × acerifolia,True,C\ Portugal,3.72,2.8,ok,,medium
+0153637AR,Citrus × aurantium,False,C\ Pacífic,1.83,0.91,ok,,none
+0153639AR,Platanus × acerifolia,True,Av Meridiana,16.82,14.19,ok,,large
+0153641AR,Firmiana simplex,False,C\ Olesa,16.78,2.97,ok,,large
+0153643AR,Melia azedarach,False,C\ Gran de la Sagrera,4.44,3.72,ok,,medium
+0153644AR,Jacaranda mimosifolia,False,C\ Emilia Pardo Bazán,3.4,2.59,ok,,small
+0153645AR,Citrus × aurantium,False,C\ Cortit,,2.29,no_kerb,,check
+0153646AR,Melia azedarach,False,C\ Garcilaso,,16.34,median,17.48,check
+0153647AR,Tipuana tipu,False,C\ Camp de la Ferro,5.09,4.45,ok,,medium
+0153648AR,Melia azedarach,False,C\ Clara Zetkin,4.33,3.63,ok,,medium
+0153649AR,Melia azedarach,False,C\ Felip II,8.41,8.01,ok,,large
+0153650AR,Platanus × acerifolia,True,C\ Portugal,,12.72,median,,check
+0153652AR,Platanus × acerifolia,True,C\ Portugal,13.12,8.36,ok,,large
+0153654AR,Melia azedarach,False,C\ Martí Molins,3.09,2.47,ok,,small
+0153655AR,Tipuana tipu,False,C\ Berenguer de Palou,8.77,5.76,ok,,large
+0153658AR,Platanus × acerifolia,True,C\ Rovira i Virgili,,17.73,median,10.93,check
+0153659AR,Jacaranda mimosifolia,False,C\ Emilia Pardo Bazán,3.49,2.9,ok,,small
+0153660AR,Pyrus calleryana 'Chanticleer',False,C\ Concepción Arenal,4.05,3.25,ok,,medium
+0153661AR,Ulmus pumila,False,C\ Torroella de Montgrí,24.18,5.58,ok,,large
+0153662AR,Jacaranda mimosifolia,False,C\ Costa Rica,17.13,15.83,ok,,large
+0153663AR,Melia azedarach,False,C\ Martí Molins,3.15,2.25,ok,,small
+0153664AR,Melia azedarach,False,C\ Monlau,2.7,1.66,ok,,small
+0153665AR,Tipuana tipu,False,C\ Ferran Turné,4.91,4.2,ok,,medium
+0153666AR,Brachychiton populneus,False,C\ Josep Estivill,17.38,4.18,ok,,large
+0153668AR,Melia azedarach,False,C\ Gran de la Sagrera,4.4,3.84,ok,,medium
+0153669AR,Pyrus calleryana 'Chanticleer',False,C\ Concepción Arenal,,12.59,no_kerb,24.96,check
+0153670AR,Pyrus calleryana 'Chanticleer',False,C\ Vallès i Ribot,3.48,2.75,ok,,small
+0153671AR,Melia azedarach,False,C\ Gran de la Sagrera,,21.5,median,,check
+0153672AR,Jacaranda mimosifolia,False,C\ Juan de Garay,4.02,3.08,ok,,medium
+0153673AR,Melia azedarach,False,C\ Berenguer de Palou,7.73,7.1,ok,,large
+0153674AR,Platanus × acerifolia,True,Av Meridiana,,16.33,no_kerb,,check
+0153676AR,Melia azedarach,False,C\ Gran de la Sagrera,4.56,3.72,ok,,medium
+0153677AR,Platanus × acerifolia,True,C\ Hondures,3.06,2.83,ok,,small
+0153678AR,Platanus × acerifolia,True,Av Meridiana,16.76,6.59,ok,,large
+0153679AR,Styphnolobium japonicum,False,C\ Pere Terré i Domènech,,4.52,no_kerb,,check
+0153682AR,Firmiana simplex,False,C\ Olesa,7.54,6.49,ok,,large
+0153684AR,Prunus cerasifera 'Pissardii',False,C\ Mossèn Juliana,2.2,1.37,ok,,none
+0153686AR,Tipuana tipu,False,C\ Camp de la Ferro,20.16,16.59,ok,,large
+0153688AR,Melia azedarach,False,C\ Torroella de Montgrí,,16.25,median,,check
+0153690AR,Prunus cerasifera 'Pissardii',False,C\ Mossèn Juliana,2.33,1.39,ok,,none
+0153691AR,Firmiana simplex,False,C\ Juan de Garay,4.0,3.8,ok,,medium
+0153693AR,Olea europaea,False,Av Meridiana,16.71,4.16,ok,,large
+0153694AR,Citrus × aurantium,False,C\ Pacífic,1.61,1.66,ok,,none
+0153696AR,Melia azedarach,False,C\ Gran de la Sagrera,,34.7,no_facade,,check
+0153697AR,Melia azedarach,False,C\ Monlau,2.7,1.74,ok,,small
+0153699AR,Citrus × aurantium,False,C\ Pacífic,4.81,3.07,ok,,medium
+0153701AR,Robinia pseudoacacia,False,C\ Olesa,20.49,4.47,ok,,large
+0153702AR,Melia azedarach,False,C\ Gran de la Sagrera,6.51,4.94,ok,,large
+0153703AR,Jacaranda mimosifolia,False,C\ Emilia Pardo Bazán,3.43,2.61,ok,,small
+0153705AR,Platanus × acerifolia,True,Av Meridiana,11.97,9.16,ok,,large
+0153706AR,Celtis australis,False,C\ Garcilaso,,7.71,median,17.46,check
+0153707AR,Styphnolobium japonicum,False,C\ Felip II,,32.05,no_facade,,check
+0153708AR,Prunus cerasifera 'Pissardii',False,Av Meridiana,24.12,16.24,ok,,large
+0153709AR,Melia azedarach,False,C\ Josep Estivill,,22.75,median,,check
+0153710AR,Ligustrum lucidum,False,C\ Pare Manyanet,11.88,4.05,ok,,large
+0153711AR,Platanus × acerifolia,True,C\ Garcilaso,26.95,25.66,ok,,large
+0153712AR,Ulmus pumila,False,C\ Torroella de Montgrí,6.39,5.73,ok,,large
+0153713AR,Platanus × acerifolia,True,Av Meridiana,18.46,8.37,ok,,large
+0153714AR,Citrus × aurantium,False,C\ Pacífic,1.59,1.31,ok,,none
+0153715AR,Brachychiton populneus,False,C\ Pacífic,,5.44,no_kerb,,check
+0153717AR,Jacaranda mimosifolia,False,C\ Emilia Pardo Bazán,3.39,2.58,ok,,small
+0153719AR,Prunus cerasifera 'Pissardii',False,C\ Monlau,2.39,1.36,ok,,none
+0153720AR,Firmiana simplex,False,C\ Juan de Garay,4.05,3.35,ok,,medium
+0153721AR,Melia azedarach,False,C\ Berenguer de Palou,,62.84,no_facade,,check
+0153722AR,Pyrus calleryana 'Chanticleer',False,C\ Mossèn Juliana,2.22,1.38,ok,,none
+0153726AR,Tipuana tipu,False,C\ Martí Molins,,2.39,no_kerb,31.95,check
+0153727AR,Tipuana tipu,False,C\ Garcilaso,,21.01,median,17.55,check
+0153728AR,Platanus × acerifolia,True,C\ Rovira i Virgili,,24.7,median,,check
+0153729AR,Platanus × acerifolia,True,Av Meridiana,,33.95,no_facade,,check
+0153730AR,Melia azedarach,False,C\ Clara Zetkin,4.32,3.57,ok,,medium
+0153732AR,Platanus × acerifolia,True,C\ Clot,7.98,5.89,ok,,large
+0153733AR,Jacaranda mimosifolia,False,C\ Juan de Garay,3.95,2.87,ok,,medium
+0153735AR,Firmiana simplex,False,C\ Josep Estivill,4.16,3.11,ok,,medium
+0153736AR,Melia azedarach,False,C\ Gran de la Sagrera,4.34,3.27,ok,,medium
+0153738AR,Platanus × acerifolia,True,C\ Portugal,,12.06,median,,check
+0153739AR,Jacaranda mimosifolia,False,C\ Costa Rica,11.13,3.98,ok,,large
+0153740AR,Magnolia grandiflora,False,C\ Garcilaso,22.67,14.76,ok,,large
+0153741AR,Ulmus pumila,False,C\ Pegàs,15.3,12.3,ok,,large
+0153744AR,Platanus × acerifolia,True,Av Meridiana,16.79,14.03,ok,,large
+0153746AR,Platanus × acerifolia,True,C\ Cardenal Tedeschini,5.52,5.29,ok,,medium
+0153747AR,Melia azedarach,False,C\ Rovira i Virgili,,29.6,median,,check
+0153748AR,Melia azedarach,False,C\ Felip II,9.12,7.26,ok,,large
+0153749AR,Platanus × acerifolia,True,Av Meridiana,12.13,9.22,ok,,large
+0153751AR,Platanus × acerifolia,True,C\ Dublín,,11.06,median,6.94,check
+0153753AR,Melia azedarach,False,C\ Gran de la Sagrera,4.3,3.3,ok,,medium
+0153754AR,Melia azedarach,False,C\ Gran de la Sagrera,,21.44,median,,check
+0153755AR,Platanus × acerifolia,True,Av Meridiana,11.5,7.87,ok,,large
+0153756AR,Brachychiton populneus,False,C\ Juan de Garay,4.19,3.46,ok,,medium
+0153757AR,Platanus × acerifolia,True,C\ Portugal,12.43,11.89,ok,,large
+0153759AR,Citrus × aurantium,False,C\ Monlau,2.54,2.19,ok,,small
+0153760AR,Tipuana tipu,False,Av Meridiana,,22.45,median,,check
+0153763AR,Jacaranda mimosifolia,False,C\ Costa Rica,,6.0,no_kerb,27.78,check
+0153764AR,Tipuana tipu,False,C\ Berenguer de Palou,4.58,3.92,ok,,medium
+0153766AR,Tipuana tipu,False,C\ Ferran Turné,4.85,4.17,ok,,medium
+0153767AR,Platanus × acerifolia,True,C\ Hondures,5.03,2.03,ok,,medium
+0153768AR,Citrus × aurantium,False,C\ Pacífic,3.95,2.93,ok,,medium
+0153771AR,Citrus × aurantium,False,C\ Pacífic,1.59,1.79,ok,,none
+0153772AR,Melia azedarach,False,C\ Berenguer de Palou,4.02,2.12,ok,,medium
+0153774AR,Tipuana tipu,False,C\ Garcilaso,7.44,6.16,ok,,large
+0153775AR,Citrus × aurantium,False,C\ Pacífic,3.59,2.86,ok,,medium
+0153777AR,Melia azedarach,False,C\ Gran de la Sagrera,4.35,3.2,ok,,medium
+0153779AR,Platanus × acerifolia,True,Av Meridiana,18.45,8.0,ok,,large
+0153780AR,Melia azedarach,False,C\ Martí Molins,3.07,2.37,ok,,small
+0153781AR,Firmiana simplex,False,C\ Ciutat d'Elx,4.79,3.33,ok,,medium
+0153782AR,Melia azedarach,False,C\ Gran de la Sagrera,4.27,3.29,ok,,medium
+0153784AR,Tipuana tipu,False,C\ Ferran Turné,4.95,4.51,ok,,medium
+0153785AR,Jacaranda mimosifolia,False,C\ Costa Rica,4.81,2.71,ok,,medium
+0153786AR,Firmiana simplex,False,C\ Olesa,6.15,3.2,ok,,large
+0153789AR,Citrus × aurantium,False,C\ Monlau,2.5,2.24,ok,,small
+0153792AR,Styphnolobium japonicum,False,C\ Pere Terré i Domènech,,4.34,no_kerb,,check
+0153793AR,Ulmus pumila,False,C\ Torroella de Montgrí,,16.32,median,,check
+0153794AR,Platanus × acerifolia,True,Av Meridiana,20.56,14.85,ok,,large
+0153795AR,Platanus × acerifolia,True,Av Meridiana,14.99,11.55,ok,,large
+0153796AR,Melia azedarach,False,C\ Gran de la Sagrera,4.59,4.01,ok,,medium
+0153797AR,Citrus × aurantium,False,C\ Pacífic,1.56,1.64,ok,,none
+0153798AR,Citrus × aurantium,False,C\ Pacífic,1.55,0.96,ok,,none
+0153799AR,Melia azedarach,False,C\ Gran de la Sagrera,4.48,4.02,ok,,medium
+0153801AR,Melia azedarach,False,C\ Gran de la Sagrera,9.41,8.3,ok,,large
+0153802AR,Firmiana simplex,False,C\ Josep Estivill,3.82,3.32,ok,,medium
+0153803AR,Melia azedarach,False,C\ Gran de la Sagrera,4.59,3.75,ok,,medium
+0153804AR,Melia azedarach,False,C\ Martí Molins,3.28,2.4,ok,,small
+0153806AR,Tipuana tipu,False,C\ Camp de la Ferro,4.97,3.36,ok,,medium
+0153807AR,Platanus × acerifolia,True,Av Meridiana,11.91,8.72,ok,,large
+0153808AR,Prunus cerasifera 'Pissardii',False,C\ Monlau,2.63,1.87,ok,,small
+0153810AR,Melia azedarach,False,C\ Ciutat d'Elx,8.66,7.29,ok,,large
+0153811AR,Pyrus calleryana 'Chanticleer',False,C\ Vallès i Ribot,3.23,2.67,ok,,small
+0153812AR,Melia azedarach,False,C\ Gran de la Sagrera,4.61,4.01,ok,,medium
+0153814AR,Platanus × acerifolia,True,C\ Portugal,3.86,2.54,ok,,medium
+0153815AR,Tilia platyphyllos,False,C\ Antonio Ricardos,10.85,5.96,ok,,large
+0153816AR,Melia azedarach,False,C\ Clara Zetkin,4.18,3.12,ok,,medium
+0153817AR,Melia azedarach,False,C\ Martí Molins,3.15,2.3,ok,,small
+0153818AR,Platanus × acerifolia,True,Av Meridiana,16.68,14.26,ok,,large
+0153819AR,Magnolia grandiflora,False,C\ Garcilaso,,16.49,median,17.55,check
+0153820AR,Melia azedarach,False,C\ Gran de la Sagrera,4.52,3.69,ok,,medium
+0153821AR,Celtis australis,False,C\ Josep Estivill,,25.42,median,,check
+0153822AR,Ligustrum lucidum,False,C\ Gran de la Sagrera,,35.14,no_facade,9.22,check
+0153824AR,Prunus cerasifera 'Pissardii',False,C\ Monlau,2.37,1.33,ok,,none
+0153825AR,Firmiana simplex,False,C\ Ciutat d'Elx,4.79,3.95,ok,,medium
+0153827AR,Jacaranda mimosifolia,False,C\ Emilia Pardo Bazán,3.42,2.97,ok,,small
+0153828AR,Tipuana tipu,False,C\ Martí Molins,,2.24,no_kerb,24.12,check
+0153829AR,Jacaranda mimosifolia,False,C\ Emilia Pardo Bazán,3.45,2.71,ok,,small
+0153831AR,Photinia x fraseri 'Red Robin',False,C\ Coll,,2.67,no_kerb,,check
+0153832AR,Platanus × acerifolia,True,C\ Costa Rica,4.55,4.02,ok,,medium
+0153833AR,Tipuana tipu,False,C\ Camp de la Ferro,4.97,3.92,ok,,medium
+0153834AR,Citrus × aurantium,False,C\ Monlau,2.63,2.15,ok,,small
+0153835AR,Platanus × acerifolia,True,C\ Rovira i Virgili,,26.54,median,21.26,check
+0153836AR,Platanus × acerifolia,True,C\ Garcilaso,,27.15,median,10.96,check
+0153837AR,Citrus × aurantium,False,C\ Açores,,8.72,median,21.75,check
+0153839AR,Fraxinus excelsior,False,C\ Portugal,12.49,8.4,ok,,large
+0153841AR,Robinia pseudoacacia,False,C\ Cienfuegos,2.6,2.4,ok,,small
+0153842AR,Melia azedarach,False,C\ Indústria,4.67,4.21,ok,,medium
+0153844AR,Magnolia grandiflora,False,C\ Garcilaso,,15.85,median,17.48,check
+0153847AR,Firmiana simplex,False,C\ Ciutat d'Elx,4.13,3.61,ok,,medium
+0153849AR,Platanus × acerifolia,True,Av Meridiana,18.32,7.6,ok,,large
+0153850AR,Tipuana tipu,False,C\ Garcilaso,,21.32,median,22.53,check
+0153851AR,Melia azedarach,False,C\ Gran de la Sagrera,4.65,3.94,ok,,medium
+0153852AR,Platanus × acerifolia,True,Av Meridiana,11.96,8.86,ok,,large
+0153855AR,Pyrus calleryana 'Chanticleer',False,Pl Masadas,,3.6,no_kerb,,check
+0153856AR,Citrus × aurantium,False,C\ Açores,3.32,2.26,ok,,small
+0153858AR,Platanus × acerifolia,True,C\ Pare Manyanet,,21.55,median,,check
+0153859AR,Platanus × acerifolia,True,C\ Gran de la Sagrera,,46.18,no_facade,,check
+0153860AR,Jacaranda mimosifolia,False,C\ Cardenal Tedeschini,5.44,5.37,ok,,medium
+0153862AR,Tipuana tipu,False,Av Meridiana,24.02,8.63,ok,,large
+0153863AR,Platanus × acerifolia,True,C\ Gran de la Sagrera,,38.0,no_facade,,check
+0153864AR,Melia azedarach,False,C\ Gran de la Sagrera,4.66,4.09,ok,,medium
+0153866AR,Melia azedarach,False,C\ Pegàs,,15.72,median,,check
+0153868AR,Celtis australis,False,C\ Garcilaso,,7.75,median,17.56,check
+0153869AR,Ligustrum lucidum,False,C\ Pare Manyanet,11.83,4.07,ok,,large
+0153870AR,Tipuana tipu,False,Av Meridiana,,17.9,median,21.42,check
+0153871AR,Platanus × acerifolia,True,Av Meridiana,,34.31,no_facade,,check
+0153873AR,Brachychiton populneus,False,C\ Josep Estivill,19.72,4.55,ok,,large
+0153874AR,Platanus × acerifolia,True,Av Meridiana,11.92,8.91,ok,,large
+0153875AR,Jacaranda mimosifolia,False,C\ Sant Antoni Maria Claret,5.0,2.14,ok,,medium
+0153876AR,Platanus × acerifolia,True,Av Meridiana,16.76,6.35,ok,,large
+0153877AR,Citrus × aurantium,False,C\ Pacífic,1.64,0.79,ok,,none
+0153878AR,Styphnolobium japonicum,False,C\ Felip II,,21.95,median,27.84,check
+0153880AR,Citrus × aurantium,False,C\ Monlau,2.4,2.26,ok,,none
+0153881AR,Melia azedarach,False,C\ Gran de la Sagrera,4.53,3.7,ok,,medium
+0153882AR,Tipuana tipu,False,C\ Olesa,24.78,1.68,ok,,large
+0153883AR,Tipuana tipu,False,C\ Ferran Turné,5.03,3.59,ok,,medium
+0153884AR,Citrus × aurantium,False,C\ Pacífic,3.6,2.98,ok,,medium
+0153885AR,Melia azedarach,False,C\ Monlau,2.6,1.78,ok,,small
+0153886AR,Melia azedarach,False,C\ Concepción Arenal,4.04,3.24,ok,,medium
+0153888AR,Platanus × acerifolia,True,Av Meridiana,18.45,16.15,ok,,large
+0153889AR,Melia azedarach,False,C\ Ciutat d'Elx,4.08,3.27,ok,,medium
+0153890AR,Tipuana tipu,False,C\ Ferran Turné,4.75,3.86,ok,,medium
+0153891AR,Pyrus calleryana 'Chanticleer',False,C\ Vallès i Ribot,3.56,3.02,ok,,medium
+0153892AR,Melia azedarach,False,C\ Martí Molins,3.04,2.2,ok,,small
+0153893AR,Jacaranda mimosifolia,False,C\ Torroella de Montgrí,27.97,14.99,ok,,large
+0153894AR,Ligustrum lucidum,False,C\ Gran de la Sagrera,,23.64,median,6.09,check
+0153896AR,Citrus × aurantium,False,C\ Pacífic,1.64,0.85,ok,,none
+0153900AR,Firmiana simplex,False,C\ Josep Estivill,4.05,2.97,ok,,medium
+0153901AR,Citrus × aurantium,False,C\ Pacífic,1.53,1.06,ok,,none
+0153903AR,Platanus × acerifolia,True,C\ Hondures,7.46,5.18,ok,,large
+0153907AR,Platanus × acerifolia,True,C\ Hondures,7.97,2.35,ok,,large
+0153908AR,Styphnolobium japonicum,False,C\ Pere Terré i Domènech,,4.71,no_kerb,,check
+0153909AR,Platanus × acerifolia,True,Av Meridiana,23.99,21.2,ok,,large
+0153911AR,Melia azedarach,False,C\ Gran de la Sagrera,4.68,3.82,ok,,medium
+0153912AR,Platanus × acerifolia,True,C\ Pare Manyanet,11.81,10.67,ok,,large
+0153913AR,Melia azedarach,False,C\ Gran de la Sagrera,4.46,3.73,ok,,medium
+0153914AR,Tipuana tipu,False,C\ Garcilaso,,7.22,median,17.54,check
+0153915AR,Melia azedarach,False,C\ Martí Molins,3.15,2.24,ok,,small
+0153916AR,Platanus × acerifolia,True,C\ Portugal,3.85,2.52,ok,,medium
+0153917AR,Tipuana tipu,False,C\ Indústria,14.21,4.4,ok,,large
+0153918AR,Melia azedarach,False,C\ Hondures,4.87,4.28,ok,,medium
+0153919AR,Citrus × aurantium,False,C\ Açores,,8.8,median,,check
+0153920AR,Platanus × acerifolia,True,C\ Hondures,7.95,1.82,ok,,large
+0153921AR,Melia azedarach,False,C\ Gran de la Sagrera,4.8,3.72,ok,,medium
+0153923AR,Citrus × aurantium,False,C\ Monlau,2.31,1.8,ok,,none
+0153924AR,Firmiana simplex,False,C\ Ciutat d'Elx,4.78,3.21,ok,,medium
+0153925AR,Jacaranda mimosifolia,False,C\ Olesa,8.14,5.83,ok,,large
+0153927AR,Jacaranda mimosifolia,False,C\ Costa Rica,10.92,3.79,ok,,large
+0153928AR,Melia azedarach,False,C\ Gran de la Sagrera,4.37,3.26,ok,,medium
+0153929AR,Platanus × acerifolia,True,C\ Hondures,2.78,1.91,ok,,small
+0153930AR,Platanus × acerifolia,True,Av Meridiana,11.47,8.23,ok,,large
+0153931AR,Platanus × acerifolia,True,Av Meridiana,16.69,15.14,ok,,large
+0153933AR,Melia azedarach,False,C\ Portugal,,12.24,median,,check
+0153934AR,Firmiana simplex,False,C\ Josep Estivill,4.02,2.93,ok,,medium
+0153936AR,Tipuana tipu,False,Av Meridiana,24.84,9.56,ok,,large
+0153937AR,Firmiana simplex,False,C\ Olesa,6.22,3.41,ok,,large
+0153938AR,Tipuana tipu,False,C\ Ferran Turné,13.01,12.01,ok,,large
+0153939AR,Hibiscus syriacus,False,C\ Josep Estivill,,24.04,no_kerb,18.87,check
+0153940AR,Styphnolobium japonicum,False,C\ Felip II,,24.8,median,,check
+0153941AR,Jacaranda mimosifolia,False,C\ Emilia Pardo Bazán,3.45,2.84,ok,,small
+0153942AR,Pyrus calleryana 'Chanticleer',False,C\ Vallès i Ribot,6.05,1.15,ok,,large
+0153943AR,Citrus × aurantium,False,C\ Pacífic,1.6,1.46,ok,,none
+0153945AR,Jacaranda mimosifolia,False,C\ Cardenal Tedeschini,4.99,4.67,ok,,medium
+0153946AR,Citrus × aurantium,False,C\ Monlau,2.57,2.63,ok,,small
+0153947AR,Pyrus calleryana 'Chanticleer',False,Pl Masadas,,3.74,no_kerb,,check
+0153948AR,Melia azedarach,False,C\ Torroella de Montgrí,17.94,16.41,ok,,large
+0153949AR,Tipuana tipu,False,C\ Berenguer de Palou,4.96,3.9,ok,,medium
+0153951AR,Ulmus pumila,False,C\ Felip II,5.15,4.49,ok,,medium
+0153952AR,Pyrus calleryana 'Chanticleer',False,C\ Cienfuegos,2.92,2.3,ok,,small
+0153954AR,Platanus × acerifolia,True,C\ Portugal,3.79,3.04,ok,,medium
+0153955AR,Platanus × acerifolia,True,Av Meridiana,16.83,15.78,ok,,large
+0153956AR,Ligustrum lucidum,False,Av Meridiana,11.48,2.31,ok,,large
+0153957AR,Platanus × acerifolia,True,C\ Portugal,3.85,2.63,ok,,medium
+0153958AR,Firmiana simplex,False,C\ Ciutat d'Elx,4.56,4.1,ok,,medium
+0153960AR,Melia azedarach,False,C\ Filipines,2.29,1.81,ok,,none
+0153962AR,Tipuana tipu,False,Pl Assemblea de Catalunya,,10.8,median,16.37,check
+0153963AR,Citrus × aurantium,False,C\ Pacífic,1.93,1.11,ok,,none
+0153967AR,Tipuana tipu,False,C\ Berenguer de Palou,4.97,3.77,ok,,medium
+0153968AR,Tipuana tipu,False,C\ Garcilaso,,7.68,median,17.71,check
+0153969AR,Tipuana tipu,False,Pl Assemblea de Catalunya,7.22,5.21,ok,,large
+0153970AR,Platanus × acerifolia,True,C\ Rovira i Virgili,,18.9,median,,check
+0153972AR,Prunus cerasifera 'Pissardii',False,C\ Monlau,2.52,1.41,ok,,small
+0153973AR,Tipuana tipu,False,C\ Camp de la Ferro,15.75,13.6,ok,,large
+0153974AR,Tipuana tipu,False,C\ Indústria,12.97,3.18,ok,,large
+0153975AR,Styphnolobium japonicum,False,C\ Felip II,,38.19,no_facade,43.41,check
+0153976AR,Celtis australis,False,C\ Garcilaso,,8.26,median,17.64,check
+0153977AR,Firmiana simplex,False,C\ Josep Estivill,3.73,2.92,ok,,medium
+0153978AR,Platanus × acerifolia,True,C\ Portugal,,12.21,median,,check
+0153980AR,Tipuana tipu,False,C\ Camp de la Ferro,4.96,4.49,ok,,medium
+0153981AR,Platanus × acerifolia,True,Av Meridiana,18.41,7.97,ok,,large
+0153982AR,Tipuana tipu,False,Pl Assemblea de Catalunya,,10.9,median,12.32,check
+0153983AR,Melia azedarach,False,C\ Gran de la Sagrera,4.39,3.68,ok,,medium
+0153984AR,Melia azedarach,False,C\ Martí Molins,3.09,2.22,ok,,small
+0153985AR,Prunus cerasifera 'Pissardii',False,C\ Mossèn Juliana,2.2,1.16,ok,,none
+0153986AR,Firmiana simplex,False,C\ Olesa,13.87,3.19,ok,,large
+0153987AR,Melia azedarach,False,C\ Pegàs,15.97,14.57,ok,,large
+0153989AR,Platanus × acerifolia,True,Av Meridiana,11.87,8.62,ok,,large
+0153991AR,Tipuana tipu,False,C\ Berenguer de Palou,4.83,3.86,ok,,medium
+0153992AR,Tipuana tipu,False,C\ Cardenal Tedeschini,9.71,5.87,ok,,large
+0153993AR,Firmiana simplex,False,C\ Ciutat d'Elx,,10.71,median,7.19,check
+0153994AR,Tipuana tipu,False,Av Meridiana,24.17,8.46,ok,,large
+0153995AR,Jacaranda mimosifolia,False,C\ Cardenal Tedeschini,5.39,5.26,ok,,medium
+0153996AR,Tipuana tipu,False,C\ Berenguer de Palou,4.98,3.66,ok,,medium
+0153997AR,Jacaranda mimosifolia,False,C\ Costa Rica,4.93,2.92,ok,,medium
+0153998AR,Tipuana tipu,False,C\ Garcilaso,,7.88,median,17.49,check
+0153999AR,Melia azedarach,False,C\ Filipines,2.16,1.57,ok,,none
+0154001AR,Ulmus pumila,False,C\ Felip II,4.6,4.26,ok,,medium
+0154002AR,Ligustrum lucidum,False,C\ Pare Manyanet,17.23,9.47,ok,,large
+0154004AR,Melia azedarach,False,C\ Monlau,2.6,1.58,ok,,small
+0154006AR,Fraxinus excelsior,False,C\ Portugal,20.82,13.06,ok,,large
+0154008AR,Melia azedarach,False,C\ Gran de la Sagrera,11.01,9.81,ok,,large
+0154009AR,Tipuana tipu,False,C\ Ferran Turné,5.03,3.52,ok,,medium
+0154010AR,Platanus × acerifolia,True,Av Meridiana,18.56,8.29,ok,,large
+0154012AR,Platanus × acerifolia,True,Av Meridiana,,14.8,no_kerb,,check
+0154013AR,Phytolacca dioica,False,C\ Garcilaso,22.7,11.62,ok,,large
+0154016AR,Citrus × aurantium,False,C\ Pacífic,1.56,1.48,ok,,none
+0154017AR,Jacaranda mimosifolia,False,C\ Costa Rica,4.85,2.98,ok,,medium
+0154019AR,Tipuana tipu,False,C\ Portugal,9.16,7.77,ok,,large
+0154020AR,Tipuana tipu,False,C\ Ferran Turné,4.94,3.85,ok,,medium
+0154022AR,Melia azedarach,False,C\ Felip II,8.14,7.01,ok,,large
+0154023AR,Platanus × acerifolia,True,C\ Garcilaso,26.14,25.41,ok,,large
+0154025AR,Prunus cerasifera 'Pissardii',False,C\ Mossèn Juliana,2.22,1.48,ok,,none
+0154026AR,Robinia pseudoacacia,False,C\ Cienfuegos,2.94,1.59,ok,,small
+0154027AR,Platanus × acerifolia,True,C\ Portugal,3.6,2.6,ok,,medium
+0154028AR,Melia azedarach,False,C\ Martí Molins,3.4,2.37,ok,,small
+0154031AR,Platanus × acerifolia,True,Av Meridiana,16.64,6.03,ok,,large
+0154033AR,Melia azedarach,False,C\ Felip II,8.33,6.9,ok,,large
+0154034AR,Platanus × acerifolia,True,C\ Dublín,,13.45,median,7.2,check
+0154035AR,Platanus × acerifolia,True,C\ Portugal,3.71,2.76,ok,,medium
+0154036AR,Brachychiton populneus,False,C\ Garcilaso,,30.49,no_facade,,check
+0154038AR,Styphnolobium japonicum,False,C\ Felip II,,24.63,median,,check
+0154039AR,Prunus cerasifera 'Pissardii',False,C\ Mossèn Juliana,2.33,1.3,ok,,none
+0154040AR,Melia azedarach,False,C\ Torroella de Montgrí,6.36,5.68,ok,,large
+0154042AR,Platanus × acerifolia,True,C\ Portugal,,12.0,median,,check
+0154043AR,Tipuana tipu,False,Pl Assemblea de Catalunya,,11.85,median,,check
+0154044AR,Platanus × acerifolia,True,Av Meridiana,13.65,10.09,ok,,large
+0154045AR,Platanus × acerifolia,True,Av Meridiana,22.33,18.84,ok,,large
+0154046AR,Platanus × acerifolia,True,C\ Garcilaso,,30.43,no_facade,,check
+0154047AR,Pyrus calleryana 'Chanticleer',False,C\ Cienfuegos,2.78,2.85,ok,,small
+0154048AR,Platanus × acerifolia,True,Av Meridiana,12.04,8.79,ok,,large
+0154049AR,Citrus × aurantium,False,C\ Pacífic,3.89,3.35,ok,,medium
+0154050AR,Melia azedarach,False,C\ Ciutat d'Elx,8.76,6.77,ok,,large
+0154052AR,Ulmus pumila,False,C\ Juan de Garay,4.03,3.17,ok,,medium
+0154053AR,Jacaranda mimosifolia,False,C\ Gran de la Sagrera,,3.85,no_kerb,,check
+0154054AR,Melia azedarach,False,C\ Gran de la Sagrera,4.67,3.81,ok,,medium
+0154056AR,Melia azedarach,False,C\ Cienfuegos,2.6,2.24,ok,,small
+0154057AR,Melia azedarach,False,C\ Garcilaso,,15.87,median,17.53,check
+0154058AR,Firmiana simplex,False,C\ Hondures,4.87,3.67,ok,,medium
+0154059AR,Melia azedarach,False,C\ Torroella de Montgrí,,16.27,median,,check
+0154060AR,Jacaranda mimosifolia,False,C\ Olesa,10.64,9.99,ok,,large
+0154061AR,Prunus cerasifera 'Pissardii',False,Pl Masadas,,3.3,no_kerb,31.71,check
+0154062AR,Citrus × aurantium,False,C\ Pacífic,3.57,2.77,ok,,medium
+0154063AR,Pyrus calleryana 'Chanticleer',False,C\ Concepción Arenal,4.05,3.55,ok,,medium
+0154064AR,Melia azedarach,False,C\ Martí Molins,3.1,2.43,ok,,small
+0154067AR,Ulmus pumila,False,C\ Felip II,4.63,3.89,ok,,medium
+0154068AR,Citrus × aurantium,False,C\ Monlau,2.62,2.32,ok,,small
+0154069AR,Melia azedarach,False,C\ Gran de la Sagrera,,27.37,median,,check
+0154070AR,Acer negundo,False,C\ Concepción Arenal,,23.56,median,,check
+0154071AR,Styphnolobium japonicum,False,C\ Felip II,,29.13,median,,check
+0154072AR,Firmiana simplex,False,C\ Ciutat d'Elx,,10.46,median,4.81,check
+0154074AR,Melia azedarach,False,C\ Gran de la Sagrera,4.66,4.13,ok,,medium
+0154076AR,Melia azedarach,False,C\ Gran de la Sagrera,10.98,9.89,ok,,large
+0154077AR,Styphnolobium japonicum,False,C\ Felip II,,21.83,median,,check
+0154079AR,Citrus × aurantium,False,C\ Pacífic,3.66,3.66,ok,,medium
+0154081AR,Firmiana simplex,False,C\ Ciutat d'Elx,4.79,3.85,ok,,medium
+0154082AR,Jacaranda mimosifolia,False,C\ Cardenal Tedeschini,5.41,5.17,ok,,medium
+0154083AR,Cercis siliquastrum,False,C\ Berenguer de Palou,,68.43,no_facade,,check
+0154086AR,Melia azedarach,False,C\ Torroella de Montgrí,,16.34,median,,check
+0154087AR,Firmiana simplex,False,C\ Josep Estivill,5.15,3.91,ok,,medium
+0154089AR,Tipuana tipu,False,C\ Berenguer de Palou,4.99,4.01,ok,,medium
+0154090AR,Platanus × acerifolia,True,Av Meridiana,,28.88,no_kerb,,check
+0154091AR,Firmiana simplex,False,C\ Juan de Garay,4.02,3.38,ok,,medium
+0154093AR,Jacaranda mimosifolia,False,C\ Cardenal Tedeschini,4.66,3.73,ok,,medium
+0154095AR,Tipuana tipu,False,C\ Garcilaso,,8.01,median,17.51,check
+0154097AR,Styphnolobium japonicum,False,C\ Felip II,,29.19,median,,check
+0154098AR,Platanus × acerifolia,True,C\ Rovira i Virgili,,22.2,median,,check
+0154099AR,Tipuana tipu,False,C\ Ferran Turné,8.47,7.56,ok,,large
+0154100AR,Platanus × acerifolia,True,Av Meridiana,16.72,6.12,ok,,large
+0154101AR,Citrus × aurantium,False,C\ Coll,5.0,3.86,ok,,medium
+0154102AR,Celtis australis,False,C\ Josep Estivill,,38.21,no_facade,37.39,check
+0154104AR,Platanus × acerifolia,True,C\ Portugal,,12.38,median,,check
+0154105AR,Firmiana simplex,False,C\ Palència,5.2,4.3,ok,,medium
+0154106AR,Melia azedarach,False,C\ Berenguer de Palou,4.03,3.17,ok,,medium
+0154107AR,Styphnolobium japonicum,False,C\ Hondures,6.82,5.96,ok,,large
+0154108AR,Melia azedarach,False,C\ Filipines,2.43,1.99,ok,,none
+0154109AR,Citrus × aurantium,False,C\ Pacífic,1.91,1.14,ok,,none
+0154110AR,Tipuana tipu,False,C\ Camp de la Ferro,5.1,4.16,ok,,medium
+0154111AR,Melia azedarach,False,C\ Monlau,2.6,1.62,ok,,small
+0154112AR,Pyrus calleryana 'Chanticleer',False,C\ Vallès i Ribot,6.12,1.28,ok,,large
+0154113AR,Citrus × aurantium,False,C\ Pacífic,1.64,1.01,ok,,none
+0154114AR,Styphnolobium japonicum,False,C\ Pere Terré i Domènech,,4.49,no_kerb,,check
+0154115AR,Melia azedarach,False,C\ Josep Estivill,18.5,17.67,ok,,large
+0154116AR,Jacaranda mimosifolia,False,C\ Olesa,15.32,14.46,ok,,large
+0154117AR,Jacaranda mimosifolia,False,C\ Sant Antoni Maria Claret,4.99,4.43,ok,,medium
+0154118AR,Tipuana tipu,False,Pl Assemblea de Catalunya,,13.46,median,11.57,check
+0154120AR,Jacaranda mimosifolia,False,C\ Emilia Pardo Bazán,3.4,2.5,ok,,small
+0154121AR,Firmiana simplex,False,C\ Olesa,6.11,3.28,ok,,large
+0154123AR,Ulmus pumila,False,C\ Torroella de Montgrí,,5.48,no_kerb,,check
+0154125AR,Jacaranda mimosifolia,False,C\ Olesa,,17.45,median,,check
+0154126AR,Platanus × acerifolia,True,Av Meridiana,11.93,8.66,ok,,large
+0154128AR,Platanus × acerifolia,True,Av Meridiana,11.45,8.26,ok,,large
+0154129AR,Melia azedarach,False,C\ Felip II,4.63,4.2,ok,,medium
+0154130AR,Melia azedarach,False,C\ Gran de la Sagrera,4.62,3.67,ok,,medium
+0154131AR,Tipuana tipu,False,Av Meridiana,,12.31,median,21.96,check
+0154132AR,Ulmus pumila,False,C\ Felip II,4.69,4.56,ok,,medium
+0154135AR,Pyrus calleryana 'Chanticleer',False,C\ Mossèn Juliana,2.15,1.08,ok,,none
+0154136AR,Platanus × acerifolia,True,C\ Costa Rica,4.55,3.79,ok,,medium
+0154138AR,Pyrus calleryana 'Chanticleer',False,Pl Masadas,,3.64,no_kerb,,check
+0154139AR,Tipuana tipu,False,C\ Camp de la Ferro,4.99,3.54,ok,,medium
+0154142AR,Platanus × acerifolia,True,C\ Clot,,22.43,median,7.39,check
+0154144AR,Citrus × aurantium,False,C\ Pacífic,1.78,1.03,ok,,none
+0154146AR,Platanus × acerifolia,True,Av Meridiana,25.39,10.48,ok,,large
+0154147AR,Tipuana tipu,False,C\ Olesa,,3.46,median,20.75,check
+0154149AR,Tipuana tipu,False,C\ Olesa,20.79,2.0,ok,,large
+0154150AR,Melia azedarach,False,C\ Felip II,4.57,4.06,ok,,medium
+0154152AR,Firmiana simplex,False,C\ Olesa,8.03,3.37,ok,,large
+0154153AR,Melia azedarach,False,C\ Gran de la Sagrera,4.66,3.95,ok,,medium
+0154154AR,Firmiana simplex,False,C\ Juan de Garay,4.07,3.57,ok,,medium
+0154156AR,Pyrus calleryana 'Chanticleer',False,C\ Cienfuegos,2.91,2.09,ok,,small
+0154157AR,Ligustrum lucidum,False,Av Meridiana,12.49,3.23,ok,,large
+0154158AR,Ligustrum lucidum,False,C\ Pare Manyanet,11.74,4.16,ok,,large
+0154159AR,Tipuana tipu,False,C\ Berenguer de Palou,4.7,3.55,ok,,medium
+0154161AR,Citrus × aurantium,False,C\ Pacífic,1.59,1.86,ok,,none
+0154162AR,Jacaranda mimosifolia,False,C\ Juan de Garay,4.03,2.87,ok,,medium
+0154165AR,Platanus × acerifolia,True,C\ Clot,,23.28,median,17.66,check
+0154166AR,Jacaranda mimosifolia,False,C\ Cardenal Tedeschini,5.09,4.04,ok,,medium
+0154167AR,Ligustrum lucidum,False,C\ Gran de la Sagrera,,80.16,no_facade,22.09,check
+0154168AR,Platanus × acerifolia,True,C\ Pare Manyanet,16.98,15.47,ok,,large
+0154169AR,Jacaranda mimosifolia,False,C\ Gran de la Sagrera,,7.5,no_kerb,,check
+0154171AR,Platanus × acerifolia,True,C\ Clot,,23.09,median,6.17,check
+0154173AR,Platanus × acerifolia,True,C\ Portugal,3.68,2.76,ok,,medium
+0154174AR,Jacaranda mimosifolia,False,C\ Emilia Pardo Bazán,3.47,2.7,ok,,small
+0154175AR,Melia azedarach,False,C\ Gran de la Sagrera,,28.31,median,11.88,check
+0154176AR,Citrus × aurantium,False,C\ Pacífic,1.63,2.02,ok,,none
+0154177AR,Prunus cerasifera 'Pissardii',False,C\ Mossèn Juliana,2.2,1.28,ok,,none
+0154178AR,Pyrus calleryana 'Chanticleer',False,C\ Mossèn Juliana,2.09,1.23,ok,,none
+0154179AR,Tipuana tipu,False,C\ Olesa,11.52,8.79,ok,,large
+0154180AR,Prunus cerasifera 'Pissardii',False,C\ Mossèn Juliana,2.16,1.61,ok,,none
+0154181AR,Firmiana simplex,False,C\ Josep Estivill,5.0,4.26,ok,,medium
+0154183AR,Melia azedarach,False,C\ Torroella de Montgrí,6.4,5.59,ok,,large
+0154185AR,Melia azedarach,False,C\ Gran de la Sagrera,4.55,3.61,ok,,medium
+0154186AR,Melia azedarach,False,C\ Torroella de Montgrí,,21.46,median,,check
+0154188AR,Ulmus pumila,False,C\ Torroella de Montgrí,6.46,5.63,ok,,large
+0154189AR,Firmiana simplex,False,C\ Josep Estivill,3.94,3.25,ok,,medium
+0154190AR,Tipuana tipu,False,C\ Ferran Turné,,17.19,median,15.0,check
+0154192AR,Styphnolobium japonicum,False,C\ Felip II,,26.21,median,,check
+0154195AR,Platanus × acerifolia,True,C\ Rovira i Virgili,,18.99,median,,check
+0154197AR,Tipuana tipu,False,C\ Camp de la Ferro,7.83,6.82,ok,,large
+0154198AR,Tipuana tipu,False,C\ Berenguer de Palou,4.98,3.86,ok,,medium
+0154199AR,Melia azedarach,False,C\ Felip II,5.04,4.57,ok,,medium
+0154200AR,Cercis siliquastrum,False,C\ Berenguer de Palou,,61.94,no_facade,,check
+0154201AR,Melia azedarach,False,C\ Felip II,5.09,4.36,ok,,medium
+0154202AR,Melia azedarach,False,C\ Felip II,4.62,4.45,ok,,medium
+0154203AR,Platanus × acerifolia,True,C\ Olesa,9.5,7.92,ok,,large
+0154205AR,Platanus × acerifolia,True,C\ Garcilaso,,29.08,no_kerb,,check
+0154206AR,Jacaranda mimosifolia,False,C\ Emilia Pardo Bazán,3.48,2.78,ok,,small
+0154207AR,Melia azedarach,False,C\ Martí Molins,3.4,2.49,ok,,small
+0154208AR,Pyrus calleryana 'Chanticleer',False,C\ Mossèn Juliana,2.25,1.51,ok,,none
+0154210AR,Platanus × acerifolia,True,C\ Palència,,16.13,median,,check
+0154211AR,Jacaranda mimosifolia,False,C\ Cardenal Tedeschini,4.91,3.68,ok,,medium
+0154212AR,Prunus cerasifera 'Pissardii',False,C\ Monlau,2.59,2.39,ok,,small
+0154214AR,Styphnolobium japonicum,False,C\ Hondures,18.56,17.23,ok,,large
+0154217AR,Jacaranda mimosifolia,False,C\ Cardenal Tedeschini,10.0,4.36,ok,,large
+0154218AR,Tipuana tipu,False,C\ Berenguer de Palou,4.98,4.03,ok,,medium
+0154220AR,Citrus × aurantium,False,C\ Coll,5.02,3.56,ok,,medium
+0154222AR,Jacaranda mimosifolia,False,C\ Costa Rica,11.02,3.2,ok,,large
+0154223AR,Melia azedarach,False,C\ Berenguer de Palou,7.67,7.37,ok,,large
+0154225AR,Firmiana simplex,False,C\ Ciutat d'Elx,3.95,3.39,ok,,medium
+0154226AR,Pyrus calleryana 'Chanticleer',False,C\ Concepción Arenal,4.25,3.57,ok,,medium
+0154227AR,Brachychiton populneus,False,C\ Garcilaso,11.46,7.59,ok,,large
+0154228AR,Quercus ilex,False,C\ Pegàs,15.19,4.5,ok,,large
+0154229AR,Melia azedarach,False,C\ Gran de la Sagrera,4.35,3.34,ok,,medium
+0154230AR,Melia azedarach,False,C\ Torroella de Montgrí,24.82,5.42,ok,,large
+0154231AR,Tipuana tipu,False,Av Meridiana,,20.85,median,21.67,check
+0154233AR,Melia azedarach,False,C\ Martí Molins,3.15,2.18,ok,,small
+0154234AR,Citrus × aurantium,False,C\ Pacífic,3.95,3.04,ok,,medium
+0154235AR,Platanus × acerifolia,True,Av Meridiana,18.45,15.76,ok,,large
+0154236AR,Melia azedarach,False,C\ Torroella de Montgrí,4.29,3.84,ok,,medium
+0154238AR,Citrus × aurantium,False,C\ Pacífic,1.68,1.9,ok,,none
+0154239AR,Citrus × aurantium,False,C\ Monlau,2.55,2.21,ok,,small
+0154240AR,Melia azedarach,False,Pl Doctor Cararach Mauri,,8.93,median,,check
+0154241AR,Styphnolobium japonicum,False,C\ Hondures,4.92,3.72,ok,,medium
+0154243AR,Styphnolobium japonicum,False,C\ Pere Terré i Domènech,,4.4,no_kerb,,check
+0154244AR,Ulmus pumila,False,C\ Torroella de Montgrí,6.46,5.5,ok,,large
+0154245AR,Melia azedarach,False,C\ Berenguer de Palou,9.73,7.54,ok,,large
+0154246AR,Tilia platyphyllos,False,C\ Antonio Ricardos,10.83,5.97,ok,,large
+0154247AR,Platanus × acerifolia,True,C\ Gran de la Sagrera,,55.65,no_facade,,check
+0154248AR,Pyrus calleryana 'Chanticleer',False,C\ Mossèn Juliana,2.37,1.53,ok,,none
+0154249AR,Platanus × acerifolia,True,C\ Dublín,17.26,14.66,ok,,large
+0154251AR,Melia azedarach,False,C\ Gran de la Sagrera,4.57,3.9,ok,,medium
+0154252AR,Firmiana simplex,False,C\ Palència,5.12,4.39,ok,,medium
+0154253AR,Melia azedarach,False,C\ Gran de la Sagrera,4.08,3.42,ok,,medium
+0154254AR,Platanus × acerifolia,True,Av Meridiana,16.76,14.21,ok,,large
+0154256AR,Jacaranda mimosifolia,False,C\ Cardenal Tedeschini,9.13,8.32,ok,,large
+0154257AR,Brachychiton populneus,False,C\ Josep Estivill,22.31,5.06,ok,,large
+0154258AR,Celtis australis,False,C\ Antonio Ricardos,,21.98,no_kerb,23.51,check
+0154259AR,Styphnolobium japonicum,False,C\ Pere Terré i Domènech,,4.52,no_kerb,,check
+0154260AR,Melia azedarach,False,C\ Gran de la Sagrera,4.78,3.78,ok,,medium
+0154262AR,Melia azedarach,False,C\ Gran de la Sagrera,21.09,20.05,ok,,large
+0154265AR,Melia azedarach,False,C\ Gran de la Sagrera,4.34,3.25,ok,,medium
+0154268AR,Jacaranda mimosifolia,False,C\ Costa Rica,17.77,11.44,ok,,large
+0154269AR,Tipuana tipu,False,C\ Indústria,,18.07,median,17.77,check
+0154270AR,Jacaranda mimosifolia,False,C\ Cardenal Tedeschini,10.0,9.68,ok,,large
+0154271AR,Tipuana tipu,False,C\ Ferran Turné,6.25,4.55,ok,,large
+0154272AR,Platanus × acerifolia,True,C\ Rovira i Virgili,,18.89,median,,check
+0154274AR,Melia azedarach,False,C\ Ciutat d'Elx,5.09,4.64,ok,,medium
+0154275AR,Platanus × acerifolia,True,Av Meridiana,27.78,24.26,ok,,large
+0154276AR,Melia azedarach,False,C\ Gran de la Sagrera,4.42,3.56,ok,,medium
+0154280AR,Platanus × acerifolia,True,C\ Rovira i Virgili,,26.35,median,,check
+0154281AR,Citrus × aurantium,False,C\ Pacífic,1.63,1.85,ok,,none
+0154282AR,Jacaranda mimosifolia,False,C\ Cardenal Tedeschini,5.4,5.03,ok,,medium
+0154285AR,Jacaranda mimosifolia,False,C\ Costa Rica,10.97,2.64,ok,,large
+0154287AR,Platanus × acerifolia,True,Av Meridiana,16.73,14.55,ok,,large
+0154288AR,Platanus × acerifolia,True,Av Meridiana,11.71,8.41,ok,,large
+0154289AR,Melia azedarach,False,C\ Gran de la Sagrera,4.64,3.64,ok,,medium
+0154290AR,Styphnolobium japonicum,False,C\ Hondures,17.26,15.98,ok,,large
+0154291AR,Platanus × acerifolia,True,C\ Gran de la Sagrera,,59.82,no_facade,,check
+0154292AR,Citrus × aurantium,False,C\ Monlau,2.57,2.73,ok,,small
+0154293AR,Melia azedarach,False,C\ Josep Estivill,14.05,13.21,ok,,large
+0154294AR,Melia azedarach,False,C\ Torroella de Montgrí,17.83,15.83,ok,,large
+0154295AR,Celtis australis,False,C\ Antonio Ricardos,,15.5,median,,check
+0154298AR,Ligustrum lucidum,False,C\ Gran de la Sagrera,,53.14,no_facade,,check
+0154299AR,Ligustrum lucidum,False,C\ Gran de la Sagrera,,28.31,median,6.26,check
+0154300AR,Tipuana tipu,False,C\ Berenguer de Palou,5.02,3.84,ok,,medium
+0154301AR,Melia azedarach,False,C\ Felip II,5.84,5.23,ok,,medium
+0154302AR,Jacaranda mimosifolia,False,C\ Cardenal Tedeschini,4.57,3.43,ok,,medium
+0154304AR,Styphnolobium japonicum,False,C\ Felip II,,35.48,no_facade,,check
+0154305AR,Firmiana simplex,False,C\ Ciutat d'Elx,2.99,2.14,ok,,small
+0154306AR,Melia azedarach,False,C\ Gran de la Sagrera,4.56,3.71,ok,,medium
+0154309AR,Tipuana tipu,False,C\ Martí Molins,,2.29,no_kerb,,check
+0154311AR,Tipuana tipu,False,C\ Garcilaso,,7.88,median,17.48,check
+0154312AR,Pyrus calleryana 'Chanticleer',False,Pl Masadas,,3.6,no_kerb,27.7,check
+0154314AR,Celtis australis,False,C\ Garcilaso,,7.68,median,17.69,check
+0154318AR,Tipuana tipu,False,C\ Camp de la Ferro,5.11,4.18,ok,,medium
+0154319AR,Platanus × acerifolia,True,C\ Portugal,,12.04,median,,check
+0154320AR,Prunus cerasifera 'Pissardii',False,C\ Monlau,2.41,1.7,ok,,none
+0154321AR,Melia azedarach,False,C\ Gran de la Sagrera,4.64,3.88,ok,,medium
+0154322AR,Tipuana tipu,False,C\ Camp de la Ferro,4.92,4.02,ok,,medium
+0154324AR,Pyrus calleryana 'Chanticleer',False,C\ Vallès i Ribot,3.3,2.79,ok,,small
+0154326AR,Platanus × acerifolia,True,C\ Portugal,24.82,24.52,ok,,large
+0154328AR,Fraxinus excelsior,False,C\ Portugal,28.51,18.66,ok,,large
+0154329AR,Platanus × acerifolia,True,Av Meridiana,5.69,3.87,ok,,medium
+0154330AR,Tipuana tipu,False,Av Meridiana,,21.4,median,21.57,check
+0154331AR,Firmiana simplex,False,C\ Ciutat d'Elx,13.07,12.23,ok,,large
+0154332AR,Hibiscus syriacus,False,C\ Josep Estivill,23.81,14.07,ok,,large
+0154333AR,Firmiana simplex,False,C\ Juan de Garay,16.06,13.41,ok,,large
+0154334AR,Firmiana simplex,False,C\ Palència,4.96,4.09,ok,,medium
+0154335AR,Citrus × aurantium,False,C\ Pacífic,3.88,3.16,ok,,medium
+0154336AR,Jacaranda mimosifolia,False,C\ Emilia Pardo Bazán,3.45,2.91,ok,,small
+0154338AR,Melia azedarach,False,C\ Gran de la Sagrera,4.84,3.72,ok,,medium
+0154339AR,Jacaranda mimosifolia,False,C\ Costa Rica,18.3,12.27,ok,,large
+0154340AR,Citrus × aurantium,False,C\ Pacífic,1.66,1.93,ok,,none
+0154341AR,Firmiana simplex,False,C\ Josep Estivill,4.01,3.03,ok,,medium
+0154342AR,Melia azedarach,False,C\ Cienfuegos,3.03,2.26,ok,,small
+0154343AR,Ligustrum lucidum,False,C\ Pare Manyanet,18.27,10.23,ok,,large
+0154344AR,Platanus × acerifolia,True,Av Meridiana,16.7,13.93,ok,,large
+0154345AR,Jacaranda mimosifolia,False,C\ Torroella de Montgrí,26.46,17.57,ok,,large
+0154346AR,Platanus × acerifolia,True,C\ Clot,,23.69,median,26.35,check
+0154347AR,Melia azedarach,False,C\ Ciutat d'Elx,5.16,4.62,ok,,medium
+0154349AR,Tipuana tipu,False,C\ Garcilaso,,7.34,median,17.48,check
+0154350AR,Melia azedarach,False,C\ Costa Rica,,18.14,median,,check
+0154353AR,Melia azedarach,False,C\ Concepción Arenal,,17.6,no_kerb,21.98,check
+0154354AR,Firmiana simplex,False,C\ Josep Estivill,4.04,3.18,ok,,medium
+0154359AR,Platanus × acerifolia,True,C\ Portugal,,12.58,median,,check
+0154361AR,Citrus × aurantium,False,C\ Monlau,2.65,1.98,ok,,small
+0154362AR,Tipuana tipu,False,C\ Garcilaso,,7.73,median,17.62,check
+0154363AR,Firmiana simplex,False,C\ Ciutat d'Elx,2.91,1.99,ok,,small
+0154364AR,Brachychiton populneus,False,C\ Olesa,8.31,3.15,ok,,large
+0154365AR,Citrus × aurantium,False,C\ Monlau,2.51,1.86,ok,,small
+0154367AR,Citrus × aurantium,False,C\ Monlau,2.58,2.09,ok,,small
+0154368AR,Schinus molle,False,C\ Dublín,14.7,4.1,ok,,large
+0154369AR,Platanus × acerifolia,True,C\ Palència,,16.6,median,,check
+0154370AR,Brachychiton populneus,False,C\ Garcilaso,22.64,21.07,ok,,large
+0154371AR,Platanus × acerifolia,True,C\ Portugal,12.46,12.21,ok,,large
+0154372AR,Melia azedarach,False,C\ Indústria,4.86,3.68,ok,,medium
+0154373AR,Platanus × acerifolia,True,C\ Pare Manyanet,18.13,17.06,ok,,large
+0154374AR,Melia azedarach,False,C\ Gran de la Sagrera,,21.44,median,,check
+0154375AR,Melia azedarach,False,C\ Ciutat d'Elx,6.78,6.29,ok,,large
+0154377AR,Citrus × aurantium,False,C\ Cortit,,2.51,no_kerb,,check
+0154379AR,Pyrus calleryana 'Chanticleer',False,C\ Concepción Arenal,4.05,3.07,ok,,medium
+0154381AR,Platanus × acerifolia,True,Av Meridiana,18.17,14.03,ok,,large
+0154382AR,Ulmus pumila,False,C\ Pegàs,13.61,10.91,ok,,large
+0154383AR,Platanus × acerifolia,True,C\ Portugal,3.92,2.93,ok,,medium
+0154384AR,Citrus × aurantium,False,C\ Monlau,2.62,2.18,ok,,small
+0154385AR,Firmiana simplex,False,C\ Olesa,8.83,3.21,ok,,large
+0154386AR,Platanus × acerifolia,True,C\ Portugal,,12.09,median,,check
+0154387AR,Jacaranda mimosifolia,False,C\ Cardenal Tedeschini,9.15,8.45,ok,,large
+0154389AR,Platanus × acerifolia,True,Av Meridiana,18.45,15.12,ok,,large
+0154392AR,Citrus × aurantium,False,C\ Pacífic,1.5,0.71,ok,,none
+0154393AR,Platanus × acerifolia,True,Av Meridiana,28.1,23.44,ok,,large
+0154394AR,Platanus × acerifolia,True,C\ Pare Manyanet,11.88,10.82,ok,,large
+0154395AR,Tipuana tipu,False,C\ Berenguer de Palou,5.01,4.03,ok,,medium
+0154397AR,Brachychiton populneus,False,C\ Garcilaso,,23.45,median,,check
+0154398AR,Jacaranda mimosifolia,False,C\ Costa Rica,19.39,18.06,ok,,large
+0154399AR,Tipuana tipu,False,C\ Ferran Turné,4.92,4.44,ok,,medium
+0154401AR,Platanus × acerifolia,True,C\ Gran de la Sagrera,,18.07,median,,check
+0154402AR,Jacaranda mimosifolia,False,C\ Gran de la Sagrera,,4.34,no_kerb,,check
+0154404AR,Tipuana tipu,False,C\ Indústria,,20.02,median,17.25,check
+0154405AR,Platanus × acerifolia,True,Av Meridiana,24.44,11.48,ok,,large
+0154406AR,Platanus × acerifolia,True,C\ Rovira i Virgili,,19.04,median,,check
+0154408AR,Jacaranda mimosifolia,False,C\ Emilia Pardo Bazán,3.55,2.86,ok,,medium
+0154409AR,Styphnolobium japonicum,False,C\ Felip II,,21.81,median,,check
+0154410AR,Citrus × aurantium,False,C\ Pacífic,1.55,1.15,ok,,none
+0154411AR,Platanus × acerifolia,True,Av Meridiana,12.92,9.64,ok,,large
+0154412AR,Jacaranda mimosifolia,False,C\ Cardenal Tedeschini,10.0,9.69,ok,,large
+0154413AR,Hibiscus syriacus,False,C\ Josep Estivill,21.7,11.73,ok,,large
+0154414AR,Brachychiton populneus,False,C\ Olesa,6.08,3.35,ok,,large
+0154415AR,Ligustrum lucidum,False,C\ Gran de la Sagrera,,44.1,no_facade,24.75,check
+0154416AR,Brachychiton populneus,False,C\ Garcilaso,,21.27,median,17.48,check
+0154417AR,Prunus cerasifera 'Pissardii',False,C\ Monlau,2.62,1.59,ok,,small
+0154418AR,Styphnolobium japonicum,False,C\ Pere Terré i Domènech,,5.37,no_kerb,,check
+0154419AR,Platanus × acerifolia,True,Av Meridiana,11.84,8.94,ok,,large
+0154420AR,Platanus × acerifolia,True,Av Meridiana,12.0,8.91,ok,,large
+0154421AR,Tipuana tipu,False,C\ Ferran Turné,,16.37,median,27.37,check
+0154422AR,Platanus × acerifolia,True,C\ Gran de la Sagrera,,40.41,no_facade,,check
+0154423AR,Jacaranda mimosifolia,False,C\ Costa Rica,11.18,3.82,ok,,large
+0154424AR,Platanus × acerifolia,True,Av Meridiana,12.03,8.81,ok,,large
+0154425AR,Celtis australis,False,C\ Garcilaso,,7.67,median,17.49,check
+0154426AR,Paulownia tomentosa,False,C\ Pare Manyanet,18.1,16.66,ok,,large
+0154427AR,Melia azedarach,False,C\ Gran de la Sagrera,3.88,2.83,ok,,medium
+0154428AR,Melia azedarach,False,C\ Indústria,4.85,3.63,ok,,medium
+0154429AR,Firmiana simplex,False,C\ Juan de Garay,3.88,3.11,ok,,medium
+0154430AR,Citrus × aurantium,False,C\ Pacífic,2.7,2.33,ok,,small
+0154431AR,Melia azedarach,False,C\ Indústria,5.5,3.87,ok,,medium
+0154432AR,Melia azedarach,False,C\ Ciutat d'Elx,8.88,7.36,ok,,large
+0154433AR,Platanus × acerifolia,True,Av Meridiana,18.47,16.07,ok,,large
+0154434AR,Platanus × acerifolia,True,C\ Hondures,3.07,2.66,ok,,small
+0154435AR,Jacaranda mimosifolia,False,C\ Cardenal Tedeschini,10.0,4.02,ok,,large
+0154437AR,Melia azedarach,False,C\ Gran de la Sagrera,4.57,3.77,ok,,medium
+0154439AR,Tipuana tipu,False,C\ Garcilaso,,20.94,median,17.48,check
+0154440AR,Tipuana tipu,False,C\ Garcilaso,,21.5,median,17.49,check
+0154441AR,Firmiana simplex,False,C\ Olesa,7.98,2.22,ok,,large
+0154442AR,Platanus × acerifolia,True,C\ Portugal,3.66,2.91,ok,,medium
+0154445AR,Tipuana tipu,False,C\ Berenguer de Palou,5.0,4.02,ok,,medium
+0154446AR,Platanus × acerifolia,True,Av Meridiana,18.42,8.28,ok,,large
+0154447AR,Jacaranda mimosifolia,False,C\ Juan de Garay,3.99,3.17,ok,,medium
+0154448AR,Platanus × acerifolia,True,C\ Costa Rica,4.53,3.85,ok,,medium
+0154449AR,Melia azedarach,False,C\ Gran de la Sagrera,4.79,3.73,ok,,medium
+0154450AR,Platanus × acerifolia,True,Av Meridiana,13.61,10.07,ok,,large
+0154452AR,Platanus × acerifolia,True,C\ Rovira i Virgili,,18.95,median,,check
+0154454AR,Platanus × acerifolia,True,C\ Portugal,,12.97,median,,check
+0154455AR,Tipuana tipu,False,C\ Camp de la Ferro,4.9,4.75,ok,,medium
+0154456AR,Melia azedarach,False,C\ Gran de la Sagrera,,22.32,median,,check
+0154457AR,Melia azedarach,False,C\ Gran de la Sagrera,11.3,6.41,ok,,large
+0154459AR,Platanus × acerifolia,True,C\ Clot,,23.33,median,22.18,check
+0154460AR,Platanus × acerifolia,True,C\ Olesa,14.68,13.25,ok,,large
+0154461AR,Ligustrum lucidum,False,Av Meridiana,11.45,2.08,ok,,large
+0154462AR,Jacaranda mimosifolia,False,C\ Cardenal Tedeschini,9.14,3.94,ok,,large
+0154463AR,Tipuana tipu,False,Av Meridiana,24.24,12.72,ok,,large
+0154465AR,Jacaranda mimosifolia,False,C\ Torroella de Montgrí,,21.66,median,31.83,check
+0154466AR,Platanus × acerifolia,True,C\ Clot,,21.9,median,6.41,check
+0154467AR,Tipuana tipu,False,C\ Olesa,23.84,1.51,ok,,large
+0154469AR,Citrus × aurantium,False,C\ Pacífic,1.79,0.82,ok,,none
+0154470AR,Citrus × aurantium,False,C\ Açores,,8.83,median,,check
+0154471AR,Firmiana simplex,False,C\ Palència,5.26,4.49,ok,,medium
+0154472AR,Tipuana tipu,False,C\ Ferran Turné,,15.91,median,4.89,check
+0154473AR,Firmiana simplex,False,C\ Olesa,6.14,3.14,ok,,large
+0154474AR,Prunus cerasifera 'Pissardii',False,C\ Monlau,2.53,1.56,ok,,small
+0154475AR,Platanus × acerifolia,True,C\ Gran de la Sagrera,,36.73,no_facade,,check
+0154476AR,Hibiscus syriacus,False,C\ Josep Estivill,19.41,9.76,ok,,large
+0154477AR,Platanus × acerifolia,True,C\ Rovira i Virgili,16.97,15.35,ok,,large
+0154478AR,Tilia platyphyllos,False,C\ Antonio Ricardos,10.82,6.0,ok,,large
+0154479AR,Melia azedarach,False,C\ Berenguer de Palou,7.61,0.78,ok,,large
+0154480AR,Brachychiton populneus,False,C\ Garcilaso,6.82,4.95,ok,,large
+0154481AR,Jacaranda mimosifolia,False,C\ Cardenal Tedeschini,7.03,3.76,ok,,large
+0154482AR,Tipuana tipu,False,C\ Ferran Turné,,16.46,median,4.73,check
+0154483AR,Platanus × acerifolia,True,Av Meridiana,12.32,9.46,ok,,large
+0154484AR,Platanus × acerifolia,True,C\ Olesa,4.85,4.2,ok,,medium
+0154485AR,Platanus × acerifolia,True,C\ Garcilaso,26.21,25.01,ok,,large
+0154486AR,Citrus × aurantium,False,C\ Coll,5.02,3.99,ok,,medium
+0154487AR,Citrus × aurantium,False,C\ Pacífic,1.6,1.49,ok,,none
+0154488AR,Citrus × aurantium,False,C\ Pacífic,1.65,1.95,ok,,none
+0154489AR,Pyrus calleryana 'Chanticleer',False,C\ Nobel,3.0,1.53,ok,,small
+0154491AR,Pyrus calleryana 'Chanticleer',False,Pl Masadas,,3.9,no_kerb,,check
+0154492AR,Citrus × aurantium,False,C\ Açores,3.3,2.36,ok,,small
+0154493AR,Platanus × acerifolia,True,C\ Hondures,3.04,2.29,ok,,small
+0154495AR,Platanus × acerifolia,True,Av Meridiana,13.44,10.46,ok,,large
+0154496AR,Jacaranda mimosifolia,False,C\ Emilia Pardo Bazán,3.67,2.82,ok,,medium
+0154497AR,Platanus × acerifolia,True,Av Meridiana,22.05,19.14,ok,,large
+0154499AR,Tipuana tipu,False,Av Meridiana,,21.04,median,21.79,check
+0154501AR,Brachychiton populneus,False,C\ Garcilaso,7.51,6.29,ok,,large
+0154502AR,Brachychiton populneus,False,C\ Josep Estivill,23.53,5.67,ok,,large
+0154503AR,Platanus × acerifolia,True,C\ Gran de la Sagrera,,30.03,no_facade,,check
+0154505AR,Styphnolobium japonicum,False,C\ Felip II,,36.8,no_facade,,check
+0154506AR,Melia azedarach,False,C\ Berenguer de Palou,4.08,1.73,ok,,medium
+0154509AR,Melia azedarach,False,C\ Ciutat d'Elx,8.79,7.53,ok,,large
+0154510AR,Platanus × acerifolia,True,Av Meridiana,16.75,6.05,ok,,large
+0154512AR,Tipuana tipu,False,Av Meridiana,,14.64,median,21.56,check
+0154513AR,Platanus × acerifolia,True,C\ Portugal,3.73,2.76,ok,,medium
+0154515AR,Melia azedarach,False,C\ Portugal,3.57,2.34,ok,,medium
+0154516AR,Tipuana tipu,False,C\ Berenguer de Palou,5.0,4.14,ok,,medium
+0154519AR,Styphnolobium japonicum,False,C\ Pere Terré i Domènech,,4.22,no_kerb,,check
+0154521AR,Styphnolobium japonicum,False,C\ Hondures,,17.49,median,,check
+0154522AR,Styphnolobium japonicum,False,C\ Felip II,,21.89,median,,check
+0154523AR,Platanus × acerifolia,True,C\ Costa Rica,4.15,2.34,ok,,medium
+0154524AR,Citrus × aurantium,False,C\ Açores,3.33,2.15,ok,,small
+0154526AR,Jacaranda mimosifolia,False,C\ Cardenal Tedeschini,5.01,4.05,ok,,medium
+0154527AR,Ulmus pumila,False,C\ Torroella de Montgrí,13.62,11.81,ok,,large
+0154528AR,Melia azedarach,False,C\ Berenguer de Palou,3.9,3.05,ok,,medium
+0154529AR,Citrus × aurantium,False,C\ Coll,5.03,4.37,ok,,medium
+0154530AR,Citrus × aurantium,False,C\ Pacífic,1.55,0.89,ok,,none
+0154531AR,Melia azedarach,False,C\ Martí Molins,3.34,2.17,ok,,small
+0154532AR,Ligustrum lucidum,False,C\ Gran de la Sagrera,,25.48,median,6.16,check
+0154534AR,Melia azedarach,False,C\ Gran de la Sagrera,4.6,3.91,ok,,medium
+0154536AR,Platanus × acerifolia,True,C\ Portugal,3.56,2.53,ok,,medium
+0154538AR,Platanus × acerifolia,True,Av Meridiana,12.52,9.48,ok,,large
+0154540AR,Platanus × acerifolia,True,C\ Portugal,,12.48,median,,check
+0154541AR,Platanus × acerifolia,True,Av Meridiana,11.63,8.52,ok,,large
+0154542AR,Tipuana tipu,False,C\ Camp de la Ferro,4.97,3.64,ok,,medium
+0154543AR,Platanus × acerifolia,True,C\ Indústria,4.69,4.47,ok,,medium
+0154544AR,Melia azedarach,False,C\ Garcilaso,,15.56,median,17.7,check
+0154545AR,Melia azedarach,False,C\ Clara Zetkin,4.33,3.97,ok,,medium
+0154546AR,Platanus × acerifolia,True,C\ Portugal,12.93,12.55,ok,,large
+0154547AR,Melia azedarach,False,C\ Berenguer de Palou,,20.44,median,,check
+0154549AR,Brachychiton populneus,False,C\ Garcilaso,7.53,6.32,ok,,large
+0154550AR,Firmiana simplex,False,C\ Ciutat d'Elx,,9.09,median,12.17,check
+0154551AR,Brachychiton populneus,False,C\ Olesa,4.87,4.09,ok,,medium
+0154554AR,Platanus × acerifolia,True,C\ Portugal,3.83,2.61,ok,,medium
+0154555AR,Celtis australis,False,C\ Josep Estivill,,36.67,no_facade,23.62,check
+0154556AR,Firmiana simplex,False,C\ Ciutat d'Elx,2.66,1.67,ok,,small
+0154558AR,Jacaranda mimosifolia,False,C\ Emilia Pardo Bazán,3.38,2.57,ok,,small
+0154559AR,Koelreuteria paniculata,False,C\ Torroella de Montgrí,,17.07,no_kerb,,check
+0154562AR,Platanus × acerifolia,True,Av Meridiana,28.64,21.07,ok,,large
+0154563AR,Ulmus pumila,False,C\ Felip II,8.9,4.02,ok,,large
+0154564AR,Tipuana tipu,False,C\ Berenguer de Palou,4.99,3.63,ok,,medium
+0154565AR,Melia azedarach,False,Pl Doctor Cararach Mauri,,9.26,median,,check
+0154566AR,Styphnolobium japonicum,False,C\ Hondures,,18.21,median,,check
+0154567AR,Tipuana tipu,False,Av Meridiana,23.89,13.04,ok,,large
+0154568AR,Prunus cerasifera 'Pissardii',False,C\ Monlau,2.48,1.55,ok,,none
+0154569AR,Prunus cerasifera 'Pissardii',False,C\ Monlau,2.55,1.38,ok,,small
+0154570AR,Prunus cerasifera 'Pissardii',False,Pl Masadas,,3.7,no_kerb,,check
+0154571AR,Platanus × acerifolia,True,Av Meridiana,16.67,5.92,ok,,large
+0154573AR,Melia azedarach,False,C\ Gran de la Sagrera,4.35,3.3,ok,,medium
+0154574AR,Firmiana simplex,False,C\ Juan de Garay,6.92,6.43,ok,,large
+0154575AR,Melia azedarach,False,C\ Torroella de Montgrí,6.31,5.75,ok,,large
+0154576AR,Melia azedarach,False,C\ Gran de la Sagrera,4.64,3.76,ok,,medium
+0154578AR,Hibiscus syriacus,False,C\ Josep Estivill,23.09,13.23,ok,,large
+0154580AR,Hibiscus syriacus,False,C\ Josep Estivill,25.58,14.92,ok,,large
+0154581AR,Firmiana simplex,False,C\ Juan de Garay,3.94,3.58,ok,,medium
+0154583AR,Jacaranda mimosifolia,False,C\ Emilia Pardo Bazán,3.67,2.78,ok,,medium
+0154585AR,Citrus × aurantium,False,C\ Açores,3.4,2.31,ok,,small
+0154586AR,Celtis australis,False,C\ Garcilaso,22.6,7.56,ok,,large
+0154588AR,Melia azedarach,False,C\ Berenguer de Palou,7.82,6.54,ok,,large
+0154589AR,Robinia pseudoacacia,False,C\ Cienfuegos,2.91,1.94,ok,,small
+0154591AR,Jacaranda mimosifolia,False,C\ Cardenal Tedeschini,5.03,3.94,ok,,medium
+0154592AR,Styphnolobium japonicum,False,C\ Pere Terré i Domènech,,4.72,no_kerb,,check
+0154593AR,Ulmus pumila,False,C\ Torroella de Montgrí,12.58,11.57,ok,,large
+0154595AR,Platanus × acerifolia,True,C\ Gran de la Sagrera,,76.16,no_facade,,check
+0154597AR,Photinia x fraseri 'Red Robin',False,C\ Vallès i Ribot,2.86,2.19,ok,,small
+0154598AR,Melia azedarach,False,C\ Gran de la Sagrera,4.61,3.66,ok,,medium
+0154599AR,Platanus × acerifolia,True,Av Meridiana,24.17,21.71,ok,,large
+0154601AR,Styphnolobium japonicum,False,C\ Hondures,,24.22,median,,check
+0154602AR,Pyrus calleryana 'Chanticleer',False,C\ Mossèn Juliana,2.37,1.33,ok,,none
+0154604AR,Firmiana simplex,False,C\ Ciutat d'Elx,3.79,1.91,ok,,medium
+0154605AR,Tipuana tipu,False,Av Meridiana,24.26,13.07,ok,,large
+0154606AR,Platanus × acerifolia,True,Av Meridiana,,22.55,no_kerb,,check
+0154607AR,Prunus cerasifera 'Pissardii',False,C\ Monlau,2.39,1.52,ok,,none
+0154608AR,Citrus × aurantium,False,C\ Pacífic,1.54,1.62,ok,,none
+0154610AR,Tipuana tipu,False,Av Meridiana,,18.88,median,21.9,check
+0154611AR,Citrus × aurantium,False,C\ Pacífic,1.69,1.1,ok,,none
+0154612AR,Hibiscus syriacus,False,C\ Josep Estivill,22.39,12.42,ok,,large
+0154613AR,Pyrus calleryana 'Chanticleer',False,C\ Concepción Arenal,3.95,3.04,ok,,medium
+0154615AR,Platanus × acerifolia,True,C\ Gran de la Sagrera,,51.47,no_facade,,check
+0154616AR,Jacaranda mimosifolia,False,C\ Costa Rica,10.96,9.23,ok,,large
+0154617AR,Tipuana tipu,False,Av Meridiana,,25.87,median,21.76,check
+0154619AR,Melia azedarach,False,C\ Cienfuegos,2.71,2.23,ok,,small
+0154622AR,Melia azedarach,False,C\ Ciutat d'Elx,8.68,6.96,ok,,large
+0154623AR,Jacaranda mimosifolia,False,C\ Emilia Pardo Bazán,3.45,2.86,ok,,small
+0154624AR,Prunus serrulata 'Kanzan',False,C\ Mossèn Juliana,2.08,1.08,ok,,none
+0154625AR,Tipuana tipu,False,C\ Garcilaso,,7.57,median,17.49,check
+0154627AR,Jacaranda mimosifolia,False,C\ Cardenal Tedeschini,5.09,5.02,ok,,medium
+0154628AR,Platanus × acerifolia,True,C\ Palència,,16.34,median,,check
+0154631AR,Tipuana tipu,False,C\ Garcilaso,,23.26,median,,check
+0154632AR,Citrus × aurantium,False,C\ Açores,3.19,2.66,ok,,small
+0154634AR,Pyrus calleryana 'Chanticleer',False,C\ Cienfuegos,2.6,2.51,ok,,small
+0154636AR,Jacaranda mimosifolia,False,C\ Emilia Pardo Bazán,3.43,2.67,ok,,small
+0154637AR,Melia azedarach,False,C\ Gran de la Sagrera,4.6,3.59,ok,,medium
+0154638AR,Jacaranda mimosifolia,False,C\ Emilia Pardo Bazán,3.44,2.76,ok,,small
+0154640AR,Tipuana tipu,False,C\ Berenguer de Palou,4.75,3.95,ok,,medium
+0154642AR,Firmiana simplex,False,C\ Palència,5.15,4.42,ok,,medium
+0154643AR,Platanus × acerifolia,True,C\ Pare Manyanet,14.56,13.02,ok,,large
+0154644AR,Jacaranda mimosifolia,False,C\ Emilia Pardo Bazán,3.67,3.02,ok,,medium
+0154645AR,Jacaranda mimosifolia,False,C\ Emilia Pardo Bazán,3.38,2.69,ok,,small
+0154646AR,Brachychiton populneus,False,C\ Josep Estivill,,4.44,no_kerb,,check
+0154648AR,Jacaranda mimosifolia,False,C\ Olesa,12.21,11.18,ok,,large
+0154650AR,Tipuana tipu,False,C\ Garcilaso,,7.38,median,17.67,check
+0154653AR,Citrus × aurantium,False,C\ Pacífic,1.54,1.45,ok,,none
+0154654AR,Styphnolobium japonicum,False,C\ Hondures,,16.25,median,,check
+0154655AR,Jacaranda mimosifolia,False,C\ Cardenal Tedeschini,9.14,8.24,ok,,large
+0154656AR,Platanus × acerifolia,True,C\ Portugal,3.84,2.61,ok,,medium
+0154657AR,Melia azedarach,False,C\ Martí Molins,3.15,2.58,ok,,small
+0154658AR,Platanus × acerifolia,True,C\ Portugal,,18.48,median,,check
+0154659AR,Jacaranda mimosifolia,False,C\ Costa Rica,28.83,12.09,ok,,large
+0154662AR,Melia azedarach,False,C\ Gran de la Sagrera,4.34,3.36,ok,,medium
+0154663AR,Melia azedarach,False,C\ Indústria,4.87,3.64,ok,,medium
+0154664AR,Citrus × aurantium,False,C\ Pacífic,3.91,3.19,ok,,medium
+0154666AR,Citrus × aurantium,False,C\ Pacífic,3.63,3.4,ok,,medium
+0154668AR,Melia azedarach,False,C\ Felip II,8.36,7.01,ok,,large
+0154670AR,Quercus ilex,False,C\ Hondures,,24.15,median,,check
+0154671AR,Platanus × acerifolia,True,C\ Portugal,3.72,3.14,ok,,medium
+0154673AR,Ligustrum lucidum,False,Av Meridiana,12.23,3.07,ok,,large
+0154676AR,Jacaranda mimosifolia,False,C\ Sant Antoni Maria Claret,4.97,4.15,ok,,medium
+0154677AR,Styphnolobium japonicum,False,C\ Hondures,,18.63,median,,check
+0154678AR,Melia azedarach,False,C\ Martí Molins,3.1,2.33,ok,,small
+0154682AR,Platanus × acerifolia,True,C\ Rovira i Virgili,,18.87,median,,check
+0154686AR,Melia azedarach,False,C\ Indústria,4.76,4.04,ok,,medium
+0154687AR,Tipuana tipu,False,C\ Ferran Turné,,16.19,median,14.37,check
+0154688AR,Platanus × acerifolia,True,Av Meridiana,24.2,20.49,ok,,large
+0154689AR,Melia azedarach,False,C\ Monlau,2.6,1.68,ok,,small
+0154691AR,Koelreuteria paniculata,False,C\ Garcilaso,,11.28,median,17.49,check
+0154692AR,Styphnolobium japonicum,False,C\ Pere Terré i Domènech,,4.99,no_kerb,,check
+0154693AR,Melia azedarach,False,C\ Gran de la Sagrera,4.55,3.93,ok,,medium
+0154694AR,Magnolia grandiflora,False,C\ Garcilaso,,15.69,median,17.68,check
+0154695AR,Ligustrum lucidum,False,Av Meridiana,11.47,2.22,ok,,large
+0154696AR,Platanus × acerifolia,True,Av Meridiana,16.73,5.86,ok,,large
+0154698AR,Tipuana tipu,False,C\ Berenguer de Palou,4.69,3.83,ok,,medium
+0154699AR,Platanus × acerifolia,True,Av Meridiana,,11.73,median,13.64,check
+0154700AR,Platanus × acerifolia,True,C\ Portugal,3.72,2.74,ok,,medium
+0154701AR,Citrus × aurantium,False,C\ Monlau,2.58,2.53,ok,,small
+0154702AR,Tipuana tipu,False,Av Meridiana,,16.9,median,21.48,check
+0154703AR,Jacaranda mimosifolia,False,C\ Sant Antoni Maria Claret,5.02,2.22,ok,,medium
+0154705AR,Jacaranda mimosifolia,False,C\ Cardenal Tedeschini,5.31,4.81,ok,,medium
+0154706AR,Platanus × acerifolia,True,C\ Pare Manyanet,13.8,12.27,ok,,large
+0154707AR,Platanus × acerifolia,True,C\ Portugal,,12.73,median,,check
+0154708AR,Platanus × acerifolia,True,Av Meridiana,16.77,14.17,ok,,large
+0154709AR,Citrus × aurantium,False,C\ Pacífic,1.53,1.62,ok,,none
+0154710AR,Melia azedarach,False,C\ Felip II,,21.89,median,,check
+0154711AR,Tipuana tipu,False,Av Meridiana,,12.77,median,21.56,check
+0154712AR,Jacaranda mimosifolia,False,C\ Torroella de Montgrí,21.52,16.8,ok,,large
+0154713AR,Citrus × aurantium,False,C\ Açores,,8.78,median,,check
+0154714AR,Pyrus calleryana 'Chanticleer',False,C\ Vallès i Ribot,3.47,2.54,ok,,small
+0154717AR,Jacaranda mimosifolia,False,C\ Cardenal Tedeschini,5.15,4.53,ok,,medium
+0154718AR,Ulmus pumila,False,C\ Torroella de Montgrí,6.38,5.66,ok,,large
+0154719AR,Melia azedarach,False,C\ Gran de la Sagrera,4.56,3.84,ok,,medium
+0154720AR,Celtis australis,False,C\ Garcilaso,,7.38,median,17.73,check
+0154721AR,Platanus × acerifolia,True,C\ Garcilaso,,31.11,no_facade,,check
+0154722AR,Platanus × acerifolia,True,C\ Portugal,3.62,2.63,ok,,medium
+0154723AR,Melia azedarach,False,C\ Torroella de Montgrí,,16.38,median,,check
+0154724AR,Jacaranda mimosifolia,False,C\ Emilia Pardo Bazán,3.42,2.52,ok,,small
+0154726AR,Firmiana simplex,False,C\ Juan de Garay,4.05,3.55,ok,,medium
+0154727AR,Pyrus calleryana 'Chanticleer',False,C\ Vallès i Ribot,3.4,2.57,ok,,small
+0154728AR,Platanus × acerifolia,True,Pl Doctor Cararach Mauri,,9.19,median,,check
+0154729AR,Ligustrum lucidum,False,C\ Gran de la Sagrera,,45.16,no_facade,30.23,check
+0154730AR,Melia azedarach,False,C\ Gran de la Sagrera,4.62,3.61,ok,,medium
+0154731AR,Platanus × acerifolia,True,Av Meridiana,16.71,15.06,ok,,large
+0154732AR,Platanus × acerifolia,True,C\ Portugal,12.59,11.82,ok,,large
+0154733AR,Citrus × aurantium,False,C\ Pacífic,1.59,1.62,ok,,none
+0154734AR,Magnolia grandiflora,False,C\ Garcilaso,22.59,14.89,ok,,large
+0154738AR,Melia azedarach,False,C\ Gran de la Sagrera,4.4,3.72,ok,,medium
+0154740AR,Firmiana simplex,False,C\ Olesa,6.2,3.51,ok,,large
+0154742AR,Melia azedarach,False,C\ Gran de la Sagrera,4.79,4.28,ok,,medium
+0154743AR,Platanus × acerifolia,True,C\ Hondures,4.89,3.8,ok,,medium
+0154744AR,Prunus cerasifera 'Pissardii',False,C\ Monlau,2.48,1.57,ok,,none
+0154745AR,Platanus × acerifolia,True,C\ Portugal,,12.57,median,,check
+0154747AR,Melia azedarach,False,C\ Martí Molins,3.07,2.12,ok,,small
+0154748AR,Platanus × acerifolia,True,C\ Dublín,,14.14,median,,check
+0154749AR,Citrus × aurantium,False,C\ Pacífic,1.59,1.6,ok,,none
+0154750AR,Platanus × acerifolia,True,Av Meridiana,16.73,13.78,ok,,large
+0154751AR,Platanus × acerifolia,True,C\ Olesa,4.78,4.09,ok,,medium
+0154752AR,Ulmus pumila,False,C\ Torroella de Montgrí,,16.07,median,,check
+0154755AR,Styphnolobium japonicum,False,C\ Pere Terré i Domènech,,4.62,no_kerb,,check
+0154757AR,Celtis australis,False,C\ Antonio Ricardos,,15.89,median,28.42,check
+0154758AR,Citrus × aurantium,False,C\ Monlau,2.35,2.31,ok,,none
+0154759AR,Firmiana simplex,False,C\ Josep Estivill,4.04,2.91,ok,,medium
+0154760AR,Tipuana tipu,False,C\ Berenguer de Palou,6.77,5.34,ok,,large
+0154762AR,Ulmus pumila,False,C\ Felip II,4.58,4.07,ok,,medium
+0154763AR,Melia azedarach,False,C\ Garcilaso,,16.32,median,17.57,check
+0154765AR,Tipuana tipu,False,C\ Ferran Turné,4.71,3.87,ok,,medium
+0154766AR,Tipuana tipu,False,C\ Berenguer de Palou,4.95,3.6,ok,,medium
+0154769AR,Tipuana tipu,False,Av Meridiana,,26.97,median,21.68,check
+0154770AR,Jacaranda mimosifolia,False,C\ Olesa,6.1,2.67,ok,,large
+0154771AR,Platanus × acerifolia,True,C\ Portugal,,12.7,median,19.99,check
+0154772AR,Melia azedarach,False,C\ Pegàs,10.72,9.84,ok,,large
+0154774AR,Platanus × acerifolia,True,C\ Hondures,3.09,3.18,ok,,small
+0154775AR,Melia azedarach,False,C\ Indústria,4.94,4.41,ok,,medium
+0154777AR,Styphnolobium japonicum,False,C\ Felip II,,21.82,median,,check
+0154779AR,Platanus × acerifolia,True,Av Meridiana,,23.05,no_kerb,,check
+0154780AR,Tipuana tipu,False,C\ Berenguer de Palou,5.02,3.94,ok,,medium
+0154781AR,Platanus × acerifolia,True,C\ Rovira i Virgili,,40.52,no_facade,,check
+0154782AR,Firmiana simplex,False,C\ Palència,5.24,4.42,ok,,medium
+0154783AR,Platanus × acerifolia,True,C\ Pare Manyanet,19.19,18.06,ok,,large
+0154784AR,Platanus × acerifolia,True,C\ Portugal,12.44,8.3,ok,,large
+0154787AR,Tipuana tipu,False,C\ Berenguer de Palou,5.01,3.78,ok,,medium
+0154788AR,Citrus × aurantium,False,C\ Pacífic,3.65,3.51,ok,,medium
+0154789AR,Citrus × aurantium,False,C\ Pacífic,1.55,1.24,ok,,none
+0154790AR,Tipuana tipu,False,Pl Assemblea de Catalunya,,11.06,median,10.09,check
+0154791AR,Ulmus pumila,False,C\ Felip II,6.66,5.89,ok,,large
+0154792AR,Melia azedarach,False,C\ Josep Estivill,,27.17,median,24.57,check
+0154793AR,Platanus × acerifolia,True,C\ Portugal,23.25,19.02,ok,,large
+0154794AR,Citrus × aurantium,False,C\ Pacífic,3.86,3.08,ok,,medium
+0154796AR,Pyrus calleryana 'Chanticleer',False,C\ Nobel,3.06,1.65,ok,,small
+0154798AR,Platanus × acerifolia,True,Av Meridiana,12.16,8.99,ok,,large
+0154800AR,Melia azedarach,False,C\ Monlau,2.6,1.86,ok,,small
+0154801AR,Brachychiton populneus,False,C\ Garcilaso,,21.5,median,17.48,check
+0154802AR,Platanus × acerifolia,True,C\ Rovira i Virgili,,32.94,no_facade,,check
+0154803AR,Platanus × acerifolia,True,Av Meridiana,11.86,8.32,ok,,large
+0154806AR,Platanus × acerifolia,True,C\ Hondures,3.12,2.43,ok,,small
+0154807AR,Styphnolobium japonicum,False,C\ Felip II,,26.03,median,,check
+0154809AR,Melia azedarach,False,C\ Cienfuegos,2.6,2.43,ok,,small
+0154810AR,Ligustrum lucidum,False,C\ Pare Manyanet,18.37,9.48,ok,,large
+0154811AR,Citrus × aurantium,False,C\ Pacífic,1.49,1.8,ok,,none
+0154812AR,Melia azedarach,False,C\ Gran de la Sagrera,13.48,12.18,ok,,large
+0154813AR,Tipuana tipu,False,Av Meridiana,,13.22,median,21.68,check
+0154814AR,Platanus × acerifolia,True,C\ Portugal,,12.16,median,,check
+0154815AR,Melia azedarach,False,C\ Indústria,7.45,6.76,ok,,large
+0154817AR,Citrus × aurantium,False,C\ Pacífic,1.72,1.37,ok,,none
+0154818AR,Ligustrum japonicum,False,Av Meridiana,12.04,3.21,ok,,large
+0154819AR,Prunus cerasifera 'Pissardii',False,C\ Mossèn Juliana,2.21,1.35,ok,,none
+0154820AR,Tipuana tipu,False,C\ Olesa,20.71,2.27,ok,,large
+0154821AR,Platanus × acerifolia,True,Av Meridiana,18.46,15.81,ok,,large
+0154822AR,Platanus × acerifolia,True,C\ Rovira i Virgili,,32.69,no_facade,,check
+0154823AR,Platanus × acerifolia,True,Av Meridiana,15.27,11.9,ok,,large
+0154824AR,Jacaranda mimosifolia,False,C\ Cardenal Tedeschini,10.0,9.44,ok,,large
+0154825AR,Melia azedarach,False,C\ Gran de la Sagrera,4.27,3.65,ok,,medium
+0154826AR,Melia azedarach,False,C\ Concepción Arenal,,13.21,no_kerb,24.67,check
+0154827AR,Jacaranda mimosifolia,False,C\ Olesa,,16.7,median,,check
+0154829AR,Tipuana tipu,False,C\ Camp de la Ferro,11.75,9.64,ok,,large
+0154832AR,Platanus × acerifolia,True,Av Meridiana,15.55,9.47,ok,,large
+0154833AR,Citrus × aurantium,False,C\ Pacífic,1.55,0.94,ok,,none
+0154834AR,Melia azedarach,False,C\ Martí Molins,2.85,2.14,ok,,small
+0154835AR,Melia azedarach,False,C\ Gran de la Sagrera,4.44,3.27,ok,,medium
+0154837AR,Celtis australis,False,C\ Garcilaso,,7.43,median,17.48,check
+0154838AR,Jacaranda mimosifolia,False,C\ Sant Antoni Maria Claret,4.98,4.64,ok,,medium
+0154839AR,Jacaranda mimosifolia,False,C\ Emilia Pardo Bazán,3.39,2.46,ok,,small
+0154840AR,Tipuana tipu,False,C\ Ferran Turné,,16.68,median,16.7,check
+0154842AR,Melia azedarach,False,C\ Felip II,4.99,4.52,ok,,medium
+0154843AR,Jacaranda mimosifolia,False,C\ Costa Rica,4.89,2.92,ok,,medium
+0154846AR,Platanus × acerifolia,True,Av Meridiana,17.57,14.12,ok,,large
+0154847AR,Platanus × acerifolia,True,Av Meridiana,14.24,10.73,ok,,large
+0154848AR,Tipuana tipu,False,C\ Garcilaso,,23.45,median,,check
+0154849AR,Populus nigra,False,Av Meridiana,12.63,3.35,ok,,large
+0154851AR,Robinia pseudoacacia,False,C\ Olesa,16.61,8.8,ok,,large
+0154852AR,Platanus × acerifolia,True,Av Meridiana,18.45,15.99,ok,,large
+0154853AR,Styphnolobium japonicum,False,C\ Hondures,14.52,13.77,ok,,large
+0154856AR,Platanus × acerifolia,True,C\ Palència,,16.39,median,,check
+0154860AR,Styphnolobium japonicum,False,C\ Pere Terré i Domènech,,4.24,no_kerb,,check
+0154861AR,Styphnolobium japonicum,False,C\ Pere Terré i Domènech,,4.3,no_kerb,,check
+0154862AR,Jacaranda mimosifolia,False,C\ Costa Rica,18.8,17.33,ok,,large
+0154864AR,Styphnolobium japonicum,False,C\ Felip II,,33.69,no_facade,,check
+0154865AR,Jacaranda mimosifolia,False,C\ Olesa,6.13,2.72,ok,,large
+0154866AR,Firmiana simplex,False,C\ Juan de Garay,4.08,3.34,ok,,medium
+0154867AR,Melia azedarach,False,C\ Indústria,5.01,4.25,ok,,medium
+0154869AR,Melia azedarach,False,C\ Portugal,,12.82,median,19.99,check
+0154871AR,Tipuana tipu,False,C\ Berenguer de Palou,4.72,3.63,ok,,medium
+0154872AR,Ligustrum lucidum,False,Av Meridiana,19.51,4.62,ok,,large
+0154873AR,Melia azedarach,False,C\ Felip II,4.81,4.0,ok,,medium
+0154878AR,Melia azedarach,False,C\ Ciutat d'Elx,12.62,10.67,ok,,large
+0154879AR,Firmiana simplex,False,C\ Josep Estivill,3.84,3.14,ok,,medium
+0154881AR,Platanus × acerifolia,True,Av Meridiana,16.72,14.57,ok,,large
+0154882AR,Platanus × acerifolia,True,C\ Portugal,22.93,22.56,ok,,large
+0154883AR,Platanus × acerifolia,True,Av Meridiana,12.27,9.41,ok,,large
+0154884AR,Melia azedarach,False,C\ Gran de la Sagrera,,30.46,no_facade,11.83,check
+0154887AR,Melia azedarach,False,C\ Ciutat d'Elx,8.33,4.73,ok,,large
+0154889AR,Platanus × acerifolia,True,C\ Hondures,2.86,1.98,ok,,small
+0154891AR,Styphnolobium japonicum,False,C\ Felip II,,24.66,median,,check
+0154895AR,Melia azedarach,False,C\ Gran de la Sagrera,4.83,4.16,ok,,medium
+0154896AR,Jacaranda mimosifolia,False,C\ Cardenal Tedeschini,5.03,4.61,ok,,medium
+0154897AR,Platanus × acerifolia,True,C\ Cardenal Tedeschini,9.29,8.54,ok,,large
+0154898AR,Platanus × acerifolia,True,C\ Portugal,,11.98,median,,check
+0154900AR,Styphnolobium japonicum,False,C\ Felip II,,30.71,no_facade,,check
+0154902AR,Pyrus calleryana 'Chanticleer',False,Pl Masadas,,4.06,no_kerb,,check
+0154904AR,Brachychiton populneus,False,C\ Josep Estivill,20.73,4.49,ok,,large
+0154905AR,Brachychiton populneus,False,C\ Pacífic,,5.63,no_kerb,,check
+0154906AR,Tipuana tipu,False,C\ Ferran Turné,16.54,13.76,ok,,large
+0154910AR,Tipuana tipu,False,C\ Berenguer de Palou,5.05,4.2,ok,,medium
+0154912AR,Platanus × acerifolia,True,Av Meridiana,11.96,8.92,ok,,large
+0154913AR,Quercus ilex,False,C\ Pegàs,15.37,4.35,ok,,large
+0154914AR,Jacaranda mimosifolia,False,C\ Olesa,9.15,8.25,ok,,large
+0154915AR,Citrus × aurantium,False,C\ Pacífic,3.95,3.07,ok,,medium
+0154916AR,Platanus × acerifolia,True,C\ Palència,,16.6,median,,check
+0154917AR,Platanus × acerifolia,True,C\ Olesa,4.82,4.16,ok,,medium
+0154918AR,Melia azedarach,False,C\ Gran de la Sagrera,4.04,3.45,ok,,medium
+0154922AR,Quercus ilex,False,C\ Pegàs,13.07,4.87,ok,,large
+0154923AR,Melia azedarach,False,C\ Berenguer de Palou,6.23,5.6,ok,,large
+0154924AR,Tipuana tipu,False,C\ Berenguer de Palou,4.96,3.8,ok,,medium
+0154925AR,Citrus × aurantium,False,C\ Pacífic,1.78,1.42,ok,,none
+0154926AR,Pyrus calleryana 'Chanticleer',False,C\ Vallès i Ribot,3.3,2.55,ok,,small
+0154930AR,Firmiana simplex,False,C\ Juan de Garay,4.1,3.36,ok,,medium
+0154931AR,Melia azedarach,False,C\ Martí Molins,3.1,2.31,ok,,small
+0154932AR,Citrus × aurantium,False,C\ Pacífic,3.67,3.33,ok,,medium
+0154933AR,Melia azedarach,False,C\ Gran de la Sagrera,4.56,3.93,ok,,medium
+0154934AR,Melia azedarach,False,C\ Indústria,5.13,4.68,ok,,medium
+0154935AR,Ulmus pumila,False,C\ Felip II,19.39,9.68,ok,,large
+0154936AR,Celtis australis,False,C\ Antonio Ricardos,,14.78,no_kerb,,check
+0154937AR,Tipuana tipu,False,C\ Garcilaso,6.86,4.79,ok,,large
+0154938AR,Firmiana simplex,False,C\ Palència,5.29,4.43,ok,,medium
+0154939AR,Phytolacca dioica,False,C\ Garcilaso,,11.52,median,17.55,check
+0154941AR,Melia azedarach,False,C\ Gran de la Sagrera,4.44,3.42,ok,,medium
+0154944AR,Tipuana tipu,False,C\ Ferran Turné,,16.27,median,29.5,check
+0154945AR,Tipuana tipu,False,C\ Ferran Turné,,16.19,median,4.74,check
+0154946AR,Melia azedarach,False,C\ Concepción Arenal,4.04,3.07,ok,,medium
+0154949AR,Melia azedarach,False,C\ Concepción Arenal,,8.12,no_kerb,27.69,check
+0154950AR,Jacaranda mimosifolia,False,C\ Gran de la Sagrera,,5.04,no_kerb,,check
+0154951AR,Melia azedarach,False,C\ Gran de la Sagrera,4.24,3.26,ok,,medium
+0154952AR,Melia azedarach,False,C\ Rovira i Virgili,,21.51,median,10.38,check
+0154953AR,Melia azedarach,False,C\ Hondures,8.25,2.19,ok,,large
+0154954AR,Ligustrum lucidum,False,C\ Gran de la Sagrera,,50.0,no_facade,,check
+0154955AR,Platanus × acerifolia,True,C\ Hondures,5.15,3.43,ok,,medium
+0154956AR,Tipuana tipu,False,C\ Garcilaso,6.9,4.39,ok,,large
+0154958AR,Ulmus pumila,False,C\ Torroella de Montgrí,9.05,8.33,ok,,large
+0154959AR,Platanus × acerifolia,True,Av Meridiana,16.7,15.03,ok,,large
+0154960AR,Citrus × aurantium,False,C\ Pacífic,3.65,3.31,ok,,medium
+0154961AR,Firmiana simplex,False,C\ Ciutat d'Elx,5.16,4.84,ok,,medium
+0154962AR,Pyrus calleryana 'Chanticleer',False,C\ Mossèn Juliana,2.38,1.47,ok,,none
+0154963AR,Tipuana tipu,False,C\ Camp de la Ferro,5.02,4.58,ok,,medium
+0154964AR,Styphnolobium japonicum,False,C\ Felip II,,32.37,no_facade,,check
+0154965AR,Tipuana tipu,False,C\ Camp de la Ferro,4.99,4.71,ok,,medium
+0154966AR,Citrus × aurantium,False,C\ Pacífic,1.51,0.87,ok,,none
+0154967AR,Tipuana tipu,False,C\ Camp de la Ferro,9.82,6.89,ok,,large
+0154968AR,Styphnolobium japonicum,False,C\ Hondures,5.44,4.47,ok,,medium
+0154969AR,Platanus × acerifolia,True,C\ Hondures,4.9,3.95,ok,,medium
+0154970AR,Pyrus calleryana 'Chanticleer',False,C\ Concepción Arenal,4.01,3.23,ok,,medium
+0154971AR,Jacaranda mimosifolia,False,C\ Emilia Pardo Bazán,3.44,2.86,ok,,small
+0154972AR,Pyrus calleryana 'Chanticleer',False,C\ Nobel,3.03,1.56,ok,,small
+0154976AR,Jacaranda mimosifolia,False,C\ Emilia Pardo Bazán,3.41,2.73,ok,,small
+0154978AR,Melia azedarach,False,C\ Gran de la Sagrera,4.22,3.23,ok,,medium
+0154979AR,Melia azedarach,False,C\ Martí Molins,3.08,2.14,ok,,small
+0154980AR,Tipuana tipu,False,C\ Berenguer de Palou,4.88,3.92,ok,,medium
+0154981AR,Melia azedarach,False,C\ Felip II,4.78,4.12,ok,,medium
+0154982AR,Citrus × aurantium,False,C\ Pacífic,1.6,1.73,ok,,none
+0154983AR,Melia azedarach,False,C\ Gran de la Sagrera,4.26,3.25,ok,,medium
+0154985AR,Citrus × aurantium,False,C\ Pacífic,1.58,1.31,ok,,none
+0154986AR,Firmiana simplex,False,C\ Olesa,6.16,2.63,ok,,large
+0154988AR,Firmiana simplex,False,C\ Josep Estivill,3.72,2.99,ok,,medium
+0154989AR,Platanus × acerifolia,True,C\ Hondures,17.63,12.53,ok,,large
+0154990AR,Firmiana simplex,False,C\ Ciutat d'Elx,,10.15,median,1.53,check
+0154991AR,Prunus cerasifera 'Pissardii',False,C\ Monlau,2.52,1.24,ok,,small
+0154992AR,Platanus × acerifolia,True,C\ Gran de la Sagrera,,35.97,no_facade,,check
+0154995AR,Tipuana tipu,False,C\ Camp de la Ferro,12.46,11.71,ok,,large
+0154996AR,Ulmus pumila,False,C\ Pegàs,7.39,4.03,ok,,large
+0154997AR,Melia azedarach,False,C\ Berenguer de Palou,4.0,2.22,ok,,medium
+0154998AR,Jacaranda mimosifolia,False,C\ Costa Rica,,10.38,no_kerb,26.21,check
+0155000AR,Tipuana tipu,False,C\ Garcilaso,7.6,6.28,ok,,large
+0155001AR,Styphnolobium japonicum,False,C\ Hondures,7.21,6.46,ok,,large
+0155002AR,Jacaranda mimosifolia,False,C\ Olesa,13.81,12.8,ok,,large
+0155003AR,Firmiana simplex,False,C\ Ciutat d'Elx,3.26,1.8,ok,,small
+0155004AR,Platanus × acerifolia,True,C\ Costa Rica,4.54,3.86,ok,,medium
+0155005AR,Tipuana tipu,False,C\ Berenguer de Palou,4.84,3.76,ok,,medium
+0155006AR,Platanus × acerifolia,True,Av Meridiana,16.71,6.04,ok,,large
+0155008AR,Platanus × acerifolia,True,C\ Dublín,11.06,9.98,ok,,large
+0155010AR,Platanus × acerifolia,True,C\ Hondures,2.93,1.84,ok,,small
+0155011AR,Platanus × acerifolia,True,C\ Portugal,3.68,2.76,ok,,medium
+0155012AR,Platanus × acerifolia,True,Av Meridiana,12.64,9.52,ok,,large
+0155014AR,Melia azedarach,False,C\ Indústria,4.56,4.14,ok,,medium
+0155016AR,Platanus × acerifolia,True,C\ Rovira i Virgili,,26.14,median,,check
+0155018AR,Robinia pseudoacacia,False,C\ Olesa,13.07,5.82,ok,,large
+0155019AR,Photinia x fraseri 'Red Robin',False,C\ Ciutat d'Elx,3.15,2.5,ok,,small
+0155020AR,Firmiana simplex,False,C\ Olesa,6.17,3.65,ok,,large
+0155021AR,Ligustrum lucidum,False,C\ Gran de la Sagrera,,33.95,no_facade,7.31,check
+0155023AR,Pyrus calleryana 'Chanticleer',False,C\ Vallès i Ribot,3.56,2.92,ok,,medium
+0155025AR,Jacaranda mimosifolia,False,C\ Cardenal Tedeschini,5.12,4.76,ok,,medium
+0155027AR,Prunus cerasifera 'Pissardii',False,C\ Mossèn Juliana,2.18,1.52,ok,,none
+0289239AR,Tilia tomentosa,False,C\ Berenguer de Palou,,11.96,median,2.16,check
+0289240AR,Tilia tomentosa,False,C\ Berenguer de Palou,,12.15,median,2.98,check
+0289241AR,Tilia tomentosa,False,C\ Berenguer de Palou,,12.32,median,2.95,check
+0289243AR,Tilia tomentosa,False,C\ Berenguer de Palou,,12.46,median,2.99,check
+0289244AR,Tilia tomentosa,False,C\ Berenguer de Palou,,12.71,median,2.99,check
+0289246AR,Tilia tomentosa,False,C\ Berenguer de Palou,,12.48,median,2.97,check
+0289247AR,Tilia tomentosa,False,C\ Berenguer de Palou,,12.58,median,2.97,check
+0289249AR,Tilia tomentosa,False,C\ Berenguer de Palou,,12.19,median,2.98,check
+0289250AR,Tilia tomentosa,False,C\ Berenguer de Palou,,12.11,median,2.98,check
+0289251AR,Tilia tomentosa,False,C\ Berenguer de Palou,,11.75,median,2.98,check
+0289260AR,Bauhinia variegata,False,C\ Josep Estivill,,15.24,no_kerb,,check
+0289261AR,Bauhinia variegata,False,C\ Josep Estivill,,11.12,no_kerb,,check
+0289579AR,Liriodendron tulipifera,False,Av Meridiana,,23.03,median,13.05,check
+0289586AR,Liriodendron tulipifera,False,Av Meridiana,,24.51,median,13.3,check
+0289587AR,Liriodendron tulipifera,False,Av Meridiana,,24.22,median,13.45,check
+0289588AR,Liriodendron tulipifera,False,Av Meridiana,,26.79,median,13.21,check
+0289589AR,Liriodendron tulipifera,False,Av Meridiana,,29.99,median,13.12,check
+0289590AR,Jacaranda mimosifolia,False,C\ Olesa,17.36,15.67,ok,,large
+0289591AR,Jacaranda mimosifolia,False,C\ Olesa,14.75,13.61,ok,,large
+0289592AR,Jacaranda mimosifolia,False,C\ Olesa,11.2,10.33,ok,,large
+0289593AR,Platanus × acerifolia,True,Av Meridiana,22.08,18.98,ok,,large
+0289595AR,Platanus × acerifolia,True,Av Meridiana,20.02,16.78,ok,,large
+0289596AR,Platanus × acerifolia,True,Av Meridiana,18.94,15.49,ok,,large
+0289597AR,Platanus × acerifolia,True,Av Meridiana,23.71,19.07,ok,,large
+0289598AR,Robinia pseudoacacia,False,Av Meridiana,21.93,9.84,ok,,large
+0291142AR,Prunus cerasifera 'Pissardii',False,C\ Hondures,,7.49,no_kerb,,check
+0291145AR,Prunus cerasifera 'Pissardii',False,C\ Hondures,,8.65,no_kerb,42.3,check
+0291148AR,Magnolia grandiflora,False,C\ Hondures,8.61,6.19,ok,,large
+0291149AR,Magnolia grandiflora,False,C\ Hondures,8.65,6.11,ok,,large
+0291150AR,Magnolia grandiflora,False,C\ Hondures,8.74,6.22,ok,,large
+0291151AR,Magnolia grandiflora,False,C\ Hondures,9.46,6.39,ok,,large
+0291152AR,Prunus cerasifera 'Pissardii',False,C\ Hondures,7.16,5.77,ok,,large
+0291153AR,Magnolia grandiflora,False,C\ Hondures,7.11,5.64,ok,,large
+0291154AR,Magnolia grandiflora,False,C\ Hondures,7.05,5.97,ok,,large
+0291155AR,Magnolia grandiflora,False,C\ Hondures,6.98,5.35,ok,,large
+0291156AR,Magnolia grandiflora,False,C\ Hondures,6.9,5.73,ok,,large
+0291157AR,Magnolia grandiflora,False,C\ Hondures,7.59,5.9,ok,,large
+0291159AR,Prunus cerasifera 'Pissardii',False,C\ Hondures,12.97,8.11,ok,,large
+0291160AR,Prunus cerasifera 'Pissardii',False,C\ Hondures,20.62,10.93,ok,,large
+0291161AR,Prunus cerasifera 'Pissardii',False,C\ Hondures,21.11,6.39,ok,,large
+0291162AR,Prunus cerasifera 'Pissardii',False,C\ Hondures,19.02,9.43,ok,,large
+0291163AR,Prunus cerasifera 'Pissardii',False,C\ Hondures,13.98,5.93,ok,,large
+0291164AR,Prunus cerasifera 'Pissardii',False,C\ Hondures,15.71,6.3,ok,,large
+0291165AR,Melia azedarach,False,C\ Hondures,,13.12,median,,check
+0291166AR,Melia azedarach,False,C\ Hondures,,17.66,median,,check
+0291167AR,Melia azedarach,False,C\ Hondures,18.35,16.98,ok,,large
+0291168AR,Melia azedarach,False,C\ Hondures,9.49,7.75,ok,,large
+0291169AR,Jacaranda mimosifolia,False,C\ Sant Antoni Maria Claret,5.03,1.89,ok,,medium
+0291170AR,Jacaranda mimosifolia,False,C\ Sant Antoni Maria Claret,5.03,2.01,ok,,medium
+0293711AR,Cupressus sempervirens 'Stricta',False,C\ Filipines,2.79,3.22,ok,,small
+0293712AR,Cupressus sempervirens 'Stricta',False,C\ Filipines,2.87,2.91,ok,,small
+0293713AR,Cupressus sempervirens 'Stricta',False,C\ Filipines,3.21,2.74,ok,,small
+0293714AR,Cupressus sempervirens 'Stricta',False,C\ Filipines,3.54,2.7,ok,,medium
+0293715AR,Ligustrum japonicum,False,C\ Filipines,3.71,2.53,ok,,medium
+0293716AR,Ligustrum japonicum,False,C\ Filipines,3.66,2.63,ok,,medium
+0293717AR,Ligustrum japonicum,False,C\ Filipines,3.61,2.73,ok,,medium
+0293719AR,Ligustrum japonicum,False,C\ Filipines,3.54,2.95,ok,,medium
+0293720AR,Ligustrum japonicum,False,C\ Filipines,3.51,3.07,ok,,medium
+0293721AR,Ligustrum japonicum,False,C\ Filipines,3.49,3.19,ok,,small
+0293722AR,Cupressus sempervirens 'Stricta',False,C\ Filipines,3.27,2.62,ok,,small
+0294602AR,Pinus pinea,False,C\ Filipines,,7.41,median,16.37,check
+0294603AR,Cupressus sempervirens,False,C\ Filipines,3.59,2.82,ok,,medium
+0294604AR,Cupressus sempervirens,False,C\ Filipines,3.37,2.75,ok,,small
+0294607AR,Cupressus sempervirens,False,C\ Filipines,3.35,2.72,ok,,small
+0294608AR,Cupressus sempervirens,False,C\ Filipines,3.32,2.65,ok,,small
+0294609AR,Cupressus sempervirens,False,C\ Filipines,3.3,2.63,ok,,small
+0294610AR,Cupressus sempervirens,False,C\ Filipines,3.28,2.62,ok,,small
+0294611AR,Cupressus sempervirens,False,C\ Filipines,3.26,2.59,ok,,small
+0294612AR,Cupressus sempervirens,False,C\ Filipines,3.26,2.57,ok,,small
+0294613AR,Cupressus sempervirens,False,C\ Filipines,3.56,2.81,ok,,medium
+0294614AR,Pinus pinea,False,C\ Filipines,,7.16,median,6.98,check
+0294617AR,Pinus pinea,False,C\ Filipines,,7.35,median,6.86,check
+0294618AR,Pinus pinea,False,C\ Filipines,,7.29,median,6.83,check
+0294619AR,Pinus pinea,False,C\ Filipines,,7.26,median,8.79,check
+0294620AR,Pinus pinea,False,C\ Filipines,,7.18,median,16.39,check
+0294621AR,Pinus pinea,False,C\ Filipines,,7.19,median,16.39,check
+0294856AR,Cercis siliquastrum,False,C\ Berenguer de Palou,,69.54,no_facade,,check
+0294857AR,Firmiana simplex,False,C\ Ciutat d'Elx,4.87,4.87,ok,,medium
+0294863AR,Jacaranda mimosifolia,False,C\ Sant Antoni Maria Claret,4.96,1.83,ok,,medium
+0294864AR,Jacaranda mimosifolia,False,C\ Sant Antoni Maria Claret,7.96,4.13,ok,,large
+0294865AR,Jacaranda mimosifolia,False,C\ Sant Antoni Maria Claret,5.3,2.19,ok,,medium
+0294867AR,Jacaranda mimosifolia,False,C\ Sant Antoni Maria Claret,5.2,2.5,ok,,medium
+0294868AR,Jacaranda mimosifolia,False,C\ Sant Antoni Maria Claret,5.14,2.49,ok,,medium
+0294869AR,Jacaranda mimosifolia,False,C\ Sant Antoni Maria Claret,5.1,2.39,ok,,medium
+0294870AR,Jacaranda mimosifolia,False,C\ Sant Antoni Maria Claret,5.06,2.47,ok,,medium
+0295437AR,Citrus × aurantium,False,C\ Coll,5.02,4.01,ok,,medium
+0295597AR,Tipuana tipu,False,C\ Camp de la Ferro,4.96,3.4,ok,,medium
+0295600AR,Styphnolobium japonicum,False,C\ Pere Terré i Domènech,,4.76,no_kerb,,check
+0302136AR,Pyrus calleryana 'Chanticleer',False,C\ Garcilaso,10.16,4.12,ok,,large
+0302137AR,Pyrus calleryana 'Chanticleer',False,C\ Garcilaso,10.15,1.87,ok,,large
+0302138AR,Pyrus calleryana 'Chanticleer',False,C\ Garcilaso,10.17,1.68,ok,,large
+0302139AR,Pyrus calleryana 'Chanticleer',False,C\ Garcilaso,10.17,8.15,ok,,large
+0302140AR,Pyrus calleryana 'Chanticleer',False,C\ Garcilaso,10.15,10.15,ok,,large
+0302141AR,Pyrus calleryana 'Chanticleer',False,C\ Garcilaso,10.16,9.19,ok,,large
+0302142AR,Pyrus calleryana 'Chanticleer',False,C\ Garcilaso,,7.99,median,,check
+0302143AR,Pyrus calleryana 'Chanticleer',False,Ptge Coello,5.06,3.63,ok,,medium
+0302144AR,Pyrus calleryana 'Chanticleer',False,Ptge Coello,3.94,2.55,ok,,medium
+0302145AR,Pyrus calleryana 'Chanticleer',False,Ptge Coello,,7.47,median,3.84,check
+0302146AR,Pyrus calleryana 'Chanticleer',False,Ptge Coello,,4.81,median,3.89,check
+0302147AR,Pyrus calleryana 'Chanticleer',False,Ptge Coello,3.93,2.59,ok,,medium
+0302148AR,Pyrus calleryana 'Chanticleer',False,Ptge Coello,3.94,2.59,ok,,medium
+0302149AR,Pyrus calleryana 'Chanticleer',False,C\ Sant Antoni Maria Claret,4.15,2.04,ok,,medium
+0302150AR,Pyrus calleryana 'Chanticleer',False,C\ Sant Antoni Maria Claret,4.27,2.27,ok,,medium
+0302151AR,Pyrus calleryana 'Chanticleer',False,C\ Sant Antoni Maria Claret,4.37,2.35,ok,,medium
+0302152AR,Pyrus calleryana 'Chanticleer',False,C\ Sant Antoni Maria Claret,4.48,2.29,ok,,medium
+0302154AR,Pyrus calleryana 'Chanticleer',False,C\ Sant Antoni Maria Claret,4.75,2.34,ok,,medium
+0302155AR,Pyrus calleryana 'Chanticleer',False,C\ Sant Antoni Maria Claret,4.98,2.07,ok,,medium
+0302156AR,Pyrus calleryana 'Chanticleer',False,C\ Sant Antoni Maria Claret,4.87,2.14,ok,,medium
+0302159AR,Jacaranda mimosifolia,False,C\ Sant Antoni Maria Claret,5.04,4.52,ok,,medium
+0302161AR,Jacaranda mimosifolia,False,C\ Sant Antoni Maria Claret,4.99,4.2,ok,,medium
+0302162AR,Jacaranda mimosifolia,False,C\ Sant Antoni Maria Claret,5.0,4.1,ok,,medium
+0302163AR,Jacaranda mimosifolia,False,C\ Sant Antoni Maria Claret,5.0,4.16,ok,,medium
+0302164AR,Jacaranda mimosifolia,False,C\ Sant Antoni Maria Claret,4.99,4.68,ok,,medium
+0302165AR,Jacaranda mimosifolia,False,C\ Sant Antoni Maria Claret,4.97,4.53,ok,,medium
+0302166AR,Jacaranda mimosifolia,False,C\ Sant Antoni Maria Claret,5.2,4.77,ok,,medium
+0302167AR,Jacaranda mimosifolia,False,C\ Sant Antoni Maria Claret,5.21,5.21,ok,,medium
+0302168AR,Jacaranda mimosifolia,False,C\ Sant Antoni Maria Claret,5.2,4.19,ok,,medium
+0302169AR,Jacaranda mimosifolia,False,C\ Sant Antoni Maria Claret,5.18,4.21,ok,,medium
+0302170AR,Jacaranda mimosifolia,False,C\ Sant Antoni Maria Claret,5.18,4.28,ok,,medium
+0302171AR,Jacaranda mimosifolia,False,C\ Sant Antoni Maria Claret,5.17,5.07,ok,,medium
+0302172AR,Jacaranda mimosifolia,False,C\ Sant Antoni Maria Claret,5.15,3.92,ok,,medium
+0302173AR,Jacaranda mimosifolia,False,C\ Sant Antoni Maria Claret,5.12,4.29,ok,,medium
+0302174AR,Jacaranda mimosifolia,False,C\ Sant Antoni Maria Claret,5.07,4.3,ok,,medium
+0302955AR,Pyrus calleryana 'Chanticleer',False,Ptge Coello,,3.26,median,3.9,check
+0302956AR,Pyrus calleryana 'Chanticleer',False,Ptge Coello,4.01,2.61,ok,,medium
+0302957AR,Pyrus calleryana 'Chanticleer',False,Ptge Coello,3.88,2.51,ok,,medium
+0302958AR,Pyrus calleryana 'Chanticleer',False,Ptge Coello,3.9,2.51,ok,,medium
+0302959AR,Pyrus calleryana 'Chanticleer',False,Ptge Coello,3.88,2.47,ok,,medium
+0302960AR,Pyrus calleryana 'Chanticleer',False,Ptge Coello,3.88,2.43,ok,,medium
+0302961AR,Pyrus calleryana 'Chanticleer',False,Ptge Coello,3.88,2.41,ok,,medium
+0302962AR,Pyrus calleryana 'Chanticleer',False,Ptge Coello,3.87,2.38,ok,,medium
+0302963AR,Pyrus calleryana 'Chanticleer',False,Ptge Coello,3.92,2.42,ok,,medium
+0302964AR,Pyrus calleryana 'Chanticleer',False,Ptge Coello,3.97,2.44,ok,,medium
+0302965AR,Pyrus calleryana 'Chanticleer',False,Ptge Coello,3.99,2.46,ok,,medium
+0302966AR,Pyrus calleryana 'Chanticleer',False,Ptge Coello,3.98,2.45,ok,,medium
+0309190AR,Olea europaea,False,C\ Gran de la Sagrera,,34.73,no_facade,12.14,check
+0309191AR,Olea europaea,False,C\ Gran de la Sagrera,,32.07,no_facade,12.2,check
+0309192AR,Olea europaea,False,C\ Gran de la Sagrera,,29.57,median,12.36,check
+0309198AR,Jacaranda mimosifolia,False,C\ Gran de la Sagrera,,34.85,no_facade,,check
+0309213AR,Platanus × acerifolia,True,Av Meridiana,22.64,16.59,ok,,large
+0309214AR,Platanus × acerifolia,True,C\ Sant Antoni Maria Claret,13.1,5.01,ok,,large
+0309242AR,Ulmus pumila,False,C\ Dublín,19.39,10.87,ok,,large
+0317155AR,Podocarpus neriifolius,False,C\ Ciutat d'Elx,,8.37,median,7.79,check
+0317156AR,Podocarpus neriifolius,False,C\ Ciutat d'Elx,,10.43,median,9.1,check
+0317157AR,Podocarpus neriifolius,False,C\ Ciutat d'Elx,,13.46,median,10.23,check
+0322919AR,Melia azedarach,False,C\ Gran de la Sagrera,,50.29,no_facade,,check
+0323906AR,Koelreuteria paniculata,False,C\ Pegàs,6.77,6.19,ok,,large
+0323907AR,Koelreuteria paniculata,False,C\ Pegàs,6.89,6.18,ok,,large
+0323909AR,Koelreuteria paniculata,False,C\ Pegàs,6.86,6.19,ok,,large
+0323910AR,Koelreuteria paniculata,False,C\ Pegàs,6.86,6.2,ok,,large
+0323911AR,Koelreuteria paniculata,False,C\ Pegàs,6.89,6.2,ok,,large
+0323912AR,Koelreuteria paniculata,False,C\ Pegàs,6.78,6.05,ok,,large
+0323913AR,Koelreuteria paniculata,False,C\ Pegàs,6.73,6.0,ok,,large
+0323914AR,Koelreuteria paniculata,False,C\ Pegàs,7.79,6.95,ok,,large
+0324506AR,Prunus cerasifera 'Pissardii',False,C\ Bonaventura Gispert,14.21,13.48,ok,,large
+0324507AR,Prunus cerasifera 'Pissardii',False,C\ Bonaventura Gispert,14.2,3.69,ok,,large
+0324508AR,Koelreuteria paniculata 'Fastigiata',False,C\ Bonaventura Gispert,14.15,13.43,ok,,large
+0324509AR,Prunus cerasifera 'Pissardii',False,C\ Bonaventura Gispert,14.13,7.83,ok,,large
+0324510AR,Tipuana tipu,False,C\ Bonaventura Gispert,14.07,4.61,ok,,large
+0324511AR,Koelreuteria paniculata 'Fastigiata',False,C\ Bonaventura Gispert,14.1,13.43,ok,,large
+0324512AR,Prunus cerasifera 'Pissardii',False,C\ Bonaventura Gispert,14.04,13.32,ok,,large
+0324513AR,Koelreuteria paniculata 'Fastigiata',False,C\ Bonaventura Gispert,13.99,13.33,ok,,large
+0324514AR,Koelreuteria paniculata 'Fastigiata',False,C\ Bonaventura Gispert,13.97,13.37,ok,,large
+0324515AR,Prunus cerasifera 'Pissardii',False,C\ Bonaventura Gispert,14.02,13.46,ok,,large
+0324516AR,Cinnamomum camphora,False,C\ Pare Manyanet,,21.31,median,,check
+0324517AR,Cinnamomum camphora,False,C\ Pare Manyanet,,18.76,median,,check
+0324518AR,Cinnamomum camphora,False,C\ Pare Manyanet,,26.6,median,,check
+0324519AR,Cinnamomum camphora,False,C\ Pare Manyanet,,16.54,median,30.77,check
+0324520AR,Cinnamomum camphora,False,C\ Pare Manyanet,,24.16,median,30.46,check
+0324521AR,Cinnamomum camphora,False,C\ Pare Manyanet,,27.87,median,,check
+0324526AR,Platanus × acerifolia,True,C\ Pare Manyanet,,22.19,median,,check
+0324527AR,Platanus × acerifolia,True,C\ Pare Manyanet,24.14,21.86,ok,,large
+0324529AR,Koelreuteria paniculata 'Fastigiata',False,C\ Pare Manyanet,23.48,9.5,ok,,large
+0324530AR,Koelreuteria paniculata 'Fastigiata',False,C\ Pare Manyanet,24.73,10.26,ok,,large
+0324531AR,Koelreuteria paniculata 'Fastigiata',False,C\ Pare Manyanet,26.03,10.91,ok,,large
+0330247AR,Melia azedarach,False,C\ Pegàs,8.72,7.32,ok,,large
+0330248AR,Melia azedarach,False,C\ Pegàs,11.97,10.93,ok,,large
+0330249AR,Melia azedarach,False,C\ Pegàs,,15.9,median,,check
+0330250AR,Melia azedarach,False,C\ Pegàs,,15.52,median,,check
+0330251AR,Melia azedarach,False,C\ Pegàs,9.45,7.95,ok,,large
+0331434AR,Albizia julibrissin,False,C\ Pont de Sant Martí,18.93,4.34,ok,,large
+0331435AR,Albizia julibrissin,False,C\ Pont de Sant Martí,,5.2,median,19.0,check
+0331436AR,Albizia julibrissin,False,C\ Pont de Sant Martí,27.41,12.69,ok,,large
+0331437AR,Albizia julibrissin,False,C\ Pont de Sant Martí,25.4,10.67,ok,,large
+0331438AR,Cercis siliquastrum,False,C\ Berenguer de Palou,,16.24,no_kerb,,check
+0331439AR,Cercis siliquastrum,False,C\ Berenguer de Palou,27.29,14.34,ok,,large
+0331440AR,Cercis siliquastrum,False,C\ Berenguer de Palou,9.36,5.02,ok,,large
+0331441AR,Cercis siliquastrum,False,C\ Berenguer de Palou,8.72,5.01,ok,,large
+0331442AR,Cercis siliquastrum,False,C\ Berenguer de Palou,8.8,4.96,ok,,large
+0331443AR,Cercis siliquastrum,False,C\ Berenguer de Palou,8.51,4.95,ok,,large
+0331444AR,Cercis siliquastrum,False,C\ Berenguer de Palou,9.76,5.02,ok,,large
+0331446AR,Cercis siliquastrum,False,C\ Berenguer de Palou,15.15,5.01,ok,,large
+0331447AR,Cercis siliquastrum,False,C\ Berenguer de Palou,17.28,5.08,ok,,large
+0331448AR,Cercis siliquastrum,False,C\ Berenguer de Palou,20.44,9.01,ok,,large
+0331449AR,Cercis siliquastrum,False,C\ Berenguer de Palou,,47.59,no_facade,,check
+0331450AR,Cercis siliquastrum,False,C\ Berenguer de Palou,,52.11,no_facade,,check
+0331451AR,Cercis siliquastrum,False,C\ Berenguer de Palou,,57.04,no_facade,,check
+0331452AR,Cercis siliquastrum,False,C\ Berenguer de Palou,,65.67,no_facade,,check
+0331453AR,Cercis siliquastrum,False,C\ Berenguer de Palou,,70.08,no_facade,,check
+0331454AR,Cercis siliquastrum,False,C\ Berenguer de Palou,,74.63,no_facade,,check
+0331455AR,Cercis siliquastrum,False,C\ Berenguer de Palou,,79.18,no_facade,,check
+0331456AR,Cercis siliquastrum,False,C\ Berenguer de Palou,,77.35,no_facade,,check
+0331457AR,Cercis siliquastrum,False,C\ Berenguer de Palou,,75.49,no_facade,,check
+0331458AR,Cercis siliquastrum,False,C\ Berenguer de Palou,,73.62,no_facade,,check
+0331459AR,Cercis siliquastrum,False,C\ Berenguer de Palou,,71.75,no_facade,,check
+0331460AR,Cercis siliquastrum,False,C\ Berenguer de Palou,,68.42,no_facade,,check
+0331461AR,Cercis siliquastrum,False,C\ Berenguer de Palou,,68.4,no_facade,,check
+0331462AR,Cercis siliquastrum,False,C\ Berenguer de Palou,,68.39,no_facade,,check
+0331463AR,Cercis siliquastrum,False,C\ Berenguer de Palou,,68.62,no_facade,,check
+0331464AR,Cercis siliquastrum,False,C\ Berenguer de Palou,,69.73,no_facade,,check
+0331466AR,Cercis siliquastrum,False,C\ Berenguer de Palou,,68.98,no_facade,,check
+0331467AR,Jacaranda mimosifolia,False,C\ Gran de la Sagrera,,28.61,median,,check
+0331468AR,Jacaranda mimosifolia,False,C\ Berenguer de Palou,,53.82,no_facade,,check
+0331469AR,Jacaranda mimosifolia,False,C\ Berenguer de Palou,,52.68,no_facade,,check
+0331470AR,Magnolia grandiflora,False,C\ Pont de Sant Martí,26.52,18.78,ok,,large
+0331471AR,Magnolia grandiflora,False,C\ Pont de Sant Martí,,13.87,median,26.59,check
+0331472AR,Melia azedarach,False,C\ Gran de la Sagrera,,39.3,no_facade,,check
+0331474AR,Melia azedarach,False,C\ Gran de la Sagrera,,40.33,no_facade,,check
+0331475AR,Melia azedarach,False,C\ Pont de Sant Martí,18.93,11.64,ok,,large
+0331476AR,Melia azedarach,False,C\ Pont de Sant Martí,24.44,16.96,ok,,large
+0331477AR,Melia azedarach,False,C\ Berenguer de Palou,6.54,5.77,ok,,large
+0331478AR,Melia azedarach,False,C\ Berenguer de Palou,6.32,5.6,ok,,large
+0331479AR,Melia azedarach,False,C\ Berenguer de Palou,6.7,5.98,ok,,large
+0331480AR,Melia azedarach,False,C\ Berenguer de Palou,12.66,11.29,ok,,large
+0331481AR,Melia azedarach,False,C\ Berenguer de Palou,5.25,4.56,ok,,medium
+0331482AR,Melia azedarach,False,C\ Berenguer de Palou,4.81,4.14,ok,,medium
+0331483AR,Melia azedarach,False,C\ Berenguer de Palou,5.67,4.96,ok,,medium
+0331484AR,Melia azedarach,False,C\ Berenguer de Palou,4.58,3.72,ok,,medium
+0331485AR,Melia azedarach,False,C\ Berenguer de Palou,4.69,3.84,ok,,medium
+0331486AR,Melia azedarach,False,C\ Berenguer de Palou,4.91,4.23,ok,,medium
+0331487AR,Melia azedarach,False,C\ Berenguer de Palou,5.02,4.34,ok,,medium
+0331488AR,Melia azedarach,False,C\ Berenguer de Palou,5.13,4.44,ok,,medium
+0331489AR,Melia azedarach,False,C\ Berenguer de Palou,5.4,4.7,ok,,medium
+0331490AR,Melia azedarach,False,C\ Berenguer de Palou,5.55,4.84,ok,,medium
+0331491AR,Melia azedarach,False,C\ Berenguer de Palou,5.79,5.08,ok,,medium
+0331492AR,Melia azedarach,False,C\ Berenguer de Palou,5.89,5.17,ok,,medium
+0331493AR,Melia azedarach,False,C\ Berenguer de Palou,4.17,3.49,ok,,medium
+0331494AR,Melia azedarach,False,C\ Berenguer de Palou,4.26,3.55,ok,,medium
+0331495AR,Melia azedarach,False,C\ Berenguer de Palou,4.34,3.67,ok,,medium
+0331497AR,Melia azedarach,False,C\ Berenguer de Palou,4.26,3.39,ok,,medium
+0331498AR,Melia azedarach,False,C\ Berenguer de Palou,4.32,3.44,ok,,medium
+0331499AR,Melia azedarach,False,C\ Berenguer de Palou,4.33,3.66,ok,,medium
+0331500AR,Melia azedarach,False,C\ Berenguer de Palou,4.43,3.76,ok,,medium
+0331501AR,Melia azedarach,False,C\ Berenguer de Palou,4.47,3.81,ok,,medium
+0331502AR,Melia azedarach,False,C\ Berenguer de Palou,4.46,3.79,ok,,medium
+0331503AR,Melia azedarach,False,C\ Berenguer de Palou,4.39,3.76,ok,,medium
+0331504AR,Melia azedarach,False,C\ Berenguer de Palou,4.35,3.69,ok,,medium
+0331505AR,Melia azedarach,False,C\ Berenguer de Palou,4.31,3.63,ok,,medium
+0331506AR,Melia azedarach,False,C\ Berenguer de Palou,4.24,3.56,ok,,medium
+0331507AR,Tilia tomentosa,False,C\ Berenguer de Palou,,7.98,median,3.0,check
+0331508AR,Tilia tomentosa,False,C\ Berenguer de Palou,,7.98,median,2.98,check
+0331509AR,Tilia tomentosa,False,C\ Berenguer de Palou,,8.05,median,2.96,check
+0331510AR,Tilia tomentosa,False,C\ Berenguer de Palou,,8.05,median,2.99,check
+0331513AR,Tilia tomentosa,False,C\ Berenguer de Palou,,10.86,median,2.93,check
+0331514AR,Tilia tomentosa,False,C\ Berenguer de Palou,,9.74,median,1.47,check
+0331515AR,Tilia tomentosa,False,C\ Berenguer de Palou,,7.96,median,3.01,check
+0331516AR,Tilia tomentosa,False,C\ Berenguer de Palou,,7.96,median,3.01,check
+0331517AR,Tilia tomentosa,False,C\ Berenguer de Palou,,7.96,median,2.99,check
+0331518AR,Tilia tomentosa,False,C\ Berenguer de Palou,,7.97,median,2.99,check
+0331519AR,Tilia tomentosa,False,C\ Berenguer de Palou,,9.7,median,2.93,check
+0331520AR,Schinus molle,False,C\ Gran de la Sagrera,,46.43,no_facade,23.35,check
+0331521AR,Tipuana tipu,False,C\ Pont de Sant Martí,18.97,17.58,ok,,large
+0331522AR,Tipuana tipu,False,C\ Pont de Sant Martí,,30.36,no_facade,,check
+0331523AR,Tipuana tipu,False,C\ Pont de Sant Martí,,40.01,no_facade,,check
+0331524AR,Tipuana tipu,False,C\ Pont de Sant Martí,,39.87,no_facade,,check
+0331525AR,Tipuana tipu,False,C\ Pont de Sant Martí,,44.35,no_facade,,check
+0331526AR,Tipuana tipu,False,C\ Pont de Sant Martí,,47.87,no_facade,6.64,check
+0331527AR,Tipuana tipu,False,C\ Pont de Sant Martí,,41.38,no_facade,6.73,check
+0331528AR,Tipuana tipu,False,C\ Pont de Sant Martí,,39.87,no_facade,,check
+0331529AR,Tipuana tipu,False,C\ Pont de Sant Martí,,24.82,median,18.52,check
+0331530AR,Tipuana tipu,False,C\ Pont de Sant Martí,27.2,25.79,ok,,large
+0331532AR,Tipuana tipu,False,C\ Pont de Sant Martí,,17.83,median,19.0,check
+0331533AR,Tipuana tipu,False,C\ Pont de Sant Martí,,41.56,no_facade,,check
+0331534AR,Tipuana tipu,False,C\ Pont de Sant Martí,25.69,24.43,ok,,large
+0331535AR,Tipuana tipu,False,C\ Pont de Sant Martí,18.96,17.29,ok,,large
+0331536AR,Zelkova serrata GREEN VASE® 'Flekova',False,C\ Pont de Sant Martí,18.97,4.37,ok,,large
+0331537AR,Zelkova serrata GREEN VASE® 'Flekova',False,C\ Pont de Sant Martí,,8.21,median,18.99,check
+0331538AR,Zelkova serrata GREEN VASE® 'Flekova',False,C\ Pont de Sant Martí,18.99,4.38,ok,,large
+0331539AR,Zelkova serrata GREEN VASE® 'Flekova',False,C\ Pont de Sant Martí,26.41,11.68,ok,,large
+0331540AR,Zelkova serrata GREEN VASE® 'Flekova',False,C\ Pont de Sant Martí,24.4,9.67,ok,,large
+0332591AR,Schinus molle,False,C\ Josep Estivill,27.14,20.38,ok,,large
+0332593AR,Tipuana tipu,False,C\ Josep Estivill,,25.2,median,,check
+0332594AR,Melia azedarach,False,C\ Josep Estivill,,16.59,median,,check
+0332595AR,Melia azedarach,False,C\ Josep Estivill,,16.71,median,,check
+0332597AR,Melia azedarach,False,C\ Josep Estivill,,16.08,median,,check
+0332598AR,Melia azedarach,False,C\ Josep Estivill,,16.08,median,,check
+0332599AR,Melia azedarach,False,C\ Josep Estivill,,19.55,median,,check
+0332600AR,Melia azedarach,False,C\ Josep Estivill,10.63,9.85,ok,,large
+0332601AR,Melia azedarach,False,C\ Josep Estivill,6.59,5.64,ok,,large
+0332602AR,Melia azedarach,False,C\ Josep Estivill,6.73,5.9,ok,,large
+0332603AR,Melia azedarach,False,C\ Josep Estivill,10.0,9.18,ok,,large
+0332604AR,Melia azedarach,False,C\ Gran de la Sagrera,,48.55,no_facade,,check
+0332606AR,Celtis australis,False,C\ Gran de la Sagrera,,40.11,no_facade,,check
+0332709AR,Melia azedarach,False,C\ Felip II,4.6,3.65,ok,,medium
+0333662AR,Tipuana tipu,False,C\ Camp de la Ferro,12.7,11.69,ok,,large
+0337476AR,Corylus colurna,False,C\ Cortit,2.28,2.15,ok,,none
+0337477AR,Corylus colurna,False,C\ Cortit,2.4,2.16,ok,,none
+0337478AR,Corylus colurna,False,C\ Cortit,2.48,2.17,ok,,none
+0337479AR,Corylus colurna,False,C\ Cortit,2.51,2.15,ok,,small
+0337480AR,Corylus colurna,False,C\ Cortit,2.53,2.19,ok,,small
+0337481AR,Corylus colurna,False,C\ Cortit,2.54,2.2,ok,,small
+0337482AR,Corylus colurna,False,C\ Cortit,2.56,2.21,ok,,small
+0337483AR,Corylus colurna,False,C\ Cortit,2.56,2.21,ok,,small
+0337485AR,Corylus colurna,False,C\ Cortit,2.33,2.21,ok,,none
+0337486AR,Corylus colurna,False,C\ Cortit,2.37,2.01,ok,,none
+0337487AR,Corylus colurna,False,C\ Cortit,2.39,2.26,ok,,none
+0338298AR,Magnolia grandiflora,False,C\ Berenguer de Palou,,62.52,no_facade,,check
+0338307AR,Styphnolobium japonicum 'Dot',False,C\ Antilles,8.02,4.39,ok,,large

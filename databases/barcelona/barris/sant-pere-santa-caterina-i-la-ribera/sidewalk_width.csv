@@ -1,0 +1,1746 @@
+tree_id,species,is_plane,street,width_m,facade_dist_m,flag,strip_width_m,size_class
+0112751AR,Bauhinia forficata subsp. pruinosa,False,C\ Allada-Vermell,,5.51,no_kerb,,check
+0112777AR,Celtis australis,False,Pl Sant Cugat,,9.18,median,,check
+0112806AR,Prunus amygdalus,False,C\ Arc de Sant Cristòfol,10.22,6.14,ok,,large
+0112809AR,Washingtonia filifera var. robusta,False,Pg Picasso,18.92,7.42,ok,,large
+0112828AR,Ginkgo biloba,False,Pl Víctor Balaguer,,9.59,no_kerb,,check
+0112854AR,Jacaranda mimosifolia,False,C\ Jaume Giralt,,12.69,median,31.42,check
+0112863AR,Pyrus calleryana 'Chanticleer',False,Pl Víctor Balaguer,,4.35,no_kerb,,check
+0112885AR,Magnolia grandiflora 'Gallisoniensis',False,Pl Llana,,4.79,no_kerb,,check
+0113165AR,Melia azedarach,False,Pl Acadèmia,19.22,11.44,ok,,large
+0113166AR,Platanus × acerifolia,True,Pg Lluís Companys,,28.31,median,,check
+0113167AR,Brachychiton acerifolius,False,Av Marquès de l'Argentera,5.39,3.52,ok,,medium
+0113168AR,Platanus × acerifolia,True,Pg Circumval·lació,,11.44,median,2.01,check
+0113169AR,Platanus × acerifolia,True,Pg Circumval·lació,8.63,7.62,ok,,large
+0113170AR,Platanus × acerifolia,True,C\ Buenaventura Muñoz,4.77,3.82,ok,,medium
+0113171AR,Ligustrum lucidum,False,C\ Rec,3.5,2.13,ok,,medium
+0113172AR,Platanus × acerifolia,True,Pg Lluís Companys,,18.49,median,,check
+0113173AR,Platanus × acerifolia,True,C\ Doctor Aiguader,11.62,4.38,ok,,large
+0113174AR,Magnolia grandiflora,False,C\ Sant Pere Més Alt,4.61,4.43,ok,,medium
+0113176AR,Platanus × acerifolia,True,Pg Pujades,,35.31,no_facade,21.89,check
+0113177AR,Platanus × acerifolia,True,Pg Pujades,,35.17,no_facade,21.78,check
+0113178AR,Prunus cerasifera 'Pissardii',False,Pl Pons i Clerch,,5.85,no_kerb,,check
+0113180AR,Brachychiton acerifolius,False,Av Marquès de l'Argentera,5.29,3.09,ok,,medium
+0113181AR,Platanus × acerifolia,True,Pg Lluís Companys,,27.18,median,,check
+0113182AR,Melia azedarach,False,C\ Roger de Flor,4.49,3.46,ok,,medium
+0113184AR,Platanus × acerifolia,True,Pg Circumval·lació,4.49,2.28,ok,,medium
+0113186AR,Platanus × acerifolia,True,C\ Comerç,,45.12,no_facade,,check
+0113187AR,Platanus × acerifolia,True,Pg Circumval·lació,2.76,1.15,ok,,small
+0113189AR,Magnolia grandiflora,False,C\ Bòria,,2.68,no_kerb,,check
+0113190AR,Platanus × acerifolia,True,Pg Born,,7.23,median,8.05,check
+0113192AR,Platanus × acerifolia,True,Pg Picasso,5.01,5.92,ok,,medium
+0113193AR,Magnolia grandiflora,False,C\ Amadeu Vives,3.07,3.2,ok,,small
+0113194AR,Platanus × acerifolia,True,Pla Palau,,27.06,median,,check
+0113195AR,Platanus × acerifolia,True,Pg Picasso,,43.64,no_facade,13.82,check
+0113196AR,Platanus × acerifolia,True,Pg Born,,7.81,median,8.09,check
+0113197AR,Platanus × acerifolia,True,Pla Palau,,17.86,median,,check
+0113198AR,Koelreuteria paniculata,False,Pl Jaume Sabartés,,6.96,no_kerb,,check
+0113199AR,Magnolia grandiflora,False,C\ Amadeu Vives,3.0,3.47,ok,,small
+0113200AR,Platanus × acerifolia,True,Pg Circumval·lació,,10.97,median,2.0,check
+0113201AR,Tipuana tipu,False,C\ Portal Nou,6.71,3.87,ok,,large
+0113202AR,Ligustrum lucidum,False,C\ Palau de la Música,,4.65,median,3.76,check
+0113204AR,Platanus × acerifolia,True,Pg Lluís Companys,,85.1,no_facade,,check
+0113205AR,Jacaranda mimosifolia,False,Pl Pau Vila,22.17,12.9,ok,,large
+0113206AR,Platanus × acerifolia,True,C\ Méndez Núñez,5.03,3.46,ok,,medium
+0113207AR,Melia azedarach,False,Pl Santa Caterina,12.52,4.71,ok,,large
+0113208AR,Platanus × acerifolia,True,Av Vilanova,28.1,19.07,ok,,large
+0113209AR,Platanus × acerifolia,True,Pg Pujades,,43.24,no_facade,21.83,check
+0113210AR,Celtis australis,False,C\ Doctor Aiguader,,59.83,no_facade,19.23,check
+0113211AR,Celtis australis,False,Pl Sant Agustí Vell,16.75,4.02,ok,,large
+0113212AR,Platanus × acerifolia,True,Pg Circumval·lació,1.96,0.31,ok,,none
+0113213AR,Platanus × acerifolia,True,Pg Circumval·lació,,15.82,median,2.02,check
+0113214AR,Tipuana tipu,False,C\ Portal Nou,5.18,2.8,ok,,medium
+0113215AR,Platanus × acerifolia,True,Pg Picasso,4.98,5.75,ok,,medium
+0113216AR,Celtis australis,False,C\ Davant del Portal Nou,4.47,5.17,ok,,medium
+0113218AR,Platanus × acerifolia,True,Pg Pujades,,35.55,no_facade,21.77,check
+0113219AR,Gleditsia triacanthos f. inermis,False,C\ Trafalgar,4.69,3.84,ok,,medium
+0113220AR,Platanus × acerifolia,True,Pla Palau,,52.14,no_facade,,check
+0113223AR,Platanus × acerifolia,True,Pg Picasso,,15.1,median,1.56,check
+0113224AR,Celtis australis,False,C\ Roger de Flor,4.48,3.49,ok,,medium
+0113225AR,Quercus ilex,False,C\ Doctor Aiguader,,70.6,no_facade,8.18,check
+0113226AR,Celtis australis,False,Pl Sant Cugat,,9.72,median,,check
+0113227AR,Brachychiton populneus,False,Pg Circumval·lació,2.26,0.58,ok,,none
+0113228AR,Platanus × acerifolia,True,Pg Pujades,,35.12,no_facade,21.93,check
+0113229AR,Platanus × acerifolia,True,Pg Lluís Companys,,77.4,no_facade,,check
+0113230AR,Platanus × acerifolia,True,Pg Picasso,,43.27,no_facade,13.81,check
+0113232AR,Platanus × acerifolia,True,Pg Picasso,,14.75,median,1.56,check
+0113233AR,Brachychiton populneus,False,C\ Comerç,4.08,1.5,ok,,medium
+0113234AR,Cercis siliquastrum,False,C\ Marquesa,,3.3,median,9.35,check
+0113235AR,Brachychiton populneus,False,Pg Circumval·lació,4.91,4.04,ok,,medium
+0113236AR,Platanus × acerifolia,True,Pg Isabel II,6.47,4.31,ok,,large
+0113237AR,Celtis australis,False,C\ Doctor Aiguader,,68.46,no_facade,17.85,check
+0113238AR,Platanus × acerifolia,True,Pg Pujades,15.8,15.8,ok,,large
+0113239AR,Magnolia grandiflora,False,C\ Amadeu Vives,3.16,3.08,ok,,small
+0113240AR,Platanus × acerifolia,True,Pg Picasso,,34.88,no_facade,,check
+0113241AR,Platanus × acerifolia,True,Pg Lluís Companys,,26.66,median,,check
+0113242AR,Platanus × acerifolia,True,Pg Lluís Companys,,70.81,no_facade,,check
+0113243AR,Platanus × acerifolia,True,C\ Doctor Aiguader,11.06,4.47,ok,,large
+0113244AR,Platanus × acerifolia,True,Pla Palau,,16.0,median,,check
+0113245AR,Platanus × acerifolia,True,Pg Pujades,,42.68,no_facade,21.76,check
+0113246AR,Gleditsia triacanthos f. inermis,False,C\ Princesa,5.01,4.23,ok,,medium
+0113247AR,Casuarina cunninghamiana,False,C\ Wellington,,29.44,median,,check
+0113249AR,Platanus × acerifolia,True,Pla Palau,,19.38,median,,check
+0113250AR,Platanus × acerifolia,True,C\ Buenaventura Muñoz,4.6,3.67,ok,,medium
+0113252AR,Platanus × acerifolia,True,Pg Pujades,18.1,16.95,ok,,large
+0113253AR,Platanus × acerifolia,True,Pg Lluís Companys,,45.98,no_facade,,check
+0113254AR,Platanus × acerifolia,True,Pla Palau,,38.53,no_facade,,check
+0113255AR,Gleditsia triacanthos f. inermis,False,C\ Trafalgar,4.57,1.82,ok,,medium
+0113256AR,Celtis australis,False,C\ Doctor Aiguader,,87.16,no_facade,15.85,check
+0113257AR,Gleditsia triacanthos f. inermis,False,C\ Trafalgar,4.83,4.06,ok,,medium
+0113258AR,Celtis australis,False,Pg Pujades,4.49,3.44,ok,,medium
+0113259AR,Brachychiton populneus,False,Pg Picasso,4.39,1.75,ok,,medium
+0113260AR,Platanus × acerifolia,True,Pg Born,,8.34,median,8.09,check
+0113261AR,Platanus × acerifolia,True,C\ Méndez Núñez,5.13,3.69,ok,,medium
+0113262AR,Ulmus pumila,False,C\ Comerç,3.96,3.17,ok,,medium
+0113264AR,Platanus × acerifolia,True,Pla Palau,,18.29,median,,check
+0113266AR,Koelreuteria paniculata,False,C\ Manresa,3.06,2.77,ok,,small
+0113268AR,Platanus × acerifolia,True,Pg Picasso,,14.58,median,1.56,check
+0113269AR,Brachychiton populneus,False,Pg Circumval·lació,17.25,16.56,ok,,large
+0113271AR,Ligustrum lucidum,False,C\ Rec Comtal,3.62,3.02,ok,,medium
+0113272AR,Magnolia grandiflora,False,C\ Sant Pere Més Alt,4.44,3.07,ok,,medium
+0113273AR,Platanus × acerifolia,True,Pg Lluís Companys,,90.59,no_facade,,check
+0113274AR,Platanus × acerifolia,True,C\ Wellington,,27.43,median,,check
+0113276AR,Platanus × acerifolia,True,Pg Lluís Companys,,22.98,median,,check
+0113278AR,Platanus × acerifolia,True,Pg Pujades,15.96,7.2,ok,,large
+0113279AR,Platanus × acerifolia,True,Pg Picasso,,14.44,median,1.45,check
+0113280AR,Ligustrum lucidum,False,C\ Ramon Mas,3.58,3.66,ok,,medium
+0113281AR,Tipuana tipu,False,C\ Joan Massana,4.09,3.99,ok,,medium
+0113282AR,Platanus × acerifolia,True,C\ Doctor Aiguader,,10.8,median,12.09,check
+0113283AR,Koelreuteria paniculata,False,Av Francesc Cambó,4.39,3.66,ok,,medium
+0113284AR,Celtis australis,False,C\ Roger de Flor,4.58,3.41,ok,,medium
+0113285AR,Platanus × acerifolia,True,Pg Pujades,,35.1,no_facade,21.83,check
+0113286AR,Ulmus pumila,False,C\ Comerç,4.06,2.34,ok,,medium
+0113287AR,Platanus × acerifolia,True,Pg Picasso,7.43,5.99,ok,,large
+0113288AR,Platanus × acerifolia,True,C\ Méndez Núñez,5.03,4.68,ok,,medium
+0113290AR,Platanus × acerifolia,True,Pg Born,,8.11,median,8.14,check
+0113291AR,Tipuana tipu,False,C\ Jaume Giralt,,5.27,no_kerb,,check
+0113292AR,Brachychiton populneus,False,Pg Circumval·lació,8.26,7.48,ok,,large
+0113293AR,Platanus × acerifolia,True,Pg Lluís Companys,5.41,2.91,ok,,medium
+0113294AR,Platanus × acerifolia,True,Pg Pujades,27.37,25.7,ok,,large
+0113296AR,Ulmus pumila,False,C\ Comerç,4.03,2.31,ok,,medium
+0113297AR,Platanus × acerifolia,True,Pg Lluís Companys,,52.11,no_facade,,check
+0113298AR,Platanus × acerifolia,True,Pg Lluís Companys,,26.47,median,,check
+0113299AR,Tipuana tipu,False,C\ Joan Massana,4.09,3.94,ok,,medium
+0113300AR,Platanus × acerifolia,True,Pg Pujades,,42.8,no_facade,21.8,check
+0113301AR,Jacaranda mimosifolia,False,C\ Mercaders,,1.15,no_kerb,,check
+0113302AR,Platanus × acerifolia,True,Pg Circumval·lació,4.53,2.44,ok,,medium
+0113303AR,Platanus × acerifolia,True,Pg Lluís Companys,,18.61,median,,check
+0113304AR,Platanus × acerifolia,True,C\ Wellington,,16.75,median,,check
+0113305AR,Koelreuteria paniculata,False,C\ Pare Gallifa,5.62,1.46,ok,,medium
+0113306AR,Fraxinus angustifolia,False,Pl Comercial,,2.32,no_kerb,,check
+0113307AR,Quercus ilex,False,C\ Doctor Aiguader,,59.81,no_facade,24.49,check
+0113308AR,Platanus × acerifolia,True,Pla Palau,,32.98,no_facade,,check
+0113309AR,Celtis australis,False,C\ Doctor Aiguader,,59.29,no_facade,12.32,check
+0113310AR,Gleditsia triacanthos f. inermis,False,C\ Trafalgar,4.61,2.88,ok,,medium
+0113311AR,Ligustrum lucidum,False,C\ General Álvarez de Castro,2.57,1.62,ok,,small
+0113312AR,Platanus × acerifolia,True,C\ Wellington,,18.94,median,,check
+0113313AR,Tipuana tipu,False,C\ Basses de Sant Pere,,6.55,median,7.42,check
+0113314AR,Platanus × acerifolia,True,Pg Lluís Companys,,25.98,median,,check
+0113315AR,Platanus × acerifolia,True,Pg Pujades,,47.13,no_facade,,check
+0113317AR,Celtis australis,False,C\ Rec Comtal,,13.14,no_kerb,,check
+0113319AR,Tipuana tipu,False,Av Francesc Cambó,5.32,4.64,ok,,medium
+0113320AR,Platanus × acerifolia,True,Pg Picasso,,14.24,median,1.56,check
+0113321AR,Platanus × acerifolia,True,Pg Lluís Companys,,17.5,median,,check
+0113322AR,Platanus × acerifolia,True,Pg Pujades,15.95,7.66,ok,,large
+0113323AR,Platanus × acerifolia,True,Pg Pujades,,36.24,no_facade,,check
+0113324AR,Platanus × acerifolia,True,Pg Picasso,,14.88,median,14.3,check
+0113326AR,Celtis australis,False,C\ Doctor Aiguader,,78.21,no_facade,26.5,check
+0113330AR,Platanus × acerifolia,True,Pg Pujades,,35.3,no_facade,,check
+0113331AR,Platanus × acerifolia,True,Pg Born,,7.9,median,8.11,check
+0113333AR,Celtis australis,False,C\ Doctor Aiguader,,85.48,no_facade,15.36,check
+0113334AR,Platanus × acerifolia,True,Pg Lluís Companys,,90.77,no_facade,,check
+0113335AR,Platanus × acerifolia,True,Pg Lluís Companys,5.27,4.79,ok,,medium
+0113336AR,Gleditsia triacanthos f. inermis,False,C\ Trafalgar,4.62,4.19,ok,,medium
+0113337AR,Ligustrum japonicum 'Texanum',False,C\ Rec,3.49,2.8,ok,,small
+0113338AR,Platanus × acerifolia,True,Pg Lluís Companys,5.11,4.82,ok,,medium
+0113339AR,Brachychiton acerifolius,False,Av Marquès de l'Argentera,5.5,3.71,ok,,medium
+0113340AR,Quercus ilex,False,C\ Doctor Aiguader,,87.34,no_facade,16.82,check
+0113341AR,Magnolia grandiflora,False,C\ Amadeu Vives,2.97,3.53,ok,,small
+0113342AR,Platanus × acerifolia,True,Pg Circumval·lació,2.23,1.06,ok,,none
+0113343AR,Platanus × acerifolia,True,Pg Isabel II,6.41,4.41,ok,,large
+0113344AR,Platanus × acerifolia,True,Pg Picasso,,35.42,no_facade,13.82,check
+0113346AR,Platanus × acerifolia,True,C\ Doctor Aiguader,,15.22,median,11.44,check
+0113347AR,Celtis australis,False,Pg Lluís Companys,5.2,3.7,ok,,medium
+0113348AR,Pyrus calleryana 'Chanticleer',False,Pl Víctor Balaguer,,6.9,median,,check
+0113349AR,Platanus × acerifolia,True,C\ Comerç,,26.43,median,19.65,check
+0113350AR,Platanus × acerifolia,True,Pg Born,,8.01,median,8.16,check
+0113351AR,Platanus × acerifolia,True,Pg Lluís Companys,,42.48,no_facade,,check
+0113352AR,Jacaranda mimosifolia,False,Pg Born,23.66,7.26,ok,,large
+0113353AR,Ulmus pumila,False,C\ Comerç,4.09,2.37,ok,,medium
+0113354AR,Platanus × acerifolia,True,Pg Lluís Companys,,21.75,median,,check
+0113355AR,Tipuana tipu,False,C\ Jaume Giralt,,9.25,no_kerb,,check
+0113357AR,Platanus × acerifolia,True,Pg Lluís Companys,,50.48,no_facade,,check
+0113358AR,Celtis australis,False,Pl Sant Agustí Vell,15.48,2.63,ok,,large
+0113359AR,Gleditsia triacanthos f. inermis,False,C\ Trafalgar,4.57,1.4,ok,,medium
+0113360AR,Platanus × acerifolia,True,Pg Circumval·lació,14.08,12.96,ok,,large
+0113361AR,Platanus × acerifolia,True,Pla Palau,,18.73,median,,check
+0113362AR,Brachychiton populneus,False,Pg Circumval·lació,3.42,2.86,ok,,small
+0113363AR,Platanus × acerifolia,True,Pg Lluís Companys,28.05,22.6,ok,,large
+0113365AR,Platanus × acerifolia,True,Pl Correus,,38.14,no_facade,,check
+0113366AR,Platanus × acerifolia,True,Pg Pujades,,35.02,no_facade,21.94,check
+0113367AR,Platanus × acerifolia,True,Pg Pujades,,27.78,no_kerb,38.58,check
+0113368AR,Tipuana tipu,False,C\ Jaume Giralt,,6.46,median,4.71,check
+0113369AR,Brachychiton populneus,False,Pg Circumval·lació,4.0,3.68,ok,,medium
+0113370AR,Gleditsia triacanthos f. inermis,False,C\ Trafalgar,4.83,3.36,ok,,medium
+0113371AR,Platanus × acerifolia,True,Pg Pujades,15.95,7.47,ok,,large
+0113372AR,Tipuana tipu,False,Plta Comerç,,15.62,no_kerb,22.21,check
+0113373AR,Brachychiton populneus,False,Pg Circumval·lació,,8.73,median,1.99,check
+0113374AR,Platanus × acerifolia,True,Pg Lluís Companys,,19.12,median,,check
+0113375AR,Brachychiton acerifolius,False,Av Marquès de l'Argentera,5.33,3.31,ok,,medium
+0113376AR,Ulmus pumila,False,C\ Comerç,3.8,2.32,ok,,medium
+0113377AR,Platanus × acerifolia,True,Pg Picasso,,19.13,median,,check
+0113378AR,Brachychiton populneus,False,Pg Circumval·lació,,12.07,median,2.01,check
+0113379AR,Platanus × acerifolia,True,Pg Picasso,,43.49,no_facade,,check
+0113380AR,Tipuana tipu,False,Av Francesc Cambó,5.28,4.36,ok,,medium
+0113381AR,Platanus × acerifolia,True,C\ Doctor Aiguader,12.28,10.83,ok,,large
+0113382AR,Cercis siliquastrum,False,C\ Tripó,,3.09,no_kerb,,check
+0113383AR,Platanus × acerifolia,True,Pg Picasso,19.2,5.68,ok,,large
+0113384AR,Platanus × acerifolia,True,Pg Pujades,,35.1,no_facade,21.74,check
+0113385AR,Platanus × acerifolia,True,Pg Isabel II,6.33,4.64,ok,,large
+0113387AR,Melia azedarach,False,Pl Acadèmia,15.8,3.65,ok,,large
+0113388AR,Cercis siliquastrum,False,C\ Tripó,,4.98,no_kerb,,check
+0113389AR,Platanus × acerifolia,True,Pg Circumval·lació,6.4,5.89,ok,,large
+0113390AR,Platanus × acerifolia,True,Pg Circumval·lació,3.49,2.74,ok,,small
+0113391AR,Celtis australis,False,Pg Pujades,4.39,3.68,ok,,medium
+0113392AR,Platanus × acerifolia,True,Pg Circumval·lació,5.49,4.37,ok,,medium
+0113393AR,Celtis australis,False,C\ Doctor Aiguader,,85.35,no_facade,29.54,check
+0113394AR,Gleditsia triacanthos f. inermis,False,C\ Trafalgar,4.5,1.14,ok,,medium
+0113395AR,Magnolia grandiflora 'Goliath',False,C\ Argenteria,4.02,1.93,ok,,medium
+0113396AR,Koelreuteria paniculata,False,C\ Doctor Aiguader,11.73,10.59,ok,,large
+0113397AR,Celtis australis,False,C\ Doctor Aiguader,,65.6,no_facade,18.21,check
+0113398AR,Prunus cerasifera 'Pissardii',False,C\ Allada-Vermell,,6.31,no_kerb,,check
+0113399AR,Prunus cerasifera 'Pissardii',False,C\ Allada-Vermell,,10.53,no_kerb,,check
+0113400AR,Platanus × acerifolia,True,C\ Comerç,,33.89,no_facade,22.94,check
+0113401AR,Platanus × acerifolia,True,Pg Picasso,7.51,6.56,ok,,large
+0113403AR,Brachychiton populneus,False,C\ Princesa,5.08,4.38,ok,,medium
+0113404AR,Tipuana tipu,False,Pl Olles,,5.17,no_kerb,,check
+0113405AR,Brachychiton populneus,False,C\ Comerç,3.85,2.75,ok,,medium
+0113406AR,Platanus × acerifolia,True,Pg Picasso,,23.23,median,,check
+0113408AR,Platanus × acerifolia,True,Pg Lluís Companys,5.3,4.67,ok,,medium
+0113409AR,Ulmus pumila,False,C\ Comerç,4.1,2.52,ok,,medium
+0113410AR,Platanus × acerifolia,True,Pg Lluís Companys,,26.86,median,,check
+0113411AR,Quercus ilex,False,C\ Doctor Aiguader,,70.82,no_facade,17.69,check
+0113412AR,Platanus × acerifolia,True,Pg Lluís Companys,,30.26,no_facade,,check
+0113413AR,Jacaranda mimosifolia,False,C\ Jaume Giralt,14.12,11.12,ok,,large
+0113414AR,Quercus ilex,False,C\ Doctor Aiguader,,59.41,no_facade,19.2,check
+0113415AR,Platanus × acerifolia,True,Pla Palau,,15.95,median,,check
+0113416AR,Platanus × acerifolia,True,Pg Picasso,,15.1,median,14.3,check
+0113418AR,Platanus × acerifolia,True,Pg Picasso,,14.95,median,,check
+0113419AR,Magnolia grandiflora,False,C\ Amadeu Vives,3.13,3.73,ok,,small
+0113420AR,Platanus × acerifolia,True,Pg Picasso,7.45,6.58,ok,,large
+0113421AR,Celtis australis,False,C\ Rec Comtal,,8.38,no_kerb,53.48,check
+0113422AR,Jacaranda mimosifolia,False,C\ Mercaders,,1.17,no_kerb,36.23,check
+0113424AR,Jacaranda mimosifolia,False,Pl Víctor Balaguer,,5.03,no_kerb,,check
+0113425AR,Platanus × acerifolia,True,Pg Pujades,,40.13,no_facade,,check
+0113426AR,Platanus × acerifolia,True,Pg Lluís Companys,5.01,4.27,ok,,medium
+0113427AR,Celtis australis,False,Pg Lluís Companys,15.28,11.91,ok,,large
+0113428AR,Platanus × acerifolia,True,Pg Lluís Companys,,25.77,median,,check
+0113429AR,Celtis australis,False,C\ Méndez Núñez,5.03,3.5,ok,,medium
+0113430AR,Brachychiton populneus,False,Pg Circumval·lació,,16.3,median,1.98,check
+0113431AR,Platanus × acerifolia,True,Pg Picasso,,14.96,median,1.45,check
+0113432AR,Tipuana tipu,False,Pl Sant Pere,,6.25,median,,check
+0113433AR,Ligustrum lucidum,False,C\ Rec Comtal,4.04,2.75,ok,,medium
+0113434AR,Platanus × acerifolia,True,C\ Buenaventura Muñoz,4.78,3.82,ok,,medium
+0113435AR,Brachychiton populneus,False,C\ Comerç,,15.9,median,5.2,check
+0113437AR,Robinia pseudoacacia 'Bessoniana',False,C\ Armengol,,4.77,no_kerb,,check
+0113438AR,Celtis australis,False,C\ Davant del Portal Nou,,10.32,median,,check
+0113439AR,Quercus ilex,False,C\ Doctor Aiguader,,72.27,no_facade,9.58,check
+0113440AR,Platanus × acerifolia,True,Pg Lluís Companys,,67.16,no_facade,,check
+0113441AR,Platanus × acerifolia,True,Pg Circumval·lació,,0.5,no_kerb,,check
+0113442AR,Ulmus pumila,False,C\ Comerç,4.38,2.41,ok,,medium
+0113443AR,Tipuana tipu,False,C\ Metges,,11.04,no_kerb,20.43,check
+0113444AR,Platanus × acerifolia,True,Pg Pujades,,45.88,no_facade,21.66,check
+0113445AR,Platanus × acerifolia,True,Pg Picasso,,14.93,median,1.61,check
+0113446AR,Platanus × acerifolia,True,Pg Picasso,,15.04,median,1.46,check
+0113447AR,Platanus × acerifolia,True,Pg Picasso,7.26,6.79,ok,,large
+0113448AR,Platanus × acerifolia,True,Pg Circumval·lació,2.29,0.74,ok,,none
+0113449AR,Gleditsia triacanthos f. inermis,False,C\ Trafalgar,4.65,4.17,ok,,medium
+0113450AR,Koelreuteria paniculata,False,Pl Sant Cugat,,8.8,median,,check
+0113451AR,Platanus × acerifolia,True,Pg Lluís Companys,,54.97,no_facade,,check
+0113452AR,Platanus × acerifolia,True,C\ Doctor Aiguader,11.21,9.74,ok,,large
+0113453AR,Platanus × acerifolia,True,Pla Palau,7.02,5.65,ok,,large
+0113454AR,Platanus × acerifolia,True,Pg Pujades,,41.2,no_facade,,check
+0113455AR,Acer campestre,False,Pg Born,,5.87,no_kerb,,check
+0113456AR,Platanus × acerifolia,True,Pg Lluís Companys,,18.3,median,,check
+0113457AR,Platanus × acerifolia,True,Pg Pujades,,35.08,no_facade,21.84,check
+0113458AR,Platanus × acerifolia,True,Pg Pujades,,43.98,no_facade,19.78,check
+0113459AR,Platanus × acerifolia,True,Pg Lluís Companys,,44.79,no_facade,5.32,check
+0113460AR,Platanus × acerifolia,True,C\ Méndez Núñez,5.23,3.28,ok,,medium
+0113461AR,Tipuana tipu,False,C\ Sèquia,8.11,4.81,ok,,large
+0113462AR,Cercis siliquastrum,False,C\ Marquesa,,5.2,median,14.32,check
+0113463AR,Tipuana tipu,False,C\ Joan Massana,4.09,4.22,ok,,medium
+0113464AR,Platanus × acerifolia,True,Pg Circumval·lació,,11.28,median,6.05,check
+0113465AR,Celtis australis,False,Pl Sant Agustí Vell,,4.61,median,,check
+0113466AR,Platanus × acerifolia,True,Pg Lluís Companys,,25.77,median,,check
+0113467AR,Platanus × acerifolia,True,C\ Méndez Núñez,5.15,3.33,ok,,medium
+0113468AR,Acer campestre,False,C\ Manresa,23.11,2.56,ok,,large
+0113469AR,Platanus × acerifolia,True,C\ Comerç,,28.62,median,14.47,check
+0113470AR,Platanus × acerifolia,True,C\ Méndez Núñez,5.35,3.26,ok,,medium
+0113471AR,Tipuana tipu,False,C\ Metges,11.75,7.13,ok,,large
+0113472AR,Platanus × acerifolia,True,Pg Lluís Companys,,17.85,median,,check
+0113473AR,Platanus × acerifolia,True,C\ Buenaventura Muñoz,4.96,3.99,ok,,medium
+0113474AR,Ulmus pumila,False,C\ Comerç,4.0,2.28,ok,,medium
+0113475AR,Platanus × acerifolia,True,C\ Doctor Aiguader,,24.84,median,12.13,check
+0113476AR,Platanus × acerifolia,True,Pg Picasso,,32.92,no_facade,,check
+0113477AR,Platanus × acerifolia,True,Pg Picasso,,14.75,median,1.57,check
+0113479AR,Quercus ilex,False,C\ Doctor Aiguader,,74.24,no_facade,,check
+0113480AR,Platanus × acerifolia,True,Pg Circumval·lació,3.82,2.9,ok,,medium
+0113481AR,Magnolia grandiflora,False,C\ Amadeu Vives,2.95,3.59,ok,,small
+0113482AR,Crataegus x media 'Paul's Scarlet',False,Pl Jaume Sabartés,,10.15,no_kerb,,check
+0113483AR,Platanus × acerifolia,True,Pg Pujades,,44.0,no_facade,,check
+0113484AR,Magnolia grandiflora 'Goliath',False,C\ Argenteria,3.9,2.12,ok,,medium
+0113485AR,Platanus × acerifolia,True,Pg Circumval·lació,,14.67,median,1.97,check
+0113486AR,Magnolia grandiflora,False,C\ Amadeu Vives,2.91,2.48,ok,,small
+0113487AR,Ligustrum lucidum,False,C\ General Álvarez de Castro,2.91,1.99,ok,,small
+0113489AR,Ulmus pumila,False,C\ Comerç,4.43,2.48,ok,,medium
+0113490AR,Platanus × acerifolia,True,Pg Circumval·lació,,13.3,median,5.87,check
+0113491AR,Platanus × acerifolia,True,Pg Lluís Companys,,18.53,median,,check
+0113492AR,Jacaranda mimosifolia,False,Pl Víctor Balaguer,,6.37,median,,check
+0113494AR,Platanus × acerifolia,True,Pg Pujades,,43.21,no_facade,21.84,check
+0113495AR,Platanus × acerifolia,True,Pg Pujades,,42.97,no_facade,21.8,check
+0113496AR,Celtis australis,False,C\ Roger de Flor,4.9,4.07,ok,,medium
+0113497AR,Bauhinia forficata subsp. pruinosa,False,C\ Gombau,3.67,2.67,ok,,medium
+0113499AR,Platanus × acerifolia,True,Pg Lluís Companys,,25.77,median,,check
+0113500AR,Tipuana tipu,False,C\ Metges,,7.21,no_kerb,11.36,check
+0113501AR,Cercis siliquastrum,False,C\ Rere Palau,,2.26,no_kerb,,check
+0113503AR,Platanus × acerifolia,True,Pg Picasso,,14.06,median,1.57,check
+0113504AR,Platanus × acerifolia,True,Pl Correus,,42.3,no_facade,,check
+0113505AR,Brachychiton populneus,False,Pg Circumval·lació,,11.89,median,2.09,check
+0113508AR,Ulmus pumila,False,C\ Comerç,4.77,2.53,ok,,medium
+0113510AR,Jacaranda mimosifolia,False,C\ Fusina,,3.34,no_kerb,,check
+0113511AR,Brachychiton acerifolius,False,Av Marquès de l'Argentera,6.03,4.55,ok,,large
+0113512AR,Platanus × acerifolia,True,Pg Lluís Companys,,67.24,no_facade,,check
+0113513AR,Platanus × acerifolia,True,Pg Picasso,,14.62,median,1.56,check
+0113514AR,Platanus × acerifolia,True,C\ Méndez Núñez,5.03,4.19,ok,,medium
+0113515AR,Platanus × acerifolia,True,Pg Pujades,,34.38,no_facade,4.0,check
+0113516AR,Platanus × acerifolia,True,Pg Picasso,,29.44,median,,check
+0113517AR,Celtis australis,False,Pg Pujades,4.27,3.17,ok,,medium
+0113519AR,Jacaranda mimosifolia,False,Pl La Puntual,12.73,5.69,ok,,large
+0113520AR,Jacaranda mimosifolia,False,C\ Jaume Giralt,,7.6,no_kerb,31.0,check
+0113521AR,Platanus × acerifolia,True,Pg Pujades,,35.02,no_facade,21.82,check
+0113523AR,Celtis australis,False,C\ Roger de Flor,4.69,3.83,ok,,medium
+0113524AR,Platanus × acerifolia,True,Pg Born,,7.89,median,8.07,check
+0113525AR,Celtis australis,False,C\ Rec Comtal,,14.56,no_kerb,,check
+0113526AR,Gleditsia triacanthos f. inermis,False,C\ Trafalgar,4.52,2.98,ok,,medium
+0113527AR,Platanus × acerifolia,True,Pg Pujades,,35.59,no_facade,21.9,check
+0113528AR,Platanus × acerifolia,True,Pg Lluís Companys,5.33,4.84,ok,,medium
+0113530AR,Platanus × acerifolia,True,Pg Picasso,7.47,6.59,ok,,large
+0113531AR,Platanus × acerifolia,True,Pg Lluís Companys,,60.36,no_facade,,check
+0113532AR,Robinia pseudoacacia,False,Pl Marquilles,5.23,3.71,ok,,medium
+0113533AR,Tipuana tipu,False,C\ Joan Massana,4.49,2.43,ok,,medium
+0113534AR,Celtis australis,False,C\ Davant del Portal Nou,4.67,4.1,ok,,medium
+0113535AR,Platanus × acerifolia,True,Pg Lluís Companys,,77.41,no_facade,,check
+0113536AR,Platanus × acerifolia,True,Pg Lluís Companys,,30.51,no_facade,,check
+0113539AR,Prunus cerasifera 'Pissardii',False,C\ Allada-Vermell,,10.37,no_kerb,,check
+0113540AR,Brachychiton acerifolius,False,C\ Allada-Vermell,,10.17,no_kerb,,check
+0113544AR,Platanus × acerifolia,True,C\ Davant del Portal Nou,4.71,1.8,ok,,medium
+0113545AR,Bauhinia forficata subsp. pruinosa,False,Pl Pons i Clerch,,4.38,no_kerb,,check
+0113546AR,Tipuana tipu,False,Pl Sant Pere,4.2,4.09,ok,,medium
+0113547AR,Tipuana tipu,False,Av Francesc Cambó,7.08,6.35,ok,,large
+0113549AR,Tipuana tipu,False,Plta Comerç,,16.95,median,18.39,check
+0113550AR,Platanus × acerifolia,True,Pg Pujades,,35.17,no_facade,,check
+0113551AR,Platanus × acerifolia,True,Pg Pujades,,35.36,no_facade,,check
+0113552AR,Magnolia grandiflora,False,C\ Amadeu Vives,3.13,3.06,ok,,small
+0113553AR,Jacaranda mimosifolia,False,Pl Pau Vila,,13.24,median,21.87,check
+0113556AR,Brachychiton populneus,False,Pg Circumval·lació,2.18,0.66,ok,,none
+0113557AR,Brachychiton populneus,False,C\ Comerç,3.83,3.03,ok,,medium
+0113558AR,Brachychiton populneus,False,Pg Circumval·lació,,6.79,median,3.87,check
+0113560AR,Ulmus pumila,False,C\ Comerç,3.86,2.81,ok,,medium
+0113561AR,Tipuana tipu,False,C\ Basses de Sant Pere,,7.67,median,7.0,check
+0113562AR,Brachychiton acerifolius,False,Av Marquès de l'Argentera,5.32,3.29,ok,,medium
+0113563AR,Grevillea robusta,False,C\ Doctor Aiguader,,55.86,no_facade,12.28,check
+0113564AR,Tipuana tipu,False,C\ Joan Massana,4.27,2.59,ok,,medium
+0113565AR,Platanus × acerifolia,True,Pg Picasso,,43.66,no_facade,13.82,check
+0113566AR,Platanus × acerifolia,True,Pg Pujades,15.73,8.1,ok,,large
+0113567AR,Platanus × acerifolia,True,C\ Wellington,,16.93,median,,check
+0113570AR,Fraxinus angustifolia,False,Pl Comercial,,2.34,no_kerb,,check
+0113571AR,Platanus × acerifolia,True,C\ Doctor Aiguader,,12.62,median,11.49,check
+0113572AR,Platanus × acerifolia,True,C\ Princesa,5.16,4.38,ok,,medium
+0113573AR,Platanus × acerifolia,True,Pg Lluís Companys,,18.17,median,,check
+0113574AR,Platanus × acerifolia,True,C\ Comerç,4.77,3.13,ok,,medium
+0113577AR,Platanus × acerifolia,True,C\ Wellington,,18.81,median,,check
+0113578AR,Platanus × acerifolia,True,Pg Lluís Companys,5.12,4.15,ok,,medium
+0113579AR,Ligustrum japonicum 'Texanum',False,C\ General Álvarez de Castro,2.93,2.05,ok,,small
+0113580AR,Platanus × acerifolia,True,Pla Palau,,34.85,no_facade,,check
+0113581AR,Platanus × acerifolia,True,Pg Picasso,6.89,6.19,ok,,large
+0113582AR,Platanus × acerifolia,True,Pg Picasso,,14.86,median,1.61,check
+0113583AR,Quercus ilex,False,C\ Doctor Aiguader,,72.32,no_facade,7.54,check
+0113585AR,Platanus × acerifolia,True,Pg Lluís Companys,,18.76,median,,check
+0113586AR,Celtis australis,False,Pg Pujades,4.35,3.26,ok,,medium
+0113587AR,Platanus × acerifolia,True,Pg Pujades,,35.58,no_facade,,check
+0113588AR,Platanus × acerifolia,True,Pla Palau,6.49,5.58,ok,,large
+0113589AR,Brachychiton populneus,False,C\ Comerç,3.87,3.13,ok,,medium
+0113591AR,Platanus × acerifolia,True,Pg Pujades,23.02,9.8,ok,,large
+0113592AR,Platanus × acerifolia,True,Pg Picasso,,18.23,median,,check
+0113593AR,Brachychiton populneus,False,Pg Circumval·lació,,12.66,median,1.96,check
+0113594AR,Celtis australis,False,C\ Doctor Aiguader,,60.1,no_facade,18.95,check
+0113596AR,Platanus × acerifolia,True,Pg Picasso,7.39,6.08,ok,,large
+0113597AR,Celtis australis,False,C\ Méndez Núñez,5.03,3.68,ok,,medium
+0113598AR,Brachychiton populneus,False,C\ Comerç,4.02,2.24,ok,,medium
+0113600AR,Ulmus pumila,False,C\ Comerç,3.95,2.14,ok,,medium
+0113601AR,Platanus × acerifolia,True,C\ Comerç,4.54,3.03,ok,,medium
+0113602AR,Platanus × acerifolia,True,Pg Pujades,,37.39,no_facade,4.02,check
+0113603AR,Tipuana tipu,False,C\ Basses de Sant Pere,,5.19,median,8.31,check
+0113604AR,Platanus × acerifolia,True,Pla Palau,,23.76,median,,check
+0113605AR,Gleditsia triacanthos f. inermis,False,C\ Trafalgar,4.91,3.75,ok,,medium
+0113606AR,Platanus × acerifolia,True,Pg Pujades,,35.03,no_facade,21.88,check
+0113607AR,Platanus × acerifolia,True,C\ Méndez Núñez,5.15,3.33,ok,,medium
+0113608AR,Platanus × acerifolia,True,Pg Circumval·lació,,11.87,median,2.03,check
+0113609AR,Tipuana tipu,False,Av Francesc Cambó,8.72,5.57,ok,,large
+0113610AR,Platanus × acerifolia,True,Pg Lluís Companys,,18.66,median,,check
+0113611AR,Platanus × acerifolia,True,Pg Pujades,,28.76,median,,check
+0113612AR,Brachychiton acerifolius,False,Av Marquès de l'Argentera,5.58,3.44,ok,,medium
+0113613AR,Platanus × acerifolia,True,Pg Pujades,,42.94,no_facade,21.74,check
+0113615AR,Platanus × acerifolia,True,C\ Doctor Aiguader,,10.93,median,12.06,check
+0113616AR,Platanus × acerifolia,True,Pg Lluís Companys,,27.17,median,,check
+0113619AR,Platanus × acerifolia,True,Pg Picasso,7.44,6.54,ok,,large
+0113620AR,Platanus × acerifolia,True,Pg Lluís Companys,,25.27,median,,check
+0113621AR,Magnolia grandiflora,False,C\ Amadeu Vives,2.91,2.96,ok,,small
+0113622AR,Ligustrum lucidum,False,C\ Rec,3.5,2.47,ok,,medium
+0113623AR,Ligustrum lucidum,False,C\ Rec Comtal,5.46,4.9,ok,,medium
+0113624AR,Platanus × acerifolia,True,Pg Picasso,,14.56,median,14.3,check
+0113626AR,Celtis australis,False,C\ Doctor Aiguader,,70.58,no_facade,7.88,check
+0113627AR,Platanus × acerifolia,True,Pg Lluís Companys,,75.83,no_facade,,check
+0113628AR,Platanus × acerifolia,True,Pg Circumval·lació,,20.96,no_kerb,5.12,check
+0113629AR,Brachychiton populneus,False,Pg Circumval·lació,8.55,8.01,ok,,large
+0113630AR,Quercus ilex,False,C\ Doctor Aiguader,,67.17,no_facade,18.75,check
+0113631AR,Celtis australis,False,C\ Doctor Aiguader,,87.17,no_facade,15.05,check
+0113632AR,Celtis australis,False,C\ Doctor Aiguader,,88.4,no_facade,11.81,check
+0113634AR,Platanus × acerifolia,True,Pg Picasso,,10.67,median,16.67,check
+0113635AR,Platanus × acerifolia,True,Pg Lluís Companys,,18.71,median,,check
+0113636AR,Ficus carica,False,C\ Pou de la Figuera,,17.21,median,27.24,check
+0113637AR,Ligustrum japonicum 'Texanum',False,C\ General Álvarez de Castro,2.59,1.6,ok,,small
+0113638AR,Platanus × acerifolia,True,Pg Lluís Companys,,25.77,median,,check
+0113639AR,Platanus × acerifolia,True,Pg Pujades,,35.45,no_facade,21.8,check
+0113640AR,Platanus × acerifolia,True,Pg Picasso,7.42,6.58,ok,,large
+0113641AR,Platanus × acerifolia,True,Pg Pujades,,35.4,no_facade,21.86,check
+0113642AR,Platanus × acerifolia,True,Pg Pujades,,20.32,median,,check
+0113643AR,Platanus × acerifolia,True,Pg Picasso,7.34,6.1,ok,,large
+0113644AR,Platanus × acerifolia,True,C\ Wellington,,26.76,median,,check
+0113645AR,Platanus × acerifolia,True,Pg Circumval·lació,,23.72,median,1.97,check
+0113647AR,Platanus × acerifolia,True,Pg Lluís Companys,,19.4,median,,check
+0113648AR,Platanus × acerifolia,True,Pg Pujades,15.95,15.54,ok,,large
+0113649AR,Platanus × acerifolia,True,Pg Pujades,15.9,14.92,ok,,large
+0113650AR,Tipuana tipu,False,C\ Metges,11.53,9.85,ok,,large
+0113651AR,Platanus × acerifolia,True,Pg Pujades,,43.47,no_facade,21.94,check
+0113652AR,Gleditsia triacanthos f. inermis,False,C\ Trafalgar,4.75,3.57,ok,,medium
+0113655AR,Platanus × acerifolia,True,Pg Picasso,4.32,3.72,ok,,medium
+0113656AR,Platanus × acerifolia,True,Pg Lluís Companys,,18.43,median,,check
+0113657AR,Tipuana tipu,False,Plta Comerç,,9.5,no_kerb,24.27,check
+0113659AR,Tipuana tipu,False,C\ Jaume Giralt,,15.24,median,33.0,check
+0113660AR,Platanus × acerifolia,True,Pg Pujades,,35.62,no_facade,21.94,check
+0113662AR,Gleditsia triacanthos f. inermis,False,C\ Trafalgar,4.57,1.7,ok,,medium
+0113663AR,Celtis australis,False,Pg Lluís Companys,5.19,3.97,ok,,medium
+0113664AR,Tipuana tipu,False,C\ Rec Comtal,,2.94,no_kerb,31.36,check
+0113665AR,Platanus × acerifolia,True,Pg Isabel II,28.71,19.26,ok,,large
+0113666AR,Magnolia grandiflora,False,C\ Amadeu Vives,2.89,2.56,ok,,small
+0113667AR,Prunus cerasifera 'Pissardii',False,Pl Pons i Clerch,,8.37,no_kerb,,check
+0113669AR,Tipuana tipu,False,Av Francesc Cambó,5.28,4.67,ok,,medium
+0113670AR,Tipuana tipu,False,Pl Sant Pere,21.35,2.42,ok,,large
+0113672AR,Casuarina cunninghamiana,False,C\ Wellington,,27.38,median,,check
+0113674AR,Platanus × acerifolia,True,Pg Lluís Companys,,26.94,median,,check
+0113675AR,Platanus × acerifolia,True,Pg Born,,7.95,median,8.16,check
+0113677AR,Platanus × acerifolia,True,Pla Palau,,17.77,median,,check
+0113678AR,Platanus × acerifolia,True,Pg Picasso,,35.18,no_facade,,check
+0113679AR,Platanus × acerifolia,True,C\ Doctor Aiguader,11.85,5.48,ok,,large
+0113681AR,Platanus × acerifolia,True,Pg Lluís Companys,,18.31,median,,check
+0113682AR,Platanus × acerifolia,True,C\ Princesa,5.17,4.31,ok,,medium
+0113683AR,Platanus × acerifolia,True,Pg Lluís Companys,5.62,3.94,ok,,medium
+0113684AR,Platanus × acerifolia,True,Pg Picasso,7.18,6.4,ok,,large
+0113685AR,Platanus × acerifolia,True,C\ Roger de Flor,4.6,3.71,ok,,medium
+0113686AR,Tipuana tipu,False,C\ Allada-Vermell,,8.03,no_kerb,,check
+0113688AR,Platanus × acerifolia,True,Pg Pujades,15.85,6.69,ok,,large
+0113690AR,Platanus × acerifolia,True,Pg Born,,8.15,median,8.14,check
+0113691AR,Platanus × acerifolia,True,Pg Lluís Companys,,25.57,median,11.2,check
+0113692AR,Celtis australis,False,Pl Sant Agustí Vell,,6.64,median,17.31,check
+0113694AR,Platanus × acerifolia,True,Pg Picasso,,14.39,median,1.59,check
+0113695AR,Platanus × acerifolia,True,C\ Doctor Aiguader,18.71,9.42,ok,,large
+0113696AR,Platanus × acerifolia,True,Pg Circumval·lació,4.6,3.42,ok,,medium
+0113697AR,Ulmus pumila,False,C\ Comerç,3.86,3.04,ok,,medium
+0113698AR,Platanus × acerifolia,True,Pg Picasso,,14.9,median,1.46,check
+0113699AR,Platanus × acerifolia,True,Pg Circumval·lació,3.68,2.77,ok,,medium
+0113700AR,Platanus × acerifolia,True,Pg Picasso,,34.95,no_facade,,check
+0113701AR,Platanus × acerifolia,True,Pg Lluís Companys,5.15,4.5,ok,,medium
+0113702AR,Platanus × acerifolia,True,Pg Lluís Companys,,18.06,median,,check
+0113703AR,Gleditsia triacanthos f. inermis,False,C\ Trafalgar,4.91,3.67,ok,,medium
+0113704AR,Prunus cerasifera 'Pissardii',False,C\ Allada-Vermell,,4.83,no_kerb,,check
+0113705AR,Brachychiton acerifolius,False,Av Marquès de l'Argentera,5.49,3.92,ok,,medium
+0113706AR,Platanus × acerifolia,True,Pg Lluís Companys,5.52,3.71,ok,,medium
+0113707AR,Melia azedarach,False,C\ Roger de Flor,4.82,3.75,ok,,medium
+0113708AR,Cercis siliquastrum,False,Av Francesc Cambó,5.68,4.52,ok,,medium
+0113709AR,Magnolia grandiflora,False,C\ Amadeu Vives,2.95,1.89,ok,,small
+0113710AR,Ulmus pumila,False,C\ Comerç,3.88,2.61,ok,,medium
+0113711AR,Brachychiton acerifolius,False,Av Marquès de l'Argentera,5.28,3.58,ok,,medium
+0113712AR,Magnolia grandiflora 'Goliath',False,C\ Argenteria,4.0,1.8,ok,,medium
+0113713AR,Gleditsia triacanthos f. inermis,False,C\ Trafalgar,4.5,2.27,ok,,medium
+0113714AR,Ligustrum japonicum 'Texanum',False,C\ General Álvarez de Castro,2.75,1.76,ok,,small
+0113715AR,Gleditsia triacanthos f. inermis,False,C\ Trafalgar,4.85,3.73,ok,,medium
+0113716AR,Platanus × acerifolia,True,Pl Correus,,13.12,no_kerb,,check
+0113717AR,Celtis australis,False,C\ Comerç,4.84,4.76,ok,,medium
+0113718AR,Platanus × acerifolia,True,C\ Doctor Aiguader,,30.41,no_facade,12.15,check
+0113719AR,Celtis australis,False,C\ Doctor Aiguader,,51.57,no_facade,12.25,check
+0113720AR,Platanus × acerifolia,True,Pg Picasso,7.45,6.91,ok,,large
+0113721AR,Cercis siliquastrum,False,C\ Arc de Sant Cristòfol,13.56,6.11,ok,,large
+0113722AR,Platanus × acerifolia,True,Pla Palau,,17.89,median,,check
+0113723AR,Platanus × acerifolia,True,Pg Lluís Companys,5.09,3.98,ok,,medium
+0113724AR,Tipuana tipu,False,Av Francesc Cambó,5.38,4.84,ok,,medium
+0113726AR,Celtis australis,False,C\ Almogàvers,4.59,3.66,ok,,medium
+0113727AR,Cercis siliquastrum,False,C\ Pou de la Figuera,2.79,1.66,ok,,small
+0113728AR,Tipuana tipu,False,C\ Rec Comtal,,3.48,no_kerb,31.67,check
+0113729AR,Platanus × acerifolia,True,Pg Picasso,,22.13,median,,check
+0113730AR,Celtis australis,False,C\ Doctor Aiguader,,71.32,no_facade,8.73,check
+0113731AR,Styphnolobium japonicum,False,C\ Consolat de Mar,3.37,2.63,ok,,small
+0113732AR,Jacaranda mimosifolia,False,C\ Jaume Giralt,,8.2,median,16.93,check
+0113733AR,Tipuana tipu,False,Av Francesc Cambó,9.56,6.48,ok,,large
+0113734AR,Cercis siliquastrum,False,C\ Rere Palau,,2.32,no_kerb,,check
+0113735AR,Quercus ilex,False,C\ Doctor Aiguader,,73.48,no_facade,10.9,check
+0113736AR,Melia azedarach,False,Pl Acadèmia,15.76,10.31,ok,,large
+0113737AR,Tipuana tipu,False,Pl Sant Pere,4.05,4.0,ok,,medium
+0113739AR,Tipuana tipu,False,C\ Metges,,5.58,no_kerb,,check
+0113740AR,Celtis australis,False,C\ Doctor Aiguader,,75.96,no_facade,17.33,check
+0113741AR,Platanus × acerifolia,True,Pg Picasso,,26.22,median,,check
+0113742AR,Koelreuteria paniculata,False,Av Francesc Cambó,4.08,3.39,ok,,medium
+0113743AR,Cercis siliquastrum,False,C\ Marquesa,,3.25,median,21.75,check
+0113744AR,Platanus × acerifolia,True,C\ Doctor Aiguader,,14.29,median,12.09,check
+0113745AR,Platanus × acerifolia,True,Pg Lluís Companys,,72.34,no_facade,,check
+0113746AR,Koelreuteria paniculata,False,C\ Manresa,2.89,2.2,ok,,small
+0113747AR,Koelreuteria paniculata,False,C\ Pare Gallifa,5.56,1.9,ok,,medium
+0113748AR,Platanus × acerifolia,True,Pg Lluís Companys,,20.82,median,,check
+0113749AR,Platanus × acerifolia,True,Pg Lluís Companys,,90.54,no_facade,,check
+0113750AR,Platanus × acerifolia,True,Pla Palau,,39.26,no_facade,,check
+0113751AR,Platanus × acerifolia,True,Pg Picasso,,15.02,median,1.56,check
+0113752AR,Brachychiton populneus,False,Pg Picasso,,18.87,median,,check
+0113753AR,Bauhinia forficata subsp. pruinosa,False,C\ Allada-Vermell,,11.39,no_kerb,,check
+0113754AR,Platanus × acerifolia,True,C\ Princesa,5.16,4.31,ok,,medium
+0113755AR,Platanus × acerifolia,True,Pg Picasso,,43.86,no_facade,13.81,check
+0113756AR,Platanus × acerifolia,True,Pg Lluís Companys,,77.26,no_facade,,check
+0113757AR,Platanus × acerifolia,True,Pl Correus,,20.2,median,,check
+0113759AR,Platanus × acerifolia,True,Pg Picasso,,6.8,median,,check
+0113760AR,Brachychiton acerifolius,False,Av Marquès de l'Argentera,5.91,3.49,ok,,medium
+0113761AR,Cercis siliquastrum,False,Av Francesc Cambó,5.03,4.22,ok,,medium
+0113762AR,Ulmus pumila,False,C\ Comerç,4.38,2.62,ok,,medium
+0113763AR,Platanus × acerifolia,True,Av Vilanova,9.21,6.43,ok,,large
+0113764AR,Fraxinus angustifolia,False,Pl Comercial,,2.82,no_kerb,,check
+0113765AR,Platanus × acerifolia,True,Pg Lluís Companys,,38.99,no_facade,,check
+0113766AR,Cercis siliquastrum,False,C\ Gombau,2.85,1.85,ok,,small
+0113767AR,Platanus × acerifolia,True,Pg Pujades,15.73,14.89,ok,,large
+0113768AR,Platanus × acerifolia,True,Pg Lluís Companys,28.93,23.48,ok,,large
+0113769AR,Celtis australis,False,Pg Pujades,4.31,2.88,ok,,medium
+0113770AR,Celtis australis,False,C\ Buenaventura Muñoz,4.93,3.77,ok,,medium
+0113771AR,Platanus × acerifolia,True,Pg Circumval·lació,4.2,3.48,ok,,medium
+0113772AR,Platanus × acerifolia,True,C\ Princesa,5.05,4.07,ok,,medium
+0113773AR,Celtis australis,False,Pg Lluís Companys,7.92,6.05,ok,,large
+0113774AR,Platanus × acerifolia,True,Pg Lluís Companys,,26.4,median,,check
+0113775AR,Platanus × acerifolia,True,Pg Lluís Companys,,18.2,median,,check
+0113776AR,Celtis australis,False,C\ Méndez Núñez,5.14,3.05,ok,,medium
+0113777AR,Platanus × acerifolia,True,Pg Lluís Companys,,71.09,no_facade,,check
+0113778AR,Brachychiton acerifolius,False,Av Marquès de l'Argentera,5.51,3.81,ok,,medium
+0113779AR,Platanus × acerifolia,True,C\ Comerç,4.29,2.68,ok,,medium
+0113780AR,Platanus × acerifolia,True,Pg Lluís Companys,,58.41,no_facade,,check
+0113781AR,Platanus × acerifolia,True,Pg Pujades,,34.17,no_facade,3.92,check
+0113782AR,Gleditsia triacanthos f. inermis,False,C\ Trafalgar,4.67,3.81,ok,,medium
+0113783AR,Celtis australis,False,C\ Doctor Aiguader,,63.95,no_facade,18.86,check
+0113784AR,Platanus × acerifolia,True,Pg Lluís Companys,,18.38,median,,check
+0113785AR,Platanus × acerifolia,True,Pg Lluís Companys,,82.22,no_facade,,check
+0113786AR,Platanus × acerifolia,True,Pg Pujades,,35.13,no_facade,21.91,check
+0113787AR,Tipuana tipu,False,C\ Argenteria,,4.31,no_kerb,,check
+0113788AR,Quercus ilex,False,C\ Doctor Aiguader,,86.94,no_facade,15.6,check
+0113789AR,Fraxinus angustifolia,False,Pl Comercial,,3.28,no_kerb,,check
+0113793AR,Tipuana tipu,False,C\ Jaume Giralt,,6.56,no_kerb,,check
+0113794AR,Celtis australis,False,C\ Rec Comtal,,10.88,no_kerb,,check
+0113795AR,Platanus × acerifolia,True,C\ Buenaventura Muñoz,4.79,3.91,ok,,medium
+0113796AR,Platanus × acerifolia,True,Pg Lluís Companys,,25.96,median,,check
+0113797AR,Platanus × acerifolia,True,C\ Roger de Flor,4.92,3.73,ok,,medium
+0113798AR,Platanus × acerifolia,True,Pg Pujades,15.87,15.59,ok,,large
+0113799AR,Ulmus pumila,False,C\ Comerç,,15.18,median,,check
+0113800AR,Celtis australis,False,C\ Davant del Portal Nou,,9.84,median,,check
+0113801AR,Platanus × acerifolia,True,Pg Lluís Companys,,17.92,median,,check
+0113803AR,Platanus × acerifolia,True,Pg Picasso,4.41,2.6,ok,,medium
+0113804AR,Ligustrum lucidum,False,C\ Rec,3.5,2.61,ok,,medium
+0113805AR,Platanus × acerifolia,True,C\ Wellington,,33.21,no_facade,,check
+0113806AR,Platanus × acerifolia,True,Pg Circumval·lació,6.04,5.32,ok,,large
+0113807AR,Ligustrum lucidum,False,C\ Rec,3.54,2.66,ok,,medium
+0113808AR,Platanus × acerifolia,True,Pl Correus,,21.88,median,,check
+0113809AR,Platanus × acerifolia,True,Pg Pujades,28.03,17.88,ok,,large
+0113810AR,Platanus × acerifolia,True,Pg Lluís Companys,5.48,4.02,ok,,medium
+0113811AR,Platanus × acerifolia,True,Pg Lluís Companys,,20.05,median,,check
+0113812AR,Platanus × acerifolia,True,Pg Pujades,,36.13,no_facade,,check
+0113813AR,Celtis australis,False,C\ Roger de Flor,4.71,3.75,ok,,medium
+0113814AR,Tipuana tipu,False,Av Francesc Cambó,6.54,5.34,ok,,large
+0113815AR,Celtis australis,False,C\ Roger de Flor,4.68,3.66,ok,,medium
+0113816AR,Casuarina cunninghamiana,False,C\ Wellington,,24.9,no_kerb,8.73,check
+0113817AR,Celtis australis,False,Pl Sant Agustí Vell,,4.8,median,,check
+0113818AR,Celtis australis,False,Pl Sant Agustí Vell,16.62,4.02,ok,,large
+0113819AR,Platanus × acerifolia,True,Pg Picasso,,14.97,median,1.61,check
+0113820AR,Platanus × acerifolia,True,Pg Picasso,,34.65,no_facade,13.81,check
+0113821AR,Olea europaea,False,C\ Pou de la Figuera,26.01,18.23,ok,,large
+0113822AR,Ulmus pumila,False,C\ Comerç,4.65,2.47,ok,,medium
+0113823AR,Platanus × acerifolia,True,C\ Doctor Aiguader,11.6,10.71,ok,,large
+0113825AR,Platanus × acerifolia,True,Pg Picasso,,34.91,no_facade,13.8,check
+0113826AR,Platanus × acerifolia,True,Pg Picasso,19.14,14.56,ok,,large
+0113827AR,Acer platanoides,False,C\ Davant del Portal Nou,2.95,1.88,ok,,small
+0113828AR,Brachychiton acerifolius,False,Av Marquès de l'Argentera,4.43,2.47,ok,,medium
+0113829AR,Platanus × acerifolia,True,Pg Lluís Companys,,17.79,median,,check
+0113830AR,Celtis australis,False,C\ Roger de Flor,4.61,3.62,ok,,medium
+0113831AR,Brachychiton populneus,False,C\ Comerç,,15.24,median,5.07,check
+0113832AR,Koelreuteria paniculata,False,Pl Sant Cugat,,8.98,median,,check
+0113834AR,Platanus × acerifolia,True,Pg Picasso,,14.72,median,1.45,check
+0113835AR,Brachychiton populneus,False,Pg Circumval·lació,8.25,7.44,ok,,large
+0113836AR,Ulmus pumila,False,C\ Comerç,3.8,4.06,ok,,medium
+0113837AR,Tipuana tipu,False,C\ Jaume Giralt,,6.11,median,22.65,check
+0113838AR,Platanus × acerifolia,True,Pg Picasso,,14.49,median,1.56,check
+0113839AR,Celtis australis,False,C\ Doctor Aiguader,,75.05,no_facade,11.36,check
+0113840AR,Tipuana tipu,False,C\ Allada-Vermell,,9.9,no_kerb,,check
+0113841AR,Platanus × acerifolia,True,Pg Circumval·lació,4.46,4.13,ok,,medium
+0113842AR,Gleditsia triacanthos f. inermis,False,C\ Trafalgar,4.63,3.92,ok,,medium
+0113843AR,Ulmus pumila,False,C\ Comerç,3.92,2.91,ok,,medium
+0113844AR,Platanus × acerifolia,True,Pg Lluís Companys,,18.29,median,,check
+0113845AR,Platanus × acerifolia,True,Pg Circumval·lació,,11.82,median,2.06,check
+0113846AR,Ligustrum lucidum,False,C\ Rec Comtal,5.61,3.62,ok,,medium
+0113847AR,Ulmus pumila,False,C\ Comerç,,14.63,median,10.64,check
+0113848AR,Platanus × acerifolia,True,Pg Pujades,,36.88,no_facade,,check
+0113849AR,Platanus × acerifolia,True,Pg Pujades,,45.6,no_facade,26.08,check
+0113850AR,Platanus × acerifolia,True,Pg Picasso,4.32,3.16,ok,,medium
+0113851AR,Platanus × acerifolia,True,Pg Circumval·lació,5.65,4.96,ok,,medium
+0113852AR,Celtis australis,False,Pg Pujades,4.38,3.43,ok,,medium
+0113853AR,Celtis australis,False,C\ Doctor Aiguader,,47.24,no_facade,12.22,check
+0113854AR,Celtis australis,False,C\ Roger de Flor,4.66,3.71,ok,,medium
+0113855AR,Morus alba,False,Pl Fossar de les Moreres,,5.7,no_kerb,,check
+0113856AR,Platanus × acerifolia,True,Pg Lluís Companys,5.0,5.04,ok,,medium
+0113857AR,Platanus × acerifolia,True,Pg Picasso,,14.71,median,14.29,check
+0113859AR,Platanus × acerifolia,True,Pg Picasso,,34.92,no_facade,13.81,check
+0113860AR,Brachychiton acerifolius,False,Av Marquès de l'Argentera,5.24,3.72,ok,,medium
+0113861AR,Platanus × acerifolia,True,Pg Picasso,7.09,6.22,ok,,large
+0113862AR,Platanus × acerifolia,True,Pg Pujades,,35.65,no_facade,21.92,check
+0113863AR,Celtis australis,False,C\ Méndez Núñez,5.15,3.48,ok,,medium
+0113864AR,Platanus × acerifolia,True,Pg Pujades,,35.1,no_facade,21.81,check
+0113865AR,Magnolia grandiflora,False,C\ Bòria,,2.3,no_kerb,,check
+0113866AR,Platanus × acerifolia,True,Pg Picasso,7.09,5.29,ok,,large
+0113867AR,Platanus × acerifolia,True,Pg Pujades,15.95,7.14,ok,,large
+0113868AR,Koelreuteria paniculata,False,Av Francesc Cambó,5.86,5.14,ok,,medium
+0113869AR,Platanus × acerifolia,True,Pg Pujades,,41.68,no_facade,21.68,check
+0113871AR,Platanus × acerifolia,True,Pg Picasso,,35.34,no_facade,,check
+0113872AR,Platanus × acerifolia,True,C\ Doctor Aiguader,,60.52,no_facade,23.93,check
+0113873AR,Tipuana tipu,False,C\ Sant Pere Més Baix,25.18,3.95,ok,,large
+0113874AR,Platanus × acerifolia,True,Pg Pujades,,15.99,no_kerb,,check
+0113875AR,Koelreuteria paniculata,False,Av Francesc Cambó,5.48,5.02,ok,,medium
+0113876AR,Platanus × acerifolia,True,Pg Circumval·lació,8.41,7.78,ok,,large
+0113877AR,Platanus × acerifolia,True,C\ Comerç,,23.16,median,,check
+0113878AR,Platanus × acerifolia,True,Pg Lluís Companys,,25.71,median,,check
+0113879AR,Platanus × acerifolia,True,Pla Palau,,32.96,no_facade,,check
+0113880AR,Platanus × acerifolia,True,Pg Lluís Companys,,42.72,no_facade,,check
+0113881AR,Platanus × acerifolia,True,Pg Lluís Companys,,90.61,no_facade,,check
+0113882AR,Gleditsia triacanthos f. inermis,False,C\ Princesa,5.17,4.27,ok,,medium
+0113883AR,Platanus × acerifolia,True,Pg Circumval·lació,,11.63,median,1.98,check
+0113884AR,Brachychiton populneus,False,Pg Circumval·lació,,13.36,median,7.83,check
+0113885AR,Tipuana tipu,False,C\ Allada-Vermell,,8.63,no_kerb,,check
+0113886AR,Platanus × acerifolia,True,C\ Princesa,5.03,4.05,ok,,medium
+0113887AR,Platanus × acerifolia,True,Pg Pujades,,43.75,no_facade,21.84,check
+0113888AR,Jacaranda mimosifolia,False,Pl Víctor Balaguer,16.08,3.17,ok,,large
+0113889AR,Platanus × acerifolia,True,Pg Lluís Companys,,85.09,no_facade,,check
+0113890AR,Platanus × acerifolia,True,C\ Comerç,,19.06,median,5.13,check
+0113892AR,Platanus × acerifolia,True,Pg Pujades,,43.96,no_facade,21.87,check
+0113894AR,Platanus × acerifolia,True,Pg Circumval·lació,,10.91,median,2.0,check
+0113895AR,Fraxinus angustifolia,False,Pl Comercial,,3.75,no_kerb,,check
+0113897AR,Platanus × acerifolia,True,Pg Circumval·lació,,22.63,median,16.67,check
+0113898AR,Platanus × acerifolia,True,Pg Picasso,,15.11,median,1.56,check
+0113899AR,Platanus × acerifolia,True,Pg Lluís Companys,,25.12,median,,check
+0113901AR,Celtis australis,False,C\ Doctor Aiguader,,59.6,no_facade,21.85,check
+0113902AR,Platanus × acerifolia,True,Pg Pujades,,35.73,no_facade,,check
+0113904AR,Tipuana tipu,False,C\ Joan Massana,4.34,2.64,ok,,medium
+0113905AR,Platanus × acerifolia,True,Pg Lluís Companys,5.17,4.65,ok,,medium
+0113906AR,Brachychiton populneus,False,Pg Circumval·lació,9.6,9.08,ok,,large
+0113907AR,Celtis australis,False,C\ Doctor Aiguader,,87.13,no_facade,14.22,check
+0113908AR,Platanus × acerifolia,True,Pl Correus,,24.17,no_kerb,,check
+0113909AR,Tipuana tipu,False,C\ Allada-Vermell,,6.3,no_kerb,,check
+0113911AR,Ulmus pumila,False,C\ Comerç,3.94,2.87,ok,,medium
+0113912AR,Tipuana tipu,False,C\ Joan Massana,4.09,3.51,ok,,medium
+0113913AR,Ulmus pumila,False,C\ Comerç,3.99,3.06,ok,,medium
+0113914AR,Ligustrum lucidum,False,C\ Rec,3.5,2.32,ok,,medium
+0113915AR,Platanus × acerifolia,True,Pg Lluís Companys,,18.37,median,,check
+0113916AR,Platanus × acerifolia,True,Pg Pujades,,43.4,no_facade,21.78,check
+0113917AR,Platanus × acerifolia,True,Pg Pujades,,28.01,no_kerb,,check
+0113918AR,Platanus × acerifolia,True,C\ Doctor Aiguader,11.97,5.19,ok,,large
+0113919AR,Platanus × acerifolia,True,Pla Palau,,19.29,median,,check
+0113920AR,Platanus × acerifolia,True,Pg Circumval·lació,14.98,5.26,ok,,large
+0113921AR,Tipuana tipu,False,Pl Olles,,5.61,no_kerb,,check
+0113922AR,Tipuana tipu,False,Pl Sant Pere,,5.94,median,13.16,check
+0113923AR,Platanus × acerifolia,True,Pg Isabel II,,26.83,no_kerb,,check
+0113924AR,Platanus × acerifolia,True,C\ Wellington,,20.9,median,,check
+0113925AR,Platanus × acerifolia,True,Pg Lluís Companys,5.29,4.11,ok,,medium
+0113926AR,Celtis australis,False,C\ Rec Comtal,,6.07,no_kerb,,check
+0113927AR,Gleditsia triacanthos f. inermis,False,C\ Trafalgar,4.74,4.33,ok,,medium
+0113928AR,Magnolia grandiflora,False,C\ Sant Pere Més Alt,5.58,3.97,ok,,medium
+0113929AR,Platanus × acerifolia,True,Pg Circumval·lació,4.59,3.54,ok,,medium
+0113930AR,Platanus × acerifolia,True,C\ Wellington,,22.5,median,,check
+0113931AR,Platanus × acerifolia,True,Pg Circumval·lació,,8.6,median,1.99,check
+0113932AR,Platanus × acerifolia,True,C\ Wellington,,27.14,median,,check
+0113933AR,Tipuana tipu,False,Pl Sant Pere,2.6,2.09,ok,,small
+0113934AR,Tipuana tipu,False,C\ Jaume Giralt,,6.93,no_kerb,,check
+0113937AR,Platanus × acerifolia,True,C\ Princesa,5.02,4.36,ok,,medium
+0113938AR,Platanus × acerifolia,True,Pg Picasso,,14.49,median,1.57,check
+0113939AR,Platanus × acerifolia,True,Pg Pujades,,51.89,no_facade,26.09,check
+0113940AR,Tipuana tipu,False,C\ Joan Massana,4.09,4.32,ok,,medium
+0113942AR,Phytolacca dioica,False,Pl Jaume Sabartés,,9.95,no_kerb,,check
+0113943AR,Platanus × acerifolia,True,Pg Picasso,,14.71,median,1.62,check
+0113944AR,Cercis siliquastrum,False,C\ Marquesa,,5.37,median,21.5,check
+0113945AR,Tipuana tipu,False,C\ Metges,,8.63,median,,check
+0113946AR,Platanus × acerifolia,True,Pg Lluís Companys,5.5,3.22,ok,,medium
+0113948AR,Handroanthus heptaphyllus,False,C\ Buenaventura Muñoz,4.78,3.8,ok,,medium
+0113949AR,Ulmus pumila,False,C\ Comerç,4.47,2.69,ok,,medium
+0113950AR,Platanus × acerifolia,True,C\ Wellington,,19.6,median,,check
+0113951AR,Tipuana tipu,False,C\ Basses de Sant Pere,,5.1,median,7.89,check
+0113952AR,Platanus × acerifolia,True,Pg Picasso,4.37,3.3,ok,,medium
+0113953AR,Celtis australis,False,Pg Lluís Companys,5.19,3.4,ok,,medium
+0113954AR,Tipuana tipu,False,C\ Jaume Giralt,,8.17,median,,check
+0113955AR,Casuarina cunninghamiana,False,C\ Wellington,6.04,3.44,ok,,large
+0113956AR,Ulmus pumila,False,C\ Comerç,3.84,2.68,ok,,medium
+0113957AR,Platanus × acerifolia,True,C\ Wellington,22.79,9.95,ok,,large
+0113958AR,Tipuana tipu,False,C\ Jaume Giralt,,7.85,median,,check
+0113960AR,Ulmus pumila,False,C\ Comerç,3.84,2.72,ok,,medium
+0113962AR,Platanus × acerifolia,True,Pg Lluís Companys,5.11,3.97,ok,,medium
+0113963AR,Platanus × acerifolia,True,Pg Pujades,,43.07,no_facade,,check
+0113964AR,Brachychiton populneus,False,C\ Comerç,4.2,2.94,ok,,medium
+0113966AR,Prunus cerasifera 'Pissardii',False,C\ Allada-Vermell,,3.05,no_kerb,,check
+0113967AR,Platanus × acerifolia,True,Pg Pujades,15.95,14.92,ok,,large
+0113968AR,Jacaranda mimosifolia,False,Pg Born,,9.06,no_kerb,,check
+0113969AR,Tipuana tipu,False,C\ Allada-Vermell,,7.82,no_kerb,,check
+0113970AR,Platanus × acerifolia,True,Pg Pujades,,43.08,no_facade,21.91,check
+0113971AR,Tipuana tipu,False,C\ Allada-Vermell,,9.49,no_kerb,,check
+0113972AR,Platanus × acerifolia,True,Pg Pujades,,44.43,no_facade,21.82,check
+0113973AR,Celtis australis,False,Pg Lluís Companys,17.63,12.84,ok,,large
+0113974AR,Platanus × acerifolia,True,C\ Almogàvers,4.56,3.85,ok,,medium
+0113978AR,Platanus × acerifolia,True,Pg Pujades,,43.75,no_facade,21.96,check
+0113979AR,Platanus × acerifolia,True,Pg Picasso,19.17,5.72,ok,,large
+0113980AR,Platanus × acerifolia,True,Pg Lluís Companys,,90.7,no_facade,,check
+0113981AR,Melia azedarach,False,Pl Santa Caterina,8.02,4.46,ok,,large
+0113982AR,Jacaranda mimosifolia,False,Pl Víctor Balaguer,,2.42,no_kerb,,check
+0113983AR,Celtis australis,False,Pl Sant Agustí Vell,16.05,3.47,ok,,large
+0113984AR,Brachychiton populneus,False,C\ Comerç,3.81,3.24,ok,,medium
+0113985AR,Platanus × acerifolia,True,Pla Palau,,38.68,no_facade,,check
+0113986AR,Celtis australis,False,C\ Méndez Núñez,5.15,3.4,ok,,medium
+0113987AR,Platanus × acerifolia,True,Pg Pujades,,35.16,no_facade,4.02,check
+0113988AR,Platanus × acerifolia,True,C\ Méndez Núñez,5.14,3.12,ok,,medium
+0113989AR,Platanus × acerifolia,True,Pg Lluís Companys,5.23,4.74,ok,,medium
+0113990AR,Koelreuteria paniculata,False,Av Francesc Cambó,5.32,4.57,ok,,medium
+0113991AR,Magnolia grandiflora 'Goliath',False,C\ Argenteria,3.99,2.09,ok,,medium
+0113992AR,Jacaranda mimosifolia,False,Pl Pau Vila,22.12,12.75,ok,,large
+0113993AR,Platanus × acerifolia,True,Pg Lluís Companys,,25.88,median,,check
+0113994AR,Platanus × acerifolia,True,C\ Wellington,,32.64,no_facade,,check
+0113996AR,Platanus × acerifolia,True,Pg Pujades,,44.04,no_facade,21.68,check
+0113997AR,Tipuana tipu,False,C\ Joan Massana,7.62,6.58,ok,,large
+0113998AR,Platanus × acerifolia,True,C\ Wellington,,17.39,median,,check
+0114000AR,Platanus × acerifolia,True,C\ Méndez Núñez,5.14,3.55,ok,,medium
+0114001AR,Platanus × acerifolia,True,C\ Almogàvers,4.52,4.11,ok,,medium
+0114002AR,Platanus × acerifolia,True,Pg Picasso,,14.6,median,1.56,check
+0114003AR,Platanus × acerifolia,True,Pg Pujades,,57.9,no_facade,21.86,check
+0114005AR,Gleditsia triacanthos f. inermis,False,C\ Trafalgar,4.64,3.63,ok,,medium
+0114007AR,Ulmus pumila,False,C\ Comerç,4.08,2.02,ok,,medium
+0114009AR,Platanus × acerifolia,True,C\ Doctor Aiguader,12.03,4.48,ok,,large
+0114010AR,Magnolia grandiflora,False,C\ Argenteria,3.92,2.26,ok,,medium
+0114011AR,Gleditsia triacanthos f. inermis,False,C\ Trafalgar,4.82,3.95,ok,,medium
+0114012AR,Platanus × acerifolia,True,Pg Circumval·lació,17.22,15.93,ok,,large
+0114013AR,Ulmus pumila,False,C\ Comerç,4.89,2.59,ok,,medium
+0114014AR,Platanus × acerifolia,True,Pg Lluís Companys,,30.38,no_facade,,check
+0114015AR,Ligustrum lucidum,False,C\ Ramon Mas,3.5,3.8,ok,,medium
+0114016AR,Brachychiton populneus,False,Pg Circumval·lació,2.06,0.43,ok,,none
+0114017AR,Platanus × acerifolia,True,Pg Circumval·lació,17.25,15.53,ok,,large
+0114018AR,Platanus × acerifolia,True,Pg Lluís Companys,,30.46,no_facade,,check
+0114020AR,Brachychiton populneus,False,C\ Princesa,5.14,4.37,ok,,medium
+0114021AR,Populus alba 'Pyramidalis',False,C\ Argenteria,3.95,2.64,ok,,medium
+0114022AR,Platanus × acerifolia,True,Pg Pujades,,35.0,no_facade,21.89,check
+0114023AR,Platanus × acerifolia,True,Pg Lluís Companys,,76.33,no_facade,,check
+0114024AR,Platanus × acerifolia,True,Pg Picasso,,14.44,median,14.31,check
+0114025AR,Ligustrum lucidum,False,C\ Rec,3.54,2.52,ok,,medium
+0114026AR,Platanus × acerifolia,True,Pg Lluís Companys,5.4,5.16,ok,,medium
+0114028AR,Platanus × acerifolia,True,Pg Lluís Companys,5.07,4.11,ok,,medium
+0114029AR,Platanus × acerifolia,True,Pg Picasso,,14.93,median,1.56,check
+0114030AR,Cercis siliquastrum,False,C\ Marquesa,,3.37,median,9.29,check
+0114031AR,Gleditsia triacanthos f. inermis,False,C\ Trafalgar,4.88,3.56,ok,,medium
+0114032AR,Koelreuteria paniculata,False,Av Francesc Cambó,4.73,3.76,ok,,medium
+0114033AR,Tipuana tipu,False,Pl Sant Pere,4.43,4.18,ok,,medium
+0114034AR,Casuarina cunninghamiana,False,C\ Wellington,,21.01,median,,check
+0114036AR,Platanus × acerifolia,True,C\ Doctor Aiguader,11.71,5.02,ok,,large
+0114037AR,Platanus × acerifolia,True,Pg Circumval·lació,10.3,8.89,ok,,large
+0114038AR,Platanus × acerifolia,True,C\ Princesa,5.14,4.23,ok,,medium
+0114039AR,Platanus × acerifolia,True,Pg Picasso,,14.99,median,1.56,check
+0114040AR,Platanus × acerifolia,True,Pg Lluís Companys,,25.97,median,,check
+0114041AR,Gleditsia triacanthos f. inermis,False,C\ Trafalgar,4.5,1.29,ok,,medium
+0114042AR,Gleditsia triacanthos f. inermis,False,C\ Trafalgar,4.65,3.64,ok,,medium
+0114043AR,Gleditsia triacanthos f. inermis,False,C\ Trafalgar,4.57,1.93,ok,,medium
+0114044AR,Platanus × acerifolia,True,Pg Lluís Companys,,17.94,median,,check
+0114045AR,Platanus × acerifolia,True,Pg Lluís Companys,,85.13,no_facade,,check
+0114046AR,Brachychiton populneus,False,Pg Circumval·lació,4.37,2.7,ok,,medium
+0114047AR,Platanus × acerifolia,True,C\ Doctor Aiguader,11.85,10.11,ok,,large
+0114049AR,Platanus × acerifolia,True,Pg Picasso,,43.68,no_facade,25.24,check
+0114050AR,Ulmus pumila,False,C\ Comerç,3.96,0.97,ok,,medium
+0114051AR,Cercis siliquastrum,False,Av Francesc Cambó,5.31,4.55,ok,,medium
+0114052AR,Platanus × acerifolia,True,Pg Lluís Companys,,25.88,median,,check
+0114053AR,Platanus × acerifolia,True,Pg Circumval·lació,11.69,8.74,ok,,large
+0114054AR,Platanus × acerifolia,True,Pg Circumval·lació,5.67,4.78,ok,,medium
+0114055AR,Brachychiton populneus,False,C\ Comerç,3.79,2.89,ok,,medium
+0114056AR,Jacaranda mimosifolia,False,C\ Mercaders,,1.23,no_kerb,36.32,check
+0114057AR,Platanus × acerifolia,True,Pg Lluís Companys,,40.4,no_facade,,check
+0114058AR,Ligustrum lucidum,False,C\ Palau de la Música,,4.76,median,3.42,check
+0114059AR,Jacaranda mimosifolia,False,Pl Pau Vila,21.46,12.6,ok,,large
+0114060AR,Magnolia grandiflora,False,C\ Bòria,,2.32,no_kerb,,check
+0114061AR,Platanus × acerifolia,True,Pg Picasso,,14.68,median,1.52,check
+0114062AR,Celtis australis,False,C\ Davant del Portal Nou,7.19,5.01,ok,,large
+0114063AR,Platanus × acerifolia,True,Pg Pujades,,43.44,no_facade,17.93,check
+0114064AR,Koelreuteria paniculata,False,C\ Manresa,3.1,2.66,ok,,small
+0114065AR,Platanus × acerifolia,True,Pg Picasso,7.49,6.46,ok,,large
+0114066AR,Platanus × acerifolia,True,C\ Méndez Núñez,5.14,3.19,ok,,medium
+0114067AR,Jacaranda mimosifolia,False,Pl Víctor Balaguer,,2.62,no_kerb,,check
+0114068AR,Platanus × acerifolia,True,Pg Circumval·lació,,11.79,median,2.01,check
+0114070AR,Platanus × acerifolia,True,Pg Picasso,,14.82,median,1.55,check
+0114071AR,Platanus × acerifolia,True,C\ Princesa,4.95,3.86,ok,,medium
+0114074AR,Cercis siliquastrum,False,C\ Pou de la Figuera,3.26,1.37,ok,,small
+0114075AR,Platanus × acerifolia,True,Pg Lluís Companys,,18.06,median,,check
+0114076AR,Platanus × acerifolia,True,Pg Picasso,6.81,6.19,ok,,large
+0114077AR,Fraxinus angustifolia,False,Pl Comercial,,2.82,no_kerb,,check
+0114078AR,Platanus × acerifolia,True,Pg Pujades,,31.24,no_facade,,check
+0114079AR,Quercus ilex,False,C\ Doctor Aiguader,,82.5,no_facade,28.52,check
+0114080AR,Gleditsia triacanthos f. inermis,False,C\ Trafalgar,4.81,4.04,ok,,medium
+0114081AR,Platanus × acerifolia,True,Pg Lluís Companys,,74.39,no_facade,,check
+0114082AR,Populus nigra 'Italica',False,Pl Pons i Clerch,,9.44,no_kerb,,check
+0114084AR,Cercis siliquastrum,False,Av Francesc Cambó,9.98,8.5,ok,,large
+0114085AR,Pyrus calleryana 'Chanticleer',False,C\ Rec,,2.35,no_kerb,,check
+0114086AR,Ulmus pumila,False,C\ Comerç,4.08,2.14,ok,,medium
+0114087AR,Platanus × acerifolia,True,Pg Lluís Companys,,30.44,no_facade,,check
+0114088AR,Brachychiton populneus,False,C\ Comerç,,14.84,median,10.86,check
+0114089AR,Morus alba,False,Pl Fossar de les Moreres,,4.08,no_kerb,,check
+0114090AR,Tipuana tipu,False,C\ Argenteria,,7.45,no_kerb,,check
+0114091AR,Platanus × acerifolia,True,C\ Wellington,,17.43,median,,check
+0114092AR,Platanus × acerifolia,True,C\ Buenaventura Muñoz,4.9,4.03,ok,,medium
+0114093AR,Platanus × acerifolia,True,C\ Doctor Aiguader,,12.07,median,11.44,check
+0114095AR,Platanus × acerifolia,True,Pg Lluís Companys,,26.32,median,,check
+0114096AR,Platanus × acerifolia,True,Pl Correus,,12.7,no_kerb,,check
+0114097AR,Platanus × acerifolia,True,Pg Picasso,,17.09,median,,check
+0114098AR,Platanus × acerifolia,True,Pg Picasso,4.93,5.82,ok,,medium
+0114099AR,Celtis australis,False,C\ Doctor Aiguader,,79.85,no_facade,30.71,check
+0114100AR,Platanus × acerifolia,True,Pg Pujades,,35.1,no_facade,21.76,check
+0114101AR,Gleditsia triacanthos f. inermis,False,C\ Trafalgar,4.5,1.12,ok,,medium
+0114102AR,Platanus × acerifolia,True,C\ Wellington,,32.9,no_facade,,check
+0114103AR,Platanus × acerifolia,True,Pg Picasso,,15.05,median,1.56,check
+0114104AR,Platanus × acerifolia,True,Pg Circumval·lació,15.62,10.39,ok,,large
+0114105AR,Platanus × acerifolia,True,Pg Circumval·lació,8.8,7.89,ok,,large
+0114106AR,Platanus × acerifolia,True,Pg Picasso,,19.07,median,,check
+0114108AR,Platanus × acerifolia,True,C\ Doctor Aiguader,15.47,8.78,ok,,large
+0114109AR,Platanus × acerifolia,True,Pg Picasso,,14.35,median,1.56,check
+0114110AR,Platanus × acerifolia,True,Pg Pujades,,49.31,no_facade,,check
+0114111AR,Platanus × acerifolia,True,Pg Circumval·lació,5.7,3.85,ok,,medium
+0114112AR,Platanus × acerifolia,True,Pg Pujades,,28.29,no_kerb,,check
+0114113AR,Quercus ilex,False,C\ Doctor Aiguader,,79.03,no_facade,17.21,check
+0114114AR,Platanus × acerifolia,True,Pg Pujades,15.95,15.2,ok,,large
+0114115AR,Platanus × acerifolia,True,Pg Pujades,,43.32,no_facade,21.91,check
+0114116AR,Gleditsia triacanthos f. inermis,False,C\ Trafalgar,4.75,3.14,ok,,medium
+0114119AR,Casuarina cunninghamiana,False,C\ Wellington,,19.43,median,,check
+0114121AR,Tipuana tipu,False,C\ Jaume Giralt,,10.21,median,,check
+0114122AR,Platanus × acerifolia,True,Pg Lluís Companys,,85.21,no_facade,,check
+0114123AR,Platanus × acerifolia,True,C\ Almogàvers,4.54,3.97,ok,,medium
+0114124AR,Platanus × acerifolia,True,Pg Pujades,,35.05,no_facade,21.85,check
+0114125AR,Platanus × acerifolia,True,Pg Pujades,,44.02,no_facade,21.94,check
+0114126AR,Ulmus pumila,False,C\ Comerç,5.13,4.32,ok,,medium
+0114127AR,Platanus × acerifolia,True,C\ Doctor Aiguader,11.33,9.69,ok,,large
+0114128AR,Brachychiton discolor,False,Av Marquès de l'Argentera,4.61,2.77,ok,,medium
+0114129AR,Platanus × acerifolia,True,Pg Pujades,,23.27,no_kerb,,check
+0114130AR,Platanus × acerifolia,True,Pg Born,,8.06,median,8.18,check
+0114131AR,Bauhinia forficata subsp. pruinosa,False,Pl Pons i Clerch,,8.0,no_kerb,,check
+0114132AR,Tipuana tipu,False,Pl Llana,,5.25,no_kerb,,check
+0114133AR,Celtis australis,False,C\ Doctor Aiguader,,72.1,no_facade,9.95,check
+0114134AR,Platanus × acerifolia,True,Pg Pujades,,36.4,no_facade,21.76,check
+0114135AR,Platanus × acerifolia,True,C\ Princesa,5.08,4.24,ok,,medium
+0114136AR,Tipuana tipu,False,C\ Rec Comtal,,1.56,no_kerb,,check
+0114137AR,Platanus × acerifolia,True,Pg Picasso,,35.03,no_facade,,check
+0114138AR,Platanus × acerifolia,True,Pg Picasso,,33.21,no_facade,,check
+0114139AR,Celtis australis,False,C\ Doctor Aiguader,,75.11,no_facade,24.88,check
+0114140AR,Platanus × acerifolia,True,Pg Pujades,,43.14,no_facade,,check
+0114141AR,Celtis australis,False,Pg Pujades,6.86,5.64,ok,,large
+0114142AR,Platanus × acerifolia,True,Pg Lluís Companys,,36.78,no_facade,,check
+0114143AR,Platanus × acerifolia,True,Pg Picasso,,14.68,median,1.47,check
+0114144AR,Brachychiton acerifolius,False,Av Marquès de l'Argentera,5.49,3.65,ok,,medium
+0114145AR,Platanus × acerifolia,True,Pg Circumval·lació,15.72,15.14,ok,,large
+0114146AR,Platanus × acerifolia,True,C\ Comerç,,20.82,median,,check
+0114147AR,Koelreuteria paniculata,False,Av Francesc Cambó,,6.13,median,5.43,check
+0114148AR,Brachychiton populneus,False,Pg Circumval·lació,,8.44,median,1.98,check
+0114149AR,Platanus × acerifolia,True,C\ Comerç,4.37,2.41,ok,,medium
+0114150AR,Styphnolobium japonicum,False,C\ Consolat de Mar,3.39,2.7,ok,,small
+0114151AR,Platanus × acerifolia,True,Pg Isabel II,,33.99,no_facade,,check
+0114152AR,Platanus × acerifolia,True,Pg Picasso,,19.28,median,,check
+0114154AR,Platanus × acerifolia,True,Pg Picasso,,42.43,no_facade,,check
+0114155AR,Platanus × acerifolia,True,C\ Wellington,,18.32,median,,check
+0114157AR,Celtis australis,False,C\ Rec Comtal,19.54,11.64,ok,,large
+0114158AR,Platanus × acerifolia,True,Pg Lluís Companys,,35.95,no_facade,,check
+0114159AR,Platanus × acerifolia,True,Av Vilanova,9.49,6.3,ok,,large
+0114160AR,Robinia pseudoacacia,False,Pl Marquilles,4.09,2.54,ok,,medium
+0114161AR,Celtis australis,False,C\ Doctor Aiguader,,20.17,median,12.11,check
+0114162AR,Platanus × acerifolia,True,C\ Méndez Núñez,5.14,3.26,ok,,medium
+0114163AR,Platanus × acerifolia,True,C\ Wellington,,26.79,median,,check
+0114164AR,Lagunaria patersonia,False,Pl Jaume Sabartés,,3.36,no_kerb,,check
+0114166AR,Platanus × acerifolia,True,Pg Lluís Companys,,75.94,no_facade,,check
+0114167AR,Platanus × acerifolia,True,Pg Picasso,,14.44,median,14.3,check
+0114168AR,Platanus × acerifolia,True,Pg Lluís Companys,,39.65,no_facade,5.34,check
+0114169AR,Handroanthus heptaphyllus,False,C\ Buenaventura Muñoz,4.9,3.7,ok,,medium
+0114170AR,Ulmus pumila,False,C\ Comerç,4.41,2.55,ok,,medium
+0114171AR,Tipuana tipu,False,C\ Argenteria,,4.61,no_kerb,,check
+0114172AR,Ulmus pumila,False,C\ Comerç,4.12,2.39,ok,,medium
+0114174AR,Celtis australis,False,C\ Roger de Flor,4.79,3.94,ok,,medium
+0114175AR,Ligustrum lucidum,False,C\ Rec Comtal,4.53,2.62,ok,,medium
+0114177AR,Acer campestre,False,Pg Born,,3.77,no_kerb,,check
+0114178AR,Platanus × acerifolia,True,Pg Isabel II,,34.54,no_facade,,check
+0114179AR,Ulmus pumila,False,C\ Comerç,3.85,2.65,ok,,medium
+0114181AR,Platanus × acerifolia,True,Pg Pujades,,35.14,no_facade,21.91,check
+0114182AR,Jacaranda mimosifolia,False,Pl Pau Vila,22.26,12.76,ok,,large
+0114183AR,Platanus × acerifolia,True,Pg Lluís Companys,,29.53,median,,check
+0114184AR,Gleditsia triacanthos f. inermis,False,C\ Trafalgar,4.72,4.55,ok,,medium
+0114185AR,Platanus × acerifolia,True,C\ Doctor Aiguader,,38.85,no_facade,12.2,check
+0114186AR,Celtis australis,False,Pg Pujades,4.23,2.93,ok,,medium
+0114188AR,Platanus × acerifolia,True,Pg Picasso,7.43,6.13,ok,,large
+0114189AR,Platanus × acerifolia,True,Pg Lluís Companys,,25.28,median,,check
+0114190AR,Celtis australis,False,Pg Lluís Companys,5.27,3.68,ok,,medium
+0114191AR,Platanus × acerifolia,True,Pg Picasso,,43.3,no_facade,13.8,check
+0114192AR,Ligustrum lucidum,False,C\ Rec,3.5,2.71,ok,,medium
+0114193AR,Gleditsia triacanthos f. inermis,False,C\ Trafalgar,4.75,3.17,ok,,medium
+0114194AR,Gleditsia triacanthos f. inermis,False,C\ Trafalgar,4.57,1.64,ok,,medium
+0114195AR,Platanus × acerifolia,True,Pla Palau,,44.85,no_facade,,check
+0114196AR,Platanus × acerifolia,True,Pg Circumval·lació,4.74,3.96,ok,,medium
+0114197AR,Acer platanoides,False,C\ Davant del Portal Nou,2.95,2.53,ok,,small
+0114198AR,Platanus × acerifolia,True,C\ Buenaventura Muñoz,5.05,4.05,ok,,medium
+0114199AR,Platanus × acerifolia,True,C\ Comerç,,21.25,median,9.37,check
+0114200AR,Platanus × acerifolia,True,Pg Picasso,,14.44,median,14.3,check
+0114201AR,Casuarina cunninghamiana,False,C\ Wellington,,19.29,median,,check
+0114202AR,Cercis siliquastrum,False,C\ Marquesa,,9.07,median,,check
+0114205AR,Platanus × acerifolia,True,Pg Pujades,15.95,7.34,ok,,large
+0114207AR,Ulmus pumila,False,C\ Comerç,,15.44,median,5.12,check
+0114208AR,Brachychiton populneus,False,Pg Circumval·lació,17.27,15.52,ok,,large
+0114209AR,Platanus × acerifolia,True,Pg Picasso,7.52,6.4,ok,,large
+0114210AR,Platanus × acerifolia,True,Pg Pujades,,42.81,no_facade,21.88,check
+0114211AR,Platanus × acerifolia,True,Pg Circumval·lació,,9.87,median,1.96,check
+0114212AR,Platanus × acerifolia,True,Pg Lluís Companys,,33.59,no_facade,,check
+0114213AR,Platanus × acerifolia,True,Pg Lluís Companys,28.09,22.69,ok,,large
+0114215AR,Platanus × acerifolia,True,C\ Doctor Aiguader,14.81,6.13,ok,,large
+0114217AR,Platanus × acerifolia,True,Pg Lluís Companys,,64.69,no_facade,,check
+0114218AR,Cercis siliquastrum,False,C\ Arc de Sant Cristòfol,13.1,8.48,ok,,large
+0114220AR,Platanus × acerifolia,True,Pg Lluís Companys,,55.95,no_facade,,check
+0114221AR,Platanus × acerifolia,True,Pla Palau,,19.28,median,,check
+0114223AR,Platanus × acerifolia,True,C\ Buenaventura Muñoz,4.78,3.81,ok,,medium
+0114224AR,Brachychiton populneus,False,Pg Circumval·lació,,16.92,median,3.62,check
+0114225AR,Platanus × acerifolia,True,Pg Circumval·lació,,10.88,median,1.96,check
+0114226AR,Celtis australis,False,C\ Doctor Aiguader,,69.39,no_facade,18.74,check
+0114227AR,Platanus × acerifolia,True,Pla Palau,6.38,5.1,ok,,large
+0114228AR,Platanus × acerifolia,True,Pg Circumval·lació,2.0,0.28,ok,,none
+0114229AR,Platanus × acerifolia,True,Pg Pujades,,29.99,no_kerb,36.1,check
+0114231AR,Tipuana tipu,False,C\ Jaume Giralt,,11.24,median,15.11,check
+0114232AR,Acer campestre,False,Pg Born,,6.68,no_kerb,,check
+0114234AR,Platanus × acerifolia,True,Pg Lluís Companys,,48.82,no_facade,5.31,check
+0114236AR,Platanus × acerifolia,True,Pg Pujades,,42.7,no_facade,21.72,check
+0114238AR,Tipuana tipu,False,C\ Sant Pere Més Baix,10.41,1.64,ok,,large
+0114239AR,Platanus × acerifolia,True,Pg Lluís Companys,,25.45,median,,check
+0114240AR,Ligustrum lucidum,False,C\ Ramon Mas,3.23,3.32,ok,,small
+0114242AR,Platanus × acerifolia,True,Pg Pujades,25.98,24.77,ok,,large
+0114243AR,Brachychiton populneus,False,C\ Comerç,,15.67,median,5.16,check
+0114244AR,Tipuana tipu,False,Av Francesc Cambó,11.42,4.7,ok,,large
+0114245AR,Platanus × acerifolia,True,Pg Lluís Companys,,31.29,no_facade,,check
+0114246AR,Platanus × acerifolia,True,Pg Picasso,7.41,6.07,ok,,large
+0114247AR,Celtis australis,False,Pg Pujades,4.45,3.37,ok,,medium
+0114248AR,Platanus × acerifolia,True,Pg Born,,7.86,median,8.05,check
+0114249AR,Jacaranda mimosifolia,False,Pl Víctor Balaguer,22.76,3.71,ok,,large
+0114250AR,Platanus × acerifolia,True,Pg Picasso,,35.23,no_facade,,check
+0114251AR,Platanus × acerifolia,True,Pg Picasso,,14.33,median,14.31,check
+0114252AR,Casuarina cunninghamiana,False,C\ Wellington,,19.39,median,,check
+0114253AR,Gleditsia triacanthos f. inermis,False,C\ Trafalgar,4.8,4.02,ok,,medium
+0114254AR,Platanus × acerifolia,True,Pg Pujades,,43.52,no_facade,21.86,check
+0114255AR,Platanus × acerifolia,True,C\ Wellington,,19.19,median,,check
+0114258AR,Platanus × acerifolia,True,C\ Princesa,5.15,4.15,ok,,medium
+0114259AR,Platanus × acerifolia,True,C\ Comerç,,28.09,median,26.09,check
+0114260AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,Pl Pons i Clerch,,4.3,no_kerb,,check
+0114262AR,Ligustrum lucidum,False,C\ Rec,3.54,2.58,ok,,medium
+0114264AR,Platanus × acerifolia,True,Pg Circumval·lació,3.66,3.2,ok,,medium
+0114266AR,Koelreuteria paniculata,False,C\ Manresa,3.03,2.22,ok,,small
+0114267AR,Platanus × acerifolia,True,Pg Picasso,6.86,6.06,ok,,large
+0114268AR,Tipuana tipu,False,C\ Jaume Giralt,,5.72,no_kerb,,check
+0114270AR,Grevillea robusta,False,C\ Doctor Aiguader,,26.53,median,12.13,check
+0114272AR,Casuarina cunninghamiana,False,C\ Wellington,,17.41,no_kerb,8.92,check
+0114273AR,Platanus × acerifolia,True,C\ Doctor Aiguader,11.6,5.36,ok,,large
+0114275AR,Tipuana tipu,False,C\ Portal Nou,4.47,2.45,ok,,medium
+0114276AR,Gleditsia triacanthos f. inermis,False,C\ Trafalgar,4.8,3.81,ok,,medium
+0114277AR,Ligustrum lucidum,False,C\ Ramon Mas,3.39,3.28,ok,,small
+0114279AR,Platanus × acerifolia,True,Pg Lluís Companys,,85.15,no_facade,,check
+0114280AR,Platanus × acerifolia,True,Pg Isabel II,6.6,4.53,ok,,large
+0114281AR,Brachychiton acerifolius,False,Av Marquès de l'Argentera,5.85,4.22,ok,,medium
+0114282AR,Platanus × acerifolia,True,Pg Lluís Companys,,85.21,no_facade,,check
+0114283AR,Platanus × acerifolia,True,Pg Pujades,,35.19,no_facade,21.8,check
+0114284AR,Platanus × acerifolia,True,Pg Lluís Companys,5.41,4.86,ok,,medium
+0114285AR,Tipuana tipu,False,C\ Portal Nou,4.64,2.57,ok,,medium
+0114286AR,Fraxinus angustifolia,False,Pl Comercial,,3.45,no_kerb,,check
+0114287AR,Platanus × acerifolia,True,C\ Comerç,,20.03,median,5.0,check
+0114289AR,Platanus × acerifolia,True,Pg Picasso,,22.1,median,,check
+0114290AR,Cercis siliquastrum,False,C\ Gombau,3.66,2.67,ok,,medium
+0114291AR,Celtis australis,False,C\ Doctor Aiguader,,59.81,no_facade,19.11,check
+0114292AR,Platanus × acerifolia,True,C\ Davant del Portal Nou,6.12,2.17,ok,,large
+0114293AR,Celtis australis,False,C\ Davant del Portal Nou,8.9,9.04,ok,,large
+0114294AR,Platanus × acerifolia,True,Pg Lluís Companys,,18.21,median,,check
+0114295AR,Gleditsia triacanthos f. inermis,False,C\ Trafalgar,4.59,3.68,ok,,medium
+0114296AR,Platanus × acerifolia,True,C\ Wellington,,18.09,median,,check
+0114297AR,Brachychiton acerifolius,False,Av Marquès de l'Argentera,5.56,3.51,ok,,medium
+0114299AR,Platanus × acerifolia,True,Pg Lluís Companys,5.18,4.61,ok,,medium
+0114300AR,Pyrus calleryana 'Chanticleer',False,C\ Rec,,2.17,no_kerb,,check
+0114301AR,Platanus × acerifolia,True,Pg Circumval·lació,4.65,3.31,ok,,medium
+0114302AR,Platanus × acerifolia,True,Pla Palau,,23.67,median,,check
+0114303AR,Brachychiton populneus,False,C\ Comerç,3.91,2.93,ok,,medium
+0114304AR,Platanus × acerifolia,True,Pg Circumval·lació,,10.47,median,1.96,check
+0114305AR,Platanus × acerifolia,True,Pg Circumval·lació,24.61,17.88,ok,,large
+0114306AR,Platanus × acerifolia,True,Pg Lluís Companys,5.0,4.74,ok,,medium
+0114307AR,Gleditsia triacanthos f. inermis,False,C\ Trafalgar,4.64,3.58,ok,,medium
+0114308AR,Jacaranda mimosifolia,False,Pl Víctor Balaguer,,2.49,no_kerb,,check
+0114309AR,Tipuana tipu,False,Plta Comerç,19.08,3.86,ok,,large
+0114310AR,Platanus × acerifolia,True,Pg Picasso,,5.83,median,14.31,check
+0114311AR,Platanus × acerifolia,True,Pg Lluís Companys,,17.47,median,,check
+0114312AR,Celtis australis,False,C\ Almogàvers,4.58,3.7,ok,,medium
+0114314AR,Quercus ilex,False,C\ Doctor Aiguader,,88.56,no_facade,12.17,check
+0114315AR,Brachychiton acerifolius,False,Av Marquès de l'Argentera,3.63,2.44,ok,,medium
+0114316AR,Platanus × acerifolia,True,C\ Doctor Aiguader,,6.61,median,11.4,check
+0114317AR,Platanus × acerifolia,True,Pg Lluís Companys,,17.51,median,,check
+0114318AR,Platanus × acerifolia,True,Pg Lluís Companys,,37.1,no_facade,,check
+0114319AR,Quercus ilex,False,C\ Doctor Aiguader,,62.27,no_facade,18.93,check
+0114320AR,Platanus × acerifolia,True,C\ Méndez Núñez,,2.39,no_kerb,5.55,check
+0114321AR,Platanus × acerifolia,True,Pg Lluís Companys,5.11,4.86,ok,,medium
+0114322AR,Cercis siliquastrum,False,C\ Pou de la Figuera,3.52,2.86,ok,,medium
+0114323AR,Celtis australis,False,C\ Doctor Aiguader,,70.56,no_facade,7.72,check
+0114324AR,Gleditsia triacanthos f. inermis,False,C\ Trafalgar,4.62,3.67,ok,,medium
+0114325AR,Platanus × acerifolia,True,Pg Picasso,7.18,6.15,ok,,large
+0114327AR,Tipuana tipu,False,Pl Sant Pere,,6.67,median,34.03,check
+0114328AR,Platanus × acerifolia,True,Pg Lluís Companys,,31.46,no_facade,,check
+0114329AR,Platanus × acerifolia,True,Pla Palau,,33.22,no_facade,34.55,check
+0114330AR,Platanus × acerifolia,True,Pg Picasso,7.31,6.11,ok,,large
+0114331AR,Platanus × acerifolia,True,Pg Picasso,7.09,6.54,ok,,large
+0114332AR,Platanus × acerifolia,True,Pg Lluís Companys,,26.75,median,,check
+0114333AR,Platanus × acerifolia,True,Pg Pujades,25.11,16.09,ok,,large
+0114334AR,Platanus × acerifolia,True,Pg Lluís Companys,,18.45,median,,check
+0114337AR,Platanus × acerifolia,True,C\ Doctor Aiguader,,5.22,median,12.06,check
+0114339AR,Casuarina cunninghamiana,False,C\ Wellington,,28.68,median,,check
+0114340AR,Magnolia grandiflora,False,C\ Argenteria,3.98,1.89,ok,,medium
+0114342AR,Platanus × acerifolia,True,Pg Circumval·lació,,11.56,median,2.01,check
+0114343AR,Brachychiton populneus,False,Pg Circumval·lació,5.15,4.05,ok,,medium
+0114344AR,Gleditsia triacanthos f. inermis,False,C\ Trafalgar,4.57,2.91,ok,,medium
+0114345AR,Robinia pseudoacacia,False,Pl Acadèmia,9.74,3.93,ok,,large
+0114346AR,Ulmus pumila,False,C\ Comerç,4.33,2.35,ok,,medium
+0114347AR,Platanus × acerifolia,True,Pg Pujades,,44.03,no_facade,21.77,check
+0114350AR,Platanus × acerifolia,True,Pg Picasso,,21.54,median,,check
+0114351AR,Platanus × acerifolia,True,Pg Pujades,15.95,15.39,ok,,large
+0114352AR,Platanus × acerifolia,True,Pg Isabel II,6.65,4.4,ok,,large
+0114353AR,Celtis australis,False,Pl Sant Agustí Vell,,3.79,median,,check
+0114354AR,Platanus × acerifolia,True,Pl Correus,,18.41,no_kerb,,check
+0114355AR,Tipuana tipu,False,C\ Allada-Vermell,,7.83,no_kerb,,check
+0114356AR,Platanus × acerifolia,True,Pl Correus,,42.26,no_facade,,check
+0114357AR,Gleditsia triacanthos f. inermis,False,C\ Trafalgar,4.75,3.35,ok,,medium
+0114358AR,Celtis australis,False,C\ Doctor Aiguader,,87.44,no_facade,15.27,check
+0114360AR,Celtis australis,False,C\ Doctor Aiguader,,87.43,no_facade,16.64,check
+0114361AR,Platanus × acerifolia,True,Pg Circumval·lació,5.44,5.37,ok,,medium
+0114362AR,Ulmus pumila,False,C\ Comerç,,17.94,median,5.28,check
+0114364AR,Ulmus pumila,False,C\ Comerç,3.97,2.26,ok,,medium
+0114365AR,Platanus × acerifolia,True,Pg Lluís Companys,,26.94,no_kerb,,check
+0114366AR,Celtis australis,False,C\ Doctor Aiguader,,71.98,no_facade,5.84,check
+0114368AR,Platanus × acerifolia,True,Pg Pujades,,43.16,no_facade,21.83,check
+0114370AR,Platanus × acerifolia,True,C\ Méndez Núñez,5.12,3.77,ok,,medium
+0114371AR,Platanus × acerifolia,True,C\ Doctor Aiguader,,8.62,median,11.48,check
+0114372AR,Brachychiton acerifolius,False,Av Marquès de l'Argentera,5.55,3.67,ok,,medium
+0114373AR,Gleditsia triacanthos f. inermis,False,C\ Trafalgar,4.79,4.06,ok,,medium
+0114374AR,Platanus × acerifolia,True,Pla Palau,,38.75,no_facade,,check
+0114375AR,Gleditsia triacanthos f. inermis,False,C\ Trafalgar,4.91,4.19,ok,,medium
+0114376AR,Celtis australis,False,C\ Buenaventura Muñoz,4.99,4.02,ok,,medium
+0114377AR,Tipuana tipu,False,C\ Allada-Vermell,,8.0,no_kerb,,check
+0114378AR,Platanus × acerifolia,True,Pg Circumval·lació,,12.04,median,1.94,check
+0114379AR,Fraxinus angustifolia,False,Pl Comercial,,2.9,no_kerb,,check
+0114380AR,Platanus × acerifolia,True,Pg Picasso,,14.39,median,1.65,check
+0114381AR,Platanus × acerifolia,True,Pg Pujades,,42.75,no_facade,21.82,check
+0114382AR,Platanus × acerifolia,True,C\ Méndez Núñez,5.03,3.41,ok,,medium
+0114384AR,Platanus × acerifolia,True,Pg Circumval·lació,,11.54,median,1.98,check
+0114385AR,Platanus × acerifolia,True,Pg Lluís Companys,,18.25,median,,check
+0114386AR,Platanus × acerifolia,True,Pg Pujades,,46.93,no_facade,,check
+0114387AR,Platanus × acerifolia,True,Pg Picasso,6.79,6.12,ok,,large
+0114388AR,Platanus × acerifolia,True,Pg Lluís Companys,,32.54,no_facade,,check
+0114389AR,Ligustrum lucidum,False,C\ Rec,3.74,2.76,ok,,medium
+0114390AR,Platanus × acerifolia,True,Pg Lluís Companys,,17.68,median,,check
+0114391AR,Quercus ilex,False,C\ Doctor Aiguader,,86.56,no_facade,14.78,check
+0114392AR,Tipuana tipu,False,C\ Joan Massana,4.56,2.36,ok,,medium
+0114394AR,Platanus × acerifolia,True,C\ Méndez Núñez,5.03,3.55,ok,,medium
+0114395AR,Platanus × acerifolia,True,C\ Doctor Aiguader,,34.45,no_facade,12.18,check
+0114396AR,Platanus × acerifolia,True,Pg Picasso,,35.41,no_facade,13.81,check
+0114397AR,Platanus × acerifolia,True,Pg Picasso,,14.86,median,1.56,check
+0114398AR,Platanus × acerifolia,True,Pg Circumval·lació,,16.6,median,1.98,check
+0114399AR,Phytolacca dioica,False,Pl Jaume Sabartés,,9.94,no_kerb,,check
+0114400AR,Platanus × acerifolia,True,Av Vilanova,9.13,6.37,ok,,large
+0114401AR,Celtis australis,False,C\ Doctor Aiguader,,80.65,no_facade,27.51,check
+0114402AR,Cercis siliquastrum,False,C\ Rere Palau,,2.31,no_kerb,,check
+0114403AR,Tipuana tipu,False,C\ Allada-Vermell,,8.61,no_kerb,,check
+0114405AR,Platanus × acerifolia,True,Pg Picasso,,43.23,no_facade,13.81,check
+0114406AR,Platanus × acerifolia,True,C\ Doctor Aiguader,,4.51,median,11.55,check
+0114407AR,Brachychiton populneus,False,Pg Circumval·lació,5.4,4.39,ok,,medium
+0114408AR,Platanus × acerifolia,True,Pg Picasso,,14.56,median,1.61,check
+0114409AR,Platanus × acerifolia,True,Pg Pujades,,31.54,no_facade,,check
+0114410AR,Acer platanoides,False,C\ Davant del Portal Nou,2.92,2.5,ok,,small
+0114411AR,Platanus × acerifolia,True,Pg Picasso,7.13,6.15,ok,,large
+0114412AR,Ulmus pumila,False,C\ Comerç,,15.77,median,5.24,check
+0114413AR,Platanus × acerifolia,True,Pg Born,,8.9,median,8.03,check
+0114414AR,Gleditsia triacanthos f. inermis,False,C\ Trafalgar,4.5,1.5,ok,,medium
+0114415AR,Platanus × acerifolia,True,Pg Circumval·lació,,9.05,median,1.99,check
+0114416AR,Platanus × acerifolia,True,Pg Lluís Companys,,24.68,median,,check
+0114418AR,Celtis australis,False,Pl Sant Agustí Vell,,4.16,median,,check
+0114419AR,Ulmus pumila,False,C\ Comerç,3.96,3.2,ok,,medium
+0114421AR,Celtis australis,False,C\ Doctor Aiguader,,43.26,no_facade,12.2,check
+0114423AR,Platanus × acerifolia,True,C\ Wellington,,25.91,median,,check
+0114424AR,Brachychiton populneus,False,Pg Circumval·lació,11.0,9.76,ok,,large
+0114425AR,Celtis australis,False,C\ Roger de Flor,4.61,3.53,ok,,medium
+0114426AR,Platanus × acerifolia,True,Pg Lluís Companys,,17.95,median,,check
+0114427AR,Brachychiton populneus,False,Pg Circumval·lació,4.41,3.62,ok,,medium
+0114428AR,Platanus × acerifolia,True,Pg Circumval·lació,,12.54,median,2.01,check
+0114429AR,Celtis australis,False,C\ Doctor Aiguader,,87.89,no_facade,16.45,check
+0114430AR,Tipuana tipu,False,C\ Allada-Vermell,,5.85,no_kerb,,check
+0114431AR,Casuarina cunninghamiana,False,C\ Wellington,,27.34,median,,check
+0114432AR,Platanus × acerifolia,True,Pg Pujades,,42.85,no_facade,21.89,check
+0114433AR,Gleditsia triacanthos f. inermis,False,C\ Trafalgar,4.75,3.28,ok,,medium
+0114434AR,Celtis australis,False,C\ Davant del Portal Nou,,11.45,median,7.22,check
+0114435AR,Platanus × acerifolia,True,Pg Lluís Companys,,26.83,median,,check
+0114436AR,Platanus × acerifolia,True,Pg Picasso,,14.96,median,1.56,check
+0114437AR,Platanus × acerifolia,True,Pg Picasso,,18.91,median,,check
+0114438AR,Celtis australis,False,Pg Pujades,4.39,3.57,ok,,medium
+0114439AR,Platanus × acerifolia,True,Pg Picasso,7.29,6.12,ok,,large
+0114441AR,Celtis australis,False,C\ Doctor Aiguader,,59.78,no_facade,19.19,check
+0114442AR,Brachychiton acerifolius,False,Av Marquès de l'Argentera,5.67,3.89,ok,,medium
+0114443AR,Platanus × acerifolia,True,Pg Lluís Companys,29.61,23.87,ok,,large
+0114444AR,Platanus × acerifolia,True,Pg Picasso,7.14,6.52,ok,,large
+0114445AR,Platanus × acerifolia,True,Pg Circumval·lació,9.65,9.27,ok,,large
+0114446AR,Bauhinia variegata,False,C\ Pare Gallifa,5.6,1.37,ok,,medium
+0114447AR,Celtis australis,False,Pl Sant Agustí Vell,16.6,4.06,ok,,large
+0114448AR,Tipuana tipu,False,Av Francesc Cambó,5.22,4.87,ok,,medium
+0114449AR,Paulownia tomentosa,False,C\ Sant Pere Més Baix,19.7,3.72,ok,,large
+0114450AR,Platanus × acerifolia,True,Pg Lluís Companys,,38.5,no_facade,,check
+0114451AR,Platanus × acerifolia,True,Pg Pujades,15.88,7.95,ok,,large
+0114453AR,Celtis australis,False,C\ Doctor Aiguader,,59.62,no_facade,20.93,check
+0114454AR,Platanus × acerifolia,True,Pg Circumval·lació,6.49,4.64,ok,,large
+0114455AR,Platanus × acerifolia,True,Pg Isabel II,6.7,4.6,ok,,large
+0114456AR,Platanus × acerifolia,True,C\ Doctor Aiguader,11.91,4.99,ok,,large
+0114457AR,Platanus × acerifolia,True,Pg Circumval·lació,8.18,0.48,ok,,large
+0114458AR,Platanus × acerifolia,True,Pg Isabel II,8.84,5.78,ok,,large
+0114461AR,Quercus ilex,False,C\ Doctor Aiguader,,85.5,no_facade,15.1,check
+0114462AR,Gleditsia triacanthos f. inermis,False,C\ Trafalgar,4.84,4.07,ok,,medium
+0114464AR,Fraxinus angustifolia,False,Pl Comercial,,1.53,no_kerb,,check
+0114465AR,Platanus × acerifolia,True,Pg Pujades,,35.11,no_facade,21.96,check
+0114466AR,Platanus × acerifolia,True,Pg Picasso,7.09,6.56,ok,,large
+0114467AR,Acer campestre,False,Pg Born,,10.11,no_kerb,,check
+0114469AR,Acer campestre,False,C\ Manresa,3.13,2.62,ok,,small
+0114470AR,Platanus × acerifolia,True,C\ Comerç,,21.6,median,,check
+0114471AR,Gleditsia triacanthos f. inermis,False,C\ Trafalgar,4.95,3.59,ok,,medium
+0114472AR,Platanus × acerifolia,True,Pg Lluís Companys,5.58,3.84,ok,,medium
+0114473AR,Platanus × acerifolia,True,C\ Roger de Flor,4.63,3.71,ok,,medium
+0114474AR,Tipuana tipu,False,C\ Allada-Vermell,,8.17,no_kerb,,check
+0114475AR,Quercus ilex,False,C\ Doctor Aiguader,,72.51,no_facade,7.24,check
+0114476AR,Platanus × acerifolia,True,Pg Picasso,,34.95,no_facade,,check
+0114477AR,Brachychiton acerifolius,False,Av Marquès de l'Argentera,3.99,2.66,ok,,medium
+0114478AR,Platanus × acerifolia,True,Pg Circumval·lació,,8.29,median,1.96,check
+0114481AR,Gleditsia triacanthos f. inermis,False,C\ Trafalgar,4.5,1.01,ok,,medium
+0114482AR,Platanus × acerifolia,True,Pg Circumval·lació,,28.1,median,1.95,check
+0114484AR,Platanus × acerifolia,True,Pg Circumval·lació,,15.1,median,1.99,check
+0114485AR,Platanus × acerifolia,True,Pla Palau,,34.9,no_facade,,check
+0114486AR,Platanus × acerifolia,True,Pg Pujades,,43.14,no_facade,,check
+0114487AR,Platanus × acerifolia,True,Pg Pujades,,35.51,no_facade,21.83,check
+0114488AR,Platanus × acerifolia,True,Pla Palau,,36.24,no_facade,,check
+0114490AR,Koelreuteria paniculata,False,C\ Arc de Sant Cristòfol,4.83,3.77,ok,,medium
+0114491AR,Platanus × acerifolia,True,Pg Circumval·lació,3.5,2.36,ok,,medium
+0114492AR,Brachychiton populneus,False,C\ Comerç,3.94,3.05,ok,,medium
+0114493AR,Platanus × acerifolia,True,Pg Pujades,,35.02,no_facade,21.92,check
+0114494AR,Platanus × acerifolia,True,Pg Pujades,15.95,15.05,ok,,large
+0114495AR,Platanus × acerifolia,True,Pg Circumval·lació,,17.01,median,3.58,check
+0114496AR,Platanus × acerifolia,True,Pg Lluís Companys,,18.59,median,,check
+0114497AR,Platanus × acerifolia,True,Pg Lluís Companys,,24.91,median,,check
+0114498AR,Platanus × acerifolia,True,Pg Picasso,7.46,6.05,ok,,large
+0114499AR,Platanus × acerifolia,True,Pg Circumval·lació,,10.31,median,1.98,check
+0114500AR,Platanus × acerifolia,True,Pg Lluís Companys,,65.46,no_facade,,check
+0114501AR,Platanus × acerifolia,True,Pg Lluís Companys,,30.62,no_facade,,check
+0114502AR,Platanus × acerifolia,True,Pg Pujades,,35.03,no_facade,21.89,check
+0114503AR,Platanus × acerifolia,True,Pg Pujades,22.08,20.73,ok,,large
+0114504AR,Platanus × acerifolia,True,Pla Palau,,18.22,median,,check
+0114505AR,Melia azedarach,False,Pl Acadèmia,12.73,3.82,ok,,large
+0114507AR,Brachychiton acerifolius,False,Av Marquès de l'Argentera,,4.98,median,5.5,check
+0114508AR,Platanus × acerifolia,True,Pg Circumval·lació,,12.96,no_kerb,5.12,check
+0114509AR,Platanus × acerifolia,True,Pg Circumval·lació,4.03,3.52,ok,,medium
+0114510AR,Platanus × acerifolia,True,Pg Circumval·lació,3.99,2.98,ok,,medium
+0114511AR,Koelreuteria paniculata,False,C\ Gombau,6.62,5.96,ok,,large
+0114512AR,Fraxinus angustifolia,False,Pl Comercial,,2.75,no_kerb,,check
+0114514AR,Brachychiton populneus,False,Pg Circumval·lació,,16.48,median,3.5,check
+0114515AR,Platanus × acerifolia,True,Pg Pujades,,43.37,no_facade,21.85,check
+0114516AR,Platanus × acerifolia,True,Pg Lluís Companys,,35.16,no_facade,5.37,check
+0114518AR,Tipuana tipu,False,C\ Sant Pere Més Baix,,3.47,no_kerb,,check
+0114519AR,Platanus × acerifolia,True,Pg Circumval·lació,3.7,2.78,ok,,medium
+0114520AR,Gleditsia triacanthos f. inermis,False,C\ Trafalgar,4.78,4.06,ok,,medium
+0114521AR,Celtis australis,False,C\ Davant del Portal Nou,10.59,8.59,ok,,large
+0114522AR,Populus alba 'Pyramidalis',False,C\ Argenteria,3.93,1.86,ok,,medium
+0114523AR,Acer platanoides,False,C\ Davant del Portal Nou,3.86,2.53,ok,,medium
+0114525AR,Tipuana tipu,False,C\ Allada-Vermell,,9.6,no_kerb,,check
+0114526AR,Jacaranda mimosifolia,False,C\ Metges,16.44,6.25,ok,,large
+0114528AR,Celtis australis,False,C\ Doctor Aiguader,,73.47,no_facade,7.34,check
+0114529AR,Platanus × acerifolia,True,Pg Picasso,,13.58,median,6.76,check
+0114530AR,Albizia julibrissin,False,C\ Armengol,,8.44,no_kerb,,check
+0114531AR,Platanus × acerifolia,True,Pg Circumval·lació,4.38,3.22,ok,,medium
+0114532AR,Celtis australis,False,C\ Méndez Núñez,5.03,3.72,ok,,medium
+0114533AR,Platanus × acerifolia,True,Pg Circumval·lació,3.22,2.8,ok,,small
+0114535AR,Ligustrum lucidum,False,C\ General Álvarez de Castro,2.62,1.87,ok,,small
+0114536AR,Platanus × acerifolia,True,Pg Isabel II,6.51,4.38,ok,,large
+0114537AR,Lagunaria patersonia,False,Pl Jaume Sabartés,,3.15,no_kerb,,check
+0114538AR,Platanus × acerifolia,True,Pg Picasso,,19.01,median,,check
+0114539AR,Tipuana tipu,False,C\ Portal Nou,3.35,0.9,ok,,small
+0114540AR,Tipuana tipu,False,Av Francesc Cambó,5.35,4.29,ok,,medium
+0114541AR,Brachychiton acerifolius,False,Av Marquès de l'Argentera,3.94,2.16,ok,,medium
+0114542AR,Platanus × acerifolia,True,C\ Wellington,,17.79,median,,check
+0114543AR,Brachychiton acerifolius,False,Av Marquès de l'Argentera,5.45,3.44,ok,,medium
+0114544AR,Cercis siliquastrum,False,C\ Gombau,9.87,9.08,ok,,large
+0114545AR,Ulmus pumila,False,C\ Comerç,3.85,2.89,ok,,medium
+0114546AR,Brachychiton populneus,False,Pg Circumval·lació,4.19,2.41,ok,,medium
+0114547AR,Platanus × acerifolia,True,Pg Circumval·lació,8.53,7.87,ok,,large
+0114548AR,Platanus × acerifolia,True,Pg Lluís Companys,4.95,3.31,ok,,medium
+0114549AR,Melia azedarach,False,Pl Acadèmia,12.87,10.43,ok,,large
+0114550AR,Platanus × acerifolia,True,Pg Picasso,4.95,5.86,ok,,medium
+0114551AR,Platanus × acerifolia,True,Pg Picasso,7.46,6.61,ok,,large
+0114552AR,Brachychiton populneus,False,Pg Circumval·lació,,14.34,median,2.02,check
+0114553AR,Platanus × acerifolia,True,Pg Circumval·lació,4.65,4.0,ok,,medium
+0114554AR,Platanus × acerifolia,True,C\ Doctor Aiguader,,7.06,median,11.1,check
+0114555AR,Platanus × acerifolia,True,C\ Doctor Aiguader,11.22,4.06,ok,,large
+0114557AR,Celtis australis,False,Pg Pujades,8.35,7.41,ok,,large
+0114558AR,Platanus × acerifolia,True,Pg Pujades,,43.14,no_facade,21.92,check
+0114559AR,Cercis siliquastrum,False,C\ Rere Palau,,2.7,no_kerb,,check
+0114560AR,Platanus × acerifolia,True,C\ Buenaventura Muñoz,4.88,4.18,ok,,medium
+0114561AR,Platanus × acerifolia,True,Pg Picasso,7.41,5.94,ok,,large
+0114562AR,Acer campestre,False,Pg Born,,3.93,no_kerb,,check
+0114563AR,Platanus × acerifolia,True,Pg Picasso,,5.86,median,14.3,check
+0114564AR,Tipuana tipu,False,C\ Allada-Vermell,,8.96,no_kerb,,check
+0114565AR,Platanus × acerifolia,True,Pla Palau,,20.73,median,,check
+0114566AR,Jacaranda mimosifolia,False,C\ Fusina,,3.13,no_kerb,31.78,check
+0114567AR,Platanus × acerifolia,True,C\ Wellington,,27.34,median,,check
+0114568AR,Magnolia grandiflora,False,C\ Amadeu Vives,3.09,3.47,ok,,small
+0114569AR,Platanus × acerifolia,True,Pg Lluís Companys,,26.36,median,,check
+0114570AR,Platanus × acerifolia,True,Pg Pujades,,48.61,no_facade,21.69,check
+0114571AR,Platanus × acerifolia,True,Pg Lluís Companys,,26.19,median,,check
+0114573AR,Gleditsia triacanthos f. inermis,False,C\ Trafalgar,4.57,1.74,ok,,medium
+0114574AR,Platanus × acerifolia,True,C\ Comerç,,19.34,median,5.06,check
+0114575AR,Platanus × acerifolia,True,Pg Picasso,4.39,3.21,ok,,medium
+0114576AR,Platanus × acerifolia,True,Pg Picasso,,14.37,median,14.3,check
+0114577AR,Tipuana tipu,False,C\ Joan Massana,4.42,2.32,ok,,medium
+0114578AR,Platanus × acerifolia,True,Pg Picasso,7.48,6.42,ok,,large
+0114579AR,Platanus × acerifolia,True,Pg Lluís Companys,,21.09,median,,check
+0114580AR,Celtis australis,False,C\ Davant del Portal Nou,5.35,5.75,ok,,medium
+0114581AR,Populus nigra,False,Pl Pons i Clerch,,7.36,no_kerb,,check
+0114582AR,Cercis siliquastrum,False,C\ Marquesa,,3.42,median,25.0,check
+0114583AR,Jacaranda mimosifolia,False,C\ Metges,,13.05,no_kerb,39.09,check
+0114584AR,Pyrus calleryana 'Chanticleer',False,C\ Rec,,2.26,no_kerb,,check
+0114586AR,Platanus × acerifolia,True,Pg Circumval·lació,12.21,8.29,ok,,large
+0114587AR,Platanus × acerifolia,True,Pla Palau,,19.06,median,,check
+0114588AR,Platanus × acerifolia,True,C\ Wellington,,16.83,median,,check
+0114589AR,Tipuana tipu,False,C\ Portal Nou,4.02,1.89,ok,,medium
+0114591AR,Brachychiton acerifolius,False,Av Marquès de l'Argentera,7.04,4.58,ok,,large
+0114592AR,Ligustrum lucidum,False,C\ Rec Comtal,3.87,2.75,ok,,medium
+0114593AR,Platanus × acerifolia,True,Pg Lluís Companys,,24.68,median,,check
+0114594AR,Gleditsia triacanthos f. inermis,False,C\ Trafalgar,4.86,1.69,ok,,medium
+0114595AR,Gleditsia triacanthos f. inermis,False,C\ Trafalgar,4.88,3.44,ok,,medium
+0114596AR,Celtis australis,False,C\ Doctor Aiguader,,59.67,no_facade,19.4,check
+0114597AR,Platanus × acerifolia,True,Pg Lluís Companys,,37.98,no_facade,,check
+0114599AR,Celtis australis,False,C\ Doctor Aiguader,,82.62,no_facade,17.1,check
+0114600AR,Platanus × acerifolia,True,Pla Palau,,23.72,median,,check
+0114601AR,Platanus × acerifolia,True,Pg Pujades,,35.06,no_facade,21.82,check
+0114602AR,Prunus cerasifera 'Pissardii',False,C\ Allada-Vermell,,8.02,no_kerb,,check
+0114603AR,Platanus × acerifolia,True,Pla Palau,,32.01,no_facade,34.92,check
+0114604AR,Platanus × acerifolia,True,Pg Pujades,,35.28,no_facade,,check
+0114605AR,Ligustrum lucidum,False,C\ Rec,3.8,2.61,ok,,medium
+0114607AR,Celtis australis,False,C\ Davant del Portal Nou,,10.49,median,22.8,check
+0114608AR,Platanus × acerifolia,True,C\ Almogàvers,6.93,6.45,ok,,large
+0114609AR,Celtis australis,False,C\ Roger de Flor,4.64,3.66,ok,,medium
+0114610AR,Platanus × acerifolia,True,C\ Comerç,4.69,3.38,ok,,medium
+0114611AR,Koelreuteria paniculata,False,Pl Sant Cugat,,9.82,median,,check
+0114612AR,Fraxinus angustifolia,False,Pl Comercial,,2.94,no_kerb,,check
+0114613AR,Platanus × acerifolia,True,Pg Circumval·lació,,16.09,median,2.0,check
+0114614AR,Brachychiton acerifolius,False,C\ Allada-Vermell,,8.44,no_kerb,,check
+0114616AR,Populus nigra,False,Pl Pons i Clerch,,5.56,no_kerb,,check
+0114617AR,Platanus × acerifolia,True,Pg Pujades,15.95,15.44,ok,,large
+0114618AR,Platanus × acerifolia,True,Pg Born,,7.31,median,8.07,check
+0114619AR,Acer platanoides,False,C\ Davant del Portal Nou,2.94,2.52,ok,,small
+0114620AR,Ulmus pumila,False,C\ Comerç,,14.46,median,10.47,check
+0114621AR,Celtis australis,False,Pl Sant Agustí Vell,,5.5,median,,check
+0114622AR,Platanus × acerifolia,True,C\ Buenaventura Muñoz,4.9,4.35,ok,,medium
+0114623AR,Platanus × acerifolia,True,Pg Circumval·lació,,15.69,median,2.04,check
+0114624AR,Tipuana tipu,False,C\ Metges,,10.72,no_kerb,,check
+0114625AR,Platanus × acerifolia,True,C\ Comerç,4.45,3.2,ok,,medium
+0114626AR,Platanus × acerifolia,True,Pg Lluís Companys,,25.69,median,,check
+0114629AR,Platanus × acerifolia,True,Pg Picasso,7.23,6.9,ok,,large
+0114630AR,Platanus × acerifolia,True,C\ Doctor Aiguader,,10.32,median,11.54,check
+0114631AR,Cercis siliquastrum,False,C\ Rere Palau,,2.16,no_kerb,,check
+0114632AR,Koelreuteria paniculata,False,C\ Pare Gallifa,5.55,1.96,ok,,medium
+0114633AR,Platanus × acerifolia,True,Pg Isabel II,6.62,4.53,ok,,large
+0114634AR,Platanus × acerifolia,True,Pg Pujades,,41.62,no_facade,3.99,check
+0114635AR,Platanus × acerifolia,True,C\ Wellington,,23.33,median,,check
+0114636AR,Gleditsia triacanthos f. inermis,False,C\ Trafalgar,4.51,1.37,ok,,medium
+0114637AR,Celtis australis,False,C\ Doctor Aiguader,,86.59,no_facade,16.97,check
+0114638AR,Quercus ilex,False,C\ Doctor Aiguader,,87.61,no_facade,16.26,check
+0114639AR,Platanus × acerifolia,True,Pg Lluís Companys,,62.24,no_facade,,check
+0114640AR,Platanus × acerifolia,True,Pg Pujades,15.95,7.52,ok,,large
+0114641AR,Ligustrum lucidum,False,C\ Rec Comtal,8.8,6.61,ok,,large
+0114642AR,Quercus ilex,False,C\ Doctor Aiguader,,69.62,no_facade,18.69,check
+0114643AR,Brachychiton populneus,False,Pg Circumval·lació,4.98,4.41,ok,,medium
+0114644AR,Platanus × acerifolia,True,Pg Lluís Companys,5.08,4.08,ok,,medium
+0114645AR,Prunus amygdalus,False,C\ Pou de la Figuera,18.08,5.64,ok,,large
+0114646AR,Brachychiton populneus,False,Pg Circumval·lació,5.53,5.23,ok,,medium
+0114647AR,Platanus × acerifolia,True,Pg Lluís Companys,,18.72,median,,check
+0114648AR,Ligustrum lucidum,False,C\ Rec,3.5,2.2,ok,,medium
+0114649AR,Jacaranda mimosifolia,False,C\ Metges,19.25,7.24,ok,,large
+0114650AR,Brachychiton populneus,False,Pg Picasso,,27.54,median,,check
+0114651AR,Celtis australis,False,Av Vilanova,9.16,6.28,ok,,large
+0114652AR,Platanus × acerifolia,True,Pg Lluís Companys,,76.3,no_facade,,check
+0114653AR,Platanus × acerifolia,True,Pg Picasso,19.2,15.06,ok,,large
+0114654AR,Platanus × acerifolia,True,Pg Lluís Companys,,18.52,median,,check
+0114655AR,Ligustrum lucidum,False,C\ Palau de la Música,,4.71,median,3.6,check
+0114656AR,Platanus × acerifolia,True,Pg Circumval·lació,,16.94,median,,check
+0114658AR,Platanus × acerifolia,True,Pg Picasso,7.01,6.25,ok,,large
+0114659AR,Platanus × acerifolia,True,Pg Lluís Companys,,90.76,no_facade,,check
+0114660AR,Platanus × acerifolia,True,Pg Picasso,6.93,6.13,ok,,large
+0114661AR,Platanus × acerifolia,True,Pg Isabel II,6.69,4.51,ok,,large
+0114662AR,Platanus × acerifolia,True,Pg Picasso,,35.08,no_facade,,check
+0114663AR,Platanus × acerifolia,True,Pg Pujades,,31.05,no_facade,,check
+0114664AR,Quercus ilex,False,C\ Doctor Aiguader,,59.61,no_facade,19.23,check
+0114665AR,Celtis australis,False,C\ Roger de Flor,5.02,3.72,ok,,medium
+0114666AR,Platanus × acerifolia,True,Pg Picasso,,35.39,no_facade,,check
+0114667AR,Platanus × acerifolia,True,Pg Lluís Companys,5.62,3.63,ok,,medium
+0114668AR,Platanus × acerifolia,True,Pla Palau,,18.68,median,,check
+0114669AR,Platanus × acerifolia,True,C\ Buenaventura Muñoz,5.02,3.97,ok,,medium
+0114670AR,Platanus × acerifolia,True,Pg Lluís Companys,,45.94,no_facade,,check
+0114671AR,Platanus × acerifolia,True,C\ Wellington,,18.28,median,,check
+0114672AR,Quercus ilex,False,C\ Doctor Aiguader,,76.91,no_facade,12.32,check
+0114673AR,Quercus ilex,False,C\ Doctor Aiguader,,59.5,no_facade,20.32,check
+0114674AR,Platanus × acerifolia,True,C\ Princesa,5.15,4.23,ok,,medium
+0114675AR,Platanus × acerifolia,True,Pg Pujades,,44.31,no_facade,21.92,check
+0114676AR,Tipuana tipu,False,C\ Basses de Sant Pere,,5.82,median,9.39,check
+0114677AR,Brachychiton populneus,False,Pg Circumval·lació,,17.64,median,6.05,check
+0114678AR,Platanus × acerifolia,True,Pg Lluís Companys,,38.96,no_facade,,check
+0114679AR,Celtis australis,False,Pg Pujades,4.36,3.57,ok,,medium
+0114680AR,Ligustrum lucidum,False,C\ Rec Comtal,2.28,1.63,ok,,none
+0114681AR,Brachychiton acerifolius,False,Av Marquès de l'Argentera,5.52,4.37,ok,,medium
+0114682AR,Platanus × acerifolia,True,C\ Doctor Aiguader,11.67,4.64,ok,,large
+0114683AR,Platanus × acerifolia,True,C\ Doctor Aiguader,,53.22,no_facade,12.3,check
+0114684AR,Ligustrum lucidum,False,C\ Rec Comtal,9.85,7.6,ok,,large
+0114685AR,Celtis australis,False,C\ Rec Comtal,,6.11,no_kerb,,check
+0114686AR,Platanus × acerifolia,True,C\ Buenaventura Muñoz,4.78,4.49,ok,,medium
+0114687AR,Koelreuteria paniculata,False,C\ Manresa,3.12,2.46,ok,,small
+0114689AR,Ligustrum lucidum,False,C\ Ramon Mas,3.25,3.34,ok,,small
+0114690AR,Jacaranda mimosifolia,False,Pl Víctor Balaguer,16.18,3.19,ok,,large
+0114692AR,Brachychiton populneus,False,Pg Circumval·lació,,15.85,median,,check
+0114693AR,Platanus × acerifolia,True,Av Vilanova,9.07,6.0,ok,,large
+0114694AR,Platanus × acerifolia,True,Pg Pujades,,50.21,no_facade,21.82,check
+0114695AR,Prunus cerasifera 'Pissardii',False,Pl Pons i Clerch,,4.37,no_kerb,,check
+0114696AR,Koelreuteria paniculata,False,C\ Arc de Sant Cristòfol,5.84,4.95,ok,,medium
+0114699AR,Celtis australis,False,C\ Doctor Aiguader,,59.58,no_facade,19.23,check
+0114700AR,Ulmus pumila,False,C\ Comerç,4.18,2.32,ok,,medium
+0114701AR,Cercis siliquastrum,False,C\ Rere Palau,,2.23,no_kerb,,check
+0114702AR,Platanus × acerifolia,True,Pg Picasso,,14.52,median,1.57,check
+0114703AR,Brachychiton acerifolius,False,Av Marquès de l'Argentera,6.94,4.8,ok,,large
+0114704AR,Gleditsia triacanthos f. inermis,False,C\ Trafalgar,4.95,3.9,ok,,medium
+0114706AR,Celtis australis,False,Pl Sant Agustí Vell,,5.34,median,22.95,check
+0114708AR,Tipuana tipu,False,C\ Allada-Vermell,,8.12,no_kerb,,check
+0114709AR,Platanus × acerifolia,True,Pg Picasso,19.17,14.2,ok,,large
+0114710AR,Jacaranda mimosifolia,False,Pg Born,,4.69,no_kerb,,check
+0114711AR,Celtis australis,False,C\ Davant del Portal Nou,4.41,4.45,ok,,medium
+0114712AR,Populus alba,False,C\ Argenteria,3.96,2.22,ok,,medium
+0114713AR,Jacaranda mimosifolia,False,C\ Pou de la Figuera,23.65,17.61,ok,,large
+0114714AR,Platanus × acerifolia,True,Pg Picasso,19.14,5.81,ok,,large
+0114715AR,Gleditsia triacanthos f. inermis,False,C\ Trafalgar,4.55,2.41,ok,,medium
+0114716AR,Platanus × acerifolia,True,Pg Lluís Companys,,26.35,median,,check
+0114717AR,Tipuana tipu,False,C\ Rec Comtal,20.63,3.71,ok,,large
+0114718AR,Ligustrum lucidum,False,C\ General Álvarez de Castro,2.57,1.59,ok,,small
+0114719AR,Platanus × acerifolia,True,Pg Pujades,15.81,7.74,ok,,large
+0114720AR,Platanus × acerifolia,True,Pg Pujades,28.86,27.55,ok,,large
+0114721AR,Platanus × acerifolia,True,C\ Doctor Aiguader,15.4,14.51,ok,,large
+0114722AR,Platanus × acerifolia,True,C\ Doctor Aiguader,11.05,10.01,ok,,large
+0114723AR,Platanus × acerifolia,True,C\ Wellington,,18.44,median,,check
+0114724AR,Platanus × acerifolia,True,Pg Pujades,,39.19,no_facade,,check
+0114725AR,Gleditsia triacanthos f. inermis,False,C\ Trafalgar,4.71,3.73,ok,,medium
+0114726AR,Platanus × acerifolia,True,C\ Comerç,,33.03,no_facade,38.86,check
+0114727AR,Platanus × acerifolia,True,C\ Princesa,5.15,4.23,ok,,medium
+0114728AR,Tipuana tipu,False,C\ Argenteria,,8.1,no_kerb,,check
+0114729AR,Platanus × acerifolia,True,C\ Princesa,5.16,4.31,ok,,medium
+0114731AR,Brachychiton populneus,False,C\ Comerç,3.97,3.0,ok,,medium
+0114732AR,Platanus × acerifolia,True,Pg Lluís Companys,,18.67,median,,check
+0114733AR,Brachychiton acerifolius,False,Av Marquès de l'Argentera,5.23,3.76,ok,,medium
+0114734AR,Platanus × acerifolia,True,Pg Circumval·lació,6.1,5.01,ok,,large
+0114735AR,Platanus × acerifolia,True,Pg Pujades,,43.71,no_facade,21.94,check
+0114736AR,Platanus × acerifolia,True,Pg Circumval·lació,27.61,22.27,ok,,large
+0114737AR,Ligustrum lucidum,False,C\ Rec,3.48,1.98,ok,,small
+0114738AR,Platanus × acerifolia,True,Pg Circumval·lació,,8.41,no_kerb,,check
+0114739AR,Celtis australis,False,C\ Buenaventura Muñoz,4.88,3.92,ok,,medium
+0114740AR,Celtis australis,False,C\ Méndez Núñez,5.08,3.38,ok,,medium
+0114741AR,Tipuana tipu,False,C\ Pou de la Figuera,,19.73,median,,check
+0114743AR,Platanus × acerifolia,True,Pg Pujades,,32.62,no_facade,,check
+0114744AR,Ulmus pumila,False,C\ Comerç,3.88,3.0,ok,,medium
+0114745AR,Ligustrum lucidum,False,C\ Rec,3.59,2.44,ok,,medium
+0114746AR,Platanus × acerifolia,True,C\ Princesa,5.15,4.34,ok,,medium
+0114747AR,Gleditsia triacanthos f. inermis,False,C\ Trafalgar,4.8,3.98,ok,,medium
+0114748AR,Celtis australis,False,C\ Doctor Aiguader,,39.47,no_facade,12.18,check
+0114750AR,Prunus cerasifera 'Pissardii',False,Pl Pons i Clerch,,5.2,no_kerb,,check
+0114752AR,Celtis australis,False,Pg Picasso,8.24,6.31,ok,,large
+0114753AR,Tipuana tipu,False,C\ Mercaders,,9.34,median,,check
+0114755AR,Platanus × acerifolia,True,Pg Circumval·lació,,21.11,median,2.01,check
+0114756AR,Tipuana tipu,False,Plta Comerç,,13.96,no_kerb,22.27,check
+0114757AR,Platanus × acerifolia,True,C\ Doctor Aiguader,12.78,6.31,ok,,large
+0114758AR,Ulmus pumila,False,C\ Comerç,,15.41,median,5.03,check
+0114759AR,Tipuana tipu,False,C\ Metges,,10.72,no_kerb,,check
+0114760AR,Platanus × acerifolia,True,Pg Picasso,7.33,6.77,ok,,large
+0114761AR,Platanus × acerifolia,True,Pg Pujades,,35.33,no_facade,21.81,check
+0114762AR,Celtis australis,False,C\ Doctor Aiguader,,72.19,no_facade,7.32,check
+0114764AR,Platanus × acerifolia,True,C\ Buenaventura Muñoz,4.85,3.99,ok,,medium
+0114765AR,Quercus ilex,False,C\ Doctor Aiguader,,59.64,no_facade,19.01,check
+0114766AR,Brachychiton acerifolius,False,Av Marquès de l'Argentera,5.25,3.51,ok,,medium
+0114767AR,Celtis australis,False,C\ Roger de Flor,4.62,3.6,ok,,medium
+0114768AR,Brachychiton populneus,False,Pg Circumval·lació,3.73,2.63,ok,,medium
+0114769AR,Platanus × acerifolia,True,Pg Lluís Companys,,72.27,no_facade,,check
+0114770AR,Platanus × acerifolia,True,Pg Circumval·lació,,10.56,median,2.0,check
+0114771AR,Platanus × acerifolia,True,Pg Lluís Companys,,26.78,median,,check
+0114772AR,Celtis australis,False,Av Vilanova,8.99,5.84,ok,,large
+0114773AR,Platanus × acerifolia,True,Pg Picasso,,16.88,median,,check
+0114774AR,Magnolia grandiflora,False,C\ Sant Pere Més Alt,4.74,3.04,ok,,medium
+0114775AR,Platanus × acerifolia,True,Pg Picasso,,14.68,median,1.57,check
+0114776AR,Platanus × acerifolia,True,C\ Wellington,,18.86,median,,check
+0114777AR,Platanus × acerifolia,True,Pg Lluís Companys,,18.13,median,,check
+0114778AR,Platanus × acerifolia,True,Pg Circumval·lació,3.82,2.93,ok,,medium
+0114779AR,Ligustrum lucidum,False,C\ Palau de la Música,,4.53,median,3.84,check
+0114780AR,Tipuana tipu,False,C\ Allada-Vermell,,7.82,no_kerb,,check
+0114781AR,Platanus × acerifolia,True,Pg Lluís Companys,,34.72,no_facade,,check
+0114782AR,Morus alba 'Fruitless',False,Pl Fossar de les Moreres,,5.49,no_kerb,,check
+0114783AR,Ulmus pumila,False,C\ Comerç,3.96,3.03,ok,,medium
+0114784AR,Tipuana tipu,False,Av Francesc Cambó,5.24,4.73,ok,,medium
+0114785AR,Cercis siliquastrum,False,C\ Marquesa,,8.76,median,17.75,check
+0114786AR,Platanus × acerifolia,True,Pg Picasso,6.97,6.26,ok,,large
+0114787AR,Platanus × acerifolia,True,Pg Lluís Companys,,26.71,median,,check
+0114788AR,Brachychiton populneus,False,Pg Circumval·lació,27.56,22.94,ok,,large
+0114789AR,Celtis australis,False,C\ Davant del Portal Nou,,11.63,median,20.36,check
+0114791AR,Platanus × acerifolia,True,C\ Davant del Portal Nou,9.49,0.16,ok,,large
+0114792AR,Brachychiton populneus,False,Pg Circumval·lació,26.4,24.19,ok,,large
+0114794AR,Gleditsia triacanthos f. inermis,False,C\ Trafalgar,4.63,3.44,ok,,medium
+0114795AR,Brachychiton acerifolius,False,Av Marquès de l'Argentera,5.59,3.82,ok,,medium
+0114796AR,Platanus × acerifolia,True,Pg Circumval·lació,5.1,4.41,ok,,medium
+0114797AR,Celtis australis,False,C\ Doctor Aiguader,,75.25,no_facade,11.81,check
+0114798AR,Brachychiton populneus,False,Pg Circumval·lació,17.04,11.91,ok,,large
+0114800AR,Robinia pseudoacacia,False,C\ Armengol,,4.51,no_kerb,,check
+0114801AR,Celtis australis,False,Pg Lluís Companys,5.33,3.98,ok,,medium
+0114802AR,Magnolia grandiflora,False,C\ Amadeu Vives,2.89,2.45,ok,,small
+0114804AR,Celtis australis,False,C\ Roger de Flor,4.7,3.69,ok,,medium
+0114805AR,Fraxinus angustifolia,False,Pl Comercial,,3.57,no_kerb,,check
+0114806AR,Acer platanoides,False,C\ Davant del Portal Nou,2.94,2.54,ok,,small
+0114807AR,Celtis australis,False,C\ Doctor Aiguader,,86.86,no_facade,14.46,check
+0114808AR,Celtis australis,False,C\ Roger de Flor,4.63,3.71,ok,,medium
+0114811AR,Ligustrum lucidum,False,C\ Rec Comtal,3.83,2.63,ok,,medium
+0114812AR,Platanus × acerifolia,True,Pg Born,,9.29,median,8.03,check
+0114813AR,Platanus × acerifolia,True,Pg Lluís Companys,,25.87,median,,check
+0114814AR,Platanus × acerifolia,True,Pg Picasso,4.78,5.78,ok,,medium
+0114815AR,Platanus × acerifolia,True,Pl Correus,,13.93,no_kerb,45.18,check
+0114817AR,Platanus × acerifolia,True,Pl Correus,,18.21,no_kerb,,check
+0114818AR,Magnolia grandiflora,False,C\ Bòria,,2.39,no_kerb,,check
+0114819AR,Platanus × acerifolia,True,Pg Lluís Companys,,41.78,no_facade,,check
+0114820AR,Platanus × acerifolia,True,C\ Doctor Aiguader,,32.74,no_facade,12.15,check
+0114822AR,Platanus × acerifolia,True,C\ Doctor Aiguader,12.64,11.54,ok,,large
+0114823AR,Platanus × acerifolia,True,C\ Méndez Núñez,5.01,3.73,ok,,medium
+0114824AR,Platanus × acerifolia,True,C\ Comerç,,24.98,median,,check
+0114825AR,Magnolia grandiflora,False,C\ Amadeu Vives,2.93,2.62,ok,,small
+0114826AR,Prunus cerasifera 'Pissardii',False,C\ Allada-Vermell,,6.58,no_kerb,,check
+0114827AR,Platanus × acerifolia,True,Pg Circumval·lació,,13.9,median,2.0,check
+0114828AR,Platanus × acerifolia,True,Pg Lluís Companys,,76.62,no_facade,,check
+0114830AR,Celtis australis,False,Pl Sant Cugat,17.91,1.98,ok,,large
+0114831AR,Platanus × acerifolia,True,Pg Picasso,,35.16,no_facade,,check
+0114832AR,Tipuana tipu,False,Plta Comerç,,7.36,no_kerb,24.5,check
+0114833AR,Magnolia grandiflora,False,C\ Amadeu Vives,3.17,3.08,ok,,small
+0114834AR,Platanus × acerifolia,True,Pg Lluís Companys,,27.16,median,5.35,check
+0114835AR,Platanus × acerifolia,True,Pg Circumval·lació,3.16,2.67,ok,,small
+0114836AR,Platanus × acerifolia,True,C\ Doctor Aiguader,,11.38,median,10.95,check
+0114837AR,Platanus × acerifolia,True,Pg Circumval·lació,,0.03,no_kerb,,check
+0114839AR,Platanus × acerifolia,True,Pg Picasso,4.36,3.51,ok,,medium
+0114840AR,Tipuana tipu,False,C\ Portal Nou,3.46,1.72,ok,,small
+0114841AR,Platanus × acerifolia,True,Pg Lluís Companys,,18.56,median,,check
+0114842AR,Platanus × acerifolia,True,Pg Born,,7.53,median,8.11,check
+0114843AR,Brachychiton populneus,False,Pg Circumval·lació,8.72,7.59,ok,,large
+0114844AR,Cercis siliquastrum,False,C\ Tripó,,2.47,no_kerb,,check
+0114845AR,Platanus × acerifolia,True,Pg Pujades,,43.95,no_facade,21.89,check
+0114846AR,Celtis australis,False,C\ Davant del Portal Nou,4.54,4.59,ok,,medium
+0114847AR,Brachychiton populneus,False,C\ Comerç,4.11,2.43,ok,,medium
+0114848AR,Platanus × acerifolia,True,C\ Princesa,5.03,3.98,ok,,medium
+0114849AR,Platanus × acerifolia,True,Pg Picasso,7.05,6.26,ok,,large
+0114851AR,Platanus × acerifolia,True,Pg Lluís Companys,5.22,3.34,ok,,medium
+0114852AR,Tipuana tipu,False,C\ Allada-Vermell,,5.54,no_kerb,,check
+0114853AR,Platanus × acerifolia,True,Pg Pujades,,35.01,no_facade,21.89,check
+0114854AR,Platanus × acerifolia,True,Pg Pujades,,36.65,no_facade,21.82,check
+0114855AR,Ligustrum lucidum,False,C\ General Álvarez de Castro,2.63,1.65,ok,,small
+0114857AR,Platanus × acerifolia,True,Pg Lluís Companys,,53.27,no_facade,,check
+0114858AR,Cercis siliquastrum,False,C\ Marquesa,,4.65,median,26.67,check
+0114859AR,Celtis australis,False,Pg Pujades,4.4,3.53,ok,,medium
+0114860AR,Robinia pseudoacacia,False,C\ Armengol,,5.15,no_kerb,,check
+0114861AR,Tipuana tipu,False,C\ Basses de Sant Pere,,9.38,median,6.58,check
+0114862AR,Platanus × acerifolia,True,Pg Lluís Companys,,18.33,median,,check
+0114863AR,Platanus × acerifolia,True,C\ Méndez Núñez,5.03,3.59,ok,,medium
+0114864AR,Jacaranda mimosifolia,False,Pl Pau Vila,22.1,12.64,ok,,large
+0114865AR,Platanus × acerifolia,True,C\ Comerç,4.73,3.15,ok,,medium
+0114866AR,Platanus × acerifolia,True,Pg Pujades,15.89,6.69,ok,,large
+0114867AR,Platanus × acerifolia,True,C\ Wellington,,24.26,median,,check
+0114868AR,Platanus × acerifolia,True,Pg Circumval·lació,18.62,14.12,ok,,large
+0114869AR,Platanus × acerifolia,True,C\ Wellington,,28.16,median,,check
+0114871AR,Platanus × acerifolia,True,C\ Comerç,4.63,3.02,ok,,medium
+0114873AR,Platanus × acerifolia,True,Pg Picasso,,12.43,median,,check
+0114874AR,Brachychiton acerifolius,False,Av Marquès de l'Argentera,5.5,3.03,ok,,medium
+0114875AR,Prunus cerasifera 'Pissardii',False,C\ Allada-Vermell,,4.53,no_kerb,,check
+0114877AR,Platanus × acerifolia,True,Pg Lluís Companys,5.32,4.76,ok,,medium
+0114878AR,Platanus × acerifolia,True,Pl Correus,,12.74,no_kerb,45.19,check
+0114880AR,Platanus × acerifolia,True,Pg Circumval·lació,,23.03,median,1.95,check
+0114881AR,Platanus × acerifolia,True,Pg Circumval·lació,,12.1,median,1.95,check
+0114882AR,Gleditsia triacanthos f. inermis,False,C\ Trafalgar,4.56,3.84,ok,,medium
+0114884AR,Tipuana tipu,False,Pl Sant Pere,2.6,2.31,ok,,small
+0114885AR,Platanus × acerifolia,True,Pg Pujades,,26.82,no_kerb,,check
+0114886AR,Celtis australis,False,C\ Davant del Portal Nou,,10.92,median,,check
+0114887AR,Brachychiton acerifolius,False,Av Marquès de l'Argentera,5.34,3.31,ok,,medium
+0114888AR,Cercis siliquastrum,False,C\ Marquesa,,5.22,median,,check
+0114889AR,Tipuana tipu,False,C\ Portal Nou,3.9,1.26,ok,,medium
+0114890AR,Platanus × acerifolia,True,Pg Pujades,,35.75,no_facade,,check
+0114891AR,Cercis siliquastrum,False,Av Francesc Cambó,4.72,3.88,ok,,medium
+0114892AR,Platanus × acerifolia,True,Pl Correus,,19.99,median,,check
+0114893AR,Celtis australis,False,Pg Lluís Companys,5.19,4.06,ok,,medium
+0114894AR,Brachychiton populneus,False,Pg Circumval·lació,,11.35,median,1.97,check
+0114895AR,Tipuana tipu,False,Plta Comerç,,21.5,no_kerb,27.21,check
+0114896AR,Ligustrum lucidum,False,C\ Palau de la Música,,4.65,median,3.51,check
+0114897AR,Platanus × acerifolia,True,C\ Wellington,19.45,7.95,ok,,large
+0114898AR,Platanus × acerifolia,True,Pg Lluís Companys,,46.05,no_facade,,check
+0114901AR,Quercus ilex,False,C\ Doctor Aiguader,,75.99,no_facade,25.66,check
+0114902AR,Magnolia grandiflora 'Goliath',False,C\ Argenteria,4.01,2.46,ok,,medium
+0114903AR,Platanus × acerifolia,True,C\ Almogàvers,4.62,3.77,ok,,medium
+0114904AR,Platanus × acerifolia,True,Pg Lluís Companys,,30.59,no_facade,5.39,check
+0114905AR,Platanus × acerifolia,True,Pla Palau,,18.86,median,,check
+0114906AR,Tipuana tipu,False,C\ Sant Pere Més Baix,,4.17,no_kerb,35.47,check
+0114907AR,Tipuana tipu,False,C\ Allada-Vermell,,8.08,no_kerb,,check
+0114909AR,Platanus × acerifolia,True,Pg Lluís Companys,5.19,4.59,ok,,medium
+0114910AR,Platanus × acerifolia,True,Pg Lluís Companys,,60.71,no_facade,,check
+0114911AR,Brachychiton populneus,False,C\ Comerç,3.86,1.39,ok,,medium
+0114912AR,Ulmus pumila,False,C\ Comerç,4.04,3.08,ok,,medium
+0114913AR,Platanus × acerifolia,True,Pg Born,,7.48,median,8.09,check
+0114914AR,Celtis australis,False,C\ Doctor Aiguader,,59.4,no_facade,19.71,check
+0114915AR,Platanus × acerifolia,True,Pg Pujades,,35.32,no_facade,21.84,check
+0114916AR,Platanus × acerifolia,True,Pg Picasso,,5.76,median,14.3,check
+0114917AR,Platanus × acerifolia,True,Pg Circumval·lació,,19.56,median,5.67,check
+0114918AR,Jacaranda mimosifolia,False,C\ Jaume Giralt,,4.91,no_kerb,,check
+0114919AR,Acer campestre,False,Pg Born,,5.47,no_kerb,,check
+0114922AR,Koelreuteria paniculata,False,C\ Arc de Sant Cristòfol,6.79,6.0,ok,,large
+0114923AR,Styphnolobium japonicum,False,C\ Consolat de Mar,3.42,2.81,ok,,small
+0114924AR,Platanus × acerifolia,True,Pg Pujades,,34.44,no_facade,21.72,check
+0114925AR,Platanus × acerifolia,True,C\ Doctor Aiguader,,11.5,median,11.4,check
+0114926AR,Platanus × acerifolia,True,Pg Lluís Companys,5.13,3.96,ok,,medium
+0114927AR,Robinia pseudoacacia,False,Pl Acadèmia,19.32,5.31,ok,,large
+0114928AR,Platanus × acerifolia,True,C\ Doctor Aiguader,,57.45,no_facade,15.82,check
+0114929AR,Tipuana tipu,False,Pl Sant Pere,,5.78,median,,check
+0114930AR,Ligustrum lucidum,False,C\ General Álvarez de Castro,2.61,1.88,ok,,small
+0114931AR,Celtis australis,False,C\ Doctor Aiguader,,87.62,no_facade,16.07,check
+0114932AR,Ligustrum lucidum,False,C\ Rec Comtal,6.69,4.63,ok,,large
+0114933AR,Celtis australis,False,C\ Doctor Aiguader,,71.67,no_facade,7.45,check
+0114934AR,Platanus × acerifolia,True,Pg Born,,7.87,median,8.12,check
+0114937AR,Ligustrum lucidum,False,C\ Rec,3.67,2.55,ok,,medium
+0114938AR,Platanus × acerifolia,True,Pg Picasso,,30.51,no_facade,,check
+0114939AR,Platanus × acerifolia,True,Pg Pujades,,29.3,median,18.19,check
+0114940AR,Ulmus pumila,False,C\ Comerç,4.06,1.67,ok,,medium
+0114941AR,Pyrus calleryana 'Chanticleer',False,Pl Víctor Balaguer,,6.7,median,,check
+0114942AR,Brachychiton acerifolius,False,Av Marquès de l'Argentera,5.27,3.37,ok,,medium
+0114944AR,Koelreuteria paniculata,False,Pl Sant Cugat,,8.48,median,,check
+0114946AR,Celtis australis,False,C\ Doctor Aiguader,,60.14,no_facade,9.16,check
+0114947AR,Platanus × acerifolia,True,Pg Isabel II,6.73,4.73,ok,,large
+0114948AR,Platanus × acerifolia,True,C\ Doctor Aiguader,,43.39,no_facade,12.23,check
+0114949AR,Platanus × acerifolia,True,Pg Lluís Companys,,18.0,median,,check
+0114950AR,Celtis australis,False,C\ Doctor Aiguader,,73.11,no_facade,17.52,check
+0114951AR,Celtis australis,False,Pg Pujades,4.39,3.54,ok,,medium
+0114953AR,Ligustrum lucidum,False,C\ Rec,3.54,3.07,ok,,medium
+0114954AR,Platanus × acerifolia,True,Pg Pujades,,43.07,no_facade,,check
+0114955AR,Tipuana tipu,False,Pl Sant Pere,4.36,3.88,ok,,medium
+0114956AR,Jacaranda mimosifolia,False,C\ Fusina,,3.3,no_kerb,,check
+0114957AR,Platanus × acerifolia,True,Pg Born,,8.14,median,8.09,check
+0114958AR,Platanus × acerifolia,True,Pg Lluís Companys,,31.5,no_facade,,check
+0114959AR,Platanus × acerifolia,True,Pg Picasso,7.29,6.68,ok,,large
+0114960AR,Platanus × acerifolia,True,Pg Picasso,,18.97,median,,check
+0286421AR,Celtis australis,False,Av Vilanova,18.7,12.27,ok,,large
+0289368AR,Platanus × acerifolia,True,Pg Picasso,,38.18,no_facade,,check
+0289369AR,Ligustrum japonicum 'Texanum',False,C\ Rec,3.49,2.67,ok,,small
+0289639AR,Platanus × acerifolia,True,C\ Doctor Aiguader,,64.78,no_facade,22.33,check
+0289640AR,Platanus × acerifolia,True,C\ Doctor Aiguader,,66.54,no_facade,21.14,check
+0289641AR,Platanus × acerifolia,True,C\ Doctor Aiguader,,67.4,no_facade,20.45,check
+0289642AR,Platanus × acerifolia,True,C\ Doctor Aiguader,,67.85,no_facade,19.94,check
+0289643AR,Platanus × acerifolia,True,C\ Doctor Aiguader,,67.75,no_facade,19.56,check
+0289644AR,Celtis australis,False,C\ Doctor Aiguader,,65.62,no_facade,18.27,check
+0289645AR,Quercus ilex,False,C\ Doctor Aiguader,,66.17,no_facade,18.78,check
+0289646AR,Celtis australis,False,C\ Doctor Aiguader,,67.99,no_facade,18.83,check
+0291796AR,Platanus × acerifolia,True,Pg Lluís Companys,,75.98,no_facade,,check
+0292221AR,Koelreuteria paniculata,False,C\ Doctor Aiguader,11.97,11.26,ok,,large
+0292223AR,Platanus × acerifolia,True,C\ Doctor Aiguader,11.9,10.51,ok,,large
+0292227AR,Koelreuteria paniculata,False,C\ Doctor Aiguader,12.03,10.49,ok,,large
+0292263AR,Styphnolobium japonicum,False,C\ Sant Pere Més Baix,,4.68,no_kerb,,check
+0293582AR,Tamarix gallica,False,C\ Reina Cristina,1.48,2.48,ok,,none
+0293584AR,Tamarix gallica,False,C\ Reina Cristina,,2.51,median,4.97,check
+0293585AR,Tamarix gallica,False,C\ Reina Cristina,,2.53,median,4.96,check
+0293587AR,Tamarix gallica,False,C\ Reina Cristina,,2.57,median,4.94,check
+0293588AR,Tamarix gallica,False,C\ Reina Cristina,,2.59,median,4.95,check
+0293589AR,Tamarix gallica,False,C\ Reina Cristina,,2.6,median,4.95,check
+0293591AR,Tamarix gallica,False,C\ Reina Cristina,,2.64,median,4.96,check
+0293592AR,Catalpa bignonioides,False,C\ Llauder,,2.6,median,5.53,check
+0293594AR,Catalpa bignonioides,False,C\ Llauder,,2.89,median,5.61,check
+0293595AR,Catalpa bignonioides,False,C\ Llauder,,3.15,median,3.6,check
+0293597AR,Catalpa bignonioides,False,C\ Llauder,,2.25,median,5.94,check
+0293598AR,Catalpa bignonioides,False,C\ Llauder,,2.28,median,5.89,check
+0293599AR,Catalpa bignonioides,False,C\ Llauder,,2.13,median,6.02,check
+0293601AR,Tamarix gallica,False,C\ Reina Cristina,1.45,2.11,ok,,none
+0293602AR,Tamarix gallica,False,C\ Reina Cristina,1.45,2.25,ok,,none
+0293603AR,Tamarix gallica,False,C\ Reina Cristina,1.45,2.18,ok,,none
+0301440AR,Fraxinus angustifolia 'Raywood',False,C\ Fusina,,4.31,no_kerb,,check
+0301441AR,Fraxinus angustifolia,False,C\ Fusina,,4.11,no_kerb,,check
+0301442AR,Fraxinus angustifolia,False,C\ Fusina,,4.06,no_kerb,,check
+0301443AR,Fraxinus angustifolia,False,C\ Fusina,,3.79,no_kerb,,check
+0301444AR,Fraxinus angustifolia 'Raywood',False,C\ Fusina,,3.84,no_kerb,,check
+0301445AR,Fraxinus angustifolia,False,C\ Fusina,,4.02,no_kerb,,check
+0301446AR,Fraxinus angustifolia,False,C\ Fusina,,3.92,no_kerb,,check
+0301447AR,Fraxinus angustifolia,False,C\ Fusina,,3.56,no_kerb,,check
+0301448AR,Fraxinus angustifolia,False,C\ Fusina,,4.12,no_kerb,,check
+0301449AR,Fraxinus angustifolia 'Raywood',False,C\ Fusina,,4.12,no_kerb,,check
+0301450AR,Fraxinus angustifolia,False,C\ Fusina,,4.13,no_kerb,,check
+0301452AR,Fraxinus angustifolia 'Raywood',False,C\ Ribera,,3.93,no_kerb,,check
+0301453AR,Fraxinus angustifolia,False,C\ Ribera,,3.85,no_kerb,,check
+0301454AR,Fraxinus angustifolia,False,C\ Ribera,,4.26,no_kerb,,check
+0301455AR,Fraxinus angustifolia,False,C\ Ribera,,4.19,no_kerb,,check
+0301456AR,Fraxinus angustifolia,False,C\ Ribera,,3.84,no_kerb,,check
+0301457AR,Fraxinus angustifolia,False,C\ Ribera,,4.04,no_kerb,,check
+0301458AR,Fraxinus angustifolia,False,C\ Ribera,,4.05,no_kerb,,check
+0301459AR,Fraxinus angustifolia,False,C\ Ribera,,4.06,no_kerb,,check
+0301460AR,Fraxinus angustifolia 'Raywood',False,C\ Ribera,,4.18,no_kerb,,check
+0301461AR,Fraxinus angustifolia 'Raywood',False,C\ Ribera,,3.99,no_kerb,,check
+0301462AR,Fraxinus angustifolia,False,C\ Ribera,,4.12,no_kerb,,check
+0301463AR,Fraxinus angustifolia 'Raywood',False,C\ Ribera,,3.98,no_kerb,,check
+0302099AR,Brachychiton acerifolius,False,Av Marquès de l'Argentera,7.38,5.35,ok,,large
+0302240AR,Cercis siliquastrum,False,C\ Sant Pere Més Baix,,2.28,no_kerb,,check
+0302242AR,Ginkgo biloba 'Fastigiata',False,C\ Sant Pere Més Baix,,2.37,no_kerb,,check
+0302243AR,Erythrina crista-galli,False,C\ Metges,,4.38,no_kerb,,check
+0305049AR,Catalpa bignonioides,False,C\ Llauder,,3.01,median,5.68,check
+0305050AR,Catalpa bignonioides,False,C\ Llauder,,2.22,median,5.98,check
+0305199AR,Jacaranda mimosifolia,False,Ptge Hort dels Velluters,11.67,4.69,ok,,large
+0305200AR,Tipuana tipu,False,Pl Sant Pere,,3.78,no_kerb,,check
+0305202AR,Platanus × acerifolia,True,Pg Picasso,,18.89,median,,check
+0309386AR,Grevillea robusta,False,C\ Doctor Aiguader,,12.47,no_kerb,,check
+0309387AR,Grevillea robusta,False,C\ Doctor Aiguader,,10.76,no_kerb,,check
+0309388AR,Cercis siliquastrum 'Alba',False,C\ Doctor Aiguader,,11.56,no_kerb,,check
+0309389AR,Cercis siliquastrum 'Alba',False,C\ Doctor Aiguader,,9.24,no_kerb,,check
+0309390AR,Cercis siliquastrum 'Alba',False,C\ Doctor Aiguader,,6.32,no_kerb,,check
+0309391AR,Cercis siliquastrum 'Alba',False,C\ Doctor Aiguader,,11.07,no_kerb,,check
+0309392AR,Grevillea robusta,False,C\ Doctor Aiguader,,13.74,no_kerb,,check
+0309393AR,Cercis siliquastrum 'Alba',False,C\ Doctor Aiguader,,9.01,no_kerb,,check
+0309394AR,Cercis siliquastrum 'Alba',False,C\ Doctor Aiguader,,11.22,no_kerb,,check
+0309398AR,Grevillea robusta,False,C\ Doctor Aiguader,,12.39,no_kerb,,check
+0309399AR,Cercis siliquastrum 'Alba',False,C\ Doctor Aiguader,,7.6,no_kerb,,check
+0309400AR,Cercis siliquastrum 'Alba',False,C\ Doctor Aiguader,,9.13,no_kerb,,check
+0309401AR,Grevillea robusta,False,C\ Doctor Aiguader,,8.62,no_kerb,,check
+0309404AR,Cercis siliquastrum 'Alba',False,C\ Doctor Aiguader,,8.95,no_kerb,,check
+0309405AR,Erythrina caffra,False,C\ Doctor Aiguader,,8.64,no_kerb,,check
+0309406AR,Erythrina caffra,False,C\ Doctor Aiguader,,9.04,no_kerb,,check
+0309407AR,Erythrina caffra,False,C\ Doctor Aiguader,,4.04,no_kerb,,check
+0309408AR,Quercus ilex,False,C\ Doctor Aiguader,,41.62,no_facade,17.24,check
+0309409AR,Quercus ilex,False,C\ Doctor Aiguader,,36.67,no_facade,19.33,check
+0309410AR,Quercus ilex,False,C\ Doctor Aiguader,,31.56,no_facade,21.71,check
+0309411AR,Quercus ilex,False,C\ Doctor Aiguader,,26.32,no_kerb,24.35,check
+0309412AR,Quercus ilex,False,C\ Doctor Aiguader,,20.23,no_kerb,26.39,check
+0309413AR,Cercis siliquastrum 'Alba',False,C\ Doctor Aiguader,,24.48,no_kerb,27.61,check
+0309414AR,Cercis siliquastrum 'Alba',False,C\ Doctor Aiguader,27.38,18.41,ok,,large
+0309415AR,Cercis siliquastrum 'Alba',False,C\ Doctor Aiguader,24.91,10.62,ok,,large
+0309416AR,Cercis siliquastrum 'Alba',False,C\ Doctor Aiguader,27.28,6.68,ok,,large
+0309417AR,Grevillea robusta,False,C\ Doctor Aiguader,23.77,12.26,ok,,large
+0309418AR,Cercis siliquastrum 'Alba',False,C\ Doctor Aiguader,23.34,17.98,ok,,large
+0309419AR,Cercis siliquastrum 'Alba',False,C\ Doctor Aiguader,,13.26,median,,check
+0309420AR,Cercis siliquastrum 'Alba',False,C\ Doctor Aiguader,27.26,14.05,ok,,large
+0309421AR,Cercis siliquastrum 'Alba',False,C\ Doctor Aiguader,,8.89,no_kerb,,check
+0309422AR,Cercis siliquastrum 'Alba',False,C\ Doctor Aiguader,,5.46,no_kerb,,check
+0309423AR,Cercis siliquastrum 'Alba',False,C\ Doctor Aiguader,,8.67,median,,check
+0311934AR,Brachychiton populneus,False,Pg Circumval·lació,,10.45,median,1.96,check
+0311935AR,Celtis australis,False,C\ Doctor Aiguader,,71.58,no_facade,9.26,check
+0311936AR,Celtis australis,False,C\ Doctor Aiguader,,77.88,no_facade,12.94,check
+0316522AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Comerç,15.75,4.27,ok,,large
+0316523AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Comerç,5.38,3.9,ok,,medium
+0316524AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Comerç,,9.47,median,,check
+0316525AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Comerç,5.31,3.77,ok,,medium
+0316526AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Comerç,,10.26,median,,check
+0316527AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Comerç,15.57,9.1,ok,,large
+0316528AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Comerç,14.28,8.53,ok,,large
+0316529AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Comerç,14.39,4.41,ok,,large
+0316531AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Comerç,5.43,3.97,ok,,medium
+0316532AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Comerç,14.32,4.95,ok,,large
+0316533AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Comerç,14.28,4.22,ok,,large
+0316534AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Comerç,5.48,3.94,ok,,medium
+0316535AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Comerç,5.48,4.1,ok,,medium
+0316536AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Comerç,5.45,3.93,ok,,medium
+0316537AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Comerç,14.23,9.26,ok,,large
+0316538AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Comerç,14.24,3.84,ok,,large
+0316539AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Comerç,14.29,4.8,ok,,large
+0316540AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Comerç,14.29,3.84,ok,,large
+0316541AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Comerç,14.29,9.72,ok,,large
+0316542AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Comerç,14.29,6.77,ok,,large
+0317233AR,Cercis siliquastrum 'Alba',False,C\ Doctor Aiguader,,11.25,no_kerb,,check
+0318108AR,Platanus × acerifolia,True,Pg Picasso,,43.33,no_facade,,check
+0319159AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Comerç,3.07,3.94,ok,,small
+0319160AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Comerç,,6.64,median,4.78,check
+0319161AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Comerç,3.04,3.75,ok,,small
+0319162AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Comerç,3.02,3.88,ok,,small
+0319164AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Comerç,,4.32,median,13.92,check
+0319165AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Comerç,,8.84,median,13.95,check
+0319166AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Comerç,,8.36,median,13.89,check
+0319167AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Comerç,,4.98,median,14.02,check
+0319168AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Comerç,,4.65,median,14.09,check
+0319169AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Comerç,,8.8,median,14.21,check
+0319170AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Comerç,,4.09,median,14.23,check
+0319171AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Comerç,,4.18,median,14.29,check
+0319172AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Comerç,,8.9,median,26.68,check
+0319174AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Comerç,,5.32,median,14.29,check
+0319175AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Comerç,,5.35,median,14.25,check
+0319176AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Comerç,,9.78,median,14.27,check
+0319177AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Comerç,2.98,3.61,ok,,small
+0319179AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Comerç,,6.51,median,14.17,check
+0319381AR,Grevillea robusta,False,C\ Giralt el Pellisser,,6.7,no_kerb,,check
+0320858AR,Platanus × acerifolia,True,Pl Correus,,30.91,no_facade,,check
+0320859AR,Platanus × acerifolia,True,Pl Correus,,20.73,median,,check
+0320885AR,Ligustrum lucidum,False,C\ Rec,4.14,2.57,ok,,medium
+0321088AR,Platanus × acerifolia,True,Pg Pujades,,42.96,no_facade,21.89,check
+0321345AR,Platanus × acerifolia,True,Pg Lluís Companys,,88.26,no_facade,,check
+0321346AR,Platanus × acerifolia,True,Pg Lluís Companys,,17.69,median,,check
+0324404AR,Tamarix gallica,False,C\ Reina Cristina,,2.6,median,5.0,check
+0332729AR,Platanus × acerifolia,True,Pg Pujades,,43.68,no_facade,17.17,check
+0340193AR,Jacaranda mimosifolia,False,Via Laietana,26.19,7.61,ok,,large
+0340194AR,Jacaranda mimosifolia,False,Via Laietana,22.7,10.12,ok,,large
+0340196AR,Jacaranda mimosifolia,False,Via Laietana,21.59,16.22,ok,,large
+0340197AR,Jacaranda mimosifolia,False,Pl Antoni Maura,24.84,7.12,ok,,large
+0340198AR,Jacaranda mimosifolia,False,Pl Antoni Maura,24.96,8.71,ok,,large
+0341377AR,Jacaranda mimosifolia,False,C\ Jonqueres,,15.89,no_kerb,15.99,check
+0341378AR,Jacaranda mimosifolia,False,C\ Jonqueres,,13.51,median,12.53,check
+0341380AR,Jacaranda mimosifolia,False,C\ Jonqueres,,16.02,median,,check
+0341381AR,Jacaranda mimosifolia,False,Via Laietana,,5.49,median,14.54,check
+0341385AR,Jacaranda mimosifolia,False,Via Laietana,,6.87,median,17.05,check
+0341386AR,Jacaranda mimosifolia,False,Via Laietana,,10.81,median,20.31,check
+0341387AR,Jacaranda mimosifolia,False,Via Laietana,,9.21,median,9.58,check
+0341389AR,Ulmus RESISTA® 'Sapporo Autumn Gold',False,C\ Jonqueres,,3.55,median,6.8,check
+0341390AR,Ulmus RESISTA® 'Sapporo Autumn Gold',False,C\ Jonqueres,,3.42,median,6.44,check
+0341391AR,Ulmus RESISTA® 'Sapporo Autumn Gold',False,C\ Jonqueres,,3.44,median,6.47,check
+0341392AR,Ulmus RESISTA® 'Sapporo Autumn Gold',False,C\ Jonqueres,,3.46,median,6.49,check
+0341393AR,Ulmus RESISTA® 'Sapporo Autumn Gold',False,C\ Jonqueres,,3.48,median,6.52,check
+0341394AR,Ulmus RESISTA® 'Sapporo Autumn Gold',False,C\ Jonqueres,,3.64,median,6.9,check
+0341395AR,Ulmus RESISTA® 'Sapporo Autumn Gold',False,C\ Jonqueres,,3.4,median,7.02,check
+0341396AR,Ulmus RESISTA® 'Sapporo Autumn Gold',False,C\ Jonqueres,,3.52,median,6.76,check
+0341397AR,Ulmus RESISTA® 'Sapporo Autumn Gold',False,C\ Jonqueres,,3.4,median,6.41,check
+0341398AR,Ulmus RESISTA® 'Sapporo Autumn Gold',False,C\ Jonqueres,,4.24,median,8.99,check
+0341399AR,Ulmus RESISTA® 'Sapporo Autumn Gold',False,C\ Jonqueres,,3.61,median,6.88,check
+0341400AR,Ulmus RESISTA® 'Sapporo Autumn Gold',False,C\ Jonqueres,,3.59,median,6.85,check
+0341401AR,Ulmus RESISTA® 'Sapporo Autumn Gold',False,C\ Jonqueres,,3.65,median,7.93,check
+0341402AR,Ulmus RESISTA® 'Sapporo Autumn Gold',False,C\ Jonqueres,,3.57,median,6.83,check
+0341403AR,Ulmus RESISTA® 'Sapporo Autumn Gold',False,C\ Jonqueres,,3.49,median,6.57,check
+0341404AR,Ulmus RESISTA® 'Sapporo Autumn Gold',False,C\ Jonqueres,,3.49,median,6.65,check
+0341405AR,Ulmus RESISTA® 'Sapporo Autumn Gold',False,C\ Jonqueres,,3.51,median,6.71,check
+0341406AR,Tipuana tipu,False,C\ Jonqueres,,8.16,median,,check
+0341407AR,Tipuana tipu,False,C\ Jonqueres,,7.44,median,5.55,check
+0343247AR,Phoenix canariensis,False,Parc Ciutadella,,94.72,no_facade,,check
+0343248AR,Phoenix canariensis,False,Parc Ciutadella,,95.4,no_facade,,check

@@ -1,0 +1,1272 @@
+tree_id,x,y,ground_z,species,is_plane,size_category,street,height_m,crown_area_m2,crown_diam_m,crown_base_m,gap_fraction,lai_proxy,n_points,flag
+0046961AR,432480.62,4589131.18,34.63,Cercis siliquastrum,False,PRIMERA,C\ Mare de Déu de Lorda,7.4,0.2,0.56,7.13,0.4,1.83,8,no_crown_detected
+0046962AR,432344.99,4589127.81,49.47,Citrus × aurantium,False,PRIMERA,C\ Foradada,14.93,10.0,3.57,4.32,0.297,2.43,335,ok
+0046963AR,432446.02,4589429.15,49.26,Styphnolobium japonicum,False,PRIMERA,C\ Pare Manjón,6.53,11.8,3.87,3.32,0.402,1.82,266,ok
+0046965AR,432499.2,4588802.71,27.82,Melia azedarach,False,EXEMPLAR,Via Bàrcino,11.62,126.5,12.69,5.04,0.212,3.1,2670,ok
+0046967AR,432466.25,4589539.7,35.68,Platanus × acerifolia,True,TERCERA,C\ Pare Pérez del Pulgar,12.32,31.8,6.36,7.59,0.352,2.09,852,ok
+0046969AR,432374.71,4589147.38,49.12,Citrus × aurantium,False,PRIMERA,C\ Foradada,5.8,5.2,2.59,4.48,0.448,1.61,165,ok
+0046970AR,432509.33,4589526.24,36.48,Platanus × acerifolia,True,EXEMPLAR,C\ Pare Pérez del Pulgar,14.92,63.8,9.01,6.6,0.259,2.7,1642,ok
+0046972AR,432595.42,4589517.66,30.82,Catalpa bignonioides,False,TERCERA,C\ Torrent de Perera,11.09,96.0,11.06,5.71,0.259,2.71,2255,ok
+0046976AR,432562.96,4589240.65,32.52,Cercis siliquastrum,False,SEGONA,C\ Mare de Déu de Lorda,13.24,52.5,8.18,3.71,0.302,2.4,1903,ok
+0046978AR,432639.48,4589362.35,30.27,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Foradada,4.84,8.8,3.34,3.02,0.482,1.46,331,ok
+0046980AR,432453.13,4589422.21,49.28,Styphnolobium japonicum,False,SEGONA,C\ Pare Manjón,6.13,18.0,4.79,2.96,0.373,1.97,383,ok
+0046981AR,432677.89,4589302.82,28.68,Platanus × acerifolia,True,SEGONA,Via Bàrcino,13.04,44.2,7.51,5.5,0.281,2.54,1932,ok
+0046983AR,432295.32,4589354.84,44.4,Firmiana simplex,False,PRIMERA,C\ Peníscola,5.92,10.5,3.66,2.51,0.449,1.6,419,ok
+0046984AR,432293.25,4589178.65,56.46,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Mireia,6.15,10.5,3.66,2.87,0.46,1.55,438,ok
+0046987AR,432432.53,4589222.72,48.44,Citrus × aurantium,False,PRIMERA,C\ Turó de la Trinitat,5.63,16.5,4.58,3.54,0.482,1.46,527,ok
+0046988AR,432333.34,4589319.17,54.97,Citrus × aurantium,False,PRIMERA,C\ Mireia,4.98,6.5,2.88,2.77,0.354,2.08,169,ok
+0046989AR,432538.74,4589018.16,27.96,Platanus × acerifolia,True,SEGONA,Via Bàrcino,12.99,1.8,1.49,6.65,0.242,2.83,60,no_crown_detected
+0046992AR,432279.7,4589151.89,46.17,Jacaranda mimosifolia,False,PRIMERA,Av Meridiana,,0.0,0.0,,,,0,no_crown_detected
+0046995AR,432403.08,4589363.85,54.72,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Finestrelles,5.03,16.0,4.51,3.44,0.55,1.19,511,ok
+0046998AR,432639.06,4589487.17,30.77,Gleditsia triacanthos 'sunburst',False,PRIMERA,C\ Torrent de Perera,11.96,46.8,7.72,6.09,0.28,2.55,994,ok
+0046999AR,432365.08,4589403.39,46.27,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Peníscola,6.08,13.2,4.11,3.35,0.378,1.95,270,ok
+0047000AR,432368.65,4588851.13,31.8,Melia azedarach,False,SEGONA,Pl Josep Andreu i Abelló,7.42,2.2,1.69,3.66,0.368,2.0,57,ok
+0047001AR,432344.95,4588890.67,33.58,Acer negundo,False,SEGONA,C\ Tossal,7.43,19.5,4.98,4.3,0.308,2.35,454,ok
+0047002AR,432571.15,4588799.71,25.89,Melia azedarach,False,TERCERA,Via Bàrcino,9.47,65.5,9.13,4.37,0.269,2.62,1527,ok
+0047003AR,432321.11,4588983.56,38.05,Ulmus pumila,False,TERCERA,Ctra Ribes,12.43,47.5,7.78,5.83,0.277,2.57,1923,ok
+0047005AR,432477.05,4589390.75,49.22,Styphnolobium japonicum,False,PRIMERA,C\ Pare Manjón,4.56,3.2,2.03,2.75,0.443,1.63,70,ok
+0047007AR,432325.49,4588866.63,34.18,Melia azedarach,False,SEGONA,Ctra Ribes,6.34,27.8,5.94,3.87,0.315,2.31,489,ok
+0047010AR,432357.8,4589238.41,57.24,Citrus × aurantium,False,PRIMERA,C\ Finestrelles,11.37,9.5,3.48,4.01,0.476,1.49,259,ok
+0047012AR,432386.26,4588738.27,30.94,Melia azedarach,False,PRIMERA,Pl Josep Andreu i Abelló,,0.0,0.0,,,,0,no_crown_detected
+0047013AR,432610.04,4589206.53,28.67,Crataegus x media 'Paul's Scarlet',False,PRIMERA,Via Bàrcino,,0.0,0.0,,,,0,no_crown_detected
+0047015AR,432546.56,4589212.21,32.55,Cercis siliquastrum,False,SEGONA,C\ Mare de Déu de Lorda,12.99,14.5,4.3,4.07,0.257,2.72,440,ok
+0047022AR,432592.46,4589301.07,32.45,Cercis siliquastrum,False,SEGONA,C\ Mare de Déu de Lorda,14.49,28.2,6.0,5.17,0.354,2.07,838,ok
+0047023AR,432639.18,4589378.06,31.78,Ligustrum lucidum,False,PRIMERA,C\ Mossèn Epifani Lorda,5.8,23.2,5.44,4.44,0.537,1.25,746,ok
+0047024AR,432663.37,4589343.12,29.16,Platanus × acerifolia,True,SEGONA,Via Bàrcino,15.42,30.8,6.26,7.71,0.301,2.4,1328,ok
+0047025AR,432374.21,4589038.55,40.39,Styphnolobium japonicum,False,SEGONA,Pl Trinitat,13.8,70.2,9.46,5.29,0.274,2.59,2972,ok
+0047027AR,432488.18,4589537.18,35.84,Platanus × acerifolia,True,SEGONA,C\ Pare Pérez del Pulgar,10.94,47.0,7.74,6.22,0.332,2.21,1149,ok
+0047028AR,432529.44,4589233.03,34.22,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Ausona,4.65,7.0,2.99,3.21,0.518,1.32,210,ok
+0047029AR,432352.8,4589054.18,41.09,Citrus × aurantium,False,PRIMERA,C\ Mireia,11.94,7.0,2.99,3.26,0.284,2.52,261,ok
+0047030AR,432585.26,4588961.94,26.54,Cupressus sempervirens,False,TERCERA,Via Bàrcino,15.24,8.0,3.19,2.98,0.216,3.07,464,ok
+0047031AR,432453.56,4589293.18,50.36,Citrus × aurantium,False,PRIMERA,C\ Turó de la Trinitat,5.2,10.5,3.66,3.27,0.389,1.89,352,ok
+0047033AR,432554.35,4589228.91,32.56,Cercis siliquastrum,False,PRIMERA,C\ Mare de Déu de Lorda,3.07,0.2,0.56,3.07,0.0,7.82,5,no_crown_detected
+0047034AR,432591.79,4589198.56,28.65,Platanus × acerifolia,True,TERCERA,Via Bàrcino,13.25,2.0,1.6,3.46,0.316,2.31,104,ok
+0047037AR,432290.5,4589225.63,57.65,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Mireia,5.35,8.5,3.29,2.81,0.461,1.55,336,ok
+0047039AR,432385.85,4588743.6,30.94,Melia azedarach,False,SEGONA,Pl Josep Andreu i Abelló,6.52,43.0,7.4,3.56,0.297,2.43,826,ok
+0047040AR,432375.27,4589004.07,39.42,Platanus × acerifolia,True,SEGONA,Pl Trinitat,15.72,60.0,8.74,3.32,0.31,2.34,3264,ok
+0047041AR,432326.39,4588757.95,32.17,Melia azedarach,False,SEGONA,Ctra Ribes,6.26,22.0,5.29,3.41,0.312,2.33,481,ok
+0047043AR,432294.76,4589155.91,54.22,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Mireia,5.14,3.2,2.03,2.85,0.457,1.57,122,ok
+0047045AR,432327.55,4589074.64,43.95,Citrus × aurantium,False,PRIMERA,C\ Mireia,11.0,7.8,3.14,2.74,0.405,1.81,228,ok
+0047047AR,432390.79,4589161.27,48.26,Citrus × aurantium,False,PRIMERA,C\ Foradada,5.11,6.8,2.93,4.1,0.457,1.57,196,ok
+0047051AR,432648.88,4589264.2,29.55,Platanus × acerifolia,True,SEGONA,Via Bàrcino,9.52,2.8,1.87,5.52,0.125,4.16,71,ok
+0047052AR,432461.99,4589405.44,49.27,Styphnolobium japonicum,False,SEGONA,C\ Pare Manjón,5.09,7.8,3.14,2.62,0.288,2.49,170,ok
+0047054AR,432554.52,4589130.26,28.02,Platanus × acerifolia,True,TERCERA,Via Bàrcino,14.12,1.5,1.38,2.5,0.333,2.2,54,no_crown_detected
+0047055AR,432477.48,4589398.61,49.3,Styphnolobium japonicum,False,PRIMERA,C\ Pare Manjón,4.79,2.5,1.78,2.45,0.451,1.59,51,ok
+0047056AR,432577.91,4588849.97,27.4,Styphnolobium japonicum,False,TERCERA,Via Bàrcino,11.82,5.2,2.59,7.08,0.158,3.69,57,ok
+0047057AR,432548.94,4589120.04,27.89,Platanus × acerifolia,True,TERCERA,Via Bàrcino,16.01,86.0,10.46,9.23,0.282,2.53,3656,ok
+0047059AR,432526.9,4589119.92,28.72,Hibiscus syriacus,False,SEGONA,C\ Ausona,4.87,9.2,3.43,2.9,0.474,1.49,307,ok
+0047060AR,432435.44,4589053.78,35.94,Cercis siliquastrum,False,SEGONA,C\ Mare de Déu de Lorda,6.76,24.8,5.61,3.9,0.515,1.33,1029,ok
+0047061AR,432473.47,4589402.35,49.3,Styphnolobium japonicum,False,PRIMERA,C\ Pare Manjón,5.09,17.2,4.69,2.6,0.429,1.69,373,ok
+0047063AR,432424.23,4589433.06,48.76,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Peníscola,5.51,5.0,2.52,2.2,0.187,3.36,91,ok
+0047064AR,432628.26,4589239.75,29.31,Platanus × acerifolia,True,TERCERA,Via Bàrcino,15.6,64.8,9.08,8.6,0.266,2.65,2812,ok
+0047067AR,432496.41,4589145.24,34.16,Cercis siliquastrum,False,SEGONA,C\ Mare de Déu de Lorda,7.22,1.5,1.38,5.22,0.3,2.41,50,no_crown_detected
+0047069AR,432652.14,4589406.09,34.29,Ligustrum lucidum,False,SEGONA,C\ Mossèn Epifani Lorda,6.6,10.2,3.61,4.77,0.368,2.0,174,ok
+0047070AR,432609.08,4589225.05,29.06,Platanus × acerifolia,True,EXEMPLAR,Via Bàrcino,18.06,107.8,11.71,8.98,0.254,2.74,5327,ok
+0047071AR,432425.48,4589530.74,35.56,Platanus × acerifolia,True,TERCERA,C\ Pare Pérez del Pulgar,10.2,28.8,6.05,3.31,0.321,2.27,701,ok
+0047073AR,432481.3,4588839.01,26.86,Populus alba 'Pyramidalis',False,EXEMPLAR,C\ Torné,22.4,80.2,10.11,5.57,0.099,4.63,3054,ok
+0047074AR,432431.45,4589044.45,36.19,Cercis siliquastrum,False,SEGONA,C\ Mare de Déu de Lorda,13.04,4.8,2.46,6.35,0.145,3.86,151,ok
+0047075AR,432415.49,4588801.84,29.16,Melia azedarach,False,PRIMERA,Via Bàrcino,10.2,14.0,4.22,4.74,0.264,2.67,292,ok
+0047076AR,432320.87,4589308.38,55.09,Pyrus calleryana 'Chanticleer',False,SEGONA,C\ Mireia,8.43,13.8,4.18,4.07,0.351,2.09,504,ok
+0047077AR,432549.8,4589216.63,32.54,Cercis siliquastrum,False,PRIMERA,C\ Mare de Déu de Lorda,13.1,12.8,4.03,3.98,0.244,2.83,452,ok
+0047078AR,432469.24,4589582.32,30.33,Prunus avium,False,PRIMERA,C\ Torrent de Perera,13.8,0.2,0.56,13.8,0.833,0.36,6,no_crown_detected
+0047079AR,432432.11,4589029.47,36.4,Cercis siliquastrum,False,SEGONA,C\ Mare de Déu de Lorda,11.38,0.5,0.8,6.3,0.333,2.2,10,no_crown_detected
+0047082AR,432577.11,4588799.66,25.93,Acer negundo,False,EXEMPLAR,Via Bàrcino,11.13,109.0,11.78,4.39,0.247,2.8,2813,ok
+0047085AR,432326.27,4588763.38,32.21,Melia azedarach,False,PRIMERA,Ctra Ribes,5.2,10.2,3.61,3.28,0.384,1.91,216,ok
+0047086AR,432651.59,4589428.01,34.19,Ligustrum lucidum,False,PRIMERA,C\ Mossèn Epifani Lorda,13.17,7.5,3.09,3.66,0.39,1.88,82,ok
+0047087AR,432503.59,4589154.55,33.93,Cercis siliquastrum,False,PRIMERA,C\ Mare de Déu de Lorda,13.36,11.2,3.78,3.52,0.42,1.73,350,ok
+0047088AR,432420.33,4589587.87,30.55,Gleditsia triacanthos 'sunburst',False,PRIMERA,C\ Torrent de Perera,13.8,6.2,2.82,7.45,0.21,3.12,100,ok
+0047089AR,432326.21,4588741.65,32.17,Melia azedarach,False,PRIMERA,Ctra Ribes,,0.0,0.0,,,,0,no_crown_detected
+0047093AR,432655.16,4589279.95,29.12,Platanus × acerifolia,True,TERCERA,Via Bàrcino,12.95,65.5,9.13,7.31,0.295,2.44,2885,ok
+0047094AR,432652.91,4589273.81,29.23,Platanus × acerifolia,True,SEGONA,Via Bàrcino,11.94,33.2,6.51,7.12,0.352,2.09,1215,ok
+0047095AR,432295.12,4589225.11,57.7,Citrus × aurantium,False,PRIMERA,C\ Mireia,4.14,7.2,3.04,2.58,0.393,1.87,196,ok
+0047097AR,432411.76,4589572.95,30.95,Gleditsia triacanthos f. inermis,False,PRIMERA,C\ Torrent de Perera,5.55,4.8,2.46,2.89,0.356,2.07,104,ok
+0047098AR,432653.91,4589399.27,34.14,Ligustrum lucidum,False,SEGONA,C\ Mossèn Epifani Lorda,7.31,15.0,4.37,5.3,0.378,1.95,241,ok
+0047100AR,432373.98,4588727.4,30.97,Melia azedarach,False,PRIMERA,Pl Josep Andreu i Abelló,,0.0,0.0,,,,0,no_crown_detected
+0047104AR,432327.43,4589374.15,45.24,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Peníscola,6.93,13.2,4.11,3.37,0.346,2.12,375,ok
+0047105AR,432570.07,4589158.4,28.26,Platanus × acerifolia,True,TERCERA,Via Bàrcino,14.44,61.5,8.85,8.52,0.254,2.74,2505,ok
+0047107AR,432454.94,4589582.53,30.29,Melia azedarach,False,SEGONA,C\ Torrent de Perera,7.79,31.0,6.28,4.84,0.278,2.56,641,ok
+0047110AR,432507.28,4589371.96,48.24,Styphnolobium japonicum,False,SEGONA,C\ Pare Manjón,6.88,26.0,5.75,3.76,0.383,1.92,988,ok
+0047111AR,432611.54,4588871.14,26.78,Melia azedarach,False,EXEMPLAR,Via Bàrcino,11.32,78.0,9.97,4.55,0.294,2.45,1573,ok
+0047113AR,432493.15,4589544.05,35.74,Platanus × acerifolia,True,SEGONA,C\ Pare Pérez del Pulgar,9.35,50.5,8.02,3.17,0.258,2.71,1128,ok
+0047114AR,432372.18,4589150.31,49.22,Citrus × aurantium,False,PRIMERA,C\ Foradada,5.92,6.8,2.93,4.38,0.447,1.61,200,ok
+0047117AR,432370.44,4588813.33,31.47,Melia azedarach,False,SEGONA,Pl Josep Andreu i Abelló,7.06,27.8,5.94,3.37,0.273,2.6,619,ok
+0047118AR,432409.24,4589169.43,47.1,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Turó de la Trinitat,4.32,12.2,3.95,3.06,0.596,1.03,452,ok
+0047121AR,432530.85,4589559.87,34.49,Melia azedarach,False,SEGONA,C\ Torrent de Perera,5.85,6.8,2.93,3.94,0.537,1.24,136,ok
+0047123AR,432648.6,4589432.73,33.95,Crataegus x media 'Paul's Scarlet',False,PRIMERA,C\ Mossèn Epifani Lorda,,0.0,0.0,,,,0,no_crown_detected
+0047124AR,432623.02,4589360.72,30.87,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Foradada,4.78,2.5,1.78,3.35,0.375,1.96,81,ok
+0047125AR,432590.31,4589521.17,30.86,Melia azedarach,False,TERCERA,C\ Torrent de Perera,11.63,51.0,8.06,5.67,0.248,2.78,1143,ok
+0047127AR,432361.18,4589135.78,49.39,Citrus × aurantium,False,PRIMERA,C\ Foradada,5.87,5.5,2.65,4.12,0.385,1.91,147,ok
+0047131AR,432617.82,4589355.62,31.05,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Foradada,5.81,1.8,1.49,4.42,0.4,1.83,40,no_crown_detected
+0047133AR,432499.57,4589543.62,35.72,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Pare Pérez del Pulgar,4.86,5.5,2.65,2.04,0.356,2.07,90,ok
+0047134AR,432592.12,4588879.47,27.51,Fraxinus angustifolia,False,SEGONA,C\ Tossal,10.87,111.2,11.9,4.91,0.247,2.8,2445,ok
+0047135AR,432321.97,4589086.24,45.59,Citrus × aurantium,False,PRIMERA,C\ Mireia,13.56,137.8,13.24,4.06,0.143,3.89,7094,ok
+0047136AR,432567.43,4589339.39,35.97,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Foradada,5.59,10.5,3.66,3.66,0.403,1.82,267,ok
+0047138AR,432473.3,4589394.17,49.23,Styphnolobium japonicum,False,PRIMERA,C\ Pare Manjón,6.55,32.8,6.46,3.06,0.318,2.29,644,ok
+0047139AR,432433.93,4589033.16,36.35,Cercis siliquastrum,False,PRIMERA,C\ Mare de Déu de Lorda,5.76,3.5,2.11,4.01,0.048,6.09,56,ok
+0047141AR,432692.12,4589294.35,29.2,Platanus × acerifolia,True,SEGONA,Via Bàrcino,8.91,6.0,2.76,3.69,0.174,3.5,264,ok
+0047143AR,432446.7,4589543.76,35.45,Platanus × acerifolia,True,EXEMPLAR,C\ Pare Pérez del Pulgar,14.29,92.2,10.84,5.56,0.172,3.52,1758,ok
+0047144AR,432437.59,4589428.64,49.18,Styphnolobium japonicum,False,SEGONA,C\ Pare Manjón,6.69,12.5,3.99,3.52,0.178,3.46,259,ok
+0047145AR,432540.45,4589553.72,34.61,Melia azedarach,False,SEGONA,C\ Torrent de Perera,8.49,32.8,6.46,5.14,0.388,1.89,747,ok
+0047146AR,432670.21,4589286.96,28.85,Acer buergerianum,False,PRIMERA,Via Bàrcino,6.1,3.0,1.95,3.37,0.449,1.6,123,ok
+0047148AR,432374.47,4589075.08,41.27,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Turó de la Trinitat,13.64,11.8,3.87,4.26,0.419,1.74,379,ok
+0047149AR,432633.64,4589368.36,30.82,Ligustrum lucidum,False,SEGONA,C\ Mossèn Epifani Lorda,9.39,60.0,8.74,3.85,0.412,1.77,1965,ok
+0047150AR,432295.07,4589149.86,53.49,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Mireia,4.95,3.5,2.11,3.07,0.539,1.23,148,ok
+0047152AR,432330.12,4589314.62,55.04,Citrus × aurantium,False,PRIMERA,C\ Mireia,5.15,9.0,3.39,3.84,0.234,2.9,216,ok
+0047153AR,432458.21,4589310.14,50.92,Citrus × aurantium,False,PRIMERA,C\ Turó de la Trinitat,6.51,9.0,3.39,3.93,0.365,2.01,277,ok
+0047154AR,432658.69,4589362.53,29.78,Prunus cerasifera 'Pissardii',False,SEGONA,C\ Foradada,6.16,11.5,3.83,4.08,0.446,1.62,452,ok
+0047155AR,432354.16,4589134.8,49.49,Citrus × aurantium,False,PRIMERA,C\ Foradada,13.92,7.2,3.04,4.44,0.45,1.6,197,ok
+0047156AR,432438.23,4589436.51,49.19,Styphnolobium japonicum,False,SEGONA,C\ Pare Manjón,6.81,3.8,2.19,3.48,0.208,3.14,72,ok
+0047157AR,432487.42,4589133.37,34.45,Cercis siliquastrum,False,PRIMERA,C\ Mare de Déu de Lorda,6.03,4.8,2.46,4.64,0.306,2.37,133,ok
+0047158AR,432524.77,4589531.19,36.82,Pinus halepensis,False,TERCERA,Pl Turó de la Trinitat,14.7,126.8,12.7,6.7,0.258,2.71,2584,ok
+0047159AR,432378.63,4589089.74,42.3,Prunus cerasifera 'Pissardii',False,SEGONA,C\ Turó de la Trinitat,7.31,28.8,6.05,4.08,0.411,1.78,887,ok
+0047160AR,432434.1,4589440.44,49.13,Melia azedarach,False,SEGONA,C\ Pare Manjón,8.79,3.0,1.95,5.04,0.313,2.32,83,ok
+0047161AR,432371.53,4588792.32,31.32,Melia azedarach,False,SEGONA,Pl Josep Andreu i Abelló,6.16,11.8,3.87,2.59,0.321,2.27,196,ok
+0047162AR,432477.79,4589127.27,34.78,Cercis siliquastrum,False,SEGONA,C\ Mare de Déu de Lorda,12.7,68.2,9.32,5.36,0.295,2.44,2736,ok
+0047165AR,432464.86,4589382.75,49.27,Platanus × acerifolia,True,TERCERA,C\ Pare Manjón,14.7,95.2,11.01,6.04,0.148,3.82,2211,ok
+0047168AR,432343.32,4589334.55,54.51,Citrus × aurantium,False,PRIMERA,C\ Mireia,3.28,3.5,2.11,2.89,0.5,1.39,93,ok
+0047169AR,432478.1,4589582.06,30.35,Melia azedarach,False,PRIMERA,C\ Torrent de Perera,9.31,23.2,5.44,4.23,0.3,2.41,546,ok
+0047170AR,432577.28,4589260.5,32.88,Cercis siliquastrum,False,SEGONA,C\ Mare de Déu de Lorda,13.65,29.5,6.13,4.86,0.312,2.33,1050,ok
+0047173AR,432593.27,4589305.68,32.38,Cercis siliquastrum,False,SEGONA,C\ Mare de Déu de Lorda,7.74,2.5,1.78,5.12,0.213,3.1,92,ok
+0047174AR,432599.52,4589323.95,32.01,Cercis siliquastrum,False,PRIMERA,C\ Mare de Déu de Lorda,4.88,3.8,2.19,3.42,0.34,2.16,108,ok
+0047175AR,432324.45,4589080.43,44.81,Citrus × aurantium,False,PRIMERA,C\ Mireia,4.18,3.0,1.95,2.96,0.508,1.35,107,ok
+0047176AR,432386.95,4588727.58,30.87,Melia azedarach,False,SEGONA,Pl Josep Andreu i Abelló,7.97,42.0,7.31,3.6,0.25,2.77,824,ok
+0047178AR,432660.7,4589303.09,28.82,Platanus × acerifolia,True,SEGONA,Via Bàrcino,12.46,51.5,8.1,7.13,0.314,2.32,2035,ok
+0047180AR,432399.68,4588904.7,32.33,Ulmus pumila,False,EXEMPLAR,C\ Tossal,11.42,9.5,3.48,6.84,0.332,2.21,271,ok
+0047181AR,432448.03,4589273.45,49.78,Citrus × aurantium,False,PRIMERA,C\ Turó de la Trinitat,11.72,10.8,3.7,4.19,0.325,2.25,281,ok
+0047183AR,432325.59,4588833.84,33.39,Melia azedarach,False,PRIMERA,Ctra Ribes,8.32,24.0,5.53,4.13,0.34,2.16,565,ok
+0047186AR,432394.19,4589118.61,44.78,Prunus cerasifera 'Pissardii',False,SEGONA,C\ Turó de la Trinitat,7.24,20.2,5.08,2.05,0.393,1.87,760,ok
+0047188AR,432510.8,4589562.67,33.88,Melia azedarach,False,PRIMERA,C\ Torrent de Perera,5.55,22.8,5.38,2.97,0.429,1.69,450,ok
+0047189AR,432392.94,4589001.09,38.31,Platanus × acerifolia,True,SEGONA,Pl Trinitat,17.06,91.2,10.78,4.85,0.249,2.78,4564,ok
+0047190AR,432527.71,4589154.46,31.43,Pyrus calleryana 'Chanticleer',False,SEGONA,C\ Ausona,11.24,14.0,4.22,3.3,0.358,2.05,370,ok
+0047191AR,432452.1,4588905.82,31.38,Populus alba,False,TERCERA,C\ Torné,18.46,83.0,10.28,7.06,0.271,2.61,3718,ok
+0047194AR,432469.3,4589350.2,51.41,Citrus × aurantium,False,PRIMERA,C\ Turó de la Trinitat,5.03,8.0,3.19,3.22,0.518,1.31,252,ok
+0047195AR,432449.34,4589426.13,49.27,Styphnolobium japonicum,False,PRIMERA,C\ Pare Manjón,5.24,16.5,4.58,3.62,0.477,1.48,342,ok
+0047197AR,432356.94,4589223.68,56.88,Citrus × aurantium,False,PRIMERA,C\ Finestrelles,5.19,7.2,3.04,3.95,0.406,1.8,172,ok
+0047199AR,432325.49,4588855.94,33.85,Melia azedarach,False,SEGONA,Ctra Ribes,7.46,53.8,8.27,3.46,0.308,2.36,1294,ok
+0047203AR,432568.86,4589241.97,32.4,Cercis siliquastrum,False,PRIMERA,C\ Mare de Déu de Lorda,5.88,4.5,2.39,2.99,0.486,1.44,108,ok
+0047204AR,432326.23,4588752.61,32.17,Melia azedarach,False,SEGONA,Ctra Ribes,6.3,35.5,6.72,3.8,0.393,1.87,741,ok
+0047206AR,432543.27,4589214.66,32.65,Cercis siliquastrum,False,PRIMERA,C\ Mare de Déu de Lorda,14.05,15.2,4.41,4.53,0.395,1.86,578,ok
+0047207AR,432449.86,4589279.76,49.94,Citrus × aurantium,False,PRIMERA,C\ Turó de la Trinitat,9.96,7.2,3.04,3.36,0.331,2.21,197,ok
+0047211AR,432481.0,4589538.76,35.72,Platanus × acerifolia,True,SEGONA,C\ Pare Pérez del Pulgar,10.41,32.0,6.38,6.45,0.378,1.95,757,ok
+0047213AR,432659.32,4589331.93,29.05,Platanus × acerifolia,True,EXEMPLAR,Via Bàrcino,20.44,119.0,12.31,10.42,0.235,2.89,6207,ok
+0047214AR,432459.79,4589315.83,51.15,Citrus × aurantium,False,PRIMERA,C\ Turó de la Trinitat,12.23,5.8,2.71,3.85,0.172,3.52,179,ok
+0047217AR,432599.04,4589408.88,38.7,Robinia pseudoacacia,False,SEGONA,C\ Pare Pérez del Pulgar,7.4,52.8,8.2,3.92,0.353,2.08,1076,ok
+0047219AR,432493.35,4588798.46,27.84,Acer negundo,False,SEGONA,Via Bàrcino,10.42,41.2,7.25,3.83,0.203,3.19,888,ok
+0047220AR,432466.71,4589105.92,35.28,Cercis siliquastrum,False,PRIMERA,C\ Mare de Déu de Lorda,7.03,18.2,4.82,4.52,0.345,2.13,559,ok
+0047222AR,432527.39,4589145.95,30.66,Hibiscus syriacus,False,SEGONA,C\ Ausona,,0.0,0.0,,,,0,no_crown_detected
+0047224AR,432287.38,4589190.93,56.94,Jacaranda mimosifolia,False,SEGONA,C\ Mireia,15.1,56.5,8.48,2.6,0.322,2.26,2097,ok
+0047225AR,432392.51,4589114.0,44.4,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Turó de la Trinitat,3.65,2.5,1.78,2.97,0.609,0.99,73,ok
+0047226AR,432487.81,4588803.24,27.95,Melia azedarach,False,PRIMERA,Via Bàrcino,6.49,12.2,3.95,4.51,0.434,1.67,226,ok
+0047227AR,432309.52,4588878.42,34.85,Melia azedarach,False,EXEMPLAR,Ctra Ribes,9.54,72.0,9.57,4.41,0.195,3.27,1378,ok
+0047229AR,432426.27,4589439.71,49.04,Styphnolobium japonicum,False,TERCERA,C\ Pare Manjón,11.21,125.5,12.64,3.65,0.233,2.92,2914,ok
+0047230AR,432616.29,4589493.5,30.82,Prunus avium,False,PRIMERA,C\ Torrent de Perera,,0.0,0.0,,,,0,no_crown_detected
+0047232AR,432455.69,4589317.11,51.18,Citrus × aurantium,False,PRIMERA,C\ Turó de la Trinitat,6.01,10.5,3.66,4.1,0.474,1.49,302,ok
+0047234AR,432352.54,4589128.44,49.44,Citrus × aurantium,False,PRIMERA,C\ Foradada,5.3,3.8,2.19,4.15,0.408,1.79,101,ok
+0047235AR,432391.56,4588806.71,31.03,Acer platanoides,False,SEGONA,Via Bàrcino,8.01,46.8,7.72,3.87,0.25,2.77,832,ok
+0047236AR,432654.2,4589476.35,30.82,Melia azedarach,False,SEGONA,C\ Torrent de Perera,12.13,32.8,6.46,6.86,0.167,3.58,665,ok
+0047237AR,432297.68,4589245.76,58.11,Citrus × aurantium,False,PRIMERA,C\ Mireia,7.79,6.0,2.76,2.7,0.375,1.96,209,ok
+0047238AR,432358.92,4589459.39,36.55,Platanus × acerifolia,True,SEGONA,C\ Pare Pérez del Pulgar,5.29,0.2,0.56,5.29,0.5,1.39,2,no_crown_detected
+0047239AR,432299.72,4589150.06,53.53,Citrus × aurantium,False,PRIMERA,C\ Mireia,4.09,4.8,2.46,2.98,0.462,1.54,154,ok
+0047240AR,432326.19,4588747.25,32.16,Robinia pseudoacacia,False,SEGONA,Ctra Ribes,9.19,57.2,8.54,4.53,0.249,2.78,1480,ok
+0047241AR,432588.78,4588871.96,27.69,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Tossal,,0.0,0.0,,,,0,no_crown_detected
+0047242AR,432346.66,4589210.81,56.78,Acer campestre,False,PRIMERA,C\ Almassora,5.69,10.0,3.57,3.61,0.415,1.76,356,ok
+0047243AR,432455.21,4589299.16,50.56,Citrus × aurantium,False,PRIMERA,C\ Turó de la Trinitat,5.05,7.5,3.09,3.38,0.406,1.8,237,ok
+0047245AR,432358.58,4589535.21,31.88,Acer pseudoplatanus,False,TERCERA,C\ Torrent de Perera,10.71,73.8,9.69,2.37,0.26,2.69,1365,ok
+0047246AR,432630.49,4589483.18,30.85,Melia azedarach,False,TERCERA,C\ Torrent de Perera,12.56,41.5,7.27,6.47,0.275,2.58,1098,ok
+0047247AR,432509.32,4588873.44,28.73,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Tossal,17.62,9.0,3.39,3.9,0.244,2.82,168,ok
+0047248AR,432377.49,4589487.68,35.96,Platanus × acerifolia,True,SEGONA,C\ Pare Pérez del Pulgar,11.25,40.2,7.16,3.25,0.271,2.61,886,ok
+0047249AR,432430.58,4589230.2,48.6,Citrus × aurantium,False,PRIMERA,C\ Turó de la Trinitat,10.56,9.2,3.43,3.81,0.347,2.12,318,ok
+0047250AR,432279.44,4589143.44,46.13,Jacaranda mimosifolia,False,PRIMERA,Av Meridiana,4.99,14.8,4.33,2.81,0.472,1.5,512,ok
+0047251AR,432327.26,4589310.13,55.13,Citrus × aurantium,False,PRIMERA,C\ Mireia,14.25,20.0,5.05,3.28,0.295,2.44,666,ok
+0047252AR,432562.76,4589337.28,36.71,Prunus cerasifera 'Pissardii',False,SEGONA,C\ Foradada,10.88,35.0,6.68,3.6,0.489,1.43,1331,ok
+0047254AR,432325.82,4588844.8,33.62,Melia azedarach,False,SEGONA,Ctra Ribes,6.88,6.2,2.82,4.03,0.311,2.33,106,ok
+0047257AR,432419.75,4589514.77,35.74,Platanus × acerifolia,True,SEGONA,C\ Pare Pérez del Pulgar,11.86,46.8,7.72,6.79,0.336,2.18,1170,ok
+0047259AR,432538.75,4589203.82,32.63,Cercis siliquastrum,False,PRIMERA,C\ Mare de Déu de Lorda,4.81,15.2,4.41,2.5,0.446,1.62,446,ok
+0047260AR,432372.48,4588765.08,31.12,Robinia pseudoacacia,False,PRIMERA,Pl Josep Andreu i Abelló,5.32,3.2,2.03,3.42,0.351,2.1,77,ok
+0047262AR,432542.25,4589506.16,37.63,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Pare Pérez del Pulgar,,0.0,0.0,,,,0,no_crown_detected
+0047264AR,432511.39,4589553.56,35.13,Melia azedarach,False,SEGONA,C\ Torrent de Perera,7.21,50.2,8.0,2.57,0.204,3.18,932,ok
+0047265AR,432493.44,4589141.42,34.26,Cercis siliquastrum,False,SEGONA,C\ Mare de Déu de Lorda,8.6,43.2,7.42,4.25,0.37,1.99,1871,ok
+0047267AR,432537.85,4588872.24,29.02,Citrus × aurantium,False,PRIMERA,C\ Tossal,4.88,6.5,2.88,3.4,0.289,2.49,97,ok
+0047269AR,432367.42,4589031.47,40.26,Platanus × acerifolia,True,TERCERA,Pl Trinitat,12.22,14.8,4.33,5.18,0.159,3.68,624,ok
+0047270AR,432477.6,4588847.35,27.07,Populus alba 'Pyramidalis',False,SEGONA,C\ Torné,18.44,9.0,3.39,4.5,0.21,3.12,371,ok
+0047271AR,432382.95,4589524.81,32.81,Platanus × acerifolia,True,EXEMPLAR,C\ Suñol i Gras,17.2,192.8,15.67,4.31,0.167,3.58,4708,ok
+0047272AR,432432.79,4589237.28,48.79,Citrus × aurantium,False,PRIMERA,C\ Turó de la Trinitat,10.34,11.2,3.78,3.96,0.38,1.94,365,ok
+0047279AR,432413.9,4589520.42,35.64,Platanus × acerifolia,True,SEGONA,C\ Pare Pérez del Pulgar,9.77,23.0,5.41,2.03,0.293,2.46,553,ok
+0047280AR,432588.96,4589193.3,28.6,Platanus × acerifolia,True,SEGONA,Via Bàrcino,10.67,1.8,1.49,8.51,0.226,2.98,61,no_crown_detected
+0047282AR,432409.32,4589398.66,48.4,Firmiana simplex,False,SEGONA,C\ Peníscola,6.62,3.5,2.11,4.12,0.241,2.85,54,ok
+0047283AR,432297.62,4589267.38,57.5,Platanus × acerifolia,True,SEGONA,C\ Mireia,7.64,12.8,4.03,3.8,0.435,1.66,699,ok
+0047285AR,432384.87,4589308.41,58.18,Citrus × aurantium,False,PRIMERA,C\ Finestrelles,5.01,6.2,2.82,3.73,0.357,2.06,150,ok
+0047289AR,432644.92,4589381.28,32.3,Ligustrum lucidum,False,SEGONA,C\ Mossèn Epifani Lorda,6.84,13.0,4.07,4.15,0.373,1.97,247,ok
+0047290AR,432654.49,4589420.09,34.46,Ligustrum lucidum,False,SEGONA,C\ Mossèn Epifani Lorda,4.66,6.8,2.93,3.54,0.405,1.81,74,ok
+0047291AR,432372.48,4589482.96,36.15,Platanus × acerifolia,True,EXEMPLAR,C\ Pare Pérez del Pulgar,14.8,76.2,9.85,5.03,0.177,3.46,1507,ok
+0047292AR,432368.69,4589001.19,39.76,Photinia x fraseri 'Red Robin',False,PRIMERA,Pl Trinitat,,0.0,0.0,,,,0,no_crown_detected
+0047293AR,432356.81,4589132.06,49.42,Citrus × aurantium,False,PRIMERA,C\ Foradada,7.67,11.0,3.74,4.29,0.45,1.6,296,ok
+0047296AR,432280.04,4589159.9,46.19,Jacaranda mimosifolia,False,PRIMERA,Av Meridiana,6.75,12.0,3.91,3.24,0.483,1.46,507,ok
+0047297AR,432446.3,4589216.31,46.39,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Foradada,5.62,9.5,3.48,3.36,0.467,1.52,315,ok
+0047298AR,432435.8,4589162.84,41.08,Quercus robur 'Fastigiata',False,PRIMERA,C\ Vinya Llarga,3.86,1.2,1.26,2.7,0.471,1.51,35,no_crown_detected
+0047299AR,432644.18,4589483.43,30.78,Catalpa bignonioides,False,EXEMPLAR,C\ Torrent de Perera,10.92,15.0,4.37,1.87,0.165,3.61,340,ok
+0047300AR,432619.57,4589501.32,30.76,Gleditsia triacanthos 'sunburst',False,PRIMERA,C\ Torrent de Perera,,0.0,0.0,,,,0,no_crown_detected
+0047302AR,432307.21,4589289.73,56.02,Platanus × acerifolia,True,TERCERA,C\ Mireia,14.74,76.5,9.87,5.0,0.227,2.96,3941,ok
+0047303AR,432600.2,4589328.68,31.92,Cercis siliquastrum,False,SEGONA,C\ Mare de Déu de Lorda,12.57,54.8,8.35,4.72,0.191,3.31,2200,ok
+0047304AR,432286.49,4589165.08,55.48,Jacaranda mimosifolia,False,SEGONA,C\ Mireia,9.36,29.8,6.15,2.86,0.228,2.96,1053,ok
+0047305AR,432429.0,4589212.26,48.09,Cercis siliquastrum,False,PRIMERA,C\ Turó de la Trinitat,4.92,6.5,2.88,3.66,0.497,1.4,248,ok
+0047309AR,432564.83,4588872.67,28.52,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Tossal,,0.0,0.0,,,,0,no_crown_detected
+0047310AR,432565.7,4588799.85,25.99,Melia azedarach,False,PRIMERA,Via Bàrcino,7.8,2.2,1.69,3.61,0.349,2.11,43,few_points
+0047312AR,433236.89,4588934.54,19.68,Tipuana tipu,False,SEGONA,Pg Santa Coloma,5.55,22.0,5.29,3.85,0.547,1.21,822,ok
+0047316AR,432518.29,4589361.25,45.45,Styphnolobium japonicum,False,PRIMERA,C\ Pare Manjón,4.88,17.8,4.75,3.45,0.556,1.18,681,ok
+0047317AR,432504.71,4588797.56,27.69,Melia azedarach,False,SEGONA,Via Bàrcino,9.53,13.5,4.15,5.07,0.225,2.98,289,ok
+0047318AR,432420.97,4589003.18,36.88,Cercis siliquastrum,False,SEGONA,C\ Mare de Déu de Lorda,,0.0,0.0,,,,0,no_crown_detected
+0047319AR,432481.44,4589395.08,49.31,Styphnolobium japonicum,False,SEGONA,C\ Pare Manjón,7.84,58.0,8.59,3.24,0.307,2.36,1206,ok
+0047322AR,432434.98,4589528.03,35.68,Platanus × acerifolia,True,SEGONA,C\ Pare Pérez del Pulgar,12.22,41.0,7.23,6.61,0.338,2.17,1108,ok
+0047323AR,432309.71,4588845.9,33.55,Melia azedarach,False,PRIMERA,Ctra Ribes,10.92,0.8,0.98,8.95,0.538,1.24,13,no_crown_detected
+0047325AR,432671.41,4589331.24,28.96,Acer buergerianum,False,PRIMERA,Via Bàrcino,4.93,10.2,3.61,3.21,0.455,1.58,390,ok
+0047327AR,432523.49,4588801.8,27.01,Acer platanoides,False,SEGONA,Via Bàrcino,8.28,8.5,3.29,5.42,0.055,5.8,91,ok
+0047328AR,432382.62,4588815.39,31.44,Melia azedarach,False,PRIMERA,Pl Josep Andreu i Abelló,,0.0,0.0,,,,0,no_crown_detected
+0047329AR,432325.99,4588784.94,32.53,Melia azedarach,False,PRIMERA,Ctra Ribes,11.56,50.0,7.98,6.33,0.266,2.65,1317,ok
+0047331AR,433215.03,4588978.19,18.81,Tipuana tipu,False,SEGONA,Pg Santa Coloma,9.32,7.2,3.04,5.79,0.308,2.36,321,ok
+0047333AR,432371.71,4589065.28,40.8,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Turó de la Trinitat,4.95,2.0,1.6,3.6,0.364,2.02,57,ok
+0047334AR,432639.61,4589251.37,29.55,Platanus × acerifolia,True,SEGONA,Via Bàrcino,11.87,36.8,6.84,6.78,0.268,2.64,1509,ok
+0047335AR,432446.01,4589139.03,38.13,Quercus robur 'Fastigiata',False,PRIMERA,C\ Vinya Llarga,6.79,3.5,2.11,2.7,0.472,1.5,131,ok
+0047336AR,432488.32,4589379.74,49.08,Styphnolobium japonicum,False,TERCERA,C\ Pare Manjón,10.35,19.8,5.01,4.06,0.195,3.26,486,ok
+0047337AR,432413.06,4589404.2,48.47,Firmiana simplex,False,SEGONA,C\ Peníscola,8.36,34.5,6.63,4.28,0.25,2.78,693,ok
+0047339AR,432386.66,4588733.33,30.95,Robinia pseudoacacia,False,SEGONA,Pl Josep Andreu i Abelló,8.98,57.5,8.56,4.16,0.201,3.21,1234,ok
+0047341AR,432595.67,4589383.73,37.76,Robinia pseudoacacia,False,TERCERA,C\ Pare Pérez del Pulgar,,0.0,0.0,,,,0,no_crown_detected
+0047342AR,432373.42,4588743.71,31.0,Melia azedarach,False,PRIMERA,Pl Josep Andreu i Abelló,8.45,0.8,0.98,6.78,0.318,2.29,22,no_crown_detected
+0047343AR,432296.52,4589238.93,58.05,Citrus × aurantium,False,PRIMERA,C\ Mireia,4.39,5.5,2.65,2.72,0.436,1.66,172,ok
+0047344AR,432399.71,4589132.06,45.71,Prunus cerasifera 'Pissardii',False,SEGONA,C\ Turó de la Trinitat,16.34,13.5,4.15,3.94,0.305,2.37,454,ok
+0047345AR,432348.55,4589196.29,56.04,Citrus × aurantium,False,PRIMERA,C\ Finestrelles,5.33,5.2,2.59,3.38,0.409,1.79,164,ok
+0047346AR,432370.02,4588824.41,31.58,Melia azedarach,False,PRIMERA,Pl Josep Andreu i Abelló,8.28,58.2,8.61,3.49,0.237,2.88,1328,ok
+0047347AR,432406.81,4589421.59,47.88,Pyrus calleryana 'Chanticleer',False,SEGONA,C\ Peníscola,8.71,17.0,4.65,3.9,0.207,3.15,319,ok
+0047350AR,432443.49,4589144.94,38.75,Quercus robur 'Fastigiata',False,PRIMERA,C\ Vinya Llarga,5.79,2.0,1.6,2.53,0.491,1.42,94,ok
+0047351AR,432472.27,4588848.07,27.21,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Torné,5.59,40.5,7.18,3.3,0.365,2.02,488,ok
+0047352AR,432663.95,4589469.36,30.93,Catalpa bignonioides,False,EXEMPLAR,C\ Torrent de Perera,15.46,17.2,4.69,6.68,0.237,2.88,304,ok
+0047355AR,432562.86,4589120.76,27.87,Acer campestre 'Pyramidale',False,PRIMERA,Via Bàrcino,,0.0,0.0,,,,0,no_crown_detected
+0047356AR,432581.84,4589155.23,28.12,Acer buergerianum,False,PRIMERA,Via Bàrcino,2.92,3.2,2.03,2.02,0.448,1.6,116,low_tree
+0047360AR,432456.01,4589233.56,44.78,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Foradada,6.36,11.0,3.74,4.49,0.493,1.41,365,ok
+0047362AR,432370.96,4588802.64,31.37,Melia azedarach,False,PRIMERA,Pl Josep Andreu i Abelló,4.75,0.5,0.8,4.66,0.583,1.08,12,no_crown_detected
+0047363AR,432309.59,4588866.5,34.1,Melia azedarach,False,PRIMERA,Ctra Ribes,6.46,24.8,5.61,3.38,0.22,3.03,419,ok
+0047365AR,432352.6,4588879.94,33.03,Melia azedarach,False,SEGONA,C\ Tossal,10.33,74.2,9.72,4.55,0.355,2.07,1736,ok
+0047367AR,432366.04,4589026.33,40.22,Platanus × acerifolia,True,TERCERA,Pl Trinitat,10.99,19.8,5.01,3.86,0.391,1.88,920,ok
+0047369AR,432458.52,4588890.78,30.39,Populus alba,False,TERCERA,C\ Torné,16.8,78.5,10.0,4.86,0.261,2.68,2255,ok
+0047370AR,432374.74,4589523.81,32.82,Melia azedarach,False,TERCERA,C\ Suñol i Gras,12.39,11.2,3.78,8.13,0.123,4.2,220,ok
+0047372AR,432372.96,4589054.71,40.49,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Turó de la Trinitat,14.37,3.0,1.95,3.89,0.54,1.23,148,ok
+0047373AR,432647.26,4589413.19,36.12,Tipuana tipu,False,TERCERA,C\ Mossèn Epifani Lorda,10.57,106.0,11.62,4.89,0.197,3.24,2061,ok
+0047374AR,432522.88,4589045.06,28.11,Platanus × acerifolia,True,EXEMPLAR,Via Bàrcino,21.6,134.8,13.1,11.3,0.179,3.44,6974,ok
+0047375AR,432408.53,4589515.59,35.6,Fraxinus angustifolia,False,PRIMERA,C\ Pare Pérez del Pulgar,5.38,14.5,4.3,2.48,0.415,1.76,246,ok
+0047376AR,432309.51,4588872.2,34.44,Melia azedarach,False,SEGONA,Ctra Ribes,6.75,36.0,6.77,3.43,0.273,2.59,684,ok
+0047377AR,432453.96,4589545.36,35.44,Platanus × acerifolia,True,SEGONA,C\ Pare Pérez del Pulgar,11.14,33.5,6.53,4.87,0.242,2.84,735,ok
+0047379AR,432659.99,4589320.12,28.91,Platanus × acerifolia,True,SEGONA,Via Bàrcino,11.49,0.8,0.98,7.1,0.125,4.16,15,no_crown_detected
+0047380AR,432453.52,4589590.98,30.3,Melia azedarach,False,SEGONA,C\ Torrent de Perera,11.76,6.5,2.88,6.89,0.259,2.7,139,ok
+0047381AR,432641.96,4589383.03,32.29,Crataegus x media 'Paul's Scarlet',False,PRIMERA,C\ Mossèn Epifani Lorda,4.23,1.8,1.49,2.94,0.32,2.28,25,no_crown_detected
+0047383AR,432698.55,4589436.28,32.24,Platanus × acerifolia,True,TERCERA,Via Bàrcino,16.64,200.0,15.96,9.24,0.21,3.12,5257,ok
+0047388AR,432387.3,4589002.04,38.65,Platanus × acerifolia,True,TERCERA,Pl Trinitat,13.46,2.5,1.78,9.58,0.308,2.36,116,ok
+0047389AR,432460.44,4589590.72,30.24,Melia azedarach,False,PRIMERA,C\ Torrent de Perera,5.42,2.0,1.6,3.81,0.395,1.86,38,few_points
+0047390AR,432316.12,4589354.0,45.41,X chitalpa tashkentensis 'minsum' SUMMER BELLS®,False,PRIMERA,C\ Peníscola,17.19,31.8,6.36,2.77,0.418,1.74,1333,ok
+0047391AR,432492.76,4589384.6,49.25,Styphnolobium japonicum,False,SEGONA,C\ Pare Manjón,8.98,5.5,2.65,4.37,0.291,2.47,148,ok
+0047392AR,432321.2,4588989.54,38.28,Ulmus pumila,False,EXEMPLAR,Ctra Ribes,13.4,40.2,7.16,6.39,0.251,2.76,1385,ok
+0047394AR,432376.98,4589154.42,48.98,Citrus × aurantium,False,PRIMERA,C\ Foradada,5.44,5.8,2.71,3.67,0.495,1.41,180,ok
+0047395AR,432659.2,4589326.85,29.01,Platanus × acerifolia,True,TERCERA,Via Bàrcino,18.04,2.5,1.78,11.52,0.308,2.36,123,ok
+0047396AR,432372.94,4588715.96,31.19,Melia azedarach,False,SEGONA,Pl Josep Andreu i Abelló,7.24,20.2,5.08,3.46,0.285,2.51,421,ok
+0047397AR,432325.47,4588850.68,33.76,Melia azedarach,False,PRIMERA,Ctra Ribes,5.85,9.0,3.39,3.84,0.351,2.09,168,ok
+0047400AR,432374.5,4589000.19,39.38,Platanus × acerifolia,True,SEGONA,Pl Trinitat,7.48,0.2,0.56,7.48,0.0,7.82,2,no_crown_detected
+0047401AR,432594.53,4589203.01,28.67,Acer buergerianum,False,PRIMERA,Via Bàrcino,15.51,3.5,2.11,6.34,0.261,2.68,151,ok
+0047402AR,432535.67,4589344.83,41.02,Styphnolobium japonicum,False,SEGONA,C\ Pare Manjón,10.66,47.5,7.78,3.19,0.332,2.2,2348,ok
+0047403AR,432634.91,4589246.38,29.44,Melia azedarach,False,PRIMERA,Via Bàrcino,4.33,12.2,3.95,2.87,0.322,2.27,295,ok
+0047406AR,432529.25,4589218.73,33.61,Hibiscus syriacus,False,PRIMERA,C\ Ausona,4.01,4.2,2.33,2.79,0.286,2.51,163,ok
+0047409AR,432527.78,4589032.69,28.07,Platanus × acerifolia,True,TERCERA,Via Bàrcino,16.98,2.0,1.6,13.89,0.382,1.92,51,ok
+0047411AR,432476.03,4588839.43,26.91,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Torné,12.85,0.8,0.98,8.58,0.0,7.82,4,no_crown_detected
+0047413AR,432441.44,4589067.22,35.77,Cercis siliquastrum,False,SEGONA,C\ Mare de Déu de Lorda,6.85,42.2,7.33,2.77,0.471,1.51,1600,ok
+0047414AR,432659.98,4589296.73,28.88,Platanus × acerifolia,True,SEGONA,Via Bàrcino,8.57,0.5,0.8,8.35,0.667,0.81,13,no_crown_detected
+0047415AR,432320.75,4589123.74,50.26,Citrus × aurantium,False,PRIMERA,C\ Finestrelles,12.89,9.5,3.48,4.07,0.348,2.11,262,ok
+0047416AR,432421.15,4588805.84,28.79,Acer negundo,False,TERCERA,Via Bàrcino,11.75,134.0,13.06,5.18,0.177,3.46,2789,ok
+0047418AR,432638.0,4589367.45,30.69,Ligustrum lucidum,False,SEGONA,C\ Mossèn Epifani Lorda,7.04,5.5,2.65,6.15,0.43,1.69,166,ok
+0047420AR,432427.47,4589200.55,47.76,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Foradada,4.0,4.0,2.26,2.99,0.494,1.41,157,ok
+0047421AR,432423.23,4589208.83,48.14,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Turó de la Trinitat,3.4,1.2,1.26,2.83,0.385,1.91,46,no_crown_detected
+0047422AR,432383.9,4588787.54,31.31,Robinia pseudoacacia,False,SEGONA,Pl Josep Andreu i Abelló,6.95,18.2,4.82,4.38,0.331,2.21,423,ok
+0047424AR,432596.47,4589329.07,32.06,Cercis siliquastrum,False,SEGONA,C\ Mare de Déu de Lorda,12.72,9.8,3.52,5.99,0.192,3.3,386,ok
+0047425AR,432388.5,4589100.04,43.27,Prunus cerasifera 'Pissardii',False,SEGONA,C\ Turó de la Trinitat,7.13,11.8,3.87,4.71,0.341,2.15,418,ok
+0047427AR,432615.15,4588851.93,26.68,Melia azedarach,False,PRIMERA,Via Bàrcino,,0.0,0.0,,,,0,no_crown_detected
+0047429AR,432490.53,4589586.72,30.89,Melia azedarach,False,SEGONA,C\ Torrent de Perera,6.3,11.5,3.83,4.32,0.452,1.59,230,ok
+0047430AR,432607.05,4589201.66,28.58,Acer campestre 'Pyramidale',False,PRIMERA,Via Bàrcino,5.63,1.0,1.13,4.01,0.474,1.49,39,no_crown_detected
+0047431AR,432605.97,4589403.76,38.61,Robinia pseudoacacia,False,SEGONA,C\ Pare Pérez del Pulgar,11.06,29.5,6.13,6.38,0.34,2.16,700,ok
+0047432AR,432349.93,4589387.75,45.84,Pyrus calleryana 'Chanticleer',False,SEGONA,C\ Peníscola,7.23,17.0,4.65,3.28,0.285,2.51,330,ok
+0047433AR,432537.05,4589098.54,27.87,Platanus × acerifolia,True,EXEMPLAR,Via Bàrcino,18.67,84.8,10.39,8.38,0.294,2.45,3803,ok
+0047434AR,432373.29,4589406.58,46.46,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Peníscola,6.56,10.0,3.57,2.94,0.363,2.03,193,ok
+0047435AR,432677.19,4589316.74,28.76,Platanus × acerifolia,True,SEGONA,Via Bàrcino,12.68,82.2,10.23,4.97,0.24,2.86,3525,ok
+0047436AR,432496.52,4589380.75,49.17,Styphnolobium japonicum,False,PRIMERA,C\ Pare Manjón,7.32,14.0,4.22,3.43,0.326,2.24,301,ok
+0047437AR,432338.42,4588890.93,33.86,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Tossal,6.07,4.5,2.39,3.82,0.393,1.87,89,ok
+0047439AR,432457.9,4589092.58,35.48,Cercis siliquastrum,False,PRIMERA,C\ Mare de Déu de Lorda,4.48,5.2,2.59,3.26,0.457,1.57,172,ok
+0047440AR,432417.78,4589417.4,48.47,Pyrus calleryana 'Chanticleer',False,SEGONA,C\ Peníscola,8.51,24.0,5.53,3.57,0.311,2.34,495,ok
+0047441AR,432603.31,4589397.0,38.32,Robinia pseudoacacia,False,SEGONA,C\ Pare Pérez del Pulgar,9.96,24.8,5.61,5.38,0.278,2.56,571,ok
+0047442AR,432395.61,4589122.82,45.2,Prunus cerasifera 'Pissardii',False,SEGONA,C\ Turó de la Trinitat,6.85,25.5,5.7,4.71,0.301,2.4,921,ok
+0047443AR,432583.1,4589182.07,28.5,Acer buergerianum,False,PRIMERA,Via Bàrcino,17.47,76.2,9.85,8.17,0.279,2.56,3675,ok
+0047444AR,432294.99,4589218.33,57.55,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Mireia,5.56,6.0,2.76,3.03,0.35,2.1,208,ok
+0047445AR,432325.82,4588828.77,33.18,Melia azedarach,False,SEGONA,Ctra Ribes,7.23,50.2,8.0,3.77,0.244,2.82,945,ok
+0047448AR,432475.11,4588798.84,28.04,Melia azedarach,False,PRIMERA,Via Bàrcino,,0.0,0.0,,,,0,no_crown_detected
+0047452AR,432414.26,4589584.6,30.78,Platanus × acerifolia,True,EXEMPLAR,C\ Torrent de Perera,21.3,207.8,16.26,7.64,0.176,3.47,5106,ok
+0047453AR,432440.96,4589051.2,36.02,Cercis siliquastrum,False,PRIMERA,C\ Mare de Déu de Lorda,6.22,10.5,3.66,1.67,0.329,2.23,318,ok
+0047454AR,432385.12,4588760.49,31.09,Melia azedarach,False,PRIMERA,Pl Josep Andreu i Abelló,4.93,9.2,3.43,2.9,0.386,1.9,176,ok
+0047458AR,432367.7,4589268.3,57.84,Citrus × aurantium,False,PRIMERA,C\ Finestrelles,9.34,2.0,1.6,3.82,0.294,2.45,85,ok
+0047459AR,432489.07,4589387.97,49.33,Styphnolobium japonicum,False,TERCERA,C\ Pare Manjón,8.72,6.2,2.82,5.35,0.159,3.68,132,ok
+0047461AR,432397.96,4589167.46,47.86,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Foradada,10.42,8.8,3.34,4.01,0.429,1.69,283,ok
+0047462AR,432349.39,4589397.02,45.89,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Peníscola,5.98,9.5,3.48,3.14,0.238,2.87,168,ok
+0047466AR,432372.35,4588770.24,31.18,Melia azedarach,False,PRIMERA,Pl Josep Andreu i Abelló,8.03,35.0,6.68,3.23,0.355,2.07,893,ok
+0047467AR,432575.76,4589531.37,31.88,Melia azedarach,False,TERCERA,C\ Torrent de Perera,9.48,55.5,8.41,4.97,0.284,2.52,1176,ok
+0047468AR,432571.85,4589252.76,32.66,Cercis siliquastrum,False,SEGONA,C\ Mare de Déu de Lorda,12.61,24.8,5.61,4.66,0.302,2.39,917,ok
+0047469AR,433232.72,4588943.86,19.55,Tipuana tipu,False,SEGONA,Pg Santa Coloma,5.7,45.0,7.57,3.58,0.517,1.32,1507,ok
+0047470AR,432470.09,4588803.87,28.18,Acer platanoides,False,TERCERA,Via Bàrcino,10.19,102.2,11.41,4.85,0.229,2.95,1805,ok
+0047471AR,432452.69,4589305.89,50.78,Citrus × aurantium,False,PRIMERA,C\ Turó de la Trinitat,5.52,7.8,3.14,3.66,0.423,1.72,256,ok
+0047474AR,432598.86,4588828.7,26.2,Melia azedarach,False,EXEMPLAR,Via Bàrcino,7.41,63.2,8.97,4.45,0.359,2.05,1150,ok
+0047475AR,432344.45,4589183.68,55.43,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Finestrelles,7.34,9.5,3.48,4.15,0.387,1.9,298,ok
+0047476AR,432341.5,4588880.31,33.65,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Tossal,,0.0,0.0,,,,0,no_crown_detected
+0047477AR,432438.61,4589407.79,49.12,Platanus × acerifolia,True,SEGONA,C\ Pare Manjón,14.01,75.0,9.77,6.41,0.193,3.29,1815,ok
+0047478AR,432468.87,4589332.21,50.77,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Ausona,5.55,15.0,4.37,2.96,0.525,1.29,535,ok
+0047479AR,432428.38,4589020.04,36.56,Cercis siliquastrum,False,PRIMERA,C\ Mare de Déu de Lorda,,0.0,0.0,,,,0,no_crown_detected
+0047481AR,432299.26,4589251.86,58.01,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Mireia,6.42,3.0,1.95,2.85,0.369,1.99,123,ok
+0047482AR,432372.29,4589282.47,58.15,Citrus × aurantium,False,PRIMERA,C\ Finestrelles,14.51,17.5,4.72,4.33,0.237,2.88,777,ok
+0047484AR,432593.32,4589394.81,38.12,Robinia pseudoacacia,False,TERCERA,C\ Pare Pérez del Pulgar,11.1,61.2,8.83,5.03,0.319,2.29,1521,ok
+0047487AR,432426.66,4589032.67,36.46,Platanus × acerifolia,True,SEGONA,C\ Mare de Déu de Lorda,15.2,2.5,1.78,2.57,0.273,2.6,104,ok
+0047491AR,432502.0,4589158.94,33.93,Cercis siliquastrum,False,PRIMERA,C\ Mare de Déu de Lorda,4.33,8.2,3.24,2.77,0.516,1.32,298,ok
+0047492AR,432654.6,4589250.73,29.65,Acer buergerianum,False,PRIMERA,Via Bàrcino,,0.0,0.0,,,,0,no_crown_detected
+0047493AR,432370.13,4589024.99,40.31,Styphnolobium japonicum,False,PRIMERA,Pl Trinitat,10.78,2.5,1.78,3.9,0.448,1.61,118,ok
+0047495AR,432432.32,4589535.96,35.54,Platanus × acerifolia,True,TERCERA,C\ Pare Pérez del Pulgar,11.35,42.0,7.31,3.51,0.238,2.87,824,ok
+0047496AR,432297.66,4589179.16,56.55,Citrus × aurantium,False,PRIMERA,C\ Mireia,5.19,8.8,3.34,3.58,0.457,1.57,243,ok
+0047497AR,432440.86,4589151.18,39.41,Quercus robur 'Fastigiata',False,PRIMERA,C\ Vinya Llarga,5.8,4.0,2.26,2.97,0.505,1.36,148,ok
+0047498AR,432324.59,4589306.0,55.24,Citrus × aurantium,False,PRIMERA,C\ Mireia,5.03,6.5,2.88,2.97,0.333,2.2,189,ok
+0047500AR,432309.58,4588860.79,33.92,Melia azedarach,False,SEGONA,Ctra Ribes,6.72,39.8,7.11,3.49,0.268,2.64,646,ok
+0047501AR,432646.95,4589471.54,30.88,Melia azedarach,False,TERCERA,C\ Torrent de Perera,12.72,56.5,8.48,6.8,0.255,2.74,1104,ok
+0047502AR,432540.69,4589339.88,39.89,Styphnolobium japonicum,False,SEGONA,C\ Pare Manjón,8.97,47.5,7.78,4.18,0.382,1.93,2141,ok
+0047503AR,432341.82,4589393.91,45.67,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Peníscola,4.77,9.0,3.39,3.11,0.41,1.78,166,ok
+0047504AR,432391.15,4589109.19,44.0,Prunus cerasifera 'Pissardii',False,SEGONA,C\ Turó de la Trinitat,6.46,23.8,5.5,3.58,0.412,1.77,718,ok
+0047505AR,432371.22,4589266.91,57.72,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Finestrelles,6.35,2.8,1.87,3.14,0.186,3.36,83,ok
+0047506AR,432426.14,4589203.73,47.91,Cercis siliquastrum,False,PRIMERA,C\ Turó de la Trinitat,3.44,2.5,1.78,2.79,0.632,0.92,92,ok
+0047507AR,432581.72,4589458.0,38.61,Robinia pseudoacacia,False,SEGONA,C\ Pare Pérez del Pulgar,9.63,34.8,6.65,4.82,0.332,2.2,906,ok
+0047508AR,432344.34,4589197.81,56.32,Citrus × aurantium,False,PRIMERA,C\ Finestrelles,11.15,14.8,4.33,4.26,0.285,2.51,514,ok
+0047509AR,432418.91,4589448.34,48.17,Styphnolobium japonicum,False,SEGONA,C\ Pare Manjón,9.46,115.0,12.1,4.02,0.331,2.21,2683,ok
+0047510AR,432406.89,4588897.78,31.64,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Tossal,10.46,49.8,7.96,2.65,0.405,1.81,1303,ok
+0047511AR,432410.85,4589173.86,47.28,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Turó de la Trinitat,4.22,12.5,3.99,2.97,0.581,1.08,467,ok
+0047512AR,432522.04,4589319.62,41.94,Washingtonia filifera,False,TERCERA,C\ Foradada,12.6,2.0,1.6,9.52,0.091,4.8,61,ok
+0047513AR,432383.84,4588896.34,32.42,Ulmus pumila,False,TERCERA,C\ Tossal,9.18,7.8,3.14,3.85,0.312,2.33,173,ok
+0047514AR,432413.35,4589002.22,37.15,Platanus × acerifolia,True,SEGONA,C\ Mare de Déu de Lorda,13.6,71.5,9.54,6.15,0.348,2.11,3079,ok
+0047515AR,432523.21,4588796.67,27.1,Melia azedarach,False,EXEMPLAR,Via Bàrcino,9.9,91.0,10.76,4.6,0.17,3.55,1644,ok
+0047516AR,432629.0,4589357.57,30.58,Prunus cerasifera 'Pissardii',False,SEGONA,C\ Foradada,12.75,27.0,5.86,4.01,0.309,2.35,737,ok
+0047518AR,432367.5,4589141.09,49.32,Citrus × aurantium,False,PRIMERA,C\ Foradada,5.2,7.0,2.99,3.94,0.4,1.83,184,ok
+0047521AR,432620.81,4589490.25,30.85,Melia azedarach,False,SEGONA,C\ Torrent de Perera,10.82,1.8,1.49,5.36,0.037,6.59,27,no_crown_detected
+0047522AR,432585.54,4589524.44,30.87,Catalpa bignonioides,False,SEGONA,C\ Torrent de Perera,9.77,12.0,3.91,5.87,0.258,2.71,240,ok
+0047523AR,432414.45,4589424.98,48.29,Pyrus calleryana 'Chanticleer',False,SEGONA,C\ Peníscola,9.74,26.2,5.78,3.23,0.253,2.75,570,ok
+0047525AR,432441.36,4589424.88,49.23,Styphnolobium japonicum,False,SEGONA,C\ Pare Manjón,8.56,68.8,9.36,3.58,0.299,2.41,1755,ok
+0047527AR,432383.83,4589083.84,42.01,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Turó de la Trinitat,4.32,3.5,2.11,3.09,0.455,1.58,96,ok
+0047528AR,432565.32,4589473.26,38.03,Platanus × acerifolia,True,TERCERA,C\ Pare Pérez del Pulgar,10.53,53.5,8.25,5.39,0.222,3.01,1207,ok
+0047529AR,432681.43,4589457.08,31.63,Platanus × acerifolia,True,EXEMPLAR,Via Bàrcino,17.23,115.0,12.1,8.06,0.214,3.08,2827,ok
+0047530AR,432649.25,4589243.24,29.61,Acer buergerianum,False,PRIMERA,Via Bàrcino,4.0,1.2,1.26,2.43,0.607,1.0,43,no_crown_detected
+0047531AR,432487.85,4589372.12,49.17,Styphnolobium japonicum,False,EXEMPLAR,C\ Pare Manjón,12.61,3.2,2.03,6.08,0.194,3.28,88,ok
+0047532AR,432625.78,4589486.45,30.84,Prunus avium,False,PRIMERA,C\ Torrent de Perera,,0.0,0.0,,,,0,no_crown_detected
+0047533AR,432398.54,4589000.12,37.93,Platanus × acerifolia,True,SEGONA,Pl Trinitat,14.2,69.0,9.37,6.03,0.327,2.24,3362,ok
+0047534AR,432381.81,4588840.01,31.64,Robinia pseudoacacia,False,TERCERA,Pl Josep Andreu i Abelló,9.66,41.0,7.23,4.31,0.25,2.77,856,ok
+0047538AR,432428.04,4588877.9,30.7,Melia azedarach,False,SEGONA,C\ Tossal,12.24,49.5,7.94,6.67,0.217,3.06,1011,ok
+0047539AR,432386.62,4588998.0,38.61,Photinia x fraseri 'Red Robin',False,PRIMERA,Pl Trinitat,10.44,0.8,0.98,2.16,0.0,7.82,20,no_crown_detected
+0047540AR,432313.14,4589288.94,55.83,Citrus × aurantium,False,PRIMERA,C\ Mireia,6.42,5.5,2.65,3.52,0.494,1.41,141,ok
+0047543AR,432325.47,4588839.61,33.5,Robinia pseudoacacia,False,SEGONA,Ctra Ribes,14.65,87.5,10.56,4.93,0.303,2.38,2244,ok
+0047544AR,432411.58,4588878.33,31.09,Melia azedarach,False,SEGONA,C\ Tossal,8.72,1.5,1.38,6.82,0.406,1.8,32,no_crown_detected
+0047546AR,432384.26,4588776.6,31.21,Melia azedarach,False,PRIMERA,Pl Josep Andreu i Abelló,,0.0,0.0,,,,0,no_crown_detected
+0047547AR,432646.23,4589259.55,29.63,Platanus × acerifolia,True,SEGONA,Via Bàrcino,11.99,37.5,6.91,6.47,0.251,2.77,1605,ok
+0047548AR,432541.7,4589525.29,36.12,Catalpa bignonioides,False,SEGONA,Pl Turó de la Trinitat,7.98,21.5,5.23,3.64,0.362,2.03,563,ok
+0047551AR,432623.83,4589236.58,29.19,Platanus × acerifolia,True,TERCERA,Via Bàrcino,15.44,73.0,9.64,8.12,0.235,2.89,2946,ok
+0047553AR,432434.62,4589229.09,48.56,Citrus × aurantium,False,PRIMERA,C\ Turó de la Trinitat,5.9,12.0,3.91,3.99,0.452,1.59,336,ok
+0047554AR,432429.9,4589436.07,49.11,Styphnolobium japonicum,False,SEGONA,C\ Pare Manjón,8.93,24.0,5.53,3.19,0.205,3.17,518,ok
+0047555AR,432560.17,4589489.38,37.72,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Pare Pérez del Pulgar,,0.0,0.0,,,,0,no_crown_detected
+0047556AR,432309.75,4588829.12,33.17,Melia azedarach,False,PRIMERA,Ctra Ribes,6.94,60.2,8.76,3.0,0.242,2.84,1092,ok
+0047557AR,432525.27,4589038.63,28.08,Acer buergerianum,False,PRIMERA,Via Bàrcino,16.8,1.2,1.26,15.22,0.45,1.6,25,no_crown_detected
+0047558AR,432557.5,4589135.4,28.03,Acer saccharinum,False,PRIMERA,Via Bàrcino,,0.0,0.0,,,,0,no_crown_detected
+0047559AR,432348.0,4589057.99,41.5,Citrus × aurantium,False,PRIMERA,C\ Mireia,13.0,16.5,4.58,3.36,0.23,2.94,510,ok
+0047560AR,432332.63,4589070.56,43.29,Citrus × aurantium,False,PRIMERA,C\ Mireia,7.18,7.5,3.09,3.05,0.331,2.21,208,ok
+0047561AR,432442.31,4589432.97,49.24,Styphnolobium japonicum,False,SEGONA,C\ Pare Manjón,6.54,28.8,6.05,3.6,0.387,1.9,667,ok
+0047562AR,432474.58,4589123.3,34.9,Cercis siliquastrum,False,PRIMERA,C\ Mare de Déu de Lorda,9.8,9.2,3.43,4.46,0.298,2.42,261,ok
+0047564AR,432369.21,4589005.15,39.82,Platanus × acerifolia,True,SEGONA,Pl Trinitat,6.94,12.0,3.91,4.03,0.496,1.4,467,ok
+0047566AR,432433.42,4589048.91,36.0,Cercis siliquastrum,False,PRIMERA,C\ Mare de Déu de Lorda,8.32,19.0,4.92,4.62,0.304,2.38,628,ok
+0047567AR,432283.1,4589132.97,46.06,Jacaranda mimosifolia,False,SEGONA,Av Meridiana,7.22,47.8,7.8,3.57,0.432,1.68,1644,ok
+0047569AR,432373.61,4588738.16,31.01,Melia azedarach,False,PRIMERA,Pl Josep Andreu i Abelló,9.5,8.5,3.29,5.54,0.327,2.23,217,ok
+0047570AR,432502.63,4589580.34,31.86,Gleditsia triacanthos 'sunburst',False,PRIMERA,C\ Torrent de Perera,7.89,24.2,5.56,4.67,0.343,2.14,562,ok
+0047571AR,432380.62,4589409.81,46.69,Pyrus calleryana 'Chanticleer',False,SEGONA,C\ Peníscola,6.42,15.5,4.44,3.33,0.237,2.88,249,ok
+0047573AR,432338.51,4589335.43,54.54,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Mireia,6.0,3.0,1.95,2.74,0.167,3.58,130,ok
+0047574AR,432301.52,4589136.08,51.84,Citrus × aurantium,False,PRIMERA,C\ Mireia,5.23,4.8,2.46,3.67,0.44,1.64,127,ok
+0047575AR,432447.14,4589591.2,30.22,Platanus × acerifolia,True,EXEMPLAR,C\ Torrent de Perera,18.81,99.2,11.24,6.73,0.208,3.14,2814,ok
+0047577AR,432542.8,4589108.73,27.84,Platanus × acerifolia,True,EXEMPLAR,Via Bàrcino,18.02,81.5,10.19,9.81,0.257,2.72,3687,ok
+0047579AR,432601.46,4589503.94,30.81,Catalpa bignonioides,False,SEGONA,C\ Torrent de Perera,10.32,48.5,7.86,5.61,0.344,2.13,1095,ok
+0047582AR,432561.58,4589541.19,33.43,Catalpa bignonioides,False,SEGONA,C\ Torrent de Perera,8.98,13.0,4.07,4.44,0.283,2.52,272,ok
+0047583AR,432465.27,4589351.36,51.61,Citrus × aurantium,False,PRIMERA,C\ Turó de la Trinitat,5.08,7.0,2.99,4.08,0.545,1.22,208,ok
+0047584AR,432513.4,4589289.63,42.62,Prunus cerasifera 'Pissardii',False,SEGONA,C\ Foradada,6.6,17.5,4.72,3.67,0.471,1.5,742,ok
+0047585AR,432381.04,4589158.04,48.74,Citrus × aurantium,False,PRIMERA,C\ Foradada,4.2,5.0,2.52,3.25,0.571,1.12,174,ok
+0047586AR,432595.12,4589319.4,32.18,Cercis siliquastrum,False,PRIMERA,C\ Mare de Déu de Lorda,13.84,26.0,5.75,4.25,0.313,2.32,1068,ok
+0047589AR,432409.04,4589412.99,48.08,Pyrus calleryana 'Chanticleer',False,SEGONA,C\ Peníscola,7.9,27.0,5.86,2.56,0.327,2.24,471,ok
+0047590AR,432439.29,4589208.48,47.25,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Foradada,5.37,6.8,2.93,3.85,0.511,1.34,213,ok
+0047591AR,432597.64,4589338.62,32.16,Cercis siliquastrum,False,SEGONA,C\ Mare de Déu de Lorda,13.74,10.0,3.57,6.83,0.0,7.82,263,ok
+0047593AR,432510.76,4588797.09,27.45,Acer platanoides,False,SEGONA,Via Bàrcino,9.29,7.5,3.09,4.96,0.117,4.29,145,ok
+0047596AR,432350.21,4589131.45,49.5,Citrus × aurantium,False,PRIMERA,C\ Foradada,14.82,7.5,3.09,4.02,0.323,2.26,246,ok
+0047598AR,432632.26,4589361.95,30.55,Prunus cerasifera 'Pissardii',False,SEGONA,C\ Foradada,12.72,34.8,6.65,4.35,0.485,1.45,1197,ok
+0047604AR,432325.94,4588774.16,32.36,Melia azedarach,False,SEGONA,Ctra Ribes,9.22,19.2,4.95,4.5,0.217,3.06,397,ok
+0047605AR,432404.5,4588999.08,37.61,Platanus × acerifolia,True,SEGONA,Pl Trinitat,13.56,3.5,2.11,8.86,0.236,2.89,160,ok
+0047609AR,432384.9,4589321.12,57.91,Citrus × aurantium,False,PRIMERA,C\ Finestrelles,13.43,12.5,3.99,4.0,0.299,2.42,435,ok
+0047610AR,432452.28,4589414.43,49.2,Styphnolobium japonicum,False,SEGONA,C\ Pare Manjón,6.46,4.8,2.46,2.84,0.151,3.78,106,ok
+0047611AR,432330.64,4588881.02,34.33,Robinia pseudoacacia,False,TERCERA,C\ Tossal,10.64,17.5,4.72,7.56,0.389,1.89,386,ok
+0047612AR,432526.67,4589110.45,28.35,Hibiscus syriacus,False,SEGONA,C\ Ausona,6.7,11.2,3.78,4.16,0.431,1.68,327,ok
+0047615AR,432447.63,4588876.88,30.18,Melia azedarach,False,EXEMPLAR,C\ Tossal,14.23,69.8,9.42,7.06,0.19,3.32,1548,ok
+0047616AR,432556.54,4589544.36,33.92,Melia azedarach,False,SEGONA,C\ Torrent de Perera,6.81,7.8,3.14,4.14,0.402,1.82,164,ok
+0047619AR,432609.74,4589508.04,30.79,Catalpa bignonioides,False,TERCERA,C\ Torrent de Perera,11.38,31.8,6.36,5.82,0.317,2.3,690,ok
+0047622AR,432591.0,4589447.56,38.82,Citrus × aurantium,False,PRIMERA,C\ Pare Pérez del Pulgar,,0.0,0.0,,,,0,no_crown_detected
+0047624AR,432460.79,4589415.18,49.28,Styphnolobium japonicum,False,PRIMERA,C\ Pare Manjón,3.66,8.8,3.34,2.41,0.48,1.47,179,ok
+0047626AR,432364.52,4589021.21,40.24,Platanus × acerifolia,True,TERCERA,Pl Trinitat,13.97,13.0,4.07,7.22,0.247,2.79,745,ok
+0047627AR,432442.82,4589055.66,36.0,Cercis siliquastrum,False,PRIMERA,C\ Mare de Déu de Lorda,5.32,5.2,2.59,3.63,0.21,3.12,161,ok
+0047629AR,432339.59,4589059.33,42.1,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Mireia,9.42,3.0,1.95,2.26,0.385,1.91,101,ok
+0047633AR,432412.05,4589159.77,46.87,Prunus cerasifera 'Pissardii',False,SEGONA,C\ Turó de la Trinitat,11.42,35.2,6.7,4.64,0.216,3.06,1099,ok
+0047634AR,432372.74,4588760.15,31.06,Melia azedarach,False,PRIMERA,Pl Josep Andreu i Abelló,5.26,7.8,3.14,3.64,0.35,2.1,137,ok
+0047636AR,432329.69,4589321.61,54.91,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Mireia,4.04,1.2,1.26,2.64,0.559,1.16,50,no_crown_detected
+0047637AR,432381.09,4589309.72,58.29,Citrus × aurantium,False,PRIMERA,C\ Finestrelles,11.08,15.8,4.48,3.99,0.354,2.08,519,ok
+0047638AR,432467.8,4589358.05,51.08,Citrus × aurantium,False,PRIMERA,C\ Turó de la Trinitat,14.06,10.8,3.7,3.63,0.341,2.15,340,ok
+0047640AR,432371.64,4588787.12,31.31,Melia azedarach,False,PRIMERA,Pl Josep Andreu i Abelló,8.41,8.5,3.29,3.97,0.332,2.21,220,ok
+0047641AR,432326.87,4589441.69,37.81,Platanus × acerifolia,True,TERCERA,C\ Pare Pérez del Pulgar,16.37,95.2,11.01,8.1,0.214,3.08,2247,ok
+0047643AR,432650.55,4589400.01,33.91,Ligustrum lucidum,False,SEGONA,C\ Mossèn Epifani Lorda,6.99,9.0,3.39,4.53,0.351,2.09,205,ok
+0047645AR,432476.63,4588874.5,29.02,Melia azedarach,False,TERCERA,C\ Tossal,10.59,72.0,9.57,6.87,0.239,2.86,1242,ok
+0047648AR,432438.16,4589254.48,49.21,Citrus × aurantium,False,PRIMERA,C\ Turó de la Trinitat,10.77,6.5,2.88,3.18,0.429,1.69,192,ok
+0047649AR,432370.82,4588808.25,31.44,Robinia pseudoacacia,False,TERCERA,Pl Josep Andreu i Abelló,10.58,62.2,8.9,4.84,0.285,2.51,1609,ok
+0047650AR,432471.99,4589246.33,43.56,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Foradada,13.64,7.5,3.09,2.98,0.246,2.8,282,ok
+0047652AR,432295.55,4589261.52,57.77,Platanus × acerifolia,True,SEGONA,C\ Mireia,13.03,79.8,10.08,4.34,0.223,3.0,3530,ok
+0047653AR,432394.23,4589164.26,48.01,Citrus × aurantium,False,PRIMERA,C\ Foradada,4.52,6.8,2.93,3.94,0.523,1.3,192,ok
+0047656AR,432353.54,4589224.89,56.97,Citrus × aurantium,False,PRIMERA,C\ Finestrelles,5.4,13.2,4.11,3.72,0.329,2.23,386,ok
+0047662AR,432542.99,4589207.94,32.59,Cercis siliquastrum,False,PRIMERA,C\ Mare de Déu de Lorda,6.42,17.8,4.75,3.82,0.379,1.94,515,ok
+0047663AR,432674.35,4589283.96,29.06,Platanus × acerifolia,True,SEGONA,Via Bàrcino,10.58,3.0,1.95,5.23,0.269,2.62,121,ok
+0047664AR,432469.87,4589405.92,49.29,Styphnolobium japonicum,False,SEGONA,C\ Pare Manjón,5.9,26.2,5.78,2.78,0.404,1.81,579,ok
+0047666AR,432450.38,4588897.76,31.06,Prunus cerasifera 'Pissardii',False,SEGONA,C\ Torné,7.89,6.0,2.76,3.32,0.259,2.7,112,ok
+0047667AR,432406.93,4588890.88,31.4,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Tossal,8.09,0.5,0.8,7.67,0.3,2.41,10,no_crown_detected
+0047668AR,432313.47,4589372.14,44.87,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Peníscola,4.91,3.0,1.95,3.02,0.571,1.12,91,ok
+0047669AR,432463.25,4588799.46,28.26,Acer platanoides,False,SEGONA,Via Bàrcino,6.24,6.0,2.76,3.98,0.396,1.85,101,ok
+0047671AR,432452.54,4589537.39,35.61,Platanus × acerifolia,True,TERCERA,C\ Pare Pérez del Pulgar,13.39,40.2,7.16,8.26,0.299,2.41,1012,ok
+0047672AR,432543.0,4589494.12,37.79,Platanus × acerifolia,True,TERCERA,C\ Pare Pérez del Pulgar,12.55,106.5,11.64,5.65,0.226,2.98,2602,ok
+0047673AR,432548.83,4589221.98,32.64,Cercis siliquastrum,False,SEGONA,C\ Mare de Déu de Lorda,13.03,50.8,8.04,4.45,0.354,2.08,1720,ok
+0047674AR,432475.06,4588803.77,28.01,Melia azedarach,False,PRIMERA,Via Bàrcino,8.57,5.0,2.52,4.83,0.299,2.42,87,ok
+0047675AR,432466.16,4589112.5,35.26,Cercis siliquastrum,False,TERCERA,C\ Mare de Déu de Lorda,12.44,83.8,10.33,5.23,0.236,2.89,3278,ok
+0047676AR,432526.99,4589127.72,29.23,Hibiscus syriacus,False,SEGONA,C\ Ausona,5.85,30.0,6.18,4.1,0.373,1.97,872,ok
+0047677AR,432336.45,4588880.62,33.97,Robinia pseudoacacia,False,SEGONA,C\ Tossal,10.15,17.0,4.65,3.86,0.326,2.24,371,ok
+0047678AR,432518.37,4589299.38,42.33,Prunus cerasifera 'Pissardii',False,SEGONA,C\ Foradada,8.04,69.8,9.42,3.71,0.373,1.97,2563,ok
+0047680AR,432501.48,4589280.07,42.83,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Foradada,11.14,8.0,3.19,4.11,0.378,1.95,275,ok
+0047681AR,432337.6,4589066.34,42.65,Citrus × aurantium,False,PRIMERA,C\ Mireia,5.54,10.2,3.61,3.38,0.36,2.04,268,ok
+0047682AR,432450.37,4589128.0,37.13,Quercus robur 'Fastigiata',False,PRIMERA,C\ Vinya Llarga,4.54,4.2,2.33,3.07,0.458,1.56,116,ok
+0047683AR,432299.5,4589156.35,54.29,Citrus × aurantium,False,PRIMERA,C\ Mireia,3.29,3.5,2.11,2.64,0.573,1.11,129,ok
+0047685AR,432409.1,4588806.05,29.77,Acer platanoides,False,TERCERA,Via Bàrcino,9.15,72.8,9.62,4.46,0.174,3.5,996,ok
+0047687AR,432525.95,4589510.36,37.31,Platanus × acerifolia,True,EXEMPLAR,C\ Pare Pérez del Pulgar,15.44,126.8,12.7,5.54,0.19,3.32,4111,ok
+0047688AR,432361.39,4589010.96,40.2,Platanus × acerifolia,True,TERCERA,Pl Trinitat,13.07,38.8,7.02,6.02,0.313,2.32,1861,ok
+0047689AR,432402.8,4589499.58,35.84,Platanus × acerifolia,True,SEGONA,C\ Pare Pérez del Pulgar,10.85,41.8,7.29,5.56,0.248,2.79,936,ok
+0047691AR,432614.52,4589504.89,30.77,Gleditsia triacanthos 'sunburst',False,PRIMERA,C\ Torrent de Perera,6.77,10.2,3.61,4.24,0.349,2.1,229,ok
+0047692AR,432581.14,4589259.57,32.71,Cercis siliquastrum,False,PRIMERA,C\ Mare de Déu de Lorda,7.88,18.8,4.89,3.85,0.251,2.77,659,ok
+0047693AR,432474.76,4589590.28,30.41,Platanus × acerifolia,True,TERCERA,C\ Torrent de Perera,16.39,3.0,1.95,7.16,0.31,2.34,87,ok
+0047695AR,432320.83,4589367.86,45.01,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Peníscola,15.79,14.5,4.3,3.25,0.194,3.28,315,ok
+0047697AR,432542.0,4589324.12,40.0,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Foradada,4.4,5.8,2.71,2.74,0.447,1.61,252,ok
+0047700AR,432444.22,4589402.43,49.18,Platanus × acerifolia,True,TERCERA,C\ Pare Manjón,14.0,75.2,9.79,6.65,0.165,3.61,1657,ok
+0047702AR,432404.91,4589397.77,48.2,Firmiana simplex,False,PRIMERA,C\ Peníscola,8.39,15.5,4.44,4.13,0.242,2.83,326,ok
+0047703AR,432469.05,4589116.3,35.09,Cercis siliquastrum,False,PRIMERA,C\ Mare de Déu de Lorda,8.72,6.0,2.76,3.79,0.372,1.98,202,ok
+0047704AR,432437.66,4589041.07,36.2,Platanus × acerifolia,True,EXEMPLAR,C\ Mare de Déu de Lorda,17.56,15.0,4.37,9.87,0.235,2.9,760,ok
+0047705AR,432507.98,4589167.18,33.73,Cercis siliquastrum,False,PRIMERA,C\ Mare de Déu de Lorda,12.57,40.5,7.18,3.85,0.359,2.05,1619,ok
+0047708AR,432596.63,4589507.22,30.85,Catalpa bignonioides,False,SEGONA,C\ Torrent de Perera,7.24,1.5,1.38,2.41,0.4,1.83,35,no_crown_detected
+0047709AR,432469.72,4588799.27,28.15,Melia azedarach,False,PRIMERA,Via Bàrcino,7.95,3.5,2.11,4.38,0.405,1.81,84,ok
+0047714AR,432382.35,4588823.2,31.46,Melia azedarach,False,SEGONA,Pl Josep Andreu i Abelló,7.68,71.8,9.56,4.31,0.276,2.58,1114,ok
+0047716AR,432380.72,4588999.0,39.0,Platanus × acerifolia,True,SEGONA,Pl Trinitat,,0.0,0.0,,,,0,no_crown_detected
+0047717AR,432547.12,4589501.45,37.67,Robinia pseudoacacia,False,PRIMERA,C\ Pare Pérez del Pulgar,5.22,7.0,2.99,4.28,0.417,1.75,127,ok
+0047718AR,432301.58,4589278.76,56.81,Platanus × acerifolia,True,SEGONA,C\ Mireia,9.63,18.0,4.79,5.2,0.388,1.89,1031,ok
+0047719AR,433221.92,4588965.82,19.08,Tipuana tipu,False,SEGONA,Pg Santa Coloma,4.88,6.2,2.82,3.81,0.583,1.08,216,ok
+0047720AR,432565.82,4589244.38,32.57,Cercis siliquastrum,False,PRIMERA,C\ Mare de Déu de Lorda,7.75,10.5,3.66,4.75,0.362,2.03,345,ok
+0047721AR,432382.47,4589536.95,32.14,Cupressus sempervirens,False,SEGONA,C\ Suñol i Gras,12.46,14.8,4.33,2.58,0.185,3.37,329,ok
+0047724AR,432684.29,4589357.69,29.69,Platanus × acerifolia,True,EXEMPLAR,Via Bàrcino,17.83,3.0,1.95,11.43,0.268,2.63,135,ok
+0047728AR,432371.6,4589030.06,40.33,Styphnolobium japonicum,False,EXEMPLAR,Pl Trinitat,7.86,62.2,8.9,3.83,0.365,2.02,2358,ok
+0047730AR,432438.88,4589539.94,35.54,Platanus × acerifolia,True,TERCERA,C\ Pare Pérez del Pulgar,14.55,77.2,9.92,3.07,0.176,3.48,1617,ok
+0047732AR,432407.91,4589150.51,46.61,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Turó de la Trinitat,5.41,7.0,2.99,3.71,0.199,3.23,213,ok
+0047737AR,432325.93,4588817.7,33.12,Melia azedarach,False,PRIMERA,Ctra Ribes,,0.0,0.0,,,,0,no_crown_detected
+0047738AR,433219.7,4588970.3,18.98,Tipuana tipu,False,SEGONA,Pg Santa Coloma,7.28,29.0,6.08,3.8,0.437,1.65,1003,ok
+0047740AR,432461.4,4589322.04,51.3,Citrus × aurantium,False,PRIMERA,C\ Turó de la Trinitat,4.96,8.8,3.34,3.28,0.297,2.42,237,ok
+0047741AR,432551.92,4589006.47,27.6,Acer buergerianum,False,PRIMERA,Via Bàrcino,14.38,1.2,1.26,9.27,0.375,1.96,45,no_crown_detected
+0047743AR,432481.42,4588803.5,27.96,Melia azedarach,False,TERCERA,Via Bàrcino,7.65,13.0,4.07,2.82,0.185,3.38,292,ok
+0047744AR,432429.9,4589523.49,35.71,Platanus × acerifolia,True,SEGONA,C\ Pare Pérez del Pulgar,11.97,33.5,6.53,7.38,0.363,2.03,888,ok
+0047745AR,432527.1,4589137.12,29.9,Pyrus calleryana 'Chanticleer',False,SEGONA,C\ Ausona,,0.0,0.0,,,,0,no_crown_detected
+0047746AR,432396.15,4589504.41,35.7,Platanus × acerifolia,True,TERCERA,C\ Pare Pérez del Pulgar,12.96,65.5,9.13,5.69,0.247,2.8,1403,ok
+0047748AR,432512.59,4589366.66,46.82,Styphnolobium japonicum,False,PRIMERA,C\ Pare Manjón,5.47,9.5,3.48,3.55,0.504,1.37,389,ok
+0047750AR,432351.09,4588890.28,33.23,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Tossal,,0.0,0.0,,,,0,no_crown_detected
+0047751AR,432476.86,4589547.3,35.59,Platanus × acerifolia,True,TERCERA,C\ Pare Pérez del Pulgar,11.69,53.2,8.23,2.56,0.253,2.75,1122,ok
+0047752AR,432491.74,4589376.56,49.09,Styphnolobium japonicum,False,TERCERA,C\ Pare Manjón,13.32,153.5,13.98,6.1,0.243,2.83,4308,ok
+0047753AR,432583.33,4589263.24,32.81,Cercis siliquastrum,False,SEGONA,C\ Mare de Déu de Lorda,13.39,26.0,5.75,4.15,0.216,3.07,711,ok
+0047754AR,432565.21,4588880.72,28.57,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Tossal,,0.0,0.0,,,,0,no_crown_detected
+0047759AR,432373.82,4588733.03,31.02,Robinia pseudoacacia,False,EXEMPLAR,Pl Josep Andreu i Abelló,11.23,41.2,7.25,7.01,0.282,2.53,1012,ok
+0047761AR,432667.33,4589277.32,29.12,Acer buergerianum,False,PRIMERA,Via Bàrcino,4.51,7.0,2.99,2.93,0.493,1.41,276,ok
+0047762AR,432529.4,4589225.99,33.9,Hibiscus syriacus,False,PRIMERA,C\ Ausona,9.97,16.0,4.51,2.98,0.284,2.52,596,ok
+0047763AR,432411.2,4588890.67,31.34,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Tossal,10.98,60.2,8.76,7.32,0.383,1.92,1275,ok
+0047764AR,432440.69,4589531.71,35.66,Platanus × acerifolia,True,SEGONA,C\ Pare Pérez del Pulgar,12.91,35.2,6.7,8.12,0.339,2.17,966,ok
+0047768AR,432397.68,4589127.42,45.49,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Turó de la Trinitat,5.63,9.0,3.39,4.17,0.226,2.98,276,ok
+0047769AR,432679.99,4589333.19,29.17,Platanus × acerifolia,True,SEGONA,Via Bàrcino,14.29,83.8,10.33,4.3,0.194,3.28,3804,ok
+0047770AR,432575.18,4589360.11,36.9,Robinia pseudoacacia,False,SEGONA,C\ Pare Pérez del Pulgar,14.9,51.5,8.1,9.28,0.307,2.36,2398,ok
+0047771AR,432389.22,4589123.7,44.93,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Turó de la Trinitat,15.25,7.5,3.09,3.8,0.27,2.62,256,ok
+0047772AR,432320.21,4589078.86,44.89,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Mireia,6.01,9.5,3.48,2.82,0.379,1.94,401,ok
+0047777AR,432559.39,4589478.87,37.93,Platanus × acerifolia,True,SEGONA,C\ Pare Pérez del Pulgar,10.11,60.5,8.78,4.1,0.238,2.87,1326,ok
+0047778AR,432302.91,4589265.05,57.53,Citrus × aurantium,False,PRIMERA,C\ Mireia,,0.0,0.0,,,,0,no_crown_detected
+0047779AR,432450.97,4589300.48,50.61,Citrus × aurantium,False,PRIMERA,C\ Turó de la Trinitat,13.35,10.8,3.7,4.13,0.351,2.1,358,ok
+0047780AR,432366.38,4589252.26,57.42,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Finestrelles,4.72,4.0,2.26,3.25,0.442,1.63,132,ok
+0047781AR,432551.73,4589125.19,27.96,Platanus × acerifolia,True,TERCERA,Via Bàrcino,14.4,4.8,2.46,11.77,0.491,1.42,180,ok
+0047782AR,432427.19,4589418.13,48.88,Pyrus calleryana 'Chanticleer',False,SEGONA,C\ Peníscola,6.78,16.0,4.51,3.4,0.346,2.12,347,ok
+0047783AR,432703.28,4589393.38,32.05,Platanus × acerifolia,True,TERCERA,Via Bàrcino,17.92,187.5,15.45,9.92,0.187,3.36,4696,ok
+0047784AR,432686.16,4589452.75,31.85,Platanus × acerifolia,True,TERCERA,Via Bàrcino,16.36,60.8,8.79,9.18,0.151,3.78,1381,ok
+0047785AR,432301.26,4589258.65,57.75,Citrus × aurantium,False,PRIMERA,C\ Mireia,3.29,1.2,1.26,2.24,0.353,2.08,31,no_crown_detected
+0047786AR,432672.41,4589295.58,28.73,Acer buergerianum,False,PRIMERA,Via Bàrcino,4.68,1.0,1.13,2.89,0.571,1.12,21,no_crown_detected
+0047788AR,432385.08,4589564.11,31.25,Platanus × acerifolia,True,TERCERA,C\ Torrent de Perera,15.54,105.8,11.6,7.59,0.201,3.21,2640,ok
+0047791AR,432458.81,4589230.92,44.87,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Foradada,12.23,10.0,3.57,3.42,0.445,1.62,303,ok
+0047792AR,432591.22,4589281.25,32.92,Cercis siliquastrum,False,PRIMERA,C\ Mare de Déu de Lorda,4.19,4.8,2.46,2.88,0.246,2.81,118,ok
+0047793AR,432450.04,4589160.82,39.64,Tipuana tipu,False,TERCERA,C\ Alt,10.89,63.2,8.97,4.23,0.234,2.91,2603,ok
+0047794AR,432362.74,4589253.43,57.56,Citrus × aurantium,False,PRIMERA,C\ Finestrelles,8.62,4.8,2.46,3.91,0.537,1.24,109,ok
+0047795AR,432349.32,4589461.98,36.68,Platanus × acerifolia,True,TERCERA,C\ Pare Pérez del Pulgar,15.91,53.8,8.27,6.9,0.127,4.13,1043,ok
+0047797AR,432383.66,4588792.45,31.36,Robinia pseudoacacia,False,SEGONA,Pl Josep Andreu i Abelló,9.73,22.5,5.35,5.85,0.316,2.3,509,ok
+0047799AR,432372.15,4588775.43,31.24,Melia azedarach,False,SEGONA,Pl Josep Andreu i Abelló,6.15,28.2,6.0,2.84,0.237,2.88,562,ok
+0047800AR,432615.62,4589214.4,28.79,Acer buergerianum,False,PRIMERA,Via Bàrcino,8.27,86.0,10.46,2.83,0.346,2.12,3704,ok
+0047802AR,432450.0,4589085.23,35.54,Cercis siliquastrum,False,PRIMERA,C\ Mare de Déu de Lorda,5.83,15.0,4.37,4.17,0.498,1.39,466,ok
+0047803AR,432555.28,4588880.82,28.92,Citrus × aurantium,False,PRIMERA,C\ Tossal,3.94,5.5,2.65,2.99,0.473,1.5,93,ok
+0047804AR,432424.28,4589010.94,36.77,Cercis siliquastrum,False,PRIMERA,C\ Mare de Déu de Lorda,14.59,3.2,2.03,5.28,0.323,2.26,65,ok
+0047805AR,432361.15,4589392.19,46.2,Pyrus calleryana 'Chanticleer',False,SEGONA,C\ Peníscola,6.51,15.0,4.37,2.93,0.31,2.34,287,ok
+0047806AR,432408.22,4589504.63,35.84,Platanus × acerifolia,True,SEGONA,C\ Pare Pérez del Pulgar,10.97,43.2,7.42,6.41,0.353,2.08,1037,ok
+0047807AR,432598.04,4589185.57,28.37,Acer buergerianum,False,PRIMERA,Via Bàrcino,14.21,104.2,11.52,3.56,0.29,2.47,5791,ok
+0047809AR,432370.35,4589040.23,40.34,Platanus × acerifolia,True,TERCERA,Pl Trinitat,12.67,17.0,4.65,7.07,0.271,2.61,754,ok
+0047811AR,432443.89,4589274.55,49.8,Citrus × aurantium,False,PRIMERA,C\ Turó de la Trinitat,12.57,15.0,4.37,3.9,0.221,3.02,585,ok
+0047812AR,432452.48,4589122.81,36.69,Quercus robur 'Fastigiata',False,PRIMERA,C\ Vinya Llarga,6.2,27.2,5.89,3.48,0.284,2.52,724,ok
+0047813AR,432335.08,4589117.04,49.34,Citrus × aurantium,False,PRIMERA,C\ Foradada,6.06,8.5,3.29,4.27,0.447,1.61,288,ok
+0047814AR,432424.81,4589028.68,36.56,Platanus × acerifolia,True,SEGONA,C\ Mare de Déu de Lorda,17.68,59.0,8.67,6.7,0.182,3.4,2598,ok
+0047817AR,432552.94,4589220.75,32.44,Cercis siliquastrum,False,SEGONA,C\ Mare de Déu de Lorda,5.98,0.8,0.98,4.51,0.421,1.73,32,no_crown_detected
+0047819AR,432576.05,4589463.14,38.38,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Pare Pérez del Pulgar,,0.0,0.0,,,,0,no_crown_detected
+0047820AR,432337.37,4589122.96,49.39,Citrus × aurantium,False,PRIMERA,C\ Foradada,15.13,18.2,4.82,3.86,0.241,2.84,711,ok
+0047821AR,432643.51,4589427.59,35.25,Tipuana tipu,False,TERCERA,C\ Mossèn Epifani Lorda,8.87,89.5,10.67,4.77,0.275,2.58,2076,ok
+0047823AR,432469.14,4589547.59,35.55,Platanus × acerifolia,True,TERCERA,C\ Pare Pérez del Pulgar,11.84,42.2,7.33,7.32,0.328,2.23,951,ok
+0047824AR,432657.61,4589286.72,28.95,Platanus × acerifolia,True,TERCERA,Via Bàrcino,12.84,38.0,6.96,6.84,0.282,2.53,1466,ok
+0047825AR,432570.96,4589534.68,32.35,Catalpa bignonioides,False,SEGONA,C\ Torrent de Perera,6.44,2.2,1.69,5.05,0.357,2.06,42,few_points
+0047826AR,432391.11,4588891.54,31.78,Ulmus pumila,False,SEGONA,C\ Tossal,10.15,5.8,2.71,5.18,0.246,2.81,114,ok
+0047827AR,432647.31,4589425.9,34.23,Ligustrum lucidum,False,PRIMERA,C\ Mossèn Epifani Lorda,7.88,5.2,2.59,3.34,0.241,2.85,79,ok
+0047828AR,432433.8,4589432.32,49.08,Styphnolobium japonicum,False,PRIMERA,C\ Pare Manjón,6.85,19.5,4.98,3.66,0.279,2.55,390,ok
+0047829AR,432680.94,4589288.55,28.99,Platanus × acerifolia,True,SEGONA,Via Bàrcino,11.9,3.2,2.03,6.59,0.246,2.81,114,ok
+0047836AR,432326.51,4589317.05,54.98,Pyrus calleryana 'Chanticleer',False,SEGONA,C\ Mireia,14.32,13.5,4.15,3.94,0.426,1.71,460,ok
+0047837AR,432368.87,4589395.46,46.41,Pyrus calleryana 'Chanticleer',False,SEGONA,C\ Peníscola,12.47,18.2,4.82,3.63,0.333,2.2,432,ok
+0047838AR,432385.24,4588899.57,32.47,Ulmus pumila,False,TERCERA,C\ Tossal,9.9,45.2,7.59,5.79,0.357,2.06,1145,ok
+0047839AR,432391.6,4589167.26,48.21,Citrus × aurantium,False,PRIMERA,C\ Foradada,4.95,4.2,2.33,3.94,0.5,1.39,124,ok
+0047841AR,432690.54,4589448.24,32.01,Platanus × acerifolia,True,TERCERA,Via Bàrcino,15.47,2.2,1.69,11.05,0.317,2.3,41,few_points
+0047842AR,432405.81,4589568.79,31.03,Melia azedarach,False,SEGONA,C\ Torrent de Perera,8.86,46.8,7.72,3.05,0.203,3.19,772,ok
+0047843AR,432481.14,4588798.89,28.0,Acer negundo,False,EXEMPLAR,Via Bàrcino,12.9,78.8,10.01,3.84,0.224,2.99,2031,ok
+0047845AR,432402.27,4589509.89,35.67,Pyrus calleryana 'Chanticleer',False,TERCERA,C\ Pare Pérez del Pulgar,11.57,38.2,6.98,4.51,0.17,3.54,805,ok
+0047846AR,432554.15,4589332.69,38.07,Prunus cerasifera 'Pissardii',False,SEGONA,C\ Foradada,6.71,28.2,6.0,3.25,0.529,1.27,1155,ok
+0047847AR,432401.72,4588878.96,31.34,Melia azedarach,False,SEGONA,C\ Tossal,7.16,0.2,0.56,6.41,0.5,1.39,4,no_crown_detected
+0047848AR,432599.81,4589212.14,28.73,Acer buergerianum,False,PRIMERA,Via Bàrcino,16.6,49.8,7.96,8.38,0.225,2.98,2278,ok
+0047852AR,432455.24,4588898.16,30.88,Populus alba,False,TERCERA,C\ Torné,15.5,52.2,8.16,3.97,0.26,2.69,1467,ok
+0047853AR,432516.48,4588797.41,27.32,Acer platanoides,False,TERCERA,Via Bàrcino,10.47,48.8,7.88,4.56,0.192,3.3,1228,ok
+0047855AR,432693.88,4589374.57,30.9,Platanus × acerifolia,True,EXEMPLAR,Via Bàrcino,18.65,50.8,8.04,10.75,0.191,3.31,1667,ok
+0047856AR,432384.54,4588770.87,31.18,Robinia pseudoacacia,False,SEGONA,Pl Josep Andreu i Abelló,8.14,22.0,5.29,3.83,0.368,2.0,476,ok
+0047858AR,432462.23,4588870.77,29.17,Prunus cerasifera 'Pissardii',False,SEGONA,C\ Torné,5.7,16.0,4.51,3.48,0.355,2.07,234,ok
+0047859AR,432481.12,4589125.21,34.66,Cercis siliquastrum,False,SEGONA,C\ Mare de Déu de Lorda,6.02,0.8,0.98,4.99,0.25,2.77,18,no_crown_detected
+0047864AR,432571.28,4589479.12,37.84,Robinia pseudoacacia,False,PRIMERA,C\ Pare Pérez del Pulgar,9.53,43.2,7.42,4.15,0.247,2.8,1254,ok
+0047865AR,432566.1,4589238.19,32.46,Cercis siliquastrum,False,SEGONA,C\ Mare de Déu de Lorda,6.34,3.0,1.95,4.07,0.136,3.98,72,ok
+0047866AR,432604.04,4588831.55,26.3,Melia azedarach,False,PRIMERA,Via Bàrcino,5.47,9.5,3.48,4.06,0.401,1.83,162,ok
+0047867AR,432403.6,4588806.42,30.09,Melia azedarach,False,PRIMERA,Via Bàrcino,7.93,13.5,4.15,4.31,0.327,2.24,260,ok
+0047868AR,432449.58,4589397.3,49.24,Platanus × acerifolia,True,SEGONA,C\ Pare Manjón,12.3,55.0,8.37,6.64,0.178,3.45,1314,ok
+0047869AR,432447.6,4589287.97,50.2,Citrus × aurantium,False,PRIMERA,C\ Turó de la Trinitat,10.74,6.5,2.88,3.01,0.505,1.36,184,ok
+0047870AR,432531.56,4589027.1,28.01,Platanus × acerifolia,True,TERCERA,Via Bàrcino,13.36,2.8,1.87,12.36,0.25,2.77,61,ok
+0047871AR,432535.7,4589556.6,34.6,Melia azedarach,False,SEGONA,C\ Torrent de Perera,7.88,45.0,7.57,4.1,0.386,1.91,1097,ok
+0047873AR,432587.24,4588827.22,26.23,Melia azedarach,False,PRIMERA,Via Bàrcino,7.63,0.5,0.8,6.78,0.4,1.83,10,no_crown_detected
+0047874AR,432511.04,4589171.17,33.65,Cercis siliquastrum,False,PRIMERA,C\ Mare de Déu de Lorda,5.24,14.2,4.26,2.63,0.493,1.41,491,ok
+0047875AR,432635.83,4589479.46,30.85,Melia azedarach,False,TERCERA,C\ Torrent de Perera,12.2,50.0,7.98,6.29,0.288,2.49,1031,ok
+0047877AR,432489.88,4589143.25,34.41,Cercis siliquastrum,False,PRIMERA,C\ Mare de Déu de Lorda,6.46,3.8,2.19,3.05,0.355,2.07,139,ok
+0047878AR,432376.17,4589516.89,33.29,Platanus × acerifolia,True,SEGONA,C\ Suñol i Gras,12.82,5.8,2.71,7.29,0.143,3.89,112,ok
+0047879AR,432451.79,4589286.8,50.17,Citrus × aurantium,False,PRIMERA,C\ Turó de la Trinitat,6.49,13.0,4.07,3.45,0.352,2.09,424,ok
+0047880AR,432331.39,4589114.44,49.33,Citrus × aurantium,False,PRIMERA,C\ Foradada,5.21,5.8,2.71,4.06,0.453,1.58,186,ok
+0047881AR,432434.8,4589243.54,48.92,Citrus × aurantium,False,PRIMERA,C\ Turó de la Trinitat,15.36,17.5,4.72,4.25,0.284,2.52,566,ok
+0047885AR,432560.2,4589236.63,32.51,Cercis siliquastrum,False,PRIMERA,C\ Mare de Déu de Lorda,12.34,20.2,5.08,4.14,0.471,1.5,684,ok
+0047887AR,432614.28,4588846.36,26.61,Melia azedarach,False,PRIMERA,Via Bàrcino,,0.0,0.0,,,,0,no_crown_detected
+0047889AR,432433.1,4589591.0,30.2,Platanus × acerifolia,True,TERCERA,C\ Torrent de Perera,18.08,101.0,11.34,8.23,0.14,3.93,2546,ok
+0047891AR,432346.31,4589339.11,54.35,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Mireia,5.29,5.2,2.59,2.24,0.22,3.03,180,ok
+0047895AR,432419.53,4589525.64,35.63,Platanus × acerifolia,True,SEGONA,C\ Pare Pérez del Pulgar,9.53,17.0,4.65,6.04,0.311,2.33,392,ok
+0047899AR,432448.39,4589418.14,49.18,Styphnolobium japonicum,False,SEGONA,C\ Pare Manjón,7.45,54.2,8.31,2.68,0.302,2.39,1175,ok
+0047900AR,432498.67,4589154.81,34.07,Cercis siliquastrum,False,PRIMERA,C\ Mare de Déu de Lorda,5.09,9.0,3.39,3.54,0.517,1.32,329,ok
+0047901AR,432290.97,4589350.35,44.31,Firmiana simplex,False,PRIMERA,C\ Peníscola,4.98,5.2,2.59,2.73,0.529,1.28,212,ok
+0047902AR,432368.8,4589019.96,40.29,Styphnolobium japonicum,False,TERCERA,Pl Trinitat,13.6,14.2,4.26,2.59,0.257,2.72,630,ok
+0047903AR,432575.86,4589168.98,28.35,Platanus × acerifolia,True,TERCERA,Via Bàrcino,11.82,1.5,1.38,4.21,0.4,1.83,62,no_crown_detected
+0047904AR,432469.41,4589397.86,49.28,Styphnolobium japonicum,False,SEGONA,C\ Pare Manjón,7.19,41.2,7.25,2.55,0.197,3.25,1022,ok
+0047908AR,432422.83,4589024.72,36.65,Platanus × acerifolia,True,SEGONA,C\ Mare de Déu de Lorda,17.45,64.8,9.08,9.44,0.29,2.48,3479,ok
+0047910AR,432487.48,4588798.66,27.91,Acer negundo,False,SEGONA,Via Bàrcino,11.11,29.2,6.1,4.0,0.324,2.25,626,ok
+0047911AR,432525.89,4589528.27,36.85,Pinus halepensis,False,EXEMPLAR,Pl Turó de la Trinitat,13.75,4.8,2.46,7.59,0.121,4.23,91,ok
+0047912AR,432384.39,4589516.76,33.55,Platanus × acerifolia,True,EXEMPLAR,C\ Suñol i Gras,15.36,35.8,6.75,8.88,0.116,4.31,802,ok
+0047913AR,432403.35,4589140.46,46.12,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Turó de la Trinitat,6.03,16.8,4.62,3.38,0.356,2.07,545,ok
+0047914AR,432420.66,4588801.64,28.82,Melia azedarach,False,SEGONA,Via Bàrcino,10.3,15.8,4.48,5.61,0.174,3.49,281,ok
+0047915AR,432382.44,4589078.84,41.71,Prunus cerasifera 'Pissardii',False,SEGONA,C\ Turó de la Trinitat,7.81,34.0,6.58,1.7,0.252,2.75,1327,ok
+0047919AR,432658.77,4589472.99,30.88,Catalpa bignonioides,False,TERCERA,C\ Torrent de Perera,15.34,39.2,7.07,6.44,0.216,3.07,728,ok
+0047921AR,432675.92,4589289.46,28.88,Platanus × acerifolia,True,TERCERA,Via Bàrcino,16.03,139.2,13.32,6.35,0.237,2.88,6445,ok
+0047922AR,432326.05,4588779.59,32.42,Melia azedarach,False,PRIMERA,Ctra Ribes,45.0,46.5,7.69,4.42,0.294,2.45,1099,ok
+0047923AR,432563.25,4589234.54,32.44,Cercis siliquastrum,False,PRIMERA,C\ Mare de Déu de Lorda,4.9,2.0,1.6,2.55,0.5,1.39,57,ok
+0047924AR,432545.96,4589218.12,32.56,Cercis siliquastrum,False,PRIMERA,C\ Mare de Déu de Lorda,7.59,14.2,4.26,4.18,0.345,2.13,476,ok
+0047926AR,432381.3,4589003.04,39.02,Platanus × acerifolia,True,SEGONA,Pl Trinitat,15.53,74.8,9.76,6.47,0.33,2.22,3848,ok
+0047931AR,432440.94,4588877.27,30.39,Melia azedarach,False,TERCERA,C\ Tossal,11.15,1.5,1.38,8.75,0.391,1.88,23,no_crown_detected
+0047936AR,432644.76,4589362.66,30.12,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Foradada,13.22,17.5,4.72,3.69,0.379,1.94,793,ok
+0047937AR,432600.81,4589333.24,31.9,Cercis siliquastrum,False,SEGONA,C\ Mare de Déu de Lorda,13.14,21.0,5.17,4.85,0.044,6.26,718,ok
+0047938AR,432655.32,4589405.4,34.44,Ligustrum lucidum,False,SEGONA,C\ Mossèn Epifani Lorda,6.0,9.8,3.52,3.96,0.274,2.59,157,ok
+0047940AR,432333.08,4589120.33,49.37,Citrus × aurantium,False,PRIMERA,C\ Foradada,14.95,9.5,3.48,3.81,0.421,1.73,257,ok
+0047941AR,432514.41,4589521.44,36.67,Platanus × acerifolia,True,EXEMPLAR,C\ Pare Pérez del Pulgar,16.91,151.2,13.88,6.24,0.239,2.86,4768,ok
+0047943AR,432690.77,4589368.7,30.39,Platanus × acerifolia,True,EXEMPLAR,Via Bàrcino,20.77,149.5,13.8,10.6,0.263,2.67,6877,ok
+0047944AR,432627.79,4589361.53,30.75,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Foradada,12.21,6.0,2.76,4.35,0.358,2.05,242,ok
+0047946AR,432608.37,4588835.35,26.44,Melia azedarach,False,TERCERA,Via Bàrcino,8.81,89.2,10.66,4.3,0.326,2.24,1829,ok
+0047950AR,432384.15,4588782.09,31.27,Melia azedarach,False,SEGONA,Pl Josep Andreu i Abelló,6.49,46.0,7.65,3.44,0.254,2.74,926,ok
+0047951AR,432535.14,4589022.06,27.99,Platanus × acerifolia,True,TERCERA,Via Bàrcino,16.36,62.2,8.9,9.51,0.301,2.4,3052,ok
+0047952AR,432442.11,4589253.52,49.18,Citrus × aurantium,False,PRIMERA,C\ Turó de la Trinitat,13.03,12.2,3.95,4.5,0.364,2.02,349,ok
+0047955AR,432597.66,4589309.58,32.2,Cercis siliquastrum,False,PRIMERA,C\ Mare de Déu de Lorda,12.86,5.8,2.71,3.31,0.156,3.71,177,ok
+0047957AR,432504.44,4589283.73,42.78,Prunus cerasifera 'Pissardii',False,SEGONA,C\ Foradada,11.17,19.0,4.92,4.46,0.427,1.7,555,ok
+0047958AR,432462.45,4589235.23,44.44,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Foradada,4.47,4.0,2.26,3.7,0.493,1.41,115,ok
+0047959AR,432595.78,4589324.52,32.12,Cercis siliquastrum,False,PRIMERA,C\ Mare de Déu de Lorda,6.56,2.5,1.78,3.7,0.485,1.45,64,ok
+0047961AR,432644.17,4589358.43,29.99,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Foradada,4.77,5.5,2.65,3.26,0.47,1.51,119,ok
+0047965AR,432444.48,4589261.38,49.43,Citrus × aurantium,False,PRIMERA,C\ Turó de la Trinitat,12.85,16.2,4.55,4.33,0.206,3.16,455,ok
+0047966AR,432474.25,4588843.71,27.0,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Torné,,0.0,0.0,,,,0,no_crown_detected
+0047967AR,432292.56,4589184.7,56.68,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Mireia,4.76,7.0,2.99,3.15,0.525,1.29,268,ok
+0047968AR,432345.02,4589054.71,41.56,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Mireia,7.51,6.5,2.88,3.95,0.333,2.2,218,ok
+0047973AR,432547.62,4588872.15,29.18,Citrus × aurantium,False,PRIMERA,C\ Tossal,4.47,8.0,3.19,3.34,0.39,1.88,105,ok
+0047974AR,432570.85,4588794.83,25.91,Acer negundo,False,SEGONA,Via Bàrcino,9.56,20.0,5.05,4.54,0.195,3.26,527,ok
+0047975AR,432446.5,4589222.76,45.94,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Foradada,4.34,8.2,3.24,2.89,0.551,1.19,302,ok
+0047976AR,432671.69,4589321.67,28.76,Prunus avium,False,SEGONA,Via Bàrcino,4.76,15.2,4.41,3.17,0.527,1.28,566,ok
+0047979AR,432318.08,4589084.58,45.52,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Mireia,11.51,5.2,2.59,2.81,0.354,2.08,242,ok
+0047980AR,432444.93,4589421.57,49.24,Styphnolobium japonicum,False,PRIMERA,C\ Pare Manjón,4.34,11.0,3.74,2.92,0.452,1.59,210,ok
+0047981AR,432593.58,4588827.75,26.27,Melia azedarach,False,PRIMERA,Via Bàrcino,4.29,9.2,3.43,3.29,0.416,1.76,154,ok
+0047982AR,432438.95,4589046.61,36.08,Cercis siliquastrum,False,PRIMERA,C\ Mare de Déu de Lorda,4.1,0.5,0.8,4.07,0.714,0.67,9,no_crown_detected
+0047984AR,432654.19,4589362.7,29.89,Prunus cerasifera 'Pissardii',False,SEGONA,C\ Foradada,5.78,3.5,2.11,3.77,0.333,2.2,143,ok
+0047985AR,432471.11,4589363.16,50.39,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Turó de la Trinitat,,0.0,0.0,,,,0,no_crown_detected
+0047986AR,432389.19,4588879.44,31.67,Melia azedarach,False,SEGONA,C\ Tossal,10.21,53.0,8.21,5.39,0.253,2.75,1097,ok
+0047989AR,432560.07,4589140.18,28.05,Platanus × acerifolia,True,EXEMPLAR,Via Bàrcino,16.36,67.0,9.24,8.12,0.23,2.94,3160,ok
+0047993AR,432401.31,4588891.04,31.52,Ulmus pumila,False,TERCERA,C\ Tossal,10.32,52.2,8.16,2.55,0.396,1.85,1080,ok
+0047998AR,432580.64,4588880.14,27.99,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Tossal,,0.0,0.0,,,,0,no_crown_detected
+0047999AR,432415.75,4589008.23,37.03,Platanus × acerifolia,True,TERCERA,C\ Mare de Déu de Lorda,13.58,6.2,2.82,7.33,0.407,1.8,322,ok
+0048000AR,432532.37,4589529.06,36.51,Pinus halepensis,False,PRIMERA,Pl Turó de la Trinitat,12.81,2.0,1.6,8.41,0.333,2.2,33,few_points
+0048001AR,432502.53,4589298.02,43.51,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Ausona,6.96,10.5,3.66,3.44,0.474,1.49,322,ok
+0048003AR,432515.95,4588873.34,28.76,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Tossal,7.0,7.8,3.14,1.64,0.257,2.71,167,ok
+0048005AR,432310.18,4588769.59,32.14,Melia azedarach,False,TERCERA,Ctra Ribes,45.0,68.8,9.36,4.42,0.288,2.49,1617,ok
+0048009AR,432372.9,4588754.31,31.04,Melia azedarach,False,SEGONA,Pl Josep Andreu i Abelló,10.39,90.2,10.72,4.17,0.286,2.5,2063,ok
+0048010AR,432297.52,4589134.32,51.72,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Mireia,5.02,1.2,1.26,2.84,0.393,1.87,39,no_crown_detected
+0048011AR,432596.82,4589208.18,28.73,Platanus × acerifolia,True,EXEMPLAR,Via Bàrcino,19.13,98.5,11.2,9.45,0.198,3.23,4656,ok
+0048012AR,432295.53,4589232.24,57.87,Citrus × aurantium,False,PRIMERA,C\ Mireia,3.88,4.8,2.46,2.89,0.511,1.34,146,ok
+0048013AR,432570.56,4589468.61,38.17,Citrus × aurantium,False,PRIMERA,C\ Pare Pérez del Pulgar,3.74,3.5,2.11,3.08,0.391,1.88,64,ok
+0048014AR,432664.01,4589268.36,29.33,Acer buergerianum,False,PRIMERA,Via Bàrcino,,0.0,0.0,,,,0,no_crown_detected
+0048015AR,432492.95,4589147.23,34.22,Cercis siliquastrum,False,PRIMERA,C\ Mare de Déu de Lorda,6.26,4.0,2.26,2.9,0.452,1.59,128,ok
+0048016AR,432467.8,4589345.41,51.56,Citrus × aurantium,False,PRIMERA,C\ Turó de la Trinitat,5.76,9.2,3.43,2.91,0.385,1.91,310,ok
+0048018AR,432368.34,4588856.46,31.9,Melia azedarach,False,SEGONA,Pl Josep Andreu i Abelló,9.28,40.5,7.18,4.35,0.285,2.51,1057,ok
+0048023AR,432458.73,4589329.46,51.71,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Turó de la Trinitat,12.54,11.0,3.74,3.1,0.474,1.49,357,ok
+0048025AR,432287.02,4589179.16,56.53,Jacaranda mimosifolia,False,SEGONA,C\ Mireia,5.89,6.0,2.76,2.86,0.38,1.93,220,ok
+0048027AR,432369.19,4589056.04,40.67,Prunus cerasifera 'Pissardii',False,SEGONA,C\ Turó de la Trinitat,9.19,1.8,1.49,4.23,0.323,2.26,68,no_crown_detected
+0048031AR,432579.12,4588837.93,26.69,Styphnolobium japonicum,False,SEGONA,Via Bàrcino,16.3,45.8,7.63,6.99,0.128,4.11,704,ok
+0048032AR,432355.25,4589046.7,40.77,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Mireia,,0.0,0.0,,,,0,no_crown_detected
+0048033AR,432370.29,4588818.57,31.49,Melia azedarach,False,SEGONA,Pl Josep Andreu i Abelló,7.58,54.0,8.29,3.78,0.24,2.86,1160,ok
+0048035AR,432395.44,4589170.36,48.0,Citrus × aurantium,False,PRIMERA,C\ Foradada,5.34,5.0,2.52,4.46,0.548,1.2,139,ok
+0048036AR,432594.24,4588871.89,27.37,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Tossal,3.26,1.2,1.26,2.37,0.52,1.31,25,no_crown_detected
+0048038AR,432401.79,4589170.77,47.67,Prunus cerasifera 'Pissardii',False,SEGONA,C\ Foradada,6.56,33.0,6.48,3.3,0.46,1.55,1300,ok
+0048040AR,432651.24,4589269.21,29.44,Platanus × acerifolia,True,SEGONA,Via Bàrcino,12.61,51.0,8.06,6.55,0.282,2.53,2029,ok
+0048041AR,432483.23,4589589.23,30.51,Platanus × acerifolia,True,EXEMPLAR,C\ Torrent de Perera,15.79,3.0,1.95,8.09,0.338,2.17,74,ok
+0048042AR,432304.62,4589363.96,44.63,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Peníscola,5.74,6.0,2.76,3.45,0.556,1.18,182,ok
+0048043AR,432384.82,4588765.2,31.12,Melia azedarach,False,SEGONA,Pl Josep Andreu i Abelló,6.21,32.0,6.38,3.19,0.338,2.17,628,ok
+0048044AR,432438.86,4589242.23,48.9,Citrus × aurantium,False,PRIMERA,C\ Turó de la Trinitat,6.1,8.8,3.34,4.6,0.429,1.69,250,ok
+0048045AR,432378.92,4589559.67,31.38,Platanus × acerifolia,True,TERCERA,C\ Torrent de Perera,15.38,59.8,8.72,6.9,0.171,3.53,1592,ok
+0048046AR,432496.01,4589150.96,34.12,Cercis siliquastrum,False,PRIMERA,C\ Mare de Déu de Lorda,4.74,10.2,3.61,3.4,0.503,1.38,354,ok
+0048047AR,432456.79,4589418.68,49.28,Styphnolobium japonicum,False,PRIMERA,C\ Pare Manjón,5.4,12.5,3.99,2.45,0.402,1.82,261,ok
+0048052AR,432440.58,4589262.67,49.45,Citrus × aurantium,False,PRIMERA,C\ Turó de la Trinitat,3.83,3.2,2.03,3.36,0.533,1.26,85,ok
+0048053AR,432308.7,4589118.5,49.42,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Mireia,5.44,5.0,2.52,3.84,0.439,1.65,128,ok
+0048054AR,432580.22,4589528.09,31.41,Catalpa bignonioides,False,SEGONA,C\ Torrent de Perera,7.53,2.5,1.78,4.91,0.158,3.69,57,ok
+0048056AR,432423.94,4589398.02,49.58,Citrus × aurantium,False,PRIMERA,C\ Finestrelles,3.38,4.8,2.46,2.26,0.429,1.69,70,ok
+0048057AR,432397.37,4588806.55,30.52,Melia azedarach,False,PRIMERA,Via Bàrcino,9.49,24.0,5.53,4.64,0.342,2.14,473,ok
+0048058AR,432421.88,4589203.8,48.02,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Turó de la Trinitat,4.74,9.8,3.52,2.84,0.449,1.6,369,ok
+0048061AR,432513.92,4589356.65,47.18,Styphnolobium japonicum,False,TERCERA,C\ Pare Manjón,9.45,83.8,10.33,3.92,0.329,2.22,3506,ok
+0048062AR,432361.49,4589237.12,57.14,Citrus × aurantium,False,PRIMERA,C\ Finestrelles,4.02,6.8,2.93,3.19,0.419,1.74,172,ok
+0048063AR,432449.23,4589219.99,45.98,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Foradada,4.21,4.2,2.33,2.82,0.442,1.63,135,ok
+0048068AR,432457.1,4589322.98,51.39,Citrus × aurantium,False,PRIMERA,C\ Turó de la Trinitat,6.19,12.0,3.91,4.07,0.472,1.5,327,ok
+0048072AR,432463.54,4588804.18,28.24,Acer platanoides,False,SEGONA,Via Bàrcino,7.8,31.2,6.31,3.93,0.296,2.44,707,ok
+0048073AR,432449.29,4589294.28,50.43,Citrus × aurantium,False,PRIMERA,C\ Turó de la Trinitat,,0.0,0.0,,,,0,no_crown_detected
+0048074AR,432507.77,4589547.13,35.61,Platanus × acerifolia,True,TERCERA,C\ Pare Pérez del Pulgar,11.65,43.8,7.46,6.22,0.319,2.29,1088,ok
+0048076AR,432581.01,4588827.54,26.31,Melia azedarach,False,PRIMERA,Via Bàrcino,,0.0,0.0,,,,0,no_crown_detected
+0048078AR,432624.1,4589497.89,30.78,Catalpa bignonioides,False,TERCERA,C\ Torrent de Perera,11.84,33.2,6.51,6.08,0.282,2.53,825,ok
+0048080AR,432452.67,4589223.86,45.57,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Foradada,4.19,6.0,2.76,3.14,0.548,1.2,174,ok
+0048081AR,432440.82,4589591.22,30.14,Platanus × acerifolia,True,TERCERA,C\ Torrent de Perera,17.56,121.8,12.45,8.34,0.162,3.63,3121,ok
+0048084AR,432682.16,4589304.44,28.88,Platanus × acerifolia,True,SEGONA,Via Bàrcino,13.96,88.5,10.62,4.94,0.179,3.44,4234,ok
+0048085AR,432567.57,4589153.76,28.23,Melia azedarach,False,SEGONA,Via Bàrcino,5.65,7.0,2.99,3.36,0.275,2.58,180,ok
+0048087AR,432697.52,4589380.64,31.4,Platanus × acerifolia,True,TERCERA,Via Bàrcino,18.87,172.0,14.8,10.05,0.222,3.01,4719,ok
+0048089AR,432682.34,4589310.21,28.88,Platanus × acerifolia,True,SEGONA,Via Bàrcino,10.34,10.8,3.7,4.8,0.145,3.86,581,ok
+0048090AR,432522.13,4589119.49,28.75,Hibiscus syriacus,False,SEGONA,C\ Ausona,12.68,14.2,4.26,3.49,0.393,1.87,419,ok
+0048091AR,432342.34,4589062.59,42.13,Citrus × aurantium,False,PRIMERA,C\ Mireia,12.26,11.5,3.83,2.81,0.291,2.47,352,ok
+0048092AR,432343.5,4589456.92,36.92,Citrus × aurantium,False,PRIMERA,C\ Pare Pérez del Pulgar,4.44,7.0,2.99,3.02,0.154,3.74,52,ok
+0048094AR,432600.2,4589415.44,38.87,Citrus × aurantium,False,PRIMERA,C\ Pare Pérez del Pulgar,3.94,6.5,2.88,2.94,0.429,1.69,105,ok
+0048095AR,432339.73,4589329.17,54.68,Citrus × aurantium,False,PRIMERA,C\ Mireia,5.2,6.0,2.76,2.78,0.311,2.33,169,ok
+0048096AR,432541.0,4588795.54,26.57,Melia azedarach,False,EXEMPLAR,Via Bàrcino,8.83,94.5,10.97,3.85,0.244,2.82,2020,ok
+0048097AR,432649.54,4589362.63,29.97,Prunus cerasifera 'Pissardii',False,SEGONA,C\ Foradada,13.78,30.2,6.21,3.97,0.401,1.83,1231,ok
+0048098AR,432397.95,4588996.17,37.88,Photinia x fraseri 'Red Robin',False,PRIMERA,Pl Trinitat,15.75,5.5,2.65,2.92,0.167,3.58,151,ok
+0048099AR,432336.5,4589172.67,54.74,Citrus × aurantium,False,PRIMERA,C\ Finestrelles,12.1,7.5,3.09,3.73,0.351,2.09,249,ok
+0048105AR,432574.36,4588880.27,28.3,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Tossal,,0.0,0.0,,,,0,no_crown_detected
+0048106AR,432430.17,4589203.75,47.73,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Foradada,4.23,3.5,2.11,2.72,0.595,1.04,133,ok
+0048109AR,432281.12,4589192.54,46.32,Jacaranda mimosifolia,False,SEGONA,Av Meridiana,5.49,19.5,4.98,3.02,0.448,1.61,572,ok
+0048110AR,432298.06,4589172.9,56.11,Citrus × aurantium,False,PRIMERA,C\ Mireia,4.99,12.2,3.95,3.94,0.313,2.32,359,ok
+0048111AR,432546.86,4588800.74,26.56,Acer platanoides,False,SEGONA,Via Bàrcino,7.91,59.0,8.67,3.72,0.23,2.94,1003,ok
+0048112AR,432484.64,4589383.39,49.19,Styphnolobium japonicum,False,PRIMERA,C\ Pare Manjón,4.44,2.5,1.78,3.02,0.426,1.71,47,few_points
+0048114AR,432287.18,4589184.26,56.69,Jacaranda mimosifolia,False,SEGONA,C\ Mireia,6.37,5.5,2.65,3.5,0.417,1.75,256,ok
+0048118AR,432445.53,4589076.08,35.72,Cercis siliquastrum,False,PRIMERA,C\ Mare de Déu de Lorda,6.03,8.0,3.19,3.71,0.472,1.5,273,ok
+0048120AR,432339.48,4589119.9,49.4,Citrus × aurantium,False,PRIMERA,C\ Foradada,5.29,6.2,2.82,4.36,0.422,1.73,171,ok
+0048121AR,432335.28,4589209.78,56.91,Acer campestre,False,PRIMERA,C\ Almassora,5.31,14.0,4.22,2.8,0.335,2.19,412,ok
+0048122AR,432294.02,4589250.91,58.02,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Mireia,5.27,3.2,2.03,2.45,0.54,1.23,138,ok
+0048123AR,432505.37,4589568.66,32.79,Acer negundo,False,SEGONA,C\ Torrent de Perera,5.41,9.0,3.39,3.01,0.417,1.75,187,ok
+0048125AR,432433.6,4589168.24,41.81,Quercus robur 'Fastigiata',False,PRIMERA,C\ Vinya Llarga,6.16,2.5,1.78,2.92,0.435,1.66,120,ok
+0048130AR,432390.19,4588911.94,33.34,Ulmus pumila,False,TERCERA,C\ Tossal,10.66,67.0,9.24,6.19,0.374,1.97,2833,ok
+0048131AR,432615.43,4588858.56,26.67,Melia azedarach,False,PRIMERA,Via Bàrcino,,0.0,0.0,,,,0,no_crown_detected
+0048133AR,432446.22,4589267.15,49.58,Citrus × aurantium,False,PRIMERA,C\ Turó de la Trinitat,12.75,14.8,4.33,4.3,0.199,3.23,473,ok
+0048134AR,432471.8,4589119.78,35.02,Cercis siliquastrum,False,SEGONA,C\ Mare de Déu de Lorda,7.15,4.8,2.46,4.58,0.337,2.17,128,ok
+0048135AR,432297.4,4589184.83,56.78,Citrus × aurantium,False,PRIMERA,C\ Mireia,10.9,3.0,1.95,3.64,0.407,1.8,47,few_points
+0048136AR,432600.26,4589390.58,38.09,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Pare Pérez del Pulgar,6.01,3.5,2.11,3.22,0.29,2.48,69,ok
+0048137AR,432403.58,4589156.46,46.65,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Turó de la Trinitat,3.51,3.0,1.95,2.91,0.568,1.13,91,ok
+0048138AR,432286.88,4589174.06,56.34,Jacaranda mimosifolia,False,SEGONA,C\ Mireia,13.26,50.8,8.04,2.83,0.286,2.5,1740,ok
+0048139AR,432505.06,4589163.19,33.81,Cercis siliquastrum,False,PRIMERA,C\ Mare de Déu de Lorda,4.76,9.2,3.43,3.42,0.598,1.03,331,ok
+0048140AR,432529.18,4588872.64,28.9,Citrus × aurantium,False,PRIMERA,C\ Tossal,5.41,8.5,3.29,1.66,0.265,2.66,151,ok
+0048142AR,432579.7,4589365.48,36.94,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Pare Pérez del Pulgar,12.18,7.5,3.09,3.37,0.308,2.35,209,ok
+0048143AR,432426.22,4588801.38,28.37,Melia azedarach,False,EXEMPLAR,Via Bàrcino,11.35,111.0,11.89,4.64,0.217,3.06,2432,ok
+0048144AR,432502.63,4588873.79,28.64,Citrus × aurantium,False,PRIMERA,C\ Tossal,4.97,5.2,2.59,3.5,0.225,2.98,71,ok
+0048149AR,432383.66,4589155.08,48.72,Citrus × aurantium,False,PRIMERA,C\ Foradada,5.42,6.2,2.82,4.12,0.524,1.29,179,ok
+0048150AR,432443.14,4589218.82,46.41,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Foradada,4.1,7.5,3.09,3.08,0.611,0.98,288,ok
+0048151AR,432422.22,4589443.51,49.06,Styphnolobium japonicum,False,SEGONA,C\ Pare Manjón,8.77,29.5,6.13,4.23,0.324,2.25,599,ok
+0048152AR,432408.01,4589580.24,30.85,Melia azedarach,False,PRIMERA,C\ Torrent de Perera,9.59,2.5,1.78,5.4,0.2,3.22,45,few_points
+0048154AR,432335.01,4589329.56,54.72,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Mireia,7.03,6.8,2.93,2.77,0.336,2.18,259,ok
+0048156AR,432309.73,4588822.86,33.08,Ulmus pumila,False,TERCERA,Ctra Ribes,4.51,1.2,1.26,3.46,0.52,1.31,25,no_crown_detected
+0048157AR,432648.98,4589480.18,30.82,Gleditsia triacanthos 'sunburst',False,PRIMERA,C\ Torrent de Perera,10.95,9.8,3.52,6.99,0.287,2.5,209,ok
+0048159AR,432332.59,4589147.43,52.74,Citrus × aurantium,False,PRIMERA,C\ Finestrelles,5.76,9.5,3.48,4.11,0.405,1.81,284,ok
+0048160AR,432320.0,4589378.72,45.11,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Peníscola,5.4,8.0,3.19,3.32,0.404,1.81,103,ok
+0048161AR,432402.13,4589409.88,47.73,Pyrus calleryana 'Chanticleer',False,SEGONA,C\ Peníscola,8.4,22.2,5.32,2.61,0.309,2.35,456,ok
+0048162AR,432420.84,4588878.09,30.8,Melia azedarach,False,SEGONA,C\ Tossal,11.57,53.5,8.25,4.75,0.28,2.55,1189,ok
+0048163AR,432424.47,4589519.11,35.73,Platanus × acerifolia,True,SEGONA,C\ Pare Pérez del Pulgar,12.27,45.8,7.63,7.22,0.348,2.11,1077,ok
+0048165AR,432319.29,4589092.62,46.44,Citrus × aurantium,False,PRIMERA,C\ Mireia,6.43,2.8,1.87,3.46,0.341,2.15,103,ok
+0048166AR,432474.68,4589360.83,50.26,Citrus × aurantium,False,PRIMERA,C\ Turó de la Trinitat,4.55,6.0,2.76,3.53,0.518,1.32,198,ok
+0048167AR,432326.9,4589111.72,49.08,Citrus × aurantium,False,PRIMERA,C\ Foradada,4.29,5.5,2.65,3.24,0.522,1.3,169,ok
+0048169AR,432569.49,4589366.3,36.9,Robinia pseudoacacia,False,TERCERA,C\ Pare Pérez del Pulgar,13.25,13.2,4.11,9.55,0.382,1.92,606,ok
+0048170AR,432451.5,4588806.05,29.1,Populus nigra 'Italica',False,EXEMPLAR,Via Bàrcino,24.18,94.0,10.94,6.15,0.189,3.33,2787,ok
+0048171AR,432403.91,4588995.26,37.56,Platanus × acerifolia,True,TERCERA,Pl Trinitat,14.33,76.5,9.87,6.66,0.236,2.89,3385,ok
+0048172AR,432517.66,4589288.39,42.63,Prunus cerasifera 'Pissardii',False,SEGONA,C\ Foradada,7.18,55.8,8.43,2.42,0.393,1.87,1992,ok
+0048173AR,432648.07,4589386.65,32.91,Ligustrum lucidum,False,SEGONA,C\ Mossèn Epifani Lorda,7.84,18.0,4.79,5.03,0.379,1.94,319,ok
+0048174AR,432446.67,4589535.21,35.64,Platanus × acerifolia,True,TERCERA,C\ Pare Pérez del Pulgar,14.84,69.0,9.37,8.07,0.294,2.45,1844,ok
+0048177AR,432440.44,4589247.65,49.06,Citrus × aurantium,False,PRIMERA,C\ Turó de la Trinitat,5.36,9.8,3.52,4.15,0.42,1.73,298,ok
+0048178AR,432523.04,4589154.71,31.49,Hibiscus syriacus,False,SEGONA,C\ Ausona,5.44,10.0,3.57,3.04,0.406,1.8,285,ok
+0048179AR,432326.17,4588790.59,32.6,Melia azedarach,False,PRIMERA,Ctra Ribes,9.03,4.0,2.26,5.59,0.422,1.72,90,ok
+0048180AR,432478.02,4589365.72,49.66,Citrus × aurantium,False,PRIMERA,C\ Turó de la Trinitat,4.0,2.0,1.6,3.45,0.5,1.39,70,ok
+0048183AR,432669.33,4589465.7,31.08,Gleditsia triacanthos 'sunburst',False,PRIMERA,C\ Torrent de Perera,17.25,166.0,14.54,7.99,0.168,3.57,4083,ok
+0048185AR,432682.17,4589299.55,28.85,Platanus × acerifolia,True,SEGONA,Via Bàrcino,9.8,5.8,2.71,4.99,0.273,2.6,217,ok
+0048188AR,432705.0,4589413.87,32.46,Platanus × acerifolia,True,TERCERA,Via Bàrcino,17.24,93.0,10.88,10.17,0.213,3.09,2358,ok
+0048189AR,432611.35,4589496.93,30.8,Crataegus x media 'Paul's Scarlet',False,PRIMERA,C\ Torrent de Perera,3.35,2.8,1.87,2.62,0.395,1.86,43,few_points
+0048190AR,432591.55,4589510.91,30.76,Melia azedarach,False,SEGONA,C\ Torrent de Perera,9.73,2.8,1.87,5.77,0.182,3.41,55,ok
+0048194AR,432373.21,4589049.86,40.42,Platanus × acerifolia,True,TERCERA,Pl Trinitat,15.68,152.5,13.93,7.61,0.3,2.41,7002,ok
+0048195AR,432634.03,4589358.23,30.37,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Foradada,5.93,4.2,2.33,3.69,0.398,1.84,83,ok
+0048196AR,432416.29,4589386.58,51.23,Citrus × aurantium,False,PRIMERA,C\ Finestrelles,5.45,13.8,4.18,3.29,0.385,1.91,226,ok
+0048197AR,432474.2,4588854.92,27.59,Populus alba 'Pyramidalis',False,SEGONA,C\ Torné,15.21,12.5,3.99,4.39,0.208,3.14,418,ok
+0048199AR,432437.08,4589235.91,48.72,Citrus × aurantium,False,PRIMERA,C\ Turó de la Trinitat,5.83,10.5,3.66,4.52,0.346,2.12,256,ok
+0048200AR,432369.21,4588840.49,31.74,Robinia pseudoacacia,False,TERCERA,Pl Josep Andreu i Abelló,9.92,33.0,6.48,5.07,0.361,2.04,828,ok
+0048201AR,432496.22,4588874.06,28.63,Citrus × aurantium,False,PRIMERA,C\ Tossal,5.06,4.2,2.33,3.9,0.143,3.89,63,ok
+0048202AR,432559.33,4588794.89,26.15,Melia azedarach,False,SEGONA,Via Bàrcino,6.51,15.0,4.37,3.18,0.249,2.78,305,ok
+0048203AR,432483.43,4588834.23,26.7,Populus alba 'Pyramidalis',False,EXEMPLAR,C\ Torné,18.35,29.2,6.1,6.1,0.203,3.19,862,ok
+0048204AR,432578.47,4588843.9,27.06,Styphnolobium japonicum,False,SEGONA,Via Bàrcino,13.56,132.8,13.0,6.99,0.131,4.06,2391,ok
+0048205AR,432325.78,4588806.96,32.88,Melia azedarach,False,SEGONA,Ctra Ribes,9.17,35.8,6.75,3.62,0.299,2.41,875,ok
+0048206AR,432389.53,4589414.0,47.02,Pyrus calleryana 'Chanticleer',False,SEGONA,C\ Peníscola,7.96,18.2,4.82,3.17,0.24,2.85,379,ok
+0048207AR,432309.72,4588834.83,33.3,Melia azedarach,False,PRIMERA,Ctra Ribes,4.99,4.2,2.33,2.67,0.325,2.25,80,ok
+0048208AR,432321.14,4588995.62,38.46,Ulmus pumila,False,TERCERA,Ctra Ribes,10.58,53.0,8.21,4.86,0.253,2.75,2247,ok
+0048210AR,432448.12,4589133.64,37.64,Quercus robur 'Fastigiata',False,PRIMERA,C\ Vinya Llarga,4.05,2.5,1.78,2.72,0.5,1.39,87,ok
+0048211AR,432518.0,4589314.77,42.0,Washingtonia filifera,False,TERCERA,C\ Foradada,16.25,110.0,11.83,5.6,0.172,3.52,4102,ok
+0048213AR,432451.45,4589079.01,35.62,Cercis siliquastrum,False,PRIMERA,C\ Mare de Déu de Lorda,6.3,3.5,2.11,3.89,0.298,2.42,108,ok
+0048215AR,432380.94,4588860.02,31.8,Melia azedarach,False,SEGONA,Pl Josep Andreu i Abelló,8.75,57.2,8.54,4.35,0.333,2.2,1235,ok
+0048216AR,432694.8,4589442.73,32.13,Platanus × acerifolia,True,TERCERA,Via Bàrcino,14.95,2.2,1.69,11.78,0.19,3.32,42,few_points
+0048217AR,432674.18,4589338.71,29.04,Prunus avium,False,PRIMERA,Via Bàrcino,6.45,18.8,4.89,3.7,0.427,1.7,827,ok
+0048219AR,432566.54,4589537.76,32.9,Melia azedarach,False,TERCERA,C\ Torrent de Perera,11.26,68.0,9.3,4.9,0.218,3.05,1810,ok
+0048221AR,432350.17,4589050.56,41.15,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Mireia,6.43,6.8,2.93,3.62,0.367,2.0,244,ok
+0048222AR,432357.37,4588889.88,32.92,Melia azedarach,False,SEGONA,C\ Tossal,7.28,33.5,6.53,4.99,0.391,1.88,637,ok
+0048223AR,432303.9,4589130.24,51.03,Citrus × aurantium,False,PRIMERA,C\ Mireia,3.5,1.2,1.26,2.47,0.375,1.96,27,no_crown_detected
+0048225AR,432634.19,4589490.66,30.78,Gleditsia triacanthos 'sunburst',False,PRIMERA,C\ Torrent de Perera,,0.0,0.0,,,,0,no_crown_detected
+0048227AR,433228.4,4588952.49,19.44,Tipuana tipu,False,SEGONA,Pg Santa Coloma,6.7,4.0,2.26,3.71,0.467,1.52,149,ok
+0048228AR,432499.37,4589149.07,34.03,Cercis siliquastrum,False,PRIMERA,C\ Mare de Déu de Lorda,,0.0,0.0,,,,0,no_crown_detected
+0048229AR,432701.63,4589429.38,32.34,Platanus × acerifolia,True,TERCERA,Via Bàrcino,14.6,17.5,4.72,8.55,0.265,2.66,400,ok
+0048230AR,432298.58,4589166.49,55.47,Citrus × aurantium,False,PRIMERA,C\ Mireia,4.69,9.5,3.48,2.55,0.395,1.86,296,ok
+0048232AR,432358.4,4589138.44,49.43,Citrus × aurantium,False,PRIMERA,C\ Foradada,14.95,12.8,4.03,4.44,0.287,2.49,467,ok
+0048233AR,432522.3,4588872.94,28.81,Citrus × aurantium,False,PRIMERA,C\ Tossal,4.99,8.0,3.19,1.95,0.218,3.05,133,ok
+0048236AR,432612.17,4588840.64,26.54,Melia azedarach,False,PRIMERA,Via Bàrcino,4.82,0.2,0.56,4.82,0.75,0.58,4,no_crown_detected
+0048237AR,432381.58,4589099.45,42.97,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Turó de la Trinitat,6.77,11.8,3.87,4.05,0.428,1.7,410,ok
+0048239AR,432326.17,4588768.83,32.28,Melia azedarach,False,SEGONA,Ctra Ribes,7.75,78.2,9.98,3.7,0.276,2.57,1858,ok
+0048240AR,432396.82,4588891.07,31.58,Ulmus pumila,False,SEGONA,C\ Tossal,8.4,16.0,4.51,5.16,0.41,1.78,327,ok
+0048242AR,432499.01,4588797.84,27.87,Acer platanoides,False,SEGONA,Via Bàrcino,7.91,19.2,4.95,5.43,0.192,3.3,266,ok
+0048245AR,432434.56,4588877.54,30.57,Melia azedarach,False,TERCERA,C\ Tossal,12.87,47.2,7.76,7.13,0.187,3.36,1087,ok
+0048247AR,432565.56,4589484.33,37.8,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Pare Pérez del Pulgar,4.35,1.2,1.26,2.72,0.393,1.87,28,no_crown_detected
+0048248AR,432677.83,4589310.08,28.72,Platanus × acerifolia,True,SEGONA,Via Bàrcino,11.12,25.2,5.67,4.57,0.329,2.22,1217,ok
+0048249AR,432475.14,4589117.37,34.93,Cercis siliquastrum,False,SEGONA,C\ Mare de Déu de Lorda,12.65,43.5,7.44,5.32,0.184,3.39,1467,ok
+0048254AR,432643.25,4589255.58,29.59,Platanus × acerifolia,True,SEGONA,Via Bàrcino,11.29,33.0,6.48,6.3,0.291,2.47,1480,ok
+0048255AR,432455.72,4589087.98,35.5,Cercis siliquastrum,False,PRIMERA,C\ Mare de Déu de Lorda,6.4,18.2,4.82,4.53,0.416,1.75,555,ok
+0048257AR,432311.18,4589112.85,48.7,Citrus × aurantium,False,PRIMERA,C\ Mireia,14.55,12.0,3.91,3.62,0.322,2.27,371,ok
+0048258AR,432310.86,4589101.99,47.74,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Mireia,,0.0,0.0,,,,0,no_crown_detected
+0048259AR,432325.94,4588795.91,32.7,Melia azedarach,False,PRIMERA,Ctra Ribes,8.77,19.2,4.95,4.14,0.308,2.35,415,ok
+0048260AR,432687.27,4589363.35,30.03,Platanus × acerifolia,True,TERCERA,Via Bàrcino,19.71,129.2,12.83,10.5,0.251,2.77,5862,ok
+0048261AR,432309.61,4588851.16,33.67,Ulmus pumila,False,TERCERA,Ctra Ribes,,0.0,0.0,,,,0,no_crown_detected
+0048262AR,432577.16,4588858.56,27.64,Styphnolobium japonicum,False,SEGONA,Via Bàrcino,,0.0,0.0,,,,0,no_crown_detected
+0048264AR,432673.06,4589304.25,28.62,Prunus avium,False,SEGONA,Via Bàrcino,7.38,14.5,4.3,3.8,0.239,2.87,612,ok
+0048266AR,432628.96,4589494.39,30.74,Catalpa bignonioides,False,EXEMPLAR,C\ Torrent de Perera,11.39,75.0,9.77,6.61,0.263,2.67,1695,ok
+0048267AR,432648.04,4589393.46,33.4,Ligustrum lucidum,False,SEGONA,C\ Mossèn Epifani Lorda,7.01,15.5,4.44,4.16,0.381,1.93,302,ok
+0048268AR,432459.43,4589237.77,44.43,Prunus cerasifera 'Pissardii',False,SEGONA,C\ Foradada,12.76,22.8,5.38,4.02,0.466,1.53,762,ok
+0048270AR,432466.22,4589324.93,50.68,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Ausona,12.5,13.2,4.11,2.91,0.407,1.8,408,ok
+0048272AR,432325.87,4588812.15,32.97,Melia azedarach,False,PRIMERA,Ctra Ribes,9.99,71.0,9.51,4.65,0.305,2.37,1903,ok
+0048273AR,432639.11,4589358.3,30.16,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Foradada,4.94,9.2,3.43,3.29,0.489,1.43,180,ok
+0048274AR,432315.37,4589091.18,46.43,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Mireia,5.2,2.5,1.78,2.83,0.378,1.94,92,ok
+0048275AR,432387.36,4589158.28,48.49,Citrus × aurantium,False,PRIMERA,C\ Foradada,5.2,9.0,3.39,3.91,0.455,1.57,247,ok
+0048276AR,432385.45,4588748.88,30.97,Melia azedarach,False,PRIMERA,Pl Josep Andreu i Abelló,4.95,9.2,3.43,3.24,0.416,1.75,173,ok
+0048279AR,432447.82,4589080.72,35.65,Cercis siliquastrum,False,SEGONA,C\ Mare de Déu de Lorda,6.78,32.8,6.46,4.14,0.442,1.63,1154,ok
+0048281AR,432349.62,4589344.33,54.13,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Mireia,5.39,5.5,2.65,3.36,0.415,1.76,172,ok
+0048282AR,432326.16,4588736.22,32.14,Melia azedarach,False,SEGONA,Ctra Ribes,7.95,72.2,9.59,4.18,0.236,2.89,1289,ok
+0048286AR,432557.61,4589233.09,32.5,Cercis siliquastrum,False,PRIMERA,C\ Mare de Déu de Lorda,12.48,29.2,6.1,3.81,0.445,1.62,998,ok
+0048288AR,432502.99,4589530.56,36.2,Platanus × acerifolia,True,TERCERA,C\ Pare Pérez del Pulgar,12.42,46.5,7.69,5.55,0.24,2.85,1304,ok
+0048289AR,432295.81,4589142.11,52.65,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Mireia,6.58,36.0,6.77,3.05,0.349,2.11,1122,ok
+0048290AR,433243.24,4588920.53,19.81,Tipuana tipu,False,SEGONA,Pg Santa Coloma,5.72,24.8,5.61,3.32,0.498,1.39,984,ok
+0048291AR,432644.6,4589430.38,34.19,Ligustrum lucidum,False,SEGONA,C\ Mossèn Epifani Lorda,8.51,48.0,7.82,4.33,0.208,3.14,891,ok
+0048294AR,432509.06,4589576.84,32.51,Melia azedarach,False,SEGONA,C\ Torrent de Perera,7.58,35.0,6.68,4.25,0.382,1.93,736,ok
+0048296AR,432403.94,4589402.33,48.01,Firmiana simplex,False,TERCERA,C\ Peníscola,8.63,44.2,7.51,4.07,0.234,2.9,913,ok
+0048297AR,432369.01,4588845.98,31.82,Melia azedarach,False,TERCERA,Pl Josep Andreu i Abelló,8.4,73.0,9.64,4.01,0.287,2.5,1738,ok
+0048299AR,432393.43,4589190.71,48.44,Albizia julibrissin,False,PRIMERA,C\ Foradada,14.56,12.0,3.91,3.06,0.421,1.73,462,ok
+0048300AR,432291.06,4589232.76,57.82,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Mireia,5.42,8.5,3.29,3.4,0.511,1.34,300,ok
+0048303AR,432311.91,4589208.22,57.24,Acer campestre,False,PRIMERA,C\ Almassora,,0.0,0.0,,,,0,no_crown_detected
+0048304AR,432449.22,4589074.35,35.64,Cercis siliquastrum,False,PRIMERA,C\ Mare de Déu de Lorda,4.2,1.8,1.49,2.94,0.375,1.96,53,no_crown_detected
+0048305AR,432347.18,4588880.04,33.35,Robinia pseudoacacia,False,SEGONA,C\ Tossal,9.66,23.8,5.5,4.54,0.355,2.07,597,ok
+0048307AR,432565.13,4589149.1,28.18,Acer saccharinum,False,PRIMERA,Via Bàrcino,,0.0,0.0,,,,0,no_crown_detected
+0048309AR,432553.49,4588800.45,26.3,Melia azedarach,False,PRIMERA,Via Bàrcino,5.91,4.0,2.26,4.27,0.451,1.59,71,ok
+0048310AR,432466.89,4589590.54,30.36,Platanus × acerifolia,True,EXEMPLAR,C\ Torrent de Perera,20.01,198.2,15.89,7.37,0.255,2.74,6055,ok
+0048311AR,432601.49,4589338.07,31.88,Cercis siliquastrum,False,SEGONA,C\ Mare de Déu de Lorda,16.74,46.8,7.72,6.02,0.073,5.24,1357,ok
+0048312AR,432660.76,4589337.24,29.1,Platanus × acerifolia,True,TERCERA,Via Bàrcino,19.22,79.5,10.06,9.57,0.163,3.63,3330,ok
+0048314AR,432341.06,4589384.08,45.59,Pyrus calleryana 'Chanticleer',False,SEGONA,C\ Peníscola,7.93,19.2,4.95,3.12,0.247,2.8,381,ok
+0048315AR,432383.35,4589104.8,43.42,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Turó de la Trinitat,5.46,10.2,3.61,3.6,0.546,1.21,377,ok
+0048316AR,432313.08,4589096.64,47.12,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Mireia,6.26,5.0,2.52,3.07,0.36,2.04,189,ok
+0048317AR,432529.35,4588801.64,26.92,Melia azedarach,False,PRIMERA,Via Bàrcino,6.73,1.8,1.49,5.69,0.4,1.83,25,no_crown_detected
+0048318AR,432307.08,4589110.71,48.45,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Mireia,,0.0,0.0,,,,0,no_crown_detected
+0048322AR,432386.64,4588891.58,31.89,Ulmus pumila,False,TERCERA,C\ Tossal,10.74,89.8,10.69,5.69,0.318,2.29,2141,ok
+0048323AR,432601.59,4589190.71,28.49,Acer buergerianum,False,PRIMERA,Via Bàrcino,4.77,2.5,1.78,2.55,0.436,1.66,96,ok
+0048325AR,432580.45,4589378.79,37.28,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Pare Pérez del Pulgar,,0.0,0.0,,,,0,no_crown_detected
+0048326AR,432478.0,4588835.14,26.84,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Torné,13.65,6.5,2.88,7.44,0.175,3.48,114,ok
+0048328AR,432554.06,4589495.08,37.66,Robinia pseudoacacia,False,SEGONA,C\ Pare Pérez del Pulgar,7.4,23.8,5.5,4.39,0.418,1.75,479,ok
+0048330AR,432325.9,4588801.09,32.81,Melia azedarach,False,PRIMERA,Ctra Ribes,4.61,0.8,0.98,3.58,0.353,2.08,17,no_crown_detected
+0048335AR,432333.1,4589379.37,45.38,Pyrus calleryana 'Chanticleer',False,SEGONA,C\ Peníscola,8.06,22.0,5.29,3.21,0.312,2.33,502,ok
+0048336AR,432479.51,4588843.12,26.97,Populus alba 'Pyramidalis',False,TERCERA,C\ Torné,21.14,26.8,5.84,5.49,0.153,3.75,959,ok
+0048337AR,432483.7,4588874.51,28.78,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Tossal,4.41,2.0,1.6,3.63,0.429,1.69,21,few_points
+0048338AR,432343.45,4589122.38,49.41,Citrus × aurantium,False,PRIMERA,C\ Foradada,6.39,5.5,2.65,4.29,0.323,2.26,163,ok
+0048341AR,432604.82,4589511.3,30.81,Melia azedarach,False,SEGONA,C\ Torrent de Perera,11.76,64.2,9.04,5.09,0.255,2.73,1458,ok
+0048342AR,432333.34,4589390.0,45.45,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Peníscola,5.94,11.2,3.78,3.23,0.364,2.02,220,ok
+0048343AR,433217.05,4588974.28,18.89,Tipuana tipu,False,SEGONA,Pg Santa Coloma,8.68,14.0,4.22,4.95,0.463,1.54,566,ok
+0048344AR,433230.48,4588948.43,19.49,Tipuana tipu,False,SEGONA,Pg Santa Coloma,4.92,2.5,1.78,3.35,0.522,1.3,90,ok
+0048349AR,432343.94,4589445.9,37.14,Platanus × acerifolia,True,TERCERA,C\ Pare Pérez del Pulgar,16.07,52.5,8.18,8.97,0.271,2.61,1191,ok
+0048351AR,432524.09,4589216.43,33.54,Hibiscus syriacus,False,PRIMERA,C\ Ausona,11.78,47.8,7.8,4.51,0.293,2.46,2253,ok
+0048354AR,432478.1,4589121.33,34.74,Cercis siliquastrum,False,PRIMERA,C\ Mare de Déu de Lorda,7.91,1.5,1.38,5.49,0.118,4.28,42,no_crown_detected
+0048355AR,432546.61,4589550.39,34.55,Melia azedarach,False,SEGONA,C\ Torrent de Perera,9.68,70.0,9.44,5.66,0.355,2.07,1607,ok
+0048356AR,432405.34,4589160.84,46.82,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Turó de la Trinitat,4.53,7.0,2.99,3.53,0.456,1.57,214,ok
+0048358AR,432595.24,4589295.5,32.48,Cercis siliquastrum,False,PRIMERA,C\ Mare de Déu de Lorda,7.46,32.0,6.38,3.93,0.263,2.67,890,ok
+0048361AR,432280.53,4589168.39,46.25,Jacaranda mimosifolia,False,SEGONA,Av Meridiana,5.79,14.2,4.26,3.68,0.49,1.43,621,ok
+0048362AR,432381.44,4588847.83,31.69,Robinia pseudoacacia,False,SEGONA,Pl Josep Andreu i Abelló,7.83,20.5,5.11,4.58,0.252,2.76,397,ok
+0048364AR,432480.87,4589387.07,49.24,Styphnolobium japonicum,False,SEGONA,C\ Pare Manjón,6.71,50.8,8.04,3.12,0.306,2.37,1194,ok
+0048365AR,432399.0,4589365.62,54.53,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Finestrelles,14.66,16.2,4.55,3.53,0.288,2.49,580,ok
+0048367AR,432294.02,4589166.54,55.4,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Mireia,6.59,6.0,2.76,2.84,0.449,1.6,252,ok
+0048368AR,432617.98,4589232.74,29.18,Platanus × acerifolia,True,SEGONA,Via Bàrcino,12.27,1.5,1.38,8.75,0.095,4.7,42,no_crown_detected
+0048369AR,432642.02,4589376.66,31.72,Ligustrum lucidum,False,SEGONA,C\ Mossèn Epifani Lorda,5.71,1.0,1.13,5.41,0.565,1.14,35,no_crown_detected
+0048370AR,432446.42,4588906.53,31.62,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Torné,,0.0,0.0,,,,0,no_crown_detected
+0048371AR,432503.0,4589367.62,48.3,Styphnolobium japonicum,False,SEGONA,C\ Pare Manjón,8.67,52.0,8.14,4.29,0.304,2.38,2322,ok
+0048372AR,432435.9,4589210.37,47.33,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Foradada,5.95,21.8,5.26,3.06,0.477,1.48,848,ok
+0048373AR,432332.02,4589158.77,53.83,Citrus × aurantium,False,PRIMERA,C\ Finestrelles,13.41,13.2,4.11,4.14,0.335,2.19,410,ok
+0048374AR,432539.88,4589103.75,27.84,Platanus × acerifolia,True,TERCERA,Via Bàrcino,15.1,1.8,1.49,7.75,0.293,2.46,74,no_crown_detected
+0048375AR,432426.32,4589015.63,36.67,Cercis siliquastrum,False,PRIMERA,C\ Mare de Déu de Lorda,,0.0,0.0,,,,0,no_crown_detected
+0048377AR,432527.61,4589309.28,41.78,Prunus cerasifera 'Pissardii',False,SEGONA,C\ Foradada,7.52,51.5,8.1,2.46,0.374,1.96,2094,ok
+0048379AR,432371.28,4588797.52,31.34,Melia azedarach,False,TERCERA,Pl Josep Andreu i Abelló,9.29,79.5,10.06,3.48,0.283,2.52,1691,ok
+0048380AR,432575.22,4589372.59,36.98,Robinia pseudoacacia,False,SEGONA,C\ Pare Pérez del Pulgar,11.67,41.0,7.23,6.2,0.364,2.02,1766,ok
+0048382AR,432659.45,4589258.58,29.56,Acer buergerianum,False,PRIMERA,Via Bàrcino,4.7,10.0,3.57,2.74,0.534,1.25,379,ok
+0048383AR,432369.58,4588829.88,31.59,Melia azedarach,False,PRIMERA,Pl Josep Andreu i Abelló,5.8,3.2,2.03,3.33,0.387,1.9,62,ok
+0048384AR,432403.02,4589576.82,31.07,Platanus × acerifolia,True,TERCERA,C\ Torrent de Perera,15.75,187.5,15.45,6.91,0.16,3.66,4257,ok
+0048386AR,432535.44,4588796.26,26.73,Melia azedarach,False,PRIMERA,Via Bàrcino,3.14,0.2,0.56,2.88,0.333,2.2,3,no_crown_detected
+0048387AR,432483.91,4589135.17,34.52,Cercis siliquastrum,False,PRIMERA,C\ Mare de Déu de Lorda,12.74,40.8,7.2,4.52,0.239,2.86,1553,ok
+0048389AR,432599.83,4588871.53,27.22,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Tossal,8.25,67.2,9.25,3.84,0.328,2.23,1266,ok
+0048390AR,432367.92,4588867.6,31.95,Melia azedarach,False,SEGONA,Pl Josep Andreu i Abelló,10.31,92.0,10.82,4.53,0.362,2.03,2242,ok
+0048393AR,432371.95,4588781.42,31.27,Robinia pseudoacacia,False,SEGONA,Pl Josep Andreu i Abelló,10.46,76.5,9.87,4.42,0.298,2.42,2005,ok
+0048394AR,432490.39,4589137.36,34.33,Cercis siliquastrum,False,PRIMERA,C\ Mare de Déu de Lorda,5.59,7.8,3.14,4.26,0.473,1.5,204,ok
+0048396AR,432318.37,4589304.31,55.13,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Mireia,5.42,5.8,2.71,3.0,0.529,1.27,179,ok
+0048399AR,432370.44,4589060.41,40.66,Prunus cerasifera 'Pissardii',False,SEGONA,C\ Turó de la Trinitat,5.76,10.2,3.61,4.19,0.459,1.56,312,ok
+0048403AR,433245.3,4588910.39,17.57,Tipuana tipu,False,TERCERA,Pg Santa Coloma,11.26,101.8,11.38,4.77,0.198,3.24,4606,ok
+0048406AR,432641.33,4589475.44,30.86,Crataegus x media 'Paul's Scarlet',False,PRIMERA,C\ Torrent de Perera,8.25,2.8,1.87,5.43,0.49,1.43,49,few_points
+0048407AR,432293.98,4589255.77,57.91,Platanus × acerifolia,True,SEGONA,C\ Mireia,6.59,3.0,1.95,3.62,0.317,2.3,111,ok
+0048408AR,432700.81,4589387.13,31.76,Platanus × acerifolia,True,TERCERA,Via Bàrcino,15.72,1.8,1.49,6.89,0.342,2.15,38,no_crown_detected
+0048411AR,432412.62,4589389.09,51.06,Citrus × aurantium,False,PRIMERA,C\ Finestrelles,6.15,13.8,4.18,2.7,0.251,2.76,195,ok
+0048412AR,432304.12,4589284.45,56.42,Platanus × acerifolia,True,TERCERA,C\ Mireia,14.38,76.8,9.89,4.82,0.288,2.49,3960,ok
+0048413AR,432280.53,4589176.28,46.26,Jacaranda mimosifolia,False,SEGONA,Av Meridiana,6.28,18.0,4.79,3.57,0.416,1.75,705,ok
+0048414AR,432369.55,4588834.86,31.62,Melia azedarach,False,PRIMERA,Pl Josep Andreu i Abelló,4.14,12.0,3.91,2.51,0.444,1.62,234,ok
+0048415AR,432535.65,4588801.29,26.82,Acer platanoides,False,SEGONA,Via Bàrcino,7.62,31.0,6.28,3.84,0.279,2.56,531,ok
+0048418AR,432310.49,4589284.06,56.18,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Mireia,,0.0,0.0,,,,0,no_crown_detected
+0048419AR,432342.64,4589341.47,54.27,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Mireia,10.25,5.5,2.65,3.19,0.29,2.47,224,ok
+0048421AR,432414.19,4589510.07,35.77,Platanus × acerifolia,True,SEGONA,C\ Pare Pérez del Pulgar,12.17,38.2,6.98,7.42,0.346,2.12,975,ok
+0048422AR,432537.53,4589510.89,37.62,Robinia pseudoacacia,False,SEGONA,C\ Pare Pérez del Pulgar,9.49,31.5,6.33,5.9,0.29,2.48,762,ok
+0048423AR,432600.14,4589514.38,30.82,Catalpa bignonioides,False,SEGONA,C\ Torrent de Perera,8.53,4.2,2.33,4.16,0.16,3.67,100,ok
+0048424AR,432584.84,4589371.27,37.08,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Pare Pérez del Pulgar,5.56,2.8,1.87,2.79,0.458,1.56,78,ok
+0048425AR,432420.83,4589400.46,49.55,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Finestrelles,6.0,5.5,2.65,3.05,0.361,2.04,122,ok
+0048430AR,432593.8,4589310.14,32.3,Cercis siliquastrum,False,SEGONA,C\ Mare de Déu de Lorda,13.42,61.8,8.87,5.37,0.199,3.23,2344,ok
+0048432AR,433210.58,4588978.3,18.86,Tipuana tipu,False,TERCERA,Pg Santa Coloma,10.12,144.5,13.56,5.11,0.382,1.92,6147,ok
+0048433AR,432328.92,4589148.9,52.86,Citrus × aurantium,False,PRIMERA,C\ Finestrelles,6.93,11.0,3.74,4.19,0.41,1.78,345,ok
+0048434AR,432545.93,4589114.52,27.87,Platanus × acerifolia,True,TERCERA,Via Bàrcino,18.31,56.5,8.48,11.21,0.305,2.38,2546,ok
+0048436AR,432379.48,4589544.1,31.86,Platanus × acerifolia,True,EXEMPLAR,C\ Suñol i Gras,17.53,208.2,16.28,6.79,0.145,3.86,5002,ok
+0048437AR,432556.23,4588872.86,28.92,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Tossal,,0.0,0.0,,,,0,no_crown_detected
+0048439AR,432443.45,4589071.64,35.74,Cercis siliquastrum,False,SEGONA,C\ Mare de Déu de Lorda,6.84,21.2,5.2,4.03,0.479,1.47,948,ok
+0048440AR,432332.89,4589447.28,37.42,Platanus × acerifolia,True,EXEMPLAR,C\ Pare Pérez del Pulgar,18.31,102.2,11.41,8.79,0.132,4.05,3191,ok
+0048443AR,432456.38,4589410.3,49.18,Styphnolobium japonicum,False,PRIMERA,C\ Pare Manjón,5.04,22.2,5.32,3.05,0.294,2.45,405,ok
+0048445AR,432650.84,4589418.95,34.49,Ligustrum lucidum,False,PRIMERA,C\ Mossèn Epifani Lorda,7.11,11.2,3.78,3.53,0.385,1.91,200,ok
+0048447AR,432280.58,4589184.83,46.27,Jacaranda mimosifolia,False,SEGONA,Av Meridiana,6.26,18.5,4.85,3.96,0.44,1.64,578,ok
+0048449AR,433224.08,4588961.54,19.22,Tipuana tipu,False,SEGONA,Pg Santa Coloma,7.21,45.2,7.59,3.82,0.488,1.44,1876,ok
+0048451AR,432420.92,4589020.28,36.73,Platanus × acerifolia,True,SEGONA,C\ Mare de Déu de Lorda,17.94,160.0,14.27,7.87,0.291,2.47,8270,ok
+0048452AR,432357.61,4589400.37,46.13,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Peníscola,6.24,8.5,3.29,3.1,0.167,3.58,174,ok
+0048454AR,432493.44,4588802.9,27.84,Melia azedarach,False,PRIMERA,Via Bàrcino,,0.0,0.0,,,,0,no_crown_detected
+0048456AR,432417.92,4589577.69,30.85,Melia azedarach,False,SEGONA,C\ Torrent de Perera,9.16,12.2,3.95,5.77,0.257,2.71,268,ok
+0048458AR,433244.81,4588915.28,19.94,Tipuana tipu,False,SEGONA,Pg Santa Coloma,6.23,22.8,5.38,4.16,0.526,1.28,994,ok
+0048459AR,432393.66,4589406.22,47.34,Pyrus calleryana 'Chanticleer',False,SEGONA,C\ Peníscola,9.38,19.0,4.92,3.87,0.319,2.29,405,ok
+0048462AR,433225.84,4588957.43,19.3,Tipuana tipu,False,SEGONA,Pg Santa Coloma,7.88,70.0,9.44,4.03,0.477,1.48,2720,ok
+0048463AR,432454.13,4589311.3,50.97,Citrus × aurantium,False,PRIMERA,C\ Turó de la Trinitat,4.98,5.5,2.65,3.69,0.569,1.13,142,ok
+0048464AR,432566.77,4589127.42,27.93,Acer buergerianum,False,PRIMERA,Via Bàrcino,13.76,70.8,9.49,5.29,0.354,2.08,4028,ok
+0048466AR,432440.2,4589582.72,30.26,Melia azedarach,False,TERCERA,C\ Torrent de Perera,12.16,4.0,2.26,7.21,0.289,2.48,76,ok
+0048467AR,432649.29,4589358.71,29.82,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Foradada,6.12,10.5,3.66,3.49,0.363,2.03,212,ok
+0048468AR,432309.64,4588840.38,33.43,Melia azedarach,False,SEGONA,Ctra Ribes,13.77,62.8,8.94,3.74,0.24,2.85,1676,ok
+0048470AR,432357.72,4589050.33,40.77,Citrus × aurantium,False,PRIMERA,C\ Mireia,3.66,5.0,2.52,2.38,0.433,1.67,120,ok
+0048472AR,432324.17,4589071.56,43.92,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Mireia,10.19,11.5,3.83,3.65,0.292,2.46,459,ok
+0048473AR,432290.27,4589220.05,57.56,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Mireia,5.77,7.2,3.04,3.39,0.49,1.43,286,ok
+0048474AR,432324.56,4589135.86,51.64,Citrus × aurantium,False,PRIMERA,C\ Finestrelles,15.58,15.5,4.44,4.61,0.328,2.23,495,ok
+0048475AR,432617.5,4589359.7,31.1,Prunus cerasifera 'Pissardii',False,SEGONA,C\ Foradada,11.87,26.2,5.78,4.4,0.407,1.8,842,ok
+0048476AR,432704.08,4589421.99,32.47,Platanus × acerifolia,True,TERCERA,Via Bàrcino,17.37,174.2,14.9,9.9,0.194,3.28,4351,ok
+0048477AR,432485.3,4589391.8,49.28,Styphnolobium japonicum,False,SEGONA,C\ Pare Manjón,6.46,11.2,3.78,3.01,0.274,2.59,310,ok
+0048478AR,432452.18,4589089.8,35.59,Cercis siliquastrum,False,PRIMERA,C\ Mare de Déu de Lorda,5.48,10.2,3.61,3.71,0.471,1.51,283,ok
+0048479AR,432430.25,4589024.68,36.52,Cercis siliquastrum,False,SEGONA,C\ Mare de Déu de Lorda,7.54,1.8,1.49,6.15,0.167,3.58,38,no_crown_detected
+0048480AR,432326.32,4588730.94,32.18,Melia azedarach,False,SEGONA,Ctra Ribes,6.87,40.5,7.18,3.52,0.193,3.29,668,ok
+0048482AR,432334.88,4589062.86,42.64,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Mireia,8.04,9.8,3.52,4.19,0.351,2.09,397,ok
+0048483AR,432660.42,4589314.03,28.82,Platanus × acerifolia,True,TERCERA,Via Bàrcino,16.69,70.0,9.44,8.49,0.273,2.59,3157,ok
+0048484AR,432454.74,4589117.16,36.16,Quercus robur 'Fastigiata',False,PRIMERA,C\ Vinya Llarga,6.01,3.8,2.19,2.73,0.343,2.14,109,ok
+0048486AR,432392.33,4588997.04,38.2,Platanus × acerifolia,True,TERCERA,Pl Trinitat,18.26,64.0,9.03,8.79,0.198,3.24,3034,ok
+0048488AR,432586.58,4589453.44,38.78,Robinia pseudoacacia,False,SEGONA,C\ Pare Pérez del Pulgar,7.21,30.0,6.18,4.37,0.305,2.38,653,ok
+0048490AR,432459.21,4589538.91,35.66,Platanus × acerifolia,True,TERCERA,C\ Pare Pérez del Pulgar,14.38,92.2,10.84,8.09,0.313,2.32,2540,ok
+0048491AR,432677.23,4589296.67,28.75,Platanus × acerifolia,True,SEGONA,Via Bàrcino,14.55,80.5,10.12,5.59,0.207,3.15,3568,ok
+0048495AR,432594.29,4589291.02,32.63,Cercis siliquastrum,False,SEGONA,C\ Mare de Déu de Lorda,6.52,5.5,2.65,4.67,0.355,2.07,144,ok
+0048496AR,432403.34,4588901.05,31.96,Ulmus pumila,False,EXEMPLAR,C\ Tossal,12.58,130.0,12.87,3.97,0.407,1.8,4320,ok
+0048497AR,432379.19,4589502.45,34.69,Platanus × acerifolia,True,SEGONA,C\ Suñol i Gras,12.15,29.5,6.13,5.94,0.221,3.02,639,ok
+0048498AR,432325.82,4588823.23,33.22,Melia azedarach,False,PRIMERA,Ctra Ribes,,0.0,0.0,,,,0,no_crown_detected
+0048499AR,432426.35,4589448.14,49.12,Styphnolobium japonicum,False,SEGONA,C\ Pare Manjón,4.77,2.5,1.78,3.97,0.409,1.79,44,few_points
+0048500AR,432428.59,4589224.28,48.49,Citrus × aurantium,False,PRIMERA,C\ Turó de la Trinitat,10.61,11.8,3.87,4.05,0.408,1.79,360,ok
+0048503AR,432465.4,4588874.94,29.38,Populus alba 'Pyramidalis',False,SEGONA,C\ Torné,13.68,19.5,4.98,4.48,0.28,2.55,665,ok
+0048505AR,432462.9,4589582.38,30.3,Melia azedarach,False,TERCERA,C\ Torrent de Perera,8.86,17.8,4.75,4.55,0.337,2.18,404,ok
+0048506AR,432705.03,4589406.94,32.41,Platanus × acerifolia,True,TERCERA,Via Bàrcino,16.31,2.0,1.6,9.2,0.211,3.12,38,few_points
+0048508AR,432406.47,4589379.47,52.55,Citrus × aurantium,False,PRIMERA,C\ Finestrelles,12.37,12.8,4.03,4.19,0.286,2.51,182,ok
+0048509AR,432378.68,4589399.77,46.71,Pyrus calleryana 'Chanticleer',False,SEGONA,C\ Peníscola,7.86,15.5,4.44,3.58,0.346,2.12,324,ok
+0048510AR,432287.18,4589353.97,44.04,Firmiana simplex,False,PRIMERA,C\ Peníscola,7.29,14.2,4.26,2.78,0.45,1.6,589,ok
+0048513AR,432366.77,4589550.88,31.53,Melia azedarach,False,SEGONA,C\ Torrent de Perera,20.03,159.2,14.24,8.91,0.229,2.95,4504,ok
+0048516AR,432704.47,4589400.4,32.36,Platanus × acerifolia,True,TERCERA,Via Bàrcino,16.8,52.5,8.18,10.29,0.219,3.04,1505,ok
+0048518AR,432586.78,4588879.87,27.75,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Tossal,6.65,2.2,1.69,4.37,0.426,1.71,47,few_points
+0048520AR,432522.37,4589127.82,29.22,Hibiscus syriacus,False,SEGONA,C\ Ausona,12.31,3.8,2.19,3.56,0.323,2.26,119,ok
+0048521AR,432436.55,4589248.82,49.06,Citrus × aurantium,False,PRIMERA,C\ Turó de la Trinitat,6.17,9.5,3.48,4.15,0.45,1.6,261,ok
+0048522AR,432596.81,4589402.6,38.42,Robinia pseudoacacia,False,PRIMERA,C\ Pare Pérez del Pulgar,8.68,15.2,4.41,6.06,0.308,2.35,334,ok
+0048524AR,432377.51,4589510.3,33.98,Platanus × acerifolia,True,TERCERA,C\ Suñol i Gras,15.08,164.2,14.46,6.05,0.146,3.85,3624,ok
+0048527AR,432580.06,4588832.15,26.44,Styphnolobium japonicum,False,PRIMERA,Via Bàrcino,12.34,80.0,10.09,6.0,0.247,2.8,1829,ok
+0048529AR,432439.22,4589062.43,35.91,Cercis siliquastrum,False,SEGONA,C\ Mare de Déu de Lorda,6.12,19.0,4.92,4.12,0.487,1.44,743,ok
+0048530AR,432508.22,4589362.36,47.52,Styphnolobium japonicum,False,TERCERA,C\ Pare Manjón,8.56,54.5,8.33,3.66,0.353,2.08,2525,ok
+0048531AR,432319.87,4589298.72,55.37,Citrus × aurantium,False,PRIMERA,C\ Mireia,4.04,3.5,2.11,3.11,0.459,1.56,61,ok
+0048534AR,432398.3,4589417.79,47.49,Pyrus calleryana 'Chanticleer',False,SEGONA,C\ Peníscola,8.32,25.8,5.73,3.43,0.179,3.44,446,ok
+0048535AR,432435.28,4589037.08,36.28,Cercis siliquastrum,False,PRIMERA,C\ Mare de Déu de Lorda,18.12,60.0,8.74,6.08,0.181,3.41,3447,ok
+0048537AR,432341.5,4589125.42,49.42,Citrus × aurantium,False,PRIMERA,C\ Foradada,4.45,4.2,2.33,3.75,0.488,1.44,112,ok
+0048538AR,432562.96,4589145.11,28.13,Platanus × acerifolia,True,TERCERA,Via Bàrcino,14.85,48.0,7.82,8.1,0.242,2.83,1976,ok
+0048539AR,432380.53,4588870.57,31.88,Robinia pseudoacacia,False,SEGONA,Pl Josep Andreu i Abelló,10.66,43.0,7.4,5.32,0.244,2.82,1107,ok
+0048541AR,432672.51,4589313.8,28.68,Acer buergerianum,False,PRIMERA,Via Bàrcino,,0.0,0.0,,,,0,no_crown_detected
+0048542AR,432362.96,4589016.39,40.22,Platanus × acerifolia,True,TERCERA,Pl Trinitat,15.03,150.0,13.82,4.78,0.256,2.72,6759,ok
+0048543AR,432465.77,4589401.5,49.28,Styphnolobium japonicum,False,SEGONA,C\ Pare Manjón,6.78,43.5,7.44,2.58,0.28,2.54,1120,ok
+0048544AR,432384.84,4589161.45,48.52,Citrus × aurantium,False,PRIMERA,C\ Foradada,4.79,6.8,2.93,3.61,0.507,1.36,225,ok
+0048545AR,432472.34,4588858.98,27.91,Populus alba 'Pyramidalis',False,SEGONA,C\ Torné,15.01,6.2,2.82,4.99,0.211,3.12,228,ok
+0048547AR,432452.75,4589229.66,45.22,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Foradada,5.76,9.2,3.43,4.05,0.475,1.49,302,ok
+0048548AR,432470.48,4588862.97,28.24,Populus alba 'Pyramidalis',False,SEGONA,C\ Torné,14.27,10.5,3.66,4.79,0.24,2.86,338,ok
+0048549AR,432466.19,4589409.82,49.31,Styphnolobium japonicum,False,PRIMERA,C\ Pare Manjón,6.13,6.8,2.93,2.7,0.358,2.06,151,ok
+0048550AR,432418.31,4589013.98,36.88,Platanus × acerifolia,True,TERCERA,C\ Mare de Déu de Lorda,15.32,6.8,2.93,8.88,0.355,2.07,342,ok
+0048551AR,432282.95,4589127.86,46.0,Jacaranda mimosifolia,False,SEGONA,Av Meridiana,5.46,0.8,0.98,2.79,0.2,3.22,17,no_crown_detected
+0048552AR,432622.82,4589356.53,30.82,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Foradada,4.18,3.0,1.95,3.12,0.426,1.7,68,ok
+0048555AR,432306.28,4589124.52,50.21,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Mireia,4.91,2.5,1.78,3.22,0.404,1.81,73,ok
+0048557AR,433234.69,4588939.58,19.62,Tipuana tipu,False,SEGONA,Pg Santa Coloma,5.89,25.5,5.7,4.03,0.519,1.31,885,ok
+0048558AR,432413.23,4589168.24,47.05,Prunus cerasifera 'Pissardii',False,SEGONA,C\ Turó de la Trinitat,6.61,27.2,5.89,4.14,0.51,1.35,1044,ok
+0048561AR,432553.14,4588795.19,26.3,Melia azedarach,False,EXEMPLAR,Via Bàrcino,7.45,100.8,11.33,4.18,0.313,2.32,1924,ok
+0048563AR,432397.16,4589186.96,48.26,Albizia julibrissin,False,PRIMERA,C\ Foradada,14.81,44.2,7.51,3.1,0.465,1.53,1516,ok
+0048564AR,432524.14,4589355.82,44.08,Styphnolobium japonicum,False,TERCERA,C\ Pare Manjón,8.49,74.2,9.72,3.44,0.276,2.58,3019,ok
+0048565AR,432288.04,4589358.13,43.98,Firmiana simplex,False,SEGONA,C\ Peníscola,18.55,24.0,5.53,2.87,0.38,1.94,902,ok
+0048566AR,432408.15,4589405.66,48.15,Firmiana simplex,False,SEGONA,C\ Peníscola,9.08,58.8,8.65,4.24,0.218,3.04,1090,ok
+0048569AR,432529.08,4588796.38,26.89,Melia azedarach,False,TERCERA,Via Bàrcino,7.88,61.5,8.85,3.69,0.255,2.73,1090,ok
+0048570AR,432426.0,4588805.35,28.39,Melia azedarach,False,PRIMERA,Via Bàrcino,,0.0,0.0,,,,0,no_crown_detected
+0048573AR,432614.96,4588864.62,26.66,Melia azedarach,False,PRIMERA,Via Bàrcino,,0.0,0.0,,,,0,no_crown_detected
+0048574AR,432371.83,4589045.26,40.37,Platanus × acerifolia,True,TERCERA,Pl Trinitat,13.0,3.8,2.19,6.66,0.364,2.02,173,ok
+0048575AR,432325.76,4588861.15,34.03,Melia azedarach,False,SEGONA,Ctra Ribes,12.9,74.5,9.74,4.78,0.323,2.26,1770,ok
+0048576AR,432496.8,4589584.29,31.34,Gleditsia triacanthos 'sunburst',False,PRIMERA,C\ Torrent de Perera,19.5,74.8,9.76,4.53,0.262,2.68,2507,ok
+0048578AR,432305.24,4589271.55,57.23,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Mireia,5.55,2.5,1.78,2.53,0.262,2.68,79,ok
+0048579AR,432451.42,4588802.79,28.99,Populus nigra 'Italica',False,TERCERA,Via Bàrcino,18.11,6.5,2.88,4.39,0.201,3.21,229,ok
+0048583AR,432679.22,4589282.29,29.07,Platanus × acerifolia,True,SEGONA,Via Bàrcino,10.94,3.2,2.03,5.31,0.155,3.73,133,ok
+0048584AR,432354.9,4589467.4,36.55,Platanus × acerifolia,True,TERCERA,C\ Pare Pérez del Pulgar,16.51,63.5,8.99,9.28,0.258,2.71,1282,ok
+0048585AR,432506.25,4589158.16,33.83,Cercis siliquastrum,False,PRIMERA,C\ Mare de Déu de Lorda,12.43,15.5,4.44,3.96,0.368,2.0,520,ok
+0048586AR,432572.51,4589162.75,28.27,Platanus × acerifolia,True,TERCERA,Via Bàrcino,12.35,1.5,1.38,10.95,0.105,4.5,48,no_crown_detected
+0048588AR,432299.66,4589273.32,57.18,Platanus × acerifolia,True,SEGONA,C\ Mireia,9.81,45.0,7.57,4.47,0.429,1.69,2384,ok
+0258636AR,432436.09,4589218.9,48.22,Olea europaea,False,TERCERA,C\ Turó de la Trinitat,6.53,44.8,7.55,2.93,0.329,2.22,1573,ok
+0258638AR,432289.58,4589162.41,55.14,Jacaranda mimosifolia,False,SEGONA,C\ Mireia,6.8,16.5,4.58,2.75,0.343,2.14,543,ok
+0258645AR,432426.75,4589589.9,30.37,Platanus × acerifolia,True,EXEMPLAR,C\ Torrent de Perera,18.05,118.2,12.27,7.17,0.148,3.82,3102,ok
+0258658AR,432285.44,4589145.38,53.36,Jacaranda mimosifolia,False,PRIMERA,C\ Mireia,11.17,27.5,5.92,2.49,0.302,2.4,882,ok
+0258761AR,432285.61,4589150.64,53.81,Jacaranda mimosifolia,False,SEGONA,C\ Mireia,10.74,34.0,6.58,3.23,0.278,2.56,1236,ok
+0258785AR,432286.23,4589160.35,54.92,Jacaranda mimosifolia,False,PRIMERA,C\ Mireia,8.86,14.8,4.33,2.99,0.189,3.34,488,ok
+0258908AR,432285.94,4589155.94,54.29,Jacaranda mimosifolia,False,SEGONA,C\ Mireia,9.31,21.2,5.2,3.46,0.192,3.3,850,ok
+0258974AR,432370.58,4589357.8,54.29,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Ausona,4.1,7.0,2.99,2.87,0.549,1.2,237,ok
+0259196AR,432463.59,4588866.69,28.73,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Torné,6.17,13.8,4.18,3.45,0.326,2.24,242,ok
+0259221AR,432352.2,4589356.07,53.28,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Ausona,12.05,6.5,2.88,2.67,0.46,1.55,276,ok
+0259287AR,432328.4,4589134.58,51.56,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Finestrelles,7.17,4.5,2.39,3.5,0.288,2.49,118,ok
+0259291AR,432289.13,4589158.3,54.7,Jacaranda mimosifolia,False,SEGONA,C\ Mireia,6.12,22.5,5.35,3.35,0.373,1.97,732,ok
+0287040AR,432584.6,4589383.55,37.47,Robinia pseudoacacia,False,TERCERA,C\ Pare Pérez del Pulgar,13.89,37.2,6.89,7.03,0.249,2.78,974,ok
+0287715AR,432322.09,4589109.24,48.6,Citrus × aurantium,False,PRIMERA,C\ Foradada,4.04,6.2,2.82,1.98,0.504,1.37,217,ok
+0289333AR,432327.51,4588716.57,32.25,Acer saccharinum,False,PRIMERA,Via Favència,6.06,16.2,4.55,2.98,0.32,2.28,275,ok
+0289334AR,432349.38,4588713.12,31.85,Celtis australis,False,SEGONA,Via Favència,6.08,22.2,5.32,3.79,0.358,2.06,358,ok
+0289335AR,432341.19,4588713.37,32.01,Celtis australis,False,SEGONA,Via Favència,6.48,29.5,6.13,2.95,0.284,2.52,426,ok
+0289336AR,432332.83,4588713.56,32.11,Celtis australis,False,SEGONA,Via Favència,6.88,43.5,7.44,3.57,0.24,2.85,628,ok
+0289337AR,432358.4,4588712.83,31.57,Celtis australis,False,SEGONA,Via Favència,7.46,51.0,8.06,4.54,0.304,2.38,747,ok
+0289338AR,432233.15,4588715.46,37.78,Celtis australis,False,SEGONA,Via Favència,6.98,30.2,6.21,4.21,0.336,2.18,456,ok
+0289339AR,432222.46,4588715.65,38.81,Celtis australis,False,PRIMERA,Via Favència,,0.0,0.0,,,,0,no_crown_detected
+0289340AR,432214.72,4588715.65,39.61,Celtis australis,False,PRIMERA,Via Favència,5.5,17.2,4.69,3.83,0.379,1.94,269,ok
+0289341AR,432277.84,4588714.51,33.43,Celtis australis,False,SEGONA,Via Favència,6.94,36.8,6.84,3.76,0.335,2.19,627,ok
+0289344AR,432260.28,4588715.01,35.09,Celtis australis,False,SEGONA,Via Favència,5.99,24.8,5.61,2.93,0.292,2.46,380,ok
+0289345AR,432251.23,4588715.38,36.19,Celtis australis,False,SEGONA,Via Favència,7.47,32.5,6.43,3.98,0.292,2.46,480,ok
+0289346AR,432241.9,4588715.26,37.01,Celtis australis,False,SEGONA,Via Favència,7.27,41.5,7.27,4.42,0.262,2.68,595,ok
+0289348AR,432213.11,4588721.05,40.03,Grevillea robusta,False,PRIMERA,Via Favència,3.67,2.5,1.78,1.82,0.079,5.08,38,few_points
+0289349AR,432199.56,4588725.78,41.5,Grevillea robusta,False,PRIMERA,Via Favència,,0.0,0.0,,,,0,no_crown_detected
+0289350AR,432291.92,4588718.09,32.48,Acer saccharinum,False,SEGONA,Via Favència,9.39,32.0,6.38,3.17,0.269,2.63,695,ok
+0289353AR,432273.5,4588718.1,33.87,Acer saccharinum,False,PRIMERA,Via Favència,7.16,57.0,8.52,3.86,0.347,2.12,979,ok
+0289354AR,432255.83,4588718.03,35.67,Grevillea robusta,False,PRIMERA,Via Favència,3.73,3.5,2.11,2.66,0.523,1.3,65,ok
+0289355AR,432246.87,4588718.3,36.58,Acer saccharinum,False,PRIMERA,Via Favència,7.27,24.2,5.56,3.77,0.293,2.46,430,ok
+0289356AR,432217.68,4588719.32,39.53,Acer saccharinum,False,PRIMERA,Via Favència,4.14,5.0,2.52,2.83,0.495,1.41,95,ok
+0289371AR,432414.26,4588971.8,36.5,Olea europaea,False,TERCERA,C\ Galícia,7.14,37.5,6.91,3.11,0.323,2.26,1225,ok
+0290594AR,433193.99,4588960.71,18.04,Ulmus pumila,False,SEGONA,Pg Santa Coloma,8.28,38.0,6.96,4.13,0.444,1.63,1915,ok
+0290595AR,433136.89,4588993.78,20.62,Ulmus pumila,False,TERCERA,Pg Santa Coloma,,0.0,0.0,,,,0,no_crown_detected
+0290596AR,433142.22,4588981.77,21.12,Celtis australis,False,SEGONA,Pg Santa Coloma,9.91,87.8,10.57,3.4,0.34,2.16,4398,ok
+0290597AR,433144.93,4588978.31,20.83,Celtis australis,False,SEGONA,Pg Santa Coloma,8.04,64.0,9.03,2.66,0.299,2.41,2410,ok
+0290598AR,433158.74,4588974.03,19.1,Celtis australis,False,TERCERA,Pg Santa Coloma,8.13,60.5,8.78,3.72,0.434,1.67,2713,ok
+0290599AR,433182.33,4588983.07,18.91,Tipuana tipu,False,SEGONA,Pg Santa Coloma,,0.0,0.0,,,,0,no_crown_detected
+0290600AR,433185.36,4588988.31,18.91,Tipuana tipu,False,TERCERA,Pg Santa Coloma,12.58,1.8,1.49,10.47,0.483,1.46,58,no_crown_detected
+0290601AR,433177.3,4588983.55,18.96,Tipuana tipu,False,SEGONA,Pg Santa Coloma,10.86,1.8,1.49,9.29,0.115,4.32,47,no_crown_detected
+0290602AR,433171.44,4588988.38,18.91,Tipuana tipu,False,TERCERA,Pg Santa Coloma,10.55,2.2,1.69,8.68,0.386,1.9,74,ok
+0290603AR,433175.54,4588987.68,18.99,Tipuana tipu,False,TERCERA,Pg Santa Coloma,11.78,60.0,8.74,6.75,0.253,2.75,2000,ok
+0290604AR,433167.37,4588989.32,18.96,Tipuana tipu,False,EXEMPLAR,Pg Santa Coloma,10.48,90.8,10.75,5.85,0.327,2.24,3287,ok
+0290605AR,433188.49,4588982.11,18.9,Tipuana tipu,False,TERCERA,Pg Santa Coloma,12.72,156.8,14.13,5.75,0.404,1.81,6179,ok
+0290606AR,433201.08,4588995.69,18.67,Ulmus pumila,False,PRIMERA,Pg Santa Coloma,4.43,4.5,2.39,1.98,0.473,1.5,166,ok
+0290607AR,433196.8,4589001.84,18.54,Ulmus pumila,False,SEGONA,Pg Santa Coloma,7.61,44.0,7.48,2.67,0.355,2.07,1923,ok
+0290608AR,433180.81,4589023.21,17.93,Ulmus pumila,False,SEGONA,Pg Santa Coloma,9.7,30.5,6.23,2.56,0.26,2.7,1613,ok
+0290609AR,433178.96,4589025.43,17.71,Ulmus pumila,False,TERCERA,Pg Santa Coloma,10.36,77.5,9.93,4.29,0.399,1.84,4118,ok
+0297059AR,432374.07,4588721.73,31.01,Robinia pseudoacacia,False,TERCERA,Pl Josep Andreu i Abelló,10.0,50.8,8.04,5.05,0.306,2.37,1185,ok
+0297101AR,432302.72,4589289.1,56.24,Jacaranda mimosifolia,False,PRIMERA,C\ Mireia,13.09,3.0,1.95,2.73,0.12,4.24,104,ok
+0297102AR,432299.8,4589283.17,56.68,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Mireia,10.07,2.8,1.87,2.87,0.103,4.55,81,ok
+0297103AR,432297.73,4589278.05,57.07,Jacaranda mimosifolia,False,PRIMERA,C\ Mireia,10.52,8.2,3.24,3.31,0.213,3.09,261,ok
+0297104AR,432294.56,4589272.09,57.4,Jacaranda mimosifolia,False,PRIMERA,C\ Mireia,4.51,1.5,1.38,3.27,0.29,2.47,54,no_crown_detected
+0297105AR,432293.07,4589266.05,57.69,Jacaranda mimosifolia,False,PRIMERA,C\ Mireia,16.74,11.2,3.78,3.77,0.18,3.43,458,ok
+0297106AR,432292.05,4589260.19,57.82,Jacaranda mimosifolia,False,PRIMERA,C\ Mireia,17.28,13.0,4.07,3.59,0.136,3.99,480,ok
+0297107AR,432292.13,4589239.5,57.96,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Mireia,5.68,5.5,2.65,2.88,0.465,1.53,243,ok
+0297108AR,432293.1,4589245.49,58.06,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Mireia,5.73,4.2,2.33,2.71,0.468,1.52,194,ok
+0297109AR,432353.38,4589349.93,53.96,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Mireia,,0.0,0.0,,,,0,no_crown_detected
+0297110AR,432497.25,4589302.4,44.57,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Ausona,4.12,6.2,2.82,3.26,0.548,1.2,193,ok
+0297111AR,432487.1,4589311.26,46.6,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Ausona,6.69,6.2,2.82,3.28,0.314,2.32,139,ok
+0297112AR,432481.52,4589316.03,47.71,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Ausona,4.54,8.2,3.24,3.03,0.379,1.94,169,ok
+0297113AR,432476.16,4589320.72,48.79,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Ausona,12.56,14.0,4.22,3.65,0.312,2.33,409,ok
+0297114AR,432505.57,4589301.13,43.47,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Ausona,4.39,5.5,2.65,2.75,0.5,1.39,219,ok
+0297115AR,432500.27,4589305.62,44.52,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Ausona,5.42,6.0,2.76,2.79,0.42,1.73,202,ok
+0297116AR,432494.88,4589309.96,45.59,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Ausona,6.69,11.2,3.78,3.82,0.458,1.56,377,ok
+0297117AR,432489.75,4589314.6,46.59,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Ausona,10.6,17.5,4.72,3.51,0.475,1.49,584,ok
+0297118AR,432484.08,4589319.13,47.67,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Ausona,9.72,10.8,3.7,3.13,0.433,1.68,366,ok
+0297119AR,432478.74,4589323.65,48.74,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Ausona,6.36,20.0,5.05,2.62,0.425,1.71,813,ok
+0297120AR,432473.83,4589327.96,49.83,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Ausona,6.93,27.8,5.94,3.39,0.293,2.45,949,ok
+0297123AR,433197.82,4588967.12,18.32,Ulmus pumila,False,EXEMPLAR,Pg Santa Coloma,11.87,80.2,10.11,5.48,0.367,2.0,3465,ok
+0297124AR,432536.96,4589329.19,40.17,Robinia pseudoacacia,False,SEGONA,C\ Pare Manjón,8.21,44.0,7.48,4.56,0.385,1.91,1890,ok
+0297127AR,432381.25,4589546.4,31.69,Platycladus orientalis,False,SEGONA,C\ Torrent de Perera,10.15,2.0,1.6,4.03,0.054,5.84,37,few_points
+0297718AR,432451.38,4589344.58,53.06,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Ausona,12.08,17.2,4.69,3.75,0.503,1.37,572,ok
+0297719AR,432439.38,4589350.86,53.74,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Ausona,,0.0,0.0,,,,0,no_crown_detected
+0297720AR,432454.08,4589337.27,52.57,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Ausona,5.55,17.2,4.69,3.48,0.39,1.88,439,ok
+0297721AR,432449.11,4589340.94,53.19,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Ausona,5.73,15.8,4.48,3.34,0.358,2.05,360,ok
+0297722AR,432442.38,4589344.57,53.64,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Ausona,4.39,9.5,3.48,3.26,0.449,1.6,201,ok
+0297728AR,432406.23,4589354.15,55.26,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Ausona,3.85,6.0,2.76,2.97,0.5,1.39,116,ok
+0297731AR,432385.92,4589354.66,55.04,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Ausona,4.18,10.5,3.66,2.97,0.474,1.49,220,ok
+0297732AR,432379.9,4589354.32,54.84,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Ausona,4.22,11.8,3.87,2.96,0.444,1.63,254,ok
+0297733AR,432445.6,4589347.95,53.41,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Ausona,5.58,14.5,4.3,3.24,0.488,1.43,494,ok
+0297734AR,432358.39,4589352.38,54.03,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Ausona,4.9,10.0,3.57,3.3,0.409,1.79,229,ok
+0297735AR,432327.65,4588910.21,35.71,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Turó de la Trinitat,5.78,5.2,2.59,3.75,0.504,1.37,190,ok
+0297736AR,432329.49,4588916.8,36.12,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Turó de la Trinitat,6.15,5.8,2.71,3.25,0.462,1.54,217,ok
+0297737AR,432331.43,4588923.48,36.5,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Turó de la Trinitat,,0.0,0.0,,,,0,no_crown_detected
+0297738AR,432333.36,4588929.96,36.9,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Turó de la Trinitat,6.59,5.2,2.59,3.56,0.496,1.4,210,ok
+0297739AR,432335.31,4588937.05,37.32,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Turó de la Trinitat,5.43,4.8,2.46,3.27,0.468,1.52,189,ok
+0297740AR,432337.27,4588943.94,37.76,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Turó de la Trinitat,7.17,8.8,3.34,3.79,0.357,2.06,293,ok
+0297741AR,432339.08,4588950.38,38.16,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Turó de la Trinitat,6.65,7.2,3.04,4.0,0.369,1.99,208,ok
+0297742AR,432341.05,4588957.12,38.59,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Turó de la Trinitat,5.19,6.2,2.82,2.7,0.394,1.86,213,ok
+0297743AR,432342.94,4588963.84,39.03,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Turó de la Trinitat,5.26,5.5,2.65,3.95,0.54,1.23,207,ok
+0297744AR,432344.87,4588970.3,39.4,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Turó de la Trinitat,4.94,3.8,2.19,2.71,0.484,1.45,168,ok
+0297745AR,432331.06,4588909.05,35.75,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Turó de la Trinitat,6.33,5.0,2.52,4.45,0.478,1.48,163,ok
+0297746AR,432332.99,4588915.78,36.17,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Turó de la Trinitat,6.11,5.8,2.71,3.66,0.325,2.25,194,ok
+0297747AR,432334.91,4588922.5,36.55,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Turó de la Trinitat,3.78,2.0,1.6,2.76,0.474,1.49,57,ok
+0297748AR,432336.95,4588929.13,36.96,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Turó de la Trinitat,5.6,5.2,2.59,3.16,0.419,1.74,167,ok
+0297749AR,432338.85,4588935.95,37.39,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Turó de la Trinitat,4.45,1.2,1.26,2.81,0.5,1.39,47,no_crown_detected
+0297750AR,432340.69,4588942.7,37.78,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Turó de la Trinitat,16.35,8.0,3.19,4.13,0.249,2.78,335,ok
+0297751AR,432342.62,4588949.42,38.23,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Turó de la Trinitat,15.57,11.5,3.83,3.74,0.273,2.59,506,ok
+0297752AR,432344.54,4588956.16,38.63,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Turó de la Trinitat,15.02,9.5,3.48,3.48,0.31,2.34,335,ok
+0297753AR,432346.47,4588962.88,39.06,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Turó de la Trinitat,4.85,3.8,2.19,3.17,0.411,1.78,122,ok
+0297755AR,432350.32,4588976.34,39.77,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Turó de la Trinitat,4.55,1.2,1.26,2.6,0.609,0.99,47,no_crown_detected
+0297756AR,432352.24,4588983.07,39.99,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Turó de la Trinitat,4.0,2.5,1.78,3.01,0.5,1.39,80,ok
+0297757AR,432354.17,4588989.8,40.18,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Turó de la Trinitat,,0.0,0.0,,,,0,no_crown_detected
+0297758AR,432356.1,4588996.53,40.28,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Turó de la Trinitat,5.1,3.8,2.19,3.22,0.5,1.39,102,ok
+0297759AR,432354.63,4589004.79,40.32,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Turó de la Trinitat,,0.0,0.0,,,,0,no_crown_detected
+0297760AR,432356.49,4589012.21,40.33,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Turó de la Trinitat,4.61,1.2,1.26,3.55,0.524,1.29,37,no_crown_detected
+0297762AR,432360.24,4589025.65,40.29,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Turó de la Trinitat,13.17,64.5,9.06,6.73,0.267,2.64,2965,ok
+0297763AR,432362.31,4589033.06,40.3,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Turó de la Trinitat,10.75,2.5,1.78,3.4,0.419,1.74,80,ok
+0302037AR,432309.97,4589356.38,44.79,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Peníscola,6.99,13.2,4.11,3.31,0.452,1.59,436,ok
+0306679AR,432286.73,4589267.8,46.07,Jacaranda mimosifolia,False,PRIMERA,C\ Mireia,6.75,53.5,8.25,3.55,0.265,2.66,1686,ok
+0306681AR,432282.82,4589308.89,44.92,Jacaranda mimosifolia,False,SEGONA,Av Meridiana,6.95,22.0,5.29,4.0,0.358,2.05,637,ok
+0306682AR,432282.74,4589299.71,45.13,Jacaranda mimosifolia,False,PRIMERA,Av Meridiana,4.13,13.2,4.11,2.63,0.465,1.53,400,ok
+0306683AR,432282.43,4589292.15,45.22,Jacaranda mimosifolia,False,SEGONA,Av Meridiana,6.62,29.5,6.13,2.79,0.345,2.13,897,ok
+0306684AR,432282.57,4589283.78,45.36,Jacaranda mimosifolia,False,SEGONA,Av Meridiana,6.76,20.5,5.11,3.43,0.454,1.58,763,ok
+0306685AR,432282.34,4589275.93,45.48,Jacaranda mimosifolia,False,SEGONA,Av Meridiana,5.46,14.0,4.22,3.31,0.489,1.43,455,ok
+0306686AR,432282.33,4589267.49,45.63,Jacaranda mimosifolia,False,SEGONA,Av Meridiana,5.9,12.5,3.99,3.73,0.467,1.52,379,ok
+0306687AR,432282.17,4589259.2,45.74,Jacaranda mimosifolia,False,SEGONA,Av Meridiana,6.42,17.2,4.69,3.52,0.431,1.68,677,ok
+0306688AR,432282.01,4589251.12,45.9,Jacaranda mimosifolia,False,SEGONA,Av Meridiana,5.57,15.5,4.44,3.97,0.543,1.22,565,ok
+0306689AR,432281.93,4589242.54,46.04,Jacaranda mimosifolia,False,SEGONA,Av Meridiana,7.76,23.0,5.41,3.49,0.378,1.94,881,ok
+0306690AR,432281.78,4589234.24,46.12,Jacaranda mimosifolia,False,SEGONA,Av Meridiana,5.31,17.5,4.72,3.14,0.514,1.33,602,ok
+0306691AR,432281.81,4589225.7,46.21,Jacaranda mimosifolia,False,SEGONA,Av Meridiana,5.8,16.5,4.58,3.69,0.509,1.35,568,ok
+0306692AR,432281.46,4589217.61,46.26,Jacaranda mimosifolia,False,SEGONA,Av Meridiana,7.94,21.2,5.2,3.27,0.347,2.12,816,ok
+0306693AR,432281.45,4589209.36,46.34,Jacaranda mimosifolia,False,SEGONA,Av Meridiana,,0.0,0.0,,,,0,no_crown_detected
+0306694AR,432281.0,4589201.14,46.34,Jacaranda mimosifolia,False,SEGONA,Av Meridiana,16.14,26.0,5.75,4.43,0.111,4.39,885,ok
+0306695AR,432286.82,4589261.92,45.87,Jacaranda mimosifolia,False,PRIMERA,C\ Mireia,6.61,24.5,5.59,4.06,0.298,2.42,716,ok
+0306702AR,432289.22,4589307.16,45.3,Jacaranda mimosifolia,False,PRIMERA,Av Meridiana,7.34,39.2,7.07,2.58,0.375,1.96,1320,ok
+0306703AR,432282.74,4589317.39,44.8,Jacaranda mimosifolia,False,SEGONA,Av Meridiana,7.69,33.5,6.53,4.69,0.319,2.29,877,ok
+0306704AR,432282.36,4589348.18,44.03,Jacaranda mimosifolia,False,SEGONA,Av Meridiana,6.06,22.5,5.35,3.52,0.433,1.67,697,ok
+0306705AR,432282.39,4589354.82,43.82,Jacaranda mimosifolia,False,SEGONA,Av Meridiana,5.35,14.2,4.26,3.18,0.444,1.62,469,ok
+0306706AR,432282.35,4589362.18,43.43,Jacaranda mimosifolia,False,SEGONA,Av Meridiana,18.97,18.5,4.85,4.27,0.428,1.7,601,ok
+0308366AR,432415.48,4589400.34,48.63,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Peníscola,6.37,3.8,2.19,2.8,0.229,2.95,118,ok
+0308367AR,432412.34,4589395.52,48.66,Lagerstroemia indica,False,PRIMERA,C\ Peníscola,3.13,0.2,0.56,3.13,0.75,0.58,4,no_crown_detected
+0308368AR,432419.61,4589406.32,48.7,Magnolia grandiflora,False,PRIMERA,C\ Peníscola,4.98,9.2,3.43,3.12,0.436,1.66,204,ok
+0312386AR,432308.83,4589297.7,55.82,Jacaranda mimosifolia,False,SEGONA,C\ Mireia,7.41,21.2,5.2,3.34,0.278,2.56,622,ok
+0312387AR,432306.32,4589293.58,55.96,Jacaranda mimosifolia,False,SEGONA,C\ Mireia,13.13,13.2,4.11,3.91,0.206,3.16,569,ok
+0313493AR,432422.74,4588954.57,35.26,Prunus cerasifera 'Pissardii',False,SEGONA,C\ Torné,6.08,21.5,5.23,3.24,0.485,1.45,811,ok
+0313494AR,432422.71,4588950.41,35.2,Prunus cerasifera 'Pissardii',False,SEGONA,C\ Torné,7.28,44.2,7.51,3.41,0.4,1.83,1449,ok
+0313496AR,432282.83,4589113.21,45.39,Jacaranda mimosifolia,False,SEGONA,Av Meridiana,5.5,8.5,3.29,3.03,0.389,1.89,325,ok
+0313497AR,432282.29,4589119.6,45.71,Jacaranda mimosifolia,False,SEGONA,Av Meridiana,6.51,10.0,3.57,3.14,0.349,2.1,381,ok
+0316404AR,433183.18,4589020.28,17.96,Ulmus pumila,False,PRIMERA,Pg Santa Coloma,8.59,6.8,2.93,2.57,0.231,2.93,372,ok
+0316405AR,433185.67,4589017.21,17.98,Ulmus pumila,False,SEGONA,Pg Santa Coloma,6.67,2.8,1.87,2.3,0.167,3.58,161,ok
+0316406AR,433187.73,4589014.18,18.04,Ulmus pumila,False,PRIMERA,Pg Santa Coloma,,0.0,0.0,,,,0,no_crown_detected
+0316407AR,433200.04,4588952.58,17.33,Morus alba,False,SEGONA,Pg Santa Coloma,7.41,40.8,7.2,3.37,0.374,1.97,1694,ok
+0316408AR,433182.99,4588965.84,18.3,Ulmus pumila,False,TERCERA,Pg Santa Coloma,,0.0,0.0,,,,0,no_crown_detected
+0316409AR,433179.4,4588968.71,18.44,Ulmus pumila,False,TERCERA,Pg Santa Coloma,11.59,78.0,9.97,4.32,0.24,2.86,3448,ok
+0316410AR,433177.79,4588974.18,18.45,Ulmus pumila,False,SEGONA,Pg Santa Coloma,8.91,10.2,3.61,4.47,0.457,1.57,468,ok
+0316575AR,432311.62,4588989.9,38.39,Jacaranda mimosifolia,False,PRIMERA,Ctra Ribes,4.51,10.5,3.66,3.39,0.505,1.37,361,ok
+0316576AR,432311.76,4588955.19,37.39,Jacaranda mimosifolia,False,PRIMERA,Ctra Ribes,5.44,12.2,3.95,2.64,0.408,1.8,460,ok
+0316577AR,432311.57,4588981.14,38.19,Jacaranda mimosifolia,False,PRIMERA,Ctra Ribes,5.42,11.5,3.83,3.43,0.486,1.44,421,ok
+0316578AR,432279.66,4589078.57,43.14,Jacaranda mimosifolia,False,PRIMERA,Ctra Ribes,5.55,12.0,3.91,3.11,0.435,1.67,435,ok
+0316579AR,432276.54,4589086.38,43.82,Jacaranda mimosifolia,False,PRIMERA,Ctra Ribes,4.93,10.5,3.66,3.8,0.483,1.46,371,ok
+0316580AR,432305.85,4589023.79,39.69,Jacaranda mimosifolia,False,PRIMERA,Ctra Ribes,5.13,13.5,4.15,3.4,0.434,1.67,361,ok
+0316581AR,432311.96,4588929.24,36.6,Jacaranda mimosifolia,False,PRIMERA,Ctra Ribes,5.34,21.2,5.2,3.21,0.391,1.88,641,ok
+0316582AR,432311.9,4588937.89,36.85,Jacaranda mimosifolia,False,PRIMERA,Ctra Ribes,5.63,15.5,4.44,2.86,0.442,1.63,554,ok
+0316583AR,432311.83,4588946.54,37.06,Jacaranda mimosifolia,False,PRIMERA,Ctra Ribes,7.37,41.2,7.25,3.42,0.466,1.53,1558,ok
+0316584AR,432311.7,4588963.84,37.68,Jacaranda mimosifolia,False,PRIMERA,Ctra Ribes,5.32,16.0,4.51,3.3,0.508,1.35,626,ok
+0316585AR,432311.63,4588972.49,37.94,Jacaranda mimosifolia,False,PRIMERA,Ctra Ribes,4.71,11.5,3.83,3.15,0.535,1.25,400,ok
+0316586AR,432311.09,4588998.79,38.78,Jacaranda mimosifolia,False,PRIMERA,Ctra Ribes,3.95,3.5,2.11,3.49,0.556,1.18,119,ok
+0316587AR,432308.8,4589015.66,39.38,Jacaranda mimosifolia,False,PRIMERA,Ctra Ribes,7.53,21.0,5.17,4.25,0.426,1.7,742,ok
+0316588AR,432301.97,4589031.54,39.98,Jacaranda mimosifolia,False,PRIMERA,Ctra Ribes,6.73,26.5,5.81,3.56,0.441,1.64,1064,ok
+0316589AR,432298.23,4589039.34,40.4,Jacaranda mimosifolia,False,PRIMERA,Ctra Ribes,5.54,16.8,4.62,2.83,0.375,1.96,588,ok
+0316590AR,432294.49,4589047.14,40.76,Jacaranda mimosifolia,False,PRIMERA,Ctra Ribes,6.17,6.2,2.82,3.29,0.481,1.46,223,ok
+0316591AR,432290.75,4589054.94,41.14,Jacaranda mimosifolia,False,PRIMERA,Ctra Ribes,5.18,13.8,4.18,3.71,0.473,1.5,374,ok
+0316592AR,432287.0,4589062.74,41.61,Jacaranda mimosifolia,False,PRIMERA,Ctra Ribes,5.37,16.2,4.55,3.59,0.429,1.69,456,ok
+0316593AR,432282.79,4589072.18,42.48,Jacaranda mimosifolia,False,PRIMERA,Ctra Ribes,6.3,16.8,4.62,3.3,0.381,1.93,641,ok
+0316748AR,432303.35,4589340.54,46.31,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Ausona,13.79,8.5,3.29,3.17,0.415,1.76,193,ok
+0316749AR,432309.97,4589342.21,47.67,Jacaranda mimosifolia,False,PRIMERA,C\ Ausona,4.59,7.2,3.04,3.2,0.465,1.53,161,ok
+0316750AR,432316.85,4589343.63,48.7,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Ausona,4.69,8.2,3.24,3.27,0.439,1.65,176,ok
+0316751AR,432323.99,4589345.11,49.63,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Ausona,8.11,9.8,3.52,3.11,0.415,1.76,273,ok
+0316752AR,432322.9,4589349.35,49.62,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Ausona,4.16,8.5,3.29,2.97,0.576,1.1,311,ok
+0316754AR,432280.54,4589396.28,42.32,Jacaranda mimosifolia,False,PRIMERA,C\ Torrent de Perera,5.35,25.0,5.64,3.22,0.345,2.13,383,ok
+0316755AR,432283.53,4589403.48,41.92,Jacaranda mimosifolia,False,PRIMERA,C\ Torrent de Perera,6.31,32.0,6.38,3.5,0.363,2.03,504,ok
+0316756AR,432289.85,4589410.95,41.36,Jacaranda mimosifolia,False,PRIMERA,C\ Torrent de Perera,5.47,19.5,4.98,3.13,0.414,1.76,377,ok
+0316757AR,432295.21,4589417.8,40.62,Jacaranda mimosifolia,False,PRIMERA,C\ Torrent de Perera,4.34,8.0,3.19,2.64,0.428,1.7,138,ok
+0316758AR,432299.43,4589425.27,39.82,Jacaranda mimosifolia,False,PRIMERA,C\ Torrent de Perera,5.87,31.0,6.28,3.46,0.262,2.68,458,ok
+0316759AR,432302.76,4589433.52,38.98,Jacaranda mimosifolia,False,PRIMERA,C\ Torrent de Perera,5.92,23.2,5.44,3.04,0.307,2.36,384,ok
+0316760AR,432305.75,4589442.13,38.03,Jacaranda mimosifolia,False,PRIMERA,C\ Torrent de Perera,5.61,23.5,5.47,3.25,0.358,2.05,374,ok
+0316761AR,432308.39,4589449.95,37.24,Jacaranda mimosifolia,False,PRIMERA,C\ Torrent de Perera,6.07,23.2,5.44,3.56,0.274,2.59,431,ok
+0316762AR,432311.37,4589458.21,36.36,Jacaranda mimosifolia,False,PRIMERA,C\ Torrent de Perera,6.88,26.2,5.78,3.84,0.271,2.61,483,ok
+0316763AR,432314.14,4589466.51,35.59,Jacaranda mimosifolia,False,PRIMERA,C\ Torrent de Perera,9.11,88.0,10.59,2.75,0.336,2.18,1643,ok
+0316764AR,432316.95,4589474.68,35.02,Jacaranda mimosifolia,False,PRIMERA,C\ Torrent de Perera,5.11,13.0,4.07,3.06,0.427,1.7,225,ok
+0316765AR,432319.76,4589482.67,34.46,Jacaranda mimosifolia,False,PRIMERA,C\ Torrent de Perera,3.99,5.8,2.71,2.98,0.529,1.27,102,ok
+0316766AR,432322.57,4589491.01,33.86,Jacaranda mimosifolia,False,PRIMERA,C\ Torrent de Perera,5.28,18.8,4.89,3.35,0.315,2.31,305,ok
+0316767AR,432325.43,4589499.14,33.37,Jacaranda mimosifolia,False,PRIMERA,C\ Torrent de Perera,17.88,108.0,11.73,5.63,0.184,3.39,2255,ok
+0316769AR,432331.14,4589515.57,32.46,Jacaranda mimosifolia,False,PRIMERA,C\ Torrent de Perera,,0.0,0.0,,,,0,no_crown_detected
+0316770AR,432334.04,4589523.91,32.19,Jacaranda mimosifolia,False,PRIMERA,C\ Torrent de Perera,7.18,23.2,5.44,2.8,0.343,2.14,472,ok
+0316771AR,432339.84,4589512.32,32.16,Pyrus communis,False,PRIMERA,C\ Torrent de Perera,7.87,10.5,3.66,3.15,0.333,2.2,192,ok
+0316772AR,432319.51,4589424.94,38.65,Pyrus communis,False,SEGONA,C\ Pare Pérez del Pulgar,9.27,12.0,3.91,4.36,0.348,2.11,233,ok
+0316773AR,432325.7,4589471.57,34.57,Pyrus communis,False,PRIMERA,C\ Torrent de Perera,5.57,6.0,2.76,3.48,0.292,2.46,89,ok
+0316774AR,432306.73,4589413.42,39.74,Pyrus communis,False,PRIMERA,C\ Pare Pérez del Pulgar,9.44,10.5,3.66,4.32,0.335,2.19,200,ok
+0316775AR,432331.35,4589487.81,33.39,Pyrus communis,False,PRIMERA,C\ Torrent de Perera,6.41,6.2,2.82,3.41,0.19,3.32,121,ok
+0316776AR,432320.04,4589455.12,35.88,Pyrus communis,False,SEGONA,C\ Torrent de Perera,7.9,8.8,3.34,4.14,0.323,2.26,201,ok
+0316777AR,432313.23,4589419.18,39.09,Pyrus communis,False,PRIMERA,C\ Pare Pérez del Pulgar,8.38,12.0,3.91,4.28,0.355,2.07,234,ok
+0316778AR,432300.13,4589407.55,40.48,Pyrus communis,False,SEGONA,C\ Pare Pérez del Pulgar,8.76,11.5,3.83,3.71,0.293,2.45,184,ok
+0316779AR,432328.73,4589479.53,34.0,Pyrus communis,False,PRIMERA,C\ Torrent de Perera,17.71,8.8,3.34,3.78,0.209,3.13,158,ok
+0316780AR,432325.8,4589430.81,38.21,Pyrus communis,False,PRIMERA,C\ Pare Pérez del Pulgar,6.64,9.5,3.48,3.24,0.347,2.12,202,ok
+0316781AR,432337.01,4589504.26,32.45,Pyrus communis,False,PRIMERA,C\ Torrent de Perera,7.54,10.8,3.7,3.48,0.299,2.41,157,ok
+0316782AR,432334.6,4589497.66,32.77,Pyrus communis,False,PRIMERA,C\ Torrent de Perera,7.85,11.0,3.74,3.81,0.183,3.39,191,ok
+0316783AR,432342.67,4589520.81,31.97,Pyrus communis,False,PRIMERA,C\ Torrent de Perera,6.93,8.8,3.34,3.34,0.356,2.07,180,ok
+0316784AR,432322.76,4589463.5,35.13,Pyrus communis,False,PRIMERA,C\ Torrent de Perera,6.99,12.0,3.91,3.08,0.288,2.49,236,ok
+0316785AR,432317.36,4589446.79,36.73,Pyrus communis,False,PRIMERA,C\ Torrent de Perera,8.13,9.2,3.43,3.33,0.286,2.5,234,ok
+0316786AR,432314.43,4589438.72,37.68,Pyrus communis,False,PRIMERA,C\ Torrent de Perera,6.56,9.0,3.39,3.9,0.434,1.67,182,ok
+0316787AR,432331.77,4589436.05,37.82,Pyrus communis,False,PRIMERA,C\ Pare Pérez del Pulgar,8.55,7.5,3.09,4.1,0.231,2.93,121,ok
+0322762AR,432374.8,4588902.38,33.12,Jacaranda mimosifolia,False,SEGONA,C\ Galícia,4.46,13.8,4.18,2.61,0.464,1.54,320,ok
+0322764AR,432383.27,4588905.87,33.13,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Galícia,7.44,2.5,1.78,3.25,0.493,1.41,122,ok
+0322765AR,432379.78,4588915.28,33.81,Jacaranda mimosifolia,False,SEGONA,C\ Galícia,5.7,13.2,4.11,3.06,0.511,1.34,498,ok
+0322766AR,432385.82,4588912.33,33.59,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Galícia,6.28,1.5,1.38,3.25,0.381,1.93,63,no_crown_detected
+0322767AR,432388.24,4588918.78,34.01,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Galícia,5.85,2.5,1.78,2.69,0.475,1.49,117,ok
+0322768AR,432390.66,4588925.36,34.53,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Galícia,5.33,2.0,1.6,2.77,0.517,1.32,98,ok
+0322770AR,432388.91,4588939.88,35.52,Jacaranda mimosifolia,False,SEGONA,C\ Galícia,4.89,13.5,4.15,2.69,0.404,1.81,414,ok
+0322771AR,432398.19,4588944.99,35.64,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Galícia,6.05,2.0,1.6,2.53,0.441,1.64,78,ok
+0322772AR,432400.88,4588951.71,35.84,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Galícia,6.66,1.2,1.26,2.99,0.333,2.2,56,no_crown_detected
+0322773AR,432403.3,4588958.16,36.06,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Galícia,7.15,1.2,1.26,3.17,0.281,2.54,63,no_crown_detected
+0322774AR,432405.72,4588964.48,36.3,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Galícia,6.32,2.0,1.6,2.78,0.281,2.54,67,ok
+0322775AR,432408.4,4588970.93,36.48,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Galícia,6.96,2.0,1.6,4.05,0.324,2.26,85,ok
+0332568AR,432572.94,4588971.21,27.91,Albizia julibrissin 'OMBRELLA'®,False,PRIMERA,C\ Madriguera,,0.0,0.0,,,,0,no_crown_detected
+0332569AR,432565.23,4588972.54,28.5,Albizia julibrissin 'OMBRELLA'®,False,PRIMERA,C\ Madriguera,,0.0,0.0,,,,0,no_crown_detected
+0332570AR,432556.28,4588974.09,28.86,Albizia julibrissin 'OMBRELLA'®,False,PRIMERA,C\ Madriguera,,0.0,0.0,,,,0,no_crown_detected
+0332571AR,432548.41,4588975.44,29.88,Albizia julibrissin 'OMBRELLA'®,False,PRIMERA,C\ Madriguera,,0.0,0.0,,,,0,no_crown_detected
+0332572AR,432564.96,4589001.55,27.27,Celtis australis,False,PRIMERA,Via Bàrcino,,0.0,0.0,,,,0,no_crown_detected
+0332573AR,432574.73,4588994.98,26.87,Celtis australis,False,PRIMERA,Via Bàrcino,,0.0,0.0,,,,0,no_crown_detected
+0332574AR,432573.3,4588985.08,28.16,Celtis australis,False,PRIMERA,Via Bàrcino,,0.0,0.0,,,,0,no_crown_detected
+0332575AR,432579.11,4588977.24,27.71,Celtis australis,False,PRIMERA,Via Bàrcino,,0.0,0.0,,,,0,no_crown_detected
+0334269AR,432282.08,4589422.55,39.14,Paulownia tomentosa,False,SEGONA,C\ Torrent de Perera,7.41,15.5,4.44,3.38,0.388,1.89,392,ok
+0334270AR,432276.89,4589428.29,37.51,Cercis siliquastrum,False,PRIMERA,C\ Torrent de Perera,3.68,16.8,4.62,1.93,0.349,2.11,318,ok
+0339742AR,432446.16,4588900.08,31.33,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Torné,,0.0,0.0,,,,0,no_crown_detected
+0339743AR,432440.93,4588918.68,32.97,Prunus cerasifera,False,PRIMERA,C\ Torné,,0.0,0.0,,,,0,no_crown_detected
+0339744AR,432443.07,4588913.89,32.62,Prunus cerasifera,False,PRIMERA,C\ Torné,,0.0,0.0,,,,0,no_crown_detected
+0339745AR,432428.89,4588913.92,32.69,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Torné,,0.0,0.0,,,,0,no_crown_detected
+0339746AR,432433.96,4588910.95,32.33,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Torné,,0.0,0.0,,,,0,no_crown_detected
+0339747AR,432411.86,4588923.87,33.92,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Torné,,0.0,0.0,,,,0,no_crown_detected
+0339748AR,432418.29,4588920.11,33.47,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Torné,,0.0,0.0,,,,0,no_crown_detected
+0339749AR,432405.43,4588927.63,34.38,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Torné,,0.0,0.0,,,,0,no_crown_detected
+0339750AR,432398.64,4588931.59,35.03,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Galícia,,0.0,0.0,,,,0,no_crown_detected
+0340710AR,432521.6,4589061.82,28.11,Acer saccharinum,False,PRIMERA,C\ Ausona,,0.0,0.0,,,,0,no_crown_detected
+0340711AR,432546.22,4589009.62,27.9,Platanus × acerifolia,True,TERCERA,Via Bàrcino,16.97,116.0,12.15,9.52,0.296,2.43,6793,ok
+0340713AR,432545.0,4589526.52,36.13,Pinus halepensis,False,TERCERA,Pl Turó de la Trinitat,9.95,61.8,8.87,2.28,0.409,1.79,1316,ok
+0342491AR,432417.7,4589403.29,48.61,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Finestrelles,,0.0,0.0,,,,0,no_crown_detected
+0342575AR,432444.7,4589153.66,39.46,Tipuana tipu,False,TERCERA,C\ Alt,11.01,82.2,10.23,4.4,0.219,3.03,3286,ok
+0346296AR,432588.48,4589166.63,28.26,Acer buergerianum,False,SEGONA,Via Bàrcino,,0.0,0.0,,,,0,no_crown_detected
+0346299AR,432565.24,4589149.2,28.18,Acer buergerianum,False,SEGONA,Via Bàrcino,12.23,4.0,2.26,4.7,0.32,2.28,222,ok
+0346300AR,432557.68,4589135.45,28.03,Acer buergerianum,False,SEGONA,Via Bàrcino,16.11,86.0,10.46,8.23,0.255,2.73,4271,ok
+0346301AR,432554.18,4589107.81,27.88,Acer buergerianum,False,SEGONA,Via Bàrcino,,0.0,0.0,,,,0,no_crown_detected
+0346302AR,432549.63,4589099.41,27.83,Acer buergerianum,False,SEGONA,Via Bàrcino,4.76,7.0,2.99,2.38,0.469,1.51,263,ok
+0346303AR,432545.26,4589091.42,27.8,Acer buergerianum,False,SEGONA,Via Bàrcino,,0.0,0.0,,,,0,no_crown_detected
+0346304AR,432528.1,4589092.4,28.14,Tipuana tipu,False,PRIMERA,C\ Ausona,,0.0,0.0,,,,0,no_crown_detected
+0346305AR,432530.83,4589085.7,27.9,Acer buergerianum,False,SEGONA,Via Bàrcino,,0.0,0.0,,,,0,no_crown_detected
+0346306AR,432539.68,4589081.04,27.62,Acer buergerianum,False,SEGONA,Via Bàrcino,,0.0,0.0,,,,0,no_crown_detected
+0346307AR,432534.9,4589070.87,27.51,Acer buergerianum,False,SEGONA,Via Bàrcino,,0.0,0.0,,,,0,no_crown_detected
+0346308AR,432523.95,4589068.8,27.96,Acer buergerianum,False,SEGONA,C\ Ausona,,0.0,0.0,,,,0,no_crown_detected
+0346309AR,432532.8,4589058.61,27.46,Acer buergerianum,False,SEGONA,Via Bàrcino,,0.0,0.0,,,,0,no_crown_detected
+0346310AR,432533.3,4589050.89,27.52,Acer buergerianum,False,SEGONA,Via Bàrcino,,0.0,0.0,,,,0,no_crown_detected
+0346311AR,432535.27,4589043.28,27.57,Acer buergerianum,False,SEGONA,Via Bàrcino,9.76,0.2,0.56,9.76,0.667,0.81,9,no_crown_detected
+0346313AR,432539.04,4589035.34,27.59,Acer buergerianum,False,SEGONA,Via Bàrcino,12.39,0.2,0.56,12.39,0.5,1.39,4,no_crown_detected
+0346314AR,432541.92,4589030.33,27.59,Acer buergerianum,False,SEGONA,Via Bàrcino,,0.0,0.0,,,,0,no_crown_detected
+0346315AR,432547.17,4589024.14,27.56,Acer buergerianum,False,SEGONA,Via Bàrcino,,0.0,0.0,,,,0,no_crown_detected
+0346316AR,432553.58,4589018.74,27.42,Acer buergerianum,False,SEGONA,Via Bàrcino,,0.0,0.0,,,,0,no_crown_detected
+0346317AR,432559.66,4589014.78,27.27,Acer buergerianum,False,SEGONA,Via Bàrcino,,0.0,0.0,,,,0,no_crown_detected
+0346318AR,432565.94,4589011.21,27.04,Acer buergerianum,False,SEGONA,Via Bàrcino,,0.0,0.0,,,,0,no_crown_detected
+0346320AR,432571.83,4589007.74,26.91,Acer buergerianum,False,SEGONA,Via Bàrcino,,0.0,0.0,,,,0,no_crown_detected
+0346321AR,432578.51,4589004.04,26.57,Acer buergerianum,False,SEGONA,Via Bàrcino,,0.0,0.0,,,,0,no_crown_detected
+0347147AR,432572.78,4589106.8,26.16,Koelreuteria paniculata,False,PRIMERA,C\ Palafrugell,16.02,76.2,9.85,3.75,0.221,3.01,4312,ok
+0347148AR,432590.84,4589094.17,23.46,Koelreuteria paniculata,False,PRIMERA,C\ Palafrugell,,0.0,0.0,,,,0,no_crown_detected
+0347149AR,432598.25,4589089.07,22.35,Melia azedarach,False,PRIMERA,C\ Palafrugell,,0.0,0.0,,,,0,no_crown_detected
+0347150AR,432581.62,4589100.64,24.82,Melia azedarach,False,PRIMERA,C\ Palafrugell,,0.0,0.0,,,,0,no_crown_detected
+0347151AR,432565.71,4589111.72,27.19,Melia azedarach,False,PRIMERA,C\ Palafrugell,,0.0,0.0,,,,0,no_crown_detected

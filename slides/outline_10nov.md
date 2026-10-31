@@ -157,6 +157,11 @@ The deck follows that order.
 
 ---
 
+## 13b. City-wide: 28 barris, one layout [new, 31 Oct; time to fit]
+**Figures:** `slides/fig_v7/res_04_city_map.png`, then `res_05_city_cap.png` (from `scripts/make_citywide_v7.py`; numbers in `notes/citywide_plan.md` §6.9)
+
+"Then I ran the same method on every barri with at least five hundred planes: twenty-eight barris, thirty-one and a half thousand planes, in one optimisation under the city's fifteen percent cap. Against the city's own mix, the median gain is nine points of today's summer shade, and twenty-seven of twenty-eight barris gain. One loses a little, because one city cap sends the capped species where they add most. Two rules make this work: the city's cap fixes how much of each species, and a local ceiling stops any barri from ending more concentrated than today. Without it, one barri got almost half Tipuana. The ceiling has a limit: where very few planes are replaced it can leave no species that fits, so small barris need a different rule."
+
 ## 14. Validation, and what comes next [8:40]
 **Figure:** `slides/fig_v7/flow_05_validation.png`
 **On slide (right):**
