@@ -6,8 +6,9 @@ city ("large avenue", guide p. 17) and leave the decision set. --trunk=CLASS: sp
 (layout.palette). --scenario: R = replace the planes (default), A = add trees in the free spots (planes kept),
 RA = both (notes/topic_decision.md §10.6; cap recomputed on the larger stock, layout.add_cap). --area=FILE: only the
 planes and spots inside the project area the user draws (layout.in_area). --priority=N: only the N planes with the highest
-replacement priority (health.py, a proxy). S1a (the city's 2026 mix within the exact sizing rule, layout.s1a_layout) is
-always run, 10 seeds.
+replacement priority (health.py, a proxy). S1a (the city's 2026 mix within the exact sizing rule, layout.s1a_layout) and
+S1b (the mix the city actually planted in place of planes 2018–2026, layout.s1b_mix) are always run, 10 seeds each.
+--s1b-only: compute only S1b and replace its rows in an existing summary file (no optimisation, no Grasshopper export).
 Outputs: databases/barcelona/tool_v0_summary<tag>.csv, exchange/to_gh/{positions,layouts}_tool_v0<tag>_<YYYYMMDD>.csv"""
 import sys, json, datetime, pathlib, numpy as np, pandas as pd
 from .site import load_site, rc, slug, DB, EX
@@ -65,16 +66,30 @@ sens = pd.DataFrame({**{f"r_off_{r}": season.storm_factor(pal.species, r) for r 
                      "no_gloria_jan": season.storm_factor(pal.species, storms=season.STORM.drop(1))}, index=pal.species)
 sens.round(3).to_csv(DB / f"tool_v0_storm_leaf_factor{ptag}.csv")
 print("season-weighted leaf factor in storms (sensitivity):\n", sens.round(3).to_string())
+fit = layout.fits(site, pos, pal, size_rule)
+fit_s1a = fit if size_rule == "exact" else layout.fits(site, pos, pal, "exact")
+mix_b = layout.s1b_mix()
+print(f"S1b: palette species cover {sum(mix_b.get(s, 0) for s in pal.species) / sum(mix_b.values()):.0%} of observed plane replacements")
+s1b = {f"S1b_obs_{k}": layout.s1a_layout(pal, pal.cap.values, fit_s1a, np.random.default_rng(200 + k), mix_b) for k in range(10)}
+if "--s1b-only" in sys.argv:
+    f = DB / f"tool_v0_summary{tag}.csv"
+    old = pd.read_csv(f)
+    new = pd.DataFrame([dict(scenario=sc, **layout.evaluate(site, layout.apply(site, pos, pal, ch), sun, lit, p),
+                             eff_species=layout.eff_species(ch, len(pal)), **{s: int((ch == j).sum()) for j, s in enumerate(pal.species)})
+                        for sc, ch in s1b.items()]).assign(pareto=False)
+    out = pd.concat([old[~old.scenario.str.startswith("S1b")], new.round(1)], ignore_index=True)[old.columns]
+    out.to_csv(f, index=False)
+    print(f"S1b rows written to {f.name}")
+    sys.exit(0)
+print("positions where the species fits:", dict(zip(pal.species, fit.mean(0).round(2))))
 pot = {s: layout.shade_potential(site, pos, pal, sun[s], lit[s], heat.SEASONS[s]["month"]) for s in sun}
 water = layout.water_potential(site, pos, pal, p)
-fit = layout.fits(site, pos, pal, size_rule)
-print("positions where the species fits:", dict(zip(pal.species, fit.mean(0).round(2))))
 
 layouts = {f"S1_random_{k}": layout.random_layout(pal.cap.values, fit, np.random.default_rng(k)) for k in range(10)}
-fit_s1a = fit if size_rule == "exact" else layout.fits(site, pos, pal, "exact")
 if size_rule != "exact":
     print("note: S1a uses the exact sizing rule; the other layouts use", size_rule or "no sizing rule")
 layouts.update({f"S1a_city_{k}": layout.s1a_layout(pal, pal.cap.values, fit_s1a, np.random.default_rng(100 + k)) for k in range(10)})
+layouts.update(s1b)
 objs = {"summer": (pot["summer"], 1), "winter": (pot["winter"], -1), "runoff": (water, 1)}
 layouts.update({"S4_s{:.2f}_w{:.2f}_r{:.2f}".format(*w): ch for w, ch in layout.sweep(objs, pal.cap.values, fit, min_eff=min_eff).items()})
 rows = [dict(scenario="S0_current", **layout.evaluate(site, site.trees[site.trees.flag == "ok"], sun, lit, p))]

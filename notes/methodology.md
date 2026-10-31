@@ -74,7 +74,7 @@ Limit: crowns act as opaque, so species differences enter only through crown siz
 | ID | Layout |
 |---|---|
 | S0 | Current trees (planes kept) |
-| S1 | The city's own replacement (v6, `notes/topic_decision.md` §9.6): the 2026 target mix (press) assigned at random within the 2011 sizing rule, several seeds; replaced by the city's internal list if obtained |
+| S1 | The city's own replacement (v6, `notes/topic_decision.md` §9.6): the 2026 target mix (press) assigned at random within the 2011 sizing rule, several seeds; replaced by the city's internal list if obtained **S1b (31 Oct):** same draw, weighted by what the city actually planted where planes were replaced, 2018–2026 (1,444 cases from the quarterly Open Data BCN inventory, `scripts/inventory_history.py`, `notes/data_sources_pemb_30oct.md` §6). S1a (press) is kept beside it. *Narrative point for the thesis: the baseline moved from a press-reported target to the city's observed practice.* |
 | S2 | Heat-only optimum |
 | S3 | Runoff-only optimum |
 | S4 | Multi-objective Pareto set (trait-based) |

@@ -27,6 +27,16 @@ RANK = {"none": -1, "small": 0, "medium": 1, "large": 2}
 # Celtis's 12% as per species (the source is ambiguous: "planes and Celtis ~12%"; notes/tree_master_plan.md §5).
 S1A_MIX = {"Celtis australis": 12, "Melia azedarach": 7.25, "Pyrus calleryana": 5, "Styphnolobium japonicum": 5,
            "Tipuana tipu": 5}
+
+
+def s1b_mix():
+    """S1b, the city's observed replacement (decided 31 Oct): species planted where a plane was replaced, 2018–2026, from
+    the quarterly Open Data BCN inventory (scripts/inventory_history.py -> inventory_replacement_matrix.csv, city scope;
+    notes/data_sources_pemb_30oct.md §6), as counts used like S1A_MIX. Species outside the palette get no weight, so the
+    draw renormalises over the rest. ASSUMPTION: the city-wide shares hold in every barri."""
+    m = pd.read_csv(DB / "inventory_replacement_matrix.csv")
+    m = m[(m.scope == "city") & m.species_out.str.startswith("Platanus")]
+    return m.groupby("species_in").n.sum().to_dict()
 # Equal trunk size (notes/topic_decision.md §9.9, §10.5 row 8): species traits = medians of the Porta trees in one trunk
 # class of the inventory (categoria_arbrat; TERCERA = 81–110 cm perimeter, 2011 guide p. 18). ASSUMPTION: TERCERA is the
 # reference; a species with fewer than MIN_CLASS trees there falls back to SEGONA, then to all classes.
@@ -252,11 +262,11 @@ def random_layout(cap, fit, rng):
     return out
 
 
-def s1a_layout(pal, cap, fit, rng):
-    """S1a: each position draws a fitting S1A_MIX species with probability proportional to its weight, under the cap.
+def s1a_layout(pal, cap, fit, rng, mix=S1A_MIX):
+    """S1a (S1b with mix=s1b_mix()): each position draws a fitting mix species with probability proportional to its weight, under the cap.
     Positions are drawn most constrained first. Where no mix species fits or has room: any fitting palette species with
     room, else (last resort) any species with room."""
-    w = pal.species.map(S1A_MIX).fillna(0).values
+    w = pal.species.map(mix).fillna(0).values
     left, out = cap.copy(), np.empty(len(fit), int)
     for i in np.argsort((fit * (w > 0)).sum(1), kind="stable"):   # positions with fewest fitting mix species first
         ok = (left > 0) & fit[i]

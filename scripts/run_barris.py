@@ -7,6 +7,7 @@ Usage (PC, project env):  python scripts/run_barris.py                       # E
                           python scripts/run_barris.py "Gràcia" "Sant Andreu"  # districts or barri names
                           python scripts/run_barris.py --summary               # only rebuild the summary table
                           python scripts/run_barris.py --osm                   # redo buildings + tool where footprints are LiDAR
+                          python scripts/run_barris.py --s1b                   # add S1b (observed city mix) to finished barris
 Outputs: databases/barcelona/barris/run_log.csv, databases/barcelona/barris_summary.csv (one row per barri, shares of
 today's S0: S1 random and S1a city mix = mean of 10 seeds, tool = the optimised layout with the most summer shade)."""
 import re, sys, time, subprocess, pathlib, pandas as pd
@@ -61,11 +62,13 @@ def summarise(barris):
         best = opt.loc[opt.shade_summer_m2h.idxmax()]
         row = dict(barri=name, canopy_s0=s0.canopy_pct, max_genus_s0=s0.max_genus, max_genus_pct_s0=s0.max_genus_pct)
         for k, x in (("random", d[d.scenario.str.startswith("S1_random")].mean(numeric_only=True)),
-                     ("s1a", d[d.scenario.str.startswith("S1a")].mean(numeric_only=True)), ("tool", best)):
+                     ("s1a", d[d.scenario.str.startswith("S1a")].mean(numeric_only=True)),
+                     ("s1b", d[d.scenario.str.startswith("S1b")].mean(numeric_only=True)), ("tool", best)):
             row[f"summer_pct_{k}"] = round(100 * x.shade_summer_m2h / s0.shade_summer_m2h, 1)
             row[f"winter_pct_{k}"] = round(100 * x.shade_winter_m2h / s0.shade_winter_m2h, 1)
             row[f"runoff_hot_change_pct_{k}"] = round(100 * (x.runoff_hot_m3 / s0.runoff_hot_m3 - 1), 1)
         row["tool_margin_pts"] = round(row["summer_pct_tool"] - row["summer_pct_s1a"], 1)
+        row["tool_margin_s1b_pts"] = round(row["summer_pct_tool"] - row["summer_pct_s1b"], 1)   # NaN until --s1b has run
         rows.append(row)
     out = pd.DataFrame(rows)
     out.to_csv(DB / "barris_summary.csv", index=False)
@@ -80,6 +83,17 @@ if __name__ == "__main__":
     log = DB / "barris" / "run_log.csv"
     if "--osm" in sys.argv:
         redo_osm(barris[1:], log)
+    elif "--s1b" in sys.argv:                            # S1b rows only, for barris whose tool run predates it
+        for name, s in barris:
+            f = summary_file(s) if s != "porta" else DB / f"tool_v0_summary{TAG}.csv"
+            if not f.exists() or pd.read_csv(f).scenario.str.startswith("S1b").any():
+                continue
+            t = time.time()
+            print(f"\n=== {name}: s1b ===", flush=True)
+            r = subprocess.run([sys.executable, *steps(name, s)[2][2], "--s1b-only"], cwd=ROOT)
+            pd.DataFrame([dict(barri=name, step="s1b", status="ok" if r.returncode == 0 else f"failed ({r.returncode})",
+                               minutes=round((time.time() - t) / 60, 1), when=time.strftime("%Y-%m-%d %H:%M"))]).to_csv(
+                log, mode="a", header=not log.exists(), index=False)
     elif "--summary" not in sys.argv:
         for name, s in barris[1:]:
             for step, done, cmd in steps(name, s):
