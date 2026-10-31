@@ -150,3 +150,12 @@ Street trees: 156,253 (2018 Q1), peak 157,674 (2020 Q3), 145,034 (2026 Q3).
   whole-street replantings.
 Outputs: `databases/barcelona/inventory_snapshots.csv`, `inventory_replacements.csv` (column `kind`),
 `inventory_replacement_matrix.csv`.
+
+### 6b. S1b in the tool (31 Oct)
+`layout.s1b_mix()` weights the S1a draw by the observed plane replacements; the city palette covers 53% of them
+(Gleditsia, Koelreuteria, Grevillea are outside it; the draw renormalises). Added to all 33 finished barris
+(`run_barris.py --s1b`, `barris_summary.csv` columns `*_s1b`, `tool_margin_s1b_pts`). Tool margin in summer shade
+(points of S0): **vs S1a median 5.7 (0.8–11.7), vs S1b median 7.2 (0.9–18.1); no barri ≤ 0.** S1b vs S1a: median
+−1.5 points (−8.0 to +4.4), so the observed mix is usually a little worse than the press mix. Porta: S1a 87.4, S1b 90.3,
+tool 99.1 (margin 11.7 → 8.8). Narrative point: the baseline moved from a press-reported target to observed practice,
+and the tool's advantage holds against both.
