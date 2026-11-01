@@ -39,6 +39,23 @@ No condition field is published (Open Data BCN inventory). iArbol (Starlab) esti
 
 How the score is used: it ranks which trees are replaced first. The optimiser then chooses species for the top-ranked set, or for a project area. **Validation:** the trees removed between two inventory snapshots (Open Data BCN publishes quarterly versions) should have had higher scores. That is a cheap, honest test.
 
+**First validation (1 Nov, `scripts/validate_priority.py` → `databases/barcelona/porta_priority_validation.csv`).**
+- **Data:** Open Data BCN quarterly inventories 2021 Q3 → 2026 Q3, Porta, 2,982 street trees in 2021. Scores were recomputed on the 2021 trees with crowns re-segmented on the same LiDAR. Check: crown area r = 0.86 against the run's crowns for the 2,685 trees in both.
+- **Outcomes:**
+  - Removed (code missing in 2026): 298, of which 113 planes. No new code within 1 m.
+  - Replanted (same code, planting date after the flight): 164, of which 6 planes. A replacement at the same pit keeps its code.
+- **AUC, removed vs kept** (0.5 = chance):
+
+| Score | All trees | Planes |
+|---|---|---|
+| Priority | 0.58 | 0.60 |
+| Crown-vigour deficit | 0.66 | 0.76 |
+| Trunk class ("age") | 0.44 | 0.36 |
+
+- **Without a 2021 crown:** 67 removed trees had no LiDAR crown (deficit 1 by rule). Restricted to trees with a detected crown, vigour gives 0.65 overall and 0.75 for planes.
+- **Reading:** the LiDAR vigour deficit separates removed trees from kept ones better than chance, most clearly for planes. Trunk class read as age points the wrong way here: removed trees are on average younger. With equal weights (W_VIGOUR = 0.5, ASSUMPTION) it dilutes the vigour signal.
+- **Open:** whether to change the weights. A weight chosen on this same test would be fitted, not validated; it needs a held-out period or barri.
+
 ## 4. Plan (8 weeks to 18 Dec)
 
 | When | Step | Done when |
