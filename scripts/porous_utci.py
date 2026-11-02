@@ -71,6 +71,7 @@ def building_free(dirs):
 
 def crown_trans(trees, dirs, opaque):
     """(n_pts, n_dirs) transmission through the crowns (ellipsoids, as the loader builds them): product of tau per crown hit."""
+    trees = trees[trees.crown_diam_m > 0]                     # no crown (their NaN rays counted as misses anyway)
     a = trees.crown_diam_m.values / 2
     b = np.maximum(trees.height_m.values - trees.crown_base_m.values, 1.0) / 2
     c = np.c_[trees.x, trees.y, trees.ground_z + (trees.height_m + trees.crown_base_m) / 2]
