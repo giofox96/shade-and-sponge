@@ -1,6 +1,6 @@
 # Reply to Angelos Chronis (cc Serjoscha Duering, Oana Taut): Infrared City account, surrogate, open source (draft, 1 Nov 2026)
 
-Answers Angelos's three points from his reply to `notes/email_infrared_city.md` (sent 30 Oct). Not sent. Grounded in `shade_sponge/heat.py` (shade proxy), `shade_sponge/layout.py` (LP over positions × species, HiGHS), `notes/methodology.md` §6 (Tan & Liu 2026 as template), `notes/method_heat_validation.md` §6 (acceptance thresholds). The run counts repeat the first email's estimates (author's, not vendor-checked). Fill the two [brackets] before sending.
+Answers Angelos's three points from his reply to `notes/email_infrared_city.md` (sent 30 Oct). Not sent. Grounded in `shade_sponge/heat.py` (shade proxy), `shade_sponge/layout.py` (LP over positions × species, HiGHS), `notes/methodology.md` §6 (Tan & Liu 2026 as template), `notes/method_heat_validation.md` §6 (acceptance thresholds). The run counts repeat the first email's estimates (author's, not vendor-checked). Fill the [IAAC address] bracket before sending.
 
 ---
 
@@ -10,7 +10,7 @@ Dear Angelos, dear Serjoscha, dear Oana,
 
 Thank you for the quick reply and for looping in the team.
 
-**1. Account.** [OPTION A: I registered on the free tier on __ with this address, so you can find the account.] [OPTION B: Not yet. I will register on the free tier today with this address and start with it.] I will check each job's cost with `preview_area` before running it.
+**1. Account.** Yes, I already have an account, registered with my IAAC institutional email ([IAAC address]). If it is better to have it under my personal email (giofox96@gmail.com), for example so that it stays active after the master ends, I can open a second one; just let me know which you prefer for the credits. I will check each job's cost with `preview_area` before running it.
 
 **2. The surrogate.** The aim is narrow: a model that predicts how much one tree of a given species, planted at a given street position, lowers pedestrian UTCI. My optimiser assigns replacement species to the existing plane-tree positions (832 in Porta, 31,580 across 28 districts in the city-wide run) as a linear program. It needs one number for every position and species pair, and today that number comes from my own shade proxy (crown shadow × canopy transmissivity from LAI). The surrogate would replace that number with one learned from Infrared City.
 
