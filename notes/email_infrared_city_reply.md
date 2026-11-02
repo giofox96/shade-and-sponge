@@ -1,6 +1,6 @@
 # Reply to Angelos Chronis (cc Serjoscha Duering, Oana Taut): Infrared City account, surrogate, open source (draft, 1 Nov 2026)
 
-Answers Angelos's three points from his reply to `notes/email_infrared_city.md` (sent 30 Oct). Not sent. Grounded in `shade_sponge/heat.py` (shade proxy), `shade_sponge/layout.py` (LP over positions × species, HiGHS), `notes/methodology.md` §6 (Tan & Liu 2026 as template), `notes/method_heat_validation.md` §6 (acceptance thresholds). The run counts repeat the first email's estimates (author's, not vendor-checked). Ready to send.
+Answers Angelos's three points from his reply to `notes/email_infrared_city.md` (sent 30 Oct). Sent by Giovanni on 2 Nov 2026 (with Tan & Liu 2026 attached); awaiting reply. Grounded in `shade_sponge/heat.py` (shade proxy), `shade_sponge/layout.py` (LP over positions × species, HiGHS), `notes/methodology.md` §6 (Tan & Liu 2026 as template), `notes/method_heat_validation.md` §6 (acceptance thresholds). The run counts repeat the first email's estimates (author's, not vendor-checked).
 
 ---
 
