@@ -28,7 +28,7 @@ I attach the two papers I cite above (Tan & Liu, 2026; Hao et al., 2023).
 
 Joscha and Oana, I would be glad to have your view on this, in particular whether a tree in Infrared City carries a species-specific transmissivity, and whether a per-tree target like this one makes sense with how the models work.
 
-**3. Open access / open source.** Understood, and I am happy with it. The code (Python core, web app) is in a GitHub repository that I will make public under an open licence at submission, and the thesis will be released open access. One question so I plan it right: may I publish the Infrared City outputs used for training, and the trained surrogate itself, together with the code? If not, I would release the training scripts and the sampling design, so that anyone with an account can regenerate the data.
+**3. Open access / open source.** Understood, and I am happy with it. The code (Python core, web app) is already public on GitHub: https://github.com/giofox96/shade-and-sponge (web app: https://giofox96.github.io/shade-and-sponge/). I will add an open licence to it, and the thesis will be released open access. One question so I plan it right: may I publish the Infrared City outputs used for training, and the trained surrogate itself, together with the code? If not, I would release the training scripts and the sampling design, so that anyone with an account can regenerate the data.
 
 Thank you again, and I look forward to your thoughts.
 
