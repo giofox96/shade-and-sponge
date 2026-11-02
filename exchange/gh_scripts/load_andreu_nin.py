@@ -23,7 +23,7 @@ def rows(name):
 def crown(r):
     """Ellipsoid crown: centre between crown base and top, horizontal diameter crown_diam_m."""
     h, hb, d, z0 = float(r["height_m"]), float(r["crown_base_m"]), float(r["crown_diam_m"]), float(r["ground_z"])
-    s = rg.Sphere(rg.Point3d.Origin, 1.0).ToBrep()
+    s = rg.Mesh.CreateFromSphere(rg.Sphere(rg.Point3d.Origin, 1.0), 32, 16)  # a mesh: Rhino ignores a non-uniform scale on the sphere Brep
     s.Transform(rg.Transform.Scale(rg.Plane.WorldXY, d / 2.0, d / 2.0, max(h - hb, 1.0) / 2.0))
     s.Transform(rg.Transform.Translation(rg.Vector3d(float(r["x"]), float(r["y"]), z0 + (h + hb) / 2.0)))
     return s
