@@ -1,109 +1,188 @@
-# Ladybug Tier 1 test, step by step (Pg Andreu Nin, S0 vs tool layout)
+# Ladybug test on Pg Andreu Nin: click-by-click guide
 
-What it gives: mean UTCI 12–17 h on 15 July at 1,974 points along Pg Andreu Nin. Run 1 uses today's planes (S0); run 2 uses the tool's layout on the same 80 positions (S4). Everything else stays the same. Method: `notes/methodology.md` §1 (Tier 1). Window: `notes/decisions/heat_objective.md`.
-Time: about 1 h the first time, then a few minutes per run.
+**Goal.** Compute UTCI (felt temperature) at 1,974 points along Pg Andreu Nin, 15 July, 12–17 h local time.
+Run it twice: **S0** = today's 80 planes; **S4** = the tool's species on the same 80 spots. Then send me the two CSV files.
 
-## 0. Before you start
-- `git pull` in the project folder. The files are in `exchange/to_gh/`, named `street_andreu-nin_*_20261031.*`.
-- Rhino 8 (or 7) with Ladybug Tools 1.x installed.
-- The EPW: TMYx El Prat 2011–2025, the same file as `scripts/heat_bounds.py`. If you don't have it locally, drag *LB Download Weather* onto the canvas and give it the climate.onebuilding.org URL of that file.
-- Create the folder `exchange/from_gh/` if it doesn't exist: the writer in step 4 doesn't create it.
-- Units: metres. All files are in local coordinates (see the top of `exchange/README.md`), and z is absolute elevation, so nothing needs moving.
+You need: Rhino 7 or 8, Grasshopper, Ladybug Tools 1.x (the "LB ..." components), and the kit folder.
 
-## 1. Geometry (three GH Python components)
-Create a GhPython component for each snippet below. Set `path` to the full file path (a Panel works), and use item access for every input.
+The canvas you build has **7 boxes**. Your Grasshopper (GH) work is only the two Python boxes, which you copy and paste, plus five Ladybug boxes:
 
-**1a. Buildings:** the "buildings" snippet in `exchange/README.md`, on `street_andreu-nin_buildings_20261031.geojson`. Output `breps`.
-
-**1b. Context trees:** the "tree crowns" snippet in `exchange/README.md`, on `street_andreu-nin_context_trees_20261031.csv`. Output `crowns`.
-
-**1c. Street trees:** this variant. The S0 and S4 files have no `flag` column and use `lai`. Start with path = `street_andreu-nin_trees_S0_current_20261031.csv`.
-```python
-import csv
-import Rhino.Geometry as rg
-crowns, species = [], []
-for r in csv.DictReader(open(path)):
-    h, hb, d, z0 = float(r["height_m"]), float(r["crown_base_m"]), float(r["crown_diam_m"]), float(r["ground_z"])
-    c = rg.Point3d(float(r["x"]), float(r["y"]), z0 + (h + hb) / 2.0)
-    s = rg.Sphere(rg.Point3d.Origin, 1.0).ToBrep()
-    s.Transform(rg.Transform.Scale(rg.Plane.WorldXY, d / 2.0, d / 2.0, max(h - hb, 1.0) / 2.0))
-    s.Transform(rg.Transform.Translation(rg.Vector3d(c)))
-    crowns.append(s); species.append(r["species"])
+```
+[folder panel] ─┐
+[scenario panel]┼─> (1) LOAD ──context──┐
+[step slider] ──┘          └──pts───────┼─> (3) LB Human to Sky Relation ─┐
+(2) LB Import EPW ──location────────────┘                                 │
+        │ ──dry bulb, radiation──> (4) LB Outdoor Solar MRT <─────────────┘
+        │                                │ mrt
+        └──dry bulb, RH, wind──> (5) LB UTCI Comfort
+                                         │ utci
+                       (6) LB Apply Analysis Period (15 Jul, 11–16)
+                                         │
+                                  (7) SAVE ──> CSV in exchange/from_gh
 ```
 
-**1d. Test points:** on `street_andreu-nin_testpoints_20261031.csv`. Output `pts`.
-```python
-import csv
-import Rhino.Geometry as rg
-pts = [rg.Point3d(float(r["x"]), float(r["y"]), float(r["z"])) for r in csv.DictReader(open(path))]
-```
-Check: 30 buildings, 87 context crowns, 80 street crowns and 1,974 points, all overlapping in the Rhino view.
+---
 
-**1e. Context:** *Merge* the three outputs `breps` + context `crowns` + street `crowns` into one list. This is the shade context.
+## Step 0: Prepare (5 min)
 
-## 2. Weather, 15 July, 12–17 h local time
-1. *LB Import EPW*, with `_epw_file` set to the El Prat TMYx file.
-2. *LB Analysis Period*: start month 7, day 15, hour **11**; end month 7, day 15, hour **16**. The EPW is in standard time, so EPW hours 11–16 = 12–17 h summer time, the decided window.
-3. One *LB Apply Analysis Period* for each of the six outputs: dry_bulb_temperature, relative_humidity, wind_speed, direct_normal_rad, diffuse_horizontal_rad, horizontal_infrared_rad. Plug in the period from step 2.
+1. **Unzip** `ladybug_andreu_nin.zip` somewhere short, e.g. `C:\ladybug_andreu_nin\`. Inside you see `exchange\` and `weather\`.
+2. **Open Rhino** and start a new model. The template doesn't matter.
+3. **Set the units to metres.** Type `Units` in the command line, press Enter, and set *Model units = Meters*. Press OK.
+4. **Open Grasshopper.** Type `Grasshopper` in the command line and press Enter.
+5. **How to place a component** (you will do this 7 times): **double-click on an empty part of the canvas**, type the component name (e.g. `LB Import EPW`), and press Enter.
+6. **How to connect:** drag from an output (the small half-circle on the **right** of a box) to an input (on the **left** of another box).
+7. **How to read a value:** hover the mouse over any input or output and wait one second. A tooltip shows its name and data.
 
-## 3. MRT and UTCI
-1. *LB Human to Sky Relation*:
-   - `_location` from *LB Import EPW*;
-   - `_position` = the test points `pts`;
-   - `_context` = the merged context from 1e;
-   - `_cpu_count_` empty (uses all cores);
-   - `_run` = True.
+---
 
-   Outputs: `fract_body_exp`, `sky_exposure`. This is the slow step.
-2. *LB Outdoor Solar MRT*:
-   - `_location`;
-   - `_surface_temp` = filtered dry bulb;
-   - `_dir_norm_rad`, `_diff_horiz_rad` and `_horiz_infrared` = the filtered radiation streams;
-   - `_fract_body_exp_` and `_sky_exposure_` from step 1;
-   - `_ground_ref_` = 0.25;
-   - `_run` = True.
+## Step 1: The LOAD component (reads all the geometry)
 
-   Output `mrt`.
-3. *LB UTCI Comfort*:
-   - `_air_temp` = filtered dry bulb;
-   - `_mrt_` = `mrt`;
-   - `_rel_humid` = filtered relative humidity;
-   - `_wind_vel_` = filtered wind speed (10 m wind as is, as in the bounding run).
+1. Double-click the canvas and type:
+   - **Rhino 8:** `Python 3 Script`
+   - **Rhino 7:** `GhPython Script`
 
-   Output `utci`: one data collection per point, with 6 hours.
+   Then press Enter.
+2. **Inputs.** The box has inputs `x` and `y`; you need three: `folder`, `scenario`, `step`.
+   - Zoom in on the box (mouse wheel) until small **+** and **−** signs appear next to the inputs. Click **+** once to get a third input.
+   - **Rename** each input: right-click its name > click the name field at the top of the menu > type the new name > Enter.
+   - Use these names exactly, in this order: `folder`, `scenario`, `step`.
+3. **Input settings.** Right-click each input:
+   - `folder`: *Item Access* (the default). Then *Type hint* > `str`.
+   - `scenario`: *Item Access*. Then *Type hint* > `str`.
+   - `step`: *Item Access*. Then *Type hint* > `int`.
+4. **Outputs.** Make three outputs, the same way (zoom in, **+**, rename): `context`, `pts`, `info`.
+   - In Rhino 8 the default output is called `a`; rename it to `context`, then add two more.
+   - In Rhino 7 the defaults are `out` and `a`. Leave `out`; rename `a` to `context`, then add `pts` and `info`.
+5. **The code.** Double-click the box to open the editor.
+   - Delete everything in it.
+   - Open `exchange\gh_scripts\load_andreu_nin.py` in Notepad, select all (Ctrl+A), copy, and paste it into the editor.
+   - Rhino 8: press the **Run/Play** button, then close the editor. Rhino 7: click **OK**.
+6. **Feed the inputs:**
+   - **folder:** double-click the canvas, type `Panel`, Enter. Double-click inside the panel and write the full path of the `to_gh` folder, e.g. `C:\ladybug_andreu_nin\exchange\to_gh`. Click outside the panel, then connect the panel to `folder`.
+   - **scenario:** another Panel with the text `S0`, connected to `scenario`.
+   - **step:** double-click the canvas, type `Number Slider`, Enter. Right-click the slider > *Edit*: Type = Integer, Min = 1, Max = 20, Value = **10**. Connect it to `step`.
 
-Check: values should sit roughly in the 30–40 °C range. Sunlit points should be clearly hotter than points under crowns.
+     10 means "use every 10th point": about 200 points instead of 1,974. **First do a quick test with 10, then the real run with 1.**
+7. **Check:** connect a Panel to the output `info`. It should say:
 
-## 4. Save, then repeat with the tool layout
-GhPython writer. Inputs:
-- `path` (item);
-- `points` = `pts` (list access);
-- `utci` (list access);
-- `scenario` (item);
-- `run` (Boolean Toggle).
-```python
-import csv, os
-if run:
-    new = not os.path.exists(path)
-    with open(path, "a") as f:
-        w = csv.writer(f, lineterminator="\n")
-        if new:
-            w.writerow(["scenario", "hour", "point_id", "x", "y", "z", "utci_C"])
-        for i, (p, dc) in enumerate(zip(points, utci)):
-            for dt, v in zip(dc.datetimes, dc.values):
-                w.writerow([scenario, str(dt), i, round(p.X, 2), round(p.Y, 2), round(p.Z, 2), round(float(v), 3)])
-```
-1. Set path = `exchange/from_gh/utci_S0_current_<date>.csv` and scenario = `S0_current`. Toggle `run` once, then set it back to False.
-2. In 1c, change the path to `street_andreu-nin_trees_S4_s1.00_w0.00_r0.00_20261031.csv`. Ladybug recomputes.
-3. Set path = `exchange/from_gh/utci_S4_s1.00_w0.00_r0.00_<date>.csv` and scenario = `S4_s1.00_w0.00_r0.00`, then toggle `run` once.
-4. In `exchange/from_gh/run_log.md`, write: EPW file name, period, ground reflectance 0.25, wind as is, crowns opaque, Ladybug version, run time. Then commit and push, or tell me and I do it from the PC.
+   `scenario S0: 30 buildings, 87 context crowns, 80 street crowns, 198 test points`
 
-I then compute mean UTCI 12–17 h per scenario and the S4 − S0 difference per point. The difference counts only if it exceeds the Ladybug-vs-ENVI-met error, 0.8–2.3 °C (`heat_objective.md`).
+   (with step = 1: 1,974 test points).
 
-## Known limits of this first run (state them, don't fix them now)
-- **Opaque crowns.** Species differ here only by crown size and shape, not by leaf density. The τ = exp(−0.5·LAI) correction (Peng et al. 2026) is the next step (`methodology.md` §1).
-- **No transpiration cooling.** Ladybug likely underestimates the cooling by about 2–3 °C UTCI (Mannucci et al. 2025).
-- **Airport weather.** The EPW is from El Prat, not from Porta.
-- **The date.** 15 July is an ASSUMPTION shared with the tool's shade proxy.
+   In the Rhino viewport (zoom extents: type `Zoom`, Enter, then `Extents`) you should see boxes (the buildings), ellipsoids (the trees) and points.
+   - If the box turns **red**: hover over it and read the message. A wrong path is the usual cause: copy it from the Windows Explorer address bar.
 
-If a component's inputs or outputs look different from what is written here (Ladybug versions change), send me a screenshot of the canvas.
+---
+
+## Step 2: Weather (LB Import EPW)
+
+1. Place `LB Import EPW`.
+2. Panel with the full path of the EPW file, e.g. `C:\ladybug_andreu_nin\weather\ESP_CT_Barcelona-El.Prat.AP.081810_TMYx.2011-2025.epw`. Connect it to `_epw_file`.
+3. Nothing else to set. The outputs you use are `location`, `dry_bulb_temperature`, `relative_humidity`, `wind_speed`, `direct_normal_rad`, `diffuse_horizontal_rad`, `horizontal_infrared_rad`.
+
+---
+
+## Step 3: Which part of the body sees the sun (LB Human to Sky Relation)
+
+1. Place `LB Human to Sky Relation`.
+2. Connect:
+   - `_location` ← `location` from LB Import EPW
+   - `_position` ← `pts` from LOAD
+   - `_context` ← `context` from LOAD
+   - Leave the other inputs empty. If there is a `_run` input, connect a `Boolean Toggle` (double-click the canvas, type `Boolean Toggle`) and set it to **True**.
+3. **This is the slow step.** With step = 10 it should take a few minutes; with step = 1 it can take much longer. Grasshopper freezes while it works: that's normal.
+4. Outputs: `fract_body_exp` and `sky_exposure`.
+
+---
+
+## Step 4: Radiant temperature (LB Outdoor Solar MRT)
+
+1. Place `LB Outdoor Solar MRT`.
+2. Connect:
+   - `_location` ← `location` (LB Import EPW)
+   - `_surface_temp` ← `dry_bulb_temperature` (LB Import EPW)
+   - `_dir_norm_rad` ← `direct_normal_rad`
+   - `_diff_horiz_rad` ← `diffuse_horizontal_rad`
+   - `_horiz_infrared` ← `horizontal_infrared_rad`
+   - `fract_body_exp_` ← `fract_body_exp` (Human to Sky Relation)
+   - `sky_exposure_` ← `sky_exposure` (Human to Sky Relation)
+   - `_ground_ref_` ← a Panel with `0.25`
+   - If there is a `_run` input: a Boolean Toggle set to **True**.
+3. Output: `mrt`.
+
+---
+
+## Step 5: UTCI (LB UTCI Comfort)
+
+1. Place `LB UTCI Comfort`.
+2. Connect:
+   - `_air_temp` ← `dry_bulb_temperature` (LB Import EPW)
+   - `_mrt_` ← `mrt` (Outdoor Solar MRT)
+   - `_rel_humid` ← `relative_humidity` (LB Import EPW)
+   - `_wind_vel_` ← `wind_speed` (LB Import EPW)
+   - If there is a `_run` input: a Boolean Toggle set to **True**.
+3. Output: `utci`.
+
+---
+
+## Step 6: Keep only 15 July, 12–17 h (LB Analysis Period + LB Apply Analysis Period)
+
+1. Place `LB Analysis Period`. Give it Panels (one per input):
+   - `_start_month_` = `7`, `_start_day_` = `15`, `_start_hour_` = `11`
+   - `_end_month_` = `7`, `_end_day_` = `15`, `_end_hour_` = `16`
+
+   **Why 11–16:** the EPW is in winter time (UTC+1). 11–16 in the file = **12–17 h on the July clock**. This window was decided on 25 Oct.
+2. Place `LB Apply Analysis Period`:
+   - `_data` ← `utci` (UTCI Comfort)
+   - `_analysis_period` ← `period` (Analysis Period)
+3. Output: `data`. It holds 6 hourly values per point.
+4. **Check:** connect a Panel to `data`. You should see numbers around 30–40 °C. In the sun they are higher; under the trees, lower.
+
+---
+
+## Step 7: The SAVE component (writes the CSV)
+
+1. Make a second Python box, exactly as in Step 1, points 1–5, but:
+   - **Inputs, in this order:** `folder`, `scenario`, `pts`, `utci`, `run`.
+     - `folder` and `scenario`: *Item Access*, *Type hint* `str`.
+     - `pts` and `utci`: right-click > **List Access**.
+     - `run`: *Item Access*, *Type hint* `bool`.
+   - **Output:** `info` (in Rhino 7 leave `out` and rename `a` to `info`).
+   - **Code:** paste `exchange\gh_scripts\write_utci.py`.
+2. Connect:
+   - `folder` ← a Panel with the `from_gh` path, e.g. `C:\ladybug_andreu_nin\exchange\from_gh`
+   - `scenario` ← the **same** scenario Panel as LOAD (the one with `S0`)
+   - `pts` ← `pts` from LOAD
+   - `utci` ← `data` from LB Apply Analysis Period. Then **right-click the `utci` input > Flatten**. A small arrow icon appears on it.
+   - `run` ← a **Button** (double-click the canvas, type `Button`)
+3. Panel on `info`. Click the Button once. The panel says `saved 198 points x 6 hours to ...\utci_S0_<date>.csv`.
+
+   If it says `NOT SAVED ... Flatten`, step 2's Flatten is missing.
+
+---
+
+## Step 8: The real runs
+
+1. **Quick test done (step = 10)?** You should now have a `utci_S0_...csv`.
+2. Set the slider `step` to **1** and wait for everything to recompute. It's slow, so leave the PC alone. Click **SAVE**. This overwrites the S0 file of the same day with all 1,974 points.
+3. Change the scenario Panel from `S0` to **`S4`**. Everything recomputes with the new trees. Click **SAVE** again: you get `utci_S4_<date>.csv`.
+4. **Save the GH file** (File > Save As) into the `exchange\from_gh` folder. That way we know exactly what was run.
+5. **Send me back the `from_gh` folder:** the two CSVs, plus the .gh if possible. Also send:
+   - the Ladybug version (Grasshopper menu > Ladybug > About, or the LB Versioner component);
+   - how long step 3 took.
+
+I then compute the mean UTCI 12–17 h for S0 and S4, and the difference point by point.
+
+---
+
+## If something goes wrong
+- **Red box:** hover it and read the message. Send me a screenshot of the canvas and of the message.
+- **Orange box:** a warning, usually not blocking. Read it anyway.
+- **An LB input has a different name** from this guide (Ladybug versions change): hover over the inputs, match them by meaning, or send me a screenshot.
+- **Too slow:** keep step = 10 for both S0 and S4 and send me those. A first result with 200 points is already useful.
+
+## Known limits of this first run (just note them)
+- Crowns are **opaque**: species differ only by crown size and shape, not by leaf density.
+- No cooling from transpiration: Ladybug probably underestimates the trees' effect.
+- The weather is from El Prat airport, not from Porta.
+- 15 July is an ASSUMPTION, the same as in the tool.
