@@ -2,7 +2,7 @@
 Re-computes the proxy's shade (shade_sponge.heat: ellipsoid crown shadow, opacity 1 - exp(-0.5 LAI)) at the same 1,974 test
 points and hours as the Ladybug run, for S0 (today) and S4 (tool layout), twice: with the proxy's LAI opacity and with opaque
 crowns, as Ladybug modelled them. A point counts as shaded by a crown only where the buildings leave it in the sun.
-Input: exchange/to_gh/street_andreu-nin_* (geometry the Ladybug loader read), exchange/from_gh/utci_*_20261102.csv.
+Input: exchange/to_gh/street_andreu-nin_* (geometry the Ladybug loader read), exchange/from_gh/utci_*_mesh_20261102.csv (Grasshopper rerun with mesh crowns).
 Output: databases/barcelona/ladybug_vs_proxy_andreu_nin.csv (one row per point) and a printed summary.
 Run: python scripts/compare_ladybug_proxy.py"""
 import json, pathlib, sys
@@ -64,7 +64,7 @@ LIT = {s: [sunlit(p, z, *s) for p, z in zip(P, pts.z)] for s in suns}
 res = pts[["point_id", "x", "y"]].copy()
 res["sunlit_h"] = np.sum([LIT[s] for s in suns], 0)
 for k, s in SC.items():
-    u = pd.read_csv(FG / f"utci_{s}_20261102.csv").groupby("point_id").utci_C.mean()
+    u = pd.read_csv(FG / f"utci_{s}_mesh_20261102.csv").groupby("point_id").utci_C.mean()
     res[f"utci_{k}"] = res.point_id.map(u)
     tr = pd.concat([pd.read_csv(TG / f"street_andreu-nin_trees_{s}_20261031.csv"), ctx], ignore_index=True)
     res[f"shade_lai_{k}"] = shade(tr, False)

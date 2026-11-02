@@ -115,7 +115,8 @@ DT = wx["dry_bulb_temperature"].datetimes
 res = pts[["point_id"]].copy()
 for k, s in SC.items():
     tr = pd.concat([pd.read_csv(TG / f"street_andreu-nin_trees_{s}_20261031.csv"), ctx], ignore_index=True)
-    f = next(iter(sorted(FG.glob(f"utci_{s}_*.csv"))), None) or next(iter(sorted(FG.glob(f"utci_{k}*.csv"))), None)
+    f = next(iter(sorted(FG.glob(f"utci_{s}_*.csv"), reverse=True)), None) \
+        or next(iter(FG.glob(f"utci_{k}.csv")), None)        # "_mesh_" sorts after the date: the corrected rerun first
     if f:                                                     # the Grasshopper run, when there is one
         res[f"utci_gh_{k}"] = res.point_id.map(pd.read_csv(f).groupby("point_id").utci_C.mean())
     for mode in ("opaque", "lai"):
