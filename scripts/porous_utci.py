@@ -24,7 +24,9 @@ from ladybug_comfort.collection.solarcal import OutdoorSolarCal
 from ladybug_comfort.collection.utci import UTCI
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
-TG, FG = ROOT / "exchange/to_gh", ROOT / "exchange/from_gh"
+TG = ROOT / (sys.argv[2] if len(sys.argv) > 2 else "exchange/to_gh")             # optional: another set with the same file names
+FG = TG / "from_gh" if len(sys.argv) > 2 else ROOT / "exchange/from_gh"
+OUT = sys.argv[3] if len(sys.argv) > 3 else "porous_utci_andreu_nin.csv"
 SC = {"S0": "S0_current", "S4": "S4_s1.00_w0.00_r0.00"}
 K, H_UP, GROUND_REF = 0.5, 0.018 + 0.9, 0.25      # Beer-Lambert k (heat.K); LB human point; ground reflectance used in the GH run
 PERIOD = AnalysisPeriod(7, 15, 11, 7, 15, 16)    # EPW standard time 11-16 = 12-17 h CEST
@@ -75,6 +77,13 @@ def crown_trans(trees, dirs, opaque):
     s = np.c_[a, a, b]
     tau = np.zeros(len(trees)) if opaque else np.exp(-K * trees.lai.values)
     T = np.ones((len(P), len(dirs)))
+    for lo in range(0, len(P), 400):                          # chunks of points: memory
+        T[lo:lo + 400] = _trans(P[lo:lo + 400], c, s, tau, dirs)
+    return T
+
+
+def _trans(P, c, s, tau, dirs):
+    T = np.ones((len(P), len(dirs)))
     for j, d in enumerate(dirs):
         o = (P[:, None, :] - c[None]) / s[None]               # (n_pts, n_trees, 3) in unit-sphere space
         v = d[None, None, :] / s[None]
@@ -105,8 +114,9 @@ DT = wx["dry_bulb_temperature"].datetimes
 res = pts[["point_id"]].copy()
 for k, s in SC.items():
     tr = pd.concat([pd.read_csv(TG / f"street_andreu-nin_trees_{s}_20261031.csv"), ctx], ignore_index=True)
-    lb = pd.read_csv(FG / f"utci_{s}_20261102.csv").groupby("point_id").utci_C.mean()
-    res[f"utci_gh_{k}"] = res.point_id.map(lb)
+    f = next(iter(sorted(FG.glob(f"utci_{s}_*.csv"))), None) or next(iter(sorted(FG.glob(f"utci_{k}*.csv"))), None)
+    if f:                                                     # the Grasshopper run, when there is one
+        res[f"utci_gh_{k}"] = res.point_id.map(pd.read_csv(f).groupby("point_id").utci_C.mean())
     for mode in ("opaque", "lai"):
         fb = B_sun * crown_trans(tr, sun, mode == "opaque")
         se = (B_sky * crown_trans(tr, sky, mode == "opaque")) @ w
@@ -121,13 +131,13 @@ for k, s in SC.items():
         res[f"utci_{mode}_{k}"] = u
         res[f"sky_exp_{mode}_{k}"] = se
         print(f"{k} {mode}: mean UTCI {np.mean(u):.2f} C, sky exposure {se.mean():.3f}", flush=True)
-res.round(3).to_csv(ROOT / "databases/barcelona/porous_utci_andreu_nin.csv", index=False)
+res.round(3).to_csv(ROOT / "databases/barcelona" / OUT, index=False)
 
-for k in SC:
+for k in SC if "utci_gh_S0" in res else []:
     e = res[f"utci_opaque_{k}"] - res[f"utci_gh_{k}"]
     print(f"check {k}: opaque here vs Grasshopper, mean diff {e.mean():+.2f} C, MAE {e.abs().mean():.2f}, "
           f"r {np.corrcoef(res[f'utci_opaque_{k}'], res[f'utci_gh_{k}'])[0, 1]:.3f}")
-for m in ("gh", "opaque", "lai"):
+for m in [x for x in ("gh", "opaque", "lai") if f"utci_{x}_S0" in res]:
     d = res[f"utci_{m}_S4"] - res[f"utci_{m}_S0"]
     print(f"{m:6s}: S0 {res[f'utci_{m}_S0'].mean():.2f}  S4 {res[f'utci_{m}_S4'].mean():.2f}  S4-S0 {d.mean():+.2f} C "
           f"(median {d.median():+.2f}; S4 warmer at {100 * (d > 0.05).mean():.0f}% of points)")
