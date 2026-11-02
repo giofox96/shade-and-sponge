@@ -117,6 +117,46 @@ def fig_cap():
          b, SRC + " Cap: floor(15% × 140,404 street trees) minus each species today, pro rata to 31,580 of 40,137 city planes.")
 
 
+def fig_heat_check():
+    """First UTCI check on Pg Andreu Nin (notes/methodology.md §5b): Grasshopper run, Python opaque, Python porous."""
+    r = pd.read_csv(DB / "porous_utci_andreu_nin.csv")
+    v = pd.read_csv(DB / "ladybug_vs_proxy_andreu_nin.csv")
+    runs = [("Ladybug in Grasshopper", "opaque crowns", "gh"), ("Same chain in Python", "opaque crowns", "opaque"),
+            ("Same chain in Python", "porous crowns, τ = exp(−0.5·LAI)", "lai")]
+    lo, hi, x0, bw = 27.0, 28.6, 330, 440
+    sc = lambda u: bw * (u - lo) / (hi - lo)
+    b = t(60, 180, "Mean UTCI, 1,974 points, 15 July 12–17 h", 18, INK, "bold")
+    for i, (a, c, k) in enumerate(runs):
+        y = 230 + i * 150
+        b += t(60, y + 22, a, 18, INK, "bold") + t(60, y + 48, c, 15, MUTED)
+        for j, (s, col) in enumerate((("S0", MUTED), ("S4", TREE))):
+            u = r[f"utci_{k}_{s}"].mean()
+            b += rect(x0, y + j * 40, sc(u), 30, col, rx=3, op=0.85)
+            b += t(x0 + sc(u) + 8, y + j * 40 + 22, f"{s} {u:.2f} °C", 16, INK)
+        d = (r[f"utci_{k}_S4"] - r[f"utci_{k}_S0"]).mean()
+        b += t(940, y + 45, f"{d:+.2f} °C".replace("-", "−"), 30, HEAT if d > 0 else TREE, "bold")
+    b += t(940, 210, "S4 − S0", 16, MUTED, "bold")
+    b += para(60, 700, f"Axis from {lo:.0f} °C. S0 = today's 80 planes; S4 = the tool's species on the same spots. "
+              "The Python chain ranks points like Grasshopper (r 0.93–0.94) but runs 0.4–0.7 °C cooler; cause not found.",
+              900, 15, fill=MUTED)[0]
+    xr = 1150
+    r0 = np.corrcoef(v.shade_lai_S0, v.utci_S0)[0, 1]
+    r1 = np.corrcoef(v.d_shade_opaque, v.d_utci)[0, 1]
+    for k, (big, small) in enumerate([(f"r = {r0:.2f}".replace("-", "−"), "the shade proxy vs Ladybug UTCI across points: the proxy ranks points correctly"),
+                                      (f"r = {r1:.2f}".replace("-", "−"), "on the S4 − S0 change per point (opaque crowns)"),
+                                      ("±0.5 °C", "S4 − S0 on average, with a sign that depends on how crowns are modelled")]):
+        b += t(xr, 230 + k * 150, big, 36, TREE if k < 2 else WARN, "bold")
+        b += para(xr, 262 + k * 150, small, 420, 17, fill=INK)[0]
+    b += para(xr, 690, "Claim for the tool: for heat, no worse than today's planes within model uncertainty.", 420, 18,
+              fill=INK, weight="bold")[0]
+    save("res_06_heat_check", "Heat: a first independent check",
+         "Ladybug UTCI on Pg Andreu Nin (80 street trees), today vs the tool's layout",
+         b, "databases/barcelona/porous_utci_andreu_nin.csv, ladybug_vs_proxy_andreu_nin.csv (scripts/porous_utci.py, "
+         "compare_ladybug_proxy.py); Grasshopper run by the author 2 Nov 2026 (exchange/from_gh/). EPW: Barcelona El Prat TMYx "
+         "(climate.onebuilding.org). Porous crowns after Peng et al. 2026. 15 July is an ordinary July day, not the hot design day.")
+
+
 if __name__ == "__main__":
     fig_map()
     fig_cap()
+    fig_heat_check()
