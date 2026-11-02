@@ -22,6 +22,10 @@ Thank you for the quick reply and for looping in the team.
 
 One limit I will state: the linear program adds tree effects one by one, so neighbouring crowns that overlap are not captured in the surrogate. That is why every final layout is re-scored with the full Infrared City run.
 
+**Order of work.** Before spending any Infrared City credits, I will first run a Ladybug UTCI test this week on one street in Porta (Passeig d'Andreu Nin, 80 plane trees), to check my shade proxy against an accepted engine. I will share the result with you, and it will tell me which positions and layouts are worth sending to Infrared City first.
+
+I attach the two papers I cite above (Tan & Liu, 2026; Hao et al., 2023).
+
 Joscha and Oana, I would be glad to have your view on this, in particular whether a tree in Infrared City carries a species-specific transmissivity, and whether a per-tree target like this one makes sense with how the models work.
 
 **3. Open access / open source.** Understood, and I am happy with it. The code (Python core, web app) is in a GitHub repository that I will make public under an open licence at submission, and the thesis will be released open access. One question so I plan it right: may I publish the Infrared City outputs used for training, and the trained surrogate itself, together with the code? If not, I would release the training scripts and the sampling design, so that anyone with an account can regenerate the data.
