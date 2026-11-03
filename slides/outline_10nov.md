@@ -14,7 +14,7 @@ The deck follows that order.
 - **Reused:** from `slides/fig_v6/` and `slides/fig/`.
 - **Text slides** (2, 3, 4, 5, 7, 8, 9 and a final "What comes next") are figures too, from `scripts/make_slides_v7.py`, which also builds **`slides/shade_and_sponge_10nov.pptx`**: 17 slides plus 5 backups, one figure per slide, with the script below as speaker notes.
 
-**Length:** 16 slides plus backups, ~1,280 spoken words: about 8:35 at 150 words a minute, and about 10:35 with pauses and slide changes (the timestamps in the headings). The core version, dropping slides 7 and 9, saves about 1 minute.
+**Length:** 16 slides plus backups, ~1,290 spoken words: about 8:35 at 150 words a minute, and about 10:35 with pauses and slide changes (the timestamps in the headings). The core version, dropping slides 7 and 9, saves about 1 minute.
 
 **Sources:**
 - `notes/topic_decision.md` §10 (problem v7, RQ v7, decisions of 24 Oct);
@@ -174,15 +174,16 @@ The deck follows that order.
 
 ---
 
-## 16. Validation, and what comes next [9:55]
-**Figure:** `slides/fig_v7/flow_05_validation.png`
+## 16. Validation: a first heat check, and what comes next [9:55]
+**Figure:** `slides/fig_v7/res_06_heat_check.png` (the validation flowchart moves to backup B7)
 **On slide (right):**
-- To 1 Dec: UTCI with Ladybug on final layouts · priority score (tree health proxy) · city screening layer
-- To 18 Dec: project tool anywhere in Barcelona · Sant Antoni as transfer test
-- **Asks:** Infrared City access? · is a within-city transfer (Sant Antoni) enough? · may a barri lose while the city gains, or should every barri at least match the city mix?
+- Proxy vs Ladybug UTCI, Pg Andreu Nin, 1,974 points: r = −0.73 across points, −0.82 on the S4 − S0 change
+- S4 − S0, porous crowns, TMYx 2011–2025: −0.15 °C (Honeybee, Tier 2), −0.19 °C (Ladybug chain in Python, Tier 1), −0.10 °C over all Porta plane streets; opaque crowns +0.06 to +0.10 °C
+- To 1 Dec: UTCI on final layouts (Infrared City), hot design day · priority score · city screening layer. To 18 Dec: project tool anywhere in Barcelona · Sant Antoni transfer test
+- **Asks:** does Infrared City model porous crowns? · is a within-city transfer (Sant Antoni) enough? · may a barri lose while the city gains?
 
-**Say (110 words):**
-"Each module is checked against something it was not fitted to. Heat: my proxy against Ladybug on the same layouts, and Ladybug against ENVI-met from the literature. Runoff: interception against field data from Freiburg. The priority score: against trees the city actually removed between inventory snapshots. Then the whole method moves to Sant Antoni, same city and data, flood-dominant. Next: UTCI on the final layouts, the health proxy, and a screening layer for the whole city, so a designer can draw a project area anywhere. Three questions for you: Infrared City access, whether Sant Antoni is a sufficient transfer test, and whether one barri may lose while the city gains."
+**Say (132 words):**
+"First independent check of the heat proxy: UTCI, today's planes against the tool's species. The proxy ranks points as Ladybug does, so it is fit for choosing positions. I rebuilt the Ladybug chain in Python; it matches Grasshopper to two hundredths of a degree and lets light through the crowns by their leaf area. Honeybee with Radiance agrees. The two layouts differ by about a tenth of a degree, on one street and over all of Porta, and the sign depends on whether crowns are opaque or porous. So my claim for heat is modest: no worse than today's planes; the gains are runoff, diversity and winter sun. Three questions: does Infrared model porous crowns, is Sant Antoni enough as a transfer test, and may one barri lose while the city gains?"
 
 ---
 
@@ -192,4 +193,5 @@ The deck follows that order.
 - **B3 City screening:** `slides/fig_v7/flow_01_screening.png`
 - **B4 Results in real units:** `slides/fig_v7/res_02_bars.png`
 - **B5 Sizing rule leaves real choice:** `slides/fig_v6/v6_09_sizing_rule.png`
+- **B7 Validation plan:** `slides/fig_v7/flow_05_validation.png`
 - **B6 RQ scrutiny table:** `notes/topic_decision.md` §10.5 (text slide)

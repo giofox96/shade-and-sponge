@@ -175,10 +175,11 @@ SLIDES = [  # (outline heading number, figure path relative to slides/)
     (5, "fig_v7/v7_05_problem.png"), (6, "fig_v6/v6_04_crowns.png"), (7, "fig_v7/v7_07_gap.png"), (8, "fig_v7/v7_08_rq.png"),
     (9, "fig_v7/v7_09_hyp.png"), (10, "fig_v7/flow_00_overview.png"), (11, "fig_v7/flow_04_design.png"),
     (12, "fig_v7/res_01_radar.png"), (13, "fig_v7/res_03_scenarios.png"), (14, "fig_v7/res_04_city_map.png"),
-    (15, "fig_v7/res_05_city_cap.png"), (16, "fig_v7/flow_05_validation.png"),
+    (15, "fig_v7/res_05_city_cap.png"), (16, "fig_v7/res_06_heat_check.png"),
     (None, "fig_v7/v7_15_next.png"),
     (None, "fig_v7/flow_02_heat.png"), (None, "fig_v7/flow_03_runoff.png"), (None, "fig_v7/flow_01_screening.png"),
-    (None, "fig_v7/res_02_bars.png"), (None, "fig_v6/v6_09_sizing_rule.png")]
+    (None, "fig_v7/res_02_bars.png"), (None, "fig_v6/v6_09_sizing_rule.png"),
+    (None, "fig_v7/flow_05_validation.png")]
 
 
 def build_pptx():
