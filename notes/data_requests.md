@@ -18,8 +18,20 @@ forward replies or paste them in the thread. Nothing here is sent by Claude.*
 | 8 | **Ajuntament de Mataró** | Per-tree species table (Safetree / ORDS `T_C_ARBRAT`) | Browser check first, then request | Not started (browser check pending, `notes/todo_manual.md`) | Only if Mataró stays the Catalan fallback |
 | 9 | **BCASA, gauge series (optional)** / **Meteocat XEMA** | Real storms to replay | Covered by row 1 / free API key | Optional | No action |
 
-## 0. Before the instància: unread PDISBA volumes (3 Nov)
-PDISBA on BCNROC (https://bcnroc.ajuntament.barcelona.cat/items/3cc3df7e-be95-4111-a995-98715dbe172e, hdl 11703/119275, licence **CC BY-NC-ND**) has 11 files: Memòria, Pluges (read: IDF §2.6), Diagnosi Xarxa (338 p), Prognosi, Pla rehabilitació, Pla inversió, Plànols Vol. 1–5 (~1.7 GB each). Diagnosi and Plànols are unread and may hold current-network flood maps per return period for Nou Barris (check for T = 1–2). To do from the OMEN (cloud is blocked). The 5-min gauge series and GIS files are not in the PDFs, so the BCASA follow-up still goes out.
+## 0. PDISBA: what the published volumes already hold (read 3 Nov)
+PDISBA on BCNROC (https://bcnroc.ajuntament.barcelona.cat/items/3cc3df7e-be95-4111-a995-98715dbe172e, hdl 11703/119275,
+licence **CC BY-NC-ND**): all 11 TXT layers downloaded by Giovanni to `databases/barcelona/raw/pdisba/` (gitignored),
+renamed `01_memoria.txt` … `11_planols_vol5.txt`.
+- **A T = 1 yr run exists for the current network.** Diagnosi §4.4.2 (Doc. 3, p.152): the 1D/2D model was run for
+  T = 1, 10, 50, 100, 500 yr, present climate and RESCCUE 2100 climate. Results are in the map series, Diagnosi
+  Taula 38 (p.179): **T = 1 → plànols 6.2** (present climate), 7.1 (climate change), 12.1/13.1 (with SUDS).
+- Each series has 10 plates: 6.2.1 flows, 6.2.2 velocities, 6.2.3 network functioning, **6.2.4 surface drainage**,
+  **6.2.5 pedestrian hazard**, 6.2.6 vehicle hazard, 6.2.7–6.2.8 risk, 6.2.9 damages, **6.2.10 detail plans**.
+- Diagnosi Fig. 127 (p.271) charts the high-risk area for pedestrians per district (Nou Barris included) for T1–T500.
+- The plates are raster maps inside the 1.7 GB Plànols PDFs (the TXT layer holds only the index); which volume holds
+  series 6.2 is not yet known. **They are PDF maps, not GIS**, and ND forbids publishing modified versions.
+- **Consequence for the BCASA request:** no need to ask *whether* a T = 1 run exists; ask for the **GIS layers of
+  plànols series 6.2 (and 6.3, T = 10) for Nou Barris**, plus the gauge series.
 
 ## 1. BCASA instància: why it is complicated, and the package
 
@@ -61,8 +73,8 @@ adjunto la carta de mi tutor y el formulario de datos pluviométricos.
 **Solicito**, para uso exclusivamente académico, sin cesión a terceros y citando «Barcelona Cicle de l'Aigua, SA,
 Ajuntament de Barcelona»:
 1. Series de precipitación a 5 minutos de los pluviómetros de BCASA más cercanos a Nou Barris (periodo disponible).
-2. Resultados del modelo 1D/2D de drenaje (PDISBA) para Nou Barris: calados y velocidades máximas para los periodos de
-   retorno disponibles, en especial T = 1 o 2 años, en formato SIG.
+2. En formato SIG, los resultados del modelo 1D/2D del PDISBA para Nou Barris representados en los planos 6.2 (T = 1 año)
+   y 6.3 (T = 10 años) sin cambio climático: calados, velocidades y drenaje superficial.
 3. Si existe, la autorización para usar en la tesis las capas RESCCUE publicadas en el Atles de Resiliència (tablas
    `rcc_iu1_*`), con la cita que indiquen.
 
