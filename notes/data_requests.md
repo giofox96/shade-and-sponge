@@ -15,7 +15,8 @@ forward replies or paste them in the thread. Nothing here is sent by Claude.*
 - [ ] **AiEM (UPC)**: pick a researcher on https://aie.upc.edu/equip/ and send the email (text in the thread, 3 Nov).
 - [ ] **Wed 4 Nov, Parcs i Jardins**: one follow-up via the form quoting RGF7342 (§2).
 - [ ] **10 Nov, tutor**: ask Angelos for an Àrea d'Arbrat contact; mention the BCASA letter if BCASA says it can be done remotely.
-- [x] PDISBA PDFs downloaded (3 Nov); Diagnosi read. Plànols volumes came down incomplete: retry later only if needed.
+- [x] PDISBA PDFs downloaded (3 Nov); Diagnosi read.
+- [ ] Optional, another day: re-download Plànols Vol. II only, in the browser (BCNROC rate-limited us on 3 Nov).
 - [ ] Barcelona Regional: phone +34 932 237 400 around 13 Nov if still silent.
 
 ## Board (3 Nov 2026)
@@ -52,7 +53,7 @@ renamed `01_memoria.txt` … `11_planols_vol5.txt`.
   de Sant Andreu, surface flow down c/ Garrofers; Fig. 71) and **6.2.3.12 Tajo – Cartellà** (c/ Cartellà drains the
   strip between Ronda de Dalt and Turó de la Peira; Fig. 72). Whether either lies inside Porta is not yet checked.
 - **Plànols PDFs: downloads incomplete** (Vol I 1.23 GB and Vol II 1.15 GB truncated, III/IV partial, V empty; pdfinfo
-  cannot open any). Retry only if the T = 1 detail plates (6.2.10) are needed; the volume holding series 6.2 is unknown.
+  cannot open any). Vol IV is complete (394 pp.) but holds series 12 (future + SUDS; p.100 = plate 12.2.10, sheet B04, 1:5000 grid). Series 6.2 is probably in Vol II. On 3 Nov BCNROC answered curl with a rate-limit page (`error_400_rateExceeded`): retry Vol II only, in the browser, another day.
 - **Consequence for the BCASA request:** no need to ask *whether* a T = 1 run exists; ask for the **GIS layers of
   plànols series 6.2 (and 6.3, T = 10) for Nou Barris**, plus the gauge series.
 
