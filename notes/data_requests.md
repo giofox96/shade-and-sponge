@@ -13,7 +13,7 @@ forward replies or paste them in the thread. Nothing here is sent by Claude.*
 - [ ] **AiEM (UPC)**: pick a researcher on https://aie.upc.edu/equip/ and send the email (text in the thread, 3 Nov).
 - [ ] **Wed 4 Nov, Parcs i Jardins**: one follow-up via the form quoting RGF7342 (§2).
 - [ ] **10 Nov, tutor**: ask Angelos for an Àrea d'Arbrat contact; mention the BCASA letter if BCASA says it can be done remotely.
-- [ ] Optional: download the Diagnosi PDF (17 MB) from the PDISBA page to see the T = 1 maps.
+- [x] PDISBA PDFs downloaded (3 Nov); Diagnosi read. Plànols volumes came down incomplete: retry later only if needed.
 - [ ] Barcelona Regional: phone +34 932 237 400 around 13 Nov if still silent.
 
 ## Board (3 Nov 2026)
@@ -42,6 +42,15 @@ renamed `01_memoria.txt` … `11_planols_vol5.txt`.
 - Diagnosi Fig. 127 (p.271) charts the high-risk area for pedestrians per district (Nou Barris included) for T1–T500.
 - The plates are raster maps inside the 1.7 GB Plànols PDFs (the TXT layer holds only the index); which volume holds
   series 6.2 is not yet known. **They are PDF maps, not GIS**, and ND forbids publishing modified versions.
+- **Diagnosi PDF read (3 Nov, OMEN copy).** Fig. 59 (doc p.179 = PDF p.198), current network, present climate, metres
+  of sewer by state: **T = 1: 1,628,413 m free-surface, 201,260 m pressurised, 10,004 m within 0.5 m of ground,
+  45,982 m surcharging above ground**; T = 10: 757,601 / 618,324 / 63,931 / 445,803 m. So at T = 1 about 2.4% of the
+  network surcharges to the surface, at T = 10 about 24% (shares computed here from the figure's table).
+  §6.2.3 lists T = 10 critical points with maps; two are in or near Nou Barris: **6.2.3.11 Plaça Llucmajor** (old Riera
+  de Sant Andreu, surface flow down c/ Garrofers; Fig. 71) and **6.2.3.12 Tajo – Cartellà** (c/ Cartellà drains the
+  strip between Ronda de Dalt and Turó de la Peira; Fig. 72). Whether either lies inside Porta is not yet checked.
+- **Plànols PDFs: downloads incomplete** (Vol I 1.23 GB and Vol II 1.15 GB truncated, III/IV partial, V empty; pdfinfo
+  cannot open any). Retry only if the T = 1 detail plates (6.2.10) are needed; the volume holding series 6.2 is unknown.
 - **Consequence for the BCASA request:** no need to ask *whether* a T = 1 run exists; ask for the **GIS layers of
   plànols series 6.2 (and 6.3, T = 10) for Nou Barris**, plus the gauge series.
 
