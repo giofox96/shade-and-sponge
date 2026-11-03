@@ -147,9 +147,10 @@ parties and will be credited to Barcelona Cicle de l'Aigua, SA, Ajuntament de Ba
   microclimate, vegetation). Contact route: the group site; pick a named researcher before writing.
 
 ### 3b. Non-Barcelona leads (James, IAAC Slack, 3 Nov): literature first, contact later
-- **Ronita Bardhan** (University of Cambridge; profile https://www.cst.cam.ac.uk/people/rb867). James recalls a paper on
-  urban tree species and thermal comfort; press reports a Cambridge study on the cooling role of trees in overheating
-  cities. Exact paper not yet identified: find it, add it to the literature matrix if relevant, then decide on contact.
+- **Ronita Bardhan** (University of Cambridge; https://www.cst.cam.ac.uk/people/rb867). The paper James recalls is very
+  likely **Li et al. 2024, Commun. Earth Environ., doi 10.1038/s43247-024-01908-4** (Cambridge-led; Bardhan quoted in
+  the university's press release, authorship not confirmed from that page). **Already in the literature matrix (#41,
+  full-text digest).** No action needed beyond citing it; contact optional.
 - **Rob Adams** (former City Architect / Director City Design, City of Melbourne): lecture on Melbourne's trees.
   Melbourne's urban forest strategy and open tree data are a precedent for the state of the art, not a data source for
   Porta. Melbourne already appears in the matrix through Livesley's group (Baptista 2018, Grey 2018, Thom 2020).
