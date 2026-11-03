@@ -6,7 +6,7 @@ NSGA-II comes later, if the weighted-sum front leaves gaps."""
 import itertools, numpy as np, pandas as pd
 from scipy import ndimage, sparse
 from scipy.optimize import linprog
-from .site import DB, CITY_LIDAR, rc, species_lidar
+from .site import DB, CITY_LIDAR, rc, species_lidar, city_trees
 from . import heat, runoff, season
 
 CITY_PALETTE = ["Celtis australis", "Melia azedarach", "Pyrus calleryana", "Jacaranda mimosifolia", "Tipuana tipu",
@@ -27,9 +27,11 @@ RANK = {"none": -1, "small": 0, "medium": 1, "large": 2}
 # Celtis's 12% as per species (the source is ambiguous: "planes and Celtis ~12%"; notes/tree_master_plan.md §5).
 S1A_MIX = {"Celtis australis": 12, "Melia azedarach": 7.25, "Pyrus calleryana": 5, "Styphnolobium japonicum": 5,
            "Tipuana tipu": 5}
-# Equal trunk size (notes/topic_decision.md §9.9, §10.5 row 8): species traits = medians of the Porta trees in one trunk
+# Equal trunk size (notes/topic_decision.md §9.9, §10.5 row 8): species traits = medians of the site's trees in one trunk
 # class of the inventory (categoria_arbrat; TERCERA = 81–110 cm perimeter, 2011 guide p. 18). ASSUMPTION: TERCERA is the
-# reference; a species with fewer than MIN_CLASS trees there falls back to SEGONA, then to all classes.
+# reference; a species with fewer than MIN_CLASS trees there falls back to SEGONA, then to the same two classes in the
+# city pool (all barris with LiDAR crowns + Porta, city_trees()), then to all classes. The city pool mixes two LiDAR
+# flights (Porta Sept 2021, the other barris June 2022), both leaf-on.
 MIN_CLASS = 20
 
 
@@ -59,15 +61,16 @@ def palette(site, kind="city", trunk=None):
     p["trunk_class"] = "all"
     if trunk:
         ok = site.trees[site.trees.flag == "ok"]
+        pool = city_trees()
         for i, sp in enumerate(names):
             if sp in CITY_LIDAR:                              # Porta sample too small: city-wide medians kept
                 continue
-            for cls in (trunk, "SEGONA"):
-                g = ok[(ok.sp == sp) & (ok.size_category == cls)]
+            for src, cls in ((ok, trunk), (ok, "SEGONA"), (pool, trunk), (pool, "SEGONA")):   # local first, then city
+                g = src[(src.sp == sp) & (src.size_category == cls)]
                 if len(g) >= MIN_CLASS:
                     p.loc[i, ["crown_diam_m", "height_m", "crown_base_m", "lai", "n_lidar"]] = [
                         g.crown_diam_m.median(), g.height_m.median(), g.crown_base_m.median(), g.lai.median(), len(g)]
-                    p.loc[i, "trunk_class"] = cls
+                    p.loc[i, "trunk_class"] = cls if src is ok else f"{cls} (city)"
                     break
     t = site.trees
     kept = t[~t.is_plane].sp.value_counts().reindex(names).fillna(0).values
