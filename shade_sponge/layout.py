@@ -19,7 +19,17 @@ MIN_LIDAR = 20                              # ASSUMPTION: species need >= 20 LiD
 # here get no size filter (ASSUMPTION). Sidewalk width -> position class: scripts/porta_sidewalk_width.py (guide pp. 22-23).
 SIZE_CLASS = {"Platanus x acerifolia": "large", "Celtis australis": "large", "Tipuana tipu": "large",
               "Jacaranda mimosifolia": "large", "Melia azedarach": "medium", "Styphnolobium japonicum": "medium",
-              "Brachychiton populneus": "medium", "Pyrus calleryana": "small"}
+              "Brachychiton populneus": "medium", "Pyrus calleryana": "small",
+              # the rest of the Barcelona palette, same catalogue (read 3 Nov 2026; notes/tree_master_plan.md §5).
+              # ASSUMPTION: cultivars merged into the species (norm) take the species' class; Celtis sinensis is not listed.
+              "Ligustrum lucidum": "medium", "Prunus cerasifera": "medium", "Gleditsia triacanthos": "large",
+              "Cercis siliquastrum": "medium", "Ulmus pumila": "large", "Citrus × aurantium": "small",
+              "Robinia pseudoacacia": "large", "Koelreuteria paniculata": "medium", "Magnolia grandiflora": "medium",
+              "Grevillea robusta": "large", "Tilia x euchlora": "large", "Pinus pinea": "large", "Populus nigra": "large",
+              "Quercus ilex": "medium", "Firmiana simplex": "medium", "Fraxinus angustifolia": "large",
+              "Tilia x europaea": "large", "Casuarina cunninghamiana": "large", "Hibiscus syriacus": "small",
+              "Ginkgo biloba": "large", "Populus alba": "large", "Acer campestre": "medium", "Pinus halepensis": "large",
+              "Cupressus sempervirens": "large", "Catalpa bignonioides": "large", "Acer monspessulanum": "medium"}
 RANK = {"none": -1, "small": 0, "medium": 1, "large": 2}
 # S1a, the city's own replacement (notes/topic_decision.md §9.6, §10.4; decided 24 Oct): the 2026 target mix (Betevé,
 # 7 May 2026, press 🟡: Celtis ~12%, Melia 7.25%, Pyrus, Sophora and Tipuana ~5% each), used as relative weights of a
