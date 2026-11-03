@@ -31,6 +31,10 @@ SIZE_CLASS = {"Platanus x acerifolia": "large", "Celtis australis": "large", "Ti
               "Ginkgo biloba": "large", "Populus alba": "large", "Acer campestre": "medium", "Pinus halepensis": "large",
               "Cupressus sempervirens": "large", "Catalpa bignonioides": "large", "Acer monspessulanum": "medium"}
 RANK = {"none": -1, "small": 0, "medium": 1, "large": 2}
+# Marked "avoid planting" (red) in the same catalogue (notes/tree_master_plan.md §5.5): left out of the Barcelona palette
+# (user, 3 Nov 2026). "Restricted" (orange) species stay: the catalogue is from 2011 and Celtis australis, orange there,
+# is still the city's first plane replacement.
+AVOID = {"Ulmus pumila", "Robinia pseudoacacia", "Populus nigra", "Populus alba"}
 # S1a, the city's own replacement (notes/topic_decision.md §9.6, §10.4; decided 24 Oct): the 2026 target mix (Betevé,
 # 7 May 2026, press 🟡: Celtis ~12%, Melia 7.25%, Pyrus, Sophora and Tipuana ~5% each), used as relative weights of a
 # random draw within the sizing rule. ASSUMPTION: the city-wide target shares are read as replacement proportions, and
@@ -52,12 +56,14 @@ def slug(species):
 
 def palette_names(kind):
     """'city': the species the city names as plane replacements (+ Styphnolobium); 'barcelona': the shortlist of species
-    common in Barcelona's streets (scripts/species_shortlist.py) with enough LiDAR-measured trees (scripts/bcn_lidar_species.py)."""
+    common in Barcelona's streets (scripts/species_shortlist.py) with enough LiDAR-measured trees (scripts/bcn_lidar_species.py),
+    minus the guide's "avoid" species (AVOID)."""
     if kind == "city":
         return CITY_PALETTE, "porta_species_lidar_summary.csv"
     sl = pd.read_csv(DB / "species_shortlist.csv")
     n = pd.read_csv(DB / "species_lidar_summary.csv").set_index("species").n
-    return [s for s in sl[sl.status == "candidate"].species if n.get(s, 0) >= MIN_LIDAR], "species_lidar_summary.csv"
+    return [s for s in sl[sl.status == "candidate"].species if n.get(s, 0) >= MIN_LIDAR and s not in AVOID], \
+        "species_lidar_summary.csv"
 
 
 def palette(site, kind="city", trunk=None):
