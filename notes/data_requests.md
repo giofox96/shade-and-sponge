@@ -96,6 +96,12 @@ parties and will be credited to Barcelona Cicle de l'Aigua, SA, Ajuntament de Ba
 3. Giovanni fills form 00106 with 1b, attaches letter + gauge form, and registers it (online with certificate, or OAC).
 4. Log the registry number in row 1.
 
+## 3. Leads from the IAAC Slack (3 Nov, via María, colleagues' hearsay, not yet verified)
+- **Joan Pinyol**, Ajuntament de Barcelona, expert on trees in urban projects; contact said to be on official city portals. Best route to Parcs i Jardins questions (row 2).
+- **Cati Montserrat**, head of garden projects at AMB (Àrea Metropolitana de Barcelona).
+- **AiEM research group**: simulations of urban space, vegetation and Barcelona's heat island. Group name and affiliation still to confirm (a web search did not settle it).
+A quick web search (3 Nov) found no public page confirming any of the three; ask María for emails before writing.
+
 ## 2. Parcs i Jardins follow-up (Catalan, same city form, Wed 4 Nov)
 > Assumpte: Seguiment de la consulta RGF7342
 >
