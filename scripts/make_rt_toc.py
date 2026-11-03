@@ -44,7 +44,8 @@ BOTTOM = [
         "The city keeps replacing plane trees over the next decade (press, 2026: more than half).",
         "A fast shade proxy and a simple runoff model (interception + SCS-CN) rank species correctly, even if absolute values are uncertain.",
         "LiDAR crowns and trait values (LAI, interception) represent mature trees.",
-        "The 15% cap and sidewalk rules stay in force; an open tool can be adopted.",
+        "The city does not change its current rules (no species above 15%, tree size set by sidewalk width): the tool is built on them.",
+        "The city and designers are willing to use an open tool.",
     ]),
     ("RISKS", [
         "Optimising two services can concentrate on a few 'best' species: pest risk (mitigated by the cap and a genus check).",
