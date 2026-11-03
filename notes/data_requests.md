@@ -12,7 +12,7 @@ forward replies or paste them in the thread. Nothing here is sent by Claude.*
 - [ ] **AMB contact form** (amb.cat → Contacte): message for Cati Montserrat (text in the thread, 3 Nov).
 - [x] Slack: María asked (3 Nov); Pinyol lead dropped, go for Joan Guitart.
 - [x] LinkedIn: connection request to Joan Guitart sent (3 Nov). When he accepts, send a short message (ask Claude for the text).
-- [ ] **Víctor Ténez (UPC)**: send the email (text in the thread, 3 Nov) to victor.tenez@upc.edu.
+- [x] Víctor Ténez (UPC): email sent 3 Nov evening to victor.tenez@upc.edu. Wait for a reply; nudge ~11 Nov if silent.
 - [ ] **AiEM (UPC)**: pick a researcher on https://aie.upc.edu/equip/ and send the email (text in the thread, 3 Nov).
 - [ ] **Wed 4 Nov, Parcs i Jardins**: one follow-up via the form quoting RGF7342 (§2).
 - [ ] **10 Nov, tutor**: ask Angelos for an Àrea d'Arbrat contact; mention the BCASA letter if BCASA says it can be done remotely.
