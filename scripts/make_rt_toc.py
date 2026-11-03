@@ -1,7 +1,7 @@
 from pptx import Presentation
 from pptx.util import Emu, Pt
 from pptx.dml.color import RGBColor
-from pptx.enum.text import PP_ALIGN
+from pptx.enum.text import PP_ALIGN, MSO_AUTO_SIZE
 import sys
 
 # Deck palette "Earth" and font, as in scripts/make_infographics.py
@@ -24,13 +24,13 @@ TOP = [
         "Tested in Porta (Nou Barris); run on 33 neighbourhoods.",
     ]),
     ("SHORT-TERM OUTCOMES", [
-        "Technological: a reproducible method and public code (MIT), with a heat check in Ladybug and Honeybee.",
-        "Environmental (simulated): more summer shade than the city's real replacement mix in all 33 neighbourhoods. Ladybug and Honeybee show pedestrian heat stays as with today's planes (within ±0.2 °C UTCI), so the gains are in shade, runoff, species diversity and winter sun.",
-        "Knowledge: species and positions chosen against pedestrian heat and runoff together, which the literature reviewed does not do yet.",
+        "Technological: a reproducible method and open code, checked in Ladybug and Honeybee.",
+        "Environmental (simulated): more summer shade than the city's real replacement mix in all 33 neighbourhoods; pedestrian heat stays as with today's planes (±0.2 °C UTCI). Gains: shade, runoff, diversity, winter sun.",
+        "Knowledge: species and positions chosen for heat and runoff together, not done yet in the literature reviewed.",
     ]),
     ("MEDIUM-TERM OUTCOMES", [
         "Technological: designers and Parcs i Jardins test it on real replacement campaigns or pilot streets.",
-        "Replication: transfer to a second Mediterranean city (Florence or Mataró).",
+        "Replication: a transferability test in two other cities, Florence and Mataró, with the same method and their own data.",
         "Social: streets keep their shade and comfort while the planes are replaced, starting where heat and flooding overlap.",
         "Economic: fewer trial-and-error plantings, faster design.",
     ]),
@@ -68,7 +68,7 @@ BOTTOM = [
         "Streets or projects that use the tool (n)",
         "Design time per street, before vs after (h)",
         "Measured air / surface temperature in pilot streets",
-        "Result quality in the transfer city",
+        "Results in Florence and Mataró vs Porta",
         "Designer feedback (interviews, ease of use)",
     ]),
     ("POTENTIAL INDICATORS", [
@@ -115,6 +115,7 @@ def cell(x, y, w, h, title, items, size, accent):
     tb = s.shapes.add_textbox(x + Emu(50000), y + Emu(70000), w - Emu(100000), h - Emu(110000))
     tf = tb.text_frame
     tf.word_wrap = True
+    tf.auto_size = MSO_AUTO_SIZE.TEXT_TO_FIT_SHAPE  # PowerPoint shrinks text if a substitute font is wider
     run(tf.paragraphs[0], title, 11.5, accent, bold=True)
     for it in items:
         p = tf.add_paragraph()
@@ -125,9 +126,9 @@ def cell(x, y, w, h, title, items, size, accent):
 TOP_ACC = [TREE, TREE, RAIN, RAIN, RAIN]
 BOT_ACC = [WARN, HEAT, MUTED, MUTED, MUTED]
 for i, (t, items) in enumerate(TOP):
-    cell(M + (colw + M) * i, M, colw, top_h, t, items, 10, TOP_ACC[i])
+    cell(M + (colw + M) * i, M, colw, top_h, t, items, 9.5, TOP_ACC[i])
 for i, (t, items) in enumerate(BOTTOM):
-    cell(M + (colw + M) * i, 2 * M + top_h, colw, bot_h, t, items, 9.5, BOT_ACC[i])
+    cell(M + (colw + M) * i, 2 * M + top_h, colw, bot_h, t, items, 9, BOT_ACC[i])
 
 band = s.shapes.add_shape(1, 0, H - foot_h, W, foot_h)
 band.fill.solid()
