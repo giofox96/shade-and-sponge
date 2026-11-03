@@ -9,7 +9,8 @@ forward replies or paste them in the thread. Nothing here is sent by Claude.*
 - [x] LinkedIn: connection request to Cati Montserrat Martí sent without a note (3 Nov). When she accepts, send the follow-up message.
 - [ ] **BCASA**: send the follow-up (form text in the thread, 3 Nov) through the Atenció en línia form, same category, subject "Seguimiento BDM9240"; send me the new code.
 - [ ] **AMB contact form** (amb.cat → Contacte): message for Cati Montserrat (text in the thread, 3 Nov).
-- [ ] **Slack, later today/tomorrow**: ask María for contacts (Pinyol or Guitart?, Cati).
+- [x] Slack: María asked (3 Nov); Pinyol lead dropped, go for Joan Guitart.
+- [ ] **LinkedIn**: look up Joan Guitart (Ajuntament de Barcelona, arbrat) and connect without a note.
 - [ ] **AiEM (UPC)**: pick a researcher on https://aie.upc.edu/equip/ and send the email (text in the thread, 3 Nov).
 - [ ] **Wed 4 Nov, Parcs i Jardins**: one follow-up via the form quoting RGF7342 (§2).
 - [ ] **10 Nov, tutor**: ask Angelos for an Àrea d'Arbrat contact; mention the BCASA letter if BCASA says it can be done remotely.
@@ -130,6 +131,7 @@ parties and will be credited to Barcelona Cicle de l'Aigua, SA, Ajuntament de Ba
 4. Log the registry number in row 1.
 
 ## 3. Leads from the IAAC Slack (3 Nov, via María; colleagues' hearsay) and what a web search found
+- **Update 3 Nov 13:49:** María's colleague is unsure of the name and has no email; Pinyol lead dropped. Target **Joan Guitart** instead (RGF7342 follow-up addressed to him + LinkedIn).
 - **Joan Pinyol**, said to work on trees in urban projects for the city. **Not found** in any public source (3 Nov
   searches). The person the press and the city's own presentations name for the tree plan is **Joan Guitart**
   (Pla director de l'arbrat presentations, e.g. DIBA deck "Presentació Joan Guitart"; head of the Àrea d'Arbrat per
@@ -142,7 +144,7 @@ parties and will be credited to Barcelona Cicle de l'Aigua, SA, Ajuntament de Ba
   microclimate, vegetation). Contact route: the group site; pick a named researcher before writing.
 
 ## 2. Parcs i Jardins follow-up (Catalan, same city form, Wed 4 Nov)
-> Assumpte: Seguiment de la consulta RGF7342
+> Assumpte: Seguiment de la consulta RGF7342 – a l'atenció del Sr. Joan Guitart (Àrea d'Arbrat)
 >
 > Bon dia,
 > A l'octubre vaig enviar la consulta RGF7342 sobre la substitució d'arbrat viari a la Porta (Nou Barris), per a
