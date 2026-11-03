@@ -16,24 +16,24 @@ TOP = [
     ]),
     ("OUTPUT", [
         "Shade & Sponge: an open-source tool (Python core, web app, Grasshopper link).",
-        "In: tree inventory, LiDAR crowns, terrain, design storm, hot design day.",
+        "In: tree inventory, LiDAR crowns, terrain, design storm, summer weather file.",
         "Out: a species and position for each replacement, scored on summer shade / UTCI and runoff against the city's own replacement mix.",
         "Tested in Porta (Nou Barris); run on 33 neighbourhoods.",
     ]),
     ("SHORT-TERM OUTCOMES", [
-        "Technological: a reproducible method and public code (MIT).",
-        "Environmental (simulated): the tool's layouts give more summer shade than the city's real replacement mix in all 33 neighbourhoods, without worsening UTCI.",
+        "Technological: a reproducible method and public code (MIT), with a heat check in Ladybug and Honeybee.",
+        "Environmental (simulated): more summer shade than the city's real replacement mix in all 33 neighbourhoods. Ladybug and Honeybee show pedestrian heat stays as with today's planes (within ±0.2 °C UTCI), so the gains are in shade, runoff, species diversity and winter sun.",
         "Knowledge: species and positions chosen against pedestrian heat and runoff together, which the literature reviewed does not do yet.",
     ]),
     ("MEDIUM-TERM OUTCOMES", [
         "Technological: designers and Parcs i Jardins test it on real replacement campaigns or pilot streets.",
         "Replication: transfer to a second Mediterranean city (Florence or Mataró).",
-        "Social: cooler, walkable streets first where heat and flooding overlap.",
+        "Social: streets keep their shade and comfort while the planes are replaced, starting where heat and flooding overlap.",
         "Economic: fewer trial-and-error plantings, faster design.",
     ]),
     ("LONG-TERM IMPACT", [
         "Environmental: canopy moves toward the city's 30% target for 2037 with no species above 15%; less runoff to sewers in flood hotspots.",
-        "Social: less heat stress for pedestrians in vulnerable neighbourhoods.",
+        "Social: no loss of pedestrian comfort during the plane replacement, with more canopy where it is lacking.",
         "Economic: avoided drainage and heat-health costs.",
         "A replicable method for cities replacing monocultures.",
     ]),
@@ -42,23 +42,23 @@ TOP = [
 BOTTOM = [
     ("ASSUMPTIONS", [
         "The city keeps replacing plane trees over the next decade (press, 2026: more than half).",
-        "A fast shade proxy and a simple runoff model (interception + SCS-CN) rank species correctly, even if absolute values are uncertain.",
-        "LiDAR crowns and trait values (LAI, interception) represent mature trees.",
-        "The city does not change its current rules (no species above 15%, tree size set by sidewalk width): the tool is built on them.",
+        "A fast shade proxy and a simple runoff model rank species correctly. Partly checked for heat: proxy shade tracks Ladybug UTCI (r = −0.82).",
+        "LiDAR crowns and LAI represent mature trees; light through a crown depends on its LAI.",
+        "The city keeps its current rules (no species above 15%, tree size set by sidewalk width): the tool is built on them.",
         "The city and designers are willing to use an open tool.",
     ]),
     ("RISKS", [
         "Optimising two services can concentrate on a few 'best' species: pest risk (mitigated by the cap and a genus check).",
-        "Results over-trusted: simulated, not measured; Ladybug treats trees as shade only.",
+        "Results over-trusted: simulated, not measured. The heat difference is small, and its sign flips between solid and porous crowns.",
         "Big crowns vs winter sun, façades, roots, maintenance, allergies.",
         "Benefits arrive only when trees mature (decades).",
         "Used to justify removing healthy trees.",
     ]),
     ("POTENTIAL INDICATORS", [
         "% sidewalk in summer shade vs city mix (pts)",
-        "Δ UTCI, 12–17 h, hot design day (°C, Ladybug)",
+        "Δ UTCI, 12–17 h, July day (°C; Ladybug, Honeybee)",
         "Δ runoff, design storm (m³, %)",
-        "Proxy vs Ladybug correlation (r)",
+        "Agreement: proxy vs Ladybug (r), Python vs Grasshopper (r)",
         "Neighbourhoods where the tool beats the city mix (n / 33)",
     ]),
     ("POTENTIAL INDICATORS", [
@@ -82,8 +82,8 @@ prs.slide_width, prs.slide_height = Emu(12192000), Emu(6858000)
 s = prs.slides.add_slide(prs.slide_layouts[6])
 W, H = prs.slide_width, prs.slide_height
 colw = W // 5
-top_h = int(H * 0.47)
-bot_h = int(H * 0.41)
+top_h = int(H * 0.46)
+bot_h = int(H * 0.45)
 footer_y = top_h + bot_h
 
 
