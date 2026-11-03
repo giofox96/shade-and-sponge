@@ -177,12 +177,12 @@ The deck follows that order.
 **Figure:** `slides/fig_v7/res_06_heat_check.png` (the validation flowchart moves to backup B7)
 **On slide (right):**
 - Proxy vs Ladybug UTCI, Pg Andreu Nin, 1,974 points: r = −0.73 across points, −0.82 on the S4 − S0 change
-- S4 − S0: +0.12 °C (Grasshopper, opaque crowns), −0.19 °C (porous crowns), −0.11 °C over all Porta plane streets (porous)
+- S4 − S0, porous crowns, TMYx 2011–2025: −0.15 °C (Honeybee, Tier 2), −0.19 °C (Ladybug chain in Python, Tier 1), −0.10 °C over all Porta plane streets; opaque crowns +0.06 to +0.10 °C
 - To 1 Dec: UTCI on final layouts (Infrared City), hot design day · priority score · city screening layer. To 18 Dec: project tool anywhere in Barcelona · Sant Antoni transfer test
 - **Asks:** does Infrared City model porous crowns? · is a within-city transfer (Sant Antoni) enough? · may a barri lose while the city gains?
 
 **Say (132 words):**
-"First independent check of the heat proxy: Ladybug UTCI, today's planes against the tool's species. The proxy ranks points as Ladybug does, so it is fit for choosing positions. I rebuilt the Ladybug chain in Python; it matches Grasshopper to two hundredths of a degree, and it lets light through the crowns by their leaf area. The two layouts differ by about a tenth of a degree: plus 0.12 with opaque crowns, minus 0.1 to minus 0.2 with porous crowns, on one street and over all of Porta. So my claim for heat is modest: no worse than today's planes; the gains are runoff, diversity and winter sun. Three questions: does Infrared model porous crowns, is Sant Antoni enough as a transfer test, and may one barri lose while the city gains?"
+"First independent check of the heat proxy: UTCI, today's planes against the tool's species. The proxy ranks points as Ladybug does, so it is fit for choosing positions. I rebuilt the Ladybug chain in Python; it matches Grasshopper to two hundredths of a degree and lets light through the crowns by their leaf area. Honeybee with Radiance agrees. The two layouts differ by about a tenth of a degree, on one street and over all of Porta, and the sign depends on whether crowns are opaque or porous. So my claim for heat is modest: no worse than today's planes; the gains are runoff, diversity and winter sun. Three questions: does Infrared model porous crowns, is Sant Antoni enough as a transfer test, and may one barri lose while the city gains?"
 
 ---
 

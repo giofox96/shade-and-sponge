@@ -118,7 +118,9 @@ for k, s in SC.items():
     f = next(iter(sorted(FG.glob(f"utci_{s}_*.csv"), reverse=True)), None) \
         or next(iter(FG.glob(f"utci_{k}.csv")), None)        # "_mesh_" sorts after the date: the corrected rerun first
     if f:                                                     # the Grasshopper run, when there is one
-        res[f"utci_gh_{k}"] = res.point_id.map(pd.read_csv(f).groupby("point_id").utci_C.mean())
+        g = pd.read_csv(f).groupby(["x", "y"]).utci_C.mean()          # by position: a GH run with every > 1 renumbers points
+        res[f"utci_gh_{k}"] = pd.Series(list(zip(pts.x.round(2), pts.y.round(2)))).map(
+            {(round(x, 2), round(y, 2)): v for (x, y), v in g.items()}).values
     for mode in ("opaque", "lai"):
         fb = B_sun * crown_trans(tr, sun, mode == "opaque")
         se = (B_sky * crown_trans(tr, sky, mode == "opaque")) @ w
@@ -136,9 +138,9 @@ for k, s in SC.items():
 res.round(3).to_csv(ROOT / "databases/barcelona" / OUT, index=False)
 
 for k in SC if "utci_gh_S0" in res else []:
-    e = res[f"utci_opaque_{k}"] - res[f"utci_gh_{k}"]
+    e = (res[f"utci_opaque_{k}"] - res[f"utci_gh_{k}"]).dropna()
     print(f"check {k}: opaque here vs Grasshopper, mean diff {e.mean():+.2f} C, MAE {e.abs().mean():.2f}, "
-          f"r {np.corrcoef(res[f'utci_opaque_{k}'], res[f'utci_gh_{k}'])[0, 1]:.3f}")
+          f"r {res[f'utci_opaque_{k}'].corr(res[f'utci_gh_{k}']):.3f} ({len(e)} points)")
 for m in [x for x in ("gh", "opaque", "lai") if f"utci_{x}_S0" in res]:
     d = res[f"utci_{m}_S4"] - res[f"utci_{m}_S0"]
     print(f"{m:6s}: S0 {res[f'utci_{m}_S0'].mean():.2f}  S4 {res[f'utci_{m}_S4'].mean():.2f}  S4-S0 {d.mean():+.2f} C "

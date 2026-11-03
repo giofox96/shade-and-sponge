@@ -120,12 +120,14 @@ def fig_cap():
 def fig_heat_check():
     """First UTCI check (notes/methodology.md §5b): Grasshopper on Pg Andreu Nin, the Python chain with porous crowns there
     and over all of Porta's plane streets."""
-    an, po = pd.read_csv(DB / "porous_utci_andreu_nin.csv"), pd.read_csv(DB / "porous_utci_porta.csv")
+    an, po = pd.read_csv(DB / "porous_utci_andreu_nin_epw2011.csv"), pd.read_csv(DB / "porous_utci_porta_epw2011.csv")
+    hb = pd.read_csv(DB / "hb_utci_andreu_nin.csv").rename(columns={"utci_hb_S0_porous": "utci_hb_S0", "utci_hb_S4_porous": "utci_hb_S4"})
     v = pd.read_csv(DB / "ladybug_vs_proxy_andreu_nin.csv")
-    runs = [("Ladybug in Grasshopper", "Pg Andreu Nin, 80 trees, opaque crowns", an, "gh"),
-            ("Same chain in Python", "Pg Andreu Nin, porous crowns τ = exp(−0.5·LAI)", an, "lai"),
-            ("Same chain in Python", f"all Porta plane streets, 832 trees, {len(po):,} points, porous", po, "lai")]
-    lo, hi, x0, bw = 26.5, 28.6, 400, 380
+    gh = pd.read_csv(DB / "porous_utci_andreu_nin.csv")              # full-record TMYx, the weather of the Grasshopper runs
+    runs = [("Honeybee (Tier 2, Radiance)", "Pg Andreu Nin, 80 trees, porous crowns", hb, "hb"),
+            ("Ladybug chain in Python (Tier 1)", "Pg Andreu Nin, porous crowns τ = exp(−0.5·LAI)", an, "lai"),
+            ("Ladybug chain in Python (Tier 1)", f"all Porta plane streets, 832 trees, {len(po):,} points, porous", po, "lai")]
+    lo, hi, x0, bw = 29.0, 31.6, 400, 380
     sc = lambda u: bw * (u - lo) / (hi - lo)
     b = t(60, 180, "Mean UTCI, 15 July 12–17 h, at 1.1 m on a 2 m grid", 18, INK, "bold")
     for i, (a, c, r, k) in enumerate(runs):
@@ -138,11 +140,11 @@ def fig_heat_check():
         d = (r[f"utci_{k}_S4"] - r[f"utci_{k}_S0"]).mean()
         b += t(940, y + 45, f"{d:+.2f} °C".replace("-", "−"), 30, HEAT if d > 0 else TREE, "bold")
     b += t(940, 210, "S4 − S0", 16, MUTED, "bold")
-    e = an.utci_opaque_S0 - an.utci_gh_S0
-    b += para(60, 700, f"Axis from {lo} °C. S0 = today's planes; S4 = the tool's species on the same spots. The Python chain "
-              f"reproduces Grasshopper with opaque crowns (mean difference {e.mean():+.2f} °C, r = "
-              f"{np.corrcoef(an.utci_opaque_S0, an.utci_gh_S0)[0, 1]:.3f}), so it can add what Ladybug's Tier 1 lacks: "
-              "light through the crowns.", 900, 15, fill=MUTED)[0].replace("-0", "−0")
+    e = gh.utci_opaque_S0 - gh.utci_gh_S0
+    b += para(60, 700, f"Axis from {lo:.0f} °C. S0 = today's planes; S4 = the tool's species on the same spots. Weather: TMYx "
+              "2011–2025. The Python chain reproduces Ladybug in Grasshopper with opaque crowns (mean difference "
+              f"{e.mean():+.2f} °C, r = {gh.utci_opaque_S0.corr(gh.utci_gh_S0):.3f}; also on 4,271 Porta points), so it can "
+              "add light through the crowns.", 900, 15, fill=MUTED)[0].replace("-0", "−0")
     xr = 1150
     r0 = np.corrcoef(v.shade_lai_S0, v.utci_S0)[0, 1]
     r1 = np.corrcoef(v.d_shade_opaque, v.d_utci)[0, 1]
@@ -154,10 +156,10 @@ def fig_heat_check():
     b += para(xr, 690, "Claim for the tool: for heat, no worse than today's planes within model uncertainty.", 420, 18,
               fill=INK, weight="bold")[0]
     save("res_06_heat_check", "Heat: a first independent check",
-         "Ladybug UTCI, today's planes vs the tool's layout", b,
-         "databases/barcelona/porous_utci_andreu_nin.csv, porous_utci_porta.csv, ladybug_vs_proxy_andreu_nin.csv "
-         "(scripts/porous_utci.py, compare_ladybug_proxy.py); Grasshopper run by the author 2 Nov 2026 with mesh crowns "
-         "(exchange/from_gh/). EPW: Barcelona El Prat TMYx (climate.onebuilding.org). Porous crowns after Peng et al. 2026. "
+         "UTCI from Ladybug and Honeybee, today's planes vs the tool's layout", b,
+         "databases/barcelona/hb_utci_andreu_nin.csv, porous_utci_*_epw2011.csv, ladybug_vs_proxy_andreu_nin.csv "
+         "(scripts/make_hb_model.py, run_hb_utci.py, porous_utci.py, compare_ladybug_proxy.py); Grasshopper runs by the author "
+         "2 Nov 2026 with mesh crowns (exchange/from_gh/). EPW: Barcelona El Prat TMYx 2011–2025 (climate.onebuilding.org). Porous crowns after Peng et al. 2026. "
          "15 July is an ordinary July day, not the hot design day.")
 
 
