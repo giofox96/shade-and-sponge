@@ -4,6 +4,18 @@
 Replies to the city forms go to giovanni.carlo.volpe@students.iaac.net (IAAC inbox), which Claude cannot read:
 forward replies or paste them in the thread. Nothing here is sent by Claude.*
 
+## Giovanni's to-do (updated 3 Nov, 13:10)
+- [x] TRY: data release started (3 Nov). Wait for the pickup email, then forward it.
+- [x] LinkedIn: connection request to Cati Montserrat Martí sent without a note (3 Nov). When she accepts, send the follow-up message.
+- [ ] **BCASA**: send the follow-up (form text in the thread, 3 Nov) through the Atenció en línia form, same category, subject "Seguimiento BDM9240"; send me the new code.
+- [ ] **AMB contact form** (amb.cat → Contacte): message for Cati Montserrat (text in the thread, 3 Nov).
+- [ ] **Slack, later today/tomorrow**: ask María for contacts (Pinyol or Guitart?, Cati).
+- [ ] **AiEM (UPC)**: pick a researcher on https://aie.upc.edu/equip/ and send the email (text in the thread, 3 Nov).
+- [ ] **Wed 4 Nov, Parcs i Jardins**: one follow-up via the form quoting RGF7342 (§2).
+- [ ] **10 Nov, tutor**: ask Angelos for an Àrea d'Arbrat contact; mention the BCASA letter if BCASA says it can be done remotely.
+- [ ] Optional: download the Diagnosi PDF (17 MB) from the PDISBA page to see the T = 1 maps.
+- [ ] Barcelona Regional: phone +34 932 237 400 around 13 Nov if still silent.
+
 ## Board (3 Nov 2026)
 
 | # | Body | What we ask | Channel | Status | Next step (who, when) |
