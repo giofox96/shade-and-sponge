@@ -10,9 +10,9 @@ GREY = RGBColor(0x55, 0x55, 0x55)
 
 TOP = [
     ("WHAT IS THE CHANGE I WANT TO CREATE?", [
-        "Barcelona chooses the species that replaces each plane tree by measured performance, not only by a qualitative table.",
-        "Every species × position choice comes with its consequence for pedestrian heat (shade, UTCI) and storm runoff (rain interception).",
-        "Inside the city's own rules: 15% cap per species, tree size by sidewalk width.",
+        "Barcelona will replace thousands of plane trees. It surely has criteria for the new species, but they are not published, and no public document says what a choice means for heat or flooding.",
+        "For every tree to replace, designers and the city should see which species gives more summer shade and holds back more rain at that spot.",
+        "Always within the city's rules: no species above 15% of the trees, and bigger trees only on wider sidewalks.",
     ]),
     ("OUTPUT", [
         "Shade & Sponge: an open-source tool (Python core, web app, Grasshopper link).",
