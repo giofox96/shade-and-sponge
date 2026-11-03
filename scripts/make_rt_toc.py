@@ -4,9 +4,12 @@ from pptx.dml.color import RGBColor
 from pptx.enum.text import PP_ALIGN
 import sys
 
-ORANGE = RGBColor(0xF2, 0xA0, 0x1F)
-NAVY = RGBColor(0x1F, 0x2A, 0x44)
-GREY = RGBColor(0x55, 0x55, 0x55)
+# Deck palette "Earth" and font, as in scripts/make_infographics.py
+C = lambda h: RGBColor.from_string(h)
+INK, MUTED, GRID, BG = C("2A2622"), C("665E4F"), C("DCD8CE"), C("F2F0EA")
+HEAT, RAIN, TREE, WARN = C("663825"), C("283F66"), C("3F663E"), C("8C6A24")
+DARK, DARK_INK, DARK_MUTED = C("283F2A"), C("F2F0EA"), C("B3BAB9")
+FONT = "IBM Plex Sans"
 
 TOP = [
     ("WHAT IS THE CHANGE I WANT TO CREATE?", [
@@ -81,52 +84,63 @@ prs = Presentation()
 prs.slide_width, prs.slide_height = Emu(12192000), Emu(6858000)
 s = prs.slides.add_slide(prs.slide_layouts[6])
 W, H = prs.slide_width, prs.slide_height
-colw = W // 5
-top_h = int(H * 0.46)
-bot_h = int(H * 0.45)
-footer_y = top_h + bot_h
+s.background.fill.solid()
+s.background.fill.fore_color.rgb = BG
+M = Emu(110000)  # outer margin and gap
+foot_h = int(H * 0.085)
+colw = (W - 6 * M) // 5
+top_h = int((H - foot_h - 3 * M) * 0.505)
+bot_h = H - foot_h - 3 * M - top_h
 
 
-def cell(x, y, w, h, title, items, size):
-    shp = s.shapes.add_shape(1, x, y, w, h)
-    shp.fill.background()
-    shp.line.color.rgb = ORANGE
-    shp.line.width = Pt(1.5)
-    tb = s.shapes.add_textbox(x + Emu(60000), y + Emu(50000), w - Emu(120000), h - Emu(100000))
+def run(p, text, size, color, bold=False):
+    r = p.add_run()
+    r.text = text
+    r.font.size, r.font.bold, r.font.name = Pt(size), bold, FONT
+    r.font.color.rgb = color
+
+
+def cell(x, y, w, h, title, items, size, accent):
+    card = s.shapes.add_shape(1, x, y, w, h)
+    card.fill.solid()
+    card.fill.fore_color.rgb = C("FFFFFF")
+    card.line.color.rgb = GRID
+    card.line.width = Pt(0.75)
+    card.shadow.inherit = False
+    bar = s.shapes.add_shape(1, x, y, w, Emu(55000))
+    bar.fill.solid()
+    bar.fill.fore_color.rgb = accent
+    bar.line.fill.background()
+    bar.shadow.inherit = False
+    tb = s.shapes.add_textbox(x + Emu(50000), y + Emu(70000), w - Emu(100000), h - Emu(110000))
     tf = tb.text_frame
     tf.word_wrap = True
-    p = tf.paragraphs[0]
-    p.alignment = PP_ALIGN.CENTER
-    r = p.add_run()
-    r.text = title
-    r.font.size, r.font.bold, r.font.name = Pt(12), True, "Arial"
+    run(tf.paragraphs[0], title, 11.5, accent, bold=True)
     for it in items:
         p = tf.add_paragraph()
-        p.space_before = Pt(2.5)
-        r = p.add_run()
-        r.text = "• " + it
-        r.font.size, r.font.name = Pt(size), "Arial"
-        r.font.color.rgb = GREY
+        p.space_before = Pt(3)
+        run(p, "• " + it, size, INK)
 
 
+TOP_ACC = [TREE, TREE, RAIN, RAIN, RAIN]
+BOT_ACC = [WARN, HEAT, MUTED, MUTED, MUTED]
 for i, (t, items) in enumerate(TOP):
-    cell(colw * i, 0, colw, top_h, t, items, 10.5)
+    cell(M + (colw + M) * i, M, colw, top_h, t, items, 10, TOP_ACC[i])
 for i, (t, items) in enumerate(BOTTOM):
-    cell(colw * i, top_h, colw, bot_h, t, items, 10)
+    cell(M + (colw + M) * i, 2 * M + top_h, colw, bot_h, t, items, 9.5, BOT_ACC[i])
 
-foot = s.shapes.add_textbox(Emu(150000), footer_y + Emu(60000), W - Emu(300000), H - footer_y - Emu(100000))
-tf = foot.text_frame
+band = s.shapes.add_shape(1, 0, H - foot_h, W, foot_h)
+band.fill.solid()
+band.fill.fore_color.rgb = DARK
+band.line.fill.background()
+band.shadow.inherit = False
+tb = s.shapes.add_textbox(M + Emu(50000), H - foot_h + Emu(40000), W - 2 * M, foot_h - Emu(60000))
+tf = tb.text_frame
 tf.word_wrap = True
 p = tf.paragraphs[0]
-r = p.add_run()
-r.text = "Shade & Sponge: choosing replacement street trees for shade and runoff (Barcelona, Porta)"
-r.font.size, r.font.bold, r.font.name = Pt(11), True, "Arial"
-r.font.color.rgb = NAVY
+run(p, "Shade & Sponge · Theory of Change", 12, DARK_INK, bold=True)
+run(p, "   choosing replacement street trees for shade and runoff (Barcelona, Porta)", 10.5, DARK_MUTED)
 p = tf.add_paragraph()
-r = p.add_run()
-r.text = ("Impact level: short-term = demonstrated early (simulation, 33 neighbourhoods); medium and long term = expected."
-          "")
-r.font.size, r.font.name = Pt(9), "Arial"
-r.font.color.rgb = GREY
+run(p, "Impact level: short-term = demonstrated early (simulation, 33 neighbourhoods); medium and long term = expected.", 9, DARK_MUTED)
 
 prs.save(sys.argv[1])
