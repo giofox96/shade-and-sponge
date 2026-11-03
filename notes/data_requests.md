@@ -6,12 +6,12 @@ forward replies or paste them in the thread. Nothing here is sent by Claude.*
 
 ## Giovanni's to-do (updated 3 Nov, 13:10)
 - [x] TRY: data released 3 Nov.
-- [x] TRY downloaded (3 Nov). Put the zip in `databases\TRY_DATABASE\` and unzip it there.
+- [x] TRY downloaded and saved in `databases\TRY_DATABASE\` (3 Nov).
 - [x] LinkedIn: connection request to Cati Montserrat Martí sent without a note (3 Nov). When she accepts, send the follow-up message.
 - [ ] **BCASA**: send the follow-up (form text in the thread, 3 Nov) through the Atenció en línia form, same category, subject "Seguimiento BDM9240"; send me the new code.
 - [ ] **AMB contact form** (amb.cat → Contacte): message for Cati Montserrat (text in the thread, 3 Nov).
 - [x] Slack: María asked (3 Nov); Pinyol lead dropped, go for Joan Guitart.
-- [ ] **LinkedIn**: look up Joan Guitart (Ajuntament de Barcelona, arbrat) and connect without a note.
+- [x] LinkedIn: connection request to Joan Guitart sent (3 Nov). When he accepts, send a short message (ask Claude for the text).
 - [ ] **Víctor Ténez (UPC)**: send the email (text in the thread, 3 Nov) to victor.tenez@upc.edu.
 - [ ] **AiEM (UPC)**: pick a researcher on https://aie.upc.edu/equip/ and send the email (text in the thread, 3 Nov).
 - [ ] **Wed 4 Nov, Parcs i Jardins**: one follow-up via the form quoting RGF7342 (§2).
