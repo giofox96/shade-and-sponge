@@ -194,4 +194,5 @@ The deck follows that order.
 - **B4 Results in real units:** `slides/fig_v7/res_02_bars.png`
 - **B5 Sizing rule leaves real choice:** `slides/fig_v6/v6_09_sizing_rule.png`
 - **B7 Validation plan:** `slides/fig_v7/flow_05_validation.png`
+- **B8 Co-benefits not optimised (yet):** `slides/fig_v7/v7_17_cobenefits.png` (pollen, carbon, diversity, ozone/VOC; plan in `notes/cobenefits_plan.md`). Answer if asked: "They are not objectives of the tool. From next week I report them for every layout; carbon may go against me, because the planes are big, and I will show it."
 - **B6 RQ scrutiny table:** `notes/topic_decision.md` §10.5 (text slide)
