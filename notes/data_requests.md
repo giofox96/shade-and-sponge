@@ -18,6 +18,9 @@ forward replies or paste them in the thread. Nothing here is sent by Claude.*
 | 8 | **Ajuntament de Mataró** | Per-tree species table (Safetree / ORDS `T_C_ARBRAT`) | Browser check first, then request | Not started (browser check pending, `notes/todo_manual.md`) | Only if Mataró stays the Catalan fallback |
 | 9 | **BCASA, gauge series (optional)** / **Meteocat XEMA** | Real storms to replay | Covered by row 1 / free API key | Optional | No action |
 
+## 0. Before the instància: unread PDISBA volumes (3 Nov)
+PDISBA on BCNROC (https://bcnroc.ajuntament.barcelona.cat/items/3cc3df7e-be95-4111-a995-98715dbe172e, hdl 11703/119275, licence **CC BY-NC-ND**) has 11 files: Memòria, Pluges (read: IDF §2.6), Diagnosi Xarxa (338 p), Prognosi, Pla rehabilitació, Pla inversió, Plànols Vol. 1–5 (~1.7 GB each). Diagnosi and Plànols are unread and may hold current-network flood maps per return period for Nou Barris (check for T = 1–2). To do from the OMEN (cloud is blocked). The 5-min gauge series and GIS files are not in the PDFs, so the BCASA follow-up still goes out.
+
 ## 1. BCASA instància: why it is complicated, and the package
 
 BCASA's reply to BDM9240 (full text in `notes/data_sources_pemb_30oct.md` §5 on branch `claude/project-thread-synuk4`)
