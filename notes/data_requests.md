@@ -18,6 +18,7 @@ forward replies or paste them in the thread. Nothing here is sent by Claude.*
 - [ ] **10 Nov, tutor**: ask Angelos for an Àrea d'Arbrat contact; mention the BCASA letter if BCASA says it can be done remotely.
 - [x] PDISBA PDFs downloaded (3 Nov); Diagnosi read.
 - [~] Plànols Vol. II re-downloaded 4 Nov on the office PC (not the OMEN). **This afternoon:** check the size (hundreds of MB, not 440 bytes), move it to the OMEN by USB or Google Drive, and save it in `databases\barcelona\raw\pdisba\` overwriting the 440-byte `Planols_Vol_II.pdf`. Then tell Claude, who reads plates 6.2 for Porta.
+- [ ] **Firenze LiDAR**: reply to Polistena (draft §4) with the polygon attached (Claude prepares it), then sign their delivery agreement.
 - [ ] Barcelona Regional: phone +34 932 237 400 around 13 Nov if still silent.
 
 ## Board (3 Nov 2026)
@@ -30,7 +31,7 @@ forward replies or paste them in the thread. Nothing here is sent by Claude.*
 | 4 | **TRY database** (MPI Jena) | Traits for the 21 Porta species (request **53077**, 13 Oct) | try-db.org | **Received 3 Nov** (`53077.txt`, 21,369 rows, 1,339 trait records; plus release notes and IP guidelines). 20 of 21 species (no *Handroanthus heptaphyllus*). Coverage: leaf phenology all 20; leaf area for most; wood growth rings / vessel distribution for ~14; **no leaf water storage or wettability records**, so canopy storage stays on the s·LAI calibration. TRY IP rules apply if published (cite TRY + original datasets, possibly invite co-authors) | Save the zip in `databases\TRY_DATABASE\` (gitignored). Use: phenology check of `season.py`, leaf area per species. Closed as a request |
 | 5 | **Infrared City** (Angelos Chronis, Serjoscha Duering, Oana Taut) | Research access; trees as geometry or LAI; API limits; validation | Email | Angelos replied ~1 Nov (free tier, results must be open); **Giovanni replied 2 Nov** | Wait. Ask about crown transmittance/LAI if not answered. Reminder ~9 Nov, or ask in person on 10 Nov |
 | 6 | **PEMB** (Giulio) | Access/contacts for tree and flood data | Email (with Fiona) | **Closed 30 Oct:** no data, pointed to providers (rows 1–3) | None |
-| 7 | **Comune di Firenze, SIT** | LiDAR point cloud, 27 Jun 2023 flight, 1–2 km² Rifredi/Novoli | Email sit@comune.fi.it (cc opendata@) | **Drafted 18 Oct, not sent** (`notes/firenze_lidar_request.md`) | Decide whether Florence is still the transfer test; if yes, send after 10 Nov |
+| 7 | **Comune di Firenze, SIT** | LiDAR point cloud, 27 Jun 2023 flight, 1–2 km² Rifredi/Novoli | Email sit@comune.fi.it (cc opendata@) | **Answered 4 Nov** (Antonino Polistena, Direzione Sistemi Informativi, antonino.polistena@comune.fi.it): 20 pts/m², raw cloud with Return Number + Number of Returns, **not ASPRS-classified**. Clip of an area we define (raster map or georeferenced polygon, UTM ETRF2000), under a delivery agreement: research use only, no redistribution, delete at end of analysis, cite source, share results | Reply accepting (draft §4), attach the polygon, ask (a) derived per-tree products publishable, (b) deletion after the thesis assessment, (c) LAS/LAZ format. Then sign the agreement |
 | 8 | **Ajuntament de Mataró** | Per-tree species table (Safetree / ORDS `T_C_ARBRAT`) | Browser check first, then request | Not started (browser check pending, `notes/todo_manual.md`) | Only if Mataró stays the Catalan fallback |
 | 9 | **BCASA, gauge series (optional)** / **Meteocat XEMA** | Real storms to replay | Covered by row 1 / free API key | Optional | No action |
 
@@ -166,3 +167,30 @@ parties and will be credited to Barcelona Cicle de l'Aigua, SA, Ajuntament de Ba
 > 30% al 40%? Hi ha una llista publicada?
 > Moltes gràcies,
 > Giovanni Carlo Volpe – MaCAD, IAAC – giovanni.carlo.volpe@students.iaac.net
+
+## 4. Comune di Firenze LiDAR: reply to the 4 Nov answer (Italian, from the IAAC inbox)
+
+**What the answer means.** It is the "multiple returns retained, but unclassified" row of the decision table in `notes/firenze_lidar_request.md`: workable. 20 pts/m² is denser than Porta's ICGC cloud. The missing ASPRS classes cost less than a full classification step, because the Comune already publishes the leaf-on DTM of the same 27 Jun 2023 flight (CC BY 4.0): ground = points within ~0.5 m of that DTM (ASSUMPTION threshold), vegetation vs buildings = tree positions from the "Alberi" inventory and building footprints from the Carta Tecnica. The gap fraction then works as in Porta (ground share of returns inside each crown).
+
+**Area.** The Firenze Nova sector where the Life Escapos census sits (1,459 trees with measured height and crown width, `databases/data_inventory.md` F1c): it gives a check of LiDAR height and crown against field values that Porta never had. Polygon to be built from the Escapos extent plus a buffer, in EPSG:7791 (RDN2008 / UTM 32N, the ETRF2000 realisation the Comune uses), about 1–2 km².
+
+**Agreement vs public repo.** Compatible if the raw cloud never enters the repo (gitignored, like `papers/`) and is deleted after the thesis. The two points to settle before signing: whether derived per-tree values (height, crown, LAI proxy) and maps may be published in the thesis and the public repo, and when "end of analysis" is.
+
+> **Oggetto:** R: Richiesta nuvola di punti LiDAR 27 giugno 2023 – tesi IAAC
+>
+> Gentile dott. Polistena,
+>
+> la ringrazio molto per la risposta e per la disponibilità. Il dato come descritto è adatto alla ricerca: la densità di 20 punti/m² e la presenza di Return Number e Number of Returns sono proprio ciò che serve. La classificazione la ricavo io, usando il DTM 2023 già pubblicato dal Comune.
+>
+> In allegato trova il poligono dell'area di interesse, circa [X] km² nella zona di Firenze Nova (Rifredi–Novoli), in ETRS89/ETRF2000 UTM 32N (EPSG:7791), in formato shapefile e GeoJSON. Ho scelto quest'area perché coincide con il censimento Life Escapos, che mi permette di confrontare le altezze e le chiome ricavate dal LiDAR con i rilievi a terra.
+>
+> Sottoscrivo volentieri l'accordo di consegna. Prima di firmarlo vorrei chiarire tre punti:
+> 1. **Prodotti derivati:** posso pubblicare nella tesi e nel repository pubblico del codice i valori derivati per singolo albero (altezza, ampiezza della chioma, indice di area fogliare stimato) e le mappe, citando il Comune di Firenze come fonte? La nuvola di punti grezza naturalmente non verrebbe mai pubblicata né condivisa.
+> 2. **Cancellazione:** per "fine dell'analisi" posso intendere la conclusione della tesi, inclusa la valutazione finale (indicativamente entro marzo 2027)?
+> 3. **Formato:** se possibile, LAS o LAZ.
+>
+> Le invierò i risultati e una copia della tesi una volta conclusa.
+>
+> Cordiali saluti,
+> Giovanni Carlo Volpe
+> Master in Advanced Computation for Architecture & Design (MaCAD), IAAC Barcellona
