@@ -178,7 +178,8 @@ SLIDES = [  # (outline heading number, figure path relative to slides/)
     (15, "fig_v7/res_05_city_cap.png"), (16, "fig_v7/res_06_heat_check.png"),
     (None, "fig_v7/v7_15_next.png"),
     (None, "fig_v7/flow_02_heat.png"), (None, "fig_v7/flow_03_runoff.png"), (None, "fig_v7/flow_01_screening.png"),
-    (None, "fig_v7/res_02_bars.png"), (None, "fig_v6/v6_09_sizing_rule.png"),
+    (None, "fig_v7/res_02_bars.png"), (None, "fig_v7/res_07_palette30.png"),
+    (None, "fig_v6/v6_09_sizing_rule.png"),
     (None, "fig_v7/flow_05_validation.png")]
 
 
