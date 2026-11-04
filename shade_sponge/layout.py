@@ -78,10 +78,14 @@ def palette(site, kind="city", trunk=None):
     if trunk:
         ok = site.trees[site.trees.flag == "ok"]
         pool = city_trees()
+        # 'barcelona': the city pool for every species, so that all are measured alike (Porta's LiDAR, Sept 2021, gives a
+        # lower LAI proxy than the June 2022 flights for the same species and trunk class: Celtis 2.42 vs 3.48; user, 4 Nov)
+        order = ((pool, trunk), (pool, "SEGONA")) if kind == "barcelona" else \
+            ((ok, trunk), (ok, "SEGONA"), (pool, trunk), (pool, "SEGONA"))   # 'city': local first, then city
         for i, sp in enumerate(names):
-            if sp in CITY_LIDAR:                              # Porta sample too small: city-wide medians kept
+            if sp in CITY_LIDAR and kind != "barcelona":     # Porta sample too small: city-wide medians kept
                 continue
-            for src, cls in ((ok, trunk), (ok, "SEGONA"), (pool, trunk), (pool, "SEGONA")):   # local first, then city
+            for src, cls in order:
                 g = src[(src.sp == sp) & (src.size_category == cls)]
                 if len(g) >= MIN_CLASS:
                     p.loc[i, ["crown_diam_m", "height_m", "crown_base_m", "lai", "n_lidar"]] = [
