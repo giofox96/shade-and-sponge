@@ -170,13 +170,36 @@ def fig_next():
     save("v7_15_next", "What comes next", "Porta first, then the whole city", b, "notes/citywide_plan.md §4; notes/methodology.md §10.")
 
 
+def fig_cobenefits():
+    """Backup: co-benefits the tool does not optimise yet (plan after 10 Nov: notes/cobenefits_plan.md)."""
+    rows = [("Pollen", "Plane pollen gets the top allergen score (4 of 4) in a Spanish species index",
+             "Species index exists (IUGZA, Cariñanos et al. 2014). Replacing planes likely gains here; to compute per layout", WARN),
+            ("Carbon", "Storage grows steeply with trunk size, and the planes are large",
+             "The tool's mix may lose here at first. Urban allometry (McPherson et al. 2016); reported even if it loses", INK),
+            ("Diversity", "The 15% cap and the local ceiling already act on it",
+             "Already computed (effective species, as in SylvCiT): to report per barri, before and after", TREE),
+            ("Ozone · VOC", "Some species emit isoprene; ozone also depends on local NOx",
+             "Not modelled: a declared limit", MUTED)]
+    b = ""
+    for k, (h, txt, sub, c) in enumerate(rows):
+        y = 190 + k * 132
+        b += rect(60, y, 1480, 114, c, rx=12, op=0.08) + f'<rect x="60" y="{y}" width="8" height="114" fill="{c}"/>'
+        b += t(100, y + 66, h, 30, c, "bold") + t(390, y + 50, txt, 25, INK, "bold") + t(390, y + 88, sub, 19, MUTED)
+    b += rect(60, 726, 1480, 70, INK, rx=10, op=0.05)
+    b += t(84, 770, "The master plan already lists allergies and VOC among the disservices to avoid, with no number per species.", 21, INK, "bold")
+    save("v7_17_cobenefits", "Co-benefits not optimised (yet)", "Reported after 10 Nov, not objectives of the tool", b,
+         "Cariñanos, Casares-Porcel & Quesada-Rubio 2014 (Landsc. Urban Plan. 123:134-144), Platanus ap = 4; "
+         "McPherson, van Doorn & Peper 2016 (PSW-GTR-253); Arbres per viure, Pla director de l'arbrat 2017–2037 §1.3.4, p. 14; "
+         "notes/cobenefits_plan.md.")
+
+
 SLIDES = [  # (outline heading number, figure path relative to slides/)
     (1, "fig/01_title.png"), (2, "fig_v7/v7_02_context.png"), (3, "fig_v7/v7_03_gate1.png"), (4, "fig_v7/v7_04_trees.png"),
     (5, "fig_v7/v7_05_problem.png"), (6, "fig_v6/v6_04_crowns.png"), (7, "fig_v7/v7_07_gap.png"), (8, "fig_v7/v7_08_rq.png"),
     (9, "fig_v7/v7_09_hyp.png"), (10, "fig_v7/flow_00_overview.png"), (11, "fig_v7/flow_04_design.png"),
     (12, "fig_v7/res_01_radar.png"), (13, "fig_v7/res_03_scenarios.png"), (14, "fig_v7/res_04_city_map.png"),
     (15, "fig_v7/res_05_city_cap.png"), (16, "fig_v7/res_06_heat_check.png"),
-    (None, "fig_v7/v7_15_next.png"),
+    (None, "fig_v7/v7_15_next.png"), (None, "fig_v7/v7_17_cobenefits.png"),
     (None, "fig_v7/flow_02_heat.png"), (None, "fig_v7/flow_03_runoff.png"), (None, "fig_v7/flow_01_screening.png"),
     (None, "fig_v7/res_02_bars.png"), (None, "fig_v7/res_07_palette30.png"),
     (None, "fig_v6/v6_09_sizing_rule.png"),
@@ -202,5 +225,5 @@ def build_pptx():
 
 
 if __name__ == "__main__":
-    fig_context(); fig_gate1(); fig_trees(); fig_problem(); fig_gap(); fig_rq(); fig_hyp(); fig_next()
+    fig_context(); fig_gate1(); fig_trees(); fig_problem(); fig_gap(); fig_rq(); fig_hyp(); fig_next(); fig_cobenefits()
     build_pptx()
