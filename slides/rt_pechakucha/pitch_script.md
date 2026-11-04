@@ -1,5 +1,7 @@
 # Shade & Sponge: Pecha Kucha pitch (RT final assignment)
 
+Google Slides version (built through the connector): https://docs.google.com/presentation/d/1O8O2D067r3mQlhJclCj3zMWG--tIN833bFw879TQBUw/edit
+
 Format: 15 slides x 20 s = 5:00. About 45 spoken words per slide (~135 wpm), ~680 words.
 Brief points (RT L05, 01:31-01:36): topic and context · innovation · actors · exploitation · impacts (time frames, dimensions; reuse Assignment 2 Theory of Change) · TRL by end of thesis.
 Lecture rules applied: one slide = one idea, little background, state of the art shown as its gap, clear thesis statement early, strong close.
@@ -49,7 +51,7 @@ Numbers come from the Theory of Change (RT A2) and the 10 Nov deck. Press figure
 
 ### 11. Actors
 **On slide:** actor map. Decide: Parcs i Jardins / Ajuntament. Use: landscape architects, computational designers. Data and test: BCASA (drainage), ICGC (LiDAR), Infrared City (heat engine, in discussion), Comune di Firenze (LiDAR for the transfer). Benefit: residents and pedestrians.
-**Say:** "Who is involved? The city's parks department decides. Designers use the tool. Data comes from the city, the Catalan mapping institute and the water company. I test the heat side with Ladybug and am in contact with Infrared City. Florence's municipality is providing LiDAR for a transfer test."
+**Say:** "Who is involved? The city's parks department decides. Designers use the tool. Data comes from the Catalan mapping institute, the city and its water-cycle company. I test the heat side with Ladybug and am in contact with Infrared City. Florence's municipality has offered LiDAR for a transfer test."
 
 ### 12. Exploitation: what, how, for whom
 **On slide:** table: open method (thesis, paper) -> researchers · Python core + web app, open source -> designers, other cities · per-tree trait and crown dataset -> city, researchers · transfer guide -> cities replacing monocultures
