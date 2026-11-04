@@ -117,17 +117,23 @@ def sidewalk_class(pos, site=None):
     return w.reindex(pos.tree_id).fillna("check").values
 
 
-def fits(site, pos, pal, size_rule=None):
+def fits(site, pos, pal, size_rule=None, cap=None):
     """Crown clearance from façades (methodology §6): crown radius <= distance from the position to the nearest building.
     ASSUMPTION: no extra margin; building = OSM footprint or LiDAR building points > 3 m above ground.
-    size_rule ("exact" / "at_most"): also apply the sidewalk-width sizing rule (size_fits); None = off."""
+    size_rule ("exact" / "at_most"): also apply the sidewalk-width sizing rule (size_fits); None = off.
+    cap (per species, as passed to assign): species with no room left (cap 0) are dropped, so that a position where only
+    those fit falls back like an empty one; None = no masking (callers with their own caps: city LP, additions, web)."""
     d = ndimage.distance_transform_edt(~(site.roof | (site.bldg_h > 3))) * site.res
     r, c = rc(site, pos.x.values, pos.y.values)
     f = d[r, c][:, None] >= pal.crown_diam_m.values[None, :] / 2
     if size_rule:
         f &= size_fits(sidewalk_class(pos, site), pal.species, size_rule)
-    small = np.where(pal.cap.values > 0, pal.crown_diam_m.values, np.inf).argmin()   # among species with room under the cap
-    f[~f.any(1), small] = True     # nothing fits (incl. sidewalks < 2.5 m): smallest crown
+    crown = pal.crown_diam_m.values
+    if cap is not None:
+        room = np.asarray(cap) > 0
+        f &= room[None, :]
+        crown = np.where(room, crown, np.inf)
+    f[~f.any(1), crown.argmin()] = True     # nothing fits (incl. sidewalks < 2.5 m): smallest crown (with room, if cap given)
     return f
 
 

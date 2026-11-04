@@ -67,11 +67,11 @@ sens.round(3).to_csv(DB / f"tool_v0_storm_leaf_factor{ptag}.csv")
 print("season-weighted leaf factor in storms (sensitivity):\n", sens.round(3).to_string())
 pot = {s: layout.shade_potential(site, pos, pal, sun[s], lit[s], heat.SEASONS[s]["month"]) for s in sun}
 water = layout.water_potential(site, pos, pal, p)
-fit = layout.fits(site, pos, pal, size_rule)
+fit = layout.fits(site, pos, pal, size_rule, cap=pal.cap.values)
 print("positions where the species fits:", dict(zip(pal.species, fit.mean(0).round(2))))
 
 layouts = {f"S1_random_{k}": layout.random_layout(pal.cap.values, fit, np.random.default_rng(k)) for k in range(10)}
-fit_s1a = fit if size_rule == "exact" else layout.fits(site, pos, pal, "exact")
+fit_s1a = fit if size_rule == "exact" else layout.fits(site, pos, pal, "exact", cap=pal.cap.values)
 if size_rule != "exact":
     print("note: S1a uses the exact sizing rule; the other layouts use", size_rule or "no sizing rule")
 layouts.update({f"S1a_city_{k}": layout.s1a_layout(pal, pal.cap.values, fit_s1a, np.random.default_rng(100 + k)) for k in range(10)})
