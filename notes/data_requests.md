@@ -187,7 +187,7 @@ parties and will be credited to Barcelona Cicle de l'Aigua, SA, Ajuntament de Ba
 >
 > Sottoscrivo volentieri l'accordo di consegna. Prima di firmarlo vorrei chiarire tre punti:
 > 1. **Prodotti derivati:** posso pubblicare nella tesi e nel repository pubblico del codice i valori derivati per singolo albero (altezza, ampiezza della chioma, indice di area fogliare stimato) e le mappe, citando il Comune di Firenze come fonte? La nuvola di punti grezza naturalmente non verrebbe mai pubblicata né condivisa.
-> 2. **Cancellazione:** per "fine dell'analisi" posso intendere la conclusione della tesi, inclusa la discussione e il conseguimento del titolo (al più tardi entro febbraio 2027)?
+> 2. **Cancellazione:** per "fine dell'analisi" posso intendere la conclusione della tesi, cioè dopo la discussione, prevista tra il 10 e il 23 dicembre 2026 (cancellerei comunque i dati entro il 31 gennaio 2027)?
 > 3. **Formato:** se possibile, LAS o LAZ.
 >
 > Le invierò i risultati e una copia della tesi una volta conclusa.
