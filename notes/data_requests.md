@@ -18,7 +18,8 @@ forward replies or paste them in the thread. Nothing here is sent by Claude.*
 - [ ] **10 Nov, tutor**: ask Angelos for an Àrea d'Arbrat contact; mention the BCASA letter if BCASA says it can be done remotely.
 - [x] PDISBA PDFs downloaded (3 Nov); Diagnosi read.
 - [~] Plànols Vol. II re-downloaded 4 Nov on the office PC (not the OMEN). **This afternoon:** check the size (hundreds of MB, not 440 bytes), move it to the OMEN by USB or Google Drive, and save it in `databases\barcelona\raw\pdisba\` overwriting the 440-byte `Planols_Vol_II.pdf`. Then tell Claude, who reads plates 6.2 for Porta.
-- [ ] **Firenze LiDAR**: reply to Polistena (draft §4) with the polygon attached (Claude prepares it), then sign their delivery agreement.
+- [x] Escapos census downloaded to `databases\florence\raw\` (4 Nov).
+- [ ] **Firenze LiDAR**: reply to Polistena (draft §4) attaching `area_lidar_firenze_nova.geojson` + `area_lidar_firenze_nova_shp.zip`, then sign their delivery agreement.
 - [ ] Barcelona Regional: phone +34 932 237 400 around 13 Nov if still silent.
 
 ## Board (3 Nov 2026)
@@ -172,7 +173,7 @@ parties and will be credited to Barcelona Cicle de l'Aigua, SA, Ajuntament de Ba
 
 **What the answer means.** It is the "multiple returns retained, but unclassified" row of the decision table in `notes/firenze_lidar_request.md`: workable. 20 pts/m² is denser than Porta's ICGC cloud. The missing ASPRS classes cost less than a full classification step, because the Comune already publishes the leaf-on DTM of the same 27 Jun 2023 flight (CC BY 4.0): ground = points within ~0.5 m of that DTM (ASSUMPTION threshold), vegetation vs buildings = tree positions from the "Alberi" inventory and building footprints from the Carta Tecnica. The gap fraction then works as in Porta (ground share of returns inside each crown).
 
-**Area.** The Firenze Nova sector where the Life Escapos census sits (1,459 trees with measured height and crown width, `databases/data_inventory.md` F1c): it gives a check of LiDAR height and crown against field values that Porta never had. Polygon to be built from the Escapos extent plus a buffer, in EPSG:7791 (RDN2008 / UTM 32N, the ETRF2000 realisation the Comune uses), about 1–2 km².
+**Area.** The Firenze Nova sector where the Life Escapos census sits (1,459 trees with measured height and crown width, `databases/data_inventory.md` F1c): it gives a check of LiDAR height and crown against field values that Porta never had. Polygon built 4 Nov: convex hull of the 1,459 Escapos trees + 50 m buffer, 1.68 km², EPSG:7791 (RDN2008 / UTM 32N = ETRF2000, the census's own CRS). Files: `databases/florence/area_lidar_firenze_nova.geojson`; to attach: `/mnt/project-files/florence_lidar/` (GeoJSON + zipped shapefile).
 
 **Agreement vs public repo.** Compatible if the raw cloud never enters the repo (gitignored, like `papers/`) and is deleted after the thesis. The two points to settle before signing: whether derived per-tree values (height, crown, LAI proxy) and maps may be published in the thesis and the public repo, and when "end of analysis" is.
 
@@ -182,7 +183,7 @@ parties and will be credited to Barcelona Cicle de l'Aigua, SA, Ajuntament de Ba
 >
 > la ringrazio molto per la risposta e per la disponibilità. Il dato come descritto è adatto alla ricerca: la densità di 20 punti/m² e la presenza di Return Number e Number of Returns sono proprio ciò che serve. La classificazione la ricavo io, usando il DTM 2023 già pubblicato dal Comune.
 >
-> In allegato trova il poligono dell'area di interesse, circa [X] km² nella zona di Firenze Nova (Rifredi–Novoli), in ETRS89/ETRF2000 UTM 32N (EPSG:7791), in formato shapefile e GeoJSON. Ho scelto quest'area perché coincide con il censimento Life Escapos, che mi permette di confrontare le altezze e le chiome ricavate dal LiDAR con i rilievi a terra.
+> In allegato trova il poligono dell'area di interesse, circa 1,7 km² nella zona di Firenze Nova (Rifredi–Novoli), in ETRS89/ETRF2000 UTM 32N (EPSG:7791), in formato shapefile (zip) e GeoJSON. Ho scelto quest'area perché coincide con il censimento Life Escapos, che mi permette di confrontare le altezze e le chiome ricavate dal LiDAR con i rilievi a terra.
 >
 > Sottoscrivo volentieri l'accordo di consegna. Prima di firmarlo vorrei chiarire tre punti:
 > 1. **Prodotti derivati:** posso pubblicare nella tesi e nel repository pubblico del codice i valori derivati per singolo albero (altezza, ampiezza della chioma, indice di area fogliare stimato) e le mappe, citando il Comune di Firenze come fonte? La nuvola di punti grezza naturalmente non verrebbe mai pubblicata né condivisa.
