@@ -1,6 +1,6 @@
 """Site bundle: what the tool needs about one site on one grid, built once and cached in cache/site_<name>.npz.
 Porta: build_porta() (validated bundle); any other barri: build_barri(name), same model with a BUFFER_M margin. Coordinates: EPSG:25831, 1 m cells."""
-import json, pathlib, re, unicodedata, numpy as np, pandas as pd, geopandas as gpd, rasterio
+import functools, json, pathlib, re, unicodedata, numpy as np, pandas as pd, geopandas as gpd, rasterio
 from types import SimpleNamespace
 from rasterio.features import rasterize
 from rasterio.transform import from_origin
@@ -105,6 +105,14 @@ def trees_barri(name):
     t = pd.read_csv(BARRIS / slug(name) / "trees_lidar.csv")
     t["lai"], t["sp"] = t.lai_proxy, t.species.map(norm)
     return t
+
+
+@functools.lru_cache(maxsize=1)
+def city_trees():
+    """City pool of street trees with LiDAR crowns and trunk class: Porta + every barri in BARRIS (one row per tree)."""
+    t = pd.concat([trees_porta()] + [trees_barri(d.name) for d in sorted(BARRIS.glob("*")) if (d / "trees_lidar.csv").exists()],
+                  ignore_index=True)
+    return t[t.flag == "ok"].drop_duplicates("tree_id")
 
 
 def build_barri(name):

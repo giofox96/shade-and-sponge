@@ -192,6 +192,7 @@ The deck follows that order.
 - **B2 Runoff module:** `slides/fig_v7/flow_03_runoff.png`
 - **B3 City screening:** `slides/fig_v7/flow_01_screening.png`
 - **B4 Results in real units:** `slides/fig_v7/res_02_bars.png`
+- **B4b Wider palette (30 species), Porta + 32 barris:** `slides/fig_v7/res_07_palette30.png` (`scripts/make_palette30_v7.py`, PR #89). If asked about "only a few species": the same rules with the city's 30-species catalogue give a median +8.2 points of summer shade over the 7-species palette (31 of 32 barris gain), at the price of more winter shade (96-128% of today). Each barri is optimised alone; the city-wide LP still uses 7 species.
 - **B5 Sizing rule leaves real choice:** `slides/fig_v6/v6_09_sizing_rule.png`
 - **B7 Validation plan:** `slides/fig_v7/flow_05_validation.png`
 - **B8 Co-benefits not optimised (yet):** `slides/fig_v7/v7_17_cobenefits.png` (pollen, carbon, diversity, ozone/VOC; plan in `notes/cobenefits_plan.md`). Answer if asked: "They are not objectives of the tool. From next week I report them for every layout; carbon may go against me, because the planes are big, and I will show it."

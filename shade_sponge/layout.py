@@ -6,7 +6,7 @@ NSGA-II comes later, if the weighted-sum front leaves gaps."""
 import itertools, numpy as np, pandas as pd
 from scipy import ndimage, sparse
 from scipy.optimize import linprog
-from .site import DB, CITY_LIDAR, rc, species_lidar
+from .site import DB, CITY_LIDAR, rc, species_lidar, city_trees
 from . import heat, runoff, season
 
 CITY_PALETTE = ["Celtis australis", "Melia azedarach", "Pyrus calleryana", "Jacaranda mimosifolia", "Tipuana tipu",
@@ -19,17 +19,33 @@ MIN_LIDAR = 20                              # ASSUMPTION: species need >= 20 LiD
 # here get no size filter (ASSUMPTION). Sidewalk width -> position class: scripts/porta_sidewalk_width.py (guide pp. 22-23).
 SIZE_CLASS = {"Platanus x acerifolia": "large", "Celtis australis": "large", "Tipuana tipu": "large",
               "Jacaranda mimosifolia": "large", "Melia azedarach": "medium", "Styphnolobium japonicum": "medium",
-              "Brachychiton populneus": "medium", "Pyrus calleryana": "small"}
+              "Brachychiton populneus": "medium", "Pyrus calleryana": "small",
+              # the rest of the Barcelona palette, same catalogue (read 3 Nov 2026; notes/tree_master_plan.md §5).
+              # ASSUMPTION: cultivars merged into the species (norm) take the species' class; Celtis sinensis is not listed.
+              "Ligustrum lucidum": "medium", "Prunus cerasifera": "medium", "Gleditsia triacanthos": "large",
+              "Cercis siliquastrum": "medium", "Ulmus pumila": "large", "Citrus × aurantium": "small",
+              "Robinia pseudoacacia": "large", "Koelreuteria paniculata": "medium", "Magnolia grandiflora": "medium",
+              "Grevillea robusta": "large", "Tilia x euchlora": "large", "Pinus pinea": "large", "Populus nigra": "large",
+              "Quercus ilex": "medium", "Firmiana simplex": "medium", "Fraxinus angustifolia": "large",
+              "Tilia x europaea": "large", "Casuarina cunninghamiana": "large", "Hibiscus syriacus": "small",
+              "Ginkgo biloba": "large", "Populus alba": "large", "Acer campestre": "medium", "Pinus halepensis": "large",
+              "Cupressus sempervirens": "large", "Catalpa bignonioides": "large", "Acer monspessulanum": "medium"}
 RANK = {"none": -1, "small": 0, "medium": 1, "large": 2}
+# Marked "avoid planting" (red) in the same catalogue (notes/tree_master_plan.md §5.5): left out of the Barcelona palette
+# (user, 3 Nov 2026). "Restricted" (orange) species stay: the catalogue is from 2011 and Celtis australis, orange there,
+# is still the city's first plane replacement.
+AVOID = {"Ulmus pumila", "Robinia pseudoacacia", "Populus nigra", "Populus alba"}
 # S1a, the city's own replacement (notes/topic_decision.md §9.6, §10.4; decided 24 Oct): the 2026 target mix (Betevé,
 # 7 May 2026, press 🟡: Celtis ~12%, Melia 7.25%, Pyrus, Sophora and Tipuana ~5% each), used as relative weights of a
 # random draw within the sizing rule. ASSUMPTION: the city-wide target shares are read as replacement proportions, and
 # Celtis's 12% as per species (the source is ambiguous: "planes and Celtis ~12%"; notes/tree_master_plan.md §5).
 S1A_MIX = {"Celtis australis": 12, "Melia azedarach": 7.25, "Pyrus calleryana": 5, "Styphnolobium japonicum": 5,
            "Tipuana tipu": 5}
-# Equal trunk size (notes/topic_decision.md §9.9, §10.5 row 8): species traits = medians of the Porta trees in one trunk
+# Equal trunk size (notes/topic_decision.md §9.9, §10.5 row 8): species traits = medians of the site's trees in one trunk
 # class of the inventory (categoria_arbrat; TERCERA = 81–110 cm perimeter, 2011 guide p. 18). ASSUMPTION: TERCERA is the
-# reference; a species with fewer than MIN_CLASS trees there falls back to SEGONA, then to all classes.
+# reference; a species with fewer than MIN_CLASS trees there falls back to SEGONA, then to the same two classes in the
+# city pool (all barris with LiDAR crowns + Porta, city_trees()), then to all classes. The city pool mixes two LiDAR
+# flights (Porta Sept 2021, the other barris June 2022), both leaf-on.
 MIN_CLASS = 20
 
 
@@ -40,12 +56,14 @@ def slug(species):
 
 def palette_names(kind):
     """'city': the species the city names as plane replacements (+ Styphnolobium); 'barcelona': the shortlist of species
-    common in Barcelona's streets (scripts/species_shortlist.py) with enough LiDAR-measured trees (scripts/bcn_lidar_species.py)."""
+    common in Barcelona's streets (scripts/species_shortlist.py) with enough LiDAR-measured trees (scripts/bcn_lidar_species.py),
+    minus the guide's "avoid" species (AVOID)."""
     if kind == "city":
         return CITY_PALETTE, "porta_species_lidar_summary.csv"
     sl = pd.read_csv(DB / "species_shortlist.csv")
     n = pd.read_csv(DB / "species_lidar_summary.csv").set_index("species").n
-    return [s for s in sl[sl.status == "candidate"].species if n.get(s, 0) >= MIN_LIDAR], "species_lidar_summary.csv"
+    return [s for s in sl[sl.status == "candidate"].species if n.get(s, 0) >= MIN_LIDAR and s not in AVOID], \
+        "species_lidar_summary.csv"
 
 
 def palette(site, kind="city", trunk=None):
@@ -59,15 +77,20 @@ def palette(site, kind="city", trunk=None):
     p["trunk_class"] = "all"
     if trunk:
         ok = site.trees[site.trees.flag == "ok"]
+        pool = city_trees()
+        # 'barcelona': the city pool for every species, so that all are measured alike (Porta's LiDAR, Sept 2021, gives a
+        # lower LAI proxy than the June 2022 flights for the same species and trunk class: Celtis 2.42 vs 3.48; user, 4 Nov)
+        order = ((pool, trunk), (pool, "SEGONA")) if kind == "barcelona" else \
+            ((ok, trunk), (ok, "SEGONA"), (pool, trunk), (pool, "SEGONA"))   # 'city': local first, then city
         for i, sp in enumerate(names):
-            if sp in CITY_LIDAR:                              # Porta sample too small: city-wide medians kept
+            if sp in CITY_LIDAR and kind != "barcelona":     # Porta sample too small: city-wide medians kept
                 continue
-            for cls in (trunk, "SEGONA"):
-                g = ok[(ok.sp == sp) & (ok.size_category == cls)]
+            for src, cls in order:
+                g = src[(src.sp == sp) & (src.size_category == cls)]
                 if len(g) >= MIN_CLASS:
                     p.loc[i, ["crown_diam_m", "height_m", "crown_base_m", "lai", "n_lidar"]] = [
                         g.crown_diam_m.median(), g.height_m.median(), g.crown_base_m.median(), g.lai.median(), len(g)]
-                    p.loc[i, "trunk_class"] = cls
+                    p.loc[i, "trunk_class"] = cls if src is ok else f"{cls} (city)"
                     break
     t = site.trees
     kept = t[~t.is_plane].sp.value_counts().reindex(names).fillna(0).values
@@ -98,16 +121,23 @@ def sidewalk_class(pos, site=None):
     return w.reindex(pos.tree_id).fillna("check").values
 
 
-def fits(site, pos, pal, size_rule=None):
+def fits(site, pos, pal, size_rule=None, cap=None):
     """Crown clearance from façades (methodology §6): crown radius <= distance from the position to the nearest building.
     ASSUMPTION: no extra margin; building = OSM footprint or LiDAR building points > 3 m above ground.
-    size_rule ("exact" / "at_most"): also apply the sidewalk-width sizing rule (size_fits); None = off."""
+    size_rule ("exact" / "at_most"): also apply the sidewalk-width sizing rule (size_fits); None = off.
+    cap (per species, as passed to assign): species with no room left (cap 0) are dropped, so that a position where only
+    those fit falls back like an empty one; None = no masking (callers with their own caps: city LP, additions, web)."""
     d = ndimage.distance_transform_edt(~(site.roof | (site.bldg_h > 3))) * site.res
     r, c = rc(site, pos.x.values, pos.y.values)
     f = d[r, c][:, None] >= pal.crown_diam_m.values[None, :] / 2
     if size_rule:
         f &= size_fits(sidewalk_class(pos, site), pal.species, size_rule)
-    f[~f.any(1), pal.crown_diam_m.values.argmin()] = True     # nothing fits (incl. sidewalks < 2.5 m): smallest crown
+    crown = pal.crown_diam_m.values
+    if cap is not None:
+        room = np.asarray(cap) > 0
+        f &= room[None, :]
+        crown = np.where(room, crown, np.inf)
+    f[~f.any(1), crown.argmin()] = True     # nothing fits (incl. sidewalks < 2.5 m): smallest crown (with room, if cap given)
     return f
 
 

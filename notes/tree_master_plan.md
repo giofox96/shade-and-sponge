@@ -126,20 +126,47 @@ Read in full on 24 Oct: Santamour 1990 (#139), Kendal, Dobbs & Lohr 2014 (#140).
    | > 6 m (wide) | large | > 6 m / > 15 m | 13 m | 6.5 m |
 
    Also: no planting where the adult crown would come within 0.5 m of balconies or overhangs (stated under narrow streets). Keep > 3 m from traffic lights and signs, and > 1 m from driveways.
-5. **Size class of each palette species (G catalogue, pp. 49–56; G/M/P = large/medium/small):**
+5. **Size class and suitability mark of each palette species (G catalogue, pp. 49–56, read from the page images 3 Nov 2026).** Size: G/M/P = large/medium/small. Use ("Ús"): V = fit for streets, Z/P = for zones or parks. Mark (legend p. 56, "Idoneïtat com a arbre viari"): 🟢 recommended, for gaps and new plantings; 🟠 restricted, only to fill gaps in streets that keep the species, no new plantings; 🔴 avoid planting; ⚪ under study.
 
-   | Species | Size class | Note in the catalogue |
-   |---|---|---|
-   | *Platanus × acerifolia* | large | exceeds the 15%; difficulty adapting |
-   | *Celtis australis* | large | close to the 15% |
-   | *Tipuana tipu* | large | — |
-   | *Jacaranda mimosifolia* | large | — |
-   | *Melia azedarach* | medium | — |
-   | *Styphnolobium japonicum* | medium | — |
-   | *Brachychiton populneus* | medium, evergreen | — |
-   | *Pyrus calleryana* 'Chanticleer' | small | — |
+   | Species | Size | Use | Mark | Note in the catalogue |
+   |---|---|---|---|---|
+   | *Platanus × acerifolia* | large | V-Z/P | 🟠 | above the 15%; difficulty adapting |
+   | *Celtis australis* | large | V-Z/P | 🟠 | high presence, close to the 15% |
+   | *Tipuana tipu* | large | V-Z/P | 🟢 | — |
+   | *Jacaranda mimosifolia* | large | V-Z/P | 🟢 | — |
+   | *Melia azedarach* | medium | V-Z/P | 🟢 | — |
+   | *Styphnolobium japonicum* | medium | V-Z/P | 🟢 | — |
+   | *Brachychiton populneus* | medium, evergreen | V-Z/P | 🟢 | — |
+   | *Pyrus calleryana* 'Chanticleer' | small | V-Z/P | 🟢 | — |
+   | *Ligustrum lucidum* | medium | V-Z/P | 🟠 | invasive |
+   | *Prunus cerasifera* (and 'Pissardii') | medium | V-Z/P | 🟢 | — |
+   | *Gleditsia triacanthos* | large | V-Z/P | 🟠 | thorns; replace with f. *inermis* (large, 🟢) |
+   | *Cercis siliquastrum* | medium | V-Z/P | 🟢 | — |
+   | *Ulmus pumila* | large | V-Z/P | 🔴 | graphiosis; brittle wood; aggressive roots |
+   | *Citrus aurantium* | small | V-Z/P | 🟠 | very sensitive to pests and diseases |
+   | *Robinia pseudoacacia* | large | Z/P | 🔴 | irregular growth; invasive (cultivars medium, 🟠/⚪/🔴) |
+   | *Koelreuteria paniculata* | medium | V-Z/P | 🟢 | ('Fastigiata' medium, ⚪) |
+   | *Magnolia grandiflora* | medium | V-Z/P | 🟠 | needs water and nutrients |
+   | *Grevillea robusta* | large | V-Z/P | 🟢 | — |
+   | *Tilia × euchlora* | large | V-Z/P | 🟠 | difficulty adapting |
+   | *Pinus pinea* | large | V-Z/P | 🟢 | — |
+   | *Celtis sinensis* | — | — | — | not in the catalogue |
+   | *Populus nigra* | large | Z/P | 🔴 | aggressive roots; seed fluff |
+   | *Quercus ilex* | medium | V-Z/P | 🟢 | — |
+   | *Firmiana simplex* | medium | V-Z/P | 🟢 | — |
+   | *Fraxinus angustifolia* | large | V-Z/P | 🟠 | difficulty adapting ('Raywood' medium, ⚪) |
+   | *Tilia × europaea* | large | V-Z/P | 🟠 | difficulty adapting |
+   | *Casuarina cunninghamiana* | large | V-Z/P | 🟢 | — |
+   | *Hibiscus syriacus* | small | V-Z/P | 🟢 | — |
+   | *Ginkgo biloba* | large | V-Z/P | 🟠 | avoid female trees (fruit) ('Fastigiata' large, ⚪) |
+   | *Populus alba* | large | Z/P | 🔴 | aggressive roots; brittle wood |
+   | *Acer campestre* | medium | V-Z/P | 🟢 | — |
+   | *Pinus halepensis* | large | Z/P | 🟠 | very sensitive to processionary moth |
+   | *Cupressus sempervirens* | large | V-Z/P | 🟢 | ('Stricta' medium, 🟢) |
+   | *Catalpa bignonioides* | large | V-Z/P | 🟢 | — |
+   | *Acer monspessulanum* | medium | V-Z/P | 🟢 | — |
 
-   PLATANOR® 'Vallis Clausa' is listed separately (p. 53), which bears on the backlog question of whether Porta's 3 trees of it count as *Platanus*. Each species also carries a coloured suitability mark (plant / restricted, i.e. only fill gaps in streets that keep the species / avoid / under study). **The colour cannot be read from the text extraction, so each species' mark is unverified.**
+   PLATANOR® 'Vallis Clausa' is listed separately (p. 53, large, ⚪), which bears on the backlog question of whether Porta's 3 trees of it count as *Platanus*. The tool uses the size column (`layout.SIZE_CLASS`; inventory cultivars are merged into the species, so they take the species' class: ASSUMPTION). The mark is not used yet: in the 34-species palette 4 species are 🔴 (*Ulmus pumila*, *Robinia*, *Populus nigra*, *P. alba*) and 10 are 🟠, including *Celtis australis*, the city's own first replacement for planes.
 6. **Not public.** In 2022 the city said it had already decided which species can replace trees that die, using street orientation, available aerial space, soil quality and desired shade (N3 🟡). That list or rule set was not found. The plan has only the actions: 1.2 balance species abundance, 1.4 plan the renewal, 2.9 select species for the future (urban resistance, habit, flowering) (P §2.2). **Nobody publishes a per-street choice, and no source quantifies runoff or thermal comfort per species or position** (G p. 16 asks only qualitatively for shade trees that feel cool in summer). That is the gap the tool fills.
 
 ## 5b. Gate 1 (24 Oct): a structured "which species, where" rule exists, but on paper only
@@ -190,7 +217,7 @@ So the gap holds and becomes sharper: the city has qualitative rules for which s
 
 ## 7. Still to check
 
-- The colour suitability marks in G's catalogue (open the PDF, pp. 49–56).
+- ~~The colour suitability marks in G's catalogue~~ Done 3 Nov 2026 (§5.5, read from the page images).
 - The city's current list of replacement species by street type (N3). The 2004/2005 version was read on 24 Oct (§5b). A newer one: waiting on the Parcs i Jardins email (sent 24 Oct).
 - The species list behind the 40% climate-adapted target. It is not in P, C or NP (§8). Ask for it in the Parcs i Jardins follow-up (RGF7342).
 - An official source (Ajuntament press release, or the 20minutos original) for the 2026 figures.
