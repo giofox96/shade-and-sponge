@@ -17,7 +17,7 @@ forward replies or paste them in the thread. Nothing here is sent by Claude.*
 - [ ] **Wed 4 Nov, Parcs i Jardins**: one follow-up via the form quoting RGF7342 (§2).
 - [ ] **10 Nov, tutor**: ask Angelos for an Àrea d'Arbrat contact; mention the BCASA letter if BCASA says it can be done remotely.
 - [x] PDISBA PDFs downloaded (3 Nov); Diagnosi read.
-- [~] Plànols Vol. II re-downloaded 4 Nov on the office PC (not the OMEN). **This afternoon:** check the size (hundreds of MB, not 440 bytes), move it to the OMEN by USB or Google Drive, and save it in `databases\barcelona\raw\pdisba\` overwriting the 440-byte `Planols_Vol_II.pdf`. Then tell Claude, who reads plates 6.2 for Porta.
+- [x] Plànols Vol. II complete on the OMEN (4 Nov) and read by Claude. ~~Old note:~~ re-downloaded 4 Nov on the office PC (not the OMEN). **This afternoon:** check the size (hundreds of MB, not 440 bytes), move it to the OMEN by USB or Google Drive, and save it in `databases\barcelona\raw\pdisba\` overwriting the 440-byte `Planols_Vol_II.pdf`. Then tell Claude, who reads plates 6.2 for Porta.
 - [x] Escapos census downloaded to `databases\florence\raw\` (4 Nov).
 - [x] Firenze LiDAR: reply to Polistena sent 4 Nov 14:50 with the polygon.
 - [ ] **Firenze LiDAR**: when the delivery agreement arrives, send it to Claude to read before signing. Nudge ~18 Nov if silent.
@@ -55,9 +55,33 @@ renamed `01_memoria.txt` … `11_planols_vol5.txt`.
   network surcharges to the surface, at T = 10 about 24% (shares computed here from the figure's table).
   §6.2.3 lists T = 10 critical points with maps; two are in or near Nou Barris: **6.2.3.11 Plaça Llucmajor** (old Riera
   de Sant Andreu, surface flow down c/ Garrofers; Fig. 71) and **6.2.3.12 Tajo – Cartellà** (c/ Cartellà drains the
-  strip between Ronda de Dalt and Turó de la Peira; Fig. 72). Whether either lies inside Porta is not yet checked.
+  strip between Ronda de Dalt and Turó de la Peira; Fig. 72). Checked 4 Nov from Vol II: Llucmajor is on Porta's north-east edge, Tajo – Cartellà is outside Porta (see below).
 - **Plànols PDFs: downloads incomplete** (Vol I 1.23 GB and Vol II 1.15 GB truncated, III/IV partial, V empty; pdfinfo
   cannot open any). Vol IV is complete (394 pp.) but holds series 12 (future + SUDS; p.100 = plate 12.2.10, sheet B04, 1:5000 grid). Series 6.2 is probably in Vol II. On 3 Nov BCNROC answered curl with a rate-limit page (`error_400_rateExceeded`): retry Vol II only, in the browser, another day.
+- **Vol II read (4 Nov; complete copy, 467 pp., `Planols_-_Volum_II_meta.pdf`).** Pages identified by OCR of each
+  title block: 6.1.x dry weather pp.7–77; **6.2 (T = 1, present climate, current network) pp.78–155**: 6.2.1–6.2.8
+  general plans pp.78–85, 6.2.9 damages per barri pp.86–87, **6.2.10 detail plans pp.88–155** (68 sheets, A02…J09,
+  alphabetical); 6.3.10 (T = 10) starts p.166 in the same sheet order (page = 6.2.10 page + 78). Legend: flooding
+  0–0.02 / 0.02–0.04 / 0.04–0.06 / > 0.06 m, velocity > 1.8 m/s; pipes 1 free surface (green), 2 pressurised
+  (yellow), 3 < 0.5 m below ground (orange), 4 above ground (red).
+- **Porta lies on sheets H06, H07, I06, I07** (pp.140, 141, 146, 147 at T = 1; pp.218, 219, 224, 225 at T = 10),
+  located by street names matched against the Porta tree-inventory streets (Alcúdia, Selva, Eduard Tubau, Lluc,
+  Escultor Ordóñez, Garrofers, Maladeta, Pg Verdum, Pg Valldaura, Meridiana, Fabra i Puig). Not georeferenced.
+- **What T = 1 shows in Porta (read from the plates, qualitative):** no surface ponding above 0.02 m anywhere inside
+  Porta. The network goes into pressure (yellow) on parts of Av. Meridiana, Pg. Fabra i Puig and the C/ Lluc branch
+  that runs to Pl. Llucmajor; the only above-ground (red) pipes are a few short ones inside the garden block between
+  C/ Alcúdia and C/ Selva. The nearest T = 1 ponding is just outside Porta's north-west edge, at C/ Sant Isidre –
+  C/ Peutret (Pg. Urrutia, sheet H07).
+- **What T = 10 shows in the same place (contrast):** a continuous flooded strip from **Pl. Llucmajor down Pg.
+  Valldaura**, C/ Lluc, C/ Escultor Ordóñez and C/ Garrofers (> 0.06 m in places, velocity > 1.8 m/s on the C/ Lluc
+  branch at Llucmajor, red pipes), and a second strip along C/ Orduña – C/ Maladeta from Pg. Urrutia. So the Pl.
+  Llucmajor critical point (Diagnosi 6.2.3.11) **is on Porta's north-east edge**; Tajo – Cartellà is not in Porta
+  (C/ Cartellà runs under Turó de la Peira, sheet H07, outside the barri).
+- **Meaning for the thesis.** At T = 1 the sewer in Porta copes: no street flooding, only a network close to capacity
+  in a few trunks. Tree interception therefore acts on the volume entering a partly pressurised network, not on
+  visible flooding; visible flooding starts by T = 10, where interception is a small share of the storm. Consistent with
+  the "small gains" framing. Usable in the thesis as a qualitative statement with citation to PDISBA plates 6.2.10 /
+  6.3.10, sheets H06–I07. The plates are CC BY-NC-ND: crops stay on the OMEN (`raw/pdisba/fig/v2/`), not in the repo.
 - **Consequence for the BCASA request:** no need to ask *whether* a T = 1 run exists; ask for the **GIS layers of
   plànols series 6.2 (and 6.3, T = 10) for Nou Barris**, plus the gauge series.
 
