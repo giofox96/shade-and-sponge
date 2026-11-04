@@ -4,7 +4,7 @@
 Replies to the city forms go to giovanni.carlo.volpe@students.iaac.net (IAAC inbox), which Claude cannot read:
 forward replies or paste them in the thread. Nothing here is sent by Claude.*
 
-## Giovanni's to-do (updated 3 Nov, 13:10)
+## Giovanni's to-do (updated 4 Nov, 10:45)
 - [x] TRY: data released 3 Nov.
 - [x] TRY downloaded and saved in `databases\TRY_DATABASE\` (3 Nov).
 - [x] LinkedIn: connection request to Cati Montserrat Martí sent without a note (3 Nov). When she accepts, send the follow-up message.
@@ -17,7 +17,7 @@ forward replies or paste them in the thread. Nothing here is sent by Claude.*
 - [ ] **Wed 4 Nov, Parcs i Jardins**: one follow-up via the form quoting RGF7342 (§2).
 - [ ] **10 Nov, tutor**: ask Angelos for an Àrea d'Arbrat contact; mention the BCASA letter if BCASA says it can be done remotely.
 - [x] PDISBA PDFs downloaded (3 Nov); Diagnosi read.
-- [ ] Optional, another day: re-download Plànols Vol. II only, in the browser (BCNROC rate-limited us on 3 Nov).
+- [~] Plànols Vol. II re-downloaded 4 Nov on the office PC (not the OMEN). **This afternoon:** check the size (hundreds of MB, not 440 bytes), move it to the OMEN by USB or Google Drive, and save it in `databases\barcelona\raw\pdisba\` overwriting the 440-byte `Planols_Vol_II.pdf`. Then tell Claude, who reads plates 6.2 for Porta.
 - [ ] Barcelona Regional: phone +34 932 237 400 around 13 Nov if still silent.
 
 ## Board (3 Nov 2026)
