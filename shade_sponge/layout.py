@@ -126,7 +126,8 @@ def fits(site, pos, pal, size_rule=None):
     f = d[r, c][:, None] >= pal.crown_diam_m.values[None, :] / 2
     if size_rule:
         f &= size_fits(sidewalk_class(pos, site), pal.species, size_rule)
-    f[~f.any(1), pal.crown_diam_m.values.argmin()] = True     # nothing fits (incl. sidewalks < 2.5 m): smallest crown
+    small = np.where(pal.cap.values > 0, pal.crown_diam_m.values, np.inf).argmin()   # among species with room under the cap
+    f[~f.any(1), small] = True     # nothing fits (incl. sidewalks < 2.5 m): smallest crown
     return f
 
 
