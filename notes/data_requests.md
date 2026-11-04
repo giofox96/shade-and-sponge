@@ -183,7 +183,7 @@ parties and will be credited to Barcelona Cicle de l'Aigua, SA, Ajuntament de Ba
 >
 > la ringrazio molto per la risposta e per la disponibilità. Il dato come descritto è adatto alla ricerca: la densità di 20 punti/m² e la presenza di Return Number e Number of Returns sono proprio ciò che serve. La classificazione la ricavo io, usando il DTM 2023 già pubblicato dal Comune.
 >
-> In allegato trova il poligono dell'area di interesse, circa 1,7 km² nella zona di Firenze Nova (Rifredi–Novoli), in formato shapefile (zip) e GeoJSON. Il sistema di riferimento è **EPSG:7791 – RDN2008 / UTM zona 32N**, cioè la realizzazione italiana dell'ETRF2000: è lo stesso sistema UTM-ETRF2000 da Lei indicato, ed è quello in cui il Comune pubblica il censimento Life Escapos. Ho scelto quest'area perché coincide con il censimento Life Escapos, che mi permette di confrontare le altezze e le chiome ricavate dal LiDAR con i rilievi a terra.
+> In allegato trova il poligono dell'area di interesse, circa 1,7 km² nella zona di Firenze Nova (Rifredi–Novoli), in formato shapefile (zip) e GeoJSON. Il sistema di riferimento è **EPSG:7791 – RDN2008 / UTM zona 32N**, cioè la realizzazione italiana dell'ETRF2000: è lo stesso sistema UTM-ETRF2000 da Lei indicato, ed è quello in cui il Comune pubblica il censimento Life Escapos. Ho scelto quest'area proprio perché coincide con quel censimento, che mi permette di confrontare le altezze e le chiome ricavate dal LiDAR con i rilievi a terra.
 >
 > Sottoscrivo volentieri l'accordo di consegna. Prima di firmarlo vorrei chiarire tre punti:
 > 1. **Prodotti derivati:** posso pubblicare nella tesi e nel repository pubblico del codice i valori derivati per singolo albero (altezza, ampiezza della chioma, indice di area fogliare stimato) e le mappe, citando il Comune di Firenze come fonte? La nuvola di punti grezza naturalmente non verrebbe mai pubblicata né condivisa.
@@ -195,3 +195,4 @@ parties and will be credited to Barcelona Cicle de l'Aigua, SA, Ajuntament de Ba
 > Cordiali saluti,
 > Giovanni Carlo Volpe
 > Master in Advanced Computation for Architecture & Design (MaCAD), IAAC Barcellona
+> giovanni.carlo.volpe@students.iaac.net
