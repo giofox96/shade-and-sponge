@@ -4,20 +4,20 @@
 Replies to the city forms go to giovanni.carlo.volpe@students.iaac.net (IAAC inbox), which Claude cannot read:
 forward replies or paste them in the thread. Nothing here is sent by Claude.*
 
-## Giovanni's to-do (updated 4 Nov, 10:45)
+## Giovanni's to-do (updated 5 Nov)
 - [x] TRY: data released 3 Nov.
 - [x] TRY downloaded and saved in `databases\TRY_DATABASE\` (3 Nov).
 - [x] LinkedIn: connection request to Cati Montserrat Martí sent without a note (3 Nov). When she accepts, send the follow-up message.
-- [ ] **BCASA**: send the follow-up (form text in the thread, 3 Nov) through the Atenció en línia form, same category, subject "Seguimiento BDM9240"; send me the new code.
-- [ ] **AMB contact form** (amb.cat → Contacte): message for Cati Montserrat (text in the thread, 3 Nov).
+- [ ] **BCASA**: send the follow-up (text §5a) through the Atenció en línia form, same category, subject "Seguimiento BDM9240"; send me the new code.
+- [ ] **AMB contact form** (amb.cat → Contacte): message for Cati Montserrat (text §5b).
 - [x] Slack: María asked (3 Nov); Pinyol lead dropped, go for Joan Guitart.
 - [x] LinkedIn: connection request to Joan Guitart sent (3 Nov). When he accepts, send a short message (ask Claude for the text).
 - [x] Víctor Ténez (UPC): email sent 3 Nov evening to victor.tenez@upc.edu. Wait for a reply; nudge ~11 Nov if silent.
-- [ ] **AiEM (UPC)**: pick a researcher on https://aie.upc.edu/equip/ and send the email (text in the thread, 3 Nov).
-- [ ] **Wed 4 Nov, Parcs i Jardins**: one follow-up via the form quoting RGF7342 (§2).
+- [ ] **AiEM (UPC)**: pick a researcher on https://aie.upc.edu/equip/ and send the email (text §5c).
+- [ ] **Parcs i Jardins** (was due Wed 4 Nov): one follow-up via the form quoting RGF7342 (§2).
 - [ ] **10 Nov, tutor**: ask Angelos for an Àrea d'Arbrat contact; mention the BCASA letter if BCASA says it can be done remotely.
 - [x] PDISBA PDFs downloaded (3 Nov); Diagnosi read.
-- [x] Plànols Vol. II complete on the OMEN (4 Nov) and read by Claude. ~~Old note:~~ re-downloaded 4 Nov on the office PC (not the OMEN). **This afternoon:** check the size (hundreds of MB, not 440 bytes), move it to the OMEN by USB or Google Drive, and save it in `databases\barcelona\raw\pdisba\` overwriting the 440-byte `Planols_Vol_II.pdf`. Then tell Claude, who reads plates 6.2 for Porta.
+- [x] Plànols Vol. II complete on the OMEN (4 Nov) and read by Claude (§0). Vols I, III, V still broken, not needed.
 - [x] Escapos census downloaded to `databases\florence\raw\` (4 Nov).
 - [x] Firenze LiDAR: reply to Polistena sent 4 Nov 14:50 with the polygon.
 - [ ] **Firenze LiDAR**: when the delivery agreement arrives, send it to Claude to read before signing. Nudge ~18 Nov if silent.
@@ -220,4 +220,47 @@ parties and will be credited to Barcelona Cicle de l'Aigua, SA, Ajuntament de Ba
 > Cordiali saluti,
 > Giovanni Carlo Volpe
 > Master in Advanced Computation for Architecture & Design (MaCAD), IAAC Barcellona
+> giovanni.carlo.volpe@students.iaac.net
+
+## 5. Ready-to-send texts written in the thread on 3 Nov (copied here 5 Nov)
+
+### 5a. BCASA follow-up (Spanish; Atenció en línia form, category "Información sobre la red de alcantarillado", subject "Seguimiento BDM9240")
+> Buenos días:
+>
+> Muchas gracias por su respuesta a la consulta BDM9240 y por la información sobre la instancia.
+>
+> Para prepararla, les agradecería dos cosas:
+>
+> 1. El formulario específico para la solicitud de datos pluviométricos, que no venía adjunto a su respuesta.
+> 2. Saber si es posible presentar la solicitud a distancia. Actualmente resido en Italia, por lo que no puedo acudir a una Oficina de Atención Ciudadana. ¿Sería válido enviar la instancia, la carta de mi tutor y el formulario por correo electrónico, o mediante el registro electrónico con una identificación europea (eIDAS)?
+>
+> Muchas gracias de antemano.
+>
+> Atentamente,
+> Giovanni Carlo Volpe
+> MaCAD – Institute for Advanced Architecture of Catalonia (IAAC)
+> giovanni.carlo.volpe@students.iaac.net
+
+### 5b. AMB contact form for Cati Montserrat Martí (Catalan; amb.cat → Contacte)
+> **Assumpte:** A l'atenció de Cati Montserrat Martí – tesi de màster IAAC sobre arbrat urbà
+>
+> Bon dia,
+> Sóc Giovanni Carlo Volpe, estudiant del màster MaCAD a l'IAAC. La meva tesi desenvolupa una eina que proposa espècies i posicions d'arbrat viari per reduir la calor i l'escorrentia pluvial, aplicada al barri de la Porta (Nou Barris). Uns companys m'han recomanat contactar amb la Sra. Cati Montserrat Martí. Seria possible fer-li arribar aquest missatge? M'agradaria fer-li dues o tres preguntes breus sobre com es trien les espècies d'arbres en els projectes.
+> Moltes gràcies,
+> Giovanni Carlo Volpe – giovanni.carlo.volpe@students.iaac.net
+
+### 5c. AiEM (UPC) email (English; pick a name on https://aie.upc.edu/equip/ or use the group's general contact)
+> **Subject:** MaCAD thesis (IAAC): street trees, UTCI and runoff in Barcelona – a short question
+>
+> Dear [Name / AiEM team],
+>
+> I'm Giovanni Carlo Volpe, a MaCAD student at IAAC. My thesis develops a computational method that suggests street-tree species and positions to reduce pedestrian heat stress (mean UTCI, 12–17 h, hot design day) and pluvial runoff, tested in Porta (Nou Barris). Heat is estimated with a fast shade proxy, checked against Ladybug Tools on sample streets.
+>
+> I was told your group works on simulations of urban space, vegetation and Barcelona's heat island. I'd be very grateful for 20 minutes of your time, online, on two points:
+> 1. how you represent tree crowns (porosity/LAI, seasonality) in outdoor-comfort simulations;
+> 2. whether you know of measured UTCI or surface-temperature data in Barcelona streets that could serve as a sanity check.
+>
+> Thank you very much,
+> Giovanni Carlo Volpe
+> MaCAD, Institute for Advanced Architecture of Catalonia (IAAC)
 > giovanni.carlo.volpe@students.iaac.net
