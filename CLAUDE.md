@@ -7,6 +7,8 @@
 - Never invent citations, trait values, statistics, or datasets. If something is not in `papers/` or verified from a source, say so.
 - Cite sources for every factual claim in literature notes (author, year, and the file name in `papers/`).
 - Ask at most one clarifying question at a time.
+- Surgical changes: every changed line must trace to the request; do not "improve" adjacent code, comments or formatting; mention unrelated dead code instead of deleting it.
+- Multi-step tasks: state a brief plan with a check per step (step -> verify); for a bug fix, first a check that reproduces it, then the fix.
 
 ## Folder structure (Windows)
 Root: `C:\Users\giofo\Desktop\ARCHIVIO\MASTERS\MACAD\2_MACAD\THESIS_MACAD\`
