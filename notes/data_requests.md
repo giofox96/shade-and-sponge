@@ -8,7 +8,8 @@ forward replies or paste them in the thread. Nothing here is sent by Claude.*
 - [x] TRY: data released 3 Nov.
 - [x] TRY downloaded and saved in `databases\TRY_DATABASE\` (3 Nov).
 - [x] LinkedIn: connection request to Cati Montserrat Martí sent without a note (3 Nov). When she accepts, send the follow-up message.
-- [ ] **BCASA**: send the follow-up (text §5a) through the Atenció en línia form, same category, subject "Seguimiento BDM9240"; send me the new code.
+- [x] 6 Nov: the city's generic-application login offers **Cl@ve → "Ciutadans UE"** (eIDAS), so the BCASA instància can be filed online from Italy with CIE/SPID; no OAC visit needed (screenshot by Giovanni; the eIDAS step itself not yet tried).
+- [ ] **BCASA**: send the follow-up (text §5a, question 2 can now be dropped) through the Atenció en línia form, same category, subject "Seguimiento BDM9240"; send me the new code.
 - [ ] **AMB contact form** (amb.cat → Contacte): message for Cati Montserrat (text §5b).
 - [x] Slack: María asked (3 Nov); Pinyol lead dropped, go for Joan Guitart.
 - [x] LinkedIn: connection request to Joan Guitart sent (3 Nov). When he accepts, send a short message (ask Claude for the text).
