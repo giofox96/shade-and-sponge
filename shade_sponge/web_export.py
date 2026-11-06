@@ -74,7 +74,7 @@ scen, layouts = [], {}
 for _, r in S.iterrows():
     sc = r.scenario
     w = [float(x) for x in sc[4:].replace("s", "").replace("w", "").replace("r", "").split("_")] if sc.startswith("S4") else None
-    scen.append(dict(id=sc, group="S1a" if sc.startswith("S1a") else sc[:2], weights=w, pareto=bool(r.pareto), in_layouts=sc in set(L.scenario),
+    scen.append(dict(id=sc, group=sc[:3] if sc.startswith(("S1a", "S1b")) else sc[:2], weights=w, pareto=bool(r.pareto), in_layouts=sc in set(L.scenario),
                      metrics={m: round(float(r[m]), 1) for m in metrics},
                      counts={s: int(r[s]) for s in pal.species if not pd.isna(r[s])}))
 for sc, d in L.groupby("scenario"):
