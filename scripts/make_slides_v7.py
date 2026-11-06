@@ -193,13 +193,34 @@ def fig_cobenefits():
          "notes/cobenefits_plan.md.")
 
 
+def fig_baseline():
+    """Backup: the city's baseline, from press to observed practice (S1b reference since 6 Nov; notes/methodology.md §7)."""
+    bs = pd.read_csv(ROOT / "databases/barcelona/barris_summary.csv")
+    po = bs[bs.barri == "Porta"].iloc[0]
+    m_a, m_b = bs.tool_margin_pts.median(), bs.tool_margin_s1b_pts.median()
+    b = card(60, 190, 470, 250, "S1-2004", "Parcs i Jardins table (district × sidewalk): documented, qualitative. Cited, not run", MUTED)
+    b += card(565, 190, 470, 250, "S1a", "The 2026 target mix (press, May 2026), drawn within the sidewalk sizing rule", WARN)
+    b += card(1070, 190, 470, 250, "S1b", "What the city actually planted where planes were replaced, 2018–2026: 1,444 cases", HEAT)
+    x0, y0, s = 60, 520, 7.5
+    b += t(x0, y0 - 20, "PORTA · summer shade, % of today", 18, INK, "bold")
+    for k, (lab, v, c) in enumerate((("S1a press mix", po.summer_pct_s1a, WARN), ("S1b observed mix", po.summer_pct_s1b, HEAT),
+                                      ("Method", po.summer_pct_tool, TREE))):
+        y = y0 + k * 62
+        b += t(x0, y + 34, lab, 20, INK) + rect(x0 + 230, y + 6, v * s, 40, c, rx=6)
+        b += t(x0 + 240 + v * s, y + 36, f"{v:.1f}%", 20, c, "bold")
+    b += card(1180, 500, 360, 230, f"+{m_a:.1f} · +{m_b:.1f}", f"Median margin of the method over {len(bs)} barris (points): vs S1a · vs S1b. No barri ≤ 0", TREE)
+    save("v7_18_baseline", "The city's baseline: from press to practice", "The method beats both the announced and the observed mix", b,
+         "Open Data BCN arbrat-viari, 35 quarterly files 2018–2026 (scripts/inventory_history.py); layout.s1b_mix(); "
+         "databases/barcelona/barris_summary.csv (31 Oct batch, local cap); notes/data_sources_pemb_30oct.md §6; notes/topic_decision.md §10.4.")
+
+
 SLIDES = [  # (outline heading number, figure path relative to slides/)
     (1, "fig/01_title.png"), (2, "fig_v7/v7_02_context.png"), (3, "fig_v7/v7_03_gate1.png"), (4, "fig_v7/v7_04_trees.png"),
     (5, "fig_v7/v7_05_problem.png"), (6, "fig_v6/v6_04_crowns.png"), (7, "fig_v7/v7_07_gap.png"), (8, "fig_v7/v7_08_rq.png"),
     (9, "fig_v7/v7_09_hyp.png"), (10, "fig_v7/flow_00_overview.png"), (11, "fig_v7/flow_04_design.png"),
     (12, "fig_v7/res_01_radar.png"), (13, "fig_v7/res_03_scenarios.png"), (14, "fig_v7/res_04_city_map.png"),
     (15, "fig_v7/res_05_city_cap.png"), (16, "fig_v7/res_06_heat_check.png"),
-    (None, "fig_v7/v7_15_next.png"), (None, "fig_v7/v7_17_cobenefits.png"),
+    (None, "fig_v7/v7_15_next.png"), (None, "fig_v7/v7_17_cobenefits.png"), (None, "fig_v7/v7_18_baseline.png"),
     (None, "fig_v7/flow_02_heat.png"), (None, "fig_v7/flow_03_runoff.png"), (None, "fig_v7/flow_01_screening.png"),
     (None, "fig_v7/res_02_bars.png"), (None, "fig_v7/res_07_palette30.png"),
     (None, "fig_v6/v6_09_sizing_rule.png"),
@@ -225,5 +246,5 @@ def build_pptx():
 
 
 if __name__ == "__main__":
-    fig_context(); fig_gate1(); fig_trees(); fig_problem(); fig_gap(); fig_rq(); fig_hyp(); fig_next(); fig_cobenefits()
+    fig_context(); fig_gate1(); fig_trees(); fig_problem(); fig_gap(); fig_rq(); fig_hyp(); fig_next(); fig_cobenefits(); fig_baseline()
     build_pptx()

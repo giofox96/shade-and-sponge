@@ -129,9 +129,11 @@ The article does not say whether the 12% applies to each of the first two specie
 The thesis compares its method against two possible versions of the city's own rule:
 
 - **S1a:** the 2026 mix, placed at random within the 2011 sizing rule. The tool reads the figures as "each" and uses them as relative weights (12 : 7.25 : 5 : 5 : 5), which is an assumption.
-- **S1b:** the 2004/2005 Nou Barris table.
+- **S1-2004:** the 2004/2005 Nou Barris table (called S1b until 6 Nov).
 
-S1a is the baseline, decided on 24 October 2026. It is the current policy, while the table is older and no longer printed. S1b is cited here as the documented older rule and is not run. If Parcs i Jardins publishes a current per-street list, that list replaces both. Because the 2026 mix comes from the press, the baseline carries that uncertainty, and the results in Chapter 7 state it.
+**Update (6 Nov 2026):** the baseline is the city's **observed** replacement practice, S1b: the species actually planted where planes were replaced in 2018–2026 (1,444 cases from the quarterly open inventory). The 2026 press mix (S1a) is kept beside it. The 2004/2005 table (S1-2004) is cited to show that a documented rule exists, and is not run.
+
+Previous text (24 Oct): S1a is the baseline, decided on 24 October 2026. It is the current policy, while the table is older and no longer printed. S1-2004 is cited here as the documented older rule and is not run. If Parcs i Jardins publishes a current per-street list, that list replaces both. Because the 2026 mix comes from the press, the baseline carries that uncertainty, and the results in Chapter 7 state it.
 
 ## The cap in the diversity literature {#sec:rules-diversity}
 
