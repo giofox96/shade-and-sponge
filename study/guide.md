@@ -24,7 +24,7 @@ A condensed version of the thesis for **learning it**, not for writing it. Every
 - **"Are there enough trees?" answered:** no. Porta's tree cover is **20.1%** (LiDAR 2021) against the city's **30%** 2037 target (8.3 ha short), and planes are **~29%** of its canopy (§1).
 - **RQ v7** (24 Oct): "reduce" became "**retain**", the method is compared with the city's rule (S1), additions of new trees are co-equal, and there are **four sub-questions** (§7).
 - **Results v7** for Porta (replacement, additions, both), **33 barris** run one by one, and a **city-wide LP over 28 barris** with the 15% cap and a local ceiling (§9b).
-- **A second baseline, S1b = the city's observed replacement mix** (1,444 plane replacements 2018–2026 from the quarterly inventory, 31 Oct). The tool beats both S1a and S1b. ⚠️ In `notes/topic_decision.md` "S1b" still means the 2004/2005 table; the observed-mix S1b is on branch `claude/project-thread-synuk4`, not on `main` and not in the deck yet (§9b).
+- **A second baseline, S1b = the city's observed replacement mix** (1,444 plane replacements 2018–2026 from the quarterly inventory, 31 Oct). The tool beats both S1a and S1b. Decided 6 Nov: S1b is the reference baseline, S1a stays beside it, and the 2004/2005 table is renamed **S1-2004** (cited, not run) (§9b).
 - **The first UTCI check is done (2–3 Nov):** Ladybug Tier 1 rebuilt in Python, Honeybee Tier 2, porous crowns. Claim for heat: **no worse than today's planes**, not "cooler" (§9c).
 - **Policy chain checked (31 Oct):** Nature Plan = area targets only; Climate Plan 2024 p.33 = +5% tree cover, adapted species 30→40%, 7 ha SUDS, 9 ha shade. None sets species per position (§1).
 - **Grasshopper is not required** by the programme (30 Oct); co-benefits (pollen, carbon, diversity) are a **backup slide only** before 10 Nov (3 Nov).
@@ -71,7 +71,7 @@ Sources: `notes/topic_decision.md` §10 (v7), §9 (v6) and §7; `notes/tree_mast
 - **Problem:** (1) the rule exists and is qualitative; (2) it is not visible in practice (up to ~90% of Porta's 2007–2026 plantings on narrow/medium sidewalks are other species, an upper bound); (3) no rule quantifies the consequences; (4) the consequences are large (crowns differ three- to fourfold at equal trunk size); (5) they fall where both hazards overlap.
 - **Gap:** practice has rules but no quantities; research assesses heat + runoff without species (Mannucci 2025; Wu 2024) or optimises heat only (Shaamala 2025; Peng 2026); SylvCiT has runoff switched off; the diversity literature calls caps rules of thumb (Santamour 1990; Kendal 2014).
 
-**Gate 1, the 2004/2005 table (Parcs i Jardins), Nou Barris:** *Prunus cerasifera* below 3.5 m · Melia or Jacaranda 3.5–6 m · **keep the plane** above 6 m. Criteria: tolerance, urban typology, tradition, technicians' experience. This is why Jacaranda now counts as named (for medium sidewalks), while Brachychiton is still not named anywhere. **Baseline decided (24 Oct): S1a, the 2026 press mix**, because it is the current policy; the table is cited in the problem chapter, not run.
+**Gate 1, the 2004/2005 table (Parcs i Jardins), Nou Barris:** *Prunus cerasifera* below 3.5 m · Melia or Jacaranda 3.5–6 m · **keep the plane** above 6 m. Criteria: tolerance, urban typology, tradition, technicians' experience. This is why Jacaranda now counts as named (for medium sidewalks), while Brachychiton is still not named anywhere. **Baseline:** decided 24 Oct as S1a (the 2026 press mix); **from 6 Nov the reference is S1b, the city's observed replacement mix**, with S1a beside it. The table is called **S1-2004** and is cited in the problem chapter, not run.
 
 **Are there enough trees? (tutor, 20 Oct)** No. City target **30%** tree cover by 2037 (plan 2017, target 1). **Porta 20.1%** of 83.7 ha (CHM > 2 m, LiDAR 2021), ~10 points and **8.3 ha** short. Plane crowns = 5.75% of the area, **~29% of the canopy**. At equal trunk size, all-Brachychiton crowns would bring Porta to **~16%**; Tipuana or Jacaranda keep it roughly level. Outside benchmark: only 8.7% of 3,145 Barcelona residents met 3-30-300's 30% criterion (Nieuwenhuijsen et al. 2022).
 
@@ -418,7 +418,7 @@ Sources: `notes/methodology.md` §4b, §6; `shade_sponge/README.md`.
 ---
 
 ## 9b. Results v7: Porta, additions, the city (slides 12–15)
-Sources: `slides/outline_10nov.md` slides 12–15; `notes/citywide_plan.md` §6.6–6.9; `notes/topic_decision.md` §10.5; observed S1b: `notes/data_sources_pemb_30oct.md` §6 on branch `claude/project-thread-synuk4`.
+Sources: `slides/outline_10nov.md` slides 12–15; `notes/citywide_plan.md` §6.6–6.9; `notes/topic_decision.md` §10.5; observed S1b: `notes/data_sources_pemb_30oct.md` §6.
 
 **Porta, replacement of all 832 planes (slide 12).** Heat here is effective shade (proxy), each axis normalised to today = 100.
 - **Summer shade: city rule (S1a) 87%, method 98%** of today. Price: about **6% more winter shade**, a real trade-off.
@@ -438,7 +438,7 @@ Sources: `slides/outline_10nov.md` slides 12–15; `notes/citywide_plan.md` §6.
 - **S1a** = the 2026 target mix (press), drawn within the sizing rule. **S1b** = the same draw weighted by what the city **actually planted** where planes were replaced: **1,444 cases, 2018–2026**, from 35 quarterly inventory files (Celtis 296, Melia 219, Gleditsia 105, Koelreuteria 89, Styphnolobium 86, Grevillea 70, Pyrus 65, Jacaranda 54). The city keeps the pit code when it replants, so a replacement is a species change on the same code.
 - Tool margin in summer shade, 33 barris run one by one: **vs S1a median +5.7 points (0.8–11.7), vs S1b median +7.2 (0.9–18.1); no barri ≤ 0.** The observed mix is usually a little worse than the press mix (median −1.5 points).
 - **Porta: S1a 87.4, S1b 90.3, tool 99.1** → margin 11.7 → 8.8.
-- ⚠️ Status: on an unmerged branch, not in the deck, and "S1b" also names the 2004/2005 table in `topic_decision.md`. Rename one before quoting both.
+- **Decided 6 Nov:** S1b (observed) is the reference baseline, S1a (press) stays beside it, and the 2004/2005 table is renamed **S1-2004**: cited to show a rule exists, not run. The city LP numbers (+9.2 median) are still against S1a.
 
 ### Check yourself
 1. Porta replacement: summer shade for the city rule and for the method? What does it cost?
@@ -761,7 +761,7 @@ Know these exist and what the recommended default is; the tutor may ask.
 
 | Open decision | Recommended default | Source |
 |---|---|---|
-| S1b naming + deck | Rename the 2004/2005 table (e.g. "S1-table") so S1b = observed mix; merge the S1b branch; decide whether it gets a slide | `notes/methodology.md` §7 (branch), `notes/topic_decision.md` §10.4 |
+| City LP against S1b | Rerun `scripts/city_lp.py` against the observed mix after 10 Nov (S1b is the reference since 6 Nov; the table is S1-2004) | `notes/methodology.md` §7 (branch), `notes/topic_decision.md` §10.4 |
 | May a barri lose while the city gains? | Ask the tutor; a per-barri floor (no barri below the city mix) is one more constraint set | `notes/citywide_plan.md` §6.9 |
 | Local ceiling in small barris | Different rule for barris with few planes (open) | `notes/citywide_plan.md` §6.9 |
 | Is Sant Antoni enough as a transfer test? | Yes for within-city; Florence/Mataró as future work. Ask the tutor | `notes/citywide_plan.md` §4 |

@@ -110,8 +110,8 @@ The deck follows that order.
 - **SQ3 trade-off:** do heat-best and runoff-best layouts differ?
 - **SQ4 additions:** how much of the gap to 30% can new street trees close, and where?
 
-**Say (110 words):**
-"I scrutinised the question part by part; the table is in my notes. Three changes matter. First, 'reduce' became 'retain'. Replacing a plane almost always loses shade compared with today. So the fair test is my method against the city's own rule, with today as the reference. Second, additions are now an equal part: replace, add, or both. Third, every sub-question has a metric and a threshold. For runoff, 'not resolved by the model' is an allowed answer, because the differences are close to what the model can tell apart. The baseline is the city's 2026 mix, placed by its sidewalk rule; the 2004 table is cited, not run."
+**Say (122 words):**
+"I scrutinised the question part by part; the table is in my notes. Three changes matter. First, 'reduce' became 'retain'. Replacing a plane almost always loses shade compared with today. So the fair test is my method against the city's own rule, with today as the reference. Second, additions are now an equal part: replace, add, or both. Third, every sub-question has a metric and a threshold. For runoff, 'not resolved by the model' is an allowed answer, because the differences are close to what the model can tell apart. The baseline is what the city actually plants where a plane goes, from its own inventory since 2018, next to its announced 2026 mix, both placed by its sidewalk rule; the 2004 table is cited, not run."
 
 ---
 
@@ -145,8 +145,8 @@ The deck follows that order.
 ## 12. First results: replacement [7:15]
 **Figure:** `slides/fig_v7/res_01_radar.png` (backup: `res_02_bars.png`)
 
-**Say (100 words):**
-"First results, for all 832 planes in Porta. Heat here is effective shade, not yet UTCI. Each axis is normalised to today, a hundred. The city's rule keeps eighty-seven percent of today's summer shade. Choosing species by traits, under the same rules, keeps ninety-eight. The price is more shade in winter, about six percent, which is a real trade-off. On runoff, the difference is thirty-four cubic metres. That is below what the model can resolve, so for runoff the answer today is 'not resolved'. That is a result too, and an honest one."
+**Say (112 words):**
+"First results, for all 832 planes in Porta. Heat here is effective shade, not yet UTCI. Each axis is normalised to today, a hundred. The city's announced mix keeps eighty-seven percent of today's summer shade, and what it has actually planted since 2018 about ninety. Choosing species by traits, under the same rules, keeps ninety-eight. The price is more shade in winter, about six percent, which is a real trade-off. On runoff, the difference is thirty-four cubic metres. That is below what the model can resolve, so for runoff the answer today is 'not resolved'. That is a result too, and an honest one."
 
 ---
 
@@ -195,5 +195,6 @@ The deck follows that order.
 - **B4b Wider palette (30 species), Porta + 32 barris:** `slides/fig_v7/res_07_palette30.png` (`scripts/make_palette30_v7.py`, PR #89). If asked about "only a few species": the same rules with the city's 30-species catalogue give a median +8.2 points of summer shade over the 7-species palette (31 of 32 barris gain), at the price of more winter shade (96-128% of today). Each barri is optimised alone; the city-wide LP still uses 7 species.
 - **B5 Sizing rule leaves real choice:** `slides/fig_v6/v6_09_sizing_rule.png`
 - **B7 Validation plan:** `slides/fig_v7/flow_05_validation.png`
+- **B9 Baseline, from press to practice:** `slides/fig_v7/v7_18_baseline.png` (S1-2004 cited; S1a press mix; S1b observed mix 2018–2026, the reference since 6 Nov; Porta 87.4 / 90.3 / 99.1%; median margin +5.7 / +7.2 points over 33 barris)
 - **B8 Co-benefits not optimised (yet):** `slides/fig_v7/v7_17_cobenefits.png` (pollen, carbon, diversity, ozone/VOC; plan in `notes/cobenefits_plan.md`). Answer if asked: "They are not objectives of the tool. From next week I report them for every layout; carbon may go against me, because the planes are big, and I will show it."
 - **B6 RQ scrutiny table:** `notes/topic_decision.md` §10.5 (text slide)

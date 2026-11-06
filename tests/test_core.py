@@ -136,3 +136,11 @@ def test_sweep_zero_objective():
     sun = np.array([[1.0, 0.0], [0.0, 1.0]])
     out = layout.sweep({"sun": (sun, 1), "water": (np.zeros((2, 2)), 1)}, np.array([2, 2]), np.ones((2, 2), bool))
     assert all((c == [0, 1]).all() for c in out.values() if c is not None)
+
+
+def test_s1b_mix_uses_only_palette_species():
+    import pandas as pd
+    pal = pd.DataFrame(dict(species=["Celtis australis", "Tilia x euchlora"]))
+    fit = np.ones((50, 2), bool)
+    ch = layout.s1a_layout(pal, np.array([50, 50]), fit, np.random.default_rng(0), {"Celtis australis": 3, "Gleditsia triacanthos": 9})
+    assert (ch == 0).all()

@@ -90,3 +90,72 @@ All data would be credited to BCASA and not redistributed.
 
 Kind regards,
 Giovanni Carlo Volpe, MaCAD student, IAAC · giovanni.carlo.volpe@students.iaac.net
+
+## 5. BCASA reply to BDM9240 (30 Oct) and the formal request
+BCASA (Sanejament, AM27188) answered the same day: published material is the PDISBA
+(http://hdl.handle.net/11703/119275, already used for the city IDF, `databases/barcelona/pdisba_idf_city.csv`).
+Unpublished data needs a formal **instància** registered with the Ajuntament, with: project title, data requested,
+**a separate form for rain-gauge data** (not attached to the reply; to ask for), and **a letter from the tutor**
+(confirming enrolment, programme, title and content of the work). Online registration needs a digital certificate
+(https://seuelectronica.ajuntament.barcelona.cat/ca/registre-electronic); otherwise fill the PDF
+(https://seuelectronica.ajuntament.barcelona.cat/sites/default/files/00106_instancia_formulari_0.pdf) and register it at
+an Oficina d'Atenció Ciutadana.
+
+**Conditions** (they bind the thesis): academic and teaching use only; no disclosure or transfer to third parties; no
+commercial use; do not alter the content or its meaning; cite "Barcelona Cicle de l'Aigua, SA, Ajuntament de Barcelona"
+and the date of last update (Ley 37/2007, art. 8). **Consequence:** BCASA data may appear in the thesis document and in
+academic presentations, but **not in the public repo or the public web app** (GitHub Pages); keep it in `raw/`
+(gitignored) and publish only derived figures, if at all.
+
+### 5a. Instància text (Spanish; paste in "Exposo / Sol·licito")
+**Expongo:** Soy estudiante del Master in Advanced Computation for Architecture & Design (MaCAD) del Institute for
+Advanced Architecture of Catalonia (IAAC), curso 2025–2026. Mi trabajo final de máster, «[título exacto de la tesis]»,
+desarrolla un método computacional que propone especies y posiciones de arbolado viario para reducir el estrés térmico
+estival y la escorrentía pluvial, aplicado al barrio de la Porta (Nou Barris). Siguiendo la respuesta de BCASA a la
+consulta BDM9240, adjunto la carta de mi tutor/a [y el formulario de datos pluviométricos].
+**Solicito**, para uso exclusivamente académico, sin cesión a terceros y citando «Barcelona Cicle de l'Aigua, SA,
+Ajuntament de Barcelona»:
+1. Series de precipitación a 5 minutos de los pluviómetros de BCASA más cercanos a Nou Barris (periodo disponible).
+2. Resultados del modelo 1D/2D de drenaje (PDISBA) para Nou Barris: calados y velocidades máximas para los periodos de
+   retorno disponibles, en especial T = 1 o 2 años, en formato SIG.
+3. Si existe, la autorización para usar en la tesis las capas RESCCUE publicadas en el Atles de Resiliència
+   (tablas `rcc_iu1_*`), con la cita que indiquen.
+
+### 5b. Tutor letter (to be signed by the tutor on IAAC letterhead)
+To: Barcelona Cicle de l'Aigua, SA (BCASA), Ajuntament de Barcelona
+I confirm that Giovanni Carlo Volpe is enrolled in the Master in Advanced Computation for Architecture & Design (MaCAD)
+at the Institute for Advanced Architecture of Catalonia (IAAC), academic year 2025–2026, and that I supervise his
+master's thesis "[title]". The thesis develops a computational method that suggests street-tree species and positions
+to reduce summer heat stress and pluvial runoff, tested in the Porta neighbourhood (Nou Barris). The data requested
+(rain-gauge series and drainage-model results) will be used only for this academic work, will not be shared with third
+parties and will be credited to Barcelona Cicle de l'Aigua, SA, Ajuntament de Barcelona.
+[Name, role, IAAC, date, signature]
+
+## 6. Observed replacements from the quarterly inventory (31 Oct, `scripts/inventory_history.py`)
+Run on the OMEN PC. Open Data BCN `arbrat-viari` holds **35 quarterly files, 2018 Q1 – 2026 Q3** (zipped CSVs).
+Street trees: 156,253 (2018 Q1), peak 157,674 (2020 Q3), 145,034 (2026 Q3).
+- **The city keeps a tree-pit code when it replants it**, so most replacements show up as a species change on the same
+  code, not as a removal + new code (only 225 position-matched pairs). Raw species changes are dominated by re-coding
+  (e.g. 42,106 *Platanus × hispanica* → *× acerifolia* in 2023 Q1; spelling fixes; re-identifications). After filters
+  (genus+species names, same-genus changes dropped, >50 identical changes per quarter = re-coding, reversed changes =
+  corrections, 9 listed renames; all ASSUMPTION): **10,758 same-code replacements** + 218 position-matched ones.
+- **Planes replaced 1,444 times** city-wide; species planted instead: *Celtis australis* 296, *Melia azedarach* 219,
+  *Gleditsia triacanthos* 105, *Koelreuteria paniculata* 89, *Styphnolobium japonicum* 86, *Grevillea robusta* 70,
+  *Pyrus calleryana* 65, *Jacaranda mimosifolia* 54.
+- **Porta: 227 replacements**, mostly not planes (10): *Catalpa* → *Handroanthus heptaphyllus* 47, *Populus nigra* →
+  *Fraxinus angustifolia* 28 / *Casuarina* 21 / *Grevillea* 15, *Populus alba* → *Fraxinus angustifolia* 11 /
+  *Pyrus calleryana* 10.
+- Same-species replanting is invisible on a kept code, so its share cannot be measured (22% only on the 218 new-code pairs).
+- Not yet checked: the synonym list against a taxonomic authority; whether the 50-per-quarter threshold drops real
+  whole-street replantings.
+Outputs: `databases/barcelona/inventory_snapshots.csv`, `inventory_replacements.csv` (column `kind`),
+`inventory_replacement_matrix.csv`.
+
+### 6b. S1b in the tool (31 Oct)
+`layout.s1b_mix()` weights the S1a draw by the observed plane replacements; the city palette covers 53% of them
+(Gleditsia, Koelreuteria, Grevillea are outside it; the draw renormalises). Added to all 33 finished barris
+(`run_barris.py --s1b`, `barris_summary.csv` columns `*_s1b`, `tool_margin_s1b_pts`). Tool margin in summer shade
+(points of S0): **vs S1a median 5.7 (0.8–11.7), vs S1b median 7.2 (0.9–18.1); no barri ≤ 0.** S1b vs S1a: median
+−1.5 points (−8.0 to +4.4), so the observed mix is usually a little worse than the press mix. Porta: S1a 87.4, S1b 90.3,
+tool 99.1 (margin 11.7 → 8.8). Narrative point: the baseline moved from a press-reported target to observed practice,
+and the tool's advantage holds against both.
