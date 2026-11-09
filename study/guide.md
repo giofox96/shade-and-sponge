@@ -640,6 +640,21 @@ Sources: `slides/outline_20oct.md`; the Porta and Barcelona answers from `notes/
 ---
 
 ## 13. Glossary
+
+### Scenario names (look here when you forget)
+| Name | What it is | Where it comes from |
+|---|---|---|
+| **S0** | Today: the trees as they stand (LiDAR 2021) | the reference "100%" |
+| **S1-2004** | The 2004/2005 Parcs i Jardins table (district × sidewalk width). **Cited, not run** | `notes/tree_master_plan.md` §5b |
+| **S1a** | The city's **announced** 2026 replacement mix (press), placed at random within the sidewalk-size rule, 5 seeds | `shade_sponge/layout.py`, `notes/methodology.md` §S1 |
+| **S1b** | What the city **actually planted** where it removed a plane, 2018–2026 (1,444 cases from the quarterly inventory), placed the same way. **The reference baseline since 6 Nov** | `scripts/inventory_history.py`, `notes/methodology.md` §S1 |
+| **S2** | Heat-only optimum | optimiser, weight on heat |
+| **S3** | Runoff-only optimum | optimiser, weight on runoff |
+| **S4** | Both (the balanced layout of the weight sweep; "the method") | optimiser |
+| **R / A / R+A** | Replacement only / additions only (232 free spots, planes kept) / both | `notes/topic_decision.md` §10.6, slide 13 |
+
+Mnemonic: **"Now, Swap, Hot, Wet, Both"** = S0, S1, S2, S3, S4. S1 has three versions: **2004 = the old table, a = announced, b = built** (what was really planted).
+
 | Term | Meaning |
 |---|---|
 | **Pluvial flood** | Flooding from rain on the surface when drainage is overwhelmed (vs **fluvial** = river) |
