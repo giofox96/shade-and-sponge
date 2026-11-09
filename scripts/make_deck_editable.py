@@ -110,6 +110,8 @@ def style_chart(ch, colors, legend=True, labels=True, fmt='0.0', size=12):
     for ser, c in zip(ch.plots[0].series, colors):
         ser.format.fill.solid()
         ser.format.fill.fore_color.rgb = rgb(c)
+        if hasattr(ser, "invert_if_negative"):
+            ser.invert_if_negative = False   # PowerPoint otherwise draws negative bars white (invisible)
     if labels:
         pl = ch.plots[0]
         pl.has_data_labels = True
@@ -835,7 +837,7 @@ def b4b_palette30(s):
     cd.add_series("7 species", list(d.summer_pct_tool_palette7))
     cd.add_series("30 species", list(d.summer_pct_tool_palette30))
     ch = s.shapes.add_chart(XL_CHART_TYPE.BAR_CLUSTERED, Inches(M), Inches(1.45), Inches(7.6), Inches(5.4), cd).chart
-    style_chart(ch, [GRID, TREE], labels=False, size=9)
+    style_chart(ch, [WARN, TREE], labels=False, size=9)
     quiet_axes(ch, 60, 115, gridlines=True)
     ch.plots[0].gap_width, ch.plots[0].overlap = 40, 0
     ch.has_title = True
