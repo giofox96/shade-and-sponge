@@ -915,6 +915,9 @@ IMG = {
     "B1": fig_slide("slides/fig_v7/flow_02_heat.png", "Backup B1 · Heat module", "Fast proxy inside the loop, full UTCI on the final layouts"),
     "B2": fig_slide("slides/fig_v7/flow_03_runoff.png", "Backup B2 · Runoff module", "Event runoff on a 1 m grid, routed to the flood hotspots"),
     "B3": fig_slide("slides/fig_v7/flow_01_screening.png", "Backup B3 · City screening", "Indicators for every street-tree position"),
+    "B6": fig_slide("slides/fig_v7/flow_06_optimiser.png", "Backup B6 · How the optimiser finds the layout",
+                    "No trial and error: a score table, then one exact solve per weight set",
+                    "HiGHS open-source linear optimisation solver (highs.dev), called through SciPy."),
     "B7": fig_slide("slides/fig_v7/flow_05_validation.png", "Backup B7 · Validation plan",
                     "Each module checked against something it was not fitted to"),
 }
@@ -926,7 +929,7 @@ SLIDES = [  # (outline heading number, builder)
     (10, IMG[10]), (11, IMG[11]),
     (12, IMG[12]), (13, s13_scenarios), (14, s14_map), (15, s15_cap), (16, s16_heat),
     (None, s_next), (None, s_cobenefits), (None, s_baseline),
-    (None, IMG["B1"]), (None, IMG["B2"]), (None, IMG["B3"]), (None, b4_bars), (None, b4b_palette30), (None, b5_sizing), (None, b6_optimiser),
+    (None, IMG["B1"]), (None, IMG["B2"]), (None, IMG["B3"]), (None, b4_bars), (None, b4b_palette30), (None, b5_sizing), (None, IMG["B6"]),
     (None, IMG["B7"]),
     (None, s_simplifications),
 ]

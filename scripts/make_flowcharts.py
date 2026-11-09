@@ -91,6 +91,26 @@ def i_check(cx, cy):
     return s + f'<path d="M{cx + 2},{cy + 16} l6,6 l12,-14" fill="none" stroke="{TREE}" stroke-width="4"/>'
 
 
+def i_table(cx, cy):
+    """Score table: positions (rows) × species (columns), shaded cells."""
+    shades = [0.9, 0.3, 0.6, 0.2, 0.5, 0.8, 0.4, 0.7, 0.3, 0.6, 0.9, 0.2]
+    s = disc(cx, cy)
+    for k, o in enumerate(shades):
+        r, c = divmod(k, 3)
+        s += f'<rect x="{cx - 17 + c * 12}" y="{cy - 23 + r * 12}" width="10" height="10" fill="{TREE}" fill-opacity="{o}"/>'
+    return s
+
+
+def i_scale(cx, cy):
+    """Weights: three sliders at different settings."""
+    s = disc(cx, cy)
+    for k, (c, v) in enumerate(((HEAT, 0.7), (WARN, 0.3), (RAIN, 0.5))):
+        y = cy - 14 + 14 * k
+        s += f'<line x1="{cx - 20}" y1="{y}" x2="{cx + 20}" y2="{y}" stroke="{GRID}" stroke-width="3"/>'
+        s += f'<circle cx="{cx - 20 + 40 * v}" cy="{y}" r="5" fill="{c}"/>'
+    return s
+
+
 def i_radar(cx, cy):
     import math
     pts = lambda r: " ".join(f"{cx + r[k] * math.sin(2 * math.pi * k / 6):.0f},{cy - r[k] * math.cos(2 * math.pi * k / 6):.0f}"
@@ -241,11 +261,27 @@ def flow_validation():
            [("Module", [("h", "icon", i_heat, "Heat", HEAT), ("w", "icon", i_rain, "Runoff", RAIN), ("p", "icon", i_tree, "Priority", TREE)]),
             ("Check", [("h1", "box", "Proxy vs Ladybug", HEAT, "same layouts"), ("h2", "box", "Ladybug vs ENVI-met", HEAT, "Mannucci et al. 2025"),
                        ("w1", "box", "Interception data", RAIN, "Freiburg, Anys & Weiler 2024"), ("p1", "box", "Removed trees", TREE, "inventory snapshots")]),
-            ("Transfer", [("tr", "box", "Sant Antoni", INK, "same city, flood-dominant")]),
+            ("Transfer", [("tr", "box", "Sant Antoni", INK, "same city, flood-dominant"), ("mt", "box", "Mataró", INK, "Catalan city, ICGC LiDAR"),
+                          ("fl", "box", "Florence", INK, "city LiDAR, 1,459 measured trees")]),
             ("Verdict", [("v", "icon", i_check, "Verdict per hypothesis")])],
-           [("h", "h1"), ("h", "h2"), ("w", "w1"), ("p", "p1"), ("h1", "tr"), ("h2", "tr"), ("w1", "tr"), ("p1", "tr"), ("tr", "v")],
+           [("h", "h1"), ("h", "h2"), ("w", "w1"), ("p", "p1")] + [(c, t_) for c in ("h1", "h2", "w1", "p1") for t_ in ("tr", "mt", "fl")]
+           + [("tr", "v"), ("mt", "v"), ("fl", "v")],
            "Thresholds are fixed before the runs: a difference below what the model resolves is reported as \"not resolved\".",
            "notes/methodology.md §4b, §5; notes/decisions/hypothesis_tests.md; notes/citywide_plan.md §3–4.")
+
+
+def flow_optimiser():
+    module("flow_06_optimiser", "How the optimiser finds the layout", "No trial and error: a score table, then one exact solve per weight set",
+           [("Inputs", [("pos", "icon", i_area, "Positions", WARN), ("sp", "icon", i_tree, "Species", TREE)]),
+            ("Score table", [("tab", "icon", i_table, "832 × 7 scores", TREE)]),
+            ("Weights", [("w", "icon", i_scale, "15 weight sets", WARN)]),
+            ("Exact solve", [("lp", "box", "Linear program", INK, "HiGHS · proven best · 0.06 s")]),
+            ("Re-score", [("full", "box", "Full models", RAIN, "crown overlaps · water routing")]),
+            ("Layouts", [("out", "icon", i_radar, "Trade-off front")])],
+           [("pos", "tab"), ("sp", "tab"), ("tab", "w"), ("w", "lp"), ("lp", "full"), ("full", "out")],
+           "Every objective is a sum over positions, so an exact solver beats trial-and-error search (genetic, ant colony).",
+           "HiGHS open-source solver (highs.dev) via SciPy.",
+           side=("lp", "City rules", "fits sidewalk · ≤ 15% each", WARN))
 
 
 if __name__ == "__main__":
@@ -255,3 +291,4 @@ if __name__ == "__main__":
     flow_runoff()
     flow_design()
     flow_validation()
+    flow_optimiser()
