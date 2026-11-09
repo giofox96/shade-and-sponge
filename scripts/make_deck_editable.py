@@ -148,9 +148,9 @@ def s01_title(s):
     alpha = scrim.fill._xPr.find(qn("a:solidFill"))[0]
     alpha.append(alpha.makeelement(qn("a:alpha"), {"val": "72000"}))
     text(s, 0.75, 2.2, 7.4, 1.0, "Shade and Sponge", 54, "#F2F0EA", True, name="Title")
-    text(s, 0.75, 3.35, 7.0, 1.4, "A computational method for choosing which species replace Barcelona's plane trees, "
-         "and where, scored on summer heat and on storm runoff.", 22, "#F2F0EA")
-    text(s, 0.75, 4.85, 7.0, 0.4, "MaCAD, IAAC  ·  Tutor session with A. Chronis, 10 November 2026", 16, "#CFC9BC")
+    text(s, 0.75, 3.35, 7.0, 1.4, "A computational method for choosing which species replace a city's street trees, and where, "
+         "scored on summer heat and on storm runoff. First case: Barcelona's plane trees (Platanus).", 22, "#F2F0EA")
+    text(s, 0.75, 5.15, 7.0, 0.4, "MaCAD, IAAC  ·  Tutor session with A. Chronis, 10 November 2026", 16, "#CFC9BC")
     text(s, 0.75, H - 0.6, 11.5, 0.3, "Horts urbans de Porta, Carrer d'Alcúdia × Carrer de la Maladeta, Nou Barris: "
          "the bare crowns in the foreground are the plane trees this thesis is about.", 11, "#CFC9BC")
 
@@ -312,7 +312,7 @@ def s08_rq(s):
 
 def s09_hyp(s):
     head(s, "Hypotheses", "Two to test, one declared limit")
-    items = [("H1", "Trait-based layouts beat the city's practice on heat and on runoff", "Runoff: a difference below Δmin = 91 m³ is 'not resolved'", TREE),
+    items = [("H1", "Trait-based layouts beat the city's practice on heat and on runoff", "Runoff is a check: below Δmin = 91 m³ it is 'not resolved'; tree pits and grouping matter more than species", TREE),
              ("H2", "The heat-best and runoff-best layouts differ in species", "Tested on the Pareto front (SQ3)", WARN),
              ("Boundary", "At extreme storms, street trees cannot matter", "Was H3; true by construction of the model, so declared, not tested", MUTED)]
     for k, (h, txt, sub, c) in enumerate(items):
@@ -559,6 +559,39 @@ def backup_img(fig, title, sub):
         head(s, title, sub), picture(s, ROOT / "slides" / fig, M + 0.15, 1.45, W - 2 * M - 0.3))
 
 
+def s_simplifications(s):
+    """Backup B10: each model simplification and its risk (asked at RM_L04, 5 Nov; list from study/guide.md §11)."""
+    head(s, "Backup B10 · Simplifications and their risks", "How the model was made tractable, and what each choice can hide")
+    rows = [("Simplification", "Risk", "How it is handled"),
+            ("Same tree pit for every species; no roots, no infiltration under the tree",
+             "Runoff depends more on pit size and grouping than on species", "Runoff is a check, not the main gain; pit grouping is future work"),
+            ("Canopy bucket, event volume only; no sewer, ponding or peak flow", "Where the water goes is not modelled",
+             "Δmin fixed before the runs; ranking stable for s = 0.83–1.75 mm per LAI"),
+            ("One storage s for all species; LAI from a LiDAR proxy (probably low)", "Species differences in storage misstated",
+             "Sensitivity on s; allometric LAI (Nowak 1996) as an upper bound"),
+            ("Heat = shade proxy; Ladybug has no transpiration", "Vegetation cooling underestimated; small UTCI differences uncertain",
+             "Porous crowns, Honeybee cross-check; claim is 'no worse'"),
+            ("Airport weather (El Prat), afternoon of one day; no night", "Urban heat and night-time trapping missed",
+             "Urban offset 0 to +1.5 °C as sensitivity; stated limit"),
+            ("Crowns compared at equal trunk size", "Benefits arrive only when the new trees mature", "Stated; young-tree variant later"),
+            ("15% cap counted on street trees only", "Different base from the plan's ~201,600 trees", "Revisit before the final results"),
+            ("Free spots without driveways or services", "Additions overstated", "Reported as an upper bound"),
+            ("UTCI = one average person", "Vulnerable people and night excluded", "Declared, shared limit of the RM cluster")]
+    tb = s.shapes.add_table(len(rows), 3, Inches(M), Inches(1.5), Inches(W - 2 * M), Inches(5.0)).table
+    for i, r in enumerate(rows):
+        for j, v in enumerate(r):
+            cell = tb.cell(i, j)
+            cell.text = v
+            cell.fill.solid()
+            cell.fill.fore_color.rgb = rgb(INK if i == 0 else (tint(INK, 0.05) if i % 2 else BG))
+            cell.margin_top = cell.margin_bottom = Inches(0.04)
+            f = cell.text_frame.paragraphs[0].runs[0].font
+            f.name, f.size, f.bold = FONT, Pt(12), i == 0
+            f.color.rgb = rgb(WHITE if i == 0 else INK)
+    tb.columns[0].width, tb.columns[1].width, tb.columns[2].width = Inches(4.6), Inches(3.8), Inches(3.833)
+    source(s, "study/guide.md §11; notes/methodology.md §4b, §5b; RM seminar L04 (5 Nov), feedback on the runoff module.")
+
+
 SLIDES = [  # (outline heading number, builder)
     (1, s01_title), (2, s02_context), (3, s03_gate1), (4, s04_trees), (5, s05_problem), (6, s06_crowns), (7, s07_gap),
     (8, s08_rq), (9, s09_hyp),
@@ -574,6 +607,7 @@ SLIDES = [  # (outline heading number, builder)
     (None, lambda s: flow(s, "res_07_palette30.png", "Backup B4b · Wider palette (30 species)", "Porta and 32 barris, each optimised alone")),
     (None, backup_img("fig_v6/v6_09_sizing_rule.png", "Backup B5 · The sizing rule leaves real choice", "Several species per sidewalk size class")),
     (None, lambda s: flow(s, "flow_05_validation.png", "Backup B7 · Validation plan", "Each module against data it was not fitted to")),
+    (None, s_simplifications),
 ]
 
 

@@ -14,7 +14,7 @@ The deck follows that order.
 - **Reused:** from `slides/fig_v6/` and `slides/fig/`.
 - **Text slides** (2, 3, 4, 5, 7, 8, 9 and a final "What comes next") are figures too, from `scripts/make_slides_v7.py`, which also builds **`slides/shade_and_sponge_10nov.pptx`**: 17 slides plus 5 backups, one figure per slide, with the script below as speaker notes.
 
-**Length:** 16 slides plus backups, ~1,290 spoken words: about 8:35 at 150 words a minute, and about 10:35 with pauses and slide changes (the timestamps in the headings). The core version, dropping slides 7 and 9, saves about 1 minute.
+**Length:** 16 slides plus backups, ~1,410 spoken words: about 9:24 at 150 words a minute, and about 11:24 with pauses and slide changes (the timestamps in the headings). The core version, dropping slides 7 and 9, saves about 1 minute.
 
 **Sources:**
 - `notes/topic_decision.md` §10 (problem v7, RQ v7, decisions of 24 Oct);
@@ -29,8 +29,8 @@ The deck follows that order.
 ## 1. Title [0:20]
 **Figure:** `slides/fig/01_title.png`
 
-**Say (40 words):**
-"This is Porta, in Nou Barris, and those are plane trees. Barcelona will remove more than half of its planes in ten years. My thesis is about what goes back in their place, and what that does to heat and storm water."
+**Say (56 words):**
+"This is Porta, in Nou Barris, and those are plane trees, Platanus. Barcelona will remove more than half of its plane trees in ten years. My thesis is a method for choosing what goes back in their place, for any street tree that has to be replaced, and what that does to heat and storm water."
 
 ---
 
@@ -121,8 +121,8 @@ The deck follows that order.
 - **H2:** heat-best and runoff-best layouts differ in species
 - **Declared boundary:** extreme storms are outside what street trees can affect (was H3; true by construction, so withdrawn)
 
-**Say (50 words):**
-"Two hypotheses. H1: the method beats the city's rule on both heat and runoff. H2: the best layout for heat and the best for runoff differ. And one declared boundary: at extreme storms trees don't matter. It used to be a hypothesis, but the model makes it true by construction."
+**Say (66 words):**
+"Two hypotheses. H1: the method beats the city's rule on both heat and runoff. For runoff this is a check: species matter little, the tree pit and grouping matter more. H2: the best layout for heat and the best for runoff differ. And one declared boundary: at extreme storms trees don't matter. It used to be a hypothesis, but the model makes it true by construction."
 
 ---
 
@@ -182,8 +182,8 @@ The deck follows that order.
 - To 1 Dec: UTCI on final layouts (Infrared City), hot design day · priority score · city screening layer. To 18 Dec: project tool anywhere in Barcelona · Sant Antoni transfer test
 - **Asks:** does Infrared City model porous crowns? · is a within-city transfer (Sant Antoni) enough? · may a barri lose while the city gains?
 
-**Say (132 words):**
-"First independent check of the heat proxy: UTCI, today's planes against the tool's species. The proxy ranks points as Ladybug does, so it is fit for choosing positions. I rebuilt the Ladybug chain in Python; it matches Grasshopper to two hundredths of a degree and lets light through the crowns by their leaf area. Honeybee with Radiance agrees. The two layouts differ by about a tenth of a degree, on one street and over all of Porta, and the sign depends on whether crowns are opaque or porous. So my claim for heat is modest: no worse than today's planes; the gains are runoff, diversity and winter sun. Three questions: does Infrared model porous crowns, is Sant Antoni enough as a transfer test, and may one barri lose while the city gains?"
+**Say (148 words):**
+"First independent check of the heat proxy: UTCI, today's planes against the tool's species. The proxy ranks points as Ladybug does, so it is fit for choosing positions. I rebuilt the Ladybug chain in Python; it matches Grasshopper to two hundredths of a degree and lets light through the crowns by their leaf area. Honeybee with Radiance agrees. The two layouts differ by about a tenth of a degree, on one street and over all of Porta, and the sign depends on whether crowns are opaque or porous. So my claim for heat is modest: no worse than today's planes. The gain over the city's practice is the summer shade kept, under the cap; runoff is a check, and winter sun is a cost. Three questions: does Infrared model porous crowns, is Sant Antoni enough as a transfer test, and may one barri lose while the city gains?"
 
 ---
 
@@ -197,4 +197,5 @@ The deck follows that order.
 - **B7 Validation plan:** `slides/fig_v7/flow_05_validation.png`
 - **B9 Baseline, from press to practice:** `slides/fig_v7/v7_18_baseline.png` (S1-2004 cited; S1a press mix; S1b observed mix 2018–2026, the reference since 6 Nov; Porta 87.4 / 90.3 / 99.1%; median margin +5.7 / +7.2 points over 33 barris)
 - **B8 Co-benefits not optimised (yet):** `slides/fig_v7/v7_17_cobenefits.png` (pollen, carbon, diversity, ozone/VOC; plan in `notes/cobenefits_plan.md`). Answer if asked: "They are not objectives of the tool. From next week I report them for every layout; carbon may go against me, because the planes are big, and I will show it."
+- **B10 Simplifications and their risks** (asked at RM_L04, 5 Nov): only in the editable deck (`scripts/make_deck_editable.py`); list from `study/guide.md` §11.
 - **B6 RQ scrutiny table:** `notes/topic_decision.md` §10.5 (text slide)
