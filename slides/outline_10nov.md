@@ -14,7 +14,7 @@ The deck follows that order.
 - **Reused:** from `slides/fig_v6/` and `slides/fig/`.
 - **Text slides** (2, 3, 4, 5, 7, 8, 9 and a final "What comes next") are figures too, from `scripts/make_slides_v7.py`, which also builds **`slides/shade_and_sponge_10nov.pptx`**: 17 slides plus 5 backups, one figure per slide, with the script below as speaker notes.
 
-**Length:** 16 slides plus backups, ~1,480 spoken words: about 9:52 at 150 words a minute, and about 11:50 with pauses and slide changes (the timestamps in the headings). The core version, dropping slides 7 and 9, saves about 1 minute.
+**Length:** 16 slides plus backups, ~1,550 spoken words: about 10:19 at 150 words a minute, and about 12:15 with pauses and slide changes (the timestamps in the headings). The core version, dropping slides 7 and 9, saves about 1 minute.
 
 **Sources:**
 - `notes/topic_decision.md` §10 (problem v7, RQ v7, decisions of 24 Oct) and §11 (v8, 9 Nov: any tree a project replaces, "improve or at least do no harm");
@@ -153,8 +153,8 @@ The deck follows that order.
 ## 13. First results: replacement, additions, or both [7:55]
 **Figure:** `slides/fig_v7/res_03_scenarios.png`
 
-**Say (105 words):**
-"Then I added trees. In Porta there are 232 free spots on sidewalks wide enough under the city's rules, away from crossings and bus stops. That's still an upper bound, because driveways and services aren't in the data. Keeping the planes and adding trees gives the most shade, but the planes are going. Once they go, the city's rule plus the same new trees still ends below today, at ninety-two percent. Trait-based replacement plus additions ends above today, at a hundred and three and a half. So the combination of the two levers, chosen with numbers, is the only path that does better than today."
+**Say (173 words):**
+"Then I added trees. In Porta there are 232 free spots on sidewalks wide enough under the city's rules, away from crossings and bus stops. That's still an upper bound, because driveways and services aren't in the data. Keeping the planes and adding trees gives the most shade, but the planes are going. Once they go, the city's rule plus the same new trees still ends below today, at ninety-two percent. Trait-based replacement plus additions ends above today, at a hundred and three and a half. So the combination of the two levers, chosen with numbers, is the only path that does better than today. But the additions do not bring Porta to thirty percent: all 232 trees add about 0.6 points of cover, about six percent of the gap. On these streets new trees make up for the summer shade that replacement loses, not even for the crown cover: both levers together still end half a point below today. The rest of the target has to come from squares, parks and courtyards."
 
 ---
 
