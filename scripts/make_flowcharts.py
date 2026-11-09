@@ -228,7 +228,7 @@ def flow_design():
            [("Area", [("area", "icon", i_area, "Project area", WARN)]),
             ("Positions", [("rep", "box", "Trees to replace", TREE, "by priority"), ("add", "box", "Free spots", TREE, "sidewalk ≥ 2.5 m, spacing")]),
             ("Feasible", [("feas", "box", "Species per spot", WARN, "size class · catalogue")]),
-            ("Optimise", [("opt", "box", "Multi-objective", INK, "weighted sum → NSGA-II")]),
+            ("Optimise", [("opt", "box", "Multi-objective", INK, "weighted sum · exact LP")]),
             ("Layouts", [("r", "box", "R", TREE, "replacement"), ("a", "box", "A", TREE, "additions"), ("ra", "box", "R + A", TREE, "both")])],
            [("area", "rep"), ("area", "add"), ("rep", "feas"), ("add", "feas"), ("feas", "opt"), ("opt", "r"), ("opt", "a"), ("opt", "ra")],
            "Each layout is compared with the city's practice on the same positions, and with today (S0).",

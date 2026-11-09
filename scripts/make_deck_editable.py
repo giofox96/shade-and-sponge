@@ -850,6 +850,33 @@ def b4b_palette30(s):
     source(s, "Ajuntament de Barcelona, Gestió de l'arbrat viari de Barcelona (2011), species catalogue.")
 
 
+def b6_optimiser(s):
+    head(s, "Backup B6 · How the optimiser finds the layout", "No trial and error: a score table, then one exact solve per weight set")
+    steps = [("1", "Score table", "Every position × every species, alone: summer shade, winter shade, water held above the hotspots. "
+              "Porta: 832 × 7. The slow step, computed once.", TREE),
+             ("2", "Weights", "One score per cell = weighted sum of the three, each scaled to its maximum. 15 weight sets.", WARN),
+             ("3", "Exact solve", "One species per position, only species that fit the sidewalk, none above its cap. "
+              "A transportation LP (HiGHS): whole-number answer, proven best. ~0.06 s for Porta.", INK),
+             ("4", "Re-score", "Each layout re-run with the full models (overlapping crowns, water routing): "
+              "these are the numbers on the slides.", RAIN)]
+    w = (W - 2 * M - 3 * 0.3) / 4
+    for k, (n, h, txt, c) in enumerate(steps):
+        x = M + k * (w + 0.3)
+        box(s, x, 1.55, w, 3.35, tint(c, 0.10))
+        text(s, x + 0.25, 1.7, 0.6, 0.6, n, 30, c, True)
+        text(s, x + 0.25, 2.35, w - 0.5, 0.45, h, 19, c, True)
+        text(s, x + 0.25, 2.9, w - 0.5, 1.9, txt, 14, INK)
+        if k < 3:
+            arrow(s, x + w + 0.03, 3.2, x + w + 0.27, 3.2, MUTED, 2)
+    box(s, M, 5.15, W - 2 * M, 1.2, tint(MUTED, 0.10))
+    text(s, M + 0.3, 5.22, W - 2 * M - 0.6, 1.1,
+         [[("Why not a genetic or ant-colony search (Wallacei, Opossum)?  ", {"bold": True}),
+           ("They search by trial and error and suit black-box objectives. Here every objective is a sum over positions, "
+            "so an exact solver is faster and proves the optimum. They, and an ML surrogate, become useful only if full "
+            "UTCI enters the loop: future work.", {})]], 14, INK, anchor=MSO_ANCHOR.MIDDLE)
+    source(s, "HiGHS open-source linear optimisation solver (highs.dev), called through SciPy (scipy.optimize.linprog).")
+
+
 def b5_sizing(s):
     head(s, "Backup B5 · The sizing rule leaves real choice", "Sidewalk width at each Porta plane (2011 guide: < 2.5 m none, < 3.5 small, 3.5–6 medium, > 6 large)")
     picture(s, ROOT / "notes/figures/porta_sidewalk_classes.png", M, 1.5, 7.4, crop_top=0)
@@ -897,7 +924,7 @@ SLIDES = [  # (outline heading number, builder)
     (10, IMG[10]), (11, IMG[11]),
     (12, IMG[12]), (13, s13_scenarios), (14, s14_map), (15, s15_cap), (16, s16_heat),
     (None, s_next), (None, s_cobenefits), (None, s_baseline),
-    (None, IMG["B1"]), (None, IMG["B2"]), (None, IMG["B3"]), (None, b4_bars), (None, b4b_palette30), (None, b5_sizing),
+    (None, IMG["B1"]), (None, IMG["B2"]), (None, IMG["B3"]), (None, b4_bars), (None, b4b_palette30), (None, b5_sizing), (None, b6_optimiser),
     (None, IMG["B7"]),
     (None, s_simplifications),
 ]
