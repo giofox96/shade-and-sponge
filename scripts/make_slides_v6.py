@@ -44,7 +44,8 @@ def fig_decided():
          "press marked as such (Time Out 2022, Beteve May 2026). notes/topic_decision.md 9.1, notes/tree_master_plan.md.")
 
 
-def fig_crowns():
+def fig_crowns(deck=False):
+    """deck=True: the 10 Nov deck version (v8): no 'named by the city' tags, external sources only."""
     d = pd.read_csv(ROOT / "databases/barcelona/crown_by_trunk_class.csv", header=[0, 1], index_col=0)
     r, n = d["area_ratio_vs_plane"], d["n"]
     sp = ["Platanus x acerifolia", "Tipuana tipu", "Jacaranda mimosifolia", "Melia azedarach", "Celtis australis",
@@ -58,10 +59,10 @@ def fig_crowns():
     for i, s in enumerate(sp):
         y = 200 + i * 72
         lo, hi = r.loc[s, ["SEGONA", "TERCERA"]].min(), r.loc[s, ["SEGONA", "TERCERA"]].max()
-        col = INK if s.startswith("Platanus") else (TREE if s in named else WARN)
+        col = INK if s.startswith("Platanus") else (TREE if s in named or deck else WARN)
         b += t(60, y + 8, s.replace(" x ", " × "), 22, col, "bold", italic=True)
         tag = "plane (reference)" if s.startswith("Platanus") else ("named by the city" if s in named else "not named")
-        b += t(60, y + 32, tag, 14, MUTED)
+        b += "" if deck and tag != "plane (reference)" else t(60, y + 32, tag, 14, MUTED)
         b += rect(x0, y - 14, max(hi, 0.005) * sc, 30, col, rx=6, op=0.25) + rect(x0, y - 14, lo * sc, 30, col, rx=6, op=0.8)
         lab = f"{lo:.0%}" if lo == hi else f"{lo:.0%}–{hi:.0%}"
         nn = "/".join(str(int(v)) for v in n.loc[s, ["SEGONA", "TERCERA"]].dropna() if v > 0)
@@ -71,6 +72,11 @@ def fig_crowns():
               "as the trees stand in Porta (LiDAR 2021). Dark bar = the lower of the two class values, light = the higher; n = trees in the 2nd/3rd class. "
               "Equal trunk size is not equal age, and street trees are pruned: this is not mature potential.", 1480, 17,
               fill=MUTED)[0]
+    if deck:
+        mi.OUT = ROOT / "slides/fig_v8"
+        mi.OUT.mkdir(exist_ok=True)
+        return save("v8_crowns", "Why it matters: the crowns differ", "Crown area as a share of a plane's, same trunk size", b,
+                    "ICGC, LiDAR flight of 26 Sept 2021; Ajuntament de Barcelona, arbrat viari (trunk class).")
     save("v6_04_crowns", "The replacements differ: from a full crown to a quarter of one",
          "Same trunk size, very different shade and interception — the choice of species decides the canopy", b,
          "databases/barcelona/crown_by_trunk_class.csv (scripts/crown_by_trunk_class.py), Porta street trees, "

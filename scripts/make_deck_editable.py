@@ -162,9 +162,18 @@ def s01_title(s):
     if ratio > 1:
         p.crop_top = p.crop_bottom = (1 - 1 / ratio) / 2
     p.height = Inches(H)
-    scrim = box(s, 0, 0, W * 0.62, H, "#1E1C19", radius=0, name="Scrim")
-    alpha = scrim.fill._xPr.find(qn("a:solidFill"))[0]
-    alpha.append(alpha.makeelement(qn("a:alpha"), {"val": "72000"}))
+    scrim = box(s, 0, 0, W, H, "#000000", radius=0, name="Scrim")  # full width, black to transparent (Giovanni, 9 Nov)
+    scrim.fill.gradient()
+    scrim.fill.gradient_angle = 0
+    gs = scrim.fill._xPr.find(qn("a:gradFill")).find(qn("a:gsLst"))
+    for g in list(gs):
+        gs.remove(g)
+    for pos, a in ((0, 85000), (45000, 70000), (100000, 0)):
+        g = gs.makeelement(qn("a:gs"), {"pos": str(pos)})
+        c = g.makeelement(qn("a:srgbClr"), {"val": "000000"})
+        c.append(c.makeelement(qn("a:alpha"), {"val": str(a)}))
+        g.append(c)
+        gs.append(g)
     text(s, 0.75, 2.2, 7.4, 1.0, "Shade and Sponge", 54, "#F2F0EA", True, name="Title")
     text(s, 0.75, 3.35, 7.0, 1.4, "A computational method for replacing the street trees a project must cut, so that summer heat "
          "and storm runoff improve, or at least do not get worse. First case: Barcelona's plane trees (Platanus).", 20, "#F2F0EA")
@@ -176,9 +185,9 @@ def s01_title(s):
 def s02_context(s):
     head(s, "The decision is already taken", "Barcelona replaces street trees one at a time; the planes are the largest case")
     for k, (big, small, c) in enumerate([
-            ("−56%", "Plane trees in ten years: 43,722 trees, 27.45% of the stock → 12% (press, May 2026)", HEAT),
-            ("15% · 30%", "Master plan 2017–2037: no species above 15%; tree cover up to 30% of the urban surface", TREE),
-            ("10,976", "Replacements with a change of species, 2018–2026, one tree at a time: planes are only 13%", WARN)]):
+            ("−56%", "Plane trees in ten years: 27% → 12% of the stock", HEAT),
+            ("15% · 30%", "Master plan: max 15% per species; 30% tree cover", TREE),
+            ("10,976", "Trees replaced with another species, 2018–2026", WARN)]):
         card(s, M + k * 4.18, 1.75, 3.9, 2.9, big, small, c, 44, 17)
     text(s, M, 5.15, W - 2 * M, 0.8, "This is the context, not the problem: the city has already decided how much of each "
          "species. What follows is what it has not decided.", 19, INK)
@@ -767,8 +776,12 @@ def s14_map(s):
         shp.fill.fore_color.rgb = rgb(GRID if v is None else tint(WARN, 0.9) if v < 0 else tint(TREE, 0.15 + 0.85 * v / hi))
         shp.line.color.rgb, shp.line.width = rgb(INK if name == "Porta" else BG), Pt(2.5 if name == "Porta" else 0.5)
         shp.shadow.inherit = False
-    text(s, M, 6.45, 7.6, 0.3, "Darker green = larger gain · ochre = loss (Bonanova) · grey = not computed (< 500 planes) · "
-         "black outline = Porta", 12, MUTED)
+    for k, (fill, ln, lab) in enumerate([(tint(TREE, 0.3), BG, "small gain"), (TREE, BG, "large gain"), (tint(WARN, 0.9), BG, "loss"),
+                                         (GRID, BG, "not computed"), (BG, INK, "Porta")]):
+        x = M + k * 1.55
+        sw = box(s, x, 6.5, 0.28, 0.22, fill, radius=0, line=ln)
+        sw.shadow.inherit = False
+        text(s, x + 0.34, 6.44, 1.2, 0.32, lab, 12, MUTED)
     for k, (big, small, c) in enumerate([(f"+{d.gain.median():.1f} pts", "median gain of summer shade over the city's mix", TREE),
                                          (f"{(d.gain > 0).sum()} of {len(d)}", f"barris gain ({d.planes.sum():,} planes)", TREE),
                                          ("Bonanova", "loses a little: with one city cap the capped species go where they add most", WARN)]):
@@ -837,14 +850,42 @@ def b5_sizing(s):
     source(s, "Ajuntament de Barcelona, Mapa base topogràfic 1:1000 (CC BY 4.0); Gestió de l'arbrat viari de Barcelona (2011) pp. 22–23.")
 
 
+# ---- image versions Giovanni preferred (9 Nov): flowcharts, crowns and radar back as images, footer cropped -------------
+def fig_slide(path, title, sub, src=None, crop_bottom=0.075):
+    def build(s):
+        head(s, title, sub)
+        picture(s, ROOT / path, M + 0.15, 1.45, W - 2 * M - 0.3, crop_bottom=crop_bottom)
+        if src:
+            source(s, src)
+    return build
+
+
+IMG = {
+    6: fig_slide("slides/fig_v8/v8_crowns.png", "Why it matters: the crowns differ",
+                 "Crown area as a share of a plane's, same trunk size, Porta's own trees",
+                 "ICGC, LiDAR flight of 26 Sept 2021; Ajuntament de Barcelona, arbrat viari (trunk class)."),
+    10: fig_slide("slides/fig_v7/flow_00_overview.png", "Methodology",
+                  "Which species replace the trees a project must cut, and where to add new ones"),
+    11: fig_slide("slides/fig_v7/flow_04_design.png", "Design module", "Inside the project area the designer draws"),
+    12: fig_slide("slides/fig_v7/res_01_radar.png", "First results: replacing Porta's 832 plane trees",
+                  "The optimised layout keeps almost all of today's summer shade; the city's announced mix loses about an eighth",
+                  "City mix: Betevé, 7 May 2026. Storm: PDISBA, 2-year 60-min. Heat = shade proxy, not yet UTCI."),
+    "B1": fig_slide("slides/fig_v7/flow_02_heat.png", "Backup B1 · Heat module", "Fast proxy inside the loop, full UTCI on the final layouts"),
+    "B2": fig_slide("slides/fig_v7/flow_03_runoff.png", "Backup B2 · Runoff module", "Event runoff on a 1 m grid, routed to the flood hotspots"),
+    "B3": fig_slide("slides/fig_v7/flow_01_screening.png", "Backup B3 · City screening", "Indicators for every street-tree position"),
+    "B7": fig_slide("slides/fig_v7/flow_05_validation.png", "Backup B7 · Validation plan",
+                    "Each module checked against something it was not fitted to"),
+}
+
+
 SLIDES = [  # (outline heading number, builder)
-    (1, s01_title), (2, s02_context), (3, s03_gate1), (4, s04_trees), (5, s05_problem), (6, s06_crowns), (7, s07_gap),
+    (1, s01_title), (2, s02_context), (3, s03_gate1), (4, s04_trees), (5, s05_problem), (6, IMG[6]), (7, s07_gap),
     (8, s08_rq), (9, s09_hyp),
-    (10, s10_overview), (11, s11_design),
-    (12, s12_radar), (13, s13_scenarios), (14, s14_map), (15, s15_cap), (16, s16_heat),
+    (10, IMG[10]), (11, IMG[11]),
+    (12, IMG[12]), (13, s13_scenarios), (14, s14_map), (15, s15_cap), (16, s16_heat),
     (None, s_next), (None, s_cobenefits), (None, s_baseline),
-    (None, b1_heat), (None, b2_runoff), (None, b3_screening), (None, b4_bars), (None, b4b_palette30), (None, b5_sizing),
-    (None, b7_validation),
+    (None, IMG["B1"]), (None, IMG["B2"]), (None, IMG["B3"]), (None, b4_bars), (None, b4b_palette30), (None, b5_sizing),
+    (None, IMG["B7"]),
     (None, s_simplifications),
 ]
 
