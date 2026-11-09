@@ -148,24 +148,24 @@ def s01_title(s):
     alpha = scrim.fill._xPr.find(qn("a:solidFill"))[0]
     alpha.append(alpha.makeelement(qn("a:alpha"), {"val": "72000"}))
     text(s, 0.75, 2.2, 7.4, 1.0, "Shade and Sponge", 54, "#F2F0EA", True, name="Title")
-    text(s, 0.75, 3.35, 7.0, 1.4, "A computational method for choosing which species replace a city's street trees, and where, "
-         "scored on summer heat and on storm runoff. First case: Barcelona's plane trees (Platanus).", 22, "#F2F0EA")
+    text(s, 0.75, 3.35, 7.0, 1.4, "A computational method for replacing the street trees a project must cut, so that summer heat "
+         "and storm runoff improve, or at least do not get worse. First case: Barcelona's plane trees (Platanus).", 20, "#F2F0EA")
     text(s, 0.75, 5.15, 7.0, 0.4, "MaCAD, IAAC  ·  Tutor session with A. Chronis, 10 November 2026", 16, "#CFC9BC")
     text(s, 0.75, H - 0.6, 11.5, 0.3, "Horts urbans de Porta, Carrer d'Alcúdia × Carrer de la Maladeta, Nou Barris: "
          "the bare crowns in the foreground are the plane trees this thesis is about.", 11, "#CFC9BC")
 
 
 def s02_context(s):
-    head(s, "The decision is already taken", "Barcelona is replacing its plane trees, one at a time")
+    head(s, "The decision is already taken", "Barcelona replaces street trees one at a time; the planes are the largest case")
     for k, (big, small, c) in enumerate([
             ("−56%", "Plane trees in ten years: 43,722 trees, 27.45% of the stock → 12% (press, May 2026)", HEAT),
             ("15% · 30%", "Master plan 2017–2037: no species above 15%; tree cover up to 30% of the urban surface", TREE),
-            ("1 by 1", "Each tree is replaced when it dies or when its street is rebuilt: thousands of decisions", WARN)]):
+            ("10,976", "Replacements with a change of species, 2018–2026, one tree at a time: planes are only 13%", WARN)]):
         card(s, M + k * 4.18, 1.75, 3.9, 2.9, big, small, c, 44, 17)
     text(s, M, 5.15, W - 2 * M, 0.8, "This is the context, not the problem: the city has already decided how much of each "
          "species. What follows is what it has not decided.", 19, INK)
     source(s, "Nació Digital 4 May 2026 and Betevé 7 May 2026 (press); Arbres per viure, Pla director de l'arbrat 2017–2037, "
-           "targets 1 and 3; notes/tree_master_plan.md.")
+           "targets 1 and 3; notes/tree_master_plan.md; Open Data BCN quarterly inventory 2018Q1–2026Q2 (scripts/inventory_history.py).")
 
 
 def s03_gate1(s):
@@ -248,15 +248,15 @@ def s04_trees(s):
 def s05_problem(s):
     head(s, "The problem", "Context, problem and gap, kept apart")
     box(s, M, 1.6, W - 2 * M, 3.4, tint(INK, 0.06))
-    text(s, M + 0.45, 1.6, W - 2 * M - 0.9, 3.4, "When Barcelona replaces a plane tree, the only documented rule for the new "
-         "species is qualitative (district, sidewalk width, tradition). No rule quantifies heat or runoff, so thousands of "
-         "replacements will change each street's shade and rain interception, and nobody measures by how much.",
-         26, INK, True, anchor=MSO_ANCHOR.MIDDLE)
-    for k, (lab, txt, c) in enumerate((("CONTEXT", "plane removal, 15% cap, one tree at a time", MUTED),
-                                       ("PROBLEM", "a qualitative rule, not visible in practice", HEAT),
+    text(s, M + 0.45, 1.6, W - 2 * M - 0.9, 3.4, "When a project in Barcelona must replace street trees, at least ~1,300 a "
+         "year, the only documented rule for the new species is qualitative. No rule checks whether a replacement keeps, loses "
+         "or improves the street's shade and rain interception, so a project can leave its street hotter or wetter, and nobody "
+         "measures by how much.", 24, INK, True, anchor=MSO_ANCHOR.MIDDLE)
+    for k, (lab, txt, c) in enumerate((("CONTEXT", "planes going, 15% cap, trees replaced one at a time", MUTED),
+                                       ("PROBLEM", "a qualitative rule; a project can make its street worse", HEAT),
                                        ("GAP", "no quantities for heat or runoff, per position", RAIN))):
         text(s, M + k * 4.18, 5.4, 3.9, 1.0, [[(lab, {"bold": True, "color": c, "size": 14})], txt], 17, INK)
-    source(s, "notes/topic_decision.md §10.1–10.2.")
+    source(s, "notes/topic_decision.md §10.2, §11.1–11.2 (v8, 9 Nov).")
 
 
 def s06_crowns(s):
@@ -293,9 +293,10 @@ def s07_gap(s):
 def s08_rq(s):
     head(s, "The research question, scrutinised", "One main question, four sub-questions, each with a metric")
     box(s, M, 1.55, W - 2 * M, 1.55, tint(INK, 0.06))
-    text(s, M + 0.35, 1.55, W - 2 * M - 0.7, 1.55, "Can a trait-based layout method, inside Barcelona's tree rules, choose "
-         "replacement species for plane trees and new planting spots that retain and add more pedestrian cooling and "
-         "storm-water interception than the city's own practice?", 21, INK, True, anchor=MSO_ANCHOR.MIDDLE)
+    text(s, M + 0.35, 1.55, W - 2 * M - 0.7, 1.55, "When a street project in Barcelona must replace trees, can a trait-based "
+         "layout method, inside the city's tree rules, choose the new species and positions, and new planting spots, so that "
+         "pedestrian cooling and storm-water interception improve, or at least do not get worse, compared with the city's own "
+         "practice and with today?", 18, INK, True, anchor=MSO_ANCHOR.MIDDLE)
     sq = [("SQ1 · heat", "Mean UTCI 12–17 h on a hot design day", HEAT),
           ("SQ2 · runoff", "Total and at flood hotspots, 2-yr 60-min storm; larger than the model resolves (Δmin)?", RAIN),
           ("SQ3 · trade-off", "Do the heat-best and runoff-best layouts differ, and in which species?", WARN),
@@ -304,15 +305,16 @@ def s08_rq(s):
         x, y = M + (k % 2) * 6.33, 3.3 + (k // 2) * 1.2
         box(s, x, y, 5.9, 1.05, tint(c, 0.10))
         text(s, x + 0.25, y + 0.12, 5.4, 0.9, [[(hd, {"bold": True, "color": c, "size": 16})], txt], 15, INK)
-    text(s, M, 5.8, W - 2 * M, 0.7, "Changed after scrutiny: 'reduce' → 'retain' (against the city's practice, today as reference) · "
+    text(s, M, 5.8, W - 2 * M, 0.7, "Changed after scrutiny: 'reduce' → 'improve, or at least do no harm' (city's practice first, then today) · "
+         "any tree a project replaces, planes as the validated case · "
          "additions co-equal · 'not resolved' is an allowed answer · baseline = the city's observed replacement mix (S1b), "
          "with the announced mix (S1a) beside it", 14, MUTED)
-    source(s, "notes/topic_decision.md §10.5 (scrutiny table) and §10.6; notes/methodology.md §7.")
+    source(s, "notes/topic_decision.md §10.5 (scrutiny table), §10.6, §11.3 (v8); notes/methodology.md §7.")
 
 
 def s09_hyp(s):
-    head(s, "Hypotheses", "Two to test, one declared limit")
-    items = [("H1", "Trait-based layouts beat the city's practice on heat and on runoff", "Runoff is a check: below Δmin = 91 m³ it is 'not resolved'; tree pits and grouping matter more than species", TREE),
+    head(s, "Hypotheses", "Do no harm, improve where possible: two to test, one declared limit")
+    items = [("H1", "No worse than the city's practice on heat or runoff, better on summer heat", "For any tree a project replaces. Runoff is a check: below Δmin = 91 m³ it is 'not resolved'; pits and grouping matter more than species", TREE),
              ("H2", "The heat-best and runoff-best layouts differ in species", "Tested on the Pareto front (SQ3)", WARN),
              ("Boundary", "At extreme storms, street trees cannot matter", "Was H3; true by construction of the model, so declared, not tested", MUTED)]
     for k, (h, txt, sub, c) in enumerate(items):
@@ -320,7 +322,7 @@ def s09_hyp(s):
         box(s, M, y, W - 2 * M, 1.35, tint(c, 0.10))
         text(s, M + 0.35, y, 1.9, 1.35, h, 32, c, True, anchor=MSO_ANCHOR.MIDDLE)
         text(s, M + 2.5, y + 0.25, W - 2 * M - 2.8, 1.0, [[(txt, {"bold": True, "size": 22})], [(sub, {"color": MUTED})]], 16, INK)
-    source(s, "notes/topic_decision.md §8, §9.5, §10.5.")
+    source(s, "notes/topic_decision.md §8, §9.5, §10.5, §11.4.")
 
 
 def flow(s, fig, title, sub):
@@ -481,7 +483,7 @@ def s16_heat(s):
     text(s, x, 4.35, 5.3, 2.3, [[("Next", {"bold": True, "color": WARN})],
          "To 1 Dec: UTCI of the final layouts (Infrared City), hot design day, priority score, city screening layer.",
          "To 18 Dec: project tool anywhere in Barcelona, Sant Antoni transfer test.",
-         [("Asks: ", {"bold": True}), ("porous crowns in Infrared? · Sant Antoni enough as transfer? · may a barri lose while the city gains?", {})]],
+         [("Asks: ", {"bold": True}), ("every tree a project replaces? · porous crowns in Infrared? · Sant Antoni enough? · may a barri lose while the city gains?", {})]],
          13, INK)
     source(s, "databases/barcelona/hb_utci_andreu_nin.csv, porous_utci_*_epw2011.csv, ladybug_vs_proxy_andreu_nin.csv; "
            "notes/methodology.md §5b. Porous crowns after Peng et al. 2026.")
@@ -490,7 +492,7 @@ def s16_heat(s):
 def s_next(s):
     head(s, "What comes next", "Porta first, then the whole city")
     steps = [("to 1 Dec", "UTCI of the final layouts (Infrared City) · hot design day · priority score · city screening layer", HEAT),
-             ("after 10 Nov", "City LP rerun against the observed mix (S1b) · co-benefits reported per layout", TREE),
+             ("after 10 Nov", "City LP against S1b · S1b per removed species · demo: every tree a works area replaces · co-benefits", TREE),
              ("to 18 Dec", "Project tool anywhere in Barcelona · Sant Antoni transfer test · booklet · final presentation", RAIN)]
     for k, (when, what, c) in enumerate(steps):
         y = 1.6 + k * 1.15
@@ -498,9 +500,10 @@ def s_next(s):
         text(s, M + 0.25, y, 1.7, 0.95, when, 18, c, True, anchor=MSO_ANCHOR.MIDDLE)
         text(s, M + 2.05, y, 5.4, 0.95, what, 15, INK, anchor=MSO_ANCHOR.MIDDLE)
     text(s, 8.65, 1.6, 4.1, 0.4, "QUESTIONS FOR YOU", 15, WARN, True)
-    for k, q in enumerate(("Does Infrared City model porous crowns?", "Is a within-city transfer (Sant Antoni) enough?",
+    for k, q in enumerate(("Extend to every tree a project replaces, planes as the validated case?",
+                           "Does Infrared City model porous crowns?", "Is a within-city transfer (Sant Antoni) enough?",
                            "May a barri lose while the city gains?")):
-        text(s, 8.65, 2.15 + k * 0.95, 4.1, 0.9, q, 17, INK, True)
+        text(s, 8.65, 2.1 + k * 0.95, 4.1, 0.9, q, 16, INK, True)
     source(s, "notes/citywide_plan.md §4; notes/methodology.md §10; slides/outline_10nov.md slide 16.")
 
 

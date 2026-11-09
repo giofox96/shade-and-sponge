@@ -401,3 +401,46 @@ The tutor asked for the RQ to be scrutinised. Below, the v6 RQ (§9.4) is checke
 - **Tree health:** there is no open dataset, so a replacement-priority proxy will be built (LiDAR vigour, NDVI change, age) and validated against trees removed between inventory snapshots.
 - **Diversity check (24 Oct, after Santamour 1990 and Kendal et al. 2014):** every layout reports its largest genus and family share against Santamour's 20% and 30% (`layout.taxon_shares`, families from standard taxonomy). They are reported, not constrained, because Barcelona caps species only.
 - **City scale:** Porta first, then a city-wide screening layer and the project tool usable anywhere in Barcelona. Plan and feasibility: `notes/citywide_plan.md`.
+
+## 11. v8 (9 Nov, user): any tree a project must replace, "improve or at least do no harm"
+
+**Why v8.** Giovanni (9 Nov): the problem should be posed from the designer's side. *When a project in a city is forced to cut trees and replace them, what is the best approach?* Runoff can get slightly worse in our results (S4 vs S0 within +0.13% in Porta, below Δmin), so it is not "solved", but every choice should try to improve, or at least not worsen, the situation. The plane tree stays the starting point, but the replacement logic should cover every tree that needs replacing. This also answers RM_L04 (5 Nov): Iacopo asked to say that the tool is for any tree, and Mathilde that runoff is a check.
+- **Stands from v7:** context (§10.2), gate 1 and the 2004/2005 table, "enough trees" (§10.3), the gap (§10.2), scenarios and project area (§10.6), the S1b baseline (`notes/methodology.md` §S1), all results (planes).
+- **Changes:** the object of the problem (any tree a project replaces, not only planes), the criterion (do no harm on each service, improve where possible), H1 wording.
+
+### 11.1 Evidence: planes are the biggest single case, not most of the replacements
+
+From the city's quarterly inventory, 2018Q1–2026Q2 (`scripts/inventory_history.py` → `databases/barcelona/inventory_replacements.csv`, Open Data BCN, CC BY 4.0):
+- **10,976 observed replacements, 172 taxa removed.** Planes are the largest single taxon but only **1,444 (13%)**.
+- The four species the 2011 guide marks red, "avoid" (*Robinia pseudoacacia* 987, *Populus nigra* 891, *Ulmus pumila* 657, *P. alba* 348), together account for **2,883 (26%)** (`notes/tree_master_plan.md` §5.5).
+- **In Porta: 227 replacements, of which 10 planes**; poplars lead (*P. nigra* 71, *P. alba* 35), then *Catalpa* 50.
+- Caveats (from the script): a replacement is seen when a pit's taxon changes, so a same-species replant is invisible and the counts are a floor; re-coding is removed by ASSUMPTION filters; ~1,300 a year is a rough rate (10,976 over 8.5 years), not a city figure.
+
+### 11.2 The problem in one sentence (v8)
+
+> Barcelona replaces street trees one at a time, at least ~1,300 a year with a change of species, when a tree dies or a street is rebuilt; the planes are the largest single case. The only documented rule for which species goes back is qualitative, and no rule checks whether a replacement keeps, loses or improves a street's shade and rain interception. So each project can make its street hotter or wetter than before, and nobody measures by how much.
+
+### 11.3 Research question (v8)
+
+> **When a street project in Barcelona must replace trees, can a trait-based layout method, inside the city's tree rules, choose the new species and positions, and new planting spots, so that pedestrian cooling and storm-water interception improve, or at least do not get worse, compared with the city's own practice and with today?**
+
+- Two references, in this order: **the city's practice** (S1b; the method must be no worse on any service) and **today** (S0; the target, reachable with additions).
+- "No worse" for runoff means within Δmin = 91 m³ (what the model resolves).
+- SQ1–SQ4 stand as in §10.5–10.6.
+
+### 11.4 Hypotheses (v8)
+
+- **H1 (do no harm, improve where possible):** for the trees a project must replace, the method's layout is no worse than the city's practice on heat or runoff, and better on summer heat. Runoff is a check: species matter less than tree pits and grouping (RM_L04).
+- **H2:** heat-best and runoff-best layouts differ in species (unchanged).
+- **Declared boundary:** extreme storms are outside what street trees can affect (unchanged).
+- Winter sun is reported as a trade-off, not tested.
+
+### 11.5 Scope: two cases
+
+1. **Plane trees (validated case):** all results so far, S1b baseline, the UTCI check, the 33 barris and the city LP. Nothing is rerun for v8.
+2. **All trees a project replaces (demonstration, after 10 Nov):** one works area with mixed species. Needs:
+   - the S1b mix per removed taxon, from the same inventory table (today the tool filters `species_out` to Platanus, `shade_sponge/layout.py`);
+   - positions = every tree flagged for replacement in the area (today `is_plane`, `shade_sponge/__main__.py`, `web_export.py`); which trees are flagged comes from the project area or the replacement-priority proxy (§10.6), since there is no open health data;
+   - The real Porta project (Santapau, Emili Roca, Desfar; `notes/sylvcit_followups.md` §1) has only 6 trees today, all planes, so it is an additions case, not a mixed-species one.
+
+Code changes belong to the tool thread, after 10 Nov.

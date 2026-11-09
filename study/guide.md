@@ -1,4 +1,4 @@
-# Study guide: Shade and Sponge (state of 3 Nov 2026)
+# Study guide: Shade and Sponge (state of 9 Nov 2026)
 
 A condensed version of the thesis for **learning it**, not for writing it. Every fact here comes from the project notes; the source file is named in each chapter, so check there when a number changes. If a note is updated, update this guide and the cards (`flashcards.csv`, `quiz.csv`).
 
@@ -8,16 +8,24 @@ A condensed version of the thesis for **learning it**, not for writing it. Every
 
 ## 0. The thesis in 30 seconds (learn this by heart first)
 
-> Barcelona has decided to remove more than half of its plane trees within ten years. Its tree master plan says **how much** of each species the city may have (no species above 15%), and its street-tree rules say **which tree size fits which sidewalk**. The only documented rule for **which species replaces a tree** is qualitative (a 2004/2005 table by district and sidewalk width), Porta's plantings mostly do not follow it, and no rule measures what each choice does to heat or runoff. In **Porta (Nou Barris)** the same streets suffer **summer heat stress** and **pluvial flooding**, and tree cover is already below the city's target. My thesis is **a computational method that takes the city's rules as constraints and chooses replacement species for plane trees and new planting spots that retain more cooling and rain interception than the city's own practice**, first in Porta, then over 28 barris in one city-wide optimisation.
+> Barcelona has decided to remove more than half of its plane trees within ten years. Its tree master plan says **how much** of each species the city may have (no species above 15%), and its street-tree rules say **which tree size fits which sidewalk**. The only documented rule for **which species replaces a tree** is qualitative (a 2004/2005 table by district and sidewalk width), Porta's plantings mostly do not follow it, and no rule measures what each choice does to heat or runoff. In **Porta (Nou Barris)** the same streets suffer **summer heat stress** and **pluvial flooding**, and tree cover is already below the city's target. My thesis is **a computational method that, when a project must replace street trees, takes the city's rules as constraints and chooses the new species and positions, and new planting spots, so that cooling and rain interception improve, or at least do not get worse, than with the city's own practice**. The plane trees are the first, validated case: first in Porta, then over 28 barris in one city-wide optimisation.
 
 **One sentence:** *the city fixes how much; the method decides which species where, within the rules, and keeps more shade than the city's own mix → heat no worse than today's planes in UTCI, runoff below what the model resolves.*
 
 **The 10 Nov message in three sentences (learn these first):**
-1. Barcelona will replace more than half of its planes, and the only rule for the new species is qualitative: nobody measures what changes for heat and runoff.
+1. When a project must replace street trees (about 11,000 replacements since 2018, planes the largest case at 13%), the only rule for the new species is qualitative: nobody measures whether the street gets better or worse for heat and runoff.
 2. The method chooses species and positions inside the city's rules (15% cap, sidewalk rule) and compares them with the city's own practice (S1a press mix, S1b observed mix).
 3. It keeps more summer shade than the city's rule in every barri tested on its own (27 of 28 in the joint city run); in UTCI it is "no worse than today's planes"; for runoff the difference is below what the model can resolve.
 
 **The logic chain (the tutor's order):** problem → why it matters → gap → research question → hypotheses → method (data, tools) → tool → first results → limits.
+
+### What changed on 9 Nov: the v8 framing (learn this first)
+- **The question starts from the project** (Giovanni, 9 Nov): *when a project must cut and replace trees, what is the best approach?* The method covers **any tree a project replaces**; the **plane trees are the first, validated case** (all results so far). `notes/topic_decision.md` §11.
+- **The criterion is "improve, or at least do no harm"**: first against the city's practice (S1b), then against today (reached with additions). For runoff, "no worse" means within Δmin = 91 m³.
+- **Evidence** (city inventory 2018Q1–2026Q2, `scripts/inventory_history.py`): **10,976 replacements with a change of species, 172 taxa removed; planes 1,444 (13%)**; the four "avoid" species of the 2011 guide 2,883 (26%). In Porta 227, of which only 10 planes (poplars lead). A same-species replant is invisible, so these are a floor.
+- **H1 (v8):** no worse than the city's practice on heat or runoff, better on summer heat. H2 and the boundary unchanged.
+- **Scope:** planes validated; one demo after 10 Nov with every tree a works area replaces (S1b per removed taxon). Not everything can be validated to the same depth by December.
+- **New question for the tutor:** extend to every tree a project replaces, keeping the planes as the validated case?
 
 ### What changed with the seminars, 5–9 Nov (RM_L04, RT pitch)
 - **Runoff is a check, not the main gain** (Mathilde, RM_L04, 5 Nov): with Barcelona's square tree pits all alike, runoff depends more on pit size and on grouping trees than on species. Say it before the tutor does; the value is summer shade kept, canopy and diversity under the cap (carbon and pollen reported as co-benefits). H1 stays as a test with Δmin, its runoff part is "not resolved".
