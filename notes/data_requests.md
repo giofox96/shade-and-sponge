@@ -13,6 +13,7 @@ forward replies or paste them in the thread. Nothing here is sent by Claude.*
 - [x] 6 Nov: BCASA answered XKF0900 with the **data request form** ("Sol·licitud de dades d'explotació", .docx). It goes **by email to info.bcasa@bcn.cat**, signed, with the user's acceptance of the conditions of use (Llei 37/2007 art. 8: no alteration, cite source and last-update date). Claude pre-filled it: `/mnt/project-files/bcasa/BCASA_sollicitud_dades_Volpe.docx` (not in the repo). Missing: phone (optional), place/date, signature.
 - [ ] **Angelos (6 Nov, Giovanni by email)**: ask him to sign the letter draft `/mnt/project-files/bcasa/IAAC_tutor_letter_BCASA_draft.docx` (email text in the thread). When it comes back signed, resume BCASA.
 - [ ] **BCASA, after the signed letter**: when Angelos's letter exists, send ONE email to info.bcasa@bcn.cat with the signed form + the letter, and ask whether the instància is still needed or the email is enough.
+- [ ] **Parcs i Jardins (9 Nov)**: RGF7342 answered: send the detailed query to arbrat@bcn.cat (text §2b), from the IAAC inbox.
 - [ ] **AMB contact form** (amb.cat → Contacte): message for Cati Montserrat (text §5b).
 - [x] Slack: María asked (3 Nov); Pinyol lead dropped, go for Joan Guitart.
 - [x] LinkedIn: connection request to Joan Guitart sent (3 Nov). When he accepts, send a short message (ask Claude for the text).
@@ -32,7 +33,7 @@ forward replies or paste them in the thread. Nothing here is sent by Claude.*
 | # | Body | What we ask | Channel | Status | Next step (who, when) |
 |---|---|---|---|---|---|
 | 1 | **BCASA** (Barcelona Cicle de l'Aigua) | 5-min rain-gauge series near Nou Barris; 1D/2D drainage results (depths, velocities, T = 1–2 yr) | City "Atenció en línia" form, code **BDM9240** (30 Oct); follow-up **XKF0900** (6 Nov, rain-gauge form; **answered 6 Nov with the form**, to email to info.bcasa@bcn.cat) | **Answered 30 Oct:** unpublished data only via a formal *instància* + tutor letter + a separate rain-gauge form; academic use, no sharing | **The complicated one, see §1.** Ask BCASA for the rain-gauge form, get the tutor letter, register the instància |
-| 2 | **Parcs i Jardins** | Replacement list, streets keeping planes (Meridiana), 15% cap scope, official 2026 mix, sidewalk widths | City form, code **RGF7342** (sent 21–24 Oct); follow-up **BKB1995** (6 Nov, adds the Pla Clima "adapted species" question). Old address parcsijardins@mail.bcn.es does not work (user, 3 Nov) | No reply after ~2 weeks. **No longer blocking:** S1b (observed replacements), the plan text (cap) and sidewalk work cover most questions; still open: Meridiana, the "adapted species" list | One follow-up via the form on 4 Nov (draft §2); ask the tutor for an Àrea d'Arbrat contact on 10 Nov; otherwise a stated limitation |
+| 2 | **Parcs i Jardins** | Replacement list, streets keeping planes (Meridiana), 15% cap scope, official 2026 mix, sidewalk widths | City form, code **RGF7342** (sent 21–24 Oct); follow-up **BKB1995** (6 Nov, adds the Pla Clima "adapted species" question). Old address parcsijardins@mail.bcn.es does not work (user, 3 Nov) | **Answered 9 Nov (RGF7342):** send the query by email to arbrat@bcn.cat (text §2b); do not publish the address. Before that: no reply after ~2 weeks. **No longer blocking:** S1b (observed replacements), the plan text (cap) and sidewalk work cover most questions; still open: Meridiana, the "adapted species" list | One follow-up via the form on 4 Nov (draft §2); ask the tutor for an Àrea d'Arbrat contact on 10 Nov; otherwise a stated limitation |
 | 3 | **Barcelona Regional** | Licence for RESCCUE depth layers (`rcc_iu1_*`), units of `depth2d`/`speed2d`, any T = 1 yr run | Web form bcnregional.com/contacte-2 (30 Oct, no code). The 13 Oct email to br@bcnregional.com **bounced** | No reply recorded | Phone +34 932 237 400 ~13 Nov if silent. Point 3 of the BCASA instància asks the same licence, so either answer settles it |
 | 4 | **TRY database** (MPI Jena) | Traits for the 21 Porta species (request **53077**, 13 Oct) | try-db.org | **Received 3 Nov** (`53077.txt`, 21,369 rows, 1,339 trait records; plus release notes and IP guidelines). 20 of 21 species (no *Handroanthus heptaphyllus*). Coverage: leaf phenology all 20; leaf area for most; wood growth rings / vessel distribution for ~14; **no leaf water storage or wettability records**, so canopy storage stays on the s·LAI calibration. TRY IP rules apply if published (cite TRY + original datasets, possibly invite co-authors) | Save the zip in `databases\TRY_DATABASE\` (gitignored). Use: phenology check of `season.py`, leaf area per species. Closed as a request |
 | 5 | **Infrared City** (Angelos Chronis, Serjoscha Duering, Oana Taut) | Research access; trees as geometry or LAI; API limits; validation | Email | Angelos replied ~1 Nov (free tier, results must be open); **Giovanni replied 2 Nov** | Wait. Ask about crown transmittance/LAI if not answered. Reminder ~9 Nov, or ask in person on 10 Nov |
@@ -197,6 +198,50 @@ parties and will be credited to Barcelona Cicle de l'Aigua, SA, Ajuntament de Ba
 > 30% al 40%? Hi ha una llista publicada?
 > Moltes gràcies,
 > Giovanni Carlo Volpe – MaCAD, IAAC – giovanni.carlo.volpe@students.iaac.net
+
+### 2b. Email to arbrat@bcn.cat (Catalan, from the IAAC inbox; Parcs i Jardins answered RGF7342 on 9 Nov asking for this)
+Framing follows thesis v8 (`topic_decision.md` §11 on branch `claude/project-thread-il0yxe`). Do not share the address
+publicly (Parcs i Jardins asked).
+
+> **Assumpte:** Consulta RGF7342 – tesi de màster (IAAC): criteris de selecció d'espècies en la substitució d'arbrat viari
+>
+> Bon dia,
+>
+> Seguint la resposta a la consulta RGF7342, us escric directament amb el detall de la consulta.
+>
+> Sóc estudiant del Master in Advanced Computation for Architecture & Design (MaCAD) de l'Institute for Advanced
+> Architecture of Catalonia (IAAC). La meva tesi desenvolupa un mètode computacional per ajudar a triar l'espècie de
+> cada arbre viari que un projecte ha de substituir. El cas validat és el plàtan, al barri de la Porta (Nou Barris).
+> L'objectiu és que la tria millori, o almenys no empitjori, el confort tèrmic dels vianants a l'estiu respecte de
+> l'arbrat actual i de la pràctica de la ciutat, sense augmentar l'escorrentia pluvial, i sempre dins de les regles
+> del Pla director de l'arbrat 2017–2037 i de la guia de gestió de l'arbrat viari de 2011.
+>
+> Per representar la pràctica de la ciutat faig servir l'inventari d'arbrat de l'Open Data BCN: entre el 2018 i el
+> 2026 hi trobo 10.976 substitucions amb canvi d'espècie en el mateix escocell, 1.444 de les quals de plàtans.
+> Voldria assegurar-me que el mètode segueix els vostres criteris i no només la meva lectura dels documents:
+>
+> 1. **Criteris de tria.** Hi ha un document o criteri intern que fixi quina espècie substitueix un arbre segons el
+>    tipus de carrer, l'amplada de vorera, l'orientació o el districte? Es podria compartir per a ús acadèmic?
+> 2. **Lectura de l'inventari.** És correcte interpretar un canvi d'espècie en el mateix codi d'escocell com una
+>    substitució?
+> 3. **Abast del límit del 15%.** S'aplica només a escala de ciutat, o també per districte o barri en triar les
+>    espècies d'un carrer? Compta només l'arbrat viari o també el de places i parcs?
+> 4. **Espècies adaptades.** Quines espècies compten com a "adaptades" per a l'objectiu del Pla Clima de passar del
+>    30% al 40%? Hi ha una llista publicada?
+> 5. **On es mantenen els plàtans.** La guia de 2011 diu que es mantenen a les grans avingudes i als llocs
+>    emblemàtics. A la Porta, quins carrers ho són? L'avinguda Meridiana n'és un?
+> 6. **Amplada de vorera.** He mesurat l'amplada a cada arbre sobre el mapa topogràfic 1:1000 (de façana a vorada).
+>    Teniu una amplada oficial per escocell que hauria de fer servir? I com es tria la mida en mitjanes i passeigs,
+>    on no hi ha façana?
+>
+> Quan acabi el treball, al desembre de 2026, us puc enviar els resultats per a la Porta (mapes i comparacions per
+> escocell).
+>
+> Moltes gràcies pel vostre temps.
+>
+> Giovanni Carlo Volpe
+> MaCAD, Institute for Advanced Architecture of Catalonia (IAAC)
+> giovanni.carlo.volpe@students.iaac.net
 
 ## 4. Comune di Firenze LiDAR: reply to the 4 Nov answer (Italian, from the IAAC inbox)
 
