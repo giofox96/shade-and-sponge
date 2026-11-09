@@ -379,7 +379,7 @@ def s13_scenarios(s):
     panels = [("Summer shade, % of today", "shade_summer_m2h", lambda v, c: 100 * v / s0[c], HEAT),
               ("Winter shade (a cost), % of today", "shade_winter_m2h", lambda v, c: 100 * v / s0[c], HEAT),
               ("Total runoff, m³ vs today (Δmin 91)", "runoff_m3", lambda v, c: v - s0[c], RAIN),
-              ("Canopy cover, points vs today", "canopy_pct", lambda v, c: v - s0[c], TREE)]
+              ("Canopy cover, points vs today (gap to 30% ≈ 10 pts)", "canopy_pct", lambda v, c: v - s0[c], TREE)]
     pw = (W - 2 * M - 0.3) / 2
     for i, (lab, col, f, c) in enumerate(panels):
         x, y = M + (i % 2) * (pw + 0.3), 1.5 + (i // 2) * 2.75
@@ -390,10 +390,10 @@ def s13_scenarios(s):
         ch = s.shapes.add_chart(XL_CHART_TYPE.COLUMN_CLUSTERED, Inches(x), Inches(y), Inches(pw), Inches(2.6), cd).chart
         style_chart(ch, [WARN, TREE], legend=(i == 3), fmt='0.0', size=11)
         vals = [v for ser in cd for v in ser.values]
-        if "%" in lab:
+        if "% of" in lab:
             quiet_axes(ch, 10 * int((min(vals) - 5) // 10), None)
         else:
-            quiet_axes(ch)
+            quiet_axes(ch, *((-3, 2) if col == "canopy_pct" else (None, None)))
             ch.category_axis.tick_label_position = XL_TICK_LABEL_POSITION.LOW
         ch.has_title = True
         ch.chart_title.text_frame.text = lab
