@@ -55,8 +55,8 @@ The deck follows that order.
 | 2011 guide (in force): table no longer printed | Only a species catalogue |
 | **In Porta, 2007–2026 plantings** | only **~10%** match the table (upper bound on non-compliance) |
 
-**Say (117 words):**
-"You asked me to check whether Barcelona already has a structured plan for which tree goes where. It does, on paper. Parcs i Jardins published a table in 2004 and 2005: for each district and sidewalk width, which species replaces a dead tree. In Nou Barris that is Prunus on narrow sidewalks, Melia or Jacaranda on medium ones, and the plane is kept on wide ones. The criteria are tolerance, street type and tradition. Heat and runoff are not among them. The current guide no longer prints the table. And in Porta, only about one in ten trees planted since 2007 matches it. I also asked the city for the current list; I'm waiting for the reply."
+**Say (119 words):**
+"You asked me to check whether Barcelona already has a structured plan for which tree goes where. It does, on paper. Parcs i Jardins published a table in 2004 and 2005: for each district and sidewalk width, which species replaces a dead tree. In Nou Barris that is Prunus on narrow sidewalks, Melia or Jacaranda on medium ones, and the plane is kept on wide ones. The criteria are tolerance, street type and tradition. Heat and runoff are not among them. The current guide no longer prints the table. Rebuilt streets get a longer list. And in Porta, most trees planted since 2007 on narrow and medium sidewalks match none of these lists. I also asked the city for the current list; I'm waiting for the reply."
 
 ---
 
