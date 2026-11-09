@@ -478,20 +478,33 @@ def s16_heat(s):
 
 
 def s_next(s):
-    head(s, "What comes next", "Porta first, then the whole city")
-    steps = [("to 1 Dec", "UTCI of the final layouts (Infrared City) · hot design day · priority score · city screening layer", HEAT),
-             ("after 10 Nov", "City LP against S1b · S1b per removed species · demo: every tree a works area replaces · co-benefits", TREE),
-             ("to 18 Dec", "Project tool anywhere in Barcelona · Sant Antoni transfer test · booklet · final presentation", RAIN)]
-    for k, (when, what, c) in enumerate(steps):
-        y = 1.6 + k * 1.15
-        box(s, M, y, 7.6, 0.95, tint(c, 0.10))
-        text(s, M + 0.25, y, 1.7, 0.95, when, 18, c, True, anchor=MSO_ANCHOR.MIDDLE)
-        text(s, M + 2.05, y, 5.4, 0.95, what, 15, INK, anchor=MSO_ANCHOR.MIDDLE)
-    text(s, 8.65, 1.6, 4.1, 0.4, "QUESTIONS FOR YOU", 15, WARN, True)
-    for k, q in enumerate(("Extend to every tree a project replaces, planes as the validated case?",
-                           "Does Infrared City model porous crowns?", "Is a within-city transfer (Sant Antoni) enough?",
-                           "May a barri lose while the city gains?")):
-        text(s, 8.65, 2.1 + k * 0.95, 4.1, 0.9, q, 16, INK, True)
+    head(s, "What comes next", "Five weeks to the final delivery, one theme a week")
+    steps = [("11–15 Nov", "Every tree", ["Any tree a project replaces, not only planes", "City layout against S1b",
+                                            "Demo: Santapau · Emili Roca · Desfar works"], TREE),
+             ("16–22 Nov", "Heat", ["UTCI of the final layouts", "Infrared City, ENVI-met check", "Hot design day · priority score"], HEAT),
+             ("23–29 Nov", "Transfer", ["Sant Antoni: same city", "Mataró: Catalan city, ICGC LiDAR",
+                                        "Florence: city LiDAR + 1,459 measured trees"], RAIN),
+             ("30 Nov–6 Dec", "Tool", ["City screening layer", "GeoPackage + QGIS style · web app", "Co-benefits per layout"], WARN),
+             ("7–18 Dec", "Deliver", ["Booklet", "Final presentation", "Defence 10–23 Dec"], INK)]
+    n, y0 = len(steps), 2.35
+    xs = [M + 1.2 + k * (W - 2 * M - 2.4) / (n - 1) for k in range(n)]
+    ln = s.shapes.add_connector(MSO_CONNECTOR.STRAIGHT, Inches(xs[0]), Inches(y0), Inches(xs[-1]), Inches(y0))
+    ln.line.color.rgb, ln.line.width = rgb(GRID), Pt(4)
+    for x, (when, what, items, c) in zip(xs, steps):
+        text(s, x - 1.2, 1.55, 2.4, 0.4, when, 15, MUTED, True, align=PP_ALIGN.CENTER)
+        o = s.shapes.add_shape(MSO_SHAPE.OVAL, Inches(x - 0.17), Inches(y0 - 0.17), Inches(0.34), Inches(0.34))
+        o.fill.solid()
+        o.fill.fore_color.rgb = rgb(c)
+        o.line.color.rgb, o.line.width = rgb(BG), Pt(3)
+        o.shadow.inherit = False
+        text(s, x - 1.2, 2.75, 2.4, 0.5, what, 22, c, True, align=PP_ALIGN.CENTER)
+        text(s, x - 1.18, 3.35, 2.36, 2.2, [[(it, {})] for it in items], 13, INK, align=PP_ALIGN.CENTER)
+    box(s, M, 5.75, W - 2 * M, 0.62, tint(MUTED, 0.10))
+    text(s, M + 0.3, 5.75, W - 2 * M - 0.6, 0.62, [[("Writing, every week:  ", {"bold": True, "color": MUTED}),
+                                                  ("update chapters 3 and 5 → write 6 and 7 → then 1, 8, 9 and the abstract", {})]],
+         14, INK, anchor=MSO_ANCHOR.MIDDLE)
+    text(s, M, 6.55, W - 2 * M, 0.3, "Florence LiDAR waits on the Comune's delivery agreement; Mataró's per-tree species table "
+         "is not yet confirmed.", 12, MUTED)
 
 
 def s_cobenefits(s):
