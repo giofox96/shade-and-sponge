@@ -6,8 +6,10 @@ H = LiDAR height - crown base, D = LiDAR crown diameter. LAI_allo = Y / (pi D² 
 S = species shading factor from Nowak 1996 Table 2 (after McPherson 1984) where the species is listed; otherwise 0.83,
 "the average shading coefficient for deciduous trees" per i-Tree UFORE Methods (citing Nowak 1996; the value is not printed
 in Nowak 1996 itself). Celtis australis S = 0.92 lies above the paper's stated valid range 0.67-0.88.
-H:D outside 0.5-2 (the valid range) is clamped as i-Tree does; ASSUMPTION for the detail: D is kept, H set to the bound,
-leaf area scaled back by the volume ratio H/H_clamped (ellipsoid crown, volume proportional to H at fixed D).
+H:D outside 0.5-2 (the valid range) is clamped; ASSUMPTION for the detail: D is kept, H set to the bound, leaf area scaled
+back by the volume ratio H/H_clamped (ellipsoid crown). Matches UFORE Methods for H > 2D; for H < 0.5D UFORE shrinks the
+width instead. Not done (ASSUMPTION): UFORE's genus/hardwood S averages before 0.83, and its cap of oversized trees at
+the maximum-size LAI; Gleditsia gets 0.67 (Table 2 lists f. inermis) for every tree.
 LAI_allo is an UPPER BOUND for Porta: the equation estimates near-maximum leaf area of healthy, full-crown open-grown trees
 and overestimates for pruned or declining trees (Nowak 1996, p.506). It was fitted on deciduous trees: evergreens flagged.
 Runoff: S0 uses lai_allo per tree; S1a/S4 palette species get the equation applied to their palette crown (layout.palette,
