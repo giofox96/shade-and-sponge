@@ -6,7 +6,7 @@ databases/traits/porta_trait_table.csv and notes/methodology.md; every figure pr
 Output: slides/fig/*.svg, slides/fig/*.png. File numbers are the SLIDE numbers of slides/outline_20oct.md
 (so 01, 04, 14 and 15 have no figure here: they use a photo or a notes/figures plot).
 """
-import csv, os, re, shutil, subprocess, tempfile, pathlib, textwrap
+import csv, json, os, re, shutil, subprocess, tempfile, pathlib, textwrap
 from xml.sax.saxutils import escape
 import pandas as pd
 
@@ -86,7 +86,7 @@ def browser_exe():
     cand = [r"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe",
             r"C:\Program Files\Google\Chrome\Application\chrome.exe",
             shutil.which("msedge"), shutil.which("chrome"), shutil.which("chromium")]
-    cand += sorted(str(p) for p in pathlib.Path("/opt/pw-browsers").glob("chromium*/chrome-linux/chrome"))
+    cand += sorted(str(p) for p in pathlib.Path("/opt/pw-browsers").glob("chromium*/chrome-linux*/chrome"))
     return next((e for e in cand if e and pathlib.Path(e).exists()), None)
 
 
@@ -94,6 +94,13 @@ def to_png(svg, scale=2):
     """Headless Edge/Chrome/Chromium screenshot. Windows first (the user's machine), then the Chromium a cloud session has.
 
     scale=1 for the photo title slide: the source photo is 1240 px wide, so a 2x render would only upscale it."""
+    if os.name != "nt" and shutil.which("node"):                  # cloud: Node Playwright (the Chromium CLI hangs on update checks)
+        js = ("const {chromium}=require('playwright');(async()=>{const b=await chromium.launch();"
+              f"const p=await b.newPage({{viewport:{{width:{W},height:{H}}},deviceScaleFactor:{scale}}});"
+              f"await p.goto({json.dumps(svg.as_uri())});await p.waitForTimeout(500);"
+              f"await p.screenshot({{path:{json.dumps(str(svg.with_suffix('.png')))}}});await b.close();}})();")
+        if subprocess.run(["node", "-e", js], capture_output=True, timeout=120).returncode == 0:
+            return
     exe = browser_exe()
     if not exe:
         print("  no Edge/Chrome found: PNG skipped")

@@ -1,6 +1,6 @@
 """Editable 10 Nov deck: the same 26 slides as make_slides_v7.py, but text, cards, tables and charts are native
-PowerPoint objects (python-pptx). Only the flowcharts, the city map, the crown figure and three backups stay as images
-(their baked-in title is cropped and a native title is added). Speaker notes = the "Say" scripts of slides/outline_10nov.md.
+PowerPoint objects (python-pptx): flowcharts are boxes + connectors, the city map is one freeform per barri, every chart is
+a native chart. Only the title photo and the B5 sidewalk map (a raster map) are pictures. Speaker notes = the "Say" scripts of slides/outline_10nov.md.
 Numbers come from the same CSVs as make_slides_v7.py, make_results_v7.py and make_citywide_v7.py.
 Output: slides/shade_and_sponge_10nov_editable.pptx. Run from scripts/: python make_deck_editable.py
 """
@@ -13,7 +13,7 @@ from pptx import Presentation
 from pptx.chart.data import CategoryChartData
 from pptx.dml.color import RGBColor
 from pptx.enum.chart import XL_CHART_TYPE, XL_LEGEND_POSITION, XL_TICK_LABEL_POSITION
-from pptx.enum.shapes import MSO_SHAPE
+from pptx.enum.shapes import MSO_CONNECTOR, MSO_SHAPE
 from pptx.enum.text import PP_ALIGN, MSO_ANCHOR
 from pptx.oxml.ns import qn
 from pptx.util import Inches, Pt
@@ -110,6 +110,8 @@ def style_chart(ch, colors, legend=True, labels=True, fmt='0.0', size=12):
     for ser, c in zip(ch.plots[0].series, colors):
         ser.format.fill.solid()
         ser.format.fill.fore_color.rgb = rgb(c)
+        if hasattr(ser, "invert_if_negative"):
+            ser.invert_if_negative = False   # PowerPoint otherwise draws negative bars white (invisible)
     if labels:
         pl = ch.plots[0]
         pl.has_data_labels = True
@@ -134,6 +136,24 @@ def quiet_axes(ch, vmin=None, vmax=None, gridlines=False):
 
 
 # ---------------------------------------------------------------- slides
+# 2004 Parcs i Jardins lists (the dead-tree table is in the CSV's in_table; here the rebuilt-street rows "remodelacions" +
+# "excepcionalment", Arbrat viari: selecció d'espècies, rev. 2004, p. 13; notes/tree_master_plan.md §5b.1). Cultivar ignored.
+LIST_2004 = {
+    "small": ("Cercis siliquastrum", "Citrus aurantium", "Hibiscus syriacus", "Magnolia grandiflora", "Nerium oleander",
+              "Prunus cerasifera", "Prunus serrulata", "Pyrus communis", "Acacia saligna", "Acer monspessulanum",
+              "Ligustrum lucidum", "Tamarix gallica"),
+    "medium": ("Acer saccharinum", "Albizia julibrissin", "Brachychiton populneus", "Catalpa bignonioides", "Celtis australis",
+               "Cercis siliquastrum", "Jacaranda mimosifolia", "Koelreuteria paniculata", "Magnolia grandiflora", "Melia azedarach",
+               "Populus alba", "Populus simonii", "Prunus serrulata", "Quercus ilex", "Robinia pseudoacacia", "Sophora japonica",
+               "Styphnolobium japonicum", "Tilia", "Acacia saligna", "Ceratonia siliqua", "Ficus microcarpa", "Ginkgo biloba",
+               "Grevillea robusta", "Morus alba", "Phoenix dactylifera", "Populus nigra", "Washingtonia"),
+    "large": ("Ailanthus altissima", "Gleditsia triacanthos", "Jacaranda mimosifolia", "Platanus", "Populus simonii", "Quercus ilex",
+              "Robinia pseudoacacia", "Tilia", "Tipuana tipu", "Eucalyptus", "Ficus microcarpa", "Phoenix dactylifera",
+              "Pinus pinea", "Washingtonia")}
+CW_SRC = ("Outlines: Open Data BCN (CC BY 4.0). Cap: Pla director de l'arbrat 2017–2037. City mix: Betevé, 7 May 2026. "
+          "Heat = shade proxy, not UTCI.")
+
+
 def s01_title(s):
     im = Image.open(ROOT / "slides/fig/01_title_photo.webp").convert("RGB")
     buf = io.BytesIO()
@@ -144,9 +164,18 @@ def s01_title(s):
     if ratio > 1:
         p.crop_top = p.crop_bottom = (1 - 1 / ratio) / 2
     p.height = Inches(H)
-    scrim = box(s, 0, 0, W * 0.62, H, "#1E1C19", radius=0, name="Scrim")
-    alpha = scrim.fill._xPr.find(qn("a:solidFill"))[0]
-    alpha.append(alpha.makeelement(qn("a:alpha"), {"val": "72000"}))
+    scrim = box(s, 0, 0, W, H, "#000000", radius=0, name="Scrim")  # full width, black to transparent (Giovanni, 9 Nov)
+    scrim.fill.gradient()
+    scrim.fill.gradient_angle = 0
+    gs = scrim.fill._xPr.find(qn("a:gradFill")).find(qn("a:gsLst"))
+    for g in list(gs):
+        gs.remove(g)
+    for pos, a in ((0, 85000), (45000, 70000), (100000, 0)):
+        g = gs.makeelement(qn("a:gs"), {"pos": str(pos)})
+        c = g.makeelement(qn("a:srgbClr"), {"val": "000000"})
+        c.append(c.makeelement(qn("a:alpha"), {"val": str(a)}))
+        g.append(c)
+        gs.append(g)
     text(s, 0.75, 2.2, 7.4, 1.0, "Shade and Sponge", 54, "#F2F0EA", True, name="Title")
     text(s, 0.75, 3.35, 7.0, 1.4, "A computational method for replacing the street trees a project must cut, so that summer heat "
          "and storm runoff improve, or at least do not get worse. First case: Barcelona's plane trees (Platanus).", 20, "#F2F0EA")
@@ -158,14 +187,14 @@ def s01_title(s):
 def s02_context(s):
     head(s, "The decision is already taken", "Barcelona replaces street trees one at a time; the planes are the largest case")
     for k, (big, small, c) in enumerate([
-            ("−56%", "Plane trees in ten years: 43,722 trees, 27.45% of the stock → 12% (press, May 2026)", HEAT),
-            ("15% · 30%", "Master plan 2017–2037: no species above 15%; tree cover up to 30% of the urban surface", TREE),
-            ("10,976", "Replacements with a change of species, 2018–2026, one tree at a time: planes are only 13%", WARN)]):
+            ("−56%", "Plane trees in ten years: 27% → 12% of the stock", HEAT),
+            ("15% · 30%", "Master plan: max 15% per species; 30% tree cover", TREE),
+            ("10,976", "Trees replaced with another species, 2018–2026", WARN)]):
         card(s, M + k * 4.18, 1.75, 3.9, 2.9, big, small, c, 44, 17)
     text(s, M, 5.15, W - 2 * M, 0.8, "This is the context, not the problem: the city has already decided how much of each "
          "species. What follows is what it has not decided.", 19, INK)
-    source(s, "Nació Digital 4 May 2026 and Betevé 7 May 2026 (press); Arbres per viure, Pla director de l'arbrat 2017–2037, "
-           "targets 1 and 3; notes/tree_master_plan.md; Open Data BCN quarterly inventory 2018Q1–2026Q2 (scripts/inventory_history.py).")
+    source(s, "Nació Digital, 4 May 2026; Betevé, 7 May 2026; Ajuntament de Barcelona, Pla director de l'arbrat 2017–2037; "
+           "Open Data BCN, arbrat viari, quarterly inventories 2018–2026.")
 
 
 def s03_gate1(s):
@@ -185,37 +214,36 @@ def s03_gate1(s):
             f.name, f.size, f.bold = FONT, Pt(17), i == 0 or j == 1
             f.color.rgb = rgb(WHITE if i == 0 else (TREE if j == 1 else INK))
     tb.columns[0].width, tb.columns[1].width = Inches(2.2), Inches(3.8)
-    text(s, M, 4.35, 6.0, 0.4, "Criteria: tolerance, street type, tradition, technicians' experience.", 15, INK)
+    text(s, M, 4.35, 6.0, 0.4, "Criteria: tolerance, street type, tradition, experience.", 15, INK)
     text(s, M, 4.8, 6.0, 0.5, "No heat. No runoff.", 24, HEAT, True)
-    text(s, M, 5.35, 6.0, 0.5, "The 2011 guide, still in force, no longer prints the table: only a species catalogue.", 14, MUTED)
+    text(s, M, 5.35, 6.0, 0.5, "Rebuilt streets: a longer list per sidewalk class (p. 13).", 14, MUTED)
     # right: practice, as a native bar chart
     text(s, 7.05, 1.6, 5.7, 0.3, "IN PRACTICE · Porta, trees planted 2007–2026", 14, WARN, True)
     cd = CategoryChartData()
-    cats, vals = [], []
+    any_list = rc.in_table | rc.apply(lambda r: r.genus_sp.startswith(LIST_2004[r.size_class]), axis=1)
+    cats, v1, v2 = [], [], []
     for cls, lab in (("small", "Narrow sidewalks"), ("medium", "Medium sidewalks")):
-        g = rc[rc.size_class == cls]
-        cats.append(f"{lab} ({g.n.sum()} trees)")
-        vals.append(g[g.in_table].n.sum() / g.n.sum())
+        g = rc.size_class == cls
+        cats.append(f"{lab} ({rc[g].n.sum()} trees)")
+        v1.append(rc[g & rc.in_table].n.sum() / rc[g].n.sum())
+        v2.append(rc[g & any_list].n.sum() / rc[g].n.sum())
     cd.categories = cats
-    cd.add_series("Share matching the 2004/2005 table", vals)
-    ch = s.shapes.add_chart(XL_CHART_TYPE.BAR_CLUSTERED, Inches(7.05), Inches(1.95), Inches(5.7), Inches(2.3), cd).chart
-    style_chart(ch, [WARN], legend=False, fmt='0%', size=14)
+    cd.add_series("Dead-tree table", v1)
+    cd.add_series("Any 2004 list, incl. rebuilt streets", v2)
+    ch = s.shapes.add_chart(XL_CHART_TYPE.BAR_CLUSTERED, Inches(7.05), Inches(1.95), Inches(5.7), Inches(2.9), cd).chart
+    style_chart(ch, [WARN, MUTED], legend=True, fmt='0%', size=14)
     quiet_axes(ch, 0, 1)
     ch.category_axis.reverse_order = True
     ch.value_axis.tick_labels.number_format, ch.value_axis.tick_labels.number_format_is_linked = '0%', False
     ch.has_title = True
     ch.chart_title.text_frame.text = "Share matching the table"
     ch.chart_title.text_frame.paragraphs[0].runs[0].font.size = Pt(13)
-    big = rc[rc.size_class == "large"]
-    pl = big[big.genus_sp.str.startswith("Platanus")].n.sum()
-    text(s, 7.05, 4.4, 5.7, 0.4, f"Wide sidewalks · {big.n.sum()} trees planted, {pl} of them planes", 15, INK, True)
-    text(s, 7.05, 4.8, 5.7, 0.8, "Rebuilt streets and exceptions follow other lists and cannot be told apart in the inventory, "
-         "so ~90% is an upper bound on non-compliance.", 13, MUTED)
+    text(s, 7.05, 4.95, 5.7, 0.5, "Most plantings match none of the 2004 lists.", 15, INK, True)
     box(s, M, 5.95, W - 2 * M, 0.6, tint(INK, 0.06))
-    text(s, M + 0.25, 6.07, W - 2 * M - 0.5, 0.4, "A rule exists, it is qualitative, and it is not visible in practice. "
-         "Current list: asked the city (email sent 24 Oct).", 16, INK, True)
-    source(s, "Arbrat viari: selecció d'espècies (2002, rev. 2004) p. 11; Pla de gestió de l'arbrat viari (2005, rev. 2006) §3.4.3; "
-           "Gestió de l'arbrat viari (2011) §11; scripts/replacement_rule_check.py; notes/tree_master_plan.md §5b.")
+    text(s, M + 0.25, 6.07, W - 2 * M - 0.5, 0.4, "A rule exists, it is qualitative, and practice mostly does not follow it.",
+         16, INK, True)
+    source(s, "Parcs i Jardins, Arbrat viari: selecció d'espècies (rev. 2004) pp. 11–14; Gestió de l'arbrat viari de Barcelona "
+           "(2011) p. 28; Open Data BCN, arbrat viari (planting dates 2007–2026).")
 
 
 def s04_trees(s):
@@ -236,13 +264,12 @@ def s04_trees(s):
         ser.data_labels.show_value = True
         ser.data_labels.number_format, ser.data_labels.number_format_is_linked = '0.0"%"', False
     ch.plots[0].gap_width = 40
-    text(s, M, 3.85, W - 2 * M, 0.4, f"Porta today {cov:.1f}% (LiDAR 2021) · city target 30% by 2037 · gap ≈ 8.3 ha of crown",
+    text(s, M, 3.85, W - 2 * M, 0.4, f"Porta today {cov:.1f}% · city target 30% by 2037",
          16, INK, True)
     card(s, M, 4.45, 5.9, 1.9, "≈ 29%", "of Porta's canopy is plane trees (5.75% of the area, 832 trees)", HEAT)
-    card(s, M + 6.33, 4.45, 5.9, 1.9, "16% ↔ 20%", "All planes replaced by a Brachychiton-size crown → ~16%; "
-         "by a Tipuana or Jacaranda-size crown → roughly unchanged", TREE)
-    source(s, "ICGC LiDAR 26 Sept 2021, canopy = CHM > 2 m (scripts/porta_canopy_cover.py); plan target 1 (30%); "
-           "crown ratios at equal trunk size, notes/topic_decision.md §9.9 and §10.3.")
+    card(s, M + 6.33, 4.45, 5.9, 1.9, "16% ↔ 20%", "Small-crowned replacements → ~16%; large-crowned → unchanged", TREE)
+    source(s, "ICGC, LiDAR flight of 26 Sept 2021; Ajuntament de Barcelona, Pla director de l'arbrat 2017–2037 (target 1); "
+           "Pla Clima 2024 p. 33.")
 
 
 def s05_problem(s):
@@ -256,38 +283,14 @@ def s05_problem(s):
                                        ("PROBLEM", "a qualitative rule; a project can make its street worse", HEAT),
                                        ("GAP", "no quantities for heat or runoff, per position", RAIN))):
         text(s, M + k * 4.18, 5.4, 3.9, 1.0, [[(lab, {"bold": True, "color": c, "size": 14})], txt], 17, INK)
-    source(s, "notes/topic_decision.md §10.2, §11.1–11.2 (v8, 9 Nov).")
-
-
-def s06_crowns(s):
-    head(s, "Why it matters: the crowns differ", "At equal trunk size, the allowed species carry very different crowns")
-    picture(s, ROOT / "slides/fig_v6/v6_04_crowns.png", M + 0.6, 1.5, W - 2 * M - 1.2)
 
 
 def s07_gap(s):
-    head(s, "The gap", "Rules without numbers, tools without species or runoff, and a cap with no evidence behind it")
-    cols = [("IN PRACTICE", HEAT, ["Rules for which species: catalogue, sidewalk size, 15% cap",
-                                   "No number for what a choice does to heat or runoff",
-                                   "City strategy in hectares; Nature Plan project 83 (p.114): \"which species for shade, where\" still to study"]),
-            ("IN RESEARCH", RAIN, ["Heat and runoff for fixed scenarios, without species traits (Mannucci et al. 2025; Wu et al. 2024)",
-                                   "Optimisers for heat only (Shaamala et al. 2025; Peng et al. 2026)",
-                                   "Trait-based recommender with the runoff module switched off (SylvCiT; Nicol et al. 2026)"])]
-    for k, (hd, c, items) in enumerate(cols):
-        x = M + k * 6.33
-        text(s, x, 1.55, 5.9, 0.3, hd, 14, c, True)
-        for j, it in enumerate(items):
-            box(s, x, 1.9 + j * 0.88, 5.9, 0.76, tint(c, 0.10))
-            text(s, x + 0.25, 1.9 + j * 0.88, 5.4, 0.76, it, 14, INK, anchor=MSO_ANCHOR.MIDDLE)
-    box(s, M, 4.65, W - 2 * M, 1.0, tint(WARN, 0.10))
-    text(s, M + 0.25, 4.72, W - 2 * M - 0.5, 0.9, [[("IN THE DIVERSITY LITERATURE", {"bold": True, "color": WARN, "size": 13})],
-         "Species caps are rules of thumb (Kendal et al. 2014, after Santamour 1990). Targets far below the current share risk that "
-         "“well adapted species may be abandoned for underperforming species” (Kendal et al. 2014, p. 415): the planes, ~27% vs a 15% cap."],
-         14, INK)
-    box(s, M, 5.85, W - 2 * M, 0.7, tint(TREE, 0.14))
-    text(s, M + 0.25, 5.85, W - 2 * M - 0.5, 0.7, "This method: trait-based, inside the city's rules, scored on heat and runoff, per position.",
-         19, TREE, True, anchor=MSO_ANCHOR.MIDDLE)
-    source(s, "notes/topic_decision.md §7, §9.2, §10.2; Santamour 1990 (METRIA 7) pp. 57-65; Kendal, Dobbs & Lohr 2014 (UFUG 13:411-417); "
-           "Ajuntament de Barcelona, Pla Natura 2021–2030 p. 114.")
+    head(s, "The gap", "Data, rules and tools exist, but nothing links them tree by tree")
+    w = 11.8   # slimmed version of the RM seminar "opening the boxes" map
+    picture(s, ROOT / "slides/fig_v8/v8_gap_boxes.png", (W - w) / 2, 1.45, w, crop_top=0)
+    source(s, "Mannucci et al. 2025; Nicol et al. 2026 (PLoS One); Shaamala et al. 2025; Peng et al. 2026; Dong et al. 2026; "
+           "Kendal, Dobbs & Lohr 2014 (UFUG 13); Ajuntament de Barcelona, Pla director de l'arbrat 2017.")
 
 
 def s08_rq(s):
@@ -309,7 +312,6 @@ def s08_rq(s):
          "any tree a project replaces, planes as the validated case · "
          "additions co-equal · 'not resolved' is an allowed answer · baseline = the city's observed replacement mix (S1b), "
          "with the announced mix (S1a) beside it", 14, MUTED)
-    source(s, "notes/topic_decision.md §10.5 (scrutiny table), §10.6, §11.3 (v8); notes/methodology.md §7.")
 
 
 def s09_hyp(s):
@@ -322,12 +324,6 @@ def s09_hyp(s):
         box(s, M, y, W - 2 * M, 1.35, tint(c, 0.10))
         text(s, M + 0.35, y, 1.9, 1.35, h, 32, c, True, anchor=MSO_ANCHOR.MIDDLE)
         text(s, M + 2.5, y + 0.25, W - 2 * M - 2.8, 1.0, [[(txt, {"bold": True, "size": 22})], [(sub, {"color": MUTED})]], 16, INK)
-    source(s, "notes/topic_decision.md §8, §9.5, §10.5, §11.4.")
-
-
-def flow(s, fig, title, sub):
-    head(s, title, sub)
-    picture(s, ROOT / "slides/fig_v7" / fig, M + 0.15, 1.45, W - 2 * M - 0.3)
 
 
 def s12_radar(s):
@@ -362,10 +358,8 @@ def s12_radar(s):
             f.name, f.size, f.bold = FONT, Pt(14), i == 0 or j == 2
             f.color.rgb = rgb(WHITE if i == 0 else (TREE if j == 2 else (WARN if j == 1 else INK)))
     tb.columns[0].width, tb.columns[1].width, tb.columns[2].width = Inches(2.3), Inches(1.3), Inches(1.3)
-    text(s, 7.9, 5.1, 4.9, 1.3, ["100 = today. Outward = better. Read axis by axis: the polygon's area means nothing.",
-                                 "Observed mix S1b: 90.3% summer shade (backup B9)."], 13, MUTED)
-    source(s, "databases/barcelona/tool_v0_summary_sizeexact_trunkTERCERA.csv. Heat = effective-shade proxy, not yet UTCI. Runoff: T2-60 storm. "
-           "S1a = 2026 mix (press) placed at random within the sidewalk rule, 10 seeds.")
+    text(s, 7.9, 5.1, 4.9, 1.3, ["100 = today. Outward = better.", "Observed mix S1b: 90.3% summer shade (backup B9)."], 13, MUTED)
+    source(s, "City mix: Betevé, 7 May 2026. Storm: PDISBA, 2-year 60-min. Heat = shade proxy, not yet UTCI.")
 
 
 def s13_scenarios(s):
@@ -399,20 +393,7 @@ def s13_scenarios(s):
         ch.chart_title.text_frame.text = lab
         r = ch.chart_title.text_frame.paragraphs[0].runs[0].font
         r.size, r.bold, r.color.rgb = Pt(13), True, rgb(c)
-    source(s, "databases/barcelona/additions_summary.csv (scripts/run_additions.py); spots: scripts/porta_planting_spots.py and "
-           "porta_spot_exclusions.py (2011 guide spacing; an upper bound: driveways and services not in the data). Heat = effective-shade proxy.")
-
-
-def s14_map(s):
-    head(s, "City-wide: 28 barris, one layout", "Summer shade gained over the city's mix, one optimisation under the 15% city cap")
-    picture(s, ROOT / "slides/fig_v7/res_04_city_map.png", M, 1.45, 7.6, crop_bottom=0.10, crop_right=0.43)
-    text(s, M, 6.45, 7.6, 0.3, "Darker green = larger gain over the city's mix · ochre = loss (Bonanova) · grey = not computed (< 500 planes)", 12, MUTED)
-    d = cw.d
-    for k, (big, small, c) in enumerate([(f"+{d.gain.median():.1f} pts", "median gain of summer shade over the city's mix", TREE),
-                                         (f"{(d.gain > 0).sum()} of {len(d)}", f"barris gain ({d.planes.sum():,} planes)", TREE),
-                                         ("Bonanova", "loses a little: with one city cap the capped species go where they add most", WARN)]):
-        card(s, 8.85, 1.55 + k * 1.75, 3.95, 1.55, big, small, c, 28, 13)
-    source(s, cw.SRC)
+    source(s, "Free spots by the spacing rules of Gestió de l'arbrat viari de Barcelona (2011); an upper bound. Heat = shade proxy.")
 
 
 def s15_cap(s):
@@ -420,14 +401,11 @@ def s15_cap(s):
          "The city's 15% fixes how much of each species; the local ceiling stops any barri ending more concentrated than today")
     box(s, M, 1.6, 5.6, 1.75, tint(TREE, 0.10))
     text(s, M + 0.25, 1.72, 5.1, 1.6, [[("1. CITY CAP: how much of each species", {"bold": True, "color": TREE})],
-         "No species above 15% of the city's street trees (tree master plan). The headroom left today is shared across barris "
-         "pro rata to the planes each replaces (ASSUMPTION)."], 14, INK)
+         "No species above 15% of the city's street trees (master plan)."], 15, INK)
     box(s, M, 3.5, 5.6, 1.95, tint(WARN, 0.10))
     text(s, M + 0.25, 3.62, 5.1, 1.8, [[("2. LOCAL CEILING: no barri more concentrated than today", {"bold": True, "color": WARN})],
-         "In each barri, no species ends with more trees than the barri has planes today. Without it, the city cap alone put "
-         "Tipuana at 48.5% of Diagonal Mar's street trees; with it, 37.2% (17-barri run). It costs little shade."], 14, INK)
-    text(s, M, 5.6, 5.6, 0.9, "Limit: where few planes are replaced the ceiling can leave no species that fits a position "
-         "(Baró de Viver, 15 planes; la Trinitat Vella, 167). These barris need a different ceiling.", 13, MUTED)
+         "No species ends with more trees in a barri than it has planes today. Diagonal Mar: Tipuana 48.5% → 37.2%. Costs little shade."], 15, INK)
+    text(s, M, 5.6, 5.6, 0.9, "Limit: barris with few planes (Baró de Viver, 15) need a different ceiling.", 13, MUTED)
     n = pd.read_csv(DB / "citylp_local_species.csv").set_index(["barri", "scenario"]).loc[("ALL", cw.LAYOUT)]
     sp = pd.DataFrame(dict(species=n.index.str.split().str[0], n=n.values.astype(int), cap=[cw.CAP[k] for k in n.index]))
     sp = sp.sort_values("cap", ascending=False)
@@ -444,9 +422,8 @@ def s15_cap(s):
             pt = ch.plots[0].series[0].points[i]
             pt.format.fill.solid()
             pt.format.fill.fore_color.rgb = rgb(HEAT)
-    text(s, 6.55, 5.95, 6.25, 0.6, "Dark red = at the cap: Celtis (already common, little headroom) and Tipuana. "
-         "Within the cap the LP decides which barri gets them.", 13, MUTED)
-    source(s, cw.SRC + " Cap: floor(15% × 140,404 street trees) minus each species today, pro rata to 31,580 of 40,137 city planes.")
+    text(s, 6.55, 5.95, 6.25, 0.6, "Dark red = at the cap: Celtis and Tipuana.", 13, MUTED)
+    source(s, CW_SRC)
 
 
 def s16_heat(s):
@@ -469,8 +446,8 @@ def s16_heat(s):
     ch.has_title = True
     ch.chart_title.text_frame.text = "S4 − S0, mean UTCI 15 July 12–17 h, °C"
     ch.chart_title.text_frame.paragraphs[0].runs[0].font.size = Pt(13)
-    text(s, M, 5.2, 6.6, 1.3, "TMYx 2011–2025. The Python chain reproduces Ladybug in Grasshopper (bias −0.01/−0.02 °C, r 0.998–0.999), "
-         "so it can let light through the crowns. 15 July is an ordinary July day, not yet the hot design day.", 12, MUTED)
+    text(s, M, 5.2, 6.6, 1.0, "Python chain = Ladybug in Grasshopper within 0.02 °C. 15 July is an ordinary day, not yet the hot design day.",
+         12, MUTED)
     r0 = np.corrcoef(v.shade_lai_S0, v.utci_S0)[0, 1]
     r1 = np.corrcoef(v.d_shade_opaque, v.d_utci)[0, 1]
     x = 7.5
@@ -480,42 +457,49 @@ def s16_heat(s):
     box(s, x, 3.45, 5.3, 0.75, tint(TREE, 0.14))
     text(s, x + 0.2, 3.45, 4.9, 0.75, "Claim: for heat, no worse than today's planes within model uncertainty.", 15, TREE, True,
          anchor=MSO_ANCHOR.MIDDLE)
-    text(s, x, 4.35, 5.3, 2.3, [[("Next", {"bold": True, "color": WARN})],
-         "To 1 Dec: UTCI of the final layouts (Infrared City), hot design day, priority score, city screening layer.",
-         "To 18 Dec: project tool anywhere in Barcelona, Sant Antoni transfer test.",
-         [("Asks: ", {"bold": True}), ("every tree a project replaces? · porous crowns in Infrared? · Sant Antoni enough? · may a barri lose while the city gains?", {})]],
-         13, INK)
-    source(s, "databases/barcelona/hb_utci_andreu_nin.csv, porous_utci_*_epw2011.csv, ladybug_vs_proxy_andreu_nin.csv; "
-           "notes/methodology.md §5b. Porous crowns after Peng et al. 2026.")
+    source(s, "Ladybug Tools (Ladybug, Honeybee/Radiance); weather: El Prat TMYx 2011–2025 (climate.onebuilding.org); "
+           "porous crowns after Peng et al. 2026.")
 
 
 def s_next(s):
-    head(s, "What comes next", "Porta first, then the whole city")
-    steps = [("to 1 Dec", "UTCI of the final layouts (Infrared City) · hot design day · priority score · city screening layer", HEAT),
-             ("after 10 Nov", "City LP against S1b · S1b per removed species · demo: every tree a works area replaces · co-benefits", TREE),
-             ("to 18 Dec", "Project tool anywhere in Barcelona · Sant Antoni transfer test · booklet · final presentation", RAIN)]
-    for k, (when, what, c) in enumerate(steps):
-        y = 1.6 + k * 1.15
-        box(s, M, y, 7.6, 0.95, tint(c, 0.10))
-        text(s, M + 0.25, y, 1.7, 0.95, when, 18, c, True, anchor=MSO_ANCHOR.MIDDLE)
-        text(s, M + 2.05, y, 5.4, 0.95, what, 15, INK, anchor=MSO_ANCHOR.MIDDLE)
-    text(s, 8.65, 1.6, 4.1, 0.4, "QUESTIONS FOR YOU", 15, WARN, True)
-    for k, q in enumerate(("Extend to every tree a project replaces, planes as the validated case?",
-                           "Does Infrared City model porous crowns?", "Is a within-city transfer (Sant Antoni) enough?",
-                           "May a barri lose while the city gains?")):
-        text(s, 8.65, 2.1 + k * 0.95, 4.1, 0.9, q, 16, INK, True)
-    source(s, "notes/citywide_plan.md §4; notes/methodology.md §10; slides/outline_10nov.md slide 16.")
+    head(s, "What comes next", "Five weeks to the final delivery, one theme a week")
+    steps = [("11–15 Nov", "Every tree", ["Any tree a project replaces, not only planes", "City layout against S1b",
+                                            "Demo: Santapau · Emili Roca · Desfar works"], TREE),
+             ("16–22 Nov", "Heat", ["UTCI of the final layouts", "Infrared City, ENVI-met check", "Hot design day · priority score"], HEAT),
+             ("23–29 Nov", "Transfer", ["Sant Antoni: repeat the checks (tool already run)", "Mataró: Catalan city, ICGC LiDAR",
+                                        "Florence: city LiDAR + 1,459 measured trees"], RAIN),
+             ("30 Nov–6 Dec", "Tool", ["City screening layer", "GeoPackage + QGIS style · web app", "Co-benefits per layout"], WARN),
+             ("7–18 Dec", "Deliver", ["Booklet", "Final presentation", "Defence 10–23 Dec"], INK)]
+    n, y0 = len(steps), 2.35
+    xs = [M + 1.2 + k * (W - 2 * M - 2.4) / (n - 1) for k in range(n)]
+    ln = s.shapes.add_connector(MSO_CONNECTOR.STRAIGHT, Inches(xs[0]), Inches(y0), Inches(xs[-1]), Inches(y0))
+    ln.line.color.rgb, ln.line.width = rgb(GRID), Pt(4)
+    for x, (when, what, items, c) in zip(xs, steps):
+        text(s, x - 1.2, 1.55, 2.4, 0.4, when, 15, MUTED, True, align=PP_ALIGN.CENTER)
+        o = s.shapes.add_shape(MSO_SHAPE.OVAL, Inches(x - 0.17), Inches(y0 - 0.17), Inches(0.34), Inches(0.34))
+        o.fill.solid()
+        o.fill.fore_color.rgb = rgb(c)
+        o.line.color.rgb, o.line.width = rgb(BG), Pt(3)
+        o.shadow.inherit = False
+        text(s, x - 1.2, 2.75, 2.4, 0.5, what, 22, c, True, align=PP_ALIGN.CENTER)
+        text(s, x - 1.18, 3.35, 2.36, 2.2, [[(it, {})] for it in items], 13, INK, align=PP_ALIGN.CENTER)
+    box(s, M, 5.75, W - 2 * M, 0.62, tint(MUTED, 0.10))
+    text(s, M + 0.3, 5.75, W - 2 * M - 0.6, 0.62, [[("Writing, every week:  ", {"bold": True, "color": MUTED}),
+                                                  ("update chapters 3 and 5 → write 6 and 7 → then 1, 8, 9 and the abstract", {})]],
+         14, INK, anchor=MSO_ANCHOR.MIDDLE)
+    text(s, M, 6.55, W - 2 * M, 0.3, "Florence LiDAR waits on the Comune's delivery agreement; Mataró's per-tree species table "
+         "is not yet confirmed.", 12, MUTED)
 
 
 def s_cobenefits(s):
-    head(s, "Co-benefits not optimised (yet)", "Reported after 10 Nov, not objectives of the tool")
+    head(s, "Co-benefits not optimised (yet)", "Reported after 10 Nov, not objectives of the tool. Replanting and maintenance costs, noise: future work")
     rows = [("Pollen", "Plane pollen gets the top allergen score (4 of 4) in a Spanish species index",
              "Species index exists (IUGZA, Cariñanos et al. 2014). Replacing planes likely gains here; to compute per layout", WARN),
-            ("Carbon", "Storage grows steeply with trunk size, and the planes are large",
+            ("Carbon", "Stored and sequestered carbon grow with trunk size; felling a large tree loses both",
              "The tool's mix may lose here at first. Urban allometry (McPherson et al. 2016); reported even if it loses", INK),
             ("Diversity", "The 15% cap and the local ceiling already act on it",
              "Already computed (effective species, as in SylvCiT): to report per barri, before and after", TREE),
-            ("Ozone · VOC", "Some species emit isoprene; ozone also depends on local NOx", "Not modelled: a declared limit", MUTED)]
+            ("Air", "PM2.5 capture depends on leaf area; some species emit isoprene (ozone)", "Leaf area is already in the model: PM2.5 can be reported; ozone/VOC stays a declared limit", MUTED)]
     for k, (h, txt, sub, c) in enumerate(rows):
         y = 1.5 + k * 1.05
         box(s, M, y, W - 2 * M, 0.92, tint(c, 0.10))
@@ -525,7 +509,7 @@ def s_cobenefits(s):
     text(s, M + 0.25, 5.85, W - 2 * M - 0.5, 0.62, "The master plan already lists allergies and VOC among the disservices to avoid, "
          "with no number per species.", 16, INK, True, anchor=MSO_ANCHOR.MIDDLE)
     source(s, "Cariñanos, Casares-Porcel & Quesada-Rubio 2014 (Landsc. Urban Plan. 123:134-144); McPherson, van Doorn & Peper 2016 "
-           "(PSW-GTR-253); Pla director de l'arbrat 2017–2037 §1.3.4, p. 14; notes/cobenefits_plan.md.")
+           "(PSW-GTR-253); Pla director de l'arbrat 2017–2037 §1.3.4, p. 14.")
 
 
 def s_baseline(s):
@@ -553,13 +537,8 @@ def s_baseline(s):
     ch.chart_title.text_frame.paragraphs[0].runs[0].font.size = Pt(13)
     card(s, 8.65, 3.85, 4.15, 2.6, f"+{bs.tool_margin_pts.median():.1f} · +{bs.tool_margin_s1b_pts.median():.1f}",
          f"Median margin of the method over {len(bs)} barris (points): vs S1a · vs S1b. No barri ≤ 0", TREE, 30, 14)
-    source(s, "Open Data BCN arbrat-viari, 35 quarterly files 2018–2026 (scripts/inventory_history.py); layout.s1b_mix(); "
-           "databases/barcelona/barris_summary.csv; notes/data_sources_pemb_30oct.md §6; notes/topic_decision.md §10.4.")
-
-
-def backup_img(fig, title, sub):
-    return lambda s: flow(s, fig, title, sub) if fig.startswith(("flow", "res")) else (
-        head(s, title, sub), picture(s, ROOT / "slides" / fig, M + 0.15, 1.45, W - 2 * M - 0.3))
+    source(s, "Open Data BCN, arbrat viari, 35 quarterly inventories 2018–2026; Betevé, 7 May 2026; "
+           "Parcs i Jardins, Arbrat viari: selecció d'espècies (rev. 2004).")
 
 
 def s_simplifications(s):
@@ -592,24 +571,355 @@ def s_simplifications(s):
             f.name, f.size, f.bold = FONT, Pt(12), i == 0
             f.color.rgb = rgb(WHITE if i == 0 else INK)
     tb.columns[0].width, tb.columns[1].width, tb.columns[2].width = Inches(4.6), Inches(3.8), Inches(3.833)
-    source(s, "study/guide.md §11; notes/methodology.md §4b, §5b; RM seminar L04 (5 Nov), feedback on the runoff module.")
+    source(s, "Anys & Weiler 2024; Xiao & McPherson 2016; Nowak 1996; RM seminar L04 (5 Nov 2026).")
+
+
+
+# ---- native flowcharts, map and backups (everything editable; 9 Nov) --------------------------------------------------
+def arrow(s, x1, y1, x2, y2, color=MUTED, width=1.25):
+    c = s.shapes.add_connector(MSO_CONNECTOR.STRAIGHT, Inches(x1), Inches(y1), Inches(x2), Inches(y2))
+    c.line.color.rgb, c.line.width = rgb(color), Pt(width)
+    ln = c.line._get_or_add_ln()
+    ln.append(ln.makeelement(qn("a:tailEnd"), {"type": "triangle", "w": "med", "len": "med"}))
+    tree = s.shapes._spTree
+    tree.remove(c._element)
+    tree.insert(2, c._element)  # behind the boxes, after the group properties
+    return c
+
+
+def node(s, cx, cy, w, label, color, sub=None):
+    h = 0.62 if sub else 0.5
+    b = box(s, cx - w / 2, cy - h / 2, w, h, color, radius=0.12)
+    tf = b.text_frame
+    tf.margin_left = tf.margin_right = Inches(0.05)
+    tf.margin_top = tf.margin_bottom = 0
+    tf.vertical_anchor, tf.word_wrap = MSO_ANCHOR.MIDDLE, True
+    for i, (t_, sz, bd) in enumerate([(label, 14, True)] + ([(sub, 10.5, False)] if sub else [])):
+        p_ = tf.paragraphs[0] if i == 0 else tf.add_paragraph()
+        p_.alignment = PP_ALIGN.CENTER
+        r = p_.add_run()
+        r.text = t_
+        r.font.name, r.font.size, r.font.bold, r.font.color.rgb = FONT, Pt(sz), bd, rgb(WHITE)
+    return (cx - w / 2, cx + w / 2, cy)
+
+
+def icon(s, cx, cy, glyph, caption, color):
+    r = 0.36
+    o = s.shapes.add_shape(MSO_SHAPE.OVAL, Inches(cx - r), Inches(cy - r), Inches(2 * r), Inches(2 * r))
+    o.fill.solid()
+    o.fill.fore_color.rgb = rgb(WHITE)
+    o.line.color.rgb, o.line.width = rgb(color), Pt(2)
+    o.shadow.inherit = False
+    tf = o.text_frame
+    tf.margin_left = tf.margin_right = tf.margin_top = tf.margin_bottom = 0
+    tf.vertical_anchor = MSO_ANCHOR.MIDDLE
+    tf.paragraphs[0].alignment = PP_ALIGN.CENTER
+    run = tf.paragraphs[0].add_run()
+    run.text = glyph
+    run.font.name, run.font.size, run.font.bold, run.font.color.rgb = FONT, Pt(15), True, rgb(color)
+    text(s, cx - 1.0, cy + r + 0.06, 2.0, 0.4, caption, 13, color, True, align=PP_ALIGN.CENTER)
+    return (cx - r, cx + r, cy)
+
+
+def nflow(s, title, sub, cols, links, note=None, side=None):
+    """cols: [(header, [(key, 'box', label, color, sub?) | (key, 'icon', glyph, caption, color)])]; links: [(key, key)];
+    side: (key, label, sub, color) = an input box under that node with an arrow up."""
+    head(s, title, sub)
+    n = len(cols)
+    xs = [M + 0.95 + i * (W - 2 * M - 1.9) / (n - 1) for i in range(n)]
+    bw = min(2.3, (W - 2 * M) / n - 0.3)
+    pos, yc = {}, 3.75
+    for x, (hd, nodes) in zip(xs, cols):
+        text(s, x - bw / 2 - 0.2, 1.55, bw + 0.4, 0.3, hd.upper(), 12, MUTED, True, align=PP_ALIGN.CENTER)
+        k = len(nodes)
+        gap = 1.45 if any(nd[1] == "icon" for nd in nodes) else min(0.95, 3.6 / max(k, 1))
+        for j, nd in enumerate(nodes):
+            y = yc + (j - (k - 1) / 2) * gap
+            pos[nd[0]] = icon(s, x, y, nd[2], nd[3], nd[4]) if nd[1] == "icon" else \
+                node(s, x, y, bw, nd[2], nd[3], nd[4] if len(nd) > 4 else None)
+    for a, c in links:
+        arrow(s, pos[a][1] + 0.03, pos[a][2], pos[c][0] - 0.05, pos[c][2], GRID if len(links) > 8 else MUTED)
+    if side:
+        key, lab, sb, col = side
+        x0, x1, y = pos[key]
+        cx = (x0 + x1) / 2
+        box(s, cx - 1.35, 5.75, 2.7, 0.62, WHITE, line=col)
+        text(s, cx - 1.3, 5.78, 2.6, 0.6, [[(lab, {"bold": True, "color": col, "size": 13})], [(sb, {"color": MUTED, "size": 11})]],
+             13, INK, align=PP_ALIGN.CENTER)
+        arrow(s, cx, 5.73, cx, y + 0.34, col, 1.5)
+    if note:
+        text(s, M, 6.6, W - 2 * M, 0.35, note, 13, MUTED, align=PP_ALIGN.CENTER)
+
+
+def s10_overview(s):
+    nflow(s, "Methodology", "Which species replace the trees a project must cut, and where to add new ones",
+          [("Focus", [("heat", "icon", "°C", "Heat stress", HEAT), ("rain", "icon", "mm", "Pluvial floods", RAIN)]),
+           ("Data", [("inv", "box", "Tree inventory", TREE), ("lid", "box", "LiDAR", TREE), ("sw", "box", "Sidewalk width", WARN),
+                     ("dtm", "box", "Terrain · hotspots", RAIN), ("cli", "box", "Hot day · storms", HEAT)]),
+           ("Screening", [("scr", "icon", "Map", "Indicators per tree", INK)]),
+           ("Project", [("area", "icon", "Area", "Draw an area", WARN)]),
+           ("Design", [("rep", "box", "Replacement", TREE, "trees to replace"), ("add", "box", "Additions", TREE, "free spots")]),
+           ("Evaluate", [("h", "box", "Heat", HEAT), ("r", "box", "Runoff", RAIN), ("c", "box", "Canopy", TREE)]),
+           ("Compare", [("cmp", "icon", "✓", "vs today · vs city", INK)])],
+          [("heat", "lid"), ("heat", "cli"), ("rain", "dtm"), ("rain", "cli"), ("inv", "scr"), ("lid", "scr"), ("sw", "scr"),
+           ("dtm", "scr"), ("cli", "scr"), ("scr", "area"), ("area", "rep"), ("area", "add"), ("rep", "h"), ("rep", "r"),
+           ("rep", "c"), ("add", "h"), ("add", "r"), ("add", "c"), ("h", "cmp"), ("r", "cmp"), ("c", "cmp")],
+          "Built and checked on Porta; the screening layer extends it to the whole city.",
+          side=("add", "City rules", "15% cap · sidewalk size · catalogue", WARN))
+
+
+def s11_design(s):
+    nflow(s, "Design module", "Inside the project area the designer draws",
+          [("Area", [("area", "icon", "Area", "Project area", WARN)]),
+           ("Positions", [("rep", "box", "Trees to replace", TREE, "by priority"), ("add", "box", "Free spots", TREE, "sidewalk ≥ 2.5 m")]),
+           ("Feasible", [("feas", "box", "Species per spot", WARN, "size class · catalogue")]),
+           ("Optimise", [("opt", "box", "Multi-objective", INK, "weighted sum → NSGA-II")]),
+           ("Layouts", [("r", "box", "R", TREE, "replacement"), ("a", "box", "A", TREE, "additions"), ("ra", "box", "R + A", TREE, "both")])],
+          [("area", "rep"), ("area", "add"), ("rep", "feas"), ("add", "feas"), ("feas", "opt"), ("opt", "r"), ("opt", "a"), ("opt", "ra")],
+          "Each layout is compared with the city's practice on the same positions, and with today (S0).",
+          side=("feas", "City rules", "15% cap · city mix", WARN))
+
+
+def b1_heat(s):
+    nflow(s, "Backup B1 · Heat module", "Fast proxy inside the loop, full UTCI on the final layouts",
+          [("Climate", [("epw", "icon", "°C", "Hot design day", HEAT)]),
+           ("Sun", [("sun", "box", "Sun positions", HEAT, "12–17 h"), ("bld", "box", "Buildings", MUTED, "LiDAR heights")]),
+           ("Proxy", [("prox", "box", "Effective shade", HEAT, "shadow × (1 − τ), τ = e^(−0.5 LAI)")]),
+           ("UTCI", [("t1", "box", "Ladybug Tier 1", HEAT, "final layouts"), ("t2", "box", "Honeybee Tier 2", HEAT, "spot check")]),
+           ("Output", [("out", "box", "Mean UTCI", HEAT, "12–17 h, sidewalks")])],
+          [("epw", "sun"), ("epw", "t1"), ("sun", "prox"), ("bld", "prox"), ("prox", "t1"), ("prox", "t2"), ("t1", "out"), ("t2", "out")],
+          "Winter sun is scored the same way on a January day: shade there is a cost.",
+          side=("prox", "Crown model", "LiDAR crowns · leaf calendar", TREE))
+
+
+def b2_runoff(s):
+    nflow(s, "Backup B2 · Runoff module", "Event runoff on a 1 m grid, routed to the flood hotspots",
+          [("Storm", [("st", "icon", "mm", "PDISBA design storm", RAIN)]),
+           ("Canopy", [("int", "box", "Interception", RAIN, "s · LAI, bucket")]),
+           ("Surface", [("cn", "box", "SCS-CN", RAIN, "sealed · pervious · roofs")]),
+           ("Routing", [("rt", "box", "Flow routing", RAIN, "terrain + buildings")]),
+           ("Output", [("tot", "box", "Total runoff", RAIN, "vs Δmin = 91 m³"), ("hot", "box", "Hotspot runoff", RAIN)])],
+          [("st", "int"), ("int", "cn"), ("cn", "rt"), ("rt", "tot"), ("rt", "hot")],
+          "2-year 60-min storm in the headline; extreme storms are outside what street trees can affect.",
+          side=("int", "Calibration", "s = 1.75 mm/LAI · Anys & Weiler 2024", WARN))
+
+
+def b3_screening(s):
+    nflow(s, "Backup B3 · City screening", "Indicators for every street-tree position",
+          [("Data", [("inv", "box", "Tree inventory", TREE), ("lid", "box", "LiDAR", TREE), ("sw", "box", "Sidewalk width", WARN),
+                     ("dtm", "box", "Terrain · hotspots", RAIN)]),
+           ("Per tree", [("crown", "box", "Crown · LAI", TREE), ("size", "box", "Size class", WARN), ("shade", "box", "Shade potential", HEAT),
+                         ("flow", "box", "Water convergence", RAIN)]),
+           ("Priority", [("vig", "box", "Crown vigour", TREE), ("ndvi", "box", "NDVI change", TREE), ("age", "box", "Age · trunk", MUTED)]),
+           ("Output", [("map", "icon", "Map", "City layer", INK), ("prio", "icon", "!", "Replacement priority", TREE)])],
+          [("inv", "crown"), ("lid", "crown"), ("lid", "shade"), ("sw", "size"), ("dtm", "flow"), ("inv", "age"), ("crown", "vig"),
+           ("crown", "map"), ("size", "map"), ("shade", "map"), ("flow", "map"), ("vig", "prio"), ("ndvi", "prio"), ("age", "prio")],
+          "Priority is a proxy (no open tree-health data), tested against trees removed between inventories.")
+
+
+def b7_validation(s):
+    nflow(s, "Backup B7 · Validation plan", "Each module checked against something it was not fitted to",
+          [("Module", [("h", "icon", "°C", "Heat", HEAT), ("w", "icon", "mm", "Runoff", RAIN), ("p", "icon", "!", "Priority", TREE)]),
+           ("Check", [("h1", "box", "Proxy vs Ladybug", HEAT), ("h2", "box", "Ladybug vs ENVI-met", HEAT, "Mannucci et al. 2025"),
+                      ("w1", "box", "Interception data", RAIN, "Anys & Weiler 2024"), ("p1", "box", "Removed trees", TREE, "inventory snapshots")]),
+           ("Transfer", [("tr", "box", "Sant Antoni", INK, "same city, flood-dominant")]),
+           ("Verdict", [("v", "icon", "✓", "Verdict per hypothesis", INK)])],
+          [("h", "h1"), ("h", "h2"), ("w", "w1"), ("p", "p1"), ("h1", "tr"), ("h2", "tr"), ("w1", "tr"), ("p1", "tr"), ("tr", "v")],
+          "Thresholds fixed before the runs: below what the model resolves = \"not resolved\".")
+
+
+def s06_crowns(s):
+    head(s, "Why it matters: the crowns differ", "Crown area as a share of a plane's, same trunk size, Porta's own trees")
+    d = pd.read_csv(DB / "crown_by_trunk_class.csv", header=[0, 1], index_col=0)["area_ratio_vs_plane"]
+    sp = ["Platanus x acerifolia", "Tipuana tipu", "Jacaranda mimosifolia", "Melia azedarach", "Celtis australis",
+          "Pyrus calleryana", "Brachychiton populneus"]
+    cd = CategoryChartData()
+    cd.categories = [x.replace(" x ", " × ") for x in sp]
+    for cls, lab in (("SEGONA", "2nd trunk class"), ("TERCERA", "3rd trunk class")):
+        cd.add_series(lab, [None if pd.isna(d.loc[x, cls]) or d.loc[x, cls] == 0 else float(d.loc[x, cls]) for x in sp])
+    ch = s.shapes.add_chart(XL_CHART_TYPE.BAR_CLUSTERED, Inches(M), Inches(1.5), Inches(W - 2 * M), Inches(4.9), cd).chart
+    style_chart(ch, [tint(TREE, 0.55), TREE], fmt='0%', size=13)
+    quiet_axes(ch, 0, 1.2, gridlines=True)
+    ch.value_axis.tick_labels.number_format, ch.value_axis.tick_labels.number_format_is_linked = '0%', False
+    ch.category_axis.reverse_order = True
+    ch.plots[0].gap_width = 60
+    text(s, M, 6.5, W - 2 * M, 0.4, "Equal trunk size is not equal age, and street trees are pruned: not mature potential.", 12, MUTED)
+    source(s, "ICGC, LiDAR flight of 26 Sept 2021; Ajuntament de Barcelona, arbrat viari (trunk class).")
+
+
+def s14_map(s):
+    import json
+    import math
+    head(s, "City-wide: 28 barris, one layout", "Summer shade gained over the city's mix, one optimisation under the 15% city cap")
+    d = cw.d
+    gain = dict(zip(d.barri.map(cw.key), d.gain))
+    g = json.load(open(ROOT / "web/public/data/barris.geojson", encoding="utf-8"))["features"]
+    rings = [(f["properties"]["name"], r) for f in g for poly in
+             ([f["geometry"]["coordinates"]] if f["geometry"]["type"] == "Polygon" else f["geometry"]["coordinates"]) for r in poly[:1]]
+    allp = np.concatenate([np.array(r) for _, r in rings])
+    kx = math.cos(math.radians(allp[:, 1].mean()))
+    x0, y0, mw, mh = M, 1.5, 7.6, 4.9
+    sc = min(mw / ((allp[:, 0].max() - allp[:, 0].min()) * kx), mh / (allp[:, 1].max() - allp[:, 1].min()))
+    px = lambda q: (Inches(x0 + (q[0] - allp[:, 0].min()) * kx * sc), Inches(y0 + (allp[:, 1].max() - q[1]) * sc))
+    hi = d.gain.max()
+    for name, r in rings:
+        pts = [px(q) for q in r]
+        ff = s.shapes.build_freeform(*pts[0], scale=1.0)
+        ff.add_line_segments(pts[1:], close=True)
+        shp = ff.convert_to_shape()
+        shp.name = name
+        v = gain.get(cw.key(name))
+        shp.fill.solid()
+        shp.fill.fore_color.rgb = rgb(GRID if v is None else tint(WARN, 0.9) if v < 0 else tint(TREE, 0.15 + 0.85 * v / hi))
+        shp.line.color.rgb, shp.line.width = rgb(INK if name == "Porta" else BG), Pt(2.5 if name == "Porta" else 0.5)
+        shp.shadow.inherit = False
+    for k, (fill, ln, lab) in enumerate([(tint(TREE, 0.3), BG, "small gain"), (TREE, BG, "large gain"), (tint(WARN, 0.9), BG, "loss"),
+                                         (GRID, BG, "not computed"), (BG, INK, "Porta")]):
+        x = M + k * 1.55
+        sw = box(s, x, 6.5, 0.28, 0.22, fill, radius=0, line=ln)
+        sw.shadow.inherit = False
+        text(s, x + 0.34, 6.44, 1.2, 0.32, lab, 12, MUTED)
+    for k, (big, small, c) in enumerate([(f"+{d.gain.median():.1f} pts", "median gain of summer shade over the city's mix", TREE),
+                                         (f"{(d.gain > 0).sum()} of {len(d)}", f"barris gain ({d.planes.sum():,} planes)", TREE),
+                                         ("Bonanova", "loses a little: with one city cap the capped species go where they add most", WARN)]):
+        card(s, 8.85, 1.55 + k * 1.75, 3.95, 1.55, big, small, c, 28, 13)
+    source(s, CW_SRC)
+
+
+def b4_bars(s):
+    head(s, "Backup B4 · Results in real units", "Difference from the city's mix (S1a), Porta; runoff stays inside ±Δmin")
+    panels = [("Summer shade", "shade_summer_m2h", "thousand m²·h", 1e-3, HEAT), ("Winter shade (a cost)", "shade_winter_m2h", "thousand m²·h", 1e-3, HEAT),
+              ("Total runoff", "runoff_m3", "m³ (Δmin = 91)", 1, RAIN), ("Hotspot runoff", "runoff_hot_m3", "m³", 1, RAIN),
+              ("Canopy cover", "canopy_pct", "points", 1, TREE)]
+    pw = (W - 2 * M) / 5
+    for i, (lab, col, unit, k, c) in enumerate(panels):
+        base = rv.ROWS["S1a"][col]
+        cd = CategoryChartData()
+        cd.categories = ["Today", "Optimised"]
+        vals = [(rv.ROWS[n][col] - base) * k for n in ("S0", "Opt")]
+        cd.add_series(lab, vals)
+        ch = s.shapes.add_chart(XL_CHART_TYPE.COLUMN_CLUSTERED, Inches(M + i * pw), Inches(1.6), Inches(pw - 0.1), Inches(4.6), cd).chart
+        style_chart(ch, [c], legend=False, fmt='+#,##0.0;−#,##0.0', size=11)
+        quiet_axes(ch, float(np.floor(min(0, min(vals)) * 1.25)), float(np.ceil(max(0, max(vals)) * 1.25)))
+        ch.value_axis.tick_labels.number_format, ch.value_axis.tick_labels.number_format_is_linked = '#,##0.#', False
+        ch.category_axis.tick_label_position = XL_TICK_LABEL_POSITION.LOW
+        ch.has_title = True
+        ch.chart_title.text_frame.text = f"{lab}\n{unit}"
+        for p_ in ch.chart_title.text_frame.paragraphs:
+            for r in p_.runs:
+                r.font.size, r.font.color.rgb = Pt(12), rgb(c)
+    text(s, M, 6.35, W - 2 * M, 0.4, "Bars = layout minus the S1a mean (10 seeds). Heat = shade proxy. Storm: PDISBA 2-year 60-min.", 12, MUTED)
+
+
+def b4b_palette30(s):
+    head(s, "Backup B4b · Wider palette (30 species)", "Same rules, the city's catalogue instead of 7 species: Porta and 32 barris, each optimised alone")
+    d = pd.read_csv(DB / "barris_summary_barcelona.csv").sort_values("summer_pct_tool_palette30")
+    cd = CategoryChartData()
+    cd.categories = list(d.barri)
+    cd.add_series("7 species", list(d.summer_pct_tool_palette7))
+    cd.add_series("30 species", list(d.summer_pct_tool_palette30))
+    ch = s.shapes.add_chart(XL_CHART_TYPE.BAR_CLUSTERED, Inches(M), Inches(1.35), Inches(7.6), Inches(5.65), cd).chart
+    style_chart(ch, [WARN, TREE], labels=False, size=9)
+    quiet_axes(ch, 60, 115, gridlines=True)
+    ch.plots[0].gap_width, ch.plots[0].overlap = 40, 0
+    ca = ch.category_axis
+    ca.tick_labels.font.size = Pt(7)
+    ch.legend.position = XL_LEGEND_POSITION.TOP
+    skip = ca._element.makeelement(qn("c:tickLblSkip"), {})   # show all 33 names: PowerPoint and Google otherwise skip every other one
+    skip.set("val", "1")
+    nm = ca._element.find(qn("c:noMultiLvlLbl"))
+    nm.addprevious(skip) if nm is not None else ca._element.append(skip)
+    ch.has_title = True
+    ch.chart_title.text_frame.text = "Summer shade, % of today"
+    ch.chart_title.text_frame.paragraphs[0].runs[0].font.size = Pt(12)
+    b32 = d[d.barri != "Porta"]
+    card(s, 8.6, 1.55, 4.2, 1.9, f"+{b32.diff_pts.median():.1f} pts", f"median summer-shade gain over 7 species "
+         f"({int((b32.diff_pts > 0).sum())} of {len(b32)} barris gain)", TREE, 30, 13)
+    card(s, 8.6, 3.65, 4.2, 1.9, f"{d.winter_pct_tool_palette30.min():.0f}–{d.winter_pct_tool_palette30.max():.0f}%",
+         "of today's winter shade: the price (more evergreens)", WARN, 30, 13)
+    text(s, 8.6, 5.75, 4.2, 0.8, "30 species = the 2011 guide catalogue minus its 4 'avoid' species. The city-wide LP still uses 7.", 12, MUTED)
+    source(s, "Ajuntament de Barcelona, Gestió de l'arbrat viari de Barcelona (2011), species catalogue.")
+
+
+def b6_optimiser(s):
+    head(s, "Backup B6 · How the optimiser finds the layout", "No trial and error: a score table, then one exact solve per weight set")
+    steps = [("1", "Score table", "Every position × every species, alone: summer shade, winter shade, water held above the hotspots. "
+              "Porta: 832 × 7. The slow step, computed once.", TREE),
+             ("2", "Weights", "One score per cell = weighted sum of the three, each scaled to its maximum. 15 weight sets.", WARN),
+             ("3", "Exact solve", "One species per position, only species that fit the sidewalk, none above its cap. "
+              "A transportation LP (HiGHS): whole-number answer, proven best. ~0.06 s for Porta.", INK),
+             ("4", "Re-score", "Each layout re-run with the full models (overlapping crowns, water routing): "
+              "these are the numbers on the slides.", RAIN)]
+    w = (W - 2 * M - 3 * 0.3) / 4
+    for k, (n, h, txt, c) in enumerate(steps):
+        x = M + k * (w + 0.3)
+        box(s, x, 1.55, w, 3.35, tint(c, 0.10))
+        text(s, x + 0.25, 1.7, 0.6, 0.6, n, 30, c, True)
+        text(s, x + 0.25, 2.35, w - 0.5, 0.45, h, 19, c, True)
+        text(s, x + 0.25, 2.9, w - 0.5, 1.9, txt, 14, INK)
+        if k < 3:
+            arrow(s, x + w + 0.03, 3.2, x + w + 0.27, 3.2, MUTED, 2)
+    box(s, M, 5.15, W - 2 * M, 1.2, tint(MUTED, 0.10))
+    text(s, M + 0.3, 5.22, W - 2 * M - 0.6, 1.1,
+         [[("Why not a genetic or ant-colony search (Wallacei, Opossum)?  ", {"bold": True}),
+           ("They search by trial and error and suit black-box objectives. Here every objective is a sum over positions, "
+            "so an exact solver is faster and proves the optimum. They, and an ML surrogate, become useful only if full "
+            "UTCI enters the loop: future work.", {})]], 14, INK, anchor=MSO_ANCHOR.MIDDLE)
+    source(s, "HiGHS open-source linear optimisation solver (highs.dev), called through SciPy (scipy.optimize.linprog).")
+
+
+def b5_sizing(s):
+    head(s, "Backup B5 · The sizing rule leaves real choice", "Sidewalk width at each Porta plane (2011 guide: < 2.5 m none, < 3.5 small, 3.5–6 medium, > 6 large)")
+    picture(s, ROOT / "notes/figures/porta_sidewalk_classes.png", M, 1.5, 7.4, crop_top=0)
+    w = pd.read_csv(DB / "porta_sidewalk_width.csv")
+    p = w[w.is_plane]
+    c = p.size_class.value_counts()
+    for k, (big, small, col) in enumerate([(f"{c['large']} + {c['medium']}", "planes keep a real choice: several large or medium species", TREE),
+                                           (f"{c['small'] + c['none']}", "forced to a small tree or to none by the literal rule", HEAT),
+                                           (f"{c['check']}", "medians and plaza edges: no size filter (ASSUMPTION)", MUTED)]):
+        card(s, 8.4, 1.55 + k * 1.65, 4.4, 1.45, big, small, col, 28, 13)
+    source(s, "Ajuntament de Barcelona, Mapa base topogràfic 1:1000 (CC BY 4.0); Gestió de l'arbrat viari de Barcelona (2011) pp. 22–23.")
+
+
+# ---- image versions Giovanni preferred (9 Nov): flowcharts, crowns and radar back as images, footer cropped -------------
+def fig_slide(path, title, sub, src=None, crop_bottom=0.075):
+    def build(s):
+        head(s, title, sub)
+        picture(s, ROOT / path, M + 0.15, 1.45, W - 2 * M - 0.3, crop_bottom=crop_bottom)
+        if src:
+            source(s, src)
+    return build
+
+
+IMG = {
+    6: fig_slide("slides/fig_v8/v8_crowns.png", "Why it matters: the crowns differ",
+                 "Crown area as a share of a plane's, same trunk size, Porta's own trees",
+                 "ICGC, LiDAR flight of 26 Sept 2021; Ajuntament de Barcelona, arbrat viari (trunk class)."),
+    10: fig_slide("slides/fig_v7/flow_00_overview.png", "Methodology",
+                  "Which species replace the trees a project must cut, and where to add new ones"),
+    11: fig_slide("slides/fig_v7/flow_04_design.png", "Design module", "Inside the project area the designer draws"),
+    12: fig_slide("slides/fig_v7/res_01_radar.png", "First results: replacing Porta's 832 plane trees",
+                  "The optimised layout keeps almost all of today's summer shade; the city's announced mix loses about an eighth",
+                  "City mix: Betevé, 7 May 2026. Storm: PDISBA, 2-year 60-min. Heat = shade proxy, not yet UTCI."),
+    "B1": fig_slide("slides/fig_v7/flow_02_heat.png", "Backup B1 · Heat module", "Fast proxy inside the loop, full UTCI on the final layouts"),
+    "B2": fig_slide("slides/fig_v7/flow_03_runoff.png", "Backup B2 · Runoff module", "Event runoff on a 1 m grid, routed to the flood hotspots"),
+    "B3": fig_slide("slides/fig_v7/flow_01_screening.png", "Backup B3 · City screening", "Indicators for every street-tree position"),
+    "B6": fig_slide("slides/fig_v7/flow_06_optimiser.png", "Backup B6 · How the optimiser finds the layout",
+                    "No trial and error: a score table, then one exact solve per weight set",
+                    "HiGHS open-source linear optimisation solver (highs.dev), called through SciPy."),
+    "B7": fig_slide("slides/fig_v7/flow_05_validation.png", "Backup B7 · Validation plan",
+                    "Each module checked against something it was not fitted to"),
+}
 
 
 SLIDES = [  # (outline heading number, builder)
-    (1, s01_title), (2, s02_context), (3, s03_gate1), (4, s04_trees), (5, s05_problem), (6, s06_crowns), (7, s07_gap),
+    (1, s01_title), (2, s02_context), (3, s03_gate1), (4, s04_trees), (5, s05_problem), (6, IMG[6]), (7, s07_gap),
     (8, s08_rq), (9, s09_hyp),
-    (10, lambda s: flow(s, "flow_00_overview.png", "Methodology",
-                        "Which species replace Barcelona's plane trees, and where to add new ones: scored on heat, runoff and canopy")),
-    (11, lambda s: flow(s, "flow_04_design.png", "Design module", "Inside the project area the designer draws")),
-    (12, s12_radar), (13, s13_scenarios), (14, s14_map), (15, s15_cap), (16, s16_heat),
+    (10, IMG[10]), (11, IMG[11]),
+    (12, IMG[12]), (13, s13_scenarios), (14, s14_map), (15, s15_cap), (16, s16_heat),
     (None, s_next), (None, s_cobenefits), (None, s_baseline),
-    (None, lambda s: flow(s, "flow_02_heat.png", "Backup B1 · Heat module", "Effective shade, checked against Ladybug UTCI")),
-    (None, lambda s: flow(s, "flow_03_runoff.png", "Backup B2 · Runoff module", "Canopy bucket, then curve number, event volume")),
-    (None, lambda s: flow(s, "flow_01_screening.png", "Backup B3 · City screening", "Indicators for every tree")),
-    (None, lambda s: flow(s, "res_02_bars.png", "Backup B4 · Results in real units", "Differences from the city's rule, with the model threshold Δmin")),
-    (None, lambda s: flow(s, "res_07_palette30.png", "Backup B4b · Wider palette (30 species)", "Porta and 32 barris, each optimised alone")),
-    (None, backup_img("fig_v6/v6_09_sizing_rule.png", "Backup B5 · The sizing rule leaves real choice", "Several species per sidewalk size class")),
-    (None, lambda s: flow(s, "flow_05_validation.png", "Backup B7 · Validation plan", "Each module against data it was not fitted to")),
+    (None, IMG["B1"]), (None, IMG["B2"]), (None, IMG["B3"]), (None, b4_bars), (None, b4b_palette30), (None, b5_sizing), (None, IMG["B6"]),
+    (None, IMG["B7"]),
     (None, s_simplifications),
 ]
 

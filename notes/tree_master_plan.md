@@ -198,6 +198,34 @@ Tutor, 20 Oct: check whether Barcelona already has a structured plan, decided by
 
 **What the check cannot show.** The table covers dead trees only. Rebuilt streets use a broader list (S §2.4.2.2), and the exceptions apply (S §2.4.3). The inventory cannot separate these cases; the peaks of 70 plantings in 2010 and 102 in 2025 suggest street works. So ~90% is an **upper bound** on non-compliance. Planting dates exist for 20% of Porta's trees. The inventory does not record which species a new tree replaced. The size class comes from the 2021 façade-to-kerb measurement (`notes/sidewalk_width.md`).
 
+### 5b.1 The rebuilt-street list (S pp. 12–14, read 9 Nov 2026)
+
+Read in the browser on the user's PC (BCNROC refuses cloud and scripted downloads); page 13 checked against the rendered page. Transcription on the PC: `databases/policy/rebuilt_street_list_2004.md` (not committed).
+
+- **S §2.4.2.2 "Plantació d'obra nova" (p. 12):** when a street is remodelled and every tree is replanted, Parcs i Jardins gives the operators a selection table "to introduce plant diversity". An "exceptional" row covers species chosen for aesthetic, traditional or symbolic reasons. The list comes from the technicians' experience and is revised periodically. **No district.**
+- **Table "PLANTACIÓ D'OBRA NOVA" (p. 13).** Columns: sidewalk 2.5–3.5 m, small tree, spacing 7 m · 3.5–6 m, medium, 9 m · ≥ 6 m, large, 13 m.
+
+| Row | Narrow (2.5–3.5 m) | Medium (3.5–6 m) | Wide (≥ 6 m) |
+|---|---|---|---|
+| **Remodelacions** | Cercis siliquastrum, Citrus aurantium, Hibiscus syriacus, Magnolia grandiflora, Nerium oleander "(capçada)", Prunus cerasifera 'Atropurpurea', Prunus serrulata, Pyrus communis (8) | Acer saccharinum, Albizia julibrissin, Brachychiton populneus, Catalpa bignonioides, Celtis australis, Cercis siliquastrum, Jacaranda mimosifolia, Koelreuteria paniculata, Magnolia grandiflora, Melia azedarach, Populus alba 'Pyramidalis', Populus simonii, Prunus serrulata, Quercus ilex, Robinia pseudoacacia 'Pyramidalis', Sophora japonica, Tilia sp. (17) | Ailanthus altissima, Gleditsia triacanthos inermis, Jacaranda mimosifolia, **Platanus × hispanica**, Populus simonii, Quercus ilex, Robinia pseudoacacia (type, 'Bessoniana', 'Frisia'), Tilia sp., Tipuana tipu (11) |
+| **Excepcionalment** | Acacia saligna, Acer monspessulanum, Ligustrum lucidum, Tamarix gallica (4) | Acacia saligna, Ceratonia siliqua, Ficus microcarpa, Ginkgo biloba, Grevillea robusta, Morus alba 'Fruitless', Phoenix dactylifera, Populus nigra 'Italica', Washingtonia sp. (9) | Eucalyptus sp., Ficus microcarpa, Phoenix dactylifera, Pinus pinea, Washingtonia sp. (5) |
+
+- **Conditions (p. 14, §2.4.2.2.1):** sidewalk < 2.5 m "Evitar la plantació". The narrow class here starts at 2.5 m; in the dead-tree table (p. 11) it is "< 3.5 m". No footnotes on p. 13.
+- **Notes:** the plane is on the rebuild list only for wide sidewalks. Four species the 2011 guide later marks "avoid" (Robinia, P. alba, P. nigra; Ailanthus is not in our palette) are on this 2004 list.
+
+**Porta check redone with all three lists (dead-tree table + remodelacions + excepcionalment), same 368 dated plantings (`replacement_rule_check.csv`), genus + epithet, cultivar ignored, strict size class:**
+
+| Sidewalk | Planted | Match any list | Match % |
+|---|---|---|---|
+| Narrow | 58 | 9 | 16% |
+| Medium | 112 | 56 | 50% |
+| Wide | 198 | 53 | 27% |
+
+- Narrow + medium: 65 of 170 match (38%), so **~62% match none of the three 2004 lists**: the upper bound on non-compliance falls from ~90% to ~62%, still a majority. Wide: the 11 planes and the existing-species clause are not credited, so 27% is a floor there.
+- Biggest unlisted plantings: *Pyrus calleryana* (56 across classes; the list has *P. communis*), Grevillea on wide sidewalks (42; listed as exceptional for medium only), Casuarina (33), Fraxinus angustifolia (23), Handroanthus (12). Brachychiton on medium sidewalks (26) **is** on the rebuild list.
+- A medium species on a wide sidewalk (e.g. Melia, 12) counts as a non-match in this strict reading; the guide does not say whether a smaller class is allowed on a wider sidewalk (ASSUMPTION: not).
+- **Why it matters for v8 (§11 of `topic_decision.md`):** the tool's user is the designer of a street rebuild, and this list, not the dead-tree table, is the rule for that case. Next: use it as a rebuild baseline (S1-2004R: species drawn from the remodelacions row by sidewalk class) and compare the allowed set with the tool's palette.
+
 **Verdict.**
 - **Yes, a structured rule has existed since at least 2004.** It sets species by district × sidewalk width and replaces the plane everywhere except wide avenues.
 - **It is qualitative.** It rests on tradition, typology and the technicians' experience; heat and runoff are not mentioned.
