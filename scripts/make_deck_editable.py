@@ -300,8 +300,8 @@ def s08_rq(s):
          "layout method, inside the city's tree rules, choose the new species and positions, and new planting spots, so that "
          "pedestrian cooling and storm-water interception improve, or at least do not get worse, compared with the city's own "
          "practice and with today?", 18, INK, True, anchor=MSO_ANCHOR.MIDDLE)
-    sq = [("SQ1 · heat", "Mean UTCI 12–17 h on a hot design day", HEAT),
-          ("SQ2 · runoff", "Total and at flood hotspots, 2-yr 60-min storm; larger than the model resolves (Δmin)?", RAIN),
+    sq = [("SQ1 · heat", "Is the street as cool as with the city's choice, or cooler? Mean UTCI 12–17 h, hot design day", HEAT),
+          ("SQ2 · runoff", "Is runoff no worse? Total and at flood hotspots, 2-yr 60-min storm, against Δmin", RAIN),
           ("SQ3 · trade-off", "Do the heat-best and runoff-best layouts differ, and in which species?", WARN),
           ("SQ4 · additions", "How much of the gap to 30% can new street trees close, and where?", TREE)]
     for k, (hd, txt, c) in enumerate(sq):
