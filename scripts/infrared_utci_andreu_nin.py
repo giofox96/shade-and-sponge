@@ -18,7 +18,7 @@ from pyproj import Transformer
 from shapely.geometry import Polygon
 from shapely.geometry.polygon import orient
 
-from infrared_sdk import InfraredClient
+from infrared_sdk import InfraredClient, parse_epw
 from infrared_sdk.analyses.types import AnalysesName, UtciModelBaseRequest, UtciModelRequest
 from infrared_sdk.models import Location, TimePeriod
 
@@ -83,9 +83,10 @@ client = InfraredClient(api_key=key)
 lon_c, lat_c = lonlat((x0 + x1) / 2, (y0 + y1) / 2)
 # ASSUMPTION: hours 11-16 = the Ladybug Tier 1 hours (EPW 11:00-16:00, 12-17 h CEST); check Infrared's hour convention before comparing.
 window = TimePeriod(start_month=7, start_day=15, start_hour=11, end_month=7, end_day=15, end_hour=16)
-station = client.weather.get_weather_file_from_location(lat=lat_c, lon=lon_c)[0]
-rows = client.weather.filter_weather_data(identifier=station["uuid"], time_period=window)
-print(f"weather: {station.get('fileName')}, {len(rows)} hours; {len(buildings)} buildings, {len(trees)} trees")
+# Same EPW as the Ladybug / Honeybee runs (scripts/run_hb_utci.py); read locally, the classmethod cuts the window.
+EPW = ROOT / "grasshopper/ladybug_andreu_nin_20261102/ladybug/ESP_CT_Barcelona-El.Prat.AP.081810_TMYx.2011-2025/ESP_CT_Barcelona-El.Prat.AP.081810_TMYx.2011-2025.epw"
+rows = parse_epw(str(EPW))
+print(f"weather: {EPW.name}; {len(buildings)} buildings, {len(trees)} trees")
 
 request = UtciModelRequest.from_weatherfile_payload(
     payload=UtciModelBaseRequest(analysis_type=AnalysesName.thermal_comfort_index),
