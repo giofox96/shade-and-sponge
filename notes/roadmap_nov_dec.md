@@ -30,5 +30,5 @@
 
 ## Loose ends
 
-- Branch `claude/runoff-sensitivity-notes` (fact-check wording fixes, commit 15d16da): no PR yet.
-- PR #103 (10 Nov deck, rebuilt-street list, scenario glossary): open.
+- Branch `claude/runoff-sensitivity-notes`: merged 10 Nov (PR #104).
+- PR #103 (10 Nov deck, rebuilt-street list, scenario glossary): merged 10 Nov.

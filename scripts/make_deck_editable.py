@@ -788,9 +788,10 @@ def s14_map(s):
 
 def b4_bars(s):
     head(s, "Backup B4 · Results in real units", "Difference from the city's mix (S1a), Porta; runoff stays inside ±Δmin")
-    panels = [("Summer shade", "shade_summer_m2h", "thousand m²·h", 1e-3, HEAT), ("Winter shade (a cost)", "shade_winter_m2h", "thousand m²·h", 1e-3, HEAT),
-              ("Total runoff", "runoff_m3", "m³ (Δmin = 91)", 1, RAIN), ("Hotspot runoff", "runoff_hot_m3", "m³", 1, RAIN),
-              ("Canopy cover", "canopy_pct", "points", 1, TREE)]
+    panels = [("Summer shade", "shade_summer_m2h", "k m²·h · up = better", 1e-3, HEAT),
+              ("Winter shade", "shade_winter_m2h", "k m²·h · up = a cost", 1e-3, HEAT),
+              ("Total runoff", "runoff_m3", "m³ · down = better", 1, RAIN), ("Hotspot runoff", "runoff_hot_m3", "m³ · down = better", 1, RAIN),
+              ("Canopy cover", "canopy_pct", "points · up = better", 1, TREE)]
     pw = (W - 2 * M) / 5
     for i, (lab, col, unit, k, c) in enumerate(panels):
         base = rv.ROWS["S1a"][col]
@@ -808,7 +809,7 @@ def b4_bars(s):
         for p_ in ch.chart_title.text_frame.paragraphs:
             for r in p_.runs:
                 r.font.size, r.font.color.rgb = Pt(12), rgb(c)
-    text(s, M, 6.35, W - 2 * M, 0.4, "Bars = layout minus the S1a mean (10 seeds). Heat = shade proxy. Storm: PDISBA 2-year 60-min.", 12, MUTED)
+    text(s, M, 6.35, W - 2 * M, 0.4, "0 = the city's mix (S1a, mean of 10 seeds). Optimised = balanced layout of the weight sweep. Δmin = 91 m³. Heat = shade proxy. Storm: PDISBA 2-year 60-min.", 12, MUTED)
 
 
 def b4b_palette30(s):
