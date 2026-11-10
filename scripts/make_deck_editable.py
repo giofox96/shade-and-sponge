@@ -492,14 +492,14 @@ def s_next(s):
 
 
 def s_cobenefits(s):
-    head(s, "Co-benefits not optimised (yet)", "Reported after 10 Nov, not objectives of the tool")
+    head(s, "Co-benefits not optimised (yet)", "Reported after 10 Nov, not objectives of the tool. Replanting and maintenance costs, noise: future work")
     rows = [("Pollen", "Plane pollen gets the top allergen score (4 of 4) in a Spanish species index",
              "Species index exists (IUGZA, Cariñanos et al. 2014). Replacing planes likely gains here; to compute per layout", WARN),
-            ("Carbon", "Storage grows steeply with trunk size, and the planes are large",
+            ("Carbon", "Stored and sequestered carbon grow with trunk size; felling a large tree loses both",
              "The tool's mix may lose here at first. Urban allometry (McPherson et al. 2016); reported even if it loses", INK),
             ("Diversity", "The 15% cap and the local ceiling already act on it",
              "Already computed (effective species, as in SylvCiT): to report per barri, before and after", TREE),
-            ("Ozone · VOC", "Some species emit isoprene; ozone also depends on local NOx", "Not modelled: a declared limit", MUTED)]
+            ("Air", "PM2.5 capture depends on leaf area; some species emit isoprene (ozone)", "Leaf area is already in the model: PM2.5 can be reported; ozone/VOC stays a declared limit", MUTED)]
     for k, (h, txt, sub, c) in enumerate(rows):
         y = 1.5 + k * 1.05
         box(s, M, y, W - 2 * M, 0.92, tint(c, 0.10))
