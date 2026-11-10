@@ -9,7 +9,7 @@ Names and labs read from page 1 of each PDF (4 Nov). First names given only as i
 >
 > I found people working on this from three directions.
 >
-> **Choosing species with data.** Maxime Nicol, Marie-Jean Meurs and Christian Messier at UQAM built SylvCiT in Montreal, a tool that recommends tree species from their traits and from diversity. It is the closest to what I do, but it has no heat and its runoff module is still switched off.
+> **Choosing species with data.** Maxime Nicol, Marie-Jean Meurs and Christian Messier at UQAM built SylvCiT in Montreal, a tool that recommends tree species for a site, a neighbourhood or a park, from functional diversity and carbon. It is the closest to what I do, but, as the authors write, it does not yet include heat mitigation or runoff reduction, and it does not choose positions.
 >
 > **Heat and water together.** Nyelele and Kroll at SUNY ESF in Syracuse optimise heat and runoff together for a whole city, but per block, not per tree. Simona Mannucci and Federica Rosso, at the SOS Urban Lab of Sapienza in Rome, model pedestrian heat and runoff in one Grasshopper workflow on a square near Rome, but they compare scenarios and do not choose species. Xinyu Dong, Dagmar Haase and Angela Lausch, at the Helmholtz Centre UFZ in Leipzig and Humboldt University Berlin, are the only ones that choose species with both, in Philadelphia, but on cells of a quarter of a square kilometre.
 >
