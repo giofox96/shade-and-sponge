@@ -1,0 +1,55 @@
+<!doctype html><html><head><meta charset="utf-8"><title>Gap boxes</title>
+<!-- Slimmed "opening the boxes" diagram (RM seminar format) for the gap slide. Render: 1600x700 at 2x. -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap">
+<style>
+:root{--bg:#F2F0EA;--card:#FBFAF6;--ink:#2A2622;--muted:#665E4F;--line:#A8A293;--pink:#663825;--pink-tint:#EBDDD3;
+--amber:#8C6A24;--amber-tint:#EFE5CF;--tree:#3F663E;--core:#283F2A;--core-ink:#F2F0EA}
+body{margin:0;width:1600px;height:700px;background:var(--bg);font-family:"IBM Plex Sans",Arial,sans-serif;color:var(--ink);position:relative;overflow:hidden}
+.n{position:absolute;box-sizing:border-box;padding:14px 20px;border-radius:12px;display:flex;flex-direction:column;justify-content:center;gap:5px}
+.k{font-size:13px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+.t{font-size:22px;font-weight:600;line-height:1.25}
+.r{font-size:14px;font-style:italic;color:var(--muted)}
+.ev{background:var(--card);border:2px solid var(--ink)}
+.prob{background:var(--pink-tint)} .prob .k{color:var(--pink)}
+.opt{background:var(--amber-tint)} .opt .k{color:var(--amber)} .no{font-size:18px;font-weight:600;color:var(--pink)}
+.gap{background:var(--card);border:3px dashed var(--pink);align-items:center;text-align:center} .gap .k{color:var(--pink)}
+.f{display:flex;white-space:nowrap;gap:10px;align-items:center;font-size:16px;color:var(--muted);margin-top:6px}
+.f span{white-space:nowrap;background:var(--bg);border:1.5px solid var(--line);border-radius:999px;padding:4px 14px}
+.f b{font-size:22px;color:var(--ink);margin-right:4px} .f .z{border:2px dashed var(--pink)} .f .z b{color:var(--pink)}
+.rq{background:var(--core);color:var(--core-ink);border-radius:999px;align-items:center;text-align:center}
+svg{position:absolute;left:0;top:0}
+.e{fill:none;stroke:var(--line);stroke-width:2.5} .w{fill:none;stroke:var(--pink);stroke-width:2.5;stroke-dasharray:8 7}
+.lab{position:absolute;transform:translate(-50%,-50%);background:var(--bg);border:1.5px dashed var(--line);border-radius:999px;padding:3px 12px;font-size:15px;font-style:italic;white-space:nowrap}
+.lab.wl{color:var(--pink);border-color:var(--pink)}
+</style></head><body>
+<svg width="1600" height="700">
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#A8A293"/></marker>
+<marker id="aw" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#663825"/></marker></defs>
+<path class="e" d="M270 172V236" marker-end="url(#a)"/>
+<path class="e" d="M1330 172V236" marker-end="url(#a)"/>
+<path class="e" d="M800 172V426" marker-end="url(#a)"/>
+<path class="w" d="M300 372C300 560 320 608 352 608" marker-end="url(#aw)"/>
+<path class="w" d="M1300 372C1300 560 1280 608 1248 608" marker-end="url(#aw)"/>
+<path class="e" d="M800 582V606" marker-end="url(#a)"/>
+</svg>
+<div class="n ev" style="left:40px;top:20px;width:460px;height:152px">
+ <div class="k">Urban climate data</div><div class="t">Heat and flooding are mapped street by street, but nobody links them to the species in each pit</div></div>
+<div class="n prob" style="left:570px;top:20px;width:460px;height:152px">
+ <div class="k">Problem</div><div class="t">A project must replace trees. Each new species changes shade and runoff, and nobody measures it</div></div>
+<div class="n ev" style="left:1100px;top:20px;width:460px;height:152px">
+ <div class="k">The city's rules</div><div class="t">The plan fixes how much of each species (≤ 15%), not which species where</div>
+ <div class="r">The cap itself is a rule of thumb (Kendal et al. 2014)</div></div>
+<div class="lab" style="left:270px;top:204px">who models both?</div>
+<div class="lab" style="left:1330px;top:204px">can a tool choose?</div>
+<div class="n opt" style="left:40px;top:240px;width:480px;height:132px">
+ <div class="k">Heat + runoff workflows</div><div class="t">Both services, fixed scenarios</div><div class="no">No species choice</div>
+ <div class="r">Mannucci et al. 2025</div></div>
+<div class="n opt" style="left:1080px;top:240px;width:480px;height:132px">
+ <div class="k">Species tools</div><div class="t">Recommenders and optimisers</div><div class="no">One service, or no positions</div>
+ <div class="r">Nicol 2026; Shaamala 2025; Peng 2026; Dong 2026</div></div>
+<div class="n gap" style="left:290px;top:430px;width:1020px;height:152px">
+ <div class="k">Gap</div><div class="t">No method picks the species per position, on heat and runoff together,<br>inside a city's replacement rules</div>
+ <div class="f">Tools that place or assess urban trees:<span><b>18</b></span>→<span><b>7</b>heat and runoff</span>→<span><b>1</b>picks species</span>→<span class="z"><b>0</b>per tree, inside city rules</span></div></div>
+<div class="n rq" style="left:290px;top:610px;width:1020px;height:72px">
+ <div class="t">This method: species and position per tree, inside the city's rules, on heat and runoff</div></div>
+</body></html>

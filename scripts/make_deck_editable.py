@@ -286,29 +286,11 @@ def s05_problem(s):
 
 
 def s07_gap(s):
-    head(s, "The gap", "Rules without numbers, tools without species or runoff, and a cap with no evidence behind it")
-    cols = [("IN PRACTICE", HEAT, ["Rules for which species: catalogue, sidewalk size, 15% cap",
-                                   "No number for what a choice does to heat or runoff",
-                                   "Nature Plan: \"which species for shade, where\" still to study"]),
-            ("IN RESEARCH", RAIN, ["Heat and runoff for fixed scenarios, no species (Mannucci et al. 2025)",
-                                   "Optimisers: heat only (Shaamala 2025; Peng 2026), or a species mix with no positions (Dong 2026)",
-                                   "Trait-based recommender, runoff switched off (SylvCiT; Nicol et al. 2026)"])]
-    for k, (hd, c, items) in enumerate(cols):
-        x = M + k * 6.33
-        text(s, x, 1.55, 5.9, 0.3, hd, 14, c, True)
-        for j, it in enumerate(items):
-            box(s, x, 1.9 + j * 0.88, 5.9, 0.76, tint(c, 0.10))
-            text(s, x + 0.25, 1.9 + j * 0.88, 5.4, 0.76, it, 14, INK, anchor=MSO_ANCHOR.MIDDLE)
-    box(s, M, 4.65, W - 2 * M, 1.0, tint(WARN, 0.10))
-    text(s, M + 0.25, 4.72, W - 2 * M - 0.5, 0.9, [[("IN THE DIVERSITY LITERATURE", {"bold": True, "color": WARN, "size": 13})],
-         "Species caps are rules of thumb; far below the current share, “well adapted species may be abandoned” "
-         "(Kendal et al. 2014, p. 415). Planes: ~27% vs a 15% cap."],
-         14, INK)
-    box(s, M, 5.85, W - 2 * M, 0.7, tint(TREE, 0.14))
-    text(s, M + 0.25, 5.85, W - 2 * M - 0.5, 0.7, "This method: trait-based, inside the city's rules, scored on heat and runoff, per position.",
-         19, TREE, True, anchor=MSO_ANCHOR.MIDDLE)
-    source(s, "Mannucci et al. 2025; Shaamala et al. 2025; Peng et al. 2026; Dong et al. 2026; Nicol et al. 2026 (PLoS One); "
-           "Santamour 1990 (METRIA 7); Kendal, Dobbs & Lohr 2014 (UFUG 13); Ajuntament de Barcelona, Pla Natura 2021–2030 p. 114.")
+    head(s, "The gap", "Data, rules and tools exist, but nothing links them tree by tree")
+    w = 11.8   # slimmed version of the RM seminar "opening the boxes" map
+    picture(s, ROOT / "slides/fig_v8/v8_gap_boxes.png", (W - w) / 2, 1.45, w, crop_top=0)
+    source(s, "Mannucci et al. 2025; Nicol et al. 2026 (PLoS One); Shaamala et al. 2025; Peng et al. 2026; Dong et al. 2026; "
+           "Kendal, Dobbs & Lohr 2014 (UFUG 13); Ajuntament de Barcelona, Pla director de l'arbrat 2017.")
 
 
 def s08_rq(s):

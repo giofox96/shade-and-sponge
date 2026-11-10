@@ -90,14 +90,14 @@ The deck follows that order.
 ---
 
 ## 7. The gap [4:15]
-**On slide:**
-- **Practice:** rules for which species, no quantities
-- **City strategy:** targets in hectares, not per tree; the Nature Plan lists "which species for shade, where" as a study still to do (project 83, p.114)
-- **Research:** heat and runoff for fixed scenarios without species traits (Mannucci 2025; Wu 2024); heat-only optimisers (Shaamala 2025; Peng 2026); a trait-based recommender with runoff switched off (SylvCiT, Nicol 2026)
-- **Diversity literature:** species caps are rules of thumb (Kendal et al. 2014, after Santamour 1990); targets far below the current share risk losing well-adapted species and ecosystem services (Kendal et al. 2014, p. 415)
+**On slide:** one map, the slimmed version of the RM seminar "opening the boxes" diagram (`slides/fig_v8/v8_gap_boxes.html`)
+- **Top, three boxes:** climate data mapped street by street but not linked to the species in each pit · the problem (a project replaces trees, nobody measures what each species does to shade and runoff) · the city's rules (how much of each species, ≤ 15%, not which species where; the cap is a rule of thumb, Kendal et al. 2014)
+- **Middle:** heat + runoff workflows with fixed scenarios and no species choice (Mannucci 2025) · species tools with one service or no positions (SylvCiT/Nicol 2026; Shaamala 2025; Peng 2026; Dong 2026)
+- **Gap:** no method picks species per position on heat and runoff together, inside a city's replacement rules; funnel 18 → 7 → 1 → 0
+- **Bottom:** this method
 
-**Say (94 words):**
-"In practice there are rules but no numbers. In research, the tools either assess heat and runoff without species, or optimise heat alone. The most advanced trait-based recommender, SylvCiT, has its runoff module switched off. And the diversity literature itself warns about Barcelona's case. The fifteen percent cap is a rule of thumb. Kendal and colleagues, looking at 108 cities, warn that a target far below a species' current share risks replacing well-adapted trees with weaker ones and changing what they provide. The planes are at twenty-seven percent. That is where this method sits."
+**Say (95 words):**
+"Three things exist already. Heat and flooding are mapped street by street. The city has rules: no species above fifteen percent, and Kendal and colleagues call caps like this rules of thumb. And projects keep replacing trees. But nobody links them. The workflows that model heat and runoff together use fixed scenarios, with no species choice. The species tools optimise one service, or a mix with no positions. Of eighteen tools that place or assess urban trees, seven cover both services, one picks species, and none works tree by tree inside a city's rules. That is where this method sits."
 
 ---
 
