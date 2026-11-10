@@ -83,8 +83,12 @@ client = InfraredClient(api_key=key)
 lon_c, lat_c = lonlat((x0 + x1) / 2, (y0 + y1) / 2)
 # ASSUMPTION: hours 11-16 = the Ladybug Tier 1 hours (EPW 11:00-16:00, 12-17 h CEST); check Infrared's hour convention before comparing.
 window = TimePeriod(start_month=7, start_day=15, start_hour=11, end_month=7, end_day=15, end_hour=16)
-# Same EPW as the Ladybug / Honeybee runs (scripts/run_hb_utci.py); read locally, the classmethod cuts the window.
-EPW = ROOT / "grasshopper/ladybug_andreu_nin_20261102/ladybug/ESP_CT_Barcelona-El.Prat.AP.081810_TMYx.2011-2025/ESP_CT_Barcelona-El.Prat.AP.081810_TMYx.2011-2025.epw"
+# EPW: default = the plain TMYx (1973-2023) the Grasshopper Ladybug run used (hb_utci_andreu_nin_sameepw.csv);
+# `--epw2011` = TMYx 2011-2025, the hotter file of the first Honeybee run (hb_utci_andreu_nin.csv).
+LB = ROOT / "grasshopper/ladybug_andreu_nin_20261102/ladybug"
+TAG = "_epw2011" if "--epw2011" in sys.argv else ""
+EPW = (LB / "ESP_CT_Barcelona-El.Prat.AP.081810_TMYx.2011-2025/ESP_CT_Barcelona-El.Prat.AP.081810_TMYx.2011-2025.epw" if TAG
+       else LB / "ladybug_porta/dati/ESP_CT_Barcelona-El.Prat.AP.081810_TMYx.epw")
 rows = parse_epw(str(EPW))
 print(f"weather: {EPW.name}; {len(buildings)} buildings, {len(trees)} trees")
 
@@ -99,5 +103,5 @@ if "--run" in sys.argv:
     grid = client.run_area_and_wait(request, polygon, **layers).physical_grid()  # row 0 = south, 1 m cells from the SW corner
     ij = [tuple(int(round(v)) for v in run_xy(x, y)) for x, y in zip(pts.x, pts.y)]
     pts["utci_infrared"] = [grid[j, i] if 0 <= j < grid.shape[0] and 0 <= i < grid.shape[1] else np.nan for i, j in ij]
-    pts.to_csv(ROOT / "databases" / "barcelona" / "infrared_utci_andreu_nin.csv", index=False)
+    pts.to_csv(ROOT / "databases" / "barcelona" / f"infrared_utci_andreu_nin{TAG}.csv", index=False)
     print(f"grid {grid.shape}, mean UTCI at the {pts.utci_infrared.notna().sum()} test points: {pts.utci_infrared.mean():.2f} C")
