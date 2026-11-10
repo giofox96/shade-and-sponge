@@ -1,4 +1,4 @@
-# Tutor session 10 Nov: slide outline and spoken script (v7 draft, 24 Oct)
+# Tutor session 10 Nov: slide outline and spoken script (v7 draft, 24 Oct; v8 framing 9 Nov)
 
 **What the tutor asked for on 20 Oct** (`notes/research_method_guidelines.md`, "Conclusions"):
 - a problem that is 100% clear, after checking whether Barcelona already decides which tree goes where, and whether there are enough trees;
@@ -14,10 +14,10 @@ The deck follows that order.
 - **Reused:** from `slides/fig_v6/` and `slides/fig/`.
 - **Text slides** (2, 3, 4, 5, 7, 8, 9 and a final "What comes next") are figures too, from `scripts/make_slides_v7.py`, which also builds **`slides/shade_and_sponge_10nov.pptx`**: 17 slides plus 5 backups, one figure per slide, with the script below as speaker notes.
 
-**Length:** 16 slides plus backups, ~1,290 spoken words: about 8:35 at 150 words a minute, and about 10:35 with pauses and slide changes (the timestamps in the headings). The core version, dropping slides 7 and 9, saves about 1 minute.
+**Length:** 16 slides plus backups, ~1,550 spoken words: about 10:19 at 150 words a minute, and about 12:15 with pauses and slide changes (the timestamps in the headings). The core version, dropping slides 7 and 9, saves about 1 minute.
 
 **Sources:**
-- `notes/topic_decision.md` §10 (problem v7, RQ v7, decisions of 24 Oct);
+- `notes/topic_decision.md` §10 (problem v7, RQ v7, decisions of 24 Oct) and §11 (v8, 9 Nov: any tree a project replaces, "improve or at least do no harm");
 - `notes/tree_master_plan.md` §5b;
 - `shade_sponge/README.md` (results sections of 24 Oct);
 - `notes/citywide_plan.md`.
@@ -29,8 +29,8 @@ The deck follows that order.
 ## 1. Title [0:20]
 **Figure:** `slides/fig/01_title.png`
 
-**Say (40 words):**
-"This is Porta, in Nou Barris, and those are plane trees. Barcelona will remove more than half of its planes in ten years. My thesis is about what goes back in their place, and what that does to heat and storm water."
+**Say (60 words):**
+"This is Porta, in Nou Barris, and those are plane trees, Platanus. When a project has to cut street trees, what is the best way to replace them? My thesis is a method that chooses the new species and positions so that heat and storm water get better, or at least not worse. The plane trees are my first case."
 
 ---
 
@@ -38,10 +38,10 @@ The deck follows that order.
 **On slide:**
 - Planes: **43,722 trees, 27.45% → 12%** within ten years (press, May 2026)
 - Master plan 2017–2037: **no species above 15%**; tree cover target **30%**
-- Replaced **one tree at a time**, when it dies or its street is rebuilt
+- Replaced **one tree at a time**, when it dies or its street is rebuilt: **10,976 replacements with a change of species, 2018–2026; planes only 13%** (city inventory, `scripts/inventory_history.py`)
 
-**Say (80 words):**
-"First, the context, which is not my problem but the frame of it. The city has decided to cut its planes by more than half. No species may exceed fifteen percent. And replacement happens one tree at a time: when a tree dies, or when a street is rebuilt. So over the next decade there will be thousands of small decisions. Each one fixes a street's canopy for decades."
+**Say (90 words):**
+"First, the context, which is not my problem but the frame of it. The city has decided to cut its planes by more than half. No species may exceed fifteen percent. And replacement happens one tree at a time: when a tree dies, or when a street is rebuilt. In the city's own inventory I counted almost eleven thousand replacements since 2018, and the planes are only thirteen percent of them. So the planes are the biggest case, not the only one. Each replacement fixes a street's canopy for decades."
 
 ---
 
@@ -55,8 +55,8 @@ The deck follows that order.
 | 2011 guide (in force): table no longer printed | Only a species catalogue |
 | **In Porta, 2007–2026 plantings** | only **~10%** match the table (upper bound on non-compliance) |
 
-**Say (110 words):**
-"You asked me to check whether Barcelona already has a structured plan for which tree goes where. It does, on paper. Parcs i Jardins published a table in 2004 and 2005: for each district and sidewalk width, which species replaces a dead tree. In Nou Barris that is Prunus on narrow sidewalks, Melia or Jacaranda on medium ones, and the plane is kept on wide ones. The criteria are tolerance, street type and tradition. Heat and runoff are not among them. The current guide no longer prints the table. And in Porta, only about one in ten trees planted since 2007 matches it. I also asked the city for the current list; I'm waiting for the reply."
+**Say (119 words):**
+"You asked me to check whether Barcelona already has a structured plan for which tree goes where. It does, on paper. Parcs i Jardins published a table in 2004 and 2005: for each district and sidewalk width, which species replaces a dead tree. In Nou Barris that is Prunus on narrow sidewalks, Melia or Jacaranda on medium ones, and the plane is kept on wide ones. The criteria are tolerance, street type and tradition. Heat and runoff are not among them. The current guide no longer prints the table. Rebuilt streets get a longer list. And in Porta, most trees planted since 2007 on narrow and medium sidewalks match none of these lists. I also asked the city for the current list; I'm waiting for the reply."
 
 ---
 
@@ -67,69 +67,69 @@ The deck follows that order.
 - **Planes = ~29% of Porta's canopy**
 - At equal trunk size: all Brachychiton-size → cover ~16%; Tipuana/Jacaranda-size → roughly unchanged
 
-**Say (95 words):**
+**Say (93 words):**
 "Your second question: are there enough trees? Not in Porta. The plan targets thirty percent tree cover. I measured Porta from the 2021 laser scan: twenty point one percent, about ten points short. And almost a third of that canopy is plane trees. So the replacement is not a detail next to 'plant more'. If every plane became a small-crowned species, Porta would drop to about sixteen percent. With large-crowned ones it holds. In a neighbourhood that already lacks trees, this choice decides whether it moves towards the target or away from it."
 
 ---
 
 ## 5. The problem, in one sentence [3:05]
 **On slide (large):**
-> When Barcelona replaces a plane tree, the only documented rule for the new species is qualitative (district, sidewalk width, tradition). No rule quantifies heat or runoff, so thousands of replacements will change each street's shade and rain interception, and nobody measures by how much.
+> When a project in Barcelona must replace street trees, at least ~1,300 a year, the only documented rule for the new species is qualitative. No rule checks whether a replacement keeps, loses or improves the street's shade and rain interception, so a project can leave its street hotter or wetter, and nobody measures by how much.
 
-**Say (45 words):**
-"So this is the problem. The rule that exists is qualitative, practice doesn't follow it, and nothing measures the consequences. Context, problem and gap are now three separate things. The rest of the talk is about measuring those consequences."
+**Say (53 words):**
+"So this is the problem, seen from the project. A designer who has to replace trees has a qualitative rule, which practice doesn't follow, and nothing that tells them whether the street ends up better or worse. The rest of the talk is about measuring that, and choosing so that nothing gets worse."
 
 ---
 
 ## 6. Why it matters: the crowns differ [3:45]
 **Figure:** `slides/fig_v6/v6_04_crowns.png`
 
-**Say (75 words):**
+**Say (58 words):**
 "Why measuring matters: at the same trunk size, the candidates carry very different crowns. Tipuana and Jacaranda are close to a plane. Melia is three quarters. Celtis, Pyrus and Brachychiton carry between a quarter and a half. All of them follow the city's rules. The shade and rain interception left on the street can differ three- to fourfold."
 
 ---
 
 ## 7. The gap [4:15]
-**On slide:**
-- **Practice:** rules for which species, no quantities
-- **City strategy:** targets in hectares, not per tree; the Nature Plan lists "which species for shade, where" as a study still to do (project 83, p.114)
-- **Research:** heat and runoff for fixed scenarios without species traits (Mannucci 2025; Wu 2024); heat-only optimisers (Shaamala 2025; Peng 2026); a trait-based recommender with runoff switched off (SylvCiT, Nicol 2026)
-- **Diversity literature:** species caps are rules of thumb (Kendal et al. 2014, after Santamour 1990); targets far below the current share risk losing well-adapted species and ecosystem services (Kendal et al. 2014, p. 415)
+**On slide:** one map, the slimmed version of the RM seminar "opening the boxes" diagram (`slides/fig_v8/v8_gap_boxes.html`)
+- **Top, three boxes:** climate data mapped street by street but not linked to the species in each pit · the problem (a project replaces trees, nobody measures what each species does to shade and runoff) · the city's rules (how much of each species, ≤ 15%, not which species where; the cap is a rule of thumb, Kendal et al. 2014)
+- **Middle:** heat + runoff workflows with fixed scenarios and no species choice (Mannucci 2025) · species tools with one service or no positions (SylvCiT/Nicol 2026; Shaamala 2025; Peng 2026; Dong 2026)
+- **Gap:** no method picks species per position on heat and runoff together, inside a city's replacement rules; funnel 18 → 7 → 1 → 0
+- **Bottom:** this method
 
-**Say (94 words):**
-"In practice there are rules but no numbers. In research, the tools either assess heat and runoff without species, or optimise heat alone. The most advanced trait-based recommender, SylvCiT, has its runoff module switched off. And the diversity literature itself warns about Barcelona's case. The fifteen percent cap is a rule of thumb. Kendal and colleagues, looking at 108 cities, warn that a target far below a species' current share risks replacing well-adapted trees with weaker ones and changing what they provide. The planes are at twenty-seven percent. That is where this method sits."
+**Say (95 words):**
+"Three things exist already. Heat and flooding are mapped street by street. The city has rules: no species above fifteen percent, and Kendal and colleagues call caps like this rules of thumb. And projects keep replacing trees. But nobody links them. The workflows that model heat and runoff together use fixed scenarios, with no species choice. The species tools optimise one service, or a mix with no positions. Of eighteen tools that place or assess urban trees, seven cover both services, one picks species, and none works tree by tree inside a city's rules. That is where this method sits."
 
 ---
 
 ## 8. Research question, scrutinised [5:00]
 **On slide:**
-> **Can a trait-based layout method, inside Barcelona's tree rules, choose replacement species for plane trees and new planting spots that retain and add more pedestrian cooling and storm-water interception than the city's own practice?**
+> **When a street project in Barcelona must replace trees, can a trait-based layout method, inside the city's tree rules, choose the new species and positions, and new planting spots, so that pedestrian cooling and storm-water interception improve, or at least do not get worse, compared with the city's own practice and with today?**
 
 - **SQ1 heat:** mean UTCI 12–17 h, hot design day
 - **SQ2 runoff:** total and at flood hotspots, 2-yr 60-min storm; above what the model resolves (Δmin)?
 - **SQ3 trade-off:** do heat-best and runoff-best layouts differ?
 - **SQ4 additions:** how much of the gap to 30% can new street trees close, and where?
 
-**Say (110 words):**
-"I scrutinised the question part by part; the table is in my notes. Three changes matter. First, 'reduce' became 'retain'. Replacing a plane almost always loses shade compared with today. So the fair test is my method against the city's own rule, with today as the reference. Second, additions are now an equal part: replace, add, or both. Third, every sub-question has a metric and a threshold. For runoff, 'not resolved by the model' is an allowed answer, because the differences are close to what the model can tell apart. The baseline is the city's 2026 mix, placed by its sidewalk rule; the 2004 table is cited, not run."
+**Say (157 words):**
+"I scrutinised the question part by part; the table is in my notes. Four changes matter. First, the question starts from the project: any tree that has to be replaced, with the planes as the first, validated case. Second, 'reduce' became 'improve, or at least do no harm'. Replacing a plane almost always loses some shade compared with today, so the first test is against the city's own practice, and today is the target, reached with new trees. Third, additions are an equal part: replace, add, or both. Fourth, every sub-question has a metric and a threshold. For runoff, 'not resolved by the model' is an allowed answer, because the differences are close to what the model can tell apart. The baseline is what the city actually plants where a plane goes, from its own inventory since 2018, next to its announced 2026 mix, both placed by its sidewalk rule; the 2004 table is cited, not run."
 
 ---
 
 ## 9. Hypotheses [5:35]
 **On slide:**
-- **H1:** trait-based layouts beat the city's rule on heat **and** runoff
+- **H1 (do no harm):** for any tree a project replaces, the method is no worse than the city's practice on heat or runoff, and better on summer heat
 - **H2:** heat-best and runoff-best layouts differ in species
 - **Declared boundary:** extreme storms are outside what street trees can affect (was H3; true by construction, so withdrawn)
 
-**Say (50 words):**
-"Two hypotheses. H1: the method beats the city's rule on both heat and runoff. H2: the best layout for heat and the best for runoff differ. And one declared boundary: at extreme storms trees don't matter. It used to be a hypothesis, but the model makes it true by construction."
+**Say (77 words):**
+"Two hypotheses. H1 is 'do no harm': the method is never worse than the city's practice on heat or runoff, and better on summer heat. For runoff this is a check: species matter little, the tree pit and grouping matter more. H2: the best layout for heat and the best for runoff differ. And one declared boundary: at extreme storms trees don't matter. It used to be a hypothesis, but the model makes it true by construction."
 
 ---
 
 ## 10. Methodology [6:10]
 **Figure:** `slides/fig_v7/flow_00_overview.png`
 
-**Say (95 words):**
+**Say (93 words):**
 "Here is the method on one page. Two hazards, heat and pluvial flooding. Open data: the tree inventory, LiDAR, sidewalk widths, terrain and flood hotspots, the hot day and the design storms. First a screening layer: indicators for every tree. Then a designer draws a project area. Inside it, two branches: replacing the planes, and adding trees in free spots. The city's rules are a hard input: the fifteen percent cap, the sidewalk size, the city's mix. Every layout is scored on heat, runoff and canopy and compared on one chart. Then validation."
 
 ---
@@ -137,7 +137,7 @@ The deck follows that order.
 ## 11. Design module [6:40]
 **Figure:** `slides/fig_v7/flow_04_design.png`
 
-**Say (60 words):**
+**Say (61 words):**
 "Inside the project area: planes to replace, ranked by priority, and free spots. Each spot gets the species that fit its sidewalk and the catalogue, and the optimiser picks the combination. Every layout is compared with the city's rule on the same positions. This is what makes it concrete: it works for one street rebuild, not only for a whole district."
 
 ---
@@ -145,16 +145,16 @@ The deck follows that order.
 ## 12. First results: replacement [7:15]
 **Figure:** `slides/fig_v7/res_01_radar.png` (backup: `res_02_bars.png`)
 
-**Say (100 words):**
-"First results, for all 832 planes in Porta. Heat here is effective shade, not yet UTCI. Each axis is normalised to today, a hundred. The city's rule keeps eighty-seven percent of today's summer shade. Choosing species by traits, under the same rules, keeps ninety-eight. The price is more shade in winter, about six percent, which is a real trade-off. On runoff, the difference is thirty-four cubic metres. That is below what the model can resolve, so for runoff the answer today is 'not resolved'. That is a result too, and an honest one."
+**Say (104 words):**
+"First results, for all 832 planes in Porta. Heat here is effective shade, not yet UTCI. Each axis is normalised to today, a hundred. The city's announced mix keeps eighty-seven percent of today's summer shade, and what it has actually planted since 2018 about ninety. Choosing species by traits, under the same rules, keeps ninety-eight. The price is more shade in winter, about six percent, which is a real trade-off. On runoff, the difference is thirty-four cubic metres. That is below what the model can resolve, so for runoff the answer today is 'not resolved'. That is a result too, and an honest one."
 
 ---
 
 ## 13. First results: replacement, additions, or both [7:55]
 **Figure:** `slides/fig_v7/res_03_scenarios.png`
 
-**Say (100 words):**
-"Then I added trees. In Porta there are 232 free spots on sidewalks wide enough under the city's rules, away from crossings and bus stops. That's still an upper bound, because driveways and services aren't in the data. Keeping the planes and adding trees gives the most shade, but the planes are going. Once they go, the city's rule plus the same new trees still ends below today, at ninety-two percent. Trait-based replacement plus additions ends above today, at a hundred and three and a half. So the combination of the two levers, chosen with numbers, is the only path that does better than today."
+**Say (173 words):**
+"Then I added trees. In Porta there are 232 free spots on sidewalks wide enough under the city's rules, away from crossings and bus stops. That's still an upper bound, because driveways and services aren't in the data. Keeping the planes and adding trees gives the most shade, but the planes are going. Once they go, the city's rule plus the same new trees still ends below today, at ninety-two percent. Trait-based replacement plus additions ends above today, at a hundred and three and a half. So the combination of the two levers, chosen with numbers, is the only path that does better than today. But the additions do not bring Porta to thirty percent: all 232 trees add about 0.6 points of cover, about six percent of the gap. On these streets new trees make up for the summer shade that replacement loses, not even for the crown cover: both levers together still end half a point below today. The rest of the target has to come from squares, parks and courtyards."
 
 ---
 
@@ -179,11 +179,11 @@ The deck follows that order.
 **On slide (right):**
 - Proxy vs Ladybug UTCI, Pg Andreu Nin, 1,974 points: r = −0.73 across points, −0.82 on the S4 − S0 change
 - S4 − S0, porous crowns, TMYx 2011–2025: −0.15 °C (Honeybee, Tier 2), −0.19 °C (Ladybug chain in Python, Tier 1), −0.10 °C over all Porta plane streets; opaque crowns +0.06 to +0.10 °C
-- To 1 Dec: UTCI on final layouts (Infrared City), hot design day · priority score · city screening layer. To 18 Dec: project tool anywhere in Barcelona · Sant Antoni transfer test
-- **Asks:** does Infrared City model porous crowns? · is a within-city transfer (Sant Antoni) enough? · may a barri lose while the city gains?
+- Next slide, "What comes next" (9 Nov): a timeline, one theme a week. 11–15 Nov every tree (any tree a project replaces, city layout vs S1b, demo works area) · 16–22 Nov heat (UTCI of final layouts, Infrared City, ENVI-met check, hot design day, priority score) · 23–29 Nov transfer (Sant Antoni, Mataró, Florence) · 30 Nov–6 Dec tool (screening layer, GeoPackage + QGIS, web app, co-benefits) · 7–18 Dec deliver (booklet, final presentation; defence 10–23 Dec). Writing runs every week.
+- **Asks** (spoken only, no longer on the slide): extend to every tree a project replaces, with the planes as the validated case? · does Infrared City model porous crowns? · is a within-city transfer (Sant Antoni) enough? · may a barri lose while the city gains?
 
-**Say (132 words):**
-"First independent check of the heat proxy: UTCI, today's planes against the tool's species. The proxy ranks points as Ladybug does, so it is fit for choosing positions. I rebuilt the Ladybug chain in Python; it matches Grasshopper to two hundredths of a degree and lets light through the crowns by their leaf area. Honeybee with Radiance agrees. The two layouts differ by about a tenth of a degree, on one street and over all of Porta, and the sign depends on whether crowns are opaque or porous. So my claim for heat is modest: no worse than today's planes; the gains are runoff, diversity and winter sun. Three questions: does Infrared model porous crowns, is Sant Antoni enough as a transfer test, and may one barri lose while the city gains?"
+**Say (166 words):**
+"First independent check of the heat proxy: UTCI, today's planes against the tool's species. The proxy ranks points as Ladybug does, so it is fit for choosing positions. I rebuilt the Ladybug chain in Python; it matches Grasshopper to two hundredths of a degree and lets light through the crowns by their leaf area. Honeybee with Radiance agrees. The two layouts differ by about a tenth of a degree, on one street and over all of Porta, and the sign depends on whether crowns are opaque or porous. So my claim for heat is modest: no worse than today's planes. The gain over the city's practice is the summer shade kept, under the cap; runoff is a check, and winter sun is a cost. Four questions: may I extend the method to every tree a project replaces, keeping the planes as the validated case? Does Infrared model porous crowns, is Sant Antoni enough as a transfer test, and may one barri lose while the city gains?"
 
 ---
 
@@ -191,8 +191,14 @@ The deck follows that order.
 - **B1 Heat module:** `slides/fig_v7/flow_02_heat.png`
 - **B2 Runoff module:** `slides/fig_v7/flow_03_runoff.png`
 - **B3 City screening:** `slides/fig_v7/flow_01_screening.png`
-- **B4 Results in real units:** `slides/fig_v7/res_02_bars.png`
+- **B4 Results in real units:** native charts. Zero = the city's mix (S1a); each panel says which direction is better. Answer if asked about the negative bars: "Runoff below zero means less water than the city's mix, so it is good, but it stays under Δmin, so I only claim no harm. The one cost is winter shade, about 6% more. Optimised is the balanced layout of the weight sweep; it keeps slightly less summer shade than today, but much more than the city's mix."
+- **B4b Wider palette (30 species), Porta + 32 barris:** native chart, all 33 names shown (`scripts/make_palette30_v7.py`, PR #89). If asked about "only a few species": the same rules with the city's 30-species catalogue give a median +8.2 points of summer shade over the 7-species palette (31 of 32 barris gain), at the price of more winter shade (96-128% of today). Each barri is optimised alone; the city-wide LP still uses 7 species.
 - **B5 Sizing rule leaves real choice:** `slides/fig_v6/v6_09_sizing_rule.png`
+- **B6 How the optimiser finds the layout** (9 Nov, editable deck only): score table (positions × species, alone) → weights → exact transportation LP (HiGHS, ~0.06 s for Porta's 832 positions, ~10 s for 31,580 city positions in a timing test) → re-score with the full models. Answers if asked:
+  - *"Why not Wallacei, Opossum or ant colony?"* "They search by trial and error and fit black-box objectives. Mine are sums over positions, so an exact solver finds the proven optimum in under a second. If the full UTCI ever goes inside the loop, the objective stops being linear, and then a genetic search like NSGA-II is the right tool."
+  - *"Will you train a machine-learning surrogate?"* "Not as a main step. The shade proxy is already fast and ranks points like Ladybug (r = −0.73). Infrared City is itself an ML surrogate of UTCI, so I use it on the final layouts. My own surrogate only if the proxy fails the calibration against Infrared."
 - **B7 Validation plan:** `slides/fig_v7/flow_05_validation.png`
-- **B8 Co-benefits not optimised (yet):** `slides/fig_v7/v7_17_cobenefits.png` (pollen, carbon, diversity, ozone/VOC; plan in `notes/cobenefits_plan.md`). Answer if asked: "They are not objectives of the tool. From next week I report them for every layout; carbon may go against me, because the planes are big, and I will show it."
+- **B9 Baseline, from press to practice:** `slides/fig_v7/v7_18_baseline.png` (S1-2004 cited; S1a press mix; S1b observed mix 2018–2026, the reference since 6 Nov; Porta 87.4 / 90.3 / 99.1%; median margin +5.7 / +7.2 points over 33 barris)
+- **B8 Co-benefits not optimised (yet):** `slides/fig_v7/v7_17_cobenefits.png` (pollen; carbon stored and sequestered, both lost when a large tree is felled; diversity; air: PM2.5 from leaf area, ozone/VOC a declared limit; replanting and maintenance costs and noise are future work; plan in `notes/cobenefits_plan.md`). Answer if asked: "They are not objectives of the tool. From next week I report them for every layout; carbon may go against me, because the planes are big, and I will show it. Costs need Barcelona prices I do not have yet."
+- **B10 Simplifications and their risks** (asked at RM_L04, 5 Nov): only in the editable deck (`scripts/make_deck_editable.py`); list from `study/guide.md` §11.
 - **B6 RQ scrutiny table:** `notes/topic_decision.md` §10.5 (text slide)

@@ -1,4 +1,4 @@
-# Study guide: Shade and Sponge (state of 21 Oct 2026)
+# Study guide: Shade and Sponge (state of 9 Nov 2026)
 
 A condensed version of the thesis for **learning it**, not for writing it. Every fact here comes from the project notes; the source file is named in each chapter, so check there when a number changes. If a note is updated, update this guide and the cards (`flashcards.csv`, `quiz.csv`).
 
@@ -8,13 +8,43 @@ A condensed version of the thesis for **learning it**, not for writing it. Every
 
 ## 0. The thesis in 30 seconds (learn this by heart first)
 
-> Barcelona has decided to remove more than half of its plane trees within ten years. Its tree master plan says **how much** of each species the city may have (no species above 15%), and its street-tree rules say **which tree size fits which sidewalk**. Nobody decides **which species goes where** with numbers: trees are replaced one at a time from criteria the city has not published, and no instrument measures what each choice does to heat or runoff. In **Porta (Nou Barris)** the same streets suffer **summer heat stress** and **pluvial flooding**. My thesis is **a computational method that takes the city's rules as constraints and chooses, position by position, the replacement that keeps the most cooling and rain interception**, scoring each layout on **pedestrian heat stress (UTCI)** and **event runoff volume**, and showing the **trade-off** as a Pareto front.
+> Barcelona has decided to remove more than half of its plane trees within ten years. Its tree master plan says **how much** of each species the city may have (no species above 15%), and its street-tree rules say **which tree size fits which sidewalk**. The only documented rule for **which species replaces a tree** is qualitative (a 2004/2005 table by district and sidewalk width), Porta's plantings mostly do not follow it, and no rule measures what each choice does to heat or runoff. In **Porta (Nou Barris)** the same streets suffer **summer heat stress** and **pluvial flooding**, and tree cover is already below the city's target. My thesis is **a computational method that, when a project must replace street trees, takes the city's rules as constraints and chooses the new species and positions, and new planting spots, so that cooling and rain interception improve, or at least do not get worse, than with the city's own practice**. The plane trees are the first, validated case: first in Porta, then over 28 barris in one city-wide optimisation.
 
-**One sentence:** *the city fixes how much; the method decides where, within the rules → heat + runoff → trade-off.*
+**One sentence:** *the city fixes how much; the method decides which species where, within the rules, and keeps more shade than the city's own mix → heat no worse than today's planes in UTCI, runoff below what the model resolves.*
+
+**The 10 Nov message in three sentences (learn these first):**
+1. When a project must replace street trees (about 11,000 replacements since 2018, planes the largest case at 13%), the only rule for the new species is qualitative: nobody measures whether the street gets better or worse for heat and runoff.
+2. The method chooses species and positions inside the city's rules (15% cap, sidewalk rule) and compares them with the city's own practice (S1a press mix, S1b observed mix).
+3. It keeps more summer shade than the city's rule in every barri tested on its own (27 of 28 in the joint city run); in UTCI it is "no worse than today's planes"; for runoff the difference is below what the model can resolve.
 
 **The logic chain (the tutor's order):** problem → why it matters → gap → research question → hypotheses → method (data, tools) → tool → first results → limits.
 
-### What changed on 21 Oct (v6 — learn this first)
+### What changed on 9 Nov: the v8 framing (learn this first)
+- **The question starts from the project** (Giovanni, 9 Nov): *when a project must cut and replace trees, what is the best approach?* The method covers **any tree a project replaces**; the **plane trees are the first, validated case** (all results so far). `notes/topic_decision.md` §11.
+- **The criterion is "improve, or at least do no harm"**: first against the city's practice (S1b), then against today (reached with additions). For runoff, "no worse" means within Δmin = 91 m³.
+- **Evidence** (city inventory 2018Q1–2026Q2, `scripts/inventory_history.py`): **10,976 replacements with a change of species, 172 taxa removed; planes 1,444 (13%)**; the four "avoid" species of the 2011 guide 2,883 (26%). In Porta 227, of which only 10 planes (poplars lead). A same-species replant is invisible, so these are a floor.
+- **H1 (v8):** no worse than the city's practice on heat or runoff, better on summer heat. H2 and the boundary unchanged.
+- **Scope:** planes validated; one demo after 10 Nov with every tree a works area replaces (S1b per removed taxon). Not everything can be validated to the same depth by December.
+- **New question for the tutor:** extend to every tree a project replaces, keeping the planes as the validated case?
+
+### What changed with the seminars, 5–9 Nov (RM_L04, RT pitch)
+- **Runoff is a check, not the main gain** (Mathilde, RM_L04, 5 Nov): with Barcelona's square tree pits all alike, runoff depends more on pit size and on grouping trees than on species. Say it before the tutor does; the value is summer shade kept, canopy and diversity under the cap (carbon and pollen reported as co-benefits). H1 stays as a test with Δmin, its runoff part is "not resolved".
+- **List every simplification with its risk** (Mathilde): backup slide B10 and §11.
+- **Say "plane tree (Platanus)" the first time, and that the tool is for any tree to replace** (Iacopo): the plane is the first case.
+- **Cluster framing** (Iacopo): "what makes it correct is a model decision"; your branch is **"optimal against the rules"** (Elena's: against the individual; David's: against the water the site has). Baseline wording in the cluster map: **"the city's rule-following replacement"** (in the deck: S1b, the observed mix placed by the sidewalk rule).
+- **TRL** (RT pitch): TRL 3 now, TRL 4 by December, TRL 5 needs a real designer test.
+
+### What changed from 21 Oct to 3 Nov (v7 — learn this first)
+- **Gate 1 answered (24 Oct):** the city *does* have a replacement rule on paper, the Parcs i Jardins 2004/2005 table by district × sidewalk width (Nou Barris: *Prunus cerasifera* < 3.5 m, Melia or Jacaranda 3.5–6 m, keep the plane > 6 m). Its criteria are tolerance, typology, tradition, experience: **no heat, no runoff**. The 2011 guide no longer prints it, and in Porta up to ~90% of 2007–2026 plantings on narrow and medium sidewalks miss the district table; counting the wider rebuilt-street list (p. 13) too, ~62% match no 2004 list (an upper bound, 9 Nov). So the problem is "a qualitative rule, not visible in practice, that measures nothing" (§1).
+- **"Are there enough trees?" answered:** no. Porta's tree cover is **20.1%** (LiDAR 2021) against the city's **30%** 2037 target (8.3 ha short), and planes are **~29%** of its canopy (§1).
+- **RQ v7** (24 Oct): "reduce" became "**retain**", the method is compared with the city's rule (S1), additions of new trees are co-equal, and there are **four sub-questions** (§7).
+- **Results v7** for Porta (replacement, additions, both), **33 barris** run one by one, and a **city-wide LP over 28 barris** with the 15% cap and a local ceiling (§9b).
+- **A second baseline, S1b = the city's observed replacement mix** (1,444 plane replacements 2018–2026 from the quarterly inventory, 31 Oct). The tool beats both S1a and S1b. Decided 6 Nov: S1b is the reference baseline, S1a stays beside it, and the 2004/2005 table is renamed **S1-2004** (cited, not run) (§9b).
+- **The first UTCI check is done (2–3 Nov):** Ladybug Tier 1 rebuilt in Python, Honeybee Tier 2, porous crowns. Claim for heat: **no worse than today's planes**, not "cooler" (§9c).
+- **Policy chain checked (31 Oct):** Nature Plan = area targets only; Climate Plan 2024 p.33 = +5% tree cover, adapted species 30→40%, 7 ha SUDS, 9 ha shade. None sets species per position (§1).
+- **Grasshopper is not required** by the programme (30 Oct); co-benefits (pollen, carbon, diversity) are a **backup slide only** before 10 Nov (3 Nov).
+
+### What changed on 21 Oct (v6)
 - **The tree master plan was read in full** (20 Oct) and the problem was **rebuilt on it** (`notes/topic_decision.md` §9, `notes/tree_master_plan.md`). The tutor's 20 Oct feedback (as you reported it): the problem was not defined well enough.
 - **The answer to "hasn't the city already solved this?":** no. The city decided *how much* (15% cap; planes cut by 56% to 12% in ten years, press) and *which size fits which sidewalk* (2011 guide). It did **not** decide *which species at each position*, and nothing it publishes measures heat or runoff (§1).
 - **S1 changed:** it is now **the city's own replacement**, i.e. the 2026 target mix assigned by the city's sizing rule, not "like-for-like" (§7, §8).
@@ -47,7 +77,27 @@ A condensed version of the thesis for **learning it**, not for writing it. Every
 ---
 
 ## 1. The problem
-Sources: `notes/topic_decision.md` §9 (v6) and §7; `notes/tree_master_plan.md`.
+Sources: `notes/topic_decision.md` §10 (v7), §9 (v6) and §7; `notes/tree_master_plan.md` §5b, §8.
+
+**The problem in one sentence (v7, slide 5):** *When Barcelona replaces a plane tree, the only documented rule for the new species is qualitative (district, sidewalk width, tradition; 2004/2005). Current practice is unpublished, and no rule quantifies heat or runoff. So thousands of replacements over the next decade will change how much shade and rain interception each street keeps, and nobody measures by how much.*
+
+**Context ≠ problem ≠ gap (keep them apart):**
+- **Context** (decided, not your problem): planes cut by more than half; 15% cap; size class by sidewalk width; replacement one tree at a time.
+- **Problem:** (1) the rule exists and is qualitative; (2) it is not visible in practice (~62% of Porta's 2007–2026 plantings on narrow/medium sidewalks match no 2004 list, rebuilt-street list included; ~90% miss the district table alone; upper bounds); (3) no rule quantifies the consequences; (4) the consequences are large (crowns differ three- to fourfold at equal trunk size); (5) they fall where both hazards overlap.
+- **Gap:** practice has rules but no quantities; research assesses heat + runoff without species (Mannucci 2025; Wu 2024) or optimises heat only (Shaamala 2025; Peng 2026); SylvCiT has runoff switched off; the diversity literature calls caps rules of thumb (Santamour 1990; Kendal 2014).
+
+**Gate 1, the 2004/2005 table (Parcs i Jardins), Nou Barris:** *Prunus cerasifera* below 3.5 m · Melia or Jacaranda 3.5–6 m · **keep the plane** above 6 m. Criteria: tolerance, urban typology, tradition, technicians' experience. This is why Jacaranda now counts as named (for medium sidewalks), while Brachychiton is still not named anywhere. **Baseline:** decided 24 Oct as S1a (the 2026 press mix); **from 6 Nov the reference is S1b, the city's observed replacement mix**, with S1a beside it. The table is called **S1-2004** and is cited in the problem chapter, not run.
+
+**Are there enough trees? (tutor, 20 Oct)** No. City target **30%** tree cover by 2037 (plan 2017, target 1). **Porta 20.1%** of 83.7 ha (CHM > 2 m, LiDAR 2021), ~10 points and **8.3 ha** short. Plane crowns = 5.75% of the area, **~29% of the canopy**. At equal trunk size, all-Brachychiton crowns would bring Porta to **~16%**; Tipuana or Jacaranda keep it roughly level. Outside benchmark: only 8.7% of 3,145 Barcelona residents met 3-30-300's 30% criterion (Nieuwenhuijsen et al. 2022).
+
+**The policy chain (31 Oct; `notes/tree_master_plan.md` §8):**
+| Document | What it sets | What it does not |
+|---|---|---|
+| Tree master plan 2017–2037 | 15% per species; 30% tree cover; 40% adapted species | species per position; heat or runoff per tree |
+| Nature Plan 2021–2030 | area targets only | no street-tree or canopy target; "which species for shade, where" is a study still to do (project 83, p.114) |
+| Climate Plan 2024 | p.33: tree cover +5% by 2037, adapted species 30→40%, 7 ha SUDS, 9 ha shade; p.43 "aligned tree pits" | targets in hectares and shares, never per tree |
+
+**Your line:** *every level sets areas or shares; none says what a species does at a position. That is the gap the method fills.*
 
 **What the city has decided, and what it has not (learn the two lists):**
 - **Decided:** reduce the planes (no species above **15%** of the urban fabric by 2037, master plan target 3; planes cut by **56%**, from **43,722 (27.45%)** to **12%**, within ten years, press May 2026); **how** (gradually, as trees die and when streets are rebuilt); **which species may be used** (the city's catalogue and a 2026 target mix, press); **which size fits which sidewalk** (2011 street-tree guide).
@@ -75,6 +125,9 @@ Sources: `notes/topic_decision.md` §9 (v6) and §7; `notes/tree_master_plan.md`
 4. Why is Bologna a bad case for a tree-based flood thesis?
 5. What has the city already decided, and what has it not? (Two lists.)
 6. Give the three reasons for the 15% cap. Where does the number 15 come from?
+7. Does the city already decide which tree replaces which? (Gate 1, in 20 seconds.)
+8. Are there enough trees in Porta? Give both numbers.
+9. Name the three policy documents and what each sets.
 
 <details><summary>Answers</summary>
 
@@ -84,6 +137,9 @@ Sources: `notes/topic_decision.md` §9 (v6) and §7; `notes/tree_master_plan.md`
 4. Its recent floods were multi-day / saturated-soil / culvert events; trees only matter for frequent, short pluvial storms.
 5. Decided: how much (15% cap, 12% planes), how and when (at death, at street works), which species may be used, which size fits which sidewalk. Not decided: which species at each position, the heat and runoff effect of each choice, priority where the hazards overlap.
 6. Pest/disease risk of a monoculture, climate resilience, biodiversity. The plan derives no number; the literature's species benchmarks are mostly 10–15% (Kendal et al. 2014), Santamour's is 10%, and 15% is also the regional convention.
+7. On paper: the 2004/2005 table by district × sidewalk width (Nou Barris: Prunus < 3.5 m, Melia or Jacaranda 3.5–6 m, plane kept > 6 m), qualitative criteria, no heat or runoff; the 2011 guide no longer prints it, and Porta's plantings mostly do not match it (~62% match no 2004 list, rebuilt-street list included; an upper bound).
+8. No: 20.1% cover (LiDAR 2021) against the 30% target for 2037, 8.3 ha short; planes are ~29% of the canopy.
+9. Master plan (15% cap, 30% cover, adapted species), Nature Plan (area targets only; project 83 lists "which species for shade, where" as a study to do), Climate Plan 2024 (+5% cover, adapted 30→40%, 7 ha SUDS, 9 ha shade). None sets species per position.
 </details>
 
 ---
@@ -249,18 +305,30 @@ Sources: `notes/topic_decision.md` §6.1, §7; `slides/outline_20oct.md`; `notes
 ---
 
 ## 7. Research question and hypotheses (learn word-perfect)
-Source: `notes/topic_decision.md` §9.4–9.5 (v6), §8.
+Source: `notes/topic_decision.md` §10.5–10.6 (v7, 24 Oct), §9.5, §8.
 
-**RQ (v6, 21 Oct):** *In Porta, as plane trees are replaced under Barcelona's tree master plan, which replacement species, chosen within the plan's rules (no species above 15%, tree size class set by sidewalk width, the city's species catalogue), and at which plane positions, jointly reduce (a) pedestrian heat stress (**mean UTCI over 12–17 h on a hot design day**, along sun-exposed routes) and (b) event runoff volume from sealed street surfaces (1-, 2- and 10-year PDISBA design storms)? How large is the trade-off between the two, and how far do rule-compliant optimised choices differ from the current trees and from the city's own replacement?*
+**RQ (v7, 24 Oct, slide 8):** *Can a trait-based layout method, inside Barcelona's tree rules, choose replacement species for plane trees and new planting spots that retain and add more pedestrian cooling and storm-water interception than the city's own practice?*
 
-- **H1, synergy:** same positions, same size classes the sidewalks allow → trait-based choices beat **the city's own replacement (S1)** on **both** goals (crown size and LAI drive both).
-- **H2, trade-off:** heat-optimal and runoff-optimal layouts differ mainly in **species**, not positions (leaf habit, transpiration) → the Pareto front is not a single point.
+- **SQ1 heat:** mean UTCI 12–17 h (CEST) on a hot design day, city rule vs method.
+- **SQ2 runoff:** 2-year, 60-min storm, in total and at flood hotspots; is the total difference larger than what the model resolves (**Δmin**)?
+- **SQ3 trade-off:** do the heat-best and runoff-best layouts differ, and in which species?
+- **SQ4 additions:** how much of the canopy gap to the 30% target can new street trees close within the planting rules, and where?
+
+**The three changes from v6 (say them when asked "you scrutinised it how?"):**
+1. **"Reduce" became "retain".** At equal trunk size the plane has one of the largest crowns, so a replacement almost always loses shade against today. The fair test is the method against the city's own rule (S1), with today (S0) as the reference.
+2. **Additions are co-equal:** replace, add, or both (R, A, R+A).
+3. **Every sub-question has a metric and a threshold;** "not resolved" is an allowed answer for runoff.
+
+Older v6 wording (superseded): "which replacement species … and at which plane positions, jointly reduce (a) … UTCI … and (b) event runoff volume …".
+
+- **H1, synergy:** trait-based layouts beat **the city's rule (S1)** on heat **and** runoff (crown size and LAI drive both).
+- **H2, trade-off:** heat-best and runoff-best layouts differ in **species**. Mechanism restated in v7 as crown size and leaf-on calendar (transpiration is not in Tier 1).
 - **~~H3, validity boundary~~ — WITHDRAWN 19 Oct:** *the runoff benefit shrinks as the return period grows; small at T = 10 yr; extreme events (6 Sept 2018, ≈300-yr 20-min intensity) are outside what trees can affect.* Still true, still said — but as a **declared boundary of the method**, not a hypothesis, because the bucket model cannot fail it.
 
 **Mnemonic: S-T** = **S**ynergy, **T**rade-off — plus **one withdrawn boundary**. If you are asked for three, name two and say why the third went.
 
 **Status of the hypotheses (v5, `notes/topic_decision.md` §8):**
-- **H1, runoff part:** a minimum meaningful difference **Δmin = 91 m³** (0.9 mm over the street crowns, 0.5% of T2-60 runoff) is proposed, fixed before the runs. If the best layout beats S1 by less than Δmin, the runoff part is reported as **"not resolved by the model"**: accepted as a valid outcome (user, provisional, 14 Oct). Today's exploratory value is **78 m³** (worst case 38.5 m³) → not resolved. Then heat carries the species choice and runoff becomes a check.
+- **H1, runoff part:** a minimum meaningful difference **Δmin = 91 m³** (0.9 mm over the street crowns, 0.5% of T2-60 runoff) is proposed, fixed before the runs. If the best layout beats S1 by less than Δmin, the runoff part is reported as **"not resolved by the model"**: accepted as a valid outcome (user, provisional, 14 Oct). The v7 result (24 Oct, method vs S1a, total T2-60) is **33.9 m³** → not resolved (earlier exploratory value: 78 m³, worst case 38.5 m³). Then heat carries the species choice and runoff becomes a check.
 - **H2:** proposed as a species-composition claim (S2 vs S3 differ by more than a pre-fixed dissimilarity) at the fixed plane positions.
 - **H3: withdrawn (user, 19 Oct)** and kept as a **declared boundary of the method**, since it is true by construction (§3). Question for the tutor, on slide 12: is that the right call?
 - **Trade-off metric (proposed):** % loss of one objective at the other's optimum.
@@ -272,7 +340,7 @@ Source: `notes/topic_decision.md` §9.4–9.5 (v6), §8.
 
 <details><summary>Answers</summary>
 
-1. In Porta, which replacement species, chosen within the master plan's rules, and at which plane positions, jointly reduce UTCI and runoff volume (1-, 2-, 10-yr storms), and how large is the trade-off versus current trees and the city's own replacement?
+1. Can a trait-based layout method, inside Barcelona's tree rules, choose replacement species for planes and new planting spots that retain and add more cooling and storm-water interception than the city's own practice?
 2. H1 synergy: S4 vs S1 on both objectives. H2 trade-off: species composition of S2 vs S3. H3 was withdrawn on 19 Oct (true by construction) and is now a declared boundary; the old comparison was runoff benefit vs return period T.
 3. The minimum meaningful runoff difference, 91 m³ (0.5% of T2-60 runoff). Below it, the runoff part of H1 is "not resolved by the model" (neither supported nor rejected).
 </details>
@@ -281,6 +349,16 @@ Source: `notes/topic_decision.md` §9.4–9.5 (v6), §8.
 
 ## 8. Method and tool
 Sources: `notes/methodology.md`, `shade_sponge/README.md`.
+
+**What is new since 21 Oct (slides 10–11):**
+- **Two branches inside a project area the designer draws:** replace the planes (ranked by priority) and add trees in free spots. Scenarios: **S0** today · **R** replacement only (S1 city rule vs optimised) · **A** additions only · **R+A** both. Compared on a radar of normalised indicators (summer shade, winter sun, total and hotspot runoff, canopy cover, diversity), always next to bars in real units with the Δmin marks.
+- **Free spots (Porta): 232** on sidewalks wide enough under the city's rules, away from crossings and bus stops. An upper bound: driveways and services are not in the data.
+- **City's rules as hard inputs:** 15% cap (city-wide, counted on **street trees only**, a simplification decided 26 Oct), sidewalk size class, the city's mix as baseline.
+- **Equal trunk size:** species are scored at equal trunk class, not at their raw Porta medians.
+- **Optimiser in practice:** a weighted-sum LP (HiGHS) sweep; NSGA-II is still the plan for later. The **city LP** solves 28 barris at once under one city-wide cap, plus an optional **local ceiling** (no species in a barri above today's plane count).
+- **Any barri:** `site.build_barri` builds a site from the city LiDAR tiles; 33 barris computed (`notes/citywide_plan.md` §6).
+- **Palettes scale to N species:** city palette of 7 and a Barcelona shortlist of 34 (30 after excluding the 2011 guide's red "avoid" species, 3 Nov, branch not yet merged). Answer to "only three species?".
+- **Front-ends:** Grasshopper is **not required** by the programme (30 Oct); the web app covers non-programmers.
 
 **Pipeline (5 steps):** LiDAR trees → trait table → runoff module + heat module → optimiser → Pareto front → test on Sant Antoni and Florence.
 
@@ -318,6 +396,8 @@ Sources: `notes/methodology.md`, `shade_sponge/README.md`.
 ## 9. First results
 Sources: `notes/methodology.md` §4b, §6; `shade_sponge/README.md`.
 
+*The results in this chapter are the v0/v1 runs of 8–20 Oct (shade proxy, random-palette S1). The 10 Nov results are in §9b and §9c.*
+
 **Runoff v1 (T2, 60 min):**
 - Current street trees cut Porta's runoff by **1.85%** (open space only: **2.9%**). Range over s and T: **0.4–4.0%**.
 - Same order as the field benchmark (**3.5–4%**, Selbig 2021 / Coville 2022). Barcelona city-wide also small (Cortinovis 2022: 20,170 new trees, retention 50.18% → 50.76% for a 20 mm event).
@@ -348,6 +428,93 @@ Sources: `notes/methodology.md` §4b, §6; `shade_sponge/README.md`.
 3. Swapping ~90 Tipuana for Jacaranda: same summer shade, only 2% less winter shade (15 Oct re-run; 9% with the old calendar), and not robust.
 4. The first result used the medians of only 5 Porta trees (crown 8.85 m, LAI 3.32); the sample outside Porta (367 trees without merged crowns) gives a smaller crown (5.32 m) and LAI (2.12).
 5. Yes: beyond the balanced layout, winter-heavy gives −20% winter shade for −18% summer shade (base run); the trade-off holds in all 8 variants (winter −14 to −23%, summer −17 to −20%). Only the "free" swap at the start of the front shrank.
+</details>
+
+---
+
+## 9b. Results v7: Porta, additions, the city (slides 12–15)
+Sources: `slides/outline_10nov.md` slides 12–15; `notes/citywide_plan.md` §6.6–6.9; `notes/topic_decision.md` §10.5; observed S1b: `notes/data_sources_pemb_30oct.md` §6.
+
+**Porta, replacement of all 832 planes (slide 12).** Heat here is effective shade (proxy), each axis normalised to today = 100.
+- **Summer shade: city rule (S1a) 87%, method 98%** of today. Price: about **6% more winter shade**, a real trade-off.
+- **Runoff: −33.9 m³** total at T2-60 vs S1a, **below Δmin = 91 m³ → "not resolved"**. An honest result, not a failure.
+
+**Porta, additions (slide 13).** 232 free spots. Keeping the planes and adding trees gives the most shade, but the planes are going. **City rule + the same new trees: 92%** of today. **Method + additions: 103.5%**. Only the combination of the two levers, chosen with numbers, ends above today. **But additions do not reach the 30% target:** all 232 trees add +0.62 points of canopy cover (city mix +0.51), from 20.1% to about 20.7%, about 6% of the gap (`shade_sponge/README.md`). On streets, new trees compensate the summer shade that replacement loses, not the crown cover (replacement + additions, optimised: −0.5 points vs today); the rest of the target needs squares, parks and courtyards, outside this tool's scope (they are not street positions and have no sidewalk rule).
+
+**City-wide, 28 barris, one LP (slides 14–15).** Barris with ≥ 500 planes: **31,580 planes**, one optimisation under the 15% city cap plus the local ceiling.
+- Against the city's mix: **median +9.2 points** of today's summer shade (−1.4 to +25.4); **27 of 28 gain**. The one loss: **Sant Gervasi – la Bonanova, 90.8% vs 92.2%**, because with one city cap the capped species go where they add most (el Poble-sec +21.8, Diagonal Mar +17.4 against the local cap).
+- **Celtis (1,318) and Tipuana (11,348) end at the cap.** Three barris end above today: Porta 103.3%, el Poble-sec 105.3%, Sant Andreu 105.7%. Winter shade median 114%.
+- **Local ceiling** (your addition): stops a barri from ending more concentrated than today (without it one barri got almost half Tipuana). **It is infeasible where few planes are replaced** (Baró de Viver, 15 planes; la Trinitat Vella, 167): small barris need a different rule. Open, and one of the three questions for the tutor ("may a barri lose while the city gains?").
+- LiDAR season differs: most new barris are from the **June 2022** flight, Porta from **26 Sept 2021**. Declared, not corrected.
+
+**First transfer, Sant Antoni (28 Oct):** the flood-dominant contrast site, 989 planes; the tool keeps more shade than the city rule there too (79.2% vs 72.1% in the city LP). Within-city transfer is the validation case; Florence and Mataró become "future work: other cities".
+
+**S1a vs S1b, "from press to real data" (31 Oct).**
+- **S1a** = the 2026 target mix (press), drawn within the sizing rule. **S1b** = the same draw weighted by what the city **actually planted** where planes were replaced: **1,444 cases, 2018–2026**, from 35 quarterly inventory files (Celtis 296, Melia 219, Gleditsia 105, Koelreuteria 89, Styphnolobium 86, Grevillea 70, Pyrus 65, Jacaranda 54). The city keeps the pit code when it replants, so a replacement is a species change on the same code.
+- Tool margin in summer shade, 33 barris run one by one: **vs S1a median +5.7 points (0.8–11.7), vs S1b median +7.2 (0.9–18.1); no barri ≤ 0.** The observed mix is usually a little worse than the press mix (median −1.5 points).
+- **Porta: S1a 87.4, S1b 90.3, tool 99.1** → margin 11.7 → 8.8.
+- **Decided 6 Nov:** S1b (observed) is the reference baseline, S1a (press) stays beside it, and the 2004/2005 table is renamed **S1-2004**: cited to show a rule exists, not run. The city LP numbers (+9.2 median) are still against S1a.
+
+### Check yourself
+1. Porta replacement: summer shade for the city rule and for the method? What does it cost?
+2. Why is the runoff answer "not resolved", and why is that acceptable?
+3. With additions, which path ends above today?
+4. City LP: how many barris and planes, what median gain, who loses and why?
+5. What is the local ceiling, and where does it break?
+6. What is S1b, and how large is the tool's margin against S1a and S1b?
+
+<details><summary>Answers</summary>
+
+1. 87% (S1a) vs 98% of today's summer shade; about 6% more winter shade.
+2. The total difference (33.9 m³) is below Δmin = 91 m³, fixed before the runs; "not resolved" was declared an allowed outcome, so heat carries the species choice.
+3. Trait-based replacement plus the 232 additions: 103.5% (city rule + additions: 92%).
+4. 28 barris, 31,580 planes; median +9.2 points vs the city mix; 27/28 gain; la Bonanova loses (90.8 vs 92.2) because the city-wide cap sends Celtis and Tipuana where they add most.
+5. No species in a barri above today's plane count; infeasible where few planes are replaced (Baró de Viver, la Trinitat Vella).
+6. The city's observed plane-replacement mix 2018–2026 (1,444 cases). Margin median +5.7 points vs S1a and +7.2 vs S1b; Porta 11.7 → 8.8.
+</details>
+
+---
+
+## 9c. Heat validation: the first UTCI check (slide 16)
+Sources: `notes/methodology.md` §5b; `notes/method_heat_validation.md`; `/mnt/project-files/figures_10nov/ladybug_tier1_steps.md`.
+
+**What was run (2–3 Nov):** today's planes (S0) against the tool's species (S4) on **Pg Andreu Nin** (1,974 sidewalk points) and on all Porta plane streets, mean UTCI 12–17 h CEST (EPW hours 11–16), 15 July.
+- **Tier 1 = Ladybug** (Human to Sky, Outdoor Solar MRT, UTCI), **rebuilt in Python** (`scripts/porous_utci.py`): matches Grasshopper to **bias −0.01/−0.02 °C, r 0.998–0.999**, so long runs go in Python.
+- **Tier 2 = Honeybee** with Radiance (UTCI comfort map), crowns as ellipsoid meshes, porous via a Radiance glass modifier.
+- **Porous crowns:** τ = exp(−0.5·LAI) lets light through by leaf area. Opaque crowns would hide the LAI difference between species.
+- **Weather:** El Prat **TMYx 2011–2025** (the project reference; the full-record 1973–2023 TMYx is 2.5–3 °C cooler on 15 July).
+- **Bug found and fixed:** the Grasshopper loader left crowns round (non-uniform scale on a sphere Brep); mesh ellipsoids fixed it.
+
+**Results (S4 − S0, mean UTCI):**
+| | Porous crowns | Opaque crowns |
+|---|---|---|
+| Pg Andreu Nin, Honeybee (Tier 2) | **−0.15 °C** | +0.06 °C |
+| Pg Andreu Nin, Python Tier 1 | **−0.19 °C** | +0.10 °C |
+| All Porta plane streets (832 positions, 21,352 points), Tier 1 | **−0.10 °C** | −0.03 °C |
+
+All with TMYx 2011–2025. The differences do not change with the weather file. Note: 15 July in this TMYx is an ordinary July day, not yet the hot design day.
+
+- **Proxy vs Ladybug: r = −0.73 across points, −0.82 on the S4 − S0 change** (opaque crowns, Andreu Nin). The proxy ranks points as Ladybug does, so it is fit for choosing positions (more shade → lower UTCI, hence the negative r).
+- Honeybee is 0.6–0.9 °C warmer than Tier 1 in absolute terms; cause not checked. Trust **differences and rankings**, not absolute values.
+
+**The claim (learn it):** *for heat the method is no worse than today's planes, within model uncertainty; the two layouts differ by about a tenth of a degree and the sign depends on crown porosity. The gain over the city's practice is the summer shade kept, under the cap; runoff is a check (not resolved) and winter sun is a cost (about +6% winter shade in Porta).* Precedent for small effects: a genetic algorithm moved site-mean UTCI by only **0.1–0.3 °C** (Hao et al. 2023).
+
+**Next (to 1 Dec):** UTCI of the final layouts with **Infrared City** (~160 runs on sample streets, then calibrate the shade proxy; a surrogate only as plan B). Open question for the tutor (a co-founder): does Infrared model porous crowns?
+
+### Check yourself
+1. What are Tier 1 and Tier 2, and how well does the Python chain match Grasshopper?
+2. Why porous crowns, and with which formula?
+3. Give S4 − S0 for Andreu Nin (both tiers) and for all of Porta.
+4. What does r = −0.82 mean, and why is it negative?
+5. State the heat claim in one sentence.
+
+<details><summary>Answers</summary>
+
+1. Tier 1: Ladybug sky view + solar MRT + UTCI, rebuilt in Python (bias −0.01/−0.02 °C, r 0.998–0.999 vs Grasshopper). Tier 2: Honeybee with Radiance.
+2. Opaque crowns hide the LAI difference between species; τ = exp(−0.5·LAI).
+3. Porous: −0.15 °C (Honeybee), −0.19 °C (Python Tier 1); all Porta −0.10 °C. Opaque: +0.06 / +0.10 °C on Andreu Nin, −0.03 °C over Porta.
+4. The proxy's change in shade from S0 to S4 tracks Ladybug's change in UTCI; more shade means lower UTCI, so the correlation is negative.
+5. No worse than today's planes within model uncertainty; the gain over the city's practice is the summer shade kept, under the cap; runoff is a check (not resolved) and winter sun is a cost (about +6% winter shade in Porta).
 </details>
 
 ---
@@ -426,8 +593,14 @@ Porta's measured species cover **52.2% of Mataró's top-30 species** (counting o
 - **H3 was true by construction** in the bucket model, so it is **withdrawn as a hypothesis** (19 Oct) and stated as a declared boundary instead.
 - Runoff differences between palettes may stay below Δmin: the runoff part of H1 may be "not resolved".
 - Most palette species lack measured traits → ranges + sensitivity; **the gap is a finding**.
-- Seminar gaps: no stakeholder validation yet; innovation type and TRL not yet stated (claim **TRL 3**, process innovation) (`notes/research_method_guidelines.md`).
+- Seminar gaps: no stakeholder validation yet; innovation type: process innovation; **TRL 3 now (proof of concept on Porta), TRL 4 by December** (validated in simulation on real city data), TRL 5 needs a test with a real designer (RT pitch, 4 Nov) (`notes/research_method_guidelines.md`).
 - **Calibrated in one 0.84 km² neighbourhood.** Transfer is costed input by input (§10), but the transfer costs are order-of-magnitude estimates, not measured, and the point cloud alone eliminates most cities. A city pluvial map exists in some countries (Switzerland, the Netherlands, New York City), but in Catalonia only Barcelona has one.
+- **Heat in UTCI is within ±0.2 °C** of today's planes and its sign depends on crown porosity (§9c): the heat claim is "no worse", not "cooler". Honeybee and Tier 1 differ by 0.6–0.9 °C in absolute terms (cause unchecked).
+- **The baseline mix is from the press (S1a)**; the observed mix (S1b) is a reconstruction from inventory snapshots with re-coding filters (ASSUMPTION), and same-species replanting is invisible.
+- **The 15% cap is counted on street trees only** (26 Oct simplification); the plan's base is ~201,600 trees incl. squares.
+- **The local ceiling is infeasible in barris with few planes** (Baró de Viver, la Trinitat Vella), and with one city cap a barri can lose (la Bonanova).
+- **LiDAR seasons differ across barris** (June 2022 vs Porta's 26 Sept 2021).
+- **The 232 free spots are an upper bound** (no driveways or services in the data); city-wide sidewalk widths still come partly from OSM (size class right for about 3 trees in 4).
 
 ---
 
@@ -436,11 +609,19 @@ Sources: `slides/outline_20oct.md`; the Porta and Barcelona answers from `notes/
 
 | Question | Short answer |
 |---|---|
-| Hasn't the city already solved this? | No. The plan fixes how much of each species (15%) and the 2011 guide which size fits which sidewalk; nobody decides which species goes where with numbers, and nothing measures heat or runoff. The method works inside their rules. |
+| **Does the city already decide which tree goes where?** (20 Oct ask) | Only on paper: the 2004/2005 table by district × sidewalk, qualitative, no heat or runoff; the 2011 guide no longer prints it and Porta's plantings mostly do not match it (~62% match no 2004 list, rebuilt-street list included). |
+| **Are there enough trees?** (20 Oct ask) | No: Porta 20.1% against the 30% target, 8.3 ha short; planes are ~29% of the canopy, so the species choice decides the direction. |
+| **How do you validate?** (20 Oct ask) | Each module against something it was not fitted to: interception on Freiburg field data; heat proxy against Ladybug and Honeybee (r −0.73 / −0.82); routing against RESCCUE (AUC 0.52, stated); Sant Antoni as within-city transfer; next, Infrared City on the final layouts. |
+| **So heat does not improve?** | About a tenth of a degree, sign set by crown porosity: "no worse than the planes". The gain over the city's practice is the summer shade kept, under the cap; runoff is a check (not resolved) and winter sun is a cost (about +6% winter shade in Porta). Hao 2023 also finds only 0.1–0.3 °C. |
+| **Why the press mix as baseline?** | It was the current policy; now there is also the observed mix (1,444 real replacements 2018–2026). The method beats both: median +5.7 and +7.2 points. |
+| **May a barri lose while the city gains?** | With one city cap, yes (la Bonanova −1.4 vs the city mix). A per-barri floor is one more constraint set; ask the tutor which he prefers. |
+| **Why a local ceiling, and does it always work?** | Without it one barri got almost half Tipuana. It breaks where few planes are replaced (Baró de Viver, la Trinitat Vella): small barris need a different rule. |
+| **Only a few species?** | The method scales to N species: 7 in the city palette, a 34-species Barcelona shortlist (30 after the guide's "avoid" list). |
+| Hasn't the city already solved this? | No. The plan fixes how much of each species (15%) and the 2011 guide which size fits which sidewalk; the only species rule (2004/2005 table) is qualitative and not followed in Porta, and nothing measures heat or runoff. The method works inside their rules. |
 | Why 15%? | Pest and disease risk, climate resilience, biodiversity. The plan derives no number; benchmarks in the literature are mostly 10–15% per species (Kendal 2014), Santamour's is 10-20-30. Kendal warns that targets far below the existing share can cost well-adapted species and change ecosystem services; I supply the performance data. |
 | Why not peak flow? | Trees barely change peak flow in the field (Selbig 2021); volume is what they change. |
 | Hasn't Tan & Liu 2026 done this? | Heat, CO2, diversity only; no runoff, 4 Chicago species, one summer hour. I add runoff, the city's own palette and the seasons. |
-| Is a 2% effect worth a thesis? | The thesis is the method and the trade-off, not a big runoff number. The declared boundary states the limit; heat may dominate. |
+| Is a 2% effect worth a thesis? | The thesis is the method and the trade-off, not a big runoff number. The declared boundary states the limit; the shade gain over the city's rule (+9.2 points median city-wide) carries the species choice. |
 | Where do species values come from? | LiDAR crowns and LAI on site, database traits, genus/leaf-habit proxies with sensitivity ranges. |
 | Why Porta and not Sant Antoni? | Porta passes both hazards at every threshold; Sant Antoni's heat is below the city median. |
 | Why Barcelona and not Florence? | Heat-health evidence, LiDAR, open data and site access; Florence becomes the transfer test. |
@@ -459,6 +640,21 @@ Sources: `slides/outline_20oct.md`; the Porta and Barcelona answers from `notes/
 ---
 
 ## 13. Glossary
+
+### Scenario names (look here when you forget)
+| Name | What it is | Where it comes from |
+|---|---|---|
+| **S0** | Today: the trees as they stand (LiDAR 2021) | the reference "100%" |
+| **S1-2004** | The 2004/2005 Parcs i Jardins table (district × sidewalk width). **Cited, not run** | `notes/tree_master_plan.md` §5b |
+| **S1a** | The city's **announced** 2026 replacement mix (press), placed at random within the sidewalk-size rule, 5 seeds | `shade_sponge/layout.py`, `notes/methodology.md` §S1 |
+| **S1b** | What the city **actually planted** where it removed a plane, 2018–2026 (1,444 cases from the quarterly inventory), placed the same way. **The reference baseline since 6 Nov** | `scripts/inventory_history.py`, `notes/methodology.md` §S1 |
+| **S2** | Heat-only optimum | optimiser, weight on heat |
+| **S3** | Runoff-only optimum | optimiser, weight on runoff |
+| **S4** | Both (the balanced layout of the weight sweep; "the method") | optimiser |
+| **R / A / R+A** | Replacement only / additions only (232 free spots, planes kept) / both | `notes/topic_decision.md` §10.6, slide 13 |
+
+Mnemonic: **"Now, Swap, Hot, Wet, Both"** = S0, S1, S2, S3, S4. S1 has three versions: **2004 = the old table, a = announced, b = built** (what was really planted).
+
 | Term | Meaning |
 |---|---|
 | **Pluvial flood** | Flooding from rain on the surface when drainage is overwhelmed (vs **fluvial** = river) |
@@ -485,7 +681,7 @@ Sources: `slides/outline_20oct.md`; the Porta and Barcelona answers from `notes/
 | **LiDAR, DTM, DSM** | Laser scan; terrain model; surface model (incl. trees, buildings) |
 | **Leaf habit** | Evergreen vs deciduous |
 | **Non-compensatory** | Every criterion must pass; one cannot offset another |
-| **TRL** | Technology Readiness Level (thesis: TRL 3, proof of concept) |
+| **TRL** | Technology Readiness Level (thesis: TRL 3 now, TRL 4 by December; RT pitch, 4 Nov) |
 | **RESCCUE** | EU project whose Barcelona flood model gives water-depth maps (T10, T100) |
 | **Δmin** | Minimum meaningful difference, fixed before the runs (runoff: 91 m³) |
 | **DDY** | Design-day file: a synthetic hot (or cold) design day for a station |
@@ -505,6 +701,31 @@ Sources: `slides/outline_20oct.md`; the Porta and Barcelona answers from `notes/
 ## 14. Key numbers cheat sheet
 | Number | What |
 |---|---|
+| **v7 results (10 Nov)** | |
+| 2004/2005 | Parcs i Jardins replacement table (district × sidewalk); ~10% of Porta's 2007–2026 plantings match it |
+| 20.1% / 30% / 8.3 ha | Porta tree cover (LiDAR 2021) / city 2037 target / Porta's shortfall |
+| ~16% | Porta cover if every plane got a Brachychiton-size crown |
+| 87% / 98% | Porta summer shade vs today: city rule (S1a) / method (replacement only) |
+| +6% | Extra winter shade of the method (the trade-off) |
+| 33.9 m³ | Runoff difference method vs S1a, T2-60 (< Δmin → not resolved) |
+| 232 | Free planting spots in Porta (upper bound) |
+| 92% / 103.5% | City rule + additions / method + additions |
+| 28 / 31,580 | Barris (≥ 500 planes) / planes in the city LP |
+| +9.2 pts / 27 of 28 | City LP median summer-shade gain vs city mix / barris that gain |
+| 90.8 vs 92.2% | Sant Gervasi – la Bonanova, the one loss |
+| 1,318 / 11,348 | Celtis / Tipuana at the city cap in the LP |
+| 1,444 | Observed plane replacements 2018–2026 (S1b input; Celtis 296, Melia 219) |
+| +5.7 / +7.2 pts | Tool margin, median of 33 barris: vs S1a / vs S1b |
+| 11.7 → 8.8 pts | Porta margin: vs S1a → vs S1b |
+| −0.15 / −0.19 °C | S4 − S0 mean UTCI, porous crowns, Andreu Nin: Honeybee / Python Tier 1 |
+| −0.10 °C | Same, all Porta plane streets |
+| +0.06 / +0.10 °C | Same, opaque crowns, Andreu Nin |
+| r −0.73 / −0.82 | Proxy vs Ladybug: across points / on the S4 − S0 change |
+| −0.01 / −0.02 °C | Bias of the Python Tier 1 chain vs Grasshopper (Porta / Andreu Nin) |
+| TMYx 2011–2025 | Reference weather file (El Prat) |
+| 0.1–0.3 °C | UTCI effect of tree-position optimisation in Hao et al. 2023 |
+| p.33 | Climate Plan 2024: +5% cover, adapted 30→40%, 7 ha SUDS, 9 ha shade |
+| **Earlier results (v0/v1)** | |
 | 45% → 72% | Barcelona sealed surface, 1956–2009 |
 | ~3 / yr, 60 mm/h | Storms above 60 mm/h in the first 20 min |
 | 15% | Max share per species (tree master plan), city-wide over the urban fabric (~201,600 trees, 2017) |
@@ -559,21 +780,23 @@ Sources: `slides/outline_20oct.md`; the Porta and Barcelona answers from `notes/
 | EPSG:25831 | CRS shared by Porta and Mataró |
 | 2–3 weeks | Estimated cost of the Florence transfer (order of magnitude, not measured) |
 | 18 Dec 2026 | Probable final delivery |
-| 20 Oct 2026 | Next tutor session |
+| 10 Nov 2026, 16:00 | Next tutor session (A. Chronis); then 17 Nov, 24 Nov, 1 Dec |
 
 ---
 
-## 15. Decisions waiting for you (as of 21 Oct)
-Know these exist and what the recommended default is; the tutor may ask. Only the "not resolved" rule for H1's runoff part is provisionally accepted (14 Oct); the rest is open.
-| Decision | Recommended default | Source |
+## 15. Decisions: what is settled and what is open (as of 3 Nov)
+Know these exist and what the recommended default is; the tutor may ask.
+
+**Settled since 21 Oct:** baseline = **S1a** (24 Oct); additions co-equal in the RQ and a project area the designer draws (24 Oct); heat clock **12–17 h CEST** (25 Oct); 15% cap counted on **street trees only** (26 Oct); city LP with the **local ceiling** (30 Oct); Grasshopper **not required** (30 Oct); H3 withdrawal accepted by the tutor (no objection, 30 Oct); weather reference **El Prat TMYx 2011–2025** (3 Nov); co-benefits only as a backup slide before 10 Nov (3 Nov); red "avoid" species out of the Barcelona palette (3 Nov).
+
+| Open decision | Recommended default | Source |
 |---|---|---|
-| ~~Heat metric f1~~ **DECIDED 19 Oct** | Mean UTCI, 12–17 h, DDY cooling day (+ hottest real day as check) | `notes/decisions/heat_objective.md` |
-| Weather forcing | El Prat TMYx 2011–2025, file wind, no offset; sensitivities: city station, city-terrain wind, +1.5 °C | `notes/decisions/weather_forcing.md` |
-| ~~Hypothesis wording~~ **DECIDED 19 Oct** | H1 with Δmin and "not resolved"; H2 as species composition; **H3 withdrawn**, kept as a declared boundary | `notes/decisions/hypothesis_tests.md`, `runoff_metric_sensitivity.md` |
-| Cap scope | Porta-local 15% kept as an ASSUMPTION; alternatives: city-wide headroom, Porta's share of the 12% plane target | `notes/topic_decision.md` §9.7 |
-| Large-avenue planes | Define which Porta streets count as large avenues (Meridiana?) or ask Parcs i Jardins | `notes/topic_decision.md` §9.7 |
-| Email to Parcs i Jardins | Send it: settles whether a per-street replacement list exists | `notes/email_parcs_i_jardins.md` |
-| Contribution statement | No default given: choose among A (method), B (knowledge), C (validation, optional) | `notes/decisions/contribution_statement.md` |
-| Tool changes | Methodology §12 items 1–5 | `notes/methodology.md` §12 |
-| Mataró access | Three browser URLs settle whether the joined per-tree table is public (`notes/todo_manual.md`); the licence is **UNKNOWN** for every Mataró asset, so do not record CC BY | `notes/catalan_transfer_city.md` §3b |
-| Transfer scope | Florence (T1) stays first choice, Mataró is the Catalan fallback; the plan still gives 2–10 Dec to Sant Antoni **and** Florence together, which needs reconciling | `notes/transferability.md` §1 |
+| City LP against S1b | Rerun `scripts/city_lp.py` against the observed mix after 10 Nov (S1b is the reference since 6 Nov; the table is S1-2004) | `notes/methodology.md` §7 (branch), `notes/topic_decision.md` §10.4 |
+| May a barri lose while the city gains? | Ask the tutor; a per-barri floor (no barri below the city mix) is one more constraint set | `notes/citywide_plan.md` §6.9 |
+| Local ceiling in small barris | Different rule for barris with few planes (open) | `notes/citywide_plan.md` §6.9 |
+| Is Sant Antoni enough as a transfer test? | Yes for within-city; Florence/Mataró as future work. Ask the tutor | `notes/citywide_plan.md` §4 |
+| Infrared City | ~160 runs on final layouts, then calibrate the proxy; surrogate only as plan B. Awaiting reply (porous crowns?) | `notes/email_infrared_city_reply.md` |
+| Parcs i Jardins | Follow up (RGF7342); ask for the current per-street list and the "adapted" species list | `notes/todo_manual.md` |
+| Contribution statement | Choose among A (method), B (knowledge), C (validation) | `notes/decisions/contribution_statement.md` |
+| Weather sensitivities | City station, city-terrain wind, +1.5 °C | `notes/decisions/weather_forcing.md` |
+| Mataró access / licence | Licence UNKNOWN; three browser URLs settle the per-tree table | `notes/catalan_transfer_city.md` §3b |

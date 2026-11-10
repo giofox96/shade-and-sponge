@@ -49,7 +49,7 @@ watch(
       <span class="ctl muted">Palette</span>
       <span class="seg" role="group" aria-label="Species palette">
         <button :class="{ on: state.site !== 'porta-barcelona' }" @click="switchSite('porta')">City (7)</button>
-        <button :class="{ on: state.site === 'porta-barcelona' }" @click="switchSite('porta-barcelona')">Barcelona (34)</button>
+        <button :class="{ on: state.site === 'porta-barcelona' }" @click="switchSite('porta-barcelona')">Barcelona (30)</button>
       </span>
       <template v-if="state.site !== 'porta-barcelona'">
         <span class="ctl muted">New trees at</span>

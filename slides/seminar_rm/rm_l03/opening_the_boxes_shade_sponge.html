@@ -1,0 +1,174 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>Opening the Boxes · Shade and Sponge</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap">
+<style>
+/* Layout: a reasoning network. Two branches from the big topic meet in one idea, narrow to the gap and the question, then loop back up */
+:root {
+  --bg: #F2F0EA; --card: #FBFAF6; --ink: #2A2622; --body: #4A443B; --muted: #665E4F; --line: #A8A293;
+  --pink: #663825; --pink-tint: #EBDDD3; --cyan: #283F66; --cyan-tint: #DCE2EC; --amber: #8C6A24; --amber-tint: #EFE5CF;
+  --tree: #3F663E; --tree-tint: #DDE6D9;
+  --core: #283F2A; --core-ink: #F2F0EA;
+  --sans: "IBM Plex Sans", Arial, sans-serif;
+}
+:root { color-scheme: light; }
+
+body { background: var(--bg); color: var(--ink); font-family: var(--sans); font-size: 16px; line-height: 1.4;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); padding-block: 32px 48px; }
+header { max-width: 1240px; margin: 0 auto 16px; display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-end; gap: 16px 32px; }
+h1 { margin: 0; font-size: 14px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); }
+.lede { margin: 6px 0 0; font-size: 24px; font-weight: 600; line-height: 1.2; text-wrap: balance; max-width: 32ch; }
+.legend { display: grid; grid-template-columns: auto auto auto; gap: 6px 18px; font-size: 13px; color: var(--muted); }
+.legend span { display: flex; align-items: center; gap: 8px; }
+.legend svg { width: 34px; height: 12px; flex: none; }
+.scroll { overflow-x: auto; max-width: 1240px; margin: 0 auto; }
+.scroll svg { display: block; width: 100%; min-width: 980px; height: auto; }
+
+path.e { fill: none; stroke: var(--line); stroke-width: 2; }
+path.warn { fill: none; stroke: var(--pink); stroke-width: 2; stroke-dasharray: 7 6; }
+path.gap { fill: none; stroke: var(--pink); stroke-width: 2.5; }
+path.loop { fill: none; stroke: var(--cyan); stroke-width: 2.5; stroke-dasharray: 2 6; stroke-linecap: round; }
+.m-e { fill: var(--line); } .m-warn { fill: var(--pink); } .m-loop { fill: var(--cyan); }
+
+.n { box-sizing: border-box; width: 100%; height: 100%; padding: 12px 16px; border-radius: 12px; display: flex; flex-direction: column; justify-content: center; gap: 4px; font-family: var(--sans); color: var(--ink); overflow: hidden; }
+.n .k { font-size: 11px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); }
+.n .t { font-size: 17px; font-weight: 600; line-height: 1.25; }
+.n .r { font-size: 12px; font-style: italic; color: var(--muted); }
+.n .no { font-size: 14px; font-weight: 600; color: var(--pink); }
+.topic { text-align: center; align-items: center; }
+.topic .big { font-size: 34px; font-weight: 700; letter-spacing: -.02em; line-height: 1.05; }
+.ev { background: var(--card); border: 1px solid var(--line); }
+.ins { background: var(--card); border: 2px solid var(--ink); }
+.opt { background: var(--amber-tint); }
+.opt .k { color: var(--amber); }
+.prob { background: var(--pink-tint); }
+.prob .k { color: var(--pink); }
+.tg { background: var(--tree-tint); border-radius: 60px; padding-inline: 26px; }
+.tg .k { color: var(--tree); }
+.idea { background: var(--card); border: 2px dashed var(--tree); }
+.idea .k { color: var(--tree); }
+.idea .t { font-size: 19px; }
+.gap { background: var(--card); border: 2.5px dashed var(--pink); }
+.gap .k { color: var(--pink); }
+.gap .f { font-size: 13px; color: var(--muted); display: flex; gap: 6px; align-items: baseline; }
+.gap .f b { font-size: 18px; color: var(--ink); font-variant-numeric: tabular-nums; }
+.gap .f b.z { color: var(--pink); }
+.rq { background: var(--core); color: var(--core-ink); border-radius: 14px; }
+.rq .k { color: #B3BAB9; }
+.rq .t { font-size: 21px; }
+.h { background: var(--card); border: 1px solid var(--line); border-radius: 999px; text-align: center; align-items: center; font-size: 15px; padding: 8px 22px; }
+.h b { color: var(--cyan); }
+.case { background: var(--card); border: 1.5px solid var(--cyan); }
+.case .k { color: var(--cyan); }
+.step { background: var(--card); border: 1.5px solid var(--line); border-radius: 999px; flex-direction: row; align-items: center; justify-content: center; gap: 8px; font-size: 15px; color: var(--body); }
+.step b { font-size: 22px; color: var(--ink); font-variant-numeric: tabular-nums; }
+.step.zero { border: 2px dashed var(--pink); }
+.step.zero b { color: var(--pink); }
+.why { background: var(--pink-tint); border: 1px solid var(--pink); }
+.why .k { color: var(--pink); }
+.why ul { margin: 2px 0 0; padding-left: 16px; font-size: 12.5px; line-height: 1.3; color: var(--body); display: flex; flex-direction: column; gap: 1px; }
+.why b { color: var(--ink); }
+.case ul { margin: 2px 0 0; padding-left: 18px; font-size: 14px; color: var(--body); display: flex; flex-direction: column; gap: 2px; }
+
+.lab { display: flex; justify-content: center; align-items: center; height: 100%; font-family: var(--sans); }
+.lab span { background: var(--bg); padding: 3px 10px; border-radius: 999px; font-size: 13px; font-style: italic; color: var(--ink); border: 1px dashed var(--line); white-space: nowrap; }
+.lab-warn span { color: var(--pink); border-color: var(--pink); }
+.lab-loop span { color: var(--cyan); border-color: var(--cyan); font-style: normal; font-weight: 600; white-space: normal; text-align: center; max-width: 185px; }
+.foot { max-width: 1240px; margin: 14px auto 0; font-size: 14px; color: var(--muted); }
+</style>
+
+<header>
+  <div>
+    <h1>Opening the boxes · Shade and Sponge</h1>
+    <p class="lede">How one replaced street tree connects to data-driven decisions, and back</p>
+  </div>
+  <div class="legend" aria-label="Legend">
+    <span><svg viewBox="0 0 34 12"><path d="M2 6 H32" style="stroke:var(--line);stroke-width:2"/></svg>reasoning step</span>
+    <span><svg viewBox="0 0 34 12"><path d="M2 6 H32" style="stroke:var(--pink);stroke-width:2;stroke-dasharray:7 6"/></svg>a warning it must respect</span>
+    <span><svg viewBox="0 0 34 12"><path d="M2 6 H32" style="stroke:var(--cyan);stroke-width:2.5;stroke-dasharray:2 6;stroke-linecap:round"/></svg>what the research gives back</span>
+  </div>
+</header>
+<div class="scroll">
+<svg viewBox="-230 0 1920 1470" role="img" aria-label="Network of reasoning from data-driven decision making to the Shade and Sponge research question">
+<defs>
+<marker id="ar-e" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" class="m-e"/></marker>
+<marker id="ar-warn" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" class="m-warn"/></marker>
+<marker id="ar-loop" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" class="m-loop"/></marker>
+</defs>
+<path class="e" d="M800,122 C800,156 330,156 330,190" marker-end="url(#ar-e)"/>
+<path class="e" d="M800,122 C800,156 1270,156 1270,190" marker-end="url(#ar-e)"/>
+<path class="e" d="M1270,310 C1270,352 1270,352 1270,395" marker-end="url(#ar-e)"/>
+<path class="e" d="M760,540 L760,625" marker-end="url(#ar-e)"/>
+<path class="e" d="M760,755 C760,842 760,842 760,930" marker-end="url(#ar-e)"/>
+<path class="e" d="M1270,525 C1270,575 1270,575 1270,625" marker-end="url(#ar-e)"/>
+<path class="e" d="M1150,525 C1150,600 820,560 780,625" marker-end="url(#ar-e)"/>
+<path class="warn" d="M1110,690 C1110,690 980,690 980,690" marker-end="url(#ar-warn)"/>
+<path class="e" d="M760,1050 C760,1085 760,1085 760,1120" marker-end="url(#ar-e)"/>
+<path class="e" d="M760,1240 C760,1278 480,1278 480,1315" marker-end="url(#ar-e)"/>
+<path class="e" d="M760,1240 C760,1278 760,1278 760,1315" marker-end="url(#ar-e)"/>
+<path class="e" d="M760,1240 C760,1278 1040,1278 1040,1315" marker-end="url(#ar-e)"/>
+<path class="e" d="M330,310 C330,352 330,352 330,395" marker-end="url(#ar-e)"/>
+<path class="e" d="M330,525 C330,575 330,575 330,625" marker-end="url(#ar-e)"/>
+<path class="e" d="M490,460 L610,460" marker-end="url(#ar-e)"/>
+<path class="e" d="M450,525 C450,600 700,560 700,625" marker-end="url(#ar-e)"/>
+<path class="warn" d="M480,690 C510,690 510,668 540,668" marker-end="url(#ar-warn)"/>
+<path class="e" d="M320,860 C430,860 580,830 580,755" marker-end="url(#ar-e)"/>
+<path class="e" d="M170,950 C170,964 170,964 170,978" marker-end="url(#ar-e)"/>
+<path class="e" d="M170,1042 C170,1060 170,1060 170,1078" marker-end="url(#ar-e)"/>
+<path class="e" d="M170,1142 C170,1160 170,1160 170,1178" marker-end="url(#ar-e)"/>
+<path class="gap" d="M300,1210 C440,1210 450,990 540,990" marker-end="url(#ar-warn)"/>
+<path class="loop" d="M480,1222 L362,1222 C348,1222 348,1232 348,1250 L348,1415 C348,1440 348,1440 320,1440 L-90,1440 C-120,1440 -120,1440 -120,1380 L-120,300 C-120,70 -120,70 515,70" marker-end="url(#ar-loop)"/>
+<path class="loop" d="M480,1200 L345,1200 C330,1200 330,1210 330,1230 L330,1400 C330,1420 330,1420 305,1420 L-20,1420 C-40,1420 -40,1420 -40,1380 L-40,350 C-40,250 -40,250 115,250" marker-end="url(#ar-loop)"/>
+<path class="loop" d="M480,1405 C480,1425 500,1425 560,1425 L1500,1425 C1560,1425 1560,1425 1560,1300 L1560,800 C1560,690 1560,690 1430,690" marker-end="url(#ar-loop)"/>
+<path class="loop" d="M1165,1360 C1630,1360 1630,1250 1630,900 L1630,350 C1630,250 1630,250 1485,250" marker-end="url(#ar-loop)"/>
+<path class="loop" d="M1040,1180 L1176,1180" marker-end="url(#ar-loop)"/>
+<foreignObject x="520" y="18" width="560" height="104"><div class="n topic"><div class="k">Big topic</div><div class="big">Data-driven decision making</div><div class="r">Cities set targets with data, but each tree is still chosen by rule of thumb</div></div></foreignObject>
+<foreignObject x="120" y="190" width="420" height="120"><div class="n ev"><div class="k">Urban climate data</div><div class="t">Heat and flooding mapped street by street</div><div class="r">ICGC LiDAR 2021; PDISBA storms; Ladybug UTCI</div></div></foreignObject>
+<foreignObject x="1060" y="190" width="420" height="120"><div class="n ev"><div class="k">The city’s rules</div><div class="t">No species above 15%, tree size set by sidewalk width</div><div class="r">Tree master plan 2017; street-tree guide 2011</div></div></foreignObject>
+<foreignObject x="170" y="395" width="320" height="130"><div class="n ins"><div class="k">Insight</div><div class="t">The data exists, but nobody links it to the species planted in each pit</div></div></foreignObject>
+<foreignObject x="610" y="395" width="300" height="145"><div class="n prob"><div class="k">Problem</div><div class="t">The plane is the only species over the city’s 15% cap. Each replacement changes shade and runoff, and nobody measures it</div><div class="r">Tree master plan 2017, target 3; street-tree guide 2011, p. 54</div></div></foreignObject>
+<foreignObject x="1105" y="395" width="330" height="130"><div class="n ins"><div class="k">Insight</div><div class="t">Rules fix how much of each species, not which species where</div></div></foreignObject>
+<foreignObject x="180" y="625" width="300" height="130"><div class="n opt"><div class="k">Heat + runoff workflows</div><div class="t">Both services, fixed scenarios</div><div class="no">Limit: no species choice</div><div class="r">Mannucci 2025; Nyelele &amp; Kroll 2021</div></div></foreignObject>
+<foreignObject x="1110" y="625" width="320" height="130"><div class="n opt"><div class="k">Species tools</div><div class="t">Recommenders and heat optimisers</div><div class="no">Limit: one service only</div><div class="r">SylvCiT 2026; Shaamala 2025; Peng 2026</div></div></foreignObject>
+<foreignObject x="20" y="810" width="300" height="140"><div class="n tg"><div class="k">Literature funnel</div><div class="t">Tools that place or assess urban trees</div><div class="r">My prior-art matrix: 18 tools</div></div></foreignObject>
+<foreignObject x="40" y="978" width="260" height="64"><div class="n step"><b>7</b> heat and runoff</div></foreignObject>
+<foreignObject x="40" y="1078" width="260" height="64"><div class="n step"><b>1</b> also picks species</div></foreignObject>
+<foreignObject x="40" y="1178" width="260" height="64"><div class="n step zero"><b>0</b> per tree, inside city rules</div></foreignObject>
+<foreignObject x="540" y="625" width="440" height="130"><div class="n idea"><div class="k">Idea: combine both sides</div><div class="t">Replace each plane with the rule-compliant species that loses the least shade and rain interception</div></div></foreignObject>
+<foreignObject x="540" y="930" width="440" height="120"><div class="n gap"><div class="k">Gap</div><div class="t">No method picks species per position on heat and runoff together, inside a city’s replacement rules</div></div></foreignObject>
+<foreignObject x="480" y="1120" width="560" height="120"><div class="n rq"><div class="k">Research question</div><div class="t">Can a trait-based layout, inside Barcelona’s rules, keep more cooling and rain interception than the city’s own replacement?</div></div></foreignObject>
+<foreignObject x="355" y="1315" width="250" height="90"><div class="n h"><b>H1</b> Better on heat and runoff?</div></foreignObject>
+<foreignObject x="635" y="1315" width="250" height="90"><div class="n h"><b>H2</b> Do the heat-best and runoff-best differ?</div></foreignObject>
+<foreignObject x="915" y="1315" width="250" height="90"><div class="n h"><b>Limit</b> Gain shrinks as storms grow</div></foreignObject>
+<foreignObject x="1180" y="1120" width="320" height="120"><div class="n case"><div class="k">Where else?</div><ul><li>33 Barcelona neighbourhoods</li><li>Transfer: Mataró, Florence</li><li>Any city with a species cap</li><li>More services: carbon, biodiversity</li></ul></div></foreignObject>
+<foreignObject x="435" y="139" width="260" height="34"><div class="lab lab-e"><span>Which data?</span></div></foreignObject>
+<foreignObject x="905" y="139" width="260" height="34"><div class="lab lab-e"><span>Who decides?</span></div></foreignObject>
+<foreignObject x="1140" y="336" width="260" height="34"><div class="lab lab-e"><span>what is left open?</span></div></foreignObject>
+<foreignObject x="630" y="826" width="260" height="34"><div class="lab lab-e"><span>does it work?</span></div></foreignObject>
+<foreignObject x="1140" y="563" width="260" height="34"><div class="lab lab-e"><span>can a tool choose?</span></div></foreignObject>
+<foreignObject x="830" y="568" width="260" height="34"><div class="lab lab-e"><span>use the city’s rules</span></div></foreignObject>
+<foreignObject x="915" y="718" width="260" height="34"><div class="lab lab-warn"><span>but not one service</span></div></foreignObject>
+<foreignObject x="630" y="1068" width="260" height="34"><div class="lab lab-e"><span>so I ask</span></div></foreignObject>
+<foreignObject x="200" y="336" width="260" height="34"><div class="lab lab-e"><span>what is missing?</span></div></foreignObject>
+<foreignObject x="200" y="558" width="260" height="34"><div class="lab lab-e"><span>who models both?</span></div></foreignObject>
+<foreignObject x="420" y="423" width="260" height="34"><div class="lab lab-e"><span>why now?</span></div></foreignObject>
+<foreignObject x="470" y="568" width="260" height="34"><div class="lab lab-e"><span>use measured crowns</span></div></foreignObject>
+<foreignObject x="390" y="608" width="260" height="34"><div class="lab lab-warn"><span>must follow the rules</span></div></foreignObject>
+<foreignObject x="340" y="833" width="260" height="34"><div class="lab lab-e"><span>who did it?</span></div></foreignObject>
+<foreignObject x="40" y="943" width="260" height="34"><div class="lab lab-e"><span>which cover both?</span></div></foreignObject>
+<foreignObject x="40" y="1043" width="260" height="34"><div class="lab lab-e"><span>which pick species?</span></div></foreignObject>
+<foreignObject x="40" y="1143" width="260" height="34"><div class="lab lab-e"><span>which work per tree?</span></div></foreignObject>
+<foreignObject x="-215" y="668" width="190" height="64"><div class="lab lab-loop"><span>gives back: a number for each choice the city cannot see now</span></div></foreignObject>
+<foreignObject x="-135" y="968" width="190" height="64"><div class="lab lab-loop"><span>gives back: honest gains, small and measured</span></div></foreignObject>
+<foreignObject x="1465" y="998" width="190" height="64"><div class="lab lab-loop"><span>tests the cost of the 15% cap</span></div></foreignObject>
+<foreignObject x="1505" y="568" width="190" height="64"><div class="lab lab-loop"><span>the city’s own mix becomes the baseline to beat</span></div></foreignObject>
+<foreignObject x="1015" y="1118" width="190" height="64"><div class="lab lab-loop"><span>where else?</span></div></foreignObject>
+<path class="e" d="M760,340 L760,395" marker-end="url(#ar-e)"/>
+<foreignObject x="550" y="195" width="420" height="145"><div class="n why"><div class="k">Why the planes must go (city plan)</div><ul>
+<li><b>Pests:</b> one species, one pest; “vulnerability due to monoculture” (guide p. 17)</li>
+<li><b>Plane-specific:</b> lace bug, powdery mildew, canker; sudden leaf drop in drought (guide pp. 37–38)</li>
+<li><b>Biodiversity:</b> no species above 15% by 2037 (plan, target 3)</li>
+<li><b>Climate:</b> adapted species 30% → 40% (plan, target 2)</li></ul></div></foreignObject>
+</svg>
+</div>
+</body></html>

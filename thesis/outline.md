@@ -53,7 +53,7 @@
 | 3.1 | Master plan 2017–2037: the 15% cap and its stated reasons; the 30% cover target | `tree_master_plan.md` §1–§3 | ✅ |
 | 3.2 | The 2011 street-tree guide: sidewalk width → size class and spacing | `tree_master_plan.md` §5; `notes/sidewalk_width.md` | ✅ |
 | 3.3 | **Gate 1:** the 2004/2005 district × sidewalk table, and Porta's plantings checked against it (up to ~90% off the table, an upper bound) | `tree_master_plan.md` §5b | ✅ (🟡 if Parcs i Jardins replies) |
-| 3.4 | The 2026 replacement mix (press) → baseline **S1a**; S1b is cited but not run | `topic_decision.md` §10.4 | ✅ |
+| 3.4 | The 2026 replacement mix (press) → baselines **S1b** (observed mix 2018–2026, reference, 6 Nov) and **S1a** (press mix); the 2004/2005 table **S1-2004** is cited but not run | `topic_decision.md` §10.4 | ✅ |
 | 3.5 | **Diversity rules of thumb:** Santamour 1990 (10-20-30), Kendal et al. 2014; why caps on species alone are weak | `topic_decision.md` §10.2 "Gap"; matrix #139, #140 | ✅ |
 
 ## 4. State of the art: computational tools for urban trees (15%)

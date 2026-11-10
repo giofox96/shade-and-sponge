@@ -126,20 +126,47 @@ Read in full on 24 Oct: Santamour 1990 (#139), Kendal, Dobbs & Lohr 2014 (#140).
    | > 6 m (wide) | large | > 6 m / > 15 m | 13 m | 6.5 m |
 
    Also: no planting where the adult crown would come within 0.5 m of balconies or overhangs (stated under narrow streets). Keep > 3 m from traffic lights and signs, and > 1 m from driveways.
-5. **Size class of each palette species (G catalogue, pp. 49–56; G/M/P = large/medium/small):**
+5. **Size class and suitability mark of each palette species (G catalogue, pp. 49–56, read from the page images 3 Nov 2026).** Size: G/M/P = large/medium/small. Use ("Ús"): V = fit for streets, Z/P = for zones or parks. Mark (legend p. 56, "Idoneïtat com a arbre viari"): 🟢 recommended, for gaps and new plantings; 🟠 restricted, only to fill gaps in streets that keep the species, no new plantings; 🔴 avoid planting; ⚪ under study.
 
-   | Species | Size class | Note in the catalogue |
-   |---|---|---|
-   | *Platanus × acerifolia* | large | exceeds the 15%; difficulty adapting |
-   | *Celtis australis* | large | close to the 15% |
-   | *Tipuana tipu* | large | — |
-   | *Jacaranda mimosifolia* | large | — |
-   | *Melia azedarach* | medium | — |
-   | *Styphnolobium japonicum* | medium | — |
-   | *Brachychiton populneus* | medium, evergreen | — |
-   | *Pyrus calleryana* 'Chanticleer' | small | — |
+   | Species | Size | Use | Mark | Note in the catalogue |
+   |---|---|---|---|---|
+   | *Platanus × acerifolia* | large | V-Z/P | 🟠 | above the 15%; difficulty adapting |
+   | *Celtis australis* | large | V-Z/P | 🟠 | high presence, close to the 15% |
+   | *Tipuana tipu* | large | V-Z/P | 🟢 | — |
+   | *Jacaranda mimosifolia* | large | V-Z/P | 🟢 | — |
+   | *Melia azedarach* | medium | V-Z/P | 🟢 | — |
+   | *Styphnolobium japonicum* | medium | V-Z/P | 🟢 | — |
+   | *Brachychiton populneus* | medium, evergreen | V-Z/P | 🟢 | — |
+   | *Pyrus calleryana* 'Chanticleer' | small | V-Z/P | 🟢 | — |
+   | *Ligustrum lucidum* | medium | V-Z/P | 🟠 | invasive |
+   | *Prunus cerasifera* (and 'Pissardii') | medium | V-Z/P | 🟢 | — |
+   | *Gleditsia triacanthos* | large | V-Z/P | 🟠 | thorns; replace with f. *inermis* (large, 🟢) |
+   | *Cercis siliquastrum* | medium | V-Z/P | 🟢 | — |
+   | *Ulmus pumila* | large | V-Z/P | 🔴 | graphiosis; brittle wood; aggressive roots |
+   | *Citrus aurantium* | small | V-Z/P | 🟠 | very sensitive to pests and diseases |
+   | *Robinia pseudoacacia* | large | Z/P | 🔴 | irregular growth; invasive (cultivars medium, 🟠/⚪/🔴) |
+   | *Koelreuteria paniculata* | medium | V-Z/P | 🟢 | ('Fastigiata' medium, ⚪) |
+   | *Magnolia grandiflora* | medium | V-Z/P | 🟠 | needs water and nutrients |
+   | *Grevillea robusta* | large | V-Z/P | 🟢 | — |
+   | *Tilia × euchlora* | large | V-Z/P | 🟠 | difficulty adapting |
+   | *Pinus pinea* | large | V-Z/P | 🟢 | — |
+   | *Celtis sinensis* | — | — | — | not in the catalogue |
+   | *Populus nigra* | large | Z/P | 🔴 | aggressive roots; seed fluff |
+   | *Quercus ilex* | medium | V-Z/P | 🟢 | — |
+   | *Firmiana simplex* | medium | V-Z/P | 🟢 | — |
+   | *Fraxinus angustifolia* | large | V-Z/P | 🟠 | difficulty adapting ('Raywood' medium, ⚪) |
+   | *Tilia × europaea* | large | V-Z/P | 🟠 | difficulty adapting |
+   | *Casuarina cunninghamiana* | large | V-Z/P | 🟢 | — |
+   | *Hibiscus syriacus* | small | V-Z/P | 🟢 | — |
+   | *Ginkgo biloba* | large | V-Z/P | 🟠 | avoid female trees (fruit) ('Fastigiata' large, ⚪) |
+   | *Populus alba* | large | Z/P | 🔴 | aggressive roots; brittle wood |
+   | *Acer campestre* | medium | V-Z/P | 🟢 | — |
+   | *Pinus halepensis* | large | Z/P | 🟠 | very sensitive to processionary moth |
+   | *Cupressus sempervirens* | large | V-Z/P | 🟢 | ('Stricta' medium, 🟢) |
+   | *Catalpa bignonioides* | large | V-Z/P | 🟢 | — |
+   | *Acer monspessulanum* | medium | V-Z/P | 🟢 | — |
 
-   PLATANOR® 'Vallis Clausa' is listed separately (p. 53), which bears on the backlog question of whether Porta's 3 trees of it count as *Platanus*. Each species also carries a coloured suitability mark (plant / restricted, i.e. only fill gaps in streets that keep the species / avoid / under study). **The colour cannot be read from the text extraction, so each species' mark is unverified.**
+   PLATANOR® 'Vallis Clausa' is listed separately (p. 53, large, ⚪), which bears on the backlog question of whether Porta's 3 trees of it count as *Platanus*. The tool uses the size column (`layout.SIZE_CLASS`; inventory cultivars are merged into the species, so they take the species' class: ASSUMPTION). The mark is not used yet: in the 34-species palette 4 species are 🔴 (*Ulmus pumila*, *Robinia*, *Populus nigra*, *P. alba*) and 10 are 🟠, including *Celtis australis*, the city's own first replacement for planes.
 6. **Not public.** In 2022 the city said it had already decided which species can replace trees that die, using street orientation, available aerial space, soil quality and desired shade (N3 🟡). That list or rule set was not found. The plan has only the actions: 1.2 balance species abundance, 1.4 plan the renewal, 2.9 select species for the future (urban resistance, habit, flowering) (P §2.2). **Nobody publishes a per-street choice, and no source quantifies runoff or thermal comfort per species or position** (G p. 16 asks only qualitatively for shade trees that feel cool in summer). That is the gap the tool fills.
 
 ## 5b. Gate 1 (24 Oct): a structured "which species, where" rule exists, but on paper only
@@ -171,6 +198,34 @@ Tutor, 20 Oct: check whether Barcelona already has a structured plan, decided by
 
 **What the check cannot show.** The table covers dead trees only. Rebuilt streets use a broader list (S §2.4.2.2), and the exceptions apply (S §2.4.3). The inventory cannot separate these cases; the peaks of 70 plantings in 2010 and 102 in 2025 suggest street works. So ~90% is an **upper bound** on non-compliance. Planting dates exist for 20% of Porta's trees. The inventory does not record which species a new tree replaced. The size class comes from the 2021 façade-to-kerb measurement (`notes/sidewalk_width.md`).
 
+### 5b.1 The rebuilt-street list (S pp. 12–14, read 9 Nov 2026)
+
+Read in the browser on the user's PC (BCNROC refuses cloud and scripted downloads); page 13 checked against the rendered page. Transcription on the PC: `databases/policy/rebuilt_street_list_2004.md` (not committed).
+
+- **S §2.4.2.2 "Plantació d'obra nova" (p. 12):** when a street is remodelled and every tree is replanted, Parcs i Jardins gives the operators a selection table "to introduce plant diversity". An "exceptional" row covers species chosen for aesthetic, traditional or symbolic reasons. The list comes from the technicians' experience and is revised periodically. **No district.**
+- **Table "PLANTACIÓ D'OBRA NOVA" (p. 13).** Columns: sidewalk 2.5–3.5 m, small tree, spacing 7 m · 3.5–6 m, medium, 9 m · ≥ 6 m, large, 13 m.
+
+| Row | Narrow (2.5–3.5 m) | Medium (3.5–6 m) | Wide (≥ 6 m) |
+|---|---|---|---|
+| **Remodelacions** | Cercis siliquastrum, Citrus aurantium, Hibiscus syriacus, Magnolia grandiflora, Nerium oleander "(capçada)", Prunus cerasifera 'Atropurpurea', Prunus serrulata, Pyrus communis (8) | Acer saccharinum, Albizia julibrissin, Brachychiton populneus, Catalpa bignonioides, Celtis australis, Cercis siliquastrum, Jacaranda mimosifolia, Koelreuteria paniculata, Magnolia grandiflora, Melia azedarach, Populus alba 'Pyramidalis', Populus simonii, Prunus serrulata, Quercus ilex, Robinia pseudoacacia 'Pyramidalis', Sophora japonica, Tilia sp. (17) | Ailanthus altissima, Gleditsia triacanthos inermis, Jacaranda mimosifolia, **Platanus × hispanica**, Populus simonii, Quercus ilex, Robinia pseudoacacia (type, 'Bessoniana', 'Frisia'), Tilia sp., Tipuana tipu (11) |
+| **Excepcionalment** | Acacia saligna, Acer monspessulanum, Ligustrum lucidum, Tamarix gallica (4) | Acacia saligna, Ceratonia siliqua, Ficus microcarpa, Ginkgo biloba, Grevillea robusta, Morus alba 'Fruitless', Phoenix dactylifera, Populus nigra 'Italica', Washingtonia sp. (9) | Eucalyptus sp., Ficus microcarpa, Phoenix dactylifera, Pinus pinea, Washingtonia sp. (5) |
+
+- **Conditions (p. 14, §2.4.2.2.1):** sidewalk < 2.5 m "Evitar la plantació". The narrow class here starts at 2.5 m; in the dead-tree table (p. 11) it is "< 3.5 m". No footnotes on p. 13.
+- **Notes:** the plane is on the rebuild list only for wide sidewalks. Four species the 2011 guide later marks "avoid" (Robinia, P. alba, P. nigra; Ailanthus is not in our palette) are on this 2004 list.
+
+**Porta check redone with all three lists (dead-tree table + remodelacions + excepcionalment), same 368 dated plantings (`replacement_rule_check.csv`), genus + epithet, cultivar ignored, strict size class:**
+
+| Sidewalk | Planted | Match any list | Match % |
+|---|---|---|---|
+| Narrow | 58 | 9 | 16% |
+| Medium | 112 | 56 | 50% |
+| Wide | 198 | 53 | 27% |
+
+- Narrow + medium: 65 of 170 match (38%), so **~62% match none of the three 2004 lists**: the upper bound on non-compliance falls from ~90% to ~62%, still a majority. Wide: the 11 planes and the existing-species clause are not credited, so 27% is a floor there.
+- Biggest unlisted plantings: *Pyrus calleryana* (56 across classes; the list has *P. communis*), Grevillea on wide sidewalks (42; listed as exceptional for medium only), Casuarina (33), Fraxinus angustifolia (23), Handroanthus (12). Brachychiton on medium sidewalks (26) **is** on the rebuild list.
+- A medium species on a wide sidewalk (e.g. Melia, 12) counts as a non-match in this strict reading; the guide does not say whether a smaller class is allowed on a wider sidewalk (ASSUMPTION: not).
+- **Why it matters for v8 (§11 of `topic_decision.md`):** the tool's user is the designer of a street rebuild, and this list, not the dead-tree table, is the rule for that case. Next: use it as a rebuild baseline (S1-2004R: species drawn from the remodelacions row by sidewalk class) and compare the allowed set with the tool's palette.
+
 **Verdict.**
 - **Yes, a structured rule has existed since at least 2004.** It sets species by district × sidewalk width and replaces the plane everywhere except wide avenues.
 - **It is qualitative.** It rests on tradition, typology and the technicians' experience; heat and runoff are not mentioned.
@@ -190,7 +245,7 @@ So the gap holds and becomes sharper: the city has qualitative rules for which s
 
 ## 7. Still to check
 
-- The colour suitability marks in G's catalogue (open the PDF, pp. 49–56).
+- ~~The colour suitability marks in G's catalogue~~ Done 3 Nov 2026 (§5.5, read from the page images).
 - The city's current list of replacement species by street type (N3). The 2004/2005 version was read on 24 Oct (§5b). A newer one: waiting on the Parcs i Jardins email (sent 24 Oct).
 - The species list behind the 40% climate-adapted target. It is not in P, C or NP (§8). Ask for it in the Parcs i Jardins follow-up (RGF7342).
 - An official source (Ajuntament press release, or the 20minutos original) for the 2026 figures.

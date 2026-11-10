@@ -91,6 +91,26 @@ def i_check(cx, cy):
     return s + f'<path d="M{cx + 2},{cy + 16} l6,6 l12,-14" fill="none" stroke="{TREE}" stroke-width="4"/>'
 
 
+def i_table(cx, cy):
+    """Score table: positions (rows) × species (columns), shaded cells."""
+    shades = [0.9, 0.3, 0.6, 0.2, 0.5, 0.8, 0.4, 0.7, 0.3, 0.6, 0.9, 0.2]
+    s = disc(cx, cy)
+    for k, o in enumerate(shades):
+        r, c = divmod(k, 3)
+        s += f'<rect x="{cx - 17 + c * 12}" y="{cy - 23 + r * 12}" width="10" height="10" fill="{TREE}" fill-opacity="{o}"/>'
+    return s
+
+
+def i_scale(cx, cy):
+    """Weights: three sliders at different settings."""
+    s = disc(cx, cy)
+    for k, (c, v) in enumerate(((HEAT, 0.7), (WARN, 0.3), (RAIN, 0.5))):
+        y = cy - 14 + 14 * k
+        s += f'<line x1="{cx - 20}" y1="{y}" x2="{cx + 20}" y2="{y}" stroke="{GRID}" stroke-width="3"/>'
+        s += f'<circle cx="{cx - 20 + 40 * v}" cy="{y}" r="5" fill="{c}"/>'
+    return s
+
+
 def i_radar(cx, cy):
     import math
     pts = lambda r: " ".join(f"{cx + r[k] * math.sin(2 * math.pi * k / 6):.0f},{cy - r[k] * math.cos(2 * math.pi * k / 6):.0f}"
@@ -127,16 +147,16 @@ def flow_overview():
         b += curve(X[1] + 92, y, X[2] - 46, y0 - 25, GRID)
     b += i_area(X[3], y0 - 25) + caption(X[3], y0 + 40, "Draw an area") + t(X[3], y0 + 62, "any street, any district", 14, MUTED, anchor="middle")
     b += curve(X[2] + 46, y0 - 25, X[3] - 40, y0 - 25)
-    b += box(X[4], 380, "Replacement", TREE, 180, 56, "dying planes · works")
+    b += box(X[4], 380, "Replacement", TREE, 180, 56, "dying trees · works")
     b += box(X[4], 560, "Additions", TREE, 180, 56, "free planting spots")
     b += curve(X[3] + 40, y0 - 25, X[4] - 92, 380) + curve(X[3] + 40, y0 - 25, X[4] - 92, 560)
-    b += outline(X[4], 735, "City rules", WARN, 230, 70, "15% cap · sidewalk size · S1a mix")
+    b += outline(X[4], 735, "City rules", WARN, 230, 70, "15% cap · sidewalk size · city mix")
     b += vline(X[4], 698, 592, WARN)
     for k, (lab, c) in enumerate((("Heat", HEAT), ("Runoff", RAIN), ("Canopy", TREE))):
         y = 360 + 110 * k
         b += box(X[5] - 70, y, lab, c, 110, 44)
         b += curve(X[4] + 92, 380, X[5] - 127, y, GRID) + curve(X[4] + 92, 560, X[5] - 127, y, GRID)
-    b += i_radar(X[5] + 70, y0 - 25) + t(X[5] + 70, y0 + 34, "S0 · S1a", 14, MUTED, anchor="middle")
+    b += i_radar(X[5] + 70, y0 - 25) + t(X[5] + 70, y0 + 34, "today · city", 14, MUTED, anchor="middle")
     b += t(X[5] + 70, y0 + 52, "R · A · R+A", 14, MUTED, anchor="middle")
     for k in range(3):
         b += curve(X[5] - 15, 360 + 110 * k, X[5] + 30, y0 - 25, GRID)
@@ -145,7 +165,7 @@ def flow_overview():
     b += curve(X[5] + 110, y0 - 25, X[6] - 40, y0 - 25)
     b += t(800, 815, "Built and validated on Porta (Nou Barris); the screening layer and the project tool extend it to "
            "the whole city.", 17, MUTED, anchor="middle")
-    save("flow_00_overview", "Methodology", "Which species replace Barcelona's plane trees, and where to add new ones: "
+    save("flow_00_overview", "Methodology", "Which species replace the trees a project must cut, and where to add new ones: "
          "scored on heat, runoff and canopy", b,
          "notes/topic_decision.md §10 (problem v7, RQ v7, scenarios and decisions of 24 Oct); notes/methodology.md; "
          "notes/citywide_plan.md. S0 today · S1a the city's rule (2026 mix) · R replacement · A additions · R+A both.")
@@ -226,14 +246,14 @@ def flow_runoff():
 def flow_design():
     module("flow_04_design", "4 · Design", "Inside a project area: which species at which position, within the city's rules",
            [("Area", [("area", "icon", i_area, "Project area", WARN)]),
-            ("Positions", [("rep", "box", "Planes to replace", TREE, "by priority"), ("add", "box", "Free spots", TREE, "sidewalk ≥ 2.5 m, spacing")]),
+            ("Positions", [("rep", "box", "Trees to replace", TREE, "by priority"), ("add", "box", "Free spots", TREE, "sidewalk ≥ 2.5 m, spacing")]),
             ("Feasible", [("feas", "box", "Species per spot", WARN, "size class · catalogue")]),
-            ("Optimise", [("opt", "box", "Multi-objective", INK, "weighted sum → NSGA-II")]),
+            ("Optimise", [("opt", "box", "Multi-objective", INK, "weighted sum · exact LP")]),
             ("Layouts", [("r", "box", "R", TREE, "replacement"), ("a", "box", "A", TREE, "additions"), ("ra", "box", "R + A", TREE, "both")])],
            [("area", "rep"), ("area", "add"), ("rep", "feas"), ("add", "feas"), ("feas", "opt"), ("opt", "r"), ("opt", "a"), ("opt", "ra")],
-           "Each layout is compared with S1a (the city's rule) on the same positions, and with today (S0).",
+           "Each layout is compared with the city's practice on the same positions, and with today (S0).",
            "notes/topic_decision.md §9.7, §10.4–10.6; notes/tree_master_plan.md §5 (sizing rule, spacing); notes/methodology.md §6.",
-           side=("feas", "City rules", "15% cap (city-wide headroom) · S1a mix", WARN))
+           side=("feas", "City rules", "15% cap (city-wide headroom) · city mix", WARN))
 
 
 def flow_validation():
@@ -241,11 +261,27 @@ def flow_validation():
            [("Module", [("h", "icon", i_heat, "Heat", HEAT), ("w", "icon", i_rain, "Runoff", RAIN), ("p", "icon", i_tree, "Priority", TREE)]),
             ("Check", [("h1", "box", "Proxy vs Ladybug", HEAT, "same layouts"), ("h2", "box", "Ladybug vs ENVI-met", HEAT, "Mannucci et al. 2025"),
                        ("w1", "box", "Interception data", RAIN, "Freiburg, Anys & Weiler 2024"), ("p1", "box", "Removed trees", TREE, "inventory snapshots")]),
-            ("Transfer", [("tr", "box", "Sant Antoni", INK, "same city, flood-dominant")]),
+            ("Transfer", [("tr", "box", "Sant Antoni", INK, "same city · tool already run"), ("mt", "box", "Mataró", INK, "Catalan city, ICGC LiDAR"),
+                          ("fl", "box", "Florence", INK, "city LiDAR, 1,459 measured trees")]),
             ("Verdict", [("v", "icon", i_check, "Verdict per hypothesis")])],
-           [("h", "h1"), ("h", "h2"), ("w", "w1"), ("p", "p1"), ("h1", "tr"), ("h2", "tr"), ("w1", "tr"), ("p1", "tr"), ("tr", "v")],
+           [("h", "h1"), ("h", "h2"), ("w", "w1"), ("p", "p1")] + [(c, t_) for c in ("h1", "h2", "w1", "p1") for t_ in ("tr", "mt", "fl")]
+           + [("tr", "v"), ("mt", "v"), ("fl", "v")],
            "Thresholds are fixed before the runs: a difference below what the model resolves is reported as \"not resolved\".",
            "notes/methodology.md §4b, §5; notes/decisions/hypothesis_tests.md; notes/citywide_plan.md §3–4.")
+
+
+def flow_optimiser():
+    module("flow_06_optimiser", "How the optimiser finds the layout", "No trial and error: a score table, then one exact solve per weight set",
+           [("Inputs", [("pos", "icon", i_area, "Positions", WARN), ("sp", "icon", i_tree, "Species", TREE)]),
+            ("Score table", [("tab", "icon", i_table, "832 × 7 scores", TREE)]),
+            ("Weights", [("w", "icon", i_scale, "15 weight sets", WARN)]),
+            ("Exact solve", [("lp", "box", "Linear program", INK, "HiGHS · proven best · 0.06 s")]),
+            ("Re-score", [("full", "box", "Full models", RAIN, "crown overlaps · water routing")]),
+            ("Layouts", [("out", "icon", i_radar, "Trade-off front")])],
+           [("pos", "tab"), ("sp", "tab"), ("tab", "w"), ("w", "lp"), ("lp", "full"), ("full", "out")],
+           "Every objective is a sum over positions, so an exact solver beats trial-and-error search (genetic, ant colony).",
+           "HiGHS open-source solver (highs.dev) via SciPy.",
+           side=("lp", "City rules", "fits sidewalk · ≤ 15% each", WARN))
 
 
 if __name__ == "__main__":
@@ -255,3 +291,4 @@ if __name__ == "__main__":
     flow_runoff()
     flow_design()
     flow_validation()
+    flow_optimiser()

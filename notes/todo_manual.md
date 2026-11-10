@@ -7,7 +7,7 @@
 2. [x] **Done 28 Oct: identical summary.** One regression run (conda env): `python -m shade_sponge porta --size=exact --trunk=TERCERA`. Its summary must equal `databases/barcelona/tool_v0_summary_sizeexact_trunkTERCERA.csv`, since the core changed (scenarios, area, priority) and this cannot run in the cloud. Then try one project area: draw a polygon in QGIS or geojson.io, save it as `exchange/from_gh/area_test.geojson`, and run `python -m shade_sponge porta --size=exact --trunk=TERCERA --scenario=RA --area=exchange/from_gh/area_test.geojson`.
 3. [x] **Done 28 Oct (73 barris, Open Data BCN).** Official neighbourhood outlines: `python scripts/make_barris_web.py` on your PC. It finds `databases/barcelona/raw/BarcelonaCiutat_Barris.csv` and replaces the provisional OSM outlines in `web/public/data/barris.geojson` (Open Data BCN blocks the cloud with a 403). Commit the file.
 4. [ ] **Retry the 652 MB 1:1000 GeoPackage once** (`notes/sidewalk_width.md`). This is the key to sidewalk widths for the whole city (`notes/citywide_plan.md` §6.2 step 4). OSM gets the size class right for only ~3 trees in 4 (`notes/sidewalk_width.md`, "OSM check").
-5. [ ] **Ladybug: use EPW hours 11–16.** The decided window is 12–17 h local clock (CEST), and the EPW is in standard time (`notes/decisions/heat_objective.md`).
+5. [x] **Ladybug: use EPW hours 11–16.** The decided window is 12–17 h local clock (CEST), and the EPW is in standard time (`notes/decisions/heat_objective.md`). (done 2–3 Nov: the Andreu Nin and Porta runs used EPW 11–16 h)
 6. [ ] **One older street-tree inventory snapshot** (Open Data BCN `arbrat-viari`, a version from 2024 or 2025, if the portal keeps old versions). Save it as `databases/barcelona/raw/arbrat_viari_<date>.csv`. It validates the replacement-priority proxy: trees removed since then should score higher (`shade_sponge/health.py`). Blocked from the cloud.
 7. [x] **Done 28 Oct (232 spots; README, slide res_03, deck, thesis ch. 5 and the app's canopy counter updated).** Re-run the additions on your PC: `python scripts/run_additions.py`. The free spots went from 267 to 232 after the OSM exclusions (crossings, signals, bus stops), so the A and R+A numbers in `shade_sponge/README.md` and slide `res_03` need refreshing; then `python scripts/make_results_v7.py`.
 8. [ ] Optional: `pip install osmium` in the conda env, only if you want to re-run `scripts/osm_sidewalks.py` locally.
@@ -26,10 +26,10 @@
    - Nieuwenhuijsen et al. 2022, *Environ. Res.* 215:114387 (3-30-300 in Barcelona; open PDF: https://ddd.uab.cat/pub/artpub/2022/284178/284178.pdf);
    - Santamour 1990 (10-20-30 rule);
    - Kendal, Dobbs & Lohr 2014 (diversity benchmarks, 108 cities).
-3. [ ] **Ladybug Tier 1 on one Porta street, S0 vs one replacement** (≈1 evening). This is the first real UTCI number for the deck: mean UTCI 12–17 h, hot design day. I prepare the files in `exchange/to_gh/` and you run it in Grasshopper. Tell me which day you can do it.
+3. [x] **Ladybug Tier 1 on one Porta street, S0 vs one replacement** (≈1 evening). This is the first real UTCI number for the deck: mean UTCI 12–17 h, hot design day. I prepare the files in `exchange/to_gh/` and you run it in Grasshopper. Tell me which day you can do it. (done 2–3 Nov by the user: Pg Andreu Nin, mesh crowns, plus all Porta plane streets (every 5th point); results in `notes/methodology.md` §5b)
 4. [ ] **RM cluster map by hand on Miro, by Tue 27 Oct** (below).
 5. [x] **Ask the tutor by email (one line):** is Infrared City access possible before 10 Nov? If yes, it replaces item 3. **Sent (user, 30 Oct); awaiting reply.**
-6. [x] **Baseline decided (24 Oct): S1a**, the 2026 mix. S1b, the 2004 table, is cited only.
+6. [x] **Baseline decided (24 Oct): S1a**, the 2026 mix. **Updated 6 Nov:** reference baseline = S1b, the observed replacement mix 2018–2026; S1a kept beside it; the 2004 table is renamed S1-2004 and cited only.
 7. [ ] Pick a day before 10 Nov for a 20-min **dry run of the deck** with me (problem → RQ → flowcharts → first results → validation).
 
 ## For the next tutor session, 10 Nov (requests from the 20 Oct session)
@@ -96,7 +96,7 @@ Then the gap and evidence papers:
 - [ ] Your export `databases/traits/raw/i-Tree-Eco_dat.csv` has only ID, code and names (no traits). If i-Tree shows trait columns for a species (leaf type, mature height, growth form, shading), export the species list with those columns. If it doesn't, tell me and we drop i-Tree as a trait source.
 
 ### Optional but strong for the talk
-- [ ] **One Ladybug test run (Tier 1, S0)** on a small piece of Porta (e.g. one block of Av. Meridiana). Setup and file names are in `exchange/README.md`:
+- [x] **One Ladybug test run (Tier 1, S0)** on a small piece of Porta (e.g. one block of Av. Meridiana). Setup and file names are in `exchange/README.md`: (done: superseded by the 2–3 Nov runs, `notes/methodology.md` §5b)
   - EPW: Barcelona El Prat TMYx (LB Download Weather from climate.onebuilding.org);
   - buildings: `exchange/to_gh/porta_buildings.geojson`;
   - crowns: `exchange/to_gh/porta_trees_lidar.csv`.
