@@ -1,5 +1,9 @@
 """Second pass of spot exclusions for Porta, from the city's own point data. Runs AFTER scripts/porta_spot_exclusions.py
-(OSM) and only fills `excluded_by` in databases/barcelona/porta_planting_spots.csv where it is still empty.
+(OSM) and only looks at the spots that script kept. It does NOT change databases/barcelona/porta_planting_spots.csv, so
+the tool's spots stay as they are: the result goes to databases/barcelona/porta_planting_spots_city.csv (spot_id,
+size_class, excluded_by with the OSM and the city rule, dist_m to the city object) until the user decides whether the
+guide's lamp distance should bind (half of Porta's existing trees stand closer to a lamp than it allows; see the last
+printout and notes/tutor_feedback_10nov.md A3).
 
 Objects, clipped to the Porta boundary (exchange/to_gh/porta_boundary.csv) + 50 m, cached in
 databases/barcelona/porta_street_objects.csv (type, x, y in EPSG:25831, source, date; CC BY 4.0, Ajuntament de Barcelona):
@@ -33,6 +37,7 @@ import porta_sidewalk_width as psw  # noqa: E402  reuse the WMS tile fetch (fetc
 
 RAW = pathlib.Path(sys.argv[1]) if len(sys.argv) > 1 else ROOT / "databases/barcelona/raw"
 SPOTS, OBJ = ROOT / "databases/barcelona/porta_planting_spots.csv", ROOT / "databases/barcelona/porta_street_objects.csv"
+CITY = ROOT / "databases/barcelona/porta_planting_spots_city.csv"
 O = json.load(open(ROOT / "exchange/site_origin.json"))
 LAMP = {"small": 3.0, "medium": 4.5, "large": 6.5}                       # 2011 guide pp. 22-23
 FIXED = {"traffic_light": 3.0, "sign_support": 3.0}                      # 2011 guide
@@ -154,7 +159,7 @@ if __name__ == "__main__":
     new = s.excluded_by.isin(city_rules)
     clear = np.where(s.excluded_by == "lamp", s.size_class.map(LAMP), s.excluded_by.map({**FIXED, **SMALL}))
     assert (dist[new] < clear[new]).all() and (s.excluded_by == "").sum() == n0 - new.sum()
-    s.to_csv(SPOTS, index=False)
+    s.assign(dist_m=dist.round(2))[["spot_id", "size_class", "excluded_by", "dist_m"]].to_csv(CITY, index=False)
     kept = s[s.excluded_by == ""]
     print(f"{len(s)} spots; after OSM {n0} -> after city rules {len(kept)} kept")
     print("excluded by city rule:", s[new].excluded_by.value_counts().to_dict())
