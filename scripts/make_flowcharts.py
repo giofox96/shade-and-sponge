@@ -261,7 +261,7 @@ def flow_validation():
            [("Module", [("h", "icon", i_heat, "Heat", HEAT), ("w", "icon", i_rain, "Runoff", RAIN), ("p", "icon", i_tree, "Priority", TREE)]),
             ("Check", [("h1", "box", "Proxy vs Ladybug", HEAT, "same layouts"), ("h2", "box", "Ladybug vs ENVI-met", HEAT, "Mannucci et al. 2025"),
                        ("w1", "box", "Interception data", RAIN, "Freiburg, Anys & Weiler 2024"), ("p1", "box", "Removed trees", TREE, "inventory snapshots")]),
-            ("Transfer", [("tr", "box", "Sant Antoni", INK, "same city, flood-dominant"), ("mt", "box", "Mataró", INK, "Catalan city, ICGC LiDAR"),
+            ("Transfer", [("tr", "box", "Sant Antoni", INK, "same city · tool already run"), ("mt", "box", "Mataró", INK, "Catalan city, ICGC LiDAR"),
                           ("fl", "box", "Florence", INK, "city LiDAR, 1,459 measured trees")]),
             ("Verdict", [("v", "icon", i_check, "Verdict per hypothesis")])],
            [("h", "h1"), ("h", "h2"), ("w", "w1"), ("p", "p1")] + [(c, t_) for c in ("h1", "h2", "w1", "p1") for t_ in ("tr", "mt", "fl")]

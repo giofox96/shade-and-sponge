@@ -484,7 +484,7 @@ def s_next(s):
     steps = [("11–15 Nov", "Every tree", ["Any tree a project replaces, not only planes", "City layout against S1b",
                                             "Demo: Santapau · Emili Roca · Desfar works"], TREE),
              ("16–22 Nov", "Heat", ["UTCI of the final layouts", "Infrared City, ENVI-met check", "Hot design day · priority score"], HEAT),
-             ("23–29 Nov", "Transfer", ["Sant Antoni: same city", "Mataró: Catalan city, ICGC LiDAR",
+             ("23–29 Nov", "Transfer", ["Sant Antoni: repeat the checks (tool already run)", "Mataró: Catalan city, ICGC LiDAR",
                                         "Florence: city LiDAR + 1,459 measured trees"], RAIN),
              ("30 Nov–6 Dec", "Tool", ["City screening layer", "GeoPackage + QGIS style · web app", "Co-benefits per layout"], WARN),
              ("7–18 Dec", "Deliver", ["Booklet", "Final presentation", "Defence 10–23 Dec"], INK)]
