@@ -82,7 +82,7 @@ client = InfraredClient(api_key=key)
 
 lon_c, lat_c = lonlat((x0 + x1) / 2, (y0 + y1) / 2)
 # Infrared hour h = EPW record h+1 (interval start); Ladybug hour h = record h. start 10 / end 15 selects the same
-# six EPW records 11-16 as Ladybug 11-16 (= 12-17 h CEST); checked on 15 July, both TMYx files.
+# six EPW records 11-16 as Ladybug 11-16 (= 12-17 h CEST); checked on 15 July, TMYx 2011-2025.
 window = TimePeriod(start_month=7, start_day=15, start_hour=10, end_month=7, end_day=15, end_hour=15)
 # EPW: default = the plain TMYx (1973-2023) the Grasshopper Ladybug run used (hb_utci_andreu_nin_sameepw.csv);
 # `--epw2011` = TMYx 2011-2025, the hotter file of the first Honeybee run (hb_utci_andreu_nin.csv).
