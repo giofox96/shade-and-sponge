@@ -818,10 +818,17 @@ def b4b_palette30(s):
     cd.categories = list(d.barri)
     cd.add_series("7 species", list(d.summer_pct_tool_palette7))
     cd.add_series("30 species", list(d.summer_pct_tool_palette30))
-    ch = s.shapes.add_chart(XL_CHART_TYPE.BAR_CLUSTERED, Inches(M), Inches(1.45), Inches(7.6), Inches(5.4), cd).chart
+    ch = s.shapes.add_chart(XL_CHART_TYPE.BAR_CLUSTERED, Inches(M), Inches(1.35), Inches(7.6), Inches(5.65), cd).chart
     style_chart(ch, [WARN, TREE], labels=False, size=9)
     quiet_axes(ch, 60, 115, gridlines=True)
     ch.plots[0].gap_width, ch.plots[0].overlap = 40, 0
+    ca = ch.category_axis
+    ca.tick_labels.font.size = Pt(7)
+    ch.legend.position = XL_LEGEND_POSITION.TOP
+    skip = ca._element.makeelement(qn("c:tickLblSkip"), {})   # show all 33 names: PowerPoint and Google otherwise skip every other one
+    skip.set("val", "1")
+    nm = ca._element.find(qn("c:noMultiLvlLbl"))
+    nm.addprevious(skip) if nm is not None else ca._element.append(skip)
     ch.has_title = True
     ch.chart_title.text_frame.text = "Summer shade, % of today"
     ch.chart_title.text_frame.paragraphs[0].runs[0].font.size = Pt(12)
