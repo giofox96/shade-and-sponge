@@ -4,7 +4,7 @@
 
 > I start from our cluster topic, data-driven decision making, and I follow one street tree in Barcelona.
 >
-> On the left, the data side: heat and flooding are now mapped street by street, with LiDAR, design storms and UTCI. On the right, the city's rules: no species above 15%, and the sidewalk decides the tree size.
+> On the left, the data side: a street too hot to walk and water on the street can now be mapped street by street, as UTCI and millimetres of runoff. On the right, the city's rules: no species above 15%, and the sidewalk decides the tree size.
 >
 > In the middle, the reason anything changes. The city plan wants fewer plane trees: one species means one pest can hit everything, the plane has its own pests and drops its leaves in drought, and the plan sets biodiversity and climate targets. So the plane is the only species over the 15% cap, and it has to be replaced. But each replacement changes shade and runoff, and nobody measures by how much.
 >
@@ -16,10 +16,10 @@
 
 ## 2. The cluster map – about 45 seconds
 
-> On the cluster map, my line is the dashed orange one, and it follows the same street tree through the six stations.
+> On the cluster map, my line is the dashed orange one, and it follows the same street tree through the seven stations.
 >
-> The coarse rule is a fixed table by district and sidewalk width. Instead, I score each tree position by its own crown and leaf area. I predict before planting with a fast shade proxy, checked against Ladybug UTCI, and runoff from a two-year storm. My ground truth is rain interception measured on real trees. My baseline is what the city really planted between 2018 and 2026. And the tool is a Grasshopper plug-in and a web app.
+> The coarse rule is a fixed table by district and sidewalk width. Instead, I score each tree position by its own crown and leaf area. I predict before planting with a fast shade proxy, checked against Ladybug UTCI, and runoff from a two-year storm. My ground truth is rain interception measured on real trees. My baseline is the city's own rule-following replacement, under the 2037 master plan, and today's trees. The tool is a Grasshopper plug-in and a web app. And my gap is methodological: no method picks species per tree position on heat and runoff together, inside a city's replacement rules.
 >
-> What we added is one level up. Our topics are different, so what connects us is the field: each of us turns a quality into a number. For me, a street's shade and rain become crown size, leaf area and one UTCI value. The question we all share is: what does that number leave out?
+> What we added is one level up. Our topics are different, so what connects us is the field: every line starts from something people live and ends in a number. For me, a street too hot to walk and water on the street after a storm become UTCI, millimetres of runoff, and each tree's crown size and leaf area. The number decides, so what it leaves out matters: hot nights, the people most at risk, where the water goes. Whoever decides sees only the number: what is left out?
 
 <!-- Check before speaking: "18 → 7 → 1 → 0" comes from my prior-art matrix (notes/lit/prior_art_matrix.csv); read the six papers to confirm. -->
