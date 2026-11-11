@@ -352,7 +352,7 @@ Sources: `notes/methodology.md`, `shade_sponge/README.md`.
 
 **What is new since 21 Oct (slides 10–11):**
 - **Two branches inside a project area the designer draws:** replace the planes (ranked by priority) and add trees in free spots. Scenarios: **S0** today · **R** replacement only (S1 city rule vs optimised) · **A** additions only · **R+A** both. Compared on a radar of normalised indicators (summer shade, winter sun, total and hotspot runoff, canopy cover, diversity), always next to bars in real units with the Δmin marks.
-- **Free spots (Porta): 232** on sidewalks wide enough under the city's rules, away from crossings and bus stops. An upper bound: driveways and services are not in the data.
+- **Free spots (Porta): 152** on sidewalks wide enough under the city's rules, away from crossings, bus stops, lamps, sign posts and bollards (11 Nov; 232 before the city's street objects were added, the number on the 10 Nov slides). A range, not a fact: 116 with the guide's lamp distance to the letter, which half of Porta's existing trees break. Underground services are not in any open data.
 - **City's rules as hard inputs:** 15% cap (city-wide, counted on **street trees only**, a simplification decided 26 Oct), sidewalk size class, the city's mix as baseline.
 - **Equal trunk size:** species are scored at equal trunk class, not at their raw Porta medians.
 - **Optimiser in practice:** a weighted-sum LP (HiGHS) sweep; NSGA-II is still the plan for later. The **city LP** solves 28 barris at once under one city-wide cap, plus an optional **local ceiling** (no species in a barri above today's plane count).
@@ -439,7 +439,7 @@ Sources: `slides/outline_10nov.md` slides 12–15; `notes/citywide_plan.md` §6.
 - **Summer shade: city rule (S1a) 87%, method 98%** of today. Price: about **6% more winter shade**, a real trade-off.
 - **Runoff: −33.9 m³** total at T2-60 vs S1a, **below Δmin = 91 m³ → "not resolved"**. An honest result, not a failure.
 
-**Porta, additions (slide 13).** 232 free spots. Keeping the planes and adding trees gives the most shade, but the planes are going. **City rule + the same new trees: 92%** of today. **Method + additions: 103.5%**. Only the combination of the two levers, chosen with numbers, ends above today. **But additions do not reach the 30% target:** all 232 trees add +0.62 points of canopy cover (city mix +0.51), from 20.1% to about 20.7%, about 6% of the gap (`shade_sponge/README.md`). On streets, new trees compensate the summer shade that replacement loses, not the crown cover (replacement + additions, optimised: −0.5 points vs today); the rest of the target needs squares, parks and courtyards, outside this tool's scope (they are not street positions and have no sidewalk rule).
+**Porta, additions (slide 13; numbers re-run 11 Nov with 152 spots, the slide still shows the 232-spot run: 92%, 103.5%, +0.62).** 152 free spots. Keeping the planes and adding trees gives the most shade, but the planes are going. **City rule + the same new trees: 90%** of today. **Method + additions: 101.7%**. Only the combination of the two levers, chosen with numbers, ends above today. **But additions do not reach the 30% target:** all 152 trees add +0.40 points of canopy cover (city mix +0.33), from 20.1% to about 20.5%, about 4% of the gap (`shade_sponge/README.md`). On streets, new trees compensate the summer shade that replacement loses, not the crown cover (replacement + additions, optimised: −0.7 points vs today); the rest of the target needs squares, parks and courtyards, outside this tool's scope (they are not street positions and have no sidewalk rule).
 
 **City-wide, 28 barris, one LP (slides 14–15).** Barris with ≥ 500 planes: **31,580 planes**, one optimisation under the 15% city cap plus the local ceiling.
 - Against the city's mix: **median +9.2 points** of today's summer shade (−1.4 to +25.4); **27 of 28 gain**. The one loss: **Sant Gervasi – la Bonanova, 90.8% vs 92.2%**, because with one city cap the capped species go where they add most (el Poble-sec +21.8, Diagonal Mar +17.4 against the local cap).
@@ -467,7 +467,7 @@ Sources: `slides/outline_10nov.md` slides 12–15; `notes/citywide_plan.md` §6.
 
 1. 87% (S1a) vs 98% of today's summer shade; about 6% more winter shade.
 2. The total difference (33.9 m³) is below Δmin = 91 m³, fixed before the runs; "not resolved" was declared an allowed outcome, so heat carries the species choice.
-3. Trait-based replacement plus the 232 additions: 103.5% (city rule + additions: 92%).
+3. Trait-based replacement plus the 152 additions: 101.7% (city rule + additions: 90%).
 4. 28 barris, 31,580 planes; median +9.2 points vs the city mix; 27/28 gain; la Bonanova loses (90.8 vs 92.2) because the city-wide cap sends Celtis and Tipuana where they add most.
 5. No species in a barri above today's plane count; infeasible where few planes are replaced (Baró de Viver, la Trinitat Vella).
 6. The city's observed plane-replacement mix 2018–2026 (1,444 cases). Margin median +5.7 points vs S1a and +7.2 vs S1b; Porta 11.7 → 8.8.
@@ -600,7 +600,7 @@ Porta's measured species cover **52.2% of Mataró's top-30 species** (counting o
 - **The 15% cap is counted on street trees only** (26 Oct simplification); the plan's base is ~201,600 trees incl. squares.
 - **The local ceiling is infeasible in barris with few planes** (Baró de Viver, la Trinitat Vella), and with one city cap a barri can lose (la Bonanova).
 - **LiDAR seasons differ across barris** (June 2022 vs Porta's 26 Sept 2021).
-- **The 232 free spots are an upper bound** (no driveways or services in the data); city-wide sidewalk widths still come partly from OSM (size class right for about 3 trees in 4).
+- **The 152 free spots are still an upper bound** (no driveways or underground services in the data; 116 with the guide's lamp distance); city-wide sidewalk widths still come partly from OSM (size class right for about 3 trees in 4).
 
 ---
 
@@ -651,7 +651,7 @@ Sources: `slides/outline_20oct.md`; the Porta and Barcelona answers from `notes/
 | **S2** | Heat-only optimum | optimiser, weight on heat |
 | **S3** | Runoff-only optimum | optimiser, weight on runoff |
 | **S4** | Both (the balanced layout of the weight sweep; "the method") | optimiser |
-| **R / A / R+A** | Replacement only / additions only (232 free spots, planes kept) / both | `notes/topic_decision.md` §10.6, slide 13 |
+| **R / A / R+A** | Replacement only / additions only (152 free spots, planes kept) / both | `notes/topic_decision.md` §10.6, slide 13 |
 
 Mnemonic: **"Now, Swap, Hot, Wet, Both"** = S0, S1, S2, S3, S4. S1 has three versions: **2004 = the old table, a = announced, b = built** (what was really planted).
 
@@ -708,8 +708,8 @@ Mnemonic: **"Now, Swap, Hot, Wet, Both"** = S0, S1, S2, S3, S4. S1 has three ver
 | 87% / 98% | Porta summer shade vs today: city rule (S1a) / method (replacement only) |
 | +6% | Extra winter shade of the method (the trade-off) |
 | 33.9 m³ | Runoff difference method vs S1a, T2-60 (< Δmin → not resolved) |
-| 232 | Free planting spots in Porta (upper bound) |
-| 92% / 103.5% | City rule + additions / method + additions |
+| 152 | Free planting spots in Porta (232 before the city's street objects, 11 Nov; 116 with the guide's lamp distance) |
+| 90% / 101.7% | City rule + additions / method + additions (152 spots; 92% / 103.5% with 232, as on the 10 Nov slides) |
 | 28 / 31,580 | Barris (≥ 500 planes) / planes in the city LP |
 | +9.2 pts / 27 of 28 | City LP median summer-shade gain vs city mix / barris that gain |
 | 90.8 vs 92.2% | Sant Gervasi – la Bonanova, the one loss |

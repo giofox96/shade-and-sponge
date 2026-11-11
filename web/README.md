@@ -61,7 +61,7 @@ The top of the right panel shows the **canopy cover** of the layout on screen ag
 - **Precomputed layouts:** today plus the change of the disc model (exact, overlaps included).
 - **Live layouts, project areas and added trees:** today plus their crown discs summed without overlaps (marked ≈, runs high). Each added tree updates the counter.
 - **Gap:** the points and hectares left to the target.
-- **For scale** (city palette, established): what planting all 232 free street spots would add (after the OSM exclusions; re-run 28 Oct).
+- **For scale** (city palette, established): what planting all 152 free street spots would add (after the OSM and city street-object exclusions; re-run 11 Nov).
 
 The data are in `meta.json → cover`, from `databases/barcelona/porta_canopy_cover.csv` and `additions_summary.csv`.
 
@@ -86,7 +86,7 @@ Trees are not replaced all at once. A plane is replaced when it dies, when it is
 
 **Sidewalks on the map** (Map layer → *Sidewalk edges and free planting spots*, on by default):
 - façade lines (brown) and kerb lines (dark) from the 1:1000 base map, so the sidewalk is the band between them;
-- the 232 free spots as green dots (267 minus those near crossings, signals, parking entrances and bus stops; `scripts/porta_spot_exclusions.py`) (light to dark = small / medium / large). In *Add trees* mode, a click on a spot plants there.
+- the 152 free spots as green dots (267 minus those near crossings, signals, parking entrances and bus stops, `scripts/porta_spot_exclusions.py`, and near lamps, sign supports, bollards and benches, `scripts/porta_spot_exclusions_city.py`) (light to dark = small / medium / large). In *Add trees* mode, a click on a spot plants there.
 
 Built by `web_export.py` from the cached WMS tiles (`sidewalks.geojson`).
 
