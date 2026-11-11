@@ -273,6 +273,20 @@ publicly (Parcs i Jardins asked).
 > Master in Advanced Computation for Architecture & Design (MaCAD), IAAC Barcellona
 > giovanni.carlo.volpe@students.iaac.net
 
+### 4b. Firenze nudge (Italian, reply in the same thread from the IAAC inbox; drafted 11 Nov at Giovanni's request)
+> **Oggetto:** R: Richiesta nuvola di punti LiDAR 27 giugno 2023 – tesi IAAC
+>
+> Gentile dott. Polistena,
+>
+> le scrivo per un breve aggiornamento sulla mia richiesta della nuvola di punti LiDAR (la mia email del 4 novembre, con il poligono dell'area di Firenze Nova in EPSG:7791).
+>
+> I tempi della tesi sono stretti: la consegna è a metà dicembre e l'analisi dei dati di Firenze andrebbe fatta entro la fine di novembre. Potrebbe dirmi a che punto è la richiesta e quando potrei ricevere l'accordo di consegna? Lo firmo subito appena arriva. Se servono altre informazioni o un documento dell'IAAC, glielo mando in giornata.
+>
+> La ringrazio molto,
+> Giovanni Carlo Volpe
+> Master in Advanced Computation for Architecture & Design (MaCAD), IAAC Barcellona
+> giovanni.carlo.volpe@students.iaac.net
+
 ## 5. Ready-to-send texts written in the thread on 3 Nov (copied here 5 Nov)
 
 ### 5a. BCASA follow-up (Spanish; Atenció en línia form, category "Información sobre la red de alcantarillado", subject "Seguimiento BDM9240")
