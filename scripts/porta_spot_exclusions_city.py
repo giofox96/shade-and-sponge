@@ -1,9 +1,8 @@
 """Second pass of spot exclusions for Porta, from the city's own point data. Runs AFTER scripts/porta_spot_exclusions.py
-(OSM) and only looks at the spots that script kept. It does NOT change databases/barcelona/porta_planting_spots.csv, so
-the tool's spots stay as they are: the result goes to databases/barcelona/porta_planting_spots_city.csv (spot_id,
-size_class, excluded_by with the OSM and the city rule, dist_m to the city object) until the user decides whether the
-guide's lamp distance should bind (half of Porta's existing trees stand closer to a lamp than it allows; see the last
-printout and notes/tutor_feedback_10nov.md A3).
+(OSM) and only fills `excluded_by` in databases/barcelona/porta_planting_spots.csv where it is still empty.
+Lamp distance: the guide's distance x LAMP_K, with LAMP_K = 0.5 (user decision, 11 Nov; ASSUMPTION: "as in practice").
+Half of Porta's existing trees stand closer to a lamp than the guide allows (last printout), so the guide to the letter
+(116 spots) is not what the city does; half the distance gives 152. notes/tutor_feedback_10nov.md A3.
 
 Objects, clipped to the Porta boundary (exchange/to_gh/porta_boundary.csv) + 50 m, cached in
 databases/barcelona/porta_street_objects.csv (type, x, y in EPSG:25831, source, date; CC BY 4.0, Ajuntament de Barcelona):
@@ -37,9 +36,9 @@ import porta_sidewalk_width as psw  # noqa: E402  reuse the WMS tile fetch (fetc
 
 RAW = pathlib.Path(sys.argv[1]) if len(sys.argv) > 1 else ROOT / "databases/barcelona/raw"
 SPOTS, OBJ = ROOT / "databases/barcelona/porta_planting_spots.csv", ROOT / "databases/barcelona/porta_street_objects.csv"
-CITY = ROOT / "databases/barcelona/porta_planting_spots_city.csv"
 O = json.load(open(ROOT / "exchange/site_origin.json"))
 LAMP = {"small": 3.0, "medium": 4.5, "large": 6.5}                       # 2011 guide pp. 22-23
+LAMP_K = 0.5                                                             # ASSUMPTION, user decision 11 Nov (docstring)
 FIXED = {"traffic_light": 3.0, "sign_support": 3.0}                      # 2011 guide
 SMALL = {"bollard": 1.0, "bench": 1.0, "fountain": 1.0}                  # ASSUMPTION
 BUS = 8.0                                                                # as the OSM rule (ASSUMPTION there)
@@ -155,11 +154,11 @@ if __name__ == "__main__":
     city_rules = {"lamp", *FIXED, *SMALL}
     s.loc[s.excluded_by.isin(city_rules), "excluded_by"] = ""              # re-runs start from the OSM result
     n0 = (s.excluded_by == "").sum()
-    s["excluded_by"], dist = apply(s, ob)
+    s["excluded_by"], dist = apply(s, ob, lamp_k=LAMP_K)
     new = s.excluded_by.isin(city_rules)
-    clear = np.where(s.excluded_by == "lamp", s.size_class.map(LAMP), s.excluded_by.map({**FIXED, **SMALL}))
+    clear = np.where(s.excluded_by == "lamp", s.size_class.map(LAMP) * LAMP_K, s.excluded_by.map({**FIXED, **SMALL}))
     assert (dist[new] < clear[new]).all() and (s.excluded_by == "").sum() == n0 - new.sum()
-    s.assign(dist_m=dist.round(2))[["spot_id", "size_class", "excluded_by", "dist_m"]].to_csv(CITY, index=False)
+    s.to_csv(SPOTS, index=False)
     kept = s[s.excluded_by == ""]
     print(f"{len(s)} spots; after OSM {n0} -> after city rules {len(kept)} kept")
     print("excluded by city rule:", s[new].excluded_by.value_counts().to_dict())
@@ -168,8 +167,8 @@ if __name__ == "__main__":
 
     base = s.excluded_by.where(~new, "")
     sb = s.assign(excluded_by=base)
-    for lab, kw in [("lamp x0.5", dict(lamp_k=0.5)), ("lamp x2", dict(lamp_k=2.0)),
-                    ("1 m rule at 0.5 m", dict(small_m=0.5)), ("1 m rule at 2 m", dict(small_m=2.0))]:
+    for lab, kw in [("lamp x1 (guide)", dict(lamp_k=1.0)), ("lamp x2", dict(lamp_k=2.0)),
+                    ("1 m rule at 0.5 m", dict(lamp_k=LAMP_K, small_m=0.5)), ("1 m rule at 2 m", dict(lamp_k=LAMP_K, small_m=2.0))]:
         print(f"sensitivity {lab}: {(apply(sb, ob, **kw)[0] == '').sum()} kept")
 
     bus = ob[ob.type == "bus_stop"]
