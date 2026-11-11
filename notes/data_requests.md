@@ -26,7 +26,7 @@ forward replies or paste them in the thread. Nothing here is sent by Claude.*
 - [x] Plànols Vol. II complete on the OMEN (4 Nov) and read by Claude (§0). Vols I, III, V still broken, not needed.
 - [x] Escapos census downloaded to `databases\florence\raw\` (4 Nov).
 - [x] Firenze LiDAR: reply to Polistena sent 4 Nov 14:50 with the polygon.
-- [x] **Firenze LiDAR nudge SENT 11 Nov** (§4b, without the §6c P.S. on Enel cables: add §6c to the next reply).
+- [x] **Firenze LiDAR nudge SENT 11 Nov** (§4b) without the §6c P.S.; Giovanni sends the P.S. as a short follow-up in the same thread (11 Nov, text in the thread).
 - [ ] **Firenze LiDAR**: when the delivery agreement arrives, send it to Claude to read before signing. Nudge ~18 Nov if silent.
 - [ ] Barcelona Regional: phone +34 932 237 400 around 13 Nov if still silent.
 - [x] **Underground services (11 Nov, §6)**: §6a SENT 11 Nov to ACEFAT/eWise (sau@ cc ewise@); nudge ~25 Nov if silent. Was: send §6a to ACEFAT/eWise (5 min). If they say yes, register on eWise and make the free request for the Santapau / Emili Roca / Desfar area. §6b (transparency request) and §6c (Florence) only if needed.
