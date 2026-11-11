@@ -300,14 +300,14 @@ publicly (Parcs i Jardins asked).
 > Moltes gràcies,
 > Giovanni Carlo Volpe – giovanni.carlo.volpe@students.iaac.net
 
-### 5c. AiEM (UPC) email (English; pick a name on https://aie.upc.edu/equip/ or use the group's general contact)
+### 5c. AiEM (UPC) email (English). Addressee chosen 11 Nov: **Helena Coch Roura** (group head; email via the envelope icon on https://aie.upc.edu/equip/). Hook: López Ordóñez, García Nevado, Coch Roura & Morganti (2024), "Open space heat stress in social housing districts: the role of trees depending on urban form", PLEA 2024, Wrocław, pp. 237–242 (UPCommons, Barcelona, read via web summary only)
 > **Subject:** MaCAD thesis (IAAC): street trees, UTCI and runoff in Barcelona – a short question
 >
-> Dear [Name / AiEM team],
+> Dear Prof. Coch,
 >
 > I'm Giovanni Carlo Volpe, a MaCAD student at IAAC. My thesis develops a computational method that suggests street-tree species and positions to reduce pedestrian heat stress (mean UTCI, 12–17 h, hot design day) and pluvial runoff, tested in Porta (Nou Barris). Heat is estimated with a fast shade proxy, checked against Ladybug Tools on sample streets.
 >
-> I was told your group works on simulations of urban space, vegetation and Barcelona's heat island. I'd be very grateful for 20 minutes of your time, online, on two points:
+> I was told your group works on simulations of urban space, vegetation and Barcelona's heat island, and I read your PLEA 2024 paper on the role of trees in open-space heat stress in Barcelona's social housing districts. I'd be very grateful for 20 minutes of your time, online, on two points:
 > 1. how you represent tree crowns (porosity/LAI, seasonality) in outdoor-comfort simulations;
 > 2. whether you know of measured UTCI or surface-temperature data in Barcelona streets that could serve as a sanity check.
 >
