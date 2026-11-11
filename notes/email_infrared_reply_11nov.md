@@ -22,9 +22,9 @@ Thank you, this is very helpful. Answers and an update below.
 - A Python re-implementation of the Ladybug chain matches Grasshopper (bias −0.02 °C, r = 0.998), so I can run it on all of Porta.
 - Replacing the planes with the tool's layout changes mean UTCI by −0.19 °C with porous crowns (−0.15 °C in Honeybee). So, for heat, the tool's layout is no worse than today's planes within model uncertainty; the gains are elsewhere (runoff, diversity, winter sun).
 - My shade proxy ranks points like Ladybug: r = −0.73 across points, −0.82 on the layout difference.
-- First Infrared run on the same street, today's trees: mean 30.00 °C vs 30.81 °C in Honeybee with opaque crowns, point-by-point r = 0.88. Infrared is cooler mainly under the crowns and along the west façade (see the attached map), which fits a lower default transmissivity. I will repeat it with the per-tree values from point 2.
+- First Infrared run on the same street, today's trees: mean 30.00 °C vs 30.81 °C in Honeybee with opaque crowns, point-by-point r = 0.88. Caveat: this run may sit one hour later than the Ladybug window (see the question below); I will rerun it. Infrared is cooler mainly under the crowns and along the west façade (see the attached map), which fits a lower default transmissivity. I will repeat it with the per-tree values from point 2.
 
-One question: I assumed that an Infrared hour h covers the interval starting at h, so that my window 12–17 h corresponds to EPW records 13–17. Is that right?
+One question on hours: is hour h in the API the interval that starts at h, i.e. EPW record h+1? In that case `start_hour=10, end_hour=15` reads the same EPW records as my Ladybug window 11–16 (12–17 local summer time).
 
 **4. The surrogate: what I decided.** I will not train my own surrogate as a main step. Infrared City is already an ML surrogate of UTCI, and my shade proxy is fast and ranks positions like Ladybug. So the plan is:
 1. per-tree runs (with tree minus without tree, as you suggest) on sample streets, to calibrate the proxy in °C;
