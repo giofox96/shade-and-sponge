@@ -19,7 +19,7 @@ forward replies or paste them in the thread. Nothing here is sent by Claude.*
 - [x] Slack: María asked (3 Nov); Pinyol lead dropped, go for Joan Guitart.
 - [x] LinkedIn: connection request to Joan Guitart sent (3 Nov). When he accepts, send a short message (ask Claude for the text).
 - [x] Víctor Ténez (UPC): email sent 3 Nov evening to victor.tenez@upc.edu. Wait for a reply; nudge ~11 Nov if silent.
-- [ ] **AiEM (UPC)**: pick a researcher on https://aie.upc.edu/equip/ and send the email (text §5c).
+- [x] **AiEM (UPC)**: email SENT 11 Nov to Helena Coch Roura (helena.coch@upc.edu), text §5c citing the PLEA 2024 paper. Wait; nudge ~25 Nov if silent. Journal version of that paper read: literature matrix row 147.
 - [x] Parcs i Jardins follow-up SENT 6 Nov (form "Arbrat sol·licitud plantació"), new code **BKB1995**. Wait; if silent by ~20 Nov, ask the tutor for an Àrea d'Arbrat contact instead of another form.
 - [ ] **10 Nov, tutor**: ask Angelos for an Àrea d'Arbrat contact; mention the BCASA letter if BCASA says it can be done remotely.
 - [x] PDISBA PDFs downloaded (3 Nov); Diagnosi read.
