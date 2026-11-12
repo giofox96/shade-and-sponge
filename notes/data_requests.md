@@ -14,6 +14,7 @@ forward replies or paste them in the thread. Nothing here is sent by Claude.*
 - [x] **Angelos: letter received signed 10 Nov** (`/mnt/project-files/bcasa/IAAC_tutor_letter_BCASA_signed.pdf`, not in repo). Was: : ask him to sign the letter draft `/mnt/project-files/bcasa/IAAC_tutor_letter_BCASA_draft.docx` (email text in the thread). When it comes back signed, resume BCASA.
 - [x] **BCASA, 12 Nov**: acknowledged the 10 Nov email: "trasladada al equipo técnico", answer to come by email. Wait; nudge ~26 Nov if silent.
 - [x] **BCASA: SENT 10 Nov** (signed form + tutor letter by email to info.bcasa@bcn.cat; asked whether an instància is still needed). Wait; nudge ~24 Nov if silent. Was: sign `/mnt/project-files/bcasa/BCASA_sollicitud_dades_Volpe.pdf` (place/date filled) and email it with the letter to info.bcasa@bcn.cat (text in the thread, 10 Nov). Was: after the signed letter: when Angelos's letter exists, send ONE email to info.bcasa@bcn.cat with the signed form + the letter, and ask whether the instància is still needed or the email is enough.
+- [ ] **Parcs i Jardins, 12 Nov: meeting offered Fri 13 Nov** (10:30 or 12:30, 30 min, online) by the head of Green Strategy and Biodiversity. Reply §2c: pick a slot, ask for an English speaker.
 - [x] **Parcs i Jardins (9 Nov)**: RGF7342 answered; detailed query SENT 9 Nov by email (text §2b). Wait; nudge ~23 Nov if silent. Was: send the detailed query to the tree unit's generic address (kept out of this public repo; see /mnt/project-files/notes/data_requests_private.md) (text §2b), from the IAAC inbox.
 - [x] **Mataró (10 Nov)**: tree-table request SENT to the city's general mailbox (row 8) + Slack ask to classmates in Spain for the ORDS JSON. Wait; nudge ~24 Nov if silent.
 - [ ] **AMB contact form** (amb.cat → Contacte): message for Cati Montserrat (text §5b).
@@ -247,6 +248,32 @@ publicly (Parcs i Jardins asked).
 >
 > Moltes gràcies pel vostre temps.
 >
+> Giovanni Carlo Volpe
+> MaCAD, Institute for Advanced Architecture of Catalonia (IAAC)
+> giovanni.carlo.volpe@students.iaac.net
+
+### 2c. Parcs i Jardins: meeting offer (12 Nov) and reply (English)
+12 Nov: the head of the Department of Green Strategy and Biodiversity (Parcs i Jardins, Directorate of Planning and
+Strategy Services) answered the §2b email and offered a 30-min online meeting on Fri 13 Nov, 10:30–11:00 or
+12:30–13:00. Contact details in `/mnt/project-files/notes/data_requests_private.md` (not in the repo). Giovanni needs an
+English-speaking participant. Reply from the IAAC inbox, in the same thread:
+
+> **Subject:** Re: Petició sobre dades d'arbrat (Request for tree data)
+>
+> Dear Ms Rull,
+>
+> Thank you very much for your reply and for the offer, I would be glad to meet online on Friday 13 November at [10:30 / 12:30].
+>
+> One request: I am Italian and I don't speak Catalan or Spanish well enough for a technical discussion. Could at least one person in the meeting speak English? If that is not possible on Friday, I am happy to find another date.
+>
+> To use the time well, these are the points I would most like to clarify (the details are in my email of 9 November):
+> 1. Whether there is an internal criterion or document for which species replaces a street tree (by street type, sidewalk width, orientation or district), and whether it can be shared for academic use.
+> 2. Whether a change of species in the same tree-pit code of the Open Data inventory can be read as a replacement.
+> 3. The scope of the 15% cap per species: city-wide only, or also per district or neighbourhood; street trees only, or also squares and parks.
+> 4. Which species count as "adapted" for the Pla Clima target (from 30% to 40%).
+> 5. Which streets in Porta keep their plane trees (for example Av. Meridiana), and whether there is an official sidewalk width per tree pit.
+>
+> Kind regards,
 > Giovanni Carlo Volpe
 > MaCAD, Institute for Advanced Architecture of Catalonia (IAAC)
 > giovanni.carlo.volpe@students.iaac.net
