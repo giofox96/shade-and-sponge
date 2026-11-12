@@ -28,6 +28,18 @@ const options = computed(() =>
   }),
 )
 const pc = (v) => `${Math.round(100 * v)}%`
+// sidewalk width at a plane position (scripts/porta_sidewalk_width.py): measured façade -> kerb through the tree, or why not
+const WHY = { median: 'stands on a median', no_facade: 'no façade within 30 m', no_kerb: 'no kerb found' }
+const sidewalk = computed(() => {
+  const p = state.trees.positions
+  if (i.value == null || !p.sw_flag) return null
+  const f = p.sw_flag[i.value]
+  if (f === 'ok') {
+    const c = p.sw_size_class[i.value]
+    return `${p.sw_width_m[i.value].toFixed(1)} m façade to kerb (city 1:1000 map) → ${c === 'none' ? 'too narrow for a tree' : c + ' tree'} (2011 guide)`
+  }
+  return `not measured: ${WHY[f] ?? 'no data'}; no size filter applied`
+})
 </script>
 
 <template>
@@ -48,6 +60,9 @@ const pc = (v) => `${Math.round(100 * v)}%`
       <dt>Drains to hotspot</dt><dd>{{ pc(ctx.drains_to_hotspot) }} of nearby ground</dd>
       <template v-if="ctx.water_convergence_m2 != null">
         <dt>Water convergence</dt><dd>{{ ctx.water_convergence_m2.toLocaleString('en') }} m² upstream</dd>
+      </template>
+      <template v-if="sidewalk">
+        <dt>Sidewalk</dt><dd>{{ sidewalk }}</dd>
       </template>
     </dl>
     <div class="leaf" :title="sp.leaf_basis">

@@ -8,6 +8,7 @@ Input:  exchange/to_gh/porta_trees_lidar.csv (tree positions, local coords; orig
         (scripts/bcn_lidar_barri.py, EPSG:25831). Run on the PC: the WMS blocks the cloud.
 Output: databases/barcelona/porta_sidewalk_width.csv or barris/<slug>/sidewalk_width.csv; raw SVG tiles cached in databases/barcelona/raw/topo_1000/svg/
 Width = distance from the nearest facade, through the tree, to the first long road line beyond it (the kerb).
+For "ok" trees the two ends of that measuring ray are written too: facade foot (ray_x0, ray_y0) and kerb point (ray_x1, ray_y1), EPSG:25831.
 Size class from the 2011 street-tree guide pp. 22-23 (one class per sidewalk type).
 Trees not bounded by a facade (flags median / no_facade / no_kerb) keep size_class "check"; for them strip_width_m is
 the distance between the two road lines on either side of the tree, along the perpendicular to the nearest one.
@@ -15,27 +16,30 @@ It is provisional: a visual check of 16 cases found it plausible on wide medians
 where the tree stands on a road line inside a narrow band (notes/sidewalk_width.md, QA section).
 """
 import json, pathlib, re, sys, time, numpy as np, pandas as pd, requests
-from shapely.geometry import LineString, Point
+import geopandas as gpd
+from shapely.geometry import LineString, Point, Polygon
 from shapely.strtree import STRtree
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 SVG = ROOT / "databases/barcelona/raw/topo_1000/svg"
 WMS = "http://w133.bcn.cat/WMSTOPOGRAFIC/service.svc/get"
-LAYERS = {"facade": "Línies_construccions_façanes", "road": "Línies_comunicacions"}
+LAYERS = {"facade": "Línies_construccions_façanes", "road": "Línies_comunicacions", "building": "Polígons_construccions"}
 TILE, PX = 250.0, 2500                  # 250 m tiles at 0.1 m per SVG unit
 RAY, MIN_KERB = 30.0, 4.0               # ASSUMPTION: max sidewalk search 30 m; kerb lines >= 4 m (skips tree-pit edges)
 TOL = 1.0                               # ASSUMPTION: tree points sit at the pit, up to 1 m past the kerb line
 
 
-def fetch(layer, x0, y0):
-    f = SVG / f"{layer}_{int(x0)}_{int(y0)}.svg"
+def fetch(layer, x0, y0, size=TILE, px=PX):
+    f = SVG / (f"{layer}_{int(x0)}_{int(y0)}.svg" if size == TILE else f"{layer}_{int(x0)}_{int(y0)}_{int(size)}.svg")
     if not f.exists():
         q = dict(SERVICE="WMS", VERSION="1.3.0", REQUEST="GetMap", LAYERS=LAYERS[layer], STYLES="", CRS="EPSG:25831",
-                 BBOX=f"{x0},{y0},{x0 + TILE},{y0 + TILE}", WIDTH=PX, HEIGHT=PX, FORMAT="image/svg+xml")
+                 BBOX=f"{x0},{y0},{x0 + size},{y0 + size}", WIDTH=px, HEIGHT=px, FORMAT="image/svg+xml")
         for k in range(5):
             try:
                 r = requests.get(WMS, params=q, timeout=120)
                 r.raise_for_status()
+                if "<svg" not in r.text[:1000]:                 # the WMS answers errors as XML with status 200
+                    raise RuntimeError(f"WMS error for {f.name}: {r.text[:300]}")
                 f.write_text(r.text, encoding="utf-8")
                 break
             except requests.RequestException:
@@ -45,9 +49,9 @@ def fetch(layer, x0, y0):
     return f.read_text(encoding="utf-8")
 
 
-def parse(svg, x0, y0):
+def parse(svg, x0, y0, size=TILE, px=PX):
     """SVG path d-strings (absolute/relative M, L, H, V, Z) -> LineStrings in EPSG:25831."""
-    s = PX / TILE
+    s = px / size
     out = []
     for d in re.findall(r'<path[^>]*\sd="([^"]+)"', svg):
         cur, pts = (0.0, 0.0), []
@@ -72,7 +76,28 @@ def parse(svg, x0, y0):
                 pts.append(cur)
         if len(pts) > 1:
             out.append(pts)
-    return [LineString([(x0 + px / s, y0 + TILE - py / s) for px, py in line]) for line in out]
+    return [LineString([(x0 + u / s, y0 + size - v / s) for u, v in line]) for line in out]
+
+
+def buildings(bounds):
+    """Building polygons of the 1:1000 map (layer Polígons_construccions) over bounds, as a GeoDataFrame in EPSG:25831.
+    One square request (1 m per SVG unit, coordinates kept to 1 cm), so no polygon is cut at a tile seam.
+    Subpaths of one path are combined even-odd (holes = courtyards). The layer has no attributes."""
+    x0, y0, x1, y1 = bounds
+    size = float(np.ceil(max(x1 - x0, y1 - y0)))
+    # shortcut: one request per site; split into tiles + merge at seams if the WMS refuses large sizes (big barris)
+    svg = fetch("building", x0, y0, size, int(size))
+    out = []
+    for d in re.findall(r'<path[^>]*\sd="([^"]+)"', svg):
+        rings = [Polygon(r.coords).buffer(0) for r in parse(f'<path d="{d}"/>', x0, y0, size, int(size)) if len(r.coords) >= 3]
+        if not rings:
+            continue
+        g = rings[0]
+        for r in rings[1:]:
+            g = g.symmetric_difference(r)
+        out.append(g)
+    b = gpd.GeoDataFrame(geometry=out, crs=25831)
+    return b[b.area > 0].explode(index_parts=False).reset_index(drop=True)
 
 
 def lines(layer, xs, ys):
@@ -115,28 +140,32 @@ if __name__ == "__main__":
     fac, road = lines("facade", xs, ys), lines("road", xs, ys)
     road = [g for g in road if g.length >= MIN_KERB]
     tf, tr = STRtree(fac), STRtree(road)
-    rows = []
+    rows, NO_RAY = [], (np.nan,) * 4
     for tid, x, y in zip(t.tree_id, X, Y):
         p = Point(x, y)
         i = tf.nearest(p)
         df = fac[i].distance(p)
         if df > RAY:
-            rows.append((tid, np.nan, df, "no_facade")); continue
+            rows.append((tid, np.nan, df, "no_facade") + NO_RAY); continue
         q = fac[i].interpolate(fac[i].project(p))            # foot of the perpendicular on the facade
         u = (np.array([x, y]) - np.array([q.x, q.y])) / max(df, 1e-6)
         ray = LineString([(q.x, q.y), (q.x + u[0] * RAY, q.y + u[1] * RAY)])
         hits = [ray.intersection(road[j]) for j in tr.query(ray)]
         d = sorted(Point(q.x, q.y).distance(h) for h in hits if not h.is_empty)
         if any(x < df - TOL for x in d):                      # a road line between facade and tree: median or far side
-            rows.append((tid, np.nan, df, "median")); continue
-        rows.append((tid, d[0] if d else np.nan, df, "ok" if d else "no_kerb"))
-    out = pd.DataFrame(rows, columns=["tree_id", "width_m", "facade_dist_m", "flag"])
+            rows.append((tid, np.nan, df, "median") + NO_RAY); continue
+        ray_end = (q.x, q.y, q.x + u[0] * d[0], q.y + u[1] * d[0]) if d else NO_RAY
+        rows.append((tid, d[0] if d else np.nan, df, "ok" if d else "no_kerb") + ray_end)
+    out = pd.DataFrame(rows, columns=["tree_id", "width_m", "facade_dist_m", "flag", "ray_x0", "ray_y0", "ray_x1", "ray_y1"])
     m = out.flag != "ok"
     out["strip_width_m"] = np.nan
     out.loc[m, "strip_width_m"] = [strip_width(Point(x, y), road, tr) for x, y in zip(X[m.values], Y[m.values])]
     out["width_m"] = out.width_m.round(2); out["strip_width_m"] = out.strip_width_m.round(2); out["facade_dist_m"] = out.facade_dist_m.round(2)
+    out[["ray_x0", "ray_y0", "ray_x1", "ray_y1"]] = out[["ray_x0", "ray_y0", "ray_x1", "ray_y1"]].round(2)
     out["size_class"] = np.where(out.flag == "ok", size_class(out.width_m.fillna(0)), "check")
     out = t[["tree_id", "species", "is_plane", "street"]].merge(out, on="tree_id")
+    ray = ["ray_x0", "ray_y0", "ray_x1", "ray_y1"]
+    out = out[[c for c in out.columns if c not in ray] + ray]                # new columns last, earlier ones unchanged
     assert len(out) == len(t) and out.tree_id.is_unique
     out.to_csv(dest, index=False)
     print(f"{len(fac)} facade lines, {len(road)} road lines >= {MIN_KERB} m")
