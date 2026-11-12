@@ -8,7 +8,7 @@ Inputs: databases/barcelona/lidar_tiles_barris.csv (scripts/lidar_tiles_barris.p
         (downloaded here if missing, ICGC Territorial LiDAR v3.1, CC BY 4.0), arbrat_viari.csv, raw/BarcelonaCiutat_Barris.csv
 Outputs: raw/lidar/<slug>_{dtm,chm,bldg}_05m.tif
          databases/barcelona/barris/<slug>/trees_lidar.csv     per inventory street tree, EPSG:25831
-         databases/barcelona/barris/<slug>/buildings.geojson   OSM footprints (ODbL) with LiDAR height, EPSG:25831
+         databases/barcelona/barris/<slug>/buildings.geojson   1:1000 map footprints (CC BY 4.0) with LiDAR height, EPSG:25831
          databases/barcelona/lidar_tiles_dates.csv             flight dates of the tiles read (leaf-on check), appended
 Memory: the points of the whole extent are held at once as cell index, height and class (9 bytes per point;
 Sant Antoni: 67 M points, 8 tiles)."""
@@ -22,7 +22,9 @@ from skimage.segmentation import watershed
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
-from shade_sponge.site import BUFFER_M, barri, osm, slug  # noqa: E402
+from shade_sponge.site import BUFFER_M, barri, slug  # noqa: E402
+sys.path.insert(0, str(ROOT / "scripts"))
+from porta_sidewalk_width import buildings  # noqa: E402
 
 DB, LID = ROOT / "databases/barcelona", ROOT / "databases/barcelona/raw/lidar"
 URL = "https://datacloud.icgc.cat/datacloud/lidar-territorial/laz_unzip/full10km{k}/lidar-territorial-v3r1-full1km{t}-2021-2023.laz"
@@ -147,20 +149,16 @@ else:
     out.to_csv(out_dir / "trees_lidar.csv", index=False)
     print(f"trees: {len(out)} ({out.is_plane.sum()} planes), ok {(out.flag == 'ok').mean():.0%}; flags:", out.flag.value_counts().to_dict())
 
-# ---- 4. buildings: OSM footprints + LiDAR height (median of roof heights inside footprint). If Overpass stays busy,
-# footprints from the LiDAR building class itself (cells > 2.5 m, opened once, parts >= 10 m²; source = "lidar")
-OSM_ONLY = "--osm-only" in sys.argv                     # rerun for OSM footprints: fail instead of the LiDAR fallback
-LOCAL = DB / "raw/osm/buildings.gpkg"                    # scripts/osm_buildings.py (BBBike extract), no Overpass needed
+# ---- 4. buildings: 1:1000 map footprints (Ajuntament de Barcelona, Mapa base topogràfic 1:1000, WMS layer
+# Polígons_construccions, CC BY 4.0; OSM before 12 Nov 2026) + LiDAR height (median of roof heights inside footprint).
+# If the WMS fails, footprints from the LiDAR building class itself (cells > 2.5 m, opened once, parts >= 10 m²; source = "lidar")
+OSM_ONLY = "--osm-only" in sys.argv                     # name kept for run_barris.py: fail instead of the LiDAR fallback
 try:
-    if LOCAL.exists():
-        bld = gpd.read_file(LOCAL, mask=site.buffer(BUFFER_M).iloc[0]).explode(index_parts=False)
-    else:
-        bld = osm(site.buffer(BUFFER_M).to_crs(4326).iloc[0], {"building": True}, tries=6 if OSM_ONLY else 3)
-    bld = bld[bld.geom_type.isin(["Polygon", "MultiPolygon"])].to_crs(25831).reset_index()[["geometry"]].assign(source="osm")
+    bld = buildings((x0, y0, x1, y1)).assign(source="bcn1000")    # = the raster grid (barri + BUFFER_M)
 except Exception as e:
     if OSM_ONLY:
-        sys.exit(f"no OSM buildings ({type(e).__name__}); buildings.geojson left as it was")
-    print(f"WARNING: no OSM buildings ({type(e).__name__}); footprints from the LiDAR building points instead")
+        sys.exit(f"no 1:1000 buildings ({type(e).__name__}); buildings.geojson left as it was")
+    print(f"WARNING: no 1:1000 buildings ({type(e).__name__}); footprints from the LiDAR building points instead")
     m = ndimage.binary_opening(np.nan_to_num(bldg) > 2.5).astype("uint8")
     bld = gpd.GeoDataFrame(geometry=[shape(g) for g, v in shapes(m, mask=m.astype(bool), transform=T)], crs=25831)
     bld = bld[bld.area >= 10].reset_index(drop=True).assign(source="lidar")

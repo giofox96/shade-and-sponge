@@ -6,19 +6,24 @@ Classes used: ground 2, 8, 75 | vegetation 3, 4, 5 | building 6 (class 12 = over
 Outputs:
   databases/barcelona/raw/lidar/porta_{dtm,chm,bldg}_05m.tif
   exchange/to_gh/porta_trees_lidar.csv      per inventory tree: height, crown, crown base, gap fraction, LAI proxy
-  exchange/to_gh/porta_buildings.geojson    OSM footprints (ODbL) with LiDAR height, local coordinates
+  exchange/to_gh/porta_buildings.geojson    1:1000 map footprints with LiDAR height, local coordinates
+Building footprints (since 12 Nov 2026; OSM before): Ajuntament de Barcelona, Mapa base topogràfic 1:1000, WMS layer
+  Polígons_construccions (open data `mapa-base-topografic`, CC BY 4.0), fetched 12 Nov 2026 via
+  scripts/porta_sidewalk_width.py buildings(): the same map as the facade lines, so footprint and facade coincide.
   databases/barcelona/porta_species_lidar_summary.csv
   notes/figures/porta_lidar_qa.png
 Run with the project env (see CLAUDE.md). Uses ~4 GB RAM.
 """
 import json, pathlib, numpy as np, pandas as pd, geopandas as gpd, laspy, rasterio
-import matplotlib.pyplot as plt, osmnx as ox
+import sys, matplotlib.pyplot as plt
 from rasterio.transform import from_origin
 from rasterio.features import rasterize
 from scipy import ndimage
 from skimage.segmentation import watershed
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT / "scripts"))
+from porta_sidewalk_width import buildings  # noqa: E402
 LID = ROOT / "databases/barcelona/raw/lidar"
 TILES = ["430586", "430587", "431586", "431587"]
 RES, BUF, K = 0.5, 30.0, 0.5            # cell size (m), buffer (m), Beer-Lambert extinction coefficient (assumed)
@@ -138,9 +143,8 @@ sp = out.assign(species=out.species.str.replace(r"\s*'.*", "", regex=True))[out.
 sp.to_csv(ROOT / "databases/barcelona/porta_species_lidar_summary.csv")
 print(sp.head(12).to_string())
 
-# ---- 4. buildings: OSM footprints + LiDAR height (median of roof heights inside footprint)
-bld = ox.features_from_polygon(site.to_crs(4326).buffer(0.0003).iloc[0], tags={"building": True})
-bld = bld[bld.geom_type.isin(["Polygon", "MultiPolygon"])].to_crs(25831).reset_index()[["geometry"]]
+# ---- 4. buildings: 1:1000 map footprints + LiDAR height (median of roof heights inside footprint)
+bld = buildings((x0, y0, x1, y1))                     # = the raster grid (Porta + BUF)
 lab_b = rasterize(((geom, i + 1) for i, geom in enumerate(bld.geometry)), out_shape=(H, W), transform=T, fill=0, dtype="int32")
 bi = np.arange(1, len(bld) + 1)
 bh = ndimage.median(np.nan_to_num(bldg, nan=0), lab_b, bi)
@@ -152,7 +156,7 @@ bld = bld[(bld.height_m > 2.5) & (bld.lidar_cover > 0.3)]
 loc = bld.copy()
 loc["geometry"] = loc.translate(-OX, -OY)
 loc.set_crs(None, allow_override=True).to_file(ROOT / "exchange/to_gh/porta_buildings.geojson", driver="GeoJSON")
-print(f"buildings: {len(bld)} OSM footprints with LiDAR height; median {bld.height_m.median():.1f} m, p90 {bld.height_m.quantile(.9):.1f} m")
+print(f"buildings: {len(bld)} of {len(bi)} 1:1000 footprints with LiDAR height; median {bld.height_m.median():.1f} m, p90 {bld.height_m.quantile(.9):.1f} m")
 
 # ---- 5. QA figure
 fig, ax = plt.subplots(1, 2, figsize=(16, 8))

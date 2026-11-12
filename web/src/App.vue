@@ -197,8 +197,8 @@ watch(
         <p class="small muted sources">
           Street trees and neighbourhood outlines: Ajuntament de Barcelona, Open Data BCN (CC BY 4.0) ·
           LiDAR crowns, terrain, building heights: ICGC 2021–2022 (CC BY 4.0) ·
-          Sidewalks: 1:1000 base map, Ajuntament de Barcelona (CC BY 4.0) ·
-          Building footprints and basemap: © OpenStreetMap contributors (ODbL); basemap tiles OpenFreeMap (light) and © CARTO (dark) ·
+          Sidewalks and building footprints: 1:1000 base map, Ajuntament de Barcelona (CC BY 4.0) ·
+          Basemap: © OpenStreetMap contributors (ODbL); tiles OpenFreeMap (light) and © CARTO (dark) ·
           Flood-hazard index: Barcelona Resilience Atlas, Barcelona Regional (derived threshold; licence not stated) ·
           Design storms: PDISBA rainfall study · Storm months: Esbrí, Rigo and Llasat ·
           Interception calibration: Anys and Weiler 2024 data (CC BY-NC 4.0).
