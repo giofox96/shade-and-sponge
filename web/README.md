@@ -25,13 +25,13 @@ The published data use the **thesis configuration** (since 26 Oct): the exact si
   2. **Project area:** draw, replace all, fill spots.
   3. **Add trees.**
 
-  Collapsed groups: **Rules and species** (cap, diversity floor, excluded species), **Map display** (sidewalks, overlay, month) and **Data and sources**. Each closed group shows its current setting in its title. Longer explanations are under *How it works*.
+  Collapsed groups: **Rules and species** (cap, diversity floor, excluded species) and **Data and sources**. The map-display controls moved to the **map toolbar** (12 Nov): an icon column on the right edge of the map (`MapToolbar.vue`), grouped in pills: sidewalks and buildings; the four overlays (one at a time); and a "more" button that opens the month letters (leaf calendar) and the building-opacity slider. A dot on an icon marks a layer that is on; the tooltip gives name, state and action. Each closed group shows its current setting in its title. Longer explanations are under *How it works*.
 - **Map | Compare side by side:** tabs over the main view.
 - **Right panel:** canopy cover, results (with the scenario's description), trade-off (collapsible) and the selected tree.
-- **Map defaults:** no overlay, so the sidewalks and free spots read clearly. The sun and water layers are under Map display.
+- **Map defaults:** no overlay, so the sidewalks and free spots read clearly. The sun and water layers are on the map toolbar.
 - **Narrow screens:** the map comes first, then the controls, then the results.
 - **Side panels:** drag the inner edge of either panel to resize it (200–520 px; arrow keys on the focused edge). The ‹ / › button on the edge hides or shows it. Widths and open state are remembered in the browser.
-- **Project-area outline** (29 Oct): the outline and the corners being drawn are drawn over buildings and crowns (no depth test), so they stay visible behind tall blocks. **Buildings slider** in Map display: building opacity, 0–100% (below 100% the buildings stop hiding the crowns behind them).
+- **Project-area outline** (29 Oct): the outline and the corners being drawn are drawn over buildings and crowns (no depth test), so they stay visible behind tall blocks. **Buildings slider** (map toolbar, "more"): building opacity, 0–100% (below 100% the buildings stop hiding the crowns behind them).
 - **Cursor:** the map shows a crosshair while drawing a project area or adding trees, and the hand otherwise.
 - **Look:** the slide deck's "Earth" palette and fonts (`scripts/make_infographics.py`):
   - **colours:** ink, moss = trees, ink blue = rain / accent, rust = heat / worse, ochre = warnings, title-slide green = header;

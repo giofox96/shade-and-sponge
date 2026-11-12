@@ -1,7 +1,7 @@
 <script setup>
 import { onMounted, watch } from 'vue'
 import { state, load, switchSite, scenario, label, layoutEff, runLive, runArea, setAddMode, addedCsv, startDrawing, finishArea,
-  cancelDrawing, clearArea, startEditArea, finishEditArea, cancelEditArea, setAreaAll, fillAreaSpots, panels, ui, MIN_SPACING_M, MONTHS, BALANCED, LIVE, AREA } from './store.js'
+  cancelDrawing, clearArea, startEditArea, finishEditArea, cancelEditArea, setAreaAll, fillAreaSpots, panels, ui, MIN_SPACING_M, BALANCED, LIVE, AREA } from './store.js'
 import MapView from './components/MapView.vue'
 import PriorityTriangle from './components/PriorityTriangle.vue'
 import TradeoffChart from './components/TradeoffChart.vue'
@@ -13,6 +13,7 @@ import PanelHandle from './components/PanelHandle.vue'
 import BarriPicker from './components/BarriPicker.vue'
 import SpeciesCards from './components/SpeciesCards.vue'
 import Icon from './components/Icon.vue'
+import MapToolbar from './components/MapToolbar.vue'
 
 onMounted(() => load())
 
@@ -173,26 +174,6 @@ watch(
       </details>
 
       <details class="group">
-        <summary>Map display <span class="muted">{{ MONTHS[state.month - 1] }}{{ state.overlay ? ' · ' + state.meta.overlays.find((o) => o.id === state.overlay)?.label.split(' (')[0] : '' }}</span></summary>
-        <section>
-          <label class="check"><input type="checkbox" v-model="state.showStreets" /> Sidewalks and free spots</label>
-          <p class="small muted">Brown = façade, dark = kerb: the sidewalk is the band between them. Green dots = free spots, light to dark =
-            small / medium / large tree.</p>
-          <h3 class="mt">Buildings <span class="muted">{{ Math.round(state.buildingOpacity * 100) }}% opaque</span></h3>
-          <input type="range" min="0" max="1" step="0.05" v-model.number="state.buildingOpacity" aria-label="Building opacity" />
-          <p class="small muted">Lower it to see the trees and the project area behind the buildings.</p>
-          <h3 class="mt">Overlay</h3>
-          <select v-model="state.overlay" aria-label="Map overlay">
-            <option value="">None</option>
-            <option v-for="o in state.meta.overlays" :key="o.id" :value="o.id">{{ o.label }}</option>
-          </select>
-          <h3 class="mt">Month <span class="muted">{{ MONTHS[state.month - 1] }}</span></h3>
-          <input type="range" min="1" max="12" step="1" v-model.number="state.month" aria-label="Month" />
-          <p class="small muted">Crown opacity follows each species' leaf calendar.</p>
-        </section>
-      </details>
-
-      <details class="group">
         <summary>Data and sources</summary>
         <p class="small muted sources">
           Street trees and neighbourhood outlines: Ajuntament de Barcelona, Open Data BCN (CC BY 4.0) ·
@@ -215,7 +196,7 @@ watch(
       </div>
       <ComparePanel v-if="state.view === 'compare'" />
       <SpeciesCards v-else-if="state.view === 'species'" />
-      <MapView v-else :key="state.site" />
+      <template v-else><MapView :key="state.site" /><MapToolbar /></template>
       <PanelHandle side="left" />
       <PanelHandle side="right" />
     </main>
