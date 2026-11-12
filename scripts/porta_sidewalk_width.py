@@ -8,6 +8,7 @@ Input:  exchange/to_gh/porta_trees_lidar.csv (tree positions, local coords; orig
         (scripts/bcn_lidar_barri.py, EPSG:25831). Run on the PC: the WMS blocks the cloud.
 Output: databases/barcelona/porta_sidewalk_width.csv or barris/<slug>/sidewalk_width.csv; raw SVG tiles cached in databases/barcelona/raw/topo_1000/svg/
 Width = distance from the nearest facade, through the tree, to the first long road line beyond it (the kerb).
+For "ok" trees the two ends of that measuring ray are written too: facade foot (ray_x0, ray_y0) and kerb point (ray_x1, ray_y1), EPSG:25831.
 Size class from the 2011 street-tree guide pp. 22-23 (one class per sidewalk type).
 Trees not bounded by a facade (flags median / no_facade / no_kerb) keep size_class "check"; for them strip_width_m is
 the distance between the two road lines on either side of the tree, along the perpendicular to the nearest one.
@@ -139,28 +140,32 @@ if __name__ == "__main__":
     fac, road = lines("facade", xs, ys), lines("road", xs, ys)
     road = [g for g in road if g.length >= MIN_KERB]
     tf, tr = STRtree(fac), STRtree(road)
-    rows = []
+    rows, NO_RAY = [], (np.nan,) * 4
     for tid, x, y in zip(t.tree_id, X, Y):
         p = Point(x, y)
         i = tf.nearest(p)
         df = fac[i].distance(p)
         if df > RAY:
-            rows.append((tid, np.nan, df, "no_facade")); continue
+            rows.append((tid, np.nan, df, "no_facade") + NO_RAY); continue
         q = fac[i].interpolate(fac[i].project(p))            # foot of the perpendicular on the facade
         u = (np.array([x, y]) - np.array([q.x, q.y])) / max(df, 1e-6)
         ray = LineString([(q.x, q.y), (q.x + u[0] * RAY, q.y + u[1] * RAY)])
         hits = [ray.intersection(road[j]) for j in tr.query(ray)]
         d = sorted(Point(q.x, q.y).distance(h) for h in hits if not h.is_empty)
         if any(x < df - TOL for x in d):                      # a road line between facade and tree: median or far side
-            rows.append((tid, np.nan, df, "median")); continue
-        rows.append((tid, d[0] if d else np.nan, df, "ok" if d else "no_kerb"))
-    out = pd.DataFrame(rows, columns=["tree_id", "width_m", "facade_dist_m", "flag"])
+            rows.append((tid, np.nan, df, "median") + NO_RAY); continue
+        ray_end = (q.x, q.y, q.x + u[0] * d[0], q.y + u[1] * d[0]) if d else NO_RAY
+        rows.append((tid, d[0] if d else np.nan, df, "ok" if d else "no_kerb") + ray_end)
+    out = pd.DataFrame(rows, columns=["tree_id", "width_m", "facade_dist_m", "flag", "ray_x0", "ray_y0", "ray_x1", "ray_y1"])
     m = out.flag != "ok"
     out["strip_width_m"] = np.nan
     out.loc[m, "strip_width_m"] = [strip_width(Point(x, y), road, tr) for x, y in zip(X[m.values], Y[m.values])]
     out["width_m"] = out.width_m.round(2); out["strip_width_m"] = out.strip_width_m.round(2); out["facade_dist_m"] = out.facade_dist_m.round(2)
+    out[["ray_x0", "ray_y0", "ray_x1", "ray_y1"]] = out[["ray_x0", "ray_y0", "ray_x1", "ray_y1"]].round(2)
     out["size_class"] = np.where(out.flag == "ok", size_class(out.width_m.fillna(0)), "check")
     out = t[["tree_id", "species", "is_plane", "street"]].merge(out, on="tree_id")
+    ray = ["ray_x0", "ray_y0", "ray_x1", "ray_y1"]
+    out = out[[c for c in out.columns if c not in ray] + ray]                # new columns last, earlier ones unchanged
     assert len(out) == len(t) and out.tree_id.is_unique
     out.to_csv(dest, index=False)
     print(f"{len(fac)} facade lines, {len(road)} road lines >= {MIN_KERB} m")

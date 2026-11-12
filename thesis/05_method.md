@@ -196,7 +196,7 @@ Species without a calendar keep full leaf (`ASSUMPTION`). These are some kept tr
 
 **Species cap.** No species may exceed 15% of Porta's 2,825 street trees, counting the trees that are kept. The plan sets the cap city-wide (Chapter 3), so applying it within Porta is a local reading (`ASSUMPTION`). With additions, the cap is recomputed on the larger stock.
 
-**Sizing rule.** Each position gets a sidewalk class from the façade-to-kerb distance. That distance was measured on the city's 1:1000 base map, read from its WMS because the full download kept failing.
+**Sizing rule.** Each position gets a sidewalk class from the façade-to-kerb distance. That distance was measured on the city's 1:1000 base map, read from its WMS because the full download kept failing. From the nearest façade line, a ray runs through the tree to the first road line at least 4 m long, within 30 m; its façade-to-kerb length is the width. This measures 1,545 of Porta's 2,825 street trees; in a check of 20 of them the ray crossed the sidewalk as intended in 18, and overestimated it at the 2 street corners (`notes/sidewalk_width.md`).
 
 - **Exact rule:** a species may go only where its size class from the 2011 guide matches the sidewalk class. This is the rule used in the thesis runs. A looser "at most" reading also allows smaller classes on wider sidewalks.
 - **Unmeasured positions:** medians, boulevards and plaza edges have no façade-bounded sidewalk, so they are not filtered (`ASSUMPTION`).

@@ -178,6 +178,8 @@ watch(
           <label class="check"><input type="checkbox" v-model="state.showStreets" /> Sidewalks and free spots</label>
           <p class="small muted">Brown = façade, dark = kerb: the sidewalk is the band between them. Green dots = free spots, light to dark =
             small / medium / large tree.</p>
+          <p class="small muted">Both lines come from the city's 1:1000 topographic map. A tree's sidewalk width is the façade-to-kerb distance
+            along a line through the tree (thin grey lines; the selected tree's in blue): 1,545 of Porta's 2,825 street trees are measured.</p>
           <h3 class="mt">Buildings <span class="muted">{{ Math.round(state.buildingOpacity * 100) }}% opaque</span></h3>
           <input type="range" min="0" max="1" step="0.05" v-model.number="state.buildingOpacity" aria-label="Building opacity" />
           <p class="small muted">Lower it to see the trees and the project area behind the buildings.</p>

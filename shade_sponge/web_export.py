@@ -92,15 +92,27 @@ sp_ = pd.read_csv(DB / f"{name}_planting_spots.csv")
 sp_ = sp_[sp_.get("excluded_by", pd.Series("", index=sp_.index)).fillna("") == ""]
 slon, slat = to_ll(sp_.x.values, sp_.y.values)
 klon, klat = to_ll(kept.x.values, kept.y.values)
+
+
+def sidewalk(ids):
+    """Sidewalk width, flag, size class and measuring ray [lon0, lat0, lon1, lat1] (facade foot -> kerb; None if unmeasured)."""
+    w = sw.reindex(ids)
+    a, b = to_ll(w.ray_x0.fillna(0).values, w.ray_y0.fillna(0).values)
+    c, d = to_ll(w.ray_x1.fillna(0).values, w.ray_y1.fillna(0).values)
+    ray = [[round(float(v), 6) for v in r] if ok else None for r, ok in zip(zip(a, b, c, d), w.ray_x0.notna())]
+    return dict(sw_width_m=[None if pd.isna(v) else round(float(v), 2) for v in w.width_m], sw_flag=w.flag.fillna("none").tolist(),
+                sw_size_class=w.size_class.fillna("check").tolist(), sw_ray=ray)
+
+
 trees = dict(
     positions=dict(tree_id=P.tree_id.tolist(), lon=r6(lon), lat=r6(lat), sun_summer=r2(P.sun_share_summer),
                    sun_winter=r2(P.sun_share_winter), drains_to_hotspot=r2(P.drains_to_hotspot),
                    water_convergence_m2=P.water_convergence_m2.astype(int).tolist(),
                    s0_crown_diam_m=r2(s0.crown_diam_m.fillna(0)), s0_height_m=r2(s0.height_m.fillna(0)),
-                   s0_crown_base_m=r2(s0.crown_base_m.fillna(0))),
+                   s0_crown_base_m=r2(s0.crown_base_m.fillna(0)), **sidewalk(P.tree_id)),
     kept=dict(lon=r6(klon), lat=r6(klat), species=kept.sp.tolist(), lai=r2(kept.lai),
               size_class=kept.tree_id.map(sw.size_class).fillna("check").tolist(), crown_diam_m=r2(kept.crown_diam_m),
-              height_m=r2(kept.height_m), crown_base_m=r2(kept.crown_base_m)),
+              height_m=r2(kept.height_m), crown_base_m=r2(kept.crown_base_m), **{k: v for k, v in sidewalk(kept.tree_id).items() if k != "sw_size_class"}),
     spots=dict(id=sp_.spot_id.tolist(), lon=r6(slon), lat=r6(slat), size_class=sp_.size_class.tolist(), width_m=r2(sp_.width_m)),
     layouts=layouts)
 json.dump(trees, open(out / "trees.json", "w"), separators=(",", ":"))
