@@ -1,5 +1,5 @@
 """Run the tool on a site: python -m shade_sponge [site] [--palette=barcelona] [--diversity=N] [--size=exact|at_most]
-[--keep-meridiana] [--trunk=TERCERA] [--scenario=R|A|RA] [--area=FILE] [--priority=N] (default: porta; any barri by name or slug, e.g. "Sant Antoni", once scripts/bcn_lidar_barri.py has run; first run builds cache/site_<site>.npz). --diversity=N: optimised layouts keep at
+[--keep-meridiana] [--trunk=TERCERA] [--scenario=R|A|RA] [--area=FILE] [--priority=N] [--replace=FILE|all] (default: porta; any barri by name or slug, e.g. "Sant Antoni", once scripts/bcn_lidar_barri.py has run; first run builds cache/site_<site>.npz). --diversity=N: optimised layouts keep at
 least N effective species (exp of Shannon H) among the planted positions; off by default. --size: sidewalk-width sizing
 rule of the 2011 guide (layout.size_fits); off by default. --keep-meridiana: the planes of Av. Meridiana are kept by the
 city ("large avenue", guide p. 17) and leave the decision set. --trunk=CLASS: species traits at equal trunk size
@@ -8,6 +8,9 @@ RA = both (notes/topic_decision.md §10.6; cap recomputed on the larger stock, l
 planes and spots inside the project area the user draws (layout.in_area). --priority=N: only the N planes with the highest
 replacement priority (health.py, a proxy). S1a (the city's 2026 mix within the exact sizing rule, layout.s1a_layout) and
 S1b (the mix the city actually planted in place of planes 2018–2026, layout.s1b_mix) are always run, 10 seeds each.
+--replace: which trees leave their position (layout.removed): a CSV with tree_id and optionally action = keep | transplant |
+replace, any species, trees not listed are kept; "all" = every street tree (worst case); default = every plane. S1a and S1b
+stay the city's plane-replacement mixes, used here as its practice for any tree (ASSUMPTION).
 --s1b-only: compute only S1b and replace its rows in an existing summary file (no optimisation, no Grasshopper export).
 Outputs: databases/barcelona/tool_v0_summary<tag>.csv, exchange/to_gh/{positions,layouts}_tool_v0<tag>_<YYYYMMDD>.csv"""
 import sys, json, datetime, pathlib, numpy as np, pandas as pd
@@ -26,8 +29,10 @@ trunk = opt.get("trunk")
 scen = opt.get("scenario", "R").upper()
 area = opt.get("area")
 top = int(opt["priority"]) if "priority" in opt else None
+repl = opt.get("replace")
 tag = ptag + (f"_div{opt['diversity']}" if min_eff else "") + (f"_size{size_rule}" if size_rule else "") + ("_keepmer" if keep_mer else "") + (f"_trunk{trunk}" if trunk else "")
 tag += (f"_sc{scen}" if scen != "R" else "") + (f"_area{pathlib.Path(area).stem}" if area else "") + (f"_prio{top}" if top else "")
+tag += f"_repl{pathlib.Path(repl).stem}" if repl else ""
 if name != "porta" and (scen != "R" or top):
     sys.exit("other barris: only --scenario=R without --priority for now (free spots and the priority proxy exist for "
              "Porta only; notes/citywide_plan.md §6.2 step 4). --size needs scripts/porta_sidewalk_width.py \"<barri>\" first")
@@ -37,8 +42,9 @@ o = json.load(open(EX / "site_origin.json"))
 sun = {s: heat.design_suns(site, s) for s in heat.SEASONS}
 lit = {s: [heat.sunlit(site, *x) for x in sun[s]] for s in sun}
 p = runoff.design_storm(2, 60)                          # f2 storm: T = 2 yr, 1 h (methodology §6)
-pal = layout.palette(site, kind, trunk)
-pos = site.trees[site.trees.is_plane & ~(keep_mer & site.trees.street.str.contains("Meridiana"))].reset_index(drop=True)
+gone = layout.removed(site.trees, repl)
+pal = layout.palette(site, kind, trunk, gone)
+pos = site.trees[gone & ~(keep_mer & site.trees.street.str.contains("Meridiana"))].reset_index(drop=True)
 if area:
     pos = pos[layout.in_area(pos, area)]
 if top:                                                  # replace the most likely to go first (health.py, ASSUMPTION)

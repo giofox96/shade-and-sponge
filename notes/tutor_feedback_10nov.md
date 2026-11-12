@@ -91,7 +91,7 @@ This replaces the "Every tree" row of `notes/roadmap_nov_dec.md` for this week: 
 |---|---|---|---|
 | Wed 11 | Giovanni reads this note (20 min) and corrects what the tutor meant. Re-read the 2017 protection note on the PDF | Giovanni + Claude (OMEN) | A1 quotes confirmed or corrected |
 | Wed 11–Thu 12 | Street-works signature, second pass: for the largest groups, trees kept / changed / gone from the quarterly snapshots (A1.3; first pass done 10 Nov) | Claude, OMEN | Table of ≥ 5 real projects with counts |
-| Thu 12–Fri 13 | Tool: per-tree keep / transplant / replace, default keep; any species, not only planes | Tool thread | Tests pass; Porta plane results unchanged with "replace all" |
+| Thu 12–Fri 13 | Tool: per-tree keep / transplant / replace, default keep; any species, not only planes. **Core done 12 Nov** (`--replace=FILE\|all`, `layout.removed`; web app marking not done) | Tool thread | Tests pass; Porta plane results unchanged with "replace all" |
 | Fri 13 | Tool polish: sidewalk band + legend sources (F1); DTM in the method diagram (F5) | Tool thread | Screenshot before / after |
 | Sat 14–Mon 16 | Terrain in the web app (F5), time-boxed to one session; else hillshade | Tool thread | App loads Porta with relief |
 | Mon 16 | Register v2 (full "Tested?" column), missing sensitivities (capture distance, clearance margin) | Claude, cloud | Each row: sourced, tested or declared |
