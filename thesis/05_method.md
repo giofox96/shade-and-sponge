@@ -46,7 +46,7 @@ All layers are reprojected to ETRS89 / UTM 31N (EPSG:25831) on a 1 m grid over P
 |---|---|---|
 | Street-tree inventory: 140,404 trees; Porta 2,825 | Barcelona open data, `arbrat-viari` (CC BY 4.0) | Positions, species, planting date, trunk class |
 | Airborne LiDAR, flown 26 Sept 2021 (leaf-on) | ICGC Territorial LiDAR, ≥ 8 points/m², classified (CC BY 4.0) | Terrain, building heights, tree height, crown and LAI proxy |
-| Building footprints | OpenStreetMap (via OSMnx), and LiDAR building points | Roofs, obstacles for shade and flow |
+| Building footprints | City 1:1000 topographic map, layer `Polígons_construccions` (CC BY 4.0; OpenStreetMap until 12 Nov 2026), and LiDAR building points | Roofs, obstacles for shade and flow |
 | NDVI 2017, 0.9 m | Barcelona open data, `cobertura-vegetal-ndvi` (CC BY 4.0) | Pervious ground |
 | Flood-hazard index, present | Barcelona Resilience Atlas (Barcelona Regional; licence not stated) | Flood hotspots |
 | Design rainfall | PDISBA sewer master plan 2019, city empirical IDF | Design storm |
@@ -202,7 +202,7 @@ Species without a calendar keep full leaf (`ASSUMPTION`). These are some kept tr
 - **Unmeasured positions:** medians, boulevards and plaza edges have no façade-bounded sidewalk, so they are not filtered (`ASSUMPTION`).
 - **Species without a class:** species that the 2011 guide does not classify, most of the Barcelona shortlist, are not size-filtered (`ASSUMPTION`).
 
-**Façade clearance.** A species fits a position only if its crown radius does not exceed the distance to the nearest building (`ASSUMPTION`: no extra margin). A building is an OSM footprint or a LiDAR building point more than 3 m above ground.
+**Façade clearance.** A species fits a position only if its crown radius does not exceed the distance to the nearest building (`ASSUMPTION`: no extra margin). A building is a footprint of the city's 1:1000 map or a LiDAR building point more than 3 m above ground.
 
 **When nothing fits.** Where no species fits a position, including sidewalks under 2.5 m where the guide allows no tree, the smallest-crowned species is assigned. The position stays planted, which departs from the guide (`ASSUMPTION`).
 

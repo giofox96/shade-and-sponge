@@ -299,3 +299,6 @@ Reading:
 - Three barris end above today's summer shade (Porta 103.3%, el Poble-sec 105.3%, Sant Andreu 105.7%). Winter shade median 114%.
 - Sant Pere, Santa Caterina i la Ribera reaches 49.2% Tipuana. The ceiling allows it because planes are 51.5% of the barri today, so it is not more concentrated than now, but it is a high share for one species.
 - The 17-barri numbers in §6.8 change slightly (e.g. Sant Antoni 80.1 → 79.2%) because the cap is pro-rata to the planes in the run.
+
+### 6.10 All barris rebuilt with 1:1000 map footprints (12–13 Nov)
+Since 13 Nov every barri takes its building footprints from the city 1:1000 map (layer `Polígons_construccions`, CC BY 4.0), as Porta does; the OSM / LiDAR-traced footprints described in §6.7 are superseded. Before/after per barri, and the two open points (2 barris without OSM green areas; the local-ceiling city LP now infeasible): `notes/barris_buildings_1000.md`.
