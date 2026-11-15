@@ -13,7 +13,7 @@ Licence of the Barcelona open data portal (opendata-ajuntament.barcelona.cat) da
 | A4 | Vegetation cover | ✅ | `cobertura-vegetal-ndvi` (NDVI 2017 GeoTIFF, 2019 archive) | TIF | City | Existing green, LAI proxy |
 | A5 | Land cover / sealing | 🟡 | ICGC *Mapa de cobertes del sòl* WMS (2009, 2018, 2019–22, 2023; updated May 2025); CREAF MCSC; Copernicus Imperviousness 10 m | WMS / vector | | Impervious fraction → curve numbers |
 | A6 | Streets, sidewalks | ✅ / 🟡 | `mapa-base-de-vialitat` (WMS, 2025); `ampliacio-voreres-bici-bcn` (sidewalk extensions, 2023) | WMS / ZIP | | Plantable cells and pedestrian routes |
-| A7 | Buildings | 🟡 | ICGC Urban Digital Twin of Catalonia; municipal cartography; OSM via OSMnx as fallback | | | Geometry for UTCI shading |
+| A7 | Buildings | ✅ | **Footprints (12 Nov 2026):** Ajuntament de Barcelona, Mapa base topogràfic 1:1000, WMS layer `Polígons_construccions` (open data `mapa-base-topografic`), fetched as SVG by `scripts/porta_sidewalk_width.py` `buildings()`; no attributes. Heights from ICGC LiDAR 2021 (median roof height per footprint). Same map as the façade lines, so footprints and façades coincide (Porta: 98.2% of façade-line length within 1 m of a footprint edge, vs 74.4% with the OSM footprints used before). Alternative with floors per volume: Cadastre INSPIRE BuildingPart (ATOM 08900, 2026-08-21, 84.1%) | WMS SVG (vector), CC BY 4.0 | 1:1000; GPKG dated 2023-01-31, WMS fetched 12 Nov 2026 | Geometry for shading, roofs in the runoff grid, 3D view |
 
 ## B. Runoff theme
 
