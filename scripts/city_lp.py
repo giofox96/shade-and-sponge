@@ -11,6 +11,8 @@ Usage (PC, project env; needs the site caches and databases/barcelona/arbrat_via
 --local-ceiling (user, 30 Oct): the city cap alone let one species reach 48.5% of a barri (notes/citywide_plan.md §6.8),
 so a replacement may not create a larger single-species share than the planes it removes: per barri, species count
 after replacement <= today's plane count (ASSUMPTION). Outputs then carry the suffix _local.
+User decision (15 Nov): the local ceiling is relaxed only where needed: where a position fits only one palette species,
+that species' local ceiling is raised to the number of such positions, so the ceiling cannot leave a position with no species.
 Outputs: databases/barcelona/citylp/tool_v0_citylp_<slug>.csv (S0 + the 15 swept layouts, as tool_v0_summary_*),
          databases/barcelona/citylp_summary.csv (one row per barri, the joint layout with the most summer shade in total:
          local-cap tool, city-cap tool, city mix S1a),
@@ -44,6 +46,7 @@ if __name__ == "__main__":
     barris = [("Porta", "porta")] + list(zip(sel.barri, sel.slug))
     p = runoff.design_storm(2, 60)
     loc = "--local-ceiling" in sys.argv
+    relax = loc                                       # user decision (15 Nov): the single-fit exception is part of the local ceiling
     sfx = "_local" if loc else ""
 
     # 1. potentials and fit per barri (palette species are the same everywhere; their traits are each barri's medians)
@@ -55,6 +58,14 @@ if __name__ == "__main__":
         parts.append(dict(name=name, slug=s, pal=pal, pos=pos, local=(len(pos) - kept).clip(0), summer=pot["summer"], winter=pot["winter"],
                           water=layout.water_potential(site, pos, pal, p), fit=layout.fits(site, pos, pal, SIZE)))
     species = list(parts[0]["pal"].species)
+    if relax:                                         # positions that fit one species only: never blocked by the ceiling
+        for q in parts:
+            only = q["fit"][q["fit"].sum(1) == 1].sum(0).astype(int)
+            raised = only > q["local"]
+            if raised.any():
+                print(f"RELAXED {q['name']}:", {species[j]: f"{q['local'][j]} -> {only[j]} ({only[j]} single-fit positions)"
+                                                 for j in np.flatnonzero(raised)})
+            q["local"] = np.maximum(q["local"], only)
 
     # 2. the city cap (street-tree inventory, notes/citywide_plan.md §6.5)
     t = pd.read_csv(DB / "arbrat_viari.csv", usecols=["cat_nom_cientific", "tipus_element"])

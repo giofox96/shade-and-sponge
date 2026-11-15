@@ -32,7 +32,7 @@ Margins are the summer-shade share of today (S0) of the optimised layout with th
 | el Clot | 1,350 → 14,576 | 34.2 → 35.3 | 17,357 → 15,168 | 5.9 → 6.3 | 12.0 → 12.7 |
 | el Parc i la Llacuna del Poblenou | 812 → 12,101 | 32.7 → 32.0 | 27,854 → 25,578 | 6.2 → 6.4 | 11.0 → 14.2 |
 | el Poblenou | 775 → 11,169 | 32.4 → 31.4 | 38,731 → 35,153 | 10.1 → 10.1 | 18.1 → 16.2 |
-| la Verneda i la Pau | 887 → 5,893 | 31.5 → 29.4 | 27,536 → 27,505 | 10.2 → 8.6 | 7.9 → 6.1 |
+| la Verneda i la Pau | 887 → 5,893 | 31.5 → 29.4 | 27,536 → 27,021 | 10.2 → 8.6 | 7.9 → 6.1 |
 | la Vila Olímpica del Poblenou | 708 → 5,645 | 22.5 → 20.9 | 22,366 → 19,483 | 5.5 → 4.9 | 4.4 → 4.1 |
 | el Poble-sec | 2,826 → 23,287 | 13.9 → 14.4 | 43,574 → 43,625 | 3.6 → 2.4 | 5.4 → 4.3 |
 | Sant Gervasi - Galvany | 3,069 → 36,259 | 47.6 → 46.0 | 39,494 → 39,460 | 6.9 → 7.1 | 6.0 → 7.4 |
@@ -44,6 +44,6 @@ Margins are the summer-shade share of today (S0) of the optimised layout with th
 - No sign changes: the tool beats S1a and S1b in all 32 barris, before and after. Median margin vs S1a 5.6 → 5.7 pts, vs S1b 7.2 → 7.5 pts.
 - Ranking of barris by the S1a margin: Spearman 0.93; 28 of 32 barris move, by at most 11 places (many margins are within a few tenths).
 - Building counts grow about tenfold (the map splits blocks into volumes); median roof share 31.9% → 30.9%.
-- S0 runoff falls by more than 5% in Diagonal Mar (−21%), Sant Martí de Provençals (−13%), el Clot (−13%), la Vila Olímpica (−13%), el Poblenou (−9%), el Parc i la Llacuna (−8%), el Besòs (−7%), Provençals (−7%), Sant Gervasi - la Bonanova (−5%) and la Nova Esquerra (−6%). The roof share alone does not explain all of it (not checked further).
-- **Open:** la Verneda i la Pau and Sant Gervasi - la Bonanova were built while Overpass was down, so their pervious ground comes from NDVI only (no OSM parks/gardens/grass); to rerun.
+- **Why S0 runoff falls (checked 13 Nov): the green areas, not the buildings.** The runoff change follows the change in pervious ground one to one (correlation −1.0 over the 32 barris; with the roof-share change 0.18). In 16 barris pervious ground rose by 1.5–22 points, because the 28–31 Oct runs lacked most of the OSM parks/gardens/grass layer: Overpass was down on 28–29 Oct and `site.py` then only prints a warning and goes on with NDVI alone (the batch-2 barris used a local extract, which may hold fewer green polygons; not checked one by one). Verified for Diagonal Mar: pervious 5.6% → 27.4% of the 122.7 ha domain, roofs 13.6% → 13.2%, S0 runoff −21%; rebuilding it with the new footprints but without OSM green gives 5.6% again, so the buildings are not the cause. In barris whose old run had the green layer the change is under 0.2 points (Sant Antoni: pervious 3.0% → 2.9%, runoff −0.0%; Porta −0.1%). Domain and grid are unchanged in every barri. The new values are the more correct ones: the model is meant to count OSM parks and grass as pervious. Sant Gervasi - la Bonanova (12.7% → 18.0%) is one of the 16.
+- la Verneda i la Pau and Sant Gervasi - la Bonanova were first rebuilt while Overpass was down; both were rerun on 13 Nov with the green layer.
 - **Open:** the city-wide LP with the local ceiling (`scripts/city_lp.py --local-ceiling`, Porta + 27) is now infeasible: in el Camp de l'Arpa del Clot (496 planes) the ceiling leaves Celtis 0 trees, and some positions fit no other species under the new façade distances. `citylp_*` tables and the city slide figures are therefore still the 31 Oct ones. The Barcelona-palette (30 species) per-barri runs were not redone either.
