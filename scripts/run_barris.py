@@ -7,6 +7,7 @@ Usage (PC, project env):  python scripts/run_barris.py                       # E
                           python scripts/run_barris.py "Gràcia" "Sant Andreu"  # districts or barri names
                           python scripts/run_barris.py --summary               # only rebuild the summary table
                           python scripts/run_barris.py --osm                   # redo buildings + tool where footprints are LiDAR
+                          python scripts/run_barris.py --buildings             # redo buildings (1:1000 map) + tool in every barri
                           python scripts/run_barris.py --s1b                   # add S1b (observed city mix) to finished barris
 Outputs: databases/barcelona/barris/run_log.csv, databases/barcelona/barris_summary.csv (one row per barri, shares of
 today's S0: S1 random and S1a city mix = mean of 10 seeds, tool = the optimised layout with the most summer shade)."""
@@ -30,20 +31,25 @@ def steps(name, s):
             ("tool", summary_file(s), ["-m", "shade_sponge", name, "--size=exact", "--trunk=TERCERA"])]
 
 
-def redo_osm(barris, log):
-    """Barris whose buildings came from the LiDAR fallback (Overpass busy): fetch OSM footprints again and, if that
-    works, rebuild the site cache and rerun the tool. Barris where Overpass still fails keep their LiDAR footprints."""
+def redo_osm(barris, log, every=False):
+    """Barris whose buildings came from the LiDAR fallback: fetch the map footprints again (1:1000 map since 12 Nov 2026,
+    OSM before) and, if that works, rebuild the site cache and rerun the tool. Barris where it still fails keep their
+    LiDAR footprints. every=True (--buildings): every barri, with the LiDAR fallback allowed and logged."""
+    lidar = lambda f: re.search(r'"source": ?"lidar"', f.read_text(encoding="utf-8")[:2000])
     for name, s in barris:
         f = DB / "barris" / s / "buildings.geojson"
-        if not f.exists() or not re.search(r'"source": ?"lidar"', f.read_text(encoding="utf-8")[:2000]):
+        if not every and (not f.exists() or not lidar(f)):
             continue
-        for step, cmd in (("buildings_osm", ["scripts/bcn_lidar_barri.py", name, "--osm-only"]), ("tool", steps(name, s)[2][2])):
+        for step, cmd in (("buildings_1000", ["scripts/bcn_lidar_barri.py", name] + ([] if every else ["--osm-only"])),
+                          ("tool", steps(name, s)[2][2])):
             t = time.time()
             print(f"\n=== {name}: {step} ===", flush=True)
             if step == "tool":
                 (ROOT / f"cache/site_{s}.npz").unlink(missing_ok=True)
             r = subprocess.run([sys.executable, *cmd], cwd=ROOT)
             status = "ok" if r.returncode == 0 else f"failed ({r.returncode})"
+            if step != "tool" and status == "ok" and lidar(f):
+                status = "ok (LiDAR fallback)"
             pd.DataFrame([dict(barri=name, step=step, status=status, minutes=round((time.time() - t) / 60, 1),
                                when=time.strftime("%Y-%m-%d %H:%M"))]).to_csv(log, mode="a", header=not log.exists(), index=False)
             if status != "ok":
@@ -81,8 +87,8 @@ if __name__ == "__main__":
     sel = idx[idx.district.isin(args) | idx.barri.isin(args)]
     barris = [("Porta", "porta")] + list(zip(sel.barri, sel.slug))
     log = DB / "barris" / "run_log.csv"
-    if "--osm" in sys.argv:
-        redo_osm(barris[1:], log)
+    if "--osm" in sys.argv or "--buildings" in sys.argv:
+        redo_osm(barris[1:], log, every="--buildings" in sys.argv)
     elif "--s1b" in sys.argv:                            # S1b rows only, for barris whose tool run predates it
         for name, s in barris:
             f = summary_file(s) if s != "porta" else DB / f"tool_v0_summary{TAG}.csv"
