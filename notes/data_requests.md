@@ -12,41 +12,45 @@ forward replies or paste them in the thread. Nothing here is sent by Claude.*
 - [x] BCASA follow-up SENT 6 Nov (Clavegueram → Informació sobre la xarxa), code **XKF0900**: asks only for the rain-gauge form. Next: wait for the form; tutor letter on 10 Nov; then file the instància online via Cl@ve → Ciutadans UE. through the Atenció en línia form, same category, subject "Seguimiento BDM9240"; send me the new code.
 - [x] 6 Nov: BCASA answered XKF0900 with the **data request form** ("Sol·licitud de dades d'explotació", .docx). It goes **by email to info.bcasa@bcn.cat**, signed, with the user's acceptance of the conditions of use (Llei 37/2007 art. 8: no alteration, cite source and last-update date). Claude pre-filled it: `/mnt/project-files/bcasa/BCASA_sollicitud_dades_Volpe.docx` (not in the repo). Missing: phone (optional), place/date, signature.
 - [x] **Angelos: letter received signed 10 Nov** (`/mnt/project-files/bcasa/IAAC_tutor_letter_BCASA_signed.pdf`, not in repo). Was: : ask him to sign the letter draft `/mnt/project-files/bcasa/IAAC_tutor_letter_BCASA_draft.docx` (email text in the thread). When it comes back signed, resume BCASA.
+- [x] **BCASA, 12 Nov**: acknowledged the 10 Nov email: "trasladada al equipo técnico", answer to come by email. Wait; nudge ~26 Nov if silent.
+- [x] **BCASA, 12 Nov 14:37: RAIN DATA RECEIVED** (`Pluja2016-2026.zip`: Access database `Pluja2016-2026.accdb`, 0.1 mm tip times 2016–2026, plus `InformacioPluja.xlsx` with the 24 gauges and field list; P1 Canyelles is the Nou Barris gauge). For the drainage results BCASA points again to the PDISBA (hdl.handle.net/11703/119275). **Restricted: keep out of the repo** (OMEN: `databases/barcelona/raw/bcasa_pluja/`, gitignored). No nudge needed.
 - [x] **BCASA: SENT 10 Nov** (signed form + tutor letter by email to info.bcasa@bcn.cat; asked whether an instància is still needed). Wait; nudge ~24 Nov if silent. Was: sign `/mnt/project-files/bcasa/BCASA_sollicitud_dades_Volpe.pdf` (place/date filled) and email it with the letter to info.bcasa@bcn.cat (text in the thread, 10 Nov). Was: after the signed letter: when Angelos's letter exists, send ONE email to info.bcasa@bcn.cat with the signed form + the letter, and ask whether the instància is still needed or the email is enough.
+- [x] **Parcs i Jardins, 12 Nov 16:30: no meeting** (no English speaker available). The head of department forwarded the questions to several colleagues and will answer **in writing** (Catalan). Giovanni thanks her briefly (§2c, thank-you). Nudge ~26 Nov if nothing arrives. Was: **reply SENT** (asks Fri 13 after 13:00 or Mon 16 morning, English speaker). Waiting for the date; then Claude prepares a one-page call plan. Was: meeting offered Fri 13 Nov (10:30 or 12:30, 30 min, online) by the head of Green Strategy and Biodiversity. Reply §2c: asks Fri 13 after 13:00 or Mon 16 morning, and an English speaker.
 - [x] **Parcs i Jardins (9 Nov)**: RGF7342 answered; detailed query SENT 9 Nov by email (text §2b). Wait; nudge ~23 Nov if silent. Was: send the detailed query to the tree unit's generic address (kept out of this public repo; see /mnt/project-files/notes/data_requests_private.md) (text §2b), from the IAAC inbox.
-- [x] **Mataró (10 Nov)**: tree-table request SENT to the city's general mailbox (row 8) + Slack ask to classmates in Spain for the ORDS JSON. Wait; nudge ~24 Nov if silent.
+- [x] **Mataró (10 Nov)**: tree-table request SENT to the city's general mailbox (row 8) + Slack ask to classmates in Spain for the ORDS JSON. **12 Nov: DATA RECEIVED** via a classmate's Spanish connection (row 8). No data nudge needed; only the licence is still open. If the city answers (email or LinkedIn), just thank them.
 - [ ] **AMB contact form** (amb.cat → Contacte): message for Cati Montserrat (text §5b).
 - [x] Slack: María asked (3 Nov); Pinyol lead dropped, go for Joan Guitart.
 - [x] LinkedIn: connection request to Joan Guitart sent (3 Nov). When he accepts, send a short message (ask Claude for the text).
 - [x] Víctor Ténez (UPC): email sent 3 Nov evening to victor.tenez@upc.edu. Wait for a reply; nudge ~11 Nov if silent.
-- [ ] **AiEM (UPC)**: pick a researcher on https://aie.upc.edu/equip/ and send the email (text §5c).
+- [x] **AiEM (UPC)**: email SENT 11 Nov to Helena Coch Roura (helena.coch@upc.edu), text §5c citing the PLEA 2024 paper. Wait; nudge ~25 Nov if silent. Journal version of that paper read: literature matrix row 147.
 - [x] Parcs i Jardins follow-up SENT 6 Nov (form "Arbrat sol·licitud plantació"), new code **BKB1995**. Wait; if silent by ~20 Nov, ask the tutor for an Àrea d'Arbrat contact instead of another form.
 - [ ] **10 Nov, tutor**: ask Angelos for an Àrea d'Arbrat contact; mention the BCASA letter if BCASA says it can be done remotely.
 - [x] PDISBA PDFs downloaded (3 Nov); Diagnosi read.
 - [x] Plànols Vol. II complete on the OMEN (4 Nov) and read by Claude (§0). Vols I, III, V still broken, not needed.
 - [x] Escapos census downloaded to `databases\florence\raw\` (4 Nov).
 - [x] Firenze LiDAR: reply to Polistena sent 4 Nov 14:50 with the polygon.
-- [ ] **Firenze LiDAR**: when the delivery agreement arrives, send it to Claude to read before signing. Nudge ~18 Nov if silent.
+- [x] **Firenze LiDAR nudge SENT 11 Nov** (§4b) without the §6c P.S.; P.S. on Enel buried cables + sewer (§6c) SENT 11 Nov as a short follow-up in the same thread.
+- [x] **Firenze LiDAR: signed agreement SENT 12 Nov 16:35** by email; Geri (Comune) asked for PEC, so **re-sent 12 Nov 18:50 by PEC** to direzione.sistemiinformativi@pec.comune.fi.it (address from an unofficial PEC list, matches the DSI ordinary email) + reply to Geri; waiting for the OneDrive link (nudge ~17 Nov if silent). Was: **cloud CLIPPED, agreement RECEIVED.** Giovanni uploads the agreement here; Claude reads it before he signs (digital signature, or handwritten + copy of ID). Download link follows the signed agreement. Agreement filled 12 Nov (`/mnt/project-files/firenze/`, not in repo). Terms: no sharing of raw data (art. 4), delete all copies at the end (art. 5), fixed citation (art. 6), send the city a copy of the thesis (art. 7), CC BY-NC. **Giovanni's decision (12 Nov):** per-tree derived values (height, crown, LAI) may go in the public repo, since they cannot rebuild the point cloud (art. 5); the raw cloud never does.
 - [ ] Barcelona Regional: phone +34 932 237 400 around 13 Nov if still silent.
-- [ ] **Underground services (11 Nov, §6)**: send §6a to ACEFAT/eWise (5 min). If they say yes, register on eWise and make the free request for the Santapau / Emili Roca / Desfar area. §6b (transparency request) and §6c (Florence) only if needed.
+- [x] **Underground services (11 Nov, §6)**: §6a SENT 11 Nov to ACEFAT/eWise (sau@ cc ewise@); nudge ~25 Nov if silent. Was: send §6a to ACEFAT/eWise (5 min). If they say yes, register on eWise and make the free request for the Santapau / Emili Roca / Desfar area. §6b (transparency request) and §6c (Florence) only if needed.
 
 ## Board (3 Nov 2026)
 
 | # | Body | What we ask | Channel | Status | Next step (who, when) |
 |---|---|---|---|---|---|
-| 1 | **BCASA** (Barcelona Cicle de l'Aigua) | 5-min rain-gauge series near Nou Barris; 1D/2D drainage results (depths, velocities, T = 1–2 yr) | City "Atenció en línia" form, code **BDM9240** (30 Oct); follow-up **XKF0900** (6 Nov, rain-gauge form; **answered 6 Nov with the form**; form + tutor letter **emailed 10 Nov** to info.bcasa@bcn.cat) | **Answered 30 Oct:** unpublished data only via a formal *instància* + tutor letter + a separate rain-gauge form; academic use, no sharing | **The complicated one, see §1.** Ask BCASA for the rain-gauge form, get the tutor letter, register the instància |
+| 1 | **BCASA** (Barcelona Cicle de l'Aigua) | 5-min rain-gauge series near Nou Barris; 1D/2D drainage results (depths, velocities, T = 1–2 yr) | City "Atenció en línia" form, code **BDM9240** (30 Oct); follow-up **XKF0900** (6 Nov, rain-gauge form; **answered 6 Nov with the form**; form + tutor letter **emailed 10 Nov** to info.bcasa@bcn.cat) | **12 Nov: RAIN-GAUGE DATA DELIVERED** (tip-level series 2016–2026, 24 gauges; drainage results: "consult the PDISBA"). **Answered 30 Oct:** unpublished data only via a formal *instància* + tutor letter + a separate rain-gauge form; academic use, no sharing | **The complicated one, see §1.** Ask BCASA for the rain-gauge form, get the tutor letter, register the instància |
 | 2 | **Parcs i Jardins** | Replacement list, streets keeping planes (Meridiana), 15% cap scope, official 2026 mix, sidewalk widths | City form, code **RGF7342** (sent 21–24 Oct); follow-up **BKB1995** (6 Nov, adds the Pla Clima "adapted species" question). Old address parcsijardins@mail.bcn.es does not work (user, 3 Nov) | **Answered 9 Nov (RGF7342):** send the query by email to the tree unit's generic address (kept out of this public repo; see /mnt/project-files/notes/data_requests_private.md) (text §2b); do not publish the address. Before that: no reply after ~2 weeks. **No longer blocking:** S1b (observed replacements), the plan text (cap) and sidewalk work cover most questions; still open: Meridiana, the "adapted species" list | One follow-up via the form on 4 Nov (draft §2); ask the tutor for an Àrea d'Arbrat contact on 10 Nov; otherwise a stated limitation |
 | 3 | **Barcelona Regional** | Licence for RESCCUE depth layers (`rcc_iu1_*`), units of `depth2d`/`speed2d`, any T = 1 yr run | Web form bcnregional.com/contacte-2 (30 Oct, no code). The 13 Oct email to br@bcnregional.com **bounced** | No reply recorded | Phone +34 932 237 400 ~13 Nov if silent. Point 3 of the BCASA instància asks the same licence, so either answer settles it |
 | 4 | **TRY database** (MPI Jena) | Traits for the 21 Porta species (request **53077**, 13 Oct) | try-db.org | **Received 3 Nov** (`53077.txt`, 21,369 rows, 1,339 trait records; plus release notes and IP guidelines). 20 of 21 species (no *Handroanthus heptaphyllus*). Coverage: leaf phenology all 20; leaf area for most; wood growth rings / vessel distribution for ~14; **no leaf water storage or wettability records**, so canopy storage stays on the s·LAI calibration. TRY IP rules apply if published (cite TRY + original datasets, possibly invite co-authors) | Save the zip in `databases\TRY_DATABASE\` (gitignored). Use: phenology check of `season.py`, leaf area per species. Closed as a request |
-| 5 | **Infrared City** (Angelos Chronis, Serjoscha Duering, Oana Taut) | Research access; trees as geometry or LAI; API limits; validation | Email | Angelos replied ~1 Nov (free tier, results must be open); **Giovanni replied 2 Nov** | Wait. Ask about crown transmittance/LAI if not answered. Reminder ~9 Nov, or ask in person on 10 Nov |
+| 5 | **Infrared City** (Angelos Chronis, Serjoscha Duering, Oana Taut) | Research access; trees as geometry or LAI; API limits; validation | **12 Nov: account created with the personal Gmail; comparison charts already sent to Serjoscha; account notice SENT 12 Nov 17:00.** Email | Angelos replied ~1 Nov (free tier, results must be open); Giovanni replied 2 Nov; access tested 10 Nov. **Serjoscha answered 11 Nov**: account under giofox96@gmail.com (they add credits), per-tree transmissivity + height + crown settable, per-tree with/without runs make sense, wind treats all trees alike, `preview_area` for cost; wants the Andreu Nin Ladybug result | Reply drafted 11 Nov (`notes/email_infrared_reply_11nov.md`, figure attached). Giovanni: create the Gmail account, send the reply |
 | 6 | **PEMB** (Giulio) | Access/contacts for tree and flood data | Email (with Fiona) | **Closed 30 Oct:** no data, pointed to providers (rows 1–3) | None |
-| 7 | **Comune di Firenze, SIT** | LiDAR point cloud, 27 Jun 2023 flight, 1–2 km² Rifredi/Novoli | Email sit@comune.fi.it (cc opendata@) | **Answered 4 Nov** (Antonino Polistena, Direzione Sistemi Informativi, antonino.polistena@comune.fi.it): 20 pts/m², raw cloud with Return Number + Number of Returns, **not ASPRS-classified**. Clip of an area we define (raster map or georeferenced polygon, UTM ETRF2000), under a delivery agreement: research use only, no redistribution, delete at end of analysis, cite source, share results | **Reply sent 4 Nov** (polygon 1.68 km² Firenze Nova, EPSG:7791; asked: derived products publishable, deletion by 31 Jan 2027, LAS/LAZ). Wait for the agreement; Claude reads it before Giovanni signs; nudge ~18 Nov |
-| 8 | **Ajuntament de Mataró** | Per-tree species table (Safetree / ORDS `T_C_ARBRAT`) | **SENT 10 Nov** by Giovanni to `bustia@ajmataro.cat` (asked to forward to the Servei d'Infraestructura Verda; text `/mnt/project-files/notes/mataro_tree_request_draft.md`). Same day: LinkedIn message to the Ajuntament de Mataró page asking which service to contact; Slack request to classmates in Spain to open the ORDS URL and save the JSON | 10 Nov: no tree dataset on the city's open-data portal (seu-e.cat), AOC, DIBA or datos.gob.es. `apex.mataro.org` times out on ports 80/443 from an Italian home connection too (www.mataro.cat answers), so its firewall drops outside traffic: the ORDS check cannot be done from Italy. Licence for city data = Llicència oberta d'ús d'informació – Catalunya (mataro.cat/transparencia/llicencia-de-reutilitzacio-de-la-informacio-publica) | Only if Mataró stays the Catalan fallback |
+| 7 | **Comune di Firenze, SIT** | LiDAR point cloud, 27 Jun 2023 flight, 1–2 km² Rifredi/Novoli | Email sit@comune.fi.it (cc opendata@) | **12 Nov: 2023 raw cloud clipped to our polygon; data-use agreement received (sign digitally or by hand + ID copy), then a download link.** **Answered 4 Nov** (Antonino Polistena, Direzione Sistemi Informativi, antonino.polistena@comune.fi.it): 20 pts/m², raw cloud with Return Number + Number of Returns, **not ASPRS-classified**. Clip of an area we define (raster map or georeferenced polygon, UTM ETRF2000), under a delivery agreement: research use only, no redistribution, delete at end of analysis, cite source, share results | **Reply sent 4 Nov** (polygon 1.68 km² Firenze Nova, EPSG:7791; asked: derived products publishable, deletion by 31 Jan 2027, LAS/LAZ). Wait for the agreement; Claude reads it before Giovanni signs; nudge ~18 Nov |
+| 8 | **Ajuntament de Mataró** | Per-tree species table (Safetree / ORDS `T_C_ARBRAT`) | **SENT 10 Nov** by Giovanni to `bustia@ajmataro.cat` (asked to forward to the Servei d'Infraestructura Verda; text `/mnt/project-files/notes/mataro_tree_request_draft.md`). Same day: LinkedIn message to the Ajuntament de Mataró page asking which service to contact; Slack request to classmates in Spain to open the ORDS URL and save the JSON | 10 Nov: no tree dataset on the city's open-data portal (seu-e.cat), AOC, DIBA or datos.gob.es. `apex.mataro.org` times out on ports 80/443 from an Italian home connection too (www.mataro.cat answers), so its firewall drops outside traffic: the ORDS check cannot be done from Italy. Licence for city data = Llicència oberta d'ús d'informació – Catalunya (mataro.cat/transparencia/llicencia-de-reutilitzacio-de-la-informacio-publica) | **DATA RECEIVED 12 Nov:** the full `T_C_ARBRAT` table, downloaded by a classmate (Maria) from a Spanish connection: 25,062 trees, 175 species, complete (`hasMore=false`); raw JSON + clean CSV in `/mnt/project-files/mataro/`. The 24 Nov nudge is no longer needed for the data. **Still open: licence confirmation.** If the city replies, thank them |
 | 9 | **BCASA, gauge series (optional)** / **Meteocat XEMA** | Real storms to replay | Covered by row 1 / free API key | Optional | No action |
-| 10 | **ENVI-met** (student licence) | Student licence: 1 year, 50 simulations, grids up to 100x100x50, proof of enrolment required. Use stated: UTCI check (hot design day, 12–17 h) on a few street segments, current trees vs city replacement vs tool replacement, ~20–40 runs, single user, non-commercial | "Get in touch" web form, sent 9 Nov by Giovanni from the IAAC email | Form accepted ("Thanks for submitting the form"), no reply yet | Send the IAAC enrolment certificate (PDF) when they ask. A 100x100 grid at 2 m covers ~200 × 200 m: one street segment, not all of Porta |
-| 11 | **ACEFAT / eWise** (Barcelona body that coordinates utility works; runs the one-stop portal for existing underground services in Catalonia) | Plans of all networks (electricity, gas, water, sewer, telecom, municipal) for the Santapau / Emili Roca / Desfar works area in Porta, then possibly all of Porta | Email sau@acefat.com / ewise@acefat.com, then eWise account | **Draft ready 11 Nov (§6a), not sent** | Giovanni sends §6a; if academic use is allowed, register and spend the free first request on the works area. Data stays out of the public repo |
+| 10 | **ENVI-met** (student licence) | Student licence: 1 year, 50 simulations, grids up to 100x100x50, proof of enrolment required. Use stated: UTCI check (hot design day, 12–17 h) on a few street segments, current trees vs city replacement vs tool replacement, ~20–40 runs, single user, non-commercial | "Get in touch" web form, sent 9 Nov by Giovanni from the IAAC email | Form accepted 9 Nov. **Answered 11–12 Nov**: they ask position, institution, intended use, and for a student licence the certificate of enrolment | **Reply SENT 12 Nov** by Giovanni (with the enrolment certificate). Wait for the licence; nudge ~19 Nov if silent | Send the IAAC enrolment certificate (PDF) when they ask. A 100x100 grid at 2 m covers ~200 × 200 m: one street segment, not all of Porta |
+| 11 | **ACEFAT / eWise** (Barcelona body that coordinates utility works; runs the one-stop portal for existing underground services in Catalonia) | Plans of all networks (electricity, gas, water, sewer, telecom, municipal) for the Santapau / Emili Roca / Desfar works area in Porta, then possibly all of Porta | Email sau@acefat.com / ewise@acefat.com, then eWise account | **SENT 11 Nov (§6a). Was: Draft ready 11 Nov (§6a), not sent** | Giovanni sends §6a; if academic use is allowed, register and spend the free first request on the works area. Data stays out of the public repo |
 | 12 | **Ajuntament de Barcelona, access to public information** (Llei 19/2014) | Executive project of the Santapau / Emili Roca / Desfar reform with its affected-services annex; street-lighting network in Porta | Portal de Tràmits with digital certificate (Cl@ve → Ciutadans UE) | **Draft ready 11 Nov (§6b), not sent** | Optional, slower (1 month + 15 days, then up to 30 days to deliver). Send only if §6a fails or to get the project's own services plan |
-| 13 | **Comune di Firenze, SIT** (validation city) | Enel buried LV/MV cable layers listed in the city's geographic-database catalogue; sewer from Publiacqua | Add to the Polistena thread | **Draft ready 11 Nov (§6c), not sent** | Send with the LiDAR agreement reply, not as a new request |
+| 13 | **Comune di Firenze, SIT** (validation city) | Enel buried LV/MV cable layers listed in the city's geographic-database catalogue; sewer from Publiacqua | Add to the Polistena thread | **SENT 11 Nov**. **12 Nov answer: not from the Comune.** Ask the network owners (Publiacqua, Enel) or request access to **SINFI** (national federated infrastructure register) | Send with the LiDAR agreement reply, not as a new request |
 
 ## 0. PDISBA: what the published volumes already hold (read 3 Nov)
 PDISBA on BCNROC (https://bcnroc.ajuntament.barcelona.cat/items/3cc3df7e-be95-4111-a995-98715dbe172e, hdl 11703/119275,
@@ -249,6 +253,32 @@ publicly (Parcs i Jardins asked).
 > MaCAD, Institute for Advanced Architecture of Catalonia (IAAC)
 > giovanni.carlo.volpe@students.iaac.net
 
+### 2c. Parcs i Jardins: meeting offer (12 Nov) and reply (English)
+12 Nov: the head of the Department of Green Strategy and Biodiversity (Parcs i Jardins, Directorate of Planning and
+Strategy Services) answered the §2b email and offered a 30-min online meeting on Fri 13 Nov, 10:30–11:00 or
+12:30–13:00. Contact details in `/mnt/project-files/notes/data_requests_private.md` (not in the repo). Giovanni needs an
+English-speaking participant. Reply from the IAAC inbox, in the same thread:
+
+> **Subject:** Re: Petició sobre dades d'arbrat (Request for tree data)
+>
+> Dear Ms Rull,
+>
+> Thank you very much for your reply and for the offer, I would be very glad to meet online. Unfortunately I am not free on Friday morning: would it be possible to meet on Friday 13 November in the afternoon, any time after 13:00, or otherwise on Monday 16 November in the morning?
+>
+> One request: I am Italian and I don't speak Catalan or Spanish well enough for a technical discussion. Could at least one person in the meeting speak English?
+>
+> To use the time well, these are the points I would most like to clarify (the details are in my email of 9 November):
+> 1. Whether there is an internal criterion or document for which species replaces a street tree (by street type, sidewalk width, orientation or district), and whether it can be shared for academic use.
+> 2. Whether a change of species in the same tree-pit code of the Open Data inventory can be read as a replacement.
+> 3. The scope of the 15% cap per species: city-wide only, or also per district or neighbourhood; street trees only, or also squares and parks.
+> 4. Which species count as "adapted" for the Pla Clima target (from 30% to 40%).
+> 5. Which streets in Porta keep their plane trees (for example Av. Meridiana), and whether there is an official sidewalk width per tree pit.
+>
+> Kind regards,
+> Giovanni Carlo Volpe
+> MaCAD, Institute for Advanced Architecture of Catalonia (IAAC)
+> giovanni.carlo.volpe@students.iaac.net
+
 ## 4. Comune di Firenze LiDAR: reply to the 4 Nov answer (Italian, from the IAAC inbox)
 
 **What the answer means.** It is the "multiple returns retained, but unclassified" row of the decision table in `notes/firenze_lidar_request.md`: workable. 20 pts/m² is denser than Porta's ICGC cloud. The missing ASPRS classes cost less than a full classification step, because the Comune already publishes the leaf-on DTM of the same 27 Jun 2023 flight (CC BY 4.0): ground = points within ~0.5 m of that DTM (ASSUMPTION threshold), vegetation vs buildings = tree positions from the "Alberi" inventory and building footprints from the Carta Tecnica. The gap fraction then works as in Porta (ground share of returns inside each crown).
@@ -273,6 +303,20 @@ publicly (Parcs i Jardins asked).
 > Le invierò i risultati e una copia della tesi una volta conclusa.
 >
 > Cordiali saluti,
+> Giovanni Carlo Volpe
+> Master in Advanced Computation for Architecture & Design (MaCAD), IAAC Barcellona
+> giovanni.carlo.volpe@students.iaac.net
+
+### 4b. Firenze nudge (Italian, reply in the same thread from the IAAC inbox; drafted 11 Nov at Giovanni's request)
+> **Oggetto:** R: Richiesta nuvola di punti LiDAR 27 giugno 2023 – tesi IAAC
+>
+> Gentile dott. Polistena,
+>
+> le scrivo per un breve aggiornamento sulla mia richiesta della nuvola di punti LiDAR (la mia email del 4 novembre, con il poligono dell'area di Firenze Nova in EPSG:7791).
+>
+> I tempi della tesi sono stretti: la consegna è a metà dicembre e l'analisi dei dati di Firenze andrebbe fatta entro la fine di novembre. Potrebbe dirmi a che punto è la richiesta e quando potrei ricevere l'accordo di consegna? Lo firmo subito appena arriva. Se servono altre informazioni o un documento dell'IAAC, glielo mando in giornata.
+>
+> La ringrazio molto,
 > Giovanni Carlo Volpe
 > Master in Advanced Computation for Architecture & Design (MaCAD), IAAC Barcellona
 > giovanni.carlo.volpe@students.iaac.net
@@ -304,14 +348,14 @@ publicly (Parcs i Jardins asked).
 > Moltes gràcies,
 > Giovanni Carlo Volpe – giovanni.carlo.volpe@students.iaac.net
 
-### 5c. AiEM (UPC) email (English; pick a name on https://aie.upc.edu/equip/ or use the group's general contact)
+### 5c. AiEM (UPC) email (English). Addressee chosen 11 Nov: **Helena Coch Roura** (group head; email via the envelope icon on https://aie.upc.edu/equip/). Hook: López Ordóñez, García Nevado, Coch Roura & Morganti (2024), "Open space heat stress in social housing districts: the role of trees depending on urban form", PLEA 2024, Wrocław, pp. 237–242 (UPCommons, Barcelona, read via web summary only)
 > **Subject:** MaCAD thesis (IAAC): street trees, UTCI and runoff in Barcelona – a short question
 >
-> Dear [Name / AiEM team],
+> Dear Prof. Coch,
 >
 > I'm Giovanni Carlo Volpe, a MaCAD student at IAAC. My thesis develops a computational method that suggests street-tree species and positions to reduce pedestrian heat stress (mean UTCI, 12–17 h, hot design day) and pluvial runoff, tested in Porta (Nou Barris). Heat is estimated with a fast shade proxy, checked against Ladybug Tools on sample streets.
 >
-> I was told your group works on simulations of urban space, vegetation and Barcelona's heat island. I'd be very grateful for 20 minutes of your time, online, on two points:
+> I was told your group works on simulations of urban space, vegetation and Barcelona's heat island, and I read your PLEA 2024 paper on the role of trees in open-space heat stress in Barcelona's social housing districts. I'd be very grateful for 20 minutes of your time, online, on two points:
 > 1. how you represent tree crowns (porosity/LAI, seasonality) in outdoor-comfort simulations;
 > 2. whether you know of measured UTCI or surface-temperature data in Barcelona streets that could serve as a sanity check.
 >
