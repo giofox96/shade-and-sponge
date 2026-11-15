@@ -28,6 +28,7 @@ forward replies or paste them in the thread. Nothing here is sent by Claude.*
 - [x] Firenze LiDAR: reply to Polistena sent 4 Nov 14:50 with the polygon.
 - [ ] **Firenze LiDAR**: when the delivery agreement arrives, send it to Claude to read before signing. Nudge ~18 Nov if silent.
 - [ ] Barcelona Regional: phone +34 932 237 400 around 13 Nov if still silent.
+- [ ] **Underground services (11 Nov, §6)**: send §6a to ACEFAT/eWise (5 min). If they say yes, register on eWise and make the free request for the Santapau / Emili Roca / Desfar area. §6b (transparency request) and §6c (Florence) only if needed.
 
 ## Board (3 Nov 2026)
 
@@ -43,6 +44,9 @@ forward replies or paste them in the thread. Nothing here is sent by Claude.*
 | 8 | **Ajuntament de Mataró** | Per-tree species table (Safetree / ORDS `T_C_ARBRAT`) | **SENT 10 Nov** by Giovanni to `bustia@ajmataro.cat` (asked to forward to the Servei d'Infraestructura Verda; text `/mnt/project-files/notes/mataro_tree_request_draft.md`). Same day: LinkedIn message to the Ajuntament de Mataró page asking which service to contact; Slack request to classmates in Spain to open the ORDS URL and save the JSON | 10 Nov: no tree dataset on the city's open-data portal (seu-e.cat), AOC, DIBA or datos.gob.es. `apex.mataro.org` times out on ports 80/443 from an Italian home connection too (www.mataro.cat answers), so its firewall drops outside traffic: the ORDS check cannot be done from Italy. Licence for city data = Llicència oberta d'ús d'informació – Catalunya (mataro.cat/transparencia/llicencia-de-reutilitzacio-de-la-informacio-publica) | Only if Mataró stays the Catalan fallback |
 | 9 | **BCASA, gauge series (optional)** / **Meteocat XEMA** | Real storms to replay | Covered by row 1 / free API key | Optional | No action |
 | 10 | **ENVI-met** (student licence) | Student licence: 1 year, 50 simulations, grids up to 100x100x50, proof of enrolment required. Use stated: UTCI check (hot design day, 12–17 h) on a few street segments, current trees vs city replacement vs tool replacement, ~20–40 runs, single user, non-commercial | "Get in touch" web form, sent 9 Nov by Giovanni from the IAAC email | Form accepted ("Thanks for submitting the form"), no reply yet | Send the IAAC enrolment certificate (PDF) when they ask. A 100x100 grid at 2 m covers ~200 × 200 m: one street segment, not all of Porta |
+| 11 | **ACEFAT / eWise** (Barcelona body that coordinates utility works; runs the one-stop portal for existing underground services in Catalonia) | Plans of all networks (electricity, gas, water, sewer, telecom, municipal) for the Santapau / Emili Roca / Desfar works area in Porta, then possibly all of Porta | Email sau@acefat.com / ewise@acefat.com, then eWise account | **Draft ready 11 Nov (§6a), not sent** | Giovanni sends §6a; if academic use is allowed, register and spend the free first request on the works area. Data stays out of the public repo |
+| 12 | **Ajuntament de Barcelona, access to public information** (Llei 19/2014) | Executive project of the Santapau / Emili Roca / Desfar reform with its affected-services annex; street-lighting network in Porta | Portal de Tràmits with digital certificate (Cl@ve → Ciutadans UE) | **Draft ready 11 Nov (§6b), not sent** | Optional, slower (1 month + 15 days, then up to 30 days to deliver). Send only if §6a fails or to get the project's own services plan |
+| 13 | **Comune di Firenze, SIT** (validation city) | Enel buried LV/MV cable layers listed in the city's geographic-database catalogue; sewer from Publiacqua | Add to the Polistena thread | **Draft ready 11 Nov (§6c), not sent** | Send with the LiDAR agreement reply, not as a new request |
 
 ## 0. PDISBA: what the published volumes already hold (read 3 Nov)
 PDISBA on BCNROC (https://bcnroc.ajuntament.barcelona.cat/items/3cc3df7e-be95-4111-a995-98715dbe172e, hdl 11703/119275,
@@ -315,3 +319,70 @@ publicly (Parcs i Jardins asked).
 > Giovanni Carlo Volpe
 > MaCAD, Institute for Advanced Architecture of Catalonia (IAAC)
 > giovanni.carlo.volpe@students.iaac.net
+
+## 6. Underground services (sewer, electricity, gas, water, telecom): how to get them (searched 11 Nov)
+
+**Why.** Tutor feedback F3 / A3 (`notes/tutor_feedback_10nov.md`): buried networks may decide where an *added* tree can go. Replacements reuse an existing pit, so the conflict was settled when the pit was built; the data matters for added spots only.
+
+**Bottom line.** Barcelona has no open underground-network data, but it does have a **one-stop portal**: **eWise**, run by **ACEFAT**, the body that coordinates utility works in Barcelona ("Coordinació i gestió d'obres de serveis a la ciutat de Barcelona"). One request returns the existing services of every connected company in a drawn area. It is the route that works from Italy, by email, in days rather than months. Everything else is slower, partial, or closed to us.
+
+### 6.1 Routes, checked one by one
+
+| Route | What exists | Who can get it, how | Cost / timing | Verdict |
+|---|---|---|---|---|
+| **eWise (ACEFAT)** | Real-time portal of existing underground services. Listed networks include **Ajuntament de Barcelona** (under "Ayuntamientos y otras entidades"; which municipal networks, e.g. sewer or lighting, not stated), Agbar / Aigües de Barcelona, **Endesa** (electricity, Catalonia), **Nedgia** and Gas Natural Redes GLP (gas, Catalonia), Districlima, **Telefónica** and Vodafone-ONO (Catalonia), FGC; "more than 7,500 users and 315 companies and bodies connected". Some companies still answer semi-automatically. Also lists **Aigües de Mataró (AMSA)** for drinking water and sewerage in Mataró, and Tubverd | Online subscription; account validated within 48 working hours. Contacts: sau@acefat.com (services page), ewise@acefat.com (tariff page, where the subscription forms go), C/ Comte d'Urgell 240, 2C, 08036 Barcelona, tel. 902 101 782 | **First request free.** Then 42 € + VAT per request (bonos 10/20/30, flat rate 2,975 €/yr), tariff valid from 15 Jan 2025. One request = up to 4 DIN A3 sheets at 1:500 ("aproximadamente 12 hectáreas", tariff page). Porta (84 ha) ≈ 7 requests, the first free, so ≈ 6 × 42 = 252 € + VAT; the Santapau / Emili Roca / Desfar works (~5,500 m²) fit in the free one | **Best route.** Unknown: whether a student may use it for research, the delivered format (PDF plans or CAD/GIS), and the conditions of use. Ask first (§6a) |
+| **The city's own projects** | Barcelona projects get the affected-services plans from ACEFAT. Example: the 2020 Trinitat Vella services study (MOSE Serveis d'Enginyeria for the city) "s'ha demanat a ACEFAT els plànols dels serveis existents" and received AGBAR water, sewer, ONO, public lighting, FECSA-Endesa, gas and Telefónica plans. The Santapau / Emili Roca / Desfar reform in Porta (2.3 M€, 2026) includes sewer improvements and undergrounding of aerial cables, so its executive project very likely has such an annex (inference, not stated) | Not published with the news item. Request under the transparency law (§6b) | Llei 19/2014 art. 33: one month to resolve (+15 days extension), then up to 30 days to deliver (Barcelona's internal instruction). Online needs a digital certificate (Cl@ve → Ciutadans UE works from Italy). Free | Slow (late Dec at best) and the third-party utility plans may be withheld. Backup only |
+| **Utilities one by one** (e-distribución/Endesa, Nedgia, Aigües de Barcelona, BCASA) | Each holds its own GIS | No separate public plan-request service found for third parties; in Catalonia they deliver through eWise. BCASA = row 1 (sewer, rain gauges) | — | Go through eWise; BCASA continues on its own request |
+| **Inkolan** (Spanish national equivalent) | Non-profit service-network information company; owners Telefónica, i-DE, e-distribución, Naturgy, Euskaltel, Nortegas, Consorcio de Aguas de Bilbao | Contractors, engineers, cities | Not stated; coverage of Catalonia not stated | Not needed: eWise is the Catalan one |
+| **Telecom "minimum information" right** (RD 330/2016) | Gas, electricity incl. public lighting, heating, sanitation (not drinking-water transport), telecom, transport | **Only operators of public electronic-communications networks** (art. 5.1) | — | Closed to us |
+| **Open Data BCN** | No underground dataset (checked 10 Nov, F3). The energy WMS holds street lamps and rooftop solar only | Open | — | Already exhausted |
+| **Topographic base maps** (surface hints: manhole covers, chambers, lamps) | Barcelona "Mapa base topogràfic" (resource `Topografic_1-1000`) as GPKG, CC BY 4.0 (feature classes not listed on the page). ICGC **Referència Topogràfica Local** (~1:1000, CC BY 4.0) has an "Energy and services" layer ("cabinets, pipes, streetlights and solar panels") | Open download | Free, now | **Check from the OMEN** which feature classes exist for Porta (Barcelona GPKG) and Mataró (RTL GPKG already on disk). Covers give positions of chambers, not of pipes |
+
+### 6.2 Proxies we can use now (sourced rules, no request needed)
+
+- **Sewer.** BCASA's *Guia de criteris tècnics generals de la xarxa de clavegueram* (v01, 30 Sep 2015): sewers "usualment discorre col·lineal amb l'eix de la calçada" (§3.1, p.3); **"No es permet el pas de xarxes de clavegueram sota línies d'arbres"** (§3.1 crit. 19, p.6); minimum cover 1.60 m under sidewalk, 1 m under carriageway (crit. 16, p.5); sewer deeper than every other service (crit. 17); each new house connection gets a manhole **on the sidewalk**, 40×40 cm up to 2.5 m deep, 70×70 cm deeper (§3.5.1 crit. 7, p.17); gullies on the gutter lines and upstream of pedestrian crossings (§3.3.b, p.9); separations to other services 50–70 cm recommended, 20–30 cm minimum (crit. 18 table, p.6). So the sewer main is not the constraint for a sidewalk pit; **house connections** are, and they run perpendicular from each building.
+- **Pits over services.** Parcs i Jardins *Plec de prescripcions tècniques per al disseny, l'execució i la recepció d'espais verds* (PTEV, rev. May 2024) §2.2.6.2, p.31: "no es podran situar parterres ni escocells a tocar de façanes ni sobre infraestructures soterrades existents" unless waterproofing and drainage are designed. §3.2 "Protecció dels serveis existents" (p.82) and §5.3.9 "Escocells" (p.116) were **not readable from the cloud**; read them on the PDF from the OMEN before using any distance.
+- **Possible tool rule (ASSUMPTION until §3.2 is read):** exclude added spots within a buffer of each building entrance (house connections of water, gas, electricity and sewer cross the sidewalk there) and of mapped lamps and chambers, as done for crossings and bus stops in `scripts/porta_spot_exclusions.py`. Report added spots as an upper bound either way.
+
+### 6.3 Validation cities, briefly
+
+- **Mataró.** eWise lists **Aigües de Mataró (AMSA)** for drinking water and sewerage in Mataró, plus Tubverd, Endesa, Nedgia and Telefónica for Catalonia: the same §6a route works there (AMSA's own service catalogue offers no plan-request service). The RTL GeoPackage already used for tree positions may hold the "Energy and services" surface layer: check on the OMEN.
+- **Florence.** The Comune's geographic-database catalogue (*Banche dati geografiche 2025*, amministrazione trasparente) lists **Enel buried low- and medium-voltage cable layers** ("Cavo interrato della linea a bassa/media tensione Enel") plus Enel high/medium-voltage cabins; no sewer, water or gas network layer in the catalogue. Ask Polistena (§6c). Sewer/water = Publiacqua. National: **SINFI** (Sistema Informativo Nazionale Federato delle Infrastrutture, MIMIT; new technical specs adopted by AgID, 20 Jul 2026); who may access it was not stated on the page read, so not counted on.
+
+### 6a. ACEFAT / eWise (Spanish; email to sau@acefat.com, cc ewise@acefat.com, from the IAAC inbox)
+
+> **Asunto:** Consulta: uso de eWise para una tesis de máster (Porta, Nou Barris)
+>
+> Buenos días:
+>
+> Soy Giovanni Carlo Volpe, estudiante del Máster en Advanced Computation for Architecture & Design (MaCAD) del Institute for Advanced Architecture of Catalonia (IAAC). Mi tesis desarrolla un método que propone especies y posiciones de arbolado viario en el barrio de Porta (Nou Barris), y los servicios del subsuelo condicionan dónde se puede plantar un árbol nuevo.
+>
+> Antes de darme de alta en eWise querría confirmar tres cosas:
+> 1. Si un estudiante puede usar eWise para una investigación académica sin obra asociada, y en qué condiciones de uso. Los planos no se publicarían ni se compartirían: solo se usarían, dentro de la tesis, para excluir posiciones de plantación demasiado cercanas a los servicios, y se borrarían al terminar.
+> 2. En qué formato se entregan los planos (PDF, DWG/DXF u otro) y qué compañías responden en Barcelona (en particular electricidad, gas, agua y alcantarillado).
+> 3. Si la primera consulta gratuita puede cubrir el ámbito de la reforma de las calles Santapau, Emili Roca y Desfar (unos 5.500 m²).
+>
+> Puedo aportar una carta del tutor de la tesis. Resido en Italia, por lo que todo el trámite tendría que ser en línea.
+>
+> Muchas gracias de antemano.
+>
+> Atentamente,
+> Giovanni Carlo Volpe
+> MaCAD, Institute for Advanced Architecture of Catalonia (IAAC)
+> giovanni.carlo.volpe@students.iaac.net
+
+### 6b. Ajuntament de Barcelona, access to public information (Catalan; Portal de Tràmits, "Sol·licitud d'accés a la informació pública", with Cl@ve). Backup only
+
+> **Exposo:** Sóc estudiant del màster MaCAD de l'IAAC i la meva tesi estudia la substitució i la plantació d'arbrat viari al barri de Porta (Nou Barris). Els serveis soterrats condicionen on es pot plantar un arbre nou.
+>
+> **Sol·licito**, d'acord amb la Llei 19/2014, de transparència, accés a la informació pública i bon govern:
+> 1. El projecte executiu de la reforma integral dels carrers de Santapau, Emili Roca i Desfar (Porta), en particular l'annex i els plànols de serveis existents i afectats i els plànols de planta d'arbrat.
+> 2. Si n'hi ha, la traça de la xarxa municipal d'enllumenat públic soterrada al barri de Porta, en qualsevol format (PDF, DWG o SIG).
+>
+> Si alguna part conté informació de tercers que no es pugui facilitar, demano l'accés parcial a la resta. La informació s'usarà només amb finalitat acadèmica i no es redistribuirà.
+
+### 6c. Comune di Firenze, SIT (Italian; add to the reply to dott. Polistena, §4, not a separate request)
+
+> P.S. Nel catalogo delle banche dati geografiche del Comune compaiono i layer Enel "Cavo interrato della linea a bassa tensione" e "a media tensione". Sarebbe possibile riceverli per la stessa area di Firenze Nova, alle stesse condizioni dell'accordo? Mi servirebbero solo per escludere le posizioni di nuovi alberi troppo vicine ai cavi. Se il Comune dispone anche della rete fognaria o sa a chi rivolgermi in Publiacqua, le sarei grato dell'indicazione.
+
+**Sources (opened 11 Nov 2026):** ACEFAT eWise services page (acefat.com/cas/servicios/servicios_existentes.html) and 2025 tariffs (acefat.com/cas/tarifas/eWise_servicios_afectados_tarifas_2025.html); *Projecte d'identificació de serveis existents al barri de la Trinitat Vella* (MOSE, Feb 2020, ajuntament.barcelona.cat/instituturbanisme); Ajuntament de Nou Barris news 19 Jan 2026 on the Santapau / Emili Roca / Desfar reform; BCASA *Guia de criteris tècnics generals de la xarxa de clavegueram* (v01, 30 Sep 2015, w110.bcn.cat); IMPJB PTEV rev. May 2024 (ajuntament.barcelona.cat/ecologiaurbana); RD 330/2016 (BOE-A-2016-8429) art. 3.5, 5.1; GAIP Resolució 697/2019 (art. 33 LTAIPBG, one month); Barcelona *Instrucció* on access to public information (bcnroc, GM_Instrucció_InfoPúb_consolidat); Inkolan press sheet (guiadeprensa.com, 2023); Open Data BCN "mapa-base-topografic"; ICGC Local Topographic Reference page; Comune di Firenze *Banche dati geografiche 2025*; AgID news on SINFI (20 Jul 2026); Aigües de Mataró service catalogue and PDCLAM '03 memòria.
