@@ -186,7 +186,9 @@ Run: `python -m shade_sponge porta --size=exact --trunk=SEGONA` → `databases/b
 
 The result is **267 spots: 142 small, 53 medium, 72 large.** This is an **upper bound**: driveways, crossings, bus stops, lamps and underground services are not in the data.
 
-**Update 26 Oct: OSM exclusions** (`scripts/porta_spot_exclusions.py`, `notes/sidewalk_width.md` "Spot exclusions"). Spots too close to crossings, traffic signals, parking entrances or bus stops are now dropped: **232 kept** (122 small, 42 medium, 68 large), 209–243 across the assumed clearances. `layout.planting_spots()` uses the kept ones. The A and R+A numbers below are from the **232-spot re-run (28 Oct, user's PC)**; the 24 Oct run on 267 spots gave R+A optimised 104.2% and R+A city rule 92.6% of today's summer shade.
+**Update 26 Oct: OSM exclusions** (`scripts/porta_spot_exclusions.py`, `notes/sidewalk_width.md` "Spot exclusions"). Spots too close to crossings, traffic signals, parking entrances or bus stops are now dropped: **232 kept** (122 small, 42 medium, 68 large), 209–243 across the assumed clearances. `layout.planting_spots()` uses the kept ones. The 28 Oct run on these 232 spots gave R+A optimised 103.5% and R+A city rule 91.8% of today's summer shade; the 24 Oct run on 267 spots gave 104.2% and 92.6%.
+
+**Update 11 Nov: city street objects** (`scripts/porta_spot_exclusions_city.py`, `notes/tutor_feedback_10nov.md` A3). Spots too close to a lamp, traffic-light column, sign support, bollard, bench or drinking fountain are dropped too: **152 kept** (82 small, 23 medium, 47 large). The lamp distance is half the 2011 guide's (`ASSUMPTION`, user decision 11 Nov: half of Porta's existing trees stand closer to a lamp than the guide allows); with the guide to the letter 116 spots remain. The A and R+A numbers below are from the **152-spot re-run (11 Nov, user's PC)**.
 
 **Run:** `scripts/run_additions.py` → `databases/barcelona/additions_summary.csv`. S1a has 5 seeds; Opt uses the balanced weights; both use the exact sizing rule and TERCERA traits. The cap is recomputed on the larger stock.
 
@@ -194,20 +196,20 @@ The result is **267 spots: 142 small, 53 medium, 72 large.** This is an **upper 
 |---|---|---|---|---|
 | R, city rule | 87.3 | 100.5 | +54.4 | −1.8 |
 | R, optimised | 98.3 | 106.8 | +20.2 | −1.1 |
-| A, city rule | 103.9 | 103.4 | −14.5 | +0.5 |
-| A, optimised | 105.6 | 106.2 | −22.1 | +0.6 |
-| R+A, city rule | 91.8 | 105.3 | +38.3 | −1.3 |
-| R+A, optimised | **103.5** | 111.2 | −1.4 | −0.5 |
+| A, city rule | 102.6 | 102.2 | −9.4 | +0.3 |
+| A, optimised | 103.6 | 103.8 | −14.2 | +0.4 |
+| R+A, city rule | 90.1 | 103.3 | +44.1 | −1.5 |
+| R+A, optimised | **101.7** | 109.3 | +6.2 | −0.7 |
 
 **Reading:**
-- **Of the scenarios that replace the planes, only R+A optimised ends above today's summer shade (103.5%).** The city's rule with the same additions stays below (91.8%). Adding trees while keeping the planes (A) ends higher still (103.9% city rule, 105.6% optimised), but A is not the city's policy: the planes are being replaced.
-- **Additions alone add little through species choice** (+1.7 points over the city's rule). 151 of the 232 spots are fixed to *Pyrus* in every layout: 122 narrow sidewalks, plus 29 wider ones where no larger crown clears the façade. So species choice acts on only 81 spots.
+- **Of the scenarios that replace the planes, only R+A optimised ends above today's summer shade (101.7%).** The city's rule with the same additions stays below (90.1%). Adding trees while keeping the planes (A) ends higher still (102.6% city rule, 103.6% optimised), but A is not the city's policy: the planes are being replaced.
+- **Additions alone add little through species choice** (+1.1 points over the city's rule). 103 of the 152 spots are fixed to *Pyrus* in every layout: 82 narrow sidewalks, plus 21 wider ones where no larger crown clears the façade. So species choice acts on only 49 spots.
 - **Every runoff difference stays within ±Δmin (91 m³).**
 - **Canopy stays below today in R and R+A, but the gap is smaller with optimised species.** The disc model is conservative here (see the S1a section).
 
 **Caveats:**
 - Heat is the shade proxy, and the trees are scored at TERCERA size.
-- The spots are a ceiling, not a plan. Spots near OSM crossings, traffic signals, parking entrances and bus stops are already dropped. Not modelled: driveways without a parking entrance (> 1 m), signs (> 3 m), lamps (3 / 4.5 / 6.5 m), balcony clearance (0.5 m) and services.
+- The spots are a ceiling, not a plan. Spots near OSM crossings, traffic signals, parking entrances and bus stops, and near the city's lamps, sign supports, traffic-light columns, bollards, benches and fountains, are already dropped. Not modelled: driveways without a parking entrance (> 1 m), balcony clearance (0.5 m) and underground services (no open data, `notes/tutor_feedback_10nov.md` A3).
 - A new spot is spaced by its own class only, so a small spot can sit 7–13 m from an existing large tree. This slightly overstates the count.
 - R scores 832 positions; S0 has 809 planes with good LiDAR crowns.
 
@@ -215,9 +217,9 @@ The result is **267 spots: 142 small, 53 medium, 72 large.** This is an **upper 
 **The gap:** Porta's measured cover is 20.1% (LiDAR CHM > 2 m, 2021; `databases/barcelona/porta_canopy_cover.csv`), against the plan's 30%. That is **9.9 points, about 8.3 ha of crowns**.
 
 **What street trees can close** (from the additions run above, disc model):
-- **All 232 free spots, optimised species:** **+0.62 pts**, reaching about **20.7%**, so about 6% of the gap. With the city's mix: +0.51 pts. (On the 267 spots of 24 Oct: +0.70 and +0.59.)
-- **Crown per new tree:** each optimised new tree adds on average about 22 m² of crown (0.62% × 83.7 ha / 232).
-- **Trees needed:** closing the gap would take about **3,700 street trees** of that size. That is 16 times the street spots found, which are themselves an upper bound.
+- **All 152 free spots, optimised species:** **+0.40 pts**, reaching about **20.5%**, so about 4% of the gap. With the city's mix: +0.33 pts. (On the 232 spots of 28 Oct: +0.62 and +0.51; on the 267 spots of 24 Oct: +0.70 and +0.59.)
+- **Crown per new tree:** each optimised new tree adds on average about 22 m² of crown (0.40% × 83.7 ha / 152).
+- **Trees needed:** closing the gap would take about **3,800 street trees** of that size. That is 25 times the street spots found.
 
 **Reading:**
 - **Additions are the lever on cover, replacement is not.** Every replacement layout lowers cover, and every additions layout raises it.
