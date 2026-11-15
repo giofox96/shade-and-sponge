@@ -142,8 +142,21 @@ function addMask() {
   return mask
 }
 
+// sidewalk measuring rays (façade foot -> kerb) of the measured positions (i = position index) and kept trees
+let rays = null, raysOf = null
+function swRays() {
+  if (raysOf !== state.trees) {
+    const seg = (r) => [[r[0], r[1]], [r[2], r[3]]]
+    const p = state.trees.positions.sw_ray ?? [], k = state.trees.kept.sw_ray ?? []
+    rays = [...p.flatMap((r, i) => (r ? [{ i, path: seg(r) }] : [])), ...k.flatMap((r) => (r ? [{ i: -1, path: seg(r) }] : []))]
+    raysOf = state.trees
+  }
+  return rays
+}
+
 function layers() {
   if (!state.meta) return []
+  const { selected } = state
   const ov = state.meta.overlays.find((o) => o.id === state.overlay)
   const c = state.meta.site.corners
   return [
@@ -169,6 +182,12 @@ function layers() {
         getLineColor: (f) => (f.properties.kind === 'facade' ? themeColors.value.facade : themeColors.value.kerb),
         updateTriggers: { getLineColor: isDark.value },
         getLineWidth: (f) => (f.properties.kind === 'facade' ? 0.5 : 0.8), lineWidthUnits: 'meters', lineWidthMinPixels: 1.5 }),
+    // where each sidewalk width was measured: façade foot -> kerb, through the tree (scripts/porta_sidewalk_width.py)
+    state.showStreets &&
+      new PathLayer({ id: 'sidewalk-rays', data: swRays(), getPath: (d) => d.path, widthUnits: 'pixels', parameters: ON_TOP,
+        getWidth: (d) => (d.i === selected ? 3 : 1),
+        getColor: (d) => (d.i === selected ? themeColors.value.ringOn : [...hexToRgb(themeColors.value.muted), 150]),
+        updateTriggers: { getWidth: selected, getColor: [selected, isDark.value] } }),
     state.showStreets &&
       new ScatterplotLayer({ id: 'spots', data: state.trees.spots.lon.map((lon, i) => i), radiusUnits: 'meters',
         getPosition: (i) => [state.trees.spots.lon[i], state.trees.spots.lat[i], 0.2],
