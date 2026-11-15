@@ -78,10 +78,34 @@ def palette_names(kind):
         "species_lidar_summary.csv"
 
 
-def palette(site, kind="city", trunk=None):
+def removed(trees, spec=None):
+    """Which street trees leave their position, as a boolean mask over trees: the removed set is an input, the tool does not
+    decide which trees go (tutor feedback 10 Nov, notes/tutor_feedback_10nov.md A1). spec None = every plane (the validated
+    case); "all" = every street tree (worst case); else a CSV with tree_id and, optionally, action = keep | transplant |
+    replace (no action column = every listed tree is replaced). Trees not listed are kept: keep is the default.
+    ASSUMPTION: a transplanted tree leaves its position, which is replanted; where it lands is outside the tool."""
+    if spec is None:
+        return trees.is_plane.values
+    if spec == "all":
+        return np.ones(len(trees), bool)
+    m = pd.read_csv(spec)
+    if "action" in m:
+        act = m.action.str.strip().str.lower()
+        bad = sorted(set(act) - {"keep", "transplant", "replace"})
+        if bad:
+            raise ValueError(f"unknown action {bad} in {spec} (keep, transplant or replace)")
+        m = m[act != "keep"]
+    missing = set(m.tree_id) - set(trees.tree_id)
+    if missing:
+        raise ValueError(f"{len(missing)} tree_id in {spec} are not street trees of this site, e.g. {sorted(missing)[:3]}")
+    return trees.tree_id.isin(m.tree_id).values
+
+
+def palette(site, kind="city", trunk=None, gone=None):
     """Species traits = median of the species' LiDAR-measured trees (Porta only for 'city'; Porta + three city tiles
     for 'barcelona'; site.CITY_LIDAR overrides in both) and how many more each may get under the cap.
-    trunk (e.g. "TERCERA"): use the medians of the species' Porta trees in that trunk class instead (MIN_CLASS)."""
+    trunk (e.g. "TERCERA"): use the medians of the species' Porta trees in that trunk class instead (MIN_CLASS).
+    gone: mask of the trees that leave their position (removed); default = the planes. The cap counts the trees that stay."""
     names, summary = palette_names(kind)
     s = species_lidar(summary).loc[names]
     p = pd.DataFrame(dict(species=names, crown_diam_m=s.crown_diam_med.values, height_m=s.height_med.values,
@@ -105,7 +129,7 @@ def palette(site, kind="city", trunk=None):
                     p.loc[i, "trunk_class"] = cls if src is ok else f"{cls} (city)"
                     break
     t = site.trees
-    kept = t[~t.is_plane].sp.value_counts().reindex(names).fillna(0).values
+    kept = t[~(t.is_plane.values if gone is None else gone)].sp.value_counts().reindex(names).fillna(0).values
     p["cap"] = (np.floor(MAX_SHARE * len(t)) - kept).clip(0).astype(int)
     p["storm_leaf_factor"] = season.storm_factor(names).round(3)    # season-weighted share of full-leaf LAI in storms
     return p

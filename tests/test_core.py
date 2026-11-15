@@ -144,3 +144,21 @@ def test_s1b_mix_uses_only_palette_species():
     fit = np.ones((50, 2), bool)
     ch = layout.s1a_layout(pal, np.array([50, 50]), fit, np.random.default_rng(0), {"Celtis australis": 3, "Gleditsia triacanthos": 9})
     assert (ch == 0).all()
+
+
+def test_removed_set_is_an_input(tmp_path):
+    import pandas as pd, pytest
+    t = pd.DataFrame(dict(tree_id=["a", "b", "c", "d"], is_plane=[True, False, True, False]))
+    assert layout.removed(t).tolist() == [True, False, True, False]                 # default: the planes
+    assert layout.removed(t, "all").all()
+    f = tmp_path / "marks.csv"
+    f.write_text("tree_id,action\na,keep\nb,Replace\nd,transplant\n")
+    assert layout.removed(t, f).tolist() == [False, True, False, True]              # not listed (c) = kept
+    f.write_text("tree_id\nc\n")
+    assert layout.removed(t, f).tolist() == [False, False, True, False]             # no action column = replace
+    f.write_text("tree_id,action\na,fell\n")
+    with pytest.raises(ValueError):
+        layout.removed(t, f)
+    f.write_text("tree_id\nzz\n")
+    with pytest.raises(ValueError):
+        layout.removed(t, f)
