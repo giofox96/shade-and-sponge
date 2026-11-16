@@ -5,7 +5,7 @@ Output: slides/fig_v9/flow_00_overview.svg/.png, flow_07_highs.svg/.png. Run fro
 """
 import make_infographics as mi
 from make_infographics import t, rect, save, ROOT, INK, MUTED, GRID, BG, HEAT, RAIN, TREE, WARN
-from make_flowcharts import head, box, outline, curve, vline, caption, loop, i_heat, i_rain, i_layers, i_area, i_check, i_radar
+from make_flowcharts import head, box, outline, curve, vline, caption, loop, module, i_heat, i_rain, i_tree, i_layers, i_area, i_check, i_radar
 
 mi.OUT = ROOT / "slides/fig_v9"
 mi.OUT.mkdir(exist_ok=True)
@@ -132,6 +132,22 @@ def flow_highs():
          "called through SciPy. Example scores are illustrative.")
 
 
+def flow_validation():
+    """As make_flowcharts.flow_validation, without ENVI-met (paid licence, dropped 16 Nov): the second heat check is Infrared City."""
+    module("flow_05_validation", "5 · Validation", "Each module checked against something it was not fitted to",
+           [("Module", [("h", "icon", i_heat, "Heat", HEAT), ("w", "icon", i_rain, "Runoff", RAIN), ("p", "icon", i_tree, "Priority", TREE)]),
+            ("Check", [("h1", "box", "Proxy vs Ladybug", HEAT, "same layouts"), ("h2", "box", "Proxy vs Infrared City", HEAT, "UTCI, final layouts"),
+                       ("w1", "box", "Interception data", RAIN, "Freiburg, Anys & Weiler 2024"), ("p1", "box", "Removed trees", TREE, "inventory snapshots")]),
+            ("Transfer", [("tr", "box", "Sant Antoni", INK, "same city · tool already run"), ("mt", "box", "Mataró", INK, "Catalan city, ICGC LiDAR"),
+                          ("fl", "box", "Florence", INK, "city LiDAR, 1,459 measured trees")]),
+            ("Verdict", [("v", "icon", i_check, "Verdict per hypothesis")])],
+           [("h", "h1"), ("h", "h2"), ("w", "w1"), ("p", "p1")] + [(c, t_) for c in ("h1", "h2", "w1", "p1") for t_ in ("tr", "mt", "fl")]
+           + [("tr", "v"), ("mt", "v"), ("fl", "v")],
+           "Thresholds are fixed before the runs: a difference below what the model resolves is reported as \"not resolved\".",
+           "Ladybug Tools; Infrared City; Anys & Weiler 2024.")
+
+
 if __name__ == "__main__":
     flow_overview()
     flow_highs()
+    flow_validation()

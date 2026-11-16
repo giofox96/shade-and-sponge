@@ -47,9 +47,9 @@ SLIDES = [
                      "PDISBA design storms; Anys & Weiler 2024 (interception); ICGC LiDAR 2021 (terrain).")),
     (None, fig_slide("slides/fig_v7/flow_01_screening.png", "Backup · City screening", "Indicators for every street-tree position",
                      "Open Data BCN street-tree inventory; ICGC LiDAR 2021; Mapa base topogràfic 1:1000; Barcelona Resilience Atlas.")),
-    (None, fig_slide("slides/fig_v7/flow_05_validation.png", "Backup · Validation plan",
+    (None, fig_slide("slides/fig_v9/flow_05_validation.png", "Backup · Validation plan",
                      "Each module checked against something it was not fitted to",
-                     "Mannucci et al. 2025; Anys & Weiler 2024.")),
+                     "Ladybug Tools; Infrared City; Anys & Weiler 2024.")),
 ]
 
 
