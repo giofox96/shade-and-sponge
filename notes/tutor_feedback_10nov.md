@@ -66,8 +66,8 @@ Each row: what is assumed, why it is bold, how it is softened. "Declare" means i
 | 15% species cap read locally | per study area | Plan: city-wide cap (`notes/tree_master_plan.md`) | City LP run exists (`notes/citywide_plan.md`) | Show both; say the local reading is stricter |
 | Cap counts street trees only | — | User decision 26 Oct | No | Revisit before final results |
 | Unmeasured positions get no size filter | 1,280 of 2,825 trees | No façade to measure from | Results can be split with / without | Report both |
-| Crown clearance = crown radius ≤ distance to building, no margin | — | None | No | One variant with a margin |
-| Hotspot capture distance | 100 m | None (stand-in for inlets) | Not found in the notes read tonight | Sensitivity 50 / 100 / 200 m, or drop when BCASA inlets arrive |
+| Crown clearance = crown radius ≤ distance to building, no margin | — | None | **Yes (16 Nov):** +1 m and +2 m; the method stays +7.6 / +8.4 points of today's summer shade above the city's practice (S1b), 96.5 / 93.8% of today | Declared; ranking holds |
+| Hotspot capture distance | 100 m | None (stand-in for inlets) | **Yes (16 Nov):** 50 / 100 / 200 m; summer shade 98.3–98.4% of today vs 90.4% for S1b at every distance; hotspot runoff −0.4% vs S1b; absolute hotspot runoff 2,201 / 2,701 / 3,653 m³ (the distance sets how much ground counts) | Declared; ranking holds; drop when inlets are known |
 | Curve numbers | 98 sealed, 74 pervious | TR-55, HSG C assumed | Not found | Declare |
 | Leafless crown opacity | 0.35 | McPherson 1984; Heisler 1982/84 | Range 0.25–0.54 stated | Keep range on the slide |
 | Leafless canopy storage ratio | 0.5 | Herbst et al. 2008; Xiao et al. 2000 | Range 0.3–0.7 stated | Same |
@@ -75,6 +75,8 @@ Each row: what is assumed, why it is bold, how it is softened. "Declare" means i
 | Extinction coefficient K | 0.5 | Peng et al. 2026 | No; not tagged in `heat.py` | Tag and declare (`notes/methodology.md` §12.3) |
 | Replacement-priority proxy | equal weights | None | Not validated | Keep out of the headline results |
 | Spot clearances (crossings 3 m, bus stops 8 m) | — | 2011 guide for signals; rest assumed | Yes: 209–243 spots | Done |
+
+Sensitivity of the two untested rows: `scripts/sensitivity_capture_margin.py` → `databases/barcelona/sensitivity_capture_margin.csv` (Porta, thesis configuration, balanced layout vs S1b 10 seeds; the 100 m / no-margin row reproduces the published balanced layout). The assumptions slide of the 17 Nov deck (`slides/methodology_17nov.pptx`) is this table in short.
 
 ⬜ Next pass: complete the "Tested?" column from `shade_sponge/README.md` and the decision notes, then turn the table into one slide and one thesis table (ch. 5).
 
