@@ -157,7 +157,7 @@ def area_map(row, fname):
         cnt = q[f"sp_{k}"].value_counts()
         ax.legend(handles=[Patch(color=col[s], label=f"{short(s)} ({n})") for s, n in cnt.head(4).items()] +
                   ([Patch(color="#999999", label=f"other ({cnt.iloc[4:].sum()})")] if len(cnt) > 4 else []),
-                  loc="upper center", bbox_to_anchor=(0.5, -0.01), ncol=2, frameon=False, fontsize=9.5)
+                  loc="upper left", bbox_to_anchor=(0, -0.01), ncol=1, borderaxespad=0, handlelength=1.2, frameon=False, fontsize=9.5)
     axes[0].plot([bb[0] + 5, bb[0] + 25], [bb[1] + 5] * 2, color=INK, lw=2)
     axes[0].text(bb[0] + 15, bb[1] + 7, "20 m", ha="center", fontsize=8, color=INK)
     fig.tight_layout()
