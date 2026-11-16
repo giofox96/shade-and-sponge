@@ -1,0 +1,13 @@
+set,age,n,alive,gone,species_changed
+all replacements,<1,1420,0.941,0.053,0.006
+all replacements,1-2,1996,0.913,0.07,0.017
+all replacements,2-3,280,0.746,0.15,0.104
+all replacements,3-5,2153,0.795,0.152,0.053
+all replacements,5+,4789,0.686,0.213,0.101
+all replacements,all,10976,0.793,0.146,0.061
+back-test,<1,97,0.959,0.0,0.041
+back-test,1-2,82,1.0,0.0,0.0
+back-test,2-3,48,0.896,0.083,0.021
+back-test,3-5,101,0.871,0.129,0.0
+back-test,5+,57,0.684,0.175,0.14
+back-test,all,385,0.896,0.07,0.034
