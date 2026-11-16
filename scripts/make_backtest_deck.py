@@ -28,7 +28,10 @@ r = pd.read_csv(DB / "backtest_works.csv")
 p = pd.read_csv(DB / "backtest_works_positions.csv")
 ORIGIN = json.load(open(ROOT / "exchange/site_origin.json"))
 SPCOL = ["#3F663E", "#283F66", "#8C6A24", "#663825", "#6B8F5E", "#5B7DB1", "#C29A4A", "#9C5B43", "#7E6B8F", "#4F8A8B"]
-r["gain"] = r.summer_pct_method_bal - r.summer_pct_city
+for k in ("before", "city", "method_bal"):                 # summer shade per replaced position, m²·h per tree
+    r[f"pt_{k}"] = (r[f"shade_summer_{k}"] - r.shade_summer_none) / r.n
+r["gain"] = 100 * (r.pt_method_bal / r.pt_city - 1)     # method vs city, % (the % of the removed trees' shade explodes
+                                                        # where the removed trees were small, so it is not the headline)
 r["hot_vs_city"] = r.runoff_hot_method_bal - r.runoff_hot_city
 r["tot_vs_city"] = r.runoff_method_bal - r.runoff_city
 r["label"] = r.barri.str.replace("-", " ").str.title().str.replace(" I ", " i ").str.replace(" De ", " de ").str.replace(" L ", " l'") \
@@ -52,7 +55,7 @@ def overview():
     ax.set_axis_off()
     ax.set_aspect("equal")
     cb = fig.colorbar(s, ax=ax, shrink=0.55, pad=0.01)
-    cb.set_label("Method − city, summer shade (points)", color=INK, fontsize=9)
+    cb.set_label("Method vs city, summer shade (%)", color=INK, fontsize=9)
     cb.outline.set_visible(False)
     for n in (10, 20, 30):
         ax.scatter([], [], s=n * 9, color="none", edgecolor=INK, label=f"{n} trees")
@@ -88,8 +91,8 @@ def area_map(row, fname):
     trees = trees[near] if len(trees) else trees
     allsp = pd.concat([q.sp_before, q.sp_city, q.sp_method_bal]).value_counts().index
     col = {s: SPCOL[i % len(SPCOL)] for i, s in enumerate(allsp)}
-    panels = (("before", "Removed", None), ("city", "City planted", row.summer_pct_city),
-              ("method_bal", "Method", row.summer_pct_method_bal))
+    panels = (("before", "Removed", row.pt_before), ("city", "City planted", row.pt_city),
+              ("method_bal", "Method", row.pt_method_bal))
     fig, axes = plt.subplots(1, 3, figsize=(13, 4.9), dpi=200)
     for ax, (k, ttl, pct) in zip(axes, panels):
         bld.plot(ax=ax, color="#D3CEC2", edgecolor="none")
@@ -101,7 +104,7 @@ def area_map(row, fname):
         ax.set_ylim(bb[1], bb[3])
         ax.set_aspect("equal")
         ax.set_axis_off()
-        sub = "" if pct is None else f"  ·  summer shade {pct:.0f}%"
+        sub = f"  ·  {pct:,.0f} m²·h per tree"
         ax.set_title(ttl + sub, loc="left", fontsize=13, color=INK, fontweight="bold")
         cnt = q[f"sp_{k}"].value_counts()
         ax.legend(handles=[Patch(color=col[s], label=f"{short(s)} ({n})") for s, n in cnt.head(4).items()] +
@@ -142,23 +145,23 @@ def s_test(s):
 
 
 def s_summary(s):
-    head(s, "Summer shade: the new trees against the trees they replaced",
-         "Shade of the new trees as a share of the removed trees' shade, at equal trunk size; one bar pair per works area")
+    head(s, "Summer shade per new tree: city vs method",
+         "m²·h of summer shade (12–17 h) per replaced position, at equal trunk size; one bar pair per works area")
     d = r.sort_values("gain")
     cd = CategoryChartData()
     cd.categories = list(d.label)
-    cd.add_series("City planted", list(d.summer_pct_city.round(0)))
-    cd.add_series("Method", list(d.summer_pct_method_bal.round(0)))
+    cd.add_series("City planted", list(d.pt_city.round(0)))
+    cd.add_series("Method", list(d.pt_method_bal.round(0)))
     ch = s.shapes.add_chart(XL_CHART_TYPE.BAR_CLUSTERED, Inches(M), Inches(1.45), Inches(8.3), Inches(5.55), cd).chart
     style_chart(ch, [GRID, TREE], labels=False, size=9)
     quiet_axes(ch, 0, gridlines=True)
     ch.plots[0].gap_width, ch.plots[0].overlap = 40, 0
-    ch.value_axis.tick_labels.number_format, ch.value_axis.tick_labels.number_format_is_linked = '0"%"', False
-    wins = int((r.gain > 0.5).sum())
-    card(s, 9.2, 1.55, 3.6, 1.6, f"{r.summer_pct_city.median():.0f}% → {r.summer_pct_method_bal.median():.0f}%",
-         "median, city → method", TREE, 30, 13)
+    ch.value_axis.tick_labels.number_format, ch.value_axis.tick_labels.number_format_is_linked = '#,##0', False
+    wins = int((r.gain > 1).sum())
+    card(s, 9.2, 1.55, 3.6, 1.6, f"{r.pt_city.median():,.0f} → {r.pt_method_bal.median():,.0f}",
+         "m²·h per tree, median: city → method", TREE, 30, 13)
     card(s, 9.2, 3.3, 3.6, 1.6, f"{wins} of {len(r)}", "areas where the method gives more summer shade", TREE, 30, 13)
-    card(s, 9.2, 5.05, 3.6, 1.6, f"+{r.gain.median():.0f} pts", "median gain over the city's choice", TREE, 30, 13)
+    card(s, 9.2, 5.05, 3.6, 1.6, f"{r.gain.median():+.0f}%", "median change vs the city's choice", TREE, 30, 13)
     source(s, SRC)
 
 
