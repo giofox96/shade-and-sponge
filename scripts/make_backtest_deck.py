@@ -41,7 +41,7 @@ SRC = ("Ajuntament de Barcelona, Open Data BCN: street-tree inventory, 35 quarte
 
 
 def short(sp):
-    g, *rest = sp.split()
+    g, *rest = [w for w in sp.split() if w not in ("×", "x")]
     return f"{g[0]}. {rest[0]}" if rest else g
 
 
@@ -50,7 +50,7 @@ def overview():
     g = gpd.read_file(ROOT / "web/public/data/barris.geojson").to_crs(25831)
     fig, ax = plt.subplots(figsize=(7, 6.2), dpi=200)
     g.plot(ax=ax, color="#E6E2D8", edgecolor="#FFFFFF", linewidth=0.6)
-    s = ax.scatter(r.x, r.y, s=r.n * 9, c=np.clip(r.gain, -40, 40), cmap="BrBG", vmin=-40, vmax=40,
+    s = ax.scatter(r.x, r.y, s=r.n * 9, c=np.clip(r.gain, -100, 100), cmap="BrBG", vmin=-100, vmax=100,
                    edgecolor=INK, linewidth=0.6, zorder=3)
     ax.set_axis_off()
     ax.set_aspect("equal")
@@ -161,7 +161,8 @@ def s_summary(s):
     card(s, 9.2, 1.55, 3.6, 1.6, f"{r.pt_city.median():,.0f} → {r.pt_method_bal.median():,.0f}",
          "m²·h per tree, median: city → method", TREE, 30, 13)
     card(s, 9.2, 3.3, 3.6, 1.6, f"{wins} of {len(r)}", "areas where the method gives more summer shade", TREE, 30, 13)
-    card(s, 9.2, 5.05, 3.6, 1.6, f"{r.gain.median():+.0f}%", "median change vs the city's choice", TREE, 30, 13)
+    tot = 100 * ((r.pt_method_bal * r.n).sum() / (r.pt_city * r.n).sum() - 1)
+    card(s, 9.2, 5.05, 3.6, 1.6, f"{tot:+.0f}%", f"all {r.n.sum()} positions together, method vs city", TREE, 30, 13)
     source(s, SRC)
 
 
@@ -213,6 +214,8 @@ def s_limits(s):
                                                  "scored as planted, even where it does not.", {})],
         [("Unknown reasons. ", {"bold": True}), ("The inventory says what changed, not why: pests, drought or a design choice "
                                                  "may have ruled species out.", {})],
+        [("Missing crowns. ", {"bold": True}), ("Species with too few LiDAR-measured trees take the city's average crown; "
+                                                "for the shrubby Tecoma stans (Poble-sec 2019) this overstates the city's shade.", {})],
         [("Proxy. ", {"bold": True}), ("Heat is the shade proxy; full UTCI only on selected layouts (Ladybug, Infrared City).", {})]],
         17, INK)
     source(s, SRC)
@@ -223,8 +226,10 @@ SAY = {
             "more trees changed species in the same quarter. I kept the ones that look like real plantings, and where I have LiDAR "
             "crowns. For each one I froze every other tree, and gave the same positions two answers: what the city actually "
             "planted, and what the method would have chosen under the city's rules.",
-    "summary": "This is the result. For each works area, the shade of the new trees as a share of what the removed trees gave, at "
-               "the same trunk size. Grey is the city's choice, green the method's.",
+    "summary": "This is the result: summer shade per new tree, at the same trunk size, the city's choice in grey and the "
+               "method's in green. The method gives more shade in 17 of the 27 areas. Where it loses, the sidewalks are narrow and "
+               "only small species fit, so both choices give little shade and the gap is small. Where it wins, the gap is large, "
+               "for example in Porta, where the city replaced poplars with ash.",
     "runoff": "On runoff the method has to do no harm. These are the differences towards the flood hotspots.",
     "species": "What differs is the species mix: here are the species removed, planted by the city, and chosen by the method.",
     "limits": "The main limit: all trees are compared at the same size, so this compares species, not the years a young tree "
@@ -235,18 +240,22 @@ SAY = {
 def build():
     overview()
     home = r[r.barri == "porta"].sort_values("n").iloc[-1] if (r.barri == "porta").any() else r.iloc[0]
-    rest = r[r.group != home.group]
+    rest = r[(r.group != home.group) & ~r.traits_src.fillna("").str.contains("pool TERCERA")]  # no crown sample: not an example
     best, worst = rest.sort_values("gain").iloc[-1], rest.sort_values("gain").iloc[0]
     ex = [("home", home), ("best", best), ("worst", worst)]
     for k, row in ex:
         area_map(row, f"map_{k}.png")
+        SAY[f"map_{k}"] = (f"{row.label}: {row.n} trees of {row.top_before} replaced in {row.quarter}. On the left what was removed, "
+                           f"in the middle what the city planted, mostly {row.top_city}, on the right what the method would have "
+                           f"chosen, mostly {row.top_method_bal}. Per tree: {row.pt_before:.0f}, {row.pt_city:.0f} and "
+                           f"{row.pt_method_bal:.0f} square-metre-hours of summer shade.")
 
     def sub(row):
         return (f"{row.n} trees, {row.quarter}: {short(row.top_before)} → city {short(row.top_city)}, "
                 f"method mostly {short(row.top_method_bal)}")
     slides = [(None, s_title), ("test", s_test), ("summary", s_summary)]
     slides += [(f"map_{k}", s_map(k, row, t + row.label, sub(row))) for (k, row), t in
-               zip(ex, ("Works in Porta, ", "Largest gain: ", "Smallest gain: "))]
+               zip(ex, ("Works in ", "Largest gain: ", "Where the city wins: "))]
     slides += [("runoff", s_runoff), ("species", s_species), ("limits", s_limits)]
     prs = Presentation()
     prs.slide_width, prs.slide_height = Inches(W), Inches(H)
