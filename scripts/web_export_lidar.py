@@ -9,7 +9,7 @@ from pyproj import Transformer
 sys.path.insert(0, ".")
 from shade_sponge.site import load_site, ROOT
 
-VOX = 1.5     # m: ASSUMPTION (display only; keeps the file near 10 MB)
+VOX = 2.0     # m: ASSUMPTION (display only; keeps the file near 10 MB)
 M_DEG = 40075016.686 / 360   # metres per degree on the Web Mercator sphere, as deck.gl places metre offsets
 GROUND, VEG, BLDG = (2, 8, 75), (3, 4, 5), (6,)   # as scripts/bcn_lidar_porta.py
 site = load_site("porta")
