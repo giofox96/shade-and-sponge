@@ -28,6 +28,8 @@ export const state = reactive({
   basemap: 'map', // 'map' (street map) | 'satellite' (ICGC orthophoto)
   ground3d: false, // relief from the site DTM (meta.terrain); trees, buildings and lines then sit on it
   terrain: null, // { w, h, z (Float32Array, m above the site's lowest point), bounds: [west, south, east, north] } once loaded
+  showLidar: false, // thinned LiDAR cloud (meta.lidar), loaded on first use
+  lidar: null, // { site, n, pos (Float32Array: east, north m from site.center, 0), z, hag (m), cls } once loaded
   month: 7,
   selected: null, // index into positions
   error: null,
@@ -98,6 +100,22 @@ export function groundZ(lon, lat) {
   const x0 = Math.min(Math.max(Math.floor(fx), 0), T.w - 2), y0 = Math.min(Math.max(Math.floor(fy), 0), T.h - 2)
   const ax = Math.min(Math.max(fx - x0, 0), 1), ay = Math.min(Math.max(fy - y0, 0), 1), k = y0 * T.w + x0
   return (T.z[k] * (1 - ax) + T.z[k + 1] * ax) * (1 - ay) + (T.z[k + T.w] * (1 - ax) + T.z[k + T.w + 1] * ax) * ay
+}
+// LiDAR points: lidar.bin.gz (python scripts/web_export_lidar.py), one point per 1.5 m cube
+export async function setLidar(on) {
+  const L = state.meta?.lidar
+  if (on && L && state.lidar?.site !== state.site) {
+    let buf = await (await fetch(dataUrl(L.file))).arrayBuffer()
+    const head = new Uint8Array(buf, 0, 2)
+    if (head[0] === 0x1f && head[1] === 0x8b) // still gzipped (static hosts); dev servers may already have decoded it
+      buf = await new Response(new Blob([buf]).stream().pipeThrough(new DecompressionStream('gzip'))).arrayBuffer()
+    const n = L.n, e = new Int16Array(buf, 0, n), no = new Int16Array(buf, 2 * n, n)
+    const zr = new Uint16Array(buf, 4 * n, n), hg = new Uint16Array(buf, 6 * n, n)
+    const pos = new Float32Array(3 * n), z = new Float32Array(n), hag = new Float32Array(n)
+    for (let i = 0; i < n; i++) { pos[3 * i] = e[i] / 10; pos[3 * i + 1] = no[i] / 10; z[i] = zr[i] / 10; hag[i] = hg[i] / 10 }
+    state.lidar = markRaw({ site: state.site, n, pos, z, hag, cls: new Uint8Array(buf, 8 * n, n) })
+  }
+  state.showLidar = on && !!state.lidar
 }
 export async function setGround3d(on) {
   if (on) await loadTerrain()

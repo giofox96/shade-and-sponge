@@ -8,13 +8,14 @@ import { Map as MapLibreMap, NavigationControl, setWorkerUrl } from 'maplibre-gl
 import workerUrl from 'maplibre-gl/dist/maplibre-gl-worker.mjs?url' // v6 looks for the worker next to its module; Vite moves it
 import 'maplibre-gl/dist/maplibre-gl.css'
 import { MapboxOverlay } from '@deck.gl/mapbox'
-import { BitmapLayer, GeoJsonLayer, PathLayer, PolygonLayer, ScatterplotLayer } from '@deck.gl/layers'
+import { COORDINATE_SYSTEM } from '@deck.gl/core'
+import { BitmapLayer, GeoJsonLayer, PathLayer, PointCloudLayer, PolygonLayer, ScatterplotLayer } from '@deck.gl/layers'
 import { SimpleMeshLayer } from '@deck.gl/mesh-layers'
 import { TileLayer } from '@deck.gl/geo-layers'
 import { _TerrainExtension as TerrainExtension } from '@deck.gl/extensions'
 import { SphereGeometry } from '@luma.gl/engine'
 import { state, dataUrl, hexToRgb, currentLayout, addTreeAt, addVertex, keptReplaced, themeColors, isDark, AREA, addableMask, finishArea,
-  cancelDrawing, finishEditArea, cancelEditArea, groundZ, setGround3d, ORTO } from '../store.js'
+  cancelDrawing, finishEditArea, cancelEditArea, groundZ, setGround3d, setLidar, ORTO } from '../store.js'
 
 setWorkerUrl(workerUrl)
 const el = ref(null)
@@ -28,16 +29,34 @@ const up = (q, dz = 0) => [q[0], q[1], groundZ(q[0], q[1]) + dz] // a lon/lat po
 // where a click or drag meets the ground: on the relief the flat-map coordinate would be off by height × tan(pitch)
 const at = (info) => (state.ground3d && overlay?.pickObject({ x: info.x, y: info.y, unproject3D: true, layerIds: ['terrain'] })?.coordinate) || info.coordinate
 
-// 3D ground: the DTM grid as one mesh (a vertex per cell, lon/lat/height), with normals so the slopes are shaded
+// metres east and north of the site centre, as deck.gl places METER_OFFSETS (Web Mercator sphere)
+const M_DEG = 40075016.686 / 360
+const local = () => ({ coordinateSystem: COORDINATE_SYSTEM.METER_OFFSETS, coordinateOrigin: [...state.meta.site.center, 0] })
+
+// LiDAR points: on the flat map a point sits at its height above ground, on the relief at its true height
+const LIDAR_RGB = [[150, 128, 104], [70, 140, 60], [196, 120, 92], [120, 120, 120]] // ground, vegetation, building, other
+let cloud = null, cloudOf = null
+function lidarData() {
+  const L = state.lidar, key = `${L.site}:${state.ground3d}`
+  if (cloudOf !== key) {
+    const pos = new Float32Array(L.pos), col = new Uint8Array(3 * L.n), h = state.ground3d ? L.z : L.hag
+    for (let i = 0; i < L.n; i++) { pos[3 * i + 2] = h[i]; col.set(LIDAR_RGB[L.cls[i]], 3 * i) }
+    cloud = { length: L.n, attributes: { getPosition: { value: pos, size: 3 }, getColor: { value: col, size: 3 } } }
+    cloudOf = key
+  }
+  return cloud
+}
+
+// 3D ground: the DTM grid as one mesh (a vertex per cell: metres east, north, up), with normals so the slopes are shaded
 let relief = null, reliefOf = null
 function reliefMesh() {
   const T = state.terrain
   if (reliefOf === T) return relief
-  const { w, h, z } = T, [W, S, E, N] = T.bounds
-  const dx = ((E - W) / w) * 111320 * Math.cos((S * Math.PI) / 180), dy = ((N - S) / h) * 110540 // cell size, m
+  const { w, h, z } = T, [W, S, E, N] = T.bounds, [lon0, lat0] = state.meta.site.center, kx = M_DEG * Math.cos((lat0 * Math.PI) / 180)
+  const dx = ((E - W) / w) * kx, dy = ((N - S) / h) * M_DEG // cell size, m
   const pos = new Float32Array(w * h * 3), nor = new Float32Array(w * h * 3), idx = new Uint32Array((w - 1) * (h - 1) * 6)
   for (let j = 0, k = 0; j < h; j++) for (let i = 0; i < w; i++, k++) {
-    pos.set([W + ((i + 0.5) / w) * (E - W), N - ((j + 0.5) / h) * (N - S), z[k]], 3 * k)
+    pos.set([(W + ((i + 0.5) / w) * (E - W) - lon0) * kx, (N - ((j + 0.5) / h) * (N - S) - lat0) * M_DEG, z[k]], 3 * k)
     const gx = (z[k + (i < w - 1)] - z[k - (i > 0)]) / dx, gy = (z[k - (j > 0) * w] - z[k + (j < h - 1) * w]) / dy // twice the slope, east and north
     const l = Math.hypot(gx / 2, gy / 2, 1)
     nor.set([-gx / 2 / l, -gy / 2 / l, 1 / l], 3 * k)
@@ -227,7 +246,7 @@ function layers() {
   return [
     // 3D ground: the relief, then the basemap drawn on it (the MapLibre basemap below stays flat, outside the site)
     g3 &&
-      new SimpleMeshLayer({ id: 'terrain', data: [0], mesh: reliefMesh(), _instanced: false, getPosition: [0, 0, 0], pickable: true,
+      new SimpleMeshLayer({ id: 'terrain', data: [0], mesh: reliefMesh(), _instanced: false, getPosition: [0, 0, 0], pickable: true, ...local(),
         getColor: themeColors.value.ground, updateTriggers: { getColor: isDark.value }, operation: 'terrain+draw' }),
     g3 &&
       new TileLayer({ id: 'ground-tiles-' + state.basemap + isDark.value, data: state.basemap === 'satellite' ? ORTO : themeColors.value.raster,
@@ -276,6 +295,8 @@ function layers() {
       new PolygonLayer({ id: 'area', data: [state.area.poly], getPolygon: (d) => d, stroked: false, filled: true, ...drape(),
         getFillColor: [...themeColors.value.area, 30] }),
     ...crowns(),
+    state.showLidar && state.lidar &&
+      new PointCloudLayer({ id: 'lidar', data: lidarData(), ...local(), pointSize: 2, sizeUnits: 'pixels', material: false }),
     // the project-area outline and the corners being drawn go over buildings and crowns (no depth test)
     state.area && !state.editing &&
       new PathLayer({ id: 'area-line', data: [[...state.area.poly, state.area.poly[0]]], getPath: (d) => d, parameters: ON_TOP, ...drape(),
@@ -345,7 +366,7 @@ onMounted(() => {
 
 watch(
   () => [state.scenarioId, state.live?.version, state.area?.version, state.area, state.drawing, state.draft, state.overlay, state.showStreets, isDark.value,
-    state.month, state.selected, state.addedVersion, state.buildingOpacity, state.addMode, state.editing, state.ground3d, state.basemap, state.meta],
+    state.month, state.selected, state.addedVersion, state.buildingOpacity, state.addMode, state.editing, state.ground3d, state.basemap, state.meta, state.showLidar],
   () => overlay?.setProps({ layers: layers() }),
 )
 
@@ -353,7 +374,7 @@ watch(
 watch(() => [isDark.value, state.basemap], () => map?.setStyle(style()))
 
 // another site or palette: its own relief file
-watch(() => state.meta, (m) => m && state.ground3d && setGround3d(true))
+watch(() => state.meta, (m) => { if (m && state.ground3d) setGround3d(true); if (m && state.showLidar) setLidar(true) })
 
 // a new project area: frame it (keeps the current pitch and bearing)
 watch(() => state.area?.poly, (poly) => {

@@ -2,7 +2,7 @@
 // Icon column on the right edge of the map: one button per map layer, grouped in pills. A dot marks a layer that is on;
 // the tooltip gives name, state and action. "More" opens the month (leaf calendar) and building-opacity tools.
 import { ref } from 'vue'
-import { state, MONTHS, setGround3d } from '../store.js'
+import { state, MONTHS, setGround3d, setLidar } from '../store.js'
 import Icon from './Icon.vue'
 
 const more = ref(false)
@@ -27,6 +27,11 @@ const hint = (on) => (on ? 'Visible on map · click to hide' : 'Hidden · click 
         <Icon name="satellite" /><i v-if="state.basemap === 'satellite'" class="dot"></i>
         <span class="tt"><b>Aerial photo</b>{{ state.basemap === 'satellite' ? 'On · click for the street map' : 'Street map · click for the aerial photo' }}
           <em>Orthophoto of Catalonia, ICGC.</em></span>
+      </button>
+      <button v-if="state.meta.lidar" class="tb" :aria-pressed="state.showLidar" aria-label="LiDAR points" @click="setLidar(!state.showLidar)">
+        <Icon name="points" /><i v-if="state.showLidar" class="dot"></i>
+        <span class="tt"><b>LiDAR points</b>{{ state.showLidar ? 'Visible on map · click to hide' : 'Hidden · click to show' }}
+          <em>The laser scan behind the crowns, building heights and ground (ICGC, flown 26 Sept 2021), thinned to one point per {{ state.meta.lidar.voxel_m }} m cube: {{ state.meta.lidar.n.toLocaleString('en') }} points. Brown = ground, green = vegetation, red = buildings.</em></span>
       </button>
     </div>
     <div class="pill">
