@@ -48,6 +48,7 @@ BAL, SUM = (0.5, 0.25, 0.25), (1.0, 0.0, 0.0)
 
 
 GUIDE = "--rule" in sys.argv and sys.argv[sys.argv.index("--rule") + 1] == "guide"
+CAP_SMALL = "--cap-small" in sys.argv     # sensitivity: guide "small" species at most crown 4 m, height 6 m (2011 guide limits)
 
 
 def fit_matrix(site, pos, pal, layout):
@@ -156,6 +157,11 @@ def main():
             area = MultiPoint(xy).buffer(R_DOM)
             loc.domain = rasterize([(area, 1)], out_shape=site.domain.shape, transform=site.transform, fill=0).astype(bool)
             pal = layout.palette(site, "barcelona", "TERCERA", gone)
+            if CAP_SMALL:                # same capped sizes for the city's and the method's trees (traits_lookup reads pal)
+                sm = pal.species.map(lambda s: layout.SIZE_CLASS.get(s.replace("×", "x"), layout.SIZE_CLASS.get(s))) == "small"
+                pal.loc[sm, "crown_diam_m"] = pal.loc[sm, "crown_diam_m"].clip(upper=4.0)
+                pal.loc[sm, "height_m"] = pal.loc[sm, "height_m"].clip(upper=6.0)
+                pal.loc[sm, "crown_base_m"] = np.minimum(pal.loc[sm, "crown_base_m"], pal.loc[sm, "height_m"] - 1.0)
             fit, fell = fit_matrix(site, pos, pal, layout)
             pot = {s: layout.shade_potential(loc, pos, pal, sun[s], lit[s], heat.SEASONS[s]["month"]) for s in sun}
             water = layout.water_potential(loc, pos, pal, p_mm)
@@ -190,7 +196,7 @@ def main():
                                  **{f"crown_{k}": get(lay[k][i])[0]["crown_diam_m"] for k in lay if k != "none"}))
             print(f"{slug} {r['quarter']} n={r['n']}: {r['top_before']} -> city {r['top_city']} "
                   f"{r['summer_pct_city']:.0f}% | method {r['top_method_bal']} {r['summer_pct_method_bal']:.0f}% of the removed trees' summer shade")
-    tag = "_guide" if GUIDE else ""
+    tag = ("_guide" if GUIDE else "") + ("_capsmall" if CAP_SMALL else "")
     pd.DataFrame(rows).round(3).to_csv(DB / f"backtest_works{tag}.csv", index=False)
     pd.DataFrame(prow).round(2).to_csv(DB / f"backtest_works{tag}_positions.csv", index=False)
 
