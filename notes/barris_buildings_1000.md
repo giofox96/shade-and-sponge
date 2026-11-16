@@ -47,3 +47,19 @@ Margins are the summer-shade share of today (S0) of the optimised layout with th
 - **Why S0 runoff falls (checked 13 Nov): the green areas, not the buildings.** The runoff change follows the change in pervious ground one to one (correlation −1.0 over the 32 barris; with the roof-share change 0.18). In 16 barris pervious ground rose by 1.5–22 points, because the 28–31 Oct runs lacked most of the OSM parks/gardens/grass layer: Overpass was down on 28–29 Oct and `site.py` then only prints a warning and goes on with NDVI alone (the batch-2 barris used a local extract, which may hold fewer green polygons; not checked one by one). Verified for Diagonal Mar: pervious 5.6% → 27.4% of the 122.7 ha domain, roofs 13.6% → 13.2%, S0 runoff −21%; rebuilding it with the new footprints but without OSM green gives 5.6% again, so the buildings are not the cause. In barris whose old run had the green layer the change is under 0.2 points (Sant Antoni: pervious 3.0% → 2.9%, runoff −0.0%; Porta −0.1%). Domain and grid are unchanged in every barri. The new values are the more correct ones: the model is meant to count OSM parks and grass as pervious. Sant Gervasi - la Bonanova (12.7% → 18.0%) is one of the 16.
 - la Verneda i la Pau and Sant Gervasi - la Bonanova were first rebuilt while Overpass was down; both were rerun on 13 Nov with the green layer.
 - Solved 15 Nov: the city-wide LP with the local ceiling (Porta + 27) was infeasible in el Camp de l'Arpa del Clot (the ceiling left Celtis 0 trees where 5 positions fit no other species). With the single-fit exception (user decision, 15 Nov) it is feasible; `citylp_*` tables and `slides/fig_v7/res_04`, `res_05` regenerated. City LP (Porta + 27 barris) rerun 15 Nov: medians, city LP summer shade 84.5 → 87.3% of today, city mix S1a 75.3 → 77.4%, gain over S1a 9.3 → 8.8 pts; winter shade 114.0 → 114.7%; hotspot runoff change +0.75 → +0.65%. The LP beats S1a in 27 of 28 barris, as before (the one that loses: Sant Gervasi - la Bonanova, 91.8 vs 92.6%). The Barcelona-palette (30 species) per-barri runs were not redone.
+
+## Barcelona palette (30 species) rerun on the 1:1000 footprints (15–16 Nov 2026)
+
+Run: `python -m shade_sponge "<barri>" --palette=barcelona --size=exact --trunk=TERCERA` for Porta + the 32 barris, site cache rebuilt first; the OSM green layer loaded from Overpass in all 33 (no NDVI-only fallback). All 33 runs ok (`barris/run_log_barcelona.csv`). "Before" = the 4 Nov results (b47e174). Tool = the optimised layout with the most summer shade; values are summer shade as a share of today (S0); S1a = city mix under the 30 palette (10 seeds), S1b = observed mix from `barris_summary.csv`. Medians over the 32 barris (`barris_summary_barcelona.csv`).
+
+| Median (32 barris) | Before | After |
+|---|---|---|
+| Tool summer shade, % of today | 90.9 | 91.2 |
+| Gain over S1a (pts) | 6.6 | 6.7 |
+| Gain over S1b (pts) | 14.5 | 14.7 |
+| Palette 30 minus palette 7 (pts) | 8.2 | 5.0 |
+
+**Reading.**
+- No sign changes against S1a or S1b: the 30-palette layout beats both in all 32 barris, before and after.
+- Per barri the 30-palette result barely moves (median change 0.0 pts; largest l'Antiga Esquerra de l'Eixample +1.4, les Tres Torres +0.7, Sant Martí de Provençals −0.3). Porta is unchanged (103.4%).
+- The palette-30 minus palette-7 difference falls (median 8.2 → 5.0 pts; range −2.2 to 14.8) because the palette-7 runs gained on the 1:1000 footprints, not because palette 30 lost. Barris where palette 30 is below palette 7: Sant Andreu (before and after) and now also Sant Gervasi - Galvany.
