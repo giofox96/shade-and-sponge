@@ -19,7 +19,7 @@ from pptx.chart.data import CategoryChartData  # noqa: E402
 from pptx.enum.chart import XL_CHART_TYPE  # noqa: E402
 from pptx.util import Inches  # noqa: E402
 from make_deck_editable import (text, box, head, source, picture, style_chart, quiet_axes, card, rgb, tint,  # noqa: E402
-                                W, H, M, BG, ROOT, INK, MUTED, GRID, TREE, RAIN, WARN)
+                                W, H, M, BG, ROOT, INK, MUTED, TREE, RAIN, WARN)
 
 DB = Path(sys.argv[1]) if len(sys.argv) > 1 else ROOT / "databases/barcelona"
 FIG = ROOT / "slides/fig_backtest"
@@ -40,6 +40,11 @@ r["label"] = r.barri.str.replace("-", " ").str.title().str.replace(" I ", " i ")
     .str.replace(" Del ", " del ").str.replace(" La ", " la ").str.replace(" Els ", " els ") + " " + r.quarter.str[2:4].radd("’")
 SRC = ("Ajuntament de Barcelona, Open Data BCN: street-tree inventory, 35 quarterly releases 2018–2026 (CC BY 4.0); ICGC LiDAR "
        "2021–2022; Gestió de l'arbrat viari de Barcelona (2011); Pla director de l'arbrat 2017–2037.")
+
+
+MIN_SP = 30                                              # plantings a species needs for its survival to be read
+import backtest_survival  # noqa: E402
+inv_norm = backtest_survival.ih_norm()
 
 
 def short(sp):
@@ -235,6 +240,34 @@ def s_species(s):
     source(s, SRC)
 
 
+def s_survival(s):
+    head(s, "Do the city's new trees survive?",
+         "Share of planted trees still standing with the same species in the 2026 Q3 inventory, by years since planting")
+    a = pd.read_csv(DB / "backtest_survival_age.csv")
+    sp = pd.read_csv(DB / "backtest_survival_species.csv").set_index("species")
+    ages = [x for x in a.age.unique() if x != "all"]
+    cd = CategoryChartData()
+    cd.categories = [f"{x} yr" for x in ages]
+    for k, lab in (("all replacements", "All city replacements"), ("back-test", "The 27 groups")):
+        cd.add_series(lab, [float(a[(a.set == k) & (a.age == x)].alive.iloc[0]) for x in ages])
+    ch = s.shapes.add_chart(XL_CHART_TYPE.COLUMN_CLUSTERED, Inches(M), Inches(1.55), Inches(7.6), Inches(5.0), cd).chart
+    style_chart(ch, [MUTED, WARN], fmt='0%', size=11)
+    quiet_axes(ch, 0, 1)
+    ch.value_axis.tick_labels.number_format, ch.value_axis.tick_labels.number_format_is_linked = '0%', False
+    tot = a[a.age == "all"].set_index("set")
+    card(s, 8.6, 1.55, 4.2, 1.6, f"{tot.alive['back-test']:.0%}", f"of the {tot.n['back-test']} trees the city planted in the "
+         "27 groups still stand", WARN, 30, 13)
+    n_ok = sp.n >= MIN_SP                                   # age-standardised survival of the species each layout uses
+    surv = {k: p[k].map(inv_norm).map(sp.alive_std.where(n_ok)) for k in ("sp_city", "sp_method_bal")}
+    card(s, 8.6, 3.3, 4.2, 1.6, f"{surv['sp_city'].mean():.0%} vs {surv['sp_method_bal'].mean():.0%}",
+         "expected survival of the species chosen: city vs method", TREE, 30, 13)
+    text(s, 8.6, 5.1, 4.2, 1.5, f"Expected survival = the species' share still standing over all city replacements, at a "
+         f"standard age mix. Species with fewer than {MIN_SP} plantings are left out "
+         f"({surv['sp_method_bal'].isna().mean():.0%} of the method's positions).", 11, MUTED)
+    source(s, "Ajuntament de Barcelona, Open Data BCN: street-tree inventory, quarterly releases 2018–2026 (CC BY 4.0). "
+              "A missing tree may be a re-survey, not a death.")
+
+
 def s_limits(s):
     head(s, "Limits of this back-test")
     text(s, M, 1.4, W - 2 * M, 5.2, [
@@ -269,6 +302,10 @@ SAY = {
                "for example in Porta, where the city replaced poplars with ash.",
     "runoff": "On runoff the method has to do no harm. These are the differences towards the flood hotspots.",
     "species": "What differs is the species mix: here are the species removed, planted by the city, and chosen by the method.",
+    "survival": "A real-world check no simulation gives: did the city's new trees survive? Nine in ten of the trees "
+                "planted in these groups still stand, with the same species, in the latest inventory; across all city "
+                "replacements it is eight in ten, falling to about seven in ten after five years. The species the method chooses "
+                "do not survive worse than the city's: on the species with enough plantings to judge, they do slightly better.",
     "limits": "The main limit: all trees are compared at the same size, so this compares species, not the years a young tree "
               "needs to grow.",
 }
@@ -293,7 +330,7 @@ def build():
     slides = [(None, s_title), ("test", s_test), ("works", s_works), ("summary", s_summary)]
     slides += [(f"map_{k}", s_map(k, row, t + row.label, sub(row))) for (k, row), t in
                zip(ex, ("Works in ", "Works, method wins: ", "Works, city wins: "))]
-    slides += [("runoff", s_runoff), ("species", s_species), ("limits", s_limits)]
+    slides += [("runoff", s_runoff), ("species", s_species), ("survival", s_survival), ("limits", s_limits)]
     prs = Presentation()
     prs.slide_width, prs.slide_height = Inches(W), Inches(H)
     for key, fn in slides:
