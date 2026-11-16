@@ -139,7 +139,7 @@ def area_map(row, fname):
     for ax, (k, ttl, pct) in zip(axes, panels):
         if kerb is not None and len(kerb):
             kerb.plot(ax=ax, color="#9A9488", linewidth=0.35, alpha=0.5, zorder=0)
-        bld.plot(ax=ax, color="#D3CEC2", edgecolor="none")
+        gpd.GeoSeries([bld.geometry.buffer(0.05).union_all()]).plot(ax=ax, color="#D3CEC2", edgecolor="none", linewidth=0)
         for x, y, d in zip(trees.x, trees.y, trees.crown_diam_m):
             ax.add_patch(Circle((x, y), max(d, 1) / 2, color="#B9B4A8", alpha=0.45, lw=0))
         for x, y, s, d in zip(q.x, q.y, q[f"sp_{k}"], q[f"crown_{k}"]):
