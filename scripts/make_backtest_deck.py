@@ -139,15 +139,15 @@ def area_map(row, fname):
     fig, axes = plt.subplots(1, 3, figsize=(13, 4.9), dpi=200)
     for ax, (k, ttl, pct) in zip(axes, panels):
         if kerb is not None and len(kerb):
-            kerb.plot(ax=ax, color="#9A9488", linewidth=0.9)
+            kerb.plot(ax=ax, color="#9A9488", linewidth=0.35, alpha=0.5, zorder=0)
         bld.plot(ax=ax, color="#D3CEC2", edgecolor="none")
         for x, y, d in zip(trees.x, trees.y, trees.crown_diam_m):
             ax.add_patch(Circle((x, y), max(d, 1) / 2, color="#B9B4A8", alpha=0.45, lw=0))
         for x, y, s, d in zip(q.x, q.y, q[f"sp_{k}"], q[f"crown_{k}"]):
             ax.add_patch(Circle((x, y), d / 2, facecolor=col[s], alpha=0.85, edgecolor="white", lw=0.6))
         for name, x, y, a, main in labels:
-            ax.text(x, y, name, rotation=a, rotation_mode="anchor", ha="center", va="center", fontsize=10 if main else 7.5,
-                    fontweight="bold" if main else "normal", color=INK if main else MUTED, zorder=5,
+            ax.text(x, y, name, rotation=a, rotation_mode="anchor", ha="center", va="center", fontsize=7.5,
+                    color=MUTED, zorder=5,
                     bbox=dict(facecolor=BG, edgecolor="none", alpha=0.75, pad=1.2))
         ax.set_xlim(bb[0], bb[2])
         ax.set_ylim(bb[1], bb[3])
@@ -156,9 +156,8 @@ def area_map(row, fname):
         sub = f"  ·  {pct:,.0f} m²·h per tree"
         ax.set_title(ttl + sub, loc="left", fontsize=13, color=INK, fontweight="bold")
         cnt = q[f"sp_{k}"].value_counts()
-        kl = [plt.Line2D([], [], color="#9A9488", lw=0.9, label="kerb")] if kerb is not None and len(kerb) else []
         ax.legend(handles=[Patch(color=col[s], label=f"{short(s)} ({n})") for s, n in cnt.head(4).items()] +
-                  ([Patch(color="#999999", label=f"other ({cnt.iloc[4:].sum()})")] if len(cnt) > 4 else []) + kl,
+                  ([Patch(color="#999999", label=f"other ({cnt.iloc[4:].sum()})")] if len(cnt) > 4 else []),
                   loc="upper center", bbox_to_anchor=(0.5, -0.01), ncol=2, frameon=False, fontsize=9.5)
     axes[0].plot([bb[0] + 5, bb[0] + 25], [bb[1] + 5] * 2, color=INK, lw=2)
     axes[0].text(bb[0] + 15, bb[1] + 7, "20 m", ha="center", fontsize=8, color=INK)
