@@ -26,6 +26,8 @@ FIG = ROOT / "slides/fig_backtest"
 FIG.mkdir(exist_ok=True)
 r = pd.read_csv(DB / "backtest_works.csv")
 p = pd.read_csv(DB / "backtest_works_positions.csv")
+r = r.merge(pd.read_csv(DB / "backtest_works_sources.csv")[["group", "street", "works_status", "evidence", "url"]], how="left")
+DOC = r.works_status.isin(["confirmed", "compatible"])
 ORIGIN = json.load(open(ROOT / "exchange/site_origin.json"))
 SPCOL = ["#3F663E", "#283F66", "#8C6A24", "#663825", "#6B8F5E", "#5B7DB1", "#C29A4A", "#9C5B43", "#7E6B8F", "#4F8A8B"]
 for k in ("before", "city", "method_bal"):                 # summer shade per replaced position, m²·h per tree
@@ -120,16 +122,16 @@ def area_map(row, fname):
 # ---------------------------------------------------------------- slides
 def s_title(s):
     box(s, 0, 0, W, H, "#283F2A", radius=0)
-    text(s, M + 0.3, 2.4, W - 2 * M, 1.0, "Back-testing the method on real street works", 40, "#F2F0EA", True)
-    text(s, M + 0.3, 3.5, W - 2 * M, 1.0, f"{len(r)} Barcelona works areas, 2018–2026: what the city planted, "
-         "and what the method would have chosen at the same positions", 20, "#B3BAB9")
+    text(s, M + 0.3, 2.4, W - 2 * M, 1.0, "Back-testing the method on real tree replacements", 40, "#F2F0EA", True)
+    text(s, M + 0.3, 3.5, W - 2 * M, 1.0, f"{len(r)} groups of replacements in Barcelona, 2018–2026, {DOC.sum()} of them in documented street works: "
+         "what the city planted, and what the method would have chosen at the same positions", 20, "#B3BAB9")
 
 
 def s_test(s):
     head(s, "The test: same positions, same tree size, two choices",
-         "Works areas found in the city's own inventory: ten or more trees changed in one quarter within 25 m")
-    steps = [("1  Find the works", f"{len(r)} groups that look like plantings (new trees in the smallest trunk class), "
-              "in barris with LiDAR crowns"),
+         "Groups found in the city's own inventory: ten or more trees changed species in one quarter within 25 m")
+    steps = [("1  Find the replacements", f"{len(r)} groups that look like plantings (new trees in the smallest trunk class), "
+              f"in barris with LiDAR crowns; {DOC.sum()} match documented street works"),
              ("2  Freeze everything else", "Every other street tree stays as measured; only the replaced positions change"),
              ("3  Two answers per position", "City: the species it actually planted. Method: the optimiser, with the 15% cap, "
               "sidewalk-width sizing and façade clearance"),
@@ -144,9 +146,38 @@ def s_test(s):
     source(s, SRC)
 
 
+def s_works(s):
+    head(s, "Which groups are real street works?", "Searched in the Ajuntament's works notices, district councils and the press")
+    d = r[DOC].sort_values(["works_status", "quarter"], ascending=[False, True])
+    xs, ws = [M, M + 3.3, M + 4.4, M + 5.9, M + 7.8], [3.2, 1.0, 1.4, 1.8, 4.4]
+    for x, w, h in zip(xs, ws, ("Street", "Trees", "Works", "Summer shade, m²·h per tree", "")):
+        text(s, x, 1.55, w, 0.3, h.upper(), 11, MUTED, True)
+    for k, q in enumerate(d.itertuples()):
+        y = 1.95 + k * 0.5
+        if k % 2 == 0:
+            box(s, M - 0.1, y - 0.06, 7.6, 0.48, tint(MUTED, 0.06), radius=0)
+        c = TREE if q.works_status == "confirmed" else WARN
+        text(s, xs[0], y, ws[0], 0.4, f"{q.street} ({q.quarter[:4]})", 14, INK, True)
+        text(s, xs[1], y, ws[1], 0.4, str(q.n), 14, INK)
+        text(s, xs[2], y, ws[2], 0.4, q.works_status, 13, c, True)
+        text(s, xs[3], y, ws[3], 0.4, [[("city ", {"color": MUTED}), (f"{q.pt_city:.0f}", {"bold": True}),
+                                        ("  method ", {"color": MUTED}), (f"{q.pt_method_bal:.0f}", {"bold": True})]], 14, INK)
+    box(s, 8.75, 1.55, 4.05, 4.6, tint(RAIN, 0.08))
+    text(s, 9.0, 1.7, 3.6, 4.4, [
+        [("Confirmed: ", {"bold": True, "color": TREE}), ("the source names the street works and the tree change.", {})],
+        [("Compatible: ", {"bold": True, "color": WARN}), ("works in the right street and period; the source does not mention trees.", {})],
+        [(f"The other {(~DOC).sum()} groups: ", {"bold": True}), ("no works found. They fit the city's replacement campaigns, which "
+                                                          "remove fragile or invasive species such as Ulmus pumila and Robinia.", {})],
+        [("Where the works are documented, ", {"bold": True}), ("the method wins on the wide streets and loses on Piquer, "
+                                                              "a narrow street where only small trees fit.", {})]], 13, INK)
+    source(s, "Betevé, 3 Mar 2022 (carrer de Piquer) and 21 Sep 2015 (replacement campaign); Ajuntament de Barcelona: works notice Av. "
+              "Rio de Janeiro (Dec 2022), Obres news 8 Jan 2026 (Gran Via, Trambesòs), Sant Martí project sheet carrer de Bassols (2018); "
+              "Consell de Barri de Porta, 12 Nov 2025.")
+
+
 def s_summary(s):
     head(s, "Summer shade per new tree: city vs method",
-         "m²·h of summer shade (12–17 h) per replaced position, at equal trunk size; one bar pair per works area")
+         "m²·h of summer shade (12–17 h) per replaced position, at equal trunk size; one bar pair per group")
     d = r.sort_values("gain")
     cd = CategoryChartData()
     cd.categories = list(d.label)
@@ -167,11 +198,11 @@ def s_summary(s):
 
 
 def s_runoff(s):
-    head(s, "Runoff: the check is do-no-harm", "Storm T = 2 yr, 1 h; method minus city in each works area")
+    head(s, "Runoff: the check is do-no-harm", "Storm T = 2 yr, 1 h; method minus city in each group")
     worse = r[r.hot_vs_city > 0.05]
     card(s, M, 1.6, 3.9, 2.0, f"{len(r) - len(worse)} of {len(r)}", "areas where the method sends no more water to a flood hotspot "
          "than the city's planting", RAIN, 34, 14)
-    card(s, M + 4.15, 1.6, 3.9, 2.0, f"{r.tot_vs_city.median():+.1f} m³", "median change in total runoff of the area", RAIN, 34, 14)
+    card(s, M + 4.15, 1.6, 3.9, 2.0, f"{r.tot_vs_city.median():+.1f} m³", "median change in total runoff of a group's area", RAIN, 34, 14)
     card(s, M + 8.3, 1.6, 3.7, 2.0, f"{r.hot_vs_city.max():+.1f} m³", "largest increase towards a hotspot", RAIN, 34, 14)
     text(s, M, 4.1, W - 2 * M, 2.0, [
         "Runoff differences come from crown size alone: every species stores the same water per unit of leaf area.",
@@ -183,13 +214,14 @@ def s_map(key, row, ttl, sub):
     def build(s):
         head(s, ttl, sub)
         picture(s, FIG / f"map_{key}.png", M + 0.1, 1.5, W - 2 * M - 0.2, crop_top=0.0)
-        source(s, "Buildings: Mapa base topogràfic 1:1000 (Ajuntament de Barcelona). Trees: Open Data BCN; crowns at equal trunk "
-                  "size from ICGC LiDAR. Grey = trees kept.")
+        ev = f"Works: {row.evidence}. " if row.works_status in ("confirmed", "compatible") else ""
+        source(s, ev + "Buildings: Mapa base topogràfic 1:1000 (Ajuntament de Barcelona). Trees: Open Data BCN; crowns at equal "
+                  "trunk size from ICGC LiDAR. Grey = trees kept.")
     return build
 
 
 def s_species(s):
-    head(s, "What differs is the species, not the number of trees", "All positions of the works areas, counted together")
+    head(s, "What differs is the species, not the number of trees", "All positions of the 27 groups, counted together")
     for k, (col, ttl, c) in enumerate((("sp_before", "Removed", MUTED), ("sp_city", "City planted", WARN),
                                        ("sp_method_bal", "Method", TREE))):
         x = M + k * 4.15
@@ -208,7 +240,9 @@ def s_limits(s):
     text(s, M, 1.4, W - 2 * M, 5.2, [
         [("Equal size. ", {"bold": True}), ("Removed, planted and chosen trees are all scored at the same trunk class. "
                                             "It compares species, not the life cycle: a young tree gives less shade for years.", {})],
-        [("Only the replaced positions. ", {"bold": True}), ("Trees the works removed without a replacement, or added at new spots, "
+        [("Works not always proven. ", {"bold": True}), (f"{(~DOC).sum()} of {len(r)} groups have no documented street works: "
+                                                         "they may be replacement campaigns. The inventory records what was planted either way.", {})],
+        [("Only the replaced positions. ", {"bold": True}), ("Trees removed without a replacement, or added at new spots, "
                                                              "are not in the decision set.", {})],
         [("Different rules. ", {"bold": True}), ("The method obeys the 2011 sizing guide and façade clearance; the city's planting is "
                                                  "scored as planted, even where it does not.", {})],
@@ -222,7 +256,10 @@ def s_limits(s):
 
 
 SAY = {
-    "test": "To test the method against reality, I looked for street works in the city's own tree inventory: places where ten or "
+    "works": "Are these real street works? For six groups I found the works in the city's notices or the press: Piquer is "
+             "confirmed, with the tree change named; Rio de Janeiro, Gran Via and Bassols are compatible. For the other 21 I found no "
+             "works: they are probably replacement campaigns. Either way the inventory records what the city actually planted.",
+    "test": "To test the method against reality, I looked for groups of replacements in the city's own tree inventory: places where ten or "
             "more trees changed species in the same quarter. I kept the ones that look like real plantings, and where I have LiDAR "
             "crowns. For each one I froze every other tree, and gave the same positions two answers: what the city actually "
             "planted, and what the method would have chosen under the city's rules.",
@@ -239,9 +276,9 @@ SAY = {
 
 def build():
     overview()
-    home = r[r.barri == "porta"].sort_values("n").iloc[-1] if (r.barri == "porta").any() else r.iloc[0]
-    rest = r[(r.group != home.group) & ~r.traits_src.fillna("").str.contains("pool TERCERA")]  # no crown sample: not an example
-    best, worst = rest.sort_values("gain").iloc[-1], rest.sort_values("gain").iloc[0]
+    home = r[(r.barri == "porta") & DOC].sort_values("n").iloc[-1]
+    rest = r[(r.group != home.group) & DOC]               # examples only from groups with documented works
+    best, worst = rest.sort_values("gain").iloc[-1], rest.sort_values(["gain", "n"], ascending=[True, False]).iloc[0]
     ex = [("home", home), ("best", best), ("worst", worst)]
     for k, row in ex:
         area_map(row, f"map_{k}.png")
@@ -253,9 +290,9 @@ def build():
     def sub(row):
         return (f"{row.n} trees, {row.quarter}: {short(row.top_before)} → city {short(row.top_city)}, "
                 f"method mostly {short(row.top_method_bal)}")
-    slides = [(None, s_title), ("test", s_test), ("summary", s_summary)]
+    slides = [(None, s_title), ("test", s_test), ("works", s_works), ("summary", s_summary)]
     slides += [(f"map_{k}", s_map(k, row, t + row.label, sub(row))) for (k, row), t in
-               zip(ex, ("Works in ", "Largest gain: ", "Where the city wins: "))]
+               zip(ex, ("Works in ", "Works, method wins: ", "Works, city wins: "))]
     slides += [("runoff", s_runoff), ("species", s_species), ("limits", s_limits)]
     prs = Presentation()
     prs.slide_width, prs.slide_height = Inches(W), Inches(H)
