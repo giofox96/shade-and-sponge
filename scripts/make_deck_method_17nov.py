@@ -23,8 +23,8 @@ SAY = {
     "highs": "HiGHS is the solver that picks every species. It needs three things. A score table: how good each species is at "
              "each position, for shade, winter sun and water held. In Porta that is 832 positions by 7 species. Then the city's "
              "rules: one species per position, only species that fit the sidewalk, and no species above its 15% cap. Every "
-             "layout that obeys the rules is a point inside this shape, and the best one is always a corner. HiGHS walks from "
-             "corner to corner, always uphill, and stops with a proof that no corner is higher. In the small example, picking "
+             "layout that obeys the rules is a point inside this shape, and the best one is always a corner. HiGHS finds the "
+             "highest corner and stops with a proof that no corner is higher. In the small example, picking "
              "the best species everywhere would plant A three times and break the cap. HiGHS keeps A where its lead is largest "
              "and gives position 2 to B, losing only 0.1. A genetic or ant-colony search would obey the rules too, but would never "
              "know if it had found the best. HiGHS does it for Porta in 0.06 seconds, for the whole city in about ten, and the "
@@ -74,8 +74,7 @@ def why_replace(s):
               "A healthy tree always wins the first years; the ≈ 10-year check shows it", {})]]
     text(s, x[2] + 0.3, 2.35, cw - 0.6, 3.6, tool, 15, INK)
     source(s, "Parcs i Jardins, Arbrat viari: selecció d'espècies (rev. 2004) §2.4.2; Pla de gestió de l'arbrat viari de Barcelona "
-              "(2005) §3.4.2; Parcs i Jardins, Protecció d'elements vegetals durant la realització d'obres (2017); "
-              "Open Data BCN, 35 quarterly street-tree inventories 2018–2026.")
+              "(2005) §3.4.2; Open Data BCN, 35 quarterly street-tree inventories 2018–2026.")
 
 
 def _sens():
@@ -105,7 +104,7 @@ def assumptions(s):
             ("Hotspot capture distance", "100 m", "None (stand-in for sewer inlets)", "tested" if cap_txt != "running" else "declared", cap_txt),
             ("Crown–façade clearance", "no margin", "None", "tested" if mar_txt != "running" else "declared", mar_txt),
             ("Curve numbers", "98 sealed · 74 pervious", "TR-55, soil group C", "declared", ""),
-            ("Leafless crowns", "opacity 0.35 · storage 0.5", "McPherson 1984; Herbst et al. 2008", "sourced", "ranges 0.25–0.54 · 0.3–0.7"),
+            ("Leafless crowns", "opacity 0.35 · storage 0.5", "McPherson 1984; Heisler 1982; Herbst et al. 2008", "sourced", "ranges 0.25–0.54 · 0.3–0.7"),
             ("Crown size compared", "mature (Porta LiDAR median)", "Favours replacing", "declared", "≈ 10-year check in the app"),
             ("Design days", "15 Jul 12–17 h · 15 Jan 10–15 h", "Window decided; days assumed", "tested", "21 Dec, 15 Feb variants")]
     col = {"tested": TREE, "sourced": RAIN, "declared": WARN}
@@ -123,7 +122,7 @@ def assumptions(s):
         box(s, xs[3], y + 0.02, 0.95, 0.27, tint(col[st], 0.18), radius=0.5)
         text(s, xs[3], y + 0.05, 0.95, 0.25, st, 11, col[st], True, align=PP_ALIGN.CENTER)
         text(s, xs[4], y + 0.03, ws[4], rh, res, 11, INK)
-    source(s, "Anys & Weiler 2024; McPherson 1984; Herbst et al. 2008; USDA NRCS TR-55; Ajuntament de Barcelona, Gestió de l'arbrat "
+    source(s, "Anys & Weiler 2024; McPherson 1984; Heisler 1982, 1984; Herbst et al. 2008; USDA NRCS TR-55; Ajuntament de Barcelona, Gestió de l'arbrat "
               "viari de Barcelona (2011) and Pla director de l'arbrat 2017–2037; Open Data BCN.")
 
 

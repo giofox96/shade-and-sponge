@@ -94,7 +94,7 @@ def flow_highs():
     # 2. rules
     rules = [("One species per position", "every tree gets exactly one", INK),
              ("Only species that fit", "✗ = sidewalk too narrow", WARN),
-             ("No species above its cap", "15% (here: at most 2 of 5)", HEAT)]
+             ("No species above its cap", "15% in Porta; here at most 2 of 5", HEAT)]
     for k, (lab, sub, c) in enumerate(rules):
         b += outline(620, 330 + 115 * k, lab, c, 270, 74, sub)
     # 3. solver: a feasible region, the simplex path to the best corner
@@ -110,8 +110,8 @@ def flow_highs():
     b += t(pts[0][0] - 8, pts[0][1] + 24, "start", 14, MUTED, anchor="middle")
     b += t(cx, cy + 150, "Every layout that obeys the rules", 15, MUTED, anchor="middle")
     b += t(cx, cy + 170, "is a point in this shape; the best is a corner.", 15, MUTED, anchor="middle")
-    b += t(cx, cy + 194, "HiGHS walks corner to corner, always uphill,", 15, INK, "bold", "middle")
-    b += t(cx, cy + 214, "and proves no corner is higher.", 15, INK, "bold", "middle")
+    b += t(cx, cy + 194, "HiGHS finds the highest corner", 15, INK, "bold", "middle")
+    b += t(cx, cy + 214, "and proves that no corner is higher.", 15, INK, "bold", "middle")
     # 4. answer
     b += table(1220, 290, pick=BEST)
     b += t(1340, 600, "Total 3.3: the best possible", 15, INK, "bold", "middle")
@@ -133,7 +133,7 @@ def flow_highs():
 
 
 def flow_validation():
-    """As make_flowcharts.flow_validation, without ENVI-met (paid licence, dropped 16 Nov): the second heat check is Infrared City."""
+    """As make_flowcharts.flow_validation, without ENVI-met (no free licence, ENVI-met reply of 13 Nov; dropped by the user 16 Nov): the second heat check is Infrared City."""
     module("flow_05_validation", "5 · Validation", "Each module checked against something it was not fitted to",
            [("Module", [("h", "icon", i_heat, "Heat", HEAT), ("w", "icon", i_rain, "Runoff", RAIN), ("p", "icon", i_tree, "Priority", TREE)]),
             ("Check", [("h1", "box", "Proxy vs Ladybug", HEAT, "same layouts"), ("h2", "box", "Proxy vs Infrared City", HEAT, "UTCI, final layouts"),
