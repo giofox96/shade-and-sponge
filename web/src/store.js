@@ -1,5 +1,5 @@
 // Shared state: site data exported by `python -m shade_sponge.web_export`, plus what the user has selected.
-import { reactive, computed, watch } from 'vue'
+import { reactive, computed, watch, markRaw } from 'vue'
 import { optimise, proxySums, fitLine, effSpecies, caps } from './optimize.js'
 import { loadGrid, pointPotentials, crownPotential } from './pointpot.js'
 
@@ -25,6 +25,11 @@ export const state = reactive({
   buildingOpacity: 1, // Map display slider: 1 = solid, lower = see-through buildings
   showStreets: true, // sidewalk edges (facades, kerbs) and free planting spots on the map
   overlay: '', // none by default: sidewalks and free spots read better (the sun / water layers are in Map display)
+  basemap: 'map', // 'map' (street map) | 'satellite' (ICGC orthophoto)
+  ground3d: false, // relief from the site DTM (meta.terrain); trees, buildings and lines then sit on it
+  terrain: null, // { w, h, z (Float32Array, m above the site's lowest point), bounds: [west, south, east, north] } once loaded
+  showLidar: false, // thinned LiDAR cloud (meta.lidar), loaded on first use
+  lidar: null, // { site, n, pos (Float32Array: east, north m from site.center, 0), z, hag (m), cls } once loaded
   month: 7,
   selected: null, // index into positions
   error: null,
@@ -68,6 +73,54 @@ export async function switchSite(site) {
 }
 
 export const dataUrl = (file) => `./data/${state.site}/${file}`
+
+// Relief: terrain.png (python scripts/web_export_terrain.py) holds the site DTM on a lon/lat grid, as metres above the
+// site's lowest point: red × 25.6 + green × 0.1. Decoded once for groundZ(); deck.gl's TerrainLayer reads the same file.
+export async function loadTerrain() {
+  const T = state.meta?.terrain
+  if (!T || state.terrain?.site === state.site) return
+  const img = new Image()
+  img.src = dataUrl(T.file)
+  await img.decode()
+  const c = Object.assign(document.createElement('canvas'), { width: img.width, height: img.height })
+  const g = c.getContext('2d', { willReadFrequently: true })
+  g.drawImage(img, 0, 0)
+  const px = g.getImageData(0, 0, img.width, img.height).data
+  const z = new Float32Array(img.width * img.height)
+  for (let i = 0; i < z.length; i++) z[i] = px[4 * i] * 25.6 + px[4 * i + 1] * 0.1
+  state.terrain = markRaw({ site: state.site, w: img.width, h: img.height, z, bounds: T.bounds })
+}
+// Ground height (m above the site's lowest point) at a lon/lat, bilinear; 0 on the flat map and outside the DTM
+export function groundZ(lon, lat) {
+  const T = state.ground3d && state.terrain
+  if (!T) return 0
+  const [w, s, e, n] = T.bounds
+  const fx = ((lon - w) / (e - w)) * T.w - 0.5, fy = ((n - lat) / (n - s)) * T.h - 0.5
+  if (fx < -0.5 || fy < -0.5 || fx > T.w - 0.5 || fy > T.h - 0.5) return 0
+  const x0 = Math.min(Math.max(Math.floor(fx), 0), T.w - 2), y0 = Math.min(Math.max(Math.floor(fy), 0), T.h - 2)
+  const ax = Math.min(Math.max(fx - x0, 0), 1), ay = Math.min(Math.max(fy - y0, 0), 1), k = y0 * T.w + x0
+  return (T.z[k] * (1 - ax) + T.z[k + 1] * ax) * (1 - ay) + (T.z[k + T.w] * (1 - ax) + T.z[k + T.w + 1] * ax) * ay
+}
+// LiDAR points: lidar.bin.gz (python scripts/web_export_lidar.py), one point per 2 m cube
+export async function setLidar(on) {
+  const L = state.meta?.lidar
+  if (on && L && state.lidar?.site !== state.site) {
+    let buf = await (await fetch(dataUrl(L.file))).arrayBuffer()
+    const head = new Uint8Array(buf, 0, 2)
+    if (head[0] === 0x1f && head[1] === 0x8b) // still gzipped (static hosts); dev servers may already have decoded it
+      buf = await new Response(new Blob([buf]).stream().pipeThrough(new DecompressionStream('gzip'))).arrayBuffer()
+    const n = L.n, e = new Int16Array(buf, 0, n), no = new Int16Array(buf, 2 * n, n)
+    const zr = new Uint16Array(buf, 4 * n, n), hg = new Uint16Array(buf, 6 * n, n)
+    const pos = new Float32Array(3 * n), z = new Float32Array(n), hag = new Float32Array(n)
+    for (let i = 0; i < n; i++) { pos[3 * i] = e[i] / 10; pos[3 * i + 1] = no[i] / 10; z[i] = zr[i] / 10; hag[i] = hg[i] / 10 }
+    state.lidar = markRaw({ site: state.site, n, pos, z, hag, cls: new Uint8Array(buf, 8 * n, n) })
+  }
+  state.showLidar = on && !!state.lidar
+}
+export async function setGround3d(on) {
+  if (on) await loadTerrain()
+  state.ground3d = on && !!state.terrain
+}
 
 export function currentLayout() {
   if (state.scenarioId === AREA && state.area) return areaLayout(state.area.layout)
@@ -572,9 +625,13 @@ export const themeColors = computed(() => (isDark.value
       building: [64, 70, 64, 235], buildingLine: [40, 44, 40], facade: [196, 140, 100, 230], kerb: [214, 220, 228, 235],
       spotLine: [230, 240, 220], ring: [242, 240, 234], ringOn: [157, 180, 222], area: [157, 180, 222], draft: [217, 184, 102],
       random: '#7A776E', city: '#D9B866', optimised: '#9DB4DE', current: '#E4DFD3', on: '#F2F0EA',
-      basemap: 'https://basemaps.cartocdn.com/gl/dark-matter-gl-style/style.json' }
+      ground: [44, 48, 44], basemap: 'https://basemaps.cartocdn.com/gl/dark-matter-gl-style/style.json',
+      raster: 'https://basemaps.cartocdn.com/dark_all/{z}/{x}/{y}@2x.png' }
   : { text: '#2A2622', muted: '#665E4F', grid: '#DCD8CE', plane: '#3A3630', other: '#C9C4B8', kept: [150, 155, 135, 150],
       building: [222, 218, 208, 235], buildingLine: [180, 176, 166], facade: [150, 95, 55, 220], kerb: [40, 48, 64, 235],
       spotLine: [20, 40, 10], ring: [255, 255, 255], ringOn: [40, 63, 102], area: [40, 63, 102], draft: [140, 106, 36],
       random: '#B4AE9F', city: '#8C6A24', optimised: '#5D7BAA', current: '#2A2622', on: '#283F66',
-      basemap: 'https://tiles.openfreemap.org/styles/positron' }))
+      ground: [236, 233, 225], basemap: 'https://tiles.openfreemap.org/styles/positron',
+      raster: 'https://basemaps.cartocdn.com/light_all/{z}/{x}/{y}@2x.png' }))
+// Orthophoto of Catalonia, ICGC base-map service (CC BY 4.0)
+export const ORTO = 'https://geoserveis.icgc.cat/servei/catalunya/mapa-base/wmts/orto/MON3857NW/{z}/{x}/{y}.png'

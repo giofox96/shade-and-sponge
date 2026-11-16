@@ -2,7 +2,7 @@
 // Icon column on the right edge of the map: one button per map layer, grouped in pills. A dot marks a layer that is on;
 // the tooltip gives name, state and action. "More" opens the month (leaf calendar) and building-opacity tools.
 import { ref } from 'vue'
-import { state, MONTHS } from '../store.js'
+import { state, MONTHS, setGround3d, setLidar } from '../store.js'
 import Icon from './Icon.vue'
 
 const more = ref(false)
@@ -16,6 +16,24 @@ const hint = (on) => (on ? 'Visible on map · click to hide' : 'Hidden · click 
 
 <template>
   <div class="toolbar" role="toolbar" aria-label="Map layers" aria-orientation="vertical">
+    <div class="pill">
+      <button v-if="state.meta.terrain" class="tb" :aria-pressed="state.ground3d" aria-label="3D ground" @click="setGround3d(!state.ground3d)">
+        <Icon name="terrain" /><i v-if="state.ground3d" class="dot"></i>
+        <span class="tt"><b>3D ground</b>{{ state.ground3d ? 'Relief on · click for the flat map' : 'Flat map · click for the relief' }}
+          <em>The ground model from the LiDAR flight (ICGC), true scale: the same one that routes the storm water. Trees and buildings sit on it.</em></span>
+      </button>
+      <button class="tb" :aria-pressed="state.basemap === 'satellite'" aria-label="Aerial photo"
+              @click="state.basemap = state.basemap === 'satellite' ? 'map' : 'satellite'">
+        <Icon name="satellite" /><i v-if="state.basemap === 'satellite'" class="dot"></i>
+        <span class="tt"><b>Aerial photo</b>{{ state.basemap === 'satellite' ? 'On · click for the street map' : 'Street map · click for the aerial photo' }}
+          <em>Orthophoto of Catalonia, ICGC.</em></span>
+      </button>
+      <button v-if="state.meta.lidar" class="tb" :aria-pressed="state.showLidar" aria-label="LiDAR points" @click="setLidar(!state.showLidar)">
+        <Icon name="points" /><i v-if="state.showLidar" class="dot"></i>
+        <span class="tt"><b>LiDAR points</b>{{ state.showLidar ? 'Visible on map · click to hide' : 'Hidden · click to show' }}
+          <em>The laser scan behind the crowns, building heights and ground (ICGC, flown 26 Sept 2021), thinned to one point per {{ state.meta.lidar.voxel_m }} m cube: {{ state.meta.lidar.n.toLocaleString('en') }} points. Brown = ground, green = vegetation, red = buildings, grey = unclassified.</em></span>
+      </button>
+    </div>
     <div class="pill">
       <button class="tb" :aria-pressed="state.showStreets" aria-label="Sidewalks and free spots" @click="state.showStreets = !state.showStreets">
         <Icon name="sidewalk" /><i v-if="state.showStreets" class="dot"></i>
@@ -57,7 +75,7 @@ const hint = (on) => (on ? 'Visible on map · click to hide' : 'Hidden · click 
 </template>
 
 <style scoped>
-.toolbar { position: absolute; top: 118px; right: 10px; z-index: 5; display: flex; flex-direction: column; gap: 8px; } /* below the zoom control */
+.toolbar { position: absolute; top: 136px; right: 10px; z-index: 5; display: flex; flex-direction: column; gap: 8px; } /* below the zoom control */
 .pill { position: relative; display: flex; flex-direction: column; gap: 2px; padding: 3px; border-radius: 10px; background: var(--panel);
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.18); }
 .tb { position: relative; width: 36px; height: 36px; padding: 0; display: grid; place-items: center; border: 0; border-radius: 8px;

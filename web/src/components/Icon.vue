@@ -1,7 +1,7 @@
 <script setup>
 // Small line icons for the sidebar buttons (24 × 24, currentColor): swap = replace all trees, add = add trees,
 // fill = fill the free spots, edit = edit the project area; map toolbar: sidewalk, building, sun, sunlow (winter sun), drop, alert,
-// layers, more
+// layers, more, terrain (3D ground), satellite, points (LiDAR)
 defineProps({ name: { type: String, required: true } })
 </script>
 
@@ -51,6 +51,15 @@ defineProps({ name: { type: String, required: true } })
     </template>
     <template v-else-if="name === 'layers'">
       <path d="M12 3l9 5-9 5-9-5z" /><path d="M3 12.5l9 5 9-5M3 17l9 5 9-5" />
+    </template>
+    <template v-else-if="name === 'terrain'">
+      <path d="M2.5 19L9 7l4 6 2.5-3.5L21.5 19z" /><path d="M7.2 10.5l1.8 1.6 1.6-1.4" />
+    </template>
+    <template v-else-if="name === 'satellite'">
+      <circle cx="12" cy="12" r="9" /><path d="M3 12h18M12 3c2.8 2.6 4 5.6 4 9s-1.2 6.4-4 9c-2.8-2.6-4-5.6-4-9s1.2-6.4 4-9z" />
+    </template>
+    <template v-else-if="name === 'points'">
+      <circle v-for="(q, i) in [[5, 17], [9, 12], [8, 19], [13, 16], [14, 9], [12, 5], [17, 12], [18, 18], [19, 6]]" :key="i" :cx="q[0]" :cy="q[1]" r="1.1" fill="currentColor" stroke="none" />
     </template>
     <template v-else-if="name === 'more'">
       <circle v-for="x in [5, 12, 19]" :key="x" :cx="x" cy="12" r="1.3" fill="currentColor" />
