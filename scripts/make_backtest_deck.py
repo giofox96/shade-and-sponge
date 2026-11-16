@@ -89,6 +89,36 @@ def context(slug, box_):
     return b.cx[x0:x1, y0:y1], t[t.x.between(x0, x1) & t.y.between(y0, y1)]
 
 
+ROADS = DB / "backtest_map_roads.geojson"          # kerb lines, 1:1000 map (scripts/backtest_map_roads.py)
+roads = gpd.read_file(ROADS) if ROADS.exists() else None
+
+
+def street_labels(trees, xy, box_):
+    """(name, x, y, angle, main) for streets with >= 4 inventory trees in the box; main = the street of the positions."""
+    t = trees.dropna(subset=["street"])
+    if t.empty:
+        return []
+    d = np.min(np.hypot(t.x.values[:, None] - xy[:, 0], t.y.values[:, None] - xy[:, 1]), 1)
+    main = t[d < 3].street.mode()
+    out = []
+    for st, g in t.groupby("street"):
+        if len(g) < 4:
+            continue
+        c = g[["x", "y"]].values - g[["x", "y"]].values.mean(0)
+        v = np.linalg.svd(c, full_matrices=False)[2][0]
+        a = np.degrees(np.arctan2(v[1], v[0]))
+        a = a - 180 if a > 90 else a + 180 if a < -90 else a
+        x0, y0, x1, y1 = box_
+        mx = my = 0.2 * (x1 - x0)       # label at the street tree farthest from the positions, kept inside
+        inner = g[g.x.between(x0 + mx, x1 - mx) & g.y.between(y0 + my, y1 - my)]
+        inner = inner if len(inner) else g
+        far = inner.iloc[np.argmax(np.min(np.hypot(inner.x.values[:, None] - xy[:, 0], inner.y.values[:, None] - xy[:, 1]), 1))]
+        name = st.replace("C\\ ", "C. ").replace("Av\\ ", "Av. ").replace("Pg\\ ", "Pg. ").replace("Pl\\ ", "Pl. ") \
+            .replace("G.V. Corts Catalanes", "Gran Via").replace("\\", ".").replace("Av ", "Av. ")
+        out.append((name, far.x, far.y, a, len(main) and st == main.iloc[0]))
+    return out
+
+
 def area_map(row, fname):
     q = p[p.group == row.group]
     pad = 30
@@ -98,6 +128,8 @@ def area_map(row, fname):
     bb = (cx - side / 2, cy - side / 2, cx + side / 2, cy + side / 2)
     bld, trees = context(row.barri, bb)
     xy = q[["x", "y"]].values
+    labels = street_labels(trees, xy, bb)
+    kerb = roads[roads.group == row.group] if roads is not None else None
     near = np.min(np.hypot(trees.x.values[:, None] - xy[:, 0], trees.y.values[:, None] - xy[:, 1]), 1) > 2 if len(trees) else []
     trees = trees[near] if len(trees) else trees
     allsp = pd.concat([q.sp_before, q.sp_city, q.sp_method_bal]).value_counts().index
@@ -106,11 +138,17 @@ def area_map(row, fname):
               ("method_bal", "Method", row.pt_method_bal))
     fig, axes = plt.subplots(1, 3, figsize=(13, 4.9), dpi=200)
     for ax, (k, ttl, pct) in zip(axes, panels):
+        if kerb is not None and len(kerb):
+            kerb.plot(ax=ax, color="#9A9488", linewidth=0.9)
         bld.plot(ax=ax, color="#D3CEC2", edgecolor="none")
         for x, y, d in zip(trees.x, trees.y, trees.crown_diam_m):
             ax.add_patch(Circle((x, y), max(d, 1) / 2, color="#B9B4A8", alpha=0.45, lw=0))
         for x, y, s, d in zip(q.x, q.y, q[f"sp_{k}"], q[f"crown_{k}"]):
             ax.add_patch(Circle((x, y), d / 2, facecolor=col[s], alpha=0.85, edgecolor="white", lw=0.6))
+        for name, x, y, a, main in labels:
+            ax.text(x, y, name, rotation=a, rotation_mode="anchor", ha="center", va="center", fontsize=10 if main else 7.5,
+                    fontweight="bold" if main else "normal", color=INK if main else MUTED, zorder=5,
+                    bbox=dict(facecolor=BG, edgecolor="none", alpha=0.75, pad=1.2))
         ax.set_xlim(bb[0], bb[2])
         ax.set_ylim(bb[1], bb[3])
         ax.set_aspect("equal")
@@ -118,8 +156,9 @@ def area_map(row, fname):
         sub = f"  ·  {pct:,.0f} m²·h per tree"
         ax.set_title(ttl + sub, loc="left", fontsize=13, color=INK, fontweight="bold")
         cnt = q[f"sp_{k}"].value_counts()
+        kl = [plt.Line2D([], [], color="#9A9488", lw=0.9, label="kerb")] if kerb is not None and len(kerb) else []
         ax.legend(handles=[Patch(color=col[s], label=f"{short(s)} ({n})") for s, n in cnt.head(4).items()] +
-                  ([Patch(color="#999999", label=f"other ({cnt.iloc[4:].sum()})")] if len(cnt) > 4 else []),
+                  ([Patch(color="#999999", label=f"other ({cnt.iloc[4:].sum()})")] if len(cnt) > 4 else []) + kl,
                   loc="upper center", bbox_to_anchor=(0.5, -0.01), ncol=2, frameon=False, fontsize=9.5)
     axes[0].plot([bb[0] + 5, bb[0] + 25], [bb[1] + 5] * 2, color=INK, lw=2)
     axes[0].text(bb[0] + 15, bb[1] + 7, "20 m", ha="center", fontsize=8, color=INK)
