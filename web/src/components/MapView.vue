@@ -462,6 +462,20 @@ onBeforeUnmount(() => {
 .map.crosshair :deep(canvas) {
   cursor: crosshair !important;
 }
+/* zoom and compass: the same pill, button size and line icons as the map toolbar below them (MapToolbar.vue) */
+.map :deep(.maplibregl-ctrl-top-right .maplibregl-ctrl-group) {
+  margin: 10px 10px 0 0; padding: 3px; display: flex; flex-direction: column; gap: 2px; border-radius: 10px; background: var(--panel);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.18);
+}
+.map :deep(.maplibregl-ctrl-top-right .maplibregl-ctrl-group button) { width: 36px; height: 36px; border: 0; border-radius: 8px; background: transparent; }
+.map :deep(.maplibregl-ctrl-top-right .maplibregl-ctrl-group button:hover) { background: var(--hover); }
+.map :deep(.maplibregl-ctrl-top-right .maplibregl-ctrl-group .maplibregl-ctrl-icon) {
+  background-image: none; background-color: var(--muted); -webkit-mask: var(--ico) center / 18px no-repeat; mask: var(--ico) center / 18px no-repeat;
+}
+.map :deep(.maplibregl-ctrl-top-right .maplibregl-ctrl-group button:hover .maplibregl-ctrl-icon) { background-color: var(--text); }
+.map :deep(.maplibregl-ctrl-zoom-in .maplibregl-ctrl-icon) { --ico: url('data:image/svg+xml;utf8,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22black%22 stroke-width=%221.6%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22><path d=%22M12 5v14M5 12h14%22/></svg>'); }
+.map :deep(.maplibregl-ctrl-zoom-out .maplibregl-ctrl-icon) { --ico: url('data:image/svg+xml;utf8,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22black%22 stroke-width=%221.6%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22><path d=%22M5 12h14%22/></svg>'); }
+.map :deep(.maplibregl-ctrl-compass .maplibregl-ctrl-icon) { --ico: url('data:image/svg+xml;utf8,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22black%22 stroke-width=%221.6%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22><path d=%22M12 3l5 17-5-3.5L7 20z%22/></svg>'); }
 .tip {
   position: absolute; z-index: 5; max-width: 240px; pointer-events: none; padding: 5px 8px; border-radius: 6px;
   font-size: 12px; line-height: 1.35; background: var(--panel); color: var(--text); border: 1px solid var(--bad);

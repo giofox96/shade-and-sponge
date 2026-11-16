@@ -75,7 +75,7 @@ const hint = (on) => (on ? 'Visible on map · click to hide' : 'Hidden · click 
 </template>
 
 <style scoped>
-.toolbar { position: absolute; top: 118px; right: 10px; z-index: 5; display: flex; flex-direction: column; gap: 8px; } /* below the zoom control */
+.toolbar { position: absolute; top: 136px; right: 10px; z-index: 5; display: flex; flex-direction: column; gap: 8px; } /* below the zoom control */
 .pill { position: relative; display: flex; flex-direction: column; gap: 2px; padding: 3px; border-radius: 10px; background: var(--panel);
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.18); }
 .tb { position: relative; width: 36px; height: 36px; padding: 0; display: grid; place-items: center; border: 0; border-radius: 8px;
