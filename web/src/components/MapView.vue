@@ -34,7 +34,7 @@ const M_DEG = 40075016.686 / 360
 const local = () => ({ coordinateSystem: COORDINATE_SYSTEM.METER_OFFSETS, coordinateOrigin: [...state.meta.site.center, 0] })
 
 // LiDAR points: on the flat map a point sits at its height above ground, on the relief at its true height
-const LIDAR_RGB = [[150, 128, 104], [70, 140, 60], [196, 120, 92], [120, 120, 120]] // ground, vegetation, building, other
+const LIDAR_RGB = [[150, 128, 104], [70, 140, 60], [196, 120, 92], [172, 172, 166]] // ground, vegetation, building, other
 let cloud = null, cloudOf = null
 function lidarData() {
   const L = state.lidar, key = `${L.site}:${state.ground3d}`

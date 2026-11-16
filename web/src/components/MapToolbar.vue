@@ -31,7 +31,7 @@ const hint = (on) => (on ? 'Visible on map · click to hide' : 'Hidden · click 
       <button v-if="state.meta.lidar" class="tb" :aria-pressed="state.showLidar" aria-label="LiDAR points" @click="setLidar(!state.showLidar)">
         <Icon name="points" /><i v-if="state.showLidar" class="dot"></i>
         <span class="tt"><b>LiDAR points</b>{{ state.showLidar ? 'Visible on map · click to hide' : 'Hidden · click to show' }}
-          <em>The laser scan behind the crowns, building heights and ground (ICGC, flown 26 Sept 2021), thinned to one point per {{ state.meta.lidar.voxel_m }} m cube: {{ state.meta.lidar.n.toLocaleString('en') }} points. Brown = ground, green = vegetation, red = buildings.</em></span>
+          <em>The laser scan behind the crowns, building heights and ground (ICGC, flown 26 Sept 2021), thinned to one point per {{ state.meta.lidar.voxel_m }} m cube: {{ state.meta.lidar.n.toLocaleString('en') }} points. Brown = ground, green = vegetation, red = buildings, grey = unclassified.</em></span>
       </button>
     </div>
     <div class="pill">

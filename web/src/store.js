@@ -101,7 +101,7 @@ export function groundZ(lon, lat) {
   const ax = Math.min(Math.max(fx - x0, 0), 1), ay = Math.min(Math.max(fy - y0, 0), 1), k = y0 * T.w + x0
   return (T.z[k] * (1 - ax) + T.z[k + 1] * ax) * (1 - ay) + (T.z[k + T.w] * (1 - ax) + T.z[k + T.w + 1] * ax) * ay
 }
-// LiDAR points: lidar.bin.gz (python scripts/web_export_lidar.py), one point per 1.5 m cube
+// LiDAR points: lidar.bin.gz (python scripts/web_export_lidar.py), one point per 2 m cube
 export async function setLidar(on) {
   const L = state.meta?.lidar
   if (on && L && state.lidar?.site !== state.site) {
