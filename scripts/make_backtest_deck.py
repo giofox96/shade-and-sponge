@@ -8,6 +8,7 @@ import sys
 from pathlib import Path
 
 import geopandas as gpd
+import shapely
 import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt  # noqa: E402
@@ -52,8 +53,7 @@ inv_norm = backtest_survival.ih_norm()
 
 
 def short(sp):
-    g, *rest = [w for w in sp.split() if w not in ("×", "x")]
-    return f"{g[0]}. {rest[0]}" if rest else g
+    return " ".join(sp.split()[:3] if sp.split()[1:2] in (["×"], ["x"]) else sp.split()[:2])   # full genus + species
 
 
 # ---------------------------------------------------------------- figures
@@ -130,6 +130,13 @@ def area_map(row, fname):
     xy = q[["x", "y"]].values
     labels = street_labels(trees, xy, bb)
     kerb = roads[roads.group == row.group] if roads is not None else None
+    road_fill = None                     # carriageway = gaps between kerb lines that touch no building (sidewalks do)
+    if kerb is not None and len(kerb):
+        cut = shapely.union_all(list(bld.geometry) + list(kerb.geometry.buffer(0.2)))
+        faces = gpd.GeoSeries(shapely.get_parts(shapely.box(*bb).difference(cut)))
+        near = shapely.union_all(list(bld.geometry.buffer(1.0)))
+        planted = shapely.union_all(shapely.points(np.vstack([trees[["x", "y"]].values, xy])).tolist())  # trees stand off it
+        road_fill = faces[(faces.area > 20) & ~faces.intersects(near) & ~faces.intersects(planted)]
     near = np.min(np.hypot(trees.x.values[:, None] - xy[:, 0], trees.y.values[:, None] - xy[:, 1]), 1) > 2 if len(trees) else []
     trees = trees[near] if len(trees) else trees
     allsp = pd.concat([q.sp_before, q.sp_city, q.sp_method_bal]).value_counts().index
@@ -138,6 +145,8 @@ def area_map(row, fname):
               ("method_bal", "Method", row.pt_method_bal))
     fig, axes = plt.subplots(1, 3, figsize=(13, 4.9), dpi=200)
     for ax, (k, ttl, pct) in zip(axes, panels):
+        if road_fill is not None and len(road_fill):
+            road_fill.plot(ax=ax, color="#E3DFD6", edgecolor="none", zorder=0)
         if kerb is not None and len(kerb):
             kerb.plot(ax=ax, color="#9A9488", linewidth=0.35, alpha=0.5, zorder=0)
         bld.plot(ax=ax, color="#D3CEC2", edgecolor="none")
