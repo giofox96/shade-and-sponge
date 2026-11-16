@@ -1,0 +1,35 @@
+species,palette,removed_rank,size_class,trunk_class,n_lidar,crown_diam_m,height_m,crown_base_m,lai,summer_m2h,winter_m2h,storage_l,survival,survival_n,score
+Platanus × acerifolia,False,1.0,large,TERCERA,11500,9.71,16.04,7.83,3.1,391.527,364.366,372.599,0.68,210,0.884
+Firmiana simplex,True,,medium,TERCERA,98,8.98,12.42,6.485,3.13,322.974,257.777,321.765,,23,0.789
+Gleditsia triacanthos,True,,large,TERCERA,95,9.36,11.69,5.67,2.65,324.581,274.616,295.964,0.916,346,0.767
+Celtis australis,True,8.0,large,TERCERA,5417,8.43,11.91,6.39,3.47,296.025,225.646,314.359,0.873,544,0.758
+Melia azedarach,True,,medium,TERCERA,1104,8.61,11.675,5.795,2.9,288.624,242.726,274.06,0.901,1020,0.712
+Tilia x europaea,True,,large,TERCERA,116,7.73,11.545,5.615,3.895,265.296,213.713,296.694,,5,0.706
+Tipuana tipu,True,,large,TERCERA,1368,9.29,12.295,6.595,2.895,331.192,571.839,339.972,0.764,119,0.699
+Styphnolobium japonicum,True,6.0,medium,TERCERA,506,8.46,10.565,4.93,2.86,275.985,230.086,260.945,0.849,554,0.689
+Ulmus pumila,False,4.0,large,TERCERA,561,8.16,11.59,5.48,2.93,264.07,233.715,248.708,0.626,50,0.662
+Robinia pseudoacacia,False,2.0,large,TERCERA,407,8.18,12.62,5.68,2.83,267.222,259.304,241.399,0.804,110,0.651
+Celtis sinensis,True,,,TERCERA,235,8.0,8.6,4.63,2.6,228.827,169.059,212.127,,8,0.609
+Populus alba,False,7.0,large,TERCERA,88,7.57,15.445,4.675,2.81,265.356,349.041,205.277,,5,0.589
+Cercis siliquastrum,True,,medium,TERCERA,36,7.495,8.92,4.315,2.87,214.772,170.49,205.526,0.791,113,0.584
+Jacaranda mimosifolia,True,,large,TERCERA,286,8.53,11.515,5.405,2.425,261.823,445.826,238.392,0.843,348,0.573
+Catalpa bignonioides,True,,large,TERCERA,93,7.29,10.29,4.97,2.71,202.567,182.891,183.597,0.667,91,0.546
+Grevillea robusta,True,,large,TERCERA,256,8.22,14.695,5.56,2.99,295.322,729.742,277.679,0.863,387,0.545
+Koelreuteria paniculata,True,,medium,TERCERA,34,7.495,9.065,4.81,2.45,197.378,161.571,175.449,0.833,773,0.541
+Pinus halepensis,True,,large,TERCERA,136,7.78,11.1,6.125,2.66,224.491,397.074,221.294,,5,0.526
+Pinus pinea,True,,large,TERCERA,195,7.09,9.97,6.02,2.71,185.229,302.756,187.236,0.855,62,0.48
+Quercus ilex,True,,medium,TERCERA,123,7.11,10.4,5.4,2.74,192.602,360.516,190.378,0.68,40,0.472
+Populus nigra,False,3.0,large,TERCERA,159,6.1,16.19,5.22,2.65,186.48,282.34,125.704,,29,0.445
+Ligustrum lucidum,True,,medium,TERCERA,26,6.515,9.12,5.045,2.47,151.371,264.297,144.097,0.822,98,0.415
+Casuarina cunninghamiana,True,,large,TERCERA,69,6.28,11.86,4.26,2.47,161.811,420.031,133.889,0.859,252,0.365
+Hibiscus syriacus,True,,small,SEGONA,29,5.35,6.46,3.42,2.26,96.409,82.373,82.463,0.742,49,0.359
+Prunus cerasifera,True,5.0,medium,SEGONA,362,5.26,7.11,3.63,2.3,95.757,88.509,81.122,0.766,302,0.355
+Tilia x euchlora,True,,large,SEGONA,602,4.69,7.86,3.86,2.755,86.857,85.606,77.252,0.747,55,0.341
+Fraxinus angustifolia,True,10.0,large,SEGONA,346,5.17,8.51,4.68,1.965,86.1,93.049,66.955,0.814,145,0.329
+Ginkgo biloba,True,,large,SEGONA,84,4.11,8.99,3.81,2.61,72.21,92.099,56.204,0.831,263,0.302
+Magnolia grandiflora,True,,medium,SEGONA,366,4.75,8.655,3.74,2.46,88.185,208.871,76.287,0.81,178,0.297
+Brachychiton populneus,True,9.0,medium,TERCERA,528,4.805,9.98,4.315,2.355,91.651,234.382,74.732,0.826,250,0.291
+Pyrus calleryana,True,,small,SEGONA,297,4.03,7.68,3.44,2.24,60.7,75.437,46.377,0.82,1109,0.285
+Acer campestre,True,,medium,SEGONA,155,3.91,6.44,3.14,1.87,48.935,58.995,36.445,0.812,151,0.267
+Cupressus sempervirens,True,,large,TERCERA,57,4.26,16.12,4.23,2.94,124.799,463.341,73.332,0.748,51,0.253
+Citrus × aurantium,True,,small,TERCERA,25,3.87,4.4,3.08,1.46,37.319,48.338,30.054,0.919,40,0.25
