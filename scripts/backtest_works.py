@@ -23,7 +23,8 @@ choice is not held to the sizing rule or façade clearance, the method's is.
 Rule variant `--rule guide` (decided by the user, 16 Nov 2026): where the sidewalk class was measured, only the 2011 guide's
 sizing rule decides; the crown-radius façade test (layout.fits, an ASSUMPTION stricter than the city's own practice, e.g.
 C. Piquer) applies only to "check" positions. Where no species fits, the best-scoring species the sizing rule allows is
-taken (the LP chooses among them), not the smallest crown; only rows with nothing allowed keep layout.fits' fallback.
+taken (the LP chooses among them), not the smallest crown. Species without a guide size class (Celtis sinensis) are not
+allowed on measured sidewalks, since size_fits cannot filter them; only rows with nothing allowed keep layout.fits' fallback.
 Every row reports fallback_share = positions where layout.fits had no choice (forced smallest crown).
 
 Run (PC with the barri rasters, as python -m shade_sponge "<barri>"): python scripts/backtest_works.py [--list] [--rule guide]
@@ -59,7 +60,8 @@ def fit_matrix(site, pos, pal, layout):
     if not GUIDE:
         return f, fell
     measured = layout.sidewalk_class(pos, site) != "check"
-    g = np.where(measured[:, None], d, f)
+    classed = np.array([s in layout.SIZE_CLASS for s in pal.species])     # no guide class (Celtis sinensis): not on
+    g = np.where(measured[:, None], d & classed[None, :], f)               # measured sidewalks (size_fits lets it pass)
     g[~g.any(1)] = f[~g.any(1)]
     return g, fell
 
