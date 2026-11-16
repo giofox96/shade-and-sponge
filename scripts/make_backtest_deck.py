@@ -184,7 +184,7 @@ def s_summary(s):
     cd.add_series("City planted", list(d.pt_city.round(0)))
     cd.add_series("Method", list(d.pt_method_bal.round(0)))
     ch = s.shapes.add_chart(XL_CHART_TYPE.BAR_CLUSTERED, Inches(M), Inches(1.45), Inches(8.3), Inches(5.55), cd).chart
-    style_chart(ch, [GRID, TREE], labels=False, size=9)
+    style_chart(ch, [WARN, TREE], labels=False, size=9)
     quiet_axes(ch, 0, gridlines=True)
     ch.plots[0].gap_width, ch.plots[0].overlap = 40, 0
     ch.value_axis.tick_labels.number_format, ch.value_axis.tick_labels.number_format_is_linked = '#,##0', False
