@@ -67,14 +67,33 @@ def fit_matrix(site, pos, pal, layout):
     return g, fell
 
 
-def works_groups():
+def corrections(d):
+    """Members that are inventory corrections, not replacements: the new tree keeps the code AND has the same planting
+    date as before, or a planting date more than a year before quarter_added. Case: group 6687 (El Clot), 12 trees
+    planted 2024-03-13 as Styphnolobium, re-identified as Quercus and moved ~6 m in 2026Q2, same codes and date.
+    Dates: databases/barcelona/backtest_planting_dates.csv (scripts/backtest_planting_dates.py)."""
+    pdt = pd.read_csv(DB / "backtest_planting_dates.csv", dtype=str).set_index(["codi", "quarter"]).data_plantacio
+    iso = pdt.where(~pdt.str.contains("/", na=False), pd.to_datetime(pdt, format="%d/%m/%Y", errors="coerce").dt.strftime("%Y-%m-%d"))
+    date = lambda cs, qs: pd.to_datetime(pd.Series([iso.get((c, q)) for c, q in zip(cs, qs)], index=d.index))  # noqa: E731
+    before, after = date(d.codi_out, d.quarter_removed), date(d.codi_in, d.quarter_added)  # releases mix d/m/Y and ISO
+    start = d.quarter_added.map(lambda q: pd.Period(q, "Q").start_time)
+    return (d.codi_out == d.codi_in) & ((after == before) | ((start - after).dt.days > 365))
+
+
+def works_groups(filter_corrections=True):
     src = (ROOT / "scripts/replacement_clusters.py").read_text(encoding="utf-8")
     ns = {"np": np, "pd": pd}
     exec(compile(ast.Module([n for n in ast.parse(src).body if isinstance(n, ast.FunctionDef) or
                              (isinstance(n, ast.Assign) and getattr(n.targets[0], "id", "") == "EPS")], []), "rc", "exec"), ns)
     d = pd.read_csv(DB / "inventory_replacements.csv")
     d["group"] = ns["groups"](d, ns["EPS"])
-    d = d.groupby("group").filter(lambda m: len(m) >= MIN_N and (m.size_in == "PRIMERA").mean() >= MIN_PRIM)
+    keep = lambda m: len(m) >= MIN_N and (m.size_in == "PRIMERA").mean() >= MIN_PRIM  # noqa: E731
+    d = d.groupby("group").filter(keep)
+    if filter_corrections:                       # inventory-correction filter, then the group rules again
+        drop = corrections(d)
+        for g, n in d[drop].groupby("group").size().items():
+            print(f"inventory correction: group {g}, {n} of {(d.group == g).sum()} members dropped")
+        d = d[~drop].groupby("group").filter(keep)
     reid = d.species_out.str.startswith("Tabebuia") & d.species_in.str.startswith("Handroanthus")
     return d[~d.group.isin(d[reid].group)]
 
