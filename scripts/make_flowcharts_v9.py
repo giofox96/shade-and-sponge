@@ -147,7 +147,67 @@ def flow_validation():
            "Ladybug Tools; Infrared City; Anys & Weiler 2024.")
 
 
+def flow_spots():
+    """Where new trees go (additions, scenario A / R + A): scripts/porta_planting_spots.py, porta_spot_exclusions.py,
+    porta_spot_exclusions_city.py; species by the same LP as replacements (layout.assign, layout.add_cap)."""
+    b = "".join(head(x, h) for x, h in zip((230, 620, 1000, 1370), ("Measure the sidewalk", "Street-tree guide",
+                                                                     "Clear of street objects", "Species")))
+    # 1. sketch: building, sidewalk, kerb, rays every 2 m, existing trees and new spots
+    x0, x1 = 90, 370
+    b += rect(x0, 250, x1 - x0, 70, GRID, rx=2) + t(230, 292, "building", 15, MUTED, anchor="middle")
+    b += rect(x0, 320, x1 - x0, 90, WHITE, rx=0)
+    b += f'<line x1="{x0}" y1="410" x2="{x1}" y2="410" stroke="{INK}" stroke-width="3"/>'
+    b += t(x1 - 4, 432, "kerb", 14, MUTED, anchor="end") + t(230, 470, "road", 15, MUTED, anchor="middle")
+    for x in range(105, 370, 22):
+        b += f'<line x1="{x}" y1="322" x2="{x}" y2="404" stroke="{RAIN}" stroke-width="1.2" stroke-opacity="0.6"/>'
+    b += t(x0 - 8, 370, "w", 18, RAIN, "bold", "end")
+    for x in (125, 315):
+        b += f'<circle cx="{x}" cy="392" r="13" fill="{TREE}"/>'
+    for x in (190, 250):
+        b += f'<circle cx="{x}" cy="392" r="13" fill="{WHITE}" stroke="{TREE}" stroke-width="2.5" stroke-dasharray="4 3"/>'
+    b += f'<circle cx="{110}" cy="530" r="9" fill="{TREE}"/>' + t(126, 535, "existing tree", 14, MUTED)
+    b += (f'<circle cx="{250}" cy="530" r="9" fill="{WHITE}" stroke="{TREE}" stroke-width="2.5" stroke-dasharray="4 3"/>'
+          + t(266, 535, "free spot", 14, MUTED))
+    b += t(230, 590, "A ray every 2 m from each façade", 15, MUTED, anchor="middle")
+    b += t(230, 610, "to the kerb gives the sidewalk width;", 15, MUTED, anchor="middle")
+    b += t(230, 630, "the spot sits 0.7 m in from the kerb", 15, MUTED, anchor="middle")
+    # 2. guide rules
+    for k, (lab, sub, c) in enumerate((("Sidewalk ≥ 2.5 m", "narrower: no tree", WARN),
+                                       ("Size class by width", "< 3.5 small · 3.5–6 medium · > 6 large", TREE),
+                                       ("Spacing 7 / 9 / 13 m", "by class, from every tree and spot", TREE))):
+        b += outline(620, 300 + 105 * k, lab, c, 300, 70, sub)
+    b += t(620, 640, "267 spots", 22, INK, "bold", "middle")
+    # 3. exclusions
+    for k, (lab, sub) in enumerate((("Crossings, signals, signs", "3 m"), ("Lamps", "half the guide: 1.5 / 2.25 / 3.25 m"),
+                                    ("Bus stops · garage entrances", "8 m · 3 m"), ("Bollards, benches, fountains", "1 m"))):
+        b += outline(1000, 280 + 88 * k, lab, HEAT, 310, 64, sub)
+    b += t(1000, 640, "267 → 232 → 152 spots", 22, INK, "bold", "middle")
+    b += t(1000, 664, "OSM, then the city's own object data", 14, MUTED, anchor="middle")
+    b += t(1000, 686, "Guide: signals, signs, lamp distance. Others: declared assumptions", 13, MUTED, anchor="middle")
+    # 4. species
+    b += box(1370, 330, "Same solver as replacements", INK, 300, 64, "HiGHS · one species per spot")
+    for k, s in enumerate(("Score: summer shade, winter sun,", "water kept from flood hotspots", "Only species that fit the size class",
+                           "15% cap on the larger stock")):
+        b += t(1370, 405 + 24 * k + (10 if k > 1 else 0), s, 15, MUTED, anchor="middle")
+    b += t(1370, 560, "Porta: 152 spots", 20, INK, "bold", "middle")
+    b += t(1370, 586, "82 small · 23 medium · 47 large", 15, MUTED, anchor="middle")
+    for x1_, x2_ in ((385, 465), (775, 840), (1160, 1215)):
+        b += curve(x1_, 380, x2_, 380, MUTED)
+    # bottom: criterion and result
+    b += rect(90, 700, 1420, 100, WHITE, rx=10)
+    b += t(120, 735, "Criterion:", 16, INK, "bold") + t(220, 735, "a spot is wherever the city's own guide allows a tree today. "
+                                                       "The tool does not rank spots: it fills each one", 16, MUTED)
+    b += t(220, 760, "with the species that scores best there. Upper bound: driveways and underground services are not in the data.", 16, MUTED)
+    b += t(120, 788, "Porta, replace + add: 101.7% of today's summer shade (city rule + add: 90.1%) · every spot planted: +0.4 points of canopy",
+           16, INK, "bold")
+    save("flow_08_spots", "Where new trees go", "Free spots from the sidewalk geometry and the city's rules; "
+         "then the same solver picks the species", b,
+         "Ajuntament de Barcelona: Gestió de l'arbrat viari de Barcelona (2011), Mapa base topogràfic 1:1000, Open Data BCN "
+         "street-object inventories; OpenStreetMap contributors (ODbL); HiGHS (Huangfu & Hall 2018).")
+
+
 if __name__ == "__main__":
     flow_overview()
     flow_highs()
     flow_validation()
+    flow_spots()
