@@ -233,11 +233,11 @@ def s_streetview(s):
         x = M + k * 6.2
         text(s, x, 1.45, 5.9, 0.35, lab, 15, INK, True)
         picture(s, SV / f, x, 1.85, 5.9, crop_top=0.0)
-    text(s, M, 4.75, W - 2 * M, 1.4, [
+    text(s, M, 5.35, W - 2 * M, 1.2, [
         [("Before: ", {"bold": True}), ("mature trees with crowns up to the first-floor balconies.", {})],
         [("After: ", {"bold": True}), ("one row of young trees in pits; the city planted Pyrus calleryana, a small species, "
                                        "as the 2011 guide allows on this sidewalk.", {})]], 14, INK)
-    source(s, f"Images: Google Street View, {da} / {db} © Google. Works: Betevé, 3 Mar 2022.")
+    source(s, f"Google Street View, {da} / {db} © Google. Works: Betevé, 3 Mar 2022.")
 
 
 def s_summary(s):
