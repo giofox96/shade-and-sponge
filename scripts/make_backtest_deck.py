@@ -249,7 +249,8 @@ def sv_slide(pair):
     ttl, a, da, b, db, ta, tb, src = pair
 
     def build(s):
-        head(s, "What the works look like on the street", ttl)
+        street, _, sub = ttl.partition(": ")
+        head(s, f"Before and after: {street}", sub)
         for k, (f, lab) in enumerate(((a, f"Before · {da}"), (b, f"After · {db}"))):
             x = M + k * 6.2
             text(s, x, 1.45, 5.9, 0.35, lab, 15, INK, True)
