@@ -239,7 +239,7 @@ SV_PAIRS = [   # title, before file, date, after file, date, before text, after 
      "one row of young trees in pits; the city planted Pyrus calleryana, a small species, as the 2011 guide allows "
      "on this sidewalk.", "Works: Betevé, 3 Mar 2022."),
     ("C. Bassols, Camp de l'Arpa: a road made pedestrian, then planted",
-     "3050_bassols_before_2018-05_crop.jpg", "May 2018", "3050_bassols_after_2022-01_crop.jpg", "Jan 2022",
+     "3050_Bassols_may-2018_crop.jpg", "May 2018", "3050_Bassols_jan-2022_crop.jpg", "Jan 2022",
      "a road with parking on one side and no trees.",
      "a single-surface street with a planting strip and young staked trees (Cercis and Corylus).",
      "Works: Ajuntament de Barcelona (Sant Martí), reurbanització del carrer de Bassols.")]
