@@ -1,5 +1,5 @@
 """Sensitivity: canopy storage s per species instead of one calibrated s = 1.75 mm per LAI for every species
-(user request 17 Nov). Porta, thesis configuration as scripts/sensitivity_capture_margin.py (city palette, size exact,
+(user request 17 Nov). Porta, thesis configuration as scripts/sensitivity_capture_margin.py (city palette and 30-species Barcelona palette, size exact,
 trunk TERCERA, plane replacement R, balanced weights), optimised layout vs the city's practice S1b (10 seeds, mean).
 Species s = 1.75 × S_species / 0.86, with S_species the all-surface storage of Xiao & McPherson 2016 (Table 4) and 0.86 mm
 their 20-species mean. ASSUMPTION: the evaporation part of the effective s scales with surface storage. Tilia takes the
@@ -19,13 +19,13 @@ S_SPECIES = {k: round(runoff.P_["s_mm_per_lai"] * v / 0.86, 3) for k, v in XIAO.
 S_SPECIES.update({"Tilia x euchlora": 1.85, "Tilia x europaea": 1.85})
 
 
-def run(label):
+def run(label, kind):
     site = load_site("porta")
     sun = {s: heat.design_suns(site, s) for s in heat.SEASONS}
     lit = {s: [heat.sunlit(site, *x) for x in sun[s]] for s in sun}
     p = runoff.design_storm(2, 60)
     gone = layout.removed(site.trees, None)
-    pal = layout.palette(site, "city", "TERCERA", gone)
+    pal = layout.palette(site, kind, "TERCERA", gone)
     pos = site.trees[gone].reset_index(drop=True)
     fit = layout.fits(site, pos, pal, "exact", cap=pal.cap.values)
     pot = {s: layout.shade_potential(site, pos, pal, sun[s], lit[s], heat.SEASONS[s]["month"]) for s in sun}
@@ -37,7 +37,7 @@ def run(label):
     s1b = pd.DataFrame([ev(layout.s1a_layout(pal, pal.cap.values, fit, np.random.default_rng(200 + k), layout.s1b_mix()))
                         for k in range(10)])[COLS].mean()
     o = pd.Series(ev(opt))[COLS]
-    row = dict(case=label, species_with_own_s=", ".join(f"{k} {v}" for k, v in runoff.S_SP.items()) or "none")
+    row = dict(case=label, palette=kind, species_with_own_s=", ".join(f"{k} {v}" for k, v in runoff.S_SP.items()) or "none")
     for k in COLS:
         row[f"opt_{k}"], row[f"s1b_{k}"], row[f"s0_{k}"] = o[k], s1b[k], s0[k]
     row["opt_summer_pct_today"] = 100 * o.shade_summer_m2h / s0["shade_summer_m2h"]
@@ -48,8 +48,11 @@ def run(label):
     return row
 
 
-rows = [run("one s (1.75)")]
-runoff.S_SP.update(S_SPECIES)
-rows.append(run("s per species"))
+rows = []
+for kind in ("city", "barcelona"):                  # thesis palette (city's species) and the 30-species Barcelona palette
+    runoff.S_SP.clear()
+    rows.append(run("one s (1.75)", kind))
+    runoff.S_SP.update(S_SPECIES)
+    rows.append(run("s per species", kind))
 pd.DataFrame(rows).round(3).to_csv(DB / "sensitivity_species_s.csv", index=False)
 print("wrote", DB / "sensitivity_species_s.csv")
