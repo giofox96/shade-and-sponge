@@ -29,6 +29,14 @@ SAY = {
              "and gives position 2 to B, losing only 0.1. A genetic or ant-colony search would obey the rules too, but would never "
              "know if it had found the best. HiGHS does it for Porta in 0.06 seconds, for the whole city in about ten, and the "
              "answer is always whole trees.",
+    "spots": "New trees work in two steps. First, where can a tree go at all? The tool walks every façade and casts a ray "
+             "every two metres to the kerb, which gives the sidewalk width. Then it applies the city's own street-tree guide: no "
+             "tree below two and a half metres, a size class from the width, and seven, nine or thirteen metres from any other "
+             "tree. Then it keeps the spots clear of crossings, signs, traffic lights, lamps, bus stops, garage entrances, "
+             "bollards and benches, from OpenStreetMap and the city's own object data. In Porta that leaves 152 spots. Second, "
+             "which species? The same solver as for replacements: it does not rank spots, it fills each one with the species "
+             "that scores best there on summer shade, winter sun and water kept from hotspots, within the size class and the "
+             "fifteen per cent cap. Driveways and underground services are not in the data, so 152 is an upper bound.",
     "why": "Angelos, you said it was too bold that every tree in a project area is felled. You were right, and the city's own "
            "documents say so. For replacing a plane or an elm, Parcs i Jardins lists five reasons, and street works come last: a "
            "project is an occasion to replace a tree that already qualifies. The inventory agrees. Of almost eleven thousand "
@@ -185,6 +193,10 @@ SLIDES = [
                         "One exact solve: the best layout that obeys every rule, and a proof that no other scores higher",
                         "HiGHS open-source solver (highs.dev; Huangfu & Hall 2018, Math. Prog. Comp. 10:119–142), via SciPy. "
                         "Example scores are illustrative.")),
+    ("spots", fig_slide("slides/fig_v9/flow_08_spots.png", "Where new trees go",
+                        "Free spots from the sidewalk geometry and the city's rules; then the same solver picks the species",
+                        "Ajuntament de Barcelona: Gestió de l'arbrat viari de Barcelona (2011), Mapa base topogràfic 1:1000, "
+                        "Open Data BCN street-object inventories; OpenStreetMap contributors (ODbL); HiGHS (Huangfu & Hall 2018).")),
     ("why", why_replace),
     ("assume", assumptions),
     ("position", position),
