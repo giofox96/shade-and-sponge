@@ -20,22 +20,51 @@ ASSUMPTION: scored on a local domain = 40 m around the positions (summer crown s
 Limits: trees the works removed without replacement, or added at new spots, are not in the decision set; the city's
 choice is not held to the sizing rule or façade clearance, the method's is.
 
-Run (PC with the barri rasters, as python -m shade_sponge "<barri>"): python scripts/backtest_works.py [--list]
-Outputs: databases/barcelona/backtest_works.csv (one row per group), backtest_works_positions.csv (one row per position)
+Rule variant `--rule guide` (decided by the user, 16 Nov 2026): where the sidewalk class was measured, only the 2011 guide's
+sizing rule decides; the crown-radius façade test (layout.fits, an ASSUMPTION stricter than the city's own practice, e.g.
+C. Piquer) applies only to "check" positions. Where no species fits, the best-scoring species the sizing rule allows is
+taken (the LP chooses among them), not the smallest crown. Species without a guide size class (Celtis sinensis) are not
+allowed on measured sidewalks, since size_fits cannot filter them; only rows with nothing allowed keep layout.fits' fallback.
+Every row reports fallback_share = positions where layout.fits had no choice (forced smallest crown).
+
+Run (PC with the barri rasters, as python -m shade_sponge "<barri>"): python scripts/backtest_works.py [--list] [--rule guide]
+Outputs: databases/barcelona/backtest_works[_guide].csv (one row per group), backtest_works[_guide]_positions.csv (one row
+per position)
 """
 import ast, copy, sys
 from pathlib import Path
 
 import numpy as np
 import pandas as pd
+from scipy import ndimage
 from scipy.spatial import cKDTree
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
-from shade_sponge.site import DB, BARRIS, norm, trees_porta, trees_barri  # noqa: E402
+from shade_sponge.site import DB, BARRIS, norm, rc, trees_porta, trees_barri  # noqa: E402
 
 R_MATCH, R_DOM, MIN_N, MIN_PRIM = 2.0, 40.0, 10, 0.5
 BAL, SUM = (0.5, 0.25, 0.25), (1.0, 0.0, 0.0)
+
+
+GUIDE = "--rule" in sys.argv and sys.argv[sys.argv.index("--rule") + 1] == "guide"
+CAP_SMALL = "--cap-small" in sys.argv     # sensitivity: guide "small" species at most crown 4 m, height 6 m (2011 guide limits)
+
+
+def fit_matrix(site, pos, pal, layout):
+    """Allowed species per position (see the docstring) and the mask of positions where layout.fits fell back."""
+    f = layout.fits(site, pos, pal, "exact", cap=pal.cap.values)
+    dist = ndimage.distance_transform_edt(~(site.roof | (site.bldg_h > 3))) * site.res   # layout.fits' façade test,
+    fac = dist[rc(site, pos.x.values, pos.y.values)][:, None] >= pal.crown_diam_m.values[None, :] / 2   # without fallback
+    d = layout.size_fits(layout.sidewalk_class(pos, site), pal.species, "exact") & (pal.cap.values > 0)[None, :]
+    fell = ~(fac & d).any(1) & (f.sum(1) == 1)
+    if not GUIDE:
+        return f, fell
+    measured = layout.sidewalk_class(pos, site) != "check"
+    classed = np.array([s in layout.SIZE_CLASS for s in pal.species])     # no guide class (Celtis sinensis): not on
+    g = np.where(measured[:, None], d & classed[None, :], f)               # measured sidewalks (size_fits lets it pass)
+    g[~g.any(1)] = f[~g.any(1)]
+    return g, fell
 
 
 def works_groups():
@@ -128,7 +157,12 @@ def main():
             area = MultiPoint(xy).buffer(R_DOM)
             loc.domain = rasterize([(area, 1)], out_shape=site.domain.shape, transform=site.transform, fill=0).astype(bool)
             pal = layout.palette(site, "barcelona", "TERCERA", gone)
-            fit = layout.fits(site, pos, pal, "exact", cap=pal.cap.values)
+            if CAP_SMALL:                # same capped sizes for the city's and the method's trees (traits_lookup reads pal)
+                sm = pal.species.map(lambda s: layout.SIZE_CLASS.get(s.replace("×", "x"), layout.SIZE_CLASS.get(s))) == "small"
+                pal.loc[sm, "crown_diam_m"] = pal.loc[sm, "crown_diam_m"].clip(upper=4.0)
+                pal.loc[sm, "height_m"] = pal.loc[sm, "height_m"].clip(upper=6.0)
+                pal.loc[sm, "crown_base_m"] = np.minimum(pal.loc[sm, "crown_base_m"], pal.loc[sm, "height_m"] - 1.0)
+            fit, fell = fit_matrix(site, pos, pal, layout)
             pot = {s: layout.shade_potential(loc, pos, pal, sun[s], lit[s], heat.SEASONS[s]["month"]) for s in sun}
             water = layout.water_potential(loc, pos, pal, p_mm)
             sw = layout.sweep({"summer": (pot["summer"], 1), "winter": (pot["winter"], -1), "runoff": (water, 1)},
@@ -141,6 +175,7 @@ def main():
                      top_before=pd.Series(lay["before"]).mode()[0], top_city=pd.Series(lay["city"]).mode()[0],
                      top_method_bal=pd.Series(lay["method_bal"]).mode()[0], x=xy[:, 0].mean(), y=xy[:, 1].mean(),
                      size_class_measured=float((layout.sidewalk_class(pos, site) != "check").mean()),
+                     fallback_share=float(fell.mean()),
                      city_species_in_palette=float(np.isin(lay["city"], pal.species).mean()),
                      traits_src="; ".join(sorted({f"{s}: {get(s)[1]}" for s in set(lay["before"] + lay["city"]) if get(s)[1] != "palette"})))
             for k, sp in lay.items():
@@ -161,8 +196,9 @@ def main():
                                  **{f"crown_{k}": get(lay[k][i])[0]["crown_diam_m"] for k in lay if k != "none"}))
             print(f"{slug} {r['quarter']} n={r['n']}: {r['top_before']} -> city {r['top_city']} "
                   f"{r['summer_pct_city']:.0f}% | method {r['top_method_bal']} {r['summer_pct_method_bal']:.0f}% of the removed trees' summer shade")
-    pd.DataFrame(rows).round(3).to_csv(DB / "backtest_works.csv", index=False)
-    pd.DataFrame(prow).round(2).to_csv(DB / "backtest_works_positions.csv", index=False)
+    tag = ("_guide" if GUIDE else "") + ("_capsmall" if CAP_SMALL else "")
+    pd.DataFrame(rows).round(3).to_csv(DB / f"backtest_works{tag}.csv", index=False)
+    pd.DataFrame(prow).round(2).to_csv(DB / f"backtest_works{tag}_positions.csv", index=False)
 
 
 if __name__ == "__main__":

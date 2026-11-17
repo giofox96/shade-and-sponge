@@ -24,8 +24,12 @@ from make_deck_editable import (text, box, head, source, picture, style_chart, q
 DB = Path(sys.argv[1]) if len(sys.argv) > 1 else ROOT / "databases/barcelona"
 FIG = ROOT / "slides/fig_backtest"
 FIG.mkdir(exist_ok=True)
-r = pd.read_csv(DB / "backtest_works.csv")
-p = pd.read_csv(DB / "backtest_works_positions.csv")
+RUN = "_guide_capsmall"        # 2011 guide sizing on measured sidewalks, "small" species capped at the guide's limits
+RUNS = (("", "Our façade test", "crown radius ≤ distance to the façade raster"),
+        ("_guide", "2011 guide only", "sidewalk width → size class"),
+        (RUN, "Guide + small sizes capped", "small species ≤ 4 m crown, ≤ 6 m height"))
+r = pd.read_csv(DB / f"backtest_works{RUN}.csv")
+p = pd.read_csv(DB / f"backtest_works{RUN}_positions.csv")
 r = r.merge(pd.read_csv(DB / "backtest_works_sources.csv")[["group", "street", "works_status", "evidence", "url"]], how="left")
 DOC = r.works_status.isin(["confirmed", "compatible"])
 ORIGIN = json.load(open(ROOT / "exchange/site_origin.json"))
@@ -48,8 +52,7 @@ inv_norm = backtest_survival.ih_norm()
 
 
 def short(sp):
-    g, *rest = [w for w in sp.split() if w not in ("×", "x")]
-    return f"{g[0]}. {rest[0]}" if rest else g
+    return " ".join(sp.split()[:3] if sp.split()[1:2] in (["×"], ["x"]) else sp.split()[:2])   # full genus + species
 
 
 # ---------------------------------------------------------------- figures
@@ -85,6 +88,36 @@ def context(slug, box_):
     return b.cx[x0:x1, y0:y1], t[t.x.between(x0, x1) & t.y.between(y0, y1)]
 
 
+ROADS = DB / "backtest_map_roads.geojson"          # kerb lines, 1:1000 map (scripts/backtest_map_roads.py)
+roads = gpd.read_file(ROADS) if ROADS.exists() else None
+
+
+def street_labels(trees, xy, box_):
+    """(name, x, y, angle, main) for streets with >= 4 inventory trees in the box; main = the street of the positions."""
+    t = trees.dropna(subset=["street"])
+    if t.empty:
+        return []
+    d = np.min(np.hypot(t.x.values[:, None] - xy[:, 0], t.y.values[:, None] - xy[:, 1]), 1)
+    main = t[d < 3].street.mode()
+    out = []
+    for st, g in t.groupby("street"):
+        if len(g) < 4:
+            continue
+        c = g[["x", "y"]].values - g[["x", "y"]].values.mean(0)
+        v = np.linalg.svd(c, full_matrices=False)[2][0]
+        a = np.degrees(np.arctan2(v[1], v[0]))
+        a = a - 180 if a > 90 else a + 180 if a < -90 else a
+        x0, y0, x1, y1 = box_
+        mx = my = 0.2 * (x1 - x0)       # label at the street tree farthest from the positions, kept inside
+        inner = g[g.x.between(x0 + mx, x1 - mx) & g.y.between(y0 + my, y1 - my)]
+        inner = inner if len(inner) else g
+        far = inner.iloc[np.argmax(np.min(np.hypot(inner.x.values[:, None] - xy[:, 0], inner.y.values[:, None] - xy[:, 1]), 1))]
+        name = st.replace("C\\ ", "C. ").replace("Av\\ ", "Av. ").replace("Pg\\ ", "Pg. ").replace("Pl\\ ", "Pl. ") \
+            .replace("G.V. Corts Catalanes", "Gran Via").replace("\\", ".").replace("Av ", "Av. ")
+        out.append((name, far.x, far.y, a, len(main) and st == main.iloc[0]))
+    return out
+
+
 def area_map(row, fname):
     q = p[p.group == row.group]
     pad = 30
@@ -94,6 +127,8 @@ def area_map(row, fname):
     bb = (cx - side / 2, cy - side / 2, cx + side / 2, cy + side / 2)
     bld, trees = context(row.barri, bb)
     xy = q[["x", "y"]].values
+    labels = street_labels(trees, xy, bb)
+    kerb = roads[roads.group == row.group] if roads is not None else None
     near = np.min(np.hypot(trees.x.values[:, None] - xy[:, 0], trees.y.values[:, None] - xy[:, 1]), 1) > 2 if len(trees) else []
     trees = trees[near] if len(trees) else trees
     allsp = pd.concat([q.sp_before, q.sp_city, q.sp_method_bal]).value_counts().index
@@ -102,11 +137,17 @@ def area_map(row, fname):
               ("method_bal", "Method", row.pt_method_bal))
     fig, axes = plt.subplots(1, 3, figsize=(13, 4.9), dpi=200)
     for ax, (k, ttl, pct) in zip(axes, panels):
-        bld.plot(ax=ax, color="#D3CEC2", edgecolor="none")
+        if kerb is not None and len(kerb):
+            kerb.plot(ax=ax, color="#9A9488", linewidth=0.35, alpha=0.5, zorder=0)
+        gpd.GeoSeries([bld.geometry.buffer(0.05).union_all()]).plot(ax=ax, color="#D3CEC2", edgecolor="none", linewidth=0)
         for x, y, d in zip(trees.x, trees.y, trees.crown_diam_m):
             ax.add_patch(Circle((x, y), max(d, 1) / 2, color="#B9B4A8", alpha=0.45, lw=0))
         for x, y, s, d in zip(q.x, q.y, q[f"sp_{k}"], q[f"crown_{k}"]):
             ax.add_patch(Circle((x, y), d / 2, facecolor=col[s], alpha=0.85, edgecolor="white", lw=0.6))
+        for name, x, y, a, main in labels:
+            ax.text(x, y, name, rotation=a, rotation_mode="anchor", ha="center", va="center", fontsize=7.5,
+                    color=MUTED, zorder=5,
+                    bbox=dict(facecolor=BG, edgecolor="none", alpha=0.75, pad=1.2))
         ax.set_xlim(bb[0], bb[2])
         ax.set_ylim(bb[1], bb[3])
         ax.set_aspect("equal")
@@ -116,7 +157,7 @@ def area_map(row, fname):
         cnt = q[f"sp_{k}"].value_counts()
         ax.legend(handles=[Patch(color=col[s], label=f"{short(s)} ({n})") for s, n in cnt.head(4).items()] +
                   ([Patch(color="#999999", label=f"other ({cnt.iloc[4:].sum()})")] if len(cnt) > 4 else []),
-                  loc="upper center", bbox_to_anchor=(0.5, -0.01), ncol=2, frameon=False, fontsize=9.5)
+                  loc="upper left", bbox_to_anchor=(0, -0.01), ncol=1, borderaxespad=0, handlelength=1.2, frameon=False, fontsize=9.5)
     axes[0].plot([bb[0] + 5, bb[0] + 25], [bb[1] + 5] * 2, color=INK, lw=2)
     axes[0].text(bb[0] + 15, bb[1] + 7, "20 m", ha="center", fontsize=8, color=INK)
     fig.tight_layout()
@@ -138,8 +179,8 @@ def s_test(s):
     steps = [("1  Find the replacements", f"{len(r)} groups that look like plantings (new trees in the smallest trunk class), "
               f"in barris with LiDAR crowns; {DOC.sum()} match documented street works"),
              ("2  Freeze everything else", "Every other street tree stays as measured; only the replaced positions change"),
-             ("3  Two answers per position", "City: the species it actually planted. Method: the optimiser, with the 15% cap, "
-              "sidewalk-width sizing and façade clearance"),
+             ("3  Two answers per position", "City: the species it actually planted. Method: the optimiser, with the 15% cap "
+              "and the 2011 guide's sidewalk-width sizing"),
              ("4  Score at equal size", "All species at the same trunk class, so young vs mature does not decide. "
               "Summer shade 12–17 h, storm runoff")]
     for k, (a, b) in enumerate(steps):
@@ -173,8 +214,8 @@ def s_works(s):
         [("Compatible: ", {"bold": True, "color": WARN}), ("works in the right street and period; the source does not mention trees.", {})],
         [(f"The other {(~DOC).sum()} groups: ", {"bold": True}), ("no works found. They fit the city's replacement campaigns, which "
                                                           "remove fragile or invasive species such as Ulmus pumila and Robinia.", {})],
-        [("Where the works are documented, ", {"bold": True}), ("the method wins on the wide streets and loses on Piquer, "
-                                                              "a narrow street where only small trees fit.", {})]], 13, INK)
+        [("Where the works are documented, ", {"bold": True}), ("the method wins clearly on the wide streets; on Piquer, "
+                                                              "a narrow street where only small trees fit, the gap is small either way.", {})]], 13, INK)
     source(s, "Betevé, 3 Mar 2022 (carrer de Piquer) and 21 Sep 2015 (replacement campaign); Ajuntament de Barcelona: works notice Av. "
               "Rio de Janeiro (Dec 2022), Obres news 8 Jan 2026 (Gran Via, Trambesòs), Sant Martí project sheet carrer de Bassols (2018); "
               "Consell de Barri de Porta, 12 Nov 2025.")
@@ -200,6 +241,29 @@ def s_summary(s):
     tot = 100 * ((r.pt_method_bal * r.n).sum() / (r.pt_city * r.n).sum() - 1)
     card(s, 9.2, 5.05, 3.6, 1.6, f"{tot:+.0f}%", f"all {r.n.sum()} positions together, method vs city", TREE, 30, 13)
     source(s, SRC)
+
+
+def s_rules(s):
+    head(s, "Which rule decides the result?", "The same back-test under three readings of the planting rules; summer shade per tree")
+    for k, (tag, ttl, how) in enumerate(RUNS):
+        d = pd.read_csv(DB / f"backtest_works{tag}.csv")
+        pc, pm = [(d[f"shade_summer_{c}"] - d.shade_summer_none) / d.n for c in ("city", "method_bal")]
+        x, c = M + k * 4.15, TREE if tag == RUN else MUTED
+        box(s, x, 1.55, 3.9, 3.6, tint(c, 0.10))
+        text(s, x + 0.25, 1.7, 3.4, 0.4, ttl, 17, c, True)
+        text(s, x + 0.25, 2.1, 3.4, 0.4, how, 12, MUTED)
+        text(s, x + 0.25, 2.7, 3.4, 2.4, [
+            [(f"{pm.median() / pc.median() - 1:+.0%}", {"bold": True, "size": 30, "color": c}), ("  median per tree", {})],
+            [(f"{int((pm > pc * 1.01).sum())} of {len(d)}", {"bold": True, "size": 30, "color": c}), ("  areas won", {})],
+            [(f"{(pm * d.n).sum() / (pc * d.n).sum() - 1:+.0%}", {"bold": True, "size": 30, "color": c}),
+             ("  all positions", {})]], 13, INK)
+    text(s, M, 5.45, W - 2 * M, 1.2, [
+        [("Our first façade test was stricter than the city's rule: ", {"bold": True}),
+         ("on narrow streets with balconies it left only the smallest species, so the method lost there.", {})],
+        [("Small species are capped ", {"bold": True}), ("because the LiDAR sizes of a few Hibiscus include canopy above them. "
+                                                         "The result shown in this deck is the right-hand one.", {})]], 13, INK)
+    source(s, "Gestió de l'arbrat viari de Barcelona (2011): size classes and sidewalk widths. Open Data BCN street-tree inventory "
+              "(CC BY 4.0); ICGC LiDAR 2021–2022.")
 
 
 def s_runoff(s):
@@ -277,12 +341,13 @@ def s_limits(s):
                                                          "they may be replacement campaigns. The inventory records what was planted either way.", {})],
         [("Only the replaced positions. ", {"bold": True}), ("Trees removed without a replacement, or added at new spots, "
                                                              "are not in the decision set.", {})],
-        [("Different rules. ", {"bold": True}), ("The method obeys the 2011 sizing guide and façade clearance; the city's planting is "
+        [("Different rules. ", {"bold": True}), ("The method obeys the 2011 sizing guide (not its 0.5 m balcony clearance); the city's planting is "
                                                  "scored as planted, even where it does not.", {})],
         [("Unknown reasons. ", {"bold": True}), ("The inventory says what changed, not why: pests, drought or a design choice "
                                                  "may have ruled species out.", {})],
         [("Missing crowns. ", {"bold": True}), ("Species with too few LiDAR-measured trees take the city's average crown; "
-                                                "for the shrubby Tecoma stans (Poble-sec 2019) this overstates the city's shade.", {})],
+                                                "for the shrubby Tecoma stans (Poble-sec 2019) this overstates the city's shade. "
+                                                "Small species are capped at the guide's adult size.", {})],
         [("Proxy. ", {"bold": True}), ("Heat is the shade proxy; full UTCI only on selected layouts (Ladybug, Infrared City).", {})]],
         17, INK)
     source(s, SRC)
@@ -297,9 +362,13 @@ SAY = {
             "crowns. For each one I froze every other tree, and gave the same positions two answers: what the city actually "
             "planted, and what the method would have chosen under the city's rules.",
     "summary": "This is the result: summer shade per new tree, at the same trunk size, the city's choice in grey and the "
-               "method's in green. The method gives more shade in 17 of the 27 areas. Where it loses, the sidewalks are narrow and "
+               "method's in green. The method gives more shade in most areas. Where it loses, the sidewalks are narrow and "
                "only small species fit, so both choices give little shade and the gap is small. Where it wins, the gap is large, "
                "for example in Porta, where the city replaced poplars with ash.",
+    "rules": "Does the result depend on how I read the rules? My first version used a façade test stricter than the city's "
+             "own guide, and on narrow streets with balconies it left only the smallest species. With the guide's rule alone, "
+             "and with small species held to the guide's adult size, the method still wins in most areas, by about the same "
+             "margin overall.",
     "runoff": "On runoff the method has to do no harm. These are the differences towards the flood hotspots.",
     "species": "What differs is the species mix: here are the species removed, planted by the city, and chosen by the method.",
     "survival": "A real-world check no simulation gives: did the city's new trees survive? Nine in ten of the trees "
@@ -327,7 +396,7 @@ def build():
     def sub(row):
         return (f"{row.n} trees, {row.quarter}: {short(row.top_before)} → city {short(row.top_city)}, "
                 f"method mostly {short(row.top_method_bal)}")
-    slides = [(None, s_title), ("test", s_test), ("works", s_works), ("summary", s_summary)]
+    slides = [(None, s_title), ("test", s_test), ("works", s_works), ("summary", s_summary), ("rules", s_rules)]
     slides += [(f"map_{k}", s_map(k, row, t + row.label, sub(row))) for (k, row), t in
                zip(ex, ("Works in ", "Works, method wins: ", "Works, city wins: "))]
     slides += [("runoff", s_runoff), ("species", s_species), ("survival", s_survival), ("limits", s_limits)]
