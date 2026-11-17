@@ -1,21 +1,27 @@
 # Thesis outline (draft 1, 26 Oct 2026)
 
 **Structure:** the tutor's three parts (CLAUDE.md, "Tutor's requirements"): **Purpose → Background → Contribution to knowledge.**
+**IAAC submission rules (MaCAD Final Thesis Booklet Submission Information, received 17 Nov):** A4 portrait; body 10,000–30,000 words, about 100–200 pages with images; the body must cover **A. Introduction** (context, problem, question, hypothesis, aims, method, state of the art), **B. Development and Research Materials**, **C. Results**, **D. Discussion / Conclusions**. Mapping: A = ch. 1–4, B = ch. 5–6, C = ch. 7, D = ch. 8–9.
+**Delivery (15 Dec, defence day):** high-resolution printable PDF + HR images folder, and the InDesign package (fonts, .IDML, HR pictures). Layout in DesignCraft (IDML export) on the IAAC A4 booklet template; text stays in Markdown here.
 **Framing:** "a computational method for X", not "research on X".
-**Citation style:** APA 7, author–date (no IAAC/UdL rule found, 26 Oct; confirm with the tutor).
+**Citation style:** **Harvard** (IAAC rule, 17 Nov), at least 20 references.
 
 **Paths:** a bare file name (e.g. `topic_decision.md`) is in `notes/` or `notes/decisions/`.
 **Status key:** ✅ material is in the notes and ready to draft · 🟡 partial, or a decision is still open · ❌ result not produced yet.
 
-**Length:** about 60–80 pages of body text (`ASSUMPTION`; no rule found). The percentages are each chapter's share.
+**Length:** 10,000–30,000 words, about 100–200 pages with images (IAAC rule). The percentages are each chapter's share.
 
 **Working title:** *Shade and Sponge: a trait-based method for choosing plane-tree replacements that keep cooling and storm-water interception in Barcelona* (`ASSUMPTION`, to agree).
 
 ---
 
-## Front matter
-- Abstract (250 words), keywords. Write it **last**.
-- Acknowledgements, list of figures and tables, abbreviations (UTCI, LAI, SCS-CN, CN, CHM, DTM, T2-60, S0/S1a/R/A/R+A).
+## Front matter (IAAC order)
+- **Cover** (A4): title, author, supervisors, thesis cluster, "2025 - 2026", new IAAC logo.
+- **Title page** (1 page): title and subtitle (searchable, no unusual acronyms), author, supervisor(s), institution, master programme, place and date (month, year).
+- **Abstract** (≤ 500 words, 1 page): problem, research question, hypothesis, experiments, results; **≤ 5 keywords**. Write it **last**.
+- Preface (optional, ≤ 3 pages): reader's guide, acknowledgements.
+- **Table of contents** (≤ 3 pages).
+- Glossary / abbreviations (UTCI, LAI, SCS-CN, CN, CHM, DTM, T2-60, S0/S1a/S1b/R/A/R+A); may go at the end instead.
 
 ---
 
@@ -120,18 +126,19 @@
 ---
 
 ## Back matter
-- **References** (APA 7, generated from Zotero).
+- **Bibliography** (Harvard, ≥ 20 references, generated from Zotero).
 - **Appendix A:** parameter table, each one sourced or marked `ASSUMPTION` (from the README tables and `notes/methodology.md`).
 - **Appendix B:** data sources and licences (`databases/data_inventory_barcelona.md`).
 - **Appendix C:** tool user guide (`study/tool_tutorial.md`, shortened).
 - **Appendix D:** code and data availability (the repository, the web app URL).
+- **Back cover** (A4): new IAAC logo.
 
 ## Before drafting (open items that change the text)
 1. **Ladybug Tier 1 UTCI** on one street (6.3, 7.4): the only ❌ in Purpose to Validation.
 2. **Weather forcing** decision (4.2).
 3. **Methodology §12** proposed changes: adopt or drop (ch. 5).
 4. **Zotero:** add Kendal 2014, Santamour 1990 and Nieuwenhuijsen 2022 (in `papers/`, not in the `THESIS_MACAD` collection, checked 26 Oct).
-5. Confirm the citation style, length and format with the tutor.
+5. ~~Confirm the citation style, length and format with the tutor.~~ Settled by the IAAC rules (17 Nov): Harvard, 10,000–30,000 words, A4.
 
 ## Suggested drafting order
 Chapter 3 → 2 → 4 → 5 → 1 → 6 → 7 → 8 → 9 → abstract.
