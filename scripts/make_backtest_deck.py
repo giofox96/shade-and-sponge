@@ -118,6 +118,15 @@ def street_labels(trees, xy, box_):
     return out
 
 
+# New planting, not a replacement: C. Bassols was an asphalt road with no trees until the 2018-19 works (Street View
+# 2018; no trees at the 20 positions in the 2018Q1-2019Q4 inventory). Tilia registered 2020, same 20 codes Cercis/Corylus
+# from 2021Q1 (replanting or inventory correction). The "before" layer is not shown.
+NEW_STREET = {3050}
+# Av. Rio de Janeiro: the poplars were felled a few at a time (15 -> 0 between 2022Q3 and 2024Q4, inventory) and the
+# 22 positions replanted together in Oct-Nov 2025 (inventory planting dates).
+STAGGERED = {6128: ("Removed 2022–24", "poplars felled one by one 2022–24, replanted together Oct–Nov 2025")}
+
+
 def area_map(row, fname):
     q = p[p.group == row.group]
     pad = 30
@@ -133,7 +142,8 @@ def area_map(row, fname):
     trees = trees[near] if len(trees) else trees
     allsp = pd.concat([q.sp_before, q.sp_city, q.sp_method_bal]).value_counts().index
     col = {s: SPCOL[i % len(SPCOL)] for i, s in enumerate(allsp)}
-    panels = (("before", "Removed", row.pt_before), ("city", "City planted", row.pt_city),
+    new = row.group in NEW_STREET
+    panels = (("before", "Before the works: road, no trees" if new else STAGGERED.get(row.group, ("Removed",))[0], row.pt_before), ("city", "City planted", row.pt_city),
               ("method_bal", "Method", row.pt_method_bal))
     fig, axes = plt.subplots(1, 3, figsize=(13, 4.9), dpi=200)
     for ax, (k, ttl, pct) in zip(axes, panels):
@@ -142,7 +152,7 @@ def area_map(row, fname):
         gpd.GeoSeries([bld.geometry.buffer(0.05).union_all()]).plot(ax=ax, color="#D3CEC2", edgecolor="none", linewidth=0)
         for x, y, d in zip(trees.x, trees.y, trees.crown_diam_m):
             ax.add_patch(Circle((x, y), max(d, 1) / 2, color="#B9B4A8", alpha=0.45, lw=0))
-        for x, y, s, d in zip(q.x, q.y, q[f"sp_{k}"], q[f"crown_{k}"]):
+        for x, y, s, d in ([] if new and k == "before" else zip(q.x, q.y, q[f"sp_{k}"], q[f"crown_{k}"])):
             ax.add_patch(Circle((x, y), d / 2, facecolor=col[s], alpha=0.85, edgecolor="white", lw=0.6))
         for name, x, y, a, main in labels:
             ax.text(x, y, name, rotation=a, rotation_mode="anchor", ha="center", va="center", fontsize=7.5,
@@ -152,9 +162,9 @@ def area_map(row, fname):
         ax.set_ylim(bb[1], bb[3])
         ax.set_aspect("equal")
         ax.set_axis_off()
-        sub = f"  ·  {pct:,.0f} m²·h per tree"
+        sub = "" if new and k == "before" else f"  ·  {pct:,.0f} m²·h per tree"
         ax.set_title(ttl + sub, loc="left", fontsize=13, color=INK, fontweight="bold")
-        cnt = q[f"sp_{k}"].value_counts()
+        cnt = q[f"sp_{k}"].value_counts().iloc[:0] if new and k == "before" else q[f"sp_{k}"].value_counts()
         ax.legend(handles=[Patch(color=col[s], label=f"{short(s)} ({n})") for s, n in cnt.head(4).items()] +
                   ([Patch(color="#999999", label=f"other ({cnt.iloc[4:].sum()})")] if len(cnt) > 4 else []),
                   loc="upper left", bbox_to_anchor=(0, -0.01), ncol=1, borderaxespad=0, handlelength=1.2, frameon=False, fontsize=9.5)
@@ -217,8 +227,38 @@ def s_works(s):
         [("Where the works are documented, ", {"bold": True}), ("the method wins clearly on the wide streets; on Piquer, "
                                                               "a narrow street where only small trees fit, the gap is small either way.", {})]], 13, INK)
     source(s, "Betevé, 3 Mar 2022 (carrer de Piquer) and 21 Sep 2015 (replacement campaign); Ajuntament de Barcelona: works notice Av. "
-              "Rio de Janeiro (Dec 2022), Obres news 8 Jan 2026 (Gran Via, Trambesòs), Sant Martí project sheet carrer de Bassols (2018); "
+              "Rio de Janeiro (Dec 2022), Sant Martí project sheet carrer de Bassols (2018); "
               "Consell de Barri de Porta, 12 Nov 2025.")
+
+
+SV = DB / "raw/streetview"     # Google Street View crops, local only (gitignored: not redistributable)
+SV_PAIRS = [   # title, before file, date, after file, date, before text, after text, source
+    ("C. Piquer, Poble-sec: Robinia → Pyrus (confirmed works)",
+     "4506_Piquer_jan-2022_crop.jpg", "Jan 2022", "4506_Piquer_aug-2024_crop.jpg", "Aug 2024",
+     "mature trees with crowns up to the first-floor balconies.",
+     "one row of young trees in pits; the city planted Pyrus calleryana, a small species, as the 2011 guide allows "
+     "on this sidewalk.", "Works: Betevé, 3 Mar 2022."),
+    ("C. Bassols, Camp de l'Arpa: a road made pedestrian, then planted",
+     "3050_Bassols_may-2018_crop.jpg", "May 2018", "3050_Bassols_jan-2022_crop.jpg", "Jan 2022",
+     "a road with parking on one side and no trees.",
+     "a single-surface street with a planting strip and young staked trees (Cercis and Corylus).",
+     "Works: Ajuntament de Barcelona (Sant Martí), reurbanització del carrer de Bassols.")]
+
+
+def sv_slide(pair):
+    ttl, a, da, b, db, ta, tb, src = pair
+
+    def build(s):
+        street, _, sub = ttl.partition(": ")
+        head(s, f"Before and after: {street}", sub)
+        for k, (f, lab) in enumerate(((a, f"Before · {da}"), (b, f"After · {db}"))):
+            x = M + k * 6.2
+            text(s, x, 1.45, 5.9, 0.35, lab, 15, INK, True)
+            picture(s, SV / f, x, 1.85, 5.9, crop_top=0.0)
+        text(s, M, 5.35, W - 2 * M, 1.2, [[("Before: ", {"bold": True}), (ta, {})],
+                                          [("After: ", {"bold": True}), (tb, {})]], 14, INK)
+        source(s, f"Google Street View, {da} / {db} © Google. {src}")
+    return build
 
 
 def s_summary(s):
@@ -290,7 +330,7 @@ def s_map(key, row, ttl, sub):
 
 
 def s_species(s):
-    head(s, "What differs is the species, not the number of trees", "All positions of the 27 groups, counted together")
+    head(s, "What differs is the species, not the number of trees", f"All positions of the {len(r)} groups, counted together")
     for k, (col, ttl, c) in enumerate((("sp_before", "Removed", MUTED), ("sp_city", "City planted", WARN),
                                        ("sp_method_bal", "Method", TREE))):
         x = M + k * 4.15
@@ -312,7 +352,7 @@ def s_survival(s):
     ages = [x for x in a.age.unique() if x != "all"]
     cd = CategoryChartData()
     cd.categories = [f"{x} yr" for x in ages]
-    for k, lab in (("all replacements", "All city replacements"), ("back-test", "The 27 groups")):
+    for k, lab in (("all replacements", "All city replacements"), ("back-test", f"The {len(r)} groups")):
         cd.add_series(lab, [float(a[(a.set == k) & (a.age == x)].alive.iloc[0]) for x in ages])
     ch = s.shapes.add_chart(XL_CHART_TYPE.COLUMN_CLUSTERED, Inches(M), Inches(1.55), Inches(7.6), Inches(5.0), cd).chart
     style_chart(ch, [MUTED, WARN], fmt='0%', size=11)
@@ -320,7 +360,7 @@ def s_survival(s):
     ch.value_axis.tick_labels.number_format, ch.value_axis.tick_labels.number_format_is_linked = '0%', False
     tot = a[a.age == "all"].set_index("set")
     card(s, 8.6, 1.55, 4.2, 1.6, f"{tot.alive['back-test']:.0%}", f"of the {tot.n['back-test']} trees the city planted in the "
-         "27 groups still stand", WARN, 30, 13)
+         f"{len(r)} groups still stand", WARN, 30, 13)
     n_ok = sp.n >= MIN_SP                                   # age-standardised survival of the species each layout uses
     surv = {k: p[k].map(inv_norm).map(sp.alive_std.where(n_ok)) for k in ("sp_city", "sp_method_bal")}
     card(s, 8.6, 3.3, 4.2, 1.6, f"{surv['sp_city'].mean():.0%} vs {surv['sp_method_bal'].mean():.0%}",
@@ -354,8 +394,8 @@ def s_limits(s):
 
 
 SAY = {
-    "works": "Are these real street works? For six groups I found the works in the city's notices or the press: Piquer is "
-             "confirmed, with the tree change named; Rio de Janeiro, Gran Via and Bassols are compatible. For the other 21 I found no "
+    "works": f"Are these real street works? For {DOC.sum()} groups I found the works in the city's notices or the press: Piquer is "
+             f"confirmed, with the tree change named; Rio de Janeiro and Bassols are compatible. For the other {(~DOC).sum()} I found no "
              "works: they are probably replacement campaigns. Either way the inventory records what the city actually planted.",
     "test": "To test the method against reality, I looked for groups of replacements in the city's own tree inventory: places where ten or "
             "more trees changed species in the same quarter. I kept the ones that look like real plantings, and where I have LiDAR "
@@ -369,6 +409,10 @@ SAY = {
              "own guide, and on narrow streets with balconies it left only the smallest species. With the guide's rule alone, "
              "and with small species held to the guide's adult size, the method still wins in most areas, by about the same "
              "margin overall.",
+    "streetview_1": "Carrer de Bassols in 2018 was a road with parking and no trees; the works made it a single-surface street "
+                    "and planted it from scratch. So here the city's planting is a new one, not a replacement.",
+    "streetview_0": "This is carrer de Piquer before and after the works: mature trees in 2022, a row of young pears in 2024. "
+                  "On a street this narrow only small species fit, and that is where the method's advantage is smallest.",
     "runoff": "On runoff the method has to do no harm. These are the differences towards the flood hotspots.",
     "species": "What differs is the species mix: here are the species removed, planted by the city, and chosen by the method.",
     "survival": "A real-world check no simulation gives: did the city's new trees survive? Nine in ten of the trees "
@@ -388,15 +432,26 @@ def build():
     ex = [("home", home), ("best", best), ("worst", worst)]
     for k, row in ex:
         area_map(row, f"map_{k}.png")
-        SAY[f"map_{k}"] = (f"{row.label}: {row.n} trees of {row.top_before} replaced in {row.quarter}. On the left what was removed, "
+        SAY[f"map_{k}"] = (f"{row.label}: a street pedestrianised in 2018-19, so a new planting, not a replacement: before the works "
+                           f"it was a road with no trees. The city planted mostly {row.top_city}, the method would have chosen mostly "
+                           f"{row.top_method_bal}: {row.pt_city:.0f} against {row.pt_method_bal:.0f} square-metre-hours of summer shade "
+                           f"per tree.") if row.group in NEW_STREET else \
+                          (f"{row.label}: {row.n} trees of {row.top_before} replaced in {row.quarter}. On the left what was removed, "
                            f"in the middle what the city planted, mostly {row.top_city}, on the right what the method would have "
                            f"chosen, mostly {row.top_method_bal}. Per tree: {row.pt_before:.0f}, {row.pt_city:.0f} and "
                            f"{row.pt_method_bal:.0f} square-metre-hours of summer shade.")
 
     def sub(row):
+        if row.group in STAGGERED:
+            return (f"{row.n} trees, {STAGGERED[row.group][1]}: city {short(row.top_city)}, "
+                    f"method mostly {short(row.top_method_bal)}")
+        if row.group in NEW_STREET:
+            return (f"{row.n} trees, new planting in a street pedestrianised in 2018–19: city {short(row.top_city)}, "
+                    f"method mostly {short(row.top_method_bal)}")
         return (f"{row.n} trees, {row.quarter}: {short(row.top_before)} → city {short(row.top_city)}, "
                 f"method mostly {short(row.top_method_bal)}")
-    slides = [(None, s_title), ("test", s_test), ("works", s_works), ("summary", s_summary), ("rules", s_rules)]
+    slides = [(None, s_title), ("test", s_test), ("works", s_works)] + \
+        [(f"streetview_{k}", sv_slide(q)) for k, q in enumerate(SV_PAIRS) if (SV / q[1]).exists() and (SV / q[3]).exists()] + [("summary", s_summary), ("rules", s_rules)]
     slides += [(f"map_{k}", s_map(k, row, t + row.label, sub(row))) for (k, row), t in
                zip(ex, ("Works in ", "Works, method wins: ", "Works, city wins: "))]
     slides += [("runoff", s_runoff), ("species", s_species), ("survival", s_survival), ("limits", s_limits)]
