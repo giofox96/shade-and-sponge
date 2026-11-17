@@ -118,6 +118,12 @@ def street_labels(trees, xy, box_):
     return out
 
 
+# New planting, not a replacement: C. Bassols was an asphalt road with no trees until the 2018-19 works (Street View
+# 2018; no trees at the 20 positions in the 2018Q1-2019Q4 inventory). Tilia registered 2020, same 20 codes Cercis/Corylus
+# from 2021Q1 (replanting or inventory correction). The "before" layer is not shown.
+NEW_STREET = {3050}
+
+
 def area_map(row, fname):
     q = p[p.group == row.group]
     pad = 30
@@ -133,7 +139,8 @@ def area_map(row, fname):
     trees = trees[near] if len(trees) else trees
     allsp = pd.concat([q.sp_before, q.sp_city, q.sp_method_bal]).value_counts().index
     col = {s: SPCOL[i % len(SPCOL)] for i, s in enumerate(allsp)}
-    panels = (("before", "Removed", row.pt_before), ("city", "City planted", row.pt_city),
+    new = row.group in NEW_STREET
+    panels = (("before", "Before the works: road, no trees" if new else "Removed", row.pt_before), ("city", "City planted", row.pt_city),
               ("method_bal", "Method", row.pt_method_bal))
     fig, axes = plt.subplots(1, 3, figsize=(13, 4.9), dpi=200)
     for ax, (k, ttl, pct) in zip(axes, panels):
@@ -142,7 +149,7 @@ def area_map(row, fname):
         gpd.GeoSeries([bld.geometry.buffer(0.05).union_all()]).plot(ax=ax, color="#D3CEC2", edgecolor="none", linewidth=0)
         for x, y, d in zip(trees.x, trees.y, trees.crown_diam_m):
             ax.add_patch(Circle((x, y), max(d, 1) / 2, color="#B9B4A8", alpha=0.45, lw=0))
-        for x, y, s, d in zip(q.x, q.y, q[f"sp_{k}"], q[f"crown_{k}"]):
+        for x, y, s, d in ([] if new and k == "before" else zip(q.x, q.y, q[f"sp_{k}"], q[f"crown_{k}"])):
             ax.add_patch(Circle((x, y), d / 2, facecolor=col[s], alpha=0.85, edgecolor="white", lw=0.6))
         for name, x, y, a, main in labels:
             ax.text(x, y, name, rotation=a, rotation_mode="anchor", ha="center", va="center", fontsize=7.5,
@@ -152,9 +159,9 @@ def area_map(row, fname):
         ax.set_ylim(bb[1], bb[3])
         ax.set_aspect("equal")
         ax.set_axis_off()
-        sub = f"  ·  {pct:,.0f} m²·h per tree"
+        sub = "" if new and k == "before" else f"  ·  {pct:,.0f} m²·h per tree"
         ax.set_title(ttl + sub, loc="left", fontsize=13, color=INK, fontweight="bold")
-        cnt = q[f"sp_{k}"].value_counts()
+        cnt = q[f"sp_{k}"].value_counts().iloc[:0] if new and k == "before" else q[f"sp_{k}"].value_counts()
         ax.legend(handles=[Patch(color=col[s], label=f"{short(s)} ({n})") for s, n in cnt.head(4).items()] +
                   ([Patch(color="#999999", label=f"other ({cnt.iloc[4:].sum()})")] if len(cnt) > 4 else []),
                   loc="upper left", bbox_to_anchor=(0, -0.01), ncol=1, borderaxespad=0, handlelength=1.2, frameon=False, fontsize=9.5)
@@ -409,12 +416,19 @@ def build():
     ex = [("home", home), ("best", best), ("worst", worst)]
     for k, row in ex:
         area_map(row, f"map_{k}.png")
-        SAY[f"map_{k}"] = (f"{row.label}: {row.n} trees of {row.top_before} replaced in {row.quarter}. On the left what was removed, "
+        SAY[f"map_{k}"] = (f"{row.label}: a street pedestrianised in 2018-19, so a new planting, not a replacement: before the works "
+                           f"it was a road with no trees. The city planted mostly {row.top_city}, the method would have chosen mostly "
+                           f"{row.top_method_bal}: {row.pt_city:.0f} against {row.pt_method_bal:.0f} square-metre-hours of summer shade "
+                           f"per tree.") if row.group in NEW_STREET else \
+                          (f"{row.label}: {row.n} trees of {row.top_before} replaced in {row.quarter}. On the left what was removed, "
                            f"in the middle what the city planted, mostly {row.top_city}, on the right what the method would have "
                            f"chosen, mostly {row.top_method_bal}. Per tree: {row.pt_before:.0f}, {row.pt_city:.0f} and "
                            f"{row.pt_method_bal:.0f} square-metre-hours of summer shade.")
 
     def sub(row):
+        if row.group in NEW_STREET:
+            return (f"{row.n} trees, new planting in a street pedestrianised in 2018–19: city {short(row.top_city)}, "
+                    f"method mostly {short(row.top_method_bal)}")
         return (f"{row.n} trees, {row.quarter}: {short(row.top_before)} → city {short(row.top_city)}, "
                 f"method mostly {short(row.top_method_bal)}")
     slides = [(None, s_title), ("test", s_test), ("works", s_works)] + \
