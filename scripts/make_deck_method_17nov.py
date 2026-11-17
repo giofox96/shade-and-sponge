@@ -150,7 +150,7 @@ def assumptions(s):
             ("Free planting spots", "152 in Porta (range 116–232)", "2011 guide, lamps at half its distance", "tested", "range"),
             ("Underground services", "not modelled", "No open data", "declared", "spots are an upper bound"),
             ("15% species cap", "per study area", "Plan: city-wide", "tested", "city-wide run"),
-            ("Interception", "1.75 mm per unit LAI, all species", "Anys & Weiler 2024", "tested", "0.83–1.75: runoff change < 1%"),
+            ("Interception", "1.75 mm per unit LAI, all species", "Anys & Weiler 2024", "tested", "0.83–1.75 and s per species: runoff change < 1%"),
             ("Hotspot capture distance", "100 m", "None (stand-in for sewer inlets)", "tested" if cap_txt != "running" else "declared", cap_txt),
             ("Crown–façade clearance", "no margin", "None", "tested" if mar_txt != "running" else "declared", mar_txt),
             ("Curve numbers", "98 sealed · 74 pervious", "TR-55, soil group C", "declared", ""),
