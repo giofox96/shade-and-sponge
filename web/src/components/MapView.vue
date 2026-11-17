@@ -9,7 +9,7 @@ import workerUrl from 'maplibre-gl/dist/maplibre-gl-worker.mjs?url' // v6 looks 
 import 'maplibre-gl/dist/maplibre-gl.css'
 import { MapboxOverlay } from '@deck.gl/mapbox'
 import { COORDINATE_SYSTEM } from '@deck.gl/core'
-import { BitmapLayer, GeoJsonLayer, PathLayer, PointCloudLayer, PolygonLayer, ScatterplotLayer } from '@deck.gl/layers'
+import { BitmapLayer, GeoJsonLayer, PathLayer, PointCloudLayer, PolygonLayer, ScatterplotLayer, TextLayer } from '@deck.gl/layers'
 import { SimpleMeshLayer } from '@deck.gl/mesh-layers'
 import { TileLayer } from '@deck.gl/geo-layers'
 import { _TerrainExtension as TerrainExtension } from '@deck.gl/extensions'
@@ -28,6 +28,13 @@ const drape = () => (state.ground3d ? { extensions: DRAPE, terrainDrawMode: 'dra
 const up = (q, dz = 0) => [q[0], q[1], groundZ(q[0], q[1]) + dz] // a lon/lat point lifted onto the ground
 // where a click or drag meets the ground: on the relief the flat-map coordinate would be off by height × tan(pitch)
 const at = (info) => (state.ground3d && overlay?.pickObject({ x: info.x, y: info.y, unproject3D: true, layerIds: ['terrain'] })?.coordinate) || info.coordinate
+
+// a crown as drawn: [height of its centre, half its depth]. Display only: no deeper than twice its width (ASSUMPTION, after the 0.5–2
+// height:width range the i-Tree UFORE methods hold, notes/methodology.md): about 140 LiDAR crowns of ~2 m width under 10–29 m heights (small
+// segments under a taller canopy) otherwise draw as needles. The crown top stays at the tree height; the trunk shows the rest.
+const crownZ = (d, h, b) => { const depth = Math.max(Math.min(h - b, 2 * d), 1); return [h - depth / 2, depth / 2] }
+const TRUNK_W = { SEGONA: 0.605 / Math.PI, TERCERA: 0.955 / Math.PI } // m, trunk class perimeter midpoints (SpeciesCards.vue)
+const alpha = (leaf) => Math.round(60 + 170 * leaf) // crown (and trunk) opacity from the leaf-on share of the month
 
 // metres east and north of the site centre, as deck.gl places METER_OFFSETS (Web Mercator sphere)
 const M_DEG = 40075016.686 / 360
@@ -120,23 +127,51 @@ function crowns() {
   const k = state.trees.kept
   const repl = scenarioId === AREA ? keptReplaced() : new Map()
   const g3 = state.ground3d, gz = groundZ
+  const keptIds = [...k.lon.keys()].filter((i) => !repl.has(i))
+  const sDims = (s) => [s.crown_diam_m, s.height_m, s.crown_base_m]
+  const posColor = (i) => [...hexToRgb(pal[lay[i]].color), i === selected ? 255 : alpha(pal[lay[i]].leaf[month - 1])]
+  const spColor = (s) => [...hexToRgb(s.color), alpha(s.leaf[month - 1])]
+  // trunk width: the palette species' trunk class midpoint (2011 guide p. 18, perimeter / π, as the species cards); measured trees
+  // have no trunk size in the data: 0.3 m stand-in (ASSUMPTION)
+  const tw = (s) => (s?.in_palette && TRUNK_W[s.trunk_class]) || 0.3
+  // every tree: [lon, lat, crown width, height, crown base, colour, trunk width]; trunk and ellipsoid share colour and opacity
+  const all = [
+    ...[...repl.keys()].map((i) => { const s = pal[repl.get(i)]; return [k.lon[i], k.lat[i], ...sDims(s), spColor(s), tw(s)] }),
+    ...keptIds.map((i) => [k.lon[i], k.lat[i], k.crown_diam_m[i], k.height_m[i], k.crown_base_m[i], themeColors.value.kept, 0.3]),
+    ...ids.map((i) => [p.lon[i], p.lat[i], ...dims(i), posColor(i), tw(pal[lay[i]])]),
+    ...add.map((t) => [t.lon, t.lat, ...aDims(t), spColor(pal[t.species]), tw(pal[t.species])]),
+  ]
+  const ctr = (lon, lat, [d, h, b]) => [lon, lat, gz(lon, lat) + crownZ(d, h, b)[0]]
+  const scale = ([d, h, b]) => [d / 2, d / 2, crownZ(d, h, b)[1]]
   return [
+    // a trunk from the ground to the crown centre
+    new PathLayer({
+      id: 'trunks',
+      data: all,
+      getPath: (t) => [up(t), up(t, crownZ(t[2], t[3], t[4])[0])],
+      getColor: (t) => t[5],
+      getWidth: (t) => t[6],
+      billboard: true, // a vertical path has no width in the ground plane: extrude it on screen
+      widthMinPixels: 1,
+      updateTriggers: { getPath: [scenarioId, state.live?.version, state.area?.version, state.addedVersion, g3], getWidth: [scenarioId, state.live?.version, state.area?.version, state.addedVersion],
+        getColor: [scenarioId, state.live?.version, state.area?.version, state.addedVersion, month, selected, isDark.value] },
+    }),
     new SimpleMeshLayer({
       id: 'kept-new',
       data: [...repl.keys()],
       mesh: sphere,
-      getPosition: (i) => { const s = pal[repl.get(i)]; return [k.lon[i], k.lat[i], gz(k.lon[i], k.lat[i]) + (s.height_m + s.crown_base_m) / 2] },
-      getScale: (i) => { const s = pal[repl.get(i)]; return [s.crown_diam_m / 2, s.crown_diam_m / 2, Math.max(s.height_m - s.crown_base_m, 1) / 2] },
-      getColor: (i) => { const s = pal[repl.get(i)]; return [...hexToRgb(s.color), Math.round(60 + 170 * s.leaf[month - 1])] },
+      getPosition: (i) => ctr(k.lon[i], k.lat[i], sDims(pal[repl.get(i)])),
+      getScale: (i) => scale(sDims(pal[repl.get(i)])),
+      getColor: (i) => spColor(pal[repl.get(i)]),
       updateTriggers: { getPosition: [state.area?.version, g3], getScale: state.area?.version, getColor: [state.area?.version, month] },
     }),
     new SimpleMeshLayer({
       id: 'kept',
-      data: [...k.lon.keys()].filter((i) => !repl.has(i)),
+      data: keptIds,
       mesh: sphere,
-      getPosition: (i) => [k.lon[i], k.lat[i], gz(k.lon[i], k.lat[i]) + (k.height_m[i] + k.crown_base_m[i]) / 2],
+      getPosition: (i) => ctr(k.lon[i], k.lat[i], [k.crown_diam_m[i], k.height_m[i], k.crown_base_m[i]]),
       updateTriggers: { getPosition: g3 },
-      getScale: (i) => [k.crown_diam_m[i] / 2, k.crown_diam_m[i] / 2, Math.max(k.height_m[i] - k.crown_base_m[i], 1) / 2],
+      getScale: (i) => scale([k.crown_diam_m[i], k.height_m[i], k.crown_base_m[i]]),
       getColor: themeColors.value.kept,
     }),
     new SimpleMeshLayer({
@@ -144,19 +179,9 @@ function crowns() {
       data: ids,
       mesh: sphere,
       pickable: true,
-      getPosition: (i) => {
-        const [, h, b] = dims(i)
-        return [p.lon[i], p.lat[i], gz(p.lon[i], p.lat[i]) + (h + b) / 2]
-      },
-      getScale: (i) => {
-        const [d, h, b] = dims(i)
-        return [d / 2, d / 2, Math.max(h - b, 1) / 2]
-      },
-      getColor: (i) => {
-        const s = pal[lay[i]]
-        const leaf = s.leaf[month - 1]
-        return [...hexToRgb(s.color), i === selected ? 255 : Math.round(60 + 170 * leaf)]
-      },
+      getPosition: (i) => ctr(p.lon[i], p.lat[i], dims(i)),
+      getScale: (i) => scale(dims(i)),
+      getColor: posColor,
       onClick: (info) => (state.drawing ? addVertex(...at(info)) : (state.selected = info.index)),
       updateTriggers: {
         getPosition: [scenarioId, state.live?.version, state.area?.version, g3],
@@ -173,29 +198,19 @@ function crowns() {
       stroked: true,
       filled: false,
       getLineColor: (t, { index }) => (selected === `a${index}` ? themeColors.value.ringOn : themeColors.value.ring),
-      lineWidthMinPixels: 2,
+      lineWidthMinPixels: 1,
       radiusMinPixels: 7, // young crowns are small: keep the ring findable at any zoom
       parameters: ON_TOP, // an added tree can sit inside an existing crown or behind a building: its ring stays visible
       updateTriggers: { getPosition: g3, getRadius: state.addedVersion, getLineColor: [selected, state.addedVersion] },
-    }),
-    // a trunk up to the crown, so a small or young added tree is easy to spot next to the bigger crowns
-    new PathLayer({
-      id: 'added-trunks',
-      data: add,
-      getPath: (t) => [up([t.lon, t.lat]), up([t.lon, t.lat], (aDims(t)[1] + aDims(t)[2]) / 2)],
-      getColor: [90, 70, 50, 230],
-      getWidth: 0.35,
-      widthMinPixels: 2,
-      updateTriggers: { getPath: [state.addedVersion, g3] },
     }),
     new SimpleMeshLayer({
       id: 'added',
       data: add,
       mesh: sphere,
       pickable: true,
-      getPosition: (t) => up([t.lon, t.lat], (aDims(t)[1] + aDims(t)[2]) / 2),
-      getScale: (t) => [aDims(t)[0] / 2, aDims(t)[0] / 2, Math.max(aDims(t)[1] - aDims(t)[2], 1) / 2],
-      getColor: (t) => [...hexToRgb(pal[t.species].color), Math.round(60 + 170 * pal[t.species].leaf[month - 1])],
+      getPosition: (t) => ctr(t.lon, t.lat, aDims(t)),
+      getScale: (t) => scale(aDims(t)),
+      getColor: (t) => spColor(pal[t.species]),
       onClick: (info) => (state.drawing ? addVertex(...at(info)) : (state.selected = `a${info.index}`)),
       updateTriggers: { getPosition: [state.addedVersion, g3], getScale: state.addedVersion, getColor: [state.addedVersion, month] },
     }),
@@ -225,16 +240,35 @@ function addMask() {
   return mask
 }
 
-// sidewalk measuring rays (façade foot -> kerb) of the measured positions (i = position index) and kept trees
-let rays = null, raysOf = null
-function swRays() {
-  if (raysOf !== state.trees) {
-    const seg = (r) => [[r[0], r[1]], [r[2], r[3]]]
-    const p = state.trees.positions.sw_ray ?? [], k = state.trees.kept.sw_ray ?? []
-    rays = [...p.flatMap((r, i) => (r ? [{ i, path: seg(r) }] : [])), ...k.flatMap((r) => (r ? [{ i: -1, path: seg(r) }] : []))]
-    raysOf = state.trees
-  }
-  return rays
+// free spots: footprint radius (m) per size class, and the spot lifted onto the highest ground under its footprint (a flat
+// disc on a slope would otherwise sink into the relief)
+const SPOT_R = { small: 1.6, medium: 2.2, large: 2.8 }
+function spotUp(i, dz) {
+  const S = state.trees.spots, r = SPOT_R[S.size_class[i]], lon = S.lon[i], lat = S.lat[i]
+  const dLon = r / (M_DEG * Math.cos((lat * Math.PI) / 180)), dLat = r / M_DEG
+  const z = Math.max(groundZ(lon, lat), groundZ(lon + dLon, lat), groundZ(lon - dLon, lat), groundZ(lon, lat + dLat), groundZ(lon, lat - dLat))
+  return [lon, lat, z + dz]
+}
+
+// the selected plane position: dimension lines tree -> façade foot and tree -> kerb along its measuring ray, labelled in metres
+function dimensions(i) {
+  const p = state.trees.positions, r = typeof i === 'number' ? p.sw_ray?.[i] : null
+  if (!r) return []
+  const t = [p.lon[i], p.lat[i]], kx = M_DEG * Math.cos((t[1] * Math.PI) / 180)
+  const m = (q) => Math.hypot((q[0] - t[0]) * kx, (q[1] - t[1]) * M_DEG)
+  const dims = [[r[0], r[1], 'façade'], [r[2], r[3], 'kerb']].map(([lon, lat, what]) => ({ to: [lon, lat], text: `${m([lon, lat]).toFixed(1)} m to ${what}` }))
+  const col = themeColors.value.ringOn
+  return [
+    new PathLayer({ id: 'dim-lines', data: dims, getPath: (d) => [up(t, 0.3), up(d.to, 0.3)], getColor: col, getWidth: 1.5, widthUnits: 'pixels',
+      parameters: ON_TOP }),
+    new ScatterplotLayer({ id: 'dim-ends', data: dims, getPosition: (d) => up(d.to, 0.3), getRadius: 3, radiusUnits: 'pixels', getFillColor: col,
+      parameters: ON_TOP }),
+    // one label above the tree: the kerb is often under a metre away, so labels at the two ends would collide
+    new TextLayer({ id: 'dim-labels', data: [dims.map((d) => d.text).join(' · ')], getPosition: () => up(t, 0.3), getText: (d) => d,
+      getSize: 12, getPixelOffset: [0, -24],
+      characterSet: 'auto', background: true, getBackgroundColor: [255, 255, 255, 230], backgroundPadding: [4, 2], getColor: col,
+      fontFamily: 'system-ui, sans-serif', parameters: ON_TOP }),
+  ]
 }
 
 function layers() {
@@ -248,8 +282,9 @@ function layers() {
     g3 &&
       new SimpleMeshLayer({ id: 'terrain', data: [0], mesh: reliefMesh(), _instanced: false, getPosition: [0, 0, 0], pickable: true, ...local(),
         getColor: themeColors.value.ground, updateTriggers: { getColor: isDark.value }, operation: 'terrain+draw' }),
-    g3 &&
-      new TileLayer({ id: 'ground-tiles-' + state.basemap + isDark.value, data: state.basemap === 'satellite' ? ORTO : themeColors.value.raster,
+    // the street map has no keyless raster tiles (CARTO's carry an "API key required" watermark): plain ground colour instead
+    g3 && state.basemap === 'satellite' &&
+      new TileLayer({ id: 'ground-tiles', data: ORTO,
         extent: T.bounds, minZoom: 12, maxZoom: 19, tileSize: 256, ...drape(),
         renderSubLayers: (props) => { const [[w, s], [e, n]] = props.tile.boundingBox
           return new BitmapLayer(props, { data: null, image: props.data, bounds: [w, s, e, n] }) } }),
@@ -274,33 +309,32 @@ function layers() {
       new GeoJsonLayer({ id: 'sidewalks', data: dataUrl('sidewalks.geojson'), stroked: true, filled: false, ...drape(),
         getLineColor: (f) => (f.properties.kind === 'facade' ? themeColors.value.facade : themeColors.value.kerb),
         updateTriggers: { getLineColor: isDark.value },
-        getLineWidth: (f) => (f.properties.kind === 'facade' ? 0.5 : 0.8), lineWidthUnits: 'meters', lineWidthMinPixels: 1.5 }),
-    // where each sidewalk width was measured: façade foot -> kerb, through the tree (scripts/porta_sidewalk_width.py)
-    state.showStreets &&
-      new PathLayer({ id: 'sidewalk-rays', data: swRays(), getPath: (d) => d.path.map((q) => up(q, 0.3)), widthUnits: 'pixels', parameters: ON_TOP,
-        getWidth: (d) => (d.i === selected ? 3 : 1),
-        getColor: (d) => (d.i === selected ? themeColors.value.ringOn : [...hexToRgb(themeColors.value.muted), 150]),
-        updateTriggers: { getPath: g3, getWidth: selected, getColor: [selected, isDark.value] } }),
+        getLineWidth: (f) => (f.properties.kind === 'facade' ? 0.5 : 1), lineWidthUnits: 'pixels' }),
+    // free planting spots: the crown footprint of the spot's size class on the ground, a white dot at the planting point
     state.showStreets &&
       new ScatterplotLayer({ id: 'spots', data: state.trees.spots.lon.map((lon, i) => i), radiusUnits: 'meters',
-        getPosition: (i) => up([state.trees.spots.lon[i], state.trees.spots.lat[i]], 0.2),
-        getRadius: (i) => ({ small: 1.6, medium: 2.2, large: 2.8 })[state.trees.spots.size_class[i]], radiusMinPixels: 3,
-        getFillColor: (i) => ({ small: [168, 214, 110], medium: [92, 170, 50], large: [40, 110, 20] })[state.trees.spots.size_class[i]],
-        stroked: true, getLineColor: themeColors.value.spotLine, lineWidthMinPixels: 1.5, pickable: true, updateTriggers: { getPosition: g3, getLineColor: isDark.value },
+        getPosition: (i) => spotUp(i, 0.15),
+        getRadius: (i) => SPOT_R[state.trees.spots.size_class[i]], radiusMinPixels: 3,
+        getFillColor: (i) => [...({ small: [168, 214, 110], medium: [92, 170, 50], large: [40, 110, 20] })[state.trees.spots.size_class[i]], 170],
+        stroked: false, pickable: true, updateTriggers: { getPosition: g3 },
         onClick: (info) => { // a click on a free spot plants there in "Add trees" mode
           if (state.drawing) return addVertex(...at(info))
           if (state.addMode) tryAdd(state.trees.spots.lon[info.index], state.trees.spots.lat[info.index], info)
         } }),
+    state.showStreets &&
+      new ScatterplotLayer({ id: 'spot-centres', data: state.trees.spots.lon.map((lon, i) => i), getPosition: (i) => spotUp(i, 0.2),
+        getRadius: 0.35, radiusUnits: 'meters', radiusMinPixels: 1.5, getFillColor: [255, 255, 255, 235], updateTriggers: { getPosition: g3 } }),
     state.area &&
       new PolygonLayer({ id: 'area', data: [state.area.poly], getPolygon: (d) => d, stroked: false, filled: true, ...drape(),
         getFillColor: [...themeColors.value.area, 30] }),
     ...crowns(),
+    ...dimensions(selected), // after the crowns: drawn over them
     state.showLidar && state.lidar &&
       new PointCloudLayer({ id: 'lidar', data: lidarData(), ...local(), pointSize: 2, sizeUnits: 'pixels', material: false }),
     // the project-area outline and the corners being drawn go over buildings and crowns (no depth test)
     state.area && !state.editing &&
       new PathLayer({ id: 'area-line', data: [[...state.area.poly, state.area.poly[0]]], getPath: (d) => d, parameters: ON_TOP, ...drape(),
-        getColor: [...themeColors.value.area, 240], widthMinPixels: 2.5 }),
+        getColor: [...themeColors.value.area, 200], widthMinPixels: 1.5 }),
     state.drawing && state.draft.length > 1 &&
       new PathLayer({ id: 'draft-path', data: [state.draft], getPath: (d) => d, getColor: themeColors.value.draft, widthMinPixels: 2.5,
         parameters: ON_TOP, ...drape() }),
