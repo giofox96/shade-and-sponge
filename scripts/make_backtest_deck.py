@@ -234,7 +234,7 @@ def s_works(s):
 SV = DB / "raw/streetview"     # Google Street View crops, local only (gitignored: not redistributable)
 SV_PAIRS = [   # title, before file, date, after file, date, before text, after text, source
     ("C. Piquer, Poble-sec: Robinia → Pyrus (confirmed works)",
-     "4466-4504-4506_Piquer_feb-2022_crop.jpg", "Feb 2022", "4466-4504-4506_Piquer_aug-2024_crop.jpg", "Aug 2024",
+     "4506_Piquer_jan-2022_crop.jpg", "Jan 2022", "4506_Piquer_aug-2024_crop.jpg", "Aug 2024",
      "mature trees with crowns up to the first-floor balconies.",
      "one row of young trees in pits; the city planted Pyrus calleryana, a small species, as the 2011 guide allows "
      "on this sidewalk.", "Works: Betevé, 3 Mar 2022."),
