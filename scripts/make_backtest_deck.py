@@ -232,22 +232,32 @@ def s_works(s):
 
 
 SV = DB / "raw/streetview"     # Google Street View crops, local only (gitignored: not redistributable)
-SV_PAIRS = [("C. Piquer, Poble-sec: Robinia → Pyrus (confirmed works)", "4466-4504-4506_Piquer_feb-2022_crop.jpg",
-             "Feb 2022", "4466-4504-4506_Piquer_aug-2024_crop.jpg", "Aug 2024")]
+SV_PAIRS = [   # title, before file, date, after file, date, before text, after text, source
+    ("C. Piquer, Poble-sec: Robinia → Pyrus (confirmed works)",
+     "4466-4504-4506_Piquer_feb-2022_crop.jpg", "Feb 2022", "4466-4504-4506_Piquer_aug-2024_crop.jpg", "Aug 2024",
+     "mature trees with crowns up to the first-floor balconies.",
+     "one row of young trees in pits; the city planted Pyrus calleryana, a small species, as the 2011 guide allows "
+     "on this sidewalk.", "Works: Betevé, 3 Mar 2022."),
+    ("C. Bassols, Camp de l'Arpa: a road made pedestrian, then planted",
+     "3050_bassols_before_2018-05_crop.jpg", "May 2018", "3050_bassols_after_2022-01_crop.jpg", "Jan 2022",
+     "a road with parking on one side and no trees.",
+     "a single-surface street with a planting strip and young staked trees (Cercis and Corylus).",
+     "Works: Ajuntament de Barcelona (Sant Martí), reurbanització del carrer de Bassols.")]
 
 
-def s_streetview(s):
-    head(s, "What the works look like on the street", SV_PAIRS[0][0])
-    _, a, da, b, db = SV_PAIRS[0]
-    for k, (f, lab) in enumerate(((a, f"Before · {da}"), (b, f"After · {db}"))):
-        x = M + k * 6.2
-        text(s, x, 1.45, 5.9, 0.35, lab, 15, INK, True)
-        picture(s, SV / f, x, 1.85, 5.9, crop_top=0.0)
-    text(s, M, 5.35, W - 2 * M, 1.2, [
-        [("Before: ", {"bold": True}), ("mature trees with crowns up to the first-floor balconies.", {})],
-        [("After: ", {"bold": True}), ("one row of young trees in pits; the city planted Pyrus calleryana, a small species, "
-                                       "as the 2011 guide allows on this sidewalk.", {})]], 14, INK)
-    source(s, f"Google Street View, {da} / {db} © Google. Works: Betevé, 3 Mar 2022.")
+def sv_slide(pair):
+    ttl, a, da, b, db, ta, tb, src = pair
+
+    def build(s):
+        head(s, "What the works look like on the street", ttl)
+        for k, (f, lab) in enumerate(((a, f"Before · {da}"), (b, f"After · {db}"))):
+            x = M + k * 6.2
+            text(s, x, 1.45, 5.9, 0.35, lab, 15, INK, True)
+            picture(s, SV / f, x, 1.85, 5.9, crop_top=0.0)
+        text(s, M, 5.35, W - 2 * M, 1.2, [[("Before: ", {"bold": True}), (ta, {})],
+                                          [("After: ", {"bold": True}), (tb, {})]], 14, INK)
+        source(s, f"Google Street View, {da} / {db} © Google. {src}")
+    return build
 
 
 def s_summary(s):
@@ -398,7 +408,9 @@ SAY = {
              "own guide, and on narrow streets with balconies it left only the smallest species. With the guide's rule alone, "
              "and with small species held to the guide's adult size, the method still wins in most areas, by about the same "
              "margin overall.",
-    "streetview": "This is carrer de Piquer before and after the works: mature trees in 2022, a row of young pears in 2024. "
+    "streetview_1": "Carrer de Bassols in 2018 was a road with parking and no trees; the works made it a single-surface street "
+                    "and planted it from scratch. So here the city's planting is a new one, not a replacement.",
+    "streetview_0": "This is carrer de Piquer before and after the works: mature trees in 2022, a row of young pears in 2024. "
                   "On a street this narrow only small species fit, and that is where the method's advantage is smallest.",
     "runoff": "On runoff the method has to do no harm. These are the differences towards the flood hotspots.",
     "species": "What differs is the species mix: here are the species removed, planted by the city, and chosen by the method.",
@@ -438,7 +450,7 @@ def build():
         return (f"{row.n} trees, {row.quarter}: {short(row.top_before)} → city {short(row.top_city)}, "
                 f"method mostly {short(row.top_method_bal)}")
     slides = [(None, s_title), ("test", s_test), ("works", s_works)] + \
-        ([("streetview", s_streetview)] if (SV / SV_PAIRS[0][1]).exists() else []) + [("summary", s_summary), ("rules", s_rules)]
+        [(f"streetview_{k}", sv_slide(q)) for k, q in enumerate(SV_PAIRS) if (SV / q[1]).exists() and (SV / q[3]).exists()] + [("summary", s_summary), ("rules", s_rules)]
     slides += [(f"map_{k}", s_map(k, row, t + row.label, sub(row))) for (k, row), t in
                zip(ex, ("Works in ", "Works, method wins: ", "Works, city wins: "))]
     slides += [("runoff", s_runoff), ("species", s_species), ("survival", s_survival), ("limits", s_limits)]
