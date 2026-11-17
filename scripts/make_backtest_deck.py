@@ -287,6 +287,7 @@ def s_rules(s):
     head(s, "Which rule decides the result?", "The same back-test under three readings of the planting rules; summer shade per tree")
     for k, (tag, ttl, how) in enumerate(RUNS):
         d = pd.read_csv(DB / f"backtest_works{tag}.csv")
+        d = d[d.group.isin(r.group)]            # same groups as the deck's run (an older run may predate the correction filter)
         pc, pm = [(d[f"shade_summer_{c}"] - d.shade_summer_none) / d.n for c in ("city", "method_bal")]
         x, c = M + k * 4.15, TREE if tag == RUN else MUTED
         box(s, x, 1.55, 3.9, 3.6, tint(c, 0.10))
