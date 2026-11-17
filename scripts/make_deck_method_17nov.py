@@ -40,7 +40,7 @@ SAY = {
                 "rain anywhere. What position changes is where that water would have gone. Here is the same tree at every street-tree "
                 "position in Porta. Over a roof it does nothing for runoff. On a street that drains nowhere critical it holds the "
                 "same water, but none of it was heading to a flood hotspot. Upstream of a hotspot, all of it was. Three quarters of "
-                "the positions drain to no hotspot, so a hundred trees placed by the tool keep about five times more water from the "
+                "the positions drain to no hotspot, so a hundred trees placed by the tool keep between five and six times more water from the "
                 "hotspots than a hundred placed at random. The absolute effect is still small, half a percent of the hotspot runoff, "
                 "which is why runoff stays a do-no-harm check.",
     "assume": "Here are the assumptions, each with its basis and status. Green ones are tested: which trees leave is now an "
