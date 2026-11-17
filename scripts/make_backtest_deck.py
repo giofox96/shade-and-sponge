@@ -340,7 +340,8 @@ def s_species(s):
         rows = [[(f"{n}  ", {"bold": True}), (sp, {"italic": True})] for sp, n in v.head(6).items()]
         if len(v) > 6:
             rows.append([(f"{v.iloc[6:].sum()}  ", {"bold": True}), (f"{len(v) - 6} other species", {})])
-        text(s, x + 0.25, 2.25, 3.4, 4.0, rows, 14, INK)
+        text(s, x + 0.25, 2.25, 3.4, 3.4, rows, 14, INK)
+        text(s, x + 0.25, 5.8, 3.4, 0.45, [[(f"{v.sum()}  ", {"bold": True}), (f"trees in total, {len(v)} species", {})]], 14, c)
     source(s, SRC)
 
 
