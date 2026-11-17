@@ -235,7 +235,7 @@ def water_potential(site, pos, pal, p_mm, runoff_target="hotspot"):
     r, c = rc(site, pos.x.values, pos.y.values)
     out = np.zeros((len(pos), len(pal)))
     for j, d in enumerate(pal.crown_diam_m.values):
-        stor = sum(w * min(p_mm, runoff.P_["s_mm_per_lai"] * pal.lai.values[j] * season.factor([pal.species[j]], m)[0])
+        stor = sum(w * min(p_mm, runoff.s_of(pal.species[j]) * pal.lai.values[j] * season.factor([pal.species[j]], m)[0])
                    for m, w in season.STORM.items()) / season.STORM.sum()
         out[:, j] = _box_mean(tgt, d, site)[r, c] * area[j] * stor / 1000
     return out
