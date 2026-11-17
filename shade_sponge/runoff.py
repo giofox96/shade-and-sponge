@@ -6,6 +6,11 @@ from shapely.geometry import Point
 from .site import DB
 
 P_ = json.load(open(DB / "runoff_params.json"))   # written by scripts/runoff_model.py: s calibrated, CNs = ASSUMPTION
+S_SP = {}   # sensitivity only (scripts/sensitivity_species_s.py): species -> s (mm per LAI); empty = one calibrated s for all
+
+
+def s_of(sp):
+    return S_SP.get(sp, P_["s_mm_per_lai"])
 
 
 def design_storm(T=2, d=60):
@@ -22,8 +27,9 @@ def scs(p, cn):
 
 def storage(site, trees):
     """trees: x, y (EPSG:25831), crown_diam_m, lai -> canopy storage S (mm) per cell (max where crowns overlap)."""
-    shapes = [(Point(x, y).buffer(d / 2), P_["s_mm_per_lai"] * l)
-              for x, y, d, l in zip(trees.x, trees.y, trees.crown_diam_m, trees.lai) if d > 0 and l > 0]
+    sp = trees.sp if "sp" in trees else [None] * len(trees)
+    shapes = [(Point(x, y).buffer(d / 2), s_of(k) * l)
+              for x, y, d, l, k in zip(trees.x, trees.y, trees.crown_diam_m, trees.lai, sp) if d > 0 and l > 0]
     shapes.sort(key=lambda t: t[1])                     # largest storage wins on overlap
     S = rasterize(shapes, out_shape=site.domain.shape, transform=site.transform, fill=0, dtype="float32",
                   merge_alg=rasterio.enums.MergeAlg.replace) if shapes else np.zeros(site.domain.shape, "float32")
