@@ -36,6 +36,13 @@ SAY = {
            "around those groups, about half of the trees stay. So the tool no longer assumes anything: the designer marks each "
            "tree as keep, move or replace, keep is the default, and 'replace all' is only the worst case. One thing I declare: "
            "layouts compare mature crowns, which favours replacing; in the first years a healthy tree always wins.",
+    "position": "You said position does not change runoff. For how much a tree holds, you are right: the same tree holds the same "
+                "rain anywhere. What position changes is where that water would have gone. Here is the same tree at every street-tree "
+                "position in Porta. Over a roof it does nothing for runoff. On a street that drains nowhere critical it holds the "
+                "same water, but none of it was heading to a flood hotspot. Upstream of a hotspot, all of it was. Three quarters of "
+                "the positions drain to no hotspot, so a hundred trees placed by the tool keep about five times more water from the "
+                "hotspots than a hundred placed at random. The absolute effect is still small, half a percent of the hotspot runoff, "
+                "which is why runoff stays a do-no-harm check.",
     "assume": "Here are the assumptions, each with its basis and status. Green ones are tested: which trees leave is now an "
               "input, the free spots are a range, the cap was also run city-wide, interception was tested from 0.83 to 1.75, and "
               "the two that had no source, the hotspot capture distance and the façade clearance, were tested this week. Blue "
@@ -75,6 +82,49 @@ def why_replace(s):
     text(s, x[2] + 0.3, 2.35, cw - 0.6, 3.6, tool, 15, INK)
     source(s, "Parcs i Jardins, Arbrat viari: selecció d'espècies (rev. 2004) §2.4.2; Pla de gestió de l'arbrat viari de Barcelona "
               "(2005) §3.4.2; Open Data BCN, 35 quarterly street-tree inventories 2018–2026.")
+
+
+def position(s):
+    """Same tree, different positions (databases/barcelona/position_runoff_test.csv, scripts/position_runoff_test.py)."""
+    t = pd.read_csv(ROOT / "databases/barcelona/position_runoff_test.csv")
+    hot0 = pd.read_csv(ROOT / "databases/barcelona/sensitivity_capture_margin.csv").query("capture_m == 100 and margin_m == 0")
+    hot0 = float(hot0.s0_runoff_hot_m3.iloc[0])
+    head(s, "Same tree, same water held: position decides where it helps",
+         "The same tree (Celtis australis, crown 6.3 m) at each of Porta's 2,825 street-tree positions, 2-year 1-hour storm")
+    ex = [("Crown partly over a roof", t.loc[t.roof_pct.idxmax()], HEAT),
+          ("Street, drains to no hotspot", t[(t.roof_pct == 0) & (t.hot_pct == 0)].sort_values("drop_total_m3").iloc[-1], MUTED),
+          ("Street, upstream of a hotspot", t.loc[t.drop_hot_m3.idxmax()], RAIN)]
+    cw, x0 = 3.55, M
+    for k, (lab, r, c) in enumerate(ex):
+        y = 1.6 + k * 1.5
+        box(s, x0, y, cw * 2, 1.3, tint(c, 0.10))
+        text(s, x0 + 0.3, y + 0.15, cw * 2 - 0.6, 0.4, lab, 16, c, True)
+        for j, (v, cap) in enumerate(((r.drop_total_m3, "litres less runoff"),
+                                      (r.drop_hot_m3, "of them toward a hotspot"))):
+            text(s, x0 + 0.3 + j * cw, y + 0.55, cw - 0.4, 0.7,
+                 [[(f"{1000 * v:.0f}", {"bold": True, "size": 26, "color": INK}), (f"  {cap}", {"color": MUTED})]], 14, INK)
+    xr, wr = x0 + cw * 2 + 0.45, W - M - (x0 + cw * 2 + 0.45)
+    box(s, xr, 1.6, wr, 4.3, "#FFFFFF")
+    text(s, xr + 0.3, 1.75, wr - 0.6, 0.5, "Where 100 such trees go", 16, INK, True)
+    best = t.drop_hot_m3.nlargest(100).sum()
+    rand = sum(t.drop_hot_m3.sample(100, random_state=k).sum() for k in range(200)) / 200
+    bw = wr - 0.6
+    for k, (lab, v, c) in enumerate((("Random positions", rand, MUTED), ("Positions chosen by the tool", best, RAIN))):
+        y = 2.4 + k * 1.05
+        text(s, xr + 0.3, y, bw, 0.35, lab, 13, INK)
+        box(s, xr + 0.3, y + 0.38, max(bw * v / best, 0.05), 0.4, c, radius=0.02)
+        if v / best > 0.3:
+            text(s, xr + 0.3, y + 0.4, bw * v / best - 0.1, 0.4, f"{v:.1f} m³", 14, "#FFFFFF", True, align=PP_ALIGN.RIGHT)
+        else:
+            text(s, xr + 0.4 + bw * v / best, y + 0.4, bw, 0.4, f"{v:.1f} m³", 14, INK, True)
+    text(s, xr + 0.3, 4.6, wr - 0.6, 1.2,
+         [[(f"×{best / rand:.1f}", {"bold": True, "color": RAIN, "size": 22}), ("  runoff kept from hotspots", {})],
+          [(f"{100 * (t.drop_hot_m3 < 1e-6).mean():.0f}% of positions drain to no hotspot within 100 m", {"color": MUTED})]], 13, INK)
+    text(s, M, 6.2, W - 2 * M, 0.6,
+         [[("But small: ", {"bold": True}), (f"{best:.1f} m³ is {100 * best / hot0:.1f}% of Porta's hotspot runoff in that storm "
+           f"(≈ {hot0:,.0f} m³). Runoff stays a “do no harm” check, not an objective.", {})]], 14, INK)
+    source(s, "Anys & Weiler 2024 (canopy storage); USDA NRCS TR-55 (curve numbers); Pla Director del Sistema de Drenatge de "
+              "Barcelona (PDISBA) design storm; ICGC LiDAR 2021; Barcelona Resilience Atlas (flood hazard).")
 
 
 def _sens():
@@ -137,6 +187,7 @@ SLIDES = [
                         "Example scores are illustrative.")),
     ("why", why_replace),
     ("assume", assumptions),
+    ("position", position),
     (None, fig_slide("slides/fig_v7/flow_04_design.png", "Backup · Design module", "Inside the project area the designer draws",
                      "Ajuntament de Barcelona, Gestió de l'arbrat viari de Barcelona (2011); Pla director de l'arbrat 2017–2037.")),
     (None, fig_slide("slides/fig_v7/flow_06_optimiser.png", "Backup · How the optimiser finds the layout",
