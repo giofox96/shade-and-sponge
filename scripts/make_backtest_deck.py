@@ -122,6 +122,9 @@ def street_labels(trees, xy, box_):
 # 2018; no trees at the 20 positions in the 2018Q1-2019Q4 inventory). Tilia registered 2020, same 20 codes Cercis/Corylus
 # from 2021Q1 (replanting or inventory correction). The "before" layer is not shown.
 NEW_STREET = {3050}
+# Av. Rio de Janeiro: the poplars were felled a few at a time (15 -> 0 between 2022Q3 and 2024Q4, inventory) and the
+# 22 positions replanted together in Oct-Nov 2025 (inventory planting dates).
+STAGGERED = {6128: ("Removed 2022–24", "poplars felled one by one 2022–24, replanted together Oct–Nov 2025")}
 
 
 def area_map(row, fname):
@@ -140,7 +143,7 @@ def area_map(row, fname):
     allsp = pd.concat([q.sp_before, q.sp_city, q.sp_method_bal]).value_counts().index
     col = {s: SPCOL[i % len(SPCOL)] for i, s in enumerate(allsp)}
     new = row.group in NEW_STREET
-    panels = (("before", "Before the works: road, no trees" if new else "Removed", row.pt_before), ("city", "City planted", row.pt_city),
+    panels = (("before", "Before the works: road, no trees" if new else STAGGERED.get(row.group, ("Removed",))[0], row.pt_before), ("city", "City planted", row.pt_city),
               ("method_bal", "Method", row.pt_method_bal))
     fig, axes = plt.subplots(1, 3, figsize=(13, 4.9), dpi=200)
     for ax, (k, ttl, pct) in zip(axes, panels):
@@ -426,6 +429,9 @@ def build():
                            f"{row.pt_method_bal:.0f} square-metre-hours of summer shade.")
 
     def sub(row):
+        if row.group in STAGGERED:
+            return (f"{row.n} trees, {STAGGERED[row.group][1]}: city {short(row.top_city)}, "
+                    f"method mostly {short(row.top_method_bal)}")
         if row.group in NEW_STREET:
             return (f"{row.n} trees, new planting in a street pedestrianised in 2018–19: city {short(row.top_city)}, "
                     f"method mostly {short(row.top_method_bal)}")
