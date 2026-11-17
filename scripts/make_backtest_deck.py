@@ -227,7 +227,7 @@ def s_works(s):
         [("Where the works are documented, ", {"bold": True}), ("the method wins clearly on the wide streets; on Piquer, "
                                                               "a narrow street where only small trees fit, the gap is small either way.", {})]], 13, INK)
     source(s, "Betevé, 3 Mar 2022 (carrer de Piquer) and 21 Sep 2015 (replacement campaign); Ajuntament de Barcelona: works notice Av. "
-              "Rio de Janeiro (Dec 2022), Obres news 8 Jan 2026 (Gran Via, Trambesòs), Sant Martí project sheet carrer de Bassols (2018); "
+              "Rio de Janeiro (Dec 2022), Sant Martí project sheet carrer de Bassols (2018); "
               "Consell de Barri de Porta, 12 Nov 2025.")
 
 
@@ -330,7 +330,7 @@ def s_map(key, row, ttl, sub):
 
 
 def s_species(s):
-    head(s, "What differs is the species, not the number of trees", "All positions of the 27 groups, counted together")
+    head(s, "What differs is the species, not the number of trees", f"All positions of the {len(r)} groups, counted together")
     for k, (col, ttl, c) in enumerate((("sp_before", "Removed", MUTED), ("sp_city", "City planted", WARN),
                                        ("sp_method_bal", "Method", TREE))):
         x = M + k * 4.15
@@ -340,7 +340,8 @@ def s_species(s):
         rows = [[(f"{n}  ", {"bold": True}), (sp, {"italic": True})] for sp, n in v.head(6).items()]
         if len(v) > 6:
             rows.append([(f"{v.iloc[6:].sum()}  ", {"bold": True}), (f"{len(v) - 6} other species", {})])
-        text(s, x + 0.25, 2.25, 3.4, 4.0, rows, 14, INK)
+        text(s, x + 0.25, 2.25, 3.4, 3.4, rows, 14, INK)
+        text(s, x + 0.25, 5.8, 3.4, 0.45, [[(f"{v.sum()}  ", {"bold": True}), (f"trees in total, {len(v)} species", {})]], 14, c)
     source(s, SRC)
 
 
@@ -352,7 +353,7 @@ def s_survival(s):
     ages = [x for x in a.age.unique() if x != "all"]
     cd = CategoryChartData()
     cd.categories = [f"{x} yr" for x in ages]
-    for k, lab in (("all replacements", "All city replacements"), ("back-test", "The 27 groups")):
+    for k, lab in (("all replacements", "All city replacements"), ("back-test", f"The {len(r)} groups")):
         cd.add_series(lab, [float(a[(a.set == k) & (a.age == x)].alive.iloc[0]) for x in ages])
     ch = s.shapes.add_chart(XL_CHART_TYPE.COLUMN_CLUSTERED, Inches(M), Inches(1.55), Inches(7.6), Inches(5.0), cd).chart
     style_chart(ch, [MUTED, WARN], fmt='0%', size=11)
@@ -360,7 +361,7 @@ def s_survival(s):
     ch.value_axis.tick_labels.number_format, ch.value_axis.tick_labels.number_format_is_linked = '0%', False
     tot = a[a.age == "all"].set_index("set")
     card(s, 8.6, 1.55, 4.2, 1.6, f"{tot.alive['back-test']:.0%}", f"of the {tot.n['back-test']} trees the city planted in the "
-         "27 groups still stand", WARN, 30, 13)
+         f"{len(r)} groups still stand", WARN, 30, 13)
     n_ok = sp.n >= MIN_SP                                   # age-standardised survival of the species each layout uses
     surv = {k: p[k].map(inv_norm).map(sp.alive_std.where(n_ok)) for k in ("sp_city", "sp_method_bal")}
     card(s, 8.6, 3.3, 4.2, 1.6, f"{surv['sp_city'].mean():.0%} vs {surv['sp_method_bal'].mean():.0%}",
@@ -394,8 +395,8 @@ def s_limits(s):
 
 
 SAY = {
-    "works": "Are these real street works? For six groups I found the works in the city's notices or the press: Piquer is "
-             "confirmed, with the tree change named; Rio de Janeiro, Gran Via and Bassols are compatible. For the other 21 I found no "
+    "works": f"Are these real street works? For {DOC.sum()} groups I found the works in the city's notices or the press: Piquer is "
+             f"confirmed, with the tree change named; Rio de Janeiro and Bassols are compatible. For the other {(~DOC).sum()} I found no "
              "works: they are probably replacement campaigns. Either way the inventory records what the city actually planted.",
     "test": "To test the method against reality, I looked for groups of replacements in the city's own tree inventory: places where ten or "
             "more trees changed species in the same quarter. I kept the ones that look like real plantings, and where I have LiDAR "
