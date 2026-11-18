@@ -104,6 +104,8 @@ If signs, bollards and benches become movable, Porta's free spots rise from 152 
 
 **Not an option (Giovanni, 18 Nov):** removing a tree without replacing it.
 
+**The method also questions the city's rules (Giovanni, 18 Nov).** City practice does not fully follow the city's own guidance (§9a: 21% of new plantings larger than the 2011 sidewalk rule allows; 51% of Porta's trees closer to a lamp than the guide). Probably for practical design reasons we cannot see in the data. The 2011 guide is technical guidance, not a law, so the point is not "the city breaks the rules" but: either the rules describe what is wanted and practice drifts from them, or practice shows that some rules need updating. The tool can measure **what each rule costs** in shade and runoff (switch it on/off and re-optimise), which turns this into evidence for updating the rules (see the policy-proposal idea, 16 Nov).
+
 **For whom.** The city's tree service (Parcs i Jardins), which approves the planting, and the residents who use the street.
 
 | Fixed (the tool does not change it) | Why | Free (the tool helps decide) |
