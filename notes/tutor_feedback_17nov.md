@@ -213,3 +213,26 @@ Giovanni's idea: show all possible spots, each with what stands in the way, and 
 - **Ignored:** benches (and fountains): no longer an obstacle.
 - Result: **153 free · 106 conditional · 8 blocked** (267 candidates). To do in the tool thread: re-run spots with these classes; the optimiser keeps 153 free spots by default, conditional ones on a switch.
 - Crossing rules searched (18 Nov, web only, not fact-checked): **no Barcelona or Catalan rule found that sets a distance between a tree and a crossing**; the tool's 3 m stays an ASSUMPTION. National accessibility order TMA/851/2021 (as summarised in Basque Government sheet U3): the crossing must be visible day and night; at crossings without traffic lights no element that blocks the view may be placed; the sidewalk area of the kerb ramp must be free of obstacles. DGT, *12 Recomendaciones de movilidad urbana segura y sostenible* (a recommendation, not a law): remove car parking and street furniture at least 6 m before the crossing in the direction of traffic; about one crossing every 100 m. The Catalan Accessibility Code (Decree 209/2023) summary read has nothing specific. Reading: crossings stay **conditional** (they can be moved in a street rebuild), with the flag "check visibility: DGT recommends 6 m clear before an unsignalised crossing". Existing sensitivity: crossing clearance 2/3/5 m changes kept spots little (`notes/sidewalk_width.md`).
+
+## 10. Porta fact sheet (P1–P3), absolute and %
+
+All from files in `databases/barcelona/`; heat and runoff are today's trees (S0) in the T2-60 design storm (31.9 mm in 1 h, PDISBA).
+
+| Item | Absolute | % | Source |
+|---|---|---|---|
+| Area | 83.7 ha | — | `porta_canopy_cover.csv` |
+| Canopy (CHM > 2 m, LiDAR 26 Sept 2021) | 16.8 ha | 20.1% | same |
+| of which street trees | 11.7 ha | 13.9% | same |
+| of which other (courtyards, parks, private) | 5.2 ha | 6.2% | same |
+| Gap to the Pla director's 30% | 8.3 ha | 9.9 pts | same (target 0.3) |
+| Street-tree positions | 2,825, 60 species | — | `porta_sidewalk_width.csv` |
+| Planes | 832 | 29% of positions | same |
+| Free spots | 153 free · 106 conditional · 8 blocked | — | §9d |
+| Canopy added by planting the 152 free spots (optimised) | ≈ 0.33 ha | +0.40 pts, ≈ 4% of the gap | `additions_summary.csv` (crown discs, relative measure; 7-species run of 11 Nov) |
+| Rain on Porta in the storm | ≈ 26,700 m³ | 100% | 31.9 mm × 83.7 ha |
+| Runoff, total | 17,660 m³ | ≈ 66% of the rain | `additions_summary.csv` S0 |
+| Runoff reaching flood hotspots | 2,682 m³ | 15% of runoff | same |
+| Held by today's street-tree crowns | 794 m³ | 1.85% less runoff (`notes/methodology.md` §4b) | same |
+| Flooded area, RESCCUE T10 today | 13.7 ha wet, 3.6 ha ≥ 15 cm | 16% of Porta | `resccue_porta_summary.csv` |
+
+To compute in the tool thread: runoff to hotspots **per street segment** and litres held **per tree** (P3); the same sheet for the case-study areas (Av. Rio de Janeiro; one drawn area); the additions row with the 30-species palette and the new spot classes.
