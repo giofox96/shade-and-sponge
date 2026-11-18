@@ -116,8 +116,8 @@ If signs, bollards and benches become movable, Porta's free spots rise from 152 
 
 | ❓ | Recommendation | Why |
 |---|---|---|
-| D1 7 or 30 species | **30 as the method's palette; 7 only as one sensitivity row** ("a narrow list costs 5.0 pts of summer shade") | 30 comes from the city's own 2011 catalogue (minus its 4 "avoid" species) and contains all 6 species the city really plants for planes; 7 rests partly on press. All recent runs (back-test, city LP) are on 30 |
-| D2 Name and content of "City rule" | **Rename "City practice" = S1b** in tool, slides and thesis; S1a ("announced mix", press) as a footnote | It is not a written rule: it is what the city actually planted 2018–2026, placed within the 2011 sizing rule and the 15% cap. Saying "rule" invites "which rule?" |
+| D1 7 or 30 species — ✅ **DECIDED 30 (Giovanni, 18 Nov)** | **30 as the method's palette; 7 only as one sensitivity row** ("a narrow list costs 5.0 pts of summer shade") | 30 comes from the city's own 2011 catalogue (minus its 4 "avoid" species) and contains all 6 species the city really plants for planes; 7 rests partly on press. All recent runs (back-test, city LP) are on 30 |
+| D2 Name and content of "City rule" — ✅ **DECIDED "City practice" (Giovanni, 18 Nov); always say it is a practice, not a rule** | **Rename "City practice" = S1b** in tool, slides and thesis; S1a ("announced mix", press) as a footnote | It is not a written rule: it is what the city actually planted 2018–2026, placed within the 2011 sizing rule and the 15% cap. Saying "rule" invites "which rule?" |
 | D3 Movable objects | **Signs, bollards, benches movable; the rest hard** (§3b) | Angelos's point; recompute spots |
 | D4 Case-study areas in Porta | **Av. Rio de Janeiro** (real 2025 replacement of 22 poplars, back-test) + one designer area drawn in Porta | Real event inside the site; numbers already exist (167 / 74 / 240 m²·h per tree) |
 | D5 Schedule table, save configuration (§6) | **After 24 Nov**, in the tool thread; for the talk, one mock-up image at most | Not needed for the story; it is a tool feature |
@@ -157,3 +157,47 @@ Order agreed with Giovanni: narrative first, then methodology, then slides.
 | Tue 24 | Rehearse; bring §7 questions to the next tutor meeting | Giovanni | — |
 
 Budget (M10) and tree-pit size continue in their own threads; nothing here duplicates them.
+
+## 9. Follow-up, 18 Nov (Giovanni's answers)
+
+### 9a. City practice vs the city's own rules
+
+Giovanni: "we have the city's rules, but does the city respect them?" Measured on the 2011 guide's sidewalk → size-class rule (species class from the guide catalogue, `layout.SIZE_CLASS`; only positions on measured, façade-bounded sidewalks):
+
+| Trees | Positions with a class | Species larger than the guide allows | Source |
+|---|---|---|---|
+| Porta, standing today (LiDAR 2021 inventory) | 750 | **171 (23%)**, mostly Catalpa 40, Citrus on sidewalks < 2.5 m 26, Celtis 20, Jacaranda 16 | `porta_sidewalk_width.csv` |
+| Back-test groups: trees the city removed | 151 | **75 (50%)** | `backtest_works_guide_capsmall_positions.csv` |
+| Back-test groups: what the city planted instead (2018–2026) | 171 | **36 (21%)**: Pyrus on sidewalks < 2.5 m 11, Casuarina on medium/small 19, Gleditsia on medium 4 | same |
+| Lamp distance (guide pp. 22–23) | Porta, standing trees | **51%** closer than the guide | `notes/tutor_feedback_10nov.md` A3 |
+
+Reading: the city's new plantings follow the sizing rule much better than the old trees (about 4 in 5 vs 1 in 2), but not always; on lamp distance practice is about half the guide's distance. So "City practice" = the species mix the city really planted (S1b), placed within the sizing rule and the 15% cap. That is *kinder* to the city than reality (we force its mix to fit the rule), which makes the comparison with the method conservative. The method follows the same rules; the only difference is **which species goes where**.
+
+### 9b. Everything that removes a free spot in Porta
+
+Candidate spots come from geometry first (sidewalk ≥ 2.5 m, 0.7 m from the kerb, spacing 7/9/13 m by size class): 267. Objects then remove 115 (first recorded cause only):
+
+| Object | Spots removed | Distance | Source of the distance | Moving it (estimate, not sourced) | Proposal |
+|---|---|---|---|---|---|
+| Sign support | 34 | 3 m | 2011 guide | easy: unbolt and re-fix, traffic authority sign-off | conditional |
+| Crossing | 31 | 3 m | ASSUMPTION (sight lines) | no: road layout | blocked |
+| Lamp | 28 | half the guide (1.5–3.3 m) | guide × 0.5, ASSUMPTION 11 Nov | hard: cable in a trench, lighting design | conditional, flagged "costly" |
+| Bollard | 12 | 1 m | ASSUMPTION | easy | conditional |
+| Traffic light (city + OSM) | 5 + 1 | 3 m | 2011 guide | no: signal design, wiring | blocked |
+| Driveway (OSM parking entrance) | 2 | 3 m | ASSUMPTION | no: property access | blocked |
+| Bus stop | 1 | 8 m | ASSUMPTION | no | blocked |
+| Bench | 1 | 1 m | ASSUMPTION | easy | conditional |
+| Fountain | 0 | 1 m | ASSUMPTION | medium (water pipe) | conditional |
+| **Not in open data** | ? | — | — | — | field check: underground utilities, driveways not in OSM, private ground-floor enclosures, bar terraces, bins, hydrants, manholes, bike/motorbike parking |
+
+With this split: **152 free · 75 conditional (47 easy + 28 lamps) · 40 blocked.**
+
+### 9c. Tool: one schedule, two tabs (proposal for "Sviluppare il tool", after 24 Nov)
+
+Giovanni's idea: show all possible spots, each with what stands in the way, and let the designer decide after a field check. Recommended form:
+
+- **Tab "Trees"** (existing trees in the area): id, species, size, priority score, Action (keep / move / replace), Reason (dead, diseased, pests, dangerous, roots damage paving, works, other + text), species chosen.
+- **Tab "Spots"**: id, sidewalk width, size class, Status (free / conditional / blocked), What is in the way (e.g. "sign 2.1 m"), Action (add / leave empty), Field check (to do / ok / not possible).
+- Same map selection for both tabs (click ↔ highlight). When a spot gets **Add**, it moves to the Trees tab as "new tree", so one list holds the final design.
+- The optimiser uses free spots by default; a switch "include conditional spots" adds the 75, each flagged in the results.
+- Save / load the whole configuration (actions, reasons, field checks, chosen layout).
