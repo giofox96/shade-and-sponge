@@ -61,12 +61,12 @@ def gap_flow():
     h = 640
     b = arrows(["M400 230V318", "M1200 230V318", "M800 486V540"], h)
     for x, c, ics, k, t, s, r in [
-            (40, RAIN, ("flame", "droplets"), "Heat + runoff models", "Both services", "✕ no choice of species",
+            (40, RAIN, (("flame", "#D9622B"), "droplets"), "Heat + runoff models", "Both services", "✕ no choice of species",
              "Mannucci et al. 2025 · Wu et al. 2024"),
             (840, WARN, ("sliders-horizontal", "tree-deciduous"), "Species tools", "Optimisers, rankings, recommenders",
              "✕ one service, or no positions", "Shaamala 2025 · Peng 2026 · Dong 2026 · Nicol 2026 (SylvCiT)")]:
         b += (f'<div class="n" style="left:{x}px;top:20px;width:720px;height:210px;background:{tint(c, .12)}">'
-              f'<div class="row">{"".join(svg(i, c, 40) for i in ics)}<div class="k" style="color:{c}">{k}</div></div>'
+              f'<div class="row">{"".join(svg(*i, 40) if isinstance(i, tuple) else svg(i, c, 40) for i in ics)}<div class="k" style="color:{c}">{k}</div></div>'
               f'<div class="t">{t}</div><div class="t" style="color:{HEAT}">{s}</div><div class="r">{r}</div></div>')
     b += (f'<div class="n" style="left:120px;top:322px;width:1360px;height:164px;background:#FBFAF6;border:3px dashed {HEAT};'
           f'align-items:center;text-align:center"><div class="k" style="color:{HEAT}">Gap</div>'
