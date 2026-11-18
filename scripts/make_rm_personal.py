@@ -59,7 +59,7 @@ def s2(s):
     head(s, "Context: replacing trees one at a time", "Barcelona, and my site, Porta (Nou Barris)")
     for k, (ic, big, small, c) in enumerate([
             ("refresh-ccw", "10,976", "trees replaced, 2018–2026", WARN),
-            ("percent", "15%", "max per species; no rule on where", TREE),
+            ("chart-pie", "15%", "max per species; no rule on where", TREE),
             ("trees", "20.1%", "Porta's canopy; city target 30%", HEAT)]):
         y = 1.65 + k * 1.55
         ico(s, ic, c, M, y + 0.15, 0.6)
