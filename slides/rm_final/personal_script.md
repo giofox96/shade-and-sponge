@@ -17,7 +17,7 @@ v2 (18 Nov): rebuilt on the decisions of 18 Nov after the 17 Nov tutor session (
 **Say (54 words):** "So my gap is methodological. Of eighteen tools that place or assess urban trees, none chooses the species tree by tree inside a city's own rules. And it matters: with the same trunk, the six most common species on Porta's streets carry crowns from a full plane tree down to a quarter of one."
 
 ### 5. Refined question
-**Say (47 words):** "My question started as trees against floods in Bologna. Feedback narrowed it: runoff depends more on the tree pit than on the species, so it is now a do-no-harm check. Today: can a method beat the city's own practice on heat, and never be worse on runoff?"
+**Say (48 words):** "My question started as trees against floods in Bologna. Feedback narrowed it: runoff depends more on the tree pit than on the species, so it is now a do-no-harm check. Today: to what extent can a method beat the city's own practice on heat, without losing on runoff?"
 
 ### 6. Fixed and free
 **Say (46 words):** "Fixed: the street geometry and the city's rules: the fifteen percent cap, sidewalk width deciding tree size, distances to lamps and signs. Free: four actions per tree. Keep, move, replace, or add on a free spot; never remove without replacing. The designer decides; the tool advises."

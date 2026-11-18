@@ -98,9 +98,9 @@ def s5(s):
         box(s, x, 1.55, 3.9, 1.55, tint(c, 0.10))
         text(s, x + 0.25, 1.65, 3.4, 1.4, [[(b, {"bold": True, "color": c, "size": 17})], t], 14, INK)
     box(s, M, 3.4, W - 2 * M, 3.0, tint(INK, 0.06))
-    text(s, M + 0.5, 3.4, W - 2 * M - 1.0, 3.0, "When a street project in Barcelona must replace trees, can a trait-based "
-         "method, inside the city's tree rules, choose species and positions so that pedestrian cooling improves, and "
-         "storm-water interception is no worse, compared with the city's own practice?", 24, INK, True,
+    text(s, M + 0.5, 3.4, W - 2 * M - 1.0, 3.0, "When a street project in Barcelona must replace or add trees, to what extent "
+         "can a trait-based method that chooses species and positions inside the city's tree rules give more summer "
+         "cooling than the city's own replacement practice, without losing rain interception?", 24, INK, True,
          anchor=MSO_ANCHOR.MIDDLE)
 
 
