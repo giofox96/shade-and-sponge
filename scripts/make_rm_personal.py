@@ -2,10 +2,12 @@
 Speaker notes = the "Say" lines of slides/rm_final/personal_script.md.
 Output: slides/rm_final/shade_and_sponge_rm_personal.pptx. Run from scripts/: python make_rm_personal.py
 """
+import io
 import re
 from PIL import Image
 from pptx import Presentation
 from pptx.enum.text import MSO_ANCHOR
+from pptx.oxml.ns import qn
 from pptx.util import Inches
 import make_deck_editable as mde
 from make_deck_editable import ROOT, INK, MUTED, BG, HEAT, RAIN, TREE, WARN, W, H, M, rgb, tint, text, box, card, head, source, picture
@@ -16,18 +18,32 @@ mde.FONT = FONT
 
 
 def s1(s):
-    im = Image.open(ROOT / "slides/rt_pechakucha/title_photo.jpg").convert("RGB")
-    p = s.shapes.add_picture(str(ROOT / "slides/rt_pechakucha/title_photo.jpg"), 0, 0, width=Inches(W))
+    im = Image.open(ROOT / "slides/fig/01_title_photo.webp").convert("RGB")   # same photo and scrim as the RT pitch title
+    buf = io.BytesIO()
+    im.save(buf, "JPEG", quality=90)
+    buf.seek(0)
+    p = s.shapes.add_picture(buf, 0, 0, width=Inches(W))
     ratio = im.size[1] / im.size[0] * W / H
     if ratio > 1:
         p.crop_top = p.crop_bottom = (1 - 1 / ratio) / 2
     p.height = Inches(H)
-    box(s, 0, 0, 8.6, H, "#000000", radius=0).fill.fore_color.rgb = rgb("#1E1E1E")
-    text(s, 0.75, 1.3, 7.3, 0.8, "Shade and Sponge", 46, BG, True, name="Title")
-    text(s, 0.75, 2.35, 7.3, 3.6, [[("“I am redesigning this street. ", {"bold": True})],
+    scrim = box(s, 0, 0, W, H, "#000000", radius=0, name="Scrim")
+    scrim.fill.gradient()
+    scrim.fill.gradient_angle = 0
+    gs = scrim.fill._xPr.find(qn("a:gradFill")).find(qn("a:gsLst"))
+    for g in list(gs):
+        gs.remove(g)
+    for pos, a in ((0, 85000), (45000, 70000), (100000, 0)):
+        g = gs.makeelement(qn("a:gs"), {"pos": str(pos)})
+        c = g.makeelement(qn("a:srgbClr"), {"val": "000000"})
+        c.append(c.makeelement(qn("a:alpha"), {"val": str(a)}))
+        g.append(c)
+        gs.append(g)
+    text(s, 0.75, 1.5, 7.4, 1.0, "Shade and Sponge", 54, BG, True, name="Title")
+    text(s, 0.75, 2.7, 7.0, 3.0, [[("“I am redesigning this street. ", {"bold": True})],
          "Which trees do I keep, move or replace, and where do I add new ones, so the street is cooler in summer "
          "and not worse for flooding, within the city's rules?”"], 22, BG)
-    text(s, 0.75, 6.4, 7.3, 0.4, "Giovanni Volpe · MaCAD, IAAC · Research & Methodologies", 14, "#CFC9BC", name="Mono")
+    text(s, 0.75, 6.2, 11.0, 0.4, "Giovanni Volpe · MaCAD, IAAC · Research & Methodologies", 16, "#CFC9BC", name="Mono")
 
 
 def s2(s):
