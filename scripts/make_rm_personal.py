@@ -11,7 +11,7 @@ from pptx.oxml.ns import qn
 from pptx.util import Inches
 import make_deck_editable as mde
 from make_rm_personal_figs import icon_png
-from make_deck_editable import ROOT, INK, MUTED, BG, HEAT, RAIN, TREE, WARN, W, H, M, rgb, tint, text, box, card, head, source, picture
+from make_deck_editable import ROOT, INK, MUTED, BG, HEAT, RAIN, TREE, WARN, W, H, M, rgb, tint, text, box, head, source, picture
 
 OUT = ROOT / "slides/rm_final"
 FONT, MONO = "IBM Plex Sans", "IBM Plex Mono"

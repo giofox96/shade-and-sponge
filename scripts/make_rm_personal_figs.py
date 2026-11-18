@@ -4,7 +4,6 @@ Run from scripts/: python make_rm_personal_figs.py   (needs cairosvg)
 """
 import re
 import subprocess
-from pathlib import Path
 import cairosvg
 from make_infographics import ROOT, INK, MUTED, BG, HEAT, RAIN, TREE, WARN
 
