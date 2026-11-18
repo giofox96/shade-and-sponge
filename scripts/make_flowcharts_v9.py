@@ -31,7 +31,7 @@ def flow_overview():
     b += i_layers(X[2], y0 - 25) + caption(X[2], y0 + 40, "Indicators per tree") + t(X[2], y0 + 62, "shade · water flow · size", 14, MUTED, anchor="middle")
     for y in ys:
         b += curve(X[1] + 100, y, X[2] - 46, y0 - 25, GRID)
-    b += i_area(X[3], y0 - 25) + caption(X[3], y0 + 40, "Draw an area") + t(X[3], y0 + 62, "keep · move · replace", 14, MUTED, anchor="middle")
+    b += i_area(X[3], y0 - 25) + caption(X[3], y0 + 40, "Draw an area") + t(X[3], y0 + 62, "keep · move · replace · add", 14, MUTED, anchor="middle")
     b += curve(X[2] + 46, y0 - 25, X[3] - 40, y0 - 25)
     b += box(X[4], 380, "Replacement", TREE, 190, 56, "trees the project removes")
     b += box(X[4], 560, "Additions", TREE, 190, 56, "free planting spots")
