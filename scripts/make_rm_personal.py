@@ -135,7 +135,7 @@ def s7(s):
 def s8(s):
     head(s, "First evidence: back-test", "26 groups where the city replaced trees: same positions, city's choice vs method")
     box(s, M, 1.6, W - 2 * M, 2.9, tint(TREE, 0.08))
-    ico(s, "sun", WARN, M + 0.5, 2.05, 0.8)
+    ico(s, "tree-deciduous", TREE, M + 0.5, 2.05, 0.8)
     text(s, M + 1.5, 1.6, 4.6, 2.9, [[("59 → 139", {"bold": True, "color": TREE, "size": 44})],
                                      "m²·h summer shade per tree (median), city vs method"], 16, INK, anchor=MSO_ANCHOR.MIDDLE)
     ico(s, "circle-check", TREE, M + 6.6, 2.05, 0.8)
