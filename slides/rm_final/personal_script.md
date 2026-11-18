@@ -28,8 +28,8 @@ v2 (18 Nov): rebuilt on the decisions of 18 Nov after the 17 Nov tutor session (
 ### 8. The screening
 **Say (49 words):** "The screening runs once, for every tree and free spot. What stands there: species, trunk, crown and leaf density from LiDAR. Where it is: sidewalk width, façade, lamps and signs, and whether its rain flows to a flood spot. And what each of the thirty species would do there."
 
-### 9. Why this way
-**Say (51 words):** "Why this way. An exact optimiser, because the rules are hard limits: it finds the best layout and proves it. Open data, so it works anywhere. And a real baseline: what the city actually planted. That also questions the rules: one in five new plantings is larger than its sidewalk allows."
+### 9. Why this way, and not another
+**Say (65 words):** "Why this way, and not another. Not field measurement: the layout does not exist yet. Not machine learning: there is no outcome data to train on. An exact optimiser, because the rules are hard limits: it finds the best layout and proves it. And a real baseline: what the city actually planted. One in five of its new plantings is larger than its sidewalk allows."
 
 ### 10. First evidence
 **Say (51 words):** "First evidence. On twenty-six real replacement groups, at the same positions, the method gives a median of one hundred thirty-nine square-metre hours of summer shade per tree; the city's choice gave fifty-nine. It wins in twenty-two of twenty-six. Next: heat in Ladybug and Infrared City, and transfer to Mataró and Florence."

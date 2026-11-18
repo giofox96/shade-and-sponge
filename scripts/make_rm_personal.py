@@ -147,7 +147,7 @@ def s8(s):
 
 
 def s9(s):
-    head(s, "Why this way")
+    head(s, "Why this way, and not another")
     items = [("Exact optimiser", "The rules are hard limits: it finds the best layout and proves it (linear programme, HiGHS).", WARN),
              ("Open data only", "Any neighbourhood of Barcelona; transfer test in Mataró and Florence.", TREE),
              ("City practice as baseline", "What the city actually planted 2018–2026, not what it announced. A practice, not a rule.", RAIN)]
@@ -155,8 +155,11 @@ def s9(s):
         x = M + k * 4.18
         box(s, x, 1.5, 3.9, 2.6, tint(c, 0.10))
         text(s, x + 0.3, 1.7, 3.3, 2.3, [[(b, {"bold": True, "color": c, "size": 21})], t], 16, INK)
-    box(s, M, 4.4, W - 2 * M, 1.9, tint(HEAT, 0.10))
-    text(s, M + 0.5, 4.4, W - 2 * M - 1.0, 1.9, [[("1 in 5 ", {"bold": True, "color": HEAT, "size": 40}),
+    text(s, M, 4.2, W - 2 * M, 0.6, [[("Not: ", {"bold": True, "color": MUTED}),
+         ("field measurement (the layout does not exist yet) · machine learning (no outcome data to train on) · "
+          "full microclimate simulation everywhere (too slow inside an optimiser: Ladybug is the check)", {})]], 14, INK)
+    box(s, M, 4.9, W - 2 * M, 1.5, tint(HEAT, 0.10))
+    text(s, M + 0.5, 4.9, W - 2 * M - 1.0, 1.5, [[("1 in 5 ", {"bold": True, "color": HEAT, "size": 40}),
          ("of the city's new plantings is larger than its sidewalk allows (2011 guide).", {"size": 20})],
          [("The method also measures what each rule costs.", {"size": 18, "color": MUTED})]], 18, INK, anchor=MSO_ANCHOR.MIDDLE)
     source(s, "Huangfu & Hall 2018 (HiGHS); Open Data BCN, arbrat viari quarterly inventories 2018–2026; Parcs i Jardins, street-tree guide (2011).")
