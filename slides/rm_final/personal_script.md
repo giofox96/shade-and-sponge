@@ -14,7 +14,7 @@ v2 (18 Nov): rebuilt on the decisions of 18 Nov after the 17 Nov tutor session (
 **Say (48 words):** "What exists today. Workflows that model heat and runoff together, but for fixed scenarios, with no choice of species. Optimisers that place trees, but for heat only. Rankings of species by their services, with no positions. And SylvCiT, a trait-based recommender whose runoff module is still switched off."
 
 ### 4. Research gap
-**Say (53 words):** "So my gap is methodological. Of eighteen tools that place or assess urban trees, none chooses the species tree by tree inside a city's own rules. And the choice matters: with the same trunk size, the species on Porta's streets carry crowns from a full plane tree down to a quarter of one."
+**Say (56 words):** "So my gap is methodological. Of eighteen tools that place or assess urban trees, none chooses the species tree by tree inside a city's own rules. And the choice matters: with the same trunk size, the six most common species on Porta's streets carry crowns from a full plane tree down to a quarter of one."
 
 ### 5. Refined question
 **Say (54 words):** "My question changed a lot in this course. It started as trees against floods in Bologna. Feedback narrowed it: runoff depends more on the tree pit than on the species, so it is now a do-no-harm check. Today: can a method beat the city's own practice on heat, and never be worse on runoff?"
@@ -31,4 +31,4 @@ v2 (18 Nov): rebuilt on the decisions of 18 Nov after the 17 Nov tutor session (
 ### 9. First evidence
 **Say (52 words):** "First evidence. On twenty-six real replacement groups, at the same positions, the method gives a median of one hundred thirty-nine square-metre hours of summer shade per tree; the city's choice gave fifty-nine. It wins in twenty-two of twenty-six. Next: heat checked in Ladybug and Infrared City, and transfer to Mataró and Florence."
 
-Total: 471 words (about 3 min at 155 words a minute).
+Total: 474 words (about 3 min at 155 words a minute).

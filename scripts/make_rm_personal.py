@@ -76,10 +76,16 @@ def s3(s):
 def s4(s):
     head(s, "Research gap: methodological", "Same trunk size, very different crowns (Porta's street trees)")
     picture(s, ROOT / "slides/fig_v8/v8_crowns.png", M + 1.4, 1.35, W - 2 * M - 2.8, crop_top=0.17, crop_bottom=0.2)
-    box(s, M, 5.9, W - 2 * M, 0.7, tint(HEAT, 0.12))
-    text(s, M + 0.3, 5.9, W - 2 * M - 0.6, 0.7, "Of 18 tools that place or assess urban trees, none chooses species tree by "
-         "tree inside a city's rules.", 19, HEAT, True, anchor=MSO_ANCHOR.MIDDLE)
-    source(s, "ICGC, LiDAR flight of 26 Sept 2021; Ajuntament de Barcelona, arbrat viari.")
+    text(s, M + 1.4, 4.75, W - 2 * M - 2.8, 1.2, [
+        [("Why these species: ", {"bold": True}), ("the six most common on Porta's streets after the plane tree, all "
+                                                 "candidates to replace it.", {})],
+        [("Bar = crown area as a share of a plane's with the same trunk (41–110 cm perimeter). Dark = smaller of the two "
+          "trunk classes, light = larger; dashed line = plane, 100%; n = trees measured.", {"color": MUTED, "size": 12})]],
+        14, INK)
+    box(s, M, 6.05, W - 2 * M, 0.75, tint(HEAT, 0.12))
+    text(s, M + 0.3, 6.05, W - 2 * M - 0.6, 0.75, "Of 18 tools that place or assess urban trees, none chooses species tree by "
+         "tree inside a city's rules.", 18, HEAT, True, anchor=MSO_ANCHOR.MIDDLE)
+    source(s, "ICGC, LiDAR flight of 26 Sept 2021; Ajuntament de Barcelona, arbrat viari (Porta).")
 
 
 def s5(s):
