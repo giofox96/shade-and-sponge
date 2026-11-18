@@ -1,8 +1,9 @@
-"""RM final presentation, personal part (3 min, 6 slides), in the style of the RT Pecha Kucha (same helpers, fonts, palette).
+"""RM final presentation, personal part (mini Pecha Kucha, 3 min, 9 slides x 20 s), in the style of the RT Pecha Kucha (same helpers, fonts, palette).
 Speaker notes = the "Say" lines of slides/rm_final/personal_script.md.
 Output: slides/rm_final/shade_and_sponge_rm_personal.pptx. Run from scripts/: python make_rm_personal.py
 """
 import re
+from PIL import Image
 from pptx import Presentation
 from pptx.enum.text import MSO_ANCHOR
 from pptx.util import Inches
@@ -15,18 +16,32 @@ mde.FONT = FONT
 
 
 def s1(s):
-    head(s, "Shade and Sponge", "Which species should replace the street trees a project removes?")
-    for k, (big, small, c) in enumerate([
-            ("10,976", "street trees replaced with another species in Barcelona, 2018–2026", WARN),
-            ("13%", "of them plane trees (Platanus), the largest single case", HEAT),
-            ("15%", "maximum share per species in the master plan; nothing says which species goes where", TREE)]):
-        card(s, M + k * 4.18, 1.75, 3.9, 3.0, big, small, c, 48, 18)
-    text(s, M, 5.2, W - 2 * M, 0.8, "Topic: choosing replacement species and positions for summer heat and storm water, "
-         "inside the city's rules.", 19, INK)
-    source(s, "Open Data BCN, arbrat viari, quarterly inventories 2018–2026; Ajuntament de Barcelona, Pla director de l'arbrat 2017–2037.")
+    im = Image.open(ROOT / "slides/rt_pechakucha/title_photo.jpg").convert("RGB")
+    p = s.shapes.add_picture(str(ROOT / "slides/rt_pechakucha/title_photo.jpg"), 0, 0, width=Inches(W))
+    ratio = im.size[1] / im.size[0] * W / H
+    if ratio > 1:
+        p.crop_top = p.crop_bottom = (1 - 1 / ratio) / 2
+    p.height = Inches(H)
+    box(s, 0, 0, 8.6, H, "#000000", radius=0).fill.fore_color.rgb = rgb("#1E1E1E")
+    text(s, 0.75, 1.3, 7.3, 0.8, "Shade and Sponge", 46, BG, True, name="Title")
+    text(s, 0.75, 2.35, 7.3, 3.6, [[("“I am redesigning this street. ", {"bold": True})],
+         "Which trees do I keep, move or replace, and where do I add new ones, so the street is cooler in summer "
+         "and not worse for flooding, within the city's rules?”"], 22, BG)
+    text(s, 0.75, 6.4, 7.3, 0.4, "Giovanni Volpe · MaCAD, IAAC · Research & Methodologies", 14, "#CFC9BC", name="Mono")
 
 
 def s2(s):
+    head(s, "Context: replacing trees one at a time", "Barcelona city-wide, and my site, Porta (Nou Barris)")
+    for k, (big, small, c) in enumerate([
+            ("10,976", "street trees replaced with another species, 2018–2026; plane trees (Platanus) the largest case, 13%", WARN),
+            ("15%", "maximum share per species (master plan); nothing says which species goes where", TREE),
+            ("20.1%", "Porta's canopy today (16.8 ha); 8.3 ha short of the city's 30% target", HEAT)]):
+        card(s, M + k * 4.18, 1.75, 3.9, 3.2, big, small, c, 48, 17)
+    source(s, "Open Data BCN, arbrat viari, quarterly inventories 2018–2026; Ajuntament de Barcelona, Pla director de l'arbrat "
+           "2017–2037; ICGC, LiDAR flight of 26 Sept 2021.")
+
+
+def s3(s):
     head(s, "State of the art", "Each piece exists; nobody joins them")
     items = [("Heat + runoff, fixed scenarios", "No choice of species", "Mannucci et al. 2025; Wu et al. 2024", RAIN),
              ("Tree placement optimisers", "Heat only", "Shaamala et al. 2025; Peng et al. 2026", HEAT),
@@ -42,7 +57,7 @@ def s2(s):
     source(s, "Mannucci et al. 2025; Wu et al. 2024; Shaamala et al. 2025; Peng et al. 2026; Dong et al. 2026; Nicol et al. 2026 (PLoS One).")
 
 
-def s3(s):
+def s4(s):
     head(s, "Research gap: methodological", "Same trunk size, very different crowns (Porta's street trees)")
     picture(s, ROOT / "slides/fig_v8/v8_crowns.png", M + 1.4, 1.35, W - 2 * M - 2.8, crop_top=0.17, crop_bottom=0.2)
     box(s, M, 5.9, W - 2 * M, 0.7, tint(HEAT, 0.12))
@@ -51,7 +66,7 @@ def s3(s):
     source(s, "ICGC, LiDAR flight of 26 Sept 2021; Ajuntament de Barcelona, arbrat viari.")
 
 
-def s4(s):
+def s5(s):
     head(s, "Refined question", "From trees against floods to replacing trees without harm")
     steps = [("October", "Trees against pluvial floods, Bologna / Florence", MUTED),
              ("Feedback", "Runoff depends on the tree pit more than the species: a check, not a promise. Any tree, not only planes.", WARN),
@@ -62,36 +77,63 @@ def s4(s):
         text(s, x + 0.25, 1.65, 3.4, 1.4, [[(b, {"bold": True, "color": c, "size": 17})], t], 14, INK)
     box(s, M, 3.4, W - 2 * M, 3.0, tint(INK, 0.06))
     text(s, M + 0.5, 3.4, W - 2 * M - 1.0, 3.0, "When a street project in Barcelona must replace trees, can a trait-based "
-         "method, inside the city's tree rules, choose species and positions so that pedestrian cooling and storm-water "
-         "interception improve, or at least do not get worse, compared with the city's own practice?", 24, INK, True,
+         "method, inside the city's tree rules, choose species and positions so that pedestrian cooling improves, and "
+         "storm-water interception is no worse, compared with the city's own practice?", 24, INK, True,
          anchor=MSO_ANCHOR.MIDDLE)
 
 
-def s5(s):
+def s6(s):
+    head(s, "What is fixed, what is free", "The street project sets the layout; the tool advises, the designer decides")
+    box(s, M, 1.55, 5.0, 4.9, tint(MUTED, 0.10))
+    text(s, M + 0.3, 1.7, 4.4, 4.6, [[("FIXED", {"bold": True, "color": MUTED, "size": 18})],
+         "Street geometry, sidewalk width, kerbs", "15% cap per species", "Sidewalk width → tree size class",
+         "Distance to lamps, signs, traffic lights"], 17, INK)
+    acts = [("Keep", "the default", TREE), ("Move", "if the project needs it", WARN),
+            ("Replace", "cut + a new species", HEAT), ("Add", "on a free spot", RAIN)]
+    for k, (b, t, c) in enumerate(acts):
+        x, y = M + 5.3 + (k % 2) * 3.5, 1.55 + (k // 2) * 2.0
+        box(s, x, y, 3.3, 1.8, tint(c, 0.12))
+        text(s, x + 0.3, y + 0.2, 2.8, 1.5, [[(b, {"bold": True, "color": c, "size": 26})], t], 16, INK)
+    text(s, M + 5.3, 5.65, 6.8, 0.8, [[("FREE: four actions per tree. ", {"bold": True}), ("Removing without replacing is not an option.", {})]],
+         16, INK)
+    source(s, "Ajuntament de Barcelona, Pla director de l'arbrat 2017–2037; Parcs i Jardins, street-tree guide (2011).")
+
+
+def s7(s):
     head(s, "Method", "Open data in; a species for every tree to replace and for every free spot out")
     picture(s, ROOT / "slides/fig_v9/flow_00_overview.png", M + 0.15, 1.35, W - 2 * M - 0.3, crop_top=0.17, crop_bottom=0.075)
 
 
-def s6(s):
+def s8(s):
     head(s, "Why this way")
-    items = [("Exact optimiser", "The rules are hard limits: the best layout, reproducible (linear programme, HiGHS).", WARN),
-             ("Open data only", "Any barri of Barcelona; transfer test in Mataró and Florence.", TREE),
-             ("Real baseline", "What the city actually plants, from its own inventory.", RAIN),
-             ("Checked", "Heat in Ladybug and Infrared City; back-test on real replacements.", HEAT)]
+    items = [("Exact optimiser", "The rules are hard limits: it finds the best layout and proves it (linear programme, HiGHS).", WARN),
+             ("Open data only", "Any neighbourhood of Barcelona; transfer test in Mataró and Florence.", TREE),
+             ("City practice as baseline", "What the city actually planted 2018–2026, not what it announced. A practice, not a rule.", RAIN)]
     for k, (b, t, c) in enumerate(items):
-        x = M + k * 3.11
-        box(s, x, 1.45, 2.9, 2.45, tint(c, 0.10))
-        text(s, x + 0.25, 1.6, 2.4, 2.2, [[(b, {"bold": True, "color": c, "size": 20})], t], 15, INK)
-    box(s, M, 4.2, W - 2 * M, 2.2, tint(TREE, 0.08))
-    text(s, M + 0.5, 4.2, 4.8, 2.2, [[("59 → 139 m²·h", {"bold": True, "color": TREE, "size": 40})],
-                                       "summer shade per replaced tree (median), city vs method"], 16, INK, anchor=MSO_ANCHOR.MIDDLE)
-    text(s, M + 6.2, 4.2, 5.8, 2.2, [[("22 of 26", {"bold": True, "color": TREE, "size": 40})],
+        x = M + k * 4.18
+        box(s, x, 1.5, 3.9, 2.6, tint(c, 0.10))
+        text(s, x + 0.3, 1.7, 3.3, 2.3, [[(b, {"bold": True, "color": c, "size": 21})], t], 16, INK)
+    box(s, M, 4.4, W - 2 * M, 1.9, tint(HEAT, 0.10))
+    text(s, M + 0.5, 4.4, W - 2 * M - 1.0, 1.9, [[("1 in 5 ", {"bold": True, "color": HEAT, "size": 40}),
+         ("of the city's new plantings is larger than its sidewalk allows (2011 guide).", {"size": 20})],
+         [("The method also measures what each rule costs.", {"size": 18, "color": MUTED})]], 18, INK, anchor=MSO_ANCHOR.MIDDLE)
+    source(s, "Huangfu & Hall 2018 (HiGHS); Open Data BCN, arbrat viari quarterly inventories 2018–2026; Parcs i Jardins, street-tree guide (2011).")
+
+
+def s9(s):
+    head(s, "First evidence: back-test on real replacements", "26 groups where the city replaced trees; same positions, city's choice vs method")
+    box(s, M, 1.6, W - 2 * M, 2.6, tint(TREE, 0.08))
+    text(s, M + 0.5, 1.6, 4.8, 2.6, [[("59 → 139 m²·h", {"bold": True, "color": TREE, "size": 40})],
+                                       "summer shade per replaced tree (median): city practice vs method"], 16, INK, anchor=MSO_ANCHOR.MIDDLE)
+    text(s, M + 6.2, 1.6, 5.8, 2.6, [[("22 of 26", {"bold": True, "color": TREE, "size": 40})],
                                        "real replacement groups where the method gives more shade, at the same positions"],
          16, INK, anchor=MSO_ANCHOR.MIDDLE)
-    source(s, "Huangfu & Hall 2018 (HiGHS); Ladybug Tools; Infrared City; Open Data BCN, arbrat viari quarterly inventories 2018–2026.")
+    text(s, M, 4.6, W - 2 * M, 1.4, [[("Next: ", {"bold": True}), ("heat checked in Ladybug and Infrared City (UTCI); transfer to Mataró "
+         "and Florence.", {})], [("Runoff stays a do-no-harm check.", {"color": MUTED})]], 19, INK)
+    source(s, "Open Data BCN, arbrat viari quarterly inventories 2018–2026; ICGC LiDAR 2021; Ladybug Tools; Infrared City.")
 
 
-SLIDES = [s1, s2, s3, s4, s5, s6]
+SLIDES = [s1, s2, s3, s4, s5, s6, s7, s8, s9]
 
 
 def build():
