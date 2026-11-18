@@ -20,3 +20,6 @@ From the repository root:
 pandoc thesis/metadata.yaml thesis/0*.md --citeproc -o thesis/build/thesis.docx
 ```
 Add `-o thesis/build/thesis.pdf` for a PDF (needs LaTeX). The `build/` folder is gitignored.
+
+## Layout (DesignCraft, IAAC A4)
+Tables and figures are labelled and numbered per chapter: caption `: Text {#tbl:name}`, figure `![Text](path){#fig:name}`, reference `@tbl:name` / `@fig:name` (→ "Table 3.1"). `thesis/layout/number_refs.py` resolves them; `thesis/layout/build_layout.py` lays the chapters out in two columns with contents and a list of tables and figures (usage in its docstring).

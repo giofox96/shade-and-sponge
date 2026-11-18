@@ -33,7 +33,7 @@ The official documents give several reasons for the cap:
 
 None of them comes with a derivation of the number 15. The plane tree, *Platanus × acerifolia*, is the only species above the cap. The 2011 guide describes its dominance as a "position of vulnerability due to monoculture" [@ajuntament2011gestio, p. 17]. The guide also records the plane's pests, the lace bug *Corythucha ciliata* and powdery mildew, and its sudden summer leaf loss under water stress [@ajuntament2011gestio, pp. 37–38].
 
-The share of planes depends on the denominator, and the sources do not agree on one (Table 3.1). Where the denominator is street trees (2010, 2022), the plane stood at 28–30%. The 2026 press figure of 27.45% is close, although its denominator is not stated.
+The share of planes depends on the denominator, and the sources do not agree on one (@tbl:plane-share). Where the denominator is street trees (2010, 2022), the plane stood at 28–30%. The 2026 press figure of 27.45% is close, although its denominator is not stated.
 
 | Year | Planes | Share | Denominator | Source |
 |---|---|---|---|---|
@@ -42,13 +42,13 @@ The share of planes depends on the denominator, and the sources do not agree on 
 | 2022 | 42,709 | 27.7% | 154,235 street trees | press: @3cat2022 |
 | 2026 | 43,722 | 27.45% | "trees of Barcelona" (not specified; ≈159,300 back-calculated) | press: @naciodigital2026 |
 
-: Table 3.1. Share of plane trees in Barcelona's tree stock, by source.
+: Share of plane trees in Barcelona's tree stock, by source. {#tbl:plane-share}
 
 In May 2026 the city announced that more than half of its planes, 56%, would be removed within ten years, bringing them down to 12% [@naciodigital2026; @beteve2026]. These figures come from the press, not from the plan, whose text contains neither the 12% nor a date for it. They are consistent with each other: 56% of 43,722 is about 24,500 trees, and if the total stays near 159,300 the remaining planes are 12.1% of it. The replacement is gradual: planes are replaced as they die and as more trees are planted [press: @beteve2026], and removed during street works [press: @3cat2022]. They are kept on large avenues and in emblematic places [@ajuntament2011gestio, p. 17].
 
 ## The 2011 guide: sidewalk width sets the tree size {#sec:rules-guide}
 
-The 2017 plan states that the rules of the 2011 guide on species selection and planting remain in force [@ajuntament2017arbres, §1.4.3]. The guide's placement rule links each street's sidewalk width to a tree size class, defined by the adult crown and height (Table 3.2).
+The 2017 plan states that the rules of the 2011 guide on species selection and planting remain in force [@ajuntament2017arbres, §1.4.3]. The guide's placement rule links each street's sidewalk width to a tree size class, defined by the adult crown and height (@tbl:sidewalk-size).
 
 | Sidewalk width | Tree class | Adult crown / height | Spacing |
 |---|---|---|---|
@@ -57,7 +57,7 @@ The 2017 plan states that the rules of the 2011 guide on species selection and p
 | 3.5–6 m (medium) | medium | 4–6 m / 6–15 m | 9 m |
 | > 6 m (wide) | large | > 6 m / > 15 m | 13 m |
 
-: Table 3.2. Sidewalk width and tree size class in the 2011 street-tree guide [@ajuntament2011gestio, pp. 22–23].
+: Sidewalk width and tree size class in the 2011 street-tree guide [@ajuntament2011gestio, pp. 22–23]. {#tbl:sidewalk-size}
 
 Further distances apply:
 

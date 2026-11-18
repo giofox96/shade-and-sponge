@@ -69,7 +69,7 @@ The method therefore uses a fast shade proxy inside the optimiser. Ladybug UTCI,
 
 ## Recommenders and optimisers {#sec:sota-optimisers}
 
-Table 4.1 sets the closest studies against five properties that a tool for Porta's replacements needs:
+@tbl:closest-studies sets the closest studies against five properties that a tool for Porta's replacements needs:
 
 - **Pedestrian heat:** heat measured as UTCI, PET or MRT at street level.
 - **Runoff:** event runoff from rain on the site.
@@ -97,7 +97,7 @@ Table 4.1 sets the closest studies against five properties that a tool for Porta
 | @duering2020 | thermal comfort, wind (DL surrogate) | no | no (buildings and streets only) | no | yes (Octopus) |
 | @duering2022 | wind comfort, shading | no | no (tower massing) | no | design-space exploration (5,000 variants) |
 
-: Table 4.1. Studies closest to the task, by the properties a Porta replacement tool needs. All were read in full; Eslami et al. (2025), cited in the text, is an extended abstract.
+: Studies closest to the task, by the properties a Porta replacement tool needs. All were read in full; Eslami et al. (2025), cited in the text, is an extended abstract. {#tbl:closest-studies}
 
 Four groups emerge.
 

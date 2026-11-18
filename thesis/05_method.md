@@ -54,7 +54,7 @@ All layers are reprojected to ETRS89 / UTM 31N (EPSG:25831) on a 1 m grid over P
 | Leaf calendar per species | `phenology_palette.csv`: literature, species guides and Barcelona iNaturalist photos (Chapter 2) | Leaf-on fraction per month |
 | Sidewalk widths | 1:1000 topographic base map, read as SVG vectors from its WMS in 250 m tiles (CC BY 4.0) | Size class per position |
 
-: Table 5.1. Input data. Sources and licences are listed in full in Appendix B.
+: Input data. Sources and licences are listed in full in Appendix B. {#tbl:input-data}
 
 The LiDAR flight covering Porta is entirely from 26 September 2021, which falls in the leaf-on season. Crowns and LAI are therefore measured in full leaf, and the leaf calendar scales them for other months.
 
@@ -148,7 +148,7 @@ which applies Peng et al.'s transmittance without changing Ladybug's code. Peng 
 | Sealed open space | 52% | the rest | 98 |
 | Pervious | 19% | NDVI ≥ 0.3 with canopy below 2 m, or an OSM green area | 74 (`ASSUMPTION`) |
 
-: Table 5.2. Surface classes and curve numbers in the runoff model.
+: Surface classes and curve numbers in the runoff model. {#tbl:surface-cn}
 
 The CN of 74 for pervious ground is the TR-55 value for open space in good condition on hydrologic soil group C.
 
@@ -241,7 +241,7 @@ A weighted sum can miss parts of a front that is not convex. NSGA-II is the fall
 | **S1 random** | Any fitting palette species at random under the cap. 10 seeds; a check of what optimisation adds over chance |
 | **S4** | The optimised layouts of the weight sweep |
 
-: Table 5.3. Scenarios for the plane positions.
+: Scenarios for the plane positions. {#tbl:scenarios}
 
 S1a reads the 2026 figures as one weight per species (`ASSUMPTION`; Chapter 3).
 
