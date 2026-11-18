@@ -201,3 +201,11 @@ Giovanni's idea: show all possible spots, each with what stands in the way, and 
 - Same map selection for both tabs (click ↔ highlight). When a spot gets **Add**, it moves to the Trees tab as "new tree", so one list holds the final design.
 - The optimiser uses free spots by default; a switch "include conditional spots" adds the 75, each flagged in the results.
 - Save / load the whole configuration (actions, reasons, field checks, chosen layout).
+
+### 9d. DECIDED (Giovanni, 18 Nov): spot classes
+
+- **Blocked:** traffic lights (6) and driveways (2) only: changing them means changing traffic or private property.
+- **Conditional:** sign supports (34), crossings (31: mid-block ones can move, and in a street rebuild they are repainted), lamps (28, flagged costly), bollards (12), bus stop (1).
+- **Ignored:** benches (and fountains): no longer an obstacle.
+- Result: **153 free · 106 conditional · 8 blocked** (267 candidates). To do in the tool thread: re-run spots with these classes; the optimiser keeps 153 free spots by default, conditional ones on a switch.
+- Open: crossing clearance rules in Barcelona (distance between crossings, corner vs mid-block) not yet searched; no source in the repo.
