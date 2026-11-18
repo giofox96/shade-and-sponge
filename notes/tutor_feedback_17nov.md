@@ -96,11 +96,13 @@ The designer sets the action; the tool never decides to cut a healthy tree. The 
 
 If signs, bollards and benches become movable, Porta's free spots rise from 152 to at most about 199 (only the first cause per spot is recorded, so the true number is lower until re-run). The web app would show these as a third spot colour ("free if you move X").
 
-## 4. Narrative (N1–N2): draft for Giovanni to correct
+## 4. Narrative (N1–N2): ✅ approved by Giovanni 18 Nov
 
 **Who.** A designer (landscape architect or urban designer) working on a street project in Barcelona: a resurfacing, a single-level street, a utilities job. The street layout is already decided by the project.
 
-**Goal sentence (Angelos's format).** *"I am redesigning this street. The works force me to touch N trees. I need to decide which to keep, move or replace, and where to add new ones, so that the street is cooler in summer, not darker in winter, and not worse for flooding — within the city's rules."*
+**Goal sentence (Angelos's format).** *"I am redesigning this street. I have to assess the trees that stand there and their condition, and decide which to keep, which to move because the project needs it, which to replace, and where to add new ones, so that the street is cooler in summer, not darker in winter, and not worse for flooding — within the city's rules."*
+
+**Not an option (Giovanni, 18 Nov):** removing a tree without replacing it.
 
 **For whom.** The city's tree service (Parcs i Jardins), which approves the planting, and the residents who use the street.
 
@@ -108,8 +110,8 @@ If signs, bollards and benches become movable, Porta's free spots rise from 152 
 |---|---|---|
 | Street geometry, sidewalk width, kerbs | decided by the street project | action per tree: keep / move / replace |
 | City rules: 15% species cap, 2011 sidewalk → size class, spacing, distance to lamps and signs | Pla director de l'arbrat; 2011 guide | species at each replaced position |
-| Hard street objects (crossings, lights, lamps, driveways) | safety and access | additions on free spots |
-| Underground utilities (not in open data) | unknown → spots are an upper bound | moving signs / bollards / benches (proposal 3b) |
+| Blocked street objects: traffic lights, driveways (§9d) | traffic layout, private access | additions on free spots, incl. conditional ones after a field check |
+| Underground utilities (not in open data) | unknown → spots are an upper bound | moving signs, crossings, lamps, bollards, bus stops (conditional, §9d) |
 | Tree health (not in open data) | designer's survey decides | the trade-off: pick a layout on the chart |
 
 ## 5. Decisions for Giovanni (recommendations)
