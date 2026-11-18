@@ -2,36 +2,35 @@
 
 Brief (RM final session): "Each of you · 3 minutes · Your research. Recap your research through the course: topic and context, state of the art, research gap, refined question, and your method, and why this way." It follows the 5-minute cluster pitch.
 
-v2 (18 Nov): rebuilt on the decisions of 18 Nov after the 17 Nov tutor session (`notes/tutor_feedback_17nov.md`): the designer narrative, four actions per tree, palette of 30 species, baseline called "City practice" (what the city really planted, a practice, not a rule), Porta in absolute numbers. Ten slides of about 18 s. Speaker notes = the "Say" lines.
+v2 (18 Nov): rebuilt on the decisions of 18 Nov after the 17 Nov tutor session (`notes/tutor_feedback_17nov.md`): the designer narrative, four actions per tree, palette of 30 species, baseline called "City practice" (what the city really planted, a practice, not a rule), Porta in absolute numbers. Speaker notes = the "Say" lines.
+
+v3 (18 Nov, Giovanni's comments): less text, Lucide icons, state of the art + gap merged into one flow diagram, method + screening merged into one diagram, crown chart moved to context with a short legend, short evolution line on the question slide, thank-you slide. Nine slides.
 
 ### 1. Who and what
 **Say (51 words):** "I am a designer redesigning a street in Barcelona. The street layout is already decided. I have to assess the trees that stand there and decide which to keep, move or replace, and where to add new ones, so that the street is cooler in summer, and not worse for flooding."
 
 ### 2. Context
-**Say (51 words):** "This happens all the time. Since 2018, almost eleven thousand street trees got a new species, one at a time; plane trees are the largest single case. The city caps every species at fifteen percent. My site, Porta, has twenty percent canopy: eight hectares short of the city's thirty percent target."
+**Say (59 words):** "This happens all the time. Since 2018, almost eleven thousand street trees got a new species, one at a time. The city caps every species at fifteen percent, but says nothing on where each goes. And the choice matters: with the same trunk, Porta's common species carry crowns from a full plane tree down to a quarter of one."
 
-### 3. State of the art
-**Say (45 words):** "What exists. Heat and runoff modelled together, but for fixed scenarios, with no choice of species. Optimisers that place trees, but for heat only. Rankings of species by their services, with no positions. And SylvCiT, a trait-based recommender whose runoff module is still switched off."
+### 3. State of the art and gap
+**Say (48 words):** "What exists. Models that do heat and runoff together, but with no choice of species. And species tools: optimisers, rankings, recommenders, with one service or no positions. Of eighteen tools, none picks the species tree by tree inside a city's rules. That is my gap, and my method."
 
-### 4. Research gap
-**Say (54 words):** "So my gap is methodological. Of eighteen tools that place or assess urban trees, none chooses the species tree by tree inside a city's own rules. And it matters: with the same trunk, the six most common species on Porta's streets carry crowns from a full plane tree down to a quarter of one."
+### 4. Refined question
+**Say (53 words):** "It started as trees against floods in Bologna. Feedback narrowed it: runoff depends more on the tree pit than on the species, so it became a do-no-harm check. So today: to what extent can a method that chooses species and positions beat the city's own practice on summer cooling, without losing rain interception?"
 
-### 5. Refined question
-**Say (48 words):** "My question started as trees against floods in Bologna. Feedback narrowed it: runoff depends more on the tree pit than on the species, so it is now a do-no-harm check. Today: to what extent can a method beat the city's own practice on heat, without losing on runoff?"
+### 5. Fixed and free
+**Say (40 words):** "Fixed: the street layout and the city's rules: the fifteen percent cap, sidewalk width deciding tree size, lamps and signs. Free: four actions per tree. Keep, move, replace, or add. Never remove without replacing. The designer decides; the tool advises."
 
-### 6. Fixed and free
-**Say (46 words):** "Fixed: the street geometry and the city's rules: the fifteen percent cap, sidewalk width deciding tree size, distances to lamps and signs. Free: four actions per tree. Keep, move, replace, or add on a free spot; never remove without replacing. The designer decides; the tool advises."
+### 6. Method
+**Say (50 words):** "First, a screening, once for every tree and free spot: what stands there, where it is, and what each of thirty species would do: shade in summer, shade in winter, rain held. Then an exact optimiser chooses within the rules. Then I compare with today and with the city's practice."
 
-### 7. Method
-**Say (37 words):** "The method reads open data, screens every position, then picks the best species for the trees the project replaces and for free spots, within the rules, and compares the result with today and with the city's practice."
+### 7. Why this way, and not another
+**Say (55 words):** "Why this way. Not field measurement: the layout does not exist yet. Not machine learning: no outcome data to train on. An exact optimiser, because the rules are hard limits. Open data, and a real baseline: what the city actually planted. And one in five of its new trees is too big for its sidewalk."
 
-### 8. The screening
-**Say (49 words):** "The screening runs once, for every tree and free spot. What stands there: species, trunk, crown and leaf density from LiDAR. Where it is: sidewalk width, façade, lamps and signs, and whether its rain flows to a flood spot. And what each of the thirty species would do there."
+### 8. First evidence
+**Say (49 words):** "First evidence. On twenty-six real replacement groups, at the same positions, the method gives a median of one hundred thirty-nine square-metre hours of summer shade per tree; the city's choice gave fifty-nine. It wins in twenty-two of twenty-six. Next: heat in Ladybug and Infrared City, then Mataró and Florence."
 
-### 9. Why this way, and not another
-**Say (65 words):** "Why this way, and not another. Not field measurement: the layout does not exist yet. Not machine learning: there is no outcome data to train on. An exact optimiser, because the rules are hard limits: it finds the best layout and proves it. And a real baseline: what the city actually planted. One in five of its new plantings is larger than its sidewalk allows."
+### 9. Thank you
+**Say (2 words):** "Thank you."
 
-### 10. First evidence
-**Say (51 words):** "First evidence. On twenty-six real replacement groups, at the same positions, the method gives a median of one hundred thirty-nine square-metre hours of summer shade per tree; the city's choice gave fifty-nine. It wins in twenty-two of twenty-six. Next: heat in Ladybug and Infrared City, and transfer to Mataró and Florence."
-
-Total: 482 words (about 3 min at 160 words a minute).
+Total: 407 words (about 3 min at 160 words a minute).
