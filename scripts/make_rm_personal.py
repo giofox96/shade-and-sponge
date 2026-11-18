@@ -1,4 +1,4 @@
-"""RM final presentation, personal part (mini Pecha Kucha, 3 min, 9 slides x 20 s), in the style of the RT Pecha Kucha (same helpers, fonts, palette).
+"""RM final presentation, personal part (mini Pecha Kucha, 3 min, 10 slides of about 18 s), in the style of the RT Pecha Kucha (same helpers, fonts, palette).
 Speaker notes = the "Say" lines of slides/rm_final/personal_script.md.
 Output: slides/rm_final/shade_and_sponge_rm_personal.pptx. Run from scripts/: python make_rm_personal.py
 """
@@ -127,6 +127,26 @@ def s7(s):
 
 
 def s8(s):
+    head(s, "The screening", "Computed once for every street tree and free spot, before any design")
+    cols = [("A · What stands there", ["Species and trunk class (city inventory)", "Crown, height, leaf density (LiDAR 2021)",
+                                       "Crown vigour → replacement priority: a hint, not a diagnosis"], TREE,
+             "suggests which trees to replace"),
+            ("B · Where it is", ["Sidewalk width → allowed tree size", "Distance to façade, lamps, signs, crossings",
+                                 "Does its rain flow to a flood hotspot?"], WARN, "decides which species fit"),
+            ("C · What each species would do", ["Summer shade (benefit)", "Winter shade (cost)",
+                                                 "Rain held before a hotspot (benefit)", "Fits: yes / no"], HEAT,
+             "the optimiser's table: 30 species × every position")]
+    for k, (b, items, c, role) in enumerate(cols):
+        x = M + k * 4.18
+        box(s, x, 1.55, 3.9, 3.5, tint(c, 0.10))
+        text(s, x + 0.3, 1.75, 3.3, 3.6, [[(b, {"bold": True, "color": c, "size": 20})]] + ["· " + i for i in items], 16, INK)
+        box(s, x, 5.2, 3.9, 0.75, tint(c, 0.22))
+        text(s, x + 0.3, 5.2, 3.3, 0.75, [[("→ " + role, {"bold": True, "color": c})]], 15, INK, anchor=MSO_ANCHOR.MIDDLE)
+    source(s, "Open Data BCN, arbrat viari; ICGC, LiDAR flight of 26 Sept 2021; Ajuntament de Barcelona, Mapa topogràfic 1:1000; "
+           "Parcs i Jardins, street-tree guide (2011); Barcelona Resilience Atlas.")
+
+
+def s9(s):
     head(s, "Why this way")
     items = [("Exact optimiser", "The rules are hard limits: it finds the best layout and proves it (linear programme, HiGHS).", WARN),
              ("Open data only", "Any neighbourhood of Barcelona; transfer test in Mataró and Florence.", TREE),
@@ -142,7 +162,7 @@ def s8(s):
     source(s, "Huangfu & Hall 2018 (HiGHS); Open Data BCN, arbrat viari quarterly inventories 2018–2026; Parcs i Jardins, street-tree guide (2011).")
 
 
-def s9(s):
+def s10(s):
     head(s, "First evidence: back-test on real replacements", "26 groups where the city replaced trees; same positions, city's choice vs method")
     box(s, M, 1.6, W - 2 * M, 2.6, tint(TREE, 0.08))
     text(s, M + 0.5, 1.6, 4.8, 2.6, [[("59 → 139 m²·h", {"bold": True, "color": TREE, "size": 40})],
@@ -155,7 +175,7 @@ def s9(s):
     source(s, "Open Data BCN, arbrat viari quarterly inventories 2018–2026; ICGC LiDAR 2021; Ladybug Tools; Infrared City.")
 
 
-SLIDES = [s1, s2, s3, s4, s5, s6, s7, s8, s9]
+SLIDES = [s1, s2, s3, s4, s5, s6, s7, s8, s9, s10]
 
 
 def build():
