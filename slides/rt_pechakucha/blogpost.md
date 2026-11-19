@@ -44,7 +44,7 @@ Three things make it new:
 
 This is the web app. A designer picks an area, sets priorities between summer shade, winter sun and runoff, and compares today, the city's practice and the optimised layout, tree by tree, in 3D. It is online and open source.
 
-![The web app on Porta](images/06_web_app.jpg)
+![Porta in 3D in the web app: buildings and tree crowns](images/06_web_app.jpg)
 
 ## First evidence, and its limits
 
