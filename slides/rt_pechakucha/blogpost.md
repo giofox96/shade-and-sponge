@@ -1,117 +1,102 @@
-# Shade and Sponge: replacing street trees without making streets hotter or wetter
+# Shade and Sponge
 
-*MaCAD thesis, IAAC 2026 · Research & Technologies blog post · 19 Nov 2026*
+**When a project must cut street trees, what is the best way to replace them? First case: Barcelona's plane trees, in Porta.**
+
+*Giovanni Carlo Volpe · MaCAD, IAAC · Research & Technologies · November 2026*
 
 ![Plane trees in Porta, Nou Barris (Barcelona)](images/01_porta_plane_trees.jpg)
 
 ## Research topic and context
 
-Barcelona replaces its street trees one at a time: when a tree dies, or when a street is rebuilt. Since 2018 the city's own inventory records almost 11,000 trees replaced with a different species, and almost half of them (46.8%) stand alone, one isolated tree at a time. Plane trees (*Platanus*) are the largest single case, about 13% of those replacements, and the city plans to bring them from 27% to 12% of the street-tree stock. The tree master plan also caps every species at 15%.
+Barcelona replaces its street trees one at a time, when a tree dies or when a street is rebuilt. Since 2018, 10,976 trees have been replaced with another species. Plane trees are the largest case: the city wants them to drop from 27% to 12% of the stock in ten years. Its tree master plan sets a maximum of 15% per species and a 30% tree cover target.
 
-So the city has decided **how much** of each species it wants. It has not decided **which species goes where**. When a project has to replace trees, the only documented guidance for the new species is a qualitative table by district and sidewalk width, and most recent plantings do not follow it. What the city actually plants is a practice, not a written rule, and nothing checks whether a replacement keeps, loses or improves the street's shade and rain interception. A project can leave its street hotter or wetter, and nobody measures by how much.
+This is the context, not the problem: the city has already decided **how much** of each species it wants. What it has not decided is **which species goes where**.
 
-The choice matters. At the same trunk size, the species the city plants carry crowns from almost a full plane crown down to a quarter of one.
+**The problem.** When a project must replace street trees, the only rule for the new species is qualitative. Nobody measures whether the street ends up hotter or wetter. Thousands of small decisions, unmeasured.
 
-![Crown area of the replacement species as a share of a plane crown, by trunk class](images/02_crowns_by_class.png)
+And the choice matters. Under the same rules and at the same trunk size, the species the city plants carry crowns from almost a full plane crown down to a quarter of one.
 
-**Research question.** When a project must replace street trees, can a trait-based method, inside the city's rules, choose the new species and positions so that pedestrian cooling and storm-water interception improve, or at least do not get worse, compared with today and with the city's own practice?
+![Crown area as a share of a plane's, same trunk size, Porta's own trees](images/02_crowns_by_class.png)
 
-The first case is Barcelona's plane trees in Porta (Nou Barris), a neighbourhood that is both hot and prone to surface flooding.
+**Research question.** When a street project in Barcelona must replace or add trees, to what extent can a trait-based method that chooses species and positions inside the city's tree rules give more summer cooling than the city's own replacement practice, without losing rain interception?
+
+Runoff depends more on the tree pit than on the species, so in this question runoff is a do-no-harm check, not something to maximise.
 
 ## What is the innovation?
 
-Data on heat and flooding, city rules and species tools all exist, but nothing links them tree by tree. Of 18 tools and workflows we reviewed that place or assess urban trees, seven cover both heat and runoff, one picks species, and none chooses the species for each position inside a city's replacement rules.
+The pieces already exist, but separately. Some models assess heat and runoff together, but do not choose species; other tools choose species, but look at one service only or ignore positions. Of 18 tools that place or assess urban trees, none chooses the species tree by tree inside a city's rules.
 
-![From 18 tools to none that chooses species tree by tree inside a city's rules](images/03_gap.png)
+![State of the art and gap](images/03_gap.png)
 
-Shade and Sponge does four things differently:
+Shade and Sponge closes that gap. The designer draws a project area. The street layout and the city's rules are fixed; what is free are four actions for each tree: **keep** it, **move** it, **replace** it, or **add** new trees in free spots, but never remove without replacing. The tool advises, the designer decides.
 
-- **Four actions per tree.** The designer draws a project area. For each existing tree the tool works with four actions: **leave** it (the default), **move** it (transplant), **replace** it, or **add** new trees in the free planting spots the city's street-tree guide allows.
-- **Two services, one choice.** For every tree to replace and every free spot it proposes a species, scored on summer shade (checked as UTCI, the pedestrian heat index) and on storm runoff together. Runoff is a do-no-harm check: no layout may send more water to a flood hotspot.
-- **Rules inside, not after.** The city's 15% species cap, the sidewalk-width sizing rule, the distance between trees and the city's list of 30 street-tree species are constraints of the optimiser, not a check done afterwards. Street objects (signs, lamps, bus stops) and underground networks turn spots into excluded or conditional ones.
-- **A real baseline.** Results are compared with what the city actually plants where a tree was replaced (its inventory, 2018–2026), not with an invented scenario.
+![What is fixed, what is free](images/04_four_actions.png)
 
-It runs on open data: the tree inventory, LiDAR crowns, terrain, a design storm and a hot day. The layout is solved exactly, as a linear programme, so the same inputs always give the same answer.
+It reads open data: the tree inventory, LiDAR crowns, terrain, flood hotspots, sidewalk width and street objects, a hot day and a design storm. For every tree to replace and every free spot it proposes one of 30 street-tree species and a position, scored on summer shade (checked as UTCI, the pedestrian heat index) and runoff together. An exact optimiser picks the best combination within the rules.
 
-![Methodology](images/04_methodology.png)
+![Shade and Sponge: how it works](images/05_method.png)
 
-![Why replace? The city's order, what it actually did, and what the tool does](images/05_four_actions_per_tree.png)
+Three things make it new:
 
-The tool has two front-ends: a web app for anyone, and a 3D map for designers.
+- **Two services, one choice.** Species and position for every tree, scored on summer shade and runoff together.
+- **Rules inside, not after.** The 15% species cap, the sidewalk width that sets the tree size, and the city's species list are part of the optimisation, not a check done afterwards.
+- **A real baseline, any tree.** Results are compared with the **city's practice**: what the city actually planted where it replaced trees, from its own inventory, 2018–2026. It is a practice, not a written rule. The method works for any tree a project replaces, with one data adapter per city.
 
-![Web app: today, the city's practice and the optimised layout, tree by tree](images/06_web_app.jpg)
+This is the web app. A designer picks an area, sets priorities between summer shade, winter sun and runoff, and compares today, the city's practice and the optimised layout, tree by tree, in 3D. It is online and open source.
 
-![3D map of a project area](images/06b_tool_3d_map.png)
+![The web app on Porta](images/06_web_app.jpg)
+
+## First evidence, and its limits
+
+As a first test, we took 26 groups of trees that Barcelona really replaced, and let the method choose for the same positions, under the same rules. With the city's choice, each new tree gives a median of 59 m²·h of summer shade; with the method's, 139. The method gives more shade in 22 of the 26 groups, and in all 26 it sends no more water to a flood hotspot. It changes the species, not the number of trees, and diversity stays about the same. The baseline also shows that 1 in 5 of the city's new trees is larger than its sidewalk allows.
+
+![First evidence: back-test](images/07_backtest.png)
+
+**Limits, said upfront.** Everything is simulated, not measured. The back-test compares species at the same size, not the years a young tree needs to grow. The heat gain is small, and its sign depends on how porous the crowns are. Runoff is a check: the differences stay below what the model can resolve. And the benefits arrive only when the new trees mature.
 
 ## Who are the actors?
 
 - **Decide:** Parcs i Jardins, Ajuntament de Barcelona (tree master plan, 15% cap).
-- **Use:** landscape architects, computational designers, urban planners working on a street project.
-- **Data and testing:** ICGC (LiDAR), the city's water-cycle company (drainage data), utility companies (underground networks for the demo street), Ladybug Tools for the heat check, Infrared City, Comune di Firenze (LiDAR for a transfer test).
+- **Use:** landscape architects, computational designers, urban planners.
+- **Data and testing:** ICGC (LiDAR), BCASA (drainage), Ladybug and Honeybee, Infrared City, Comune di Firenze (LiDAR, transfer test).
 - **Benefit:** residents and pedestrians in streets that are both hot and flood-prone.
 
 ## What can be exploited, how, and for whom?
 
-**The method** (a trait-based layout under city rules) goes into the thesis and a paper, for researchers and city technicians.
+**The method**, a trait-based layout under city rules, through the thesis and a paper, for researchers and city technicians.
 
-**The Python core and the web app** are open source and online, for designers and for other cities.
+**The Python core and the web app**, open source and online, for designers and other cities.
 
-**The per-tree crown and trait dataset** will be shared as open data (our own derived data only), for the city and for researchers.
+**A per-tree crown and trait dataset**, as open data (our own data only), for the city and researchers.
 
-**A transfer guide**, built on the tests in Florence and Mataró, is for any city that has to replace a monoculture.
-
-**A quantified proposal for the city**: what each planting rule costs in shade and runoff, and how much better a choice within today's rules does than current practice. It will be one chapter of the thesis, shared with Parcs i Jardins, for city policy makers.
+**A transfer guide**, from the tests in Florence and Mataró, for cities replacing a monoculture.
 
 ## What impact do we want to achieve?
 
-**First evidence (simulated).** In Porta, replacing the planes and filling the 152 free spots brings the street trees to about 102% of today's summer shade, against about 90% for the city's practice. In every sensitivity test so far, the method stays about eight points of summer shade ahead of the city's practice and is no worse on hotspot runoff. Pedestrian heat (UTCI) stays within 0.2 °C of today's plane trees.
-
-**Back-test on real replacements.** We took 26 places where Barcelona actually replaced ten or more street trees together (366 positions) and let the method choose for the same positions, under the same rules. At equal trunk size, the method's choice gives more summer shade per tree in 22 of the 26 places: the median goes from 59 to 139 m²·h per tree, +55% over all positions together. Where it loses, sidewalks are narrow, only small species fit, and the gap is small.
-
-![Back-test: summer shade per new tree, city vs method](images/07_backtest_shade.png)
-
-In all 26 places the method sends no more water to a flood hotspot than the city's planting.
-
-![Back-test: runoff, do-no-harm in 26 of 26](images/08_backtest_runoff.png)
-
-The method changes the species, not the number of trees: 18 species against the city's 19, so diversity stays about the same. And it does not pick species that die more: from all the city's replacements, the expected survival of the species each side chooses is 84% for the city and 85% for the method.
-
-![Back-test: do the new trees survive?](images/09_backtest_survival.png)
-
-**Limits, said upfront.** Everything is simulated, not measured. The back-test compares species at the same size, not the years a young tree needs to grow. The heat gain is small, and its sign depends on how porous the crowns are. Runoff is a check: the differences stay below what the model can resolve. And the benefits arrive only when the new trees mature.
-
-**Over time:**
-
-- **Short term (now):** an open, reproducible method with simulated gains, back-tested on the city's own replacements and checked in Ladybug and Honeybee.
+- **Short term (now):** an open, reproducible method, back-tested on the city's own replacements, with the heat checked in Ladybug and Infrared City.
 - **Medium term (1–3 years):** pilot streets with Parcs i Jardins; transfer tests in Florence and Mataró.
-- **Long term (2037):** canopy moving toward the city's 30% target, no species above 15%, and no street left hotter or wetter by a replacement.
+- **Long term (2037):** canopy moving toward 30%, no species above 15%, no more runoff where streets flood, and a method for any city replacing a monoculture.
 
 ## Which dimensions will it impact?
 
-- **Environmental:** shade and rain interception kept or improved at each replacement.
-- **Social:** thermal comfort for pedestrians and residents during decades of replacement.
-- **Technological:** an open tool that links LiDAR, trait data and city rules.
-- **Economic:** more benefit from the replacements the city already pays for.
-- **Policy:** it turns a quota plan into a spatial one.
+Environmental, social, technological, economic and policy: from pedestrians' comfort to the city's plans. It turns a quota plan into a spatial one.
 
 ## Technology readiness
 
-Today the method is at **TRL 3** (proof of concept on Porta). By the end of the thesis, in December, the aim is **TRL 4**: validated in simulation on real city data, against the city's own past replacements, with a full heat check and transfer tests in Mataró and Florence. A test with a real designer on a real street project would bring it to TRL 5, and a pilot street is the step after the thesis.
+Today the method is at **TRL 3**. By December the aim is **TRL 4**: validated in simulation, on real city data. A test with a real designer would bring it to **TRL 5**; a pilot street is the step after the thesis.
 
-![Technology readiness: TRL 3 today, TRL 4 by December](images/10_trl.png)
+![Impact dimensions and technology readiness](images/08_dimensions_trl.png)
 
-**Next step.** The city will replace trees anyway, street by street. The step from simulation to TRL 5 is to test this on one real street rebuild, with a designer or with Parcs i Jardins: least loss, inside the city's rules.
+**Next step.** The city will replace trees anyway, street by street. The step from simulation to TRL 5 is to test this on one real street rebuild, with a designer or with Parcs i Jardins. Least loss, inside the city's rules.
 
 Web app: [giofox96.github.io/shade-and-sponge](https://giofox96.github.io/shade-and-sponge/)
 
 ## Sources
 
 - Ajuntament de Barcelona, *Pla director de l'arbrat de Barcelona 2017–2037*.
-- Ajuntament de Barcelona, *Gestió de l'arbrat viari de Barcelona* (2011).
-- Parcs i Jardins, *Arbrat viari: selecció d'espècies* (rev. 2004).
-- Ajuntament de Barcelona, *Pla de gestió de l'arbrat viari de Barcelona* (2005).
+- Parcs i Jardins, *Arbrat viari: selecció d'espècies* (rev. 2004); street-tree guide (2011).
 - Open Data BCN, *Arbrat viari*, quarterly inventories 2018–2026 (CC BY 4.0).
 - ICGC, LiDAR flight of 26 September 2021.
-- Nació Digital, 4 May 2026; Betevé, 7 May 2026 (plane-tree reduction and replacement mix).
+- Nació Digital, 4 May 2026; Betevé, 7 May 2026.
 - Ladybug Tools (Ladybug, Honeybee).
-- Mannucci et al. 2025; Nicol et al. 2026 (*PLoS One*); Shaamala et al. 2025; Peng et al. 2026; Dong et al. 2026 (prior tools).
+- Mannucci et al. 2025; Wu et al. 2024; Shaamala et al. 2025; Peng et al. 2026; Dong et al. 2026; Nicol et al. 2026 (*PLoS One*).
