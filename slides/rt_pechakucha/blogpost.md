@@ -52,13 +52,15 @@ The tool has two front-ends: a web app for anyone, and a 3D map for designers.
 
 ## What can be exploited, how, and for whom?
 
-| What | How | For whom |
-|---|---|---|
-| The method: trait-based layout under city rules | Thesis, paper | Researchers, city technicians |
-| Python core and web app | Open source, online | Designers, other cities |
-| Per-tree crown and trait dataset | Open data (own data only) | City, researchers |
-| Transfer guide | Florence and Mataró tests | Cities replacing a monoculture |
-| A quantified proposal for the city: what each planting rule costs in shade and runoff, and how much better a choice within today's rules does than current practice | One chapter of the thesis, shared with Parcs i Jardins | City policy makers |
+**The method** (a trait-based layout under city rules) goes into the thesis and a paper, for researchers and city technicians.
+
+**The Python core and the web app** are open source and online, for designers and for other cities.
+
+**The per-tree crown and trait dataset** will be shared as open data (our own derived data only), for the city and for researchers.
+
+**A transfer guide**, built on the tests in Florence and Mataró, is for any city that has to replace a monoculture.
+
+**A quantified proposal for the city**: what each planting rule costs in shade and runoff, and how much better a choice within today's rules does than current practice. It will be one chapter of the thesis, shared with Parcs i Jardins, for city policy makers.
 
 ## What impact do we want to achieve?
 
