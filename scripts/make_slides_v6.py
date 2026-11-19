@@ -83,6 +83,43 @@ def fig_crowns(deck=False):
          "ICGC LiDAR 26 Sept 2021; notes/topic_decision.md 9.9. Styphnolobium left out (5 trees in Porta).")
 
 
+def fig_crowns_by_class():
+    """v8 crowns with one fixed colour per trunk class (dark = 2nd class, light = 3rd), for the RT blog post (19 Nov)."""
+    d = pd.read_csv(ROOT / "databases/barcelona/crown_by_trunk_class.csv", header=[0, 1], index_col=0)
+    r, n = d["area_ratio_vs_plane"], d["n"]
+    sp = ["Platanus x acerifolia", "Tipuana tipu", "Jacaranda mimosifolia", "Melia azedarach", "Celtis australis",
+          "Pyrus calleryana", "Brachychiton populneus"]
+    x0, sc, b = 480, 820, ""
+    for v in (0, 0.25, 0.5, 0.75, 1.0):
+        b += line(x0 + v * sc, 170, x0 + v * sc, 690, GRID, 1)
+        b += t(x0 + v * sc, 715, f"{v:.0%}", 16, MUTED, anchor="middle")
+    b += line(x0 + sc, 170, x0 + sc, 690, INK, 2, dash="6 4")
+    for i, s in enumerate(sp):
+        y = 200 + i * 72
+        col = INK if s.startswith("Platanus") else TREE
+        b += t(60, y + 8, s.replace(" x ", " × "), 22, col, "bold", italic=True)
+        if s.startswith("Platanus"):
+            b += t(60, y + 32, "plane (reference)", 14, MUTED)
+        for k, (cls, op) in enumerate((("SEGONA", 0.85), ("TERCERA", 0.35))):
+            v = r.loc[s, cls]
+            if pd.isna(v):
+                continue
+            yy = y - 16 + k * 18
+            b += rect(x0, yy, v * sc, 15, col, rx=4, op=op)
+            lx = x0 + max(v, 1.0) * sc + 14 if v > 0.85 else x0 + v * sc + 10
+            b += t(lx, yy + 13, f"{v:.0%}  (n = {int(n.loc[s, cls])})", 14, col, "bold" if k == 0 else "normal")
+    lg = 1150
+    b += rect(lg, 120, 30, 14, TREE, rx=3, op=0.85) + t(lg + 40, 133, "41–80 cm trunk perimeter (young)", 15, INK)
+    b += rect(lg, 145, 30, 14, TREE, rx=3, op=0.35) + t(lg + 40, 158, "81–110 cm (established)", 15, INK)
+    b += para(60, 760, "Crown area as a share of a plane's of the same trunk class, as the trees stand in Porta (LiDAR 2021); "
+              "n = trees measured. Equal trunk size is not equal age, and street trees are pruned: this is not mature potential.",
+              1480, 17, fill=MUTED)[0]
+    mi.OUT = ROOT / "slides/fig_v8"
+    mi.OUT.mkdir(exist_ok=True)
+    save("v8_crowns_by_class", "Why it matters: the crowns differ", "Crown area as a share of a plane's, same trunk size", b,
+         "ICGC, LiDAR flight of 26 Sept 2021; Ajuntament de Barcelona, arbrat viari (trunk class).")
+
+
 def fig_rq():
     b = rect(60, 160, 1480, 400, INK, rx=12, op=0.05)
     b += t(84, 206, "In Porta, as plane trees are replaced under Barcelona's tree master plan,", 26, MUTED)
