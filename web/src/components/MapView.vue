@@ -323,7 +323,10 @@ function layers() {
         } }),
     state.showStreets &&
       new ScatterplotLayer({ id: 'spot-centres', data: state.trees.spots.lon.map((lon, i) => i), getPosition: (i) => spotUp(i, 0.2),
-        getRadius: 0.35, radiusUnits: 'meters', radiusMinPixels: 1.5, getFillColor: [255, 255, 255, 235], updateTriggers: { getPosition: g3 } }),
+        getRadius: 0.35, radiusUnits: 'meters', radiusMinPixels: 1.5,
+        // orange centre: "conditional", the pit would sit on a buried service (scripts/utilities_conditional.py)
+        getFillColor: (i) => (state.trees.spots.utility_conditional?.[i] ? [230, 120, 20, 245] : [255, 255, 255, 235]),
+        updateTriggers: { getPosition: g3 } }),
     state.area &&
       new PolygonLayer({ id: 'area', data: [state.area.poly], getPolygon: (d) => d, stroked: false, filled: true, ...drape(),
         getFillColor: [...themeColors.value.area, 30] }),
@@ -387,7 +390,8 @@ onMounted(() => {
     },
     getTooltip: ({ layer, index, object }) => {
       if (layer?.id === 'added') return { text: `${state.meta.palette[object.species].species} (added)` }
-      if (layer?.id === 'spots') { const S = state.trees.spots; return { text: `Free planting spot · ${S.size_class[index]} tree · sidewalk ${S.width_m[index]} m` } }
+      if (layer?.id === 'spots') { const S = state.trees.spots; return { text: `Free planting spot · ${S.size_class[index]} tree · sidewalk ${S.width_m[index]} m` +
+        (S.utility_conditional?.[index] ? '\nConditional: the pit would sit on a buried gas or telecom line (PTEV 2024 p. 31)' : '') } }
       if (layer?.id !== 'positions' || index < 0) return null
       return { text: state.meta.palette[currentLayout()[index]].species }
     },
