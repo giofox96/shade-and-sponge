@@ -170,7 +170,11 @@ def s15(s):
     s1_photo(s)
     text(s, 0.75, 1.3, 7.4, 1.0, "Next", 54, BG, True, name="Title")
     text(s, 0.75, 2.5, 7.2, 2.6, ["Felt temperature (UTCI): Ladybug, Infrared City", "Mataró: 83% vs 63% summer shade, 6 of 6 streets", "Florence next",
-                                  "Tool: action per tree, trade-offs on screen"], 22, BG)
+                                  "Tool: action per tree, trade-offs on screen →"], 22, BG)
+    # The web app's priority triangle and trade-off chart (Barcelona 30-species palette, balanced layout), screenshots
+    # of https://giofox96.github.io/shade-and-sponge/ stacked into one image; the live demo follows the talk.
+    box(s, 8.6, 0.3, 4.35, 6.55, "#FAF9F5", radius=0.04)
+    picture(s, FIG / "tool_tradeoff.png", 8.75, 0.4, 4.05, crop_top=0)
     text(s, 0.75, 5.1, 7.2, 0.8, "The right tree, in the right place, within the city's rules. Thank you.", 22, BG, True)
     text(s, 0.75, 6.2, 11.0, 0.4, "Giovanni Volpe · MaCAD, IAAC · Thesis midterm", 16, "#CFC9BC", name="Mono")
 
@@ -217,6 +221,26 @@ def b5_mataro_streets(s):
     source(s, "Ajuntament de Mataró, arbrat (2026); Overture Maps (ODbL); ICGC, LiDAR 2021 (Barcelona crowns).")
 
 
+def b6_assumptions(s):
+    """Backup: the declared assumptions (A. Chronis, 10 Nov: declare them, soften the bold ones; notes/tutor_feedback_10nov.md §2)."""
+    head(s, "Declared assumptions", "What the method takes as given, and why it is acceptable for now")
+    rows = [("tree-deciduous", "New trees at the size of today's trees", "each species at the crown it has in Porta today (LiDAR median): "
+             "growth and life cycle are not modelled; a ≈10-year view is in the tool", TREE),
+            ("thermometer-sun", "Heat = summer shade, not felt temperature", "a shade proxy on a hot day; UTCI with Ladybug and Infrared City is next", HEAT),
+            ("droplets", "One interception rate for every species", "1.75 mm per unit of leaf area; species-specific rates "
+             "do not change the ranking", RAIN),
+            ("map-pin", "Free spots are an upper bound", "no open data on underground services; replacements reuse the existing pit, "
+             "conditional spots need a field check", WARN),
+            ("chart-pie", "15% cap on street trees only", "the plan counts squares too; to revisit before the final results", TREE),
+            ("move", "A moved tree leaves the site", "its position is freed or replanted; where it lands is outside the tool", MUTED)]
+    for k, (ic, b, t, c) in enumerate(rows):
+        x, y = M + (k % 2) * 6.2, 1.6 + (k // 2) * 1.75
+        ico(s, ic, c, x + 0.05, y + 0.1, 0.5)
+        text(s, x + 0.8, y, 5.2, 1.6, [[(b, {"bold": True, "color": c, "size": 17})], t], 13, INK)
+    source(s, "Anys & Weiler 2024; Xiao & McPherson 2016; ICGC, LiDAR 2021; "
+              "Ajuntament de Barcelona, Pla director de l'arbrat 2017–2037.")
+
+
 def b3_highs(s):
     """Backup: what HiGHS does, on a five-position example (make_midterm_highs.py)."""
     picture(s, FIG / "flow_07_highs.png", 0, 0, W, crop_top=0)
@@ -227,7 +251,8 @@ BACKUP = [(b1_method, "Backup: the full method on one page."),
           (b2_screening, "Backup: the screening indicators as a matrix, one row per position."),
           (b3_highs, "Backup: how HiGHS picks the species, on a five-position example."),
           (b4_mataro_why, "Backup: why Mataró is the transfer city, and where it is."),
-          (b5_mataro_streets, "Backup: the six Mataró test streets and their result.")]
+          (b5_mataro_streets, "Backup: the six Mataró test streets and their result."),
+          (b6_assumptions, "Backup: the declared assumptions.")]
 DARK = {s1, s15}                                             # photo-background slides: a light page number
 
 
