@@ -6,7 +6,7 @@ Output: slides/midterm/fig/method_overview.svg/.png. Run from scripts/: python m
 """
 import make_infographics as mi
 from make_infographics import t, rect, save, ROOT, INK, MUTED, GRID, HEAT, RAIN, TREE, WARN
-from make_flowcharts import head, box, outline, curve, vline, caption, i_heat, i_rain, i_layers, i_area, i_check, i_radar
+from make_flowcharts import head, box, outline, curve, caption, i_heat, i_rain, i_layers, i_area, i_check, i_radar
 
 mi.OUT = ROOT / "slides/midterm/fig"
 mi.OUT.mkdir(parents=True, exist_ok=True)
@@ -28,10 +28,22 @@ def flow_overview():
     ys = [245, 315, 385, 455, 525, 595, 665]
     for (lab, c, sub), y in zip(data, ys):
         b += box(X[1], y, lab, c, 196, 56 if sub else 48, sub)
+    # Focus does not produce the data (no arrow into an input, A. Chronis): a dot on each box says which hazard uses it.
     # heat → LiDAR (crowns, buildings: shade), hot day (sun path); floods → LiDAR (crown, LAI: water held on leaves),
     # DTM (where water flows), hotspots (where it does harm), design storm. Inventory and sidewalks serve both (constraints).
-    for fy, dy in ((360, 315), (360, 385), (580, 315), (580, 455), (580, 525), (580, 595)):
-        b += curve(X[0] + 40, fy, X[1] - 100, dy, GRID)
+    uses = {315: (HEAT, RAIN), 385: (HEAT,), 455: (RAIN,), 525: (RAIN,), 595: (RAIN,)}
+    for y, cs in uses.items():
+        for k, c in enumerate(cs):
+            x = X[1] - 98 - 14 - 20 * k
+            b += f'<circle cx="{x}" cy="{y}" r="7" fill="{c}" stroke="white" stroke-width="2"/>'
+    for k, (c, lab) in enumerate(((HEAT, "used for heat"), (RAIN, "used for floods"))):
+        b += f'<circle cx="{X[0] - 52}" cy="{700 + 22 * k}" r="7" fill="{c}" stroke="white" stroke-width="2"/>'
+        b += t(X[0] - 38, 705 + 22 * k, lab, 13, c, "bold")
+    # City rules are an input like the data (plan 2017–2037, 2011 guide): sizes feed the screening, palette and cap the solve
+    b += outline(X[1], 740, "City rules", WARN, 196, 60, "30 species · 15% · sizes")
+    b += curve(X[1] + 100, 740, X[2] - 46, y0 - 25, GRID)
+    b += (f'<path d="M{X[1] + 100},{752} L{855},{752} Q{895},{752} {895},{712} L{895},{630}" fill="none" '
+          f'stroke="{GRID}" stroke-width="1.8" marker-end="url(#arr)"/>')
     b += i_layers(X[2], y0 - 25) + caption(X[2], y0 + 40, "Indicators per tree")
     for y in ys:
         b += curve(X[1] + 100, y, X[2] - 46, y0 - 25, GRID)
@@ -55,8 +67,6 @@ def flow_overview():
     for lab, c, y, sub in actions:
         b += box(X[4], y, lab, c, 196, 56, sub)
         b += curve(X[3] + 40, y0 - 25, X[4] - 100, y, GRID)
-    b += outline(1044, 738, "City rules", WARN, 280, 64, "30 species · 15% cap · sidewalk size")   # centred on the dashed frame
-    b += vline(1044, 706, 668, WARN)
     for k, (lab, c) in enumerate((("Heat", HEAT), ("Runoff", RAIN), ("Canopy", TREE))):
         y = 476 + 60 * k
         b += box(MX, y, lab, c, 110, 44)
