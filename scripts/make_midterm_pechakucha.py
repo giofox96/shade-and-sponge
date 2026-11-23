@@ -6,6 +6,7 @@ Output: slides/midterm/shade_and_sponge_midterm_pechakucha.pptx. Run from script
 import re
 from pptx import Presentation
 from pptx.enum.text import MSO_ANCHOR
+from pptx.oxml.ns import qn
 from pptx.util import Inches
 import make_rm_personal as R
 from make_rm_personal import ico, s1_photo, ROOT, INK, MUTED, BG, HEAT, RAIN, TREE, WARN, W, H, M, rgb, tint, text, box, head, source, picture
@@ -17,6 +18,27 @@ BCN = "Ajuntament de Barcelona, Pla director de l'arbrat 2017–2037; Parcs i Ja
 
 def fig(s, name, y=1.5, w=None):
     picture(s, FIG / f"{name}.png", M + 0.1, y, w or W - 2 * M - 0.2, crop_top=0)
+
+
+def page_number(s, dark=False):
+    """Bottom-right slide-number FIELD: PowerPoint keeps it in sync when slides are added, moved or removed (parametric)."""
+    tb = s.shapes.add_textbox(Inches(W - 1.1), Inches(H - 0.52), Inches(0.75), Inches(0.35))
+    p = tb.text_frame.paragraphs[0]
+    p.alignment = 2                                           # right
+    run = p.add_run()._r
+    fld = run.makeelement(qn("a:fld"), {"id": "{B3E8C2F0-0000-4A2B-9D1A-000000000001}", "type": "slidenum"})
+    rpr = fld.makeelement(qn("a:rPr"), {"lang": "en-US", "sz": "1100"})
+    fill = rpr.makeelement(qn("a:solidFill"), {})
+    clr = fill.makeelement(qn("a:srgbClr"), {"val": ("CFC9BC" if dark else MUTED).lstrip("#")})
+    fill.append(clr)
+    rpr.append(fill)
+    latin = rpr.makeelement(qn("a:latin"), {"typeface": R.MONO})
+    rpr.append(latin)
+    txt = fld.makeelement(qn("a:t"), {})
+    txt.text = "1"
+    fld.append(rpr)
+    fld.append(txt)
+    p._p.append(fld)
 
 
 def s1(s):
@@ -128,7 +150,14 @@ def s15(s):
     text(s, 0.75, 6.2, 11.0, 0.4, "Giovanni Volpe · MaCAD, IAAC · Thesis midterm", 16, "#CFC9BC", name="Mono")
 
 
+def b1_method(s):
+    """Backup: the one-page methodology overview (make_midterm_overview.py), full-bleed with its own baked title."""
+    picture(s, FIG / "method_overview.png", 0, 0, W, crop_top=0)
+
+
 SLIDES = [s1, R.s2, s3, R.s3, R.s4, s5, s7, s8, s9, s10, s11, s12, s13, s14, s15]
+BACKUP = [(b1_method, "Backup: the full method on one page.")]
+DARK = {s1, s15}                                             # photo-background slides: a light page number
 
 
 def build():
@@ -137,7 +166,7 @@ def build():
     assert len(notes) == len(SLIDES), len(notes)
     prs = Presentation()
     prs.slide_width, prs.slide_height = Inches(W), Inches(H)
-    for fn, n in zip(SLIDES, notes):
+    for fn, n in list(zip(SLIDES, notes)) + BACKUP:
         s = prs.slides.add_slide(prs.slide_layouts[6])
         s.background.fill.solid()
         s.background.fill.fore_color.rgb = rgb(BG)
@@ -147,10 +176,11 @@ def build():
                 for p in shp.text_frame.paragraphs:
                     for r in p.runs:
                         r.font.name = R.MONO
+        page_number(s, dark=fn in DARK)
         s.notes_slide.notes_text_frame.text = n
     out = OUT / "shade_and_sponge_midterm_pechakucha.pptx"
     prs.save(out)
-    print("wrote", out.relative_to(ROOT))
+    print("wrote", out.relative_to(ROOT), f"({len(SLIDES) + len(BACKUP)} slides)")
 
 
 if __name__ == "__main__":
