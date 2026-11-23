@@ -232,16 +232,13 @@ watch(
     </main>
 
     <aside v-show="panels.rightOpen" class="right">
+      <section><h3>Trade-off: summer shade vs winter shade</h3><TradeoffChart /></section>
       <section><h3>Canopy cover</h3><CoverCounter /></section>
       <section>
         <h3>Results</h3>
         <p class="small muted scen">{{ label(scenario) }}</p>
         <KpiPanel />
       </section>
-      <details class="group" open>
-        <summary>Trade-off</summary>
-        <section><TradeoffChart /></section>
-      </details>
       <section><h3>Selected tree</h3><TreeInspector /></section>
     </aside>
   </div>
