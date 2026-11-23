@@ -15,7 +15,7 @@ export const state = reactive({
   trees: null,
   pot: null,
   scenarioId: BALANCED,
-  view: 'map', // 'map' | 'compare' (side-by-side columns: today | city rule | optimised) | 'species' (botanical cards)
+  view: 'map', // 'map' | 'compare' (side-by-side columns: today | city practice | optimised) | 'species' (botanical cards)
   speciesScope: 'site', // Species tab: 'site' (whole neighbourhood) or 'area' (the project area, when one is drawn)
   // project area: only the plane positions inside a drawn polygon are replaced; outside, today's trees stay
   drawing: false,
@@ -146,13 +146,13 @@ export function label(s) {
     const n = s.idx.length + (s.all ? s.keptIdx.length : 0)
     return `Project area, ${n} ${s.all ? 'trees' : 'planes'} replaced: summer ${a}, winter ${b}, runoff ${c}`
   }
-  if (s.id.startsWith('S1a')) return `City rule (2026 mix) #${s.id.split('_').pop()}`
+  if (s.id.startsWith('S1a')) return `City practice (2026 mix) #${s.id.split('_').pop()}`
   if (s.id.startsWith('S1')) return `Random palette #${s.id.split('_').pop()}`
   const [a, b, c] = s.weights.map((w) => +w.toFixed(2))
   return `${s.id === LIVE ? 'Live estimate' : 'Optimised'}: summer ${a}, winter ${b}, runoff ${c}`
 }
 
-// Mean of the 10 city-rule layouts (S1a, the 2026 mix within the sizing rule): the thesis baseline
+// Mean of the 10 city-practice layouts (S1a, the 2026 mix within the sizing rule): the thesis baseline
 export const cityMean = computed(() => {
   const r = state.meta?.scenarios.filter((s) => s.group === 'S1a') ?? []
   if (!r.length) return null
@@ -160,7 +160,7 @@ export const cityMean = computed(() => {
   return Object.fromEntries(keys.map((k) => [k, r.reduce((a, s) => a + s.metrics[k], 0) / r.length]))
 })
 
-// "vs city rule" reference: the whole-site S1a mean, or the city rule inside the project area (estimate)
+// "vs city practice" reference: the whole-site S1a mean, or the city practice inside the project area (estimate)
 export const baseline = computed(() => (state.scenarioId === AREA && state.area?.city ? state.area.city.metrics : cityMean.value))
 
 // Calibration of live estimates: exact metric (full raster model) vs summed single-tree potentials, over the saved
@@ -450,7 +450,7 @@ function keptAfter(rows) {
   return kept
 }
 
-// City rule on the rows: the expected value of the S1a draw (2026 mix weights among the fitting mix species; any
+// City practice on the rows: the expected value of the S1a draw (2026 mix weights among the fitting mix species; any
 // fitting species if none of the mix fits), with capped species scaled down to their room, as the exact S1a draws
 function areaCity(rows) {
   const pot = state.pot
