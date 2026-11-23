@@ -2,6 +2,18 @@
 // layout.water_potential, layout.fits, heat.shadow_xy_area, heat.opacity, season.factor) on the site grid exported by
 // web_export.py (grid.bin.gz: per-hour sun bits for the summer and winter design days, ground flags, façade distance).
 
+// lon/lat -> grid metres (EPSG:25831): affine through three corners (bl, tl, br); over 1 km the UTM grid is affine to < 0.1 m
+export function makeToXY(g) {
+  const [bl, tl, , br] = g.corners
+  const X0 = g.x0, Y0 = g.y1 - g.H * g.res, X1 = g.x0 + g.W * g.res, Y1 = g.y1
+  const det = (tl[0] - bl[0]) * (br[1] - bl[1]) - (br[0] - bl[0]) * (tl[1] - bl[1])
+  return (lon, lat) => {
+    const u = ((lon - bl[0]) * (br[1] - bl[1]) - (br[0] - bl[0]) * (lat - bl[1])) / det // along bl->tl
+    const v = ((tl[0] - bl[0]) * (lat - bl[1]) - (lon - bl[0]) * (tl[1] - bl[1])) / det // along bl->br
+    return [X0 + v * (X1 - X0), Y0 + u * (Y1 - Y0)]
+  }
+}
+
 export async function loadGrid(url, g) {
   let buf = await (await fetch(url)).arrayBuffer()
   const head = new Uint8Array(buf, 0, 2)
@@ -9,15 +21,7 @@ export async function loadGrid(url, g) {
     buf = await new Response(new Blob([buf]).stream().pipeThrough(new DecompressionStream('gzip'))).arrayBuffer()
   const n = g.W * g.H
   const u8 = new Uint8Array(buf)
-  // lon/lat -> grid metres: affine through three corners (bl, tl, br); over 1 km the UTM grid is affine to < 0.1 m
-  const [bl, tl, , br] = g.corners
-  const X0 = g.x0, Y0 = g.y1 - g.H * g.res, X1 = g.x0 + g.W * g.res, Y1 = g.y1
-  const det = (tl[0] - bl[0]) * (br[1] - bl[1]) - (br[0] - bl[0]) * (tl[1] - bl[1])
-  const toXY = (lon, lat) => {
-    const u = ((lon - bl[0]) * (br[1] - bl[1]) - (br[0] - bl[0]) * (lat - bl[1])) / det // along bl->tl
-    const v = ((tl[0] - bl[0]) * (lat - bl[1]) - (lon - bl[0]) * (tl[1] - bl[1])) / det // along bl->br
-    return [X0 + v * (X1 - X0), Y0 + u * (Y1 - Y0)]
-  }
+  const toXY = makeToXY(g)
   return {
     ...g,
     summer: u8.subarray(0, n),
