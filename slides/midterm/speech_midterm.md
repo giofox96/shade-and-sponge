@@ -1,6 +1,6 @@
 # Shade and Sponge: midterm speech (Tue 24 Nov 2026, Pecha Kucha, 5 min)
 
-Spoken version of `script.md`, for the public deck `shade_and_sponge_midterm_pechakucha.pptx` (22 slides after PR #170: full methodology on slide 7, why Porta on slide 3, co-benefits on slide 14, Mataró on slide 15). 15 slides × 20 s; slides 16–22, plus the utilities slide in the private copy, are backups for questions only.
+Spoken version of `script.md`, for the public deck `shade_and_sponge_midterm_pechakucha.pptx` (24 slides after PR #170: full methodology on slide 7, why Porta on slide 3, co-benefits on slide 14, Mataró on slide 15). 15 slides × 20 s; slides 16–24, plus the utilities slide in the private copy (25), are backups for questions only.
 
 How to read it (v2, 23 Nov evening: rewritten as connected speech, with subordinate clauses, as Giovanni asked):
 - Each slide is one or two flowing sentences; breathe at the commas, pause at the full stops.
@@ -79,7 +79,13 @@ In this first run, I took the **six streets** with the most plane trees and imag
 ### 22. Declared assumptions
 These are the assumptions I declare, together with the reason why they are acceptable at this stage. New trees take the **crown their species has in Porta today**, so growth is not modelled and the view is about ten years. Heat is measured as **summer shade**, a proxy, until felt temperature comes in with Ladybug and Infrared City. Every species uses **one interception rate**, because species-specific rates do not change the ranking. Free spots are an **upper bound**, since there is no open data on underground services, while replacements reuse the existing pit. The fifteen percent cap counts **street trees only**, which I will revisit before the final results, and a **moved tree** leaves the site, because where it lands is outside the tool.
 
-### 23. Underground utilities (private copy only; do not show unless asked)
+### 23. Case study: Av. Rio de Janeiro, Porta
+This is a real replacement in Porta, from start to end. Between 2022 and 2024, **twenty-two poplars** were removed along Avinguda Rio de Janeiro, and in late 2025 the city replanted all the positions together with **narrow-leaved ash**. If the method had chosen instead, it would have planted **honey locust** and **Chinese parasol trees**, which give about **two hundred forty** square-metre hours of summer shade per tree, against **seventy-four** for the city's choice and **one hundred sixty-seven** for the poplars that were there. Each of those trees would also hold about **two hundred twenty litres** of rain in a two-year storm, against **fifty-four** for the city, while sending the same water to flood spots. The cost is a little more **winter shade** than the city's young ashes, although still less than the poplars had.
+
+### 24. Cost and robustness
+This slide answers two questions, what the actions cost and whether the ranking survives a different interception rate. A **replacement** costs up to about **five hundred euros** per tree, following the provincial grant ceiling, while **moving** a tree with a tree spade costs between about **five hundred and almost three thousand euros**, depending on the root ball, and **widening a pit** costs about **one hundred euros**. Since the method and the city's practice replace the **same trees**, the method changes the species, not the number of works. As for robustness, giving **eleven of the thirty species** their own interception rate leaves Porta's summer shade at the same level, and using a **lower rate** for short storms halves the differences between layouts without changing their sign, so the **ranking holds**: the method stays ahead on summer shade and is never worse on runoff.
+
+### 25. Underground utilities (private copy only; do not show unless asked)
 Below the sidewalk there are pipes and cables which can make a **tree pit impossible** even where the surface looks free. I requested the utility plans for Porta **through the official channel**, and I now have almost all networks, while the water network is still pending. Since the plans are **confidential**, I will neither show nor publish them, and I will use them only to turn spots into **blocked or conditional**, the same classes you saw on slide ten; at the moment, the spot classes do **not** yet include utilities, so that is the next check.
 
 ## Numbers to have ready for questions
