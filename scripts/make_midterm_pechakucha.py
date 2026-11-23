@@ -220,7 +220,7 @@ def b5_mataro_streets(s):
 def b6_assumptions(s):
     """Backup: the declared assumptions (A. Chronis, 10 Nov: declare them, soften the bold ones; notes/tutor_feedback_10nov.md §2)."""
     head(s, "Declared assumptions", "What the method takes as given, and why it is acceptable for now")
-    rows = [("tree-deciduous", "New trees at the size of today's trees", "each species at the crown it has in Porta today (LiDAR median): "
+    rows = [("tree-deciduous", "New trees at the size of today's trees", "each species at the crown it has in Barcelona today (LiDAR median): "
              "growth and life cycle are not modelled; a ≈10-year view is in the tool", TREE),
             ("thermometer-sun", "Heat = summer shade, not felt temperature", "a shade proxy on a hot day; UTCI with Ladybug and Infrared City is next", HEAT),
             ("droplets", "One interception rate for every species", "1.75 mm per unit of leaf area; species-specific rates "
@@ -250,6 +250,44 @@ def b7_tradeoff(s):
     source(s, "Huangfu & Hall 2018 (HiGHS).")
 
 
+def b8_rio(s):
+    """Backup: one real replacement inside Porta, start to end (A. Chronis, 17 Nov: a small case-study area). Map from
+    make_backtest_deck.py (map_home.png = group 6128); numbers from databases/barcelona/backtest_works_guide_capsmall.csv,
+    per tree = (layout - no street trees) / 22; litres = runoff avoided in the 2-year, 60-min design storm."""
+    head(s, "Case study: Av. Rio de Janeiro, Porta", "22 poplar positions emptied 2022–24, replanted together in late 2025: what was there, what the city planted, the method")
+    picture(s, ROOT / "slides/fig_backtest/map_home.png", M, 1.4, W - 2 * M, crop_top=0)
+    text(s, M, 6.2, W - 2 * M, 0.5, [[("Per tree, removed · city · method:  ", {"bold": True}),
+                                      ("rain held in a 2-year storm 123 · 54 · 219 litres;  winter shade 92 · 29 · 85 m²·h;  "
+                                       "runoff to flood spots: same", {})]], 13, INK)
+    source(s, "Open Data BCN, arbrat viari 2018–2026; ICGC, LiDAR 2021; Ajuntament de Barcelona, works notice Av. Rio de Janeiro (2022).")
+
+
+def b9_cost(s):
+    """Backup: what the actions cost and how robust the runoff result is (budget note, 18-23 Nov;
+    databases/barcelona/sensitivity_species_s.csv; notes/methodology.md §4b)."""
+    head(s, "Cost and robustness", "What each action costs, and whether the ranking survives a different interception rate")
+    rows = [("refresh-ccw", "Replace: up to 500 € per tree", "fell, remove stump, plant a 16–18 cm tree (provincial grant ceiling, incl. VAT)", HEAT),
+            ("move", "Move: 502 to 2,867 € per tree", "tree spade, root ball 90 to 300 cm (direct cost)", WARN),
+            ("ruler", "Widen a pit, 1 → 1.5 m²: about 100 €", "demolish paving + new pit border (direct cost)", TREE)]
+    for k, (ic, b, t, c) in enumerate(rows):
+        y = 1.65 + k * 1.15
+        ico(s, ic, c, M + 0.05, y + 0.1, 0.5)
+        text(s, M + 0.8, y, 5.4, 1.1, [[(b, {"bold": True, "color": c, "size": 17})], t], 13, INK)
+    text(s, M, 5.2, 5.9, 1.2, "Method and city practice replace the same trees: the method changes the species, not the number "
+                              "of works.", 14, MUTED)
+    rows = [("droplets", "Interception rate per species", "11 of 30 species with their own rate: Porta summer shade 103.4% of "
+             "today in both runs; runoff to flood spots −0.2% vs −0.3% of city practice", RAIN),
+            ("cloud-rain", "Lower rate for short storms", "0.86 or 0.83 mm instead of 1.75: differences between layouts "
+             "halve but keep their sign, all under 1%", RAIN),
+            ("scale", "Ranking holds", "the method stays ahead of city practice on summer shade, and never worse on runoff", TREE)]
+    for k, (ic, b, t, c) in enumerate(rows):
+        y = 1.65 + k * 1.55
+        ico(s, ic, c, 6.9 + 0.05, y + 0.1, 0.5)
+        text(s, 6.9 + 0.8, y, 5.1, 1.5, [[(b, {"bold": True, "color": c, "size": 17})], t], 13, INK)
+    source(s, "Diputació de Barcelona, Catàleg 2024–2027; CYPE, Generador de precios; "
+              "Xiao & McPherson 2016; Hassan et al. 2017; Anys & Weiler 2024.")
+
+
 def b3_highs(s):
     """Backup: what HiGHS does, on a five-position example (make_midterm_highs.py)."""
     picture(s, FIG / "flow_07_highs.png", 0, 0, W, crop_top=0)
@@ -262,7 +300,9 @@ BACKUP = [(b7_tradeoff, "Backup: the tool's priority triangle and trade-off char
           (b3_highs, "Backup: how HiGHS picks the species, on a five-position example."),
           (b4_mataro_why, "Backup: why Mataró is the transfer city, and where it is."),
           (b5_mataro_streets, "Backup: the six Mataró test streets and their result."),
-          (b6_assumptions, "Backup: the declared assumptions.")]
+          (b6_assumptions, "Backup: the declared assumptions."),
+          (b8_rio, "Backup: a real replacement in Porta, Av. Rio de Janeiro, start to end."),
+          (b9_cost, "Backup: what the actions cost, and the runoff sensitivity to the interception rate.")]
 DARK = {s1, s15}                                             # photo-background slides: a light page number
 
 
