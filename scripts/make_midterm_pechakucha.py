@@ -134,11 +134,26 @@ def s13(s):
 
 
 def s14(s):
-    R.s8(s)
-    for shp in s.shapes:
-        if shp.has_text_frame and shp.text_frame.text.startswith("Next:"):
-            shp.text_frame.paragraphs[0].runs[0].text = "And: "
-            shp.text_frame.paragraphs[0].runs[1].text = "in 26 of 26 groups, no more water to flood spots than the city's choice"
+    """Back-test (26 real replacement groups) on top; co-benefits of the Porta layouts below (cobenefits_porta*.csv, PR #163):
+    balanced layout S4_s0.25_w0.25_r0.50, today S0 = 100, replacements at equal trunk class (TERCERA), reported not optimised."""
+    head(s, "First evidence: back-test and co-benefits", "26 groups where the city replaced trees: same positions, city's choice vs method")
+    box(s, M, 1.55, W - 2 * M, 2.2, tint(TREE, 0.08))
+    for x, ic, big, small in ((M, "tree-deciduous", "59 → 139", "m²·h summer shade per tree (median), city vs method"),
+                              (M + 6.1, "circle-check", "22 of 26", "groups where the method gives more shade")):
+        ico(s, ic, TREE, x + 0.5, 2.25, 0.8)
+        text(s, x + 1.5, 1.55, 4.6, 2.2, [[(big, {"bold": True, "color": TREE, "size": 40})], small], 16, INK, anchor=MSO_ANCHOR.MIDDLE)
+    text(s, M, 3.9, W - 2 * M, 0.45, [[("And: ", {"bold": True}), ("in 26 of 26 groups, no more water to flood spots than the city's choice", {})]], 17, INK)
+    text(s, M, 4.55, W - 2 * M, 0.4, [[("Co-benefits in Porta ", {"bold": True}), ("· reported, not optimised · today = 100", {"color": MUTED})]], 16, INK)
+    for k, (ic, big, small, c) in enumerate((
+            ("trees", "56 vs 42", "carbon stored once grown, method vs city practice", TREE),
+            ("heart", "< 100", "pollen load in every replacement: today's planes are highly allergenic", HEAT),
+            ("chart-pie", "−0.3 pts", "summer shade to lift diversity from 6.2 to 9.4 species (city practice 15.6)", RAIN))):
+        x = M + k * 4.13
+        box(s, x, 5.0, 3.93, 1.6, tint(c, 0.10))
+        ico(s, ic, c, x + 0.25, 5.5, 0.6)
+        text(s, x + 1.0, 5.0, 2.85, 1.6, [[(big, {"bold": True, "color": c, "size": 26})], small], 12, INK, anchor=MSO_ANCHOR.MIDDLE)
+    source(s, "Open Data BCN, arbrat viari 2018–2026; ICGC LiDAR 2021; Jucker et al. 2017 (carbon); "
+              "Cariñanos et al. 2014 (pollen); Nicol et al. 2026 (diversity).")
 
 
 def s15(s):
