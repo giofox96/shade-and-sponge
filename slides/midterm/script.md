@@ -1,6 +1,6 @@
 # Shade and Sponge: midterm Pecha Kucha (24 Nov 2026, 5 min)
 
-15 slides × 20 s. Built on the RM 3-minute deck (`slides/rm_final/`) and the 17 Nov tutor feedback (`notes/tutor_feedback_17nov.md`): narrative first, then a method anyone can follow, Porta in absolute numbers, the four actions inside the method, runoff explained with litres. Speaker notes = the "Say" lines. About 47 words per slide, 703 in total: about 4.7 minutes at 150 words a minute, leaving room for pauses (RT feedback, 23 Nov: keep to time).
+15 slides × 20 s. Built on the RM 3-minute deck (`slides/rm_final/`) and the 17 Nov tutor feedback (`notes/tutor_feedback_17nov.md`): narrative first, then a method anyone can follow, Porta in absolute numbers, the four actions inside the method, runoff explained with litres. Speaker notes = the "Say" lines. About 47 words per slide, 710 in total: about 4.7 minutes at 150 words a minute, leaving room for pauses (RT feedback, 23 Nov: keep to time).
 
 ### 1. Title
 **Say (42 words):** "Imagine you redesign a street in Barcelona. The layout is already decided. Your job is the trees: which to keep, move or replace, and where to add new ones, so the street is cooler in summer and not worse when it rains."
@@ -41,8 +41,8 @@
 ### 13. City practice, not a rule
 **Say (50 words):** "My baseline is the city's practice: what it really planted where trees were replaced. It is a practice, not a rule, and it does not always follow the rules: one in five new trees is larger than its sidewalk allows. So the method can also measure what each rule costs."
 
-### 14. First evidence
-**Say (49 words):** "First test: twenty-six groups where the city really replaced trees, same positions. Per new tree, the city's choice gives a median fifty-nine square-metre hours of summer shade; the method gives one hundred thirty-nine. It wins twenty-two of twenty-six groups, and sends no more water to flood spots in any."
+### 14. First evidence and co-benefits
+**Say (56 words):** "First test: twenty-six groups the city really replaced. Per new tree, the method gives a median one hundred thirty-nine square-metre hours of summer shade, the city fifty-nine, with no more water to flood spots. In Porta it also stores more carbon than city practice, less pollen than today, and a diversity floor costs almost no shade."
 
 ### 15. Next
 **Say (54 words):** "Next: felt temperature with Ladybug and Infrared City, the same method in Mataró and Florence, and a tool where the designer sets each tree's action and sees the trade-offs. For people on the street, that means more shade where they walk. The right tree, in the right place, within the city's rules. Thank you."
