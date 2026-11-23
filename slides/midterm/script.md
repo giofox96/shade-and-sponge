@@ -30,7 +30,7 @@
 **Say (54 words):** "The rules come from the city's street-tree guide. Below two and a half metres of sidewalk, no tree. Then small trees every seven metres, medium every nine, large every thirteen, set by the width. Plus distances from lamps and signs, and the fifteen percent cap per species. The optimiser cannot break any of them."
 
 ### 10. Where new trees go
-**Say (53 words):** "Where can new trees go? Porta has two hundred sixty-seven candidate spots. One hundred fifty-three are free. One hundred six are conditional: a sign, a crossing, a lamp or a bollard is in the way, which a project can move after a field check. Only eight are blocked, by traffic lights and driveways."
+**Say (53 words):** "Where can new trees go? Porta has two hundred sixty-seven candidate spots. One hundred fifty-three are free. One hundred three are conditional: a sign, a crossing, a lamp or a bollard is in the way, which a project can move after a field check. Only eleven are blocked, by traffic lights and driveways."
 
 ### 11. A crown is a bucket
 **Say (51 words):** "Now rain, in litres. One millimetre on one square metre is one litre. In a two-year storm, about a thousand litres fall on a typical crown in Porta. The leaves hold about one hundred twenty-five; the rest reaches the ground. Wherever you plant it, the same tree holds the same water."

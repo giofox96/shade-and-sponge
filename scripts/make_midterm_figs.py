@@ -133,8 +133,8 @@ def spots():
     """Free planting spots in Porta by class (decided 18 Nov): 267 candidates."""
     h = 470
     total, x0, wmax = 267, 40, 1520
-    parts = [(153, "Free", "plant", TREE), (106, "Conditional", "move a sign, crossing, lamp, bollard or bus stop · field check", WARN),
-             (8, "Blocked", "traffic lights, driveways", HEAT)]
+    parts = [(153, "Free", "plant", TREE), (103, "Conditional", "move a sign, crossing, lamp, bollard or bus stop · field check", WARN),
+             (11, "Blocked", "traffic lights (incl. crossings within 3 m of one), driveways", HEAT)]
     b = (f'<div class="t" style="position:absolute;left:{x0}px;top:10px;font-size:30px">267 candidate spots '
          f'<span class="s">(sidewalk ≥ 2.5 m, spacing by size)</span></div>')
     x = x0
