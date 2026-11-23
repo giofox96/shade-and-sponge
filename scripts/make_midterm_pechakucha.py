@@ -160,9 +160,15 @@ def b2_screening(s):
     picture(s, FIG / "screening_matrix.png", 0, 0, W, crop_top=0)
 
 
+def b3_highs(s):
+    """Backup: what HiGHS does, on a five-position example (make_midterm_highs.py)."""
+    picture(s, FIG / "flow_07_highs.png", 0, 0, W, crop_top=0)
+
+
 SLIDES = [s1, R.s2, s3, R.s3, R.s4, s5, s7, s8, s9, s10, s11, s12, s13, s14, s15]
 BACKUP = [(b1_method, "Backup: the full method on one page."),
-          (b2_screening, "Backup: the screening indicators as a matrix, one row per position.")]
+          (b2_screening, "Backup: the screening indicators as a matrix, one row per position."),
+          (b3_highs, "Backup: how HiGHS picks the species, on a five-position example.")]
 DARK = {s1, s15}                                             # photo-background slides: a light page number
 
 
