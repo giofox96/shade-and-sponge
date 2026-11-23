@@ -15,7 +15,8 @@ EXT_SRC = ("Ajuntament de Barcelona: Open Data BCN street-tree inventory, Mapa b
 
 
 def flow_overview():
-    X = [110, 330, 560, 770, 1000, 1240, 1480]
+    X = [110, 330, 545, 720, 965, 1240, 1490]   # Project area compacted towards the screening: more room for the arrows
+    MX, RX, ye = 1165, 1315, 535                # metric boxes, radar; ye = centre of the dashed frame (Evaluate, Validation aligned)
     b = "".join(head(x, h) for x, h in zip(X, ("Focus", "Data", "City screening", "Project area", "Design",
                                                "Evaluate", "Validation")))
     y0 = 470
@@ -55,19 +56,19 @@ def flow_overview():
     b += vline(X[4], 706, 668, WARN)
     for k, (lab, c) in enumerate((("Heat", HEAT), ("Runoff", RAIN), ("Canopy", TREE))):
         y = 476 + 60 * k
-        b += box(X[5] - 70, y, lab, c, 110, 44)
-        b += curve(X[4] + 100, 490, X[5] - 127, y, GRID) + curve(X[4] + 100, 570, X[5] - 127, y, GRID)
-    b += i_radar(X[5] + 70, y0 - 25) + t(X[5] + 70, y0 + 34, "vs today", 14, MUTED, anchor="middle")
-    b += t(X[5] + 70, y0 + 52, "vs city practice", 14, MUTED, anchor="middle")
+        b += box(MX, y, lab, c, 110, 44)
+        b += curve(X[4] + 100, 490, MX - 57, y, GRID) + curve(X[4] + 100, 570, MX - 57, y, GRID)
+    b += i_radar(RX, ye) + t(RX, ye + 59, "vs today", 14, MUTED, anchor="middle")
+    b += t(RX, ye + 77, "vs city practice", 14, MUTED, anchor="middle")
     for k in range(3):
-        b += curve(X[5] - 15, 476 + 60 * k, X[5] + 30, y0 - 25, GRID)
+        b += curve(MX + 57, 476 + 60 * k, RX - 40, ye, GRID)
     # one exact solve (not an iterative loop): a dashed frame around what the optimiser decides and scores
-    b += (f'<rect x="890" y="444" width="344" height="182" rx="12" fill="none" stroke="{MUTED}" '
+    b += (f'<rect x="852" y="444" width="384" height="182" rx="12" fill="none" stroke="{MUTED}" '
           'stroke-width="1.6" stroke-dasharray="7 5"/>')
-    b += t(1234, 646, "Optimisation · HiGHS (one exact solve)", 14, INK, "bold", "end")
-    b += i_check(X[6], y0 - 25) + caption(X[6], y0 + 40, "Porta") + t(X[6], y0 + 62, "→ Sant Antoni", 14, MUTED, anchor="middle")
-    b += t(X[6], y0 + 80, "Mataró · Florence", 14, MUTED, anchor="middle")
-    b += curve(X[5] + 110, y0 - 25, X[6] - 40, y0 - 25)
+    b += t(1236, 646, "Optimisation · HiGHS (one exact solve)", 14, INK, "bold", "end")
+    b += i_check(X[6], ye) + caption(X[6], ye + 65, "Porta") + t(X[6], ye + 87, "→ Sant Antoni", 14, MUTED, anchor="middle")
+    b += t(X[6], ye + 105, "Mataró · Florence", 14, MUTED, anchor="middle")
+    b += curve(RX + 40, ye, X[6] - 40, ye, GRID)
     b += t(800, 815, "The designer sets an action per tree; the optimiser picks the species for every Replace and Add, within the city's rules.",
            17, MUTED, anchor="middle")
     save("method_overview", "Methodology", "Which species replace the trees a project removes, and where to add new ones: "
