@@ -5,7 +5,7 @@ picks up the new PNG. Same grammar and palette as make_flowcharts_v9.py.
 Output: slides/midterm/fig/method_overview.svg/.png. Run from scripts/: python make_midterm_overview.py
 """
 import make_infographics as mi
-from make_infographics import t, save, ROOT, MUTED, GRID, HEAT, RAIN, TREE, WARN
+from make_infographics import t, rect, save, ROOT, INK, MUTED, GRID, HEAT, RAIN, TREE, WARN
 from make_flowcharts import head, box, outline, curve, vline, caption, loop, i_heat, i_rain, i_layers, i_area, i_check, i_radar
 
 mi.OUT = ROOT / "slides/midterm/fig"
@@ -28,26 +28,40 @@ def flow_overview():
         b += box(X[1], y, lab, c, 196, 56 if sub else 48, sub)
     for fy, dy in ((360, 335), (360, 655), (580, 415), (580, 495), (580, 655)):   # heat → LiDAR, hot day; floods → DTM, hotspots, storms
         b += curve(X[0] + 40, fy, X[1] - 100, dy, GRID)
-    b += i_layers(X[2], y0 - 25) + caption(X[2], y0 + 40, "Indicators per tree") + t(X[2], y0 + 62, "shade · water flow · size", 14, MUTED, anchor="middle")
+    b += i_layers(X[2], y0 - 25) + caption(X[2], y0 + 40, "Indicators per tree")
     for y in ys:
         b += curve(X[1] + 100, y, X[2] - 46, y0 - 25, GRID)
-    # Project area: the designer's four actions, per tree
-    b += i_area(X[3], y0 - 25) + caption(X[3], y0 + 40, "The designer decides") + t(X[3], y0 + 62, "keep · move · replace · add", 14, MUTED, anchor="middle")
+    # synthetic array right under the node: each position is a row of indicators x1..xn, grouped tree · place · score
+    # (Angelos asked how the indicators are organised). The full table is the screening backup slide.
+    cell, cols, rows = 19, 6, 3
+    gcol = [TREE, TREE, TREE, WARN, WARN, HEAT]
+    mx, my = X[2] - cols * cell / 2, y0 + 70
+    for r in range(rows):
+        for cc in range(cols):
+            b += rect(mx + cc * cell, my + r * cell, cell - 3, cell - 3, gcol[cc], rx=3, op=0.20 + 0.14 * ((r + cc) % 3))
+    b += t(X[2], my - 9, "x₁ x₂ … xn", 13, INK, "bold", "middle")
+    b += t(X[2], my + rows * cell + 17, "one row per position", 12, MUTED, anchor="middle")
+    b += t(X[2], my + rows * cell + 35, "tree · place · score", 12, MUTED, anchor="middle")
+    # Project area: the designer sets an action per tree
+    b += i_area(X[3], y0 - 25) + caption(X[3], y0 + 40, "The designer decides") + t(X[3], y0 + 62, "an action per tree", 14, MUTED, anchor="middle")
     b += curve(X[2] + 46, y0 - 25, X[3] - 40, y0 - 25)
-    b += box(X[4], 380, "Replacement", TREE, 190, 56, "trees the project removes")
-    b += box(X[4], 560, "Additions", TREE, 190, 56, "free planting spots")
-    b += curve(X[3] + 40, y0 - 25, X[4] - 97, 380) + curve(X[3] + 40, y0 - 25, X[4] - 97, 560)
-    b += outline(X[4], 735, "City rules", WARN, 280, 70, "30 species · 15% cap · sidewalk size")
-    b += vline(X[4], 698, 592, WARN)
+    # Design: the four actions per tree (Angelos: four options). Keep and Move stay; Replace and Add go to the optimiser.
+    actions = [("Keep", TREE, 300, "tree stays"), ("Move", WARN, 410, "frees a spot"),
+               ("Replace", HEAT, 520, "optimiser picks"), ("Add", RAIN, 630, "optimiser picks")]
+    for lab, c, y, sub in actions:
+        b += box(X[4], y, lab, c, 196, 56, sub)
+        b += curve(X[3] + 40, y0 - 25, X[4] - 100, y, GRID)
+    b += outline(X[4], 738, "City rules", WARN, 280, 64, "30 species · 15% cap · sidewalk size")
+    b += vline(X[4], 706, 658, WARN)
     for k, (lab, c) in enumerate((("Heat", HEAT), ("Runoff", RAIN), ("Canopy", TREE))):
-        y = 360 + 110 * k
+        y = 380 + 100 * k
         b += box(X[5] - 70, y, lab, c, 110, 44)
-        b += curve(X[4] + 97, 380, X[5] - 127, y, GRID) + curve(X[4] + 97, 560, X[5] - 127, y, GRID)
+        b += curve(X[4] + 100, 520, X[5] - 127, y, GRID) + curve(X[4] + 100, 630, X[5] - 127, y, GRID)
     b += i_radar(X[5] + 70, y0 - 25) + t(X[5] + 70, y0 + 34, "vs today", 14, MUTED, anchor="middle")
     b += t(X[5] + 70, y0 + 52, "vs city practice", 14, MUTED, anchor="middle")
     for k in range(3):
-        b += curve(X[5] - 15, 360 + 110 * k, X[5] + 30, y0 - 25, GRID)
-    b += loop(X[4], X[5] - 70, 360 - 22 + 44, "Optimisation · HiGHS")
+        b += curve(X[5] - 15, 380 + 100 * k, X[5] + 30, y0 - 25, GRID)
+    b += loop(X[4], X[5] - 70, 335, "Optimisation · HiGHS")
     b += i_check(X[6], y0 - 25) + caption(X[6], y0 + 40, "Porta") + t(X[6], y0 + 62, "→ Sant Antoni", 14, MUTED, anchor="middle")
     b += t(X[6], y0 + 80, "Mataró · Florence", 14, MUTED, anchor="middle")
     b += curve(X[5] + 110, y0 - 25, X[6] - 40, y0 - 25)

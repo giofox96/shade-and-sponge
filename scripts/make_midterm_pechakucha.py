@@ -155,8 +155,14 @@ def b1_method(s):
     picture(s, FIG / "method_overview.png", 0, 0, W, crop_top=0)
 
 
+def b2_screening(s):
+    """Backup: the screening as a matrix — one row per position, groups A/B/C (the question A. Chronis asked, 17 Nov)."""
+    picture(s, FIG / "screening_matrix.png", 0, 0, W, crop_top=0)
+
+
 SLIDES = [s1, R.s2, s3, R.s3, R.s4, s5, s7, s8, s9, s10, s11, s12, s13, s14, s15]
-BACKUP = [(b1_method, "Backup: the full method on one page.")]
+BACKUP = [(b1_method, "Backup: the full method on one page."),
+          (b2_screening, "Backup: the screening indicators as a matrix, one row per position.")]
 DARK = {s1, s15}                                             # photo-background slides: a light page number
 
 
