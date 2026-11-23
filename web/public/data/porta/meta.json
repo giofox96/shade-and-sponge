@@ -17,9 +17,9 @@
   "area_m2": 836826,
   "s0_disc_pct": 23.5,
   "additions": {
-   "spots": 152,
-   "opt_pts": 0.4,
-   "city_pts": 0.33
+   "spots": 153,
+   "opt_pts": 0.42,
+   "city_pts": 0.34
   }
  },
  "leaf_by_species": {
@@ -2157,21 +2157,5 @@
   "Design days 15 Jul 12–17 h CEST and 15 Jan 10–15 h CET (summer window = the decided heat-metric window, 12–17 h local clock; the day is an assumption)",
   "Runoff reaches a hotspot only within 100 m of flow path",
   "Tipuana half-leafed in April; class-default leaf months for most deciduous species"
- ],
- "terrain": {
-  "file": "terrain.png",
-  "bounds": [
-   2.171997,
-   41.430106,
-   2.185557,
-   41.439704
-  ],
-  "min_m": 29.3,
-  "max_m": 77.2
- },
- "lidar": {
-  "file": "lidar.bin.gz",
-  "n": 996695,
-  "voxel_m": 2.0
- }
+ ]
 }
