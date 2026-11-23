@@ -293,10 +293,10 @@ def b3_highs(s):
     picture(s, FIG / "flow_07_highs.png", 0, 0, W, crop_top=0)
 
 
-SLIDES = [s1, R.s2, s3, R.s3, R.s4, s5, b1_method, s8, s9, s10, s11, s12, s13, s14, s15]
+SLIDES = [s1, R.s2, s3, R.s3, R.s4, s5, b1_method, b2_screening, s9, s10, s11, s12, s13, s14, s15]
 BACKUP = [(b7_tradeoff, "Backup: the tool's priority triangle and trade-off chart; the live demo follows."),
           (s7, "Backup: the method in four steps (the simple version)."),
-          (b2_screening, "Backup: the screening indicators as a matrix, one row per position."),
+          (s8, "Backup: the screening in three questions (the simple version)."),
           (b3_highs, "Backup: how HiGHS picks the species, on a five-position example."),
           (b4_mataro_why, "Backup: why Mataró is the transfer city, and where it is."),
           (b5_mataro_streets, "Backup: the six Mataró test streets and their result."),
