@@ -170,11 +170,7 @@ def s15(s):
     s1_photo(s)
     text(s, 0.75, 1.3, 7.4, 1.0, "Next", 54, BG, True, name="Title")
     text(s, 0.75, 2.5, 7.2, 2.6, ["Felt temperature (UTCI): Ladybug, Infrared City", "Mataró: 83% vs 63% summer shade, 6 of 6 streets", "Florence next",
-                                  "Tool: action per tree, trade-offs on screen →"], 22, BG)
-    # The web app's priority triangle and trade-off chart (Barcelona 30-species palette, balanced layout), screenshots
-    # of https://giofox96.github.io/shade-and-sponge/ stacked into one image; the live demo follows the talk.
-    box(s, 8.6, 0.3, 4.35, 6.55, "#FAF9F5", radius=0.04)
-    picture(s, FIG / "tool_tradeoff.png", 8.75, 0.4, 4.05, crop_top=0)
+                                  "Tool: action per tree, trade-offs on screen"], 22, BG)
     text(s, 0.75, 5.1, 7.2, 0.8, "The right tree, in the right place, within the city's rules. Thank you.", 22, BG, True)
     text(s, 0.75, 6.2, 11.0, 0.4, "Giovanni Volpe · MaCAD, IAAC · Thesis midterm", 16, "#CFC9BC", name="Mono")
 
@@ -241,13 +237,27 @@ def b6_assumptions(s):
               "Ajuntament de Barcelona, Pla director de l'arbrat 2017–2037.")
 
 
+def b7_tradeoff(s):
+    """Backup: the tool's priority triangle and trade-off chart, screenshots of https://giofox96.github.io/shade-and-sponge/
+    (Barcelona 30-species palette, balanced layout); the live demo follows the talk."""
+    head(s, "In the tool: priorities and trade-offs", "Pick a point on the triangle, the optimiser re-solves; every layout is a dot on the chart")
+    text(s, M, 1.6, 5.2, 0.4, "Priorities: click to re-optimise", 16, INK, True)
+    picture(s, FIG / "tool_triangle.png", M + 0.6, 2.05, 4.0, crop_top=0)
+    text(s, M, 5.7, 5.6, 1.0, ["Each corner is one objective: summer shade, winter sun, runoff.",
+                                      "Dots = precomputed layouts; any other point is solved in the browser."], 14, MUTED)
+    text(s, 6.9, 1.6, 5.9, 0.4, "Trade-off: summer shade vs winter shade", 16, INK, True)
+    picture(s, FIG / "tool_tradeoff.png", 7.7, 1.95, 4.1, crop_top=0)
+    source(s, "Huangfu & Hall 2018 (HiGHS).")
+
+
 def b3_highs(s):
     """Backup: what HiGHS does, on a five-position example (make_midterm_highs.py)."""
     picture(s, FIG / "flow_07_highs.png", 0, 0, W, crop_top=0)
 
 
-SLIDES = [s1, R.s2, s3, R.s3, R.s4, s5, s7, s8, s9, s10, s11, s12, s13, s14, s15]
-BACKUP = [(b1_method, "Backup: the full method on one page."),
+SLIDES = [s1, R.s2, s3, R.s3, R.s4, s5, b1_method, s8, s9, s10, s11, s12, s13, s14, s15]
+BACKUP = [(b7_tradeoff, "Backup: the tool's priority triangle and trade-off chart; the live demo follows."),
+          (s7, "Backup: the method in four steps (the simple version)."),
           (b2_screening, "Backup: the screening indicators as a matrix, one row per position."),
           (b3_highs, "Backup: how HiGHS picks the species, on a five-position example."),
           (b4_mataro_why, "Backup: why Mataró is the transfer city, and where it is."),

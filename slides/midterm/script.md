@@ -1,6 +1,6 @@
 # Shade and Sponge: midterm Pecha Kucha (24 Nov 2026, 5 min)
 
-15 slides × 20 s. Built on the RM 3-minute deck (`slides/rm_final/`) and the 17 Nov tutor feedback (`notes/tutor_feedback_17nov.md`): narrative first, then a method anyone can follow, Porta in absolute numbers, the four actions inside the method, runoff explained with litres. Speaker notes = the "Say" lines. About 47 words per slide, 730 in total: about 4.9 minutes at 150 words a minute, leaving room for pauses (RT feedback, 23 Nov: keep to time).
+15 slides × 20 s. Built on the RM 3-minute deck (`slides/rm_final/`) and the 17 Nov tutor feedback (`notes/tutor_feedback_17nov.md`): narrative first, then a method anyone can follow, Porta in absolute numbers, the four actions inside the method, runoff explained with litres. Speaker notes = the "Say" lines. About 47 words per slide, 734 in total: about 4.9 minutes at 150 words a minute, leaving room for pauses (RT feedback, 23 Nov: keep to time).
 
 ### 1. Title
 **Say (42 words):** "Imagine you redesign a street in Barcelona. The layout is already decided. Your job is the trees: which to keep, move or replace, and where to add new ones, so the street is cooler in summer and not worse when it rains."
@@ -21,7 +21,7 @@
 **Say (44 words):** "What is fixed: the street layout, the fifteen percent cap, the sidewalk width that sets the tree size, traffic lights and driveways. What is free: four actions per tree, keep, move, replace or add. Never remove without replacing. The tool advises; the designer decides."
 
 ### 7. Method
-**Say (45 words):** "Four steps. First, a screening of every tree and free spot. Second, the designer sets an action per tree, with a reason. Third, an exact optimiser picks the species for every replaced or added position. Fourth, I compare with today and with the city's practice."
+**Say (49 words):** "Heat and floods drive the data: trees, LiDAR, terrain, storms, sidewalks. Every tree is screened. In the project area, the designer sets an action per tree: keep, move, replace or add. An exact optimiser picks the species within the city's rules. I compare with today and the city's practice."
 
 ### 8. Screening
 **Say (44 words):** "The screening asks three questions everywhere. What stands there: species, crown and leaf density. Where it is: sidewalk width, nearby objects, and whether rain flows to a flood spot. And what each of thirty species would do there: summer shade, winter shade, rain held."
