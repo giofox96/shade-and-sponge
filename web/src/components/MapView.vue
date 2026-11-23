@@ -274,22 +274,56 @@ function spotUp(i, dz) {
   return [lon, lat, z + dz]
 }
 
-// the selected plane position: dimension lines tree -> façade foot and tree -> kerb along its measuring ray, labelled in metres
+// façade and kerb lines of the site (sidewalks.geojson), kept for the dimension lines of trees the width script could not measure
+let swLines = null, swOf = null
+function sidewalkLines() {
+  const url = dataUrl('sidewalks.geojson')
+  if (swOf !== url) {
+    swOf = url; swLines = null
+    fetch(url).then((r) => r.json()).then((fc) => { if (swOf === url) { swLines = fc.features; overlay?.setProps({ layers: layers() }) } })
+  }
+  return swLines
+}
+const DIM_MAX_M = 25 // ASSUMPTION: farther than this, the nearest façade or kerb is not the tree's own sidewalk
+
+// nearest point to t on the lines of one kind, in metres: { to, d } or null
+function nearestOn(t, kind, kx) {
+  let best = null
+  for (const f of sidewalkLines() ?? []) {
+    if (f.properties.kind !== kind) continue
+    const L = f.geometry.coordinates
+    for (let j = 1; j < L.length; j++) {
+      const ax = (L[j - 1][0] - t[0]) * kx, ay = (L[j - 1][1] - t[1]) * M_DEG, bx = (L[j][0] - t[0]) * kx, by = (L[j][1] - t[1]) * M_DEG
+      const vx = bx - ax, vy = by - ay, u = Math.max(0, Math.min(1, -(ax * vx + ay * vy) / (vx * vx + vy * vy || 1)))
+      const px = ax + u * vx, py = ay + u * vy, d = Math.hypot(px, py)
+      if (d <= DIM_MAX_M && (!best || d < best.d)) best = { to: [t[0] + px / kx, t[1] + py / M_DEG], d }
+    }
+  }
+  return best
+}
+
+// the selected plane position: dimension lines tree -> façade foot and tree -> kerb, labelled in metres. Measured trees use the
+// width script's ray; the others (no kerb, no façade, median) show whichever of the two is found nearby
 function dimensions(i) {
-  const p = state.trees.positions, r = typeof i === 'number' ? p.sw_ray?.[i] : null
-  if (!r) return []
+  const p = state.trees.positions
+  if (typeof i !== 'number' || p.lon[i] == null) return []
+  const r = p.sw_ray?.[i]
   const t = [p.lon[i], p.lat[i]], kx = M_DEG * Math.cos((t[1] * Math.PI) / 180)
   const m = (q) => Math.hypot((q[0] - t[0]) * kx, (q[1] - t[1]) * M_DEG)
-  const dims = [[r[0], r[1], 'façade'], [r[2], r[3], 'kerb']].map(([lon, lat, what]) => ({ to: [lon, lat], text: `${m([lon, lat]).toFixed(1)} m to ${what}` }))
+  const ends = r ? [[[r[0], r[1]], 'façade'], [[r[2], r[3]], 'kerb']]
+    : ['facade', 'kerb'].map((k) => [nearestOn(t, k, kx)?.to, k === 'facade' ? 'façade' : 'kerb']).filter(([q]) => q)
+  if (!ends.length) return []
+  const dims = ends.map(([to, what]) => ({ to, text: `${m(to).toFixed(1)} m to ${what}` }))
   const col = themeColors.value.ringOn
   return [
     new PathLayer({ id: 'dim-lines', data: dims, getPath: (d) => [up(t, 0.3), up(d.to, 0.3)], getColor: col, getWidth: 1.5, widthUnits: 'pixels',
       parameters: ON_TOP }),
-    new ScatterplotLayer({ id: 'dim-ends', data: dims, getPosition: (d) => up(d.to, 0.3), getRadius: 3, radiusUnits: 'pixels', getFillColor: col,
-      parameters: ON_TOP }),
-    // one label above the tree: the kerb is often under a metre away, so labels at the two ends would collide
-    new TextLayer({ id: 'dim-labels', data: [dims.map((d) => d.text).join(' · ')], getPosition: () => up(t, 0.3), getText: (d) => d,
-      getSize: 12, getPixelOffset: [0, -24],
+    // a dot at each end of the dimension: the trunk and the façade / kerb point
+    new ScatterplotLayer({ id: 'dim-ends', data: [...dims.map((d) => d.to), t], getPosition: (q) => up(q, 0.3), getRadius: 3, radiusUnits: 'pixels',
+      getFillColor: col, parameters: ON_TOP }),
+    // one label above the tree, one line per distance: the kerb is often under a metre away, so labels at the two ends would collide
+    new TextLayer({ id: 'dim-labels', data: [dims.map((d) => d.text).join('\n')], getPosition: () => up(t, 0.3), getText: (d) => d,
+      getSize: 12, getPixelOffset: [0, -30], lineHeight: 1.3,
       characterSet: 'auto', background: true, getBackgroundColor: [255, 255, 255, 230], backgroundPadding: [4, 2], getColor: col,
       fontFamily: 'system-ui, sans-serif', parameters: ON_TOP }),
   ]
