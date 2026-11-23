@@ -25,6 +25,7 @@
 - [ ] Thu 3 · Nudge Parcs i Jardins if still silent
 - [ ] 30 Nov – 6 Dec · Thesis ch. 6 results (Porta, back-test, city)
 - [ ] 1–10 · Harvard references (min 20) + high-resolution figures
+- [ ] 3–6 · OMEN, after the heavy runs: sketches of the city's geometric rules and practice with ComfyUI (kerb distance, traffic lights, crossings, 7/9/13 m spacing, spot classes; Angelos's suggestion), ready for the 8 Dec draft and the 15 Dec deck
 - [ ] 5–6 · OMEN: final web-app data regen with the frozen results
 - [ ] **Sun 6 Dec · Results frozen**
 
