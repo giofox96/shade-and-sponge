@@ -1,10 +1,12 @@
 id,group,task,start,end,where,depends_on,status
 M1,Milestones,Midterm Pecha Kucha (5 min),2026-11-24,2026-11-24,Giovanni,,milestone
-M2,Milestones,Tutor session (bring the §7 questions),2026-12-01,2026-12-01,Giovanni,,milestone
+M2,Milestones,Angelos Tue 16:00: questions (§7) + Q8 tree schedule,2026-12-01,2026-12-01,Giovanni,,milestone
+M5,Milestones,Angelos Tue 16:00: draft thesis + deck outline,2026-12-08,2026-12-08,Giovanni,,milestone
 M3,Milestones,Results frozen (no new runs after this),2026-12-06,2026-12-06,Claude cloud,,milestone
 M4,Milestones,Final presentation + submission PDF and IDML,2026-12-15,2026-12-15,Giovanni,,milestone
 R1,Requests,Parcs i Jardins answers + plane list (nudge 3 Dec if silent),2026-11-24,2026-12-03,Giovanni,,todo
 R2,Requests,Helena Coch follow-up email,2026-11-25,2026-11-25,Giovanni,,todo
+R5,Requests,RM cluster blog post: draft out + feedback + who publishes,2026-11-23,2026-11-27,Giovanni,,in progress
 R3,Requests,AGBAR eWise plans recheck,2026-11-26,2026-11-26,Giovanni,,todo
 R4,Requests,Update City practice (S1b) if the Parcs list arrives,2026-11-27,2026-12-02,Claude cloud,R1,todo
 D1,Data + tool,Fix the 144 needle LiDAR trees and rerun calculations,2026-11-23,2026-11-25,Claude via OMEN,,todo
