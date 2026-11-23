@@ -26,7 +26,8 @@ Inputs: exchange/to_gh/layouts_tool_v0<tag>_<date>.csv (Porta; S1b_obs_0 is expo
 databases/barcelona/backtest_works_guide_capsmall_positions.csv (26 real replacement groups; heights = crown diameter x
 the species' median H/CD in lidar_species_trees.csv, ASSUMPTION).
 Run from the repo root: python scripts/cobenefits.py [layouts.csv]
-Outputs: databases/barcelona/cobenefits_species.csv, cobenefits_porta.csv, cobenefits_backtest.csv
+Outputs: databases/barcelona/cobenefits_species.csv, cobenefits_porta<tag>.csv (tag of the layouts file, e.g. _div9.4),
+cobenefits_backtest.csv
 """
 import sys, pathlib, numpy as np, pandas as pd
 
@@ -119,7 +120,8 @@ if __name__ == "__main__":
     spt.to_csv(DB / "cobenefits_species.csv", index=False)
     print(spt.allergen_match.value_counts().to_string(), "\nno score:", ", ".join(spt[spt.allergen_match == "none"].species))
     po = porta(f, spt)
-    po.round(2).to_csv(DB / "cobenefits_porta.csv")
+    tag = f.stem.split("_barcelona")[-1].rsplit("_", 1)[0].replace("_sizeexact_trunkTERCERA", "")
+    po.round(2).to_csv(DB / f"cobenefits_porta{tag}.csv")
     print(f"\nPorta ({f.name})\n", po.round(1).to_string())
     b = backtest(spt)
     b.round(2).to_csv(DB / "cobenefits_backtest.csv")
