@@ -65,6 +65,11 @@ def flow_overview():
     b += t(RX, ye + 77, "vs city practice", 14, MUTED, anchor="middle")
     for k in range(3):
         b += curve(MX + 57, 476 + 60 * k, RX - 40, ye, GRID)
+    # Keep and Move are not optimised but are evaluated: the radar scores the whole layout. Each arrow starts from its own
+    # box, runs above the frame and enters the radar from the top (no arrow into a group, as A. Chronis asked).
+    for y in (330, 410):
+        b += (f'<path d="M{X[4] + 100},{y} L{RX - 50},{y} Q{RX},{y} {RX},{y + 50} L{RX},{ye - 40}" fill="none" '
+              f'stroke="{GRID}" stroke-width="1.8" marker-end="url(#arr)"/>')
     # one exact solve (not an iterative loop): a dashed frame around what the optimiser decides and scores
     b += (f'<rect x="852" y="444" width="384" height="182" rx="12" fill="none" stroke="{MUTED}" '
           'stroke-width="1.6" stroke-dasharray="7 5"/>')
