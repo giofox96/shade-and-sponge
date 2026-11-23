@@ -42,7 +42,7 @@ def flow_overview():
     # City rules are an input like the data (plan 2017–2037, 2011 guide): sizes feed the screening, palette and cap the solve
     b += outline(X[1], 740, "City rules", WARN, 196, 60, "30 species · 15% · sizes")
     b += curve(X[1] + 100, 740, X[2] - 46, y0 - 25, GRID)
-    b += (f'<path d="M{X[1] + 100},{752} L{855},{752} Q{895},{752} {895},{712} L{895},{630}" fill="none" '
+    b += (f'<path d="M{X[1] + 100},{752} L{835},{752} Q{875},{752} {875},{712} L{875},{630}" fill="none" '
           f'stroke="{GRID}" stroke-width="1.8" marker-end="url(#arr)"/>')
     b += i_layers(X[2], y0 - 25) + caption(X[2], y0 + 40, "Indicators per tree")
     for y in ys:
@@ -83,7 +83,7 @@ def flow_overview():
     # one exact solve (not an iterative loop): a dashed frame around what the optimiser decides and scores
     b += (f'<rect x="852" y="444" width="384" height="182" rx="12" fill="none" stroke="{MUTED}" '
           'stroke-width="1.6" stroke-dasharray="7 5"/>')
-    b += t(1236, 646, "Optimisation · HiGHS (one exact solve)", 14, INK, "bold", "end")
+    b += t(1044, 648, "Optimisation · HiGHS (one exact solve)", 14, INK, "bold", "middle")   # centred on the frame
     b += i_check(X[6], ye) + caption(X[6], ye + 65, "Porta") + t(X[6], ye + 87, "→ Sant Antoni", 14, MUTED, anchor="middle")
     b += t(X[6], ye + 105, "Mataró · Florence", 14, MUTED, anchor="middle")
     b += curve(RX + 40, ye, X[6] - 40, ye, GRID)
