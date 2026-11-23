@@ -55,8 +55,8 @@ def flow_overview():
     for lab, c, y, sub in actions:
         b += box(X[4], y, lab, c, 196, 56, sub)
         b += curve(X[3] + 40, y0 - 25, X[4] - 100, y, GRID)
-    b += outline(X[4], 738, "City rules", WARN, 280, 64, "30 species · 15% cap · sidewalk size")
-    b += vline(X[4], 706, 668, WARN)
+    b += outline(1044, 738, "City rules", WARN, 280, 64, "30 species · 15% cap · sidewalk size")   # centred on the dashed frame
+    b += vline(1044, 706, 668, WARN)
     for k, (lab, c) in enumerate((("Heat", HEAT), ("Runoff", RAIN), ("Canopy", TREE))):
         y = 476 + 60 * k
         b += box(MX, y, lab, c, 110, 44)
