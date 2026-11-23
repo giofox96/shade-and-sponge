@@ -56,12 +56,19 @@ Next. A first test in **Mataró** shows the same pattern: **eighty-three** again
 
 ---
 
-## Backup slides (only if asked)
+## Backup slides (only if asked; not timed, about 30–40 s each)
 
-- **16. Full method:** "This is the whole method on one page: data in, screening, the designer's choice, the optimiser, and the comparison."
-- **17. Screening matrix:** "One row per position, one column per indicator. It is computed once, and the optimiser only reads it."
-- **18. How HiGHS picks:** "On five positions: each species gets a score per position, and the solver picks the best mix that respects the cap and the sidewalk size."
-- **19. Underground utilities (private copy only):** "Pipes and cables under the sidewalk can block a tree pit. I have the utility plans through the official request channel and will use them only to flag spots as blocked or conditional; the plans are confidential, so I don't show them."
+### 16. Methodology (full method on one page)
+This is the whole method on one page, from left to right. I start from two hazards: **heat stress** and **pluvial floods**. The data are all open: the tree inventory, the **2021 LiDAR** for crowns and buildings, the terrain, the flood hotspots, the sidewalks and their objects, a hot day and the design storms. From these I compute **indicators for every tree**, once, for the whole city. Then, in the project area, the **designer decides an action** for each tree: keep, move, replace or add. For every replace and add, **HiGHS** picks the species, scored on heat, runoff and canopy, inside the **city's rules**: thirty species, the fifteen percent cap and the sidewalk size. I evaluate against **today** and against the **city's practice**. I validate in **Porta**, then Sant Antoni, Mataró and Florence.
+
+### 17. City screening (the indicator matrix)
+This is what the screening produces: **one row for every position**, and three groups of columns. **Group A** is the existing tree: species, trunk class, crown, leaf density and a priority. It ranks which trees are candidates to replace. **Group B** is the place: sidewalk width, the tree size it allows, and whether the rain there flows to a **flood hotspot**. It decides which species fit. **Group C** is a **score for each of the thirty species** in that row: summer shade, plus winter sun, plus water held, weighted. That is the matrix the optimiser solves: one species per row, within the fifteen percent cap. The values here are **illustrative**.
+
+### 18. HiGHS: the solver that picks every species
+How does the optimiser choose? A small example: **five positions, three species**. On the left, the score of each species at each position. Then the **rules**: one species per position, only species that fit the sidewalk, and no species above its **cap**, here at most two of five. Every layout that obeys the rules is a point in this shape, and the best one is a corner. **HiGHS finds the highest corner and proves no other is higher.** The answer scores **3.3**. Simply taking the best species everywhere would give A, A, A: that **breaks the cap**. A genetic algorithm obeys the rules but never knows if it found the best. In Porta, eight hundred thirty-two positions times thirty species take about **0.2 seconds**.
+
+### 19. Underground utilities (private copy only; do not show unless asked)
+Below the sidewalk there are pipes and cables, and they can make a **tree pit impossible** where the surface looks free. I requested the utility plans for Porta **through the official channel**, and I have almost all networks; the water network is still pending. The plans are **confidential**, so I will not show them or publish them. I will use them only to turn spots into **blocked or conditional**, the same classes you saw on slide ten. So far the spot classes do **not** include utilities yet: that is the next check.
 
 ## Numbers to have ready for questions
 
