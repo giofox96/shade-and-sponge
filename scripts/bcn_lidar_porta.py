@@ -19,6 +19,7 @@ import sys, matplotlib.pyplot as plt
 from rasterio.transform import from_origin
 from rasterio.features import rasterize
 from scipy import ndimage
+from scipy.spatial import cKDTree
 from skimage.segmentation import watershed
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
@@ -104,10 +105,21 @@ has = lab > 0
 far[has] = np.hypot(rr.ravel()[has] - tr[lab[has] - 1], cc.ravel()[has] - tc[lab[has] - 1]) * RES > 9.0
 crowns.ravel()[far] = 0
 crowns[~canopy] = 0
+# NOTE: contested cells must be reassigned to the nearest seed (crowns = np.where(crowns > 0, near_seed_label, 0)),
+# not zeroed; zeroing does not fix error A.
+# ASSUMPTION (user, 23 Nov, "split the crown at halfway"): a crown may not extend past halfway to the next seed,
+# i.e. a crown cell is kept only if its own seed is the nearest seed (Voronoi split between neighbours)
+lab = crowns.ravel()
+has = np.flatnonzero(lab > 0)
+_, near = cKDTree(np.c_[tr, tc]).query(np.c_[rr.ravel()[has], cc.ravel()[has]])
+crowns.ravel()[has[near + 1 != lab[has]]] = 0
 
 ids = np.arange(1, len(t) + 1)
 area = ndimage.sum(np.ones_like(chm), crowns, ids) * RES ** 2
-hmax = ndimage.maximum(chm, crowns, ids)
+# ASSUMPTION (user, 23 Nov): height = max of the canopy model within 1.5 m of the tree's own point, so a tall
+# neighbour's crown inside this tree's segment no longer sets its height
+disk = np.hypot(*np.mgrid[-3:4, -3:4]) * RES <= 1.5
+hmax = ndimage.maximum_filter(chm, footprint=disk)[tr, tc]
 hmax = np.where(area > 0, hmax, np.nan)
 # per-crown point statistics: crown base (10th pct of vegetation heights > 1.5 m) and gap fraction
 pid = crowns.ravel()[idx]
