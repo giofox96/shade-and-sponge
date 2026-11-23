@@ -254,7 +254,7 @@ def b8_rio(s):
     """Backup: one real replacement inside Porta, start to end (A. Chronis, 17 Nov: a small case-study area). Map from
     make_backtest_deck.py (map_home.png = group 6128); numbers from databases/barcelona/backtest_works_guide_capsmall.csv,
     per tree = (layout - no street trees) / 22; litres = runoff avoided in the 2-year, 60-min design storm."""
-    head(s, "Case study: Av. Rio de Janeiro, Porta", "22 poplar positions emptied 2022–24, replanted together in late 2025: what was there, what the city planted, the method")
+    head(s, "Case study: Av. Rio de Janeiro, Porta", "22 poplars removed 2022–24, replanted in 2025: before, city, method")
     picture(s, ROOT / "slides/fig_backtest/map_home.png", M, 1.4, W - 2 * M, crop_top=0)
     text(s, M, 6.2, W - 2 * M, 0.5, [[("Per tree, removed · city · method:  ", {"bold": True}),
                                       ("rain held in a 2-year storm 123 · 54 · 219 litres;  winter shade 92 · 29 · 85 m²·h;  "
