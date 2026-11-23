@@ -38,7 +38,7 @@ def screening():
         if k:
             b += t(cx, yb + 20, f"x{chr(0x2080 + k)}", 12, MUTED, anchor="middle")
     b += t(1250, yb + 2, "weighted: summer shade + winter sun − water held", 14, MUTED, anchor="middle")
-    b += t(1250, yb + 20, "x₁₀ … x₁₀₊₃₀", 12, MUTED, anchor="middle")
+    b += t(1250, yb + 20, "x₉ … x₃₈ · one column per species", 12, MUTED, anchor="middle")
     # rows
     for r, row in enumerate(ROWS):
         y = y0 + r * rh
