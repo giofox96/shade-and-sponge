@@ -1,0 +1,13 @@
+# Source: Ayuntamiento de Barcelona - Información de base y cartografía (IBC) (ACEFAT eWise request 872551, plans valid to ~18 Feb 2027). Derived distances only; rule: PTEV 2024 p.31, pit footprint radius 0.5 m (ASSUMPTION). scripts/utilities_conditional.py
+spot_id,d_gas_main_m,d_gas_service_m,d_telecom_m,utility_conditional
+ADD0054,1.1,17.1,27.8,0
+ADD0056,3.3,8.6,14.3,0
+ADD0073,11.8,35.0,22.2,0
+ADD0074,11.8,28.8,22.6,0
+ADD0075,10.9,23.7,25.1,0
+ADD0132,0.9,9.2,11.4,0
+ADD0133,0.9,2.2,8.5,0
+ADD0149,3.5,8.6,8.5,0
+ADD0150,15.5,9.5,10.9,0
+ADD0152,14.1,9.5,29.2,0
+ADD0155,4.0,10.5,8.5,0
