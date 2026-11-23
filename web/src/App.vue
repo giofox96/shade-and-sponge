@@ -6,6 +6,7 @@ import { state, load, switchSite, scenario, label, layoutEff, runLive, runArea, 
 import MapView from './components/MapView.vue'
 import PriorityTriangle from './components/PriorityTriangle.vue'
 import TradeoffChart from './components/TradeoffChart.vue'
+import CobenefitsPanel from './components/CobenefitsPanel.vue'
 import KpiPanel from './components/KpiPanel.vue'
 import TreeInspector from './components/TreeInspector.vue'
 import ComparePanel from './components/ComparePanel.vue'
@@ -239,6 +240,7 @@ watch(
         <p class="small muted scen">{{ label(scenario) }}</p>
         <KpiPanel />
       </section>
+      <section><h3>Co-benefits</h3><CobenefitsPanel /></section>
       <section><h3>Selected tree</h3><TreeInspector /></section>
     </aside>
   </div>
