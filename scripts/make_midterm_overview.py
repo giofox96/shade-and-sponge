@@ -6,7 +6,7 @@ Output: slides/midterm/fig/method_overview.svg/.png. Run from scripts/: python m
 """
 import make_infographics as mi
 from make_infographics import t, rect, save, ROOT, INK, MUTED, GRID, HEAT, RAIN, TREE, WARN
-from make_flowcharts import head, box, outline, curve, vline, caption, loop, i_heat, i_rain, i_layers, i_area, i_check, i_radar
+from make_flowcharts import head, box, outline, curve, vline, caption, i_heat, i_rain, i_layers, i_area, i_check, i_radar
 
 mi.OUT = ROOT / "slides/midterm/fig"
 mi.OUT.mkdir(parents=True, exist_ok=True)
@@ -46,22 +46,25 @@ def flow_overview():
     b += i_area(X[3], y0 - 25) + caption(X[3], y0 + 40, "The designer decides") + t(X[3], y0 + 62, "an action per tree", 14, MUTED, anchor="middle")
     b += curve(X[2] + 46, y0 - 25, X[3] - 40, y0 - 25)
     # Design: the four actions per tree (Angelos: four options). Keep and Move stay; Replace and Add go to the optimiser.
-    actions = [("Keep", TREE, 300, "tree stays"), ("Move", WARN, 410, "frees a spot"),
-               ("Replace", HEAT, 520, "optimiser picks"), ("Add", RAIN, 630, "optimiser picks")]
+    actions = [("Keep", TREE, 330, "tree stays"), ("Move", WARN, 410, "frees a spot"),
+               ("Replace", HEAT, 490, "optimiser picks"), ("Add", RAIN, 570, "optimiser picks")]
     for lab, c, y, sub in actions:
         b += box(X[4], y, lab, c, 196, 56, sub)
         b += curve(X[3] + 40, y0 - 25, X[4] - 100, y, GRID)
     b += outline(X[4], 738, "City rules", WARN, 280, 64, "30 species · 15% cap · sidewalk size")
-    b += vline(X[4], 706, 658, WARN)
+    b += vline(X[4], 706, 668, WARN)
     for k, (lab, c) in enumerate((("Heat", HEAT), ("Runoff", RAIN), ("Canopy", TREE))):
-        y = 380 + 100 * k
+        y = 476 + 60 * k
         b += box(X[5] - 70, y, lab, c, 110, 44)
-        b += curve(X[4] + 100, 520, X[5] - 127, y, GRID) + curve(X[4] + 100, 630, X[5] - 127, y, GRID)
+        b += curve(X[4] + 100, 490, X[5] - 127, y, GRID) + curve(X[4] + 100, 570, X[5] - 127, y, GRID)
     b += i_radar(X[5] + 70, y0 - 25) + t(X[5] + 70, y0 + 34, "vs today", 14, MUTED, anchor="middle")
     b += t(X[5] + 70, y0 + 52, "vs city practice", 14, MUTED, anchor="middle")
     for k in range(3):
-        b += curve(X[5] - 15, 380 + 100 * k, X[5] + 30, y0 - 25, GRID)
-    b += loop(X[4], X[5] - 70, 335, "Optimisation · HiGHS")
+        b += curve(X[5] - 15, 476 + 60 * k, X[5] + 30, y0 - 25, GRID)
+    # one exact solve (not an iterative loop): a dashed frame around what the optimiser decides and scores
+    b += (f'<rect x="890" y="444" width="344" height="182" rx="12" fill="none" stroke="{MUTED}" '
+          'stroke-width="1.6" stroke-dasharray="7 5"/>')
+    b += t(1234, 646, "Optimisation · HiGHS (one exact solve)", 14, INK, "bold", "end")
     b += i_check(X[6], y0 - 25) + caption(X[6], y0 + 40, "Porta") + t(X[6], y0 + 62, "→ Sant Antoni", 14, MUTED, anchor="middle")
     b += t(X[6], y0 + 80, "Mataró · Florence", 14, MUTED, anchor="middle")
     b += curve(X[5] + 110, y0 - 25, X[6] - 40, y0 - 25)
