@@ -1,58 +1,58 @@
 # Shade and Sponge: midterm speech (Tue 24 Nov 2026, Pecha Kucha, 5 min)
 
-Spoken version of `script.md`, for the public deck `shade_and_sponge_midterm_pechakucha.pptx` (20 slides after PR #166: co-benefits on slide 14, Mataró on slide 15 and on backups 19–20). 15 slides × 20 s; slides 16–20 and the private slide 21 are backups for questions only.
+Spoken version of `script.md`, for the public deck `shade_and_sponge_midterm_pechakucha.pptx` (20 slides after PR #166: why Porta on slide 3, co-benefits on slide 14, Mataró on slide 15 and on backups 19–20). 15 slides × 20 s; slides 16–20 and the private slide 21 are backups for questions only.
 
 How to read it (v2, 23 Nov evening: rewritten as connected speech, with subordinate clauses, as Giovanni asked):
 - Each slide is one or two flowing sentences; breathe at the commas, pause at the full stops.
-- About 45 words per slide. If you fall behind, skip the words in [square brackets].
+- About 45 words per slide; the slides show the details, so the text says only what they need.
 - **Bold** = the word to stress.
 
 ---
 
 ### 1. Title
-Imagine that you are **redesigning a street** in Barcelona, whose layout is already decided. What is left to you are the **trees**: which to keep, move or replace, and where to add new ones, so that the street is **cooler** in summer and **no worse** when it rains.
+Imagine redesigning a street in Barcelona whose layout is already decided: what is left to you are the **trees**, which to keep, move or replace, and where to add new ones, so that the street is **cooler** in summer and **no worse** when it rains.
 
 ### 2. Context
 Barcelona, which is my case, has replaced almost **eleven thousand** street trees since 2018. It caps every species at **fifteen percent**, but it never says **which species goes where**, even though, with the **same trunk**, one crown can be **four times** larger than another.
 
 ### 3. Porta in numbers
-My site is **Porta**, a neighbourhood of eighty-four hectares, where crowns cover **twenty** percent while the city aims for **thirty**. Since planting every free spot would add only a **third** of a hectare out of the **eight** that are missing, what really matters is the **species** in each spot.
+I chose **Porta** because it is the first neighbourhood in Barcelona where **heat**, **flood hazard** and **plane trees** are all high. Its crowns cover **twenty** percent while the city aims for **thirty**, and since planting every free spot would add only a **third** of a hectare, what matters is the **species** in each spot.
 
 ### 4. State of the art and gap
-The pieces already exist, but **apart**: some models measure heat and runoff without choosing species, while other tools choose species for a single benefit[, or without a position]. Of the **eighteen** tools I reviewed, **none** chooses the species tree by tree, for heat and runoff, inside a city's **own rules**.
+The pieces already exist, but **apart**: some models measure heat and runoff without choosing species, while other tools choose species for a single benefit. Of the **eighteen** tools I reviewed, **none** chooses the species tree by tree, for heat and runoff, inside a city's **own rules**.
 
 ### 5. Refined question
-In October I started from **floods**, but the feedback showed that runoff depends more on the **tree pit** than on the species. So I now ask how much more **summer cooling** a method can give than the **city's own practice**, without losing rain interception, which becomes a **do-no-harm** check.
+In October I started from **floods**, but runoff depends more on the **tree pit** than on the species, so I now ask how much more **summer cooling** a method can give than the **city's own practice**, while runoff becomes a **do-no-harm** check.
 
 ### 6. What is fixed, what is free
-The project fixes the **street**, while the city fixes the fifteen percent cap and the sidewalk width, which sets the tree size[, together with traffic lights and driveways]. What stays **free** are four actions per tree, **keep, move, replace or add**, and the tool **advises**, while the designer **decides**.
+The project fixes the **street**, while the city fixes the fifteen percent cap and the sidewalk width, which sets the tree size. What stays **free** are four actions per tree, **keep, move, replace or add**, and the tool **advises**, while the designer **decides**.
 
 ### 7. Method
 The method has four steps: it **screens** every tree and free spot; the designer chooses an action for each tree, giving a reason; an **exact optimiser** picks the species for each new position; and I compare the result with **today** and with the **city's practice**.
 
 ### 8. Screening
-For every position, the screening asks three questions: **what** stands there, meaning its species, crown and leaf density; **where** it stands, meaning the sidewalk, the objects nearby[ and whether rain flows to a flood spot]; and what each of **thirty species** would do there, in shade and in rain held.
+For every position, the screening asks **what** stands there, **where** it stands, with its sidewalk and nearby objects, and what each of **thirty species** would do there, in shade and in rain held.
 
 ### 9. City rules
-The rules come from the city's **street-tree guide**, which allows no tree on sidewalks under **two and a half metres** and, above that, lets the width decide between **small, medium or large** trees[, planted every seven, nine or thirteen metres]. Together with the cap, these are rules the optimiser **never breaks**.
+The rules come from the city's **street-tree guide**, which allows no tree on sidewalks under **two and a half metres** and, above that, lets the width decide between **small, medium or large** trees. Together with the cap, these are rules the optimiser **never breaks**.
 
 ### 10. Where new trees go
-Of the **two hundred sixty-seven** possible spots in Porta, **one hundred fifty-three** are free, while **one hundred three** are conditional, because a sign, a crossing, a lamp or a bollard is in the way, which a project can usually move[ after a field check]. Only **eleven** are truly blocked.
+Of the **two hundred sixty-seven** possible spots in Porta, **one hundred fifty-three** are free, while **one hundred three** are conditional, because a sign, a crossing, a lamp or a bollard is in the way, which a project can usually move. Only **eleven** are truly blocked.
 
 ### 11. A crown is a bucket
-To talk about rain, it helps to think in **litres**, since one millimetre on one square metre is **one litre**. In a two-year storm, about **a thousand litres** fall on a typical crown here, of which the leaves hold about **one hundred twenty-five**, wherever the tree is planted.
+One millimetre of rain on one square metre is **one litre**, so in a two-year storm about **a thousand litres** fall on a typical crown here, of which the leaves hold about **one hundred twenty-five**, wherever the tree stands.
 
 ### 12. The tree on the hill
 What position changes is **where that water was going**, since a tree **uphill** of a flood spot keeps its litres away from it. Placed by the method, trees keep **five times** more of it than at random, but still **under one percent**, so runoff stays a **check**.
 
 ### 13. City practice, not a rule
-My baseline is what the city **really planted** when it replaced trees, which is a **practice**, not a rule, and which does not always follow the rules either, since **one new tree in five** is too big for its sidewalk. This also lets the method show what each rule **costs**.
+My baseline is what the city **really planted**, which is a **practice**, not a rule, and which does not always follow the rules either, since **one new tree in five** is too big for its sidewalk; this also shows what each rule **costs**.
 
 ### 14. First evidence: back-test and co-benefits
 In a first test on **twenty-six** groups the city replaced, the method gives **one hundred thirty-nine** square-metre hours of shade per tree against **fifty-nine**, winning **twenty-two**. In Porta it also stores more **carbon** than city practice and brings **less pollen** than today, while more **diversity** costs only **0.3 points** of shade.
 
 ### 15. Next
-Next comes felt temperature, with **Ladybug** and **Infrared City**, and then other cities: in **Mataró**, a first run already gives **eighty-three** against **sixty-three** percent of summer shade, winning **six of six** streets, while **Florence** comes next[, together with a tool where the designer sets each tree's action]. The **right tree**, in the **right place**, within the city's rules. **Thank you.**
+Next comes felt temperature, with **Ladybug** and **Infrared City**, and then other cities: in **Mataró**, a first run already gives **eighty-three** against **sixty-three** percent of summer shade, winning **six of six** streets, while **Florence** comes next. The **right tree**, in the **right place**, within the city's rules. **Thank you.**
 
 ---
 
@@ -81,6 +81,7 @@ Below the sidewalk there are pipes and cables which can make a **tree pit imposs
 | If asked about… | Say |
 |---|---|
 | Results across the city | With the 30 species, the method keeps a median **91.2%** of a plane's summer shade; **+6.7 points** over the city's announced mix and **+14.7** over what the city really plants; it wins **32 of 32** neighbourhoods. |
+| Why Porta | First Barcelona neighbourhood where heat, flood hazard and planes are all high: summer surface **1.4 °C** above the city mean, flood hazard in the **top 20%**, **832** planes (**29%** of street trees). |
 | Back-test | **22 of 26** groups; median **59 → 139** m²·h of summer shade per new tree; no more water to flood spots in **26 of 26**. |
 | Mataró | Six streets, every plane replaced: **83%** for the method vs **63%** for Barcelona's practice, **6 of 6** streets. Crowns are still approximate (Barcelona medians); real LiDAR crowns are the next step. |
 | Spots | **153** free · **103** conditional · **11** blocked, of **267**. |
@@ -89,4 +90,4 @@ Below the sidewalk there are pipes and cables which can make a **tree pit imposs
 | Why "practice" and not "rule" | The baseline is what the city really planted (2018–2026), not its written rule; one in five of those trees is too big for its sidewalk. |
 | Why runoff is only a check | Differences are under one percent of the water reaching flood spots, below what the model can resolve. |
 
-Total spoken text (slides 1–15, brackets included): about 710 words without the brackets, about 47 per slide: at 140 words a minute that is just over 5 minutes, so skip the brackets if a slide runs short.
+Total spoken text (slides 1–15): about 680 words, about 45 per slide: at 140 words a minute that is about 4 minutes 50 seconds.
