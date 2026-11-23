@@ -14,6 +14,7 @@ Large open datasets (CC BY or CC0, e.g. the Barcelona street-tree inventory, ICG
 | **TRY Plant Trait Database**, request 53077, and the other third-party trait files in that folder | Species trait table | TRY data-use terms (released to the requester; no redistribution). Check each other file's own terms | Request at https://www.try-db.org | `databases/TRY_DATABASE/` |
 | **Anys & Weiler (2024)** throughfall dataset | Interception calibration (s = 1.75 mm/LAI) | CC BY-NC 4.0 | FreiDok plus, record 242951 | `databases/traits/raw/anys_weiler_2024/` |
 | **Florence "Life Escapos – Alberature pubbliche"** (Comune di Firenze, c_d612:D.7840) | LAI ground-truth check (`scripts/escapos_lai_check.py`) | CC BY-NC 4.0 | https://datigis.comune.fi.it/shp/escapos_tree_census.zip (downloaded by the script) | `databases/florence/raw/` |
+| **Comune di Firenze LiDAR 2023** (Firenze Nova, 21 LAS tiles, May/June 2023, EPSG:7791, unclassified). Cite verbatim: "Dati LiDAR 2023 forniti da [Comune di Firenze], derivati dal rilievo aereo effettuato sul territorio comunale nel periodo maggio/giugno 2023." | Florence transfer check (`scripts/florence_lidar_trees.py`) | Signed agreement: research only, no redistribution, delete after the thesis; the cloud and any per-point or per-cell product stay local, only per-tree values are committed | Request to the Comune (`notes/data_requests.md`) | `databases/florence/raw/lidar_2023/` |
 | **EPW weather files** (TMYx, Barcelona El Prat and others) | Ladybug / UTCI runs | Licence not confirmed | climate.onebuilding.org, Spain / Catalonia; exact names in the `scripts/bcn_epw_summary.py` docstring | `databases/*/weather/` |
 | **City policy documents** (tree master plan, Pla Clima, etc.) and their extracted text | Policy chain, species rules | Copyright of the issuing body | Links in `notes/tree_master_plan.md` §8 | `databases/policy/` |
 | **Papers** (PDFs and text derived from them) | Literature review | Publisher copyright | Zotero library; references in `notes/lit/literature_matrix.csv` | `papers/`, `notes/lit/text/`, `notes/lit/digest/` |
@@ -23,4 +24,3 @@ Large open datasets (CC BY or CC0, e.g. the Barcelona street-tree inventory, ICG
 | Dataset | Condition | Status |
 |---|---|---|
 | BCASA rain-gauge series and sewer-model results | Academic use only, no sharing with third parties | `notes/data_requests.md` |
-| Comune di Firenze LiDAR point cloud (Firenze Nova) | Research only, no redistribution, delete after the thesis | `notes/data_requests.md` |

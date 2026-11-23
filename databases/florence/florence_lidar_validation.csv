@@ -1,0 +1,33 @@
+variable,species,n,bias,mae,rmse,pearson,spearman
+height,ALL,1420,1.083,1.207,1.549,0.97,0.973
+height,Acer campestre,24,1.339,1.339,1.575,0.97,0.931
+height,Carpinus betulus,26,1.533,1.533,1.652,0.966,0.815
+height,Cedrus libani,35,0.997,1.671,2.449,0.743,0.743
+height,Celtis australis,258,0.755,0.922,1.086,0.981,0.979
+height,Cupressus sempervirens,74,1.594,1.628,1.911,0.964,0.954
+height,Fraxinus excelsior,80,1.144,1.245,1.367,0.96,0.932
+height,Liriodendron tulipifera,40,1.252,1.252,1.825,0.877,0.942
+height,Olea europaea,33,1.47,1.736,2.348,0.787,0.711
+height,Pinus pinea,78,0.851,0.938,1.472,0.84,0.876
+height,Platanus acerifolia,119,1.801,1.836,2.082,0.969,0.935
+height,Pyrus calleryana,45,1.28,1.307,2.072,0.827,0.915
+height,Quercus ilex,55,0.697,0.872,0.987,0.967,0.978
+height,Quercus robur,21,1.209,1.209,1.321,0.976,0.968
+height,Tilia europaea,298,0.829,0.959,1.302,0.969,0.964
+height,Ulmus minor,30,1.468,1.468,1.547,0.993,0.917
+crown_width,ALL,1420,0.218,1.41,2.152,0.809,0.8
+crown_width,Acer campestre,24,0.84,1.486,2.071,0.394,0.384
+crown_width,Carpinus betulus,26,0.985,1.078,1.396,0.886,0.589
+crown_width,Cedrus libani,35,-0.296,2.857,3.739,0.38,0.488
+crown_width,Celtis australis,258,-0.236,1.951,2.89,0.68,0.65
+crown_width,Cupressus sempervirens,74,0.155,1.046,1.476,0.81,0.76
+crown_width,Fraxinus excelsior,80,0.558,0.944,1.545,0.788,0.87
+crown_width,Liriodendron tulipifera,40,-0.172,0.525,0.858,0.864,0.87
+crown_width,Olea europaea,33,0.252,1.857,2.557,0.35,0.497
+crown_width,Pinus pinea,78,0.66,2.079,2.741,0.524,0.612
+crown_width,Platanus acerifolia,119,0.321,1.117,1.661,0.888,0.886
+crown_width,Pyrus calleryana,45,0.072,0.789,1.336,0.415,0.628
+crown_width,Quercus ilex,55,0.151,1.685,2.348,0.643,0.523
+crown_width,Quercus robur,21,0.242,0.76,0.918,0.953,0.872
+crown_width,Tilia europaea,298,0.387,1.214,1.81,0.811,0.816
+crown_width,Ulmus minor,30,0.266,0.62,0.983,0.975,0.849
