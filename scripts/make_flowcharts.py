@@ -32,9 +32,10 @@ def outline(cx, cy, label, color, w=200, h=64, sub=None):
 
 
 def curve(x1, y1, x2, y2, color=MUTED, dash=""):
-    mx = (x1 + x2) / 2
+    xe = x2 - 16 if x2 - x1 > 40 else x2      # straight horizontal run under the arrowhead: the line meets its back side at the midpoint
+    mx = (x1 + xe) / 2
     d = f' stroke-dasharray="{dash}"' if dash else ""
-    return (f'<path d="M{x1:.0f},{y1:.0f} C{mx:.0f},{y1:.0f} {mx:.0f},{y2:.0f} {x2:.0f},{y2:.0f}" fill="none" '
+    return (f'<path d="M{x1:.0f},{y1:.0f} C{mx:.0f},{y1:.0f} {mx:.0f},{y2:.0f} {xe:.0f},{y2:.0f} L{x2:.0f},{y2:.0f}" fill="none" '
             f'stroke="{color}" stroke-width="1.8"{d} marker-end="url(#arr)"/>')
 
 

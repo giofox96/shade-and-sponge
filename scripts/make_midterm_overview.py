@@ -44,7 +44,7 @@ def flow_overview():
     b += t(X[2], my + rows * cell + 35, "tree · place · score", 12, MUTED, anchor="middle")
     # Project area: the designer sets an action per tree
     b += i_area(X[3], y0 - 25) + caption(X[3], y0 + 40, "The designer decides") + t(X[3], y0 + 62, "an action per tree", 14, MUTED, anchor="middle")
-    b += curve(X[2] + 46, y0 - 25, X[3] - 40, y0 - 25)
+    b += curve(X[2] + 46, y0 - 25, X[3] - 40, y0 - 25, GRID)
     # Design: the four actions per tree (Angelos: four options). Keep and Move stay; Replace and Add go to the optimiser.
     actions = [("Keep", TREE, 330, "tree stays"), ("Move", WARN, 410, "frees a spot"),
                ("Replace", HEAT, 490, "optimiser picks"), ("Add", RAIN, 570, "optimiser picks")]
