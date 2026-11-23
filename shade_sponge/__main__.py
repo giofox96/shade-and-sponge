@@ -125,7 +125,7 @@ out.to_csv(EX / f"to_gh/positions_tool_v0{tag}_{day}.csv", index=False)
 cur = pos.reindex(columns=["tree_id", "x", "y", "sp", "crown_diam_m", "height_m", "crown_base_m", "lai"])
 cur = cur.assign(species=cur.sp.fillna("none")).loc[:, ["tree_id", "x", "y", "species", "crown_diam_m", "height_m", "crown_base_m", "lai"]]
 lay = [cur.assign(scenario="S0_current")]
-for sc in ["S1_random_0", "S1a_city_0"] + [k for k in layouts if k.startswith("S4")]:
+for sc in ["S1_random_0", "S1a_city_0", "S1b_obs_0"] + [k for k in layouts if k.startswith("S4")]:
     lay.append(layout.apply(site, pos, pal, layouts[sc]).tail(len(pos)).assign(scenario=sc))
 lay = pd.concat(lay)
 lay["ground_z"] = site.dtm[rc(site, lay.x.values, lay.y.values)].round(2)

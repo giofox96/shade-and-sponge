@@ -54,3 +54,37 @@ Status column: ✅ verified on the source on 3 Nov; 🟡 to verify before citing
 1. `scripts/cobenefits.py` → `databases/barcelona/cobenefits_species.csv` (one row per palette species: ap, pe, ppp, allometry source, emitter class, source column) and `cobenefits_layouts.csv` (per layout and barri).
 2. One figure for the results chapter (indicators side by side, change vs S0).
 3. A methodology section (§ co-benefits) and a limits paragraph.
+
+## First results (23 Nov 2026): reported indicators, not objectives
+
+Script `scripts/cobenefits.py` → `databases/barcelona/cobenefits_species.csv`, `cobenefits_porta.csv`, `cobenefits_backtest.csv`. Inputs: the Porta layouts of 4 Nov (`exchange/to_gh/layouts_tool_v0_barcelona_sizeexact_trunkTERCERA_20261104.csv`, 30-species palette, equal trunk class TERCERA) and the back-test positions (`backtest_works_guide_capsmall_positions.csv`, 26 groups, 366 positions). Fiona (RT) asked for impacts on health and well-being: pollen is the health indicator, carbon and diversity are the others.
+
+**Changes to the plan above.**
+- **Carbon uses Jucker et al. 2017, not McPherson et al. 2016.** The tool has LiDAR height H and crown diameter CD per tree, not DBH. Jucker et al. (Global Change Biology, "Allometric equations for integrating remote sensing imagery into forest monitoring programmes", Eq. 7, read in the authors' accepted manuscript, core.ac.uk/download/42340648.pdf) predicts above-ground biomass from H × CD: AGB = 0.016 (H·CD)^2.013 for angiosperms, 0.109 (H·CD)^1.790 for gymnosperms. Carbon = 0.5 × AGB (SylvCiT's fraction). The bias factor exp(σ²/2) is left out (its value is garbled in the manuscript text; it barely moves ratios). The equation was fitted on forest trees, so absolute tonnes are indicative (a 15 m plane with an 8.7 m crown gives ~0.3 t AGB, likely low for an open-grown tree); **the ratio between scenarios is the result.** Published record: Global Change Biology 23(1):177–190, doi:10.1111/gcb.13388 ✅.
+- **Pollen scores: only Cariñanos et al. 2014 has numbers.** The 2019 follow-up (Cariñanos et al., IJERPH 16:1357, doi:10.3390/ijerph16081357 ✅) shows categorical levels for its 20 most frequent park species (Table 3), none of them the missing palette species; its 355-taxon parameter database was not visible in the text we read. **15 species have no score**, including the method's main picks (Firmiana, Tipuana, Jacaranda, Styphnolobium, Koelreuteria, Brachychiton, Grevillea). So pollen is reported as a **range**: unscored species at 0 (lower bound) and at 4 × 3 × 3 = 36 (upper bound; the top of each Table 1 scale, our cautious choice; the paper's own normalisation uses 27, its observed maximum). Genus fallback only where the genus has one value in the table (e.g. Pyrus, Prunus, Acer, Tilia, Pinus pinea). Ginkgo counted as male (worst case). Spellings of the paper normalised (e.g. "Melia azederach" → azedarach).
+
+**Porta, 832 plane positions** (share of today = 100; S1a = the city's 2026 mix, seed 0; method = the optimised layouts; S1b is not in the 4 Nov export, fixed in `shade_sponge/__main__.py` for the next run):
+
+| | Today (planes) | City mix S1a | Method (summer-only weights) | Method (range over the 15 optimised layouts) |
+|---|---|---|---|---|
+| Carbon, t C (share) | 134 (100) | 57 (42) | 77 (58) | 14–77 (10–58) |
+| Pollen load, lower–upper bound | 100 | 6–54 | 7–70 | 4–89 |
+| Effective species at the positions | 1 | 9.4 | 5.7 | 5.5–8.4 |
+| Largest species share, % | 100 | 22 | 40 (Gleditsia) | 31–44 |
+
+**Back-test, 26 real replacement groups, 366 positions** (removed trees = 100):
+
+| | Removed trees | City planted | Method balanced | Method summer-only |
+|---|---|---|---|---|
+| Carbon | 100 | 89 | 154 | 148 |
+| Pollen load, lower–upper bound | 100 | 31–55 | 38–152 | 18–240 |
+| Effective species | 18.8 | 11.5 | 6.3 | 6.2 |
+| Largest species share, % | 11 | 23 | 31 | 43 |
+
+**What this says (to check with Giovanni before it goes in a slide).**
+1. **Carbon: the planes win, as expected, but the method loses less than the city.** In Porta every replacement stores less than today's planes at equal trunk size; the summer-weighted layouts keep ~58% against the city mix's 42%. In the back-test the method's larger crowns store ~1.5× the removed trees, the city's ~0.9×. The layouts with no summer weight and some winter weight (small crowns) store far less (10–23%): carbon follows crown size, like summer shade.
+2. **Pollen: replacing planes cuts the allergenic load in every case, even at the upper bound in Porta** (≤ 89% of today). Method vs city is **not resolved**: the method's main species have no published score. In the back-test the method's upper bound exceeds the removed trees, so there the comparison is open.
+3. **Diversity: the method loses locally.** It concentrates on a few large-crowned species (5.5–8.4 effective species against 9.4 for the city mix in Porta; 6.3 against 11.5 in the back-test). The 15% cap is city-wide and the local ceiling stops a barri from being *more* concentrated than today, not from being less diverse than the city's practice. The tool already has a diversity floor (`--diversity=N`); re-running with it would show what it costs in shade. **This is the finding a reviewer will ask about.**
+4. Ozone/VOC: still a declared limit.
+
+**Next (if Giovanni agrees):** rerun Porta on the OMEN to get S1b in the layouts; one run with `--diversity=N` (N = the city mix's 9.4) to price the diversity floor in shade and runoff; one results figure.
