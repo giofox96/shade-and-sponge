@@ -1,5 +1,5 @@
 <script setup>
-// Headline numbers of the selected layout, compared with the current trees and with the mean city-rule layout (S1a).
+// Headline numbers of the selected layout, compared with the current trees and with the mean city-practice layout (S1a).
 import { computed } from 'vue'
 import { state, scenario, baseline, calibration, shownMetrics, LIVE, AREA } from '../store.js'
 
@@ -35,7 +35,7 @@ const winterRange = computed(() => {
 
 <template>
   <table class="kpi">
-    <thead><tr><th></th><th>value</th><th>vs current</th><th title="Mean of the 10 city-rule layouts (2026 mix within the sizing rule)">vs city rule</th></tr></thead>
+    <thead><tr><th></th><th>value</th><th>vs current</th><th title="Mean of the 10 city-practice layouts (2026 mix within the sizing rule)">vs city practice</th></tr></thead>
     <tbody>
       <tr v-for="r in rows" :key="r.name">
         <td>{{ r.name }}</td>
@@ -51,7 +51,7 @@ const winterRange = computed(() => {
   <p v-if="state.added.length" class="note live">Includes {{ state.added.length }} added tree{{ state.added.length > 1 ? 's' : '' }}, estimated with the same calibration.</p>
   <p v-if="state.scenarioId === AREA" class="note live">
     Project area: {{ state.area.all ? `all ${state.area.idx.length + state.area.keptIdx.length} trees` : `${state.area.idx.length} plane positions` }}
-    replaced, today's trees everywhere else. "vs city rule" = the city's 2026 mix on the same positions (expected value).
+    replaced, today's trees everywhere else. "vs city practice" = the city's 2026 mix on the same positions (expected value).
     New trees are scored at the selected stage ({{ state.meta.run?.trunk_class === 'SEGONA' ? '≈ 10 years' : 'established' }}), today's at their measured
     size, so replacing young trees shows a gain that only arrives as the new ones grow. Estimates from single-tree potentials,
     calibrated on the saved layouts.

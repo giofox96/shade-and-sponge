@@ -13,7 +13,7 @@ use([ScatterChart, GridComponent, TooltipComponent, MarkLineComponent, CanvasRen
 const groups = computed(() => {
   const C = themeColors.value
   return [['S0', 'Current trees', C.current, 'rect'], ['S1', 'Random palette', C.random, 'circle'],
-    ['S1a', 'City rule', C.city, 'circle'], ['S4', 'Optimised', C.optimised, 'diamond']]
+    ['S1a', 'City practice', C.city, 'circle'], ['S4', 'Optimised', C.optimised, 'diamond']]
 })
 
 const option = computed(() => {
@@ -78,7 +78,7 @@ function onClick(p) {
     <li v-for="l in legend" :key="l.name"><span :class="['mark', l.symbol]" :style="{ background: l.color }" />{{ l.name }}</li>
   </ul>
   <v-chart class="chart" :option="option" autoresize @click="onClick" />
-  <p class="note">Random palettes and city-rule layouts #1–9 are scored but have no saved layout, so only #0 of each opens on the map.</p>
+  <p class="note">Random palettes and city-practice layouts #1–9 are scored but have no saved layout, so only #0 of each opens on the map.</p>
 </template>
 
 <style scoped>
