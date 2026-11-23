@@ -45,6 +45,7 @@ export const state = reactive({
   added: [], // { lon, lat, x, y, pot: { summer, winter, water, fit }, species (palette index), auto, warn }
   addMsg: null,
   addedVersion: 0,
+  useConditional: false, // "Fill spots" also plants conditional spots (a sign, crossing, lamp, bollard or bus stop to move)
 })
 
 let grid = null
@@ -521,16 +522,22 @@ export async function setAreaAll(on) {
   await runArea(state.area.weights)
 }
 
+// Spot class (scripts/porta_spot_classes.py, user decision 18 Nov): 'free' or 'conditional'; data without classes = free
+export const spotClass = (s) => state.trees.spots.spot_class?.[s] ?? 'free'
+// the area's spots that "Fill" plants: free ones, plus conditional ones when the switch is on
+export const fillableSpots = () => state.area.spotIdx.filter((s) => spotClass(s) === 'free' || state.useConditional)
+
 // "Fill the free spots": every free planting spot in the area becomes an added tree (sizing rule of its sidewalk)
 export async function fillAreaSpots() {
   const S = state.trees.spots
   const have = new Set(state.added.map((t) => t.spot))
-  for (const s of state.area.spotIdx) {
+  for (const s of fillableSpots()) {
     if (have.has(S.id[s])) continue
     const q = pointPotentials(grid, state.meta, S.lon[s], S.lat[s])
     const fit = withSizeRule(q.fit, S.size_class[s])
     state.added.push({ lon: S.lon[s], lat: S.lat[s], x: q.x, y: q.y, pot: { summer: q.summer, winter: q.winter, water: q.water, fit },
-      warn: [], sun_summer: q.sun_summer, sun_winter: q.sun_winter, drains_to_hotspot: q.drains_to_hotspot, spot: S.id[s], auto: true,
+      warn: spotClass(s) === 'conditional' ? [`conditional spot: move ${S.reasons[s].replaceAll('_', ' ').replaceAll(';', ', ')} first`] : [],
+      sun_summer: q.sun_summer, sun_winter: q.sun_winter, drains_to_hotspot: q.drains_to_hotspot, spot: S.id[s], auto: true,
       species: fit.indexOf(1) })
   }
   state.addedVersion++
