@@ -30,15 +30,15 @@ def screening():
     yb, rh, y0 = 236, 60, 300
     # group bands
     for lab, x1, x2, c in (("A · THE EXISTING TREE", 232, 698, TREE), ("B · THE PLACE", 714, 996, WARN)):
-        b += rect(x1, yb - 34, x2 - x1, 30, c, rx=6, op=0.16) + t((x1 + x2) / 2, yb - 13, lab, 14, c, "bold", "middle")
-    b += rect(1012, yb - 34, 476, 30, HEAT, rx=6, op=0.16) + t(1250, yb - 13, "C · A SCORE FOR EACH OF THE 30 SPECIES", 14, HEAT, "bold", "middle")
+        b += rect(x1, yb - 40, x2 - x1, 76, c, rx=6, op=0.16) + t((x1 + x2) / 2, yb - 19, lab, 14, c, "bold", "middle")
+    b += rect(1012, yb - 40, 476, 76, HEAT, rx=6, op=0.16) + t(1250, yb - 19, "C · A SCORE FOR EACH OF THE 30 SPECIES", 14, HEAT, "bold", "middle")
     # column headers + x1..x9 tags
     for k, (lab, cx, w, c) in enumerate(COLS):
-        b += t(cx, yb + 2, lab, 15, INK, "bold", "middle")
+        b += t(cx, yb + 8, lab, 15, INK, "bold", "middle")
         if k:
-            b += t(cx, yb + 20, f"x{chr(0x2080 + k)}", 12, MUTED, anchor="middle")
-    b += t(1250, yb + 2, "weighted: summer shade + winter sun − water held", 14, MUTED, anchor="middle")
-    b += t(1250, yb + 20, "x₉ … x₃₈ · one column per species", 12, MUTED, anchor="middle")
+            b += t(cx, yb + 26, f"x{chr(0x2080 + k)}", 12, MUTED, anchor="middle")
+    b += t(1250, yb + 8, "weighted: summer shade + winter sun − water held", 14, MUTED, anchor="middle")
+    b += t(1250, yb + 26, "x₉ … x₃₈ · one column per species", 12, MUTED, anchor="middle")
     # rows
     for r, row in enumerate(ROWS):
         y = y0 + r * rh
