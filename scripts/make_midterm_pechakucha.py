@@ -95,13 +95,13 @@ def s8(s):
 
 def s9(s):
     head(s, "City rules", "Sidewalk width sets the tree size and spacing; no species above 15%")
-    fig(s, "rules_sketch", 1.45, 11.3)
+    fig(s, "sketch_rules", 1.55)                 # hand-drawn plan (ComfyUI on the OMEN, 23 Nov), 3:1
     source(s, BCN)
 
 
 def s10(s):
     head(s, "Where new trees go", "Porta: most blocked spots are blocked by things a project can move")
-    fig(s, "spots", 1.7)
+    fig(s, "sketch_classes", 1.55)               # hand-drawn plan (ComfyUI on the OMEN, 23 Nov), 3:1
     source(s, BCN + " Open Data BCN, street furniture; OpenStreetMap.")
 
 
