@@ -75,4 +75,4 @@ Next. A first test in **Mataró** shows the same pattern: **eighty-three** again
 | Why "practice" and not "rule" | The baseline is what the city really planted (2018–2026), not its written rule; one in five of those trees is too big for its sidewalk. |
 | Why runoff is only a check | Differences are under one percent of the water reaching flood spots, below what the model can resolve. |
 
-Total spoken text (slides 1–15, brackets included): about 650 words, about 43 per slide.
+Total spoken text (slides 1–15, brackets included): about 670 words, about 45 per slide (≈ 135 words a minute).
