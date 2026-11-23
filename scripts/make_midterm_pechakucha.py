@@ -56,13 +56,23 @@ def s3(s):
              ("trees", "17 ha", "under tree crowns today (20%)", TREE),
              ("target", "−8 ha", "missing to the city's 30% target", HEAT),
              ("circle-plus", "+0.3 ha", "if every free sidewalk spot is planted", RAIN)]
+    # why this neighbourhood (site selection, 8 Oct): all three criteria above the city's 60th percentile, Porta ranks first
+    text(s, M, 1.45, W - 2 * M, 0.45, [[("Why Porta? ", {"bold": True}), ("first among Barcelona's neighbourhoods where heat, flood hazard and plane trees are all high", {})]], 17, INK)
+    for k, (ic, lab, c) in enumerate((("thermometer-sun", "summer surface: +1.4 °C vs city", HEAT),
+                                      ("droplets", "flood hazard: top 20% of the city", RAIN),
+                                      ("tree-deciduous", "832 planes, 29% of its street trees", TREE))):
+        x = M + k * 4.13
+        box(s, x, 1.95, 3.93, 0.55, tint(c, 0.12))
+        ico(s, ic, c, x + 0.15, 2.02, 0.4)
+        text(s, x + 0.65, 1.95, 3.2, 0.55, lab, 14, c, True, anchor=MSO_ANCHOR.MIDDLE)
     for k, (ic, big, small, c) in enumerate(items):
-        x, y = M + (k % 2) * 6.2, 1.6 + (k // 2) * 2.2
-        box(s, x, y, 5.9, 1.95, tint(c, 0.10))
-        ico(s, ic, c, x + 0.35, y + 0.6, 0.7)
-        text(s, x + 1.35, y, 4.4, 1.95, [[(big, {"bold": True, "color": c, "size": 40})], small], 17, INK, anchor=MSO_ANCHOR.MIDDLE)
-    text(s, M, 6.15, W - 2 * M, 0.5, [[("Street trees alone cannot reach 30%: ", {"bold": True}), ("the choice of species is what is left.", {})]], 18, INK)
-    source(s, "ICGC, LiDAR 2021; Open Data BCN, arbrat viari; Ajuntament de Barcelona, Pla director de l'arbrat 2017–2037.")
+        x, y = M + (k % 2) * 6.2, 2.75 + (k // 2) * 1.7
+        box(s, x, y, 5.9, 1.5, tint(c, 0.10))
+        ico(s, ic, c, x + 0.35, y + 0.4, 0.7)
+        text(s, x + 1.35, y, 4.4, 1.5, [[(big, {"bold": True, "color": c, "size": 36})], small], 16, INK, anchor=MSO_ANCHOR.MIDDLE)
+    text(s, M, 6.2, W - 2 * M, 0.5, [[("Street trees alone cannot reach 30%: ", {"bold": True}), ("the choice of species is what is left.", {})]], 18, INK)
+    source(s, "ICGC, LiDAR 2021; Open Data BCN, arbrat viari; Ajuntament de Barcelona, Pla director de l'arbrat 2017–2037; "
+              "Barcelona Resilience Atlas; Landsat 8/9.")
 
 
 def s5(s):

@@ -1,6 +1,6 @@
 # Shade and Sponge: midterm Pecha Kucha (24 Nov 2026, 5 min)
 
-15 slides × 20 s. Built on the RM 3-minute deck (`slides/rm_final/`) and the 17 Nov tutor feedback (`notes/tutor_feedback_17nov.md`): narrative first, then a method anyone can follow, Porta in absolute numbers, the four actions inside the method, runoff explained with litres. Speaker notes = the "Say" lines. About 47 words per slide, 720 in total: about 4.8 minutes at 150 words a minute, leaving room for pauses (RT feedback, 23 Nov: keep to time).
+15 slides × 20 s. Built on the RM 3-minute deck (`slides/rm_final/`) and the 17 Nov tutor feedback (`notes/tutor_feedback_17nov.md`): narrative first, then a method anyone can follow, Porta in absolute numbers, the four actions inside the method, runoff explained with litres. Speaker notes = the "Say" lines. About 47 words per slide, 730 in total: about 4.9 minutes at 150 words a minute, leaving room for pauses (RT feedback, 23 Nov: keep to time).
 
 ### 1. Title
 **Say (42 words):** "Imagine you redesign a street in Barcelona. The layout is already decided. Your job is the trees: which to keep, move or replace, and where to add new ones, so the street is cooler in summer and not worse when it rains."
@@ -9,7 +9,7 @@
 **Say (54 words):** "Every city with street trees faces this choice; Barcelona is my case. Since 2018 it has replaced almost eleven thousand street trees. It caps each species at fifteen percent, but says nothing about which species goes where. And with the same trunk, crowns range from a full plane tree to a quarter of one."
 
 ### 3. Porta in numbers
-**Say (46 words):** "My site is Porta: eighty-four hectares, almost three thousand street trees. Crowns cover twenty percent; the city's target is thirty, so eight hectares are missing. Planting every free spot adds only a third of a hectare. So what counts is which species stands in each spot."
+**Say (56 words):** "My site is Porta, chosen because it is hot, flood-prone and full of planes: eighty-four hectares, almost three thousand street trees. Crowns cover twenty percent; the city's target is thirty, so eight hectares are missing. Planting every free spot adds only a third of a hectare. So what counts is which species stands in each spot."
 
 ### 4. State of the art and gap
 **Say (45 words):** "The pieces exist, but separately. Some models assess heat and runoff, without choosing species. Other tools choose species for one service, or without positions. Of eighteen tools I reviewed, none chooses the species tree by tree, on heat and runoff, inside a city's own rules."
