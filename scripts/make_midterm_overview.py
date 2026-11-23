@@ -24,13 +24,13 @@ def flow_overview():
     b += i_rain(X[0], 580) + caption(X[0], 642, "Pluvial floods", RAIN)
     data = [("Tree inventory", TREE, None), ("LiDAR 2021", TREE, "crowns · buildings"), ("Hot day", HEAT, None),
             ("Terrain (DTM)", RAIN, "0.5 m · ground in 3D"), ("Flood hotspots", RAIN, None),
-            ("Sidewalks · objects", WARN, "width · lamps · signs"), ("Design storm", RAIN, None)]
+            ("Design storm", RAIN, None), ("Sidewalks · objects", WARN, "width · traffic lights · driveways")]
     ys = [245, 315, 385, 455, 525, 595, 665]
     for (lab, c, sub), y in zip(data, ys):
         b += box(X[1], y, lab, c, 196, 56 if sub else 48, sub)
     # heat → LiDAR (crowns, buildings: shade), hot day (sun path); floods → LiDAR (crown, LAI: water held on leaves),
     # DTM (where water flows), hotspots (where it does harm), design storm. Inventory and sidewalks serve both (constraints).
-    for fy, dy in ((360, 315), (360, 385), (580, 315), (580, 455), (580, 525), (580, 665)):
+    for fy, dy in ((360, 315), (360, 385), (580, 315), (580, 455), (580, 525), (580, 595)):
         b += curve(X[0] + 40, fy, X[1] - 100, dy, GRID)
     b += i_layers(X[2], y0 - 25) + caption(X[2], y0 + 40, "Indicators per tree")
     for y in ys:
