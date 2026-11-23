@@ -88,6 +88,30 @@ function reliefMesh() {
   return (relief = { attributes: { POSITION: { value: P, size: 3 }, NORMAL: { value: Nn, size: 3 } }, indices: { value: I, size: 1 } })
 }
 
+// 3D ground: sidewalk lines lifted onto the relief, a vertex every metre. Draped (TerrainExtension) they were drawn into a
+// low-resolution ground texture and came out grainy.
+let walks = null, walksOf = null
+function sidewalks3d() {
+  const key = state.site
+  if (walksOf === key) return walks ?? []
+  walksOf = key
+  walks = null
+  fetch(dataUrl('sidewalks.geojson')).then((r) => r.json()).then((fc) => {
+    if (walksOf !== key) return
+    const kx = M_DEG * Math.cos((state.meta.site.center[1] * Math.PI) / 180)
+    const dense = (L) => L.flatMap((q, k) => {
+      if (k === 0) return [q]
+      const p = L[k - 1], n = Math.max(1, Math.ceil(Math.hypot((q[0] - p[0]) * kx, (q[1] - p[1]) * M_DEG))) // 1 m steps
+      return Array.from({ length: n }, (_, j) => [p[0] + ((q[0] - p[0]) * (j + 1)) / n, p[1] + ((q[1] - p[1]) * (j + 1)) / n])
+    }).map((q) => up(q, 0.15))
+    walks = fc.features.map((f) => ({ ...f, geometry: f.geometry.type === 'LineString'
+      ? { type: 'LineString', coordinates: dense(f.geometry.coordinates) }
+      : { ...f.geometry, coordinates: f.geometry.coordinates.map(dense) } }))
+    overlay?.setProps({ layers: layers() })
+  })
+  return []
+}
+
 // 3D ground: building footprints with their base on the lowest ground under them
 let lifted = null, liftedOf = null
 function buildings3d() {
@@ -306,7 +330,7 @@ function layers() {
       parameters: { depthWriteEnabled: state.buildingOpacity >= 1 },
     }),
     state.showStreets &&
-      new GeoJsonLayer({ id: 'sidewalks', data: dataUrl('sidewalks.geojson'), stroked: true, filled: false, ...drape(),
+      new GeoJsonLayer({ id: 'sidewalks', data: state.ground3d ? sidewalks3d() : dataUrl('sidewalks.geojson'), stroked: true, filled: false,
         getLineColor: (f) => (f.properties.kind === 'facade' ? themeColors.value.facade : themeColors.value.kerb),
         updateTriggers: { getLineColor: isDark.value },
         getLineWidth: (f) => (f.properties.kind === 'facade' ? 0.5 : 1), lineWidthUnits: 'pixels' }),
