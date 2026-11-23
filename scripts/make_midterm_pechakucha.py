@@ -159,7 +159,7 @@ def s14(s):
 def s15(s):
     s1_photo(s)
     text(s, 0.75, 1.3, 7.4, 1.0, "Next", 54, BG, True, name="Title")
-    text(s, 0.75, 2.5, 7.2, 2.6, ["Felt temperature (UTCI): Ladybug, Infrared City", "Same method in Mataró and Florence",
+    text(s, 0.75, 2.5, 7.2, 2.6, ["Felt temperature (UTCI): Ladybug, Infrared City", "Mataró: 83% vs 63% summer shade, 6 of 6 streets", "Florence next",
                                   "Tool: action per tree, trade-offs on screen"], 22, BG)
     text(s, 0.75, 5.1, 7.2, 0.8, "The right tree, in the right place, within the city's rules. Thank you.", 22, BG, True)
     text(s, 0.75, 6.2, 11.0, 0.4, "Giovanni Volpe · MaCAD, IAAC · Thesis midterm", 16, "#CFC9BC", name="Mono")
@@ -175,6 +175,38 @@ def b2_screening(s):
     picture(s, FIG / "screening_matrix.png", 0, 0, W, crop_top=0)
 
 
+def b4_mataro_why(s):
+    """Backup: why Mataró is the transfer city (notes/catalan_transfer_city.md §3b, §5b, §6) and where it is."""
+    head(s, "Why Mataró", "The transfer test: does the method work in a city with other data and other practice?")
+    rows = [("database", "Full tree inventory", "species and position for every tree (city, Nov 2026)", TREE),
+            ("scan-search", "Same LiDAR as Porta", "ICGC, leaf-on summer flight, same coordinate system", WARN),
+            ("cloud-rain", "Its own design storm", "the only finalist city with one (PDCLAM)", RAIN),
+            ("droplets", "Pluvial flood risk", "one of ACA's 44 Catalan municipalities", RAIN),
+            ("trees", "Same climate, other practice", "Mediterranean coast, planes too, different planting choices", HEAT)]
+    for k, (ic, b, t, c) in enumerate(rows):
+        y = 1.6 + k * 1.0
+        ico(s, ic, c, M + 0.1, y + 0.12, 0.5)
+        text(s, M + 0.85, y, 5.6, 0.95, [[(b, {"bold": True, "color": c, "size": 18})], t], 14, INK)
+    picture(s, FIG / "mataro_locator.png", 7.0, 1.5, 5.8, crop_top=0)
+    source(s, "Ajuntament de Mataró, arbrat (2026) and PDCLAM (2003); ICGC, LiDAR 2021; ACA, PGRI 3rd cycle (2026); "
+              "land mask: GLOBE via global-land-mask.")
+
+
+def b5_mataro_streets(s):
+    """Backup: the six test streets and their result (databases/mataro/transfer_test.csv, PR #150)."""
+    head(s, "Mataró: six plane streets, every plane replaced", "Summer shade of the new trees, % of planes of the same size: method vs city practice")
+    picture(s, FIG / "mataro_streets.png", M, 1.45, 6.6, crop_top=0)
+    text(s, 7.5, 1.6, 5.3, 1.6, [[("83% vs 63%", {"bold": True, "color": TREE, "size": 40})],
+                                 "median, method vs city practice · the method wins 6 of 6 streets"], 16, INK)
+    text(s, 7.5, 3.35, 5.3, 1.0, [[("Runoff: ", {"bold": True}), ("never worse than any practice (6 of 6)", {})]], 15, INK)
+    text(s, 7.5, 4.05, 5.3, 2.6, [[("Approximate, first run:", {"bold": True, "color": MUTED})],
+                                  "crowns = Barcelona medians per species (Mataró LiDAR next)",
+                                  "buildings = Overture Maps; flat ground",
+                                  "no hotspot map: runoff on all open ground",
+                                  "València (narrow) is the weak case: 42% vs 35%"], 13, MUTED)
+    source(s, "Ajuntament de Mataró, arbrat (2026); Overture Maps (ODbL); ICGC, LiDAR 2021 (Barcelona crowns).")
+
+
 def b3_highs(s):
     """Backup: what HiGHS does, on a five-position example (make_midterm_highs.py)."""
     picture(s, FIG / "flow_07_highs.png", 0, 0, W, crop_top=0)
@@ -183,7 +215,9 @@ def b3_highs(s):
 SLIDES = [s1, R.s2, s3, R.s3, R.s4, s5, s7, s8, s9, s10, s11, s12, s13, s14, s15]
 BACKUP = [(b1_method, "Backup: the full method on one page."),
           (b2_screening, "Backup: the screening indicators as a matrix, one row per position."),
-          (b3_highs, "Backup: how HiGHS picks the species, on a five-position example.")]
+          (b3_highs, "Backup: how HiGHS picks the species, on a five-position example."),
+          (b4_mataro_why, "Backup: why Mataró is the transfer city, and where it is."),
+          (b5_mataro_streets, "Backup: the six Mataró test streets and their result.")]
 DARK = {s1, s15}                                             # photo-background slides: a light page number
 
 
