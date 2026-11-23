@@ -34,11 +34,11 @@ def flow_overview():
     uses = {315: (HEAT, RAIN), 385: (HEAT,), 455: (RAIN,), 525: (RAIN,), 595: (RAIN,)}
     for y, cs in uses.items():
         for k, c in enumerate(cs):
-            x = X[1] - 98 - 14 - 20 * k
-            b += f'<circle cx="{x}" cy="{y}" r="7" fill="{c}" stroke="white" stroke-width="2"/>'
-    for k, (c, lab) in enumerate(((HEAT, "used for heat"), (RAIN, "used for floods"))):
-        b += f'<circle cx="{X[0] - 52}" cy="{700 + 22 * k}" r="7" fill="{c}" stroke="white" stroke-width="2"/>'
-        b += t(X[0] - 38, 705 + 22 * k, lab, 13, c, "bold")
+            yy = y + 20 * k - 10 * (len(cs) - 1)              # two dots stacked vertically (LiDAR)
+            b += f'<circle cx="{X[1] - 98 - 14}" cy="{yy}" r="7" fill="{c}" stroke="white" stroke-width="2"/>'
+    for y, c, lab in ((448, HEAT, "used for heat"), (668, RAIN, "used for floods")):   # legend right under each caption
+        b += f'<circle cx="{X[0] - 50}" cy="{y}" r="7" fill="{c}" stroke="white" stroke-width="2"/>'
+        b += t(X[0] - 37, y + 5, lab, 13, MUTED)
     # City rules are an input like the data (plan 2017–2037, 2011 guide): sizes feed the screening, palette and cap the solve
     b += outline(X[1], 740, "City rules", WARN, 196, 60, "30 species · 15% · sizes")
     b += curve(X[1] + 100, 740, X[2] - 46, y0 - 25, GRID)
