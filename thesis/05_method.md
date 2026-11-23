@@ -85,8 +85,8 @@ Equal trunk size is a fair comparison between species, not a forecast of how lar
 
 **Palettes.** Two palettes are available:
 
-- **City palette:** seven species. Five are named as replacements in city or press sources: Celtis, Melia, *Pyrus calleryana*, Jacaranda and Tipuana. Two more complete it: *Brachychiton populneus*, common in Porta's recent plantings but named in no source, and *Styphnolobium japonicum*, named in the press. This is the palette used in the thesis results.
-- **Barcelona shortlist:** 34 street-tree species with at least 500 trees in the city inventory, excluding the plane. The palms are a separate inventory and are not included. Invasive taxa were to be excluded, but none of them reached 500 trees.
+- **Method palette (30 species):** the species of the city's 2011 street-tree catalogue, minus the four it marks "avoid". It contains all six species the city actually plants where planes are replaced. This is the palette used in the thesis results (decided 18 Nov).
+- **Narrow palette (7 species):** the replacements named in city or press sources (Celtis, Melia, *Pyrus calleryana*, Jacaranda, Tipuana and *Styphnolobium japonicum*), plus *Brachychiton populneus*, common in Porta's recent plantings but named in no source. It is kept only as a sensitivity: across the 32 screened barris, the narrow list gives a median of 5.0 points less summer shade than the 30-species palette (range −2.2 to 14.8; Chapter 7).
 
 ## Topography and flood hotspots {#sec:method-topo}
 
@@ -200,7 +200,7 @@ Species without a calendar keep full leaf (`ASSUMPTION`). These are some kept tr
 
 - **Exact rule:** a species may go only where its size class from the 2011 guide matches the sidewalk class. This is the rule used in the thesis runs. A looser "at most" reading also allows smaller classes on wider sidewalks.
 - **Unmeasured positions:** medians, boulevards and plaza edges have no façade-bounded sidewalk, so they are not filtered (`ASSUMPTION`).
-- **Species without a class:** species that the 2011 guide does not classify, most of the Barcelona shortlist, are not size-filtered (`ASSUMPTION`).
+- **Species without a class:** species that the 2011 guide does not classify are not size-filtered (`ASSUMPTION`).
 
 **Façade clearance.** A species fits a position only if its crown radius does not exceed the distance to the nearest building (`ASSUMPTION`: no extra margin). A building is a footprint of the city's 1:1000 map or a LiDAR building point more than 3 m above ground.
 
@@ -237,13 +237,14 @@ A weighted sum can miss parts of a front that is not convex. NSGA-II is the fall
 | Scenario | What it is |
 |---|---|
 | **S0** | Today: the measured trees, planes included (807 planes have crown metrics, against 832 positions replanted in the other scenarios) |
-| **S1a** | The city's rule: the 2026 mix (Celtis 12, Melia 7.25, *Pyrus*, *Styphnolobium* and Tipuana 5 each) as relative weights of a random draw within the exact sizing rule and the cap. The most constrained positions are drawn first. 10 seeds |
+| **S1b** | **City practice** (the reference baseline): what the city actually planted where planes were replaced, 2018–2026 (1,444 cases in the quarterly Open Data BCN inventory), used as relative weights of a random draw within the exact sizing rule and the cap. The most constrained positions are drawn first. 10 seeds |
+| **S1a** | The announced mix: the 2026 press figures (Celtis 12, Melia 7.25, *Pyrus*, *Styphnolobium* and Tipuana 5 each), drawn in the same way. 10 seeds |
 | **S1 random** | Any fitting palette species at random under the cap. 10 seeds; a check of what optimisation adds over chance |
 | **S4** | The optimised layouts of the weight sweep |
 
 : Scenarios for the plane positions. {#tbl:scenarios}
 
-S1a reads the 2026 figures as one weight per species (`ASSUMPTION`; Chapter 3).
+City practice is a practice, not a written rule: no document sets which species replaces a plane (Chapter 3). S1a reads the 2026 press figures as one weight per species (`ASSUMPTION`; Chapter 3).
 
 The scenarios are combined with three planting options:
 
@@ -251,9 +252,15 @@ The scenarios are combined with three planting options:
 - **A:** additions in free planting spots, with the planes kept;
 - **R+A:** both.
 
-For A and R+A, the city's rule is run with 5 seeds and the optimised layout with one weight set (summer 0.5, winter 0.25, runoff 0.25), not the full sweep. The free spots come from the same base map. Pits are placed 0.7 m in from the kerb, on sidewalks of at least 2.5 m, within 15 m of a street centreline (`ASSUMPTION`), and spaced 7, 9 or 13 m by size class. This gives 267 spots in Porta. Spots too close to street furniture mapped in OpenStreetMap are then removed: 3 m from traffic signals (2011 guide), and 3 m from crossings and parking entrances and 8 m from bus stops (all three `ASSUMPTION`). This leaves 232 spots (209–243 across the assumed clearances), on which the A and R+A scenarios are run. They are still an upper bound, because driveways, lamps and underground services are not in the data.
+For A and R+A, city practice is run with 5 seeds and the optimised layout with one weight set (summer 0.5, winter 0.25, runoff 0.25), not the full sweep. The free spots come from the same base map. Pits are placed 0.7 m in from the kerb, on sidewalks of at least 2.5 m, within 15 m of a street centreline (`ASSUMPTION`), and spaced 7, 9 or 13 m by size class. This gives 267 candidate spots in Porta. Each is then classed by the street furniture mapped in OpenStreetMap within its clearance: 3 m from traffic signals (2011 guide), 3 m from crossings and parking entrances and 8 m from bus stops (all three `ASSUMPTION`). Every object within clearance counts, not only the first:
 
-**Project area.** Plane trees are replaced one at a time, when they die or when a street project rebuilds the ground (Chapter 3), so the web application lets a designer draw a project area. Only the plane positions inside it are decided, by the same optimisation; today's trees stay everywhere else. The comparison with today and with the city rule is made for that area. These are browser estimates: today's exact metrics plus the calibrated change in the potentials of the positions inside the area. Today's planes are rescaled so that an area covering every position reproduces today's exact values. Two options widen the area. One replaces every street tree inside it, not only the planes, as in a street rebuild; those trees are scored with the sizing rule of their sidewalk. The other fills the free planting spots inside it. An exact Python run for an area is not yet implemented.
+- **free (153):** nothing in the way;
+- **conditional (103):** sign supports, crossings, lamps, bollards or a bus stop, which a street rebuild can move (lamps at a cost);
+- **blocked (11):** traffic lights or driveways, which would mean changing traffic or private property.
+
+The A and R+A scenarios use the free spots by default; the conditional ones are added on request and flagged in the results. All spots are still an upper bound, because underground services and private ground-floor enclosures are not in the data.
+
+**Project area.** Plane trees are replaced one at a time, when they die or when a street project rebuilds the ground (Chapter 3), so the web application lets a designer draw a project area. Only the plane positions inside it are decided, by the same optimisation; today's trees stay everywhere else. The comparison with today and with city practice is made for that area. These are browser estimates: today's exact metrics plus the calibrated change in the potentials of the positions inside the area. Today's planes are rescaled so that an area covering every position reproduces today's exact values. Two options widen the area. One replaces every street tree inside it, not only the planes, as in a street rebuild; those trees are scored with the sizing rule of their sidewalk. The other fills the free planting spots inside it. An exact Python run for an area is not yet implemented.
 
 ## Front-ends {#sec:method-frontends}
 

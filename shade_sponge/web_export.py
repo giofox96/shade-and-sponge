@@ -106,6 +106,16 @@ def sidewalk(ids):
                 sw_size_class=w.size_class.fillna("check").tolist(), sw_ray=ray)
 
 
+
+def utility_flags(ids):
+    """Pit over a buried service, per spot (scripts/utilities_conditional.py; Porta demo area only), or nothing."""
+    f = DB / f"{name}_spots_utilities.csv"
+    if not f.exists():
+        return {}
+    u = pd.read_csv(f, comment="#").set_index("spot_id").utility_conditional
+    return dict(utility_conditional=u.reindex(ids).fillna(0).astype(int).tolist())
+
+
 trees = dict(
     positions=dict(tree_id=P.tree_id.tolist(), lon=r6(lon), lat=r6(lat), sun_summer=r2(P.sun_share_summer),
                    sun_winter=r2(P.sun_share_winter), drains_to_hotspot=r2(P.drains_to_hotspot),
@@ -116,7 +126,8 @@ trees = dict(
               size_class=kept.tree_id.map(sw.size_class).fillna("check").tolist(), crown_diam_m=r2(kept.crown_diam_m),
               height_m=r2(kept.height_m), crown_base_m=r2(kept.crown_base_m), **{k: v for k, v in sidewalk(kept.tree_id).items() if k != "sw_size_class"}),
     spots=dict(id=sp_.spot_id.tolist(), lon=r6(slon), lat=r6(slat), size_class=sp_.size_class.tolist(), width_m=r2(sp_.width_m),
-               spot_class=sp_.spot_class.tolist(), reasons=sp_.get("reasons", pd.Series("", index=sp_.index)).fillna("").tolist()),
+               spot_class=sp_.spot_class.tolist(), reasons=sp_.get("reasons", pd.Series("", index=sp_.index)).fillna("").tolist(),
+               **utility_flags(sp_.spot_id)),
     layouts=layouts)
 json.dump(trees, open(out / "trees.json", "w"), separators=(",", ":"))
 
