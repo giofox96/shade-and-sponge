@@ -1,7 +1,7 @@
 <script setup>
 import { onMounted, watch } from 'vue'
 import { state, load, switchSite, scenario, label, layoutEff, runLive, runArea, setAddMode, addedCsv, startDrawing, finishArea,
-  cancelDrawing, clearArea, startEditArea, finishEditArea, cancelEditArea, setAreaAll, fillAreaSpots, panels, ui, MIN_SPACING_M, BALANCED, LIVE, AREA } from './store.js'
+  cancelDrawing, clearArea, fillableSpots, spotClass, startEditArea, finishEditArea, cancelEditArea, setAreaAll, fillAreaSpots, panels, ui, MIN_SPACING_M, BALANCED, LIVE, AREA } from './store.js'
 import MapView from './components/MapView.vue'
 import PriorityTriangle from './components/PriorityTriangle.vue'
 import TradeoffChart from './components/TradeoffChart.vue'
@@ -112,9 +112,13 @@ watch(
                     :title="`Replace all ${state.area.idx.length + state.area.keptIdx.length} trees, not only the ${state.area.idx.length} planes`"
                     @click="setAreaAll(!state.area.all)">
               <Icon name="swap" />Replace all {{ state.area.idx.length + state.area.keptIdx.length }}</button>
-            <button class="ico" :disabled="!state.area.spotIdx.length" title="Plant a tree on every free spot inside the area"
-                    @click="fillAreaSpots"><Icon name="fill" />Fill {{ state.area.spotIdx.length }} spots</button>
+            <button class="ico" :disabled="!fillableSpots().length" title="Plant a tree on every free spot inside the area"
+                    @click="fillAreaSpots"><Icon name="fill" />Fill {{ fillableSpots().length }} spots</button>
           </div>
+          <label v-if="state.area.spotIdx.some((s) => spotClass(s) === 'conditional')" class="check small"
+                 title="Conditional spots (amber dot) need a sign, crossing, lamp, bollard or bus stop moved: check on site">
+            <input type="checkbox" v-model="state.useConditional" />
+            Include {{ state.area.spotIdx.filter((s) => spotClass(s) === 'conditional').length }} conditional spots</label>
           <p class="small muted">{{ state.area.all ? 'All the street trees inside are replaced.' : `Only the ${state.area.idx.length} planes are replaced.` }}</p>
           <p v-if="state.area.all" class="small accent">New trees are scored at the selected size, today's at theirs: replacing young or healthy
             trees looks like a gain that takes years to arrive. Check "≈ 10 years".</p>

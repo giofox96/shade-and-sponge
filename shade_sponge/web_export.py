@@ -86,10 +86,12 @@ s0 = L[L.scenario == "S0_current"].set_index("tree_id").loc[P.tree_id]
 lon, lat = to_ll(pos.x.values, pos.y.values)
 kept = site.trees[~site.trees.is_plane & (site.trees.flag == "ok")]
 sw = pd.read_csv(DB / f"{name}_sidewalk_width.csv").set_index("tree_id")          # scripts/porta_sidewalk_width.py
-# free planting spots (scripts/porta_planting_spots.py), minus those near crossings, signals, parking entrances and bus
-# stops (scripts/porta_spot_exclusions.py): still an upper bound, see shade_sponge/README.md "Additions"
+# planting spots (scripts/porta_planting_spots.py): free and conditional ones (scripts/porta_spot_classes.py, user decision
+# 18 Nov); blocked spots are left out. Still an upper bound, see shade_sponge/README.md "Additions"
 sp_ = pd.read_csv(DB / f"{name}_planting_spots.csv")
-sp_ = sp_[sp_.get("excluded_by", pd.Series("", index=sp_.index)).fillna("") == ""]
+if "spot_class" not in sp_:
+    sp_["spot_class"] = np.where(sp_.get("excluded_by", pd.Series("", index=sp_.index)).fillna("") == "", "free", "blocked")
+sp_ = sp_[sp_.spot_class != "blocked"]
 slon, slat = to_ll(sp_.x.values, sp_.y.values)
 klon, klat = to_ll(kept.x.values, kept.y.values)
 
@@ -113,7 +115,8 @@ trees = dict(
     kept=dict(lon=r6(klon), lat=r6(klat), species=kept.sp.tolist(), lai=r2(kept.lai),
               size_class=kept.tree_id.map(sw.size_class).fillna("check").tolist(), crown_diam_m=r2(kept.crown_diam_m),
               height_m=r2(kept.height_m), crown_base_m=r2(kept.crown_base_m), **{k: v for k, v in sidewalk(kept.tree_id).items() if k != "sw_size_class"}),
-    spots=dict(id=sp_.spot_id.tolist(), lon=r6(slon), lat=r6(slat), size_class=sp_.size_class.tolist(), width_m=r2(sp_.width_m)),
+    spots=dict(id=sp_.spot_id.tolist(), lon=r6(slon), lat=r6(slat), size_class=sp_.size_class.tolist(), width_m=r2(sp_.width_m),
+               spot_class=sp_.spot_class.tolist(), reasons=sp_.get("reasons", pd.Series("", index=sp_.index)).fillna("").tolist()),
     layouts=layouts)
 json.dump(trees, open(out / "trees.json", "w"), separators=(",", ":"))
 
