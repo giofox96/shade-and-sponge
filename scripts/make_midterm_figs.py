@@ -55,7 +55,7 @@ def method_actions():
 
 def rules_sketch():
     """Plan view of four sidewalks: width -> tree size class and spacing (2011 street-tree guide pp. 22-23)."""
-    h, x0, x1 = 640, 330, 1560
+    h, x0, x1 = 760, 330, 1560
     b = ""
     cases = [("< 2.5 m", "no tree", 0, None), ("2.5–3.5 m", "small · every 7 m", 22, 7), ("3.5–6 m", "medium · every 9 m", 34, 9),
              ("> 6 m", "large · every 13 m", 50, 13)]
@@ -77,7 +77,7 @@ def rules_sketch():
         else:
             b += (f'<div class="s" style="position:absolute;left:{x0 + 30}px;top:{y + 14}px;font-size:22px;color:{HEAT}">'
                   f'too narrow: kept free for walking</div>')
-        y += hh + 22
+        y += hh + 58
     b += (f'<div class="row" style="position:absolute;left:{x0}px;top:{y + 6}px;gap:28px;font-size:20px;color:{MUTED}">'
           f'<span>▬ façade</span><span>┄ kerb</span><span>● crown at maturity, 0.7 m from the kerb</span></div>')
     return page(b, h), h
