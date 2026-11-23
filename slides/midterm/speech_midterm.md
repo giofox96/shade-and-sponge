@@ -1,6 +1,6 @@
 # Shade and Sponge: midterm speech (Tue 24 Nov 2026, Pecha Kucha, 5 min)
 
-Spoken version of `script.md`, for the public deck `shade_and_sponge_midterm_pechakucha.pptx` (18 slides, final version on main after PR #165: co-benefits on slide 14). 15 slides × 20 s; slides 16–18 and the private slide 19 are backups for questions only.
+Spoken version of `script.md`, for the public deck `shade_and_sponge_midterm_pechakucha.pptx` (20 slides after PR #166: co-benefits on slide 14, Mataró on slide 15 and on backups 19–20). 15 slides × 20 s; slides 16–20 and the private slide 21 are backups for questions only.
 
 How to read it (v2, 23 Nov evening: rewritten as connected speech, with subordinate clauses, as Giovanni asked):
 - Each slide is one or two flowing sentences; breathe at the commas, pause at the full stops.
@@ -52,7 +52,7 @@ My baseline is what the city **really planted** when it replaced trees, which is
 In a first test on **twenty-six** groups the city replaced, the method gives **one hundred thirty-nine** square-metre hours of shade per tree against **fifty-nine**, winning **twenty-two**. In Porta it also stores more **carbon** than city practice and brings **less pollen** than today, while more **diversity** costs only **0.3 points** of shade.
 
 ### 15. Next
-Next come felt temperature, with **Ladybug** and **Infrared City**, and the same method in Florence and **Mataró**, where a first run already gives **eighty-three** against **sixty-three** percent of a plane's shade[, while the tool lets the designer set each tree's action]. The **right tree**, in the **right place**, within the city's rules. **Thank you.**
+Next comes felt temperature, with **Ladybug** and **Infrared City**, and then other cities: in **Mataró**, a first run already gives **eighty-three** against **sixty-three** percent of summer shade, winning **six of six** streets, while **Florence** comes next[, together with a tool where the designer sets each tree's action]. The **right tree**, in the **right place**, within the city's rules. **Thank you.**
 
 ---
 
@@ -67,7 +67,13 @@ What the screening produces is a table with **one row for every position**, whet
 ### 18. HiGHS: the solver that picks every species
 To show how the optimiser chooses, I use a small example with **five positions and three species**. On the left is the score of each species at each position; then come the **rules**, which say that each position gets one species, that only species fitting the sidewalk are allowed, and that no species goes above its **cap**, here two out of five. Every layout that obeys these rules is a point in this shape, and since the best one is always a corner, **HiGHS finds the highest corner and proves that no other is higher**, which here gives a score of **3.3**. If you simply took the best species everywhere, you would get A three times and **break the cap**, while a genetic algorithm would respect the rules without ever knowing whether it found the best. In Porta, with eight hundred thirty-two positions and thirty species, the solve takes about **0.2 seconds**.
 
-### 19. Underground utilities (private copy only; do not show unless asked)
+### 19. Why Mataró
+Mataró is the city where I test whether the method still works with **other data** and **another practice**. I chose it because it has a **full tree inventory**, with species and position for every tree, and because it was covered by the **same ICGC LiDAR** as Porta, a leaf-on summer flight in the same coordinate system. It is also the only finalist city with its **own design storm**, from its drainage plan, and it is one of the **forty-four** Catalan municipalities that ACA lists for **pluvial flood risk**. Since it lies only **twenty-five kilometres** from Porta, on the same Mediterranean coast and with plane trees too, the climate stays the same, while the planting choices are different.
+
+### 20. Mataró: six plane streets
+In this first run, I took the **six streets** with the most plane trees and imagined that a project replaces **every plane**. At the same positions and with the same trunk size, the method keeps a median **eighty-three percent** of the planes' summer shade, against **sixty-three** for the city's practice, and it wins on **all six** streets, while runoff is **never worse** than any practice. The run is still **approximate**, because crowns are Barcelona medians per species until I process Mataró's LiDAR, the ground is flat and there is no hotspot map. The weak case is **València**, a narrow street where few species fit, so the gain shrinks to **forty-two** against **thirty-five**.
+
+### 21. Underground utilities (private copy only; do not show unless asked)
 Below the sidewalk there are pipes and cables which can make a **tree pit impossible** even where the surface looks free. I requested the utility plans for Porta **through the official channel**, and I now have almost all networks, while the water network is still pending. Since the plans are **confidential**, I will neither show nor publish them, and I will use them only to turn spots into **blocked or conditional**, the same classes you saw on slide ten; at the moment, the spot classes do **not** yet include utilities, so that is the next check.
 
 ## Numbers to have ready for questions
