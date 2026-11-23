@@ -1,5 +1,6 @@
 <script setup>
-import { onMounted, watch } from 'vue'
+import { onMounted, watch, ref } from 'vue'
+import { download } from './exporter.js'
 import { state, load, switchSite, scenario, label, layoutEff, runLive, runArea, setAddMode, addedCsv, startDrawing, finishArea,
   cancelDrawing, clearArea, startEditArea, finishEditArea, cancelEditArea, setAreaAll, fillAreaSpots, panels, ui, MIN_SPACING_M, BALANCED, LIVE, AREA } from './store.js'
 import MapView from './components/MapView.vue'
@@ -22,6 +23,18 @@ function downloadAdded() {
     href: URL.createObjectURL(new Blob([addedCsv()], { type: 'text/csv' })) })
   a.click()
   URL.revokeObjectURL(a.href)
+}
+const exporting = ref(false)
+const exportMsg = ref('')
+async function exportAs(fmt) {
+  exporting.value = true
+  try {
+    const n = await download(fmt)
+    exportMsg.value = `Exported ${n.trees} trees, ${n.spots} free spots, ${n.buildings} buildings.`
+  } catch (e) {
+    exportMsg.value = `Export failed: ${e.message}`
+  }
+  exporting.value = false
 }
 function clearAdded() {
   state.added = []
@@ -140,6 +153,18 @@ watch(
           warning (under 2 m from a building or {{ MIN_SPACING_M }} m from a tree). Click there or on a green free spot. Each tree gets the best species for the current
           priorities (change it in the inspector). The {{ MIN_SPACING_M }} m spacing is an assumption.</p>
         <p v-if="state.addMsg" class="small accent">{{ state.addMsg }}</p>
+      </section>
+
+      <section>
+        <h3>4 · Export <span class="muted">{{ state.area ? 'project area' : 'whole site' }}</span></h3>
+        <div class="btns">
+          <button :disabled="exporting" title="AutoCAD R12 DXF: crowns, labels, free spots, buildings extruded to their height"
+                  @click="exportAs('dxf')">CAD (DXF)</button>
+          <button :disabled="exporting" title="GeoPackage for QGIS or ArcGIS: trees, free spots, buildings, sidewalk edges"
+                  @click="exportAs('gpkg')">GIS (GeoPackage)</button>
+        </div>
+        <p class="small muted">The layout on screen, in EPSG:25831 metres: trees (existing, replacement, added), free spots, and buildings and
+          sidewalk edges within 20 m.{{ exportMsg ? ' ' + exportMsg : '' }}</p>
       </section>
 
       <details class="group">
