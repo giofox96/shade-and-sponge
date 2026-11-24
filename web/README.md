@@ -21,7 +21,7 @@ The published data use the **thesis configuration** (since 26 Oct): the exact si
 ## Layout (28 Oct cleanup)
 - **Header:** the site, and two labelled switches: **Palette** (city 7 / Barcelona 30) and **New trees at** (≈ 10 years / established).
 - **Left panel**, in working order:
-  1. **Scenario:** today, city rule, optimised, project area, random, plus the priority triangle.
+  1. **Scenario:** today, city rule, optimised, project area, random. The priority triangle sits in the right panel, above the trade-off chart (24 Nov).
   2. **Project area:** draw, replace all, fill spots.
   3. **Add trees.**
 

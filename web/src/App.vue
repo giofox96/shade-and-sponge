@@ -100,14 +100,6 @@ watch(
           <button class="ghost" :class="{ on: state.scenarioId === 'S1_random_0' }" title="A random palette under the same rules: what optimisation adds over chance"
                   @click="state.scenarioId = 'S1_random_0'">Random</button>
         </div>
-        <p class="sub">Priorities <span class="muted">· click to re-optimise</span></p>
-        <PriorityTriangle />
-        <p v-if="state.busy" class="small accent">Optimising…</p>
-        <p v-if="state.liveError" class="small danger">{{ state.liveError }}</p>
-        <details class="how"><summary>How it works</summary>
-          <p class="small muted">Dots are precomputed layouts with exact scores (filled blue = on the trade-off front). A click anywhere else re-optimises
-            in your browser: the result is an estimate. The same applies inside a project area.</p>
-        </details>
       </section>
 
       <section>
@@ -238,7 +230,20 @@ watch(
     </main>
 
     <aside v-show="panels.rightOpen" class="right">
-      <section><h3>Trade-off: summer shade vs winter shade</h3><TradeoffChart /></section>
+      <!-- priorities and the trade-off chart together: the triangle steers the optimiser, the chart shows where the result lands -->
+      <section>
+        <h3>Trade-off</h3>
+        <p class="sub">Priorities <span class="muted">· click to re-optimise</span></p>
+        <PriorityTriangle />
+        <p v-if="state.busy" class="small accent">Optimising…</p>
+        <p v-if="state.liveError" class="small danger">{{ state.liveError }}</p>
+        <details class="how"><summary>How it works</summary>
+          <p class="small muted">Dots are precomputed layouts with exact scores (filled blue = on the trade-off front). A click anywhere else re-optimises
+            in your browser: the result is an estimate. The same applies inside a project area.</p>
+        </details>
+        <p class="sub">Summer shade vs winter shade</p>
+        <TradeoffChart />
+      </section>
       <section><h3>Canopy cover</h3><CoverCounter /></section>
       <section>
         <h3>Results</h3>
