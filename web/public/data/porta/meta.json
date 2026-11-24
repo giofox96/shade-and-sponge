@@ -15,11 +15,11 @@
   "measured_pct": 20.11,
   "target_pct": 30.0,
   "area_m2": 836826,
-  "s0_disc_pct": 23.0,
+  "s0_disc_pct": 23.4,
   "additions": {
    "spots": 153,
-   "opt_pts": 0.34,
-   "city_pts": 0.29
+   "opt_pts": 0.37,
+   "city_pts": 0.33
   }
  },
  "leaf_by_species": {
@@ -616,10 +616,10 @@
    "species": "Celtis australis",
    "short": "Celtis",
    "color": "#3e8a3a",
-   "crown_diam_m": 6.23,
-   "height_m": 9.57,
-   "crown_base_m": 4.99,
-   "lai": 2.5,
+   "crown_diam_m": 7.17,
+   "height_m": 9.665,
+   "crown_base_m": 5.165,
+   "lai": 2.545,
    "trunk_class": "TERCERA",
    "size_class": "large",
    "cap": 127,
@@ -646,10 +646,10 @@
    "species": "Melia azedarach",
    "short": "Melia",
    "color": "#2f5fa8",
-   "crown_diam_m": 8.02,
-   "height_m": 8.925,
-   "crown_base_m": 4.7,
-   "lai": 2.41,
+   "crown_diam_m": 8.65,
+   "height_m": 8.93,
+   "crown_base_m": 4.71,
+   "lai": 2.51,
    "trunk_class": "TERCERA",
    "size_class": "medium",
    "cap": 256,
@@ -676,10 +676,10 @@
    "species": "Pyrus calleryana",
    "short": "Pyrus",
    "color": "#b07a12",
-   "crown_diam_m": 3.805,
+   "crown_diam_m": 3.93,
    "height_m": 7.865,
-   "crown_base_m": 3.67,
-   "lai": 2.225,
+   "crown_base_m": 3.73,
+   "lai": 2.27,
    "trunk_class": "SEGONA",
    "size_class": "small",
    "cap": 276,
@@ -706,10 +706,10 @@
    "species": "Jacaranda mimosifolia",
    "short": "Jacaranda",
    "color": "#a33f5e",
-   "crown_diam_m": 7.55,
-   "height_m": 9.82,
+   "crown_diam_m": 8.1,
+   "height_m": 9.78,
    "crown_base_m": 5.47,
-   "lai": 3.22,
+   "lai": 3.12,
    "trunk_class": "TERCERA",
    "size_class": "large",
    "cap": 278,
@@ -736,10 +736,10 @@
    "species": "Tipuana tipu",
    "short": "Tipuana",
    "color": "#6e7a1e",
-   "crown_diam_m": 7.125,
-   "height_m": 10.385,
-   "crown_base_m": 5.390000000000001,
-   "lai": 2.245,
+   "crown_diam_m": 8.41,
+   "height_m": 10.36,
+   "crown_base_m": 5.43,
+   "lai": 2.25,
    "trunk_class": "TERCERA",
    "size_class": "large",
    "cap": 284,
@@ -766,10 +766,10 @@
    "species": "Brachychiton populneus",
    "short": "Brachychiton",
    "color": "#8a4e9a",
-   "crown_diam_m": 4.85,
-   "height_m": 9.5,
-   "crown_base_m": 4.11,
-   "lai": 2.33,
+   "crown_diam_m": 5.89,
+   "height_m": 9.44,
+   "crown_base_m": 4.39,
+   "lai": 2.4,
    "trunk_class": "TERCERA",
    "size_class": "medium",
    "cap": 320,
@@ -826,9 +826,9 @@
    "species": "Platanus × acerifolia",
    "short": "Platanus",
    "color": "#7d776b",
-   "crown_diam_m": 6.98,
-   "height_m": 14.34,
-   "crown_base_m": 6.94,
+   "crown_diam_m": 8.08,
+   "height_m": 14.31,
+   "crown_base_m": 7.06,
    "lai": 2.36,
    "trunk_class": null,
    "size_class": "large",
@@ -861,12 +861,12 @@
    "pareto": false,
    "in_layouts": true,
    "metrics": {
-    "shade_summer_m2h": 292395.1,
-    "shade_winter_m2h": 166000.5,
-    "runoff_hot_m3": 2705.9,
-    "runoff_m3": 17661.1,
-    "interception_m3": 788.3,
-    "canopy_pct": 23.0
+    "shade_summer_m2h": 360118.7,
+    "shade_winter_m2h": 187122.9,
+    "runoff_hot_m3": 2702.8,
+    "runoff_m3": 17649.2,
+    "interception_m3": 801.5,
+    "canopy_pct": 23.4
    },
    "counts": {}
   },
@@ -877,21 +877,21 @@
    "pareto": false,
    "in_layouts": true,
    "metrics": {
-    "shade_summer_m2h": 272948.8,
-    "shade_winter_m2h": 180260.5,
-    "runoff_hot_m3": 2712.5,
-    "runoff_m3": 17691.6,
-    "interception_m3": 753.0,
-    "canopy_pct": 21.9
+    "shade_summer_m2h": 331714.5,
+    "shade_winter_m2h": 205346.3,
+    "runoff_hot_m3": 2709.4,
+    "runoff_m3": 17680.4,
+    "interception_m3": 766.8,
+    "canopy_pct": 22.2
    },
    "counts": {
     "Celtis australis": 127,
-    "Melia azedarach": 71,
-    "Pyrus calleryana": 115,
-    "Jacaranda mimosifolia": 140,
-    "Tipuana tipu": 163,
-    "Brachychiton populneus": 99,
-    "Styphnolobium japonicum": 117
+    "Melia azedarach": 59,
+    "Pyrus calleryana": 123,
+    "Jacaranda mimosifolia": 138,
+    "Tipuana tipu": 157,
+    "Brachychiton populneus": 101,
+    "Styphnolobium japonicum": 127
    }
   },
   {
@@ -901,21 +901,21 @@
    "pareto": false,
    "in_layouts": false,
    "metrics": {
-    "shade_summer_m2h": 274383.8,
-    "shade_winter_m2h": 179413.9,
-    "runoff_hot_m3": 2711.8,
-    "runoff_m3": 17690.2,
-    "interception_m3": 754.8,
-    "canopy_pct": 21.9
+    "shade_summer_m2h": 333834.7,
+    "shade_winter_m2h": 204506.4,
+    "runoff_hot_m3": 2708.8,
+    "runoff_m3": 17678.7,
+    "interception_m3": 769.5,
+    "canopy_pct": 22.3
    },
    "counts": {
     "Celtis australis": 127,
-    "Melia azedarach": 79,
-    "Pyrus calleryana": 113,
-    "Jacaranda mimosifolia": 153,
-    "Tipuana tipu": 155,
-    "Brachychiton populneus": 103,
-    "Styphnolobium japonicum": 102
+    "Melia azedarach": 78,
+    "Pyrus calleryana": 115,
+    "Jacaranda mimosifolia": 149,
+    "Tipuana tipu": 146,
+    "Brachychiton populneus": 104,
+    "Styphnolobium japonicum": 113
    }
   },
   {
@@ -925,21 +925,21 @@
    "pareto": false,
    "in_layouts": false,
    "metrics": {
-    "shade_summer_m2h": 274086.9,
-    "shade_winter_m2h": 178935.5,
-    "runoff_hot_m3": 2712.3,
-    "runoff_m3": 17690.8,
-    "interception_m3": 754.5,
-    "canopy_pct": 21.9
+    "shade_summer_m2h": 332953.2,
+    "shade_winter_m2h": 202934.3,
+    "runoff_hot_m3": 2708.7,
+    "runoff_m3": 17679.2,
+    "interception_m3": 769.1,
+    "canopy_pct": 22.3
    },
    "counts": {
     "Celtis australis": 127,
-    "Melia azedarach": 95,
-    "Pyrus calleryana": 109,
-    "Jacaranda mimosifolia": 151,
-    "Tipuana tipu": 125,
-    "Brachychiton populneus": 109,
-    "Styphnolobium japonicum": 116
+    "Melia azedarach": 88,
+    "Pyrus calleryana": 110,
+    "Jacaranda mimosifolia": 150,
+    "Tipuana tipu": 122,
+    "Brachychiton populneus": 112,
+    "Styphnolobium japonicum": 123
    }
   },
   {
@@ -949,21 +949,21 @@
    "pareto": false,
    "in_layouts": false,
    "metrics": {
-    "shade_summer_m2h": 273537.4,
-    "shade_winter_m2h": 179832.2,
-    "runoff_hot_m3": 2712.1,
-    "runoff_m3": 17691.7,
-    "interception_m3": 753.8,
-    "canopy_pct": 21.9
+    "shade_summer_m2h": 332275.3,
+    "shade_winter_m2h": 204425.1,
+    "runoff_hot_m3": 2709.9,
+    "runoff_m3": 17680.1,
+    "interception_m3": 767.7,
+    "canopy_pct": 22.2
    },
    "counts": {
     "Celtis australis": 127,
-    "Melia azedarach": 77,
-    "Pyrus calleryana": 118,
-    "Jacaranda mimosifolia": 150,
-    "Tipuana tipu": 150,
-    "Brachychiton populneus": 105,
-    "Styphnolobium japonicum": 105
+    "Melia azedarach": 69,
+    "Pyrus calleryana": 122,
+    "Jacaranda mimosifolia": 146,
+    "Tipuana tipu": 145,
+    "Brachychiton populneus": 110,
+    "Styphnolobium japonicum": 113
    }
   },
   {
@@ -973,21 +973,21 @@
    "pareto": false,
    "in_layouts": false,
    "metrics": {
-    "shade_summer_m2h": 271926.9,
-    "shade_winter_m2h": 177833.9,
-    "runoff_hot_m3": 2711.9,
-    "runoff_m3": 17691.7,
-    "interception_m3": 751.9,
-    "canopy_pct": 21.8
+    "shade_summer_m2h": 330665.5,
+    "shade_winter_m2h": 203084.7,
+    "runoff_hot_m3": 2709.0,
+    "runoff_m3": 17681.3,
+    "interception_m3": 765.4,
+    "canopy_pct": 22.2
    },
    "counts": {
     "Celtis australis": 127,
-    "Melia azedarach": 83,
-    "Pyrus calleryana": 111,
-    "Jacaranda mimosifolia": 138,
-    "Tipuana tipu": 135,
-    "Brachychiton populneus": 113,
-    "Styphnolobium japonicum": 125
+    "Melia azedarach": 79,
+    "Pyrus calleryana": 116,
+    "Jacaranda mimosifolia": 130,
+    "Tipuana tipu": 132,
+    "Brachychiton populneus": 120,
+    "Styphnolobium japonicum": 128
    }
   },
   {
@@ -997,21 +997,21 @@
    "pareto": false,
    "in_layouts": false,
    "metrics": {
-    "shade_summer_m2h": 272392.7,
-    "shade_winter_m2h": 179095.7,
-    "runoff_hot_m3": 2712.4,
-    "runoff_m3": 17691.7,
-    "interception_m3": 753.4,
-    "canopy_pct": 21.9
+    "shade_summer_m2h": 333061.7,
+    "shade_winter_m2h": 204391.1,
+    "runoff_hot_m3": 2708.0,
+    "runoff_m3": 17678.7,
+    "interception_m3": 768.4,
+    "canopy_pct": 22.2
    },
    "counts": {
     "Celtis australis": 127,
-    "Melia azedarach": 79,
+    "Melia azedarach": 71,
     "Pyrus calleryana": 123,
-    "Jacaranda mimosifolia": 143,
-    "Tipuana tipu": 146,
+    "Jacaranda mimosifolia": 150,
+    "Tipuana tipu": 140,
     "Brachychiton populneus": 107,
-    "Styphnolobium japonicum": 107
+    "Styphnolobium japonicum": 114
    }
   },
   {
@@ -1021,21 +1021,21 @@
    "pareto": false,
    "in_layouts": false,
    "metrics": {
-    "shade_summer_m2h": 272396.2,
-    "shade_winter_m2h": 180793.0,
-    "runoff_hot_m3": 2712.5,
-    "runoff_m3": 17693.0,
-    "interception_m3": 752.4,
-    "canopy_pct": 21.9
+    "shade_summer_m2h": 332777.3,
+    "shade_winter_m2h": 204556.4,
+    "runoff_hot_m3": 2709.1,
+    "runoff_m3": 17680.1,
+    "interception_m3": 767.6,
+    "canopy_pct": 22.2
    },
    "counts": {
     "Celtis australis": 127,
-    "Melia azedarach": 75,
-    "Pyrus calleryana": 110,
-    "Jacaranda mimosifolia": 133,
-    "Tipuana tipu": 158,
+    "Melia azedarach": 70,
+    "Pyrus calleryana": 108,
+    "Jacaranda mimosifolia": 134,
+    "Tipuana tipu": 150,
     "Brachychiton populneus": 118,
-    "Styphnolobium japonicum": 111
+    "Styphnolobium japonicum": 125
    }
   },
   {
@@ -1045,21 +1045,21 @@
    "pareto": false,
    "in_layouts": false,
    "metrics": {
-    "shade_summer_m2h": 271930.9,
-    "shade_winter_m2h": 178947.3,
-    "runoff_hot_m3": 2712.4,
-    "runoff_m3": 17691.6,
-    "interception_m3": 753.0,
-    "canopy_pct": 21.9
+    "shade_summer_m2h": 332485.8,
+    "shade_winter_m2h": 204783.2,
+    "runoff_hot_m3": 2709.4,
+    "runoff_m3": 17680.2,
+    "interception_m3": 767.4,
+    "canopy_pct": 22.2
    },
    "counts": {
     "Celtis australis": 127,
-    "Melia azedarach": 79,
-    "Pyrus calleryana": 115,
-    "Jacaranda mimosifolia": 141,
-    "Tipuana tipu": 143,
-    "Brachychiton populneus": 114,
-    "Styphnolobium japonicum": 113
+    "Melia azedarach": 73,
+    "Pyrus calleryana": 117,
+    "Jacaranda mimosifolia": 135,
+    "Tipuana tipu": 144,
+    "Brachychiton populneus": 119,
+    "Styphnolobium japonicum": 117
    }
   },
   {
@@ -1069,21 +1069,21 @@
    "pareto": false,
    "in_layouts": false,
    "metrics": {
-    "shade_summer_m2h": 273669.7,
-    "shade_winter_m2h": 180573.3,
-    "runoff_hot_m3": 2712.8,
-    "runoff_m3": 17690.6,
-    "interception_m3": 754.6,
-    "canopy_pct": 21.9
+    "shade_summer_m2h": 333183.3,
+    "shade_winter_m2h": 205270.1,
+    "runoff_hot_m3": 2708.4,
+    "runoff_m3": 17679.3,
+    "interception_m3": 769.2,
+    "canopy_pct": 22.2
    },
    "counts": {
     "Celtis australis": 127,
-    "Melia azedarach": 77,
-    "Pyrus calleryana": 110,
-    "Jacaranda mimosifolia": 152,
-    "Tipuana tipu": 139,
-    "Brachychiton populneus": 128,
-    "Styphnolobium japonicum": 99
+    "Melia azedarach": 71,
+    "Pyrus calleryana": 112,
+    "Jacaranda mimosifolia": 156,
+    "Tipuana tipu": 128,
+    "Brachychiton populneus": 132,
+    "Styphnolobium japonicum": 106
    }
   },
   {
@@ -1093,21 +1093,21 @@
    "pareto": false,
    "in_layouts": false,
    "metrics": {
-    "shade_summer_m2h": 272938.7,
-    "shade_winter_m2h": 178949.2,
-    "runoff_hot_m3": 2712.3,
-    "runoff_m3": 17691.4,
-    "interception_m3": 753.4,
-    "canopy_pct": 21.9
+    "shade_summer_m2h": 332734.8,
+    "shade_winter_m2h": 203779.1,
+    "runoff_hot_m3": 2708.6,
+    "runoff_m3": 17679.5,
+    "interception_m3": 767.8,
+    "canopy_pct": 22.2
    },
    "counts": {
     "Celtis australis": 127,
     "Melia azedarach": 78,
     "Pyrus calleryana": 122,
-    "Jacaranda mimosifolia": 145,
-    "Tipuana tipu": 151,
-    "Brachychiton populneus": 99,
-    "Styphnolobium japonicum": 110
+    "Jacaranda mimosifolia": 146,
+    "Tipuana tipu": 136,
+    "Brachychiton populneus": 98,
+    "Styphnolobium japonicum": 125
    }
   },
   {
@@ -1117,21 +1117,21 @@
    "pareto": false,
    "in_layouts": true,
    "metrics": {
-    "shade_summer_m2h": 268112.4,
-    "shade_winter_m2h": 169509.2,
-    "runoff_hot_m3": 2714.3,
-    "runoff_m3": 17700.7,
-    "interception_m3": 742.2,
-    "canopy_pct": 21.9
+    "shade_summer_m2h": 327726.0,
+    "shade_winter_m2h": 192358.8,
+    "runoff_hot_m3": 2711.2,
+    "runoff_m3": 17688.3,
+    "interception_m3": 756.5,
+    "canopy_pct": 22.2
    },
    "counts": {
     "Celtis australis": 127,
-    "Melia azedarach": 153,
-    "Pyrus calleryana": 152,
+    "Melia azedarach": 144,
+    "Pyrus calleryana": 154,
     "Jacaranda mimosifolia": 0,
-    "Tipuana tipu": 221,
+    "Tipuana tipu": 218,
     "Brachychiton populneus": 0,
-    "Styphnolobium japonicum": 179
+    "Styphnolobium japonicum": 189
    }
   },
   {
@@ -1141,21 +1141,21 @@
    "pareto": false,
    "in_layouts": false,
    "metrics": {
-    "shade_summer_m2h": 269792.5,
-    "shade_winter_m2h": 167790.9,
-    "runoff_hot_m3": 2714.1,
-    "runoff_m3": 17698.2,
-    "interception_m3": 744.8,
-    "canopy_pct": 21.9
+    "shade_summer_m2h": 328800.6,
+    "shade_winter_m2h": 192758.7,
+    "runoff_hot_m3": 2711.2,
+    "runoff_m3": 17687.3,
+    "interception_m3": 757.0,
+    "canopy_pct": 22.2
    },
    "counts": {
     "Celtis australis": 127,
-    "Melia azedarach": 172,
-    "Pyrus calleryana": 151,
+    "Melia azedarach": 158,
+    "Pyrus calleryana": 153,
     "Jacaranda mimosifolia": 0,
-    "Tipuana tipu": 217,
+    "Tipuana tipu": 215,
     "Brachychiton populneus": 0,
-    "Styphnolobium japonicum": 165
+    "Styphnolobium japonicum": 179
    }
   },
   {
@@ -1165,21 +1165,21 @@
    "pareto": false,
    "in_layouts": false,
    "metrics": {
-    "shade_summer_m2h": 268291.4,
-    "shade_winter_m2h": 169248.1,
-    "runoff_hot_m3": 2713.9,
-    "runoff_m3": 17700.0,
-    "interception_m3": 742.7,
-    "canopy_pct": 21.9
+    "shade_summer_m2h": 327175.6,
+    "shade_winter_m2h": 193778.4,
+    "runoff_hot_m3": 2711.1,
+    "runoff_m3": 17688.8,
+    "interception_m3": 755.5,
+    "canopy_pct": 22.2
    },
    "counts": {
     "Celtis australis": 127,
-    "Melia azedarach": 148,
-    "Pyrus calleryana": 147,
+    "Melia azedarach": 133,
+    "Pyrus calleryana": 151,
     "Jacaranda mimosifolia": 0,
-    "Tipuana tipu": 225,
+    "Tipuana tipu": 222,
     "Brachychiton populneus": 0,
-    "Styphnolobium japonicum": 185
+    "Styphnolobium japonicum": 199
    }
   },
   {
@@ -1189,21 +1189,21 @@
    "pareto": false,
    "in_layouts": false,
    "metrics": {
-    "shade_summer_m2h": 270254.3,
-    "shade_winter_m2h": 170883.6,
-    "runoff_hot_m3": 2713.3,
-    "runoff_m3": 17698.6,
-    "interception_m3": 743.9,
-    "canopy_pct": 21.9
+    "shade_summer_m2h": 329916.5,
+    "shade_winter_m2h": 195838.4,
+    "runoff_hot_m3": 2711.0,
+    "runoff_m3": 17687.8,
+    "interception_m3": 757.8,
+    "canopy_pct": 22.3
    },
    "counts": {
     "Celtis australis": 127,
-    "Melia azedarach": 166,
-    "Pyrus calleryana": 131,
+    "Melia azedarach": 153,
+    "Pyrus calleryana": 133,
     "Jacaranda mimosifolia": 0,
-    "Tipuana tipu": 224,
+    "Tipuana tipu": 221,
     "Brachychiton populneus": 0,
-    "Styphnolobium japonicum": 184
+    "Styphnolobium japonicum": 198
    }
   },
   {
@@ -1213,21 +1213,21 @@
    "pareto": false,
    "in_layouts": false,
    "metrics": {
-    "shade_summer_m2h": 268127.1,
-    "shade_winter_m2h": 167660.7,
-    "runoff_hot_m3": 2714.1,
-    "runoff_m3": 17699.8,
-    "interception_m3": 742.5,
-    "canopy_pct": 21.9
+    "shade_summer_m2h": 326429.1,
+    "shade_winter_m2h": 191416.8,
+    "runoff_hot_m3": 2711.5,
+    "runoff_m3": 17690.0,
+    "interception_m3": 754.5,
+    "canopy_pct": 22.2
    },
    "counts": {
     "Celtis australis": 127,
-    "Melia azedarach": 156,
-    "Pyrus calleryana": 161,
+    "Melia azedarach": 140,
+    "Pyrus calleryana": 165,
     "Jacaranda mimosifolia": 0,
-    "Tipuana tipu": 213,
+    "Tipuana tipu": 211,
     "Brachychiton populneus": 0,
-    "Styphnolobium japonicum": 175
+    "Styphnolobium japonicum": 189
    }
   },
   {
@@ -1237,21 +1237,21 @@
    "pareto": false,
    "in_layouts": false,
    "metrics": {
-    "shade_summer_m2h": 269701.1,
-    "shade_winter_m2h": 167363.1,
-    "runoff_hot_m3": 2713.8,
-    "runoff_m3": 17698.9,
-    "interception_m3": 743.6,
-    "canopy_pct": 21.9
+    "shade_summer_m2h": 329031.5,
+    "shade_winter_m2h": 192751.2,
+    "runoff_hot_m3": 2710.1,
+    "runoff_m3": 17687.3,
+    "interception_m3": 757.0,
+    "canopy_pct": 22.2
    },
    "counts": {
     "Celtis australis": 127,
-    "Melia azedarach": 176,
-    "Pyrus calleryana": 154,
+    "Melia azedarach": 166,
+    "Pyrus calleryana": 157,
     "Jacaranda mimosifolia": 0,
-    "Tipuana tipu": 208,
+    "Tipuana tipu": 205,
     "Brachychiton populneus": 0,
-    "Styphnolobium japonicum": 167
+    "Styphnolobium japonicum": 177
    }
   },
   {
@@ -1261,21 +1261,21 @@
    "pareto": false,
    "in_layouts": false,
    "metrics": {
-    "shade_summer_m2h": 269517.9,
-    "shade_winter_m2h": 167874.0,
-    "runoff_hot_m3": 2713.8,
-    "runoff_m3": 17699.8,
-    "interception_m3": 743.2,
-    "canopy_pct": 21.9
+    "shade_summer_m2h": 327868.4,
+    "shade_winter_m2h": 192004.6,
+    "runoff_hot_m3": 2711.5,
+    "runoff_m3": 17688.8,
+    "interception_m3": 756.3,
+    "canopy_pct": 22.2
    },
    "counts": {
     "Celtis australis": 127,
-    "Melia azedarach": 171,
-    "Pyrus calleryana": 144,
+    "Melia azedarach": 159,
+    "Pyrus calleryana": 146,
     "Jacaranda mimosifolia": 0,
-    "Tipuana tipu": 206,
+    "Tipuana tipu": 204,
     "Brachychiton populneus": 0,
-    "Styphnolobium japonicum": 184
+    "Styphnolobium japonicum": 196
    }
   },
   {
@@ -1285,21 +1285,21 @@
    "pareto": false,
    "in_layouts": false,
    "metrics": {
-    "shade_summer_m2h": 269603.0,
-    "shade_winter_m2h": 172363.7,
-    "runoff_hot_m3": 2713.8,
-    "runoff_m3": 17699.9,
-    "interception_m3": 742.8,
-    "canopy_pct": 21.9
+    "shade_summer_m2h": 329120.2,
+    "shade_winter_m2h": 196484.9,
+    "runoff_hot_m3": 2710.8,
+    "runoff_m3": 17687.4,
+    "interception_m3": 757.3,
+    "canopy_pct": 22.3
    },
    "counts": {
     "Celtis australis": 127,
-    "Melia azedarach": 148,
-    "Pyrus calleryana": 148,
+    "Melia azedarach": 137,
+    "Pyrus calleryana": 151,
     "Jacaranda mimosifolia": 0,
-    "Tipuana tipu": 241,
+    "Tipuana tipu": 238,
     "Brachychiton populneus": 0,
-    "Styphnolobium japonicum": 168
+    "Styphnolobium japonicum": 179
    }
   },
   {
@@ -1309,21 +1309,21 @@
    "pareto": false,
    "in_layouts": false,
    "metrics": {
-    "shade_summer_m2h": 269345.1,
-    "shade_winter_m2h": 168892.6,
-    "runoff_hot_m3": 2713.9,
-    "runoff_m3": 17699.3,
-    "interception_m3": 743.6,
-    "canopy_pct": 21.9
+    "shade_summer_m2h": 329016.2,
+    "shade_winter_m2h": 193060.6,
+    "runoff_hot_m3": 2710.9,
+    "runoff_m3": 17687.4,
+    "interception_m3": 756.9,
+    "canopy_pct": 22.2
    },
    "counts": {
     "Celtis australis": 127,
-    "Melia azedarach": 167,
-    "Pyrus calleryana": 151,
+    "Melia azedarach": 158,
+    "Pyrus calleryana": 154,
     "Jacaranda mimosifolia": 0,
-    "Tipuana tipu": 215,
+    "Tipuana tipu": 211,
     "Brachychiton populneus": 0,
-    "Styphnolobium japonicum": 172
+    "Styphnolobium japonicum": 182
    }
   },
   {
@@ -1333,21 +1333,21 @@
    "pareto": false,
    "in_layouts": false,
    "metrics": {
-    "shade_summer_m2h": 270111.4,
-    "shade_winter_m2h": 168792.3,
-    "runoff_hot_m3": 2714.1,
-    "runoff_m3": 17699.7,
-    "interception_m3": 743.5,
-    "canopy_pct": 21.9
+    "shade_summer_m2h": 328463.5,
+    "shade_winter_m2h": 193537.7,
+    "runoff_hot_m3": 2710.8,
+    "runoff_m3": 17688.0,
+    "interception_m3": 756.6,
+    "canopy_pct": 22.2
    },
    "counts": {
     "Celtis australis": 127,
-    "Melia azedarach": 169,
+    "Melia azedarach": 155,
     "Pyrus calleryana": 144,
     "Jacaranda mimosifolia": 0,
-    "Tipuana tipu": 217,
+    "Tipuana tipu": 214,
     "Brachychiton populneus": 0,
-    "Styphnolobium japonicum": 175
+    "Styphnolobium japonicum": 192
    }
   },
   {
@@ -1357,21 +1357,21 @@
    "pareto": false,
    "in_layouts": false,
    "metrics": {
-    "shade_summer_m2h": 280652.1,
-    "shade_winter_m2h": 169702.6,
-    "runoff_hot_m3": 2711.3,
-    "runoff_m3": 17687.7,
-    "interception_m3": 759.4,
-    "canopy_pct": 22.1
+    "shade_summer_m2h": 337283.0,
+    "shade_winter_m2h": 191944.6,
+    "runoff_hot_m3": 2708.3,
+    "runoff_m3": 17677.3,
+    "interception_m3": 771.1,
+    "canopy_pct": 22.3
    },
    "counts": {
     "Celtis australis": 127,
-    "Melia azedarach": 234,
-    "Pyrus calleryana": 106,
-    "Jacaranda mimosifolia": 147,
-    "Tipuana tipu": 27,
-    "Brachychiton populneus": 41,
-    "Styphnolobium japonicum": 150
+    "Melia azedarach": 223,
+    "Pyrus calleryana": 108,
+    "Jacaranda mimosifolia": 146,
+    "Tipuana tipu": 25,
+    "Brachychiton populneus": 40,
+    "Styphnolobium japonicum": 163
    }
   },
   {
@@ -1381,21 +1381,21 @@
    "pareto": false,
    "in_layouts": false,
    "metrics": {
-    "shade_summer_m2h": 281060.3,
-    "shade_winter_m2h": 168511.5,
-    "runoff_hot_m3": 2711.5,
-    "runoff_m3": 17687.5,
-    "interception_m3": 758.4,
-    "canopy_pct": 22.0
+    "shade_summer_m2h": 338107.2,
+    "shade_winter_m2h": 191827.8,
+    "runoff_hot_m3": 2708.3,
+    "runoff_m3": 17676.5,
+    "interception_m3": 772.3,
+    "canopy_pct": 22.4
    },
    "counts": {
     "Celtis australis": 127,
-    "Melia azedarach": 238,
-    "Pyrus calleryana": 109,
-    "Jacaranda mimosifolia": 149,
-    "Tipuana tipu": 23,
+    "Melia azedarach": 228,
+    "Pyrus calleryana": 110,
+    "Jacaranda mimosifolia": 144,
+    "Tipuana tipu": 26,
     "Brachychiton populneus": 51,
-    "Styphnolobium japonicum": 135
+    "Styphnolobium japonicum": 146
    }
   },
   {
@@ -1405,21 +1405,21 @@
    "pareto": false,
    "in_layouts": false,
    "metrics": {
-    "shade_summer_m2h": 282264.5,
-    "shade_winter_m2h": 171115.1,
-    "runoff_hot_m3": 2710.5,
-    "runoff_m3": 17686.1,
-    "interception_m3": 761.0,
-    "canopy_pct": 22.1
+    "shade_summer_m2h": 338300.8,
+    "shade_winter_m2h": 192543.4,
+    "runoff_hot_m3": 2707.8,
+    "runoff_m3": 17676.4,
+    "interception_m3": 773.1,
+    "canopy_pct": 22.3
    },
    "counts": {
     "Celtis australis": 127,
-    "Melia azedarach": 231,
-    "Pyrus calleryana": 113,
-    "Jacaranda mimosifolia": 165,
-    "Tipuana tipu": 21,
-    "Brachychiton populneus": 46,
-    "Styphnolobium japonicum": 129
+    "Melia azedarach": 219,
+    "Pyrus calleryana": 115,
+    "Jacaranda mimosifolia": 161,
+    "Tipuana tipu": 22,
+    "Brachychiton populneus": 44,
+    "Styphnolobium japonicum": 144
    }
   },
   {
@@ -1429,21 +1429,21 @@
    "pareto": false,
    "in_layouts": false,
    "metrics": {
-    "shade_summer_m2h": 281174.4,
-    "shade_winter_m2h": 170188.4,
-    "runoff_hot_m3": 2711.1,
-    "runoff_m3": 17687.3,
-    "interception_m3": 759.4,
-    "canopy_pct": 22.0
+    "shade_summer_m2h": 338579.3,
+    "shade_winter_m2h": 192360.0,
+    "runoff_hot_m3": 2708.4,
+    "runoff_m3": 17676.5,
+    "interception_m3": 773.6,
+    "canopy_pct": 22.4
    },
    "counts": {
     "Celtis australis": 127,
-    "Melia azedarach": 233,
-    "Pyrus calleryana": 114,
-    "Jacaranda mimosifolia": 158,
-    "Tipuana tipu": 23,
-    "Brachychiton populneus": 53,
-    "Styphnolobium japonicum": 124
+    "Melia azedarach": 224,
+    "Pyrus calleryana": 115,
+    "Jacaranda mimosifolia": 162,
+    "Tipuana tipu": 18,
+    "Brachychiton populneus": 50,
+    "Styphnolobium japonicum": 136
    }
   },
   {
@@ -1453,21 +1453,21 @@
    "pareto": false,
    "in_layouts": false,
    "metrics": {
-    "shade_summer_m2h": 280814.8,
-    "shade_winter_m2h": 169882.7,
-    "runoff_hot_m3": 2711.8,
-    "runoff_m3": 17687.8,
-    "interception_m3": 759.3,
-    "canopy_pct": 22.0
+    "shade_summer_m2h": 338179.2,
+    "shade_winter_m2h": 193694.4,
+    "runoff_hot_m3": 2708.0,
+    "runoff_m3": 17676.1,
+    "interception_m3": 773.0,
+    "canopy_pct": 22.4
    },
    "counts": {
     "Celtis australis": 127,
-    "Melia azedarach": 226,
+    "Melia azedarach": 214,
     "Pyrus calleryana": 104,
-    "Jacaranda mimosifolia": 155,
+    "Jacaranda mimosifolia": 153,
     "Tipuana tipu": 23,
-    "Brachychiton populneus": 60,
-    "Styphnolobium japonicum": 137
+    "Brachychiton populneus": 62,
+    "Styphnolobium japonicum": 149
    }
   },
   {
@@ -1477,21 +1477,21 @@
    "pareto": false,
    "in_layouts": false,
    "metrics": {
-    "shade_summer_m2h": 282112.3,
-    "shade_winter_m2h": 170164.3,
-    "runoff_hot_m3": 2711.3,
-    "runoff_m3": 17687.6,
-    "interception_m3": 759.6,
-    "canopy_pct": 22.0
+    "shade_summer_m2h": 338499.9,
+    "shade_winter_m2h": 193664.1,
+    "runoff_hot_m3": 2707.6,
+    "runoff_m3": 17676.9,
+    "interception_m3": 773.0,
+    "canopy_pct": 22.4
    },
    "counts": {
     "Celtis australis": 127,
-    "Melia azedarach": 238,
-    "Pyrus calleryana": 110,
-    "Jacaranda mimosifolia": 156,
-    "Tipuana tipu": 26,
+    "Melia azedarach": 226,
+    "Pyrus calleryana": 113,
+    "Jacaranda mimosifolia": 151,
+    "Tipuana tipu": 30,
     "Brachychiton populneus": 52,
-    "Styphnolobium japonicum": 123
+    "Styphnolobium japonicum": 133
    }
   },
   {
@@ -1501,21 +1501,21 @@
    "pareto": false,
    "in_layouts": false,
    "metrics": {
-    "shade_summer_m2h": 282254.6,
-    "shade_winter_m2h": 170421.0,
-    "runoff_hot_m3": 2710.6,
-    "runoff_m3": 17685.8,
-    "interception_m3": 760.5,
-    "canopy_pct": 22.1
+    "shade_summer_m2h": 338906.4,
+    "shade_winter_m2h": 192655.9,
+    "runoff_hot_m3": 2707.9,
+    "runoff_m3": 17675.3,
+    "interception_m3": 773.5,
+    "canopy_pct": 22.4
    },
    "counts": {
     "Celtis australis": 127,
-    "Melia azedarach": 235,
-    "Pyrus calleryana": 102,
-    "Jacaranda mimosifolia": 160,
-    "Tipuana tipu": 30,
-    "Brachychiton populneus": 42,
-    "Styphnolobium japonicum": 136
+    "Melia azedarach": 216,
+    "Pyrus calleryana": 106,
+    "Jacaranda mimosifolia": 163,
+    "Tipuana tipu": 25,
+    "Brachychiton populneus": 45,
+    "Styphnolobium japonicum": 150
    }
   },
   {
@@ -1525,21 +1525,21 @@
    "pareto": false,
    "in_layouts": false,
    "metrics": {
-    "shade_summer_m2h": 280824.9,
-    "shade_winter_m2h": 170283.0,
-    "runoff_hot_m3": 2710.8,
-    "runoff_m3": 17687.0,
-    "interception_m3": 759.3,
-    "canopy_pct": 22.0
+    "shade_summer_m2h": 336874.0,
+    "shade_winter_m2h": 191439.2,
+    "runoff_hot_m3": 2708.2,
+    "runoff_m3": 17677.0,
+    "interception_m3": 771.8,
+    "canopy_pct": 22.3
    },
    "counts": {
     "Celtis australis": 127,
-    "Melia azedarach": 223,
-    "Pyrus calleryana": 99,
-    "Jacaranda mimosifolia": 159,
+    "Melia azedarach": 212,
+    "Pyrus calleryana": 103,
+    "Jacaranda mimosifolia": 157,
     "Tipuana tipu": 18,
-    "Brachychiton populneus": 50,
-    "Styphnolobium japonicum": 156
+    "Brachychiton populneus": 46,
+    "Styphnolobium japonicum": 169
    }
   },
   {
@@ -1549,21 +1549,21 @@
    "pareto": false,
    "in_layouts": false,
    "metrics": {
-    "shade_summer_m2h": 281583.0,
-    "shade_winter_m2h": 168978.9,
-    "runoff_hot_m3": 2710.7,
-    "runoff_m3": 17686.7,
-    "interception_m3": 760.2,
-    "canopy_pct": 22.1
+    "shade_summer_m2h": 338491.0,
+    "shade_winter_m2h": 191590.2,
+    "runoff_hot_m3": 2707.6,
+    "runoff_m3": 17675.6,
+    "interception_m3": 772.9,
+    "canopy_pct": 22.4
    },
    "counts": {
     "Celtis australis": 127,
-    "Melia azedarach": 240,
-    "Pyrus calleryana": 120,
+    "Melia azedarach": 232,
+    "Pyrus calleryana": 121,
     "Jacaranda mimosifolia": 154,
     "Tipuana tipu": 24,
-    "Brachychiton populneus": 40,
-    "Styphnolobium japonicum": 127
+    "Brachychiton populneus": 37,
+    "Styphnolobium japonicum": 137
    }
   },
   {
@@ -1573,21 +1573,21 @@
    "pareto": false,
    "in_layouts": false,
    "metrics": {
-    "shade_summer_m2h": 278839.0,
-    "shade_winter_m2h": 169458.8,
-    "runoff_hot_m3": 2711.9,
-    "runoff_m3": 17688.6,
-    "interception_m3": 757.0,
-    "canopy_pct": 22.0
+    "shade_summer_m2h": 335739.4,
+    "shade_winter_m2h": 191913.0,
+    "runoff_hot_m3": 2708.0,
+    "runoff_m3": 17677.4,
+    "interception_m3": 770.5,
+    "canopy_pct": 22.3
    },
    "counts": {
     "Celtis australis": 127,
-    "Melia azedarach": 218,
-    "Pyrus calleryana": 123,
+    "Melia azedarach": 210,
+    "Pyrus calleryana": 125,
     "Jacaranda mimosifolia": 150,
-    "Tipuana tipu": 24,
-    "Brachychiton populneus": 50,
-    "Styphnolobium japonicum": 140
+    "Tipuana tipu": 23,
+    "Brachychiton populneus": 54,
+    "Styphnolobium japonicum": 143
    }
   },
   {
@@ -1601,21 +1601,21 @@
    "pareto": true,
    "in_layouts": true,
    "metrics": {
-    "shade_summer_m2h": 298788.7,
-    "shade_winter_m2h": 174468.1,
-    "runoff_hot_m3": 2703.7,
-    "runoff_m3": 17674.4,
-    "interception_m3": 777.6,
-    "canopy_pct": 22.3
+    "shade_summer_m2h": 355657.1,
+    "shade_winter_m2h": 195507.9,
+    "runoff_hot_m3": 2701.0,
+    "runoff_m3": 17661.3,
+    "interception_m3": 794.3,
+    "canopy_pct": 22.7
    },
    "counts": {
     "Celtis australis": 127,
     "Melia azedarach": 256,
-    "Pyrus calleryana": 50,
+    "Pyrus calleryana": 52,
     "Jacaranda mimosifolia": 278,
-    "Tipuana tipu": 54,
-    "Brachychiton populneus": 0,
-    "Styphnolobium japonicum": 67
+    "Tipuana tipu": 39,
+    "Brachychiton populneus": 28,
+    "Styphnolobium japonicum": 52
    }
   },
   {
@@ -1629,21 +1629,21 @@
    "pareto": true,
    "in_layouts": true,
    "metrics": {
-    "shade_summer_m2h": 259301.9,
-    "shade_winter_m2h": 158909.2,
-    "runoff_hot_m3": 2703.8,
-    "runoff_m3": 17693.8,
-    "interception_m3": 746.2,
-    "canopy_pct": 21.5
+    "shade_summer_m2h": 312715.8,
+    "shade_winter_m2h": 176282.3,
+    "runoff_hot_m3": 2702.0,
+    "runoff_m3": 17688.8,
+    "interception_m3": 748.8,
+    "canopy_pct": 21.7
    },
    "counts": {
     "Celtis australis": 127,
-    "Melia azedarach": 20,
+    "Melia azedarach": 62,
     "Pyrus calleryana": 276,
-    "Jacaranda mimosifolia": 222,
-    "Tipuana tipu": 13,
-    "Brachychiton populneus": 0,
-    "Styphnolobium japonicum": 174
+    "Jacaranda mimosifolia": 174,
+    "Tipuana tipu": 17,
+    "Brachychiton populneus": 21,
+    "Styphnolobium japonicum": 155
    }
   },
   {
@@ -1657,21 +1657,21 @@
    "pareto": true,
    "in_layouts": true,
    "metrics": {
-    "shade_summer_m2h": 257255.6,
-    "shade_winter_m2h": 149007.5,
-    "runoff_hot_m3": 2707.1,
-    "runoff_m3": 17697.1,
-    "interception_m3": 740.3,
-    "canopy_pct": 21.6
+    "shade_summer_m2h": 311674.3,
+    "shade_winter_m2h": 170443.6,
+    "runoff_hot_m3": 2703.9,
+    "runoff_m3": 17690.8,
+    "interception_m3": 745.5,
+    "canopy_pct": 21.7
    },
    "counts": {
     "Celtis australis": 127,
-    "Melia azedarach": 102,
+    "Melia azedarach": 114,
     "Pyrus calleryana": 276,
-    "Jacaranda mimosifolia": 125,
-    "Tipuana tipu": 22,
-    "Brachychiton populneus": 0,
-    "Styphnolobium japonicum": 180
+    "Jacaranda mimosifolia": 114,
+    "Tipuana tipu": 20,
+    "Brachychiton populneus": 19,
+    "Styphnolobium japonicum": 162
    }
   },
   {
@@ -1685,21 +1685,21 @@
    "pareto": true,
    "in_layouts": true,
    "metrics": {
-    "shade_summer_m2h": 248598.0,
-    "shade_winter_m2h": 144083.3,
-    "runoff_hot_m3": 2712.3,
-    "runoff_m3": 17702.3,
-    "interception_m3": 732.6,
-    "canopy_pct": 21.4
+    "shade_summer_m2h": 302379.5,
+    "shade_winter_m2h": 165368.6,
+    "runoff_hot_m3": 2710.0,
+    "runoff_m3": 17695.7,
+    "interception_m3": 737.0,
+    "canopy_pct": 21.5
    },
    "counts": {
     "Celtis australis": 127,
-    "Melia azedarach": 27,
+    "Melia azedarach": 29,
     "Pyrus calleryana": 276,
-    "Jacaranda mimosifolia": 101,
-    "Tipuana tipu": 38,
-    "Brachychiton populneus": 0,
-    "Styphnolobium japonicum": 263
+    "Jacaranda mimosifolia": 114,
+    "Tipuana tipu": 22,
+    "Brachychiton populneus": 7,
+    "Styphnolobium japonicum": 257
    }
   },
   {
@@ -1713,21 +1713,21 @@
    "pareto": true,
    "in_layouts": true,
    "metrics": {
-    "shade_summer_m2h": 245912.8,
-    "shade_winter_m2h": 143437.9,
-    "runoff_hot_m3": 2716.0,
-    "runoff_m3": 17704.8,
-    "interception_m3": 729.3,
-    "canopy_pct": 21.3
+    "shade_summer_m2h": 299198.5,
+    "shade_winter_m2h": 164623.8,
+    "runoff_hot_m3": 2713.9,
+    "runoff_m3": 17698.2,
+    "interception_m3": 733.4,
+    "canopy_pct": 21.4
    },
    "counts": {
     "Celtis australis": 127,
     "Melia azedarach": 1,
     "Pyrus calleryana": 276,
-    "Jacaranda mimosifolia": 84,
-    "Tipuana tipu": 55,
+    "Jacaranda mimosifolia": 106,
+    "Tipuana tipu": 30,
     "Brachychiton populneus": 7,
-    "Styphnolobium japonicum": 282
+    "Styphnolobium japonicum": 285
    }
   },
   {
@@ -1741,21 +1741,21 @@
    "pareto": true,
    "in_layouts": true,
    "metrics": {
-    "shade_summer_m2h": 301751.7,
-    "shade_winter_m2h": 185240.6,
-    "runoff_hot_m3": 2703.8,
-    "runoff_m3": 17673.5,
-    "interception_m3": 780.0,
-    "canopy_pct": 22.4
+    "shade_summer_m2h": 359358.1,
+    "shade_winter_m2h": 207196.2,
+    "runoff_hot_m3": 2701.0,
+    "runoff_m3": 17658.3,
+    "interception_m3": 798.0,
+    "canopy_pct": 22.9
    },
    "counts": {
-    "Celtis australis": 2,
+    "Celtis australis": 16,
     "Melia azedarach": 256,
-    "Pyrus calleryana": 50,
+    "Pyrus calleryana": 52,
     "Jacaranda mimosifolia": 278,
-    "Tipuana tipu": 186,
-    "Brachychiton populneus": 10,
-    "Styphnolobium japonicum": 50
+    "Tipuana tipu": 150,
+    "Brachychiton populneus": 68,
+    "Styphnolobium japonicum": 12
    }
   },
   {
@@ -1769,21 +1769,21 @@
    "pareto": true,
    "in_layouts": true,
    "metrics": {
-    "shade_summer_m2h": 298661.8,
-    "shade_winter_m2h": 172967.7,
-    "runoff_hot_m3": 2703.9,
-    "runoff_m3": 17673.8,
-    "interception_m3": 777.6,
-    "canopy_pct": 22.3
+    "shade_summer_m2h": 355494.6,
+    "shade_winter_m2h": 193550.0,
+    "runoff_hot_m3": 2701.5,
+    "runoff_m3": 17661.0,
+    "interception_m3": 794.1,
+    "canopy_pct": 22.7
    },
    "counts": {
     "Celtis australis": 127,
     "Melia azedarach": 256,
-    "Pyrus calleryana": 50,
+    "Pyrus calleryana": 52,
     "Jacaranda mimosifolia": 278,
-    "Tipuana tipu": 51,
-    "Brachychiton populneus": 7,
-    "Styphnolobium japonicum": 63
+    "Tipuana tipu": 38,
+    "Brachychiton populneus": 28,
+    "Styphnolobium japonicum": 53
    }
   },
   {
@@ -1797,21 +1797,21 @@
    "pareto": true,
    "in_layouts": true,
    "metrics": {
-    "shade_summer_m2h": 284647.2,
-    "shade_winter_m2h": 155611.0,
-    "runoff_hot_m3": 2708.0,
-    "runoff_m3": 17679.6,
-    "interception_m3": 763.8,
-    "canopy_pct": 22.1
+    "shade_summer_m2h": 340803.6,
+    "shade_winter_m2h": 177119.3,
+    "runoff_hot_m3": 2704.9,
+    "runoff_m3": 17669.5,
+    "interception_m3": 776.2,
+    "canopy_pct": 22.4
    },
    "counts": {
     "Celtis australis": 127,
     "Melia azedarach": 256,
-    "Pyrus calleryana": 50,
-    "Jacaranda mimosifolia": 183,
-    "Tipuana tipu": 3,
-    "Brachychiton populneus": 7,
-    "Styphnolobium japonicum": 206
+    "Pyrus calleryana": 52,
+    "Jacaranda mimosifolia": 179,
+    "Tipuana tipu": 1,
+    "Brachychiton populneus": 15,
+    "Styphnolobium japonicum": 202
    }
   },
   {
@@ -1825,21 +1825,21 @@
    "pareto": true,
    "in_layouts": true,
    "metrics": {
-    "shade_summer_m2h": 269918.9,
-    "shade_winter_m2h": 149026.0,
-    "runoff_hot_m3": 2712.8,
-    "runoff_m3": 17688.3,
-    "interception_m3": 750.8,
-    "canopy_pct": 21.9
+    "shade_summer_m2h": 326640.7,
+    "shade_winter_m2h": 170875.4,
+    "runoff_hot_m3": 2709.5,
+    "runoff_m3": 17678.6,
+    "interception_m3": 761.0,
+    "canopy_pct": 22.1
    },
    "counts": {
     "Celtis australis": 127,
-    "Melia azedarach": 159,
-    "Pyrus calleryana": 72,
-    "Jacaranda mimosifolia": 140,
-    "Tipuana tipu": 1,
+    "Melia azedarach": 180,
+    "Pyrus calleryana": 67,
+    "Jacaranda mimosifolia": 137,
+    "Tipuana tipu": 0,
     "Brachychiton populneus": 7,
-    "Styphnolobium japonicum": 326
+    "Styphnolobium japonicum": 314
    }
   },
   {
@@ -1850,24 +1850,24 @@
     0.0,
     0.5
    ],
-   "pareto": false,
+   "pareto": true,
    "in_layouts": true,
    "metrics": {
-    "shade_summer_m2h": 301751.4,
-    "shade_winter_m2h": 185267.2,
-    "runoff_hot_m3": 2703.8,
-    "runoff_m3": 17673.6,
-    "interception_m3": 779.9,
-    "canopy_pct": 22.4
+    "shade_summer_m2h": 359363.4,
+    "shade_winter_m2h": 207192.0,
+    "runoff_hot_m3": 2701.0,
+    "runoff_m3": 17658.3,
+    "interception_m3": 798.0,
+    "canopy_pct": 22.9
    },
    "counts": {
-    "Celtis australis": 2,
+    "Celtis australis": 16,
     "Melia azedarach": 256,
-    "Pyrus calleryana": 50,
+    "Pyrus calleryana": 52,
     "Jacaranda mimosifolia": 278,
-    "Tipuana tipu": 186,
-    "Brachychiton populneus": 11,
-    "Styphnolobium japonicum": 49
+    "Tipuana tipu": 150,
+    "Brachychiton populneus": 68,
+    "Styphnolobium japonicum": 12
    }
   },
   {
@@ -1881,21 +1881,21 @@
    "pareto": true,
    "in_layouts": true,
    "metrics": {
-    "shade_summer_m2h": 298965.6,
-    "shade_winter_m2h": 170828.7,
-    "runoff_hot_m3": 2705.1,
-    "runoff_m3": 17672.9,
-    "interception_m3": 778.2,
-    "canopy_pct": 22.4
+    "shade_summer_m2h": 357732.5,
+    "shade_winter_m2h": 198436.4,
+    "runoff_hot_m3": 2701.9,
+    "runoff_m3": 17659.1,
+    "interception_m3": 796.8,
+    "canopy_pct": 22.8
    },
    "counts": {
-    "Celtis australis": 125,
+    "Celtis australis": 68,
     "Melia azedarach": 256,
-    "Pyrus calleryana": 50,
+    "Pyrus calleryana": 52,
     "Jacaranda mimosifolia": 278,
-    "Tipuana tipu": 59,
-    "Brachychiton populneus": 7,
-    "Styphnolobium japonicum": 57
+    "Tipuana tipu": 97,
+    "Brachychiton populneus": 64,
+    "Styphnolobium japonicum": 17
    }
   },
   {
@@ -1909,21 +1909,21 @@
    "pareto": true,
    "in_layouts": true,
    "metrics": {
-    "shade_summer_m2h": 295843.3,
-    "shade_winter_m2h": 163994.3,
-    "runoff_hot_m3": 2708.9,
-    "runoff_m3": 17672.8,
-    "interception_m3": 775.7,
-    "canopy_pct": 22.3
+    "shade_summer_m2h": 354490.8,
+    "shade_winter_m2h": 188531.9,
+    "runoff_hot_m3": 2705.2,
+    "runoff_m3": 17661.4,
+    "interception_m3": 792.7,
+    "canopy_pct": 22.7
    },
    "counts": {
     "Celtis australis": 127,
     "Melia azedarach": 256,
-    "Pyrus calleryana": 50,
+    "Pyrus calleryana": 52,
     "Jacaranda mimosifolia": 278,
-    "Tipuana tipu": 10,
-    "Brachychiton populneus": 7,
-    "Styphnolobium japonicum": 104
+    "Tipuana tipu": 28,
+    "Brachychiton populneus": 17,
+    "Styphnolobium japonicum": 74
    }
   },
   {
@@ -1937,21 +1937,21 @@
    "pareto": true,
    "in_layouts": true,
    "metrics": {
-    "shade_summer_m2h": 301833.4,
-    "shade_winter_m2h": 185283.2,
-    "runoff_hot_m3": 2703.9,
-    "runoff_m3": 17673.5,
-    "interception_m3": 780.0,
-    "canopy_pct": 22.4
+    "shade_summer_m2h": 359368.3,
+    "shade_winter_m2h": 207232.1,
+    "runoff_hot_m3": 2701.0,
+    "runoff_m3": 17658.3,
+    "interception_m3": 798.0,
+    "canopy_pct": 22.9
    },
    "counts": {
-    "Celtis australis": 2,
+    "Celtis australis": 16,
     "Melia azedarach": 256,
-    "Pyrus calleryana": 50,
+    "Pyrus calleryana": 52,
     "Jacaranda mimosifolia": 278,
-    "Tipuana tipu": 186,
-    "Brachychiton populneus": 11,
-    "Styphnolobium japonicum": 49
+    "Tipuana tipu": 150,
+    "Brachychiton populneus": 68,
+    "Styphnolobium japonicum": 12
    }
   },
   {
@@ -1965,21 +1965,21 @@
    "pareto": true,
    "in_layouts": true,
    "metrics": {
-    "shade_summer_m2h": 300382.0,
-    "shade_winter_m2h": 174734.1,
-    "runoff_hot_m3": 2707.8,
-    "runoff_m3": 17673.0,
-    "interception_m3": 778.6,
-    "canopy_pct": 22.4
+    "shade_summer_m2h": 359252.1,
+    "shade_winter_m2h": 204476.0,
+    "runoff_hot_m3": 2703.6,
+    "runoff_m3": 17658.6,
+    "interception_m3": 798.1,
+    "canopy_pct": 22.9
    },
    "counts": {
-    "Celtis australis": 67,
+    "Celtis australis": 20,
     "Melia azedarach": 256,
-    "Pyrus calleryana": 50,
+    "Pyrus calleryana": 52,
     "Jacaranda mimosifolia": 278,
-    "Tipuana tipu": 110,
-    "Brachychiton populneus": 7,
-    "Styphnolobium japonicum": 64
+    "Tipuana tipu": 146,
+    "Brachychiton populneus": 67,
+    "Styphnolobium japonicum": 13
    }
   },
   {
@@ -1993,21 +1993,21 @@
    "pareto": true,
    "in_layouts": true,
    "metrics": {
-    "shade_summer_m2h": 302100.8,
-    "shade_winter_m2h": 185418.9,
-    "runoff_hot_m3": 2705.9,
-    "runoff_m3": 17673.2,
-    "interception_m3": 780.1,
-    "canopy_pct": 22.4
+    "shade_summer_m2h": 359500.4,
+    "shade_winter_m2h": 206024.9,
+    "runoff_hot_m3": 2702.3,
+    "runoff_m3": 17657.8,
+    "interception_m3": 798.4,
+    "canopy_pct": 22.9
    },
    "counts": {
-    "Celtis australis": 2,
+    "Celtis australis": 16,
     "Melia azedarach": 256,
-    "Pyrus calleryana": 50,
+    "Pyrus calleryana": 52,
     "Jacaranda mimosifolia": 278,
-    "Tipuana tipu": 186,
-    "Brachychiton populneus": 12,
-    "Styphnolobium japonicum": 48
+    "Tipuana tipu": 150,
+    "Brachychiton populneus": 68,
+    "Styphnolobium japonicum": 12
    }
   }
  ],
@@ -2157,5 +2157,21 @@
   "Design days 15 Jul 12–17 h CEST and 15 Jan 10–15 h CET (summer window = the decided heat-metric window, 12–17 h local clock; the day is an assumption)",
   "Runoff reaches a hotspot only within 100 m of flow path",
   "Tipuana half-leafed in April; class-default leaf months for most deciduous species"
- ]
+ ],
+ "terrain": {
+  "file": "terrain.png",
+  "bounds": [
+   2.171997,
+   41.430106,
+   2.185557,
+   41.439704
+  ],
+  "min_m": 29.3,
+  "max_m": 77.2
+ },
+ "lidar": {
+  "file": "lidar.bin.gz",
+  "n": 996695,
+  "voxel_m": 2.0
+ }
 }
