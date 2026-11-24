@@ -3,6 +3,7 @@ sketch, "a crown is a bucket", "the tree on the hill" and the free-spot classes.
 Numbers: notes/tutor_feedback_17nov.md §1c, §9d, §10; notes/tutor_feedback_10nov.md (position test, 17 Nov).
 Run from scripts/: python make_midterm_figs.py   (needs cairosvg, Node Playwright)
 """
+import base64
 from make_rm_personal_figs import svg, page, arrows, tint, render, ROOT, INK, MUTED, BG, HEAT, RAIN, TREE, WARN
 import make_rm_personal_figs as F
 
@@ -86,14 +87,8 @@ def rules_sketch():
 def bucket():
     """1 mm on 1 m² = 1 litre; Celtis crown 6.3 m (31 m²), s·LAI ≈ 4 mm -> ≈125 L held of ≈1,000 L in the T2-60 storm."""
     h = 560
-    b = ""
-    for k in range(22):
-        x = 160 + k * 26
-        b += f'<div style="position:absolute;left:{x}px;top:{20 + (k % 3) * 14}px;width:3px;height:44px;background:{RAIN};opacity:.55;transform:rotate(12deg)"></div>'
-    b += (f'<div style="position:absolute;left:150px;top:120px;width:560px;height:200px;border-radius:50%;background:{tint(TREE, .6)};'
-          f'border:3px solid {TREE}"></div><div style="position:absolute;left:418px;top:300px;width:24px;height:200px;background:#6B5640"></div>'
-          f'<div style="position:absolute;left:40px;top:500px;width:780px;height:6px;background:{INK}"></div>')
-    b += (f'<div class="t" style="position:absolute;left:250px;top:180px;width:360px;text-align:center;color:{BG}">≈ 125 L held</div>')
+    tree = base64.b64encode((FIG / "bucket_tree.jpg").read_bytes()).decode()   # Giovanni's illustration, 24 Nov
+    b = (f'<img src="data:image/jpeg;base64,{tree}" style="position:absolute;left:230px;top:0;height:{h}px">')
     stats = [(RAIN, "cloud-rain", "≈ 1,000 L", "fall on the crown (31.9 mm in 1 h, 2-year storm)"),
              (TREE, "tree-deciduous", "≈ 125 L", "stay on the leaves: 1.75 mm × leaf area index ≈ 4 mm"),
              (MUTED, "droplets", "≈ 875 L", "reach the ground")]
