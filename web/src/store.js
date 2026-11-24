@@ -72,12 +72,19 @@ export async function load(site = state.site) {
 }
 
 // Switch dataset (e.g. city palette 'porta' vs Barcelona shortlist 'porta-barcelona') and reset the view
-export async function switchSite(site) {
+export async function switchSite(site, keep = true) {
+  // the designer's work (project area, schedule, added trees, rules) carries over to the other palette or tree size
+  const carry = keep && state.meta && (state.area || state.added.length || Object.keys(state.schedule.trees).length || Object.keys(state.schedule.spots).length)
+    ? JSON.parse(configJson()) : null
   Object.assign(state, { scenarioId: BALANCED, live: null, selected: null, exclude: [], minEff: 0, liveError: null, meta: null, added: [], addMsg: null, area: null, drawing: false, editing: false, draft: [], addMode: false, schedule: { trees: {}, spots: {} } }) // the new site's grid loads with the next Add trees
   grid = null
   planePotCache.clear()
   planeScale = null
   await load(site)
+  if (!carry || state.error) return
+  const names = state.meta.palette.map((p) => p.species)
+  carry.rules.exclude = carry.rules.exclude.filter((x) => names.includes(x)) // species the new palette lacks drop out
+  await loadConfig({ ...carry, site })
 }
 
 export const dataUrl = (file) => `./data/${state.site}/${file}`
@@ -654,7 +661,7 @@ export async function loadConfig(cfg) {
   if (cfg?.tool !== 'shade-and-sponge') throw new Error('not a Shade and sponge configuration file')
   state.loadingConfig = true
   try {
-    if (cfg.site !== state.site) await switchSite(cfg.site)
+    if (cfg.site !== state.site) await switchSite(cfg.site, false)
     Object.assign(state, { area: null, added: [], selected: null, ...cfg.rules, schedule: { trees: {}, spots: {}, ...cfg.schedule } })
     await ensureGrid()
     const S = state.trees.spots
