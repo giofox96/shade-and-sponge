@@ -20,6 +20,25 @@ const rows = computed(() =>
     return { k, name, unit, sign, v, vs0: pct(v, s0.value?.metrics[k]), vcity: pct(v, baseline.value?.[k]) }
   }),
 )
+// the project area on its own: absolute values of the trees it replaces, today and after (street-segment scale)
+const LOCAL = [
+  ['shade_summer_m2h', 'Summer shade', 'm²·h', 1, true],
+  ['shade_winter_m2h', 'Winter shade', 'm²·h', -1, true],
+  ['interception_m3', 'Rain held by the crowns', 'm³', 1, true],
+  ['runoff_hot_m3', 'Runoff to hotspots', 'm³', -1, false],
+  ['runoff_m3', 'Total runoff', 'm³', -1, false],
+]
+const local = computed(() => {
+  const A = state.scenarioId === AREA ? state.area : null
+  if (!A?.local) return null
+  const n = A.idx.length + A.keptRows.length
+  return { n, rows: LOCAL.filter(([k]) => A.local[k]).map(([k, name, unit, sign, own]) => {
+    const { today, delta } = A.local[k]
+    return { name, unit, sign, own, today, after: today + delta, delta, pct: own && today ? (100 * delta) / today : null, perTree: n ? (1000 * delta) / n : 0 }
+  }) }
+})
+const num = (v) => v.toLocaleString('en', { maximumFractionDigits: Math.abs(v) < 100 ? 1 : 0 }) // small volumes keep a decimal
+const sgn = (v) => `${v > 0 ? '+' : v < 0 ? '−' : '±'}${num(Math.abs(v))}`
 const mix = computed(() => {
   const c = scenario.value?.counts ?? {}
   const n = Object.values(c).reduce((a, b) => a + b, 0)
@@ -45,6 +64,21 @@ const winterRange = computed(() => {
       </tr>
     </tbody>
   </table>
+  <template v-if="local">
+    <p class="sub">In the project area <span class="u">· its {{ local.n }} replaced trees on their own</span></p>
+    <table class="kpi">
+      <thead><tr><th></th><th>today</th><th>after</th><th>change</th></tr></thead>
+      <tbody>
+        <tr v-for="r in local.rows" :key="r.name">
+          <td>{{ r.name }}</td>
+          <td class="num">{{ r.own ? num(r.today) : '' }}</td>
+          <td class="num">{{ r.own ? num(r.after) : '' }}</td>
+          <td class="num" :class="good(r.delta, r.sign)">≈ {{ sgn(r.delta) }} <span class="u">{{ r.unit }}</span>
+            <br><span class="u">{{ r.own ? `${r.pct > 0 ? '+' : ''}${r.pct.toFixed(0)}%` : `${sgn(r.perTree)} L per tree` }}</span></td>
+        </tr>
+      </tbody>
+    </table>
+  </template>
   <div v-if="mix.length" class="mix" aria-label="Species mix of the replaced positions">
     <span v-for="m in mix" :key="m.species" :style="{ width: m.w + '%', background: m.color }" :title="`${m.species}: ${m.n}`"></span>
   </div>
@@ -74,6 +108,7 @@ const winterRange = computed(() => {
 .num { text-align: right; white-space: nowrap; }
 .u { color: var(--muted); font-size: 11px; }
 .mix { display: flex; height: 10px; border-radius: 3px; overflow: hidden; margin: 10px 0 4px; gap: 1px; }
+.sub { font-size: 12px; margin: 12px 0 4px; }
 .note.live { color: var(--accent); }
 .note { font-size: 11px; color: var(--muted); margin: 6px 0 0; line-height: 1.45; }
 </style>

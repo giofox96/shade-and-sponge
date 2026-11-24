@@ -26,7 +26,7 @@ export async function loadGrid(url, g) {
     ...g,
     summer: u8.subarray(0, n),
     winter: u8.subarray(n, 2 * n),
-    flags: u8.subarray(2 * n, 3 * n), // bit 0 open ground in the site, bit 1 drains to a hotspot, bit 2 roof
+    flags: u8.subarray(2 * n, 3 * n), // bit 0 open ground in the site, bit 1 drains to a hotspot, bit 2 roof, bit 3 canopy today
     facade: new Uint16Array(buf.slice(3 * n, 5 * n)), // distance to the nearest building, decimetres
     toXY,
   }
