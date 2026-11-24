@@ -25,7 +25,7 @@ const LOCAL = [
   ['shade_summer_m2h', 'Summer shade', 'm²·h', 1, true],
   ['shade_winter_m2h', 'Winter shade', 'm²·h', -1, true],
   ['interception_m3', 'Rain held by the crowns', 'm³', 1, true],
-  ['runoff_hot_m3', 'Runoff to hotspots', 'm³', -1, false],
+  ['runoff_hot_m3', 'Water reaching the flood hotspots', 'm³', -1, false],
   ['runoff_m3', 'Total runoff', 'm³', -1, false],
 ]
 const local = computed(() => {
@@ -37,6 +37,8 @@ const local = computed(() => {
     return { name, unit, sign, own, today, after: today + delta, delta, pct: own && today ? (100 * delta) / today : null, perTree: n ? (1000 * delta) / n : 0 }
   }) }
 })
+// the headline for a designer: how much less water reaches the flood hotspots in the design storm, in litres
+const hotLitres = computed(() => (local.value ? -1000 * (state.area.local.runoff_hot_m3?.delta ?? 0) : null))
 const num = (v) => v.toLocaleString('en', { maximumFractionDigits: Math.abs(v) < 100 ? 1 : 0 }) // small volumes keep a decimal
 const sgn = (v) => `${v > 0 ? '+' : v < 0 ? '−' : '±'}${num(Math.abs(v))}`
 const mix = computed(() => {
@@ -78,6 +80,10 @@ const winterRange = computed(() => {
         </tr>
       </tbody>
     </table>
+    <p v-if="hotLitres != null" class="hot">
+      <b :class="hotLitres > 0 ? 'good' : hotLitres < 0 ? 'bad' : ''">{{ num(Math.abs(Math.round(hotLitres))) }} litres {{ hotLitres >= 0 ? 'less' : 'more' }}</b>
+      water reach the flood hotspots in the design storm (T2, 1 h, season-weighted), with these trees instead of today's.
+    </p>
   </template>
   <div v-if="mix.length" class="mix" aria-label="Species mix of the replaced positions">
     <span v-for="m in mix" :key="m.species" :style="{ width: m.w + '%', background: m.color }" :title="`${m.species}: ${m.n}`"></span>
@@ -109,6 +115,7 @@ const winterRange = computed(() => {
 .u { color: var(--muted); font-size: 11px; }
 .mix { display: flex; height: 10px; border-radius: 3px; overflow: hidden; margin: 10px 0 4px; gap: 1px; }
 .sub { font-size: 12px; margin: 12px 0 4px; }
+.hot { font-size: 12px; margin: 6px 0 0; }
 .note.live { color: var(--accent); }
 .note { font-size: 11px; color: var(--muted); margin: 6px 0 0; line-height: 1.45; }
 </style>
