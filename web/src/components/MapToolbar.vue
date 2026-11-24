@@ -2,7 +2,7 @@
 // Icon column on the right edge of the map: one button per map layer, grouped in pills. A dot marks a layer that is on;
 // the tooltip gives name, state and action. "More" opens the month (leaf calendar) and building-opacity tools.
 import { ref } from 'vue'
-import { state, MONTHS, setGround3d, setLidar } from '../store.js'
+import { state, MONTHS, setGround3d, setLidar, setParks } from '../store.js'
 import Icon from './Icon.vue'
 
 const more = ref(false)
@@ -39,6 +39,11 @@ const hint = (on) => (on ? 'Visible on map · click to hide' : 'Hidden · click 
         <Icon name="sidewalk" /><i v-if="state.showStreets" class="dot"></i>
         <span class="tt"><b>Sidewalks and free spots</b>{{ hint(state.showStreets) }}
           <em>Brown = façade, dark = kerb. Green dots = free spots, light to dark = small / medium / large tree. Both lines come from the city's 1:1000 map; a tree's sidewalk width is measured along a line through it (thin grey lines; the selected tree's in blue): 1,545 of Porta's 2,825 street trees.</em></span>
+      </button>
+      <button v-if="state.meta.parks" class="tb" :aria-pressed="state.showParks" aria-label="Park trees" @click="setParks(!state.showParks)">
+        <Icon name="park" /><i v-if="state.showParks" class="dot"></i>
+        <span class="tt"><b>Park trees</b>{{ hint(state.showParks) }}
+          <em>{{ state.meta.parks.n.toLocaleString('en') }} trees of parks and squares (city inventories, Open Data BCN), sized from the LiDAR. Context only: the tool does not change or score them; their shade is already in the model as fixed canopy.</em></span>
       </button>
       <button class="tb" :aria-pressed="state.buildingOpacity > 0" aria-label="Buildings" @click="toggleBuildings">
         <Icon name="building" /><i v-if="state.buildingOpacity > 0" class="dot"></i>
