@@ -15,7 +15,7 @@ import { TileLayer } from '@deck.gl/geo-layers'
 import { _TerrainExtension as TerrainExtension } from '@deck.gl/extensions'
 import { SphereGeometry } from '@luma.gl/engine'
 import { state, dataUrl, hexToRgb, currentLayout, spotClass, addTreeAt, addVertex, keptReplaced, themeColors, isDark, AREA, addableMask, finishArea,
-  cancelDrawing, finishEditArea, cancelEditArea, groundZ, setGround3d, setLidar, ORTO } from '../store.js'
+  cancelDrawing, finishEditArea, cancelEditArea, groundZ, setGround3d, setLidar, keptKey, ORTO } from '../store.js'
 
 setWorkerUrl(workerUrl)
 const el = ref(null)
@@ -197,6 +197,8 @@ function crowns() {
       updateTriggers: { getPosition: g3 },
       getScale: (i) => scale([k.crown_diam_m[i], k.height_m[i], k.crown_base_m[i]]),
       getColor: themeColors.value.kept,
+      pickable: true,
+      onClick: (info) => (state.drawing ? addVertex(...at(info)) : (state.selected = keptKey(info.object))),
     }),
     new SimpleMeshLayer({
       id: 'positions',
@@ -262,6 +264,20 @@ function addMask() {
   if (key !== maskKey || state.area?.poly !== maskPoly || !mask) // no grid yet: try again on the next redraw
     [mask, maskKey, maskPoly] = [addableMask(), key, state.area?.poly]
   return mask
+}
+
+// the selected tree or spot (map or schedule): a ring on the ground, drawn over everything
+function selRing(sel) {
+  if (sel == null) return null
+  const T = state.trees, n = typeof sel === 'string' ? Number(sel.slice(1)) : sel
+  const [lon, lat, d] = typeof sel === 'number' ? [T.positions.lon[n], T.positions.lat[n], T.positions.s0_crown_diam_m[n]]
+    : sel[0] === 'k' ? [T.kept.lon[n], T.kept.lat[n], T.kept.crown_diam_m[n]]
+    : sel[0] === 's' ? [T.spots.lon[n], T.spots.lat[n], 2 * SPOT_R[T.spots.size_class[n]]]
+    : [state.added[n]?.lon, state.added[n]?.lat, 4]
+  if (lon == null) return null
+  return new ScatterplotLayer({ id: 'sel-ring', data: [[lon, lat]], getPosition: (q) => up(q, 0.4), getRadius: Math.max(d || 4, 3) / 2 + 1,
+    radiusUnits: 'meters', radiusMinPixels: 9, stroked: true, filled: false, getLineColor: themeColors.value.ringOn, lineWidthMinPixels: 2.5,
+    parameters: ON_TOP })
 }
 
 // free spots: footprint radius (m) per size class, and the spot lifted onto the highest ground under its footprint (a flat
@@ -378,6 +394,7 @@ function layers() {
         onClick: (info) => { // a click on a free spot plants there in "Add trees" mode
           if (state.drawing) return addVertex(...at(info))
           if (state.addMode) tryAdd(state.trees.spots.lon[info.index], state.trees.spots.lat[info.index], info)
+          else state.selected = `s${info.index}` // the schedule's Spots tab follows
         } }),
     state.showStreets &&
       new ScatterplotLayer({ id: 'spot-centres', data: state.trees.spots.lon.map((lon, i) => i), getPosition: (i) => spotUp(i, 0.2),
@@ -391,6 +408,7 @@ function layers() {
         getFillColor: [...themeColors.value.area, 30] }),
     ...crowns(),
     ...dimensions(selected), // after the crowns: drawn over them
+    selRing(selected),
     state.showLidar && state.lidar &&
       new PointCloudLayer({ id: 'lidar', data: lidarData(), ...local(), pointSize: 2, sizeUnits: 'pixels', material: false }),
     // the project-area outline and the corners being drawn go over buildings and crowns (no depth test)
@@ -455,6 +473,7 @@ onMounted(() => {
           (c ? `\nMove first: ${S.reasons[index].replaceAll('_', ' ').replaceAll(';', ', ')}` : '') +
           (S.utility_conditional?.[index] ? '\nConditional: the pit would sit on a buried gas or telecom line (PTEV 2024 p. 31)' : '') }
       }
+      if (layer?.id === 'kept') return { text: `${state.trees.kept.species[object]} (existing)` }
       if (layer?.id !== 'positions' || index < 0) return null
       return { text: state.meta.palette[currentLayout()[index]].species }
     },
@@ -486,6 +505,12 @@ watch(() => state.area?.poly, (poly) => {
 })
 
 // while drawing a project area, double clicks place corners instead of zooming
+// a schedule row was clicked: jump there, keeping the tree above the schedule panel
+watch(() => state.focus, (f) => {
+  if (!f || !map) return
+  map.easeTo({ center: f, zoom: Math.max(map.getZoom(), 18), offset: [0, -0.2 * el.value.clientHeight], duration: 0 /* a jump: verified to land; an animated ease could not be checked here */ })
+  state.focus = null
+})
 watch(() => state.drawing, (on) => (on ? map?.doubleClickZoom.disable() : map?.doubleClickZoom.enable()))
 
 // while drawing, a right click (without dragging the view), Enter or Space closes the area; Escape cancels it.
