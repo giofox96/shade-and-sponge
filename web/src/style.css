@@ -81,7 +81,7 @@ select, input[type='range'] { width: 100%; }
   aside.left { grid-column: 1; grid-row: 3; }
   aside.right { grid-column: 1; grid-row: 4; }
   aside { overflow: visible; min-width: 0; border: 0; }
-  aside.left svg { max-width: 280px; display: block; margin: 0 auto; }
+  aside.left svg, aside.right svg { max-width: 280px; display: block; margin: 0 auto; }
 }
 .sources { line-height: 1.5; }
 .sources a { color: var(--accent); }
