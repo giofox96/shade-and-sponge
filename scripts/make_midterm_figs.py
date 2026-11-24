@@ -55,32 +55,19 @@ def method_actions():
 
 
 def rules_sketch():
-    """Plan view of four sidewalks: width -> tree size class and spacing (2011 street-tree guide pp. 22-23)."""
-    h, x0, x1 = 760, 330, 1560
-    b = ""
-    cases = [("< 2.5 m", "no tree", 0, None), ("2.5–3.5 m", "small · every 7 m", 22, 7), ("3.5–6 m", "medium · every 9 m", 34, 9),
-             ("> 6 m", "large · every 13 m", 50, 13)]
-    y = 20
-    for lab, sub, r, sp in cases:
-        hh = 62 + 2 * r
-        b += (f'<div style="position:absolute;left:{x0}px;top:{y}px;width:{x1 - x0}px;height:{hh}px;background:#E6E1D6;'
-              f'border-top:5px solid {INK};border-bottom:3px dashed {MUTED}"></div>')
-        b += (f'<div style="position:absolute;left:30px;top:{y}px;width:280px;height:{hh}px;display:flex;flex-direction:column;justify-content:center">'
-              f'<div class="t" style="font-size:30px">{lab}</div><div class="s" style="font-size:21px;color:{TREE if r else HEAT}">{sub}</div></div>')
-        if sp:
-            step = sp * 12
-            cx = x0 + 60
-            while cx + r < x1:
-                cy = y + 5 + hh - 14 - r
-                b += (f'<div style="position:absolute;left:{cx - r}px;top:{cy - r}px;width:{2 * r}px;height:{2 * r}px;border-radius:50%;'
-                      f'background:{tint(TREE, .55)};border:2px solid {TREE}"></div>')
-                cx += step
-        else:
-            b += (f'<div class="s" style="position:absolute;left:{x0 + 30}px;top:{y + 14}px;font-size:22px;color:{HEAT}">'
-                  f'too narrow: kept free for walking</div>')
-        y += hh + 58
-    b += (f'<div class="row" style="position:absolute;left:{x0}px;top:{y + 6}px;gap:28px;font-size:20px;color:{MUTED}">'
-          f'<span>▬ façade</span><span>┄ kerb</span><span>● crown at maturity, 0.7 m from the kerb</span></div>')
+    """Plan view of four sidewalks: width -> tree size class and spacing (2011 street-tree guide pp. 22-23).
+    Illustration: Giovanni, 24 Nov (rules_streets.png, cropped to 918 x 569 px, legend included)."""
+    h, x0, sc = 770, 330, 1230 / 918
+    img = base64.b64encode((FIG / "rules_streets.png").read_bytes()).decode()
+    b = f'<img src="data:image/png;base64,{img}" style="position:absolute;left:{x0}px;top:5px;width:1230px">'
+    cases = [("< 2.5 m", "no tree", 43), ("2.5–3.5 m", "small · every 7 m", 148), ("3.5–6 m", "medium · every 9 m", 276),
+             ("> 6 m", "large · every 13 m", 425)]   # row centres in image pixels
+    for lab, sub, yc in cases:
+        y = 5 + yc * sc - 60
+        b += (f'<div style="position:absolute;left:30px;top:{y}px;width:280px;height:120px;display:flex;flex-direction:column;justify-content:center">'
+              f'<div class="t" style="font-size:30px">{lab}</div><div class="s" style="font-size:21px;color:{HEAT if lab[0] == "<" else TREE}">{sub}</div></div>')
+    b += (f'<div class="s" style="position:absolute;left:{x0 + 30}px;top:{5 + 34 * sc}px;font-size:22px;color:{HEAT}">'
+          f'too narrow: kept free for walking</div>')
     return page(b, h), h
 
 
