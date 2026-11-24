@@ -29,7 +29,7 @@ I numeri vengono dal deck e dalle note del progetto. Dove qualcosa è una scelta
 ## Presentazione (slide 1–15, 20 secondi ciascuna)
 
 ### Slide 1. Titolo: "I am redesigning this street"
-**Cosa dice.** La tesi prende il punto di vista di un progettista che sta già ridisegnando una strada. Il layout è deciso; la domanda aperta sono gli alberi: tenerli, spostarli, sostituirli o aggiungerne, perché la strada sia più fresca d'estate e non peggiori con la pioggia, dentro le regole della città.
+**Cosa dice.** Il talk si apre con il nome del progetto, Shade and Sponge, e con cosa è: un recommender di alberi stradali urbani. La tesi prende il punto di vista di un progettista che sta già ridisegnando una strada. Il layout è deciso; la domanda aperta sono gli alberi: tenerli, spostarli, sostituirli o aggiungerne, perché la strada sia più fresca d'estate e non peggiori con la pioggia, dentro le regole della città.
 
 **Concetti.**
 - Il tool non è uno strumento di pianificazione alla scala della città. Entra **alla scala del progetto**, dove gli alberi si decidono davvero.
@@ -39,7 +39,7 @@ I numeri vengono dal deck e dalle note del progetto. Dove qualcosa è una scelta
 **Domande possibili.** *Perché il progettista e non la città?* Perché la città sostituisce gli alberi uno alla volta nei progetti (il 46,8% delle sostituzioni sono alberi isolati, secondo l'analisi del 10 novembre), quindi la decisione avviene nel progetto.
 
 ### Slide 2. Contesto: sostituire alberi uno alla volta
-**Cosa dice.** Barcellona ha sostituito 10.976 alberi stradali tra il 2018 e il 2026. Il piano degli alberi limita ogni specie al 15%, ma non dice quale specie mettere dove. La copertura arborea di Porta è il 20,1%, contro un obiettivo della città del 30%. E a parità di tronco, le chiome delle diverse specie vanno da un platano intero a circa un quarto di platano.
+**Cosa dice.** Barcellona ha sostituito 10.976 alberi stradali tra il 2018 e il 2026. Il piano degli alberi limita ogni specie al 15%, ma non dice quale specie mettere dove. La copertura arborea di Porta è il 20,1%, contro un obiettivo della città del 30%. E a parità di tronco, le chiome delle diverse specie vanno da un platano intero a circa un quarto di platano. Tutto è confrontato con il **platano**, perché è l'albero sostituito più spesso (13% delle sostituzioni osservate): i risultati sono dati come percentuale dell'ombra estiva di un platano.
 
 **Concetti.**
 - Il **Pla director de l'arbrat 2017–2037** (il piano degli alberi della città) stabilisce *quanto* di ogni specie (il tetto del 15%, per resistere a parassiti e malattie, per la resilienza climatica e per la biodiversità), non *quale specie in quale strada*.
@@ -49,7 +49,7 @@ I numeri vengono dal deck e dalle note del progetto. Dove qualcosa è una scelta
 **Domande possibili.** *Da dove vengono le 10.976 sostituzioni?* Dall'inventario aperto degli alberi (Open Data BCN), confrontando le versioni nel tempo: una posizione in cui la specie è cambiata è una sostituzione.
 
 ### Slide 3. Porta in numeri
-**Cosa dice.** Perché Porta: è il primo quartiere di Barcellona in cui calore, pericolo di allagamento e platani sono tutti alti (superficie in estate +1,4 °C rispetto alla città, pericolo di allagamento nel 20% più alto, 832 platani = 29% dei suoi alberi stradali). Porta copre 84 ha con 2.825 alberi stradali. Le chiome coprono 17 ha (20%). Per arrivare al 30% servirebbero circa 8 ha in più. Piantare ogni spot libero sui marciapiedi aggiunge solo circa 0,3 ha.
+**Cosa dice.** Perché Porta: è il primo quartiere di Barcellona in cui calore, pericolo di allagamento e platani sono tutti alti (superficie in estate +1,4 °C rispetto alla città, pericolo di allagamento nel 20% più alto, 832 platani = 29% dei suoi alberi stradali). Porta copre 84 ha con 2.825 alberi stradali. Le chiome coprono 17 ha (20%). Per arrivare al 30% servirebbero circa 8 ha in più. Piantare ogni spot libero sui marciapiedi aggiunge solo circa 0,3 ha **di chioma** (copertura arborea vista dall'alto), contro gli 8 ha di chioma che mancano.
 
 **Concetti.**
 - **Il sito è stato scelto con i dati**, classificando i quartieri su entrambi i rischi; Porta è risultato primo. I platani contano perché il piano li vuole ridurre, quindi molti verranno sostituiti.
@@ -59,7 +59,7 @@ I numeri vengono dal deck e dalle note del progetto. Dove qualcosa è una scelta
 **Domande possibili.** *1,4 °C è temperatura dell'aria?* No. È l'anomalia mediana della temperatura superficiale diurna estiva rispetto alla mediana della città (Landsat 8/9, 31 immagini serene, giugno–agosto 2022–2025), un indicatore di screening, non una temperatura percepita. *Perché "primo"?* Un quartiere era ammesso solo se quota allagabile, calore superficiale e densità di platani erano tutti sopra il 60° percentile della città; tra questi Porta è primo a ogni soglia provata.
 
 ### Slide 4. Stato dell'arte e gap
-**Cosa dice.** I pezzi esistono, ma nessuno li unisce. Alcuni modelli valutano insieme calore e runoff senza scegliere le specie. Altri strumenti scelgono le specie, ma per un solo beneficio o senza posizioni. Dei 18 strumenti esaminati, nessuno sceglie le specie albero per albero, su calore e runoff, dentro le regole di una città.
+**Cosa dice.** La ricerca copre ogni parte del problema, ma separatamente; nessuno le unisce. Alcuni modelli valutano insieme calore e runoff senza scegliere le specie. Altri strumenti scelgono le specie, ma per un solo beneficio o senza posizioni. Dei 18 strumenti esaminati, nessuno sceglie le specie albero per albero, su calore e runoff, dentro le regole di una città.
 
 **Concetti.**
 - La rassegna funziona come un **imbuto**: 18 strumenti → 7 trattano insieme calore e runoff → 1 sceglie anche le specie (Dong et al. 2026) → 0 lo fanno albero per albero dentro regole reali di una città.
@@ -91,7 +91,7 @@ I numeri vengono dal deck e dalle note del progetto. Dove qualcosa è una scelta
 - **I pallini accanto ai dati** indicano a quale rischio serve ogni dataset: marrone per il calore (LiDAR, giornata calda), blu per gli allagamenti (LiDAR, terreno, hotspot, pioggia).
 - **Le regole della città entrano nell'ottimizzatore come vincoli** (la freccia dal riquadro City rules): 30 specie ammesse, tetto del 15%, taglia secondo il marciapiede.
 - **Lo screening si fa una volta sola per tutta la città**; poi si ritaglia l'area di progetto. Per questo il tool è veloce.
-- **Due confronti:** con oggi (la strada migliora?) e con la pratica della città (il metodo fa meglio di quello che farebbe la città?).
+- **Due confronti, alla fine:** una volta che l'ottimizzatore ha scelto, il risultato è confrontato con due riferimenti: gli alberi di oggi (la strada migliora?) e la pratica della città (il metodo fa meglio di quello che farebbe la città?).
 - **Il terreno (DTM) a 0,5 m** serve per i percorsi dell'acqua: su un modello digitale del terreno ogni cella manda l'acqua alla cella vicina più in basso (metodo D8), e così si sa dove finisce la pioggia di ogni punto.
 
 ### Slide 8. Screening (la matrice degli indicatori)
@@ -129,9 +129,10 @@ I numeri vengono dal deck e dalle note del progetto. Dove qualcosa è una scelta
 - **"Un secchio":** quando le foglie sono piene, tutto il resto cade giù. In un temporale forte il secchio si riempie presto, quindi la maggior parte dell'acqua arriva comunque a terra. Per questo l'intercettazione da sola non risolve gli allagamenti.
 - **La frase chiave della slide:** la quantità trattenuta dipende dall'albero, non da dove si trova. La posizione conta solo per dove *sarebbe andata* l'acqua trattenuta (slide successiva).
 - s è incerto: un valore più basso (0,83–0,86 mm) è provato nella slide 24.
+- **Ponte verso la slide 12 (perché il metodo conta anche per il runoff):** tutte le specie trattengono acqua, ma alcune molto di più (chioma più grande, foglie più fitte); il metodo mette le specie che trattengono **più acqua** nelle posizioni la cui pioggia sta andando verso un hotspot di allagamento, così lì se ne accumula meno. Succede ogni volta che il runoff ha un peso nel punteggio.
 
 ### Slide 12. L'albero sulla collina
-**Cosa dice.** Un albero a monte di un hotspot impedisce ai suoi circa 125 litri di arrivarci. Il 74% delle posizioni degli alberi di Porta non drena verso nessun hotspot. 100 alberi messi dal metodo tengono lontana dagli hotspot 5,6 volte più acqua di 100 alberi messi a caso. Ma è solo lo 0,5% dell'acqua che arriva all'hotspot, quindi il runoff è un controllo do-no-harm.
+**Cosa dice.** Un albero a monte di un hotspot impedisce ai suoi circa 125 litri di arrivarci. Ma il 74% delle posizioni degli alberi di Porta non drena verso nessun hotspot: seguendo la pendenza del modello del terreno, la pioggia che cade lì scorre via (verso altre strade, verso i tombini, fuori dal quartiere) senza mai passare da un hotspot, quindi l'acqua trattenuta da quegli alberi non cambia nessun allagamento. 100 alberi messi dal metodo tengono lontana dagli hotspot 5,6 volte più acqua di 100 alberi messi a caso. Ma è solo lo 0,5% dell'acqua che arriva all'hotspot, quindi il runoff è un controllo do-no-harm.
 
 **Concetti.**
 - **I percorsi dell'acqua** sul modello del terreno dicono, per ogni posizione, se la sua acqua finisce in un hotspot. Solo quelle posizioni possono aiutare l'hotspot.
@@ -158,7 +159,7 @@ I numeri vengono dal deck e dalle note del progetto. Dove qualcosa è una scelta
 - **Se ti chiedono il risultato sulla città:** con 30 specie il metodo mantiene in mediana il 91,2% dell'ombra estiva di un platano, +6,7 punti sul mix annunciato e +14,7 sulla pratica, e vince in 32 quartieri su 32.
 
 ### Slide 15. Prossimi passi
-**Cosa dice.** Temperatura percepita (UTCI) con Ladybug e Infrared City; Mataró, 83% contro 63% di ombra estiva, 6 strade su 6; poi Firenze; il tool con un'azione per albero e i compromessi a schermo. Frase finale: l'albero giusto, nel posto giusto, dentro le regole della città.
+**Cosa dice.** Tre prossimi passi. (1) Temperatura percepita (UTCI) con Ladybug e Infrared City, per verificare che più ombra voglia dire una strada più fresca. (2) I test di trasferimento: Mataró dà già 83% contro 63% di ombra estiva (6 strade su 6) e ora viene rifatto con le chiome vere dal LiDAR ICGC; poi Firenze (test previsto 29 nov – 3 dic). (3) Le planimetrie dei sottoservizi, per vedere quali spot sono davvero liberi (oggi gli spot liberi sono un limite superiore). Il talk chiude con un semplice "Thank you".
 
 **Concetti.**
 - **Dall'ombra all'UTCI:** l'ombra è un proxy. Ladybug Tools (in Grasshopper) e Infrared City calcolano la temperatura percepita, che conta anche le superfici calde e il vento. Questo verifica se più ombra vuol dire davvero una strada più confortevole.

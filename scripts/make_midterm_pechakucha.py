@@ -54,8 +54,8 @@ def s3(s):
     head(s, "Porta in numbers", "Nou Barris, Barcelona: why the species in each spot matters")
     items = [("map-pin", "84 ha", "neighbourhood · 2,825 street trees", MUTED),
              ("trees", "17 ha", "under tree crowns today (20%)", TREE),
-             ("target", "−8 ha", "missing to the city's 30% target", HEAT),
-             ("circle-plus", "+0.3 ha", "if every free sidewalk spot is planted", RAIN)]
+             ("target", "−8 ha", "of crown missing to the city's 30% target", HEAT),
+             ("circle-plus", "+0.3 ha", "of crown, if every free sidewalk spot is planted", RAIN)]
     # why this neighbourhood (site selection, 8 Oct): all three criteria above the city's 60th percentile, Porta ranks first
     text(s, M, 1.45, W - 2 * M, 0.45, [[("Why Porta? ", {"bold": True}), ("first among Barcelona's neighbourhoods where heat, flood hazard and plane trees are all high", {})]], 17, INK)
     for k, (ic, lab, c) in enumerate((("thermometer-sun", "summer surface: +1.4 °C vs city", HEAT),
@@ -169,9 +169,9 @@ def s14(s):
 def s15(s):
     s1_photo(s)
     text(s, 0.75, 1.3, 7.4, 1.0, "Next", 54, BG, True, name="Title")
-    text(s, 0.75, 2.5, 7.2, 2.6, ["Felt temperature (UTCI): Ladybug, Infrared City", "Mataró: 83% vs 63% summer shade, 6 of 6 streets", "Florence next",
-                                  "Tool: action per tree, trade-offs on screen"], 22, BG)
-    text(s, 0.75, 5.1, 7.2, 0.8, "The right tree, in the right place, within the city's rules. Thank you.", 22, BG, True)
+    text(s, 0.75, 2.5, 7.2, 2.6, ["Felt temperature (UTCI): Ladybug, Infrared City", "Mataró: 83% vs 63% shade; real LiDAR crowns next", "Florence: transfer test, early December",
+                                  "Utility plans: which spots are really free"], 22, BG)
+    text(s, 0.75, 5.1, 7.2, 0.8, "Thank you.", 22, BG, True)
     text(s, 0.75, 6.2, 11.0, 0.4, "Giovanni Volpe · MaCAD, IAAC · Thesis midterm", 16, "#CFC9BC", name="Mono")
 
 
