@@ -228,13 +228,14 @@ const DIV_PRESETS = [[9.4, 'City practice 9.4', "Effective species of the city's
       <div class="tabs seg" role="tablist" aria-label="View">
         <button v-for="[v, l] in [['map', 'Map'], ['compare', 'Compare side by side'], ['species', 'Species']]" :key="v" role="tab"
                 :aria-selected="state.view === v" :class="{ on: state.view === v }" @click="state.view = v">{{ l }}</button>
-        <button v-if="state.view === 'map'" :class="{ on: state.showSchedule }" :aria-pressed="state.showSchedule"
+        <button :class="{ on: state.showSchedule }" :aria-pressed="state.showSchedule"
                 title="Tree schedule: every tree and free spot as a table linked to the map, with Action, Reason and Field check"
                 @click="state.showSchedule = !state.showSchedule">Schedule</button>
       </div>
       <ComparePanel v-if="state.view === 'compare'" />
       <SpeciesCards v-else-if="state.view === 'species'" />
-      <template v-else><MapView :key="state.site" /><MapToolbar /><ScheduleTable v-if="state.showSchedule" /></template>
+      <template v-else><MapView :key="state.site" /><MapToolbar /></template>
+      <ScheduleTable v-if="state.showSchedule" />
       <PanelHandle side="left" />
       <PanelHandle side="right" />
     </main>

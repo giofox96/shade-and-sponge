@@ -14,6 +14,9 @@ const msg = ref('')
 const fileIn = ref(null)
 
 const nice = (r) => r.replaceAll('_', ' ').replaceAll(';', ', ')
+// a tree the layout on screen already replaces shows Replace until the designer picks an action (not stored, so it
+// follows the layout and does not change the optimisation)
+const auto = (e, replaced) => (!e.action && replaced ? { action: 'replace', auto: true } : {})
 const treeRows = computed(() => {
   state.addedVersion // dependency
   state.area?.version
@@ -31,12 +34,12 @@ const treeRows = computed(() => {
     ...planes.map((i) => {
       const id = P.tree_id[i], e = sched[id] ?? {}, s = pal[lay[i]]
       return { key: id, sel: i, id, lon: P.lon[i], lat: P.lat[i], today: plane, next: s.in_palette ? s.species : '', width: P.sw_width_m?.[i],
-        size: P.sw_size_class?.[i], crown: P.s0_crown_diam_m[i], ...e }
+        size: P.sw_size_class?.[i], crown: P.s0_crown_diam_m[i], ...e, ...auto(e, s.in_palette) }
     }),
     ...kept.map((k) => {
       const key = keptKey(k), e = sched[key] ?? {}
       return { key, sel: key, id: `other ${k + 1}`, lon: K.lon[k], lat: K.lat[k], today: K.species[k], next: pal[repl.get(k)]?.species ?? '',
-        width: K.sw_width_m?.[k], size: K.size_class?.[k], crown: K.crown_diam_m[k], ...e }
+        width: K.sw_width_m?.[k], size: K.size_class?.[k], crown: K.crown_diam_m[k], ...e, ...auto(e, repl.has(k)) }
     }),
   ]
 })
@@ -56,7 +59,7 @@ const rows = computed(() => {
 })
 const shown = computed(() => rows.value.slice(0, limit.value))
 const decided = computed(() => {
-  const n = (r) => r.filter((x) => x.action).length
+  const n = (r) => r.filter((x) => x.action && !x.auto).length
   return { trees: n(treeRows.value), spots: n(spotRows.value) }
 })
 watch([tab, filter, () => state.area], () => (limit.value = LIMIT))
@@ -130,7 +133,8 @@ async function openCfg(ev) {
             <td class="num">{{ r.width ? r.width.toFixed(1) + ' m' : '' }} <span class="muted">{{ r.size === 'check' ? '' : r.size }}</span></td>
             <td @click.stop>
               <template v-if="r.isNew"><span class="accent">Add</span> <button class="x" title="Remove this new tree" @click="removeAdded(r.added)">×</button></template>
-              <select v-else :value="r.action ?? ''" :aria-label="`Action for ${r.id}`" @change="setTreeEntry(r.key, { action: $event.target.value })">
+              <select v-else :value="r.action ?? ''" :class="{ auto: r.auto }" :title="r.auto ? 'Replaced by the layout on screen: pick an action to fix it' : ''"
+                      :aria-label="`Action for ${r.id}`" @change="setTreeEntry(r.key, { action: $event.target.value })">
                 <option v-for="[v, l] in TREE_ACTIONS" :key="v" :value="v">{{ l }}</option>
               </select>
             </td>
@@ -179,6 +183,7 @@ async function openCfg(ev) {
 </template>
 
 <style scoped>
+select.auto { font-style: italic; color: var(--muted); }
 .schedule { position: absolute; left: 0; right: 0; bottom: 0; height: 42%; z-index: 6; display: flex; flex-direction: column;
   background: var(--panel); border-top: 0.5px solid var(--line); box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.1); }
 .bar { display: flex; align-items: center; gap: 8px; padding: 6px 10px; flex-wrap: wrap; border-bottom: 0.5px solid var(--line); }
