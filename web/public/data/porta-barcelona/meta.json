@@ -4716,5 +4716,12 @@
     }
    }
   }
+ },
+ "parks": {
+  "file": "parks.json",
+  "n": 1209,
+  "park": 464,
+  "zone": 745,
+  "no_canopy": 30
  }
 }
