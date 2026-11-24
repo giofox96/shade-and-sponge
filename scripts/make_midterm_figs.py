@@ -103,24 +103,23 @@ def bucket():
 
 
 def hill():
-    """Same tree, same water held; only position decides whether that water would have reached the flood spot."""
+    """Same tree, same water held; only position decides whether that water would have reached the flood spot.
+    Illustration: Giovanni, 24 Nov (hill_slope.jpg); numbers: position test, notes/tutor_feedback_10nov.md."""
     h = 600
-    ground = "M0 150 C300 160 500 250 800 330 S1250 430 1600 440 L1600 600 L0 600 Z"
-    b = (f'<svg class="e" width="1600" height="{h}"><path d="{ground}" fill="#E6E1D6" stroke="{INK}" stroke-width="4"/>'
-         f'<ellipse cx="1380" cy="440" rx="170" ry="26" fill="{RAIN}" opacity=".75"/>'
-         f'<path d="M330 205 C560 260 900 360 1250 425" fill="none" stroke="{RAIN}" stroke-width="5" stroke-dasharray="14 10"/>'
-         f'<path d="M1250 425 l-22 -14 l4 22 z" fill="{RAIN}"/></svg>')
-    b += (f'<div style="position:absolute;left:250px;top:80px;width:150px;height:95px;border-radius:50%;background:{tint(TREE, .6)};border:3px solid {TREE}"></div>'
-          f'<div style="position:absolute;left:318px;top:170px;width:12px;height:30px;background:#6B5640"></div>')
-    b += (f'<div class="n" style="left:40px;top:250px;width:520px;height:120px;background:{tint(TREE, .14)}">'
+    img = base64.b64encode((FIG / "hill_slope.jpg").read_bytes()).decode()
+    b = f'<img src="data:image/jpeg;base64,{img}" style="position:absolute;left:0;top:10px;width:1040px">'
+    b += (f'<div class="n" style="left:420px;top:20px;width:400px;height:105px;background:{tint(TREE, .14)}">'
           f'<div class="t" style="color:{TREE};font-size:27px">Upstream of the flood spot</div>'
           f'<div class="s" style="font-size:21px">its ≈125 L never reach the hotspot</div></div>')
-    b += (f'<div class="n" style="left:1210px;top:480px;width:360px;height:100px;background:{tint(RAIN, .14)}">'
+    b += (f'<div class="n" style="left:760px;top:250px;width:270px;height:105px;background:{tint(RAIN, .14)}">'
           f'<div class="t" style="color:{RAIN};font-size:27px">Flood hotspot</div><div class="s" style="font-size:20px">collects the water from upslope</div></div>')
-    b += (f'<div class="n" style="left:640px;top:20px;width:930px;height:200px;background:#FBFAF6;border:2px solid {INK}">'
-          f'<div class="row"><span class="chip"><b>74%</b> of Porta\'s tree positions drain to no hotspot</span></div>'
-          f'<div class="row"><span class="chip"><b>× 5.6</b> water kept from hotspots: 100 trees placed by the method vs at random</span></div>'
-          f'<div class="row"><span class="chip" style="border:2px dashed {HEAT}"><b style="color:{HEAT}">0.5%</b> of the hotspot water → a do-no-harm check</span></div></div>')
+    cards = [(TREE, "74%", "of Porta's tree positions drain to no hotspot", "solid"),
+             (RAIN, "× 5.6", "water kept from hotspots: 100 trees placed by the method vs at random", "solid"),
+             (HEAT, "0.5%", "of the hotspot water → a do-no-harm check", "dashed")]
+    for k, (c, big, small, st) in enumerate(cards):
+        y = 30 + k * 185
+        b += (f'<div class="n" style="left:1080px;top:{y}px;width:490px;height:165px;background:#FBFAF6;border:2px {st} {c}">'
+              f'<div class="t" style="color:{c};font-size:40px">{big}</div><div class="s" style="font-size:21px">{small}</div></div>')
     return page(b, h), h
 
 
