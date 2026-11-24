@@ -74,6 +74,7 @@ export async function load(site = state.site) {
 // Switch dataset (e.g. city palette 'porta' vs Barcelona shortlist 'porta-barcelona') and reset the view
 export async function switchSite(site, keep = true) {
   // the designer's work (project area, schedule, added trees, rules) carries over to the other palette or tree size
+  const oldName = state.meta?.site.name // only within the same neighbourhood: another barri's trees are elsewhere
   const carry = keep && state.meta && (state.area || state.added.length || Object.keys(state.schedule.trees).length || Object.keys(state.schedule.spots).length)
     ? JSON.parse(configJson()) : null
   Object.assign(state, { scenarioId: BALANCED, live: null, selected: null, exclude: [], minEff: 0, liveError: null, meta: null, added: [], addMsg: null, area: null, drawing: false, editing: false, draft: [], addMode: false, schedule: { trees: {}, spots: {} } }) // the new site's grid loads with the next Add trees
@@ -81,7 +82,7 @@ export async function switchSite(site, keep = true) {
   planePotCache.clear()
   planeScale = null
   await load(site)
-  if (!carry || state.error) return
+  if (!carry || state.error || state.meta.site.name !== oldName) return
   const names = state.meta.palette.map((p) => p.species)
   carry.rules.exclude = carry.rules.exclude.filter((x) => names.includes(x)) // species the new palette lacks drop out
   await loadConfig({ ...carry, site })
