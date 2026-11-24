@@ -3,6 +3,7 @@ sketch, "a crown is a bucket", "the tree on the hill" and the free-spot classes.
 Numbers: notes/tutor_feedback_17nov.md §1c, §9d, §10; notes/tutor_feedback_10nov.md (position test, 17 Nov).
 Run from scripts/: python make_midterm_figs.py   (needs cairosvg, Node Playwright)
 """
+import base64
 from make_rm_personal_figs import svg, page, arrows, tint, render, ROOT, INK, MUTED, BG, HEAT, RAIN, TREE, WARN
 import make_rm_personal_figs as F
 
@@ -54,46 +55,27 @@ def method_actions():
 
 
 def rules_sketch():
-    """Plan view of four sidewalks: width -> tree size class and spacing (2011 street-tree guide pp. 22-23)."""
-    h, x0, x1 = 760, 330, 1560
-    b = ""
-    cases = [("< 2.5 m", "no tree", 0, None), ("2.5–3.5 m", "small · every 7 m", 22, 7), ("3.5–6 m", "medium · every 9 m", 34, 9),
-             ("> 6 m", "large · every 13 m", 50, 13)]
-    y = 20
-    for lab, sub, r, sp in cases:
-        hh = 62 + 2 * r
-        b += (f'<div style="position:absolute;left:{x0}px;top:{y}px;width:{x1 - x0}px;height:{hh}px;background:#E6E1D6;'
-              f'border-top:5px solid {INK};border-bottom:3px dashed {MUTED}"></div>')
-        b += (f'<div style="position:absolute;left:30px;top:{y}px;width:280px;height:{hh}px;display:flex;flex-direction:column;justify-content:center">'
-              f'<div class="t" style="font-size:30px">{lab}</div><div class="s" style="font-size:21px;color:{TREE if r else HEAT}">{sub}</div></div>')
-        if sp:
-            step = sp * 12
-            cx = x0 + 60
-            while cx + r < x1:
-                cy = y + 5 + hh - 14 - r
-                b += (f'<div style="position:absolute;left:{cx - r}px;top:{cy - r}px;width:{2 * r}px;height:{2 * r}px;border-radius:50%;'
-                      f'background:{tint(TREE, .55)};border:2px solid {TREE}"></div>')
-                cx += step
-        else:
-            b += (f'<div class="s" style="position:absolute;left:{x0 + 30}px;top:{y + 14}px;font-size:22px;color:{HEAT}">'
-                  f'too narrow: kept free for walking</div>')
-        y += hh + 58
-    b += (f'<div class="row" style="position:absolute;left:{x0}px;top:{y + 6}px;gap:28px;font-size:20px;color:{MUTED}">'
-          f'<span>▬ façade</span><span>┄ kerb</span><span>● crown at maturity, 0.7 m from the kerb</span></div>')
+    """Plan view of four sidewalks: width -> tree size class and spacing (2011 street-tree guide pp. 22-23).
+    Illustration: Giovanni, 24 Nov (rules_streets.png, cropped to 918 x 569 px, legend included)."""
+    h, x0, sc = 770, 330, 1230 / 918
+    img = base64.b64encode((FIG / "rules_streets.png").read_bytes()).decode()
+    b = f'<img src="data:image/png;base64,{img}" style="position:absolute;left:{x0}px;top:5px;width:1230px">'
+    cases = [("< 2.5 m", "no tree", 43), ("2.5–3.5 m", "small · every 7 m", 148), ("3.5–6 m", "medium · every 9 m", 276),
+             ("> 6 m", "large · every 13 m", 425)]   # row centres in image pixels
+    for lab, sub, yc in cases:
+        y = 5 + yc * sc - 60
+        b += (f'<div style="position:absolute;left:30px;top:{y}px;width:280px;height:120px;display:flex;flex-direction:column;justify-content:center">'
+              f'<div class="t" style="font-size:30px">{lab}</div><div class="s" style="font-size:21px;color:{HEAT if lab[0] == "<" else TREE}">{sub}</div></div>')
+    b += (f'<div class="s" style="position:absolute;left:{x0 + 30}px;top:{5 + 34 * sc}px;font-size:22px;color:{HEAT}">'
+          f'too narrow: kept free for walking</div>')
     return page(b, h), h
 
 
 def bucket():
     """1 mm on 1 m² = 1 litre; Celtis crown 6.3 m (31 m²), s·LAI ≈ 4 mm -> ≈125 L held of ≈1,000 L in the T2-60 storm."""
     h = 560
-    b = ""
-    for k in range(22):
-        x = 160 + k * 26
-        b += f'<div style="position:absolute;left:{x}px;top:{20 + (k % 3) * 14}px;width:3px;height:44px;background:{RAIN};opacity:.55;transform:rotate(12deg)"></div>'
-    b += (f'<div style="position:absolute;left:150px;top:120px;width:560px;height:200px;border-radius:50%;background:{tint(TREE, .6)};'
-          f'border:3px solid {TREE}"></div><div style="position:absolute;left:418px;top:300px;width:24px;height:200px;background:#6B5640"></div>'
-          f'<div style="position:absolute;left:40px;top:500px;width:780px;height:6px;background:{INK}"></div>')
-    b += (f'<div class="t" style="position:absolute;left:250px;top:180px;width:360px;text-align:center;color:{BG}">≈ 125 L held</div>')
+    tree = base64.b64encode((FIG / "bucket_tree.jpg").read_bytes()).decode()   # Giovanni's illustration, 24 Nov
+    b = (f'<img src="data:image/jpeg;base64,{tree}" style="position:absolute;left:230px;top:0;height:{h}px">')
     stats = [(RAIN, "cloud-rain", "≈ 1,000 L", "fall on the crown (31.9 mm in 1 h, 2-year storm)"),
              (TREE, "tree-deciduous", "≈ 125 L", "stay on the leaves: 1.75 mm × leaf area index ≈ 4 mm"),
              (MUTED, "droplets", "≈ 875 L", "reach the ground")]
@@ -108,24 +90,23 @@ def bucket():
 
 
 def hill():
-    """Same tree, same water held; only position decides whether that water would have reached the flood spot."""
+    """Same tree, same water held; only position decides whether that water would have reached the flood spot.
+    Illustration: Giovanni, 24 Nov (hill_slope.jpg); numbers: position test, notes/tutor_feedback_10nov.md."""
     h = 600
-    ground = "M0 150 C300 160 500 250 800 330 S1250 430 1600 440 L1600 600 L0 600 Z"
-    b = (f'<svg class="e" width="1600" height="{h}"><path d="{ground}" fill="#E6E1D6" stroke="{INK}" stroke-width="4"/>'
-         f'<ellipse cx="1380" cy="440" rx="170" ry="26" fill="{RAIN}" opacity=".75"/>'
-         f'<path d="M330 205 C560 260 900 360 1250 425" fill="none" stroke="{RAIN}" stroke-width="5" stroke-dasharray="14 10"/>'
-         f'<path d="M1250 425 l-22 -14 l4 22 z" fill="{RAIN}"/></svg>')
-    b += (f'<div style="position:absolute;left:250px;top:80px;width:150px;height:95px;border-radius:50%;background:{tint(TREE, .6)};border:3px solid {TREE}"></div>'
-          f'<div style="position:absolute;left:318px;top:170px;width:12px;height:30px;background:#6B5640"></div>')
-    b += (f'<div class="n" style="left:40px;top:250px;width:520px;height:120px;background:{tint(TREE, .14)}">'
+    img = base64.b64encode((FIG / "hill_slope.jpg").read_bytes()).decode()
+    b = f'<img src="data:image/jpeg;base64,{img}" style="position:absolute;left:0;top:10px;width:1040px">'
+    b += (f'<div class="n" style="left:420px;top:20px;width:400px;height:105px;background:{tint(TREE, .14)}">'
           f'<div class="t" style="color:{TREE};font-size:27px">Upstream of the flood spot</div>'
           f'<div class="s" style="font-size:21px">its ≈125 L never reach the hotspot</div></div>')
-    b += (f'<div class="n" style="left:1210px;top:480px;width:360px;height:100px;background:{tint(RAIN, .14)}">'
+    b += (f'<div class="n" style="left:760px;top:250px;width:270px;height:105px;background:{tint(RAIN, .14)}">'
           f'<div class="t" style="color:{RAIN};font-size:27px">Flood hotspot</div><div class="s" style="font-size:20px">collects the water from upslope</div></div>')
-    b += (f'<div class="n" style="left:640px;top:20px;width:930px;height:200px;background:#FBFAF6;border:2px solid {INK}">'
-          f'<div class="row"><span class="chip"><b>74%</b> of Porta\'s tree positions drain to no hotspot</span></div>'
-          f'<div class="row"><span class="chip"><b>× 5.6</b> water kept from hotspots: 100 trees placed by the method vs at random</span></div>'
-          f'<div class="row"><span class="chip" style="border:2px dashed {HEAT}"><b style="color:{HEAT}">0.5%</b> of the hotspot water → a do-no-harm check</span></div></div>')
+    cards = [(TREE, "74%", "of Porta's tree positions drain to no hotspot", "solid"),
+             (RAIN, "× 5.6", "water kept from hotspots: 100 trees placed by the method vs at random", "solid"),
+             (HEAT, "0.5%", "of the hotspot water → a do-no-harm check", "dashed")]
+    for k, (c, big, small, st) in enumerate(cards):
+        y = 30 + k * 185
+        b += (f'<div class="n" style="left:1080px;top:{y}px;width:490px;height:165px;background:#FBFAF6;border:2px {st} {c}">'
+              f'<div class="t" style="color:{c};font-size:40px">{big}</div><div class="s" style="font-size:21px">{small}</div></div>')
     return page(b, h), h
 
 
