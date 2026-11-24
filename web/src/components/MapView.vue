@@ -15,7 +15,7 @@ import { TileLayer } from '@deck.gl/geo-layers'
 import { _TerrainExtension as TerrainExtension } from '@deck.gl/extensions'
 import { SphereGeometry } from '@luma.gl/engine'
 import { state, dataUrl, hexToRgb, currentLayout, spotClass, addTreeAt, addVertex, keptReplaced, themeColors, isDark, AREA, addableMask, finishArea,
-  cancelDrawing, finishEditArea, cancelEditArea, groundZ, setGround3d, setLidar, ORTO } from '../store.js'
+  cancelDrawing, finishEditArea, cancelEditArea, groundZ, setGround3d, setLidar, setParks, ORTO } from '../store.js'
 
 setWorkerUrl(workerUrl)
 const el = ref(null)
@@ -197,6 +197,16 @@ function crowns() {
       updateTriggers: { getPosition: g3 },
       getScale: (i) => scale([k.crown_diam_m[i], k.height_m[i], k.crown_base_m[i]]),
       getColor: themeColors.value.kept,
+    }),
+    state.showParks && state.parks?.site === state.site && new SimpleMeshLayer({
+      id: 'parks',
+      data: [...state.parks.lon.keys()],
+      mesh: sphere,
+      pickable: true,
+      getPosition: (i) => { const P = state.parks; return ctr(P.lon[i], P.lat[i], [P.crown_diam_m[i], P.height_m[i], P.crown_base_m[i]]) },
+      getScale: (i) => { const P = state.parks; return scale([P.crown_diam_m[i], P.height_m[i], P.crown_base_m[i]]) },
+      getColor: themeColors.value.park,
+      updateTriggers: { getPosition: g3, getColor: isDark.value },
     }),
     new SimpleMeshLayer({
       id: 'positions',
@@ -455,6 +465,7 @@ onMounted(() => {
           (c ? `\nMove first: ${S.reasons[index].replaceAll('_', ' ').replaceAll(';', ', ')}` : '') +
           (S.utility_conditional?.[index] ? '\nConditional: the pit would sit on a buried gas or telecom line (PTEV 2024 p. 31)' : '') }
       }
+      if (layer?.id === 'parks') { const P = state.parks; return { text: `${P.species[index]} (${P.kind[index]} tree, context only)${P.place[index] ? '\n' + P.place[index] : ''}` } }
       if (layer?.id !== 'positions' || index < 0) return null
       return { text: state.meta.palette[currentLayout()[index]].species }
     },
@@ -467,7 +478,7 @@ onMounted(() => {
 
 watch(
   () => [state.scenarioId, state.live?.version, state.area?.version, state.area, state.drawing, state.draft, state.overlay, state.showStreets, isDark.value,
-    state.month, state.selected, state.addedVersion, state.buildingOpacity, state.addMode, state.editing, state.ground3d, state.basemap, state.meta, state.showLidar],
+    state.month, state.selected, state.addedVersion, state.showParks, state.buildingOpacity, state.addMode, state.editing, state.ground3d, state.basemap, state.meta, state.showLidar],
   () => overlay?.setProps({ layers: layers() }),
 )
 
@@ -475,7 +486,7 @@ watch(
 watch(() => [isDark.value, state.basemap], () => map?.setStyle(style()))
 
 // another site or palette: its own relief file
-watch(() => state.meta, (m) => { if (m && state.ground3d) setGround3d(true); if (m && state.showLidar) setLidar(true) })
+watch(() => state.meta, (m) => { if (m && state.ground3d) setGround3d(true); if (m && state.showLidar) setLidar(true); if (m && state.showParks) setParks(true) })
 
 // a new project area: frame it (keeps the current pitch and bearing)
 watch(() => state.area?.poly, (poly) => {

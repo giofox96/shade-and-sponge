@@ -29,6 +29,8 @@ export const state = reactive({
   ground3d: false, // relief from the site DTM (meta.terrain); trees, buildings and lines then sit on it
   terrain: null, // { w, h, z (Float32Array, m above the site's lowest point), bounds: [west, south, east, north] } once loaded
   showLidar: false, // thinned LiDAR cloud (meta.lidar), loaded on first use
+  showParks: false, // park and zone trees (meta.parks): context only, never scored
+  parks: null, // { site, id, kind, place, species, lon, lat, height_m, crown_diam_m, crown_base_m } once loaded
   lidar: null, // { site, n, pos (Float32Array: east, north m from site.center, 0), z, hag (m), cls } once loaded
   month: 7,
   selected: null, // index into positions
@@ -117,6 +119,12 @@ export async function setLidar(on) {
     state.lidar = markRaw({ site: state.site, n, pos, z, hag, cls: new Uint8Array(buf, 8 * n, n) })
   }
   state.showLidar = on && !!state.lidar
+}
+// Park and zone trees (python scripts/web_export_parks.py): drawn for context only; their canopy is already fixed background
+export async function setParks(on) {
+  if (on && state.meta?.parks && state.parks?.site !== state.site)
+    state.parks = markRaw({ site: state.site, ...(await (await fetch(dataUrl(state.meta.parks.file))).json()) })
+  state.showParks = on && !!state.parks
 }
 export async function setGround3d(on) {
   if (on) await loadTerrain()
@@ -628,12 +636,12 @@ watch(() => ui.theme, (t) => {
 }, { immediate: true })
 // Earth palette (as the slides) for deck.gl and ECharts, light and dark
 export const themeColors = computed(() => (isDark.value
-  ? { text: '#F2F0EA', muted: '#B3BAB9', grid: '#333A33', plane: '#E4DFD3', other: '#5E5B54', kept: [150, 150, 140, 150],
+  ? { text: '#F2F0EA', muted: '#B3BAB9', grid: '#333A33', plane: '#E4DFD3', other: '#5E5B54', kept: [150, 150, 140, 150], park: [110, 140, 105, 140],
       building: [64, 70, 64, 235], buildingLine: [40, 44, 40], facade: [120, 120, 115, 170], kerb: [170, 176, 184, 150],
       ring: [242, 240, 234], ringOn: [157, 180, 222], area: [157, 180, 222], draft: [217, 184, 102],
       random: '#7A776E', city: '#D9B866', optimised: '#9DB4DE', current: '#E4DFD3', on: '#F2F0EA',
       ground: [44, 48, 44], basemap: 'https://basemaps.cartocdn.com/gl/dark-matter-gl-style/style.json' }
-  : { text: '#2A2622', muted: '#665E4F', grid: '#DCD8CE', plane: '#3A3630', other: '#C9C4B8', kept: [150, 155, 135, 150],
+  : { text: '#2A2622', muted: '#665E4F', grid: '#DCD8CE', plane: '#3A3630', other: '#C9C4B8', kept: [150, 155, 135, 150], park: [120, 150, 110, 140],
       building: [222, 218, 208, 235], buildingLine: [180, 176, 166], facade: [195, 195, 190, 210], kerb: [110, 116, 128, 210],
       ring: [255, 255, 255], ringOn: [40, 63, 102], area: [40, 63, 102], draft: [140, 106, 36],
       random: '#B4AE9F', city: '#8C6A24', optimised: '#5D7BAA', current: '#2A2622', on: '#283F66',
