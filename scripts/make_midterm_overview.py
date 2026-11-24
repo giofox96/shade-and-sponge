@@ -6,7 +6,7 @@ Output: slides/midterm/fig/method_overview.svg/.png. Run from scripts/: python m
 """
 import make_infographics as mi
 from make_infographics import t, rect, save, ROOT, INK, MUTED, GRID, HEAT, RAIN, TREE, WARN
-from make_flowcharts import head, box, outline, curve, vline, caption, i_heat, i_rain, i_layers, i_area, i_check, i_radar
+from make_flowcharts import head, box, outline, curve, caption, i_heat, i_rain, i_layers, i_area, i_check, i_radar
 
 mi.OUT = ROOT / "slides/midterm/fig"
 mi.OUT.mkdir(parents=True, exist_ok=True)
@@ -15,19 +15,35 @@ EXT_SRC = ("Ajuntament de Barcelona: Open Data BCN street-tree inventory, Mapa b
 
 
 def flow_overview():
-    X = [110, 330, 560, 770, 1000, 1240, 1480]
+    X = [110, 330, 545, 720, 965, 1240, 1490]   # Project area compacted towards the screening: more room for the arrows
+    MX, RX, ye = 1165, 1315, 535                # metric boxes, radar; ye = centre of the dashed frame (Evaluate, Validation aligned)
     b = "".join(head(x, h) for x, h in zip(X, ("Focus", "Data", "City screening", "Project area", "Design",
                                                "Evaluate", "Validation")))
     y0 = 470
     b += i_heat(X[0], 360) + caption(X[0], 422, "Heat stress", HEAT)
     b += i_rain(X[0], 580) + caption(X[0], 642, "Pluvial floods", RAIN)
-    data = [("Tree inventory", TREE, None), ("LiDAR 2021", TREE, "crowns · buildings"), ("Terrain (DTM)", RAIN, "0.5 m · ground in 3D"),
-            ("Flood hotspots", RAIN, None), ("Sidewalks · objects", WARN, "width · lamps · signs"), ("Hot day · storms", HEAT, None)]
-    ys = [255, 335, 415, 495, 575, 655]
+    data = [("Tree inventory", TREE, None), ("LiDAR 2021", TREE, "crowns · buildings"), ("Hot day", HEAT, None),
+            ("Terrain (DTM)", RAIN, "0.5 m · ground in 3D"), ("Flood hotspots", RAIN, None),
+            ("Design storm", RAIN, None), ("Sidewalks · objects", WARN, "width · traffic lights · driveways")]
+    ys = [245, 315, 385, 455, 525, 595, 665]
     for (lab, c, sub), y in zip(data, ys):
         b += box(X[1], y, lab, c, 196, 56 if sub else 48, sub)
-    for fy, dy in ((360, 335), (360, 655), (580, 415), (580, 495), (580, 655)):   # heat → LiDAR, hot day; floods → DTM, hotspots, storms
-        b += curve(X[0] + 40, fy, X[1] - 100, dy, GRID)
+    # Focus does not produce the data (no arrow into an input, A. Chronis): a dot on each box says which hazard uses it.
+    # heat → LiDAR (crowns, buildings: shade), hot day (sun path); floods → LiDAR (crown, LAI: water held on leaves),
+    # DTM (where water flows), hotspots (where it does harm), design storm. Inventory and sidewalks serve both (constraints).
+    uses = {315: (HEAT, RAIN), 385: (HEAT,), 455: (RAIN,), 525: (RAIN,), 595: (RAIN,)}
+    for y, cs in uses.items():
+        for k, c in enumerate(cs):
+            yy = y + 20 * k - 10 * (len(cs) - 1)              # two dots stacked vertically (LiDAR)
+            b += f'<circle cx="{X[1] - 98 - 14}" cy="{yy}" r="7" fill="{c}" stroke="white" stroke-width="2"/>'
+    for y, c, lab in ((448, HEAT, "used for heat"), (668, RAIN, "used for floods")):   # legend right under each caption
+        b += f'<circle cx="{X[0] - 50}" cy="{y}" r="7" fill="{c}" stroke="white" stroke-width="2"/>'
+        b += t(X[0] - 37, y + 5, lab, 13, MUTED)
+    # City rules are an input like the data (plan 2017–2037, 2011 guide): sizes feed the screening, palette and cap the solve
+    b += outline(X[1], 740, "City rules", WARN, 196, 60, "30 species · 15% · sizes")
+    b += curve(X[1] + 100, 740, X[2] - 46, y0 - 25, GRID)
+    b += (f'<path d="M{X[1] + 100},{752} L{835},{752} Q{875},{752} {875},{712} L{875},{630}" fill="none" '
+          f'stroke="{GRID}" stroke-width="1.8" marker-end="url(#arr)"/>')
     b += i_layers(X[2], y0 - 25) + caption(X[2], y0 + 40, "Indicators per tree")
     for y in ys:
         b += curve(X[1] + 100, y, X[2] - 46, y0 - 25, GRID)
@@ -44,30 +60,33 @@ def flow_overview():
     b += t(X[2], my + rows * cell + 35, "tree · place · score", 12, MUTED, anchor="middle")
     # Project area: the designer sets an action per tree
     b += i_area(X[3], y0 - 25) + caption(X[3], y0 + 40, "The designer decides") + t(X[3], y0 + 62, "an action per tree", 14, MUTED, anchor="middle")
-    b += curve(X[2] + 46, y0 - 25, X[3] - 40, y0 - 25)
+    b += curve(X[2] + 46, y0 - 25, X[3] - 40, y0 - 25, GRID)
     # Design: the four actions per tree (Angelos: four options). Keep and Move stay; Replace and Add go to the optimiser.
     actions = [("Keep", TREE, 330, "tree stays"), ("Move", WARN, 410, "frees a spot"),
                ("Replace", HEAT, 490, "optimiser picks"), ("Add", RAIN, 570, "optimiser picks")]
     for lab, c, y, sub in actions:
         b += box(X[4], y, lab, c, 196, 56, sub)
         b += curve(X[3] + 40, y0 - 25, X[4] - 100, y, GRID)
-    b += outline(X[4], 738, "City rules", WARN, 280, 64, "30 species · 15% cap · sidewalk size")
-    b += vline(X[4], 706, 668, WARN)
     for k, (lab, c) in enumerate((("Heat", HEAT), ("Runoff", RAIN), ("Canopy", TREE))):
         y = 476 + 60 * k
-        b += box(X[5] - 70, y, lab, c, 110, 44)
-        b += curve(X[4] + 100, 490, X[5] - 127, y, GRID) + curve(X[4] + 100, 570, X[5] - 127, y, GRID)
-    b += i_radar(X[5] + 70, y0 - 25) + t(X[5] + 70, y0 + 34, "vs today", 14, MUTED, anchor="middle")
-    b += t(X[5] + 70, y0 + 52, "vs city practice", 14, MUTED, anchor="middle")
+        b += box(MX, y, lab, c, 110, 44)
+        b += curve(X[4] + 100, 490, MX - 57, y, GRID) + curve(X[4] + 100, 570, MX - 57, y, GRID)
+    b += i_radar(RX, ye) + t(RX, ye + 59, "vs today", 14, MUTED, anchor="middle")
+    b += t(RX, ye + 77, "vs city practice", 14, MUTED, anchor="middle")
     for k in range(3):
-        b += curve(X[5] - 15, 476 + 60 * k, X[5] + 30, y0 - 25, GRID)
+        b += curve(MX + 57, 476 + 60 * k, RX - 40, ye, GRID)
+    # Keep and Move are not optimised but are evaluated: the radar scores the whole layout. Each arrow starts from its own
+    # box, runs above the frame and enters the radar from the top (no arrow into a group, as A. Chronis asked).
+    for y in (330, 410):
+        b += (f'<path d="M{X[4] + 100},{y} L{RX - 50},{y} Q{RX},{y} {RX},{y + 50} L{RX},{ye - 40}" fill="none" '
+              f'stroke="{GRID}" stroke-width="1.8" marker-end="url(#arr)"/>')
     # one exact solve (not an iterative loop): a dashed frame around what the optimiser decides and scores
-    b += (f'<rect x="890" y="444" width="344" height="182" rx="12" fill="none" stroke="{MUTED}" '
+    b += (f'<rect x="852" y="444" width="384" height="182" rx="12" fill="none" stroke="{MUTED}" '
           'stroke-width="1.6" stroke-dasharray="7 5"/>')
-    b += t(1234, 646, "Optimisation · HiGHS (one exact solve)", 14, INK, "bold", "end")
-    b += i_check(X[6], y0 - 25) + caption(X[6], y0 + 40, "Porta") + t(X[6], y0 + 62, "→ Sant Antoni", 14, MUTED, anchor="middle")
-    b += t(X[6], y0 + 80, "Mataró · Florence", 14, MUTED, anchor="middle")
-    b += curve(X[5] + 110, y0 - 25, X[6] - 40, y0 - 25)
+    b += t(1044, 648, "Optimisation · HiGHS (one exact solve)", 14, INK, "bold", "middle")   # centred on the frame
+    b += i_check(X[6], ye) + caption(X[6], ye + 65, "Porta") + t(X[6], ye + 87, "→ Sant Antoni", 14, MUTED, anchor="middle")
+    b += t(X[6], ye + 105, "Mataró · Florence", 14, MUTED, anchor="middle")
+    b += curve(RX + 40, ye, X[6] - 40, ye, GRID)
     b += t(800, 815, "The designer sets an action per tree; the optimiser picks the species for every Replace and Add, within the city's rules.",
            17, MUTED, anchor="middle")
     save("method_overview", "Methodology", "Which species replace the trees a project removes, and where to add new ones: "

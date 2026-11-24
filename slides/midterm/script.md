@@ -1,6 +1,6 @@
 # Shade and Sponge: midterm Pecha Kucha (24 Nov 2026, 5 min)
 
-15 slides × 20 s. Built on the RM 3-minute deck (`slides/rm_final/`) and the 17 Nov tutor feedback (`notes/tutor_feedback_17nov.md`): narrative first, then a method anyone can follow, Porta in absolute numbers, the four actions inside the method, runoff explained with litres. Speaker notes = the "Say" lines. About 47 words per slide, 703 in total: about 4.7 minutes at 150 words a minute, leaving room for pauses (RT feedback, 23 Nov: keep to time).
+15 slides × 20 s. Built on the RM 3-minute deck (`slides/rm_final/`) and the 17 Nov tutor feedback (`notes/tutor_feedback_17nov.md`): narrative first, then a method anyone can follow, Porta in absolute numbers, the four actions inside the method, runoff explained with litres. Speaker notes = the "Say" lines. About 47 words per slide, 741 in total: about 4.9 minutes at 150 words a minute, leaving room for pauses (RT feedback, 23 Nov: keep to time).
 
 ### 1. Title
 **Say (42 words):** "Imagine you redesign a street in Barcelona. The layout is already decided. Your job is the trees: which to keep, move or replace, and where to add new ones, so the street is cooler in summer and not worse when it rains."
@@ -9,7 +9,7 @@
 **Say (54 words):** "Every city with street trees faces this choice; Barcelona is my case. Since 2018 it has replaced almost eleven thousand street trees. It caps each species at fifteen percent, but says nothing about which species goes where. And with the same trunk, crowns range from a full plane tree to a quarter of one."
 
 ### 3. Porta in numbers
-**Say (46 words):** "My site is Porta: eighty-four hectares, almost three thousand street trees. Crowns cover twenty percent; the city's target is thirty, so eight hectares are missing. Planting every free spot adds only a third of a hectare. So what counts is which species stands in each spot."
+**Say (56 words):** "My site is Porta, chosen because it is hot, flood-prone and full of planes: eighty-four hectares, almost three thousand street trees. Crowns cover twenty percent; the city's target is thirty, so eight hectares are missing. Planting every free spot adds only a third of a hectare. So what counts is which species stands in each spot."
 
 ### 4. State of the art and gap
 **Say (45 words):** "The pieces exist, but separately. Some models assess heat and runoff, without choosing species. Other tools choose species for one service, or without positions. Of eighteen tools I reviewed, none chooses the species tree by tree, on heat and runoff, inside a city's own rules."
@@ -21,10 +21,10 @@
 **Say (44 words):** "What is fixed: the street layout, the fifteen percent cap, the sidewalk width that sets the tree size, traffic lights and driveways. What is free: four actions per tree, keep, move, replace or add. Never remove without replacing. The tool advises; the designer decides."
 
 ### 7. Method
-**Say (45 words):** "Four steps. First, a screening of every tree and free spot. Second, the designer sets an action per tree, with a reason. Third, an exact optimiser picks the species for every replaced or added position. Fourth, I compare with today and with the city's practice."
+**Say (49 words):** "Heat and floods drive the data: trees, LiDAR, terrain, storms, sidewalks. Every tree is screened. In the project area, the designer sets an action per tree: keep, move, replace or add. An exact optimiser picks the species within the city's rules. I compare with today and the city's practice."
 
 ### 8. Screening
-**Say (44 words):** "The screening asks three questions everywhere. What stands there: species, crown and leaf density. Where it is: sidewalk width, nearby objects, and whether rain flows to a flood spot. And what each of thirty species would do there: summer shade, winter shade, rain held."
+**Say (51 words):** "The screening computes the same indicators once for every tree and free spot, one row each. What stands there: species, trunk, crown, leaf density. Where it is: sidewalk, tree size, whether rain flows to a flood spot. Then a score for each of thirty species; the optimiser picks one per row."
 
 ### 9. City rules
 **Say (45 words):** "The rules come from the city's street-tree guide. Below two and a half metres of sidewalk, no tree. Then small, medium or large trees every seven, nine or thirteen metres, set by the width. Plus the fifteen percent cap. The optimiser breaks none of them."
@@ -41,8 +41,8 @@
 ### 13. City practice, not a rule
 **Say (50 words):** "My baseline is the city's practice: what it really planted where trees were replaced. It is a practice, not a rule, and it does not always follow the rules: one in five new trees is larger than its sidewalk allows. So the method can also measure what each rule costs."
 
-### 14. First evidence
-**Say (49 words):** "First test: twenty-six groups where the city really replaced trees, same positions. Per new tree, the city's choice gives a median fifty-nine square-metre hours of summer shade; the method gives one hundred thirty-nine. It wins twenty-two of twenty-six groups, and sends no more water to flood spots in any."
+### 14. First evidence and co-benefits
+**Say (56 words):** "First test: twenty-six groups the city really replaced. Per new tree, the method gives a median one hundred thirty-nine square-metre hours of summer shade, the city fifty-nine, with no more water to flood spots. In Porta it also stores more carbon than city practice, less pollen than today, and a diversity floor costs almost no shade."
 
 ### 15. Next
-**Say (54 words):** "Next: felt temperature with Ladybug and Infrared City, the same method in Mataró and Florence, and a tool where the designer sets each tree's action and sees the trade-offs. For people on the street, that means more shade where they walk. The right tree, in the right place, within the city's rules. Thank you."
+**Say (64 words):** "Next: felt temperature with Ladybug and Infrared City, a first transfer test in Mataró, where the method wins on six of six streets, then Florence, and a tool where the designer sets each tree's action and sees the trade-offs. For people on the street, that means more shade where they walk. The right tree, in the right place, within the city's rules. Thank you."

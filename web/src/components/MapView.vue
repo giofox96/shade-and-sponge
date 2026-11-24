@@ -15,7 +15,7 @@ import { TileLayer } from '@deck.gl/geo-layers'
 import { _TerrainExtension as TerrainExtension } from '@deck.gl/extensions'
 import { SphereGeometry } from '@luma.gl/engine'
 import { state, dataUrl, hexToRgb, currentLayout, spotClass, addTreeAt, addVertex, keptReplaced, themeColors, isDark, AREA, addableMask, finishArea,
-  cancelDrawing, finishEditArea, cancelEditArea, groundZ, setGround3d, setLidar, ORTO } from '../store.js'
+  cancelDrawing, finishEditArea, cancelEditArea, groundZ, setGround3d, setLidar, setParks, keptKey, ORTO } from '../store.js'
 
 setWorkerUrl(workerUrl)
 const el = ref(null)
@@ -86,6 +86,30 @@ function reliefMesh() {
   })
   reliefOf = T
   return (relief = { attributes: { POSITION: { value: P, size: 3 }, NORMAL: { value: Nn, size: 3 } }, indices: { value: I, size: 1 } })
+}
+
+// 3D ground: sidewalk lines lifted onto the relief, a vertex every metre. Draped (TerrainExtension) they were drawn into a
+// low-resolution ground texture and came out grainy.
+let walks = null, walksOf = null
+function sidewalks3d() {
+  const key = state.site
+  if (walksOf === key) return walks ?? []
+  walksOf = key
+  walks = null
+  fetch(dataUrl('sidewalks.geojson')).then((r) => r.json()).then((fc) => {
+    if (walksOf !== key) return
+    const kx = M_DEG * Math.cos((state.meta.site.center[1] * Math.PI) / 180)
+    const dense = (L) => L.flatMap((q, k) => {
+      if (k === 0) return [q]
+      const p = L[k - 1], n = Math.max(1, Math.ceil(Math.hypot((q[0] - p[0]) * kx, (q[1] - p[1]) * M_DEG))) // 1 m steps
+      return Array.from({ length: n }, (_, j) => [p[0] + ((q[0] - p[0]) * (j + 1)) / n, p[1] + ((q[1] - p[1]) * (j + 1)) / n])
+    }).map((q) => up(q, 0.15))
+    walks = fc.features.map((f) => ({ ...f, geometry: f.geometry.type === 'LineString'
+      ? { type: 'LineString', coordinates: dense(f.geometry.coordinates) }
+      : { ...f.geometry, coordinates: f.geometry.coordinates.map(dense) } }))
+    overlay?.setProps({ layers: layers() })
+  })
+  return []
 }
 
 // 3D ground: building footprints with their base on the lowest ground under them
@@ -173,6 +197,18 @@ function crowns() {
       updateTriggers: { getPosition: g3 },
       getScale: (i) => scale([k.crown_diam_m[i], k.height_m[i], k.crown_base_m[i]]),
       getColor: themeColors.value.kept,
+      pickable: true,
+      onClick: (info) => (state.drawing ? addVertex(...at(info)) : (state.selected = keptKey(info.object))),
+    }),
+    state.showParks && state.parks?.site === state.site && new SimpleMeshLayer({
+      id: 'parks',
+      data: [...state.parks.lon.keys()],
+      mesh: sphere,
+      pickable: true,
+      getPosition: (i) => { const P = state.parks; return ctr(P.lon[i], P.lat[i], [P.crown_diam_m[i], P.height_m[i], P.crown_base_m[i]]) },
+      getScale: (i) => { const P = state.parks; return scale([P.crown_diam_m[i], P.height_m[i], P.crown_base_m[i]]) },
+      getColor: themeColors.value.park,
+      updateTriggers: { getPosition: g3, getColor: isDark.value },
     }),
     new SimpleMeshLayer({
       id: 'positions',
@@ -240,6 +276,20 @@ function addMask() {
   return mask
 }
 
+// the selected tree or spot (map or schedule): a ring on the ground, drawn over everything
+function selRing(sel) {
+  if (sel == null) return null
+  const T = state.trees, n = typeof sel === 'string' ? Number(sel.slice(1)) : sel
+  const [lon, lat, d] = typeof sel === 'number' ? [T.positions.lon[n], T.positions.lat[n], T.positions.s0_crown_diam_m[n]]
+    : sel[0] === 'k' ? [T.kept.lon[n], T.kept.lat[n], T.kept.crown_diam_m[n]]
+    : sel[0] === 's' ? [T.spots.lon[n], T.spots.lat[n], 2 * SPOT_R[T.spots.size_class[n]]]
+    : [state.added[n]?.lon, state.added[n]?.lat, 4]
+  if (lon == null) return null
+  return new ScatterplotLayer({ id: 'sel-ring', data: [[lon, lat]], getPosition: (q) => up(q, 0.4), getRadius: Math.max(d || 4, 3) / 2 + 1,
+    radiusUnits: 'meters', radiusMinPixels: 9, stroked: true, filled: false, getLineColor: themeColors.value.ringOn, lineWidthMinPixels: 2.5,
+    parameters: ON_TOP })
+}
+
 // free spots: footprint radius (m) per size class, and the spot lifted onto the highest ground under its footprint (a flat
 // disc on a slope would otherwise sink into the relief)
 const SPOT_R = { small: 1.6, medium: 2.2, large: 2.8 }
@@ -250,22 +300,56 @@ function spotUp(i, dz) {
   return [lon, lat, z + dz]
 }
 
-// the selected plane position: dimension lines tree -> façade foot and tree -> kerb along its measuring ray, labelled in metres
+// façade and kerb lines of the site (sidewalks.geojson), kept for the dimension lines of trees the width script could not measure
+let swLines = null, swOf = null
+function sidewalkLines() {
+  const url = dataUrl('sidewalks.geojson')
+  if (swOf !== url) {
+    swOf = url; swLines = null
+    fetch(url).then((r) => r.json()).then((fc) => { if (swOf === url) { swLines = fc.features; overlay?.setProps({ layers: layers() }) } })
+  }
+  return swLines
+}
+const DIM_MAX_M = 25 // ASSUMPTION: farther than this, the nearest façade or kerb is not the tree's own sidewalk
+
+// nearest point to t on the lines of one kind, in metres: { to, d } or null
+function nearestOn(t, kind, kx) {
+  let best = null
+  for (const f of sidewalkLines() ?? []) {
+    if (f.properties.kind !== kind) continue
+    const L = f.geometry.coordinates
+    for (let j = 1; j < L.length; j++) {
+      const ax = (L[j - 1][0] - t[0]) * kx, ay = (L[j - 1][1] - t[1]) * M_DEG, bx = (L[j][0] - t[0]) * kx, by = (L[j][1] - t[1]) * M_DEG
+      const vx = bx - ax, vy = by - ay, u = Math.max(0, Math.min(1, -(ax * vx + ay * vy) / (vx * vx + vy * vy || 1)))
+      const px = ax + u * vx, py = ay + u * vy, d = Math.hypot(px, py)
+      if (d <= DIM_MAX_M && (!best || d < best.d)) best = { to: [t[0] + px / kx, t[1] + py / M_DEG], d }
+    }
+  }
+  return best
+}
+
+// the selected plane position: dimension lines tree -> façade foot and tree -> kerb, labelled in metres. Measured trees use the
+// width script's ray; the others (no kerb, no façade, median) show whichever of the two is found nearby
 function dimensions(i) {
-  const p = state.trees.positions, r = typeof i === 'number' ? p.sw_ray?.[i] : null
-  if (!r) return []
+  const p = state.trees.positions
+  if (typeof i !== 'number' || p.lon[i] == null) return []
+  const r = p.sw_ray?.[i]
   const t = [p.lon[i], p.lat[i]], kx = M_DEG * Math.cos((t[1] * Math.PI) / 180)
   const m = (q) => Math.hypot((q[0] - t[0]) * kx, (q[1] - t[1]) * M_DEG)
-  const dims = [[r[0], r[1], 'façade'], [r[2], r[3], 'kerb']].map(([lon, lat, what]) => ({ to: [lon, lat], text: `${m([lon, lat]).toFixed(1)} m to ${what}` }))
+  const ends = r ? [[[r[0], r[1]], 'façade'], [[r[2], r[3]], 'kerb']]
+    : ['facade', 'kerb'].map((k) => [nearestOn(t, k, kx)?.to, k === 'facade' ? 'façade' : 'kerb']).filter(([q]) => q)
+  if (!ends.length) return []
+  const dims = ends.map(([to, what]) => ({ to, text: `${m(to).toFixed(1)} m to ${what}` }))
   const col = themeColors.value.ringOn
   return [
     new PathLayer({ id: 'dim-lines', data: dims, getPath: (d) => [up(t, 0.3), up(d.to, 0.3)], getColor: col, getWidth: 1.5, widthUnits: 'pixels',
       parameters: ON_TOP }),
-    new ScatterplotLayer({ id: 'dim-ends', data: dims, getPosition: (d) => up(d.to, 0.3), getRadius: 3, radiusUnits: 'pixels', getFillColor: col,
-      parameters: ON_TOP }),
-    // one label above the tree: the kerb is often under a metre away, so labels at the two ends would collide
-    new TextLayer({ id: 'dim-labels', data: [dims.map((d) => d.text).join(' · ')], getPosition: () => up(t, 0.3), getText: (d) => d,
-      getSize: 12, getPixelOffset: [0, -24],
+    // a dot at each end of the dimension: the trunk and the façade / kerb point
+    new ScatterplotLayer({ id: 'dim-ends', data: [...dims.map((d) => d.to), t], getPosition: (q) => up(q, 0.3), getRadius: 3, radiusUnits: 'pixels',
+      getFillColor: col, parameters: ON_TOP }),
+    // one label above the tree, one line per distance: the kerb is often under a metre away, so labels at the two ends would collide
+    new TextLayer({ id: 'dim-labels', data: [dims.map((d) => d.text).join('\n')], getPosition: () => up(t, 0.3), getText: (d) => d,
+      getSize: 12, getPixelOffset: [0, -30], lineHeight: 1.3,
       characterSet: 'auto', background: true, getBackgroundColor: [255, 255, 255, 230], backgroundPadding: [4, 2], getColor: col,
       fontFamily: 'system-ui, sans-serif', parameters: ON_TOP }),
   ]
@@ -306,7 +390,7 @@ function layers() {
       parameters: { depthWriteEnabled: state.buildingOpacity >= 1 },
     }),
     state.showStreets &&
-      new GeoJsonLayer({ id: 'sidewalks', data: dataUrl('sidewalks.geojson'), stroked: true, filled: false, ...drape(),
+      new GeoJsonLayer({ id: 'sidewalks', data: state.ground3d ? sidewalks3d() : dataUrl('sidewalks.geojson'), stroked: true, filled: false,
         getLineColor: (f) => (f.properties.kind === 'facade' ? themeColors.value.facade : themeColors.value.kerb),
         updateTriggers: { getLineColor: isDark.value },
         getLineWidth: (f) => (f.properties.kind === 'facade' ? 0.5 : 1), lineWidthUnits: 'pixels' }),
@@ -320,6 +404,7 @@ function layers() {
         onClick: (info) => { // a click on a free spot plants there in "Add trees" mode
           if (state.drawing) return addVertex(...at(info))
           if (state.addMode) tryAdd(state.trees.spots.lon[info.index], state.trees.spots.lat[info.index], info)
+          else state.selected = `s${info.index}` // the schedule's Spots tab follows
         } }),
     state.showStreets &&
       new ScatterplotLayer({ id: 'spot-centres', data: state.trees.spots.lon.map((lon, i) => i), getPosition: (i) => spotUp(i, 0.2),
@@ -333,6 +418,7 @@ function layers() {
         getFillColor: [...themeColors.value.area, 30] }),
     ...crowns(),
     ...dimensions(selected), // after the crowns: drawn over them
+    selRing(selected),
     state.showLidar && state.lidar &&
       new PointCloudLayer({ id: 'lidar', data: lidarData(), ...local(), pointSize: 2, sizeUnits: 'pixels', material: false }),
     // the project-area outline and the corners being drawn go over buildings and crowns (no depth test)
@@ -397,6 +483,8 @@ onMounted(() => {
           (c ? `\nMove first: ${S.reasons[index].replaceAll('_', ' ').replaceAll(';', ', ')}` : '') +
           (S.utility_conditional?.[index] ? '\nConditional: the pit would sit on a buried gas or telecom line (PTEV 2024 p. 31)' : '') }
       }
+      if (layer?.id === 'parks') { const P = state.parks; return { text: `${P.species[index]} (${P.kind[index]} tree, context only)${P.place[index] ? '\n' + P.place[index] : ''}` } }
+      if (layer?.id === 'kept') return { text: `${state.trees.kept.species[object]} (existing)` }
       if (layer?.id !== 'positions' || index < 0) return null
       return { text: state.meta.palette[currentLayout()[index]].species }
     },
@@ -409,7 +497,7 @@ onMounted(() => {
 
 watch(
   () => [state.scenarioId, state.live?.version, state.area?.version, state.area, state.drawing, state.draft, state.overlay, state.showStreets, isDark.value,
-    state.month, state.selected, state.addedVersion, state.buildingOpacity, state.addMode, state.editing, state.ground3d, state.basemap, state.meta, state.showLidar],
+    state.month, state.selected, state.addedVersion, state.showParks, state.buildingOpacity, state.addMode, state.editing, state.ground3d, state.basemap, state.meta, state.showLidar],
   () => overlay?.setProps({ layers: layers() }),
 )
 
@@ -417,7 +505,7 @@ watch(
 watch(() => [isDark.value, state.basemap], () => map?.setStyle(style()))
 
 // another site or palette: its own relief file
-watch(() => state.meta, (m) => { if (m && state.ground3d) setGround3d(true); if (m && state.showLidar) setLidar(true) })
+watch(() => state.meta, (m) => { if (m && state.ground3d) setGround3d(true); if (m && state.showLidar) setLidar(true); if (m && state.showParks) setParks(true) })
 
 // a new project area: frame it (keeps the current pitch and bearing)
 watch(() => state.area?.poly, (poly) => {
@@ -428,6 +516,12 @@ watch(() => state.area?.poly, (poly) => {
 })
 
 // while drawing a project area, double clicks place corners instead of zooming
+// a schedule row was clicked: jump there, keeping the tree above the schedule panel
+watch(() => state.focus, (f) => {
+  if (!f || !map) return
+  map.easeTo({ center: f, zoom: Math.max(map.getZoom(), 18), offset: [0, -0.2 * el.value.clientHeight], duration: 0 /* a jump: verified to land; an animated ease could not be checked here */ })
+  state.focus = null
+})
 watch(() => state.drawing, (on) => (on ? map?.doubleClickZoom.disable() : map?.doubleClickZoom.enable()))
 
 // while drawing, a right click (without dragging the view), Enter or Space closes the area; Escape cancels it.

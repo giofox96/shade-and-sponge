@@ -1,7 +1,7 @@
 <script setup>
 // Small line icons for the sidebar buttons (24 × 24, currentColor): swap = replace all trees, add = add trees,
 // fill = fill the free spots, edit = edit the project area; map toolbar: sidewalk, building, sun, sunlow (winter sun), drop, alert,
-// layers, more, terrain (3D ground), satellite, points (LiDAR)
+// layers, more, terrain (3D ground), satellite, points (LiDAR), park (park trees)
 defineProps({ name: { type: String, required: true } })
 </script>
 
@@ -20,6 +20,11 @@ defineProps({ name: { type: String, required: true } })
       <path d="M2 12h8M6 8v8" />
       <ellipse cx="16.5" cy="9" rx="5.5" ry="5" fill="currentColor" fill-opacity="0.25" />
       <path d="M16.5 14V21" />
+    </template>
+    <template v-else-if="name === 'park'">
+      <circle cx="7" cy="9" r="4" fill="currentColor" fill-opacity="0.25" /><path d="M7 13v6" />
+      <circle cx="16.5" cy="7.5" r="4.5" fill="currentColor" fill-opacity="0.25" /><path d="M16.5 12v7" />
+      <path d="M3 21h18" />
     </template>
     <template v-else-if="name === 'edit'">
       <path d="M4 18L7 5l12 3 1 9z" stroke-dasharray="2.5 2" />

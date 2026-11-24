@@ -15,7 +15,7 @@ export const state = reactive({
   trees: null,
   pot: null,
   scenarioId: BALANCED,
-  view: 'map', // 'map' | 'compare' (side-by-side columns: today | city rule | optimised) | 'species' (botanical cards)
+  view: 'map', // 'map' | 'compare' (side-by-side columns: today | city practice | optimised) | 'species' (botanical cards)
   speciesScope: 'site', // Species tab: 'site' (whole neighbourhood) or 'area' (the project area, when one is drawn)
   // project area: only the plane positions inside a drawn polygon are replaced; outside, today's trees stay
   drawing: false,
@@ -29,6 +29,8 @@ export const state = reactive({
   ground3d: false, // relief from the site DTM (meta.terrain); trees, buildings and lines then sit on it
   terrain: null, // { w, h, z (Float32Array, m above the site's lowest point), bounds: [west, south, east, north] } once loaded
   showLidar: false, // thinned LiDAR cloud (meta.lidar), loaded on first use
+  showParks: false, // park and zone trees (meta.parks): context only, never scored
+  parks: null, // { site, id, kind, place, species, lon, lat, height_m, crown_diam_m, crown_base_m } once loaded
   lidar: null, // { site, n, pos (Float32Array: east, north m from site.center, 0), z, hag (m), cls } once loaded
   month: 7,
   selected: null, // index into positions
@@ -46,6 +48,11 @@ export const state = reactive({
   addMsg: null,
   addedVersion: 0,
   useConditional: false, // "Fill spots" also plants conditional spots (a sign, crossing, lamp, bollard or bus stop to move)
+  // tree schedule (designer's decisions): trees by key (plane tree_id, 'k<index>' for other street trees), spots by id
+  schedule: { trees: {}, spots: {} },
+  showSchedule: false,
+  focus: null, // [lon, lat]: the map jumps there (a schedule row was clicked)
+  loadingConfig: false,
 })
 
 let grid = null
@@ -66,7 +73,7 @@ export async function load(site = state.site) {
 
 // Switch dataset (e.g. city palette 'porta' vs Barcelona shortlist 'porta-barcelona') and reset the view
 export async function switchSite(site) {
-  Object.assign(state, { scenarioId: BALANCED, live: null, selected: null, exclude: [], minEff: 0, liveError: null, meta: null, added: [], addMsg: null, area: null, drawing: false, editing: false, draft: [], addMode: false }) // the new site's grid loads with the next Add trees
+  Object.assign(state, { scenarioId: BALANCED, live: null, selected: null, exclude: [], minEff: 0, liveError: null, meta: null, added: [], addMsg: null, area: null, drawing: false, editing: false, draft: [], addMode: false, schedule: { trees: {}, spots: {} } }) // the new site's grid loads with the next Add trees
   grid = null
   planePotCache.clear()
   planeScale = null
@@ -118,6 +125,12 @@ export async function setLidar(on) {
   }
   state.showLidar = on && !!state.lidar
 }
+// Park and zone trees (python scripts/web_export_parks.py): drawn for context only; their canopy is already fixed background
+export async function setParks(on) {
+  if (on && state.meta?.parks && state.parks?.site !== state.site)
+    state.parks = markRaw({ site: state.site, ...(await (await fetch(dataUrl(state.meta.parks.file))).json()) })
+  state.showParks = on && !!state.parks
+}
 export async function setGround3d(on) {
   if (on) await loadTerrain()
   state.ground3d = on && !!state.terrain
@@ -146,13 +159,13 @@ export function label(s) {
     const n = s.idx.length + (s.all ? s.keptIdx.length : 0)
     return `Project area, ${n} ${s.all ? 'trees' : 'planes'} replaced: summer ${a}, winter ${b}, runoff ${c}`
   }
-  if (s.id.startsWith('S1a')) return `City rule (2026 mix) #${s.id.split('_').pop()}`
+  if (s.id.startsWith('S1a')) return `City practice (2026 mix) #${s.id.split('_').pop()}`
   if (s.id.startsWith('S1')) return `Random palette #${s.id.split('_').pop()}`
   const [a, b, c] = s.weights.map((w) => +w.toFixed(2))
   return `${s.id === LIVE ? 'Live estimate' : 'Optimised'}: summer ${a}, winter ${b}, runoff ${c}`
 }
 
-// Mean of the 10 city-rule layouts (S1a, the 2026 mix within the sizing rule): the thesis baseline
+// Mean of the 10 city-practice layouts (S1a, the 2026 mix within the sizing rule): the thesis baseline
 export const cityMean = computed(() => {
   const r = state.meta?.scenarios.filter((s) => s.group === 'S1a') ?? []
   if (!r.length) return null
@@ -160,7 +173,7 @@ export const cityMean = computed(() => {
   return Object.fromEntries(keys.map((k) => [k, r.reduce((a, s) => a + s.metrics[k], 0) / r.length]))
 })
 
-// "vs city rule" reference: the whole-site S1a mean, or the city rule inside the project area (estimate)
+// "vs city practice" reference: the whole-site S1a mean, or the city practice inside the project area (estimate)
 export const baseline = computed(() => (state.scenarioId === AREA && state.area?.city ? state.area.city.metrics : cityMean.value))
 
 // Calibration of live estimates: exact metric (full raster model) vs summed single-tree potentials, over the saved
@@ -351,9 +364,9 @@ export function areaLayout(sub) {
 // kept tree index -> new palette species, for the kept trees an area replaces (empty unless "replace all trees")
 export function keptReplaced(useCity = false) {
   const A = state.area
-  if (!A?.all) return new Map()
+  if (!A?.keptRows?.length) return new Map()
   const src = useCity ? A.city.keptLayout : A.keptLayout
-  return new Map(A.keptIdx.map((k, r) => [k, src?.[r]]).filter(([, j]) => j != null))
+  return new Map(A.keptRows.map((k, r) => [k, src?.[r]]).filter(([, j]) => j != null))
 }
 
 export function startDrawing() {
@@ -409,17 +422,17 @@ function planeScales() {
 // Rows of the area: { kind, i, fit[], shade_summer[], shade_winter[], water[], today{summer, winter, water}, removes }
 let rowsCache = { poly: null, all: null, rows: null }
 function areaRows(A) {
-  if (rowsCache.poly === A.poly && rowsCache.all === A.all) return rowsCache.rows
-  rowsCache = { poly: A.poly, all: A.all, rows: buildRows(A) }
+  if (rowsCache.idx === A.idx && rowsCache.keptRows === A.keptRows) return rowsCache.rows
+  rowsCache = { idx: A.idx, keptRows: A.keptRows, rows: buildRows(A) }
   return rowsCache.rows
 }
 function buildRows(A) {
   const pot = state.pot
   const rows = A.idx.map((i) => ({ kind: 'plane', i, fit: pot.fit[i], shade_summer: pot.shade_summer[i], shade_winter: pot.shade_winter[i],
     water: pot.water[i], today: planePot(i) }))
-  if (A.all) {
+  if (A.keptRows.length) {
     const t = state.trees.kept
-    A.keptIdx.forEach((k) => {
+    A.keptRows.forEach((k) => {
       const q = pointPotentials(grid, state.meta, t.lon[k], t.lat[k])
       rows.push({ kind: 'kept', i: k, fit: withSizeRule(q.fit, t.size_class[k]), shade_summer: q.summer, shade_winter: q.winter,
         water: q.water, today: keptToday(k), removes: t.species[k] })
@@ -450,7 +463,7 @@ function keptAfter(rows) {
   return kept
 }
 
-// City rule on the rows: the expected value of the S1a draw (2026 mix weights among the fitting mix species; any
+// City practice on the rows: the expected value of the S1a draw (2026 mix weights among the fitting mix species; any
 // fitting species if none of the mix fits), with capped species scaled down to their room, as the exact S1a draws
 function areaCity(rows) {
   const pot = state.pot
@@ -491,16 +504,25 @@ export async function finishArea() {
 async function applyArea(poly, keep = {}) {
   const p = state.trees.positions
   const t = state.trees.kept
-  const idx = p.lon.map((lon, i) => (insidePoly(lon, p.lat[i], poly) ? i : -1)).filter((i) => i >= 0)
+  const inPlanes = p.lon.map((lon, i) => (insidePoly(lon, p.lat[i], poly) ? i : -1)).filter((i) => i >= 0)
   const keptIdx = t.lon.map((lon, k) => (insidePoly(lon, t.lat[k], poly) ? k : -1)).filter((k) => k >= 0)
   const spotIdx = state.trees.spots.lon.map((lon, s) => (insidePoly(lon, state.trees.spots.lat[s], poly) ? s : -1)).filter((s) => s >= 0)
-  if (!idx.length && !keptIdx.length) return void (state.addMsg = 'No street trees inside that area: draw it around some trees.')
+  if (!inPlanes.length && !keptIdx.length) return void (state.addMsg = 'No street trees inside that area: draw it around some trees.')
   state.addMsg = 'Loading the site grid…'
   await ensureGrid()
   Object.assign(state, { drawing: false, editing: false, draft: [], addMsg: null })
-  state.area = { poly, idx, keptIdx, spotIdx, all: !!keep.all || !idx.length, weights: keep.weights ?? weightsNow(), layout: [], keptLayout: [],
-    metrics: null, counts: {}, edited: !!keep.weights }
+  state.area = { poly, inPlanes, keptIdx, spotIdx, all: !!keep.all || !inPlanes.length, weights: keep.weights ?? weightsNow(), layout: [],
+    keptLayout: [], metrics: null, counts: {}, edited: !!keep.weights }
+  areaSets(state.area)
   await runArea(state.area.weights)
+}
+
+// The area's decision rows, after the schedule: planes unless marked Keep; other street trees when "replace all" (unless Keep)
+// or when marked Replace or Move. A moved tree is scored as replaced at its position (where it goes is not modelled).
+function areaSets(A) {
+  const act = (key) => state.schedule.trees[key]?.action
+  A.idx = A.inPlanes.filter((i) => act(state.trees.positions.tree_id[i]) !== 'keep')
+  A.keptRows = A.keptIdx.filter((k) => (A.all ? act(`k${k}`) !== 'keep' : ['replace', 'move'].includes(act(`k${k}`))))
 }
 
 // Edit the project area: drag corners, click a midpoint to add a corner, right-click a corner to remove it
@@ -519,6 +541,7 @@ export function cancelEditArea() {
 // "Replace all trees": the other street trees in the area become decision rows too
 export async function setAreaAll(on) {
   state.area.all = on
+  areaSets(state.area)
   await runArea(state.area.weights)
 }
 
@@ -532,16 +555,23 @@ export async function fillAreaSpots() {
   const S = state.trees.spots
   const have = new Set(state.added.map((t) => t.spot))
   for (const s of fillableSpots()) {
-    if (have.has(S.id[s])) continue
-    const q = pointPotentials(grid, state.meta, S.lon[s], S.lat[s])
-    const fit = withSizeRule(q.fit, S.size_class[s])
-    state.added.push({ lon: S.lon[s], lat: S.lat[s], x: q.x, y: q.y, pot: { summer: q.summer, winter: q.winter, water: q.water, fit },
-      warn: spotClass(s) === 'conditional' ? [`conditional spot: move ${S.reasons[s].replaceAll('_', ' ').replaceAll(';', ', ')} first`] : [],
-      sun_summer: q.sun_summer, sun_winter: q.sun_winter, drains_to_hotspot: q.drains_to_hotspot, spot: S.id[s], auto: true,
-      species: fit.indexOf(1) })
+    if (have.has(S.id[s]) || state.schedule.spots[S.id[s]]?.action === 'empty') continue
+    pushSpotTree(s)
   }
   state.addedVersion++
   await runArea(state.area.weights)
+}
+
+function pushSpotTree(s) {
+  const S = state.trees.spots
+  const q = pointPotentials(grid, state.meta, S.lon[s], S.lat[s])
+  const fit = withSizeRule(q.fit, S.size_class[s])
+  const t = { lon: S.lon[s], lat: S.lat[s], x: q.x, y: q.y, pot: { summer: q.summer, winter: q.winter, water: q.water, fit },
+    warn: spotClass(s) === 'conditional' ? [`conditional spot: move ${S.reasons[s].replaceAll('_', ' ').replaceAll(';', ', ')} first`] : [],
+    sun_summer: q.sun_summer, sun_winter: q.sun_winter, drains_to_hotspot: q.drains_to_hotspot, spot: S.id[s], auto: true,
+    species: fit.indexOf(1) }
+  if (!state.area) t.species = recommend(t.pot) // no optimiser run follows: the best fitting species for the priorities on screen
+  state.added.push(t)
 }
 
 export async function runArea(weights) {
@@ -566,6 +596,92 @@ export async function runArea(weights) {
     counts, city: areaCity(rows), ms: res.ms, version: (A.version ?? 0) + 1 })
   state.addedVersion++
   state.scenarioId = AREA
+}
+
+// ---- tree schedule: the designer's decision per tree and per spot (Action, Reason, Field check), linked to the map --------
+// Tree actions: keep / move / replace ('' = the tool decides). Inside a project area they change what is optimised (areaSets);
+// on the whole site they are recorded only. Spot actions: add (plants it, as "Fill spots") / empty ('' = the tool decides).
+export const TREE_ACTIONS = [['', '–'], ['keep', 'Keep'], ['move', 'Move'], ['replace', 'Replace']]
+export const SPOT_ACTIONS = [['', '–'], ['add', 'Add'], ['empty', 'Leave empty']]
+export const REASONS = [['', '–'], ['dead', 'Dead'], ['diseased', 'Diseased'], ['pests', 'Pests'], ['dangerous', 'Dangerous'],
+  ['roots', 'Roots damage paving'], ['works', 'Works'], ['other', 'Other']]
+export const CHECKS = [['', 'To do'], ['ok', 'OK'], ['no', 'Not possible']]
+export const keptKey = (k) => `k${k}`
+
+export async function setTreeEntry(key, patch) {
+  const prev = state.schedule.trees[key] ?? {}
+  state.schedule.trees[key] = { ...prev, ...patch }
+  if ('action' in patch && patch.action !== prev.action && state.area) {
+    areaSets(state.area)
+    await runArea(state.area.weights)
+  }
+}
+
+export async function setSpotEntry(s, patch) {
+  const S = state.trees.spots, id = S.id[s]
+  const prev = state.schedule.spots[id] ?? {}
+  state.schedule.spots[id] = { ...prev, ...patch }
+  if (!('action' in patch) || patch.action === prev.action) return
+  const k = state.added.findIndex((t) => t.spot === id)
+  if (patch.action === 'add' && k < 0) {
+    await ensureGrid()
+    pushSpotTree(s)
+  } else if (patch.action !== 'add' && k >= 0) state.added.splice(k, 1)
+  else return
+  state.selected = null
+  state.addedVersion++
+  if (state.area) await runArea(state.area.weights)
+}
+
+// select a schedule row: the map highlights it and flies there
+export function focusOn(sel, lon, lat) {
+  state.selected = sel
+  state.focus = [lon, lat]
+}
+
+// Save / load: the whole configuration as a JSON file (actions, reasons, checks, area, added trees, rules, priorities)
+export function configJson() {
+  const A = state.area
+  return JSON.stringify({ tool: 'shade-and-sponge', version: 1, site: state.site, saved: new Date().toISOString(),
+    schedule: state.schedule, rules: { share: state.share, exclude: state.exclude, minEff: state.minEff },
+    weights: scenario.value?.weights ?? null, scenarioId: state.scenarioId,
+    area: A ? { poly: A.poly, all: A.all, weights: A.weights } : null,
+    added: state.added.map((t) => ({ lon: t.lon, lat: t.lat, spot: t.spot ?? null, species: state.meta.palette[t.species]?.species ?? null, auto: t.auto })),
+  }, null, 1)
+}
+
+export async function loadConfig(cfg) {
+  if (cfg?.tool !== 'shade-and-sponge') throw new Error('not a Shade and sponge configuration file')
+  state.loadingConfig = true
+  try {
+    if (cfg.site !== state.site) await switchSite(cfg.site)
+    Object.assign(state, { area: null, added: [], selected: null, ...cfg.rules, schedule: { trees: {}, spots: {}, ...cfg.schedule } })
+    await ensureGrid()
+    const S = state.trees.spots
+    const names = state.meta.palette.map((p) => p.species)
+    for (const a of cfg.added ?? []) {
+      const s = a.spot ? S.id.indexOf(a.spot) : -1
+      if (s >= 0) pushSpotTree(s)
+      else addTreeAt(a.lon, a.lat)
+      const t = state.added.at(-1)
+      if (t && !a.auto && names.includes(a.species)) Object.assign(t, { species: names.indexOf(a.species), auto: false })
+    }
+    state.addedVersion++
+    state.selected = null
+    if (cfg.area) await applyArea(cfg.area.poly, { all: cfg.area.all, weights: cfg.area.weights })
+    else if (cfg.scenarioId === LIVE && cfg.weights) await runLive(cfg.weights)
+    else if (state.trees.layouts[cfg.scenarioId]) state.scenarioId = cfg.scenarioId
+  } finally {
+    state.loadingConfig = false
+  }
+}
+
+// The schedule as CSV: one row per tree (existing and new) and per spot, in the project area or the whole site
+export function scheduleCsv(rows) {
+  const q = (v) => (v == null ? '' : /[",\n]/.test(String(v)) ? `"${String(v).replaceAll('"', '""')}"` : v)
+  const head = 'tab,id,lon,lat,species_today,species_new,sidewalk_m,size_class,status,in_the_way,action,reason,reason_text,field_check'
+  return [head, ...rows.map((r) => [r.tab, r.id, r.lon.toFixed(6), r.lat.toFixed(6), r.today, r.next, r.width?.toFixed?.(2), r.size, r.status,
+    r.inWay, r.action, r.reason, r.note, r.check].map(q).join(','))].join(String.fromCharCode(10))
 }
 
 // ---- canopy cover against the tree master plan's 30% target ------------------------------------------------
@@ -628,12 +744,12 @@ watch(() => ui.theme, (t) => {
 }, { immediate: true })
 // Earth palette (as the slides) for deck.gl and ECharts, light and dark
 export const themeColors = computed(() => (isDark.value
-  ? { text: '#F2F0EA', muted: '#B3BAB9', grid: '#333A33', plane: '#E4DFD3', other: '#5E5B54', kept: [150, 150, 140, 150],
+  ? { text: '#F2F0EA', muted: '#B3BAB9', grid: '#333A33', plane: '#E4DFD3', other: '#5E5B54', kept: [150, 150, 140, 150], park: [110, 140, 105, 140],
       building: [64, 70, 64, 235], buildingLine: [40, 44, 40], facade: [120, 120, 115, 170], kerb: [170, 176, 184, 150],
       ring: [242, 240, 234], ringOn: [157, 180, 222], area: [157, 180, 222], draft: [217, 184, 102],
       random: '#7A776E', city: '#D9B866', optimised: '#9DB4DE', current: '#E4DFD3', on: '#F2F0EA',
       ground: [44, 48, 44], basemap: 'https://basemaps.cartocdn.com/gl/dark-matter-gl-style/style.json' }
-  : { text: '#2A2622', muted: '#665E4F', grid: '#DCD8CE', plane: '#3A3630', other: '#C9C4B8', kept: [150, 155, 135, 150],
+  : { text: '#2A2622', muted: '#665E4F', grid: '#DCD8CE', plane: '#3A3630', other: '#C9C4B8', kept: [150, 155, 135, 150], park: [120, 150, 110, 140],
       building: [222, 218, 208, 235], buildingLine: [180, 176, 166], facade: [195, 195, 190, 210], kerb: [110, 116, 128, 210],
       ring: [255, 255, 255], ringOn: [40, 63, 102], area: [40, 63, 102], draft: [140, 106, 36],
       random: '#B4AE9F', city: '#8C6A24', optimised: '#5D7BAA', current: '#2A2622', on: '#283F66',

@@ -6,6 +6,7 @@ import { state, load, switchSite, scenario, label, layoutEff, runLive, runArea, 
 import MapView from './components/MapView.vue'
 import PriorityTriangle from './components/PriorityTriangle.vue'
 import TradeoffChart from './components/TradeoffChart.vue'
+import CobenefitsPanel from './components/CobenefitsPanel.vue'
 import KpiPanel from './components/KpiPanel.vue'
 import TreeInspector from './components/TreeInspector.vue'
 import ComparePanel from './components/ComparePanel.vue'
@@ -15,6 +16,7 @@ import BarriPicker from './components/BarriPicker.vue'
 import SpeciesCards from './components/SpeciesCards.vue'
 import Icon from './components/Icon.vue'
 import MapToolbar from './components/MapToolbar.vue'
+import ScheduleTable from './components/ScheduleTable.vue'
 
 onMounted(() => load())
 
@@ -46,6 +48,7 @@ function clearAdded() {
 watch(
   () => [state.share, state.exclude.length, state.minEff],
   () => {
+    if (state.loadingConfig) return // a loaded configuration runs its own optimisation
     const w = scenario.value?.weights
     if (w) state.scenarioId === AREA ? runArea(w) : runLive(w)
   },
@@ -91,7 +94,7 @@ watch(
         <h3>1 · Scenario</h3>
         <div class="btns">
           <button :class="{ on: state.scenarioId === 'S0_current' }" @click="state.scenarioId = 'S0_current'">Today</button>
-          <button :class="{ on: state.scenarioId === 'S1a_city_0' }" @click="state.scenarioId = 'S1a_city_0'">City rule</button>
+          <button :class="{ on: state.scenarioId === 'S1a_city_0' }" @click="state.scenarioId = 'S1a_city_0'">City practice</button>
           <button :class="{ on: state.scenarioId.startsWith('S4') || state.scenarioId === LIVE }" @click="state.scenarioId = BALANCED">Optimised</button>
           <button v-if="state.area" :class="{ on: state.scenarioId === AREA }" @click="state.scenarioId = AREA">Project area</button>
           <button class="ghost" :class="{ on: state.scenarioId === 'S1_random_0' }" title="A random palette under the same rules: what optimisation adds over chance"
@@ -223,25 +226,26 @@ watch(
       <div class="tabs seg" role="tablist" aria-label="View">
         <button v-for="[v, l] in [['map', 'Map'], ['compare', 'Compare side by side'], ['species', 'Species']]" :key="v" role="tab"
                 :aria-selected="state.view === v" :class="{ on: state.view === v }" @click="state.view = v">{{ l }}</button>
+        <button v-if="state.view === 'map'" :class="{ on: state.showSchedule }" :aria-pressed="state.showSchedule"
+                title="Tree schedule: every tree and free spot as a table linked to the map, with Action, Reason and Field check"
+                @click="state.showSchedule = !state.showSchedule">Schedule</button>
       </div>
       <ComparePanel v-if="state.view === 'compare'" />
       <SpeciesCards v-else-if="state.view === 'species'" />
-      <template v-else><MapView :key="state.site" /><MapToolbar /></template>
+      <template v-else><MapView :key="state.site" /><MapToolbar /><ScheduleTable v-if="state.showSchedule" /></template>
       <PanelHandle side="left" />
       <PanelHandle side="right" />
     </main>
 
     <aside v-show="panels.rightOpen" class="right">
+      <section><h3>Trade-off: summer shade vs winter shade</h3><TradeoffChart /></section>
       <section><h3>Canopy cover</h3><CoverCounter /></section>
       <section>
         <h3>Results</h3>
         <p class="small muted scen">{{ label(scenario) }}</p>
         <KpiPanel />
       </section>
-      <details class="group" open>
-        <summary>Trade-off</summary>
-        <section><TradeoffChart /></section>
-      </details>
+      <section><h3>Co-benefits</h3><CobenefitsPanel /></section>
       <section><h3>Selected tree</h3><TreeInspector /></section>
     </aside>
   </div>

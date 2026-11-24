@@ -1,5 +1,5 @@
 <script setup>
-// Side-by-side comparison: today | city rule (S1a) | optimised. Each column draws every street-tree crown to scale
+// Side-by-side comparison: today | city practice (S1a) | optimised. Each column draws every street-tree crown to scale
 // (plane positions coloured by species, kept trees grey) and lists the headline metrics against today.
 import { computed } from 'vue'
 import { state, scenario, cityMean, label, areaLayout, keptReplaced, themeColors, BALANCED, LIVE, AREA } from '../store.js'
@@ -106,7 +106,7 @@ const columns = computed(() => {
   const A = state.scenarioId === AREA && state.area
   if (A) {
     return [today,
-      s1 && { title: 'City rule', sub: `In the project area (${A.idx.length} positions): expected 2026 mix · map: draw #0`,
+      s1 && { title: 'City practice', sub: `In the project area (${A.idx.length} positions): expected 2026 mix · map: draw #0`,
               metrics: A.city.metrics, counts: A.city.counts, crowns: crowns(areaLayout(A.idx.map((i) => L.S1a_city_0[i]))), live: true,
               kept: keptIn(keptReplaced(true)), keptNew: keptNew(keptReplaced(true)) },
       { title: 'Optimised', sub: label(scenario.value), metrics: A.metrics, counts: A.counts, crowns: crowns(areaLayout(A.layout)), live: true,
@@ -118,7 +118,7 @@ const columns = computed(() => {
   const optLayout = optId === LIVE ? state.live.layout : state.trees.layouts[optId]
   return [
     today,
-    s1 && { title: 'City rule', sub: 'Metrics: mean of 10 draws of the 2026 mix · map and mix: draw #0', metrics: cityMean.value,
+    s1 && { title: 'City practice', sub: 'Metrics: mean of 10 draws of the 2026 mix · map and mix: draw #0', metrics: cityMean.value,
             counts: s1.counts, crowns: crowns(L.S1a_city_0), kept: keptIn(none), keptNew: [] },
     { title: 'Optimised', sub: label(opt), metrics: opt.metrics, counts: opt.counts, crowns: crowns(optLayout), live: optId === LIVE,
       kept: keptIn(none), keptNew: [] },
