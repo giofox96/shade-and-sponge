@@ -194,3 +194,15 @@ Carried over from today, not answered: diversity floor for the headline (Q1), S1
 | **Tue 1 Dec 16:00** | Angelos: critical review, then questions §5 | Giovanni | answers noted |
 
 After 1 Dec: guided UI build with the report step (to ~10 Dec), demo video script, localised sketches in the 3–6 Dec ComfyUI slot, **results frozen 6 Dec** (unchanged).
+
+## 7. Giovanni's decisions, 25 Nov
+
+- **D1:** all Barcelona barris (73), and they should be browsable in the web app. After the Mon 30 token reset (tool thread + OMEN).
+- **D2:** "urban planner" meant the city's designer or a landscape designer: Giovanni answered "both". Keep the designer of a public street project; one stakeholder slide strengthens the narrative.
+- **D3:** Giovanni drafts the guided-app plan himself (today or in the next days); before 1 Dec if possible.
+- **D4:** thank Coloma Rull warmly and send her every open question now (draft in the thread, 25 Nov).
+- **D5:** Angelos's point was about **decimals and long digit strings**, hard to read at a glance. Rule for every number in slides and app: 2–3 significant figures, no decimals unless they matter (103%, not 103.4%; 130 m²·h, not 129.7). The % of today + m² of shaded sidewalk proposal stands.
+- **D6:** the critical review is **slides**, not a document.
+- **D7:** yes, a scripted report in the tool.
+
+Budget constraint (25 Nov): about 9% of the weekly tokens left until Sun 29. Until then only the critical-review slides; everything else after the reset.
