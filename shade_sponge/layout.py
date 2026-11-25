@@ -372,6 +372,38 @@ def canopy_cover(site, trees):
     return float(((street | site.background) & site.domain).sum() / site.domain.sum())
 
 
+def plan_layout(pos, pal, plan_csv, trunk="TERCERA"):
+    """S1c, the city's own plan (Parcs i Jardins, per-tree NOM_SUBST, received 24 Nov 2026): plan_csv has tree_id and species
+    (as written by the city; "Eliminar posició" = the position is removed). Returns (pal_c, choice, removed): pal_c = pal plus
+    one row per planned species outside it, traits from the city pool (city_trees) in the trunk class, then SEGONA, then all
+    classes (fallbacks as palette, ASSUMPTION); choice indexes pal_c (-1 = removed). ASSUMPTION: cultivars take the species'
+    medians (site.norm), e.g. Catalpa bignonioides 'Nana' = Catalpa bignonioides; the PLATANOR clone = a new plane."""
+    from .site import norm
+    plan = pd.read_csv(plan_csv).set_index("tree_id").species.reindex(pos.tree_id)
+    if plan.isna().any():
+        raise ValueError(f"{int(plan.isna().sum())} positions have no planned species in {plan_csv}")
+    gone = plan.str.startswith("Eliminar").values
+    names = [norm(s) for s in plan]
+    extra = sorted({n for n, g in zip(names, gone) if not g} - set(pal.species))
+    pool = city_trees()
+    rows = []
+    for sp in extra:
+        g = pool[pool.sp == sp]
+        for cls in (trunk, "SEGONA", None):
+            h = g if cls is None else g[g.size_category == cls]
+            if len(h) >= MIN_CLASS or (cls is None and len(h)):
+                rows.append(dict(species=sp, crown_diam_m=h.crown_diam_m.median(), height_m=h.height_m.median(),
+                                 crown_base_m=h.crown_base_m.median(), lai=h.lai.median(), n_lidar=len(h),
+                                 trunk_class=f"{cls or 'all'} (city)", cap=0))
+                break
+        else:
+            raise ValueError(f"no LiDAR-measured trees of {sp} in the city pool")
+    pal_c = pd.concat([pal, pd.DataFrame(rows)], ignore_index=True)
+    idx = {s: j for j, s in enumerate(pal_c.species)}
+    choice = np.array([-1 if g else idx[n] for n, g in zip(names, gone)])
+    return pal_c, choice, gone
+
+
 def apply(site, pos, pal, choice):
     """Full street-tree set: kept trees (LiDAR crowns) + the chosen species at the plane positions."""
     t = site.trees
