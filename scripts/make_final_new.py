@@ -191,18 +191,39 @@ def n_diversity(s):
     source(s, "Nicol et al. 2026 (effective number of species); " + BCN)
 
 
+def arrow(s, x1, y1, x2, y2, label=None, color=MUTED, lx=None, ly=None):
+    """Straight connector with an arrowhead (editable), optional small label."""
+    from pptx.oxml.ns import qn
+    c = s.shapes.add_connector(1, Inches(x1), Inches(y1), Inches(x2), Inches(y2))
+    c.line.color.rgb, c.line.width = rgb(color), Pt(1.75)
+    ln = c.line._get_or_add_ln()
+    tail = ln.makeelement(qn("a:tailEnd"), {"type": "triangle", "w": "med", "len": "med"})
+    ln.append(tail)
+    if label:
+        w = (abs(x2 - x1) or 2.0) + (0.6 if lx is not None else 0)
+        text(s, lx if lx is not None else min(x1, x2), ly if ly is not None else min(y1, y2) - 0.42, w, 0.4, label, 12, MUTED,
+             align=PP_ALIGN.CENTER)
+
+
 def n_stakeholders(s):
-    head(s, "Who uses it, who decides", "The tool advises, people decide")
-    cols = [("ruler", "Designer of the street project", ["draws the area", "sets keep / move / replace / add", "reads the report"], TREE),
-            ("landmark", "City: Parcs i Jardins", ["sets the rules (sizes, 15% cap)", "approves the species", "plans the replacements"], RAIN),
-            ("heart", "Neighbours", ["see the before / after"], HEAT)]
-    for k, (ic, t, rows, c) in enumerate(cols):
-        x = M + k * 4.18
-        box(s, x, 1.55, 3.95, 4.4, tint(c, 0.10))
-        ico(s, ic, c, x + 0.3, 1.8, 0.6)
-        text(s, x + 0.3, 2.55, 3.4, 0.9, t, 19, c, True)
-        text(s, x + 0.3, 3.5, 3.4, 2.4, rows, 16, INK)
-    text(s, M, 6.15, W - 2 * M, 0.4, "Two kinds of designer: the city's own and commissioned firms.", 15, MUTED)
+    head(s, "Who uses it, who benefits", "The tool advises, people decide")
+    nodes = {"city": (M, 1.75, "landmark", "City: Parcs i Jardins", "sets the rules, approves", RAIN),
+             "des": (M + 4.6, 1.75, "ruler", "Street designer", "city staff or a commissioned firm", TREE),
+             "tool": (M + 9.2, 1.75, "sliders-horizontal", "The tool", "species and positions, report", WARN),
+             "nb": (M + 4.6, 4.6, "heart", "Neighbours", "more summer shade, winter sun, same cost", HEAT)}
+    bw, bh = 3.0, 1.55
+    for x, y, ic, t, sub, c in nodes.values():
+        box(s, x, y, bw, bh, tint(c, 0.10))
+        ico(s, ic, c, x + 0.25, y + 0.25, 0.45)
+        text(s, x + 0.85, y + 0.15, bw - 1.0, 0.5, t, 16, c, True)
+        text(s, x + 0.25, y + 0.8, bw - 0.4, 0.7, sub, 13, INK)
+    y_f, y_b = 1.75 + 0.5, 1.75 + 1.1
+    arrow(s, M + bw, y_f, M + 4.6, y_f, "rules, species", lx=M + bw - 0.3, ly=y_f - 0.42)
+    arrow(s, M + 4.6, y_b, M + bw, y_b, "proposal", lx=M + bw - 0.3, ly=y_b + 0.05)
+    arrow(s, M + 4.6 + bw, y_f, M + 9.2, y_f, "area + actions", lx=M + 4.6 + bw - 0.3, ly=y_f - 0.42)
+    arrow(s, M + 9.2, y_b, M + 4.6 + bw, y_b, "layout + report", lx=M + 4.6 + bw - 0.3, ly=y_b + 0.05)
+    arrow(s, M + bw / 2, 1.75 + bh, M + bw / 2, 4.6 + bh / 2, None)
+    arrow(s, M + bw / 2, 4.6 + bh / 2, M + 4.6, 4.6 + bh / 2, "approved works", lx=M + bw / 2, ly=4.6 + bh / 2 - 0.42)
     source(s, BCN)
 
 
@@ -436,7 +457,7 @@ SLIDES = [
     (n_mataro, "Does it travel? In Mataró, replacing every plane on six streets, the method keeps 83% of the planes' shade against 63% for the city's practice, and wins all six streets. Florence follows."),
     (n_cost, "The method replaces the same trees as the city, so the works and the cost are the same: up to 500 euros per replaced tree. Of 267 candidate spots in Porta, 153 are free and 103 need a field check."),
     (n_impact, "With 10 million euros the city could replace about 20,000 trees, around fifteen years of its replacements. Chosen with the method, each new tree gives 1.7 times the shade, for the same money."),
-    (n_stakeholders,"The user is the designer of a street project, inside the city or in a commissioned firm. Parcs i Jardins sets the rules and approves the species; neighbours see the before and after."),
+    (n_stakeholders,"The city sets the rules and the species list; the street designer, city staff or a firm, uses the tool and gets a layout and a report; the city approves the proposal, and the neighbours get the shade."),
     (n_contribution, "What the results say: in Porta the gain comes from the species alone; at the city's own diversity the method still gains; it holds in 23 of 26 real replacements and in Mataró; runoff does not move, so it stays a do-no-harm check."),
     (n_limits, "These are the limits: new trees at today's size, heat as shade checked with felt temperature, one interception rate, runoff that barely moves, free spots as an upper bound, and the cap on street trees only."),
     (n_context_maps, "Barcelona replaced almost eleven thousand street trees in eight years, one at a time. The plan caps any species at fifteen percent, but says nothing about where. Porta's canopy is twenty percent, the target thirty."),

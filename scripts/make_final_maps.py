@@ -97,7 +97,7 @@ name = lambda p: p["species"].replace(" x ", " × ").replace(" ", "\n", 1)      
 PL = next(p for p in json.load(open("web/public/data/porta-barcelona/meta.json"))["palette"] if p["species"].startswith("Platanus"))
 for kind in ("top", "elev", "vsplane"):
     fig, a = plt.subplots(figsize=(12.2, 4.9), facecolor=BG)
-    cw, ch = 12.0, 19.0 if kind == "elev" else 15.0
+    cw, ch = 12.0, 23.0 if kind == "elev" else 15.0
     if kind == "vsplane":
         a.text(0, 9.5, f"dashed: median plane crown, {PL['crown_diam_m']:.1f} m (same trunk class)", fontsize=10, color=MUTED, va="bottom")                      # cell size in metres
     for i, p in enumerate(P):
