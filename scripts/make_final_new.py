@@ -116,26 +116,53 @@ def n_scenarios(s):
     source(s, BCN + " Open Data BCN, arbrat viari 2018–2026; Huangfu & Hall 2018 (HiGHS).")
 
 
+def dumbbell(s, x, y, w, ic, label, city, method, city_lab, lo=90, hi=112, c=HEAT):
+    """One metric as two dots on a % of today track: city (blue) and method (green), dashed tick = today (100)."""
+    from pptx.enum.shapes import MSO_SHAPE
+    ico(s, ic, c, x, y, 0.38)
+    text(s, x + 0.5, y - 0.05, w - 0.5, 0.45, label, 15, c, True)
+    ty = y + 1.05
+    px = lambda v: x + 0.15 + (w - 0.3) * (v - lo) / (hi - lo)
+    box(s, x + 0.15, ty - 0.02, w - 0.3, 0.04, "#DCD8CE", radius=0)
+    t = s.shapes.add_connector(1, Inches(px(100)), Inches(ty - 0.3), Inches(px(100)), Inches(ty + 0.3))
+    t.line.color.rgb, t.line.dash_style, t.line.width = rgb(MUTED), 4, Pt(1)
+    if city != method:
+        a, b = sorted((px(city), px(method)))
+        box(s, a, ty - 0.05, b - a, 0.1, tint(TREE, 0.35), radius=0)
+    for v, col, lab, up in ((city, RAIN, city_lab, True), (method, TREE, "Method", False)):
+        d = 0.28 if col == TREE else 0.22
+        o = s.shapes.add_shape(MSO_SHAPE.OVAL, Inches(px(v) - d / 2), Inches(ty - d / 2), Inches(d), Inches(d))
+        o.fill.solid(); o.fill.fore_color.rgb = rgb(col); o.line.fill.background()
+        if city == method and col == TREE:
+            continue
+        yy = ty - 0.72 if up else ty + 0.22
+        text(s, px(v) - 0.8, yy, 1.6, 0.5, [[(f"{v:.0f}", {"bold": True, "size": 20 if col == TREE else 15, "color": col})],
+             [(lab if city != method else "both", {"size": 10, "color": MUTED})]] if not up else
+             [[(lab if city != method else "both", {"size": 10, "color": MUTED})], [(f"{v:.0f}", {"bold": True, "size": 15, "color": col})]],
+             12, INK, align=PP_ALIGN.CENTER)
+
+
+def results_panel(s, rows, city_lab):
+    x = M + 8.1
+    for k, (ic, lab, cv, mv, c) in enumerate(rows):
+        dumbbell(s, x, 1.5 + k * 1.85, W - M - x, ic, lab, cv, mv, city_lab, c=c)
+    y = 1.5 + len(rows) * 1.85
+    ico(s, "droplets", RAIN, x, y, 0.38)
+    text(s, x + 0.5, y - 0.05, W - M - x - 0.5, 0.8, [[("Runoff", {"bold": True, "color": RAIN})], f"method = {city_lab.lower()}"], 15, INK)
+    text(s, x, 6.2, W - M - x, 0.35, "% of today's shade;  ┆ = today", 11, MUTED)
+
+
 def n_porta(s):
     head(s, "Result: Porta", "Replacing the 832 planes")
-    rhino(s, M, 1.45, 8.9, 4.9, "Porta map: streets coloured by summer shade gain, method vs city practice", "MAP")
-    x = M + 9.2
-    text(s, x, 1.45, W - M - x, 4.9,
-         [[("Summer shade, % of today", {"bold": True})], "City practice  99", [("Method  107", {"bold": True, "color": TREE})],
-          "Method, city diversity  106", "",
-          [("Winter shade, % of today", {"bold": True})], "City practice  109", [("Method  99", {"bold": True, "color": TREE})], "",
-          [("Runoff", {"bold": True})], "equal"], 15, INK)
+    rhino(s, M, 1.45, 7.3, 4.9, "Porta map: streets coloured by summer shade gain, method vs city practice", "MAP")
+    results_panel(s, [("sun", "Summer shade", 98.9, 106.7, HEAT), ("snowflake", "Winter shade", 109, 99, RAIN)], "City practice")
     source(s, "ICGC, LiDAR 2021; Open Data BCN, arbrat viari; " + BCN)
 
 
 def n_cityplan(s):
     head(s, "The city's own plan", "513 Porta planes the city plans to change, at the same diversity")
-    rhino(s, M, 1.45, 8.9, 4.9, "Porta map: the 513 planes, coloured by species, city plan vs method", "MAP")
-    x = M + 9.2
-    text(s, x, 1.45, W - M - x, 4.9,
-         [[("Summer shade, % of today", {"bold": True})], "City plan  98", [("Method  101", {"bold": True, "color": TREE})], "",
-          [("Winter shade, % of today", {"bold": True})], "City plan  104", [("Method  98", {"bold": True, "color": TREE})], "",
-          [("Runoff", {"bold": True})], "equal"], 15, INK)
+    rhino(s, M, 1.45, 7.3, 4.9, "Porta map: the 513 planes, coloured by species, city plan vs method", "MAP")
+    results_panel(s, [("sun", "Summer shade", 98.2, 101.4, HEAT), ("snowflake", "Winter shade", 104.4, 98.1, RAIN)], "City plan")
     source(s, "Parcs i Jardins, planned species for Porta (2026); ICGC, LiDAR 2021; " + BCN)
 
 
