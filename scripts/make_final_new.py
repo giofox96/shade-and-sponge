@@ -331,7 +331,7 @@ def n_effective(s):
     rhino(s, M, 1.45, 7.2, 4.9, "Porta map: street trees coloured by species, today vs method", "MAP")
     shades = [tint(TREE, 0.15 + 0.085 * k) for k in range(10)]
     for k, (vals, cols, eff, lab, c) in enumerate((([1] * 10, shades, "10", "10 species, equal", TREE),
-                                                   ([90] + [10 / 9] * 9, [HEAT] + shades[1:], "1.7", "10 species, one at 90%", HEAT))):
+                                                   ([90] + [10 / 9] * 9, [RAIN] + shades[1:], "1.7", "10 species, one at 90%", RAIN))):
         y = 1.45 + k * 2.45
         pie(s, 8.0, y, 2.2, 2.2, vals, cols)
         text(s, 10.3, y, W - M - 10.3, 2.2, [[(eff, {"bold": True, "color": c, "size": 36})], lab], 14, INK, anchor=MSO_ANCHOR.MIDDLE)
