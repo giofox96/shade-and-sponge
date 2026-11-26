@@ -1,9 +1,10 @@
 <script setup>
 // Canopy cover of the layout on screen against the tree master plan's 30% target, with the added trees counted in.
 import { computed } from 'vue'
-import { cover } from '../store.js'
+import { cover, areaCover, state, AREA } from '../store.js'
 
 const c = computed(() => cover.value)
+const a = computed(() => (state.scenarioId === AREA ? areaCover.value : null))
 const sign = (v) => `${v > 0 ? '+' : v < 0 ? '−' : '±'}${Math.abs(v).toFixed(2)}`
 const width = (v) => `${Math.max(0, Math.min(100, (100 * v) / c.value.target_pct))}%`
 </script>
@@ -23,6 +24,11 @@ const width = (v) => `${Math.max(0, Math.min(100, (100 * v) / c.value.target_pct
       <b :class="c.vsToday > 0.005 ? 'good' : c.vsToday < -0.005 ? 'bad' : ''">{{ sign(c.vsToday) }} pts</b> vs today ({{ c.measured_pct.toFixed(1) }}%)
       <template v-if="c.addedN"> · {{ c.addedN }} added tree{{ c.addedN > 1 ? 's' : '' }}: {{ sign(c.added) }} pts</template>
       <br>{{ c.gap > 0 ? `${c.gap.toFixed(1)} pts to the target, about ${c.gapHa.toFixed(1)} ha of crowns` : 'Target reached' }}
+    </p>
+    <p v-if="a" class="small area">
+      <b>Project area</b> ({{ Math.round(a.area_m2).toLocaleString('en') }} m²): {{ a.today.toFixed(1) }}% today →
+      <b :class="a.now - a.today > 0.05 ? 'good' : a.now - a.today < -0.05 ? 'bad' : ''">≈ {{ a.now.toFixed(1) }}%</b>
+      ({{ sign(a.now - a.today) }} pts, {{ a.crowns_m2 >= 0 ? '+' : '−' }}{{ Math.round(Math.abs(a.crowns_m2)) }} m² of crowns)
     </p>
     <p v-if="c.additions" class="muted small">
       For scale: planting all {{ c.additions.spots }} free street spots (an upper bound), with the optimised species, adds
@@ -45,4 +51,5 @@ const width = (v) => `${Math.max(0, Math.min(100, (100 * v) / c.value.target_pct
 .bar .now.up { background: var(--good); }
 p { margin: 4px 0; }
 .note { font-size: 10.5px; }
+.area { padding: 4px 6px; border-left: 2px solid var(--accent); }
 </style>

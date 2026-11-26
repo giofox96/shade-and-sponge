@@ -53,6 +53,9 @@ watch(
     if (w) state.scenarioId === AREA ? runArea(w) : runLive(w)
   },
 )
+// diversity-floor benchmarks (notes/cobenefits_plan.md): the city's 2026 mix in Porta, and Santamour's 10% species cap
+const DIV_PRESETS = [[9.4, 'City practice 9.4', "Effective species of the city's 2026 mix on Porta's plane positions"],
+  [10, 'Santamour 10', 'No species above 10% (Santamour 1990) means at least 10 effective species']]
 </script>
 
 <template>
@@ -100,14 +103,6 @@ watch(
           <button class="ghost" :class="{ on: state.scenarioId === 'S1_random_0' }" title="A random palette under the same rules: what optimisation adds over chance"
                   @click="state.scenarioId = 'S1_random_0'">Random</button>
         </div>
-        <p class="sub">Priorities <span class="muted">· click to re-optimise</span></p>
-        <PriorityTriangle />
-        <p v-if="state.busy" class="small accent">Optimising…</p>
-        <p v-if="state.liveError" class="small danger">{{ state.liveError }}</p>
-        <details class="how"><summary>How it works</summary>
-          <p class="small muted">Dots are precomputed layouts with exact scores (filled blue = on the trade-off front). A click anywhere else re-optimises
-            in your browser: the result is an estimate. The same applies inside a project area.</p>
-        </details>
       </section>
 
       <section>
@@ -175,19 +170,26 @@ watch(
       </section>
 
       <details class="group">
-        <summary>Rules and species <span class="muted">{{ Math.round(state.share * 100) }}% cap{{ state.minEff ? ` · ≥ ${state.minEff} species` : '' }}{{ state.exclude.length ? ` · ${state.exclude.length} excluded` : '' }}</span></summary>
+        <summary>Rules and species <span class="muted">{{ Math.round(state.share * 100) }}% cap{{ state.minEff ? ` · ≥ ${state.minEff.toFixed(1)} species` : '' }}{{ state.exclude.length ? ` · ${state.exclude.length} excluded` : '' }}</span></summary>
         <section>
           <h3>Max share per species <span class="muted">{{ Math.round(state.share * 100) }}%</span></h3>
           <input type="range" min="0.05" max="0.3" step="0.01" v-model.number="state.share" aria-label="Maximum share per species" />
           <p class="small muted">Of all {{ state.pot.n_total.toLocaleString('en') }} street trees; the city tree plan sets 15%.</p>
         </section>
         <section>
-          <h3>Diversity floor <span class="muted">{{ state.minEff ? `≥ ${state.minEff} effective species` : 'off' }}</span></h3>
+          <h3>Diversity floor <span class="muted">{{ state.minEff ? `≥ ${state.minEff.toFixed(1)} effective species` : 'off' }}</span></h3>
           <label class="check"><input type="checkbox" :checked="state.minEff > 0"
                  @change="state.minEff = $event.target.checked ? Math.min(8, state.pot.species.length - state.exclude.length - 1) : 0" />
             Keep a minimum Shannon diversity</label>
-          <input v-if="state.minEff" type="range" min="2" :max="state.pot.species.length - state.exclude.length" step="1" v-model.number="state.minEff"
+          <input v-if="state.minEff" type="range" min="2" :max="state.pot.species.length - state.exclude.length" step="0.1" v-model.number="state.minEff"
                  aria-label="Minimum effective number of species" />
+          <!-- benchmarks (notes/cobenefits_plan.md): the city's 2026 mix in Porta = 9.4; Santamour's 10% species cap implies >= 10 -->
+          <div class="btns">
+            <button v-for="[v, name, why] in DIV_PRESETS"
+                    :key="v" :class="{ on: state.minEff === v }" :disabled="v > state.pot.species.length - state.exclude.length"
+                    :title="v > state.pot.species.length - state.exclude.length ? 'Needs more species than this palette allows: use the Barcelona palette' : why"
+                    @click="state.minEff = v">{{ name }}</button>
+          </div>
           <p class="small muted">exp(Shannon H) of the replanted positions. This layout: {{ layoutEff?.toFixed(1) }}.</p>
         </section>
         <section>
@@ -226,19 +228,33 @@ watch(
       <div class="tabs seg" role="tablist" aria-label="View">
         <button v-for="[v, l] in [['map', 'Map'], ['compare', 'Compare side by side'], ['species', 'Species']]" :key="v" role="tab"
                 :aria-selected="state.view === v" :class="{ on: state.view === v }" @click="state.view = v">{{ l }}</button>
-        <button v-if="state.view === 'map'" :class="{ on: state.showSchedule }" :aria-pressed="state.showSchedule"
+        <button :class="{ on: state.showSchedule }" :aria-pressed="state.showSchedule"
                 title="Tree schedule: every tree and free spot as a table linked to the map, with Action, Reason and Field check"
                 @click="state.showSchedule = !state.showSchedule">Schedule</button>
       </div>
       <ComparePanel v-if="state.view === 'compare'" />
       <SpeciesCards v-else-if="state.view === 'species'" />
-      <template v-else><MapView :key="state.site" /><MapToolbar /><ScheduleTable v-if="state.showSchedule" /></template>
+      <template v-else><MapView :key="state.site" /><MapToolbar /></template>
+      <ScheduleTable v-if="state.showSchedule" />
       <PanelHandle side="left" />
       <PanelHandle side="right" />
     </main>
 
     <aside v-show="panels.rightOpen" class="right">
-      <section><h3>Trade-off: summer shade vs winter shade</h3><TradeoffChart /></section>
+      <!-- priorities and the trade-off chart together: the triangle steers the optimiser, the chart shows where the result lands -->
+      <section>
+        <h3>Trade-off</h3>
+        <p class="sub">Priorities <span class="muted">· click to re-optimise</span></p>
+        <PriorityTriangle />
+        <p v-if="state.busy" class="small accent">Optimising…</p>
+        <p v-if="state.liveError" class="small danger">{{ state.liveError }}</p>
+        <details class="how"><summary>How it works</summary>
+          <p class="small muted">Dots are precomputed layouts with exact scores (filled blue = on the trade-off front). A click anywhere else re-optimises
+            in your browser: the result is an estimate. The same applies inside a project area.</p>
+        </details>
+        <p class="sub">Summer shade vs winter shade</p>
+        <TradeoffChart />
+      </section>
       <section><h3>Canopy cover</h3><CoverCounter /></section>
       <section>
         <h3>Results</h3>

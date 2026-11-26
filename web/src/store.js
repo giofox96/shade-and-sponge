@@ -72,12 +72,20 @@ export async function load(site = state.site) {
 }
 
 // Switch dataset (e.g. city palette 'porta' vs Barcelona shortlist 'porta-barcelona') and reset the view
-export async function switchSite(site) {
+export async function switchSite(site, keep = true) {
+  // the designer's work (project area, schedule, added trees, rules) carries over to the other palette or tree size
+  const oldName = state.meta?.site.name // only within the same neighbourhood: another barri's trees are elsewhere
+  const carry = keep && state.meta && (state.area || state.added.length || Object.keys(state.schedule.trees).length || Object.keys(state.schedule.spots).length)
+    ? JSON.parse(configJson()) : null
   Object.assign(state, { scenarioId: BALANCED, live: null, selected: null, exclude: [], minEff: 0, liveError: null, meta: null, added: [], addMsg: null, area: null, drawing: false, editing: false, draft: [], addMode: false, schedule: { trees: {}, spots: {} } }) // the new site's grid loads with the next Add trees
   grid = null
   planePotCache.clear()
   planeScale = null
   await load(site)
+  if (!carry || state.error || state.meta.site.name !== oldName) return
+  const names = state.meta.palette.map((p) => p.species)
+  carry.rules.exclude = carry.rules.exclude.filter((x) => names.includes(x)) // species the new palette lacks drop out
+  await loadConfig({ ...carry, site })
 }
 
 export const dataUrl = (file) => `./data/${state.site}/${file}`
@@ -453,6 +461,19 @@ function areaMetrics(rows, newSums) {
     [m, PROXY[m] ? s0[m] + calibration.value[m].b * (newSums[PROXY[m]] - k[m] * today[PROXY[m]]) : null]))
 }
 
+// The area on its own (Angelos's street-segment scale): today's contribution of the trees it replaces and the change, in
+// absolute units. Today = the calibrated share of those trees (b × scale × potential); change = the site metric minus today.
+function areaLocal(rows, metrics) {
+  const s0 = state.meta.scenarios.find((s) => s.id === 'S0_current').metrics
+  const k = planeScales()
+  const today = { shade_summer: 0, shade_winter: 0, water: 0 }
+  rows.forEach((r) => {
+    for (const key in today) today[key] += r.today[POT_KEY[key]]
+  })
+  return Object.fromEntries(Object.keys(PROXY).filter((m) => s0[m] != null)
+    .map((m) => [m, { today: calibration.value[m].b * k[m] * today[PROXY[m]], delta: metrics[m] - s0[m] }]))
+}
+
 // Room under the cap once the kept trees an area replaces are gone
 function keptAfter(rows) {
   const kept = [...state.pot.kept]
@@ -592,7 +613,8 @@ export async function runArea(weights) {
     for (const key in sums) sums[key] += rows[r][key][j]
   })
   const counts = Object.fromEntries(pot.species.map((s, j) => [s, lay.filter((x) => x === j).length]))
-  Object.assign(A, { weights, layout: lay.slice(0, A.idx.length), keptLayout: lay.slice(A.idx.length), metrics: areaMetrics(rows, sums),
+  const metrics = areaMetrics(rows, sums)
+  Object.assign(A, { weights, layout: lay.slice(0, A.idx.length), keptLayout: lay.slice(A.idx.length), metrics, local: areaLocal(rows, metrics),
     counts, city: areaCity(rows), ms: res.ms, version: (A.version ?? 0) + 1 })
   state.addedVersion++
   state.scenarioId = AREA
@@ -654,7 +676,7 @@ export async function loadConfig(cfg) {
   if (cfg?.tool !== 'shade-and-sponge') throw new Error('not a Shade and sponge configuration file')
   state.loadingConfig = true
   try {
-    if (cfg.site !== state.site) await switchSite(cfg.site)
+    if (cfg.site !== state.site) await switchSite(cfg.site, false)
     Object.assign(state, { area: null, added: [], selected: null, ...cfg.rules, schedule: { trees: {}, spots: {}, ...cfg.schedule } })
     await ensureGrid()
     const S = state.trees.spots
@@ -716,6 +738,31 @@ export const cover = computed(() => {
   const pct = C.measured_pct + d + added
   return { ...C, pct, vsToday: d + added, added, addedN: state.added.length, approx,
     gap: C.target_pct - pct, gapHa: ((C.target_pct - pct) / 100) * C.area_m2 / 1e4 }
+})
+
+// The project area's own canopy cover: today = canopy cells inside the polygon (grid bit 3: LiDAR canopy + street crown
+// discs), then the crown-disc change of its replaced and added trees (summed without overlaps, as the site estimate).
+export const areaCover = computed(() => {
+  const A = state.area
+  state.addedVersion // dependency
+  if (!A?.layout?.length && !A?.keptLayout?.length || !grid) return null
+  A.version
+  const { W, H, res, x0, y1, flags } = grid
+  const xy = A.poly.map(([lon, lat]) => grid.toXY(lon, lat))
+  const area = Math.abs(xy.reduce((a, [x, y], i) => { const [u, v] = xy[(i + 1) % xy.length]; return a + x * v - u * y }, 0)) / 2
+  const xs = xy.map((q) => q[0]), ys = xy.map((q) => q[1])
+  let can = 0
+  for (let r = Math.max(0, Math.floor((y1 - Math.max(...ys)) / res)); r <= Math.min(H - 1, Math.ceil((y1 - Math.min(...ys)) / res)); r++)
+    for (let c = Math.max(0, Math.floor((Math.min(...xs) - x0) / res)); c <= Math.min(W - 1, Math.ceil((Math.max(...xs) - x0) / res)); c++)
+      if (flags[r * W + c] & 8 && insidePoly(x0 + (c + 0.5) * res, y1 - (r + 0.5) * res, xy)) can++
+  const pal = state.meta.palette, P = state.trees.positions, t = state.trees.kept
+  const disc = (d) => Math.PI * (d / 2) ** 2
+  let d = 0
+  A.layout.forEach((j, n) => (d += disc(pal[j].crown_diam_m) - disc(P.s0_crown_diam_m[A.idx[n]])))
+  A.keptLayout.forEach((j, n) => (d += disc(pal[j].crown_diam_m) - disc(t.crown_diam_m[A.keptRows[n]])))
+  state.added.forEach((a) => { if (a.species >= 0 && insidePoly(a.lon, a.lat, A.poly)) d += disc(pal[a.species].crown_diam_m) })
+  const today = (100 * can * res * res) / area
+  return { area_m2: area, today, now: today + (100 * d) / area, crowns_m2: d }
 })
 
 // ---- side panels: width and open state, remembered in this browser ---------------------------------------------

@@ -9,6 +9,8 @@ from scipy import ndimage
 import matplotlib.pyplot as plt
 from matplotlib.colors import LinearSegmentedColormap
 from pyproj import Transformer
+from rasterio.features import rasterize
+from shapely.geometry import Point
 from .site import load_site, rc, species_lidar, ROOT, DB, EX
 from . import heat, layout, season, runoff
 
@@ -189,6 +191,11 @@ for key, label, a, cmap, vmin, vmax in layers:
 # site grid for in-browser point potentials (web/src/pointpot.js): sun bits per design hour, ground flags, façade distance
 bits = {s: sum(l.astype(np.uint8) << h for h, l in enumerate(lits[s])).astype(np.uint8) for s in lits}
 flags = (show.astype(np.uint8) | (site.to_hot.astype(np.uint8) << 1) | (site.roof.astype(np.uint8) << 2)).astype(np.uint8)
+# bit 3: canopy today (LiDAR canopy outside the street crowns + the street-tree crown discs), for a project area's own cover
+ok_ = site.trees[site.trees.flag == "ok"]
+crowns_ = rasterize(((Point(r.x, r.y).buffer(r.crown_diam_m / 2), 1) for r in ok_.itertuples()), out_shape=site.domain.shape,
+                    transform=site.transform, fill=0).astype(bool)
+flags |= ((site.background | (crowns_ & site.domain & ~site.roof)).astype(np.uint8) << 3)
 fac = (ndimage.distance_transform_edt(~(site.roof | (site.bldg_h > 3))) * site.res * 10).clip(0, 65535).astype("<u2")
 with gzip.open(out / "grid.bin.gz", "wb") as f:
     f.write(bits["summer"].tobytes() + bits["winter"].tobytes() + flags.tobytes() + fac.tobytes())

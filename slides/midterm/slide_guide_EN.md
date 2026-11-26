@@ -29,7 +29,7 @@ Numbers come from the deck and the project notes. Where something is a modelling
 ## Main talk (slides 1–15, 20 s each)
 
 ### Slide 1. Title: "I am redesigning this street"
-**What it says.** The thesis takes the point of view of a designer who is already redesigning a street. The layout is fixed; the open question is the trees: keep, move, replace or add, so that the street is cooler in summer and not worse for flooding, within the city's rules.
+**What it says.** The talk opens with the project's name, Shade and Sponge, and what it is: an urban street-tree recommender. The thesis takes the point of view of a designer who is already redesigning a street. The layout is fixed; the open question is the trees: keep, move, replace or add, so that the street is cooler in summer and not worse for flooding, within the city's rules.
 
 **Concepts.**
 - The tool is not a city-scale planning tool. It enters **at project level**, where trees are actually decided.
@@ -39,7 +39,7 @@ Numbers come from the deck and the project notes. Where something is a modelling
 **Possible questions.** *Why the designer and not the city?* Because the city replaces trees one by one in projects (46.8% of replacements are isolated trees, per the 10 Nov analysis), so the decision happens in the project.
 
 ### Slide 2. Context: replacing trees one at a time
-**What it says.** Barcelona replaced 10,976 street trees between 2018 and 2026. The tree master plan caps every species at 15%, but says nothing about which species should go where. Porta's canopy is 20.1% against a city target of 30%. And at the same trunk size, crowns of different species range from a full plane tree down to about a quarter of one.
+**What it says.** Barcelona replaced 10,976 street trees between 2018 and 2026. The tree master plan caps every species at 15%, but says nothing about which species should go where. Porta's canopy is 20.1% against a city target of 30%. And at the same trunk size, crowns of different species range from a full plane tree down to about a quarter of one. Everything is compared with the **plane**, because it is the tree most often replaced (13% of the observed replacements): results are given as a percentage of a plane's summer shade.
 
 **Concepts.**
 - **Pla director de l'arbrat 2017–2037** (the city's tree master plan) sets *how much* of each species (the 15% cap, for resistance to pests and diseases, climate resilience and biodiversity), not *which species in which street*.
@@ -49,7 +49,7 @@ Numbers come from the deck and the project notes. Where something is a modelling
 **Possible questions.** *Where do 10,976 replacements come from?* From the city's open tree inventory (Open Data BCN), comparing versions over time: a position whose species changed is a replacement.
 
 ### Slide 3. Porta in numbers
-**What it says.** Why Porta: it is the first neighbourhood of Barcelona where heat, flood hazard and plane trees are all high (summer surface +1.4 °C vs the city, flood hazard in the city's top 20%, 832 planes = 29% of its street trees). Porta covers 84 ha with 2,825 street trees. Crowns cover 17 ha (20%). Reaching 30% would need about 8 ha more. Planting every free sidewalk spot adds only about 0.3 ha.
+**What it says.** Why Porta: it is the first neighbourhood of Barcelona where heat, flood hazard and plane trees are all high (summer surface +1.4 °C vs the city, flood hazard in the city's top 20%, 832 planes = 29% of its street trees). Porta covers 84 ha with 2,825 street trees. Crowns cover 17 ha (20%). Reaching 30% would need about 8 ha more. Planting every free sidewalk spot adds only about 0.3 ha **of crown** (tree canopy, seen from above), against the 8 ha of crown that are missing.
 
 **Concepts.**
 - **Site selection was done with data**, ranking neighbourhoods on both hazards; Porta came first. Planes matter because the plan wants to reduce them, so many will be replaced.
@@ -59,7 +59,7 @@ Numbers come from the deck and the project notes. Where something is a modelling
 **Possible questions.** *Is 1.4 °C air temperature?* No. It is the median summer daytime land-surface temperature anomaly against the city median (Landsat 8/9, 31 clear scenes, June–August 2022–2025), a screening indicator, not a felt temperature. *Why "first"?* Neighbourhoods were eligible only if flood share, surface heat and plane density were all above the city's 60th percentile; Porta ranks first among those at every threshold tested.
 
 ### Slide 4. State of the art and gap
-**What it says.** Each piece exists, but nobody joins them. Some models assess heat and runoff together without choosing species. Other tools choose species, but for one benefit or without positions. Of 18 tools reviewed, none chooses species tree by tree, on heat and runoff, inside a city's own rules.
+**What it says.** Research covers each part of the problem, but separately; nobody joins them. Some models assess heat and runoff together without choosing species. Other tools choose species, but for one benefit or without positions. Of 18 tools reviewed, none chooses species tree by tree, on heat and runoff, inside a city's own rules.
 
 **Concepts.**
 - The review works like a **funnel**: 18 tools → 7 treat heat and runoff together → 1 also chooses species (Dong et al. 2026) → 0 do it per tree inside real city rules.
@@ -91,7 +91,7 @@ Numbers come from the deck and the project notes. Where something is a modelling
 - **The dots next to the data** show which hazard each dataset serves: brown for heat (LiDAR, hot day), blue for floods (LiDAR, terrain, hotspots, storm).
 - **City rules enter the optimiser as constraints** (the arrow from the City rules box): 30 allowed species, 15% cap, size by sidewalk.
 - **Screening is done once for the whole city**; the project area is then cut out of it. That is why the tool is fast.
-- **Two comparisons:** with today (does the street get better?) and with city practice (does the method beat what the city would do?).
+- **Two comparisons, at the end:** once the optimiser has chosen, the result is compared with two references: today's trees (does the street get better?) and city practice (does the method beat what the city would do?).
 - **Terrain (DTM) at 0.5 m** is used for flow routing: on a digital terrain model each cell sends its water to the steepest lower neighbour (D8 method), which tells where rain from each point ends up.
 
 ### Slide 8. Screening (the indicator matrix)
@@ -129,9 +129,10 @@ Numbers come from the deck and the project notes. Where something is a modelling
 - **"A bucket":** once the leaves are full, everything else falls through. In a heavy storm the bucket fills early, so most water still reaches the ground. This is why interception alone cannot solve floods.
 - **The slide's key line:** the amount held depends on the tree, not on where it stands. Position matters only for where the held water *would have gone* (next slide).
 - s is uncertain: a lower value (0.83–0.86 mm) is tested on slide 24.
+- **Bridge to slide 12 (why the method matters for runoff):** since all species hold water but some hold much more (larger crown, denser leaves), the method puts the species that hold **the most water** in the positions whose rain is heading to a flood hotspot, so that less water piles up there. This happens whenever runoff has a weight in the score.
 
 ### Slide 12. The tree on the hill
-**What it says.** A tree upstream of a flood hotspot keeps its ~125 litres from reaching the hotspot. 74% of Porta's tree positions drain to no hotspot. 100 trees placed by the method keep 5.6 times more water from hotspots than 100 trees at random. But that is only 0.5% of the hotspot water, so runoff is a do-no-harm check.
+**What it says.** A tree upstream of a flood hotspot keeps its ~125 litres from reaching the hotspot. But 74% of Porta's tree positions drain to no hotspot: following the slope of the terrain model, the rain that falls there flows away (to other streets, to drains, out of the neighbourhood) without ever passing through a flood hotspot, so the water those trees hold does not change any flooding. 100 trees placed by the method keep 5.6 times more water from hotspots than 100 trees at random. But that is only 0.5% of the hotspot water, so runoff is a do-no-harm check.
 
 **Concepts.**
 - **Flow routing** on the terrain model tells, for each position, whether its water ends in a hotspot. Only those positions can help the hotspot.
@@ -158,7 +159,7 @@ Numbers come from the deck and the project notes. Where something is a modelling
 - **If asked about the city-wide result:** with 30 species the method keeps a median 91.2% of a plane's summer shade, +6.7 points over the announced mix and +14.7 over practice, winning in 32 of 32 neighbourhoods.
 
 ### Slide 15. Next
-**What it says.** Felt temperature (UTCI) with Ladybug and Infrared City; Mataró, 83% vs 63% summer shade, 6 of 6 streets; Florence next; the tool with an action per tree and trade-offs on screen. Closing line: the right tree, in the right place, within the city's rules.
+**What it says.** Three next steps. (1) Felt temperature (UTCI) with Ladybug and Infrared City, to check that more shade means a cooler street. (2) The transfer tests: Mataró already gives 83% vs 63% summer shade (6 of 6 streets) and is now rerun with real ICGC LiDAR crowns; Florence follows (transfer test planned 29 Nov – 3 Dec). (3) The utility plans, to see which spots are really free (today free spots are an upper bound). The talk ends with a plain "Thank you".
 
 **Concepts.**
 - **From shade to UTCI:** shade is a proxy. Ladybug Tools (in Grasshopper) and Infrared City compute felt temperature, which also counts hot surfaces and wind. This checks whether more shade really means a more comfortable street.

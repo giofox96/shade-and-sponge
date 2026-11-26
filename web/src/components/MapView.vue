@@ -279,14 +279,17 @@ function addMask() {
 // the selected tree or spot (map or schedule): a ring on the ground, drawn over everything
 function selRing(sel) {
   if (sel == null) return null
-  const T = state.trees, n = typeof sel === 'string' ? Number(sel.slice(1)) : sel
-  const [lon, lat, d] = typeof sel === 'number' ? [T.positions.lon[n], T.positions.lat[n], T.positions.s0_crown_diam_m[n]]
-    : sel[0] === 'k' ? [T.kept.lon[n], T.kept.lat[n], T.kept.crown_diam_m[n]]
+  const T = state.trees, n = typeof sel === 'string' ? Number(sel.slice(1)) : sel, pal = state.meta.palette
+  // the ring fits the crown drawn now: a replaced plane or kept tree, or an added tree, has its new species' crown (a ring sized
+  // on today's small crown sat inside the new one and could not be seen)
+  const now = (j) => (j != null && pal[j]?.in_palette ? pal[j].crown_diam_m : null)
+  const [lon, lat, d] = typeof sel === 'number' ? [T.positions.lon[n], T.positions.lat[n], now(currentLayout()[n]) ?? T.positions.s0_crown_diam_m[n]]
+    : sel[0] === 'k' ? [T.kept.lon[n], T.kept.lat[n], now(state.scenarioId === AREA ? keptReplaced().get(n) : null) ?? T.kept.crown_diam_m[n]]
     : sel[0] === 's' ? [T.spots.lon[n], T.spots.lat[n], 2 * SPOT_R[T.spots.size_class[n]]]
-    : [state.added[n]?.lon, state.added[n]?.lat, 4]
+    : [state.added[n]?.lon, state.added[n]?.lat, now(state.added[n]?.species) ?? 4]
   if (lon == null) return null
   return new ScatterplotLayer({ id: 'sel-ring', data: [[lon, lat]], getPosition: (q) => up(q, 0.4), getRadius: Math.max(d || 4, 3) / 2 + 1,
-    radiusUnits: 'meters', radiusMinPixels: 9, stroked: true, filled: false, getLineColor: themeColors.value.ringOn, lineWidthMinPixels: 2.5,
+    radiusUnits: 'meters', radiusMinPixels: 9, stroked: true, filled: false, getLineColor: themeColors.value.ringOn, lineWidthMinPixels: 3,
     parameters: ON_TOP })
 }
 
