@@ -53,6 +53,16 @@ def bars(s, x, y, w, h, cats, vals, colors, axis_min=80, axis_max=110):
     return ch
 
 
+def pic_h(s, name, x, y, h, w_max=None):
+    """Picture from slides/final/fig (make_final_maps.py), sized by height, capped at w_max, centred in w_max."""
+    from PIL import Image
+    iw, ih = Image.open(ROOT / f"slides/final/fig/{name}.png").size
+    w = h * iw / ih
+    if w_max and w > w_max:
+        w, h = w_max, w_max * ih / iw
+    return R.picture(s, ROOT / f"slides/final/fig/{name}.png", x + ((w_max or w) - w) / 2, y, w, crop_top=0)
+
+
 def n_question(s):
     head(s, "Research question", "Two references: the city's practice first, then today")
     box(s, M, 1.55, W - 2 * M, 1.55, tint(TREE, 0.10))
@@ -76,7 +86,7 @@ def n_question(s):
 
 def n_heat(s):
     head(s, "Heat module", "Shade where and when people walk: summer shade a benefit, winter shade a cost")
-    R.picture(s, ROOT / "slides/fig_v7/flow_02_heat.png", M + 0.1, 1.4, W - 2 * M - 0.2, crop_top=0.17, crop_bottom=0.12)
+    R.picture(s, ROOT / "slides/fig_v7/flow_02_heat.png", M + 0.1, 1.4, W - 2 * M - 0.2, crop_top=0.17, crop_bottom=0.2)
     text(s, M, 6.3, W - 2 * M, 0.5, [[("Winter: ", {"bold": True}), ("evergreen crowns that shade in summer also shade in winter, "
          "so the same sun check on a January day counts that shade as a cost.", {})]], 15, INK)
     source(s, "ICGC, LiDAR 2021; Ladybug Tools; Infrared City; Bröde et al. 2012 (UTCI).")
@@ -84,7 +94,7 @@ def n_heat(s):
 
 def n_runoff(s):
     head(s, "Runoff module", "Rain on a 1 m grid: what the crowns hold, what the ground takes, where the rest flows")
-    R.picture(s, ROOT / "slides/fig_v7/flow_03_runoff.png", M + 0.1, 1.4, W - 2 * M - 0.2, crop_top=0.17, crop_bottom=0.12)
+    R.picture(s, ROOT / "slides/fig_v7/flow_03_runoff.png", M + 0.1, 1.4, W - 2 * M - 0.2, crop_top=0.17, crop_bottom=0.2)
     source(s, "Anys & Weiler 2024 (interception); USDA SCS curve number; Barcelona, PDISBA design storms; ICGC, LiDAR 2021.")
 
 
@@ -203,19 +213,19 @@ def n_crowns(s):
 
 def n_barri(s):
     head(s, "Why Porta", "First among Barcelona's neighbourhoods where flood hazard, heat and plane trees are all high")
-    R.picture(s, ROOT / "notes/figures/bcn_site_screening.png", M + 0.1, 1.6, W - 2 * M - 0.2, crop_top=0.07)
+    pic_h(s, "barri_screening", M, 1.5, 3.8, W - 2 * M)
     text(s, M, 5.4, W - 2 * M, 0.8, [[("The rule came first: ", {"bold": True}),
          ("a neighbourhood qualifies only if all three are above the city's 60th percentile; Porta ranks first.", {})]], 16, INK)
-    source(s, "Barcelona Resilience Atlas (flood hazard, heat vulnerability); Open Data BCN, arbrat viari.")
+    source(s, "Barcelona Resilience Atlas (flood hazard); Landsat 8/9 (surface heat); Open Data BCN, arbrat viari.")
 
 
 def n_porta_site(s):
     head(s, "Porta in numbers", "Nou Barris: 84 ha, 2,825 street trees, 832 planes (29%)")
-    rhino(s, M, 1.45, 7.6, 4.9, "Porta map: street trees, planes highlighted, canopy today", "MAP")
+    pic_h(s, "porta_canopy", M, 1.45, 4.9, 7.6)
     text(s, 8.45, 1.45, W - M - 8.45, 0.9, [[("20.1%", {"bold": True, "color": HEAT, "size": 30}), ("  canopy today, target 30%", {})]], 15, INK)
-    pie(s, 8.4, 2.4, 2.4, 2.4, [46, 3, 6, 45], [TREE, RAIN, WARN, GREY])
+    pie(s, 8.4, 2.4, 2.4, 2.4, [46, 3, 6, 45], [TREE, RAIN, WARN, "#9DB596"])
     text(s, 10.9, 2.4, W - M - 10.9, 2.4, [[("■ ", {"color": TREE}), ("street trees 46%", {})], [("■ ", {"color": RAIN}), ("parks 3%", {})],
-         [("■ ", {"color": WARN}), ("squares, courtyards 6%", {})], [("■ ", {"color": GREY}), ("not in the inventory 45%", {})]], 13, INK,
+         [("■ ", {"color": WARN}), ("squares, courtyards 6%", {})], [("■ ", {"color": "#9DB596"}), ("not in the inventory 45%", {})]], 13, INK,
          anchor=MSO_ANCHOR.MIDDLE)
     text(s, 8.45, 5.0, W - M - 8.45, 1.3, [[("Street trees alone cannot reach 30%: ", {"bold": True}),
          ("the choice of species is what is left.", {})]], 15, INK)
@@ -223,14 +233,14 @@ def n_porta_site(s):
 
 
 def n_species30(s):
-    head(s, "The 30 species", "The palette after the screening")
-    rhino(s, M, 1.45, W - 2 * M, 4.9, "5 × 6 crowns seen from above, OR elevations with a person for scale", "VISUAL")
+    head(s, "The 30 species", "The palette after the screening: crowns from above, one scale (median Barcelona crown, LiDAR)")
+    pic_h(s, "species30_top", M, 1.6, 4.6, W - 2 * M)
     source(s, "Open Data BCN, arbrat viari; Ajuntament de Barcelona, Pla director de l'arbrat 2017–2037.")
 
 
 def n_spots(s):
     head(s, "Where new trees go", "267 candidate spots in Porta")
-    rhino(s, M, 1.45, 9.2, 4.9, "Porta map: trees and spots coloured by class", "MAP")
+    pic_h(s, "porta_spots_class", M, 1.45, 4.9, 9.2)
     x = M + 9.5
     text(s, x, 1.45, W - M - x, 4.9, [[("153", {"bold": True, "color": TREE, "size": 28}), ("  free", {})],
          [("103", {"bold": True, "color": WARN, "size": 28}), ("  conditional", {})], [("11", {"bold": True, "color": HEAT, "size": 28}), ("  blocked", {})],
@@ -238,17 +248,39 @@ def n_spots(s):
     source(s, BCN + " Open Data BCN, street furniture; OpenStreetMap.")
 
 
+def n_species30b(s):
+    head(s, "The 30 species", "Side view, one scale, with a 1.7 m person")
+    pic_h(s, "species30_elev", M, 1.5, 4.8, W - 2 * M)
+    source(s, "ICGC, LiDAR 2021 (median height, crown width and crown base per species); Open Data BCN, arbrat viari.")
+
+
+def n_obstacles(s):
+    head(s, "What stands in the way", "103 conditional spots: a project can move what blocks them")
+    pic_h(s, "porta_spots_obstacle", M, 1.45, 4.9, 9.2)
+    x = M + 9.5
+    text(s, x, 1.45, W - M - x, 4.9, [[("Above ground", {"bold": True})], "signs, lamps, crossings and bollards: from the city's open data",
+         "", [("Below ground", {"bold": True})], "water, gas, power: no open data; a field check before planting"], 14, INK)
+    source(s, BCN + " Open Data BCN, street furniture; OpenStreetMap.")
+
+
+def n_water(s):
+    head(s, "Where the water goes", "Flow paths from the terrain and the city's flood hotspots in Porta")
+    pic_h(s, "porta_water", M, 1.45, 4.9, W - 2 * M)
+    source(s, "ICGC, LiDAR 2021 (terrain); Barcelona Resilience Atlas (flood hotspots).")
+
+
 def n_practice(s):
     head(s, "City practice, not a rule", "The baseline is what the city really planted")
-    rhino(s, M, 1.45, W - 2 * M, 2.6, "Barcelona map: new plantings within / above the size their sidewalk allows", "MAP")
+    rhino(s, M, 1.45, 8.4, 4.9, "Barcelona map: new plantings within / above the size their sidewalk allows", "MAP")
     items = [("landmark", "City practice", "the species the city planted, 2018–2026", RAIN),
              ("scale", "Same rules for both", "sidewalk size, 15% cap", WARN),
              ("sliders-horizontal", "What each rule costs", "switch a rule off, re-optimise", TREE)]
+    x = M + 8.7
     for k, (ic, b, t, c) in enumerate(items):
-        x = M + k * 4.18
-        box(s, x, 4.3, 3.9, 1.9, tint(c, 0.10))
-        ico(s, ic, c, x + 0.3, 4.5, 0.5)
-        text(s, x + 0.3, 5.1, 3.4, 1.1, [[(b, {"bold": True, "color": c, "size": 18})], t], 14, INK)
+        y = 1.45 + k * 1.68
+        box(s, x, y, W - M - x, 1.5, tint(c, 0.10))
+        ico(s, ic, c, x + 0.25, y + 0.2, 0.45)
+        text(s, x + 0.85, y + 0.1, W - M - x - 1.0, 1.3, [[(b, {"bold": True, "color": c, "size": 17})], t], 14, INK)
     source(s, "Open Data BCN, arbrat viari 2018–2026; Parcs i Jardins, Gestió de l'arbrat viari (2011).")
 
 
@@ -386,6 +418,9 @@ SLIDES = [
     (n_spots, "Of 267 candidate spots in Porta, 153 are free, 103 need a field check on underground services, and 11 are blocked."),
     (n_practice, "The baseline is not a rule but what the city really planted; the same rules apply to both, and switching a rule off shows what it costs."),
     (n_vision, "Further out, the idea grows: from replaced trees to every tree in the city, with tree pits, soil type and evapotranspiration as new layers of the same core."),
+    (n_species30b, "The same thirty species from the side, at one scale, next to a person."),
+    (n_obstacles, "The conditional spots: signs, lamps, crossings and bollards a project can move, and underground services that need a field check."),
+    (n_water, "Where the water goes in Porta: the flow paths from the terrain and the city's flood hotspots."),
     (n_runoff, "The runoff module: the design storm falls on a one-metre grid; crowns hold water, the soil takes some, the rest flows downhill to the flood spots."),
 ]
 
@@ -399,9 +434,9 @@ def divider(s, title):
 ORDER = ["OLD M1", "NEW N15", "NEW N16", "NEW N17", "NEW N18",               # why: replacements, crowns, why Porta, Porta
          "§The gap", "OLD M4",
          "§The question", "NEW N1", "OLD M6", "NEW N12",                    # question, what is fixed/free, who decides
-         "§The method", "OLD M7", "OLD M8", "OLD B4", "NEW N19",            # overview, screening, HiGHS, 30 species
-         "OLD M9", "NEW N20",                                               # rules, spots
-         "NEW N2", "NEW N23", "OLD M11", "OLD M12", "OLD B1",               # heat, runoff, bucket, hill, trade-off triangle
+         "§The method", "OLD M7", "OLD M8", "OLD B4", "NEW N19", "NEW N23",            # overview, screening, HiGHS, 30 species
+         "OLD M9", "NEW N20", "NEW N24",                                               # rules, spots
+         "NEW N2", "NEW N26", "OLD M11", "OLD M12", "NEW N25", "OLD B1",               # heat, runoff, bucket, hill, trade-off triangle
          "NEW N3", "NEW N21",                                               # scenarios, city practice
          "§Results", "NEW N4", "NEW N5", "NEW N6", "OLD B8",                # Porta, city plan, back-test, Rio de Janeiro
          "NEW N7", "NEW N8",                                                # diversity explained, its cost

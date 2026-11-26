@@ -173,7 +173,7 @@ def flow_overview():
 
 
 # ---- generic module figure: phase columns, a few nodes per column, curved links
-def module(name, title, subtitle, cols, links, note, source, side=None):
+def module(name, title, subtitle, cols, links, note, source, side=None, side_y=760):
     X = [150 + i * (1300 / max(1, len(cols) - 1)) for i in range(len(cols))]
     pos, b, nb = {}, "", ""                              # links are drawn under the nodes
     for x, (hd, nodes) in zip(X, cols):
@@ -197,7 +197,7 @@ def module(name, title, subtitle, cols, links, note, source, side=None):
     if side:                                            # one side input, IoB "catalogue" style
         key, lab, sub, color = side
         x, y, _ = pos[key]
-        b += outline(x, 760, lab, color, 250, 70, sub) + vline(x, 723, y + 34, color)
+        b += outline(x, side_y, lab, color, 250, 70, sub) + vline(x, side_y - 37, y + 34, color)
     b += t(800, 840 - 10, note, 16, MUTED, anchor="middle")
     save(name, title, subtitle, b, source)
 
@@ -228,7 +228,7 @@ def flow_heat():
            [("epw", "sun"), ("epw", "t1"), ("sun", "prox"), ("bld", "prox"), ("prox", "t1"), ("prox", "t2"), ("t1", "out"), ("t2", "out")],
            "Winter sun access is scored the same way on a January day: shade there is a cost.",
            "notes/methodology.md §5; notes/topic_decision.md §8 (metric), §10.5 row 4; shade_sponge/README.md (heat.py).",
-           side=("prox", "Crown model", "LiDAR crowns · leaf calendar", TREE))
+           side=("prox", "Crown model", "LiDAR crowns · leaf calendar", TREE), side_y=640)
 
 
 def flow_runoff():
@@ -241,7 +241,7 @@ def flow_runoff():
            [("st", "int"), ("int", "cn"), ("cn", "rt"), ("rt", "tot"), ("rt", "hot")],
            "T2-60 is the headline storm; T1 and T10 are reported. Extreme events are outside what street trees can affect.",
            "notes/methodology.md §4b; notes/decisions/runoff_metric_sensitivity.md §10 (Δmin); notes/topic_decision.md §8, §10.5 row 5.",
-           side=("int", "Calibration", "s = 1.75 mm/LAI · Anys & Weiler 2024", WARN))
+           side=("int", "Calibration", "s = 1.75 mm/LAI · Anys & Weiler 2024", WARN), side_y=640)
 
 
 def flow_design():
