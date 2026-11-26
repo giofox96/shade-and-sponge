@@ -191,6 +191,68 @@ def n_contribution(s):
     source(s, "Dong et al. 2026; Mannucci et al. 2025; Nicol et al. 2026 (SylvCiT); full list in the thesis.")
 
 
+def n_mataro(s):
+    """Transfer test, first run (PR #150): crowns = Barcelona medians, Mataró LiDAR crowns not yet in."""
+    head(s, "Transfer: Mataró", "Six plane streets, every plane replaced: summer shade of the new trees, method vs city practice")
+    R.picture(s, ROOT / "slides/midterm/fig/mataro_streets.png", M, 1.45, 6.6, crop_top=0)
+    text(s, 7.5, 1.6, 5.3, 1.6, [[("83% vs 63%", {"bold": True, "color": TREE, "size": 40})],
+                                 "median share of the planes' shade · the method wins 6 of 6 streets"], 16, INK)
+    text(s, 7.5, 3.35, 5.3, 0.8, [[("Runoff: ", {"bold": True}), ("never worse (6 of 6)", {})]], 15, INK)
+    text(s, 7.5, 4.1, 5.3, 2.0, [[("First run: ", {"bold": True, "color": MUTED}),
+                                  ("crowns from Barcelona, Mataró LiDAR next. Florence follows with its own LiDAR.", {})]], 14, MUTED)
+    source(s, "Ajuntament de Mataró, arbrat (2026); Overture Maps (ODbL); ICGC, LiDAR 2021.")
+
+
+def n_cost(s):
+    head(s, "Cost and feasibility", "The method changes the species, not the number of works")
+    rows = [("refresh-ccw", "Replace: up to 500 € per tree", "fell, remove the stump, plant a 16–18 cm tree", HEAT),
+            ("move", "Move: 500 to 2,900 € per tree", "tree spade, root ball 90 to 300 cm", WARN),
+            ("ruler", "Widen a pit, 1 → 1.5 m²: about 100 €", "demolish paving, new pit border", TREE)]
+    for k, (ic, b, t, c) in enumerate(rows):
+        y = 1.6 + k * 1.2
+        ico(s, ic, c, M + 0.05, y + 0.1, 0.5)
+        text(s, M + 0.8, y, 5.4, 1.1, [[(b, {"bold": True, "color": c, "size": 18})], t], 14, INK)
+    text(s, M, 5.3, 5.9, 0.9, "Same trees replaced in both cases: same works, same cost.", 16, INK, True)
+    text(s, 6.9, 1.55, 5.9, 0.5, "Candidate sidewalk spots in Porta (267)", 18, INK, True)
+    for k, (n, t, c) in enumerate((("153", "free", TREE), ("103", "conditional: a field check", WARN), ("11", "blocked", HEAT))):
+        y = 2.2 + k * 1.15
+        box(s, 6.9, y, 5.9, 1.0, tint(c, 0.12))
+        text(s, 7.2, y, 5.4, 1.0, [[(n + "  ", {"bold": True, "color": c, "size": 30}), (t, {})]], 16, INK, anchor=MSO_ANCHOR.MIDDLE)
+    text(s, 6.9, 5.75, 5.9, 0.5, "Underground services: real plans used privately, a synthetic layer in the public tool.", 13, MUTED)
+    source(s, "Diputació de Barcelona, Catàleg 2024–2027; CYPE, Generador de precios; " + BCN)
+
+
+def n_impact(s):
+    head(s, "What 10 M€ would change", "A rough scale-up of the back-test, at replacement cost")
+    for k, (big, small, c) in enumerate((("≈ 20,000", "replacements at up to 500 € each", HEAT),
+                                         ("≈ 15 years", "of the city's replacements with a change of species (~1,300 a year)", RAIN),
+                                         ("1.7 ×", "the new summer shade per tree, method vs city (back-test median)", TREE))):
+        x = M + k * 4.13
+        box(s, x, 1.6, 3.93, 2.6, tint(c, 0.10))
+        text(s, x + 0.3, 1.6, 3.4, 2.6, [[(big, {"bold": True, "color": c, "size": 38})], small], 15, INK, anchor=MSO_ANCHOR.MIDDLE)
+    box(s, M, 4.5, W - 2 * M, 1.5, tint(TREE, 0.08))
+    text(s, M + 0.5, 4.5, W - 2 * M - 1.0, 1.5,
+         [[("Same money, same works: ", {"bold": True}),
+           ("the gain comes only from choosing the species, with runoff no worse. Felt temperature and growth over time still to be added.", {})]],
+         17, INK, anchor=MSO_ANCHOR.MIDDLE)
+    source(s, "Diputació de Barcelona, Catàleg 2024–2027; Open Data BCN, arbrat viari 2018–2026.")
+
+
+def n_limits(s):
+    head(s, "Limits and assumptions", "What the method takes as given")
+    rows = [("tree-deciduous", "New trees at today's size", "each species at its median Barcelona crown (LiDAR); growth not modelled", TREE),
+            ("thermometer-sun", "Heat = shade on a hot day", "a fast proxy, checked with Ladybug and Infrared City, not a full simulation per layout", HEAT),
+            ("droplets", "One interception rate", "1.75 mm per unit of leaf area; species rates do not change the ranking", RAIN),
+            ("cloud-rain", "Runoff barely moves", "differences are below what the model resolves: runoff is a do-no-harm check", RAIN),
+            ("map-pin", "Free spots are an upper bound", "no open data on underground services; conditional spots need a field check", WARN),
+            ("chart-pie", "15% cap on street trees only", "the city's plan also counts squares", MUTED)]
+    for k, (ic, b, t, c) in enumerate(rows):
+        x, y = M + (k % 2) * 6.2, 1.6 + (k // 2) * 1.6
+        ico(s, ic, c, x + 0.05, y + 0.1, 0.5)
+        text(s, x + 0.8, y, 5.2, 1.5, [[(b, {"bold": True, "color": c, "size": 17})], t], 14, INK)
+    source(s, "Anys & Weiler 2024; ICGC, LiDAR 2021; Ladybug Tools; Infrared City; " + BCN)
+
+
 SLIDES = [
     (n_question, "My question: when a project must replace trees, can a method inside the city's rules choose species and positions so that shade and rain interception improve, or at least do not get worse, against the city's practice and against today? H1: no worse than the city, better in summer. H2: heat and runoff want different species."),
     (n_heat, "The heat module asks where the sun hits the street each hour, how much of it each crown stops, and counts summer shade as a gain and winter shade as a cost. I checked it against felt temperature with Ladybug and Infrared City."),
@@ -199,8 +261,12 @@ SLIDES = [
     (n_cityplan, "The city has a per-tree plan for 513 Porta planes. At the same diversity, the method gives 101% of today's summer shade against the plan's 98%, with more winter sun and equal runoff."),
     (n_backtest, "I went back to 26 places where the city really replaced a group of trees. With the same positions, the method gives more shade in 23 of them, 1.7 times the shade per tree, and never more runoff."),
     (n_diversity, "Diversity is cheap: matching the city's announced mix costs less than half a point of shade, and even at twenty effective species the method stays above the city's practice."),
-    (n_stakeholders, "The user is the designer of a street project, inside the city or in a commissioned firm. Parcs i Jardins sets the rules and approves the species; neighbours see the before and after."),
+    (n_mataro, "Does it travel? In Mataró, replacing every plane on six streets, the method keeps 83% of the planes' shade against 63% for the city's practice, and wins all six streets. Florence follows."),
+    (n_cost, "The method replaces the same trees as the city, so the works and the cost are the same: up to 500 euros per replaced tree. Of 267 candidate spots in Porta, 153 are free and 103 need a field check."),
+    (n_impact, "With 10 million euros the city could replace about 20,000 trees, around fifteen years of its replacements. Chosen with the method, each new tree gives 1.7 times the shade, for the same money."),
+    (n_stakeholders,"The user is the designer of a street project, inside the city or in a commissioned firm. Parcs i Jardins sets the rules and approves the species; neighbours see the before and after."),
     (n_contribution, "Of the eighteen tools I reviewed, none chooses species and positions for heat and runoff inside a city's rules. That is what this method adds, tested against what the city really planted."),
+    (n_limits, "These are the limits: new trees at today's size, heat as shade checked with felt temperature, one interception rate, runoff that barely moves, free spots as an upper bound, and the cap on street trees only."),
 ]
 
 
