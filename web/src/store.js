@@ -31,6 +31,8 @@ export const state = reactive({
   showLidar: false, // thinned LiDAR cloud (meta.lidar), loaded on first use
   showParks: false, // park and zone trees (meta.parks): context only, never scored
   parks: null, // { site, id, kind, place, species, lon, lat, height_m, crown_diam_m, crown_base_m } once loaded
+  showUtilities: false, // SYNTHETIC underground services (meta.utilities, scripts/synthetic_utilities.py): a mock, not real plans
+  utilities: null, // { site, features } once loaded
   lidar: null, // { site, n, pos (Float32Array: east, north m from site.center, 0), z, hag (m), cls } once loaded
   month: 7,
   selected: null, // index into positions
@@ -138,6 +140,12 @@ export async function setParks(on) {
   if (on && state.meta?.parks && state.parks?.site !== state.site)
     state.parks = markRaw({ site: state.site, ...(await (await fetch(dataUrl(state.meta.parks.file))).json()) })
   state.showParks = on && !!state.parks
+}
+// Synthetic underground services (python scripts/synthetic_utilities.py): published layout rules + random choices, not real plans
+export async function setUtilities(on) {
+  if (on && state.meta?.utilities && state.utilities?.site !== state.site)
+    state.utilities = markRaw({ site: state.site, features: (await (await fetch(dataUrl(state.meta.utilities.file))).json()).features })
+  state.showUtilities = on && !!state.utilities
 }
 export async function setGround3d(on) {
   if (on) await loadTerrain()
@@ -566,8 +574,15 @@ export async function setAreaAll(on) {
   await runArea(state.area.weights)
 }
 
-// Spot class (scripts/porta_spot_classes.py, user decision 18 Nov): 'free' or 'conditional'; data without classes = free
-export const spotClass = (s) => state.trees.spots.spot_class?.[s] ?? 'free'
+// Spot class (scripts/porta_spot_classes.py, user decision 18 Nov): 'free' or 'conditional'; data without classes = free.
+// A free spot whose pit would sit on a buried line (synthetic in the public app) is conditional too (PTEV 2024 p. 31)
+export const spotClass = (s) => (state.trees.spots.utility_conditional?.[s] ? 'conditional' : state.trees.spots.spot_class?.[s] ?? 'free')
+// what has to move first at a conditional spot: surface objects, and the buried line under the pit
+export const spotWhy = (s) => {
+  const S = state.trees.spots
+  return [S.reasons[s] && S.reasons[s].replaceAll('_', ' ').replaceAll(';', ', '),
+    S.utility_conditional?.[s] && `buried service${state.meta?.utilities?.synthetic ? ' (synthetic)' : ''}`].filter(Boolean).join(', ')
+}
 // the area's spots that "Fill" plants: free ones, plus conditional ones when the switch is on
 export const fillableSpots = () => state.area.spotIdx.filter((s) => spotClass(s) === 'free' || state.useConditional)
 
@@ -588,7 +603,7 @@ function pushSpotTree(s) {
   const q = pointPotentials(grid, state.meta, S.lon[s], S.lat[s])
   const fit = withSizeRule(q.fit, S.size_class[s])
   const t = { lon: S.lon[s], lat: S.lat[s], x: q.x, y: q.y, pot: { summer: q.summer, winter: q.winter, water: q.water, fit },
-    warn: spotClass(s) === 'conditional' ? [`conditional spot: move ${S.reasons[s].replaceAll('_', ' ').replaceAll(';', ', ')} first`] : [],
+    warn: spotClass(s) === 'conditional' ? [`conditional spot: move ${spotWhy(s)} first`] : [],
     sun_summer: q.sun_summer, sun_winter: q.sun_winter, drains_to_hotspot: q.drains_to_hotspot, spot: S.id[s], auto: true,
     species: fit.indexOf(1) }
   if (!state.area) t.species = recommend(t.pot) // no optimiser run follows: the best fitting species for the priorities on screen

@@ -2,7 +2,7 @@
 // Icon column on the right edge of the map: one button per map layer, grouped in pills. A dot marks a layer that is on;
 // the tooltip gives name, state and action. "More" opens the month (leaf calendar) and building-opacity tools.
 import { ref } from 'vue'
-import { state, MONTHS, setGround3d, setLidar, setParks } from '../store.js'
+import { state, MONTHS, setGround3d, setLidar, setParks, setUtilities } from '../store.js'
 import Icon from './Icon.vue'
 
 const more = ref(false)
@@ -44,6 +44,15 @@ const hint = (on) => (on ? 'Visible on map · click to hide' : 'Hidden · click 
         <Icon name="park" /><i v-if="state.showParks" class="dot"></i>
         <span class="tt"><b>Park trees</b>{{ hint(state.showParks) }}
           <em>{{ state.meta.parks.n.toLocaleString('en') }} trees of parks and squares (city inventories, Open Data BCN), sized from the LiDAR. Context only: the tool does not change or score them; their shade is already in the model as fixed canopy.</em></span>
+      </button>
+      <button v-if="state.meta.utilities" class="tb" :aria-pressed="state.showUtilities" aria-label="Underground services (synthetic)"
+              @click="setUtilities(!state.showUtilities)">
+        <Icon name="pipe" /><i v-if="state.showUtilities" class="dot"></i>
+        <span class="tt"><b>Underground services · SYNTHETIC</b>{{ hint(state.showUtilities) }}
+          <em>A mock layer, not Porta's real services (those plans cannot be published). Built from published layout rules: house
+            connections cross the sidewalk from each building, water, gas and electricity run along it. Blue = water, yellow = gas,
+            red = electricity, purple = house connections. {{ state.meta.utilities.free_spots_flagged }} free spots would sit on a line
+            and count as conditional.</em></span>
       </button>
       <button class="tb" :aria-pressed="state.buildingOpacity > 0" aria-label="Buildings" @click="toggleBuildings">
         <Icon name="building" /><i v-if="state.buildingOpacity > 0" class="dot"></i>

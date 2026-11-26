@@ -2,7 +2,7 @@
 // Selected tree: an existing plane position (index) or a designer-added tree ('a<k>'). Shows its context (sun, water)
 // and what each palette species would deliver there; added trees can switch species or be removed.
 import { computed } from 'vue'
-import { state, MONTHS, currentLayout, setAddedSpecies, removeAdded } from '../store.js'
+import { state, MONTHS, currentLayout, setAddedSpecies, removeAdded, spotClass, spotWhy } from '../store.js'
 
 // other street trees ('k<index>') and free spots ('s<index>'), selected on the map or in the schedule, show a short card
 const other = computed(() => (typeof state.selected === 'string' && state.selected[0] !== 'a' ? state.selected : null))
@@ -19,8 +19,8 @@ const card = computed(() => {
       rows: [['Crown', `${K.crown_diam_m[n].toFixed(1)} m wide, ${K.height_m[n].toFixed(1)} m tall (LiDAR)`], ['Sidewalk', K.sw_width_m?.[n] ? `${K.sw_width_m[n].toFixed(1)} m` : 'not measured']] }
   }
   const S = state.trees.spots
-  return { title: `Planting spot ${S.id[n]}`, sub: `${S.spot_class?.[n] ?? 'free'} · ${S.size_class[n]} tree`,
-    rows: [['Sidewalk', `${S.width_m[n]} m`], ['In the way', S.reasons?.[n] ? S.reasons[n].replaceAll('_', ' ').replaceAll(';', ', ') : 'nothing mapped']] }
+  return { title: `Planting spot ${S.id[n]}`, sub: `${spotClass(n)} · ${S.size_class[n]} tree`,
+    rows: [['Sidewalk', `${S.width_m[n]} m`], ['In the way', spotWhy(n) || 'nothing mapped']] }
 })
 const lay = computed(() => (state.live?.version, currentLayout()))
 const sp = computed(() => {

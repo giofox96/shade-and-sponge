@@ -2180,5 +2180,15 @@
   "park": 464,
   "zone": 745,
   "no_canopy": 30
+ },
+ "utilities": {
+  "file": "utilities.geojson",
+  "synthetic": true,
+  "note": "SYNTHETIC: generated from published layout rules and random choices, not Porta's real services",
+  "seed": 1,
+  "n_lines": 6700,
+  "spots_flagged": 46,
+  "free_spots_flagged": 29,
+  "pit_r_m": 0.5
  }
 }
