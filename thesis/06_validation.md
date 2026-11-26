@@ -115,7 +115,7 @@ The strongest test of a method that advises a decision is to give it a decision 
 
 This gives **26 groups and 366 positions** across Barcelona (@fig:backtest-map). Street works were found in city notices or the press for some of them: on Carrer de Piquer, the works and the tree change are both confirmed. The others are probably replacement campaigns. In every case, the inventory records what the city actually planted.
 
-![The 26 back-test groups across Barcelona, coloured by the method's gain over the city's choice](fig/ch6_backtest_map.png){#fig:backtest-map}
+![The 26 back-test groups across Barcelona: dot size is the number of trees, colour the method's summer shade gain over what the city planted (%)](fig/ch6_backtest_map.png){#fig:backtest-map}
 
 **The test.** In each group, every other tree is kept as measured. The same positions are then given three answers:
 
@@ -190,6 +190,8 @@ Each practice and the random palette were drawn five times.
 | Summer shade, % of the planes' | 83 | 61 | 63 | 50 | 49 |
 
 : Mataró transfer test: summer shade of the new trees as a share of the planes' shade, at the same trunk size. {#tbl:mataro}
+
+![Mataró: the six streets with the most plane trees, summer shade of the method against Barcelona's city practice (S1b), as a share of the planes' shade](fig/ch6_mataro_map.png){#fig:mataro-map}
 
 - **Runoff:** the method is never worse than any practice (6 of 6). It is 0.3–1.2% above today's planes, as every practice is.
 - **Winter shade:** the method casts less winter shade than S1b on all six streets.

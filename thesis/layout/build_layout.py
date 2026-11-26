@@ -3,13 +3,16 @@
 Usage:
   python thesis/layout/number_refs.py build/body.md thesis/02_*.md thesis/03_*.md ...
   pandoc build/body.md -f markdown-citations -t docx -o build/body.docx
-  DESIGNCRAFT_CLI=path/to/designcraft-cli python thesis/layout/build_layout.py TEMPLATE.designcraft build/body.docx OUT_DIR
+  DESIGNCRAFT_CLI=path/to/designcraft-cli python thesis/layout/build_layout.py TEMPLATE.designcraft build/body.docx OUT_DIR [build/body.md]
 
 TEMPLATE is the IAAC "A4 - Activity Report.indd" saved once as .designcraft (file.open + --save).
 Fonts (IBM Plex Sans, OFL) must sit in a "Document Fonts" folder next to TEMPLATE.
 Writes OUT_DIR/thesis_layout.{designcraft,pdf,idml}.
+DesignCraft drops the images of a placed .docx, so with body.md given each figure that exists under thesis/
+is placed again as an anchored graphic, one column wide, above its "Figure X.Y." caption.
 """
 import json
+import re
 import os
 import shutil
 import subprocess
@@ -96,11 +99,33 @@ def setup(docx):
     return L
 
 
+COL_W = (595.28 - MARGINS["inside"] - MARGINS["outside"] - GUTTER) / COLS
+FIG = re.compile(r"!\[(Figure \d+\.\d+\.)[^\]]*\]\(([^)]+)\)")
+
+
+def figures(story, md, inp, out):
+    """Re-insert the figures as anchored graphics above their captions, last first so offsets hold."""
+    text = run([j("story.get", story=story)], inp, inp)[0]["text"].encode()
+    L = []
+    for tag, path in reversed(FIG.findall(Path(md).read_text(encoding="utf-8"))):
+        img, pos = Path("thesis") / path, text.find(tag.encode())
+        if not img.exists() or pos < 0:
+            print("figure skipped:", tag, path)
+            continue
+        L += [j("file.place", path=str(img.resolve()), embed=True, spread=0, x=-700, y=0, width=COL_W),
+              j("anchored.insert", ids=["$last.id"], story=story, pos=pos, position="aboveLine", align="left",
+                spaceAfter=4)]
+    if L:
+        run(L, inp, out)
+    else:
+        shutil.copy(inp, out)
+
+
 def pages_of(ins):
     return [(sp["index"], p) for sp in ins["spreads"] for p in sp["pages"]]
 
 
-def main(template, docx, out_dir):
+def main(template, docx, out_dir, md=None):
     out_dir = Path(out_dir)
     out_dir.mkdir(parents=True, exist_ok=True)
     work = Path(template).parent
@@ -112,6 +137,8 @@ def main(template, docx, out_dir):
     si, pb = pages[back][0], pages[back][1]["bounds"]
     on_back = [it["id"] for sp in ins["spreads"] if sp["index"] == si for it in sp["items"]
                if it.get("story") == story and pb[0] - 1 <= it["bounds"][0] < pb[2]]
+    if md:
+        figures(story, md, a, a)
     L = []
     for i in on_back:
         L += [j("text.removeFromThread", frame=i), j("edit.clear", ids=[i])]
@@ -137,7 +164,7 @@ def main(template, docx, out_dir):
     # tables span both columns
     L = []
     text = g["text"].encode()
-    full = 483.0  # column-span width = page width - inside - outside margins
+    full = COL_W  # tables do not span columns in DesignCraft, so they take one column
     for off in [i for i in range(len(text)) if text[i:i + 3] == "".encode()]:
         L += [j("text.select", story=story, anchor=off, focus=off),
               j("type.para", attrs={"spanColumns": {"kind": "span", "columns": 0}}),
@@ -184,4 +211,4 @@ def main(template, docx, out_dir):
 
 
 if __name__ == "__main__":
-    main(*sys.argv[1:4])
+    main(*sys.argv[1:5])

@@ -38,9 +38,9 @@ This chapter reports what the method does in Porta and beyond. It follows the sc
 
 **Chance.** A random choice from the same palette, under the same rules, gives 91.4%. Choosing species well is worth about 15 points of summer shade over choosing them at random. City practice already captures about half of that gain.
 
-![Porta: summer shade gain per street, method vs city practice](fig/ch7_porta_gain_map.png){#fig:porta-gain-map}
+![Porta: the species chosen for the 832 plane positions, city practice (S1b, one draw) and the method (balanced layout)](fig/ch7_porta_species_map.png){#fig:porta-gain-map}
 
-@fig:porta-gain-map places the result on the map. **TO UPDATE:** per-street values from the final run.
+@fig:porta-gain-map places the two layouts on the map. **TO UPDATE:** a map of the summer shade gain per street, from the final run.
 
 ### The trade-off between the objectives {#sec:res-tradeoff}
 
@@ -165,7 +165,7 @@ The streets of Porta have room for more trees than they hold. Chapter 5 found **
 - **103 conditional:** a sign, a crossing, a lamp, a bollard or a bus stop is within clearance, which a street project could move;
 - **11 blocked:** a traffic light or a driveway.
 
-![Porta: the 267 candidate spots by class, with the object that blocks each conditional and blocked spot](fig/ch7_spots_map.png){#fig:spots-map}
+![Porta: the 153 free and 103 conditional planting spots among the street trees of today and the 832 planes](fig/ch7_spots_map.png){#fig:spots-map}
 
 **TO UPDATE.** The runs that fill the free spots (A) and combine replacement with additions (R+A) were made with the city's seven-species palette, before the crown fix. They are not yet rerun with the final palette and crowns. The earlier run already showed the direction: in R+A, the method's layout gave about 9% more summer shade than the announced mix on the same 985 positions. The final numbers go here.
 
