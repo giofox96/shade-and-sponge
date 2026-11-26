@@ -223,12 +223,13 @@ def n_contribution(s):
 
 def n_context_maps(s):
     head(s, "Context: replacing trees one at a time", "Barcelona, three numbers on the map")
-    for k, (big, small, what, c) in enumerate((("10,976", "trees replaced, 2018–2026", "every replaced street tree in Barcelona", WARN),
-                                              ("15%", "max per species; no rule on where", "all Barcelona planes (to decide)", TREE),
-                                              ("20.1%", "Porta's canopy; city target 30%", "Porta canopy today (to decide)", HEAT))):
+    for k, (big, small, name, c) in enumerate((("10,976", "street trees replaced, 2018–2026, one dot each", "context_replaced", WARN),
+                                              ("15%", "max per species; planes are 29% of street trees, above 15% in 46 of 73 barris (outlined)",
+                                               "context_planes", TREE),
+                                              ("20.1%", "Porta's canopy today; city target 30%", "context_canopy", HEAT))):
         x = M + k * 4.13
-        rhino(s, x, 1.45, 3.93, 3.9, what, "MAP")
-        text(s, x, 5.45, 3.93, 1.0, [[(big, {"bold": True, "color": c, "size": 30})], small], 14, INK)
+        pic_h(s, name, x, 1.4, 3.9, 3.93)
+        text(s, x, 5.4, 3.93, 1.1, [[(big, {"bold": True, "color": c, "size": 30})], small], 13, INK)
     source(s, "Open Data BCN, arbrat viari 2018–2026; Ajuntament de Barcelona, Pla director de l'arbrat 2017–2037; ICGC, LiDAR 2021.")
 
 

@@ -164,3 +164,35 @@ a.legend(loc="center left", bbox_to_anchor=(1.0, 0.5), frameon=False, fontsize=1
 a.set_xlim(ext[0], ext[1]); a.set_ylim(ext[2], ext[3]); a.set_aspect("equal"); a.set_axis_off()
 fig.savefig(OUT / "porta_water.png", dpi=250, bbox_inches="tight", facecolor=BG)
 print("wrote porta_water")
+
+# 6. context: three Barcelona numbers on maps (replacements 2018-2026; plane share vs the 15% cap; Porta canopy today)
+rep = pd.read_csv("databases/barcelona/inventory_replacements.csv", usecols=["x", "y"])
+gb = gpd.read_file("web/public/data/barris.geojson").to_crs(25831)
+gb["share"] = 100 * gb.planes / gb.street_trees
+porta_g = gb[gb.name == "Porta"]
+for kind in ("replaced", "planes", "canopy"):
+    fig, a = plt.subplots(figsize=(4, 4), facecolor=BG)
+    if kind == "replaced":
+        gb.plot(ax=a, color="#E2DED5", edgecolor=BG, linewidth=0.4)
+        a.scatter(rep.x, rep.y, s=0.4, color=WARN, linewidths=0, alpha=0.7)
+    elif kind == "planes":
+        gb.plot(ax=a, column="share", cmap=ramp(TREE), edgecolor=BG, linewidth=0.4, vmin=0, vmax=50)
+        gb[gb.share > 15].boundary.plot(ax=a, color=INK, linewidth=0.5)
+    else:
+        gb.plot(ax=a, color="#E2DED5", edgecolor=BG, linewidth=0.4)
+        porta_g.plot(ax=a, color=TREE)
+        ins = a.inset_axes([0.42, 0.0, 0.58, 0.58])
+        bld.plot(ax=ins, color="#E2DED5", linewidth=0)
+        cimg = np.zeros((gr["H"], gr["W"], 4))
+        cimg[C["C"]] = to_rgba(TREE, 0.9)
+        ins.imshow(cimg, extent=ext, interpolation="nearest")
+        porta_g.boundary.plot(ax=ins, color=INK, linewidth=0.6, linestyle="--")
+        ins.set_xlim(ext[0], ext[1]); ins.set_ylim(ext[2], ext[3]); ins.set_aspect("equal")
+        ins.set_xticks([]); ins.set_yticks([]); ins.set_xlabel(""); ins.set_ylabel("")
+        for sp_ in ins.spines.values():
+            sp_.set_color(MUTED); sp_.set_linewidth(0.6)
+    a.set_aspect("equal"); a.set_axis_off()
+    fig.savefig(OUT / f"context_{kind}.png", dpi=250, bbox_inches="tight", facecolor=BG)
+    plt.close(fig)
+print("wrote context maps; barris with planes > 15% of street trees:", int((gb.share > 15).sum()), "of", len(gb),
+      "; city plane share", round(100 * gb.planes.sum() / gb.street_trees.sum(), 1))
