@@ -382,38 +382,46 @@ def n_mataro(s):
 
 
 def n_cost(s):
-    head(s, "Cost and feasibility", "The method changes the species, not the number of works")
-    rows = [("refresh-ccw", "Replace: up to 500 € per tree", "fell, remove the stump, plant a 16–18 cm tree", HEAT),
-            ("move", "Move: 500 to 2,900 € per tree", "tree spade, root ball 90 to 300 cm", WARN),
-            ("ruler", "Widen a pit, 1 → 1.5 m²: about 100 €", "demolish paving, new pit border", TREE)]
-    for k, (ic, b, t, c) in enumerate(rows):
-        y = 1.6 + k * 1.2
-        ico(s, ic, c, M + 0.05, y + 0.1, 0.5)
-        text(s, M + 0.8, y, 5.4, 1.1, [[(b, {"bold": True, "color": c, "size": 18})], t], 14, INK)
-    text(s, M, 5.3, 5.9, 0.9, "Same trees replaced in both cases: same works, same cost.", 16, INK, True)
-    text(s, 6.9, 1.55, 5.9, 0.5, "Candidate sidewalk spots in Porta (267)", 18, INK, True)
-    for k, (n, t, c) in enumerate((("153", "free", TREE), ("103", "conditional: a field check", WARN), ("11", "blocked", HEAT))):
-        y = 2.2 + k * 1.15
-        box(s, 6.9, y, 5.9, 1.0, tint(c, 0.12))
-        text(s, 7.2, y, 5.4, 1.0, [[(n + "  ", {"bold": True, "color": c, "size": 30}), (t, {})]], 16, INK, anchor=MSO_ANCHOR.MIDDLE)
-    text(s, 6.9, 5.75, 5.9, 0.5, "Underground services: real plans used privately, a synthetic layer in the public tool.", 13, MUTED)
-    source(s, "Diputació de Barcelona, Catàleg 2024–2027; CYPE, Generador de precios; " + BCN)
+    head(s, "Cost of each action", "Direct cost per tree; the method changes the species, not the number of works")
+    rows = [("circle-check", "Keep", 44, 44, "~44 €", TREE), ("circle-plus", "Add", 260, 260, "~260 €", TREE),
+            ("refresh-ccw", "Replace", 190, 1070, "190–1,070 €", HEAT), ("move", "Move a young tree", 700, 3060, "700–3,060 €", WARN)]
+    x0, x1, vmax = M + 3.4, W - M - 1.9, 3200
+    px = lambda v: x0 + (x1 - x0) * v / vmax
+    for k, (ic, lab, lo, hi, txt, c) in enumerate(rows):
+        y = 1.6 + k * 0.85
+        ico(s, ic, c, M, y + 0.05, 0.42)
+        text(s, M + 0.6, y, 2.7, 0.55, lab, 17, c, True, anchor=MSO_ANCHOR.MIDDLE)
+        box(s, x0, y + 0.24, x1 - x0, 0.06, "#DCD8CE", radius=0)
+        box(s, px(lo) - 0.06, y + 0.12, max(px(hi) - px(lo), 0) + 0.12, 0.3, c, radius=0.5)
+        text(s, px(hi) + 0.15, y, 1.9, 0.55, txt, 15, INK, True, anchor=MSO_ANCHOR.MIDDLE)
+    y = 1.6 + 4 * 0.85
+    ico(s, "circle-x", MUTED, M, y + 0.05, 0.42)
+    text(s, M + 0.6, y, W - 2 * M - 0.6, 0.55, [[("Move a mature plane: ", {"bold": True, "color": MUTED}), ("no published price", {})]], 15, INK,
+         anchor=MSO_ANCHOR.MIDDLE)
+    text(s, M, 5.85, W - 2 * M, 0.7, [[("Same trees replaced as the city: same works, same cost. ", {"bold": True}),
+         ("Not yet priced: four years of watering, moving a lamp.", {"color": MUTED})]], 15, INK)
+    source(s, "CYPE, Generador de precios; Diputació de Barcelona, Catàleg 2024–2027 (500 € subsidy cap per replacement); Ajuntament d'Arenys de Mar.")
 
 
 def n_impact(s):
-    head(s, "What 10 M€ would change", "A rough scale-up of the back-test, at replacement cost")
-    for k, (big, small, c) in enumerate((("≈ 20,000", "replacements at up to 500 € each", HEAT),
-                                         ("≈ 15 years", "of the city's replacements with a change of species (~1,300 a year)", RAIN),
-                                         ("1.7 ×", "the new summer shade per tree, method vs city (back-test median)", TREE))):
-        x = M + k * 4.13
-        box(s, x, 1.6, 3.93, 2.6, tint(c, 0.10))
-        text(s, x + 0.3, 1.6, 3.4, 2.6, [[(big, {"bold": True, "color": c, "size": 38})], small], 15, INK, anchor=MSO_ANCHOR.MIDDLE)
-    box(s, M, 4.5, W - 2 * M, 1.5, tint(TREE, 0.08))
-    text(s, M + 0.5, 4.5, W - 2 * M - 1.0, 1.5,
-         [[("Same money, same works: ", {"bold": True}),
-           ("the gain comes only from choosing the species, with runoff no worse. Felt temperature and growth over time still to be added.", {})]],
-         17, INK, anchor=MSO_ANCHOR.MIDDLE)
-    source(s, "Diputació de Barcelona, Catàleg 2024–2027; Open Data BCN, arbrat viari 2018–2026.")
+    head(s, "What a budget buys", "Real projects, and what the same money does with the method")
+    text(s, M, 1.5, 5.6, 0.45, "Street projects the city approved (incl. VAT)", 16, INK, True)
+    for k, (name, v) in enumerate((("Santapau", 1.10), ("Desfar", 0.56), ("Santapau + Emili Roca + Desfar", 2.3))):
+        y = 2.05 + k * 0.75
+        text(s, M, y, 3.0, 0.55, name, 14, INK, anchor=MSO_ANCHOR.MIDDLE)
+        box(s, M + 3.0, y + 0.12, 2.4 * v / 2.3, 0.32, RAIN, radius=0)
+        text(s, M + 3.1 + 2.4 * v / 2.3, y, 1.2, 0.55, f"{v:.2f} M€".replace(".30", ".3"), 14, RAIN, True, anchor=MSO_ANCHOR.MIDDLE)
+    x = 7.0
+    for k, (big, small, c) in enumerate((("≈ 1,950 m²", "more shaded ground on summer afternoons in Porta, if the 513 planes the city plans to change followed the method: same cost, same diversity", TREE),
+                                         ("≈ 9,300", "replacements with 10 M€ at ~1,070 € each, as many as the city made in 2018–2026", HEAT),
+                                         ("≈ 3.5 ha", "more shade for the same 10 M€, at Porta's gain per tree (extrapolation)", TREE))):
+        y = 1.5 + k * 1.55
+        box(s, x, y, W - M - x, 1.4, tint(c, 0.10))
+        text(s, x + 0.25, y, W - M - x - 0.4, 1.4, [[(big, {"bold": True, "color": c, "size": 24})], [(small, {"size": 12})]], 12, INK,
+             anchor=MSO_ANCHOR.MIDDLE)
+    text(s, M, 4.6, 5.9, 1.3, [[("Extra cost per m² of shade gained: ", {"bold": True}), ("≈ 0. ", {"bold": True, "color": TREE}),
+         ("The gain comes from the choice of species; shade, not yet felt temperature.", {})]], 15, INK)
+    source(s, "Butlletí Oficial de la Província de Barcelona (project approvals, 2025); BIMSA; CYPE; Diputació de Barcelona; Open Data BCN, arbrat viari.")
 
 
 def n_limits(s):
@@ -455,8 +463,8 @@ SLIDES = [
     (n_effective, "To count diversity I use the effective number of species: how many equally common species a mix is worth. Ten species in equal shares are worth ten; ten species with one at ninety percent are worth fewer than two."),
     (n_diversity,"Diversity is cheap: matching the city's announced mix costs less than half a point of shade, and even at twenty effective species the method stays above the city's practice."),
     (n_mataro, "Does it travel? In Mataró, replacing every plane on six streets, the method keeps 83% of the planes' shade against 63% for the city's practice, and wins all six streets. Florence follows."),
-    (n_cost, "The method replaces the same trees as the city, so the works and the cost are the same: up to 500 euros per replaced tree. Of 267 candidate spots in Porta, 153 are free and 103 need a field check."),
-    (n_impact, "With 10 million euros the city could replace about 20,000 trees, around fifteen years of its replacements. Chosen with the method, each new tree gives 1.7 times the shade, for the same money."),
+    (n_cost, "Each action has a price: keeping a tree about 44 euros, adding one about 260, replacing one 190 to 1,070, moving a young tree 700 to 3,000. The method replaces the same trees as the city, so the works and the cost are the same."),
+    (n_impact, "Real projects cost one to two million euros. If the 513 planes the city plans to change in Porta followed the method, about 1,950 square metres more ground would be shaded on summer afternoons, for the same money. With ten million euros, about 9,300 replacements, the same order as the city made in eight years, and about three and a half hectares more shade."),
     (n_stakeholders,"The city sets the rules and the species list; the street designer, city staff or a firm, uses the tool and gets a layout and a report; the city approves the proposal, and the neighbours get the shade."),
     (n_contribution, "What the results say: in Porta the gain comes from the species alone; at the city's own diversity the method still gains; it holds in 23 of 26 real replacements and in Mataró; runoff does not move, so it stays a do-no-harm check."),
     (n_limits, "These are the limits: new trees at today's size, heat as shade checked with felt temperature, one interception rate, runoff that barely moves, free spots as an upper bound, and the cap on street trees only."),
