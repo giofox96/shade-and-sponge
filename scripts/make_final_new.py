@@ -295,6 +295,28 @@ SLIDES = [
 ]
 
 
+def divider(s, title):
+    """Chapter divider: one word on a plain page, so the audience knows where the story is."""
+    text(s, M, 2.9, W - 2 * M, 1.2, title, 44, TREE, True, name="Title")
+
+
+# Narrative order (26 Nov). Tags: NEW N1-N14 = SLIDES above; OLD M1-M15 = midterm; OLD B1-B9 = midterm backup.
+# The appendix holds slides that a new slide replaces or that repeat another: to delete after Giovanni's review.
+ORDER = ["OLD M1", "OLD M2", "OLD M3",                                      # 1 why: Barcelona replaces trees, Porta
+         "§The gap", "OLD M4",
+         "§The question", "NEW N1", "OLD M6", "NEW N12",                    # question, what is fixed/free, who decides
+         "§The method", "OLD M7", "OLD M8", "OLD M9", "OLD M10",            # overview, screening, rules, spots
+         "NEW N2", "OLD M11", "OLD M12", "OLD B4",                          # heat, runoff (bucket, hill), HiGHS
+         "NEW N3", "OLD M13",                                               # scenarios, city practice
+         "§Results", "NEW N4", "NEW N5", "NEW N6", "OLD B8",                # Porta, city plan, back-test, Rio de Janeiro
+         "NEW N7", "NEW N8",                                                # diversity explained, its cost
+         "OLD B5", "NEW N9",                                                # Mataró: why, result
+         "§In practice", "NEW N10", "NEW N11", "OLD B1",                    # cost, 10 M€, the tool
+         "§Conclusions", "NEW N13", "NEW N14", "OLD M15",                   # contribution, limits, next/thanks
+         "§Appendix: replaced or repeated",
+         "OLD M5", "OLD M14", "OLD B2", "OLD B3", "OLD B6", "OLD B7", "OLD B9"]
+
+
 def build():
     OUT.mkdir(exist_ok=True)
     prs = Presentation()
@@ -305,13 +327,23 @@ def build():
     says = re.findall(r'^\*\*Say \(\d+ words\):\*\* "(.+)"$', md, re.M)
     old = [(fn, f"OLD M{k + 1}", n) for k, (fn, n) in enumerate(zip(MT.SLIDES, says))]
     old += [(fn, f"OLD B{k + 1}", n) for k, (fn, n) in enumerate(MT.BACKUP)]
-    for fn, note, tag in [(f, n, None) for f, n in SLIDES] + [(f, n, t) for f, t, n in old]:
+    pool = {f"NEW N{k + 1}": (f, n) for k, (f, n) in enumerate(SLIDES)}
+    pool.update({t: (f, n) for f, t, n in old})
+    seq = []
+    for item in ORDER:
+        if item.startswith("§"):
+            seq.append((lambda s, t=item[1:]: divider(s, t), "", None))
+        else:
+            f, n = pool.pop(item)
+            seq.append((f, n, item))
+    assert not pool, pool
+    for fn, note, tag in seq:
         s = prs.slides.add_slide(prs.slide_layouts[6])
         s.background.fill.solid()
         s.background.fill.fore_color.rgb = rgb(BG)
         fn(s)
         if tag:
-            old_tag(s, tag)
+            old_tag(s, tag.replace("NEW ", "").replace("OLD ", "OLD "))
         for shp in s.shapes:
             if shp.name in ("Mono", "Sources"):
                 for p in shp.text_frame.paragraphs:
