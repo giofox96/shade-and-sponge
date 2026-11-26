@@ -80,7 +80,8 @@ def n_question(s):
           ("SQ3", "Trade-off: do heat and runoff want different species?", WARN), ("SQ4", "How much of the canopy gap can new trees close?", TREE)]
     for k, (tag, t, c) in enumerate(sq):
         x = M + k * 3.1
-        text(s, x, 3.3, 2.9, 1.3, [[(tag, {"bold": True, "color": c, "size": 18})], t], 14, INK)
+        box(s, x, 3.3, 2.95, 1.25, tint(c, 0.08))
+        text(s, x + 0.2, 3.3, 2.6, 1.25, [[(tag, {"bold": True, "color": c, "size": 18})], t], 14, INK, anchor=MSO_ANCHOR.MIDDLE)
     text(s, M, 6.35, W - 2 * M, 0.4, "Boundary: extreme storms on saturated soil are outside what street trees can change.", 14, MUTED)
 
 
