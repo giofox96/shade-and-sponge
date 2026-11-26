@@ -64,13 +64,13 @@ def n_question(s):
     for k, (tag, t, c) in enumerate((("H1", "No worse than the city's practice on heat or runoff, better on summer shade, and no more winter shade than today", HEAT),
                                      ("H2", "The heat-best and the runoff-best layouts use different species", RAIN))):
         x = M + k * 6.2
-        box(s, x, 3.35, 5.9, 1.4, tint(c, 0.12))
-        text(s, x + 0.3, 3.35, 5.4, 1.4, [[(tag + "  ", {"bold": True, "color": c, "size": 30}), (t, {})]], 17, INK, anchor=MSO_ANCHOR.MIDDLE)
+        box(s, x, 4.75, 5.9, 1.4, tint(c, 0.12))
+        text(s, x + 0.3, 4.75, 5.4, 1.4, [[(tag + "  ", {"bold": True, "color": c, "size": 30}), (t, {})]], 17, INK, anchor=MSO_ANCHOR.MIDDLE)
     sq = [("SQ1", "Heat: felt temperature, 12–17 h on a hot day", HEAT), ("SQ2", "Runoff: 2-year, 60-min storm, total and at flood spots", RAIN),
           ("SQ3", "Trade-off: do heat and runoff want different species?", WARN), ("SQ4", "How much of the canopy gap can new trees close?", TREE)]
     for k, (tag, t, c) in enumerate(sq):
         x = M + k * 3.1
-        text(s, x, 5.0, 2.9, 1.3, [[(tag, {"bold": True, "color": c, "size": 18})], t], 14, INK)
+        text(s, x, 3.3, 2.9, 1.3, [[(tag, {"bold": True, "color": c, "size": 18})], t], 14, INK)
     text(s, M, 6.35, W - 2 * M, 0.4, "Boundary: extreme storms on saturated soil are outside what street trees can change.", 14, MUTED)
 
 
