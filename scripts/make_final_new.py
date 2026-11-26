@@ -191,6 +191,30 @@ def n_contribution(s):
     source(s, "Dong et al. 2026; Mannucci et al. 2025; Nicol et al. 2026 (SylvCiT); full list in the thesis.")
 
 
+def n_effective(s):
+    """Effective number of species = exp(Shannon); worked examples computed by hand (10 equal -> 10.0; 90% + 9 x 1.1% -> 1.7)."""
+    head(s, "How we count diversity", "Effective number of species: how many equally common species the mix is worth")
+    for k, (shares, lab, eff, c) in enumerate((([0.1] * 10, "10 species, equal shares", "10", TREE),
+                                              ([0.9] + [0.1 / 9] * 9, "10 species, one at 90%", "1.7", HEAT))):
+        y = 1.75 + k * 1.9
+        x = M
+        for p in shares:
+            w = 8.0 * p
+            box(s, x, y, max(w - 0.04, 0.03), 0.9, TREE if p < 0.5 else HEAT, radius=0)
+            x += w
+        text(s, M, y + 1.0, 8.0, 0.4, lab, 15, INK)
+        text(s, 9.0, y, 3.8, 0.9, [[(eff, {"bold": True, "color": c, "size": 40}), ("  effective species", {})]], 16, INK, anchor=MSO_ANCHOR.MIDDLE)
+    text(s, M, 5.6, W - 2 * M, 0.8, [[("The city: ", {"bold": True}), ("9.4 in its announced mix, 15.6 in what it really planted.", {})]], 17, INK)
+    source(s, "Nicol et al. 2026 (SylvCiT); Jost 2006 (effective number of species).")
+
+
+def old_tag(s, label):
+    """Small grey tag on the kept midterm slides, for the one-by-one review; delete once decided."""
+    b = box(s, W - 2.3, 0.1, 2.0, 0.32, "#A8A293", radius=0.3, name="REVIEW tag")
+    text(s, W - 2.3, 0.1, 2.0, 0.32, label, 11, BG, True, align=PP_ALIGN.CENTER, anchor=MSO_ANCHOR.MIDDLE)
+    return b
+
+
 def n_mataro(s):
     """Transfer test, first run (PR #150): crowns = Barcelona medians, Mataró LiDAR crowns not yet in."""
     head(s, "Transfer: Mataró", "Six plane streets, every plane replaced: summer shade of the new trees, method vs city practice")
@@ -260,7 +284,8 @@ SLIDES = [
     (n_porta, "In Porta, replacing the 832 planes, the city's practice keeps about 99% of today's summer shade; the method gives 107%, and with the city's diversity still 106%. In winter the method lets more sun through. Runoff stays the same."),
     (n_cityplan, "The city has a per-tree plan for 513 Porta planes. At the same diversity, the method gives 101% of today's summer shade against the plan's 98%, with more winter sun and equal runoff."),
     (n_backtest, "I went back to 26 places where the city really replaced a group of trees. With the same positions, the method gives more shade in 23 of them, 1.7 times the shade per tree, and never more runoff."),
-    (n_diversity, "Diversity is cheap: matching the city's announced mix costs less than half a point of shade, and even at twenty effective species the method stays above the city's practice."),
+    (n_effective, "To count diversity I use the effective number of species: how many equally common species a mix is worth. Ten species in equal shares are worth ten; ten species with one at ninety percent are worth fewer than two."),
+    (n_diversity,"Diversity is cheap: matching the city's announced mix costs less than half a point of shade, and even at twenty effective species the method stays above the city's practice."),
     (n_mataro, "Does it travel? In Mataró, replacing every plane on six streets, the method keeps 83% of the planes' shade against 63% for the city's practice, and wins all six streets. Florence follows."),
     (n_cost, "The method replaces the same trees as the city, so the works and the cost are the same: up to 500 euros per replaced tree. Of 267 candidate spots in Porta, 153 are free and 103 need a field check."),
     (n_impact, "With 10 million euros the city could replace about 20,000 trees, around fifteen years of its replacements. Chosen with the method, each new tree gives 1.7 times the shade, for the same money."),
@@ -274,11 +299,19 @@ def build():
     OUT.mkdir(exist_ok=True)
     prs = Presentation()
     prs.slide_width, prs.slide_height = Inches(W), Inches(H)
-    for fn, note in SLIDES:
+    import make_midterm_pechakucha as MT
+    import re
+    md = (ROOT / "slides/midterm/script.md").read_text(encoding="utf-8")
+    says = re.findall(r'^\*\*Say \(\d+ words\):\*\* "(.+)"$', md, re.M)
+    old = [(fn, f"OLD M{k + 1}", n) for k, (fn, n) in enumerate(zip(MT.SLIDES, says))]
+    old += [(fn, f"OLD B{k + 1}", n) for k, (fn, n) in enumerate(MT.BACKUP)]
+    for fn, note, tag in [(f, n, None) for f, n in SLIDES] + [(f, n, t) for f, t, n in old]:
         s = prs.slides.add_slide(prs.slide_layouts[6])
         s.background.fill.solid()
         s.background.fill.fore_color.rgb = rgb(BG)
         fn(s)
+        if tag:
+            old_tag(s, tag)
         for shp in s.shapes:
             if shp.name in ("Mono", "Sources"):
                 for p in shp.text_frame.paragraphs:
@@ -288,7 +321,7 @@ def build():
         s.notes_slide.notes_text_frame.text = note
     out = OUT / "shade_and_sponge_final_new.pptx"
     prs.save(out)
-    print("wrote", out.relative_to(ROOT), f"({len(SLIDES)} slides)")
+    print("wrote", out.relative_to(ROOT), f"({len(prs.slides)} slides)")
 
 
 if __name__ == "__main__":
