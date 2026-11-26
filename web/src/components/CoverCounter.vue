@@ -32,7 +32,7 @@ const width = (v) => `${Math.max(0, Math.min(100, (100 * v) / c.value.target_pct
     </p>
     <p v-if="c.additions" class="muted small">
       For scale: planting all {{ c.additions.spots }} free street spots (an upper bound), with the optimised species, adds
-      {{ sign(c.additions.opt_pts) }} pts ({{ sign(c.additions.city_pts) }} with the city's mix).
+      {{ sign(c.additions.opt_pts) }} pts ({{ sign(c.additions.city_pts) }} with the city's announced mix).
     </p>
     <p class="muted small note">Today = LiDAR canopy over 2 m (2021). Changes come from the crown discs<template v-if="c.approx">,
       summed without overlaps (an estimate that runs high where new crowns overlap existing ones)</template>.

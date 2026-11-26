@@ -175,21 +175,23 @@ export function label(s) {
     const n = s.idx.length + (s.all ? s.keptIdx.length : 0)
     return `Project area, ${n} ${s.all ? 'trees' : 'planes'} replaced: summer ${a}, winter ${b}, runoff ${c}`
   }
-  if (s.id.startsWith('S1a')) return `City practice (2026 mix) #${s.id.split('_').pop()}`
+  if (s.id.startsWith('S1b')) return `City practice (observed) #${s.id.split('_').pop()}`
+  if (s.id.startsWith('S1a')) return `City announced mix (2026) #${s.id.split('_').pop()}`
   if (s.id.startsWith('S1')) return `Random palette #${s.id.split('_').pop()}`
   const [a, b, c] = s.weights.map((w) => +w.toFixed(2))
   return `${s.id === LIVE ? 'Live estimate' : 'Optimised'}: summer ${a}, winter ${b}, runoff ${c}`
 }
 
-// Mean of the 10 city-practice layouts (S1a, the 2026 mix within the sizing rule): the thesis baseline
+// Mean of the 10 city-practice layouts (S1b, the mix the city actually planted in place of planes 2018–2026, within the sizing
+// rule): the thesis baseline. S1a (the announced 2026 mix) is shown as "City announced mix"
 export const cityMean = computed(() => {
-  const r = state.meta?.scenarios.filter((s) => s.group === 'S1a') ?? []
+  const r = state.meta?.scenarios.filter((s) => s.group === 'S1b') ?? []
   if (!r.length) return null
   const keys = Object.keys(r[0].metrics)
   return Object.fromEntries(keys.map((k) => [k, r.reduce((a, s) => a + s.metrics[k], 0) / r.length]))
 })
 
-// "vs city practice" reference: the whole-site S1a mean, or the city practice inside the project area (estimate)
+// "vs city practice" reference: the whole-site S1b mean, or the city practice inside the project area (estimate)
 export const baseline = computed(() => (state.scenarioId === AREA && state.area?.city ? state.area.city.metrics : cityMean.value))
 
 // Calibration of live estimates: exact metric (full raster model) vs summed single-tree potentials, over the saved
@@ -492,12 +494,15 @@ function keptAfter(rows) {
   return kept
 }
 
-// City practice on the rows: the expected value of the S1a draw (2026 mix weights among the fitting mix species; any
-// fitting species if none of the mix fits), with capped species scaled down to their room, as the exact S1a draws
+// City practice on the rows: the expected value of an S1b-like draw (mix weights among the fitting mix species; any fitting
+// species if none of the mix fits), with capped species scaled down to their room, as the exact draws. Weights = the species
+// counts summed over the site's 10 S1b layouts (the observed mix as the palette and the sizing rule let it land; an
+// approximation of layout.s1b_mix); S1a's announced mix if the data has no S1b
 function areaCity(rows) {
   const pot = state.pot
   const cap = caps({ ...pot, kept: keptAfter(rows) }, state.share, state.exclude)
-  let w = pot.species.map((s) => state.meta.s1a_mix?.[s] ?? 0)
+  const s1b = state.meta.scenarios.filter((s) => s.group === 'S1b')
+  let w = pot.species.map((s) => (s1b.length ? s1b.reduce((a, x) => a + (x.counts?.[s] ?? 0), 0) : state.meta.s1a_mix?.[s] ?? 0))
   const probs = () => rows.map((r) => {
     let ww = pot.species.map((_, j) => (r.fit[j] ? w[j] : 0))
     if (!ww.some((v) => v > 0)) ww = pot.species.map((_, j) => r.fit[j])
@@ -809,12 +814,12 @@ export const themeColors = computed(() => (isDark.value
   ? { text: '#F2F0EA', muted: '#B3BAB9', grid: '#333A33', plane: '#E4DFD3', other: '#5E5B54', kept: [150, 150, 140, 150], park: [110, 140, 105, 140],
       building: [64, 70, 64, 235], buildingLine: [40, 44, 40], facade: [120, 120, 115, 170], kerb: [170, 176, 184, 150],
       ring: [242, 240, 234], ringOn: [157, 180, 222], area: [157, 180, 222], draft: [217, 184, 102],
-      random: '#7A776E', city: '#D9B866', optimised: '#9DB4DE', current: '#E4DFD3', on: '#F2F0EA',
+      random: '#7A776E', city: '#D9B866', announced: '#8F8460', optimised: '#9DB4DE', current: '#E4DFD3', on: '#F2F0EA',
       ground: [44, 48, 44], basemap: 'https://basemaps.cartocdn.com/gl/dark-matter-gl-style/style.json' }
   : { text: '#2A2622', muted: '#665E4F', grid: '#DCD8CE', plane: '#3A3630', other: '#C9C4B8', kept: [150, 155, 135, 150], park: [120, 150, 110, 140],
       building: [222, 218, 208, 235], buildingLine: [180, 176, 166], facade: [195, 195, 190, 210], kerb: [110, 116, 128, 210],
       ring: [255, 255, 255], ringOn: [40, 63, 102], area: [40, 63, 102], draft: [140, 106, 36],
-      random: '#B4AE9F', city: '#8C6A24', optimised: '#5D7BAA', current: '#2A2622', on: '#283F66',
+      random: '#B4AE9F', city: '#8C6A24', announced: '#CDB98A', optimised: '#5D7BAA', current: '#2A2622', on: '#283F66',
       ground: [236, 233, 225], basemap: 'https://tiles.openfreemap.org/styles/positron' }))
 // Orthophoto of Catalonia, ICGC base-map service (CC BY 4.0)
 export const ORTO = 'https://geoserveis.icgc.cat/servei/catalunya/mapa-base/wmts/orto/MON3857NW/{z}/{x}/{y}.png'
