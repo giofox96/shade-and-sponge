@@ -19,6 +19,7 @@ import sys, matplotlib.pyplot as plt
 from rasterio.transform import from_origin
 from rasterio.features import rasterize
 from scipy import ndimage
+from scipy.spatial import cKDTree
 from skimage.segmentation import watershed
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
@@ -104,10 +105,21 @@ has = lab > 0
 far[has] = np.hypot(rr.ravel()[has] - tr[lab[has] - 1], cc.ravel()[has] - tc[lab[has] - 1]) * RES > 9.0
 crowns.ravel()[far] = 0
 crowns[~canopy] = 0
+# ASSUMPTION (user, 23 Nov, "split the crown at halfway"): a crown may not extend past halfway to the next seed.
+# Every crown cell goes to its nearest seed (Voronoi split of the canopy), so a tree squeezed by a neighbour's
+# watershed gets its half of the shared canopy back (zeroing the contested cells did not fix that). A cell keeps
+# within 9 m of its new seed, which is nearer than the old one.
+lab = crowns.ravel()
+has = np.flatnonzero(lab > 0)
+_, near = cKDTree(np.c_[tr, tc]).query(np.c_[rr.ravel()[has], cc.ravel()[has]])
+crowns.ravel()[has] = near + 1
 
 ids = np.arange(1, len(t) + 1)
 area = ndimage.sum(np.ones_like(chm), crowns, ids) * RES ** 2
-hmax = ndimage.maximum(chm, crowns, ids)
+# ASSUMPTION (user, 23 Nov): height = max of the canopy model within 1.5 m of the tree's own point, so a tall
+# neighbour's crown inside this tree's segment no longer sets its height
+disk = np.hypot(*np.mgrid[-3:4, -3:4]) * RES <= 1.5
+hmax = ndimage.maximum_filter(chm, footprint=disk)[tr, tc]
 hmax = np.where(area > 0, hmax, np.nan)
 # per-crown point statistics: crown base (10th pct of vegetation heights > 1.5 m) and gap fraction
 pid = crowns.ravel()[idx]

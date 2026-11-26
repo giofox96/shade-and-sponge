@@ -18,6 +18,7 @@ from rasterio.features import rasterize, shapes
 from shapely.geometry import shape
 import geopandas as gpd
 from scipy import ndimage
+from scipy.spatial import cKDTree
 from skimage.segmentation import watershed
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
@@ -126,9 +127,17 @@ else:
     far[has] = np.hypot(rr.ravel()[has] - tr[lab[has] - 1], cc.ravel()[has] - tc[lab[has] - 1]) * RES > 9.0
     crowns.ravel()[far] = 0
     crowns[~canopy] = 0
+    # as scripts/bcn_lidar_porta.py (ASSUMPTION, user 23 Nov, "split the crown at halfway"): every crown cell goes to its
+    # nearest seed (Voronoi split of the canopy), so a tree squeezed by a neighbour's watershed gets its half back
+    lab = crowns.ravel()
+    has = np.flatnonzero(lab > 0)
+    _, near = cKDTree(np.c_[tr, tc]).query(np.c_[rr.ravel()[has], cc.ravel()[has]])
+    crowns.ravel()[has] = near + 1
     ids = np.arange(1, len(t) + 1)
     area = ndimage.sum(np.ones_like(chm), crowns, ids) * RES ** 2
-    hmax = np.where(area > 0, ndimage.maximum(chm, crowns, ids), np.nan)
+    # as bcn_lidar_porta.py (ASSUMPTION, user 23 Nov): height = CHM max within 1.5 m of the tree's own point
+    disk = np.hypot(*np.mgrid[-3:4, -3:4]) * RES <= 1.5
+    hmax = np.where(area > 0, ndimage.maximum_filter(chm, footprint=disk)[tr, tc], np.nan)
     pid = crowns.ravel()[idx]
     sel = pid > 0
     P = pd.DataFrame({"id": pid[sel], "h": (z - dtm.ravel()[idx])[sel], "veg": np.isin(c[sel], VEG),

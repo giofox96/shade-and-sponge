@@ -11,6 +11,8 @@ S1b (the mix the city actually planted in place of planes 2018–2026, layout.s1
 --replace: which trees leave their position (layout.removed): a CSV with tree_id and optionally action = keep | transplant |
 replace, any species, trees not listed are kept; "all" = every street tree (worst case); default = every plane. S1a and S1b
 stay the city's plane-replacement mixes, used here as its practice for any tree (ASSUMPTION).
+--plan=FILE: S1c, the city's own per-tree plan (CSV tree_id, species; layout.plan_layout). Its trees are the decision set
+(as --replace), every other layout is computed on the same positions.
 --s1b-only: compute only S1b and replace its rows in an existing summary file (no optimisation, no Grasshopper export).
 Outputs: databases/barcelona/tool_v0_summary<tag>.csv, exchange/to_gh/{positions,layouts}_tool_v0<tag>_<YYYYMMDD>.csv"""
 import sys, json, datetime, pathlib, numpy as np, pandas as pd
@@ -29,7 +31,7 @@ trunk = opt.get("trunk")
 scen = opt.get("scenario", "R").upper()
 area = opt.get("area")
 top = int(opt["priority"]) if "priority" in opt else None
-repl = opt.get("replace")
+repl = opt.get("replace", opt.get("plan"))
 tag = ptag + (f"_div{opt['diversity']}" if min_eff else "") + (f"_size{size_rule}" if size_rule else "") + ("_keepmer" if keep_mer else "") + (f"_trunk{trunk}" if trunk else "")
 tag += (f"_sc{scen}" if scen != "R" else "") + (f"_area{pathlib.Path(area).stem}" if area else "") + (f"_prio{top}" if top else "")
 tag += f"_repl{pathlib.Path(repl).stem}" if repl else ""
@@ -96,12 +98,20 @@ if size_rule != "exact":
     print("note: S1a uses the exact sizing rule; the other layouts use", size_rule or "no sizing rule")
 layouts.update({f"S1a_city_{k}": layout.s1a_layout(pal, pal.cap.values, fit_s1a, np.random.default_rng(100 + k)) for k in range(10)})
 layouts.update(s1b)
+if "plan" in opt:                                        # S1c: the city's plan, with its own species traits (pal_c)
+    pal_c, ch_c, gone_c = layout.plan_layout(pos, pal, opt["plan"], trunk or "TERCERA")
+    print("S1c extra species:\n", pal_c.iloc[len(pal):].to_string(index=False))
 objs = {"summer": (pot["summer"], 1), "winter": (pot["winter"], -1), "runoff": (water, 1)}
 layouts.update({"S4_s{:.2f}_w{:.2f}_r{:.2f}".format(*w): ch for w, ch in layout.sweep(objs, pal.cap.values, fit, min_eff=min_eff).items()})
 rows = [dict(scenario="S0_current", **layout.evaluate(site, site.trees[site.trees.flag == "ok"], sun, lit, p))]
 for sc, ch in layouts.items():
     rows.append(dict(scenario=sc, **layout.evaluate(site, layout.apply(site, pos, pal, ch), sun, lit, p),
                      eff_species=layout.eff_species(ch, len(pal)), **{s: int((ch == j).sum()) for j, s in enumerate(pal.species)}))
+if "plan" in opt:
+    t_c = layout.apply(site, pos, pal_c, np.where(gone_c, 0, ch_c))
+    t_c = t_c[~t_c.tree_id.isin(pos.tree_id[gone_c])]
+    rows.append(dict(scenario="S1c_plan", **layout.evaluate(site, t_c, sun, lit, p), eff_species=layout.eff_species(ch_c[~gone_c], len(pal_c)),
+                     **{s: int((ch_c == j).sum()) for j, s in enumerate(pal.species)}))
 res = pd.DataFrame(rows)
 rep = res.scenario != "S0_current"                       # front among replacement layouts (S0 keeps mature planes)
 res["pareto"] = False
