@@ -515,6 +515,15 @@ def build():
     says = re.findall(r'^\*\*Say \(\d+ words\):\*\* "(.+)"$', md, re.M)
     old = [(fn, f"OLD M{k + 1}", n) for k, (fn, n) in enumerate(zip(MT.SLIDES, says))]
     old += [(fn, f"OLD B{k + 1}", n) for k, (fn, n) in enumerate(MT.BACKUP)]
+
+    def b1_postneedle(s, fn=MT.BACKUP[0][0]):
+        """OLD B1 with the tool screenshots retaken after the needle-tree fix (slides/final/fig/tool/)."""
+        keep, MT.FIG = MT.FIG, ROOT / "slides/final/fig/tool"
+        try:
+            fn(s)
+        finally:
+            MT.FIG = keep
+    old = [(b1_postneedle if t == "OLD B1" else f, t, n) for f, t, n in old]
     pool = {f"NEW N{k + 1}": (f, n) for k, (f, n) in enumerate(SLIDES)}
     pool.update({t: (f, n) for f, t, n in old})
     seq = []
