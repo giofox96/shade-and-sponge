@@ -155,7 +155,7 @@ def results_panel(s, rows, city_lab):
 
 def n_porta(s):
     head(s, "Result: Porta", "Replacing the 832 planes")
-    rhino(s, M, 1.45, 7.3, 4.9, "Porta map: streets coloured by summer shade gain, method vs city practice", "MAP")
+    pic_h(s, "porta_result_species", M, 1.45, 4.9, 7.3)
     results_panel(s, [("sun", "Summer shade", 98.9, 106.7, HEAT), ("snowflake", "Winter shade", 109, 99, RAIN)], "City practice")
     source(s, "ICGC, LiDAR 2021; Open Data BCN, arbrat viari; " + BCN)
 
@@ -320,8 +320,8 @@ def n_water(s):
 
 
 def n_practice(s):
-    head(s, "City practice, not a rule", "The baseline is what the city really planted")
-    rhino(s, M, 1.45, 8.4, 4.9, "Barcelona map: new plantings within / above the size their sidewalk allows", "MAP")
+    head(s, "City practice, not a rule", "In 26 real replacements, 1 in 5 new trees is larger than its sidewalk allows (36 of 171)")
+    pic_h(s, "city_practice_rule", M, 1.45, 4.9, 8.4)
     items = [("landmark", "City practice", "the species the city planted, 2018–2026", RAIN),
              ("scale", "Same rules for both", "sidewalk size, 15% cap", WARN),
              ("sliders-horizontal", "What each rule costs", "switch a rule off, re-optimise", TREE)]
@@ -351,7 +351,7 @@ def pie(s, x, y, w, h, vals, colors):
 def n_effective(s):
     """Effective number of species = exp(Shannon); worked examples computed by hand (10 equal -> 10.0; 90% + 9 x 1.1% -> 1.7)."""
     head(s, "How we count diversity", "Effective species: how many equally common species the mix is worth")
-    rhino(s, M, 1.45, 7.2, 4.9, "Porta map: street trees coloured by species, today vs method", "MAP")
+    pic_h(s, "porta_diversity_species", M, 1.45, 4.9, 7.2)
     shades = [tint(TREE, 0.15 + 0.085 * k) for k in range(10)]
     for k, (vals, cols, eff, lab, c) in enumerate((([1] * 10, shades, "10", "10 species, equal", TREE),
                                                    ([90] + [10 / 9] * 9, [RAIN] + shades[1:], "1.7", "10 species, one at 90%", RAIN))):

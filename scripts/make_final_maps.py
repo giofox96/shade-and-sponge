@@ -137,9 +137,8 @@ OBST = [("sign_support", "traffic sign", RAIN), ("lamp", "street lamp", WARN), (
 for kind in ("class", "obstacle"):
     fig, a = plt.subplots(figsize=(8.9, 4.9), facecolor=BG)
     bld.plot(ax=a, color="#E2DED5", linewidth=0)
-    g[g.barri == "Porta"].boundary.plot(ax=a, color=INK, linewidth=1.0, linestyle="--")
     a.scatter(kx, ky, s=2, color=GREY, linewidths=0, label="street trees today")
-    a.scatter(x, y, s=2, color=INK, linewidths=0, label="the 832 planes")
+    a.scatter(x, y, s=3, marker="x", color=INK, linewidths=0.4, label="the 832 planes")
     if kind == "class":
         for cl, lab, col in (("free", "free spot", TREE), ("conditional", "conditional spot", WARN)):
             q = sp[sp.spot_class == cl]
@@ -149,7 +148,7 @@ for kind in ("class", "obstacle"):
         for key, lab, col in OBST:
             r = q[q.reasons.str.contains(key)]
             a.scatter(r.x, r.y, s=40, color=col, edgecolor=BG, linewidths=0.6, zorder=5, label=f"{lab} ({len(r)})")
-    a.legend(loc="center left", bbox_to_anchor=(1.0, 0.5), frameon=False, fontsize=11, markerscale=1.2)
+    a.legend(loc="upper center", bbox_to_anchor=(0.5, 0.0), ncol=3, frameon=False, fontsize=10, markerscale=1.5)
     a.set_xlim(ext[0], ext[1]); a.set_ylim(ext[2], ext[3]); a.set_aspect("equal"); a.set_axis_off()
     fig.savefig(OUT / f"porta_spots_{kind}.png", dpi=250, bbox_inches="tight", facecolor=BG)
     plt.close(fig)
@@ -160,11 +159,10 @@ fig, a = plt.subplots(figsize=(8.9, 4.9), facecolor=BG)
 bld.plot(ax=a, color="#E2DED5", linewidth=0, zorder=1)
 for f, al in (("water.png", 0.9), ("hotspots.png", 0.85)):
     a.imshow(plt.imread(D + f), extent=ext, interpolation="nearest", alpha=al, zorder=2)
-g[g.barri == "Porta"].boundary.plot(ax=a, color=INK, linewidth=1.0, linestyle="--", zorder=3)
-a.scatter(x, y, s=2, color=INK, linewidths=0, zorder=4, label="the 832 planes")
+a.scatter(x, y, s=3, marker="x", color=INK, linewidths=0.4, zorder=4, label="the 832 planes")
 a.scatter([], [], s=60, marker="s", color=RAIN, label="water flow paths (upstream area)")
 a.scatter([], [], s=60, marker="s", color=HEAT, label="flood hotspots (hazard index ≥ 40)")
-a.legend(loc="center left", bbox_to_anchor=(1.0, 0.5), frameon=False, fontsize=11)
+a.legend(loc="upper center", bbox_to_anchor=(0.5, 0.0), ncol=3, frameon=False, fontsize=10, markerscale=1.5)
 a.set_xlim(ext[0], ext[1]); a.set_ylim(ext[2], ext[3]); a.set_aspect("equal"); a.set_axis_off()
 fig.savefig(OUT / "porta_water.png", dpi=250, bbox_inches="tight", facecolor=BG)
 print("wrote porta_water")
@@ -200,3 +198,68 @@ for kind in ("replaced", "planes", "canopy"):
     plt.close(fig)
 print("wrote context maps; barris with planes > 15% of street trees:", int((gb.share > 15).sum()), "of", len(gb),
       "; city plane share", round(100 * gb.planes.sum() / gb.street_trees.sum(), 1))
+
+# 7. Porta result: the 832 planes replaced, coloured by new species; city practice (one draw of S1b) vs method (balanced)
+TB = json.load(open("web/public/data/porta-barcelona/trees.json"))
+PAL = json.load(open("web/public/data/porta-barcelona/meta.json"))["palette"]
+px_, py_ = tr.transform(TB["positions"]["lon"], TB["positions"]["lat"])
+LAY = (("S1b_obs_0", "City practice", RAIN), ("S4_s0.50_w0.25_r0.25", "Method", TREE))
+names = {lid: pd.Series([PAL[i]["species"] for i in TB["layouts"][lid]]) for lid, _, _ in LAY}
+tops = []
+for lid, _, _ in LAY:
+    tops += [sp for sp in names[lid].value_counts().index[:4] if sp not in tops]
+CAT = dict(zip(tops, [TREE, RAIN, HEAT, WARN, SAGE, "#7B6A9B", "#C08A5B", "#5E8C8A"]))
+fig, axs = plt.subplots(1, 2, figsize=(7.3, 4.9), facecolor=BG)
+for a, (lid, t, tc) in zip(axs, LAY):
+    bld.plot(ax=a, color="#E2DED5", linewidth=0)
+    a.scatter(kx, ky, s=1.5, color=GREY, linewidths=0)
+    a.scatter(px_, py_, s=7, c=[CAT.get(sp, "#CFC9BC") for sp in names[lid]], linewidths=0, zorder=4)
+    a.set_title(t, fontsize=14, weight="bold", color=tc, loc="left")
+    a.set_xlim(ext[0], ext[1]); a.set_ylim(ext[2], ext[3]); a.set_aspect("equal"); a.set_axis_off()
+for sp, c in list(CAT.items()) + [("other species", "#CFC9BC")]:
+    axs[0].scatter([], [], s=40, color=c, label=sp)
+fig.legend(loc="lower center", ncol=3, frameon=False, bbox_to_anchor=(0.5, 0.06), prop={"style": "italic", "size": 9})
+fig.savefig(OUT / "porta_result_species.png", dpi=250, bbox_inches="tight", facecolor=BG)
+print("wrote porta_result_species", {lid: names[lid].value_counts().head(4).to_dict() for lid, _, _ in LAY})
+
+# 8. diversity: all Porta street trees by species, today (planes as they stand) vs after the method's replacement
+kept_sp = pd.Series(TB["kept"]["species"])
+kx2, ky2 = tr.transform(TB["kept"]["lon"], TB["kept"]["lat"])
+STATES = (("Today", ["Platanus x hispanica"] * len(px_), INK), ("Method", list(names["S4_s0.50_w0.25_r0.25"]), TREE))
+alls = pd.concat([pd.concat([kept_sp, pd.Series(v)]) for _, v, _ in STATES])
+top8 = list(alls.value_counts().index[:7])
+CAT2 = dict(zip(top8, [GREY, TREE, RAIN, HEAT, WARN, SAGE, "#7B6A9B"]))
+fig, axs = plt.subplots(1, 2, figsize=(7.2, 4.9), facecolor=BG)
+for a, (t, planes_sp, tc) in zip(axs, STATES):
+    bld.plot(ax=a, color="#E2DED5", linewidth=0)
+    a.scatter(kx2, ky2, s=4, c=[CAT2.get(sp, "#CFC9BC") for sp in kept_sp], linewidths=0)
+    a.scatter(px_, py_, s=4, c=[CAT2.get(sp, "#CFC9BC") for sp in planes_sp], linewidths=0)
+    a.set_title(t, fontsize=14, weight="bold", color=tc, loc="left")
+    a.set_xlim(ext[0], ext[1]); a.set_ylim(ext[2], ext[3]); a.set_aspect("equal"); a.set_axis_off()
+for sp, c in list(CAT2.items()) + [("other species", "#CFC9BC")]:
+    axs[0].scatter([], [], s=40, color=c, label=sp)
+fig.legend(loc="lower center", ncol=3, frameon=False, bbox_to_anchor=(0.5, 0.06), prop={"style": "italic", "size": 9})
+fig.savefig(OUT / "porta_diversity_species.png", dpi=250, bbox_inches="tight", facecolor=BG)
+print("wrote porta_diversity_species", top8)
+
+# 9. city practice vs the 2011 sizing rule: new trees in the 26 back-test groups, share planted larger than the sidewalk allows
+#    ("none" = sidewalk too narrow for any tree, so any tree is above the rule; same count as notes/tutor_feedback_17nov.md 9a: 36 of 171)
+import sys
+sys.path.insert(0, ".")
+from shade_sponge.layout import SIZE_CLASS, RANK
+bt = pd.read_csv("databases/barcelona/backtest_works_guide_capsmall_positions.csv")
+bt["cls"] = bt.sp_city.map(SIZE_CLASS)
+bt["ok"] = bt.size_class.isin(list(RANK)) & bt.cls.isin(["small", "medium", "large"])
+bt["over"] = bt.ok & (bt.cls.map(RANK) > bt.size_class.map(RANK))
+grp = bt.groupby("group").agg(x=("x", "mean"), y=("y", "mean"), n=("ok", "sum"), over=("over", "sum"))
+fig, a = plt.subplots(figsize=(8.4, 4.9), facecolor=BG)
+gb.plot(ax=a, color="#E2DED5", edgecolor=BG, linewidth=0.4)
+q = grp[grp.n > 0]
+sc = a.scatter(q.x, q.y, s=12 * q.n + 20, c=q.over / q.n, cmap=LinearSegmentedColormap.from_list("ok", [TREE, "#D9CFB8", HEAT]),
+               vmin=0, vmax=1, edgecolor=INK, linewidths=0.5, zorder=3)
+for lab, c in (("all within the rule", TREE), ("all larger than the sidewalk allows", HEAT)):
+    a.scatter([], [], s=80, color=c, edgecolor=INK, linewidths=0.5, label=lab)
+a.legend(loc="upper center", bbox_to_anchor=(0.5, 0.02), ncol=2, frameon=False, fontsize=10)
+a.set_aspect("equal"); a.set_axis_off()
+fig.savefig(OUT / "city_practice_rule.png", dpi=250, bbox_inches="tight", facecolor=BG)
+print("wrote city_practice_rule", int(bt.ok.sum()), int(bt.over.sum()), len(q), "groups")
