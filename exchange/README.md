@@ -7,6 +7,7 @@ exchange/
   site_origin.json      local origin of the Rhino model (EPSG:25831 minus origin = Rhino coords, metres)
   to_gh/                files Claude prepares for Grasshopper (trees, boundary, buildings, trait table, candidate positions)
   from_gh/              files you export from Grasshopper (UTCI/MRT results, chosen layouts)
+to_rhino/               Rhino kit for the final deck (results map, back-test, before/after streets; see to_rhino/README.md)
 grasshopper/            your .gh definitions (commit them; screenshots welcome as .png)
 ```
 
