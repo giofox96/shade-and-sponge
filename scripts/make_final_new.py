@@ -20,11 +20,11 @@ OUT = ROOT / "slides/final"
 GREY = "#A8A293"
 
 
-def rhino(s, x, y, w, h, what):
-    """Dashed placeholder for a Rhino render."""
+def rhino(s, x, y, w, h, what, kind="RHINO"):
+    """Dashed placeholder for a visual still to make (kind: RHINO render, or MAP / VISUAL from the tool or by hand)."""
     b = box(s, x, y, w, h, tint(GREY, 0.12), line=GREY, name="RHINO placeholder")
     b.line.dash_style = 4
-    text(s, x + 0.3, y, w - 0.6, h, [[("RHINO  ", {"bold": True, "color": MUTED}), (what, {"color": MUTED})]], 14, MUTED,
+    text(s, x + 0.3, y, w - 0.6, h, [[(kind + "  ", {"bold": True, "color": MUTED}), (what, {"color": MUTED})]], 14, MUTED,
          align=PP_ALIGN.CENTER, anchor=MSO_ANCHOR.MIDDLE)
 
 
@@ -75,22 +75,17 @@ def n_question(s):
 
 
 def n_heat(s):
-    head(s, "Heat module", "Shade where and when people walk, summer as benefit, winter as cost")
-    steps = [("sun", "Sun on the street", "every hour of a hot day and of winter, from buildings and terrain", WARN),
-             ("tree-deciduous", "Crown shadow", "each crown from LiDAR casts an elliptical shadow; leaf density sets how much light passes", TREE),
-             ("thermometer-sun", "Summer shade + / winter shade −", "in winter people want sun: evergreen crowns that shade in summer also shade in winter, so winter shade counts as a cost", HEAT)]
-    for k, (ic, t, d, c) in enumerate(steps):
-        x = M + k * 4.18
-        box(s, x, 1.6, 3.95, 2.9, tint(c, 0.10))
-        ico(s, ic, c, x + 0.3, 1.85, 0.6)
-        text(s, x + 0.3, 2.6, 3.4, 1.8, [[(t, {"bold": True, "color": c, "size": 20})], d], 15, INK)
-    box(s, M, 4.75, W - 2 * M, 1.5, tint(RAIN, 0.08))
-    ico(s, "circle-check", TREE, M + 0.35, 5.15, 0.6)
-    text(s, M + 1.2, 4.75, W - 2 * M - 1.5, 1.5,
-         [[("Checked against felt temperature (UTCI): ", {"bold": True}),
-           ("Ladybug on all of Porta and Infrared City on one street. Fast enough to compare thousands of layouts; "
-            "the full simulation is used to check, not to choose.", {})]], 16, INK, anchor=MSO_ANCHOR.MIDDLE)
+    head(s, "Heat module", "Shade where and when people walk: summer shade a benefit, winter shade a cost")
+    R.picture(s, ROOT / "slides/fig_v7/flow_02_heat.png", M + 0.1, 1.4, W - 2 * M - 0.2, crop_top=0.17, crop_bottom=0.12)
+    text(s, M, 6.3, W - 2 * M, 0.5, [[("Winter: ", {"bold": True}), ("evergreen crowns that shade in summer also shade in winter, "
+         "so the same sun check on a January day counts that shade as a cost.", {})]], 15, INK)
     source(s, "ICGC, LiDAR 2021; Ladybug Tools; Infrared City; Bröde et al. 2012 (UTCI).")
+
+
+def n_runoff(s):
+    head(s, "Runoff module", "Rain on a 1 m grid: what the crowns hold, what the ground takes, where the rest flows")
+    R.picture(s, ROOT / "slides/fig_v7/flow_03_runoff.png", M + 0.1, 1.4, W - 2 * M - 0.2, crop_top=0.17, crop_bottom=0.12)
+    source(s, "Anys & Weiler 2024 (interception); USDA SCS curve number; Barcelona, PDISBA design storms; ICGC, LiDAR 2021.")
 
 
 def n_scenarios(s):
@@ -99,7 +94,6 @@ def n_scenarios(s):
             ("S1a", "City, announced", "the 2026 replacement mix the city announced", "press, 2026", RAIN),
             ("S1b", "City, practice", "what the city really planted where it removed a tree, 2018–2026", "tree inventory", RAIN),
             ("S1c", "City, plan", "the species the city has planned for each Porta tree", "Parcs i Jardins", RAIN),
-            ("S1-2004", "City, old table", "district × sidewalk table of 2004/05 (cited, not run)", "Parcs i Jardins", MUTED),
             ("Method", "This thesis", "species chosen by the optimiser, inside the same rules", "HiGHS", TREE)]
     for k, (tag, name, what, src, c) in enumerate(rows):
         y = 1.55 + k * 0.8
@@ -108,32 +102,30 @@ def n_scenarios(s):
         text(s, M + 1.9, y, 2.6, 0.68, name, 16, INK, True, anchor=MSO_ANCHOR.MIDDLE)
         text(s, M + 4.6, y, 5.6, 0.68, what, 15, INK, anchor=MSO_ANCHOR.MIDDLE)
         text(s, M + 10.3, y, 1.9, 0.68, src, 13, MUTED, anchor=MSO_ANCHOR.MIDDLE)
+    text(s, M, 1.55 + 5 * 0.8 + 0.1, W - 2 * M, 0.5, "Note: the city's 2004/05 district × sidewalk table is cited, not run", 13, MUTED)
     source(s, BCN + " Open Data BCN, arbrat viari 2018–2026; Huangfu & Hall 2018 (HiGHS).")
 
 
 def n_porta(s):
-    head(s, "Result: Porta", "Replacing the 832 planes: summer shade as a share of today's")
-    bars(s, M, 1.5, 6.4, 4.6, ["Today (S0)", "City, announced (S1a)", "City, practice (S1b)", "Method", "Method, diversity ≥ 9.4"],
-         [100.0, 100.3, 98.9, 106.7, 106.3], [GREY, RAIN, RAIN, TREE, TREE])
-    rhino(s, 7.3, 1.55, W - M - 7.3, 3.2, "Porta map: streets coloured by summer shade gain, method vs city practice")
-    text(s, 7.3, 5.0, W - M - 7.3, 1.3,
-         [[("Winter: ", {"bold": True}), ("method 99% of today's shade, city practice 109%: more winter sun.", {})],
-          [("Runoff: ", {"bold": True}), ("equal (differences below what the model resolves).", {})]], 15, INK)
+    head(s, "Result: Porta", "Replacing the 832 planes")
+    rhino(s, M, 1.45, 8.9, 4.9, "Porta map: streets coloured by summer shade gain, method vs city practice", "MAP")
+    x = M + 9.2
+    text(s, x, 1.45, W - M - x, 4.9,
+         [[("Summer shade, % of today", {"bold": True})], "City practice  99", [("Method  107", {"bold": True, "color": TREE})],
+          "Method, city diversity  106", "",
+          [("Winter shade, % of today", {"bold": True})], "City practice  109", [("Method  99", {"bold": True, "color": TREE})], "",
+          [("Runoff", {"bold": True})], "equal"], 15, INK)
     source(s, "ICGC, LiDAR 2021; Open Data BCN, arbrat viari; " + BCN)
 
 
 def n_cityplan(s):
-    head(s, "The city's own plan", "513 Porta planes the city plans to change: its species vs the method's, at the same diversity")
-    bars(s, M, 1.5, 7.0, 3.6, ["Today (S0)", "City plan (S1c)", "Method, same diversity (9.7)"],
-         [100.0, 98.2, 101.4], [GREY, RAIN, TREE], axis_min=90, axis_max=104)
-    for k, (big, small, c) in enumerate((("+3.2 pts", "summer shade, method vs city plan", TREE),
-                                         ("98% vs 104%", "winter shade, method vs city plan", RAIN),
-                                         ("=", "runoff, both", MUTED))):
-        y = 1.55 + k * 1.2
-        box(s, 8.1, y, W - M - 8.1, 1.05, tint(c, 0.10))
-        text(s, 8.35, y, W - M - 8.6, 1.05, [[(big + "  ", {"bold": True, "color": c, "size": 24}), (small, {})]], 14, INK, anchor=MSO_ANCHOR.MIDDLE)
-    text(s, M, 5.45, W - 2 * M, 0.8, [[("The city's plan keeps the shade close to today. ", {"bold": True}),
-                                        ("The method, with the same number of species, turns the loss into a small gain and gives back winter sun.", {})]], 17, INK)
+    head(s, "The city's own plan", "513 Porta planes the city plans to change, at the same diversity")
+    rhino(s, M, 1.45, 8.9, 4.9, "Porta map: the 513 planes, coloured by species, city plan vs method", "MAP")
+    x = M + 9.2
+    text(s, x, 1.45, W - M - x, 4.9,
+         [[("Summer shade, % of today", {"bold": True})], "City plan  98", [("Method  101", {"bold": True, "color": TREE})], "",
+          [("Winter shade, % of today", {"bold": True})], "City plan  104", [("Method  98", {"bold": True, "color": TREE})], "",
+          [("Runoff", {"bold": True})], "equal"], 15, INK)
     source(s, "Parcs i Jardins, planned species for Porta (2026); ICGC, LiDAR 2021; " + BCN)
 
 
@@ -145,7 +137,7 @@ def n_backtest(s):
     box(s, M, 3.85, 5.9, 2.1, tint(HEAT, 0.10))
     text(s, M + 0.4, 3.85, 5.2, 2.1, [[("1.7 ×", {"bold": True, "color": HEAT, "size": 44})], "the summer shade per tree (median), method vs city"],
          16, INK, anchor=MSO_ANCHOR.MIDDLE)
-    rhino(s, 6.75, 1.55, W - M - 6.75, 4.4, "one or two replaced groups, before / city / method, crowns in 3D on the street")
+    R.picture(s, ROOT / "slides/fig_backtest/overview.png", 7.0, 1.4, 5.3, crop_top=0)
     text(s, M, 6.15, W - 2 * M, 0.4, "Runoff at flood spots: never worse than the city's choice (26 of 26).", 15, MUTED)
     source(s, "Open Data BCN, arbrat viari 2018–2026 (quarterly inventory); ICGC, LiDAR 2021.")
 
@@ -177,34 +169,114 @@ def n_stakeholders(s):
 
 
 def n_contribution(s):
-    head(s, "What this brings", "From 18 tools reviewed to none that does all of it")
-    for k, (n, t) in enumerate((("18", "tools reviewed"), ("7", "treat heat and runoff together"),
-                                ("1", "also chooses species"), ("0", "per tree, inside a city's rules"))):
-        x = M + k * 3.1
-        box(s, x, 1.6, 2.9, 2.2, tint(TREE, 0.06 + 0.05 * k))
-        text(s, x + 0.25, 1.6, 2.4, 2.2, [[(n, {"bold": True, "color": TREE, "size": 44})], t], 15, INK, anchor=MSO_ANCHOR.MIDDLE)
-    box(s, M, 4.15, W - 2 * M, 1.9, tint(HEAT, 0.08))
-    text(s, M + 0.5, 4.15, W - 2 * M - 1.0, 1.9,
-         [[("A method that picks the species and position of every replaced street tree, for shade and rain together, inside the city's own rules, ",
-            {"bold": True}),
-           ("and tests it against what the city really planted.", {})]], 19, INK, anchor=MSO_ANCHOR.MIDDLE)
-    source(s, "Dong et al. 2026; Mannucci et al. 2025; Nicol et al. 2026 (SylvCiT); full list in the thesis.")
+    head(s, "What the results say", "Each result, and how I read it")
+    rows = [("Porta", "summer shade 107% vs 99%, winter 99% vs 109%", "the gain comes from the species alone: same spots, same works", TREE),
+            ("City plan", "101% vs 98% at the same diversity", "diversity is not what costs the shade", TREE),
+            ("Back-test", "more shade in 23 of 26 real replacements, 1.7× per tree", "it holds where the city really worked, not only in Porta", HEAT),
+            ("Mataró", "83% vs 63% of the planes' shade, 6 of 6 streets", "it travels to another city with its own rules", RAIN),
+            ("Runoff", "equal everywhere", "at street scale species barely move runoff: a do-no-harm check", MUTED)]
+    for k, (t, res, mean, c) in enumerate(rows):
+        y = 1.5 + k * 0.97
+        box(s, M, y, W - 2 * M, 0.85, tint(c, 0.10 if k % 2 == 0 else 0.05))
+        text(s, M + 0.25, y, 1.9, 0.85, t, 17, c, True, anchor=MSO_ANCHOR.MIDDLE)
+        text(s, M + 2.2, y, 4.8, 0.85, res, 14, INK, anchor=MSO_ANCHOR.MIDDLE)
+        text(s, M + 7.2, y, W - 2 * M - 7.4, 0.85, mean, 14, INK, True, anchor=MSO_ANCHOR.MIDDLE)
+    source(s, "ICGC, LiDAR 2021; Open Data BCN, arbrat viari 2018–2026; Parcs i Jardins (2026); Ajuntament de Mataró.")
+
+
+def n_context_maps(s):
+    head(s, "Context: replacing trees one at a time", "Barcelona, three numbers on the map")
+    for k, (big, small, what, c) in enumerate((("10,976", "trees replaced, 2018–2026", "every replaced street tree in Barcelona", WARN),
+                                              ("15%", "max per species; no rule on where", "all Barcelona planes (to decide)", TREE),
+                                              ("20.1%", "Porta's canopy; city target 30%", "Porta canopy today (to decide)", HEAT))):
+        x = M + k * 4.13
+        rhino(s, x, 1.45, 3.93, 3.9, what, "MAP")
+        text(s, x, 5.45, 3.93, 1.0, [[(big, {"bold": True, "color": c, "size": 30})], small], 14, INK)
+    source(s, "Open Data BCN, arbrat viari 2018–2026; Ajuntament de Barcelona, Pla director de l'arbrat 2017–2037; ICGC, LiDAR 2021.")
+
+
+def n_crowns(s):
+    head(s, "Same trunk, different crowns", "The 30 species at the plane's trunk size; dashed: the median plane crown")
+    rhino(s, M, 1.45, W - 2 * M, 4.9, "30 coloured crowns, each with the dashed median plane crown on top (two versions to compare)", "VISUAL")
+    source(s, "ICGC, LiDAR 2021; Open Data BCN, arbrat viari.")
+
+
+def n_barri(s):
+    head(s, "Why Porta", "First among Barcelona's neighbourhoods where flood hazard, heat and plane trees are all high")
+    R.picture(s, ROOT / "notes/figures/bcn_site_screening.png", M + 0.1, 1.6, W - 2 * M - 0.2, crop_top=0.07)
+    text(s, M, 5.4, W - 2 * M, 0.8, [[("The rule came first: ", {"bold": True}),
+         ("a neighbourhood qualifies only if all three are above the city's 60th percentile; Porta ranks first.", {})]], 16, INK)
+    source(s, "Barcelona Resilience Atlas (flood hazard, heat vulnerability); Open Data BCN, arbrat viari.")
+
+
+def n_porta_site(s):
+    head(s, "Porta in numbers", "Nou Barris: 84 ha, 2,825 street trees, 832 planes (29%)")
+    rhino(s, M, 1.45, 7.6, 4.9, "Porta map: street trees, planes highlighted, canopy today", "MAP")
+    text(s, 8.45, 1.45, W - M - 8.45, 0.9, [[("20.1%", {"bold": True, "color": HEAT, "size": 30}), ("  canopy today, target 30%", {})]], 15, INK)
+    pie(s, 8.4, 2.4, 2.4, 2.4, [46, 3, 6, 45], [TREE, RAIN, WARN, GREY])
+    text(s, 10.9, 2.4, W - M - 10.9, 2.4, [[("■ ", {"color": TREE}), ("street trees 46%", {})], [("■ ", {"color": RAIN}), ("parks 3%", {})],
+         [("■ ", {"color": WARN}), ("squares, courtyards 6%", {})], [("■ ", {"color": GREY}), ("not in the inventory 45%", {})]], 13, INK,
+         anchor=MSO_ANCHOR.MIDDLE)
+    text(s, 8.45, 5.0, W - M - 8.45, 1.3, [[("Street trees alone cannot reach 30%: ", {"bold": True}),
+         ("the choice of species is what is left.", {})]], 15, INK)
+    source(s, "ICGC, LiDAR 2021; Open Data BCN, arbrat viari and parks; Ajuntament de Barcelona, Pla director de l'arbrat 2017–2037.")
+
+
+def n_species30(s):
+    head(s, "The 30 species", "The palette after the screening")
+    rhino(s, M, 1.45, W - 2 * M, 4.9, "5 × 6 crowns seen from above, OR elevations with a person for scale", "VISUAL")
+    source(s, "Open Data BCN, arbrat viari; Ajuntament de Barcelona, Pla director de l'arbrat 2017–2037.")
+
+
+def n_spots(s):
+    head(s, "Where new trees go", "267 candidate spots in Porta")
+    rhino(s, M, 1.45, 9.2, 4.9, "Porta map: trees and spots coloured by class", "MAP")
+    x = M + 9.5
+    text(s, x, 1.45, W - M - x, 4.9, [[("153", {"bold": True, "color": TREE, "size": 28}), ("  free", {})],
+         [("103", {"bold": True, "color": WARN, "size": 28}), ("  conditional", {})], [("11", {"bold": True, "color": HEAT, "size": 28}), ("  blocked", {})],
+         "", [("Conditional: a field check on underground services.", {"size": 13, "color": MUTED})]], 16, INK)
+    source(s, BCN + " Open Data BCN, street furniture; OpenStreetMap.")
+
+
+def n_practice(s):
+    head(s, "City practice, not a rule", "The baseline is what the city really planted")
+    rhino(s, M, 1.45, W - 2 * M, 2.6, "Barcelona map: new plantings within / above the size their sidewalk allows", "MAP")
+    items = [("landmark", "City practice", "the species the city planted, 2018–2026", RAIN),
+             ("scale", "Same rules for both", "sidewalk size, 15% cap", WARN),
+             ("sliders-horizontal", "What each rule costs", "switch a rule off, re-optimise", TREE)]
+    for k, (ic, b, t, c) in enumerate(items):
+        x = M + k * 4.18
+        box(s, x, 4.3, 3.9, 1.9, tint(c, 0.10))
+        ico(s, ic, c, x + 0.3, 4.5, 0.5)
+        text(s, x + 0.3, 5.1, 3.4, 1.1, [[(b, {"bold": True, "color": c, "size": 18})], t], 14, INK)
+    source(s, "Open Data BCN, arbrat viari 2018–2026; Parcs i Jardins, Gestió de l'arbrat viari (2011).")
+
+
+def pie(s, x, y, w, h, vals, colors):
+    """Native pie (editable), no legend, no labels."""
+    cd = CategoryChartData()
+    cd.categories = [str(k) for k in range(len(vals))]
+    cd.add_series("share", vals)
+    ch = s.shapes.add_chart(XL_CHART_TYPE.PIE, Inches(x), Inches(y), Inches(w), Inches(h), cd).chart
+    ch.has_legend, ch.has_title = False, False
+    for pt, c in zip(ch.plots[0].series[0].points, colors):
+        pt.format.fill.solid()
+        pt.format.fill.fore_color.rgb = rgb(c)
+        pt.format.line.color.rgb = rgb(BG)
+    return ch
 
 
 def n_effective(s):
     """Effective number of species = exp(Shannon); worked examples computed by hand (10 equal -> 10.0; 90% + 9 x 1.1% -> 1.7)."""
-    head(s, "How we count diversity", "Effective number of species: how many equally common species the mix is worth")
-    for k, (shares, lab, eff, c) in enumerate((([0.1] * 10, "10 species, equal shares", "10", TREE),
-                                              ([0.9] + [0.1 / 9] * 9, "10 species, one at 90%", "1.7", HEAT))):
-        y = 1.75 + k * 1.9
-        x = M
-        for p in shares:
-            w = 8.0 * p
-            box(s, x, y, max(w - 0.04, 0.03), 0.9, TREE if p < 0.5 else HEAT, radius=0)
-            x += w
-        text(s, M, y + 1.0, 8.0, 0.4, lab, 15, INK)
-        text(s, 9.0, y, 3.8, 0.9, [[(eff, {"bold": True, "color": c, "size": 40}), ("  effective species", {})]], 16, INK, anchor=MSO_ANCHOR.MIDDLE)
-    text(s, M, 5.6, W - 2 * M, 0.8, [[("The city: ", {"bold": True}), ("9.4 in its announced mix, 15.6 in what it really planted.", {})]], 17, INK)
+    head(s, "How we count diversity", "Effective species: how many equally common species the mix is worth")
+    rhino(s, M, 1.45, 7.2, 4.9, "Porta map: street trees coloured by species, today vs method", "MAP")
+    shades = [tint(TREE, 0.15 + 0.085 * k) for k in range(10)]
+    for k, (vals, cols, eff, lab, c) in enumerate((([1] * 10, shades, "10", "10 species, equal", TREE),
+                                                   ([90] + [10 / 9] * 9, [HEAT] + shades[1:], "1.7", "10 species, one at 90%", HEAT))):
+        y = 1.45 + k * 2.45
+        pie(s, 8.0, y, 2.2, 2.2, vals, cols)
+        text(s, 10.3, y, W - M - 10.3, 2.2, [[(eff, {"bold": True, "color": c, "size": 36})], lab], 14, INK, anchor=MSO_ANCHOR.MIDDLE)
+    text(s, M, 6.45, W - 2 * M, 0.4, [[("The city: ", {"bold": True}), ("9.4 in its announced mix, 15.6 in what it really planted.", {})]], 15, INK)
     source(s, "Nicol et al. 2026 (SylvCiT); Jost 2006 (effective number of species).")
 
 
@@ -281,7 +353,7 @@ SLIDES = [
     (n_question, "My question: when a project must replace trees, can a method inside the city's rules choose species and positions so that shade and rain interception improve, or at least do not get worse, against the city's practice and against today? H1: no worse than the city, better in summer, and no more winter shade than today. H2: heat and runoff want different species."),
     (n_heat, "The heat module asks where the sun hits the street each hour, how much of it each crown stops, and counts summer shade as a gain and winter shade as a cost, because evergreen crowns that shade in summer also take the winter sun. I checked it against felt temperature with Ladybug and Infrared City."),
     (n_scenarios, "Every scenario uses the same streets and the same tree positions: only the species change. Today, three versions of the city's choice, the old table, which I cite, and the method."),
-    (n_porta, "In Porta, replacing the 832 planes, the city's practice keeps about 99% of today's summer shade; the method gives 107%, and with the city's diversity still 106%. In winter the method lets more sun through. Runoff stays the same."),
+    (n_porta, "In Porta, replacing the 832 planes, the city's practice keeps about 99% of today's summer shade; the method gives 107%, and with the city's diversity still 106%. In winter the method casts 99% of today's shade against 109%. Runoff stays the same."),
     (n_cityplan, "The city has a per-tree plan for 513 Porta planes. At the same diversity, the method gives 101% of today's summer shade against the plan's 98%, with more winter sun and equal runoff."),
     (n_backtest, "I went back to 26 places where the city really replaced a group of trees. With the same positions, the method gives more shade in 23 of them, 1.7 times the shade per tree, and never more runoff."),
     (n_effective, "To count diversity I use the effective number of species: how many equally common species a mix is worth. Ten species in equal shares are worth ten; ten species with one at ninety percent are worth fewer than two."),
@@ -290,8 +362,16 @@ SLIDES = [
     (n_cost, "The method replaces the same trees as the city, so the works and the cost are the same: up to 500 euros per replaced tree. Of 267 candidate spots in Porta, 153 are free and 103 need a field check."),
     (n_impact, "With 10 million euros the city could replace about 20,000 trees, around fifteen years of its replacements. Chosen with the method, each new tree gives 1.7 times the shade, for the same money."),
     (n_stakeholders,"The user is the designer of a street project, inside the city or in a commissioned firm. Parcs i Jardins sets the rules and approves the species; neighbours see the before and after."),
-    (n_contribution, "Of the eighteen tools I reviewed, none chooses species and positions for heat and runoff inside a city's rules. That is what this method adds, tested against what the city really planted."),
+    (n_contribution, "What the results say: in Porta the gain comes from the species alone; at the city's own diversity the method still gains; it holds in 23 of 26 real replacements and in Mataró; runoff does not move, so it stays a do-no-harm check."),
     (n_limits, "These are the limits: new trees at today's size, heat as shade checked with felt temperature, one interception rate, runoff that barely moves, free spots as an upper bound, and the cap on street trees only."),
+    (n_context_maps, "Barcelona replaced almost eleven thousand street trees in eight years, one at a time. The plan caps any species at fifteen percent, but says nothing about where. Porta's canopy is twenty percent, the target thirty."),
+    (n_crowns, "Same trunk, different crowns: at the plane's trunk size, the thirty species cast very different shade."),
+    (n_barri, "Why Porta: I wrote the rule before ranking. Flood hazard, heat and planes all above the city's sixtieth percentile; Porta comes first."),
+    (n_porta_site, "Porta: 84 hectares, 2,825 street trees, 832 of them planes. Its canopy is twenty percent; street trees hold less than half of it, so they alone cannot reach thirty: the choice of species is what is left."),
+    (n_species30, "These are the thirty species left after the screening."),
+    (n_spots, "Of 267 candidate spots in Porta, 153 are free, 103 need a field check on underground services, and 11 are blocked."),
+    (n_practice, "The baseline is not a rule but what the city really planted; the same rules apply to both, and switching a rule off shows what it costs."),
+    (n_runoff, "The runoff module: the design storm falls on a one-metre grid; crowns hold water, the soil takes some, the rest flows downhill to the flood spots."),
 ]
 
 
@@ -300,21 +380,21 @@ def divider(s, title):
     text(s, M, 2.9, W - 2 * M, 1.2, title, 44, TREE, True, name="Title")
 
 
-# Narrative order (26 Nov). Tags: NEW N1-N14 = SLIDES above; OLD M1-M15 = midterm; OLD B1-B9 = midterm backup.
-# The appendix holds slides that a new slide replaces or that repeat another: to delete after Giovanni's review.
-ORDER = ["OLD M1", "OLD M2", "OLD M3",                                      # 1 why: Barcelona replaces trees, Porta
+# Narrative order (26 Nov, after Giovanni's review). NEW N1-N22 = SLIDES above; OLD M1-M15 = midterm; OLD B1-B9 = midterm backup.
+ORDER = ["OLD M1", "NEW N15", "NEW N16", "NEW N17", "NEW N18",               # why: replacements, crowns, why Porta, Porta
          "§The gap", "OLD M4",
          "§The question", "NEW N1", "OLD M6", "NEW N12",                    # question, what is fixed/free, who decides
-         "§The method", "OLD M7", "OLD M8", "OLD M9", "OLD M10",            # overview, screening, rules, spots
-         "NEW N2", "OLD M11", "OLD M12", "OLD B4",                          # heat, runoff (bucket, hill), HiGHS
-         "NEW N3", "OLD M13",                                               # scenarios, city practice
+         "§The method", "OLD M7", "OLD M8", "OLD B4", "NEW N19",            # overview, screening, HiGHS, 30 species
+         "OLD M9", "NEW N20",                                               # rules, spots
+         "NEW N2", "NEW N22", "OLD M11", "OLD M12", "OLD B1",               # heat, runoff, bucket, hill, trade-off triangle
+         "NEW N3", "NEW N21",                                               # scenarios, city practice
          "§Results", "NEW N4", "NEW N5", "NEW N6", "OLD B8",                # Porta, city plan, back-test, Rio de Janeiro
          "NEW N7", "NEW N8",                                                # diversity explained, its cost
          "OLD B5", "NEW N9",                                                # Mataró: why, result
-         "§In practice", "NEW N10", "NEW N11", "OLD B1",                    # cost, 10 M€, the tool
-         "§Conclusions", "NEW N13", "NEW N14", "OLD M15",                   # contribution, limits, next/thanks
-         "§Appendix: replaced or repeated",
-         "OLD M5", "OLD M14", "OLD B2", "OLD B3", "OLD B6", "OLD B7", "OLD B9"]
+         "§In practice", "NEW N10", "NEW N11",                              # cost, 10 M€
+         "§Conclusions", "NEW N13", "NEW N14", "OLD M15"]                   # results read, limits, next/thanks
+# Removed in the review (26 Nov): replaced by a new slide, or the appendix.
+DROPPED = {"OLD M2", "OLD M3", "OLD M10", "OLD M13", "OLD M5", "OLD M14", "OLD B2", "OLD B3", "OLD B6", "OLD B7", "OLD B9"}
 
 
 def build():
@@ -336,7 +416,7 @@ def build():
         else:
             f, n = pool.pop(item)
             seq.append((f, n, item))
-    assert not pool, pool
+    assert set(pool) == DROPPED, set(pool) ^ DROPPED
     for fn, note, tag in seq:
         s = prs.slides.add_slide(prs.slide_layouts[6])
         s.background.fill.solid()
