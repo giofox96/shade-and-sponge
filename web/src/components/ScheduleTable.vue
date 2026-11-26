@@ -3,7 +3,7 @@
 // linked to the map both ways. The designer records an Action, a Reason and a field check per row; inside a project area
 // the actions change what the optimiser replaces or plants (store.js, areaSets / setSpotEntry).
 import { computed, ref, watch, nextTick } from 'vue'
-import { state, currentLayout, keptReplaced, spotClass, AREA, TREE_ACTIONS, SPOT_ACTIONS, REASONS, CHECKS, keptKey,
+import { state, currentLayout, keptReplaced, spotClass, spotWhy, AREA, TREE_ACTIONS, SPOT_ACTIONS, REASONS, CHECKS, keptKey,
   setTreeEntry, setSpotEntry, focusOn, scheduleCsv, configJson, loadConfig, removeAdded } from '../store.js'
 
 const tab = ref('trees')
@@ -13,7 +13,6 @@ const limit = ref(LIMIT)
 const msg = ref('')
 const fileIn = ref(null)
 
-const nice = (r) => r.replaceAll('_', ' ').replaceAll(';', ', ')
 // a tree the layout on screen already replaces shows Replace until the designer picks an action (not stored, so it
 // follows the layout and does not change the optimisation)
 const auto = (e, replaced) => (!e.action && replaced ? { action: 'replace', auto: true } : {})
@@ -49,7 +48,7 @@ const spotRows = computed(() => {
   return idx.map((s) => {
     const e = state.schedule.spots[S.id[s]] ?? {}
     return { key: S.id[s], sel: `s${s}`, s, id: S.id[s], lon: S.lon[s], lat: S.lat[s], width: S.width_m[s], size: S.size_class[s],
-      status: spotClass(s), inWay: [S.reasons[s] && nice(S.reasons[s]), S.utility_conditional?.[s] ? 'buried service' : ''].filter(Boolean).join(', '), ...e }
+      status: spotClass(s), inWay: spotWhy(s), ...e }
   })
 })
 const rows = computed(() => {
