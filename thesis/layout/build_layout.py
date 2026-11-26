@@ -29,7 +29,7 @@ COLS, GUTTER = 2, 18
 # Template object ids (IAAC A4 template): cover/back background frames and grey masks,
 # IAAC pixel-art groups, cover title/subtitle/author stories and frames.
 COVER_FILLS, PIXEL_ART = [259, 412, 743, 892], [263, 744]
-FRONT_PAGES = 2  # contents + list of tables/figures
+FRONT_PAGES = 4  # contents (2 pages) + list of tables/figures (2 pages)
 
 
 def run(lines, inp, out):
@@ -85,7 +85,7 @@ def setup(docx):
           j("layout.pages.insert", count=FRONT_PAGES + 2, after=0, parent=None),
           j("layout.marginsAndColumns", margins=MARGINS, columns=1),
           j("layout.marginsAndColumns", parent="A", margins=MARGINS, columns=1),
-          j("frame.create", spread=2, rect=[48, 62, 531, 770], content="text"),
+          j("frame.create", spread=1 + FRONT_PAGES // 2, rect=[48, 62, 531, 770], content="text"),
           j("object.textFrameOptions", columns=COLS, gutter=GUTTER, ids=["$last.id"]),
           j("file.place", path=str(docx), frame="$-1.id", autoflow=True, styleConflicts="useExisting",
             styleMap={"Heading 1": "H1", "Heading 2": "H2", "Heading 3": "H3", "Normal": "[Basic Paragraph]",
@@ -149,17 +149,38 @@ def main(template, docx, out_dir):
         w = full / len(t["columns"])
         L.append(j("text.select", story=story, anchor=t["anchor"], focus=t["anchor"]))
         L += [j("table.resizeBorder", axis="column", index=k, size=w) for k in range(len(t["columns"]))]
-    # front matter: contents and list of tables, on pages 2 and 3 (1-based)
+    # front matter: contents on pages 2-3, list of tables and figures on pages 4-5 (1-based)
     L += [j("toc.generate", styles=["H1", "H2"], title="Contents", page=2, createBookmarks=True),
           j("toc.generate", entries=[{"style": "Table Caption", "level": 1}, {"style": "Figure Caption", "level": 1}],
-            title="List of tables and figures", page=3, replace=False),
-          j("story.get", story=story)]
+            title="List of tables and figures", page=4, replace=False),
+          j("story.get", story=story), "document.inspect {}"]
     res = run(L, a, b)
-    print("overset after columns:", res[-1].get("oversetChars"))
+    print("overset after columns:", res[-2].get("oversetChars"))
+    # each list may run onto the facing page: thread its frame there
+    L = []
+    for sp in res[-1]["spreads"][1:3]:
+        left, right = sp["pages"]
+        fr = next(it for it in sp["items"] if it.get("story") not in (None, story)
+                  and it["bounds"][0] < left["bounds"][2])
+        x0, x1 = right["bounds"][0] + MARGINS["inside"], right["bounds"][2] - MARGINS["outside"]
+        bx = fr["bounds"]  # lists use a taller frame than the body, so 75 contents entries fit on two pages
+        L += [j("transform.resize", ids=[fr["id"]], **{"from": bx, "to": [bx[0], 40, bx[2], 805]}),
+              j("text.thread", **{"from": fr["id"]}, spread=sp["index"], rect=[x0, 40, x1, 805])]
+    run(L, b, a)
     final = out_dir / "thesis_layout.designcraft"
-    shutil.copy(b, final)
-    subprocess.run([DC, "run", "--in", str(final), "--export", str(out_dir / "thesis_layout.pdf"),
-                    "--export", str(out_dir / "thesis_layout.idml")], check=True)
+    pdf = out_dir / "thesis_layout.pdf"
+    export = [DC, "run", "--in", str(final), "--export", str(pdf), "--export", str(out_dir / "thesis_layout.idml")]
+    shutil.copy(a, final)
+    subprocess.run(export, check=True)
+    # drop the empty spreads the overset loop left before the back cover (text shrinks once tables span)
+    n = int(subprocess.run(["pdfinfo", str(pdf)], capture_output=True, text=True).stdout.split("Pages:")[1].split()[0])
+    empty = [p for p in range(2, n) if not subprocess.run(["pdftotext", "-f", str(p), "-l", str(p), str(pdf), "-"],
+                                                            capture_output=True, text=True).stdout.strip()]
+    tail = [p for p in empty if all(q in empty for q in range(p, n))]  # trailing run before the back cover
+    tail = tail[len(tail) % 2:]  # keep page parity
+    if tail:
+        run([j("layout.pages.delete", pages=[p - 1 for p in tail])], final, final)
+        subprocess.run(export, check=True)
 
 
 if __name__ == "__main__":
