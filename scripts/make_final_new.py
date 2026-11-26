@@ -349,6 +349,20 @@ def n_limits(s):
     source(s, "Anys & Weiler 2024; ICGC, LiDAR 2021; Ladybug Tools; Infrared City; " + BCN)
 
 
+def n_vision(s):
+    head(s, "Next steps, further out", "From replacing a tree to planning the whole urban forest")
+    rows = [("trees", "Every tree", "not only the replaced ones: all street, park and square trees, kept, moved or added", TREE),
+            ("ruler", "Tree pits", "pit size and soil volume: how big each tree can grow and how much water reaches its roots", WARN),
+            ("droplets", "Soil type", "infiltration by soil class instead of one value for all of Porta", RAIN),
+            ("thermometer-sun", "Evapotranspiration", "cooling from the water trees give back to the air, not only from shade", HEAT)]
+    for k, (ic, t, d, c) in enumerate(rows):
+        x = M + k * 3.1
+        box(s, x, 1.6, 2.9, 4.4, tint(c, 0.10))
+        ico(s, ic, c, x + 0.3, 1.9, 0.7)
+        text(s, x + 0.3, 2.8, 2.4, 3.1, [[(t, {"bold": True, "color": c, "size": 20})], d], 15, INK)
+    text(s, M, 6.2, W - 2 * M, 0.5, "Same core, more layers: each one becomes a new input or a new objective for the optimiser.", 16, INK, True)
+
+
 SLIDES = [
     (n_question, "My question: when a project must replace trees, can a method inside the city's rules choose species and positions so that shade and rain interception improve, or at least do not get worse, against the city's practice and against today? H1: no worse than the city, better in summer, and no more winter shade than today. H2: heat and runoff want different species."),
     (n_heat, "The heat module asks where the sun hits the street each hour, how much of it each crown stops, and counts summer shade as a gain and winter shade as a cost, because evergreen crowns that shade in summer also take the winter sun. I checked it against felt temperature with Ladybug and Infrared City."),
@@ -371,6 +385,7 @@ SLIDES = [
     (n_species30, "These are the thirty species left after the screening."),
     (n_spots, "Of 267 candidate spots in Porta, 153 are free, 103 need a field check on underground services, and 11 are blocked."),
     (n_practice, "The baseline is not a rule but what the city really planted; the same rules apply to both, and switching a rule off shows what it costs."),
+    (n_vision, "Further out, the idea grows: from replaced trees to every tree in the city, with tree pits, soil type and evapotranspiration as new layers of the same core."),
     (n_runoff, "The runoff module: the design storm falls on a one-metre grid; crowns hold water, the soil takes some, the rest flows downhill to the flood spots."),
 ]
 
@@ -386,13 +401,13 @@ ORDER = ["OLD M1", "NEW N15", "NEW N16", "NEW N17", "NEW N18",               # w
          "§The question", "NEW N1", "OLD M6", "NEW N12",                    # question, what is fixed/free, who decides
          "§The method", "OLD M7", "OLD M8", "OLD B4", "NEW N19",            # overview, screening, HiGHS, 30 species
          "OLD M9", "NEW N20",                                               # rules, spots
-         "NEW N2", "NEW N22", "OLD M11", "OLD M12", "OLD B1",               # heat, runoff, bucket, hill, trade-off triangle
+         "NEW N2", "NEW N23", "OLD M11", "OLD M12", "OLD B1",               # heat, runoff, bucket, hill, trade-off triangle
          "NEW N3", "NEW N21",                                               # scenarios, city practice
          "§Results", "NEW N4", "NEW N5", "NEW N6", "OLD B8",                # Porta, city plan, back-test, Rio de Janeiro
          "NEW N7", "NEW N8",                                                # diversity explained, its cost
          "OLD B5", "NEW N9",                                                # Mataró: why, result
          "§In practice", "NEW N10", "NEW N11",                              # cost, 10 M€
-         "§Conclusions", "NEW N13", "NEW N14", "OLD M15"]                   # results read, limits, next/thanks
+         "§Conclusions", "NEW N13", "NEW N14", "OLD M15", "NEW N22"]                   # results read, limits, next/thanks
 # Removed in the review (26 Nov): replaced by a new slide, or the appendix.
 DROPPED = {"OLD M2", "OLD M3", "OLD M10", "OLD M13", "OLD M5", "OLD M14", "OLD B2", "OLD B3", "OLD B6", "OLD B7", "OLD B9"}
 
