@@ -95,15 +95,20 @@ from matplotlib.patches import Circle, Ellipse, Rectangle
 P = [p for p in json.load(open("web/public/data/porta-barcelona/meta.json"))["palette"] if p.get("in_palette", True)]
 P.sort(key=lambda p: -p["crown_diam_m"])
 name = lambda p: p["species"].replace(" x ", " × ").replace(" ", "\n", 1)          # genus on one line, epithet below
-for kind in ("top", "elev"):
+PL = next(p for p in json.load(open("web/public/data/porta-barcelona/meta.json"))["palette"] if p["species"].startswith("Platanus"))
+for kind in ("top", "elev", "vsplane"):
     fig, a = plt.subplots(figsize=(12.2, 4.9), facecolor=BG)
-    cw, ch = 12.0, 19.0 if kind == "elev" else 15.0                      # cell size in metres
+    cw, ch = 12.0, 19.0 if kind == "elev" else 15.0
+    if kind == "vsplane":
+        a.text(0, 9.5, f"dashed: median plane crown, {PL['crown_diam_m']:.1f} m (same trunk class)", fontsize=10, color=MUTED, va="bottom")                      # cell size in metres
     for i, p in enumerate(P):
         col, row = i % 10, i // 10
         x0, y0 = col * cw, -row * ch
         c, d = p["color"], p["crown_diam_m"]
-        if kind == "top":
+        if kind in ("top", "vsplane"):
             a.add_patch(Circle((x0 + cw / 2, y0 + 6), d / 2, color=c, alpha=0.85, lw=0))
+            if kind == "vsplane":
+                a.add_patch(Circle((x0 + cw / 2, y0 + 6), PL["crown_diam_m"] / 2, fill=False, ec=INK, lw=0.8, ls=(0, (3, 2))))
             a.text(x0 + cw / 2, y0 + 0.4, name(p), ha="center", va="top", fontsize=8, style="italic", linespacing=1.0)
         else:
             gy, h, cb = y0 + 1.5, p["height_m"], p["crown_base_m"]

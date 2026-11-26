@@ -234,8 +234,8 @@ def n_context_maps(s):
 
 
 def n_crowns(s):
-    head(s, "Same trunk, different crowns", "The 30 species at the plane's trunk size; dashed: the median plane crown")
-    rhino(s, M, 1.45, W - 2 * M, 4.9, "30 coloured crowns, each with the dashed median plane crown on top (two versions to compare)", "VISUAL")
+    head(s, "Same trunk, different crowns", "The 30 species at the plane's trunk size; dashed: the median plane crown (8.7 m)")
+    pic_h(s, "species30_vsplane", M, 1.6, 4.6, W - 2 * M)
     source(s, "ICGC, LiDAR 2021; Open Data BCN, arbrat viari.")
 
 
