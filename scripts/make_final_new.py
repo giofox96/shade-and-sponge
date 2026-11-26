@@ -61,7 +61,7 @@ def n_question(s):
            ("can a trait-based method, inside the city's tree rules, choose the new species and positions so that "
             "summer cooling and rain interception improve, or at least do not get worse, compared with the city's practice and with today?", {})]],
          18, INK, anchor=MSO_ANCHOR.MIDDLE)
-    for k, (tag, t, c) in enumerate((("H1", "No worse than the city's practice on heat or runoff, and better on summer shade", HEAT),
+    for k, (tag, t, c) in enumerate((("H1", "No worse than the city's practice on heat or runoff, better on summer shade, and no more winter shade than today", HEAT),
                                      ("H2", "The heat-best and the runoff-best layouts use different species", RAIN))):
         x = M + k * 6.2
         box(s, x, 3.35, 5.9, 1.4, tint(c, 0.12))
@@ -78,7 +78,7 @@ def n_heat(s):
     head(s, "Heat module", "Shade where and when people walk, summer as benefit, winter as cost")
     steps = [("sun", "Sun on the street", "every hour of a hot day and of winter, from buildings and terrain", WARN),
              ("tree-deciduous", "Crown shadow", "each crown from LiDAR casts an elliptical shadow; leaf density sets how much light passes", TREE),
-             ("thermometer-sun", "Summer + / winter −", "shade counts as gain in summer and as cost in winter, by the species' leaf-on months", HEAT)]
+             ("thermometer-sun", "Summer shade + / winter shade −", "in winter people want sun: evergreen crowns that shade in summer also shade in winter, so winter shade counts as a cost", HEAT)]
     for k, (ic, t, d, c) in enumerate(steps):
         x = M + k * 4.18
         box(s, x, 1.6, 3.95, 2.9, tint(c, 0.10))
@@ -278,8 +278,8 @@ def n_limits(s):
 
 
 SLIDES = [
-    (n_question, "My question: when a project must replace trees, can a method inside the city's rules choose species and positions so that shade and rain interception improve, or at least do not get worse, against the city's practice and against today? H1: no worse than the city, better in summer. H2: heat and runoff want different species."),
-    (n_heat, "The heat module asks where the sun hits the street each hour, how much of it each crown stops, and counts summer shade as a gain and winter shade as a cost. I checked it against felt temperature with Ladybug and Infrared City."),
+    (n_question, "My question: when a project must replace trees, can a method inside the city's rules choose species and positions so that shade and rain interception improve, or at least do not get worse, against the city's practice and against today? H1: no worse than the city, better in summer, and no more winter shade than today. H2: heat and runoff want different species."),
+    (n_heat, "The heat module asks where the sun hits the street each hour, how much of it each crown stops, and counts summer shade as a gain and winter shade as a cost, because evergreen crowns that shade in summer also take the winter sun. I checked it against felt temperature with Ladybug and Infrared City."),
     (n_scenarios, "Every scenario uses the same streets and the same tree positions: only the species change. Today, three versions of the city's choice, the old table, which I cite, and the method."),
     (n_porta, "In Porta, replacing the 832 planes, the city's practice keeps about 99% of today's summer shade; the method gives 107%, and with the city's diversity still 106%. In winter the method lets more sun through. Runoff stays the same."),
     (n_cityplan, "The city has a per-tree plan for 513 Porta planes. At the same diversity, the method gives 101% of today's summer shade against the plan's 98%, with more winter sun and equal runoff."),

@@ -430,7 +430,7 @@ From the city's quarterly inventory, 2018Q1–2026Q2 (`scripts/inventory_history
 
 ### 11.4 Hypotheses (v8)
 
-- **H1 (do no harm, improve where possible):** for the trees a project must replace, the method's layout is no worse than the city's practice on heat or runoff, and better on summer heat. Runoff is a check: species matter less than tree pits and grouping (RM_L04).
+- **H1 (do no harm, improve where possible):** for the trees a project must replace, the method's layout is no worse than the city's practice on heat or runoff, better on summer heat, and casts no more winter shade than today (winter shade is one of the optimiser's three weights; added 26 Nov, Giovanni; Porta balanced layout 99% of today vs city practice 109%). Runoff is a check: species matter less than tree pits and grouping (RM_L04).
 - **H2:** heat-best and runoff-best layouts differ in species (unchanged).
 - **Declared boundary:** extreme storms are outside what street trees can affect (unchanged).
 - Winter sun is reported as a trade-off, not tested.
