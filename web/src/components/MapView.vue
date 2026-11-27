@@ -208,6 +208,15 @@ function crowns() {
       pickable: true,
       onClick: (info) => (state.drawing ? addVertex(...at(info)) : (state.selected = keptKey(info.object))),
     }),
+    // park trees get a trunk like the street trees (user 27 Nov); no trunk size in the data: the 0.3 m stand-in
+    state.showParks && state.parks?.site === state.site && new PathLayer({
+      id: 'park-trunks',
+      data: memo('parks', () => [...state.parks.lon.keys()]),
+      getPath: (i) => { const P = state.parks; return [up([P.lon[i], P.lat[i]]), up([P.lon[i], P.lat[i]], crownZ(P.crown_diam_m[i], P.height_m[i], P.crown_base_m[i])[0])] },
+      getColor: (i) => [...HABIT_RGB[habitOf(state.parks.species[i])], 110],
+      getWidth: 0.3, billboard: true, widthMinPixels: 1,
+      updateTriggers: { getPath: g3, getColor: [isDark.value, habits.map] },
+    }),
     state.showParks && state.parks?.site === state.site && new SimpleMeshLayer({
       id: 'parks',
       data: memo('parks', () => [...state.parks.lon.keys()]),
@@ -463,6 +472,7 @@ function layers() {
         stroked: false, pickable: true, updateTriggers: { getPosition: g3 },
         onClick: (info) => { // a click on a free spot plants there in "Add trees" mode
           if (state.drawing) return addVertex(...at(info))
+          if (spotClass(info.index) === 'blocked') return void (state.addMsg = `Blocked spot: ${state.trees.spots.reasons[info.index]?.replaceAll('_', ' ') || 'not plantable'}.`)
           if (state.movePick) return setMoveTarget(info.index) // the tree chosen for Move goes to this spot
           if (state.addMode) tryAdd(state.trees.spots.lon[info.index], state.trees.spots.lat[info.index], info)
           else state.selected = `s${info.index}` // the schedule's Spots tab follows
@@ -472,8 +482,8 @@ function layers() {
         getRadius: 0.35, radiusUnits: 'meters', radiusMinPixels: 1.5, updateTriggers: { getPosition: g3 },
         // white = free; amber = conditional (an object a street project can move: field check first);
         // orange = the pit would sit on a buried service (scripts/utilities_conditional.py)
-        getFillColor: (i) => (state.trees.spots.utility_conditional?.[i] ? [230, 120, 20, 245]
-          : spotClass(i) === 'conditional' ? [235, 150, 30, 245] : [255, 255, 255, 235]) }),
+        getFillColor: (i) => (spotClass(i) === 'blocked' ? [178, 44, 34, 245] : state.trees.spots.utility_conditional?.[i] ? [230, 120, 20, 245]
+          : spotClass(i) === 'conditional' ? [235, 150, 30, 245] : [255, 255, 255, 235]) }), // red centre = blocked
     // SYNTHETIC underground services (a mock from published rules): drawn on the ground, under the spots' rings
     state.showUtilities && state.utilities?.site === state.site &&
       new PathLayer({ id: 'utilities', data: state.utilities.features, getPath: (f) => f.geometry.coordinates, ...drape(),
@@ -485,7 +495,6 @@ function layers() {
     ...crowns(),
     ...movedLayers(),
     ...dimensions(selected), // after the crowns: drawn over them
-    selRing(selected),
     state.showLidar && state.lidar &&
       new PointCloudLayer({ id: 'lidar', data: lidarData(), ...local(), pointSize: 2, sizeUnits: 'pixels', material: false }),
     // the project-area outline and the corners being drawn go over buildings and crowns (no depth test)
@@ -510,6 +519,7 @@ function layers() {
       new ScatterplotLayer({ id: 'edit-pts', data: [...state.draft], getPosition: (d) => up(d), getRadius: 6, radiusUnits: 'pixels',
         getFillColor: themeColors.value.draft, stroked: true, getLineColor: [255, 255, 255], lineWidthMinPixels: 1.5, pickable: true,
         parameters: ON_TOP }),
+    selRing(selected), // last: always on top of crowns, rings and outlines (user 27 Nov)
   ].filter(Boolean)
 }
 
@@ -576,7 +586,7 @@ watch(
 watch(() => [isDark.value, state.basemap], () => map?.setStyle(style()))
 
 // another site or palette: its own relief file
-watch(() => state.meta, (m) => { if (m && state.ground3d) setGround3d(true); if (m && state.showLidar) setLidar(true); if (m && state.showParks) setParks(true); if (m && state.showUtilities) setUtilities(true) })
+watch(() => state.meta, (m) => { if (m && state.ground3d) setGround3d(true); if (m && state.showLidar) setLidar(true); if (m && state.showParks) setParks(true); if (m && state.showUtilities) setUtilities(true) }, { immediate: true })
 
 // a new project area: frame it (keeps the current pitch and bearing)
 watch(() => state.area?.poly, (poly) => {

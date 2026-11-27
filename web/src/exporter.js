@@ -168,9 +168,95 @@ export async function toGpkg(d) {
 export async function download(format) {
   const d = await collect()
   const name = `${state.site}_${state.area ? 'project_area' : 'site'}`
-  const [data, type, ext] = format === 'dxf' ? [toDxf(d), 'application/dxf', 'dxf'] : [await toGpkg(d), 'application/geopackage+sqlite3', 'gpkg']
+  const [data, type, ext] = format === 'dxf' ? [toDxf(d), 'application/dxf', 'dxf'] : format === 'ifc' ? [toIfc(d), 'application/x-step', 'ifc']
+    : [await toGpkg(d), 'application/geopackage+sqlite3', 'gpkg']
   const a = Object.assign(document.createElement('a'), { download: `${name}.${ext}`, href: URL.createObjectURL(new Blob([data], { type })) })
   a.click()
   URL.revokeObjectURL(a.href)
   return { trees: d.trees.length, spots: d.spots.length, buildings: d.buildings.length }
+}
+
+// ---- IFC4 (user 27 Nov: "IFC, let's try it"): each tree an IfcGeographicElement (ObjectType TREE) with a trunk and a
+// crown as two extruded circles, its species and status in a property set; local metres = EPSG:25831 minus the site
+// origin, with an IfcMapConversion back to EPSG:25831 so BIM tools can georeference it.
+const TRUNK_R = 0.15 // ASSUMPTION: drawing radius of the trunk (m); the crown comes from the palette or the LiDAR
+const IFC_CH = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz_$'
+const guid = () => IFC_CH[Math.floor(Math.random() * 4)] + Array.from({ length: 21 }, () => IFC_CH[Math.floor(Math.random() * 64)]).join('')
+// STEP strings: quotes doubled, anything outside printable ASCII as \X2\hhhh\X0\
+const str = (s) => `'${String(s).replace(/'/g, "''").replace(/[^\x20-\x7e]/g, (c) => `\\X2\\${c.charCodeAt(0).toString(16).toUpperCase().padStart(4, '0')}\\X0\\`)}'`
+const fl = (v) => { const t = (+v).toFixed(3); return t.includes('.') ? t : t + '.' }
+
+export function toIfc(d, origin = state.meta.grid.origin ?? [0, 0]) {
+  const L = []
+  let id = 0
+  const e = (s) => (L.push(`#${++id}=${s};`), `#${id}`)
+  const pt = (x, y, z) => e(`IFCCARTESIANPOINT((${fl(x)},${fl(y)},${fl(z)}))`)
+  const o3 = (x = 0, y = 0, z = 0) => e(`IFCAXIS2PLACEMENT3D(${pt(x, y, z)},$,$)`)
+  const zDir = e('IFCDIRECTION((0.,0.,1.))'), p2d = e('IFCAXIS2PLACEMENT2D(IFCCARTESIANPOINT((0.,0.)),$)')
+  const ctx = e(`IFCGEOMETRICREPRESENTATIONCONTEXT($,'Model',3,1.E-05,${o3()},$)`)
+  const body = e(`IFCGEOMETRICREPRESENTATIONSUBCONTEXT('Body','Model',*,*,*,*,${ctx},$,.MODEL_VIEW.,$)`)
+  const crs = e(`IFCPROJECTEDCRS('EPSG:25831','ETRS89 / UTM zone 31N',$,$,$,$,$)`)
+  e(`IFCMAPCONVERSION(${ctx},${crs},${fl(origin[0])},${fl(origin[1])},0.,1.,0.,1.)`)
+  const units = e(`IFCUNITASSIGNMENT((${e('IFCSIUNIT(*,.LENGTHUNIT.,$,.METRE.)')},${e('IFCSIUNIT(*,.PLANEANGLEUNIT.,$,.RADIAN.)')}))`)
+  const project = e(`IFCPROJECT('${guid()}',$,'Shade and sponge',${str(`${state.meta.site.name}, ${d.area ? 'project area' : 'whole site'}`)},$,$,$,(${ctx}),${units})`)
+  const sitePl = e(`IFCLOCALPLACEMENT($,${o3()})`)
+  const site = e(`IFCSITE('${guid()}',$,${str(state.meta.site.name)},$,$,${sitePl},$,$,.ELEMENT.,$,$,$,$,$)`)
+  e(`IFCRELAGGREGATES('${guid()}',$,$,$,${project},(${site}))`)
+  const cyl = (r, z0, h) => e(`IFCEXTRUDEDAREASOLID(${e(`IFCCIRCLEPROFILEDEF(.AREA.,$,${p2d},${fl(r)})`)},${o3(0, 0, z0)},${zDir},${fl(h)})`)
+  const trees = d.trees.map((t) => {
+    const base = Math.max(0.5, Math.min(t.crown_base_m || 2, (t.height_m || 4) - 0.5)), top = Math.max(base + 0.5, t.height_m || 4)
+    const shape = e(`IFCSHAPEREPRESENTATION(${body},'Body','SweptSolid',(${cyl(TRUNK_R, 0, base)},${cyl(Math.max(0.5, (t.crown_diam_m || 2) / 2), base, top - base)}))`)
+    const tree = e(`IFCGEOGRAPHICELEMENT('${guid()}',$,${str(t.species)},${str(t.status.replace('_', ' '))},'TREE',`
+      + `${e(`IFCLOCALPLACEMENT(${sitePl},${o3(t.xy[0] - origin[0], t.xy[1] - origin[1], 0)})`)},${e(`IFCPRODUCTDEFINITIONSHAPE($,$,(${shape}))`)},${str(t.id)},.USERDEFINED.)`)
+    const props = [['Species', `IFCLABEL(${str(t.species)})`], ['Status', `IFCLABEL(${str(t.status)})`], ['TreeId', `IFCIDENTIFIER(${str(t.id)})`],
+      ['CrownDiameter', `IFCPOSITIVELENGTHMEASURE(${fl(t.crown_diam_m || 0.001)})`], ['Height', `IFCPOSITIVELENGTHMEASURE(${fl(t.height_m || 0.001)})`]]
+      .map(([k, v]) => e(`IFCPROPERTYSINGLEVALUE('${k}',$,${v},$)`))
+    e(`IFCRELDEFINESBYPROPERTIES('${guid()}',$,$,$,(${tree}),${e(`IFCPROPERTYSET('${guid()}',$,'ShadeSponge_Tree',$,(${props.join(',')}))`)})`)
+    return tree
+  })
+  if (trees.length) e(`IFCRELCONTAINEDINSPATIALSTRUCTURE('${guid()}',$,$,$,(${trees.join(',')}),${site})`)
+  const stamp = new Date().toISOString().slice(0, 19)
+  return ['ISO-10303-21;', 'HEADER;', "FILE_DESCRIPTION(('ViewDefinition [DesignTransferView]'),'2;1');",
+    `FILE_NAME('trees.ifc','${stamp}',(''),(''),'Shade and sponge','Shade and sponge web app','');`, "FILE_SCHEMA(('IFC4'));", 'ENDSEC;', 'DATA;',
+    ...L, 'ENDSEC;', 'END-ISO-10303-21;', ''].join('\n')
+}
+
+// ---- one zip with everything (user 27 Nov): stored, not compressed (shortcut: no deflate; the files are small) --------
+const CRC = Array.from({ length: 256 }, (_, n) => { let c = n; for (let k = 0; k < 8; k++) c = c & 1 ? 0xedb88320 ^ (c >>> 1) : c >>> 1; return c >>> 0 })
+const crc32 = (b) => { let c = 0xffffffff; for (const x of b) c = CRC[(c ^ x) & 255] ^ (c >>> 8); return (c ^ 0xffffffff) >>> 0 }
+export function zip(files) { // files: [[name, string | Uint8Array]]
+  const enc = new TextEncoder(), parts = [], dir = []
+  let off = 0
+  for (const [name, data] of files) {
+    const b = typeof data === 'string' ? enc.encode(data) : data, nm = enc.encode(name), crc = crc32(b)
+    const h = new DataView(new ArrayBuffer(30))
+    ;[[0, 0x04034b50, 4], [4, 20, 2], [6, 0x0800, 2], [14, crc, 4], [18, b.length, 4], [22, b.length, 4], [26, nm.length, 2]]
+      .forEach(([o, v, n]) => (n === 4 ? h.setUint32(o, v, true) : h.setUint16(o, v, true)))
+    const c = new DataView(new ArrayBuffer(46))
+    ;[[0, 0x02014b50, 4], [4, 20, 2], [6, 20, 2], [8, 0x0800, 2], [16, crc, 4], [20, b.length, 4], [24, b.length, 4], [28, nm.length, 2], [42, off, 4]]
+      .forEach(([o, v, n]) => (n === 4 ? c.setUint32(o, v, true) : c.setUint16(o, v, true)))
+    parts.push(new Uint8Array(h.buffer), nm, b)
+    dir.push(new Uint8Array(c.buffer), nm)
+    off += 30 + nm.length + b.length
+  }
+  const size = dir.reduce((a, x) => a + x.length, 0), end = new DataView(new ArrayBuffer(22))
+  ;[[0, 0x06054b50, 4], [8, files.length, 2], [10, files.length, 2], [12, size, 4], [16, off, 4]]
+    .forEach(([o, v, n]) => (n === 4 ? end.setUint32(o, v, true) : end.setUint16(o, v, true)))
+  return new Blob([...parts, ...dir, new Uint8Array(end.buffer)], { type: 'application/zip' })
+}
+
+const treeCsv = (d) => ['id,x_epsg25831,y_epsg25831,species,status,crown_diam_m,height_m,crown_base_m',
+  ...d.trees.map((t) => [t.id, t.xy[0].toFixed(2), t.xy[1].toFixed(2), `"${t.species}"`, t.status, t.crown_diam_m, t.height_m, t.crown_base_m].join(','))].join('\n')
+
+// the project file, CAD, GIS, IFC and the tree table in one download
+export async function downloadAll(projectJson) {
+  const d = await collect()
+  const name = `${state.site}_${state.area ? 'project_area' : 'site'}`
+  const blob = zip([[`${name}_project.json`, projectJson], [`${name}.dxf`, toDxf(d)], [`${name}.gpkg`, await toGpkg(d)],
+    [`${name}.ifc`, toIfc(d)], [`${name}_trees.csv`, treeCsv(d)],
+    ['README.txt', 'Shade and sponge export. Coordinates in EPSG:25831 metres (ETRS89 / UTM 31N); the IFC is in local metres from '
+      + `origin ${state.meta.grid.origin ?? [0, 0]} with an IfcMapConversion. Open the _project.json again in the web app: welcome screen, "Open a saved project".\n`]])
+  const a = Object.assign(document.createElement('a'), { download: `${name}.zip`, href: URL.createObjectURL(blob) })
+  a.click()
+  URL.revokeObjectURL(a.href)
 }
