@@ -1,6 +1,7 @@
 <script setup>
 // Headline numbers of the selected layout, compared with the current trees and with the mean city-practice layout (S1b).
-import { computed } from 'vue'
+import { computed, ref } from 'vue'
+const hov = ref(null) // the species under the pointer on the mix bar (user 27 Nov)
 import { state, scenario, baseline, calibration, shownMetrics, LIVE, AREA } from '../store.js'
 
 // compact: the guided flow's version (short numbers, no method notes)
@@ -65,7 +66,7 @@ const winterRange = computed(() => {
     <tbody>
       <tr v-for="r in rows" :key="r.name">
         <td>{{ r.name }}</td>
-        <td class="num" :title="isLive ? `estimate: R² ${calibration[r.k].r2.toFixed(2)} on the saved layouts` : ''">{{ isLive ? '≈ ' : '' }}{{ num(r.v) }} <span class="u">{{ r.unit }}</span></td>
+        <td class="num" :title="isLive ? `estimate: R² ${calibration[r.k].r2.toFixed(2)} on the saved layouts` : ''">{{ num(r.v) }} <span class="u">{{ r.unit }}</span></td>
         <td class="num" :class="good(r.vs0, r.sign)">{{ fmt(r.vs0) }}</td>
         <td class="num" :class="good(r.vcity, r.sign)">{{ fmt(r.vcity) }}</td>
       </tr>
@@ -80,8 +81,8 @@ const winterRange = computed(() => {
           <td>{{ r.name }}</td>
           <td class="num">{{ r.own ? num(r.today) : '' }}</td>
           <td class="num">{{ r.own ? num(r.after) : '' }}</td>
-          <td class="num" :class="good(r.delta, r.sign)">≈ {{ sgn(r.delta) }} <span class="u">{{ r.unit }}</span>
-            <br><span class="u">{{ r.own ? (r.pct == null ? '' : `${r.pct > 0 ? '+' : ''}${r.pct.toFixed(0)}%`) : `${sgn(r.perTree)} L per tree` }}</span></td>
+          <td class="num" :class="good(r.delta, r.sign)">{{ sgn(r.delta) }} <span class="u">{{ r.unit }}</span>
+            <br><span class="pc">{{ r.own ? (r.pct == null ? '' : `${r.pct > 0 ? '+' : ''}${r.pct.toFixed(0)}%`) : `${sgn(r.perTree)} L per tree` }}</span></td>
         </tr>
       </tbody>
     </table>
@@ -91,8 +92,11 @@ const winterRange = computed(() => {
     </p>
   </template>
   <div v-if="mix.length" class="mix" aria-label="Species mix of the replaced positions">
-    <span v-for="m in mix" :key="m.species" :style="{ width: m.w + '%', background: m.color }" :title="`${m.species}: ${m.n}`"></span>
+    <span v-for="m in mix" :key="m.species" :style="{ width: m.w + '%', background: m.color }" :title="`${m.species}: ${m.n}`"
+          @mouseenter="hov = m" @mouseleave="hov = null"></span>
   </div>
+  <p v-if="mix.length" class="mixlbl"><template v-if="hov"><i :style="{ background: hov.color }"></i><em>{{ hov.species }}</em> {{ hov.n }} tree{{ hov.n > 1 ? 's' : '' }}</template>
+    <template v-else>Point at the bar to see each species</template></p>
   <template v-if="!compact">
   <p v-if="state.added.length" class="note live">Includes {{ state.added.length }} added tree{{ state.added.length > 1 ? 's' : '' }}, estimated with the same calibration.</p>
   <p v-if="state.scenarioId === AREA" class="note live">
@@ -120,7 +124,11 @@ const winterRange = computed(() => {
 .kpi td { padding: 4px; border-top: 0.5px solid var(--line); }
 .num { text-align: right; white-space: nowrap; }
 .u { color: var(--muted); font-size: 11px; }
-.mix { display: flex; height: 10px; border-radius: 3px; overflow: hidden; margin: 10px 0 4px; gap: 1px; }
+.pc { font-size: 11px; } /* same colour as the value above it */
+.mixlbl { font-size: 12px; color: var(--muted); margin: 0; min-height: 18px; display: flex; gap: 6px; align-items: center; }
+.mixlbl i { width: 10px; height: 10px; border-radius: 2px; } .mixlbl em { color: var(--text); }
+.mix span { cursor: default; transition: filter 0.15s; } .mix span:hover { filter: brightness(1.15); }
+.mix { display: flex; height: 14px; border-radius: 3px; overflow: hidden; margin: 10px 0 4px; gap: 1px; }
 .sub { font-size: 12px; margin: 12px 0 4px; }
 .hot { font-size: 12px; margin: 6px 0 0; }
 .note.live { color: var(--accent); }

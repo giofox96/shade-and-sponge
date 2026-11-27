@@ -6,13 +6,15 @@ import { computed, ref, watch, h, onBeforeUnmount, onMounted } from 'vue'
 import { download } from '../exporter.js'
 import { state, ui, startDrawing, finishArea, cancelDrawing, setAreaAll, fillAreaSpots, fillableSpots, spotClass, areaCover,
   layoutEff, configJson, savedProject, loadConfig, costs, projectCost, runArea, setAddMode, AREA } from '../store.js'
-import { startCoach } from '../coach.js'
+import { startCoach, coach, stop as stopCoach, tips, setTips } from '../coach.js'
 import BarriPicker from './BarriPicker.vue'
 import PriorityTriangle from './PriorityTriangle.vue'
 import KpiPanel from './KpiPanel.vue'
 import RulesPanel from './RulesPanel.vue'
 import Icon from './Icon.vue'
 import CoachMarks from './CoachMarks.vue'
+import InfoTip from './InfoTip.vue'
+import ArcGauge from './ArcGauge.vue'
 
 // steps and, for each, its vertical pages
 const STEPS = [
@@ -75,6 +77,8 @@ function useSchedule() {
   startCoach('schedule', SCHEDULE_TOUR, true)
 }
 onMounted(() => tour(ui.step))
+// the area is drawn: the step-1 tips have done their job
+watch(() => !!A.value?.metrics, (on) => on && coach.name === 'step1' && stopCoach())
 
 const spots = computed(() => {
   if (!A.value) return null
@@ -130,8 +134,11 @@ const head = computed(() => {
     city: A.value.city?.metrics ? A.value.metrics.shade_summer_m2h - A.value.city.metrics.shade_summer_m2h : null,
     cityLitres: A.value.city?.metrics ? -1000 * (A.value.metrics.runoff_hot_m3 - A.value.city.metrics.runoff_hot_m3) : null }
 })
-const LEGEND = [['deciduous', 'Loses its leaves in winter', '#b08a2e'], ['evergreen', 'Keeps its leaves', '#5e8f55'],
-  ['semi-deciduous', 'Loses part of them', '#a3a35a'], ['unknown', 'Leaf habit not found', '#96968c']]
+const LEGEND = [['Deciduous', 'Bare in winter', '#b08a2e'], ['Evergreen', 'Green all year', '#5e8f55'], ['Semi-deciduous', 'Loses part of its leaves', '#a3a35a']]
+// the spot discs as drawn on the map (MapView 'spots' and 'spot-centres')
+const SPOT_SIZES = [['Small spot', 'Room for a small tree', '#a8d66e'], ['Medium spot', 'Room for a medium tree', '#5caa32'], ['Large spot', 'Room for a large tree', '#286e14']]
+const SPOT_DOTS = [['White centre', 'Free: plant it', '#ffffff'], ['Amber centre', 'A sign, lamp or bollard to move first', '#eb961e'],
+  ['Orange centre', 'A buried service under the pit', '#e67814'], ['Red centre', 'Blocked: no tree here', '#b22c22']]
 
 // a number that counts up to its value when it appears or changes
 const Count = {
@@ -156,6 +163,10 @@ const Count = {
   },
 }
 const key = computed(() => `${ui.step}.${sub.value}`)
+const eur = (v) => Number(v).toLocaleString('en', { minimumFractionDigits: 2, maximumFractionDigits: 2 })
+const COSTS = [['tree', 'per new tree', 'New pit on a free spot, planting included (CYPE price base, direct cost)'],
+  ['move', 'per transplant', 'Young-tree transplant (CYPE JSP020, direct cost)'],
+  ['object', 'per object moved', 'Dismantling and re-installing a traffic sign without the post (CYPE DTM030 + TSV050, direct cost)']]
 </script>
 
 <template>
@@ -163,13 +174,18 @@ const key = computed(() => `${ui.step}.${sub.value}`)
     <Transition :name="dir" mode="out-in">
       <!-- 0 · welcome: centred, big -->
       <section v-if="ui.step === 0" :key="key" class="card hero">
-        <div class="sprout" aria-hidden="true"><span></span><i></i><i></i></div>
+        <div class="sprout" aria-hidden="true"><b></b><span></span><i></i><i></i><i></i><i></i></div>
         <h1>Which trees for this street?</h1>
         <p class="lead">Draw the street you are redesigning. I compare the trees you could plant there on summer shade, winter sun
           and flooding, against what the city plants today.</p>
         <div class="row">
           <button class="big primary go-next" @click="go(1)">Start <span aria-hidden="true">→</span></button>
           <button v-if="saved?.area" class="big ghost" @click="resume">Resume last project</button>
+        </div>
+        <div class="tipq" role="group" aria-label="Show tips">
+          <span>Show me tips along the way?</span>
+          <button :class="{ on: tips.on }" :aria-pressed="tips.on" @click="setTips(true)">Yes</button>
+          <button :class="{ on: !tips.on }" :aria-pressed="!tips.on" @click="setTips(false)">No</button>
         </div>
       </section>
 
@@ -180,7 +196,7 @@ const key = computed(() => `${ui.step}.${sub.value}`)
         <div class="row">
           <button v-if="!state.drawing" class="big primary draw" @click="startDrawing"><Icon name="edit" />{{ A ? 'Redraw the area' : 'Draw the area' }}</button>
           <template v-else>
-            <button class="big primary" :disabled="state.draft.length < 3" @click="finishArea">Finish · {{ state.draft.length }} corners</button>
+            <button class="big primary" :disabled="state.draft.length < 3" @click="finishArea">Finish ({{ state.draft.length }} corners)</button>
             <button class="big ghost" @click="cancelDrawing">Cancel</button>
           </template>
         </div>
@@ -191,24 +207,28 @@ const key = computed(() => `${ui.step}.${sub.value}`)
 
       <!-- 2 · today: numbers, then how to read the map -->
       <section v-else-if="ui.step === 2 && A && sub === 0" :key="key" class="card">
-        <p class="say">Here is what grows there today.</p>
+        <p class="say">Here is what grows there today</p>
         <div class="stats">
           <div><Icon name="park" /><b><Count :to="A.inPlanes.length + A.keptIdx.length" /></b><span class="lbl">street trees</span></div>
           <div><Icon name="swap" /><b><Count :to="A.inPlanes.length" /></b><span class="lbl">plane trees, the ones the city replaces</span></div>
           <div v-if="spots"><Icon name="fill" /><b><Count :to="spots.free" /></b><span class="lbl">free spots for new trees</span></div>
-          <div v-if="areaCover"><Icon name="layers" /><b><Count :to="areaCover.today" :digits="1" />%</b><span class="lbl">canopy cover · the city aims at 30%</span></div>
+          <div v-if="areaCover"><ArcGauge class="gauge" :value="areaCover.today" /><b><Count :to="areaCover.today" :digits="1" />%</b><span class="lbl">canopy cover, target 30%</span></div>
         </div>
         <p v-if="spots?.conditional" class="hint">{{ spots.conditional }} more spots are possible if a sign, a lamp or a buried service is moved.</p>
       </section>
       <section v-else-if="ui.step === 2 && A && sub === 1" :key="key" class="card">
-        <p class="say">How to read the map.</p>
+        <p class="say">How to read the map</p>
+        <p class="lgh">Trees</p>
         <ul class="legend">
-          <li v-for="[k, txt, c] in LEGEND" :key="k"><span class="sw" :style="{ background: c }"></span><b>{{ k }}</b> {{ txt }}</li>
-          <li><span class="sw spot"></span><b>green disc</b> a free planting spot; an amber dot means a field check first</li>
-          <li><span class="sw ring"></span><b>blue ring</b> the tree or spot you selected</li>
+          <li v-for="[k, txt, c] in LEGEND" :key="k"><span class="sw" :style="{ background: c }"></span><div><b>{{ k }}</b><small>{{ txt }}</small></div></li>
         </ul>
-        <p class="hint">Colour = leaf habit, so you see at a glance which streets stay green in winter. Bigger ball = bigger crown.
-          Today's trees are drawn lighter, the new ones solid.</p>
+        <p class="lgh">Planting spots</p>
+        <ul class="legend">
+          <li v-for="[k, txt, c] in SPOT_SIZES" :key="k"><span class="sw disc" :style="{ background: c }"><i></i></span><div><b>{{ k }}</b><small>{{ txt }}</small></div></li>
+        </ul>
+        <ul class="legend">
+          <li v-for="[k, txt, c] in SPOT_DOTS" :key="k"><span class="sw disc" style="background: #5caa32"><i :style="{ background: c }"></i></span><div><b>{{ k }}</b><small>{{ txt }}</small></div></li>
+        </ul>
       </section>
 
       <!-- 3 · replace -->
@@ -218,7 +238,7 @@ const key = computed(() => `${ui.step}.${sub.value}`)
           <button class="tog" :class="{ on: !A.all }" @click="setAreaAll(false)"><Icon name="swap" /><b>Only the plane trees</b><small>{{ A.inPlanes.length }} trees</small></button>
           <button class="tog" :class="{ on: A.all }" :disabled="!A.inPlanes.length" @click="setAreaAll(true)"><Icon name="swap" /><b>All street trees</b><small>{{ A.inPlanes.length + A.keptIdx.length }} trees</small></button>
         </div>
-        <button class="big ghost use-schedule" @click="useSchedule"><Icon name="more" />Decide tree by tree · use the table</button>
+        <button class="big ghost use-schedule" @click="useSchedule"><Icon name="more" />Decide tree by tree in the table</button>
       </section>
 
       <!-- 4 · add -->
@@ -232,7 +252,7 @@ const key = computed(() => `${ui.step}.${sub.value}`)
         </div>
         <p v-if="addChoice === 'click'" class="hint">Click on the map: green ground takes a tree, amber with a warning. {{ state.added.length }} added so far.</p>
         <p v-if="state.addMsg" class="hint accent">{{ state.addMsg }}</p>
-        <button class="big ghost use-schedule" @click="useSchedule"><Icon name="more" />Choose spot by spot · use the table</button>
+        <button class="big ghost use-schedule" @click="useSchedule"><Icon name="more" />Choose spot by spot in the table</button>
       </section>
 
       <!-- 5 · priorities: goal, triangle, rules -->
@@ -246,61 +266,61 @@ const key = computed(() => `${ui.step}.${sub.value}`)
         <p v-if="state.liveError" class="hint danger">{{ state.liveError }}</p>
       </section>
       <section v-else-if="ui.step === 5 && A && sub === 1" :key="key" class="card">
-        <p class="say">Anything in between.</p>
+        <p class="say">Anything in between</p>
         <p class="hint">Click inside the triangle: each corner is one goal at 100%.</p>
         <PriorityTriangle />
       </section>
       <section v-else-if="ui.step === 5 && A && sub === 2" :key="key" class="card">
-        <p class="say">Species and rules.</p>
+        <p class="say">Species and rules</p>
         <RulesPanel />
       </section>
 
       <!-- 6 · result -->
       <section v-else-if="ui.step === 6 && A && head" :key="key" class="card">
-        <p class="say">Here is the street with the new trees.</p>
+        <p class="say">Here is the street with the new trees<InfoTip>Against today's trees in the area: one hot summer day for shade, one 2-year, 1-hour storm for water.</InfoTip></p>
         <div class="stats">
           <div :class="head.summer >= 0 ? 'up' : 'down'"><Icon name="sun" /><b><Count :to="head.summer" sign />%</b><span class="lbl">summer shade</span></div>
           <div :class="head.litres >= 0 ? 'up' : 'down'"><Icon name="drop" /><b><Count :to="Math.abs(head.litres)" /> L</b><span class="lbl">{{ head.litres >= 0 ? 'less' : 'more' }} water to flood spots</span></div>
-          <div v-if="areaCover" :class="areaCover.now >= areaCover.today ? 'up' : 'down'"><Icon name="layers" /><b><Count :to="areaCover.now" :digits="1" />%</b><span class="lbl">canopy (was {{ areaCover.today.toFixed(1) }}%)</span></div>
+          <div v-if="areaCover" :class="areaCover.now >= areaCover.today ? 'up' : 'down'"><ArcGauge class="gauge" :value="areaCover.now" /><b><Count :to="areaCover.now" :digits="1" />%</b><span class="lbl">canopy (was {{ areaCover.today.toFixed(1) }}%)</span></div>
           <div><Icon name="park" /><b><Count :to="layoutEff ?? 0" :digits="1" /></b><span class="lbl">effective species</span></div>
         </div>
-        <p class="hint">Against today's trees in the area: one hot summer day for shade, one 2-year storm for water.</p>
       </section>
 
       <!-- 7 · compare: city, every number, cost -->
       <section v-else-if="ui.step === 7 && A && head && sub === 0" :key="key" class="card">
-        <p class="say">And against what the city would plant?</p>
+        <p class="say">And against what the city would plant?<InfoTip>The city's mix: the species it actually planted in place of plane trees in recent years, on the same positions.</InfoTip></p>
         <div class="stats">
           <div v-if="head.city != null" :class="head.city >= 0 ? 'up' : 'down'"><Icon name="sun" /><b><Count :to="head.city / 1000" :digits="1" sign />k</b><span class="lbl">m²·h summer shade vs the city's mix</span></div>
           <div v-if="head.cityLitres != null" :class="head.cityLitres >= 0 ? 'up' : 'down'"><Icon name="drop" /><b><Count :to="Math.abs(head.cityLitres)" /> L</b><span class="lbl">{{ head.cityLitres >= 0 ? 'less' : 'more' }} water than the city's mix</span></div>
         </div>
-        <p class="hint">The city's mix = the species it actually planted in recent years, on the same positions.</p>
       </section>
       <section v-else-if="ui.step === 7 && A && sub === 1" :key="key" class="card">
-        <p class="say">Every number.</p>
+        <p class="say">Every number</p>
         <KpiPanel compact />
       </section>
       <section v-else-if="ui.step === 7 && A && sub === 2" :key="key" class="card">
-        <p class="say">What it costs.</p>
+        <p class="say">What it costs<InfoTip>Direct costs from the CYPE construction price base, without overhead, profit or VAT; watering is not included. Change them to your own: they stay in this browser.</InfoTip></p>
         <div class="cost">
-          <label title="New pit on a free spot, planting included; CYPE price base, direct cost">€ per new tree <input type="number" min="0" step="10" v-model.number="costs.tree" /></label>
-          <label title="Young-tree transplant, CYPE JSP020, direct cost">€ per transplant <input type="number" min="0" step="10" v-model.number="costs.move" /></label>
-          <label title="Dismantling and re-installing a traffic sign without the post, CYPE DTM030 + TSV050, direct cost">€ per object moved <input type="number" min="0" step="10" v-model.number="costs.object" /></label>
+          <label v-for="[k, what, src] in COSTS" :key="k"><span class="eur">€</span>
+            <input type="number" min="0" step="0.01" :value="costs[k] == null ? '' : Number(costs[k]).toFixed(2)"
+                   @change="costs[k] = $event.target.value === '' ? null : Math.round(100 * Number($event.target.value)) / 100" />
+            <span>{{ what }}</span><InfoTip>{{ src }}</InfoTip></label>
         </div>
-        <p v-if="projectCost?.known && projectCost.total" class="pop">≈ € <Count :to="projectCost.total" /> · € {{ Math.round(projectCost.perTree).toLocaleString('en') }} per tree</p>
-        <p class="hint">Prices are direct costs from the CYPE construction price base (no overhead, profit or VAT; watering not included).
-          Change them to your own: they stay in this browser.</p>
+        <div v-if="projectCost?.known && projectCost.total" class="total">
+          <p><b>€ {{ eur(projectCost.total) }}</b> in total</p>
+          <p>€ {{ eur(projectCost.perTree) }} per tree</p>
+        </div>
       </section>
 
       <!-- 8 · report (the page itself fills the main view) -->
       <section v-else-if="ui.step === 8 && A" :key="key" class="card slim">
-        <p class="say">Your one-page report.</p>
+        <p class="say">Your one-page report</p>
         <div class="row"><button class="big primary" @click="printReport">Print or save as PDF</button></div>
       </section>
 
       <!-- 9 · save -->
       <section v-else-if="ui.step === 9 && A" :key="key" class="card">
-        <p class="say">Take it with you.</p>
+        <p class="say">Take it with you</p>
         <div class="toggles">
           <button class="tog" @click="saveCfg"><Icon name="layers" /><b>Save project</b><small>open it again later</small></button>
           <button class="tog" @click="download('dxf')"><Icon name="building" /><b>CAD</b><small>DXF</small></button>
@@ -311,7 +331,7 @@ const key = computed(() => `${ui.step}.${sub.value}`)
       </section>
 
       <section v-else :key="key" class="card">
-        <p class="say">First, draw your street.</p>
+        <p class="say">First, draw your street</p>
         <div class="row"><button class="big primary" @click="go(1)">Go to step 1</button></div>
       </section>
     </Transition>
@@ -376,39 +396,53 @@ button.ghost { background: transparent; }
 .stats > div { position: relative; background: var(--bg); border-radius: 14px; padding: 14px 14px 12px; animation: rise 0.45s ease both; }
 .stats > div:nth-child(2) { animation-delay: 0.08s; } .stats > div:nth-child(3) { animation-delay: 0.16s; } .stats > div:nth-child(4) { animation-delay: 0.24s; }
 .stats :deep(svg) { position: absolute; top: 12px; right: 12px; width: 22px; height: 22px; opacity: 0.55; }
+.stats :deep(svg.gauge) { width: 46px; height: 29px; opacity: 1; top: 10px; right: 10px; }
 .stats b { display: block; font-size: 34px; line-height: 1.1; letter-spacing: -0.02em; font-variant-numeric: tabular-nums; }
 .stats .lbl { display: block; font-size: 13px; color: var(--muted); margin-top: 2px; }
 .stats .up b { color: var(--good); } .stats .down b { color: var(--bad); }
-.legend { list-style: none; padding: 0; margin: 0; display: grid; gap: 10px; font-size: 15px; }
-.legend li { display: flex; gap: 10px; align-items: baseline; animation: rise 0.4s ease both; }
-.legend b { text-transform: capitalize; min-width: 112px; }
+.legend { list-style: none; padding: 0; margin: 0 0 6px; display: grid; gap: 8px; }
+.lgh { font-size: 12px; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); margin: 10px 0 6px; }
+.legend li { display: flex; gap: 12px; align-items: center; animation: rise 0.4s ease both; }
+.legend li div { display: flex; flex-direction: column; line-height: 1.2; }
+.legend small { font-size: 12px; color: var(--muted); }
+.legend b { font-size: 15px; }
 .sw { width: 16px; height: 16px; border-radius: 50%; display: inline-block; flex: none; align-self: center; }
-.sw.spot { background: #8fc45c; } .sw.ring { border: 3px solid var(--accent); background: transparent; }
+.sw.disc { width: 22px; height: 22px; display: grid; place-items: center; opacity: 0.85; }
+.sw.disc i { width: 6px; height: 6px; border-radius: 50%; background: #fff; box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15); }
 .cost { display: grid; gap: 8px; font-size: 15px; }
-.cost label { display: flex; justify-content: space-between; align-items: center; gap: 8px; }
-.cost input { width: 110px; font-size: 16px; padding: 6px 10px; border-radius: 10px; }
+.cost label { display: grid; grid-template-columns: 14px 110px 1fr auto; align-items: center; gap: 8px; }
+.cost input { width: 110px; font-size: 16px; padding: 6px 10px; border-radius: 10px; text-align: right; font-variant-numeric: tabular-nums; }
+.total { margin-top: 14px; animation: pop 0.4s ease both; } .total p { margin: 2px 0; font-size: 15px; } .total b { font-size: 22px; }
 .barri { margin-top: 4px; }
-.vnav { display: flex; align-items: center; gap: 6px; align-self: flex-start; background: var(--panel); border: 0.5px solid var(--line);
-  border-radius: 999px; padding: 4px 6px; box-shadow: 0 4px 14px rgba(42, 38, 34, 0.1); }
-.vnav button { border-radius: 999px; padding: 4px 10px; font-size: 12px; }
+.vnav, .dots { display: flex; align-items: center; gap: 8px; align-self: stretch; min-height: 52px; background: var(--panel);
+  border: 0.5px solid var(--line); border-radius: 999px; padding: 6px 8px; box-shadow: 0 4px 14px rgba(42, 38, 34, 0.1); }
+.vnav button { border-radius: 999px; padding: 8px 12px; font-size: 14px; }
+.vnav .vdot { flex: 1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.vnav > button:first-child, .vnav > button:last-child { width: 38px; height: 38px; padding: 0; flex: none; }
 .vdot.on { background: var(--accent); color: var(--bg); border-color: var(--accent); }
-.dots { display: flex; align-items: center; gap: 8px; align-self: flex-start; background: var(--panel); border: 0.5px solid var(--line);
-  border-radius: 999px; padding: 6px 8px 6px 10px; box-shadow: 0 4px 14px rgba(42, 38, 34, 0.1); }
 .dot { width: 10px; height: 10px; padding: 0; border-radius: 50%; border: 0; background: var(--line); transition: width 0.3s, background 0.3s; }
 .dot.done { background: var(--muted); }
 .dot.on { width: 26px; border-radius: 6px; background: var(--accent); }
-.arrow, .help { border-radius: 50%; width: 34px; height: 34px; padding: 0; font-size: 16px; }
-.next-big { border-radius: 999px; padding: 8px 16px; font-weight: 600; margin-left: 6px; }
+.arrow, .help { border-radius: 50%; width: 38px; height: 38px; padding: 0; font-size: 16px; flex: none; }
+.next-big { border-radius: 999px; padding: 10px 16px; font-size: 15px; font-weight: 600; margin-left: auto; }
+.tipq { display: flex; gap: 8px; align-items: center; justify-content: center; margin-top: 22px; font-size: 15px; color: var(--muted); animation: rise 0.6s ease both 0.5s; }
+.tipq button { border-radius: 999px; padding: 6px 16px; }
+.tipq button.on { background: var(--good); border-color: var(--good); color: #fff; }
 .next-big.ready { background: var(--accent); color: var(--bg); border-color: var(--accent); animation: nudge 2.4s ease-in-out infinite 1.5s; }
 .pulse { animation: blink 1s ease-in-out infinite; }
 /* the sprout on the welcome screen: a trunk that grows, two leaves that open */
-.sprout { position: relative; width: 60px; height: 70px; margin: 0 auto; }
-.sprout span { position: absolute; left: 28px; bottom: 0; width: 4px; height: 0; background: var(--good); border-radius: 2px;
-  animation: grow 0.8s ease forwards 0.1s; }
-.sprout i { position: absolute; bottom: 34px; width: 22px; height: 12px; background: var(--good); border-radius: 12px 0;
-  transform: scale(0); animation: leaf 0.5s ease forwards 0.8s; }
-.sprout i:first-of-type { left: 8px; transform-origin: right bottom; }
-.sprout i:last-of-type { left: 30px; border-radius: 0 12px; transform-origin: left bottom; animation-delay: 1s; }
+.sprout { position: relative; width: 90px; height: 96px; margin: 0 auto; animation: settle 0.9s ease forwards 3.3s; }
+.sprout span { position: absolute; left: 43px; bottom: 0; width: 4px; height: 0; background: #7a5a3a; border-radius: 2px;
+  animation: grow 1.3s cubic-bezier(.3, .7, .3, 1) forwards 0.1s; }
+.sprout i { position: absolute; width: 22px; height: 12px; background: var(--good); border-radius: 12px 0; transform: scale(0);
+  animation: leaf 0.55s ease forwards 1.2s, fade 0.5s ease forwards 2.9s; }
+.sprout i:nth-of-type(odd) { left: 22px; transform-origin: right bottom; }
+.sprout i:nth-of-type(even) { left: 46px; border-radius: 0 12px; transform-origin: left bottom; }
+.sprout i:nth-of-type(1) { bottom: 26px; } .sprout i:nth-of-type(2) { bottom: 34px; animation-delay: 1.45s, 2.9s; }
+.sprout i:nth-of-type(3) { bottom: 44px; animation-delay: 1.7s, 2.9s; } .sprout i:nth-of-type(4) { bottom: 52px; animation-delay: 1.95s, 2.9s; }
+/* the crown opens behind the leaves: from a sprout to a tree */
+.sprout b { position: absolute; left: 13px; bottom: 34px; width: 64px; height: 58px; border-radius: 50%; background: var(--good);
+  transform: scale(0); transform-origin: 50% 90%; animation: crown 0.9s cubic-bezier(.2, .8, .2, 1.2) forwards 2.5s; }
 /* steps slide sideways like pages; a step's own pages slide up and down */
 .next-enter-active, .next-leave-active, .back-enter-active, .back-leave-active,
 .down-enter-active, .down-leave-active, .up-enter-active, .up-leave-active { transition: transform 0.4s cubic-bezier(.2, .8, .2, 1), opacity 0.3s; }
@@ -419,7 +453,10 @@ button.ghost { background: transparent; }
 @keyframes rise { from { transform: translateY(10px); opacity: 0; } to { transform: none; opacity: 1; } }
 @keyframes pop { 0% { transform: scale(0.9); opacity: 0; } 60% { transform: scale(1.04); opacity: 1; } 100% { transform: none; } }
 @keyframes blink { 50% { opacity: 0.35; } }
-@keyframes grow { to { height: 48px; } }
+@keyframes grow { to { height: 62px; } }
+@keyframes crown { to { transform: scale(1); } }
+@keyframes fade { to { opacity: 0; } }
+@keyframes settle { to { transform: scale(0.8); } }
 @keyframes leaf { to { transform: scale(1); } }
 @keyframes nudge { 0%, 80%, 100% { transform: none; } 88% { transform: translateX(4px); } 94% { transform: translateX(-2px); } }
 @media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } }
