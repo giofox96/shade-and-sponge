@@ -183,8 +183,8 @@ async function openCfg(ev) {
 
 <style scoped>
 select.auto { font-style: italic; color: var(--muted); }
-.schedule { position: absolute; left: 0; right: 0; bottom: 0; height: 42%; z-index: 6; display: flex; flex-direction: column;
-  background: var(--panel); border-top: 0.5px solid var(--line); box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.1); }
+.schedule { position: absolute; left: 12px; right: 12px; bottom: 12px; height: 42%; z-index: 6; display: flex; flex-direction: column;
+  background: var(--panel); border: 0.5px solid var(--line); border-radius: 16px; overflow: hidden; box-shadow: 0 10px 30px rgba(42, 38, 34, 0.16); }
 .bar { display: flex; align-items: center; gap: 8px; padding: 6px 10px; flex-wrap: wrap; border-bottom: 0.5px solid var(--line); }
 .spacer { flex: 1; }
 .find { font: inherit; font-size: 12px; padding: 3px 6px; border: 0.5px solid var(--line); border-radius: 4px; background: var(--bg); color: var(--text); min-width: 160px; }

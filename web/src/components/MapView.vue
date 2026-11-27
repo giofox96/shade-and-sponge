@@ -15,7 +15,7 @@ import { TileLayer } from '@deck.gl/geo-layers'
 import { _TerrainExtension as TerrainExtension } from '@deck.gl/extensions'
 import { SphereGeometry } from '@luma.gl/engine'
 import { state, dataUrl, hexToRgb, currentLayout, spotClass, addTreeAt, addVertex, keptReplaced, themeColors, isDark, AREA, addableMask, finishArea,
-  cancelDrawing, finishEditArea, cancelEditArea, groundZ, setGround3d, setLidar, setParks, setUtilities, spotWhy, keptKey, ORTO } from '../store.js'
+  cancelDrawing, finishEditArea, cancelEditArea, groundZ, HABIT_RGB, habits, habitOf, setGround3d, setLidar, setParks, setUtilities, spotWhy, keptKey, ORTO } from '../store.js'
 
 setWorkerUrl(workerUrl)
 const el = ref(null)
@@ -131,19 +131,26 @@ function buildings3d() {
   return []
 }
 
+// the crowns' data arrays are rebuilt only when what they show changes: deck.gl recomputes every attribute of a layer whose
+// data is a new array, and rebuilding them on every redraw made drawing an area lag (user tests 27 Nov)
+let crownMemo = { key: null, trees: null, data: null }
 function crowns() {
   const { trees, meta, scenarioId, month, selected } = state
   const p = trees.positions
   const lay = currentLayout()
   const pal = meta.palette
-  const ids = [...p.lon.keys()]
+  const memoKey = [scenarioId, state.live?.version, state.area?.version, state.addedVersion, month, selected, state.ground3d, isDark.value,
+    Object.keys(habits.map).length].join('|')
+  if (crownMemo.key !== memoKey || crownMemo.trees !== trees) crownMemo = { key: memoKey, trees, data: {} }
+  const memo = (name, make) => (crownMemo.data[name] ??= make())
+  const ids = memo('ids', () => [...p.lon.keys()])
   const dims = (i) => {
     // today's tree (S0, or outside a project area): its measured crown
     if (!pal[lay[i]].in_palette) return [p.s0_crown_diam_m[i], p.s0_height_m[i], p.s0_crown_base_m[i]]
     const s = pal[lay[i]]
     return [s.crown_diam_m, s.height_m, s.crown_base_m]
   }
-  const add = [...state.added] // a new array: deck.gl only notices data changes by reference
+  const add = memo('add', () => [...state.added]) // a new array when trees are added: deck.gl only notices data changes by reference
   const aDims = (t) => {
     const s = pal[t.species]
     return [s.crown_diam_m, s.height_m, s.crown_base_m]
@@ -151,7 +158,8 @@ function crowns() {
   const k = state.trees.kept
   const repl = scenarioId === AREA ? keptReplaced() : new Map()
   const g3 = state.ground3d, gz = groundZ
-  const keptIds = [...k.lon.keys()].filter((i) => !repl.has(i))
+  const keptIds = memo('keptIds', () => [...k.lon.keys()].filter((i) => !repl.has(i)))
+  const keptColor = (i) => [...HABIT_RGB[habitOf(k.species[i])], 150] // today's trees by leaf habit
   const sDims = (s) => [s.crown_diam_m, s.height_m, s.crown_base_m]
   const posColor = (i) => [...hexToRgb(pal[lay[i]].color), i === selected ? 255 : alpha(pal[lay[i]].leaf[month - 1])]
   const spColor = (s) => [...hexToRgb(s.color), alpha(s.leaf[month - 1])]
@@ -159,12 +167,12 @@ function crowns() {
   // have no trunk size in the data: 0.3 m stand-in (ASSUMPTION)
   const tw = (s) => (s?.in_palette && TRUNK_W[s.trunk_class]) || 0.3
   // every tree: [lon, lat, crown width, height, crown base, colour, trunk width]; trunk and ellipsoid share colour and opacity
-  const all = [
+  const all = memo('all', () => [
     ...[...repl.keys()].map((i) => { const s = pal[repl.get(i)]; return [k.lon[i], k.lat[i], ...sDims(s), spColor(s), tw(s)] }),
-    ...keptIds.map((i) => [k.lon[i], k.lat[i], k.crown_diam_m[i], k.height_m[i], k.crown_base_m[i], themeColors.value.kept, 0.3]),
+    ...keptIds.map((i) => [k.lon[i], k.lat[i], k.crown_diam_m[i], k.height_m[i], k.crown_base_m[i], keptColor(i), 0.3]),
     ...ids.map((i) => [p.lon[i], p.lat[i], ...dims(i), posColor(i), tw(pal[lay[i]])]),
     ...add.map((t) => [t.lon, t.lat, ...aDims(t), spColor(pal[t.species]), tw(pal[t.species])]),
-  ]
+  ])
   const ctr = (lon, lat, [d, h, b]) => [lon, lat, gz(lon, lat) + crownZ(d, h, b)[0]]
   const scale = ([d, h, b]) => [d / 2, d / 2, crownZ(d, h, b)[1]]
   return [
@@ -182,7 +190,7 @@ function crowns() {
     }),
     new SimpleMeshLayer({
       id: 'kept-new',
-      data: [...repl.keys()],
+      data: memo('repl', () => [...repl.keys()]),
       mesh: sphere,
       getPosition: (i) => ctr(k.lon[i], k.lat[i], sDims(pal[repl.get(i)])),
       getScale: (i) => scale(sDims(pal[repl.get(i)])),
@@ -194,21 +202,21 @@ function crowns() {
       data: keptIds,
       mesh: sphere,
       getPosition: (i) => ctr(k.lon[i], k.lat[i], [k.crown_diam_m[i], k.height_m[i], k.crown_base_m[i]]),
-      updateTriggers: { getPosition: g3 },
+      updateTriggers: { getPosition: g3, getColor: habits.map },
       getScale: (i) => scale([k.crown_diam_m[i], k.height_m[i], k.crown_base_m[i]]),
-      getColor: themeColors.value.kept,
+      getColor: keptColor,
       pickable: true,
       onClick: (info) => (state.drawing ? addVertex(...at(info)) : (state.selected = keptKey(info.object))),
     }),
     state.showParks && state.parks?.site === state.site && new SimpleMeshLayer({
       id: 'parks',
-      data: [...state.parks.lon.keys()],
+      data: memo('parks', () => [...state.parks.lon.keys()]),
       mesh: sphere,
       pickable: true,
       getPosition: (i) => { const P = state.parks; return ctr(P.lon[i], P.lat[i], [P.crown_diam_m[i], P.height_m[i], P.crown_base_m[i]]) },
       getScale: (i) => { const P = state.parks; return scale([P.crown_diam_m[i], P.height_m[i], P.crown_base_m[i]]) },
-      getColor: themeColors.value.park,
-      updateTriggers: { getPosition: g3, getColor: isDark.value },
+      getColor: (i) => [...HABIT_RGB[habitOf(state.parks.species[i])], 110], // context: lighter than street trees
+      updateTriggers: { getPosition: g3, getColor: [isDark.value, habits.map] },
     }),
     new SimpleMeshLayer({
       id: 'positions',
@@ -500,6 +508,9 @@ onMounted(() => {
     attributionControl: { compact: true },
   })
   map.addControl(new NavigationControl({ visualizePitch: true }), 'top-right')
+  // gentler wheel and trackpad zoom (user tests 27 Nov: the map moved too fast); defaults are 1/450 and 1/100
+  map.scrollZoom.setWheelZoomRate(1 / 900)
+  map.scrollZoom.setZoomRate(1 / 250)
   overlay = new MapboxOverlay({
     interleaved: false,
     layers: layers(),
@@ -534,7 +545,7 @@ onMounted(() => {
 
 watch(
   () => [state.scenarioId, state.live?.version, state.area?.version, state.area, state.drawing, state.draft, state.overlay, state.showStreets, isDark.value,
-    state.month, state.selected, state.addedVersion, state.showParks, state.showUtilities, state.buildingOpacity, state.addMode, state.editing, state.ground3d, state.basemap, state.meta, state.showLidar],
+    state.month, state.selected, state.addedVersion, state.showParks, state.showUtilities, state.buildingOpacity, state.addMode, state.editing, state.ground3d, state.basemap, state.meta, state.showLidar, habits.map],
   () => overlay?.setProps({ layers: layers() }),
 )
 

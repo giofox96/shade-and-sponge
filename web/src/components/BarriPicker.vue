@@ -59,6 +59,10 @@ function pick(name) {
         <title>{{ b.name }}{{ b.site ? '' : ' (not computed yet)' }}</title>
       </path>
     </svg>
+    <!-- type to search: the browser suggests matching names; Enter or a pick selects it -->
+    <input class="find" type="search" list="barri-names" placeholder="Search a neighbourhood…" aria-label="Search a neighbourhood"
+           @change="pick($event.target.value)" />
+    <datalist id="barri-names"><option v-for="b in barris" :key="b.name" :value="b.name">{{ b.district }}</option></datalist>
     <select :value="state.barri" aria-label="Neighbourhood" @change="pick($event.target.value)">
       <optgroup v-for="[d, list] in districts" :key="d" :label="d">
         <option v-for="b in list" :key="b.name" :value="b.name">{{ b.name }}{{ b.site ? '' : ' · not computed yet' }}</option>
@@ -86,6 +90,7 @@ path.ready:hover { fill: var(--good); fill-opacity: 0.8; }
 path.on { fill: var(--kept); stroke: var(--text); stroke-width: 1.6; }
 path.ready.on { fill: var(--good); }
 .ink { color: var(--text); font-weight: 600; }
+.find { width: 100%; box-sizing: border-box; padding: 8px 12px; border-radius: 999px; border: 1px solid var(--line); background: var(--bg); color: var(--text); font: inherit; margin-bottom: 6px; }
 .warn { color: var(--bad); }
 .legend { display: flex; gap: 12px; }
 .legend > span { display: inline-flex; align-items: center; gap: 4px; }

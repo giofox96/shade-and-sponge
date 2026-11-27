@@ -9,7 +9,7 @@ export const LIVE = 'live'
 export const AREA = 'area'
 
 export const state = reactive({
-  site: 'porta',
+  site: 'porta-barcelona', // one palette only: the Barcelona shortlist of 30 species (user 27 Nov)
   barri: 'Porta', // neighbourhood picked in BarriPicker (only barris with exported data change `site`)
   meta: null,
   trees: null,
@@ -88,6 +88,17 @@ export async function switchSite(site, keep = true) {
   const names = state.meta.palette.map((p) => p.species)
   carry.rules.exclude = carry.rules.exclude.filter((x) => names.includes(x)) // species the new palette lacks drop out
   await loadConfig({ ...carry, site })
+}
+
+// Leaf habit of every species drawn (web/public/data/leaf_habit.json, scripts/web_leaf_habit.py): colour code of today's
+// trees and park trees, as the palette's (ochre deciduous, green evergreen, olive semi-deciduous; grey unknown)
+export const HABIT_RGB = { deciduous: [176, 138, 46], evergreen: [94, 143, 85], 'semi-deciduous': [163, 163, 90], unknown: [150, 150, 140] }
+export const habits = reactive({ map: {} })
+fetch('./data/leaf_habit.json').then((r) => r.json()).then((m) => (habits.map = m)).catch(() => {})
+// a cultivar falls back to its species (first two words, without the cultivar name)
+export function habitOf(sp) {
+  const m = habits.map
+  return m[sp] ?? m[(sp ?? '').replace(/['‘’].*/, '').replace(/[×�]/g, 'x').split(/\s+/).slice(0, 2).join(' ')] ?? 'unknown'
 }
 
 export const dataUrl = (file) => `./data/${state.site}/${file}`

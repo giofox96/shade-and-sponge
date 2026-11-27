@@ -126,3 +126,8 @@ main .tabs { left: 24px; } /* clear of the left panel's fold button */
   .app { display: block !important; }
   main { position: static !important; }
 }
+
+/* the tree table opens and closes as a sheet sliding up from the bottom (user tests 27 Nov: it vanished abruptly) */
+.sheet-enter-active, .sheet-leave-active { transition: transform 0.45s cubic-bezier(.2, .8, .2, 1), opacity 0.35s; }
+.sheet-enter-from, .sheet-leave-to { transform: translateY(40px); opacity: 0; }
+@media (prefers-reduced-motion: reduce) { .sheet-enter-active, .sheet-leave-active { transition: none; } }

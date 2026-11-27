@@ -3,6 +3,9 @@
 import { computed } from 'vue'
 import { state, scenario, baseline, calibration, shownMetrics, LIVE, AREA } from '../store.js'
 
+// compact: the guided flow's version (short numbers, no method notes)
+defineProps({ compact: Boolean })
+
 const ROWS = [
   ['shade_summer_m2h', 'Summer shade', 'm²·h', 1],
   ['shade_winter_m2h', 'Winter shade', 'm²·h', -1],
@@ -39,7 +42,9 @@ const local = computed(() => {
 })
 // the headline for a designer: how much less water reaches the flood hotspots in the design storm, in litres
 const hotLitres = computed(() => (local.value ? -1000 * (state.area.local.runoff_hot_m3?.delta ?? 0) : null))
-const num = (v) => v.toLocaleString('en', { maximumFractionDigits: Math.abs(v) < 100 ? 1 : 0 }) // small volumes keep a decimal
+// short numbers (user tests 27 Nov: '361,829' was hard to read): 362k, 2.7k, 4.8
+const num = (v) => (Math.abs(v) >= 1000 ? v.toLocaleString('en', { notation: 'compact', maximumFractionDigits: Math.abs(v) >= 1e5 ? 0 : 1 })
+  : v.toLocaleString('en', { maximumFractionDigits: Math.abs(v) < 100 ? 1 : 0 }))
 const sgn = (v) => `${v > 0 ? '+' : v < 0 ? '−' : '±'}${num(Math.abs(v))}`
 const mix = computed(() => {
   const c = scenario.value?.counts ?? {}
@@ -60,7 +65,7 @@ const winterRange = computed(() => {
     <tbody>
       <tr v-for="r in rows" :key="r.name">
         <td>{{ r.name }}</td>
-        <td class="num" :title="isLive ? `estimate: R² ${calibration[r.k].r2.toFixed(2)} on the saved layouts` : ''">{{ isLive ? '≈ ' : '' }}{{ Math.round(r.v).toLocaleString('en') }} <span class="u">{{ r.unit }}</span></td>
+        <td class="num" :title="isLive ? `estimate: R² ${calibration[r.k].r2.toFixed(2)} on the saved layouts` : ''">{{ isLive ? '≈ ' : '' }}{{ num(r.v) }} <span class="u">{{ r.unit }}</span></td>
         <td class="num" :class="good(r.vs0, r.sign)">{{ fmt(r.vs0) }}</td>
         <td class="num" :class="good(r.vcity, r.sign)">{{ fmt(r.vcity) }}</td>
       </tr>
@@ -88,6 +93,7 @@ const winterRange = computed(() => {
   <div v-if="mix.length" class="mix" aria-label="Species mix of the replaced positions">
     <span v-for="m in mix" :key="m.species" :style="{ width: m.w + '%', background: m.color }" :title="`${m.species}: ${m.n}`"></span>
   </div>
+  <template v-if="!compact">
   <p v-if="state.added.length" class="note live">Includes {{ state.added.length }} added tree{{ state.added.length > 1 ? 's' : '' }}, estimated with the same calibration.</p>
   <p v-if="state.scenarioId === AREA" class="note live">
     Project area: {{ state.area.all ? `all ${state.area.idx.length + state.area.keptIdx.length} trees` : `${state.area.idx.length} plane positions` }}
@@ -105,6 +111,7 @@ const winterRange = computed(() => {
     Heat is a shade proxy, not UTCI; runoff is the season-weighted T2-60 storm.
     <template v-if="winterRange">The winter gain of trading summer-only for balanced weights ranges {{ winterRange[1] }}% to {{ winterRange[0] }}% across the sensitivity runs.</template>
   </p>
+  </template>
 </template>
 
 <style scoped>
