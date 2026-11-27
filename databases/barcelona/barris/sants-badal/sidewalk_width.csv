@@ -1,0 +1,830 @@
+tree_id,species,is_plane,street,width_m,facade_dist_m,flag,strip_width_m,size_class,ray_x0,ray_y0,ray_x1,ray_y1,pit_min_m2,pit_basis
+0170845AR,Prunus cerasifera 'Pissardii',False,C\ Pavia,2.57,1.6,ok,,small,427187.64,4580388.29,427186.34,4580390.49,1.0,class
+0170846AR,Styphnolobium japonicum,False,C\ Portbou,2.91,1.95,ok,,small,426944.56,4581014.24,426947.32,4581015.15,1.0,class
+0170847AR,Nerium oleander (vermell),False,C\ Sugranyes,2.36,1.5,ok,,none,427117.08,4580650.28,427115.06,4580649.06,1.0,floor
+0170849AR,Platanus × acerifolia,True,C\ Arizala,5.1,4.29,ok,,medium,426839.9,4580877.97,426845.0,4580877.8,1.0,class
+0170850AR,Prunus cerasifera 'Pissardii',False,C\ Bassegoda,2.51,1.66,ok,,small,426847.71,4580738.99,426846.34,4580741.08,1.0,class
+0170851AR,Styphnolobium japonicum,False,Rier Blanca,7.3,5.62,ok,,large,427077.97,4580351.42,427071.99,4580347.23,1.5,class
+0170852AR,Nerium oleander (vermell),False,C\ Sugranyes,2.21,1.76,ok,,none,427308.82,4580331.01,427306.93,4580329.86,1.0,floor
+0170854AR,Styphnolobium japonicum,False,C\ Sants,4.08,3.33,ok,,medium,426874.26,4580814.3,426874.42,4580818.38,1.0,class
+0170855AR,Bauhinia purpurea,False,C\ Roger,3.77,2.92,ok,,medium,427004.02,4580957.32,427002.3,4580960.68,1.0,class
+0170857AR,Bauhinia purpurea,False,C\ Roger,3.75,2.93,ok,,medium,427178.13,4581046.36,427176.43,4581049.7,1.0,class
+0170859AR,Platanus × acerifolia,True,C\ Sants,6.55,5.18,ok,,large,427213.79,4580798.71,427213.94,4580805.26,1.5,class
+0170860AR,Styphnolobium japonicum,False,C\ Carreras i Candi,3.61,2.55,ok,,medium,427113.83,4580440.3,427116.91,4580442.17,1.0,class
+0170861AR,Bauhinia purpurea,False,C\ Roger,3.67,2.73,ok,,medium,426949.06,4580929.26,426947.37,4580932.51,1.0,class
+0170862AR,Platanus × acerifolia,True,Rbla Badal,12.02,9.16,ok,,large,427309.62,4580625.45,427321.22,4580628.57,1.5,class
+0170864AR,Styphnolobium japonicum,False,Rier Blanca,4.79,3.44,ok,,medium,426958.44,4580449.01,426955.18,4580445.5,1.0,class
+0170865AR,Prunus cerasifera 'Pissardii',False,C\ Pavia,,7.81,median,,check,,,,,1.0,floor
+0170866AR,Styphnolobium japonicum,False,Rier Blanca,4.65,3.69,ok,,medium,426864.68,4580535.69,426861.49,4580532.31,1.0,class
+0170867AR,Bauhinia purpurea,False,C\ Roger,3.65,2.81,ok,,medium,426956.96,4580933.32,426955.3,4580936.57,1.0,class
+0170868AR,Bauhinia purpurea,False,C\ Roger,3.42,2.49,ok,,small,426934.03,4580938.21,426935.59,4580935.16,1.0,class
+0170870AR,Bauhinia purpurea,False,C\ Roger,3.77,2.78,ok,,medium,426932.92,4580920.94,426931.17,4580924.29,1.0,class
+0170871AR,Platanus × acerifolia,True,Rbla Badal,12.01,3.28,ok,,large,427314.94,4580605.69,427326.54,4580608.81,1.5,class
+0170872AR,Bauhinia purpurea,False,C\ Roger,3.61,2.66,ok,,medium,426897.93,4580919.68,426899.57,4580916.47,1.0,class
+0170874AR,Prunus cerasifera 'Pissardii',False,C\ Sugranyes,2.26,1.39,ok,,none,427173.23,4580556.59,427171.29,4580555.43,1.0,floor
+0170876AR,Prunus cerasifera 'Pissardii',False,C\ Bassegoda,2.32,1.71,ok,,none,426778.3,4580692.63,426776.98,4580694.54,1.0,floor
+0170877AR,Styphnolobium japonicum,False,C\ Sugranyes,8.72,7.45,ok,,large,427213.6,4580492.54,427206.15,4580497.08,1.5,class
+0170878AR,Nerium oleander (vermell),False,C\ Sugranyes,2.59,1.76,ok,,small,427059.53,4580727.0,427061.75,4580728.34,1.0,class
+0170879AR,Celtis australis,False,Av Madrid,6.7,6.04,ok,,large,426729.34,4580884.3,426725.21,4580889.58,1.5,class
+0170880AR,Styphnolobium japonicum,False,C\ Sants,3.77,2.99,ok,,medium,427249.8,4580800.12,427249.92,4580803.89,1.0,class
+0170882AR,Celtis australis,False,Av Madrid,7.02,6.23,ok,,large,426828.97,4580962.55,426824.61,4580968.05,1.5,class
+0170883AR,Tipuana tipu,False,C\ Carreras i Candi,,9.53,median,9.9,check,,,,,1.0,floor
+0170884AR,Platanus × acerifolia,True,C\ Sants,3.98,3.13,ok,,medium,427147.34,4580804.01,427147.49,4580807.99,1.0,class
+0170886AR,Nerium oleander (vermell),False,C\ Sugranyes,2.44,1.65,ok,,none,427220.82,4580458.99,427222.91,4580460.25,1.0,floor
+0170888AR,Brachychiton populneus,False,C\ Begur,2.81,2.03,ok,,small,427179.1,4580793.69,427181.91,4580793.57,1.0,class
+0170889AR,Prunus cerasifera 'Pissardii',False,C\ Pavia,2.57,1.79,ok,,small,427203.12,4580409.04,427204.44,4580406.83,1.0,class
+0170890AR,Styphnolobium japonicum,False,Rier Blanca,4.32,3.82,ok,,medium,426751.39,4580649.78,426747.42,4580648.09,1.0,class
+0170891AR,Prunus cerasifera 'Pissardii',False,C\ Pavia,2.52,1.53,ok,,small,427266.83,4580435.03,427265.53,4580437.19,1.0,class
+0170892AR,Styphnolobium japonicum,False,C\ Portbou,4.24,3.05,ok,,medium,427008.57,4580866.53,427004.53,4580865.25,1.0,class
+0170893AR,Celtis australis,False,Av Madrid,7.13,6.38,ok,,large,427079.04,4581150.5,427074.89,4581156.3,1.5,class
+0170895AR,Nerium oleander (vermell),False,C\ Sugranyes,2.31,1.36,ok,,none,427095.3,4580686.42,427093.33,4580685.23,1.0,floor
+0170896AR,Styphnolobium japonicum,False,C\ Sants,4.0,3.12,ok,,medium,427117.6,4580805.19,427117.76,4580809.19,1.0,class
+0170897AR,Celtis australis,False,Av Madrid,7.02,6.21,ok,,large,426879.22,4581002.22,426874.8,4581007.68,1.5,class
+0170899AR,Celtis australis,False,Av Madrid,7.13,6.27,ok,,large,427073.54,4581146.58,427069.4,4581152.38,1.5,class
+0170900AR,Prunus cerasifera 'Pissardii',False,C\ Bassegoda,2.33,1.56,ok,,none,426774.1,4580689.74,426772.78,4580691.66,1.0,floor
+0170902AR,Styphnolobium japonicum,False,C\ Arizala,5.16,4.42,ok,,medium,426859.71,4580865.65,426854.56,4580865.91,1.0,class
+0170903AR,Populus nigra 'Italica',False,Rbla Brasil,4.9,4.06,ok,,medium,427238.67,4580896.37,427243.42,4580897.59,1.0,class
+0170904AR,Bauhinia purpurea,False,C\ Roger,3.43,2.52,ok,,small,426942.55,4580942.58,426944.12,4580939.52,1.0,class
+0170905AR,Celtis australis,False,Av Madrid,7.03,6.03,ok,,large,426983.29,4581081.44,426979.1,4581087.09,1.5,class
+0170906AR,Prunus cerasifera 'Pissardii',False,C\ Pavia,2.46,2.19,ok,,none,427286.94,4580458.65,427288.19,4580456.54,1.0,floor
+0170907AR,Nerium oleander (vermell),False,C\ Sugranyes,2.33,1.77,ok,,none,427299.7,4580346.23,427297.68,4580345.06,1.0,floor
+0170908AR,Prunus cerasifera 'Pissardii',False,C\ Pavia,2.58,1.25,ok,,small,427176.98,4580381.96,427175.66,4580384.18,1.0,class
+0170909AR,Bauhinia purpurea,False,C\ Roger,4.01,2.9,ok,,medium,426997.36,4580971.11,426999.21,4580967.56,1.0,class
+0170910AR,Brachychiton populneus,False,C\ Begur,2.9,2.04,ok,,small,427178.6,4580782.43,427181.5,4580782.3,1.0,class
+0170911AR,Prunus cerasifera 'Pissardii',False,C\ Sugranyes,2.37,1.99,ok,,none,427244.99,4580437.95,427242.96,4580436.72,1.0,floor
+0170912AR,Prunus cerasifera 'Pissardii',False,C\ Sugranyes,2.41,1.56,ok,,none,427230.24,4580443.39,427232.31,4580444.63,1.0,floor
+0170913AR,Acer negundo,False,C\ Miquel Àngel,2.45,1.55,ok,,none,427173.17,4580955.07,427173.85,4580952.72,1.0,floor
+0170914AR,Styphnolobium japonicum,False,Rier Blanca,4.73,3.78,ok,,medium,426965.4,4580442.55,426962.19,4580439.09,1.0,class
+0170916AR,Bauhinia purpurea,False,C\ Roger,3.63,2.97,ok,,medium,427090.9,4581001.92,427089.24,4581005.15,1.0,class
+0170917AR,Platanus × acerifolia,True,C\ Portbou,2.99,1.75,ok,,small,426972.22,4580929.64,426975.07,4580930.55,1.0,class
+0170919AR,Platanus × acerifolia,True,C\ Portbou,2.86,2.18,ok,,small,426976.33,4580965.16,426973.61,4580964.25,1.0,class
+0170920AR,Prunus cerasifera 'Pissardii',False,C\ Pavia,3.85,3.24,ok,,medium,427120.78,4580327.7,427123.97,4580325.54,1.0,class
+0170921AR,Platanus × acerifolia,True,C\ Sants,3.73,2.73,ok,,medium,426596.82,4580824.79,426596.96,4580828.52,1.0,class
+0170922AR,Nerium oleander (vermell),False,C\ Sugranyes,2.32,1.32,ok,,none,427126.63,4580634.42,427124.64,4580633.22,1.0,floor
+0170923AR,Platanus × acerifolia,True,Rbla Badal,,8.75,no_kerb,,check,,,,,1.0,floor
+0170924AR,Bauhinia purpurea,False,C\ Roger,3.61,2.76,ok,,medium,427156.01,4581051.8,427157.66,4581048.58,1.0,class
+0170925AR,Celtis australis,False,Av Madrid,6.96,6.0,ok,,large,426708.08,4580867.14,426703.69,4580872.54,1.5,class
+0170926AR,Nerium oleander (vermell),False,C\ Sugranyes,2.34,1.82,ok,,none,427211.17,4580474.94,427213.18,4580476.15,1.0,floor
+0170927AR,Platanus × acerifolia,True,C\ Juan de Sada,3.07,2.53,ok,,small,427048.06,4581099.07,427051.05,4581099.8,1.0,class
+0170928AR,Bauhinia purpurea,False,C\ Roger,3.9,3.07,ok,,medium,427099.81,4581006.5,427099.47,4581010.39,1.0,class
+0170929AR,Koelreuteria paniculata 'Fastigiata',False,Rbla Brasil,4.79,3.79,ok,,medium,427231.56,4580925.37,427236.22,4580926.49,1.0,class
+0170930AR,Prunus cerasifera 'Pissardii',False,C\ Pavia,2.22,1.63,ok,,none,427147.84,4580347.54,427146.01,4580348.81,1.0,floor
+0170931AR,Prunus cerasifera 'Pissardii',False,C\ Bassegoda,2.29,1.78,ok,,none,426803.72,4580719.61,426804.99,4580717.71,1.0,floor
+0170932AR,Prunus cerasifera 'Pissardii',False,C\ Sugranyes,2.56,1.66,ok,,small,427055.82,4580733.19,427058.01,4580734.5,1.0,class
+0170933AR,Celtis australis,False,Av Madrid,7.17,6.53,ok,,large,427109.54,4581172.06,427105.42,4581177.93,1.5,class
+0170934AR,Styphnolobium japonicum,False,C\ Munné,4.75,3.69,ok,,medium,426694.17,4580793.2,426689.43,4580793.34,1.0,class
+0170935AR,Celtis australis,False,Av Madrid,6.79,5.91,ok,,large,426767.42,4580914.08,426763.24,4580919.43,1.5,class
+0170936AR,Platanus × acerifolia,True,C\ Arizala,4.94,3.8,ok,,medium,426817.54,4580924.75,426821.99,4580926.89,1.0,class
+0170937AR,Koelreuteria paniculata 'Fastigiata',False,Rbla Brasil,4.11,3.45,ok,,medium,427176.25,4581142.67,427180.22,4581143.73,1.0,class
+0170939AR,Styphnolobium japonicum,False,C\ Sants,3.94,3.0,ok,,medium,426925.36,4580812.58,426925.5,4580816.52,1.0,class
+0170941AR,Koelreuteria paniculata 'Fastigiata',False,Rbla Brasil,4.16,3.41,ok,,medium,427212.83,4581001.25,427216.86,4581002.3,1.0,class
+0170942AR,Styphnolobium japonicum,False,C\ Sants,4.52,3.7,ok,,medium,426872.79,4580834.73,426872.65,4580830.22,1.0,class
+0170943AR,Platanus × acerifolia,True,C\ Arizala,4.86,3.7,ok,,medium,426828.72,4580901.49,426833.1,4580903.59,1.0,class
+0170944AR,Celtis australis,False,Av Madrid,6.66,5.81,ok,,large,426716.53,4580874.22,426712.24,4580879.31,1.5,class
+0170945AR,Bauhinia purpurea,False,C\ Roger,3.77,3.17,ok,,medium,427010.78,4580960.79,427009.06,4580964.14,1.0,class
+0170946AR,Nerium oleander (vermell),False,C\ Sugranyes,2.31,1.38,ok,,none,427073.62,4580722.41,427071.64,4580721.22,1.0,floor
+0170947AR,Styphnolobium japonicum,False,C\ Sants,4.46,3.54,ok,,medium,426771.44,4580838.36,426771.28,4580833.9,1.0,class
+0170948AR,Styphnolobium japonicum,False,C\ Arizala,4.94,4.25,ok,,medium,426834.07,4580936.39,426829.63,4580934.23,1.0,class
+0170951AR,Platanus × acerifolia,True,Rbla Badal,11.98,9.24,ok,,large,427318.62,4580592.07,427330.18,4580595.19,1.5,class
+0170952AR,Styphnolobium japonicum,False,Rier Blanca,8.85,7.36,ok,,large,427077.97,4580351.42,427078.45,4580342.59,1.5,class
+0170953AR,Styphnolobium japonicum,False,Rier Blanca,,2.62,no_kerb,,check,,,,,1.0,floor
+0170954AR,Nerium oleander (vermell),False,C\ Sugranyes,2.22,1.45,ok,,none,427285.43,4580351.75,427287.32,4580352.9,1.0,floor
+0170955AR,Tipuana tipu,False,C\ Sugranyes,,11.13,median,,check,,,,,1.0,floor
+0170957AR,Platanus × acerifolia,True,C\ Portbou,3.52,2.39,ok,,medium,426990.2,4580923.12,426986.85,4580922.03,1.0,class
+0170958AR,Prunus cerasifera 'Pissardii',False,C\ Sugranyes,2.28,1.27,ok,,none,427169.87,4580562.22,427167.91,4580561.05,1.0,floor
+0170959AR,Bauhinia purpurea,False,C\ Roger,3.78,3.12,ok,,medium,427138.92,4581026.34,427137.2,4581029.71,1.0,class
+0170960AR,Styphnolobium japonicum,False,C\ Sants,4.46,3.28,ok,,medium,427211.41,4580821.73,427211.25,4580817.27,1.0,class
+0170962AR,Styphnolobium japonicum,False,Rier Blanca,7.12,2.45,ok,,large,427150.68,4580309.79,427147.36,4580303.49,1.5,class
+0170963AR,Prunus cerasifera 'Pissardii',False,C\ Bassegoda,2.51,1.71,ok,,small,426837.89,4580732.54,426836.51,4580734.64,1.0,class
+0170964AR,Platanus × acerifolia,True,C\ Juan de Sada,3.06,2.41,ok,,small,427053.69,4581076.23,427056.66,4581076.96,1.0,class
+0170966AR,Prunus cerasifera 'Pissardii',False,C\ Sugranyes,2.18,1.61,ok,,none,427315.16,4580320.51,427313.29,4580319.39,1.0,floor
+0170967AR,Bauhinia purpurea,False,C\ Roger,3.61,2.92,ok,,medium,427147.94,4581047.68,427149.58,4581044.47,1.0,class
+0170968AR,Nerium oleander (vermell),False,C\ Sugranyes,2.49,1.6,ok,,none,427033.84,4580788.54,427031.69,4580787.28,1.0,floor
+0170970AR,Styphnolobium japonicum,False,C\ Munné,4.69,3.83,ok,,medium,426694.83,4580815.57,426690.14,4580815.71,1.0,class
+0170971AR,Prunus cerasifera 'Pissardii',False,C\ Bassegoda,2.55,2.07,ok,,small,426868.22,4580762.1,426869.62,4580759.97,1.0,class
+0170972AR,Platanus × acerifolia,True,Rbla Badal,12.01,3.46,ok,,large,427327.32,4580559.74,427338.92,4580562.86,1.5,class
+0170973AR,Styphnolobium japonicum,False,C\ Juan de Sada,2.97,2.18,ok,,small,427059.07,4581113.47,427056.19,4581112.76,1.0,class
+0170974AR,Populus alba 'Pyramidalis',False,Rbla Brasil,4.24,3.36,ok,,medium,427209.91,4581012.45,427214.01,4581013.52,1.0,class
+0170975AR,Brachychiton populneus,False,C\ Begur,2.99,2.16,ok,,small,427205.84,4580707.08,427208.44,4580708.55,1.0,class
+0170976AR,Celtis australis,False,Av Madrid,7.17,6.22,ok,,large,427103.39,4581167.74,427099.26,4581173.61,1.5,class
+0170977AR,Styphnolobium japonicum,False,C\ Sants,4.43,3.35,ok,,medium,427203.7,4580822.0,427203.54,4580817.57,1.0,class
+0170978AR,Prunus cerasifera 'Pissardii',False,C\ Sugranyes,2.34,1.42,ok,,none,427108.89,4580663.87,427106.88,4580662.66,1.0,floor
+0170979AR,Styphnolobium japonicum,False,Rier Blanca,,1.94,no_kerb,,check,,,,,1.0,floor
+0170980AR,Bauhinia purpurea,False,C\ Roger,3.8,3.1,ok,,medium,427155.33,4581034.72,427153.6,4581038.11,1.0,class
+0170983AR,Prunus cerasifera 'Pissardii',False,C\ Sugranyes,2.53,1.34,ok,,small,427154.03,4580588.78,427151.86,4580587.48,1.0,class
+0170984AR,Prunus cerasifera 'Pissardii',False,C\ Pavia,2.36,1.43,ok,,none,427276.73,4580441.04,427275.5,4580443.06,1.0,floor
+0170985AR,Prunus cerasifera 'Pissardii',False,C\ Bassegoda,2.49,1.58,ok,,none,426862.67,4580748.8,426861.31,4580750.88,1.0,floor
+0170986AR,Bauhinia purpurea,False,C\ Roger,3.67,2.79,ok,,medium,426917.84,4580929.99,426919.49,4580926.71,1.0,class
+0170990AR,Celtis australis,False,Av Madrid,6.75,5.83,ok,,large,426739.6,4580892.33,426735.45,4580897.64,1.5,class
+0170991AR,Celtis australis,False,Av Madrid,7.0,5.99,ok,,large,427005.36,4581097.82,427001.19,4581103.44,1.5,class
+0170992AR,Platanus × acerifolia,True,C\ Arizala,5.34,4.45,ok,,medium,426839.66,4580870.58,426844.99,4580870.41,1.0,class
+0170995AR,Styphnolobium japonicum,False,C\ Portbou,2.91,1.85,ok,,small,426938.38,4581033.1,426941.15,4581034.01,1.0,class
+0170996AR,Acer negundo,False,C\ Miquel Àngel,2.59,2.04,ok,,small,427220.16,4580968.76,427220.88,4580966.28,1.0,class
+0170997AR,Brachychiton populneus,False,C\ Begur,3.0,2.06,ok,,small,427178.02,4580769.2,427181.02,4580769.07,1.0,class
+0170998AR,Nerium oleander (vermell),False,C\ Sugranyes,2.27,1.69,ok,,none,427303.9,4580320.86,427305.85,4580322.01,1.0,floor
+0170999AR,Hibiscus syriacus,False,C\ Miquel Àngel,2.43,1.59,ok,,none,427163.69,4580952.31,427164.37,4580949.98,1.0,floor
+0171001AR,Styphnolobium japonicum,False,C\ Sants,3.75,2.83,ok,,medium,426579.31,4580825.41,426579.44,4580829.15,1.0,class
+0171002AR,Platanus × acerifolia,True,Rbla Badal,11.98,3.55,ok,,large,427318.58,4580592.21,427330.14,4580595.33,1.5,class
+0171003AR,Prunus cerasifera 'Pissardii',False,C\ Sugranyes,2.46,1.65,ok,,none,427108.77,4580645.33,427110.88,4580646.6,1.0,floor
+0171005AR,Koelreuteria paniculata 'Fastigiata',False,Rbla Brasil,4.9,3.48,ok,,medium,427240.15,4580890.64,427244.89,4580891.86,1.0,class
+0171008AR,Platanus × acerifolia,True,C\ Portbou,2.85,2.21,ok,,small,426979.19,4580908.37,426981.9,4580909.26,1.0,class
+0171009AR,Celtis australis,False,Av Madrid,7.03,6.03,ok,,large,426967.41,4581069.66,426963.23,4581075.3,1.5,class
+0171010AR,Celtis australis,False,Av Madrid,6.76,5.89,ok,,large,426746.75,4580897.91,426742.58,4580903.24,1.5,class
+0171011AR,Nerium oleander (vermell),False,C\ Sugranyes,2.43,1.75,ok,,none,427121.45,4580624.22,427123.53,4580625.47,1.0,floor
+0171012AR,Platanus × acerifolia,True,C\ Juan de Sada,2.97,2.12,ok,,small,427075.09,4581047.68,427072.44,4581046.35,1.0,class
+0171013AR,Hibiscus syriacus,False,C\ Miquel Àngel,2.38,1.55,ok,,none,427147.08,4580947.47,427147.74,4580945.19,1.0,floor
+0171014AR,Bauhinia purpurea,False,C\ Roger,3.65,2.77,ok,,medium,426964.72,4580937.29,426963.06,4580940.54,1.0,class
+0171015AR,Prunus cerasifera 'Pissardii',False,C\ Pavia,2.59,1.55,ok,,small,427172.21,4580379.14,427170.89,4580381.36,1.0,class
+0171017AR,Hibiscus syriacus,False,C\ Miquel Àngel,2.35,1.99,ok,,none,427134.97,4580943.95,427135.63,4580941.69,1.0,floor
+0171019AR,Nerium oleander (vermell),False,C\ Sugranyes,2.66,1.69,ok,,small,427028.54,4580797.85,427026.22,4580796.53,1.0,class
+0171020AR,Nerium oleander (vermell),False,C\ Sugranyes,2.36,1.59,ok,,none,427306.94,4580315.72,427308.97,4580316.92,1.0,floor
+0171021AR,Styphnolobium japonicum,False,C\ Juan de Sada,3.03,2.22,ok,,small,427041.94,4581124.23,427044.89,4581124.94,1.0,class
+0171022AR,Koelreuteria paniculata 'Fastigiata',False,C\ Juan de Sada,2.31,1.87,ok,,none,427099.81,4580952.57,427097.58,4580951.98,1.0,floor
+0171023AR,Styphnolobium japonicum,False,C\ Sants,4.45,3.41,ok,,medium,426780.03,4580838.04,426779.87,4580833.6,1.0,class
+0171024AR,Celtis australis,False,Av Madrid,6.84,6.08,ok,,large,427032.93,4581118.27,427028.85,4581123.77,1.5,class
+0171025AR,Prunus cerasifera 'Pissardii',False,C\ Bassegoda,2.34,1.54,ok,,none,426769.25,4580686.39,426767.92,4580688.32,1.0,floor
+0171027AR,Bauhinia purpurea,False,C\ Roger,3.6,2.84,ok,,medium,427131.85,4581039.43,427133.49,4581036.22,1.0,class
+0171028AR,Styphnolobium japonicum,False,C\ Sants,4.01,3.0,ok,,medium,426648.37,4580822.86,426648.55,4580826.86,1.0,class
+0171029AR,Koelreuteria paniculata 'Fastigiata',False,C\ Portbou,5.7,3.71,ok,,medium,426991.74,4580870.11,426997.18,4580871.83,1.0,class
+0171030AR,Brachychiton populneus,False,C\ Begur,2.96,2.15,ok,,small,427223.64,4580675.6,427226.21,4580677.06,1.0,class
+0171031AR,Celtis australis,False,Av Madrid,7.03,6.18,ok,,large,426951.27,4581057.68,426947.08,4581063.32,1.5,class
+0171033AR,Nerium oleander (vermell),False,C\ Sugranyes,2.45,1.59,ok,,none,427249.98,4580410.38,427252.07,4580411.64,1.0,floor
+0171034AR,Celtis australis,False,Av Madrid,7.02,6.4,ok,,large,426841.12,4580972.17,426836.77,4580977.67,1.5,class
+0171035AR,Prunus cerasifera 'Pissardii',False,C\ Bassegoda,2.39,1.89,ok,,none,426813.43,4580726.09,426814.75,4580724.1,1.0,floor
+0171036AR,Tipuana tipu,False,C\ Carreras i Candi,,9.61,median,8.21,check,,,,,1.0,floor
+0171037AR,Koelreuteria paniculata 'Fastigiata',False,C\ Juan de Sada,3.05,2.16,ok,,small,427044.0,4581115.79,427046.96,4581116.51,1.0,class
+0171038AR,Bauhinia purpurea,False,C\ Roger,3.63,2.88,ok,,medium,426860.33,4580900.42,426861.95,4580897.18,1.0,class
+0171039AR,Styphnolobium japonicum,False,C\ Carreras i Candi,3.83,2.76,ok,,medium,427088.93,4580481.39,427092.21,4580483.37,1.0,class
+0171040AR,Styphnolobium japonicum,False,C\ Sants,4.49,3.55,ok,,medium,427107.32,4580825.68,427107.15,4580821.19,1.0,class
+0171041AR,Melia azedarach,False,C\ Canalejas,,9.57,median,,check,,,,,1.0,floor
+0171042AR,Prunus cerasifera 'Pissardii',False,C\ Pavia,2.58,2.16,ok,,small,427208.75,4580412.38,427210.06,4580410.17,1.0,class
+0171043AR,Koelreuteria paniculata 'Fastigiata',False,C\ Jaume Roig,3.05,2.11,ok,,small,426930.73,4580875.9,426933.26,4580877.59,1.0,class
+0171044AR,Platanus × acerifolia,True,Rbla Badal,,7.8,no_kerb,,check,,,,,1.0,floor
+0171046AR,Platanus × acerifolia,True,C\ Begur,,3.23,no_kerb,44.56,check,,,,,1.0,floor
+0171047AR,Platanus × acerifolia,True,C\ Juan de Sada,2.98,2.15,ok,,small,427066.33,4581083.91,427063.43,4581083.2,1.0,class
+0171048AR,Celtis australis,False,Av Madrid,6.42,5.67,ok,,large,426927.67,4581040.59,426923.67,4581045.62,1.5,class
+0171049AR,Nerium oleander (vermell),False,C\ Sugranyes,2.28,1.41,ok,,none,427089.44,4580696.15,427087.48,4580694.97,1.0,floor
+0171050AR,Platanus × acerifolia,True,Rbla Badal,11.92,3.52,ok,,large,427295.36,4580678.81,427306.92,4580681.7,1.5,class
+0171052AR,Styphnolobium japonicum,False,Rier Blanca,4.68,3.52,ok,,medium,426950.94,4580455.91,426947.99,4580452.27,1.0,class
+0171053AR,Koelreuteria paniculata 'Fastigiata',False,Rbla Brasil,12.86,3.91,ok,,large,427244.45,4580834.11,427257.28,4580835.0,1.5,class
+0171054AR,Styphnolobium japonicum,False,C\ Sants,4.32,3.53,ok,,medium,426739.24,4580839.37,426739.08,4580835.05,1.0,class
+0171055AR,Styphnolobium japonicum,False,C\ Sants,3.53,2.53,ok,,medium,426716.26,4580820.43,426716.37,4580823.96,1.0,class
+0171057AR,Pyrus calleryana 'Chanticleer',False,Rbla Brasil,5.6,4.58,ok,,medium,427240.88,4580885.38,427246.47,4580885.77,1.0,class
+0171058AR,Bauhinia purpurea,False,C\ Roger,3.67,2.57,ok,,medium,426899.71,4580903.92,426898.01,4580907.17,1.0,class
+0171060AR,Tipuana tipu,False,C\ Sugranyes,,19.73,median,,check,,,,,1.0,floor
+0171062AR,Nerium oleander (vermell),False,C\ Sugranyes,2.13,1.45,ok,,none,427152.45,4580572.68,427154.28,4580573.76,1.0,floor
+0171063AR,Prunus cerasifera 'Pissardii',False,C\ Bassegoda,2.47,1.58,ok,,none,426872.55,4580755.28,426871.2,4580757.35,1.0,floor
+0171064AR,Prunus cerasifera 'Pissardii',False,C\ Bassegoda,2.4,2.02,ok,,none,426843.44,4580745.8,426844.76,4580743.8,1.0,floor
+0171065AR,Styphnolobium japonicum,False,C\ Begur,,5.24,no_kerb,,check,,,,,1.0,floor
+0171067AR,Koelreuteria paniculata 'Fastigiata',False,Rbla Brasil,3.56,2.7,ok,,medium,427186.46,4581105.1,427189.64,4581106.7,1.0,class
+0171068AR,Prunus cerasifera 'Pissardii',False,C\ Sugranyes,2.36,1.56,ok,,none,427041.31,4580757.52,427043.37,4580758.69,1.0,floor
+0171069AR,Nerium oleander (vermell),False,C\ Sugranyes,2.44,1.55,ok,,none,427099.79,4580660.27,427101.88,4580661.53,1.0,floor
+0171070AR,Styphnolobium japonicum,False,Rier Blanca,4.47,2.92,ok,,medium,426705.29,4580727.58,426701.74,4580724.87,1.0,class
+0171071AR,Platanus × acerifolia,True,C\ Sants,3.96,2.86,ok,,medium,427160.48,4580803.5,427160.59,4580807.46,1.0,class
+0171072AR,Styphnolobium japonicum,False,C\ Arizala,4.97,4.01,ok,,medium,426813.84,4580932.45,426818.32,4580934.61,1.0,class
+0171077AR,Celtis australis,False,C\ Carreras i Candi,4.07,0.96,ok,,medium,426928.62,4580777.05,426932.65,4580777.6,1.0,class
+0171079AR,Styphnolobium japonicum,False,C\ Sants,4.58,3.58,ok,,medium,427066.61,4580827.33,427066.42,4580822.75,1.0,class
+0171080AR,Styphnolobium japonicum,False,C\ Arizala,5.05,3.89,ok,,medium,426839.27,4580858.68,426844.32,4580858.51,1.0,class
+0171081AR,Populus alba 'Pyramidalis',False,Rbla Brasil,4.14,3.18,ok,,medium,427220.67,4580971.27,427224.68,4580972.31,1.0,class
+0171082AR,Styphnolobium japonicum,False,C\ Sants,4.61,3.61,ok,,medium,427046.44,4580828.14,427046.31,4580823.52,1.0,class
+0171083AR,Nerium oleander (vermell),False,C\ Sugranyes,2.42,1.42,ok,,none,427160.41,4580578.09,427158.33,4580576.85,1.0,floor
+0171084AR,Platanus × acerifolia,True,C\ Portbou,2.78,2.08,ok,,small,426983.24,4580896.03,426985.88,4580896.9,1.0,class
+0171085AR,Populus nigra 'Italica',False,Rbla Brasil,8.19,6.58,ok,,large,427231.71,4580924.75,427238.01,4580919.51,1.5,class
+0171086AR,Nerium oleander (vermell),False,C\ Sugranyes,2.46,1.75,ok,,none,427253.21,4580405.04,427255.32,4580406.32,1.0,floor
+0171087AR,Platanus × acerifolia,True,C\ Sants,9.91,7.42,ok,,large,426799.48,4580817.08,426808.72,4580820.65,1.5,class
+0171088AR,Bauhinia purpurea,False,C\ Roger,7.1,5.56,ok,,large,427086.88,4580999.85,427079.79,4581000.31,1.5,class
+0171089AR,Prunus cerasifera 'Pissardii',False,C\ Bassegoda,2.3,1.74,ok,,none,426918.94,4580794.71,426920.12,4580792.73,1.0,floor
+0171090AR,Brachychiton populneus,False,C\ Begur,2.82,1.9,ok,,small,427180.65,4580751.6,427183.11,4580752.99,1.0,class
+0171091AR,Styphnolobium japonicum,False,C\ Sants,5.56,4.26,ok,,medium,427245.4,4580820.51,427248.4,4580815.83,1.0,class
+0171092AR,Hibiscus syriacus,False,C\ Miquel Àngel,2.57,1.99,ok,,small,427214.36,4580967.07,427215.08,4580964.61,1.0,class
+0171093AR,Celtis australis,False,Av Madrid,7.02,6.29,ok,,large,426856.61,4580984.43,426852.25,4580989.93,1.5,class
+0171095AR,Nerium oleander (vermell),False,C\ Sugranyes,2.47,1.58,ok,,none,427112.48,4580639.15,427114.6,4580640.42,1.0,floor
+0171096AR,Styphnolobium japonicum,False,C\ Juan de Sada,2.97,2.14,ok,,small,427057.18,4581121.2,427054.3,4581120.49,1.0,class
+0171097AR,Prunus cerasifera 'Pissardii',False,C\ Pavia,2.25,1.79,ok,,none,427158.63,4580363.1,427156.78,4580364.38,1.0,floor
+0171099AR,Tipuana tipu,False,C\ Sugranyes,,16.38,median,,check,,,,,1.0,floor
+0171100AR,Prunus cerasifera 'Pissardii',False,C\ Bassegoda,2.37,1.51,ok,,none,426748.69,4580672.23,426747.34,4580674.18,1.0,floor
+0171101AR,Styphnolobium japonicum,False,Rier Blanca,4.42,3.35,ok,,medium,426721.18,4580706.73,426717.66,4580704.05,1.0,class
+0171105AR,Bauhinia purpurea,False,C\ Roger,3.73,2.82,ok,,medium,426940.45,4580924.82,426938.76,4580928.14,1.0,class
+0171106AR,Prunus cerasifera 'Pissardii',False,C\ Bassegoda,2.45,2.05,ok,,none,426853.39,4580752.33,426854.73,4580750.29,1.0,floor
+0171108AR,Nerium oleander (vermell),False,C\ Sugranyes,2.47,2.04,ok,,none,427280.74,4580378.41,427278.62,4580377.14,1.0,floor
+0171109AR,Styphnolobium japonicum,False,C\ Sants,9.15,7.64,ok,,large,426988.44,4580809.25,426996.55,4580813.49,1.5,class
+0171110AR,Celtis australis,False,Av Madrid,7.3,5.87,ok,,large,427142.7,4581195.22,427138.5,4581201.18,1.5,class
+0171111AR,Styphnolobium japonicum,False,C\ Juan de Sada,2.98,1.96,ok,,small,427062.71,4581098.67,427059.82,4581097.96,1.0,class
+0171112AR,Celtis australis,False,C\ Bassegoda,4.52,2.27,ok,,medium,426924.53,4580787.89,426925.4,4580792.33,1.0,class
+0171113AR,Styphnolobium japonicum,False,C\ Sants,4.41,3.98,ok,,medium,427195.17,4580822.28,427195.06,4580817.87,1.0,class
+0171114AR,Nerium oleander (vermell),False,C\ Sugranyes,2.27,1.17,ok,,none,427136.28,4580618.18,427134.32,4580617.02,1.0,floor
+0171115AR,Brachychiton populneus,False,C\ Begur,3.34,2.4,ok,,small,427177.78,4580763.83,427180.78,4580762.37,1.0,class
+0171116AR,Prunus cerasifera 'Pissardii',False,C\ Sugranyes,2.38,2.02,ok,,none,427241.87,4580443.11,427239.83,4580441.87,1.0,floor
+0171117AR,Populus nigra 'Italica',False,Rbla Brasil,4.21,3.38,ok,,medium,427165.34,4581183.59,427169.41,4581184.68,1.0,class
+0171118AR,Styphnolobium japonicum,False,C\ Munné,10.1,9.01,ok,,large,426673.39,4580770.76,426677.96,4580761.76,1.5,class
+0171119AR,Styphnolobium japonicum,False,C\ Sants,3.52,2.68,ok,,medium,426728.18,4580820.05,426728.3,4580823.57,1.0,class
+0171120AR,Koelreuteria paniculata 'Fastigiata',False,Rbla Brasil,4.74,3.71,ok,,medium,427230.14,4580931.29,427234.74,4580932.4,1.0,class
+0171121AR,Celtis australis,False,Av Madrid,6.83,6.05,ok,,large,426790.59,4580932.2,426786.39,4580937.57,1.5,class
+0171122AR,Styphnolobium japonicum,False,C\ Sants,3.67,2.97,ok,,medium,427048.55,4580808.04,427048.71,4580811.7,1.0,class
+0171123AR,Styphnolobium japonicum,False,C\ Sugranyes,20.33,17.98,ok,,large,427213.6,4580492.54,427199.84,4580507.51,1.5,class
+0171124AR,Nerium oleander (vermell),False,C\ Sugranyes,2.52,1.48,ok,,small,427054.87,4580753.63,427052.71,4580752.35,1.0,class
+0171125AR,Bauhinia purpurea,False,C\ Roger,3.77,3.12,ok,,medium,427131.48,4581022.55,427129.76,4581025.91,1.0,class
+0171126AR,Koelreuteria paniculata 'Fastigiata',False,C\ Jaume Roig,3.06,2.19,ok,,small,426919.33,4580893.58,426921.9,4580895.23,1.0,class
+0171127AR,Bauhinia purpurea,False,C\ Roger,3.56,2.68,ok,,medium,426867.86,4580904.21,426869.56,4580901.08,1.0,class
+0171129AR,Celtis australis,False,Av Madrid,7.13,6.31,ok,,large,427056.89,4581134.69,427052.75,4581140.49,1.5,class
+0171130AR,Nerium oleander (vermell),False,C\ Sugranyes,2.32,1.62,ok,,none,427302.94,4580340.76,427300.96,4580339.56,1.0,floor
+0171131AR,Styphnolobium japonicum,False,Rier Blanca,4.6,3.27,ok,,medium,426728.3,4580697.39,426724.65,4580694.61,1.0,class
+0171132AR,Styphnolobium japonicum,False,C\ Sants,3.87,3.23,ok,,medium,427168.27,4580803.28,427168.38,4580807.15,1.0,class
+0171133AR,Platanus × acerifolia,True,C\ Juan de Sada,2.97,2.17,ok,,small,427055.1,4581129.7,427052.22,4581128.99,1.0,class
+0171134AR,Nerium oleander (vermell),False,C\ Sugranyes,2.39,2.04,ok,,none,427235.54,4580453.56,427233.5,4580452.33,1.0,floor
+0171135AR,Brachychiton populneus,False,C\ Begur,2.96,2.28,ok,,small,427193.13,4580729.54,427195.71,4580730.99,1.0,class
+0171136AR,Styphnolobium japonicum,False,C\ Sants,4.56,3.53,ok,,medium,427158.95,4580823.74,427158.78,4580819.19,1.0,class
+0171138AR,Styphnolobium japonicum,False,Rier Blanca,4.1,3.25,ok,,medium,426919.81,4580483.8,426916.93,4580480.87,1.0,class
+0171140AR,Brachychiton populneus,False,C\ Begur,3.0,2.06,ok,,small,427208.55,4580702.29,427211.15,4580703.76,1.0,class
+0171142AR,Acer negundo,False,C\ Miquel Àngel,2.4,1.63,ok,,none,427154.21,4580949.55,427154.88,4580947.25,1.0,floor
+0171143AR,Prunus cerasifera 'Pissardii',False,C\ Bassegoda,2.19,1.89,ok,,none,426793.57,4580712.83,426794.78,4580711.02,1.0,floor
+0171145AR,Platanus × acerifolia,True,C\ Sants,3.63,2.58,ok,,medium,426764.24,4580818.54,426764.39,4580822.16,1.0,class
+0171146AR,Styphnolobium japonicum,False,C\ Sants,3.53,2.74,ok,,medium,427032.15,4580808.76,427032.3,4580812.29,1.0,class
+0171147AR,Koelreuteria paniculata 'Fastigiata',False,C\ Portbou,5.68,4.14,ok,,medium,426993.18,4580865.59,426998.59,4580867.31,1.0,class
+0171148AR,Brachychiton populneus,False,C\ Begur,2.98,2.27,ok,,small,427202.6,4580712.8,427205.19,4580714.27,1.0,class
+0171150AR,Prunus cerasifera 'Pissardii',False,C\ Sugranyes,2.41,1.96,ok,,none,427219.36,4580480.19,427217.3,4580478.95,1.0,floor
+0171152AR,Nerium oleander (vermell),False,C\ Sugranyes,2.46,1.63,ok,,none,427293.45,4580356.97,427291.32,4580355.73,1.0,floor
+0171155AR,Prunus cerasifera 'Pissardii',False,C\ Pavia,2.56,1.53,ok,,small,427198.5,4580394.72,427197.2,4580396.92,1.0,class
+0171156AR,Acer negundo,False,C\ Miquel Àngel,2.36,1.82,ok,,none,427141.1,4580945.73,427141.76,4580943.46,1.0,floor
+0171157AR,Styphnolobium japonicum,False,Rier Blanca,7.19,4.79,ok,,large,427117.2,4580328.29,427113.17,4580322.34,1.5,class
+0171158AR,Styphnolobium japonicum,False,C\ Arizala,5.0,4.06,ok,,medium,426810.05,4580940.34,426814.55,4580942.5,1.0,class
+0171159AR,Koelreuteria paniculata 'Fastigiata',False,Rbla Brasil,4.18,3.5,ok,,medium,427171.63,4581159.98,427175.67,4581161.06,1.0,class
+0171160AR,Nerium oleander (vermell),False,C\ Sugranyes,2.34,1.66,ok,,none,427305.57,4580336.41,427303.56,4580335.2,1.0,floor
+0171162AR,Styphnolobium japonicum,False,C\ Sugranyes,4.23,3.05,ok,,medium,427187.74,4580532.45,427187.3,4580528.24,1.0,class
+0171163AR,Styphnolobium japonicum,False,C\ Sants,3.86,2.98,ok,,medium,426820.58,4580816.3,426820.68,4580820.16,1.0,class
+0171164AR,Celtis australis,False,Av Madrid,6.84,6.12,ok,,large,426796.93,4580937.15,426792.73,4580942.54,1.5,class
+0171165AR,Platanus × acerifolia,True,Rbla Badal,12.07,3.12,ok,,large,427288.67,4580703.92,427300.32,4580707.06,1.5,class
+0171166AR,Platanus × acerifolia,True,C\ Begur,,3.32,no_kerb,,check,,,,,1.0,floor
+0171167AR,Nerium oleander (vermell),False,C\ Sugranyes,2.51,1.77,ok,,small,427051.74,4580739.97,427053.9,4580741.26,1.0,class
+0171168AR,Nerium oleander (vermell),False,C\ Sugranyes,2.42,1.45,ok,,none,427233.55,4580437.88,427235.62,4580439.13,1.0,floor
+0171169AR,Prunus cerasifera 'Pissardii',False,C\ Bassegoda,2.35,1.84,ok,,none,426833.62,4580739.35,426834.91,4580737.39,1.0,floor
+0171170AR,Platanus × acerifolia,True,C\ Portbou,2.75,2.14,ok,,small,426962.06,4580960.99,426964.67,4580961.85,1.0,class
+0171171AR,Tipuana tipu,False,C\ Sugranyes,,8.56,median,,check,,,,,1.0,floor
+0171172AR,Nerium oleander (vermell),False,C\ Sugranyes,2.4,1.92,ok,,none,427296.67,4580351.44,427294.6,4580350.23,1.0,floor
+0171173AR,Styphnolobium japonicum,False,Rier Blanca,19.61,19.22,ok,,large,427080.41,4580352.82,427090.17,4580335.82,1.5,class
+0171174AR,Styphnolobium japonicum,False,Rier Blanca,4.36,3.79,ok,,medium,426748.26,4580657.11,426744.25,4580655.4,1.0,class
+0171176AR,Celtis australis,False,Av Madrid,6.67,5.74,ok,,large,426724.42,4580880.45,426720.31,4580885.7,1.5,class
+0171178AR,Koelreuteria paniculata 'Fastigiata',False,Rbla Brasil,4.16,3.58,ok,,medium,427173.07,4581154.59,427177.09,4581155.66,1.0,class
+0171179AR,Styphnolobium japonicum,False,C\ Sants,3.99,2.95,ok,,medium,427135.19,4580804.5,427135.35,4580808.48,1.0,class
+0171181AR,Platanus × acerifolia,True,C\ Sants,3.93,3.12,ok,,medium,426659.9,4580822.35,426660.01,4580826.28,1.0,class
+0171182AR,Platanus × acerifolia,True,C\ Juan de Sada,2.97,1.91,ok,,small,427067.79,4581077.99,427064.9,4581077.28,1.0,class
+0171186AR,Styphnolobium japonicum,False,C\ Sants,4.46,3.45,ok,,medium,426818.22,4580836.58,426818.09,4580832.12,1.0,class
+0171188AR,Nerium oleander (vermell),False,C\ Sugranyes,2.33,1.45,ok,,none,427103.03,4580673.59,427101.04,4580672.39,1.0,floor
+0171189AR,Styphnolobium japonicum,False,C\ Sants,3.47,2.5,ok,,small,426982.07,4580810.55,426982.15,4580814.03,1.0,class
+0171190AR,Brachychiton populneus,False,C\ Begur,2.98,2.22,ok,,small,427217.34,4580686.75,427219.93,4580688.21,1.0,class
+0171193AR,Styphnolobium japonicum,False,Rier Blanca,6.92,3.54,ok,,large,426994.17,4580415.53,426989.52,4580410.41,1.5,class
+0171194AR,Prunus cerasifera 'Pissardii',False,C\ Bassegoda,2.27,1.96,ok,,none,426744.23,4580678.69,426745.52,4580676.82,1.0,floor
+0171195AR,Platanus × acerifolia,True,C\ Begur,,7.39,median,,check,,,,,1.0,floor
+0171196AR,Styphnolobium japonicum,False,C\ Munné,4.8,4.48,ok,,medium,426673.9,4580784.64,426678.69,4580784.47,1.0,class
+0171198AR,Nerium oleander (vermell),False,C\ Sugranyes,2.74,1.77,ok,,small,427026.18,4580801.99,427023.8,4580800.63,1.0,class
+0171199AR,Prunus cerasifera 'Pissardii',False,C\ Pavia,2.34,1.39,ok,,none,427316.09,4580464.35,427314.93,4580466.38,1.0,floor
+0171200AR,Tipuana tipu,False,C\ Carreras i Candi,,9.4,median,20.0,check,,,,,1.0,floor
+0171201AR,Prunus cerasifera 'Pissardii',False,C\ Bassegoda,2.39,1.69,ok,,none,426807.75,4580712.78,426806.45,4580714.78,1.0,floor
+0171202AR,Styphnolobium japonicum,False,Rier Blanca,5.64,3.03,ok,,medium,427140.45,4580315.18,427137.82,4580310.19,1.0,class
+0171204AR,Celtis australis,False,Av Madrid,6.92,5.91,ok,,large,426901.52,4581019.83,426897.22,4581025.25,1.5,class
+0171206AR,Bauhinia purpurea,False,C\ Roger,3.57,2.5,ok,,medium,426950.24,4580946.53,426951.87,4580943.35,1.0,class
+0171207AR,Koelreuteria paniculata 'Fastigiata',False,Rbla Brasil,4.2,3.37,ok,,medium,427211.45,4581006.53,427215.52,4581007.59,1.0,class
+0171208AR,Prunus cerasifera 'Pissardii',False,C\ Sugranyes,2.16,1.69,ok,,none,427318.19,4580315.49,427316.34,4580314.37,1.0,floor
+0171209AR,Brachychiton populneus,False,C\ Begur,2.94,2.26,ok,,small,427190.07,4580734.95,427192.64,4580736.4,1.0,class
+0171210AR,Styphnolobium japonicum,False,C\ Sants,3.55,2.51,ok,,medium,426703.2,4580820.85,426703.31,4580824.39,1.0,class
+0171211AR,Styphnolobium japonicum,False,C\ Carreras i Candi,3.82,2.67,ok,,medium,427092.26,4580475.88,427095.53,4580477.86,1.0,class
+0171213AR,Nerium oleander (vermell),False,C\ Sugranyes,2.48,1.71,ok,,none,427048.7,4580745.04,427050.83,4580746.32,1.0,floor
+0171214AR,Nerium oleander (vermell),False,C\ Sugranyes,2.58,1.73,ok,,small,427030.85,4580793.78,427028.6,4580792.51,1.0,class
+0171215AR,Styphnolobium japonicum,False,C\ Munné,4.77,3.74,ok,,medium,426693.97,4580786.26,426689.2,4580786.4,1.0,class
+0171216AR,Brachychiton populneus,False,C\ Begur,3.0,2.24,ok,,small,427211.16,4580697.66,427213.78,4580699.14,1.0,class
+0171217AR,Platanus × acerifolia,True,C\ Portbou,4.22,3.15,ok,,medium,427007.01,4580871.47,427002.99,4580870.2,1.0,class
+0171218AR,Platanus × acerifolia,True,C\ Portbou,2.91,1.98,ok,,small,426942.85,4581019.46,426945.61,4581020.37,1.0,class
+0171219AR,Styphnolobium japonicum,False,C\ Sants,4.15,3.17,ok,,medium,426888.17,4580813.74,426888.34,4580817.89,1.0,class
+0171221AR,Koelreuteria paniculata 'Fastigiata',False,C\ Portbou,3.65,2.75,ok,,medium,426993.03,4580914.44,426989.56,4580913.31,1.0,class
+0171222AR,Bauhinia purpurea,False,C\ Roger,3.81,2.86,ok,,medium,427064.91,4581005.32,427066.63,4581001.92,1.0,class
+0171223AR,Nerium oleander (vermell),False,C\ Sugranyes,2.64,1.86,ok,,small,427047.31,4580766.35,427045.04,4580765.0,1.0,class
+0171224AR,Nerium oleander (vermell),False,C\ Sugranyes,2.48,1.63,ok,,none,427256.55,4580399.53,427258.67,4580400.81,1.0,floor
+0171225AR,Bauhinia purpurea,False,C\ Roger,3.88,2.79,ok,,medium,426883.36,4580895.37,426881.56,4580898.81,1.0,class
+0171226AR,Styphnolobium japonicum,False,C\ Sants,4.51,3.62,ok,,medium,426908.71,4580833.26,426908.51,4580828.75,1.0,class
+0171227AR,Prunus cerasifera 'Pissardii',False,C\ Sugranyes,2.18,1.6,ok,,none,427300.92,4580325.88,427302.79,4580326.99,1.0,floor
+0171228AR,Platanus × acerifolia,True,Rbla Badal,11.94,9.3,ok,,large,427323.55,4580573.8,427335.08,4580576.91,1.5,class
+0171229AR,Nerium oleander (vermell),False,C\ Sugranyes,2.35,1.53,ok,,none,427114.2,4580655.05,427112.19,4580653.84,1.0,floor
+0171230AR,Brachychiton populneus,False,C\ Begur,2.9,2.2,ok,,small,427187.08,4580740.24,427189.61,4580741.67,1.0,class
+0171231AR,Celtis australis,False,Av Madrid,6.53,5.67,ok,,large,426922.14,4581036.2,426918.07,4581041.31,1.5,class
+0171232AR,Styphnolobium japonicum,False,C\ Carreras i Candi,3.79,2.72,ok,,medium,427098.34,4580465.79,427101.59,4580467.75,1.0,class
+0171233AR,Bauhinia purpurea,False,C\ Roger,3.78,2.93,ok,,medium,427056.93,4581001.28,427058.64,4580997.91,1.0,class
+0171234AR,Prunus cerasifera 'Pissardii',False,C\ Sugranyes,2.36,1.5,ok,,none,427067.78,4580732.09,427065.77,4580730.88,1.0,floor
+0171235AR,Styphnolobium japonicum,False,C\ Sants,4.29,3.25,ok,,medium,427202.58,4580802.19,427205.14,4580805.63,1.0,class
+0171236AR,Bauhinia purpurea,False,C\ Roger,3.79,3.23,ok,,medium,427147.49,4581030.72,427145.76,4581034.1,1.0,class
+0171238AR,Styphnolobium japonicum,False,Rier Blanca,4.22,3.01,ok,,medium,426798.12,4580583.83,426795.57,4580580.47,1.0,class
+0171239AR,Celtis australis,False,Av Madrid,7.15,6.42,ok,,large,427097.85,4581163.87,427093.74,4581169.73,1.5,class
+0171240AR,Platanus × acerifolia,True,C\ Portbou,2.89,2.19,ok,,small,426958.54,4581020.03,426955.8,4581019.11,1.0,class
+0171241AR,Nerium oleander (vermell),False,C\ Sugranyes,2.19,1.6,ok,,none,427311.97,4580325.8,427310.09,4580324.66,1.0,floor
+0171242AR,Styphnolobium japonicum,False,Rier Blanca,7.65,2.28,ok,,large,427178.22,4580289.79,427173.49,4580283.78,1.5,class
+0171245AR,Platanus × acerifolia,True,C\ Sants,3.77,2.77,ok,,medium,426608.7,4580824.37,426608.84,4580828.14,1.0,class
+0171246AR,Styphnolobium japonicum,False,C\ Sants,4.51,3.44,ok,,medium,426888.73,4580834.14,426888.53,4580829.63,1.0,class
+0171247AR,Nerium oleander (vermell),False,C\ Sugranyes,2.45,1.62,ok,,none,427102.96,4580655.0,427105.06,4580656.26,1.0,floor
+0171248AR,Styphnolobium japonicum,False,Rier Blanca,3.18,0.69,ok,,small,427155.36,4580301.71,427153.54,4580299.1,1.0,class
+0171249AR,Styphnolobium japonicum,False,C\ Sants,4.51,3.69,ok,,medium,426826.2,4580836.35,426826.08,4580831.84,1.0,class
+0171250AR,Bauhinia purpurea,False,C\ Roger,3.57,2.46,ok,,medium,427094.47,4581020.27,427096.1,4581017.08,1.0,class
+0171251AR,Bauhinia purpurea,False,C\ Roger,3.77,3.2,ok,,medium,427123.12,4581018.28,427121.4,4581021.63,1.0,class
+0171252AR,Brachychiton populneus,False,C\ Begur,2.94,2.19,ok,,small,427226.66,4580670.26,427229.22,4580671.71,1.0,class
+0171253AR,Brachychiton populneus,False,C\ Begur,2.97,2.12,ok,,small,427220.49,4580681.18,427223.07,4580682.64,1.0,class
+0171254AR,Bauhinia purpurea,False,C\ Roger,3.78,2.76,ok,,medium,426995.11,4580952.75,426993.38,4580956.12,1.0,class
+0171255AR,Celtis australis,False,Av Madrid,7.08,6.18,ok,,large,426701.09,4580861.45,426696.61,4580866.94,1.5,class
+0171256AR,Styphnolobium japonicum,False,C\ Sants,3.8,2.67,ok,,medium,427243.21,4580800.33,427243.34,4580804.12,1.0,class
+0171257AR,Tipuana tipu,False,C\ Sugranyes,,12.33,median,,check,,,,,1.0,floor
+0171258AR,Prunus cerasifera 'Pissardii',False,C\ Sugranyes,2.38,1.93,ok,,none,427222.54,4580474.91,427220.5,4580473.68,1.0,floor
+0171261AR,Melia azedarach,False,C\ Canalejas,,9.63,median,27.46,check,,,,,1.0,floor
+0171262AR,Populus alba 'Pyramidalis',False,Rbla Brasil,4.13,2.96,ok,,medium,427203.82,4581035.69,427207.81,4581036.74,1.0,class
+0171263AR,Platanus × acerifolia,True,C\ Portbou,4.18,3.14,ok,,medium,427005.24,4580877.05,427001.25,4580875.79,1.0,class
+0171264AR,Styphnolobium japonicum,False,Rier Blanca,3.25,0.68,ok,,small,427161.3,4580297.56,427159.44,4580294.9,1.0,class
+0171265AR,Nerium oleander (vermell),False,C\ Sugranyes,2.46,1.57,ok,,none,427214.22,4580469.91,427216.32,4580471.18,1.0,floor
+0171266AR,Styphnolobium japonicum,False,Rier Blanca,4.48,2.5,ok,,medium,426809.54,4580576.08,426806.98,4580572.41,1.0,class
+0171267AR,Styphnolobium japonicum,False,C\ Sants,4.31,3.19,ok,,medium,426731.49,4580839.65,426731.33,4580835.34,1.0,class
+0171268AR,Bauhinia purpurea,False,C\ Roger,4.9,4.06,ok,,medium,427072.6,4580991.38,427071.8,4580996.22,1.0,class
+0171269AR,Platanus × acerifolia,True,Rbla Badal,12.0,3.22,ok,,large,427285.15,4580717.01,427296.73,4580720.13,1.5,class
+0171270AR,Styphnolobium japonicum,False,C\ Sugranyes,14.78,12.75,ok,,large,427213.6,4580492.54,427202.79,4580502.63,1.5,class
+0171272AR,Styphnolobium japonicum,False,C\ Portbou,2.91,2.01,ok,,small,426940.59,4581026.35,426943.36,4581027.25,1.0,class
+0171273AR,Platanus × acerifolia,True,C\ Juan de Sada,3.06,2.43,ok,,small,427051.89,4581083.53,427054.87,4581084.26,1.0,class
+0171274AR,Styphnolobium japonicum,False,C\ Sants,4.46,3.5,ok,,medium,426800.74,4580837.23,426800.55,4580832.78,1.0,class
+0171275AR,Platanus × acerifolia,True,Rbla Badal,10.82,5.39,ok,,large,427265.99,4580787.42,427276.35,4580790.53,1.5,class
+0171277AR,Platanus × acerifolia,True,C\ Portbou,3.32,2.39,ok,,small,426985.65,4580937.04,426982.5,4580936.01,1.0,class
+0171278AR,Celtis australis,False,Av Madrid,6.77,5.95,ok,,large,426751.39,4580901.55,426747.22,4580906.88,1.5,class
+0171279AR,Bauhinia purpurea,False,C\ Roger,3.51,2.61,ok,,medium,426926.18,4580934.18,426927.76,4580931.05,1.0,class
+0171281AR,Styphnolobium japonicum,False,Rier Blanca,,17.16,median,,check,,,,,1.0,floor
+0171282AR,Styphnolobium japonicum,False,C\ Munné,4.71,3.81,ok,,medium,426694.63,4580808.77,426689.93,4580808.91,1.0,class
+0171283AR,Prunus cerasifera 'Pissardii',False,C\ Pavia,2.51,2.27,ok,,small,427310.94,4580472.97,427312.22,4580470.81,1.0,class
+0171284AR,Platanus × acerifolia,True,C\ Arizala,5.0,4.13,ok,,medium,426843.43,4580916.88,426838.92,4580914.73,1.0,class
+0171285AR,Platanus × acerifolia,True,C\ Portbou,2.95,2.08,ok,,small,426954.77,4581031.27,426951.97,4581030.33,1.0,class
+0171286AR,Celtis australis,False,Av Madrid,6.78,5.89,ok,,large,426761.98,4580909.83,426757.8,4580915.17,1.5,class
+0171288AR,Styphnolobium japonicum,False,Rier Blanca,4.42,3.11,ok,,medium,426887.22,4580514.38,426884.18,4580511.17,1.0,class
+0171289AR,Platanus × acerifolia,True,C\ Portbou,3.19,2.07,ok,,small,426982.74,4580945.97,426979.7,4580944.98,1.0,class
+0171290AR,Bauhinia purpurea,False,C\ Roger,3.63,2.63,ok,,medium,427172.01,4581059.98,427173.66,4581056.75,1.0,class
+0171292AR,Melia azedarach,False,C\ Canalejas,,9.85,median,,check,,,,,1.0,floor
+0171293AR,Tipuana tipu,False,C\ Sugranyes,,8.87,median,,check,,,,,1.0,floor
+0171295AR,Koelreuteria paniculata 'Fastigiata',False,C\ Portbou,3.0,2.06,ok,,small,426951.83,4581040.04,426948.98,4581039.08,1.0,class
+0171296AR,Styphnolobium japonicum,False,C\ Arizala,4.92,4.0,ok,,medium,426858.56,4580842.1,426853.65,4580842.34,1.0,class
+0171299AR,Celtis australis,False,Av Madrid,6.97,6.13,ok,,large,427010.84,4581101.89,427006.69,4581107.48,1.5,class
+0171300AR,Platanus × acerifolia,True,Av Madrid,8.98,4.53,ok,,large,426692.59,4580852.14,426683.6,4580852.14,1.5,class
+0171302AR,Hibiscus syriacus,False,C\ Miquel Àngel,2.54,1.9,ok,,small,427202.78,4580963.7,427203.49,4580961.26,1.0,class
+0171303AR,Nerium oleander (vermell),False,C\ Sugranyes,2.6,1.9,ok,,small,427049.73,4580762.28,427047.5,4580760.95,1.0,class
+0171304AR,Celtis australis,False,Av Madrid,7.15,6.15,ok,,large,426872.67,4580996.93,426868.17,4581002.48,1.5,class
+0171305AR,Styphnolobium japonicum,False,C\ Arizala,5.4,4.4,ok,,medium,426860.29,4580877.44,426854.9,4580877.71,1.0,class
+0171306AR,Platanus × acerifolia,True,C\ Arizala,4.98,4.08,ok,,medium,426837.69,4580928.9,426833.19,4580926.75,1.0,class
+0171307AR,Styphnolobium japonicum,False,C\ Carreras i Candi,3.81,2.72,ok,,medium,427095.32,4580470.8,427098.59,4580472.76,1.0,class
+0171308AR,Platanus × acerifolia,True,C\ Arizala,5.02,3.72,ok,,medium,426852.41,4580898.1,426847.88,4580895.93,1.0,class
+0171310AR,Nerium oleander (vermell),False,C\ Sugranyes,2.46,1.5,ok,,none,427057.33,4580749.49,427055.21,4580748.24,1.0,floor
+0171312AR,Prunus cerasifera 'Pissardii',False,C\ Sugranyes,2.45,1.65,ok,,none,427310.04,4580310.5,427312.15,4580311.75,1.0,floor
+0171314AR,Nerium oleander (vermell),False,C\ Sugranyes,2.57,1.85,ok,,small,427086.89,4580681.4,427089.09,4580682.72,1.0,class
+0171315AR,Prunus cerasifera 'Pissardii',False,C\ Bassegoda,2.48,1.57,ok,,none,426867.34,4580751.86,426865.98,4580753.94,1.0,floor
+0171317AR,Styphnolobium japonicum,False,Rier Blanca,4.66,2.48,ok,,medium,426697.44,4580737.87,426693.74,4580735.05,1.0,class
+0171318AR,Bauhinia purpurea,False,C\ Roger,3.58,2.56,ok,,medium,427108.66,4581027.54,427110.3,4581024.35,1.0,class
+0171319AR,Prunus cerasifera 'Pissardii',False,C\ Bassegoda,2.35,1.51,ok,,none,426764.28,4580682.97,426762.94,4580684.91,1.0,floor
+0171320AR,Nerium oleander (vermell),False,C\ Sugranyes,2.53,1.69,ok,,small,427266.35,4580383.33,427268.52,4580384.65,1.0,class
+0171321AR,Prunus cerasifera 'Pissardii',False,C\ Bassegoda,2.22,1.85,ok,,none,426754.7,4580685.9,426755.96,4580684.07,1.0,floor
+0171322AR,Bauhinia purpurea,False,C\ Roger,3.78,3.29,ok,,medium,427163.06,4581038.67,427161.34,4581042.04,1.0,class
+0171325AR,Platanus × acerifolia,True,C\ Begur,,9.05,no_kerb,,check,,,,,1.0,floor
+0171326AR,Bauhinia purpurea,False,C\ Roger,3.58,2.8,ok,,medium,426876.05,4580908.44,426877.69,4580905.25,1.0,class
+0171327AR,Melia azedarach,False,C\ Canalejas,,9.98,median,,check,,,,,1.0,floor
+0171328AR,Styphnolobium japonicum,False,C\ Carreras i Candi,3.7,2.6,ok,,medium,427107.38,4580450.91,427110.54,4580452.83,1.0,class
+0171329AR,Koelreuteria paniculata 'Fastigiata',False,Rbla Brasil,4.23,3.68,ok,,medium,427168.41,4581172.06,427172.5,4581173.15,1.0,class
+0171331AR,Platanus × acerifolia,True,Rbla Badal,11.96,3.35,ok,,large,427325.72,4580565.7,427337.27,4580568.8,1.5,class
+0171332AR,Koelreuteria paniculata 'Fastigiata',False,Rbla Brasil,7.09,5.55,ok,,large,427161.77,4581196.96,427164.52,4581203.5,1.5,class
+0171334AR,Platanus × acerifolia,True,C\ Portbou,3.44,2.51,ok,,small,426988.25,4580929.09,426984.98,4580928.02,1.0,class
+0171335AR,Celtis australis,False,Av Madrid,6.88,6.06,ok,,large,427027.0,4581113.88,427022.9,4581119.4,1.5,class
+0171336AR,Platanus × acerifolia,True,C\ Portbou,2.96,2.12,ok,,small,426974.68,4580922.1,426977.49,4580923.02,1.0,class
+0171337AR,Styphnolobium japonicum,False,Rier Blanca,6.91,3.78,ok,,large,426999.55,4580410.64,426994.89,4580405.52,1.5,class
+0171338AR,Platanus × acerifolia,True,Rbla Badal,12.01,3.35,ok,,large,427313.1,4580612.54,427324.69,4580615.66,1.5,class
+0171340AR,Styphnolobium japonicum,False,C\ Sugranyes,2.6,1.88,ok,,small,427186.19,4580535.09,427183.95,4580533.78,1.0,class
+0171341AR,Nerium oleander (vermell),False,C\ Sugranyes,2.48,1.9,ok,,none,427271.01,4580394.59,427268.9,4580393.31,1.0,floor
+0171342AR,Styphnolobium japonicum,False,C\ Sants,4.5,3.38,ok,,medium,427221.42,4580821.37,427221.26,4580816.87,1.0,class
+0171343AR,Prunus cerasifera 'Pissardii',False,C\ Sugranyes,2.15,1.38,ok,,none,427016.83,4580798.75,427018.68,4580799.84,1.0,floor
+0171344AR,Nerium oleander (vermell),False,C\ Sugranyes,2.61,1.86,ok,,small,427062.43,4580722.17,427064.66,4580723.52,1.0,class
+0171345AR,Styphnolobium japonicum,False,C\ Sants,4.03,3.07,ok,,medium,426865.31,4580814.67,426865.47,4580818.7,1.0,class
+0171346AR,Bauhinia purpurea,False,C\ Roger,3.69,2.81,ok,,medium,426867.57,4580887.54,426865.93,4580890.85,1.0,class
+0171347AR,Platanus × acerifolia,True,C\ Sants,3.75,2.84,ok,,medium,426603.0,4580824.57,426603.13,4580828.32,1.0,class
+0171348AR,Prunus cerasifera 'Pissardii',False,C\ Pavia,2.56,1.59,ok,,small,427192.98,4580391.45,427191.68,4580393.65,1.0,class
+0171349AR,Koelreuteria paniculata 'Fastigiata',False,Rbla Brasil,4.11,3.08,ok,,medium,427219.04,4580977.5,427223.02,4580978.54,1.0,class
+0171350AR,Nerium oleander (vermell),False,C\ Sugranyes,2.37,1.54,ok,,none,427124.94,4580618.41,427126.98,4580619.63,1.0,floor
+0171351AR,Prunus cerasifera 'Pissardii',False,C\ Bassegoda,2.44,1.77,ok,,none,426922.61,4580787.83,426921.97,4580790.18,1.0,floor
+0171352AR,Styphnolobium japonicum,False,C\ Sants,4.61,3.8,ok,,medium,427058.28,4580827.67,427058.09,4580823.07,1.0,class
+0171353AR,Nerium oleander (vermell),False,C\ Sugranyes,2.26,1.09,ok,,none,427133.33,4580623.16,427131.38,4580622.0,1.0,floor
+0171354AR,Styphnolobium japonicum,False,C\ Munné,4.68,3.67,ok,,medium,426693.35,4580770.04,426688.68,4580770.24,1.0,class
+0171355AR,Styphnolobium japonicum,False,Rier Blanca,25.45,20.16,ok,,large,427115.17,4580329.67,427090.13,4580334.2,1.5,class
+0171356AR,Styphnolobium japonicum,False,Rier Blanca,4.27,3.25,ok,,medium,426759.72,4580630.42,426755.8,4580628.72,1.0,class
+0171357AR,Platanus × acerifolia,True,Rbla Badal,11.99,3.38,ok,,large,427316.72,4580599.09,427328.3,4580602.21,1.5,class
+0171358AR,Brachychiton populneus,False,C\ Begur,2.97,2.16,ok,,small,427199.39,4580718.47,427201.98,4580719.93,1.0,class
+0171359AR,Prunus cerasifera 'Pissardii',False,C\ Sugranyes,2.37,1.42,ok,,none,427163.52,4580572.87,427161.49,4580571.66,1.0,floor
+0171360AR,Bauhinia purpurea,False,C\ Roger,3.87,3.04,ok,,medium,426924.68,4580916.65,426922.9,4580920.08,1.0,class
+0171361AR,Nerium oleander (vermell),False,C\ Sugranyes,2.29,1.27,ok,,none,427076.56,4580717.53,427074.6,4580716.35,1.0,floor
+0171362AR,Brachychiton populneus,False,C\ Begur,2.97,2.36,ok,,small,427196.33,4580723.88,427198.92,4580725.34,1.0,class
+0171363AR,Styphnolobium japonicum,False,C\ Juan de Sada,2.98,2.07,ok,,small,427064.31,4581092.15,427061.42,4581091.44,1.0,class
+0171365AR,Bauhinia purpurea,False,C\ Roger,3.6,2.6,ok,,medium,426890.86,4580916.05,426892.51,4580912.85,1.0,class
+0171366AR,Prunus cerasifera 'Pissardii',False,C\ Sugranyes,2.32,1.42,ok,,none,427255.19,4580420.68,427253.21,4580419.47,1.0,floor
+0171368AR,Prunus cerasifera 'Pissardii',False,C\ Pavia,2.26,1.27,ok,,none,427306.46,4580458.74,427305.32,4580460.68,1.0,floor
+0171369AR,Bauhinia purpurea,False,C\ Roger,3.76,3.14,ok,,medium,427115.6,4581014.44,427113.89,4581017.79,1.0,class
+0171370AR,Prunus cerasifera 'Pissardii',False,C\ Bassegoda,2.45,1.71,ok,,none,426822.84,4580722.67,426821.49,4580724.72,1.0,floor
+0171371AR,Platanus × acerifolia,True,C\ Portbou,3.72,3.02,ok,,medium,426994.65,4580909.5,426991.11,4580908.34,1.0,class
+0171372AR,Tipuana tipu,False,C\ Carreras i Candi,,9.38,median,7.44,check,,,,,1.0,floor
+0171373AR,Koelreuteria paniculata 'Fastigiata',False,Rbla Brasil,4.03,3.51,ok,,medium,427191.77,4581082.03,427195.66,4581083.07,1.0,class
+0171374AR,Styphnolobium japonicum,False,C\ Munné,4.72,3.99,ok,,medium,426694.42,4580801.74,426689.7,4580801.88,1.0,class
+0171375AR,Styphnolobium japonicum,False,C\ Sants,3.75,3.05,ok,,medium,427058.17,4580807.62,427058.33,4580811.36,1.0,class
+0171377AR,Platanus × acerifolia,True,Rbla Badal,11.96,9.17,ok,,large,427325.66,4580565.94,427337.2,4580569.04,1.5,class
+0171378AR,Styphnolobium japonicum,False,C\ Sants,3.93,2.82,ok,,medium,426849.41,4580815.28,426849.59,4580819.2,1.0,class
+0171379AR,Nerium oleander (vermell),False,C\ Sugranyes,2.16,1.77,ok,,none,427297.66,4580331.39,427299.52,4580332.49,1.0,floor
+0171380AR,Platanus × acerifolia,True,C\ Juan de Sada,3.07,2.32,ok,,small,427049.8,4581092.03,427052.78,4581092.76,1.0,class
+0171381AR,Styphnolobium japonicum,False,Rier Blanca,4.28,3.09,ok,,medium,426765.25,4580617.68,426761.33,4580615.98,1.0,class
+0171382AR,Platanus × acerifolia,True,C\ Portbou,2.86,1.94,ok,,small,426974.62,4580970.31,426971.9,4580969.41,1.0,class
+0171383AR,Styphnolobium japonicum,False,Rier Blanca,4.39,3.26,ok,,medium,426643.58,4580778.7,426641.18,4580775.01,1.0,class
+0171384AR,Prunus cerasifera 'Pissardii',False,C\ Pavia,2.43,1.39,ok,,none,427261.99,4580432.28,427260.79,4580434.4,1.0,floor
+0171385AR,Bauhinia purpurea,False,C\ Roger,3.87,2.89,ok,,medium,426982.17,4580963.18,426983.96,4580959.75,1.0,class
+0171386AR,Platanus × acerifolia,True,C\ Sants,3.98,3.06,ok,,medium,427108.75,4580805.55,427108.91,4580809.52,1.0,class
+0171388AR,Koelreuteria paniculata 'Fastigiata',False,C\ Jaume Roig,2.86,2.0,ok,,small,426936.69,4580867.01,426939.06,4580868.6,1.0,class
+0171389AR,Styphnolobium japonicum,False,C\ Sants,4.45,3.47,ok,,medium,426790.09,4580837.68,426789.92,4580833.23,1.0,class
+0171390AR,Styphnolobium japonicum,False,Rier Blanca,15.48,14.66,ok,,large,427078.13,4580351.51,427085.83,4580338.1,1.5,class
+0171391AR,Brachychiton populneus,False,C\ Begur,2.86,2.19,ok,,small,427178.84,4580787.82,427181.69,4580787.69,1.0,class
+0171392AR,Celtis australis,False,Av Madrid,7.11,5.68,ok,,large,427148.63,4581199.62,427144.31,4581205.27,1.5,class
+0171394AR,Styphnolobium japonicum,False,C\ Arizala,4.87,3.97,ok,,medium,426834.55,4580889.37,426838.93,4580891.48,1.0,class
+0171395AR,Styphnolobium japonicum,False,C\ Munné,4.92,4.42,ok,,medium,426673.39,4580770.76,426678.23,4580769.89,1.0,class
+0171396AR,Tipuana tipu,False,C\ Carreras i Candi,,9.42,median,9.08,check,,,,,1.0,floor
+0171397AR,Bauhinia purpurea,False,C\ Roger,3.59,2.6,ok,,medium,427140.22,4581043.72,427141.86,4581040.53,1.0,class
+0171400AR,Bauhinia purpurea,False,C\ Roger,3.74,2.85,ok,,medium,427038.16,4580974.84,427036.45,4580978.17,1.0,class
+0171401AR,Celtis australis,False,Av Madrid,6.82,5.97,ok,,large,426782.58,4580925.93,426778.38,4580931.3,1.5,class
+0171403AR,Styphnolobium japonicum,False,C\ Sants,3.52,2.58,ok,,medium,426736.74,4580819.77,426736.86,4580823.28,1.0,class
+0171404AR,Prunus cerasifera 'Pissardii',False,C\ Sugranyes,2.15,1.32,ok,,none,427013.83,4580803.81,427015.69,4580804.9,1.0,floor
+0171405AR,Prunus cerasifera 'Pissardii',False,C\ Pavia,2.49,2.23,ok,,none,427301.31,4580467.23,427302.58,4580465.09,1.0,floor
+0171406AR,Platanus × acerifolia,True,C\ Portbou,2.69,1.8,ok,,small,426958.84,4580970.79,426961.4,4580971.63,1.0,class
+0171407AR,Hibiscus syriacus,False,C\ Miquel Àngel,2.52,1.83,ok,,small,427197.0,4580962.02,427197.7,4580959.6,1.0,class
+0171408AR,Styphnolobium japonicum,False,C\ Carreras i Candi,3.74,2.7,ok,,medium,427104.24,4580456.07,427107.43,4580458.01,1.0,class
+0171410AR,Koelreuteria paniculata 'Fastigiata',False,Rbla Brasil,4.62,3.4,ok,,medium,427227.17,4580943.6,427231.66,4580944.69,1.0,class
+0171411AR,Bauhinia purpurea,False,C\ Roger,3.58,2.55,ok,,medium,427101.9,4581024.07,427103.53,4581020.89,1.0,class
+0171412AR,Platanus × acerifolia,True,C\ Juan de Sada,2.8,2.09,ok,,small,427071.45,4581061.51,427068.95,4581060.25,1.0,class
+0171413AR,Celtis australis,False,Av Madrid,7.31,6.13,ok,,large,427132.89,4581188.31,427128.68,4581194.28,1.5,class
+0171414AR,Prunus cerasifera 'Pissardii',False,C\ Sugranyes,2.28,1.34,ok,,none,427139.51,4580612.71,427137.55,4580611.55,1.0,floor
+0171415AR,Celtis australis,False,Av Madrid,7.02,6.12,ok,,large,426894.39,4581014.11,426890.0,4581019.59,1.5,class
+0171416AR,Nerium oleander (vermell),False,C\ Sugranyes,2.46,1.9,ok,,none,427268.17,4580399.27,427266.07,4580398.0,1.0,floor
+0171417AR,Styphnolobium japonicum,False,Rier Blanca,4.47,3.36,ok,,medium,426880.81,4580520.44,426877.73,4580517.19,1.0,class
+0171418AR,Celtis australis,False,C\ Carreras i Candi,4.51,0.94,ok,,medium,426927.82,4580782.7,426932.29,4580783.32,1.0,class
+0171420AR,Platanus × acerifolia,True,C\ Sants,3.7,2.75,ok,,medium,426588.29,4580825.09,426588.42,4580828.79,1.0,class
+0171421AR,Tipuana tipu,False,C\ Carreras i Candi,,9.43,median,,check,,,,,1.0,floor
+0171422AR,Prunus cerasifera 'Pissardii',False,C\ Pavia,2.59,2.06,ok,,small,427214.4,4580415.73,427215.72,4580413.51,1.0,class
+0171423AR,Koelreuteria paniculata 'Fastigiata',False,Rbla Brasil,4.68,3.87,ok,,medium,427228.75,4580937.05,427233.3,4580938.15,1.0,class
+0171425AR,Prunus cerasifera 'Pissardii',False,C\ Bassegoda,2.23,1.75,ok,,none,426798.39,4580716.05,426799.63,4580714.19,1.0,floor
+0171426AR,Platanus × acerifolia,True,C\ Portbou,2.72,1.24,ok,,small,426956.73,4580977.22,426959.32,4580978.08,1.0,class
+0171428AR,Prunus cerasifera 'Pissardii',False,C\ Sugranyes,2.38,2.03,ok,,none,427258.67,4580414.94,427256.63,4580413.71,1.0,floor
+0171429AR,Styphnolobium japonicum,False,Rier Blanca,4.34,3.2,ok,,medium,426893.24,4580508.69,426890.26,4580505.53,1.0,class
+0171430AR,Nerium oleander (vermell),False,C\ Sugranyes,2.32,1.65,ok,,none,427128.05,4580613.23,427130.04,4580614.42,1.0,floor
+0171431AR,Styphnolobium japonicum,False,C\ Sants,4.31,3.35,ok,,medium,426751.23,4580838.93,426751.08,4580834.62,1.0,class
+0171432AR,Styphnolobium japonicum,False,C\ Sants,4.31,3.51,ok,,medium,426722.58,4580839.98,426722.42,4580835.68,1.0,class
+0171434AR,Ligustrum lucidum,False,C\ Carreras i Candi,3.66,2.61,ok,,medium,427110.37,4580445.99,427113.5,4580447.89,1.0,class
+0171435AR,Prunus cerasifera 'Pissardii',False,C\ Bassegoda,2.43,1.43,ok,,none,426882.56,4580761.84,426881.22,4580763.87,1.0,floor
+0171439AR,Styphnolobium japonicum,False,C\ Sants,4.56,3.62,ok,,medium,427074.59,4580827.01,427074.4,4580822.44,1.0,class
+0171441AR,Platanus × acerifolia,True,Rbla Badal,11.82,9.23,ok,,large,427294.08,4580683.92,427305.55,4580686.79,1.5,class
+0171442AR,Nerium oleander (vermell),False,C\ Sugranyes,2.5,1.46,ok,,small,427259.95,4580393.9,427262.09,4580395.2,1.0,class
+0171443AR,Platanus × acerifolia,True,C\ Sants,3.78,2.92,ok,,medium,426630.36,4580823.66,426630.53,4580827.45,1.0,class
+0171444AR,Celtis australis,False,Av Madrid,7.03,6.08,ok,,large,426960.19,4581064.3,426956.0,4581069.94,1.5,class
+0171445AR,Styphnolobium japonicum,False,Rier Blanca,4.03,2.68,ok,,medium,426936.77,4580467.85,426934.07,4580464.86,1.0,class
+0171446AR,Platanus × acerifolia,True,C\ Portbou,4.04,2.3,ok,,medium,426999.89,4580893.74,426996.04,4580892.51,1.0,class
+0171447AR,Platanus × acerifolia,True,Rbla Badal,11.96,9.67,ok,,large,427320.59,4580584.75,427332.14,4580587.87,1.5,class
+0171448AR,Nerium oleander (vermell),False,C\ Sugranyes,2.36,1.53,ok,,none,427120.72,4580644.23,427118.7,4580643.01,1.0,floor
+0171449AR,Prunus cerasifera 'Pissardii',False,C\ Sugranyes,2.37,1.7,ok,,none,427225.82,4580469.5,427223.8,4580468.26,1.0,floor
+0171450AR,Styphnolobium japonicum,False,C\ Sants,3.58,2.73,ok,,medium,426976.4,4580810.69,426976.48,4580814.26,1.0,class
+0171452AR,Nerium oleander (vermell),False,C\ Sugranyes,2.41,1.98,ok,,none,427229.09,4580464.21,427227.04,4580462.94,1.0,floor
+0171453AR,Celtis australis,False,Av Madrid,7.13,6.28,ok,,large,427063.24,4581139.22,427059.1,4581145.02,1.5,class
+0171456AR,Celtis australis,False,Av Madrid,6.82,5.93,ok,,large,426908.02,4581024.99,426903.77,4581030.33,1.5,class
+0171457AR,Platanus × acerifolia,True,Rbla Badal,11.82,3.57,ok,,large,427294.07,4580683.97,427305.54,4580686.83,1.5,class
+0171458AR,Prunus cerasifera 'Pissardii',False,C\ Sugranyes,2.58,1.46,ok,,small,427077.77,4580696.6,427079.98,4580697.93,1.0,class
+0171459AR,Melia azedarach,False,C\ Canalejas,,10.0,median,5.01,check,,,,,1.0,floor
+0171460AR,Prunus cerasifera 'Pissardii',False,C\ Sugranyes,2.33,1.36,ok,,none,427070.73,4580727.21,427068.73,4580726.01,1.0,floor
+0171462AR,Nerium oleander (vermell),False,C\ Sugranyes,2.55,1.59,ok,,small,427269.57,4580378.02,427271.75,4580379.34,1.0,class
+0171463AR,Brachychiton populneus,False,C\ Begur,2.86,2.12,ok,,small,427183.92,4580745.84,427186.41,4580747.25,1.0,class
+0171464AR,Styphnolobium japonicum,False,C\ Arizala,5.28,4.45,ok,,medium,426860.01,4580871.59,426854.73,4580871.85,1.0,class
+0171465AR,Styphnolobium japonicum,False,Rier Blanca,,10.86,median,6.47,check,,,,,1.0,floor
+0171466AR,Styphnolobium japonicum,False,C\ Sants,4.19,3.21,ok,,medium,426895.21,4580813.46,426895.38,4580817.64,1.0,class
+0171470AR,Nerium oleander (vermell),False,C\ Sugranyes,2.2,1.37,ok,,none,427158.4,4580562.62,427160.3,4580563.75,1.0,floor
+0171471AR,Styphnolobium japonicum,False,Rier Blanca,,21.38,median,,check,,,,,1.0,floor
+0171472AR,Styphnolobium japonicum,False,C\ Arizala,4.94,4.14,ok,,medium,426831.03,4580942.65,426826.58,4580940.49,1.0,class
+0171473AR,Prunus cerasifera 'Pissardii',False,C\ Bassegoda,2.38,1.56,ok,,none,426759.22,4580679.48,426757.65,4580681.26,1.0,floor
+0171474AR,Nerium oleander (vermell),False,C\ Sugranyes,2.24,1.39,ok,,none,427161.63,4580557.16,427163.56,4580558.3,1.0,floor
+0171475AR,Melia azedarach,False,C\ Canalejas,,9.32,median,29.91,check,,,,,1.0,floor
+0171477AR,Styphnolobium japonicum,False,C\ Sants,4.51,3.49,ok,,medium,427095.83,4580826.14,427095.65,4580821.63,1.0,class
+0171478AR,Platanus × acerifolia,True,Rbla Badal,17.67,4.07,ok,,large,427305.39,4580677.06,427300.89,4580694.15,1.5,class
+0171479AR,Nerium oleander (vermell),False,C\ Sugranyes,2.61,1.81,ok,,small,427065.41,4580717.21,427067.64,4580718.55,1.0,class
+0171480AR,Nerium oleander (vermell),False,C\ Sugranyes,2.67,1.88,ok,,small,427045.23,4580769.84,427042.94,4580768.48,1.0,class
+0171481AR,Styphnolobium japonicum,False,C\ Sants,4.29,3.47,ok,,medium,426706.71,4580840.56,426706.55,4580836.27,1.0,class
+0171482AR,Koelreuteria paniculata 'Fastigiata',False,Rbla Brasil,4.2,3.56,ok,,medium,427162.16,4581195.49,427166.22,4581196.58,1.0,class
+0171484AR,Koelreuteria paniculata 'Fastigiata',False,Rbla Brasil,4.13,3.39,ok,,medium,427174.51,4581149.21,427178.5,4581150.27,1.0,class
+0171485AR,Celtis australis,False,Av Madrid,7.03,6.1,ok,,large,426989.55,4581086.09,426985.36,4581091.73,1.5,class
+0171486AR,Celtis australis,False,Av Madrid,7.19,6.19,ok,,large,427119.11,4581178.77,427115.04,4581184.69,1.5,class
+0171487AR,Photinia x fraseri 'Red Robin',False,C\ Jaume Roig,3.06,2.4,ok,,small,426913.64,4580902.42,426916.21,4580904.08,1.0,class
+0171489AR,Platanus × acerifolia,True,Rbla Badal,12.01,9.2,ok,,large,427313.11,4580612.5,427324.7,4580615.63,1.5,class
+0171490AR,Prunus cerasifera 'Pissardii',False,C\ Pavia,2.23,1.55,ok,,none,427140.79,4580337.32,427138.95,4580338.59,1.0,floor
+0171491AR,Styphnolobium japonicum,False,C\ Sants,4.55,3.69,ok,,medium,426882.24,4580834.42,426882.04,4580829.88,1.0,class
+0171492AR,Melia azedarach,False,C\ Canalejas,,12.69,median,,check,,,,,1.0,floor
+0171493AR,Styphnolobium japonicum,False,Rier Blanca,4.09,3.13,ok,,medium,426909.92,4580492.91,426907.11,4580489.93,1.0,class
+0171495AR,Styphnolobium japonicum,False,C\ Sants,3.67,2.64,ok,,medium,426771.15,4580818.26,426771.3,4580821.93,1.0,class
+0171496AR,Styphnolobium japonicum,False,C\ Arizala,4.91,3.78,ok,,medium,426839.01,4580850.53,426843.91,4580850.37,1.0,class
+0171497AR,Nerium oleander (vermell),False,C\ Sugranyes,2.6,1.71,ok,,small,427068.34,4580712.32,427070.57,4580713.66,1.0,class
+0171499AR,Styphnolobium japonicum,False,C\ Portbou,2.86,2.11,ok,,small,426972.27,4580977.4,426969.55,4580976.5,1.0,class
+0171502AR,Styphnolobium japonicum,False,C\ Sants,3.96,2.94,ok,,medium,426918.72,4580812.81,426918.77,4580816.77,1.0,class
+0171503AR,Nerium oleander (vermell),False,C\ Sugranyes,2.27,1.51,ok,,none,427141.75,4580590.21,427143.68,4580591.39,1.0,floor
+0171504AR,Nerium oleander (vermell),False,C\ Sugranyes,2.57,1.71,ok,,small,427272.72,4580372.82,427274.92,4580374.15,1.0,class
+0171505AR,Bauhinia purpurea,False,C\ Roger,3.79,3.27,ok,,medium,426987.75,4580948.98,426986.03,4580952.35,1.0,class
+0171506AR,Styphnolobium japonicum,False,C\ Sants,4.4,3.36,ok,,medium,426761.38,4580838.66,426761.3,4580834.26,1.0,class
+0171507AR,Prunus cerasifera 'Pissardii',False,C\ Bassegoda,2.43,1.7,ok,,none,426817.76,4580719.35,426816.43,4580721.37,1.0,floor
+0171508AR,Populus alba 'Pyramidalis',False,Rbla Brasil,4.15,3.5,ok,,medium,427163.52,4581190.4,427167.53,4581191.47,1.0,class
+0171509AR,Prunus cerasifera 'Pissardii',False,C\ Bassegoda,2.3,1.94,ok,,none,426774.14,4580699.3,426775.45,4580697.4,1.0,floor
+0171510AR,Celtis australis,False,Av Madrid,7.03,5.84,ok,,large,426996.58,4581091.3,426992.39,4581096.95,1.5,class
+0171511AR,Styphnolobium japonicum,False,C\ Portbou,2.86,1.98,ok,,small,426970.34,4580983.2,426967.63,4580982.3,1.0,class
+0171512AR,Platanus × acerifolia,True,C\ Sants,3.95,3.19,ok,,medium,427099.28,4580805.92,427099.44,4580809.87,1.0,class
+0171513AR,Styphnolobium japonicum,False,C\ Sants,3.86,2.8,ok,,medium,426636.17,4580823.4,426636.35,4580827.26,1.0,class
+0171514AR,Styphnolobium japonicum,False,Rier Blanca,7.02,3.9,ok,,large,427020.95,4580390.85,427018.48,4580384.28,1.5,class
+0171515AR,Celtis australis,False,Av Madrid,7.02,6.09,ok,,large,426883.59,4581005.65,426879.27,4581011.18,1.5,class
+0171516AR,Styphnolobium japonicum,False,Rier Blanca,6.77,3.11,ok,,large,427013.26,4580397.92,427008.63,4580392.98,1.5,class
+0171517AR,Platanus × acerifolia,True,C\ Portbou,2.92,1.5,ok,,small,426969.9,4580936.94,426972.69,4580937.82,1.0,class
+0171518AR,Styphnolobium japonicum,False,Rier Blanca,6.91,3.28,ok,,large,427004.56,4580406.07,426999.84,4580401.02,1.5,class
+0171519AR,Styphnolobium japonicum,False,C\ Portbou,2.91,1.87,ok,,small,426935.66,4581041.42,426938.43,4581042.32,1.0,class
+0171522AR,Styphnolobium japonicum,False,Rier Blanca,4.31,3.19,ok,,medium,426870.65,4580530.05,426867.69,4580526.91,1.0,class
+0171524AR,Styphnolobium japonicum,False,C\ Munné,4.76,3.75,ok,,medium,426693.69,4580777.85,426688.93,4580778.05,1.0,class
+0171525AR,Prunus cerasifera 'Pissardii',False,C\ Pavia,2.38,1.54,ok,,none,427320.94,4580467.17,427319.74,4580469.22,1.0,floor
+0171527AR,Bauhinia purpurea,False,C\ Roger,3.59,2.61,ok,,medium,426884.15,4580912.6,426885.79,4580909.4,1.0,class
+0171528AR,Celtis australis,False,Av Madrid,7.02,6.07,ok,,large,426850.43,4580979.54,426846.07,4580985.04,1.5,class
+0171529AR,Prunus cerasifera 'Pissardii',False,C\ Sugranyes,2.15,1.34,ok,,none,427025.74,4580783.68,427027.59,4580784.77,1.0,floor
+0171530AR,Styphnolobium japonicum,False,C\ Juan de Sada,2.97,2.03,ok,,small,427060.95,4581105.83,427058.06,4581105.13,1.0,class
+0171531AR,Styphnolobium japonicum,False,C\ Juan de Sada,2.61,1.7,ok,,small,427073.04,4581054.67,427070.47,4581054.19,1.0,class
+0171532AR,Nerium oleander (vermell),False,C\ Sugranyes,2.26,1.31,ok,,none,427080.02,4580711.78,427078.09,4580710.61,1.0,floor
+0171533AR,Styphnolobium japonicum,False,C\ Carreras i Candi,3.77,2.69,ok,,medium,427101.37,4580460.78,427104.6,4580462.74,1.0,class
+0171534AR,Koelreuteria paniculata 'Fastigiata',False,C\ Jaume Roig,2.68,1.85,ok,,small,426942.38,4580858.51,426944.6,4580860.0,1.0,class
+0171535AR,Bauhinia purpurea,False,C\ Roger,3.67,2.62,ok,,medium,426957.52,4580950.26,426959.2,4580947.0,1.0,class
+0171536AR,Styphnolobium japonicum,False,Rier Blanca,4.44,3.31,ok,,medium,426724.67,4580702.15,426721.14,4580699.46,1.0,class
+0171537AR,Bauhinia purpurea,False,C\ Roger,4.48,3.37,ok,,medium,427063.94,4580987.19,427062.12,4580991.28,1.0,class
+0171538AR,Styphnolobium japonicum,False,C\ Munné,5.13,4.47,ok,,medium,426674.37,4580809.74,426679.51,4580809.64,1.0,class
+0171540AR,Nerium oleander (vermell),False,C\ Sugranyes,2.34,1.49,ok,,none,427123.64,4580639.39,427121.63,4580638.18,1.0,floor
+0171541AR,Tipuana tipu,False,C\ Sugranyes,,25.07,median,,check,,,,,1.0,floor
+0171542AR,Styphnolobium japonicum,False,C\ Munné,4.94,4.21,ok,,medium,426674.1,4580795.31,426679.04,4580795.22,1.0,class
+0171543AR,Celtis australis,False,Av Madrid,7.02,6.2,ok,,large,426835.23,4580967.5,426830.87,4580973.01,1.5,class
+0171544AR,Platanus × acerifolia,True,C\ Portbou,4.68,3.24,ok,,medium,426996.73,4580903.02,426993.94,4580899.25,1.0,class
+0171545AR,Koelreuteria paniculata 'Fastigiata',False,Rbla Brasil,4.09,3.11,ok,,medium,427217.51,4580983.35,427221.47,4580984.39,1.0,class
+0171546AR,Styphnolobium japonicum,False,C\ Sants,3.71,2.73,ok,,medium,427196.47,4580802.33,427196.55,4580806.05,1.0,class
+0171547AR,Prunus cerasifera 'Pissardii',False,C\ Bassegoda,2.49,1.68,ok,,none,426832.88,4580729.26,426831.52,4580731.34,1.0,floor
+0171548AR,Koelreuteria paniculata 'Fastigiata',False,Rbla Brasil,4.56,3.25,ok,,medium,427225.56,4580950.25,427230.0,4580951.32,1.0,class
+0171550AR,Platanus × acerifolia,True,Rbla Badal,12.02,3.23,ok,,large,427290.28,4580697.91,427301.89,4580701.03,1.5,class
+0171551AR,Melia azedarach,False,C\ Canalejas,,9.6,median,5.1,check,,,,,1.0,floor
+0171552AR,Styphnolobium japonicum,False,C\ Arizala,5.01,3.72,ok,,medium,426849.06,4580905.11,426844.53,4580902.94,1.0,class
+0171553AR,Nerium oleander (vermell),False,C\ Sugranyes,2.27,1.49,ok,,none,427129.81,4580629.1,427127.86,4580627.94,1.0,floor
+0171554AR,Styphnolobium japonicum,False,Rier Blanca,10.34,9.07,ok,,large,426663.05,4580771.14,426662.67,4580760.8,1.5,class
+0171555AR,Celtis australis,False,Av Madrid,6.63,5.62,ok,,large,426917.63,4581032.62,426913.51,4581037.81,1.5,class
+0171556AR,Brachychiton populneus,False,C\ Begur,2.95,2.04,ok,,small,427229.8,4580664.66,427232.37,4580666.1,1.0,class
+0171557AR,Populus alba 'Pyramidalis',False,Rbla Brasil,11.8,4.08,ok,,large,427244.02,4580840.3,427255.79,4580841.12,1.5,class
+0171558AR,Nerium oleander (vermell),False,C\ Sugranyes,2.21,1.58,ok,,none,427037.78,4580763.74,427039.7,4580764.83,1.0,floor
+0171559AR,Styphnolobium japonicum,False,C\ Sants,4.5,3.56,ok,,medium,427115.41,4580825.37,427115.24,4580820.88,1.0,class
+0171560AR,Nerium oleander (vermell),False,C\ Sugranyes,2.28,1.62,ok,,none,427131.62,4580607.27,427133.58,4580608.43,1.0,floor
+0171561AR,Styphnolobium japonicum,False,C\ Sugranyes,10.72,7.91,ok,,large,427187.74,4580532.45,427190.94,4580522.22,1.5,class
+0171562AR,Platanus × acerifolia,True,C\ Portbou,2.84,2.08,ok,,small,426949.43,4580999.42,426952.13,4581000.31,1.0,class
+0171563AR,Styphnolobium japonicum,False,Rier Blanca,5.3,3.16,ok,,medium,427133.29,4580318.96,427130.82,4580314.27,1.0,class
+0171564AR,Prunus cerasifera 'Pissardii',False,C\ Sugranyes,2.45,1.59,ok,,none,427105.55,4580650.69,427107.65,4580651.95,1.0,floor
+0171565AR,Styphnolobium japonicum,False,C\ Sugranyes,27.51,23.46,ok,,large,427213.6,4580492.54,427196.07,4580513.74,1.5,class
+0171566AR,Styphnolobium japonicum,False,C\ Arizala,4.92,3.83,ok,,medium,426827.02,4580950.88,426822.6,4580948.72,1.0,class
+0171567AR,Platanus × acerifolia,True,Rbla Badal,12.07,9.29,ok,,large,427288.68,4580703.87,427300.34,4580707.0,1.5,class
+0171568AR,Nerium oleander (vermell),False,C\ Sugranyes,2.48,1.44,ok,,none,427150.0,4580595.32,427147.91,4580593.98,1.0,floor
+0171569AR,Styphnolobium japonicum,False,Rier Blanca,4.21,3.24,ok,,medium,426902.25,4580500.17,426899.35,4580497.1,1.0,class
+0171570AR,Prunus cerasifera 'Pissardii',False,C\ Sugranyes,2.47,1.49,ok,,none,427157.27,4580583.36,427155.14,4580582.09,1.0,floor
+0171571AR,Styphnolobium japonicum,False,Rier Blanca,7.59,2.36,ok,,large,427172.24,4580294.5,427167.55,4580288.53,1.5,class
+0171573AR,Styphnolobium japonicum,False,C\ Sants,4.12,3.17,ok,,medium,426911.76,4580812.91,426911.81,4580817.03,1.0,class
+0171574AR,Platanus × acerifolia,True,C\ Arizala,4.91,3.86,ok,,medium,426821.27,4580916.98,426825.7,4580919.11,1.0,class
+0171576AR,Styphnolobium japonicum,False,Rier Blanca,4.59,2.37,ok,,medium,426700.25,4580734.2,426696.59,4580731.41,1.0,class
+0171577AR,Styphnolobium japonicum,False,C\ Munné,5.03,4.44,ok,,medium,426674.22,4580801.66,426679.25,4580801.57,1.0,class
+0171578AR,Bauhinia purpurea,False,C\ Roger,3.8,3.1,ok,,medium,427108.99,4581011.07,427106.74,4581014.13,1.0,class
+0171579AR,Styphnolobium japonicum,False,C\ Sants,4.52,3.55,ok,,medium,427227.87,4580821.14,427227.71,4580816.62,1.0,class
+0171581AR,Celtis australis,False,Av Madrid,7.13,6.36,ok,,large,427085.82,4581155.34,427081.68,4581161.15,1.5,class
+0171582AR,Tipuana tipu,False,C\ Sugranyes,,15.2,median,,check,,,,,1.0,floor
+0171584AR,Styphnolobium japonicum,False,Rier Blanca,4.52,2.43,ok,,medium,426817.14,4580570.77,426814.55,4580567.06,1.0,class
+0171585AR,Styphnolobium japonicum,False,C\ Sants,4.53,3.6,ok,,medium,427088.91,4580826.42,427088.72,4580821.9,1.0,class
+0171586AR,Koelreuteria paniculata 'Fastigiata',False,Rbla Brasil,4.21,3.58,ok,,medium,427169.93,4581166.35,427174.0,4581167.43,1.0,class
+0171587AR,Nerium oleander (vermell),False,C\ Sugranyes,2.58,1.41,ok,,small,427080.7,4580691.72,427082.91,4580693.04,1.0,class
+0171588AR,Bauhinia purpurea,False,C\ Roger,3.81,2.7,ok,,medium,426876.91,4580892.16,426875.22,4580895.58,1.0,class
+0171589AR,Styphnolobium japonicum,False,C\ Sants,4.57,3.63,ok,,medium,426938.0,4580832.38,426937.77,4580827.81,1.0,class
+0171590AR,Platanus × acerifolia,True,Rbla Badal,12.01,9.03,ok,,large,427314.97,4580605.6,427326.56,4580608.72,1.5,class
+0171591AR,Styphnolobium japonicum,False,Rier Blanca,5.86,4.73,ok,,medium,426655.7,4580771.41,426655.49,4580765.55,1.0,class
+0171592AR,Koelreuteria paniculata 'Fastigiata',False,Rbla Brasil,14.67,12.0,ok,,large,427231.71,4580924.75,427239.8,4580912.51,1.5,class
+0171594AR,Tipuana tipu,False,C\ Carreras i Candi,,9.5,median,6.56,check,,,,,1.0,floor
+0171595AR,Styphnolobium japonicum,False,C\ Sants,4.22,3.32,ok,,medium,426901.36,4580813.21,426901.53,4580817.42,1.0,class
+0171596AR,Koelreuteria paniculata 'Fastigiata',False,Rbla Brasil,9.59,4.43,ok,,large,427243.18,4580852.25,427252.75,4580852.92,1.5,class
+0171597AR,Styphnolobium japonicum,False,C\ Munné,4.71,3.75,ok,,medium,426693.13,4580761.9,426688.42,4580762.01,1.0,class
+0171598AR,Prunus cerasifera 'Pissardii',False,C\ Sugranyes,2.52,1.4,ok,,small,427263.14,4580388.64,427265.29,4580389.95,1.0,class
+0171600AR,Prunus cerasifera 'Pissardii',False,C\ Pavia,2.54,2.39,ok,,small,427320.56,4580478.71,427321.86,4580476.53,1.0,class
+0171601AR,Platanus × acerifolia,True,Rbla Badal,11.95,9.18,ok,,large,427322.33,4580578.31,427333.87,4580581.42,1.5,class
+0171602AR,Populus alba 'Pyramidalis',False,Rbla Brasil,4.15,3.54,ok,,medium,427205.35,4581029.84,427209.37,4581030.9,1.0,class
+0171603AR,Styphnolobium japonicum,False,C\ Arizala,4.97,4.11,ok,,medium,426858.91,4580849.19,426853.94,4580849.43,1.0,class
+0171604AR,Platanus × acerifolia,True,Rbla Badal,12.03,9.4,ok,,large,427286.8,4580710.86,427298.42,4580713.98,1.5,class
+0171605AR,Prunus cerasifera 'Pissardii',False,C\ Pavia,2.61,1.65,ok,,small,427326.44,4580470.64,427324.11,4580471.81,1.0,class
+0171606AR,Bauhinia purpurea,False,C\ Roger,3.64,2.56,ok,,medium,427180.32,4581064.23,427181.98,4581060.99,1.0,class
+0171607AR,Styphnolobium japonicum,False,Rier Blanca,4.71,2.94,ok,,medium,426783.71,4580594.7,426780.32,4580591.45,1.0,class
+0171608AR,Celtis australis,False,Av Madrid,6.8,5.87,ok,,large,426772.8,4580918.29,426768.61,4580923.65,1.5,class
+0171609AR,Prunus cerasifera 'Pissardii',False,C\ Bassegoda,2.26,1.92,ok,,none,426764.94,4580692.96,426766.23,4580691.09,1.0,floor
+0171610AR,Platanus × acerifolia,True,Rbla Badal,10.06,5.53,ok,,large,427264.23,4580793.28,427273.87,4580796.17,1.5,class
+0171611AR,Tipuana tipu,False,C\ Sugranyes,,21.66,median,,check,,,,,1.0,floor
+0171612AR,Koelreuteria paniculata 'Fastigiata',False,Rbla Brasil,4.17,3.03,ok,,medium,427200.76,4581047.34,427204.79,4581048.4,1.0,class
+0171613AR,Styphnolobium japonicum,False,C\ Sugranyes,23.33,18.97,ok,,large,427187.74,4580532.45,427197.55,4580511.29,1.5,class
+0171614AR,Styphnolobium japonicum,False,C\ Sugranyes,17.25,13.67,ok,,large,427187.74,4580532.45,427194.38,4580516.53,1.5,class
+0171615AR,Platanus × acerifolia,True,Rbla Badal,11.99,9.62,ok,,large,427316.79,4580598.84,427328.37,4580601.97,1.5,class
+0171616AR,Platanus × acerifolia,True,C\ Sants,6.57,5.51,ok,,large,427235.25,4580797.84,427235.39,4580804.41,1.5,class
+0171617AR,Platanus × acerifolia,True,C\ Juan de Sada,2.94,2.13,ok,,small,427082.8,4581017.21,427079.95,4581016.48,1.0,class
+0171618AR,Nerium oleander (vermell),False,C\ Sugranyes,2.44,1.86,ok,,none,427264.87,4580404.72,427262.79,4580403.45,1.0,floor
+0171619AR,Styphnolobium japonicum,False,C\ Portbou,2.81,2.41,ok,,small,426981.12,4580902.48,426983.79,4580903.35,1.0,class
+0171620AR,Prunus cerasifera 'Pissardii',False,C\ Bassegoda,2.65,2.24,ok,,small,426878.52,4580768.9,426879.98,4580766.69,1.0,class
+0171621AR,Styphnolobium japonicum,False,C\ Juan de Sada,3.06,2.07,ok,,small,427055.12,4581070.42,427058.09,4581071.15,1.0,class
+0171622AR,Styphnolobium japonicum,False,C\ Munné,5.23,4.52,ok,,medium,426674.51,4580816.93,426679.74,4580816.83,1.0,class
+0171623AR,Prunus cerasifera 'Pissardii',False,C\ Sugranyes,2.42,1.63,ok,,none,427227.17,4580448.47,427229.24,4580449.73,1.0,floor
+0171625AR,Bauhinia purpurea,False,C\ Roger,3.76,3.1,ok,,medium,427171.62,4581043.04,427169.91,4581046.39,1.0,class
+0171626AR,Celtis australis,False,Av Madrid,6.94,6.05,ok,,large,427016.16,4581105.83,427012.03,4581111.41,1.5,class
+0171627AR,Melia azedarach,False,C\ Canalejas,,9.9,median,,check,,,,,1.0,floor
+0171628AR,Melia azedarach,False,C\ Canalejas,,9.7,median,,check,,,,,1.0,floor
+0171629AR,Styphnolobium japonicum,False,C\ Arizala,5.04,4.01,ok,,medium,426859.3,4580857.11,426854.26,4580857.36,1.0,class
+0171630AR,Styphnolobium japonicum,False,Rier Blanca,4.07,3.1,ok,,medium,426942.39,4580462.84,426939.82,4580459.68,1.0,class
+0171631AR,Prunus cerasifera 'Pissardii',False,C\ Sugranyes,2.26,1.24,ok,,none,427083.02,4580706.81,427081.08,4580705.64,1.0,floor
+0171632AR,Koelreuteria paniculata 'Fastigiata',False,Rbla Brasil,3.96,2.96,ok,,medium,427179.22,4581131.53,427183.05,4581132.55,1.0,class
+0171635AR,Styphnolobium japonicum,False,C\ Sants,4.3,3.31,ok,,medium,426714.22,4580840.28,426714.06,4580835.99,1.0,class
+0171636AR,Celtis australis,False,Av Madrid,7.03,6.05,ok,,large,426974.62,4581075.01,426970.43,4581080.65,1.5,class
+0171637AR,Brachychiton populneus,False,C\ Begur,2.94,1.93,ok,,small,427178.36,4580776.85,427181.29,4580776.72,1.0,class
+0171638AR,Acer negundo,False,C\ Miquel Àngel,2.55,1.94,ok,,small,427208.58,4580965.39,427209.29,4580962.94,1.0,class
+0171639AR,Styphnolobium japonicum,False,Rier Blanca,4.45,3.42,ok,,medium,426650.25,4580774.35,426647.82,4580770.62,1.0,class
+0171640AR,Platanus × acerifolia,True,Rbla Badal,11.95,3.4,ok,,large,427322.31,4580578.39,427333.84,4580581.51,1.5,class
+0171641AR,Koelreuteria paniculata 'Fastigiata',False,C\ Jaume Roig,2.54,1.68,ok,,small,426948.34,4580849.51,426950.48,4580850.89,1.0,class
+0171642AR,Styphnolobium japonicum,False,C\ Sants,4.51,3.35,ok,,medium,427037.96,4580828.37,427037.84,4580823.87,1.0,class
+0171643AR,Platanus × acerifolia,True,C\ Portbou,2.8,1.52,ok,,small,426951.93,4580991.81,426954.6,4580992.68,1.0,class
+0171644AR,Bauhinia purpurea,False,C\ Roger,3.62,2.77,ok,,medium,427164.26,4581056.02,427165.91,4581052.79,1.0,class
+0171645AR,Styphnolobium japonicum,False,C\ Sants,3.86,2.74,ok,,medium,426797.49,4580817.16,426797.65,4580821.03,1.0,class
+0171647AR,Prunus cerasifera 'Pissardii',False,C\ Pavia,2.55,1.77,ok,,small,427193.28,4580403.18,427194.59,4580400.99,1.0,class
+0171648AR,Nerium oleander (vermell),False,C\ Sugranyes,2.28,1.4,ok,,none,427164.95,4580551.56,427166.91,4580552.72,1.0,floor
+0171649AR,Bauhinia purpurea,False,C\ Roger,3.59,2.93,ok,,medium,427116.97,4581031.81,427118.61,4581028.61,1.0,class
+0171651AR,Styphnolobium japonicum,False,C\ Sants,3.75,2.85,ok,,medium,426966.62,4580810.92,426966.71,4580814.67,1.0,class
+0171653AR,Prunus cerasifera 'Pissardii',False,C\ Sugranyes,2.15,1.32,ok,,none,427023.17,4580788.02,427025.02,4580789.11,1.0,floor
+0216036AR,Koelreuteria paniculata 'Fastigiata',False,Rbla Brasil,,14.04,median,,check,,,,,1.0,floor
+0216053AR,Koelreuteria paniculata 'Fastigiata',False,Rbla Brasil,,16.28,median,,check,,,,,1.0,floor
+0216063AR,Koelreuteria paniculata 'Fastigiata',False,Rbla Brasil,,11.6,median,28.71,check,,,,,1.0,floor
+0216594AR,Koelreuteria paniculata 'Fastigiata',False,Rbla Brasil,,10.45,median,,check,,,,,1.0,floor
+0216991AR,Koelreuteria paniculata 'Fastigiata',False,Rbla Brasil,,11.23,median,,check,,,,,1.0,floor
+0217317AR,Koelreuteria paniculata 'Fastigiata',False,Rbla Brasil,,11.02,median,28.44,check,,,,,1.0,floor
+0217468AR,Tipuana tipu,False,Rbla Badal,,14.0,no_kerb,,check,,,,,1.0,floor
+0217667AR,Tipuana tipu,False,Rbla Badal,,17.06,no_kerb,,check,,,,,1.0,floor
+0217669AR,Tipuana tipu,False,Rbla Brasil,,13.13,median,28.45,check,,,,,1.0,floor
+0289398AR,Styphnolobium japonicum,False,C\ Sants,3.8,2.93,ok,,medium,426789.23,4580817.51,426789.39,4580821.31,1.0,class
+0289399AR,Styphnolobium japonicum,False,C\ Sants,3.74,2.87,ok,,medium,426780.14,4580817.88,426780.3,4580821.62,1.0,class
+0289924AR,Styphnolobium japonicum,False,Rier Blanca,7.73,3.78,ok,,large,427183.99,4580285.34,427179.34,4580279.18,1.5,class
+0289925AR,Melia azedarach,False,C\ Canalejas,,10.1,median,,check,,,,,1.0,floor
+0294316AR,Styphnolobium japonicum,False,C\ Sants,4.44,3.5,ok,,medium,426808.85,4580836.88,426808.66,4580832.45,1.0,class
+0294510AR,Styphnolobium japonicum,False,C\ Sants,3.81,3.06,ok,,medium,427064.69,4580807.33,427064.85,4580811.13,1.0,class
+0294635AR,Pyrus calleryana 'Chanticleer',False,Rbla Badal,,21.58,median,13.83,check,,,,,1.0,floor
+0294638AR,Nerium oleander (blanc),False,Rbla Badal,,11.66,median,13.81,check,,,,,1.0,floor
+0294640AR,Pyrus calleryana 'Chanticleer',False,Rbla Badal,,11.81,median,13.8,check,,,,,1.0,floor
+0294641AR,Nerium oleander (blanc),False,Rbla Badal,,10.91,median,13.8,check,,,,,1.0,floor
+0294644AR,Nerium oleander,False,Rbla Badal,,11.35,median,13.8,check,,,,,1.0,floor
+0294645AR,Nerium oleander,False,Rbla Badal,,10.9,median,13.8,check,,,,,1.0,floor
+0294646AR,Pyrus calleryana 'Chanticleer',False,Rbla Badal,,11.61,median,13.8,check,,,,,1.0,floor
+0294647AR,Pyrus communis,False,Rbla Badal,,11.14,median,13.8,check,,,,,1.0,floor
+0294652AR,Nerium oleander,False,Rbla Badal,,19.01,median,13.83,check,,,,,1.0,floor
+0294653AR,Nerium oleander,False,Rbla Badal,,18.2,median,13.83,check,,,,,1.0,floor
+0294654AR,Crataegus x media 'Paul's Scarlet',False,Rbla Badal,,19.0,median,13.83,check,,,,,1.0,floor
+0294655AR,Nerium oleander,False,Rbla Badal,,18.48,median,13.83,check,,,,,1.0,floor
+0294656AR,Crataegus x media 'Paul's Scarlet',False,Rbla Badal,,20.64,median,13.83,check,,,,,1.0,floor
+0294657AR,Nerium oleander,False,Rbla Badal,,21.57,median,13.83,check,,,,,1.0,floor
+0294658AR,Nerium oleander,False,Rbla Badal,,20.87,median,13.83,check,,,,,1.0,floor
+0303829AR,Pyrus calleryana 'Chanticleer',False,C\ Canalejas,2.94,0.72,ok,,small,427219.62,4580487.01,427218.17,4580489.56,1.0,class
+0303831AR,Pyrus calleryana 'Chanticleer',False,C\ Canalejas,2.93,0.82,ok,,small,427229.57,4580492.65,427228.13,4580495.2,1.0,class
+0303832AR,Pyrus calleryana 'Chanticleer',False,C\ Canalejas,2.92,0.82,ok,,small,427236.54,4580496.61,427235.09,4580499.14,1.0,class
+0303833AR,Pyrus calleryana 'Chanticleer',False,C\ Canalejas,2.9,0.81,ok,,small,427241.58,4580499.48,427240.15,4580502.0,1.0,class
+0303834AR,Pyrus calleryana 'Chanticleer',False,C\ Canalejas,2.87,0.63,ok,,small,427248.42,4580503.39,427247.0,4580505.88,1.0,class
+0303835AR,Pyrus calleryana 'Chanticleer',False,C\ Canalejas,2.84,0.71,ok,,small,427255.97,4580507.69,427254.57,4580510.16,1.0,class
+0303836AR,Pyrus calleryana 'Chanticleer',False,C\ Canalejas,2.87,0.77,ok,,small,427263.57,4580511.95,427262.17,4580514.45,1.0,class
+0303837AR,Pyrus calleryana 'Chanticleer',False,C\ Canalejas,2.89,0.82,ok,,small,427279.84,4580521.11,427278.43,4580523.63,1.0,class
+0303838AR,Pyrus calleryana 'Chanticleer',False,C\ Canalejas,2.94,0.78,ok,,small,427320.68,4580544.22,427319.24,4580546.78,1.0,class
+0303839AR,Pyrus calleryana 'Chanticleer',False,C\ Canalejas,2.93,0.8,ok,,small,427314.61,4580540.79,427313.18,4580543.34,1.0,class
+0303840AR,Pyrus calleryana 'Chanticleer',False,C\ Canalejas,2.9,0.85,ok,,small,427286.35,4580524.78,427284.93,4580527.3,1.0,class
+0303841AR,Pyrus calleryana 'Chanticleer',False,C\ Canalejas,2.91,0.88,ok,,small,427292.84,4580528.43,427291.41,4580530.97,1.0,class
+0303842AR,Pyrus calleryana 'Chanticleer',False,C\ Canalejas,2.96,0.8,ok,,small,427332.97,4580551.18,427331.51,4580553.76,1.0,class
+0303843AR,Pyrus calleryana 'Chanticleer',False,C\ Canalejas,2.95,0.77,ok,,small,427327.23,4580547.92,427325.77,4580550.49,1.0,class
+0303844AR,Pyrus calleryana 'Chanticleer',False,C\ Canalejas,2.79,0.9,ok,,small,427131.74,4580437.18,427130.36,4580439.6,1.0,class
+0303845AR,Pyrus calleryana 'Chanticleer',False,C\ Canalejas,2.8,0.86,ok,,small,427137.83,4580440.65,427136.44,4580443.08,1.0,class
+0303846AR,Pyrus calleryana 'Chanticleer',False,C\ Canalejas,2.81,0.84,ok,,small,427143.91,4580444.12,427142.52,4580446.56,1.0,class
+0303847AR,Pyrus calleryana 'Chanticleer',False,C\ Canalejas,2.82,0.81,ok,,small,427149.99,4580447.59,427148.59,4580450.04,1.0,class
+0303848AR,Pyrus calleryana 'Chanticleer',False,C\ Canalejas,2.83,0.78,ok,,small,427156.06,4580451.06,427154.66,4580453.51,1.0,class
+0303850AR,Pyrus calleryana 'Chanticleer',False,C\ Canalejas,2.84,0.76,ok,,small,427168.25,4580457.96,427166.84,4580460.43,1.0,class
+0303851AR,Pyrus calleryana 'Chanticleer',False,C\ Canalejas,2.85,0.75,ok,,small,427174.34,4580461.41,427172.93,4580463.89,1.0,class
+0303852AR,Pyrus calleryana 'Chanticleer',False,C\ Canalejas,2.86,0.75,ok,,small,427180.43,4580464.85,427179.02,4580467.34,1.0,class
+0303853AR,Pyrus calleryana 'Chanticleer',False,C\ Canalejas,2.87,0.73,ok,,small,427186.52,4580468.31,427185.1,4580470.8,1.0,class
+0303854AR,Pyrus calleryana 'Chanticleer',False,C\ Canalejas,2.87,0.72,ok,,small,427192.61,4580471.77,427191.2,4580474.26,1.0,class
+0303855AR,Pyrus calleryana 'Chanticleer',False,C\ Canalejas,2.87,0.7,ok,,small,427198.7,4580475.22,427197.28,4580477.71,1.0,class
+0303856AR,Pyrus calleryana 'Chanticleer',False,C\ Canalejas,2.87,0.69,ok,,small,427204.78,4580478.67,427203.36,4580481.17,1.0,class
+0310050AR,Koelreuteria paniculata 'Fastigiata',False,Rbla Brasil,,12.71,median,10.53,check,,,,,1.0,floor
+0310093AR,Nerium oleander,False,Rbla Badal,,8.98,median,14.17,check,,,,,1.0,floor
+0310094AR,Crataegus x media 'Paul's Scarlet',False,Rbla Badal,,8.96,median,14.23,check,,,,,1.0,floor
+0310096AR,Crataegus x media 'Paul's Scarlet',False,Rbla Badal,,11.79,median,14.05,check,,,,,1.0,floor
+0310187AR,Styphnolobium japonicum,False,C\ Sants,4.43,3.17,ok,,medium,427181.52,4580822.75,427181.34,4580818.33,1.0,class
+0315497AR,Styphnolobium japonicum 'Columnare',False,C\ Sants,3.8,2.91,ok,,medium,426615.02,4580824.14,426615.16,4580827.94,1.0,class
+0315516AR,Pyrus calleryana 'Chanticleer',False,C\ Sant Frederic,3.01,0.52,ok,,small,426934.73,4580482.47,426936.28,4580479.89,1.0,class
+0315517AR,Pyrus calleryana 'Chanticleer',False,C\ Sant Frederic,3.02,0.6,ok,,small,426941.59,4580486.6,426943.15,4580484.0,1.0,class
+0315518AR,Pyrus calleryana 'Chanticleer',False,C\ Sant Frederic,3.02,0.67,ok,,small,426948.45,4580490.71,426950.01,4580488.11,1.0,class
+0315519AR,Pyrus calleryana 'Chanticleer',False,C\ Sant Frederic,3.03,0.73,ok,,small,426955.31,4580494.82,426956.87,4580492.22,1.0,class
+0315520AR,Pyrus calleryana 'Chanticleer',False,C\ Sant Frederic,3.04,0.82,ok,,small,426962.17,4580498.94,426963.74,4580496.33,1.0,class
+0315521AR,Pyrus calleryana 'Chanticleer',False,C\ Sant Frederic,3.06,0.88,ok,,small,426969.02,4580503.06,426970.6,4580500.44,1.0,class
+0315522AR,Pyrus calleryana 'Chanticleer',False,C\ Sant Frederic,2.93,0.79,ok,,small,426984.38,4580512.08,426985.89,4580509.56,1.0,class
+0315523AR,Pyrus calleryana 'Chanticleer',False,C\ Sant Frederic,2.92,0.76,ok,,small,426990.39,4580515.67,426991.89,4580513.16,1.0,class
+0315524AR,Pyrus calleryana 'Chanticleer',False,C\ Sant Frederic,2.92,0.74,ok,,small,426996.39,4580519.26,426997.9,4580516.76,1.0,class
+0315525AR,Pyrus calleryana 'Chanticleer',False,C\ Sant Frederic,2.93,0.73,ok,,small,427001.43,4580522.3,427002.94,4580519.8,1.0,class
+0315526AR,Pyrus calleryana 'Chanticleer',False,C\ Sant Frederic,2.96,0.66,ok,,small,427006.14,4580525.14,427007.66,4580522.59,1.0,class
+0315527AR,Pyrus calleryana 'Chanticleer',False,C\ Sant Frederic,2.96,0.78,ok,,small,427013.45,4580529.51,427014.97,4580526.97,1.0,class
+0315528AR,Pyrus calleryana 'Chanticleer',False,C\ Sant Frederic,2.95,0.67,ok,,small,427020.16,4580533.53,427021.66,4580530.99,1.0,class
+0315529AR,Pyrus calleryana 'Chanticleer',False,C\ Sant Frederic,2.89,0.49,ok,,small,427027.01,4580537.57,427028.48,4580535.09,1.0,class
+0315530AR,Pyrus calleryana 'Chanticleer',False,C\ Sant Frederic,2.89,0.54,ok,,small,427032.33,4580540.76,427033.83,4580538.29,1.0,class
+0315531AR,Pyrus calleryana 'Chanticleer',False,C\ Sant Frederic,2.93,0.62,ok,,small,427039.79,4580545.25,427041.3,4580542.74,1.0,class
+0315532AR,Pyrus calleryana 'Chanticleer',False,C\ Sant Frederic,2.96,0.61,ok,,small,427045.46,4580548.69,427047.0,4580546.16,1.0,class
+0315533AR,Pyrus calleryana 'Chanticleer',False,C\ Sant Frederic,3.08,0.59,ok,,small,427118.35,4580592.49,427119.93,4580589.85,1.0,class
+0315534AR,Pyrus calleryana 'Chanticleer',False,C\ Sant Frederic,3.07,0.71,ok,,small,427124.45,4580596.15,427126.04,4580593.51,1.0,class
+0315535AR,Pyrus calleryana 'Chanticleer',False,C\ Sant Frederic,3.08,0.75,ok,,small,427130.29,4580599.66,427131.88,4580597.02,1.0,class
+0315536AR,Pyrus calleryana 'Chanticleer',False,C\ Sant Frederic,2.96,0.85,ok,,small,427061.12,4580558.09,427062.66,4580555.56,1.0,class
+0315537AR,Pyrus calleryana 'Chanticleer',False,C\ Sant Frederic,3.0,0.9,ok,,small,427067.17,4580561.77,427068.73,4580559.2,1.0,class
+0315538AR,Pyrus calleryana 'Chanticleer',False,C\ Sant Frederic,3.02,0.83,ok,,small,427074.2,4580566.01,427075.75,4580563.41,1.0,class
+0315539AR,Pyrus calleryana 'Chanticleer',False,C\ Sant Frederic,3.01,0.73,ok,,small,427081.66,4580570.44,427083.2,4580567.86,1.0,class
+0315540AR,Pyrus calleryana 'Chanticleer',False,C\ Sant Frederic,3.01,0.75,ok,,small,427087.48,4580573.94,427089.04,4580571.36,1.0,class
+0315541AR,Pyrus calleryana 'Chanticleer',False,C\ Sant Frederic,3.03,0.85,ok,,small,427094.92,4580578.4,427096.46,4580575.79,1.0,class
+0315542AR,Pyrus calleryana 'Chanticleer',False,C\ Sant Frederic,3.01,0.79,ok,,small,427100.14,4580581.5,427101.67,4580578.91,1.0,class
+0315543AR,Pyrus calleryana 'Chanticleer',False,C\ Sant Frederic,3.03,0.88,ok,,small,427106.99,4580585.62,427108.57,4580583.04,1.0,class
+0315544AR,Pyrus calleryana 'Chanticleer',False,C\ Sant Frederic,3.08,0.78,ok,,small,427112.15,4580588.77,427113.76,4580586.14,1.0,class
+0315545AR,Pyrus calleryana 'Chanticleer',False,C\ Casteràs,2.81,0.84,ok,,small,427186.11,4580635.34,427187.54,4580632.92,1.0,class
+0315546AR,Pyrus calleryana 'Chanticleer',False,C\ Casteràs,6.9,1.38,ok,,large,427274.77,4580688.64,427274.09,4580681.77,1.5,class
+0315547AR,Pyrus calleryana 'Chanticleer',False,C\ Casteràs,4.66,0.88,ok,,medium,427145.56,4580611.18,427147.97,4580607.19,1.0,class
+0315548AR,Pyrus calleryana 'Chanticleer',False,C\ Casteràs,2.8,0.92,ok,,small,427191.21,4580638.35,427192.64,4580635.94,1.0,class
+0315549AR,Pyrus calleryana 'Chanticleer',False,C\ Casteràs,2.8,0.82,ok,,small,427208.05,4580648.31,427209.5,4580645.91,1.0,class
+0315551AR,Pyrus calleryana 'Chanticleer',False,C\ Casteràs,2.77,0.85,ok,,small,427163.52,4580621.93,427164.93,4580619.55,1.0,class
+0315552AR,Pyrus calleryana 'Chanticleer',False,C\ Casteràs,2.86,0.82,ok,,small,427220.36,4580655.67,427221.82,4580653.21,1.0,class
+0315553AR,Pyrus calleryana 'Chanticleer',False,C\ Casteràs,4.84,0.95,ok,,medium,427247.31,4580671.56,427249.76,4580667.39,1.0,class
+0315554AR,Pyrus calleryana 'Chanticleer',False,C\ Casteràs,4.83,0.97,ok,,medium,427253.77,4580675.36,427256.22,4580671.2,1.0,class
+0315555AR,Pyrus calleryana 'Chanticleer',False,C\ Casteràs,4.82,0.99,ok,,medium,427280.87,4580691.39,427283.32,4580687.24,1.0,class
+0315556AR,Pyrus calleryana 'Chanticleer',False,C\ Casteràs,4.83,1.13,ok,,medium,427287.29,4580695.19,427289.75,4580691.04,1.0,class
+0315557AR,Pyrus calleryana 'Chanticleer',False,C\ Casteràs,2.78,0.83,ok,,small,427197.45,4580642.03,427198.86,4580639.64,1.0,class
+0315558AR,Pyrus calleryana 'Chanticleer',False,C\ Casteràs,2.84,0.87,ok,,small,427214.8,4580652.36,427216.25,4580649.92,1.0,class
+0315559AR,Pyrus calleryana 'Chanticleer',False,C\ Casteràs,2.79,1.05,ok,,small,427176.06,4580629.37,427177.48,4580626.97,1.0,class
+0315560AR,Pyrus calleryana 'Chanticleer',False,C\ Casteràs,2.73,0.93,ok,,small,427151.98,4580615.06,427153.39,4580612.72,1.0,class
+0315561AR,Pyrus calleryana 'Chanticleer',False,C\ Casteràs,2.81,0.92,ok,,small,427180.69,4580632.13,427182.13,4580629.71,1.0,class
+0315562AR,Pyrus calleryana 'Chanticleer',False,C\ Casteràs,4.89,0.98,ok,,medium,427225.83,4580658.92,427228.34,4580654.73,1.0,class
+0315563AR,Pyrus calleryana 'Chanticleer',False,C\ Casteràs,2.78,0.83,ok,,small,427169.97,4580625.76,427171.39,4580623.37,1.0,class
+0322690AR,Pyrus calleryana 'Chanticleer',False,C\ Carreras i Candi,2.03,1.72,ok,,none,426940.94,4580775.85,426938.92,4580775.61,1.0,floor
+0322691AR,Pyrus calleryana 'Chanticleer',False,C\ Carreras i Candi,2.03,1.7,ok,,none,426942.13,4580768.34,426940.14,4580767.96,1.0,floor
+0322692AR,Pyrus calleryana 'Chanticleer',False,C\ Carreras i Candi,2.03,1.72,ok,,none,426943.96,4580760.93,426942.01,4580760.36,1.0,floor
+0322693AR,Pyrus calleryana 'Chanticleer',False,C\ Carreras i Candi,2.22,1.93,ok,,none,426948.31,4580751.13,426946.33,4580750.12,1.0,floor
+0322694AR,Pyrus calleryana 'Chanticleer',False,C\ Carreras i Candi,2.21,1.95,ok,,none,426951.14,4580745.63,426949.18,4580744.62,1.0,floor
+0322695AR,Pyrus calleryana 'Chanticleer',False,C\ Carreras i Candi,2.19,1.95,ok,,none,426953.94,4580740.18,426951.99,4580739.18,1.0,floor
+0322696AR,Pyrus calleryana 'Chanticleer',False,C\ Carreras i Candi,1.78,1.51,ok,,none,426965.28,4580717.36,426963.7,4580716.54,1.0,floor
+0322697AR,Pyrus calleryana 'Chanticleer',False,C\ Carreras i Candi,1.77,1.5,ok,,none,426968.64,4580710.91,426967.07,4580710.1,1.0,floor
+0322698AR,Pyrus calleryana 'Chanticleer',False,C\ Carreras i Candi,1.76,1.47,ok,,none,426972.06,4580704.36,426970.49,4580703.55,1.0,floor
+0322699AR,Pyrus calleryana 'Chanticleer',False,C\ Carreras i Candi,1.76,1.52,ok,,none,426975.64,4580697.5,426974.11,4580696.63,1.0,floor
+0322700AR,Pyrus calleryana 'Chanticleer',False,C\ Carreras i Candi,2.01,1.7,ok,,none,426979.25,4580691.17,426977.5,4580690.18,1.0,floor
+0322701AR,Pyrus calleryana 'Chanticleer',False,C\ Carreras i Candi,2.01,1.71,ok,,none,426982.84,4580684.87,426981.09,4580683.87,1.0,floor
+0322702AR,Pyrus calleryana 'Chanticleer',False,C\ Carreras i Candi,2.02,1.74,ok,,none,426986.78,4580677.95,426985.03,4580676.95,1.0,floor
+0322703AR,Pyrus calleryana 'Chanticleer',False,C\ Carreras i Candi,2.02,1.8,ok,,none,426990.66,4580671.15,426988.91,4580670.15,1.0,floor
+0322704AR,Pyrus calleryana 'Chanticleer',False,C\ Carreras i Candi,2.02,1.79,ok,,none,426994.55,4580664.33,426992.79,4580663.33,1.0,floor
+0322705AR,Pyrus calleryana 'Chanticleer',False,C\ Carreras i Candi,2.03,1.82,ok,,none,426998.94,4580656.63,426997.18,4580655.63,1.0,floor
+0322706AR,Pyrus calleryana 'Chanticleer',False,C\ Carreras i Candi,2.09,1.9,ok,,none,427002.87,4580649.73,427001.06,4580648.7,1.0,floor
+0322707AR,Pyrus calleryana 'Chanticleer',False,C\ Carreras i Candi,2.15,1.94,ok,,none,427007.23,4580642.09,427005.36,4580641.03,1.0,floor
+0322708AR,Pyrus calleryana 'Chanticleer',False,C\ Carreras i Candi,2.08,1.83,ok,,none,427010.81,4580635.81,427009.01,4580634.78,1.0,floor
+0322709AR,Pyrus calleryana 'Chanticleer',False,C\ Carreras i Candi,1.95,1.75,ok,,none,427014.55,4580629.24,427012.86,4580628.27,1.0,floor
+0322710AR,Pyrus calleryana 'Chanticleer',False,C\ Carreras i Candi,2.23,1.93,ok,,none,427025.84,4580609.4,427023.93,4580608.26,1.0,floor
+0322711AR,Pyrus calleryana 'Chanticleer',False,C\ Carreras i Candi,2.22,1.98,ok,,none,427031.06,4580600.7,427029.16,4580599.56,1.0,floor
+0322712AR,Pyrus calleryana 'Chanticleer',False,C\ Carreras i Candi,2.2,1.95,ok,,none,427034.51,4580594.93,427032.63,4580593.8,1.0,floor
+0322713AR,Pyrus calleryana 'Chanticleer',False,C\ Carreras i Candi,2.17,1.93,ok,,none,427038.03,4580589.05,427036.17,4580587.94,1.0,floor
+0322714AR,Pyrus calleryana 'Chanticleer',False,C\ Carreras i Candi,2.13,1.87,ok,,none,427041.74,4580582.87,427039.91,4580581.77,1.0,floor
+0322715AR,Pyrus calleryana 'Chanticleer',False,C\ Carreras i Candi,2.08,1.84,ok,,none,427045.45,4580576.67,427043.67,4580575.6,1.0,floor
+0322716AR,Pyrus calleryana 'Chanticleer',False,C\ Carreras i Candi,2.01,1.81,ok,,none,427049.05,4580570.63,427047.31,4580569.63,1.0,floor
+0322717AR,Pyrus calleryana 'Chanticleer',False,C\ Carreras i Candi,1.78,1.54,ok,,none,427052.57,4580564.45,427051.02,4580563.57,1.0,floor
+0322718AR,Pyrus calleryana 'Chanticleer',False,C\ Carreras i Candi,1.86,1.59,ok,,none,427064.2,4580544.93,427062.61,4580543.97,1.0,floor
+0322719AR,Pyrus calleryana 'Chanticleer',False,C\ Carreras i Candi,1.82,1.57,ok,,none,427067.52,4580539.42,427065.96,4580538.48,1.0,floor
+0322720AR,Pyrus calleryana 'Chanticleer',False,C\ Carreras i Candi,1.8,1.56,ok,,none,427070.82,4580533.97,427069.28,4580533.03,1.0,floor
+0322721AR,Pyrus calleryana 'Chanticleer',False,C\ Carreras i Candi,1.82,1.54,ok,,none,427074.16,4580528.48,427072.6,4580527.54,1.0,floor
+0322722AR,Lophostemon confertus,False,C\ Esteràs,1.97,1.66,ok,,none,427237.13,4580340.86,427238.29,4580339.27,1.0,floor
+0322723AR,Pyrus calleryana 'Chanticleer',False,C\ Carreras i Candi,1.86,1.59,ok,,none,427077.61,4580522.83,427076.02,4580521.86,1.0,floor
+0322724AR,Pyrus calleryana 'Chanticleer',False,C\ Carreras i Candi,1.87,1.62,ok,,none,427081.25,4580516.83,427079.65,4580515.86,1.0,floor
+0322725AR,Pyrus calleryana 'Chanticleer',False,C\ Carreras i Candi,1.87,1.61,ok,,none,427085.02,4580510.62,427083.42,4580509.64,1.0,floor
+0322726AR,Pyrus calleryana 'Chanticleer',False,C\ Carreras i Candi,1.89,1.66,ok,,none,427088.56,4580504.82,427086.94,4580503.84,1.0,floor
+0322727AR,Pyrus calleryana 'Chanticleer',False,C\ Carreras i Candi,2.0,1.76,ok,,none,427134.94,4580428.38,427133.22,4580427.34,1.0,floor
+0322728AR,Pyrus calleryana 'Chanticleer',False,C\ Carreras i Candi,2.0,1.74,ok,,none,427137.78,4580423.66,427136.07,4580422.63,1.0,floor
+0322729AR,Pyrus calleryana 'Chanticleer',False,C\ Carreras i Candi,2.01,1.76,ok,,none,427141.39,4580417.68,427139.67,4580416.64,1.0,floor
+0322730AR,Pyrus calleryana 'Chanticleer',False,C\ Carreras i Candi,2.01,1.76,ok,,none,427145.31,4580411.19,427143.59,4580410.15,1.0,floor
+0322731AR,Pyrus calleryana 'Chanticleer',False,C\ Carreras i Candi,2.01,1.76,ok,,none,427154.64,4580395.72,427152.91,4580394.68,1.0,floor
+0322732AR,Pyrus calleryana 'Chanticleer',False,C\ Carreras i Candi,2.02,1.77,ok,,none,427158.26,4580389.71,427156.53,4580388.67,1.0,floor
+0322733AR,Pyrus calleryana 'Chanticleer',False,C\ Carreras i Candi,2.13,1.81,ok,,none,427174.4,4580371.54,427172.98,4580369.95,1.0,floor
+0322734AR,Pyrus calleryana 'Chanticleer',False,C\ Carreras i Candi,2.1,1.79,ok,,none,427180.5,4580366.14,427179.11,4580364.57,1.0,floor
+0322735AR,Pyrus calleryana 'Chanticleer',False,C\ Carreras i Candi,2.07,1.78,ok,,none,427202.23,4580347.02,427200.88,4580345.46,1.0,floor
+0322736AR,Pyrus calleryana 'Chanticleer',False,C\ Carreras i Candi,2.1,1.77,ok,,none,427206.48,4580343.33,427205.11,4580341.75,1.0,floor
+0322737AR,Pyrus calleryana 'Chanticleer',False,C\ Carreras i Candi,2.13,1.84,ok,,none,427210.84,4580339.55,427209.44,4580337.94,1.0,floor
+0322738AR,Pyrus calleryana 'Chanticleer',False,C\ Carreras i Candi,2.16,1.86,ok,,none,427215.98,4580335.08,427214.56,4580333.45,1.0,floor
+0322739AR,Pyrus calleryana 'Chanticleer',False,C\ Carreras i Candi,1.83,1.59,ok,,none,427243.45,4580310.61,427242.23,4580309.25,1.0,floor
+0322740AR,Pyrus calleryana 'Chanticleer',False,C\ Carreras i Candi,1.89,1.62,ok,,none,427249.31,4580305.37,427248.05,4580303.96,1.0,floor
+0322741AR,Pyrus calleryana 'Chanticleer',False,C\ Carreras i Candi,1.93,1.65,ok,,none,427255.11,4580300.19,427253.83,4580298.75,1.0,floor
+0322742AR,Pyrus calleryana 'Chanticleer',False,C\ Carreras i Candi,1.94,1.66,ok,,none,427260.59,4580295.48,427259.33,4580294.01,1.0,floor
+0322743AR,Pyrus calleryana 'Chanticleer',False,C\ Carreras i Candi,2.0,1.74,ok,,none,427265.91,4580290.91,427264.59,4580289.41,1.0,floor
+0322744AR,Pyrus calleryana 'Chanticleer',False,C\ Carreras i Candi,2.04,1.78,ok,,none,427270.82,4580286.6,427269.47,4580285.06,1.0,floor
+0322745AR,Pyrus calleryana 'Chanticleer',False,C\ Carreras i Candi,2.09,1.84,ok,,none,427275.77,4580282.24,427274.4,4580280.67,1.0,floor
+0322746AR,Pyrus calleryana 'Chanticleer',False,C\ Carreras i Candi,2.12,1.84,ok,,none,427279.15,4580279.27,427277.76,4580277.68,1.0,floor
+0322747AR,Lophostemon confertus,False,C\ Esteràs,2.18,1.22,ok,,none,427200.62,4580277.06,427198.69,4580278.08,1.0,floor
+0322749AR,Lophostemon confertus,False,C\ Esteràs,1.91,1.55,ok,,none,427209.27,4580293.31,427207.58,4580294.22,1.0,floor
+0322750AR,Lophostemon confertus,False,C\ Esteràs,1.89,1.57,ok,,none,427212.95,4580300.07,427211.29,4580300.97,1.0,floor
+0322753AR,Lophostemon confertus,False,C\ Esteràs,1.96,1.66,ok,,none,427231.21,4580336.55,427232.37,4580334.97,1.0,floor
+0322759AR,Lophostemon confertus,False,C\ Esteràs,2.01,1.72,ok,,none,427269.57,4580364.53,427270.76,4580362.9,1.0,floor
+0332768AR,Nerium oleander (vermell),False,C\ Sugranyes,2.59,1.58,ok,,small,427071.09,4580707.74,427073.31,4580709.07,1.0,class

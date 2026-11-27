@@ -1,0 +1,1292 @@
+tree_id,species,is_plane,street,width_m,facade_dist_m,flag,strip_width_m,size_class,ray_x0,ray_y0,ray_x1,ray_y1,pit_min_m2,pit_basis
+0000423AR,Pinus pinea,False,Pg Fabra i Puig,,31.75,no_facade,,check,,,,,1.0,floor
+0001112AR,Fraxinus angustifolia 'Raywood',False,Pg Fabra i Puig,13.68,8.02,ok,,large,430207.02,4587546.32,430195.76,4587554.1,1.5,class
+0001113AR,Populus nigra 'Italica',False,Pg Fabra i Puig,15.47,8.71,ok,,large,430207.02,4587546.32,430197.87,4587558.79,1.5,class
+0001114AR,Populus nigra 'Italica',False,Pg Fabra i Puig,18.33,10.52,ok,,large,430207.02,4587546.32,430200.02,4587563.27,1.5,class
+0001115AR,Fraxinus angustifolia 'Raywood',False,Pg Fabra i Puig,22.04,12.55,ok,,large,430207.02,4587546.32,430202.32,4587567.86,1.5,class
+0001116AR,Populus nigra 'Italica',False,Pg Fabra i Puig,26.26,14.78,ok,,large,430207.02,4587546.32,430204.64,4587572.48,1.5,class
+0001117AR,Populus nigra 'Italica',False,Pg Fabra i Puig,,17.24,no_kerb,,check,,,,,1.0,floor
+0001118AR,Populus nigra 'Italica',False,Pg Fabra i Puig,,19.8,no_kerb,,check,,,,,1.0,floor
+0001119AR,Fraxinus angustifolia 'Raywood',False,Pg Fabra i Puig,,23.09,no_kerb,,check,,,,,1.0,floor
+0001120AR,Fraxinus angustifolia 'Raywood',False,Pg Fabra i Puig,,26.16,no_kerb,,check,,,,,1.0,floor
+0001121AR,Fraxinus angustifolia 'Raywood',False,Pg Fabra i Puig,,29.51,no_kerb,,check,,,,,1.0,floor
+0001122AR,Populus nigra 'Italica',False,Pg Fabra i Puig,,32.93,no_facade,,check,,,,,1.0,floor
+0001123AR,Fraxinus angustifolia 'Raywood',False,Pg Fabra i Puig,,39.06,no_facade,,check,,,,,1.0,floor
+0001125AR,Populus nigra 'Italica',False,Pg Fabra i Puig,,45.79,no_facade,,check,,,,,1.0,floor
+0001126AR,Fraxinus angustifolia 'Raywood',False,Pg Fabra i Puig,,48.81,no_facade,24.08,check,,,,,1.0,floor
+0001128AR,Fraxinus angustifolia 'Raywood',False,Pg Fabra i Puig,,55.92,no_facade,15.96,check,,,,,1.0,floor
+0001129AR,Populus nigra 'Italica',False,Pg Fabra i Puig,,59.28,no_facade,21.78,check,,,,,1.0,floor
+0001286AR,Grevillea robusta,False,Pg Valldaura,18.36,16.41,ok,,large,430628.67,4587790.8,430639.82,4587805.38,1.5,class
+0001292AR,Populus nigra 'Italica',False,Pg Valldaura,14.08,12.06,ok,,large,430614.27,4587794.53,430616.65,4587808.4,1.5,class
+0058760AR,Platanus × acerifolia,True,Pg Fabra i Puig,,46.77,no_facade,,check,,,,,1.0,floor
+0058831AR,Platanus × acerifolia,True,Pg Fabra i Puig,,59.61,no_facade,,check,,,,,1.0,floor
+0058837AR,Platanus × acerifolia,True,Pg Fabra i Puig,,40.45,no_facade,,check,,,,,1.0,floor
+0058947AR,Platanus × acerifolia,True,Pg Fabra i Puig,,52.99,no_facade,,check,,,,,1.0,floor
+0059006AR,Platanus × acerifolia,True,Pg Fabra i Puig,13.46,12.84,ok,,large,430207.02,4587546.32,430195.05,4587552.49,1.5,class
+0059024AR,Platanus × acerifolia,True,Pg Fabra i Puig,16.19,15.26,ok,,large,430207.02,4587546.32,430198.45,4587560.06,1.5,class
+0059037AR,Platanus × acerifolia,True,Pg Fabra i Puig,21.77,20.34,ok,,large,430207.02,4587546.32,430202.16,4587567.54,1.5,class
+0059078AR,Platanus × acerifolia,True,Pg Fabra i Puig,28.24,26.18,ok,,large,430207.02,4587546.32,430205.68,4587574.54,1.5,class
+0136234AR,Magnolia grandiflora,False,Pg Valldaura,13.49,4.39,ok,,large,430926.48,4587751.01,430928.42,4587764.36,1.5,class
+0136236AR,Ulmus pumila,False,C\ Gasela,4.51,3.35,ok,,medium,430621.61,4588130.8,430622.22,4588135.27,1.0,class
+0136237AR,Brachychiton populneus,False,Pg Verdum,14.27,5.07,ok,,large,430891.28,4587556.95,430894.93,4587543.16,1.5,class
+0136238AR,Styphnolobium japonicum,False,C\ Gasela,,8.9,median,2.69,check,,,,,1.0,floor
+0136240AR,Magnolia grandiflora,False,Pg Valldaura,16.84,7.94,ok,,large,430628.67,4587790.8,430636.22,4587805.85,1.5,class
+0136241AR,Catalpa bignonioides,False,Via Favència,9.08,5.31,ok,,large,430506.43,4588134.47,430497.43,4588135.7,1.5,class
+0136243AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,Rbla Caçador,11.44,10.84,ok,,large,430675.73,4587971.39,430671.57,4587982.05,1.5,class
+0136250AR,Platanus × acerifolia,True,Rbla Caçador,,14.29,median,13.73,check,,,,,1.0,floor
+0136252AR,Ligustrum lucidum,False,Pg Valldaura,13.02,10.26,ok,,large,430564.96,4587702.48,430552.06,4587704.18,1.5,class
+0136254AR,Grevillea robusta,False,Pg Valldaura,16.9,16.55,ok,,large,430724.96,4587829.56,430729.02,4587813.15,1.5,class
+0136255AR,Platanus × acerifolia,True,Pg Fabra i Puig,,21.27,median,,check,,,,,1.0,floor
+0136262AR,Ulmus pumila,False,C\ Gasela,5.53,5.0,ok,,medium,430551.15,4588109.37,430550.41,4588103.89,1.0,class
+0136263AR,Magnolia grandiflora,False,Pg Valldaura,13.81,5.34,ok,,large,430134.19,4587861.76,430136.1,4587875.44,1.5,class
+0136265AR,Brachychiton populneus,False,Pl República,,47.99,no_facade,,check,,,,,1.0,floor
+0136268AR,Eucalyptus camaldulensis,False,Rbla Caçador,,9.94,median,14.7,check,,,,,1.0,floor
+0136269AR,Melia azedarach,False,C\ Gasela,10.93,5.24,ok,,large,430609.91,4588124.94,430608.44,4588114.11,1.5,class
+0136274AR,Jacaranda mimosifolia,False,C\ Isard,3.53,2.86,ok,,medium,430719.6,4587942.85,430716.11,4587943.34,1.0,class
+0136275AR,Firmiana simplex,False,C\ Isard,,5.97,median,5.07,check,,,,,1.0,floor
+0136277AR,Ulmus pumila,False,C\ Gasela,,8.71,median,26.86,check,,,,,1.0,floor
+0136278AR,Firmiana simplex,False,C\ Isard,4.23,3.66,ok,,medium,430700.12,4587891.06,430704.31,4587890.46,1.0,class
+0136280AR,Platanus × acerifolia,True,C\ Artesania,,12.78,median,,check,,,,,1.0,floor
+0136281AR,Gleditsia triacanthos f. inermis,False,Rbla Caçador,14.4,3.76,ok,,large,430424.14,4588065.77,430410.05,4588062.82,1.5,class
+0136285AR,Robinia pseudoacacia,False,C\ Gasela,13.97,13.26,ok,,large,430588.49,4588059.44,430577.02,4588067.42,1.5,class
+0136286AR,Magnolia grandiflora,False,Pg Valldaura,13.61,4.53,ok,,large,430920.82,4587751.83,430922.78,4587765.3,1.5,class
+0136287AR,Celtis australis,False,Pg Fabra i Puig,12.6,4.49,ok,,large,430314.71,4587740.71,430302.23,4587742.4,1.5,class
+0136294AR,Grevillea robusta,False,Pg Valldaura,17.23,16.12,ok,,large,430653.66,4587790.32,430644.32,4587804.79,1.5,class
+0136297AR,Fraxinus ornus OBELISK® 'Paus Johannes-Paulus II',False,C\ Marne,9.32,4.33,ok,,large,430481.44,4587775.55,430490.68,4587774.3,1.5,class
+0136299AR,Ligustrum lucidum,False,C\ Castor,,30.18,no_facade,,check,,,,,1.0,floor
+0136300AR,Grevillea robusta,False,Pg Valldaura,10.93,9.62,ok,,large,430900.77,4587794.83,430890.79,4587790.37,1.5,class
+0136305AR,Celtis australis,False,C\ Feliu i Codina,4.32,3.58,ok,,medium,430215.88,4587749.24,430211.6,4587749.84,1.0,class
+0136306AR,Melia azedarach,False,Via Favència,14.01,5.03,ok,,large,430532.69,4588129.6,430518.8,4588131.47,1.5,class
+0136307AR,Platanus × acerifolia,True,Pg Verdum,13.3,12.75,ok,,large,430865.43,4587518.34,430878.62,4587516.59,1.5,class
+0136311AR,Celtis australis,False,Pl República,,42.48,no_facade,,check,,,,,1.0,floor
+0136314AR,Handroanthus heptaphyllus,False,C\ Lorena,22.55,9.01,ok,,large,430949.26,4587663.93,430946.11,4587641.61,1.5,class
+0136315AR,Magnolia grandiflora,False,Pg Valldaura,,16.77,no_kerb,14.16,check,,,,,1.0,floor
+0136316AR,Robinia pseudoacacia 'Bessoniana',False,C\ Gasela,11.71,8.99,ok,,large,430659.55,4588140.76,430648.91,4588135.86,1.5,class
+0136317AR,Celtis australis,False,C\ Feliu i Codina,4.45,3.39,ok,,medium,430220.26,4587780.52,430215.85,4587781.14,1.0,class
+0136318AR,Platanus × acerifolia,True,C\ Doctor Pi i Molist,,17.41,median,20.99,check,,,,,1.0,floor
+0136319AR,Populus nigra 'Italica',False,Pg Valldaura,10.23,9.58,ok,,large,430163.64,4587897.84,430154.7,4587892.86,1.5,class
+0136320AR,Celtis sinensis,False,Via Favència,6.89,6.29,ok,,large,430507.03,4588138.84,430500.58,4588141.26,1.5,class
+0136324AR,Celtis australis,False,Pl República,,37.12,no_facade,,check,,,,,1.0,floor
+0136325AR,Ulmus pumila,False,Via Favència,16.64,9.08,ok,,large,430514.73,4588137.82,430523.08,4588152.22,1.5,class
+0136329AR,Populus nigra 'Italica',False,Pg Valldaura,15.53,12.19,ok,,large,430475.71,4587854.1,430489.31,4587846.58,1.5,class
+0136330AR,Platanus × acerifolia,True,Rbla Caçador,15.9,15.44,ok,,large,430815.39,4587902.51,430817.49,4587918.27,1.5,class
+0136333AR,Pyrus calleryana 'Chanticleer',False,Pg Valldaura,4.4,3.59,ok,,medium,430511.11,4587776.15,430511.71,4587780.51,1.0,class
+0136334AR,Cupressus sempervirens,False,Pg Valldaura,29.13,5.2,ok,,large,430610.18,4587701.59,430590.05,4587680.53,1.5,class
+0136337AR,Styphnolobium japonicum,False,C\ Gasela,,10.66,median,,check,,,,,1.0,floor
+0136338AR,Brachychiton populneus,False,Pg Verdum,19.09,9.06,ok,,large,430965.49,4587662.17,430984.37,4587659.37,1.5,class
+0136339AR,Firmiana simplex,False,C\ Isard,18.22,16.2,ok,,large,430701.16,4587898.35,430705.34,4587916.08,1.5,class
+0136340AR,Magnolia grandiflora,False,Pg Valldaura,13.1,5.18,ok,,large,430671.72,4587787.79,430673.54,4587800.76,1.5,class
+0136341AR,Celtis sinensis,False,Via Favència,5.89,5.35,ok,,medium,430592.8,4588182.05,430587.03,4588183.24,1.0,class
+0136342AR,Populus nigra 'Italica',False,Pg Valldaura,14.2,13.35,ok,,large,430318.82,4587884.22,430313.47,4587871.06,1.5,class
+0136343AR,Magnolia grandiflora,False,Pg Valldaura,,6.85,median,13.08,check,,,,,1.0,floor
+0136344AR,Robinia pseudoacacia 'Bessoniana',False,C\ Gasela,3.12,2.66,ok,,small,430538.36,4587858.61,430541.45,4587858.19,1.0,class
+0136346AR,Grevillea robusta,False,Pg Valldaura,15.69,12.91,ok,,large,430261.07,4587842.91,430267.33,4587857.3,1.5,class
+0136347AR,Platanus × acerifolia,True,Pg Verdum,17.04,16.6,ok,,large,430843.82,4587486.96,430860.8,4587485.44,1.5,class
+0136348AR,Melia azedarach,False,C\ Gasela,10.91,5.37,ok,,large,430604.73,4588125.64,430603.26,4588114.83,1.5,class
+0136350AR,Magnolia grandiflora,False,Pg Valldaura,13.79,5.17,ok,,large,430146.42,4587860.06,430148.32,4587873.71,1.5,class
+0136351AR,Brachychiton populneus,False,C\ Artesania,,12.6,median,,check,,,,,1.0,floor
+0136352AR,Magnolia grandiflora,False,Pg Valldaura,14.24,5.25,ok,,large,430208.88,4587851.07,430210.99,4587865.15,1.5,class
+0136355AR,Magnolia grandiflora,False,Pg Valldaura,13.99,5.31,ok,,large,430516.7,4587808.5,430518.65,4587822.35,1.5,class
+0136357AR,Celtis australis,False,Rbla Caçador,21.33,20.99,ok,,large,430740.34,4587941.44,430743.44,4587962.54,1.5,class
+0136358AR,Magnolia grandiflora,False,Pg Valldaura,18.34,10.09,ok,,large,430740.81,4587772.85,430743.21,4587791.04,1.5,class
+0136359AR,Platanus × acerifolia,True,C\ Doctor Pi i Molist,,14.56,no_kerb,,check,,,,,1.0,floor
+0136361AR,Styphnolobium japonicum,False,C\ Gasela,,13.01,median,26.09,check,,,,,1.0,floor
+0136363AR,Melia azedarach,False,C\ Gasela,14.29,5.15,ok,,large,430535.24,4588093.3,430533.26,4588079.15,1.5,class
+0136365AR,Platanus × acerifolia,True,Pg Urrutia,10.03,9.23,ok,,large,430685.45,4587371.38,430686.78,4587361.45,1.5,class
+0136366AR,Fraxinus ornus OBELISK® 'Paus Johannes-Paulus II',False,C\ Marne,11.22,5.94,ok,,large,430514.1,4587807.37,430502.99,4587808.94,1.5,class
+0136368AR,Casuarina cunninghamiana,False,C\ Vilalba dels Arcs,6.3,5.73,ok,,large,430151.0,4587786.18,430146.17,4587782.14,1.5,class
+0136369AR,Brachychiton populneus,False,C\ Alsàcia,4.54,4.14,ok,,medium,430759.79,4587745.74,430755.29,4587746.34,1.0,class
+0136371AR,Magnolia grandiflora,False,Pg Valldaura,15.7,7.3,ok,,large,430269.78,4587841.1,430271.78,4587856.68,1.5,class
+0136372AR,Tipuana tipu,False,Pl República,,30.95,no_facade,,check,,,,,1.0,floor
+0136373AR,Grevillea robusta,False,Pg Valldaura,,29.15,median,,check,,,,,1.0,floor
+0136374AR,Magnolia grandiflora,False,Pg Valldaura,14.55,6.05,ok,,large,430403.02,4587824.51,430400.66,4587838.87,1.5,class
+0136379AR,Platanus × acerifolia,True,Rbla Caçador,,16.17,median,5.2,check,,,,,1.0,floor
+0136380AR,Celtis sinensis,False,Pl República,,22.34,no_kerb,,check,,,,,1.0,floor
+0136382AR,Tipuana tipu,False,Pg Valldaura,5.95,3.85,ok,,medium,430611.46,4587711.02,430605.56,4587711.82,1.0,class
+0136383AR,Platanus × acerifolia,True,Pg Verdum,21.08,19.98,ok,,large,430992.17,4587711.77,431013.04,4587708.83,1.5,class
+0136384AR,Brachychiton populneus,False,Pl República,,38.11,no_facade,,check,,,,,1.0,floor
+0136385AR,Populus nigra 'Italica',False,Pg Valldaura,15.51,12.77,ok,,large,430287.25,4587838.86,430289.23,4587854.25,1.5,class
+0136386AR,Fraxinus ornus OBELISK® 'Paus Johannes-Paulus II',False,C\ Marne,9.59,4.06,ok,,large,430498.06,4587692.8,430488.56,4587694.05,1.5,class
+0136389AR,Celtis australis,False,Pl República,,26.38,no_kerb,,check,,,,,1.0,floor
+0136392AR,Magnolia grandiflora,False,Pg Valldaura,,11.24,no_kerb,13.75,check,,,,,1.0,floor
+0136394AR,Celtis australis,False,C\ Feliu i Codina,4.41,3.54,ok,,medium,430214.75,4587741.18,430210.38,4587741.79,1.0,class
+0136396AR,Platanus × acerifolia,True,C\ Castor,8.31,7.64,ok,,large,430845.09,4587959.16,430852.43,4587955.28,1.5,class
+0136397AR,Grevillea robusta,False,Pg Valldaura,18.38,17.76,ok,,large,430146.25,4587911.59,430138.02,4587895.16,1.5,class
+0136400AR,Celtis australis,False,C\ Feliu i Codina,7.71,7.03,ok,,large,430208.59,4587841.59,430216.21,4587840.45,1.5,class
+0136402AR,Grevillea robusta,False,Pg Valldaura,14.36,12.5,ok,,large,430805.57,4587767.89,430807.53,4587782.12,1.5,class
+0136403AR,Robinia pseudoacacia 'Bessoniana',False,C\ Gasela,2.94,2.23,ok,,small,430665.37,4588147.92,430664.64,4588150.77,1.0,class
+0136404AR,Populus nigra 'Italica',False,Pg Valldaura,,12.46,median,5.47,check,,,,,1.0,floor
+0136407AR,Grevillea robusta,False,Pg Valldaura,5.7,5.36,ok,,medium,430627.24,4587832.87,430624.86,4587827.69,1.0,class
+0136411AR,Platanus × acerifolia,True,C\ Doctor Pi i Molist,,11.84,no_kerb,,check,,,,,1.0,floor
+0136413AR,Prunus cerasifera 'Pissardii',False,C\ Marie Curie,2.94,2.43,ok,,small,430405.31,4587657.38,430404.9,4587654.47,1.0,class
+0136414AR,Populus nigra 'Italica',False,Pg Valldaura,14.35,11.84,ok,,large,430817.38,4587766.27,430819.34,4587780.48,1.5,class
+0136415AR,Magnolia grandiflora,False,Pg Valldaura,,23.26,no_kerb,,check,,,,,1.0,floor
+0136419AR,Populus nigra 'Italica',False,C\ Marne,9.55,4.49,ok,,large,430497.36,4587687.46,430487.89,4587688.71,1.5,class
+0136423AR,Populus nigra 'Italica',False,Pg Valldaura,13.82,11.27,ok,,large,430180.1,4587855.37,430182.0,4587869.05,1.5,class
+0136424AR,Grevillea robusta,False,Pg Valldaura,6.27,5.67,ok,,large,430900.77,4587794.83,430897.85,4587789.28,1.5,class
+0136426AR,Celtis sinensis,False,Via Favència,16.24,15.37,ok,,large,430635.64,4588194.89,430634.57,4588211.1,1.5,class
+0136427AR,Ligustrum lucidum,False,Pg Valldaura,13.0,10.25,ok,,large,430563.9,4587694.46,430551.02,4587696.16,1.5,class
+0136436AR,Gleditsia triacanthos,False,C\ Gasela,14.3,5.27,ok,,large,430525.41,4588094.68,430523.43,4588080.52,1.5,class
+0136437AR,Magnolia grandiflora,False,Pg Valldaura,15.34,7.12,ok,,large,430469.59,4587813.74,430472.51,4587828.79,1.5,class
+0136438AR,Platanus × acerifolia,True,Pg Verdum,,11.54,median,,check,,,,,1.0,floor
+0136443AR,Pyrus calleryana 'Chanticleer',False,Pg Valldaura,3.42,2.65,ok,,small,430579.05,4587777.27,430578.57,4587773.89,1.0,class
+0136444AR,Grevillea robusta,False,Pg Valldaura,25.58,24.82,ok,,large,430982.68,4587731.89,430973.92,4587755.93,1.5,class
+0136447AR,Melia azedarach,False,C\ Guineueta,4.65,4.08,ok,,medium,430406.77,4587997.81,430402.17,4587998.45,1.0,class
+0136448AR,Tipuana tipu,False,Pl República,,46.09,no_facade,,check,,,,,1.0,floor
+0136449AR,Magnolia grandiflora,False,Pg Valldaura,,23.25,no_kerb,18.84,check,,,,,1.0,floor
+0136450AR,Populus nigra 'Italica',False,Pg Valldaura,14.74,13.05,ok,,large,430238.48,4587847.16,430236.56,4587861.78,1.5,class
+0136451AR,Celtis sinensis,False,Via Favència,12.01,11.44,ok,,large,430514.73,4588137.82,430517.52,4588149.5,1.5,class
+0136453AR,Celtis sinensis,False,Via Favència,,19.61,median,16.87,check,,,,,1.0,floor
+0136454AR,Platanus × acerifolia,True,Pg Fabra i Puig,8.48,7.55,ok,,large,430233.39,4587672.55,430239.29,4587666.46,1.5,class
+0136455AR,Melia azedarach,False,C\ Guineueta,8.34,4.82,ok,,large,430374.47,4587978.55,430382.72,4587977.34,1.5,class
+0136457AR,Firmiana simplex,False,Rbla Caçador,10.2,6.73,ok,,large,430906.87,4587876.66,430908.25,4587886.76,1.5,class
+0136458AR,Acer negundo,False,C\ Gasela,4.34,5.19,ok,,medium,430582.81,4588113.28,430583.4,4588117.58,1.0,class
+0136459AR,Melia azedarach,False,C\ Gasela,10.89,5.26,ok,,large,430594.9,4588126.98,430593.43,4588116.19,1.5,class
+0136460AR,Platanus × acerifolia,True,C\ Doctor Pi i Molist,,9.01,no_kerb,,check,,,,,1.0,floor
+0136461AR,Magnolia grandiflora,False,Pg Valldaura,16.0,5.86,ok,,large,430912.34,4587753.07,430906.45,4587767.95,1.5,class
+0136466AR,Celtis australis,False,Pg Fabra i Puig,13.87,5.91,ok,,large,430274.61,4587753.57,430288.36,4587751.72,1.5,class
+0136467AR,Celtis australis,False,Pl República,,42.17,no_facade,,check,,,,,1.0,floor
+0136468AR,Celtis australis,False,C\ Feliu i Codina,13.74,12.37,ok,,large,430235.06,4587820.82,430221.43,4587822.59,1.5,class
+0136471AR,Celtis sinensis,False,Via Favència,9.08,8.35,ok,,large,430511.65,4588138.23,430512.85,4588147.23,1.5,class
+0136472AR,Grevillea robusta,False,Pg Valldaura,19.54,16.57,ok,,large,430447.21,4587818.15,430435.76,4587833.98,1.5,class
+0136475AR,Grevillea robusta,False,Pg Valldaura,16.68,15.49,ok,,large,430469.59,4587813.74,430478.28,4587827.98,1.5,class
+0136476AR,Casuarina cunninghamiana,False,C\ Vilalba dels Arcs,6.16,5.34,ok,,large,430140.59,4587798.47,430135.9,4587794.48,1.5,class
+0136478AR,Firmiana simplex,False,C\ Isard,9.24,8.66,ok,,large,430724.5,4587918.77,430715.35,4587920.06,1.5,class
+0136479AR,Robinia pseudoacacia,False,C\ Gasela,,11.66,median,,check,,,,,1.0,floor
+0136480AR,Celtis australis,False,C\ Feliu i Codina,,12.79,median,,check,,,,,1.0,floor
+0136481AR,Platanus × acerifolia,True,C\ Guineueta,7.54,4.36,ok,,large,430373.28,4587970.43,430380.75,4587969.34,1.5,class
+0136484AR,Populus nigra 'Italica',False,Pg Valldaura,5.83,5.28,ok,,medium,430246.03,4587886.29,430245.22,4587880.52,1.0,class
+0136485AR,Magnolia grandiflora,False,Pg Valldaura,20.57,9.27,ok,,large,430469.59,4587813.74,430485.33,4587826.98,1.5,class
+0136488AR,Firmiana simplex,False,C\ Isard,3.72,3.32,ok,,medium,430700.85,4587896.13,430704.53,4587895.6,1.0,class
+0136489AR,Firmiana simplex,False,Rbla Caçador,12.14,11.51,ok,,large,430888.92,4587879.12,430890.56,4587891.15,1.5,class
+0136491AR,Platanus × acerifolia,True,Pg Urrutia,,9.79,median,3.06,check,,,,,1.0,floor
+0136492AR,Grevillea robusta,False,Pg Valldaura,6.14,5.8,ok,,large,430179.24,4587895.65,430178.39,4587889.58,1.5,class
+0136495AR,Platanus × acerifolia,True,C\ Marie Curie,16.06,13.63,ok,,large,430513.09,4587643.4,430497.1,4587641.77,1.5,class
+0136496AR,Celtis australis,False,Pl República,,37.08,no_facade,,check,,,,,1.0,floor
+0136497AR,Magnolia grandiflora,False,Pg Valldaura,13.83,5.37,ok,,large,430124.75,4587863.07,430126.66,4587876.77,1.5,class
+0136498AR,Platanus × acerifolia,True,C\ Doctor Pi i Molist,,15.76,no_kerb,,check,,,,,1.0,floor
+0136499AR,Magnolia grandiflora,False,Pg Valldaura,18.45,7.62,ok,,large,430425.36,4587820.29,430438.09,4587833.65,1.5,class
+0136500AR,Gleditsia triacanthos f. inermis,False,C\ Vilalba dels Arcs,,3.06,no_kerb,35.79,check,,,,,1.0,floor
+0136501AR,Celtis australis,False,Rbla Caçador,22.88,22.41,ok,,large,430734.01,4587942.36,430737.33,4587965.01,1.5,class
+0136502AR,Platanus × acerifolia,True,C\ Castor,,2.52,median,2.66,check,,,,,1.0,floor
+0136506AR,Populus nigra 'Italica',False,Pg Valldaura,,25.67,no_kerb,,check,,,,,1.0,floor
+0136508AR,Platanus × acerifolia,True,Rbla Caçador,12.6,12.22,ok,,large,430850.49,4587892.47,430852.21,4587904.96,1.5,class
+0136511AR,Styphnolobium japonicum,False,C\ Gasela,12.48,11.67,ok,,large,430559.24,4587985.05,430555.34,4587996.9,1.5,class
+0136512AR,Magnolia grandiflora,False,Pg Valldaura,27.06,10.72,ok,,large,430606.09,4587795.69,430585.36,4587813.08,1.5,class
+0136520AR,Brachychiton populneus,False,Pl República,,45.2,no_facade,,check,,,,,1.0,floor
+0136521AR,Firmiana simplex,False,C\ Isard,3.14,2.65,ok,,small,430715.69,4587836.59,430712.58,4587837.02,1.0,class
+0136531AR,Brachychiton populneus,False,C\ Alsàcia,4.52,4.22,ok,,medium,430757.76,4587730.73,430753.28,4587731.33,1.0,class
+0136532AR,Acacia retinodes,False,C\ Vilalba dels Arcs,,10.95,median,,check,,,,,1.0,floor
+0136533AR,Platanus × acerifolia,True,C\ Castor,4.49,3.15,ok,,medium,430740.08,4588064.75,430739.68,4588069.22,1.0,class
+0136535AR,Grevillea robusta,False,Pg Valldaura,14.29,13.56,ok,,large,430559.84,4587802.45,430559.22,4587816.73,1.5,class
+0136536AR,Prunus cerasifera 'Pissardii',False,C\ Marie Curie,2.96,2.57,ok,,small,430423.64,4587654.87,430423.25,4587651.94,1.0,class
+0136538AR,Magnolia grandiflora,False,Pg Valldaura,,22.14,no_kerb,16.78,check,,,,,1.0,floor
+0136539AR,Grevillea robusta,False,Pg Valldaura,5.71,4.99,ok,,medium,430291.98,4587879.85,430291.18,4587874.19,1.0,class
+0136541AR,Ligustrum lucidum,False,C\ Gasela,5.42,3.64,ok,,medium,430538.05,4587902.65,430537.29,4587897.28,1.0,class
+0136545AR,Grevillea robusta,False,Pg Fabra i Puig,25.2,12.0,ok,,large,430311.17,4587714.64,430286.2,4587718.04,1.5,class
+0136547AR,Fraxinus ornus OBELISK® 'Paus Johannes-Paulus II',False,C\ Marne,11.22,10.59,ok,,large,430514.09,4587807.35,430502.98,4587808.92,1.5,class
+0136548AR,Celtis australis,False,Pl República,21.11,5.88,ok,,large,430994.77,4587730.25,430999.19,4587750.89,1.5,class
+0136549AR,Populus nigra 'Italica',False,C\ Marne,20.83,4.55,ok,,large,430459.49,4587671.59,430480.15,4587668.88,1.5,class
+0136552AR,Magnolia grandiflora,False,Pg Valldaura,13.86,5.54,ok,,large,430112.76,4587864.74,430114.67,4587878.48,1.5,class
+0136554AR,Platanus × acerifolia,True,C\ Castor,2.83,2.51,ok,,small,430812.31,4587998.78,430812.67,4588001.59,1.0,class
+0136555AR,Populus nigra 'Italica',False,Pg Valldaura,9.42,9.04,ok,,large,430950.18,4587790.27,430948.86,4587780.94,1.5,class
+0136556AR,Grevillea robusta,False,Pg Valldaura,10.85,10.34,ok,,large,430775.27,4587812.59,430765.46,4587807.96,1.5,class
+0136557AR,Platanus × acerifolia,True,Pg Urrutia,8.26,7.49,ok,,large,430744.64,4587372.85,430752.42,4587370.08,1.5,class
+0136559AR,Platanus × acerifolia,True,Rbla Caçador,14.74,14.14,ok,,large,430839.1,4587894.55,430838.52,4587909.27,1.5,class
+0136560AR,Cedrus deodara,False,Pl República,,14.51,median,,check,,,,,1.0,floor
+0136561AR,Fraxinus ornus OBELISK® 'Paus Johannes-Paulus II',False,C\ Marne,7.06,4.05,ok,,large,430505.23,4587747.07,430498.23,4587747.99,1.5,class
+0136563AR,Pyrus calleryana 'Chanticleer',False,Pg Valldaura,4.34,3.83,ok,,medium,430561.86,4587780.64,430561.26,4587776.34,1.0,class
+0136564AR,Magnolia grandiflora,False,Pg Valldaura,14.36,5.35,ok,,large,430811.77,4587767.04,430813.73,4587781.26,1.5,class
+0136566AR,Grevillea robusta,False,Pg Valldaura,17.26,16.97,ok,,large,430739.57,4587828.91,430734.83,4587812.32,1.5,class
+0136569AR,Magnolia grandiflora,False,Pg Valldaura,29.44,14.31,ok,,large,430469.59,4587813.74,430497.05,4587824.38,1.5,class
+0136570AR,Prunus cerasifera 'Pissardii',False,C\ Marie Curie,2.88,2.23,ok,,small,430456.42,4587650.5,430456.03,4587647.65,1.0,class
+0136571AR,Celtis australis,False,Pg Fabra i Puig,14.49,6.97,ok,,large,430298.72,4587796.1,430313.06,4587794.06,1.5,class
+0136572AR,Magnolia grandiflora,False,Pg Valldaura,25.31,11.08,ok,,large,430582.32,4587798.22,430604.63,4587810.19,1.5,class
+0136574AR,Melia azedarach,False,C\ Guineueta,8.91,7.2,ok,,large,430395.14,4588028.91,430399.92,4588036.44,1.5,class
+0136575AR,Celtis sinensis,False,Via Favència,,20.24,median,19.4,check,,,,,1.0,floor
+0136577AR,Brachychiton populneus,False,Pg Verdum,15.22,6.07,ok,,large,430891.96,4587562.28,430907.05,4587560.37,1.5,class
+0136579AR,Platanus × acerifolia,True,Rbla Caçador,3.73,3.26,ok,,medium,430523.64,4588010.49,430525.22,4588013.87,1.0,class
+0136580AR,Magnolia grandiflora,False,Pg Valldaura,14.35,5.3,ok,,large,430817.47,4587766.25,430819.42,4587780.47,1.5,class
+0136581AR,Celtis sinensis,False,Via Favència,,58.87,no_facade,,check,,,,,1.0,floor
+0136583AR,Tipuana tipu,False,Pl República,,38.28,no_facade,,check,,,,,1.0,floor
+0136584AR,Platanus × acerifolia,True,C\ Castor,4.14,3.69,ok,,medium,430844.74,4587960.01,430848.58,4587961.57,1.0,class
+0136585AR,Platanus × acerifolia,True,Rbla Caçador,25.62,23.03,ok,,large,430675.73,4587971.39,430654.53,4587985.77,1.5,class
+0136586AR,Celtis sinensis,False,Via Favència,,12.43,median,2.19,check,,,,,1.0,floor
+0136587AR,Populus nigra 'Italica',False,Pg Valldaura,14.12,11.58,ok,,large,430403.02,4587824.51,430402.46,4587838.62,1.5,class
+0136589AR,Platanus × acerifolia,True,Pg Urrutia,7.51,6.77,ok,,large,430613.94,4587381.5,430614.9,4587374.06,1.5,class
+0136590AR,Celtis australis,False,C\ Castor,2.59,1.88,ok,,small,430711.4,4588109.28,430713.8,4588110.26,1.0,class
+0136592AR,Jacaranda mimosifolia,False,C\ Isard,11.38,10.77,ok,,large,430723.18,4587909.36,430714.79,4587901.67,1.5,class
+0136595AR,Grevillea robusta,False,Pg Valldaura,15.7,15.44,ok,,large,430724.96,4587829.56,430723.13,4587813.96,1.5,class
+0136597AR,Celtis australis,False,C\ Feliu i Codina,4.65,3.51,ok,,medium,430223.48,4587803.51,430218.88,4587804.16,1.0,class
+0136598AR,Robinia pseudoacacia,False,C\ Gasela,2.82,2.55,ok,,small,430551.65,4587852.1,430548.86,4587852.5,1.0,class
+0136601AR,Casuarina cunninghamiana,False,C\ Vilalba dels Arcs,6.12,5.33,ok,,large,430178.14,4587758.16,430174.16,4587753.51,1.5,class
+0136604AR,Grevillea robusta,False,Pg Valldaura,5.78,4.67,ok,,medium,430430.42,4587860.47,430429.65,4587854.74,1.0,class
+0136606AR,Brachychiton populneus,False,Pg Verdum,21.02,7.13,ok,,large,430984.69,4587684.86,430987.43,4587664.02,1.5,class
+0136608AR,Grevillea robusta,False,Pg Valldaura,14.66,13.04,ok,,large,430606.09,4587795.69,430604.3,4587810.24,1.5,class
+0136610AR,Magnolia grandiflora,False,Pg Valldaura,14.42,5.79,ok,,large,430794.28,4587769.45,430796.25,4587783.73,1.5,class
+0136611AR,Celtis sinensis,False,Via Favència,24.68,23.9,ok,,large,430476.68,4588114.69,430452.25,4588118.1,1.5,class
+0136612AR,Celtis australis,False,C\ Castor,2.73,2.39,ok,,small,430842.2,4587966.25,430844.72,4587967.28,1.0,class
+0136614AR,Melia azedarach,False,Via Favència,13.42,5.08,ok,,large,430562.73,4588158.85,430549.43,4588160.65,1.5,class
+0136615AR,Celtis australis,False,C\ Feliu i Codina,13.38,6.27,ok,,large,430238.22,4587845.19,430224.95,4587846.92,1.5,class
+0136616AR,Grevillea robusta,False,Pg Valldaura,14.24,13.35,ok,,large,430364.96,4587829.55,430368.6,4587843.32,1.5,class
+0136619AR,Robinia pseudoacacia,False,C\ Gasela,9.56,8.51,ok,,large,430634.08,4588111.58,430624.6,4588112.8,1.5,class
+0136622AR,Styphnolobium japonicum,False,Via Favència,,9.26,median,13.6,check,,,,,1.0,floor
+0136623AR,Melia azedarach,False,C\ Guineueta,5.48,4.8,ok,,medium,430410.22,4588022.69,430408.25,4588027.8,1.0,class
+0136624AR,Platanus × acerifolia,True,C\ Castor,4.87,4.41,ok,,medium,430814.05,4587994.53,430818.55,4587996.37,1.0,class
+0136625AR,Firmiana simplex,False,C\ Isard,7.61,7.14,ok,,large,430719.93,4587867.52,430713.9,4587872.17,1.5,class
+0136626AR,Platanus × acerifolia,True,Pg Fabra i Puig,,52.22,no_facade,,check,,,,,1.0,floor
+0136628AR,Grevillea robusta,False,Pg Valldaura,13.91,13.36,ok,,large,430934.31,4587749.88,430940.91,4587762.11,1.5,class
+0136629AR,Fraxinus ornus OBELISK® 'Paus Johannes-Paulus II',False,C\ Marne,,18.37,median,,check,,,,,1.0,floor
+0136633AR,Grevillea robusta,False,Pg Valldaura,15.11,12.67,ok,,large,430258.54,4587843.27,430260.67,4587858.23,1.5,class
+0136634AR,Platanus × acerifolia,True,Pg Verdum,15.95,15.1,ok,,large,430868.95,4587529.49,430884.68,4587526.83,1.5,class
+0136637AR,Platanus × acerifolia,True,Rbla Caçador,11.41,10.85,ok,,large,430863.94,4587890.61,430865.51,4587901.92,1.5,class
+0136638AR,Grevillea robusta,False,Pg Valldaura,13.33,10.33,ok,,large,430642.0,4587832.92,430650.17,4587822.38,1.5,class
+0136640AR,Populus nigra 'Italica',False,Pg Valldaura,14.02,11.39,ok,,large,430193.57,4587853.37,430195.65,4587867.23,1.5,class
+0136641AR,Platanus × acerifolia,True,Pg Urrutia,7.34,6.73,ok,,large,430585.08,4587393.12,430583.58,4587385.92,1.5,class
+0136645AR,Platanus × acerifolia,True,C\ Doctor Pi i Molist,,17.45,no_kerb,,check,,,,,1.0,floor
+0136646AR,Platanus × acerifolia,True,Rbla Caçador,19.14,18.77,ok,,large,430746.67,4587940.51,430749.44,4587959.45,1.5,class
+0136647AR,Grevillea robusta,False,Pg Valldaura,13.87,11.49,ok,,large,430406.79,4587824.01,430408.63,4587837.76,1.5,class
+0136651AR,Firmiana simplex,False,C\ Isard,7.85,7.38,ok,,large,430695.02,4587842.73,430702.45,4587840.22,1.5,class
+0136652AR,Magnolia grandiflora,False,Pg Valldaura,15.45,6.96,ok,,large,430293.2,4587838.1,430295.17,4587853.42,1.5,class
+0136653AR,Populus alba 'Pyramidalis',False,C\ Lorena,22.55,15.57,ok,,large,430949.2,4587663.94,430946.04,4587641.62,1.5,class
+0136656AR,Populus alba 'Pyramidalis',False,C\ Lorena,22.53,9.13,ok,,large,430944.27,4587664.64,430941.12,4587642.33,1.5,class
+0136660AR,Brachychiton populneus,False,C\ Alsàcia,4.55,4.25,ok,,medium,430761.92,4587761.58,430757.41,4587762.19,1.0,class
+0136661AR,Magnolia grandiflora,False,Pg Valldaura,14.09,5.98,ok,,large,430609.21,4587795.25,430611.19,4587809.2,1.5,class
+0136662AR,Platanus × acerifolia,True,Rbla Caçador,4.34,4.34,ok,,medium,430496.02,4588015.78,430497.21,4588019.96,1.0,class
+0136665AR,Magnolia grandiflora,False,Pg Valldaura,14.34,5.38,ok,,large,430823.16,4587765.47,430825.11,4587779.68,1.5,class
+0136666AR,Pyrus calleryana 'Chanticleer',False,Pg Valldaura,6.61,4.13,ok,,large,430533.97,4587783.42,430540.16,4587781.08,1.5,class
+0136667AR,Firmiana simplex,False,C\ Isard,4.17,3.44,ok,,medium,430718.39,4587934.28,430715.69,4587931.1,1.0,class
+0136668AR,Robinia pseudoacacia 'Bessoniana',False,C\ Gasela,9.49,5.01,ok,,large,430539.56,4588065.54,430538.23,4588056.14,1.5,class
+0136670AR,Celtis sinensis,False,Via Favència,,62.57,no_facade,,check,,,,,1.0,floor
+0136671AR,Casuarina cunninghamiana,False,C\ Artesania,,16.2,median,,check,,,,,1.0,floor
+0136672AR,Brachychiton populneus,False,Pl República,,27.31,median,,check,,,,,1.0,floor
+0136673AR,Celtis sinensis,False,Via Favència,6.86,6.34,ok,,large,430537.95,4588153.1,430538.87,4588159.9,1.5,class
+0136676AR,Magnolia grandiflora,False,Pg Valldaura,13.91,5.44,ok,,large,430186.99,4587854.35,430189.06,4587868.11,1.5,class
+0136678AR,Populus nigra 'Italica',False,Pg Valldaura,13.79,11.1,ok,,large,430175.69,4587855.98,430177.59,4587869.64,1.5,class
+0136681AR,Ligustrum lucidum,False,Pg Valldaura,13.07,10.47,ok,,large,430568.3,4587727.81,430555.34,4587729.52,1.5,class
+0136682AR,Celtis sinensis,False,Via Favència,5.74,5.27,ok,,medium,430478.0,4588124.14,430475.04,4588129.06,1.0,class
+0136683AR,Magnolia grandiflora,False,Pg Valldaura,13.82,5.53,ok,,large,430180.49,4587855.31,430182.39,4587869.0,1.5,class
+0136684AR,Robinia pseudoacacia,False,C\ Gasela,7.22,5.76,ok,,large,430638.04,4588119.3,430639.08,4588126.44,1.5,class
+0136686AR,Magnolia grandiflora,False,Pg Valldaura,22.4,9.42,ok,,large,430403.02,4587824.51,430387.54,4587840.7,1.5,class
+0136688AR,Magnolia grandiflora,False,Pg Valldaura,18.41,10.17,ok,,large,430734.7,4587773.66,430737.11,4587791.91,1.5,class
+0136689AR,Platanus × acerifolia,True,Rbla Caçador,8.4,7.35,ok,,large,430523.64,4588010.49,430531.79,4588012.49,1.5,class
+0136691AR,Populus nigra 'Italica',False,Pg Valldaura,13.37,11.0,ok,,large,430932.69,4587750.11,430934.61,4587763.34,1.5,class
+0136693AR,Brachychiton populneus,False,Pg Verdum,19.58,9.63,ok,,large,430929.14,4587615.56,430948.45,4587612.31,1.5,class
+0136696AR,Firmiana simplex,False,C\ Isard,6.25,5.66,ok,,large,430697.4,4587872.78,430703.59,4587871.92,1.5,class
+0136698AR,Brachychiton populneus,False,Pl República,,31.16,no_facade,,check,,,,,1.0,floor
+0136699AR,Firmiana simplex,False,Rbla Caçador,10.03,7.26,ok,,large,430922.28,4587874.55,430932.24,4587875.64,1.5,class
+0136701AR,Platanus × acerifolia,True,Rbla Caçador,19.03,17.23,ok,,large,430675.73,4587971.39,430661.67,4587984.21,1.5,class
+0136702AR,Populus nigra 'Italica',False,C\ Marne,27.73,20.91,ok,,large,430469.58,4587813.61,430497.05,4587809.91,1.5,class
+0136705AR,Magnolia grandiflora,False,Pg Valldaura,27.8,10.27,ok,,large,430912.34,4587753.07,430890.58,4587770.38,1.5,class
+0136708AR,Magnolia grandiflora,False,Pg Valldaura,19.11,8.19,ok,,large,430835.28,4587763.8,430849.78,4587776.25,1.5,class
+0136710AR,Platanus × acerifolia,True,Rbla Caçador,16.86,16.47,ok,,large,430752.86,4587939.6,430755.31,4587956.28,1.5,class
+0136712AR,Platanus × acerifolia,True,C\ Doctor Pi i Molist,,16.05,no_kerb,,check,,,,,1.0,floor
+0136714AR,Platanus × acerifolia,True,Rbla Caçador,19.15,18.81,ok,,large,430586.31,4587981.2,430589.01,4588000.15,1.5,class
+0136715AR,Fraxinus ornus OBELISK® 'Paus Johannes-Paulus II',False,C\ Marne,11.2,10.26,ok,,large,430513.34,4587802.04,430502.26,4587803.61,1.5,class
+0136717AR,Pyrus calleryana 'Chanticleer',False,Pg Valldaura,4.4,3.78,ok,,medium,430546.69,4587771.22,430547.3,4587775.57,1.0,class
+0136718AR,Platanus × acerifolia,True,C\ Castor,,11.14,median,,check,,,,,1.0,floor
+0136719AR,Celtis sinensis,False,Pl República,,32.25,no_facade,,check,,,,,1.0,floor
+0136721AR,Styphnolobium japonicum,False,C\ Gasela,5.34,4.53,ok,,medium,430557.94,4587975.94,430554.33,4587972.01,1.0,class
+0136723AR,Platanus × acerifolia,True,C\ Doctor Pi i Molist,,17.78,no_kerb,,check,,,,,1.0,floor
+0136724AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,Rbla Caçador,6.38,6.19,ok,,large,430458.91,4588023.65,430464.3,4588027.06,1.5,class
+0136725AR,Tipuana tipu,False,Pl República,25.76,16.8,ok,,large,430993.93,4587724.28,431019.44,4587720.69,1.5,class
+0136728AR,Platanus × acerifolia,True,Pg Verdum,10.98,10.21,ok,,large,430891.28,4587556.95,430898.92,4587549.07,1.5,class
+0136730AR,Brachychiton populneus,False,C\ Alsàcia,4.52,4.21,ok,,medium,430757.26,4587726.97,430752.78,4587727.57,1.0,class
+0136731AR,Grevillea robusta,False,Pg Valldaura,16.27,15.95,ok,,large,430749.8,4587826.53,430746.03,4587810.69,1.5,class
+0136732AR,Grevillea robusta,False,Pg Valldaura,21.65,21.31,ok,,large,430987.48,4587731.24,430990.4,4587752.7,1.5,class
+0136734AR,Melia azedarach,False,Via Favència,22.86,9.96,ok,,large,430505.15,4588125.09,430482.49,4588128.19,1.5,class
+0136737AR,Platanus × acerifolia,True,C\ Castor,10.46,9.23,ok,,large,430743.48,4588056.39,430753.39,4588053.06,1.5,class
+0136739AR,Magnolia grandiflora,False,Pg Valldaura,28.31,13.14,ok,,large,430379.11,4587826.5,430404.85,4587838.28,1.5,class
+0136740AR,Styphnolobium japonicum,False,C\ Gasela,9.81,9.35,ok,,large,430562.74,4587957.16,430553.42,4587954.1,1.5,class
+0136741AR,Celtis australis,False,C\ Feliu i Codina,9.1,8.44,ok,,large,430197.13,4587766.37,430206.23,4587766.64,1.5,class
+0136744AR,Platanus × acerifolia,True,Rbla Caçador,15.65,15.16,ok,,large,430412.29,4588022.4,430414.42,4588037.91,1.5,class
+0136746AR,Platanus × acerifolia,True,C\ Marie Curie,,17.78,median,,check,,,,,1.0,floor
+0136747AR,Magnolia grandiflora,False,Pg Valldaura,19.3,10.56,ok,,large,430743.01,4587772.56,430751.6,4587789.85,1.5,class
+0136748AR,Magnolia grandiflora,False,Pg Valldaura,18.27,10.28,ok,,large,430712.36,4587776.98,430712.91,4587795.24,1.5,class
+0136749AR,Jacaranda mimosifolia,False,C\ Isard,2.6,1.83,ok,,small,430714.92,4587830.93,430712.34,4587830.6,1.0,class
+0136751AR,Magnolia grandiflora,False,Pg Valldaura,14.07,5.5,ok,,large,430197.02,4587852.85,430199.11,4587866.76,1.5,class
+0136754AR,Celtis sinensis,False,C\ Castor,19.79,19.2,ok,,large,430647.53,4588193.42,430657.27,4588210.64,1.5,class
+0136756AR,Celtis sinensis,False,Pl República,,28.85,no_kerb,,check,,,,,1.0,floor
+0136758AR,Celtis australis,False,C\ Castor,14.21,12.87,ok,,large,430784.3,4588016.05,430798.17,4588012.98,1.5,class
+0136760AR,Platanus × acerifolia,True,Rbla Caçador,4.41,4.07,ok,,medium,430513.3,4588011.93,430513.91,4588016.3,1.0,class
+0136763AR,Populus nigra 'Italica',False,Pg Valldaura,13.36,12.98,ok,,large,430887.35,4587804.37,430885.55,4587791.14,1.5,class
+0136765AR,Celtis australis,False,C\ Feliu i Codina,7.79,7.15,ok,,large,430207.49,4587834.21,430215.19,4587833.05,1.5,class
+0136768AR,Populus nigra 'Italica',False,Pg Valldaura,13.71,13.15,ok,,large,430332.58,4587882.24,430330.69,4587868.66,1.5,class
+0136769AR,Magnolia grandiflora,False,Pg Valldaura,,11.31,no_kerb,,check,,,,,1.0,floor
+0136770AR,Celtis australis,False,Pl República,,15.03,no_kerb,,check,,,,,1.0,floor
+0136772AR,Magnolia grandiflora,False,Pg Valldaura,15.57,7.31,ok,,large,430281.47,4587839.6,430283.45,4587855.05,1.5,class
+0136773AR,Robinia pseudoacacia,False,Rbla Caçador,15.0,4.12,ok,,large,430433.5,4588059.4,430431.16,4588044.59,1.5,class
+0136774AR,Brachychiton populneus,False,Pg Verdum,16.32,7.47,ok,,large,430925.94,4587606.65,430942.09,4587604.31,1.5,class
+0136775AR,Morus nigra,False,C\ Gasela,29.19,7.37,ok,,large,430629.7,4588165.92,430638.27,4588138.01,1.5,class
+0136777AR,Magnolia grandiflora,False,Pg Valldaura,7.98,5.88,ok,,large,430524.61,4587855.35,430523.52,4587847.45,1.5,class
+0136778AR,Populus nigra 'Italica',False,C\ Marne,13.46,4.3,ok,,large,430457.73,4587658.54,430471.09,4587656.85,1.5,class
+0136779AR,Magnolia grandiflora,False,Pg Valldaura,16.02,6.22,ok,,large,430238.48,4587847.16,430233.15,4587862.28,1.5,class
+0136780AR,Celtis australis,False,Pg Fabra i Puig,25.11,17.93,ok,,large,430311.22,4587715.02,430286.34,4587718.4,1.5,class
+0136781AR,Grevillea robusta,False,Pg Valldaura,13.4,12.67,ok,,large,430670.06,4587830.93,430659.44,4587822.75,1.5,class
+0136783AR,Brachychiton populneus,False,C\ Alsàcia,4.5,4.18,ok,,medium,430751.81,4587686.57,430747.36,4587687.17,1.0,class
+0136786AR,Celtis sinensis,False,Via Favència,4.13,3.51,ok,,medium,430592.8,4588182.05,430592.46,4588186.16,1.0,class
+0136787AR,Styphnolobium japonicum,False,C\ Gasela,4.06,3.6,ok,,medium,430543.66,4587996.99,430547.68,4587996.43,1.0,class
+0136789AR,Celtis australis,False,C\ Feliu i Codina,,12.75,median,,check,,,,,1.0,floor
+0136790AR,Brachychiton populneus,False,C\ Alsàcia,4.55,4.1,ok,,medium,430762.57,4587766.41,430758.06,4587767.02,1.0,class
+0136791AR,Platanus × acerifolia,True,Rbla Caçador,5.24,4.98,ok,,medium,430502.38,4588013.46,430503.11,4588018.65,1.0,class
+0136792AR,Firmiana simplex,False,C\ Isard,13.32,12.02,ok,,large,430703.06,4587955.69,430706.98,4587968.42,1.5,class
+0136794AR,Celtis australis,False,Pg Fabra i Puig,27.32,11.36,ok,,large,430293.12,4587780.17,430289.28,4587753.12,1.5,class
+0136795AR,Platanus × acerifolia,True,C\ Doctor Pi i Molist,,12.0,no_kerb,,check,,,,,1.0,floor
+0136796AR,Platanus × acerifolia,True,Pg Verdum,,20.13,median,,check,,,,,1.0,floor
+0136797AR,Ulmus pumila,False,C\ Gasela,14.28,4.62,ok,,large,430549.91,4588091.25,430547.93,4588077.11,1.5,class
+0136800AR,Platanus × acerifolia,True,C\ Doctor Pi i Molist,,15.69,median,,check,,,,,1.0,floor
+0136801AR,Gleditsia triacanthos,False,C\ Gasela,,6.14,median,,check,,,,,1.0,floor
+0136802AR,Brachychiton populneus,False,Pl República,,43.23,no_facade,,check,,,,,1.0,floor
+0136803AR,Celtis australis,False,C\ Feliu i Codina,4.34,3.43,ok,,medium,430216.93,4587756.73,430212.63,4587757.34,1.0,class
+0136804AR,Grevillea robusta,False,Pg Valldaura,5.91,5.55,ok,,medium,430794.71,4587809.91,430793.91,4587804.06,1.0,class
+0136808AR,Cupressus sempervirens,False,C\ Mont-ral,,14.89,median,,check,,,,,1.0,floor
+0136810AR,Platanus × acerifolia,True,Pg Urrutia,7.69,7.16,ok,,large,430738.03,4587373.62,430737.14,4587365.98,1.5,class
+0136811AR,Populus nigra 'Italica',False,Pg Valldaura,14.34,11.99,ok,,large,430823.79,4587765.38,430825.74,4587779.59,1.5,class
+0136815AR,Celtis australis,False,Pl República,,26.8,no_kerb,,check,,,,,1.0,floor
+0136818AR,Gleditsia triacanthos,False,C\ Gasela,,8.88,median,26.85,check,,,,,1.0,floor
+0136820AR,Melia azedarach,False,C\ Guineueta,5.97,5.42,ok,,medium,430404.56,4587982.03,430398.65,4587982.86,1.0,class
+0136821AR,Melia azedarach,False,C\ Gasela,14.27,4.67,ok,,large,430554.87,4588090.55,430552.89,4588076.42,1.5,class
+0136823AR,Firmiana simplex,False,Rbla Caçador,,12.68,median,14.55,check,,,,,1.0,floor
+0136825AR,Magnolia grandiflora,False,Pg Valldaura,25.79,10.03,ok,,large,430559.84,4587802.45,430540.32,4587819.3,1.5,class
+0136827AR,Brachychiton populneus,False,C\ Alsàcia,4.51,4.16,ok,,medium,430754.54,4587706.8,430750.07,4587707.41,1.0,class
+0136831AR,Populus simonii,False,Pg Valldaura,13.78,11.56,ok,,large,430155.21,4587858.83,430157.11,4587872.48,1.5,class
+0136832AR,Melia azedarach,False,C\ Gasela,24.02,12.41,ok,,large,430562.22,4588144.76,430559.01,4588120.95,1.5,class
+0136833AR,Styphnolobium japonicum,False,C\ Gasela,5.25,4.71,ok,,medium,430541.95,4587984.78,430547.15,4587984.06,1.0,class
+0136835AR,Styphnolobium japonicum,False,C\ Marie Curie,,35.75,no_facade,,check,,,,,1.0,floor
+0136836AR,Morus nigra,False,Via Favència,,6.19,no_kerb,,check,,,,,1.0,floor
+0136837AR,Casuarina cunninghamiana,False,C\ Vilalba dels Arcs,8.93,8.16,ok,,large,430191.34,4587746.57,430192.46,4587737.71,1.5,class
+0136838AR,Melia azedarach,False,C\ Gasela,10.85,5.03,ok,,large,430574.91,4588129.69,430572.86,4588119.04,1.5,class
+0136839AR,Grevillea robusta,False,Pg Valldaura,,12.33,median,5.59,check,,,,,1.0,floor
+0136840AR,Celtis sinensis,False,Via Favència,,9.1,median,2.27,check,,,,,1.0,floor
+0136841AR,Magnolia grandiflora,False,Pg Valldaura,19.26,8.77,ok,,large,430304.21,4587836.68,430317.82,4587850.3,1.5,class
+0136843AR,Platanus × acerifolia,True,Rbla Caçador,4.78,4.6,ok,,medium,430508.34,4588012.62,430509.0,4588017.36,1.0,class
+0136844AR,Ligustrum lucidum,False,Pg Valldaura,13.07,10.36,ok,,large,430567.94,4587725.08,430554.99,4587726.79,1.5,class
+0136849AR,Ligustrum lucidum,False,Pg Valldaura,5.97,4.11,ok,,medium,430614.81,4587735.82,430608.89,4587736.62,1.0,class
+0136852AR,Firmiana simplex,False,C\ Isard,11.67,10.58,ok,,large,430696.98,4587869.78,430703.16,4587859.88,1.5,class
+0136855AR,Platanus × acerifolia,True,C\ Doctor Pi i Molist,,14.32,no_kerb,,check,,,,,1.0,floor
+0136858AR,Tipuana tipu,False,Pl República,,43.34,no_facade,,check,,,,,1.0,floor
+0136859AR,Firmiana simplex,False,C\ Isard,7.13,6.11,ok,,large,430703.06,4587955.69,430706.75,4587961.79,1.5,class
+0136862AR,Platanus × acerifolia,True,Rbla Caçador,10.27,9.53,ok,,large,430426.39,4588028.02,430420.69,4588036.56,1.5,class
+0136865AR,Populus nigra 'Italica',False,Pg Valldaura,5.83,5.37,ok,,medium,430251.75,4587885.49,430250.95,4587879.72,1.0,class
+0136866AR,Melia azedarach,False,C\ Guineueta,10.01,10.89,ok,,large,430383.12,4587891.77,430373.21,4587893.14,1.5,class
+0136868AR,Brachychiton populneus,False,Pl República,26.22,23.84,ok,,large,430994.77,4587730.25,431020.97,4587731.15,1.5,class
+0136869AR,Grevillea robusta,False,Pg Valldaura,5.58,5.28,ok,,medium,430585.41,4587838.76,430584.63,4587833.23,1.0,class
+0136870AR,Platanus × acerifolia,True,Pl República,,33.02,no_facade,,check,,,,,1.0,floor
+0136871AR,Brachychiton populneus,False,C\ Alsàcia,4.51,4.14,ok,,medium,430753.46,4587698.82,430748.99,4587699.42,1.0,class
+0136873AR,Platanus × acerifolia,True,Rbla Caçador,11.79,11.12,ok,,large,430540.5,4587998.59,430542.13,4588010.26,1.5,class
+0136875AR,Styphnolobium japonicum,False,C\ Gasela,4.89,4.31,ok,,medium,430554.79,4587874.28,430549.95,4587874.96,1.0,class
+0136876AR,Platanus × acerifolia,True,C\ Guineueta,9.13,4.99,ok,,large,430375.64,4587986.62,430384.68,4587985.3,1.5,class
+0136877AR,Populus nigra 'Italica',False,Pg Valldaura,5.92,5.52,ok,,medium,430788.67,4587810.75,430787.87,4587804.89,1.0,class
+0136880AR,Celtis sinensis,False,Via Favència,5.4,4.81,ok,,medium,430507.03,4588138.84,430506.68,4588144.23,1.0,class
+0136881AR,Styphnolobium japonicum,False,C\ Gasela,6.98,6.59,ok,,large,430539.45,4587966.98,430546.36,4587966.01,1.5,class
+0136882AR,Populus nigra 'Italica',False,Pg Valldaura,23.84,23.32,ok,,large,430126.62,4587924.69,430121.94,4587901.31,1.5,class
+0136884AR,Celtis sinensis,False,Pl República,,12.12,no_kerb,,check,,,,,1.0,floor
+0136886AR,Celtis sinensis,False,C\ Castor,,20.15,median,6.2,check,,,,,1.0,floor
+0136887AR,Platanus × acerifolia,True,Pg Verdum,13.53,12.92,ok,,large,430984.69,4587684.86,430994.7,4587675.75,1.5,class
+0136890AR,Eucalyptus camaldulensis,False,C\ Gasela,6.93,2.0,ok,,large,430539.52,4587967.44,430546.38,4587966.48,1.5,class
+0136893AR,Populus nigra 'Italica',False,Pg Valldaura,5.75,4.92,ok,,medium,430281.39,4587881.34,430280.58,4587875.65,1.0,class
+0136898AR,Populus nigra 'Italica',False,Pg Valldaura,14.36,12.33,ok,,large,430812.08,4587767.0,430814.04,4587781.22,1.5,class
+0136900AR,Grevillea robusta,False,Pg Fabra i Puig,24.97,10.5,ok,,large,430311.3,4587715.55,430286.55,4587718.91,1.5,class
+0136901AR,Celtis australis,False,C\ Feliu i Codina,4.36,3.42,ok,,medium,430218.01,4587764.45,430213.69,4587765.05,1.0,class
+0136905AR,Grevillea robusta,False,Pg Valldaura,6.02,5.5,ok,,large,430207.02,4587891.77,430206.19,4587885.81,1.5,class
+0136906AR,Tipuana tipu,False,Pl República,,20.27,no_kerb,,check,,,,,1.0,floor
+0136907AR,Populus nigra 'Italica',False,Pg Valldaura,5.9,5.57,ok,,medium,430800.3,4587809.15,430799.5,4587803.3,1.0,class
+0136909AR,Celtis australis,False,C\ Artesania,,12.94,median,,check,,,,,1.0,floor
+0136914AR,Platanus × acerifolia,True,Rbla Caçador,19.68,19.28,ok,,large,430579.34,4587982.19,430582.12,4588001.68,1.5,class
+0136915AR,Melia azedarach,False,C\ Guineueta,9.74,9.19,ok,,large,430350.14,4587890.07,430359.79,4587888.72,1.5,class
+0136916AR,Platanus × acerifolia,True,Rbla Caçador,,38.81,no_facade,14.87,check,,,,,1.0,floor
+0136920AR,Grevillea robusta,False,Pg Valldaura,21.07,20.3,ok,,large,430146.25,4587911.59,430131.82,4587896.24,1.5,class
+0136921AR,Magnolia grandiflora,False,Pg Valldaura,16.13,10.59,ok,,large,430728.45,4587774.51,430730.9,4587790.46,1.5,class
+0136924AR,Fraxinus ornus OBELISK® 'Paus Johannes-Paulus II',False,C\ Marne,11.2,5.62,ok,,large,430513.36,4587802.17,430502.28,4587803.74,1.5,class
+0136925AR,Ulmus pumila,False,Via Favència,13.42,10.32,ok,,large,430562.78,4588159.26,430549.48,4588161.05,1.5,class
+0136927AR,Celtis australis,False,Pl República,,34.38,no_facade,,check,,,,,1.0,floor
+0136933AR,Grevillea robusta,False,Pg Valldaura,,12.97,median,13.08,check,,,,,1.0,floor
+0136936AR,Grevillea robusta,False,Pg Valldaura,15.57,13.11,ok,,large,430281.5,4587839.6,430283.48,4587855.05,1.5,class
+0136938AR,Platanus × acerifolia,True,C\ Artesania,,13.01,median,,check,,,,,1.0,floor
+0136939AR,Grevillea robusta,False,Pg Valldaura,14.15,13.45,ok,,large,430568.05,4587801.31,430570.71,4587815.21,1.5,class
+0136940AR,Firmiana simplex,False,C\ Isard,6.01,5.5,ok,,large,430719.63,4587865.37,430713.67,4587866.19,1.5,class
+0136944AR,Ulmus pumila,False,Via Favència,,8.57,median,,check,,,,,1.0,floor
+0136947AR,Platanus × acerifolia,True,Pg Urrutia,,11.81,median,,check,,,,,1.0,floor
+0136951AR,Platanus × acerifolia,True,Pg Verdum,,14.0,median,,check,,,,,1.0,floor
+0136953AR,Populus nigra 'Italica',False,C\ Marne,20.85,10.73,ok,,large,430460.36,4587678.19,430481.03,4587675.47,1.5,class
+0136954AR,Celtis australis,False,C\ Esquirol Volador,2.26,1.77,ok,,none,430885.58,4587878.23,430883.34,4587878.54,1.0,floor
+0136957AR,Pyrus calleryana 'Chanticleer',False,Pg Valldaura,4.4,3.74,ok,,medium,430540.75,4587772.04,430541.35,4587776.4,1.0,class
+0136959AR,Celtis australis,False,C\ Feliu i Codina,13.52,6.17,ok,,large,430237.21,4587837.4,430223.8,4587839.15,1.5,class
+0136963AR,Styphnolobium japonicum,False,Via Favència,15.29,9.91,ok,,large,430505.85,4588130.24,430490.7,4588132.32,1.5,class
+0136966AR,Platanus × acerifolia,True,Rbla Caçador,,37.96,no_facade,15.4,check,,,,,1.0,floor
+0136967AR,Styphnolobium japonicum,False,C\ Gasela,4.37,3.78,ok,,medium,430554.0,4587868.69,430549.67,4587869.3,1.0,class
+0136968AR,Celtis sinensis,False,Via Favència,19.8,19.1,ok,,large,430637.57,4588194.65,430640.01,4588214.3,1.5,class
+0136969AR,Celtis australis,False,Pg Fabra i Puig,16.54,8.42,ok,,large,430313.59,4587732.47,430297.21,4587734.69,1.5,class
+0136971AR,Populus nigra 'Italica',False,C\ Marne,13.65,5.02,ok,,large,430496.23,4587672.45,430482.69,4587674.22,1.5,class
+0136974AR,Magnolia grandiflora,False,Pg Valldaura,12.27,6.36,ok,,large,430528.4,4587805.91,430530.06,4587818.06,1.5,class
+0136977AR,Brachychiton populneus,False,Pg Valldaura,,4.74,no_kerb,,check,,,,,1.0,floor
+0136980AR,Platanus × acerifolia,True,C\ Castor,3.55,2.9,ok,,medium,430714.08,4588102.77,430717.37,4588104.12,1.0,class
+0136985AR,Populus nigra 'Italica',False,Pg Valldaura,14.84,12.24,ok,,large,430654.69,4587790.17,430656.75,4587804.87,1.5,class
+0136986AR,Styphnolobium japonicum,False,C\ Marie Curie,,40.47,no_facade,,check,,,,,1.0,floor
+0136987AR,Platanus × acerifolia,True,C\ Doctor Pi i Molist,,11.32,no_kerb,28.96,check,,,,,1.0,floor
+0136990AR,Celtis sinensis,False,Via Favència,16.64,15.86,ok,,large,430424.79,4588090.74,430409.62,4588097.6,1.5,class
+0136992AR,Populus nigra 'Italica',False,Pg Valldaura,5.73,5.21,ok,,medium,430602.84,4587836.35,430602.08,4587830.66,1.0,class
+0136993AR,Celtis sinensis,False,Via Favència,,32.98,no_facade,,check,,,,,1.0,floor
+0136994AR,Populus nigra 'Italica',False,Pg Valldaura,9.23,7.51,ok,,large,430475.71,4587854.1,430482.22,4587847.55,1.5,class
+0136995AR,Robinia pseudoacacia,False,C\ Gasela,,10.38,median,,check,,,,,1.0,floor
+0136996AR,Casuarina cunninghamiana,False,C\ Artesania,,12.53,median,,check,,,,,1.0,floor
+0136997AR,Platanus × acerifolia,True,C\ Castor,3.52,2.72,ok,,medium,430741.16,4588062.09,430744.42,4588063.41,1.0,class
+0136998AR,Celtis australis,False,C\ Feliu i Codina,9.81,9.15,ok,,large,430196.52,4587762.86,430205.05,4587758.01,1.5,class
+0136999AR,Prunus cerasifera 'Pissardii',False,C\ Marie Curie,8.05,6.87,ok,,large,430513.09,4587643.4,430505.55,4587640.59,1.5,class
+0137000AR,Platanus × acerifolia,True,C\ Vilalba dels Arcs,5.48,4.41,ok,,medium,430352.06,4587670.74,430351.3,4587665.31,1.0,class
+0137003AR,Celtis sinensis,False,Via Favència,7.28,6.72,ok,,large,430596.28,4588181.57,430597.28,4588188.78,1.5,class
+0137004AR,Brachychiton populneus,False,Pl República,,41.21,no_facade,,check,,,,,1.0,floor
+0137010AR,Populus nigra 'Italica',False,Pg Valldaura,12.28,10.03,ok,,large,430455.66,4587856.87,430444.1,4587852.75,1.5,class
+0137011AR,Populus nigra 'Italica',False,Pg Valldaura,10.57,9.93,ok,,large,430688.13,4587826.28,430694.58,4587817.91,1.5,class
+0137018AR,Grevillea robusta,False,Pg Valldaura,11.66,11.05,ok,,large,430557.42,4587849.09,430555.78,4587837.54,1.5,class
+0137020AR,Prunus cerasifera 'Pissardii',False,C\ Marie Curie,2.97,2.44,ok,,small,430428.74,4587654.19,430428.35,4587651.25,1.0,class
+0137021AR,Magnolia grandiflora,False,Pg Valldaura,16.15,5.82,ok,,large,430514.3,4587808.84,430508.44,4587823.88,1.5,class
+0137025AR,Magnolia grandiflora,False,Pg Valldaura,13.87,5.71,ok,,large,430407.42,4587823.92,430409.26,4587837.67,1.5,class
+0137026AR,Styphnolobium japonicum,False,C\ Gasela,2.35,1.74,ok,,none,430635.26,4588119.7,430634.09,4588121.75,1.0,floor
+0137028AR,Celtis australis,False,Pg Fabra i Puig,17.94,12.29,ok,,large,430312.49,4587724.31,430294.71,4587726.72,1.5,class
+0137029AR,Brachychiton populneus,False,C\ Alsàcia,4.51,4.15,ok,,medium,430753.99,4587702.75,430749.52,4587703.35,1.0,class
+0137030AR,Populus alba 'Pyramidalis',False,C\ Lorena,22.59,15.68,ok,,large,430959.19,4587662.53,430956.03,4587640.16,1.5,class
+0137032AR,Melia azedarach,False,C\ Guineueta,9.28,8.84,ok,,large,430369.55,4587944.74,430378.74,4587943.43,1.5,class
+0137033AR,Robinia pseudoacacia 'Bessoniana',False,C\ Vilalba dels Arcs,11.3,3.74,ok,,large,430323.57,4587697.26,430322.03,4587686.07,1.5,class
+0137035AR,Melia azedarach,False,C\ Esquirol Volador,,11.75,median,4.57,check,,,,,1.0,floor
+0137036AR,Prunus cerasifera 'Pissardii',False,C\ Marie Curie,,34.05,no_facade,,check,,,,,1.0,floor
+0137037AR,Magnolia grandiflora,False,Pg Valldaura,13.79,5.54,ok,,large,430175.28,4587856.04,430177.18,4587869.7,1.5,class
+0137038AR,Styphnolobium japonicum,False,Pg Valldaura,11.47,10.43,ok,,large,430573.5,4587767.16,430562.12,4587768.66,1.5,class
+0137040AR,Ligustrum lucidum,False,Pg Valldaura,,7.81,no_kerb,,check,,,,,1.0,floor
+0137041AR,Magnolia grandiflora,False,Pg Valldaura,7.93,5.98,ok,,large,430503.81,4587858.22,430502.72,4587850.36,1.5,class
+0137042AR,Brachychiton populneus,False,Pg Verdum,13.22,4.57,ok,,large,430984.91,4587685.21,430996.1,4587678.18,1.5,class
+0137043AR,Tipuana tipu,False,Pg Valldaura,5.97,3.76,ok,,medium,430613.76,4587728.07,430607.85,4587728.87,1.0,class
+0137044AR,Ulmus pumila,False,C\ Gasela,4.52,3.75,ok,,medium,430606.61,4588132.84,430607.21,4588137.31,1.0,class
+0137045AR,Platanus × acerifolia,True,Rbla Caçador,24.36,23.99,ok,,large,430727.53,4587943.29,430730.94,4587967.41,1.5,class
+0137047AR,Brachychiton populneus,False,Pg Verdum,26.52,8.3,ok,,large,430972.64,4587683.56,430984.78,4587659.98,1.5,class
+0137048AR,Grevillea robusta,False,Pg Valldaura,15.31,13.4,ok,,large,430465.02,4587814.39,430467.19,4587829.55,1.5,class
+0137049AR,Firmiana simplex,False,Pl República,,9.11,no_kerb,,check,,,,,1.0,floor
+0137050AR,Grevillea robusta,False,Pg Valldaura,18.34,17.37,ok,,large,430741.18,4587772.8,430743.58,4587790.99,1.5,class
+0137051AR,Grevillea robusta,False,Pg Valldaura,17.15,16.76,ok,,large,430742.4,4587828.55,430740.23,4587811.54,1.5,class
+0137052AR,Platanus × acerifolia,True,Rbla Caçador,,14.65,median,13.76,check,,,,,1.0,floor
+0137057AR,Platanus × acerifolia,True,C\ Castor,14.68,11.86,ok,,large,430714.52,4588101.69,430724.74,4588091.16,1.5,class
+0137058AR,Casuarina cunninghamiana,False,C\ Vilalba dels Arcs,6.02,5.33,ok,,large,430156.54,4587779.57,430151.92,4587775.71,1.5,class
+0137059AR,Platanus × acerifolia,True,Pg Urrutia,10.34,9.7,ok,,large,430729.86,4587374.74,430728.66,4587364.47,1.5,class
+0137060AR,Platanus × acerifolia,True,Pg Verdum,13.07,12.36,ok,,large,430987.06,4587688.63,430998.13,4587681.68,1.5,class
+0137062AR,Brachychiton populneus,False,Pl República,,34.87,no_facade,,check,,,,,1.0,floor
+0137063AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,Pg Valldaura,13.03,5.07,ok,,large,430565.86,4587709.33,430552.94,4587711.03,1.5,class
+0137065AR,Grevillea robusta,False,Pg Valldaura,17.82,16.95,ok,,large,430536.98,4587804.69,430548.69,4587818.13,1.5,class
+0137067AR,Platanus × acerifolia,True,C\ Castor,12.7,10.93,ok,,large,430695.35,4588135.72,430704.34,4588126.74,1.5,class
+0137069AR,Populus nigra 'Italica',False,Pg Valldaura,14.14,11.5,ok,,large,430201.8,4587852.13,430203.9,4587866.11,1.5,class
+0137070AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,Rbla Caçador,9.48,10.35,ok,,large,430460.58,4588054.38,430452.82,4588048.94,1.5,class
+0137073AR,Melia azedarach,False,C\ Gasela,,5.35,median,22.77,check,,,,,1.0,floor
+0137074AR,Brachychiton populneus,False,C\ Alsàcia,4.52,4.2,ok,,medium,430756.2,4587719.1,430751.72,4587719.7,1.0,class
+0137078AR,Magnolia grandiflora,False,Pg Valldaura,14.2,5.61,ok,,large,430568.05,4587801.31,430571.39,4587815.11,1.5,class
+0137079AR,Platanus × acerifolia,True,C\ Castor,,4.34,median,2.73,check,,,,,1.0,floor
+0137080AR,Tipuana tipu,False,Pg Valldaura,20.87,3.41,ok,,large,430612.43,4587701.29,430609.63,4587680.6,1.5,class
+0137082AR,Platanus × acerifolia,True,Pg Verdum,12.39,11.79,ok,,large,430858.02,4587504.72,430870.01,4587501.61,1.5,class
+0137085AR,Magnolia grandiflora,False,Pg Valldaura,14.11,5.89,ok,,large,430614.27,4587794.53,430617.12,4587808.34,1.5,class
+0137087AR,Celtis australis,False,Pg Fabra i Puig,,26.71,no_kerb,,check,,,,,1.0,floor
+0137088AR,Magnolia grandiflora,False,Pg Valldaura,13.07,5.2,ok,,large,430695.09,4587784.5,430696.92,4587797.45,1.5,class
+0137090AR,Populus nigra 'Italica',False,Pg Valldaura,,28.55,no_kerb,,check,,,,,1.0,floor
+0137091AR,Melia azedarach,False,C\ Guineueta,4.04,3.51,ok,,medium,430407.9,4588005.96,430403.9,4588006.51,1.0,class
+0137092AR,Styphnolobium japonicum,False,Via Favència,,60.2,no_facade,,check,,,,,1.0,floor
+0137095AR,Magnolia grandiflora,False,Pg Valldaura,,24.95,no_kerb,,check,,,,,1.0,floor
+0137097AR,Celtis australis,False,Pg Valldaura,5.97,4.97,ok,,medium,430615.64,4587741.94,430609.72,4587742.74,1.0,class
+0137099AR,Celtis australis,False,Pg Fabra i Puig,29.86,11.86,ok,,large,430322.95,4587754.12,430326.51,4587783.76,1.5,class
+0137100AR,Ulmus pumila,False,Via Favència,11.13,5.4,ok,,large,430534.1,4588140.04,430523.08,4588141.53,1.5,class
+0137101AR,Brachychiton populneus,False,C\ Alsàcia,4.5,4.23,ok,,medium,430752.36,4587690.61,430747.9,4587691.21,1.0,class
+0137102AR,Grevillea robusta,False,Pg Valldaura,5.58,5.23,ok,,medium,430579.78,4587839.6,430578.95,4587834.08,1.0,class
+0137103AR,Celtis sinensis,False,Via Favència,,13.48,median,2.56,check,,,,,1.0,floor
+0137105AR,Populus nigra 'Italica',False,Pg Valldaura,4.41,4.12,ok,,medium,430602.98,4587774.62,430600.86,4587770.75,1.0,class
+0137108AR,Grevillea robusta,False,Pg Valldaura,25.89,24.62,ok,,large,430934.31,4587749.88,430958.58,4587758.91,1.5,class
+0137109AR,Ligustrum lucidum,False,Pg Valldaura,12.98,9.98,ok,,large,430562.58,4587684.41,430549.71,4587686.11,1.5,class
+0137111AR,Melia azedarach,False,C\ Guineueta,3.71,2.93,ok,,medium,430393.9,4588019.93,430397.57,4588019.42,1.0,class
+0137112AR,Tipuana tipu,False,Pl República,,35.87,no_facade,,check,,,,,1.0,floor
+0137113AR,Celtis sinensis,False,Via Favència,,57.12,no_facade,,check,,,,,1.0,floor
+0137114AR,Populus nigra 'Italica',False,C\ Marne,9.56,4.2,ok,,large,430502.89,4587729.34,430493.41,4587730.59,1.5,class
+0137117AR,Grevillea robusta,False,Pg Valldaura,14.48,13.94,ok,,large,430644.7,4587835.01,430653.57,4587823.56,1.5,class
+0137119AR,Populus nigra 'Italica',False,Pg Valldaura,5.94,5.41,ok,,medium,430223.47,4587889.47,430222.65,4587883.58,1.0,class
+0137121AR,Grevillea robusta,False,Pg Valldaura,5.47,5.09,ok,,medium,430846.6,4587802.28,430845.85,4587796.86,1.0,class
+0137122AR,Prunus cerasifera 'Pissardii',False,C\ Marie Curie,,37.72,no_facade,,check,,,,,1.0,floor
+0137124AR,Celtis australis,False,C\ Artesania,,12.63,median,,check,,,,,1.0,floor
+0137125AR,Populus nigra 'Italica',False,Pg Valldaura,4.36,3.83,ok,,medium,430568.44,4587779.72,430567.84,4587775.41,1.0,class
+0137127AR,Platanus × acerifolia,True,Pg Urrutia,14.78,13.29,ok,,large,430685.45,4587371.38,430696.49,4587361.56,1.5,class
+0137128AR,Grevillea robusta,False,Pg Valldaura,6.04,5.54,ok,,large,430202.09,4587892.46,430201.25,4587886.48,1.5,class
+0137130AR,Brachychiton populneus,False,Pl República,23.62,21.66,ok,,large,430994.77,4587730.25,431016.0,4587740.61,1.5,class
+0137131AR,Magnolia grandiflora,False,Pg Valldaura,13.77,5.38,ok,,large,430157.68,4587858.49,430159.58,4587872.13,1.5,class
+0137132AR,Casuarina cunninghamiana,False,C\ Vilalba dels Arcs,6.39,5.75,ok,,large,430145.67,4587792.54,430140.81,4587788.38,1.5,class
+0137133AR,Platanus × acerifolia,True,Pg Urrutia,7.54,6.51,ok,,large,430606.05,4587382.52,430598.91,4587380.1,1.5,class
+0137134AR,Celtis australis,False,C\ Esquirol Volador,7.28,6.09,ok,,large,430885.76,4587879.55,430884.55,4587886.73,1.5,class
+0137135AR,Grevillea robusta,False,Pg Valldaura,5.46,5.17,ok,,medium,430840.39,4587803.14,430839.64,4587797.73,1.0,class
+0137139AR,Platanus × acerifolia,True,Pg Urrutia,12.42,11.75,ok,,large,430722.03,4587375.66,430720.52,4587363.33,1.5,class
+0137140AR,Platanus × acerifolia,True,Rbla Caçador,12.2,11.63,ok,,large,430536.09,4587999.21,430536.86,4588011.38,1.5,class
+0137141AR,Celtis sinensis,False,Via Favència,4.56,3.77,ok,,medium,430563.9,4588167.54,430560.2,4588170.2,1.0,class
+0137144AR,Platanus × acerifolia,True,Pg Verdum,12.83,11.91,ok,,large,430990.57,4587694.22,431001.44,4587687.4,1.5,class
+0137145AR,Magnolia grandiflora,False,Pg Valldaura,15.42,7.13,ok,,large,430304.21,4587836.68,430307.82,4587851.67,1.5,class
+0137146AR,Celtis sinensis,False,Via Favència,9.09,8.44,ok,,large,430478.0,4588124.14,430469.16,4588126.26,1.5,class
+0137147AR,Melia azedarach,False,Pl República,,28.57,no_kerb,,check,,,,,1.0,floor
+0137148AR,Populus nigra 'Italica',False,Pg Valldaura,16.61,16.08,ok,,large,430934.31,4587749.88,430946.53,4587761.12,1.5,class
+0137150AR,Melia azedarach,False,C\ Guineueta,26.22,4.01,ok,,large,430423.97,4587976.45,430397.99,4587980.05,1.5,class
+0137151AR,Jacaranda mimosifolia,False,C\ Isard,12.16,11.57,ok,,large,430693.19,4587845.17,430702.89,4587852.5,1.5,class
+0137152AR,Pinus pinea,False,Pg Fabra i Puig,,33.52,no_facade,,check,,,,,1.0,floor
+0137156AR,Platanus × acerifolia,True,C\ Marie Curie,24.61,20.68,ok,,large,430513.09,4587643.4,430488.48,4587642.98,1.5,class
+0137157AR,Ulmus pumila,False,C\ Gasela,,9.71,median,,check,,,,,1.0,floor
+0137158AR,Magnolia grandiflora,False,Pg Valldaura,7.91,6.09,ok,,large,430494.74,4587859.47,430493.66,4587851.64,1.5,class
+0137159AR,Grevillea robusta,False,Pg Valldaura,5.58,5.35,ok,,medium,430783.5,4587811.1,430782.37,4587805.63,1.0,class
+0137160AR,Cupressus sempervirens,False,C\ Mont-ral,,14.66,median,,check,,,,,1.0,floor
+0137161AR,Grevillea robusta,False,Pg Valldaura,16.7,13.86,ok,,large,430403.02,4587824.51,430395.77,4587839.55,1.5,class
+0137163AR,Celtis australis,False,C\ Esquirol Volador,,12.19,no_kerb,4.0,check,,,,,1.0,floor
+0137168AR,Casuarina cunninghamiana,False,C\ Vilalba dels Arcs,6.29,5.73,ok,,large,430126.97,4587817.59,430121.8,4587814.0,1.5,class
+0137169AR,Magnolia grandiflora,False,Pg Valldaura,16.29,6.83,ok,,large,430536.98,4587804.69,430545.52,4587818.57,1.5,class
+0137172AR,Celtis sinensis,False,Via Favència,13.52,13.04,ok,,large,430424.79,4588090.74,430415.22,4588100.3,1.5,class
+0137175AR,Magnolia grandiflora,False,Pg Valldaura,14.36,5.48,ok,,large,430805.82,4587767.86,430807.78,4587782.09,1.5,class
+0137176AR,Grevillea robusta,False,Pg Valldaura,6.05,5.69,ok,,large,430856.14,4587800.96,430857.94,4587795.18,1.5,class
+0137177AR,Celtis sinensis,False,Via Favència,,21.14,median,21.83,check,,,,,1.0,floor
+0137179AR,Styphnolobium japonicum,False,C\ Gasela,3.84,3.49,ok,,medium,430553.2,4587863.05,430549.4,4587863.59,1.0,class
+0137180AR,Tipuana tipu,False,Pl República,23.53,15.0,ok,,large,430994.77,4587730.25,431017.09,4587737.7,1.5,class
+0137184AR,Magnolia grandiflora,False,Pg Valldaura,14.54,6.05,ok,,large,430771.23,4587772.62,430773.22,4587787.03,1.5,class
+0137186AR,Brachychiton populneus,False,C\ Alsàcia,4.53,4.22,ok,,medium,430758.72,4587737.81,430754.23,4587738.41,1.0,class
+0137194AR,Populus nigra 'Italica',False,Pg Valldaura,5.74,5.19,ok,,medium,430570.06,4587841.02,430567.78,4587835.75,1.0,class
+0137196AR,Platanus × acerifolia,True,Rbla Caçador,4.02,3.64,ok,,medium,430518.53,4588011.2,430519.08,4588015.18,1.0,class
+0137198AR,Robinia pseudoacacia,False,C\ Gasela,11.21,10.54,ok,,large,430641.14,4588118.85,430642.75,4588129.94,1.5,class
+0137199AR,Firmiana simplex,False,C\ Isard,5.43,4.92,ok,,medium,430718.83,4587859.48,430713.45,4587860.22,1.0,class
+0137200AR,Populus nigra 'Italica',False,Pg Valldaura,6.48,6.0,ok,,large,430921.73,4587791.94,430920.84,4587785.52,1.5,class
+0137203AR,Populus nigra 'Italica',False,Pg Valldaura,,12.41,median,,check,,,,,1.0,floor
+0137207AR,Populus nigra 'Italica',False,Pg Valldaura,15.19,14.24,ok,,large,430574.31,4587799.33,430576.41,4587814.38,1.5,class
+0137209AR,Casuarina cunninghamiana,False,C\ Vilalba dels Arcs,6.19,5.54,ok,,large,430161.31,4587774.67,430156.89,4587770.33,1.5,class
+0137212AR,Ligustrum lucidum,False,Pg Valldaura,13.06,10.17,ok,,large,430567.44,4587721.23,430554.49,4587722.94,1.5,class
+0137213AR,Platanus × acerifolia,True,Rbla Caçador,8.1,7.44,ok,,large,430776.67,4587933.86,430777.69,4587941.9,1.5,class
+0137215AR,Celtis australis,False,Pl República,25.9,7.83,ok,,large,430993.98,4587724.66,431019.63,4587721.05,1.5,class
+0137216AR,Firmiana simplex,False,C\ Isard,15.87,8.44,ok,,large,430693.3,4587830.26,430708.64,4587826.18,1.5,class
+0137217AR,Populus nigra 'Italica',False,C\ Vilalba dels Arcs,,2.91,no_kerb,34.49,check,,,,,1.0,floor
+0137218AR,Brachychiton populneus,False,Pg Valldaura,,4.63,no_kerb,,check,,,,,1.0,floor
+0137219AR,Celtis australis,False,Pl República,21.27,13.85,ok,,large,430992.24,4587712.27,431013.29,4587709.31,1.5,class
+0137220AR,Robinia pseudoacacia,False,C\ Gasela,4.6,4.23,ok,,medium,430542.9,4587991.53,430547.45,4587990.89,1.0,class
+0137222AR,Magnolia grandiflora,False,Pg Valldaura,14.39,5.65,ok,,large,430800.11,4587768.65,430802.07,4587782.9,1.5,class
+0137223AR,Platanus × acerifolia,True,C\ Vilalba dels Arcs,8.89,7.7,ok,,large,430364.5,4587669.0,430363.27,4587660.2,1.5,class
+0137225AR,Celtis sinensis,False,Via Favència,11.24,10.41,ok,,large,430600.15,4588181.04,430602.85,4588191.95,1.5,class
+0137226AR,Celtis australis,False,Pl República,,37.67,no_facade,,check,,,,,1.0,floor
+0137231AR,Robinia pseudoacacia,False,C\ Gasela,10.18,9.67,ok,,large,430561.22,4587942.67,430553.21,4587948.96,1.5,class
+0137233AR,Magnolia grandiflora,False,Pg Valldaura,,27.7,no_kerb,,check,,,,,1.0,floor
+0137235AR,Platanus × acerifolia,True,C\ Castor,,8.46,median,,check,,,,,1.0,floor
+0137237AR,Grevillea robusta,False,Pg Valldaura,17.29,14.77,ok,,large,430912.34,4587753.07,430904.18,4587768.31,1.5,class
+0137238AR,Robinia pseudoacacia 'Bessoniana',False,C\ Gasela,,3.21,median,2.77,check,,,,,1.0,floor
+0137239AR,Platanus × acerifolia,True,Pg Verdum,15.15,14.2,ok,,large,430891.94,4587562.16,430906.97,4587560.26,1.5,class
+0137241AR,Grevillea robusta,False,Pg Valldaura,15.64,13.09,ok,,large,430275.79,4587840.33,430277.78,4587855.84,1.5,class
+0137242AR,Platanus × acerifolia,True,C\ Castor,25.86,23.33,ok,,large,430845.09,4587959.16,430861.35,4587939.05,1.5,class
+0137244AR,Platanus × acerifolia,True,C\ Castor,,10.64,median,,check,,,,,1.0,floor
+0137246AR,Populus nigra 'Italica',False,Pg Valldaura,23.63,19.85,ok,,large,430304.21,4587836.68,430324.08,4587849.47,1.5,class
+0137247AR,Platanus × acerifolia,True,Pg Verdum,11.79,10.98,ok,,large,430891.28,4587556.95,430902.84,4587554.65,1.5,class
+0137249AR,Celtis australis,False,Pl República,,26.11,no_kerb,,check,,,,,1.0,floor
+0137250AR,Populus nigra 'Italica',False,Pg Valldaura,5.45,5.04,ok,,medium,430834.85,4587803.91,430834.1,4587798.5,1.0,class
+0137253AR,Ligustrum lucidum,False,Pg Valldaura,13.03,10.19,ok,,large,430565.59,4587707.23,430552.67,4587708.93,1.5,class
+0137255AR,Magnolia grandiflora,False,Pg Valldaura,16.68,7.23,ok,,large,430582.32,4587798.22,430591.48,4587812.17,1.5,class
+0137258AR,Ligustrum lucidum,False,Pg Valldaura,13.13,10.27,ok,,large,430571.88,4587754.94,430558.86,4587756.65,1.5,class
+0137259AR,Populus nigra 'Italica',False,Pg Valldaura,5.66,4.52,ok,,medium,430458.39,4587856.49,430457.61,4587850.88,1.0,class
+0137260AR,Platanus × acerifolia,True,C\ Doctor Pi i Molist,,11.99,no_kerb,,check,,,,,1.0,floor
+0137261AR,Platanus × acerifolia,True,C\ Artesania,,13.04,median,,check,,,,,1.0,floor
+0137262AR,Populus nigra 'Italica',False,Pg Valldaura,15.22,12.56,ok,,large,430372.72,4587827.39,430374.82,4587842.47,1.5,class
+0137264AR,Firmiana simplex,False,Pl República,,6.13,no_kerb,,check,,,,,1.0,floor
+0137267AR,Firmiana simplex,False,C\ Isard,2.92,2.48,ok,,small,430718.79,4587937.16,430715.9,4587937.57,1.0,class
+0137268AR,Platanus × acerifolia,True,Pl República,17.4,13.48,ok,,large,430986.24,4587806.33,430988.59,4587823.57,1.5,class
+0137270AR,Grevillea robusta,False,Pg Valldaura,15.57,13.06,ok,,large,430835.28,4587763.8,430843.29,4587777.16,1.5,class
+0137272AR,Celtis sinensis,False,Via Favència,14.49,13.94,ok,,large,430635.64,4588194.89,430629.19,4588207.87,1.5,class
+0137274AR,Firmiana simplex,False,C\ Isard,6.72,5.97,ok,,large,430719.81,4587944.38,430716.35,4587950.14,1.5,class
+0137276AR,Platanus × acerifolia,True,Rbla Caçador,5.57,5.19,ok,,medium,430446.87,4588025.27,430447.61,4588030.78,1.0,class
+0137279AR,Morus nigra,False,Via Favència,,5.06,median,13.58,check,,,,,1.0,floor
+0137280AR,Platanus × acerifolia,True,Rbla Caçador,20.8,19.67,ok,,large,430564.79,4587984.26,430567.73,4588004.86,1.5,class
+0137281AR,Pyrus calleryana 'Chanticleer',False,Pg Valldaura,4.4,3.58,ok,,medium,430535.02,4587772.83,430535.62,4587777.19,1.0,class
+0137283AR,Melia azedarach,False,C\ Gasela,14.29,5.12,ok,,large,430530.13,4588094.01,430528.15,4588079.86,1.5,class
+0137285AR,Magnolia grandiflora,False,Pg Valldaura,14.13,5.8,ok,,large,430361.31,4587830.06,430363.26,4587844.05,1.5,class
+0137286AR,Magnolia grandiflora,False,Pg Valldaura,18.0,6.07,ok,,large,430934.31,4587749.88,430948.66,4587760.74,1.5,class
+0137287AR,Celtis australis,False,C\ Feliu i Codina,13.63,12.17,ok,,large,430236.18,4587829.48,430222.67,4587831.24,1.5,class
+0137290AR,Populus nigra 'Italica',False,Pg Valldaura,7.3,6.18,ok,,large,430416.62,4587862.33,430411.36,4587857.28,1.5,class
+0137292AR,Platanus × acerifolia,True,Pg Urrutia,,16.57,median,6.6,check,,,,,1.0,floor
+0137294AR,Magnolia grandiflora,False,Pg Valldaura,13.24,10.6,ok,,large,430722.77,4587775.38,430724.78,4587788.46,1.5,class
+0137297AR,Grevillea robusta,False,Pg Valldaura,5.8,4.82,ok,,medium,430435.41,4587859.8,430434.64,4587854.05,1.0,class
+0137300AR,Ulmus pumila,False,Via Favència,,8.56,median,30.73,check,,,,,1.0,floor
+0137303AR,Grevillea robusta,False,Pg Valldaura,13.59,11.21,ok,,large,430921.65,4587751.71,430923.6,4587765.16,1.5,class
+0137306AR,Robinia pseudoacacia,False,C\ Gasela,5.7,4.69,ok,,medium,430634.76,4588116.24,430629.11,4588117.05,1.0,class
+0137307AR,Populus alba 'Pyramidalis',False,C\ Lorena,22.53,15.47,ok,,large,430944.36,4587664.63,430941.21,4587642.32,1.5,class
+0137309AR,Ulmus pumila,False,C\ Gasela,5.2,5.64,ok,,medium,430535.18,4588100.78,430535.9,4588105.93,1.0,class
+0137311AR,Platanus × acerifolia,True,C\ Artesania,,12.9,median,,check,,,,,1.0,floor
+0137314AR,Celtis australis,False,Rbla Caçador,10.78,10.09,ok,,large,430684.6,4587970.18,430692.58,4587977.43,1.5,class
+0137315AR,Robinia pseudoacacia 'Bessoniana',False,C\ Gasela,4.88,3.54,ok,,medium,430494.47,4588057.88,430495.15,4588062.72,1.0,class
+0137317AR,Celtis australis,False,C\ Feliu i Codina,13.74,6.33,ok,,large,430235.05,4587820.76,430221.42,4587822.53,1.5,class
+0137318AR,Grevillea robusta,False,Pg Valldaura,19.79,17.17,ok,,large,430379.11,4587826.5,430393.74,4587839.83,1.5,class
+0137320AR,Grevillea robusta,False,Pg Valldaura,13.07,12.28,ok,,large,430695.05,4587784.51,430696.87,4587797.45,1.5,class
+0137323AR,Ligustrum lucidum,False,C\ Castor,,31.66,no_facade,13.63,check,,,,,1.0,floor
+0137324AR,Grevillea robusta,False,Pg Valldaura,6.62,6.34,ok,,large,430927.46,4587791.15,430926.55,4587784.59,1.5,class
+0137326AR,Melia azedarach,False,C\ Gasela,,8.69,median,26.89,check,,,,,1.0,floor
+0137329AR,Platanus × acerifolia,True,Pg Urrutia,9.5,8.91,ok,,large,430654.76,4587373.68,430653.54,4587364.26,1.5,class
+0137330AR,Melia azedarach,False,C\ Guineueta,,7.13,median,2.38,check,,,,,1.0,floor
+0137332AR,Morus nigra,False,Via Favència,,9.23,median,13.58,check,,,,,1.0,floor
+0137333AR,Brachychiton populneus,False,Pl República,,49.39,no_facade,,check,,,,,1.0,floor
+0137334AR,Populus nigra 'Italica',False,Pg Valldaura,15.71,15.37,ok,,large,430714.92,4587830.93,430712.23,4587815.46,1.5,class
+0137336AR,Tipuana tipu,False,Pl República,24.93,15.64,ok,,large,430994.77,4587730.25,431014.26,4587745.79,1.5,class
+0137338AR,Ligustrum lucidum,False,Pg Valldaura,12.99,9.86,ok,,large,430563.21,4587689.23,430550.34,4587690.93,1.5,class
+0137339AR,Melia azedarach,False,C\ Guineueta,10.84,10.14,ok,,large,430371.04,4587955.17,430381.77,4587953.64,1.5,class
+0137341AR,Celtis sinensis,False,C\ Castor,17.08,16.65,ok,,large,430647.53,4588193.42,430663.39,4588199.75,1.5,class
+0137344AR,Brachychiton populneus,False,Pl República,,39.08,no_facade,,check,,,,,1.0,floor
+0137346AR,Platanus × acerifolia,True,Rbla Caçador,25.65,25.42,ok,,large,430721.42,4587944.16,430724.99,4587969.56,1.5,class
+0137350AR,Melia azedarach,False,C\ Guineueta,10.01,9.15,ok,,large,430383.57,4588001.21,430393.5,4587999.9,1.5,class
+0137351AR,Celtis australis,False,C\ Feliu i Codina,4.59,3.38,ok,,medium,430222.52,4587796.65,430217.98,4587797.29,1.0,class
+0137352AR,Melia azedarach,False,C\ Esquirol Volador,8.3,7.7,ok,,large,430860.49,4587832.06,430868.72,4587830.99,1.5,class
+0137354AR,Magnolia grandiflora,False,Pg Valldaura,29.82,13.02,ok,,large,430304.21,4587836.68,430331.6,4587848.46,1.5,class
+0137356AR,Grevillea robusta,False,Pg Valldaura,5.93,5.47,ok,,medium,430777.1,4587812.33,430776.3,4587806.46,1.0,class
+0137357AR,Celtis sinensis,False,Via Favència,20.54,19.82,ok,,large,430794.84,4588268.06,430784.96,4588286.07,1.5,class
+0137359AR,Robinia pseudoacacia 'Bessoniana',False,Rbla Caçador,17.08,5.12,ok,,large,430431.5,4588060.76,430421.9,4588046.64,1.5,class
+0137363AR,Morus nigra,False,Via Favència,,4.7,median,13.62,check,,,,,1.0,floor
+0137364AR,Firmiana simplex,False,C\ Esquirol Volador,,6.33,no_kerb,4.23,check,,,,,1.0,floor
+0137367AR,Tipuana tipu,False,Pl República,,30.79,no_facade,,check,,,,,1.0,floor
+0137369AR,Populus nigra 'Italica',False,Pg Valldaura,5.83,5.45,ok,,medium,430257.6,4587884.67,430256.8,4587878.9,1.0,class
+0137370AR,Ulmus minor 'Umbraculifera',False,C\ Esquirol Volador,2.36,1.48,ok,,none,430884.84,4587872.77,430882.5,4587873.09,1.0,floor
+0137372AR,Platanus × acerifolia,True,Pg Verdum,15.99,15.23,ok,,large,430991.55,4587695.79,431007.35,4587698.25,1.5,class
+0137373AR,Populus nigra 'Italica',False,Pg Valldaura,13.83,11.55,ok,,large,430125.35,4587862.99,430127.25,4587876.69,1.5,class
+0137374AR,Tipuana tipu,False,Pl República,,42.96,no_facade,,check,,,,,1.0,floor
+0137375AR,Populus nigra 'Italica',False,C\ Marne,,11.86,no_kerb,28.57,check,,,,,1.0,floor
+0137376AR,Celtis australis,False,Pl República,26.71,3.86,ok,,large,430994.77,4587730.25,431021.48,4587730.46,1.5,class
+0137378AR,Ligustrum lucidum,False,Pg Valldaura,13.15,10.4,ok,,large,430572.73,4587761.36,430559.7,4587763.08,1.5,class
+0137381AR,Populus nigra 'Italica',False,Pg Valldaura,15.12,12.72,ok,,large,430252.79,4587844.1,430254.75,4587859.08,1.5,class
+0137382AR,Celtis australis,False,C\ Feliu i Codina,14.06,12.73,ok,,large,430197.13,4587766.37,430207.47,4587775.9,1.5,class
+0137383AR,Platanus × acerifolia,True,C\ Castor,10.65,8.34,ok,,large,430739.49,4588064.52,430735.58,4588074.43,1.5,class
+0137387AR,Platanus × acerifolia,True,Rbla Caçador,9.44,8.88,ok,,large,430677.18,4587971.19,430678.46,4587980.54,1.5,class
+0137389AR,Grevillea robusta,False,Pg Valldaura,21.96,21.43,ok,,large,430982.68,4587731.89,430985.31,4587753.7,1.5,class
+0137390AR,Celtis australis,False,C\ Castor,14.98,13.5,ok,,large,430806.86,4587996.59,430801.29,4588010.5,1.5,class
+0137391AR,Styphnolobium japonicum,False,Rbla Caçador,7.03,8.0,ok,,large,430460.58,4588054.38,430458.32,4588047.73,1.5,class
+0137392AR,Platanus × acerifolia,True,C\ Doctor Pi i Molist,,8.25,no_kerb,,check,,,,,1.0,floor
+0137393AR,Celtis australis,False,Pl República,,11.87,median,22.52,check,,,,,1.0,floor
+0137394AR,Styphnolobium japonicum,False,C\ Marie Curie,25.87,25.34,ok,,large,430549.14,4587658.61,430555.64,4587633.57,1.5,class
+0137396AR,Populus alba 'Pyramidalis',False,C\ Lorena,18.34,14.05,ok,,large,430931.7,4587633.21,430949.51,4587637.6,1.5,class
+0137397AR,Platanus × acerifolia,True,Pg Fabra i Puig,,44.92,no_facade,,check,,,,,1.0,floor
+0137401AR,Grevillea robusta,False,Pg Valldaura,5.68,5.32,ok,,medium,430596.65,4587837.18,430595.89,4587831.55,1.0,class
+0137402AR,Grevillea robusta,False,Pg Valldaura,9.29,8.77,ok,,large,430944.56,4587791.07,430943.26,4587781.87,1.5,class
+0137404AR,Platanus × acerifolia,True,Pg Urrutia,,12.6,median,5.01,check,,,,,1.0,floor
+0137405AR,Grevillea robusta,False,Pg Valldaura,7.63,7.04,ok,,large,430813.35,4587807.36,430817.33,4587800.84,1.5,class
+0137406AR,Firmiana simplex,False,C\ Isard,11.36,10.05,ok,,large,430701.01,4587940.63,430705.82,4587930.34,1.5,class
+0137407AR,Celtis australis,False,Via Favència,,26.16,median,,check,,,,,1.0,floor
+0137408AR,Casuarina cunninghamiana,False,C\ Vilalba dels Arcs,6.8,6.25,ok,,large,430106.64,4587854.04,430100.57,4587850.98,1.5,class
+0137412AR,Melia azedarach,False,C\ Guineueta,6.37,5.75,ok,,large,430367.08,4587927.27,430373.38,4587926.38,1.5,class
+0137415AR,Magnolia grandiflora,False,Pg Valldaura,15.23,6.76,ok,,large,430378.37,4587826.61,430380.47,4587841.69,1.5,class
+0137416AR,Populus nigra 'Italica',False,Pg Valldaura,6.09,5.64,ok,,large,430190.47,4587894.08,430189.63,4587888.05,1.5,class
+0137417AR,Platanus × acerifolia,True,Pg Verdum,18.33,17.71,ok,,large,430869.63,4587534.6,430887.8,4587532.18,1.5,class
+0137418AR,Celtis sinensis,False,Via Favència,,9.26,median,2.65,check,,,,,1.0,floor
+0137419AR,Magnolia grandiflora,False,Pg Valldaura,8.28,6.38,ok,,large,430491.53,4587859.92,430487.97,4587852.43,1.5,class
+0137421AR,Magnolia grandiflora,False,Pg Valldaura,15.97,6.58,ok,,large,430455.52,4587816.96,430464.93,4587829.86,1.5,class
+0137424AR,Celtis australis,False,Pg Fabra i Puig,19.27,11.38,ok,,large,430300.6,4587809.83,430319.69,4587807.26,1.5,class
+0137425AR,Firmiana simplex,False,C\ Isard,6.15,4.94,ok,,large,430701.16,4587898.35,430704.85,4587903.26,1.5,class
+0137428AR,Grevillea robusta,False,Pg Valldaura,21.3,20.84,ok,,large,430125.08,4587925.0,430118.09,4587904.88,1.5,class
+0137431AR,Celtis australis,False,Rbla Caçador,15.96,14.83,ok,,large,430684.6,4587970.18,430699.5,4587975.89,1.5,class
+0137439AR,Magnolia grandiflora,False,Pg Valldaura,15.8,6.6,ok,,large,430606.09,4587795.69,430601.18,4587810.71,1.5,class
+0137441AR,Casuarina cunninghamiana,False,C\ Vilalba dels Arcs,6.24,5.64,ok,,large,430136.46,4587804.2,430131.4,4587800.55,1.5,class
+0137443AR,Morus nigra,False,Via Favència,,9.64,median,13.62,check,,,,,1.0,floor
+0137451AR,Celtis australis,False,Pg Fabra i Puig,11.27,3.94,ok,,large,430297.46,4587787.25,430308.62,4587785.67,1.5,class
+0137452AR,Magnolia grandiflora,False,Pg Valldaura,15.92,7.58,ok,,large,430625.61,4587791.18,430627.61,4587806.97,1.5,class
+0137454AR,Platanus × acerifolia,True,Pg Fabra i Puig,8.14,7.74,ok,,large,430235.06,4587675.68,430243.02,4587673.97,1.5,class
+0137455AR,Populus nigra 'Italica',False,C\ Vilalba dels Arcs,,2.98,no_kerb,35.79,check,,,,,1.0,floor
+0137457AR,Melia azedarach,False,C\ Guineueta,3.3,3.01,ok,,small,430409.26,4588015.8,430405.99,4588016.25,1.0,class
+0137460AR,Populus nigra 'Italica',False,Pg Valldaura,16.0,13.53,ok,,large,430425.36,4587820.29,430432.96,4587834.37,1.5,class
+0137461AR,Platanus × acerifolia,True,C\ Castor,5.45,4.4,ok,,medium,430695.35,4588135.72,430700.47,4588133.84,1.0,class
+0137462AR,Populus nigra 'Italica',False,C\ Marne,9.51,4.21,ok,,large,430508.43,4587771.31,430499.0,4587772.55,1.5,class
+0137464AR,Platanus × acerifolia,True,Rbla Caçador,5.01,4.57,ok,,medium,430453.22,4588024.41,430453.89,4588029.38,1.0,class
+0137465AR,Platanus × acerifolia,True,C\ Castor,,7.59,median,,check,,,,,1.0,floor
+0137468AR,Styphnolobium japonicum,False,C\ Gasela,5.83,5.33,ok,,medium,430541.1,4587978.74,430546.88,4587977.93,1.0,class
+0137470AR,Populus nigra 'Italica',False,C\ Marne,,21.0,median,24.44,check,,,,,1.0,floor
+0137472AR,Grevillea robusta,False,Pg Valldaura,16.32,16.01,ok,,large,430758.13,4587825.46,430756.06,4587809.27,1.5,class
+0137473AR,Tipuana tipu,False,Pl República,23.78,9.91,ok,,large,430994.77,4587730.25,431017.79,4587736.2,1.5,class
+0137474AR,Populus nigra 'Italica',False,Pg Valldaura,14.54,12.71,ok,,large,430455.52,4587816.96,430461.06,4587830.41,1.5,class
+0137475AR,Prunus cerasifera 'Pissardii',False,C\ Marie Curie,2.94,2.54,ok,,small,430417.73,4587655.66,430417.34,4587652.75,1.0,class
+0137478AR,Melia azedarach,False,C\ Guineueta,,6.85,median,2.19,check,,,,,1.0,floor
+0137481AR,Celtis sinensis,False,C\ Castor,18.53,18.14,ok,,large,430647.53,4588193.42,430665.98,4588195.14,1.5,class
+0137486AR,Jacaranda mimosifolia,False,C\ Isard,15.87,6.22,ok,,large,430714.92,4587830.93,430710.46,4587815.7,1.5,class
+0137487AR,Styphnolobium japonicum,False,Via Favència,,10.07,no_kerb,,check,,,,,1.0,floor
+0137488AR,Populus nigra 'Italica',False,C\ Vilalba dels Arcs,,3.06,no_kerb,35.54,check,,,,,1.0,floor
+0137493AR,Platanus × acerifolia,True,Pg Fabra i Puig,,27.9,median,,check,,,,,1.0,floor
+0137495AR,Ulmus pumila,False,C\ Gasela,7.92,5.85,ok,,large,430539.06,4588121.31,430541.43,4588113.75,1.5,class
+0137497AR,Magnolia grandiflora,False,Pg Valldaura,15.0,6.21,ok,,large,430423.67,4587820.52,430425.66,4587835.39,1.5,class
+0137498AR,Platanus × acerifolia,True,C\ Doctor Pi i Molist,,21.14,no_kerb,,check,,,,,1.0,floor
+0137499AR,Magnolia grandiflora,False,Pg Valldaura,13.07,5.39,ok,,large,430689.05,4587785.36,430690.87,4587798.3,1.5,class
+0137503AR,Populus nigra 'Italica',False,Pg Valldaura,10.52,8.69,ok,,large,430393.03,4587865.52,430401.05,4587858.71,1.5,class
+0137505AR,Magnolia grandiflora,False,Pg Valldaura,14.27,5.52,ok,,large,430246.92,4587845.85,430249.91,4587859.8,1.5,class
+0137506AR,Ulmus pumila,False,Via Favència,,8.12,median,,check,,,,,1.0,floor
+0137507AR,Celtis sinensis,False,Via Favència,22.14,20.38,ok,,large,430600.15,4588181.04,430613.8,4588198.46,1.5,class
+0137508AR,Pyrus calleryana 'Chanticleer',False,Pg Valldaura,3.4,3.06,ok,,small,430573.37,4587778.06,430572.9,4587774.69,1.0,class
+0137509AR,Styphnolobium japonicum,False,C\ Gasela,16.86,13.14,ok,,large,430665.37,4588147.92,430675.81,4588161.16,1.5,class
+0137514AR,Phytolacca dioica,False,C\ Vilalba dels Arcs,,17.78,median,,check,,,,,1.0,floor
+0137516AR,Gleditsia triacanthos,False,Via Favència,22.65,5.62,ok,,large,430505.17,4588125.24,430482.73,4588128.31,1.5,class
+0137518AR,Platanus × acerifolia,True,Pg Urrutia,,15.93,median,6.53,check,,,,,1.0,floor
+0137519AR,Robinia pseudoacacia,False,C\ Gasela,10.24,7.1,ok,,large,430665.37,4588147.92,430670.87,4588156.56,1.5,class
+0137520AR,Magnolia grandiflora,False,Pg Valldaura,13.08,5.21,ok,,large,430683.02,4587786.2,430684.85,4587799.15,1.5,class
+0137524AR,Ligustrum lucidum,False,Pg Valldaura,13.04,10.13,ok,,large,430566.51,4587714.21,430553.58,4587715.91,1.5,class
+0137528AR,Populus nigra 'Italica',False,C\ Gasela,4.42,3.19,ok,,medium,430552.59,4588117.38,430553.19,4588121.76,1.0,class
+0137529AR,Celtis australis,False,C\ Castor,8.6,6.98,ok,,large,430841.48,4587967.49,430838.14,4587975.42,1.5,class
+0137530AR,Casuarina cunninghamiana,False,C\ Vilalba dels Arcs,6.0,5.39,ok,,medium,430190.47,4587747.34,430186.49,4587742.84,1.0,class
+0137531AR,Populus nigra 'Italica',False,Pg Valldaura,6.1,5.02,ok,,large,430379.75,4587867.38,430376.66,4587862.11,1.5,class
+0137532AR,Jacaranda mimosifolia,False,C\ Isard,11.63,10.13,ok,,large,430701.16,4587898.35,430705.11,4587909.29,1.5,class
+0137535AR,Platanus × acerifolia,True,Pg Fabra i Puig,,23.13,median,,check,,,,,1.0,floor
+0137536AR,Magnolia grandiflora,False,Pg Valldaura,15.22,6.69,ok,,large,430372.34,4587827.44,430374.43,4587842.52,1.5,class
+0137537AR,Magnolia grandiflora,False,Pg Valldaura,14.09,5.63,ok,,large,430563.18,4587801.98,430565.13,4587815.95,1.5,class
+0137538AR,Brachychiton populneus,False,Pl República,,30.67,no_facade,,check,,,,,1.0,floor
+0137539AR,Firmiana simplex,False,Rbla Caçador,10.37,10.77,ok,,large,430905.3,4587876.88,430906.71,4587887.15,1.5,class
+0137543AR,Morus nigra,False,C\ Castor,9.33,2.23,ok,,large,430652.82,4588165.37,430660.27,4588159.76,1.5,class
+0137545AR,Platanus × acerifolia,True,C\ Castor,17.61,14.76,ok,,large,430743.48,4588056.39,430758.73,4588047.59,1.5,class
+0137546AR,Prunus cerasifera 'Pissardii',False,C\ Marie Curie,8.85,6.78,ok,,large,430392.05,4587659.24,430383.38,4587657.51,1.5,class
+0137547AR,Populus nigra 'Italica',False,Pg Valldaura,5.74,5.3,ok,,medium,430673.54,4587826.4,430671.32,4587821.12,1.0,class
+0137549AR,Populus nigra 'Italica',False,Pg Valldaura,14.07,12.2,ok,,large,430447.21,4587818.15,430449.0,4587832.11,1.5,class
+0137550AR,Firmiana simplex,False,Rbla Caçador,11.22,7.43,ok,,large,430897.43,4587877.96,430898.95,4587889.07,1.5,class
+0137554AR,Brachychiton populneus,False,Pl República,23.6,21.55,ok,,large,430994.77,4587730.25,431017.33,4587737.17,1.5,class
+0137557AR,Morus nigra,False,C\ Gasela,,5.62,no_kerb,,check,,,,,1.0,floor
+0137560AR,Styphnolobium japonicum,False,C\ Gasela,4.64,3.7,ok,,medium,430659.55,4588140.76,430655.01,4588141.72,1.0,class
+0137562AR,Magnolia grandiflora,False,Pg Valldaura,,9.84,no_kerb,,check,,,,,1.0,floor
+0137564AR,Styphnolobium japonicum,False,Pg Verdum,24.11,4.11,ok,,large,430896.31,4587579.89,430920.21,4587576.73,1.5,class
+0137568AR,Melia azedarach,False,Via Favència,,9.35,median,20.12,check,,,,,1.0,floor
+0137571AR,Magnolia grandiflora,False,Pg Valldaura,13.9,5.17,ok,,large,430101.76,4587866.28,430103.67,4587880.04,1.5,class
+0137574AR,Brachychiton populneus,False,Pg Verdum,17.73,8.04,ok,,large,430892.51,4587566.62,430910.1,4587564.39,1.5,class
+0137576AR,Ulmus pumila,False,C\ Gasela,4.52,3.59,ok,,medium,430601.52,4588133.53,430602.13,4588138.0,1.0,class
+0137578AR,Tipuana tipu,False,Pl República,27.26,21.02,ok,,large,430994.5,4587728.3,431021.49,4587724.5,1.5,class
+0137582AR,Casuarina cunninghamiana,False,C\ Vilalba dels Arcs,12.47,11.41,ok,,large,430113.64,4587842.27,430111.92,4587829.92,1.5,class
+0137583AR,Populus nigra 'Italica',False,Pg Valldaura,5.92,5.3,ok,,medium,430229.05,4587888.68,430228.23,4587882.82,1.0,class
+0137584AR,Brachychiton populneus,False,Pg Verdum,12.97,3.99,ok,,large,430988.5,4587690.92,430999.49,4587684.03,1.5,class
+0137586AR,Populus nigra 'Italica',False,Pg Valldaura,13.73,12.92,ok,,large,430327.37,4587882.97,430325.45,4587869.38,1.5,class
+0137587AR,Populus alba 'Pyramidalis',False,C\ Lorena,22.57,15.53,ok,,large,430954.3,4587663.22,430951.15,4587640.87,1.5,class
+0137590AR,Populus nigra 'Italica',False,Pg Valldaura,13.84,11.5,ok,,large,430122.59,4587863.37,430124.5,4587877.08,1.5,class
+0137592AR,Platanus × acerifolia,True,C\ Artesania,,12.97,median,,check,,,,,1.0,floor
+0137593AR,Acer campestre,False,Rbla Caçador,,12.98,median,8.75,check,,,,,1.0,floor
+0137594AR,Firmiana simplex,False,C\ Isard,8.5,7.98,ok,,large,430695.02,4587842.73,430702.68,4587846.43,1.5,class
+0137595AR,Grevillea robusta,False,Pg Valldaura,13.29,12.89,ok,,large,430880.71,4587805.27,430878.92,4587792.11,1.5,class
+0137598AR,Grevillea robusta,False,Pg Valldaura,9.14,8.7,ok,,large,430262.23,4587884.03,430268.4,4587877.29,1.5,class
+0137599AR,Robinia pseudoacacia,False,Via Favència,,8.85,no_kerb,,check,,,,,1.0,floor
+0137600AR,Firmiana simplex,False,C\ Isard,4.71,4.1,ok,,medium,430701.58,4587944.8,430706.24,4587944.17,1.0,class
+0137603AR,Magnolia grandiflora,False,Pg Valldaura,15.52,7.05,ok,,large,430286.95,4587838.9,430288.93,4587854.29,1.5,class
+0137605AR,Celtis sinensis,False,Via Favència,5.77,5.13,ok,,medium,430565.32,4588167.35,430566.1,4588173.07,1.0,class
+0137606AR,Platanus × acerifolia,True,C\ Castor,15.33,13.85,ok,,large,430839.53,4587966.67,430833.58,4587980.79,1.5,class
+0137607AR,Brachychiton populneus,False,Pg Verdum,22.28,11.95,ok,,large,430929.75,4587619.71,430951.8,4587616.52,1.5,class
+0137609AR,Platanus × acerifolia,True,Pg Verdum,15.27,14.79,ok,,large,430858.02,4587504.72,430863.73,4587490.55,1.5,class
+0137613AR,Magnolia grandiflora,False,Pg Valldaura,27.37,11.22,ok,,large,430628.67,4587790.8,430651.7,4587805.59,1.5,class
+0137614AR,Brachychiton populneus,False,C\ Alsàcia,4.49,4.18,ok,,medium,430751.29,4587682.64,430746.83,4587683.24,1.0,class
+0137615AR,Magnolia grandiflora,False,Pg Valldaura,15.11,6.66,ok,,large,430259.04,4587843.2,430261.17,4587858.16,1.5,class
+0137616AR,Platanus × acerifolia,True,Pg Fabra i Puig,,33.53,no_facade,,check,,,,,1.0,floor
+0137617AR,Melia azedarach,False,C\ Guineueta,11.64,10.89,ok,,large,430372.06,4587962.07,430383.36,4587959.28,1.5,class
+0137618AR,Populus nigra 'Italica',False,Pg Valldaura,13.0,10.45,ok,,large,430416.62,4587862.33,430404.28,4587858.26,1.5,class
+0137619AR,Platanus × acerifolia,True,Rbla Caçador,19.95,19.48,ok,,large,430803.49,4587904.1,430806.12,4587923.87,1.5,class
+0137621AR,Brachychiton populneus,False,C\ Alsàcia,4.51,4.05,ok,,medium,430755.62,4587714.79,430751.15,4587715.39,1.0,class
+0137622AR,Platanus × acerifolia,True,Rbla Caçador,11.82,10.76,ok,,large,430774.0,4587934.2,430772.08,4587945.86,1.5,class
+0137624AR,Magnolia grandiflora,False,Pg Valldaura,13.8,5.17,ok,,large,430140.55,4587860.87,430142.45,4587874.54,1.5,class
+0137628AR,Morus nigra,False,C\ Gasela,,6.61,no_kerb,,check,,,,,1.0,floor
+0137629AR,Platanus × acerifolia,True,C\ Castor,,10.22,median,,check,,,,,1.0,floor
+0137630AR,Brachychiton populneus,False,C\ Alsàcia,4.51,4.17,ok,,medium,430755.06,4587710.68,430750.59,4587711.29,1.0,class
+0137632AR,Grevillea robusta,False,Pg Valldaura,6.17,5.71,ok,,large,430909.67,4587793.6,430908.83,4587787.49,1.5,class
+0137634AR,Melia azedarach,False,C\ Guineueta,4.03,2.95,ok,,medium,430395.07,4588028.41,430399.07,4588027.85,1.0,class
+0137636AR,Grevillea robusta,False,Pg Valldaura,7.46,6.74,ok,,large,430609.47,4587835.41,430613.51,4587829.14,1.5,class
+0137638AR,Celtis sinensis,False,Via Favència,,70.94,no_facade,,check,,,,,1.0,floor
+0137639AR,Populus nigra 'Italica',False,Pg Valldaura,14.95,14.04,ok,,large,430691.55,4587828.91,430700.68,4587817.07,1.5,class
+0137644AR,Melia azedarach,False,Via Favència,,8.02,median,,check,,,,,1.0,floor
+0137649AR,Platanus × acerifolia,True,Pg Urrutia,11.27,10.67,ok,,large,430663.98,4587374.15,430662.03,4587363.05,1.5,class
+0137650AR,Melia azedarach,False,C\ Gasela,,5.63,median,22.8,check,,,,,1.0,floor
+0137651AR,Magnolia grandiflora,False,Pg Valldaura,13.76,5.32,ok,,large,430169.15,4587856.89,430171.04,4587870.52,1.5,class
+0137653AR,Firmiana simplex,False,C\ Isard,11.12,8.75,ok,,large,430718.39,4587934.28,430715.46,4587923.56,1.5,class
+0137655AR,Brachychiton populneus,False,C\ Alsàcia,4.51,4.14,ok,,medium,430752.97,4587695.12,430748.5,4587695.72,1.0,class
+0137657AR,Platanus × acerifolia,True,Rbla Caçador,14.31,13.73,ok,,large,430818.81,4587902.06,430823.51,4587915.57,1.5,class
+0137658AR,Magnolia grandiflora,False,Pg Valldaura,14.2,5.5,ok,,large,430241.04,4587846.77,430243.22,4587860.8,1.5,class
+0137660AR,Platanus × acerifolia,True,Pg Urrutia,,17.43,median,6.92,check,,,,,1.0,floor
+0137662AR,Platanus × acerifolia,True,C\ Artesania,,12.92,median,,check,,,,,1.0,floor
+0137664AR,Magnolia grandiflora,False,Pg Valldaura,13.82,5.06,ok,,large,430129.41,4587862.42,430131.32,4587876.11,1.5,class
+0137666AR,Grevillea robusta,False,Pg Valldaura,14.1,12.63,ok,,large,430608.95,4587795.28,430610.93,4587809.24,1.5,class
+0137668AR,Grevillea robusta,False,Pg Valldaura,9.64,9.03,ok,,large,430672.39,4587827.9,430664.76,4587822.02,1.5,class
+0137670AR,Platanus × acerifolia,True,C\ Doctor Pi i Molist,,10.08,no_kerb,,check,,,,,1.0,floor
+0137672AR,Fraxinus ornus OBELISK® 'Paus Johannes-Paulus II',False,C\ Marne,13.48,10.88,ok,,large,430457.77,4587658.87,430471.2,4587657.68,1.5,class
+0137677AR,Melia azedarach,False,C\ Guineueta,2.98,2.6,ok,,small,430410.03,4588021.29,430407.08,4588021.7,1.0,class
+0137681AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,Rbla Caçador,,14.78,median,8.78,check,,,,,1.0,floor
+0137682AR,Populus nigra 'Italica',False,Pg Valldaura,14.57,13.58,ok,,large,430765.94,4587773.35,430767.92,4587787.79,1.5,class
+0137683AR,Brachychiton populneus,False,Pg Verdum,13.49,5.07,ok,,large,430925.24,4587601.85,430938.59,4587599.91,1.5,class
+0137686AR,Magnolia grandiflora,False,Pg Valldaura,15.79,10.52,ok,,large,430238.48,4587847.16,430226.34,4587857.26,1.5,class
+0137689AR,Platanus × acerifolia,True,C\ Marie Curie,4.7,3.69,ok,,medium,430525.97,4587641.71,430527.94,4587637.45,1.0,class
+0137690AR,Platanus × acerifolia,True,Pg Verdum,11.85,11.38,ok,,large,430839.75,4587470.98,430851.51,4587469.46,1.5,class
+0137691AR,Platanus × acerifolia,True,C\ Castor,5.48,4.92,ok,,medium,430743.39,4588056.59,430748.47,4588058.65,1.0,class
+0137692AR,Populus nigra 'Italica',False,C\ Marne,6.81,4.36,ok,,large,430478.03,4587750.56,430484.78,4587749.64,1.5,class
+0137695AR,Casuarina cunninghamiana,False,C\ Vilalba dels Arcs,6.16,5.76,ok,,large,430172.78,4587763.01,430168.38,4587758.69,1.5,class
+0137698AR,Celtis sinensis,False,Via Favència,,47.95,no_facade,,check,,,,,1.0,floor
+0137699AR,Robinia pseudoacacia 'Bessoniana',False,Rbla Caçador,26.01,4.57,ok,,large,430425.19,4588067.88,430401.89,4588079.44,1.5,class
+0137700AR,Styphnolobium japonicum,False,C\ Gasela,,17.04,median,,check,,,,,1.0,floor
+0137701AR,Platanus × acerifolia,True,C\ Artesania,,12.65,median,,check,,,,,1.0,floor
+0137703AR,Platanus × acerifolia,True,C\ Castor,,14.13,median,,check,,,,,1.0,floor
+0137706AR,Styphnolobium japonicum,False,C\ Gasela,,13.19,median,,check,,,,,1.0,floor
+0137707AR,Robinia pseudoacacia 'Bessoniana',False,C\ Gasela,8.95,5.68,ok,,large,430485.73,4588073.19,430484.5,4588064.33,1.5,class
+0137708AR,Platanus × acerifolia,True,C\ Castor,3.13,2.35,ok,,small,430693.62,4588139.89,430696.52,4588141.09,1.0,class
+0137710AR,Populus nigra 'Italica',False,Pg Valldaura,13.79,11.58,ok,,large,430144.86,4587860.27,430146.77,4587873.93,1.5,class
+0137711AR,Magnolia grandiflora,False,Pg Valldaura,,7.25,no_kerb,,check,,,,,1.0,floor
+0137713AR,Magnolia grandiflora,False,Pg Valldaura,14.16,5.22,ok,,large,430203.29,4587851.91,430205.39,4587865.91,1.5,class
+0137716AR,Celtis sinensis,False,Via Favència,,20.6,median,19.65,check,,,,,1.0,floor
+0137717AR,Gleditsia triacanthos,False,C\ Gasela,,8.67,median,26.88,check,,,,,1.0,floor
+0137721AR,Robinia pseudoacacia,False,C\ Gasela,,11.03,median,,check,,,,,1.0,floor
+0137725AR,Tipuana tipu,False,Pl República,,26.57,no_kerb,,check,,,,,1.0,floor
+0137726AR,Platanus × acerifolia,True,C\ Doctor Pi i Molist,,19.14,no_kerb,,check,,,,,1.0,floor
+0137728AR,Populus nigra 'Italica',False,Pg Valldaura,20.4,16.99,ok,,large,430304.21,4587836.68,430319.6,4587850.07,1.5,class
+0137729AR,Ulmus pumila,False,C\ Gasela,,10.03,median,,check,,,,,1.0,floor
+0137731AR,Populus nigra 'Italica',False,C\ Marne,9.71,4.17,ok,,large,430474.78,4587726.68,430484.41,4587725.37,1.5,class
+0137732AR,Firmiana simplex,False,C\ Isard,5.67,5.04,ok,,medium,430698.16,4587878.29,430703.83,4587878.63,1.0,class
+0137733AR,Gleditsia triacanthos,False,C\ Gasela,,8.7,median,26.87,check,,,,,1.0,floor
+0137735AR,Grevillea robusta,False,Pg Valldaura,,31.15,no_facade,,check,,,,,1.0,floor
+0137736AR,Populus nigra 'Italica',False,Pg Valldaura,6.09,5.59,ok,,large,430242.26,4587886.82,430239.76,4587881.26,1.5,class
+0137741AR,Pyrus calleryana 'Chanticleer',False,Pg Valldaura,,7.25,median,,check,,,,,1.0,floor
+0137743AR,Populus nigra 'Italica',False,Pg Valldaura,13.77,11.59,ok,,large,430160.05,4587858.16,430161.95,4587871.8,1.5,class
+0137744AR,Cercis siliquastrum,False,Via Favència,,5.34,no_kerb,,check,,,,,1.0,floor
+0137745AR,Grevillea robusta,False,Pg Valldaura,8.92,8.36,ok,,large,430979.5,4587784.07,430978.29,4587775.24,1.5,class
+0137747AR,Magnolia grandiflora,False,Pg Valldaura,15.49,6.08,ok,,large,430559.84,4587802.45,430555.25,4587817.25,1.5,class
+0137748AR,Melia azedarach,False,C\ Guineueta,4.31,3.82,ok,,medium,430365.55,4587916.4,430369.82,4587915.8,1.0,class
+0137749AR,Celtis australis,False,Pg Fabra i Puig,,26.52,no_kerb,,check,,,,,1.0,floor
+0137750AR,Ligustrum lucidum,False,C\ Castor,,36.63,no_facade,,check,,,,,1.0,floor
+0137752AR,Firmiana simplex,False,C\ Isard,,15.28,median,,check,,,,,1.0,floor
+0137753AR,Celtis australis,False,Pl República,,18.0,no_kerb,,check,,,,,1.0,floor
+0137754AR,Grevillea robusta,False,Pg Valldaura,8.56,8.07,ok,,large,430281.01,4587881.4,430273.98,4587876.52,1.5,class
+0137755AR,Robinia pseudoacacia 'Bessoniana',False,C\ Gasela,3.31,2.96,ok,,small,430552.4,4587857.36,430549.12,4587857.82,1.0,class
+0137759AR,Populus nigra 'Italica',False,Pg Valldaura,15.0,12.84,ok,,large,430424.38,4587820.43,430426.37,4587835.29,1.5,class
+0137760AR,Brachychiton populneus,False,Pg Verdum,18.26,5.5,ok,,large,430908.93,4587588.22,430915.43,4587571.16,1.5,class
+0137763AR,Melia azedarach,False,C\ Gasela,10.88,5.06,ok,,large,430589.74,4588127.68,430588.28,4588116.9,1.5,class
+0137766AR,Populus alba,False,C\ Lorena,,17.43,median,,check,,,,,1.0,floor
+0137767AR,Brachychiton populneus,False,C\ Alsàcia,4.54,4.24,ok,,medium,430760.33,4587749.75,430755.83,4587750.36,1.0,class
+0137771AR,Celtis australis,False,Pl República,,43.96,no_facade,,check,,,,,1.0,floor
+0137772AR,Brachychiton populneus,False,C\ Alsàcia,4.54,4.19,ok,,medium,430760.87,4587753.8,430756.37,4587754.41,1.0,class
+0137773AR,Populus x canadensis,False,C\ Gasela,,11.36,no_kerb,,check,,,,,1.0,floor
+0137774AR,Melia azedarach,False,C\ Esquirol Volador,,9.82,median,4.05,check,,,,,1.0,floor
+0137776AR,Firmiana simplex,False,C\ Isard,8.54,8.21,ok,,large,430723.61,4587912.43,430715.15,4587913.62,1.5,class
+0137784AR,Prunus cerasifera 'Pissardii',False,C\ Marie Curie,24.17,23.65,ok,,large,430549.14,4587658.61,430549.39,4587634.45,1.5,class
+0137785AR,Platanus × acerifolia,True,Rbla Caçador,8.84,8.43,ok,,large,430684.41,4587970.21,430685.6,4587978.98,1.5,class
+0137786AR,Platanus × acerifolia,True,Pg Fabra i Puig,13.32,12.42,ok,,large,430235.06,4587675.68,430247.0,4587681.59,1.5,class
+0137788AR,Tipuana tipu,False,Pl República,,34.36,no_facade,,check,,,,,1.0,floor
+0137789AR,Cupressus sempervirens,False,C\ Mont-ral,,12.32,median,,check,,,,,1.0,floor
+0137792AR,Tipuana tipu,False,Pl República,26.59,17.14,ok,,large,430994.77,4587730.25,431021.36,4587730.65,1.5,class
+0137793AR,Styphnolobium japonicum,False,C\ Castor,18.89,3.38,ok,,large,430647.53,4588193.42,430666.4,4588194.39,1.5,class
+0137794AR,Brachychiton populneus,False,Pl República,,32.8,no_facade,,check,,,,,1.0,floor
+0137795AR,Populus nigra 'Italica',False,Pg Valldaura,14.39,12.02,ok,,large,430800.02,4587768.66,430801.98,4587782.91,1.5,class
+0137800AR,Grevillea robusta,False,Pg Valldaura,5.47,5.18,ok,,medium,430852.38,4587801.48,430851.63,4587796.06,1.0,class
+0137805AR,Grevillea robusta,False,Pg Valldaura,10.02,9.71,ok,,large,430960.32,4587788.83,430960.46,4587778.81,1.5,class
+0137807AR,Celtis sinensis,False,Via Favència,,29.69,no_kerb,,check,,,,,1.0,floor
+0137811AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,Rbla Caçador,6.3,6.19,ok,,large,430469.34,4588019.51,430470.21,4588025.74,1.5,class
+0137814AR,Celtis sinensis,False,Pl República,,17.29,no_kerb,,check,,,,,1.0,floor
+0137815AR,Grevillea robusta,False,Pg Valldaura,15.28,14.69,ok,,large,430990.75,4587782.54,431000.47,4587770.74,1.5,class
+0137816AR,Brachychiton populneus,False,Pg Verdum,27.58,16.13,ok,,large,430931.05,4587628.69,430958.34,4587624.74,1.5,class
+0137817AR,Platanus × acerifolia,True,C\ Doctor Pi i Molist,,7.76,no_kerb,,check,,,,,1.0,floor
+0137818AR,Melia azedarach,False,C\ Gasela,14.36,5.23,ok,,large,430520.53,4588095.36,430517.21,4588081.38,1.5,class
+0137819AR,Populus nigra 'Italica',False,Pg Valldaura,18.41,17.09,ok,,large,430734.77,4587773.65,430737.17,4587791.9,1.5,class
+0137820AR,Grevillea robusta,False,Pg Valldaura,16.21,13.83,ok,,large,430379.11,4587826.5,430386.73,4587840.81,1.5,class
+0137823AR,Platanus × acerifolia,True,Rbla Caçador,4.73,4.65,ok,,medium,430490.6,4588016.54,430491.25,4588021.22,1.0,class
+0137824AR,Tipuana tipu,False,Pl República,,40.5,no_facade,,check,,,,,1.0,floor
+0137825AR,Magnolia grandiflora,False,Pg Valldaura,,24.87,no_kerb,,check,,,,,1.0,floor
+0137826AR,Magnolia grandiflora,False,Pg Valldaura,15.31,7.0,ok,,large,430464.18,4587814.51,430466.34,4587829.66,1.5,class
+0137828AR,Celtis sinensis,False,Via Favència,14.4,13.63,ok,,large,430477.63,4588121.51,430463.37,4588123.5,1.5,class
+0137830AR,Robinia pseudoacacia,False,Rbla Caçador,17.17,3.79,ok,,large,430425.63,4588064.75,430415.98,4588050.55,1.5,class
+0137833AR,Populus nigra 'Italica',False,Pg Valldaura,4.21,4.26,ok,,medium,430606.47,4587774.23,430606.01,4587770.05,1.0,class
+0137835AR,Celtis australis,False,Pg Fabra i Puig,22.13,14.05,ok,,large,430301.75,4587818.4,430323.68,4587815.45,1.5,class
+0137837AR,Platanus × acerifolia,True,Pg Urrutia,15.45,13.96,ok,,large,430744.85,4587374.68,430760.2,4587372.89,1.5,class
+0137838AR,Magnolia grandiflora,False,Pg Valldaura,,11.35,median,13.1,check,,,,,1.0,floor
+0137839AR,Celtis sinensis,False,C\ Castor,23.59,22.35,ok,,large,430647.53,4588193.42,430654.24,4588216.03,1.5,class
+0137840AR,Styphnolobium japonicum,False,C\ Castor,23.06,8.69,ok,,large,430650.66,4588176.94,430667.13,4588193.08,1.5,class
+0137845AR,Fraxinus ornus OBELISK® 'Paus Johannes-Paulus II',False,C\ Marne,7.15,4.27,ok,,large,430473.88,4587720.03,430480.97,4587719.06,1.5,class
+0137846AR,Magnolia grandiflora,False,Pg Valldaura,18.24,10.36,ok,,large,430716.89,4587776.28,430719.66,4587794.31,1.5,class
+0137847AR,Grevillea robusta,False,Pg Valldaura,6.76,5.4,ok,,large,430455.66,4587856.87,430451.25,4587851.76,1.5,class
+0137849AR,Platanus × acerifolia,True,Pg Urrutia,8.74,8.17,ok,,large,430623.42,4587380.3,430622.31,4587371.63,1.5,class
+0137861AR,Platanus × acerifolia,True,Pg Verdum,19.23,18.13,ok,,large,430991.47,4587706.82,431010.51,4587704.14,1.5,class
+0137863AR,Morus nigra,False,Via Favència,,5.02,median,13.59,check,,,,,1.0,floor
+0137864AR,Grevillea robusta,False,Pg Valldaura,14.51,12.6,ok,,large,430776.98,4587771.83,430778.96,4587786.2,1.5,class
+0137865AR,Populus nigra 'Italica',False,Pg Valldaura,,9.35,median,,check,,,,,1.0,floor
+0137866AR,Magnolia grandiflora,False,Pg Valldaura,15.4,6.82,ok,,large,430298.67,4587837.4,430300.63,4587852.67,1.5,class
+0137867AR,Tipuana tipu,False,Pl República,24.23,11.09,ok,,large,430994.77,4587730.25,431011.06,4587748.18,1.5,class
+0137871AR,Celtis sinensis,False,Via Favència,,23.03,median,,check,,,,,1.0,floor
+0137872AR,Celtis sinensis,False,Via Favència,,53.01,no_facade,,check,,,,,1.0,floor
+0137873AR,Tipuana tipu,False,Pl República,,49.04,no_facade,,check,,,,,1.0,floor
+0137874AR,Morus nigra,False,Via Favència,,5.18,median,13.6,check,,,,,1.0,floor
+0137876AR,Casuarina cunninghamiana,False,C\ Vilalba dels Arcs,6.09,5.68,ok,,large,430184.2,4587752.88,430180.16,4587748.32,1.5,class
+0137878AR,Fraxinus ornus OBELISK® 'Paus Johannes-Paulus II',False,C\ Marne,16.04,12.57,ok,,large,430495.34,4587665.73,430487.19,4587651.92,1.5,class
+0137879AR,Magnolia grandiflora,False,Pg Valldaura,15.14,6.54,ok,,large,430252.79,4587844.1,430254.22,4587859.16,1.5,class
+0137882AR,Styphnolobium japonicum,False,C\ Gasela,6.07,5.49,ok,,large,430556.58,4587886.93,430550.57,4587887.78,1.5,class
+0137883AR,Casuarina cunninghamiana,False,C\ Vilalba dels Arcs,6.67,6.09,ok,,large,430100.39,4587866.47,430094.13,4587864.16,1.5,class
+0137885AR,Populus nigra 'Italica',False,Pg Valldaura,11.53,9.33,ok,,large,430379.75,4587867.38,430369.02,4587863.18,1.5,class
+0137887AR,Ligustrum lucidum,False,C\ Castor,,33.52,no_facade,19.4,check,,,,,1.0,floor
+0137888AR,Magnolia grandiflora,False,Pg Valldaura,13.88,5.5,ok,,large,430107.6,4587865.46,430109.52,4587879.21,1.5,class
+0137893AR,Populus nigra 'Italica',False,Pg Valldaura,20.27,19.21,ok,,large,430469.59,4587813.74,430484.88,4587827.05,1.5,class
+0137895AR,Celtis australis,False,Pl República,,50.01,no_facade,,check,,,,,1.0,floor
+0137896AR,Populus nigra 'Italica',False,Pg Valldaura,11.62,11.07,ok,,large,430551.53,4587849.92,430549.9,4587838.42,1.5,class
+0137897AR,Magnolia grandiflora,False,Pg Valldaura,28.95,19.61,ok,,large,430982.68,4587731.89,430968.3,4587757.02,1.5,class
+0137898AR,Platanus × acerifolia,True,C\ Artesania,,12.8,median,,check,,,,,1.0,floor
+0137899AR,Grevillea robusta,False,Pg Valldaura,14.09,12.55,ok,,large,430453.32,4587817.28,430455.32,4587831.22,1.5,class
+0137903AR,Ulmus pumila,False,Via Favència,,9.08,median,,check,,,,,1.0,floor
+0137906AR,Platanus × acerifolia,True,Pg Urrutia,9.33,8.72,ok,,large,430592.57,4587392.2,430591.44,4587382.94,1.5,class
+0137907AR,Magnolia grandiflora,False,Pg Valldaura,13.12,5.12,ok,,large,430666.17,4587788.57,430667.99,4587801.56,1.5,class
+0137909AR,Magnolia grandiflora,False,Pg Valldaura,19.08,8.3,ok,,large,430379.11,4587826.5,430392.6,4587839.99,1.5,class
+0137910AR,Ligustrum lucidum,False,Pg Valldaura,13.12,10.24,ok,,large,430571.17,4587749.56,430558.17,4587751.28,1.5,class
+0137911AR,Melia azedarach,False,C\ Guineueta,8.24,7.71,ok,,large,430368.61,4587938.14,430376.77,4587936.99,1.5,class
+0137913AR,Grevillea robusta,False,Pg Valldaura,11.72,11.24,ok,,large,430990.75,4587782.54,430995.39,4587771.77,1.5,class
+0137918AR,Melia azedarach,False,C\ Artesania,,17.57,median,,check,,,,,1.0,floor
+0137921AR,Cupressus sempervirens,False,C\ Mont-ral,,11.72,median,,check,,,,,1.0,floor
+0137924AR,Melia azedarach,False,C\ Gasela,,5.44,median,22.79,check,,,,,1.0,floor
+0137926AR,Platanus × acerifolia,True,C\ Doctor Pi i Molist,,8.11,no_kerb,,check,,,,,1.0,floor
+0137927AR,Populus nigra 'Italica',False,Pg Valldaura,13.77,11.37,ok,,large,430171.23,4587856.6,430173.13,4587870.24,1.5,class
+0137928AR,Brachychiton populneus,False,Pg Verdum,17.5,7.34,ok,,large,430990.82,4587702.17,431008.14,4587699.73,1.5,class
+0137929AR,Magnolia grandiflora,False,Pg Valldaura,14.84,5.22,ok,,large,430660.3,4587789.39,430662.35,4587804.08,1.5,class
+0137930AR,Celtis sinensis,False,Via Favència,4.61,3.95,ok,,medium,430535.9,4588153.38,430533.87,4588157.52,1.0,class
+0137933AR,Celtis sinensis,False,Via Favència,,51.89,no_facade,,check,,,,,1.0,floor
+0137934AR,Celtis australis,False,C\ Castor,,19.69,median,8.23,check,,,,,1.0,floor
+0137935AR,Celtis sinensis,False,Via Favència,23.08,22.19,ok,,large,430641.95,4588194.11,430644.79,4588217.01,1.5,class
+0137936AR,Robinia pseudoacacia,False,Via Favència,5.76,4.41,ok,,medium,430569.47,4588166.79,430570.24,4588172.5,1.0,class
+0137937AR,Platanus × acerifolia,True,Rbla Caçador,6.84,6.3,ok,,large,430430.86,4588027.42,430431.77,4588034.19,1.5,class
+0137938AR,Grevillea robusta,False,Pg Valldaura,6.03,5.52,ok,,large,430903.86,4587794.4,430903.04,4587788.43,1.5,class
+0137939AR,Platanus × acerifolia,True,C\ Doctor Pi i Molist,,16.85,no_kerb,,check,,,,,1.0,floor
+0137940AR,Celtis australis,False,C\ Esquirol Volador,6.37,3.35,ok,,large,430884.38,4587869.46,430881.17,4587863.96,1.5,class
+0137942AR,Cupressus sempervirens,False,C\ Mont-ral,,15.18,median,,check,,,,,1.0,floor
+0137945AR,Robinia pseudoacacia 'Bessoniana',False,C\ Gasela,,11.42,median,,check,,,,,1.0,floor
+0137947AR,Platanus × acerifolia,True,Rbla Caçador,,16.18,median,,check,,,,,1.0,floor
+0137949AR,Platanus × acerifolia,True,Pg Fabra i Puig,,62.58,no_facade,,check,,,,,1.0,floor
+0137950AR,Populus nigra 'Italica',False,Pg Valldaura,9.64,9.18,ok,,large,430990.62,4587782.55,430989.32,4587773.01,1.5,class
+0137952AR,Platanus × acerifolia,True,Pg Urrutia,5.23,4.58,ok,,medium,430744.64,4587372.85,430744.49,4587367.62,1.0,class
+0137954AR,Magnolia grandiflora,False,Pg Valldaura,13.76,5.49,ok,,large,430163.57,4587857.67,430165.47,4587871.3,1.5,class
+0137955AR,Ligustrum lucidum,False,Pg Valldaura,13.09,10.48,ok,,large,430569.51,4587736.92,430556.53,4587738.63,1.5,class
+0137958AR,Firmiana simplex,False,Rbla Caçador,8.68,6.93,ok,,large,430913.89,4587875.7,430915.07,4587884.3,1.5,class
+0137963AR,Celtis sinensis,False,Via Favència,19.25,17.86,ok,,large,430813.12,4588278.08,430806.09,4588296.01,1.5,class
+0137966AR,Brachychiton populneus,False,Pg Verdum,19.32,9.0,ok,,large,430991.51,4587707.08,431010.64,4587704.38,1.5,class
+0137967AR,Platanus × acerifolia,True,C\ Doctor Pi i Molist,,6.26,no_kerb,,check,,,,,1.0,floor
+0137968AR,Platanus × acerifolia,True,C\ Marie Curie,3.84,3.3,ok,,medium,430514.2,4587643.25,430513.7,4587639.44,1.0,class
+0137969AR,Magnolia grandiflora,False,Pg Valldaura,28.95,12.16,ok,,large,430425.36,4587820.29,430451.98,4587831.69,1.5,class
+0137972AR,Morus nigra,False,C\ Gasela,,8.19,no_kerb,,check,,,,,1.0,floor
+0137974AR,Grevillea robusta,False,Pg Valldaura,7.16,6.8,ok,,large,430627.24,4587832.87,430631.12,4587826.85,1.5,class
+0137978AR,Robinia pseudoacacia 'Bessoniana',False,Rbla Caçador,,3.61,no_kerb,,check,,,,,1.0,floor
+0137979AR,Melia azedarach,False,Pl República,,39.74,no_facade,,check,,,,,1.0,floor
+0137983AR,Firmiana simplex,False,C\ Isard,4.27,3.65,ok,,medium,430717.24,4587847.93,430713.01,4587848.5,1.0,class
+0137984AR,Grevillea robusta,False,Pg Valldaura,,12.33,median,5.56,check,,,,,1.0,floor
+0137987AR,Celtis sinensis,False,Pl República,,44.0,no_facade,,check,,,,,1.0,floor
+0137988AR,Brachychiton populneus,False,C\ Alsàcia,4.53,4.18,ok,,medium,430758.25,4587734.31,430753.76,4587734.92,1.0,class
+0137989AR,Tipuana tipu,False,Pl República,27.47,12.19,ok,,large,430994.58,4587728.87,431021.78,4587725.04,1.5,class
+0137990AR,Populus nigra 'Italica',False,Pg Valldaura,15.45,13.0,ok,,large,430293.11,4587838.11,430295.07,4587853.44,1.5,class
+0137993AR,Brachychiton populneus,False,Pl República,,36.16,no_facade,,check,,,,,1.0,floor
+0137994AR,Celtis sinensis,False,Via Favència,19.52,18.84,ok,,large,430477.16,4588118.12,430457.83,4588120.81,1.5,class
+0137995AR,Celtis sinensis,False,Via Favència,,13.75,median,3.77,check,,,,,1.0,floor
+0137996AR,Phytolacca dioica,False,C\ Artesania,,15.13,median,,check,,,,,1.0,floor
+0138001AR,Celtis sinensis,False,Via Favència,7.42,6.73,ok,,large,430478.86,4588124.02,430479.89,4588131.37,1.5,class
+0138004AR,Magnolia grandiflora,False,Pg Valldaura,13.08,5.23,ok,,large,430677.5,4587786.98,430679.31,4587799.93,1.5,class
+0138005AR,Platanus × acerifolia,True,Rbla Caçador,6.38,6.0,ok,,large,430436.72,4588026.63,430437.57,4588032.95,1.5,class
+0138006AR,Styphnolobium japonicum,False,C\ Gasela,,7.58,median,,check,,,,,1.0,floor
+0138008AR,Celtis sinensis,False,Via Favència,8.23,7.39,ok,,large,430535.9,4588153.38,430527.75,4588154.52,1.5,class
+0138009AR,Grevillea robusta,False,Pg Valldaura,15.99,14.71,ok,,large,430628.67,4587790.8,430632.36,4587806.35,1.5,class
+0138010AR,Magnolia grandiflora,False,Pg Valldaura,13.78,5.17,ok,,large,430152.11,4587859.26,430154.01,4587872.91,1.5,class
+0138012AR,Magnolia grandiflora,False,Pg Valldaura,14.32,5.55,ok,,large,430411.3,4587823.41,430416.82,4587836.62,1.5,class
+0138015AR,Magnolia grandiflora,False,Pg Valldaura,13.84,5.34,ok,,large,430119.09,4587863.86,430121.0,4587877.57,1.5,class
+0138016AR,Magnolia grandiflora,False,Pg Valldaura,15.03,6.47,ok,,large,430418.57,4587821.2,430420.56,4587836.1,1.5,class
+0138018AR,Melia azedarach,False,Pl República,,32.51,no_facade,,check,,,,,1.0,floor
+0138019AR,Morus nigra,False,C\ Castor,11.27,2.54,ok,,large,430656.65,4588170.83,430664.7,4588178.73,1.5,class
+0138020AR,Platanus × acerifolia,True,Rbla Caçador,5.17,4.58,ok,,medium,430782.03,4587933.17,430782.68,4587938.3,1.0,class
+0138021AR,Populus nigra 'Italica',False,C\ Marne,11.17,5.43,ok,,large,430512.55,4587796.43,430501.49,4587797.99,1.5,class
+0138022AR,Magnolia grandiflora,False,Pg Valldaura,,25.06,no_kerb,,check,,,,,1.0,floor
+0138023AR,Populus nigra 'Italica',False,Pg Valldaura,,12.33,median,5.57,check,,,,,1.0,floor
+0138024AR,Firmiana simplex,False,C\ Isard,7.36,6.62,ok,,large,430696.98,4587869.78,430703.38,4587866.16,1.5,class
+0138025AR,Populus nigra 'Italica',False,Pg Valldaura,8.17,6.55,ok,,large,430436.37,4587859.68,430441.27,4587853.14,1.5,class
+0138026AR,Styphnolobium japonicum,False,C\ Marie Curie,,31.78,no_facade,,check,,,,,1.0,floor
+0138027AR,Platanus × acerifolia,True,C\ Artesania,,12.87,median,,check,,,,,1.0,floor
+0138028AR,Platanus × acerifolia,True,C\ Castor,,11.56,median,,check,,,,,1.0,floor
+0138030AR,Melia azedarach,False,C\ Guineueta,10.62,9.97,ok,,large,430384.59,4588008.91,430395.12,4588007.51,1.5,class
+0138031AR,Populus nigra 'Italica',False,C\ Marne,7.18,4.8,ok,,large,430473.14,4587714.64,430480.26,4587713.67,1.5,class
+0138035AR,Melia azedarach,False,Rbla Caçador,5.87,5.68,ok,,medium,430475.17,4588018.69,430475.99,4588024.51,1.0,class
+0138039AR,Celtis australis,False,Pg Fabra i Puig,,17.44,no_kerb,,check,,,,,1.0,floor
+0138047AR,Magnolia grandiflora,False,Pg Valldaura,13.37,4.06,ok,,large,430932.73,4587750.1,430934.65,4587763.33,1.5,class
+0138051AR,Celtis sinensis,False,Via Favència,,8.65,median,2.52,check,,,,,1.0,floor
+0138052AR,Magnolia grandiflora,False,Pg Valldaura,15.76,7.5,ok,,large,430264.32,4587841.81,430266.32,4587857.44,1.5,class
+0138053AR,Platanus × acerifolia,True,Pg Urrutia,9.07,8.37,ok,,large,430647.8,4587374.58,430646.64,4587365.58,1.5,class
+0138054AR,Pinus halepensis,False,Via Favència,18.26,5.57,ok,,large,430535.01,4588146.76,430516.92,4588149.21,1.5,class
+0138056AR,Brachychiton populneus,False,Pg Valldaura,,4.56,no_kerb,,check,,,,,1.0,floor
+0138057AR,Celtis australis,False,Pl República,22.69,5.84,ok,,large,430991.8,4587805.57,430994.87,4587828.05,1.5,class
+0138058AR,Melia azedarach,False,C\ Gasela,14.27,4.73,ok,,large,430560.15,4588089.81,430558.17,4588075.68,1.5,class
+0138059AR,Platanus × acerifolia,True,Pl República,,30.25,no_facade,,check,,,,,1.0,floor
+0138060AR,Casuarina cunninghamiana,False,C\ Vilalba dels Arcs,6.85,6.42,ok,,large,430110.11,4587847.14,430103.99,4587844.06,1.5,class
+0138062AR,Robinia pseudoacacia,False,C\ Gasela,,7.13,no_kerb,32.45,check,,,,,1.0,floor
+0138063AR,Magnolia grandiflora,False,Pg Valldaura,24.08,16.12,ok,,large,430982.68,4587731.89,430977.08,4587755.31,1.5,class
+0138064AR,Populus nigra 'Italica',False,Pg Valldaura,14.2,11.54,ok,,large,430241.26,4587846.73,430243.44,4587860.77,1.5,class
+0138067AR,Platanus × acerifolia,True,Rbla Caçador,18.56,18.14,ok,,large,430593.87,4587980.12,430596.49,4587998.5,1.5,class
+0138069AR,Populus nigra 'Italica',False,C\ Marne,7.21,4.64,ok,,large,430472.29,4587708.35,430479.43,4587707.37,1.5,class
+0138070AR,Platanus × acerifolia,True,C\ Castor,,11.96,median,,check,,,,,1.0,floor
+0138074AR,Celtis australis,False,Pl República,,35.3,no_facade,,check,,,,,1.0,floor
+0138077AR,Platanus × acerifolia,True,C\ Castor,,30.44,no_facade,30.18,check,,,,,1.0,floor
+0138078AR,Magnolia grandiflora,False,Pg Valldaura,14.51,5.9,ok,,large,430777.06,4587771.82,430779.04,4587786.19,1.5,class
+0138081AR,Platanus × acerifolia,True,C\ Castor,7.59,5.32,ok,,large,430711.12,4588109.96,430709.65,4588117.41,1.5,class
+0138082AR,Magnolia grandiflora,False,Pg Valldaura,14.08,5.76,ok,,large,430452.87,4587817.34,430454.86,4587831.28,1.5,class
+0138085AR,Acer monspessulanum,False,C\ Guineueta,10.56,4.41,ok,,large,430370.77,4587953.24,430381.22,4587951.75,1.5,class
+0138086AR,Celtis australis,False,C\ Esquirol Volador,8.66,8.23,ok,,large,430868.67,4587889.96,430877.33,4587889.92,1.5,class
+0138087AR,Melia azedarach,False,C\ Guineueta,10.13,9.41,ok,,large,430370.35,4587950.32,430380.37,4587948.89,1.5,class
+0138092AR,Celtis sinensis,False,Via Favència,12.67,12.3,ok,,large,430431.5,4588094.05,430425.91,4588105.41,1.5,class
+0138093AR,Celtis sinensis,False,C\ Castor,21.6,21.21,ok,,large,430647.51,4588189.69,430669.1,4588189.57,1.5,class
+0138094AR,Casuarina cunninghamiana,False,C\ Vilalba dels Arcs,6.3,5.74,ok,,large,430131.76,4587810.71,430126.65,4587807.03,1.5,class
+0138095AR,Platanus × acerifolia,True,C\ Castor,9.04,8.39,ok,,large,430784.3,4588016.05,430793.29,4588016.92,1.5,class
+0138096AR,Platanus × acerifolia,True,Rbla Caçador,,10.8,median,3.24,check,,,,,1.0,floor
+0138098AR,Platanus × acerifolia,True,Rbla Caçador,17.86,17.43,ok,,large,430809.2,4587903.34,430811.56,4587921.04,1.5,class
+0138101AR,Populus nigra 'Italica',False,C\ Marne,,18.31,median,24.44,check,,,,,1.0,floor
+0138103AR,Melia azedarach,False,C\ Guineueta,5.2,4.77,ok,,medium,430366.22,4587921.12,430371.37,4587920.4,1.0,class
+0138106AR,Platanus × acerifolia,True,C\ Doctor Pi i Molist,,10.39,no_kerb,,check,,,,,1.0,floor
+0138107AR,Populus nigra 'Italica',False,Pg Valldaura,15.43,14.66,ok,,large,430536.98,4587804.69,430542.91,4587818.93,1.5,class
+0138109AR,Platanus × acerifolia,True,Pg Fabra i Puig,,58.93,no_facade,,check,,,,,1.0,floor
+0138112AR,Pyrus calleryana 'Chanticleer',False,Pg Valldaura,4.4,3.41,ok,,medium,430523.36,4587774.45,430523.97,4587778.81,1.0,class
+0138113AR,Celtis australis,False,Pl República,,12.77,no_kerb,,check,,,,,1.0,floor
+0138114AR,Casuarina cunninghamiana,False,C\ Vilalba dels Arcs,6.35,5.75,ok,,large,430167.13,4587768.75,430162.6,4587764.3,1.5,class
+0138115AR,Grevillea robusta,False,Pg Valldaura,,18.2,median,,check,,,,,1.0,floor
+0138116AR,Celtis sinensis,False,Via Favència,,37.41,no_facade,,check,,,,,1.0,floor
+0138118AR,Grevillea robusta,False,Pg Valldaura,16.24,13.25,ok,,large,430653.66,4587790.32,430649.22,4587805.94,1.5,class
+0138121AR,Platanus × acerifolia,True,Rbla Caçador,,30.06,no_facade,14.21,check,,,,,1.0,floor
+0138122AR,Styphnolobium japonicum,False,C\ Gasela,,11.61,median,,check,,,,,1.0,floor
+0138123AR,Platanus × acerifolia,True,Pg Fabra i Puig,,36.75,no_facade,,check,,,,,1.0,floor
+0138132AR,Populus nigra 'Italica',False,Pg Valldaura,15.26,14.19,ok,,large,430163.64,4587897.84,430148.96,4587893.66,1.5,class
+0138133AR,Magnolia grandiflora,False,Pg Valldaura,,25.15,no_kerb,,check,,,,,1.0,floor
+0138134AR,Robinia pseudoacacia 'Bessoniana',False,C\ Gasela,7.51,7.1,ok,,large,430538.67,4587961.42,430546.12,4587960.37,1.5,class
+0138135AR,Ulmus pumila,False,C\ Esquirol Volador,8.23,7.75,ok,,large,430859.8,4587826.69,430867.96,4587825.63,1.5,class
+0138136AR,Magnolia grandiflora,False,Pg Valldaura,13.99,5.58,ok,,large,430191.73,4587853.64,430193.81,4587867.48,1.5,class
+0138137AR,Populus nigra 'Italica',False,Pg Valldaura,9.69,9.45,ok,,large,430956.69,4587789.34,430955.33,4587779.75,1.5,class
+0138138AR,Celtis sinensis,False,Via Favència,,18.96,median,16.7,check,,,,,1.0,floor
+0138140AR,Magnolia grandiflora,False,Pg Valldaura,7.96,5.86,ok,,large,430518.85,4587856.14,430517.76,4587848.26,1.5,class
+0138143AR,Populus nigra 'Italica',False,Pg Valldaura,14.08,11.94,ok,,large,430912.34,4587753.07,430911.59,4587767.13,1.5,class
+0138144AR,Platanus × acerifolia,True,C\ Doctor Pi i Molist,,15.89,no_kerb,,check,,,,,1.0,floor
+0138146AR,Brachychiton populneus,False,Pg Verdum,12.85,4.16,ok,,large,430891.43,4587558.1,430904.18,4587556.49,1.5,class
+0138148AR,Populus nigra 'Italica',False,Pg Valldaura,13.94,11.47,ok,,large,430411.3,4587823.41,430414.78,4587836.9,1.5,class
+0138150AR,Magnolia grandiflora,False,Pg Valldaura,17.2,6.84,ok,,large,430100.39,4587866.47,430092.21,4587881.6,1.5,class
+0138151AR,Populus nigra 'Italica',False,Pg Valldaura,13.49,11.11,ok,,large,430926.75,4587750.97,430928.69,4587764.32,1.5,class
+0138153AR,Magnolia grandiflora,False,Pg Valldaura,8.0,5.89,ok,,large,430534.74,4587853.95,430533.64,4587846.03,1.5,class
+0138156AR,Grevillea robusta,False,Pg Valldaura,5.89,5.57,ok,,medium,430811.67,4587807.59,430810.87,4587801.75,1.0,class
+0138157AR,Melia azedarach,False,C\ Gasela,,9.61,median,26.89,check,,,,,1.0,floor
+0138158AR,Celtis australis,False,C\ Artesania,,12.76,median,,check,,,,,1.0,floor
+0138160AR,Grevillea robusta,False,Pg Valldaura,14.54,12.52,ok,,large,430771.18,4587772.63,430773.17,4587787.04,1.5,class
+0138162AR,Platanus × acerifolia,True,Pg Urrutia,5.49,4.65,ok,,medium,430608.08,4587382.26,430607.38,4587376.81,1.0,class
+0138164AR,Magnolia grandiflora,False,Pg Valldaura,29.59,19.93,ok,,large,430469.59,4587813.74,430498.5,4587820.03,1.5,class
+0138167AR,Populus nigra 'Italica',False,Pg Valldaura,,30.59,no_facade,,check,,,,,1.0,floor
+0138168AR,Tipuana tipu,False,Pl República,,23.09,no_kerb,,check,,,,,1.0,floor
+0138170AR,Populus nigra 'Italica',False,Pg Valldaura,15.71,13.12,ok,,large,430269.08,4587841.19,430271.08,4587856.78,1.5,class
+0138171AR,Celtis australis,False,Pg Fabra i Puig,9.32,2.39,ok,,large,430273.6,4587746.09,430280.6,4587739.93,1.5,class
+0138176AR,Styphnolobium japonicum,False,C\ Castor,21.53,6.79,ok,,large,430647.51,4588189.8,430669.04,4588189.68,1.5,class
+0138178AR,Melia azedarach,False,C\ Gasela,,8.69,median,26.88,check,,,,,1.0,floor
+0138179AR,Celtis australis,False,C\ Castor,18.12,16.61,ok,,large,430845.09,4587959.16,430857.53,4587945.98,1.5,class
+0138181AR,Populus nigra 'Italica',False,Pg Valldaura,14.2,11.61,ok,,large,430205.83,4587851.53,430207.93,4587865.57,1.5,class
+0138182AR,Platanus × acerifolia,True,C\ Doctor Pi i Molist,,7.29,no_kerb,,check,,,,,1.0,floor
+0138188AR,Grevillea robusta,False,Pg Valldaura,5.6,5.1,ok,,medium,430805.08,4587808.14,430805.1,4587802.54,1.0,class
+0138190AR,Populus nigra 'Italica',False,Pg Valldaura,5.64,4.57,ok,,medium,430389.5,4587866.01,430388.72,4587860.43,1.0,class
+0138192AR,Robinia pseudoacacia 'Pyramidalis',False,C\ Gasela,,4.84,median,4.87,check,,,,,1.0,floor
+0138194AR,Melia azedarach,False,C\ Gasela,10.85,5.24,ok,,large,430579.6,4588129.06,430578.14,4588118.31,1.5,class
+0138195AR,Platanus × acerifolia,True,Rbla Caçador,,13.44,median,4.52,check,,,,,1.0,floor
+0138199AR,Grevillea robusta,False,Pg Valldaura,23.66,22.96,ok,,large,430146.25,4587911.59,430126.78,4587898.16,1.5,class
+0138206AR,Celtis australis,False,Pg Fabra i Puig,24.41,10.92,ok,,large,430270.9,4587746.45,430267.64,4587722.26,1.5,class
+0138208AR,Prunus cerasifera 'Pissardii',False,Via Favència,,58.66,no_facade,,check,,,,,1.0,floor
+0138212AR,Firmiana simplex,False,Pl República,,5.51,no_kerb,,check,,,,,1.0,floor
+0138213AR,Platanus × acerifolia,True,C\ Castor,,36.46,no_facade,24.25,check,,,,,1.0,floor
+0138214AR,Populus nigra 'Italica',False,Pg Valldaura,13.87,11.21,ok,,large,430109.85,4587865.15,430111.77,4587878.89,1.5,class
+0138217AR,Platanus × acerifolia,True,Pg Urrutia,15.65,14.98,ok,,large,430707.82,4587376.72,430703.26,4587361.75,1.5,class
+0138219AR,Platanus × acerifolia,True,C\ Castor,,9.83,median,,check,,,,,1.0,floor
+0138220AR,Styphnolobium japonicum,False,C\ Gasela,,17.33,median,,check,,,,,1.0,floor
+0138221AR,Grevillea robusta,False,Pg Valldaura,6.37,5.87,ok,,large,430826.3,4587805.09,430822.27,4587800.15,1.5,class
+0138223AR,Melia azedarach,False,C\ Gasela,14.26,4.7,ok,,large,430565.45,4588089.07,430563.47,4588074.94,1.5,class
+0138224AR,Ligustrum lucidum,False,Pg Valldaura,13.08,10.28,ok,,large,430568.93,4587732.56,430555.96,4587734.27,1.5,class
+0138225AR,Brachychiton populneus,False,C\ Alsàcia,4.53,4.26,ok,,medium,430759.23,4587741.63,430754.74,4587742.24,1.0,class
+0138226AR,Celtis sinensis,False,Pl República,,49.68,no_facade,,check,,,,,1.0,floor
+0138227AR,Ligustrum lucidum,False,C\ Gasela,,5.96,median,6.76,check,,,,,1.0,floor
+0138229AR,Celtis sinensis,False,Via Favència,19.43,18.71,ok,,large,430635.64,4588194.89,430617.01,4588200.42,1.5,class
+0138230AR,Melia azedarach,False,C\ Gasela,8.47,5.39,ok,,large,430615.65,4588124.16,430614.51,4588115.77,1.5,class
+0138232AR,Firmiana simplex,False,C\ Isard,4.85,4.44,ok,,medium,430718.04,4587853.72,430713.23,4587854.38,1.0,class
+0138233AR,Brachychiton populneus,False,C\ Alsàcia,4.49,3.97,ok,,medium,430750.82,4587679.17,430746.36,4587679.77,1.0,class
+0138234AR,Grevillea robusta,False,Pg Valldaura,6.11,5.78,ok,,large,430262.23,4587884.03,430263.26,4587878.0,1.5,class
+0138235AR,Celtis australis,False,C\ Feliu i Codina,4.52,2.89,ok,,medium,430221.35,4587788.31,430216.88,4587788.94,1.0,class
+0138236AR,Grevillea robusta,False,Pg Valldaura,6.11,5.78,ok,,large,430184.71,4587894.89,430183.86,4587888.84,1.5,class
+0138237AR,Grevillea robusta,False,Pg Valldaura,15.02,12.77,ok,,large,430419.27,4587821.11,430421.26,4587836.0,1.5,class
+0138239AR,Melia azedarach,False,C\ Guineueta,5.31,4.72,ok,,medium,430405.58,4587989.32,430400.33,4587990.06,1.0,class
+0138244AR,Styphnolobium japonicum,False,Via Favència,,9.32,median,13.59,check,,,,,1.0,floor
+0138247AR,Catalpa bignonioides,False,C\ Esquirol Volador,,8.03,median,4.3,check,,,,,1.0,floor
+0138248AR,Platanus × acerifolia,True,C\ Doctor Pi i Molist,,9.73,no_kerb,,check,,,,,1.0,floor
+0138249AR,Populus nigra 'Italica',False,Pg Valldaura,14.41,12.22,ok,,large,430795.06,4587769.34,430797.03,4587783.62,1.5,class
+0138250AR,Populus nigra 'Italica',False,Pg Valldaura,18.22,17.45,ok,,large,430712.36,4587776.98,430713.51,4587795.16,1.5,class
+0138251AR,Calocedrus decurrens,False,C\ Artesania,,16.32,median,,check,,,,,1.0,floor
+0138252AR,Firmiana simplex,False,Rbla Caçador,11.15,10.62,ok,,large,430898.07,4587877.87,430899.58,4587888.91,1.5,class
+0138255AR,Populus alba 'Pyramidalis',False,C\ Lorena,24.02,18.87,ok,,large,430931.7,4587633.21,430955.45,4587636.77,1.5,class
+0138257AR,Populus nigra 'Italica',False,Pg Valldaura,13.82,11.42,ok,,large,430128.28,4587862.58,430130.18,4587876.27,1.5,class
+0138258AR,Prunus cerasifera 'Pissardii',False,C\ Marie Curie,2.99,2.49,ok,,small,430434.46,4587653.43,430434.06,4587650.47,1.0,class
+0138261AR,Ligustrum lucidum,False,C\ Castor,,41.5,no_facade,,check,,,,,1.0,floor
+0138263AR,Celtis australis,False,Pg Fabra i Puig,25.66,17.48,ok,,large,430303.23,4587829.41,430328.66,4587825.99,1.5,class
+0138264AR,Cupressus sempervirens,False,C\ Mont-ral,,15.5,median,,check,,,,,1.0,floor
+0138266AR,Populus nigra 'Italica',False,C\ Vilalba dels Arcs,,3.06,no_kerb,35.03,check,,,,,1.0,floor
+0138269AR,Tipuana tipu,False,Pl República,,35.68,no_facade,,check,,,,,1.0,floor
+0138272AR,Fraxinus ornus OBELISK® 'Paus Johannes-Paulus II',False,C\ Marne,7.13,4.11,ok,,large,430507.62,4587765.15,430500.55,4587766.08,1.5,class
+0138277AR,Styphnolobium japonicum,False,C\ Gasela,4.15,3.79,ok,,medium,430559.01,4587983.45,430554.9,4587984.03,1.0,class
+0138278AR,Grevillea robusta,False,Pg Valldaura,,16.11,median,13.1,check,,,,,1.0,floor
+0138280AR,Eucalyptus globulus,False,C\ Mont-ral,,12.27,median,,check,,,,,1.0,floor
+0138283AR,Melia azedarach,False,C\ Gasela,,6.0,median,22.81,check,,,,,1.0,floor
+0138285AR,Melia azedarach,False,Pl República,,21.23,median,,check,,,,,1.0,floor
+0138286AR,Populus nigra 'Italica',False,C\ Vilalba dels Arcs,,2.87,no_kerb,35.72,check,,,,,1.0,floor
+0138287AR,Acacia retinodes,False,C\ Vilalba dels Arcs,,19.84,median,,check,,,,,1.0,floor
+0138288AR,Styphnolobium japonicum,False,C\ Gasela,,19.06,median,25.74,check,,,,,1.0,floor
+0138289AR,Robinia pseudoacacia,False,C\ Gasela,11.74,10.07,ok,,large,430591.94,4588072.6,430580.35,4588070.73,1.5,class
+0138290AR,Prunus cerasifera 'Pissardii',False,C\ Marie Curie,3.0,2.34,ok,,small,430441.01,4587652.56,430440.61,4587649.58,1.0,class
+0138291AR,Grevillea robusta,False,Pg Valldaura,6.16,5.82,ok,,large,430167.85,4587897.25,430166.99,4587891.15,1.5,class
+0138292AR,Populus nigra 'Italica',False,Pg Valldaura,,30.35,no_facade,,check,,,,,1.0,floor
+0138294AR,Populus nigra 'Italica',False,Pg Valldaura,6.92,6.55,ok,,large,430673.54,4587826.4,430676.9,4587820.35,1.5,class
+0138295AR,Melia azedarach,False,C\ Gasela,10.93,9.44,ok,,large,430609.72,4588124.96,430608.25,4588114.14,1.5,class
+0138296AR,Celtis sinensis,False,Via Favència,12.73,12.35,ok,,large,430426.39,4588091.53,430420.77,4588102.96,1.5,class
+0138297AR,Populus nigra 'Italica',False,C\ Gasela,9.51,4.49,ok,,large,430527.62,4588067.23,430524.53,4588058.25,1.5,class
+0138298AR,Populus nigra 'Italica',False,Pg Valldaura,14.08,11.53,ok,,large,430197.76,4587852.74,430199.85,4587866.66,1.5,class
+0138299AR,Platanus × acerifolia,True,Pg Fabra i Puig,21.7,19.39,ok,,large,430235.06,4587675.68,430251.51,4587689.83,1.5,class
+0138301AR,Celtis australis,False,Pl República,,7.66,no_kerb,,check,,,,,1.0,floor
+0138302AR,Casuarina cunninghamiana,False,C\ Vilalba dels Arcs,6.65,6.19,ok,,large,430103.32,4587860.64,430097.37,4587857.65,1.5,class
+0138303AR,Platanus × acerifolia,True,Pg Urrutia,8.39,7.79,ok,,large,430639.18,4587375.69,430638.11,4587367.37,1.5,class
+0138304AR,Platanus × acerifolia,True,Pg Urrutia,,15.34,median,6.67,check,,,,,1.0,floor
+0138309AR,Firmiana simplex,False,C\ Isard,17.08,15.4,ok,,large,430701.01,4587940.63,430705.61,4587924.18,1.5,class
+0138310AR,Celtis sinensis,False,Via Favència,,65.12,no_facade,,check,,,,,1.0,floor
+0138316AR,Celtis sinensis,False,Pl República,22.2,7.81,ok,,large,430992.59,4587714.77,431014.57,4587711.67,1.5,class
+0138317AR,Fraxinus ornus OBELISK® 'Paus Johannes-Paulus II',False,C\ Marne,7.07,4.24,ok,,large,430506.78,4587758.81,430499.77,4587759.73,1.5,class
+0138318AR,Platanus × acerifolia,True,Pg Urrutia,,17.97,median,5.24,check,,,,,1.0,floor
+0138319AR,Ulmus pumila,False,C\ Gasela,8.47,7.48,ok,,large,430533.36,4588122.08,430532.23,4588113.69,1.5,class
+0138320AR,Celtis australis,False,C\ Feliu i Codina,13.38,12.35,ok,,large,430238.25,4587845.41,430224.98,4587847.13,1.5,class
+0138321AR,Brachychiton populneus,False,Pg Verdum,13.99,5.78,ok,,large,430858.29,4587507.04,430872.19,4587505.44,1.5,class
+0138323AR,Platanus × acerifolia,True,Pg Verdum,,20.33,median,,check,,,,,1.0,floor
+0138326AR,Populus nigra 'Italica',False,Pg Valldaura,13.08,5.43,ok,,large,430568.42,4587728.71,430555.46,4587730.42,1.5,class
+0138327AR,Tipuana tipu,False,Pl República,,27.61,no_kerb,,check,,,,,1.0,floor
+0138328AR,Styphnolobium japonicum,False,C\ Gasela,,13.57,median,,check,,,,,1.0,floor
+0138329AR,Celtis sinensis,False,Via Favència,,42.6,no_facade,13.66,check,,,,,1.0,floor
+0138331AR,Populus nigra 'Italica',False,C\ Marne,7.23,4.7,ok,,large,430471.44,4587702.08,430478.6,4587701.11,1.5,class
+0138332AR,Celtis australis,False,Pl República,,9.51,no_kerb,,check,,,,,1.0,floor
+0138336AR,Styphnolobium japonicum,False,C\ Gasela,9.25,8.88,ok,,large,430612.84,4588092.13,430603.64,4588093.04,1.5,class
+0138337AR,Populus nigra 'Italica',False,Pg Valldaura,13.88,11.35,ok,,large,430184.7,4587854.7,430186.76,4587868.42,1.5,class
+0138338AR,Populus nigra 'Italica',False,Pg Valldaura,5.73,5.33,ok,,medium,430607.98,4587835.63,430607.17,4587829.95,1.0,class
+0138340AR,Platanus × acerifolia,True,C\ Artesania,,12.85,median,,check,,,,,1.0,floor
+0138341AR,Celtis australis,False,C\ Esquirol Volador,17.24,10.38,ok,,large,430884.38,4587869.46,430879.66,4587852.87,1.5,class
+0138343AR,Platanus × acerifolia,True,C\ Artesania,,12.96,median,,check,,,,,1.0,floor
+0138344AR,Magnolia grandiflora,False,Pg Valldaura,15.64,7.24,ok,,large,430275.65,4587840.35,430277.64,4587855.86,1.5,class
+0138345AR,Populus nigra 'Italica',False,Pg Valldaura,16.52,15.56,ok,,large,430559.84,4587802.45,430553.11,4587817.53,1.5,class
+0138348AR,Platanus × acerifolia,True,Rbla Caçador,7.37,6.73,ok,,large,430426.39,4588028.02,430426.22,4588035.38,1.5,class
+0138349AR,Platanus × acerifolia,True,Rbla Caçador,5.51,5.41,ok,,medium,430480.0,4588018.02,430480.76,4588023.48,1.0,class
+0138350AR,Magnolia grandiflora,False,Pg Valldaura,14.08,5.77,ok,,large,430447.21,4587818.15,430448.72,4587832.15,1.5,class
+0138351AR,Melia azedarach,False,C\ Gasela,11.12,7.41,ok,,large,430590.88,4588150.75,430589.37,4588139.74,1.5,class
+0138352AR,Grevillea robusta,False,Pg Valldaura,6.77,6.3,ok,,large,430933.51,4587790.32,430932.59,4587783.61,1.5,class
+0138354AR,Tipuana tipu,False,Pl República,,48.3,no_facade,,check,,,,,1.0,floor
+0138355AR,Platanus × acerifolia,True,C\ Doctor Pi i Molist,28.77,14.07,ok,,large,430802.11,4587437.0,430830.64,4587433.3,1.5,class
+0138356AR,Grevillea robusta,False,Pg Valldaura,15.23,12.71,ok,,large,430378.25,4587826.62,430380.35,4587841.7,1.5,class
+0138358AR,Platanus × acerifolia,True,Pg Verdum,14.91,14.43,ok,,large,430868.95,4587529.49,430881.58,4587521.56,1.5,class
+0138359AR,Celtis australis,False,C\ Feliu i Codina,,12.7,median,,check,,,,,1.0,floor
+0138360AR,Celtis sinensis,False,Via Favència,,10.71,median,3.65,check,,,,,1.0,floor
+0138361AR,Platanus × acerifolia,True,C\ Castor,7.03,5.85,ok,,large,430714.52,4588101.69,430720.69,4588098.33,1.5,class
+0138363AR,Grevillea robusta,False,Pg Valldaura,9.27,8.81,ok,,large,430984.92,4587783.33,430983.67,4587774.15,1.5,class
+0138365AR,Populus nigra 'Italica',False,Pg Valldaura,13.78,11.65,ok,,large,430150.02,4587859.55,430151.92,4587873.21,1.5,class
+0138367AR,Tipuana tipu,False,Pl República,21.56,15.3,ok,,large,430994.77,4587730.25,431003.68,4587749.89,1.5,class
+0138371AR,Casuarina cunninghamiana,False,C\ Vilalba dels Arcs,7.61,6.99,ok,,large,430125.11,4587820.26,430117.51,4587820.61,1.5,class
+0138372AR,Celtis sinensis,False,Via Favència,17.87,17.31,ok,,large,430436.04,4588096.28,430442.01,4588113.13,1.5,class
+0138373AR,Populus nigra 'Italica',False,Pg Valldaura,12.98,5.19,ok,,large,430562.63,4587684.78,430549.76,4587686.48,1.5,class
+0138374AR,Magnolia grandiflora,False,Pg Valldaura,15.19,6.89,ok,,large,430574.31,4587799.34,430576.41,4587814.38,1.5,class
+0138375AR,Populus alba 'Pyramidalis',False,C\ Lorena,7.78,6.26,ok,,large,430931.7,4587633.21,430936.33,4587639.46,1.5,class
+0138376AR,Celtis sinensis,False,Via Favència,,46.82,no_facade,,check,,,,,1.0,floor
+0138378AR,Platanus × acerifolia,True,C\ Castor,3.46,2.59,ok,,small,430781.6,4588022.69,430784.81,4588023.99,1.0,class
+0138381AR,Jacaranda mimosifolia,False,Via Favència,,60.09,no_facade,,check,,,,,1.0,floor
+0138383AR,Styphnolobium japonicum,False,C\ Marie Curie,28.61,28.09,ok,,large,430549.14,4587658.61,430561.4,4587632.77,1.5,class
+0138384AR,Celtis sinensis,False,Via Favència,,12.77,median,7.6,check,,,,,1.0,floor
+0138385AR,Grevillea robusta,False,Pg Valldaura,6.33,5.93,ok,,large,430915.88,4587792.75,430915.02,4587786.48,1.5,class
+0138387AR,Platanus × acerifolia,True,Rbla Caçador,6.0,5.61,ok,,medium,430441.6,4588025.97,430442.4,4588031.92,1.0,class
+0138388AR,Brachychiton populneus,False,Pg Verdum,17.23,4.33,ok,,large,430991.55,4587695.79,431008.27,4587699.97,1.5,class
+0138389AR,Celtis australis,False,Pg Fabra i Puig,11.75,5.21,ok,,large,430354.28,4587815.24,430342.64,4587816.86,1.5,class
+0138390AR,Celtis sinensis,False,Via Favència,23.54,22.56,ok,,large,430436.04,4588096.28,430448.48,4588116.26,1.5,class
+0138391AR,Populus nigra 'Italica',False,Pg Valldaura,15.24,14.3,ok,,large,430775.27,4587812.59,430760.55,4587808.65,1.5,class
+0138392AR,Grevillea robusta,False,Pg Valldaura,5.58,5.2,ok,,medium,430574.15,4587840.44,430573.37,4587834.92,1.0,class
+0138393AR,Grevillea robusta,False,Pg Valldaura,15.34,13.63,ok,,large,430469.59,4587813.74,430472.56,4587828.79,1.5,class
+0138395AR,Platanus × acerifolia,True,Rbla Caçador,5.12,5.09,ok,,medium,430485.32,4588017.28,430486.02,4588022.35,1.0,class
+0138396AR,Magnolia grandiflora,False,Pg Valldaura,9.99,6.55,ok,,large,430533.9,4587805.13,430535.3,4587815.02,1.5,class
+0138397AR,Celtis sinensis,False,Via Favència,,9.74,median,3.9,check,,,,,1.0,floor
+0138399AR,Celtis australis,False,C\ Feliu i Codina,13.52,12.02,ok,,large,430237.2,4587837.31,430223.79,4587839.05,1.5,class
+0138400AR,Gleditsia triacanthos f. inermis,False,C\ Vilalba dels Arcs,,3.11,no_kerb,33.96,check,,,,,1.0,floor
+0138401AR,Styphnolobium japonicum,False,C\ Gasela,12.15,10.57,ok,,large,430620.49,4588098.53,430622.23,4588110.56,1.5,class
+0138402AR,Magnolia grandiflora,False,Pg Valldaura,20.21,8.18,ok,,large,430447.21,4587818.15,430434.81,4587834.11,1.5,class
+0138403AR,Firmiana simplex,False,Rbla Caçador,9.41,9.4,ok,,large,430910.48,4587876.17,430911.76,4587885.49,1.5,class
+0138405AR,Platanus × acerifolia,True,Rbla Caçador,13.09,12.48,ok,,large,430841.78,4587894.18,430845.72,4587906.66,1.5,class
+0138406AR,Populus nigra 'Italica',False,C\ Marne,7.06,4.23,ok,,large,430504.47,4587741.33,430497.47,4587742.25,1.5,class
+0138408AR,Robinia pseudoacacia,False,C\ Gasela,9.49,9.19,ok,,large,430562.74,4587957.16,430553.71,4587960.09,1.5,class
+0138409AR,Populus nigra 'Italica',False,Pg Valldaura,,12.49,median,5.49,check,,,,,1.0,floor
+0138411AR,Grevillea robusta,False,Pg Valldaura,17.39,16.9,ok,,large,430146.25,4587911.59,430143.9,4587894.36,1.5,class
+0138412AR,Magnolia grandiflora,False,Pg Valldaura,14.99,5.93,ok,,large,430364.96,4587829.55,430371.83,4587842.88,1.5,class
+0138413AR,Robinia pseudoacacia 'Bessoniana',False,Rbla Caçador,,6.55,no_kerb,,check,,,,,1.0,floor
+0138415AR,Platanus × acerifolia,True,Rbla Caçador,11.54,11.08,ok,,large,430857.85,4587891.96,430858.75,4587903.46,1.5,class
+0138417AR,Magnolia grandiflora,False,Pg Valldaura,7.94,5.8,ok,,large,430509.32,4587857.46,430508.24,4587849.59,1.5,class
+0138418AR,Platanus × acerifolia,True,Pg Urrutia,,10.51,median,3.05,check,,,,,1.0,floor
+0138419AR,Gleditsia triacanthos f. inermis,False,C\ Vilalba dels Arcs,,3.0,no_kerb,35.72,check,,,,,1.0,floor
+0138420AR,Populus nigra 'Italica',False,Pg Valldaura,5.71,4.82,ok,,medium,430297.61,4587879.05,430296.82,4587873.4,1.0,class
+0138425AR,Magnolia grandiflora,False,Pg Valldaura,25.32,10.84,ok,,large,430536.98,4587804.69,430559.27,4587816.72,1.5,class
+0138426AR,Grevillea robusta,False,Pg Valldaura,15.59,13.61,ok,,large,430447.21,4587818.15,430442.54,4587833.02,1.5,class
+0138428AR,Platanus × acerifolia,True,Pg Verdum,12.67,12.03,ok,,large,430858.02,4587504.72,430866.36,4587495.18,1.5,class
+0138429AR,Grevillea robusta,False,Pg Valldaura,20.83,20.0,ok,,large,430934.31,4587749.88,430952.48,4587760.07,1.5,class
+0138430AR,Populus nigra 'Italica',False,Pg Valldaura,13.06,5.59,ok,,large,430567.36,4587720.69,430554.42,4587722.4,1.5,class
+0138431AR,Populus nigra 'Italica',False,Pg Valldaura,6.34,5.28,ok,,large,430393.03,4587865.52,430395.12,4587859.54,1.5,class
+0138434AR,Firmiana simplex,False,C\ Isard,,19.38,median,,check,,,,,1.0,floor
+0138437AR,Celtis australis,False,C\ Feliu i Codina,13.63,6.6,ok,,large,430236.15,4587829.21,430222.63,4587830.97,1.5,class
+0138438AR,Populus nigra 'Italica',False,Pg Valldaura,13.81,11.34,ok,,large,430132.48,4587862.0,430134.38,4587875.68,1.5,class
+0138439AR,Magnolia grandiflora,False,Pg Valldaura,15.93,7.7,ok,,large,430620.13,4587791.88,430622.37,4587807.66,1.5,class
+0138440AR,Fraxinus ornus OBELISK® 'Paus Johannes-Paulus II',False,C\ Marne,6.91,4.15,ok,,large,430477.23,4587744.67,430484.08,4587743.74,1.5,class
+0138442AR,Ulmus pumila,False,C\ Esquirol Volador,8.38,7.82,ok,,large,430861.1,4587836.75,430869.46,4587836.19,1.5,class
+0138443AR,Celtis sinensis,False,Via Favència,12.61,12.3,ok,,large,430436.02,4588096.28,430430.45,4588107.59,1.5,class
+0138444AR,Magnolia grandiflora,False,Pg Valldaura,,23.43,no_kerb,,check,,,,,1.0,floor
+0138445AR,Pyrus calleryana 'Chanticleer',False,Pg Valldaura,4.4,3.56,ok,,medium,430529.31,4587773.63,430529.92,4587777.98,1.0,class
+0138446AR,Magnolia grandiflora,False,Pg Valldaura,13.92,5.46,ok,,large,430522.62,4587807.66,430524.56,4587821.45,1.5,class
+0138448AR,Celtis sinensis,False,Via Favència,13.99,13.46,ok,,large,430436.04,4588096.28,430436.05,4588110.27,1.5,class
+0138449AR,Celtis sinensis,False,Via Favència,,20.09,median,19.13,check,,,,,1.0,floor
+0138450AR,Grevillea robusta,False,Pg Valldaura,14.24,12.01,ok,,large,430246.54,4587845.91,430248.72,4587859.98,1.5,class
+0138451AR,Platanus × acerifolia,True,Pg Verdum,14.65,14.1,ok,,large,430843.59,4587484.38,430857.53,4587479.86,1.5,class
+0138455AR,Celtis australis,False,Pl República,,46.68,no_facade,,check,,,,,1.0,floor
+0138456AR,Magnolia grandiflora,False,Pg Valldaura,,18.03,no_kerb,,check,,,,,1.0,floor
+0138457AR,Pyrus calleryana 'Chanticleer',False,Pg Valldaura,4.4,3.71,ok,,medium,430517.32,4587775.29,430517.93,4587779.65,1.0,class
+0138460AR,Platanus × acerifolia,True,Rbla Caçador,4.94,4.33,ok,,medium,430784.05,4587932.91,430788.87,4587934.01,1.0,class
+0138461AR,Styphnolobium japonicum,False,C\ Gasela,6.74,6.34,ok,,large,430559.24,4587985.05,430555.12,4587990.38,1.5,class
+0138462AR,Platanus × acerifolia,True,C\ Doctor Pi i Molist,,5.17,no_kerb,,check,,,,,1.0,floor
+0138463AR,Populus nigra 'Italica',False,Pg Valldaura,6.15,5.75,ok,,large,430173.15,4587896.51,430172.29,4587890.41,1.5,class
+0138464AR,Robinia pseudoacacia 'Bessoniana',False,C\ Gasela,6.67,5.63,ok,,large,430592.27,4588074.88,430585.67,4588075.83,1.5,class
+0138467AR,Fraxinus ornus OBELISK® 'Paus Johannes-Paulus II',False,C\ Marne,10.34,5.45,ok,,large,430497.24,4587680.21,430486.99,4587681.56,1.5,class
+0138469AR,Celtis australis,False,Pl República,,12.67,no_kerb,,check,,,,,1.0,floor
+0138472AR,Brachychiton populneus,False,Pg Verdum,17.14,9.37,ok,,large,430929.14,4587615.56,430942.41,4587604.72,1.5,class
+0138476AR,Platanus × acerifolia,True,C\ Castor,,8.14,median,,check,,,,,1.0,floor
+0138477AR,Grevillea robusta,False,Pg Valldaura,7.19,6.86,ok,,large,430775.27,4587812.59,430770.42,4587807.27,1.5,class
+0138481AR,Populus nigra 'Italica',False,Pg Valldaura,17.51,15.6,ok,,large,430238.48,4587847.16,430230.37,4587862.68,1.5,class
+0138483AR,Melia azedarach,False,Via Favència,,5.5,no_kerb,,check,,,,,1.0,floor
+0138485AR,Magnolia grandiflora,False,Pg Valldaura,,24.81,no_kerb,,check,,,,,1.0,floor
+0138487AR,Celtis sinensis,False,Via Favència,,37.78,no_facade,10.08,check,,,,,1.0,floor
+0138491AR,Celtis sinensis,False,Via Favència,,41.67,no_facade,,check,,,,,1.0,floor
+0138493AR,Populus nigra 'Italica',False,Pg Valldaura,9.48,8.83,ok,,large,430626.14,4587834.29,430618.65,4587828.48,1.5,class
+0138495AR,Populus nigra 'Italica',False,Pg Valldaura,13.89,11.41,ok,,large,430103.64,4587866.01,430105.55,4587879.77,1.5,class
+0138498AR,Platanus × acerifolia,True,Pg Fabra i Puig,,33.0,no_facade,,check,,,,,1.0,floor
+0138499AR,Robinia pseudoacacia,False,C\ Gasela,6.67,5.39,ok,,large,430595.43,4588079.48,430596.38,4588086.09,1.5,class
+0138500AR,Grevillea robusta,False,Pg Valldaura,22.97,22.39,ok,,large,430982.68,4587731.89,430980.11,4587754.72,1.5,class
+0138501AR,Magnolia grandiflora,False,Pg Valldaura,,7.51,no_kerb,,check,,,,,1.0,floor
+0138502AR,Celtis australis,False,Pg Fabra i Puig,17.57,10.33,ok,,large,430275.66,4587761.41,430293.07,4587759.07,1.5,class
+0138504AR,Platanus × acerifolia,True,Pg Urrutia,,8.8,median,5.3,check,,,,,1.0,floor
+0210296AR,Platanus × acerifolia,True,Pg Fabra i Puig,11.43,10.44,ok,,large,430171.67,4587547.45,430182.04,4587552.27,1.5,class
+0210829AR,Platanus × acerifolia,True,Pg Fabra i Puig,18.57,16.92,ok,,large,430171.67,4587547.45,430185.34,4587560.03,1.5,class
+0263998AR,Prunus cerasifera 'Pissardii',False,Pg Verdum,18.58,3.95,ok,,large,430926.49,4587610.48,430944.87,4587607.81,1.5,class
+0264258AR,Pinus pinea,False,Pg Verdum,17.62,6.86,ok,,large,430869.41,4587532.92,430886.87,4587530.59,1.5,class
+0289526AR,Albizia julibrissin,False,Pg Valldaura,3.66,3.14,ok,,medium,430375.76,4587805.3,430375.26,4587801.68,1.0,class
+0289527AR,Albizia julibrissin,False,Pg Valldaura,3.67,3.01,ok,,medium,430371.01,4587805.96,430370.51,4587802.33,1.0,class
+0289528AR,Albizia julibrissin,False,Pg Valldaura,4.06,3.39,ok,,medium,430367.82,4587806.41,430365.59,4587803.01,1.0,class
+0289529AR,Albizia julibrissin,False,Pg Valldaura,4.6,4.24,ok,,medium,430359.28,4587808.53,430358.65,4587803.97,1.0,class
+0289530AR,Albizia julibrissin,False,Pg Valldaura,4.6,4.2,ok,,medium,430354.1,4587809.25,430353.47,4587804.7,1.0,class
+0289531AR,Celtis australis,False,Pg Fabra i Puig,14.32,7.84,ok,,large,430353.46,4587809.34,430339.28,4587807.33,1.5,class
+0289532AR,Pyrus calleryana 'Chanticleer',False,C\ Vilalba dels Arcs,5.97,5.35,ok,,medium,430348.04,4587681.58,430342.13,4587682.38,1.0,class
+0289533AR,Albizia julibrissin,False,C\ Vilalba dels Arcs,5.95,5.19,ok,,medium,430349.23,4587690.29,430343.33,4587691.09,1.0,class
+0289534AR,Pyrus calleryana 'Chanticleer',False,C\ Vilalba dels Arcs,5.19,3.83,ok,,medium,430355.59,4587736.84,430350.45,4587737.56,1.0,class
+0289535AR,Albizia julibrissin,False,C\ Vilalba dels Arcs,5.93,4.91,ok,,medium,430350.4,4587698.98,430344.53,4587699.78,1.0,class
+0289536AR,Pyrus calleryana 'Chanticleer',False,C\ Vilalba dels Arcs,5.9,5.18,ok,,medium,430351.56,4587707.52,430345.71,4587708.32,1.0,class
+0289537AR,Pyrus calleryana 'Chanticleer',False,C\ Vilalba dels Arcs,5.88,4.94,ok,,medium,430352.79,4587716.53,430346.96,4587717.32,1.0,class
+0289540AR,Albizia julibrissin,False,C\ Vilalba dels Arcs,14.08,6.77,ok,,large,430328.85,4587696.54,430326.94,4587682.59,1.5,class
+0289541AR,Albizia julibrissin,False,C\ Vilalba dels Arcs,14.98,12.75,ok,,large,430329.78,4587696.41,430328.49,4587681.49,1.5,class
+0289628AR,Firmiana simplex,False,C\ Isard,8.35,7.87,ok,,large,430723.18,4587909.36,430714.98,4587907.81,1.5,class
+0289920AR,Jacaranda mimosifolia,False,Pg Urrutia,7.91,3.54,ok,,large,430586.87,4587392.9,430585.91,4587385.04,1.5,class
+0293221AR,Styphnolobium japonicum,False,Via Favència,,10.06,no_kerb,41.39,check,,,,,1.0,floor
+0293223AR,Ulmus pumila,False,C\ Gasela,,9.12,median,,check,,,,,1.0,floor
+0293224AR,Styphnolobium japonicum,False,C\ Castor,21.83,3.02,ok,,large,430640.22,4588194.32,430642.9,4588215.99,1.5,class
+0293894AR,Grevillea robusta,False,Pg Valldaura,15.78,14.13,ok,,large,430614.27,4587794.53,430623.18,4587807.55,1.5,class
+0298157AR,Grevillea robusta,False,Pg Valldaura,14.45,12.28,ok,,large,430788.5,4587770.24,430790.48,4587784.56,1.5,class
+0304881AR,Lagerstroemia indica,False,C\ Vilalba dels Arcs,25.55,19.53,ok,,large,430257.36,4587748.27,430253.96,4587722.95,1.5,class
+0305552AR,Acer monspessulanum,False,C\ Guineueta,9.82,4.18,ok,,large,430370.05,4587948.22,430379.76,4587946.83,1.5,class
+0305553AR,Acer monspessulanum,False,C\ Guineueta,9.13,4.04,ok,,large,430369.41,4587943.75,430378.45,4587942.46,1.5,class
+0310040AR,Populus nigra 'Italica',False,C\ Gasela,,8.25,median,,check,,,,,1.0,floor
+0311477AR,Pinus halepensis,False,C\ Gasela,,9.33,no_kerb,33.58,check,,,,,1.0,floor
+0311478AR,Ulmus pumila,False,C\ Gasela,,6.24,no_kerb,24.15,check,,,,,1.0,floor
+0311493AR,Melia azedarach,False,C\ Guineueta,,14.77,median,2.27,check,,,,,1.0,floor
+0311500AR,Celtis australis,False,C\ Esquirol Volador,8.49,8.0,ok,,large,430867.72,4587883.11,430876.14,4587881.95,1.5,class
+0318253AR,Koelreuteria paniculata 'Fastigiata',False,Via Favència,9.83,4.18,ok,,large,430170.07,4587965.59,430171.46,4587975.32,1.5,class
+0319138AR,Koelreuteria paniculata 'Fastigiata',False,Via Favència,25.55,4.93,ok,,large,430162.68,4587954.68,430137.36,4587958.09,1.5,class
+0319139AR,Photinia x fraseri 'Red Robin',False,Pg Valldaura,,4.21,no_kerb,,check,,,,,1.0,floor
+0319140AR,Fraxinus excelsior,False,Pg Valldaura,,3.66,no_kerb,,check,,,,,1.0,floor
+0319141AR,Fraxinus excelsior,False,Pg Valldaura,,3.76,no_kerb,,check,,,,,1.0,floor
+0322338AR,Casuarina cunninghamiana,False,Pg Fabra i Puig,,40.27,no_facade,,check,,,,,1.0,floor
+0331316AR,Populus alba 'Pyramidalis',False,C\ Lorena,7.6,1.73,ok,,large,430890.2,4587633.77,430891.26,4587641.29,1.5,class
+0331318AR,Populus alba 'Pyramidalis',False,C\ Lorena,7.6,4.31,ok,,large,430890.07,4587633.78,430891.13,4587641.31,1.5,class
+0331319AR,Pinus halepensis,False,C\ Lorena,9.01,2.99,ok,,large,430887.2,4587634.19,430883.51,4587642.4,1.5,class
+0346077AR,Styphnolobium japonicum,False,Via Favència,,5.61,no_kerb,45.17,check,,,,,1.0,floor
+0347119AR,Pinus halepensis,False,C\ Lorena,7.59,1.72,ok,,large,430874.2,4587636.06,430875.44,4587643.55,1.5,class
+0347122AR,Brachychiton populneus,False,Pl Ca n'Ensenya,20.31,16.52,ok,,large,430703.18,4587695.13,430684.39,4587687.42,1.5,class

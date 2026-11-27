@@ -1,0 +1,1041 @@
+tree_id,species,is_plane,street,width_m,facade_dist_m,flag,strip_width_m,size_class,ray_x0,ray_y0,ray_x1,ray_y1,pit_min_m2,pit_basis
+0172156AR,Styphnolobium japonicum,False,Av Carrilet,,31.53,no_facade,,check,,,,,1.0,floor
+0172157AR,Celtis australis,False,C\ Olzinelles,,4.11,median,5.72,check,,,,,1.0,floor
+0172158AR,Prunus cerasifera 'Pissardii',False,C\ Jocs Florals,2.47,1.91,ok,,none,427757.75,4580325.59,427760.02,4580326.56,1.0,floor
+0172160AR,Koelreuteria paniculata 'Fastigiata',False,C\ Parcerisa,4.05,2.89,ok,,medium,427614.96,4580053.79,427611.15,4580052.42,1.0,class
+0172161AR,Koelreuteria paniculata 'Fastigiata',False,Rbla Badal,,11.46,median,28.17,check,,,,,1.0,floor
+0172162AR,Celtis australis,False,C\ Juan Gris,,15.9,median,26.16,check,,,,,1.0,floor
+0172163AR,Styphnolobium japonicum,False,Rier Blanca,4.46,3.8,ok,,medium,427355.59,4580042.41,427351.59,4580040.44,1.0,class
+0172164AR,Tipuana tipu,False,C\ Constitució,16.55,8.09,ok,,large,427882.43,4580165.3,427871.14,4580177.4,1.5,class
+0172165AR,Koelreuteria paniculata 'Fastigiata',False,Rbla Badal,,11.93,median,,check,,,,,1.0,floor
+0172166AR,Populus nigra,False,Rbla Badal,,11.35,median,28.27,check,,,,,1.0,floor
+0172167AR,Styphnolobium japonicum,False,C\ Gavà,8.98,5.78,ok,,large,428079.16,4580332.9,428088.02,4580334.42,1.5,class
+0172168AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,41.11,no_facade,,check,,,,,1.0,floor
+0172169AR,Brachychiton populneus,False,Av Carrilet,27.7,15.23,ok,,large,427820.39,4579786.46,427828.37,4579812.99,1.5,class
+0172170AR,Firmiana simplex,False,C\ Bartomeu Pi,3.78,2.93,ok,,medium,427966.03,4580124.27,427968.46,4580121.38,1.0,class
+0172171AR,Ligustrum japonicum 'Texanum',False,C\ Juan Bravo,2.8,1.15,ok,,small,427985.85,4580376.46,427986.92,4580373.88,1.0,class
+0172172AR,Styphnolobium japonicum,False,Av Carrilet,6.07,4.95,ok,,large,427760.51,4579817.88,427760.25,4579811.82,1.5,class
+0172173AR,Styphnolobium japonicum,False,Av Carrilet,18.58,12.18,ok,,large,427773.15,4579777.62,427767.03,4579795.17,1.5,class
+0172174AR,Ulmus pumila,False,C\ Constitució,6.72,6.41,ok,,large,427853.01,4580189.06,427854.94,4580182.62,1.5,class
+0172175AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,17.01,median,1.98,check,,,,,1.0,floor
+0172176AR,Prunus cerasifera 'Pissardii',False,C\ Navarra,7.6,5.17,ok,,large,428100.42,4580253.26,428105.25,4580259.12,1.5,class
+0172177AR,Tipuana tipu,False,C\ Noguera Pallaresa,,5.77,no_kerb,,check,,,,,1.0,floor
+0172178AR,Robinia pseudoacacia,False,C\ Parcerisa,4.98,4.51,ok,,medium,427838.74,4579828.73,427836.13,4579824.49,1.0,class
+0172179AR,Brachychiton populneus,False,Av Carrilet,27.17,21.63,ok,,large,427824.81,4579784.26,427844.6,4579802.88,1.5,class
+0172180AR,Catalpa bignonioides,False,C\ Parcerisa,4.22,3.07,ok,,medium,427613.07,4580059.06,427609.1,4580057.63,1.0,class
+0172182AR,Styphnolobium japonicum,False,Rier Blanca,,30.57,no_facade,18.03,check,,,,,1.0,floor
+0172183AR,Hibiscus syriacus,False,C\ Constitució,2.81,1.7,ok,,small,427741.98,4580175.56,427742.21,4580172.76,1.0,class
+0172184AR,Ligustrum lucidum,False,C\ Moianès,9.3,9.1,ok,,large,428267.72,4580337.78,428277.02,4580337.37,1.5,class
+0172186AR,Tipuana tipu,False,Av Carrilet,,11.83,median,20.78,check,,,,,1.0,floor
+0172187AR,Robinia pseudoacacia,False,C\ Parcerisa,,16.21,median,13.91,check,,,,,1.0,floor
+0172188AR,Brachychiton populneus,False,Rbla Badal,3.79,3.0,ok,,medium,427502.53,4579959.78,427506.0,4579961.31,1.0,class
+0172189AR,Tipuana tipu,False,Pl Fènix,,11.98,no_kerb,,check,,,,,1.0,floor
+0172191AR,Tipuana tipu,False,Av Carrilet,,30.77,no_facade,17.8,check,,,,,1.0,floor
+0172192AR,Brachychiton populneus,False,C\ Sagunt,8.72,3.58,ok,,large,427570.01,4580183.98,427578.57,4580185.66,1.5,class
+0172193AR,Styphnolobium japonicum,False,C\ Gavà,4.32,3.64,ok,,medium,428008.93,4580273.06,428011.72,4580269.77,1.0,class
+0172194AR,Ligustrum japonicum 'Texanum',False,C\ Juan Bravo,2.62,1.08,ok,,small,427881.74,4580332.74,427882.79,4580330.34,1.0,class
+0172195AR,Brachychiton populneus,False,Rbla Badal,2.87,2.07,ok,,small,427443.17,4580142.64,427445.94,4580143.37,1.0,class
+0172196AR,Koelreuteria paniculata 'Fastigiata',False,Rbla Badal,4.04,3.62,ok,,medium,427471.94,4580217.19,427468.03,4580216.15,1.0,class
+0172197AR,Prunus cerasifera 'Pissardii',False,C\ Jocs Florals,2.21,1.33,ok,,none,427805.25,4580214.1,427807.28,4580214.98,1.0,floor
+0172198AR,Brachychiton populneus,False,Rbla Badal,4.56,3.87,ok,,medium,427555.63,4579963.0,427551.49,4579961.09,1.0,class
+0172199AR,Pinus pinea,False,Av Carrilet,,17.75,median,12.07,check,,,,,1.0,floor
+0172201AR,Firmiana simplex,False,C\ Bartomeu Pi,4.81,3.75,ok,,medium,427980.1,4580143.76,427983.18,4580140.06,1.0,class
+0172202AR,Ligustrum japonicum 'Texanum',False,C\ Juan Bravo,2.8,1.28,ok,,small,427977.02,4580372.74,427978.11,4580370.16,1.0,class
+0172203AR,Prunus cerasifera 'Pissardii',False,C\ Bonaventura Pollés,1.22,1.32,ok,,none,427499.69,4580292.84,427498.49,4580292.57,1.0,floor
+0172204AR,Brachychiton populneus,False,C\ Sagunt,1.91,1.51,ok,,none,427586.48,4580221.46,427588.34,4580221.05,1.0,floor
+0172205AR,Brachychiton populneus,False,Rbla Badal,,33.17,no_facade,,check,,,,,1.0,floor
+0172208AR,Styphnolobium japonicum,False,Av Carrilet,18.41,17.67,ok,,large,427760.04,4579773.05,427753.97,4579790.43,1.5,class
+0172209AR,Brachychiton populneus,False,Rbla Badal,22.8,19.34,ok,,large,427704.57,4579726.79,427683.22,4579718.81,1.5,class
+0172210AR,Koelreuteria paniculata 'Fastigiata',False,Rbla Badal,,11.56,median,28.29,check,,,,,1.0,floor
+0172211AR,Styphnolobium japonicum,False,Av Carrilet,18.77,17.87,ok,,large,427728.08,4579761.08,427721.13,4579778.52,1.5,class
+0172212AR,Ulmus pumila,False,C\ Moianès,2.65,1.38,ok,,small,428279.19,4580449.16,428281.84,4580449.03,1.0,class
+0172213AR,Hibiscus syriacus,False,C\ Gavà,3.46,2.19,ok,,small,428220.11,4580431.64,428220.06,4580435.11,1.0,class
+0172214AR,Styphnolobium japonicum,False,C\ Gavà,3.9,2.12,ok,,medium,427948.16,4580227.61,427950.2,4580224.29,1.0,class
+0172215AR,Styphnolobium japonicum,False,Av Carrilet,5.53,4.75,ok,,medium,427764.17,4579819.13,427766.06,4579813.94,1.0,class
+0172216AR,Platanus × acerifolia,True,C\ Corral,11.3,8.59,ok,,large,428259.62,4580335.46,428250.99,4580342.75,1.5,class
+0172217AR,Hibiscus syriacus,False,C\ Alpens,2.48,1.78,ok,,none,428108.43,4580438.92,428110.59,4580440.15,1.0,floor
+0172218AR,Celtis australis,False,C\ Juan Gris,12.89,12.03,ok,,large,427549.69,4579641.98,427538.35,4579635.84,1.5,class
+0172219AR,Styphnolobium japonicum,False,Av Carrilet,,29.21,median,,check,,,,,1.0,floor
+0172220AR,Koelreuteria paniculata 'Fastigiata',False,Rbla Badal,,11.34,median,28.28,check,,,,,1.0,floor
+0172221AR,Styphnolobium japonicum,False,Av Carrilet,19.25,18.48,ok,,large,427524.29,4579688.42,427510.8,4579702.15,1.5,class
+0172222AR,Catalpa bignonioides,False,C\ Parcerisa,4.34,3.66,ok,,medium,427628.61,4580021.72,427624.64,4580019.97,1.0,class
+0172223AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,27.36,no_kerb,,check,,,,,1.0,floor
+0172224AR,Styphnolobium japonicum,False,C\ Gavà,3.72,2.28,ok,,medium,427934.44,4580219.19,427936.38,4580216.01,1.0,class
+0172225AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,16.61,median,2.13,check,,,,,1.0,floor
+0172226AR,Brachychiton populneus,False,Rbla Badal,21.25,17.9,ok,,large,427708.46,4579716.39,427691.01,4579704.26,1.5,class
+0172228AR,Nerium oleander (blanc),False,C\ Gavà,2.76,1.91,ok,,small,427991.68,4580238.5,427989.92,4580240.62,1.0,class
+0172229AR,Koelreuteria paniculata 'Fastigiata',False,Rbla Badal,6.11,5.08,ok,,large,427453.67,4580093.95,427459.58,4580095.5,1.5,class
+0172230AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,32.81,no_facade,,check,,,,,1.0,floor
+0172231AR,Styphnolobium japonicum,False,C\ Gavà,4.28,3.8,ok,,medium,428166.35,4580406.09,428169.11,4580402.81,1.0,class
+0172232AR,Koelreuteria paniculata 'Fastigiata',False,C\ Viladecans,2.94,2.68,ok,,small,427969.36,4580179.68,427967.12,4580177.78,1.0,class
+0172233AR,Styphnolobium japonicum,False,C\ Gavà,3.63,2.55,ok,,medium,428206.14,4580438.47,428208.42,4580435.64,1.0,class
+0172235AR,Celtis australis,False,C\ Olzinelles,,4.41,median,5.72,check,,,,,1.0,floor
+0172236AR,Prunus cerasifera 'Pissardii',False,C\ Navarra,3.3,2.93,ok,,small,428127.27,4580236.69,428129.37,4580239.23,1.0,class
+0172237AR,Styphnolobium japonicum,False,Rier Blanca,4.75,4.17,ok,,medium,427358.65,4580036.49,427354.41,4580034.36,1.0,class
+0172239AR,Celtis australis,False,C\ Juan Gris,13.45,12.39,ok,,large,427583.64,4579607.63,427571.24,4579602.44,1.5,class
+0172240AR,Prunus cerasifera 'Pissardii',False,C\ Jocs Florals,2.5,2.13,ok,,small,427764.79,4580309.05,427767.09,4580310.02,1.0,class
+0172242AR,Styphnolobium japonicum,False,Rier Blanca,5.57,4.29,ok,,medium,427365.75,4580022.29,427360.76,4580019.8,1.0,class
+0172243AR,Styphnolobium japonicum,False,Av Carrilet,,36.3,no_facade,14.05,check,,,,,1.0,floor
+0172244AR,Catalpa bignonioides,False,C\ Parcerisa,4.32,3.3,ok,,medium,427621.39,4580038.48,427617.42,4580036.78,1.0,class
+0172245AR,Brachychiton populneus,False,Rda Mig (Descendent),,17.24,median,21.38,check,,,,,1.0,floor
+0172246AR,Celtis australis,False,C\ Juan Gris,16.06,15.0,ok,,large,427528.96,4579664.02,427526.14,4579648.21,1.5,class
+0172249AR,Ligustrum japonicum,False,C\ Jocs Florals,2.26,1.68,ok,,none,427802.82,4580219.69,427804.89,4580220.59,1.0,floor
+0172250AR,Ulmus pumila,False,C\ Moianès,3.19,1.82,ok,,small,428277.0,4580400.34,428279.83,4580401.81,1.0,class
+0172253AR,Koelreuteria paniculata 'Fastigiata',False,Rbla Badal,21.75,18.34,ok,,large,427707.29,4579719.51,427686.92,4579711.89,1.5,class
+0172255AR,Ligustrum lucidum,False,C\ Quetzal,3.51,2.62,ok,,medium,427444.72,4579812.67,427447.14,4579810.12,1.0,class
+0172256AR,Brachychiton populneus,False,Rbla Badal,4.22,3.59,ok,,medium,427460.01,4580261.87,427455.95,4580260.73,1.0,class
+0172257AR,Styphnolobium japonicum,False,Rier Blanca,,32.55,no_facade,12.36,check,,,,,1.0,floor
+0172258AR,Styphnolobium japonicum,False,Av Carrilet,18.5,17.76,ok,,large,427766.87,4579775.43,427760.78,4579792.9,1.5,class
+0172259AR,Platanus × acerifolia,True,G.V. Corts Catalanes,10.18,9.33,ok,,large,428105.54,4580048.59,428112.66,4580041.32,1.5,class
+0172260AR,Brachychiton populneus,False,Av Carrilet,,13.08,no_kerb,,check,,,,,1.0,floor
+0172261AR,Styphnolobium japonicum,False,Rier Blanca,8.75,7.01,ok,,large,427355.59,4580042.41,427348.38,4580047.36,1.5,class
+0172262AR,Styphnolobium japonicum,False,C\ Gavà,,11.7,median,,check,,,,,1.0,floor
+0172263AR,Brachychiton populneus,False,C\ Sagunt,1.84,1.54,ok,,none,427590.63,4580239.75,427592.43,4580239.34,1.0,floor
+0172264AR,Prunus cerasifera 'Pissardii',False,C\ Noguera Ribagorçana,2.53,1.24,ok,,small,428234.28,4580463.03,428236.1,4580464.79,1.0,class
+0172265AR,Brachychiton populneus,False,Rbla Badal,5.11,3.8,ok,,medium,427582.58,4579906.0,427578.06,4579903.62,1.0,class
+0172266AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,33.87,no_facade,2.04,check,,,,,1.0,floor
+0172267AR,Fraxinus excelsior,False,C\ Noguera Pallaresa,,1.13,no_kerb,,check,,,,,1.0,floor
+0172268AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,26.03,median,2.02,check,,,,,1.0,floor
+0172271AR,Brachychiton populneus,False,Av Carrilet,18.35,4.01,ok,,large,427740.74,4579766.13,427733.95,4579783.17,1.5,class
+0172274AR,Ulmus pumila,False,C\ Moianès,,11.48,median,,check,,,,,1.0,floor
+0172276AR,Styphnolobium japonicum,False,Av Carrilet,5.5,5.05,ok,,medium,427680.02,4579788.56,427681.98,4579783.42,1.0,class
+0172278AR,Koelreuteria paniculata 'Fastigiata',False,Rbla Badal,4.83,3.87,ok,,medium,427560.42,4579952.62,427556.03,4579950.6,1.0,class
+0172279AR,Styphnolobium japonicum,False,C\ Gavà,3.97,3.29,ok,,medium,428122.33,4580368.87,428124.89,4580365.84,1.0,class
+0172282AR,Nerium oleander,False,C\ Constitució,4.37,3.27,ok,,medium,427788.9,4580164.32,427788.63,4580168.68,1.0,class
+0172284AR,Styphnolobium japonicum,False,C\ Súria,2.72,1.79,ok,,small,427566.66,4580189.04,427565.94,4580191.67,1.0,class
+0172286AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,17.68,median,1.99,check,,,,,1.0,floor
+0172287AR,Ligustrum lucidum,False,C\ Quetzal,2.94,2.06,ok,,small,427457.2,4579808.91,427455.23,4579811.09,1.0,class
+0172288AR,Tipuana tipu,False,C\ Constitució,12.54,1.91,ok,,large,427889.94,4580172.3,427881.39,4580181.47,1.5,class
+0172290AR,Hibiscus syriacus,False,C\ Alpens,2.38,1.52,ok,,none,428067.23,4580512.26,428069.3,4580513.42,1.0,floor
+0172292AR,Brachychiton populneus,False,Rbla Badal,4.31,3.45,ok,,medium,427551.31,4579972.37,427547.4,4579970.57,1.0,class
+0172294AR,Ligustrum lucidum,False,C\ Quetzal,7.56,5.77,ok,,large,427467.06,4579833.89,427474.3,4579836.04,1.5,class
+0172296AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,33.43,no_facade,2.04,check,,,,,1.0,floor
+0172298AR,Koelreuteria paniculata 'Fastigiata',False,Rbla Badal,,12.0,median,,check,,,,,1.0,floor
+0172299AR,Platanus × acerifolia,True,Pl Fènix,,7.14,no_kerb,,check,,,,,1.0,floor
+0172301AR,Brachychiton populneus,False,Rbla Badal,,24.77,no_kerb,,check,,,,,1.0,floor
+0172302AR,Styphnolobium japonicum,False,C\ Súria,2.66,2.17,ok,,small,427495.42,4580169.56,427494.72,4580172.12,1.0,class
+0172303AR,Celtis australis,False,C\ Juan Gris,12.41,11.54,ok,,large,427521.57,4579670.55,427512.71,4579661.86,1.5,class
+0172305AR,Koelreuteria paniculata 'Fastigiata',False,Rbla Badal,5.33,4.83,ok,,medium,427588.16,4579895.44,427583.44,4579892.96,1.0,class
+0172306AR,Styphnolobium japonicum,False,Av Carrilet,18.67,12.17,ok,,large,427780.17,4579780.07,427774.02,4579797.7,1.5,class
+0172310AR,Platanus × acerifolia,True,G.V. Corts Catalanes,10.47,9.98,ok,,large,428134.07,4580076.79,428141.54,4580069.45,1.5,class
+0172311AR,Platanus × acerifolia,True,Pl Fènix,,7.0,no_kerb,,check,,,,,1.0,floor
+0172312AR,Brachychiton populneus,False,Rbla Badal,,27.92,median,12.35,check,,,,,1.0,floor
+0172314AR,Celtis australis,False,C\ Olzinelles,,4.59,median,5.68,check,,,,,1.0,floor
+0172315AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,21.57,median,1.99,check,,,,,1.0,floor
+0172316AR,Celtis australis,False,C\ Olzinelles,,4.28,median,5.7,check,,,,,1.0,floor
+0172318AR,Ligustrum lucidum,False,C\ Moianès,9.22,4.48,ok,,large,428267.0,4580321.07,428276.2,4580320.67,1.5,class
+0172321AR,Platanus × acerifolia,True,G.V. Corts Catalanes,18.19,17.04,ok,,large,428136.15,4580078.91,428154.12,4580081.77,1.5,class
+0172322AR,Brachychiton populneus,False,Rbla Badal,,26.23,no_kerb,,check,,,,,1.0,floor
+0172323AR,Brachychiton populneus,False,Av Carrilet,22.85,17.31,ok,,large,427696.46,4579748.49,427679.07,4579763.31,1.5,class
+0172324AR,Koelreuteria paniculata 'Fastigiata',False,Rbla Badal,,12.36,median,,check,,,,,1.0,floor
+0172325AR,Ligustrum lucidum,False,C\ Moianès,9.18,4.24,ok,,large,428266.7,4580314.1,428275.87,4580313.71,1.5,class
+0172326AR,Brachychiton populneus,False,Rbla Badal,,23.3,no_kerb,,check,,,,,1.0,floor
+0172327AR,Prunus cerasifera 'Pissardii',False,C\ Gaiarre,2.49,1.56,ok,,none,428109.35,4580596.6,428106.9,4580596.12,1.0,floor
+0172329AR,Ligustrum lucidum,False,C\ Quetzal,3.46,2.56,ok,,small,427527.08,4579891.08,427529.46,4579888.57,1.0,class
+0172330AR,Koelreuteria paniculata 'Fastigiata',False,Rbla Badal,,11.54,median,28.1,check,,,,,1.0,floor
+0172332AR,Brachychiton populneus,False,Rbla Badal,4.8,4.04,ok,,medium,427570.53,4579930.68,427566.17,4579928.67,1.0,class
+0172333AR,Ulmus pumila,False,C\ Moianès,,11.43,median,,check,,,,,1.0,floor
+0172334AR,Prunus cerasifera 'Pissardii',False,C\ Jocs Florals,2.47,2.14,ok,,none,427767.03,4580303.78,427769.31,4580304.75,1.0,floor
+0172335AR,Styphnolobium japonicum,False,C\ Gavà,7.49,5.88,ok,,large,428006.97,4580271.4,428005.16,4580264.14,1.5,class
+0172336AR,Koelreuteria paniculata 'Fastigiata',False,Rbla Badal,4.06,2.68,ok,,medium,427512.08,4579938.38,427515.76,4579940.08,1.0,class
+0172337AR,Brachychiton populneus,False,Rbla Badal,3.82,3.17,ok,,medium,427500.1,4580115.32,427496.41,4580114.33,1.0,class
+0172338AR,Brachychiton populneus,False,Rbla Badal,4.91,4.53,ok,,medium,427579.78,4579911.3,427575.44,4579909.0,1.0,class
+0172339AR,Hibiscus syriacus,False,C\ Alpens,2.64,1.76,ok,,small,428123.23,4580413.02,428125.52,4580414.34,1.0,class
+0172340AR,Prunus cerasifera 'Pissardii',False,C\ Jocs Florals,2.28,1.88,ok,,none,427787.85,4580255.02,427789.95,4580255.91,1.0,floor
+0172341AR,Platanus × acerifolia,True,C\ Corral,,10.43,median,12.03,check,,,,,1.0,floor
+0172342AR,Koelreuteria paniculata 'Fastigiata',False,Rbla Badal,,12.07,median,,check,,,,,1.0,floor
+0172343AR,Styphnolobium japonicum,False,Av Carrilet,22.72,15.81,ok,,large,427809.0,4579787.39,427808.08,4579810.09,1.5,class
+0172344AR,Platanus × acerifolia,True,G.V. Corts Catalanes,21.31,20.29,ok,,large,428247.55,4580187.26,428240.96,4580167.01,1.5,class
+0172345AR,Styphnolobium japonicum,False,Av Carrilet,18.33,11.62,ok,,large,427753.75,4579770.85,427747.71,4579788.16,1.5,class
+0172346AR,Fraxinus excelsior,False,C\ Noguera Pallaresa,16.01,1.56,ok,,large,428002.55,4580442.21,427996.23,4580456.93,1.5,class
+0172347AR,Prunus cerasifera 'Pissardii',False,C\ Jocs Florals,2.42,2.09,ok,,none,427771.66,4580292.92,427773.89,4580293.87,1.0,floor
+0172348AR,Populus nigra,False,Rbla Badal,,11.48,median,35.1,check,,,,,1.0,floor
+0172349AR,Styphnolobium japonicum,False,C\ Gavà,8.57,7.2,ok,,large,428068.86,4580328.76,428072.06,4580320.81,1.5,class
+0172350AR,Hibiscus syriacus,False,C\ Constitució,3.12,1.93,ok,,small,427791.99,4580178.96,427792.2,4580175.85,1.0,class
+0172351AR,Brachychiton populneus,False,Av Carrilet,,13.01,median,10.0,check,,,,,1.0,floor
+0172352AR,Brachychiton populneus,False,C\ Sagunt,1.81,1.71,ok,,none,427614.56,4580307.6,427616.2,4580306.83,1.0,floor
+0172353AR,Brachychiton populneus,False,Rbla Badal,5.26,3.98,ok,,medium,427575.84,4579812.12,427580.46,4579814.64,1.0,class
+0172354AR,Celtis australis,False,C\ Juan Gris,15.77,9.33,ok,,large,427528.96,4579664.02,427525.79,4579648.57,1.5,class
+0172355AR,Brachychiton populneus,False,Rbla Badal,3.89,2.86,ok,,medium,427532.56,4580017.84,427528.94,4580016.4,1.0,class
+0172357AR,Celtis australis,False,C\ Juan Gris,19.77,18.65,ok,,large,427563.47,4579629.52,427564.08,4579609.76,1.5,class
+0172359AR,Robinia pseudoacacia,False,C\ Parcerisa,18.04,15.63,ok,,large,427845.11,4579824.81,427857.22,4579811.43,1.5,class
+0172360AR,Catalpa bignonioides,False,C\ Parcerisa,4.41,3.68,ok,,medium,427623.43,4580033.72,427619.38,4580031.98,1.0,class
+0172362AR,Koelreuteria paniculata 'Fastigiata',False,C\ Viladecans,3.01,2.9,ok,,small,427957.09,4580194.0,427954.81,4580192.03,1.0,class
+0172363AR,Populus nigra,False,Rbla Badal,,11.11,median,35.11,check,,,,,1.0,floor
+0172364AR,Ligustrum japonicum 'Texanum',False,C\ Juan Bravo,2.73,1.17,ok,,small,427999.03,4580381.92,428000.08,4580379.4,1.0,class
+0172365AR,Styphnolobium japonicum,False,Av Carrilet,,12.48,median,10.54,check,,,,,1.0,floor
+0172368AR,Koelreuteria paniculata 'Fastigiata',False,Rbla Badal,,12.07,median,,check,,,,,1.0,floor
+0172369AR,Ligustrum japonicum 'Texanum',False,C\ Juan Bravo,2.8,0.85,ok,,small,427969.01,4580369.34,427970.1,4580366.77,1.0,class
+0172370AR,Styphnolobium japonicum,False,C\ Gavà,,11.7,median,,check,,,,,1.0,floor
+0172371AR,Ulmus pumila,False,C\ Constitució,6.15,6.01,ok,,large,427846.93,4580187.24,427848.7,4580181.35,1.5,class
+0172372AR,Ligustrum lucidum,False,C\ Quetzal,19.49,15.88,ok,,large,427516.11,4579862.48,427499.15,4579852.85,1.5,class
+0172374AR,Platanus × acerifolia,True,C\ Corral,11.52,8.88,ok,,large,428253.0,4580327.62,428244.2,4580335.06,1.5,class
+0172375AR,Hibiscus syriacus,False,C\ Constitució,2.52,1.71,ok,,small,427723.11,4580173.82,427723.26,4580171.3,1.0,class
+0172377AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,41.13,no_facade,,check,,,,,1.0,floor
+0172379AR,Celtis australis,False,C\ Juan Gris,16.06,9.39,ok,,large,427515.5,4579677.92,427499.68,4579675.15,1.5,class
+0172381AR,Brachychiton populneus,False,Rbla Badal,5.54,4.68,ok,,medium,427553.4,4579853.28,427558.26,4579855.94,1.0,class
+0172382AR,Koelreuteria paniculata,False,C\ Parcerisa,11.88,10.46,ok,,large,427845.11,4579824.81,427851.64,4579814.88,1.5,class
+0172383AR,Prunus cerasifera 'Pissardii',False,C\ Bartomeu Pi,3.51,2.41,ok,,medium,428084.45,4580246.57,428081.81,4580248.89,1.0,class
+0172386AR,Styphnolobium japonicum,False,Av Carrilet,,18.63,median,11.92,check,,,,,1.0,floor
+0172387AR,Brachychiton populneus,False,Rbla Badal,,27.69,no_kerb,,check,,,,,1.0,floor
+0172388AR,Koelreuteria paniculata 'Fastigiata',False,Rbla Badal,23.32,19.83,ok,,large,427703.21,4579730.43,427681.37,4579722.26,1.5,class
+0172389AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,33.29,no_facade,2.01,check,,,,,1.0,floor
+0172390AR,Robinia pseudoacacia,False,C\ Parcerisa,,19.47,median,,check,,,,,1.0,floor
+0172392AR,Koelreuteria paniculata 'Fastigiata',False,C\ Quetzal,2.59,1.99,ok,,small,427589.16,4579933.67,427590.43,4579931.42,1.0,class
+0172393AR,Ligustrum lucidum,False,C\ Quetzal,3.16,2.25,ok,,small,427441.65,4579793.85,427439.49,4579796.15,1.0,class
+0172394AR,Celtis australis,False,C\ Juan Gris,12.72,7.1,ok,,large,427516.28,4579675.96,427505.53,4579669.16,1.5,class
+0172395AR,Koelreuteria paniculata,False,C\ Parcerisa,4.96,4.44,ok,,medium,427830.01,4579834.1,427827.41,4579829.88,1.0,class
+0172396AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,34.18,no_facade,2.04,check,,,,,1.0,floor
+0172398AR,Styphnolobium japonicum,False,Av Carrilet,18.67,18.33,ok,,large,427779.76,4579779.93,427773.61,4579797.56,1.5,class
+0172399AR,Styphnolobium japonicum,False,Av Carrilet,21.84,21.0,ok,,large,427520.27,4579684.47,427504.96,4579700.04,1.5,class
+0172400AR,Celtis australis,False,C\ Juan Gris,15.51,14.72,ok,,large,427562.78,4579629.6,427559.48,4579614.45,1.5,class
+0172401AR,Celtis australis,False,C\ Juan Gris,12.24,11.39,ok,,large,427593.81,4579596.93,427585.02,4579588.42,1.5,class
+0172402AR,Jacaranda mimosifolia,False,Av Carrilet,,24.78,median,13.15,check,,,,,1.0,floor
+0172403AR,Hibiscus syriacus,False,C\ Alpens,2.59,1.34,ok,,small,428081.79,4580486.24,428084.05,4580487.5,1.0,class
+0172404AR,Styphnolobium japonicum,False,C\ Súria,2.66,2.42,ok,,small,427507.77,4580172.95,427507.07,4580175.51,1.0,class
+0172406AR,Styphnolobium japonicum,False,C\ Constitució,6.24,4.76,ok,,large,427368.34,4580017.11,427363.94,4580012.68,1.5,class
+0172407AR,Celtis australis,False,C\ Juan Gris,12.26,11.34,ok,,large,427555.41,4579636.02,427546.74,4579627.35,1.5,class
+0172408AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,22.38,median,2.11,check,,,,,1.0,floor
+0172409AR,Brachychiton populneus,False,Rbla Badal,4.06,3.19,ok,,medium,427454.8,4580280.49,427450.89,4580279.4,1.0,class
+0172410AR,Koelreuteria paniculata 'Fastigiata',False,C\ Quetzal,2.57,1.98,ok,,small,427598.5,4579938.94,427599.76,4579936.7,1.0,class
+0172411AR,Ligustrum lucidum,False,C\ Quetzal,3.46,2.56,ok,,small,427514.42,4579879.07,427516.81,4579876.56,1.0,class
+0172415AR,Brachychiton populneus,False,Rbla Badal,4.63,3.48,ok,,medium,427469.98,4580042.9,427474.33,4580044.49,1.0,class
+0172416AR,Celtis australis,False,C\ Olzinelles,4.81,4.45,ok,,medium,427853.14,4580306.96,427857.73,4580308.37,1.0,class
+0172417AR,Styphnolobium japonicum,False,C\ Gavà,13.38,11.77,ok,,large,428055.35,4580323.32,428060.35,4580310.9,1.5,class
+0172418AR,Koelreuteria paniculata 'Fastigiata',False,Rbla Badal,,11.5,median,28.27,check,,,,,1.0,floor
+0172419AR,Styphnolobium japonicum,False,Rier Blanca,17.23,16.19,ok,,large,427326.57,4580124.09,427317.06,4580109.72,1.5,class
+0172420AR,Koelreuteria paniculata 'Fastigiata',False,Rbla Badal,,11.47,median,28.45,check,,,,,1.0,floor
+0172421AR,Brachychiton populneus,False,Rbla Badal,5.45,4.71,ok,,medium,427643.22,4579791.63,427638.41,4579789.07,1.0,class
+0172422AR,Ligustrum lucidum,False,C\ Moianès,7.38,5.4,ok,,large,428269.51,4580219.7,428272.16,4580226.58,1.5,class
+0172423AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,40.73,no_facade,,check,,,,,1.0,floor
+0172424AR,Prunus cerasifera 'Pissardii',False,C\ Bonaventura Pollés,1.29,1.37,ok,,none,427503.23,4580277.05,427501.98,4580276.77,1.0,floor
+0172426AR,Celtis australis,False,C\ Olzinelles,,3.89,median,5.75,check,,,,,1.0,floor
+0172427AR,Brachychiton populneus,False,Rda Mig (Descendent),22.33,12.09,ok,,large,427426.06,4580196.82,427431.83,4580218.39,1.5,class
+0172428AR,Nerium oleander,False,C\ Constitució,4.31,2.91,ok,,medium,427696.65,4580172.85,427696.92,4580168.56,1.0,class
+0172429AR,Cercis siliquastrum,False,Rbla Badal,14.75,6.64,ok,,large,427485.0,4580209.95,427470.74,4580206.17,1.5,class
+0172430AR,Robinia pseudoacacia,False,C\ Parcerisa,,24.56,median,,check,,,,,1.0,floor
+0172431AR,Hibiscus syriacus,False,C\ Constitució,2.81,1.73,ok,,small,427715.42,4580173.36,427715.58,4580170.56,1.0,class
+0172432AR,Prunus cerasifera 'Pissardii',False,C\ Noguera Ribagorçana,2.62,2.05,ok,,small,428230.1,4580467.45,428232.02,4580469.23,1.0,class
+0172433AR,Koelreuteria paniculata 'Fastigiata',False,Rbla Badal,,11.2,median,28.27,check,,,,,1.0,floor
+0172435AR,Fraxinus excelsior,False,C\ Noguera Pallaresa,,2.64,no_kerb,,check,,,,,1.0,floor
+0172436AR,Koelreuteria paniculata 'Fastigiata',False,Rbla Badal,3.87,3.06,ok,,medium,427504.85,4579954.53,427508.4,4579956.1,1.0,class
+0172437AR,Brachychiton populneus,False,Av Carrilet,18.57,4.34,ok,,large,427733.99,4579763.44,427727.11,4579780.69,1.5,class
+0172438AR,Ligustrum lucidum,False,C\ Quetzal,,7.59,median,3.59,check,,,,,1.0,floor
+0172439AR,Koelreuteria paniculata 'Fastigiata',False,Rbla Badal,,12.76,median,,check,,,,,1.0,floor
+0172440AR,Platanus × acerifolia,True,G.V. Corts Catalanes,10.14,9.34,ok,,large,428075.7,4580019.4,428082.79,4580012.16,1.5,class
+0172441AR,Styphnolobium japonicum,False,Av Carrilet,5.53,4.91,ok,,medium,427770.45,4579821.41,427772.34,4579816.22,1.0,class
+0172442AR,Prunus cerasifera 'Pissardii',False,C\ Bartomeu Pi,6.95,5.9,ok,,large,427972.4,4580137.36,427976.84,4580132.01,1.5,class
+0172443AR,Prunus cerasifera 'Pissardii',False,C\ Sallent,,2.23,median,5.73,check,,,,,1.0,floor
+0172444AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,16.51,median,10.22,check,,,,,1.0,floor
+0172446AR,Platanus × acerifolia,True,G.V. Corts Catalanes,14.13,13.49,ok,,large,428247.55,4580187.26,428247.19,4580173.14,1.5,class
+0172447AR,Hibiscus syriacus,False,C\ Constitució,3.28,1.82,ok,,small,427918.89,4580194.35,427917.39,4580197.26,1.0,class
+0172448AR,Platanus × acerifolia,True,Pl Fènix,,7.38,no_kerb,,check,,,,,1.0,floor
+0172449AR,Koelreuteria paniculata 'Fastigiata',False,Rbla Badal,5.13,4.34,ok,,medium,427585.46,4579794.52,427589.96,4579796.99,1.0,class
+0172451AR,Koelreuteria paniculata 'Fastigiata',False,Rbla Badal,,11.68,median,28.37,check,,,,,1.0,floor
+0172452AR,Hibiscus syriacus,False,C\ Alpens,2.53,1.56,ok,,small,428078.86,4580491.48,428081.06,4580492.71,1.0,class
+0172453AR,Koelreuteria paniculata 'Fastigiata',False,Rbla Badal,,20.81,no_kerb,,check,,,,,1.0,floor
+0172454AR,Styphnolobium japonicum,False,Av Carrilet,,22.25,median,20.6,check,,,,,1.0,floor
+0172456AR,Brachychiton populneus,False,Rbla Badal,5.52,4.68,ok,,medium,427596.88,4579878.88,427591.99,4579876.31,1.0,class
+0172457AR,Styphnolobium japonicum,False,C\ Gavà,3.9,2.2,ok,,medium,427941.3,4580223.4,427943.34,4580220.07,1.0,class
+0172458AR,Koelreuteria paniculata 'Fastigiata',False,Rbla Badal,4.77,4.05,ok,,medium,427600.29,4579767.45,427604.47,4579769.75,1.0,class
+0172459AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,33.88,no_facade,2.02,check,,,,,1.0,floor
+0172461AR,Hibiscus syriacus,False,C\ Alpens,2.52,2.26,ok,,small,428101.98,4580450.16,428104.16,4580451.42,1.0,class
+0172462AR,Styphnolobium japonicum,False,Av Carrilet,5.6,5.24,ok,,medium,427739.57,4579810.26,427741.48,4579805.0,1.0,class
+0172463AR,Styphnolobium japonicum,False,Av Carrilet,18.56,11.6,ok,,large,427734.37,4579763.59,427727.5,4579780.83,1.5,class
+0172464AR,Catalpa bignonioides,False,C\ Parcerisa,4.17,3.19,ok,,medium,427618.85,4580044.42,427615.01,4580042.77,1.0,class
+0172465AR,Styphnolobium japonicum,False,Av Carrilet,,29.85,median,18.56,check,,,,,1.0,floor
+0172466AR,Styphnolobium japonicum,False,Av Carrilet,5.56,4.71,ok,,medium,427706.51,4579798.22,427708.41,4579793.0,1.0,class
+0172467AR,Styphnolobium japonicum,False,Av Carrilet,5.39,4.8,ok,,medium,427673.73,4579786.15,427675.65,4579781.12,1.0,class
+0172468AR,Hibiscus syriacus,False,C\ Alpens,2.49,1.74,ok,,none,428105.4,4580444.22,428107.56,4580445.46,1.0,floor
+0172469AR,Hibiscus syriacus,False,C\ Gavà,2.84,1.22,ok,,small,428054.86,4580292.43,428053.02,4580294.59,1.0,class
+0172470AR,Styphnolobium japonicum,False,Av Carrilet,18.56,17.7,ok,,large,427734.44,4579763.61,427727.56,4579780.85,1.5,class
+0172471AR,Brachychiton populneus,False,Rbla Badal,,26.23,median,12.28,check,,,,,1.0,floor
+0172472AR,Tipuana tipu,False,Av Carrilet,,31.23,no_facade,13.82,check,,,,,1.0,floor
+0172473AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,17.43,median,1.99,check,,,,,1.0,floor
+0172476AR,Prunus cerasifera 'Pissardii',False,C\ Gaiarre,2.47,1.42,ok,,none,428110.91,4580588.63,428108.48,4580588.16,1.0,floor
+0172477AR,Prunus cerasifera 'Pissardii',False,C\ Navarra,3.26,0.77,ok,,small,428115.48,4580246.47,428117.56,4580248.98,1.0,class
+0172478AR,Koelreuteria paniculata 'Fastigiata',False,Rbla Badal,,11.28,median,28.28,check,,,,,1.0,floor
+0172480AR,Ligustrum japonicum 'Texanum',False,C\ Juan Bravo,2.3,1.52,ok,,none,427869.07,4580327.38,427869.93,4580325.25,1.0,floor
+0172481AR,Cercis siliquastrum,False,Rbla Badal,14.66,6.75,ok,,large,427489.19,4580194.15,427475.02,4580190.39,1.5,class
+0172482AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,18.17,median,2.07,check,,,,,1.0,floor
+0172483AR,Brachychiton populneus,False,Rbla Badal,,20.37,no_kerb,,check,,,,,1.0,floor
+0172484AR,Koelreuteria paniculata 'Fastigiata',False,Rbla Badal,,12.46,median,,check,,,,,1.0,floor
+0172485AR,Hibiscus syriacus,False,C\ Constitució,2.28,1.48,ok,,none,427733.28,4580174.43,427733.42,4580172.16,1.0,floor
+0172486AR,Hibiscus syriacus,False,C\ Constitució,2.91,1.87,ok,,small,427767.97,4580177.37,427768.16,4580174.47,1.0,class
+0172488AR,Brachychiton populneus,False,Av Carrilet,,13.23,median,9.96,check,,,,,1.0,floor
+0172489AR,Tipuana tipu,False,Av Carrilet,,3.91,median,20.59,check,,,,,1.0,floor
+0172491AR,Tipuana tipu,False,Av Carrilet,,23.74,median,12.84,check,,,,,1.0,floor
+0172493AR,Tipuana tipu,False,C\ Noguera Pallaresa,,2.47,no_kerb,,check,,,,,1.0,floor
+0172495AR,Fraxinus excelsior,False,C\ Noguera Pallaresa,,1.3,no_kerb,,check,,,,,1.0,floor
+0172496AR,Catalpa bignonioides,False,C\ Parcerisa,4.21,3.68,ok,,medium,427608.28,4580072.79,427604.3,4580071.4,1.0,class
+0172498AR,Fraxinus angustifolia,False,C\ Noguera Pallaresa,,0.85,no_kerb,,check,,,,,1.0,floor
+0172499AR,Robinia pseudoacacia 'Bessoniana',False,C\ Parcerisa,,21.54,median,,check,,,,,1.0,floor
+0172500AR,Koelreuteria paniculata 'Fastigiata',False,Rbla Badal,,11.12,median,,check,,,,,1.0,floor
+0172501AR,Brachychiton populneus,False,Av Carrilet,18.59,4.65,ok,,large,427773.37,4579777.7,427767.25,4579795.25,1.5,class
+0172504AR,Ligustrum lucidum,False,C\ Moianès,21.47,7.13,ok,,large,428277.0,4580400.34,428280.68,4580421.49,1.5,class
+0172505AR,Robinia pseudoacacia,False,C\ Parcerisa,4.97,4.36,ok,,medium,427834.2,4579831.53,427831.59,4579827.3,1.0,class
+0172506AR,Brachychiton populneus,False,Av Carrilet,27.64,11.6,ok,,large,427816.56,4579787.16,427820.47,4579814.51,1.5,class
+0172507AR,Brachychiton populneus,False,Av Carrilet,,13.16,median,9.99,check,,,,,1.0,floor
+0172508AR,Celtis australis,False,C\ Olzinelles,,4.4,median,5.78,check,,,,,1.0,floor
+0172509AR,Ulmus pumila,False,C\ Moianès,2.63,1.58,ok,,small,428279.44,4580454.36,428282.06,4580454.23,1.0,class
+0172510AR,Brachychiton populneus,False,Pl Ildefons Cerdà,21.12,14.22,ok,,large,427611.39,4579607.01,427629.1,4579595.5,1.5,class
+0172513AR,Styphnolobium japonicum,False,Av Carrilet,18.33,18.13,ok,,large,427753.19,4579770.66,427747.15,4579787.96,1.5,class
+0172514AR,Ligustrum japonicum 'Texanum',False,C\ Juan Bravo,2.72,1.13,ok,,small,427888.74,4580335.61,427889.74,4580333.09,1.0,class
+0172515AR,Ligustrum lucidum,False,C\ Quetzal,3.56,2.66,ok,,medium,427449.16,4579816.89,427451.61,4579814.31,1.0,class
+0172517AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,28.95,median,1.97,check,,,,,1.0,floor
+0172520AR,Celtis australis,False,C\ Juan Gris,21.33,13.12,ok,,large,427549.27,4579644.1,427528.05,4579646.28,1.5,class
+0172521AR,Hibiscus syriacus,False,C\ Alpens,2.41,1.45,ok,,none,428072.96,4580502.01,428075.07,4580503.19,1.0,floor
+0172522AR,Prunus cerasifera 'Pissardii',False,C\ Navarra,5.99,0.71,ok,,medium,428074.1,4580280.68,428077.88,4580285.32,1.0,class
+0172523AR,Prunus cerasifera 'Pissardii',False,C\ Gaiarre,2.5,1.36,ok,,small,428173.59,4580461.94,428171.45,4580460.65,1.0,class
+0172525AR,Ligustrum lucidum,False,C\ Quetzal,3.46,2.5,ok,,small,427522.84,4579887.05,427525.22,4579884.54,1.0,class
+0172526AR,Ligustrum lucidum,False,C\ Moianès,,11.26,median,,check,,,,,1.0,floor
+0172527AR,Populus nigra,False,Rbla Badal,,11.78,median,35.12,check,,,,,1.0,floor
+0172528AR,Koelreuteria paniculata 'Fastigiata',False,Rbla Badal,4.35,3.38,ok,,medium,427527.83,4579904.42,427531.72,4579906.38,1.0,class
+0172530AR,Ulmus pumila,False,C\ Constitució,4.41,3.48,ok,,medium,427417.64,4580040.65,427420.1,4580036.99,1.0,class
+0172531AR,Robinia pseudoacacia,False,C\ Parcerisa,4.95,4.49,ok,,medium,427826.19,4579836.45,427823.6,4579832.24,1.0,class
+0172532AR,Prunus cerasifera 'Pissardii',False,C\ Noguera Ribagorçana,2.63,1.06,ok,,small,428226.42,4580471.42,428228.35,4580473.21,1.0,class
+0172533AR,Ligustrum lucidum,False,C\ Quetzal,6.24,4.6,ok,,large,427475.97,4579826.28,427477.56,4579832.32,1.5,class
+0172534AR,Ligustrum japonicum,False,C\ Jocs Florals,2.33,1.83,ok,,none,427783.09,4580266.26,427785.23,4580267.17,1.0,floor
+0172537AR,Firmiana simplex,False,C\ Bartomeu Pi,4.34,3.25,ok,,medium,427952.63,4580108.22,427955.42,4580104.89,1.0,class
+0172538AR,Styphnolobium japonicum,False,C\ Constitució,,11.46,median,,check,,,,,1.0,floor
+0172539AR,Koelreuteria paniculata 'Fastigiata',False,Rbla Badal,,11.37,median,28.27,check,,,,,1.0,floor
+0172540AR,Brachychiton populneus,False,Rbla Badal,3.53,2.65,ok,,medium,427481.57,4580011.8,427484.85,4580013.09,1.0,class
+0172541AR,Styphnolobium japonicum,False,Av Carrilet,,30.99,no_facade,,check,,,,,1.0,floor
+0172542AR,Koelreuteria paniculata 'Fastigiata',False,C\ Quetzal,2.52,1.75,ok,,small,427623.41,4579953.0,427624.65,4579950.8,1.0,class
+0172543AR,Celtis australis,False,C\ Juan Gris,12.25,7.26,ok,,large,427594.81,4579595.9,427586.56,4579586.86,1.5,class
+0172544AR,Koelreuteria paniculata 'Fastigiata',False,Rbla Badal,4.26,3.84,ok,,medium,427544.82,4579987.94,427540.88,4579986.31,1.0,class
+0172545AR,Hibiscus syriacus,False,C\ Constitució,3.19,1.73,ok,,small,427926.37,4580198.2,427924.91,4580201.03,1.0,class
+0172546AR,Koelreuteria paniculata 'Fastigiata',False,C\ Quetzal,2.58,1.98,ok,,small,427594.0,4579936.4,427595.27,4579934.16,1.0,class
+0172547AR,Koelreuteria paniculata 'Fastigiata',False,Rbla Badal,5.46,4.61,ok,,medium,427593.92,4579884.51,427589.09,4579881.96,1.0,class
+0172548AR,Styphnolobium japonicum,False,Rier Blanca,,39.03,no_facade,13.73,check,,,,,1.0,floor
+0172549AR,Brachychiton populneus,False,C\ Sagunt,1.94,1.22,ok,,none,427583.67,4580208.74,427585.57,4580208.33,1.0,floor
+0172550AR,Styphnolobium japonicum,False,Av Carrilet,18.76,18.05,ok,,large,427786.71,4579782.36,427780.53,4579800.07,1.5,class
+0172552AR,Ligustrum lucidum,False,C\ Quetzal,3.25,2.38,ok,,small,427466.22,4579817.05,427463.99,4579819.41,1.0,class
+0172553AR,Cercis siliquastrum,False,Rbla Badal,14.68,9.54,ok,,large,427488.41,4580197.11,427474.22,4580193.34,1.5,class
+0172554AR,Celtis australis,False,C\ Juan Gris,,9.85,median,7.8,check,,,,,1.0,floor
+0172555AR,Celtis australis,False,C\ Juan Gris,12.41,11.5,ok,,large,427517.46,4579674.74,427508.6,4579666.04,1.5,class
+0172556AR,Koelreuteria paniculata 'Fastigiata',False,C\ Viladecans,2.9,2.46,ok,,small,427977.04,4580170.62,427974.83,4580168.75,1.0,class
+0172557AR,Styphnolobium japonicum,False,Av Carrilet,,23.37,median,,check,,,,,1.0,floor
+0172558AR,Brachychiton populneus,False,C\ Sagunt,8.02,3.85,ok,,large,427570.74,4580180.24,427578.62,4580181.78,1.5,class
+0172559AR,Styphnolobium japonicum,False,C\ Gavà,4.08,2.43,ok,,medium,428102.37,4580352.08,428104.99,4580348.95,1.0,class
+0172561AR,Hibiscus syriacus,False,C\ Constitució,2.92,1.75,ok,,small,427755.92,4580176.57,427756.12,4580173.65,1.0,class
+0172564AR,Koelreuteria paniculata 'Fastigiata',False,Rbla Badal,5.46,5.04,ok,,medium,427640.51,4579796.72,427635.69,4579794.16,1.0,class
+0172565AR,Styphnolobium japonicum,False,Av Carrilet,19.22,12.29,ok,,large,427715.03,4579755.88,427707.91,4579773.73,1.5,class
+0172568AR,Ulmus pumila,False,C\ Moianès,2.63,1.14,ok,,small,428276.89,4580394.43,428279.51,4580394.38,1.0,class
+0172569AR,Styphnolobium japonicum,False,Av Carrilet,5.54,5.13,ok,,medium,427693.51,4579793.49,427695.4,4579788.28,1.0,class
+0172570AR,Koelreuteria paniculata 'Fastigiata',False,C\ Viladecans,2.92,2.77,ok,,small,427981.1,4580165.83,427978.88,4580163.94,1.0,class
+0172571AR,Celtis australis,False,C\ Olzinelles,,3.75,median,5.81,check,,,,,1.0,floor
+0172572AR,Platanus × acerifolia,True,C\ Corral,11.01,6.83,ok,,large,428205.11,4580276.66,428197.12,4580284.24,1.5,class
+0172574AR,Jacaranda mimosifolia,False,Av Carrilet,23.33,23.98,ok,,large,427518.66,4579764.68,427531.31,4579745.08,1.5,class
+0172576AR,Celtis australis,False,C\ Juan Gris,,15.22,median,,check,,,,,1.0,floor
+0172578AR,Brachychiton populneus,False,Rbla Badal,,31.12,no_facade,,check,,,,,1.0,floor
+0172582AR,Cupressus sempervirens,False,C\ Noguera Pallaresa,,1.55,no_kerb,,check,,,,,1.0,floor
+0172583AR,Styphnolobium japonicum,False,Av Carrilet,18.34,11.32,ok,,large,427740.77,4579766.14,427733.98,4579783.18,1.5,class
+0172584AR,Koelreuteria paniculata 'Fastigiata',False,Rbla Badal,,11.08,median,28.43,check,,,,,1.0,floor
+0172585AR,Brachychiton populneus,False,Av Carrilet,,13.18,median,9.92,check,,,,,1.0,floor
+0172586AR,Styphnolobium japonicum,False,Av Carrilet,19.0,11.94,ok,,large,427721.44,4579758.43,427714.41,4579776.08,1.5,class
+0172587AR,Nerium oleander,False,C\ Gavà,2.94,2.49,ok,,small,428174.34,4580393.25,428172.44,4580395.49,1.0,class
+0172590AR,Ligustrum lucidum,False,C\ Quetzal,3.58,2.58,ok,,medium,427523.76,4579871.21,427521.29,4579873.8,1.0,class
+0172592AR,Ulmus pumila,False,C\ Moianès,5.08,2.61,ok,,medium,428275.28,4580388.56,428279.14,4580385.25,1.0,class
+0172593AR,Pyrus calleryana 'Chanticleer',False,C\ Noguera Pallaresa,,1.57,no_kerb,,check,,,,,1.0,floor
+0172594AR,Celtis australis,False,C\ Juan Gris,12.29,11.17,ok,,large,427589.25,4579601.64,427580.42,4579593.09,1.5,class
+0172595AR,Brachychiton populneus,False,C\ Sagunt,2.06,0.82,ok,,none,427593.46,4580252.39,427595.47,4580251.94,1.0,floor
+0172596AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,33.43,no_facade,2.04,check,,,,,1.0,floor
+0172597AR,Styphnolobium japonicum,False,C\ Súria,2.66,1.88,ok,,small,427490.32,4580168.16,427489.61,4580170.72,1.0,class
+0172598AR,Hibiscus syriacus,False,C\ Alpens,2.48,1.59,ok,,none,428111.05,4580434.33,428113.2,4580435.55,1.0,floor
+0172599AR,Styphnolobium japonicum,False,C\ Gavà,4.0,2.24,ok,,medium,428224.16,4580453.75,428226.78,4580450.73,1.0,class
+0172600AR,Brachychiton populneus,False,Rbla Badal,3.91,3.01,ok,,medium,427496.92,4579972.91,427500.52,4579974.42,1.0,class
+0172601AR,Prunus cerasifera 'Pissardii',False,C\ Navarra,3.31,2.41,ok,,small,428132.4,4580232.44,428134.52,4580234.99,1.0,class
+0172602AR,Celtis australis,False,C\ Juan Gris,12.32,6.79,ok,,large,427586.94,4579604.03,427578.09,4579595.46,1.5,class
+0172604AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,19.49,median,2.1,check,,,,,1.0,floor
+0172605AR,Firmiana simplex,False,C\ Bartomeu Pi,3.07,2.06,ok,,small,427957.37,4580112.19,427959.34,4580109.84,1.0,class
+0172607AR,Prunus cerasifera 'Pissardii',False,C\ Moianès,9.24,8.58,ok,,large,428266.54,4580310.44,428275.76,4580310.04,1.5,class
+0172608AR,Styphnolobium japonicum,False,Rier Blanca,,19.26,median,6.53,check,,,,,1.0,floor
+0172609AR,Nerium oleander,False,C\ Constitució,3.77,2.67,ok,,medium,427613.94,4580149.51,427615.06,4580145.91,1.0,class
+0172610AR,Brachychiton populneus,False,Rbla Badal,4.24,3.72,ok,,medium,427542.82,4579992.77,427538.9,4579991.14,1.0,class
+0172612AR,Brachychiton populneus,False,Rbla Badal,3.78,2.63,ok,,medium,427476.45,4580025.2,427480.0,4580026.5,1.0,class
+0172613AR,Styphnolobium japonicum,False,Rier Blanca,17.24,13.15,ok,,large,427355.59,4580042.41,427344.56,4580055.67,1.5,class
+0172614AR,Nerium oleander,False,C\ Constitució,3.28,1.98,ok,,small,427911.99,4580190.89,427910.59,4580193.85,1.0,class
+0172615AR,Platanus × acerifolia,True,C\ Moianès,9.52,8.81,ok,,large,428258.74,4580197.77,428265.26,4580190.83,1.5,class
+0172616AR,Styphnolobium japonicum,False,C\ Gavà,4.12,2.86,ok,,medium,428036.61,4580296.28,428039.24,4580293.11,1.0,class
+0172617AR,Styphnolobium japonicum,False,Av Carrilet,,33.37,no_facade,,check,,,,,1.0,floor
+0172619AR,Brachychiton populneus,False,Rbla Badal,21.22,17.85,ok,,large,427708.46,4579716.39,427688.82,4579708.35,1.5,class
+0172621AR,Styphnolobium japonicum,False,Av Carrilet,,32.41,no_facade,,check,,,,,1.0,floor
+0172622AR,Jacaranda mimosifolia,False,Av Carrilet,,23.02,median,17.39,check,,,,,1.0,floor
+0172623AR,Ginkgo biloba 'Fastigiata Blagon',False,C\ Alpens,2.49,1.51,ok,,none,428095.86,4580460.96,428098.02,4580462.2,1.0,floor
+0172624AR,Celtis australis,False,C\ Juan Gris,12.8,11.75,ok,,large,427561.51,4579630.09,427554.8,4579619.19,1.5,class
+0172626AR,Styphnolobium japonicum,False,Av Carrilet,19.31,18.93,ok,,large,427797.35,4579785.8,427793.14,4579804.64,1.5,class
+0172627AR,Fraxinus excelsior,False,C\ Noguera Pallaresa,14.44,1.2,ok,,large,428008.22,4580444.65,428002.52,4580457.92,1.5,class
+0172628AR,Celtis australis,False,C\ Juan Gris,,16.71,median,,check,,,,,1.0,floor
+0172629AR,Platanus × acerifolia,True,G.V. Corts Catalanes,10.14,9.12,ok,,large,428069.62,4580013.45,428076.71,4580006.2,1.5,class
+0172630AR,Celtis australis,False,C\ Juan Gris,12.3,11.36,ok,,large,427559.4,4579632.02,427550.71,4579623.33,1.5,class
+0172631AR,Pyrus calleryana,False,C\ Noguera Pallaresa,,4.91,no_kerb,,check,,,,,1.0,floor
+0172632AR,Koelreuteria paniculata 'Fastigiata',False,C\ Quetzal,2.52,1.92,ok,,small,427628.0,4579955.59,427629.23,4579953.4,1.0,class
+0172633AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,40.69,no_facade,,check,,,,,1.0,floor
+0172634AR,Koelreuteria paniculata 'Fastigiata',False,Rbla Badal,3.72,3.41,ok,,medium,427524.9,4580037.46,427521.4,4580036.21,1.0,class
+0172635AR,Koelreuteria paniculata 'Fastigiata',False,Rbla Badal,4.11,3.68,ok,,medium,427456.55,4580274.23,427452.59,4580273.12,1.0,class
+0172636AR,Ulmus pumila,False,C\ Moianès,,9.23,median,5.34,check,,,,,1.0,floor
+0172637AR,Ligustrum lucidum,False,C\ Moianès,9.2,8.59,ok,,large,428266.85,4580317.72,428276.04,4580317.32,1.5,class
+0172638AR,Brachychiton populneus,False,Rbla Badal,3.61,2.77,ok,,medium,427485.84,4580000.94,427489.2,4580002.26,1.0,class
+0172639AR,Styphnolobium japonicum,False,Av Carrilet,28.44,27.51,ok,,large,427532.54,4579692.21,427548.46,4579715.78,1.5,class
+0172641AR,Platanus × acerifolia,True,C\ Corral,,15.49,median,12.21,check,,,,,1.0,floor
+0172642AR,Brachychiton populneus,False,C\ Sagunt,2.83,1.1,ok,,small,427586.36,4580159.64,427583.55,4580159.39,1.0,class
+0172643AR,Styphnolobium japonicum,False,Rier Blanca,,25.46,no_kerb,10.95,check,,,,,1.0,floor
+0172644AR,Koelreuteria paniculata 'Fastigiata',False,C\ Parcerisa,4.42,3.98,ok,,medium,427625.78,4580028.24,427621.72,4580026.5,1.0,class
+0172647AR,Brachychiton populneus,False,Rbla Badal,5.22,4.32,ok,,medium,427585.37,4579900.73,427580.75,4579898.29,1.0,class
+0172648AR,Platanus × acerifolia,True,Pl Fènix,,7.14,no_kerb,,check,,,,,1.0,floor
+0172649AR,Brachychiton populneus,False,Rbla Badal,5.46,5.17,ok,,medium,427646.01,4579786.43,427641.2,4579783.84,1.0,class
+0172650AR,Brachychiton populneus,False,Rbla Badal,5.48,4.81,ok,,medium,427637.95,4579801.56,427633.11,4579798.99,1.0,class
+0172651AR,Prunus avium,False,C\ Noguera Pallaresa,,2.33,no_kerb,,check,,,,,1.0,floor
+0172652AR,Koelreuteria paniculata 'Fastigiata',False,Rbla Badal,,11.3,median,28.48,check,,,,,1.0,floor
+0172653AR,Koelreuteria paniculata 'Fastigiata',False,Rbla Badal,,12.06,median,,check,,,,,1.0,floor
+0172654AR,Brachychiton populneus,False,Rbla Badal,5.63,5.21,ok,,medium,427616.3,4579842.37,427611.33,4579839.74,1.0,class
+0172655AR,Platanus × acerifolia,True,Pl Fènix,,7.41,no_kerb,,check,,,,,1.0,floor
+0172656AR,Styphnolobium japonicum,False,C\ Gavà,4.3,3.65,ok,,medium,428173.5,4580412.1,428176.27,4580408.82,1.0,class
+0172657AR,Brachychiton populneus,False,C\ Sagunt,1.94,1.37,ok,,none,427592.06,4580246.09,427593.95,4580245.67,1.0,floor
+0172658AR,Prunus cerasifera 'Pissardii',False,C\ Jocs Florals,2.5,1.95,ok,,small,427762.57,4580314.26,427764.87,4580315.23,1.0,class
+0172659AR,Fraxinus excelsior,False,C\ Noguera Pallaresa,12.78,1.09,ok,,large,428014.24,4580447.23,428009.2,4580458.98,1.5,class
+0172660AR,Hibiscus syriacus,False,C\ Alpens,2.39,1.63,ok,,none,428070.07,4580507.18,428072.16,4580508.35,1.0,floor
+0172662AR,Ligustrum lucidum,False,C\ Quetzal,29.02,25.48,ok,,large,427517.28,4579860.42,427492.04,4579846.08,1.5,class
+0172663AR,Prunus cerasifera 'Pissardii',False,C\ Gaiarre,2.34,0.91,ok,,none,428134.9,4580522.78,428132.93,4580521.52,1.0,floor
+0172664AR,Koelreuteria paniculata 'Fastigiata',False,Rbla Badal,22.27,18.85,ok,,large,427705.93,4579723.15,427685.07,4579715.35,1.5,class
+0172665AR,Celtis australis,False,C\ Juan Gris,12.41,7.0,ok,,large,427519.54,4579672.62,427510.68,4579663.92,1.5,class
+0172666AR,Koelreuteria paniculata 'Fastigiata',False,C\ Parcerisa,4.3,3.31,ok,,medium,427611.44,4580063.61,427607.39,4580062.15,1.0,class
+0172667AR,Ulmus pumila,False,C\ Constitució,4.59,3.68,ok,,medium,427381.09,4580016.32,427383.36,4580012.34,1.0,class
+0172668AR,Hibiscus syriacus,False,C\ Alpens,2.46,1.6,ok,,none,428076.0,4580496.59,428078.15,4580497.79,1.0,floor
+0172669AR,Prunus cerasifera 'Pissardii',False,C\ Navarra,7.6,4.8,ok,,large,428095.93,4580256.96,428100.77,4580262.83,1.5,class
+0172670AR,Hibiscus syriacus,False,C\ Alpens,2.9,1.91,ok,,small,428114.11,4580428.95,428115.52,4580431.49,1.0,class
+0172672AR,Celtis australis,False,C\ Juan Gris,20.93,13.35,ok,,large,427564.09,4579629.55,427565.17,4579608.65,1.5,class
+0172673AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,23.16,median,2.06,check,,,,,1.0,floor
+0172675AR,Brachychiton populneus,False,C\ Sagunt,2.49,1.66,ok,,none,427585.0,4580180.6,427582.51,4580180.51,1.0,floor
+0172676AR,Celtis australis,False,C\ Juan Gris,,14.1,median,,check,,,,,1.0,floor
+0172677AR,Koelreuteria paniculata 'Fastigiata',False,Rbla Badal,4.84,3.78,ok,,medium,427562.83,4579947.39,427558.43,4579945.37,1.0,class
+0172678AR,Cupressus sempervirens,False,C\ Constitució,15.62,5.41,ok,,large,427894.62,4580176.67,427902.55,4580190.14,1.5,class
+0172679AR,Jacaranda mimosifolia,False,Av Carrilet,28.45,29.26,ok,,large,427518.66,4579764.68,427541.36,4579747.52,1.5,class
+0172680AR,Brachychiton populneus,False,Pl Ildefons Cerdà,,17.79,no_kerb,40.32,check,,,,,1.0,floor
+0172681AR,Koelreuteria paniculata 'Fastigiata',False,Rbla Badal,3.83,2.92,ok,,medium,427494.6,4579978.69,427498.17,4579980.09,1.0,class
+0172682AR,Styphnolobium japonicum,False,C\ Constitució,,11.25,median,,check,,,,,1.0,floor
+0172683AR,Brachychiton populneus,False,Rbla Badal,,31.42,no_facade,,check,,,,,1.0,floor
+0172684AR,Ligustrum lucidum,False,C\ Quetzal,3.27,2.4,ok,,small,427470.55,4579821.14,427468.3,4579823.51,1.0,class
+0172685AR,Brachychiton populneus,False,Av Carrilet,18.67,4.55,ok,,large,427779.82,4579779.95,427773.67,4579797.58,1.5,class
+0172687AR,Brachychiton populneus,False,C\ Sagunt,2.85,1.24,ok,,small,427585.78,4580166.24,427582.94,4580165.99,1.0,class
+0172688AR,Populus nigra,False,Rbla Badal,,11.16,median,,check,,,,,1.0,floor
+0172689AR,Ligustrum lucidum,False,C\ Moianès,12.85,10.93,ok,,large,428269.46,4580381.76,428278.63,4580372.75,1.5,class
+0172690AR,Brachychiton populneus,False,C\ Sagunt,1.86,1.21,ok,,none,427587.83,4580227.45,427589.64,4580227.04,1.0,floor
+0172691AR,Brachychiton populneus,False,Rbla Badal,5.63,4.73,ok,,medium,427450.89,4580105.34,427456.33,4580106.78,1.0,class
+0172692AR,Styphnolobium japonicum,False,Rier Blanca,4.99,4.09,ok,,medium,427361.46,4580030.88,427356.99,4580028.65,1.0,class
+0172693AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,40.17,no_facade,,check,,,,,1.0,floor
+0172694AR,Ulmus pumila,False,C\ Moianès,,11.26,median,5.85,check,,,,,1.0,floor
+0172695AR,Brachychiton populneus,False,Rbla Badal,3.73,2.71,ok,,medium,427492.42,4579984.23,427495.9,4579985.59,1.0,class
+0172697AR,Platanus × acerifolia,True,C\ Corral,11.79,9.14,ok,,large,428245.68,4580318.95,428236.67,4580326.56,1.5,class
+0172698AR,Populus alba 'Pyramidalis',False,Rbla Badal,,11.22,median,28.22,check,,,,,1.0,floor
+0172700AR,Styphnolobium japonicum,False,Rier Blanca,23.74,19.25,ok,,large,427355.59,4580042.41,427341.79,4580061.73,1.5,class
+0172702AR,Brachychiton populneus,False,Av Carrilet,24.03,8.7,ok,,large,427811.42,4579787.46,427811.92,4579811.49,1.5,class
+0172703AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,35.96,no_facade,,check,,,,,1.0,floor
+0172704AR,Styphnolobium japonicum,False,C\ Súria,2.69,1.71,ok,,small,427542.91,4580182.56,427542.2,4580185.15,1.0,class
+0172705AR,Populus nigra,False,Rbla Badal,,10.84,median,,check,,,,,1.0,floor
+0172706AR,Koelreuteria paniculata 'Fastigiata',False,Rbla Badal,4.33,3.33,ok,,medium,427472.24,4580036.73,427476.3,4580038.21,1.0,class
+0172707AR,Koelreuteria paniculata 'Fastigiata',False,Rbla Badal,5.5,4.67,ok,,medium,427561.52,4579838.38,427566.35,4579841.02,1.0,class
+0172708AR,Tipuana tipu,False,Av Carrilet,,32.83,no_facade,17.22,check,,,,,1.0,floor
+0172709AR,Koelreuteria paniculata 'Fastigiata',False,C\ Quetzal,2.6,1.99,ok,,small,427584.03,4579930.78,427585.31,4579928.51,1.0,class
+0172710AR,Brachychiton populneus,False,C\ Sagunt,1.81,1.04,ok,,none,427596.93,4580265.12,427598.65,4580264.54,1.0,floor
+0172712AR,Hibiscus syriacus,False,C\ Gavà,3.23,1.61,ok,,small,427953.69,4580213.13,427952.03,4580215.89,1.0,class
+0172713AR,Brachychiton populneus,False,Rbla Badal,4.01,3.32,ok,,medium,427453.08,4580286.63,427449.22,4580285.55,1.0,class
+0172714AR,Styphnolobium japonicum,False,Rier Blanca,,41.1,no_facade,15.21,check,,,,,1.0,floor
+0172715AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,40.74,no_facade,,check,,,,,1.0,floor
+0172716AR,Brachychiton populneus,False,Av Carrilet,18.75,5.06,ok,,large,427786.23,4579782.19,427780.05,4579799.89,1.5,class
+0172717AR,Nerium oleander,False,C\ Constitució,3.27,2.11,ok,,small,427622.24,4580151.61,427623.42,4580148.55,1.0,class
+0172718AR,Styphnolobium japonicum,False,Av Carrilet,18.78,11.96,ok,,large,427727.95,4579761.03,427721.0,4579778.47,1.5,class
+0172719AR,Styphnolobium japonicum,False,Av Carrilet,9.13,8.45,ok,,large,427756.99,4579818.5,427754.47,4579809.72,1.5,class
+0172720AR,Koelreuteria paniculata 'Fastigiata',False,Rbla Badal,,12.41,median,33.19,check,,,,,1.0,floor
+0172721AR,Ulmus pumila,False,C\ Constitució,4.45,3.55,ok,,medium,427400.79,4580029.39,427403.26,4580025.69,1.0,class
+0172722AR,Styphnolobium japonicum,False,C\ Súria,2.66,2.07,ok,,small,427502.38,4580171.47,427501.67,4580174.03,1.0,class
+0172723AR,Brachychiton populneus,False,Rbla Badal,3.8,3.35,ok,,medium,427529.15,4580026.37,427525.63,4580024.97,1.0,class
+0172724AR,Styphnolobium japonicum,False,Av Carrilet,5.15,4.6,ok,,medium,427660.56,4579781.13,427662.4,4579776.32,1.0,class
+0172725AR,Celtis australis,False,C\ Juan Gris,12.34,11.39,ok,,large,427585.12,4579605.91,427576.25,4579597.32,1.5,class
+0172726AR,Styphnolobium japonicum,False,Av Carrilet,20.19,19.55,ok,,large,427696.46,4579748.49,427686.33,4579765.96,1.5,class
+0172728AR,Celtis australis,False,C\ Juan Gris,,16.83,median,,check,,,,,1.0,floor
+0172729AR,Koelreuteria paniculata 'Fastigiata',False,C\ Viladecans,3.01,2.83,ok,,small,427960.77,4580189.74,427958.49,4580187.77,1.0,class
+0172730AR,Styphnolobium japonicum,False,C\ Gavà,3.9,1.97,ok,,medium,427961.89,4580236.04,427963.93,4580232.72,1.0,class
+0172731AR,Styphnolobium japonicum,False,Av Carrilet,5.27,4.63,ok,,medium,427667.27,4579783.69,427669.15,4579778.77,1.0,class
+0172732AR,Styphnolobium japonicum,False,Av Carrilet,5.57,5.24,ok,,medium,427713.11,4579800.63,427715.01,4579795.4,1.0,class
+0172733AR,Ulmus pumila,False,C\ Moianès,,13.53,median,5.7,check,,,,,1.0,floor
+0172734AR,Styphnolobium japonicum,False,Av Carrilet,6.03,5.3,ok,,large,427773.89,4579822.67,427778.03,4579818.28,1.5,class
+0172736AR,Styphnolobium japonicum,False,Av Carrilet,21.52,21.81,ok,,large,427696.46,4579748.49,427681.95,4579764.38,1.5,class
+0172737AR,Koelreuteria paniculata 'Fastigiata',False,Rbla Badal,5.55,4.59,ok,,medium,427626.15,4579823.78,427621.25,4579821.18,1.0,class
+0172738AR,Koelreuteria paniculata 'Fastigiata',False,C\ Quetzal,2.61,2.01,ok,,small,427579.15,4579928.02,427580.43,4579925.75,1.0,class
+0172740AR,Styphnolobium japonicum,False,Av Carrilet,,20.52,median,27.3,check,,,,,1.0,floor
+0172741AR,Celtis australis,False,C\ Juan Gris,15.26,8.88,ok,,large,427596.64,4579595.02,427593.15,4579580.17,1.5,class
+0172742AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,34.12,no_facade,2.02,check,,,,,1.0,floor
+0172743AR,Koelreuteria paniculata 'Fastigiata',False,Rbla Badal,4.06,2.92,ok,,medium,427516.96,4579927.77,427520.64,4579929.47,1.0,class
+0172745AR,Brachychiton populneus,False,C\ Sagunt,2.18,1.94,ok,,none,427594.89,4580258.8,427597.02,4580258.33,1.0,floor
+0172746AR,Celtis australis,False,C\ Olzinelles,,4.35,median,5.64,check,,,,,1.0,floor
+0172747AR,Brachychiton populneus,False,Rbla Badal,5.49,4.87,ok,,medium,427635.2,4579806.73,427630.35,4579804.16,1.0,class
+0172748AR,Koelreuteria paniculata 'Fastigiata',False,Rbla Badal,,11.49,median,28.46,check,,,,,1.0,floor
+0172749AR,Koelreuteria paniculata 'Fastigiata',False,Rbla Badal,,12.43,median,,check,,,,,1.0,floor
+0172750AR,Styphnolobium japonicum,False,Av Carrilet,,30.32,no_facade,13.37,check,,,,,1.0,floor
+0172751AR,Nerium oleander,False,C\ Gavà,3.11,2.91,ok,,small,428165.29,4580385.59,428163.28,4580387.96,1.0,class
+0172752AR,Styphnolobium japonicum,False,Av Carrilet,12.18,11.48,ok,,large,427777.55,4579827.56,427788.42,4579822.06,1.5,class
+0172753AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,33.18,no_facade,2.06,check,,,,,1.0,floor
+0172754AR,Koelreuteria paniculata 'Fastigiata',False,Rbla Badal,,11.34,median,28.38,check,,,,,1.0,floor
+0172755AR,Platanus × acerifolia,True,G.V. Corts Catalanes,26.51,24.23,ok,,large,428136.15,4580078.91,428160.89,4580088.43,1.5,class
+0172756AR,Styphnolobium japonicum,False,Av Carrilet,19.82,18.5,ok,,large,427700.27,4579749.92,427693.35,4579768.48,1.5,class
+0172757AR,Brachychiton populneus,False,Rbla Badal,4.67,3.8,ok,,medium,427557.65,4579958.61,427553.41,4579956.66,1.0,class
+0172758AR,Celtis australis,False,C\ Olzinelles,4.85,4.17,ok,,medium,427835.53,4580364.32,427840.17,4580365.74,1.0,class
+0172759AR,Styphnolobium japonicum,False,C\ Súria,2.66,1.97,ok,,small,427513.38,4580174.49,427512.68,4580177.05,1.0,class
+0172760AR,Brachychiton populneus,False,Rbla Badal,5.51,4.85,ok,,medium,427559.27,4579842.51,427564.11,4579845.15,1.0,class
+0172761AR,Brachychiton populneus,False,C\ Sagunt,1.8,1.4,ok,,none,427589.2,4580233.45,427590.95,4580233.05,1.0,floor
+0172762AR,Hibiscus syriacus,False,C\ Constitució,3.2,1.99,ok,,small,427801.85,4580179.62,427802.06,4580176.43,1.0,class
+0172763AR,Brachychiton populneus,False,Rbla Badal,4.28,3.43,ok,,medium,427549.07,4579977.63,427545.1,4579976.01,1.0,class
+0172768AR,Cercis siliquastrum,False,Rbla Badal,14.6,8.69,ok,,large,427492.4,4580182.08,427478.29,4580178.33,1.5,class
+0172770AR,Platanus × acerifolia,True,G.V. Corts Catalanes,10.13,9.41,ok,,large,428081.23,4580024.81,428088.31,4580017.58,1.5,class
+0172771AR,Brachychiton populneus,False,Pl Ildefons Cerdà,,21.68,no_kerb,39.24,check,,,,,1.0,floor
+0172772AR,Melia azedarach,False,C\ Viladecans,3.09,2.35,ok,,small,428030.7,4580107.45,428028.34,4580105.46,1.0,class
+0172773AR,Styphnolobium japonicum,False,Av Carrilet,8.57,7.88,ok,,large,427776.09,4579825.16,427783.0,4579820.09,1.5,class
+0172775AR,Celtis australis,False,C\ Juan Gris,12.6,7.23,ok,,large,427527.1,4579664.92,427519.83,4579654.62,1.5,class
+0172777AR,Brachychiton populneus,False,Av Carrilet,20.73,15.84,ok,,large,427696.46,4579748.49,427684.16,4579765.18,1.5,class
+0172778AR,Tipuana tipu,False,C\ Constitució,14.63,2.27,ok,,large,427886.03,4580168.66,427876.05,4580179.36,1.5,class
+0172779AR,Brachychiton populneus,False,Av Carrilet,29.84,6.02,ok,,large,427824.81,4579784.26,427850.74,4579799.03,1.5,class
+0172781AR,Melia azedarach,False,C\ Parcerisa,4.12,3.33,ok,,medium,427606.29,4580078.44,427602.41,4580077.08,1.0,class
+0172784AR,Koelreuteria paniculata 'Fastigiata',False,Rbla Badal,,11.56,median,28.3,check,,,,,1.0,floor
+0172785AR,Koelreuteria paniculata 'Fastigiata',False,Rbla Badal,3.5,2.77,ok,,medium,427478.79,4580018.87,427482.04,4580020.15,1.0,class
+0172786AR,Ulmus pumila,False,C\ Moianès,6.74,4.05,ok,,large,428277.75,4580440.11,428281.21,4580434.32,1.5,class
+0172787AR,Jacaranda mimosifolia,False,Av Carrilet,,20.41,median,18.68,check,,,,,1.0,floor
+0172788AR,Brachychiton populneus,False,Rbla Badal,5.48,5.04,ok,,medium,427648.94,4579780.99,427644.12,4579778.39,1.0,class
+0172789AR,Koelreuteria paniculata 'Fastigiata',False,Rbla Badal,,11.4,median,28.27,check,,,,,1.0,floor
+0172790AR,Melia azedarach,False,C\ Viladecans,3.04,2.16,ok,,small,428008.96,4580132.91,428006.66,4580130.93,1.0,class
+0172791AR,Koelreuteria paniculata 'Fastigiata',False,Rbla Badal,4.02,3.29,ok,,medium,427492.94,4580141.79,427489.06,4580140.73,1.0,class
+0172793AR,Styphnolobium japonicum,False,C\ Súria,2.7,2.09,ok,,small,427554.87,4580185.83,427554.16,4580188.43,1.0,class
+0172794AR,Hibiscus syriacus,False,C\ Constitució,3.83,2.68,ok,,medium,427606.2,4580147.12,427607.33,4580143.46,1.0,class
+0172795AR,Prunus cerasifera 'Pissardii',False,Ptge Toledo,,3.0,median,5.22,check,,,,,1.0,floor
+0172796AR,Styphnolobium japonicum,False,Av Carrilet,24.81,23.66,ok,,large,427516.45,4579680.72,427498.25,4579697.57,1.5,class
+0172798AR,Prunus cerasifera 'Pissardii',False,C\ Jocs Florals,2.13,1.5,ok,,none,427809.92,4580203.35,427811.88,4580204.17,1.0,floor
+0172800AR,Populus nigra,False,Rbla Badal,,8.74,median,4.63,check,,,,,1.0,floor
+0172801AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,16.36,median,2.08,check,,,,,1.0,floor
+0172804AR,Firmiana simplex,False,C\ Bartomeu Pi,2.63,1.7,ok,,small,427970.24,4580127.8,427971.93,4580125.79,1.0,class
+0172805AR,Styphnolobium japonicum,False,C\ Noguera Pallaresa,14.67,5.75,ok,,large,428007.42,4580444.3,428001.63,4580457.78,1.5,class
+0172806AR,Ulmus pumila,False,C\ Moianès,,11.24,median,,check,,,,,1.0,floor
+0172807AR,Tipuana tipu,False,Av Carrilet,2.46,3.29,ok,,none,427575.37,4579758.36,427575.53,4579755.9,1.0,floor
+0172808AR,Prunus cerasifera 'Pissardii',False,C\ Bonaventura Pollés,6.24,1.48,ok,,large,427500.87,4580287.56,427494.78,4580286.19,1.5,class
+0172809AR,Jacaranda mimosifolia,False,Av Carrilet,,7.9,median,20.03,check,,,,,1.0,floor
+0172810AR,Brachychiton populneus,False,Rbla Badal,4.84,4.52,ok,,medium,427565.36,4579941.89,427560.97,4579939.87,1.0,class
+0172811AR,Tipuana tipu,False,Av Carrilet,,3.75,median,21.23,check,,,,,1.0,floor
+0172814AR,Hibiscus syriacus,False,C\ Constitució,2.91,1.72,ok,,small,427749.23,4580176.12,427749.42,4580173.22,1.0,class
+0172815AR,Ligustrum japonicum 'Texanum',False,C\ Juan Bravo,2.87,1.27,ok,,small,427926.62,4580351.61,427927.75,4580348.97,1.0,class
+0172816AR,Brachychiton populneus,False,Rbla Badal,5.47,4.65,ok,,medium,427449.08,4580112.19,427454.37,4580113.59,1.0,class
+0172817AR,Brachychiton populneus,False,Rbla Badal,4.09,3.45,ok,,medium,427488.41,4580158.4,427484.46,4580157.32,1.0,class
+0172818AR,Ligustrum japonicum,False,C\ Jocs Florals,2.34,1.76,ok,,none,427785.43,4580260.72,427787.59,4580261.64,1.0,floor
+0172819AR,Nerium oleander,False,C\ Gavà,3.31,2.85,ok,,small,428146.53,4580369.56,428144.36,4580372.06,1.0,class
+0172821AR,Styphnolobium japonicum,False,C\ Súria,2.66,1.96,ok,,small,427525.11,4580177.71,427524.41,4580180.27,1.0,class
+0172822AR,Prunus cerasifera 'Nigra',False,Ptge Toledo,,2.64,median,4.93,check,,,,,1.0,floor
+0172823AR,Nerium oleander,False,C\ Gavà,3.37,1.23,ok,,small,427972.97,4580225.45,427970.04,4580227.12,1.0,class
+0172824AR,Brachychiton populneus,False,Rbla Badal,4.98,3.98,ok,,medium,427591.95,4579782.67,427596.32,4579785.06,1.0,class
+0172825AR,Brachychiton populneus,False,Rbla Badal,5.6,5.14,ok,,medium,427619.98,4579835.41,427615.04,4579832.8,1.0,class
+0172826AR,Brachychiton populneus,False,Rbla Badal,5.51,5.07,ok,,medium,427631.73,4579813.26,427626.87,4579810.68,1.0,class
+0172828AR,Hibiscus syriacus,False,C\ Alpens,2.48,1.61,ok,,none,428099.2,4580455.12,428101.35,4580456.35,1.0,floor
+0172831AR,Styphnolobium japonicum,False,Av Carrilet,16.46,15.52,ok,,large,427527.89,4579691.96,427517.19,4579704.46,1.5,class
+0172832AR,Koelreuteria paniculata 'Fastigiata',False,C\ Quetzal,2.53,1.94,ok,,small,427618.28,4579950.11,427619.52,4579947.9,1.0,class
+0172833AR,Ligustrum lucidum,False,C\ Quetzal,,18.13,median,,check,,,,,1.0,floor
+0172834AR,Koelreuteria paniculata 'Fastigiata',False,C\ Constitució,4.42,3.45,ok,,medium,427411.18,4580036.33,427413.64,4580032.66,1.0,class
+0172835AR,Styphnolobium japonicum,False,C\ Súria,2.71,1.91,ok,,small,427560.13,4580187.26,427559.42,4580189.88,1.0,class
+0172836AR,Brachychiton populneus,False,Ptge Solsona,,2.75,no_kerb,36.73,check,,,,,1.0,floor
+0172837AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,16.28,median,3.78,check,,,,,1.0,floor
+0172839AR,Koelreuteria paniculata 'Fastigiata',False,Rbla Badal,,11.24,median,28.24,check,,,,,1.0,floor
+0172840AR,Prunus cerasifera 'Pissardii',False,C\ Navarra,15.28,4.41,ok,,large,428112.48,4580248.95,428103.03,4580260.96,1.5,class
+0172841AR,Styphnolobium japonicum,False,Rier Blanca,,36.42,no_facade,16.65,check,,,,,1.0,floor
+0172842AR,Brachychiton populneus,False,C\ Sagunt,2.83,1.22,ok,,small,427585.35,4580173.23,427582.53,4580173.08,1.0,class
+0172843AR,Tipuana tipu,False,Av Carrilet,,7.1,median,10.81,check,,,,,1.0,floor
+0172844AR,Ligustrum lucidum,False,C\ Quetzal,4.06,2.51,ok,,medium,427436.45,4579805.9,427436.66,4579801.84,1.0,class
+0172845AR,Koelreuteria paniculata 'Fastigiata',False,Rbla Badal,,11.04,median,28.29,check,,,,,1.0,floor
+0172846AR,Nerium oleander,False,C\ Gavà,2.99,1.25,ok,,small,428043.06,4580282.37,428041.12,4580284.65,1.0,class
+0172848AR,Brachychiton populneus,False,Rbla Badal,22.03,18.93,ok,,large,427712.78,4579709.06,427696.24,4579694.5,1.5,class
+0172850AR,Brachychiton populneus,False,Rbla Badal,5.73,4.63,ok,,medium,427545.18,4579868.35,427550.2,4579871.1,1.0,class
+0172851AR,Styphnolobium japonicum,False,Av Carrilet,,10.69,median,8.76,check,,,,,1.0,floor
+0172852AR,Prunus cerasifera 'Pissardii',False,C\ Bartomeu Pi,3.5,2.78,ok,,medium,428074.72,4580235.48,428072.09,4580237.79,1.0,class
+0172855AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,16.77,median,2.09,check,,,,,1.0,floor
+0172856AR,Styphnolobium japonicum,False,C\ Gavà,6.45,5.18,ok,,large,428074.75,4580331.13,428077.16,4580325.14,1.5,class
+0172857AR,Styphnolobium japonicum,False,Av Carrilet,25.62,18.76,ok,,large,427813.82,4579787.4,427815.9,4579812.94,1.5,class
+0172858AR,Koelreuteria paniculata 'Fastigiata',False,Av Carrilet,,19.67,no_kerb,,check,,,,,1.0,floor
+0172859AR,Robinia pseudoacacia,False,C\ Parcerisa,4.99,4.35,ok,,medium,427843.27,4579825.94,427840.66,4579821.69,1.0,class
+0172861AR,Celtis australis,False,C\ Olzinelles,,3.78,median,5.65,check,,,,,1.0,floor
+0172862AR,Tipuana tipu,False,C\ Constitució,13.15,8.29,ok,,large,427888.81,4580171.25,427879.84,4580180.86,1.5,class
+0172863AR,Hibiscus syriacus,False,C\ Alpens,2.59,1.72,ok,,small,428117.34,4580423.32,428119.59,4580424.6,1.0,class
+0172865AR,Koelreuteria paniculata 'Fastigiata',False,Rbla Badal,,11.26,median,28.12,check,,,,,1.0,floor
+0172866AR,Platanus × acerifolia,True,G.V. Corts Catalanes,10.3,9.58,ok,,large,428127.88,4580070.49,428135.23,4580063.27,1.5,class
+0172867AR,Styphnolobium japonicum,False,C\ Gavà,20.47,10.9,ok,,large,428096.37,4580347.04,428083.84,4580330.85,1.5,class
+0172868AR,Nerium oleander,False,C\ Gavà,3.08,2.34,ok,,small,428081.99,4580315.17,428080.02,4580317.54,1.0,class
+0172869AR,Platanus × acerifolia,True,G.V. Corts Catalanes,10.14,9.06,ok,,large,428093.49,4580036.81,428100.58,4580029.56,1.5,class
+0172871AR,Brachychiton populneus,False,Av Carrilet,,13.11,median,10.01,check,,,,,1.0,floor
+0172872AR,Styphnolobium japonicum,False,Av Carrilet,19.47,13.38,ok,,large,427798.54,4579786.06,427794.32,4579805.07,1.5,class
+0172873AR,Brachychiton populneus,False,Av Carrilet,,13.17,median,9.98,check,,,,,1.0,floor
+0172875AR,Brachychiton populneus,False,Av Carrilet,18.5,4.14,ok,,large,427766.98,4579775.47,427760.89,4579792.94,1.5,class
+0172877AR,Brachychiton populneus,False,Rbla Badal,5.27,4.47,ok,,medium,427446.26,4580122.85,427451.35,4580124.19,1.0,class
+0172879AR,Hibiscus syriacus,False,C\ Gavà,2.69,0.88,ok,,small,427980.44,4580230.43,427978.94,4580232.67,1.0,class
+0172880AR,Styphnolobium japonicum,False,Av Carrilet,18.41,11.61,ok,,large,427759.97,4579773.02,427753.9,4579790.41,1.5,class
+0172881AR,Styphnolobium japonicum,False,Av Carrilet,20.88,14.41,ok,,large,427804.2,4579787.01,427801.59,4579807.72,1.5,class
+0172882AR,Celtis australis,False,C\ Juan Gris,16.3,15.55,ok,,large,427515.5,4579677.92,427499.39,4579675.45,1.5,class
+0172883AR,Styphnolobium japonicum,False,C\ Constitució,4.41,3.51,ok,,medium,427422.29,4580043.77,427424.74,4580040.1,1.0,class
+0172884AR,Celtis australis,False,C\ Juan Gris,13.13,12.26,ok,,large,427527.69,4579664.5,427521.51,4579652.92,1.5,class
+0172885AR,Styphnolobium japonicum,False,C\ Gavà,3.9,1.89,ok,,medium,427968.76,4580240.26,427970.8,4580236.93,1.0,class
+0172886AR,Celtis australis,False,C\ Juan Gris,12.68,11.67,ok,,large,427595.38,4579595.51,427588.57,4579584.81,1.5,class
+0172887AR,Brachychiton populneus,False,Av Carrilet,26.28,15.48,ok,,large,427824.81,4579784.26,427840.0,4579805.7,1.5,class
+0172888AR,Fraxinus excelsior,False,C\ Noguera Pallaresa,,1.45,no_kerb,,check,,,,,1.0,floor
+0172889AR,Fraxinus angustifolia,False,C\ Noguera Pallaresa,,5.71,no_kerb,24.43,check,,,,,1.0,floor
+0172890AR,Styphnolobium japonicum,False,C\ Gavà,4.3,3.78,ok,,medium,428180.63,4580418.07,428183.39,4580414.77,1.0,class
+0172892AR,Koelreuteria paniculata 'Fastigiata',False,C\ Viladecans,3.09,2.06,ok,,small,428027.31,4580111.44,428024.96,4580109.45,1.0,class
+0172893AR,Tipuana tipu,False,Av Carrilet,,15.33,median,19.79,check,,,,,1.0,floor
+0172894AR,Hibiscus syriacus,False,C\ Gavà,3.0,2.15,ok,,small,428090.52,4580322.45,428088.54,4580324.71,1.0,class
+0172896AR,Styphnolobium japonicum,False,Av Carrilet,18.58,18.51,ok,,large,427773.06,4579777.59,427766.94,4579795.14,1.5,class
+0172899AR,Firmiana simplex,False,C\ Bartomeu Pi,6.37,4.03,ok,,large,427960.56,4580114.86,427965.97,4580118.23,1.5,class
+0172900AR,Brachychiton populneus,False,Pl Ildefons Cerdà,,19.76,no_kerb,37.06,check,,,,,1.0,floor
+0172901AR,Brachychiton populneus,False,Rda Mig (Descendent),,16.66,median,14.16,check,,,,,1.0,floor
+0172902AR,Hibiscus syriacus,False,C\ Constitució,5.21,5.21,ok,,medium,427838.33,4580184.61,427839.87,4580179.63,1.0,class
+0172903AR,Brachychiton populneus,False,Rbla Badal,3.9,3.45,ok,,medium,427498.5,4580121.3,427494.73,4580120.29,1.0,class
+0172904AR,Ligustrum lucidum,False,C\ Quetzal,3.56,2.66,ok,,medium,427457.29,4579824.61,427459.74,4579822.03,1.0,class
+0172905AR,Brachychiton populneus,False,Rbla Badal,5.66,4.95,ok,,medium,427547.83,4579863.48,427552.81,4579866.19,1.0,class
+0172906AR,Celtis australis,False,C\ Juan Gris,12.68,7.2,ok,,large,427583.9,4579607.23,427573.19,4579600.45,1.5,class
+0172907AR,Styphnolobium japonicum,False,C\ Súria,2.66,2.01,ok,,small,427519.39,4580176.14,427518.69,4580178.7,1.0,class
+0172908AR,Populus nigra,False,Rbla Badal,,7.87,median,4.52,check,,,,,1.0,floor
+0172909AR,Robinia pseudoacacia,False,C\ Parcerisa,,12.18,median,13.86,check,,,,,1.0,floor
+0172910AR,Prunus cerasifera 'Pissardii',False,C\ Jocs Florals,2.3,1.73,ok,,none,427780.61,4580272.11,427782.73,4580273.0,1.0,floor
+0172911AR,Ligustrum lucidum,False,C\ Quetzal,3.22,2.38,ok,,small,427447.98,4579799.78,427445.77,4579802.12,1.0,class
+0172912AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,27.94,median,2.0,check,,,,,1.0,floor
+0172913AR,Platanus × acerifolia,True,G.V. Corts Catalanes,10.15,9.21,ok,,large,428063.76,4580007.71,428070.86,4580000.46,1.5,class
+0172914AR,Brachychiton populneus,False,Av Carrilet,18.42,4.08,ok,,large,427760.18,4579773.1,427754.12,4579790.48,1.5,class
+0172915AR,Cercis siliquastrum,False,Rbla Badal,14.62,5.09,ok,,large,427491.26,4580186.37,427477.13,4580182.61,1.5,class
+0172916AR,Hibiscus syriacus,False,C\ Constitució,3.51,2.6,ok,,medium,427632.23,4580155.11,427633.29,4580151.76,1.0,class
+0172917AR,Brachychiton populneus,False,Rbla Badal,5.42,4.63,ok,,medium,427567.3,4579827.79,427572.06,4579830.38,1.0,class
+0172918AR,Fraxinus excelsior,False,C\ Noguera Pallaresa,,6.12,no_kerb,,check,,,,,1.0,floor
+0172919AR,Platanus × acerifolia,True,G.V. Corts Catalanes,11.9,10.88,ok,,large,428136.15,4580078.91,428147.48,4580075.27,1.5,class
+0172920AR,Styphnolobium japonicum,False,Av Carrilet,16.26,15.29,ok,,large,427530.51,4579692.83,427529.86,4579709.08,1.5,class
+0172921AR,Koelreuteria paniculata 'Fastigiata',False,C\ Viladecans,3.01,2.14,ok,,small,427952.79,4580198.98,427950.51,4580197.01,1.0,class
+0172922AR,Platanus × acerifolia,True,Pl Fènix,,6.85,no_kerb,,check,,,,,1.0,floor
+0172923AR,Prunus cerasifera 'Pissardii',False,C\ Jocs Florals,2.15,0.88,ok,,none,427812.29,4580197.72,427814.27,4580198.55,1.0,floor
+0172927AR,Celtis australis,False,C\ Juan Gris,15.57,9.1,ok,,large,427549.28,4579643.33,427534.02,4579640.23,1.5,class
+0172929AR,Celtis australis,False,C\ Juan Gris,12.4,11.44,ok,,large,427525.79,4579666.25,427516.95,4579657.56,1.5,class
+0172931AR,Brachychiton populneus,False,Rbla Badal,5.67,4.89,ok,,medium,427612.34,4579849.87,427607.33,4579847.22,1.0,class
+0172932AR,Brachychiton populneus,False,Rbla Badal,21.46,18.3,ok,,large,427712.78,4579709.06,427693.59,4579699.45,1.5,class
+0172934AR,Brachychiton populneus,False,Rbla Badal,4.74,4.22,ok,,medium,427572.98,4579925.36,427568.68,4579923.37,1.0,class
+0172935AR,Platanus × acerifolia,True,G.V. Corts Catalanes,10.13,8.55,ok,,large,428052.06,4579996.24,428059.15,4579989.01,1.5,class
+0172936AR,Prunus cerasifera 'Pissardii',False,C\ Jocs Florals,0.98,1.36,ok,,none,427814.71,4580191.95,427815.61,4580192.33,1.0,floor
+0172937AR,Ulmus pumila,False,C\ Moianès,8.46,6.53,ok,,large,428272.49,4580385.29,428278.92,4580379.8,1.5,class
+0172938AR,Koelreuteria paniculata 'Fastigiata',False,Rbla Badal,,29.09,median,,check,,,,,1.0,floor
+0172942AR,Fraxinus angustifolia,False,C\ Noguera Pallaresa,15.89,5.8,ok,,large,428002.98,4580442.4,427996.71,4580457.0,1.5,class
+0172943AR,Brachychiton populneus,False,Rbla Badal,4.89,4.11,ok,,medium,427595.69,4579775.84,427599.98,4579778.19,1.0,class
+0172944AR,Ligustrum lucidum,False,C\ Quetzal,3.54,2.64,ok,,medium,427462.52,4579829.58,427464.96,4579827.01,1.0,class
+0172945AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,40.94,no_facade,,check,,,,,1.0,floor
+0172946AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,33.32,no_facade,2.07,check,,,,,1.0,floor
+0172947AR,Prunus cerasifera 'Pissardii',False,C\ Jocs Florals,5.25,2.03,ok,,medium,427775.22,4580284.58,427780.04,4580286.68,1.0,class
+0172948AR,Brachychiton populneus,False,Rbla Badal,5.35,4.37,ok,,medium,427570.42,4579822.07,427575.12,4579824.63,1.0,class
+0172949AR,Ligustrum lucidum,False,C\ Quetzal,3.28,2.41,ok,,small,427475.09,4579825.44,427472.83,4579827.82,1.0,class
+0172950AR,Tipuana tipu,False,Av Carrilet,,7.34,median,20.5,check,,,,,1.0,floor
+0172951AR,Ulmus pumila,False,C\ Moianès,2.6,1.88,ok,,small,428279.73,4580460.45,428282.32,4580460.33,1.0,class
+0172952AR,Celtis australis,False,C\ Juan Gris,15.3,9.55,ok,,large,427562.78,4579629.6,427559.21,4579614.72,1.5,class
+0172953AR,Platanus × acerifolia,True,G.V. Corts Catalanes,9.9,9.37,ok,,large,428247.55,4580187.26,428253.58,4580179.42,1.5,class
+0172955AR,Styphnolobium japonicum,False,C\ Gavà,3.81,1.96,ok,,medium,428197.22,4580431.29,428199.61,4580428.32,1.0,class
+0172956AR,Brachychiton populneus,False,Rbla Badal,5.29,4.94,ok,,medium,427573.36,4579816.67,427578.01,4579819.2,1.0,class
+0172957AR,Brachychiton populneus,False,Rbla Badal,3.85,3.21,ok,,medium,427530.99,4580021.76,427527.42,4580020.33,1.0,class
+0172958AR,Styphnolobium japonicum,False,Av Carrilet,20.61,20.01,ok,,large,427803.03,4579786.86,427800.44,4579807.31,1.5,class
+0172959AR,Koelreuteria paniculata 'Fastigiata',False,Rbla Badal,,11.19,median,28.31,check,,,,,1.0,floor
+0172961AR,Brachychiton populneus,False,Pl Ildefons Cerdà,,15.84,no_kerb,,check,,,,,1.0,floor
+0172962AR,Brachychiton populneus,False,Rbla Badal,5.18,4.21,ok,,medium,427582.4,4579800.12,427586.94,4579802.6,1.0,class
+0172963AR,Brachychiton populneus,False,Rbla Badal,4.28,3.81,ok,,medium,427546.96,4579982.76,427543.0,4579981.14,1.0,class
+0172964AR,Brachychiton populneus,False,Rbla Badal,5.53,4.8,ok,,medium,427556.08,4579848.35,427560.94,4579851.0,1.0,class
+0172965AR,Hibiscus syriacus,False,C\ Alpens,2.5,1.86,ok,,small,428087.24,4580476.06,428089.41,4580477.3,1.0,class
+0172967AR,Nerium oleander,False,C\ Constitució,3.4,2.34,ok,,small,427658.83,4580163.27,427659.85,4580160.02,1.0,class
+0172968AR,Brachychiton populneus,False,Rbla Badal,,21.3,no_kerb,38.4,check,,,,,1.0,floor
+0172969AR,Cercis siliquastrum,False,Rbla Badal,14.67,3.69,ok,,large,427488.89,4580195.31,427474.71,4580191.54,1.5,class
+0172970AR,Styphnolobium japonicum,False,Av Carrilet,18.34,17.6,ok,,large,427741.04,4579766.25,427734.25,4579783.28,1.5,class
+0172971AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,17.77,median,2.02,check,,,,,1.0,floor
+0172972AR,Prunus cerasifera 'Pissardii',False,C\ Sallent,,2.42,no_kerb,16.44,check,,,,,1.0,floor
+0172973AR,Brachychiton populneus,False,Rbla Badal,3.98,3.29,ok,,medium,427495.17,4580133.63,427491.33,4580132.58,1.0,class
+0172974AR,Tipuana tipu,False,C\ Mossèn Amadeu Oller,18.44,4.87,ok,,large,427877.24,4580137.85,427889.44,4580124.03,1.5,class
+0172975AR,Brachychiton populneus,False,Rbla Badal,5.06,4.26,ok,,medium,427442.96,4580135.3,427447.85,4580136.59,1.0,class
+0172978AR,Brachychiton populneus,False,Av Carrilet,18.99,18.1,ok,,large,427721.6,4579758.5,427714.57,4579776.14,1.5,class
+0172979AR,Styphnolobium japonicum,False,C\ Gavà,4.03,3.32,ok,,medium,428130.09,4580375.42,428132.69,4580372.34,1.0,class
+0172980AR,Prunus cerasifera 'Pissardii',False,C\ Noguera Ribagorçana,2.65,1.55,ok,,small,428222.9,4580475.21,428224.85,4580477.01,1.0,class
+0172981AR,Prunus cerasifera 'Pissardii',False,C\ Navarra,3.02,0.55,ok,,small,428067.81,4580285.8,428069.72,4580288.14,1.0,class
+0172982AR,Brachychiton populneus,False,Rbla Badal,4.84,4.08,ok,,medium,427567.46,4579937.35,427563.06,4579935.32,1.0,class
+0172983AR,Koelreuteria paniculata 'Fastigiata',False,Rbla Badal,3.69,2.68,ok,,medium,427490.15,4579990.0,427493.59,4579991.35,1.0,class
+0172985AR,Pyrus calleryana 'Chanticleer',False,C\ Noguera Pallaresa,,1.67,no_kerb,,check,,,,,1.0,floor
+0172986AR,Brachychiton populneus,False,Rbla Badal,5.0,4.46,ok,,medium,427539.99,4579879.69,427544.41,4579882.03,1.0,class
+0172987AR,Koelreuteria paniculata 'Fastigiata',False,Rbla Badal,,11.59,median,28.28,check,,,,,1.0,floor
+0172988AR,Koelreuteria paniculata 'Fastigiata',False,Rbla Badal,,13.17,median,33.45,check,,,,,1.0,floor
+0172989AR,Styphnolobium japonicum,False,Av Carrilet,,24.73,median,12.71,check,,,,,1.0,floor
+0172990AR,Koelreuteria paniculata 'Fastigiata',False,Rbla Badal,3.8,3.38,ok,,medium,427523.35,4580041.8,427519.77,4580040.52,1.0,class
+0172991AR,Tipuana tipu,False,Av Carrilet,,24.87,median,17.04,check,,,,,1.0,floor
+0172993AR,Koelreuteria paniculata 'Fastigiata',False,Rbla Badal,5.4,4.42,ok,,medium,427591.11,4579889.83,427586.34,4579887.32,1.0,class
+0172994AR,Tipuana tipu,False,Av Carrilet,,28.58,median,17.41,check,,,,,1.0,floor
+0172995AR,Koelreuteria paniculata 'Fastigiata',False,Rbla Badal,4.05,2.8,ok,,medium,427509.61,4579943.77,427513.31,4579945.41,1.0,class
+0172996AR,Populus nigra,False,Rbla Badal,,11.3,median,35.11,check,,,,,1.0,floor
+0172997AR,Hibiscus syriacus,False,C\ Gavà,2.77,1.64,ok,,small,428213.58,4580426.19,428211.81,4580428.31,1.0,class
+0172999AR,Koelreuteria paniculata 'Fastigiata',False,Rbla Badal,3.96,3.23,ok,,medium,427496.74,4580127.86,427492.92,4580126.82,1.0,class
+0173000AR,Ligustrum lucidum,False,C\ Quetzal,,2.59,median,3.47,check,,,,,1.0,floor
+0173001AR,Koelreuteria paniculata 'Fastigiata',False,Rbla Badal,4.23,3.93,ok,,medium,427463.8,4580247.92,427459.72,4580246.83,1.0,class
+0173002AR,Styphnolobium japonicum,False,Av Carrilet,,29.77,median,,check,,,,,1.0,floor
+0173004AR,Cupressus sempervirens,False,Rbla Badal,14.62,8.76,ok,,large,427491.33,4580186.09,427477.2,4580182.34,1.5,class
+0173005AR,Styphnolobium japonicum,False,Av Carrilet,19.21,18.37,ok,,large,427715.2,4579755.95,427708.09,4579773.79,1.5,class
+0173006AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,33.2,no_facade,2.03,check,,,,,1.0,floor
+0173008AR,Ligustrum japonicum 'Texanum',False,C\ Juan Bravo,2.8,1.33,ok,,small,427956.24,4580364.06,427957.31,4580361.47,1.0,class
+0173009AR,Ligustrum lucidum,False,C\ Quetzal,3.46,2.56,ok,,small,427518.78,4579883.2,427521.16,4579880.69,1.0,class
+0173010AR,Styphnolobium japonicum,False,Av Carrilet,15.22,14.26,ok,,large,427529.08,4579692.61,427523.3,4579706.69,1.5,class
+0173011AR,Styphnolobium japonicum,False,C\ Gavà,3.75,2.37,ok,,medium,428217.58,4580448.04,428220.03,4580445.21,1.0,class
+0173014AR,Styphnolobium japonicum,False,C\ Gavà,4.04,1.82,ok,,medium,428105.78,4580354.95,428108.38,4580351.85,1.0,class
+0173016AR,Brachychiton populneus,False,Rbla Badal,,21.84,no_kerb,,check,,,,,1.0,floor
+0173017AR,Koelreuteria paniculata 'Fastigiata',False,Rbla Badal,,10.9,median,28.03,check,,,,,1.0,floor
+0173018AR,Robinia pseudoacacia,False,C\ Parcerisa,,20.02,median,,check,,,,,1.0,floor
+0173019AR,Platanus × acerifolia,True,G.V. Corts Catalanes,10.13,9.62,ok,,large,428087.53,4580030.98,428094.61,4580023.73,1.5,class
+0173025AR,Hibiscus syriacus,False,C\ Gavà,3.07,1.39,ok,,small,428022.12,4580264.37,428020.13,4580266.71,1.0,class
+0173026AR,Robinia pseudoacacia,False,C\ Parcerisa,6.53,5.75,ok,,large,427845.11,4579824.81,427846.04,4579818.34,1.5,class
+0173027AR,Fraxinus angustifolia,False,C\ Noguera Pallaresa,,1.87,no_kerb,29.57,check,,,,,1.0,floor
+0173029AR,Celtis australis,False,C\ Olzinelles,,4.4,median,5.65,check,,,,,1.0,floor
+0173030AR,Brachychiton populneus,False,C\ Sagunt,7.38,3.65,ok,,large,427571.39,4580176.93,427578.63,4580178.35,1.5,class
+0173032AR,Prunus cerasifera 'Pissardii',False,C\ Bonaventura Pollés,1.26,1.36,ok,,none,427502.19,4580281.71,427500.96,4580281.43,1.0,floor
+0173033AR,Styphnolobium japonicum,False,Rier Blanca,16.96,15.98,ok,,large,427325.72,4580127.27,427309.34,4580122.89,1.5,class
+0173034AR,Brachychiton populneus,False,Rbla Badal,3.57,2.45,ok,,medium,427483.65,4580006.51,427486.97,4580007.82,1.0,class
+0173035AR,Styphnolobium japonicum,False,Av Carrilet,18.75,12.41,ok,,large,427786.47,4579782.27,427780.29,4579799.98,1.5,class
+0173036AR,Ligustrum japonicum 'Texanum',False,C\ Juan Bravo,2.8,0.94,ok,,small,427961.88,4580366.39,427962.95,4580363.8,1.0,class
+0173042AR,Celtis australis,False,C\ Juan Gris,12.23,11.31,ok,,large,427551.41,4579640.02,427542.76,4579631.37,1.5,class
+0173043AR,Pyrus calleryana 'Chanticleer',False,C\ Noguera Pallaresa,,1.96,no_kerb,,check,,,,,1.0,floor
+0173044AR,Ligustrum lucidum,False,C\ Quetzal,3.53,2.63,ok,,medium,427467.05,4579833.88,427469.48,4579831.33,1.0,class
+0173045AR,Ligustrum lucidum,False,C\ Moianès,9.67,9.0,ok,,large,428267.86,4580340.84,428277.27,4580343.06,1.5,class
+0173047AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,40.62,no_facade,,check,,,,,1.0,floor
+0173048AR,Koelreuteria paniculata 'Fastigiata',False,Rbla Badal,,11.49,median,28.3,check,,,,,1.0,floor
+0173049AR,Styphnolobium japonicum,False,Av Carrilet,,30.15,no_facade,,check,,,,,1.0,floor
+0173050AR,Hibiscus syriacus,False,C\ Gavà,3.44,1.7,ok,,small,427963.87,4580219.22,427962.11,4580222.17,1.0,class
+0173051AR,Ulmus pumila,False,C\ Constitució,6.88,6.26,ok,,large,427869.76,4580194.08,427871.74,4580187.49,1.5,class
+0173052AR,Styphnolobium japonicum,False,C\ Gavà,4.65,2.77,ok,,medium,428079.16,4580332.9,428081.62,4580328.95,1.0,class
+0173053AR,Fraxinus angustifolia,False,C\ Noguera Pallaresa,,5.52,no_kerb,,check,,,,,1.0,floor
+0173054AR,Koelreuteria paniculata 'Fastigiata',False,Rbla Badal,4.13,3.55,ok,,medium,427539.54,4580000.68,427535.72,4579999.1,1.0,class
+0173055AR,Hibiscus syriacus,False,C\ Gavà,2.94,1.18,ok,,small,428009.98,4580254.02,428008.07,4580256.26,1.0,class
+0173056AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,39.94,no_facade,,check,,,,,1.0,floor
+0173057AR,Ligustrum japonicum 'Texanum',False,C\ Juan Bravo,2.7,1.02,ok,,small,427902.58,4580341.34,427903.64,4580338.85,1.0,class
+0173058AR,Koelreuteria paniculata,False,C\ Parcerisa,,19.51,median,,check,,,,,1.0,floor
+0173061AR,Platanus × acerifolia,True,C\ Gavà,9.58,6.73,ok,,large,428212.09,4580284.26,428204.96,4580290.65,1.5,class
+0173064AR,Brachychiton populneus,False,Rbla Badal,5.68,4.88,ok,,medium,427602.71,4579867.93,427597.7,4579865.25,1.0,class
+0173065AR,Brachychiton populneus,False,Rbla Badal,,29.15,no_kerb,,check,,,,,1.0,floor
+0173067AR,Styphnolobium japonicum,False,Av Carrilet,,23.11,median,4.01,check,,,,,1.0,floor
+0173068AR,Prunus cerasifera 'Pissardii',False,Ptge Toledo,,3.52,median,5.21,check,,,,,1.0,floor
+0173069AR,Brachychiton populneus,False,Av Carrilet,19.0,4.68,ok,,large,427721.29,4579758.37,427714.26,4579776.03,1.5,class
+0173070AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,30.91,no_facade,2.09,check,,,,,1.0,floor
+0173071AR,Koelreuteria paniculata 'Fastigiata',False,Rbla Badal,,13.01,median,,check,,,,,1.0,floor
+0173072AR,Koelreuteria paniculata 'Fastigiata',False,Rbla Badal,4.25,3.27,ok,,medium,427524.67,4579910.99,427528.53,4579912.77,1.0,class
+0173073AR,Platanus × acerifolia,True,Pl Fènix,,7.56,no_kerb,,check,,,,,1.0,floor
+0173074AR,Styphnolobium japonicum,False,Av Carrilet,,37.79,no_facade,,check,,,,,1.0,floor
+0173076AR,Styphnolobium japonicum,False,C\ Gavà,,11.62,median,,check,,,,,1.0,floor
+0173077AR,Prunus cerasifera 'Pissardii',False,C\ Jocs Florals,2.31,2.05,ok,,none,427777.69,4580278.91,427779.8,4580279.83,1.0,floor
+0173078AR,Hibiscus syriacus,False,C\ Constitució,4.02,4.48,ok,,medium,427831.1,4580182.37,427832.29,4580178.53,1.0,class
+0173079AR,Styphnolobium japonicum,False,Av Carrilet,23.41,22.82,ok,,large,427531.92,4579692.53,427542.24,4579713.54,1.5,class
+0173080AR,Koelreuteria paniculata 'Fastigiata',False,Rbla Badal,4.16,3.59,ok,,medium,427458.3,4580267.97,427454.29,4580266.85,1.0,class
+0173082AR,Styphnolobium japonicum,False,C\ Gavà,4.12,3.04,ok,,medium,428027.43,4580288.65,428030.07,4580285.48,1.0,class
+0173083AR,Prunus cerasifera 'Pissardii',False,C\ Jocs Florals,2.45,2.09,ok,,none,427769.38,4580298.27,427771.63,4580299.23,1.0,floor
+0173086AR,Jacaranda mimosifolia,False,Av Carrilet,,6.99,median,21.01,check,,,,,1.0,floor
+0173087AR,Brachychiton populneus,False,Rbla Badal,,20.32,no_kerb,,check,,,,,1.0,floor
+0173088AR,Styphnolobium japonicum,False,C\ Súria,2.7,1.98,ok,,small,427550.1,4580184.53,427549.39,4580187.13,1.0,class
+0173090AR,Koelreuteria paniculata 'Fastigiata',False,Rbla Badal,5.23,4.12,ok,,medium,427578.56,4579807.14,427583.15,4579809.64,1.0,class
+0173091AR,Hibiscus syriacus,False,C\ Gavà,2.92,1.25,ok,,small,428048.97,4580287.4,428047.07,4580289.62,1.0,class
+0173092AR,Brachychiton populneus,False,Ptge Solsona,,2.49,no_kerb,,check,,,,,1.0,floor
+0173094AR,Hibiscus syriacus,False,C\ Gavà,3.05,2.07,ok,,small,428077.19,4580311.19,428075.25,4580313.53,1.0,class
+0173097AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,21.38,median,2.04,check,,,,,1.0,floor
+0173098AR,Platanus × acerifolia,True,G.V. Corts Catalanes,9.66,9.07,ok,,large,428252.87,4580192.26,428259.48,4580185.22,1.5,class
+0173099AR,Ligustrum lucidum,False,C\ Quetzal,,24.32,median,3.93,check,,,,,1.0,floor
+0173100AR,Ligustrum lucidum,False,C\ Quetzal,24.37,20.81,ok,,large,427516.7,4579861.43,427495.52,4579849.39,1.5,class
+0173102AR,Melia azedarach,False,C\ Viladecans,3.12,2.23,ok,,small,428020.4,4580119.61,428018.02,4580117.59,1.0,class
+0173104AR,Ligustrum lucidum,False,C\ Quetzal,,14.5,median,3.74,check,,,,,1.0,floor
+0173105AR,Ligustrum japonicum 'Texanum',False,C\ Juan Bravo,2.75,1.01,ok,,small,427911.39,4580345.09,427912.47,4580342.56,1.0,class
+0173108AR,Styphnolobium japonicum,False,Rier Blanca,,21.37,median,6.92,check,,,,,1.0,floor
+0173109AR,Celtis australis,False,C\ Olzinelles,,4.27,median,5.63,check,,,,,1.0,floor
+0173110AR,Hibiscus syriacus,False,C\ Alpens,2.49,1.72,ok,,none,428090.18,4580470.92,428092.34,4580472.15,1.0,floor
+0173113AR,Styphnolobium japonicum,False,Av Carrilet,18.51,11.85,ok,,large,427767.08,4579775.51,427760.99,4579792.98,1.5,class
+0173114AR,Styphnolobium japonicum,False,C\ Gavà,3.9,2.05,ok,,medium,427955.03,4580231.83,427957.07,4580228.5,1.0,class
+0173115AR,Populus nigra,False,Rbla Badal,,8.04,median,4.63,check,,,,,1.0,floor
+0173116AR,Platanus × acerifolia,True,Pl Fènix,,8.14,no_kerb,,check,,,,,1.0,floor
+0173117AR,Ligustrum lucidum,False,C\ Quetzal,3.1,2.22,ok,,small,427461.8,4579813.06,427459.72,4579815.36,1.0,class
+0173118AR,Brachychiton populneus,False,Rbla Badal,5.52,4.92,ok,,medium,427628.81,4579818.78,427623.93,4579816.19,1.0,class
+0173120AR,Styphnolobium japonicum,False,Av Carrilet,28.25,21.65,ok,,large,427818.64,4579786.86,427822.63,4579814.82,1.5,class
+0173122AR,Hibiscus syriacus,False,C\ Gavà,3.0,2.18,ok,,small,427948.09,4580209.92,427946.62,4580212.53,1.0,class
+0173123AR,Celtis australis,False,C\ Juan Gris,15.69,14.62,ok,,large,427549.27,4579643.36,427533.86,4579640.39,1.5,class
+0173124AR,Prunus cerasifera 'Pissardii',False,C\ Bartomeu Pi,5.74,4.25,ok,,medium,427947.65,4580104.04,427951.15,4580099.49,1.0,class
+0173125AR,Celtis australis,False,C\ Juan Gris,13.18,12.32,ok,,large,427515.91,4579676.54,427504.19,4579670.52,1.5,class
+0173126AR,Brachychiton populneus,False,Rbla Badal,3.95,3.03,ok,,medium,427507.07,4579949.52,427510.69,4579951.12,1.0,class
+0173128AR,Jacaranda mimosifolia,False,Av Carrilet,,27.52,median,17.95,check,,,,,1.0,floor
+0173129AR,Koelreuteria paniculata 'Fastigiata',False,Rbla Badal,3.68,2.74,ok,,medium,427526.94,4580031.91,427523.53,4580030.55,1.0,class
+0173130AR,Celtis australis,False,C\ Olzinelles,,4.38,median,5.62,check,,,,,1.0,floor
+0173131AR,Styphnolobium japonicum,False,Av Carrilet,22.29,22.11,ok,,large,427808.16,4579787.35,427806.73,4579809.6,1.5,class
+0173132AR,Ligustrum japonicum 'Texanum',False,C\ Sagunt,4.68,0.9,ok,,medium,427605.12,4580287.6,427609.32,4580285.53,1.0,class
+0173133AR,Tipuana tipu,False,Av Carrilet,,9.64,median,20.04,check,,,,,1.0,floor
+0173134AR,Tipuana tipu,False,Av Carrilet,,19.7,median,12.54,check,,,,,1.0,floor
+0173135AR,Fraxinus angustifolia,False,C\ Noguera Pallaresa,12.75,5.75,ok,,large,428014.35,4580447.28,428009.32,4580459.0,1.5,class
+0173136AR,Koelreuteria paniculata 'Fastigiata',False,Rbla Badal,,12.34,median,,check,,,,,1.0,floor
+0173138AR,Hibiscus syriacus,False,C\ Gavà,3.09,2.56,ok,,small,428085.18,4580317.84,428083.2,4580320.21,1.0,class
+0173139AR,Styphnolobium japonicum,False,C\ Súria,2.67,1.98,ok,,small,427530.69,4580179.23,427529.99,4580181.8,1.0,class
+0173140AR,Celtis australis,False,C\ Juan Gris,21.7,13.38,ok,,large,427530.34,4579663.97,427531.94,4579642.33,1.5,class
+0173141AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,33.82,no_facade,2.04,check,,,,,1.0,floor
+0173144AR,Celtis australis,False,C\ Juan Gris,12.4,7.1,ok,,large,427523.85,4579668.23,427515.0,4579659.54,1.5,class
+0173146AR,Styphnolobium japonicum,False,Av Carrilet,,33.7,no_facade,17.77,check,,,,,1.0,floor
+0173147AR,Ligustrum lucidum,False,C\ Quetzal,12.3,11.28,ok,,large,427515.57,4579863.42,427504.85,4579857.4,1.5,class
+0173148AR,Koelreuteria paniculata 'Fastigiata',False,Av Carrilet,18.78,4.6,ok,,large,427727.84,4579760.99,427720.89,4579778.43,1.5,class
+0173149AR,Platanus × acerifolia,True,G.V. Corts Catalanes,10.14,8.94,ok,,large,428057.47,4580001.55,428064.57,4579994.3,1.5,class
+0173151AR,Styphnolobium japonicum,False,C\ Gavà,11.48,10.03,ok,,large,428060.68,4580325.46,428064.97,4580314.81,1.5,class
+0173152AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,24.67,median,2.1,check,,,,,1.0,floor
+0173153AR,Koelreuteria paniculata 'Fastigiata',False,Rbla Badal,4.07,3.2,ok,,medium,427474.25,4580031.22,427478.07,4580032.62,1.0,class
+0173154AR,Hibiscus syriacus,False,C\ Gavà,3.01,0.89,ok,,small,428016.2,4580259.32,428014.25,4580261.61,1.0,class
+0173155AR,Celtis australis,False,C\ Juan Gris,12.27,6.95,ok,,large,427590.97,4579599.87,427582.16,4579591.33,1.5,class
+0173157AR,Brachychiton populneus,False,Rbla Badal,5.07,4.03,ok,,medium,427588.48,4579789.0,427592.93,4579791.44,1.0,class
+0173159AR,Prunus cerasifera 'Pissardii',False,C\ Navarra,2.82,0.9,ok,,small,428060.51,4580291.75,428062.3,4580293.93,1.0,class
+0173160AR,Tipuana tipu,False,Av Carrilet,,23.28,median,17.92,check,,,,,1.0,floor
+0173161AR,Hibiscus syriacus,False,C\ Alpens,2.49,1.66,ok,,none,428092.74,4580466.43,428094.9,4580467.66,1.0,floor
+0173162AR,Ligustrum lucidum,False,C\ Quetzal,,19.5,median,3.86,check,,,,,1.0,floor
+0173164AR,Brachychiton populneus,False,Av Carrilet,26.47,19.72,ok,,large,427822.1,4579785.83,427833.92,4579809.51,1.5,class
+0173165AR,Styphnolobium japonicum,False,C\ Súria,2.68,1.85,ok,,small,427536.8,4580180.9,427536.09,4580183.48,1.0,class
+0173167AR,Koelreuteria paniculata 'Fastigiata',False,C\ Viladecans,3.0,3.01,ok,,small,427965.4,4580184.36,427963.11,4580182.43,1.0,class
+0173168AR,Koelreuteria paniculata 'Fastigiata',False,Rbla Badal,,11.15,median,28.29,check,,,,,1.0,floor
+0173169AR,Koelreuteria paniculata 'Fastigiata',False,Rbla Badal,4.06,3.32,ok,,medium,427519.51,4579922.2,427523.2,4579923.9,1.0,class
+0173170AR,Ligustrum lucidum,False,C\ Moianès,9.26,4.49,ok,,large,428267.3,4580328.05,428276.55,4580327.64,1.5,class
+0173171AR,Brachychiton populneus,False,Av Carrilet,18.33,4.42,ok,,large,427753.82,4579770.87,427747.78,4579788.19,1.5,class
+0173172AR,Brachychiton populneus,False,C\ Sagunt,1.91,1.18,ok,,none,427585.01,4580214.82,427586.88,4580214.41,1.0,floor
+0173173AR,Brachychiton populneus,False,Rbla Badal,4.08,3.33,ok,,medium,427490.13,4580152.09,427486.19,4580151.01,1.0,class
+0173174AR,Styphnolobium japonicum,False,Av Carrilet,19.23,18.22,ok,,large,427531.24,4579692.74,427536.1,4579711.34,1.5,class
+0173176AR,Tipuana tipu,False,Pl Fènix,,11.83,no_kerb,,check,,,,,1.0,floor
+0173177AR,Ligustrum lucidum,False,C\ Quetzal,28.68,23.25,ok,,large,427475.97,4579826.28,427494.36,4579848.28,1.5,class
+0173178AR,Hibiscus syriacus,False,C\ Cuyàs,2.92,2.39,ok,,small,428196.99,4580412.21,428195.13,4580414.46,1.0,class
+0173179AR,Styphnolobium japonicum,False,Av Carrilet,5.04,4.54,ok,,medium,427654.34,4579778.76,427656.14,4579774.05,1.0,class
+0173180AR,Prunus cerasifera 'Pissardii',False,C\ Navarra,3.15,0.49,ok,,small,428080.45,4580275.5,428082.44,4580277.94,1.0,class
+0173181AR,Ulmus pumila,False,C\ Moianès,2.68,1.07,ok,,small,428278.91,4580443.35,428281.59,4580443.22,1.0,class
+0173182AR,Styphnolobium japonicum,False,C\ Gavà,4.23,2.94,ok,,medium,428018.89,4580281.51,428021.63,4580278.28,1.0,class
+0173183AR,Olea europaea,False,C\ Constitució,,3.68,no_kerb,,check,,,,,1.0,floor
+0173184AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,33.67,no_facade,2.0,check,,,,,1.0,floor
+0173185AR,Prunus cerasifera 'Pissardii',False,C\ Sallent,,5.8,median,5.73,check,,,,,1.0,floor
+0173187AR,Koelreuteria paniculata 'Fastigiata',False,Rbla Badal,5.57,4.82,ok,,medium,427623.13,4579829.47,427618.21,4579826.86,1.0,class
+0173188AR,Koelreuteria paniculata 'Fastigiata',False,C\ Viladecans,2.89,2.54,ok,,small,427972.8,4580175.63,427970.59,4580173.76,1.0,class
+0173189AR,Brachychiton populneus,False,Ptge Solsona,,2.69,no_kerb,,check,,,,,1.0,floor
+0173191AR,Tipuana tipu,False,C\ Constitució,16.83,3.7,ok,,large,427881.44,4580164.37,427869.95,4580176.68,1.5,class
+0173192AR,Koelreuteria paniculata 'Fastigiata',False,Rbla Badal,4.07,3.26,ok,,medium,427522.05,4579916.69,427525.74,4579918.39,1.0,class
+0173194AR,Ligustrum japonicum 'Texanum',False,C\ Juan Bravo,2.39,1.65,ok,,none,427875.41,4580329.99,427876.36,4580327.79,1.0,floor
+0173195AR,Brachychiton populneus,False,C\ Sagunt,8.84,3.69,ok,,large,427569.34,4580187.42,427578.01,4580189.12,1.5,class
+0281030AR,Tipuana tipu,False,C\ Noguera Pallaresa,,6.52,no_kerb,,check,,,,,1.0,floor
+0281086AR,Tipuana tipu,False,C\ Noguera Pallaresa,,9.44,no_kerb,32.04,check,,,,,1.0,floor
+0287361AR,Prunus cerasifera 'Pissardii',False,Ptge Toledo,,3.21,median,5.19,check,,,,,1.0,floor
+0288209AR,Pyrus calleryana 'Chanticleer',False,C\ Almeria,1.55,1.83,ok,,none,427993.52,4580414.93,427994.96,4580415.52,1.0,floor
+0288210AR,Pyrus calleryana 'Chanticleer',False,C\ Almeria,1.43,1.65,ok,,none,427999.21,4580401.19,428000.53,4580401.74,1.0,floor
+0288211AR,Pyrus calleryana 'Chanticleer',False,C\ Almeria,1.57,1.81,ok,,none,427995.97,4580408.98,427997.43,4580409.58,1.0,floor
+0288213AR,Pyrus calleryana 'Chanticleer',False,C\ Almeria,,6.45,median,5.29,check,,,,,1.0,floor
+0288214AR,Pyrus calleryana 'Chanticleer',False,C\ Almeria,,2.42,median,5.26,check,,,,,1.0,floor
+0288215AR,Pyrus calleryana 'Chanticleer',False,C\ Almeria,1.47,1.92,ok,,none,428016.64,4580358.7,428018.0,4580359.26,1.0,floor
+0288216AR,Pyrus calleryana 'Chanticleer',False,C\ Almeria,1.6,1.96,ok,,none,428021.26,4580347.51,428022.74,4580348.12,1.0,floor
+0288217AR,Pyrus calleryana 'Chanticleer',False,C\ Almeria,1.54,1.78,ok,,none,428019.04,4580352.89,428020.46,4580353.48,1.0,floor
+0288218AR,Pyrus calleryana 'Chanticleer',False,C\ Almeria,,5.73,median,4.99,check,,,,,1.0,floor
+0288219AR,Pyrus calleryana 'Chanticleer',False,C\ Almeria,,5.61,median,4.95,check,,,,,1.0,floor
+0288220AR,Pyrus calleryana 'Chanticleer',False,C\ Almeria,,5.59,median,4.89,check,,,,,1.0,floor
+0289381AR,Celtis australis,False,C\ Olzinelles,,3.97,median,5.61,check,,,,,1.0,floor
+0290513AR,Pyrus calleryana 'Chanticleer',False,C\ Noguera Pallaresa,,5.41,median,4.71,check,,,,,1.0,floor
+0290514AR,Pyrus calleryana 'Chanticleer',False,C\ Noguera Pallaresa,,5.61,median,4.7,check,,,,,1.0,floor
+0290517AR,Pyrus calleryana 'Chanticleer',False,C\ Noguera Pallaresa,,5.69,median,5.09,check,,,,,1.0,floor
+0291003AR,Hibiscus syriacus,False,C\ Alpens,3.01,1.99,ok,,small,428106.83,4580458.16,428104.21,4580456.68,1.0,class
+0291007AR,Hibiscus syriacus,False,C\ Alpens,3.0,2.0,ok,,small,428128.72,4580419.48,428126.11,4580418.0,1.0,class
+0291008AR,Hibiscus syriacus,False,C\ Alpens,3.03,2.08,ok,,small,428075.95,4580512.67,428073.31,4580511.19,1.0,class
+0296298AR,Styphnolobium japonicum,False,C\ Rossend Arús,5.39,4.73,ok,,medium,427926.72,4580405.49,427921.7,4580403.52,1.0,class
+0296300AR,Styphnolobium japonicum,False,C\ Rossend Arús,5.46,4.73,ok,,medium,427942.27,4580365.77,427937.19,4580363.78,1.0,class
+0296301AR,Styphnolobium japonicum,False,C\ Rossend Arús,5.5,4.75,ok,,medium,427939.07,4580373.96,427933.94,4580371.96,1.0,class
+0296302AR,Styphnolobium japonicum,False,C\ Rossend Arús,5.54,4.3,ok,,medium,427936.69,4580380.04,427931.53,4580378.02,1.0,class
+0296303AR,Styphnolobium japonicum,False,C\ Rossend Arús,5.47,4.48,ok,,medium,427931.59,4580393.08,427926.49,4580391.08,1.0,class
+0296304AR,Styphnolobium japonicum,False,C\ Rossend Arús,5.51,4.34,ok,,medium,427934.35,4580386.02,427929.21,4580384.01,1.0,class
+0296305AR,Styphnolobium japonicum,False,C\ Rossend Arús,5.44,4.51,ok,,medium,427929.31,4580398.89,427924.25,4580396.9,1.0,class
+0301775AR,Tipuana tipu,False,C\ Antoni de Capmany,,14.32,median,,check,,,,,1.0,floor
+0301776AR,Robinia pseudoacacia,False,C\ Antoni de Capmany,15.82,12.31,ok,,large,427331.3,4580315.69,427344.23,4580306.56,1.5,class
+0301777AR,Robinia pseudoacacia,False,C\ Antoni de Capmany,16.07,12.9,ok,,large,427335.48,4580321.58,427348.55,4580312.23,1.5,class
+0301778AR,Robinia pseudoacacia,False,C\ Antoni de Capmany,16.28,12.15,ok,,large,427340.23,4580328.23,427353.48,4580318.77,1.5,class
+0301779AR,Robinia pseudoacacia,False,C\ Antoni de Capmany,16.36,13.92,ok,,large,427342.96,4580332.05,427356.32,4580322.61,1.5,class
+0301780AR,Robinia pseudoacacia,False,C\ Antoni de Capmany,16.42,12.7,ok,,large,427345.82,4580336.1,427359.22,4580326.63,1.5,class
+0301781AR,Robinia pseudoacacia,False,C\ Antoni de Capmany,16.51,14.0,ok,,large,427350.41,4580342.6,427363.89,4580333.07,1.5,class
+0301782AR,Robinia pseudoacacia,False,C\ Antoni de Capmany,16.57,12.7,ok,,large,427353.35,4580346.76,427366.88,4580337.21,1.5,class
+0301783AR,Robinia pseudoacacia,False,C\ Antoni de Capmany,16.64,14.08,ok,,large,427356.8,4580351.65,427370.39,4580342.04,1.5,class
+0301785AR,Tipuana tipu,False,C\ Antoni de Capmany,13.91,9.5,ok,,large,427244.16,4580217.53,427248.19,4580204.21,1.5,class
+0301786AR,Tipuana tipu,False,C\ Antoni de Capmany,14.1,9.66,ok,,large,427249.28,4580222.49,427259.09,4580212.36,1.5,class
+0301787AR,Tipuana tipu,False,C\ Antoni de Capmany,14.22,7.79,ok,,large,427256.01,4580228.9,427266.36,4580219.16,1.5,class
+0301788AR,Tipuana tipu,False,C\ Antoni de Capmany,15.47,13.39,ok,,large,427266.79,4580241.14,427278.41,4580230.94,1.5,class
+0301789AR,Tipuana tipu,False,C\ Antoni de Capmany,15.89,12.87,ok,,large,427271.78,4580246.83,427283.72,4580236.35,1.5,class
+0301790AR,Tipuana tipu,False,C\ Antoni de Capmany,13.51,9.58,ok,,large,427275.86,4580251.48,427286.01,4580242.57,1.5,class
+0301791AR,Tipuana tipu,False,C\ Antoni de Capmany,13.64,11.89,ok,,large,427277.6,4580253.47,427287.85,4580244.47,1.5,class
+0301792AR,Tipuana tipu,False,C\ Antoni de Capmany,13.81,11.08,ok,,large,427280.56,4580256.83,427290.94,4580247.71,1.5,class
+0301793AR,Tipuana tipu,False,C\ Antoni de Capmany,16.73,14.79,ok,,large,427293.5,4580271.51,427306.02,4580260.4,1.5,class
+0301794AR,Tipuana tipu,False,C\ Antoni de Capmany,16.72,15.84,ok,,large,427296.69,4580275.1,427309.19,4580264.0,1.5,class
+0301795AR,Tipuana tipu,False,C\ Antoni de Capmany,16.71,14.04,ok,,large,427299.1,4580277.83,427311.66,4580266.81,1.5,class
+0301796AR,Tipuana tipu,False,C\ Antoni de Capmany,16.72,14.57,ok,,large,427301.89,4580281.01,427314.46,4580269.98,1.5,class
+0301797AR,Tipuana tipu,False,C\ Antoni de Capmany,13.93,10.72,ok,,large,427306.78,4580286.49,427317.22,4580277.26,1.5,class
+0301798AR,Tipuana tipu,False,C\ Antoni de Capmany,13.85,12.43,ok,,large,427308.96,4580288.96,427319.33,4580279.78,1.5,class
+0301799AR,Tipuana tipu,False,C\ Antoni de Capmany,13.73,10.07,ok,,large,427311.56,4580291.89,427321.84,4580282.79,1.5,class
+0301800AR,Tipuana tipu,False,C\ Antoni de Capmany,13.55,10.43,ok,,large,427314.95,4580295.72,427325.09,4580286.75,1.5,class
+0302320AR,Koelreuteria paniculata,False,C\ Parcerisa,10.6,6.96,ok,,large,427634.22,4580009.16,427636.0,4579998.71,1.5,class
+0302321AR,Koelreuteria paniculata,False,C\ Parcerisa,10.94,9.91,ok,,large,427647.48,4580000.34,427637.79,4579995.26,1.5,class
+0302322AR,Koelreuteria paniculata,False,C\ Parcerisa,10.92,9.56,ok,,large,427651.11,4579993.63,427641.58,4579988.3,1.5,class
+0302323AR,Koelreuteria paniculata,False,C\ Parcerisa,10.93,9.81,ok,,large,427654.51,4579987.72,427645.12,4579982.15,1.5,class
+0302324AR,Koelreuteria paniculata,False,C\ Parcerisa,10.93,9.32,ok,,large,427658.16,4579981.79,427648.97,4579975.87,1.5,class
+0302325AR,Koelreuteria paniculata,False,C\ Parcerisa,10.94,9.4,ok,,large,427661.72,4579976.27,427652.57,4579970.28,1.5,class
+0302326AR,Koelreuteria paniculata,False,C\ Parcerisa,10.94,9.37,ok,,large,427664.89,4579971.53,427655.88,4579965.34,1.5,class
+0302327AR,Koelreuteria paniculata,False,C\ Parcerisa,10.93,9.48,ok,,large,427668.07,4579966.99,427659.18,4579960.63,1.5,class
+0302328AR,Koelreuteria paniculata,False,C\ Parcerisa,11.0,9.8,ok,,large,427673.11,4579960.29,427664.49,4579953.45,1.5,class
+0302329AR,Koelreuteria paniculata,False,C\ Parcerisa,11.05,9.92,ok,,large,427677.33,4579954.96,427668.67,4579948.09,1.5,class
+0302330AR,Koelreuteria paniculata,False,C\ Parcerisa,10.97,9.89,ok,,large,427681.1,4579950.21,427672.51,4579943.39,1.5,class
+0302332AR,Koelreuteria paniculata,False,C\ Parcerisa,,14.24,median,28.64,check,,,,,1.0,floor
+0302334AR,Koelreuteria paniculata,False,C\ Parcerisa,,13.71,median,,check,,,,,1.0,floor
+0302335AR,Koelreuteria paniculata,False,C\ Parcerisa,,13.43,median,3.01,check,,,,,1.0,floor
+0302338AR,Koelreuteria paniculata,False,C\ Parcerisa,,13.6,median,3.05,check,,,,,1.0,floor
+0302339AR,Koelreuteria paniculata,False,C\ Parcerisa,,14.08,median,2.99,check,,,,,1.0,floor
+0302340AR,Koelreuteria paniculata,False,C\ Parcerisa,,13.95,median,3.03,check,,,,,1.0,floor
+0302342AR,Koelreuteria paniculata,False,C\ Parcerisa,,13.83,median,3.0,check,,,,,1.0,floor
+0302343AR,Koelreuteria paniculata,False,C\ Parcerisa,,13.45,median,3.0,check,,,,,1.0,floor
+0302344AR,Koelreuteria paniculata,False,C\ Parcerisa,,13.97,median,3.06,check,,,,,1.0,floor
+0302345AR,Koelreuteria paniculata,False,C\ Parcerisa,,14.56,median,3.05,check,,,,,1.0,floor
+0302346AR,Koelreuteria paniculata,False,C\ Parcerisa,,18.41,median,3.05,check,,,,,1.0,floor
+0302347AR,Koelreuteria paniculata,False,C\ Parcerisa,27.59,21.9,ok,,large,427776.51,4579867.16,427750.8,4579877.17,1.5,class
+0302348AR,Koelreuteria paniculata,False,C\ Parcerisa,18.76,15.07,ok,,large,427776.51,4579867.16,427758.52,4579872.46,1.5,class
+0302349AR,Koelreuteria paniculata,False,C\ Parcerisa,10.54,8.53,ok,,large,427776.51,4579867.16,427765.99,4579867.87,1.5,class
+0302350AR,Koelreuteria paniculata,False,C\ Parcerisa,4.96,4.03,ok,,medium,427776.51,4579867.16,427773.36,4579863.32,1.0,class
+0302351AR,Koelreuteria paniculata,False,C\ Parcerisa,4.91,4.0,ok,,medium,427782.01,4579863.75,427779.42,4579859.58,1.0,class
+0302356AR,Koelreuteria paniculata,False,C\ Parcerisa,4.91,4.04,ok,,medium,427811.77,4579845.35,427809.19,4579841.16,1.0,class
+0302357AR,Styphnolobium japonicum 'Columnare',False,C\ Parcerisa,4.93,4.05,ok,,medium,427817.73,4579841.67,427815.14,4579837.47,1.0,class
+0302358AR,Handroanthus heptaphyllus,False,C\ Parcerisa,4.99,4.17,ok,,medium,427713.57,4579886.42,427716.56,4579890.41,1.0,class
+0302359AR,Handroanthus heptaphyllus,False,C\ Parcerisa,4.99,4.04,ok,,medium,427708.14,4579890.59,427711.23,4579894.51,1.0,class
+0302360AR,Handroanthus heptaphyllus,False,C\ Parcerisa,4.98,3.98,ok,,medium,427700.46,4579896.84,427703.71,4579900.63,1.0,class
+0302361AR,Handroanthus heptaphyllus,False,C\ Parcerisa,5.01,3.62,ok,,medium,427693.34,4579903.02,427696.67,4579906.75,1.0,class
+0302362AR,Handroanthus heptaphyllus,False,C\ Parcerisa,5.02,4.28,ok,,medium,427686.78,4579909.05,427690.24,4579912.69,1.0,class
+0302363AR,Handroanthus heptaphyllus,False,C\ Parcerisa,5.02,4.16,ok,,medium,427679.77,4579915.95,427683.35,4579919.46,1.0,class
+0302364AR,Handroanthus heptaphyllus,False,C\ Parcerisa,5.02,4.03,ok,,medium,427673.79,4579922.18,427677.45,4579925.61,1.0,class
+0302365AR,Handroanthus heptaphyllus,False,C\ Parcerisa,5.05,4.09,ok,,medium,427667.19,4579929.44,427670.98,4579932.77,1.0,class
+0302366AR,Handroanthus heptaphyllus,False,C\ Parcerisa,5.04,3.9,ok,,medium,427660.82,4579936.97,427664.72,4579940.17,1.0,class
+0302367AR,Handroanthus heptaphyllus,False,C\ Parcerisa,5.01,4.05,ok,,medium,427654.89,4579944.47,427658.88,4579947.51,1.0,class
+0302368AR,Handroanthus heptaphyllus,False,C\ Parcerisa,17.46,15.45,ok,,large,427734.25,4579866.32,427751.69,4579867.16,1.5,class
+0302369AR,Handroanthus heptaphyllus,False,C\ Parcerisa,12.72,11.06,ok,,large,427757.89,4579852.6,427755.15,4579865.02,1.5,class
+0302370AR,Handroanthus heptaphyllus,False,C\ Parcerisa,8.52,7.14,ok,,large,427761.15,4579853.01,427760.8,4579861.53,1.5,class
+0302371AR,Handroanthus heptaphyllus,False,C\ Parcerisa,4.98,3.69,ok,,medium,427765.91,4579852.53,427768.32,4579856.89,1.0,class
+0302373AR,Handroanthus heptaphyllus,False,C\ Parcerisa,9.6,7.88,ok,,large,427778.17,4579841.87,427787.12,4579845.32,1.5,class
+0302374AR,Handroanthus heptaphyllus,False,C\ Parcerisa,,13.92,median,24.87,check,,,,,1.0,floor
+0302375AR,Koelreuteria paniculata 'Fastigiata',False,C\ Parcerisa,,17.67,median,16.48,check,,,,,1.0,floor
+0302376AR,Styphnolobium japonicum,False,C\ Parcerisa,18.42,6.01,ok,,large,427779.29,4579837.1,427797.62,4579838.85,1.5,class
+0302377AR,Koelreuteria paniculata 'Fastigiata',False,C\ Parcerisa,18.04,6.4,ok,,large,427778.56,4579830.07,427795.79,4579824.74,1.5,class
+0302378AR,Koelreuteria paniculata 'Fastigiata',False,C\ Parcerisa,22.62,9.62,ok,,large,427778.99,4579831.72,427801.1,4579826.95,1.5,class
+0305154AR,Nerium oleander,False,C\ Constitució,4.36,3.54,ok,,medium,427795.29,4580164.73,427794.96,4580169.08,1.0,class
+0305155AR,Nerium oleander,False,C\ Constitució,,13.25,median,4.85,check,,,,,1.0,floor
+0305156AR,Nerium oleander,False,C\ Constitució,,10.58,median,26.85,check,,,,,1.0,floor
+0305157AR,Nerium oleander,False,C\ Constitució,,10.34,median,,check,,,,,1.0,floor
+0305159AR,Hibiscus syriacus,False,C\ Constitució,,10.73,median,,check,,,,,1.0,floor
+0305160AR,Nerium oleander,False,C\ Constitució,,10.73,median,,check,,,,,1.0,floor
+0305161AR,Nerium oleander,False,C\ Constitució,,10.75,median,,check,,,,,1.0,floor
+0305162AR,Nerium oleander,False,C\ Constitució,,10.78,median,,check,,,,,1.0,floor
+0305163AR,Nerium oleander,False,C\ Constitució,,10.79,median,,check,,,,,1.0,floor
+0305164AR,Nerium oleander,False,C\ Constitució,,10.81,median,,check,,,,,1.0,floor
+0307893AR,Bauhinia purpurea,False,C\ Corral,4.02,4.19,ok,,medium,428046.94,4580102.25,428043.87,4580104.85,1.0,class
+0307894AR,Bauhinia purpurea,False,C\ Corral,4.03,4.1,ok,,medium,428053.4,4580109.88,428050.32,4580112.49,1.0,class
+0307895AR,Bauhinia purpurea,False,C\ Corral,4.05,4.01,ok,,medium,428059.85,4580117.52,428056.76,4580120.14,1.0,class
+0307896AR,Bauhinia purpurea,False,C\ Corral,4.03,3.87,ok,,medium,428066.29,4580125.2,428063.19,4580127.78,1.0,class
+0307897AR,Bauhinia purpurea,False,C\ Corral,4.73,4.4,ok,,medium,428071.19,4580131.07,428069.75,4580135.58,1.0,class
+0307898AR,Bauhinia purpurea,False,C\ Corral,,8.51,median,,check,,,,,1.0,floor
+0307899AR,Bauhinia purpurea,False,C\ Corral,,8.65,median,,check,,,,,1.0,floor
+0307900AR,Bauhinia purpurea,False,C\ Corral,,8.93,median,,check,,,,,1.0,floor
+0307901AR,Bauhinia purpurea,False,C\ Corral,,9.24,median,,check,,,,,1.0,floor
+0307902AR,Bauhinia purpurea,False,C\ Corral,,9.63,median,,check,,,,,1.0,floor
+0307903AR,Bauhinia purpurea,False,C\ Corral,,10.05,median,,check,,,,,1.0,floor
+0307904AR,Bauhinia purpurea,False,C\ Corral,,10.47,median,,check,,,,,1.0,floor
+0307905AR,Bauhinia purpurea,False,C\ Corral,,10.65,median,,check,,,,,1.0,floor
+0307906AR,Bauhinia purpurea,False,C\ Corral,,10.86,median,,check,,,,,1.0,floor
+0307907AR,Bauhinia purpurea,False,C\ Corral,,10.91,median,,check,,,,,1.0,floor
+0307908AR,Bauhinia purpurea,False,C\ Corral,,10.55,median,,check,,,,,1.0,floor
+0307909AR,Bauhinia purpurea,False,C\ Corral,,10.4,median,,check,,,,,1.0,floor
+0307910AR,Bauhinia purpurea,False,C\ Corral,,10.05,median,,check,,,,,1.0,floor
+0307911AR,Bauhinia purpurea,False,C\ Corral,,9.9,median,,check,,,,,1.0,floor
+0307912AR,Bauhinia purpurea,False,C\ Corral,,9.79,median,,check,,,,,1.0,floor
+0307913AR,Bauhinia purpurea,False,C\ Gavà,11.51,6.4,ok,,large,428192.29,4580261.4,428183.61,4580268.96,1.5,class
+0307914AR,Bauhinia purpurea,False,C\ Gavà,11.05,3.21,ok,,large,428197.67,4580268.18,428189.3,4580275.39,1.5,class
+0310153AR,Bauhinia purpurea,False,C\ Corral,,8.89,median,26.04,check,,,,,1.0,floor
+0310154AR,Bauhinia purpurea,False,C\ Corral,,8.99,median,23.55,check,,,,,1.0,floor
+0310155AR,Bauhinia purpurea,False,C\ Corral,,8.76,median,,check,,,,,1.0,floor
+0310156AR,Bauhinia purpurea,False,C\ Corral,,8.66,median,,check,,,,,1.0,floor
+0310157AR,Bauhinia purpurea,False,C\ Corral,,8.74,median,3.94,check,,,,,1.0,floor
+0310158AR,Bauhinia purpurea,False,C\ Corral,,8.9,median,23.23,check,,,,,1.0,floor
+0310159AR,Bauhinia purpurea,False,C\ Corral,,8.96,median,,check,,,,,1.0,floor
+0310160AR,Bauhinia purpurea,False,C\ Corral,,8.81,median,,check,,,,,1.0,floor
+0310161AR,Bauhinia purpurea,False,C\ Corral,,9.1,median,18.64,check,,,,,1.0,floor
+0310162AR,Bauhinia purpurea,False,C\ Corral,,9.09,median,3.95,check,,,,,1.0,floor
+0319214AR,Cercis siliquastrum,False,C\ Leiva,1.54,0.79,ok,,none,428143.87,4580606.35,428143.91,4580607.89,1.0,floor
+0319215AR,Cercis siliquastrum,False,C\ Leiva,1.45,0.76,ok,,none,428151.25,4580606.12,428151.29,4580607.57,1.0,floor
+0319216AR,Cercis siliquastrum,False,C\ Leiva,1.38,0.67,ok,,none,428156.98,4580605.95,428157.02,4580607.33,1.0,floor
+0319217AR,Cercis siliquastrum,False,C\ Leiva,1.38,0.76,ok,,none,428163.32,4580605.76,428163.36,4580607.14,1.0,floor
+0319218AR,Cercis siliquastrum,False,C\ Leiva,1.51,0.8,ok,,none,428171.32,4580605.51,428171.36,4580607.02,1.0,floor
+0319219AR,Cercis siliquastrum,False,C\ Leiva,1.65,0.92,ok,,none,428180.19,4580605.24,428180.24,4580606.89,1.0,floor
+0319220AR,Cercis siliquastrum,False,C\ Leiva,1.6,0.77,ok,,none,428131.49,4580606.73,428131.54,4580608.33,1.0,floor
+0319221AR,Cercis siliquastrum,False,C\ Leiva,1.61,0.81,ok,,none,428138.04,4580606.53,428138.08,4580608.13,1.0,floor
+0319222AR,Cercis siliquastrum,False,C\ Leiva,1.59,1.01,ok,,none,428124.05,4580606.96,428124.1,4580608.55,1.0,floor
+0324532AR,Handroanthus heptaphyllus,False,C\ Parcerisa,10.14,8.49,ok,,large,427733.75,4579869.61,427743.56,4579872.17,1.5,class
+0328212AR,Koelreuteria paniculata,False,Rbla Badal,,12.97,median,33.4,check,,,,,1.0,floor
+0333663AR,Zelkova serrata GREEN VASE® 'Flekova',False,G.V. Corts Catalanes,,17.88,no_kerb,,check,,,,,1.0,floor
+0333696AR,Morus alba,False,C\ Noguera Pallaresa,12.41,9.1,ok,,large,428015.59,4580447.81,428010.7,4580459.22,1.5,class
+0333699AR,Cercis siliquastrum,False,Rbla Badal,14.74,3.26,ok,,large,427485.57,4580207.81,427471.32,4580204.02,1.5,class
+0333700AR,Handroanthus heptaphyllus,False,C\ Parcerisa,4.98,4.25,ok,,medium,427724.85,4579878.33,427727.66,4579882.44,1.0,class
+0335200AR,Nerium oleander,False,C\ Constitució,,10.14,median,,check,,,,,1.0,floor
+0341430AR,Bauhinia purpurea,False,C\ Corral,,9.97,median,,check,,,,,1.0,floor
+0341488AR,Hibiscus syriacus,False,C\ Viladecans,3.18,1.58,ok,,small,427935.47,4580202.89,427934.02,4580205.72,1.0,class
+0342817AR,Gleditsia triacanthos,False,C\ Juan Gris,,10.22,no_kerb,,check,,,,,1.0,floor
+0342818AR,Gleditsia triacanthos,False,C\ Juan Gris,,10.52,no_kerb,,check,,,,,1.0,floor
+0342819AR,Gleditsia triacanthos,False,C\ Juan Gris,,10.33,no_kerb,,check,,,,,1.0,floor
+0342820AR,Gleditsia triacanthos,False,C\ Juan Gris,,10.71,no_kerb,,check,,,,,1.0,floor
+0342821AR,Gleditsia triacanthos,False,C\ Juan Gris,,11.51,no_kerb,,check,,,,,1.0,floor
+0342822AR,Gleditsia triacanthos,False,C\ Juan Gris,,13.45,no_kerb,,check,,,,,1.0,floor
+0342823AR,Gleditsia triacanthos,False,C\ Juan Gris,,14.38,no_kerb,,check,,,,,1.0,floor
+0342824AR,Gleditsia triacanthos,False,C\ Juan Gris,,10.91,no_kerb,,check,,,,,1.0,floor
+0342825AR,Gleditsia triacanthos,False,C\ Juan Gris,,11.03,no_kerb,,check,,,,,1.0,floor
+0342826AR,Gleditsia triacanthos,False,C\ Juan Gris,,10.77,no_kerb,,check,,,,,1.0,floor
+0342827AR,Gleditsia triacanthos,False,C\ Juan Gris,,11.81,no_kerb,,check,,,,,1.0,floor
+0342830AR,Tipuana tipu,False,C\ Juan Gris,,27.06,no_kerb,,check,,,,,1.0,floor
+0342831AR,Tipuana tipu,False,C\ Juan Gris,,19.68,no_kerb,,check,,,,,1.0,floor
+0342832AR,Tipuana tipu,False,C\ Juan Gris,29.6,16.55,ok,,large,427569.81,4579564.27,427593.04,4579545.92,1.5,class
+0342833AR,Tipuana tipu,False,G.V. Corts Catalanes,,17.95,median,19.05,check,,,,,1.0,floor
+0342834AR,Tipuana tipu,False,G.V. Corts Catalanes,,24.77,median,19.05,check,,,,,1.0,floor
+0342835AR,Tipuana tipu,False,G.V. Corts Catalanes,,27.99,median,19.02,check,,,,,1.0,floor
+0342836AR,Tipuana tipu,False,G.V. Corts Catalanes,,21.91,median,19.01,check,,,,,1.0,floor
+0342837AR,Tipuana tipu,False,G.V. Corts Catalanes,,32.17,no_facade,18.96,check,,,,,1.0,floor
+0342838AR,Tipuana tipu,False,G.V. Corts Catalanes,,36.32,no_facade,18.93,check,,,,,1.0,floor
+0342839AR,Tipuana tipu,False,G.V. Corts Catalanes,,30.52,no_facade,18.94,check,,,,,1.0,floor
+0342840AR,Tipuana tipu,False,G.V. Corts Catalanes,,40.55,no_facade,18.97,check,,,,,1.0,floor
+0342841AR,Tipuana tipu,False,G.V. Corts Catalanes,,44.7,no_facade,19.02,check,,,,,1.0,floor
+0342842AR,Tipuana tipu,False,G.V. Corts Catalanes,,38.74,no_facade,19.02,check,,,,,1.0,floor
+0342843AR,Tipuana tipu,False,G.V. Corts Catalanes,,42.79,no_facade,19.06,check,,,,,1.0,floor
+0342844AR,Brachychiton populneus,False,G.V. Corts Catalanes,,51.0,no_facade,19.04,check,,,,,1.0,floor
+0342845AR,Brachychiton populneus,False,G.V. Corts Catalanes,,42.34,no_facade,18.95,check,,,,,1.0,floor
+0342846AR,Brachychiton populneus,False,G.V. Corts Catalanes,,38.11,no_facade,18.93,check,,,,,1.0,floor
+0342847AR,Brachychiton populneus,False,G.V. Corts Catalanes,,34.08,no_facade,18.98,check,,,,,1.0,floor
+0342848AR,Brachychiton populneus,False,G.V. Corts Catalanes,,30.18,no_facade,19.04,check,,,,,1.0,floor
+0342849AR,Brachychiton populneus,False,G.V. Corts Catalanes,,28.46,median,19.06,check,,,,,1.0,floor
+0342850AR,Brachychiton populneus,False,G.V. Corts Catalanes,,29.31,no_kerb,,check,,,,,1.0,floor
+0342851AR,Gleditsia triacanthos,False,G.V. Corts Catalanes,14.7,12.63,ok,,large,427564.42,4579562.65,427568.66,4579548.57,1.5,class
+0342852AR,Gleditsia triacanthos,False,G.V. Corts Catalanes,16.51,11.81,ok,,large,427561.2,4579561.68,427565.96,4579545.86,1.5,class
+0342853AR,Gleditsia triacanthos,False,G.V. Corts Catalanes,18.56,11.8,ok,,large,427557.56,4579560.58,427562.91,4579542.81,1.5,class
+0342854AR,Gleditsia triacanthos,False,G.V. Corts Catalanes,20.61,11.8,ok,,large,427553.92,4579559.49,427559.86,4579539.75,1.5,class
+0342855AR,Gleditsia triacanthos,False,G.V. Corts Catalanes,23.34,14.45,ok,,large,427549.06,4579558.02,427555.78,4579535.68,1.5,class
+0342856AR,Gleditsia triacanthos,False,G.V. Corts Catalanes,27.98,16.93,ok,,large,427540.6,4579555.48,427548.67,4579528.68,1.5,class
+0342857AR,Gleditsia triacanthos,False,G.V. Corts Catalanes,29.8,20.54,ok,,large,427537.29,4579554.48,427545.88,4579525.94,1.5,class
+0342858AR,Gleditsia triacanthos,False,G.V. Corts Catalanes,28.05,23.35,ok,,large,427540.48,4579555.44,427548.56,4579528.58,1.5,class
+0342859AR,Gleditsia triacanthos,False,G.V. Corts Catalanes,29.59,26.75,ok,,large,427537.68,4579554.6,427546.21,4579526.27,1.5,class
+0342860AR,Gleditsia triacanthos,False,G.V. Corts Catalanes,23.9,22.11,ok,,large,427548.03,4579557.71,427554.92,4579534.83,1.5,class
+0342861AR,Celtis australis,False,C\ Juan Gris,17.77,16.71,ok,,large,427567.28,4579572.78,427584.31,4579577.84,1.5,class
+0342863AR,Celtis australis,False,C\ Juan Gris,11.71,10.78,ok,,large,427564.05,4579583.66,427575.27,4579586.99,1.5,class
+0342864AR,Celtis australis,False,C\ Juan Gris,8.74,7.52,ok,,large,427562.44,4579589.05,427570.82,4579591.54,1.5,class
+0342865AR,Celtis australis,False,C\ Juan Gris,6.1,5.08,ok,,large,427561.45,4579592.39,427565.84,4579596.63,1.5,class
+0342866AR,Celtis australis,False,C\ Juan Gris,9.53,7.92,ok,,large,427561.45,4579592.39,427560.69,4579601.89,1.5,class
+0342867AR,Celtis australis,False,C\ Juan Gris,16.9,15.9,ok,,large,427530.33,4579609.7,427545.45,4579617.25,1.5,class
+0342868AR,Celtis australis,False,C\ Juan Gris,15.03,13.93,ok,,large,427527.79,4579614.78,427541.24,4579621.49,1.5,class
+0342870AR,Celtis australis,False,C\ Juan Gris,11.59,10.47,ok,,large,427522.92,4579624.54,427533.29,4579629.72,1.5,class
+0342871AR,Celtis australis,False,C\ Juan Gris,9.88,8.79,ok,,large,427520.49,4579629.41,427529.33,4579633.83,1.5,class
+0342873AR,Celtis australis,False,C\ Juan Gris,10.42,9.03,ok,,large,427518.43,4579633.53,427519.48,4579643.89,1.5,class
+0342874AR,Celtis australis,False,C\ Juan Gris,11.94,11.06,ok,,large,427497.05,4579650.41,427507.66,4579655.91,1.5,class
+0342875AR,Celtis australis,False,C\ Juan Gris,11.0,9.93,ok,,large,427494.81,4579653.41,427503.61,4579660.0,1.5,class
+0342876AR,Celtis australis,False,C\ Juan Gris,10.15,9.17,ok,,large,427491.13,4579658.33,427499.26,4579664.41,1.5,class
+0342877AR,Celtis australis,False,C\ Juan Gris,9.27,8.25,ok,,large,427487.32,4579663.42,427494.75,4579668.97,1.5,class
+0342878AR,Celtis australis,False,C\ Juan Gris,8.35,7.42,ok,,large,427483.36,4579668.72,427490.05,4579673.72,1.5,class
+0342879AR,Celtis australis,False,C\ Juan Gris,7.49,6.45,ok,,large,427479.59,4579673.75,427485.59,4579678.24,1.5,class
+0342880AR,Tipuana tipu,False,G.V. Corts Catalanes,,49.13,no_facade,19.06,check,,,,,1.0,floor
+0342881AR,Tipuana tipu,False,G.V. Corts Catalanes,,34.64,no_facade,18.98,check,,,,,1.0,floor
+0342882AR,Tipuana tipu,False,G.V. Corts Catalanes,,26.21,median,18.95,check,,,,,1.0,floor
+0342883AR,Tipuana tipu,False,G.V. Corts Catalanes,29.74,24.3,ok,,large,427569.81,4579564.27,427593.73,4579546.6,1.5,class
+0342887AR,Gleditsia triacanthos,False,C\ Juan Gris,,11.15,no_kerb,,check,,,,,1.0,floor
+0343219AR,Cupressus sempervirens,False,Av Carrilet,18.15,1.95,ok,,large,427574.13,4579760.57,427558.31,4579751.67,1.5,class

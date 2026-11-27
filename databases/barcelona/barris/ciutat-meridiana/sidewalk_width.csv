@@ -1,0 +1,113 @@
+tree_id,species,is_plane,street,width_m,facade_dist_m,flag,strip_width_m,size_class,ray_x0,ray_y0,ray_x1,ray_y1,pit_min_m2,pit_basis
+0244596AR,Ostrya carpinifolia,False,C\ Vallcivera,11.17,5.29,ok,,large,431252.72,4590124.25,431263.87,4590123.72,1.5,class
+0246215AR,Cercis siliquastrum,False,Av Rasos de Peguera,9.18,1.74,ok,,large,431117.06,4590121.46,431122.03,4590113.74,1.5,class
+0246218AR,Tipuana tipu,False,Pl Roja de la Ciutat Meridiana,17.12,7.93,ok,,large,431456.49,4590298.99,431446.0,4590312.52,1.5,class
+0246219AR,Brachychiton populneus,False,C\ Vallcivera,15.16,11.74,ok,,large,431472.67,4590311.53,431470.31,4590326.51,1.5,class
+0246221AR,Brachychiton populneus,False,Av Rasos de Peguera,12.59,4.21,ok,,large,431387.73,4590304.46,431394.52,4590315.06,1.5,class
+0246222AR,Populus nigra 'Italica',False,Av Rasos de Peguera,7.5,6.43,ok,,large,431239.65,4590197.27,431246.86,4590195.22,1.5,class
+0246223AR,Melia azedarach,False,Av Rasos de Peguera,,20.68,median,22.06,check,,,,,1.0,floor
+0246224AR,Celtis australis,False,C\ Vallcivera,,15.81,median,,check,,,,,1.0,floor
+0246225AR,Populus nigra 'Italica',False,Pl Roja de la Ciutat Meridiana,13.55,12.8,ok,,large,431439.92,4590286.14,431431.62,4590296.86,1.5,class
+0246228AR,Brachychiton populneus,False,Av Rasos de Peguera,,21.91,median,,check,,,,,1.0,floor
+0246229AR,Populus nigra 'Italica',False,Av Rasos de Peguera,7.89,6.93,ok,,large,431241.24,4590202.87,431248.83,4590200.71,1.5,class
+0246230AR,Populus nigra,False,C\ Vallcivera,,30.37,no_facade,35.8,check,,,,,1.0,floor
+0246232AR,Robinia pseudoacacia 'Bessoniana',False,Av Rasos de Peguera,,16.97,median,5.54,check,,,,,1.0,floor
+0246234AR,Populus nigra 'Italica',False,Av Rasos de Peguera,6.75,5.63,ok,,large,431236.17,4590185.05,431242.66,4590183.2,1.5,class
+0246235AR,Brachychiton populneus,False,Av Rasos de Peguera,,11.82,median,,check,,,,,1.0,floor
+0246236AR,Robinia pseudoacacia 'Bessoniana',False,Av Rasos de Peguera,,15.91,median,4.21,check,,,,,1.0,floor
+0246237AR,Liquidambar styraciflua,False,Av Rasos de Peguera,13.17,11.45,ok,,large,431246.11,4590219.98,431258.78,4590216.37,1.5,class
+0246239AR,Populus nigra 'Italica',False,Av Rasos de Peguera,,17.21,median,,check,,,,,1.0,floor
+0246240AR,Populus nigra 'Italica',False,Av Rasos de Peguera,13.05,11.95,ok,,large,431264.52,4590237.09,431267.08,4590224.29,1.5,class
+0246242AR,Populus nigra 'Italica',False,Pl Roja de la Ciutat Meridiana,,16.23,median,,check,,,,,1.0,floor
+0246243AR,Populus nigra 'Italica',False,Pl Roja de la Ciutat Meridiana,13.82,13.09,ok,,large,431443.47,4590288.89,431435.0,4590299.82,1.5,class
+0246244AR,Prunus cerasifera 'Pissardii',False,C\ Vallcivera,9.38,4.12,ok,,large,431225.89,4590098.22,431235.26,4590097.72,1.5,class
+0246245AR,Brachychiton populneus,False,C\ Vallcivera,,24.29,median,,check,,,,,1.0,floor
+0246246AR,Brachychiton populneus,False,C\ Vallcivera,9.65,7.52,ok,,large,431472.67,4590311.53,431474.57,4590320.99,1.5,class
+0246247AR,Brachychiton populneus,False,Av Rasos de Peguera,,16.05,no_kerb,,check,,,,,1.0,floor
+0246248AR,Brachychiton populneus,False,C\ Vallcivera,,18.84,median,,check,,,,,1.0,floor
+0246252AR,Populus nigra 'Italica',False,Av Rasos de Peguera,11.69,10.66,ok,,large,431264.52,4590237.09,431272.52,4590228.56,1.5,class
+0246254AR,Melia azedarach,False,C\ Vallcivera,,8.68,median,3.08,check,,,,,1.0,floor
+0246258AR,Populus nigra 'Italica',False,C\ Vallcivera,,19.55,median,13.33,check,,,,,1.0,floor
+0246259AR,Brachychiton populneus,False,Av Rasos de Peguera,,16.99,median,,check,,,,,1.0,floor
+0246260AR,Brachychiton populneus,False,C\ Vallcivera,,20.5,median,,check,,,,,1.0,floor
+0246264AR,Jacaranda mimosifolia,False,Pl Roja de la Ciutat Meridiana,,20.62,no_kerb,34.86,check,,,,,1.0,floor
+0246265AR,Robinia pseudoacacia 'Bessoniana',False,Av Rasos de Peguera,,17.4,median,4.41,check,,,,,1.0,floor
+0246268AR,Ostrya carpinifolia,False,C\ Vallcivera,,21.19,median,20.11,check,,,,,1.0,floor
+0246271AR,Tipuana tipu,False,Pl Roja de la Ciutat Meridiana,13.89,7.58,ok,,large,431443.81,4590289.16,431435.3,4590300.14,1.5,class
+0246275AR,Tipuana tipu,False,Pl Roja de la Ciutat Meridiana,16.71,7.8,ok,,large,431452.25,4590295.7,431442.01,4590308.91,1.5,class
+0246276AR,Tipuana tipu,False,Av Rasos de Peguera,,21.93,median,,check,,,,,1.0,floor
+0246279AR,Populus nigra 'Italica',False,Pl Roja de la Ciutat Meridiana,17.12,16.52,ok,,large,431456.61,4590299.08,431446.12,4590312.62,1.5,class
+0246280AR,Celtis australis,False,C\ Vallcivera,,12.71,median,,check,,,,,1.0,floor
+0246281AR,Populus nigra 'Italica',False,Av Rasos de Peguera,15.81,14.35,ok,,large,431267.03,4590241.08,431281.86,4590235.6,1.5,class
+0246282AR,Populus nigra 'Italica',False,Av Rasos de Peguera,13.45,12.39,ok,,large,431264.52,4590237.09,431276.92,4590231.88,1.5,class
+0246286AR,Prunus cerasifera 'Pissardii',False,Pl Roja de la Ciutat Meridiana,,12.54,no_kerb,,check,,,,,1.0,floor
+0246287AR,Acer negundo,False,Av Rasos de Peguera,,4.43,no_kerb,,check,,,,,1.0,floor
+0246289AR,Populus nigra 'Italica',False,Av Rasos de Peguera,10.63,9.35,ok,,large,431244.43,4590214.07,431254.66,4590211.16,1.5,class
+0246291AR,Populus nigra 'Italica',False,Av Rasos de Peguera,7.09,5.98,ok,,large,431237.86,4590190.99,431244.68,4590189.05,1.5,class
+0246295AR,Ostrya carpinifolia,False,C\ Vallcivera,,53.97,no_facade,,check,,,,,1.0,floor
+0246296AR,Tipuana tipu,False,Av Rasos de Peguera,,16.43,median,,check,,,,,1.0,floor
+0246297AR,Populus nigra 'Italica',False,Pl Roja de la Ciutat Meridiana,17.08,16.45,ok,,large,431460.35,4590301.98,431449.88,4590315.48,1.5,class
+0246298AR,Tipuana tipu,False,Av Rasos de Peguera,,11.41,median,18.87,check,,,,,1.0,floor
+0246300AR,Prunus cerasifera 'Pissardii',False,Pl Roja de la Ciutat Meridiana,,7.11,no_kerb,,check,,,,,1.0,floor
+0246301AR,Ostrya carpinifolia,False,C\ Vallcivera,,43.35,no_facade,21.12,check,,,,,1.0,floor
+0246302AR,Celtis australis,False,C\ Vallcivera,17.04,15.15,ok,,large,431268.9,4590139.66,431285.88,4590141.17,1.5,class
+0246303AR,Tipuana tipu,False,Pl Roja de la Ciutat Meridiana,,7.45,no_kerb,31.08,check,,,,,1.0,floor
+0246304AR,Ostrya carpinifolia,False,C\ Vallcivera,,53.57,no_facade,30.39,check,,,,,1.0,floor
+0246305AR,Brachychiton populneus,False,Av Rasos de Peguera,,26.18,median,,check,,,,,1.0,floor
+0246306AR,Populus nigra 'Italica',False,Av Rasos de Peguera,8.84,7.56,ok,,large,431242.81,4590208.37,431251.31,4590205.95,1.5,class
+0246308AR,Jacaranda mimosifolia,False,Pl Roja de la Ciutat Meridiana,,16.85,no_kerb,33.65,check,,,,,1.0,floor
+0246309AR,Populus nigra 'Italica',False,C\ Vallcivera,,23.64,median,,check,,,,,1.0,floor
+0246310AR,Tipuana tipu,False,C\ Vallcivera,16.96,7.44,ok,,large,431463.73,4590304.6,431453.33,4590318.01,1.5,class
+0246312AR,Populus nigra 'Italica',False,Pl Roja de la Ciutat Meridiana,15.45,14.68,ok,,large,431447.99,4590292.4,431438.52,4590304.61,1.5,class
+0246314AR,Hibiscus syriacus,False,C\ Vallcivera,13.37,5.66,ok,,large,431236.37,4590109.39,431249.66,4590110.83,1.5,class
+0246316AR,Ostrya carpinifolia,False,C\ Vallcivera,,47.39,no_facade,,check,,,,,1.0,floor
+0246318AR,Celtis australis,False,C\ Vallcivera,,16.44,median,,check,,,,,1.0,floor
+0246320AR,Jacaranda mimosifolia,False,Pl Roja de la Ciutat Meridiana,,24.12,no_kerb,36.15,check,,,,,1.0,floor
+0246321AR,Brachychiton populneus,False,C\ Vallcivera,7.29,5.5,ok,,large,431473.19,4590310.86,431478.99,4590315.28,1.5,class
+0246322AR,Tipuana tipu,False,Pl Roja de la Ciutat Meridiana,16.03,7.4,ok,,large,431431.9,4590279.93,431422.09,4590292.6,1.5,class
+0246323AR,Populus nigra 'Italica',False,Av Rasos de Peguera,6.44,5.61,ok,,large,431234.6,4590179.54,431240.8,4590177.77,1.5,class
+0246325AR,Brachychiton populneus,False,C\ Vallcivera,23.86,17.5,ok,,large,431472.67,4590311.53,431464.56,4590333.97,1.5,class
+0246326AR,Pinus halepensis,False,Av Rasos de Peguera,,17.27,median,3.93,check,,,,,1.0,floor
+0246327AR,Brachychiton populneus,False,Av Rasos de Peguera,,27.97,no_kerb,,check,,,,,1.0,floor
+0246328AR,Tipuana tipu,False,Pl Roja de la Ciutat Meridiana,14.29,7.51,ok,,large,431435.7,4590282.87,431426.95,4590294.17,1.5,class
+0246329AR,Celtis australis,False,C\ Vallcivera,12.08,10.36,ok,,large,431268.79,4590137.16,431280.85,4590136.59,1.5,class
+0246330AR,Robinia pseudoacacia,False,Av Rasos de Peguera,,17.37,median,5.53,check,,,,,1.0,floor
+0246332AR,Tipuana tipu,False,Pl Roja de la Ciutat Meridiana,15.59,7.79,ok,,large,431448.33,4590292.66,431438.78,4590304.99,1.5,class
+0246333AR,Ostrya carpinifolia,False,C\ Vallcivera,,23.27,median,29.79,check,,,,,1.0,floor
+0246336AR,Brachychiton populneus,False,Av Rasos de Peguera,22.28,10.12,ok,,large,431387.73,4590304.46,431402.46,4590321.18,1.5,class
+0246337AR,Cercis siliquastrum,False,Av Rasos de Peguera,9.75,2.12,ok,,large,431147.86,4590128.79,431153.08,4590120.56,1.5,class
+0246339AR,Brachychiton populneus,False,Av Rasos de Peguera,,10.15,median,,check,,,,,1.0,floor
+0246340AR,Robinia pseudoacacia 'Bessoniana',False,Av Rasos de Peguera,,16.96,median,4.22,check,,,,,1.0,floor
+0246341AR,Robinia pseudoacacia 'Bessoniana',False,Av Rasos de Peguera,,16.2,median,4.22,check,,,,,1.0,floor
+0246342AR,Ostrya carpinifolia,False,C\ Vallcivera,,27.28,median,,check,,,,,1.0,floor
+0246343AR,Tipuana tipu,False,Pl Roja de la Ciutat Meridiana,13.54,7.92,ok,,large,431440.32,4590286.46,431432.03,4590297.16,1.5,class
+0246345AR,Tipuana tipu,False,Av Rasos de Peguera,,12.62,median,18.94,check,,,,,1.0,floor
+0246347AR,Ostrya carpinifolia,False,C\ Vallcivera,,58.81,no_facade,,check,,,,,1.0,floor
+0260628AR,Tipuana tipu,False,Av Rasos de Peguera,17.28,7.45,ok,,large,431419.38,4590353.06,431413.85,4590336.69,1.5,class
+0260797AR,Tipuana tipu,False,Av Rasos de Peguera,13.61,7.86,ok,,large,431421.11,4590352.57,431417.46,4590339.46,1.5,class
+0293923AR,Quercus ilex,False,C\ Vallcivera,,20.1,median,23.66,check,,,,,1.0,floor
+0312096AR,Ostrya carpinifolia,False,C\ Vallcivera,,28.17,median,,check,,,,,1.0,floor
+0312107AR,Quercus ilex,False,C\ Vallcivera,,21.67,median,,check,,,,,1.0,floor
+0313595AR,Acer saccharinum,False,C\ Pedraforca,8.19,7.5,ok,,large,431166.01,4590430.78,431158.14,4590433.03,1.5,class
+0313596AR,Acer saccharinum,False,C\ Pedraforca,8.19,7.23,ok,,large,431164.06,4590423.94,431156.19,4590426.21,1.5,class
+0313597AR,Acer saccharinum,False,C\ Pedraforca,8.21,7.34,ok,,large,431162.04,4590416.83,431154.14,4590419.07,1.5,class
+0313598AR,Acer saccharinum,False,C\ Pedraforca,,12.98,median,3.39,check,,,,,1.0,floor
+0313599AR,Acer saccharinum,False,C\ Pedraforca,,13.52,median,3.4,check,,,,,1.0,floor
+0313600AR,Acer saccharinum,False,C\ Pedraforca,,13.2,median,3.38,check,,,,,1.0,floor
+0313601AR,Acer saccharinum,False,C\ Pedraforca,13.77,11.08,ok,,large,431143.37,4590369.03,431143.83,4590382.79,1.5,class
+0313602AR,Acer saccharinum,False,C\ Pedraforca,3.32,2.66,ok,,small,431142.7,4590366.68,431139.51,4590367.59,1.0,class
+0313603AR,Acer saccharinum,False,C\ Pedraforca,3.31,2.51,ok,,small,431140.72,4590359.77,431137.54,4590360.68,1.0,class
+0313604AR,Acer saccharinum,False,C\ Pedraforca,,2.99,median,3.29,check,,,,,1.0,floor
+0313605AR,Acer saccharinum,False,C\ Pedraforca,,4.08,median,3.32,check,,,,,1.0,floor
+0313606AR,Acer saccharinum,False,C\ Pedraforca,3.3,2.31,ok,,small,431132.9,4590332.4,431129.73,4590333.3,1.0,class
+0313608AR,Acer saccharinum,False,C\ Pedraforca,3.3,2.79,ok,,small,431129.12,4590319.04,431125.94,4590319.94,1.0,class
+0313609AR,Acer saccharinum,False,C\ Pedraforca,3.32,2.98,ok,,small,431123.36,4590298.8,431120.16,4590299.71,1.0,class
+0313610AR,Acer saccharinum,False,C\ Pedraforca,3.32,2.78,ok,,small,431121.43,4590292.0,431118.23,4590292.91,1.0,class
+0313611AR,Acer saccharinum,False,C\ Pedraforca,3.31,2.56,ok,,small,431119.57,4590285.49,431116.39,4590286.39,1.0,class
+0313612AR,Acer saccharinum,False,C\ Pedraforca,3.51,2.92,ok,,medium,431117.69,4590278.91,431114.32,4590279.88,1.0,class
+0319301AR,Melia azedarach,False,Av Rasos de Peguera,,17.26,median,25.33,check,,,,,1.0,floor
+0322088AR,Quercus ilex,False,C\ Vallcivera,,19.95,median,,check,,,,,1.0,floor
+0329056AR,Platycladus orientalis,False,C\ Agudes,,19.41,no_kerb,,check,,,,,1.0,floor
+0346709AR,Pinus pinea,False,Av Rasos de Peguera,,22.78,median,8.52,check,,,,,1.0,floor
+0346710AR,Ulmus pumila,False,Av Rasos de Peguera,,20.33,median,5.29,check,,,,,1.0,floor
+0346712AR,Malus domestica,False,Av Rasos de Peguera,,2.95,no_kerb,,check,,,,,1.0,floor

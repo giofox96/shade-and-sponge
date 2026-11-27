@@ -1,0 +1,1459 @@
+tree_id,species,is_plane,street,width_m,facade_dist_m,flag,strip_width_m,size_class,ray_x0,ray_y0,ray_x1,ray_y1,pit_min_m2,pit_basis
+0064576AR,Cercis siliquastrum,False,Ptge Xinxó,5.85,4.0,ok,,medium,429299.7,4586483.58,429298.02,4586477.98,1.0,class
+0064578AR,Populus alba 'Pyramidalis',False,Rbla Carmel,,22.29,median,,check,,,,,1.0,floor
+0064579AR,Prunus cerasifera 'Pissardii',False,C\ Fastenrath,4.98,3.86,ok,,medium,429130.51,4585917.73,429127.84,4585913.52,1.0,class
+0064580AR,Styphnolobium japonicum,False,C\ Gran Vista,2.51,1.91,ok,,small,429804.04,4585710.59,429802.74,4585712.73,1.0,class
+0064581AR,Styphnolobium japonicum,False,C\ Llobregós,10.26,8.51,ok,,large,429610.31,4586279.28,429609.57,4586289.51,1.5,class
+0064583AR,Brachychiton populneus,False,Rbla Carmel,,29.32,median,,check,,,,,1.0,floor
+0064584AR,Tipuana tipu,False,Ptge Xinxó,28.12,4.55,ok,,large,429286.57,4586487.54,429278.34,4586460.65,1.5,class
+0064585AR,Brachychiton populneus,False,C\ Calderón de la Barca,,12.15,median,6.48,check,,,,,1.0,floor
+0064586AR,Brachychiton populneus,False,Rbla Carmel,,28.67,median,,check,,,,,1.0,floor
+0064587AR,Styphnolobium japonicum,False,C\ Ciències,,22.39,median,,check,,,,,1.0,floor
+0064588AR,Celtis australis,False,C\ Lisboa,,12.23,median,10.14,check,,,,,1.0,floor
+0064589AR,Tipuana tipu,False,C\ Hortal,,2.52,no_kerb,,check,,,,,1.0,floor
+0064590AR,Citrus × aurantium,False,C\ Argimon,2.05,1.61,ok,,none,429503.18,4586599.63,429501.44,4586598.55,1.0,floor
+0064592AR,Styphnolobium japonicum,False,Pg Mare de Déu del Coll,2.86,2.21,ok,,small,429064.78,4586108.9,429061.92,4586109.04,1.0,class
+0064596AR,Brachychiton acerifolius,False,Pl Pastrana,23.51,5.73,ok,,large,429466.07,4586343.26,429479.85,4586324.21,1.5,class
+0064597AR,Styphnolobium japonicum,False,Rbla Carmel,,9.13,median,,check,,,,,1.0,floor
+0064598AR,Styphnolobium japonicum,False,Rbla Carmel,,17.44,median,,check,,,,,1.0,floor
+0064599AR,Styphnolobium japonicum,False,Ptge Xinxó,16.68,4.21,ok,,large,429292.8,4586485.65,429288.01,4586469.67,1.5,class
+0064600AR,Brachychiton populneus,False,C\ Ciències,,28.9,median,,check,,,,,1.0,floor
+0064601AR,Tipuana tipu,False,Esc Floresta,,3.18,no_kerb,,check,,,,,1.0,floor
+0064602AR,Styphnolobium japonicum,False,C\ Llobregós,7.97,6.81,ok,,large,429556.92,4586241.41,429552.31,4586247.91,1.5,class
+0064604AR,Ligustrum lucidum,False,C\ Calderón de la Barca,,8.36,median,4.3,check,,,,,1.0,floor
+0064606AR,Styphnolobium japonicum,False,C\ Llobregós,4.29,3.42,ok,,medium,429376.34,4586137.84,429378.87,4586134.37,1.0,class
+0064607AR,Ligustrum japonicum 'Texanum',False,C\ Sacedón,4.05,3.11,ok,,medium,429379.28,4586394.11,429382.53,4586396.53,1.0,class
+0064608AR,Celtis australis,False,Rbla Carmel,2.83,2.26,ok,,small,429650.84,4586045.72,429653.64,4586046.16,1.0,class
+0064610AR,Cupressus sempervirens,False,Ptge Gabarnet,3.91,3.15,ok,,medium,429711.26,4586101.82,429714.95,4586103.11,1.0,class
+0064611AR,Melia azedarach,False,C\ Calderón de la Barca,3.01,2.33,ok,,small,429429.04,4585905.9,429426.47,4585904.34,1.0,class
+0064612AR,Platanus × acerifolia,True,Pl Font de la Mulassa,,7.46,median,8.82,check,,,,,1.0,floor
+0064614AR,Brachychiton acerifolius,False,Pl Pastrana,15.65,5.6,ok,,large,429461.23,4586339.75,429470.4,4586327.08,1.5,class
+0064616AR,Styphnolobium japonicum,False,C\ Dante Alighieri,6.09,4.97,ok,,large,429507.71,4586553.12,429512.56,4586549.44,1.5,class
+0064619AR,Ligustrum lucidum,False,C\ Calderón de la Barca,,8.39,median,5.5,check,,,,,1.0,floor
+0064620AR,Celtis australis,False,C\ Lisboa,7.25,6.37,ok,,large,429365.37,4586601.97,429359.98,4586606.83,1.5,class
+0064621AR,Styphnolobium japonicum,False,C\ Llobregós,6.83,5.88,ok,,large,429437.14,4586158.24,429433.21,4586163.82,1.5,class
+0064622AR,Brachychiton populneus,False,C\ Llobregós,,12.24,median,7.59,check,,,,,1.0,floor
+0064624AR,Pyrus calleryana 'Chanticleer',False,Rbla Carmel,2.81,1.93,ok,,small,429671.24,4585914.2,429674.02,4585914.64,1.0,class
+0064625AR,Ligustrum lucidum,False,C\ Segimon,3.34,2.95,ok,,small,429504.48,4585802.35,429505.36,4585805.58,1.0,class
+0064626AR,Styphnolobium japonicum,False,Rbla Carmel,,16.94,median,,check,,,,,1.0,floor
+0064627AR,Styphnolobium japonicum,False,C\ Santuari,2.79,2.2,ok,,small,429145.02,4585782.27,429147.13,4585780.45,1.0,class
+0064628AR,Melia azedarach,False,Pl Pastrana,,17.1,median,29.68,check,,,,,1.0,floor
+0064629AR,Styphnolobium japonicum,False,Rbla Carmel,5.6,4.62,ok,,medium,429605.41,4586344.42,429610.95,4586345.29,1.0,class
+0064630AR,Ginkgo biloba 'Fastigiata',False,C\ Fastenrath,3.68,2.78,ok,,medium,429189.48,4585924.74,429188.3,4585928.23,1.0,class
+0064631AR,Styphnolobium japonicum,False,C\ Dante Alighieri,3.73,2.93,ok,,medium,429448.22,4586516.34,429450.43,4586513.33,1.0,class
+0064632AR,Styphnolobium japonicum,False,Rbla Carmel,4.78,3.66,ok,,medium,429582.12,4586498.83,429586.85,4586499.51,1.0,class
+0064633AR,Celtis australis,False,C\ Lisboa,3.8,2.77,ok,,medium,429554.12,4586710.38,429552.19,4586713.66,1.0,class
+0064634AR,Melia azedarach,False,C\ Calderón de la Barca,2.72,2.03,ok,,small,429465.25,4585870.69,429465.7,4585868.01,1.0,class
+0064635AR,Morus alba,False,C\ Alcalde de Zalamea,,6.81,no_kerb,35.55,check,,,,,1.0,floor
+0064636AR,Ligustrum lucidum,False,C\ Segimon,2.87,2.31,ok,,small,429515.27,4585799.2,429516.36,4585801.86,1.0,class
+0064637AR,Ligustrum lucidum,False,Camí Vell del Coll,6.34,3.64,ok,,large,429123.5,4586087.95,429119.56,4586092.92,1.5,class
+0064638AR,Melia azedarach,False,C\ Calderón de la Barca,2.79,2.12,ok,,small,429412.91,4586002.89,429410.41,4586001.64,1.0,class
+0064640AR,Styphnolobium japonicum,False,C\ Santuari,7.45,2.31,ok,,large,429287.77,4585853.91,429282.56,4585848.59,1.5,class
+0064641AR,Styphnolobium japonicum,False,C\ Ciències,3.25,3.94,ok,,small,429635.1,4586537.44,429635.64,4586534.24,1.0,class
+0064642AR,Ligustrum lucidum,False,C\ Calderón de la Barca,2.74,2.17,ok,,small,429469.56,4585871.34,429469.95,4585868.63,1.0,class
+0064643AR,Styphnolobium japonicum,False,C\ Santuari,2.83,1.95,ok,,small,429348.49,4585781.36,429346.3,4585779.58,1.0,class
+0064644AR,Prunus cerasifera 'Pissardii',False,C\ Lugo,2.83,2.3,ok,,small,429579.51,4586147.09,429581.04,4586144.72,1.0,class
+0064645AR,Cercis siliquastrum,False,C\ Calderón de la Barca,3.03,2.32,ok,,small,429551.74,4585781.67,429549.09,4585780.21,1.0,class
+0064646AR,Styphnolobium japonicum,False,C\ Dante Alighieri,3.4,2.61,ok,,small,429289.09,4586351.44,429291.33,4586348.89,1.0,class
+0064647AR,Platanus × acerifolia,True,Pl Font de la Mulassa,,5.61,no_kerb,,check,,,,,1.0,floor
+0064648AR,Styphnolobium japonicum,False,C\ Dante Alighieri,3.79,3.12,ok,,medium,429490.35,4586542.1,429492.09,4586538.74,1.0,class
+0064649AR,Catalpa bignonioides,False,Rbla Carmel,6.46,5.84,ok,,large,429659.83,4586090.37,429653.45,4586089.33,1.5,class
+0064650AR,Ligustrum lucidum,False,C\ Segimon,3.64,2.93,ok,,medium,429458.32,4585809.99,429458.2,4585813.62,1.0,class
+0064651AR,Styphnolobium japonicum,False,C\ Gran Vista,13.18,9.4,ok,,large,429759.75,4585684.13,429769.57,4585692.92,1.5,class
+0064653AR,Styphnolobium japonicum,False,C\ Llobregós,4.33,3.74,ok,,medium,429555.01,4586264.52,429557.58,4586261.04,1.0,class
+0064654AR,Styphnolobium japonicum,False,Pg Mare de Déu del Coll,5.6,4.63,ok,,medium,429065.51,4586063.55,429060.31,4586065.64,1.0,class
+0064656AR,Celtis australis,False,Rbla Carmel,6.29,5.67,ok,,large,429658.01,4586101.52,429651.8,4586100.51,1.5,class
+0064657AR,Cercis siliquastrum,False,C\ Murtra,3.03,2.19,ok,,small,429309.82,4585935.3,429307.53,4585933.33,1.0,class
+0064658AR,Brachychiton populneus,False,Rbla Carmel,,29.34,median,,check,,,,,1.0,floor
+0064659AR,Styphnolobium japonicum,False,C\ Beatriu,3.65,2.79,ok,,medium,429563.24,4586610.41,429566.82,4586611.13,1.0,class
+0064661AR,Brachychiton populneus,False,C\ Llobregós,7.81,2.81,ok,,large,429073.19,4585897.95,429068.84,4585904.44,1.5,class
+0064663AR,Cercis siliquastrum,False,C\ Farnés,,10.49,median,,check,,,,,1.0,floor
+0064664AR,Brachychiton populneus,False,C\ Llobregós,,12.12,median,7.52,check,,,,,1.0,floor
+0064666AR,Ligustrum lucidum,False,C\ Murtra,,3.74,no_kerb,,check,,,,,1.0,floor
+0064667AR,Ligustrum lucidum,False,C\ Calderón de la Barca,6.56,5.61,ok,,large,429549.0,4585751.04,429555.47,4585752.13,1.5,class
+0064668AR,Ligustrum lucidum,False,C\ Calderón de la Barca,5.9,4.87,ok,,medium,429561.98,4585669.81,429567.8,4585670.76,1.0,class
+0064669AR,Melia azedarach,False,C\ Calderón de la Barca,2.91,2.38,ok,,small,429389.17,4586051.9,429386.56,4586050.61,1.0,class
+0064670AR,Liquidambar styraciflua,False,Pl Pastrana,,2.55,no_kerb,,check,,,,,1.0,floor
+0064671AR,Styphnolobium japonicum,False,Rbla Carmel,3.41,2.0,ok,,small,429617.54,4586268.33,429620.92,4586268.82,1.0,class
+0064672AR,Styphnolobium japonicum,False,C\ Dante Alighieri,3.89,3.25,ok,,medium,429475.03,4586534.05,429476.86,4586530.62,1.0,class
+0064673AR,Styphnolobium japonicum,False,C\ Gran Vista,2.2,1.65,ok,,none,429698.37,4585661.03,429699.49,4585659.14,1.0,floor
+0064674AR,Ligustrum lucidum,False,C\ Calderón de la Barca,6.06,4.9,ok,,large,429561.11,4585675.13,429567.1,4585676.1,1.5,class
+0064676AR,Styphnolobium japonicum,False,C\ Llobregós,7.81,6.97,ok,,large,429071.63,4585896.9,429067.28,4585903.39,1.5,class
+0064678AR,Platanus × acerifolia,True,Jard Juan Ponce,,17.22,median,2.25,check,,,,,1.0,floor
+0064680AR,Cercis siliquastrum,False,C\ Calderón de la Barca,3.84,3.2,ok,,medium,429568.61,4585724.36,429564.82,4585723.77,1.0,class
+0064681AR,Prunus cerasifera 'Pissardii',False,C\ Fastenrath,4.46,3.56,ok,,medium,429108.23,4585900.74,429107.95,4585905.2,1.0,class
+0064682AR,Brachychiton populneus,False,Rbla Carmel,,28.83,median,,check,,,,,1.0,floor
+0064683AR,Cercis siliquastrum,False,C\ Passerell,,7.79,median,25.67,check,,,,,1.0,floor
+0064686AR,Prunus cerasifera 'Pissardii',False,C\ Lugo,2.67,1.94,ok,,small,429612.24,4586168.4,429613.7,4586166.17,1.0,class
+0064687AR,Tilia x euchlora,False,C\ Santa Otília,,2.98,no_kerb,,check,,,,,1.0,floor
+0064688AR,Brachychiton populneus,False,C\ Llobregós,,16.77,median,,check,,,,,1.0,floor
+0064689AR,Ligustrum lucidum,False,C\ Murtra,3.9,2.97,ok,,medium,429387.19,4585823.67,429390.15,4585826.21,1.0,class
+0064690AR,Celtis australis,False,C\ Lisboa,,16.02,median,4.13,check,,,,,1.0,floor
+0064691AR,Styphnolobium japonicum,False,C\ Gran Vista,,9.93,median,2.39,check,,,,,1.0,floor
+0064692AR,Celtis australis,False,C\ Lisboa,,17.73,median,22.4,check,,,,,1.0,floor
+0064693AR,Brachychiton acerifolius,False,Rbla Carmel,,29.2,median,,check,,,,,1.0,floor
+0064694AR,Styphnolobium japonicum,False,C\ Llobregós,,3.86,median,4.35,check,,,,,1.0,floor
+0064695AR,Styphnolobium japonicum,False,C\ Llobregós,7.8,7.1,ok,,large,429179.95,4585970.04,429175.43,4585976.39,1.5,class
+0064697AR,Celtis australis,False,Rbla Carmel,2.85,2.17,ok,,small,429647.71,4586065.82,429650.54,4586066.26,1.0,class
+0064698AR,Styphnolobium japonicum,False,C\ Dante Alighieri,3.77,3.2,ok,,medium,429348.22,4586416.21,429351.16,4586413.86,1.0,class
+0064699AR,Celtis australis,False,C\ Lisboa,3.05,2.22,ok,,small,429162.43,4586471.15,429161.78,4586474.13,1.0,class
+0064701AR,Tipuana tipu,False,C\ Hortal,,5.99,no_kerb,26.12,check,,,,,1.0,floor
+0064702AR,Tipuana tipu,False,C\ Hortal,,3.67,no_kerb,,check,,,,,1.0,floor
+0064703AR,Celtis australis,False,C\ Lisboa,,19.11,median,7.49,check,,,,,1.0,floor
+0064704AR,Styphnolobium japonicum,False,C\ Llobregós,7.68,6.78,ok,,large,429331.25,4586080.98,429326.75,4586087.21,1.5,class
+0064705AR,Prunus cerasifera 'Pissardii',False,C\ Lugo,2.77,2.16,ok,,small,429569.46,4586140.57,429570.97,4586138.24,1.0,class
+0064706AR,Ligustrum lucidum,False,Camí Vell del Coll,4.57,3.23,ok,,medium,429120.04,4586120.67,429115.47,4586120.57,1.0,class
+0064707AR,Styphnolobium japonicum,False,Rbla Carmel,,8.77,median,12.64,check,,,,,1.0,floor
+0064708AR,Tilia x euchlora,False,Ptge Andalet,,13.27,no_kerb,,check,,,,,1.0,floor
+0064709AR,Melia azedarach,False,Pl Pastrana,,13.59,no_kerb,30.37,check,,,,,1.0,floor
+0064711AR,Brachychiton populneus,False,Rbla Carmel,,22.35,median,,check,,,,,1.0,floor
+0064712AR,Prunus cerasifera 'Pissardii',False,C\ Lugo,2.79,2.12,ok,,small,429597.33,4586158.63,429598.86,4586156.29,1.0,class
+0064714AR,Brachychiton populneus,False,C\ Ciències,,23.54,median,,check,,,,,1.0,floor
+0064715AR,Celtis australis,False,C\ Lisboa,,7.29,median,3.85,check,,,,,1.0,floor
+0064717AR,Styphnolobium japonicum,False,C\ Llobregós,4.36,3.52,ok,,medium,429148.85,4585972.32,429151.47,4585968.83,1.0,class
+0064719AR,Styphnolobium japonicum,False,C\ Pedrell,2.83,1.81,ok,,small,429706.09,4586081.75,429706.92,4586079.04,1.0,class
+0064720AR,Styphnolobium japonicum,False,C\ Pedrell,2.6,1.68,ok,,small,429676.0,4586072.52,429676.76,4586070.03,1.0,class
+0064721AR,Styphnolobium japonicum,False,C\ Dante Alighieri,3.87,3.07,ok,,medium,429387.43,4586465.04,429390.44,4586462.61,1.0,class
+0064722AR,Styphnolobium japonicum,False,C\ Gran Vista,5.71,4.69,ok,,medium,429683.49,4585652.2,429680.02,4585647.67,1.0,class
+0064723AR,Ligustrum lucidum,False,C\ Segimon,3.61,2.89,ok,,medium,429469.26,4585809.6,429469.63,4585813.19,1.0,class
+0064724AR,Brachychiton populneus,False,Rbla Carmel,,21.44,median,,check,,,,,1.0,floor
+0064726AR,Styphnolobium japonicum,False,C\ Llobregós,4.31,3.48,ok,,medium,429173.45,4585989.9,429175.96,4585986.4,1.0,class
+0064727AR,Styphnolobium japonicum,False,C\ Dante Alighieri,3.72,2.86,ok,,medium,429439.64,4586510.07,429441.83,4586507.06,1.0,class
+0064728AR,Styphnolobium japonicum,False,Pg Mare de Déu del Coll,11.79,10.36,ok,,large,429065.59,4586125.47,429061.85,4586136.65,1.5,class
+0064729AR,Pyrus calleryana 'Chanticleer',False,C\ Lluís Marià Vidal,4.08,3.08,ok,,medium,429527.36,4586268.84,429530.84,4586270.96,1.0,class
+0064730AR,Styphnolobium japonicum,False,C\ Lletres,,10.83,median,,check,,,,,1.0,floor
+0064732AR,Styphnolobium japonicum,False,C\ Llobregós,7.79,6.55,ok,,large,429586.64,4586263.17,429582.06,4586269.47,1.5,class
+0064734AR,Magnolia grandiflora,False,C\ Ramon Rocafull,,7.5,median,,check,,,,,1.0,floor
+0064735AR,Cercis siliquastrum,False,C\ Calderón de la Barca,3.19,2.31,ok,,small,429539.84,4585804.78,429537.03,4585803.26,1.0,class
+0064736AR,Styphnolobium japonicum,False,C\ Llobregós,4.15,3.38,ok,,medium,429229.86,4586030.91,429232.34,4586027.59,1.0,class
+0064738AR,Celtis australis,False,C\ Lisboa,,22.15,median,3.97,check,,,,,1.0,floor
+0064739AR,Styphnolobium japonicum,False,C\ Ciències,,15.56,median,12.34,check,,,,,1.0,floor
+0064741AR,Brachychiton acerifolius,False,Pl Pastrana,,5.71,median,,check,,,,,1.0,floor
+0064742AR,Styphnolobium japonicum,False,Rbla Carmel,,17.07,median,,check,,,,,1.0,floor
+0064743AR,Populus alba 'Pyramidalis',False,C\ Ciències,,28.36,median,,check,,,,,1.0,floor
+0064744AR,Styphnolobium japonicum,False,C\ Santuari,2.82,2.13,ok,,small,429333.09,4585800.26,429330.9,4585798.48,1.0,class
+0064745AR,Styphnolobium japonicum,False,C\ Llobregós,7.88,6.86,ok,,large,429185.11,4585973.7,429180.54,4585980.12,1.5,class
+0064746AR,Styphnolobium japonicum,False,C\ Ciències,,20.07,median,,check,,,,,1.0,floor
+0064748AR,Ligustrum lucidum,False,C\ Murtra,,3.63,no_kerb,,check,,,,,1.0,floor
+0064749AR,Brachychiton acerifolius,False,Rbla Carmel,,21.33,median,,check,,,,,1.0,floor
+0064751AR,Jacaranda mimosifolia,False,C\ Murtra,,6.85,no_kerb,,check,,,,,1.0,floor
+0064752AR,Brachychiton populneus,False,Rbla Carmel,,28.69,median,,check,,,,,1.0,floor
+0064753AR,Prunus cerasifera 'Pissardii',False,C\ Argimon,9.23,4.61,ok,,large,429511.31,4586560.58,429520.32,4586558.55,1.5,class
+0064754AR,Styphnolobium japonicum,False,C\ Ciències,,17.25,median,,check,,,,,1.0,floor
+0064755AR,Styphnolobium japonicum,False,C\ Gran Vista,,4.53,no_kerb,12.61,check,,,,,1.0,floor
+0064756AR,Styphnolobium japonicum,False,C\ Santuari,2.8,2.07,ok,,small,429361.16,4585765.83,429358.98,4585764.06,1.0,class
+0064758AR,Prunus cerasifera 'Pissardii',False,C\ Fastenrath,,12.09,median,4.01,check,,,,,1.0,floor
+0064759AR,Styphnolobium japonicum,False,C\ Santuari,3.0,2.52,ok,,small,429194.93,4585853.01,429196.6,4585850.52,1.0,class
+0064761AR,Styphnolobium japonicum,False,Rbla Carmel,,10.96,median,,check,,,,,1.0,floor
+0064762AR,Celtis australis,False,Rbla Carmel,3.18,2.04,ok,,small,429638.78,4586124.83,429641.93,4586125.31,1.0,class
+0064763AR,Styphnolobium japonicum,False,C\ Llobregós,,12.8,median,7.81,check,,,,,1.0,floor
+0064764AR,Styphnolobium japonicum,False,C\ Gran Vista,10.68,9.63,ok,,large,429889.92,4585779.58,429900.6,4585779.54,1.5,class
+0064765AR,Styphnolobium japonicum,False,C\ Santuari,2.97,2.52,ok,,small,429377.42,4585745.87,429375.12,4585744.0,1.0,class
+0064766AR,Celtis australis,False,C\ Lisboa,4.65,3.61,ok,,medium,429549.2,4586707.36,429546.65,4586711.25,1.0,class
+0064768AR,Styphnolobium japonicum,False,C\ Ciències,,21.14,median,,check,,,,,1.0,floor
+0064769AR,Ligustrum lucidum,False,C\ Calderón de la Barca,3.17,2.36,ok,,small,429432.27,4585901.88,429429.81,4585899.87,1.0,class
+0064771AR,Styphnolobium japonicum,False,C\ Gran Vista,,4.09,median,2.29,check,,,,,1.0,floor
+0064772AR,Citrus × aurantium,False,C\ Sacedón,4.05,3.15,ok,,medium,429396.21,4586371.37,429399.46,4586373.78,1.0,class
+0064773AR,Firmiana simplex,False,C\ Gran Vista,,10.17,median,,check,,,,,1.0,floor
+0064774AR,Melia azedarach,False,C\ Calderón de la Barca,3.03,2.43,ok,,small,429439.06,4585893.51,429436.71,4585891.6,1.0,class
+0064775AR,Cercis siliquastrum,False,C\ Murtra,3.34,2.53,ok,,small,429333.27,4585908.31,429330.72,4585906.16,1.0,class
+0064776AR,Styphnolobium japonicum,False,C\ Gran Vista,6.84,5.98,ok,,large,429589.41,4585574.69,429583.15,4585577.46,1.5,class
+0064777AR,Styphnolobium japonicum,False,C\ Llobregós,,12.14,median,7.82,check,,,,,1.0,floor
+0064778AR,Ligustrum lucidum,False,Ptge Cadernera,,2.53,no_kerb,,check,,,,,1.0,floor
+0064779AR,Styphnolobium japonicum,False,Rbla Carmel,4.53,3.4,ok,,medium,429578.61,4586522.74,429583.09,4586523.41,1.0,class
+0064781AR,Brachychiton populneus,False,C\ Llobregós,8.0,3.09,ok,,large,429559.64,4586243.35,429554.96,4586249.84,1.5,class
+0064782AR,Ligustrum lucidum,False,C\ Murtra,4.45,3.56,ok,,medium,429323.62,4585896.37,429327.01,4585899.26,1.0,class
+0064783AR,Celtis australis,False,Rbla Carmel,6.4,5.7,ok,,large,429658.93,4586095.89,429652.61,4586094.86,1.5,class
+0064784AR,Brachychiton populneus,False,C\ Llobregós,13.37,2.73,ok,,large,429034.48,4585872.03,429026.89,4585883.04,1.5,class
+0064786AR,Brachychiton acerifolius,False,C\ Ciències,,28.6,median,,check,,,,,1.0,floor
+0064787AR,Styphnolobium japonicum,False,C\ Gran Vista,2.58,1.78,ok,,small,429835.26,4585729.42,429833.24,4585731.02,1.0,class
+0064789AR,Styphnolobium japonicum,False,C\ Llobregós,9.78,8.07,ok,,large,429331.76,4586109.58,429330.9,4586099.84,1.5,class
+0064790AR,Styphnolobium japonicum,False,Rbla Carmel,,11.4,median,,check,,,,,1.0,floor
+0064791AR,Styphnolobium japonicum,False,C\ Granollers,4.04,3.31,ok,,medium,429561.46,4586411.09,429560.5,4586415.02,1.0,class
+0064792AR,Melia azedarach,False,C\ Calderón de la Barca,2.83,2.15,ok,,small,429489.3,4585873.78,429489.38,4585870.95,1.0,class
+0064793AR,Ginkgo biloba 'Fastigiata',False,C\ Fastenrath,3.63,2.92,ok,,medium,429174.19,4585918.2,429172.55,4585921.44,1.0,class
+0064794AR,Brachychiton acerifolius,False,C\ Ciències,,25.09,median,,check,,,,,1.0,floor
+0064795AR,Platanus × acerifolia,True,Jard Juan Ponce,,45.06,no_facade,,check,,,,,1.0,floor
+0064796AR,Brachychiton populneus,False,C\ Llobregós,7.7,3.24,ok,,large,429505.97,4586205.42,429501.73,4586211.84,1.5,class
+0064799AR,Brachychiton populneus,False,C\ Llobregós,,7.87,median,7.75,check,,,,,1.0,floor
+0064800AR,Celtis australis,False,C\ Lisboa,12.64,12.06,ok,,large,429318.97,4586554.22,429309.2,4586562.23,1.5,class
+0064803AR,Brachychiton populneus,False,C\ Llobregós,8.02,3.56,ok,,large,429303.31,4586060.2,429298.47,4586066.59,1.5,class
+0064804AR,Ligustrum japonicum 'Texanum',False,C\ Sacedón,4.05,3.13,ok,,medium,429387.8,4586382.66,429391.05,4586385.08,1.0,class
+0064806AR,Styphnolobium japonicum,False,Rbla Carmel,,17.02,median,,check,,,,,1.0,floor
+0064807AR,Styphnolobium japonicum,False,C\ Ciències,,17.73,median,,check,,,,,1.0,floor
+0064808AR,Styphnolobium japonicum,False,Rbla Carmel,,17.54,median,,check,,,,,1.0,floor
+0064810AR,Prunus cerasifera 'Pissardii',False,C\ Lugo,6.36,4.91,ok,,large,429421.99,4586044.45,429428.32,4586045.08,1.5,class
+0064811AR,Styphnolobium japonicum,False,C\ Llobregós,4.26,3.24,ok,,medium,429362.22,4586127.81,429364.67,4586124.33,1.0,class
+0064812AR,Styphnolobium japonicum,False,C\ Dante Alighieri,5.24,4.47,ok,,medium,429537.06,4586563.82,429536.67,4586558.59,1.0,class
+0064813AR,Styphnolobium japonicum,False,Pg Mare de Déu del Coll,4.97,4.23,ok,,medium,429120.3,4586235.91,429116.63,4586239.26,1.0,class
+0064814AR,Melia azedarach,False,C\ Calderón de la Barca,2.62,2.11,ok,,small,429484.37,4585873.28,429484.68,4585870.68,1.0,class
+0064815AR,Styphnolobium japonicum,False,C\ Llobregós,8.01,7.03,ok,,large,429566.69,4586248.45,429561.92,4586254.88,1.5,class
+0064816AR,Tipuana tipu,False,C\ Hortal,,23.59,no_kerb,,check,,,,,1.0,floor
+0064817AR,Brachychiton acerifolius,False,Pl Pastrana,,5.69,median,,check,,,,,1.0,floor
+0064818AR,Pyrus calleryana 'Chanticleer',False,C\ Lluís Marià Vidal,4.07,3.31,ok,,medium,429523.37,4586275.38,429526.85,4586277.49,1.0,class
+0064819AR,Brachychiton acerifolius,False,C\ Ciències,,26.73,median,,check,,,,,1.0,floor
+0064820AR,Celtis australis,False,C\ Lisboa,,16.52,median,26.63,check,,,,,1.0,floor
+0064821AR,Styphnolobium japonicum,False,C\ Ciències,,19.39,median,,check,,,,,1.0,floor
+0064822AR,Styphnolobium japonicum,False,C\ Santuari,2.71,1.91,ok,,small,429458.86,4585708.53,429459.06,4585705.82,1.0,class
+0064824AR,Brachychiton populneus,False,C\ Ciències,,22.32,median,,check,,,,,1.0,floor
+0064826AR,Cercis siliquastrum,False,Bda Passerell,27.09,4.22,ok,,large,429712.18,4585795.2,429715.82,4585822.05,1.5,class
+0064829AR,Cercis siliquastrum,False,C\ Farnés,,10.07,median,,check,,,,,1.0,floor
+0064830AR,Cercis siliquastrum,False,C\ Murtra,4.81,3.98,ok,,medium,429393.89,4585837.91,429390.24,4585834.77,1.0,class
+0064831AR,Pyrus calleryana 'Chanticleer',False,C\ Gran Vista,6.12,5.53,ok,,large,429889.92,4585779.58,429894.93,4585776.08,1.5,class
+0064832AR,Lagunaria patersonia,False,C\ Santuari,3.0,2.41,ok,,small,429199.85,4585856.08,429201.33,4585853.47,1.0,class
+0064835AR,Styphnolobium japonicum,False,C\ Gran Vista,,11.3,median,2.3,check,,,,,1.0,floor
+0064837AR,Prunus cerasifera 'Pissardii',False,C\ Lugo,2.72,1.82,ok,,small,429617.36,4586171.76,429618.85,4586169.49,1.0,class
+0064838AR,Melia azedarach,False,C\ Calderón de la Barca,2.83,2.27,ok,,small,429449.69,4585880.42,429447.49,4585878.64,1.0,class
+0064839AR,Ginkgo biloba,False,C\ Fastenrath,4.49,3.57,ok,,medium,429123.25,4585901.67,429122.77,4585906.13,1.0,class
+0064840AR,Brachychiton populneus,False,C\ Llobregós,7.68,3.05,ok,,large,429522.03,4586216.69,429517.6,4586222.96,1.5,class
+0064842AR,Styphnolobium japonicum,False,C\ Llobregós,8.0,6.81,ok,,large,429561.85,4586244.94,429557.16,4586251.43,1.5,class
+0064845AR,Lagunaria patersonia,False,C\ Santuari,2.7,1.98,ok,,small,429019.24,4585764.95,429018.86,4585762.28,1.0,class
+0064847AR,Styphnolobium japonicum,False,C\ Llobregós,7.87,6.27,ok,,large,429576.04,4586255.39,429571.35,4586261.71,1.5,class
+0064848AR,Styphnolobium japonicum,False,Rbla Carmel,4.89,2.2,ok,,medium,429620.83,4586245.17,429625.67,4586245.9,1.0,class
+0064849AR,Styphnolobium japonicum,False,Rbla Carmel,,17.29,median,,check,,,,,1.0,floor
+0064850AR,Prunus cerasifera 'Pissardii',False,C\ Lugo,3.16,1.99,ok,,small,429471.33,4586076.78,429473.05,4586074.13,1.0,class
+0064851AR,Styphnolobium japonicum,False,Rbla Carmel,,17.53,median,,check,,,,,1.0,floor
+0064852AR,Styphnolobium japonicum,False,C\ Ciències,,17.45,median,,check,,,,,1.0,floor
+0064854AR,Pyrus calleryana 'Chanticleer',False,C\ Gran Vista,2.4,1.91,ok,,none,429804.23,4585724.59,429805.45,4585722.53,1.0,floor
+0064855AR,Ulmus pumila,False,C\ Doctor Bové,9.24,8.67,ok,,large,429742.92,4585695.34,429737.87,4585703.08,1.5,class
+0064856AR,Styphnolobium japonicum,False,C\ Llobregós,4.18,3.13,ok,,medium,429502.69,4586227.41,429505.1,4586223.99,1.0,class
+0064858AR,Brachychiton populneus,False,C\ Llobregós,,16.86,median,29.53,check,,,,,1.0,floor
+0064860AR,Cercis siliquastrum,False,C\ Fastenrath,5.77,4.99,ok,,medium,429205.79,4585945.88,429208.6,4585940.84,1.0,class
+0064861AR,Ligustrum lucidum,False,C\ Calderón de la Barca,3.03,2.1,ok,,small,429421.94,4585931.14,429418.94,4585931.54,1.0,class
+0064862AR,Platanus × acerifolia,True,Pg Font de la Mulassa,11.01,7.06,ok,,large,430002.36,4585965.76,430001.52,4585976.74,1.5,class
+0064865AR,Melia azedarach,False,C\ Calderón de la Barca,3.08,2.34,ok,,small,429529.66,4585823.83,429526.95,4585822.38,1.0,class
+0064866AR,Ligustrum lucidum,False,C\ Murtra,3.56,2.74,ok,,medium,429180.75,4586071.72,429183.4,4586074.1,1.0,class
+0064867AR,Brachychiton populneus,False,Rbla Carmel,,29.02,median,,check,,,,,1.0,floor
+0064868AR,Styphnolobium japonicum,False,Pg Mare de Déu del Coll,8.73,7.81,ok,,large,429068.62,4586071.28,429060.52,4586074.54,1.5,class
+0064871AR,Brachychiton populneus,False,C\ Llobregós,,13.06,median,7.36,check,,,,,1.0,floor
+0064874AR,Brachychiton acerifolius,False,C\ Llobregós,,13.18,median,7.58,check,,,,,1.0,floor
+0064876AR,Styphnolobium japonicum,False,C\ Beatriu,3.75,2.73,ok,,medium,429553.64,4586657.28,429557.32,4586658.01,1.0,class
+0064877AR,Ligustrum lucidum,False,C\ Calderón de la Barca,2.92,2.27,ok,,small,429396.0,4586038.09,429393.39,4586036.79,1.0,class
+0064878AR,Populus alba 'Pyramidalis',False,Rbla Carmel,,26.7,median,,check,,,,,1.0,floor
+0064880AR,Brachychiton populneus,False,C\ Ciències,,25.14,median,,check,,,,,1.0,floor
+0064881AR,Brachychiton populneus,False,C\ Ciències,,22.51,median,,check,,,,,1.0,floor
+0064882AR,Celtis australis,False,C\ Lisboa,,20.83,median,,check,,,,,1.0,floor
+0064883AR,Styphnolobium japonicum,False,C\ Llobregós,4.28,3.43,ok,,medium,429278.2,4586066.53,429280.77,4586063.12,1.0,class
+0064885AR,Tipuana tipu,False,C\ Hortal,,17.94,no_kerb,31.72,check,,,,,1.0,floor
+0064887AR,Styphnolobium japonicum,False,C\ Lletres,,10.24,median,,check,,,,,1.0,floor
+0064888AR,Prunus cerasifera 'Pissardii',False,C\ Moratín,3.12,1.59,ok,,small,429342.52,4586324.84,429341.04,4586327.58,1.0,class
+0064889AR,Ligustrum lucidum,False,C\ Calderón de la Barca,6.19,5.45,ok,,large,429559.24,4585687.02,429565.35,4585687.98,1.5,class
+0064890AR,Celtis australis,False,C\ Lisboa,,7.0,median,4.31,check,,,,,1.0,floor
+0064892AR,Styphnolobium japonicum,False,C\ Llobregós,7.75,7.01,ok,,large,429175.45,4585966.83,429170.96,4585973.15,1.5,class
+0064893AR,Brachychiton populneus,False,C\ Llobregós,7.8,2.51,ok,,large,429606.8,4586277.83,429602.2,4586284.14,1.5,class
+0064894AR,Styphnolobium japonicum,False,C\ Llobregós,,12.78,median,7.63,check,,,,,1.0,floor
+0064895AR,Brachychiton populneus,False,C\ Llobregós,,8.03,median,7.81,check,,,,,1.0,floor
+0064896AR,Styphnolobium japonicum,False,C\ Dante Alighieri,3.87,3.17,ok,,medium,429479.72,4586536.55,429481.54,4586533.13,1.0,class
+0064897AR,Celtis australis,False,C\ Lisboa,,17.74,median,,check,,,,,1.0,floor
+0064898AR,Styphnolobium japonicum,False,C\ Pedrell,5.25,3.22,ok,,medium,429670.74,4586070.9,429667.09,4586067.12,1.0,class
+0064900AR,Styphnolobium japonicum,False,Pg Mare de Déu del Coll,6.26,5.46,ok,,large,429065.59,4586125.47,429061.12,4586129.85,1.5,class
+0064904AR,Platanus × acerifolia,True,Jard Juan Ponce,,30.12,no_facade,,check,,,,,1.0,floor
+0064905AR,Ligustrum lucidum,False,C\ Fastenrath,10.8,9.08,ok,,large,429224.48,4585935.52,429214.28,4585939.06,1.5,class
+0064906AR,Styphnolobium japonicum,False,C\ Gran Vista,2.4,1.76,ok,,none,429917.56,4585778.8,429916.32,4585780.86,1.0,floor
+0064907AR,Cercis siliquastrum,False,C\ Santuari,2.51,1.81,ok,,small,429012.88,4585765.87,429012.52,4585763.38,1.0,class
+0064910AR,Brachychiton populneus,False,C\ Llobregós,7.97,2.81,ok,,large,429568.86,4586250.06,429564.1,4586256.46,1.5,class
+0064911AR,Styphnolobium japonicum,False,Rbla Carmel,,17.24,median,,check,,,,,1.0,floor
+0064912AR,Brachychiton acerifolius,False,Rbla Carmel,,33.81,no_facade,,check,,,,,1.0,floor
+0064913AR,Styphnolobium japonicum,False,C\ Beatriu,6.54,2.81,ok,,large,429551.37,4586668.68,429557.79,4586669.96,1.5,class
+0064914AR,Styphnolobium japonicum,False,C\ Llobregós,10.62,7.22,ok,,large,429314.17,4586093.07,429324.56,4586095.28,1.5,class
+0064916AR,Lagunaria patersonia,False,C\ Santuari,3.05,2.37,ok,,small,429394.17,4585725.27,429391.81,4585723.33,1.0,class
+0064918AR,Styphnolobium japonicum,False,C\ Gran Vista,,12.93,median,2.47,check,,,,,1.0,floor
+0064919AR,Styphnolobium japonicum,False,C\ Llobregós,,12.88,median,7.57,check,,,,,1.0,floor
+0064920AR,Ligustrum lucidum,False,C\ Murtra,4.59,3.5,ok,,medium,429400.94,4585811.02,429403.4,4585814.89,1.0,class
+0064922AR,Styphnolobium japonicum,False,C\ Llobregós,4.31,3.61,ok,,medium,429550.66,4586261.31,429553.22,4586257.84,1.0,class
+0064923AR,Platanus × acerifolia,True,Jard Juan Ponce,15.47,15.98,ok,,large,429469.11,4585503.66,429476.66,4585490.15,1.5,class
+0064925AR,Populus alba 'Pyramidalis',False,Rbla Carmel,,33.5,no_facade,,check,,,,,1.0,floor
+0064926AR,Styphnolobium japonicum,False,Rbla Carmel,,17.21,median,,check,,,,,1.0,floor
+0064928AR,Lagunaria patersonia,False,C\ Santuari,2.47,1.84,ok,,none,429412.03,4585708.04,429410.85,4585705.88,1.0,floor
+0064930AR,Brachychiton populneus,False,C\ Llobregós,,16.94,median,26.18,check,,,,,1.0,floor
+0064931AR,Platanus × acerifolia,True,Jard Juan Ponce,,20.07,median,5.05,check,,,,,1.0,floor
+0064932AR,Cercis siliquastrum,False,C\ Farnés,2.66,1.92,ok,,small,429309.65,4586492.08,429311.46,4586490.14,1.0,class
+0064933AR,Styphnolobium japonicum,False,C\ Santuari,4.59,1.76,ok,,medium,429300.1,4585840.0,429296.66,4585836.96,1.0,class
+0064934AR,Styphnolobium japonicum,False,Rbla Carmel,4.69,3.25,ok,,medium,429581.14,4586505.62,429585.79,4586506.31,1.0,class
+0064936AR,Styphnolobium japonicum,False,C\ Llobregós,,12.84,median,,check,,,,,1.0,floor
+0064937AR,Styphnolobium japonicum,False,C\ Ciències,,17.66,median,,check,,,,,1.0,floor
+0064938AR,Melia azedarach,False,C\ Calderón de la Barca,3.09,2.55,ok,,small,429423.91,4585916.09,429421.03,4585914.98,1.0,class
+0064939AR,Styphnolobium japonicum,False,C\ Ciències,,20.37,median,,check,,,,,1.0,floor
+0064941AR,Styphnolobium japonicum,False,C\ Dante Alighieri,3.65,2.9,ok,,medium,429420.31,4586496.1,429422.41,4586493.11,1.0,class
+0064943AR,Styphnolobium japonicum,False,C\ Santuari,3.0,2.54,ok,,small,429204.47,4585858.55,429205.8,4585855.86,1.0,class
+0064944AR,Styphnolobium japonicum,False,C\ Ciències,,17.44,median,,check,,,,,1.0,floor
+0064945AR,Cercis siliquastrum,False,C\ Farnés,,10.56,median,,check,,,,,1.0,floor
+0064946AR,Cercis siliquastrum,False,C\ Santuari,2.7,2.0,ok,,small,429025.92,4585763.79,429025.33,4585761.16,1.0,class
+0064947AR,Prunus cerasifera 'Pissardii',False,C\ Moratín,3.28,2.12,ok,,small,429329.48,4586317.8,429327.92,4586320.68,1.0,class
+0064949AR,Cercis siliquastrum,False,C\ Farnés,2.5,1.78,ok,,small,429343.67,4586507.18,429342.01,4586509.04,1.0,class
+0064951AR,Lagunaria patersonia,False,C\ Santuari,3.22,2.3,ok,,small,429446.65,4585706.53,429447.71,4585703.49,1.0,class
+0064952AR,Styphnolobium japonicum,False,C\ Ciències,,17.35,median,,check,,,,,1.0,floor
+0064953AR,Styphnolobium japonicum,False,C\ Llobregós,4.18,3.16,ok,,medium,429310.97,4586090.56,429313.55,4586087.27,1.0,class
+0064954AR,Styphnolobium japonicum,False,C\ Ciències,,17.87,median,,check,,,,,1.0,floor
+0064956AR,Ginkgo biloba 'Fastigiata',False,C\ Fastenrath,4.37,3.97,ok,,medium,429167.71,4585932.01,429169.56,4585928.06,1.0,class
+0064959AR,Cercis siliquastrum,False,C\ Murtra,9.22,7.7,ok,,large,429369.79,4585843.87,429369.73,4585853.09,1.5,class
+0064960AR,Styphnolobium japonicum,False,C\ Gran Vista,7.99,7.2,ok,,large,429589.35,4585574.57,429582.74,4585570.08,1.5,class
+0064961AR,Tipuana tipu,False,Pg Mare de Déu del Coll,,9.78,median,,check,,,,,1.0,floor
+0064962AR,Morus alba,False,C\ Alcalde de Zalamea,,1.79,no_kerb,34.79,check,,,,,1.0,floor
+0064963AR,Brachychiton acerifolius,False,Rbla Carmel,,22.26,median,,check,,,,,1.0,floor
+0064964AR,Pyrus calleryana 'Chanticleer',False,Rbla Carmel,14.4,7.34,ok,,large,429613.49,4586278.63,429620.3,4586291.32,1.5,class
+0064965AR,Cercis siliquastrum,False,C\ Farnés,,10.45,median,,check,,,,,1.0,floor
+0064968AR,Ligustrum lucidum,False,C\ Calderón de la Barca,6.16,5.13,ok,,large,429556.52,4585704.25,429562.61,4585705.21,1.5,class
+0064969AR,Ligustrum lucidum,False,C\ Segimon,3.51,3.03,ok,,medium,429499.12,4585803.82,429500.05,4585807.21,1.0,class
+0064970AR,Ligustrum lucidum,False,C\ Murtra,4.04,3.1,ok,,medium,429391.15,4585819.04,429394.22,4585821.67,1.0,class
+0064971AR,Styphnolobium japonicum,False,Ptge Calafell,,3.45,no_kerb,37.68,check,,,,,1.0,floor
+0064973AR,Styphnolobium japonicum,False,Rbla Carmel,3.05,1.99,ok,,small,429619.23,4586256.72,429622.25,4586257.16,1.0,class
+0064974AR,Styphnolobium japonicum,False,Rbla Carmel,7.54,4.47,ok,,large,429610.14,4586314.27,429617.59,4586315.43,1.5,class
+0064975AR,Melia azedarach,False,Pl Pastrana,,16.24,no_kerb,30.42,check,,,,,1.0,floor
+0064976AR,Melia azedarach,False,C\ Calderón de la Barca,3.03,2.47,ok,,small,429378.03,4586074.45,429375.31,4586073.1,1.0,class
+0064977AR,Styphnolobium japonicum,False,C\ Llobregós,7.61,6.62,ok,,large,429503.16,4586203.56,429498.97,4586209.92,1.5,class
+0064978AR,Ginkgo biloba 'Fastigiata',False,C\ Fastenrath,3.8,3.33,ok,,medium,429155.11,4585926.13,429156.72,4585922.68,1.0,class
+0064979AR,Styphnolobium japonicum,False,C\ Beatriu,3.76,2.89,ok,,medium,429554.7,4586651.94,429558.39,4586652.67,1.0,class
+0064980AR,Citrus × aurantium,False,C\ Santuari,2.74,1.93,ok,,small,429148.83,4585787.25,429151.14,4585785.77,1.0,class
+0064981AR,Prunus cerasifera 'Pissardii',False,C\ Lugo,2.81,2.54,ok,,small,429513.53,4586104.18,429515.06,4586101.82,1.0,class
+0064982AR,Styphnolobium japonicum,False,C\ Llobregós,7.93,6.77,ok,,large,429306.8,4586062.84,429302.01,4586069.17,1.5,class
+0064983AR,Pyrus calleryana 'Chanticleer',False,Rbla Carmel,2.88,2.17,ok,,small,429672.06,4585909.06,429674.91,4585909.51,1.0,class
+0064984AR,Lagunaria patersonia,False,C\ Santuari,2.93,1.91,ok,,small,429326.84,4585807.93,429324.57,4585806.07,1.0,class
+0064985AR,Styphnolobium japonicum,False,C\ Gran Vista,,9.98,median,2.27,check,,,,,1.0,floor
+0064986AR,Brachychiton acerifolius,False,C\ Ciències,,36.46,no_facade,,check,,,,,1.0,floor
+0064989AR,Citrus × aurantium,False,C\ Sacedón,4.05,3.2,ok,,medium,429366.44,4586411.37,429369.69,4586413.79,1.0,class
+0064990AR,Styphnolobium japonicum,False,C\ Llobregós,8.05,7.08,ok,,large,429301.93,4586059.16,429297.07,4586065.58,1.5,class
+0064991AR,Styphnolobium japonicum,False,C\ Ciències,,18.71,median,,check,,,,,1.0,floor
+0064992AR,Styphnolobium japonicum,False,C\ Dante Alighieri,4.15,3.55,ok,,medium,429540.69,4586563.69,429541.42,4586559.6,1.0,class
+0064993AR,Brachychiton populneus,False,C\ Llobregós,,14.65,median,15.04,check,,,,,1.0,floor
+0064994AR,Styphnolobium japonicum,False,C\ Gran Vista,,22.94,median,2.21,check,,,,,1.0,floor
+0064996AR,Styphnolobium japonicum,False,C\ Ciències,,17.54,median,,check,,,,,1.0,floor
+0064997AR,Citrus × aurantium,False,C\ Santuari,7.61,5.47,ok,,large,429322.45,4585813.31,429315.66,4585816.75,1.5,class
+0064998AR,Brachychiton populneus,False,Rbla Carmel,,22.15,median,,check,,,,,1.0,floor
+0065000AR,Styphnolobium japonicum,False,C\ Gran Vista,,11.28,median,2.26,check,,,,,1.0,floor
+0065001AR,Acacia retinodes,False,Pl Pastrana,,7.46,no_kerb,,check,,,,,1.0,floor
+0065002AR,Styphnolobium japonicum,False,C\ Llobregós,8.17,6.63,ok,,large,429353.41,4586121.6,429350.42,4586114.0,1.5,class
+0065003AR,Styphnolobium japonicum,False,C\ Dante Alighieri,3.84,2.98,ok,,medium,429370.08,4586443.42,429373.09,4586441.03,1.0,class
+0065004AR,Styphnolobium japonicum,False,C\ Gran Vista,5.18,4.22,ok,,medium,429873.07,4585765.98,429878.25,4585766.08,1.0,class
+0065005AR,Styphnolobium japonicum,False,C\ Llobregós,4.17,3.53,ok,,medium,429492.31,4586220.11,429494.71,4586216.7,1.0,class
+0065006AR,Styphnolobium japonicum,False,C\ Llobregós,4.24,3.35,ok,,medium,429118.6,4585951.93,429120.97,4585948.41,1.0,class
+0065007AR,Liquidambar styraciflua,False,Pl Pastrana,,2.76,no_kerb,,check,,,,,1.0,floor
+0065009AR,Styphnolobium japonicum,False,C\ Dante Alighieri,3.38,2.91,ok,,small,429271.66,4586337.77,429273.73,4586335.1,1.0,class
+0065011AR,Styphnolobium japonicum,False,C\ Llobregós,,13.14,median,7.65,check,,,,,1.0,floor
+0065012AR,Cercis siliquastrum,False,C\ Calderón de la Barca,3.65,2.94,ok,,medium,429573.13,4585694.78,429569.52,4585694.25,1.0,class
+0065015AR,Ligustrum lucidum,False,Bda Passerell,,3.04,no_kerb,,check,,,,,1.0,floor
+0065016AR,Brachychiton acerifolius,False,Rbla Carmel,,21.72,median,,check,,,,,1.0,floor
+0065017AR,Styphnolobium japonicum,False,Rbla Carmel,,17.4,median,,check,,,,,1.0,floor
+0065019AR,Brachychiton populneus,False,Rbla Carmel,,25.63,median,,check,,,,,1.0,floor
+0065020AR,Styphnolobium japonicum,False,C\ Dante Alighieri,3.74,3.06,ok,,medium,429495.52,4586544.77,429497.23,4586541.46,1.0,class
+0065021AR,Styphnolobium japonicum,False,C\ Gran Vista,4.28,3.18,ok,,medium,429759.75,4585684.13,429761.46,4585688.06,1.0,class
+0065024AR,Brachychiton populneus,False,C\ Llobregós,,15.13,median,7.61,check,,,,,1.0,floor
+0065025AR,Ligustrum lucidum,False,C\ Murtra,5.66,4.67,ok,,medium,429284.37,4585938.01,429287.32,4585942.85,1.0,class
+0065026AR,Styphnolobium japonicum,False,C\ Ciències,,17.33,median,,check,,,,,1.0,floor
+0065027AR,Brachychiton populneus,False,Rbla Carmel,,28.92,median,,check,,,,,1.0,floor
+0065028AR,Ligustrum lucidum,False,C\ Fastenrath,4.65,3.73,ok,,medium,429265.02,4585941.52,429264.33,4585946.12,1.0,class
+0065029AR,Styphnolobium japonicum,False,Rbla Carmel,,17.73,median,,check,,,,,1.0,floor
+0065030AR,Styphnolobium japonicum,False,Rbla Carmel,9.58,4.0,ok,,large,429615.0,4586277.53,429621.7,4586284.37,1.5,class
+0065032AR,Styphnolobium japonicum,False,C\ Dante Alighieri,3.89,3.2,ok,,medium,429384.13,4586460.97,429387.16,4586458.52,1.0,class
+0065033AR,Styphnolobium japonicum,False,C\ Llobregós,8.03,6.77,ok,,large,429608.07,4586278.66,429604.64,4586285.92,1.5,class
+0065034AR,Styphnolobium japonicum,False,Rbla Carmel,,17.16,median,,check,,,,,1.0,floor
+0065035AR,Styphnolobium japonicum,False,Rbla Carmel,3.19,2.07,ok,,small,429621.7,4586239.48,429624.85,4586239.96,1.0,class
+0065036AR,Brachychiton populneus,False,C\ Llobregós,,17.18,median,7.65,check,,,,,1.0,floor
+0065037AR,Styphnolobium japonicum,False,C\ Llobregós,,12.87,median,7.59,check,,,,,1.0,floor
+0065038AR,Brachychiton populneus,False,Rbla Carmel,,28.74,median,,check,,,,,1.0,floor
+0065039AR,Pyrus calleryana 'Chanticleer',False,Rbla Carmel,2.77,1.95,ok,,small,429670.32,4585919.81,429673.05,4585920.27,1.0,class
+0065040AR,Pyrus calleryana 'Chanticleer',False,C\ Beatriu,5.8,2.5,ok,,medium,429566.63,4586593.6,429572.42,4586593.23,1.0,class
+0065041AR,Styphnolobium japonicum,False,C\ Llobregós,4.29,3.78,ok,,medium,429545.47,4586257.47,429548.02,4586254.01,1.0,class
+0065043AR,Styphnolobium japonicum,False,C\ Gran Vista,,10.98,median,2.43,check,,,,,1.0,floor
+0065044AR,Styphnolobium japonicum,False,C\ Gran Vista,,17.0,no_kerb,9.49,check,,,,,1.0,floor
+0065045AR,Lagunaria patersonia,False,C\ Santuari,3.1,2.36,ok,,small,429154.24,4585796.93,429156.96,4585795.43,1.0,class
+0065046AR,Lagunaria patersonia,False,C\ Santuari,2.81,1.91,ok,,small,429352.94,4585775.91,429350.76,4585774.14,1.0,class
+0065047AR,Ligustrum lucidum,False,C\ Fastenrath,3.93,2.9,ok,,medium,429202.56,4585929.16,429201.3,4585932.88,1.0,class
+0065048AR,Ligustrum lucidum,False,Bda Passerell,,3.57,no_kerb,,check,,,,,1.0,floor
+0065049AR,Brachychiton populneus,False,C\ Llobregós,7.57,2.29,ok,,large,429477.89,4586185.84,429473.51,4586192.01,1.5,class
+0065050AR,Ligustrum lucidum,False,Bda Passerell,,2.99,no_kerb,,check,,,,,1.0,floor
+0065051AR,Ligustrum lucidum,False,C\ Murtra,4.84,3.82,ok,,medium,429394.63,4585814.99,429398.3,4585818.14,1.0,class
+0065052AR,Styphnolobium japonicum,False,Rbla Carmel,5.56,4.33,ok,,medium,429603.63,4586355.77,429609.13,4586356.63,1.0,class
+0065054AR,Ligustrum lucidum,False,C\ Calderón de la Barca,3.11,2.4,ok,,small,429435.58,4585897.8,429433.16,4585895.84,1.0,class
+0065055AR,Brachychiton populneus,False,C\ Llobregós,7.95,3.0,ok,,large,429053.25,4585884.59,429048.82,4585891.2,1.5,class
+0065056AR,Cercis siliquastrum,False,C\ Calderón de la Barca,3.71,2.78,ok,,medium,429572.27,4585700.59,429568.6,4585700.06,1.0,class
+0065057AR,Cercis siliquastrum,False,Ptge Xinxó,4.69,3.44,ok,,medium,429280.05,4586489.54,429278.44,4586485.13,1.0,class
+0065058AR,Styphnolobium japonicum,False,C\ Llobregós,4.33,3.84,ok,,medium,429570.23,4586275.63,429572.79,4586272.13,1.0,class
+0065059AR,Styphnolobium japonicum,False,C\ Llobregós,,9.23,median,7.56,check,,,,,1.0,floor
+0065060AR,Styphnolobium japonicum,False,C\ Dante Alighieri,,12.06,median,,check,,,,,1.0,floor
+0065063AR,Celtis australis,False,C\ Lisboa,,23.85,median,,check,,,,,1.0,floor
+0065064AR,Styphnolobium japonicum,False,C\ Granollers,4.04,2.94,ok,,medium,429547.44,4586407.61,429546.46,4586411.53,1.0,class
+0065065AR,Cercis siliquastrum,False,C\ Calderón de la Barca,3.14,2.28,ok,,small,429544.72,4585795.3,429541.92,4585793.88,1.0,class
+0065066AR,Styphnolobium japonicum,False,C\ Dante Alighieri,3.78,2.94,ok,,medium,429411.13,4586489.46,429413.36,4586486.41,1.0,class
+0065067AR,Platanus × acerifolia,True,Pg Font de la Mulassa,5.13,3.38,ok,,medium,430009.79,4585941.13,430010.66,4585946.18,1.0,class
+0065068AR,Celtis australis,False,C\ Lisboa,,18.79,median,16.17,check,,,,,1.0,floor
+0065069AR,Styphnolobium japonicum,False,C\ Llobregós,,13.1,median,7.57,check,,,,,1.0,floor
+0065070AR,Quercus ilex,False,Pl Font de la Mulassa,,6.25,median,,check,,,,,1.0,floor
+0065071AR,Ligustrum lucidum,False,C\ Calderón de la Barca,3.06,2.46,ok,,small,429368.93,4586092.84,429366.18,4586091.48,1.0,class
+0065072AR,Cercis siliquastrum,False,C\ Fastenrath,2.85,2.03,ok,,small,429256.85,4585955.51,429257.23,4585952.68,1.0,class
+0065074AR,Brachychiton populneus,False,C\ Llobregós,,17.41,median,7.65,check,,,,,1.0,floor
+0065077AR,Styphnolobium japonicum,False,C\ Llobregós,4.39,3.85,ok,,medium,429523.47,4586242.18,429526.01,4586238.6,1.0,class
+0065079AR,Brachychiton acerifolius,False,Rbla Carmel,,22.46,median,,check,,,,,1.0,floor
+0065080AR,Styphnolobium japonicum,False,C\ Ciències,,17.48,median,,check,,,,,1.0,floor
+0065081AR,Brachychiton populneus,False,Rbla Carmel,,28.98,median,,check,,,,,1.0,floor
+0065083AR,Celtis australis,False,C\ Lisboa,,16.87,median,22.06,check,,,,,1.0,floor
+0065084AR,Cercis siliquastrum,False,C\ Murtra,3.29,2.45,ok,,small,429336.98,4585903.94,429334.46,4585901.81,1.0,class
+0065085AR,Styphnolobium japonicum,False,C\ Llobregós,7.55,6.82,ok,,large,429479.76,4586187.17,429475.39,4586193.33,1.5,class
+0065086AR,Melia azedarach,False,C\ Calderón de la Barca,3.01,2.53,ok,,small,429380.11,4586070.23,429377.41,4586068.9,1.0,class
+0065087AR,Prunus cerasifera 'Pissardii',False,C\ Fastenrath,3.95,3.54,ok,,medium,429136.1,4585919.38,429137.22,4585915.59,1.0,class
+0065088AR,Brachychiton acerifolius,False,C\ Ciències,,22.55,median,,check,,,,,1.0,floor
+0065089AR,Platanus × acerifolia,True,Pg Font de la Mulassa,4.66,3.05,ok,,medium,430006.04,4585953.8,430009.34,4585950.5,1.0,class
+0065091AR,Celtis australis,False,C\ Lisboa,,22.28,median,4.0,check,,,,,1.0,floor
+0065094AR,Ligustrum lucidum,False,C\ Segimon,3.5,2.81,ok,,medium,429489.27,4585806.52,429490.19,4585809.9,1.0,class
+0065095AR,Cercis siliquastrum,False,C\ Fastenrath,5.68,4.99,ok,,medium,429200.43,4585944.11,429202.21,4585938.72,1.0,class
+0065096AR,Styphnolobium japonicum,False,C\ Llobregós,,13.11,median,7.65,check,,,,,1.0,floor
+0065097AR,Styphnolobium japonicum,False,C\ Llobregós,4.19,3.14,ok,,medium,429507.63,4586230.88,429510.04,4586227.45,1.0,class
+0065098AR,Cercis siliquastrum,False,C\ Fastenrath,8.97,7.75,ok,,large,429289.57,4585958.87,429282.77,4585953.03,1.5,class
+0065101AR,Pyrus calleryana 'Chanticleer',False,C\ Lluís Marià Vidal,4.1,3.17,ok,,medium,429519.94,4586281.01,429523.44,4586283.14,1.0,class
+0065102AR,Brachychiton populneus,False,C\ Llobregós,,16.78,median,,check,,,,,1.0,floor
+0065103AR,Celtis australis,False,C\ Lisboa,,24.66,median,,check,,,,,1.0,floor
+0065104AR,Pyrus calleryana 'Chanticleer',False,C\ Lluís Marià Vidal,4.12,3.39,ok,,medium,429531.3,4586262.36,429534.82,4586264.5,1.0,class
+0065105AR,Styphnolobium japonicum,False,Rbla Carmel,,9.01,median,15.42,check,,,,,1.0,floor
+0065106AR,Platanus × acerifolia,True,Jard Juan Ponce,16.15,17.07,ok,,large,429469.46,4585504.01,429482.11,4585493.97,1.5,class
+0065107AR,Styphnolobium japonicum,False,C\ Llobregós,4.33,3.02,ok,,medium,429443.47,4586185.77,429445.96,4586182.23,1.0,class
+0065108AR,Ligustrum lucidum,False,C\ Segimon,4.11,3.57,ok,,medium,429438.93,4585808.39,429438.84,4585812.5,1.0,class
+0065109AR,Styphnolobium japonicum,False,C\ Gran Vista,5.1,4.37,ok,,medium,429702.59,4585666.9,429705.24,4585662.54,1.0,class
+0065110AR,Ligustrum lucidum,False,C\ Calderón de la Barca,6.69,5.69,ok,,large,429565.05,4585641.56,429571.52,4585639.86,1.5,class
+0065111AR,Platanus × acerifolia,True,Jard Juan Ponce,,22.79,median,19.93,check,,,,,1.0,floor
+0065112AR,Brachychiton populneus,False,C\ Llobregós,7.84,2.93,ok,,large,429182.44,4585971.8,429177.89,4585978.19,1.5,class
+0065113AR,Platanus × acerifolia,True,Pg Font de la Mulassa,2.41,1.57,ok,,none,430017.54,4585915.38,430019.87,4585916.01,1.0,floor
+0065114AR,Styphnolobium japonicum,False,C\ Llobregós,7.72,6.75,ok,,large,429465.43,4586177.03,429460.99,4586183.34,1.5,class
+0065115AR,Styphnolobium japonicum,False,C\ Ciències,,24.21,median,,check,,,,,1.0,floor
+0065116AR,Celtis australis,False,C\ Lisboa,8.79,8.03,ok,,large,429329.97,4586567.64,429323.84,4586573.94,1.5,class
+0065117AR,Celtis australis,False,Rbla Carmel,,10.14,median,,check,,,,,1.0,floor
+0065119AR,Styphnolobium japonicum,False,Rbla Carmel,3.17,1.93,ok,,small,429622.66,4586233.1,429625.8,4586233.58,1.0,class
+0065120AR,Prunus cerasifera 'Pissardii',False,C\ Lugo,2.85,1.86,ok,,small,429627.15,4586178.18,429628.71,4586175.79,1.0,class
+0065122AR,Brachychiton populneus,False,C\ Ciències,,22.48,median,,check,,,,,1.0,floor
+0065124AR,Styphnolobium japonicum,False,C\ Gran Vista,,10.89,median,2.52,check,,,,,1.0,floor
+0065125AR,Brachychiton populneus,False,Rbla Carmel,,22.51,median,,check,,,,,1.0,floor
+0065128AR,Lagunaria patersonia,False,C\ Santuari,3.06,2.2,ok,,small,429151.59,4585792.1,429154.27,4585790.63,1.0,class
+0065129AR,Brachychiton acerifolius,False,C\ Ciències,,30.12,no_facade,,check,,,,,1.0,floor
+0065130AR,Tipuana tipu,False,C\ Hortal,,3.83,no_kerb,,check,,,,,1.0,floor
+0065131AR,Styphnolobium japonicum,False,C\ Granollers,4.07,3.25,ok,,medium,429582.11,4586416.19,429581.15,4586420.15,1.0,class
+0065134AR,Styphnolobium japonicum,False,C\ Llobregós,7.73,6.61,ok,,large,429322.01,4586074.3,429317.48,4586080.57,1.5,class
+0065135AR,Pyrus calleryana 'Chanticleer',False,Rbla Carmel,,9.92,median,,check,,,,,1.0,floor
+0065136AR,Ligustrum lucidum,False,C\ Fastenrath,5.67,4.95,ok,,medium,429280.07,4585940.03,429281.89,4585945.4,1.0,class
+0065137AR,Brachychiton populneus,False,C\ Llobregós,7.63,2.64,ok,,large,429472.85,4586182.27,429468.44,4586188.49,1.5,class
+0065138AR,Melia azedarach,False,Pl Pastrana,27.06,21.84,ok,,large,429458.53,4586308.1,429480.4,4586324.05,1.5,class
+0065139AR,Brachychiton populneus,False,C\ Ciències,,25.28,median,,check,,,,,1.0,floor
+0065142AR,Styphnolobium japonicum,False,C\ Lletres,,10.32,median,,check,,,,,1.0,floor
+0065144AR,Styphnolobium japonicum,False,C\ Gran Vista,2.18,1.59,ok,,none,429692.89,4585657.78,429694.0,4585655.91,1.0,floor
+0065146AR,Cercis siliquastrum,False,C\ Calderón de la Barca,3.58,2.62,ok,,medium,429573.97,4585689.0,429570.43,4585688.48,1.0,class
+0065147AR,Ligustrum lucidum,False,C\ Calderón de la Barca,4.78,4.24,ok,,medium,429530.74,4585788.61,429534.1,4585792.0,1.0,class
+0065148AR,Styphnolobium japonicum,False,C\ Llobregós,4.22,3.2,ok,,medium,429078.17,4585924.94,429080.51,4585921.42,1.0,class
+0065149AR,Styphnolobium japonicum,False,Rbla Carmel,,11.14,median,,check,,,,,1.0,floor
+0065150AR,Brachychiton populneus,False,C\ Llobregós,,15.5,median,,check,,,,,1.0,floor
+0065151AR,Styphnolobium japonicum,False,C\ Ciències,,20.11,median,,check,,,,,1.0,floor
+0065152AR,Celtis australis,False,C\ Lisboa,22.4,21.4,ok,,large,429256.89,4586506.32,429239.91,4586520.93,1.5,class
+0065153AR,Brachychiton populneus,False,C\ Llobregós,,13.96,median,7.65,check,,,,,1.0,floor
+0065155AR,Celtis australis,False,Rbla Carmel,2.77,1.62,ok,,small,429645.16,4586082.22,429647.9,4586082.65,1.0,class
+0065156AR,Styphnolobium japonicum,False,Rbla Carmel,,11.14,median,,check,,,,,1.0,floor
+0065157AR,Brachychiton populneus,False,C\ Llobregós,7.84,2.39,ok,,large,429063.77,4585891.64,429059.41,4585898.15,1.5,class
+0065158AR,Prunus cerasifera 'Pissardii',False,C\ Pantà de Tremp,,8.16,median,,check,,,,,1.0,floor
+0065159AR,Styphnolobium japonicum,False,C\ Gran Vista,,9.99,median,2.38,check,,,,,1.0,floor
+0065160AR,Melia azedarach,False,C\ Calderón de la Barca,2.93,2.35,ok,,small,429387.05,4586056.2,429384.42,4586054.9,1.0,class
+0065161AR,Brachychiton populneus,False,Rbla Carmel,,22.34,median,,check,,,,,1.0,floor
+0065163AR,Melia azedarach,False,C\ Calderón de la Barca,2.63,2.04,ok,,small,429457.27,4585871.96,429455.97,4585869.68,1.0,class
+0065164AR,Prunus cerasifera 'Pissardii',False,C\ Argimon,5.65,3.36,ok,,medium,429528.81,4586565.88,429526.07,4586560.94,1.0,class
+0065165AR,Cercis siliquastrum,False,C\ Murtra,6.1,5.05,ok,,large,429335.08,4585883.67,429339.71,4585887.64,1.5,class
+0065166AR,Styphnolobium japonicum,False,C\ Llobregós,7.78,6.83,ok,,large,429591.52,4586266.71,429586.94,4586273.01,1.5,class
+0065167AR,Prunus cerasifera 'Pissardii',False,C\ Fastenrath,4.28,3.6,ok,,medium,429167.64,4585914.67,429165.48,4585918.36,1.0,class
+0065168AR,Cercis siliquastrum,False,C\ Fastenrath,,12.25,median,,check,,,,,1.0,floor
+0065170AR,Acacia retinodes,False,Pl Pastrana,,7.72,no_kerb,,check,,,,,1.0,floor
+0065172AR,Brachychiton populneus,False,C\ Ciències,,28.71,median,,check,,,,,1.0,floor
+0065177AR,Magnolia grandiflora,False,C\ Ramon Rocafull,,7.08,median,,check,,,,,1.0,floor
+0065178AR,Celtis australis,False,C\ Lisboa,20.1,19.04,ok,,large,429260.31,4586510.3,429245.07,4586523.41,1.5,class
+0065179AR,Brachychiton acerifolius,False,C\ Llobregós,,11.22,median,5.45,check,,,,,1.0,floor
+0065180AR,Styphnolobium japonicum,False,Rbla Carmel,5.34,3.96,ok,,medium,429587.38,4586462.51,429592.66,4586463.28,1.0,class
+0065181AR,Brachychiton populneus,False,Rbla Carmel,,24.1,median,,check,,,,,1.0,floor
+0065182AR,Styphnolobium japonicum,False,C\ Gran Vista,2.4,1.9,ok,,none,429720.23,4585674.19,429721.48,4585672.14,1.0,floor
+0065185AR,Celtis australis,False,C\ Lisboa,,15.6,median,8.38,check,,,,,1.0,floor
+0065186AR,Lagunaria patersonia,False,C\ Santuari,3.28,2.65,ok,,small,429173.13,4585829.2,429175.96,4585827.55,1.0,class
+0065187AR,Styphnolobium japonicum,False,Rbla Carmel,,17.15,median,,check,,,,,1.0,floor
+0065189AR,Brachychiton populneus,False,C\ Llobregós,,7.78,median,7.82,check,,,,,1.0,floor
+0065190AR,Styphnolobium japonicum,False,C\ Dante Alighieri,3.41,2.56,ok,,small,429284.92,4586347.95,429286.99,4586345.23,1.0,class
+0065191AR,Styphnolobium japonicum,False,C\ Llobregós,4.24,3.31,ok,,medium,429113.42,4585948.45,429115.79,4585944.93,1.0,class
+0065192AR,Styphnolobium japonicum,False,C\ Gran Vista,,9.96,median,2.29,check,,,,,1.0,floor
+0065193AR,Styphnolobium japonicum,False,C\ Santuari,3.83,3.05,ok,,medium,429482.88,4585709.48,429482.65,4585705.66,1.0,class
+0065194AR,Styphnolobium japonicum,False,Pg Mare de Déu del Coll,2.9,1.95,ok,,small,429065.34,4586120.4,429062.45,4586120.55,1.0,class
+0065195AR,Morus alba,False,C\ Alcalde de Zalamea,,8.83,no_kerb,35.16,check,,,,,1.0,floor
+0065196AR,Jacaranda mimosifolia,False,Camí Vell del Coll,,7.84,median,2.85,check,,,,,1.0,floor
+0065197AR,Styphnolobium japonicum,False,Rbla Carmel,4.78,2.42,ok,,medium,429620.11,4586250.57,429624.86,4586251.18,1.0,class
+0065199AR,Catalpa bignonioides,False,Rbla Carmel,2.89,1.97,ok,,small,429666.54,4585943.06,429669.4,4585943.5,1.0,class
+0065200AR,Lagunaria patersonia,False,C\ Santuari,3.19,2.43,ok,,small,429167.01,4585818.73,429169.77,4585817.12,1.0,class
+0065201AR,Styphnolobium japonicum,False,C\ Llobregós,,13.58,median,12.01,check,,,,,1.0,floor
+0065202AR,Cercis siliquastrum,False,C\ Calderón de la Barca,3.81,2.94,ok,,medium,429565.69,4585743.18,429561.93,4585742.6,1.0,class
+0065204AR,Cercis siliquastrum,False,C\ Murtra,12.17,11.38,ok,,large,429383.88,4585859.51,429372.55,4585855.08,1.5,class
+0065205AR,Platanus × acerifolia,True,Pg Font de la Mulassa,2.3,1.5,ok,,none,430011.06,4585936.95,430013.27,4585937.62,1.0,floor
+0065206AR,Ligustrum lucidum,False,C\ Calderón de la Barca,6.16,5.34,ok,,large,429557.49,4585698.13,429563.58,4585699.09,1.5,class
+0065207AR,Prunus cerasifera 'Pissardii',False,C\ Lugo,3.15,2.29,ok,,small,429481.71,4586083.52,429483.43,4586080.88,1.0,class
+0065208AR,Styphnolobium japonicum,False,C\ Dante Alighieri,4.17,3.44,ok,,medium,429242.32,4586321.01,429244.44,4586317.42,1.0,class
+0065209AR,Styphnolobium japonicum,False,C\ Llobregós,4.41,3.64,ok,,medium,429289.51,4586075.06,429292.14,4586071.53,1.0,class
+0065210AR,Brachychiton acerifolius,False,Rbla Carmel,,22.44,median,,check,,,,,1.0,floor
+0065211AR,Styphnolobium japonicum,False,C\ Gran Vista,2.48,1.69,ok,,none,429793.34,4585718.14,429794.6,4585716.01,1.0,floor
+0065212AR,Celtis australis,False,C\ Lisboa,,23.49,median,,check,,,,,1.0,floor
+0065214AR,Ligustrum lucidum,False,C\ Calderón de la Barca,6.47,5.32,ok,,large,429550.03,4585744.96,429556.41,4585746.03,1.5,class
+0065215AR,Cercis siliquastrum,False,C\ Murtra,3.86,2.83,ok,,medium,429379.21,4585832.97,429382.14,4585835.48,1.0,class
+0065216AR,Quercus ilex,False,Pl Font de la Mulassa,,6.15,median,,check,,,,,1.0,floor
+0065217AR,Styphnolobium japonicum,False,C\ Gran Vista,,10.0,median,2.36,check,,,,,1.0,floor
+0065218AR,Melia azedarach,False,C\ Calderón de la Barca,3.02,2.53,ok,,small,429511.14,4585858.42,429508.46,4585857.05,1.0,class
+0065221AR,Brachychiton populneus,False,C\ Ciències,,26.58,median,,check,,,,,1.0,floor
+0065222AR,Styphnolobium japonicum,False,C\ Ciències,,27.96,median,5.61,check,,,,,1.0,floor
+0065223AR,Melia azedarach,False,C\ Calderón de la Barca,2.95,2.48,ok,,small,429384.64,4586061.07,429382.0,4586059.76,1.0,class
+0065224AR,Celtis australis,False,C\ Lisboa,,13.83,median,4.12,check,,,,,1.0,floor
+0065225AR,Styphnolobium japonicum,False,Rbla Carmel,3.3,2.25,ok,,small,429628.14,4586196.99,429631.4,4586197.49,1.0,class
+0065226AR,Styphnolobium japonicum,False,C\ Gran Vista,4.77,3.95,ok,,medium,429857.99,4585757.58,429856.55,4585753.03,1.0,class
+0065229AR,Brachychiton populneus,False,C\ Llobregós,,11.98,median,7.52,check,,,,,1.0,floor
+0065230AR,Prunus cerasifera 'Pissardii',False,C\ Lugo,2.96,2.55,ok,,small,429534.67,4586117.91,429536.28,4586115.43,1.0,class
+0065231AR,Platanus × acerifolia,True,Pg Font de la Mulassa,,11.55,median,,check,,,,,1.0,floor
+0065232AR,Styphnolobium japonicum,False,C\ Dante Alighieri,3.99,3.21,ok,,medium,429561.75,4586568.02,429562.46,4586564.1,1.0,class
+0065233AR,Styphnolobium japonicum,False,C\ Gran Vista,2.41,1.72,ok,,none,429887.83,4585761.06,429886.57,4585763.12,1.0,floor
+0065235AR,Ligustrum lucidum,False,C\ Segimon,3.67,3.01,ok,,medium,429474.99,4585808.96,429475.48,4585812.6,1.0,class
+0065238AR,Celtis australis,False,C\ Lisboa,4.86,3.33,ok,,medium,429106.96,4586425.16,429107.13,4586430.02,1.0,class
+0065240AR,Styphnolobium japonicum,False,C\ Dante Alighieri,3.89,3.19,ok,,medium,429366.72,4586439.18,429369.76,4586436.77,1.0,class
+0065241AR,Styphnolobium japonicum,False,C\ Santuari,3.09,2.48,ok,,small,429157.5,4585802.7,429160.15,4585801.12,1.0,class
+0065242AR,Pyrus calleryana 'Chanticleer',False,Rbla Carmel,3.07,2.11,ok,,small,429639.81,4586118.05,429642.84,4586118.51,1.0,class
+0065243AR,Prunus cerasifera 'Pissardii',False,C\ Fastenrath,5.66,4.56,ok,,medium,429083.75,4585900.3,429083.8,4585905.96,1.0,class
+0065244AR,Styphnolobium japonicum,False,Rbla Carmel,5.65,4.56,ok,,medium,429609.13,4586320.69,429614.71,4586321.57,1.0,class
+0065245AR,Styphnolobium japonicum,False,Rbla Carmel,,17.71,median,,check,,,,,1.0,floor
+0065246AR,Populus alba 'Pyramidalis',False,Rbla Carmel,,24.92,median,,check,,,,,1.0,floor
+0065247AR,Pinus pinea,False,Jard Juan Ponce,,23.53,median,24.61,check,,,,,1.0,floor
+0065248AR,Styphnolobium japonicum,False,C\ Granollers,4.05,3.09,ok,,medium,429568.81,4586412.9,429567.84,4586416.84,1.0,class
+0065249AR,Prunus cerasifera 'Pissardii',False,C\ Lugo,2.83,2.06,ok,,small,429592.13,4586155.22,429593.68,4586152.85,1.0,class
+0065250AR,Brachychiton populneus,False,C\ Ciències,,33.49,no_facade,,check,,,,,1.0,floor
+0065251AR,Styphnolobium japonicum,False,C\ Llobregós,4.3,3.46,ok,,medium,429415.69,4586165.95,429418.17,4586162.43,1.0,class
+0065252AR,Prunus cerasifera 'Pissardii',False,C\ Argimon,5.8,2.13,ok,,medium,429511.76,4586564.21,429517.56,4586564.1,1.0,class
+0065254AR,Platanus × acerifolia,True,Pg Font de la Mulassa,2.24,1.57,ok,,none,430015.64,4585922.15,430017.78,4585922.83,1.0,floor
+0065255AR,Prunus cerasifera 'Pissardii',False,C\ Lugo,2.93,2.33,ok,,small,429443.22,4586058.22,429444.78,4586055.74,1.0,class
+0065256AR,Prunus cerasifera 'Pissardii',False,C\ Fastenrath,4.08,3.59,ok,,medium,429161.6,4585929.16,429163.33,4585925.47,1.0,class
+0065257AR,Brachychiton populneus,False,C\ Ciències,,28.33,median,,check,,,,,1.0,floor
+0065261AR,Ligustrum lucidum,False,C\ Segimon,3.19,2.59,ok,,small,429509.5,4585800.98,429510.34,4585804.05,1.0,class
+0065262AR,Brachychiton populneus,False,Ctra Carmel,,13.93,median,18.53,check,,,,,1.0,floor
+0065263AR,Celtis australis,False,C\ Lisboa,15.58,14.65,ok,,large,429266.28,4586517.24,429262.56,4586532.36,1.5,class
+0065264AR,Pyrus calleryana 'Chanticleer',False,C\ Lluís Marià Vidal,4.15,3.44,ok,,medium,429535.42,4586255.59,429538.97,4586257.75,1.0,class
+0065265AR,Styphnolobium japonicum,False,C\ Llobregós,4.18,3.41,ok,,medium,429139.6,4585965.94,429141.97,4585962.49,1.0,class
+0065266AR,Celtis australis,False,C\ Lisboa,,6.04,median,4.47,check,,,,,1.0,floor
+0065267AR,Styphnolobium japonicum,False,C\ Llobregós,4.13,3.23,ok,,medium,429268.71,4586059.38,429271.2,4586056.08,1.0,class
+0065268AR,Jacaranda mimosifolia,False,Camí Vell del Coll,4.96,3.1,ok,,medium,429084.98,4586043.64,429089.71,4586042.13,1.0,class
+0065269AR,Cercis siliquastrum,False,C\ Murtra,4.95,4.14,ok,,medium,429356.28,4585881.2,429352.5,4585878.0,1.0,class
+0065271AR,Brachychiton populneus,False,C\ Llobregós,8.01,3.13,ok,,large,429564.12,4586246.58,429559.44,4586253.08,1.5,class
+0065274AR,Celtis australis,False,C\ Lisboa,,17.52,median,4.08,check,,,,,1.0,floor
+0065275AR,Styphnolobium japonicum,False,C\ Llobregós,4.44,3.49,ok,,medium,429409.48,4586161.58,429412.03,4586157.95,1.0,class
+0065277AR,Prunus cerasifera 'Pissardii',False,C\ Lugo,3.0,2.68,ok,,small,429503.0,4586097.35,429504.63,4586094.83,1.0,class
+0065278AR,Tilia x euchlora,False,C\ Santa Otília,,3.39,no_kerb,,check,,,,,1.0,floor
+0065279AR,Styphnolobium japonicum,False,C\ Ciències,,17.35,median,,check,,,,,1.0,floor
+0065280AR,Styphnolobium japonicum,False,C\ Gran Vista,2.48,1.77,ok,,none,429787.67,4585714.78,429788.93,4585712.65,1.0,floor
+0065281AR,Ligustrum lucidum,False,C\ Calderón de la Barca,2.98,2.5,ok,,small,429382.33,4586065.73,429379.66,4586064.41,1.0,class
+0065282AR,Styphnolobium japonicum,False,C\ Ciències,,9.33,median,11.48,check,,,,,1.0,floor
+0065283AR,Styphnolobium japonicum,False,C\ Santuari,19.66,18.71,ok,,large,429136.47,4585780.7,429128.59,4585762.69,1.5,class
+0065284AR,Styphnolobium japonicum,False,C\ Dante Alighieri,3.74,3.08,ok,,medium,429415.73,4586492.83,429417.94,4586489.81,1.0,class
+0065285AR,Brachychiton populneus,False,C\ Ciències,,28.8,median,,check,,,,,1.0,floor
+0065286AR,Styphnolobium japonicum,False,C\ Llobregós,4.38,3.5,ok,,medium,429388.77,4586146.91,429391.35,4586143.37,1.0,class
+0065287AR,Styphnolobium japonicum,False,C\ Gran Vista,2.52,1.99,ok,,small,429883.32,4585758.31,429882.0,4585760.46,1.0,class
+0065288AR,Cercis siliquastrum,False,C\ Farnés,7.27,5.08,ok,,large,429326.51,4586507.75,429333.3,4586510.33,1.5,class
+0065289AR,Tipuana tipu,False,Esc Floresta,,1.97,no_kerb,,check,,,,,1.0,floor
+0065290AR,Brachychiton acerifolius,False,C\ Llobregós,,11.36,median,8.16,check,,,,,1.0,floor
+0065291AR,Brachychiton populneus,False,C\ Llobregós,9.91,3.8,ok,,large,429610.08,4586279.25,429609.01,4586289.11,1.5,class
+0065292AR,Pyrus calleryana 'Chanticleer',False,C\ Lluís Marià Vidal,4.08,3.2,ok,,medium,429516.5,4586286.67,429519.99,4586288.79,1.0,class
+0065293AR,Prunus cerasifera 'Pissardii',False,C\ Lugo,2.97,2.54,ok,,small,429413.04,4586038.7,429414.64,4586036.21,1.0,class
+0065294AR,Celtis australis,False,C\ Lisboa,6.56,5.74,ok,,large,429368.99,4586605.99,429364.12,4586610.38,1.5,class
+0065295AR,Styphnolobium japonicum,False,Rbla Carmel,,4.28,median,8.0,check,,,,,1.0,floor
+0065296AR,Prunus cerasifera 'Pissardii',False,C\ Argimon,4.47,3.73,ok,,medium,429526.63,4586567.14,429524.25,4586563.35,1.0,class
+0065300AR,Celtis australis,False,C\ Lisboa,8.17,7.36,ok,,large,429357.42,4586593.16,429351.35,4586598.63,1.5,class
+0065301AR,Brachychiton populneus,False,C\ Llobregós,,16.71,median,,check,,,,,1.0,floor
+0065302AR,Styphnolobium japonicum,False,C\ Beatriu,7.38,6.38,ok,,large,429550.72,4586671.95,429557.96,4586673.38,1.5,class
+0065303AR,Brachychiton populneus,False,Rbla Carmel,,29.21,median,,check,,,,,1.0,floor
+0065304AR,Brachychiton populneus,False,C\ Llobregós,,11.89,median,7.64,check,,,,,1.0,floor
+0065305AR,Celtis australis,False,C\ Lisboa,,18.58,median,17.69,check,,,,,1.0,floor
+0065306AR,Styphnolobium japonicum,False,Rbla Carmel,7.3,4.5,ok,,large,429600.53,4586376.23,429607.75,4586377.28,1.5,class
+0065307AR,Styphnolobium japonicum,False,Rbla Carmel,4.82,2.51,ok,,medium,429629.97,4586184.87,429634.73,4586185.6,1.0,class
+0065308AR,Melia azedarach,False,Ptge Santa Teresa,9.09,4.8,ok,,large,429527.94,4586201.65,429533.14,4586194.19,1.5,class
+0065309AR,Styphnolobium japonicum,False,Rbla Carmel,,17.98,median,,check,,,,,1.0,floor
+0065310AR,Prunus cerasifera 'Pissardii',False,C\ Lugo,3.09,2.57,ok,,small,429497.82,4586093.98,429499.5,4586091.39,1.0,class
+0065311AR,Ligustrum lucidum,False,C\ Calderón de la Barca,6.29,5.46,ok,,large,429552.06,4585732.88,429558.26,4585733.93,1.5,class
+0065312AR,Styphnolobium japonicum,False,C\ Llobregós,,12.03,median,7.69,check,,,,,1.0,floor
+0065313AR,Ligustrum lucidum,False,Bda Passerell,,3.16,no_kerb,,check,,,,,1.0,floor
+0065314AR,Brachychiton acerifolius,False,Rbla Carmel,,22.64,median,,check,,,,,1.0,floor
+0065315AR,Prunus cerasifera 'Pissardii',False,C\ Pantà de Tremp,,7.1,median,,check,,,,,1.0,floor
+0065316AR,Celtis australis,False,C\ Lisboa,,15.9,median,19.27,check,,,,,1.0,floor
+0065317AR,Tilia x euchlora,False,Ptge Andalet,19.71,5.75,ok,,large,429302.9,4586534.66,429287.72,4586547.23,1.5,class
+0065318AR,Styphnolobium japonicum,False,C\ Llobregós,7.73,6.81,ok,,large,429326.73,4586077.71,429322.2,4586083.98,1.5,class
+0065319AR,Styphnolobium japonicum,False,Rbla Carmel,,17.61,median,,check,,,,,1.0,floor
+0065320AR,Ligustrum lucidum,False,C\ Calderón de la Barca,5.93,5.24,ok,,medium,429563.33,4585657.78,429569.22,4585658.4,1.0,class
+0065321AR,Styphnolobium japonicum,False,C\ Llobregós,7.98,7.18,ok,,large,429050.97,4585883.07,429046.53,4585889.7,1.5,class
+0065322AR,Styphnolobium japonicum,False,C\ Gran Vista,5.16,4.63,ok,,medium,429920.25,4585797.42,429922.75,4585792.91,1.0,class
+0065323AR,Melia azedarach,False,Pl Pastrana,,22.15,no_kerb,27.56,check,,,,,1.0,floor
+0065325AR,Citrus × aurantium,False,C\ Santuari,14.53,13.16,ok,,large,429139.08,4585779.56,429133.25,4585766.25,1.5,class
+0065326AR,Pyrus calleryana 'Chanticleer',False,Rbla Carmel,2.89,2.05,ok,,small,429668.38,4585931.34,429671.23,4585931.82,1.0,class
+0065327AR,Cercis siliquastrum,False,C\ Calderón de la Barca,3.58,3.03,ok,,medium,429577.31,4585664.48,429573.74,4585664.21,1.0,class
+0065329AR,Cercis siliquastrum,False,C\ Murtra,6.32,5.6,ok,,large,429350.24,4585866.03,429355.61,4585869.36,1.5,class
+0065330AR,Melia azedarach,False,C\ Gran Vista,4.92,3.06,ok,,medium,429585.63,4585595.53,429583.48,4585591.11,1.0,class
+0065331AR,Styphnolobium japonicum,False,Pg Mare de Déu del Coll,,9.69,median,28.59,check,,,,,1.0,floor
+0065332AR,Ligustrum lucidum,False,C\ Murtra,5.39,4.6,ok,,medium,429290.91,4585934.29,429292.06,4585939.56,1.0,class
+0065333AR,Brachychiton populneus,False,C\ Llobregós,,12.76,median,7.58,check,,,,,1.0,floor
+0065334AR,Pinus pinea,False,Jard Juan Ponce,,25.95,median,21.35,check,,,,,1.0,floor
+0065335AR,Styphnolobium japonicum,False,C\ Llobregós,4.34,3.77,ok,,medium,429559.79,4586268.05,429562.37,4586264.56,1.0,class
+0065336AR,Acacia dealbata,False,Pl Pastrana,,11.74,no_kerb,32.58,check,,,,,1.0,floor
+0065338AR,Cercis siliquastrum,False,C\ Calderón de la Barca,3.85,3.03,ok,,medium,429567.62,4585730.71,429563.82,4585730.12,1.0,class
+0065339AR,Cercis siliquastrum,False,C\ Santuari,2.54,2.16,ok,,small,428960.28,4585773.92,428959.88,4585771.41,1.0,class
+0065340AR,Styphnolobium japonicum,False,C\ Beatriu,3.57,2.75,ok,,medium,429565.64,4586598.49,429569.15,4586599.19,1.0,class
+0065341AR,Styphnolobium japonicum,False,C\ Llobregós,4.27,3.3,ok,,medium,429481.6,4586212.59,429484.06,4586209.1,1.0,class
+0065343AR,Styphnolobium japonicum,False,Rbla Carmel,5.34,4.35,ok,,medium,429598.27,4586391.47,429603.55,4586392.31,1.0,class
+0065345AR,Cercis siliquastrum,False,C\ Fastenrath,3.03,2.08,ok,,small,429262.83,4585956.29,429263.22,4585953.29,1.0,class
+0065346AR,Styphnolobium japonicum,False,C\ Gran Vista,2.62,2.04,ok,,small,429786.04,4585699.74,429784.69,4585701.98,1.0,class
+0065347AR,Aesculus hippocastanum,False,C\ Llobregós,14.04,8.94,ok,,large,428994.92,4585875.04,428987.28,4585863.26,1.5,class
+0065348AR,Cercis siliquastrum,False,C\ Fastenrath,4.94,4.01,ok,,medium,429054.66,4585928.13,429052.24,4585923.82,1.0,class
+0065351AR,Jacaranda mimosifolia,False,Camí Vell del Coll,,6.96,median,1.64,check,,,,,1.0,floor
+0065352AR,Ligustrum lucidum,False,C\ Segimon,3.54,3.03,ok,,medium,429493.96,4585805.24,429494.89,4585808.65,1.0,class
+0065354AR,Brachychiton acerifolius,False,Rbla Carmel,,35.53,no_facade,,check,,,,,1.0,floor
+0065356AR,Tipuana tipu,False,Pg Mare de Déu del Coll,,9.92,median,3.02,check,,,,,1.0,floor
+0065357AR,Cercis siliquastrum,False,C\ Calderón de la Barca,3.63,2.57,ok,,medium,429575.73,4585677.49,429572.14,4585676.94,1.0,class
+0065358AR,Styphnolobium japonicum,False,C\ Llobregós,4.18,3.48,ok,,medium,429497.52,4586223.77,429499.92,4586220.36,1.0,class
+0065359AR,Tilia x euchlora,False,Ptge Andalet,10.98,4.35,ok,,large,429329.97,4586567.64,429329.31,4586578.6,1.5,class
+0065360AR,Styphnolobium japonicum,False,C\ Santuari,3.35,2.55,ok,,small,429141.41,4585778.54,429142.97,4585775.58,1.0,class
+0065362AR,Brachychiton populneus,False,C\ Llobregós,7.91,2.56,ok,,large,429573.34,4586253.39,429568.62,4586259.73,1.5,class
+0065363AR,Pyrus calleryana 'Chanticleer',False,Rbla Carmel,3.32,2.42,ok,,small,429636.31,4586141.15,429639.59,4586141.65,1.0,class
+0065365AR,Brachychiton populneus,False,C\ Llobregós,7.68,2.78,ok,,large,429527.89,4586220.82,429523.47,4586227.09,1.5,class
+0065366AR,Celtis australis,False,C\ Lisboa,17.58,16.58,ok,,large,429264.26,4586514.88,429250.93,4586526.35,1.5,class
+0065368AR,Brachychiton populneus,False,C\ Llobregós,7.83,2.75,ok,,large,429578.48,4586257.2,429573.81,4586263.49,1.5,class
+0065370AR,Cercis siliquastrum,False,C\ Murtra,7.6,6.42,ok,,large,429333.88,4585885.06,429335.53,4585892.48,1.5,class
+0065372AR,Ligustrum lucidum,False,C\ Calderón de la Barca,6.0,5.08,ok,,medium,429544.14,4585765.93,429549.53,4585768.58,1.0,class
+0065373AR,Prunus cerasifera 'Pissardii',False,C\ Lugo,2.84,2.26,ok,,small,429564.39,4586137.27,429565.93,4586134.89,1.0,class
+0065374AR,Styphnolobium japonicum,False,C\ Gran Vista,,18.73,median,7.83,check,,,,,1.0,floor
+0065375AR,Styphnolobium japonicum,False,Rbla Carmel,5.48,4.38,ok,,medium,429590.84,4586439.43,429596.25,4586440.28,1.0,class
+0065376AR,Pyrus calleryana 'Chanticleer',False,Rbla Carmel,4.94,2.14,ok,,medium,429641.64,4586105.97,429646.52,4586106.71,1.0,class
+0065377AR,Styphnolobium japonicum,False,C\ Santuari,3.24,2.54,ok,,small,429170.0,4585823.85,429172.79,4585822.22,1.0,class
+0065378AR,Morus alba,False,C\ Alcalde de Zalamea,,6.64,no_kerb,35.8,check,,,,,1.0,floor
+0065379AR,Styphnolobium japonicum,False,Pg Mare de Déu del Coll,15.39,12.9,ok,,large,429065.59,4586125.47,429064.98,4586140.85,1.5,class
+0065380AR,Brachychiton populneus,False,Rbla Carmel,,22.29,median,,check,,,,,1.0,floor
+0065381AR,Brachychiton populneus,False,C\ Ciències,,28.97,median,,check,,,,,1.0,floor
+0065382AR,Brachychiton populneus,False,C\ Ciències,,23.92,median,,check,,,,,1.0,floor
+0065383AR,Styphnolobium japonicum,False,C\ Gran Vista,9.57,8.67,ok,,large,429909.16,4585790.97,429905.12,4585782.29,1.5,class
+0065384AR,Brachychiton populneus,False,C\ Llobregós,13.17,3.12,ok,,large,429047.94,4585881.03,429040.61,4585891.97,1.5,class
+0065385AR,Styphnolobium japonicum,False,C\ Llobregós,4.21,3.43,ok,,medium,429487.08,4586216.44,429489.5,4586212.99,1.0,class
+0065386AR,Celtis australis,False,C\ Murtra,,2.26,no_kerb,,check,,,,,1.0,floor
+0065388AR,Cercis siliquastrum,False,C\ Farnés,2.52,1.51,ok,,small,429357.2,4586519.28,429355.52,4586521.16,1.0,class
+0065389AR,Prunus cerasifera 'Pissardii',False,C\ Lugo,2.75,2.3,ok,,small,429573.74,4586143.35,429575.24,4586141.04,1.0,class
+0065391AR,Celtis australis,False,Rbla Carmel,2.89,2.23,ok,,small,429649.69,4586053.09,429652.55,4586053.53,1.0,class
+0065392AR,Cercis siliquastrum,False,C\ Murtra,3.03,1.98,ok,,small,429317.55,4585926.4,429315.26,4585924.41,1.0,class
+0065393AR,Melia azedarach,False,C\ Calderón de la Barca,2.88,2.46,ok,,small,429417.55,4585993.64,429414.97,4585992.35,1.0,class
+0065394AR,Brachychiton populneus,False,Rbla Carmel,,20.92,median,,check,,,,,1.0,floor
+0065395AR,Brachychiton populneus,False,Rbla Carmel,,21.58,median,,check,,,,,1.0,floor
+0065397AR,Ligustrum lucidum,False,C\ Calderón de la Barca,2.73,2.29,ok,,small,429426.67,4585957.9,429423.98,4585958.38,1.0,class
+0065398AR,Styphnolobium japonicum,False,C\ Llobregós,4.72,4.14,ok,,medium,429563.39,4586270.71,429567.42,4586268.25,1.0,class
+0065399AR,Cercis siliquastrum,False,C\ Segimon,4.07,3.04,ok,,medium,429429.63,4585821.73,429429.99,4585817.68,1.0,class
+0065400AR,Prunus cerasifera 'Pissardii',False,C\ Fastenrath,,9.12,median,4.19,check,,,,,1.0,floor
+0065401AR,Styphnolobium japonicum,False,C\ Beatriu,3.75,2.68,ok,,medium,429552.64,4586662.31,429556.31,4586663.04,1.0,class
+0065402AR,Celtis australis,False,Rbla Carmel,2.93,2.37,ok,,small,429655.67,4586012.57,429658.57,4586012.99,1.0,class
+0065403AR,Styphnolobium japonicum,False,C\ Llobregós,4.26,3.39,ok,,medium,429144.02,4585968.98,429146.43,4585965.47,1.0,class
+0065405AR,Cercis siliquastrum,False,C\ Farnés,2.68,1.89,ok,,small,429313.27,4586495.45,429315.1,4586493.49,1.0,class
+0065406AR,Ligustrum japonicum 'Texanum',False,C\ Sacedón,4.05,2.95,ok,,medium,429392.15,4586376.82,429395.4,4586379.24,1.0,class
+0065407AR,Celtis australis,False,C\ Lisboa,16.2,15.09,ok,,large,429312.3,4586546.09,429298.43,4586554.45,1.5,class
+0065408AR,Styphnolobium japonicum,False,C\ Llobregós,7.95,6.66,ok,,large,429570.73,4586251.45,429565.99,4586257.83,1.5,class
+0065409AR,Styphnolobium japonicum,False,C\ Llobregós,4.27,3.64,ok,,medium,429210.81,4586017.14,429213.31,4586013.68,1.0,class
+0065411AR,Brachychiton populneus,False,C\ Llobregós,7.79,2.25,ok,,large,429602.69,4586274.84,429598.1,4586281.14,1.5,class
+0065412AR,Styphnolobium japonicum,False,C\ Gran Vista,2.59,2.06,ok,,small,429793.27,4585704.1,429791.93,4585706.32,1.0,class
+0065415AR,Styphnolobium japonicum,False,C\ Llobregós,,12.79,median,,check,,,,,1.0,floor
+0065416AR,Styphnolobium japonicum,False,C\ Llobregós,7.69,6.73,ok,,large,429514.61,4586211.46,429510.18,4586217.74,1.5,class
+0065417AR,Ligustrum lucidum,False,C\ Segimon,3.77,3.01,ok,,medium,429446.1,4585809.47,429445.94,4585813.23,1.0,class
+0065418AR,Platanus × acerifolia,True,Pg Font de la Mulassa,12.66,7.28,ok,,large,430017.7,4585914.8,430023.79,4585903.7,1.5,class
+0065419AR,Styphnolobium japonicum,False,C\ Gran Vista,9.96,6.97,ok,,large,429827.36,4585738.57,429820.4,4585731.45,1.5,class
+0065420AR,Brachychiton populneus,False,Rbla Carmel,,21.51,median,26.46,check,,,,,1.0,floor
+0065421AR,Ligustrum lucidum,False,C\ Murtra,,5.28,median,,check,,,,,1.0,floor
+0065422AR,Brachychiton populneus,False,Rbla Carmel,,28.83,median,,check,,,,,1.0,floor
+0065423AR,Styphnolobium japonicum,False,C\ Llobregós,,13.08,median,14.41,check,,,,,1.0,floor
+0065424AR,Celtis australis,False,C\ Lisboa,,20.59,median,14.78,check,,,,,1.0,floor
+0065425AR,Styphnolobium japonicum,False,C\ Llobregós,7.68,6.77,ok,,large,429525.09,4586218.85,429520.67,4586225.12,1.5,class
+0065426AR,Cercis siliquastrum,False,Bda Passerell,20.71,8.86,ok,,large,429708.58,4585795.54,429710.52,4585816.16,1.5,class
+0065428AR,Ligustrum lucidum,False,C\ Murtra,4.66,4.01,ok,,medium,429293.13,4585931.73,429296.65,4585934.77,1.0,class
+0065429AR,Firmiana simplex,False,C\ Gran Vista,13.31,12.52,ok,,large,430069.62,4585743.73,430077.88,4585754.17,1.5,class
+0065430AR,Styphnolobium japonicum,False,Rbla Carmel,7.38,4.42,ok,,large,429601.44,4586369.96,429608.75,4586371.03,1.5,class
+0065431AR,Prunus cerasifera 'Pissardii',False,C\ Lugo,2.91,2.39,ok,,small,429559.44,4586134.05,429561.02,4586131.62,1.0,class
+0065432AR,Celtis australis,False,C\ Lisboa,7.98,7.24,ok,,large,429361.34,4586597.51,429355.42,4586602.85,1.5,class
+0065435AR,Cercis siliquastrum,False,C\ Farnés,,10.04,median,,check,,,,,1.0,floor
+0065436AR,Melia azedarach,False,C\ Calderón de la Barca,2.71,2.03,ok,,small,429505.06,4585867.71,429503.11,4585865.84,1.0,class
+0065437AR,Styphnolobium japonicum,False,C\ Santuari,2.93,2.29,ok,,small,429373.72,4585750.41,429371.45,4585748.56,1.0,class
+0065439AR,Styphnolobium japonicum,False,Rbla Carmel,,17.01,median,,check,,,,,1.0,floor
+0065441AR,Styphnolobium japonicum,False,C\ Dante Alighieri,3.79,3.21,ok,,medium,429344.81,4586411.95,429347.77,4586409.59,1.0,class
+0065442AR,Styphnolobium japonicum,False,C\ Llobregós,7.91,7.2,ok,,large,429056.38,4585886.69,429051.98,4585893.25,1.5,class
+0065444AR,Celtis australis,False,C\ Lisboa,10.61,9.82,ok,,large,429329.97,4586567.64,429328.84,4586578.19,1.5,class
+0065445AR,Styphnolobium japonicum,False,C\ Gran Vista,,10.61,no_kerb,11.13,check,,,,,1.0,floor
+0065446AR,Brachychiton acerifolius,False,Rbla Carmel,,28.91,median,,check,,,,,1.0,floor
+0065447AR,Styphnolobium japonicum,False,C\ Santuari,3.43,2.96,ok,,small,429477.34,4585709.81,429477.13,4585706.39,1.0,class
+0065448AR,Pyrus calleryana 'Chanticleer',False,C\ Gran Vista,2.58,2.12,ok,,small,429870.6,4585750.57,429869.26,4585752.77,1.0,class
+0065449AR,Brachychiton populneus,False,C\ Llobregós,7.37,2.71,ok,,large,429495.49,4586198.51,429491.44,4586204.65,1.5,class
+0065450AR,Styphnolobium japonicum,False,C\ Ciències,,18.49,median,,check,,,,,1.0,floor
+0065451AR,Styphnolobium japonicum,False,Rbla Carmel,,18.25,median,,check,,,,,1.0,floor
+0065452AR,Styphnolobium japonicum,False,C\ Llobregós,,12.65,median,,check,,,,,1.0,floor
+0065453AR,Cercis siliquastrum,False,C\ Santuari,2.4,1.89,ok,,none,429032.52,4585762.31,429031.99,4585759.97,1.0,floor
+0065454AR,Styphnolobium japonicum,False,C\ Llobregós,6.84,5.65,ok,,large,429429.42,4586152.8,429425.48,4586158.39,1.5,class
+0065455AR,Ligustrum lucidum,False,C\ Segimon,3.38,2.69,ok,,small,429463.68,4585810.1,429463.97,4585813.46,1.0,class
+0065456AR,Platanus × acerifolia,True,Jard Juan Ponce,,56.47,no_facade,,check,,,,,1.0,floor
+0065457AR,Cercis siliquastrum,False,C\ Murtra,4.78,3.96,ok,,medium,429401.62,4585828.96,429398.0,4585825.83,1.0,class
+0065458AR,Pyrus calleryana 'Chanticleer',False,Rbla Carmel,2.87,1.97,ok,,small,429664.75,4585954.59,429667.59,4585955.03,1.0,class
+0065459AR,Styphnolobium japonicum,False,C\ Llobregós,7.68,6.65,ok,,large,429530.31,4586222.53,429525.89,4586228.8,1.5,class
+0065460AR,Styphnolobium japonicum,False,C\ Gran Vista,,10.19,median,,check,,,,,1.0,floor
+0065461AR,Styphnolobium japonicum,False,C\ Llobregós,,13.12,median,7.65,check,,,,,1.0,floor
+0065463AR,Ligustrum lucidum,False,C\ Fastenrath,4.77,3.84,ok,,medium,429258.35,4585940.54,429257.65,4585945.25,1.0,class
+0065466AR,Ligustrum lucidum,False,C\ Murtra,4.56,3.61,ok,,medium,429304.24,4585918.88,429307.69,4585921.86,1.0,class
+0065467AR,Brachychiton acerifolius,False,C\ Ciències,,32.33,no_facade,,check,,,,,1.0,floor
+0065468AR,Platanus × acerifolia,True,Pg Font de la Mulassa,2.24,1.42,ok,,none,430004.82,4585957.76,430006.96,4585958.42,1.0,floor
+0065469AR,Celtis australis,False,C\ Lisboa,,18.77,median,11.69,check,,,,,1.0,floor
+0065470AR,Brachychiton acerifolius,False,C\ Ciències,,32.91,no_facade,,check,,,,,1.0,floor
+0065471AR,Pyrus calleryana 'Chanticleer',False,C\ Beatriu,3.97,2.95,ok,,medium,429561.61,4586617.22,429565.5,4586618.0,1.0,class
+0065472AR,Celtis australis,False,C\ Lisboa,,21.99,median,4.05,check,,,,,1.0,floor
+0065473AR,Brachychiton populneus,False,Rbla Carmel,,22.09,median,,check,,,,,1.0,floor
+0065474AR,Celtis australis,False,Rbla Carmel,2.96,1.88,ok,,small,429640.8,4586111.47,429643.73,4586111.91,1.0,class
+0065475AR,Styphnolobium japonicum,False,C\ Lletres,,10.39,median,,check,,,,,1.0,floor
+0065476AR,Lagunaria patersonia,False,C\ Santuari,2.44,1.89,ok,,none,429417.33,4585705.65,429416.49,4585703.36,1.0,floor
+0065477AR,Jacaranda mimosifolia,False,Camí Vell del Coll,,7.28,median,3.44,check,,,,,1.0,floor
+0065478AR,Styphnolobium japonicum,False,C\ Gran Vista,2.47,1.94,ok,,none,429861.8,4585745.21,429860.51,4585747.31,1.0,floor
+0065479AR,Melia azedarach,False,Ptge Santa Teresa,8.53,3.9,ok,,large,429521.05,4586196.84,429525.93,4586189.84,1.5,class
+0065480AR,Styphnolobium japonicum,False,C\ Llobregós,,12.99,median,7.58,check,,,,,1.0,floor
+0065481AR,Styphnolobium japonicum,False,C\ Gran Vista,,10.05,median,2.49,check,,,,,1.0,floor
+0065483AR,Pyrus calleryana 'Chanticleer',False,C\ Gran Vista,15.11,11.12,ok,,large,429806.85,4585726.15,429820.89,4585731.73,1.5,class
+0065484AR,Brachychiton populneus,False,C\ Llobregós,7.88,3.01,ok,,large,429057.9,4585887.71,429053.51,4585894.25,1.5,class
+0065485AR,Cercis siliquastrum,False,C\ Calderón de la Barca,4.77,3.6,ok,,medium,429563.44,4585760.23,429558.67,4585760.32,1.0,class
+0065486AR,Styphnolobium japonicum,False,Rbla Carmel,4.33,3.44,ok,,medium,429576.03,4586540.15,429580.32,4586540.78,1.0,class
+0065488AR,Styphnolobium japonicum,False,C\ Gran Vista,2.33,1.64,ok,,none,429911.5,4585775.12,429910.29,4585777.11,1.0,floor
+0065490AR,Celtis australis,False,C\ Lisboa,,6.51,median,3.7,check,,,,,1.0,floor
+0065491AR,Celtis australis,False,C\ Lisboa,,17.16,median,14.36,check,,,,,1.0,floor
+0065492AR,Styphnolobium japonicum,False,C\ Gran Vista,2.54,2.04,ok,,small,429605.69,4585605.94,429607.01,4585603.77,1.0,class
+0065494AR,Celtis australis,False,C\ Lisboa,,22.93,median,4.07,check,,,,,1.0,floor
+0065495AR,Brachychiton acerifolius,False,Pl Pastrana,,5.87,no_kerb,,check,,,,,1.0,floor
+0065496AR,Styphnolobium japonicum,False,C\ Llobregós,4.15,3.47,ok,,medium,429606.38,4586301.99,429608.82,4586298.63,1.0,class
+0065497AR,Cercis siliquastrum,False,C\ Murtra,4.61,3.81,ok,,medium,429404.72,4585825.59,429401.86,4585821.98,1.0,class
+0065498AR,Prunus cerasifera 'Pissardii',False,Pl Pastrana,,3.18,no_kerb,,check,,,,,1.0,floor
+0065499AR,Styphnolobium japonicum,False,C\ Llobregós,7.68,6.53,ok,,large,429534.97,4586225.81,429530.55,4586232.09,1.5,class
+0065500AR,Celtis australis,False,C\ Lisboa,,7.81,median,4.13,check,,,,,1.0,floor
+0065501AR,Brachychiton acerifolius,False,Rbla Carmel,,28.94,median,,check,,,,,1.0,floor
+0065502AR,Cercis siliquastrum,False,C\ Calderón de la Barca,3.35,2.62,ok,,small,429577.76,4585658.48,429574.42,4585658.22,1.0,class
+0065504AR,Ligustrum lucidum,False,C\ Calderón de la Barca,6.07,5.22,ok,,large,429564.03,4585651.18,429570.06,4585651.82,1.5,class
+0065505AR,Styphnolobium japonicum,False,C\ Llobregós,4.32,3.56,ok,,medium,429168.62,4585986.4,429171.17,4585982.9,1.0,class
+0065506AR,Brachychiton acerifolius,False,C\ Llobregós,,10.97,median,4.48,check,,,,,1.0,floor
+0065507AR,Pyrus calleryana 'Chanticleer',False,C\ Dante Alighieri,3.21,2.59,ok,,small,429257.72,4586328.22,429259.46,4586325.53,1.0,class
+0065508AR,Brachychiton populneus,False,C\ Llobregós,,12.07,median,14.91,check,,,,,1.0,floor
+0065509AR,Cercis siliquastrum,False,C\ Farnés,2.57,1.81,ok,,small,429333.25,4586497.86,429331.54,4586499.77,1.0,class
+0065510AR,Styphnolobium japonicum,False,C\ Llobregós,7.72,6.64,ok,,large,429508.51,4586207.15,429504.06,4586213.47,1.5,class
+0065512AR,Styphnolobium japonicum,False,Rbla Carmel,5.39,4.18,ok,,medium,429588.17,4586457.07,429593.5,4586457.84,1.0,class
+0065513AR,Platanus × acerifolia,True,Jard Juan Ponce,,18.09,median,,check,,,,,1.0,floor
+0065516AR,Styphnolobium japonicum,False,C\ Ciències,,9.06,median,14.83,check,,,,,1.0,floor
+0065517AR,Styphnolobium japonicum,False,C\ Llobregós,4.19,3.48,ok,,medium,429234.81,4586034.61,429237.31,4586031.25,1.0,class
+0065519AR,Styphnolobium japonicum,False,Rbla Carmel,,20.35,median,,check,,,,,1.0,floor
+0065520AR,Ligustrum lucidum,False,C\ Murtra,4.55,3.61,ok,,medium,429300.56,4585923.13,429304.0,4585926.11,1.0,class
+0065521AR,Firmiana simplex,False,C\ Gran Vista,,10.28,median,,check,,,,,1.0,floor
+0065523AR,Cercis siliquastrum,False,C\ Queixans,,7.52,median,,check,,,,,1.0,floor
+0065526AR,Cercis siliquastrum,False,C\ Farnés,2.66,1.9,ok,,small,429317.66,4586499.53,429319.47,4586497.58,1.0,class
+0065527AR,Styphnolobium japonicum,False,C\ Gran Vista,6.49,5.72,ok,,large,429826.89,4585719.67,429823.52,4585725.21,1.5,class
+0065528AR,Styphnolobium japonicum,False,C\ Gran Vista,2.46,1.85,ok,,none,429730.47,4585680.42,429731.75,4585678.32,1.0,floor
+0065529AR,Styphnolobium japonicum,False,C\ Gran Vista,3.33,2.49,ok,,small,429776.07,4585693.73,429772.98,4585694.97,1.0,class
+0065531AR,Brachychiton populneus,False,C\ Llobregós,7.93,2.57,ok,,large,429187.82,4585975.63,429183.23,4585982.09,1.5,class
+0065532AR,Cercis siliquastrum,False,C\ Murtra,3.93,3.23,ok,,medium,429371.9,4585841.43,429374.87,4585844.0,1.0,class
+0065534AR,Brachychiton acerifolius,False,Rbla Carmel,,29.19,median,,check,,,,,1.0,floor
+0065536AR,Melia azedarach,False,C\ Calderón de la Barca,2.96,2.47,ok,,small,429513.93,4585853.1,429511.31,4585851.71,1.0,class
+0065537AR,Styphnolobium japonicum,False,C\ Ciències,,22.3,median,,check,,,,,1.0,floor
+0065538AR,Styphnolobium japonicum,False,C\ Dante Alighieri,3.86,3.15,ok,,medium,429355.77,4586425.66,429358.78,4586423.25,1.0,class
+0065539AR,Brachychiton populneus,False,C\ Llobregós,,13.59,median,13.81,check,,,,,1.0,floor
+0065540AR,Brachychiton populneus,False,Rbla Carmel,,24.69,median,26.8,check,,,,,1.0,floor
+0065541AR,Brachychiton populneus,False,C\ Ciències,,32.46,no_facade,,check,,,,,1.0,floor
+0065542AR,Styphnolobium japonicum,False,C\ Beatriu,11.93,9.0,ok,,large,429555.96,4586688.61,429558.56,4586676.97,1.5,class
+0065543AR,Celtis australis,False,Rbla Carmel,2.88,2.36,ok,,small,429653.05,4586030.69,429655.89,4586031.13,1.0,class
+0065545AR,Cercis siliquastrum,False,C\ Fastenrath,3.21,2.19,ok,,small,429268.87,4585957.09,429269.29,4585953.91,1.0,class
+0065547AR,Styphnolobium japonicum,False,C\ Santuari,,22.82,median,,check,,,,,1.0,floor
+0065548AR,Melia azedarach,False,C\ Calderón de la Barca,2.77,2.27,ok,,small,429422.07,4585984.34,429419.57,4585983.15,1.0,class
+0065549AR,Jacaranda mimosifolia,False,Camí Vell del Coll,,8.61,median,2.2,check,,,,,1.0,floor
+0065550AR,Brachychiton populneus,False,C\ Llobregós,,12.6,median,7.65,check,,,,,1.0,floor
+0065551AR,Pyrus calleryana 'Chanticleer',False,C\ Gran Vista,,5.06,median,2.33,check,,,,,1.0,floor
+0065552AR,Celtis australis,False,Rbla Carmel,,10.09,median,17.13,check,,,,,1.0,floor
+0065553AR,Styphnolobium japonicum,False,C\ Llobregós,4.21,3.4,ok,,medium,429239.49,4586038.07,429241.93,4586034.64,1.0,class
+0065554AR,Styphnolobium japonicum,False,C\ Dante Alighieri,3.74,3.0,ok,,medium,429337.05,4586402.24,429339.98,4586399.91,1.0,class
+0065555AR,Lagunaria patersonia,False,C\ Santuari,2.64,1.99,ok,,small,429219.78,4585863.07,429220.32,4585860.49,1.0,class
+0065556AR,Ulmus pumila,False,C\ Doctor Bové,6.32,5.35,ok,,large,429728.0,4585691.71,429728.37,4585698.02,1.5,class
+0065558AR,Styphnolobium japonicum,False,C\ Ciències,,17.42,median,,check,,,,,1.0,floor
+0065561AR,Brachychiton populneus,False,Rbla Carmel,,21.58,median,22.01,check,,,,,1.0,floor
+0065562AR,Styphnolobium japonicum,False,C\ Llobregós,4.07,3.3,ok,,medium,429610.57,4586305.03,429612.96,4586301.74,1.0,class
+0065564AR,Styphnolobium japonicum,False,C\ Gran Vista,3.25,2.42,ok,,small,429926.44,4585784.2,429927.24,4585787.34,1.0,class
+0065566AR,Brachychiton populneus,False,C\ Llobregós,,3.37,median,7.78,check,,,,,1.0,floor
+0065567AR,Ligustrum lucidum,False,C\ Calderón de la Barca,6.16,5.13,ok,,large,429564.57,4585646.11,429570.69,4585646.76,1.5,class
+0065568AR,Populus alba 'Pyramidalis',False,C\ Ciències,,22.45,median,,check,,,,,1.0,floor
+0065569AR,Brachychiton populneus,False,C\ Llobregós,7.68,2.55,ok,,large,429516.82,4586213.02,429512.4,4586219.29,1.5,class
+0065571AR,Styphnolobium japonicum,False,C\ Beatriu,3.93,3.09,ok,,medium,429560.5,4586622.8,429564.35,4586623.56,1.0,class
+0065574AR,Styphnolobium japonicum,False,Rbla Carmel,3.23,2.16,ok,,small,429634.32,4586154.34,429637.51,4586154.82,1.0,class
+0065575AR,Brachychiton acerifolius,False,Rbla Carmel,,36.81,no_facade,,check,,,,,1.0,floor
+0065576AR,Platanus × acerifolia,True,Jard Juan Ponce,,20.43,median,30.13,check,,,,,1.0,floor
+0065579AR,Styphnolobium japonicum,False,C\ Santuari,8.57,7.12,ok,,large,429141.41,4585778.54,429138.22,4585770.59,1.5,class
+0065580AR,Styphnolobium japonicum,False,C\ Santuari,2.9,2.36,ok,,small,429369.29,4585755.85,429367.04,4585754.02,1.0,class
+0065581AR,Cercis siliquastrum,False,C\ Santuari,2.54,1.76,ok,,small,428999.82,4585767.91,428999.43,4585765.4,1.0,class
+0065582AR,Cercis siliquastrum,False,C\ Farnés,2.51,1.57,ok,,small,429352.94,4586515.47,429351.26,4586517.34,1.0,class
+0065583AR,Styphnolobium japonicum,False,C\ Gran Vista,2.39,1.72,ok,,none,429594.32,4585585.32,429593.07,4585587.36,1.0,floor
+0065584AR,Styphnolobium japonicum,False,C\ Ciències,,17.75,median,,check,,,,,1.0,floor
+0065585AR,Brachychiton acerifolius,False,Rbla Carmel,,29.04,median,,check,,,,,1.0,floor
+0065586AR,Tipuana tipu,False,C\ Hortal,,22.34,median,,check,,,,,1.0,floor
+0065589AR,Styphnolobium japonicum,False,C\ Ciències,,17.4,median,,check,,,,,1.0,floor
+0065590AR,Prunus cerasifera 'Pissardii',False,C\ Lugo,2.84,2.15,ok,,small,429524.54,4586111.33,429526.08,4586108.95,1.0,class
+0065592AR,Styphnolobium japonicum,False,C\ Gran Vista,2.21,1.69,ok,,none,429865.29,4585760.93,429866.41,4585759.03,1.0,floor
+0065593AR,Celtis australis,False,Rbla Carmel,2.91,2.3,ok,,small,429656.85,4586004.45,429659.72,4586004.87,1.0,class
+0065594AR,Ligustrum lucidum,False,C\ Calderón de la Barca,2.68,2.13,ok,,small,429478.38,4585872.55,429478.71,4585869.89,1.0,class
+0065595AR,Styphnolobium japonicum,False,C\ Santuari,2.69,2.07,ok,,small,429430.19,4585703.22,429430.13,4585700.54,1.0,class
+0065596AR,Tipuana tipu,False,Esc Floresta,,2.07,no_kerb,,check,,,,,1.0,floor
+0065597AR,Brachychiton acerifolius,False,Rbla Carmel,,22.58,median,,check,,,,,1.0,floor
+0065598AR,Cercis siliquastrum,False,C\ Murtra,3.23,2.41,ok,,small,429341.13,4585899.05,429338.67,4585896.96,1.0,class
+0065601AR,Styphnolobium japonicum,False,C\ Santuari,14.53,10.87,ok,,large,429226.82,4585864.27,429240.97,4585860.94,1.5,class
+0065602AR,Tipuana tipu,False,C\ Hortal,,3.0,no_kerb,,check,,,,,1.0,floor
+0065603AR,Styphnolobium japonicum,False,Rbla Carmel,,10.82,median,,check,,,,,1.0,floor
+0065604AR,Pyrus calleryana 'Chanticleer',False,Rbla Carmel,3.0,2.5,ok,,small,429652.11,4586036.73,429654.87,4586037.9,1.0,class
+0065605AR,Styphnolobium japonicum,False,C\ Dante Alighieri,3.66,2.99,ok,,medium,429330.12,4586393.57,429332.98,4586391.29,1.0,class
+0065606AR,Styphnolobium japonicum,False,C\ Llobregós,4.36,3.38,ok,,medium,429355.67,4586123.2,429358.18,4586119.63,1.0,class
+0065607AR,Celtis australis,False,C\ Lisboa,,10.41,median,4.06,check,,,,,1.0,floor
+0065609AR,Prunus cerasifera 'Pissardii',False,C\ Moratín,3.18,1.77,ok,,small,429338.52,4586322.68,429337.01,4586325.48,1.0,class
+0065610AR,Styphnolobium japonicum,False,C\ Llobregós,4.47,3.88,ok,,medium,429534.26,4586249.83,429536.85,4586246.18,1.0,class
+0065611AR,Prunus cerasifera 'Pissardii',False,C\ Lugo,3.15,2.52,ok,,small,429476.47,4586080.12,429478.18,4586077.47,1.0,class
+0065613AR,Lagunaria patersonia,False,C\ Santuari,3.09,2.15,ok,,small,429397.86,4585720.8,429395.47,4585718.83,1.0,class
+0065614AR,Melia azedarach,False,C\ Calderón de la Barca,2.8,2.28,ok,,small,429461.07,4585870.48,429460.64,4585867.72,1.0,class
+0065615AR,Cercis siliquastrum,False,C\ Calderón de la Barca,3.79,2.78,ok,,medium,429569.58,4585718.09,429565.83,4585717.5,1.0,class
+0065617AR,Catalpa bignonioides,False,Rbla Carmel,6.52,5.79,ok,,large,429660.79,4586084.47,429654.35,4586083.42,1.5,class
+0065618AR,Styphnolobium japonicum,False,Rbla Carmel,5.64,4.38,ok,,medium,429608.28,4586326.15,429613.85,4586327.02,1.0,class
+0065620AR,Styphnolobium japonicum,False,Rbla Carmel,4.99,4.1,ok,,medium,429583.79,4586487.27,429588.72,4586487.98,1.0,class
+0065621AR,Styphnolobium japonicum,False,C\ Llobregós,6.86,5.63,ok,,large,429419.37,4586145.72,429415.42,4586151.32,1.5,class
+0065622AR,Styphnolobium japonicum,False,C\ Llobregós,4.06,3.37,ok,,medium,429264.41,4586056.13,429266.85,4586052.89,1.0,class
+0065623AR,Brachychiton populneus,False,C\ Llobregós,7.81,2.45,ok,,large,429069.09,4585895.2,429064.75,4585901.69,1.5,class
+0065624AR,Styphnolobium japonicum,False,C\ Gran Vista,2.52,2.0,ok,,small,429866.16,4585747.86,429864.85,4585750.02,1.0,class
+0065625AR,Liquidambar styraciflua,False,Pl Pastrana,,2.7,no_kerb,,check,,,,,1.0,floor
+0065626AR,Styphnolobium japonicum,False,C\ Gran Vista,6.13,4.88,ok,,large,429841.3,4585733.11,429844.98,4585738.01,1.5,class
+0065627AR,Pyrus calleryana 'Chanticleer',False,C\ Gran Vista,2.49,1.84,ok,,none,429814.41,4585716.84,429813.12,4585718.97,1.0,floor
+0065628AR,Celtis australis,False,C\ Lisboa,17.66,16.84,ok,,large,429306.15,4586538.59,429293.81,4586551.22,1.5,class
+0065629AR,Prunus cerasifera 'Pissardii',False,C\ Lugo,2.78,2.31,ok,,small,429519.16,4586107.84,429520.67,4586105.51,1.0,class
+0065630AR,Styphnolobium japonicum,False,Rbla Carmel,,17.97,median,,check,,,,,1.0,floor
+0065631AR,Styphnolobium japonicum,False,C\ Llobregós,7.79,6.68,ok,,large,429597.34,4586270.95,429592.76,4586277.24,1.5,class
+0065632AR,Styphnolobium japonicum,False,Rbla Carmel,,17.31,median,,check,,,,,1.0,floor
+0065633AR,Styphnolobium japonicum,False,C\ Llobregós,4.5,3.63,ok,,medium,429341.75,4586113.27,429344.45,4586109.66,1.0,class
+0065634AR,Styphnolobium japonicum,False,C\ Ciències,,18.26,median,,check,,,,,1.0,floor
+0065635AR,Prunus cerasifera 'Pissardii',False,C\ Pedrell,2.66,1.72,ok,,small,429682.8,4586074.61,429683.59,4586072.06,1.0,class
+0065637AR,Styphnolobium japonicum,False,C\ Ciències,,17.39,median,,check,,,,,1.0,floor
+0065638AR,Ligustrum lucidum,False,C\ Fastenrath,5.79,4.95,ok,,medium,429275.81,4585940.91,429276.2,4585946.69,1.0,class
+0065639AR,Celtis australis,False,C\ Lisboa,,13.41,median,4.0,check,,,,,1.0,floor
+0065641AR,Styphnolobium japonicum,False,C\ Dante Alighieri,3.72,2.91,ok,,medium,429396.3,4586475.99,429399.19,4586473.65,1.0,class
+0065643AR,Styphnolobium japonicum,False,Rbla Carmel,,17.57,median,,check,,,,,1.0,floor
+0065644AR,Brachychiton acerifolius,False,Rbla Carmel,,29.1,median,,check,,,,,1.0,floor
+0065645AR,Brachychiton acerifolius,False,C\ Llobregós,,11.11,median,8.01,check,,,,,1.0,floor
+0065646AR,Pyrus calleryana 'Chanticleer',False,C\ Gran Vista,2.68,2.07,ok,,small,429762.28,4585699.75,429763.64,4585697.44,1.0,class
+0065647AR,Styphnolobium japonicum,False,C\ Ciències,,18.56,median,,check,,,,,1.0,floor
+0065649AR,Ligustrum lucidum,False,C\ Murtra,4.61,3.67,ok,,medium,429296.86,4585927.41,429300.35,4585930.42,1.0,class
+0065650AR,Celtis australis,False,Rbla Carmel,,10.12,median,2.51,check,,,,,1.0,floor
+0065651AR,Celtis australis,False,C\ Lisboa,21.07,20.25,ok,,large,429300.2,4586531.39,429283.96,4586544.83,1.5,class
+0065653AR,Styphnolobium japonicum,False,Rbla Carmel,5.37,4.27,ok,,medium,429599.52,4586383.21,429604.83,4586383.98,1.0,class
+0065654AR,Platanus × acerifolia,True,Jard Juan Ponce,,51.85,no_facade,,check,,,,,1.0,floor
+0065656AR,Styphnolobium japonicum,False,C\ Llobregós,,12.93,median,,check,,,,,1.0,floor
+0065657AR,Pyrus calleryana 'Chanticleer',False,C\ Dante Alighieri,5.57,4.7,ok,,medium,429240.58,4586319.98,429238.63,4586314.77,1.0,class
+0065658AR,Brachychiton acerifolius,False,Rbla Carmel,,22.28,median,,check,,,,,1.0,floor
+0065659AR,Brachychiton populneus,False,C\ Llobregós,,16.57,median,7.57,check,,,,,1.0,floor
+0065660AR,Styphnolobium japonicum,False,C\ Gran Vista,2.5,2.06,ok,,small,429870.36,4585764.31,429871.67,4585762.19,1.0,class
+0065661AR,Styphnolobium japonicum,False,C\ Gran Vista,,18.35,median,2.24,check,,,,,1.0,floor
+0065662AR,Celtis australis,False,C\ Lisboa,19.17,18.47,ok,,large,429303.97,4586535.95,429289.21,4586548.17,1.5,class
+0065663AR,Styphnolobium japonicum,False,C\ Gran Vista,2.62,1.75,ok,,small,429833.29,4585742.13,429834.64,4585739.88,1.0,class
+0065664AR,Lagunaria patersonia,False,C\ Santuari,2.79,1.99,ok,,small,429356.36,4585771.72,429354.19,4585769.96,1.0,class
+0065666AR,Brachychiton populneus,False,C\ Ciències,,22.46,median,,check,,,,,1.0,floor
+0065667AR,Cercis siliquastrum,False,C\ Calderón de la Barca,3.77,2.78,ok,,medium,429564.75,4585749.26,429561.02,4585748.68,1.0,class
+0065668AR,Ligustrum lucidum,False,C\ Segimon,3.82,3.57,ok,,medium,429433.43,4585808.27,429433.34,4585812.09,1.0,class
+0065669AR,Prunus cerasifera 'Pissardii',False,C\ Lugo,3.01,2.3,ok,,small,429405.0,4586033.54,429406.63,4586031.01,1.0,class
+0065670AR,Pyrus calleryana 'Chanticleer',False,Rbla Carmel,13.94,9.01,ok,,large,429664.44,4585956.62,429664.97,4585970.55,1.5,class
+0065671AR,Styphnolobium japonicum,False,Rbla Carmel,,11.07,median,12.76,check,,,,,1.0,floor
+0065672AR,Brachychiton acerifolius,False,C\ Ciències,,28.34,median,,check,,,,,1.0,floor
+0065673AR,Ligustrum lucidum,False,C\ Murtra,4.59,3.86,ok,,medium,429315.94,4585905.34,429319.41,4585908.34,1.0,class
+0065675AR,Ligustrum lucidum,False,C\ Segimon,3.85,3.0,ok,,medium,429452.2,4585809.73,429452.03,4585813.57,1.0,class
+0065676AR,Ligustrum lucidum,False,C\ Murtra,4.41,3.55,ok,,medium,429319.65,4585901.04,429323.0,4585903.89,1.0,class
+0065678AR,Brachychiton populneus,False,Rbla Carmel,,25.83,median,,check,,,,,1.0,floor
+0065682AR,Ligustrum lucidum,False,C\ Calderón de la Barca,6.14,5.11,ok,,large,429554.79,4585715.93,429560.86,4585716.83,1.5,class
+0065683AR,Brachychiton populneus,False,C\ Llobregós,,16.97,median,,check,,,,,1.0,floor
+0065684AR,Styphnolobium japonicum,False,C\ Llobregós,4.26,3.48,ok,,medium,429183.8,4585997.36,429186.32,4585993.93,1.0,class
+0065685AR,Brachychiton acerifolius,False,Rbla Carmel,,28.79,median,,check,,,,,1.0,floor
+0065686AR,Cercis siliquastrum,False,C\ Murtra,16.35,13.98,ok,,large,429350.24,4585866.03,429364.86,4585858.71,1.5,class
+0065687AR,Pinus pinea,False,Jard Juan Ponce,,34.27,no_facade,,check,,,,,1.0,floor
+0065688AR,Melia azedarach,False,C\ Calderón de la Barca,2.85,2.18,ok,,small,429500.9,4585871.29,429499.37,4585868.89,1.0,class
+0065689AR,Styphnolobium japonicum,False,C\ Santuari,13.64,12.77,ok,,large,429278.12,4585864.57,429267.87,4585855.56,1.5,class
+0065690AR,Cupressus sempervirens,False,Ptge Gabarnet,4.02,3.21,ok,,medium,429708.83,4586108.79,429712.63,4586110.12,1.0,class
+0065691AR,Celtis australis,False,C\ Lisboa,,23.88,median,5.53,check,,,,,1.0,floor
+0065692AR,Cercis siliquastrum,False,C\ Murtra,6.2,5.51,ok,,large,429343.38,4585874.01,429348.08,4585878.05,1.5,class
+0065693AR,Styphnolobium japonicum,False,C\ Llobregós,7.81,6.76,ok,,large,429066.83,4585893.69,429062.49,4585900.18,1.5,class
+0065695AR,Cercis siliquastrum,False,C\ Calderón de la Barca,3.18,2.47,ok,,small,429542.44,4585799.76,429539.62,4585798.3,1.0,class
+0065696AR,Ligustrum lucidum,False,C\ Murtra,4.61,3.76,ok,,medium,429312.0,4585909.9,429315.48,4585912.92,1.0,class
+0065697AR,Melia azedarach,False,C\ Calderón de la Barca,3.03,2.47,ok,,small,429519.13,4585843.4,429516.46,4585841.97,1.0,class
+0065699AR,Cercis siliquastrum,False,C\ Fastenrath,11.64,10.24,ok,,large,429205.79,4585945.88,429217.19,4585943.48,1.5,class
+0065700AR,Melia azedarach,False,Pl Pastrana,26.4,11.69,ok,,large,429458.02,4586308.8,429479.35,4586324.36,1.5,class
+0065701AR,Styphnolobium japonicum,False,Rbla Carmel,5.29,4.39,ok,,medium,429586.58,4586467.97,429591.82,4586468.73,1.0,class
+0065703AR,Styphnolobium japonicum,False,C\ Llobregós,4.23,3.44,ok,,medium,429082.71,4585927.96,429085.06,4585924.44,1.0,class
+0065704AR,Styphnolobium japonicum,False,Pg Mare de Déu del Coll,7.06,5.88,ok,,large,429062.58,4586036.82,429057.53,4586031.88,1.5,class
+0065705AR,Styphnolobium japonicum,False,Rbla Carmel,4.88,3.85,ok,,medium,429583.0,4586492.77,429587.83,4586493.47,1.0,class
+0065706AR,Styphnolobium japonicum,False,C\ Ciències,,9.56,median,8.3,check,,,,,1.0,floor
+0065707AR,Brachychiton acerifolius,False,Rbla Carmel,,25.17,median,,check,,,,,1.0,floor
+0065708AR,Styphnolobium japonicum,False,Rbla Carmel,,17.21,median,,check,,,,,1.0,floor
+0065709AR,Styphnolobium japonicum,False,C\ Llobregós,4.22,3.07,ok,,medium,429124.06,4585955.59,429126.38,4585952.07,1.0,class
+0065710AR,Celtis australis,False,C\ Lisboa,,16.74,median,3.98,check,,,,,1.0,floor
+0065712AR,Styphnolobium japonicum,False,C\ Llobregós,4.27,3.45,ok,,medium,429592.59,4586291.95,429595.1,4586288.5,1.0,class
+0065713AR,Celtis australis,False,Rbla Carmel,3.28,2.33,ok,,small,429637.37,4586134.17,429640.61,4586134.66,1.0,class
+0065714AR,Brachychiton populneus,False,Rbla Carmel,,22.06,median,,check,,,,,1.0,floor
+0065716AR,Melia azedarach,False,C\ Calderón de la Barca,2.91,2.31,ok,,small,429391.37,4586047.46,429388.76,4586046.17,1.0,class
+0065717AR,Styphnolobium japonicum,False,C\ Llobregós,4.31,3.16,ok,,medium,429435.07,4586179.85,429437.55,4586176.32,1.0,class
+0065718AR,Styphnolobium japonicum,False,C\ Ciències,,17.21,median,,check,,,,,1.0,floor
+0065719AR,Styphnolobium japonicum,False,C\ Llobregós,7.8,6.56,ok,,large,429581.26,4586259.25,429576.67,4586265.56,1.5,class
+0065720AR,Styphnolobium japonicum,False,C\ Granollers,4.06,3.31,ok,,medium,429575.46,4586414.55,429574.48,4586418.49,1.0,class
+0065721AR,Brachychiton populneus,False,C\ Llobregós,7.79,2.36,ok,,large,429598.91,4586272.09,429594.33,4586278.38,1.5,class
+0065722AR,Tipuana tipu,False,C\ Hortal,,14.49,no_kerb,29.9,check,,,,,1.0,floor
+0065723AR,Pyrus calleryana 'Chanticleer',False,Rbla Carmel,2.83,1.97,ok,,small,429669.31,4585925.83,429672.09,4585926.3,1.0,class
+0065725AR,Styphnolobium japonicum,False,Rbla Carmel,4.4,3.24,ok,,medium,429576.97,4586533.83,429581.32,4586534.48,1.0,class
+0065726AR,Cercis siliquastrum,False,C\ Farnés,2.64,1.82,ok,,small,429325.82,4586507.11,429327.62,4586505.18,1.0,class
+0065727AR,Prunus cerasifera 'Pissardii',False,C\ Argimon,7.39,5.07,ok,,large,429511.66,4586562.67,429519.01,4586561.88,1.5,class
+0065729AR,Celtis australis,False,C\ Lisboa,9.9,9.28,ok,,large,429326.66,4586563.6,429319.0,4586569.88,1.5,class
+0065730AR,Styphnolobium japonicum,False,C\ Llobregós,,8.6,median,7.77,check,,,,,1.0,floor
+0065731AR,Prunus cerasifera 'Pissardii',False,C\ Lugo,2.78,1.77,ok,,small,429622.15,4586174.9,429623.68,4586172.57,1.0,class
+0065732AR,Melia azedarach,False,Ptge Santa Teresa,8.8,4.49,ok,,large,429524.34,4586199.14,429529.37,4586191.92,1.5,class
+0065733AR,Brachychiton acerifolius,False,Rbla Carmel,,32.55,no_facade,,check,,,,,1.0,floor
+0065734AR,Cercis siliquastrum,False,C\ Murtra,3.29,2.39,ok,,small,429325.27,4585917.65,429322.81,4585915.47,1.0,class
+0065735AR,Styphnolobium japonicum,False,C\ Dante Alighieri,,14.31,median,,check,,,,,1.0,floor
+0065736AR,Celtis australis,False,C\ Lisboa,,16.54,median,23.77,check,,,,,1.0,floor
+0065738AR,Pyrus calleryana 'Chanticleer',False,C\ Gran Vista,2.82,2.0,ok,,small,429838.45,4585745.22,429840.69,4585743.53,1.0,class
+0065740AR,Quercus ilex,False,Pl Font de la Mulassa,,6.14,median,,check,,,,,1.0,floor
+0065741AR,Styphnolobium japonicum,False,C\ Santuari,2.49,1.88,ok,,none,429422.95,4585704.04,429422.46,4585701.6,1.0,floor
+0065742AR,Styphnolobium japonicum,False,C\ Ciències,,21.24,median,,check,,,,,1.0,floor
+0065743AR,Styphnolobium japonicum,False,C\ Santuari,2.72,2.24,ok,,small,429209.65,4585860.58,429210.54,4585858.01,1.0,class
+0065744AR,Cercis siliquastrum,False,C\ Murtra,4.8,3.95,ok,,medium,429397.57,4585833.65,429393.94,4585830.51,1.0,class
+0065745AR,Styphnolobium japonicum,False,C\ Gran Vista,,27.02,median,2.18,check,,,,,1.0,floor
+0065746AR,Pyrus calleryana 'Chanticleer',False,C\ Dante Alighieri,,18.87,median,,check,,,,,1.0,floor
+0065747AR,Styphnolobium japonicum,False,C\ Ciències,,12.28,median,5.64,check,,,,,1.0,floor
+0065748AR,Prunus cerasifera 'Pissardii',False,C\ Lugo,2.98,2.44,ok,,small,429584.29,4586150.2,429585.91,4586147.7,1.0,class
+0065749AR,Pyrus calleryana 'Chanticleer',False,C\ Lluís Marià Vidal,3.91,3.29,ok,,medium,429512.72,4586292.88,429516.06,4586294.91,1.0,class
+0065750AR,Populus alba 'Pyramidalis',False,Rbla Carmel,,25.05,median,,check,,,,,1.0,floor
+0065752AR,Brachychiton acerifolius,False,C\ Ciències,,30.19,no_facade,,check,,,,,1.0,floor
+0065753AR,Styphnolobium japonicum,False,Pg Mare de Déu del Coll,4.34,3.41,ok,,medium,429060.87,4586023.37,429056.62,4586024.18,1.0,class
+0065754AR,Cercis siliquastrum,False,C\ Murtra,3.1,2.23,ok,,small,429348.94,4585889.85,429346.57,4585887.84,1.0,class
+0065755AR,Celtis australis,False,C\ Lisboa,,21.39,median,4.14,check,,,,,1.0,floor
+0065756AR,Brachychiton acerifolius,False,C\ Ciències,,28.61,median,,check,,,,,1.0,floor
+0065758AR,Melia azedarach,False,Pl Pastrana,,14.79,median,7.54,check,,,,,1.0,floor
+0065759AR,Ligustrum lucidum,False,C\ Calderón de la Barca,2.82,2.3,ok,,small,429415.11,4585998.5,429412.59,4585997.24,1.0,class
+0065760AR,Prunus cerasifera 'Pissardii',False,C\ Fastenrath,4.71,3.87,ok,,medium,429092.2,4585900.08,429092.26,4585904.8,1.0,class
+0065762AR,Cercis siliquastrum,False,C\ Farnés,2.63,2.01,ok,,small,429305.56,4586488.29,429307.35,4586486.36,1.0,class
+0065764AR,Morus alba,False,C\ Alcalde de Zalamea,,6.29,no_kerb,35.47,check,,,,,1.0,floor
+0065765AR,Brachychiton populneus,False,Rbla Carmel,,24.88,median,27.05,check,,,,,1.0,floor
+0065768AR,Celtis australis,False,C\ Lisboa,,19.74,median,4.06,check,,,,,1.0,floor
+0065769AR,Styphnolobium japonicum,False,C\ Dante Alighieri,3.7,2.95,ok,,medium,429430.56,4586503.45,429432.74,4586500.46,1.0,class
+0065771AR,Pyrus calleryana 'Chanticleer',False,C\ Gran Vista,,14.14,median,2.25,check,,,,,1.0,floor
+0065773AR,Styphnolobium japonicum,False,C\ Llobregós,,12.8,median,7.58,check,,,,,1.0,floor
+0065775AR,Styphnolobium japonicum,False,C\ Gran Vista,12.39,11.43,ok,,large,429930.17,4585810.66,429938.15,4585801.19,1.5,class
+0065776AR,Styphnolobium japonicum,False,C\ Gran Vista,2.62,1.96,ok,,small,429827.52,4585738.66,429828.87,4585736.41,1.0,class
+0065777AR,Pinus pinea,False,Jard Juan Ponce,,22.07,median,22.61,check,,,,,1.0,floor
+0065778AR,Jacaranda mimosifolia,False,Camí Vell del Coll,7.74,2.37,ok,,large,429086.03,4586024.46,429086.79,4586032.16,1.5,class
+0065781AR,Styphnolobium japonicum,False,Pg Mare de Déu del Coll,2.89,2.22,ok,,small,429065.06,4586114.58,429062.17,4586114.72,1.0,class
+0065782AR,Pyrus calleryana 'Chanticleer',False,C\ Gran Vista,2.59,2.0,ok,,small,429771.95,4585705.47,429773.27,4585703.24,1.0,class
+0065783AR,Styphnolobium japonicum,False,C\ Beatriu,7.1,4.72,ok,,large,429557.89,4586689.1,429559.82,4586682.27,1.5,class
+0065785AR,Brachychiton populneus,False,C\ Llobregós,7.53,2.04,ok,,large,429482.46,4586189.08,429478.1,4586195.22,1.5,class
+0065786AR,Lagunaria patersonia,False,C\ Santuari,2.54,1.72,ok,,small,428992.57,4585769.02,428992.19,4585766.51,1.0,class
+0065789AR,Pyrus calleryana 'Chanticleer',False,Rbla Carmel,3.22,2.17,ok,,small,429626.32,4586208.95,429629.5,4586209.44,1.0,class
+0065790AR,Celtis australis,False,C\ Lisboa,15.37,14.43,ok,,large,429266.28,4586517.24,429256.68,4586529.24,1.5,class
+0065791AR,Robinia pseudoacacia,False,C\ Pedrell,2.81,1.99,ok,,small,429698.84,4586079.52,429699.66,4586076.84,1.0,class
+0065792AR,Melia azedarach,False,Pl Pastrana,23.77,18.45,ok,,large,429455.96,4586311.63,429475.16,4586325.64,1.5,class
+0065793AR,Cercis siliquastrum,False,C\ Farnés,2.64,1.94,ok,,small,429321.34,4586502.94,429323.14,4586501.01,1.0,class
+0065794AR,Styphnolobium japonicum,False,C\ Llobregós,,12.93,median,7.56,check,,,,,1.0,floor
+0065795AR,Pyrus calleryana 'Chanticleer',False,Rbla Carmel,2.98,1.97,ok,,small,429618.32,4586262.98,429621.27,4586263.41,1.0,class
+0065796AR,Tipuana tipu,False,C\ Hortal,,13.05,no_kerb,,check,,,,,1.0,floor
+0065797AR,Styphnolobium japonicum,False,C\ Llobregós,7.7,6.81,ok,,large,429540.66,4586229.82,429536.22,4586236.12,1.5,class
+0065798AR,Celtis australis,False,C\ Lisboa,,20.75,median,20.47,check,,,,,1.0,floor
+0065799AR,Styphnolobium japonicum,False,Ptge Calafell,,3.38,no_kerb,,check,,,,,1.0,floor
+0065800AR,Pyrus calleryana 'Chanticleer',False,C\ Gran Vista,2.5,1.84,ok,,small,429735.33,4585683.39,429736.65,4585681.26,1.0,class
+0065801AR,Prunus cerasifera 'Pissardii',False,C\ Lugo,2.71,1.9,ok,,small,429607.33,4586165.19,429608.82,4586162.92,1.0,class
+0065802AR,Styphnolobium japonicum,False,Rbla Carmel,5.44,4.49,ok,,medium,429588.95,4586451.64,429594.34,4586452.43,1.0,class
+0065803AR,Platanus × acerifolia,True,Jard Juan Ponce,,33.3,no_facade,,check,,,,,1.0,floor
+0065804AR,Ligustrum lucidum,False,C\ Calderón de la Barca,5.8,5.25,ok,,medium,429562.78,4585662.96,429568.55,4585663.57,1.0,class
+0065805AR,Styphnolobium japonicum,False,C\ Gran Vista,2.06,1.46,ok,,none,429613.79,4585597.26,429612.71,4585599.02,1.0,floor
+0065806AR,Brachychiton acerifolius,False,C\ Ciències,,28.73,median,,check,,,,,1.0,floor
+0065807AR,Styphnolobium japonicum,False,C\ Gran Vista,2.28,1.56,ok,,none,429600.43,4585589.07,429599.23,4585591.01,1.0,floor
+0065808AR,Styphnolobium japonicum,False,C\ Llobregós,4.33,3.39,ok,,medium,429429.03,4586175.59,429431.53,4586172.05,1.0,class
+0065809AR,Prunus cerasifera 'Pissardii',False,C\ Lugo,2.86,2.15,ok,,small,429543.56,4586123.58,429545.14,4586121.2,1.0,class
+0065810AR,Styphnolobium japonicum,False,C\ Llobregós,4.27,3.42,ok,,medium,429178.57,4585993.57,429181.06,4585990.1,1.0,class
+0065811AR,Brachychiton populneus,False,C\ Llobregós,7.69,3.11,ok,,large,429537.51,4586227.6,429533.08,4586233.89,1.5,class
+0065812AR,Styphnolobium japonicum,False,Pg Mare de Déu del Coll,5.12,4.4,ok,,medium,429124.65,4586240.68,429120.87,4586244.14,1.0,class
+0065813AR,Cupressus sempervirens,False,Ptge Gabarnet,3.79,3.11,ok,,medium,429713.61,4586095.09,429717.19,4586096.33,1.0,class
+0065814AR,Styphnolobium japonicum,False,Rbla Carmel,,17.65,median,,check,,,,,1.0,floor
+0065815AR,Celtis australis,False,C\ Lisboa,,20.99,median,18.85,check,,,,,1.0,floor
+0065816AR,Styphnolobium japonicum,False,C\ Llobregós,4.16,3.1,ok,,medium,429129.01,4585958.86,429131.3,4585955.39,1.0,class
+0065817AR,Styphnolobium japonicum,False,C\ Llobregós,4.96,3.95,ok,,medium,429295.87,4586079.54,429296.28,4586074.6,1.0,class
+0065818AR,Melia azedarach,False,C\ Calderón de la Barca,2.79,2.35,ok,,small,429410.69,4586007.3,429408.2,4586006.05,1.0,class
+0065819AR,Brachychiton populneus,False,C\ Llobregós,,8.81,median,7.81,check,,,,,1.0,floor
+0065820AR,Styphnolobium japonicum,False,C\ Gran Vista,8.35,6.4,ok,,large,429861.52,4585745.04,429853.41,4585743.04,1.5,class
+0065821AR,Ligustrum lucidum,False,C\ Calderón de la Barca,6.15,5.33,ok,,large,429555.7,4585709.77,429561.79,4585710.67,1.5,class
+0065822AR,Styphnolobium japonicum,False,C\ Granollers,4.05,2.96,ok,,medium,429540.6,4586405.89,429539.61,4586409.83,1.0,class
+0065823AR,Styphnolobium japonicum,False,C\ Llobregós,4.32,3.58,ok,,medium,429164.01,4585983.03,429166.56,4585979.54,1.0,class
+0065824AR,Ligustrum lucidum,False,C\ Segimon,4.44,3.9,ok,,medium,429526.77,4585792.37,429529.81,4585795.62,1.0,class
+0065825AR,Platanus × acerifolia,True,Jard Juan Ponce,,16.37,median,,check,,,,,1.0,floor
+0065827AR,Styphnolobium japonicum,False,Rbla Carmel,3.18,2.0,ok,,small,429623.62,4586226.8,429626.76,4586227.28,1.0,class
+0065829AR,Styphnolobium japonicum,False,C\ Dante Alighieri,3.64,2.91,ok,,medium,429326.61,4586389.17,429329.45,4586386.89,1.0,class
+0065830AR,Brachychiton populneus,False,C\ Llobregós,7.53,3.23,ok,,large,429500.77,4586201.98,429496.62,4586208.27,1.5,class
+0065831AR,Cercis siliquastrum,False,C\ Segimon,4.94,4.17,ok,,medium,429514.44,4585813.76,429513.22,4585808.97,1.0,class
+0065833AR,Styphnolobium japonicum,False,C\ Llobregós,4.21,3.44,ok,,medium,429273.97,4586063.34,429276.51,4586059.98,1.0,class
+0065834AR,Styphnolobium japonicum,False,Rbla Carmel,3.33,2.37,ok,,small,429629.02,4586191.18,429632.31,4586191.68,1.0,class
+0065835AR,Celtis australis,False,C\ Lisboa,,23.02,median,4.06,check,,,,,1.0,floor
+0065837AR,Brachychiton acerifolius,False,C\ Ciències,,34.52,no_facade,,check,,,,,1.0,floor
+0065839AR,Brachychiton populneus,False,C\ Fastenrath,7.91,4.14,ok,,large,429076.44,4585899.5,429075.03,4585907.28,1.5,class
+0065840AR,Ligustrum lucidum,False,C\ Calderón de la Barca,5.46,4.73,ok,,medium,429536.74,4585780.3,429541.52,4585782.93,1.0,class
+0065841AR,Styphnolobium japonicum,False,C\ Llobregós,,12.79,median,,check,,,,,1.0,floor
+0065842AR,Cercis siliquastrum,False,C\ Calderón de la Barca,3.83,2.87,ok,,medium,429563.87,4585754.93,429560.09,4585754.34,1.0,class
+0065843AR,Melia azedarach,False,Pl Pastrana,,20.62,median,,check,,,,,1.0,floor
+0065845AR,Styphnolobium japonicum,False,C\ Llobregós,,12.76,median,7.59,check,,,,,1.0,floor
+0065846AR,Cercis siliquastrum,False,C\ Calderón de la Barca,3.74,2.7,ok,,medium,429571.38,4585706.43,429567.69,4585705.86,1.0,class
+0065847AR,Brachychiton acerifolius,False,Pl Pastrana,,5.95,median,,check,,,,,1.0,floor
+0065849AR,Styphnolobium japonicum,False,C\ Llobregós,,12.65,median,,check,,,,,1.0,floor
+0065850AR,Brachychiton acerifolius,False,C\ Llobregós,,14.9,median,8.63,check,,,,,1.0,floor
+0065851AR,Styphnolobium japonicum,False,C\ Ciències,,19.04,median,,check,,,,,1.0,floor
+0065852AR,Cercis siliquastrum,False,C\ Murtra,3.89,3.1,ok,,medium,429375.72,4585837.01,429378.66,4585839.56,1.0,class
+0065853AR,Brachychiton populneus,False,C\ Llobregós,7.69,2.99,ok,,large,429467.51,4586178.49,429463.07,4586184.78,1.5,class
+0065855AR,Styphnolobium japonicum,False,C\ Gran Vista,5.83,4.67,ok,,medium,429592.08,4585580.72,429586.75,4585583.08,1.0,class
+0065856AR,Ligustrum lucidum,False,C\ Calderón de la Barca,3.01,2.41,ok,,small,429426.17,4585910.99,429423.5,4585909.59,1.0,class
+0065857AR,Styphnolobium japonicum,False,C\ Llobregós,,12.87,median,26.08,check,,,,,1.0,floor
+0065859AR,Celtis australis,False,C\ Lisboa,,24.43,median,4.1,check,,,,,1.0,floor
+0065860AR,Morus alba,False,C\ Alcalde de Zalamea,,6.11,no_kerb,35.41,check,,,,,1.0,floor
+0065862AR,Pyrus calleryana 'Chanticleer',False,Rbla Carmel,2.81,2.09,ok,,small,429646.47,4586073.85,429649.24,4586074.28,1.0,class
+0065863AR,Brachychiton populneus,False,C\ Ciències,,22.48,median,,check,,,,,1.0,floor
+0065864AR,Styphnolobium japonicum,False,Pg Mare de Déu del Coll,,9.67,median,11.59,check,,,,,1.0,floor
+0065866AR,Brachychiton acerifolius,False,Rbla Carmel,,24.49,median,22.67,check,,,,,1.0,floor
+0065867AR,Prunus cerasifera 'Pissardii',False,C\ Lugo,2.75,1.94,ok,,small,429602.49,4586162.01,429604.0,4586159.71,1.0,class
+0065868AR,Celtis australis,False,C\ Lisboa,,13.04,median,18.07,check,,,,,1.0,floor
+0065870AR,Brachychiton acerifolius,False,Pl Pastrana,,6.16,no_kerb,,check,,,,,1.0,floor
+0065871AR,Ligustrum lucidum,False,Bda Passerell,,3.12,no_kerb,,check,,,,,1.0,floor
+0065872AR,Celtis australis,False,C\ Lisboa,,27.44,median,4.08,check,,,,,1.0,floor
+0065873AR,Brachychiton populneus,False,Ctra Carmel,,15.54,median,8.39,check,,,,,1.0,floor
+0065874AR,Parrotia persica 'Vanessa',False,C\ Santuari,2.64,1.83,ok,,small,429405.59,4585712.39,429403.92,4585710.35,1.0,class
+0065875AR,Prunus cerasifera 'Pissardii',False,C\ Fastenrath,,11.77,median,4.04,check,,,,,1.0,floor
+0065876AR,Brachychiton acerifolius,False,Pl Pastrana,,5.96,median,19.16,check,,,,,1.0,floor
+0065877AR,Brachychiton populneus,False,C\ Ciències,,22.86,median,,check,,,,,1.0,floor
+0065879AR,Melia azedarach,False,C\ Calderón de la Barca,2.74,2.24,ok,,small,429473.84,4585871.95,429474.23,4585869.25,1.0,class
+0065880AR,Pyrus calleryana 'Chanticleer',False,Ptge Andalet,24.75,11.94,ok,,large,429297.19,4586527.76,429275.46,4586539.62,1.5,class
+0065881AR,Styphnolobium japonicum,False,C\ Llobregós,4.17,3.45,ok,,medium,429588.27,4586288.81,429590.73,4586285.43,1.0,class
+0065882AR,Melia azedarach,False,Pl Pastrana,,15.43,no_kerb,28.86,check,,,,,1.0,floor
+0065883AR,Tilia x euchlora,False,C\ Santa Otília,,3.42,no_kerb,,check,,,,,1.0,floor
+0065885AR,Tipuana tipu,False,C\ Hortal,,20.79,no_kerb,33.86,check,,,,,1.0,floor
+0065886AR,Ligustrum lucidum,False,C\ Segimon,3.24,2.98,ok,,small,429521.18,4585796.48,429522.67,4585799.35,1.0,class
+0065887AR,Cercis siliquastrum,False,C\ Segimon,4.48,3.39,ok,,medium,429418.04,4585821.28,429417.85,4585816.81,1.0,class
+0065888AR,Cercis siliquastrum,False,C\ Santuari,2.55,1.83,ok,,small,428987.07,4585769.87,428986.68,4585767.35,1.0,class
+0065889AR,Styphnolobium japonicum,False,Rbla Carmel,,17.5,median,30.41,check,,,,,1.0,floor
+0065890AR,Cercis siliquastrum,False,C\ Murtra,3.21,2.11,ok,,small,429301.75,4585944.7,429299.31,4585942.6,1.0,class
+0065891AR,Melia azedarach,False,Pl Pastrana,,12.2,no_kerb,,check,,,,,1.0,floor
+0065894AR,Styphnolobium japonicum,False,Rbla Carmel,,10.91,median,,check,,,,,1.0,floor
+0065895AR,Styphnolobium japonicum,False,C\ Llobregós,7.66,6.89,ok,,large,429470.38,4586180.52,429465.97,4586186.78,1.5,class
+0065896AR,Pyrus calleryana 'Chanticleer',False,Rbla Carmel,,11.54,median,,check,,,,,1.0,floor
+0065898AR,Melia azedarach,False,Pl Pastrana,,18.65,no_kerb,22.6,check,,,,,1.0,floor
+0065899AR,Prunus cerasifera 'Pissardii',False,C\ Lugo,2.99,2.41,ok,,small,429409.24,4586036.26,429410.86,4586033.75,1.0,class
+0065901AR,Styphnolobium japonicum,False,C\ Dante Alighieri,,10.04,median,,check,,,,,1.0,floor
+0065903AR,Styphnolobium japonicum,False,C\ Llobregós,7.72,6.61,ok,,large,429545.42,4586233.18,429540.97,4586239.49,1.5,class
+0065904AR,Styphnolobium japonicum,False,C\ Granollers,4.1,3.28,ok,,medium,429588.97,4586417.87,429588.0,4586421.85,1.0,class
+0065905AR,Morus alba,False,C\ Alcalde de Zalamea,,1.88,no_kerb,34.76,check,,,,,1.0,floor
+0065907AR,Ligustrum lucidum,False,C\ Calderón de la Barca,6.12,5.12,ok,,large,429553.9,4585721.95,429559.96,4585722.83,1.5,class
+0065910AR,Brachychiton populneus,False,Rbla Carmel,,33.42,no_facade,,check,,,,,1.0,floor
+0065913AR,Brachychiton acerifolius,False,Rbla Carmel,,29.57,median,,check,,,,,1.0,floor
+0065914AR,Cupressus sempervirens,False,Ptge Gabarnet,4.14,3.34,ok,,medium,429706.32,4586116.0,429710.24,4586117.36,1.0,class
+0065915AR,Pyrus calleryana 'Chanticleer',False,Rbla Carmel,2.88,1.88,ok,,small,429665.61,4585949.06,429668.46,4585949.5,1.0,class
+0065916AR,Styphnolobium japonicum,False,C\ Gran Vista,4.25,3.75,ok,,medium,429849.57,4585753.68,429852.36,4585750.47,1.0,class
+0065918AR,Styphnolobium japonicum,False,C\ Llobregós,4.28,3.4,ok,,medium,429189.72,4586001.71,429192.25,4585998.26,1.0,class
+0065919AR,Styphnolobium japonicum,False,C\ Beatriu,3.89,3.02,ok,,medium,429558.22,4586634.27,429562.04,4586635.03,1.0,class
+0065920AR,Melia azedarach,False,C\ Calderón de la Barca,3.03,2.52,ok,,small,429371.32,4586088.02,429368.6,4586086.67,1.0,class
+0065923AR,Styphnolobium japonicum,False,C\ Santuari,2.48,1.8,ok,,none,429464.89,4585708.99,429465.08,4585706.52,1.0,floor
+0065926AR,Jacaranda mimosifolia,False,Camí Vell del Coll,12.74,3.27,ok,,large,429091.4,4586049.28,429086.5,4586037.52,1.5,class
+0065927AR,Prunus cerasifera 'Pissardii',False,C\ Fastenrath,,12.21,median,4.05,check,,,,,1.0,floor
+0065928AR,Brachychiton acerifolius,False,C\ Ciències,,21.96,median,,check,,,,,1.0,floor
+0065930AR,Cercis siliquastrum,False,C\ Murtra,3.62,2.7,ok,,medium,429298.13,4585948.91,429295.38,4585946.55,1.0,class
+0065931AR,Pinus pinea,False,Jard Juan Ponce,,29.1,median,21.56,check,,,,,1.0,floor
+0065932AR,Styphnolobium japonicum,False,C\ Llobregós,4.25,3.54,ok,,medium,429597.03,4586295.19,429599.53,4586291.75,1.0,class
+0065934AR,Styphnolobium japonicum,False,C\ Ciències,,17.59,median,,check,,,,,1.0,floor
+0065935AR,Brachychiton populneus,False,Rbla Carmel,,26.58,median,,check,,,,,1.0,floor
+0065936AR,Cercis siliquastrum,False,C\ Murtra,3.17,2.45,ok,,small,429305.7,4585940.09,429303.3,4585938.03,1.0,class
+0065937AR,Populus alba 'Pyramidalis',False,C\ Ciències,,22.93,median,,check,,,,,1.0,floor
+0065938AR,Brachychiton populneus,False,C\ Llobregós,7.7,3.33,ok,,large,429511.93,4586209.57,429507.49,4586215.86,1.5,class
+0065939AR,Styphnolobium japonicum,False,C\ Ciències,3.29,4.0,ok,,small,429643.31,4586538.83,429643.86,4586535.59,1.0,class
+0065941AR,Brachychiton acerifolius,False,C\ Llobregós,,11.02,median,6.79,check,,,,,1.0,floor
+0065942AR,Pyrus calleryana 'Chanticleer',False,C\ Dante Alighieri,3.11,2.46,ok,,small,429253.15,4586325.4,429254.61,4586322.66,1.0,class
+0065943AR,Melia azedarach,False,Ptge Santa Teresa,9.41,5.13,ok,,large,429531.78,4586204.33,429537.17,4586196.61,1.5,class
+0065944AR,Populus alba 'Pyramidalis',False,C\ Ciències,,28.39,median,,check,,,,,1.0,floor
+0065945AR,Cercis siliquastrum,False,C\ Calderón de la Barca,3.06,2.32,ok,,small,429547.35,4585790.11,429544.62,4585788.72,1.0,class
+0065946AR,Ligustrum lucidum,False,C\ Segimon,3.69,3.04,ok,,medium,429481.3,4585807.96,429481.95,4585811.59,1.0,class
+0065947AR,Brachychiton populneus,False,C\ Ciències,,30.28,no_facade,,check,,,,,1.0,floor
+0065948AR,Prunus cerasifera 'Pissardii',False,C\ Lugo,2.91,2.14,ok,,small,429421.26,4586043.98,429422.83,4586041.54,1.0,class
+0065949AR,Melia azedarach,False,C\ Calderón de la Barca,2.68,2.12,ok,,small,429405.95,4586016.75,429403.56,4586015.55,1.0,class
+0065951AR,Styphnolobium japonicum,False,C\ Gran Vista,13.24,10.63,ok,,large,429861.52,4585745.04,429849.09,4585740.47,1.5,class
+0065952AR,Platanus × acerifolia,True,Jard Juan Ponce,,38.83,no_facade,,check,,,,,1.0,floor
+0065953AR,Styphnolobium japonicum,False,Rbla Carmel,2.91,2.22,ok,,small,429657.98,4585996.57,429660.86,4585996.99,1.0,class
+0065954AR,Lagunaria patersonia,False,C\ Santuari,2.7,1.94,ok,,small,429225.38,4585864.01,429225.86,4585861.35,1.0,class
+0065955AR,Brachychiton populneus,False,C\ Llobregós,7.68,2.99,ok,,large,429532.48,4586224.06,429528.06,4586230.33,1.5,class
+0065956AR,Styphnolobium japonicum,False,Rbla Carmel,,17.1,median,,check,,,,,1.0,floor
+0065957AR,Cercis siliquastrum,False,C\ Santuari,2.55,1.82,ok,,small,428980.44,4585770.89,428980.07,4585768.36,1.0,class
+0065958AR,Styphnolobium japonicum,False,Rbla Carmel,,17.22,median,,check,,,,,1.0,floor
+0065959AR,Cercis siliquastrum,False,C\ Farnés,11.59,7.79,ok,,large,429286.74,4586471.0,429296.74,4586476.84,1.5,class
+0065960AR,Styphnolobium japonicum,False,C\ Llobregós,4.27,3.41,ok,,medium,429194.44,4586005.18,429196.97,4586001.74,1.0,class
+0065961AR,Prunus cerasifera 'Pissardii',False,C\ Fastenrath,4.86,4.46,ok,,medium,429171.13,4585933.61,429174.51,4585930.11,1.0,class
+0065963AR,Cercis siliquastrum,False,C\ Murtra,2.99,2.33,ok,,small,429313.81,4585930.7,429311.55,4585928.74,1.0,class
+0065964AR,Cercis siliquastrum,False,C\ Santuari,2.53,1.84,ok,,small,429006.22,4585766.92,429005.84,4585764.42,1.0,class
+0065966AR,Styphnolobium japonicum,False,C\ Dante Alighieri,3.91,3.2,ok,,medium,429380.58,4586456.58,429383.62,4586454.12,1.0,class
+0065967AR,Celtis australis,False,C\ Lisboa,,14.04,median,12.0,check,,,,,1.0,floor
+0065968AR,Styphnolobium japonicum,False,C\ Gran Vista,2.43,1.89,ok,,none,429725.02,4585677.1,429726.28,4585675.03,1.0,floor
+0065969AR,Brachychiton populneus,False,C\ Llobregós,,17.29,median,7.58,check,,,,,1.0,floor
+0065970AR,Celtis australis,False,C\ Lisboa,,19.8,median,18.54,check,,,,,1.0,floor
+0065971AR,Celtis australis,False,C\ Lisboa,6.79,5.4,ok,,large,429546.27,4586704.69,429540.77,4586708.68,1.5,class
+0065972AR,Cercis siliquastrum,False,C\ Fastenrath,5.02,4.12,ok,,medium,429046.6,4585932.88,429044.01,4585928.57,1.0,class
+0065973AR,Styphnolobium japonicum,False,C\ Santuari,,13.57,median,4.43,check,,,,,1.0,floor
+0065974AR,Cercis siliquastrum,False,C\ Murtra,9.97,8.78,ok,,large,429350.24,4585866.03,429360.04,4585864.25,1.5,class
+0065975AR,Pyrus calleryana 'Chanticleer',False,C\ Gran Vista,2.67,2.25,ok,,small,429756.34,4585696.19,429757.73,4585693.91,1.0,class
+0065976AR,Cercis siliquastrum,False,C\ Calderón de la Barca,3.86,3.03,ok,,medium,429566.69,4585736.74,429562.88,4585736.15,1.0,class
+0065977AR,Styphnolobium japonicum,False,C\ Santuari,4.92,2.5,ok,,medium,429188.68,4585848.3,429191.83,4585844.52,1.0,class
+0065979AR,Platanus × acerifolia,True,Jard Juan Ponce,,34.88,no_facade,,check,,,,,1.0,floor
+0065980AR,Tilia x euchlora,False,C\ Santa Otília,,3.86,no_kerb,,check,,,,,1.0,floor
+0065982AR,Prunus cerasifera 'Pissardii',False,C\ Moratín,3.24,1.8,ok,,small,429324.71,4586315.21,429323.14,4586318.05,1.0,class
+0065983AR,Brachychiton populneus,False,C\ Llobregós,,8.89,median,7.57,check,,,,,1.0,floor
+0065984AR,Melia azedarach,False,Ptge Santa Teresa,,4.52,no_kerb,33.23,check,,,,,1.0,floor
+0065986AR,Ligustrum lucidum,False,C\ Calderón de la Barca,5.9,4.9,ok,,medium,429541.97,4585770.34,429547.27,4585772.94,1.0,class
+0065987AR,Brachychiton populneus,False,Rbla Carmel,,22.09,median,,check,,,,,1.0,floor
+0065990AR,Lagunaria patersonia,False,C\ Santuari,3.0,2.13,ok,,small,429323.33,4585812.24,429321.01,4585810.34,1.0,class
+0065991AR,Styphnolobium japonicum,False,C\ Beatriu,3.6,2.6,ok,,medium,429564.49,4586604.22,429568.02,4586604.93,1.0,class
+0065992AR,Styphnolobium japonicum,False,C\ Llobregós,4.26,3.45,ok,,medium,429215.82,4586020.76,429218.32,4586017.31,1.0,class
+0065993AR,Brachychiton populneus,False,C\ Llobregós,,8.77,median,7.81,check,,,,,1.0,floor
+0065994AR,Styphnolobium japonicum,False,Rbla Carmel,3.18,1.98,ok,,small,429624.56,4586220.61,429627.7,4586221.09,1.0,class
+0065995AR,Styphnolobium japonicum,False,C\ Dante Alighieri,3.87,3.01,ok,,medium,429373.42,4586447.61,429376.45,4586445.21,1.0,class
+0065998AR,Tipuana tipu,False,C\ Hortal,,3.06,no_kerb,,check,,,,,1.0,floor
+0065999AR,Brachychiton acerifolius,False,C\ Ciències,,28.78,median,,check,,,,,1.0,floor
+0066000AR,Styphnolobium japonicum,False,C\ Dante Alighieri,3.19,2.47,ok,,small,429266.79,4586334.07,429268.52,4586331.4,1.0,class
+0066001AR,Styphnolobium japonicum,False,C\ Granollers,4.03,3.11,ok,,medium,429554.33,4586409.33,429553.35,4586413.24,1.0,class
+0066002AR,Styphnolobium japonicum,False,C\ Llobregós,4.43,3.88,ok,,medium,429528.71,4586245.89,429531.27,4586242.28,1.0,class
+0066005AR,Brachychiton populneus,False,C\ Llobregós,7.79,2.56,ok,,large,429588.78,4586264.72,429584.2,4586271.02,1.5,class
+0066006AR,Styphnolobium japonicum,False,C\ Dante Alighieri,3.71,2.63,ok,,medium,429503.01,4586548.65,429504.72,4586545.36,1.0,class
+0066007AR,Brachychiton populneus,False,Rbla Carmel,,27.1,median,,check,,,,,1.0,floor
+0066008AR,Ligustrum lucidum,False,C\ Calderón de la Barca,6.2,5.23,ok,,large,429553.03,4585727.13,429559.15,4585728.16,1.5,class
+0066009AR,Ulmus pumila,False,C\ Doctor Bové,5.73,4.39,ok,,medium,429720.8,4585687.33,429717.83,4585692.22,1.0,class
+0066010AR,Ligustrum lucidum,False,Camí Vell del Coll,6.95,4.67,ok,,large,429124.16,4586101.86,429119.23,4586096.96,1.5,class
+0066011AR,Styphnolobium japonicum,False,C\ Llobregós,4.43,3.17,ok,,medium,429468.45,4586203.4,429471.01,4586199.78,1.0,class
+0066012AR,Brachychiton populneus,False,C\ Ciències,,22.61,median,,check,,,,,1.0,floor
+0066013AR,Styphnolobium japonicum,False,C\ Llobregós,7.29,6.37,ok,,large,429493.28,4586197.04,429489.26,4586203.13,1.5,class
+0066014AR,Styphnolobium japonicum,False,Rbla Carmel,5.22,4.21,ok,,medium,429585.58,4586474.9,429590.74,4586475.65,1.0,class
+0066015AR,Styphnolobium japonicum,False,C\ Llobregós,4.38,3.85,ok,,medium,429575.2,4586279.28,429577.79,4586275.75,1.0,class
+0066016AR,Brachychiton populneus,False,C\ Llobregós,,11.23,median,7.62,check,,,,,1.0,floor
+0066017AR,Styphnolobium japonicum,False,C\ Beatriu,5.77,2.46,ok,,medium,429567.78,4586587.89,429573.55,4586587.82,1.0,class
+0066018AR,Celtis australis,False,C\ Lisboa,4.33,3.65,ok,,medium,429162.39,4586469.83,429158.06,4586469.98,1.0,class
+0066019AR,Styphnolobium japonicum,False,C\ Gran Vista,5.62,5.03,ok,,medium,429886.54,4585777.59,429889.4,4585772.75,1.0,class
+0066020AR,Cercis siliquastrum,False,C\ Murtra,6.22,5.39,ok,,large,429347.13,4585869.65,429351.84,4585873.7,1.5,class
+0066021AR,Platanus × acerifolia,True,Pg Font de la Mulassa,,11.22,median,,check,,,,,1.0,floor
+0066022AR,Prunus cerasifera 'Pissardii',False,C\ Lugo,2.89,2.31,ok,,small,429529.12,4586114.31,429530.7,4586111.88,1.0,class
+0066023AR,Styphnolobium japonicum,False,C\ Llobregós,7.86,6.91,ok,,large,429311.47,4586066.37,429306.73,4586072.64,1.5,class
+0066024AR,Celtis australis,False,C\ Lisboa,,22.03,median,18.93,check,,,,,1.0,floor
+0066025AR,Ligustrum lucidum,False,C\ Fastenrath,6.62,5.49,ok,,large,429208.65,4585931.21,429210.13,4585937.67,1.5,class
+0066027AR,Styphnolobium japonicum,False,C\ Llobregós,4.26,3.52,ok,,medium,429199.72,4586009.06,429202.24,4586005.62,1.0,class
+0066028AR,Styphnolobium japonicum,False,C\ Gran Vista,4.23,3.01,ok,,medium,429796.65,4585720.1,429800.86,4585719.76,1.0,class
+0066030AR,Cercis siliquastrum,False,C\ Fastenrath,6.97,5.6,ok,,large,429273.81,4585959.3,429278.36,4585954.01,1.5,class
+0066031AR,Styphnolobium japonicum,False,C\ Llobregós,7.45,6.68,ok,,large,429498.17,4586200.27,429494.07,4586206.49,1.5,class
+0066032AR,Styphnolobium japonicum,False,C\ Gran Vista,5.42,4.87,ok,,medium,429909.16,4585790.97,429911.05,4585785.89,1.0,class
+0066034AR,Cercis siliquastrum,False,C\ Calderón de la Barca,3.57,2.54,ok,,medium,429574.82,4585683.35,429571.29,4585682.8,1.0,class
+0066035AR,Styphnolobium japonicum,False,C\ Llobregós,4.19,3.45,ok,,medium,429087.97,4585931.46,429090.29,4585927.97,1.0,class
+0066037AR,Styphnolobium japonicum,False,Rbla Carmel,5.46,4.42,ok,,medium,429589.82,4586446.0,429595.21,4586446.84,1.0,class
+0066038AR,Brachychiton acerifolius,False,Rbla Carmel,,22.48,median,,check,,,,,1.0,floor
+0066039AR,Acacia retinodes,False,Pl Pastrana,,11.65,no_kerb,,check,,,,,1.0,floor
+0066040AR,Styphnolobium japonicum,False,C\ Dante Alighieri,3.67,3.08,ok,,medium,429323.17,4586384.87,429326.04,4586382.58,1.0,class
+0066041AR,Styphnolobium japonicum,False,C\ Dante Alighieri,3.3,2.55,ok,,small,429262.04,4586331.01,429263.83,4586328.24,1.0,class
+0066042AR,Celtis australis,False,C\ Lisboa,23.35,22.56,ok,,large,429297.19,4586527.76,429278.07,4586541.15,1.5,class
+0066044AR,Styphnolobium japonicum,False,C\ Llobregós,4.16,3.21,ok,,medium,429092.99,4585934.81,429095.3,4585931.34,1.0,class
+0066045AR,Ligustrum lucidum,False,C\ Calderón de la Barca,4.99,4.22,ok,,medium,429534.12,4585784.61,429538.2,4585787.49,1.0,class
+0066046AR,Tipuana tipu,False,Esc Floresta,,2.05,no_kerb,,check,,,,,1.0,floor
+0066049AR,Firmiana simplex,False,C\ Gran Vista,,11.85,median,,check,,,,,1.0,floor
+0066050AR,Styphnolobium japonicum,False,C\ Llobregós,4.21,3.42,ok,,medium,429108.49,4585945.13,429110.82,4585941.63,1.0,class
+0066051AR,Ligustrum lucidum,False,C\ Calderón de la Barca,6.04,5.1,ok,,large,429546.81,4585760.48,429552.23,4585763.14,1.5,class
+0066052AR,Platanus × acerifolia,True,Jard Juan Ponce,,47.15,no_facade,,check,,,,,1.0,floor
+0066053AR,Tipuana tipu,False,C\ Hortal,,9.43,no_kerb,,check,,,,,1.0,floor
+0066054AR,Styphnolobium japonicum,False,C\ Gran Vista,2.15,1.74,ok,,none,429684.48,4585652.79,429685.58,4585650.95,1.0,floor
+0066055AR,Styphnolobium japonicum,False,Pg Mare de Déu del Coll,4.61,3.65,ok,,medium,429062.62,4586037.9,429058.02,4586038.08,1.0,class
+0066057AR,Prunus cerasifera 'Pissardii',False,C\ Fastenrath,3.43,3.0,ok,,small,429149.16,4585923.24,429150.13,4585919.95,1.0,class
+0066058AR,Celtis australis,False,Rbla Carmel,8.3,7.26,ok,,large,429661.72,4586078.74,429656.01,4586072.71,1.5,class
+0066059AR,Styphnolobium japonicum,False,Pg Mare de Déu del Coll,,17.22,median,,check,,,,,1.0,floor
+0066060AR,Styphnolobium japonicum,False,Rbla Carmel,,17.67,median,,check,,,,,1.0,floor
+0066061AR,Celtis australis,False,C\ Lisboa,,12.55,median,9.28,check,,,,,1.0,floor
+0066063AR,Citrus × aurantium,False,C\ Sacedón,4.05,2.94,ok,,medium,429383.29,4586388.72,429386.54,4586391.14,1.0,class
+0066064AR,Melia azedarach,False,C\ Calderón de la Barca,2.75,2.17,ok,,small,429408.4,4586011.87,429405.94,4586010.63,1.0,class
+0066065AR,Pinus pinea,False,Jard Juan Ponce,,25.37,median,,check,,,,,1.0,floor
+0066066AR,Platanus × acerifolia,True,Jard Juan Ponce,16.37,17.34,ok,,large,429455.65,4585495.6,429466.21,4585483.09,1.5,class
+0066067AR,Parrotia persica 'Vanessa',False,C\ Santuari,3.49,2.83,ok,,small,429471.02,4585710.19,429470.81,4585706.71,1.0,class
+0066068AR,Cercis siliquastrum,False,C\ Murtra,7.01,5.88,ok,,large,429362.08,4585874.36,429361.79,4585867.36,1.5,class
+0066069AR,Populus alba 'Pyramidalis',False,C\ Ciències,,29.34,median,,check,,,,,1.0,floor
+0066070AR,Styphnolobium japonicum,False,C\ Gran Vista,2.48,1.8,ok,,none,429809.09,4585713.63,429807.81,4585715.76,1.0,floor
+0066071AR,Brachychiton populneus,False,C\ Ciències,,22.31,median,,check,,,,,1.0,floor
+0066072AR,Brachychiton populneus,False,Rbla Carmel,,22.55,median,30.94,check,,,,,1.0,floor
+0066073AR,Styphnolobium japonicum,False,C\ Gran Vista,2.58,1.98,ok,,small,429740.34,4585686.49,429741.7,4585684.3,1.0,class
+0066074AR,Acacia dealbata,False,Pl Pastrana,26.24,7.27,ok,,large,429457.89,4586308.98,429479.09,4586324.44,1.5,class
+0066075AR,Styphnolobium japonicum,False,C\ Llobregós,4.06,3.27,ok,,medium,429259.31,4586052.4,429261.7,4586049.11,1.0,class
+0066076AR,Cercis siliquastrum,False,C\ Murtra,4.61,3.42,ok,,medium,429411.67,4585822.05,429410.43,4585817.61,1.0,class
+0066077AR,Brachychiton populneus,False,Rbla Carmel,,21.98,median,,check,,,,,1.0,floor
+0066078AR,Prunus cerasifera 'Pissardii',False,C\ Fastenrath,4.22,3.41,ok,,medium,429184.47,4585938.8,429185.81,4585934.79,1.0,class
+0066079AR,Morus alba,False,C\ Alcalde de Zalamea,22.22,6.44,ok,,large,429574.26,4585810.96,429552.52,4585815.51,1.5,class
+0066080AR,Styphnolobium japonicum,False,C\ Llobregós,,12.55,median,7.77,check,,,,,1.0,floor
+0066081AR,Styphnolobium japonicum,False,C\ Ciències,,21.17,median,,check,,,,,1.0,floor
+0066085AR,Celtis australis,False,C\ Lisboa,6.45,5.53,ok,,large,429349.63,4586584.55,429344.91,4586588.95,1.5,class
+0066086AR,Styphnolobium japonicum,False,C\ Llobregós,,12.99,median,13.06,check,,,,,1.0,floor
+0066087AR,Styphnolobium japonicum,False,C\ Llobregós,7.59,6.71,ok,,large,429475.35,4586184.04,429470.96,4586190.24,1.5,class
+0066088AR,Styphnolobium japonicum,False,Ptge Calafell,,3.18,no_kerb,37.68,check,,,,,1.0,floor
+0066089AR,Styphnolobium japonicum,False,C\ Llobregós,13.3,6.99,ok,,large,429037.47,4585874.09,429029.92,4585885.05,1.5,class
+0066091AR,Styphnolobium japonicum,False,C\ Beatriu,3.89,2.73,ok,,medium,429556.98,4586640.49,429560.8,4586641.25,1.0,class
+0066092AR,Styphnolobium japonicum,False,C\ Gran Vista,2.29,1.88,ok,,none,429860.76,4585758.27,429861.92,4585756.3,1.0,floor
+0066093AR,Ligustrum lucidum,False,C\ Calderón de la Barca,6.26,5.37,ok,,large,429548.11,4585756.33,429554.29,4585757.37,1.5,class
+0066098AR,Styphnolobium japonicum,False,C\ Pedrell,2.73,1.73,ok,,small,429690.22,4586076.88,429691.02,4586074.27,1.0,class
+0066099AR,Styphnolobium japonicum,False,C\ Gran Vista,10.25,7.72,ok,,large,429926.44,4585784.2,429933.88,4585791.25,1.5,class
+0066100AR,Platanus × acerifolia,True,Jard Juan Ponce,23.57,24.32,ok,,large,429473.28,4585511.74,429493.53,4585499.68,1.5,class
+0066102AR,Brachychiton populneus,False,C\ Llobregós,,2.95,median,7.53,check,,,,,1.0,floor
+0066103AR,Styphnolobium japonicum,False,C\ Gran Vista,5.33,4.83,ok,,medium,429914.77,4585794.34,429917.52,4585789.77,1.0,class
+0066104AR,Styphnolobium japonicum,False,C\ Llobregós,4.41,3.54,ok,,medium,429422.58,4586171.04,429424.82,4586167.24,1.0,class
+0066105AR,Styphnolobium japonicum,False,C\ Gran Vista,2.63,2.06,ok,,small,429750.95,4585692.92,429752.32,4585690.67,1.0,class
+0066106AR,Acacia dealbata,False,Pl Pastrana,,7.51,no_kerb,27.12,check,,,,,1.0,floor
+0066108AR,Cercis siliquastrum,False,C\ Santuari,2.53,2.05,ok,,small,428967.3,4585772.89,428966.95,4585770.38,1.0,class
+0066109AR,Brachychiton acerifolius,False,C\ Ciències,,22.13,median,,check,,,,,1.0,floor
+0066110AR,Brachychiton populneus,False,Rbla Carmel,,28.98,median,,check,,,,,1.0,floor
+0066111AR,Styphnolobium japonicum,False,C\ Llobregós,,12.61,median,,check,,,,,1.0,floor
+0066112AR,Brachychiton populneus,False,C\ Ciències,,22.71,median,,check,,,,,1.0,floor
+0066115AR,Styphnolobium japonicum,False,Rbla Carmel,5.59,4.43,ok,,medium,429604.48,4586350.34,429610.01,4586351.21,1.0,class
+0066117AR,Styphnolobium japonicum,False,C\ Dante Alighieri,3.72,2.97,ok,,medium,429435.59,4586507.12,429437.79,4586504.11,1.0,class
+0066118AR,Prunus cerasifera 'Pissardii',False,C\ Fastenrath,4.23,3.17,ok,,medium,429130.36,4585902.62,429129.81,4585906.82,1.0,class
+0066119AR,Magnolia grandiflora,False,C\ Ramon Rocafull,,7.42,median,,check,,,,,1.0,floor
+0066120AR,Brachychiton populneus,False,Rbla Carmel,,29.01,median,,check,,,,,1.0,floor
+0066121AR,Styphnolobium japonicum,False,C\ Dante Alighieri,3.84,3.17,ok,,medium,429484.97,4586539.32,429486.73,4586535.91,1.0,class
+0066122AR,Brachychiton populneus,False,C\ Ciències,,29.26,median,,check,,,,,1.0,floor
+0066124AR,Styphnolobium japonicum,False,C\ Santuari,3.14,2.58,ok,,small,429163.95,4585813.5,429166.65,4585811.9,1.0,class
+0066126AR,Celtis australis,False,C\ Lisboa,11.24,10.55,ok,,large,429322.7,4586558.77,429314.0,4586565.9,1.5,class
+0066127AR,Celtis australis,False,C\ Lisboa,,24.38,median,,check,,,,,1.0,floor
+0066128AR,Styphnolobium japonicum,False,Pg Mare de Déu del Coll,,16.29,median,,check,,,,,1.0,floor
+0066129AR,Prunus cerasifera 'Pissardii',False,C\ Fastenrath,3.93,3.09,ok,,medium,429197.82,4585927.56,429196.56,4585931.28,1.0,class
+0066131AR,Styphnolobium japonicum,False,Pg Mare de Déu del Coll,,6.77,median,3.94,check,,,,,1.0,floor
+0066132AR,Styphnolobium japonicum,False,C\ Llobregós,7.79,6.61,ok,,large,429604.5,4586276.16,429599.91,4586282.46,1.5,class
+0066134AR,Celtis australis,False,C\ Lisboa,,24.41,median,,check,,,,,1.0,floor
+0066135AR,Melia azedarach,False,Pl Pastrana,,19.83,no_kerb,,check,,,,,1.0,floor
+0066136AR,Styphnolobium japonicum,False,C\ Dante Alighieri,4.13,3.59,ok,,medium,429545.27,4586564.65,429546.19,4586560.62,1.0,class
+0066137AR,Pyrus calleryana 'Chanticleer',False,Rbla Carmel,5.65,4.04,ok,,medium,429664.44,4585956.62,429666.45,4585961.89,1.0,class
+0066138AR,Populus alba 'Pyramidalis',False,C\ Llobregós,,11.23,median,5.63,check,,,,,1.0,floor
+0066139AR,Prunus cerasifera 'Pissardii',False,C\ Fastenrath,,10.37,median,7.94,check,,,,,1.0,floor
+0066140AR,Styphnolobium japonicum,False,C\ Gran Vista,5.02,3.65,ok,,medium,429806.85,4585726.15,429811.87,4585726.38,1.0,class
+0066142AR,Melia azedarach,False,C\ Calderón de la Barca,2.88,2.25,ok,,small,429424.81,4585947.38,429421.98,4585947.88,1.0,class
+0066143AR,Jacaranda mimosifolia,False,Camí Vell del Coll,9.94,5.8,ok,,large,429087.26,4586024.34,429088.24,4586034.22,1.5,class
+0066144AR,Styphnolobium japonicum,False,C\ Gran Vista,8.53,7.04,ok,,large,429955.81,4585819.82,429952.05,4585812.16,1.5,class
+0066145AR,Styphnolobium japonicum,False,C\ Gran Vista,2.62,2.14,ok,,small,429766.71,4585702.35,429768.05,4585700.09,1.0,class
+0066148AR,Cercis siliquastrum,False,C\ Murtra,3.17,2.35,ok,,small,429321.62,4585921.77,429319.25,4585919.67,1.0,class
+0066151AR,Tipuana tipu,False,Esc Floresta,,2.6,no_kerb,,check,,,,,1.0,floor
+0066152AR,Platanus × acerifolia,True,Pg Font de la Mulassa,2.31,1.67,ok,,none,430002.44,4585965.5,430004.65,4585966.18,1.0,floor
+0066153AR,Cercis siliquastrum,False,C\ Farnés,2.5,1.82,ok,,small,429348.09,4586511.13,429346.42,4586512.99,1.0,class
+0066154AR,Celtis australis,False,C\ Lisboa,14.18,13.48,ok,,large,429315.11,4586549.52,429304.15,4586558.5,1.5,class
+0066155AR,Platanus × acerifolia,True,Jard Juan Ponce,,26.2,median,,check,,,,,1.0,floor
+0066156AR,Styphnolobium japonicum,False,Rbla Carmel,4.46,3.31,ok,,medium,429577.72,4586528.78,429582.13,4586529.43,1.0,class
+0066157AR,Pyrus calleryana 'Chanticleer',False,C\ Beatriu,3.89,2.96,ok,,medium,429559.31,4586628.79,429563.13,4586629.55,1.0,class
+0066158AR,Brachychiton populneus,False,C\ Llobregós,21.16,15.83,ok,,large,429258.65,4586011.55,429249.97,4586030.84,1.5,class
+0066160AR,Styphnolobium japonicum,False,C\ Lletres,,10.2,median,,check,,,,,1.0,floor
+0066161AR,Styphnolobium japonicum,False,Pg Mare de Déu del Coll,,7.92,median,5.61,check,,,,,1.0,floor
+0066162AR,Ligustrum lucidum,False,C\ Calderón de la Barca,3.07,2.22,ok,,small,429422.86,4585936.31,429419.84,4585936.85,1.0,class
+0066163AR,Jacaranda mimosifolia,False,C\ Calderón de la Barca,,12.34,median,7.8,check,,,,,1.0,floor
+0066164AR,Brachychiton populneus,False,Rbla Carmel,,22.26,median,,check,,,,,1.0,floor
+0066165AR,Celtis australis,False,C\ Lisboa,7.49,6.7,ok,,large,429353.44,4586588.73,429347.87,4586593.75,1.5,class
+0066166AR,Styphnolobium japonicum,False,C\ Llobregós,,11.78,median,11.0,check,,,,,1.0,floor
+0066167AR,Celtis australis,False,C\ Santuari,2.73,2.11,ok,,small,429338.38,4585793.78,429336.27,4585792.05,1.0,class
+0066168AR,Styphnolobium japonicum,False,Rbla Carmel,5.62,4.57,ok,,medium,429607.29,4586332.47,429612.84,4586333.34,1.0,class
+0066169AR,Brachychiton acerifolius,False,Rbla Carmel,,22.47,median,,check,,,,,1.0,floor
+0066170AR,Firmiana simplex,False,C\ Gran Vista,7.35,6.95,ok,,large,430106.74,4585745.99,430104.04,4585752.83,1.5,class
+0066171AR,Brachychiton populneus,False,Rbla Carmel,,29.06,median,,check,,,,,1.0,floor
+0066173AR,Styphnolobium japonicum,False,C\ Llobregós,,13.33,median,7.65,check,,,,,1.0,floor
+0066174AR,Brachychiton acerifolius,False,Rbla Carmel,,29.45,median,,check,,,,,1.0,floor
+0066175AR,Styphnolobium japonicum,False,C\ Llobregós,4.33,3.59,ok,,medium,429382.77,4586142.53,429385.33,4586139.03,1.0,class
+0066176AR,Ligustrum lucidum,False,C\ Calderón de la Barca,6.18,5.4,ok,,large,429560.31,4585680.16,429566.42,4585681.12,1.5,class
+0066177AR,Ligustrum lucidum,False,C\ Murtra,5.26,4.04,ok,,medium,429406.22,4585808.09,429408.47,4585812.85,1.0,class
+0066178AR,Styphnolobium japonicum,False,C\ Gran Vista,4.48,3.57,ok,,medium,429844.83,4585751.14,429846.95,4585747.19,1.0,class
+0066180AR,Styphnolobium japonicum,False,C\ Dante Alighieri,3.75,2.85,ok,,medium,429457.6,4586523.22,429459.82,4586520.2,1.0,class
+0066181AR,Styphnolobium japonicum,False,C\ Gran Vista,6.44,5.61,ok,,large,429831.83,4585722.67,429828.48,4585728.17,1.5,class
+0066182AR,Ligustrum japonicum 'Texanum',False,C\ Sacedón,4.05,3.0,ok,,medium,429371.19,4586404.99,429374.44,4586407.4,1.0,class
+0066183AR,Celtis australis,False,C\ Lisboa,,25.95,median,4.1,check,,,,,1.0,floor
+0066184AR,Brachychiton populneus,False,Rbla Carmel,,29.21,median,30.94,check,,,,,1.0,floor
+0066185AR,Melia azedarach,False,C\ Calderón de la Barca,2.95,2.08,ok,,small,429423.88,4585942.13,429420.97,4585942.64,1.0,class
+0066186AR,Styphnolobium japonicum,False,Rbla Carmel,3.31,2.41,ok,,small,429635.35,4586147.48,429638.63,4586147.97,1.0,class
+0066187AR,Cercis siliquastrum,False,C\ Murtra,3.17,1.98,ok,,small,429344.93,4585894.57,429342.52,4585892.52,1.0,class
+0066188AR,Celtis australis,False,C\ Lisboa,,11.58,median,4.01,check,,,,,1.0,floor
+0066189AR,Citrus × aurantium,False,C\ Sacedón,4.05,3.1,ok,,medium,429400.05,4586366.21,429403.3,4586368.62,1.0,class
+0066190AR,Styphnolobium japonicum,False,C\ Llobregós,4.19,3.66,ok,,medium,429601.85,4586298.69,429604.32,4586295.3,1.0,class
+0066191AR,Cercis siliquastrum,False,C\ Murtra,3.34,2.47,ok,,small,429329.14,4585913.18,429326.59,4585911.02,1.0,class
+0066194AR,Styphnolobium japonicum,False,C\ Gran Vista,2.51,1.76,ok,,small,429783.02,4585712.03,429784.3,4585709.88,1.0,class
+0066195AR,Styphnolobium japonicum,False,C\ Gran Vista,2.46,1.98,ok,,none,429594.45,4585599.09,429595.73,4585596.99,1.0,floor
+0066196AR,Brachychiton populneus,False,Rbla Carmel,,22.69,median,30.94,check,,,,,1.0,floor
+0066199AR,Tilia x euchlora,False,Ptge Andalet,,7.34,no_kerb,,check,,,,,1.0,floor
+0066201AR,Styphnolobium japonicum,False,Rbla Carmel,5.62,4.4,ok,,medium,429606.44,4586337.86,429611.99,4586338.73,1.0,class
+0066202AR,Styphnolobium japonicum,False,C\ Llobregós,4.37,3.23,ok,,medium,429448.44,4586189.28,429450.96,4586185.7,1.0,class
+0066203AR,Brachychiton populneus,False,C\ Llobregós,7.77,2.66,ok,,large,429177.64,4585968.39,429173.14,4585974.72,1.5,class
+0066204AR,Styphnolobium japonicum,False,C\ Llobregós,4.2,3.54,ok,,medium,429103.45,4585941.77,429105.78,4585938.28,1.0,class
+0066205AR,Celtis australis,False,C\ Lisboa,,9.63,median,3.85,check,,,,,1.0,floor
+0066206AR,Brachychiton acerifolius,False,Rbla Carmel,,34.75,no_facade,,check,,,,,1.0,floor
+0066207AR,Styphnolobium japonicum,False,Rbla Carmel,3.98,3.08,ok,,medium,429574.22,4586552.43,429578.16,4586553.01,1.0,class
+0066208AR,Styphnolobium japonicum,False,Rbla Carmel,4.65,3.52,ok,,medium,429580.36,4586510.91,429584.96,4586511.59,1.0,class
+0066209AR,Firmiana simplex,False,C\ Gran Vista,7.6,6.82,ok,,large,430110.81,4585745.67,430114.88,4585752.09,1.5,class
+0066210AR,Celtis australis,False,C\ Murtra,,2.32,no_kerb,,check,,,,,1.0,floor
+0066212AR,Styphnolobium japonicum,False,Ptge Calafell,,3.3,no_kerb,,check,,,,,1.0,floor
+0066213AR,Ligustrum lucidum,False,C\ Segimon,3.62,3.17,ok,,medium,429427.7,4585808.15,429427.62,4585811.77,1.0,class
+0066214AR,Brachychiton populneus,False,Rbla Carmel,,24.81,median,,check,,,,,1.0,floor
+0066215AR,Styphnolobium japonicum,False,C\ Granollers,4.07,3.05,ok,,medium,429533.44,4586404.1,429532.45,4586408.05,1.0,class
+0066216AR,Brachychiton populneus,False,Rbla Carmel,,29.81,median,,check,,,,,1.0,floor
+0066218AR,Pyrus calleryana 'Chanticleer',False,C\ Gran Vista,2.35,1.56,ok,,none,429839.52,4585732.02,429838.29,4585734.02,1.0,floor
+0066219AR,Cercis siliquastrum,False,Ptge Passerell,,3.47,no_kerb,,check,,,,,1.0,floor
+0066220AR,Brachychiton acerifolius,False,Rbla Carmel,,22.51,median,,check,,,,,1.0,floor
+0066221AR,Styphnolobium japonicum,False,C\ Llobregós,,12.08,median,7.77,check,,,,,1.0,floor
+0066223AR,Pyrus calleryana 'Chanticleer',False,C\ Gran Vista,9.18,6.71,ok,,large,429922.02,4585798.4,429930.53,4585794.98,1.5,class
+0066224AR,Styphnolobium japonicum,False,C\ Llobregós,4.16,3.3,ok,,medium,429097.98,4585938.13,429100.28,4585934.67,1.0,class
+0066225AR,Prunus cerasifera 'Pissardii',False,C\ Lugo,2.9,2.52,ok,,small,429508.43,4586100.87,429510.01,4586098.43,1.0,class
+0066226AR,Brachychiton populneus,False,C\ Llobregós,,7.41,median,7.72,check,,,,,1.0,floor
+0066228AR,Ligustrum lucidum,False,C\ Calderón de la Barca,6.18,5.25,ok,,large,429558.35,4585692.64,429564.45,4585693.6,1.5,class
+0066229AR,Cercis siliquastrum,False,C\ Segimon,3.96,2.87,ok,,medium,429423.34,4585821.17,429423.7,4585817.23,1.0,class
+0066230AR,Cercis siliquastrum,False,C\ Murtra,4.88,3.91,ok,,medium,429359.92,4585876.91,429356.2,4585873.75,1.0,class
+0066231AR,Melia azedarach,False,C\ Calderón de la Barca,2.84,2.15,ok,,small,429495.19,4585873.5,429494.48,4585870.75,1.0,class
+0066656AR,Firmiana simplex,False,Ctra Carmel,,26.33,median,2.49,check,,,,,1.0,floor
+0066661AR,Firmiana simplex,False,Ctra Carmel,,27.9,median,2.8,check,,,,,1.0,floor
+0066753AR,Firmiana simplex,False,Ctra Carmel,,29.37,median,2.54,check,,,,,1.0,floor
+0066767AR,Firmiana simplex,False,Ctra Carmel,,38.67,no_facade,5.76,check,,,,,1.0,floor
+0066857AR,Firmiana simplex,False,Ctra Carmel,,19.83,median,1.65,check,,,,,1.0,floor
+0067014AR,Firmiana simplex,False,Ctra Carmel,,43.91,no_facade,4.26,check,,,,,1.0,floor
+0067023AR,Firmiana simplex,False,Ctra Carmel,,28.65,median,2.75,check,,,,,1.0,floor
+0067062AR,Firmiana simplex,False,Ctra Carmel,,31.54,no_facade,2.69,check,,,,,1.0,floor
+0073906AR,Tipuana tipu,False,C\ Ceuta,10.58,5.75,ok,,large,429096.33,4585546.0,429106.39,4585549.25,1.5,class
+0073928AR,Tipuana tipu,False,C\ Ceuta,,18.95,median,25.59,check,,,,,1.0,floor
+0073940AR,Cercis siliquastrum,False,C\ Ceuta,,17.4,median,,check,,,,,1.0,floor
+0073990AR,Cercis siliquastrum,False,C\ Ceuta,24.01,22.81,ok,,large,429128.74,4585578.77,429115.43,4585558.79,1.5,class
+0074040AR,Cercis siliquastrum,False,C\ Ceuta,16.95,17.94,ok,,large,429103.45,4585540.04,429116.68,4585550.62,1.5,class
+0074063AR,Cercis siliquastrum,False,C\ Ceuta,,14.37,median,3.1,check,,,,,1.0,floor
+0074123AR,Cercis siliquastrum,False,C\ Ceuta,9.32,6.45,ok,,large,429117.86,4585691.47,429116.04,4585682.33,1.5,class
+0074152AR,Cercis siliquastrum,False,C\ Ceuta,3.87,3.03,ok,,medium,429119.6,4585620.76,429116.56,4585623.15,1.0,class
+0074164AR,Cercis siliquastrum,False,C\ Ceuta,8.13,7.19,ok,,large,429122.68,4585608.85,429116.13,4585604.04,1.5,class
+0074189AR,Tipuana tipu,False,C\ Ceuta,,22.98,median,2.45,check,,,,,1.0,floor
+0074197AR,Cercis siliquastrum,False,C\ Ceuta,3.04,2.32,ok,,small,429119.69,4585631.4,429116.65,4585631.44,1.0,class
+0074204AR,Cercis siliquastrum,False,C\ Ceuta,17.27,16.25,ok,,large,429128.74,4585578.77,429115.21,4585568.05,1.5,class
+0074225AR,Cercis siliquastrum,False,C\ Ceuta,,10.62,median,9.55,check,,,,,1.0,floor
+0074275AR,Tipuana tipu,False,C\ Ceuta,,15.98,median,2.45,check,,,,,1.0,floor
+0074276AR,Cercis siliquastrum,False,C\ Ceuta,13.25,12.56,ok,,large,429128.74,4585578.77,429115.53,4585577.76,1.5,class
+0074293AR,Cercis siliquastrum,False,C\ Ceuta,,11.79,median,3.15,check,,,,,1.0,floor
+0211345AR,Ulmus pumila,False,C\ Lisboa,15.15,12.44,ok,,large,429647.32,4586743.69,429633.62,4586750.14,1.5,class
+0268552AR,Tipuana tipu,False,C\ Hortal,,17.45,median,,check,,,,,1.0,floor
+0268558AR,Celtis australis,False,Ctra Carmel,,25.82,median,21.15,check,,,,,1.0,floor
+0268562AR,Celtis australis,False,Ctra Carmel,,14.38,median,24.33,check,,,,,1.0,floor
+0268568AR,Celtis australis,False,Ctra Carmel,,20.74,median,13.06,check,,,,,1.0,floor
+0268579AR,Celtis australis,False,Ctra Carmel,,24.53,median,27.17,check,,,,,1.0,floor
+0268588AR,Cercis siliquastrum,False,C\ Calderón de la Barca,3.01,2.33,ok,,small,429549.57,4585785.78,429546.89,4585784.41,1.0,class
+0268602AR,Celtis australis,False,Ctra Carmel,,26.56,median,24.72,check,,,,,1.0,floor
+0268631AR,Celtis australis,False,Ctra Carmel,,23.83,median,,check,,,,,1.0,floor
+0268655AR,Celtis australis,False,Ctra Carmel,,17.99,median,29.7,check,,,,,1.0,floor
+0268692AR,Celtis australis,False,Ctra Carmel,,14.63,median,26.68,check,,,,,1.0,floor
+0268706AR,Celtis australis,False,Ctra Carmel,,18.66,median,17.79,check,,,,,1.0,floor
+0268720AR,Celtis australis,False,Ctra Carmel,,26.45,median,24.56,check,,,,,1.0,floor
+0268746AR,Celtis australis,False,Ctra Carmel,,22.26,median,,check,,,,,1.0,floor
+0268757AR,Styphnolobium japonicum,False,C\ Doctor Bové,,15.56,median,5.67,check,,,,,1.0,floor
+0268760AR,Celtis australis,False,Ctra Carmel,,25.18,median,24.39,check,,,,,1.0,floor
+0268777AR,Celtis australis,False,Ctra Carmel,,14.13,median,24.49,check,,,,,1.0,floor
+0268793AR,Celtis australis,False,Ctra Carmel,,21.45,median,4.09,check,,,,,1.0,floor
+0270778AR,Robinia pseudoacacia,False,C\ Portell,,14.23,no_kerb,,check,,,,,1.0,floor
+0270780AR,Robinia pseudoacacia,False,C\ Portell,,15.74,no_kerb,,check,,,,,1.0,floor
+0270781AR,Olea europaea,False,C\ Portell,,14.25,median,22.54,check,,,,,1.0,floor
+0270782AR,Robinia pseudoacacia,False,C\ Portell,,13.83,no_kerb,,check,,,,,1.0,floor
+0270784AR,Robinia pseudoacacia,False,C\ Portell,,11.61,no_kerb,24.73,check,,,,,1.0,floor
+0270785AR,Olea europaea,False,C\ Portell,,12.65,median,,check,,,,,1.0,floor
+0270786AR,Celtis australis,False,C\ Portell,,12.52,median,7.65,check,,,,,1.0,floor
+0270787AR,Robinia pseudoacacia,False,C\ Portell,,8.23,no_kerb,,check,,,,,1.0,floor
+0270789AR,Robinia pseudoacacia,False,C\ Portell,,15.4,no_kerb,,check,,,,,1.0,floor
+0287537AR,Styphnolobium japonicum,False,C\ Dante Alighieri,,16.43,median,,check,,,,,1.0,floor
+0287713AR,Ligustrum lucidum,False,C\ Murtra,,3.67,no_kerb,,check,,,,,1.0,floor
+0288190AR,Styphnolobium japonicum,False,C\ Sigüenza,4.23,3.95,ok,,medium,429433.11,4586257.0,429435.52,4586253.52,1.0,class
+0288191AR,Styphnolobium japonicum,False,C\ Sigüenza,4.19,3.7,ok,,medium,429470.8,4586283.39,429473.23,4586279.98,1.0,class
+0288192AR,Styphnolobium japonicum,False,C\ Sigüenza,4.13,3.27,ok,,medium,429447.96,4586267.29,429450.31,4586263.9,1.0,class
+0288193AR,Styphnolobium japonicum,False,C\ Sigüenza,4.09,3.32,ok,,medium,429453.71,4586271.28,429456.04,4586267.92,1.0,class
+0288194AR,Styphnolobium japonicum,False,C\ Sigüenza,4.09,3.42,ok,,medium,429459.41,4586275.28,429461.78,4586271.94,1.0,class
+0288195AR,Styphnolobium japonicum,False,C\ Sigüenza,4.14,3.56,ok,,medium,429465.11,4586279.34,429467.51,4586275.96,1.0,class
+0289166AR,Jacaranda mimosifolia,False,C\ Murtra,,9.2,median,6.13,check,,,,,1.0,floor
+0289167AR,Jacaranda mimosifolia,False,C\ Murtra,16.86,4.94,ok,,large,429118.02,4586140.39,429108.51,4586154.31,1.5,class
+0289284AR,Styphnolobium japonicum,False,C\ Hortal,,5.73,median,,check,,,,,1.0,floor
+0289285AR,Styphnolobium japonicum,False,C\ Hortal,,5.73,median,,check,,,,,1.0,floor
+0289286AR,Styphnolobium japonicum,False,C\ Hortal,,5.74,median,,check,,,,,1.0,floor
+0289287AR,Styphnolobium japonicum,False,C\ Hortal,,5.69,median,,check,,,,,1.0,floor
+0289288AR,Styphnolobium japonicum,False,C\ Hortal,,5.73,median,,check,,,,,1.0,floor
+0289289AR,Styphnolobium japonicum,False,C\ Hortal,,5.76,median,,check,,,,,1.0,floor
+0289291AR,Ligustrum japonicum 'Texanum',False,C\ Batet,3.42,2.63,ok,,small,429012.59,4585835.95,429014.4,4585838.85,1.0,class
+0289292AR,Ligustrum japonicum 'Variegatum',False,C\ Batet,3.54,2.7,ok,,medium,429045.89,4585815.24,429047.73,4585818.26,1.0,class
+0289294AR,Ligustrum japonicum 'Texanum',False,C\ Batet,3.37,2.54,ok,,small,429005.85,4585840.17,429007.64,4585843.03,1.0,class
+0289297AR,Melia azedarach,False,C\ Hortal,7.27,4.95,ok,,large,429140.39,4585899.09,429147.02,4585902.07,1.5,class
+0289298AR,Ligustrum japonicum 'Variegatum',False,C\ Batet,3.52,2.73,ok,,medium,429025.52,4585827.86,429027.39,4585830.84,1.0,class
+0289300AR,Ligustrum japonicum 'Variegatum',False,C\ Batet,3.51,3.06,ok,,medium,429054.41,4585810.02,429056.24,4585813.01,1.0,class
+0289301AR,Ligustrum japonicum 'Variegatum',False,C\ Batet,3.57,2.84,ok,,medium,429037.91,4585820.13,429039.78,4585823.17,1.0,class
+0289828AR,Cercis siliquastrum,False,C\ Santuari,,3.43,no_kerb,,check,,,,,1.0,floor
+0289830AR,Cercis siliquastrum,False,C\ Hortal,,3.44,no_kerb,,check,,,,,1.0,floor
+0290190AR,Pinus pinea,False,Ctra Carmel,,3.59,no_kerb,19.83,check,,,,,1.0,floor
+0290191AR,Pinus pinea,False,Ctra Carmel,9.4,7.04,ok,,large,429617.51,4585489.4,429609.67,4585494.56,1.5,class
+0290193AR,Pinus pinea,False,Ctra Carmel,,9.08,no_kerb,17.57,check,,,,,1.0,floor
+0290540AR,Cercis siliquastrum,False,C\ Manxa,2.53,1.64,ok,,small,429251.19,4585895.02,429249.3,4585893.34,1.0,class
+0290541AR,Cercis siliquastrum,False,C\ Manxa,2.69,1.8,ok,,small,429257.01,4585888.45,429254.99,4585886.67,1.0,class
+0290542AR,Cercis siliquastrum,False,C\ Manxa,2.91,2.09,ok,,small,429266.14,4585878.13,429263.96,4585876.2,1.0,class
+0292048AR,Brachychiton populneus,False,Rbla Carmel,,22.07,median,,check,,,,,1.0,floor
+0292050AR,Brachychiton acerifolius,False,Pl Pastrana,6.97,5.71,ok,,large,429455.88,4586335.89,429459.97,4586330.24,1.5,class
+0294820AR,Cupressus sempervirens,False,C\ Batet,3.7,1.42,ok,,medium,429007.65,4585849.5,429004.52,4585851.48,1.0,class
+0295470AR,Cercis siliquastrum,False,C\ Fastenrath,,9.76,median,,check,,,,,1.0,floor
+0295471AR,Tipuana tipu,False,C\ Santuari,,25.12,median,2.97,check,,,,,1.0,floor
+0296594AR,Styphnolobium japonicum,False,C\ Lletres,,9.73,median,,check,,,,,1.0,floor
+0296595AR,Styphnolobium japonicum,False,C\ Lletres,,9.79,median,,check,,,,,1.0,floor
+0296596AR,Styphnolobium japonicum,False,C\ Lletres,,9.75,median,,check,,,,,1.0,floor
+0296597AR,Styphnolobium japonicum,False,C\ Lletres,,9.86,median,,check,,,,,1.0,floor
+0297321AR,Cercis siliquastrum,False,C\ Batet,,20.89,median,29.03,check,,,,,1.0,floor
+0298282AR,Cercis siliquastrum,False,C\ Segimon,8.0,5.94,ok,,large,429522.12,4585813.28,429526.96,4585806.91,1.5,class
+0302981AR,Styphnolobium japonicum,False,C\ Gran Vista,2.51,1.78,ok,,small,429600.37,4585602.7,429601.68,4585600.56,1.0,class
+0302982AR,Pinus pinea,False,Jard Juan Ponce,,30.03,no_facade,,check,,,,,1.0,floor
+0304603AR,Acacia dealbata,False,Camí Can Móra,3.96,2.66,ok,,medium,429127.65,4585439.83,429130.47,4585442.61,1.0,class
+0304605AR,Acacia retinodes,False,Camí Can Móra,4.11,2.62,ok,,medium,429115.45,4585450.99,429117.77,4585454.38,1.0,class
+0304606AR,Acacia retinodes,False,Camí Can Móra,4.07,2.55,ok,,medium,429117.85,4585449.25,429120.34,4585452.47,1.0,class
+0304610AR,Cupressus sempervirens,False,Camí Can Móra,4.88,3.01,ok,,medium,429093.62,4585458.56,429094.53,4585463.35,1.0,class
+0304611AR,Cupressus sempervirens,False,Camí Can Móra,4.16,3.02,ok,,medium,429088.09,4585460.71,429090.09,4585464.36,1.0,class
+0304612AR,Tipuana tipu,False,C\ Portell,,13.19,median,16.32,check,,,,,1.0,floor
+0304613AR,Tipuana tipu,False,C\ Portell,,16.44,median,16.55,check,,,,,1.0,floor
+0304614AR,Cupressus sempervirens,False,C\ Portell,6.76,2.82,ok,,large,429053.91,4585491.66,429047.75,4585488.88,1.5,class
+0304615AR,Cupressus sempervirens 'Stricta',False,C\ Portell,6.54,2.66,ok,,large,429052.85,4585493.99,429046.89,4585491.29,1.5,class
+0304616AR,Cupressus sempervirens,False,C\ Portell,5.99,2.15,ok,,medium,429051.7,4585496.54,429046.24,4585494.07,1.0,class
+0309245AR,Tipuana tipu,False,Pg Mare de Déu del Coll,,13.78,median,,check,,,,,1.0,floor
+0309767AR,Brachychiton populneus,False,Ptge Cadernera,,2.79,no_kerb,,check,,,,,1.0,floor
+0309768AR,Cercis siliquastrum,False,C\ Murtra,8.19,7.04,ok,,large,429386.75,4585846.02,429378.75,4585847.81,1.5,class
+0309769AR,Cercis siliquastrum,False,C\ Murtra,4.83,4.19,ok,,medium,429389.93,4585842.45,429386.32,4585839.24,1.0,class
+0309770AR,Pyrus calleryana 'Chanticleer',False,C\ Dante Alighieri,4.13,3.11,ok,,medium,429557.31,4586567.22,429558.04,4586563.15,1.0,class
+0309945AR,Styphnolobium japonicum,False,C\ Dante Alighieri,,10.89,median,,check,,,,,1.0,floor
+0309946AR,Pyrus calleryana 'Chanticleer',False,C\ Dante Alighieri,4.72,3.59,ok,,medium,429234.5,4586317.2,429233.4,4586312.6,1.0,class
+0313765AR,Firmiana simplex,False,Ctra Carmel,,42.63,no_facade,3.79,check,,,,,1.0,floor
+0313919AR,Styphnolobium japonicum,False,Rbla Carmel,3.19,2.08,ok,,small,429625.48,4586214.53,429628.63,4586215.01,1.0,class
+0313920AR,Celtis australis,False,Rbla Carmel,2.9,2.13,ok,,small,429648.75,4586059.17,429651.61,4586059.62,1.0,class
+0313936AR,Pyrus calleryana 'Chanticleer',False,C\ Dante Alighieri,3.44,2.54,ok,,small,429293.47,4586355.27,429295.73,4586352.68,1.0,class
+0313937AR,Pyrus calleryana 'Chanticleer',False,C\ Dante Alighieri,3.37,2.63,ok,,small,429297.82,4586359.17,429300.07,4586356.66,1.0,class
+0313956AR,Jacaranda mimosifolia,False,C\ Calderón de la Barca,,12.09,median,4.92,check,,,,,1.0,floor
+0313967AR,Pyrus calleryana 'Chanticleer',False,C\ Gran Vista,8.85,6.08,ok,,large,429749.1,4585677.66,429740.52,4585675.5,1.5,class
+0313973AR,Pinus pinea,False,Ctra Carmel,,31.59,no_facade,,check,,,,,1.0,floor
+0313974AR,Pinus pinea,False,Ctra Carmel,,29.72,median,17.17,check,,,,,1.0,floor
+0313975AR,Pinus pinea,False,Ctra Carmel,,28.24,median,13.81,check,,,,,1.0,floor
+0313982AR,Olea europaea,False,C\ Gran Vista,14.34,11.35,ok,,large,430155.88,4585731.55,430169.18,4585736.92,1.5,class
+0313983AR,Robinia pseudoacacia,False,C\ Gran Vista,,23.05,no_kerb,11.98,check,,,,,1.0,floor
+0313984AR,Robinia pseudoacacia,False,C\ Gran Vista,29.81,26.71,ok,,large,430155.88,4585731.55,430185.68,4585730.86,1.5,class
+0314009AR,Pinus halepensis,False,C\ Santuari,12.2,8.92,ok,,large,429214.88,4585838.34,429216.8,4585850.4,1.5,class
+0314010AR,Pinus halepensis,False,C\ Santuari,13.87,10.12,ok,,large,429224.2,4585838.69,429227.3,4585852.21,1.5,class
+0314011AR,Ulmus pumila,False,C\ Santuari,5.4,2.12,ok,,medium,429257.89,4585845.26,429263.06,4585846.81,1.0,class
+0314507AR,Pinus pinea,False,C\ Lisboa,,18.2,median,13.97,check,,,,,1.0,floor
+0321212AR,Prunus amygdalus,False,C\ Mühlberg,,12.76,no_kerb,,check,,,,,1.0,floor
+0321214AR,Prunus amygdalus,False,C\ Mühlberg,,8.67,no_kerb,,check,,,,,1.0,floor
+0321218AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Mühlberg,4.5,3.61,ok,,medium,429606.62,4585526.47,429604.5,4585522.5,1.0,class
+0321220AR,Fraxinus angustifolia 'Raywood',False,C\ Mühlberg,,12.79,median,3.83,check,,,,,1.0,floor
+0321221AR,Fraxinus angustifolia 'Raywood',False,C\ Mühlberg,,12.02,median,3.95,check,,,,,1.0,floor
+0321222AR,Fraxinus angustifolia 'Raywood',False,C\ Mühlberg,,10.03,median,3.73,check,,,,,1.0,floor
+0321223AR,Fraxinus angustifolia 'Raywood',False,C\ Mühlberg,,9.57,median,5.09,check,,,,,1.0,floor
+0321224AR,Fraxinus angustifolia 'Raywood',False,C\ Mühlberg,,10.97,median,7.29,check,,,,,1.0,floor
+0321225AR,Fraxinus angustifolia 'Raywood',False,C\ Mühlberg,,15.45,median,5.62,check,,,,,1.0,floor
+0321226AR,Fraxinus angustifolia 'Raywood',False,C\ Mühlberg,,18.33,median,4.86,check,,,,,1.0,floor
+0321227AR,Fraxinus angustifolia 'Raywood',False,C\ Mühlberg,,17.24,median,4.64,check,,,,,1.0,floor
+0321228AR,Fraxinus angustifolia 'Raywood',False,C\ Mühlberg,,19.2,median,5.36,check,,,,,1.0,floor
+0321229AR,Fraxinus angustifolia 'Raywood',False,C\ Mühlberg,,12.88,median,5.07,check,,,,,1.0,floor
+0321231AR,Pyrus calleryana 'Chanticleer',False,C\ Mühlberg,20.62,15.07,ok,,large,429650.07,4585467.43,429667.7,4585478.11,1.5,class
+0321232AR,Pyrus calleryana 'Chanticleer',False,C\ Mühlberg,,15.45,median,,check,,,,,1.0,floor
+0321233AR,Pyrus calleryana 'Chanticleer',False,C\ Mühlberg,,14.12,median,16.23,check,,,,,1.0,floor
+0321234AR,Pyrus calleryana 'Chanticleer',False,C\ Mühlberg,,4.82,no_kerb,,check,,,,,1.0,floor
+0321236AR,Fraxinus angustifolia 'Raywood',False,C\ Mühlberg,,8.89,median,3.63,check,,,,,1.0,floor
+0321237AR,Fraxinus angustifolia 'Raywood',False,C\ Mühlberg,,8.91,median,5.0,check,,,,,1.0,floor
+0321238AR,Fraxinus angustifolia 'Raywood',False,C\ Mühlberg,,8.72,median,4.78,check,,,,,1.0,floor
+0321241AR,Fraxinus angustifolia 'Raywood',False,C\ Mühlberg,,10.17,median,6.26,check,,,,,1.0,floor
+0321242AR,Fraxinus angustifolia 'Raywood',False,C\ Mühlberg,8.5,5.12,ok,,large,429816.75,4585569.56,429808.93,4585566.22,1.5,class
+0321244AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Mühlberg,,3.83,no_kerb,,check,,,,,1.0,floor
+0321245AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Mühlberg,,3.68,no_kerb,,check,,,,,1.0,floor
+0321246AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Mühlberg,12.64,3.44,ok,,large,429853.64,4585530.52,429860.47,4585541.16,1.5,class
+0321247AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Mühlberg,12.69,3.19,ok,,large,429862.86,4585524.6,429868.5,4585535.98,1.5,class
+0333503AR,Styphnolobium japonicum,False,C\ Llobregós,,8.07,median,,check,,,,,1.0,floor
+0333504AR,Styphnolobium japonicum,False,C\ Llobregós,,7.9,median,,check,,,,,1.0,floor
+0333505AR,Styphnolobium japonicum,False,C\ Llobregós,13.95,8.05,ok,,large,429018.84,4585861.08,429010.82,4585872.5,1.5,class
+0333506AR,Styphnolobium japonicum,False,C\ Llobregós,13.61,7.69,ok,,large,429026.34,4585866.34,429018.52,4585877.49,1.5,class

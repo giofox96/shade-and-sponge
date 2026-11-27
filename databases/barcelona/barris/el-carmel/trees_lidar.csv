@@ -1,0 +1,1459 @@
+tree_id,x,y,ground_z,species,is_plane,size_category,street,height_m,crown_area_m2,crown_diam_m,crown_base_m,gap_fraction,lai_proxy,n_points,flag
+0064576AR,429298.55,4586479.75,110.75,Cercis siliquastrum,False,SEGONA,Ptge Xinxó,7.31,47.0,7.74,4.22,0.399,1.84,1899,ok
+0064578AR,429616.61,4586418.25,100.44,Populus alba 'Pyramidalis',False,EXEMPLAR,Rbla Carmel,15.7,59.0,8.67,5.09,0.189,3.34,3813,ok
+0064579AR,429128.44,4585914.47,170.12,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Fastenrath,5.07,6.8,2.93,3.23,0.548,1.2,146,ok
+0064580AR,429803.05,4585712.22,195.19,Styphnolobium japonicum,False,EXEMPLAR,C\ Gran Vista,9.64,69.2,9.39,4.02,0.098,4.64,1464,ok
+0064581AR,429609.7,4586287.76,107.01,Styphnolobium japonicum,False,SEGONA,C\ Llobregós,7.65,40.0,7.14,3.09,0.273,2.6,1714,ok
+0064583AR,429632.63,4586360.14,103.06,Brachychiton populneus,False,PRIMERA,Rbla Carmel,3.18,1.2,1.26,2.7,0.458,1.56,41,no_crown_detected
+0064584AR,429285.24,4586483.19,110.72,Tipuana tipu,False,SEGONA,Ptge Xinxó,7.99,33.5,6.53,3.17,0.393,1.87,1258,ok
+0064585AR,429569.03,4585613.06,185.81,Brachychiton populneus,False,TERCERA,C\ Calderón de la Barca,7.51,16.2,4.55,2.94,0.416,1.76,849,ok
+0064586AR,429613.91,4586479.31,100.45,Brachychiton populneus,False,SEGONA,Rbla Carmel,5.38,7.0,2.99,3.5,0.414,1.76,292,ok
+0064587AR,429670.69,4586312.58,100.84,Styphnolobium japonicum,False,TERCERA,C\ Ciències,8.69,28.0,5.97,5.23,0.376,1.96,1185,ok
+0064588AR,429421.93,4586651.57,94.61,Celtis australis,False,SEGONA,C\ Lisboa,6.23,22.5,5.35,4.09,0.383,1.92,410,ok
+0064589AR,429057.52,4585776.53,190.39,Tipuana tipu,False,SEGONA,C\ Hortal,10.61,39.0,7.05,6.24,0.104,4.53,636,ok
+0064590AR,429501.81,4586598.78,104.87,Citrus × aurantium,False,PRIMERA,C\ Argimon,12.37,5.0,2.52,3.4,0.319,2.28,47,few_points
+0064592AR,429062.57,4586109.01,161.58,Styphnolobium japonicum,False,TERCERA,Pg Mare de Déu del Coll,10.88,33.5,6.53,5.95,0.244,2.82,1263,ok
+0064596AR,429469.43,4586338.62,111.45,Brachychiton acerifolius,False,SEGONA,Pl Pastrana,7.32,6.5,2.88,3.52,0.451,1.59,314,ok
+0064597AR,429590.38,4586505.54,100.26,Styphnolobium japonicum,False,PRIMERA,Rbla Carmel,5.38,13.8,4.18,3.23,0.532,1.26,543,ok
+0064598AR,429611.82,4586417.51,97.94,Styphnolobium japonicum,False,TERCERA,Rbla Carmel,14.58,31.2,6.31,4.81,0.207,3.15,1522,ok
+0064599AR,429291.59,4586481.61,110.66,Styphnolobium japonicum,False,SEGONA,Ptge Xinxó,9.18,37.5,6.91,4.65,0.304,2.38,1509,ok
+0064600AR,429642.67,4586416.73,97.08,Brachychiton populneus,False,SEGONA,C\ Ciències,6.02,15.2,4.41,3.14,0.424,1.72,571,ok
+0064601AR,429130.31,4586361.64,126.76,Tipuana tipu,False,SEGONA,Esc Floresta,10.0,14.2,4.26,5.14,0.384,1.91,643,ok
+0064602AR,429552.98,4586246.96,114.72,Styphnolobium japonicum,False,SEGONA,C\ Llobregós,6.32,28.2,6.0,3.36,0.424,1.72,1054,ok
+0064604AR,429571.61,4585629.11,183.74,Ligustrum lucidum,False,SEGONA,C\ Calderón de la Barca,6.76,25.5,5.7,4.41,0.42,1.73,1028,ok
+0064606AR,429378.36,4586135.07,129.29,Styphnolobium japonicum,False,SEGONA,C\ Llobregós,8.28,50.5,8.02,4.81,0.325,2.25,1601,ok
+0064607AR,429381.78,4586395.97,111.64,Ligustrum japonicum 'Texanum',False,PRIMERA,C\ Sacedón,3.23,4.8,2.46,2.18,0.378,1.94,119,ok
+0064608AR,429653.07,4586046.07,120.94,Celtis australis,False,SEGONA,Rbla Carmel,11.18,37.0,6.86,7.18,0.288,2.49,1317,ok
+0064610AR,429714.24,4586102.86,113.85,Cupressus sempervirens,False,PRIMERA,Ptge Gabarnet,,0.0,0.0,,,,0,no_crown_detected
+0064611AR,429427.05,4585904.69,155.84,Melia azedarach,False,EXEMPLAR,C\ Calderón de la Barca,12.79,59.2,8.69,6.35,0.193,3.29,1040,ok
+0064612AR,430051.38,4585904.97,158.52,Platanus × acerifolia,True,EXEMPLAR,Pl Font de la Mulassa,17.05,62.2,8.9,9.39,0.076,5.14,1373,ok
+0064614AR,429464.51,4586335.22,111.8,Brachychiton acerifolius,False,SEGONA,Pl Pastrana,6.35,12.5,3.99,3.33,0.435,1.66,518,ok
+0064616AR,429511.67,4586550.12,105.01,Styphnolobium japonicum,False,SEGONA,C\ Dante Alighieri,7.63,51.2,8.08,4.62,0.278,2.56,1645,ok
+0064619AR,429571.13,4585635.07,183.21,Ligustrum lucidum,False,SEGONA,C\ Calderón de la Barca,6.74,26.5,5.81,4.54,0.361,2.04,897,ok
+0064620AR,429360.64,4586606.24,100.32,Celtis australis,False,TERCERA,C\ Lisboa,9.81,40.0,7.14,5.66,0.163,3.63,778,ok
+0064621AR,429433.75,4586163.05,124.16,Styphnolobium japonicum,False,SEGONA,C\ Llobregós,7.89,33.0,6.48,3.53,0.357,2.06,1428,ok
+0064622AR,429120.67,4585932.43,162.58,Brachychiton populneus,False,SEGONA,C\ Llobregós,5.76,19.2,4.95,3.22,0.43,1.69,495,ok
+0064624AR,429673.15,4585914.5,136.14,Pyrus calleryana 'Chanticleer',False,PRIMERA,Rbla Carmel,4.74,2.5,1.78,3.59,0.429,1.69,28,few_points
+0064625AR,429505.26,4585805.2,169.83,Ligustrum lucidum,False,PRIMERA,C\ Segimon,5.6,13.0,4.07,4.5,0.451,1.59,246,ok
+0064626AR,429615.11,4586393.44,99.25,Styphnolobium japonicum,False,SEGONA,Rbla Carmel,4.79,21.8,5.26,3.69,0.36,2.05,844,ok
+0064627AR,429146.69,4585780.83,200.87,Styphnolobium japonicum,False,TERCERA,C\ Santuari,8.4,30.5,6.23,5.43,0.171,3.53,485,ok
+0064628AR,429486.76,4586318.07,112.31,Melia azedarach,False,SEGONA,Pl Pastrana,9.55,27.8,5.94,3.4,0.478,1.48,1119,ok
+0064629AR,429609.98,4586345.14,102.92,Styphnolobium japonicum,False,TERCERA,Rbla Carmel,7.54,26.0,5.75,5.26,0.325,2.25,881,ok
+0064630AR,429188.59,4585927.38,176.64,Ginkgo biloba 'Fastigiata',False,PRIMERA,C\ Fastenrath,6.68,13.2,4.11,4.12,0.305,2.38,233,ok
+0064631AR,429449.95,4586513.98,107.03,Styphnolobium japonicum,False,SEGONA,C\ Dante Alighieri,11.22,44.8,7.55,7.07,0.255,2.73,1502,ok
+0064632AR,429585.75,4586499.35,100.19,Styphnolobium japonicum,False,TERCERA,Rbla Carmel,11.93,28.0,5.97,6.55,0.173,3.51,1186,ok
+0064633AR,429552.71,4586712.77,93.38,Celtis australis,False,EXEMPLAR,C\ Lisboa,5.35,2.5,1.78,2.73,0.033,6.8,30,few_points
+0064634AR,429465.59,4585868.69,160.57,Melia azedarach,False,TERCERA,C\ Calderón de la Barca,11.42,23.2,5.44,8.62,0.223,3.0,376,ok
+0064635AR,429567.84,4585816.64,156.31,Morus alba,False,TERCERA,C\ Alcalde de Zalamea,11.33,45.5,7.61,5.78,0.096,4.69,833,ok
+0064636AR,429516.15,4585801.34,169.51,Ligustrum lucidum,False,SEGONA,C\ Segimon,5.29,11.0,3.74,4.3,0.452,1.59,221,ok
+0064637AR,429121.24,4586090.8,155.45,Ligustrum lucidum,False,SEGONA,Camí Vell del Coll,5.86,23.5,5.47,3.48,0.254,2.74,678,ok
+0064638AR,429411.01,4586001.94,145.41,Melia azedarach,False,SEGONA,C\ Calderón de la Barca,12.25,27.2,5.89,7.97,0.104,4.53,462,ok
+0064640AR,429286.15,4585852.26,203.84,Styphnolobium japonicum,False,TERCERA,C\ Santuari,7.62,35.8,6.75,3.95,0.22,3.03,804,ok
+0064641AR,429635.76,4586533.55,100.25,Styphnolobium japonicum,False,TERCERA,C\ Ciències,11.35,42.8,7.38,6.0,0.332,2.21,2124,ok
+0064642AR,429469.87,4585869.19,161.02,Ligustrum lucidum,False,TERCERA,C\ Calderón de la Barca,9.79,25.5,5.7,7.1,0.227,2.96,374,ok
+0064643AR,429346.98,4585780.13,203.94,Styphnolobium japonicum,False,SEGONA,C\ Santuari,8.4,31.0,6.28,4.9,0.182,3.4,603,ok
+0064644AR,429580.76,4586145.16,112.75,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Lugo,4.97,8.0,3.19,3.0,0.386,1.91,214,ok
+0064645AR,429549.71,4585780.55,170.07,Cercis siliquastrum,False,SEGONA,C\ Calderón de la Barca,5.85,25.8,5.73,4.5,0.255,2.74,440,ok
+0064646AR,429290.81,4586349.48,119.1,Styphnolobium japonicum,False,SEGONA,C\ Dante Alighieri,11.54,25.8,5.73,4.32,0.273,2.6,1017,ok
+0064647AR,430049.14,4585895.11,156.08,Platanus × acerifolia,True,PRIMERA,Pl Font de la Mulassa,8.18,35.5,6.72,4.31,0.249,2.78,708,ok
+0064648AR,429491.79,4586539.33,105.6,Styphnolobium japonicum,False,SEGONA,C\ Dante Alighieri,7.93,20.8,5.14,5.41,0.3,2.41,861,ok
+0064649AR,429654.06,4586089.43,115.24,Catalpa bignonioides,False,PRIMERA,Rbla Carmel,7.54,29.0,6.08,4.98,0.497,1.4,1152,ok
+0064650AR,429458.22,4585812.92,172.77,Ligustrum lucidum,False,PRIMERA,C\ Segimon,8.71,33.8,6.56,5.62,0.347,2.12,674,ok
+0064651AR,429766.75,4585690.4,193.78,Styphnolobium japonicum,False,TERCERA,C\ Gran Vista,7.69,46.2,7.67,3.65,0.214,3.08,1018,ok
+0064653AR,429557.23,4586261.51,113.46,Styphnolobium japonicum,False,PRIMERA,C\ Llobregós,6.35,19.8,5.01,3.88,0.372,1.98,669,ok
+0064654AR,429061.21,4586065.28,169.02,Styphnolobium japonicum,False,SEGONA,Pg Mare de Déu del Coll,7.73,36.0,6.77,2.91,0.312,2.33,1736,ok
+0064656AR,429652.41,4586100.61,113.82,Celtis australis,False,EXEMPLAR,Rbla Carmel,11.2,71.5,9.54,6.78,0.222,3.01,2444,ok
+0064657AR,429308.16,4585933.87,180.16,Cercis siliquastrum,False,SEGONA,C\ Murtra,4.99,17.5,4.72,3.38,0.162,3.64,266,ok
+0064658AR,429633.57,4586354.27,103.34,Brachychiton populneus,False,SEGONA,Rbla Carmel,5.57,13.0,4.07,2.73,0.491,1.42,589,ok
+0064659AR,429565.98,4586610.96,101.39,Styphnolobium japonicum,False,TERCERA,C\ Beatriu,8.09,31.8,6.36,4.84,0.302,2.39,563,ok
+0064661AR,429071.63,4585900.28,166.21,Brachychiton populneus,False,TERCERA,C\ Llobregós,9.63,10.5,3.66,4.34,0.28,2.55,254,ok
+0064663AR,429343.7,4586521.28,107.53,Cercis siliquastrum,False,SEGONA,C\ Farnés,9.07,41.8,7.29,5.0,0.218,3.05,1875,ok
+0064664AR,429126.3,4585936.3,162.44,Brachychiton populneus,False,SEGONA,C\ Llobregós,5.57,18.2,4.82,3.13,0.401,1.83,436,ok
+0064666AR,429431.92,4585788.1,177.54,Ligustrum lucidum,False,SEGONA,C\ Murtra,8.39,34.8,6.65,4.79,0.137,3.97,517,ok
+0064667AR,429554.53,4585751.97,172.38,Ligustrum lucidum,False,SEGONA,C\ Calderón de la Barca,6.4,17.0,4.65,4.76,0.279,2.55,258,ok
+0064668AR,429566.78,4585670.59,179.97,Ligustrum lucidum,False,SEGONA,C\ Calderón de la Barca,6.12,21.5,5.23,4.35,0.429,1.69,637,ok
+0064669AR,429387.04,4586050.85,139.56,Melia azedarach,False,SEGONA,C\ Calderón de la Barca,13.54,23.0,5.41,8.83,0.204,3.18,874,ok
+0064670AR,429446.19,4586327.58,112.72,Liquidambar styraciflua,False,PRIMERA,Pl Pastrana,6.31,20.2,5.08,3.44,0.343,2.14,723,ok
+0064671AR,429619.52,4586268.62,106.37,Styphnolobium japonicum,False,SEGONA,Rbla Carmel,19.13,24.8,5.61,5.69,0.341,2.15,616,ok
+0064672AR,429476.56,4586531.18,106.16,Styphnolobium japonicum,False,SEGONA,C\ Dante Alighieri,9.2,29.0,6.08,5.49,0.23,2.94,1004,ok
+0064673AR,429699.21,4585659.61,190.89,Styphnolobium japonicum,False,SEGONA,C\ Gran Vista,9.16,35.2,6.7,5.97,0.185,3.37,1114,ok
+0064674AR,429565.95,4585675.91,179.49,Ligustrum lucidum,False,SEGONA,C\ Calderón de la Barca,5.64,17.5,4.72,1.77,0.365,2.01,671,ok
+0064676AR,429067.75,4585902.69,166.31,Styphnolobium japonicum,False,SEGONA,C\ Llobregós,6.35,39.0,7.05,3.03,0.255,2.73,901,ok
+0064678AR,429461.48,4585479.12,191.74,Platanus × acerifolia,True,TERCERA,Jard Juan Ponce,11.93,54.8,8.35,5.6,0.389,1.89,3442,ok
+0064680AR,429565.44,4585723.87,174.92,Cercis siliquastrum,False,SEGONA,C\ Calderón de la Barca,7.32,20.0,5.05,4.8,0.349,2.1,398,ok
+0064681AR,429108.01,4585904.3,167.06,Prunus cerasifera 'Pissardii',False,SEGONA,C\ Fastenrath,5.33,29.0,6.08,3.43,0.37,1.99,565,ok
+0064682AR,429629.48,4586377.49,102.26,Brachychiton populneus,False,PRIMERA,Rbla Carmel,4.07,1.2,1.26,2.32,0.542,1.23,58,no_crown_detected
+0064683AR,429679.3,4585774.63,153.88,Cercis siliquastrum,False,PRIMERA,C\ Passerell,5.44,4.8,2.46,2.05,0.461,1.55,102,ok
+0064686AR,429613.3,4586166.78,109.54,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Lugo,9.32,11.2,3.78,2.84,0.221,3.02,352,ok
+0064687AR,429610.14,4585982.32,125.68,Tilia x euchlora,False,PRIMERA,C\ Santa Otília,4.56,6.5,2.88,1.96,0.406,1.8,133,ok
+0064688AR,429266.56,4586036.93,150.27,Brachychiton populneus,False,SEGONA,C\ Llobregós,6.78,16.0,4.51,2.84,0.535,1.25,705,ok
+0064689AR,429389.44,4585825.6,174.89,Ligustrum lucidum,False,SEGONA,C\ Murtra,4.91,25.5,5.7,3.5,0.299,2.41,461,ok
+0064690AR,429135.06,4586444.38,104.26,Celtis australis,False,TERCERA,C\ Lisboa,8.8,48.0,7.82,4.84,0.283,2.52,1699,ok
+0064691AR,429699.83,4585650.35,190.45,Styphnolobium japonicum,False,SEGONA,C\ Gran Vista,6.81,25.5,5.7,4.58,0.324,2.25,1083,ok
+0064692AR,429470.73,4586676.1,90.37,Celtis australis,False,PRIMERA,C\ Lisboa,5.26,11.2,3.78,3.87,0.441,1.64,222,ok
+0064693AR,429622.36,4586425.68,100.32,Brachychiton acerifolius,False,PRIMERA,Rbla Carmel,0.0,4.5,2.39,5.37,0.41,1.79,151,low_tree
+0064694AR,429520.46,4586235.52,118.58,Styphnolobium japonicum,False,SEGONA,C\ Llobregós,7.25,37.5,6.91,3.85,0.366,2.01,1479,ok
+0064695AR,429175.84,4585975.82,160.63,Styphnolobium japonicum,False,SEGONA,C\ Llobregós,8.87,37.5,6.91,5.24,0.24,2.86,747,ok
+0064697AR,429649.86,4586066.15,118.12,Celtis australis,False,TERCERA,Rbla Carmel,10.43,39.8,7.11,6.36,0.213,3.09,1249,ok
+0064698AR,429350.72,4586414.21,111.79,Styphnolobium japonicum,False,SEGONA,C\ Dante Alighieri,9.13,48.5,7.86,5.13,0.245,2.81,1603,ok
+0064699AR,429161.96,4586473.32,103.79,Celtis australis,False,TERCERA,C\ Lisboa,9.07,39.0,7.05,5.37,0.317,2.3,1360,ok
+0064701AR,429270.0,4586019.15,160.54,Tipuana tipu,False,TERCERA,C\ Hortal,8.05,59.0,8.67,4.12,0.387,1.9,2740,ok
+0064702AR,429068.91,4585799.89,184.34,Tipuana tipu,False,TERCERA,C\ Hortal,12.17,72.0,9.57,5.1,0.173,3.51,1790,ok
+0064703AR,429525.24,4586700.63,86.0,Celtis australis,False,EXEMPLAR,C\ Lisboa,12.8,99.0,11.23,5.81,0.13,4.08,2237,ok
+0064704AR,429327.28,4586086.47,138.1,Styphnolobium japonicum,False,SEGONA,C\ Llobregós,8.0,40.0,7.14,4.64,0.396,1.85,1457,ok
+0064705AR,429570.64,4586138.75,113.65,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Lugo,7.11,16.5,4.58,4.63,0.425,1.71,613,ok
+0064706AR,429116.81,4586120.6,152.36,Ligustrum lucidum,False,SEGONA,Camí Vell del Coll,6.7,45.0,7.57,2.36,0.268,2.63,1317,ok
+0064707AR,429632.98,4586528.18,100.54,Styphnolobium japonicum,False,PRIMERA,Rbla Carmel,4.85,12.2,3.95,2.25,0.611,0.98,517,ok
+0064708AR,429283.92,4586527.7,104.51,Tilia x euchlora,False,SEGONA,Ptge Andalet,5.4,30.8,6.26,2.22,0.28,2.54,1094,ok
+0064709AR,429491.41,4586317.09,112.27,Melia azedarach,False,SEGONA,Pl Pastrana,5.23,13.8,4.18,3.2,0.454,1.58,541,ok
+0064711AR,429608.58,4586472.01,100.52,Brachychiton populneus,False,SEGONA,Rbla Carmel,9.55,21.8,5.26,3.08,0.335,2.19,869,ok
+0064712AR,429598.49,4586156.86,111.04,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Lugo,7.85,15.2,4.41,2.77,0.326,2.24,494,ok
+0064714AR,429652.31,4586399.6,99.05,Brachychiton populneus,False,SEGONA,C\ Ciències,7.84,16.2,4.55,2.99,0.253,2.75,507,ok
+0064715AR,429166.96,4586478.27,103.69,Celtis australis,False,TERCERA,C\ Lisboa,9.98,45.0,7.57,5.22,0.284,2.52,1867,ok
+0064717AR,429150.97,4585969.5,161.69,Styphnolobium japonicum,False,SEGONA,C\ Llobregós,7.27,35.8,6.75,4.4,0.272,2.61,688,ok
+0064719AR,429706.62,4586080.02,117.42,Styphnolobium japonicum,False,SEGONA,C\ Pedrell,7.17,90.5,10.73,5.2,0.283,2.52,3566,ok
+0064720AR,429676.49,4586070.91,118.46,Styphnolobium japonicum,False,SEGONA,C\ Pedrell,7.69,29.0,6.08,4.47,0.289,2.49,943,ok
+0064721AR,429389.82,4586463.11,109.27,Styphnolobium japonicum,False,SEGONA,C\ Dante Alighieri,10.81,52.8,8.2,5.79,0.205,3.17,1923,ok
+0064722AR,429680.64,4585648.48,189.7,Styphnolobium japonicum,False,TERCERA,C\ Gran Vista,10.09,29.5,6.13,3.27,0.287,2.5,1707,ok
+0064723AR,429469.56,4585812.47,172.17,Ligustrum lucidum,False,PRIMERA,C\ Segimon,,0.0,0.0,,,,0,no_crown_detected
+0064724AR,429598.21,4586536.76,101.31,Brachychiton populneus,False,SEGONA,Rbla Carmel,7.38,10.5,3.66,3.24,0.445,1.62,459,ok
+0064726AR,429175.48,4585987.07,160.24,Styphnolobium japonicum,False,PRIMERA,C\ Llobregós,5.28,13.2,4.11,3.95,0.354,2.08,254,ok
+0064727AR,429441.32,4586507.76,107.28,Styphnolobium japonicum,False,SEGONA,C\ Dante Alighieri,15.67,34.8,6.65,5.48,0.206,3.16,1249,ok
+0064728AR,429062.31,4586135.29,156.59,Styphnolobium japonicum,False,SEGONA,Pg Mare de Déu del Coll,8.91,9.0,3.39,3.95,0.274,2.59,386,ok
+0064729AR,429529.99,4586270.44,114.16,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Lluís Marià Vidal,7.03,16.5,4.58,2.63,0.36,2.04,577,ok
+0064730AR,429624.76,4586646.31,96.89,Styphnolobium japonicum,False,TERCERA,C\ Lletres,9.97,105.0,11.56,4.43,0.214,3.08,2240,ok
+0064732AR,429582.79,4586268.47,110.68,Styphnolobium japonicum,False,SEGONA,C\ Llobregós,7.24,28.2,6.0,3.39,0.428,1.7,1177,ok
+0064734AR,429293.63,4586053.92,146.58,Magnolia grandiflora,False,SEGONA,C\ Ramon Rocafull,5.27,12.8,4.03,3.1,0.535,1.25,486,ok
+0064735AR,429537.8,4585803.68,168.15,Cercis siliquastrum,False,SEGONA,C\ Calderón de la Barca,5.75,18.8,4.89,4.02,0.335,2.19,248,ok
+0064736AR,429231.88,4586028.2,155.66,Styphnolobium japonicum,False,SEGONA,C\ Llobregós,8.36,29.5,6.13,4.62,0.365,2.01,903,ok
+0064738AR,429219.34,4586509.86,103.15,Celtis australis,False,SEGONA,C\ Lisboa,7.92,34.2,6.6,4.07,0.361,2.04,1603,ok
+0064739AR,429637.58,4586522.08,99.92,Styphnolobium japonicum,False,TERCERA,C\ Ciències,8.78,72.5,9.61,4.57,0.371,1.99,3018,ok
+0064741AR,429496.96,4586296.63,112.79,Brachychiton acerifolius,False,TERCERA,Pl Pastrana,10.19,28.5,6.02,4.43,0.324,2.26,1407,ok
+0064742AR,429609.54,4586429.61,97.77,Styphnolobium japonicum,False,TERCERA,Rbla Carmel,8.5,41.0,7.23,5.49,0.383,1.92,1669,ok
+0064743AR,429636.23,4586459.89,96.76,Populus alba 'Pyramidalis',False,EXEMPLAR,C\ Ciències,12.33,52.8,8.2,4.11,0.302,2.4,2925,ok
+0064744AR,429331.44,4585798.92,203.24,Styphnolobium japonicum,False,SEGONA,C\ Santuari,7.27,36.0,6.77,4.14,0.119,4.25,703,ok
+0064745AR,429181.13,4585979.29,160.28,Styphnolobium japonicum,False,SEGONA,C\ Llobregós,8.27,38.8,7.02,4.95,0.241,2.84,704,ok
+0064746AR,429676.69,4586271.4,102.01,Styphnolobium japonicum,False,PRIMERA,C\ Ciències,3.51,7.0,2.99,2.9,0.587,1.07,275,ok
+0064748AR,429428.97,4585791.85,177.14,Ligustrum lucidum,False,SEGONA,C\ Murtra,7.18,22.8,5.38,5.0,0.241,2.84,340,ok
+0064749AR,429598.91,4586531.28,101.18,Brachychiton acerifolius,False,PRIMERA,Rbla Carmel,4.78,0.5,0.8,4.78,0.556,1.18,13,no_crown_detected
+0064751AR,429417.88,4585804.22,176.16,Jacaranda mimosifolia,False,TERCERA,C\ Murtra,9.17,59.5,8.7,4.75,0.352,2.09,1518,ok
+0064752AR,429615.63,4586467.56,100.51,Brachychiton populneus,False,TERCERA,Rbla Carmel,6.68,18.2,4.82,3.33,0.445,1.62,859,ok
+0064753AR,429515.81,4586559.57,104.85,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Argimon,3.67,1.5,1.38,2.65,0.375,1.96,43,no_crown_detected
+0064754AR,429647.48,4586459.86,93.64,Styphnolobium japonicum,False,TERCERA,C\ Ciències,13.34,44.8,7.55,5.26,0.255,2.73,2000,ok
+0064755AR,429678.76,4585651.29,189.72,Styphnolobium japonicum,False,SEGONA,C\ Gran Vista,9.52,36.0,6.77,4.86,0.279,2.56,2106,ok
+0064756AR,429359.55,4585764.52,203.34,Styphnolobium japonicum,False,SEGONA,C\ Santuari,6.68,24.8,5.61,3.26,0.219,3.04,457,ok
+0064758AR,429100.6,4585912.41,165.34,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Fastenrath,4.15,5.5,2.65,2.78,0.457,1.57,116,ok
+0064759AR,429196.33,4585850.92,205.02,Styphnolobium japonicum,False,SEGONA,C\ Santuari,12.31,21.8,5.26,2.35,0.211,3.11,341,ok
+0064761AR,429588.61,4586530.0,101.22,Styphnolobium japonicum,False,SEGONA,Rbla Carmel,9.57,42.8,7.38,5.64,0.405,1.81,2035,ok
+0064762AR,429640.8,4586125.14,111.36,Celtis australis,False,EXEMPLAR,Rbla Carmel,12.51,47.0,7.74,9.1,0.164,3.62,1403,ok
+0064763AR,429156.53,4585962.08,161.63,Styphnolobium japonicum,False,SEGONA,C\ Llobregós,6.82,33.2,6.51,4.16,0.263,2.67,643,ok
+0064764AR,429899.55,4585779.54,198.97,Styphnolobium japonicum,False,TERCERA,C\ Gran Vista,9.53,46.8,7.72,4.42,0.157,3.71,1161,ok
+0064765AR,429375.47,4585744.28,201.62,Styphnolobium japonicum,False,SEGONA,C\ Santuari,12.14,32.2,6.41,4.6,0.151,3.78,702,ok
+0064766AR,429547.22,4586710.38,92.33,Celtis australis,False,EXEMPLAR,C\ Lisboa,8.12,53.2,8.23,3.64,0.061,5.59,834,ok
+0064768AR,429652.57,4586429.87,93.14,Styphnolobium japonicum,False,SEGONA,C\ Ciències,19.58,60.8,8.79,5.64,0.171,3.53,2885,ok
+0064769AR,429430.44,4585900.39,156.28,Ligustrum lucidum,False,PRIMERA,C\ Calderón de la Barca,10.25,13.0,4.07,8.0,0.256,2.73,223,ok
+0064771AR,429905.59,4585773.34,199.12,Styphnolobium japonicum,False,SEGONA,C\ Gran Vista,10.19,54.8,8.35,3.91,0.202,3.2,1257,ok
+0064772AR,429398.74,4586373.25,112.34,Citrus × aurantium,False,PRIMERA,C\ Sacedón,3.47,5.5,2.65,2.4,0.406,1.8,144,ok
+0064773AR,430087.14,4585753.17,204.99,Firmiana simplex,False,SEGONA,C\ Gran Vista,7.08,24.2,5.56,3.34,0.221,3.02,435,ok
+0064774AR,429437.18,4585891.98,157.02,Melia azedarach,False,EXEMPLAR,C\ Calderón de la Barca,16.62,7.0,2.99,8.05,0.117,4.3,163,ok
+0064775AR,429331.34,4585906.68,177.39,Cercis siliquastrum,False,PRIMERA,C\ Murtra,8.34,22.2,5.32,3.14,0.159,3.67,433,ok
+0064776AR,429583.94,4585577.11,187.7,Styphnolobium japonicum,False,SEGONA,C\ Gran Vista,6.8,44.5,7.53,3.34,0.338,2.17,2063,ok
+0064777AR,429146.78,4585954.93,161.84,Styphnolobium japonicum,False,SEGONA,C\ Llobregós,8.01,37.2,6.89,4.25,0.224,2.99,780,ok
+0064778AR,429797.36,4585800.95,168.34,Ligustrum lucidum,False,SEGONA,Ptge Cadernera,6.66,32.5,6.43,3.42,0.23,2.94,579,ok
+0064779AR,429581.97,4586523.24,101.03,Styphnolobium japonicum,False,PRIMERA,Rbla Carmel,4.52,13.0,4.07,2.67,0.389,1.89,407,ok
+0064781AR,429557.83,4586245.86,114.3,Brachychiton populneus,False,SEGONA,C\ Llobregós,6.94,9.0,3.39,4.51,0.352,2.09,327,ok
+0064782AR,429326.33,4585898.68,177.26,Ligustrum lucidum,False,SEGONA,C\ Murtra,7.17,22.5,5.35,3.96,0.203,3.19,315,ok
+0064783AR,429653.3,4586094.97,114.58,Celtis australis,False,SEGONA,Rbla Carmel,9.19,50.0,7.98,4.96,0.311,2.34,1609,ok
+0064784AR,429032.93,4585874.28,173.01,Brachychiton populneus,False,EXEMPLAR,C\ Llobregós,11.09,21.2,5.2,4.21,0.156,3.72,623,ok
+0064786AR,429647.67,4586386.5,100.6,Brachychiton acerifolius,False,SEGONA,C\ Ciències,4.9,3.0,1.95,3.12,0.443,1.63,127,ok
+0064787AR,429833.87,4585730.52,196.38,Styphnolobium japonicum,False,SEGONA,C\ Gran Vista,8.79,43.2,7.42,4.4,0.191,3.31,896,ok
+0064789AR,429331.05,4586101.54,136.39,Styphnolobium japonicum,False,SEGONA,C\ Llobregós,6.49,44.0,7.48,4.33,0.404,1.81,1697,ok
+0064790AR,429591.61,4586512.78,100.62,Styphnolobium japonicum,False,TERCERA,Rbla Carmel,9.98,45.0,7.57,5.21,0.305,2.38,2262,ok
+0064791AR,429560.67,4586414.31,99.94,Styphnolobium japonicum,False,SEGONA,C\ Granollers,6.22,44.8,7.55,4.43,0.117,4.29,1245,ok
+0064792AR,429489.36,4585871.63,162.46,Melia azedarach,False,TERCERA,C\ Calderón de la Barca,12.44,28.8,6.05,9.21,0.207,3.15,523,ok
+0064793AR,429172.87,4585920.8,176.5,Ginkgo biloba 'Fastigiata',False,PRIMERA,C\ Fastenrath,4.45,5.8,2.71,3.72,0.398,1.84,93,ok
+0064794AR,429656.97,4586369.01,102.76,Brachychiton acerifolius,False,SEGONA,C\ Ciències,5.71,24.0,5.53,3.55,0.201,3.2,1092,ok
+0064795AR,429518.17,4585507.13,190.6,Platanus × acerifolia,True,TERCERA,Jard Juan Ponce,11.0,18.2,4.82,2.51,0.463,1.54,789,ok
+0064796AR,429504.19,4586208.12,120.16,Brachychiton populneus,False,SEGONA,C\ Llobregós,5.96,15.2,4.41,3.65,0.343,2.14,511,ok
+0064799AR,429166.5,4585963.37,161.36,Brachychiton populneus,False,SEGONA,C\ Llobregós,6.13,34.5,6.63,3.4,0.387,1.9,778,ok
+0064800AR,429309.64,4586561.87,102.48,Celtis australis,False,TERCERA,C\ Lisboa,7.75,30.2,6.21,4.19,0.268,2.64,1007,ok
+0064803AR,429301.16,4586063.04,144.53,Brachychiton populneus,False,SEGONA,C\ Llobregós,7.69,15.8,4.48,4.41,0.338,2.17,498,ok
+0064804AR,429390.31,4586384.53,112.0,Ligustrum japonicum 'Texanum',False,PRIMERA,C\ Sacedón,3.55,9.2,3.43,2.5,0.297,2.43,220,ok
+0064806AR,429604.13,4586465.58,97.47,Styphnolobium japonicum,False,SEGONA,Rbla Carmel,6.4,37.8,6.93,4.31,0.513,1.33,1460,ok
+0064807AR,429674.3,4586288.39,101.59,Styphnolobium japonicum,False,PRIMERA,C\ Ciències,3.49,10.8,3.7,2.72,0.584,1.07,424,ok
+0064808AR,429637.45,4586253.27,105.98,Styphnolobium japonicum,False,TERCERA,Rbla Carmel,8.07,31.2,6.31,4.1,0.385,1.91,1619,ok
+0064810AR,429426.88,4586044.94,134.39,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Lugo,4.57,13.0,4.07,3.54,0.51,1.35,470,ok
+0064811AR,429364.09,4586125.16,131.56,Styphnolobium japonicum,False,SEGONA,C\ Llobregós,6.6,32.8,6.46,3.98,0.341,2.15,1093,ok
+0064812AR,429536.73,4586559.36,104.08,Styphnolobium japonicum,False,SEGONA,C\ Dante Alighieri,8.66,24.0,5.53,4.59,0.321,2.27,1004,ok
+0064813AR,429117.17,4586238.76,145.96,Styphnolobium japonicum,False,TERCERA,Pg Mare de Déu del Coll,11.44,95.5,11.03,6.77,0.202,3.2,3763,ok
+0064814AR,429484.62,4585871.18,162.15,Melia azedarach,False,SEGONA,C\ Calderón de la Barca,10.64,31.8,6.36,7.82,0.276,2.58,573,ok
+0064815AR,429562.5,4586254.1,113.42,Styphnolobium japonicum,False,SEGONA,C\ Llobregós,6.46,21.2,5.2,3.76,0.414,1.77,907,ok
+0064816AR,429294.95,4586023.14,157.46,Tipuana tipu,False,SEGONA,C\ Hortal,7.62,31.5,6.33,4.63,0.382,1.92,1383,ok
+0064817AR,429502.52,4586300.51,112.32,Brachychiton acerifolius,False,TERCERA,Pl Pastrana,8.36,19.0,4.92,4.04,0.394,1.86,856,ok
+0064818AR,429526.2,4586277.1,113.67,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Lluís Marià Vidal,6.39,4.8,2.46,2.52,0.349,2.11,193,ok
+0064819AR,429658.3,4586357.64,103.22,Brachychiton acerifolius,False,SEGONA,C\ Ciències,8.21,16.2,4.55,2.94,0.158,3.69,604,ok
+0064820AR,429486.9,4586683.95,89.03,Celtis australis,False,SEGONA,C\ Lisboa,6.88,13.5,4.15,2.42,0.393,1.87,275,ok
+0064821AR,429656.87,4586400.57,95.27,Styphnolobium japonicum,False,TERCERA,C\ Ciències,8.89,34.8,6.65,4.75,0.371,1.98,1350,ok
+0064822AR,429459.0,4585706.63,204.75,Styphnolobium japonicum,False,TERCERA,C\ Santuari,10.86,63.0,8.96,5.49,0.087,4.89,1473,ok
+0064824AR,429640.48,4586471.95,97.79,Brachychiton populneus,False,SEGONA,C\ Ciències,7.15,12.2,3.95,3.27,0.148,3.82,722,ok
+0064826AR,429712.75,4585799.38,160.91,Cercis siliquastrum,False,SEGONA,Bda Passerell,5.37,27.0,5.86,2.64,0.392,1.87,520,ok
+0064829AR,429339.66,4586517.11,107.91,Cercis siliquastrum,False,TERCERA,C\ Farnés,8.51,31.8,6.36,4.42,0.231,2.93,1355,ok
+0064830AR,429390.87,4585835.31,174.61,Cercis siliquastrum,False,PRIMERA,C\ Murtra,5.35,14.5,4.3,3.51,0.344,2.13,250,ok
+0064831AR,429894.45,4585776.42,198.74,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Gran Vista,4.71,17.8,4.75,3.02,0.28,2.54,339,ok
+0064832AR,429201.04,4585853.98,205.26,Lagunaria patersonia,False,PRIMERA,C\ Santuari,12.34,12.2,3.95,2.22,0.179,3.44,207,ok
+0064835AR,429899.22,4585769.56,198.92,Styphnolobium japonicum,False,TERCERA,C\ Gran Vista,9.57,56.5,8.48,3.52,0.124,4.18,1390,ok
+0064837AR,429618.36,4586170.24,108.97,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Lugo,12.82,7.2,3.04,3.21,0.266,2.65,244,ok
+0064838AR,429447.93,4585878.99,158.22,Melia azedarach,False,EXEMPLAR,C\ Calderón de la Barca,18.64,122.8,12.5,11.47,0.099,4.63,2291,ok
+0064839AR,429122.87,4585905.22,169.44,Ginkgo biloba,False,PRIMERA,C\ Fastenrath,5.39,25.0,5.64,3.02,0.29,2.48,493,ok
+0064840AR,429520.27,4586219.18,119.32,Brachychiton populneus,False,PRIMERA,C\ Llobregós,5.96,17.5,4.72,4.88,0.342,2.15,647,ok
+0064842AR,429557.86,4586250.47,114.1,Styphnolobium japonicum,False,SEGONA,C\ Llobregós,8.26,28.8,6.05,4.58,0.315,2.31,1502,ok
+0064845AR,429018.96,4585762.99,195.44,Lagunaria patersonia,False,PRIMERA,C\ Santuari,4.93,4.0,2.26,3.82,0.47,1.51,83,ok
+0064847AR,429572.3,4586260.42,112.07,Styphnolobium japonicum,False,SEGONA,C\ Llobregós,6.88,26.5,5.81,3.95,0.442,1.63,1139,ok
+0064848AR,429623.01,4586245.5,106.75,Styphnolobium japonicum,False,SEGONA,Rbla Carmel,8.6,35.8,6.75,5.21,0.258,2.71,1267,ok
+0064849AR,429607.02,4586447.88,97.71,Styphnolobium japonicum,False,TERCERA,Rbla Carmel,10.13,33.5,6.53,5.58,0.347,2.12,1497,ok
+0064850AR,429472.42,4586075.11,125.9,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Lugo,3.99,3.0,1.95,2.84,0.406,1.8,90,ok
+0064851AR,429624.65,4586334.93,103.48,Styphnolobium japonicum,False,SEGONA,Rbla Carmel,6.1,26.8,5.84,4.35,0.474,1.49,1026,ok
+0064852AR,429678.83,4586259.7,102.09,Styphnolobium japonicum,False,TERCERA,C\ Ciències,7.16,33.2,6.51,4.2,0.475,1.49,1478,ok
+0064854AR,429805.2,4585722.95,195.38,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Gran Vista,5.22,13.0,4.07,3.35,0.319,2.28,288,ok
+0064855AR,429738.18,4585702.6,182.03,Ulmus pumila,False,EXEMPLAR,C\ Doctor Bové,12.69,82.0,10.22,4.97,0.17,3.55,1897,ok
+0064856AR,429504.49,4586224.85,119.67,Styphnolobium japonicum,False,SEGONA,C\ Llobregós,6.32,33.5,6.53,2.79,0.247,2.8,1096,ok
+0064858AR,429257.08,4586029.88,152.2,Brachychiton populneus,False,SEGONA,C\ Llobregós,6.51,19.8,5.01,3.78,0.493,1.42,831,ok
+0064860AR,429208.22,4585941.52,178.03,Cercis siliquastrum,False,PRIMERA,C\ Fastenrath,3.67,5.5,2.65,2.31,0.514,1.33,107,ok
+0064861AR,429419.86,4585931.42,153.24,Ligustrum lucidum,False,PRIMERA,C\ Calderón de la Barca,13.07,2.8,1.87,6.42,0.161,3.65,62,ok
+0064862AR,430001.82,4585972.8,143.48,Platanus × acerifolia,True,EXEMPLAR,Pg Font de la Mulassa,18.23,89.8,10.69,6.97,0.165,3.6,2249,ok
+0064865AR,429527.6,4585822.73,166.65,Melia azedarach,False,TERCERA,C\ Calderón de la Barca,11.11,36.2,6.79,7.92,0.167,3.58,544,ok
+0064866AR,429182.79,4586073.55,145.45,Ligustrum lucidum,False,SEGONA,C\ Murtra,6.26,11.5,3.83,3.34,0.41,1.79,370,ok
+0064867AR,429627.88,4586389.84,101.76,Brachychiton populneus,False,PRIMERA,Rbla Carmel,3.65,6.0,2.76,3.52,0.418,1.74,310,ok
+0064868AR,429061.37,4586074.2,167.72,Styphnolobium japonicum,False,TERCERA,Pg Mare de Déu del Coll,12.12,42.8,7.38,4.46,0.321,2.27,1720,ok
+0064871AR,428976.75,4585859.58,182.82,Brachychiton populneus,False,SEGONA,C\ Llobregós,4.72,3.8,2.19,2.04,0.481,1.46,81,ok
+0064874AR,428980.74,4585864.85,182.07,Brachychiton acerifolius,False,SEGONA,C\ Llobregós,5.52,4.2,2.33,3.46,0.421,1.73,95,ok
+0064876AR,429556.32,4586657.81,97.98,Styphnolobium japonicum,False,SEGONA,C\ Beatriu,9.05,28.5,6.02,4.93,0.19,3.32,499,ok
+0064877AR,429393.97,4586037.08,141.17,Ligustrum lucidum,False,PRIMERA,C\ Calderón de la Barca,9.22,15.8,4.48,5.21,0.23,2.94,601,ok
+0064878AR,429648.27,4586242.31,104.47,Populus alba 'Pyramidalis',False,TERCERA,Rbla Carmel,11.8,26.8,5.84,5.41,0.297,2.43,1357,ok
+0064880AR,429673.94,4586240.77,104.42,Brachychiton populneus,False,SEGONA,C\ Ciències,6.74,6.2,2.82,2.03,0.205,3.17,257,ok
+0064881AR,429669.48,4586288.4,104.35,Brachychiton populneus,False,SEGONA,C\ Ciències,6.92,8.5,3.29,3.14,0.286,2.5,420,ok
+0064882AR,429498.1,4586688.74,88.14,Celtis australis,False,SEGONA,C\ Lisboa,6.09,27.2,5.89,2.69,0.405,1.81,514,ok
+0064883AR,429280.26,4586063.8,145.68,Styphnolobium japonicum,False,PRIMERA,C\ Llobregós,6.34,31.2,6.31,4.69,0.397,1.85,1100,ok
+0064885AR,429304.45,4586023.61,156.06,Tipuana tipu,False,PRIMERA,C\ Hortal,4.47,50.0,7.98,3.07,0.431,1.68,2039,ok
+0064887AR,429626.27,4586640.49,97.53,Styphnolobium japonicum,False,TERCERA,C\ Lletres,9.72,67.5,9.27,4.73,0.276,2.58,1422,ok
+0064888AR,429341.76,4586326.24,119.07,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Moratín,11.76,14.8,4.33,3.51,0.481,1.47,498,ok
+0064889AR,429564.62,4585687.87,178.37,Ligustrum lucidum,False,SEGONA,C\ Calderón de la Barca,7.69,31.8,6.36,5.05,0.153,3.75,450,ok
+0064890AR,429117.94,4586433.57,105.05,Celtis australis,False,TERCERA,C\ Lisboa,9.42,44.0,7.48,5.19,0.256,2.72,1523,ok
+0064892AR,429171.39,4585972.54,160.87,Styphnolobium japonicum,False,SEGONA,C\ Llobregós,9.08,37.0,6.86,5.44,0.195,3.27,802,ok
+0064893AR,429605.32,4586279.86,108.18,Brachychiton populneus,False,SEGONA,C\ Llobregós,6.66,6.8,2.93,4.32,0.337,2.17,207,ok
+0064894AR,429202.2,4585995.02,158.9,Styphnolobium japonicum,False,SEGONA,C\ Llobregós,6.6,29.0,6.08,3.97,0.196,3.26,617,ok
+0064895AR,429151.41,4585952.9,161.89,Brachychiton populneus,False,TERCERA,C\ Llobregós,11.2,37.2,6.89,2.94,0.279,2.56,894,ok
+0064896AR,429481.21,4586533.75,105.97,Styphnolobium japonicum,False,SEGONA,C\ Dante Alighieri,7.66,25.2,5.67,5.58,0.178,3.45,787,ok
+0064897AR,429492.55,4586686.46,88.57,Celtis australis,False,SEGONA,C\ Lisboa,6.76,20.8,5.14,4.38,0.319,2.28,398,ok
+0064898AR,429668.5,4586068.58,118.7,Styphnolobium japonicum,False,SEGONA,C\ Pedrell,6.64,22.8,5.38,4.23,0.404,1.81,771,ok
+0064900AR,429061.69,4586129.29,157.67,Styphnolobium japonicum,False,SEGONA,Pg Mare de Déu del Coll,7.09,23.0,5.41,3.8,0.374,1.97,1050,ok
+0064904AR,429570.75,4585516.93,187.88,Platanus × acerifolia,True,TERCERA,Jard Juan Ponce,14.57,55.8,8.43,5.96,0.274,2.59,3115,ok
+0064905AR,429215.9,4585938.5,178.72,Ligustrum lucidum,False,SEGONA,C\ Fastenrath,5.08,17.8,4.75,3.06,0.408,1.8,319,ok
+0064906AR,429916.65,4585780.31,199.59,Styphnolobium japonicum,False,TERCERA,C\ Gran Vista,8.14,31.8,6.36,4.78,0.188,3.34,754,ok
+0064907AR,429012.62,4585764.08,195.28,Cercis siliquastrum,False,PRIMERA,C\ Santuari,11.39,11.5,3.83,3.0,0.306,2.37,183,ok
+0064910AR,429567.18,4586252.32,113.27,Brachychiton populneus,False,SEGONA,C\ Llobregós,6.65,11.0,3.74,3.92,0.445,1.62,491,ok
+0064911AR,429618.9,4586369.7,101.14,Styphnolobium japonicum,False,TERCERA,Rbla Carmel,11.08,40.0,7.14,6.56,0.301,2.4,1869,ok
+0064912AR,429616.29,4586498.81,99.76,Brachychiton acerifolius,False,SEGONA,Rbla Carmel,5.17,4.2,2.33,3.95,0.543,1.22,191,ok
+0064913AR,429554.13,4586669.23,97.58,Styphnolobium japonicum,False,TERCERA,C\ Beatriu,7.67,34.5,6.63,5.22,0.209,3.13,559,ok
+0064914AR,429321.23,4586094.57,138.22,Styphnolobium japonicum,False,PRIMERA,C\ Llobregós,6.74,38.2,6.98,4.04,0.369,1.99,1417,ok
+0064916AR,429392.34,4585723.76,201.49,Lagunaria patersonia,False,PRIMERA,C\ Santuari,,0.0,0.0,,,,0,no_crown_detected
+0064918AR,429715.1,4585659.38,191.42,Styphnolobium japonicum,False,SEGONA,C\ Gran Vista,9.5,59.2,8.69,3.91,0.232,2.92,1832,ok
+0064919AR,429105.27,4585927.51,162.94,Styphnolobium japonicum,False,SEGONA,C\ Llobregós,6.07,25.2,5.67,3.87,0.344,2.13,421,ok
+0064920AR,429402.82,4585813.97,175.58,Ligustrum lucidum,False,SEGONA,C\ Murtra,5.27,6.2,2.82,3.6,0.443,1.63,140,ok
+0064922AR,429552.81,4586258.4,114.08,Styphnolobium japonicum,False,SEGONA,C\ Llobregós,7.7,30.8,6.26,4.3,0.328,2.23,1121,ok
+0064923AR,429476.91,4585489.71,191.24,Platanus × acerifolia,True,TERCERA,Jard Juan Ponce,12.64,78.5,10.0,5.07,0.314,2.32,3989,ok
+0064925AR,429656.14,4586235.75,104.61,Populus alba 'Pyramidalis',False,EXEMPLAR,Rbla Carmel,15.44,30.2,6.21,6.21,0.295,2.44,2043,ok
+0064926AR,429636.28,4586259.06,106.02,Styphnolobium japonicum,False,TERCERA,Rbla Carmel,8.83,37.0,6.86,4.94,0.386,1.9,1792,ok
+0064928AR,429411.15,4585706.43,202.91,Lagunaria patersonia,False,PRIMERA,C\ Santuari,8.09,7.2,3.04,2.23,0.145,3.86,117,ok
+0064930AR,429261.92,4586033.33,151.28,Brachychiton populneus,False,SEGONA,C\ Llobregós,7.59,16.2,4.55,3.97,0.437,1.66,826,ok
+0064931AR,429580.06,4585521.3,187.74,Platanus × acerifolia,True,EXEMPLAR,Jard Juan Ponce,16.49,40.8,7.2,7.96,0.173,3.51,1983,ok
+0064932AR,429310.95,4586490.68,109.69,Cercis siliquastrum,False,SEGONA,C\ Farnés,11.89,58.8,8.65,7.45,0.18,3.42,2122,ok
+0064933AR,429298.78,4585838.83,203.31,Styphnolobium japonicum,False,TERCERA,C\ Santuari,11.2,35.2,6.7,3.87,0.215,3.08,782,ok
+0064934AR,429584.36,4586506.1,100.46,Styphnolobium japonicum,False,PRIMERA,Rbla Carmel,13.93,15.0,4.37,2.22,0.287,2.5,471,ok
+0064936AR,429286.32,4586056.58,145.93,Styphnolobium japonicum,False,SEGONA,C\ Llobregós,7.62,42.5,7.36,4.36,0.422,1.73,1889,ok
+0064937AR,429659.5,4586382.68,96.82,Styphnolobium japonicum,False,TERCERA,C\ Ciències,13.16,36.0,6.77,5.48,0.354,2.08,1752,ok
+0064938AR,429421.53,4585915.17,155.05,Melia azedarach,False,EXEMPLAR,C\ Calderón de la Barca,14.27,81.8,10.2,8.71,0.221,3.02,1478,ok
+0064939AR,429661.53,4586370.36,97.86,Styphnolobium japonicum,False,TERCERA,C\ Ciències,9.82,37.0,6.86,5.63,0.305,2.38,1687,ok
+0064941AR,429421.98,4586493.73,107.95,Styphnolobium japonicum,False,SEGONA,C\ Dante Alighieri,9.89,36.2,6.79,5.38,0.236,2.89,1282,ok
+0064943AR,429205.6,4585856.27,205.4,Styphnolobium japonicum,False,SEGONA,C\ Santuari,9.4,25.8,5.73,4.52,0.185,3.37,631,ok
+0064944AR,429644.59,4586477.28,94.35,Styphnolobium japonicum,False,SEGONA,C\ Ciències,7.72,28.5,6.02,4.38,0.465,1.53,1135,ok
+0064945AR,429351.68,4586528.51,106.82,Cercis siliquastrum,False,PRIMERA,C\ Farnés,3.0,0.2,0.56,7.05,0.75,0.58,9,no_crown_detected
+0064946AR,429025.48,4585761.84,195.52,Cercis siliquastrum,False,SEGONA,C\ Santuari,12.67,18.8,4.89,3.86,0.263,2.67,289,ok
+0064947AR,429328.47,4586319.66,120.97,Prunus cerasifera 'Pissardii',False,SEGONA,C\ Moratín,11.35,19.0,4.92,3.81,0.363,2.03,635,ok
+0064949AR,429342.48,4586508.51,108.19,Cercis siliquastrum,False,SEGONA,C\ Farnés,12.71,19.2,4.95,3.8,0.233,2.91,610,ok
+0064951AR,429447.41,4585704.36,204.15,Lagunaria patersonia,False,PRIMERA,C\ Santuari,13.01,5.8,2.71,3.11,0.28,2.55,100,ok
+0064952AR,429642.73,4586489.86,94.78,Styphnolobium japonicum,False,TERCERA,C\ Ciències,10.15,50.2,8.0,5.1,0.27,2.62,2268,ok
+0064953AR,429312.92,4586088.07,139.85,Styphnolobium japonicum,False,SEGONA,C\ Llobregós,7.27,27.5,5.92,3.96,0.366,2.01,881,ok
+0064954AR,429655.97,4586406.23,94.79,Styphnolobium japonicum,False,SEGONA,C\ Ciències,7.71,31.5,6.33,5.06,0.421,1.73,1053,ok
+0064956AR,429169.39,4585928.42,175.28,Ginkgo biloba 'Fastigiata',False,PRIMERA,C\ Fastenrath,4.29,5.0,2.52,2.7,0.434,1.67,99,ok
+0064959AR,429369.74,4585851.57,174.02,Cercis siliquastrum,False,SEGONA,C\ Murtra,6.55,21.8,5.26,3.53,0.335,2.19,445,ok
+0064960AR,429583.4,4585570.53,188.2,Styphnolobium japonicum,False,TERCERA,C\ Gran Vista,9.74,79.0,10.03,3.71,0.245,2.81,3842,ok
+0064961AR,428955.06,4585835.51,187.58,Tipuana tipu,False,TERCERA,Pg Mare de Déu del Coll,12.03,94.5,10.97,6.62,0.179,3.44,1705,ok
+0064962AR,429574.69,4585812.78,154.11,Morus alba,False,SEGONA,C\ Alcalde de Zalamea,11.61,27.8,5.94,7.74,0.106,4.49,547,ok
+0064963AR,429620.32,4586394.5,101.38,Brachychiton acerifolius,False,SEGONA,Rbla Carmel,5.97,18.8,4.89,2.74,0.3,2.41,1061,ok
+0064964AR,429616.96,4586285.1,106.26,Pyrus calleryana 'Chanticleer',False,PRIMERA,Rbla Carmel,8.74,13.8,4.18,4.8,0.332,2.21,476,ok
+0064965AR,429347.81,4586524.91,107.17,Cercis siliquastrum,False,SEGONA,C\ Farnés,9.1,24.5,5.59,5.17,0.267,2.64,1108,ok
+0064968AR,429561.59,4585705.05,176.73,Ligustrum lucidum,False,SEGONA,C\ Calderón de la Barca,7.54,19.5,4.98,5.52,0.291,2.47,261,ok
+0064969AR,429499.92,4585806.74,170.15,Ligustrum lucidum,False,SEGONA,C\ Segimon,5.77,10.5,3.66,4.46,0.44,1.64,207,ok
+0064970AR,429393.51,4585821.06,175.12,Ligustrum lucidum,False,SEGONA,C\ Murtra,5.71,17.8,4.75,3.7,0.341,2.15,302,ok
+0064971AR,429325.46,4586225.44,126.62,Styphnolobium japonicum,False,SEGONA,Ptge Calafell,9.24,46.0,7.65,4.76,0.309,2.35,1685,ok
+0064973AR,429621.2,4586257.01,106.57,Styphnolobium japonicum,False,TERCERA,Rbla Carmel,18.87,28.0,5.97,5.7,0.329,2.22,725,ok
+0064974AR,429614.56,4586314.96,104.98,Styphnolobium japonicum,False,SEGONA,Rbla Carmel,8.33,35.2,6.7,4.67,0.41,1.78,1413,ok
+0064975AR,429494.02,4586307.68,112.41,Melia azedarach,False,SEGONA,Pl Pastrana,5.49,16.5,4.58,3.18,0.449,1.6,669,ok
+0064976AR,429375.81,4586073.35,136.93,Melia azedarach,False,TERCERA,C\ Calderón de la Barca,14.45,30.5,6.23,9.89,0.231,2.93,1044,ok
+0064977AR,429499.52,4586209.09,120.24,Styphnolobium japonicum,False,SEGONA,C\ Llobregós,7.07,28.5,6.02,4.12,0.273,2.6,1094,ok
+0064978AR,429156.52,4585923.11,175.2,Ginkgo biloba 'Fastigiata',False,PRIMERA,C\ Fastenrath,11.74,3.2,2.03,2.46,0.37,1.99,92,ok
+0064979AR,429557.54,4586652.5,98.37,Styphnolobium japonicum,False,SEGONA,C\ Beatriu,8.05,4.0,2.26,5.79,0.323,2.26,62,ok
+0064980AR,429150.46,4585786.21,201.1,Citrus × aurantium,False,PRIMERA,C\ Santuari,4.42,8.8,3.34,3.67,0.368,2.0,117,ok
+0064981AR,429514.91,4586102.05,119.2,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Lugo,4.35,5.8,2.71,2.88,0.363,2.03,136,ok
+0064982AR,429302.71,4586068.24,143.31,Styphnolobium japonicum,False,SEGONA,C\ Llobregós,8.24,35.8,6.75,5.05,0.398,1.84,1600,ok
+0064983AR,429674.21,4585909.4,136.71,Pyrus calleryana 'Chanticleer',False,PRIMERA,Rbla Carmel,5.18,6.0,2.76,3.9,0.353,2.08,68,ok
+0064984AR,429325.36,4585806.72,203.03,Lagunaria patersonia,False,PRIMERA,C\ Santuari,6.42,25.2,5.67,3.34,0.098,4.64,437,ok
+0064985AR,429689.32,4585644.06,189.83,Styphnolobium japonicum,False,PRIMERA,C\ Gran Vista,5.15,30.8,6.26,3.79,0.436,1.66,977,ok
+0064986AR,429664.38,4586232.93,104.49,Brachychiton acerifolius,False,SEGONA,C\ Ciències,5.7,3.8,2.19,3.09,0.376,1.95,160,ok
+0064989AR,429369.01,4586413.28,111.34,Citrus × aurantium,False,PRIMERA,C\ Sacedón,3.53,7.5,3.09,2.55,0.455,1.58,168,ok
+0064990AR,429297.66,4586064.8,144.56,Styphnolobium japonicum,False,TERCERA,C\ Llobregós,8.81,56.5,8.48,4.99,0.374,1.97,2324,ok
+0064991AR,429675.97,4586277.25,102.02,Styphnolobium japonicum,False,TERCERA,C\ Ciències,7.65,20.0,5.05,4.3,0.483,1.46,933,ok
+0064992AR,429541.31,4586560.19,103.95,Styphnolobium japonicum,False,SEGONA,C\ Dante Alighieri,8.46,31.2,6.31,5.01,0.286,2.5,1124,ok
+0064993AR,429246.8,4586022.28,154.5,Brachychiton populneus,False,SEGONA,C\ Llobregós,5.02,20.8,5.14,3.43,0.5,1.39,756,ok
+0064994AR,429670.72,4585633.15,188.74,Styphnolobium japonicum,False,SEGONA,C\ Gran Vista,9.28,26.8,5.84,4.77,0.293,2.46,1207,ok
+0064996AR,429675.24,4586282.94,101.79,Styphnolobium japonicum,False,SEGONA,C\ Ciències,7.28,25.5,5.7,5.21,0.459,1.56,1033,ok
+0064997AR,429317.57,4585815.78,202.94,Citrus × aurantium,False,PRIMERA,C\ Santuari,4.49,9.5,3.48,3.37,0.445,1.62,155,ok
+0064998AR,429607.5,4586478.08,100.33,Brachychiton populneus,False,SEGONA,Rbla Carmel,7.49,12.2,3.95,2.83,0.28,2.55,504,ok
+0065000AR,429684.5,4585640.97,189.6,Styphnolobium japonicum,False,SEGONA,C\ Gran Vista,9.57,30.0,6.18,5.15,0.305,2.37,1330,ok
+0065001AR,429470.46,4586304.41,112.86,Acacia retinodes,False,PRIMERA,Pl Pastrana,3.33,3.8,2.19,2.87,0.557,1.17,157,ok
+0065002AR,429350.98,4586115.43,133.29,Styphnolobium japonicum,False,SEGONA,C\ Llobregós,5.94,45.5,7.61,3.76,0.464,1.53,1629,ok
+0065003AR,429372.42,4586441.56,110.28,Styphnolobium japonicum,False,SEGONA,C\ Dante Alighieri,9.89,32.5,6.43,6.58,0.146,3.85,1103,ok
+0065004AR,429877.29,4585766.06,198.16,Styphnolobium japonicum,False,SEGONA,C\ Gran Vista,7.39,68.2,9.32,3.9,0.158,3.69,1428,ok
+0065005AR,429494.34,4586217.22,120.18,Styphnolobium japonicum,False,PRIMERA,C\ Llobregós,4.47,10.0,3.57,2.57,0.466,1.53,259,ok
+0065006AR,429120.47,4585949.15,162.22,Styphnolobium japonicum,False,SEGONA,C\ Llobregós,7.79,37.0,6.86,4.7,0.223,3.0,695,ok
+0065007AR,429441.09,4586322.1,113.46,Liquidambar styraciflua,False,PRIMERA,Pl Pastrana,5.14,15.8,4.48,2.9,0.46,1.55,506,ok
+0065009AR,429273.44,4586335.47,122.04,Styphnolobium japonicum,False,SEGONA,C\ Dante Alighieri,8.3,36.5,6.82,5.05,0.231,2.93,1146,ok
+0065011AR,429213.04,4586002.48,158.28,Styphnolobium japonicum,False,SEGONA,C\ Llobregós,7.8,36.2,6.79,4.52,0.188,3.34,697,ok
+0065012AR,429570.22,4585694.35,177.76,Cercis siliquastrum,False,SEGONA,C\ Calderón de la Barca,7.16,24.8,5.61,4.05,0.213,3.1,381,ok
+0065015AR,429727.97,4585775.89,168.13,Ligustrum lucidum,False,SEGONA,Bda Passerell,4.72,22.0,5.29,3.3,0.381,1.93,423,ok
+0065016AR,429606.06,4586484.99,99.92,Brachychiton acerifolius,False,PRIMERA,Rbla Carmel,13.16,22.2,5.32,2.77,0.189,3.33,1236,ok
+0065017AR,429606.25,4586453.61,97.67,Styphnolobium japonicum,False,SEGONA,Rbla Carmel,7.73,39.8,7.11,4.34,0.415,1.76,1494,ok
+0065019AR,429609.62,4586487.68,99.92,Brachychiton populneus,False,PRIMERA,Rbla Carmel,3.33,2.0,1.6,2.45,0.5,1.39,79,ok
+0065020AR,429496.92,4586542.06,105.44,Styphnolobium japonicum,False,SEGONA,C\ Dante Alighieri,9.61,32.0,6.38,5.41,0.326,2.24,1393,ok
+0065021AR,429761.02,4585687.05,193.56,Styphnolobium japonicum,False,TERCERA,C\ Gran Vista,10.21,71.0,9.51,4.4,0.126,4.15,1487,ok
+0065024AR,429202.03,4585989.53,159.15,Brachychiton populneus,False,SEGONA,C\ Llobregós,7.07,20.2,5.08,3.66,0.351,2.1,442,ok
+0065025AR,429286.8,4585942.0,181.22,Ligustrum lucidum,False,SEGONA,C\ Murtra,5.91,19.5,4.98,3.66,0.294,2.45,354,ok
+0065026AR,429679.72,4586254.62,102.16,Styphnolobium japonicum,False,SEGONA,C\ Ciències,7.82,29.2,6.1,5.18,0.473,1.5,1255,ok
+0065027AR,429623.95,4586414.28,100.84,Brachychiton populneus,False,SEGONA,Rbla Carmel,7.51,20.8,5.14,3.27,0.459,1.56,744,ok
+0065028AR,429264.47,4585945.21,182.33,Ligustrum lucidum,False,SEGONA,C\ Fastenrath,5.85,15.2,4.41,3.33,0.237,2.88,278,ok
+0065029AR,429622.04,4586352.86,102.27,Styphnolobium japonicum,False,TERCERA,Rbla Carmel,7.97,41.8,7.29,5.22,0.354,2.08,1570,ok
+0065030AR,429617.8,4586280.39,106.33,Styphnolobium japonicum,False,TERCERA,Rbla Carmel,9.86,35.5,6.72,6.97,0.305,2.37,1017,ok
+0065032AR,429386.62,4586458.96,109.55,Styphnolobium japonicum,False,TERCERA,C\ Dante Alighieri,9.56,40.2,7.16,6.09,0.142,3.9,1485,ok
+0065033AR,429605.18,4586284.78,107.8,Styphnolobium japonicum,False,SEGONA,C\ Llobregós,7.39,30.2,6.21,2.94,0.204,3.18,1265,ok
+0065034AR,429608.71,4586436.09,97.72,Styphnolobium japonicum,False,SEGONA,Rbla Carmel,8.82,47.2,7.76,5.44,0.402,1.82,2091,ok
+0065035AR,429623.74,4586239.79,106.79,Styphnolobium japonicum,False,TERCERA,Rbla Carmel,8.82,36.5,6.82,5.55,0.266,2.65,1259,ok
+0065036AR,429207.28,4585993.29,158.79,Brachychiton populneus,False,SEGONA,C\ Llobregós,5.64,14.8,4.33,3.28,0.449,1.6,341,ok
+0065037AR,429197.06,4585991.13,159.32,Styphnolobium japonicum,False,SEGONA,C\ Llobregós,8.32,33.2,6.51,4.4,0.108,4.46,818,ok
+0065038AR,429617.4,4586455.77,100.22,Brachychiton populneus,False,SEGONA,Rbla Carmel,6.04,13.5,4.15,2.49,0.433,1.67,713,ok
+0065039AR,429672.24,4585920.13,135.55,Pyrus calleryana 'Chanticleer',False,PRIMERA,Rbla Carmel,6.23,3.8,2.19,3.09,0.327,2.24,52,ok
+0065040AR,429569.12,4586593.44,102.44,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Beatriu,5.51,5.0,2.52,5.36,0.484,1.45,93,ok
+0065041AR,429547.71,4586254.43,114.84,Styphnolobium japonicum,False,SEGONA,C\ Llobregós,7.92,34.5,6.63,5.07,0.364,2.02,1216,ok
+0065043AR,429719.39,4585662.01,191.64,Styphnolobium japonicum,False,SEGONA,C\ Gran Vista,9.55,79.2,10.05,4.25,0.269,2.63,2703,ok
+0065044AR,429668.78,4585643.68,189.09,Styphnolobium japonicum,False,TERCERA,C\ Gran Vista,9.04,65.0,9.1,3.98,0.207,3.15,3876,ok
+0065045AR,429156.31,4585795.79,201.66,Lagunaria patersonia,False,PRIMERA,C\ Santuari,0.0,2.5,1.78,2.22,0.109,4.44,46,few_points
+0065046AR,429351.46,4585774.71,203.95,Lagunaria patersonia,False,PRIMERA,C\ Santuari,5.36,8.2,3.24,3.54,0.295,2.44,149,ok
+0065047AR,429201.63,4585931.9,177.4,Ligustrum lucidum,False,SEGONA,C\ Fastenrath,5.72,13.2,4.11,3.14,0.357,2.06,235,ok
+0065048AR,429747.92,4585744.63,177.44,Ligustrum lucidum,False,SEGONA,Bda Passerell,4.43,15.0,4.37,2.83,0.399,1.84,253,ok
+0065049AR,429476.56,4586187.71,121.64,Brachychiton populneus,False,TERCERA,C\ Llobregós,9.63,11.5,3.83,3.59,0.275,2.58,516,ok
+0065050AR,429719.32,4585789.7,164.59,Ligustrum lucidum,False,TERCERA,Bda Passerell,9.12,29.5,6.13,5.35,0.203,3.19,523,ok
+0065051AR,429397.53,4585817.48,175.36,Ligustrum lucidum,False,SEGONA,C\ Murtra,5.67,14.5,4.3,4.05,0.485,1.45,307,ok
+0065052AR,429607.91,4586356.44,102.13,Styphnolobium japonicum,False,TERCERA,Rbla Carmel,9.42,26.5,5.81,5.08,0.38,1.94,1100,ok
+0065054AR,429433.72,4585896.29,156.61,Ligustrum lucidum,False,PRIMERA,C\ Calderón de la Barca,13.3,2.5,1.78,3.47,0.375,1.96,40,few_points
+0065055AR,429051.58,4585887.08,169.23,Brachychiton populneus,False,SEGONA,C\ Llobregós,7.21,14.5,4.3,4.35,0.236,2.89,292,ok
+0065056AR,429569.52,4585700.19,177.17,Cercis siliquastrum,False,PRIMERA,C\ Calderón de la Barca,9.39,7.8,3.14,3.28,0.311,2.34,103,ok
+0065057AR,429278.87,4586486.3,110.82,Cercis siliquastrum,False,PRIMERA,Ptge Xinxó,,0.0,0.0,,,,0,no_crown_detected
+0065058AR,429572.5,4586272.53,111.32,Styphnolobium japonicum,False,TERCERA,C\ Llobregós,9.38,36.2,6.79,5.66,0.335,2.19,1313,ok
+0065059AR,429192.51,4585987.63,159.57,Styphnolobium japonicum,False,SEGONA,C\ Llobregós,7.59,36.5,6.82,4.25,0.2,3.22,636,ok
+0065060AR,429204.07,4586304.8,131.86,Styphnolobium japonicum,False,SEGONA,C\ Dante Alighieri,4.64,17.0,4.65,3.16,0.486,1.44,561,ok
+0065063AR,429509.54,4586693.81,87.23,Celtis australis,False,TERCERA,C\ Lisboa,7.75,38.0,6.96,2.59,0.329,2.22,730,ok
+0065064AR,429546.73,4586410.46,100.8,Styphnolobium japonicum,False,SEGONA,C\ Granollers,10.07,44.5,7.53,6.18,0.119,4.25,1442,ok
+0065065AR,429542.69,4585794.27,168.9,Cercis siliquastrum,False,SEGONA,C\ Calderón de la Barca,6.63,17.2,4.69,4.66,0.298,2.42,248,ok
+0065066AR,429412.86,4586487.09,108.41,Styphnolobium japonicum,False,SEGONA,C\ Dante Alighieri,9.19,41.5,7.27,5.03,0.199,3.23,1513,ok
+0065067AR,430010.36,4585944.46,147.72,Platanus × acerifolia,True,EXEMPLAR,Pg Font de la Mulassa,17.6,74.8,9.76,10.4,0.109,4.44,1690,ok
+0065068AR,429437.46,4586660.61,93.14,Celtis australis,False,SEGONA,C\ Lisboa,5.77,23.0,5.41,3.77,0.375,1.96,461,ok
+0065069AR,429131.51,4585944.82,162.17,Styphnolobium japonicum,False,SEGONA,C\ Llobregós,7.01,35.8,6.75,4.33,0.264,2.66,696,ok
+0065070AR,430053.88,4585903.31,159.13,Quercus ilex,False,EXEMPLAR,Pl Font de la Mulassa,16.82,24.0,5.53,9.56,0.141,3.91,439,ok
+0065071AR,429366.72,4586091.75,134.84,Ligustrum lucidum,False,PRIMERA,C\ Calderón de la Barca,,0.0,0.0,,,,0,no_crown_detected
+0065072AR,429257.12,4585953.49,182.53,Cercis siliquastrum,False,PRIMERA,C\ Fastenrath,4.79,6.8,2.93,3.71,0.362,2.03,138,ok
+0065074AR,429212.94,4585996.94,158.51,Brachychiton populneus,False,SEGONA,C\ Llobregós,5.75,19.0,4.92,3.25,0.44,1.64,400,ok
+0065077AR,429525.7,4586239.04,117.89,Styphnolobium japonicum,False,SEGONA,C\ Llobregós,6.76,39.0,7.05,3.81,0.233,2.92,1328,ok
+0065079AR,429627.72,4586347.17,103.37,Brachychiton acerifolius,False,SEGONA,Rbla Carmel,5.52,21.8,5.26,3.92,0.304,2.38,933,ok
+0065080AR,429653.97,4586418.49,93.79,Styphnolobium japonicum,False,SEGONA,C\ Ciències,10.11,40.2,7.16,5.64,0.346,2.12,1722,ok
+0065081AR,429625.08,4586407.47,101.12,Brachychiton populneus,False,SEGONA,Rbla Carmel,7.7,14.8,4.33,3.34,0.465,1.53,684,ok
+0065083AR,429481.73,4586680.98,89.48,Celtis australis,False,SEGONA,C\ Lisboa,6.12,19.5,4.98,2.31,0.427,1.7,433,ok
+0065084AR,429335.11,4585902.36,177.0,Cercis siliquastrum,False,SEGONA,C\ Murtra,7.03,25.5,5.7,3.59,0.139,3.95,404,ok
+0065085AR,429475.82,4586192.73,121.45,Styphnolobium japonicum,False,SEGONA,C\ Llobregós,8.63,31.0,6.28,3.19,0.2,3.22,1172,ok
+0065086AR,429377.84,4586069.11,137.45,Melia azedarach,False,TERCERA,C\ Calderón de la Barca,14.1,25.2,5.67,11.14,0.214,3.09,865,ok
+0065087AR,429137.1,4585915.99,171.73,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Fastenrath,4.09,3.0,1.95,2.76,0.42,1.73,69,ok
+0065088AR,429653.66,4586387.4,100.57,Brachychiton acerifolius,False,SEGONA,C\ Ciències,8.85,12.5,3.99,3.12,0.197,3.25,502,ok
+0065089AR,430008.2,4585951.64,146.7,Platanus × acerifolia,True,EXEMPLAR,Pg Font de la Mulassa,19.29,95.8,11.04,9.62,0.11,4.41,2317,ok
+0065091AR,429214.01,4586507.3,103.2,Celtis australis,False,TERCERA,C\ Lisboa,8.63,44.0,7.48,3.89,0.283,2.52,1870,ok
+0065094AR,429490.01,4585809.23,170.84,Ligustrum lucidum,False,PRIMERA,C\ Segimon,5.57,8.5,3.29,3.25,0.457,1.56,188,ok
+0065095AR,429201.99,4585939.37,177.31,Cercis siliquastrum,False,PRIMERA,C\ Fastenrath,4.9,17.5,4.72,2.52,0.344,2.13,302,ok
+0065096AR,429223.54,4586010.17,157.41,Styphnolobium japonicum,False,SEGONA,C\ Llobregós,8.86,32.8,6.46,4.72,0.248,2.79,764,ok
+0065097AR,429509.44,4586228.31,119.42,Styphnolobium japonicum,False,SEGONA,C\ Llobregós,6.55,29.0,6.08,3.96,0.273,2.59,887,ok
+0065098AR,429283.69,4585953.82,181.13,Cercis siliquastrum,False,SEGONA,C\ Fastenrath,5.82,24.2,5.56,2.92,0.248,2.79,447,ok
+0065101AR,429522.65,4586282.66,113.26,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Lluís Marià Vidal,5.87,4.8,2.46,2.61,0.36,2.05,205,ok
+0065102AR,429276.5,4586044.23,148.22,Brachychiton populneus,False,SEGONA,C\ Llobregós,5.57,13.8,4.18,3.04,0.493,1.41,615,ok
+0065103AR,429514.52,4586696.06,86.78,Celtis australis,False,EXEMPLAR,C\ Lisboa,10.35,48.8,7.88,5.93,0.24,2.85,925,ok
+0065104AR,429534.2,4586264.12,114.66,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Lluís Marià Vidal,5.38,1.2,1.26,3.95,0.286,2.51,60,no_crown_detected
+0065105AR,429591.11,4586499.65,100.03,Styphnolobium japonicum,False,PRIMERA,Rbla Carmel,10.26,20.8,5.14,3.58,0.24,2.86,753,ok
+0065106AR,429482.83,4585493.4,191.28,Platanus × acerifolia,True,TERCERA,Jard Juan Ponce,12.82,71.0,9.51,4.48,0.249,2.78,3536,ok
+0065107AR,429445.21,4586183.3,122.89,Styphnolobium japonicum,False,TERCERA,C\ Llobregós,9.36,45.8,7.63,4.89,0.28,2.55,1526,ok
+0065108AR,429438.85,4585811.96,173.85,Ligustrum lucidum,False,SEGONA,C\ Segimon,6.93,21.0,5.17,4.91,0.276,2.57,413,ok
+0065109AR,429704.86,4585663.16,191.12,Styphnolobium japonicum,False,SEGONA,C\ Gran Vista,8.2,64.0,9.03,3.62,0.249,2.78,1920,ok
+0065110AR,429570.55,4585640.12,182.71,Ligustrum lucidum,False,SEGONA,C\ Calderón de la Barca,7.54,24.2,5.56,4.59,0.404,1.81,825,ok
+0065111AR,429581.29,4585516.22,187.6,Platanus × acerifolia,True,EXEMPLAR,Jard Juan Ponce,14.43,54.2,8.31,7.87,0.163,3.62,2748,ok
+0065112AR,429180.74,4585974.19,160.5,Brachychiton populneus,False,PRIMERA,C\ Llobregós,14.39,7.2,3.04,3.53,0.322,2.27,90,ok
+0065113AR,430019.06,4585915.79,152.55,Platanus × acerifolia,True,EXEMPLAR,Pg Font de la Mulassa,22.1,110.0,11.83,11.37,0.037,6.62,2516,ok
+0065114AR,429461.54,4586182.55,122.33,Styphnolobium japonicum,False,TERCERA,C\ Llobregós,8.71,44.8,7.55,4.09,0.218,3.05,1539,ok
+0065115AR,429664.4,4586353.09,99.14,Styphnolobium japonicum,False,PRIMERA,C\ Ciències,11.02,18.0,4.79,2.92,0.385,1.91,714,ok
+0065116AR,429324.37,4586573.39,102.34,Celtis australis,False,EXEMPLAR,C\ Lisboa,11.1,50.0,7.98,5.3,0.144,3.88,953,ok
+0065117AR,429650.22,4586116.99,112.16,Celtis australis,False,TERCERA,Rbla Carmel,10.97,76.2,9.85,4.5,0.385,1.91,3340,ok
+0065119AR,429624.57,4586233.39,106.74,Styphnolobium japonicum,False,SEGONA,Rbla Carmel,6.28,22.0,5.29,4.12,0.435,1.66,724,ok
+0065120AR,429628.17,4586176.62,108.0,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Lugo,3.28,4.0,2.26,2.88,0.518,1.32,101,ok
+0065122AR,429649.02,4586417.71,97.06,Brachychiton populneus,False,SEGONA,C\ Ciències,12.24,20.8,5.14,2.84,0.204,3.18,1074,ok
+0065124AR,429709.35,4585656.12,191.02,Styphnolobium japonicum,False,PRIMERA,C\ Gran Vista,5.96,20.2,5.08,4.04,0.388,1.9,459,ok
+0065125AR,429642.78,4586250.43,104.43,Brachychiton populneus,False,PRIMERA,Rbla Carmel,10.24,14.2,4.26,2.02,0.271,2.61,666,ok
+0065128AR,429153.52,4585791.04,201.42,Lagunaria patersonia,False,PRIMERA,C\ Santuari,11.95,21.5,5.23,4.18,0.274,2.59,420,ok
+0065129AR,429645.43,4586398.31,99.31,Brachychiton acerifolius,False,PRIMERA,C\ Ciències,11.53,29.5,6.13,4.13,0.274,2.59,1166,ok
+0065130AR,429066.83,4585795.2,184.54,Tipuana tipu,False,SEGONA,C\ Hortal,12.88,41.8,7.29,8.61,0.047,6.13,900,ok
+0065131AR,429581.34,4586419.35,98.81,Styphnolobium japonicum,False,SEGONA,C\ Granollers,7.14,36.5,6.82,4.52,0.187,3.35,918,ok
+0065134AR,429318.14,4586079.66,139.91,Styphnolobium japonicum,False,SEGONA,C\ Llobregós,7.43,41.8,7.29,4.41,0.342,2.15,1548,ok
+0065135AR,429663.08,4585978.43,128.99,Pyrus calleryana 'Chanticleer',False,PRIMERA,Rbla Carmel,4.46,3.2,2.03,2.51,0.521,1.31,73,ok
+0065136AR,429281.66,4585944.72,181.52,Ligustrum lucidum,False,PRIMERA,C\ Fastenrath,4.9,15.8,4.48,3.2,0.431,1.68,320,ok
+0065137AR,429471.32,4586184.42,121.94,Brachychiton populneus,False,SEGONA,C\ Llobregós,5.79,8.8,3.34,3.73,0.383,1.92,254,ok
+0065138AR,429476.18,4586320.97,112.27,Melia azedarach,False,SEGONA,Pl Pastrana,5.11,19.0,4.92,2.89,0.466,1.53,728,ok
+0065139AR,429634.46,4586491.42,99.53,Brachychiton populneus,False,SEGONA,C\ Ciències,6.3,7.0,2.99,3.13,0.432,1.68,283,ok
+0065142AR,429627.99,4586628.96,98.85,Styphnolobium japonicum,False,SEGONA,C\ Lletres,9.59,59.5,8.7,4.98,0.288,2.49,1158,ok
+0065144AR,429693.7,4585656.41,190.36,Styphnolobium japonicum,False,TERCERA,C\ Gran Vista,13.41,23.8,5.5,6.08,0.252,2.76,1096,ok
+0065146AR,429571.38,4585688.62,178.27,Cercis siliquastrum,False,SEGONA,C\ Calderón de la Barca,5.9,18.2,4.82,4.22,0.198,3.24,207,ok
+0065147AR,429533.72,4585791.62,169.33,Ligustrum lucidum,False,PRIMERA,C\ Calderón de la Barca,5.16,9.8,3.52,3.98,0.414,1.76,186,ok
+0065148AR,429079.95,4585922.27,164.3,Styphnolobium japonicum,False,SEGONA,C\ Llobregós,8.83,34.8,6.65,5.54,0.275,2.58,681,ok
+0065149AR,429590.5,4586518.51,100.88,Styphnolobium japonicum,False,TERCERA,Rbla Carmel,8.88,32.8,6.46,5.05,0.321,2.28,1404,ok
+0065150AR,429286.04,4586051.19,146.61,Brachychiton populneus,False,SEGONA,C\ Llobregós,6.22,20.8,5.14,3.72,0.464,1.54,767,ok
+0065151AR,429662.74,4586364.78,98.23,Styphnolobium japonicum,False,SEGONA,C\ Ciències,6.3,34.5,6.63,4.26,0.413,1.77,1490,ok
+0065152AR,429240.67,4586520.28,102.96,Celtis australis,False,TERCERA,C\ Lisboa,9.27,41.8,7.29,4.97,0.29,2.48,1776,ok
+0065153AR,429218.12,4586000.92,158.12,Brachychiton populneus,False,SEGONA,C\ Llobregós,5.49,18.2,4.82,2.8,0.428,1.7,381,ok
+0065155AR,429646.77,4586082.47,116.05,Celtis australis,False,PRIMERA,Rbla Carmel,18.46,8.2,3.24,4.07,0.407,1.8,260,ok
+0065156AR,429589.58,4586524.68,101.1,Styphnolobium japonicum,False,TERCERA,Rbla Carmel,10.25,32.2,6.41,3.59,0.294,2.45,1448,ok
+0065157AR,429062.44,4585893.62,167.85,Brachychiton populneus,False,SEGONA,C\ Llobregós,7.94,18.0,4.79,3.64,0.299,2.42,335,ok
+0065158AR,429321.94,4586351.77,116.66,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Pantà de Tremp,4.16,16.0,4.51,2.53,0.496,1.4,587,ok
+0065159AR,429724.19,4585664.9,191.97,Styphnolobium japonicum,False,SEGONA,C\ Gran Vista,8.88,52.2,8.16,3.36,0.237,2.88,1580,ok
+0065160AR,429384.94,4586055.16,139.12,Melia azedarach,False,TERCERA,C\ Calderón de la Barca,15.86,31.5,6.33,11.14,0.224,2.99,1294,ok
+0065161AR,429619.4,4586400.87,101.13,Brachychiton populneus,False,SEGONA,Rbla Carmel,8.44,19.8,5.01,2.42,0.209,3.13,831,ok
+0065163AR,429456.26,4585870.19,159.52,Melia azedarach,False,TERCERA,C\ Calderón de la Barca,12.69,25.2,5.67,6.77,0.125,4.16,537,ok
+0065164AR,429527.18,4586562.94,104.43,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Argimon,3.83,5.0,2.52,2.68,0.414,1.76,203,ok
+0065165AR,429338.91,4585886.96,175.62,Cercis siliquastrum,False,PRIMERA,C\ Murtra,5.37,16.5,4.58,2.73,0.299,2.42,288,ok
+0065166AR,429587.5,4586272.24,110.19,Styphnolobium japonicum,False,SEGONA,C\ Llobregós,7.96,29.0,6.08,4.8,0.394,1.86,1214,ok
+0065167AR,429165.82,4585917.77,176.51,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Fastenrath,4.56,6.0,2.76,3.37,0.359,2.05,78,ok
+0065168AR,429227.5,4585949.17,180.43,Cercis siliquastrum,False,SEGONA,C\ Fastenrath,4.93,13.2,4.11,2.16,0.238,2.87,273,ok
+0065170AR,429473.46,4586300.73,113.19,Acacia retinodes,False,SEGONA,Pl Pastrana,5.94,32.2,6.41,2.65,0.374,1.97,1134,ok
+0065172AR,429643.91,4586410.36,97.69,Brachychiton populneus,False,PRIMERA,C\ Ciències,4.26,4.0,2.26,2.67,0.45,1.6,148,ok
+0065177AR,429302.0,4586044.56,149.02,Magnolia grandiflora,False,SEGONA,C\ Ramon Rocafull,5.14,19.0,4.92,2.32,0.499,1.39,742,ok
+0065178AR,429245.88,4586522.72,102.84,Celtis australis,False,TERCERA,C\ Lisboa,7.94,50.8,8.04,4.17,0.296,2.43,1952,ok
+0065179AR,428980.52,4585867.88,182.46,Brachychiton acerifolius,False,PRIMERA,C\ Llobregós,5.05,4.8,2.46,2.4,0.473,1.5,91,ok
+0065180AR,429591.29,4586463.08,98.78,Styphnolobium japonicum,False,SEGONA,Rbla Carmel,9.25,28.8,6.05,6.86,0.301,2.4,826,ok
+0065181AR,429636.67,4586288.6,104.5,Brachychiton populneus,False,SEGONA,Rbla Carmel,8.99,14.5,4.3,3.21,0.261,2.69,646,ok
+0065182AR,429721.22,4585672.57,191.96,Styphnolobium japonicum,False,SEGONA,C\ Gran Vista,10.1,58.2,8.61,4.95,0.184,3.39,2679,ok
+0065185AR,429397.55,4586635.34,96.94,Celtis australis,False,SEGONA,C\ Lisboa,7.96,36.8,6.84,4.27,0.341,2.15,859,ok
+0065186AR,429175.41,4585827.87,203.78,Lagunaria patersonia,False,PRIMERA,C\ Santuari,12.85,6.5,2.88,3.66,0.271,2.61,129,ok
+0065187AR,429602.59,4586477.07,97.07,Styphnolobium japonicum,False,SEGONA,Rbla Carmel,5.32,37.0,6.86,3.65,0.49,1.43,1390,ok
+0065189AR,429146.68,4585949.8,161.96,Brachychiton populneus,False,SEGONA,C\ Llobregós,6.06,17.5,4.72,2.71,0.374,1.97,326,ok
+0065190AR,429286.47,4586345.91,119.88,Styphnolobium japonicum,False,SEGONA,C\ Dante Alighieri,12.36,44.5,7.53,5.65,0.19,3.32,1746,ok
+0065191AR,429115.27,4585945.7,162.36,Styphnolobium japonicum,False,SEGONA,C\ Llobregós,6.49,20.2,5.08,4.61,0.336,2.18,366,ok
+0065192AR,429694.47,4585647.14,190.17,Styphnolobium japonicum,False,SEGONA,C\ Gran Vista,6.88,32.0,6.38,3.97,0.307,2.36,1073,ok
+0065193AR,429482.7,4585706.44,202.92,Styphnolobium japonicum,False,TERCERA,C\ Santuari,9.61,101.8,11.38,5.07,0.174,3.49,3161,ok
+0065194AR,429063.39,4586120.5,159.06,Styphnolobium japonicum,False,SEGONA,Pg Mare de Déu del Coll,9.65,59.2,8.69,6.35,0.089,4.84,2194,ok
+0065195AR,429560.57,4585812.04,159.36,Morus alba,False,TERCERA,C\ Alcalde de Zalamea,9.65,55.5,8.41,3.53,0.103,4.54,1094,ok
+0065196AR,429090.93,4586036.46,162.33,Jacaranda mimosifolia,False,TERCERA,Camí Vell del Coll,11.73,28.5,6.02,5.44,0.303,2.39,1355,ok
+0065197AR,429622.51,4586250.88,106.66,Styphnolobium japonicum,False,SEGONA,Rbla Carmel,7.83,29.2,6.1,4.87,0.351,2.1,844,ok
+0065199AR,429668.48,4585943.36,132.93,Catalpa bignonioides,False,PRIMERA,Rbla Carmel,13.29,25.5,5.7,4.08,0.332,2.2,343,ok
+0065200AR,429169.11,4585817.5,202.98,Lagunaria patersonia,False,PRIMERA,C\ Santuari,11.11,5.2,2.59,2.68,0.252,2.75,103,ok
+0065201AR,429232.5,4586016.72,156.53,Styphnolobium japonicum,False,SEGONA,C\ Llobregós,5.47,25.2,5.67,3.47,0.488,1.43,963,ok
+0065202AR,429562.79,4585742.73,173.3,Cercis siliquastrum,False,PRIMERA,C\ Calderón de la Barca,7.0,17.8,4.75,4.53,0.338,2.17,240,ok
+0065204AR,429373.28,4585855.37,174.03,Cercis siliquastrum,False,SEGONA,C\ Murtra,5.85,21.2,5.2,3.07,0.294,2.45,449,ok
+0065205AR,430012.5,4585937.39,148.73,Platanus × acerifolia,True,EXEMPLAR,Pg Font de la Mulassa,19.8,96.8,11.1,7.65,0.102,4.57,2487,ok
+0065206AR,429562.76,4585698.96,177.25,Ligustrum lucidum,False,SEGONA,C\ Calderón de la Barca,7.21,13.5,4.15,5.37,0.306,2.37,196,ok
+0065207AR,429482.96,4586081.6,123.96,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Lugo,5.37,8.0,3.19,1.88,0.274,2.59,244,ok
+0065208AR,429244.07,4586318.05,126.56,Styphnolobium japonicum,False,SEGONA,C\ Dante Alighieri,16.19,43.2,7.42,4.37,0.286,2.5,1623,ok
+0065209AR,429291.68,4586072.14,143.98,Styphnolobium japonicum,False,SEGONA,C\ Llobregós,8.48,32.2,6.41,4.54,0.332,2.21,1221,ok
+0065210AR,429626.81,4586352.81,103.15,Brachychiton acerifolius,False,SEGONA,Rbla Carmel,5.44,6.8,2.93,3.54,0.373,1.97,246,ok
+0065211AR,429794.2,4585716.69,194.98,Styphnolobium japonicum,False,SEGONA,C\ Gran Vista,6.25,40.0,7.14,3.91,0.171,3.53,808,ok
+0065212AR,429235.37,4586517.63,102.97,Celtis australis,False,SEGONA,C\ Lisboa,7.33,30.0,6.18,4.79,0.426,1.71,1269,ok
+0065214AR,429555.27,4585745.84,172.99,Ligustrum lucidum,False,SEGONA,C\ Calderón de la Barca,6.16,32.8,6.46,2.47,0.217,3.05,607,ok
+0065215AR,429381.36,4585834.81,174.43,Cercis siliquastrum,False,PRIMERA,C\ Murtra,3.95,12.0,3.91,2.92,0.38,1.93,234,ok
+0065216AR,430054.88,4585901.88,159.54,Quercus ilex,False,EXEMPLAR,Pl Font de la Mulassa,16.97,15.5,4.44,9.78,0.134,4.01,320,ok
+0065217AR,429729.52,4585668.14,192.25,Styphnolobium japonicum,False,SEGONA,C\ Gran Vista,8.96,36.8,6.84,4.13,0.222,3.01,2062,ok
+0065218AR,429508.89,4585857.27,163.84,Melia azedarach,False,TERCERA,C\ Calderón de la Barca,11.1,33.2,6.51,7.02,0.171,3.54,674,ok
+0065221AR,429671.82,4586245.06,104.43,Brachychiton populneus,False,SEGONA,C\ Ciències,5.03,6.8,2.93,3.21,0.37,1.99,261,ok
+0065222AR,429665.18,4586347.28,99.64,Styphnolobium japonicum,False,SEGONA,C\ Ciències,5.64,17.2,4.69,3.85,0.47,1.51,571,ok
+0065223AR,429382.42,4586059.97,138.46,Melia azedarach,False,TERCERA,C\ Calderón de la Barca,15.99,29.8,6.15,11.28,0.197,3.25,1243,ok
+0065224AR,429174.66,4586484.51,103.6,Celtis australis,False,SEGONA,C\ Lisboa,7.65,33.5,6.53,4.36,0.392,1.87,1530,ok
+0065225AR,429630.36,4586197.33,106.9,Styphnolobium japonicum,False,TERCERA,Rbla Carmel,11.05,43.8,7.46,7.22,0.247,2.8,1583,ok
+0065226AR,429856.8,4585753.81,197.48,Styphnolobium japonicum,False,TERCERA,C\ Gran Vista,9.39,53.2,8.23,2.92,0.116,4.3,1358,ok
+0065229AR,429131.02,4585939.5,162.27,Brachychiton populneus,False,SEGONA,C\ Llobregós,5.64,16.0,4.51,3.83,0.383,1.92,368,ok
+0065230AR,429536.06,4586115.77,116.99,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Lugo,5.03,14.8,4.33,2.91,0.403,1.82,446,ok
+0065231AR,429999.74,4585980.16,142.46,Platanus × acerifolia,True,TERCERA,Pg Font de la Mulassa,15.99,99.8,11.27,6.6,0.101,4.59,2160,ok
+0065232AR,429562.32,4586564.86,103.13,Styphnolobium japonicum,False,SEGONA,C\ Dante Alighieri,8.78,31.5,6.33,5.15,0.272,2.61,1006,ok
+0065233AR,429886.93,4585762.53,198.32,Styphnolobium japonicum,False,SEGONA,C\ Gran Vista,8.0,42.5,7.36,3.8,0.245,2.81,915,ok
+0065235AR,429475.39,4585811.94,171.8,Ligustrum lucidum,False,PRIMERA,C\ Segimon,5.13,8.0,3.19,3.58,0.349,2.11,172,ok
+0065238AR,429107.08,4586428.48,105.73,Celtis australis,False,EXEMPLAR,C\ Lisboa,11.27,77.0,9.9,5.48,0.194,3.28,2855,ok
+0065240AR,429369.22,4586437.2,110.55,Styphnolobium japonicum,False,SEGONA,C\ Dante Alighieri,6.97,26.8,5.84,4.34,0.227,2.97,972,ok
+0065241AR,429159.63,4585801.43,202.08,Styphnolobium japonicum,False,SEGONA,C\ Santuari,13.25,42.2,7.33,3.69,0.129,4.09,782,ok
+0065242AR,429641.89,4586118.37,111.85,Pyrus calleryana 'Chanticleer',False,PRIMERA,Rbla Carmel,7.38,13.8,4.18,3.87,0.33,2.21,447,ok
+0065243AR,429083.79,4585904.86,165.42,Prunus cerasifera 'Pissardii',False,SEGONA,C\ Fastenrath,7.56,36.5,6.82,3.91,0.33,2.22,672,ok
+0065244AR,429613.64,4586321.4,104.53,Styphnolobium japonicum,False,EXEMPLAR,Rbla Carmel,8.55,43.8,7.46,2.28,0.238,2.87,1931,ok
+0065245AR,429621.14,4586358.47,101.9,Styphnolobium japonicum,False,SEGONA,Rbla Carmel,8.54,31.0,6.28,2.94,0.313,2.32,1392,ok
+0065246AR,429602.25,4586533.23,101.14,Populus alba 'Pyramidalis',False,PRIMERA,Rbla Carmel,5.73,1.2,1.26,2.38,0.455,1.58,66,no_crown_detected
+0065247AR,429568.94,4585537.28,188.44,Pinus pinea,False,TERCERA,Jard Juan Ponce,8.38,76.8,9.89,3.9,0.293,2.45,3210,ok
+0065248AR,429568.07,4586415.9,99.6,Styphnolobium japonicum,False,SEGONA,C\ Granollers,8.08,43.5,7.44,3.91,0.141,3.92,1231,ok
+0065249AR,429593.26,4586153.5,111.54,Prunus cerasifera 'Pissardii',False,SEGONA,C\ Lugo,7.4,30.0,6.18,4.63,0.322,2.27,1057,ok
+0065250AR,429666.19,4586237.16,104.48,Brachychiton populneus,False,SEGONA,C\ Ciències,4.32,6.0,2.76,3.04,0.437,1.66,223,ok
+0065251AR,429417.68,4586163.12,124.89,Styphnolobium japonicum,False,TERCERA,C\ Llobregós,7.59,33.0,6.48,4.31,0.392,1.87,1158,ok
+0065252AR,429513.89,4586564.17,104.87,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Argimon,10.64,5.5,2.65,2.86,0.545,1.21,177,ok
+0065254AR,430017.14,4585922.63,150.7,Platanus × acerifolia,True,TERCERA,Pg Font de la Mulassa,20.05,60.2,8.76,10.79,0.015,7.82,1357,ok
+0065255AR,429444.46,4586056.25,130.73,Prunus cerasifera 'Pissardii',False,SEGONA,C\ Lugo,7.17,17.8,4.75,4.06,0.367,2.01,522,ok
+0065256AR,429163.12,4585925.91,175.38,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Fastenrath,,0.0,0.0,,,,0,no_crown_detected
+0065257AR,429632.72,4586482.77,98.89,Brachychiton populneus,False,SEGONA,C\ Ciències,3.97,3.0,1.95,2.13,0.383,1.92,120,ok
+0065261AR,429510.18,4585803.47,169.62,Ligustrum lucidum,False,PRIMERA,C\ Segimon,4.3,8.2,3.24,3.47,0.438,1.65,160,ok
+0065262AR,429707.8,4585370.48,179.57,Brachychiton populneus,False,SEGONA,Ctra Carmel,5.77,16.5,4.58,3.66,0.414,1.77,702,ok
+0065263AR,429262.78,4586531.46,102.76,Celtis australis,False,SEGONA,C\ Lisboa,6.0,57.5,8.56,2.41,0.303,2.39,2014,ok
+0065264AR,429538.36,4586257.38,115.28,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Lluís Marià Vidal,4.76,5.5,2.65,3.81,0.419,1.74,188,ok
+0065265AR,429141.53,4585963.13,161.8,Styphnolobium japonicum,False,SEGONA,C\ Llobregós,6.17,21.2,5.2,3.98,0.278,2.56,417,ok
+0065266AR,429112.6,4586431.11,105.35,Celtis australis,False,SEGONA,C\ Lisboa,9.28,40.5,7.18,5.21,0.209,3.13,1428,ok
+0065267AR,429270.66,4586056.8,147.61,Styphnolobium japonicum,False,SEGONA,C\ Llobregós,7.93,27.2,5.89,4.97,0.315,2.31,869,ok
+0065268AR,429087.93,4586042.7,161.96,Jacaranda mimosifolia,False,SEGONA,Camí Vell del Coll,9.75,28.5,6.02,5.21,0.409,1.79,1235,ok
+0065269AR,429353.12,4585878.52,174.3,Cercis siliquastrum,False,SEGONA,C\ Murtra,5.52,28.2,6.0,3.65,0.259,2.7,424,ok
+0065271AR,429562.29,4586249.12,113.8,Brachychiton populneus,False,SEGONA,C\ Llobregós,7.32,13.5,4.15,4.15,0.429,1.69,519,ok
+0065274AR,429144.32,4586453.18,103.98,Celtis australis,False,SEGONA,C\ Lisboa,7.57,33.8,6.56,4.42,0.269,2.63,1136,ok
+0065275AR,429411.48,4586158.73,125.38,Styphnolobium japonicum,False,TERCERA,C\ Llobregós,10.73,61.8,8.87,5.26,0.249,2.78,2430,ok
+0065277AR,429504.46,4586095.1,120.84,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Lugo,4.43,8.8,3.34,1.8,0.281,2.54,215,ok
+0065278AR,429624.1,4585984.62,125.85,Tilia x euchlora,False,SEGONA,C\ Santa Otília,6.43,13.8,4.18,2.95,0.294,2.45,272,ok
+0065279AR,429658.75,4586388.45,96.25,Styphnolobium japonicum,False,SEGONA,C\ Ciències,7.17,29.8,6.15,4.45,0.398,1.84,1040,ok
+0065280AR,429788.57,4585713.26,194.79,Styphnolobium japonicum,False,TERCERA,C\ Gran Vista,10.06,39.0,7.05,5.49,0.113,4.36,956,ok
+0065281AR,429380.09,4586064.62,137.94,Ligustrum lucidum,False,PRIMERA,C\ Calderón de la Barca,15.46,28.2,6.0,11.69,0.25,2.77,1185,ok
+0065282AR,429645.54,4586524.09,99.11,Styphnolobium japonicum,False,SEGONA,C\ Ciències,8.2,36.8,6.84,4.71,0.489,1.43,1370,ok
+0065283AR,429128.97,4585763.56,199.33,Styphnolobium japonicum,False,EXEMPLAR,C\ Santuari,11.13,69.5,9.41,5.12,0.108,4.46,1866,ok
+0065284AR,429417.55,4586490.34,108.08,Styphnolobium japonicum,False,SEGONA,C\ Dante Alighieri,9.06,35.5,6.72,5.31,0.128,4.11,1136,ok
+0065285AR,429648.53,4586380.62,101.38,Brachychiton populneus,False,SEGONA,C\ Ciències,4.15,2.0,1.6,2.3,0.429,1.69,96,ok
+0065286AR,429390.83,4586144.08,127.42,Styphnolobium japonicum,False,SEGONA,C\ Llobregós,6.9,33.0,6.48,4.48,0.267,2.64,875,ok
+0065287AR,429882.28,4585760.01,198.18,Styphnolobium japonicum,False,SEGONA,C\ Gran Vista,6.0,29.5,6.13,4.4,0.356,2.07,562,ok
+0065288AR,429331.26,4586509.55,108.49,Cercis siliquastrum,False,SEGONA,C\ Farnés,7.45,38.0,6.96,4.5,0.329,2.22,1368,ok
+0065289AR,429132.39,4586382.17,121.58,Tipuana tipu,False,TERCERA,Esc Floresta,13.04,35.8,6.75,8.39,0.208,3.14,1357,ok
+0065290AR,428978.42,4585864.76,182.84,Brachychiton acerifolius,False,SEGONA,C\ Llobregós,5.31,5.2,2.59,3.03,0.354,2.08,96,ok
+0065291AR,429609.67,4586283.03,107.21,Brachychiton populneus,False,SEGONA,C\ Llobregós,6.4,10.5,3.66,3.82,0.332,2.21,410,ok
+0065292AR,429519.23,4586288.33,112.86,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Lluís Marià Vidal,7.12,13.0,4.07,3.19,0.351,2.09,537,ok
+0065293AR,429414.41,4586036.57,138.31,Prunus cerasifera 'Pissardii',False,SEGONA,C\ Lugo,7.29,32.0,6.38,4.16,0.289,2.48,846,ok
+0065294AR,429364.73,4586609.83,99.89,Celtis australis,False,TERCERA,C\ Lisboa,9.96,54.0,8.29,5.59,0.178,3.45,1004,ok
+0065295AR,429631.23,4586532.44,100.66,Styphnolobium japonicum,False,PRIMERA,Rbla Carmel,4.09,12.0,3.91,2.68,0.491,1.42,541,ok
+0065296AR,429524.65,4586563.98,104.52,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Argimon,0.0,0.2,0.56,2.77,0.4,1.83,9,no_crown_detected
+0065300AR,429351.96,4586598.08,101.04,Celtis australis,False,SEGONA,C\ Lisboa,8.39,36.8,6.84,4.73,0.235,2.89,727,ok
+0065301AR,429272.02,4586040.98,149.14,Brachychiton populneus,False,SEGONA,C\ Llobregós,6.64,21.0,5.17,2.97,0.493,1.42,954,ok
+0065302AR,429556.98,4586673.19,97.68,Styphnolobium japonicum,False,SEGONA,C\ Beatriu,9.04,35.0,6.68,5.87,0.337,2.17,682,ok
+0065303AR,429612.09,4586495.65,99.86,Brachychiton populneus,False,SEGONA,Rbla Carmel,4.79,7.2,3.04,2.89,0.494,1.41,311,ok
+0065304AR,429228.39,4586008.26,157.32,Brachychiton populneus,False,SEGONA,C\ Llobregós,5.25,17.2,4.69,3.01,0.376,1.95,380,ok
+0065305AR,429442.7,4586663.18,92.71,Celtis australis,False,SEGONA,C\ Lisboa,5.61,18.0,4.79,3.89,0.399,1.84,358,ok
+0065306AR,429604.98,4586376.88,100.68,Styphnolobium japonicum,False,TERCERA,Rbla Carmel,6.64,41.5,7.27,5.25,0.352,2.09,1230,ok
+0065307AR,429632.45,4586185.25,107.55,Styphnolobium japonicum,False,TERCERA,Rbla Carmel,12.03,53.8,8.27,6.2,0.266,2.65,1751,ok
+0065308AR,429530.69,4586197.71,115.56,Melia azedarach,False,SEGONA,Ptge Santa Teresa,6.75,23.5,5.47,4.16,0.414,1.76,716,ok
+0065309AR,429638.68,4586247.39,106.04,Styphnolobium japonicum,False,TERCERA,Rbla Carmel,8.85,28.2,6.0,4.93,0.322,2.27,1254,ok
+0065310AR,429499.22,4586091.83,121.45,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Lugo,4.29,6.0,2.76,2.51,0.416,1.75,142,ok
+0065311AR,429557.45,4585733.79,174.02,Ligustrum lucidum,False,PRIMERA,C\ Calderón de la Barca,5.44,20.0,5.05,3.82,0.302,2.39,351,ok
+0065312AR,429136.9,4585948.82,162.05,Styphnolobium japonicum,False,SEGONA,C\ Llobregós,7.54,35.5,6.72,4.37,0.238,2.87,841,ok
+0065313AR,429738.97,4585759.51,171.95,Ligustrum lucidum,False,SEGONA,Bda Passerell,5.24,20.5,5.11,3.1,0.396,1.85,394,ok
+0065314AR,429636.64,4586494.6,99.44,Brachychiton acerifolius,False,PRIMERA,Rbla Carmel,6.59,5.2,2.59,3.23,0.321,2.27,207,ok
+0065315AR,429330.97,4586343.16,117.53,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Pantà de Tremp,,0.0,0.0,,,,0,no_crown_detected
+0065316AR,429412.05,4586645.32,95.55,Celtis australis,False,SEGONA,C\ Lisboa,6.67,28.5,6.02,4.03,0.341,2.15,580,ok
+0065317AR,429298.47,4586538.33,103.91,Tilia x euchlora,False,SEGONA,Ptge Andalet,7.36,21.8,5.26,2.9,0.324,2.25,779,ok
+0065318AR,429322.74,4586083.23,139.0,Styphnolobium japonicum,False,SEGONA,C\ Llobregós,7.09,35.0,6.68,3.08,0.257,2.72,1201,ok
+0065319AR,429634.12,4586276.64,105.94,Styphnolobium japonicum,False,TERCERA,Rbla Carmel,8.9,65.2,9.11,4.84,0.365,2.01,2968,ok
+0065320AR,429568.54,4585658.33,181.09,Ligustrum lucidum,False,PRIMERA,C\ Calderón de la Barca,0.0,3.8,2.19,1.67,0.25,2.77,145,low_tree
+0065321AR,429046.98,4585889.03,169.49,Styphnolobium japonicum,False,TERCERA,C\ Llobregós,8.06,41.8,7.29,3.31,0.25,2.77,760,ok
+0065322AR,429922.5,4585793.37,199.95,Styphnolobium japonicum,False,SEGONA,C\ Gran Vista,8.26,36.5,6.82,4.29,0.223,3.0,905,ok
+0065323AR,429484.02,4586310.74,112.45,Melia azedarach,False,SEGONA,Pl Pastrana,5.61,24.2,5.56,3.25,0.49,1.43,966,ok
+0065325AR,429133.8,4585767.51,199.67,Citrus × aurantium,False,PRIMERA,C\ Santuari,7.45,32.0,6.38,4.26,0.228,2.96,690,ok
+0065326AR,429670.4,4585931.68,134.21,Pyrus calleryana 'Chanticleer',False,PRIMERA,Rbla Carmel,3.69,8.0,3.19,2.39,0.441,1.64,93,ok
+0065327AR,429574.29,4585664.25,180.5,Cercis siliquastrum,False,PRIMERA,C\ Calderón de la Barca,6.34,19.2,4.95,3.95,0.403,1.82,652,ok
+0065329AR,429355.0,4585868.98,174.07,Cercis siliquastrum,False,SEGONA,C\ Murtra,6.21,24.8,5.61,2.57,0.264,2.66,522,ok
+0065330AR,429584.29,4585592.78,186.72,Melia azedarach,False,EXEMPLAR,C\ Gran Vista,13.01,90.2,10.72,6.25,0.221,3.02,4155,ok
+0065331AR,429061.59,4586079.41,167.08,Styphnolobium japonicum,False,TERCERA,Pg Mare de Déu del Coll,14.97,57.2,8.54,4.94,0.247,2.8,2631,ok
+0065332AR,429291.89,4585938.79,180.89,Ligustrum lucidum,False,SEGONA,C\ Murtra,5.55,22.2,5.32,3.9,0.211,3.11,327,ok
+0065333AR,429116.36,4585929.45,162.71,Brachychiton populneus,False,SEGONA,C\ Llobregós,6.59,13.0,4.07,2.71,0.448,1.61,306,ok
+0065334AR,429571.68,4585523.34,188.06,Pinus pinea,False,SEGONA,Jard Juan Ponce,13.26,19.5,4.98,7.28,0.251,2.76,997,ok
+0065335AR,429562.03,4586265.02,112.79,Styphnolobium japonicum,False,SEGONA,C\ Llobregós,8.8,32.2,6.41,4.97,0.345,2.13,1185,ok
+0065336AR,429476.78,4586303.01,113.13,Acacia dealbata,False,TERCERA,Pl Pastrana,7.3,54.2,8.31,4.08,0.348,2.11,1983,ok
+0065338AR,429564.63,4585730.25,174.43,Cercis siliquastrum,False,PRIMERA,C\ Calderón de la Barca,5.91,11.8,3.87,4.09,0.371,1.98,159,ok
+0065339AR,428959.94,4585771.79,194.13,Cercis siliquastrum,False,SEGONA,C\ Santuari,5.38,21.0,5.17,3.45,0.21,3.12,328,ok
+0065340AR,429568.34,4586599.03,102.16,Styphnolobium japonicum,False,TERCERA,C\ Beatriu,8.47,26.8,5.84,5.76,0.241,2.85,407,ok
+0065341AR,429483.5,4586209.89,120.81,Styphnolobium japonicum,False,SEGONA,C\ Llobregós,6.67,28.0,5.97,3.96,0.367,2.0,1012,ok
+0065343AR,429602.56,4586392.15,99.49,Styphnolobium japonicum,False,PRIMERA,Rbla Carmel,1.06,9.2,3.43,5.57,0.267,2.64,273,low_tree
+0065345AR,429263.1,4585954.23,182.55,Cercis siliquastrum,False,SEGONA,C\ Fastenrath,6.49,20.0,5.05,3.82,0.313,2.33,371,ok
+0065346AR,429784.99,4585701.49,194.47,Styphnolobium japonicum,False,SEGONA,C\ Gran Vista,9.0,46.2,7.67,5.37,0.264,2.66,980,ok
+0065347AR,428990.05,4585867.54,179.72,Aesculus hippocastanum,False,SEGONA,C\ Llobregós,5.87,20.5,5.11,3.25,0.314,2.32,401,ok
+0065348AR,429052.7,4585924.63,167.78,Cercis siliquastrum,False,SEGONA,C\ Fastenrath,7.14,32.2,6.41,3.96,0.264,2.66,537,ok
+0065351AR,429094.57,4586042.52,161.46,Jacaranda mimosifolia,False,PRIMERA,Camí Vell del Coll,12.43,86.8,10.51,6.64,0.321,2.28,4366,ok
+0065352AR,429494.76,4585808.16,170.46,Ligustrum lucidum,False,SEGONA,C\ Segimon,5.17,14.2,4.26,4.06,0.442,1.63,260,ok
+0065354AR,429658.78,4586231.91,104.61,Brachychiton acerifolius,False,PRIMERA,Rbla Carmel,10.52,33.2,6.51,5.27,0.387,1.9,1780,ok
+0065356AR,428951.08,4585830.04,188.52,Tipuana tipu,False,EXEMPLAR,Pg Mare de Déu del Coll,10.83,67.5,9.27,6.55,0.234,2.9,1329,ok
+0065357AR,429573.19,4585677.1,179.36,Cercis siliquastrum,False,SEGONA,C\ Calderón de la Barca,12.53,51.8,8.12,4.12,0.322,2.27,1858,ok
+0065358AR,429499.52,4586220.93,120.11,Styphnolobium japonicum,False,SEGONA,C\ Llobregós,6.63,34.0,6.58,3.41,0.305,2.37,1064,ok
+0065359AR,429329.71,4586571.99,103.18,Tilia x euchlora,False,PRIMERA,Ptge Andalet,8.71,27.8,5.94,4.28,0.262,2.68,443,ok
+0065360AR,429142.6,4585776.28,200.45,Styphnolobium japonicum,False,SEGONA,C\ Santuari,6.42,32.8,6.46,3.69,0.203,3.18,580,ok
+0065362AR,429571.81,4586255.44,112.68,Brachychiton populneus,False,TERCERA,C\ Llobregós,9.06,18.0,4.79,4.38,0.308,2.36,942,ok
+0065363AR,429638.7,4586141.51,109.85,Pyrus calleryana 'Chanticleer',False,PRIMERA,Rbla Carmel,10.03,9.2,3.43,1.9,0.321,2.27,312,ok
+0065365AR,429526.29,4586223.09,118.93,Brachychiton populneus,False,SEGONA,C\ Llobregós,7.03,12.0,3.91,3.83,0.343,2.14,464,ok
+0065366AR,429251.69,4586525.7,102.88,Celtis australis,False,TERCERA,C\ Lisboa,8.65,65.5,9.13,3.6,0.269,2.63,2259,ok
+0065368AR,429576.84,4586259.41,111.78,Brachychiton populneus,False,SEGONA,C\ Llobregós,6.79,13.2,4.11,3.35,0.441,1.64,505,ok
+0065370AR,429335.27,4585891.32,176.24,Cercis siliquastrum,False,SEGONA,C\ Murtra,6.34,30.5,6.23,3.26,0.273,2.6,543,ok
+0065372AR,429548.7,4585768.17,170.85,Ligustrum lucidum,False,SEGONA,C\ Calderón de la Barca,6.28,23.0,5.41,4.81,0.368,2.0,386,ok
+0065373AR,429565.62,4586135.37,114.23,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Lugo,4.75,14.5,4.3,2.74,0.342,2.14,435,ok
+0065374AR,429663.61,4585639.75,188.69,Styphnolobium japonicum,False,TERCERA,C\ Gran Vista,8.87,51.8,8.12,3.97,0.164,3.61,3083,ok
+0065375AR,429595.17,4586440.11,98.1,Styphnolobium japonicum,False,EXEMPLAR,Rbla Carmel,12.62,56.2,8.46,7.07,0.157,3.71,2161,ok
+0065376AR,429643.75,4586106.29,113.08,Pyrus calleryana 'Chanticleer',False,PRIMERA,Rbla Carmel,5.94,3.0,1.95,3.67,0.297,2.43,74,ok
+0065377AR,429172.19,4585822.57,203.37,Styphnolobium japonicum,False,SEGONA,C\ Santuari,12.95,22.5,5.35,4.04,0.17,3.55,407,ok
+0065378AR,429560.75,4585816.4,158.81,Morus alba,False,SEGONA,C\ Alcalde de Zalamea,9.17,31.5,6.33,4.76,0.11,4.41,572,ok
+0065379AR,429065.08,4586138.36,155.93,Styphnolobium japonicum,False,TERCERA,Pg Mare de Déu del Coll,9.52,18.2,4.82,4.7,0.232,2.92,717,ok
+0065380AR,429623.92,4586370.24,102.38,Brachychiton populneus,False,SEGONA,Rbla Carmel,10.38,18.2,4.82,3.65,0.217,3.05,907,ok
+0065381AR,429644.8,4586404.66,98.35,Brachychiton populneus,False,SEGONA,C\ Ciències,4.4,9.5,3.48,2.32,0.383,1.92,341,ok
+0065382AR,429655.8,4586375.46,97.98,Brachychiton populneus,False,TERCERA,C\ Ciències,10.64,20.0,5.05,3.31,0.125,4.16,945,ok
+0065383AR,429905.5,4585783.11,199.17,Styphnolobium japonicum,False,SEGONA,C\ Gran Vista,5.89,26.0,5.75,3.06,0.149,3.81,570,ok
+0065384AR,429046.2,4585883.63,170.15,Brachychiton populneus,False,SEGONA,C\ Llobregós,8.44,19.0,4.92,2.79,0.237,2.88,350,ok
+0065385AR,429489.05,4586213.63,120.53,Styphnolobium japonicum,False,SEGONA,C\ Llobregós,8.26,31.8,6.36,4.43,0.274,2.59,1124,ok
+0065386AR,429277.39,4585964.58,178.84,Celtis australis,False,SEGONA,C\ Murtra,9.61,34.5,6.63,5.77,0.111,4.39,468,ok
+0065388AR,429356.19,4586520.41,107.16,Cercis siliquastrum,False,TERCERA,C\ Farnés,8.5,2.5,1.78,4.52,0.245,2.81,80,ok
+0065389AR,429574.99,4586141.42,113.26,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Lugo,5.08,12.0,3.91,3.19,0.406,1.81,302,ok
+0065391AR,429651.9,4586053.43,119.98,Celtis australis,False,EXEMPLAR,Rbla Carmel,14.34,74.8,9.76,8.31,0.235,2.89,2877,ok
+0065392AR,429316.05,4585925.1,179.26,Cercis siliquastrum,False,SEGONA,C\ Murtra,12.96,23.0,5.41,3.97,0.175,3.49,418,ok
+0065393AR,429415.35,4585992.54,146.5,Melia azedarach,False,TERCERA,C\ Calderón de la Barca,15.69,54.5,8.33,11.31,0.098,4.64,998,ok
+0065394AR,429595.01,4586554.86,101.76,Brachychiton populneus,False,SEGONA,Rbla Carmel,4.88,5.8,2.71,2.37,0.451,1.59,257,ok
+0065395AR,429594.93,4586559.95,101.85,Brachychiton populneus,False,SEGONA,Rbla Carmel,4.71,8.2,3.24,2.4,0.533,1.26,376,ok
+0065397AR,429424.41,4585958.3,150.1,Ligustrum lucidum,False,SEGONA,C\ Calderón de la Barca,14.3,90.2,10.72,8.89,0.152,3.77,1596,ok
+0065398AR,429566.93,4586268.55,112.04,Styphnolobium japonicum,False,SEGONA,C\ Llobregós,9.08,36.8,6.84,5.92,0.337,2.17,1191,ok
+0065399AR,429429.9,4585818.7,174.31,Cercis siliquastrum,False,SEGONA,C\ Segimon,5.51,33.0,6.48,4.12,0.416,1.75,627,ok
+0065400AR,429121.58,4585913.36,168.86,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Fastenrath,4.18,8.5,3.29,2.74,0.486,1.44,173,ok
+0065401AR,429555.27,4586662.83,97.63,Styphnolobium japonicum,False,TERCERA,C\ Beatriu,11.01,42.2,7.33,6.85,0.183,3.39,884,ok
+0065402AR,429658.02,4586012.91,124.91,Celtis australis,False,SEGONA,Rbla Carmel,7.68,42.2,7.33,4.2,0.398,1.84,1407,ok
+0065403AR,429145.94,4585966.18,161.73,Styphnolobium japonicum,False,SEGONA,C\ Llobregós,6.49,26.2,5.78,3.93,0.282,2.53,422,ok
+0065405AR,429314.56,4586494.07,109.51,Cercis siliquastrum,False,SEGONA,C\ Farnés,12.7,45.2,7.59,5.83,0.208,3.14,1665,ok
+0065406AR,429394.52,4586378.58,112.22,Ligustrum japonicum 'Texanum',False,PRIMERA,C\ Sacedón,3.29,5.5,2.65,2.29,0.277,2.57,132,ok
+0065407AR,429299.38,4586553.88,102.55,Celtis australis,False,SEGONA,C\ Lisboa,6.58,29.0,6.08,2.64,0.402,1.82,1228,ok
+0065408AR,429566.76,4586256.8,112.9,Styphnolobium japonicum,False,SEGONA,C\ Llobregós,6.78,24.0,5.53,3.87,0.41,1.78,976,ok
+0065409AR,429212.94,4586014.19,157.73,Styphnolobium japonicum,False,SEGONA,C\ Llobregós,7.63,32.2,6.41,4.08,0.267,2.64,657,ok
+0065411AR,429601.36,4586276.66,108.94,Brachychiton populneus,False,PRIMERA,C\ Llobregós,3.95,1.2,1.26,4.67,0.583,1.08,26,no_crown_detected
+0065412AR,429792.21,4585705.86,194.66,Styphnolobium japonicum,False,SEGONA,C\ Gran Vista,5.6,47.5,7.78,3.76,0.259,2.7,980,ok
+0065415AR,429261.82,4586038.4,150.66,Styphnolobium japonicum,False,SEGONA,C\ Llobregós,6.85,22.8,5.38,1.98,0.378,1.95,968,ok
+0065416AR,429510.73,4586216.96,119.67,Styphnolobium japonicum,False,SEGONA,C\ Llobregós,7.3,40.0,7.14,4.32,0.343,2.14,1822,ok
+0065417AR,429445.97,4585812.47,173.47,Ligustrum lucidum,False,SEGONA,C\ Segimon,8.19,23.8,5.5,5.19,0.249,2.78,457,ok
+0065418AR,430021.2,4585908.42,153.17,Platanus × acerifolia,True,EXEMPLAR,Pg Font de la Mulassa,21.18,63.5,8.99,10.71,0.062,5.56,1486,ok
+0065419AR,429822.49,4585733.58,196.0,Styphnolobium japonicum,False,TERCERA,C\ Gran Vista,14.4,47.8,7.8,4.87,0.122,4.2,1301,ok
+0065420AR,429596.4,4586549.48,101.57,Brachychiton populneus,False,SEGONA,Rbla Carmel,3.95,7.0,2.99,2.43,0.535,1.25,323,ok
+0065421AR,429186.62,4586069.01,145.51,Ligustrum lucidum,False,PRIMERA,C\ Murtra,,0.0,0.0,,,,0,no_crown_detected
+0065422AR,429616.59,4586461.96,100.35,Brachychiton populneus,False,SEGONA,Rbla Carmel,4.69,4.0,2.26,2.89,0.51,1.35,190,ok
+0065423AR,429242.12,4586023.74,154.89,Styphnolobium japonicum,False,SEGONA,C\ Llobregós,7.45,31.5,6.33,4.37,0.369,1.99,1554,ok
+0065424AR,429406.66,4586641.71,96.06,Celtis australis,False,SEGONA,C\ Lisboa,6.62,32.0,6.38,4.09,0.33,2.22,649,ok
+0065425AR,429521.19,4586224.38,119.03,Styphnolobium japonicum,False,SEGONA,C\ Llobregós,7.41,35.8,6.75,3.54,0.286,2.51,1697,ok
+0065426AR,429709.41,4585804.36,160.67,Cercis siliquastrum,False,SEGONA,Bda Passerell,4.95,35.2,6.7,2.31,0.329,2.23,697,ok
+0065428AR,429296.16,4585934.35,180.51,Ligustrum lucidum,False,SEGONA,C\ Murtra,6.56,26.2,5.78,3.84,0.176,3.47,363,ok
+0065429AR,430077.39,4585753.55,204.83,Firmiana simplex,False,SEGONA,C\ Gran Vista,6.89,22.0,5.29,3.03,0.287,2.5,387,ok
+0065430AR,429605.82,4586370.6,101.12,Styphnolobium japonicum,False,SEGONA,Rbla Carmel,5.03,7.5,3.09,4.56,0.519,1.31,298,ok
+0065431AR,429560.74,4586132.05,114.65,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Lugo,3.87,6.0,2.76,2.33,0.323,2.26,140,ok
+0065432AR,429355.97,4586602.35,100.62,Celtis australis,False,TERCERA,C\ Lisboa,8.96,40.8,7.2,5.1,0.174,3.49,837,ok
+0065435AR,429335.19,4586513.06,108.23,Cercis siliquastrum,False,SEGONA,C\ Farnés,7.01,25.2,5.67,3.0,0.356,2.07,925,ok
+0065436AR,429503.6,4585866.31,163.21,Melia azedarach,False,SEGONA,C\ Calderón de la Barca,9.14,24.0,5.53,7.7,0.228,2.96,373,ok
+0065437AR,429371.95,4585748.97,201.95,Styphnolobium japonicum,False,TERCERA,C\ Santuari,12.03,30.5,6.23,4.59,0.156,3.72,675,ok
+0065439AR,429614.13,4586400.1,98.84,Styphnolobium japonicum,False,TERCERA,Rbla Carmel,10.39,36.2,6.79,5.78,0.276,2.57,1713,ok
+0065441AR,429347.32,4586409.95,112.16,Styphnolobium japonicum,False,SEGONA,C\ Dante Alighieri,9.28,44.2,7.51,5.68,0.234,2.9,1555,ok
+0065442AR,429052.37,4585892.67,168.61,Styphnolobium japonicum,False,SEGONA,C\ Llobregós,10.37,43.5,7.44,3.94,0.164,3.62,1087,ok
+0065444AR,429328.92,4586577.41,102.2,Celtis australis,False,EXEMPLAR,C\ Lisboa,10.16,51.0,8.06,6.14,0.213,3.09,891,ok
+0065445AR,429673.88,4585647.61,189.38,Styphnolobium japonicum,False,SEGONA,C\ Gran Vista,6.79,38.0,6.96,3.75,0.415,1.76,1979,ok
+0065446AR,429651.85,4586233.43,104.55,Brachychiton acerifolius,False,PRIMERA,Rbla Carmel,13.34,22.8,5.38,5.63,0.348,2.11,1320,ok
+0065447AR,429477.16,4585706.86,203.51,Styphnolobium japonicum,False,SEGONA,C\ Santuari,10.35,37.8,6.93,3.79,0.179,3.44,731,ok
+0065448AR,429869.5,4585752.38,197.65,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Gran Vista,3.99,6.2,2.82,2.32,0.407,1.8,118,ok
+0065449AR,429494.0,4586200.77,120.59,Brachychiton populneus,False,SEGONA,C\ Llobregós,7.17,12.2,3.95,2.39,0.293,2.46,500,ok
+0065450AR,429673.39,4586294.57,101.46,Styphnolobium japonicum,False,TERCERA,C\ Ciències,9.37,46.8,7.72,3.83,0.364,2.02,2164,ok
+0065451AR,429639.73,4586242.31,105.93,Styphnolobium japonicum,False,TERCERA,Rbla Carmel,9.92,44.2,7.51,5.19,0.308,2.35,1923,ok
+0065452AR,429266.6,4586042.05,149.61,Styphnolobium japonicum,False,SEGONA,C\ Llobregós,7.21,26.5,5.81,4.71,0.412,1.77,1253,ok
+0065453AR,429032.1,4585760.46,195.7,Cercis siliquastrum,False,SEGONA,C\ Santuari,12.16,21.2,5.2,3.95,0.272,2.6,338,ok
+0065454AR,429426.16,4586157.42,124.75,Styphnolobium japonicum,False,SEGONA,C\ Llobregós,6.4,13.8,4.18,2.96,0.284,2.51,588,ok
+0065455AR,429463.91,4585812.78,172.51,Ligustrum lucidum,False,PRIMERA,C\ Segimon,3.9,1.8,1.49,2.97,0.558,1.17,43,no_crown_detected
+0065456AR,429540.78,4585517.21,189.54,Platanus × acerifolia,True,TERCERA,Jard Juan Ponce,13.59,145.0,13.59,4.53,0.345,2.13,7304,ok
+0065457AR,429398.62,4585826.37,174.94,Cercis siliquastrum,False,PRIMERA,C\ Murtra,5.22,13.5,4.15,3.33,0.344,2.13,209,ok
+0065458AR,429666.7,4585954.89,131.59,Pyrus calleryana 'Chanticleer',False,PRIMERA,Rbla Carmel,5.92,4.0,2.26,3.4,0.377,1.95,53,ok
+0065459AR,429526.48,4586227.96,118.52,Styphnolobium japonicum,False,SEGONA,C\ Llobregós,8.16,31.0,6.28,2.61,0.256,2.73,1449,ok
+0065460AR,429738.11,4585673.14,192.66,Styphnolobium japonicum,False,TERCERA,C\ Gran Vista,9.72,58.0,8.59,4.05,0.342,2.15,2976,ok
+0065461AR,429218.26,4586006.34,157.87,Styphnolobium japonicum,False,SEGONA,C\ Llobregós,7.92,33.5,6.53,4.32,0.208,3.14,706,ok
+0065463AR,429257.79,4585944.33,182.39,Ligustrum lucidum,False,SEGONA,C\ Fastenrath,6.17,15.8,4.48,3.88,0.239,2.87,264,ok
+0065466AR,429306.97,4585921.24,179.51,Ligustrum lucidum,False,SEGONA,C\ Murtra,7.12,20.8,5.14,4.22,0.275,2.59,306,ok
+0065467AR,429649.83,4586367.8,102.79,Brachychiton acerifolius,False,SEGONA,C\ Ciències,5.36,3.5,2.11,3.31,0.466,1.53,167,ok
+0065468AR,430006.18,4585958.18,145.7,Platanus × acerifolia,True,TERCERA,Pg Font de la Mulassa,16.08,83.2,10.3,8.52,0.099,4.62,1928,ok
+0065469AR,429402.24,4586638.64,96.46,Celtis australis,False,SEGONA,C\ Lisboa,8.09,47.8,7.8,2.21,0.318,2.29,1312,ok
+0065470AR,429652.01,4586356.55,103.33,Brachychiton acerifolius,False,PRIMERA,C\ Ciències,10.24,20.5,5.11,4.35,0.309,2.35,784,ok
+0065471AR,429564.5,4586617.8,100.87,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Beatriu,0.0,8.2,3.24,5.53,0.438,1.65,137,low_tree
+0065472AR,429224.39,4586512.71,103.08,Celtis australis,False,SEGONA,C\ Lisboa,7.35,25.8,5.73,4.72,0.39,1.89,1133,ok
+0065473AR,429610.84,4586454.66,100.0,Brachychiton populneus,False,SEGONA,Rbla Carmel,5.33,13.2,4.11,2.37,0.318,2.29,482,ok
+0065474AR,429642.66,4586111.75,112.62,Celtis australis,False,EXEMPLAR,Rbla Carmel,12.2,24.0,5.53,6.62,0.233,2.91,736,ok
+0065475AR,429627.07,4586634.42,98.34,Styphnolobium japonicum,False,TERCERA,C\ Lletres,10.29,75.5,9.8,5.25,0.205,3.17,1642,ok
+0065476AR,429416.68,4585703.87,203.18,Lagunaria patersonia,False,PRIMERA,C\ Santuari,5.31,3.5,2.11,2.85,0.361,2.04,61,ok
+0065477AR,429089.36,4586033.33,162.76,Jacaranda mimosifolia,False,SEGONA,Camí Vell del Coll,10.5,24.8,5.61,3.91,0.344,2.14,1082,ok
+0065478AR,429860.79,4585746.86,197.44,Styphnolobium japonicum,False,SEGONA,C\ Gran Vista,8.37,52.0,8.14,2.55,0.189,3.33,1254,ok
+0065479AR,429523.28,4586193.64,115.62,Melia azedarach,False,SEGONA,Ptge Santa Teresa,7.14,21.0,5.17,4.7,0.329,2.23,515,ok
+0065480AR,429110.76,4585931.04,162.73,Styphnolobium japonicum,False,SEGONA,C\ Llobregós,7.21,29.5,6.13,4.63,0.312,2.33,599,ok
+0065481AR,429705.21,4585653.41,190.78,Styphnolobium japonicum,False,PRIMERA,C\ Gran Vista,8.07,18.8,4.89,4.1,0.438,1.65,521,ok
+0065483AR,429817.19,4585730.26,195.69,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Gran Vista,8.26,7.8,3.14,3.25,0.153,3.76,144,ok
+0065484AR,429056.22,4585890.21,168.44,Brachychiton populneus,False,SEGONA,C\ Llobregós,10.65,14.5,4.3,5.0,0.228,2.96,338,ok
+0065485AR,429559.84,4585760.3,171.74,Cercis siliquastrum,False,SEGONA,C\ Calderón de la Barca,7.12,29.8,6.15,4.84,0.277,2.57,477,ok
+0065486AR,429579.43,4586540.65,101.65,Styphnolobium japonicum,False,SEGONA,Rbla Carmel,8.13,27.5,5.92,5.03,0.34,2.16,975,ok
+0065488AR,429910.65,4585776.52,199.31,Styphnolobium japonicum,False,TERCERA,C\ Gran Vista,9.79,37.5,6.91,5.29,0.137,3.97,780,ok
+0065490AR,429155.74,4586466.33,103.88,Celtis australis,False,TERCERA,C\ Lisboa,9.28,36.2,6.79,4.86,0.283,2.53,1501,ok
+0065491AR,429432.53,4586657.8,93.65,Celtis australis,False,SEGONA,C\ Lisboa,6.33,25.0,5.64,3.89,0.406,1.8,505,ok
+0065492AR,429606.75,4585604.19,185.63,Styphnolobium japonicum,False,EXEMPLAR,C\ Gran Vista,11.73,42.8,7.38,5.91,0.197,3.25,1885,ok
+0065494AR,429208.87,4586504.31,103.24,Celtis australis,False,SEGONA,C\ Lisboa,7.12,27.0,5.86,4.17,0.33,2.22,1129,ok
+0065495AR,429474.73,4586342.28,111.16,Brachychiton acerifolius,False,TERCERA,Pl Pastrana,9.8,25.0,5.64,4.45,0.328,2.23,1071,ok
+0065496AR,429608.42,4586299.18,106.76,Styphnolobium japonicum,False,SEGONA,C\ Llobregós,8.52,36.8,6.84,5.08,0.228,2.96,1215,ok
+0065497AR,429402.36,4585822.61,175.11,Cercis siliquastrum,False,SEGONA,C\ Murtra,5.29,23.8,5.5,3.56,0.297,2.43,364,ok
+0065498AR,429446.98,4586321.54,113.02,Prunus cerasifera 'Pissardii',False,PRIMERA,Pl Pastrana,0.0,1.8,1.49,3.16,0.385,1.91,68,no_crown_detected
+0065499AR,429531.21,4586231.15,117.93,Styphnolobium japonicum,False,SEGONA,C\ Llobregós,7.46,26.5,5.81,4.62,0.307,2.36,1007,ok
+0065500AR,429123.45,4586436.66,104.74,Celtis australis,False,SEGONA,C\ Lisboa,8.18,36.0,6.77,4.91,0.28,2.54,1234,ok
+0065501AR,429628.7,4586383.64,102.04,Brachychiton acerifolius,False,SEGONA,Rbla Carmel,4.61,5.2,2.59,2.22,0.5,1.39,210,ok
+0065502AR,429575.15,4585658.28,181.08,Cercis siliquastrum,False,SEGONA,C\ Calderón de la Barca,7.58,27.2,5.89,4.44,0.392,1.87,1015,ok
+0065504AR,429569.22,4585651.73,181.68,Ligustrum lucidum,False,PRIMERA,C\ Calderón de la Barca,0.0,0.5,0.8,5.01,0.167,3.58,10,no_crown_detected
+0065505AR,429170.72,4585983.52,160.52,Styphnolobium japonicum,False,SEGONA,C\ Llobregós,6.31,31.2,6.31,4.49,0.33,2.22,548,ok
+0065506AR,428970.49,4585854.57,184.25,Brachychiton acerifolius,False,PRIMERA,C\ Llobregós,5.0,4.5,2.39,2.85,0.438,1.65,96,ok
+0065507AR,429259.12,4586326.05,124.47,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Dante Alighieri,12.97,5.5,2.65,4.22,0.224,3.0,195,ok
+0065508AR,429237.62,4586015.05,156.22,Brachychiton populneus,False,SEGONA,C\ Llobregós,4.71,28.2,6.0,2.72,0.308,2.35,818,ok
+0065509AR,429332.04,4586499.21,108.76,Cercis siliquastrum,False,SEGONA,C\ Farnés,11.64,35.2,6.7,4.29,0.268,2.63,1198,ok
+0065510AR,429504.68,4586212.58,120.01,Styphnolobium japonicum,False,SEGONA,C\ Llobregós,7.02,23.8,5.5,3.26,0.275,2.58,989,ok
+0065512AR,429592.3,4586457.67,98.56,Styphnolobium japonicum,False,TERCERA,Rbla Carmel,11.19,47.0,7.74,7.56,0.196,3.26,1485,ok
+0065513AR,429578.49,4585527.26,187.92,Platanus × acerifolia,True,EXEMPLAR,Jard Juan Ponce,16.77,66.0,9.17,7.44,0.153,3.75,3093,ok
+0065516AR,429645.02,4586529.18,99.3,Styphnolobium japonicum,False,SEGONA,C\ Ciències,7.18,35.2,6.7,4.57,0.515,1.33,1212,ok
+0065517AR,429236.89,4586031.82,154.7,Styphnolobium japonicum,False,SEGONA,C\ Llobregós,7.91,37.0,6.86,4.49,0.191,3.31,1112,ok
+0065519AR,429632.4,4586288.32,105.91,Styphnolobium japonicum,False,TERCERA,Rbla Carmel,8.7,28.2,6.0,5.16,0.321,2.27,1230,ok
+0065520AR,429303.29,4585925.49,179.94,Ligustrum lucidum,False,SEGONA,C\ Murtra,6.43,14.2,4.26,4.04,0.158,3.69,202,ok
+0065521AR,430093.12,4585752.92,205.07,Firmiana simplex,False,SEGONA,C\ Gran Vista,7.2,19.2,4.95,3.85,0.246,2.81,391,ok
+0065523AR,429680.01,4585757.4,156.29,Cercis siliquastrum,False,SEGONA,C\ Queixans,5.59,22.5,5.35,3.51,0.468,1.52,477,ok
+0065526AR,429318.95,4586498.14,109.22,Cercis siliquastrum,False,SEGONA,C\ Farnés,8.73,28.2,6.0,5.33,0.347,2.12,1135,ok
+0065527AR,429823.92,4585724.55,195.96,Styphnolobium japonicum,False,TERCERA,C\ Gran Vista,6.89,32.2,6.41,3.93,0.264,2.66,598,ok
+0065528AR,429731.43,4585678.84,192.46,Styphnolobium japonicum,False,SEGONA,C\ Gran Vista,7.75,16.5,4.58,3.82,0.261,2.69,505,ok
+0065529AR,429773.76,4585694.66,194.1,Styphnolobium japonicum,False,TERCERA,C\ Gran Vista,8.84,63.0,8.96,3.39,0.181,3.42,1238,ok
+0065531AR,429186.33,4585977.73,160.16,Brachychiton populneus,False,PRIMERA,C\ Llobregós,5.51,8.0,3.19,3.84,0.245,2.81,106,ok
+0065532AR,429374.34,4585843.54,174.16,Cercis siliquastrum,False,PRIMERA,C\ Murtra,4.33,9.2,3.43,2.81,0.341,2.15,132,ok
+0065534AR,429651.47,4586237.86,104.49,Brachychiton acerifolius,False,PRIMERA,Rbla Carmel,14.45,26.2,5.78,6.57,0.274,2.59,1515,ok
+0065536AR,429511.74,4585851.94,164.2,Melia azedarach,False,SEGONA,C\ Calderón de la Barca,10.07,27.8,5.94,6.76,0.189,3.33,486,ok
+0065537AR,429671.54,4586306.71,100.98,Styphnolobium japonicum,False,PRIMERA,C\ Ciències,5.79,13.5,4.15,3.44,0.588,1.06,465,ok
+0065538AR,429358.23,4586423.69,111.22,Styphnolobium japonicum,False,TERCERA,C\ Dante Alighieri,9.39,41.5,7.27,5.54,0.203,3.19,1636,ok
+0065539AR,429242.14,4586019.02,155.37,Brachychiton populneus,False,SEGONA,C\ Llobregós,6.59,20.8,5.14,3.75,0.446,1.61,745,ok
+0065540AR,429599.07,4586553.14,101.57,Brachychiton populneus,False,SEGONA,Rbla Carmel,4.88,4.5,2.39,2.17,0.434,1.67,203,ok
+0065541AR,429650.61,4586362.43,103.04,Brachychiton populneus,False,SEGONA,C\ Ciències,3.83,8.5,3.29,2.59,0.538,1.24,311,ok
+0065542AR,429557.92,4586679.83,97.91,Styphnolobium japonicum,False,TERCERA,C\ Beatriu,10.21,45.8,7.63,5.58,0.341,2.15,1047,ok
+0065543AR,429655.38,4586031.05,122.8,Celtis australis,False,SEGONA,Rbla Carmel,8.52,26.0,5.75,5.72,0.394,1.86,908,ok
+0065545AR,429269.16,4585954.92,182.46,Cercis siliquastrum,False,PRIMERA,C\ Fastenrath,7.46,17.0,4.65,3.25,0.403,1.82,320,ok
+0065547AR,429124.18,4585760.56,198.91,Styphnolobium japonicum,False,TERCERA,C\ Santuari,10.39,54.8,8.35,4.21,0.116,4.32,1437,ok
+0065548AR,429420.02,4585983.36,147.53,Melia azedarach,False,EXEMPLAR,C\ Calderón de la Barca,16.68,84.8,10.39,11.15,0.131,4.06,1643,ok
+0065549AR,429092.78,4586039.76,161.86,Jacaranda mimosifolia,False,TERCERA,Camí Vell del Coll,11.88,26.2,5.78,5.6,0.341,2.15,1293,ok
+0065550AR,429223.12,4586004.4,157.75,Brachychiton populneus,False,TERCERA,C\ Llobregós,7.81,17.0,4.65,3.7,0.285,2.51,400,ok
+0065551AR,429893.69,4585766.36,198.62,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Gran Vista,8.62,71.5,9.54,2.65,0.197,3.25,1407,ok
+0065552AR,429649.2,4586123.39,111.51,Celtis australis,False,EXEMPLAR,Rbla Carmel,11.76,128.5,12.79,5.52,0.37,1.99,5359,ok
+0065553AR,429241.46,4586035.3,153.83,Styphnolobium japonicum,False,SEGONA,C\ Llobregós,8.35,66.2,9.18,4.57,0.204,3.18,2184,ok
+0065554AR,429339.4,4586400.37,112.88,Styphnolobium japonicum,False,SEGONA,C\ Dante Alighieri,12.74,79.0,10.03,6.42,0.196,3.26,2982,ok
+0065555AR,429220.19,4585861.12,205.74,Lagunaria patersonia,False,PRIMERA,C\ Santuari,12.55,28.8,6.05,3.84,0.309,2.35,624,ok
+0065556AR,429728.31,4585697.05,182.18,Ulmus pumila,False,TERCERA,C\ Doctor Bové,8.34,76.0,9.84,2.97,0.199,3.23,1601,ok
+0065558AR,429643.68,4586483.26,94.49,Styphnolobium japonicum,False,PRIMERA,C\ Ciències,8.4,19.5,4.98,3.21,0.515,1.33,793,ok
+0065561AR,429597.39,4586543.22,101.39,Brachychiton populneus,False,SEGONA,Rbla Carmel,5.02,13.8,4.18,2.65,0.519,1.31,634,ok
+0065562AR,429612.51,4586302.36,106.19,Styphnolobium japonicum,False,SEGONA,C\ Llobregós,8.69,69.2,9.39,4.9,0.26,2.69,2483,ok
+0065564AR,429927.04,4585786.54,200.0,Styphnolobium japonicum,False,SEGONA,C\ Gran Vista,8.28,39.8,7.11,3.65,0.219,3.04,987,ok
+0065566AR,429171.64,4585967.13,161.09,Brachychiton populneus,False,SEGONA,C\ Llobregós,7.01,23.8,5.5,3.34,0.291,2.47,399,ok
+0065567AR,429569.67,4585646.65,182.16,Ligustrum lucidum,False,SEGONA,C\ Calderón de la Barca,6.66,22.0,5.29,4.48,0.422,1.73,733,ok
+0065568AR,429654.82,4586381.65,101.36,Populus alba 'Pyramidalis',False,TERCERA,C\ Ciències,13.12,21.2,5.2,4.26,0.146,3.85,1289,ok
+0065569AR,429515.35,4586215.1,119.65,Brachychiton populneus,False,SEGONA,C\ Llobregós,5.06,12.2,3.95,3.76,0.329,2.22,387,ok
+0065571AR,429563.53,4586623.4,100.46,Styphnolobium japonicum,False,TERCERA,C\ Beatriu,10.65,30.2,6.21,6.5,0.229,2.94,606,ok
+0065574AR,429636.45,4586154.66,109.0,Styphnolobium japonicum,False,SEGONA,Rbla Carmel,7.31,28.8,6.05,4.22,0.316,2.31,962,ok
+0065575AR,429620.09,4586499.97,99.73,Brachychiton acerifolius,False,PRIMERA,Rbla Carmel,5.6,5.8,2.71,3.08,0.508,1.36,268,ok
+0065576AR,429488.44,4585496.46,191.41,Platanus × acerifolia,True,TERCERA,Jard Juan Ponce,13.69,107.2,11.69,6.55,0.301,2.4,5332,ok
+0065579AR,429138.76,4585771.93,200.16,Styphnolobium japonicum,False,TERCERA,C\ Santuari,7.15,50.8,8.04,3.6,0.243,2.83,1208,ok
+0065580AR,429367.46,4585754.36,202.44,Styphnolobium japonicum,False,SEGONA,C\ Santuari,11.51,17.0,4.65,3.66,0.231,2.93,334,ok
+0065581AR,428999.55,4585766.17,194.98,Cercis siliquastrum,False,SEGONA,C\ Santuari,12.78,21.2,5.2,3.98,0.292,2.46,353,ok
+0065582AR,429351.89,4586516.64,107.48,Cercis siliquastrum,False,SEGONA,C\ Farnés,6.98,21.0,5.17,4.47,0.319,2.29,655,ok
+0065583AR,429593.42,4585586.79,186.35,Styphnolobium japonicum,False,TERCERA,C\ Gran Vista,9.12,49.2,7.92,4.75,0.331,2.21,2583,ok
+0065584AR,429657.57,4586394.42,95.78,Styphnolobium japonicum,False,TERCERA,C\ Ciències,7.96,38.8,7.02,4.79,0.393,1.87,1756,ok
+0065585AR,429626.01,4586401.97,101.26,Brachychiton acerifolius,False,SEGONA,Rbla Carmel,5.76,4.8,2.46,2.68,0.44,1.64,221,ok
+0065586AR,429289.85,4586022.85,158.04,Tipuana tipu,False,SEGONA,C\ Hortal,7.17,40.2,7.16,4.31,0.472,1.5,1758,ok
+0065589AR,429646.48,4586465.34,93.71,Styphnolobium japonicum,False,PRIMERA,C\ Ciències,11.6,36.8,6.84,3.62,0.331,2.21,2061,ok
+0065590AR,429525.71,4586109.52,118.03,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Lugo,5.13,20.8,5.14,3.51,0.184,3.39,621,ok
+0065592AR,429866.15,4585759.47,197.82,Styphnolobium japonicum,False,SEGONA,C\ Gran Vista,7.01,31.0,6.28,3.4,0.174,3.5,645,ok
+0065593AR,429659.12,4586004.78,125.86,Celtis australis,False,TERCERA,Rbla Carmel,12.12,54.5,8.33,5.44,0.321,2.27,1856,ok
+0065594AR,429478.64,4585870.44,161.64,Ligustrum lucidum,False,PRIMERA,C\ Calderón de la Barca,7.28,7.8,3.14,6.19,0.348,2.11,135,ok
+0065595AR,429430.14,4585701.15,203.7,Styphnolobium japonicum,False,SEGONA,C\ Santuari,8.64,37.0,6.86,4.01,0.169,3.55,826,ok
+0065596AR,429131.64,4586375.35,123.26,Tipuana tipu,False,EXEMPLAR,Esc Floresta,13.2,55.8,8.43,8.47,0.25,2.77,2342,ok
+0065597AR,429625.94,4586359.27,102.86,Brachychiton acerifolius,False,SEGONA,Rbla Carmel,6.01,10.2,3.61,3.59,0.332,2.21,395,ok
+0065598AR,429339.29,4585897.49,176.44,Cercis siliquastrum,False,SEGONA,C\ Murtra,5.65,24.0,5.53,3.17,0.186,3.36,355,ok
+0065601AR,429237.41,4585861.78,205.27,Styphnolobium japonicum,False,TERCERA,C\ Santuari,7.5,80.8,10.14,3.78,0.266,2.65,1937,ok
+0065602AR,429054.62,4585768.13,194.16,Tipuana tipu,False,SEGONA,C\ Hortal,8.65,29.0,6.08,3.71,0.186,3.37,522,ok
+0065603AR,429585.78,4586548.23,101.93,Styphnolobium japonicum,False,TERCERA,Rbla Carmel,8.08,46.5,7.69,4.99,0.397,1.85,1990,ok
+0065604AR,429654.41,4586037.7,122.03,Pyrus calleryana 'Chanticleer',False,PRIMERA,Rbla Carmel,9.36,2.5,1.78,3.12,0.395,1.86,93,ok
+0065605AR,429332.46,4586391.7,113.57,Styphnolobium japonicum,False,TERCERA,C\ Dante Alighieri,10.52,47.2,7.76,5.99,0.198,3.24,1869,ok
+0065606AR,429357.62,4586120.43,132.52,Styphnolobium japonicum,False,SEGONA,C\ Llobregós,5.92,26.2,5.78,4.2,0.402,1.82,803,ok
+0065607AR,429170.48,4586481.25,103.67,Celtis australis,False,TERCERA,C\ Lisboa,8.98,33.2,6.51,5.13,0.356,2.06,1422,ok
+0065609AR,429337.68,4586324.24,119.69,Prunus cerasifera 'Pissardii',False,SEGONA,C\ Moratín,8.35,22.5,5.35,3.94,0.412,1.77,778,ok
+0065610AR,429536.51,4586246.66,116.49,Styphnolobium japonicum,False,SEGONA,C\ Llobregós,8.46,37.8,6.93,4.43,0.271,2.61,1256,ok
+0065611AR,429477.84,4586078.0,124.85,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Lugo,4.72,11.8,3.87,2.58,0.262,2.68,292,ok
+0065613AR,429396.2,4585719.43,201.84,Lagunaria patersonia,False,PRIMERA,C\ Santuari,5.81,1.2,1.26,2.71,0.318,2.29,22,no_crown_detected
+0065614AR,429460.72,4585868.23,160.1,Melia azedarach,False,SEGONA,C\ Calderón de la Barca,11.63,24.8,5.61,8.32,0.196,3.26,393,ok
+0065615AR,429566.83,4585717.66,175.53,Cercis siliquastrum,False,SEGONA,C\ Calderón de la Barca,6.74,28.0,5.97,4.83,0.262,2.68,489,ok
+0065617AR,429655.07,4586083.54,116.07,Catalpa bignonioides,False,PRIMERA,Rbla Carmel,7.74,28.8,6.05,4.99,0.499,1.39,1144,ok
+0065618AR,429612.61,4586326.83,104.14,Styphnolobium japonicum,False,TERCERA,Rbla Carmel,8.24,39.8,7.11,6.07,0.317,2.3,1231,ok
+0065620AR,429587.85,4586487.85,99.73,Styphnolobium japonicum,False,TERCERA,Rbla Carmel,9.29,27.5,5.92,5.82,0.386,1.9,1008,ok
+0065621AR,429416.13,4586150.32,125.58,Styphnolobium japonicum,False,TERCERA,C\ Llobregós,10.33,62.0,8.88,5.07,0.296,2.43,2362,ok
+0065622AR,429266.44,4586053.44,148.56,Styphnolobium japonicum,False,SEGONA,C\ Llobregós,8.62,29.2,6.1,4.8,0.263,2.67,983,ok
+0065623AR,429067.73,4585897.24,166.83,Brachychiton populneus,False,SEGONA,C\ Llobregós,5.81,10.0,3.57,4.04,0.23,2.94,135,ok
+0065624AR,429865.12,4585749.57,197.58,Styphnolobium japonicum,False,PRIMERA,C\ Gran Vista,5.31,14.8,4.33,2.96,0.318,2.29,267,ok
+0065625AR,429440.18,4586328.5,112.99,Liquidambar styraciflua,False,PRIMERA,Pl Pastrana,4.97,11.2,3.78,3.15,0.455,1.57,363,ok
+0065626AR,429844.23,4585737.01,196.8,Styphnolobium japonicum,False,TERCERA,C\ Gran Vista,9.78,88.0,10.59,3.09,0.176,3.47,2470,ok
+0065627AR,429813.46,4585718.41,195.51,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Gran Vista,4.78,7.5,3.09,2.73,0.434,1.67,145,ok
+0065628AR,429294.38,4586550.63,102.57,Celtis australis,False,SEGONA,C\ Lisboa,6.38,15.8,4.48,4.01,0.437,1.65,612,ok
+0065629AR,429520.42,4586105.9,118.58,Prunus cerasifera 'Pissardii',False,SEGONA,C\ Lugo,7.5,17.5,4.72,3.91,0.279,2.55,565,ok
+0065630AR,429632.93,4586282.37,105.92,Styphnolobium japonicum,False,SEGONA,Rbla Carmel,8.72,28.8,6.05,4.93,0.336,2.18,1431,ok
+0065631AR,429593.41,4586276.34,109.7,Styphnolobium japonicum,False,SEGONA,C\ Llobregós,7.84,41.8,7.29,3.52,0.293,2.45,1614,ok
+0065632AR,429617.26,4586381.46,100.24,Styphnolobium japonicum,False,TERCERA,Rbla Carmel,9.92,48.5,7.86,4.97,0.304,2.38,2300,ok
+0065633AR,429343.93,4586110.36,134.24,Styphnolobium japonicum,False,SEGONA,C\ Llobregós,7.64,49.5,7.94,4.25,0.391,1.88,2093,ok
+0065634AR,429677.69,4586265.22,102.07,Styphnolobium japonicum,False,SEGONA,C\ Ciències,5.73,16.0,4.51,4.59,0.547,1.21,599,ok
+0065635AR,429683.31,4586072.96,118.22,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Pedrell,4.22,3.5,2.11,3.07,0.403,1.82,90,ok
+0065637AR,429645.5,4586471.72,94.11,Styphnolobium japonicum,False,SEGONA,C\ Ciències,9.12,13.0,4.07,4.97,0.344,2.14,545,ok
+0065638AR,429276.14,4585945.85,181.98,Ligustrum lucidum,False,SEGONA,C\ Fastenrath,5.68,22.5,5.35,3.77,0.362,2.03,409,ok
+0065639AR,429148.53,4586457.7,104.0,Celtis australis,False,TERCERA,C\ Lisboa,9.39,50.2,8.0,5.24,0.261,2.68,1825,ok
+0065641AR,429398.56,4586474.16,108.94,Styphnolobium japonicum,False,TERCERA,C\ Dante Alighieri,11.71,19.5,4.98,4.95,0.261,2.68,697,ok
+0065643AR,429623.97,4586339.5,103.16,Styphnolobium japonicum,False,SEGONA,Rbla Carmel,7.28,22.8,5.38,3.54,0.446,1.62,986,ok
+0065644AR,429623.26,4586419.8,100.57,Brachychiton acerifolius,False,PRIMERA,Rbla Carmel,8.26,38.8,7.02,4.03,0.339,2.17,1361,ok
+0065645AR,428976.4,4585862.42,183.21,Brachychiton acerifolius,False,PRIMERA,C\ Llobregós,4.99,3.5,2.11,2.99,0.5,1.39,64,ok
+0065646AR,429763.33,4585697.97,193.72,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Gran Vista,5.56,6.2,2.82,3.38,0.294,2.45,119,ok
+0065647AR,429653.14,4586423.7,93.47,Styphnolobium japonicum,False,SEGONA,C\ Ciències,21.06,38.5,7.0,6.2,0.188,3.34,1897,ok
+0065649AR,429299.64,4585929.81,180.26,Ligustrum lucidum,False,SEGONA,C\ Murtra,6.67,21.5,5.23,4.27,0.207,3.15,261,ok
+0065650AR,429651.03,4586111.5,112.62,Celtis australis,False,TERCERA,Rbla Carmel,8.68,46.2,7.67,4.7,0.324,2.26,1855,ok
+0065651AR,429284.6,4586544.3,102.6,Celtis australis,False,PRIMERA,C\ Lisboa,8.18,27.8,5.94,4.53,0.384,1.91,981,ok
+0065653AR,429603.74,4586383.82,100.18,Styphnolobium japonicum,False,TERCERA,Rbla Carmel,9.19,45.8,7.63,5.88,0.287,2.5,1358,ok
+0065654AR,429545.17,4585518.65,189.35,Platanus × acerifolia,True,TERCERA,Jard Juan Ponce,11.74,63.5,8.99,3.89,0.423,1.72,3164,ok
+0065656AR,429252.1,4586031.17,152.77,Styphnolobium japonicum,False,SEGONA,C\ Llobregós,7.49,34.0,6.58,3.92,0.38,1.93,1500,ok
+0065657AR,429238.93,4586315.58,127.25,Pyrus calleryana 'Chanticleer',False,SEGONA,C\ Dante Alighieri,7.63,20.0,5.05,4.24,0.396,1.85,671,ok
+0065658AR,429637.48,4586282.54,104.52,Brachychiton acerifolius,False,PRIMERA,Rbla Carmel,8.72,12.5,3.99,4.4,0.175,3.48,608,ok
+0065659AR,429110.24,4585925.67,162.95,Brachychiton populneus,False,SEGONA,C\ Llobregós,5.9,19.8,5.01,3.07,0.405,1.81,420,ok
+0065660AR,429871.44,4585762.56,197.97,Styphnolobium japonicum,False,SEGONA,C\ Gran Vista,7.63,49.2,7.92,3.58,0.159,3.67,1099,ok
+0065661AR,429675.42,4585635.72,189.0,Styphnolobium japonicum,False,SEGONA,C\ Gran Vista,6.65,28.0,5.97,3.45,0.331,2.21,1104,ok
+0065662AR,429289.74,4586547.73,102.6,Celtis australis,False,SEGONA,C\ Lisboa,5.59,17.2,4.69,3.43,0.496,1.4,658,ok
+0065663AR,429834.19,4585740.63,196.53,Styphnolobium japonicum,False,SEGONA,C\ Gran Vista,5.82,30.2,6.21,3.62,0.295,2.44,634,ok
+0065664AR,429354.81,4585770.46,203.79,Lagunaria patersonia,False,PRIMERA,C\ Santuari,6.7,18.5,4.85,3.31,0.207,3.15,329,ok
+0065666AR,429639.43,4586477.8,98.33,Brachychiton populneus,False,SEGONA,C\ Ciències,7.67,11.5,3.83,2.5,0.12,4.24,450,ok
+0065667AR,429562.0,4585748.83,172.77,Cercis siliquastrum,False,SEGONA,C\ Calderón de la Barca,7.25,19.5,4.98,4.83,0.342,2.15,278,ok
+0065668AR,429433.35,4585811.84,174.24,Ligustrum lucidum,False,SEGONA,C\ Segimon,6.76,24.0,5.53,4.5,0.275,2.58,440,ok
+0065669AR,429406.24,4586031.61,140.65,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Lugo,4.88,12.5,3.99,2.96,0.411,1.78,295,ok
+0065670AR,429664.78,4585965.62,130.47,Pyrus calleryana 'Chanticleer',False,PRIMERA,Rbla Carmel,6.53,9.0,3.39,3.22,0.436,1.66,211,ok
+0065671AR,429585.2,4586553.88,102.1,Styphnolobium japonicum,False,PRIMERA,Rbla Carmel,4.44,19.2,4.95,3.06,0.458,1.56,752,ok
+0065672AR,429633.61,4586476.94,98.36,Brachychiton acerifolius,False,SEGONA,C\ Ciències,4.92,8.8,3.34,2.45,0.444,1.62,316,ok
+0065673AR,429318.86,4585907.86,178.21,Ligustrum lucidum,False,SEGONA,C\ Murtra,6.8,25.2,5.67,4.42,0.298,2.42,326,ok
+0065675AR,429452.07,4585812.72,173.15,Ligustrum lucidum,False,SEGONA,C\ Segimon,7.71,26.0,5.75,5.04,0.255,2.74,432,ok
+0065676AR,429322.35,4585903.34,177.78,Ligustrum lucidum,False,SEGONA,C\ Murtra,8.17,23.5,5.47,4.49,0.261,2.69,353,ok
+0065678AR,429632.62,4586499.72,99.58,Brachychiton populneus,False,SEGONA,Rbla Carmel,10.02,8.5,3.29,2.91,0.259,2.7,343,ok
+0065682AR,429559.85,4585716.68,175.69,Ligustrum lucidum,False,SEGONA,C\ Calderón de la Barca,6.56,21.2,5.2,4.76,0.31,2.34,245,ok
+0065683AR,429281.36,4586047.66,147.19,Brachychiton populneus,False,SEGONA,C\ Llobregós,5.06,15.2,4.41,2.6,0.473,1.5,607,ok
+0065684AR,429185.86,4585994.56,159.56,Styphnolobium japonicum,False,SEGONA,C\ Llobregós,6.67,26.0,5.75,3.91,0.266,2.65,519,ok
+0065685AR,429614.91,4586473.24,100.62,Brachychiton acerifolius,False,SEGONA,Rbla Carmel,5.27,5.0,2.52,3.19,0.549,1.2,226,ok
+0065686AR,429362.74,4585859.77,173.94,Cercis siliquastrum,False,SEGONA,C\ Murtra,5.23,20.2,5.08,3.81,0.345,2.13,345,ok
+0065687AR,429559.9,4585530.23,188.55,Pinus pinea,False,TERCERA,Jard Juan Ponce,7.16,38.0,6.96,4.59,0.303,2.39,1395,ok
+0065688AR,429499.73,4585869.45,163.0,Melia azedarach,False,TERCERA,C\ Calderón de la Barca,10.42,24.2,5.56,7.99,0.211,3.11,435,ok
+0065689AR,429268.53,4585856.14,204.32,Styphnolobium japonicum,False,TERCERA,C\ Santuari,9.1,50.5,8.02,4.59,0.188,3.35,1140,ok
+0065690AR,429711.86,4586109.85,112.75,Cupressus sempervirens,False,PRIMERA,Ptge Gabarnet,,0.0,0.0,,,,0,no_crown_detected
+0065691AR,429229.88,4586515.11,102.98,Celtis australis,False,SEGONA,C\ Lisboa,7.2,36.8,6.84,3.89,0.408,1.79,1581,ok
+0065692AR,429347.56,4585877.6,174.55,Cercis siliquastrum,False,SEGONA,C\ Murtra,7.39,26.8,5.84,3.34,0.26,2.69,526,ok
+0065693AR,429063.07,4585899.31,167.16,Styphnolobium japonicum,False,SEGONA,C\ Llobregós,9.48,48.5,7.86,3.87,0.221,3.02,1137,ok
+0065695AR,429540.24,4585798.62,168.49,Cercis siliquastrum,False,PRIMERA,C\ Calderón de la Barca,,0.0,0.0,,,,0,no_crown_detected
+0065696AR,429314.84,4585912.36,178.68,Ligustrum lucidum,False,SEGONA,C\ Murtra,6.76,26.0,5.75,3.14,0.219,3.04,384,ok
+0065697AR,429516.95,4585842.23,164.92,Melia azedarach,False,SEGONA,C\ Calderón de la Barca,11.32,2.0,1.6,8.28,0.258,2.71,31,few_points
+0065699AR,429215.81,4585943.77,178.95,Cercis siliquastrum,False,SEGONA,C\ Fastenrath,5.76,20.8,5.14,3.31,0.325,2.25,421,ok
+0065700AR,429467.46,4586315.69,112.44,Melia azedarach,False,PRIMERA,Pl Pastrana,9.17,37.0,6.86,3.64,0.391,1.88,1494,ok
+0065701AR,429590.93,4586468.6,98.94,Styphnolobium japonicum,False,PRIMERA,Rbla Carmel,7.14,20.8,5.14,2.91,0.378,1.94,640,ok
+0065703AR,429084.62,4585925.1,163.74,Styphnolobium japonicum,False,PRIMERA,C\ Llobregós,7.11,29.5,6.13,4.83,0.272,2.61,486,ok
+0065704AR,429058.38,4586032.71,172.47,Styphnolobium japonicum,False,SEGONA,Pg Mare de Déu del Coll,9.01,49.5,7.94,4.42,0.426,1.71,1985,ok
+0065705AR,429586.81,4586493.32,99.94,Styphnolobium japonicum,False,SEGONA,Rbla Carmel,9.97,32.8,6.46,6.52,0.355,2.07,1173,ok
+0065706AR,429646.1,4586518.95,98.94,Styphnolobium japonicum,False,TERCERA,C\ Ciències,10.05,50.2,8.0,5.49,0.425,1.71,2332,ok
+0065707AR,429607.92,4586496.31,99.61,Brachychiton acerifolius,False,PRIMERA,Rbla Carmel,6.16,5.2,2.59,2.54,0.314,2.31,220,ok
+0065708AR,429607.86,4586441.98,97.7,Styphnolobium japonicum,False,TERCERA,Rbla Carmel,9.45,38.0,6.96,5.75,0.388,1.9,1534,ok
+0065709AR,429125.75,4585953.03,162.08,Styphnolobium japonicum,False,PRIMERA,C\ Llobregós,13.42,15.5,4.44,3.8,0.391,1.88,243,ok
+0065710AR,429178.89,4586487.25,103.58,Celtis australis,False,SEGONA,C\ Lisboa,6.95,25.0,5.64,3.69,0.372,1.98,1260,ok
+0065712AR,429594.62,4586289.16,108.64,Styphnolobium japonicum,False,SEGONA,C\ Llobregós,8.16,29.5,6.13,4.67,0.331,2.21,1242,ok
+0065713AR,429639.67,4586134.52,110.44,Celtis australis,False,SEGONA,Rbla Carmel,9.31,40.5,7.18,5.81,0.291,2.47,1371,ok
+0065714AR,429611.72,4586448.73,99.91,Brachychiton populneus,False,SEGONA,Rbla Carmel,6.32,17.8,4.75,2.23,0.253,2.75,683,ok
+0065716AR,429389.3,4586046.44,140.2,Melia azedarach,False,TERCERA,C\ Calderón de la Barca,13.4,36.8,6.84,8.31,0.198,3.23,1460,ok
+0065717AR,429436.89,4586177.26,123.48,Styphnolobium japonicum,False,PRIMERA,C\ Llobregós,5.27,23.2,5.44,2.74,0.401,1.83,653,ok
+0065718AR,429648.53,4586453.44,93.35,Styphnolobium japonicum,False,TERCERA,C\ Ciències,8.6,38.0,6.96,5.05,0.322,2.27,1366,ok
+0065719AR,429577.4,4586264.56,111.32,Styphnolobium japonicum,False,SEGONA,C\ Llobregós,7.29,31.8,6.36,4.88,0.461,1.55,1223,ok
+0065720AR,429574.66,4586417.76,99.2,Styphnolobium japonicum,False,SEGONA,C\ Granollers,7.95,30.5,6.23,4.57,0.265,2.66,1120,ok
+0065721AR,429597.52,4586274.0,109.5,Brachychiton populneus,False,SEGONA,C\ Llobregós,10.71,12.8,4.03,4.59,0.35,2.1,488,ok
+0065722AR,429309.84,4586023.56,155.31,Tipuana tipu,False,SEGONA,C\ Hortal,6.54,47.2,7.76,4.11,0.438,1.65,1833,ok
+0065723AR,429671.25,4585926.16,134.8,Pyrus calleryana 'Chanticleer',False,PRIMERA,Rbla Carmel,5.62,4.0,2.26,2.92,0.418,1.74,55,ok
+0065725AR,429580.17,4586534.31,101.43,Styphnolobium japonicum,False,TERCERA,Rbla Carmel,10.12,29.0,6.08,7.03,0.327,2.24,1078,ok
+0065726AR,429327.06,4586505.78,108.74,Cercis siliquastrum,False,SEGONA,C\ Farnés,5.35,30.0,6.18,3.46,0.443,1.63,1208,ok
+0065727AR,429516.7,4586562.13,104.85,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Argimon,4.09,8.0,3.19,2.7,0.429,1.69,330,ok
+0065729AR,429319.48,4586569.49,102.33,Celtis australis,False,EXEMPLAR,C\ Lisboa,10.76,57.0,8.52,5.96,0.203,3.19,1042,ok
+0065730AR,429166.75,4585969.08,161.13,Styphnolobium japonicum,False,SEGONA,C\ Llobregós,7.78,34.0,6.58,3.98,0.161,3.65,714,ok
+0065731AR,429623.12,4586173.42,108.52,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Lugo,4.7,4.5,2.39,3.56,0.236,2.89,145,ok
+0065732AR,429526.91,4586195.45,115.58,Melia azedarach,False,SEGONA,Ptge Santa Teresa,6.34,22.5,5.35,3.99,0.421,1.73,699,ok
+0065733AR,429622.18,4586503.93,99.43,Brachychiton acerifolius,False,SEGONA,Rbla Carmel,8.55,5.5,2.65,2.97,0.414,1.77,217,ok
+0065734AR,429323.48,4585916.06,178.42,Cercis siliquastrum,False,SEGONA,C\ Murtra,6.12,23.8,5.5,3.31,0.154,3.74,376,ok
+0065735AR,429194.9,4586303.75,133.2,Styphnolobium japonicum,False,SEGONA,C\ Dante Alighieri,5.4,27.2,5.89,3.75,0.451,1.59,920,ok
+0065736AR,429476.07,4586678.56,89.97,Celtis australis,False,SEGONA,C\ Lisboa,5.87,19.8,5.01,3.84,0.376,1.96,404,ok
+0065738AR,429840.04,4585744.02,196.67,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Gran Vista,4.77,9.8,3.52,2.98,0.393,1.87,196,ok
+0065740AR,430056.04,4585899.99,160.03,Quercus ilex,False,EXEMPLAR,Pl Font de la Mulassa,16.97,58.0,8.59,7.37,0.153,3.75,1266,ok
+0065741AR,429422.58,4585702.2,203.38,Styphnolobium japonicum,False,SEGONA,C\ Santuari,7.69,27.0,5.86,2.42,0.119,4.26,674,ok
+0065742AR,429663.64,4586359.25,98.79,Styphnolobium japonicum,False,TERCERA,C\ Ciències,9.31,41.5,7.27,4.6,0.312,2.33,1832,ok
+0065743AR,429210.38,4585858.46,205.58,Styphnolobium japonicum,False,SEGONA,C\ Santuari,8.8,28.5,6.02,4.06,0.213,3.09,614,ok
+0065744AR,429394.58,4585831.07,174.79,Cercis siliquastrum,False,PRIMERA,C\ Murtra,5.62,9.5,3.48,3.52,0.265,2.66,166,ok
+0065745AR,429666.16,4585630.48,188.45,Styphnolobium japonicum,False,SEGONA,C\ Gran Vista,8.7,32.8,6.46,3.87,0.229,2.95,1745,ok
+0065746AR,429181.1,4586302.6,135.03,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Dante Alighieri,5.14,2.8,1.87,2.25,0.493,1.41,132,ok
+0065747AR,429644.06,4586514.38,98.94,Styphnolobium japonicum,False,TERCERA,C\ Ciències,11.6,84.2,10.36,4.57,0.355,2.07,4228,ok
+0065748AR,429585.62,4586148.15,112.19,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Lugo,4.02,4.8,2.46,2.88,0.463,1.54,142,ok
+0065749AR,429515.53,4586294.59,112.42,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Lluís Marià Vidal,,0.0,0.0,,,,0,no_crown_detected
+0065750AR,429647.37,4586237.27,104.48,Populus alba 'Pyramidalis',False,TERCERA,Rbla Carmel,14.03,33.0,6.48,5.14,0.29,2.47,1978,ok
+0065752AR,429649.28,4586374.39,102.06,Brachychiton acerifolius,False,SEGONA,C\ Ciències,5.03,2.5,1.78,2.73,0.373,1.97,119,ok
+0065753AR,429057.53,4586024.01,173.09,Styphnolobium japonicum,False,SEGONA,Pg Mare de Déu del Coll,9.9,51.8,8.12,5.98,0.367,2.01,1920,ok
+0065754AR,429347.24,4585888.41,175.06,Cercis siliquastrum,False,SEGONA,C\ Murtra,10.86,33.5,6.53,3.69,0.216,3.07,556,ok
+0065755AR,429139.48,4586448.54,104.11,Celtis australis,False,TERCERA,C\ Lisboa,8.96,48.5,7.86,4.91,0.269,2.63,1750,ok
+0065756AR,429646.8,4586392.28,99.97,Brachychiton acerifolius,False,PRIMERA,C\ Ciències,8.57,33.0,6.48,2.7,0.236,2.89,1209,ok
+0065758AR,429465.49,4586323.66,112.31,Melia azedarach,False,TERCERA,Pl Pastrana,6.89,43.0,7.4,3.3,0.383,1.92,1524,ok
+0065759AR,429413.05,4585997.47,145.95,Ligustrum lucidum,False,SEGONA,C\ Calderón de la Barca,15.76,19.2,4.95,5.91,0.094,4.72,329,ok
+0065760AR,429092.25,4585903.95,165.53,Prunus cerasifera 'Pissardii',False,SEGONA,C\ Fastenrath,5.99,20.0,5.05,3.3,0.312,2.33,359,ok
+0065762AR,429306.93,4586486.82,109.96,Cercis siliquastrum,False,PRIMERA,C\ Farnés,11.73,38.2,6.98,5.66,0.294,2.45,1400,ok
+0065764AR,429575.96,4585817.38,154.51,Morus alba,False,SEGONA,C\ Alcalde de Zalamea,11.57,44.8,7.55,5.65,0.048,6.09,839,ok
+0065765AR,429601.17,4586540.23,101.23,Brachychiton populneus,False,SEGONA,Rbla Carmel,5.45,6.5,2.88,2.62,0.51,1.34,276,ok
+0065768AR,429183.48,4586490.07,103.53,Celtis australis,False,SEGONA,C\ Lisboa,5.52,26.5,5.81,3.93,0.396,1.85,1119,ok
+0065769AR,429432.3,4586501.06,107.54,Styphnolobium japonicum,False,SEGONA,C\ Dante Alighieri,9.47,30.8,6.26,5.26,0.228,2.95,1073,ok
+0065771AR,429680.03,4585638.49,189.31,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Gran Vista,8.57,17.0,4.65,2.62,0.378,1.94,639,ok
+0065773AR,429115.8,4585934.62,162.52,Styphnolobium japonicum,False,PRIMERA,C\ Llobregós,5.36,11.2,3.78,2.82,0.416,1.76,219,ok
+0065775AR,429937.53,4585801.92,200.7,Styphnolobium japonicum,False,TERCERA,C\ Gran Vista,7.67,56.8,8.5,3.63,0.271,2.61,1422,ok
+0065776AR,429828.53,4585736.98,196.29,Styphnolobium japonicum,False,TERCERA,C\ Gran Vista,6.05,40.8,7.2,3.1,0.173,3.51,839,ok
+0065777AR,429576.09,4585523.55,187.95,Pinus pinea,False,SEGONA,Jard Juan Ponce,16.3,23.8,5.5,6.57,0.075,5.17,1222,ok
+0065778AR,429086.26,4586026.82,163.4,Jacaranda mimosifolia,False,PRIMERA,Camí Vell del Coll,5.91,10.2,3.61,3.82,0.459,1.56,352,ok
+0065781AR,429062.84,4586114.69,160.52,Styphnolobium japonicum,False,SEGONA,Pg Mare de Déu del Coll,10.69,41.5,7.27,5.99,0.11,4.41,1393,ok
+0065782AR,429772.97,4585703.75,194.1,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Gran Vista,5.21,14.8,4.33,4.81,0.183,3.4,312,ok
+0065783AR,429559.17,4586684.56,98.05,Styphnolobium japonicum,False,SEGONA,C\ Beatriu,7.79,36.5,6.82,5.31,0.386,1.91,656,ok
+0065785AR,429481.28,4586190.74,121.33,Brachychiton populneus,False,SEGONA,C\ Llobregós,4.18,12.8,4.03,2.27,0.153,3.75,384,ok
+0065786AR,428992.31,4585767.32,194.89,Lagunaria patersonia,False,PRIMERA,C\ Santuari,4.06,3.5,2.11,3.3,0.431,1.68,58,ok
+0065789AR,429628.47,4586209.28,106.68,Pyrus calleryana 'Chanticleer',False,PRIMERA,Rbla Carmel,4.42,17.2,4.69,3.55,0.327,2.24,592,ok
+0065790AR,429257.27,4586528.51,102.8,Celtis australis,False,SEGONA,C\ Lisboa,6.72,40.2,7.16,3.01,0.228,2.96,1649,ok
+0065791AR,429699.42,4586077.62,117.69,Robinia pseudoacacia,False,SEGONA,C\ Pedrell,8.35,22.2,5.32,4.88,0.352,2.09,762,ok
+0065792AR,429470.86,4586322.5,112.28,Melia azedarach,False,SEGONA,Pl Pastrana,5.64,37.8,6.93,3.11,0.48,1.47,1402,ok
+0065793AR,429322.66,4586501.52,109.04,Cercis siliquastrum,False,SEGONA,C\ Farnés,8.25,28.0,5.97,5.54,0.377,1.95,1033,ok
+0065794AR,429120.78,4585937.81,162.44,Styphnolobium japonicum,False,SEGONA,C\ Llobregós,7.01,36.0,6.77,4.44,0.258,2.71,670,ok
+0065795AR,429620.26,4586263.26,106.42,Pyrus calleryana 'Chanticleer',False,PRIMERA,Rbla Carmel,6.0,9.5,3.48,3.73,0.333,2.2,217,ok
+0065796AR,429279.97,4586021.24,159.3,Tipuana tipu,False,PRIMERA,C\ Hortal,6.83,13.5,4.15,3.67,0.472,1.5,530,ok
+0065797AR,429536.74,4586235.39,117.1,Styphnolobium japonicum,False,SEGONA,C\ Llobregós,8.04,31.2,6.31,4.24,0.226,2.98,1392,ok
+0065798AR,429464.89,4586673.59,90.85,Celtis australis,False,SEGONA,C\ Lisboa,5.59,32.8,6.46,3.53,0.345,2.13,751,ok
+0065799AR,429321.7,4586233.41,126.99,Styphnolobium japonicum,False,SEGONA,Ptge Calafell,10.51,59.0,8.67,5.57,0.188,3.34,1984,ok
+0065800AR,429736.3,4585681.83,192.72,Pyrus calleryana 'Chanticleer',False,SEGONA,C\ Gran Vista,7.09,17.0,4.65,4.24,0.318,2.29,502,ok
+0065801AR,429608.37,4586163.6,110.06,Prunus cerasifera 'Pissardii',False,SEGONA,C\ Lugo,8.4,16.2,4.55,4.07,0.236,2.89,512,ok
+0065802AR,429593.4,4586452.29,98.4,Styphnolobium japonicum,False,TERCERA,Rbla Carmel,10.67,30.2,6.21,7.28,0.26,2.7,1071,ok
+0065803AR,429505.9,4585505.01,191.08,Platanus × acerifolia,True,PRIMERA,Jard Juan Ponce,6.59,24.8,5.61,3.06,0.423,1.72,1344,ok
+0065804AR,429568.0,4585663.51,180.54,Ligustrum lucidum,False,SEGONA,C\ Calderón de la Barca,6.12,13.2,4.11,4.62,0.464,1.54,451,ok
+0065805AR,429613.03,4585598.5,185.69,Styphnolobium japonicum,False,SEGONA,C\ Gran Vista,7.67,31.8,6.36,3.13,0.3,2.41,1398,ok
+0065806AR,429635.02,4586465.33,97.19,Brachychiton acerifolius,False,SEGONA,C\ Ciències,5.64,11.8,3.87,3.07,0.403,1.82,459,ok
+0065807AR,429599.61,4585590.4,186.1,Styphnolobium japonicum,False,TERCERA,C\ Gran Vista,9.33,47.8,7.8,4.98,0.281,2.54,2221,ok
+0065808AR,429430.98,4586172.82,123.9,Styphnolobium japonicum,False,SEGONA,C\ Llobregós,9.24,44.0,7.48,4.66,0.267,2.64,1671,ok
+0065809AR,429544.75,4586121.79,116.24,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Lugo,,0.0,0.0,,,,0,no_crown_detected
+0065810AR,429180.56,4585990.8,159.9,Styphnolobium japonicum,False,SEGONA,C\ Llobregós,7.84,42.5,7.36,4.15,0.232,2.92,969,ok
+0065811AR,429535.72,4586230.14,117.68,Brachychiton populneus,False,SEGONA,C\ Llobregós,5.82,10.2,3.61,3.82,0.389,1.89,315,ok
+0065812AR,429121.4,4586243.65,145.4,Styphnolobium japonicum,False,SEGONA,Pg Mare de Déu del Coll,10.13,66.2,9.18,6.05,0.184,3.39,2500,ok
+0065813AR,429716.55,4586096.11,114.9,Cupressus sempervirens,False,PRIMERA,Ptge Gabarnet,,0.0,0.0,,,,0,no_crown_detected
+0065814AR,429620.15,4586363.68,101.51,Styphnolobium japonicum,False,TERCERA,Rbla Carmel,9.17,33.8,6.56,5.43,0.329,2.22,1627,ok
+0065815AR,429453.91,4586668.53,91.75,Celtis australis,False,PRIMERA,C\ Lisboa,5.19,7.0,2.99,3.4,0.45,1.6,149,ok
+0065816AR,429130.72,4585956.28,161.98,Styphnolobium japonicum,False,SEGONA,C\ Llobregós,8.56,31.5,6.33,5.02,0.271,2.61,631,ok
+0065817AR,429296.2,4586075.61,143.05,Styphnolobium japonicum,False,TERCERA,C\ Llobregós,8.56,37.0,6.86,4.79,0.311,2.34,1256,ok
+0065818AR,429408.59,4586006.25,144.9,Melia azedarach,False,SEGONA,C\ Calderón de la Barca,14.63,23.0,5.41,10.26,0.258,2.71,506,ok
+0065819AR,429161.86,4585960.28,161.58,Brachychiton populneus,False,SEGONA,C\ Llobregós,5.61,35.5,6.72,3.01,0.326,2.24,786,ok
+0065820AR,429855.31,4585743.51,197.22,Styphnolobium japonicum,False,SEGONA,C\ Gran Vista,8.07,51.2,8.08,2.61,0.199,3.23,1066,ok
+0065821AR,429560.98,4585710.55,176.18,Ligustrum lucidum,False,SEGONA,C\ Calderón de la Barca,6.25,23.2,5.44,4.69,0.337,2.18,315,ok
+0065822AR,429539.88,4586408.76,101.25,Styphnolobium japonicum,False,SEGONA,C\ Granollers,11.47,39.8,7.11,5.25,0.203,3.19,1181,ok
+0065823AR,429166.12,4585980.14,160.83,Styphnolobium japonicum,False,SEGONA,C\ Llobregós,6.63,40.5,7.18,3.97,0.312,2.33,753,ok
+0065824AR,429529.44,4585795.22,169.32,Ligustrum lucidum,False,PRIMERA,C\ Segimon,4.57,6.8,2.93,3.09,0.397,1.85,151,ok
+0065825AR,429577.79,4585532.87,188.07,Platanus × acerifolia,True,EXEMPLAR,Jard Juan Ponce,13.49,74.5,9.74,7.27,0.221,3.02,3408,ok
+0065827AR,429625.6,4586227.1,106.75,Styphnolobium japonicum,False,SEGONA,Rbla Carmel,6.69,26.5,5.81,4.85,0.411,1.78,785,ok
+0065829AR,429328.88,4586387.35,113.89,Styphnolobium japonicum,False,SEGONA,C\ Dante Alighieri,9.4,35.8,6.75,4.72,0.162,3.64,1210,ok
+0065830AR,429498.99,4586204.68,120.38,Brachychiton populneus,False,SEGONA,C\ Llobregós,7.93,9.5,3.48,2.21,0.243,2.83,370,ok
+0065831AR,429513.41,4585809.72,169.57,Cercis siliquastrum,False,SEGONA,C\ Segimon,6.69,24.8,5.61,4.08,0.337,2.18,410,ok
+0065833AR,429276.04,4586060.6,146.61,Styphnolobium japonicum,False,SEGONA,C\ Llobregós,8.39,37.5,6.91,5.01,0.312,2.33,1463,ok
+0065834AR,429631.36,4586191.54,107.15,Styphnolobium japonicum,False,TERCERA,Rbla Carmel,11.7,45.5,7.61,5.95,0.173,3.51,1583,ok
+0065835AR,429188.19,4586493.17,103.46,Celtis australis,False,TERCERA,C\ Lisboa,7.72,38.0,6.96,4.43,0.385,1.91,1600,ok
+0065837AR,429653.24,4586350.77,103.54,Brachychiton acerifolius,False,SEGONA,C\ Ciències,5.05,3.5,2.11,2.96,0.453,1.58,163,ok
+0065839AR,429075.7,4585903.57,165.78,Brachychiton populneus,False,TERCERA,C\ Fastenrath,8.57,22.8,5.38,3.42,0.371,1.98,577,ok
+0065840AR,429540.88,4585782.58,169.72,Ligustrum lucidum,False,SEGONA,C\ Calderón de la Barca,5.96,22.0,5.29,4.65,0.295,2.44,352,ok
+0065841AR,429281.62,4586053.1,146.68,Styphnolobium japonicum,False,SEGONA,C\ Llobregós,7.41,32.8,6.46,4.16,0.386,1.9,1556,ok
+0065842AR,429561.04,4585754.49,172.28,Cercis siliquastrum,False,PRIMERA,C\ Calderón de la Barca,11.28,13.5,4.15,4.42,0.315,2.31,181,ok
+0065843AR,429481.55,4586319.48,112.3,Melia azedarach,False,SEGONA,Pl Pastrana,5.02,27.0,5.86,3.08,0.491,1.42,955,ok
+0065845AR,429100.48,4585924.46,163.2,Styphnolobium japonicum,False,SEGONA,C\ Llobregós,7.02,30.2,6.21,3.84,0.211,3.11,634,ok
+0065846AR,429568.72,4585706.02,176.7,Cercis siliquastrum,False,SEGONA,C\ Calderón de la Barca,10.0,24.0,5.53,4.26,0.208,3.14,371,ok
+0065847AR,429486.04,4586289.26,113.73,Brachychiton acerifolius,False,TERCERA,Pl Pastrana,10.03,32.2,6.41,4.78,0.295,2.44,1473,ok
+0065849AR,429272.08,4586046.07,148.48,Styphnolobium japonicum,False,SEGONA,C\ Llobregós,6.08,27.2,5.89,4.16,0.499,1.39,1084,ok
+0065850AR,428980.15,4585861.12,181.88,Brachychiton acerifolius,False,SEGONA,C\ Llobregós,5.61,9.5,3.48,2.62,0.397,1.85,174,ok
+0065851AR,429660.49,4586377.14,97.19,Styphnolobium japonicum,False,PRIMERA,C\ Ciències,7.04,19.5,4.98,2.9,0.519,1.31,745,ok
+0065852AR,429378.06,4585839.04,174.31,Cercis siliquastrum,False,PRIMERA,C\ Murtra,4.94,4.5,2.39,3.34,0.316,2.31,76,ok
+0065853AR,429465.78,4586180.94,122.22,Brachychiton populneus,False,TERCERA,C\ Llobregós,7.84,26.0,5.75,4.55,0.247,2.8,1073,ok
+0065855AR,429587.81,4585582.61,187.09,Styphnolobium japonicum,False,SEGONA,C\ Gran Vista,8.99,49.0,7.9,3.82,0.352,2.09,2768,ok
+0065856AR,429424.04,4585909.87,155.51,Ligustrum lucidum,False,PRIMERA,C\ Calderón de la Barca,11.75,39.0,7.05,5.12,0.277,2.57,754,ok
+0065857AR,429257.0,4586034.79,151.82,Styphnolobium japonicum,False,SEGONA,C\ Llobregós,6.68,28.8,6.05,3.78,0.338,2.17,1279,ok
+0065859AR,429203.56,4586501.46,103.3,Celtis australis,False,SEGONA,C\ Lisboa,6.64,24.0,5.53,4.43,0.405,1.81,962,ok
+0065860AR,429581.29,4585817.56,151.3,Morus alba,False,TERCERA,C\ Alcalde de Zalamea,12.47,70.5,9.47,6.61,0.146,3.85,1373,ok
+0065862AR,429648.53,4586074.17,117.18,Pyrus calleryana 'Chanticleer',False,PRIMERA,Rbla Carmel,10.14,4.5,2.39,3.35,0.419,1.74,127,ok
+0065863AR,429674.54,4586254.4,104.42,Brachychiton populneus,False,SEGONA,C\ Ciències,6.29,10.8,3.7,2.36,0.247,2.8,504,ok
+0065864AR,429061.85,4586085.25,159.8,Styphnolobium japonicum,False,TERCERA,Pg Mare de Déu del Coll,17.17,89.8,10.69,5.62,0.214,3.08,3810,ok
+0065866AR,429599.76,4586547.08,101.36,Brachychiton acerifolius,False,PRIMERA,Rbla Carmel,,0.0,0.0,,,,0,no_crown_detected
+0065867AR,429603.55,4586160.39,110.53,Prunus cerasifera 'Pissardii',False,SEGONA,C\ Lugo,5.95,18.2,4.82,1.92,0.33,2.22,637,ok
+0065868AR,429416.84,4586648.44,95.07,Celtis australis,False,SEGONA,C\ Lisboa,6.6,25.0,5.64,3.96,0.335,2.19,445,ok
+0065870AR,429507.73,4586304.54,111.8,Brachychiton acerifolius,False,PRIMERA,Pl Pastrana,8.38,17.2,4.69,4.07,0.365,2.02,722,ok
+0065871AR,429730.75,4585771.76,168.75,Ligustrum lucidum,False,SEGONA,Bda Passerell,5.4,26.5,5.81,3.07,0.378,1.95,535,ok
+0065872AR,429198.43,4586498.36,103.36,Celtis australis,False,SEGONA,C\ Lisboa,7.22,25.2,5.67,4.06,0.388,1.89,1114,ok
+0065873AR,429697.49,4585376.69,180.04,Brachychiton populneus,False,SEGONA,Ctra Carmel,5.84,13.5,4.15,3.48,0.485,1.45,630,ok
+0065874AR,429404.43,4585710.97,202.51,Parrotia persica 'Vanessa',False,PRIMERA,C\ Santuari,13.17,19.8,5.01,3.02,0.204,3.18,339,ok
+0065875AR,429108.53,4585912.55,166.59,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Fastenrath,4.17,9.2,3.43,2.84,0.492,1.42,185,ok
+0065876AR,429491.31,4586292.97,113.21,Brachychiton acerifolius,False,TERCERA,Pl Pastrana,10.85,33.5,6.53,4.93,0.319,2.28,1606,ok
+0065877AR,429652.5,4586393.17,99.92,Brachychiton populneus,False,SEGONA,C\ Ciències,7.69,10.5,3.66,3.01,0.262,2.68,434,ok
+0065879AR,429474.16,4585869.74,161.32,Melia azedarach,False,SEGONA,C\ Calderón de la Barca,8.69,23.8,5.5,6.83,0.289,2.48,439,ok
+0065880AR,429286.71,4586533.48,103.99,Pyrus calleryana 'Chanticleer',False,PRIMERA,Ptge Andalet,,0.0,0.0,,,,0,no_crown_detected
+0065881AR,429590.3,4586286.02,109.29,Styphnolobium japonicum,False,SEGONA,C\ Llobregós,7.93,33.5,6.53,4.97,0.358,2.06,1110,ok
+0065882AR,429473.55,4586313.7,112.48,Melia azedarach,False,SEGONA,Pl Pastrana,6.76,33.0,6.48,3.92,0.426,1.71,1183,ok
+0065883AR,429637.62,4585987.12,126.1,Tilia x euchlora,False,SEGONA,C\ Santa Otília,7.5,13.2,4.11,2.52,0.204,3.18,285,ok
+0065885AR,429299.56,4586023.29,156.83,Tipuana tipu,False,SEGONA,C\ Hortal,6.8,37.8,6.93,4.01,0.467,1.52,1514,ok
+0065886AR,429522.55,4585799.12,169.34,Ligustrum lucidum,False,PRIMERA,C\ Segimon,4.13,6.5,2.88,3.3,0.496,1.4,119,ok
+0065887AR,429417.9,4585817.9,174.8,Cercis siliquastrum,False,SEGONA,C\ Segimon,5.53,22.8,5.38,3.88,0.398,1.84,472,ok
+0065888AR,428986.79,4585768.06,194.66,Cercis siliquastrum,False,SEGONA,C\ Santuari,5.32,13.2,4.11,3.71,0.259,2.7,224,ok
+0065889AR,429625.68,4586328.14,104.0,Styphnolobium japonicum,False,TERCERA,Rbla Carmel,9.08,34.0,6.58,4.78,0.366,2.01,1465,ok
+0065890AR,429300.15,4585943.32,180.49,Cercis siliquastrum,False,PRIMERA,C\ Murtra,8.94,9.0,3.39,3.28,0.25,2.77,140,ok
+0065891AR,429499.54,4586306.38,112.41,Melia azedarach,False,SEGONA,Pl Pastrana,5.94,26.5,5.81,3.17,0.482,1.46,1080,ok
+0065894AR,429587.69,4586535.92,101.5,Styphnolobium japonicum,False,SEGONA,Rbla Carmel,6.88,30.2,6.21,4.6,0.446,1.62,1202,ok
+0065895AR,429466.41,4586186.15,121.98,Styphnolobium japonicum,False,SEGONA,C\ Llobregós,8.16,25.5,5.7,2.58,0.268,2.63,967,ok
+0065896AR,429663.9,4585972.62,129.7,Pyrus calleryana 'Chanticleer',False,PRIMERA,Rbla Carmel,4.15,4.5,2.39,2.74,0.44,1.64,100,ok
+0065898AR,429478.65,4586312.16,112.46,Melia azedarach,False,SEGONA,Pl Pastrana,5.25,25.2,5.67,3.16,0.512,1.34,966,ok
+0065899AR,429410.54,4586034.24,139.46,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Lugo,5.9,15.0,4.37,3.59,0.338,2.17,356,ok
+0065901AR,429217.65,4586307.66,130.01,Styphnolobium japonicum,False,SEGONA,C\ Dante Alighieri,7.58,47.2,7.76,4.51,0.363,2.03,1808,ok
+0065903AR,429541.61,4586238.58,116.4,Styphnolobium japonicum,False,SEGONA,C\ Llobregós,8.86,41.8,7.29,4.61,0.261,2.69,1794,ok
+0065904AR,429588.19,4586421.06,98.41,Styphnolobium japonicum,False,SEGONA,C\ Granollers,6.34,32.8,6.46,3.99,0.206,3.16,726,ok
+0065905AR,429580.8,4585813.28,152.33,Morus alba,False,SEGONA,C\ Alcalde de Zalamea,12.07,28.0,5.97,7.95,0.179,3.44,519,ok
+0065907AR,429558.97,4585722.69,175.14,Ligustrum lucidum,False,SEGONA,C\ Calderón de la Barca,5.92,16.0,4.51,4.36,0.388,1.89,260,ok
+0065910AR,429624.9,4586499.94,99.7,Brachychiton populneus,False,SEGONA,Rbla Carmel,5.34,7.5,3.09,3.32,0.52,1.31,328,ok
+0065913AR,429628.39,4586502.61,99.51,Brachychiton acerifolius,False,PRIMERA,Rbla Carmel,8.05,9.8,3.52,3.31,0.294,2.45,332,ok
+0065914AR,429709.48,4586117.1,111.67,Cupressus sempervirens,False,PRIMERA,Ptge Gabarnet,,0.0,0.0,,,,0,no_crown_detected
+0065915AR,429667.47,4585949.35,132.3,Pyrus calleryana 'Chanticleer',False,PRIMERA,Rbla Carmel,7.31,9.8,3.52,4.07,0.305,2.38,128,ok
+0065916AR,429852.03,4585750.85,197.18,Styphnolobium japonicum,False,SEGONA,C\ Gran Vista,8.42,40.0,7.14,3.93,0.13,4.07,797,ok
+0065918AR,429191.73,4585998.97,159.16,Styphnolobium japonicum,False,SEGONA,C\ Llobregós,5.9,30.0,6.18,2.74,0.268,2.64,568,ok
+0065919AR,429561.18,4586634.86,99.59,Styphnolobium japonicum,False,SEGONA,C\ Beatriu,9.71,34.2,6.6,6.09,0.271,2.61,502,ok
+0065920AR,429369.06,4586086.9,135.36,Melia azedarach,False,SEGONA,C\ Calderón de la Barca,11.44,1.8,1.49,4.93,0.348,2.11,78,no_crown_detected
+0065923AR,429465.03,4585707.19,204.47,Styphnolobium japonicum,False,SEGONA,C\ Santuari,8.19,41.2,7.25,4.89,0.124,4.17,860,ok
+0065926AR,429090.14,4586046.26,161.46,Jacaranda mimosifolia,False,SEGONA,Camí Vell del Coll,6.07,23.0,5.41,4.65,0.426,1.71,726,ok
+0065927AR,429114.54,4585913.03,167.67,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Fastenrath,4.32,7.5,3.09,3.14,0.4,1.83,145,ok
+0065928AR,429642.56,4586460.86,96.64,Brachychiton acerifolius,False,PRIMERA,C\ Ciències,17.02,43.2,7.42,4.05,0.148,3.81,2326,ok
+0065930AR,429296.08,4585947.15,180.64,Cercis siliquastrum,False,SEGONA,C\ Murtra,5.23,19.0,4.92,3.49,0.225,2.99,316,ok
+0065931AR,429564.17,4585533.81,188.46,Pinus pinea,False,TERCERA,Jard Juan Ponce,7.61,38.2,6.98,4.08,0.28,2.54,1458,ok
+0065932AR,429599.12,4586292.32,107.91,Styphnolobium japonicum,False,TERCERA,C\ Llobregós,9.24,33.0,6.48,5.44,0.306,2.37,1274,ok
+0065934AR,429654.78,4586412.77,94.24,Styphnolobium japonicum,False,TERCERA,C\ Ciències,10.45,39.8,7.11,5.48,0.35,2.1,1662,ok
+0065935AR,429609.99,4586491.81,99.9,Brachychiton populneus,False,PRIMERA,Rbla Carmel,3.61,2.0,1.6,2.37,0.568,1.13,74,ok
+0065936AR,429303.85,4585938.5,180.3,Cercis siliquastrum,False,PRIMERA,C\ Murtra,5.08,5.5,2.65,3.07,0.256,2.73,86,ok
+0065937AR,429648.6,4586422.99,93.91,Populus alba 'Pyramidalis',False,EXEMPLAR,C\ Ciències,21.62,45.2,7.59,7.57,0.108,4.45,3672,ok
+0065938AR,429510.01,4586212.29,119.9,Brachychiton populneus,False,SEGONA,C\ Llobregós,7.67,14.5,4.3,4.32,0.277,2.57,539,ok
+0065939AR,429643.98,4586534.89,99.38,Styphnolobium japonicum,False,TERCERA,C\ Ciències,9.12,51.0,8.06,5.5,0.239,2.86,1802,ok
+0065941AR,428974.25,4585859.63,183.58,Brachychiton acerifolius,False,PRIMERA,C\ Llobregós,6.72,8.8,3.34,3.02,0.419,1.74,186,ok
+0065942AR,429254.31,4586323.23,125.2,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Dante Alighieri,6.24,6.8,2.93,4.42,0.184,3.39,284,ok
+0065943AR,429534.72,4586200.12,115.64,Melia azedarach,False,SEGONA,Ptge Santa Teresa,9.16,33.5,6.53,4.67,0.306,2.37,985,ok
+0065944AR,429634.44,4586471.29,97.82,Populus alba 'Pyramidalis',False,TERCERA,C\ Ciències,11.49,28.5,6.02,3.0,0.238,2.87,1576,ok
+0065945AR,429545.29,4585789.06,169.27,Cercis siliquastrum,False,SEGONA,C\ Calderón de la Barca,7.35,17.5,4.72,4.55,0.361,2.04,357,ok
+0065946AR,429481.84,4585810.95,171.35,Ligustrum lucidum,False,SEGONA,C\ Segimon,6.44,21.8,5.26,4.82,0.313,2.33,419,ok
+0065947AR,429669.82,4586236.12,104.45,Brachychiton populneus,False,SEGONA,C\ Ciències,5.06,6.2,2.82,3.0,0.317,2.3,254,ok
+0065948AR,429422.42,4586042.18,135.67,Prunus cerasifera 'Pissardii',False,SEGONA,C\ Lugo,6.77,28.5,6.02,4.49,0.434,1.67,874,ok
+0065949AR,429404.06,4586015.8,143.77,Melia azedarach,False,TERCERA,C\ Calderón de la Barca,14.74,43.8,7.46,8.82,0.217,3.06,1655,ok
+0065951AR,429851.55,4585741.37,196.94,Styphnolobium japonicum,False,PRIMERA,C\ Gran Vista,7.66,48.8,7.88,2.54,0.283,2.52,1010,ok
+0065952AR,429559.12,4585519.36,188.44,Platanus × acerifolia,True,TERCERA,Jard Juan Ponce,12.5,60.5,8.78,5.85,0.346,2.12,3200,ok
+0065953AR,429660.18,4585996.89,126.8,Styphnolobium japonicum,False,SEGONA,Rbla Carmel,6.49,32.0,6.38,4.62,0.427,1.7,958,ok
+0065954AR,429225.72,4585862.1,205.59,Lagunaria patersonia,False,PRIMERA,C\ Santuari,5.3,4.2,2.33,2.62,0.381,1.93,84,ok
+0065955AR,429530.76,4586226.5,118.31,Brachychiton populneus,False,SEGONA,C\ Llobregós,6.26,7.5,3.09,3.54,0.362,2.03,297,ok
+0065956AR,429617.82,4586376.14,100.56,Styphnolobium japonicum,False,PRIMERA,Rbla Carmel,8.22,25.0,5.64,3.78,0.424,1.72,1023,ok
+0065957AR,428980.18,4585769.09,194.61,Cercis siliquastrum,False,SEGONA,C\ Santuari,12.07,15.2,4.41,3.87,0.213,3.09,244,ok
+0065958AR,429610.5,4586423.71,97.76,Styphnolobium japonicum,False,SEGONA,Rbla Carmel,10.17,35.2,6.7,5.64,0.342,2.15,1620,ok
+0065959AR,429293.47,4586474.93,111.14,Cercis siliquastrum,False,SEGONA,C\ Farnés,7.27,45.2,7.59,4.09,0.291,2.47,1749,ok
+0065960AR,429196.46,4586002.43,158.9,Styphnolobium japonicum,False,SEGONA,C\ Llobregós,7.84,36.5,6.82,4.96,0.242,2.84,657,ok
+0065961AR,429174.23,4585930.4,175.79,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Fastenrath,3.45,4.2,2.33,2.58,0.547,1.21,86,ok
+0065963AR,429312.05,4585929.17,179.74,Cercis siliquastrum,False,PRIMERA,C\ Murtra,4.86,12.8,4.03,2.07,0.147,3.83,170,ok
+0065964AR,429005.94,4585765.1,195.22,Cercis siliquastrum,False,SEGONA,C\ Santuari,12.41,28.8,6.05,3.96,0.21,3.12,443,ok
+0065966AR,429383.06,4586454.57,109.67,Styphnolobium japonicum,False,SEGONA,C\ Dante Alighieri,8.75,25.8,5.73,5.36,0.25,2.77,926,ok
+0065967AR,429426.88,4586654.58,94.12,Celtis australis,False,SEGONA,C\ Lisboa,6.88,27.2,5.89,3.94,0.333,2.2,552,ok
+0065968AR,429726.0,4585675.49,192.11,Styphnolobium japonicum,False,SEGONA,C\ Gran Vista,14.54,24.0,5.53,3.81,0.187,3.35,801,ok
+0065969AR,429105.56,4585922.4,163.16,Brachychiton populneus,False,SEGONA,C\ Llobregós,6.41,17.0,4.65,3.26,0.379,1.94,398,ok
+0065970AR,429447.85,4586665.81,92.28,Celtis australis,False,SEGONA,C\ Lisboa,6.37,14.8,4.33,4.24,0.426,1.71,310,ok
+0065971AR,429541.9,4586707.86,84.96,Celtis australis,False,EXEMPLAR,C\ Lisboa,13.95,132.8,13.0,7.18,0.1,4.61,2644,ok
+0065972AR,429044.48,4585929.35,169.95,Cercis siliquastrum,False,SEGONA,C\ Fastenrath,6.74,46.5,7.69,4.13,0.26,2.69,773,ok
+0065973AR,429262.43,4585858.08,204.5,Styphnolobium japonicum,False,TERCERA,C\ Santuari,8.31,95.5,11.03,4.19,0.173,3.51,2278,ok
+0065974AR,429358.88,4585864.46,173.98,Cercis siliquastrum,False,SEGONA,C\ Murtra,6.03,33.0,6.48,2.52,0.292,2.46,626,ok
+0065975AR,429757.51,4585694.27,193.48,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Gran Vista,7.34,16.2,4.55,3.09,0.261,2.68,371,ok
+0065976AR,429563.69,4585736.28,173.88,Cercis siliquastrum,False,SEGONA,C\ Calderón de la Barca,6.34,16.5,4.58,4.68,0.339,2.16,245,ok
+0065977AR,429190.28,4585846.38,204.79,Styphnolobium japonicum,False,TERCERA,C\ Santuari,12.59,25.0,5.64,4.69,0.3,2.41,570,ok
+0065979AR,429564.49,4585517.97,188.14,Platanus × acerifolia,True,TERCERA,Jard Juan Ponce,14.15,31.8,6.36,4.57,0.265,2.66,1648,ok
+0065980AR,429656.62,4585990.5,127.22,Tilia x euchlora,False,PRIMERA,C\ Santa Otília,5.69,10.5,3.66,2.81,0.343,2.14,230,ok
+0065982AR,429323.84,4586316.78,121.63,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Moratín,13.38,6.5,2.88,3.98,0.5,1.39,209,ok
+0065983AR,429196.99,4585985.61,159.47,Brachychiton populneus,False,SEGONA,C\ Llobregós,4.83,11.0,3.74,3.04,0.427,1.7,213,ok
+0065984AR,429538.89,4586202.92,115.63,Melia azedarach,False,TERCERA,Ptge Santa Teresa,10.55,37.5,6.91,7.15,0.352,2.09,1209,ok
+0065986AR,429546.37,4585772.5,170.38,Ligustrum lucidum,False,SEGONA,C\ Calderón de la Barca,7.16,29.8,6.15,4.77,0.321,2.27,467,ok
+0065987AR,429605.65,4586490.4,99.86,Brachychiton populneus,False,SEGONA,Rbla Carmel,9.0,13.2,4.11,2.82,0.236,2.88,526,ok
+0065990AR,429321.68,4585810.89,203.02,Lagunaria patersonia,False,PRIMERA,C\ Santuari,9.48,38.0,6.96,4.0,0.138,3.96,813,ok
+0065991AR,429567.04,4586604.73,101.86,Styphnolobium japonicum,False,TERCERA,C\ Beatriu,8.32,20.8,5.14,5.24,0.208,3.14,332,ok
+0065992AR,429217.84,4586017.97,157.35,Styphnolobium japonicum,False,SEGONA,C\ Llobregós,8.02,29.5,6.13,4.78,0.244,2.82,965,ok
+0065993AR,429156.93,4585956.7,161.74,Brachychiton populneus,False,SEGONA,C\ Llobregós,5.78,42.0,7.31,3.24,0.384,1.92,954,ok
+0065994AR,429626.51,4586220.91,106.76,Styphnolobium japonicum,False,SEGONA,Rbla Carmel,13.02,22.8,5.38,5.3,0.212,3.11,718,ok
+0065995AR,429375.78,4586445.74,110.12,Styphnolobium japonicum,False,SEGONA,C\ Dante Alighieri,9.24,53.0,8.21,6.07,0.187,3.35,1861,ok
+0065998AR,429061.25,4585784.29,186.68,Tipuana tipu,False,SEGONA,C\ Hortal,11.66,49.0,7.9,6.36,0.098,4.65,922,ok
+0065999AR,429659.55,4586351.76,103.5,Brachychiton acerifolius,False,PRIMERA,C\ Ciències,13.43,23.8,5.5,3.95,0.187,3.35,910,ok
+0066000AR,429268.13,4586332.0,122.77,Styphnolobium japonicum,False,TERCERA,C\ Dante Alighieri,10.0,36.8,6.84,6.71,0.222,3.01,1099,ok
+0066001AR,429553.57,4586412.35,100.51,Styphnolobium japonicum,False,SEGONA,C\ Granollers,7.62,41.0,7.23,4.93,0.042,6.36,1045,ok
+0066002AR,429530.95,4586242.73,117.3,Styphnolobium japonicum,False,SEGONA,C\ Llobregós,7.61,30.2,6.21,4.38,0.181,3.42,958,ok
+0066005AR,429587.27,4586266.79,110.51,Brachychiton populneus,False,PRIMERA,C\ Llobregós,4.84,8.5,3.29,3.8,0.401,1.83,306,ok
+0066006AR,429504.22,4586546.32,105.21,Styphnolobium japonicum,False,SEGONA,C\ Dante Alighieri,8.95,50.0,7.98,5.41,0.308,2.36,1885,ok
+0066007AR,429632.06,4586495.03,99.67,Brachychiton populneus,False,SEGONA,Rbla Carmel,5.08,11.8,3.87,2.66,0.437,1.66,468,ok
+0066008AR,429558.19,4585728.0,174.62,Ligustrum lucidum,False,SEGONA,C\ Calderón de la Barca,6.71,15.8,4.48,4.36,0.352,2.09,298,ok
+0066009AR,429718.52,4585691.08,182.45,Ulmus pumila,False,EXEMPLAR,C\ Doctor Bové,12.12,60.2,8.76,4.78,0.214,3.08,1440,ok
+0066010AR,429120.85,4586098.57,154.62,Ligustrum lucidum,False,SEGONA,Camí Vell del Coll,5.57,27.5,5.92,3.12,0.321,2.27,915,ok
+0066011AR,429470.28,4586200.81,121.47,Styphnolobium japonicum,False,SEGONA,C\ Llobregós,9.46,43.8,7.46,4.63,0.294,2.45,1688,ok
+0066012AR,429675.49,4586247.36,104.42,Brachychiton populneus,False,SEGONA,C\ Ciències,6.05,10.8,3.7,2.49,0.307,2.36,498,ok
+0066013AR,429489.77,4586202.36,120.63,Styphnolobium japonicum,False,SEGONA,C\ Llobregós,6.23,17.2,4.69,3.09,0.425,1.71,644,ok
+0066014AR,429589.74,4586475.5,99.25,Styphnolobium japonicum,False,SEGONA,Rbla Carmel,9.08,45.0,7.57,5.97,0.4,1.83,1755,ok
+0066015AR,429577.48,4586276.18,110.65,Styphnolobium japonicum,False,SEGONA,C\ Llobregós,6.92,37.8,6.93,4.39,0.254,2.74,1226,ok
+0066016AR,429233.11,4586011.67,156.84,Brachychiton populneus,False,SEGONA,C\ Llobregós,5.01,13.0,4.07,2.82,0.447,1.61,276,ok
+0066017AR,429570.24,4586587.86,102.59,Styphnolobium japonicum,False,TERCERA,C\ Beatriu,8.14,42.8,7.38,4.77,0.384,1.92,891,ok
+0066018AR,429158.74,4586469.96,103.86,Celtis australis,False,TERCERA,C\ Lisboa,9.78,34.8,6.65,5.52,0.345,2.13,1289,ok
+0066019AR,429889.1,4585773.26,198.61,Styphnolobium japonicum,False,SEGONA,C\ Gran Vista,6.37,39.2,7.07,3.32,0.113,4.36,927,ok
+0066020AR,429351.21,4585873.16,174.21,Cercis siliquastrum,False,SEGONA,C\ Murtra,5.58,23.0,5.41,3.07,0.278,2.56,443,ok
+0066021AR,429998.1,4585985.83,141.48,Platanus × acerifolia,True,EXEMPLAR,Pg Font de la Mulassa,19.15,126.8,12.7,6.8,0.137,3.98,2778,ok
+0066022AR,429530.38,4586112.37,117.56,Prunus cerasifera 'Pissardii',False,SEGONA,C\ Lugo,6.21,22.0,5.29,3.85,0.285,2.51,638,ok
+0066023AR,429307.3,4586071.88,142.13,Styphnolobium japonicum,False,SEGONA,C\ Llobregós,7.31,29.2,6.1,4.38,0.313,2.32,976,ok
+0066024AR,429459.36,4586671.01,91.32,Celtis australis,False,SEGONA,C\ Lisboa,5.28,34.0,6.58,2.76,0.331,2.21,747,ok
+0066025AR,429209.88,4585936.56,178.0,Ligustrum lucidum,False,PRIMERA,C\ Fastenrath,4.81,6.5,2.88,3.25,0.485,1.45,136,ok
+0066027AR,429201.8,4586006.22,158.48,Styphnolobium japonicum,False,SEGONA,C\ Llobregós,7.33,29.8,6.15,4.5,0.316,2.31,605,ok
+0066028AR,429799.65,4585719.86,195.2,Styphnolobium japonicum,False,SEGONA,C\ Gran Vista,8.77,43.2,7.42,3.44,0.139,3.95,830,ok
+0066030AR,429277.46,4585955.05,181.86,Cercis siliquastrum,False,SEGONA,C\ Fastenrath,5.74,24.8,5.61,3.0,0.301,2.4,449,ok
+0066031AR,429494.49,4586205.85,120.42,Styphnolobium japonicum,False,SEGONA,C\ Llobregós,6.68,20.8,5.14,2.41,0.235,2.9,893,ok
+0066032AR,429910.86,4585786.41,199.45,Styphnolobium japonicum,False,SEGONA,C\ Gran Vista,8.91,35.8,6.75,3.86,0.148,3.83,948,ok
+0066034AR,429572.31,4585682.96,178.73,Cercis siliquastrum,False,SEGONA,C\ Calderón de la Barca,5.39,20.8,5.14,4.16,0.284,2.52,335,ok
+0066035AR,429089.88,4585928.59,163.32,Styphnolobium japonicum,False,SEGONA,C\ Llobregós,8.53,36.8,6.84,4.43,0.203,3.19,671,ok
+0066037AR,429594.18,4586446.68,98.28,Styphnolobium japonicum,False,TERCERA,Rbla Carmel,10.71,42.2,7.33,6.73,0.242,2.84,1376,ok
+0066038AR,429610.34,4586460.8,100.19,Brachychiton acerifolius,False,PRIMERA,Rbla Carmel,2.58,16.5,4.58,2.5,0.465,1.53,592,low_tree
+0066039AR,429474.02,4586306.64,112.77,Acacia retinodes,False,PRIMERA,Pl Pastrana,3.91,13.0,4.07,3.1,0.474,1.5,517,ok
+0066040AR,429325.58,4586382.95,114.12,Styphnolobium japonicum,False,SEGONA,C\ Dante Alighieri,11.23,40.5,7.18,5.88,0.233,2.91,1624,ok
+0066041AR,429263.42,4586328.87,123.77,Styphnolobium japonicum,False,SEGONA,C\ Dante Alighieri,14.46,34.2,6.6,6.87,0.182,3.41,1217,ok
+0066042AR,429278.71,4586540.7,102.66,Celtis australis,False,SEGONA,C\ Lisboa,5.42,16.5,4.58,3.88,0.431,1.68,621,ok
+0066044AR,429094.77,4585932.14,163.04,Styphnolobium japonicum,False,SEGONA,C\ Llobregós,7.27,25.5,5.7,4.01,0.166,3.59,440,ok
+0066045AR,429537.57,4585787.04,169.51,Ligustrum lucidum,False,SEGONA,C\ Calderón de la Barca,5.9,20.0,5.05,4.33,0.29,2.48,307,ok
+0066046AR,429129.95,4586354.96,128.52,Tipuana tipu,False,TERCERA,Esc Floresta,10.09,52.5,8.18,4.32,0.376,1.96,2137,ok
+0066049AR,430082.48,4585753.05,204.91,Firmiana simplex,False,SEGONA,C\ Gran Vista,7.09,25.8,5.73,3.37,0.259,2.7,467,ok
+0066050AR,429110.38,4585942.29,162.52,Styphnolobium japonicum,False,SEGONA,C\ Llobregós,6.98,27.2,5.89,4.28,0.265,2.66,514,ok
+0066051AR,429551.39,4585762.73,171.44,Ligustrum lucidum,False,SEGONA,C\ Calderón de la Barca,6.69,17.8,4.75,5.53,0.283,2.52,247,ok
+0066052AR,429550.02,4585519.18,188.91,Platanus × acerifolia,True,TERCERA,Jard Juan Ponce,10.88,49.5,7.94,4.06,0.452,1.59,2242,ok
+0066053AR,429275.51,4586020.61,159.95,Tipuana tipu,False,SEGONA,C\ Hortal,7.98,44.0,7.48,4.51,0.408,1.79,2013,ok
+0066054AR,429685.37,4585651.3,189.95,Styphnolobium japonicum,False,SEGONA,C\ Gran Vista,9.21,37.2,6.89,4.58,0.301,2.4,2083,ok
+0066055AR,429058.98,4586038.04,171.96,Styphnolobium japonicum,False,SEGONA,Pg Mare de Déu del Coll,10.42,94.5,10.97,6.02,0.359,2.05,3981,ok
+0066057AR,429150.01,4585920.36,174.16,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Fastenrath,4.05,3.0,1.95,2.6,0.357,2.06,56,ok
+0066058AR,429656.73,4586073.47,117.49,Celtis australis,False,SEGONA,Rbla Carmel,7.06,21.5,5.23,4.13,0.425,1.71,813,ok
+0066059AR,429066.23,4586142.97,155.03,Styphnolobium japonicum,False,TERCERA,Pg Mare de Déu del Coll,11.33,58.8,8.65,3.72,0.186,3.37,2495,ok
+0066060AR,429635.89,4586264.88,106.02,Styphnolobium japonicum,False,PRIMERA,Rbla Carmel,7.03,34.2,6.6,4.05,0.424,1.72,1627,ok
+0066061AR,429392.76,4586632.17,97.38,Celtis australis,False,TERCERA,C\ Lisboa,8.17,44.2,7.51,4.53,0.272,2.61,795,ok
+0066063AR,429385.65,4586390.48,111.84,Citrus × aurantium,False,PRIMERA,C\ Sacedón,3.27,4.5,2.39,2.49,0.45,1.6,124,ok
+0066064AR,429406.46,4586010.89,144.4,Melia azedarach,False,EXEMPLAR,C\ Calderón de la Barca,15.24,35.0,6.68,10.65,0.194,3.28,1178,ok
+0066065AR,429568.52,4585532.5,188.39,Pinus pinea,False,TERCERA,Jard Juan Ponce,8.24,34.0,6.58,5.13,0.302,2.4,1228,ok
+0066066AR,429466.83,4585482.35,191.42,Platanus × acerifolia,True,EXEMPLAR,Jard Juan Ponce,13.6,128.8,12.8,6.31,0.375,1.96,7094,ok
+0066067AR,429470.85,4585707.36,203.99,Parrotia persica 'Vanessa',False,PRIMERA,C\ Santuari,10.51,21.8,5.26,3.19,0.174,3.5,386,ok
+0066068AR,429361.84,4585868.49,174.0,Cercis siliquastrum,False,SEGONA,C\ Murtra,5.61,30.8,6.26,3.07,0.246,2.81,578,ok
+0066069AR,429669.74,4586240.41,104.47,Populus alba 'Pyramidalis',False,TERCERA,C\ Ciències,11.26,21.2,5.2,5.44,0.273,2.6,1423,ok
+0066070AR,429808.16,4585715.17,195.37,Styphnolobium japonicum,False,SEGONA,C\ Gran Vista,10.18,35.5,6.72,6.37,0.213,3.09,685,ok
+0066071AR,429637.86,4586488.88,99.41,Brachychiton populneus,False,PRIMERA,C\ Ciències,7.29,9.0,3.39,3.27,0.157,3.7,250,ok
+0066072AR,429628.78,4586340.94,103.62,Brachychiton populneus,False,PRIMERA,Rbla Carmel,5.61,10.0,3.57,3.11,0.457,1.57,399,ok
+0066073AR,429741.38,4585684.81,192.94,Styphnolobium japonicum,False,TERCERA,C\ Gran Vista,6.97,30.8,6.26,4.07,0.208,3.14,615,ok
+0066074AR,429463.76,4586313.26,112.62,Acacia dealbata,False,SEGONA,Pl Pastrana,8.75,15.0,4.37,3.56,0.271,2.61,590,ok
+0066075AR,429261.24,4586049.75,149.61,Styphnolobium japonicum,False,SEGONA,C\ Llobregós,5.87,21.5,5.23,3.83,0.414,1.76,553,ok
+0066076AR,429410.75,4585818.75,175.1,Cercis siliquastrum,False,SEGONA,C\ Murtra,6.23,28.0,5.97,2.3,0.295,2.44,481,ok
+0066077AR,429638.98,4586483.82,98.93,Brachychiton populneus,False,SEGONA,Rbla Carmel,7.4,12.5,3.99,2.34,0.277,2.57,451,ok
+0066078AR,429185.55,4585935.56,175.75,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Fastenrath,4.64,4.5,2.39,2.88,0.478,1.48,92,ok
+0066079AR,429567.96,4585812.28,156.27,Morus alba,False,TERCERA,C\ Alcalde de Zalamea,10.97,36.2,6.79,5.88,0.039,6.48,715,ok
+0066080AR,429161.49,4585965.42,161.37,Styphnolobium japonicum,False,PRIMERA,C\ Llobregós,4.71,9.2,3.43,2.57,0.384,1.92,185,ok
+0066081AR,429672.33,4586300.54,101.24,Styphnolobium japonicum,False,TERCERA,C\ Ciències,9.62,43.5,7.44,4.76,0.345,2.13,1975,ok
+0066085AR,429345.58,4586588.32,101.83,Celtis australis,False,EXEMPLAR,C\ Lisboa,9.72,50.2,8.0,5.15,0.18,3.43,882,ok
+0066086AR,429237.04,4586020.06,155.9,Styphnolobium japonicum,False,SEGONA,C\ Llobregós,7.25,30.8,6.26,4.35,0.343,2.14,1101,ok
+0066087AR,429471.47,4586189.52,121.7,Styphnolobium japonicum,False,SEGONA,C\ Llobregós,7.4,25.5,5.7,2.94,0.298,2.42,1029,ok
+0066088AR,429329.72,4586217.28,126.24,Styphnolobium japonicum,False,SEGONA,Ptge Calafell,11.27,56.0,8.44,5.75,0.243,2.83,2130,ok
+0066089AR,429033.5,4585879.85,172.25,Styphnolobium japonicum,False,TERCERA,C\ Llobregós,7.83,55.5,8.41,3.51,0.282,2.53,1310,ok
+0066091AR,429559.66,4586641.02,99.4,Styphnolobium japonicum,False,TERCERA,C\ Beatriu,10.51,46.8,7.72,5.85,0.202,3.2,791,ok
+0066092AR,429861.71,4585756.65,197.52,Styphnolobium japonicum,False,SEGONA,C\ Gran Vista,7.21,33.5,6.53,4.61,0.234,2.91,672,ok
+0066093AR,429553.4,4585757.22,171.9,Ligustrum lucidum,False,SEGONA,C\ Calderón de la Barca,6.6,16.0,4.51,2.6,0.161,3.66,255,ok
+0066098AR,429690.73,4586075.23,117.94,Styphnolobium japonicum,False,PRIMERA,C\ Pedrell,,0.0,0.0,,,,0,no_crown_detected
+0066099AR,429932.04,4585789.51,200.17,Styphnolobium japonicum,False,SEGONA,C\ Gran Vista,7.42,39.2,7.07,2.84,0.306,2.37,834,ok
+0066100AR,429494.18,4585499.29,191.5,Platanus × acerifolia,True,SEGONA,Jard Juan Ponce,12.12,94.0,10.94,4.91,0.367,2.01,4862,ok
+0066102AR,429191.84,4585981.38,159.81,Brachychiton populneus,False,SEGONA,C\ Llobregós,6.07,8.8,3.34,2.95,0.426,1.71,216,ok
+0066103AR,429917.26,4585790.2,199.71,Styphnolobium japonicum,False,TERCERA,C\ Gran Vista,7.45,35.8,6.75,4.4,0.243,2.83,803,ok
+0066104AR,429424.38,4586167.99,124.4,Styphnolobium japonicum,False,SEGONA,C\ Llobregós,8.01,24.0,5.53,4.05,0.346,2.12,1001,ok
+0066105AR,429752.02,4585691.16,193.32,Styphnolobium japonicum,False,TERCERA,C\ Gran Vista,10.58,50.5,8.02,5.36,0.121,4.23,1018,ok
+0066106AR,429467.36,4586308.74,112.76,Acacia dealbata,False,TERCERA,Pl Pastrana,7.35,30.0,6.18,4.02,0.35,2.1,1272,ok
+0066108AR,428967.02,4585770.86,194.4,Cercis siliquastrum,False,SEGONA,C\ Santuari,11.61,14.5,4.3,4.22,0.332,2.21,229,ok
+0066109AR,429650.42,4586411.35,97.62,Brachychiton acerifolius,False,PRIMERA,C\ Ciències,13.05,26.2,5.78,3.36,0.146,3.85,990,ok
+0066110AR,429626.95,4586395.64,101.55,Brachychiton populneus,False,SEGONA,Rbla Carmel,5.87,7.2,3.04,3.11,0.483,1.46,338,ok
+0066111AR,429276.66,4586049.58,147.48,Styphnolobium japonicum,False,SEGONA,C\ Llobregós,7.77,24.8,5.61,3.78,0.384,1.91,1093,ok
+0066112AR,429651.08,4586405.55,98.4,Brachychiton populneus,False,SEGONA,C\ Ciències,9.3,14.5,4.3,2.87,0.117,4.29,613,ok
+0066115AR,429608.86,4586351.03,102.45,Styphnolobium japonicum,False,TERCERA,Rbla Carmel,8.35,27.8,5.94,5.6,0.302,2.39,1040,ok
+0066117AR,429437.34,4586504.72,107.38,Styphnolobium japonicum,False,SEGONA,C\ Dante Alighieri,8.93,30.0,6.18,5.48,0.279,2.55,1171,ok
+0066118AR,429129.95,4585905.76,170.99,Prunus cerasifera 'Pissardii',False,SEGONA,C\ Fastenrath,5.29,20.0,5.05,1.76,0.306,2.37,415,ok
+0066119AR,429297.59,4586049.2,147.72,Magnolia grandiflora,False,PRIMERA,C\ Ramon Rocafull,5.17,9.8,3.52,2.67,0.517,1.32,379,ok
+0066120AR,429634.27,4586347.67,103.59,Brachychiton populneus,False,PRIMERA,Rbla Carmel,3.65,1.2,1.26,2.47,0.423,1.72,48,no_crown_detected
+0066121AR,429486.43,4586536.5,105.78,Styphnolobium japonicum,False,SEGONA,C\ Dante Alighieri,10.32,30.5,6.23,6.18,0.242,2.84,1299,ok
+0066122AR,429642.16,4586421.95,96.59,Brachychiton populneus,False,PRIMERA,C\ Ciències,11.18,26.0,5.75,5.2,0.289,2.48,1427,ok
+0066124AR,429166.17,4585812.18,202.68,Styphnolobium japonicum,False,SEGONA,C\ Santuari,10.35,29.8,6.15,2.76,0.123,4.19,634,ok
+0066126AR,429314.54,4586565.46,102.47,Celtis australis,False,TERCERA,C\ Lisboa,10.0,46.2,7.67,5.71,0.264,2.66,1090,ok
+0066127AR,429503.9,4586691.31,87.66,Celtis australis,False,SEGONA,C\ Lisboa,6.09,44.2,7.51,2.26,0.376,1.95,927,ok
+0066128AR,429067.73,4586147.67,154.04,Styphnolobium japonicum,False,TERCERA,Pg Mare de Déu del Coll,12.48,104.5,11.53,4.14,0.255,2.74,4639,ok
+0066129AR,429196.83,4585930.49,177.05,Prunus cerasifera 'Pissardii',False,SEGONA,C\ Fastenrath,5.5,12.2,3.95,3.78,0.34,2.16,194,ok
+0066131AR,429045.83,4585981.61,173.36,Styphnolobium japonicum,False,SEGONA,Pg Mare de Déu del Coll,8.91,106.8,11.66,4.97,0.129,4.09,2527,ok
+0066132AR,429600.61,4586281.5,108.57,Styphnolobium japonicum,False,SEGONA,C\ Llobregós,7.42,33.0,6.48,5.09,0.363,2.03,1267,ok
+0066134AR,429519.9,4586698.28,86.32,Celtis australis,False,TERCERA,C\ Lisboa,12.03,59.8,8.72,6.08,0.185,3.38,995,ok
+0066135AR,429488.82,4586309.32,112.43,Melia azedarach,False,SEGONA,Pl Pastrana,5.69,14.5,4.3,3.12,0.488,1.44,587,ok
+0066136AR,429546.07,4586561.15,103.68,Styphnolobium japonicum,False,SEGONA,C\ Dante Alighieri,8.4,32.8,6.46,4.69,0.266,2.65,1252,ok
+0066137AR,429665.88,4585960.39,131.02,Pyrus calleryana 'Chanticleer',False,PRIMERA,Rbla Carmel,4.96,4.5,2.39,3.25,0.5,1.39,104,ok
+0066138AR,428972.51,4585856.89,183.92,Populus alba 'Pyramidalis',False,SEGONA,C\ Llobregós,9.32,10.5,3.66,3.64,0.294,2.45,299,ok
+0066139AR,429145.57,4585909.31,174.24,Prunus cerasifera 'Pissardii',False,SEGONA,C\ Fastenrath,6.06,24.8,5.61,2.79,0.335,2.19,475,ok
+0066140AR,429810.5,4585726.32,195.48,Styphnolobium japonicum,False,SEGONA,C\ Gran Vista,13.53,35.5,6.72,4.21,0.096,4.7,795,ok
+0066142AR,429422.59,4585947.77,151.34,Melia azedarach,False,SEGONA,C\ Calderón de la Barca,13.24,23.8,5.5,9.22,0.179,3.44,418,ok
+0066143AR,429087.83,4586030.11,163.18,Jacaranda mimosifolia,False,SEGONA,Camí Vell del Coll,7.42,23.8,5.5,3.74,0.395,1.86,982,ok
+0066144AR,429952.71,4585813.5,201.23,Styphnolobium japonicum,False,SEGONA,C\ Gran Vista,6.76,35.2,6.7,3.78,0.31,2.34,845,ok
+0066145AR,429767.8,4585700.51,193.93,Styphnolobium japonicum,False,SEGONA,C\ Gran Vista,6.33,15.8,4.48,3.73,0.233,2.91,313,ok
+0066148AR,429319.86,4585920.21,178.83,Cercis siliquastrum,False,PRIMERA,C\ Murtra,5.02,14.8,4.33,2.81,0.152,3.77,257,ok
+0066151AR,429130.94,4586368.74,125.03,Tipuana tipu,False,TERCERA,Esc Floresta,11.15,43.0,7.4,5.53,0.272,2.61,1816,ok
+0066152AR,430004.04,4585965.99,144.44,Platanus × acerifolia,True,EXEMPLAR,Pg Font de la Mulassa,18.53,74.8,9.76,8.42,0.103,4.55,1891,ok
+0066153AR,429346.87,4586512.49,107.79,Cercis siliquastrum,False,PRIMERA,C\ Farnés,4.22,11.0,3.74,3.52,0.433,1.67,282,ok
+0066154AR,429304.69,4586558.06,102.52,Celtis australis,False,SEGONA,C\ Lisboa,5.56,24.5,5.59,2.58,0.439,1.65,877,ok
+0066155AR,429576.09,4585516.53,187.75,Platanus × acerifolia,True,TERCERA,Jard Juan Ponce,15.5,63.0,8.96,6.49,0.184,3.38,3203,ok
+0066156AR,429580.99,4586529.26,101.29,Styphnolobium japonicum,False,SEGONA,Rbla Carmel,13.13,23.2,5.44,5.82,0.252,2.76,937,ok
+0066157AR,429562.21,4586629.37,100.0,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Beatriu,0.0,8.5,3.29,1.96,0.173,3.51,156,low_tree
+0066158AR,429252.16,4586025.98,153.28,Brachychiton populneus,False,SEGONA,C\ Llobregós,4.84,23.8,5.5,3.21,0.503,1.38,941,ok
+0066160AR,429629.04,4586623.06,99.37,Styphnolobium japonicum,False,TERCERA,C\ Lletres,9.12,86.2,10.48,4.49,0.251,2.76,2008,ok
+0066161AR,429048.48,4585988.13,173.5,Styphnolobium japonicum,False,SEGONA,Pg Mare de Déu del Coll,8.54,46.0,7.65,4.78,0.145,3.87,1100,ok
+0066162AR,429420.67,4585936.7,152.41,Ligustrum lucidum,False,SEGONA,C\ Calderón de la Barca,9.57,17.0,4.65,6.68,0.021,7.74,192,ok
+0066163AR,429568.55,4585616.92,185.24,Jacaranda mimosifolia,False,SEGONA,C\ Calderón de la Barca,7.37,24.8,5.61,2.91,0.379,1.94,1277,ok
+0066164AR,429622.99,4586376.46,102.11,Brachychiton populneus,False,PRIMERA,Rbla Carmel,3.95,11.0,3.74,2.83,0.307,2.36,492,ok
+0066165AR,429348.46,4586593.22,101.43,Celtis australis,False,TERCERA,C\ Lisboa,9.81,41.8,7.29,5.28,0.183,3.4,898,ok
+0066166AR,429326.48,4586098.22,137.26,Styphnolobium japonicum,False,SEGONA,C\ Llobregós,8.25,76.8,9.89,5.15,0.283,2.52,3002,ok
+0066167AR,429336.74,4585792.44,203.32,Celtis australis,False,TERCERA,C\ Santuari,9.3,38.8,7.02,6.08,0.159,3.67,571,ok
+0066168AR,429611.8,4586333.18,103.73,Styphnolobium japonicum,False,TERCERA,Rbla Carmel,9.85,36.0,6.77,6.0,0.275,2.58,1454,ok
+0066169AR,429622.31,4586382.59,101.93,Brachychiton acerifolius,False,PRIMERA,Rbla Carmel,10.18,47.5,7.78,4.62,0.315,2.31,2507,ok
+0066170AR,430104.19,4585752.46,205.24,Firmiana simplex,False,SEGONA,C\ Gran Vista,6.73,58.0,8.59,3.21,0.227,2.97,1116,ok
+0066171AR,429621.43,4586431.19,100.13,Brachychiton populneus,False,TERCERA,Rbla Carmel,6.36,14.5,4.3,3.49,0.464,1.54,722,ok
+0066173AR,429207.86,4585998.5,158.6,Styphnolobium japonicum,False,SEGONA,C\ Llobregós,7.9,35.5,6.72,4.59,0.193,3.29,747,ok
+0066174AR,429611.68,4586500.17,99.63,Brachychiton acerifolius,False,SEGONA,Rbla Carmel,8.49,5.5,2.65,2.73,0.195,3.27,240,ok
+0066175AR,429384.89,4586139.63,128.29,Styphnolobium japonicum,False,SEGONA,C\ Llobregós,7.64,40.8,7.2,4.36,0.287,2.5,1178,ok
+0066176AR,429565.65,4585681.0,179.03,Ligustrum lucidum,False,SEGONA,C\ Calderón de la Barca,5.9,22.0,5.29,4.54,0.29,2.47,398,ok
+0066177AR,429407.95,4585811.75,175.71,Ligustrum lucidum,False,SEGONA,C\ Murtra,4.91,9.2,3.43,3.33,0.459,1.56,205,ok
+0066178AR,429846.52,4585747.99,196.99,Styphnolobium japonicum,False,TERCERA,C\ Gran Vista,7.21,41.5,7.27,2.56,0.139,3.94,963,ok
+0066180AR,429459.29,4586520.92,106.74,Styphnolobium japonicum,False,SEGONA,C\ Dante Alighieri,8.4,34.2,6.6,5.19,0.275,2.58,1270,ok
+0066181AR,429828.91,4585727.46,196.17,Styphnolobium japonicum,False,TERCERA,C\ Gran Vista,9.13,49.0,7.9,3.17,0.172,3.53,1096,ok
+0066182AR,429373.6,4586406.78,111.48,Ligustrum japonicum 'Texanum',False,PRIMERA,C\ Sacedón,4.12,8.0,3.19,2.37,0.336,2.18,207,ok
+0066183AR,429193.43,4586495.89,103.4,Celtis australis,False,SEGONA,C\ Lisboa,6.47,26.2,5.78,4.32,0.409,1.79,1115,ok
+0066184AR,429635.44,4586341.46,103.89,Brachychiton populneus,False,SEGONA,Rbla Carmel,4.41,12.8,4.03,2.63,0.529,1.27,547,ok
+0066185AR,429421.83,4585942.49,151.94,Melia azedarach,False,TERCERA,C\ Calderón de la Barca,12.25,3.2,2.03,8.21,0.22,3.03,59,ok
+0066186AR,429637.74,4586147.84,109.44,Styphnolobium japonicum,False,SEGONA,Rbla Carmel,8.61,32.2,6.41,4.31,0.226,2.97,1279,ok
+0066187AR,429343.42,4585893.29,175.69,Cercis siliquastrum,False,SEGONA,C\ Murtra,6.65,21.2,5.2,3.58,0.265,2.65,324,ok
+0066188AR,429129.55,4586440.49,104.48,Celtis australis,False,SEGONA,C\ Lisboa,6.48,23.8,5.5,4.05,0.304,2.38,839,ok
+0066189AR,429402.54,4586368.06,112.49,Citrus × aurantium,False,PRIMERA,C\ Sacedón,4.24,7.8,3.14,2.3,0.48,1.47,236,ok
+0066190AR,429604.0,4586295.73,107.35,Styphnolobium japonicum,False,TERCERA,C\ Llobregós,8.02,36.2,6.79,5.4,0.256,2.73,1118,ok
+0066191AR,429327.26,4585911.58,177.94,Cercis siliquastrum,False,SEGONA,C\ Murtra,6.3,30.2,6.21,3.98,0.174,3.49,459,ok
+0066194AR,429783.92,4585710.52,194.57,Styphnolobium japonicum,False,SEGONA,C\ Gran Vista,8.87,39.8,7.11,4.78,0.127,4.13,844,ok
+0066195AR,429595.48,4585597.4,186.01,Styphnolobium japonicum,False,TERCERA,C\ Gran Vista,7.98,36.8,6.84,5.21,0.276,2.57,1570,ok
+0066196AR,429629.83,4586335.2,103.93,Brachychiton populneus,False,SEGONA,Rbla Carmel,5.06,13.8,4.18,2.97,0.507,1.36,606,ok
+0066199AR,429289.96,4586529.02,104.36,Tilia x euchlora,False,SEGONA,Ptge Andalet,5.93,14.2,4.26,2.84,0.361,2.04,598,ok
+0066201AR,429610.79,4586338.54,103.28,Styphnolobium japonicum,False,SEGONA,Rbla Carmel,5.93,27.2,5.89,2.58,0.393,1.87,959,ok
+0066202AR,429450.3,4586186.64,122.52,Styphnolobium japonicum,False,SEGONA,C\ Llobregós,8.03,40.8,7.2,4.24,0.245,2.81,1308,ok
+0066203AR,429176.1,4585970.56,160.82,Brachychiton populneus,False,SEGONA,C\ Llobregós,14.83,13.5,4.15,5.1,0.262,2.68,187,ok
+0066204AR,429105.41,4585938.83,162.7,Styphnolobium japonicum,False,SEGONA,C\ Llobregós,8.28,37.0,6.86,5.35,0.204,3.18,633,ok
+0066205AR,429152.48,4586462.52,103.91,Celtis australis,False,TERCERA,C\ Lisboa,8.92,46.0,7.65,4.56,0.28,2.55,1750,ok
+0066206AR,429616.71,4586502.95,99.57,Brachychiton acerifolius,False,SEGONA,Rbla Carmel,8.3,8.8,3.34,3.3,0.262,2.68,334,ok
+0066207AR,429577.27,4586552.88,102.19,Styphnolobium japonicum,False,TERCERA,Rbla Carmel,8.95,27.5,5.92,6.13,0.28,2.55,1057,ok
+0066208AR,429583.84,4586511.42,100.61,Styphnolobium japonicum,False,SEGONA,Rbla Carmel,10.18,32.5,6.43,4.76,0.233,2.91,1356,ok
+0066209AR,430114.46,4585751.43,205.4,Firmiana simplex,False,SEGONA,C\ Gran Vista,6.49,35.0,6.68,2.97,0.301,2.4,694,ok
+0066210AR,429274.45,4585968.09,182.24,Celtis australis,False,SEGONA,C\ Murtra,9.91,28.8,6.05,5.2,0.022,7.65,367,ok
+0066212AR,429333.65,4586209.15,126.01,Styphnolobium japonicum,False,SEGONA,Ptge Calafell,8.98,46.8,7.72,4.32,0.256,2.73,1695,ok
+0066213AR,429427.63,4585811.32,174.64,Ligustrum lucidum,False,SEGONA,C\ Segimon,8.56,35.2,6.7,4.83,0.266,2.65,643,ok
+0066214AR,429598.45,4586558.19,101.68,Brachychiton populneus,False,SEGONA,Rbla Carmel,4.79,10.2,3.61,2.56,0.5,1.39,465,ok
+0066215AR,429532.7,4586407.06,101.58,Styphnolobium japonicum,False,SEGONA,C\ Granollers,7.19,48.5,7.86,3.15,0.313,2.32,1667,ok
+0066216AR,429628.79,4586498.43,99.67,Brachychiton populneus,False,SEGONA,Rbla Carmel,7.47,5.0,2.52,2.79,0.405,1.81,290,ok
+0066218AR,429838.7,4585733.35,196.49,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Gran Vista,11.31,20.8,5.14,3.26,0.278,2.56,436,ok
+0066219AR,429799.82,4585879.12,161.86,Cercis siliquastrum,False,SEGONA,Ptge Passerell,8.59,110.2,11.85,2.33,0.172,3.53,1999,ok
+0066220AR,429624.93,4586364.72,102.67,Brachychiton acerifolius,False,PRIMERA,Rbla Carmel,12.74,28.0,5.97,5.11,0.315,2.31,1199,ok
+0066221AR,429141.56,4585951.77,161.95,Styphnolobium japonicum,False,SEGONA,C\ Llobregós,7.81,38.5,7.0,4.01,0.164,3.62,690,ok
+0066223AR,429928.25,4585795.9,200.19,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Gran Vista,0.0,2.2,1.69,4.65,0.488,1.44,41,few_points
+0066224AR,429099.81,4585935.38,162.93,Styphnolobium japonicum,False,TERCERA,C\ Llobregós,8.78,36.0,6.77,5.82,0.285,2.51,797,ok
+0066225AR,429509.8,4586098.75,119.94,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Lugo,10.67,11.5,3.83,3.78,0.235,2.9,386,ok
+0066226AR,429141.28,4585946.17,162.05,Brachychiton populneus,False,PRIMERA,C\ Llobregós,5.68,6.0,2.76,3.11,0.426,1.7,129,ok
+0066228AR,429563.54,4585693.46,177.83,Ligustrum lucidum,False,SEGONA,C\ Calderón de la Barca,7.57,23.8,5.5,5.51,0.157,3.7,331,ok
+0066229AR,429423.6,4585818.31,174.56,Cercis siliquastrum,False,PRIMERA,C\ Segimon,5.87,20.5,5.11,3.77,0.347,2.11,357,ok
+0066230AR,429356.94,4585874.38,174.11,Cercis siliquastrum,False,SEGONA,C\ Murtra,6.12,29.5,6.13,3.45,0.226,2.97,477,ok
+0066231AR,429494.65,4585871.42,162.7,Melia azedarach,False,TERCERA,C\ Calderón de la Barca,12.69,32.2,6.41,7.34,0.131,4.07,643,ok
+0066656AR,429502.44,4585431.48,170.02,Firmiana simplex,False,SEGONA,Ctra Carmel,7.39,102.8,11.44,4.45,0.366,2.01,4189,ok
+0066661AR,429503.26,4585424.04,169.57,Firmiana simplex,False,PRIMERA,Ctra Carmel,5.1,28.2,6.0,2.21,0.383,1.92,1058,ok
+0066753AR,429507.28,4585409.51,168.69,Firmiana simplex,False,PRIMERA,Ctra Carmel,4.59,35.5,6.72,2.54,0.368,2.0,1429,ok
+0066767AR,429513.89,4585390.59,167.43,Firmiana simplex,False,SEGONA,Ctra Carmel,5.99,10.2,3.61,4.52,0.548,1.2,446,ok
+0066857AR,429523.56,4585463.94,172.4,Firmiana simplex,False,SEGONA,Ctra Carmel,6.52,149.5,13.8,3.99,0.314,2.31,6643,ok
+0067014AR,429516.27,4585383.68,167.01,Firmiana simplex,False,SEGONA,Ctra Carmel,5.68,22.8,5.38,2.92,0.474,1.49,909,ok
+0067023AR,429505.01,4585416.49,169.15,Firmiana simplex,False,PRIMERA,Ctra Carmel,7.99,9.8,3.52,3.22,0.472,1.5,434,ok
+0067062AR,429509.42,4585403.03,168.26,Firmiana simplex,False,PRIMERA,Ctra Carmel,7.12,63.0,8.96,2.83,0.33,2.22,2654,ok
+0073906AR,429101.8,4585547.77,214.42,Tipuana tipu,False,TERCERA,C\ Ceuta,8.89,74.0,9.71,2.31,0.264,2.66,3282,ok
+0073928AR,429110.49,4585573.67,212.57,Tipuana tipu,False,SEGONA,C\ Ceuta,7.11,62.5,8.92,2.6,0.332,2.21,2679,ok
+0073940AR,429117.34,4585667.07,203.35,Cercis siliquastrum,False,SEGONA,C\ Ceuta,5.62,69.8,9.42,2.43,0.272,2.61,1777,ok
+0073990AR,429116.09,4585559.79,213.59,Cercis siliquastrum,False,SEGONA,C\ Ceuta,4.96,14.8,4.33,3.19,0.496,1.4,627,ok
+0074040AR,429117.46,4585551.24,214.17,Cercis siliquastrum,False,SEGONA,C\ Ceuta,5.85,23.0,5.41,3.56,0.502,1.38,1208,ok
+0074063AR,429116.76,4585595.76,210.1,Cercis siliquastrum,False,SEGONA,C\ Ceuta,6.24,60.5,8.78,2.5,0.357,2.06,3384,ok
+0074123AR,429116.6,4585685.14,201.92,Cercis siliquastrum,False,PRIMERA,C\ Ceuta,,0.0,0.0,,,,0,no_crown_detected
+0074152AR,429117.22,4585622.63,206.94,Cercis siliquastrum,False,PRIMERA,C\ Ceuta,,0.0,0.0,,,,0,no_crown_detected
+0074164AR,429116.89,4585604.6,209.04,Cercis siliquastrum,False,SEGONA,C\ Ceuta,10.23,144.0,13.54,2.57,0.314,2.32,7235,ok
+0074189AR,429110.72,4585564.51,213.26,Tipuana tipu,False,SEGONA,C\ Ceuta,8.12,55.0,8.37,4.79,0.388,1.89,2709,ok
+0074197AR,429117.37,4585631.43,205.96,Cercis siliquastrum,False,SEGONA,C\ Ceuta,4.77,17.5,4.72,3.19,0.384,1.91,663,ok
+0074204AR,429116.0,4585568.68,212.88,Cercis siliquastrum,False,PRIMERA,C\ Ceuta,4.64,19.5,4.98,2.38,0.337,2.18,748,ok
+0074225AR,429117.69,4585656.8,203.98,Cercis siliquastrum,False,SEGONA,C\ Ceuta,5.88,36.5,6.82,2.55,0.347,2.11,1384,ok
+0074275AR,429109.25,4585555.4,213.91,Tipuana tipu,False,SEGONA,C\ Ceuta,6.06,63.8,9.01,3.34,0.478,1.48,2857,ok
+0074276AR,429116.22,4585577.81,212.06,Cercis siliquastrum,False,SEGONA,C\ Ceuta,5.4,62.2,8.9,2.47,0.258,2.71,2258,ok
+0074293AR,429116.43,4585587.01,211.11,Cercis siliquastrum,False,SEGONA,C\ Ceuta,6.9,75.2,9.79,2.7,0.339,2.16,3387,ok
+0211345AR,429636.07,4586748.99,81.42,Ulmus pumila,False,EXEMPLAR,C\ Lisboa,9.46,51.2,8.08,5.01,0.226,2.98,1041,ok
+0268552AR,429284.75,4586022.04,158.65,Tipuana tipu,False,SEGONA,C\ Hortal,7.78,38.8,7.02,4.08,0.496,1.4,1757,ok
+0268558AR,429701.01,4585358.81,178.21,Celtis australis,False,TERCERA,Ctra Carmel,7.91,65.0,9.1,3.69,0.241,2.84,2757,ok
+0268562AR,429718.43,4585362.58,179.09,Celtis australis,False,TERCERA,Ctra Carmel,8.57,47.8,7.8,4.13,0.198,3.24,1904,ok
+0268568AR,429700.43,4585367.66,178.47,Celtis australis,False,TERCERA,Ctra Carmel,7.93,35.2,6.7,4.23,0.285,2.51,1541,ok
+0268579AR,429712.94,4585342.59,178.31,Celtis australis,False,TERCERA,Ctra Carmel,5.59,18.8,4.89,3.73,0.358,2.05,730,ok
+0268588AR,429547.49,4585784.72,169.65,Cercis siliquastrum,False,SEGONA,C\ Calderón de la Barca,5.69,17.8,4.75,4.43,0.294,2.45,303,ok
+0268602AR,429705.51,4585347.24,178.17,Celtis australis,False,SEGONA,Ctra Carmel,6.65,21.2,5.2,3.86,0.359,2.05,843,ok
+0268631AR,429717.68,4585343.25,178.41,Celtis australis,False,TERCERA,Ctra Carmel,7.9,38.2,6.98,4.06,0.257,2.72,1440,ok
+0268655AR,429723.59,4585349.63,178.62,Celtis australis,False,TERCERA,Ctra Carmel,8.39,37.5,6.91,4.01,0.207,3.15,1504,ok
+0268692AR,429724.02,4585354.25,178.58,Celtis australis,False,TERCERA,Ctra Carmel,10.22,48.8,7.88,5.06,0.187,3.36,1638,ok
+0268706AR,429704.79,4585366.84,178.87,Celtis australis,False,TERCERA,Ctra Carmel,7.59,36.5,6.82,3.98,0.344,2.13,1435,ok
+0268720AR,429708.75,4585344.4,178.26,Celtis australis,False,SEGONA,Ctra Carmel,6.67,16.8,4.62,3.11,0.291,2.47,722,ok
+0268746AR,429721.39,4585345.87,179.05,Celtis australis,False,TERCERA,Ctra Carmel,7.71,39.8,7.11,4.51,0.21,3.12,1422,ok
+0268757AR,429655.71,4585636.23,188.31,Styphnolobium japonicum,False,SEGONA,C\ Doctor Bové,9.42,43.0,7.4,2.67,0.206,3.16,2006,ok
+0268760AR,429702.91,4585350.82,178.18,Celtis australis,False,SEGONA,Ctra Carmel,0.49,2.5,1.78,2.56,0.439,1.65,79,low_tree
+0268777AR,429721.6,4585358.78,179.06,Celtis australis,False,TERCERA,Ctra Carmel,9.19,53.0,8.21,5.71,0.152,3.77,1781,ok
+0268793AR,429696.88,4585369.61,178.21,Celtis australis,False,TERCERA,Ctra Carmel,8.39,53.0,8.21,4.81,0.223,3.0,2060,ok
+0270778AR,429090.34,4585560.98,201.05,Robinia pseudoacacia,False,TERCERA,C\ Portell,15.69,96.0,11.06,4.67,0.174,3.5,5219,ok
+0270780AR,429083.44,4585573.17,201.17,Robinia pseudoacacia,False,EXEMPLAR,C\ Portell,12.89,52.2,8.16,5.92,0.212,3.1,3211,ok
+0270781AR,429092.92,4585592.32,201.4,Olea europaea,False,PRIMERA,C\ Portell,4.5,29.8,6.15,2.41,0.243,2.83,1135,ok
+0270782AR,429077.89,4585561.46,201.13,Robinia pseudoacacia,False,EXEMPLAR,C\ Portell,13.29,47.8,7.8,6.48,0.172,3.52,2880,ok
+0270784AR,429085.21,4585558.91,201.04,Robinia pseudoacacia,False,EXEMPLAR,C\ Portell,15.49,56.2,8.46,2.86,0.32,2.28,3051,ok
+0270785AR,429094.41,4585598.0,200.7,Olea europaea,False,TERCERA,C\ Portell,8.87,72.8,9.62,2.9,0.326,2.24,3394,ok
+0270786AR,429107.3,4585641.12,201.11,Celtis australis,False,SEGONA,C\ Portell,6.65,39.5,7.09,2.16,0.398,1.84,2041,ok
+0270787AR,429079.9,4585556.03,201.13,Robinia pseudoacacia,False,EXEMPLAR,C\ Portell,14.48,64.0,9.03,2.49,0.245,2.82,4074,ok
+0270789AR,429085.29,4585577.15,201.06,Robinia pseudoacacia,False,SEGONA,C\ Portell,11.9,45.5,7.61,3.41,0.2,3.22,2356,ok
+0287537AR,429187.78,4586302.87,134.16,Styphnolobium japonicum,False,SEGONA,C\ Dante Alighieri,4.21,10.5,3.66,2.87,0.441,1.64,369,ok
+0287713AR,429425.08,4585796.36,176.8,Ligustrum lucidum,False,SEGONA,C\ Murtra,7.93,31.2,6.31,4.36,0.147,3.84,457,ok
+0288190AR,429435.36,4586253.76,118.64,Styphnolobium japonicum,False,SEGONA,C\ Sigüenza,7.97,34.5,6.63,4.4,0.333,2.2,1212,ok
+0288191AR,429472.95,4586280.38,114.52,Styphnolobium japonicum,False,SEGONA,C\ Sigüenza,6.13,24.0,5.53,2.95,0.404,1.81,838,ok
+0288192AR,429449.82,4586264.6,116.77,Styphnolobium japonicum,False,SEGONA,C\ Sigüenza,9.69,43.0,7.4,4.29,0.337,2.18,1434,ok
+0288193AR,429455.6,4586268.55,116.31,Styphnolobium japonicum,False,SEGONA,C\ Sigüenza,7.25,24.8,5.61,3.65,0.37,1.99,829,ok
+0288194AR,429461.39,4586272.49,115.68,Styphnolobium japonicum,False,PRIMERA,C\ Sigüenza,5.4,33.0,6.48,3.75,0.419,1.74,937,ok
+0288195AR,429467.17,4586276.44,115.07,Styphnolobium japonicum,False,SEGONA,C\ Sigüenza,6.16,22.0,5.29,4.58,0.438,1.65,692,ok
+0289166AR,429110.88,4586149.3,147.81,Jacaranda mimosifolia,False,PRIMERA,C\ Murtra,4.42,2.8,1.87,2.73,0.544,1.22,121,ok
+0289167AR,429115.23,4586144.47,147.65,Jacaranda mimosifolia,False,PRIMERA,C\ Murtra,,0.0,0.0,,,,0,no_crown_detected
+0289284AR,429104.21,4585844.8,181.17,Styphnolobium japonicum,False,SEGONA,C\ Hortal,8.67,65.2,9.11,3.75,0.16,3.66,1179,ok
+0289285AR,429099.75,4585839.24,181.66,Styphnolobium japonicum,False,SEGONA,C\ Hortal,8.28,51.5,8.1,3.34,0.134,4.01,982,ok
+0289286AR,429095.22,4585833.61,182.14,Styphnolobium japonicum,False,SEGONA,C\ Hortal,7.13,47.0,7.74,2.43,0.164,3.62,801,ok
+0289287AR,429090.35,4585827.67,182.52,Styphnolobium japonicum,False,SEGONA,C\ Hortal,7.05,39.2,7.07,2.28,0.199,3.23,734,ok
+0289288AR,429086.04,4585822.26,182.84,Styphnolobium japonicum,False,SEGONA,C\ Hortal,7.18,39.5,7.09,2.29,0.164,3.62,690,ok
+0289289AR,429081.7,4585816.83,183.18,Styphnolobium japonicum,False,SEGONA,C\ Hortal,5.28,32.5,6.43,2.43,0.269,2.62,561,ok
+0289291AR,429013.98,4585838.18,181.18,Ligustrum japonicum 'Texanum',False,PRIMERA,C\ Batet,3.04,2.5,1.78,2.65,0.435,1.67,46,few_points
+0289292AR,429047.29,4585817.54,181.6,Ligustrum japonicum 'Variegatum',False,PRIMERA,C\ Batet,,0.0,0.0,,,,0,no_crown_detected
+0289294AR,429007.2,4585842.32,181.1,Ligustrum japonicum 'Texanum',False,PRIMERA,C\ Batet,3.13,2.0,1.6,2.45,0.463,1.54,41,few_points
+0289297AR,429144.9,4585901.12,177.39,Melia azedarach,False,SEGONA,C\ Hortal,6.38,39.8,7.11,3.38,0.256,2.73,673,ok
+0289298AR,429026.97,4585830.17,181.22,Ligustrum japonicum 'Variegatum',False,PRIMERA,C\ Batet,,0.0,0.0,,,,0,no_crown_detected
+0289300AR,429056.01,4585812.63,182.51,Ligustrum japonicum 'Variegatum',False,PRIMERA,C\ Batet,,0.0,0.0,,,,0,no_crown_detected
+0289301AR,429039.4,4585822.55,181.32,Ligustrum japonicum 'Variegatum',False,PRIMERA,C\ Batet,,0.0,0.0,,,,0,no_crown_detected
+0289828AR,429124.89,4585842.53,180.18,Cercis siliquastrum,False,PRIMERA,C\ Santuari,4.04,16.8,4.62,2.9,0.405,1.81,284,ok
+0289830AR,429117.9,4585848.13,180.05,Cercis siliquastrum,False,PRIMERA,C\ Hortal,3.73,15.5,4.44,2.23,0.437,1.66,261,ok
+0290190AR,429616.51,4585493.2,185.77,Pinus pinea,False,SEGONA,Ctra Carmel,4.05,11.5,3.83,3.11,0.483,1.46,429,ok
+0290191AR,429611.63,4585493.27,185.82,Pinus pinea,False,SEGONA,Ctra Carmel,4.72,19.5,4.98,3.11,0.407,1.8,695,ok
+0290193AR,429612.65,4585497.14,186.0,Pinus pinea,False,SEGONA,Ctra Carmel,4.55,13.2,4.11,2.68,0.458,1.56,480,ok
+0290540AR,429249.96,4585893.93,198.66,Cercis siliquastrum,False,SEGONA,C\ Manxa,11.51,17.2,4.69,3.0,0.221,3.02,263,ok
+0290541AR,429255.66,4585887.26,200.13,Cercis siliquastrum,False,PRIMERA,C\ Manxa,12.84,13.0,4.07,3.11,0.302,2.4,222,ok
+0290542AR,429264.58,4585876.75,201.64,Cercis siliquastrum,False,SEGONA,C\ Manxa,12.14,14.8,4.33,3.7,0.311,2.34,238,ok
+0292048AR,429641.07,4586259.85,104.49,Brachychiton populneus,False,SEGONA,Rbla Carmel,9.99,12.5,3.99,2.42,0.235,2.89,589,ok
+0292050AR,429459.23,4586331.26,112.18,Brachychiton acerifolius,False,EXEMPLAR,Pl Pastrana,12.87,46.8,7.72,4.0,0.249,2.78,1875,ok
+0294820AR,429006.45,4585850.26,180.77,Cupressus sempervirens,False,TERCERA,C\ Batet,11.18,16.8,4.62,2.51,0.156,3.71,378,ok
+0295470AR,429222.6,4585945.81,179.71,Cercis siliquastrum,False,PRIMERA,C\ Fastenrath,4.81,10.8,3.7,2.5,0.337,2.18,193,ok
+0295471AR,429521.49,4585654.05,199.31,Tipuana tipu,False,TERCERA,C\ Santuari,6.77,90.8,10.75,2.79,0.3,2.41,4068,ok
+0296594AR,429635.08,4586587.54,99.75,Styphnolobium japonicum,False,SEGONA,C\ Lletres,7.33,26.2,5.78,4.48,0.373,1.97,526,ok
+0296595AR,429634.08,4586593.55,99.79,Styphnolobium japonicum,False,PRIMERA,C\ Lletres,6.22,18.2,4.82,3.6,0.434,1.67,387,ok
+0296596AR,429633.17,4586599.61,99.74,Styphnolobium japonicum,False,PRIMERA,C\ Lletres,5.86,33.5,6.53,4.0,0.346,2.12,717,ok
+0296597AR,429632.26,4586604.72,99.76,Styphnolobium japonicum,False,PRIMERA,C\ Lletres,6.15,97.0,11.11,4.03,0.271,2.61,2192,ok
+0297321AR,428976.32,4585845.75,182.77,Cercis siliquastrum,False,PRIMERA,C\ Batet,4.68,19.5,4.98,2.25,0.391,1.88,466,ok
+0298282AR,429525.71,4585808.55,168.21,Cercis siliquastrum,False,PRIMERA,C\ Segimon,3.85,6.0,2.76,2.92,0.513,1.34,119,ok
+0302981AR,429601.3,4585601.18,185.84,Styphnolobium japonicum,False,SEGONA,C\ Gran Vista,10.02,29.5,6.13,5.38,0.209,3.13,1121,ok
+0302982AR,429567.05,4585523.2,188.17,Pinus pinea,False,SEGONA,Jard Juan Ponce,13.42,10.5,3.66,6.98,0.294,2.45,438,ok
+0304603AR,429129.54,4585441.7,201.72,Acacia dealbata,False,SEGONA,Camí Can Móra,7.18,92.8,10.87,2.65,0.396,1.85,4082,ok
+0304605AR,429116.93,4585453.15,201.49,Acacia retinodes,False,SEGONA,Camí Can Móra,5.13,6.2,2.82,2.98,0.525,1.29,257,ok
+0304606AR,429119.41,4585451.27,201.58,Acacia retinodes,False,PRIMERA,Camí Can Móra,5.63,13.5,4.15,3.6,0.536,1.25,545,ok
+0304610AR,429094.18,4585461.51,200.86,Cupressus sempervirens,False,SEGONA,Camí Can Móra,12.22,4.5,2.39,2.42,0.265,2.65,297,ok
+0304611AR,429089.54,4585463.36,200.7,Cupressus sempervirens,False,SEGONA,Camí Can Móra,7.84,1.2,1.26,2.06,0.326,2.24,77,no_crown_detected
+0304612AR,429057.66,4585473.75,199.9,Tipuana tipu,False,PRIMERA,C\ Portell,5.54,14.2,4.26,3.99,0.323,2.26,620,ok
+0304613AR,429061.25,4585470.96,199.97,Tipuana tipu,False,TERCERA,C\ Portell,8.42,127.2,12.73,3.96,0.207,3.15,7201,ok
+0304614AR,429051.34,4585490.5,199.83,Cupressus sempervirens,False,PRIMERA,C\ Portell,,0.0,0.0,,,,0,no_crown_detected
+0304615AR,429050.43,4585492.89,199.81,Cupressus sempervirens 'Stricta',False,SEGONA,C\ Portell,,0.0,0.0,,,,0,no_crown_detected
+0304616AR,429049.74,4585495.65,199.78,Cupressus sempervirens,False,PRIMERA,C\ Portell,,0.0,0.0,,,,0,no_crown_detected
+0309245AR,428959.59,4585834.93,187.48,Tipuana tipu,False,TERCERA,Pg Mare de Déu del Coll,11.79,104.2,11.52,6.08,0.189,3.33,2027,ok
+0309767AR,429784.43,4585822.92,161.27,Brachychiton populneus,False,TERCERA,Ptge Cadernera,6.19,25.2,5.67,2.31,0.237,2.88,455,ok
+0309768AR,429379.88,4585847.56,174.19,Cercis siliquastrum,False,SEGONA,C\ Murtra,4.58,19.5,4.98,3.16,0.391,1.88,455,ok
+0309769AR,429386.8,4585839.67,174.42,Cercis siliquastrum,False,SEGONA,C\ Murtra,5.57,24.8,5.61,2.58,0.286,2.5,360,ok
+0309770AR,429557.86,4586564.16,103.23,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Dante Alighieri,7.57,4.5,2.39,3.11,0.319,2.29,221,ok
+0309945AR,429211.0,4586306.1,130.98,Styphnolobium japonicum,False,SEGONA,C\ Dante Alighieri,5.86,50.0,7.98,3.85,0.342,2.15,1888,ok
+0309946AR,429233.66,4586313.7,127.91,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Dante Alighieri,5.15,6.2,2.82,2.93,0.368,2.0,209,ok
+0313765AR,429518.77,4585376.57,166.54,Firmiana simplex,False,PRIMERA,Ctra Carmel,8.44,73.0,9.64,3.06,0.237,2.88,2348,ok
+0313919AR,429627.54,4586214.84,106.7,Styphnolobium japonicum,False,TERCERA,Rbla Carmel,10.39,34.2,6.6,6.38,0.229,2.95,1348,ok
+0313920AR,429650.85,4586059.5,119.14,Celtis australis,False,SEGONA,Rbla Carmel,11.73,37.0,6.86,7.45,0.336,2.18,1368,ok
+0313936AR,429295.14,4586353.35,118.31,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Dante Alighieri,12.12,1.2,1.26,2.32,0.389,1.89,45,no_crown_detected
+0313937AR,429299.58,4586357.21,117.65,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Dante Alighieri,4.77,2.5,1.78,2.66,0.485,1.45,85,ok
+0313956AR,429569.43,4585608.64,186.34,Jacaranda mimosifolia,False,SEGONA,C\ Calderón de la Barca,7.04,39.0,7.05,4.2,0.45,1.6,2159,ok
+0313967AR,429743.21,4585676.18,192.83,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Gran Vista,6.66,34.0,6.58,2.03,0.269,2.63,1221,ok
+0313973AR,429494.48,4585444.72,171.01,Pinus pinea,False,TERCERA,Ctra Carmel,14.0,98.2,11.18,5.07,0.323,2.26,4483,ok
+0313974AR,429497.65,4585452.61,171.37,Pinus pinea,False,TERCERA,Ctra Carmel,8.38,28.0,5.97,4.28,0.362,2.03,1182,ok
+0313975AR,429501.9,4585458.51,171.73,Pinus pinea,False,TERCERA,Ctra Carmel,8.34,32.5,6.43,4.58,0.352,2.09,1234,ok
+0313982AR,430166.41,4585735.8,209.57,Olea europaea,False,TERCERA,C\ Gran Vista,9.49,123.5,12.54,3.24,0.308,2.35,2927,ok
+0313983AR,430178.92,4585730.67,209.82,Robinia pseudoacacia,False,SEGONA,C\ Gran Vista,3.9,56.0,8.44,2.15,0.305,2.38,1283,ok
+0313984AR,430182.59,4585730.93,207.65,Robinia pseudoacacia,False,TERCERA,C\ Gran Vista,4.99,46.2,7.67,3.08,0.149,3.81,1325,ok
+0314009AR,429216.28,4585847.15,208.95,Pinus halepensis,False,EXEMPLAR,C\ Santuari,11.16,97.2,11.13,2.42,0.247,2.8,1864,ok
+0314010AR,429226.46,4585848.55,208.96,Pinus halepensis,False,EXEMPLAR,C\ Santuari,14.66,66.8,9.22,5.38,0.224,2.99,1448,ok
+0314011AR,429259.92,4585845.87,206.48,Ulmus pumila,False,SEGONA,C\ Santuari,6.26,120.5,12.39,3.0,0.118,4.27,2119,ok
+0314507AR,429387.02,4586637.7,97.42,Pinus pinea,False,EXEMPLAR,C\ Lisboa,8.38,113.8,12.03,4.75,0.24,2.86,2025,ok
+0321212AR,429678.01,4585466.46,200.36,Prunus amygdalus,False,SEGONA,C\ Mühlberg,5.39,27.2,5.89,2.73,0.495,1.41,1526,ok
+0321214AR,429680.13,4585462.61,200.98,Prunus amygdalus,False,SEGONA,C\ Mühlberg,5.67,25.5,5.7,2.43,0.419,1.74,1556,ok
+0321218AR,429604.92,4585523.28,188.7,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,PRIMERA,C\ Mühlberg,5.28,4.0,2.26,2.26,0.462,1.54,223,ok
+0321220AR,429621.7,4585515.06,190.52,Fraxinus angustifolia 'Raywood',False,PRIMERA,C\ Mühlberg,5.56,9.5,3.48,1.62,0.291,2.47,391,ok
+0321221AR,429628.92,4585510.68,191.5,Fraxinus angustifolia 'Raywood',False,PRIMERA,C\ Mühlberg,6.03,6.8,2.93,2.23,0.373,1.97,336,ok
+0321222AR,429636.15,4585506.25,192.57,Fraxinus angustifolia 'Raywood',False,PRIMERA,C\ Mühlberg,5.34,24.0,5.53,2.15,0.276,2.57,1192,ok
+0321223AR,429643.44,4585501.78,193.63,Fraxinus angustifolia 'Raywood',False,PRIMERA,C\ Mühlberg,7.49,53.5,8.25,2.5,0.298,2.42,2911,ok
+0321224AR,429650.72,4585497.39,194.75,Fraxinus angustifolia 'Raywood',False,PRIMERA,C\ Mühlberg,5.63,12.0,3.91,2.08,0.271,2.61,533,ok
+0321225AR,429658.0,4585493.0,195.87,Fraxinus angustifolia 'Raywood',False,PRIMERA,C\ Mühlberg,5.68,11.5,3.83,1.8,0.249,2.78,459,ok
+0321226AR,429665.27,4585488.54,197.01,Fraxinus angustifolia 'Raywood',False,PRIMERA,C\ Mühlberg,6.15,6.5,2.88,1.74,0.35,2.1,332,ok
+0321227AR,429672.52,4585484.14,198.12,Fraxinus angustifolia 'Raywood',False,PRIMERA,C\ Mühlberg,5.3,11.5,3.83,2.02,0.329,2.22,461,ok
+0321228AR,429680.56,4585480.61,199.41,Fraxinus angustifolia 'Raywood',False,PRIMERA,C\ Mühlberg,4.67,9.8,3.52,2.62,0.286,2.51,351,ok
+0321229AR,429689.25,4585480.08,201.04,Fraxinus angustifolia 'Raywood',False,PRIMERA,C\ Mühlberg,5.83,13.2,4.11,2.57,0.362,2.03,587,ok
+0321231AR,429662.96,4585475.24,197.72,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Mühlberg,3.75,3.0,1.95,2.49,0.611,0.98,130,ok
+0321232AR,429667.66,4585471.17,198.43,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Mühlberg,5.27,6.2,2.82,3.04,0.4,1.83,292,ok
+0321233AR,429672.16,4585466.83,199.15,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Mühlberg,4.38,5.5,2.65,2.63,0.447,1.61,234,ok
+0321234AR,429684.4,4585461.73,201.28,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Mühlberg,6.0,15.2,4.41,2.4,0.518,1.32,763,ok
+0321236AR,429710.67,4585499.66,206.12,Fraxinus angustifolia 'Raywood',False,PRIMERA,C\ Mühlberg,5.52,11.8,3.87,2.49,0.384,1.91,513,ok
+0321237AR,429717.81,4585508.0,207.11,Fraxinus angustifolia 'Raywood',False,PRIMERA,C\ Mühlberg,5.8,29.8,6.15,2.21,0.355,2.07,1363,ok
+0321238AR,429724.95,4585516.39,208.17,Fraxinus angustifolia 'Raywood',False,PRIMERA,C\ Mühlberg,5.34,7.2,3.04,2.74,0.484,1.45,357,ok
+0321241AR,429804.19,4585569.68,214.22,Fraxinus angustifolia 'Raywood',False,PRIMERA,C\ Mühlberg,5.6,9.0,3.39,2.59,0.5,1.39,443,ok
+0321242AR,429812.04,4585567.55,214.5,Fraxinus angustifolia 'Raywood',False,PRIMERA,C\ Mühlberg,4.75,3.8,2.19,2.94,0.447,1.61,197,ok
+0321244AR,429836.43,4585546.18,214.75,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,PRIMERA,C\ Mühlberg,4.6,4.8,2.46,3.13,0.387,1.9,219,ok
+0321245AR,429845.62,4585540.01,214.91,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,PRIMERA,C\ Mühlberg,4.91,6.2,2.82,2.74,0.295,2.44,293,ok
+0321246AR,429855.5,4585533.41,215.16,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,PRIMERA,C\ Mühlberg,5.58,15.0,4.37,2.2,0.391,1.88,561,ok
+0321247AR,429864.28,4585527.46,215.66,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,PRIMERA,C\ Mühlberg,4.35,19.2,4.95,2.22,0.377,1.95,661,ok
+0333503AR,429016.26,4585874.6,174.82,Styphnolobium japonicum,False,PRIMERA,C\ Llobregós,,0.0,0.0,,,,0,no_crown_detected
+0333504AR,429008.35,4585869.52,176.24,Styphnolobium japonicum,False,PRIMERA,C\ Llobregós,,0.0,0.0,,,,0,no_crown_detected
+0333505AR,429014.21,4585867.67,175.66,Styphnolobium japonicum,False,PRIMERA,C\ Llobregós,,0.0,0.0,,,,0,no_crown_detected
+0333506AR,429021.92,4585872.64,174.4,Styphnolobium japonicum,False,PRIMERA,C\ Llobregós,,0.0,0.0,,,,0,no_crown_detected

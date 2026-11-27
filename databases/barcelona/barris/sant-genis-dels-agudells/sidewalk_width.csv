@@ -1,0 +1,369 @@
+tree_id,species,is_plane,street,width_m,facade_dist_m,flag,strip_width_m,size_class,ray_x0,ray_y0,ray_x1,ray_y1,pit_min_m2,pit_basis
+0059716AR,Platanus × acerifolia,True,Av Jordà,3.55,2.67,ok,,medium,427960.39,4586513.24,427959.18,4586509.9,1.0,class
+0059718AR,Platanus × acerifolia,True,C\ Sinaí,,17.35,median,12.59,check,,,,,1.0,floor
+0059720AR,Cupressus sempervirens,False,C\ Natzaret,,16.39,median,7.77,check,,,,,1.0,floor
+0059721AR,Acer negundo,False,C\ Idumea,3.38,2.23,ok,,small,427980.67,4586516.53,427983.91,4586517.5,1.0,class
+0059722AR,Platanus × acerifolia,True,C\ Sinaí,10.19,8.87,ok,,large,427940.26,4586307.55,427946.29,4586299.34,1.5,class
+0059723AR,Styphnolobium japonicum,False,C\ Samaria,10.14,8.81,ok,,large,428062.03,4586091.87,428056.63,4586100.45,1.5,class
+0059724AR,Platanus × acerifolia,True,C\ Natzaret,,16.06,median,14.11,check,,,,,1.0,floor
+0059725AR,Platanus × acerifolia,True,C\ Sinaí,9.6,8.9,ok,,large,428063.88,4586265.28,428064.89,4586255.74,1.5,class
+0059726AR,Platanus × acerifolia,True,C\ Natzaret,,16.59,median,13.72,check,,,,,1.0,floor
+0059727AR,Styphnolobium japonicum,False,C\ Sinaí,,16.24,median,10.09,check,,,,,1.0,floor
+0059728AR,Platanus × acerifolia,True,Av Jordà,4.56,3.81,ok,,medium,427859.28,4586535.62,427862.74,4586538.59,1.0,class
+0059729AR,Styphnolobium japonicum,False,C\ Saldes,13.39,12.82,ok,,large,427821.55,4586739.48,427825.86,4586752.15,1.5,class
+0059731AR,Celtis sinensis,False,C\ Lledoner,2.95,2.42,ok,,small,428037.46,4586324.89,428037.44,4586321.94,1.0,class
+0059732AR,Citrus × aurantium,False,C\ Idumea,9.18,7.17,ok,,large,427914.06,4586569.24,427923.07,4586570.98,1.5,class
+0059733AR,Platanus × acerifolia,True,C\ Sinaí,10.83,9.82,ok,,large,428030.62,4586278.52,428031.82,4586267.76,1.5,class
+0059734AR,Platanus × acerifolia,True,C\ Sinaí,,15.48,median,,check,,,,,1.0,floor
+0059735AR,Celtis australis,False,C\ Can Figuerola,8.45,5.2,ok,,large,428048.18,4586203.97,428044.91,4586196.18,1.5,class
+0059741AR,Acer negundo,False,C\ Idumea,,7.49,no_kerb,11.11,check,,,,,1.0,floor
+0059745AR,Pinus halepensis,False,Av Jordà,16.35,5.5,ok,,large,427867.92,4586529.29,427883.91,4586525.91,1.5,class
+0059748AR,Aesculus hippocastanum,False,C\ Lledoner,13.09,3.81,ok,,large,427918.83,4586336.32,427929.34,4586344.11,1.5,class
+0059750AR,Platanus × acerifolia,True,C\ Sinaí,,13.8,median,19.11,check,,,,,1.0,floor
+0059751AR,Platanus × acerifolia,True,C\ Haifa,,11.68,median,6.14,check,,,,,1.0,floor
+0059754AR,Celtis sinensis,False,C\ Lledoner,2.78,2.13,ok,,small,428049.69,4586324.78,428049.66,4586322.0,1.0,class
+0059755AR,Platanus × acerifolia,True,Av Jordà,6.95,6.32,ok,,large,428053.67,4586484.18,428051.37,4586477.62,1.5,class
+0059757AR,Platanus × acerifolia,True,Av Jordà,,7.48,median,13.85,check,,,,,1.0,floor
+0059759AR,Styphnolobium japonicum,False,C\ Saldes,,20.63,median,,check,,,,,1.0,floor
+0059762AR,Platanus × acerifolia,True,Av Jordà,25.48,12.4,ok,,large,427879.52,4586557.62,427862.2,4586538.92,1.5,class
+0059763AR,Styphnolobium japonicum,False,C\ Idumea,18.16,7.52,ok,,large,427994.65,4586546.83,427988.63,4586529.7,1.5,class
+0059764AR,Styphnolobium japonicum,False,C\ Saldes,,17.84,median,,check,,,,,1.0,floor
+0059765AR,Styphnolobium japonicum,False,C\ Samaria,,15.62,median,19.32,check,,,,,1.0,floor
+0059767AR,Acer negundo,False,C\ Idumea,,14.21,median,9.08,check,,,,,1.0,floor
+0059768AR,Platanus × acerifolia,True,C\ Natzaret,,19.87,median,12.56,check,,,,,1.0,floor
+0059771AR,Platanus × acerifolia,True,Av Jordà,8.47,7.6,ok,,large,427894.69,4586548.45,427887.28,4586544.36,1.5,class
+0059773AR,Photinia x fraseri 'Red Robin',False,C\ Idumea,5.67,4.72,ok,,medium,427996.82,4586518.28,427991.46,4586520.15,1.0,class
+0059777AR,Platanus × acerifolia,True,Av Jordà,,16.02,median,2.5,check,,,,,1.0,floor
+0059782AR,Platanus × acerifolia,True,C\ Sinaí,,15.57,no_kerb,,check,,,,,1.0,floor
+0059783AR,Celtis sinensis,False,C\ Lledoner,,11.81,median,16.07,check,,,,,1.0,floor
+0059785AR,Acer campestre 'Pyramidale',False,C\ Lledoner,,2.97,median,14.06,check,,,,,1.0,floor
+0059786AR,Celtis sinensis,False,C\ Lledoner,,11.99,median,17.46,check,,,,,1.0,floor
+0059788AR,Acer negundo,False,C\ Idumea,3.4,2.33,ok,,small,427976.05,4586532.01,427979.31,4586532.97,1.0,class
+0059791AR,Acer saccharinum,False,C\ Jericó,,23.13,no_kerb,,check,,,,,1.0,floor
+0059793AR,Platanus × acerifolia,True,Av Jordà,,15.14,no_kerb,25.47,check,,,,,1.0,floor
+0059794AR,Platanus × acerifolia,True,Av Jordà,,31.69,no_facade,2.45,check,,,,,1.0,floor
+0059795AR,Brachychiton populneus,False,C\ Jericó,,16.61,median,,check,,,,,1.0,floor
+0059796AR,Platanus × acerifolia,True,Av Jordà,4.59,3.74,ok,,medium,428099.71,4586362.84,428104.21,4586361.96,1.0,class
+0059797AR,Styphnolobium japonicum,False,C\ Saldes,,13.71,median,,check,,,,,1.0,floor
+0059799AR,Aesculus hippocastanum,False,C\ Lledoner,10.94,6.78,ok,,large,427927.87,4586333.38,427929.11,4586344.25,1.5,class
+0059800AR,Platanus × acerifolia,True,C\ Natzaret,,17.15,median,13.18,check,,,,,1.0,floor
+0059803AR,Platanus × acerifolia,True,C\ Natzaret,9.76,8.56,ok,,large,427930.57,4586690.02,427938.36,4586684.14,1.5,class
+0059804AR,Platanus × acerifolia,True,Av Jordà,,16.17,median,2.57,check,,,,,1.0,floor
+0059805AR,Platanus × acerifolia,True,Av Jordà,3.02,2.45,ok,,small,428049.97,4586462.29,428050.98,4586465.13,1.0,class
+0059806AR,Platanus × acerifolia,True,Av Jordà,6.1,5.27,ok,,large,428092.61,4586386.4,428098.69,4586386.01,1.5,class
+0059807AR,Celtis sinensis,False,C\ Lledoner,,14.37,median,13.15,check,,,,,1.0,floor
+0059808AR,Platanus × acerifolia,True,Av Jordà,3.44,2.61,ok,,small,428018.28,4586492.88,428017.15,4586489.63,1.0,class
+0059811AR,Celtis sinensis,False,C\ Lledoner,8.64,7.68,ok,,large,427978.1,4586332.78,427978.03,4586324.14,1.5,class
+0059814AR,Platanus × acerifolia,True,Av Jordà,,15.9,median,2.5,check,,,,,1.0,floor
+0059815AR,Platanus × acerifolia,True,Av Jordà,,16.33,median,12.06,check,,,,,1.0,floor
+0059817AR,Styphnolobium japonicum,False,C\ Saldes,,18.12,median,,check,,,,,1.0,floor
+0059819AR,Platanus × acerifolia,True,C\ Sinaí,,14.05,median,4.45,check,,,,,1.0,floor
+0059820AR,Platanus × acerifolia,True,Av Jordà,3.99,3.17,ok,,medium,428143.34,4586328.79,428143.35,4586332.78,1.0,class
+0059821AR,Styphnolobium japonicum,False,Av Jordà,14.47,14.02,ok,,large,427912.8,4586500.75,427909.52,4586514.84,1.5,class
+0059822AR,Celtis sinensis,False,C\ Lledoner,,12.26,median,,check,,,,,1.0,floor
+0059823AR,Schinus molle,False,C\ Judea,18.05,5.94,ok,,large,428149.75,4586276.06,428143.67,4586259.07,1.5,class
+0059824AR,Platanus × acerifolia,True,C\ Sinaí,7.93,7.29,ok,,large,428024.86,4586277.88,428025.74,4586270.0,1.5,class
+0059825AR,Brachychiton populneus,False,C\ Jericó,,20.43,median,,check,,,,,1.0,floor
+0059826AR,Platanus × acerifolia,True,Av Jordà,3.55,2.74,ok,,medium,427939.8,4586520.66,427938.59,4586517.32,1.0,class
+0059827AR,Platanus × acerifolia,True,C\ Haifa,,11.75,median,6.04,check,,,,,1.0,floor
+0059829AR,Platanus × acerifolia,True,C\ Sinaí,,13.8,median,19.58,check,,,,,1.0,floor
+0059830AR,Platanus × acerifolia,True,C\ Judea,3.04,2.32,ok,,small,428161.4,4586251.02,428160.2,4586253.81,1.0,class
+0059831AR,Styphnolobium japonicum,False,C\ Saldes,,15.67,median,12.99,check,,,,,1.0,floor
+0059834AR,Liriodendron tulipifera,False,C\ Natzaret,15.18,15.95,ok,,large,428072.47,4585999.15,428085.69,4586006.62,1.5,class
+0059835AR,Styphnolobium japonicum,False,Av Jordà,20.93,18.31,ok,,large,427867.64,4586527.96,427888.11,4586523.64,1.5,class
+0059837AR,Platanus × acerifolia,True,C\ Natzaret,,15.81,median,,check,,,,,1.0,floor
+0059838AR,Platanus × acerifolia,True,C\ Natzaret,,15.77,median,,check,,,,,1.0,floor
+0059839AR,Celtis sinensis,False,C\ Lledoner,,11.7,median,15.42,check,,,,,1.0,floor
+0059840AR,Platanus × acerifolia,True,Av Jordà,,16.8,median,10.88,check,,,,,1.0,floor
+0059841AR,Platanus × acerifolia,True,C\ Sinaí,14.75,9.27,ok,,large,428088.92,4586232.9,428103.51,4586235.06,1.5,class
+0059843AR,Acer campestre 'Pyramidale',False,C\ Lledoner,,2.7,median,12.44,check,,,,,1.0,floor
+0059845AR,Platanus × acerifolia,True,Av Jordà,3.66,2.86,ok,,medium,428203.83,4586307.42,428205.05,4586310.87,1.0,class
+0059846AR,Styphnolobium japonicum,False,C\ Sinaí,11.65,11.08,ok,,large,428004.6,4586256.0,428001.56,4586267.25,1.5,class
+0059847AR,Ligustrum japonicum 'Texanum',False,C\ Idumea,3.34,2.66,ok,,small,427996.1,4586516.23,427992.98,4586515.02,1.0,class
+0059849AR,Platanus × acerifolia,True,C\ Sinaí,18.51,16.12,ok,,large,428117.44,4586252.62,428100.13,4586246.06,1.5,class
+0059850AR,Platanus × acerifolia,True,Av Jordà,17.89,16.7,ok,,large,428068.13,4586422.71,428084.99,4586416.72,1.5,class
+0059851AR,Styphnolobium japonicum,False,C\ Natzaret,16.03,14.88,ok,,large,428069.31,4586056.52,428054.26,4586062.04,1.5,class
+0059852AR,Ulmus pumila,False,C\ Jericó,6.68,5.25,ok,,large,428073.73,4585971.24,428067.23,4585969.73,1.5,class
+0059853AR,Platanus × acerifolia,True,Av Jordà,2.9,2.29,ok,,small,428035.74,4586467.31,428036.7,4586470.05,1.0,class
+0059855AR,Platanus × acerifolia,True,Av Jordà,3.55,2.74,ok,,medium,428171.51,4586318.83,428172.69,4586322.18,1.0,class
+0059858AR,Platanus × acerifolia,True,Av Jordà,10.9,10.02,ok,,large,428006.45,4586504.94,428002.84,4586494.65,1.5,class
+0059860AR,Platanus × acerifolia,True,C\ Haifa,2.91,2.51,ok,,small,428032.06,4586459.17,428029.33,4586460.16,1.0,class
+0059861AR,Platanus × acerifolia,True,Av Jordà,3.53,2.57,ok,,medium,428178.73,4586316.28,428179.91,4586319.61,1.0,class
+0059862AR,Celtis sinensis,False,C\ Lledoner,,11.87,median,17.58,check,,,,,1.0,floor
+0059864AR,Styphnolobium japonicum,False,C\ Natzaret,9.01,8.26,ok,,large,428059.08,4586076.76,428050.09,4586076.26,1.5,class
+0059865AR,Styphnolobium japonicum,False,C\ Saldes,,19.22,median,,check,,,,,1.0,floor
+0059866AR,Platanus × acerifolia,True,Av Jordà,3.61,2.79,ok,,medium,428197.74,4586309.57,428198.94,4586312.97,1.0,class
+0059867AR,Styphnolobium japonicum,False,C\ Samaria,16.32,14.4,ok,,large,428062.03,4586091.87,428060.41,4586108.1,1.5,class
+0059868AR,Styphnolobium japonicum,False,C\ Saldes,8.17,7.77,ok,,large,427847.62,4586695.56,427854.31,4586700.26,1.5,class
+0059869AR,Acer campestre 'Pyramidale',False,C\ Lledoner,2.88,2.24,ok,,small,428043.14,4586324.84,428043.11,4586321.95,1.0,class
+0059872AR,Platanus × acerifolia,True,C\ Sinaí,4.49,3.94,ok,,medium,428039.34,4586248.45,428040.65,4586252.74,1.0,class
+0059874AR,Platanus × acerifolia,True,C\ Sinaí,,14.84,median,,check,,,,,1.0,floor
+0059876AR,Acer negundo,False,C\ Idumea,8.54,6.43,ok,,large,427951.4,4586603.7,427959.5,4586601.0,1.5,class
+0059877AR,Platanus × acerifolia,True,C\ Natzaret,,16.47,median,,check,,,,,1.0,floor
+0059879AR,Acer negundo,False,C\ Jericó,,18.26,no_kerb,17.89,check,,,,,1.0,floor
+0059880AR,Ligustrum japonicum 'Texanum',False,C\ Idumea,3.4,2.22,ok,,small,427977.5,4586527.13,427980.76,4586528.1,1.0,class
+0059881AR,Celtis sinensis,False,C\ Lledoner,4.34,3.29,ok,,medium,428053.3,4586309.37,428052.52,4586313.64,1.0,class
+0059883AR,Styphnolobium japonicum,False,C\ Saldes,,15.68,median,,check,,,,,1.0,floor
+0059885AR,Styphnolobium japonicum,False,C\ Saldes,,12.62,median,,check,,,,,1.0,floor
+0059889AR,Platanus × acerifolia,True,C\ Judea,3.01,2.0,ok,,small,428167.51,4586253.65,428166.32,4586256.41,1.0,class
+0059890AR,Platanus × acerifolia,True,Av Jordà,3.0,2.34,ok,,small,428041.82,4586465.17,428042.82,4586467.99,1.0,class
+0059891AR,Pinus halepensis,False,C\ Naïm,,15.86,median,21.37,check,,,,,1.0,floor
+0059893AR,Platanus × acerifolia,True,Av Jordà,,16.13,median,9.11,check,,,,,1.0,floor
+0059894AR,Platanus × acerifolia,True,C\ Sinaí,,18.51,median,4.45,check,,,,,1.0,floor
+0059895AR,Platanus × acerifolia,True,Av Jordà,8.92,7.29,ok,,large,427913.73,4586531.97,427918.54,4586524.46,1.5,class
+0059899AR,Platanus × acerifolia,True,C\ Judea,3.1,2.35,ok,,small,428230.84,4586280.89,428229.61,4586283.73,1.0,class
+0059900AR,Platanus × acerifolia,True,Av Jordà,3.71,2.88,ok,,medium,428148.7,4586326.89,428149.93,4586330.39,1.0,class
+0059901AR,Platanus × acerifolia,True,Av Jordà,8.84,7.28,ok,,large,428025.11,4586490.48,428031.66,4586484.54,1.5,class
+0059903AR,Platanus × acerifolia,True,C\ Judea,10.59,8.73,ok,,large,428234.85,4586282.62,428242.91,4586289.48,1.5,class
+0059904AR,Brachychiton populneus,False,Ctra Sant Cugat,5.16,2.69,ok,,medium,428009.05,4585828.48,428007.03,4585823.74,1.0,class
+0059907AR,Photinia x fraseri 'Red Robin',False,C\ Idumea,,12.47,median,,check,,,,,1.0,floor
+0059908AR,Platanus × acerifolia,True,Av Jordà,3.71,3.02,ok,,medium,428072.56,4586435.19,428076.26,4586435.52,1.0,class
+0059909AR,Platanus × acerifolia,True,Av Jordà,,19.87,median,7.18,check,,,,,1.0,floor
+0059910AR,Platanus × acerifolia,True,Av Jordà,,14.47,median,,check,,,,,1.0,floor
+0059911AR,Celtis sinensis,False,C\ Lledoner,3.02,2.32,ok,,small,428030.85,4586324.95,428030.82,4586321.93,1.0,class
+0059913AR,Platanus × acerifolia,True,C\ Sinaí,11.99,11.12,ok,,large,428067.69,4586265.69,428069.94,4586253.91,1.5,class
+0059917AR,Platanus × acerifolia,True,C\ Sinaí,,14.02,no_kerb,7.81,check,,,,,1.0,floor
+0059918AR,Platanus × acerifolia,True,C\ Haifa,2.81,2.5,ok,,small,428034.53,4586465.97,428031.89,4586466.93,1.0,class
+0059919AR,Styphnolobium japonicum,False,C\ Natzaret,,15.73,median,,check,,,,,1.0,floor
+0059920AR,Platanus × acerifolia,True,C\ Natzaret,,24.36,median,11.83,check,,,,,1.0,floor
+0059921AR,Platanus × acerifolia,True,Av Jordà,4.12,3.17,ok,,medium,428066.84,4586476.56,428065.48,4586472.67,1.0,class
+0059924AR,Platanus × acerifolia,True,Av Jordà,3.55,2.68,ok,,medium,427972.62,4586508.84,427971.42,4586505.5,1.0,class
+0059926AR,Acer campestre 'Pyramidale',False,C\ Lledoner,,3.05,median,13.84,check,,,,,1.0,floor
+0059928AR,Ligustrum japonicum 'Texanum',False,C\ Idumea,3.4,2.57,ok,,small,427971.92,4586545.93,427975.18,4586546.9,1.0,class
+0059932AR,Platanus × acerifolia,True,C\ Sinaí,,11.04,median,,check,,,,,1.0,floor
+0059936AR,Celtis sinensis,False,C\ Lledoner,,11.76,median,11.7,check,,,,,1.0,floor
+0059937AR,Aesculus hippocastanum,False,C\ Lledoner,18.71,2.27,ok,,large,427927.87,4586333.38,427919.45,4586350.09,1.5,class
+0059941AR,Cupressus sempervirens,False,C\ Saldes,3.09,0.93,ok,,small,427821.01,4586597.18,427824.08,4586597.51,1.0,class
+0059946AR,Platanus × acerifolia,True,Av Jordà,10.84,10.19,ok,,large,427918.32,4586502.03,427915.86,4586512.59,1.5,class
+0059947AR,Photinia x fraseri 'Red Robin',False,C\ Idumea,2.56,1.89,ok,,small,427942.94,4586588.95,427945.37,4586588.14,1.0,class
+0059951AR,Brachychiton populneus,False,Ctra Sant Cugat,5.1,2.98,ok,,medium,428000.13,4585832.28,427998.13,4585827.59,1.0,class
+0059952AR,Celtis sinensis,False,C\ Lledoner,2.7,2.14,ok,,small,428056.37,4586324.72,428056.75,4586322.04,1.0,class
+0059953AR,Olea europaea,False,Av Jordà,,15.93,median,8.67,check,,,,,1.0,floor
+0059956AR,Acer campestre 'Pyramidale',False,C\ Lledoner,,3.15,median,13.2,check,,,,,1.0,floor
+0059958AR,Celtis sinensis,False,C\ Lledoner,3.87,2.57,ok,,medium,427951.6,4586344.49,427949.4,4586341.31,1.0,class
+0059959AR,Platanus × acerifolia,True,Av Jordà,,18.73,median,,check,,,,,1.0,floor
+0059962AR,Platanus × acerifolia,True,Av Jordà,9.97,8.63,ok,,large,428099.71,4586362.84,428106.85,4586355.88,1.5,class
+0059963AR,Platanus × acerifolia,True,C\ Judea,3.05,2.27,ok,,small,428142.11,4586242.73,428140.9,4586245.54,1.0,class
+0059964AR,Styphnolobium japonicum,False,C\ Saldes,11.09,10.58,ok,,large,427847.44,4586695.82,427851.93,4586705.96,1.5,class
+0059965AR,Styphnolobium japonicum,False,C\ Natzaret,10.29,9.7,ok,,large,428081.17,4586035.57,428072.21,4586030.5,1.5,class
+0059967AR,Platanus × acerifolia,True,Av Jordà,5.03,4.26,ok,,medium,428100.53,4586370.7,428105.53,4586370.18,1.0,class
+0059968AR,Platanus × acerifolia,True,Av Jordà,4.41,3.97,ok,,medium,427926.88,4586504.03,427927.99,4586508.29,1.0,class
+0059969AR,Celtis australis,False,C\ Jericó,,8.79,no_kerb,20.83,check,,,,,1.0,floor
+0059970AR,Platanus × acerifolia,True,Av Jordà,3.02,2.43,ok,,small,428056.85,4586459.86,428057.86,4586462.71,1.0,class
+0059973AR,Acer negundo,False,C\ Idumea,,11.3,no_kerb,10.16,check,,,,,1.0,floor
+0059975AR,Platanus × acerifolia,True,C\ Natzaret,,16.4,median,,check,,,,,1.0,floor
+0059976AR,Platanus × acerifolia,True,Av Jordà,12.88,12.01,ok,,large,428034.37,4586495.02,428037.45,4586482.51,1.5,class
+0059978AR,Platanus × acerifolia,True,Av Jordà,3.65,2.78,ok,,medium,427980.33,4586506.06,427979.92,4586502.44,1.0,class
+0059981AR,Styphnolobium japonicum,False,C\ Samaria,,17.01,median,4.0,check,,,,,1.0,floor
+0059982AR,Platanus × acerifolia,True,C\ Haifa,,11.58,median,5.97,check,,,,,1.0,floor
+0059985AR,Platanus × acerifolia,True,C\ Sinaí,,15.61,median,2.5,check,,,,,1.0,floor
+0059986AR,Styphnolobium japonicum,False,C\ Natzaret,10.33,9.5,ok,,large,428085.92,4586027.17,428076.93,4586022.08,1.5,class
+0059987AR,Platanus × acerifolia,True,Av Jordà,15.66,13.24,ok,,large,427926.88,4586504.03,427942.51,4586503.14,1.5,class
+0059988AR,Ligustrum japonicum 'Texanum',False,C\ Idumea,,10.6,median,,check,,,,,1.0,floor
+0059989AR,Platanus × acerifolia,True,C\ Judea,3.05,2.19,ok,,small,428206.77,4586270.53,428205.56,4586273.33,1.0,class
+0059990AR,Styphnolobium japonicum,False,C\ Samaria,7.8,6.51,ok,,large,428059.14,4586088.35,428053.09,4586093.28,1.5,class
+0059991AR,Platanus × acerifolia,True,Av Jordà,,28.25,median,3.34,check,,,,,1.0,floor
+0059992AR,Platanus × acerifolia,True,Av Jordà,,10.92,median,14.21,check,,,,,1.0,floor
+0059993AR,Platanus × acerifolia,True,C\ Sinaí,,14.02,median,,check,,,,,1.0,floor
+0059995AR,Celtis sinensis,False,C\ Lledoner,,11.83,median,,check,,,,,1.0,floor
+0059996AR,Cupressus sempervirens,False,C\ Saldes,,4.49,median,,check,,,,,1.0,floor
+0059997AR,Platanus × acerifolia,True,C\ Haifa,3.03,2.4,ok,,small,428022.47,4586432.77,428019.62,4586433.8,1.0,class
+0059998AR,Platanus × acerifolia,True,C\ Sinaí,4.04,3.23,ok,,medium,427960.37,4586297.87,427957.25,4586295.29,1.0,class
+0059999AR,Celtis sinensis,False,C\ Lledoner,,12.44,median,29.51,check,,,,,1.0,floor
+0060000AR,Styphnolobium japonicum,False,C\ Saldes,5.97,5.38,ok,,medium,427841.7,4586713.74,427847.22,4586716.01,1.0,class
+0060004AR,Styphnolobium japonicum,False,C\ Judea,2.99,2.38,ok,,small,428181.77,4586259.78,428180.59,4586262.53,1.0,class
+0060006AR,Ulmus pumila,False,C\ Jericó,,7.59,no_kerb,23.53,check,,,,,1.0,floor
+0060007AR,Styphnolobium japonicum,False,C\ Natzaret,11.49,10.7,ok,,large,428088.14,4586023.24,428081.57,4586013.82,1.5,class
+0060008AR,Acer negundo,False,C\ Idumea,3.39,2.22,ok,,small,427979.03,4586522.01,427982.28,4586522.99,1.0,class
+0060009AR,Platanus × acerifolia,True,Av Jordà,5.65,4.6,ok,,medium,427913.73,4586531.97,427910.59,4586527.28,1.0,class
+0060010AR,Platanus × acerifolia,True,Av Jordà,23.01,18.23,ok,,large,428099.71,4586362.84,428112.44,4586343.68,1.5,class
+0060011AR,Platanus × acerifolia,True,C\ Natzaret,,17.24,median,13.23,check,,,,,1.0,floor
+0060012AR,Styphnolobium japonicum,False,C\ Saldes,,18.79,median,18.09,check,,,,,1.0,floor
+0060013AR,Pinus pinea,False,C\ Lledoner,,9.56,median,13.03,check,,,,,1.0,floor
+0060015AR,Cupressus sempervirens,False,C\ Saldes,,4.31,median,,check,,,,,1.0,floor
+0060017AR,Platanus × acerifolia,True,Av Jordà,7.46,6.91,ok,,large,427923.47,4586503.23,427921.77,4586510.5,1.5,class
+0060018AR,Styphnolobium japonicum,False,C\ Samaria,,23.79,median,20.54,check,,,,,1.0,floor
+0060020AR,Acer negundo,False,C\ Idumea,3.7,2.97,ok,,medium,427966.76,4586562.99,427969.75,4586565.17,1.0,class
+0060022AR,Styphnolobium japonicum,False,C\ Saldes,,7.23,no_kerb,,check,,,,,1.0,floor
+0060023AR,Platanus × acerifolia,True,C\ Judea,3.02,2.32,ok,,small,428193.69,4586264.9,428192.5,4586267.68,1.0,class
+0060024AR,Styphnolobium japonicum,False,C\ Saldes,,13.64,median,,check,,,,,1.0,floor
+0060025AR,Acer negundo,False,C\ Idumea,4.78,3.93,ok,,medium,427947.64,4586597.8,427952.17,4586596.28,1.0,class
+0060026AR,Platanus × acerifolia,True,C\ Haifa,,11.55,median,5.85,check,,,,,1.0,floor
+0060027AR,Platanus × acerifolia,True,Av Jordà,3.63,2.83,ok,,medium,428155.77,4586324.4,428156.98,4586327.82,1.0,class
+0060028AR,Platanus × acerifolia,True,Av Jordà,4.07,3.43,ok,,medium,428025.11,4586490.48,428026.02,4586486.52,1.0,class
+0060033AR,Celtis sinensis,False,C\ Lledoner,,14.42,median,13.33,check,,,,,1.0,floor
+0060034AR,Ligustrum japonicum 'Texanum',False,C\ Idumea,7.18,6.3,ok,,large,427937.09,4586567.36,427932.13,4586572.56,1.5,class
+0060035AR,Photinia x fraseri 'Red Robin',False,C\ Idumea,,13.79,median,,check,,,,,1.0,floor
+0060036AR,Celtis sinensis,False,C\ Lledoner,3.04,2.4,ok,,small,428012.32,4586324.95,428012.32,4586321.91,1.0,class
+0060038AR,Styphnolobium japonicum,False,C\ Saldes,,19.52,median,,check,,,,,1.0,floor
+0060041AR,Platanus × acerifolia,True,C\ Sinaí,5.31,4.72,ok,,medium,428019.68,4586277.3,428020.27,4586272.02,1.0,class
+0060042AR,Platanus × acerifolia,True,Av Jordà,6.93,5.27,ok,,large,428017.49,4586493.15,428010.68,4586491.9,1.5,class
+0060043AR,Platanus × acerifolia,True,Av Jordà,4.12,3.46,ok,,medium,428072.76,4586474.48,428071.4,4586470.59,1.0,class
+0060045AR,Platanus × acerifolia,True,C\ Natzaret,,16.93,median,,check,,,,,1.0,floor
+0060046AR,Celtis australis,False,C\ Jericó,,18.99,no_kerb,17.85,check,,,,,1.0,floor
+0060047AR,Platanus × acerifolia,True,C\ Sinaí,4.18,3.26,ok,,medium,428088.92,4586232.9,428092.34,4586235.3,1.0,class
+0060049AR,Platanus × acerifolia,True,Av Jordà,3.58,2.7,ok,,medium,428162.86,4586321.89,428164.05,4586325.26,1.0,class
+0060051AR,Celtis sinensis,False,C\ Lledoner,,8.88,median,8.54,check,,,,,1.0,floor
+0060055AR,Celtis sinensis,False,C\ Lledoner,10.13,8.69,ok,,large,427991.5,4586324.97,427981.58,4586322.95,1.5,class
+0060056AR,Aesculus hippocastanum,False,C\ Lledoner,10.28,3.34,ok,,large,427875.89,4586366.84,427868.62,4586374.11,1.5,class
+0060057AR,Platanus × acerifolia,True,Av Jordà,26.35,8.59,ok,,large,427888.14,4586553.06,427869.49,4586534.45,1.5,class
+0060059AR,Platanus × acerifolia,True,Av Jordà,,6.12,median,3.15,check,,,,,1.0,floor
+0060061AR,Styphnolobium japonicum,False,C\ Saldes,,16.76,median,,check,,,,,1.0,floor
+0060062AR,Platanus × acerifolia,True,Av Jordà,,34.87,no_facade,2.41,check,,,,,1.0,floor
+0060063AR,Platanus × acerifolia,True,C\ Judea,3.03,2.51,ok,,small,428200.09,4586267.66,428198.89,4586270.44,1.0,class
+0060067AR,Platanus × acerifolia,True,Av Jordà,3.57,3.08,ok,,medium,428062.69,4586457.8,428065.77,4586459.61,1.0,class
+0060068AR,Platanus × acerifolia,True,C\ Judea,3.68,2.88,ok,,medium,428234.85,4586282.62,428235.44,4586286.25,1.0,class
+0060069AR,Platanus × acerifolia,True,C\ Natzaret,8.39,7.49,ok,,large,427939.65,4586702.04,427946.35,4586696.98,1.5,class
+0060071AR,Styphnolobium japonicum,False,C\ Sinaí,2.48,1.79,ok,,none,428014.66,4586276.74,428013.72,4586274.44,1.0,floor
+0060072AR,Brachychiton populneus,False,Ctra Sant Cugat,5.13,2.98,ok,,medium,427991.42,4585836.09,427989.34,4585831.41,1.0,class
+0060073AR,Platanus × acerifolia,True,C\ Sinaí,8.01,7.46,ok,,large,428009.7,4586256.65,428008.7,4586264.6,1.5,class
+0060075AR,Platanus × acerifolia,True,C\ Sinaí,2.56,1.88,ok,,small,427964.86,4586295.21,427963.97,4586292.81,1.0,class
+0060076AR,Platanus × acerifolia,True,Av Jordà,,28.14,median,25.6,check,,,,,1.0,floor
+0060077AR,Platanus × acerifolia,True,Av Jordà,7.62,6.66,ok,,large,427907.17,4586538.87,427899.77,4586537.02,1.5,class
+0060078AR,Styphnolobium japonicum,False,C\ Saldes,,8.43,no_kerb,,check,,,,,1.0,floor
+0060080AR,Styphnolobium japonicum,False,C\ Saldes,,21.95,median,,check,,,,,1.0,floor
+0060081AR,Platanus × acerifolia,True,Av Jordà,25.54,7.09,ok,,large,427896.15,4586547.95,427887.78,4586523.82,1.5,class
+0060082AR,Platanus × acerifolia,True,C\ Natzaret,9.12,8.3,ok,,large,427935.21,4586696.16,427942.49,4586690.66,1.5,class
+0060083AR,Celtis sinensis,False,C\ Lledoner,2.99,2.13,ok,,small,427996.51,4586324.94,427996.51,4586321.95,1.0,class
+0060085AR,Styphnolobium japonicum,False,C\ Natzaret,14.15,12.68,ok,,large,427953.42,4586720.27,427965.29,4586727.98,1.5,class
+0060087AR,Ligustrum japonicum 'Texanum',False,C\ Idumea,9.48,8.37,ok,,large,427962.52,4586567.45,427964.3,4586576.76,1.5,class
+0060088AR,Platanus × acerifolia,True,C\ Sinaí,,14.29,median,,check,,,,,1.0,floor
+0060090AR,Platanus × acerifolia,True,Av Jordà,,16.09,median,2.5,check,,,,,1.0,floor
+0060091AR,Celtis australis,False,C\ Jericó,,8.65,no_kerb,,check,,,,,1.0,floor
+0060095AR,Pinus pinea,False,C\ Lledoner,,10.69,median,13.41,check,,,,,1.0,floor
+0060097AR,Photinia x fraseri 'Red Robin',False,C\ Idumea,10.0,7.66,ok,,large,428003.56,4586570.93,428002.48,4586580.87,1.5,class
+0060100AR,Ligustrum japonicum 'Texanum',False,C\ Idumea,12.81,11.88,ok,,large,427962.52,4586567.45,427958.93,4586579.76,1.5,class
+0060101AR,Acer negundo,False,C\ Idumea,4.42,2.85,ok,,medium,427993.27,4586547.32,427991.8,4586543.15,1.0,class
+0060102AR,Platanus × acerifolia,True,Av Jordà,5.45,4.79,ok,,medium,428059.64,4586480.5,428057.84,4586475.35,1.0,class
+0060103AR,Styphnolobium japonicum,False,Av Jordà,,19.16,median,2.61,check,,,,,1.0,floor
+0060104AR,Brachychiton populneus,False,C\ Jericó,,31.67,no_facade,,check,,,,,1.0,floor
+0060105AR,Platanus × acerifolia,True,Av Jordà,,33.68,no_facade,2.37,check,,,,,1.0,floor
+0060107AR,Platanus × acerifolia,True,C\ Natzaret,10.19,9.3,ok,,large,427926.6,4586684.76,427934.72,4586678.62,1.5,class
+0060110AR,Platanus × acerifolia,True,C\ Natzaret,6.98,6.09,ok,,large,427948.29,4586713.48,427953.86,4586709.27,1.5,class
+0060114AR,Platanus × acerifolia,True,C\ Sinaí,2.56,1.92,ok,,small,427979.21,4586289.91,427978.32,4586287.52,1.0,class
+0060116AR,Liriodendron tulipifera,False,C\ Natzaret,10.36,9.55,ok,,large,428072.17,4586051.48,428063.15,4586046.37,1.5,class
+0060117AR,Celtis australis,False,C\ Jericó,,14.12,no_kerb,18.23,check,,,,,1.0,floor
+0060118AR,Platanus × acerifolia,True,Av Jordà,3.55,2.81,ok,,medium,427966.55,4586511.02,427965.35,4586507.68,1.0,class
+0060119AR,Platanus × acerifolia,True,C\ Sinaí,2.43,1.98,ok,,none,428019.95,4586257.94,428021.45,4586259.86,1.0,floor
+0060120AR,Platanus × acerifolia,True,Av Jordà,,14.92,median,13.13,check,,,,,1.0,floor
+0060121AR,Photinia x fraseri,False,C\ Idumea,5.0,3.95,ok,,medium,427951.09,4586602.79,427954.74,4586599.36,1.0,class
+0060123AR,Platanus × acerifolia,True,Av Jordà,5.33,4.6,ok,,medium,427930.21,4586525.87,427927.49,4586521.29,1.0,class
+0060124AR,Styphnolobium japonicum,False,C\ Saldes,9.91,9.38,ok,,large,427827.88,4586730.03,427835.31,4586736.59,1.5,class
+0060131AR,Brachychiton populneus,False,C\ Jericó,,13.19,median,,check,,,,,1.0,floor
+0060133AR,Platanus × acerifolia,True,C\ Sinaí,2.56,1.75,ok,,small,427971.25,4586292.85,427970.36,4586290.46,1.0,class
+0060134AR,Styphnolobium japonicum,False,C\ Saldes,8.98,8.35,ok,,large,427841.7,4586713.74,427849.96,4586710.2,1.5,class
+0060137AR,Platanus × acerifolia,True,C\ Judea,3.06,2.37,ok,,small,428156.21,4586248.8,428155.01,4586251.61,1.0,class
+0060141AR,Brachychiton populneus,False,Ctra Sant Cugat,5.19,2.21,ok,,medium,427982.07,4585840.25,427979.96,4585835.51,1.0,class
+0060142AR,Pinus halepensis,False,C\ Garriguella,7.52,1.92,ok,,large,427479.4,4585971.69,427480.59,4585979.12,1.5,class
+0060144AR,Brachychiton populneus,False,Pg Vall d'Hebron,24.18,21.08,ok,,large,428109.85,4585759.81,428125.27,4585778.44,1.5,class
+0060146AR,Styphnolobium japonicum,False,C\ Saldes,,14.63,median,18.25,check,,,,,1.0,floor
+0060147AR,Platanus × acerifolia,True,C\ Haifa,2.99,2.41,ok,,small,428027.3,4586446.07,428024.49,4586447.09,1.0,class
+0060148AR,Platanus × acerifolia,True,Av Jordà,6.92,6.04,ok,,large,428062.04,4586455.97,428068.56,4586453.67,1.5,class
+0060149AR,Platanus × acerifolia,True,C\ Haifa,,11.59,median,6.02,check,,,,,1.0,floor
+0060150AR,Platanus × acerifolia,True,C\ Haifa,3.04,2.35,ok,,small,428020.27,4586426.72,428017.41,4586427.76,1.0,class
+0060151AR,Styphnolobium japonicum,False,C\ Sinaí,9.41,8.14,ok,,large,428020.23,4586255.69,428029.56,4586256.85,1.5,class
+0060152AR,Styphnolobium japonicum,False,C\ Saldes,,15.62,median,25.48,check,,,,,1.0,floor
+0060153AR,Styphnolobium japonicum,False,C\ Saldes,,25.06,median,2.91,check,,,,,1.0,floor
+0060154AR,Liriodendron tulipifera,False,C\ Saldes,16.44,6.48,ok,,large,427840.36,4586590.56,427830.14,4586603.44,1.5,class
+0060155AR,Platanus × acerifolia,True,C\ Sinaí,6.17,5.63,ok,,large,428056.85,4586264.54,428057.5,4586258.41,1.5,class
+0060156AR,Platanus × acerifolia,True,C\ Natzaret,7.68,6.83,ok,,large,427944.01,4586707.81,427950.14,4586703.18,1.5,class
+0060158AR,Styphnolobium japonicum,False,Av Jordà,,22.12,median,,check,,,,,1.0,floor
+0060159AR,Platanus × acerifolia,True,C\ Natzaret,,15.96,median,,check,,,,,1.0,floor
+0060160AR,Styphnolobium japonicum,False,C\ Natzaret,7.16,5.99,ok,,large,428057.26,4586082.4,428050.44,4586084.55,1.5,class
+0060161AR,Platanus × acerifolia,True,Av Jordà,3.55,2.68,ok,,medium,427954.24,4586515.46,427953.03,4586512.12,1.0,class
+0060164AR,Platanus × acerifolia,True,Av Jordà,3.54,2.51,ok,,medium,428185.8,4586313.78,428186.98,4586317.12,1.0,class
+0060168AR,Platanus × acerifolia,True,C\ Sinaí,2.55,1.87,ok,,small,427985.6,4586287.55,427984.71,4586285.16,1.0,class
+0060172AR,Platanus × acerifolia,True,C\ Judea,3.08,2.41,ok,,small,428219.07,4586275.82,428217.85,4586278.65,1.0,class
+0060175AR,Acer negundo,False,C\ Idumea,3.4,2.53,ok,,small,427973.68,4586539.98,427976.94,4586540.95,1.0,class
+0060177AR,Celtis sinensis,False,C\ Lledoner,,12.06,median,22.93,check,,,,,1.0,floor
+0060178AR,Platanus × acerifolia,True,Av Jordà,,19.84,no_kerb,,check,,,,,1.0,floor
+0060179AR,Platanus × acerifolia,True,Av Jordà,5.02,4.25,ok,,medium,428090.48,4586392.1,428094.95,4586394.39,1.0,class
+0060183AR,Platanus × acerifolia,True,Av Jordà,13.13,11.86,ok,,large,428069.75,4586427.28,428082.12,4586422.89,1.5,class
+0060185AR,Acer negundo,False,C\ Idumea,4.96,3.72,ok,,medium,427992.79,4586586.76,427996.28,4586583.24,1.0,class
+0060186AR,Styphnolobium japonicum,False,C\ Natzaret,10.85,10.03,ok,,large,428069.31,4586056.52,428058.69,4586054.31,1.5,class
+0060187AR,Platanus × acerifolia,True,C\ Sinaí,,13.85,median,15.74,check,,,,,1.0,floor
+0060188AR,Acer negundo,False,C\ Idumea,5.71,3.82,ok,,medium,428003.56,4586570.93,427999.81,4586575.23,1.0,class
+0060189AR,Photinia x fraseri 'Red Robin',False,C\ Idumea,6.9,6.02,ok,,large,427962.73,4586567.23,427967.73,4586571.99,1.5,class
+0060191AR,Styphnolobium japonicum,False,C\ Samaria,,31.9,no_facade,4.01,check,,,,,1.0,floor
+0060192AR,Brachychiton populneus,False,Ctra Sant Cugat,5.18,2.64,ok,,medium,427973.24,4585844.16,427971.14,4585839.43,1.0,class
+0060194AR,Styphnolobium japonicum,False,C\ Natzaret,11.43,10.49,ok,,large,428059.08,4586076.76,428051.74,4586068.01,1.5,class
+0060196AR,Platanus × acerifolia,True,C\ Sinaí,,14.05,median,3.59,check,,,,,1.0,floor
+0060197AR,Platanus × acerifolia,True,Av Jordà,,21.16,median,3.38,check,,,,,1.0,floor
+0060198AR,Platanus × acerifolia,True,C\ Judea,2.97,2.11,ok,,small,428175.36,4586257.03,428174.19,4586259.76,1.0,class
+0060199AR,Olea europaea,False,C\ Saldes,,5.74,no_kerb,,check,,,,,1.0,floor
+0060200AR,Photinia x fraseri 'Red Robin',False,C\ Idumea,,8.85,median,,check,,,,,1.0,floor
+0060203AR,Ligustrum japonicum 'Texanum',False,C\ Idumea,,10.18,median,29.85,check,,,,,1.0,floor
+0060205AR,Ligustrum japonicum 'Texanum',False,C\ Idumea,8.79,7.95,ok,,large,427933.08,4586563.54,427927.02,4586569.91,1.5,class
+0060207AR,Platanus × acerifolia,True,C\ Sinaí,,13.75,median,,check,,,,,1.0,floor
+0060209AR,Styphnolobium japonicum,False,Av Jordà,,23.89,median,26.75,check,,,,,1.0,floor
+0060210AR,Platanus × acerifolia,True,Av Jordà,7.98,6.99,ok,,large,427926.88,4586504.03,427934.63,4586505.94,1.5,class
+0060211AR,Acer negundo,False,C\ Idumea,8.0,6.87,ok,,large,427940.4,4586570.51,427943.03,4586578.05,1.5,class
+0060214AR,Platanus × acerifolia,True,Av Jordà,,28.74,median,,check,,,,,1.0,floor
+0060216AR,Platanus × acerifolia,True,C\ Haifa,3.01,2.51,ok,,small,428024.72,4586438.97,428021.89,4586440.0,1.0,class
+0060217AR,Platanus × acerifolia,True,C\ Haifa,4.03,3.26,ok,,medium,428028.97,4586450.65,428027.09,4586454.21,1.0,class
+0060218AR,Platanus × acerifolia,True,C\ Sinaí,5.46,3.74,ok,,medium,427991.3,4586285.45,427994.95,4586281.38,1.0,class
+0060220AR,Styphnolobium japonicum,False,C\ Natzaret,10.32,9.55,ok,,large,428076.83,4586043.23,428067.86,4586038.14,1.5,class
+0060221AR,Celtis sinensis,False,C\ Lledoner,5.8,4.64,ok,,medium,427973.85,4586332.83,427973.16,4586327.07,1.0,class
+0060224AR,Platanus × acerifolia,True,C\ Judea,3.09,2.43,ok,,small,428225.71,4586278.67,428224.49,4586281.51,1.0,class
+0060225AR,Styphnolobium japonicum,False,C\ Saldes,7.2,6.55,ok,,large,427836.86,4586720.83,427841.16,4586726.61,1.5,class
+0060226AR,Platanus × acerifolia,True,Av Jordà,,23.73,median,,check,,,,,1.0,floor
+0060227AR,Platanus × acerifolia,True,Av Jordà,,15.76,median,2.5,check,,,,,1.0,floor
+0060228AR,Acer negundo,False,C\ Jericó,,13.49,no_kerb,18.28,check,,,,,1.0,floor
+0060229AR,Styphnolobium japonicum,False,C\ Saldes,,13.94,median,,check,,,,,1.0,floor
+0060230AR,Acer campestre 'Pyramidale',False,C\ Lledoner,,2.96,median,13.02,check,,,,,1.0,floor
+0060231AR,Platanus × acerifolia,True,C\ Judea,3.0,2.36,ok,,small,428187.67,4586262.32,428186.49,4586265.08,1.0,class
+0060232AR,Platanus × acerifolia,True,C\ Sinaí,8.29,6.76,ok,,large,428070.0,4586239.89,428062.97,4586244.28,1.5,class
+0060233AR,Platanus × acerifolia,True,C\ Natzaret,6.28,5.27,ok,,large,427952.55,4586719.11,427957.56,4586715.32,1.5,class
+0060235AR,Celtis sinensis,False,C\ Lledoner,4.04,2.99,ok,,medium,427991.5,4586324.97,427988.79,4586321.98,1.0,class
+0060236AR,Ligustrum japonicum 'Texanum',False,C\ Idumea,7.04,5.93,ok,,large,427997.02,4586515.9,427994.69,4586509.26,1.5,class
+0060238AR,Styphnolobium japonicum,False,C\ Saldes,10.58,10.09,ok,,large,427821.55,4586739.48,427828.9,4586747.09,1.5,class
+0060239AR,Styphnolobium japonicum,False,C\ Saldes,,15.07,median,,check,,,,,1.0,floor
+0060241AR,Ligustrum japonicum 'Texanum',False,C\ Idumea,6.1,5.42,ok,,large,427940.4,4586570.51,427936.61,4586575.28,1.5,class
+0060243AR,Styphnolobium japonicum,False,C\ Samaria,,25.81,median,4.0,check,,,,,1.0,floor
+0060244AR,Platanus × acerifolia,True,Av Jordà,10.07,7.78,ok,,large,428143.34,4586328.79,428135.68,4586335.33,1.5,class
+0060246AR,Platanus × acerifolia,True,C\ Sinaí,14.35,10.13,ok,,large,427991.3,4586285.45,428003.66,4586278.16,1.5,class
+0060247AR,Styphnolobium japonicum,False,C\ Saldes,,16.83,median,,check,,,,,1.0,floor
+0060248AR,Celtis sinensis,False,C\ Lledoner,,13.6,median,,check,,,,,1.0,floor
+0060249AR,Styphnolobium japonicum,False,C\ Samaria,,20.44,median,4.0,check,,,,,1.0,floor
+0060250AR,Platanus × acerifolia,True,Av Jordà,8.34,7.3,ok,,large,428071.38,4586431.87,428079.24,4586429.08,1.5,class
+0060253AR,Platanus × acerifolia,True,C\ Judea,3.08,2.36,ok,,small,428148.51,4586245.48,428147.3,4586248.31,1.0,class
+0060254AR,Styphnolobium japonicum,False,C\ Saldes,,19.55,median,25.29,check,,,,,1.0,floor
+0060256AR,Platanus × acerifolia,True,C\ Sinaí,9.6,7.9,ok,,large,428014.43,4586278.77,428004.9,4586277.7,1.5,class
+0266610AR,Pinus pinea,False,C\ Idumea,,4.29,no_kerb,,check,,,,,1.0,floor
+0266632AR,Cupressus sempervirens,False,Ctra Sant Cugat,,30.22,no_facade,,check,,,,,1.0,floor
+0266660AR,Cupressus sempervirens,False,Ctra Sant Cugat,27.22,23.44,ok,,large,427981.65,4585882.55,427954.58,4585885.45,1.5,class
+0266843AR,Cupressus sempervirens,False,Ctra Sant Cugat,27.47,23.99,ok,,large,427971.93,4585846.7,427946.82,4585857.84,1.5,class
+0266891AR,Cupressus sempervirens,False,Ctra Sant Cugat,14.46,10.74,ok,,large,427997.08,4585892.8,427992.49,4585906.51,1.5,class
+0266898AR,Cupressus sempervirens,False,Ctra Sant Cugat,,31.04,no_facade,,check,,,,,1.0,floor
+0266908AR,Cupressus sempervirens,False,Ctra Sant Cugat,,30.22,no_facade,,check,,,,,1.0,floor
+0266912AR,Cupressus sempervirens,False,Ctra Sant Cugat,23.27,18.58,ok,,large,427971.2,4585845.07,427949.4,4585853.21,1.5,class
+0266928AR,Cupressus sempervirens,False,Ctra Sant Cugat,,32.29,no_facade,,check,,,,,1.0,floor
+0266985AR,Cupressus sempervirens,False,Ctra Sant Cugat,,32.45,no_facade,,check,,,,,1.0,floor
+0267016AR,Cupressus sempervirens,False,Ctra Sant Cugat,25.31,21.04,ok,,large,427971.2,4585845.07,427948.06,4585855.31,1.5,class
+0267058AR,Cupressus sempervirens,False,Ctra Sant Cugat,,31.25,no_facade,,check,,,,,1.0,floor
+0267091AR,Cupressus sempervirens,False,Ctra Sant Cugat,,31.49,no_facade,,check,,,,,1.0,floor
+0267099AR,Cupressus sempervirens,False,Ctra Sant Cugat,29.97,26.98,ok,,large,427973.06,4585849.25,427945.67,4585861.41,1.5,class
+0267127AR,Cupressus sempervirens,False,Ctra Sant Cugat,13.43,7.22,ok,,large,427971.2,4585845.07,427957.78,4585845.63,1.5,class
+0286868AR,Acer campestre 'Pyramidale',False,C\ Lledoner,,3.02,median,13.25,check,,,,,1.0,floor
+0288845AR,Prunus serrulata 'Kanzan',False,Av Elies Pagès,7.67,6.61,ok,,large,427584.57,4586747.85,427582.21,4586740.55,1.5,class
+0288849AR,Prunus cerasifera 'Pissardii',False,Av Elies Pagès,,8.37,median,,check,,,,,1.0,floor
+0288850AR,Prunus serrulata 'Kanzan',False,Av Elies Pagès,5.77,5.05,ok,,medium,427575.3,4586666.57,427572.9,4586671.82,1.0,class
+0288851AR,Prunus serrulata 'Kanzan',False,Av Elies Pagès,,7.9,median,10.74,check,,,,,1.0,floor
+0309275AR,Styphnolobium japonicum,False,C\ Samaria,,44.18,no_facade,17.95,check,,,,,1.0,floor
+0309276AR,Styphnolobium japonicum,False,C\ Samaria,,49.11,no_facade,17.72,check,,,,,1.0,floor
+0309277AR,Styphnolobium japonicum,False,C\ Samaria,,44.03,no_facade,17.18,check,,,,,1.0,floor
+0309278AR,Styphnolobium japonicum,False,C\ Samaria,,38.91,no_facade,14.87,check,,,,,1.0,floor
+0309279AR,Styphnolobium japonicum,False,C\ Samaria,,34.64,no_facade,4.01,check,,,,,1.0,floor
+0309281AR,Styphnolobium japonicum,False,C\ Samaria,,29.4,median,,check,,,,,1.0,floor
+0309443AR,Cupressus sempervirens,False,Ctra Sant Cugat,20.84,15.72,ok,,large,427971.2,4585845.07,427951.22,4585851.0,1.5,class
+0309448AR,Cupressus sempervirens,False,Ctra Sant Cugat,,27.58,no_kerb,,check,,,,,1.0,floor
+0309449AR,Robinia pseudoacacia,False,Ctra Sant Cugat,17.53,13.17,ok,,large,427981.65,4585882.55,427967.15,4585892.4,1.5,class
+0309450AR,Ailanthus altissima,False,Ctra Sant Cugat,16.27,12.0,ok,,large,427981.65,4585882.55,427969.83,4585893.74,1.5,class
+0309451AR,Cupressus sempervirens,False,Ctra Sant Cugat,16.68,14.06,ok,,large,427981.65,4585882.55,427968.87,4585893.26,1.5,class
+0309456AR,Ulmus pumila,False,C\ Jericó,11.05,9.46,ok,,large,428074.5,4585969.75,428064.68,4585964.67,1.5,class
+0309764AR,Platanus × acerifolia,True,C\ Natzaret,,23.76,median,11.18,check,,,,,1.0,floor
+0320517AR,Robinia pseudoacacia,False,C\ Samaria,9.91,6.5,ok,,large,428040.83,4586034.63,428031.92,4586030.3,1.5,class
+0324246AR,Tipuana tipu,False,C\ Haifa,28.19,21.11,ok,,large,427966.33,4586430.36,427994.15,4586425.77,1.5,class
+0325342AR,Styphnolobium japonicum,False,C\ Saldes,,14.42,median,,check,,,,,1.0,floor
+0335004AR,Ligustrum japonicum,False,C\ Perea,,11.11,no_kerb,,check,,,,,1.0,floor
+0335005AR,Prunus cerasifera,False,C\ Perea,25.94,13.43,ok,,large,428255.45,4586251.94,428272.29,4586271.67,1.5,class

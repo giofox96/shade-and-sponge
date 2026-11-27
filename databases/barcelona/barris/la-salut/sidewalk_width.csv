@@ -1,0 +1,789 @@
+tree_id,species,is_plane,street,width_m,facade_dist_m,flag,strip_width_m,size_class,ray_x0,ray_y0,ray_x1,ray_y1,pit_min_m2,pit_basis
+0072392AR,Pyrus calleryana 'Chanticleer',False,Av Pompeu Fabra,4.82,3.57,ok,,medium,429809.27,4585033.93,429812.83,4585037.18,1.0,class
+0072393AR,Jacaranda mimosifolia,False,Rda Guinardó,15.01,13.57,ok,,large,429809.34,4584907.86,429798.03,4584897.99,1.5,class
+0072396AR,Firmiana simplex,False,Ctra Carmel,,32.85,no_facade,,check,,,,,1.0,floor
+0072397AR,Brachychiton populneus,False,C\ Antequera,5.54,4.77,ok,,medium,429569.28,4585070.06,429574.38,4585067.92,1.0,class
+0072398AR,Pyrus calleryana 'Chanticleer',False,Av Pompeu Fabra,9.57,8.66,ok,,large,429601.61,4585113.35,429608.9,4585119.55,1.5,class
+0072400AR,Pyrus calleryana 'Chanticleer',False,Av Pompeu Fabra,,18.56,median,18.27,check,,,,,1.0,floor
+0072402AR,Robinia pseudoacacia 'Bessoniana',False,C\ Olot,5.72,4.5,ok,,medium,429265.91,4585023.57,429262.21,4585027.93,1.0,class
+0072403AR,Ligustrum lucidum,False,C\ Larrard,4.27,3.15,ok,,medium,429392.23,4584762.24,429395.31,4584765.2,1.0,class
+0072404AR,Platanus × acerifolia,True,Rbla Mercedes,7.86,7.66,ok,,large,429342.28,4584904.52,429345.66,4584897.43,1.5,class
+0072405AR,Styphnolobium japonicum,False,C\ Sardenya,5.02,4.15,ok,,medium,429914.26,4584969.4,429918.48,4584972.11,1.0,class
+0072406AR,Jacaranda mimosifolia,False,Ptge Napoleó,14.08,4.94,ok,,large,428973.73,4584569.85,428986.9,4584574.82,1.5,class
+0072409AR,Pyrus calleryana 'Chanticleer',False,Av Pompeu Fabra,6.97,6.15,ok,,large,429594.46,4585117.88,429589.95,4585123.19,1.5,class
+0072410AR,Koelreuteria paniculata,False,C\ Camèlies,4.44,3.7,ok,,medium,429794.05,4584794.95,429796.54,4584791.27,1.0,class
+0072411AR,Tilia x euchlora,False,Rda Guinardó,22.07,20.67,ok,,large,429805.82,4584912.33,429788.49,4584898.67,1.5,class
+0072412AR,Pyrus calleryana 'Chanticleer',False,Av Pompeu Fabra,,14.04,median,8.74,check,,,,,1.0,floor
+0072414AR,Acer monspessulanum,False,Ptge Mercedes,6.04,5.32,ok,,large,429296.51,4584795.06,429297.92,4584789.19,1.5,class
+0072417AR,Prunus avium,False,C\ Marianao,,7.95,median,,check,,,,,1.0,floor
+0072418AR,Prunus cerasifera 'Pissardii',False,Av Santuari St Josep Muntanya,2.17,1.6,ok,,none,429186.23,4584862.2,429184.44,4584860.95,1.0,floor
+0072420AR,Celtis australis,False,Av Pompeu Fabra,,16.61,median,,check,,,,,1.0,floor
+0072421AR,Platanus × acerifolia,True,Rbla Mercedes,4.97,3.38,ok,,medium,429353.51,4584884.66,429351.39,4584889.16,1.0,class
+0072422AR,Morus alba 'Fruitless',False,C\ Larrard,3.26,2.29,ok,,small,429359.94,4584797.96,429362.3,4584800.2,1.0,class
+0072423AR,Ligustrum lucidum,False,C\ Larrard,10.13,8.93,ok,,large,429313.17,4584838.22,429322.31,4584842.58,1.5,class
+0072424AR,Platanus × acerifolia,True,Rbla Mercedes,4.49,4.7,ok,,medium,429300.97,4584881.24,429302.91,4584877.19,1.0,class
+0072425AR,Prunus avium,False,C\ Pare Jacint Alegre,,7.98,median,8.62,check,,,,,1.0,floor
+0072426AR,Tipuana tipu,False,C\ Escorial,7.62,4.41,ok,,large,429638.34,4584707.32,429632.08,4584702.99,1.5,class
+0072427AR,Brachychiton populneus,False,Rier Can Toda,,11.54,median,,check,,,,,1.0,floor
+0072429AR,Liquidambar styraciflua,False,C\ Marianao,,7.97,median,,check,,,,,1.0,floor
+0072432AR,Gleditsia triacanthos,False,Trav Dalt,4.61,3.92,ok,,medium,429742.61,4584893.16,429745.54,4584889.6,1.0,class
+0072433AR,Liquidambar styraciflua,False,C\ Marianao,,7.81,median,,check,,,,,1.0,floor
+0072434AR,Pyrus calleryana 'Chanticleer',False,Av Pompeu Fabra,,16.61,median,,check,,,,,1.0,floor
+0072435AR,Robinia pseudoacacia 'Bessoniana',False,C\ Olot,5.89,5.4,ok,,medium,429284.24,4585038.55,429280.52,4585043.12,1.0,class
+0072436AR,Styphnolobium japonicum,False,Av Mare de Déu de Montserrat,4.18,3.57,ok,,medium,429862.27,4584966.24,429859.61,4584969.47,1.0,class
+0072437AR,Ligustrum lucidum,False,C\ Verdi,3.75,3.7,ok,,medium,429086.21,4584557.59,429083.09,4584555.5,1.0,class
+0072440AR,Tipuana tipu,False,C\ Escorial,7.6,6.8,ok,,large,429617.04,4584738.08,429610.79,4584733.75,1.5,class
+0072442AR,Ligustrum lucidum,False,Trav Dalt,4.16,3.99,ok,,medium,429651.55,4584775.93,429648.89,4584779.13,1.0,class
+0072443AR,Ligustrum lucidum,False,C\ Larrard,3.33,2.55,ok,,small,429284.9,4584894.33,429282.46,4584892.06,1.0,class
+0072444AR,Pyrus calleryana 'Chanticleer',False,Av Pompeu Fabra,,7.49,median,9.04,check,,,,,1.0,floor
+0072445AR,Brachychiton populneus,False,C\ Antequera,8.12,7.33,ok,,large,429548.32,4585026.78,429555.8,4585023.62,1.5,class
+0072446AR,Robinia pseudoacacia 'Bessoniana',False,C\ Olot,7.91,6.94,ok,,large,429179.22,4584945.12,429174.2,4584951.23,1.5,class
+0072447AR,Robinia pseudoacacia,False,C\ Olot,2.98,2.32,ok,,small,429235.2,4585014.78,429237.1,4585012.48,1.0,class
+0072449AR,Firmiana simplex,False,Ctra Carmel,,23.11,median,,check,,,,,1.0,floor
+0072450AR,Platanus × acerifolia,True,Rbla Mercedes,4.64,3.71,ok,,medium,429283.67,4584873.08,429285.66,4584868.89,1.0,class
+0072451AR,Albizia julibrissin,False,Trav Dalt,3.16,2.85,ok,,small,429609.16,4584783.18,429611.2,4584780.76,1.0,class
+0072452AR,Prunus avium,False,C\ Marianao,,17.45,median,,check,,,,,1.0,floor
+0072453AR,Gleditsia triacanthos,False,Trav Dalt,3.66,2.37,ok,,medium,429774.31,4584849.96,429773.27,4584853.47,1.0,class
+0072454AR,Pyrus calleryana 'Chanticleer',False,Av Pompeu Fabra,5.18,4.83,ok,,medium,429650.07,4585121.28,429653.5,4585117.4,1.0,class
+0072456AR,Robinia pseudoacacia 'Bessoniana',False,C\ Olot,,15.8,median,4.7,check,,,,,1.0,floor
+0072457AR,Pyrus calleryana 'Chanticleer',False,Av Pompeu Fabra,7.5,6.47,ok,,large,429758.06,4585059.04,429755.75,4585066.18,1.5,class
+0072458AR,Ligustrum lucidum,False,C\ Larrard,8.6,6.39,ok,,large,429308.28,4584848.45,429308.82,4584857.03,1.5,class
+0072459AR,Pyrus calleryana 'Chanticleer',False,Av Pompeu Fabra,,13.89,median,16.35,check,,,,,1.0,floor
+0072462AR,Platanus × acerifolia,True,Rbla Mercedes,7.78,6.83,ok,,large,429276.41,4584845.09,429273.07,4584852.11,1.5,class
+0072463AR,Ligustrum lucidum,False,C\ Larrard,3.33,2.2,ok,,small,429366.24,4584791.29,429368.66,4584793.58,1.0,class
+0072464AR,Ligustrum lucidum,False,Trav Dalt,4.21,3.83,ok,,medium,429629.41,4584757.89,429626.79,4584761.19,1.0,class
+0072465AR,Pyrus calleryana 'Chanticleer',False,Av Pompeu Fabra,9.27,8.16,ok,,large,429816.97,4585025.48,429823.82,4585031.73,1.5,class
+0072466AR,Styphnolobium japonicum,False,Av Mare de Déu de Montserrat,4.31,3.52,ok,,medium,429803.03,4584917.29,429800.31,4584920.64,1.0,class
+0072467AR,Jacaranda mimosifolia,False,Ptge Napoleó,14.1,3.41,ok,,large,428973.6,4584568.27,428987.66,4584567.17,1.5,class
+0072468AR,Firmiana simplex,False,Ctra Carmel,,24.01,median,,check,,,,,1.0,floor
+0072469AR,Ligustrum lucidum,False,C\ Larrard,3.24,1.95,ok,,small,429283.2,4584879.16,429285.54,4584881.4,1.0,class
+0072470AR,Tipuana tipu,False,C\ Escorial,7.61,4.53,ok,,large,429635.41,4584711.55,429629.15,4584707.22,1.5,class
+0072471AR,Tipuana tipu,False,C\ Escorial,7.62,7.02,ok,,large,429643.33,4584700.12,429637.07,4584695.78,1.5,class
+0072472AR,Acer monspessulanum,False,Ptge Mercedes,5.41,5.06,ok,,medium,429333.82,4584811.79,429336.42,4584807.04,1.0,class
+0072474AR,Tipuana tipu,False,C\ Escorial,7.61,4.5,ok,,large,429626.76,4584724.03,429620.51,4584719.7,1.5,class
+0072475AR,Brachychiton populneus,False,C\ Antequera,5.54,4.78,ok,,medium,429571.6,4585075.61,429576.71,4585073.47,1.0,class
+0072476AR,Ligustrum lucidum,False,C\ Larrard,3.34,2.19,ok,,small,429233.54,4584931.57,429235.97,4584933.87,1.0,class
+0072477AR,Brachychiton populneus,False,Rier Can Toda,,10.8,median,,check,,,,,1.0,floor
+0072478AR,Gleditsia triacanthos,False,Trav Dalt,3.61,3.09,ok,,medium,429707.02,4584863.38,429709.33,4584860.6,1.0,class
+0072479AR,Robinia pseudoacacia,False,C\ Olot,4.91,3.91,ok,,medium,429237.3,4585017.07,429242.19,4585016.67,1.0,class
+0072480AR,Acer monspessulanum,False,C\ Valldoreix,6.24,4.99,ok,,large,428997.82,4584581.96,428992.15,4584579.35,1.5,class
+0072481AR,Tipuana tipu,False,C\ Miquel i Badia,6.42,5.51,ok,,large,429745.08,4585000.25,429739.67,4585003.7,1.5,class
+0072482AR,Gleditsia triacanthos,False,Trav Dalt,4.09,1.93,ok,,medium,429743.81,4584839.2,429742.27,4584842.99,1.0,class
+0072486AR,Brachychiton populneus,False,C\ Antequera,8.1,7.33,ok,,large,429553.16,4585038.27,429560.62,4585035.12,1.5,class
+0072487AR,Firmiana simplex,False,Ctra Carmel,,32.14,no_facade,,check,,,,,1.0,floor
+0072489AR,Pyrus calleryana 'Chanticleer',False,Av Pompeu Fabra,7.72,6.6,ok,,large,429696.35,4585086.27,429702.25,4585091.26,1.5,class
+0072490AR,Prunus avium,False,C\ Mercedes,,2.25,no_kerb,,check,,,,,1.0,floor
+0072491AR,Pyrus calleryana 'Chanticleer',False,Av Pompeu Fabra,3.18,3.18,ok,,small,429649.4,4585121.41,429647.02,4585119.3,1.0,class
+0072492AR,Platanus × acerifolia,True,Rbla Mercedes,,5.88,no_kerb,,check,,,,,1.0,floor
+0072494AR,Ligustrum lucidum,False,C\ Larrard,3.26,2.4,ok,,small,429266.02,4584914.27,429263.65,4584912.03,1.0,class
+0072495AR,Brachychiton acerifolius,False,Av Mare de Déu de Montserrat,4.04,3.22,ok,,medium,429884.13,4584984.41,429881.52,4584987.5,1.0,class
+0072496AR,Pyrus calleryana 'Chanticleer',False,Av Pompeu Fabra,13.08,12.52,ok,,large,429675.89,4585117.18,429684.56,4585107.38,1.5,class
+0072497AR,Ligustrum lucidum,False,C\ Larrard,3.26,2.11,ok,,small,429254.86,4584909.17,429257.25,4584911.38,1.0,class
+0072501AR,Liquidambar styraciflua,False,C\ Marianao,,10.32,median,,check,,,,,1.0,floor
+0072503AR,Prunus cerasifera 'Pissardii',False,C\ Mercedes,,5.62,no_kerb,,check,,,,,1.0,floor
+0072505AR,Ligustrum lucidum,False,C\ Larrard,3.25,1.93,ok,,small,429270.52,4584892.43,429272.87,4584894.67,1.0,class
+0072507AR,Firmiana simplex,False,Ctra Carmel,,39.14,no_facade,,check,,,,,1.0,floor
+0072508AR,Gleditsia triacanthos,False,Trav Dalt,3.55,2.4,ok,,medium,429763.16,4584846.49,429762.04,4584849.86,1.0,class
+0072511AR,Platanus × acerifolia,True,Rbla Mercedes,,8.22,no_kerb,,check,,,,,1.0,floor
+0072512AR,Tipuana tipu,False,C\ Miquel i Badia,4.34,3.47,ok,,medium,429742.88,4585019.97,429745.38,4585016.42,1.0,class
+0072513AR,Morus alba 'Fruitless',False,C\ Larrard,6.45,5.97,ok,,large,429398.63,4584778.62,429393.95,4584774.18,1.5,class
+0072514AR,Morus alba 'Fruitless',False,C\ Larrard,3.28,2.69,ok,,small,429378.46,4584795.47,429376.09,4584793.21,1.0,class
+0072517AR,Liquidambar styraciflua,False,C\ Marianao,6.82,6.4,ok,,large,429271.23,4585015.73,429266.2,4585011.13,1.5,class
+0072519AR,Pyrus calleryana 'Chanticleer',False,Av Pompeu Fabra,5.7,5.35,ok,,medium,429589.89,4585135.96,429593.64,4585131.66,1.0,class
+0072520AR,Firmiana simplex,False,Ctra Carmel,,39.83,no_facade,25.89,check,,,,,1.0,floor
+0072522AR,Celtis australis,False,Av Pompeu Fabra,,13.41,median,,check,,,,,1.0,floor
+0072523AR,Platanus × acerifolia,True,Rbla Mercedes,7.69,7.56,ok,,large,429325.73,4584896.5,429329.18,4584889.63,1.5,class
+0072527AR,Robinia pseudoacacia 'Bessoniana',False,C\ Olot,7.95,6.84,ok,,large,429197.55,4584960.19,429192.5,4584966.33,1.5,class
+0072528AR,Robinia pseudoacacia,False,C\ Olot,5.63,4.88,ok,,medium,429273.01,4585029.58,429269.37,4585033.88,1.0,class
+0072529AR,Styphnolobium japonicum,False,C\ Sant Cugat del Vallès,,9.06,median,,check,,,,,1.0,floor
+0072530AR,Platanus × acerifolia,True,Rbla Mercedes,8.5,8.09,ok,,large,429249.22,4584861.28,429252.99,4584853.66,1.5,class
+0072531AR,Ligustrum lucidum,False,C\ Larrard,3.2,1.29,ok,,small,429287.07,4584875.11,429289.38,4584877.32,1.0,class
+0072532AR,Ligustrum lucidum,False,C\ Larrard,6.35,6.8,ok,,large,429394.56,4584782.92,429389.37,4584779.26,1.5,class
+0072533AR,Olea europaea,False,Av Mare de Déu de Montserrat,23.28,14.62,ok,,large,429805.09,4584913.25,429786.81,4584898.84,1.5,class
+0072534AR,Gleditsia triacanthos,False,Trav Dalt,3.85,2.61,ok,,medium,429754.65,4584843.44,429753.32,4584847.06,1.0,class
+0072535AR,Styphnolobium japonicum,False,C\ Sardenya,5.2,4.46,ok,,medium,429933.77,4584937.96,429938.23,4584940.63,1.0,class
+0072536AR,Robinia pseudoacacia,False,C\ Valldoreix,2.88,2.4,ok,,small,429003.77,4584596.23,429005.25,4584593.75,1.0,class
+0072537AR,Platanus × acerifolia,True,Rbla Mercedes,,6.86,no_kerb,,check,,,,,1.0,floor
+0072538AR,Firmiana simplex,False,Ctra Carmel,26.93,26.19,ok,,large,429577.22,4585250.18,429558.49,4585269.53,1.5,class
+0072539AR,Platanus × acerifolia,True,Rbla Mercedes,8.38,8.23,ok,,large,429306.83,4584884.04,429315.14,4584882.98,1.5,class
+0072540AR,Ligustrum lucidum,False,Trav Dalt,4.07,3.23,ok,,medium,429615.01,4584746.47,429612.48,4584749.66,1.0,class
+0072541AR,Brachychiton populneus,False,Rier Can Toda,,8.52,median,,check,,,,,1.0,floor
+0072542AR,Tipuana tipu,False,C\ Escorial,7.61,6.97,ok,,large,429627.92,4584722.37,429621.66,4584718.04,1.5,class
+0072543AR,Robinia pseudoacacia 'Bessoniana',False,C\ Olot,12.01,8.83,ok,,large,429231.7,4584993.99,429238.06,4585004.18,1.5,class
+0072544AR,Ligustrum lucidum,False,C\ Verdi,3.84,2.86,ok,,medium,429136.89,4584482.62,429133.7,4584480.48,1.0,class
+0072545AR,Platanus × acerifolia,True,Rbla Mercedes,4.53,3.81,ok,,medium,429270.8,4584866.96,429272.56,4584862.79,1.0,class
+0072546AR,Robinia pseudoacacia 'Bessoniana',False,C\ Olot,,10.44,median,5.46,check,,,,,1.0,floor
+0072548AR,Ligustrum lucidum,False,C\ Larrard,,9.78,median,,check,,,,,1.0,floor
+0072549AR,Ulmus pumila,False,Av Pompeu Fabra,11.45,10.98,ok,,large,429520.62,4585152.64,429522.09,4585141.28,1.5,class
+0072552AR,Ligustrum lucidum,False,C\ Larrard,,9.62,median,,check,,,,,1.0,floor
+0072553AR,Pyrus calleryana 'Chanticleer',False,Av Pompeu Fabra,3.58,1.98,ok,,medium,429621.28,4585113.79,429624.0,4585116.12,1.0,class
+0072554AR,Platanus × acerifolia,True,Rbla Mercedes,8.72,8.46,ok,,large,429345.04,4584905.83,429351.8,4584900.33,1.5,class
+0072555AR,Ligustrum lucidum,False,C\ Larrard,3.23,3.1,ok,,small,429351.25,4584824.12,429348.9,4584821.91,1.0,class
+0072556AR,Styphnolobium japonicum,False,C\ Escorial,3.3,2.12,ok,,small,429608.98,4584714.85,429611.66,4584716.76,1.0,class
+0072557AR,Platanus × acerifolia,True,Rbla Mercedes,,7.03,no_kerb,,check,,,,,1.0,floor
+0072558AR,Platanus × acerifolia,True,Rbla Mercedes,,11.45,no_kerb,,check,,,,,1.0,floor
+0072559AR,Ligustrum lucidum,False,C\ Larrard,,9.52,median,,check,,,,,1.0,floor
+0072560AR,Ligustrum lucidum,False,C\ Larrard,4.33,2.95,ok,,medium,429390.32,4584764.22,429393.45,4584767.22,1.0,class
+0072562AR,Platanus × acerifolia,True,Rbla Mercedes,7.83,7.7,ok,,large,429329.51,4584898.39,429333.63,4584891.73,1.5,class
+0072563AR,Brachychiton populneus,False,C\ Antequera,5.53,4.75,ok,,medium,429562.32,4585053.44,429567.42,4585051.31,1.0,class
+0072564AR,Brachychiton populneus,False,Rier Can Toda,,10.46,median,,check,,,,,1.0,floor
+0072565AR,Ligustrum lucidum,False,C\ Verdi,3.44,2.57,ok,,small,429111.76,4584519.7,429108.92,4584517.77,1.0,class
+0072566AR,Ligustrum lucidum,False,C\ Larrard,3.2,3.05,ok,,small,429344.45,4584831.35,429342.12,4584829.16,1.0,class
+0072568AR,Brachychiton populneus,False,Rier Can Toda,,11.4,median,,check,,,,,1.0,floor
+0072570AR,Gleditsia triacanthos,False,Trav Dalt,3.73,2.45,ok,,medium,429712.44,4584867.88,429714.82,4584865.02,1.0,class
+0072573AR,Robinia pseudoacacia,False,C\ Olot,7.49,6.22,ok,,large,429208.48,4584993.57,429205.94,4584986.52,1.5,class
+0072574AR,Ligustrum lucidum,False,C\ Verdi,3.78,3.47,ok,,medium,429079.35,4584567.79,429076.22,4584565.68,1.0,class
+0072575AR,Styphnolobium japonicum,False,C\ Sant Cugat del Vallès,,8.93,median,,check,,,,,1.0,floor
+0072576AR,Celtis australis,False,Av Pompeu Fabra,,15.46,median,,check,,,,,1.0,floor
+0072577AR,Ligustrum lucidum,False,C\ Larrard,3.28,1.63,ok,,small,429354.68,4584803.52,429357.06,4584805.77,1.0,class
+0072578AR,Prunus avium,False,C\ Pare Jacint Alegre,,7.82,median,10.38,check,,,,,1.0,floor
+0072579AR,Brachychiton populneus,False,Rier Can Toda,,8.79,median,,check,,,,,1.0,floor
+0072580AR,Acer monspessulanum,False,Ptge Mercedes,5.41,4.74,ok,,medium,429268.18,4584781.3,429270.47,4584776.4,1.0,class
+0072581AR,Styphnolobium japonicum,False,C\ Sant Cugat del Vallès,,9.01,median,,check,,,,,1.0,floor
+0072583AR,Brachychiton populneus,False,C\ Antequera,10.11,7.06,ok,,large,429554.75,4585042.04,429564.06,4585038.12,1.5,class
+0072584AR,Brachychiton populneus,False,Rier Can Toda,,12.22,median,,check,,,,,1.0,floor
+0072586AR,Koelreuteria paniculata,False,C\ Camèlies,5.58,4.43,ok,,medium,429710.98,4584737.65,429716.44,4584736.54,1.0,class
+0072587AR,Acer monspessulanum,False,Ptge Mercedes,,5.19,median,,check,,,,,1.0,floor
+0072589AR,Acer monspessulanum,False,C\ Rabassa,2.94,1.82,ok,,small,429460.24,4584584.82,429457.86,4584583.07,1.0,class
+0072590AR,Ligustrum lucidum,False,C\ Larrard,3.31,2.21,ok,,small,429363.98,4584793.68,429366.38,4584795.95,1.0,class
+0072591AR,Jacaranda mimosifolia,False,Rier Can Toda,5.05,3.95,ok,,medium,429713.2,4584902.06,429717.49,4584904.72,1.0,class
+0072592AR,Casuarina cunninghamiana,False,C\ Miquel i Badia,4.41,3.82,ok,,medium,429727.56,4585009.16,429730.1,4585005.56,1.0,class
+0072593AR,Pyrus calleryana 'Chanticleer',False,Av Pompeu Fabra,9.55,8.57,ok,,large,429626.84,4585107.31,429634.09,4585113.53,1.5,class
+0072594AR,Platanus × acerifolia,True,Rbla Mercedes,4.9,3.23,ok,,medium,429341.11,4584878.82,429339.02,4584883.26,1.0,class
+0072597AR,Pyrus calleryana 'Chanticleer',False,Av Pompeu Fabra,6.11,5.86,ok,,large,429586.97,4585137.64,429582.36,4585133.63,1.5,class
+0072598AR,Brachychiton populneus,False,C\ Antequera,5.53,4.76,ok,,medium,429564.64,4585058.99,429569.75,4585056.85,1.0,class
+0072599AR,Styphnolobium japonicum,False,C\ Sant Cugat del Vallès,5.3,1.34,ok,,medium,429203.83,4584710.76,429206.12,4584705.98,1.0,class
+0072602AR,Koelreuteria paniculata,False,C\ Camèlies,4.49,3.82,ok,,medium,429778.79,4584784.6,429781.32,4584780.9,1.0,class
+0072603AR,Acer monspessulanum,False,C\ Rabassa,3.0,2.42,ok,,small,429451.41,4584596.84,429448.99,4584595.06,1.0,class
+0072604AR,Ligustrum lucidum,False,C\ Larrard,7.04,5.29,ok,,large,429325.21,4584829.78,429331.56,4584832.82,1.5,class
+0072605AR,Platanus × acerifolia,True,Rbla Mercedes,,12.68,no_kerb,46.65,check,,,,,1.0,floor
+0072606AR,Celtis australis,False,Av Pompeu Fabra,10.69,9.93,ok,,large,429592.79,4585138.49,429599.81,4585130.43,1.5,class
+0072607AR,Tilia platyphyllos,False,C\ Mare de Déu de la Salut,,7.61,median,,check,,,,,1.0,floor
+0072608AR,Ligustrum lucidum,False,C\ Verdi,3.79,3.36,ok,,medium,429075.93,4584572.88,429072.78,4584570.77,1.0,class
+0072611AR,Pyrus calleryana 'Chanticleer',False,Av Pompeu Fabra,13.63,11.76,ok,,large,429757.51,4585058.65,429749.64,4585069.77,1.5,class
+0072612AR,Jacaranda mimosifolia,False,Rier Can Toda,4.92,3.99,ok,,medium,429717.03,4584887.97,429721.76,4584889.29,1.0,class
+0072613AR,Gleditsia triacanthos,False,Rda Guinardó,4.0,2.97,ok,,medium,429845.53,4584905.1,429845.89,4584901.12,1.0,class
+0072614AR,Tipuana tipu,False,C\ Miquel i Badia,4.21,3.62,ok,,medium,429771.46,4585040.12,429774.09,4585036.83,1.0,class
+0072615AR,Ligustrum lucidum,False,Trav Dalt,4.1,3.88,ok,,medium,429619.41,4584749.96,429616.86,4584753.17,1.0,class
+0072616AR,Gleditsia triacanthos,False,Rda Guinardó,4.38,3.79,ok,,medium,429865.9,4584906.92,429866.07,4584902.55,1.0,class
+0072617AR,Celtis australis,False,Av Pompeu Fabra,15.47,13.77,ok,,large,429728.9,4585064.99,429741.2,4585074.37,1.5,class
+0072618AR,Pyrus calleryana 'Chanticleer',False,Av Pompeu Fabra,,17.22,median,,check,,,,,1.0,floor
+0072619AR,Robinia pseudoacacia 'Bessoniana',False,C\ Olot,7.83,6.87,ok,,large,429192.96,4584956.42,429187.99,4584962.47,1.5,class
+0072620AR,Robinia pseudoacacia 'Bessoniana',False,C\ Olot,3.75,2.43,ok,,medium,429228.77,4584991.64,429226.43,4584994.57,1.0,class
+0072621AR,Jacaranda mimosifolia,False,Rda Guinardó,10.28,10.14,ok,,large,429809.34,4584907.86,429806.97,4584897.86,1.5,class
+0072622AR,Koelreuteria paniculata 'Fastigiata',False,Av Santuari St Josep Muntanya,5.01,4.13,ok,,medium,429228.54,4584806.32,429224.42,4584803.45,1.0,class
+0072623AR,Pyrus calleryana 'Chanticleer',False,Av Pompeu Fabra,5.21,4.58,ok,,medium,429758.06,4585059.04,429761.88,4585062.59,1.0,class
+0072624AR,Celtis australis,False,Av Pompeu Fabra,,14.98,median,,check,,,,,1.0,floor
+0072625AR,Ligustrum lucidum,False,C\ Larrard,3.2,3.06,ok,,small,429340.32,4584835.74,429337.99,4584833.55,1.0,class
+0072626AR,Brachychiton populneus,False,Rier Can Toda,,14.23,median,,check,,,,,1.0,floor
+0072627AR,Acer monspessulanum,False,C\ Rabassa,2.93,2.02,ok,,small,429465.37,4584577.83,429463.0,4584576.1,1.0,class
+0072632AR,Styphnolobium japonicum,False,C\ Sardenya,4.87,4.06,ok,,medium,429922.12,4584957.15,429926.22,4584959.78,1.0,class
+0072633AR,Ligustrum lucidum,False,C\ Larrard,3.2,2.63,ok,,small,429315.34,4584862.27,429313.01,4584860.07,1.0,class
+0072634AR,Pyrus calleryana 'Chanticleer',False,Av Pompeu Fabra,,11.82,median,29.2,check,,,,,1.0,floor
+0072635AR,Robinia pseudoacacia 'Bessoniana',False,C\ Olot,3.59,3.04,ok,,medium,429212.46,4584978.36,429210.19,4584981.14,1.0,class
+0072636AR,Ligustrum lucidum,False,C\ Larrard,4.43,2.35,ok,,medium,429387.3,4584767.37,429390.5,4584770.44,1.0,class
+0072637AR,Gleditsia triacanthos,False,Trav Dalt,2.85,2.73,ok,,small,429680.25,4584841.1,429682.08,4584838.91,1.0,class
+0072638AR,Robinia pseudoacacia,False,C\ Olot,,10.58,median,,check,,,,,1.0,floor
+0072639AR,Tipuana tipu,False,C\ Escorial,7.61,6.85,ok,,large,429630.68,4584718.37,429624.43,4584714.04,1.5,class
+0072640AR,Populus nigra,False,C\ Escorial,3.22,2.08,ok,,small,429612.42,4584710.02,429615.04,4584711.89,1.0,class
+0072641AR,Platanus × acerifolia,True,C\ Mare de Déu de la Salut,2.54,1.69,ok,,small,429731.76,4584921.8,429730.1,4584923.72,1.0,class
+0072643AR,Brachychiton populneus,False,Rier Can Toda,,11.19,median,,check,,,,,1.0,floor
+0072644AR,Ligustrum lucidum,False,C\ Larrard,3.2,3.06,ok,,small,429336.18,4584840.14,429333.85,4584837.94,1.0,class
+0072645AR,Tipuana tipu,False,C\ Miquel i Badia,5.11,3.85,ok,,medium,429716.1,4584981.0,429714.51,4584985.86,1.0,class
+0072646AR,Brachychiton populneus,False,Rier Can Toda,,9.74,median,16.86,check,,,,,1.0,floor
+0072647AR,Ligustrum lucidum,False,C\ Larrard,4.69,3.35,ok,,medium,429378.23,4584776.82,429381.61,4584780.07,1.0,class
+0072649AR,Ligustrum lucidum,False,C\ Larrard,,9.19,median,,check,,,,,1.0,floor
+0072650AR,Gleditsia triacanthos,False,Rda Guinardó,3.23,2.15,ok,,small,429820.37,4584861.45,429819.79,4584864.63,1.0,class
+0072651AR,Acer monspessulanum,False,Ptge Mercedes,,5.31,median,,check,,,,,1.0,floor
+0072653AR,Robinia pseudoacacia,False,C\ Olot,,12.7,median,4.67,check,,,,,1.0,floor
+0072654AR,Celtis australis,False,Av Pompeu Fabra,,14.95,median,24.05,check,,,,,1.0,floor
+0072655AR,Morus alba 'Fruitless',False,C\ Molist,13.68,8.1,ok,,large,429519.73,4584856.72,429528.48,4584846.21,1.5,class
+0072656AR,Robinia pseudoacacia,False,Ptge Napoleó,16.01,4.32,ok,,large,428973.36,4584565.17,428989.32,4584563.92,1.5,class
+0072658AR,Robinia pseudoacacia 'Bessoniana',False,C\ Olot,6.01,4.69,ok,,large,429288.04,4585041.64,429284.25,4585046.3,1.5,class
+0072660AR,Prunus cerasifera 'Pissardii',False,C\ Mercedes,,6.67,no_kerb,,check,,,,,1.0,floor
+0072661AR,Morus alba 'Fruitless',False,C\ Molist,13.45,3.78,ok,,large,429519.73,4584856.72,429529.93,4584847.96,1.5,class
+0072662AR,Ginkgo biloba,False,C\ Sant Josep Cottolengo,6.21,5.05,ok,,large,429527.04,4585007.29,429521.26,4585005.02,1.5,class
+0072663AR,Pyrus calleryana 'Chanticleer',False,Av Pompeu Fabra,5.09,4.41,ok,,medium,429715.47,4585080.85,429719.35,4585084.14,1.0,class
+0072664AR,Platanus × acerifolia,True,Rbla Mercedes,,12.27,no_kerb,,check,,,,,1.0,floor
+0072665AR,Koelreuteria paniculata,False,C\ Camèlies,4.17,3.42,ok,,medium,429672.47,4584711.49,429674.8,4584708.04,1.0,class
+0072670AR,Ligustrum lucidum,False,C\ Larrard,3.2,3.05,ok,,small,429319.61,4584857.73,429317.28,4584855.54,1.0,class
+0072671AR,Styphnolobium japonicum,False,Av Mare de Déu de Montserrat,4.32,3.48,ok,,medium,429817.88,4584929.34,429815.16,4584932.69,1.0,class
+0072672AR,Celtis australis,False,Av Pompeu Fabra,12.71,12.37,ok,,large,429767.38,4585045.88,429777.75,4585053.22,1.5,class
+0072673AR,Pyrus calleryana 'Chanticleer',False,Av Pompeu Fabra,6.74,5.37,ok,,large,429806.39,4585033.65,429806.35,4585040.39,1.5,class
+0072674AR,Styphnolobium japonicum,False,C\ Sardenya,4.86,3.75,ok,,medium,429925.82,4584951.27,429929.99,4584953.76,1.0,class
+0072675AR,Ligustrum lucidum,False,Trav Dalt,2.89,2.33,ok,,small,429674.28,4584796.51,429672.48,4584798.77,1.0,class
+0072677AR,Robinia pseudoacacia 'Bessoniana',False,C\ Olot,,10.54,median,,check,,,,,1.0,floor
+0072681AR,Pyrus calleryana 'Chanticleer',False,Av Pompeu Fabra,20.63,19.79,ok,,large,429575.76,4585150.51,429560.21,4585136.96,1.5,class
+0072683AR,Brachychiton populneus,False,Rier Can Toda,,8.83,median,,check,,,,,1.0,floor
+0072684AR,Koelreuteria paniculata,False,C\ Camèlies,4.51,3.83,ok,,medium,429843.8,4584829.46,429846.46,4584825.82,1.0,class
+0072685AR,Firmiana simplex,False,Ctra Carmel,,48.99,no_facade,8.41,check,,,,,1.0,floor
+0072686AR,Styphnolobium japonicum,False,C\ Escorial,3.22,2.09,ok,,small,429618.96,4584700.59,429621.62,4584702.41,1.0,class
+0072688AR,Gleditsia triacanthos,False,Rda Guinardó,3.48,2.72,ok,,small,429826.47,4584862.57,429825.84,4584865.99,1.0,class
+0072689AR,Acer monspessulanum,False,Ptge Mercedes,6.61,6.56,ok,,large,429256.23,4584776.94,429260.02,4584771.53,1.5,class
+0072690AR,Ligustrum lucidum,False,C\ Verdi,4.02,3.38,ok,,medium,429140.52,4584477.47,429137.3,4584475.06,1.0,class
+0072691AR,Prunus cerasifera 'Pissardii',False,C\ Mercedes,,2.08,no_kerb,,check,,,,,1.0,floor
+0072692AR,Platanus × acerifolia,True,Rbla Mercedes,,6.29,no_kerb,48.43,check,,,,,1.0,floor
+0072693AR,Ligustrum lucidum,False,C\ Larrard,3.23,2.03,ok,,small,429250.4,4584913.98,429252.77,4584916.18,1.0,class
+0072694AR,Platanus × acerifolia,True,Rbla Mercedes,,10.79,no_kerb,,check,,,,,1.0,floor
+0072695AR,Celtis australis,False,Av Pompeu Fabra,,12.88,median,,check,,,,,1.0,floor
+0072697AR,Ligustrum lucidum,False,C\ Larrard,3.24,2.14,ok,,small,429262.01,4584918.5,429259.65,4584916.27,1.0,class
+0072698AR,Koelreuteria paniculata,False,C\ Camèlies,4.36,3.67,ok,,medium,429803.68,4584801.44,429806.11,4584797.83,1.0,class
+0072700AR,Pyrus calleryana 'Chanticleer',False,Av Pompeu Fabra,7.04,5.86,ok,,large,429813.12,4585029.71,429818.32,4585034.45,1.5,class
+0072701AR,Ligustrum lucidum,False,C\ Verdi,3.34,2.65,ok,,small,429122.26,4584504.29,429119.5,4584502.41,1.0,class
+0072702AR,Pyrus calleryana 'Chanticleer',False,Av Pompeu Fabra,7.92,7.66,ok,,large,429672.23,4585118.61,429666.3,4585113.37,1.5,class
+0072705AR,Styphnolobium japonicum,False,C\ Sardenya,6.69,4.07,ok,,large,429917.84,4584963.82,429923.47,4584967.44,1.5,class
+0072706AR,Gleditsia triacanthos,False,Trav Dalt,3.85,3.31,ok,,medium,429701.77,4584818.21,429699.71,4584821.46,1.0,class
+0072708AR,Brachychiton populneus,False,C\ Antequera,8.15,7.35,ok,,large,429543.65,4585015.7,429551.16,4585012.54,1.5,class
+0072710AR,Tipuana tipu,False,C\ Miquel i Badia,3.81,2.54,ok,,medium,429702.66,4584972.81,429700.67,4584976.06,1.0,class
+0072711AR,Brachychiton populneus,False,C\ Antequera,5.53,4.76,ok,,medium,429566.96,4585064.52,429572.06,4585062.38,1.0,class
+0072712AR,Robinia pseudoacacia 'Bessoniana',False,C\ Olot,,15.85,median,4.75,check,,,,,1.0,floor
+0072713AR,Styphnolobium japonicum,False,C\ Sant Cugat del Vallès,,8.97,median,,check,,,,,1.0,floor
+0072714AR,Pyrus calleryana 'Chanticleer',False,Av Pompeu Fabra,11.79,10.97,ok,,large,429591.51,4585115.37,429583.87,4585124.35,1.5,class
+0072715AR,Styphnolobium japonicum,False,C\ Sardenya,4.98,4.08,ok,,medium,429905.81,4584983.15,429909.63,4584986.34,1.0,class
+0072716AR,Koelreuteria paniculata,False,C\ Camèlies,4.13,3.43,ok,,medium,429679.89,4584716.54,429682.22,4584713.12,1.0,class
+0072717AR,Acer monspessulanum,False,Ptge Mercedes,5.33,4.35,ok,,medium,429327.72,4584808.9,429330.0,4584804.08,1.0,class
+0072718AR,Styphnolobium japonicum,False,C\ Sant Cugat del Vallès,,8.88,median,,check,,,,,1.0,floor
+0072720AR,Platanus × acerifolia,True,Rbla Mercedes,4.57,2.77,ok,,medium,429322.41,4584870.28,429320.45,4584874.4,1.0,class
+0072721AR,Albizia julibrissin,False,Trav Dalt,3.34,2.73,ok,,small,429600.81,4584776.13,429602.96,4584773.58,1.0,class
+0072723AR,Brachychiton populneus,False,Rier Can Toda,,8.68,median,,check,,,,,1.0,floor
+0072725AR,Populus nigra,False,C\ Escorial,3.22,2.04,ok,,small,429623.61,4584693.81,429626.26,4584695.63,1.0,class
+0072726AR,Platanus × acerifolia,True,Rbla Mercedes,8.11,7.3,ok,,large,429267.75,4584867.34,429265.57,4584859.53,1.5,class
+0072727AR,Tipuana tipu,False,C\ Escorial,7.62,4.7,ok,,large,429641.76,4584702.38,429635.5,4584698.05,1.5,class
+0072728AR,Pyrus calleryana 'Chanticleer',False,Av Pompeu Fabra,,11.61,median,,check,,,,,1.0,floor
+0072729AR,Robinia pseudoacacia 'Bessoniana',False,C\ Olot,3.65,2.76,ok,,medium,429224.16,4584987.96,429221.88,4584990.81,1.0,class
+0072730AR,Ligustrum lucidum,False,C\ Larrard,3.36,1.75,ok,,small,429369.1,4584788.26,429371.55,4584790.57,1.0,class
+0072731AR,Pyrus calleryana 'Chanticleer',False,Av Pompeu Fabra,17.44,15.55,ok,,large,429690.68,4585086.26,429679.41,4585099.56,1.5,class
+0072732AR,Tipuana tipu,False,C\ Miquel i Badia,5.36,4.43,ok,,medium,429750.0,4585004.5,429746.5,4585008.55,1.0,class
+0072733AR,Jacaranda mimosifolia,False,Rier Can Toda,,10.96,median,,check,,,,,1.0,floor
+0072734AR,Pyrus calleryana 'Chanticleer',False,Av Pompeu Fabra,10.22,9.76,ok,,large,429764.16,4585050.43,429772.5,4585056.34,1.5,class
+0072735AR,Prunus cerasifera 'Pissardii',False,Av Santuari St Josep Muntanya,2.59,1.75,ok,,small,429152.74,4584910.77,429150.65,4584909.24,1.0,class
+0072736AR,Platanus × acerifolia,True,Rbla Mercedes,,10.53,no_kerb,47.31,check,,,,,1.0,floor
+0072737AR,Koelreuteria paniculata,False,C\ Camèlies,4.55,3.87,ok,,medium,429870.15,4584848.5,429872.81,4584844.81,1.0,class
+0072738AR,Pyrus calleryana 'Chanticleer',False,Av Pompeu Fabra,7.47,6.49,ok,,large,429693.99,4585089.06,429690.5,4585095.67,1.5,class
+0072741AR,Pyrus calleryana 'Chanticleer',False,Av Pompeu Fabra,10.03,8.6,ok,,large,429721.93,4585073.22,429729.59,4585079.71,1.5,class
+0072742AR,Morus alba 'Fruitless',False,C\ Larrard,7.79,7.09,ok,,large,429219.79,4584968.8,429217.26,4584961.43,1.5,class
+0072744AR,Brachychiton populneus,False,Rier Can Toda,,8.43,median,,check,,,,,1.0,floor
+0072746AR,Brachychiton populneus,False,Rier Can Toda,,10.57,median,,check,,,,,1.0,floor
+0072747AR,Pyrus calleryana 'Chanticleer',False,Av Pompeu Fabra,,22.86,median,13.14,check,,,,,1.0,floor
+0072748AR,Acer monspessulanum,False,Ptge Mercedes,5.46,4.65,ok,,medium,429321.93,4584806.16,429322.86,4584800.78,1.0,class
+0072749AR,Ligustrum lucidum,False,C\ Larrard,4.52,2.27,ok,,medium,429384.36,4584770.43,429387.63,4584773.56,1.0,class
+0072750AR,Styphnolobium japonicum,False,C\ Escorial,2.67,2.25,ok,,small,429578.38,4584779.7,429576.18,4584778.18,1.0,class
+0072751AR,Platanus × acerifolia,True,Rbla Mercedes,20.33,9.89,ok,,large,429204.67,4584838.22,429213.1,4584819.72,1.5,class
+0072752AR,Ligustrum lucidum,False,C\ Verdi,3.37,2.33,ok,,small,429119.38,4584508.52,429116.59,4584506.63,1.0,class
+0072753AR,Platanus × acerifolia,True,Rbla Mercedes,4.57,2.81,ok,,medium,429328.6,4584873.23,429326.63,4584877.35,1.0,class
+0072755AR,Firmiana simplex,False,Ctra Carmel,,30.65,no_facade,,check,,,,,1.0,floor
+0072756AR,Gleditsia triacanthos f. inermis,False,Rda Guinardó,3.88,3.35,ok,,medium,429859.14,4584867.11,429858.81,4584870.97,1.0,class
+0072757AR,Robinia pseudoacacia,False,C\ Valldoreix,2.51,1.77,ok,,small,428997.29,4584592.36,428998.58,4584590.2,1.0,class
+0072758AR,Morus alba 'Fruitless',False,C\ Larrard,3.4,2.99,ok,,small,429372.15,4584802.09,429369.69,4584799.75,1.0,class
+0072759AR,Robinia pseudoacacia 'Bessoniana',False,C\ Olot,3.03,2.6,ok,,small,429213.91,4584997.21,429215.89,4584994.92,1.0,class
+0072761AR,Tipuana tipu,False,C\ Miquel i Badia,4.49,4.14,ok,,medium,429709.61,4584996.51,429712.21,4584992.84,1.0,class
+0072763AR,Koelreuteria paniculata 'Fastigiata',False,Av Santuari St Josep Muntanya,5.01,4.27,ok,,medium,429224.2,4584812.54,429220.09,4584809.67,1.0,class
+0072764AR,Casuarina cunninghamiana,False,C\ Miquel i Badia,4.25,3.89,ok,,medium,429762.81,4585034.02,429765.26,4585030.55,1.0,class
+0072765AR,Casuarina cunninghamiana,False,C\ Miquel i Badia,4.5,4.31,ok,,medium,429703.27,4584992.0,429705.87,4584988.34,1.0,class
+0072766AR,Pyrus calleryana 'Chanticleer',False,Av Pompeu Fabra,,17.16,median,,check,,,,,1.0,floor
+0072767AR,Ligustrum lucidum,False,Trav Dalt,4.19,4.47,ok,,medium,429656.14,4584824.43,429658.82,4584821.22,1.0,class
+0072769AR,Ligustrum lucidum,False,C\ Larrard,8.44,7.5,ok,,large,429310.89,4584843.0,429318.5,4584846.63,1.5,class
+0072771AR,Albizia julibrissin,False,Trav Dalt,3.27,2.68,ok,,small,429604.27,4584779.05,429606.38,4584776.55,1.0,class
+0072772AR,Tipuana tipu,False,C\ Miquel i Badia,4.22,2.99,ok,,medium,429709.61,4584977.23,429707.49,4584980.89,1.0,class
+0072775AR,Ligustrum lucidum,False,C\ Larrard,,9.89,median,19.24,check,,,,,1.0,floor
+0072778AR,Pyrus calleryana 'Chanticleer',False,Av Pompeu Fabra,5.77,4.57,ok,,medium,429598.54,4585116.96,429602.94,4585120.7,1.0,class
+0072779AR,Koelreuteria paniculata 'Fastigiata',False,Av Santuari St Josep Muntanya,2.49,1.45,ok,,none,429148.19,4584917.0,429146.19,4584915.53,1.0,floor
+0072780AR,Platanus × acerifolia,True,Rbla Mercedes,7.83,7.67,ok,,large,429336.31,4584901.67,429339.64,4584894.58,1.5,class
+0072781AR,Robinia pseudoacacia 'Bessoniana',False,C\ Olot,11.61,11.04,ok,,large,429253.77,4585002.28,429246.58,4585011.39,1.5,class
+0072784AR,Robinia pseudoacacia,False,C\ Olot,,10.98,median,4.64,check,,,,,1.0,floor
+0072785AR,Liquidambar styraciflua,False,C\ Marianao,8.8,8.37,ok,,large,429278.69,4585010.66,429271.95,4585005.0,1.5,class
+0072786AR,Morus alba 'Fruitless',False,C\ Larrard,3.41,2.2,ok,,small,429217.3,4584948.79,429219.8,4584951.12,1.0,class
+0072789AR,Pyrus calleryana 'Chanticleer',False,Av Pompeu Fabra,,13.18,median,,check,,,,,1.0,floor
+0072791AR,Prunus avium,False,C\ Pare Jacint Alegre,8.85,5.53,ok,,large,429437.18,4584842.97,429445.12,4584839.06,1.5,class
+0072792AR,Koelreuteria paniculata,False,C\ Camèlies,4.55,3.9,ok,,medium,429863.6,4584843.78,429866.26,4584840.09,1.0,class
+0072793AR,Tipuana tipu,False,Av Coll del Portell,,10.96,median,,check,,,,,1.0,floor
+0072794AR,Pyrus calleryana 'Chanticleer',False,Av Pompeu Fabra,,22.33,median,7.94,check,,,,,1.0,floor
+0072795AR,Koelreuteria paniculata 'Fastigiata',False,Av Santuari St Josep Muntanya,4.45,3.86,ok,,medium,429198.32,4584848.84,429194.76,4584846.17,1.0,class
+0072796AR,Koelreuteria paniculata,False,C\ Camèlies,4.33,3.65,ok,,medium,429812.25,4584807.28,429814.69,4584803.71,1.0,class
+0072797AR,Albizia julibrissin,False,Trav Dalt,3.07,2.97,ok,,small,429613.71,4584787.02,429615.69,4584784.68,1.0,class
+0072798AR,Ligustrum lucidum,False,Trav Dalt,3.74,3.36,ok,,medium,429661.42,4584784.68,429658.82,4584787.38,1.0,class
+0072799AR,Robinia pseudoacacia,False,C\ Olot,,10.5,median,,check,,,,,1.0,floor
+0072800AR,Gleditsia triacanthos f. inermis,False,Rda Guinardó,4.25,3.55,ok,,medium,429878.79,4584907.43,429878.96,4584903.19,1.0,class
+0072801AR,Tipuana tipu,False,C\ Miquel i Badia,5.73,4.48,ok,,medium,429789.86,4585032.38,429785.99,4585036.6,1.0,class
+0072802AR,Platanus × acerifolia,True,Rbla Mercedes,9.84,8.56,ok,,large,429205.83,4584809.93,429200.28,4584818.06,1.5,class
+0072803AR,Ligustrum lucidum,False,Trav Dalt,4.17,3.96,ok,,medium,429631.41,4584803.77,429634.1,4584800.58,1.0,class
+0072805AR,Styphnolobium japonicum,False,C\ Escorial,3.2,2.17,ok,,small,429615.84,4584705.14,429618.48,4584706.95,1.0,class
+0072806AR,Gleditsia triacanthos,False,Rda Guinardó,3.67,2.96,ok,,medium,429838.66,4584864.79,429838.13,4584868.43,1.0,class
+0072808AR,Prunus cerasifera 'Pissardii',False,Av Santuari St Josep Muntanya,2.15,1.55,ok,,none,429182.79,4584867.13,429181.02,4584865.89,1.0,floor
+0072809AR,Tipuana tipu,False,C\ Miquel i Badia,4.44,3.93,ok,,medium,429721.57,4585004.94,429724.13,4585001.32,1.0,class
+0072810AR,Cedrus atlantica,False,Rbla Mercedes,13.12,2.76,ok,,large,429165.75,4584811.66,429162.19,4584799.04,1.5,class
+0072811AR,Platanus × acerifolia,True,Rbla Mercedes,,9.01,no_kerb,46.06,check,,,,,1.0,floor
+0072812AR,Styphnolobium japonicum,False,Av Mare de Déu de Montserrat,4.21,3.36,ok,,medium,429830.17,4584939.43,429827.45,4584942.65,1.0,class
+0072813AR,Robinia pseudoacacia,False,C\ Valldoreix,2.85,3.14,ok,,small,428992.33,4584568.89,428990.22,4584570.81,1.0,class
+0072814AR,Pyrus calleryana 'Chanticleer',False,Av Pompeu Fabra,,8.95,median,,check,,,,,1.0,floor
+0072815AR,Brachychiton acerifolius,False,Av Mare de Déu de Montserrat,4.32,3.35,ok,,medium,429812.37,4584924.87,429809.65,4584928.22,1.0,class
+0072816AR,Ligustrum lucidum,False,C\ Larrard,3.22,2.59,ok,,small,429258.5,4584922.2,429256.16,4584919.99,1.0,class
+0072818AR,Prunus avium,False,C\ Mercedes,,1.49,no_kerb,,check,,,,,1.0,floor
+0072819AR,Koelreuteria paniculata,False,C\ Camèlies,4.11,3.41,ok,,medium,429699.0,4584729.56,429701.3,4584726.15,1.0,class
+0072821AR,Morus alba 'Fruitless',False,C\ Larrard,6.2,5.14,ok,,large,429227.89,4584933.4,429232.48,4584937.56,1.5,class
+0072822AR,Morus alba 'Fruitless',False,C\ Larrard,,9.13,median,,check,,,,,1.0,floor
+0072823AR,Pyrus calleryana 'Chanticleer',False,Av Pompeu Fabra,,16.78,median,,check,,,,,1.0,floor
+0072824AR,Pyrus calleryana 'Chanticleer',False,Av Pompeu Fabra,16.86,16.31,ok,,large,429578.56,4585147.29,429565.85,4585136.22,1.5,class
+0072825AR,Pyrus calleryana 'Chanticleer',False,Av Pompeu Fabra,,16.06,median,,check,,,,,1.0,floor
+0072826AR,Prunus avium,False,C\ Marianao,,14.61,median,,check,,,,,1.0,floor
+0072827AR,Tipuana tipu,False,C\ Escorial,7.6,6.85,ok,,large,429620.22,4584733.49,429613.96,4584729.16,1.5,class
+0072828AR,Koelreuteria paniculata 'Fastigiata',False,Av Santuari St Josep Muntanya,5.34,4.46,ok,,medium,429163.22,4584900.51,429158.53,4584897.96,1.0,class
+0072829AR,Morus alba 'Fruitless',False,C\ Larrard,4.91,3.0,ok,,medium,429220.01,4584945.89,429224.92,4584945.58,1.0,class
+0072830AR,Brachychiton populneus,False,Rier Can Toda,,17.31,median,,check,,,,,1.0,floor
+0072831AR,Gleditsia triacanthos,False,Trav Dalt,3.92,2.22,ok,,medium,429708.12,4584822.09,429706.14,4584825.47,1.0,class
+0072832AR,Gleditsia triacanthos,False,Trav Dalt,3.45,2.58,ok,,small,429699.35,4584856.99,429701.56,4584854.33,1.0,class
+0072833AR,Robinia pseudoacacia 'Bessoniana',False,C\ Olot,2.78,2.32,ok,,small,429218.04,4585000.35,429219.46,4584997.96,1.0,class
+0072834AR,Firmiana simplex,False,Ctra Carmel,,31.89,no_facade,,check,,,,,1.0,floor
+0072835AR,Platanus × acerifolia,True,Rbla Mercedes,7.75,6.74,ok,,large,429288.93,4584851.03,429285.6,4584858.04,1.5,class
+0072836AR,Platanus × acerifolia,True,Rbla Mercedes,21.44,13.7,ok,,large,429221.23,4584816.8,429205.24,4584831.09,1.5,class
+0072837AR,Platanus × acerifolia,True,Rbla Mercedes,12.95,6.0,ok,,large,429204.59,4584838.18,429208.8,4584825.94,1.5,class
+0072841AR,Ligustrum lucidum,False,C\ Verdi,3.5,2.74,ok,,medium,429109.17,4584523.56,429106.26,4584521.62,1.0,class
+0072843AR,Gleditsia triacanthos,False,Trav Dalt,3.58,2.26,ok,,medium,429781.49,4584852.08,429780.48,4584855.51,1.0,class
+0072844AR,Gleditsia triacanthos,False,Rda Guinardó,3.81,3.0,ok,,medium,429847.07,4584865.96,429846.7,4584869.75,1.0,class
+0072845AR,Jacaranda mimosifolia,False,Ptge Napoleó,,6.02,no_kerb,,check,,,,,1.0,floor
+0072846AR,Quercus ilex,False,C\ Arnold Schönberg,6.18,3.38,ok,,large,428903.92,4584942.21,428900.42,4584947.3,1.5,class
+0072847AR,Styphnolobium japonicum,False,C\ Sardenya,5.9,4.91,ok,,medium,429936.53,4584932.46,429942.06,4584934.53,1.0,class
+0072848AR,Firmiana simplex,False,Ctra Carmel,28.74,27.83,ok,,large,429577.22,4585250.18,429570.65,4585278.16,1.5,class
+0072849AR,Prunus avium,False,C\ Pare Jacint Alegre,2.39,1.58,ok,,none,429408.03,4584855.25,429406.84,4584853.18,1.0,floor
+0072850AR,Gleditsia triacanthos f. inermis,False,Trav Dalt,4.08,2.48,ok,,medium,429737.12,4584836.39,429735.56,4584840.15,1.0,class
+0072851AR,Morus alba 'Fruitless',False,C\ Larrard,6.35,5.03,ok,,large,429200.78,4584962.85,429203.52,4584968.58,1.5,class
+0072852AR,Platanus × acerifolia,True,Rbla Mercedes,,7.57,no_kerb,,check,,,,,1.0,floor
+0072853AR,Pyrus calleryana 'Chanticleer',False,Av Pompeu Fabra,11.0,9.33,ok,,large,429714.79,4585080.66,429707.68,4585089.06,1.5,class
+0072856AR,Pyrus calleryana 'Chanticleer',False,Av Pompeu Fabra,,15.91,median,19.02,check,,,,,1.0,floor
+0072857AR,Morus alba 'Fruitless',False,C\ Molist,5.55,1.07,ok,,medium,429517.06,4584861.23,429521.84,4584864.07,1.0,class
+0072858AR,Acer monspessulanum,False,Ptge Mercedes,5.94,5.44,ok,,medium,429301.93,4584797.61,429304.45,4584792.23,1.0,class
+0072859AR,Ligustrum lucidum,False,Trav Dalt,3.32,2.87,ok,,small,429665.66,4584788.77,429663.36,4584791.16,1.0,class
+0072861AR,Robinia pseudoacacia 'Bessoniana',False,C\ Olot,2.87,2.26,ok,,small,429230.67,4585010.93,429232.56,4585008.77,1.0,class
+0072865AR,Liquidambar styraciflua,False,C\ Marianao,,15.16,median,,check,,,,,1.0,floor
+0072866AR,Koelreuteria paniculata,False,C\ Camèlies,,16.48,median,4.01,check,,,,,1.0,floor
+0072868AR,Morus alba 'Fruitless',False,C\ Molist,5.36,1.14,ok,,medium,429519.31,4584857.44,429523.92,4584860.17,1.0,class
+0072870AR,Styphnolobium japonicum,False,C\ Sant Cugat del Vallès,5.28,3.03,ok,,medium,429214.77,4584715.99,429217.05,4584711.22,1.0,class
+0072871AR,Styphnolobium japonicum,False,C\ Sant Cugat del Vallès,,8.64,median,,check,,,,,1.0,floor
+0072872AR,Robinia pseudoacacia 'Bessoniana',False,C\ Olot,2.97,2.63,ok,,small,429227.08,4585008.04,429227.72,4585005.15,1.0,class
+0072873AR,Koelreuteria paniculata,False,C\ Camèlies,,23.41,median,4.28,check,,,,,1.0,floor
+0072874AR,Ligustrum lucidum,False,C\ Larrard,4.18,2.99,ok,,medium,429395.34,4584758.99,429398.36,4584761.88,1.0,class
+0072875AR,Ligustrum lucidum,False,C\ Verdi,4.27,4.33,ok,,medium,429088.47,4584554.23,429086.51,4584550.44,1.0,class
+0072876AR,Firmiana simplex,False,Ctra Carmel,,25.86,median,,check,,,,,1.0,floor
+0072877AR,Pyrus calleryana 'Chanticleer',False,Av Pompeu Fabra,13.19,12.83,ok,,large,429581.36,4585144.08,429571.42,4585135.41,1.5,class
+0072878AR,Platanus × acerifolia,True,Rbla Mercedes,4.94,3.31,ok,,medium,429347.31,4584881.74,429345.21,4584886.21,1.0,class
+0072879AR,Firmiana simplex,False,Ctra Carmel,,35.25,no_facade,,check,,,,,1.0,floor
+0072880AR,Pyrus calleryana 'Chanticleer',False,Av Pompeu Fabra,9.64,9.34,ok,,large,429584.17,4585140.86,429576.89,4585134.52,1.5,class
+0072881AR,Albizia julibrissin,False,Trav Dalt,3.52,2.7,ok,,medium,429591.26,4584768.06,429593.53,4584765.37,1.0,class
+0072883AR,Koelreuteria paniculata,False,C\ Camèlies,4.61,3.83,ok,,medium,429759.66,4584771.5,429761.29,4584767.18,1.0,class
+0072884AR,Ligustrum lucidum,False,C\ Larrard,6.63,4.81,ok,,large,429324.08,4584832.13,429326.28,4584838.39,1.5,class
+0072886AR,Jacaranda mimosifolia,False,Ptge Napoleó,,5.07,no_kerb,,check,,,,,1.0,floor
+0072888AR,Ligustrum lucidum,False,C\ Larrard,5.29,3.76,ok,,medium,429211.7,4584972.01,429212.32,4584966.75,1.0,class
+0072889AR,Ligustrum lucidum,False,Trav Dalt,4.26,3.91,ok,,medium,429634.04,4584761.57,429631.39,4584764.91,1.0,class
+0072890AR,Jacaranda mimosifolia,False,Rier Can Toda,4.9,4.02,ok,,medium,429715.05,4584895.38,429719.81,4584896.55,1.0,class
+0072893AR,Brachychiton populneus,False,Rier Can Toda,,10.68,median,,check,,,,,1.0,floor
+0072894AR,Styphnolobium japonicum,False,C\ Sardenya,5.01,3.11,ok,,medium,429929.33,4584945.4,429933.62,4584947.97,1.0,class
+0072895AR,Tipuana tipu,False,C\ Escorial,7.61,7.02,ok,,large,429625.1,4584726.43,429618.85,4584722.11,1.5,class
+0072896AR,Firmiana simplex,False,Ctra Carmel,,23.8,median,,check,,,,,1.0,floor
+0072897AR,Acer monspessulanum,False,Ptge Mercedes,5.43,4.9,ok,,medium,429278.56,4584786.16,429280.87,4584781.24,1.0,class
+0072898AR,Pyrus calleryana 'Chanticleer',False,Av Pompeu Fabra,5.07,4.07,ok,,medium,429693.99,4585089.06,429696.09,4585093.67,1.0,class
+0072900AR,Brachychiton populneus,False,Rier Can Toda,,11.16,median,,check,,,,,1.0,floor
+0072901AR,Pyrus calleryana 'Chanticleer',False,Av Pompeu Fabra,,6.78,median,,check,,,,,1.0,floor
+0072903AR,Platanus × acerifolia,True,Rbla Mercedes,5.08,4.08,ok,,medium,429262.64,4584841.7,429260.5,4584846.3,1.0,class
+0072905AR,Firmiana simplex,False,Ctra Carmel,,54.03,no_facade,,check,,,,,1.0,floor
+0072907AR,Styphnolobium japonicum,False,Av Mare de Déu de Montserrat,4.19,3.16,ok,,medium,429876.04,4584977.58,429873.33,4584980.79,1.0,class
+0072908AR,Morus alba 'Fruitless',False,C\ Larrard,3.36,2.41,ok,,small,429279.73,4584899.86,429277.27,4584897.57,1.0,class
+0072910AR,Prunus avium,False,C\ Mercedes,,1.23,no_kerb,,check,,,,,1.0,floor
+0072911AR,Prunus avium,False,C\ Pare Jacint Alegre,2.93,1.98,ok,,small,429434.6,4584843.87,429433.64,4584841.1,1.0,class
+0072912AR,Acer monspessulanum,False,C\ Rabassa,2.97,2.2,ok,,small,429455.95,4584590.66,429453.55,4584588.9,1.0,class
+0072915AR,Brachychiton populneus,False,Rier Can Toda,,16.72,median,26.43,check,,,,,1.0,floor
+0072916AR,Gleditsia triacanthos,False,Rda Guinardó,4.1,3.12,ok,,medium,429852.12,4584905.71,429852.5,4584901.62,1.0,class
+0072917AR,Jacaranda mimosifolia,False,Ptge Napoleó,,8.03,median,,check,,,,,1.0,floor
+0072918AR,Gleditsia triacanthos,False,Rda Guinardó,4.21,3.51,ok,,medium,429832.42,4584903.9,429832.8,4584899.7,1.0,class
+0072920AR,Brachychiton populneus,False,Rier Can Toda,,7.92,median,,check,,,,,1.0,floor
+0072921AR,Ligustrum lucidum,False,C\ Larrard,6.28,4.06,ok,,large,429203.55,4584959.48,429208.39,4584963.47,1.5,class
+0072924AR,Platanus × acerifolia,True,Rbla Mercedes,,9.89,no_kerb,,check,,,,,1.0,floor
+0072926AR,Ligustrum lucidum,False,Trav Dalt,4.1,3.82,ok,,medium,429643.55,4584813.93,429646.18,4584810.79,1.0,class
+0072927AR,Brachychiton populneus,False,Rier Can Toda,,21.54,median,,check,,,,,1.0,floor
+0072928AR,Ligustrum lucidum,False,C\ Larrard,4.05,2.66,ok,,medium,429399.38,4584754.78,429402.31,4584757.59,1.0,class
+0072929AR,Brachychiton populneus,False,Rier Can Toda,,10.01,median,,check,,,,,1.0,floor
+0072933AR,Pyrus calleryana 'Chanticleer',False,Av Pompeu Fabra,12.95,11.89,ok,,large,429630.11,4585103.5,429639.94,4585111.93,1.5,class
+0072934AR,Casuarina cunninghamiana,False,C\ Miquel i Badia,10.77,9.57,ok,,large,429728.37,4584982.64,429720.86,4584990.36,1.5,class
+0072935AR,Liquidambar styraciflua,False,C\ Marianao,2.98,2.21,ok,,small,429293.19,4584986.73,429291.04,4584984.66,1.0,class
+0072936AR,Koelreuteria paniculata,False,C\ Camèlies,4.32,3.56,ok,,medium,429745.7,4584761.75,429748.15,4584758.19,1.0,class
+0072937AR,Pyrus calleryana 'Chanticleer',False,Av Pompeu Fabra,2.55,1.79,ok,,small,429596.38,4585119.51,429596.01,4585122.03,1.0,class
+0072938AR,Koelreuteria paniculata,False,C\ Camèlies,4.55,3.81,ok,,medium,429856.35,4584838.56,429859.03,4584834.88,1.0,class
+0072939AR,Morus alba 'Fruitless',False,C\ Larrard,3.26,2.46,ok,,small,429357.09,4584817.92,429354.72,4584815.68,1.0,class
+0072940AR,Prunus cerasifera 'Pissardii',False,Av Santuari St Josep Muntanya,3.77,2.83,ok,,medium,429191.28,4584857.62,429187.85,4584856.06,1.0,class
+0072941AR,Prunus cerasifera 'Pissardii',False,Av Santuari St Josep Muntanya,5.38,4.34,ok,,medium,429191.93,4584856.2,429191.5,4584850.84,1.0,class
+0072942AR,Ligustrum lucidum,False,C\ Larrard,3.2,3.05,ok,,small,429323.75,4584853.33,429321.42,4584851.14,1.0,class
+0072944AR,Pyrus calleryana 'Chanticleer',False,Av Pompeu Fabra,7.66,6.59,ok,,large,429718.79,4585076.92,429724.64,4585081.87,1.5,class
+0072945AR,Brachychiton populneus,False,C\ Antequera,8.16,7.35,ok,,large,429541.32,4585010.17,429548.84,4585007.01,1.5,class
+0072946AR,Pyrus calleryana 'Chanticleer',False,C\ Sant Cugat del Vallès,5.36,2.75,ok,,medium,429353.67,4584779.77,429350.78,4584775.25,1.0,class
+0072947AR,Ligustrum lucidum,False,C\ Larrard,6.52,5.61,ok,,large,429308.3,4584848.42,429314.18,4584851.23,1.5,class
+0072948AR,Gleditsia triacanthos,False,Trav Dalt,3.05,2.08,ok,,small,429685.67,4584845.6,429687.62,4584843.25,1.0,class
+0072949AR,Ligustrum lucidum,False,C\ Larrard,3.28,2.21,ok,,small,429259.32,4584904.35,429261.73,4584906.58,1.0,class
+0072951AR,Ligustrum lucidum,False,C\ Larrard,3.17,2.66,ok,,small,429294.97,4584883.54,429292.66,4584881.38,1.0,class
+0072952AR,Morus alba 'Fruitless',False,C\ Larrard,3.46,2.13,ok,,small,429236.82,4584928.1,429239.34,4584930.47,1.0,class
+0072953AR,Pyrus calleryana 'Chanticleer',False,C\ Sant Cugat del Vallès,2.83,1.85,ok,,small,429357.42,4584781.56,429358.64,4584779.01,1.0,class
+0072954AR,Ligustrum lucidum,False,Trav Dalt,4.13,4.33,ok,,medium,429639.23,4584810.32,429641.87,4584807.15,1.0,class
+0072955AR,Tipuana tipu,False,C\ Escorial,7.61,6.88,ok,,large,429636.79,4584709.56,429630.53,4584705.22,1.5,class
+0072957AR,Liquidambar styraciflua,False,C\ Marianao,,12.99,median,,check,,,,,1.0,floor
+0072958AR,Ligustrum lucidum,False,C\ Larrard,,11.99,median,,check,,,,,1.0,floor
+0072959AR,Platanus × acerifolia,True,Rbla Mercedes,4.59,4.61,ok,,medium,429306.83,4584884.04,429309.51,4584880.31,1.0,class
+0072960AR,Firmiana simplex,False,Ctra Carmel,24.61,22.27,ok,,large,429597.31,4585256.76,429604.7,4585280.23,1.5,class
+0072961AR,Ligustrum lucidum,False,C\ Larrard,4.4,3.23,ok,,medium,429272.71,4584907.38,429268.32,4584907.07,1.0,class
+0072962AR,Robinia pseudoacacia 'Bessoniana',False,C\ Olot,4.19,3.5,ok,,medium,429217.57,4584982.55,429216.89,4584986.68,1.0,class
+0072963AR,Robinia pseudoacacia,False,C\ Olot,,10.8,median,5.1,check,,,,,1.0,floor
+0072964AR,Koelreuteria paniculata,False,C\ Camèlies,4.26,3.43,ok,,medium,429652.06,4584697.66,429654.46,4584694.13,1.0,class
+0072966AR,Firmiana simplex,False,Ctra Carmel,27.57,26.58,ok,,large,429577.22,4585250.18,429564.99,4585274.89,1.5,class
+0072967AR,Ligustrum lucidum,False,C\ Larrard,3.31,2.36,ok,,small,429361.73,4584813.05,429359.33,4584810.76,1.0,class
+0072968AR,Prunus cerasifera 'Pissardii',False,C\ Mercedes,,1.78,no_kerb,,check,,,,,1.0,floor
+0072969AR,Celtis australis,False,Av Pompeu Fabra,2.83,2.62,ok,,small,429589.06,4585135.24,429587.88,4585132.66,1.0,class
+0072970AR,Brachychiton acerifolius,False,Av Mare de Déu de Montserrat,4.32,3.44,ok,,medium,429823.28,4584933.71,429820.56,4584937.06,1.0,class
+0072973AR,Albizia julibrissin,False,Trav Dalt,4.15,3.98,ok,,medium,429635.58,4584807.27,429638.25,4584804.09,1.0,class
+0072974AR,Ligustrum lucidum,False,C\ Larrard,3.31,1.93,ok,,small,429266.3,4584896.85,429268.69,4584899.13,1.0,class
+0072975AR,Ligustrum lucidum,False,C\ Larrard,3.39,2.28,ok,,small,429275.29,4584904.62,429272.81,4584902.3,1.0,class
+0072977AR,Koelreuteria paniculata,False,C\ Camèlies,5.89,5.14,ok,,medium,429874.48,4584852.75,429879.48,4584849.63,1.0,class
+0072978AR,Brachychiton populneus,False,Rier Can Toda,,11.97,median,,check,,,,,1.0,floor
+0072979AR,Platanus × acerifolia,True,Rbla Mercedes,9.22,8.67,ok,,large,429253.05,4584863.18,429259.7,4584856.79,1.5,class
+0072982AR,Koelreuteria paniculata,False,C\ Camèlies,4.5,3.82,ok,,medium,429765.58,4584775.58,429768.14,4584771.88,1.0,class
+0072983AR,Acer monspessulanum,False,Ptge Mercedes,,5.07,median,3.12,check,,,,,1.0,floor
+0072985AR,Brachychiton populneus,False,C\ Antequera,8.14,7.34,ok,,large,429545.98,4585021.24,429553.48,4585018.08,1.5,class
+0072986AR,Firmiana simplex,False,Ctra Carmel,,52.18,no_facade,,check,,,,,1.0,floor
+0072987AR,Populus nigra,False,C\ Escorial,3.22,2.11,ok,,small,429627.56,4584688.04,429630.21,4584689.86,1.0,class
+0072988AR,Firmiana simplex,False,Ctra Carmel,,29.55,no_kerb,20.72,check,,,,,1.0,floor
+0072989AR,Koelreuteria paniculata,False,C\ Camèlies,4.06,3.35,ok,,medium,429705.72,4584734.1,429708.0,4584730.73,1.0,class
+0072990AR,Morus alba 'Fruitless',False,C\ Larrard,4.27,1.89,ok,,medium,429211.68,4584954.83,429212.5,4584959.02,1.0,class
+0072991AR,Ligustrum lucidum,False,C\ Verdi,3.76,3.58,ok,,medium,429082.78,4584562.69,429079.66,4584560.59,1.0,class
+0072992AR,Ligustrum lucidum,False,C\ Larrard,3.2,1.95,ok,,small,429278.97,4584883.58,429281.28,4584885.79,1.0,class
+0072993AR,Platanus × acerifolia,True,Rbla Mercedes,8.43,8.18,ok,,large,429321.1,4584894.18,429321.0,4584885.75,1.5,class
+0072994AR,Pyrus calleryana 'Chanticleer',False,Av Pompeu Fabra,12.94,11.33,ok,,large,429725.92,4585068.51,429735.8,4585076.87,1.5,class
+0072995AR,Jacaranda mimosifolia,False,Rda Guinardó,4.18,3.49,ok,,medium,429866.05,4584867.46,429866.15,4584871.64,1.0,class
+0072996AR,Firmiana simplex,False,Ctra Carmel,,46.05,no_facade,4.25,check,,,,,1.0,floor
+0072999AR,Pyrus calleryana 'Chanticleer',False,C\ Sant Cugat del Vallès,2.83,1.61,ok,,small,429364.07,4584784.74,429365.29,4584782.19,1.0,class
+0073000AR,Robinia pseudoacacia,False,C\ Valldoreix,6.48,5.63,ok,,large,428996.31,4584573.59,428991.24,4584577.62,1.5,class
+0073001AR,Pyrus calleryana 'Chanticleer',False,C\ Sant Cugat del Vallès,2.83,1.95,ok,,small,429343.92,4584775.1,429345.14,4584772.55,1.0,class
+0073002AR,Brachychiton populneus,False,Rier Can Toda,,8.1,median,,check,,,,,1.0,floor
+0073003AR,Ligustrum lucidum,False,C\ Verdi,3.58,2.41,ok,,medium,429130.06,4584492.79,429127.09,4584490.8,1.0,class
+0073004AR,Robinia pseudoacacia,False,C\ Valldoreix,4.94,5.16,ok,,medium,428993.82,4584570.54,428990.16,4584573.85,1.0,class
+0073005AR,Brachychiton acerifolius,False,Av Mare de Déu de Montserrat,3.89,2.61,ok,,medium,429842.69,4584950.0,429840.18,4584952.97,1.0,class
+0073006AR,Morus alba,False,C\ Mare de Déu de la Salut,15.13,9.7,ok,,large,429476.78,4584745.33,429487.1,4584734.28,1.5,class
+0073007AR,Ligustrum lucidum,False,C\ Larrard,3.2,3.51,ok,,small,429327.87,4584848.97,429325.54,4584846.77,1.0,class
+0073008AR,Ligustrum lucidum,False,Trav Dalt,4.18,3.92,ok,,medium,429627.26,4584800.27,429629.95,4584797.07,1.0,class
+0073009AR,Pyrus calleryana 'Chanticleer',False,Av Pompeu Fabra,7.73,7.15,ok,,large,429760.94,4585054.98,429767.25,4585059.45,1.5,class
+0073010AR,Platanus × acerifolia,True,Rbla Mercedes,5.06,4.09,ok,,medium,429268.92,4584844.63,429266.79,4584849.21,1.0,class
+0073011AR,Morus alba 'Fruitless',False,C\ Larrard,6.08,4.98,ok,,large,429224.01,4584937.66,429228.4,4584941.88,1.5,class
+0073013AR,Ligustrum lucidum,False,C\ Larrard,3.29,2.27,ok,,small,429290.27,4584888.58,429287.86,4584886.33,1.0,class
+0073014AR,Prunus cerasifera 'Pissardii',False,C\ Mercedes,,5.36,no_kerb,,check,,,,,1.0,floor
+0073017AR,Platanus × acerifolia,True,Rbla Mercedes,,8.68,no_kerb,46.63,check,,,,,1.0,floor
+0073018AR,Tipuana tipu,False,C\ Escorial,7.62,6.88,ok,,large,429639.99,4584704.94,429633.73,4584700.6,1.5,class
+0073019AR,Gleditsia triacanthos f. inermis,False,Rda Guinardó,,14.86,median,4.84,check,,,,,1.0,floor
+0073020AR,Robinia pseudoacacia,False,C\ Olot,,15.87,median,4.78,check,,,,,1.0,floor
+0073022AR,Robinia pseudoacacia 'Bessoniana',False,C\ Olot,10.85,8.87,ok,,large,429237.26,4585017.78,429247.59,4585021.12,1.5,class
+0073023AR,Koelreuteria paniculata,False,C\ Camèlies,4.24,3.49,ok,,medium,429657.59,4584701.41,429659.97,4584697.9,1.0,class
+0073024AR,Robinia pseudoacacia 'Bessoniana',False,C\ Olot,,15.82,median,4.71,check,,,,,1.0,floor
+0073025AR,Ligustrum lucidum,False,C\ Larrard,,8.36,median,5.06,check,,,,,1.0,floor
+0073026AR,Tipuana tipu,False,C\ Miquel i Badia,4.5,4.02,ok,,medium,429696.98,4584987.54,429699.59,4584983.87,1.0,class
+0073027AR,Robinia pseudoacacia,False,C\ Olot,,16.27,median,4.72,check,,,,,1.0,floor
+0073028AR,Platanus × acerifolia,True,Rbla Mercedes,7.84,6.75,ok,,large,429294.4,4584853.63,429291.98,4584861.09,1.5,class
+0073029AR,Styphnolobium japonicum,False,Av Mare de Déu de Montserrat,5.3,4.67,ok,,medium,429892.32,4584990.34,429891.96,4584995.64,1.0,class
+0073030AR,Ligustrum lucidum,False,Trav Dalt,4.15,3.9,ok,,medium,429624.43,4584753.94,429621.85,4584757.19,1.0,class
+0073031AR,Celtis australis,False,Av Pompeu Fabra,12.72,10.35,ok,,large,429692.82,4585088.07,429684.6,4585097.78,1.5,class
+0073033AR,Ginkgo biloba,False,C\ Sant Josep Cottolengo,8.0,6.02,ok,,large,429508.55,4585025.9,429502.89,4585020.24,1.5,class
+0073034AR,Brachychiton populneus,False,Rier Can Toda,,12.05,median,,check,,,,,1.0,floor
+0073036AR,Brachychiton acerifolius,False,Av Mare de Déu de Montserrat,4.23,3.63,ok,,medium,429869.51,4584972.18,429866.83,4584975.45,1.0,class
+0073038AR,Prunus cerasifera 'Pissardii',False,Av Santuari St Josep Muntanya,2.14,1.34,ok,,none,429177.78,4584874.32,429176.02,4584873.1,1.0,floor
+0073039AR,Robinia pseudoacacia 'Bessoniana',False,C\ Olot,13.11,12.0,ok,,large,429253.77,4585002.28,429250.8,4585015.04,1.5,class
+0073040AR,Morus alba 'Fruitless',False,C\ Larrard,3.19,1.94,ok,,small,429274.75,4584888.0,429277.06,4584890.21,1.0,class
+0073041AR,Ligustrum lucidum,False,C\ Larrard,6.63,6.57,ok,,large,429403.65,4584773.33,429399.24,4584768.38,1.5,class
+0073042AR,Casuarina cunninghamiana,False,C\ Miquel i Badia,9.59,8.81,ok,,large,429739.41,4584991.8,429733.29,4584999.18,1.5,class
+0073044AR,Koelreuteria paniculata,False,C\ Camèlies,,10.16,median,4.0,check,,,,,1.0,floor
+0073045AR,Styphnolobium japonicum,False,C\ Sant Cugat del Vallès,8.43,7.17,ok,,large,429215.21,4584716.2,429223.64,4584716.35,1.5,class
+0073046AR,Firmiana simplex,False,Ctra Carmel,27.8,26.85,ok,,large,429577.22,4585250.18,429554.0,4585265.48,1.5,class
+0073049AR,Ligustrum lucidum,False,C\ Larrard,4.61,2.18,ok,,medium,429381.43,4584773.49,429384.75,4584776.68,1.0,class
+0073050AR,Pyrus calleryana 'Chanticleer',False,Av Pompeu Fabra,,14.97,median,22.47,check,,,,,1.0,floor
+0073051AR,Prunus avium,False,C\ Marianao,2.99,2.02,ok,,small,429288.11,4584992.01,429285.47,4584990.6,1.0,class
+0073052AR,Platanus × acerifolia,True,Rbla Mercedes,5.0,3.47,ok,,medium,429359.72,4584887.58,429357.59,4584892.11,1.0,class
+0073053AR,Casuarina cunninghamiana,False,C\ Miquel i Badia,4.47,4.04,ok,,medium,429715.59,4585000.73,429718.17,4584997.08,1.0,class
+0073054AR,Jacaranda mimosifolia,False,Rda Guinardó,10.48,9.07,ok,,large,429872.28,4584865.07,429879.32,4584872.85,1.5,class
+0073055AR,Platanus × acerifolia,True,Rbla Mercedes,15.33,9.88,ok,,large,429221.23,4584816.8,429208.85,4584825.86,1.5,class
+0073057AR,Ligustrum lucidum,False,Trav Dalt,3.01,2.4,ok,,small,429678.91,4584800.21,429677.03,4584802.56,1.0,class
+0073058AR,Ligustrum lucidum,False,Trav Dalt,2.9,2.39,ok,,small,429669.91,4584792.87,429667.9,4584794.95,1.0,class
+0073059AR,Ligustrum lucidum,False,C\ Larrard,3.2,3.06,ok,,small,429332.04,4584844.54,429329.71,4584842.34,1.0,class
+0073062AR,Platanus × acerifolia,True,Rbla Mercedes,6.11,3.83,ok,,large,429332.5,4584875.08,429334.2,4584880.96,1.5,class
+0073064AR,Prunus avium,False,C\ Pare Jacint Alegre,8.58,6.21,ok,,large,429398.91,4584863.4,429390.38,4584864.33,1.5,class
+0073065AR,Albizia julibrissin,False,Trav Dalt,4.18,3.92,ok,,medium,429647.85,4584772.86,429645.18,4584776.07,1.0,class
+0073066AR,Brachychiton populneus,False,Rier Can Toda,,11.97,median,,check,,,,,1.0,floor
+0073069AR,Prunus avium,False,C\ Pare Jacint Alegre,2.89,1.43,ok,,small,429450.18,4584841.49,429449.94,4584838.6,1.0,class
+0073070AR,Liquidambar styraciflua,False,C\ Pare Jacint Alegre,4.62,2.82,ok,,medium,429398.7,4584861.44,429394.08,4584861.44,1.0,class
+0073071AR,Tipuana tipu,False,C\ Escorial,7.61,7.2,ok,,large,429633.7,4584714.02,429627.44,4584709.69,1.5,class
+0073072AR,Acer monspessulanum,False,Ptge Mercedes,,5.33,median,24.98,check,,,,,1.0,floor
+0073073AR,Platanus × acerifolia,True,Rbla Mercedes,4.57,2.74,ok,,medium,429316.23,4584867.33,429314.26,4584871.45,1.0,class
+0073074AR,Brachychiton populneus,False,Rier Can Toda,,13.14,median,,check,,,,,1.0,floor
+0073075AR,Tipuana tipu,False,C\ Escorial,7.61,4.29,ok,,large,429629.51,4584720.07,429623.26,4584715.73,1.5,class
+0073076AR,Tipuana tipu,False,C\ Escorial,7.61,4.56,ok,,large,429632.36,4584715.96,429626.1,4584711.62,1.5,class
+0073078AR,Robinia pseudoacacia,False,Ptge Napoleó,18.24,4.49,ok,,large,428973.11,4584561.97,428991.29,4584560.55,1.5,class
+0073081AR,Koelreuteria paniculata,False,C\ Camèlies,4.54,3.77,ok,,medium,429850.39,4584834.24,429853.05,4584830.57,1.0,class
+0073083AR,Ligustrum lucidum,False,C\ Larrard,,9.92,median,,check,,,,,1.0,floor
+0073084AR,Ligustrum lucidum,False,C\ Larrard,11.68,9.85,ok,,large,429331.48,4584816.69,429342.02,4584821.73,1.5,class
+0073085AR,Liquidambar styraciflua,False,C\ Pare Jacint Alegre,,7.87,median,8.58,check,,,,,1.0,floor
+0073088AR,Pyrus calleryana 'Chanticleer',False,Av Pompeu Fabra,,5.1,median,,check,,,,,1.0,floor
+0073090AR,Liquidambar styraciflua,False,C\ Marianao,,7.64,median,,check,,,,,1.0,floor
+0073091AR,Pyrus calleryana 'Chanticleer',False,Av Pompeu Fabra,6.28,4.96,ok,,large,429623.75,4585110.91,429628.52,4585115.0,1.5,class
+0073092AR,Ligustrum lucidum,False,Trav Dalt,3.43,2.65,ok,,small,429596.51,4584772.5,429598.72,4584769.88,1.0,class
+0073093AR,Firmiana simplex,False,Ctra Carmel,,34.32,no_facade,,check,,,,,1.0,floor
+0073095AR,Brachychiton populneus,False,C\ Antequera,8.11,7.33,ok,,large,429550.65,4585032.31,429558.12,4585029.16,1.5,class
+0073096AR,Ligustrum lucidum,False,C\ Larrard,3.36,2.3,ok,,small,429366.72,4584807.81,429364.28,4584805.49,1.0,class
+0073098AR,Pyrus calleryana 'Chanticleer',False,Av Pompeu Fabra,13.09,12.67,ok,,large,429639.54,4585132.56,429629.73,4585123.89,1.5,class
+0073101AR,Schinus molle,False,Rda Guinardó,,7.37,median,12.24,check,,,,,1.0,floor
+0073102AR,Koelreuteria paniculata,False,C\ Camèlies,4.31,3.62,ok,,medium,429818.88,4584811.81,429821.31,4584808.25,1.0,class
+0073103AR,Prunus cerasifera 'Pissardii',False,Av Santuari St Josep Muntanya,2.16,1.47,ok,,none,429174.36,4584879.23,429172.59,4584878.0,1.0,floor
+0073106AR,Ligustrum lucidum,False,C\ Verdi,3.39,2.63,ok,,small,429116.81,4584512.29,429114.01,4584510.38,1.0,class
+0073108AR,Tilia platyphyllos,False,C\ Mare de Déu de la Salut,21.76,11.09,ok,,large,429503.31,4584764.57,429524.71,4584760.67,1.5,class
+0073109AR,Brachychiton populneus,False,Rier Can Toda,,10.24,median,,check,,,,,1.0,floor
+0073110AR,Koelreuteria paniculata,False,C\ Camèlies,4.5,3.78,ok,,medium,429772.12,4584780.06,429774.66,4584776.34,1.0,class
+0073111AR,Brachychiton populneus,False,Rier Can Toda,,10.35,median,,check,,,,,1.0,floor
+0289495AR,Robinia pseudoacacia,False,C\ Olot,3.12,2.69,ok,,small,429209.94,4584993.77,429211.17,4584990.9,1.0,class
+0289496AR,Robinia pseudoacacia 'Bessoniana',False,C\ Olot,3.61,2.51,ok,,medium,429216.13,4584981.37,429213.84,4584984.16,1.0,class
+0289662AR,Robinia pseudoacacia,False,C\ Mossèn Batlle,,6.78,no_kerb,,check,,,,,1.0,floor
+0289663AR,Ficus carica,False,C\ Mossèn Batlle,,6.05,no_kerb,,check,,,,,1.0,floor
+0289664AR,Magnolia grandiflora,False,C\ Mossèn Batlle,,4.36,no_kerb,,check,,,,,1.0,floor
+0290488AR,Tipuana tipu,False,Trav Dalt,19.7,12.77,ok,,large,429599.11,4584715.64,429588.14,4584732.0,1.5,class
+0290489AR,Jacaranda mimosifolia,False,Trav Dalt,19.5,3.55,ok,,large,429595.16,4584712.98,429584.3,4584729.17,1.5,class
+0290490AR,Jacaranda mimosifolia,False,Trav Dalt,26.55,3.5,ok,,large,429580.22,4584715.44,429602.24,4584730.27,1.5,class
+0292239AR,Pinus pinea,False,C\ Sant Josep Cottolengo,,20.93,no_kerb,32.62,check,,,,,1.0,floor
+0292243AR,Ailanthus altissima,False,Av Pompeu Fabra,,23.87,no_kerb,,check,,,,,1.0,floor
+0292244AR,Ceratonia siliqua,False,Av Pompeu Fabra,,26.78,no_kerb,,check,,,,,1.0,floor
+0292245AR,Ficus carica,False,Av Pompeu Fabra,,21.73,no_kerb,,check,,,,,1.0,floor
+0292246AR,Ailanthus altissima,False,Av Pompeu Fabra,,8.2,no_kerb,,check,,,,,1.0,floor
+0292247AR,Ailanthus altissima,False,Av Pompeu Fabra,,6.77,no_kerb,,check,,,,,1.0,floor
+0292248AR,Ailanthus altissima,False,Av Pompeu Fabra,,5.74,no_kerb,,check,,,,,1.0,floor
+0292249AR,Ailanthus altissima,False,Av Pompeu Fabra,,18.26,no_kerb,,check,,,,,1.0,floor
+0292250AR,Ailanthus altissima,False,Av Pompeu Fabra,,15.27,no_kerb,,check,,,,,1.0,floor
+0292251AR,Ailanthus altissima,False,Av Pompeu Fabra,29.99,12.08,ok,,large,429476.91,4585127.65,429480.23,4585157.46,1.5,class
+0292252AR,Ailanthus altissima,False,Av Pompeu Fabra,,8.63,no_kerb,,check,,,,,1.0,floor
+0292253AR,Ailanthus altissima,False,Av Pompeu Fabra,,4.88,no_kerb,,check,,,,,1.0,floor
+0292257AR,Pyrus calleryana 'Chanticleer',False,Av Pompeu Fabra,,20.48,median,4.98,check,,,,,1.0,floor
+0292258AR,Pyrus calleryana 'Chanticleer',False,Av Pompeu Fabra,,23.36,median,8.93,check,,,,,1.0,floor
+0292259AR,Pyrus calleryana 'Chanticleer',False,Av Pompeu Fabra,,20.79,median,8.87,check,,,,,1.0,floor
+0292260AR,Pyrus calleryana 'Chanticleer',False,Av Pompeu Fabra,,18.22,median,8.81,check,,,,,1.0,floor
+0292261AR,Pyrus calleryana 'Chanticleer',False,Av Pompeu Fabra,,15.66,median,8.84,check,,,,,1.0,floor
+0292262AR,Pyrus calleryana 'Chanticleer',False,Av Pompeu Fabra,,13.59,median,14.38,check,,,,,1.0,floor
+0292278AR,Platanus × acerifolia,True,Rbla Mercedes,6.26,3.12,ok,,large,429173.55,4584793.19,429168.44,4584796.82,1.5,class
+0292279AR,Platanus × acerifolia,True,Rbla Mercedes,8.14,5.27,ok,,large,429178.86,4584794.23,429174.57,4584801.15,1.5,class
+0292281AR,Prunus avium,False,C\ Marianao,6.25,4.64,ok,,large,429296.69,4584983.1,429298.2,4584977.03,1.5,class
+0293236AR,Prunus avium,False,C\ Pare Jacint Alegre,2.84,1.51,ok,,small,429456.84,4584840.95,429457.18,4584838.13,1.0,class
+0294305AR,Tipuana tipu,False,C\ Sardenya,20.21,13.09,ok,,large,429935.57,4584919.54,429953.72,4584910.64,1.5,class
+0294306AR,Tipuana tipu,False,C\ Sardenya,19.8,7.62,ok,,large,429936.33,4584921.09,429954.11,4584912.36,1.5,class
+0299866AR,Pyrus calleryana 'Chanticleer',False,Av Pompeu Fabra,8.13,7.18,ok,,large,429619.3,4585112.34,429614.06,4585118.56,1.5,class
+0301755AR,Tipuana tipu,False,Pl Sanllehy,,12.51,median,,check,,,,,1.0,floor
+0301756AR,Tipuana tipu,False,Pl Sanllehy,,12.28,median,,check,,,,,1.0,floor
+0301757AR,Tipuana tipu,False,Pl Sanllehy,,12.0,median,,check,,,,,1.0,floor
+0301758AR,Tipuana tipu,False,Pl Sanllehy,,15.54,median,22.75,check,,,,,1.0,floor
+0301759AR,Tipuana tipu,False,Pl Sanllehy,,17.6,median,9.59,check,,,,,1.0,floor
+0306924AR,Ligustrum lucidum,False,C\ Larrard,3.6,1.55,ok,,medium,429406.11,4584748.28,429409.2,4584750.13,1.0,class
+0306925AR,Ligustrum lucidum,False,C\ Larrard,4.99,2.9,ok,,medium,429409.23,4584743.05,429413.64,4584745.39,1.0,class
+0306926AR,Ligustrum lucidum,False,C\ Larrard,7.87,5.63,ok,,large,429410.95,4584737.02,429417.7,4584741.06,1.5,class
+0306927AR,Ligustrum lucidum,False,C\ Larrard,10.72,7.85,ok,,large,429412.3,4584734.75,429423.02,4584735.21,1.5,class
+0306928AR,Ligustrum lucidum,False,C\ Larrard,17.53,13.18,ok,,large,429412.3,4584734.75,429428.81,4584728.84,1.5,class
+0306929AR,Ligustrum lucidum,False,C\ Larrard,,17.18,median,,check,,,,,1.0,floor
+0306930AR,Ligustrum lucidum,False,C\ Larrard,,8.77,median,,check,,,,,1.0,floor
+0306931AR,Ligustrum lucidum,False,C\ Larrard,,7.59,median,,check,,,,,1.0,floor
+0311346AR,Styphnolobium japonicum,False,C\ Escorial,3.59,2.35,ok,,medium,429605.38,4584719.88,429607.47,4584722.8,1.0,class
+0311347AR,Styphnolobium japonicum,False,C\ Escorial,10.9,7.19,ok,,large,429605.38,4584719.88,429602.21,4584730.31,1.5,class
+0311513AR,Koelreuteria paniculata,False,C\ Camèlies,4.32,3.54,ok,,medium,429739.08,4584757.22,429741.52,4584753.66,1.0,class
+0311661AR,Gleditsia triacanthos,False,Trav Dalt,5.2,3.97,ok,,medium,429122.73,4584461.27,429124.83,4584456.52,1.0,class
+0311662AR,Gleditsia triacanthos,False,Trav Dalt,5.45,4.08,ok,,medium,429115.16,4584457.94,429117.36,4584452.95,1.0,class
+0311663AR,Gleditsia triacanthos,False,Trav Dalt,5.4,4.26,ok,,medium,429105.81,4584453.4,429108.24,4584448.58,1.0,class
+0311664AR,Gleditsia triacanthos,False,Trav Dalt,5.34,4.25,ok,,medium,429097.05,4584448.98,429099.45,4584444.21,1.0,class
+0311665AR,Gleditsia triacanthos,False,Trav Dalt,5.35,4.22,ok,,medium,429089.43,4584445.15,429091.82,4584440.36,1.0,class
+0311666AR,Gleditsia triacanthos,False,Trav Dalt,5.32,3.97,ok,,medium,429081.51,4584441.02,429083.98,4584436.32,1.0,class
+0311667AR,Gleditsia triacanthos,False,Trav Dalt,5.34,4.38,ok,,medium,429075.72,4584437.98,429078.2,4584433.26,1.0,class
+0311668AR,Gleditsia triacanthos,False,Trav Dalt,5.52,4.11,ok,,medium,429065.87,4584432.88,429068.38,4584427.96,1.0,class
+0311669AR,Gleditsia triacanthos,False,Trav Dalt,5.59,4.27,ok,,medium,429055.71,4584427.37,429058.42,4584422.49,1.0,class
+0311670AR,Gleditsia triacanthos,False,Trav Dalt,5.34,4.07,ok,,medium,429046.45,4584421.93,429049.3,4584417.42,1.0,class
+0311671AR,Gleditsia triacanthos,False,Trav Dalt,5.14,3.68,ok,,medium,429039.05,4584417.25,429041.8,4584412.9,1.0,class
+0311672AR,Gleditsia triacanthos,False,Trav Dalt,5.15,3.94,ok,,medium,429031.63,4584412.55,429034.39,4584408.2,1.0,class
+0311673AR,Gleditsia triacanthos,False,Trav Dalt,5.36,3.97,ok,,medium,429024.47,4584408.03,429027.33,4584403.5,1.0,class
+0311676AR,Gleditsia triacanthos,False,Trav Dalt,5.39,4.03,ok,,medium,429157.58,4584477.17,429159.83,4584472.27,1.0,class
+0311677AR,Gleditsia triacanthos,False,Trav Dalt,5.43,4.2,ok,,medium,429165.15,4584480.64,429167.41,4584475.7,1.0,class
+0311678AR,Gleditsia triacanthos,False,Trav Dalt,5.39,4.55,ok,,medium,429175.47,4584485.37,429177.7,4584480.47,1.0,class
+0311679AR,Gleditsia triacanthos,False,Trav Dalt,5.33,4.22,ok,,medium,429183.42,4584488.97,429185.62,4584484.12,1.0,class
+0311680AR,Gleditsia triacanthos,False,Trav Dalt,5.35,4.33,ok,,medium,429196.65,4584495.04,429198.89,4584490.19,1.0,class
+0311681AR,Gleditsia triacanthos,False,Trav Dalt,5.39,4.33,ok,,medium,429205.62,4584499.19,429207.88,4584494.3,1.0,class
+0311682AR,Gleditsia triacanthos,False,Trav Dalt,6.03,4.67,ok,,large,429212.14,4584502.21,429216.79,4584498.38,1.5,class
+0311683AR,Gleditsia triacanthos,False,Trav Dalt,5.41,4.54,ok,,medium,429226.08,4584508.44,429227.18,4584503.15,1.0,class
+0311684AR,Gleditsia triacanthos,False,Trav Dalt,5.22,4.06,ok,,medium,429233.28,4584511.68,429235.41,4584506.92,1.0,class
+0311685AR,Gleditsia triacanthos,False,Trav Dalt,6.21,3.85,ok,,large,429240.73,4584515.02,429246.01,4584511.76,1.5,class
+0311686AR,Gleditsia triacanthos,False,Trav Dalt,,25.37,median,5.23,check,,,,,1.0,floor
+0311687AR,Gleditsia triacanthos,False,Trav Dalt,,25.88,median,5.23,check,,,,,1.0,floor
+0311688AR,Gleditsia triacanthos,False,Trav Dalt,,25.88,median,,check,,,,,1.0,floor
+0311689AR,Gleditsia triacanthos,False,Trav Dalt,,25.7,median,,check,,,,,1.0,floor
+0311690AR,Gleditsia triacanthos,False,Trav Dalt,22.53,21.08,ok,,large,429301.9,4584558.08,429298.76,4584535.77,1.5,class
+0311691AR,Gleditsia triacanthos,False,Trav Dalt,19.06,17.37,ok,,large,429301.9,4584558.08,429308.47,4584540.19,1.5,class
+0311692AR,Gleditsia triacanthos,False,Trav Dalt,20.34,19.03,ok,,large,429305.99,4584560.99,429317.78,4584544.41,1.5,class
+0311693AR,Gleditsia triacanthos,False,Trav Dalt,,20.67,median,10.75,check,,,,,1.0,floor
+0311694AR,Gleditsia triacanthos,False,Trav Dalt,,23.75,median,,check,,,,,1.0,floor
+0311695AR,Gleditsia triacanthos,False,Trav Dalt,,25.78,median,,check,,,,,1.0,floor
+0311696AR,Gleditsia triacanthos,False,Trav Dalt,,25.13,median,,check,,,,,1.0,floor
+0311697AR,Gleditsia triacanthos,False,Trav Dalt,,25.07,median,,check,,,,,1.0,floor
+0311698AR,Gleditsia triacanthos,False,Trav Dalt,6.88,5.36,ok,,large,429379.04,4584586.57,429380.19,4584579.78,1.5,class
+0311699AR,Gleditsia triacanthos,False,Trav Dalt,5.67,4.8,ok,,medium,429387.01,4584591.76,429390.54,4584587.32,1.0,class
+0311701AR,Gleditsia triacanthos,False,Trav Dalt,5.5,4.31,ok,,medium,429400.32,4584602.37,429403.74,4584598.07,1.0,class
+0311702AR,Gleditsia triacanthos,False,Trav Dalt,5.12,3.66,ok,,medium,429409.71,4584609.9,429413.05,4584606.01,1.0,class
+0311703AR,Gleditsia triacanthos,False,Trav Dalt,5.12,3.81,ok,,medium,429417.37,4584616.49,429420.71,4584612.61,1.0,class
+0311704AR,Gleditsia triacanthos,False,Trav Dalt,5.36,4.31,ok,,medium,429423.85,4584622.51,429427.51,4584618.59,1.0,class
+0311705AR,Gleditsia triacanthos,False,Trav Dalt,5.32,4.33,ok,,medium,429436.86,4584634.53,429440.45,4584630.61,1.0,class
+0311706AR,Gleditsia triacanthos,False,Trav Dalt,5.25,4.28,ok,,medium,429443.13,4584640.28,429446.67,4584636.41,1.0,class
+0311707AR,Gleditsia triacanthos,False,Trav Dalt,5.53,4.24,ok,,medium,429454.96,4584651.76,429458.73,4584647.71,1.0,class
+0311708AR,Gleditsia triacanthos,False,Trav Dalt,5.4,4.03,ok,,medium,429460.11,4584656.54,429463.78,4584652.59,1.0,class
+0311709AR,Gleditsia triacanthos,False,Trav Dalt,5.19,4.14,ok,,medium,429467.3,4584663.23,429470.84,4584659.43,1.0,class
+0311710AR,Gleditsia triacanthos,False,Trav Dalt,5.17,4.34,ok,,medium,429474.2,4584669.65,429477.72,4584665.86,1.0,class
+0311711AR,Gleditsia triacanthos,False,Trav Dalt,5.48,4.06,ok,,medium,429496.21,4584649.51,429492.63,4584653.66,1.0,class
+0311712AR,Gleditsia triacanthos,False,Trav Dalt,5.65,4.14,ok,,medium,429502.76,4584655.17,429499.06,4584659.44,1.0,class
+0311713AR,Gleditsia triacanthos,False,Trav Dalt,5.26,3.86,ok,,medium,429493.91,4584687.21,429497.36,4584683.24,1.0,class
+0311714AR,Gleditsia triacanthos,False,Trav Dalt,5.69,4.62,ok,,medium,429508.42,4584660.06,429504.7,4584664.36,1.0,class
+0311715AR,Gleditsia triacanthos,False,Trav Dalt,5.54,4.23,ok,,medium,429516.92,4584667.41,429513.3,4584671.6,1.0,class
+0311716AR,Gleditsia triacanthos f. inermis,False,Trav Dalt,5.32,3.89,ok,,medium,429501.14,4584693.3,429504.55,4584689.22,1.0,class
+0311717AR,Gleditsia triacanthos,False,Trav Dalt,5.35,4.32,ok,,medium,429509.15,4584699.99,429512.58,4584695.88,1.0,class
+0311718AR,Gleditsia triacanthos,False,Trav Dalt,13.38,10.39,ok,,large,429521.73,4584671.57,429527.7,4584683.54,1.5,class
+0311719AR,Gleditsia triacanthos,False,Trav Dalt,11.43,9.7,ok,,large,429542.45,4584682.12,429532.27,4584687.33,1.5,class
+0311720AR,Gleditsia triacanthos,False,Trav Dalt,5.83,4.56,ok,,medium,429545.35,4584690.82,429540.75,4584694.41,1.0,class
+0311721AR,Gleditsia triacanthos,False,Trav Dalt,5.48,4.46,ok,,medium,429552.59,4584697.06,429549.02,4584701.21,1.0,class
+0311722AR,Gleditsia triacanthos,False,Trav Dalt,5.23,3.89,ok,,medium,429517.16,4584706.48,429520.54,4584702.48,1.0,class
+0311723AR,Gleditsia triacanthos,False,Trav Dalt,5.3,3.61,ok,,medium,429523.73,4584712.03,429527.15,4584707.98,1.0,class
+0311724AR,Gleditsia triacanthos,False,Trav Dalt,5.41,3.82,ok,,medium,429530.13,4584717.44,429533.62,4584713.31,1.0,class
+0311725AR,Gleditsia triacanthos,False,Trav Dalt,5.5,4.2,ok,,medium,429537.52,4584723.68,429541.07,4584719.48,1.0,class
+0311726AR,Gleditsia triacanthos,False,Trav Dalt,5.36,4.06,ok,,medium,429544.14,4584728.98,429547.39,4584724.71,1.0,class
+0311727AR,Gleditsia triacanthos,False,Trav Dalt,5.41,4.17,ok,,medium,429549.4,4584733.4,429552.88,4584729.26,1.0,class
+0311728AR,Gleditsia triacanthos,False,Trav Dalt,6.16,4.95,ok,,large,429565.03,4584706.52,429561.6,4584711.63,1.5,class
+0311729AR,Gleditsia triacanthos,False,Trav Dalt,6.95,5.51,ok,,large,429572.08,4584711.27,429568.21,4584717.04,1.5,class
+0311730AR,Gleditsia triacanthos,False,Trav Dalt,5.56,3.49,ok,,medium,429572.94,4584753.1,429576.5,4584748.83,1.0,class
+0311731AR,Gleditsia triacanthos,False,Trav Dalt,12.55,11.03,ok,,large,429579.61,4584716.33,429583.18,4584728.36,1.5,class
+0311732AR,Gleditsia triacanthos,False,Trav Dalt,3.66,1.33,ok,,medium,429721.73,4584829.38,429720.12,4584832.67,1.0,class
+0311733AR,Gleditsia triacanthos,False,Trav Dalt,3.86,1.75,ok,,medium,429730.1,4584833.35,429728.49,4584836.85,1.0,class
+0311738AR,Ulmus pumila,False,Av Pompeu Fabra,,6.93,median,9.03,check,,,,,1.0,floor
+0311755AR,Ulmus pumila,False,Rier Can Toda,6.31,6.74,ok,,large,429544.05,4585171.32,429544.94,4585177.57,1.5,class
+0311756AR,Ulmus pumila,False,Rier Can Toda,,13.61,median,1.91,check,,,,,1.0,floor
+0315685AR,Gleditsia triacanthos,False,Trav Dalt,5.62,4.64,ok,,medium,429285.69,4584502.62,429283.34,4584507.72,1.0,class
+0315686AR,Gleditsia triacanthos,False,Trav Dalt,5.6,4.59,ok,,medium,429294.25,4584506.55,429291.92,4584511.64,1.0,class
+0315702AR,Gleditsia triacanthos,False,Trav Dalt,5.44,4.37,ok,,medium,429433.77,4584591.41,429430.24,4584595.54,1.0,class
+0315703AR,Gleditsia triacanthos,False,Trav Dalt,4.73,3.76,ok,,medium,429382.96,4584552.99,429380.42,4584556.98,1.0,class
+0315704AR,Gleditsia triacanthos,False,Trav Dalt,5.43,4.58,ok,,medium,429320.01,4584518.4,429317.74,4584523.33,1.0,class
+0315761AR,Gleditsia triacanthos,False,Trav Dalt,5.28,4.07,ok,,medium,429466.15,4584621.26,429462.51,4584625.07,1.0,class
+0315762AR,Gleditsia triacanthos,False,Trav Dalt,5.15,4.05,ok,,medium,429471.87,4584626.72,429468.31,4584630.44,1.0,class
+0315763AR,Gleditsia triacanthos,False,Trav Dalt,5.56,4.59,ok,,medium,429302.5,4584510.34,429300.18,4584515.39,1.0,class
+0315764AR,Gleditsia triacanthos,False,Trav Dalt,5.5,4.52,ok,,medium,429311.39,4584514.43,429309.09,4584519.42,1.0,class
+0315765AR,Gleditsia triacanthos,False,Trav Dalt,5.4,4.37,ok,,medium,429329.38,4584522.72,429327.12,4584527.62,1.0,class
+0315766AR,Gleditsia triacanthos,False,Trav Dalt,5.37,4.39,ok,,medium,429338.25,4584526.91,429335.8,4584531.7,1.0,class
+0315767AR,Gleditsia triacanthos,False,Trav Dalt,5.23,4.16,ok,,medium,429346.73,4584531.25,429344.35,4584535.91,1.0,class
+0315768AR,Gleditsia triacanthos,False,Trav Dalt,5.22,4.17,ok,,medium,429355.51,4584535.91,429352.9,4584540.43,1.0,class
+0315769AR,Gleditsia triacanthos,False,Trav Dalt,5.04,4.1,ok,,medium,429363.9,4584540.84,429361.19,4584545.1,1.0,class
+0315770AR,Gleditsia triacanthos,False,Trav Dalt,4.73,3.79,ok,,medium,429372.0,4584546.0,429369.46,4584549.99,1.0,class
+0315772AR,Gleditsia triacanthos,False,Trav Dalt,5.04,4.14,ok,,medium,429394.58,4584560.39,429391.88,4584564.64,1.0,class
+0315773AR,Gleditsia triacanthos,False,Trav Dalt,5.37,4.27,ok,,medium,429400.21,4584563.98,429397.32,4584568.5,1.0,class
+0315774AR,Gleditsia triacanthos,False,Trav Dalt,5.35,4.28,ok,,medium,429412.27,4584573.38,429408.89,4584577.53,1.0,class
+0315775AR,Gleditsia triacanthos,False,Trav Dalt,5.47,4.22,ok,,medium,429420.05,4584579.72,429416.6,4584583.95,1.0,class
+0315776AR,Gleditsia triacanthos,False,Trav Dalt,5.46,4.35,ok,,medium,429426.92,4584585.55,429423.37,4584589.71,1.0,class
+0315777AR,Gleditsia triacanthos,False,Trav Dalt,5.49,4.52,ok,,medium,429440.16,4584596.87,429436.59,4584601.04,1.0,class
+0315778AR,Gleditsia triacanthos,False,Trav Dalt,5.55,4.59,ok,,medium,429447.93,4584603.84,429444.1,4584607.85,1.0,class
+0315779AR,Gleditsia triacanthos,False,Trav Dalt,5.47,4.4,ok,,medium,429454.65,4584610.27,429450.87,4584614.22,1.0,class
+0315780AR,Gleditsia triacanthos,False,Trav Dalt,5.37,4.29,ok,,medium,429460.72,4584616.07,429457.02,4584619.95,1.0,class
+0315781AR,Pyrus calleryana 'Chanticleer',False,C\ Cardener,3.07,1.84,ok,,small,429616.21,4584673.15,429617.92,4584670.61,1.0,class
+0315782AR,Pyrus calleryana 'Chanticleer',False,C\ Cardener,3.69,2.28,ok,,medium,429593.48,4584657.8,429595.54,4584654.74,1.0,class
+0315783AR,Pyrus calleryana 'Chanticleer',False,C\ Cardener,3.0,2.23,ok,,small,429554.27,4584630.98,429555.95,4584628.49,1.0,class
+0315784AR,Pyrus calleryana 'Chanticleer',False,C\ Cardener,3.01,2.09,ok,,small,429549.43,4584627.7,429551.11,4584625.21,1.0,class
+0315785AR,Pyrus calleryana 'Chanticleer',False,C\ Cardener,3.03,2.18,ok,,small,429544.94,4584624.66,429546.64,4584622.15,1.0,class
+0315786AR,Pyrus calleryana 'Chanticleer',False,C\ Cardener,3.04,2.18,ok,,small,429539.5,4584620.98,429541.2,4584618.46,1.0,class
+0315787AR,Pyrus calleryana 'Chanticleer',False,C\ Cardener,3.03,2.22,ok,,small,429534.64,4584617.66,429536.35,4584615.16,1.0,class
+0315788AR,Pyrus calleryana 'Chanticleer',False,C\ Cardener,3.03,2.11,ok,,small,429529.63,4584614.24,429531.34,4584611.74,1.0,class
+0315789AR,Pyrus calleryana 'Chanticleer',False,C\ Cardener,3.02,2.12,ok,,small,429524.8,4584610.94,429526.51,4584608.45,1.0,class
+0315790AR,Pyrus calleryana 'Chanticleer',False,C\ Cardener,3.0,2.05,ok,,small,429519.27,4584607.16,429520.96,4584604.68,1.0,class
+0315791AR,Pyrus calleryana 'Chanticleer',False,C\ Cardener,2.98,2.09,ok,,small,429514.42,4584603.84,429516.1,4584601.37,1.0,class
+0315792AR,Pyrus calleryana 'Chanticleer',False,C\ Cardener,2.63,2.04,ok,,small,429504.31,4584596.51,429505.78,4584594.33,1.0,class
+0315793AR,Pyrus calleryana 'Chanticleer',False,C\ Cardener,2.67,2.07,ok,,small,429499.23,4584593.07,429500.73,4584590.86,1.0,class
+0315794AR,Pyrus calleryana 'Chanticleer',False,C\ Cardener,2.93,2.12,ok,,small,429575.62,4584645.43,429577.26,4584643.0,1.0,class
+0315795AR,Pyrus calleryana 'Chanticleer',False,C\ Cardener,2.95,2.16,ok,,small,429570.28,4584641.81,429571.93,4584639.37,1.0,class
+0315796AR,Pyrus calleryana 'Chanticleer',False,C\ Cardener,2.97,2.16,ok,,small,429564.98,4584638.23,429566.65,4584635.77,1.0,class
+0315797AR,Pyrus calleryana 'Chanticleer',False,C\ Cardener,3.01,2.14,ok,,small,429559.96,4584634.83,429561.64,4584632.34,1.0,class
+0315798AR,Pyrus calleryana 'Chanticleer',False,C\ Cardener,2.71,2.14,ok,,small,429494.13,4584589.62,429495.65,4584587.38,1.0,class
+0315799AR,Pyrus calleryana 'Chanticleer',False,C\ Cardener,2.76,2.13,ok,,small,429488.93,4584586.1,429490.47,4584583.82,1.0,class
+0315800AR,Pyrus calleryana 'Chanticleer',False,C\ Cardener,2.79,2.14,ok,,small,429483.99,4584582.76,429485.56,4584580.45,1.0,class
+0315802AR,Pyrus calleryana 'Chanticleer',False,C\ Cardener,2.87,2.07,ok,,small,429474.82,4584576.56,429476.43,4584574.18,1.0,class
+0315803AR,Pyrus calleryana 'Chanticleer',False,C\ Cardener,2.91,2.19,ok,,small,429469.71,4584573.1,429471.35,4584570.69,1.0,class
+0315804AR,Pyrus calleryana 'Chanticleer',False,C\ Cardener,2.67,2.09,ok,,small,429452.96,4584561.34,429454.47,4584559.14,1.0,class
+0315805AR,Pyrus calleryana 'Chanticleer',False,C\ Cardener,2.65,1.96,ok,,small,429444.05,4584555.21,429445.55,4584553.03,1.0,class
+0315806AR,Pyrus calleryana 'Chanticleer',False,C\ Cardener,2.64,2.09,ok,,small,429438.29,4584551.25,429439.79,4584549.07,1.0,class
+0315807AR,Pyrus calleryana 'Chanticleer',False,C\ Cardener,2.5,2.08,ok,,small,429417.2,4584536.59,429418.61,4584534.52,1.0,class
+0315808AR,Pyrus calleryana 'Chanticleer',False,C\ Cardener,2.52,2.01,ok,,small,429410.46,4584532.01,429411.88,4584529.93,1.0,class
+0315809AR,Pyrus calleryana 'Chanticleer',False,C\ Cardener,2.53,1.96,ok,,small,429404.79,4584528.15,429406.21,4584526.06,1.0,class
+0315812AR,Pyrus calleryana 'Chanticleer',False,C\ Cardener,2.58,2.03,ok,,small,429387.65,4584516.52,429389.1,4584514.38,1.0,class
+0315813AR,Pyrus calleryana 'Chanticleer',False,C\ Cardener,2.6,1.92,ok,,small,429382.2,4584512.81,429383.66,4584510.66,1.0,class
+0315814AR,Pyrus calleryana 'Chanticleer',False,C\ Cardener,2.61,2.04,ok,,small,429377.21,4584509.43,429378.68,4584507.27,1.0,class
+0315815AR,Pyrus calleryana 'Chanticleer',False,C\ Cardener,2.62,2.16,ok,,small,429372.03,4584505.91,429373.51,4584503.74,1.0,class
+0315816AR,Pyrus calleryana 'Chanticleer',False,C\ Cardener,2.65,2.07,ok,,small,429362.8,4584499.63,429364.28,4584497.44,1.0,class
+0315817AR,Pyrus calleryana 'Chanticleer',False,C\ Cardener,2.68,2.1,ok,,small,429353.69,4584493.45,429355.19,4584491.23,1.0,class
+0315818AR,Pyrus calleryana 'Chanticleer',False,C\ Cardener,2.69,2.03,ok,,small,429348.47,4584489.91,429349.98,4584487.68,1.0,class
+0315819AR,Pyrus calleryana 'Chanticleer',False,C\ Cardener,2.71,2.09,ok,,small,429342.96,4584486.16,429344.48,4584483.92,1.0,class
+0315820AR,Pyrus calleryana 'Chanticleer',False,C\ Cardener,2.72,2.03,ok,,small,429338.56,4584483.18,429340.09,4584480.93,1.0,class
+0315821AR,Pyrus calleryana 'Chanticleer',False,C\ Cardener,2.74,2.05,ok,,small,429332.77,4584479.24,429334.3,4584476.97,1.0,class
+0315822AR,Pyrus calleryana 'Chanticleer',False,C\ Cardener,2.77,2.15,ok,,small,429327.73,4584475.82,429329.29,4584473.53,1.0,class
+0315823AR,Pyrus calleryana 'Chanticleer',False,C\ Cardener,2.8,2.13,ok,,small,429323.07,4584472.65,429324.64,4584470.34,1.0,class
+0315824AR,Pyrus calleryana 'Chanticleer',False,C\ Cardener,2.83,2.11,ok,,small,429318.38,4584469.47,429319.97,4584467.13,1.0,class
+0315825AR,Pyrus calleryana 'Chanticleer',False,C\ Cardener,2.86,2.11,ok,,small,429313.86,4584466.4,429315.47,4584464.03,1.0,class
+0315826AR,Pyrus calleryana 'Chanticleer',False,C\ Cardener,4.0,2.68,ok,,medium,429599.43,4584661.82,429601.67,4584658.51,1.0,class
+0315827AR,Pyrus calleryana 'Chanticleer',False,C\ Cardener,4.34,3.08,ok,,medium,429605.39,4584665.85,429607.82,4584662.25,1.0,class
+0315828AR,Pyrus calleryana 'Chanticleer',False,C\ Cardener,4.64,3.49,ok,,medium,429611.35,4584669.86,429613.94,4584666.02,1.0,class
+0315829AR,Pyrus calleryana 'Chanticleer',False,C\ Cardener,3.8,2.71,ok,,medium,429628.06,4584681.25,429630.21,4584678.11,1.0,class
+0315830AR,Pyrus calleryana 'Chanticleer',False,C\ Cardener,3.43,2.28,ok,,small,429622.13,4584677.19,429624.07,4584674.36,1.0,class
+0315831AR,Pyrus calleryana 'Chanticleer',False,C\ Cardener,2.91,2.0,ok,,small,429581.09,4584649.13,429582.72,4584646.71,1.0,class
+0316378AR,Corylus colurna,False,C\ Maignon,8.61,6.41,ok,,large,428979.98,4584449.48,428971.76,4584452.03,1.5,class
+0316379AR,Corylus colurna,False,C\ Maignon,2.87,1.18,ok,,small,428996.12,4584462.87,428994.67,4584465.36,1.0,class
+0316380AR,Corylus colurna,False,C\ Maignon,2.89,1.38,ok,,small,428990.69,4584459.7,428989.23,4584462.19,1.0,class
+0316381AR,Corylus colurna,False,C\ Maignon,2.97,1.42,ok,,small,428985.01,4584456.33,428983.34,4584458.79,1.0,class
+0316382AR,Corylus colurna,False,C\ Maignon,4.65,2.97,ok,,medium,428981.66,4584453.04,428977.73,4584455.53,1.0,class
+0316383AR,Corylus colurna,False,C\ Maignon,2.89,1.38,ok,,small,429001.03,4584465.71,428999.59,4584468.21,1.0,class
+0316384AR,Corylus colurna,False,C\ Maignon,2.91,2.54,ok,,small,429007.65,4584469.51,429006.2,4584472.04,1.0,class
+0316385AR,Corylus colurna,False,C\ Maignon,2.95,2.76,ok,,small,429013.27,4584472.74,429011.8,4584475.3,1.0,class
+0316386AR,Corylus colurna,False,C\ Maignon,2.98,2.27,ok,,small,429019.01,4584476.04,429017.52,4584478.63,1.0,class
+0316387AR,Corylus colurna,False,C\ Maignon,3.0,2.47,ok,,small,429023.83,4584478.82,429022.34,4584481.42,1.0,class
+0316388AR,Corylus colurna,False,C\ Maignon,2.8,1.33,ok,,small,429043.04,4584490.2,429041.61,4584492.6,1.0,class
+0316389AR,Corylus colurna,False,C\ Maignon,2.77,1.12,ok,,small,429048.45,4584493.39,429047.05,4584495.78,1.0,class
+0316390AR,Corylus colurna,False,C\ Maignon,2.77,1.73,ok,,small,429052.03,4584495.49,429050.63,4584497.88,1.0,class
+0316391AR,Corylus colurna,False,C\ Maignon,2.74,1.22,ok,,small,429059.59,4584499.92,429058.2,4584502.28,1.0,class
+0316392AR,Corylus colurna,False,C\ Maignon,2.72,1.18,ok,,small,429064.99,4584503.08,429063.61,4584505.43,1.0,class
+0316393AR,Corylus colurna,False,C\ Maignon,2.74,1.05,ok,,small,429071.41,4584506.81,429070.05,4584509.19,1.0,class
+0316394AR,Corylus colurna,False,C\ Maignon,2.8,1.11,ok,,small,429077.22,4584510.13,429075.83,4584512.56,1.0,class
+0316395AR,Corylus colurna,False,C\ Maignon,2.84,1.28,ok,,small,429082.23,4584512.99,429080.83,4584515.45,1.0,class
+0316396AR,Corylus colurna,False,C\ Maignon,2.88,1.16,ok,,small,429086.63,4584515.5,429085.2,4584518.0,1.0,class
+0316397AR,Corylus colurna,False,C\ Maignon,2.97,1.26,ok,,small,429090.76,4584517.81,429089.32,4584520.4,1.0,class
+0316398AR,Corylus colurna,False,C\ Maignon,3.07,1.24,ok,,small,429095.33,4584520.35,429093.83,4584523.03,1.0,class
+0320404AR,Koelreuteria paniculata,False,C\ Camèlies,4.13,3.41,ok,,medium,429686.46,4584721.02,429688.79,4584717.6,1.0,class
+0320414AR,Koelreuteria paniculata,False,C\ Camèlies,4.36,3.66,ok,,medium,429752.33,4584766.33,429754.81,4584762.74,1.0,class
+0329522AR,Corylus colurna,False,C\ Maignon,2.87,2.15,ok,,small,429036.4,4584486.26,429034.94,4584488.73,1.0,class
+0329523AR,Corylus colurna,False,C\ Maignon,2.93,2.61,ok,,small,429030.04,4584482.49,429028.55,4584485.01,1.0,class
+0329545AR,Acer buergerianum,False,C\ Antequera,6.84,7.19,ok,,large,429458.82,4584947.02,429462.18,4584941.06,1.5,class
+0329547AR,Acer buergerianum,False,C\ Antequera,6.67,7.09,ok,,large,429446.68,4584940.19,429449.95,4584934.38,1.5,class
+0329549AR,Acer buergerianum,False,C\ Antequera,12.41,12.98,ok,,large,429443.9,4584938.63,429437.84,4584927.79,1.5,class
+0329551AR,Acer buergerianum,False,C\ Antequera,12.15,9.32,ok,,large,429418.52,4584914.26,429427.71,4584922.21,1.5,class
+0331952AR,Robinia pseudoacacia,False,C\ Olot,,15.05,median,4.68,check,,,,,1.0,floor
+0335215AR,Magnolia grandiflora,False,C\ Maignon,,7.46,median,22.79,check,,,,,1.0,floor
+0337562AR,Pinus pinea,False,E.A. Casa Vilaro,,34.94,no_facade,,check,,,,,1.0,floor
+0342683AR,Handroanthus heptaphyllus,False,C\ Mare de Déu de la Salut,8.46,6.73,ok,,large,429593.09,4584826.39,429598.57,4584819.94,1.5,class
+0342684AR,Handroanthus heptaphyllus,False,C\ Mare de Déu de la Salut,8.48,6.76,ok,,large,429601.95,4584833.92,429607.44,4584827.46,1.5,class
+0342685AR,Handroanthus heptaphyllus,False,C\ Mare de Déu de la Salut,8.4,6.67,ok,,large,429574.72,4584810.77,429580.16,4584804.37,1.5,class
+0342686AR,Handroanthus heptaphyllus,False,C\ Mare de Déu de la Salut,8.43,6.71,ok,,large,429583.79,4584818.48,429589.25,4584812.05,1.5,class
+0342687AR,Handroanthus heptaphyllus,False,C\ Mare de Déu de la Salut,8.38,6.64,ok,,large,429566.33,4584803.64,429571.75,4584797.26,1.5,class
+0343449AR,Pyrus calleryana 'Chanticleer',False,Bda Glòria,2.49,1.75,ok,,none,428868.07,4584732.04,428866.67,4584734.11,1.0,floor
+0343452AR,Pyrus calleryana 'Chanticleer',False,Bda Glòria,2.53,1.57,ok,,small,428857.69,4584725.03,428856.27,4584727.13,1.0,class
+0343454AR,Pyrus calleryana 'Chanticleer',False,Bda Glòria,2.59,1.75,ok,,small,428848.08,4584718.52,428846.63,4584720.66,1.0,class
+0343458AR,Pyrus calleryana 'Chanticleer',False,Bda Glòria,2.61,1.69,ok,,small,428831.92,4584707.65,428830.48,4584709.82,1.0,class
+0343461AR,Pyrus calleryana 'Chanticleer',False,Bda Glòria,2.55,1.96,ok,,small,428825.81,4584703.6,428824.4,4584705.73,1.0,class
+0343465AR,Pyrus calleryana 'Chanticleer',False,Bda Glòria,2.46,1.66,ok,,none,428811.86,4584694.36,428810.5,4584696.41,1.0,floor
+0343466AR,Pyrus calleryana 'Chanticleer',False,Bda Glòria,2.41,1.64,ok,,none,428805.98,4584690.47,428804.65,4584692.48,1.0,floor
+0343486AR,Pyrus calleryana 'Chanticleer',False,Bda Glòria,2.58,1.78,ok,,small,428890.8,4584747.05,428889.35,4584749.18,1.0,class
+0343488AR,Pyrus calleryana 'Chanticleer',False,Bda Glòria,2.55,1.75,ok,,small,428896.87,4584751.2,428895.43,4584753.3,1.0,class
+0343489AR,Pyrus calleryana 'Chanticleer',False,Bda Glòria,2.53,1.71,ok,,small,428901.06,4584754.06,428899.63,4584756.15,1.0,class
+0343492AR,Pyrus calleryana 'Chanticleer',False,Bda Glòria,2.49,1.7,ok,,none,428904.9,4584756.69,428903.51,4584758.76,1.0,floor
+0343493AR,Pyrus calleryana 'Chanticleer',False,Bda Glòria,2.5,1.71,ok,,small,428907.04,4584758.13,428905.65,4584760.2,1.0,class
+0343494AR,Pyrus calleryana 'Chanticleer',False,Bda Glòria,2.52,1.71,ok,,small,428912.21,4584761.6,428910.83,4584763.7,1.0,class
+0343495AR,Pyrus calleryana 'Chanticleer',False,Bda Glòria,2.58,1.78,ok,,small,428919.54,4584766.49,428918.11,4584768.63,1.0,class
+0345681AR,Brachychiton populneus,False,Av Coll del Portell,,42.59,no_facade,40.02,check,,,,,1.0,floor
+0345810AR,Pinus halepensis,False,Pl 25 de Novembre,,79.57,no_facade,24.54,check,,,,,1.0,floor
+0345837AR,Brachychiton populneus,False,C\ Antequera,7.71,5.63,ok,,large,429560.57,4585049.25,429566.97,4585044.95,1.5,class
+0345948AR,Olea europaea,False,Mdor Consol Casals i Genover,,34.66,no_facade,,check,,,,,1.0,floor

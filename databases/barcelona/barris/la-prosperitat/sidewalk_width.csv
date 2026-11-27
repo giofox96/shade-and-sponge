@@ -1,0 +1,1630 @@
+tree_id,species,is_plane,street,width_m,facade_dist_m,flag,strip_width_m,size_class,ray_x0,ray_y0,ray_x1,ray_y1,pit_min_m2,pit_basis
+0049848AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,Pl Nou Pins,,17.01,median,34.57,check,,,,,1.0,floor
+0049898AR,Platanus × acerifolia,True,Via Júlia,21.14,17.99,ok,,large,431467.8,4588511.41,431466.43,4588532.5,1.5,class
+0049933AR,Melia azedarach,False,C\ Palamós,8.67,4.65,ok,,large,431855.92,4588467.01,431859.95,4588459.33,1.5,class
+0049943AR,Styphnolobium japonicum,False,Pl Nou Pins,,9.53,median,,check,,,,,1.0,floor
+0049951AR,Brachychiton populneus,False,Via Júlia,,30.45,no_facade,,check,,,,,1.0,floor
+0049959AR,Platanus × acerifolia,True,Via Júlia,9.12,7.68,ok,,large,431467.8,4588511.41,431461.58,4588518.08,1.5,class
+0051041AR,Platanus × acerifolia,True,Pl Santa Engràcia,16.74,15.43,ok,,large,431535.19,4588193.31,431551.26,4588188.63,1.5,class
+0051042AR,Tipuana tipu,False,Av Rio de Janeiro,,7.21,median,10.63,check,,,,,1.0,floor
+0051043AR,Celtis australis,False,Via Favència,13.8,4.87,ok,,large,431746.48,4588620.3,431744.16,4588633.9,1.5,class
+0051044AR,Styphnolobium japonicum,False,C\ Vesuvi,,14.82,median,6.11,check,,,,,1.0,floor
+0051045AR,Tipuana tipu,False,Av Rio de Janeiro,11.93,3.19,ok,,large,431662.54,4587900.63,431670.9,4587892.13,1.5,class
+0051046AR,Brachychiton populneus,False,Av Meridiana,28.8,4.95,ok,,large,432004.96,4588355.02,432032.78,4588347.58,1.5,class
+0051047AR,Acer campestre 'Pyramidale',False,Av Rio de Janeiro,,27.33,median,,check,,,,,1.0,floor
+0051049AR,Populus nigra 'Italica',False,Av Rio de Janeiro,14.34,12.16,ok,,large,431893.96,4588091.81,431894.93,4588106.11,1.5,class
+0051050AR,Brachychiton populneus,False,Via Júlia,10.26,8.63,ok,,large,431229.79,4587988.82,431221.26,4587994.5,1.5,class
+0051051AR,Populus nigra 'Italica',False,Av Rio de Janeiro,18.32,8.7,ok,,large,431799.21,4587981.07,431781.77,4587986.68,1.5,class
+0051052AR,Brachychiton populneus,False,C\ Argullós,8.99,8.52,ok,,large,431722.86,4587999.62,431729.22,4588005.98,1.5,class
+0051056AR,Celtis australis,False,Via Favència,13.99,4.98,ok,,large,431741.53,4588619.45,431739.17,4588633.24,1.5,class
+0051057AR,Tipuana tipu,False,Av Rio de Janeiro,,36.38,no_facade,,check,,,,,1.0,floor
+0051060AR,Brachychiton populneus,False,C\ Argullós,4.88,4.29,ok,,medium,431504.55,4588208.1,431501.98,4588203.96,1.0,class
+0051061AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Canyameres,3.08,2.54,ok,,small,431380.68,4588192.17,431383.23,4588190.43,1.0,class
+0051062AR,Pyrus calleryana 'Chanticleer',False,C\ Molí,3.15,2.22,ok,,small,431641.51,4588559.14,431638.43,4588558.47,1.0,class
+0051063AR,Brachychiton populneus,False,C\ Boada,3.14,2.6,ok,,small,431457.32,4587960.31,431459.57,4587958.11,1.0,class
+0051064AR,Pinus pinea,False,C\ Vesuvi,,17.98,median,,check,,,,,1.0,floor
+0051065AR,Platanus × acerifolia,True,Via Júlia,10.88,3.4,ok,,large,431187.44,4587926.01,431178.51,4587932.23,1.5,class
+0051066AR,Styphnolobium japonicum,False,C\ Vesuvi,,18.0,no_kerb,39.78,check,,,,,1.0,floor
+0051067AR,Firmiana simplex,False,Via Favència,,23.55,median,21.73,check,,,,,1.0,floor
+0051068AR,Celtis australis,False,C\ Badosa,,11.15,median,,check,,,,,1.0,floor
+0051069AR,Olea europaea,False,Av Rio de Janeiro,,29.56,median,4.67,check,,,,,1.0,floor
+0051070AR,Celtis australis,False,Via Favència,4.77,3.84,ok,,medium,431506.62,4588581.87,431505.68,4588586.55,1.0,class
+0051071AR,Paulownia tomentosa,False,Av Meridiana,20.23,4.84,ok,,large,432034.69,4588468.31,432054.28,4588463.3,1.5,class
+0051072AR,Prunus cerasifera,False,C\ Tissó,5.46,4.24,ok,,medium,431466.56,4588502.21,431469.36,4588497.52,1.0,class
+0051073AR,Tipuana tipu,False,Pl Santa Engràcia,17.3,11.28,ok,,large,431535.19,4588193.31,431552.19,4588190.15,1.5,class
+0051074AR,Crataegus x media 'Paul's Scarlet',False,C\ Borràs,2.87,2.15,ok,,small,431303.89,4587955.56,431305.49,4587957.94,1.0,class
+0051076AR,Celtis australis,False,Via Favència,12.88,5.24,ok,,large,431811.32,4588627.66,431809.95,4588640.47,1.5,class
+0051077AR,Acer campestre 'Pyramidale',False,Av Rio de Janeiro,,27.74,median,14.47,check,,,,,1.0,floor
+0051078AR,Acer campestre 'Pyramidale',False,Av Rio de Janeiro,,16.34,median,21.85,check,,,,,1.0,floor
+0051079AR,Tipuana tipu,False,Via Favència,,24.91,median,21.75,check,,,,,1.0,floor
+0051080AR,Populus nigra 'Italica',False,Av Rio de Janeiro,,16.11,median,15.36,check,,,,,1.0,floor
+0051082AR,Albizia julibrissin,False,C\ Pablo Iglesias,,11.73,median,,check,,,,,1.0,floor
+0051083AR,Acer campestre 'Pyramidale',False,Av Rio de Janeiro,,27.71,median,14.58,check,,,,,1.0,floor
+0051084AR,Tipuana tipu,False,Av Rio de Janeiro,16.23,10.46,ok,,large,431961.05,4588235.5,431972.45,4588223.95,1.5,class
+0051085AR,Brachychiton populneus,False,C\ Argullós,3.93,3.4,ok,,medium,431708.42,4588042.93,431705.44,4588040.38,1.0,class
+0051087AR,Brachychiton populneus,False,Av Meridiana,25.57,4.74,ok,,large,432003.19,4588348.42,432027.89,4588341.8,1.5,class
+0051088AR,Platanus × acerifolia,True,Via Júlia,10.53,2.94,ok,,large,431116.29,4587825.97,431107.78,4587832.17,1.5,class
+0051089AR,Pyrus calleryana 'Chanticleer',False,C\ Borràs,3.05,2.63,ok,,small,431389.93,4587897.87,431391.63,4587900.4,1.0,class
+0051091AR,Acer campestre 'Pyramidale',False,Av Rio de Janeiro,18.5,15.61,ok,,large,431845.7,4588037.48,431848.47,4588055.77,1.5,class
+0051095AR,Platanus × acerifolia,True,Via Júlia,,18.16,median,11.95,check,,,,,1.0,floor
+0051097AR,Brachychiton populneus,False,C\ Argullós,3.11,2.53,ok,,small,431439.18,4588247.12,431437.53,4588244.47,1.0,class
+0051098AR,Ligustrum lucidum,False,C\ Badosa,8.6,2.14,ok,,large,431617.87,4588113.38,431611.53,4588119.19,1.5,class
+0051099AR,Platanus × acerifolia,True,Via Júlia,,13.53,median,18.63,check,,,,,1.0,floor
+0051100AR,Tilia platyphyllos,False,C\ Poeta Masifern,4.26,3.77,ok,,medium,431660.47,4588453.83,431658.25,4588450.2,1.0,class
+0051101AR,Brachychiton populneus,False,C\ Argullós,4.75,4.01,ok,,medium,431607.73,4588126.73,431611.04,4588130.15,1.0,class
+0051102AR,Melia azedarach,False,C\ Baltasar Gracián,,5.22,no_kerb,,check,,,,,1.0,floor
+0051103AR,Ligustrum lucidum,False,C\ Santa Engràcia,2.85,2.37,ok,,small,431379.38,4588044.23,431381.73,4588042.63,1.0,class
+0051104AR,Styphnolobium japonicum,False,C\ Vesuvi,,9.19,median,1.55,check,,,,,1.0,floor
+0051105AR,Brachychiton populneus,False,C\ Argullós,3.06,2.33,ok,,small,431485.34,4588218.2,431483.71,4588215.61,1.0,class
+0051106AR,Acer campestre 'Pyramidale',False,Av Rio de Janeiro,,41.14,no_facade,8.12,check,,,,,1.0,floor
+0051107AR,Grevillea robusta,False,Pg Valldaura,7.29,6.76,ok,,large,431193.29,4587789.62,431194.46,4587782.43,1.5,class
+0051108AR,Platanus × acerifolia,True,Pg Valldaura,,20.28,median,,check,,,,,1.0,floor
+0051109AR,Melia azedarach,False,Pl Santa Engràcia,20.79,10.08,ok,,large,431540.18,4588210.27,431557.84,4588199.3,1.5,class
+0051111AR,Brachychiton populneus,False,Av Meridiana,20.95,6.5,ok,,large,432043.52,4588507.27,432064.44,4588506.25,1.5,class
+0051113AR,Acer negundo,False,C\ Baltasar Gracián,6.61,6.05,ok,,large,431641.41,4587972.6,431636.69,4587967.98,1.5,class
+0051114AR,Styphnolobium japonicum,False,C\ Badosa,16.67,3.66,ok,,large,431518.87,4587987.38,431506.81,4587998.89,1.5,class
+0051115AR,Magnolia grandiflora,False,Via Júlia,5.4,4.83,ok,,medium,431442.52,4588451.42,431437.4,4588453.14,1.0,class
+0051116AR,Celtis australis,False,Via Favència,15.93,14.88,ok,,large,431958.85,4588643.37,431957.32,4588659.23,1.5,class
+0051117AR,Prunus cerasifera,False,C\ Tissó,,9.63,median,,check,,,,,1.0,floor
+0051118AR,Styphnolobium japonicum,False,C\ Baltasar Gracián,,8.64,no_kerb,,check,,,,,1.0,floor
+0051119AR,Brachychiton populneus,False,Via Júlia,,11.84,median,22.32,check,,,,,1.0,floor
+0051120AR,Acer campestre 'Pyramidale',False,Av Rio de Janeiro,,15.26,median,8.11,check,,,,,1.0,floor
+0051122AR,Brachychiton populneus,False,C\ Argullós,3.41,2.87,ok,,small,431404.43,4588268.79,431401.45,4588267.13,1.0,class
+0051123AR,Brachychiton populneus,False,Via Júlia,11.01,8.99,ok,,large,431135.54,4587852.4,431126.64,4587858.88,1.5,class
+0051124AR,Styphnolobium japonicum,False,C\ Vesuvi,,20.29,no_kerb,35.49,check,,,,,1.0,floor
+0051125AR,Celtis australis,False,Av Meridiana,,23.77,median,4.61,check,,,,,1.0,floor
+0051126AR,Melia azedarach,False,C\ Baltasar Gracián,,12.22,no_kerb,,check,,,,,1.0,floor
+0051128AR,Grevillea robusta,False,Pg Valldaura,7.59,7.07,ok,,large,431483.67,4587837.36,431484.86,4587829.87,1.5,class
+0051130AR,Brachychiton populneus,False,C\ Argullós,9.52,8.95,ok,,large,431711.96,4588010.52,431718.69,4588017.25,1.5,class
+0051131AR,Pyrus calleryana 'Chanticleer',False,C\ Borràs,3.05,2.46,ok,,small,431386.05,4587900.48,431387.75,4587903.01,1.0,class
+0051132AR,Platanus × acerifolia,True,C\ Pablo Iglesias,5.08,4.34,ok,,medium,431598.87,4588237.38,431594.53,4588240.0,1.0,class
+0051133AR,Populus alba 'Pyramidalis',False,C\ Tissó,,7.41,median,26.91,check,,,,,1.0,floor
+0051135AR,Pyrus calleryana 'Chanticleer',False,C\ Tissó,3.25,2.48,ok,,small,431801.49,4588265.33,431799.8,4588262.55,1.0,class
+0051137AR,Tipuana tipu,False,C\ Conflent,,8.47,no_kerb,,check,,,,,1.0,floor
+0051139AR,Platanus × acerifolia,True,Pg Valldaura,,20.07,median,5.09,check,,,,,1.0,floor
+0051140AR,Brachychiton populneus,False,C\ Argullós,3.09,2.45,ok,,small,431490.16,4588215.16,431488.52,4588212.55,1.0,class
+0051141AR,Grevillea robusta,False,Pg Valldaura,7.41,6.58,ok,,large,431390.05,4587822.1,431391.28,4587814.79,1.5,class
+0051142AR,Casuarina cunninghamiana,False,Via Favència,,30.54,no_facade,,check,,,,,1.0,floor
+0051144AR,Parrotia persica 'Vanessa',False,C\ Pou,2.93,2.25,ok,,small,431607.02,4588359.48,431609.5,4588357.93,1.0,class
+0051146AR,Celtis australis,False,C\ Pablo Iglesias,,8.83,median,10.0,check,,,,,1.0,floor
+0051147AR,Platanus × acerifolia,True,Pg Valldaura,,38.74,no_facade,3.32,check,,,,,1.0,floor
+0051149AR,Jacaranda mimosifolia,False,C\ Baltasar Gracián,6.57,6.04,ok,,large,431632.27,4587981.92,431627.58,4587977.32,1.5,class
+0051151AR,Brachychiton populneus,False,Via Júlia,10.64,8.4,ok,,large,431120.7,4587832.02,431112.1,4587838.28,1.5,class
+0051152AR,Platanus × acerifolia,True,C\ Pablo Iglesias,4.79,4.29,ok,,medium,431613.87,4588261.87,431609.85,4588264.46,1.0,class
+0051153AR,Platanus × acerifolia,True,C\ Vesuvi,,19.71,no_kerb,26.07,check,,,,,1.0,floor
+0051155AR,Tipuana tipu,False,C\ Pablo Iglesias,5.89,5.21,ok,,medium,431741.84,4588467.03,431736.86,4588470.17,1.0,class
+0051156AR,Tipuana tipu,False,C\ Pablo Iglesias,9.93,4.51,ok,,large,431736.35,4588505.49,431744.86,4588500.36,1.5,class
+0051157AR,Styphnolobium japonicum,False,C\ Vesuvi,4.7,3.49,ok,,medium,431946.75,4588560.84,431947.49,4588565.48,1.0,class
+0051158AR,Paulownia tomentosa,False,Av Rio de Janeiro,,8.4,median,14.83,check,,,,,1.0,floor
+0051162AR,Ligustrum lucidum,False,C\ Santa Engràcia,2.95,2.49,ok,,small,431391.71,4588044.95,431389.25,4588046.58,1.0,class
+0051163AR,Platanus × acerifolia,True,Via Júlia,,11.67,median,21.99,check,,,,,1.0,floor
+0051164AR,Styphnolobium japonicum,False,Pl Santa Engràcia,,6.81,no_kerb,,check,,,,,1.0,floor
+0051166AR,Ligustrum lucidum,False,C\ Santa Engràcia,2.89,2.44,ok,,small,431349.25,4587981.47,431346.84,4587983.08,1.0,class
+0051167AR,Tipuana tipu,False,C\ Pablo Iglesias,10.18,4.69,ok,,large,431577.39,4588250.26,431585.96,4588244.75,1.5,class
+0051168AR,Ligustrum lucidum,False,C\ Santa Engràcia,2.86,2.26,ok,,small,431375.73,4588038.86,431378.09,4588037.25,1.0,class
+0051169AR,Brachychiton populneus,False,Av Rio de Janeiro,,14.67,median,14.83,check,,,,,1.0,floor
+0051170AR,Melia azedarach,False,C\ Baltasar Gracián,,5.11,no_kerb,,check,,,,,1.0,floor
+0051171AR,Brachychiton populneus,False,Av Meridiana,16.34,8.86,ok,,large,431984.68,4588278.38,432000.5,4588274.28,1.5,class
+0051172AR,Tipuana tipu,False,C\ Pablo Iglesias,9.87,4.5,ok,,large,431733.22,4588500.38,431741.58,4588495.12,1.5,class
+0051173AR,Brachychiton populneus,False,Via Júlia,10.88,3.31,ok,,large,431176.83,4587910.78,431167.9,4587917.0,1.5,class
+0051174AR,Ligustrum lucidum,False,C\ Maestrat,,2.28,no_kerb,54.3,check,,,,,1.0,floor
+0051175AR,Tipuana tipu,False,Av Rio de Janeiro,,23.78,median,,check,,,,,1.0,floor
+0051176AR,Tipuana tipu,False,Av Rio de Janeiro,,6.82,median,19.72,check,,,,,1.0,floor
+0051177AR,Prunus cerasifera 'Pissardii',False,C\ Tissó,3.17,2.29,ok,,small,431779.27,4588264.91,431780.94,4588267.6,1.0,class
+0051179AR,Magnolia grandiflora,False,Via Júlia,5.08,4.12,ok,,medium,431428.67,4588410.5,431423.84,4588412.05,1.0,class
+0051180AR,Tipuana tipu,False,Pg Valldaura,,32.54,no_facade,10.16,check,,,,,1.0,floor
+0051181AR,Populus nigra 'Italica',False,Av Rio de Janeiro,,49.03,no_facade,21.98,check,,,,,1.0,floor
+0051182AR,Prunus cerasifera 'Pissardii',False,C\ Tissó,3.26,2.18,ok,,small,431770.49,4588270.35,431772.21,4588273.12,1.0,class
+0051183AR,Styphnolobium japonicum,False,Pl Nou Pins,,10.42,median,27.72,check,,,,,1.0,floor
+0051185AR,Melia azedarach,False,C\ Baltasar Gracián,,17.76,median,,check,,,,,1.0,floor
+0051186AR,Brachychiton populneus,False,C\ Argullós,10.91,10.22,ok,,large,431573.01,4588174.81,431565.72,4588166.7,1.5,class
+0051187AR,Celtis australis,False,Via Favència,13.29,7.11,ok,,large,432030.34,4588664.14,432017.11,4588665.41,1.5,class
+0051188AR,Casuarina cunninghamiana,False,Via Favència,,30.9,no_facade,21.64,check,,,,,1.0,floor
+0051189AR,Grevillea robusta,False,Pg Valldaura,14.66,13.79,ok,,large,431557.07,4587855.6,431562.2,4587841.88,1.5,class
+0051190AR,Populus nigra 'Italica',False,Av Rio de Janeiro,,22.63,median,14.47,check,,,,,1.0,floor
+0051192AR,Brachychiton populneus,False,C\ Joaquim Valls,3.32,2.69,ok,,small,431652.83,4588261.08,431651.04,4588258.29,1.0,class
+0051196AR,Celtis australis,False,Via Favència,20.07,9.65,ok,,large,431699.14,4588607.07,431700.47,4588627.1,1.5,class
+0051197AR,Tipuana tipu,False,C\ Pablo Iglesias,14.11,7.77,ok,,large,431711.79,4588466.65,431723.74,4588459.14,1.5,class
+0051198AR,Celtis australis,False,Av Meridiana,10.8,9.25,ok,,large,432043.7,4588664.66,432054.47,4588665.62,1.5,class
+0051199AR,Celtis australis,False,Via Favència,13.43,5.81,ok,,large,431854.63,4588632.36,431853.18,4588645.71,1.5,class
+0051202AR,Prunus cerasifera 'Pissardii',False,C\ Tissó,3.39,2.55,ok,,small,431695.16,4588317.7,431697.05,4588320.52,1.0,class
+0051203AR,Populus nigra 'Italica',False,Av Rio de Janeiro,,23.84,median,17.75,check,,,,,1.0,floor
+0051204AR,Platanus × acerifolia,True,C\ Vesuvi,,14.14,no_kerb,,check,,,,,1.0,floor
+0051206AR,Brachychiton populneus,False,Pl República,26.06,23.47,ok,,large,431092.07,4587773.88,431066.05,4587775.35,1.5,class
+0051207AR,Styphnolobium japonicum,False,C\ Vesuvi,,10.16,median,2.29,check,,,,,1.0,floor
+0051208AR,Magnolia grandiflora,False,Via Júlia,5.34,4.68,ok,,medium,431398.71,4588321.38,431393.64,4588323.04,1.0,class
+0051209AR,Populus nigra 'Italica',False,Av Rio de Janeiro,23.77,11.95,ok,,large,431946.81,4588144.9,431951.33,4588168.23,1.5,class
+0051210AR,Celtis australis,False,C\ Badosa,18.11,6.0,ok,,large,431554.47,4588021.82,431541.57,4588034.54,1.5,class
+0051211AR,Platanus × acerifolia,True,Pg Valldaura,,38.2,no_facade,3.35,check,,,,,1.0,floor
+0051213AR,Acer campestre 'Pyramidale',False,Av Rio de Janeiro,,15.17,median,27.53,check,,,,,1.0,floor
+0051215AR,Celtis australis,False,Via Favència,12.76,5.12,ok,,large,431823.66,4588629.05,431822.02,4588641.7,1.5,class
+0051217AR,Acer campestre 'Pyramidale',False,Av Rio de Janeiro,,36.97,no_facade,11.01,check,,,,,1.0,floor
+0051218AR,Olea europaea,False,Av Rio de Janeiro,,22.34,median,3.21,check,,,,,1.0,floor
+0051219AR,Celtis australis,False,Av Meridiana,,36.48,no_facade,7.5,check,,,,,1.0,floor
+0051221AR,Styphnolobium japonicum,False,Pl Nou Pins,,9.23,median,,check,,,,,1.0,floor
+0051222AR,Brachychiton populneus,False,Via Júlia,11.17,3.55,ok,,large,431148.23,4587869.79,431139.08,4587876.2,1.5,class
+0051225AR,Brachychiton populneus,False,Av Rio de Janeiro,,12.59,median,12.87,check,,,,,1.0,floor
+0051226AR,Pyrus calleryana 'Chanticleer',False,C\ Badosa,3.13,2.22,ok,,small,431577.41,4588069.25,431575.11,4588071.37,1.0,class
+0051227AR,Olea europaea,False,Av Rio de Janeiro,,24.26,median,4.09,check,,,,,1.0,floor
+0051228AR,Brachychiton populneus,False,Via Júlia,10.35,2.95,ok,,large,431223.09,4587978.74,431214.47,4587984.48,1.5,class
+0051234AR,Celtis australis,False,Via Favència,11.5,5.91,ok,,large,431993.85,4588660.43,431982.45,4588661.99,1.5,class
+0051236AR,Platanus × acerifolia,True,Pl Nou Pins,,17.91,median,33.97,check,,,,,1.0,floor
+0051237AR,Melia azedarach,False,Pl Santa Engràcia,16.54,3.75,ok,,large,431522.96,4588213.97,431514.01,4588200.06,1.5,class
+0051239AR,Ligustrum lucidum,False,C\ Maestrat,,2.29,no_kerb,,check,,,,,1.0,floor
+0051240AR,Celtis australis,False,Av Meridiana,6.59,4.68,ok,,large,432043.62,4588665.58,432049.88,4588667.65,1.5,class
+0051241AR,Brachychiton populneus,False,C\ Artesania,4.72,3.99,ok,,medium,431160.39,4587799.72,431158.51,4587795.39,1.0,class
+0051242AR,Brachychiton populneus,False,Via Júlia,,11.39,median,21.95,check,,,,,1.0,floor
+0051244AR,Brachychiton populneus,False,C\ Joaquim Valls,,5.48,median,,check,,,,,1.0,floor
+0051245AR,Tipuana tipu,False,Via Favència,,24.32,median,23.03,check,,,,,1.0,floor
+0051246AR,Brachychiton populneus,False,Via Júlia,,11.86,median,22.06,check,,,,,1.0,floor
+0051247AR,Celtis australis,False,Av Meridiana,13.45,11.36,ok,,large,432023.52,4588563.46,432036.61,4588560.37,1.5,class
+0051248AR,Celtis australis,False,Av Meridiana,16.57,15.71,ok,,large,432033.94,4588607.47,432050.06,4588603.65,1.5,class
+0051249AR,Grevillea robusta,False,Pg Valldaura,7.72,7.1,ok,,large,431436.38,4587829.82,431437.6,4587822.2,1.5,class
+0051250AR,Brachychiton populneus,False,C\ Boada,,7.86,median,,check,,,,,1.0,floor
+0051251AR,Celtis australis,False,Via Favència,13.79,12.54,ok,,large,431746.75,4588620.34,431744.43,4588633.94,1.5,class
+0051252AR,Celtis australis,False,Av Meridiana,,21.31,median,21.54,check,,,,,1.0,floor
+0051254AR,Prunus cerasifera 'Pissardii',False,C\ Tissó,4.22,3.16,ok,,medium,431902.31,4588220.18,431903.47,4588224.24,1.0,class
+0051257AR,Platanus × acerifolia,True,C\ Pablo Iglesias,4.69,4.15,ok,,medium,431606.34,4588249.74,431602.33,4588252.16,1.0,class
+0051258AR,Tilia platyphyllos,False,C\ Poeta Masifern,4.13,3.59,ok,,medium,431652.45,4588458.73,431650.3,4588455.2,1.0,class
+0051259AR,Brachychiton populneus,False,Av Meridiana,22.57,4.59,ok,,large,432008.57,4588368.53,432030.38,4588362.69,1.5,class
+0051260AR,Celtis australis,False,Via Favència,15.98,14.65,ok,,large,431964.71,4588643.94,431963.17,4588659.85,1.5,class
+0051261AR,Platanus × acerifolia,True,Via Júlia,11.53,2.86,ok,,large,431094.69,4587795.96,431085.17,4587802.46,1.5,class
+0051262AR,Jacaranda mimosifolia,False,C\ Argullós,,6.49,median,19.63,check,,,,,1.0,floor
+0051263AR,Brachychiton populneus,False,Av Meridiana,16.93,4.9,ok,,large,432006.71,4588361.55,432023.06,4588357.17,1.5,class
+0051265AR,Melia azedarach,False,Pl Santa Engràcia,20.8,9.94,ok,,large,431537.64,4588206.18,431555.31,4588195.2,1.5,class
+0051266AR,Olea europaea,False,Av Rio de Janeiro,,22.19,median,3.14,check,,,,,1.0,floor
+0051268AR,Tipuana tipu,False,Av Rio de Janeiro,16.26,4.19,ok,,large,431960.75,4588235.2,431972.17,4588223.63,1.5,class
+0051270AR,Brachychiton populneus,False,C\ Argullós,3.64,3.04,ok,,medium,431611.06,4588139.74,431608.72,4588136.97,1.0,class
+0051271AR,Platanus × acerifolia,True,Via Júlia,,18.3,median,11.81,check,,,,,1.0,floor
+0051273AR,Ligustrum lucidum,False,C\ Santa Engràcia,2.9,2.15,ok,,small,431307.42,4587936.33,431309.82,4587934.71,1.0,class
+0051274AR,Olea europaea,False,Av Rio de Janeiro,,22.1,median,3.53,check,,,,,1.0,floor
+0051275AR,Platanus × acerifolia,True,Via Júlia,10.76,3.03,ok,,large,431199.52,4587943.34,431190.56,4587949.3,1.5,class
+0051277AR,Celtis australis,False,Via Favència,12.92,5.2,ok,,large,431829.65,4588629.75,431828.53,4588642.61,1.5,class
+0051279AR,Acer campestre 'Pyramidale',False,Av Rio de Janeiro,,39.1,no_facade,8.15,check,,,,,1.0,floor
+0051281AR,Platanus × acerifolia,True,Via Júlia,10.68,2.97,ok,,large,431265.76,4588041.99,431256.88,4588047.92,1.5,class
+0051282AR,Platanus × acerifolia,True,C\ Pablo Iglesias,,8.39,median,9.97,check,,,,,1.0,floor
+0051283AR,Platanus × acerifolia,True,Via Júlia,10.92,3.66,ok,,large,431159.07,4587885.28,431150.12,4587891.54,1.5,class
+0051284AR,Celtis australis,False,Via Favència,13.51,12.29,ok,,large,431753.69,4588621.53,431751.41,4588634.85,1.5,class
+0051285AR,Melia azedarach,False,C\ Baltasar Gracián,,6.12,no_kerb,,check,,,,,1.0,floor
+0051286AR,Jacaranda mimosifolia,False,C\ Baltasar Gracián,6.58,3.38,ok,,large,431635.08,4587979.06,431630.38,4587974.45,1.5,class
+0051287AR,Acer campestre 'Pyramidale',False,Av Rio de Janeiro,,38.51,no_facade,11.01,check,,,,,1.0,floor
+0051288AR,Paulownia tomentosa,False,Av Rio de Janeiro,,9.89,median,26.93,check,,,,,1.0,floor
+0051289AR,Platanus × acerifolia,True,C\ Pablo Iglesias,9.83,9.09,ok,,large,431594.22,4588276.66,431602.59,4588271.5,1.5,class
+0051291AR,Celtis australis,False,Av Meridiana,,22.45,median,4.9,check,,,,,1.0,floor
+0051292AR,Tipuana tipu,False,Av Rio de Janeiro,,24.53,median,10.81,check,,,,,1.0,floor
+0051294AR,Acer campestre 'Pyramidale',False,Av Rio de Janeiro,,39.6,no_facade,10.87,check,,,,,1.0,floor
+0051295AR,Styphnolobium japonicum,False,Pl Nou Pins,,14.66,median,33.98,check,,,,,1.0,floor
+0051296AR,Platanus × acerifolia,True,Via Júlia,11.5,9.99,ok,,large,431094.95,4587796.34,431085.45,4587802.82,1.5,class
+0051297AR,Celtis australis,False,Via Favència,12.86,11.11,ok,,large,431817.1,4588628.28,431815.73,4588641.06,1.5,class
+0051298AR,Tipuana tipu,False,C\ Conflent,,3.69,no_kerb,49.87,check,,,,,1.0,floor
+0051299AR,Pyrus calleryana 'Chanticleer',False,C\ Tissó,4.16,3.4,ok,,medium,431756.63,4588278.94,431756.02,4588283.06,1.0,class
+0051300AR,Platanus × acerifolia,True,C\ Pablo Iglesias,,8.87,median,9.82,check,,,,,1.0,floor
+0051301AR,Styphnolobium japonicum,False,C\ Baltasar Gracián,,6.48,no_kerb,,check,,,,,1.0,floor
+0051302AR,Tipuana tipu,False,C\ Pablo Iglesias,14.1,4.72,ok,,large,431712.72,4588468.13,431724.66,4588460.63,1.5,class
+0051303AR,Melia azedarach,False,C\ Baltasar Gracián,,12.25,no_kerb,,check,,,,,1.0,floor
+0051304AR,Platanus × acerifolia,True,Via Júlia,,11.55,median,21.97,check,,,,,1.0,floor
+0051305AR,Brachychiton populneus,False,Via Júlia,,11.35,median,22.11,check,,,,,1.0,floor
+0051306AR,Platanus × acerifolia,True,Via Júlia,,18.36,median,21.95,check,,,,,1.0,floor
+0051307AR,Brachychiton populneus,False,Pl República,19.49,17.79,ok,,large,431092.02,4587772.97,431073.48,4587766.97,1.5,class
+0051308AR,Brachychiton populneus,False,Via Júlia,10.88,3.37,ok,,large,431170.01,4587900.97,431161.08,4587907.19,1.5,class
+0051309AR,Brachychiton populneus,False,Av Rio de Janeiro,21.94,15.0,ok,,large,431727.65,4587984.74,431749.54,4587986.15,1.5,class
+0051310AR,Styphnolobium japonicum,False,C\ Baltasar Gracián,,6.61,no_kerb,43.95,check,,,,,1.0,floor
+0051311AR,Platanus × acerifolia,True,Via Júlia,,11.11,median,22.1,check,,,,,1.0,floor
+0051312AR,Platanus × acerifolia,True,Via Júlia,10.26,2.73,ok,,large,431233.19,4587993.93,431224.65,4587999.61,1.5,class
+0051313AR,Acer campestre 'Pyramidale',False,Av Rio de Janeiro,,23.91,median,,check,,,,,1.0,floor
+0051314AR,Platanus × acerifolia,True,Via Júlia,,11.98,median,22.19,check,,,,,1.0,floor
+0051315AR,Melia azedarach,False,C\ Badosa,,11.62,median,,check,,,,,1.0,floor
+0051316AR,Prunus cerasifera,False,C\ Tissó,,10.23,median,,check,,,,,1.0,floor
+0051317AR,Tipuana tipu,False,Via Favència,,24.3,median,21.71,check,,,,,1.0,floor
+0051319AR,Styphnolobium japonicum,False,C\ Baltasar Gracián,,4.59,no_kerb,43.86,check,,,,,1.0,floor
+0051320AR,Paulownia tomentosa,False,Av Meridiana,21.77,4.94,ok,,large,432015.41,4588394.91,432036.43,4588389.26,1.5,class
+0051321AR,Tipuana tipu,False,C\ Conflent,,12.08,no_kerb,,check,,,,,1.0,floor
+0051322AR,Styphnolobium japonicum,False,C\ Vesuvi,,10.42,median,5.99,check,,,,,1.0,floor
+0051323AR,Brachychiton populneus,False,Via Júlia,,11.42,median,21.85,check,,,,,1.0,floor
+0051324AR,Brachychiton populneus,False,C\ Turó Blau,6.51,5.64,ok,,large,431227.13,4587803.72,431233.56,4587804.76,1.5,class
+0051325AR,Tipuana tipu,False,Pl Santa Engràcia,20.75,15.24,ok,,large,431546.56,4588220.54,431564.19,4588209.59,1.5,class
+0051326AR,Brachychiton populneus,False,Av Rio de Janeiro,16.49,11.06,ok,,large,431724.67,4587973.24,431737.41,4587962.77,1.5,class
+0051327AR,Styphnolobium japonicum,False,C\ Formentera,,6.86,median,8.59,check,,,,,1.0,floor
+0051328AR,Acer campestre 'Pyramidale',False,Av Rio de Janeiro,10.12,4.03,ok,,large,431845.7,4588037.48,431837.07,4588042.76,1.5,class
+0051330AR,Parrotia persica 'Vanessa',False,C\ Pou,3.1,2.02,ok,,small,431669.05,4588459.34,431671.68,4588457.7,1.0,class
+0051331AR,Parrotia persica 'Vanessa',False,C\ Pou,3.07,2.61,ok,,small,431690.25,4588493.37,431692.85,4588491.74,1.0,class
+0051334AR,Brachychiton populneus,False,C\ Artesania,4.68,4.02,ok,,medium,431149.76,4587804.33,431147.9,4587800.03,1.0,class
+0051335AR,Quercus ilex,False,Via Júlia,,18.33,median,21.83,check,,,,,1.0,floor
+0051336AR,Tipuana tipu,False,Av Rio de Janeiro,15.79,10.17,ok,,large,431965.97,4588240.35,431977.06,4588229.12,1.5,class
+0051337AR,Platanus × acerifolia,True,Via Júlia,,18.57,median,22.24,check,,,,,1.0,floor
+0051339AR,Platanus × acerifolia,True,Via Júlia,,18.43,median,21.94,check,,,,,1.0,floor
+0051340AR,Paulownia tomentosa,False,Av Rio de Janeiro,15.71,3.68,ok,,large,431727.23,4587991.36,431742.9,4587992.37,1.5,class
+0051341AR,Brachychiton populneus,False,Av Meridiana,8.9,9.68,ok,,large,432042.7,4588518.84,432051.52,4588520.06,1.5,class
+0051342AR,Brachychiton populneus,False,Via Júlia,10.88,9.07,ok,,large,431184.04,4587921.13,431175.11,4587927.35,1.5,class
+0051343AR,Tipuana tipu,False,Av Rio de Janeiro,,36.14,no_facade,22.25,check,,,,,1.0,floor
+0051344AR,Platanus × acerifolia,True,Via Júlia,,12.27,median,20.98,check,,,,,1.0,floor
+0051345AR,Melia azedarach,False,C\ Baltasar Gracián,6.59,6.1,ok,,large,431637.38,4587976.71,431632.67,4587972.1,1.5,class
+0051346AR,Platanus × acerifolia,True,Via Júlia,9.67,7.91,ok,,large,431305.35,4588102.87,431297.17,4588108.04,1.5,class
+0051348AR,Tipuana tipu,False,Av Rio de Janeiro,,31.25,no_facade,10.76,check,,,,,1.0,floor
+0051349AR,Populus nigra 'Italica',False,Pg Valldaura,,24.93,median,9.12,check,,,,,1.0,floor
+0051350AR,Tipuana tipu,False,Av Rio de Janeiro,,11.19,median,20.11,check,,,,,1.0,floor
+0051351AR,Platanus × acerifolia,True,Via Júlia,,11.64,median,22.05,check,,,,,1.0,floor
+0051352AR,Tilia platyphyllos,False,C\ Poeta Masifern,4.1,3.2,ok,,medium,431633.15,4588457.11,431635.37,4588460.57,1.0,class
+0051353AR,Tipuana tipu,False,C\ Pablo Iglesias,9.99,4.67,ok,,large,431726.82,4588490.25,431735.07,4588484.63,1.5,class
+0051354AR,Celtis australis,False,C\ Badosa,16.51,3.71,ok,,large,431529.94,4587998.98,431517.99,4588010.38,1.5,class
+0051355AR,Acer campestre 'Pyramidale',False,Av Rio de Janeiro,14.34,7.34,ok,,large,431844.8,4588033.04,431830.74,4588035.88,1.5,class
+0051356AR,Olea europaea,False,Av Rio de Janeiro,,24.39,median,4.21,check,,,,,1.0,floor
+0051357AR,Platanus × acerifolia,True,Via Júlia,,21.64,median,22.31,check,,,,,1.0,floor
+0051358AR,Celtis australis,False,Via Favència,16.14,14.95,ok,,large,431929.02,4588639.93,431927.26,4588655.97,1.5,class
+0051359AR,Celtis australis,False,Rda Dalt (Llobregat),,28.76,no_kerb,,check,,,,,1.0,floor
+0051360AR,Tipuana tipu,False,C\ Pablo Iglesias,,15.12,median,,check,,,,,1.0,floor
+0051361AR,Tipuana tipu,False,Av Rio de Janeiro,17.11,5.38,ok,,large,431950.95,4588225.52,431962.97,4588213.35,1.5,class
+0051362AR,Platanus × acerifolia,True,Pg Valldaura,,20.37,median,5.02,check,,,,,1.0,floor
+0051364AR,Celtis australis,False,Via Favència,9.73,7.99,ok,,large,431510.92,4588582.73,431518.25,4588589.13,1.5,class
+0051365AR,Brachychiton populneus,False,C\ Argullós,4.29,3.66,ok,,medium,431634.96,4588102.26,431637.89,4588105.39,1.0,class
+0051366AR,Platanus × acerifolia,True,C\ Pablo Iglesias,,8.32,median,10.0,check,,,,,1.0,floor
+0051367AR,Pyrus calleryana 'Chanticleer',False,C\ Tissó,4.75,4.06,ok,,medium,431941.72,4588223.85,431940.66,4588219.22,1.0,class
+0051368AR,Tipuana tipu,False,Pl Santa Engràcia,20.8,15.3,ok,,large,431537.3,4588205.64,431554.97,4588194.66,1.5,class
+0051369AR,Tipuana tipu,False,C\ Argullós,9.53,3.2,ok,,large,431711.74,4588010.74,431718.47,4588017.48,1.5,class
+0051370AR,Grevillea robusta,False,Pg Valldaura,7.65,6.88,ok,,large,431417.86,4587826.79,431419.13,4587819.24,1.5,class
+0051371AR,Styphnolobium japonicum,False,C\ Baltasar Gracián,,9.98,no_kerb,44.14,check,,,,,1.0,floor
+0051372AR,Tipuana tipu,False,C\ Pablo Iglesias,5.98,5.07,ok,,medium,431751.3,4588481.93,431746.28,4588485.17,1.0,class
+0051374AR,Platanus × acerifolia,True,Via Júlia,10.11,3.21,ok,,large,431298.11,4588091.44,431289.57,4588096.85,1.5,class
+0051375AR,Acer campestre 'Pyramidale',False,Av Rio de Janeiro,,36.96,no_facade,8.2,check,,,,,1.0,floor
+0051376AR,Platanus × acerifolia,True,C\ Vesuvi,,9.6,no_kerb,,check,,,,,1.0,floor
+0051377AR,Brachychiton populneus,False,Av Rio de Janeiro,16.86,11.36,ok,,large,431728.12,4587977.43,431742.42,4587968.51,1.5,class
+0051379AR,Platanus × acerifolia,True,C\ Vesuvi,,20.16,median,8.91,check,,,,,1.0,floor
+0051380AR,Pyrus calleryana 'Chanticleer',False,C\ Molí,3.03,2.1,ok,,small,431634.68,4588590.35,431631.72,4588589.7,1.0,class
+0051381AR,Quercus ilex,False,Via Júlia,,18.03,median,21.84,check,,,,,1.0,floor
+0051382AR,Jacaranda mimosifolia,False,C\ Baltasar Gracián,6.62,3.51,ok,,large,431643.47,4587970.51,431638.74,4587965.87,1.5,class
+0051383AR,Prunus cerasifera 'Pissardii',False,C\ Joaquim Valls,,5.55,median,12.28,check,,,,,1.0,floor
+0051384AR,Brachychiton populneus,False,Av Meridiana,,12.69,median,17.46,check,,,,,1.0,floor
+0051385AR,Tipuana tipu,False,C\ Argullós,9.71,3.85,ok,,large,431708.05,4588014.43,431714.91,4588021.29,1.5,class
+0051386AR,Brachychiton populneus,False,Via Júlia,10.89,8.99,ok,,large,431191.19,4587931.39,431182.25,4587937.61,1.5,class
+0051387AR,Tipuana tipu,False,C\ Pablo Iglesias,14.22,6.79,ok,,large,431671.95,4588402.37,431684.03,4588394.86,1.5,class
+0051388AR,Brachychiton populneus,False,Av Meridiana,19.7,5.03,ok,,large,432040.01,4588489.12,432059.15,4588484.43,1.5,class
+0051389AR,Celtis australis,False,C\ Molí,,14.66,median,14.29,check,,,,,1.0,floor
+0051390AR,Brachychiton populneus,False,C\ Argullós,3.01,2.48,ok,,small,431412.07,4588263.99,431410.47,4588261.44,1.0,class
+0051392AR,Tipuana tipu,False,C\ Pablo Iglesias,14.14,6.56,ok,,large,431654.03,4588373.54,431666.03,4588366.07,1.5,class
+0051394AR,Jacaranda mimosifolia,False,C\ Argullós,15.56,7.7,ok,,large,431569.09,4588144.75,431580.15,4588155.7,1.5,class
+0051395AR,Grevillea robusta,False,Pg Valldaura,7.63,7.04,ok,,large,431466.27,4587834.59,431467.47,4587827.05,1.5,class
+0051396AR,Prunus cerasifera 'Pissardii',False,C\ Tissó,4.21,3.32,ok,,medium,431931.9,4588226.1,431930.96,4588221.99,1.0,class
+0051397AR,Brachychiton populneus,False,C\ Artesania,4.56,4.02,ok,,medium,431133.16,4587811.46,431131.37,4587807.27,1.0,class
+0051398AR,Brachychiton populneus,False,C\ Turó Blau,6.69,5.75,ok,,large,431225.2,4587815.68,431231.81,4587816.75,1.5,class
+0051399AR,Populus nigra 'Italica',False,Pg Valldaura,,23.88,median,7.35,check,,,,,1.0,floor
+0051400AR,Brachychiton populneus,False,C\ Argullós,3.36,2.71,ok,,small,431389.59,4588266.61,431391.39,4588269.45,1.0,class
+0051403AR,Brachychiton populneus,False,C\ Boada,11.59,6.31,ok,,large,431423.89,4587925.36,431418.56,4587915.07,1.5,class
+0051404AR,Pinus pinea,False,C\ Vesuvi,17.22,14.01,ok,,large,431938.97,4588618.58,431940.88,4588601.47,1.5,class
+0051405AR,Acer campestre 'Pyramidale',False,Av Rio de Janeiro,,43.98,no_facade,13.39,check,,,,,1.0,floor
+0051406AR,Platanus × acerifolia,True,Via Júlia,10.88,3.3,ok,,large,431180.4,4587915.9,431171.47,4587922.11,1.5,class
+0051407AR,Melia azedarach,False,C\ Baltasar Gracián,3.61,2.69,ok,,medium,431666.9,4587917.8,431669.47,4587920.32,1.0,class
+0051408AR,Brachychiton populneus,False,C\ Joaquim Valls,,5.51,median,12.64,check,,,,,1.0,floor
+0051409AR,Brachychiton populneus,False,C\ Argullós,3.52,2.59,ok,,medium,431674.55,4588063.53,431677.21,4588065.84,1.0,class
+0051411AR,Quercus ilex,False,Via Júlia,,34.5,no_facade,22.49,check,,,,,1.0,floor
+0051412AR,Celtis australis,False,Via Favència,16.11,6.62,ok,,large,431892.3,4588635.94,431890.89,4588651.99,1.5,class
+0051413AR,Brachychiton populneus,False,Via Júlia,10.88,9.14,ok,,large,431176.9,4587910.88,431167.97,4587917.1,1.5,class
+0051414AR,Brachychiton populneus,False,Av Rio de Janeiro,,8.35,median,14.79,check,,,,,1.0,floor
+0051415AR,Styphnolobium japonicum,False,C\ Formentera,,6.8,median,8.56,check,,,,,1.0,floor
+0051416AR,Celtis australis,False,Rda Dalt (Llobregat),16.61,13.75,ok,,large,431510.92,4588582.73,431525.57,4588590.56,1.5,class
+0051417AR,Pyrus calleryana 'Chanticleer',False,C\ Molí,5.81,5.52,ok,,medium,431604.7,4588454.08,431609.36,4588450.61,1.0,class
+0051418AR,Brachychiton discolor,False,Av Meridiana,,4.3,no_kerb,44.37,check,,,,,1.0,floor
+0051419AR,Styphnolobium japonicum,False,C\ Vesuvi,3.82,2.77,ok,,medium,431900.42,4588568.2,431901.02,4588571.97,1.0,class
+0051420AR,Platanus × acerifolia,True,C\ Pablo Iglesias,,8.59,median,10.0,check,,,,,1.0,floor
+0051422AR,Platanus × acerifolia,True,Pg Valldaura,9.72,8.93,ok,,large,431801.74,4587885.96,431803.22,4587876.35,1.5,class
+0051423AR,Brachychiton populneus,False,Via Júlia,,11.31,median,22.06,check,,,,,1.0,floor
+0051425AR,Celtis australis,False,Via Favència,13.37,11.82,ok,,large,431848.15,4588631.69,431846.92,4588645.0,1.5,class
+0051426AR,Celtis australis,False,Via Favència,21.88,11.36,ok,,large,431704.96,4588606.68,431706.41,4588628.51,1.5,class
+0051427AR,Ligustrum lucidum,False,C\ Santa Engràcia,3.06,2.46,ok,,small,431368.69,4588010.28,431366.14,4588011.97,1.0,class
+0051428AR,Tipuana tipu,False,Av Rio de Janeiro,11.07,2.65,ok,,large,431672.51,4587910.44,431680.27,4587902.55,1.5,class
+0051429AR,Celtis australis,False,Via Favència,12.9,11.29,ok,,large,431829.34,4588629.72,431828.23,4588642.57,1.5,class
+0051430AR,Tipuana tipu,False,C\ Argullós,9.0,2.95,ok,,large,431722.75,4587999.74,431729.11,4588006.1,1.5,class
+0051431AR,Ginkgo biloba,False,C\ Boada,11.15,4.93,ok,,large,431482.02,4587966.61,431489.77,4587974.62,1.5,class
+0051433AR,Celtis australis,False,Via Favència,16.18,15.25,ok,,large,431920.67,4588639.04,431918.92,4588655.12,1.5,class
+0051434AR,Brachychiton populneus,False,C\ Pablo Iglesias,,10.62,median,25.01,check,,,,,1.0,floor
+0051435AR,Acer campestre 'Pyramidale',False,Av Rio de Janeiro,,33.44,no_facade,8.22,check,,,,,1.0,floor
+0051437AR,Brachychiton populneus,False,C\ Argullós,3.03,2.4,ok,,small,431389.85,4588278.03,431388.23,4588275.47,1.0,class
+0051439AR,Celtis australis,False,Av Meridiana,14.62,13.71,ok,,large,432045.55,4588644.07,432059.0,4588638.36,1.5,class
+0051440AR,Populus nigra 'Italica',False,Pg Valldaura,,23.44,median,7.29,check,,,,,1.0,floor
+0051441AR,Brachychiton populneus,False,Av Rio de Janeiro,13.01,4.09,ok,,large,431711.69,4587957.44,431721.74,4587949.18,1.5,class
+0051442AR,Brachychiton populneus,False,C\ Argullós,4.32,3.73,ok,,medium,431638.67,4588098.78,431641.62,4588101.93,1.0,class
+0051443AR,Tipuana tipu,False,Av Rio de Janeiro,,40.4,no_facade,10.82,check,,,,,1.0,floor
+0051444AR,Melia azedarach,False,Pl Santa Engràcia,,4.75,no_kerb,,check,,,,,1.0,floor
+0051445AR,Liquidambar styraciflua,False,C\ Joaquim Valls,6.24,3.38,ok,,large,431849.13,4588129.65,431845.11,4588124.89,1.5,class
+0051446AR,Brachychiton populneus,False,Via Júlia,,11.85,median,22.06,check,,,,,1.0,floor
+0051447AR,Prunus cerasifera,False,C\ Tissó,,11.0,median,,check,,,,,1.0,floor
+0051448AR,Paulownia tomentosa,False,Av Rio de Janeiro,,14.2,median,14.71,check,,,,,1.0,floor
+0051449AR,Brachychiton populneus,False,Av Rio de Janeiro,15.07,3.0,ok,,large,431686.62,4587926.93,431691.0,4587912.51,1.5,class
+0051450AR,Acer campestre 'Pyramidale',False,Av Rio de Janeiro,,9.92,median,9.7,check,,,,,1.0,floor
+0051451AR,Parrotia persica 'Vanessa',False,C\ Pou,2.85,2.33,ok,,small,431652.42,4588432.14,431654.83,4588430.63,1.0,class
+0051452AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Canyameres,2.98,2.12,ok,,small,431441.84,4588281.57,431444.3,4588279.89,1.0,class
+0051453AR,Brachychiton populneus,False,Via Júlia,10.27,8.75,ok,,large,431236.22,4587998.47,431227.67,4588004.16,1.5,class
+0051454AR,Platanus × acerifolia,True,Pg Valldaura,11.05,10.24,ok,,large,431823.59,4587889.32,431829.96,4587880.28,1.5,class
+0051455AR,Celtis australis,False,Via Favència,14.52,13.32,ok,,large,431730.12,4588617.51,431726.95,4588631.68,1.5,class
+0051456AR,Acer campestre 'Pyramidale',False,Av Rio de Janeiro,,40.67,no_facade,10.86,check,,,,,1.0,floor
+0051457AR,Celtis australis,False,C\ Conflent,,3.73,no_kerb,,check,,,,,1.0,floor
+0051458AR,Olea europaea,False,Av Rio de Janeiro,,21.23,median,3.19,check,,,,,1.0,floor
+0051459AR,Parrotia persica 'Vanessa',False,C\ Pou,2.9,2.38,ok,,small,431656.04,4588437.92,431658.5,4588436.37,1.0,class
+0051461AR,Brachychiton populneus,False,C\ Argullós,,8.56,median,,check,,,,,1.0,floor
+0051464AR,Grevillea robusta,False,Via Favència,,28.49,median,21.66,check,,,,,1.0,floor
+0051465AR,Ligustrum lucidum,False,C\ Maestrat,,2.26,no_kerb,,check,,,,,1.0,floor
+0051466AR,Celtis australis,False,Av Meridiana,,23.93,median,3.71,check,,,,,1.0,floor
+0051468AR,Celtis australis,False,Av Meridiana,,23.45,median,21.81,check,,,,,1.0,floor
+0051469AR,Tipuana tipu,False,Av Rio de Janeiro,11.9,8.81,ok,,large,431662.84,4587900.93,431671.19,4587892.45,1.5,class
+0051471AR,Celtis australis,False,Via Favència,13.69,6.36,ok,,large,431873.87,4588634.33,431872.68,4588647.97,1.5,class
+0051472AR,Tipuana tipu,False,C\ Pablo Iglesias,6.06,5.24,ok,,large,431754.74,4588487.26,431749.65,4588490.55,1.5,class
+0051473AR,Brachychiton acerifolius,False,Via Júlia,,18.4,median,11.82,check,,,,,1.0,floor
+0051474AR,Pyrus calleryana 'Chanticleer',False,C\ Molí,,5.62,median,,check,,,,,1.0,floor
+0051475AR,Tilia platyphyllos,False,C\ Poeta Masifern,4.16,3.61,ok,,medium,431635.31,4588469.72,431633.06,4588466.22,1.0,class
+0051476AR,Tipuana tipu,False,Av Rio de Janeiro,,34.19,no_facade,13.99,check,,,,,1.0,floor
+0051478AR,Melia azedarach,False,C\ Baltasar Gracián,6.64,5.87,ok,,large,431649.43,4587964.43,431644.69,4587959.78,1.5,class
+0051480AR,Tipuana tipu,False,Pl República,20.07,6.07,ok,,large,431092.02,4587772.97,431072.45,4587768.53,1.5,class
+0051481AR,Celtis australis,False,Via Favència,13.47,12.22,ok,,large,431866.68,4588633.73,431866.01,4588647.18,1.5,class
+0051482AR,Magnolia grandiflora,False,Via Júlia,5.45,5.03,ok,,medium,431369.28,4588233.8,431364.15,4588235.65,1.0,class
+0051483AR,Platanus × acerifolia,True,C\ Pablo Iglesias,9.95,9.48,ok,,large,431727.21,4588490.83,431735.52,4588485.35,1.5,class
+0051484AR,Celtis australis,False,Via Favència,13.42,5.77,ok,,large,431861.18,4588633.11,431859.55,4588646.43,1.5,class
+0051485AR,Brachychiton populneus,False,Via Júlia,,11.58,median,21.95,check,,,,,1.0,floor
+0051486AR,Tipuana tipu,False,C\ Pablo Iglesias,5.87,5.13,ok,,medium,431738.78,4588462.18,431733.82,4588465.31,1.0,class
+0051487AR,Tipuana tipu,False,Via Favència,,24.85,median,21.74,check,,,,,1.0,floor
+0051489AR,Grevillea robusta,False,Pg Valldaura,7.26,6.34,ok,,large,431105.04,4587775.06,431106.19,4587767.89,1.5,class
+0051490AR,Ligustrum lucidum,False,C\ Badosa,3.08,2.13,ok,,small,431593.61,4588086.91,431591.34,4588088.99,1.0,class
+0051491AR,Paulownia tomentosa,False,Av Rio de Janeiro,,13.97,median,14.57,check,,,,,1.0,floor
+0051492AR,Styphnolobium japonicum,False,C\ Vesuvi,,13.19,median,9.77,check,,,,,1.0,floor
+0051493AR,Platanus × acerifolia,True,Via Júlia,10.72,9.05,ok,,large,431273.13,4588053.04,431264.18,4588058.93,1.5,class
+0051494AR,Celtis australis,False,Via Favència,15.9,14.49,ok,,large,431682.59,4588607.92,431687.47,4588623.04,1.5,class
+0051495AR,Platanus × acerifolia,True,C\ Pablo Iglesias,10.31,9.44,ok,,large,431608.0,4588299.81,431616.76,4588294.37,1.5,class
+0051496AR,Tipuana tipu,False,C\ Argullós,9.95,4.18,ok,,large,431700.44,4588022.2,431707.8,4588028.9,1.5,class
+0051497AR,Pyrus calleryana 'Chanticleer',False,C\ Borràs,3.2,2.72,ok,,small,431366.24,4587913.78,431368.03,4587916.44,1.0,class
+0051499AR,Pyrus calleryana 'Chanticleer',False,C\ Tissó,3.33,2.41,ok,,small,431762.35,4588275.39,431764.11,4588278.23,1.0,class
+0051500AR,Acer campestre 'Pyramidale',False,Av Rio de Janeiro,,39.73,no_facade,8.11,check,,,,,1.0,floor
+0051502AR,Platanus × acerifolia,True,C\ Vesuvi,,9.89,no_kerb,10.49,check,,,,,1.0,floor
+0051503AR,Celtis australis,False,Av Meridiana,,29.38,median,3.6,check,,,,,1.0,floor
+0051504AR,Tipuana tipu,False,Av Rio de Janeiro,,26.94,median,10.81,check,,,,,1.0,floor
+0051505AR,Olea europaea,False,Av Rio de Janeiro,,23.37,median,3.85,check,,,,,1.0,floor
+0051506AR,Populus alba 'Pyramidalis',False,C\ Tissó,,7.46,median,27.54,check,,,,,1.0,floor
+0051507AR,Platanus × acerifolia,True,Pl Santa Engràcia,,16.04,median,,check,,,,,1.0,floor
+0051508AR,Olea europaea,False,Av Rio de Janeiro,,22.8,median,3.23,check,,,,,1.0,floor
+0051510AR,Celtis australis,False,C\ Conflent,,6.98,median,,check,,,,,1.0,floor
+0051512AR,Melia azedarach,False,C\ Badosa,20.27,5.88,ok,,large,431558.16,4588025.57,431543.73,4588039.8,1.5,class
+0051513AR,Prunus cerasifera 'Pissardii',False,C\ Joaquim Valls,,2.06,no_kerb,,check,,,,,1.0,floor
+0051514AR,Celtis australis,False,Av Meridiana,,51.66,no_facade,2.28,check,,,,,1.0,floor
+0051516AR,Platanus × acerifolia,True,Via Júlia,10.26,8.57,ok,,large,431233.14,4587993.85,431224.6,4587999.54,1.5,class
+0051517AR,Brachychiton populneus,False,C\ Argullós,4.3,3.78,ok,,medium,431588.24,4588144.6,431591.15,4588147.77,1.0,class
+0051518AR,Platanus × acerifolia,True,Via Júlia,10.82,9.16,ok,,large,431104.17,4587809.58,431095.28,4587815.76,1.5,class
+0051519AR,Tipuana tipu,False,Av Rio de Janeiro,,13.65,median,10.6,check,,,,,1.0,floor
+0051520AR,Brachychiton populneus,False,Via Júlia,,11.56,median,12.11,check,,,,,1.0,floor
+0051521AR,Acer campestre 'Pyramidale',False,Av Rio de Janeiro,,38.99,no_facade,10.86,check,,,,,1.0,floor
+0051522AR,Celtis australis,False,Av Meridiana,16.25,15.2,ok,,large,432029.73,4588589.73,432045.55,4588585.99,1.5,class
+0051523AR,Acer campestre 'Pyramidale',False,Av Rio de Janeiro,15.38,8.73,ok,,large,431799.21,4587981.07,431793.29,4587995.26,1.5,class
+0051524AR,Pyrus calleryana 'Chanticleer',False,C\ Molí,,5.93,median,,check,,,,,1.0,floor
+0051526AR,Brachychiton populneus,False,C\ Joaquim Valls,3.55,3.25,ok,,medium,431629.6,4588275.92,431627.69,4588272.92,1.0,class
+0051528AR,Brachychiton populneus,False,C\ Font de Canyelles,,14.28,median,7.04,check,,,,,1.0,floor
+0051530AR,Prunus cerasifera,False,C\ Tissó,,12.07,median,,check,,,,,1.0,floor
+0051531AR,Jacaranda mimosifolia,False,Via Favència,,25.12,median,21.79,check,,,,,1.0,floor
+0051532AR,Platanus × acerifolia,True,Via Júlia,10.88,3.35,ok,,large,431166.16,4587895.45,431157.23,4587901.67,1.5,class
+0051533AR,Acer campestre 'Pyramidale',False,Av Rio de Janeiro,,32.43,no_facade,8.22,check,,,,,1.0,floor
+0051535AR,Melia azedarach,False,Pl Santa Engràcia,,9.97,median,29.88,check,,,,,1.0,floor
+0051536AR,Tipuana tipu,False,C\ Conflent,,14.02,no_kerb,,check,,,,,1.0,floor
+0051537AR,Styphnolobium japonicum,False,C\ Vesuvi,,11.06,median,5.96,check,,,,,1.0,floor
+0051538AR,Platanus × acerifolia,True,C\ Pablo Iglesias,,8.48,median,10.17,check,,,,,1.0,floor
+0051539AR,Ligustrum lucidum,False,C\ Santa Engràcia,3.0,2.34,ok,,small,431380.19,4588027.6,431377.69,4588029.27,1.0,class
+0051540AR,Brachychiton populneus,False,Av Meridiana,21.66,4.85,ok,,large,432017.36,4588402.17,432038.28,4588396.54,1.5,class
+0051541AR,Celtis australis,False,Via Favència,16.19,14.76,ok,,large,431934.82,4588640.55,431933.23,4588656.67,1.5,class
+0051542AR,Brachychiton populneus,False,C\ Joaquim Valls,,5.69,median,12.59,check,,,,,1.0,floor
+0051544AR,Platanus × acerifolia,True,Via Júlia,10.59,2.84,ok,,large,431251.29,4588020.68,431242.56,4588026.67,1.5,class
+0051545AR,Tipuana tipu,False,C\ Argullós,9.75,3.89,ok,,large,431690.17,4588033.48,431697.39,4588040.05,1.5,class
+0051546AR,Celtis australis,False,Via Favència,14.62,5.13,ok,,large,431793.29,4588625.46,431791.32,4588639.95,1.5,class
+0051547AR,Cercis siliquastrum,False,C\ Baltasar Gracián,,18.59,no_kerb,,check,,,,,1.0,floor
+0051550AR,Melia azedarach,False,C\ Vinyar,24.08,18.24,ok,,large,431770.05,4588201.5,431785.46,4588220.0,1.5,class
+0051551AR,Tipuana tipu,False,Av Rio de Janeiro,,18.14,median,,check,,,,,1.0,floor
+0051552AR,Melia azedarach,False,C\ Badosa,,11.31,median,,check,,,,,1.0,floor
+0051555AR,Platanus × acerifolia,True,Via Júlia,,11.45,median,21.83,check,,,,,1.0,floor
+0051556AR,Cercis siliquastrum,False,C\ Baltasar Gracián,,9.2,no_kerb,44.46,check,,,,,1.0,floor
+0051557AR,Grevillea robusta,False,Pg Valldaura,7.35,6.58,ok,,large,431093.94,4587773.28,431095.1,4587766.02,1.5,class
+0051558AR,Populus nigra 'Italica',False,Av Rio de Janeiro,,21.95,median,14.48,check,,,,,1.0,floor
+0051559AR,Populus nigra 'Italica',False,Av Rio de Janeiro,16.59,13.07,ok,,large,431726.78,4587975.8,431739.59,4587965.27,1.5,class
+0051560AR,Paulownia tomentosa,False,Av Meridiana,16.07,5.13,ok,,large,431987.29,4588288.36,432002.83,4588284.25,1.5,class
+0051561AR,Celtis australis,False,Av Meridiana,20.47,19.03,ok,,large,432044.1,4588642.87,432055.85,4588626.11,1.5,class
+0051562AR,Celtis australis,False,Via Favència,11.4,5.26,ok,,large,431668.61,4588605.06,431662.26,4588614.52,1.5,class
+0051563AR,Acer campestre 'Pyramidale',False,Av Rio de Janeiro,,35.7,no_facade,22.71,check,,,,,1.0,floor
+0051564AR,Celtis australis,False,Via Favència,12.88,11.34,ok,,large,431811.19,4588627.65,431809.82,4588640.46,1.5,class
+0051566AR,Celtis australis,False,Via Favència,2.68,1.77,ok,,small,431994.1,4588660.46,431993.84,4588663.13,1.0,class
+0051567AR,Tipuana tipu,False,C\ Conflent,,9.77,no_kerb,,check,,,,,1.0,floor
+0051568AR,Brachychiton populneus,False,Av Rio de Janeiro,,8.41,median,14.66,check,,,,,1.0,floor
+0051569AR,Paulownia tomentosa,False,Av Rio de Janeiro,,13.84,median,14.64,check,,,,,1.0,floor
+0051570AR,Platanus × acerifolia,True,Via Júlia,,11.63,median,12.06,check,,,,,1.0,floor
+0051571AR,Brachychiton populneus,False,C\ Argullós,4.69,4.05,ok,,medium,431603.21,4588130.91,431606.37,4588134.37,1.0,class
+0051572AR,Brachychiton populneus,False,Av Rio de Janeiro,24.63,18.91,ok,,large,431727.95,4587980.16,431752.52,4587981.75,1.5,class
+0051573AR,Platanus × acerifolia,True,C\ Pablo Iglesias,,8.49,median,10.0,check,,,,,1.0,floor
+0051575AR,Prunus cerasifera 'Pissardii',False,C\ Tissó,4.14,3.48,ok,,medium,431919.72,4588215.2,431920.86,4588219.18,1.0,class
+0051578AR,Populus nigra 'Italica',False,Av Rio de Janeiro,,18.85,median,12.54,check,,,,,1.0,floor
+0051579AR,Platanus × acerifolia,True,Via Júlia,10.43,2.63,ok,,large,431219.53,4587973.4,431210.85,4587979.18,1.5,class
+0051580AR,Olea europaea,False,Av Rio de Janeiro,,22.9,median,3.74,check,,,,,1.0,floor
+0051581AR,Melia azedarach,False,Pl Santa Engràcia,,0.91,no_kerb,,check,,,,,1.0,floor
+0051583AR,Tipuana tipu,False,Av Rio de Janeiro,,4.66,median,19.7,check,,,,,1.0,floor
+0051584AR,Celtis australis,False,Via Favència,,10.93,median,7.79,check,,,,,1.0,floor
+0051585AR,Acer campestre 'Pyramidale',False,Av Rio de Janeiro,27.57,21.26,ok,,large,431892.28,4588082.3,431865.15,4588077.42,1.5,class
+0051586AR,Prunus cerasifera,False,C\ Tissó,2.55,1.78,ok,,small,431464.66,4588503.52,431463.21,4588501.43,1.0,class
+0051587AR,Brachychiton populneus,False,Via Júlia,11.15,2.7,ok,,large,431098.91,4587801.98,431089.76,4587808.34,1.5,class
+0051588AR,Celtis australis,False,Via Favència,8.26,7.24,ok,,large,431573.52,4588591.64,431576.11,4588599.48,1.5,class
+0051589AR,Tipuana tipu,False,Pl República,21.28,7.89,ok,,large,431092.63,4587783.81,431071.39,4587785.0,1.5,class
+0051590AR,Platanus × acerifolia,True,Pg Valldaura,,23.92,median,18.62,check,,,,,1.0,floor
+0051591AR,Platanus × acerifolia,True,C\ Vesuvi,,20.2,median,,check,,,,,1.0,floor
+0051593AR,Ligustrum lucidum,False,C\ Santa Engràcia,2.89,2.35,ok,,small,431288.42,4587890.19,431286.03,4587891.82,1.0,class
+0051594AR,Ligustrum lucidum,False,C\ Santa Engràcia,2.73,2.05,ok,,small,431319.4,4587936.78,431317.13,4587938.31,1.0,class
+0051595AR,Platanus × acerifolia,True,C\ Pablo Iglesias,,8.48,median,10.04,check,,,,,1.0,floor
+0051596AR,Populus nigra 'Italica',False,Av Rio de Janeiro,,33.83,no_facade,8.11,check,,,,,1.0,floor
+0051597AR,Platanus × acerifolia,True,Via Júlia,10.88,9.16,ok,,large,431173.46,4587905.94,431164.53,4587912.16,1.5,class
+0051601AR,Acer negundo,False,C\ Baltasar Gracián,6.65,5.9,ok,,large,431656.59,4587957.12,431651.85,4587952.47,1.5,class
+0051602AR,Magnolia grandiflora,False,Via Júlia,5.75,4.95,ok,,medium,431356.59,4588197.04,431351.19,4588199.02,1.0,class
+0051603AR,Platanus × acerifolia,True,C\ Vinyar,10.87,9.72,ok,,large,431783.59,4588236.45,431790.2,4588227.82,1.5,class
+0051605AR,Platanus × acerifolia,True,C\ Vesuvi,,15.0,median,,check,,,,,1.0,floor
+0051606AR,Acer campestre 'Pyramidale',False,Av Rio de Janeiro,,21.72,median,15.37,check,,,,,1.0,floor
+0051607AR,Prunus cerasifera 'Pissardii',False,C\ Joaquim Valls,,6.27,no_kerb,,check,,,,,1.0,floor
+0051608AR,Acer negundo,False,C\ Badosa,16.7,3.89,ok,,large,431511.22,4587979.37,431499.14,4587990.9,1.5,class
+0051609AR,Prunus cerasifera 'Pissardii',False,C\ Joaquim Valls,,1.87,no_kerb,,check,,,,,1.0,floor
+0051610AR,Ligustrum lucidum,False,C\ Argullós,16.2,9.44,ok,,large,431643.47,4588132.62,431634.64,4588119.04,1.5,class
+0051611AR,Brachychiton populneus,False,C\ Artesania,4.77,4.3,ok,,medium,431171.88,4587794.74,431169.98,4587790.37,1.0,class
+0051612AR,Tipuana tipu,False,Via Favència,,25.57,median,23.45,check,,,,,1.0,floor
+0051613AR,Platanus × acerifolia,True,Via Júlia,28.13,24.15,ok,,large,431467.8,4588511.41,431468.81,4588539.52,1.5,class
+0051614AR,Celtis australis,False,Via Favència,16.07,6.62,ok,,large,431970.85,4588644.53,431969.3,4588660.53,1.5,class
+0051615AR,Acer campestre 'Pyramidale',False,Av Rio de Janeiro,13.94,9.66,ok,,large,431942.63,4588145.71,431939.76,4588159.35,1.5,class
+0051616AR,Melia azedarach,False,C\ Vinyar,4.04,3.04,ok,,medium,431768.35,4588198.61,431771.84,4588196.57,1.0,class
+0051617AR,Ligustrum lucidum,False,C\ Santa Engràcia,,7.34,median,3.26,check,,,,,1.0,floor
+0051619AR,Parrotia persica 'Vanessa',False,C\ Pou,2.78,2.07,ok,,small,431647.97,4588425.04,431650.32,4588423.57,1.0,class
+0051620AR,Populus nigra 'Italica',False,Pg Valldaura,7.32,6.95,ok,,large,431220.88,4587794.12,431222.06,4587786.9,1.5,class
+0051621AR,Celtis australis,False,Via Favència,21.33,19.78,ok,,large,431569.08,4588584.23,431550.78,4588595.2,1.5,class
+0051622AR,Brachychiton populneus,False,C\ Argullós,8.81,8.48,ok,,large,431726.66,4587995.83,431732.88,4588002.06,1.5,class
+0051624AR,Paulownia tomentosa,False,Av Rio de Janeiro,20.95,3.77,ok,,large,431727.58,4587985.79,431748.49,4587987.13,1.5,class
+0051625AR,Olea europaea,False,Av Rio de Janeiro,,22.95,median,3.63,check,,,,,1.0,floor
+0051626AR,Styphnolobium japonicum,False,Pl Nou Pins,,9.23,median,,check,,,,,1.0,floor
+0051628AR,Tipuana tipu,False,C\ Conflent,,8.7,no_kerb,49.67,check,,,,,1.0,floor
+0051629AR,Celtis australis,False,C\ Conflent,,6.95,median,,check,,,,,1.0,floor
+0051630AR,Brachychiton populneus,False,C\ Argullós,3.44,2.78,ok,,small,431493.67,4588200.93,431495.54,4588203.82,1.0,class
+0051631AR,Pinus pinea,False,C\ Vesuvi,,17.52,median,7.0,check,,,,,1.0,floor
+0051632AR,Ligustrum lucidum,False,C\ Santa Engràcia,3.01,2.33,ok,,small,431337.65,4587963.95,431335.14,4587965.61,1.0,class
+0051634AR,Brachychiton populneus,False,C\ Argullós,4.3,3.79,ok,,medium,431702.25,4588050.12,431698.98,4588047.32,1.0,class
+0051635AR,Styphnolobium japonicum,False,C\ Vesuvi,,19.99,median,6.26,check,,,,,1.0,floor
+0051636AR,Brachychiton discolor,False,Av Meridiana,,4.85,no_kerb,44.68,check,,,,,1.0,floor
+0051637AR,Tipuana tipu,False,C\ Pablo Iglesias,5.82,5.11,ok,,medium,431694.45,4588391.26,431689.5,4588394.32,1.0,class
+0051639AR,Prunus cerasifera 'Pissardii',False,C\ Tissó,3.76,3.1,ok,,medium,431923.64,4588227.99,431922.8,4588224.32,1.0,class
+0051640AR,Acer campestre 'Pyramidale',False,Av Rio de Janeiro,,48.33,no_facade,14.49,check,,,,,1.0,floor
+0051643AR,Platanus × acerifolia,True,C\ Pablo Iglesias,,8.62,median,9.89,check,,,,,1.0,floor
+0051644AR,Grevillea robusta,False,Pg Valldaura,7.52,6.7,ok,,large,431406.35,4587824.85,431407.6,4587817.43,1.5,class
+0051645AR,Brachychiton populneus,False,C\ Argullós,8.81,3.19,ok,,large,431726.53,4587995.95,431732.76,4588002.19,1.5,class
+0051646AR,Prunus cerasifera 'Pissardii',False,C\ Tissó,4.18,3.34,ok,,medium,431911.83,4588217.46,431912.98,4588221.48,1.0,class
+0051647AR,Brachychiton populneus,False,C\ Argullós,9.75,8.43,ok,,large,431690.23,4588033.42,431697.45,4588039.98,1.5,class
+0051648AR,Platanus × acerifolia,True,C\ Vesuvi,,14.67,no_kerb,34.16,check,,,,,1.0,floor
+0051651AR,Populus nigra 'Italica',False,Av Rio de Janeiro,11.65,7.82,ok,,large,431942.63,4588145.71,431932.84,4588152.01,1.5,class
+0051652AR,Brachychiton acerifolius,False,Via Júlia,,19.37,median,22.27,check,,,,,1.0,floor
+0051653AR,Cercis siliquastrum,False,C\ Baltasar Gracián,,19.2,no_kerb,,check,,,,,1.0,floor
+0051654AR,Tipuana tipu,False,Av Rio de Janeiro,,12.03,median,10.82,check,,,,,1.0,floor
+0051655AR,Tipuana tipu,False,C\ Molí,,5.23,median,12.96,check,,,,,1.0,floor
+0051657AR,Celtis australis,False,Via Favència,5.44,3.97,ok,,medium,431909.54,4588637.82,431907.49,4588642.87,1.0,class
+0051660AR,Ligustrum lucidum,False,C\ Santa Engràcia,2.96,2.35,ok,,small,431355.97,4588009.45,431358.43,4588007.8,1.0,class
+0051661AR,Celtis australis,False,Via Favència,,17.28,median,8.96,check,,,,,1.0,floor
+0051662AR,Melia azedarach,False,C\ Baltasar Gracián,6.63,6.05,ok,,large,431645.49,4587968.45,431640.76,4587963.81,1.5,class
+0051663AR,Quercus ilex,False,Via Júlia,,23.87,median,22.4,check,,,,,1.0,floor
+0051664AR,Celtis australis,False,C\ Pablo Iglesias,,8.81,median,10.0,check,,,,,1.0,floor
+0051665AR,Celtis australis,False,Rda Dalt (Llobregat),23.33,19.72,ok,,large,431510.92,4588582.73,431532.38,4588591.88,1.5,class
+0051666AR,Melia azedarach,False,C\ Baltasar Gracián,3.58,2.81,ok,,medium,431647.88,4587937.24,431650.44,4587939.75,1.0,class
+0051667AR,Tipuana tipu,False,Av Rio de Janeiro,,41.16,no_facade,11.06,check,,,,,1.0,floor
+0051668AR,Brachychiton populneus,False,C\ Boada,2.67,2.01,ok,,small,431472.68,4587976.07,431474.59,4587974.2,1.0,class
+0051669AR,Styphnolobium japonicum,False,C\ Formentera,,6.77,median,8.6,check,,,,,1.0,floor
+0051670AR,Brachychiton populneus,False,C\ Argullós,3.33,2.63,ok,,small,431475.61,4588212.54,431477.38,4588215.37,1.0,class
+0051672AR,Platanus × acerifolia,True,Via Júlia,,11.49,median,22.12,check,,,,,1.0,floor
+0051673AR,Platanus × acerifolia,True,Via Júlia,10.88,3.49,ok,,large,431173.42,4587905.87,431164.49,4587912.09,1.5,class
+0051674AR,Platanus × acerifolia,True,C\ Pablo Iglesias,,8.69,median,9.88,check,,,,,1.0,floor
+0051676AR,Celtis australis,False,Av Meridiana,,31.67,no_facade,15.52,check,,,,,1.0,floor
+0051677AR,Brachychiton acerifolius,False,Via Júlia,,17.58,median,20.93,check,,,,,1.0,floor
+0051679AR,Platanus × acerifolia,True,Via Júlia,,11.48,median,21.83,check,,,,,1.0,floor
+0051680AR,Acer negundo,False,C\ Baltasar Gracián,6.53,6.13,ok,,large,431677.61,4587935.84,431673.0,4587931.22,1.5,class
+0051681AR,Tilia platyphyllos,False,C\ Poeta Masifern,4.01,3.51,ok,,medium,431673.75,4588445.35,431671.6,4588441.96,1.0,class
+0051682AR,Platanus × acerifolia,True,Via Júlia,9.2,7.55,ok,,large,431313.05,4588115.03,431305.25,4588119.92,1.5,class
+0051683AR,Styphnolobium japonicum,False,C\ Vesuvi,3.95,2.87,ok,,medium,431907.03,4588567.15,431907.65,4588571.04,1.0,class
+0051684AR,Tipuana tipu,False,Av Rio de Janeiro,,13.03,median,15.95,check,,,,,1.0,floor
+0051686AR,Brachychiton populneus,False,C\ Boada,3.19,2.47,ok,,small,431391.93,4587889.07,431394.46,4587887.13,1.0,class
+0051688AR,Celtis australis,False,Via Favència,14.32,5.96,ok,,large,431844.53,4588631.34,431837.49,4588643.81,1.5,class
+0051689AR,Brachychiton populneus,False,Av Rio de Janeiro,19.75,13.34,ok,,large,431911.74,4588186.26,431926.15,4588172.74,1.5,class
+0051690AR,Brachychiton populneus,False,Via Júlia,10.27,2.86,ok,,large,431236.1,4587998.29,431227.55,4588003.99,1.5,class
+0051693AR,Brachychiton populneus,False,Via Júlia,10.88,9.0,ok,,large,431170.08,4587901.08,431161.15,4587907.29,1.5,class
+0051694AR,Ligustrum lucidum,False,C\ Santa Engràcia,,30.57,no_facade,3.27,check,,,,,1.0,floor
+0051695AR,Tipuana tipu,False,Av Rio de Janeiro,,36.82,no_facade,10.72,check,,,,,1.0,floor
+0051696AR,Brachychiton populneus,False,C\ Turó Blau,,16.63,median,6.61,check,,,,,1.0,floor
+0051697AR,Tipuana tipu,False,Av Rio de Janeiro,,36.94,no_facade,10.74,check,,,,,1.0,floor
+0051698AR,Platanus × acerifolia,True,C\ Vesuvi,,13.12,no_kerb,,check,,,,,1.0,floor
+0051699AR,Brachychiton populneus,False,C\ Argullós,4.02,3.48,ok,,medium,431715.22,4588035.76,431712.37,4588032.93,1.0,class
+0051700AR,Styphnolobium japonicum,False,C\ Vesuvi,,10.31,median,7.29,check,,,,,1.0,floor
+0051701AR,Tilia platyphyllos,False,C\ Poeta Masifern,4.16,2.83,ok,,medium,431689.48,4588435.38,431687.26,4588431.86,1.0,class
+0051702AR,Platanus × acerifolia,True,Pl Nou Pins,,17.84,median,32.87,check,,,,,1.0,floor
+0051704AR,Magnolia grandiflora,False,Via Júlia,5.27,4.66,ok,,medium,431360.44,4588207.94,431355.45,4588209.64,1.0,class
+0051705AR,Platanus × acerifolia,True,C\ Argullós,,7.05,median,6.7,check,,,,,1.0,floor
+0051706AR,Celtis australis,False,C\ Pablo Iglesias,,7.86,median,9.82,check,,,,,1.0,floor
+0051707AR,Magnolia grandiflora,False,Via Júlia,5.21,4.37,ok,,medium,431390.13,4588296.04,431385.21,4588297.74,1.0,class
+0051708AR,Celtis australis,False,Via Favència,16.2,6.28,ok,,large,431934.89,4588640.56,431933.3,4588656.68,1.5,class
+0051710AR,Ligustrum lucidum,False,C\ Santa Engràcia,,7.29,median,3.3,check,,,,,1.0,floor
+0051711AR,Tipuana tipu,False,Av Rio de Janeiro,16.67,5.04,ok,,large,431956.05,4588230.56,431967.76,4588218.7,1.5,class
+0051712AR,Pyrus calleryana 'Chanticleer',False,C\ Molí,5.76,5.38,ok,,medium,431608.77,4588460.49,431613.64,4588457.4,1.0,class
+0051713AR,Acer campestre 'Pyramidale',False,Av Rio de Janeiro,,23.68,median,15.13,check,,,,,1.0,floor
+0051714AR,Melia azedarach,False,C\ Baltasar Gracián,3.56,2.9,ok,,medium,431621.34,4587964.38,431623.88,4587966.87,1.0,class
+0051715AR,Tipuana tipu,False,Av Rio de Janeiro,,42.62,no_facade,11.06,check,,,,,1.0,floor
+0051716AR,Platanus × acerifolia,True,Via Júlia,,11.52,median,22.34,check,,,,,1.0,floor
+0051718AR,Tipuana tipu,False,Av Rio de Janeiro,,21.5,median,21.7,check,,,,,1.0,floor
+0051719AR,Brachychiton populneus,False,C\ Argullós,3.29,2.64,ok,,small,431415.67,4588250.14,431417.42,4588252.91,1.0,class
+0051721AR,Brachychiton populneus,False,Av Meridiana,9.36,9.53,ok,,large,432039.22,4588530.29,432047.8,4588534.03,1.5,class
+0051722AR,Ligustrum lucidum,False,C\ Santa Engràcia,2.9,2.32,ok,,small,431303.45,4587930.43,431305.85,4587928.81,1.0,class
+0051724AR,Ulmus pumila,False,Pl Santa Engràcia,,5.51,no_kerb,,check,,,,,1.0,floor
+0051725AR,Brachychiton populneus,False,C\ Artesania,4.42,3.85,ok,,medium,431116.56,4587818.59,431114.81,4587814.52,1.0,class
+0051726AR,Platanus × acerifolia,True,Pg Valldaura,15.68,14.52,ok,,large,431823.59,4587889.32,431837.07,4587881.31,1.5,class
+0051727AR,Tilia platyphyllos,False,C\ Poeta Masifern,4.12,3.39,ok,,medium,431643.12,4588450.74,431645.34,4588454.2,1.0,class
+0051728AR,Platanus × acerifolia,True,Via Júlia,,19.78,median,21.94,check,,,,,1.0,floor
+0051729AR,Brachychiton populneus,False,C\ Argullós,4.98,4.65,ok,,medium,431683.47,4588071.49,431679.69,4588068.25,1.0,class
+0051730AR,Acer campestre 'Pyramidale',False,C\ Argullós,,20.1,median,,check,,,,,1.0,floor
+0051731AR,Celtis australis,False,Via Favència,2.56,1.44,ok,,small,432035.22,4588664.69,432034.95,4588667.24,1.0,class
+0051732AR,Styphnolobium japonicum,False,C\ Formentera,,7.08,median,6.39,check,,,,,1.0,floor
+0051733AR,Tipuana tipu,False,C\ Pablo Iglesias,,11.76,median,,check,,,,,1.0,floor
+0051734AR,Tipuana tipu,False,Av Rio de Janeiro,15.82,4.3,ok,,large,431965.69,4588240.08,431976.8,4588228.83,1.5,class
+0051737AR,Platanus × acerifolia,True,C\ Pablo Iglesias,,8.55,median,9.78,check,,,,,1.0,floor
+0051738AR,Platanus × acerifolia,True,Pl Santa Engràcia,,15.99,median,,check,,,,,1.0,floor
+0051742AR,Ginkgo biloba 'Fastigiata',False,Av Rio de Janeiro,14.8,13.72,ok,,large,431975.52,4588249.79,431985.92,4588239.26,1.5,class
+0051743AR,Populus nigra 'Italica',False,Av Rio de Janeiro,18.3,7.3,ok,,large,431845.7,4588037.48,431848.73,4588055.52,1.5,class
+0051744AR,Platanus × acerifolia,True,C\ Pablo Iglesias,5.03,4.26,ok,,medium,431579.84,4588206.54,431575.58,4588209.21,1.0,class
+0051745AR,Celtis australis,False,Via Favència,12.03,10.86,ok,,large,431678.21,4588607.02,431675.81,4588618.81,1.5,class
+0051750AR,Prunus cerasifera 'Pissardii',False,C\ Tissó,3.23,2.69,ok,,small,431733.19,4588293.5,431734.89,4588296.24,1.0,class
+0051751AR,Tipuana tipu,False,Av Rio de Janeiro,,21.23,median,10.85,check,,,,,1.0,floor
+0051752AR,Celtis australis,False,Via Favència,16.23,15.37,ok,,large,431940.63,4588641.13,431939.04,4588657.28,1.5,class
+0051753AR,Parrotia persica 'Vanessa',False,C\ Pou,3.0,2.4,ok,,small,431592.32,4588336.07,431594.88,4588334.52,1.0,class
+0051754AR,Brachychiton populneus,False,Av Rio de Janeiro,12.46,3.56,ok,,large,431703.14,4587947.03,431712.76,4587939.12,1.5,class
+0051757AR,Styphnolobium japonicum,False,C\ Baltasar Gracián,,6.68,no_kerb,,check,,,,,1.0,floor
+0051758AR,Brachychiton populneus,False,Via Júlia,9.41,7.69,ok,,large,431309.61,4588109.61,431301.66,4588114.64,1.5,class
+0051759AR,Platanus × acerifolia,True,Pg Valldaura,,20.43,median,5.33,check,,,,,1.0,floor
+0051760AR,Brachychiton populneus,False,Av Meridiana,18.9,8.63,ok,,large,431983.14,4588271.8,432001.39,4588266.9,1.5,class
+0051763AR,Parrotia persica 'Vanessa',False,C\ Pou,2.97,2.29,ok,,small,431596.25,4588342.35,431598.75,4588340.75,1.0,class
+0051764AR,Acer negundo,False,C\ Baltasar Gracián,6.51,6.0,ok,,large,431673.19,4587940.25,431668.59,4587935.65,1.5,class
+0051765AR,Ligustrum lucidum,False,C\ Santa Engràcia,2.84,2.28,ok,,small,431383.61,4588050.47,431385.96,4588048.87,1.0,class
+0051766AR,Brachychiton populneus,False,Via Júlia,25.64,21.73,ok,,large,431349.21,4588179.28,431330.61,4588161.64,1.5,class
+0051767AR,Grevillea robusta,False,Pg Valldaura,8.96,7.93,ok,,large,431092.02,4587772.97,431088.1,4587764.91,1.5,class
+0051768AR,Tipuana tipu,False,Av Rio de Janeiro,,47.99,no_facade,10.92,check,,,,,1.0,floor
+0051769AR,Celtis australis,False,Av Meridiana,8.27,5.31,ok,,large,432023.51,4588563.46,432031.34,4588560.8,1.5,class
+0051770AR,Platanus × acerifolia,True,Pg Valldaura,,20.34,median,5.05,check,,,,,1.0,floor
+0051771AR,Brachychiton populneus,False,Via Júlia,10.64,8.36,ok,,large,431209.57,4587958.44,431200.71,4587964.34,1.5,class
+0051772AR,Celtis australis,False,Rda Dalt (Llobregat),,25.69,no_kerb,,check,,,,,1.0,floor
+0051775AR,Celtis australis,False,Via Favència,7.96,6.96,ok,,large,431573.52,4588591.64,431569.24,4588598.35,1.5,class
+0051777AR,Crataegus x media 'Paul's Scarlet',False,C\ Borràs,2.91,2.26,ok,,small,431247.74,4587993.13,431249.36,4587995.55,1.0,class
+0051778AR,Platanus × acerifolia,True,C\ Pablo Iglesias,5.08,3.99,ok,,medium,431576.76,4588201.62,431572.45,4588204.32,1.0,class
+0051780AR,Platanus × acerifolia,True,Via Júlia,10.61,2.72,ok,,large,431244.08,4588010.17,431235.33,4588016.17,1.5,class
+0051781AR,Melia azedarach,False,Pl Santa Engràcia,17.36,2.78,ok,,large,431534.04,4588206.34,431524.84,4588191.63,1.5,class
+0051782AR,Brachychiton populneus,False,Av Meridiana,21.87,7.64,ok,,large,432014.68,4588391.38,432036.45,4588389.35,1.5,class
+0051783AR,Tipuana tipu,False,Av Rio de Janeiro,,7.05,median,10.65,check,,,,,1.0,floor
+0051784AR,Parrotia persica 'Vanessa',False,C\ Pou,3.12,2.36,ok,,small,431681.55,4588479.42,431684.2,4588477.77,1.0,class
+0051785AR,Celtis australis,False,Via Favència,16.09,6.37,ok,,large,431885.96,4588635.39,431884.56,4588651.42,1.5,class
+0051786AR,Tipuana tipu,False,Av Rio de Janeiro,,43.71,no_facade,10.92,check,,,,,1.0,floor
+0051787AR,Brachychiton populneus,False,C\ Argullós,3.42,2.82,ok,,small,431489.08,4588203.89,431490.93,4588206.76,1.0,class
+0051788AR,Brachychiton populneus,False,C\ Joaquim Valls,,5.51,median,,check,,,,,1.0,floor
+0051789AR,Celtis australis,False,Via Favència,14.57,11.02,ok,,large,431799.36,4588626.29,431797.39,4588640.72,1.5,class
+0051791AR,Platanus × acerifolia,True,Via Júlia,,11.4,median,22.04,check,,,,,1.0,floor
+0051792AR,Olea europaea,False,Av Rio de Janeiro,,22.05,median,3.16,check,,,,,1.0,floor
+0051793AR,Cercis siliquastrum,False,C\ Baltasar Gracián,,14.34,no_kerb,,check,,,,,1.0,floor
+0051794AR,Brachychiton populneus,False,C\ Turó Blau,6.61,6.0,ok,,large,431226.09,4587810.17,431232.62,4587811.23,1.5,class
+0051795AR,Acer campestre 'Pyramidale',False,Av Rio de Janeiro,,23.78,median,14.7,check,,,,,1.0,floor
+0051796AR,Acer campestre 'Pyramidale',False,Av Rio de Janeiro,,28.59,median,15.35,check,,,,,1.0,floor
+0051797AR,Olea europaea,False,Av Rio de Janeiro,,31.78,no_facade,2.98,check,,,,,1.0,floor
+0051798AR,Brachychiton populneus,False,C\ Boada,3.25,2.61,ok,,small,431446.95,4587949.66,431449.31,4587947.43,1.0,class
+0051799AR,Styphnolobium japonicum 'Dot',False,C\ Baltasar Gracián,,9.06,no_kerb,,check,,,,,1.0,floor
+0051800AR,Acer campestre 'Pyramidale',False,Av Rio de Janeiro,,34.59,no_facade,8.61,check,,,,,1.0,floor
+0051801AR,Styphnolobium japonicum,False,C\ Vesuvi,,13.27,median,5.91,check,,,,,1.0,floor
+0051802AR,Celtis australis,False,Via Favència,12.86,5.05,ok,,large,431817.35,4588628.3,431815.98,4588641.09,1.5,class
+0051804AR,Paulownia tomentosa,False,Av Rio de Janeiro,,12.96,median,13.3,check,,,,,1.0,floor
+0051805AR,Brachychiton populneus,False,Via Júlia,,11.58,median,22.12,check,,,,,1.0,floor
+0051806AR,Celtis australis,False,Av Meridiana,,30.14,no_facade,3.8,check,,,,,1.0,floor
+0051807AR,Olea europaea,False,Av Rio de Janeiro,,23.26,median,3.12,check,,,,,1.0,floor
+0051808AR,Jacaranda mimosifolia,False,C\ Argullós,15.09,5.62,ok,,large,431567.86,4588145.89,431578.12,4588156.95,1.5,class
+0051809AR,Acer campestre 'Pyramidale',False,Av Rio de Janeiro,15.28,13.09,ok,,large,431799.21,4587981.07,431791.24,4587994.11,1.5,class
+0051810AR,Styphnolobium japonicum,False,C\ Badosa,,11.54,median,,check,,,,,1.0,floor
+0051811AR,Brachychiton populneus,False,C\ Boada,3.33,2.68,ok,,small,431382.93,4587877.33,431385.57,4587875.31,1.0,class
+0051813AR,Ligustrum lucidum,False,C\ Santa Engràcia,2.9,2.17,ok,,small,431295.39,4587918.47,431297.8,4587916.85,1.0,class
+0051814AR,Brachychiton populneus,False,Av Rio de Janeiro,,7.81,median,14.5,check,,,,,1.0,floor
+0051815AR,Melia azedarach,False,C\ Baltasar Gracián,,18.42,no_kerb,,check,,,,,1.0,floor
+0051816AR,Brachychiton populneus,False,C\ Argullós,5.51,4.83,ok,,medium,431587.82,4588161.35,431584.13,4588157.27,1.0,class
+0051817AR,Tipuana tipu,False,Pl República,19.23,11.36,ok,,large,431092.8,4587786.72,431073.6,4587787.8,1.5,class
+0051818AR,Brachychiton populneus,False,C\ Argullós,8.66,8.23,ok,,large,431646.74,4588113.73,431640.23,4588108.01,1.5,class
+0051819AR,Styphnolobium japonicum,False,C\ Vesuvi,4.2,3.08,ok,,medium,431920.27,4588565.04,431920.93,4588569.19,1.0,class
+0051821AR,Platanus × acerifolia,True,C\ Pablo Iglesias,,8.42,median,10.0,check,,,,,1.0,floor
+0051822AR,Paulownia tomentosa,False,Av Meridiana,,19.79,median,5.94,check,,,,,1.0,floor
+0051823AR,Brachychiton populneus,False,C\ Argullós,4.5,3.91,ok,,medium,431592.39,4588140.8,431595.44,4588144.11,1.0,class
+0051824AR,Celtis australis,False,Via Favència,2.62,1.79,ok,,small,432042.83,4588665.5,432042.6,4588668.11,1.0,class
+0051826AR,Grevillea robusta,False,Pg Valldaura,14.35,13.93,ok,,large,431553.8,4587855.09,431556.03,4587840.91,1.5,class
+0051827AR,Tipuana tipu,False,C\ Argullós,9.35,3.44,ok,,large,431715.5,4588006.98,431722.1,4588013.6,1.5,class
+0051828AR,Cercis siliquastrum,False,C\ Baltasar Gracián,,7.48,no_kerb,,check,,,,,1.0,floor
+0051830AR,Acer campestre 'Pyramidale',False,Av Rio de Janeiro,21.7,9.43,ok,,large,431896.64,4588091.3,431900.73,4588112.61,1.5,class
+0051831AR,Brachychiton populneus,False,C\ Argullós,3.38,2.72,ok,,small,431484.75,4588206.68,431486.59,4588209.53,1.0,class
+0051832AR,Paulownia tomentosa,False,Av Rio de Janeiro,,14.11,median,14.75,check,,,,,1.0,floor
+0051833AR,Brachychiton populneus,False,C\ Argullós,3.36,2.62,ok,,small,431471.15,4588215.34,431472.93,4588218.19,1.0,class
+0051834AR,Brachychiton populneus,False,Via Júlia,10.61,8.8,ok,,large,431254.92,4588025.97,431246.16,4588031.98,1.5,class
+0051836AR,Celtis australis,False,Via Favència,25.61,23.83,ok,,large,431567.18,4588581.06,431545.21,4588594.23,1.5,class
+0051838AR,Pyrus calleryana 'Chanticleer',False,C\ Molí,5.73,5.37,ok,,medium,431629.82,4588493.8,431634.67,4588490.74,1.0,class
+0051839AR,Casuarina cunninghamiana,False,Via Favència,,30.8,no_facade,,check,,,,,1.0,floor
+0051840AR,Pyrus calleryana 'Chanticleer',False,C\ Molí,5.73,5.03,ok,,medium,431613.27,4588467.58,431618.1,4588464.51,1.0,class
+0051841AR,Platanus × acerifolia,True,Via Júlia,,29.35,median,22.37,check,,,,,1.0,floor
+0051843AR,Ligustrum lucidum,False,C\ Santa Engràcia,2.98,2.5,ok,,small,431348.39,4587998.13,431350.86,4587996.47,1.0,class
+0051844AR,Styphnolobium japonicum,False,Pl Lola Anglada,,5.2,no_kerb,20.71,check,,,,,1.0,floor
+0051845AR,Acer campestre 'Pyramidale',False,Av Rio de Janeiro,9.96,8.92,ok,,large,431893.96,4588091.81,431884.32,4588094.3,1.5,class
+0051846AR,Platanus × acerifolia,True,Pg Valldaura,10.74,10.04,ok,,large,431792.93,4587884.6,431789.76,4587874.34,1.5,class
+0051847AR,Jacaranda mimosifolia,False,C\ Baltasar Gracián,6.55,3.49,ok,,large,431630.85,4587983.37,431626.17,4587978.78,1.5,class
+0051848AR,Platanus × acerifolia,True,Pl Santa Engràcia,,15.88,median,,check,,,,,1.0,floor
+0051851AR,Brachychiton populneus,False,C\ Argullós,4.65,4.09,ok,,medium,431596.25,4588137.26,431599.39,4588140.69,1.0,class
+0051852AR,Platanus × acerifolia,True,C\ Pablo Iglesias,,8.55,median,10.0,check,,,,,1.0,floor
+0051853AR,Tipuana tipu,False,C\ Pablo Iglesias,14.18,8.79,ok,,large,431678.99,4588413.68,431691.03,4588406.2,1.5,class
+0051854AR,Melia azedarach,False,C\ Baltasar Gracián,,9.87,median,,check,,,,,1.0,floor
+0051855AR,Brachychiton populneus,False,C\ Argullós,12.35,11.59,ok,,large,431569.39,4588178.07,431561.14,4588168.88,1.5,class
+0051856AR,Celtis australis,False,Av Meridiana,,15.61,median,14.87,check,,,,,1.0,floor
+0051857AR,Platanus × acerifolia,True,Via Júlia,10.53,3.41,ok,,large,431290.65,4588079.71,431281.84,4588085.49,1.5,class
+0051858AR,Styphnolobium japonicum,False,C\ Vesuvi,,10.45,median,7.23,check,,,,,1.0,floor
+0051860AR,Brachychiton populneus,False,C\ Boada,3.02,2.45,ok,,small,431462.35,4587965.47,431464.51,4587963.36,1.0,class
+0051861AR,Casuarina cunninghamiana,False,Via Favència,,28.49,median,,check,,,,,1.0,floor
+0051862AR,Tipuana tipu,False,Av Rio de Janeiro,11.49,2.34,ok,,large,431667.62,4587905.63,431675.67,4587897.43,1.5,class
+0051863AR,Magnolia grandiflora,False,Via Júlia,5.36,4.61,ok,,medium,431439.28,4588441.76,431434.2,4588443.47,1.0,class
+0051867AR,Tilia platyphyllos,False,C\ Poeta Masifern,4.12,3.51,ok,,medium,431651.22,4588445.56,431653.44,4588449.03,1.0,class
+0051868AR,Ligustrum lucidum,False,C\ Santa Engràcia,2.83,2.22,ok,,small,431311.68,4587925.0,431309.3,4587926.55,1.0,class
+0051869AR,Celtis australis,False,C\ Conflent,,7.1,median,,check,,,,,1.0,floor
+0051870AR,Brachychiton populneus,False,Via Júlia,10.6,8.73,ok,,large,431247.61,4588015.32,431238.87,4588021.32,1.5,class
+0051871AR,Platanus × acerifolia,True,Pg Valldaura,21.79,19.98,ok,,large,431823.59,4587889.32,431844.23,4587882.34,1.5,class
+0051873AR,Platanus × acerifolia,True,Pg Valldaura,9.83,8.95,ok,,large,431821.37,4587888.97,431822.86,4587879.26,1.5,class
+0051874AR,Tilia platyphyllos,False,C\ Poeta Masifern,4.14,3.4,ok,,medium,431645.36,4588463.27,431643.12,4588459.79,1.0,class
+0051875AR,Brachychiton populneus,False,C\ Boada,,8.06,median,,check,,,,,1.0,floor
+0051876AR,Brachychiton populneus,False,Av Meridiana,18.51,13.74,ok,,large,431989.51,4588296.75,432007.41,4588292.02,1.5,class
+0051878AR,Celtis australis,False,Av Meridiana,,43.13,no_facade,2.31,check,,,,,1.0,floor
+0051879AR,Olea europaea,False,Av Rio de Janeiro,,28.58,median,3.06,check,,,,,1.0,floor
+0051880AR,Celtis australis,False,Via Favència,12.76,11.2,ok,,large,431823.58,4588629.04,431821.94,4588641.7,1.5,class
+0051881AR,Platanus × acerifolia,True,C\ Vinyar,4.8,3.48,ok,,medium,431770.05,4588201.5,431774.84,4588201.76,1.0,class
+0051882AR,Celtis australis,False,Via Favència,13.09,11.46,ok,,large,431835.83,4588630.41,431834.42,4588643.42,1.5,class
+0051883AR,Grevillea robusta,False,Pg Valldaura,7.31,6.63,ok,,large,431209.1,4587792.2,431210.28,4587784.99,1.5,class
+0051884AR,Populus nigra 'Italica',False,Av Rio de Janeiro,,33.59,no_facade,8.11,check,,,,,1.0,floor
+0051886AR,Platanus × acerifolia,True,Via Júlia,10.11,8.17,ok,,large,431298.17,4588091.53,431289.62,4588096.94,1.5,class
+0051887AR,Tipuana tipu,False,Pg Valldaura,,37.07,no_facade,10.99,check,,,,,1.0,floor
+0051888AR,Celtis australis,False,Via Favència,,11.87,no_kerb,32.8,check,,,,,1.0,floor
+0051890AR,Celtis australis,False,Av Meridiana,17.53,16.31,ok,,large,432027.0,4588578.22,432044.06,4588574.18,1.5,class
+0051891AR,Brachychiton populneus,False,Av Rio de Janeiro,,14.62,median,14.87,check,,,,,1.0,floor
+0051893AR,Brachychiton populneus,False,C\ Argullós,3.17,2.54,ok,,small,431667.69,4588071.45,431670.08,4588073.52,1.0,class
+0051894AR,Pinus pinea,False,C\ Vesuvi,,12.2,median,5.95,check,,,,,1.0,floor
+0051895AR,Brachychiton populneus,False,Av Rio de Janeiro,,8.02,median,14.64,check,,,,,1.0,floor
+0051896AR,Brachychiton populneus,False,Via Júlia,13.03,11.45,ok,,large,431093.27,4587793.88,431080.52,4587796.58,1.5,class
+0051897AR,Celtis australis,False,Av Meridiana,16.72,15.45,ok,,large,432035.25,4588613.01,432051.52,4588609.16,1.5,class
+0051900AR,Celtis australis,False,Via Favència,13.57,11.82,ok,,large,431910.3,4588637.91,431908.83,4588651.39,1.5,class
+0051904AR,Platanus × acerifolia,True,Via Júlia,,18.24,median,11.83,check,,,,,1.0,floor
+0051905AR,Prunus cerasifera 'Pissardii',False,C\ Joaquim Valls,,2.25,no_kerb,,check,,,,,1.0,floor
+0051906AR,Platanus × acerifolia,True,Via Júlia,,33.51,no_facade,,check,,,,,1.0,floor
+0051907AR,Pyrus calleryana 'Chanticleer',False,C\ Borràs,3.08,2.62,ok,,small,431382.23,4587903.04,431383.94,4587905.6,1.0,class
+0051908AR,Populus nigra 'Italica',False,Av Rio de Janeiro,,29.6,median,10.49,check,,,,,1.0,floor
+0051909AR,Styphnolobium japonicum,False,C\ Baltasar Gracián,,5.97,no_kerb,,check,,,,,1.0,floor
+0051911AR,Tipuana tipu,False,Pl República,23.85,4.4,ok,,large,431092.43,4587780.14,431068.61,4587781.49,1.5,class
+0051912AR,Pyrus calleryana 'Chanticleer',False,C\ Molí,,5.66,median,,check,,,,,1.0,floor
+0051913AR,Prunus cerasifera 'Pissardii',False,C\ Tissó,3.09,2.25,ok,,small,431787.34,4588259.9,431788.97,4588262.53,1.0,class
+0051914AR,Brachychiton populneus,False,C\ Argullós,4.89,4.48,ok,,medium,431664.27,4588091.59,431660.93,4588088.01,1.0,class
+0051917AR,Brachychiton populneus,False,C\ Argullós,3.16,2.46,ok,,small,431434.84,4588249.81,431433.17,4588247.13,1.0,class
+0051918AR,Tipuana tipu,False,Av Rio de Janeiro,,29.64,median,,check,,,,,1.0,floor
+0051919AR,Populus nigra 'Italica',False,Av Rio de Janeiro,9.95,9.21,ok,,large,431845.7,4588037.48,431837.9,4588043.66,1.5,class
+0051920AR,Brachychiton populneus,False,Via Júlia,10.69,3.06,ok,,large,431262.16,4588036.6,431253.27,4588042.54,1.5,class
+0051922AR,Brachychiton populneus,False,C\ Argullós,4.67,4.03,ok,,medium,431599.62,4588134.19,431602.77,4588137.63,1.0,class
+0051923AR,Prunus cerasifera 'Pissardii',False,C\ Joaquim Valls,,2.3,no_kerb,,check,,,,,1.0,floor
+0051924AR,Populus nigra 'Italica',False,Av Rio de Janeiro,12.95,11.61,ok,,large,431845.32,4588035.62,431832.63,4588038.18,1.5,class
+0051925AR,Prunus cerasifera 'Pissardii',False,C\ Joaquim Valls,,2.28,no_kerb,,check,,,,,1.0,floor
+0051927AR,Celtis australis,False,Av Meridiana,16.55,15.66,ok,,large,432028.36,4588583.93,432044.46,4588580.12,1.5,class
+0051929AR,Paulownia tomentosa,False,Av Meridiana,15.88,5.13,ok,,large,431989.06,4588295.04,432004.41,4588290.99,1.5,class
+0051931AR,Tipuana tipu,False,Av Rio de Janeiro,,4.84,median,14.46,check,,,,,1.0,floor
+0051932AR,Platanus × acerifolia,True,Via Júlia,9.68,2.93,ok,,large,431305.24,4588102.69,431297.06,4588107.87,1.5,class
+0051933AR,Tipuana tipu,False,C\ Pablo Iglesias,5.8,5.16,ok,,medium,431732.04,4588451.45,431727.13,4588454.53,1.0,class
+0051934AR,Platanus × acerifolia,True,Via Júlia,10.69,8.99,ok,,large,431280.34,4588064.01,431271.4,4588069.88,1.5,class
+0051935AR,Acer campestre 'Pyramidale',False,Av Rio de Janeiro,,24.88,median,12.42,check,,,,,1.0,floor
+0051936AR,Catalpa bignonioides,False,Pg Valldaura,,21.13,median,5.1,check,,,,,1.0,floor
+0051937AR,Brachychiton populneus,False,Av Rio de Janeiro,13.5,10.58,ok,,large,431720.21,4587967.81,431730.64,4587959.24,1.5,class
+0051938AR,Paulownia tomentosa,False,Av Rio de Janeiro,16.49,5.04,ok,,large,431724.7,4587973.27,431737.44,4587962.8,1.5,class
+0051939AR,Melia azedarach,False,C\ Badosa,,11.04,median,,check,,,,,1.0,floor
+0051940AR,Tipuana tipu,False,Pg Valldaura,,45.19,no_facade,,check,,,,,1.0,floor
+0051941AR,Firmiana simplex,False,Via Favència,,25.45,median,23.69,check,,,,,1.0,floor
+0051942AR,Acer campestre 'Pyramidale',False,Av Rio de Janeiro,,21.13,median,24.55,check,,,,,1.0,floor
+0051943AR,Celtis australis,False,Av Meridiana,,41.68,no_facade,3.4,check,,,,,1.0,floor
+0051944AR,Pyrus calleryana 'Chanticleer',False,C\ Molí,,5.96,median,,check,,,,,1.0,floor
+0051946AR,Celtis australis,False,Av Meridiana,,47.09,no_facade,2.34,check,,,,,1.0,floor
+0051947AR,Platanus × acerifolia,True,Via Júlia,,11.43,median,22.1,check,,,,,1.0,floor
+0051950AR,Celtis australis,False,Via Favència,13.41,5.3,ok,,large,431682.59,4588607.92,431682.61,4588621.32,1.5,class
+0051951AR,Platanus × acerifolia,True,C\ Vinyar,10.09,8.89,ok,,large,431784.7,4588238.22,431793.24,4588232.84,1.5,class
+0051952AR,Albizia julibrissin,False,C\ Pablo Iglesias,7.58,4.73,ok,,large,431684.46,4588375.08,431678.01,4588379.06,1.5,class
+0051953AR,Magnolia grandiflora,False,Via Júlia,5.24,4.56,ok,,medium,431448.36,4588468.84,431443.39,4588470.51,1.0,class
+0051954AR,Brachychiton populneus,False,Via Júlia,10.6,2.96,ok,,large,431247.63,4588015.35,431238.89,4588021.35,1.5,class
+0051956AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Canyameres,3.04,1.91,ok,,small,431374.62,4588183.3,431377.13,4588181.58,1.0,class
+0051957AR,Platanus × acerifolia,True,C\ Pablo Iglesias,4.84,4.27,ok,,medium,431602.61,4588243.56,431598.46,4588246.06,1.0,class
+0051958AR,Paulownia tomentosa,False,Av Meridiana,22.0,5.04,ok,,large,432027.99,4588442.63,432049.25,4588436.99,1.5,class
+0051960AR,Grevillea robusta,False,Pg Valldaura,11.93,11.18,ok,,large,431524.35,4587848.05,431526.07,4587836.24,1.5,class
+0051961AR,Styphnolobium japonicum,False,C\ Vesuvi,,10.44,median,7.26,check,,,,,1.0,floor
+0051962AR,Pyrus calleryana 'Chanticleer',False,C\ Badosa,2.93,2.04,ok,,small,431614.11,4588109.27,431611.94,4588111.25,1.0,class
+0051963AR,Prunus cerasifera,False,C\ Tissó,,10.93,median,,check,,,,,1.0,floor
+0051964AR,Parrotia persica 'Vanessa',False,C\ Pou,2.79,2.24,ok,,small,431640.15,4588412.57,431642.51,4588411.09,1.0,class
+0051965AR,Ligustrum lucidum,False,C\ Santa Engràcia,3.06,2.39,ok,,small,431333.51,4587957.69,431330.96,4587959.38,1.0,class
+0051966AR,Platanus × acerifolia,True,C\ Pablo Iglesias,4.91,4.32,ok,,medium,431638.42,4588301.17,431634.25,4588303.76,1.0,class
+0051967AR,Brachychiton populneus,False,C\ Artesania,4.52,3.96,ok,,medium,431127.62,4587813.84,431125.84,4587809.69,1.0,class
+0051968AR,Celtis australis,False,C\ Pablo Iglesias,,7.98,median,9.89,check,,,,,1.0,floor
+0051969AR,Acer campestre 'Pyramidale',False,Av Rio de Janeiro,,31.59,no_facade,12.14,check,,,,,1.0,floor
+0051970AR,Ligustrum lucidum,False,C\ Santa Engràcia,2.88,2.3,ok,,small,431296.11,4587901.53,431293.73,4587903.14,1.0,class
+0051971AR,Crataegus x media 'Paul's Scarlet',False,C\ Pou,2.9,2.13,ok,,small,431566.71,4588294.88,431569.17,4588293.36,1.0,class
+0051973AR,Acer campestre 'Pyramidale',False,Av Rio de Janeiro,,27.58,median,14.45,check,,,,,1.0,floor
+0051975AR,Brachychiton populneus,False,C\ Argullós,3.37,2.83,ok,,small,431455.55,4588225.05,431457.39,4588227.87,1.0,class
+0051976AR,Ligustrum lucidum,False,C\ Santa Engràcia,2.77,2.18,ok,,small,431315.53,4587930.91,431313.21,4587932.42,1.0,class
+0051977AR,Brachychiton populneus,False,C\ Turó Blau,,16.73,median,6.8,check,,,,,1.0,floor
+0051978AR,Prunus cerasifera,False,C\ Tissó,,9.46,median,,check,,,,,1.0,floor
+0051979AR,Populus alba 'Pyramidalis',False,C\ Tissó,,7.52,median,,check,,,,,1.0,floor
+0051980AR,Prunus cerasifera 'Pissardii',False,C\ Tissó,4.27,3.16,ok,,medium,431893.85,4588222.6,431895.02,4588226.7,1.0,class
+0051981AR,Prunus cerasifera,False,C\ Tissó,,9.7,median,,check,,,,,1.0,floor
+0051982AR,Acer campestre 'Pyramidale',False,Av Rio de Janeiro,22.55,20.81,ok,,large,431946.08,4588145.04,431950.37,4588167.18,1.5,class
+0051983AR,Populus nigra 'Italica',False,Av Rio de Janeiro,22.7,12.24,ok,,large,431798.39,4587976.42,431776.03,4587980.35,1.5,class
+0051984AR,Tipuana tipu,False,Av Rio de Janeiro,,37.96,no_facade,10.74,check,,,,,1.0,floor
+0051985AR,Platanus × acerifolia,True,Via Júlia,,18.64,median,15.38,check,,,,,1.0,floor
+0051986AR,Platanus × acerifolia,True,Via Júlia,10.61,8.7,ok,,large,431244.06,4588010.14,431235.31,4588016.14,1.5,class
+0051988AR,Melia azedarach,False,Pl Santa Engràcia,20.76,9.6,ok,,large,431544.22,4588216.78,431561.86,4588205.82,1.5,class
+0051989AR,Acer campestre 'Pyramidale',False,Av Rio de Janeiro,,14.18,median,8.38,check,,,,,1.0,floor
+0051991AR,Platanus × acerifolia,True,C\ Vesuvi,,20.46,median,,check,,,,,1.0,floor
+0051992AR,Populus nigra 'Italica',False,Av Rio de Janeiro,,18.06,median,24.89,check,,,,,1.0,floor
+0051993AR,Celtis australis,False,Via Favència,11.21,5.16,ok,,large,431672.94,4588605.94,431670.7,4588616.92,1.5,class
+0051994AR,Brachychiton populneus,False,C\ Argullós,3.03,2.44,ok,,small,431394.78,4588274.92,431393.16,4588272.36,1.0,class
+0051995AR,Populus nigra 'Italica',False,Av Rio de Janeiro,,27.09,no_kerb,17.75,check,,,,,1.0,floor
+0051996AR,Styphnolobium japonicum,False,C\ Baltasar Gracián,,9.47,no_kerb,,check,,,,,1.0,floor
+0051997AR,Populus nigra 'Italica',False,Av Rio de Janeiro,,39.01,no_facade,8.11,check,,,,,1.0,floor
+0051999AR,Melia azedarach,False,C\ Badosa,18.19,6.3,ok,,large,431551.23,4588018.54,431536.96,4588029.82,1.5,class
+0052000AR,Tipuana tipu,False,C\ Pablo Iglesias,9.96,4.2,ok,,large,431585.17,4588262.35,431593.54,4588256.96,1.5,class
+0052002AR,Brachychiton populneus,False,C\ Argullós,3.02,2.28,ok,,small,431421.31,4588258.18,431419.7,4588255.62,1.0,class
+0052003AR,Tipuana tipu,False,Av Rio de Janeiro,,16.46,median,10.82,check,,,,,1.0,floor
+0052004AR,Platanus × acerifolia,True,Via Júlia,7.44,6.13,ok,,large,431465.91,4588507.94,431459.38,4588511.49,1.5,class
+0052005AR,Brachychiton populneus,False,Via Júlia,10.33,8.38,ok,,large,431294.63,4588085.94,431285.9,4588091.46,1.5,class
+0052006AR,Styphnolobium japonicum,False,Pl Nou Pins,,15.58,median,28.77,check,,,,,1.0,floor
+0052007AR,Styphnolobium japonicum,False,C\ Formentera,,6.84,median,8.33,check,,,,,1.0,floor
+0052009AR,Celtis australis,False,Av Meridiana,,19.19,median,5.07,check,,,,,1.0,floor
+0052010AR,Platanus × acerifolia,True,Pg Valldaura,,20.21,median,5.33,check,,,,,1.0,floor
+0052011AR,Platanus × acerifolia,True,Via Júlia,10.53,8.77,ok,,large,431116.31,4587825.99,431107.8,4587832.2,1.5,class
+0052013AR,Magnolia grandiflora,False,Via Júlia,5.39,4.26,ok,,medium,431381.32,4588269.5,431376.22,4588271.25,1.0,class
+0052015AR,Celtis australis,False,Via Favència,14.62,11.25,ok,,large,431793.19,4588625.45,431791.22,4588639.94,1.5,class
+0052016AR,Jacaranda mimosifolia,False,Via Favència,,25.51,median,23.59,check,,,,,1.0,floor
+0052017AR,Ligustrum lucidum,False,C\ Badosa,3.12,2.16,ok,,small,431588.21,4588081.02,431585.91,4588083.13,1.0,class
+0052018AR,Prunus cerasifera 'Pissardii',False,C\ Tissó,3.29,2.61,ok,,small,431673.12,4588332.48,431674.95,4588335.22,1.0,class
+0052019AR,Brachychiton populneus,False,C\ Argullós,3.03,2.4,ok,,small,431447.8,4588241.75,431446.2,4588239.18,1.0,class
+0052020AR,Jacaranda mimosifolia,False,C\ Baltasar Gracián,6.6,3.32,ok,,large,431639.55,4587974.5,431634.84,4587969.88,1.5,class
+0052021AR,Brachychiton populneus,False,Av Meridiana,16.16,8.89,ok,,large,431986.47,4588285.24,432002.1,4588281.11,1.5,class
+0052022AR,Brachychiton populneus,False,Via Júlia,10.33,3.45,ok,,large,431294.5,4588085.73,431285.77,4588091.26,1.5,class
+0052025AR,Platanus × acerifolia,True,C\ Pablo Iglesias,4.85,4.26,ok,,medium,431643.52,4588309.38,431639.4,4588311.94,1.0,class
+0052026AR,Populus nigra 'Italica',False,Av Rio de Janeiro,,23.52,median,15.24,check,,,,,1.0,floor
+0052028AR,Cercis siliquastrum,False,C\ Baltasar Gracián,,15.56,no_kerb,,check,,,,,1.0,floor
+0052029AR,Melia azedarach,False,C\ Baltasar Gracián,3.59,2.82,ok,,medium,431657.19,4587927.73,431659.76,4587930.24,1.0,class
+0052030AR,Tipuana tipu,False,C\ Conflent,,10.33,no_kerb,,check,,,,,1.0,floor
+0052031AR,Platanus × acerifolia,True,Via Júlia,,11.57,median,11.83,check,,,,,1.0,floor
+0052033AR,Tipuana tipu,False,C\ Pablo Iglesias,,10.14,median,27.43,check,,,,,1.0,floor
+0052034AR,Ligustrum lucidum,False,C\ Santa Engràcia,2.93,2.45,ok,,small,431356.78,4587992.66,431354.34,4587994.3,1.0,class
+0052037AR,Celtis australis,False,Via Favència,13.48,6.08,ok,,large,431866.9,4588633.74,431866.22,4588647.2,1.5,class
+0052039AR,Styphnolobium japonicum,False,C\ Vesuvi,,10.54,median,,check,,,,,1.0,floor
+0052041AR,Tipuana tipu,False,C\ Conflent,26.0,14.11,ok,,large,431357.47,4588138.55,431365.34,4588163.33,1.5,class
+0052042AR,Brachychiton populneus,False,C\ Argullós,8.1,7.64,ok,,large,431650.13,4588109.88,431644.04,4588104.53,1.5,class
+0052043AR,Melia azedarach,False,C\ Baltasar Gracián,3.55,2.87,ok,,medium,431613.05,4587972.86,431615.58,4587975.34,1.0,class
+0052044AR,Platanus × acerifolia,True,C\ Vesuvi,,19.41,no_kerb,,check,,,,,1.0,floor
+0052045AR,Brachychiton populneus,False,Av Rio de Janeiro,,12.45,median,20.64,check,,,,,1.0,floor
+0052046AR,Platanus × acerifolia,True,Via Júlia,17.24,14.63,ok,,large,431349.21,4588179.28,431335.4,4588168.97,1.5,class
+0052048AR,Prunus cerasifera 'Pissardii',False,C\ Tissó,3.32,2.6,ok,,small,431667.95,4588335.95,431669.8,4588338.7,1.0,class
+0052049AR,Quercus ilex,False,Via Júlia,,18.11,median,21.94,check,,,,,1.0,floor
+0052050AR,Magnolia grandiflora,False,Via Júlia,5.27,4.43,ok,,medium,431401.48,4588329.78,431396.47,4588331.43,1.0,class
+0052051AR,Brachychiton populneus,False,Av Rio de Janeiro,11.86,8.78,ok,,large,431694.03,4587935.96,431703.19,4587928.43,1.5,class
+0052052AR,Brachychiton populneus,False,C\ Font de Canyelles,7.16,6.6,ok,,large,431370.51,4587820.64,431363.45,4587819.41,1.5,class
+0052053AR,Populus nigra 'Italica',False,Av Rio de Janeiro,,18.6,median,8.3,check,,,,,1.0,floor
+0052054AR,Brachychiton populneus,False,C\ Argullós,3.12,2.75,ok,,small,431446.87,4588230.79,431448.58,4588233.39,1.0,class
+0052055AR,Platanus × acerifolia,True,Via Júlia,,11.66,median,12.11,check,,,,,1.0,floor
+0052056AR,Olea europaea,False,Av Rio de Janeiro,,24.73,median,4.33,check,,,,,1.0,floor
+0052057AR,Brachychiton populneus,False,Via Júlia,,11.35,median,21.95,check,,,,,1.0,floor
+0052058AR,Platanus × acerifolia,True,Via Júlia,,11.51,median,11.82,check,,,,,1.0,floor
+0052059AR,Platanus orientalis,True,C\ Pablo Iglesias,,8.18,median,9.79,check,,,,,1.0,floor
+0052061AR,Brachychiton populneus,False,C\ Argullós,4.15,3.38,ok,,medium,431624.02,4588112.5,431626.81,4588115.57,1.0,class
+0052065AR,Brachychiton populneus,False,C\ Argullós,12.74,12.37,ok,,large,431565.59,4588181.48,431557.08,4588172.0,1.5,class
+0052066AR,Tipuana tipu,False,Av Rio de Janeiro,11.47,8.26,ok,,large,431667.88,4587905.89,431675.92,4587897.71,1.5,class
+0052067AR,Ligustrum lucidum,False,C\ Santa Engràcia,2.93,2.26,ok,,small,431367.57,4588026.77,431370.0,4588025.14,1.0,class
+0052068AR,Acer campestre 'Pyramidale',False,Av Rio de Janeiro,13.74,12.57,ok,,large,431893.05,4588086.68,431879.52,4588089.07,1.5,class
+0052069AR,Pyrus calleryana 'Chanticleer',False,C\ Badosa,3.15,2.18,ok,,small,431582.81,4588075.13,431580.48,4588077.27,1.0,class
+0052070AR,Acer campestre 'Pyramidale',False,Av Rio de Janeiro,,38.67,no_facade,11.05,check,,,,,1.0,floor
+0052071AR,Brachychiton populneus,False,C\ Argullós,9.16,8.48,ok,,large,431719.3,4588003.18,431725.77,4588009.67,1.5,class
+0052072AR,Platanus × acerifolia,True,Via Júlia,13.42,12.2,ok,,large,431467.8,4588511.41,431463.62,4588524.16,1.5,class
+0052073AR,Brachychiton populneus,False,Av Rio de Janeiro,11.56,8.59,ok,,large,431689.59,4587930.55,431698.52,4587923.21,1.5,class
+0052076AR,Celtis australis,False,Via Favència,13.98,12.63,ok,,large,431741.73,4588619.49,431739.38,4588633.27,1.5,class
+0052077AR,Brachychiton populneus,False,C\ Boada,2.85,2.33,ok,,small,431467.34,4587970.59,431469.39,4587968.6,1.0,class
+0052078AR,Brachychiton populneus,False,Via Júlia,9.89,8.0,ok,,large,431301.75,4588097.18,431293.39,4588102.47,1.5,class
+0052079AR,Ligustrum lucidum,False,C\ Santa Engràcia,,29.65,median,3.3,check,,,,,1.0,floor
+0052080AR,Ligustrum lucidum,False,C\ Santa Engràcia,2.9,2.19,ok,,small,431280.13,4587895.81,431282.54,4587894.19,1.0,class
+0052081AR,Styphnolobium japonicum,False,C\ Badosa,,10.95,median,,check,,,,,1.0,floor
+0052082AR,Platanus × acerifolia,True,Via Júlia,,28.56,no_kerb,,check,,,,,1.0,floor
+0052085AR,Celtis australis,False,Via Favència,18.45,9.32,ok,,large,431697.89,4588607.15,431691.04,4588624.28,1.5,class
+0052086AR,Acer campestre 'Pyramidale',False,C\ Argullós,,29.11,median,8.32,check,,,,,1.0,floor
+0052088AR,Tipuana tipu,False,C\ Pablo Iglesias,5.83,5.27,ok,,medium,431735.69,4588457.27,431730.75,4588460.37,1.0,class
+0052089AR,Tipuana tipu,False,C\ Pablo Iglesias,9.91,4.57,ok,,large,431729.98,4588495.23,431738.37,4588489.95,1.5,class
+0052090AR,Platanus × acerifolia,True,Via Júlia,10.91,3.05,ok,,large,431131.38,4587846.67,431122.56,4587853.1,1.5,class
+0052091AR,Celtis australis,False,Via Favència,13.09,5.34,ok,,large,431835.97,4588630.42,431834.56,4588643.44,1.5,class
+0052092AR,Brachychiton populneus,False,C\ Argullós,5.41,5.13,ok,,medium,431676.54,4588079.55,431672.44,4588076.02,1.0,class
+0052093AR,Celtis australis,False,Via Favència,2.67,1.97,ok,,small,432005.67,4588661.6,432005.55,4588664.27,1.0,class
+0052094AR,Acer campestre 'Pyramidale',False,Av Rio de Janeiro,,19.03,median,15.37,check,,,,,1.0,floor
+0052095AR,Platanus × acerifolia,True,Pl República,17.09,15.52,ok,,large,431092.99,4587789.65,431075.94,4587790.77,1.5,class
+0052097AR,Acer campestre 'Pyramidale',False,Av Rio de Janeiro,13.09,4.02,ok,,large,431893.96,4588091.81,431893.86,4588104.9,1.5,class
+0052098AR,Brachychiton populneus,False,Av Meridiana,24.35,5.13,ok,,large,431990.66,4588301.09,432014.2,4588294.87,1.5,class
+0052099AR,Ligustrum lucidum,False,C\ Santa Engràcia,,21.88,median,9.19,check,,,,,1.0,floor
+0052101AR,Brachychiton populneus,False,Av Meridiana,19.75,5.22,ok,,large,432042.93,4588501.24,432062.45,4588498.25,1.5,class
+0052102AR,Quercus ilex,False,Via Júlia,,18.18,median,32.89,check,,,,,1.0,floor
+0052103AR,Styphnolobium japonicum,False,C\ Formentera,,6.47,median,8.44,check,,,,,1.0,floor
+0052105AR,Melia azedarach,False,C\ Badosa,16.56,3.9,ok,,large,431507.42,4587975.39,431495.44,4587986.82,1.5,class
+0052108AR,Ligustrum lucidum,False,C\ Santa Engràcia,2.9,2.2,ok,,small,431283.9,4587901.41,431286.3,4587899.79,1.0,class
+0052109AR,Brachychiton populneus,False,Via Júlia,,11.64,median,22.01,check,,,,,1.0,floor
+0052110AR,Grevillea robusta,False,Pg Valldaura,7.31,6.87,ok,,large,431215.37,4587793.22,431216.55,4587786.01,1.5,class
+0052112AR,Brachychiton populneus,False,Av Meridiana,22.27,5.37,ok,,large,432019.68,4588411.29,432039.4,4588400.95,1.5,class
+0052114AR,Brachychiton populneus,False,C\ Boada,3.31,2.61,ok,,small,431379.2,4587872.06,431381.94,4587870.19,1.0,class
+0052116AR,Brachychiton populneus,False,Av Rio de Janeiro,17.62,5.5,ok,,large,431728.12,4587977.43,431744.47,4587970.85,1.5,class
+0052117AR,Styphnolobium japonicum,False,C\ Arítjols,,5.38,median,18.18,check,,,,,1.0,floor
+0052118AR,Platanus × acerifolia,True,C\ Pablo Iglesias,,8.61,median,9.95,check,,,,,1.0,floor
+0052121AR,Liquidambar styraciflua,False,C\ Joaquim Valls,5.77,3.2,ok,,medium,431839.88,4588137.46,431836.16,4588133.05,1.0,class
+0052122AR,Ligustrum lucidum,False,C\ Santa Engràcia,3.45,2.67,ok,,small,431267.62,4587877.33,431270.52,4587875.47,1.0,class
+0052124AR,Brachychiton populneus,False,C\ Argullós,9.44,8.78,ok,,large,431576.69,4588171.51,431570.38,4588164.49,1.5,class
+0052125AR,Brachychiton populneus,False,C\ Argullós,3.1,2.45,ok,,small,431452.22,4588239.0,431450.58,4588236.37,1.0,class
+0052126AR,Ligustrum lucidum,False,C\ Santa Engràcia,2.99,2.32,ok,,small,431325.17,4587963.35,431327.64,4587961.66,1.0,class
+0052127AR,Ligustrum lucidum,False,C\ Santa Engràcia,,22.67,median,3.32,check,,,,,1.0,floor
+0052128AR,Celtis australis,False,Via Favència,13.69,12.1,ok,,large,431873.75,4588634.32,431872.56,4588647.95,1.5,class
+0052129AR,Brachychiton populneus,False,Via Júlia,10.63,3.65,ok,,large,431287.09,4588074.3,431278.2,4588080.13,1.5,class
+0052130AR,Acer campestre 'Pyramidale',False,Av Rio de Janeiro,,33.84,no_facade,8.81,check,,,,,1.0,floor
+0052131AR,Prunus cerasifera 'Pissardii',False,C\ Joaquim Valls,3.27,2.54,ok,,small,431657.71,4588257.97,431655.95,4588255.21,1.0,class
+0052132AR,Celtis australis,False,Via Favència,14.24,13.25,ok,,large,431735.4,4588618.41,431733.0,4588632.45,1.5,class
+0052134AR,Melia azedarach,False,C\ Baltasar Gracián,3.61,2.39,ok,,medium,431672.73,4587911.83,431675.32,4587914.36,1.0,class
+0052135AR,Celtis australis,False,Via Favència,12.8,12.02,ok,,large,431653.28,4588602.3,431658.98,4588613.76,1.5,class
+0052136AR,Firmiana simplex,False,Via Favència,,27.16,median,24.25,check,,,,,1.0,floor
+0052137AR,Brachychiton populneus,False,C\ Argullós,6.9,5.67,ok,,large,431621.26,4588131.13,431622.63,4588124.37,1.5,class
+0052138AR,Platanus × acerifolia,True,Pg Valldaura,,40.63,no_facade,3.27,check,,,,,1.0,floor
+0052139AR,Magnolia grandiflora,False,Via Júlia,5.32,4.44,ok,,medium,431445.44,4588460.12,431440.39,4588461.81,1.0,class
+0052141AR,Ligustrum lucidum,False,C\ Santa Engràcia,2.93,2.58,ok,,small,431395.67,4588050.92,431393.23,4588052.53,1.0,class
+0052142AR,Cercis siliquastrum,False,C\ Baltasar Gracián,,11.57,no_kerb,,check,,,,,1.0,floor
+0052144AR,Celtis australis,False,C\ Pablo Iglesias,,8.68,median,10.0,check,,,,,1.0,floor
+0052145AR,Brachychiton populneus,False,C\ Argullós,9.7,9.08,ok,,large,431708.28,4588014.19,431715.14,4588021.05,1.5,class
+0052148AR,Brachychiton populneus,False,C\ Boada,3.34,2.54,ok,,small,431426.89,4587928.52,431429.31,4587926.22,1.0,class
+0052149AR,Brachychiton populneus,False,C\ Artesania,4.7,4.16,ok,,medium,431154.9,4587802.1,431153.04,4587797.79,1.0,class
+0052150AR,Celtis australis,False,Via Favència,16.25,6.21,ok,,large,431984.08,4588645.82,431982.5,4588661.99,1.5,class
+0052151AR,Acer campestre 'Pyramidale',False,Av Rio de Janeiro,,31.94,no_facade,13.95,check,,,,,1.0,floor
+0052153AR,Ligustrum lucidum,False,C\ Santa Engràcia,2.96,2.43,ok,,small,431360.69,4587998.48,431358.24,4588000.14,1.0,class
+0052154AR,Cupressus sempervirens,False,C\ Vesuvi,,7.5,no_kerb,,check,,,,,1.0,floor
+0052155AR,Celtis australis,False,Via Favència,2.65,1.87,ok,,small,431999.88,4588661.05,431999.6,4588663.69,1.0,class
+0052157AR,Brachychiton populneus,False,Av Rio de Janeiro,11.86,3.08,ok,,large,431694.11,4587936.05,431703.28,4587928.52,1.5,class
+0052158AR,Celtis australis,False,Via Favència,13.38,5.65,ok,,large,431848.27,4588631.7,431847.16,4588645.03,1.5,class
+0052159AR,Firmiana simplex,False,Via Favència,,24.1,median,21.75,check,,,,,1.0,floor
+0052160AR,Ligustrum lucidum,False,C\ Santa Engràcia,2.9,2.27,ok,,small,431292.27,4587895.85,431289.88,4587897.47,1.0,class
+0052161AR,Jacaranda mimosifolia,False,C\ Argullós,11.01,5.93,ok,,large,431569.09,4588144.75,431579.11,4588149.32,1.5,class
+0052162AR,Quercus ilex,False,Via Júlia,,18.17,median,12.11,check,,,,,1.0,floor
+0052163AR,Celtis australis,False,Via Favència,,15.1,median,12.48,check,,,,,1.0,floor
+0052164AR,Tipuana tipu,False,C\ Argullós,9.68,4.02,ok,,large,431686.53,4588037.49,431693.69,4588044.0,1.5,class
+0052165AR,Styphnolobium japonicum,False,C\ Vesuvi,,18.24,median,6.18,check,,,,,1.0,floor
+0052166AR,Ligustrum lucidum,False,C\ Argullós,20.2,4.55,ok,,large,431624.71,4588134.95,431639.69,4588121.39,1.5,class
+0052168AR,Celtis australis,False,Av Meridiana,,26.33,median,3.4,check,,,,,1.0,floor
+0052170AR,Platanus × acerifolia,True,Via Júlia,,11.41,median,21.85,check,,,,,1.0,floor
+0052171AR,Brachychiton populneus,False,Pl República,24.13,22.19,ok,,large,431092.4,4587779.74,431068.31,4587781.1,1.5,class
+0052172AR,Prunus cerasifera,False,C\ Tissó,,9.95,median,,check,,,,,1.0,floor
+0052173AR,Platanus × acerifolia,True,Via Júlia,10.88,9.16,ok,,large,431166.29,4587895.63,431157.36,4587901.85,1.5,class
+0052174AR,Quercus ilex,False,Via Júlia,,21.41,median,22.35,check,,,,,1.0,floor
+0052175AR,Celtis australis,False,C\ Pablo Iglesias,,8.05,median,9.91,check,,,,,1.0,floor
+0052176AR,Olea europaea,False,Av Rio de Janeiro,,21.6,median,3.17,check,,,,,1.0,floor
+0052178AR,Melia azedarach,False,C\ Baltasar Gracián,3.58,3.0,ok,,medium,431644.32,4587940.88,431646.88,4587943.38,1.0,class
+0052179AR,Platanus × acerifolia,True,Via Júlia,10.88,9.03,ok,,large,431187.61,4587926.26,431178.68,4587932.48,1.5,class
+0052180AR,Styphnolobium japonicum,False,C\ Vesuvi,,10.42,median,7.32,check,,,,,1.0,floor
+0052182AR,Ligustrum lucidum,False,C\ Santa Engràcia,,10.31,median,3.31,check,,,,,1.0,floor
+0052183AR,Brachychiton populneus,False,C\ Turó Blau,,16.62,median,6.77,check,,,,,1.0,floor
+0052184AR,Magnolia grandiflora,False,Via Júlia,5.26,4.49,ok,,medium,431393.04,4588304.46,431388.08,4588306.18,1.0,class
+0052185AR,Prunus cerasifera 'Pissardii',False,C\ Joaquim Valls,,2.42,no_kerb,,check,,,,,1.0,floor
+0052187AR,Prunus cerasifera 'Pissardii',False,C\ Joaquim Valls,,5.64,median,,check,,,,,1.0,floor
+0052189AR,Celtis australis,False,Via Favència,12.02,5.26,ok,,large,431678.14,4588607.01,431675.74,4588618.78,1.5,class
+0052190AR,Prunus cerasifera 'Pissardii',False,C\ Argullós,13.88,5.42,ok,,large,431564.72,4588148.8,431574.16,4588158.98,1.5,class
+0052191AR,Platanus × acerifolia,True,C\ Pablo Iglesias,,8.35,median,10.19,check,,,,,1.0,floor
+0052192AR,Tipuana tipu,False,Av Rio de Janeiro,,24.1,median,16.96,check,,,,,1.0,floor
+0052193AR,Platanus × acerifolia,True,Pg Valldaura,,36.93,no_facade,3.45,check,,,,,1.0,floor
+0052195AR,Liquidambar styraciflua,False,C\ Joaquim Valls,6.32,3.14,ok,,large,431854.92,4588124.49,431850.71,4588119.78,1.5,class
+0052196AR,Acer campestre 'Pyramidale',False,C\ Argullós,,32.91,no_facade,11.1,check,,,,,1.0,floor
+0052197AR,Grevillea robusta,False,Pg Valldaura,7.62,6.89,ok,,large,431471.49,4587835.42,431472.69,4587827.89,1.5,class
+0052198AR,Prunus cerasifera 'Pissardii',False,C\ Tissó,3.2,2.62,ok,,small,431719.86,4588301.8,431721.55,4588304.52,1.0,class
+0052200AR,Brachychiton populneus,False,Via Júlia,,12.66,median,20.24,check,,,,,1.0,floor
+0052201AR,Celtis australis,False,Via Favència,12.79,10.94,ok,,large,431804.78,4588626.96,431803.42,4588639.68,1.5,class
+0052202AR,Tipuana tipu,False,C\ Conflent,20.59,4.44,ok,,large,431345.95,4588119.31,431328.29,4588129.88,1.5,class
+0052205AR,Grevillea robusta,False,Pg Valldaura,7.57,7.11,ok,,large,431488.79,4587838.18,431489.98,4587830.7,1.5,class
+0052206AR,Celtis australis,False,Av Meridiana,,22.95,median,5.1,check,,,,,1.0,floor
+0052207AR,Platanus × acerifolia,True,Pl Santa Engràcia,,15.83,median,,check,,,,,1.0,floor
+0052208AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Canyameres,3.17,2.44,ok,,small,431399.24,4588219.84,431401.85,4588218.03,1.0,class
+0052209AR,Celtis australis,False,Via Favència,10.38,9.16,ok,,large,431636.99,4588599.11,431635.01,4588609.3,1.5,class
+0052213AR,Acer campestre 'Pyramidale',False,Av Rio de Janeiro,,43.23,no_facade,9.53,check,,,,,1.0,floor
+0052214AR,Magnolia grandiflora,False,Via Júlia,5.19,4.41,ok,,medium,431422.85,4588392.87,431417.96,4588394.61,1.0,class
+0052216AR,Tipuana tipu,False,C\ Conflent,,7.95,no_kerb,,check,,,,,1.0,floor
+0052219AR,Catalpa bignonioides,False,C\ Pablo Iglesias,10.16,4.72,ok,,large,431720.35,4588480.18,431728.92,4588474.72,1.5,class
+0052220AR,Celtis australis,False,Via Favència,15.93,12.45,ok,,large,431879.94,4588634.86,431878.56,4588650.73,1.5,class
+0052221AR,Brachychiton populneus,False,Av Meridiana,16.86,11.94,ok,,large,432007.23,4588363.5,432023.51,4588359.14,1.5,class
+0052222AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Canyameres,3.11,2.26,ok,,small,431428.18,4588262.01,431430.74,4588260.25,1.0,class
+0052224AR,Tipuana tipu,False,Pg Valldaura,,41.78,no_facade,,check,,,,,1.0,floor
+0052225AR,Brachychiton populneus,False,Via Júlia,10.64,2.95,ok,,large,431209.67,4587958.58,431200.81,4587964.48,1.5,class
+0052226AR,Celtis australis,False,Via Favència,15.94,6.53,ok,,large,431880.14,4588634.88,431878.75,4588650.75,1.5,class
+0052227AR,Pyrus calleryana 'Chanticleer',False,C\ Molí,3.17,2.27,ok,,small,431642.57,4588554.26,431639.48,4588553.59,1.0,class
+0052228AR,Ligustrum lucidum,False,C\ Santa Engràcia,19.01,15.48,ok,,large,431264.13,4587871.91,431256.58,4587854.47,1.5,class
+0052230AR,Celtis australis,False,Av Meridiana,,13.34,median,14.53,check,,,,,1.0,floor
+0052232AR,Brachychiton populneus,False,Via Júlia,,11.56,median,22.24,check,,,,,1.0,floor
+0052233AR,Styphnolobium japonicum,False,C\ Baltasar Gracián,,18.47,no_kerb,,check,,,,,1.0,floor
+0052234AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Canyameres,2.95,2.07,ok,,small,431454.35,4588300.33,431456.76,4588298.63,1.0,class
+0052236AR,Styphnolobium japonicum,False,Pl Nou Pins,,9.62,median,,check,,,,,1.0,floor
+0052237AR,Celtis australis,False,C\ Conflent,,6.7,median,,check,,,,,1.0,floor
+0052238AR,Cercis siliquastrum,False,C\ Baltasar Gracián,,7.34,no_kerb,,check,,,,,1.0,floor
+0052239AR,Platanus × acerifolia,True,Pg Valldaura,,38.7,no_facade,3.37,check,,,,,1.0,floor
+0052240AR,Styphnolobium japonicum,False,C\ Arítjols,,5.18,median,14.25,check,,,,,1.0,floor
+0052241AR,Styphnolobium japonicum,False,C\ Vesuvi,,12.47,median,1.61,check,,,,,1.0,floor
+0052243AR,Tipuana tipu,False,Pl República,25.72,19.57,ok,,large,431092.28,4587777.58,431066.61,4587779.03,1.5,class
+0052244AR,Prunus cerasifera,False,C\ Tissó,,10.67,median,,check,,,,,1.0,floor
+0052245AR,Brachychiton populneus,False,C\ Argullós,4.21,3.53,ok,,medium,431627.55,4588109.22,431630.43,4588112.29,1.0,class
+0052246AR,Platanus × acerifolia,True,Via Júlia,10.57,8.33,ok,,large,431212.91,4587963.45,431204.11,4587969.31,1.5,class
+0052247AR,Brachychiton populneus,False,C\ Argullós,2.79,2.72,ok,,small,431429.69,4588241.93,431431.25,4588244.25,1.0,class
+0052248AR,Prunus cerasifera 'Pissardii',False,C\ Tissó,3.33,2.63,ok,,small,431733.1,4588307.79,431731.35,4588304.95,1.0,class
+0052249AR,Jacaranda mimosifolia,False,Via Favència,,24.33,median,21.7,check,,,,,1.0,floor
+0052250AR,Prunus cerasifera 'Pissardii',False,C\ Tissó,3.22,2.65,ok,,small,431684.33,4588324.97,431686.13,4588327.64,1.0,class
+0052251AR,Styphnolobium japonicum,False,C\ Vesuvi,,10.42,median,6.02,check,,,,,1.0,floor
+0052252AR,Tipuana tipu,False,C\ Conflent,,9.77,no_kerb,,check,,,,,1.0,floor
+0052254AR,Platanus × acerifolia,True,Pl Santa Engràcia,16.14,15.1,ok,,large,431534.24,4588191.8,431547.88,4588183.17,1.5,class
+0052255AR,Platanus × acerifolia,True,Via Júlia,11.09,3.8,ok,,large,431151.94,4587875.09,431142.86,4587881.44,1.5,class
+0052256AR,Celtis australis,False,Av Meridiana,,26.18,median,4.27,check,,,,,1.0,floor
+0052257AR,Celtis australis,False,Via Favència,21.3,19.93,ok,,large,431703.0,4588606.81,431704.41,4588628.07,1.5,class
+0052259AR,Melia azedarach,False,C\ Badosa,,11.12,median,,check,,,,,1.0,floor
+0052263AR,Styphnolobium japonicum,False,C\ Vesuvi,12.61,11.51,ok,,large,432020.2,4588536.26,432027.32,4588546.67,1.5,class
+0052264AR,Brachychiton populneus,False,C\ Argullós,3.0,2.47,ok,,small,431407.56,4588266.82,431405.96,4588264.29,1.0,class
+0052266AR,Celtis australis,False,Via Favència,,3.92,no_kerb,,check,,,,,1.0,floor
+0052267AR,Brachychiton populneus,False,Av Rio de Janeiro,,14.35,median,14.79,check,,,,,1.0,floor
+0052268AR,Celtis australis,False,C\ Conflent,,6.51,median,,check,,,,,1.0,floor
+0052269AR,Acer campestre 'Pyramidale',False,Av Rio de Janeiro,,36.85,no_facade,11.05,check,,,,,1.0,floor
+0052270AR,Brachychiton populneus,False,Via Júlia,10.76,3.08,ok,,large,431202.81,4587948.29,431193.86,4587954.26,1.5,class
+0052271AR,Tipuana tipu,False,Av Rio de Janeiro,,16.41,median,23.72,check,,,,,1.0,floor
+0052272AR,Ligustrum lucidum,False,C\ Santa Engràcia,10.03,7.9,ok,,large,431264.13,4587871.91,431261.72,4587862.18,1.5,class
+0052273AR,Ligustrum lucidum,False,C\ Santa Engràcia,28.03,21.49,ok,,large,431264.13,4587871.91,431251.49,4587846.89,1.5,class
+0052276AR,Platanus × acerifolia,True,Via Júlia,10.43,8.28,ok,,large,431219.58,4587973.48,431210.9,4587979.26,1.5,class
+0052277AR,Acer campestre 'Pyramidale',False,Av Rio de Janeiro,,40.2,no_facade,8.11,check,,,,,1.0,floor
+0052278AR,Melia azedarach,False,C\ Badosa,,11.14,median,,check,,,,,1.0,floor
+0052279AR,Brachychiton populneus,False,C\ Argullós,3.13,2.5,ok,,small,431460.98,4588233.43,431459.29,4588230.8,1.0,class
+0052280AR,Platanus × acerifolia,True,Via Júlia,,18.63,median,21.95,check,,,,,1.0,floor
+0052281AR,Brachychiton populneus,False,Via Júlia,10.62,2.94,ok,,large,431119.97,4587831.02,431111.39,4587837.28,1.5,class
+0052282AR,Celtis australis,False,Via Favència,16.09,12.62,ok,,large,431885.67,4588635.36,431884.27,4588651.39,1.5,class
+0052283AR,Magnolia grandiflora,False,Via Júlia,5.96,5.18,ok,,medium,431353.62,4588189.54,431348.16,4588191.93,1.0,class
+0052284AR,Styphnolobium japonicum,False,C\ Baltasar Gracián,,3.27,no_kerb,,check,,,,,1.0,floor
+0052286AR,Ligustrum lucidum,False,C\ Santa Engràcia,3.45,2.65,ok,,small,431264.13,4587871.91,431266.55,4587869.46,1.0,class
+0052287AR,Ligustrum lucidum,False,C\ Santa Engràcia,3.04,2.39,ok,,small,431372.4,4588015.86,431369.86,4588017.54,1.0,class
+0052288AR,Pyrus calleryana 'Chanticleer',False,C\ Borràs,3.16,2.79,ok,,small,431394.97,4587894.48,431396.74,4587897.11,1.0,class
+0052290AR,Prunus cerasifera 'Pissardii',False,C\ Tissó,3.31,2.75,ok,,small,431726.17,4588312.02,431724.46,4588309.19,1.0,class
+0052291AR,Styphnolobium japonicum,False,Pl Lola Anglada,,8.92,median,16.47,check,,,,,1.0,floor
+0052293AR,Prunus cerasifera 'Pissardii',False,C\ Tissó,3.25,2.53,ok,,small,431719.72,4588315.9,431718.05,4588313.12,1.0,class
+0052294AR,Brachychiton populneus,False,C\ Turó Blau,6.42,5.33,ok,,large,431228.09,4587797.78,431234.43,4587798.8,1.5,class
+0052295AR,Brachychiton populneus,False,Via Júlia,10.5,8.31,ok,,large,431216.25,4587968.47,431207.51,4587974.28,1.5,class
+0052298AR,Brachychiton populneus,False,C\ Argullós,3.42,2.97,ok,,small,431393.9,4588263.89,431395.73,4588266.78,1.0,class
+0052299AR,Brachychiton populneus,False,C\ Argullós,3.02,2.32,ok,,small,431416.81,4588261.01,431415.21,4588258.45,1.0,class
+0052300AR,Platanus × acerifolia,True,Via Júlia,11.09,9.09,ok,,large,431138.64,4587856.65,431129.68,4587863.17,1.5,class
+0052302AR,Melia azedarach,False,C\ Vinyar,4.02,2.86,ok,,medium,431765.98,4588194.55,431769.44,4588192.52,1.0,class
+0052303AR,Acer campestre 'Pyramidale',False,Av Rio de Janeiro,,38.89,no_facade,8.13,check,,,,,1.0,floor
+0052304AR,Celtis australis,False,Via Favència,10.24,9.54,ok,,large,431642.92,4588600.26,431640.97,4588610.32,1.5,class
+0052305AR,Styphnolobium japonicum,False,C\ Vesuvi,,10.52,median,7.28,check,,,,,1.0,floor
+0052306AR,Acer campestre 'Pyramidale',False,Av Rio de Janeiro,21.0,16.67,ok,,large,431798.86,4587979.09,431778.18,4587982.72,1.5,class
+0052307AR,Tipuana tipu,False,Av Rio de Janeiro,,33.15,no_facade,10.76,check,,,,,1.0,floor
+0052308AR,Prunus cerasifera 'Pissardii',False,C\ Joaquim Valls,,2.33,no_kerb,,check,,,,,1.0,floor
+0052309AR,Brachychiton populneus,False,Via Júlia,,11.41,median,11.82,check,,,,,1.0,floor
+0052310AR,Platanus × acerifolia,True,Via Júlia,,18.05,median,21.51,check,,,,,1.0,floor
+0052311AR,Platanus × acerifolia,True,Via Júlia,,18.59,median,22.28,check,,,,,1.0,floor
+0052312AR,Platanus × acerifolia,True,C\ Vesuvi,,20.3,median,,check,,,,,1.0,floor
+0052313AR,Pyrus calleryana 'Chanticleer',False,C\ Borràs,3.17,2.71,ok,,small,431370.22,4587911.11,431371.99,4587913.74,1.0,class
+0052314AR,Brachychiton populneus,False,Via Júlia,,14.85,median,16.99,check,,,,,1.0,floor
+0052315AR,Brachychiton populneus,False,Via Júlia,,11.2,median,21.99,check,,,,,1.0,floor
+0052317AR,Celtis australis,False,Via Favència,13.43,12.01,ok,,large,431854.58,4588632.35,431853.14,4588645.7,1.5,class
+0052318AR,Magnolia grandiflora,False,Via Júlia,5.26,4.49,ok,,medium,431454.01,4588485.69,431449.02,4588487.36,1.0,class
+0052319AR,Platanus × acerifolia,True,Via Júlia,,11.48,median,22.23,check,,,,,1.0,floor
+0052320AR,Brachychiton populneus,False,C\ Boada,3.29,2.63,ok,,small,431437.65,4587939.87,431440.04,4587937.6,1.0,class
+0052321AR,Acer campestre 'Pyramidale',False,Av Rio de Janeiro,,38.08,no_facade,8.18,check,,,,,1.0,floor
+0052322AR,Paulownia tomentosa,False,Av Meridiana,8.87,9.59,ok,,large,432040.9,4588524.92,432049.4,4588527.44,1.5,class
+0052323AR,Tipuana tipu,False,C\ Pablo Iglesias,14.2,4.84,ok,,large,431675.16,4588407.52,431687.22,4588400.02,1.5,class
+0052324AR,Magnolia grandiflora,False,Via Júlia,5.36,3.39,ok,,medium,431378.69,4588261.81,431373.62,4588263.55,1.0,class
+0052326AR,Celtis australis,False,Via Favència,12.17,10.41,ok,,large,431573.14,4588591.0,431562.69,4588597.23,1.5,class
+0052327AR,Celtis sinensis,False,Via Favència,14.24,5.07,ok,,large,431735.45,4588618.42,431733.06,4588632.45,1.5,class
+0052328AR,Morus alba,False,C\ Vesuvi,,26.02,median,38.67,check,,,,,1.0,floor
+0052329AR,Styphnolobium japonicum,False,C\ Baltasar Gracián,,7.36,no_kerb,,check,,,,,1.0,floor
+0052330AR,Celtis australis,False,Via Favència,14.57,4.95,ok,,large,431799.17,4588626.26,431797.2,4588640.7,1.5,class
+0052331AR,Brachychiton populneus,False,Via Júlia,10.76,8.42,ok,,large,431202.9,4587948.42,431193.94,4587954.38,1.5,class
+0052332AR,Olea europaea,False,Av Rio de Janeiro,,23.89,median,3.96,check,,,,,1.0,floor
+0052333AR,Brachychiton populneus,False,C\ Argullós,3.47,2.82,ok,,small,431498.11,4588198.06,431499.99,4588200.98,1.0,class
+0052334AR,Brachychiton populneus,False,C\ Font de Canyelles,,17.15,median,6.82,check,,,,,1.0,floor
+0052337AR,Platanus × acerifolia,True,Pg Valldaura,,39.25,no_facade,3.21,check,,,,,1.0,floor
+0052338AR,Acer campestre 'Pyramidale',False,Av Rio de Janeiro,,21.09,median,14.38,check,,,,,1.0,floor
+0052339AR,Magnolia grandiflora,False,Via Júlia,6.07,5.47,ok,,large,431349.73,4588180.62,431344.07,4588182.81,1.5,class
+0052341AR,Brachychiton populneus,False,C\ Argullós,,8.28,median,15.95,check,,,,,1.0,floor
+0052342AR,Styphnolobium japonicum 'Dot',False,C\ Baltasar Gracián,,10.43,no_kerb,38.26,check,,,,,1.0,floor
+0052343AR,Populus nigra 'Italica',False,Pg Valldaura,7.37,6.74,ok,,large,431374.07,4587819.4,431375.3,4587812.14,1.5,class
+0052344AR,Grevillea robusta,False,Pg Valldaura,7.39,6.72,ok,,large,431384.28,4587821.13,431385.51,4587813.83,1.5,class
+0052345AR,Acer campestre 'Pyramidale',False,Av Rio de Janeiro,,19.31,median,11.55,check,,,,,1.0,floor
+0052346AR,Prunus cerasifera 'Pissardii',False,C\ Tissó,3.25,2.58,ok,,small,431678.99,4588328.55,431680.8,4588331.25,1.0,class
+0052347AR,Brachychiton populneus,False,C\ Argullós,4.36,3.74,ok,,medium,431722.44,4588028.5,431719.34,4588025.42,1.0,class
+0052348AR,Styphnolobium japonicum,False,C\ Baltasar Gracián,,3.79,no_kerb,,check,,,,,1.0,floor
+0052349AR,Platanus × acerifolia,True,Pg Valldaura,,32.2,no_facade,28.66,check,,,,,1.0,floor
+0052350AR,Grevillea robusta,False,Pg Valldaura,7.42,6.81,ok,,large,431395.47,4587823.01,431396.7,4587815.7,1.5,class
+0052351AR,Platanus × acerifolia,True,C\ Pablo Iglesias,,8.45,median,10.0,check,,,,,1.0,floor
+0052352AR,Celtis australis,False,Av Meridiana,,38.98,no_facade,6.72,check,,,,,1.0,floor
+0052353AR,Fraxinus excelsior,False,C\ Badosa,16.68,3.73,ok,,large,431515.25,4587983.59,431503.18,4587995.11,1.5,class
+0052354AR,Tipuana tipu,False,Pl República,26.96,8.8,ok,,large,431092.16,4587775.41,431065.24,4587776.93,1.5,class
+0052356AR,Tipuana tipu,False,C\ Pablo Iglesias,6.15,5.36,ok,,large,431758.12,4588492.49,431752.96,4588495.83,1.5,class
+0052358AR,Styphnolobium japonicum,False,C\ Vesuvi,,10.31,median,7.14,check,,,,,1.0,floor
+0052361AR,Brachychiton populneus,False,Av Meridiana,19.61,5.01,ok,,large,432041.43,4588494.9,432060.48,4588490.24,1.5,class
+0052362AR,Brachychiton populneus,False,C\ Argullós,9.68,8.65,ok,,large,431686.5,4588037.52,431693.66,4588044.03,1.5,class
+0052364AR,Brachychiton populneus,False,C\ Argullós,3.28,2.55,ok,,small,431384.54,4588269.81,431386.29,4588272.58,1.0,class
+0052365AR,Platanus × acerifolia,True,C\ Pablo Iglesias,5.07,4.61,ok,,medium,431567.58,4588186.56,431563.24,4588189.18,1.0,class
+0052367AR,Platanus × acerifolia,True,Via Júlia,11.08,9.48,ok,,large,431151.97,4587875.13,431142.89,4587881.49,1.5,class
+0052368AR,Tipuana tipu,False,Av Rio de Janeiro,,19.21,median,16.97,check,,,,,1.0,floor
+0052369AR,Brachychiton populneus,False,Av Meridiana,21.24,4.92,ok,,large,432022.4,4588421.56,432042.93,4588416.12,1.5,class
+0052371AR,Acer negundo,False,C\ Baltasar Gracián,,4.86,no_kerb,,check,,,,,1.0,floor
+0052372AR,Acer campestre 'Pyramidale',False,Av Rio de Janeiro,10.27,8.09,ok,,large,431893.96,4588091.81,431889.1,4588100.85,1.5,class
+0052373AR,Acer campestre 'Pyramidale',False,Av Rio de Janeiro,,38.55,no_facade,8.11,check,,,,,1.0,floor
+0052374AR,Tipuana tipu,False,C\ Pablo Iglesias,5.75,4.77,ok,,medium,431725.74,4588441.38,431720.87,4588444.44,1.0,class
+0052375AR,Platanus × acerifolia,True,Via Júlia,10.92,9.51,ok,,large,431159.17,4587885.42,431150.22,4587891.68,1.5,class
+0052376AR,Brachychiton populneus,False,Via Júlia,,11.41,median,22.09,check,,,,,1.0,floor
+0052378AR,Platanus × acerifolia,True,Via Júlia,,18.19,median,12.11,check,,,,,1.0,floor
+0052379AR,Brachychiton populneus,False,Av Rio de Janeiro,24.63,9.91,ok,,large,431727.96,4587979.96,431752.54,4587981.55,1.5,class
+0052380AR,Platanus × acerifolia,True,Via Júlia,,18.71,median,21.94,check,,,,,1.0,floor
+0052381AR,Celtis australis,False,C\ Pablo Iglesias,,7.74,median,9.84,check,,,,,1.0,floor
+0052384AR,Platanus × acerifolia,True,Via Júlia,,21.52,median,22.42,check,,,,,1.0,floor
+0052385AR,Olea europaea,False,C\ Molí,,12.54,median,20.8,check,,,,,1.0,floor
+0052386AR,Brachychiton populneus,False,Av Meridiana,24.38,13.6,ok,,large,431990.41,4588300.14,432013.98,4588293.92,1.5,class
+0052387AR,Celtis australis,False,C\ Pablo Iglesias,,7.99,median,9.81,check,,,,,1.0,floor
+0052388AR,Brachychiton populneus,False,Via Júlia,12.48,2.94,ok,,large,431127.89,4587841.89,431117.8,4587849.23,1.5,class
+0052389AR,Brachychiton populneus,False,Av Rio de Janeiro,12.73,3.62,ok,,large,431707.32,4587952.13,431717.16,4587944.04,1.5,class
+0052390AR,Ligustrum lucidum,False,C\ Santa Engràcia,2.9,2.29,ok,,small,431299.44,4587924.48,431301.84,4587922.86,1.0,class
+0052392AR,Pyrus calleryana 'Chanticleer',False,C\ Tissó,4.67,4.03,ok,,medium,431928.42,4588212.37,431931.12,4588216.19,1.0,class
+0052393AR,Melia azedarach,False,C\ Baltasar Gracián,6.55,6.07,ok,,large,431681.99,4587931.46,431677.36,4587926.83,1.5,class
+0052394AR,Brachychiton populneus,False,Av Meridiana,13.54,14.3,ok,,large,432039.22,4588530.29,432048.2,4588540.42,1.5,class
+0052395AR,Parkinsonia aculeata,False,C\ Argullós,17.3,6.75,ok,,large,431642.26,4588133.4,431633.11,4588118.71,1.5,class
+0052396AR,Celtis australis,False,Av Meridiana,15.1,14.07,ok,,large,432045.55,4588644.07,432060.64,4588644.65,1.5,class
+0052397AR,Brachychiton populneus,False,C\ Argullós,4.25,3.44,ok,,medium,431630.95,4588106.03,431633.86,4588109.13,1.0,class
+0052398AR,Ulmus pumila,False,Pl Santa Engràcia,23.51,11.14,ok,,large,431547.96,4588222.8,431571.42,4588221.28,1.5,class
+0052400AR,Acer campestre 'Pyramidale',False,Av Rio de Janeiro,20.89,16.28,ok,,large,431892.28,4588082.3,431871.49,4588084.38,1.5,class
+0052401AR,Ligustrum lucidum,False,C\ Santa Engràcia,,16.85,median,3.32,check,,,,,1.0,floor
+0052402AR,Ligustrum lucidum,False,C\ Santa Engràcia,2.94,2.35,ok,,small,431303.87,4587913.06,431301.44,4587914.7,1.0,class
+0052403AR,Styphnolobium japonicum 'Dot',False,C\ Baltasar Gracián,,9.29,no_kerb,,check,,,,,1.0,floor
+0052404AR,Brachychiton populneus,False,C\ Argullós,3.8,3.25,ok,,medium,431615.83,4588135.72,431613.37,4588132.81,1.0,class
+0052405AR,Platanus × acerifolia,True,Pg Valldaura,9.77,9.3,ok,,large,431814.99,4587887.99,431816.47,4587878.34,1.5,class
+0052406AR,Populus nigra 'Italica',False,Av Rio de Janeiro,,12.9,median,17.29,check,,,,,1.0,floor
+0052408AR,Brachychiton populneus,False,Via Júlia,15.76,5.28,ok,,large,431093.12,4587791.58,431077.4,4587792.62,1.5,class
+0052409AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Canyameres,2.98,2.1,ok,,small,431446.5,4588288.54,431448.98,4588286.89,1.0,class
+0052410AR,Styphnolobium japonicum,False,C\ Vesuvi,,12.2,median,6.04,check,,,,,1.0,floor
+0052411AR,Platanus × acerifolia,True,Via Júlia,10.88,9.1,ok,,large,431180.47,4587916.0,431171.54,4587922.22,1.5,class
+0052412AR,Cercis siliquastrum,False,C\ Vesuvi,,26.6,median,27.83,check,,,,,1.0,floor
+0052413AR,Platanus × acerifolia,True,C\ Vesuvi,,7.36,no_kerb,,check,,,,,1.0,floor
+0052414AR,Celtis australis,False,Via Favència,16.12,6.93,ok,,large,431948.31,4588642.04,431946.28,4588658.04,1.5,class
+0052415AR,Celtis australis,False,Av Meridiana,,15.57,median,15.06,check,,,,,1.0,floor
+0052416AR,Melia azedarach,False,Pl Santa Engràcia,16.47,3.21,ok,,large,431528.96,4588210.11,431520.04,4588196.26,1.5,class
+0052417AR,Brachychiton populneus,False,Av Rio de Janeiro,13.51,4.58,ok,,large,431720.41,4587968.06,431730.85,4587959.48,1.5,class
+0052418AR,Olea europaea,False,Av Rio de Janeiro,,21.68,median,3.33,check,,,,,1.0,floor
+0052419AR,Grevillea robusta,False,Pg Valldaura,7.27,6.34,ok,,large,431111.02,4587776.06,431112.22,4587768.89,1.5,class
+0052420AR,Tipuana tipu,False,C\ Molí,,9.29,median,28.27,check,,,,,1.0,floor
+0052421AR,Melia azedarach,False,C\ Badosa,,11.02,median,,check,,,,,1.0,floor
+0052423AR,Tipuana tipu,False,Pl República,22.61,15.14,ok,,large,431092.53,4587781.91,431069.95,4587783.18,1.5,class
+0052424AR,Brachychiton populneus,False,Via Júlia,10.7,9.03,ok,,large,431276.73,4588058.53,431267.79,4588064.4,1.5,class
+0052426AR,Platanus × acerifolia,True,Via Júlia,,11.3,median,22.05,check,,,,,1.0,floor
+0052427AR,Brachychiton populneus,False,Via Júlia,,32.95,no_facade,,check,,,,,1.0,floor
+0052428AR,Acer campestre 'Pyramidale',False,Av Rio de Janeiro,20.3,17.82,ok,,large,431895.81,4588091.46,431899.63,4588111.39,1.5,class
+0052429AR,Celtis australis,False,Av Meridiana,16.82,15.49,ok,,large,432045.55,4588644.07,432057.4,4588632.13,1.5,class
+0052430AR,Tipuana tipu,False,Av Rio de Janeiro,,7.27,median,10.6,check,,,,,1.0,floor
+0052431AR,Pyrus calleryana 'Chanticleer',False,C\ Molí,5.69,4.8,ok,,medium,431621.89,4588481.23,431626.7,4588478.2,1.0,class
+0052432AR,Acer campestre 'Pyramidale',False,Av Rio de Janeiro,,18.62,no_kerb,17.65,check,,,,,1.0,floor
+0052433AR,Styphnolobium japonicum,False,C\ Baltasar Gracián,,4.07,no_kerb,,check,,,,,1.0,floor
+0052434AR,Cercis siliquastrum,False,C\ Baltasar Gracián,,7.68,no_kerb,,check,,,,,1.0,floor
+0052435AR,Brachychiton populneus,False,C\ Argullós,3.43,3.1,ok,,small,431398.03,4588261.28,431399.86,4588264.17,1.0,class
+0052437AR,Brachychiton populneus,False,C\ Joaquim Valls,3.27,2.86,ok,,small,431682.23,4588242.66,431680.52,4588239.86,1.0,class
+0052438AR,Platanus × acerifolia,True,Pg Valldaura,21.12,19.34,ok,,large,431792.93,4587884.6,431775.81,4587872.25,1.5,class
+0052440AR,Liquidambar styraciflua,False,C\ Joaquim Valls,3.74,3.04,ok,,medium,431830.45,4588145.77,431827.98,4588142.96,1.0,class
+0052444AR,Platanus × acerifolia,True,C\ Pablo Iglesias,4.98,4.29,ok,,medium,431632.75,4588292.03,431628.52,4588294.65,1.0,class
+0052448AR,Ligustrum lucidum,False,C\ Maestrat,,2.24,no_kerb,,check,,,,,1.0,floor
+0052449AR,Platanus × acerifolia,True,C\ Vinyar,6.9,5.25,ok,,large,431796.99,4588247.54,431797.83,4588240.69,1.5,class
+0052450AR,Tipuana tipu,False,Av Rio de Janeiro,,13.25,median,31.18,check,,,,,1.0,floor
+0052451AR,Platanus × acerifolia,True,Via Júlia,,11.3,median,21.94,check,,,,,1.0,floor
+0052452AR,Brachychiton populneus,False,C\ Argullós,3.32,2.71,ok,,small,431411.45,4588252.8,431413.23,4588255.61,1.0,class
+0052453AR,Brachychiton populneus,False,C\ Argullós,3.15,2.55,ok,,small,431456.68,4588236.2,431454.98,4588233.56,1.0,class
+0052454AR,Tipuana tipu,False,Pl República,19.71,12.24,ok,,large,431092.02,4587772.97,431073.03,4587767.7,1.5,class
+0052455AR,Brachychiton populneus,False,Av Meridiana,24.44,8.75,ok,,large,431989.97,4588298.5,432013.6,4588292.26,1.5,class
+0052456AR,Celtis australis,False,Rda Dalt (Besòs),8.92,8.12,ok,,large,431494.08,4588575.7,431488.37,4588582.55,1.5,class
+0052460AR,Celtis australis,False,C\ Conflent,,6.6,median,,check,,,,,1.0,floor
+0052461AR,Pyrus calleryana 'Chanticleer',False,C\ Tissó,3.15,2.62,ok,,small,431793.62,4588270.12,431791.98,4588267.43,1.0,class
+0052462AR,Acer campestre 'Pyramidale',False,Av Rio de Janeiro,,33.38,no_facade,8.2,check,,,,,1.0,floor
+0052463AR,Populus nigra 'Italica',False,Pg Valldaura,7.59,6.88,ok,,large,431412.58,4587825.9,431413.84,4587818.41,1.5,class
+0052464AR,Celtis australis,False,C\ Conflent,,6.52,median,,check,,,,,1.0,floor
+0052466AR,Grevillea robusta,False,Pg Valldaura,7.31,6.44,ok,,large,431098.91,4587774.08,431100.07,4587766.86,1.5,class
+0052468AR,Platanus × acerifolia,True,C\ Pablo Iglesias,,8.35,median,10.06,check,,,,,1.0,floor
+0052469AR,Platanus × acerifolia,True,C\ Pablo Iglesias,,8.65,median,10.0,check,,,,,1.0,floor
+0052470AR,Brachychiton populneus,False,Via Júlia,,11.21,median,22.05,check,,,,,1.0,floor
+0052471AR,Brachychiton populneus,False,Via Júlia,10.88,3.34,ok,,large,431162.53,4587890.24,431153.6,4587896.46,1.5,class
+0052472AR,Casuarina cunninghamiana,False,Via Favència,,31.73,no_facade,21.75,check,,,,,1.0,floor
+0052473AR,Brachychiton populneus,False,C\ Argullós,9.34,8.77,ok,,large,431715.67,4588006.81,431722.27,4588013.41,1.5,class
+0052474AR,Ligustrum lucidum,False,C\ Maestrat,,2.24,no_kerb,,check,,,,,1.0,floor
+0052475AR,Ulmus pumila,False,Pl Santa Engràcia,20.75,9.9,ok,,large,431547.94,4588222.76,431565.56,4588211.82,1.5,class
+0052476AR,Celtis australis,False,Av Meridiana,16.29,15.3,ok,,large,432031.08,4588595.4,432046.93,4588591.64,1.5,class
+0052479AR,Brachychiton populneus,False,Via Júlia,10.43,2.54,ok,,large,431112.26,4587820.43,431103.76,4587826.47,1.5,class
+0052480AR,Celtis australis,False,Av Meridiana,,30.28,no_facade,14.81,check,,,,,1.0,floor
+0052481AR,Brachychiton populneus,False,C\ Argullós,4.47,3.96,ok,,medium,431596.37,4588153.61,431593.36,4588150.3,1.0,class
+0052483AR,Platanus × acerifolia,True,C\ Pablo Iglesias,,8.13,median,9.96,check,,,,,1.0,floor
+0052485AR,Tipuana tipu,False,C\ Pablo Iglesias,9.83,4.72,ok,,large,431594.13,4588276.52,431602.5,4588271.37,1.5,class
+0052486AR,Celtis australis,False,C\ Baltasar Gracián,17.55,5.25,ok,,large,431541.18,4588046.1,431554.98,4588056.95,1.5,class
+0052488AR,Celtis australis,False,Via Favència,25.84,9.02,ok,,large,431682.59,4588607.92,431700.04,4588626.98,1.5,class
+0052491AR,Platanus × acerifolia,True,C\ Pablo Iglesias,5.02,4.3,ok,,medium,431629.27,4588286.43,431625.01,4588289.08,1.0,class
+0052492AR,Prunus cerasifera 'Pissardii',False,C\ Tissó,3.22,2.45,ok,,small,431726.68,4588297.55,431728.38,4588300.28,1.0,class
+0052494AR,Grevillea robusta,False,Pg Valldaura,7.67,6.88,ok,,large,431454.25,4587832.67,431455.45,4587825.1,1.5,class
+0052496AR,Tipuana tipu,False,Av Rio de Janeiro,,13.16,median,10.64,check,,,,,1.0,floor
+0052497AR,Magnolia grandiflora,False,Via Júlia,5.24,4.47,ok,,medium,431451.06,4588476.9,431446.09,4588478.56,1.0,class
+0052498AR,Brachychiton populneus,False,C\ Pablo Iglesias,,12.32,median,,check,,,,,1.0,floor
+0052500AR,Paulownia tomentosa,False,Av Rio de Janeiro,,7.86,median,14.71,check,,,,,1.0,floor
+0052501AR,Celtis australis,False,Via Favència,18.42,17.57,ok,,large,431697.89,4588607.15,431692.13,4588624.64,1.5,class
+0052506AR,Platanus × acerifolia,True,Via Júlia,10.67,8.8,ok,,large,431258.59,4588031.32,431249.78,4588037.36,1.5,class
+0052507AR,Brachychiton populneus,False,C\ Argullós,6.64,5.91,ok,,large,431654.41,4588100.68,431647.79,4588101.11,1.5,class
+0052508AR,Celtis australis,False,Via Favència,16.12,15.27,ok,,large,431948.32,4588642.05,431946.29,4588658.04,1.5,class
+0052509AR,Tipuana tipu,False,C\ Pablo Iglesias,14.24,4.96,ok,,large,431702.84,4588452.42,431714.85,4588444.77,1.5,class
+0052510AR,Styphnolobium japonicum,False,C\ Vesuvi,4.32,3.18,ok,,medium,431926.89,4588563.99,431927.57,4588568.26,1.0,class
+0052511AR,Tipuana tipu,False,Via Favència,,25.71,median,22.09,check,,,,,1.0,floor
+0052513AR,Koelreuteria paniculata,False,C\ Joaquim Valls,,3.95,no_kerb,,check,,,,,1.0,floor
+0052514AR,Tipuana tipu,False,Av Rio de Janeiro,,6.77,median,13.43,check,,,,,1.0,floor
+0052515AR,Brachychiton populneus,False,Av Rio de Janeiro,11.57,2.52,ok,,large,431689.7,4587930.68,431698.63,4587923.33,1.5,class
+0052517AR,Ligustrum lucidum,False,C\ Santa Engràcia,,24.14,median,3.23,check,,,,,1.0,floor
+0052518AR,Tipuana tipu,False,Av Rio de Janeiro,,43.95,no_facade,10.72,check,,,,,1.0,floor
+0052519AR,Brachychiton populneus,False,Via Júlia,,11.74,median,21.51,check,,,,,1.0,floor
+0052522AR,Styphnolobium japonicum,False,C\ Badosa,,10.87,median,,check,,,,,1.0,floor
+0052524AR,Prunus cerasifera 'Pissardii',False,C\ Joaquim Valls,,2.17,no_kerb,,check,,,,,1.0,floor
+0052525AR,Acer campestre 'Pyramidale',False,Av Rio de Janeiro,,26.4,median,12.13,check,,,,,1.0,floor
+0052528AR,Magnolia grandiflora,False,Via Júlia,5.42,4.88,ok,,medium,431410.48,4588356.19,431405.33,4588357.88,1.0,class
+0052530AR,Styphnolobium japonicum,False,C\ Baltasar Gracián,,7.46,no_kerb,,check,,,,,1.0,floor
+0052531AR,Brachychiton populneus,False,Av Meridiana,,11.22,median,16.45,check,,,,,1.0,floor
+0052532AR,Brachychiton populneus,False,Pl República,20.9,19.11,ok,,large,431092.02,4587772.97,431071.33,4587770.05,1.5,class
+0052533AR,Brachychiton populneus,False,C\ Artesania,4.8,4.33,ok,,medium,431177.41,4587792.35,431175.5,4587787.95,1.0,class
+0052534AR,Celtis australis,False,Av Meridiana,,24.69,median,5.41,check,,,,,1.0,floor
+0052535AR,Celtis australis,False,C\ Vesuvi,,15.89,median,,check,,,,,1.0,floor
+0052536AR,Styphnolobium japonicum,False,C\ Vesuvi,,10.56,median,7.35,check,,,,,1.0,floor
+0052538AR,Paulownia tomentosa,False,Av Rio de Janeiro,,7.83,median,14.57,check,,,,,1.0,floor
+0052539AR,Pyrus calleryana 'Chanticleer',False,C\ Borràs,3.11,2.65,ok,,small,431378.2,4587905.75,431379.93,4587908.33,1.0,class
+0052541AR,Brachychiton populneus,False,Via Júlia,,18.72,median,,check,,,,,1.0,floor
+0052542AR,Tipuana tipu,False,Pg Valldaura,,41.59,no_facade,,check,,,,,1.0,floor
+0052543AR,Celtis australis,False,Via Favència,16.46,15.1,ok,,large,431571.22,4588587.79,431557.12,4588596.28,1.5,class
+0052544AR,Ligustrum lucidum,False,C\ Santa Engràcia,,28.42,median,21.47,check,,,,,1.0,floor
+0052545AR,Paulownia tomentosa,False,Av Meridiana,20.27,4.66,ok,,large,432033.09,4588462.08,432052.73,4588457.05,1.5,class
+0052546AR,Tipuana tipu,False,Av Rio de Janeiro,,7.16,median,10.64,check,,,,,1.0,floor
+0052548AR,Celtis australis,False,Via Favència,10.93,10.24,ok,,large,431668.61,4588605.06,431664.09,4588615.01,1.5,class
+0052549AR,Brachychiton populneus,False,Via Júlia,11.17,9.38,ok,,large,431148.28,4587869.86,431139.13,4587876.26,1.5,class
+0052550AR,Styphnolobium japonicum,False,Pl Santa Engràcia,11.53,7.04,ok,,large,431551.96,4588256.3,431544.98,4588247.12,1.5,class
+0052551AR,Tipuana tipu,False,Pl República,23.05,14.01,ok,,large,431092.02,4587772.97,431068.98,4587772.72,1.5,class
+0052552AR,Brachychiton populneus,False,C\ Artesania,4.47,3.91,ok,,medium,431122.09,4587816.21,431120.33,4587812.1,1.0,class
+0052553AR,Platanus × acerifolia,True,C\ Vesuvi,,14.92,median,,check,,,,,1.0,floor
+0052554AR,Populus nigra 'Italica',False,Av Rio de Janeiro,,10.77,median,10.06,check,,,,,1.0,floor
+0052555AR,Brachychiton populneus,False,C\ Boada,3.2,2.62,ok,,small,431451.86,4587954.71,431454.15,4587952.48,1.0,class
+0052556AR,Magnolia grandiflora,False,Via Júlia,5.21,4.39,ok,,medium,431419.47,4588383.37,431414.56,4588385.11,1.0,class
+0052557AR,Ligustrum lucidum,False,C\ Santa Engràcia,2.97,2.5,ok,,small,431332.85,4587974.84,431335.34,4587973.2,1.0,class
+0052558AR,Pyrus calleryana 'Chanticleer',False,C\ Molí,,5.65,median,,check,,,,,1.0,floor
+0052561AR,Celtis australis,False,Av Meridiana,,23.7,median,,check,,,,,1.0,floor
+0052563AR,Platanus × acerifolia,True,C\ Pablo Iglesias,,8.01,median,9.99,check,,,,,1.0,floor
+0052565AR,Celtis sinensis,False,C\ Vesuvi,12.93,12.53,ok,,large,431963.31,4588596.71,431950.83,4588600.1,1.5,class
+0052566AR,Brachychiton populneus,False,Via Júlia,9.9,3.05,ok,,large,431301.55,4588096.87,431293.18,4588102.17,1.5,class
+0052569AR,Celtis australis,False,Via Favència,14.55,4.73,ok,,large,431787.03,4588624.74,431785.51,4588639.21,1.5,class
+0052570AR,Brachychiton populneus,False,C\ Pablo Iglesias,,8.85,median,7.94,check,,,,,1.0,floor
+0052571AR,Styphnolobium japonicum,False,C\ Vesuvi,,26.28,median,,check,,,,,1.0,floor
+0052572AR,Jacaranda mimosifolia,False,C\ Baltasar Gracián,6.56,3.86,ok,,large,431684.73,4587928.73,431680.09,4587924.09,1.5,class
+0052573AR,Paulownia tomentosa,False,Av Rio de Janeiro,,14.63,median,27.34,check,,,,,1.0,floor
+0052574AR,Platanus × acerifolia,True,Pg Valldaura,9.69,9.03,ok,,large,431795.29,4587884.97,431796.76,4587875.39,1.5,class
+0052575AR,Populus nigra 'Italica',False,Pg Valldaura,11.2,10.31,ok,,large,431543.33,4587848.83,431550.23,4587840.01,1.5,class
+0052576AR,Brachychiton populneus,False,Via Júlia,10.63,8.54,ok,,large,431287.18,4588074.43,431278.29,4588080.27,1.5,class
+0052577AR,Celtis australis,False,Av Meridiana,,34.64,no_facade,14.08,check,,,,,1.0,floor
+0052578AR,Melia azedarach,False,C\ Baltasar Gracián,3.6,2.94,ok,,medium,431662.07,4587922.74,431664.64,4587925.25,1.0,class
+0052579AR,Platanus × acerifolia,True,Pg Valldaura,,20.36,median,5.0,check,,,,,1.0,floor
+0052581AR,Platanus × acerifolia,True,Via Júlia,10.72,3.1,ok,,large,431272.97,4588052.79,431264.01,4588058.67,1.5,class
+0052582AR,Brachychiton populneus,False,C\ Argullós,3.03,2.67,ok,,small,431399.13,4588272.18,431397.51,4588269.62,1.0,class
+0052583AR,Platanus × acerifolia,True,C\ Vesuvi,,7.2,no_kerb,,check,,,,,1.0,floor
+0052584AR,Celtis australis,False,Via Favència,12.8,5.27,ok,,large,431805.26,4588627.01,431803.9,4588639.74,1.5,class
+0052585AR,Prunus cerasifera 'Pissardii',False,C\ Joaquim Valls,,2.23,no_kerb,,check,,,,,1.0,floor
+0052586AR,Brachychiton populneus,False,Via Júlia,10.43,8.49,ok,,large,431112.29,4587820.48,431103.86,4587826.62,1.5,class
+0052587AR,Celtis australis,False,Av Meridiana,20.03,18.7,ok,,large,432035.8,4588615.31,432054.75,4588621.81,1.5,class
+0052588AR,Tipuana tipu,False,Av Rio de Janeiro,,13.17,median,10.65,check,,,,,1.0,floor
+0052589AR,Celtis sinensis,False,C\ Conflent,,7.03,median,,check,,,,,1.0,floor
+0052590AR,Brachychiton populneus,False,Via Júlia,10.1,8.65,ok,,large,431349.21,4588179.28,431339.74,4588175.79,1.5,class
+0052591AR,Firmiana simplex,False,Via Favència,,26.75,median,23.77,check,,,,,1.0,floor
+0052592AR,Brachychiton populneus,False,C\ Boada,,7.89,median,,check,,,,,1.0,floor
+0052593AR,Celtis australis,False,Av Meridiana,,39.23,no_facade,2.14,check,,,,,1.0,floor
+0052594AR,Acer campestre 'Pyramidale',False,Av Rio de Janeiro,,10.91,median,8.11,check,,,,,1.0,floor
+0052595AR,Firmiana simplex,False,Via Favència,,26.19,median,21.66,check,,,,,1.0,floor
+0052596AR,Platanus × acerifolia,True,Via Júlia,10.67,2.98,ok,,large,431258.51,4588031.21,431249.7,4588037.24,1.5,class
+0052597AR,Platanus × acerifolia,True,C\ Vesuvi,,15.19,median,,check,,,,,1.0,floor
+0052598AR,Celtis australis,False,Via Favència,,14.95,median,8.99,check,,,,,1.0,floor
+0052599AR,Celtis australis,False,Av Meridiana,,23.25,median,2.89,check,,,,,1.0,floor
+0052602AR,Tipuana tipu,False,Pl Santa Engràcia,16.14,10.47,ok,,large,431534.22,4588191.78,431547.86,4588183.15,1.5,class
+0052603AR,Brachychiton populneus,False,Av Rio de Janeiro,,7.21,median,13.3,check,,,,,1.0,floor
+0052604AR,Parrotia persica 'Vanessa',False,C\ Pou,3.11,2.39,ok,,small,431673.54,4588466.55,431676.18,4588464.91,1.0,class
+0052606AR,Ligustrum lucidum,False,C\ Santa Engràcia,2.91,2.62,ok,,small,431352.93,4587986.95,431350.52,4587988.57,1.0,class
+0052607AR,Brachychiton populneus,False,Av Meridiana,19.16,12.59,ok,,large,431983.83,4588275.09,432002.38,4588270.29,1.5,class
+0052608AR,Melia azedarach,False,C\ Baltasar Gracián,17.38,10.72,ok,,large,431559.84,4588027.27,431554.72,4588043.88,1.5,class
+0052609AR,Brachychiton populneus,False,Via Júlia,10.69,3.03,ok,,large,431269.35,4588047.36,431260.46,4588053.3,1.5,class
+0052610AR,Platanus × acerifolia,True,Pg Valldaura,,39.44,no_facade,3.4,check,,,,,1.0,floor
+0052613AR,Brachychiton populneus,False,Av Meridiana,15.98,8.84,ok,,large,431988.14,4588291.58,432003.59,4588287.5,1.5,class
+0052614AR,Platanus × acerifolia,True,C\ Vinyar,10.0,8.04,ok,,large,431770.05,4588201.5,431778.1,4588207.43,1.5,class
+0052616AR,Platanus × acerifolia,True,Via Júlia,10.91,9.04,ok,,large,431131.31,4587846.58,431122.5,4587853.01,1.5,class
+0052617AR,Quercus ilex,False,Via Júlia,,18.23,median,21.83,check,,,,,1.0,floor
+0052618AR,Pyrus calleryana 'Chanticleer',False,C\ Molí,5.64,4.97,ok,,medium,431625.7,4588487.27,431630.47,4588484.26,1.0,class
+0052619AR,Platanus × acerifolia,True,C\ Pablo Iglesias,,8.4,median,10.0,check,,,,,1.0,floor
+0052620AR,Platanus × acerifolia,True,Pg Valldaura,,37.91,no_facade,3.43,check,,,,,1.0,floor
+0052621AR,Celtis australis,False,Via Favència,16.04,15.37,ok,,large,431953.25,4588642.67,431951.24,4588658.58,1.5,class
+0052623AR,Prunus cerasifera 'Pissardii',False,C\ Tissó,4.32,3.23,ok,,medium,431884.15,4588225.37,431885.34,4588229.52,1.0,class
+0052625AR,Celtis australis,False,Via Favència,13.42,12.13,ok,,large,431860.99,4588633.08,431859.36,4588646.41,1.5,class
+0052626AR,Quercus ilex,False,Via Júlia,,18.45,median,22.05,check,,,,,1.0,floor
+0052627AR,Melia azedarach,False,C\ Baltasar Gracián,,4.97,no_kerb,,check,,,,,1.0,floor
+0052628AR,Acer negundo,False,C\ Baltasar Gracián,6.56,5.89,ok,,large,431664.93,4587948.63,431660.24,4587944.03,1.5,class
+0052629AR,Brachychiton populneus,False,C\ Joaquim Valls,,5.33,median,,check,,,,,1.0,floor
+0052630AR,Brachychiton populneus,False,Av Meridiana,,14.5,median,17.78,check,,,,,1.0,floor
+0052632AR,Brachychiton populneus,False,C\ Argullós,3.34,2.66,ok,,small,431480.06,4588209.72,431481.87,4588212.52,1.0,class
+0052634AR,Acer campestre 'Pyramidale',False,Av Rio de Janeiro,,15.68,median,8.39,check,,,,,1.0,floor
+0052635AR,Populus alba 'Pyramidalis',False,C\ Tissó,,7.44,median,29.04,check,,,,,1.0,floor
+0052636AR,Parrotia persica 'Vanessa',False,C\ Pou,3.11,2.4,ok,,small,431685.36,4588485.55,431688.0,4588483.91,1.0,class
+0052637AR,Platanus × acerifolia,True,Via Júlia,12.38,8.9,ok,,large,431124.07,4587836.65,431114.06,4587843.94,1.5,class
+0052638AR,Celtis australis,False,Via Favència,16.37,15.25,ok,,large,431722.88,4588615.76,431714.98,4588630.1,1.5,class
+0052639AR,Brachychiton populneus,False,Via Júlia,11.01,3.33,ok,,large,431135.6,4587852.48,431126.7,4587858.96,1.5,class
+0052640AR,Melia azedarach,False,C\ Vinyar,9.95,8.91,ok,,large,431787.25,4588242.26,431795.67,4588236.96,1.5,class
+0052643AR,Magnolia grandiflora,False,Via Júlia,5.0,3.98,ok,,medium,431431.42,4588419.03,431426.66,4588420.56,1.0,class
+0052644AR,Brachychiton populneus,False,Av Meridiana,23.95,5.01,ok,,large,431996.13,4588321.83,432019.29,4588315.72,1.5,class
+0052645AR,Melia azedarach,False,C\ Baltasar Gracián,3.55,2.92,ok,,medium,431617.76,4587968.04,431620.3,4587970.52,1.0,class
+0052646AR,Parrotia persica 'Vanessa',False,C\ Pou,2.82,2.19,ok,,small,431636.5,4588406.75,431638.89,4588405.26,1.0,class
+0052648AR,Populus nigra 'Italica',False,Pg Valldaura,,23.32,median,7.28,check,,,,,1.0,floor
+0052649AR,Brachychiton populneus,False,Av Rio de Janeiro,,6.29,median,12.88,check,,,,,1.0,floor
+0052650AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Canyameres,3.13,2.17,ok,,small,431433.64,4588269.82,431436.2,4588268.0,1.0,class
+0052651AR,Pyrus calleryana 'Chanticleer',False,C\ Tissó,3.44,2.75,ok,,small,431761.23,4588290.41,431759.39,4588287.49,1.0,class
+0052652AR,Platanus × acerifolia,True,C\ Vesuvi,,14.39,median,,check,,,,,1.0,floor
+0052653AR,Populus nigra 'Italica',False,Av Rio de Janeiro,,34.99,no_facade,8.11,check,,,,,1.0,floor
+0052654AR,Celtis australis,False,Via Favència,10.04,9.47,ok,,large,431653.28,4588602.3,431652.53,4588612.31,1.5,class
+0052655AR,Celtis australis,False,Av Meridiana,16.41,15.61,ok,,large,432032.57,4588601.7,432048.54,4588597.92,1.5,class
+0052656AR,Tipuana tipu,False,C\ Pablo Iglesias,5.79,5.15,ok,,medium,431698.56,4588397.91,431693.63,4588400.95,1.0,class
+0052657AR,Brachychiton populneus,False,C\ Argullós,3.25,2.76,ok,,small,431451.3,4588227.86,431453.09,4588230.57,1.0,class
+0052658AR,Platanus × acerifolia,True,Via Júlia,,11.44,median,22.04,check,,,,,1.0,floor
+0052659AR,Brachychiton populneus,False,C\ Boada,,7.75,median,,check,,,,,1.0,floor
+0052660AR,Pyrus calleryana 'Chanticleer',False,C\ Molí,5.71,5.01,ok,,medium,431617.03,4588473.53,431621.86,4588470.48,1.0,class
+0052661AR,Tipuana tipu,False,Av Rio de Janeiro,11.05,8.06,ok,,large,431672.77,4587910.7,431680.52,4587902.82,1.5,class
+0052662AR,Pinus pinea,False,C\ Vesuvi,,22.58,median,26.56,check,,,,,1.0,floor
+0052664AR,Tipuana tipu,False,Av Rio de Janeiro,,45.88,no_facade,10.82,check,,,,,1.0,floor
+0052665AR,Prunus cerasifera 'Pissardii',False,C\ Joaquim Valls,,1.97,no_kerb,,check,,,,,1.0,floor
+0052666AR,Styphnolobium japonicum,False,C\ Vesuvi,4.57,3.38,ok,,medium,431940.13,4588561.89,431940.85,4588566.4,1.0,class
+0052667AR,Brachychiton populneus,False,Via Júlia,12.48,9.1,ok,,large,431127.94,4587841.95,431117.85,4587849.3,1.5,class
+0052669AR,Brachychiton populneus,False,C\ Argullós,4.36,3.78,ok,,medium,431642.43,4588095.24,431645.41,4588098.42,1.0,class
+0052670AR,Acer campestre 'Pyramidale',False,Av Rio de Janeiro,12.79,2.9,ok,,large,431942.63,4588145.71,431930.39,4588149.41,1.5,class
+0052671AR,Populus nigra 'Italica',False,Av Rio de Janeiro,21.83,19.99,ok,,large,431797.75,4587972.75,431776.25,4587976.53,1.5,class
+0052672AR,Ligustrum lucidum,False,C\ Santa Engràcia,,28.41,median,21.44,check,,,,,1.0,floor
+0052674AR,Acer campestre 'Pyramidale',False,Av Rio de Janeiro,11.7,4.37,ok,,large,431893.61,4588089.83,431882.08,4588091.87,1.5,class
+0052675AR,Brachychiton acerifolius,False,Via Júlia,,18.09,median,12.08,check,,,,,1.0,floor
+0052676AR,Celtis australis,False,C\ Badosa,16.63,3.71,ok,,large,431522.58,4587991.27,431510.55,4588002.75,1.5,class
+0052678AR,Brachychiton populneus,False,C\ Joaquim Valls,16.98,3.29,ok,,large,431676.2,4588246.35,431660.52,4588239.81,1.5,class
+0052679AR,Acer campestre 'Pyramidale',False,Av Rio de Janeiro,,33.79,no_facade,8.14,check,,,,,1.0,floor
+0052680AR,Paulownia tomentosa,False,Av Meridiana,25.49,5.14,ok,,large,431994.38,4588315.17,432019.02,4588308.66,1.5,class
+0052681AR,Brachychiton populneus,False,Via Júlia,11.01,3.42,ok,,large,431155.36,4587879.98,431146.34,4587886.29,1.5,class
+0052682AR,Tipuana tipu,False,Av Rio de Janeiro,15.37,3.95,ok,,large,431970.7,4588245.03,431981.5,4588234.09,1.5,class
+0052683AR,Catalpa bignonioides,False,Pg Valldaura,9.74,8.93,ok,,large,431808.43,4587886.99,431809.91,4587877.35,1.5,class
+0052684AR,Cercis siliquastrum,False,C\ Baltasar Gracián,,7.9,no_kerb,44.35,check,,,,,1.0,floor
+0052685AR,Brachychiton populneus,False,Av Rio de Janeiro,,14.25,median,,check,,,,,1.0,floor
+0052692AR,Brachychiton populneus,False,Av Rio de Janeiro,,8.35,median,14.75,check,,,,,1.0,floor
+0052694AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Canyameres,2.96,2.33,ok,,small,431387.89,4588202.9,431390.36,4588201.28,1.0,class
+0052695AR,Prunus cerasifera,False,C\ Tissó,13.33,5.54,ok,,large,431549.11,4588437.93,431536.55,4588442.39,1.5,class
+0052696AR,Celtis australis,False,Via Favència,16.07,14.71,ok,,large,431970.89,4588644.54,431969.34,4588660.53,1.5,class
+0052697AR,Acer campestre 'Pyramidale',False,Av Rio de Janeiro,,22.55,median,14.58,check,,,,,1.0,floor
+0052699AR,Tipuana tipu,False,Av Rio de Janeiro,,27.85,median,14.13,check,,,,,1.0,floor
+0052700AR,Populus nigra 'Italica',False,Av Rio de Janeiro,,36.33,no_facade,8.12,check,,,,,1.0,floor
+0052701AR,Celtis australis,False,Av Meridiana,,24.72,median,14.82,check,,,,,1.0,floor
+0052702AR,Brachychiton populneus,False,Via Júlia,10.35,8.29,ok,,large,431223.12,4587978.79,431214.5,4587984.53,1.5,class
+0052703AR,Platanus × acerifolia,True,Via Júlia,10.71,8.39,ok,,large,431206.23,4587953.43,431197.32,4587959.36,1.5,class
+0052706AR,Melia azedarach,False,C\ Badosa,16.45,3.59,ok,,large,431533.68,4588002.9,431521.78,4588014.26,1.5,class
+0052707AR,Brachychiton populneus,False,C\ Argullós,2.84,2.65,ok,,small,431434.09,4588239.12,431435.6,4588241.52,1.0,class
+0052708AR,Prunus cerasifera 'Pissardii',False,C\ Joaquim Valls,,5.39,median,,check,,,,,1.0,floor
+0052710AR,Populus nigra 'Italica',False,Av Rio de Janeiro,15.19,11.34,ok,,large,431686.62,4587926.93,431692.71,4587913.02,1.5,class
+0052711AR,Brachychiton populneus,False,Av Meridiana,23.47,5.1,ok,,large,431997.92,4588328.59,432020.61,4588322.61,1.5,class
+0052712AR,Brachychiton populneus,False,Via Júlia,10.5,2.83,ok,,large,431216.28,4587968.52,431207.54,4587974.34,1.5,class
+0052716AR,Pyrus calleryana 'Chanticleer',False,C\ Borràs,3.14,2.75,ok,,small,431374.17,4587908.46,431375.92,4587911.06,1.0,class
+0052718AR,Celtis australis,False,Via Favència,2.75,1.67,ok,,small,432030.34,4588664.14,432029.05,4588666.56,1.0,class
+0052720AR,Paulownia tomentosa,False,Av Meridiana,20.97,5.25,ok,,large,432024.04,4588427.76,432044.31,4588422.38,1.5,class
+0052721AR,Brachychiton populneus,False,C\ Argullós,3.36,2.73,ok,,small,431671.17,4588067.43,431673.71,4588069.63,1.0,class
+0052722AR,Brachychiton populneus,False,C\ Argullós,5.06,4.1,ok,,medium,431736.92,4588013.92,431733.33,4588010.35,1.0,class
+0052723AR,Brachychiton populneus,False,Av Rio de Janeiro,,8.67,median,14.87,check,,,,,1.0,floor
+0052724AR,Platanus × acerifolia,True,Via Júlia,,11.14,median,21.96,check,,,,,1.0,floor
+0052725AR,Brachychiton populneus,False,Via Júlia,10.88,9.29,ok,,large,431162.62,4587890.36,431153.68,4587896.58,1.5,class
+0052727AR,Parrotia persica 'Vanessa',False,C\ Pou,2.96,2.33,ok,,small,431610.92,4588365.71,431613.42,4588364.15,1.0,class
+0052728AR,Ligustrum lucidum,False,C\ Santa Engràcia,2.97,2.52,ok,,small,431387.6,4588038.77,431385.13,4588040.41,1.0,class
+0052729AR,Styphnolobium japonicum,False,Pl Nou Pins,,9.23,median,,check,,,,,1.0,floor
+0052730AR,Brachychiton populneus,False,C\ Boada,3.32,2.76,ok,,small,431432.0,4587933.9,431434.4,4587931.62,1.0,class
+0052731AR,Tipuana tipu,False,C\ Pablo Iglesias,5.91,5.08,ok,,medium,431748.11,4588476.98,431743.11,4588480.12,1.0,class
+0052733AR,Olea europaea,False,Av Rio de Janeiro,,25.13,median,4.46,check,,,,,1.0,floor
+0052734AR,Styphnolobium japonicum,False,C\ Baltasar Gracián,,4.48,no_kerb,,check,,,,,1.0,floor
+0052735AR,Prunus cerasifera 'Pissardii',False,C\ Tissó,3.19,2.7,ok,,small,431689.92,4588321.22,431691.69,4588323.87,1.0,class
+0052736AR,Cercis siliquastrum,False,C\ Baltasar Gracián,,11.81,no_kerb,,check,,,,,1.0,floor
+0052737AR,Platanus × acerifolia,True,C\ Vesuvi,,15.0,median,26.11,check,,,,,1.0,floor
+0052738AR,Styphnolobium japonicum,False,C\ Arítjols,3.68,3.0,ok,,medium,431836.09,4588418.73,431834.41,4588422.0,1.0,class
+0052739AR,Acer negundo,False,C\ Baltasar Gracián,6.61,6.29,ok,,large,431686.24,4587927.27,431681.83,4587922.34,1.5,class
+0052741AR,Celtis australis,False,C\ Pablo Iglesias,,8.15,median,9.9,check,,,,,1.0,floor
+0052742AR,Brachychiton populneus,False,C\ Argullós,9.88,9.0,ok,,large,431696.65,4588026.36,431703.96,4588033.01,1.5,class
+0052743AR,Albizia julibrissin,False,C\ Molí,,5.32,median,19.43,check,,,,,1.0,floor
+0052744AR,Celtis australis,False,C\ Baltasar Gracián,,5.25,no_kerb,44.38,check,,,,,1.0,floor
+0052745AR,Platanus × acerifolia,True,C\ Pablo Iglesias,10.28,9.34,ok,,large,431611.36,4588305.23,431620.1,4588299.8,1.5,class
+0052746AR,Celtis australis,False,C\ Conflent,,6.86,median,,check,,,,,1.0,floor
+0052747AR,Styphnolobium japonicum,False,Pl Nou Pins,,9.55,median,29.38,check,,,,,1.0,floor
+0052748AR,Ginkgo biloba 'Fastigiata',False,Av Rio de Janeiro,11.64,8.71,ok,,large,431686.62,4587926.93,431693.33,4587917.42,1.5,class
+0052750AR,Tipuana tipu,False,Via Favència,,26.16,median,21.83,check,,,,,1.0,floor
+0052751AR,Celtis australis,False,Via Favència,10.11,9.36,ok,,large,431648.58,4588601.36,431646.65,4588611.29,1.5,class
+0052752AR,Populus nigra 'Italica',False,Av Rio de Janeiro,18.86,6.12,ok,,large,431943.28,4588145.59,431946.86,4588164.11,1.5,class
+0052753AR,Brachychiton populneus,False,C\ Argullós,5.47,5.12,ok,,medium,431672.78,4588083.64,431669.04,4588079.64,1.0,class
+0052757AR,Styphnolobium japonicum,False,C\ Arítjols,,5.27,median,19.94,check,,,,,1.0,floor
+0052759AR,Platanus × acerifolia,True,C\ Vesuvi,,20.23,median,16.52,check,,,,,1.0,floor
+0052760AR,Ligustrum lucidum,False,C\ Badosa,5.25,1.84,ok,,medium,431561.66,4588051.88,431557.78,4588055.42,1.0,class
+0052761AR,Celtis australis,False,Av Meridiana,17.32,16.07,ok,,large,432035.8,4588615.31,432053.11,4588615.35,1.5,class
+0052762AR,Brachychiton populneus,False,Via Júlia,10.69,9.04,ok,,large,431269.46,4588047.53,431260.57,4588053.47,1.5,class
+0052763AR,Tipuana tipu,False,C\ Pablo Iglesias,5.72,4.82,ok,,medium,431722.58,4588436.35,431717.74,4588439.39,1.0,class
+0052764AR,Celtis australis,False,Via Favència,4.93,3.86,ok,,medium,431510.92,4588582.73,431511.1,4588587.66,1.0,class
+0052765AR,Melia azedarach,False,C\ Vinyar,15.9,12.63,ok,,large,431770.05,4588201.5,431781.21,4588212.81,1.5,class
+0052766AR,Tipuana tipu,False,Av Rio de Janeiro,,15.24,median,16.97,check,,,,,1.0,floor
+0052767AR,Brachychiton populneus,False,C\ Artesania,4.61,4.07,ok,,medium,431138.69,4587809.09,431136.88,4587804.86,1.0,class
+0052769AR,Brachychiton populneus,False,Av Rio de Janeiro,,8.35,median,17.21,check,,,,,1.0,floor
+0052770AR,Magnolia grandiflora,False,Via Júlia,5.29,4.53,ok,,medium,431363.39,4588216.61,431358.38,4588218.31,1.0,class
+0052773AR,Cercis siliquastrum,False,C\ Molí,3.06,2.23,ok,,small,431636.25,4588583.16,431633.27,4588582.5,1.0,class
+0052774AR,Prunus cerasifera 'Pissardii',False,C\ Tissó,3.24,2.84,ok,,small,431739.77,4588289.41,431741.48,4588292.15,1.0,class
+0052775AR,Acer campestre 'Pyramidale',False,Av Rio de Janeiro,,27.27,median,15.24,check,,,,,1.0,floor
+0052776AR,Ginkgo biloba,False,Av Rio de Janeiro,13.14,12.22,ok,,large,431713.94,4587960.18,431724.09,4587951.84,1.5,class
+0052778AR,Styphnolobium japonicum,False,C\ Formentera,6.64,3.47,ok,,large,431943.84,4588516.1,431942.54,4588522.61,1.5,class
+0052779AR,Brachychiton acerifolius,False,C\ Argullós,2.99,2.36,ok,,small,431476.53,4588223.74,431474.94,4588221.21,1.0,class
+0052780AR,Celtis australis,False,Via Favència,19.68,18.12,ok,,large,431722.88,4588615.76,431708.24,4588628.91,1.5,class
+0052781AR,Brachychiton populneus,False,C\ Boada,3.18,2.36,ok,,small,431387.54,4587883.35,431390.07,4587881.41,1.0,class
+0052782AR,Tipuana tipu,False,Av Rio de Janeiro,15.36,9.75,ok,,large,431970.84,4588245.17,431981.63,4588234.24,1.5,class
+0052784AR,Styphnolobium japonicum,False,C\ Vesuvi,4.07,2.97,ok,,medium,431913.65,4588566.09,431914.29,4588570.11,1.0,class
+0052785AR,Platanus × acerifolia,True,Via Júlia,,18.35,median,22.06,check,,,,,1.0,floor
+0052786AR,Prunus cerasifera 'Pissardii',False,C\ Tissó,4.37,3.18,ok,,medium,431874.5,4588228.13,431875.7,4588232.33,1.0,class
+0052788AR,Tipuana tipu,False,Pl República,26.89,16.6,ok,,large,431092.13,4587774.92,431065.28,4587776.44,1.5,class
+0052790AR,Gleditsia triacanthos f. inermis,False,Pl Nou Pins,,17.15,median,,check,,,,,1.0,floor
+0052791AR,Acer campestre 'Pyramidale',False,Av Rio de Janeiro,,40.99,no_facade,8.12,check,,,,,1.0,floor
+0052793AR,Brachychiton populneus,False,C\ Argullós,7.81,7.12,ok,,large,431580.74,4588167.88,431575.52,4588162.06,1.5,class
+0052794AR,Celtis australis,False,Via Favència,11.21,10.44,ok,,large,431673.0,4588605.96,431670.75,4588616.94,1.5,class
+0052795AR,Grevillea robusta,False,Pg Valldaura,12.77,12.02,ok,,large,431522.44,4587847.77,431519.81,4587835.27,1.5,class
+0052796AR,Brachychiton populneus,False,C\ Argullós,3.39,2.81,ok,,small,431402.24,4588258.62,431404.05,4588261.49,1.0,class
+0052797AR,Populus nigra 'Italica',False,Av Meridiana,,4.78,no_kerb,45.01,check,,,,,1.0,floor
+0052798AR,Celtis australis,False,Via Favència,12.99,11.68,ok,,large,431682.59,4588607.92,431681.29,4588620.84,1.5,class
+0052799AR,Pyrus calleryana 'Chanticleer',False,C\ Tissó,3.32,2.99,ok,,small,431739.57,4588303.81,431737.83,4588300.98,1.0,class
+0052801AR,Tipuana tipu,False,C\ Pablo Iglesias,5.9,5.12,ok,,medium,431745.0,4588472.04,431740.01,4588475.19,1.0,class
+0052802AR,Acer campestre 'Pyramidale',False,Av Rio de Janeiro,,32.73,no_facade,8.16,check,,,,,1.0,floor
+0052803AR,Celtis australis,False,Av Meridiana,,52.81,no_facade,2.17,check,,,,,1.0,floor
+0052804AR,Firmiana simplex,False,Via Favència,,26.23,median,22.23,check,,,,,1.0,floor
+0052805AR,Brachychiton populneus,False,C\ Argullós,3.22,2.53,ok,,small,431660.78,4588078.64,431662.93,4588081.04,1.0,class
+0052807AR,Acer campestre 'Pyramidale',False,Av Rio de Janeiro,,6.47,median,11.79,check,,,,,1.0,floor
+0052808AR,Platanus × acerifolia,True,Via Júlia,,18.16,median,28.02,check,,,,,1.0,floor
+0052809AR,Brachychiton populneus,False,C\ Argullós,3.12,2.47,ok,,small,431494.56,4588212.4,431492.9,4588209.76,1.0,class
+0052811AR,Cercis siliquastrum,False,C\ Molí,3.07,2.31,ok,,small,431637.27,4588578.47,431634.27,4588577.82,1.0,class
+0052812AR,Celtis australis,False,Av Meridiana,18.66,17.77,ok,,large,432025.57,4588572.13,432043.73,4588567.83,1.5,class
+0052813AR,Acer campestre 'Pyramidale',False,Av Rio de Janeiro,,22.14,median,34.39,check,,,,,1.0,floor
+0052814AR,Platanus × acerifolia,True,Pg Valldaura,27.83,26.32,ok,,large,431823.59,4587889.32,431850.76,4587883.28,1.5,class
+0052815AR,Acer negundo,False,C\ Baltasar Gracián,,4.68,no_kerb,44.41,check,,,,,1.0,floor
+0052816AR,Tipuana tipu,False,Av Rio de Janeiro,,12.97,median,10.63,check,,,,,1.0,floor
+0052817AR,Populus nigra 'Italica',False,Av Rio de Janeiro,25.67,12.81,ok,,large,431892.28,4588082.3,431866.8,4588079.23,1.5,class
+0052818AR,Brachychiton populneus,False,Via Júlia,10.7,2.91,ok,,large,431276.77,4588058.58,431267.83,4588064.46,1.5,class
+0052820AR,Brachychiton populneus,False,Pl República,23.18,21.09,ok,,large,431092.02,4587772.97,431068.84,4587772.85,1.5,class
+0052822AR,Celtis australis,False,Av Meridiana,,24.5,median,3.94,check,,,,,1.0,floor
+0052823AR,Populus nigra 'Italica',False,Pg Valldaura,7.72,6.89,ok,,large,431423.85,4587827.8,431425.14,4587820.18,1.5,class
+0052824AR,Platanus × acerifolia,True,Via Júlia,10.77,8.44,ok,,large,431199.57,4587943.41,431190.6,4587949.38,1.5,class
+0052825AR,Celtis australis,False,Via Favència,19.31,18.12,ok,,large,431697.89,4588607.15,431698.14,4588626.45,1.5,class
+0052828AR,Catalpa bignonioides,False,Pg Valldaura,,19.96,median,5.05,check,,,,,1.0,floor
+0052830AR,Platanus × acerifolia,True,Via Júlia,10.53,8.59,ok,,large,431290.68,4588079.76,431281.88,4588085.54,1.5,class
+0052831AR,Platanus × acerifolia,True,Pg Valldaura,,38.84,no_facade,23.43,check,,,,,1.0,floor
+0052834AR,Olea europaea,False,Av Rio de Janeiro,,22.28,median,3.44,check,,,,,1.0,floor
+0052837AR,Melia azedarach,False,C\ Baltasar Gracián,,5.84,no_kerb,,check,,,,,1.0,floor
+0052839AR,Ligustrum lucidum,False,C\ Maestrat,,2.28,no_kerb,,check,,,,,1.0,floor
+0052840AR,Celtis australis,False,Av Meridiana,,24.06,median,3.18,check,,,,,1.0,floor
+0052843AR,Paulownia tomentosa,False,Av Rio de Janeiro,,14.03,median,17.04,check,,,,,1.0,floor
+0052844AR,Brachychiton populneus,False,Via Júlia,11.01,9.34,ok,,large,431155.44,4587880.09,431146.42,4587886.41,1.5,class
+0052846AR,Acer campestre 'Pyramidale',False,Av Rio de Janeiro,,24.0,median,14.94,check,,,,,1.0,floor
+0052847AR,Tipuana tipu,False,Av Rio de Janeiro,,18.02,median,10.85,check,,,,,1.0,floor
+0052848AR,Platanus × acerifolia,True,C\ Vesuvi,,21.5,median,,check,,,,,1.0,floor
+0052849AR,Ligustrum lucidum,False,C\ Santa Engràcia,2.99,2.48,ok,,small,431384.01,4588033.35,431381.52,4588035.0,1.0,class
+0052850AR,Platanus × acerifolia,True,Pg Valldaura,15.14,13.96,ok,,large,431792.93,4587884.6,431782.86,4587873.3,1.5,class
+0052852AR,Brachychiton populneus,False,Av Meridiana,26.91,5.89,ok,,large,432014.68,4588391.38,432032.22,4588370.98,1.5,class
+0052854AR,Melia azedarach,False,C\ Badosa,16.57,3.79,ok,,large,431526.38,4587995.25,431514.4,4588006.69,1.5,class
+0052855AR,Brachychiton populneus,False,C\ Argullós,4.87,4.02,ok,,medium,431733.09,4588017.77,431729.63,4588014.34,1.0,class
+0052856AR,Tipuana tipu,False,C\ Pablo Iglesias,14.15,7.94,ok,,large,431682.46,4588419.26,431694.48,4588411.79,1.5,class
+0052857AR,Platanus × acerifolia,True,Via Júlia,,18.12,median,21.85,check,,,,,1.0,floor
+0052858AR,Platanus × acerifolia,True,C\ Pablo Iglesias,,8.77,median,10.0,check,,,,,1.0,floor
+0052859AR,Brachychiton populneus,False,Via Júlia,8.97,7.17,ok,,large,431316.35,4588120.32,431308.76,4588125.08,1.5,class
+0052860AR,Populus nigra 'Italica',False,Pg Valldaura,7.73,6.86,ok,,large,431430.52,4587828.88,431431.74,4587821.25,1.5,class
+0052861AR,Grevillea robusta,False,Pg Valldaura,7.7,7.1,ok,,large,431441.26,4587830.6,431442.48,4587822.99,1.5,class
+0052863AR,Prunus cerasifera 'Pissardii',False,C\ Tissó,4.38,3.29,ok,,medium,431867.24,4588230.2,431868.44,4588234.41,1.0,class
+0052864AR,Brachychiton populneus,False,Av Meridiana,8.06,8.44,ok,,large,432043.21,4588513.17,432051.25,4588513.9,1.5,class
+0052865AR,Brachychiton populneus,False,C\ Artesania,4.65,4.15,ok,,medium,431144.01,4587806.81,431142.17,4587802.54,1.0,class
+0052866AR,Prunus cerasifera,False,C\ Tissó,,11.41,median,,check,,,,,1.0,floor
+0052867AR,Brachychiton populneus,False,C\ Argullós,4.21,3.77,ok,,medium,431719.13,4588031.82,431716.15,4588028.86,1.0,class
+0052868AR,Brachychiton populneus,False,C\ Argullós,2.99,2.69,ok,,small,431442.65,4588233.58,431444.3,4588236.07,1.0,class
+0052870AR,Brachychiton populneus,False,Av Rio de Janeiro,21.38,14.1,ok,,large,431728.12,4587977.43,431749.47,4587976.23,1.5,class
+0052872AR,Platanus × acerifolia,True,C\ Vesuvi,,14.91,median,,check,,,,,1.0,floor
+0052874AR,Tipuana tipu,False,Av Rio de Janeiro,,38.05,no_facade,10.72,check,,,,,1.0,floor
+0052875AR,Platanus × acerifolia,True,Via Júlia,,11.71,median,21.94,check,,,,,1.0,floor
+0052877AR,Platanus × acerifolia,True,Via Júlia,10.59,8.69,ok,,large,431251.19,4588020.53,431242.45,4588026.52,1.5,class
+0052878AR,Melia azedarach,False,C\ Baltasar Gracián,3.57,2.85,ok,,medium,431638.67,4587946.66,431641.23,4587949.16,1.0,class
+0052879AR,Melia azedarach,False,C\ Baltasar Gracián,3.56,2.87,ok,,medium,431625.22,4587960.42,431627.76,4587962.91,1.0,class
+0052880AR,Acer campestre 'Pyramidale',False,Av Rio de Janeiro,,37.89,no_facade,8.16,check,,,,,1.0,floor
+0052881AR,Parrotia persica 'Vanessa',False,C\ Pou,2.82,2.17,ok,,small,431581.49,4588318.3,431583.88,4588316.81,1.0,class
+0052883AR,Platanus × acerifolia,True,C\ Pablo Iglesias,4.65,4.14,ok,,medium,431610.11,4588255.98,431606.13,4588258.38,1.0,class
+0052884AR,Acer campestre 'Pyramidale',False,Av Rio de Janeiro,,36.7,no_facade,8.15,check,,,,,1.0,floor
+0052885AR,Magnolia grandiflora,False,Via Júlia,5.14,4.21,ok,,medium,431434.53,4588427.96,431429.69,4588429.7,1.0,class
+0052886AR,Tipuana tipu,False,Av Rio de Janeiro,17.08,11.24,ok,,large,431951.27,4588225.84,431963.28,4588213.69,1.5,class
+0052887AR,Ligustrum lucidum,False,C\ Santa Engràcia,3.01,2.46,ok,,small,431364.36,4588003.89,431361.87,4588005.58,1.0,class
+0052888AR,Celtis australis,False,Via Favència,16.12,15.09,ok,,large,431914.83,4588638.4,431913.09,4588654.42,1.5,class
+0052889AR,Styphnolobium japonicum,False,Pl Nou Pins,,9.22,median,30.55,check,,,,,1.0,floor
+0052890AR,Grevillea robusta,False,Pg Valldaura,7.45,6.68,ok,,large,431400.74,4587823.9,431401.98,4587816.55,1.5,class
+0052892AR,Melia azedarach,False,C\ Badosa,,11.53,median,,check,,,,,1.0,floor
+0052893AR,Brachychiton populneus,False,C\ Argullós,5.19,4.91,ok,,medium,431679.95,4588075.58,431676.01,4588072.19,1.0,class
+0052894AR,Acer buergerianum,False,Av Rio de Janeiro,,35.93,no_facade,8.12,check,,,,,1.0,floor
+0052895AR,Tipuana tipu,False,C\ Pablo Iglesias,,11.4,median,,check,,,,,1.0,floor
+0052896AR,Catalpa bignonioides,False,Pg Valldaura,,38.46,no_facade,9.42,check,,,,,1.0,floor
+0052897AR,Tipuana tipu,False,C\ Pablo Iglesias,,16.26,median,,check,,,,,1.0,floor
+0052900AR,Crataegus x media 'Paul's Scarlet',False,C\ Borràs,2.91,2.51,ok,,small,431345.74,4587927.48,431347.35,4587929.91,1.0,class
+0052901AR,Acer negundo,False,C\ Baltasar Gracián,6.52,6.02,ok,,large,431669.09,4587944.38,431664.43,4587939.82,1.5,class
+0052902AR,Celtis australis,False,Via Favència,16.11,12.72,ok,,large,431892.06,4588635.92,431890.65,4588651.97,1.5,class
+0052903AR,Brachychiton populneus,False,Via Júlia,10.69,8.99,ok,,large,431262.17,4588036.62,431253.28,4588042.57,1.5,class
+0052905AR,Quercus ilex,False,Via Júlia,,18.28,median,21.97,check,,,,,1.0,floor
+0052906AR,Tipuana tipu,False,Av Rio de Janeiro,,11.23,median,10.75,check,,,,,1.0,floor
+0052909AR,Melia azedarach,False,C\ Baltasar Gracián,,4.94,no_kerb,44.42,check,,,,,1.0,floor
+0052910AR,Quercus ilex,False,Via Júlia,,18.13,median,22.25,check,,,,,1.0,floor
+0052912AR,Melia azedarach,False,C\ Badosa,,11.57,median,,check,,,,,1.0,floor
+0052913AR,Ligustrum lucidum,False,C\ Santa Engràcia,4.1,3.06,ok,,medium,431330.49,4587971.25,431331.36,4587967.24,1.0,class
+0052914AR,Firmiana simplex,False,Via Favència,,27.59,median,26.12,check,,,,,1.0,floor
+0052915AR,Pyrus calleryana 'Chanticleer',False,C\ Molí,5.92,5.34,ok,,medium,431634.25,4588500.81,431639.26,4588497.65,1.0,class
+0052916AR,Acer campestre 'Pyramidale',False,Av Rio de Janeiro,,25.2,median,7.97,check,,,,,1.0,floor
+0052917AR,Acer campestre 'Pyramidale',False,Av Rio de Janeiro,,34.57,no_facade,8.11,check,,,,,1.0,floor
+0052918AR,Tipuana tipu,False,Av Rio de Janeiro,,30.33,no_facade,14.13,check,,,,,1.0,floor
+0052919AR,Ligustrum lucidum,False,C\ Santa Engràcia,2.8,2.31,ok,,small,431387.48,4588056.18,431389.8,4588054.61,1.0,class
+0052920AR,Celtis australis,False,Via Favència,13.51,11.88,ok,,large,431844.53,4588631.34,431840.32,4588644.17,1.5,class
+0052921AR,Brachychiton populneus,False,C\ Argullós,3.07,2.61,ok,,small,431443.25,4588244.58,431441.63,4588241.98,1.0,class
+0052922AR,Grevillea robusta,False,Pg Valldaura,7.65,6.92,ok,,large,431460.22,4587833.62,431461.43,4587826.07,1.5,class
+0052923AR,Tipuana tipu,False,Av Rio de Janeiro,16.63,11.06,ok,,large,431956.51,4588231.01,431968.19,4588219.18,1.5,class
+0052924AR,Celtis australis,False,Av Meridiana,,26.36,median,4.1,check,,,,,1.0,floor
+0052925AR,Platanus × acerifolia,True,Via Júlia,12.38,2.74,ok,,large,431124.06,4587836.64,431114.06,4587843.93,1.5,class
+0052926AR,Brachychiton populneus,False,C\ Argullós,4.12,3.57,ok,,medium,431705.16,4588046.73,431702.03,4588044.05,1.0,class
+0052927AR,Parrotia persica 'Vanessa',False,C\ Pou,3.12,2.3,ok,,small,431677.51,4588472.94,431680.16,4588471.29,1.0,class
+0052928AR,Ligustrum lucidum,False,C\ Santa Engràcia,2.94,2.23,ok,,small,431363.98,4588021.41,431366.43,4588019.78,1.0,class
+0052930AR,Brachychiton populneus,False,Av Rio de Janeiro,,14.01,median,25.7,check,,,,,1.0,floor
+0052931AR,Brachychiton populneus,False,Via Júlia,,12.06,median,21.94,check,,,,,1.0,floor
+0052933AR,Brachychiton populneus,False,C\ Boada,3.18,2.58,ok,,small,431371.45,4587860.29,431374.14,4587858.6,1.0,class
+0052934AR,Magnolia grandiflora,False,Via Júlia,5.27,4.7,ok,,medium,431366.27,4588225.28,431361.22,4588226.77,1.0,class
+0052935AR,Celtis australis,False,Via Favència,16.14,6.25,ok,,large,431929.11,4588639.94,431927.35,4588655.98,1.5,class
+0052939AR,Styphnolobium japonicum,False,C\ Arítjols,,5.47,median,16.1,check,,,,,1.0,floor
+0052941AR,Ligustrum lucidum,False,C\ Santa Engràcia,3.03,2.3,ok,,small,431376.08,4588021.41,431373.56,4588023.08,1.0,class
+0052943AR,Brachychiton populneus,False,C\ Argullós,4.88,4.23,ok,,medium,431500.71,4588210.49,431497.41,4588206.89,1.0,class
+0052945AR,Brachychiton populneus,False,C\ Argullós,2.96,2.37,ok,,small,431664.46,4588075.17,431666.7,4588077.11,1.0,class
+0052946AR,Styphnolobium japonicum,False,Pl Santa Engràcia,,6.8,no_kerb,,check,,,,,1.0,floor
+0052947AR,Tipuana tipu,False,Pl República,24.83,11.77,ok,,large,431092.35,4587778.76,431067.56,4587780.16,1.5,class
+0052948AR,Acer campestre 'Pyramidale',False,Av Rio de Janeiro,,26.76,median,24.72,check,,,,,1.0,floor
+0052949AR,Celtis australis,False,Av Meridiana,17.54,16.32,ok,,large,432024.33,4588566.92,432041.4,4588562.88,1.5,class
+0052951AR,Platanus × acerifolia,True,Pg Valldaura,,20.36,median,5.16,check,,,,,1.0,floor
+0052952AR,Ulmus pumila,False,C\ Badosa,16.4,3.52,ok,,large,431537.32,4588006.71,431525.46,4588018.03,1.5,class
+0052953AR,Ligustrum lucidum,False,C\ Santa Engràcia,2.92,2.24,ok,,small,431344.88,4587974.9,431342.44,4587976.51,1.0,class
+0052955AR,Brachychiton populneus,False,Via Júlia,,24.23,median,13.56,check,,,,,1.0,floor
+0052956AR,Tipuana tipu,False,C\ Conflent,,8.96,no_kerb,,check,,,,,1.0,floor
+0052957AR,Platanus × acerifolia,True,Via Júlia,10.68,9.01,ok,,large,431265.81,4588042.07,431256.94,4588048.0,1.5,class
+0052958AR,Styphnolobium japonicum,False,C\ Vesuvi,4.45,3.28,ok,,medium,431933.51,4588562.94,431934.2,4588567.33,1.0,class
+0052959AR,Populus alba 'Pyramidalis',False,C\ Pablo Iglesias,,11.66,median,7.77,check,,,,,1.0,floor
+0052960AR,Styphnolobium japonicum,False,C\ Vesuvi,,10.34,median,,check,,,,,1.0,floor
+0052961AR,Platanus × acerifolia,True,C\ Pablo Iglesias,10.15,9.59,ok,,large,431720.85,4588480.96,431729.41,4588475.5,1.5,class
+0052963AR,Brachychiton populneus,False,Via Júlia,,11.4,median,11.82,check,,,,,1.0,floor
+0052965AR,Populus nigra 'Italica',False,Pg Valldaura,14.75,12.81,ok,,large,431092.02,4587772.97,431080.48,4587763.79,1.5,class
+0052966AR,Celtis australis,False,Via Favència,16.04,6.96,ok,,large,431953.1,4588642.65,431951.08,4588658.56,1.5,class
+0052967AR,Olea europaea,False,Av Rio de Janeiro,,26.63,median,4.61,check,,,,,1.0,floor
+0052968AR,Brachychiton populneus,False,C\ Boada,3.27,2.74,ok,,small,431442.18,4587944.64,431444.55,4587942.39,1.0,class
+0052969AR,Grevillea robusta,False,Pg Valldaura,7.33,6.74,ok,,large,431227.31,4587795.17,431228.49,4587787.94,1.5,class
+0052970AR,Brachychiton populneus,False,Pl República,20.55,18.69,ok,,large,431092.69,4587784.85,431072.18,4587786.0,1.5,class
+0052971AR,Brachychiton populneus,False,C\ Joaquim Valls,3.39,3.11,ok,,small,431645.41,4588265.82,431643.59,4588262.96,1.0,class
+0052973AR,Brachychiton populneus,False,C\ Joaquim Valls,,5.37,median,,check,,,,,1.0,floor
+0052974AR,Platanus × acerifolia,True,Via Júlia,,11.28,median,22.07,check,,,,,1.0,floor
+0052975AR,Tipuana tipu,False,Av Rio de Janeiro,,42.77,no_facade,10.72,check,,,,,1.0,floor
+0052976AR,Styphnolobium japonicum,False,C\ Arítjols,,5.08,median,12.32,check,,,,,1.0,floor
+0052977AR,Ligustrum lucidum,False,C\ Santa Engràcia,4.14,3.03,ok,,medium,431370.57,4588031.24,431374.63,4588032.06,1.0,class
+0052978AR,Tipuana tipu,False,Via Favència,,25.22,median,21.73,check,,,,,1.0,floor
+0052979AR,Platanus × acerifolia,True,Pg Valldaura,,20.31,median,5.07,check,,,,,1.0,floor
+0052980AR,Brachychiton populneus,False,Via Júlia,11.13,9.93,ok,,large,431099.16,4587802.33,431090.02,4587808.68,1.5,class
+0052981AR,Prunus cerasifera 'Pissardii',False,C\ Tissó,3.19,2.46,ok,,small,431713.28,4588305.89,431714.97,4588308.6,1.0,class
+0052983AR,Brachychiton populneus,False,C\ Argullós,3.36,2.6,ok,,small,431406.81,4588255.73,431408.6,4588258.57,1.0,class
+0052985AR,Acer campestre 'Pyramidale',False,Av Rio de Janeiro,,21.82,median,14.69,check,,,,,1.0,floor
+0052986AR,Brachychiton populneus,False,Via Júlia,,11.37,median,21.8,check,,,,,1.0,floor
+0052987AR,Prunus cerasifera 'Pissardii',False,C\ Joaquim Valls,3.84,3.27,ok,,medium,431824.06,4588151.51,431821.49,4588148.66,1.0,class
+0054308AR,Casuarina cunninghamiana,False,Via Favència,,21.52,median,,check,,,,,1.0,floor
+0054310AR,Tipuana tipu,False,Via Favència,,22.36,median,24.47,check,,,,,1.0,floor
+0054415AR,Jacaranda mimosifolia,False,Via Favència,,20.9,median,23.32,check,,,,,1.0,floor
+0054569AR,Casuarina cunninghamiana,False,Via Favència,,22.12,median,,check,,,,,1.0,floor
+0054590AR,Casuarina cunninghamiana,False,Via Favència,,21.81,median,,check,,,,,1.0,floor
+0054665AR,Tipuana tipu,False,Via Favència,,23.38,median,22.0,check,,,,,1.0,floor
+0054751AR,Firmiana simplex,False,Via Favència,,22.04,median,25.68,check,,,,,1.0,floor
+0055022AR,Casuarina cunninghamiana,False,Via Favència,,21.72,median,21.81,check,,,,,1.0,floor
+0055050AR,Firmiana simplex,False,Via Favència,,23.61,median,21.93,check,,,,,1.0,floor
+0131679AR,Brachychiton populneus,False,Pg Valldaura,,47.72,no_facade,2.34,check,,,,,1.0,floor
+0131718AR,Acer buergerianum,False,Pg Valldaura,,16.85,median,2.61,check,,,,,1.0,floor
+0131956AR,Acer buergerianum,False,Pg Valldaura,,12.27,median,3.72,check,,,,,1.0,floor
+0132622AR,Brachychiton populneus,False,Pg Valldaura,,41.96,no_facade,2.5,check,,,,,1.0,floor
+0132651AR,Acer buergerianum,False,Pg Valldaura,,34.67,no_facade,2.55,check,,,,,1.0,floor
+0132812AR,Acer buergerianum,False,Pg Valldaura,,12.24,median,3.69,check,,,,,1.0,floor
+0132848AR,Brachychiton populneus,False,Pg Valldaura,,18.15,median,2.63,check,,,,,1.0,floor
+0133211AR,Brachychiton populneus,False,Pg Valldaura,,46.14,no_facade,2.47,check,,,,,1.0,floor
+0133223AR,Brachychiton populneus,False,Pg Valldaura,,12.47,median,3.61,check,,,,,1.0,floor
+0133228AR,Parkinsonia aculeata,False,Pg Valldaura,,16.65,median,2.52,check,,,,,1.0,floor
+0133274AR,Acer buergerianum,False,Pg Valldaura,,12.28,median,3.62,check,,,,,1.0,floor
+0133587AR,Brachychiton acerifolius,False,Pg Valldaura,,46.79,no_facade,2.4,check,,,,,1.0,floor
+0133724AR,Brachychiton acerifolius,False,Pg Valldaura,,47.75,no_facade,2.52,check,,,,,1.0,floor
+0133760AR,Acer buergerianum,False,Pg Valldaura,,12.22,median,3.65,check,,,,,1.0,floor
+0134193AR,Acer buergerianum,False,Pg Valldaura,,46.18,no_facade,2.51,check,,,,,1.0,floor
+0134369AR,Acer buergerianum,False,Pg Valldaura,,46.15,no_facade,2.26,check,,,,,1.0,floor
+0134505AR,Acer buergerianum,False,Pg Valldaura,,46.41,no_facade,2.52,check,,,,,1.0,floor
+0134531AR,Brachychiton populneus,False,Pg Valldaura,,16.95,median,2.6,check,,,,,1.0,floor
+0134621AR,Brachychiton populneus,False,Pg Valldaura,,12.29,median,3.64,check,,,,,1.0,floor
+0134704AR,Acer buergerianum,False,Pg Valldaura,,12.32,median,3.75,check,,,,,1.0,floor
+0134753AR,Brachychiton populneus,False,Pg Valldaura,,28.18,median,2.59,check,,,,,1.0,floor
+0134977AR,Acer buergerianum,False,Pg Valldaura,,22.34,median,2.64,check,,,,,1.0,floor
+0263258AR,Phytolacca dioica,False,C\ Baltasar Gracián,,14.32,no_kerb,,check,,,,,1.0,floor
+0263342AR,Phytolacca dioica,False,C\ Baltasar Gracián,,12.14,no_kerb,,check,,,,,1.0,floor
+0263343AR,Phytolacca dioica,False,C\ Baltasar Gracián,,8.2,no_kerb,,check,,,,,1.0,floor
+0288528AR,Celtis australis,False,Via Favència,,11.19,median,8.86,check,,,,,1.0,floor
+0288529AR,Celtis australis,False,Via Favència,,9.35,median,23.55,check,,,,,1.0,floor
+0288530AR,Celtis australis,False,Via Favència,,9.1,median,11.09,check,,,,,1.0,floor
+0289723AR,Cercis siliquastrum,False,C\ Molí,3.11,3.8,ok,,small,431628.17,4588552.71,431631.21,4588553.37,1.0,class
+0289724AR,Cercis siliquastrum,False,C\ Molí,3.12,3.76,ok,,small,431626.13,4588562.1,431629.18,4588562.76,1.0,class
+0289725AR,Cercis siliquastrum,False,C\ Molí,3.14,3.91,ok,,small,431624.81,4588568.19,431627.88,4588568.86,1.0,class
+0289726AR,Cercis siliquastrum,False,C\ Molí,15.31,8.92,ok,,large,431619.78,4588591.32,431618.99,4588606.61,1.5,class
+0289727AR,Cercis siliquastrum,False,C\ Molí,15.21,7.61,ok,,large,431619.78,4588591.32,431616.87,4588606.26,1.5,class
+0289728AR,Cercis siliquastrum,False,C\ Molí,3.15,3.79,ok,,small,431622.52,4588578.74,431625.6,4588579.41,1.0,class
+0289729AR,Cercis siliquastrum,False,C\ Molí,3.19,3.75,ok,,small,431620.22,4588589.32,431623.33,4588590.0,1.0,class
+0289818AR,Brachychiton populneus,False,C\ Font de Canyelles,6.87,6.28,ok,,large,431369.11,4587828.17,431362.36,4587826.89,1.5,class
+0293009AR,Brachychiton populneus,False,Via Júlia,10.57,2.71,ok,,large,431212.98,4587963.57,431204.19,4587969.43,1.5,class
+0293163AR,Brachychiton populneus,False,Av Rio de Janeiro,19.75,7.99,ok,,large,431911.72,4588186.23,431926.12,4588172.71,1.5,class
+0293165AR,Tipuana tipu,False,Via Favència,,23.47,median,23.78,check,,,,,1.0,floor
+0293166AR,Cupressus sempervirens,False,C\ Vesuvi,,11.55,median,10.63,check,,,,,1.0,floor
+0293167AR,Brachychiton populneus,False,Av Meridiana,19.86,4.96,ok,,large,432038.16,4588481.68,432057.38,4588476.67,1.5,class
+0302860AR,Cupressus sempervirens,False,C\ Molí,,0.99,no_kerb,,check,,,,,1.0,floor
+0302861AR,Cupressus sempervirens,False,C\ Molí,,3.01,no_kerb,,check,,,,,1.0,floor
+0305617AR,Firmiana simplex,False,Via Favència,,25.96,median,21.96,check,,,,,1.0,floor
+0310694AR,Brachychiton populneus,False,Av Rio de Janeiro,13.35,12.11,ok,,large,431717.65,4587964.69,431727.96,4587956.21,1.5,class
+0311486AR,Brachychiton populneus,False,Pg Valldaura,,16.82,median,2.44,check,,,,,1.0,floor
+0311862AR,Olea europaea,False,Av Rio de Janeiro,,24.52,median,7.32,check,,,,,1.0,floor
+0311863AR,Olea europaea,False,Av Rio de Janeiro,,27.79,median,7.3,check,,,,,1.0,floor
+0313482AR,Prunus cerasifera 'Pissardii',False,C\ Formentera,3.59,2.89,ok,,medium,431877.45,4588278.98,431874.05,4588280.13,1.0,class
+0313483AR,Prunus cerasifera 'Pissardii',False,C\ Formentera,3.57,2.9,ok,,medium,431880.31,4588287.48,431876.92,4588288.61,1.0,class
+0313484AR,Elaeagnus angustifolia,False,C\ Formentera,3.99,3.26,ok,,medium,431901.57,4588360.45,431897.71,4588361.49,1.0,class
+0313485AR,Prunus cerasifera 'Pissardii',False,C\ Formentera,3.96,3.18,ok,,medium,431904.03,4588369.55,431900.21,4588370.58,1.0,class
+0313486AR,Prunus cerasifera 'Pissardii',False,C\ Formentera,3.81,3.0,ok,,medium,431915.31,4588411.22,431911.63,4588412.22,1.0,class
+0313487AR,Elaeagnus angustifolia,False,C\ Formentera,3.24,2.62,ok,,small,431922.58,4588439.73,431919.44,4588440.53,1.0,class
+0313488AR,Prunus cerasifera 'Pissardii',False,C\ Formentera,3.28,2.47,ok,,small,431924.22,4588445.55,431921.06,4588446.45,1.0,class
+0313489AR,Elaeagnus angustifolia,False,C\ Formentera,2.98,2.0,ok,,small,431943.33,4588514.26,431940.46,4588515.06,1.0,class
+0313490AR,Elaeagnus angustifolia,False,C\ Formentera,2.98,2.06,ok,,small,431942.12,4588509.91,431939.25,4588510.71,1.0,class
+0314854AR,Ginkgo biloba 'Fastigiata Blagon',False,Pg Valldaura,,22.81,median,18.69,check,,,,,1.0,floor
+0317052AR,Ginkgo biloba 'Fastigiata Blagon',False,Pg Valldaura,,21.23,median,18.82,check,,,,,1.0,floor
+0317053AR,Ginkgo biloba 'Fastigiata Blagon',False,Pg Valldaura,,29.18,median,14.86,check,,,,,1.0,floor
+0317054AR,Ginkgo biloba 'Fastigiata Blagon',False,Pg Valldaura,,23.17,median,,check,,,,,1.0,floor
+0320978AR,Ginkgo biloba 'Fastigiata',False,C\ Nou Pins,3.36,2.53,ok,,small,431728.89,4588339.83,431726.05,4588341.62,1.0,class
+0320980AR,Ginkgo biloba 'Fastigiata',False,C\ Nou Pins,3.37,2.52,ok,,small,431725.22,4588334.03,431722.37,4588335.84,1.0,class
+0320981AR,Ginkgo biloba 'Fastigiata',False,C\ Nou Pins,3.38,2.82,ok,,small,431721.64,4588328.38,431718.78,4588330.19,1.0,class
+0320982AR,Ginkgo biloba 'Fastigiata',False,C\ Nou Pins,3.4,2.67,ok,,small,431717.82,4588322.33,431714.94,4588324.15,1.0,class
+0320984AR,Ginkgo biloba 'Fastigiata',False,C\ Nou Pins,3.39,2.68,ok,,small,431705.52,4588303.01,431702.66,4588304.82,1.0,class
+0322173AR,Prunus cerasifera 'Pissardii',False,C\ Florida,3.44,2.69,ok,,small,431919.81,4588233.44,431916.55,4588234.54,1.0,class
+0322174AR,Prunus cerasifera 'Pissardii',False,C\ Florida,3.42,2.72,ok,,small,431921.62,4588238.78,431918.37,4588239.87,1.0,class
+0322175AR,Prunus cerasifera 'Pissardii',False,C\ Florida,3.39,2.43,ok,,small,431924.37,4588246.92,431921.16,4588248.01,1.0,class
+0322176AR,Prunus cerasifera 'Pissardii',False,C\ Florida,3.43,2.38,ok,,small,431930.95,4588266.15,431927.71,4588267.26,1.0,class
+0322177AR,Prunus cerasifera 'Pissardii',False,C\ Florida,3.49,2.39,ok,,small,431933.3,4588272.98,431930.01,4588274.12,1.0,class
+0322179AR,Ginkgo biloba 'Fastigiata',False,C\ Nou Pins,3.3,3.0,ok,,small,431663.1,4588236.05,431660.3,4588237.8,1.0,class
+0322180AR,Ginkgo biloba 'Fastigiata',False,C\ Nou Pins,3.27,2.96,ok,,small,431659.39,4588230.11,431656.61,4588231.85,1.0,class
+0322181AR,Ginkgo biloba 'Fastigiata',False,C\ Nou Pins,3.37,2.43,ok,,small,431701.96,4588297.43,431699.13,4588299.25,1.0,class
+0322182AR,Ginkgo biloba 'Fastigiata',False,C\ Nou Pins,3.34,2.56,ok,,small,431698.25,4588291.62,431695.43,4588293.42,1.0,class
+0322183AR,Ginkgo biloba 'Fastigiata',False,C\ Nou Pins,3.32,2.34,ok,,small,431694.41,4588285.62,431691.61,4588287.41,1.0,class
+0322184AR,Ginkgo biloba 'Fastigiata',False,C\ Nou Pins,3.29,2.39,ok,,small,431690.7,4588279.79,431687.92,4588281.55,1.0,class
+0322185AR,Ginkgo biloba 'Fastigiata',False,C\ Nou Pins,3.27,2.53,ok,,small,431686.62,4588273.4,431683.87,4588275.16,1.0,class
+0322186AR,Ginkgo biloba 'Fastigiata',False,C\ Nou Pins,3.28,2.41,ok,,small,431683.26,4588268.12,431680.49,4588269.89,1.0,class
+0322187AR,Ginkgo biloba 'Fastigiata',False,C\ Nou Pins,3.27,2.44,ok,,small,431679.94,4588262.86,431677.17,4588264.59,1.0,class
+0322188AR,Ginkgo biloba 'Fastigiata',False,C\ Nou Pins,3.3,2.42,ok,,small,431676.83,4588257.9,431674.04,4588259.64,1.0,class
+0322189AR,Prunus cerasifera 'Pissardii',False,C\ Pablo Iglesias,,8.51,median,10.0,check,,,,,1.0,floor
+0322557AR,Prunus cerasifera 'Pissardii',False,C\ Florida,3.46,2.8,ok,,small,432006.74,4588536.97,432003.41,4588537.89,1.0,class
+0322558AR,Prunus cerasifera 'Pissardii',False,C\ Florida,3.46,2.81,ok,,small,432004.26,4588528.05,432000.93,4588528.97,1.0,class
+0322559AR,Prunus cerasifera 'Pissardii',False,C\ Florida,3.46,2.95,ok,,small,432001.88,4588519.47,431998.55,4588520.4,1.0,class
+0322560AR,Prunus cerasifera 'Pissardii',False,C\ Florida,3.47,2.57,ok,,small,431991.0,4588480.23,431987.65,4588481.16,1.0,class
+0322561AR,Prunus cerasifera 'Pissardii',False,C\ Florida,3.49,2.76,ok,,small,431988.78,4588472.24,431985.42,4588473.17,1.0,class
+0322562AR,Prunus cerasifera 'Pissardii',False,C\ Florida,3.5,2.84,ok,,medium,431987.12,4588466.24,431983.74,4588467.18,1.0,class
+0324259AR,Ginkgo biloba 'Fastigiata',False,C\ Nou Pins,3.35,2.77,ok,,small,431608.04,4588148.02,431605.13,4588149.68,1.0,class
+0324261AR,Ginkgo biloba 'Fastigiata',False,C\ Nou Pins,3.3,2.76,ok,,small,431611.89,4588154.21,431609.09,4588155.97,1.0,class
+0329648AR,Platanus × acerifolia,True,C\ Pablo Iglesias,,8.81,median,9.82,check,,,,,1.0,floor
+0329649AR,Platanus × acerifolia,True,C\ Pablo Iglesias,,8.95,median,9.85,check,,,,,1.0,floor
+0329734AR,Acer campestre,False,C\ Argullós,,15.91,median,8.14,check,,,,,1.0,floor
+0347391AR,Cercis siliquastrum,False,C\ Molí,3.15,3.9,ok,,small,431623.72,4588573.2,431626.8,4588573.87,1.0,class
+0347392AR,Cercis siliquastrum,False,C\ Molí,3.17,3.83,ok,,small,431621.38,4588584.0,431624.47,4588584.67,1.0,class
+0347393AR,Cercis siliquastrum,False,C\ Molí,3.19,3.92,ok,,small,431644.01,4588547.66,431640.9,4588546.98,1.0,class
+0347396AR,Olea europaea,False,C\ Molí,,11.56,median,12.17,check,,,,,1.0,floor
+0347406AR,Pyrus calleryana 'Chanticleer',False,C\ Molí,,3.39,median,5.08,check,,,,,1.0,floor
+0347407AR,Pyrus calleryana 'Chanticleer',False,C\ Molí,,8.8,median,11.21,check,,,,,1.0,floor
+0347408AR,Pyrus calleryana 'Chanticleer',False,C\ Molí,,12.05,median,16.55,check,,,,,1.0,floor
+0347409AR,Pyrus calleryana 'Chanticleer',False,C\ Molí,,12.92,median,22.35,check,,,,,1.0,floor
+0347414AR,Tipuana tipu,False,C\ Molí,14.14,9.49,ok,,large,431633.26,4588510.38,431640.84,4588522.31,1.5,class

@@ -1,0 +1,1572 @@
+tree_id,species,is_plane,street,width_m,facade_dist_m,flag,strip_width_m,size_class,ray_x0,ray_y0,ray_x1,ray_y1,pit_min_m2,pit_basis
+0105114AR,Quercus ilex,False,C\ Cervelló,,4.02,median,15.5,check,,,,,1.0,floor
+0105129AR,X chitalpa tashkentensis 'minsum' SUMMER BELLS®,False,Pl Jean Genet,,14.41,no_kerb,29.29,check,,,,,1.0,floor
+0105132AR,Ceiba speciosa,False,Pl Drassanes,,34.83,no_facade,,check,,,,,1.0,floor
+0105144AR,Quercus ilex,False,Rbla Raval,,22.65,median,32.29,check,,,,,1.0,floor
+0105156AR,Quercus ilex,False,Jard Voltes d'en Cirés,,16.16,no_kerb,,check,,,,,1.0,floor
+0105160AR,Ceiba speciosa,False,Pl Drassanes,21.78,20.91,ok,,large,431131.78,4580680.98,431122.99,4580661.05,1.5,class
+0105183AR,Jacaranda mimosifolia,False,Rbla Raval,,20.09,median,32.15,check,,,,,1.0,floor
+0105191AR,Jacaranda mimosifolia,False,Rbla Raval,,21.03,median,32.13,check,,,,,1.0,floor
+0105203AR,Jacaranda mimosifolia,False,Rbla Raval,,20.97,median,32.14,check,,,,,1.0,floor
+0105204AR,Jacaranda mimosifolia,False,Rbla Raval,,20.98,median,32.13,check,,,,,1.0,floor
+0105212AR,Jacaranda mimosifolia,False,Rbla Raval,,21.23,median,32.13,check,,,,,1.0,floor
+0105216AR,Quercus ilex,False,C\ Cervelló,,5.35,median,,check,,,,,1.0,floor
+0105220AR,Jacaranda mimosifolia,False,Rbla Raval,,21.03,median,32.07,check,,,,,1.0,floor
+0105230AR,Jacaranda mimosifolia,False,Rbla Raval,,22.79,median,32.11,check,,,,,1.0,floor
+0105239AR,Parkinsonia aculeata,False,Pl Drassanes,,30.18,no_facade,30.91,check,,,,,1.0,floor
+0105479AR,Jacaranda mimosifolia,False,Av Drassanes,,11.16,no_kerb,29.59,check,,,,,1.0,floor
+0105480AR,Platanus × acerifolia,True,Rda Sant Antoni,9.18,6.43,ok,,large,430088.24,4581618.88,430079.12,4581619.91,1.5,class
+0105482AR,Celtis australis,False,C\ Sant Pau,,5.34,no_kerb,,check,,,,,1.0,floor
+0105484AR,Styphnolobium japonicum,False,Av Drassanes,,10.99,median,1.89,check,,,,,1.0,floor
+0105487AR,Platanus × acerifolia,True,Rda Sant Pau,7.42,6.27,ok,,large,430209.44,4580963.16,430204.12,4580957.99,1.5,class
+0105488AR,Platanus × acerifolia,True,C\ Rambla,,18.54,median,13.7,check,,,,,1.0,floor
+0105489AR,Platanus × acerifolia,True,C\ Rambla,,9.53,median,20.59,check,,,,,1.0,floor
+0105490AR,Jacaranda mimosifolia,False,C\ Príncep de Viana,2.82,1.82,ok,,small,430075.72,4581282.76,430072.91,4581282.51,1.0,class
+0105492AR,Platanus × acerifolia,True,Rbla Raval,5.57,4.22,ok,,medium,430427.46,4581215.84,430431.65,4581219.51,1.0,class
+0105494AR,Styphnolobium japonicum,False,Av Drassanes,4.68,4.01,ok,,medium,430765.11,4580917.01,430766.32,4580921.53,1.0,class
+0105495AR,Grevillea robusta,False,Rbla Raval,6.85,6.03,ok,,large,430492.07,4581230.51,430486.89,4581226.03,1.5,class
+0105497AR,Tipuana tipu,False,C\ Sant Oleguer,4.21,3.96,ok,,medium,430731.59,4580972.14,430729.34,4580968.59,1.0,class
+0105498AR,Platanus × acerifolia,True,C\ Rambla,,13.85,median,13.64,check,,,,,1.0,floor
+0105499AR,Tipuana tipu,False,Pl Vicenç Martorell,,21.46,no_kerb,,check,,,,,1.0,floor
+0105500AR,Platanus × acerifolia,True,Rda Sant Pau,7.86,7.5,ok,,large,430395.53,4580771.61,430391.83,4580764.68,1.5,class
+0105501AR,Celtis australis,False,C\ Àngels,6.65,4.13,ok,,large,430482.21,4581468.41,430487.54,4581472.4,1.5,class
+0105502AR,Platanus × acerifolia,True,Rda Sant Pau,7.51,6.65,ok,,large,430218.48,4580953.98,430213.14,4580948.7,1.5,class
+0105503AR,Ligustrum japonicum,False,C\ Joaquín Costa,3.03,2.19,ok,,small,430124.82,4581722.36,430122.46,4581720.46,1.0,class
+0105504AR,Celtis australis,False,C\ Àngels,5.05,4.13,ok,,medium,430506.49,4581469.51,430502.45,4581466.48,1.0,class
+0105505AR,Platanus × acerifolia,True,Rda Sant Pau,7.49,6.63,ok,,large,430380.35,4580787.24,430374.95,4580782.05,1.5,class
+0105506AR,Quercus suber,False,Pl Caramelles,,12.79,no_kerb,,check,,,,,1.0,floor
+0105507AR,Brachychiton populneus,False,C\ Montalegre,,7.72,median,3.66,check,,,,,1.0,floor
+0105509AR,Styphnolobium japonicum,False,Av Drassanes,4.85,3.4,ok,,medium,430869.67,4580888.88,430870.95,4580893.56,1.0,class
+0105510AR,Ligustrum japonicum,False,C\ Joaquín Costa,3.05,2.32,ok,,small,430128.95,4581717.23,430126.57,4581715.32,1.0,class
+0105511AR,Quercus ilex,False,C\ Sant Pau,4.82,3.72,ok,,medium,430471.58,4580800.32,430468.24,4580803.79,1.0,class
+0105512AR,Celtis australis,False,C\ Àngels,6.67,4.04,ok,,large,430485.3,4581464.29,430490.64,4581468.29,1.5,class
+0105513AR,Magnolia grandiflora,False,C\ Riera Alta,2.94,1.96,ok,,small,430107.64,4581326.17,430107.82,4581323.23,1.0,class
+0105514AR,Ulmus pumila,False,C\ Arc del Teatre,4.98,3.12,ok,,medium,430839.08,4580766.09,430843.74,4580764.35,1.0,class
+0105516AR,Platanus × acerifolia,True,Rda Sant Antoni,7.26,6.55,ok,,large,430084.64,4581586.89,430077.43,4581587.7,1.5,class
+0105517AR,Celtis australis,False,C\ Àngels,6.93,3.99,ok,,large,430492.08,4581455.23,430498.57,4581457.69,1.5,class
+0105518AR,Melia azedarach,False,C\ Portal de Santa Madrona,25.67,12.05,ok,,large,431008.91,4580761.05,430985.61,4580771.83,1.5,class
+0105519AR,Celtis australis,False,C\ Sant Pau,,3.35,no_kerb,,check,,,,,1.0,floor
+0105520AR,Brachychiton populneus,False,C\ Montalegre,3.28,2.5,ok,,small,430319.02,4581752.45,430316.45,4581750.42,1.0,class
+0105521AR,Platanus × acerifolia,True,Pl Pere Coromines,19.38,6.15,ok,,large,430775.56,4580960.1,430764.36,4580944.28,1.5,class
+0105522AR,Platanus × acerifolia,True,Rbla Raval,,14.04,median,,check,,,,,1.0,floor
+0105523AR,Platanus × acerifolia,True,Rbla Raval,,15.06,median,32.13,check,,,,,1.0,floor
+0105524AR,Platanus × acerifolia,True,Rbla Raval,5.92,5.03,ok,,medium,430539.4,4581088.17,430543.83,4581092.1,1.0,class
+0105525AR,Fraxinus ornus OBELISK® 'Paus Johannes-Paulus II',False,C\ Gravina,3.2,2.02,ok,,small,430245.58,4581903.16,430248.75,4581902.75,1.0,class
+0105526AR,Styphnolobium japonicum,False,Av Drassanes,,10.98,median,1.94,check,,,,,1.0,floor
+0105527AR,Tipuana tipu,False,Jard Voltes d'en Cirés,24.36,15.22,ok,,large,430829.2,4580972.13,430847.87,4580956.47,1.5,class
+0105528AR,Celtis australis,False,C\ Àngels,5.3,4.52,ok,,medium,430477.84,4581507.72,430473.6,4581504.54,1.0,class
+0105529AR,Quercus ilex,False,C\ Àngels,,8.45,no_kerb,,check,,,,,1.0,floor
+0105530AR,Ulmus pumila,False,C\ Portal de Santa Madrona,,36.57,no_facade,7.36,check,,,,,1.0,floor
+0105531AR,Platanus × acerifolia,True,Rda Sant Antoni,,5.58,no_kerb,,check,,,,,1.0,floor
+0105535AR,Platanus × acerifolia,True,Av Drassanes,10.14,9.15,ok,,large,431139.22,4580804.56,431143.31,4580813.84,1.5,class
+0105537AR,Ligustrum lucidum,False,C\ Peracamps,3.02,2.74,ok,,small,430917.51,4580827.23,430916.74,4580824.31,1.0,class
+0105538AR,Brachychiton populneus,False,C\ Portal de Santa Madrona,,19.69,median,12.58,check,,,,,1.0,floor
+0105539AR,Platanus × acerifolia,True,Rbla Raval,6.02,4.99,ok,,large,430516.98,4581113.71,430521.51,4581117.67,1.5,class
+0105540AR,Platanus × acerifolia,True,C\ Rambla,,9.52,median,15.98,check,,,,,1.0,floor
+0105541AR,Platanus × acerifolia,True,Rbla Raval,,15.64,median,31.98,check,,,,,1.0,floor
+0105542AR,Jacaranda mimosifolia,False,C\ Príncep de Viana,2.78,1.94,ok,,small,430079.83,4581234.91,430077.06,4581234.67,1.0,class
+0105543AR,Platanus × acerifolia,True,Rda Sant Pau,7.34,5.37,ok,,large,430167.15,4581006.64,430161.93,4581001.49,1.5,class
+0105544AR,Platanus × acerifolia,True,C\ Rambla,,9.88,median,18.05,check,,,,,1.0,floor
+0105545AR,Tipuana tipu,False,Pl Raquel Meller,16.72,6.19,ok,,large,430625.73,4580732.32,430610.24,4580726.04,1.5,class
+0105546AR,Platanus × acerifolia,True,Rda Sant Antoni,,6.09,no_kerb,,check,,,,,1.0,floor
+0105547AR,Ligustrum lucidum,False,C\ Ferlandina,3.86,2.59,ok,,medium,430100.43,4581464.89,430100.95,4581461.06,1.0,class
+0105548AR,Platanus × acerifolia,True,Rda Sant Pau,7.55,6.76,ok,,large,430373.79,4580794.06,430368.35,4580788.83,1.5,class
+0105549AR,Brachychiton populneus,False,C\ Portal de Santa Madrona,12.88,5.26,ok,,large,430867.09,4580715.59,430872.05,4580703.71,1.5,class
+0105550AR,Platanus × acerifolia,True,Rbla Raval,5.89,4.94,ok,,medium,430487.27,4581147.74,430491.7,4581151.63,1.0,class
+0105551AR,Quercus suber,False,Pl Caramelles,,7.9,no_kerb,,check,,,,,1.0,floor
+0105553AR,Jacaranda mimosifolia,False,Av Drassanes,7.34,5.37,ok,,large,430942.29,4580868.88,430938.5,4580875.17,1.5,class
+0105554AR,Brachychiton populneus,False,C\ Montalegre,,8.5,median,3.8,check,,,,,1.0,floor
+0105555AR,Platanus × acerifolia,True,C\ Rambla,,15.58,median,23.64,check,,,,,1.0,floor
+0105557AR,Platanus × acerifolia,True,Rbla Raval,6.19,5.2,ok,,large,430639.92,4581061.94,430635.37,4581057.74,1.5,class
+0105558AR,Magnolia grandiflora,False,C\ Riera Alta,2.95,2.05,ok,,small,430351.4,4581343.22,430351.62,4581340.28,1.0,class
+0105559AR,Magnolia grandiflora,False,C\ Riera Alta,2.88,2.41,ok,,small,430163.2,4581329.62,430163.38,4581326.75,1.0,class
+0105560AR,Celtis australis,False,C\ Àngels,5.03,4.8,ok,,medium,430457.14,4581535.35,430453.12,4581532.32,1.0,class
+0105561AR,Ligustrum japonicum,False,C\ Joaquín Costa,3.33,2.63,ok,,small,430177.08,4581656.91,430174.5,4581654.81,1.0,class
+0105562AR,Cercis siliquastrum,False,C\ Flors,3.09,2.97,ok,,small,430454.03,4580823.97,430454.0,4580820.88,1.0,class
+0105568AR,Platanus × acerifolia,True,Pl Pere Coromines,20.52,13.98,ok,,large,430755.47,4580974.33,430743.61,4580957.58,1.5,class
+0105569AR,Ligustrum lucidum,False,C\ Peracamps,3.07,3.05,ok,,small,430905.24,4580830.48,430904.45,4580827.5,1.0,class
+0105570AR,Ulmus pumila,False,C\ Arc del Teatre,5.98,3.98,ok,,medium,430824.69,4580728.33,430829.16,4580724.37,1.0,class
+0105571AR,Celtis australis,False,C\ Sant Pau,5.54,2.86,ok,,medium,430471.83,4580829.86,430476.03,4580826.26,1.0,class
+0105572AR,Celtis australis,False,C\ Àngels,5.06,5.19,ok,,medium,430461.5,4581529.55,430457.46,4581526.51,1.0,class
+0105574AR,Platanus × acerifolia,True,Rda Sant Antoni,7.32,6.17,ok,,large,430086.47,4581603.13,430079.2,4581603.95,1.5,class
+0105575AR,Elaeagnus pungens,False,C\ Maria Aurèlia Capmany,4.44,3.2,ok,,medium,430383.58,4581300.15,430386.92,4581303.07,1.0,class
+0105576AR,Platanus × acerifolia,True,Av Paral·lel,8.54,8.06,ok,,large,430661.73,4580729.03,430660.96,4580720.52,1.5,class
+0105579AR,Casuarina cunninghamiana,False,C\ Cervelló,,2.48,no_kerb,33.24,check,,,,,1.0,floor
+0105580AR,Platanus × acerifolia,True,C\ Rambla,,15.06,median,24.46,check,,,,,1.0,floor
+0105581AR,Tipuana tipu,False,Pl Pieyre de Mandiargues,19.66,11.88,ok,,large,430746.59,4581003.77,430758.54,4581019.38,1.5,class
+0105583AR,Casuarina cunninghamiana,False,C\ Cervelló,,4.55,no_kerb,33.72,check,,,,,1.0,floor
+0105584AR,Platanus × acerifolia,True,C\ Rambla,,21.89,median,30.7,check,,,,,1.0,floor
+0105585AR,Tipuana tipu,False,Av Drassanes,12.22,5.97,ok,,large,430854.55,4580923.77,430851.38,4580911.96,1.5,class
+0105586AR,Ligustrum lucidum,False,C\ Cera,4.08,3.14,ok,,medium,430167.31,4581037.16,430169.65,4581033.82,1.0,class
+0105587AR,X chitalpa tashkentensis 'minsum' SUMMER BELLS®,False,C\ Robador,4.56,3.7,ok,,medium,430713.63,4581144.98,430709.73,4581142.63,1.0,class
+0105588AR,Jacaranda mimosifolia,False,C\ Sant Antoni Abat,6.66,5.06,ok,,large,430220.0,4581215.92,430222.3,4581209.67,1.5,class
+0105589AR,Tipuana tipu,False,Av Drassanes,12.26,5.43,ok,,large,430871.41,4580919.24,430868.23,4580907.4,1.5,class
+0105592AR,Styphnolobium japonicum,False,Av Drassanes,,10.75,median,1.91,check,,,,,1.0,floor
+0105593AR,Celtis australis,False,C\ Pintor Fortuny,4.07,3.64,ok,,medium,430662.13,4581671.92,430664.01,4581668.31,1.0,class
+0105594AR,Ligustrum lucidum,False,C\ Om,2.16,2.46,ok,,none,430817.09,4580816.94,430816.4,4580814.89,1.0,floor
+0105595AR,Styphnolobium japonicum,False,C\ Riera Alta,,4.65,no_kerb,,check,,,,,1.0,floor
+0105597AR,Platanus × acerifolia,True,Rda Sant Pau,10.27,7.28,ok,,large,430164.83,4581008.99,430154.56,4581009.09,1.5,class
+0105600AR,Brachychiton populneus,False,C\ Portal de Santa Madrona,7.61,7.09,ok,,large,430888.2,4580724.51,430891.21,4580717.52,1.5,class
+0105601AR,Tipuana tipu,False,C\ Erasme de Janer,10.33,7.55,ok,,large,430237.26,4581315.32,430227.93,4581319.74,1.5,class
+0105602AR,Brachychiton acerifolius,False,Av Paral·lel,5.34,4.16,ok,,medium,430843.8,4580709.79,430843.11,4580704.49,1.0,class
+0105605AR,Quercus ilex,False,Pl Caramelles,,7.92,no_kerb,,check,,,,,1.0,floor
+0105607AR,Platanus × acerifolia,True,C\ Rambla,,9.19,median,17.21,check,,,,,1.0,floor
+0105608AR,Prunus cerasifera 'Pissardii',False,C\ Sant Josep Oriol,3.66,2.42,ok,,medium,430631.83,4581116.37,430629.88,4581119.47,1.0,class
+0105609AR,Styphnolobium japonicum,False,Av Drassanes,,18.12,no_kerb,,check,,,,,1.0,floor
+0105610AR,Magnolia grandiflora,False,C\ Riera Alta,4.32,3.15,ok,,medium,430308.92,4581328.0,430308.59,4581332.3,1.0,class
+0105611AR,Robinia pseudoacacia,False,C\ Riera Alta,2.88,2.11,ok,,small,430112.28,4581326.45,430112.46,4581323.58,1.0,class
+0105612AR,Ligustrum japonicum,False,C\ Joaquín Costa,2.96,2.84,ok,,small,430399.24,4581376.74,430396.9,4581374.92,1.0,class
+0105613AR,Platanus × acerifolia,True,C\ Rambla,,42.75,no_facade,3.4,check,,,,,1.0,floor
+0105614AR,Ligustrum lucidum,False,C\ Peracamps,3.15,2.99,ok,,small,430887.97,4580835.05,430887.16,4580832.0,1.0,class
+0105615AR,Styphnolobium japonicum,False,Pl Pes de la Palla,,5.7,no_kerb,,check,,,,,1.0,floor
+0105616AR,Platanus × acerifolia,True,Av Drassanes,13.77,5.03,ok,,large,431115.12,4580853.76,431115.06,4580839.99,1.5,class
+0105617AR,Brachychiton populneus,False,C\ Portal de Santa Madrona,,31.31,no_facade,,check,,,,,1.0,floor
+0105618AR,X chitalpa tashkentensis 'minsum' SUMMER BELLS®,False,C\ Robador,4.35,3.53,ok,,medium,430707.06,4581155.89,430703.33,4581153.65,1.0,class
+0105620AR,Brachychiton acerifolius,False,C\ Arc del Teatre,,7.32,median,,check,,,,,1.0,floor
+0105621AR,Prunus cerasifera 'Pissardii',False,C\ Hospital,2.95,2.28,ok,,small,430819.3,4581397.83,430820.7,4581395.23,1.0,class
+0105622AR,Platanus × acerifolia,True,C\ Rambla,,9.35,median,20.22,check,,,,,1.0,floor
+0105623AR,Magnolia grandiflora,False,C\ Doctor Dou,4.98,3.01,ok,,medium,430516.51,4581532.62,430517.22,4581537.55,1.0,class
+0105624AR,Quercus ilex,False,Rbla Raval,,21.99,median,,check,,,,,1.0,floor
+0105625AR,Styphnolobium japonicum,False,Av Drassanes,4.7,3.4,ok,,medium,430817.15,4580903.07,430818.37,4580907.62,1.0,class
+0105626AR,Styphnolobium japonicum,False,C\ Riera Alta,4.11,3.44,ok,,medium,430285.92,4581326.27,430285.61,4581330.36,1.0,class
+0105627AR,Platanus × acerifolia,True,Rbla Raval,6.48,5.35,ok,,large,430508.47,4581211.55,430503.58,4581207.31,1.5,class
+0105628AR,Platanus × acerifolia,True,Rda Sant Pau,7.39,7.24,ok,,large,430054.29,4581122.8,430048.99,4581117.65,1.5,class
+0105629AR,Fraxinus ornus OBELISK® 'Paus Johannes-Paulus II',False,C\ Gravina,3.2,1.96,ok,,small,430246.58,4581910.77,430249.76,4581910.35,1.0,class
+0105631AR,Ligustrum lucidum,False,C\ Peracamps,3.18,2.53,ok,,small,430882.24,4580836.57,430881.42,4580833.49,1.0,class
+0105632AR,Casuarina cunninghamiana,False,C\ Cervelló,,4.59,no_kerb,32.69,check,,,,,1.0,floor
+0105633AR,Styphnolobium japonicum,False,Av Drassanes,4.7,3.51,ok,,medium,430811.38,4580904.62,430812.6,4580909.16,1.0,class
+0105634AR,Ligustrum lucidum,False,C\ Om,2.13,2.42,ok,,none,430793.76,4580824.7,430793.09,4580822.67,1.0,floor
+0105635AR,Celtis australis,False,C\ Pintor Fortuny,3.98,3.6,ok,,medium,430474.06,4581524.16,430476.42,4581520.95,1.0,class
+0105636AR,Tipuana tipu,False,C\ Carme,,8.4,median,,check,,,,,1.0,floor
+0105637AR,Ligustrum lucidum,False,C\ Ferlandina,3.87,2.72,ok,,medium,430106.17,4581465.67,430106.69,4581461.83,1.0,class
+0105638AR,Platanus × acerifolia,True,Rda Sant Antoni,7.53,6.47,ok,,large,430113.16,4581838.99,430105.68,4581839.84,1.5,class
+0105639AR,Magnolia grandiflora,False,C\ Riera Alta,2.94,2.11,ok,,small,430337.96,4581342.24,430338.17,4581339.31,1.0,class
+0105640AR,Jacaranda mimosifolia,False,C\ Cid,,4.16,no_kerb,54.7,check,,,,,1.0,floor
+0105641AR,Platanus × acerifolia,True,Rbla Raval,,15.35,median,31.88,check,,,,,1.0,floor
+0105642AR,Koelreuteria paniculata,False,C\ Portal de Santa Madrona,,23.11,median,16.27,check,,,,,1.0,floor
+0105644AR,Platanus × acerifolia,True,C\ Rambla,,7.86,median,12.76,check,,,,,1.0,floor
+0105647AR,Styphnolobium japonicum,False,Av Drassanes,,10.5,median,,check,,,,,1.0,floor
+0105648AR,Styphnolobium japonicum,False,Av Drassanes,12.88,6.08,ok,,large,430801.64,4580938.86,430798.17,4580926.45,1.5,class
+0105649AR,Magnolia grandiflora 'Gallisoniensis',False,C\ Cera,2.65,1.84,ok,,small,430167.07,4581022.02,430164.96,4581023.63,1.0,class
+0105650AR,Celtis australis,False,C\ Valldonzella,5.03,4.47,ok,,medium,430305.4,4581791.65,430301.14,4581794.33,1.0,class
+0105653AR,Platanus × acerifolia,True,Pl Pere Coromines,20.01,5.99,ok,,large,430765.32,4580967.35,430753.76,4580951.02,1.5,class
+0105654AR,Styphnolobium japonicum,False,Av Drassanes,,13.0,median,12.86,check,,,,,1.0,floor
+0105656AR,Platanus × acerifolia,True,Rbla Raval,,15.34,median,31.92,check,,,,,1.0,floor
+0105657AR,Robinia pseudoacacia,False,C\ Riera Alta,3.42,2.43,ok,,small,430268.34,4581337.1,430268.51,4581333.68,1.0,class
+0105658AR,Platanus × acerifolia,True,C\ Rambla,,8.97,median,18.13,check,,,,,1.0,floor
+0105659AR,Platanus × acerifolia,True,Av Paral·lel,7.61,6.37,ok,,large,430777.82,4580717.89,430776.94,4580710.34,1.5,class
+0105662AR,Tipuana tipu,False,Av Drassanes,9.67,6.89,ok,,large,430890.18,4580878.35,430892.73,4580887.68,1.5,class
+0105664AR,Platanus × acerifolia,True,C\ Rambla,,18.86,median,3.74,check,,,,,1.0,floor
+0105665AR,Platanus × acerifolia,True,Rda Sant Antoni,,6.55,no_kerb,,check,,,,,1.0,floor
+0105667AR,Celtis sinensis,False,C\ Valldonzella,4.34,3.51,ok,,medium,430300.92,4581811.76,430304.54,4581809.36,1.0,class
+0105669AR,Platanus × acerifolia,True,C\ Rambla,,11.89,median,22.3,check,,,,,1.0,floor
+0105670AR,Platanus × acerifolia,True,Pl Universitat,8.81,6.93,ok,,large,430118.92,4581869.06,430111.93,4581874.42,1.5,class
+0105672AR,Styphnolobium japonicum,False,Av Drassanes,12.49,4.45,ok,,large,430992.02,4580886.77,430990.0,4580874.44,1.5,class
+0105673AR,Platanus × acerifolia,True,Rbla Raval,,15.33,median,,check,,,,,1.0,floor
+0105674AR,Magnolia grandiflora,False,C\ Tàpies,,3.01,no_kerb,32.16,check,,,,,1.0,floor
+0105675AR,Platanus × acerifolia,True,Rda Sant Antoni,,6.11,no_kerb,,check,,,,,1.0,floor
+0105676AR,Brachychiton acerifolius,False,C\ Portal de Santa Madrona,6.21,4.06,ok,,large,431021.77,4580836.28,431027.39,4580833.65,1.5,class
+0105677AR,Quercus suber,False,Pl Caramelles,,7.89,no_kerb,,check,,,,,1.0,floor
+0105678AR,Acer monspessulanum,False,C\ Sant Antoni Abat,,1.35,no_kerb,,check,,,,,1.0,floor
+0105679AR,Platanus × acerifolia,True,C\ Rambla,,12.01,median,13.98,check,,,,,1.0,floor
+0105680AR,Brachychiton populneus,False,C\ Montalegre,3.24,2.46,ok,,small,430326.6,4581741.92,430323.99,4581740.0,1.0,class
+0105681AR,Jacaranda mimosifolia,False,C\ Príncep de Viana,2.42,1.87,ok,,none,430084.41,4581182.73,430082.01,4581182.52,1.0,floor
+0105682AR,Ceiba speciosa,False,Pl Drassanes,,32.32,no_facade,,check,,,,,1.0,floor
+0105684AR,Platanus × acerifolia,True,Rda Sant Antoni,16.5,6.83,ok,,large,430051.04,4581286.6,430034.64,4581288.44,1.5,class
+0105685AR,Jacaranda mimosifolia,False,Pl Jean Genet,,3.23,no_kerb,29.68,check,,,,,1.0,floor
+0105686AR,Quercus suber,False,Pl Caramelles,,15.58,no_kerb,,check,,,,,1.0,floor
+0105688AR,Platanus × acerifolia,True,Av Drassanes,9.01,7.96,ok,,large,431156.63,4580797.95,431159.81,4580806.38,1.5,class
+0105689AR,Tipuana tipu,False,C\ Sant Oleguer,4.35,3.66,ok,,medium,430680.53,4581004.64,430678.19,4581000.97,1.0,class
+0105690AR,Tipuana tipu,False,Av Drassanes,12.26,12.71,ok,,large,430871.29,4580919.27,430868.12,4580907.43,1.5,class
+0105691AR,Tipuana tipu,False,Pl Pieyre de Mandiargues,,7.56,no_kerb,,check,,,,,1.0,floor
+0105692AR,Celtis australis,False,C\ Pintor Fortuny,4.06,3.08,ok,,medium,430589.07,4581610.4,430591.61,4581607.24,1.0,class
+0105693AR,Platanus × acerifolia,True,Rda Sant Antoni,7.93,7.11,ok,,large,430100.41,4581726.77,430093.16,4581729.97,1.5,class
+0105694AR,Brachychiton populneus,False,C\ Torres i Amat,4.82,3.4,ok,,medium,430248.92,4581772.6,430246.41,4581776.72,1.0,class
+0105695AR,Ligustrum japonicum,False,C\ Joaquín Costa,3.13,2.93,ok,,small,430373.72,4581409.52,430371.25,4581407.59,1.0,class
+0105696AR,Tipuana tipu,False,Jard Voltes d'en Cirés,,23.09,no_kerb,19.93,check,,,,,1.0,floor
+0105697AR,Platanus × acerifolia,True,Rbla Raval,5.72,4.72,ok,,medium,430557.28,4581067.9,430561.58,4581071.68,1.0,class
+0105698AR,Platanus × acerifolia,True,Rda Sant Antoni,7.61,6.12,ok,,large,430109.98,4581811.3,430102.42,4581812.18,1.5,class
+0105699AR,Styphnolobium japonicum,False,Av Drassanes,7.33,4.59,ok,,large,430872.24,4580888.17,430878.8,4580891.46,1.5,class
+0105700AR,Prunus cerasifera 'Pissardii',False,C\ Doctor Dou,2.46,1.0,ok,,none,430488.11,4581570.92,430490.08,4581572.4,1.0,floor
+0105701AR,Platanus × acerifolia,True,C\ Rambla,,9.2,median,16.08,check,,,,,1.0,floor
+0105702AR,Celtis sinensis,False,C\ Peu de la Creu,5.11,4.63,ok,,medium,430410.11,4581476.35,430413.17,4581472.25,1.0,class
+0105703AR,Platanus × acerifolia,True,Rbla Raval,5.49,4.46,ok,,medium,430607.13,4581098.19,430602.99,4581094.57,1.0,class
+0105704AR,Styphnolobium japonicum,False,Av Drassanes,18.4,8.51,ok,,large,430980.53,4580889.97,430964.25,4580881.39,1.5,class
+0105706AR,Celtis sinensis,False,C\ Peu de la Creu,5.92,5.13,ok,,medium,430404.24,4581471.96,430407.79,4581467.22,1.0,class
+0105707AR,Platanus × acerifolia,True,Rbla Raval,,14.86,median,10.41,check,,,,,1.0,floor
+0105708AR,Brachychiton populneus,False,C\ Portal de Santa Madrona,,28.04,median,7.42,check,,,,,1.0,floor
+0105709AR,Platanus × acerifolia,True,Rbla Raval,5.59,4.6,ok,,medium,430454.69,4581184.76,430458.9,4581188.44,1.0,class
+0105710AR,Platanus × acerifolia,True,Pl Universitat,8.72,6.88,ok,,large,430151.12,4581900.71,430145.01,4581906.93,1.5,class
+0105712AR,Styphnolobium japonicum,False,Av Drassanes,11.95,3.43,ok,,large,431021.4,4580878.34,431018.29,4580866.8,1.5,class
+0105713AR,Platanus × acerifolia,True,Pl Universitat,8.72,7.41,ok,,large,430158.17,4581907.64,430152.06,4581913.86,1.5,class
+0105714AR,Tipuana tipu,False,C\ Sant Oleguer,4.0,2.2,ok,,medium,430688.82,4580978.15,430690.97,4580981.52,1.0,class
+0105715AR,Tipuana tipu,False,Av Drassanes,15.78,6.89,ok,,large,430853.6,4580924.02,430840.78,4580914.82,1.5,class
+0105716AR,Fraxinus ornus OBELISK® 'Paus Johannes-Paulus II',False,C\ Gravina,2.82,1.86,ok,,small,430238.9,4581849.48,430241.7,4581849.16,1.0,class
+0105719AR,Styphnolobium japonicum,False,Av Drassanes,12.88,12.36,ok,,large,430802.39,4580938.65,430798.93,4580926.24,1.5,class
+0105720AR,Platanus × acerifolia,True,C\ Rambla,,9.51,median,16.1,check,,,,,1.0,floor
+0105721AR,Jacaranda mimosifolia,False,Av Drassanes,,11.63,median,2.0,check,,,,,1.0,floor
+0105722AR,Platanus × acerifolia,True,Av Drassanes,10.19,9.05,ok,,large,431122.17,4580812.2,431126.4,4580821.48,1.5,class
+0105723AR,Jacaranda mimosifolia,False,C\ Príncep de Viana,2.76,2.49,ok,,small,430081.32,4581217.96,430078.57,4581217.72,1.0,class
+0105727AR,Tipuana tipu,False,C\ Sant Oleguer,4.35,3.83,ok,,medium,430690.78,4580998.09,430688.44,4580994.43,1.0,class
+0105728AR,Ligustrum lucidum,False,C\ Sant Gil,1.95,0.93,ok,,none,430158.3,4581370.03,430158.13,4581371.98,1.0,floor
+0105729AR,Magnolia grandiflora,False,C\ Riera Alta,4.1,2.99,ok,,medium,430197.89,4581319.94,430197.62,4581324.03,1.0,class
+0105730AR,Platanus × acerifolia,True,Rbla Raval,5.98,4.94,ok,,medium,430535.45,4581092.62,430539.92,4581096.58,1.0,class
+0105731AR,Magnolia grandiflora,False,C\ Peu de la Creu,2.53,1.07,ok,,small,430311.42,4581366.01,430309.61,4581367.78,1.0,class
+0105732AR,Platanus × acerifolia,True,Rbla Raval,,14.79,median,,check,,,,,1.0,floor
+0105733AR,Platanus × acerifolia,True,Pl Raquel Meller,13.24,10.89,ok,,large,430583.39,4580751.67,430578.44,4580739.39,1.5,class
+0105735AR,Ulmus pumila,False,C\ Portal de Santa Madrona,,32.48,no_facade,,check,,,,,1.0,floor
+0105737AR,Styphnolobium japonicum,False,Av Drassanes,11.96,8.77,ok,,large,431037.85,4580873.89,431046.22,4580865.35,1.5,class
+0105739AR,Styphnolobium japonicum,False,Av Drassanes,13.67,12.88,ok,,large,430980.53,4580889.97,430971.99,4580879.3,1.5,class
+0105740AR,Jacaranda mimosifolia,False,C\ Cid,,3.5,no_kerb,,check,,,,,1.0,floor
+0105741AR,Quercus ilex,False,C\ Ramon Berenguer el Vell,,5.16,no_kerb,,check,,,,,1.0,floor
+0105742AR,Celtis australis,False,C\ Àngels,4.33,4.57,ok,,medium,430419.79,4581585.05,430416.32,4581582.45,1.0,class
+0105744AR,X chitalpa tashkentensis 'minsum' SUMMER BELLS®,False,C\ Robador,3.53,2.82,ok,,medium,430691.69,4581180.68,430688.71,4581178.81,1.0,class
+0105746AR,Platanus × acerifolia,True,Av Drassanes,12.37,4.06,ok,,large,431093.25,4580859.0,431090.15,4580847.02,1.5,class
+0105747AR,Platanus × acerifolia,True,Av Drassanes,,19.43,median,,check,,,,,1.0,floor
+0105748AR,Ligustrum japonicum,False,C\ Joaquín Costa,3.07,2.25,ok,,small,430168.49,4581667.38,430166.16,4581665.39,1.0,class
+0105749AR,Platanus × acerifolia,True,Rbla Raval,,15.46,median,,check,,,,,1.0,floor
+0105750AR,Platanus × acerifolia,True,Pl Drassanes,,23.29,no_kerb,,check,,,,,1.0,floor
+0105751AR,Platanus × acerifolia,True,Rda Sant Antoni,7.44,6.05,ok,,large,430090.03,4581634.68,430082.63,4581635.52,1.5,class
+0105752AR,Hibiscus syriacus,False,C\ Gravina,2.98,2.44,ok,,small,430241.07,4581867.5,430244.03,4581867.12,1.0,class
+0105753AR,Magnolia grandiflora,False,C\ Riera Alta,4.28,3.35,ok,,medium,430304.89,4581327.7,430304.57,4581331.96,1.0,class
+0105755AR,Platanus × acerifolia,True,Rda Sant Antoni,7.47,6.63,ok,,large,430090.91,4581642.52,430083.49,4581643.35,1.5,class
+0105756AR,Tipuana tipu,False,C\ Erasme de Janer,2.26,1.5,ok,,none,430251.23,4581289.85,430249.37,4581288.57,1.0,floor
+0105758AR,Cercis siliquastrum,False,C\ Junta de Comerç,3.68,0.19,ok,,medium,430707.46,4581265.35,430710.54,4581267.36,1.0,class
+0105759AR,Platanus × acerifolia,True,Rda Sant Pau,7.32,7.38,ok,,large,430271.21,4580899.48,430265.92,4580894.42,1.5,class
+0105760AR,Platanus × acerifolia,True,Rbla Raval,,14.7,median,,check,,,,,1.0,floor
+0105761AR,Ligustrum lucidum,False,C\ Om,2.07,2.14,ok,,none,430744.11,4580841.22,430743.45,4580839.26,1.0,floor
+0105762AR,Jacaranda mimosifolia,False,Av Drassanes,,23.47,median,,check,,,,,1.0,floor
+0105763AR,Ceiba speciosa,False,Pl Drassanes,,27.72,no_kerb,,check,,,,,1.0,floor
+0105764AR,Quercus ilex,False,C\ Ramon Berenguer el Vell,,5.31,no_kerb,,check,,,,,1.0,floor
+0105766AR,Magnolia grandiflora,False,C\ Pintor Fortuny,4.42,3.03,ok,,medium,430527.34,4581547.28,430522.96,4581547.86,1.0,class
+0105767AR,Styphnolobium japonicum,False,C\ Riera Alta,2.87,2.39,ok,,small,430130.51,4581327.59,430130.69,4581324.73,1.0,class
+0105769AR,Tipuana tipu,False,C\ Erasme de Janer,2.27,0.99,ok,,none,430265.77,4581268.71,430263.91,4581267.43,1.0,floor
+0105770AR,Platanus × acerifolia,True,C\ Abat Safont,10.93,9.88,ok,,large,430561.46,4580736.41,430572.38,4580736.08,1.5,class
+0105771AR,Prunus cerasifera 'Pissardii',False,C\ Doctor Dou,2.47,0.66,ok,,none,430479.25,4581582.77,430481.23,4581584.24,1.0,floor
+0105772AR,Platanus × acerifolia,True,Rbla Raval,,14.7,median,,check,,,,,1.0,floor
+0105773AR,Magnolia grandiflora,False,C\ Riera Alta,2.95,1.99,ok,,small,430341.91,4581342.53,430342.12,4581339.59,1.0,class
+0105774AR,Tipuana tipu,False,Pl Raquel Meller,11.9,9.23,ok,,large,430605.24,4580742.86,430600.79,4580731.82,1.5,class
+0105775AR,Platanus × acerifolia,True,C\ Rambla,,8.7,median,17.88,check,,,,,1.0,floor
+0105776AR,Styphnolobium japonicum,False,C\ Montserrat,4.32,3.52,ok,,medium,431028.2,4580929.41,431031.24,4580932.49,1.0,class
+0105777AR,Styphnolobium japonicum,False,Pl Pes de la Palla,,6.06,no_kerb,,check,,,,,1.0,floor
+0105778AR,Celtis australis,False,C\ Peu de la Creu,3.59,2.74,ok,,medium,430432.96,4581476.85,430430.74,4581479.67,1.0,class
+0105779AR,Platanus × acerifolia,True,Rbla Raval,,14.8,median,,check,,,,,1.0,floor
+0105781AR,Celtis australis,False,C\ Arc del Teatre,7.2,6.03,ok,,large,430820.92,4580724.09,430826.3,4580719.31,1.5,class
+0105782AR,Platanus × acerifolia,True,Rda Sant Pau,9.08,9.12,ok,,large,430277.38,4580893.02,430276.01,4580884.04,1.5,class
+0105783AR,Platanus × acerifolia,True,Rda Sant Pau,,23.68,median,7.4,check,,,,,1.0,floor
+0105784AR,Melia azedarach,False,Jard Doctor Fleming,27.67,3.97,ok,,large,430563.96,4581455.18,430586.29,4581471.53,1.5,class
+0105785AR,Celtis australis,False,C\ Pintor Fortuny,4.09,3.09,ok,,medium,430565.32,4581592.53,430567.77,4581589.26,1.0,class
+0105786AR,Tipuana tipu,False,C\ Ramon Berenguer el Vell,,7.61,no_kerb,,check,,,,,1.0,floor
+0105788AR,Platanus × acerifolia,True,Rbla Raval,5.72,4.48,ok,,medium,430593.87,4581026.27,430598.17,4581030.05,1.0,class
+0105790AR,Robinia pseudoacacia,False,C\ Riera Alta,4.7,2.03,ok,,medium,430240.99,4581322.82,430238.01,4581326.45,1.0,class
+0105791AR,Styphnolobium japonicum,False,Av Drassanes,4.72,2.89,ok,,medium,430852.18,4580893.69,430853.4,4580898.25,1.0,class
+0105792AR,Celtis australis,False,C\ Peu de la Creu,5.05,4.07,ok,,medium,430391.47,4581437.98,430387.94,4581441.59,1.0,class
+0105793AR,Styphnolobium japonicum,False,Pl Pes de la Palla,,17.69,no_kerb,,check,,,,,1.0,floor
+0105794AR,Jacaranda mimosifolia,False,C\ Príncep de Viana,2.82,1.94,ok,,small,430076.18,4581277.45,430073.36,4581277.2,1.0,class
+0105797AR,Tipuana tipu,False,Pl Pieyre de Mandiargues,,6.17,median,,check,,,,,1.0,floor
+0105798AR,Platanus × acerifolia,True,C\ Rambla,,9.33,median,16.09,check,,,,,1.0,floor
+0105799AR,Quercus ilex,False,Pl Caramelles,,3.49,no_kerb,,check,,,,,1.0,floor
+0105801AR,Tipuana tipu,False,Jard Voltes d'en Cirés,,5.01,no_kerb,,check,,,,,1.0,floor
+0105802AR,Platanus × acerifolia,True,Av Paral·lel,7.42,6.24,ok,,large,430805.48,4580715.15,430806.12,4580707.76,1.5,class
+0105803AR,Platanus × acerifolia,True,Rbla Raval,,14.73,median,,check,,,,,1.0,floor
+0105804AR,Melia azedarach,False,Jard Doctor Fleming,25.36,3.5,ok,,large,430553.17,4581469.93,430573.65,4581484.89,1.5,class
+0105805AR,Magnolia grandiflora,False,C\ Riera Baixa,28.22,2.35,ok,,large,430402.66,4581335.05,430388.16,4581310.84,1.5,class
+0105806AR,Magnolia grandiflora,False,C\ Riera Alta,2.95,2.06,ok,,small,430248.14,4581335.13,430248.06,4581332.18,1.0,class
+0105807AR,Platanus × acerifolia,True,C\ Rambla,,11.87,median,22.19,check,,,,,1.0,floor
+0105808AR,Platanus × acerifolia,True,Av Drassanes,13.1,11.57,ok,,large,431113.61,4580853.82,431112.92,4580840.74,1.5,class
+0105809AR,Prunus cerasifera 'Pissardii',False,C\ Doctor Dou,2.52,0.39,ok,,small,430494.92,4581561.73,430496.95,4581563.22,1.0,class
+0105810AR,Magnolia grandiflora,False,C\ Tàpies,,2.23,no_kerb,32.08,check,,,,,1.0,floor
+0105811AR,Brachychiton populneus,False,C\ Montalegre,3.28,2.51,ok,,small,430315.16,4581757.35,430312.58,4581755.31,1.0,class
+0105812AR,Platanus × acerifolia,True,Rda Sant Antoni,7.59,6.74,ok,,large,430109.03,4581803.14,430101.49,4581804.02,1.5,class
+0105813AR,Platanus × acerifolia,True,Rbla Raval,,15.02,median,32.14,check,,,,,1.0,floor
+0105815AR,Tipuana tipu,False,Pl Vicenç Martorell,,17.95,no_kerb,,check,,,,,1.0,floor
+0105817AR,Platanus × acerifolia,True,Av Paral·lel,8.52,8.43,ok,,large,430668.76,4580728.39,430667.99,4580719.91,1.5,class
+0105818AR,Quercus ilex,False,C\ Maria Aurèlia Capmany,4.46,4.07,ok,,medium,430400.62,4581303.38,430397.27,4581300.44,1.0,class
+0105819AR,Styphnolobium japonicum,False,Av Drassanes,4.72,3.1,ok,,medium,430846.11,4580895.32,430847.33,4580899.87,1.0,class
+0105821AR,Melia azedarach,False,C\ Portal de Santa Madrona,12.35,8.41,ok,,large,431019.24,4580783.36,431008.03,4580788.55,1.5,class
+0105822AR,Celtis australis,False,C\ Peu de la Creu,4.8,4.16,ok,,medium,430399.08,4581445.44,430395.72,4581448.87,1.0,class
+0105823AR,Magnolia grandiflora,False,C\ Riera Alta,2.88,2.43,ok,,small,430136.91,4581327.99,430137.09,4581325.11,1.0,class
+0105824AR,Platanus × acerifolia,True,C\ Rambla,,9.66,median,16.26,check,,,,,1.0,floor
+0105826AR,Tipuana tipu,False,Jard Voltes d'en Cirés,23.88,4.05,ok,,large,430845.1,4580978.92,430830.21,4580960.26,1.5,class
+0105828AR,Tipuana tipu,False,Av Drassanes,12.29,12.5,ok,,large,430883.24,4580916.07,430880.05,4580904.2,1.5,class
+0105829AR,Magnolia grandiflora,False,C\ Riera Alta,2.97,2.25,ok,,small,430371.93,4581344.72,430372.14,4581341.76,1.0,class
+0105830AR,Platanus × acerifolia,True,Pl Canonge Colom,,5.75,no_kerb,,check,,,,,1.0,floor
+0105831AR,Styphnolobium japonicum,False,Av Drassanes,11.95,11.38,ok,,large,431010.52,4580881.28,431007.4,4580869.74,1.5,class
+0105832AR,Ulmus pumila,False,C\ Arc del Teatre,11.53,4.1,ok,,large,430871.28,4580885.25,430882.23,4580881.65,1.5,class
+0105833AR,Tipuana tipu,False,Pl Emili Vendrell,,11.63,median,9.92,check,,,,,1.0,floor
+0105834AR,Tipuana tipu,False,C\ Sant Oleguer,4.09,2.92,ok,,medium,430668.12,4580991.26,430670.31,4580994.72,1.0,class
+0105836AR,Jacaranda mimosifolia,False,Av Drassanes,25.49,13.92,ok,,large,430934.01,4580908.65,430912.18,4580895.48,1.5,class
+0105837AR,Platanus × acerifolia,True,Rda Sant Antoni,7.29,6.42,ok,,large,430085.63,4581595.74,430078.39,4581596.56,1.5,class
+0105839AR,Tipuana tipu,False,Jard Voltes d'en Cirés,23.79,7.97,ok,,large,430831.33,4580974.67,430849.56,4580959.38,1.5,class
+0105840AR,Platanus × acerifolia,True,Pl Pere Coromines,19.75,19.13,ok,,large,430770.6,4580963.61,430759.19,4580947.49,1.5,class
+0105841AR,Prunus cerasifera 'Pissardii',False,C\ Doctor Dou,2.42,1.67,ok,,none,430559.07,4581495.87,430557.13,4581494.43,1.0,floor
+0105842AR,Prunus cerasifera 'Pissardii',False,C\ Sant Rafael,3.11,1.87,ok,,small,430631.13,4581223.76,430629.76,4581226.55,1.0,class
+0105843AR,Brachychiton populneus,False,Pl Dubte,,9.45,no_kerb,41.92,check,,,,,1.0,floor
+0105844AR,Quercus ilex,False,C\ Ramon Berenguer el Vell,,5.41,no_kerb,,check,,,,,1.0,floor
+0105845AR,Tipuana tipu,False,Pl Sant Agustí,,11.91,no_kerb,,check,,,,,1.0,floor
+0105846AR,Ligustrum japonicum,False,C\ Joaquín Costa,3.05,2.02,ok,,small,430209.27,4581616.11,430206.89,4581614.21,1.0,class
+0105849AR,Platanus × acerifolia,True,Rbla Raval,5.72,4.37,ok,,medium,430608.25,4581009.92,430612.55,4581013.69,1.0,class
+0105850AR,Pyrus calleryana 'Chanticleer',False,C\ Jovellanos,,2.43,no_kerb,,check,,,,,1.0,floor
+0105851AR,Quercus suber,False,C\ Àngels,,12.33,no_kerb,,check,,,,,1.0,floor
+0105853AR,Platanus × acerifolia,True,Av Drassanes,12.43,4.16,ok,,large,431098.99,4580857.51,431095.88,4580845.48,1.5,class
+0105854AR,Quercus ilex,False,Pl Caramelles,,7.41,no_kerb,,check,,,,,1.0,floor
+0105855AR,Styphnolobium japonicum,False,Av Drassanes,,11.26,median,1.92,check,,,,,1.0,floor
+0105856AR,Platanus × acerifolia,True,Pl Pere Coromines,20.25,10.25,ok,,large,430760.85,4580970.52,430749.15,4580953.99,1.5,class
+0105857AR,Platanus × acerifolia,True,Rbla Raval,,14.21,median,12.2,check,,,,,1.0,floor
+0105858AR,Ligustrum japonicum,False,C\ Joaquín Costa,3.05,2.52,ok,,small,430240.62,4581576.63,430238.23,4581574.74,1.0,class
+0105859AR,Celtis australis,False,C\ Àngels,6.26,3.69,ok,,large,430475.41,4581478.45,430479.25,4581483.39,1.5,class
+0105860AR,Jacaranda mimosifolia,False,Av Drassanes,,17.16,no_kerb,29.59,check,,,,,1.0,floor
+0105861AR,Styphnolobium japonicum,False,Av Drassanes,,10.92,median,1.86,check,,,,,1.0,floor
+0105863AR,Ligustrum lucidum,False,C\ Cera,2.78,1.71,ok,,small,430164.51,4581018.67,430162.3,4581020.37,1.0,class
+0105864AR,Platanus × acerifolia,True,Rbla Raval,,14.43,median,,check,,,,,1.0,floor
+0105867AR,Styphnolobium japonicum,False,Av Drassanes,,11.5,median,1.87,check,,,,,1.0,floor
+0105869AR,Platanus × acerifolia,True,C\ Rambla,,14.96,median,23.51,check,,,,,1.0,floor
+0105870AR,Tipuana tipu,False,C\ Cid,7.68,6.03,ok,,large,430904.22,4580772.34,430911.6,4580774.44,1.5,class
+0105871AR,Celtis sinensis,False,C\ Valldonzella,4.5,3.77,ok,,medium,430288.6,4581793.17,430292.36,4581790.69,1.0,class
+0105872AR,Magnolia grandiflora,False,C\ Peu de la Creu,2.11,1.27,ok,,none,430351.35,4581406.69,430349.84,4581408.17,1.0,floor
+0105873AR,Platanus × acerifolia,True,Rda Sant Antoni,7.5,6.56,ok,,large,430091.83,4581650.63,430084.37,4581651.47,1.5,class
+0105874AR,Ligustrum lucidum,False,C\ Om,2.1,2.18,ok,,none,430763.28,4580834.84,430762.62,4580832.85,1.0,floor
+0105875AR,Platanus × acerifolia,True,Av Drassanes,10.21,9.11,ok,,large,431128.08,4580809.51,431132.32,4580818.8,1.5,class
+0105876AR,Celtis australis,False,C\ Peu de la Creu,4.55,3.61,ok,,medium,430434.21,4581494.38,430436.93,4581490.74,1.0,class
+0105877AR,Jacaranda mimosifolia,False,C\ Príncep de Viana,2.6,1.8,ok,,small,430083.01,4581198.68,430080.42,4581198.45,1.0,class
+0105878AR,Brachychiton populneus,False,Pl Sant Agustí,,16.61,median,,check,,,,,1.0,floor
+0105880AR,Celtis australis,False,C\ Pintor Fortuny,4.07,2.29,ok,,medium,430580.63,4581603.83,430583.07,4581600.57,1.0,class
+0105881AR,Tipuana tipu,False,Jard Doctor Fleming,,14.33,no_kerb,,check,,,,,1.0,floor
+0105883AR,Tipuana tipu,False,C\ Sant Oleguer,4.02,1.29,ok,,medium,430714.31,4580961.91,430716.47,4580965.31,1.0,class
+0105884AR,Jacaranda mimosifolia,False,C\ Príncep de Viana,2.79,1.69,ok,,small,430078.92,4581245.52,430076.13,4581245.29,1.0,class
+0105885AR,Tipuana tipu,False,C\ Sant Oleguer,4.08,3.1,ok,,medium,430673.04,4580988.14,430675.22,4580991.58,1.0,class
+0105887AR,Jacaranda mimosifolia,False,Pl Jean Genet,,14.73,no_kerb,29.49,check,,,,,1.0,floor
+0105888AR,Tipuana tipu,False,Av Drassanes,29.79,12.76,ok,,large,430853.6,4580924.02,430824.18,4580919.31,1.5,class
+0105889AR,Melia azedarach,False,C\ Portal de Santa Madrona,15.12,9.8,ok,,large,431016.69,4580777.85,431002.97,4580784.21,1.5,class
+0105890AR,Platanus × acerifolia,True,C\ Rambla,,8.98,median,15.98,check,,,,,1.0,floor
+0105893AR,Platanus × acerifolia,True,C\ Rambla,,8.01,median,,check,,,,,1.0,floor
+0105894AR,Quercus ilex,False,Rbla Raval,,22.55,median,31.88,check,,,,,1.0,floor
+0105895AR,Ligustrum lucidum,False,C\ Om,2.12,1.95,ok,,none,430785.92,4580827.31,430785.24,4580825.29,1.0,floor
+0105896AR,Melia azedarach,False,Jard Doctor Fleming,,4.16,no_kerb,,check,,,,,1.0,floor
+0105897AR,Platanus × acerifolia,True,Rbla Raval,,15.1,median,32.0,check,,,,,1.0,floor
+0105898AR,Styphnolobium japonicum,False,C\ Riera Alta,4.18,3.08,ok,,medium,430184.03,4581319.05,430183.84,4581323.23,1.0,class
+0105899AR,Ulmus pumila,False,C\ Portal de Santa Madrona,7.05,4.18,ok,,large,431024.45,4580841.73,431031.25,4580839.88,1.5,class
+0105900AR,Styphnolobium japonicum,False,Av Drassanes,,12.69,no_kerb,,check,,,,,1.0,floor
+0105901AR,Platanus × acerifolia,True,Rbla Raval,6.36,5.36,ok,,large,430644.73,4581056.74,430640.05,4581052.42,1.5,class
+0105902AR,Grevillea robusta,False,Rbla Raval,5.59,4.51,ok,,medium,430585.97,4581122.4,430581.77,4581118.71,1.0,class
+0105903AR,Platanus × acerifolia,True,Rbla Raval,,15.48,median,,check,,,,,1.0,floor
+0105904AR,Styphnolobium japonicum,False,C\ Riera Alta,3.89,3.04,ok,,medium,430214.24,4581321.09,430213.97,4581324.97,1.0,class
+0105905AR,Tipuana tipu,False,Pl Bonsuccés,,2.48,no_kerb,,check,,,,,1.0,floor
+0105907AR,Tipuana tipu,False,C\ Ramon Berenguer el Vell,,6.36,no_kerb,,check,,,,,1.0,floor
+0105908AR,Brachychiton populneus,False,C\ Montalegre,3.52,2.74,ok,,medium,430372.84,4581679.19,430370.01,4581677.11,1.0,class
+0105909AR,Celtis australis,False,C\ Hort de la Bomba,,7.23,no_kerb,,check,,,,,1.0,floor
+0105910AR,Magnolia grandiflora,False,C\ Riera Alta,3.99,2.8,ok,,medium,430204.37,4581320.4,430204.09,4581324.38,1.0,class
+0105911AR,Styphnolobium japonicum,False,Pl Pes de la Palla,,9.3,no_kerb,,check,,,,,1.0,floor
+0105912AR,Platanus × acerifolia,True,Av Paral·lel,,33.41,no_facade,,check,,,,,1.0,floor
+0105913AR,Ligustrum lucidum,False,C\ Cera,2.51,1.62,ok,,small,430170.01,4581025.86,430168.02,4581027.39,1.0,class
+0105914AR,Platanus × acerifolia,True,C\ Rambla,,12.1,median,14.05,check,,,,,1.0,floor
+0105915AR,Platanus × acerifolia,True,Rda Sant Pau,7.42,6.2,ok,,large,430190.5,4580982.69,430185.17,4580977.53,1.5,class
+0105916AR,Platanus × acerifolia,True,Rbla Raval,5.55,4.26,ok,,medium,430463.21,4581175.18,430467.35,4581178.88,1.0,class
+0105917AR,Platanus × acerifolia,True,Pl Pere Coromines,20.0,15.08,ok,,large,430765.5,4580967.23,430753.94,4580950.91,1.5,class
+0105919AR,Ulmus pumila,False,C\ Arc del Teatre,3.38,2.4,ok,,small,430852.78,4580805.06,430854.5,4580802.16,1.0,class
+0105920AR,Celtis australis,False,C\ Hort de la Bomba,25.64,5.56,ok,,large,430443.31,4580932.98,430464.96,4580919.24,1.5,class
+0105921AR,Brachychiton populneus,False,C\ Torres i Amat,,8.03,median,,check,,,,,1.0,floor
+0105924AR,Tipuana tipu,False,Jard Voltes d'en Cirés,,8.5,no_kerb,,check,,,,,1.0,floor
+0105925AR,Jacaranda mimosifolia,False,Av Drassanes,,18.29,no_kerb,,check,,,,,1.0,floor
+0105926AR,Tipuana tipu,False,C\ Sant Oleguer,4.29,3.84,ok,,medium,430670.37,4581011.1,430668.08,4581007.48,1.0,class
+0105927AR,Platanus × acerifolia,True,Rda Sant Pau,7.49,6.84,ok,,large,430103.68,4581072.3,430098.3,4581067.09,1.5,class
+0105929AR,Brachychiton populneus,False,C\ Unió,2.6,2.03,ok,,small,430837.82,4581172.21,430839.86,4581170.58,1.0,class
+0105930AR,Tipuana tipu,False,C\ Sant Oleguer,4.07,3.04,ok,,medium,430663.23,4580994.36,430665.42,4580997.8,1.0,class
+0105931AR,Prunus cerasifera 'Pissardii',False,C\ Sant Rafael,3.57,1.9,ok,,medium,430635.97,4581226.13,430634.4,4581229.33,1.0,class
+0105933AR,Brachychiton populneus,False,C\ Portal de Santa Madrona,,41.42,no_facade,,check,,,,,1.0,floor
+0105934AR,Tipuana tipu,False,C\ Riera Alta,,6.65,no_kerb,,check,,,,,1.0,floor
+0105935AR,Tipuana tipu,False,Av Drassanes,12.31,5.15,ok,,large,430887.33,4580914.97,430884.15,4580903.09,1.5,class
+0105936AR,Tipuana tipu,False,C\ Portal de Santa Madrona,,10.16,median,,check,,,,,1.0,floor
+0105937AR,Styphnolobium japonicum,False,Pl Pes de la Palla,,14.99,no_kerb,,check,,,,,1.0,floor
+0105938AR,Platanus × acerifolia,True,Rda Sant Antoni,7.62,6.16,ok,,large,430095.18,4581680.36,430087.61,4581681.21,1.5,class
+0105939AR,Styphnolobium japonicum,False,C\ Riera Alta,2.51,2.11,ok,,small,430145.74,4581328.16,430145.92,4581325.65,1.0,class
+0105940AR,Elaeagnus pungens,False,C\ Maria Aurèlia Capmany,4.45,2.96,ok,,medium,430398.0,4581283.68,430401.35,4581286.61,1.0,class
+0105942AR,Quercus suber,False,Pl Caramelles,,19.84,no_kerb,,check,,,,,1.0,floor
+0105943AR,Platanus × acerifolia,True,Rbla Raval,,14.84,median,32.14,check,,,,,1.0,floor
+0105944AR,Prunus cerasifera 'Pissardii',False,C\ Doctor Dou,2.42,1.62,ok,,none,430537.0,4581525.67,430535.06,4581524.23,1.0,floor
+0105945AR,Styphnolobium japonicum,False,Av Drassanes,5.14,3.25,ok,,medium,430967.52,4580861.91,430968.89,4580866.86,1.0,class
+0105948AR,Brachychiton populneus,False,C\ Portal de Santa Madrona,,18.38,median,15.02,check,,,,,1.0,floor
+0105949AR,Platanus × acerifolia,True,C\ Rambla,,9.61,median,15.96,check,,,,,1.0,floor
+0105950AR,Quercus suber,False,Pl Caramelles,,6.97,no_kerb,,check,,,,,1.0,floor
+0105952AR,Jacaranda mimosifolia,False,C\ Príncep de Viana,2.82,1.91,ok,,small,430076.65,4581271.96,430073.84,4581271.72,1.0,class
+0105953AR,Platanus × acerifolia,True,Rbla Raval,,15.63,median,32.06,check,,,,,1.0,floor
+0105955AR,Jacaranda mimosifolia,False,Av Drassanes,,22.35,no_kerb,,check,,,,,1.0,floor
+0105956AR,Platanus × acerifolia,True,Rbla Raval,,15.38,median,32.03,check,,,,,1.0,floor
+0105957AR,Tipuana tipu,False,Jard Voltes d'en Cirés,,15.51,no_kerb,11.99,check,,,,,1.0,floor
+0105958AR,Ligustrum lucidum,False,C\ Om,2.15,1.93,ok,,none,430805.27,4580820.87,430804.59,4580818.83,1.0,floor
+0105960AR,Styphnolobium japonicum,False,Av Drassanes,,11.48,median,1.85,check,,,,,1.0,floor
+0105963AR,Quercus ilex,False,Pl Caramelles,,4.59,no_kerb,,check,,,,,1.0,floor
+0105966AR,Styphnolobium japonicum,False,Av Drassanes,4.71,3.44,ok,,medium,430834.54,4580898.41,430835.76,4580902.97,1.0,class
+0105967AR,Celtis australis,False,C\ Valldonzella,4.42,3.49,ok,,medium,430294.98,4581802.79,430298.66,4581800.35,1.0,class
+0105968AR,Ligustrum japonicum,False,C\ Joaquín Costa,4.96,3.91,ok,,medium,430397.92,4581365.59,430401.83,4581368.65,1.0,class
+0105969AR,Tipuana tipu,False,Pl Emili Vendrell,,8.05,median,13.66,check,,,,,1.0,floor
+0105970AR,Platanus × acerifolia,True,Rda Sant Antoni,9.15,6.84,ok,,large,430087.36,4581611.01,430078.27,4581612.04,1.5,class
+0105971AR,Ficus microcarpa,False,C\ Reina Amàlia,4.56,2.77,ok,,medium,430425.55,4580888.62,430422.26,4580885.46,1.0,class
+0105972AR,Brachychiton populneus,False,C\ Portal de Santa Madrona,,45.07,no_facade,,check,,,,,1.0,floor
+0105973AR,Platanus × acerifolia,True,Rbla Raval,9.51,5.97,ok,,large,430419.31,4581225.13,430426.46,4581231.4,1.5,class
+0105974AR,Prunus cerasifera 'Pissardii',False,C\ Sant Josep Oriol,4.26,3.21,ok,,medium,430615.01,4581105.82,430612.75,4581109.43,1.0,class
+0105976AR,Styphnolobium japonicum,False,Av Drassanes,16.65,15.95,ok,,large,430942.4,4580900.82,430948.96,4580885.52,1.5,class
+0105977AR,Ulmus pumila,False,C\ Portal de Santa Madrona,,27.64,median,11.58,check,,,,,1.0,floor
+0105978AR,Ligustrum lucidum,False,C\ Peracamps,3.13,2.85,ok,,small,430893.27,4580833.65,430892.47,4580830.62,1.0,class
+0105979AR,Platanus × acerifolia,True,Rda Sant Antoni,7.57,6.37,ok,,large,430108.21,4581796.1,430100.69,4581796.98,1.5,class
+0105981AR,Platanus × acerifolia,True,Rda Sant Antoni,,6.95,no_kerb,,check,,,,,1.0,floor
+0105982AR,Ligustrum lucidum,False,C\ Ferlandina,3.85,2.9,ok,,medium,430093.99,4581464.01,430094.51,4581460.2,1.0,class
+0105983AR,Quercus ilex,False,C\ Peu de la Creu,8.73,2.84,ok,,large,430402.45,4581470.62,430402.1,4581461.9,1.5,class
+0105984AR,Eugenia uniflora,False,C\ Junta de Comerç,,0.42,no_kerb,,check,,,,,1.0,floor
+0105985AR,Styphnolobium japonicum,False,Av Drassanes,,10.73,median,1.9,check,,,,,1.0,floor
+0105986AR,Ulmus pumila,False,C\ Arc del Teatre,,7.07,median,,check,,,,,1.0,floor
+0105989AR,Ligustrum japonicum,False,C\ Joaquín Costa,3.05,2.37,ok,,small,430252.72,4581561.4,430250.33,4581559.51,1.0,class
+0105991AR,Tipuana tipu,False,Av Drassanes,,16.5,median,2.03,check,,,,,1.0,floor
+0105993AR,Platanus × acerifolia,True,Rbla Raval,,14.87,median,32.07,check,,,,,1.0,floor
+0105995AR,Brachychiton acerifolius,False,C\ Portal de Santa Madrona,,33.51,no_facade,7.39,check,,,,,1.0,floor
+0105996AR,Ligustrum lucidum,False,C\ Peu de la Creu,2.36,1.63,ok,,none,430293.89,4581347.86,430292.21,4581349.51,1.0,floor
+0105998AR,Melia azedarach,False,C\ Portal de Santa Madrona,29.37,12.95,ok,,large,431006.24,4580755.28,430979.59,4580767.62,1.5,class
+0105999AR,Celtis australis,False,C\ Santa Elena,,4.58,no_kerb,,check,,,,,1.0,floor
+0106000AR,Tipuana tipu,False,C\ Cid,5.01,3.46,ok,,medium,430911.6,4580794.4,430915.77,4580791.62,1.0,class
+0106002AR,Platanus × acerifolia,True,Rbla Raval,,14.48,median,,check,,,,,1.0,floor
+0106003AR,Platanus × acerifolia,True,Av Paral·lel,8.42,7.4,ok,,large,430705.98,4580725.05,430705.23,4580716.66,1.5,class
+0106004AR,Tipuana tipu,False,Pl Raquel Meller,17.76,16.17,ok,,large,430585.05,4580751.0,430578.41,4580734.53,1.5,class
+0106005AR,Platanus × acerifolia,True,Av Drassanes,,16.7,median,1.79,check,,,,,1.0,floor
+0106006AR,Platanus × acerifolia,True,Rda Sant Antoni,7.51,6.2,ok,,large,430114.11,4581847.3,430106.65,4581848.15,1.5,class
+0106008AR,Celtis australis,False,C\ Pintor Fortuny,3.97,3.33,ok,,medium,430634.6,4581654.14,430637.08,4581651.03,1.0,class
+0106009AR,Quercus ilex,False,C\ Ramon Berenguer el Vell,,1.04,no_kerb,,check,,,,,1.0,floor
+0106010AR,Celtis australis,False,C\ Àngels,5.13,5.1,ok,,medium,430497.08,4581482.06,430492.97,4581478.98,1.0,class
+0106012AR,Quercus ilex,False,C\ Sant Pau,4.23,2.72,ok,,medium,430435.88,4580766.03,430432.96,4580769.09,1.0,class
+0106013AR,Jacaranda mimosifolia,False,Rbla Raval,,22.59,median,21.51,check,,,,,1.0,floor
+0106014AR,Styphnolobium japonicum,False,Av Drassanes,,11.32,median,1.95,check,,,,,1.0,floor
+0106015AR,Platanus × acerifolia,True,C\ Rambla,,11.7,median,20.47,check,,,,,1.0,floor
+0106017AR,Celtis australis,False,C\ Sant Pau,,8.06,no_kerb,45.58,check,,,,,1.0,floor
+0106018AR,Ficus microcarpa,False,C\ Carretes,3.34,2.52,ok,,small,430480.63,4580901.62,430482.79,4580904.16,1.0,class
+0106019AR,Platanus × acerifolia,True,C\ Rambla,,9.51,median,16.0,check,,,,,1.0,floor
+0106020AR,Ligustrum lucidum,False,C\ Peracamps,3.19,2.14,ok,,small,430937.98,4580822.04,430937.18,4580818.95,1.0,class
+0106021AR,Platanus × acerifolia,True,Rbla Raval,,14.82,median,,check,,,,,1.0,floor
+0106023AR,Platanus × acerifolia,True,Av Paral·lel,14.51,12.16,ok,,large,431018.37,4580700.05,431020.32,4580685.67,1.5,class
+0106024AR,Celtis australis,False,C\ Sant Pau,,3.25,no_kerb,,check,,,,,1.0,floor
+0106025AR,Ligustrum lucidum,False,C\ Sant Gil,1.96,0.49,ok,,none,430182.27,4581372.1,430182.1,4581374.05,1.0,floor
+0106027AR,Melia azedarach,False,Jard Doctor Fleming,27.75,3.25,ok,,large,430560.38,4581460.08,430582.77,4581476.48,1.5,class
+0106028AR,Magnolia grandiflora,False,C\ Peu de la Creu,2.3,1.32,ok,,none,430328.95,4581383.87,430327.31,4581385.49,1.0,floor
+0106029AR,Quercus ilex,False,Pl Caramelles,,7.92,no_kerb,,check,,,,,1.0,floor
+0106030AR,Tipuana tipu,False,Av Drassanes,12.24,6.02,ok,,large,430865.56,4580920.81,430862.39,4580908.99,1.5,class
+0106031AR,Styphnolobium japonicum,False,Av Drassanes,,11.25,median,1.86,check,,,,,1.0,floor
+0106032AR,Styphnolobium japonicum,False,Av Drassanes,,15.56,median,2.01,check,,,,,1.0,floor
+0106034AR,Styphnolobium japonicum,False,Av Drassanes,5.19,3.4,ok,,medium,430984.68,4580857.18,430986.04,4580862.18,1.0,class
+0106035AR,Platanus × acerifolia,True,Rda Sant Pau,7.5,6.69,ok,,large,430097.48,4581078.68,430092.1,4581073.46,1.5,class
+0106036AR,Quercus ilex,False,C\ Portal de Santa Madrona,,20.85,no_kerb,,check,,,,,1.0,floor
+0106037AR,Platanus × acerifolia,True,Rbla Raval,,14.76,median,,check,,,,,1.0,floor
+0106039AR,Jacaranda mimosifolia,False,C\ Príncep de Viana,,5.03,no_kerb,,check,,,,,1.0,floor
+0106040AR,Styphnolobium japonicum,False,Av Drassanes,,17.51,median,,check,,,,,1.0,floor
+0106041AR,Ligustrum lucidum,False,C\ Requesens,,1.6,no_kerb,,check,,,,,1.0,floor
+0106044AR,Platanus × acerifolia,True,Av Drassanes,12.42,11.56,ok,,large,431098.35,4580857.68,431095.24,4580845.66,1.5,class
+0106045AR,Tipuana tipu,False,C\ Sant Oleguer,4.17,3.56,ok,,medium,430711.17,4580985.11,430708.93,4580981.6,1.0,class
+0106046AR,Tipuana tipu,False,C\ Cid,9.67,7.73,ok,,large,430911.6,4580794.4,430914.22,4580785.08,1.5,class
+0106047AR,Platanus × acerifolia,True,C\ Rambla,,11.22,median,19.64,check,,,,,1.0,floor
+0106048AR,Platanus × acerifolia,True,C\ Rambla,,11.44,median,18.83,check,,,,,1.0,floor
+0106050AR,X chitalpa tashkentensis 'minsum' SUMMER BELLS®,False,C\ Robador,4.72,3.93,ok,,medium,430718.7,4581136.58,430714.66,4581134.14,1.0,class
+0106051AR,Platanus × acerifolia,True,Rbla Raval,,14.68,median,,check,,,,,1.0,floor
+0106052AR,Platanus × acerifolia,True,Av Paral·lel,20.45,16.83,ok,,large,431018.37,4580700.05,431031.28,4580684.2,1.5,class
+0106053AR,Tipuana tipu,False,C\ Riera Alta,,4.9,no_kerb,,check,,,,,1.0,floor
+0106055AR,Platanus × acerifolia,True,C\ Rambla,,19.39,median,13.74,check,,,,,1.0,floor
+0106057AR,Ficus microcarpa,False,C\ Reina Amàlia,4.58,3.13,ok,,medium,430436.2,4580879.83,430433.28,4580876.3,1.0,class
+0106061AR,Ligustrum lucidum,False,C\ Om,2.14,2.24,ok,,none,430797.57,4580823.43,430796.89,4580821.4,1.0,floor
+0106062AR,Ligustrum lucidum,False,C\ Peracamps,3.21,2.28,ok,,small,430944.84,4580820.26,430944.04,4580817.15,1.0,class
+0106064AR,Styphnolobium japonicum,False,Av Drassanes,4.69,2.99,ok,,medium,430794.12,4580909.24,430795.33,4580913.78,1.0,class
+0106065AR,Celtis australis,False,C\ Valldonzella,5.17,4.56,ok,,medium,430301.98,4581786.22,430297.6,4581788.98,1.0,class
+0106067AR,Pyrus calleryana 'Chanticleer',False,C\ Jovellanos,,2.22,no_kerb,,check,,,,,1.0,floor
+0106069AR,Platanus × acerifolia,True,Rbla Raval,6.67,5.35,ok,,large,430499.82,4581221.55,430494.77,4581217.19,1.5,class
+0106070AR,Tipuana tipu,False,C\ Sant Oleguer,12.63,3.91,ok,,large,430743.77,4580931.48,430750.92,4580941.88,1.5,class
+0106072AR,Ligustrum japonicum,False,C\ Joaquín Costa,3.05,2.16,ok,,small,430205.08,4581621.38,430202.69,4581619.49,1.0,class
+0106076AR,Magnolia grandiflora,False,C\ Riera Alta,9.83,5.48,ok,,large,430240.32,4581321.76,430231.43,4581325.97,1.5,class
+0106077AR,Tipuana tipu,False,Pl Emili Vendrell,,11.43,median,14.11,check,,,,,1.0,floor
+0106078AR,Platanus × acerifolia,True,C\ Arc del Teatre,9.16,6.77,ok,,large,430817.27,4580717.67,430825.23,4580713.15,1.5,class
+0106079AR,Celtis australis,False,C\ Peu de la Creu,2.37,1.35,ok,,none,430323.32,4581378.13,430321.62,4581379.79,1.0,floor
+0106080AR,Acer monspessulanum,False,C\ Sant Antoni Abat,,2.16,no_kerb,,check,,,,,1.0,floor
+0106082AR,Platanus × acerifolia,True,C\ Rambla,,13.11,median,22.56,check,,,,,1.0,floor
+0106083AR,Celtis australis,False,C\ Àngels,8.18,3.83,ok,,large,430449.98,4581511.94,430456.53,4581516.84,1.5,class
+0106084AR,Platanus × acerifolia,True,Rbla Raval,14.76,13.15,ok,,large,430554.45,4581166.89,430539.69,4581166.58,1.5,class
+0106085AR,Jacaranda mimosifolia,False,Av Drassanes,13.62,13.44,ok,,large,430942.4,4580900.82,430942.75,4580887.2,1.5,class
+0106087AR,Platanus × acerifolia,True,C\ Rambla,,7.92,median,13.81,check,,,,,1.0,floor
+0106088AR,Platanus × acerifolia,True,Rda Sant Pau,7.31,7.33,ok,,large,430256.14,4580914.97,430250.9,4580909.87,1.5,class
+0106089AR,Platanus × acerifolia,True,C\ Rambla,,13.43,median,22.8,check,,,,,1.0,floor
+0106090AR,Ligustrum lucidum,False,C\ Sant Gil,1.94,0.65,ok,,none,430084.88,4581363.84,430084.73,4581365.77,1.0,floor
+0106091AR,Platanus × acerifolia,True,Rbla Raval,6.57,5.32,ok,,large,430504.26,4581216.42,430499.29,4581212.12,1.5,class
+0106092AR,Styphnolobium japonicum,False,Av Drassanes,5.12,3.47,ok,,medium,430961.39,4580863.61,430962.75,4580868.54,1.0,class
+0106093AR,Platanus × acerifolia,True,Av Drassanes,,18.95,median,1.83,check,,,,,1.0,floor
+0106094AR,Ligustrum lucidum,False,C\ Peracamps,3.22,2.44,ok,,small,430967.61,4580814.36,430966.8,4580811.24,1.0,class
+0106095AR,Platanus × acerifolia,True,C\ Rambla,,28.33,median,30.38,check,,,,,1.0,floor
+0106096AR,Platanus × acerifolia,True,Rbla Raval,5.7,4.62,ok,,medium,430626.39,4581076.59,430622.2,4581072.72,1.0,class
+0106097AR,Tipuana tipu,False,Jard Voltes d'en Cirés,,12.06,no_kerb,,check,,,,,1.0,floor
+0106099AR,Styphnolobium japonicum,False,Av Drassanes,,18.71,median,,check,,,,,1.0,floor
+0106100AR,Styphnolobium japonicum,False,Av Drassanes,4.69,2.89,ok,,medium,430788.4,4580910.77,430789.61,4580915.3,1.0,class
+0106101AR,Styphnolobium japonicum,False,Av Drassanes,4.68,3.48,ok,,medium,430776.36,4580914.0,430777.57,4580918.52,1.0,class
+0106102AR,Jacaranda mimosifolia,False,C\ Cid,,3.86,no_kerb,,check,,,,,1.0,floor
+0106103AR,Celtis sinensis,False,C\ Peu de la Creu,4.55,3.75,ok,,medium,430440.15,4581498.83,430442.88,4581495.18,1.0,class
+0106104AR,Tipuana tipu,False,Av Drassanes,,10.71,median,1.97,check,,,,,1.0,floor
+0106106AR,Ligustrum japonicum,False,C\ Joaquín Costa,3.05,2.64,ok,,small,430386.7,4581392.84,430384.3,4581390.97,1.0,class
+0106107AR,Ligustrum japonicum,False,C\ Joaquín Costa,2.99,2.41,ok,,small,430395.31,4581381.79,430392.95,4581379.95,1.0,class
+0106108AR,Platanus × acerifolia,True,Av Drassanes,,29.63,median,,check,,,,,1.0,floor
+0106109AR,Quercus ilex,False,C\ Portal de Santa Madrona,,25.58,no_kerb,,check,,,,,1.0,floor
+0106110AR,Tipuana tipu,False,Pl Vicenç Martorell,,15.93,no_kerb,,check,,,,,1.0,floor
+0106111AR,Platanus × acerifolia,True,C\ Rambla,,15.1,median,23.3,check,,,,,1.0,floor
+0106113AR,Quercus suber,False,Pl Caramelles,,14.26,no_kerb,,check,,,,,1.0,floor
+0106114AR,Platanus × acerifolia,True,Av Drassanes,10.03,8.81,ok,,large,431150.28,4580799.69,431154.32,4580808.86,1.5,class
+0106115AR,Jacaranda mimosifolia,False,Av Drassanes,27.48,16.29,ok,,large,430942.29,4580868.88,430917.57,4580880.89,1.5,class
+0106116AR,Prunus cerasifera 'Pissardii',False,C\ Sant Josep Oriol,4.46,3.29,ok,,medium,430609.66,4581102.45,430607.29,4581106.23,1.0,class
+0106119AR,Platanus × acerifolia,True,Av Drassanes,,27.4,median,,check,,,,,1.0,floor
+0106120AR,Platanus × acerifolia,True,Rda Sant Pau,7.42,5.75,ok,,large,430179.03,4580994.52,430173.7,4580989.35,1.5,class
+0106121AR,Magnolia grandiflora,False,C\ Riera Alta,2.88,2.12,ok,,small,430310.76,4581340.21,430310.99,4581337.35,1.0,class
+0106125AR,Tipuana tipu,False,Pl Bonsuccés,,3.07,no_kerb,,check,,,,,1.0,floor
+0106126AR,X chitalpa tashkentensis 'minsum' SUMMER BELLS®,False,C\ Est,,13.34,median,33.79,check,,,,,1.0,floor
+0106127AR,Tipuana tipu,False,C\ Ramon Berenguer el Vell,,8.52,no_kerb,,check,,,,,1.0,floor
+0106130AR,Tipuana tipu,False,C\ Sant Oleguer,4.03,3.4,ok,,medium,430652.83,4581000.95,430654.99,4581004.36,1.0,class
+0106131AR,Acer monspessulanum,False,Pl Pedró,20.87,2.75,ok,,large,430266.85,4581237.08,430278.68,4581219.89,1.5,class
+0106132AR,Brachychiton populneus,False,C\ Montalegre,3.57,2.89,ok,,medium,430323.35,4581746.98,430320.54,4581744.76,1.0,class
+0106133AR,Myrtus communis,False,C\ Príncep de Viana,2.36,1.98,ok,,none,430084.85,4581177.76,430082.5,4581177.56,1.0,floor
+0106134AR,Tipuana tipu,False,C\ Erasme de Janer,2.27,0.99,ok,,none,430262.08,4581274.08,430260.21,4581272.8,1.0,floor
+0106135AR,Platanus × acerifolia,True,C\ Rambla,,14.25,median,22.15,check,,,,,1.0,floor
+0106136AR,Platanus × acerifolia,True,Rbla Raval,,14.81,median,,check,,,,,1.0,floor
+0106137AR,Prunus cerasifera 'Pissardii',False,C\ Doctor Dou,3.76,0.8,ok,,medium,430498.15,4581557.33,430501.18,4581559.55,1.0,class
+0106138AR,Prunus cerasifera 'Pissardii',False,C\ Sant Rafael,2.51,1.68,ok,,small,430620.3,4581217.94,430619.05,4581220.11,1.0,class
+0106139AR,Platanus × acerifolia,True,Rbla Raval,6.95,6.29,ok,,large,430482.72,4581241.16,430477.5,4581236.56,1.5,class
+0106140AR,Platanus × acerifolia,True,Rbla Raval,,14.89,median,32.05,check,,,,,1.0,floor
+0106141AR,Tipuana tipu,False,Pl Pieyre de Mandiargues,19.61,8.23,ok,,large,430742.12,4581007.19,430754.04,4581022.76,1.5,class
+0106142AR,Styphnolobium japonicum,False,Av Drassanes,4.85,3.02,ok,,medium,431008.37,4580851.06,431009.65,4580855.74,1.0,class
+0106144AR,Platanus × acerifolia,True,Pl Universitat,8.72,7.28,ok,,large,430127.66,4581877.65,430121.55,4581883.87,1.5,class
+0106145AR,Tipuana tipu,False,Pl Raquel Meller,22.27,10.24,ok,,large,430588.79,4580749.49,430580.46,4580728.84,1.5,class
+0106147AR,Celtis australis,False,C\ Valldonzella,4.7,4.28,ok,,medium,430319.89,4581814.27,430315.93,4581816.82,1.0,class
+0106149AR,Jacaranda mimosifolia,False,C\ Príncep de Viana,2.8,1.78,ok,,small,430078.5,4581250.35,430075.71,4581250.11,1.0,class
+0106150AR,Robinia pseudoacacia,False,C\ Riera Alta,4.12,3.26,ok,,medium,430172.54,4581318.35,430172.26,4581322.46,1.0,class
+0106151AR,Platanus × acerifolia,True,Av Drassanes,,14.14,no_kerb,36.68,check,,,,,1.0,floor
+0106153AR,Platanus × acerifolia,True,Rda Sant Antoni,16.44,6.69,ok,,large,430045.92,4581241.62,430029.6,4581243.56,1.5,class
+0106154AR,Platanus × acerifolia,True,Rda Sant Antoni,7.59,6.4,ok,,large,430094.32,4581672.78,430086.78,4581673.63,1.5,class
+0106155AR,Tipuana tipu,False,Jard Voltes d'en Cirés,27.63,19.83,ok,,large,430808.22,4580940.6,430833.62,4580929.75,1.5,class
+0106156AR,Cercis siliquastrum,False,C\ Junta de Comerç,4.17,3.3,ok,,medium,430683.73,4581300.99,430687.1,4581303.44,1.0,class
+0106157AR,Magnolia grandiflora,False,C\ Tàpies,,2.22,no_kerb,32.19,check,,,,,1.0,floor
+0106158AR,Jacaranda mimosifolia,False,Rbla Raval,,22.76,median,31.98,check,,,,,1.0,floor
+0106159AR,Platanus × acerifolia,True,C\ Rambla,,12.95,median,13.85,check,,,,,1.0,floor
+0106160AR,Magnolia grandiflora,False,C\ Pintor Fortuny,5.96,3.41,ok,,medium,430517.86,4581559.65,430516.93,4581553.76,1.0,class
+0106161AR,Tipuana tipu,False,Pl Raquel Meller,22.86,21.11,ok,,large,430591.76,4580748.29,430583.2,4580727.09,1.5,class
+0106163AR,Platanus × acerifolia,True,Av Drassanes,,14.48,median,,check,,,,,1.0,floor
+0106165AR,Hibiscus syriacus,False,C\ Gravina,3.2,2.41,ok,,small,430244.54,4581895.37,430247.71,4581894.95,1.0,class
+0106166AR,Celtis australis,False,C\ Àngels,5.08,4.16,ok,,medium,430503.35,4581473.7,430499.29,4581470.65,1.0,class
+0106167AR,Celtis australis,False,C\ Peu de la Creu,3.57,2.79,ok,,medium,430423.94,4581470.11,430421.75,4581472.92,1.0,class
+0106168AR,Platanus × acerifolia,True,Rda Sant Antoni,7.44,6.5,ok,,large,430103.49,4581755.65,430096.09,4581756.51,1.5,class
+0106169AR,Tipuana tipu,False,C\ Sant Oleguer,3.95,2.27,ok,,medium,430718.63,4580959.16,430720.75,4580962.5,1.0,class
+0106170AR,Celtis australis,False,C\ Àngels,5.12,5.1,ok,,medium,430466.36,4581523.1,430462.27,4581520.02,1.0,class
+0106171AR,Ligustrum lucidum,False,C\ Sant Gil,1.93,0.78,ok,,none,430106.31,4581365.56,430106.14,4581367.48,1.0,floor
+0106172AR,Prunus cerasifera 'Pissardii',False,C\ Sant Josep Oriol,3.86,2.61,ok,,medium,430626.4,4581112.96,430624.35,4581116.23,1.0,class
+0106173AR,Tipuana tipu,False,Av Drassanes,12.31,12.17,ok,,large,430888.15,4580914.75,430884.96,4580902.86,1.5,class
+0106175AR,Platanus × acerifolia,True,Rda Sant Antoni,,6.44,no_kerb,,check,,,,,1.0,floor
+0106176AR,Platanus × acerifolia,True,Rbla Raval,,14.89,median,32.02,check,,,,,1.0,floor
+0106177AR,Celtis sinensis,False,C\ Peu de la Creu,4.55,3.68,ok,,medium,430427.67,4581489.49,430430.4,4581485.85,1.0,class
+0106178AR,Brachychiton populneus,False,C\ Torres i Amat,,6.54,median,2.87,check,,,,,1.0,floor
+0106179AR,Styphnolobium japonicum,False,Av Drassanes,4.77,2.85,ok,,medium,430990.47,4580856.03,430991.73,4580860.63,1.0,class
+0106180AR,Styphnolobium japonicum,False,Av Drassanes,,18.76,median,,check,,,,,1.0,floor
+0106181AR,Tipuana tipu,False,C\ Ramon Berenguer el Vell,,13.02,median,,check,,,,,1.0,floor
+0106182AR,Brachychiton populneus,False,C\ Torres i Amat,,6.85,median,2.72,check,,,,,1.0,floor
+0106183AR,Celtis australis,False,C\ Pintor Fortuny,4.1,3.62,ok,,medium,430569.84,4581595.9,430572.29,4581592.62,1.0,class
+0106184AR,Platanus × acerifolia,True,Rbla Raval,5.97,4.98,ok,,medium,430504.55,4581127.97,430509.06,4581131.89,1.0,class
+0106185AR,Quercus ilex,False,Jard Voltes d'en Cirés,,7.53,no_kerb,18.42,check,,,,,1.0,floor
+0106186AR,Prunus cerasifera 'Pissardii',False,C\ Doctor Dou,2.42,1.97,ok,,none,430530.93,4581533.86,430528.99,4581532.42,1.0,floor
+0106187AR,Tipuana tipu,False,Av Drassanes,12.16,9.01,ok,,large,430896.84,4580876.53,430906.51,4580883.92,1.5,class
+0106188AR,Jacaranda mimosifolia,False,Av Drassanes,18.02,17.48,ok,,large,430937.91,4580905.0,430925.61,4580891.84,1.5,class
+0106191AR,Styphnolobium japonicum,False,C\ Riera Alta,2.94,2.46,ok,,small,430201.58,4581331.74,430200.41,4581329.05,1.0,class
+0106192AR,Brachychiton populneus,False,C\ Montalegre,3.41,2.43,ok,,small,430337.97,4581726.5,430335.22,4581724.48,1.0,class
+0106193AR,Jacaranda mimosifolia,False,Av Drassanes,15.85,6.83,ok,,large,430942.4,4580900.82,430947.67,4580885.87,1.5,class
+0106194AR,Styphnolobium japonicum,False,Av Drassanes,,5.69,median,12.87,check,,,,,1.0,floor
+0106195AR,Platanus × acerifolia,True,Rbla Raval,,14.75,median,,check,,,,,1.0,floor
+0106196AR,Platanus × acerifolia,True,Rbla Raval,6.91,5.93,ok,,large,430487.11,4581236.17,430481.93,4581231.6,1.5,class
+0106197AR,Platanus × acerifolia,True,Rbla Raval,5.72,4.33,ok,,medium,430588.88,4581031.96,430593.17,4581035.74,1.0,class
+0106198AR,Platanus × acerifolia,True,Rbla Raval,,14.16,median,3.94,check,,,,,1.0,floor
+0106199AR,Tipuana tipu,False,C\ Tàpies,5.76,5.28,ok,,medium,430583.93,4580752.49,430579.17,4580755.73,1.0,class
+0106200AR,Jacaranda mimosifolia,False,Av Drassanes,24.42,23.69,ok,,large,430934.01,4580908.65,430913.72,4580895.07,1.5,class
+0106201AR,Platanus × acerifolia,True,Av Drassanes,,24.91,median,,check,,,,,1.0,floor
+0106202AR,Magnolia grandiflora,False,C\ Riera Alta,2.96,3.06,ok,,small,430362.78,4581344.05,430362.99,4581341.1,1.0,class
+0106203AR,Platanus × acerifolia,True,Rda Sant Antoni,16.51,6.53,ok,,large,430043.63,4581220.73,430027.23,4581222.57,1.5,class
+0106204AR,Quercus ilex,False,C\ Sant Pau,4.33,2.98,ok,,medium,430445.06,4580774.85,430442.06,4580777.98,1.0,class
+0106205AR,Brachychiton populneus,False,C\ Montalegre,3.49,2.57,ok,,small,430364.98,4581689.86,430362.17,4581687.79,1.0,class
+0106206AR,Brachychiton populneus,False,C\ Portal de Santa Madrona,,33.71,no_facade,,check,,,,,1.0,floor
+0106207AR,Platanus × acerifolia,True,Av Drassanes,,26.74,median,1.96,check,,,,,1.0,floor
+0106208AR,Magnolia grandiflora,False,C\ Abat Safont,10.92,5.4,ok,,large,430561.5,4580737.71,430572.41,4580737.38,1.5,class
+0106209AR,Quercus ilex,False,C\ Ramon Berenguer el Vell,,5.73,no_kerb,,check,,,,,1.0,floor
+0106212AR,Platanus × acerifolia,True,C\ Rambla,,19.88,median,29.2,check,,,,,1.0,floor
+0106213AR,Ligustrum lucidum,False,C\ Om,2.1,2.4,ok,,none,430767.1,4580833.57,430766.44,4580831.58,1.0,floor
+0106214AR,Jacaranda mimosifolia,False,Av Drassanes,21.12,20.5,ok,,large,430934.01,4580908.65,430919.23,4580893.57,1.5,class
+0106215AR,Platanus × acerifolia,True,Rda Sant Pau,15.07,14.56,ok,,large,430422.08,4580752.8,430407.67,4580748.37,1.5,class
+0106216AR,Platanus × acerifolia,True,Rbla Raval,15.55,13.62,ok,,large,430567.76,4581149.3,430568.54,4581133.77,1.5,class
+0106217AR,Tipuana tipu,False,C\ Carme,,8.62,median,,check,,,,,1.0,floor
+0106218AR,Tipuana tipu,False,C\ Sant Oleguer,4.01,2.98,ok,,medium,430693.47,4580975.19,430695.63,4580978.57,1.0,class
+0106220AR,Platanus × acerifolia,True,Rbla Raval,6.26,5.03,ok,,large,430517.8,4581200.77,430513.06,4581196.67,1.5,class
+0106221AR,Ligustrum lucidum,False,C\ Om,2.7,3.13,ok,,small,430737.6,4580843.39,430735.29,4580841.98,1.0,class
+0106222AR,Platanus × acerifolia,True,Rda Sant Antoni,7.62,5.84,ok,,large,430097.92,4581704.71,430090.35,4581705.56,1.5,class
+0106224AR,Tipuana tipu,False,Pl Pieyre de Mandiargues,19.54,4.56,ok,,large,430736.98,4581011.13,430748.85,4581026.64,1.5,class
+0106225AR,Ligustrum lucidum,False,C\ Peracamps,3.01,3.02,ok,,small,431003.09,4580805.17,431002.33,4580802.26,1.0,class
+0106226AR,Quercus ilex,False,C\ Maria Aurèlia Capmany,4.42,4.55,ok,,medium,430439.65,4581258.78,430436.33,4581255.87,1.0,class
+0106228AR,Ligustrum lucidum,False,C\ Om,2.17,2.02,ok,,none,430824.55,4580814.45,430823.86,4580812.39,1.0,floor
+0106229AR,Platanus × acerifolia,True,C\ Rambla,,8.1,median,13.41,check,,,,,1.0,floor
+0106230AR,Platanus × acerifolia,True,C\ Rambla,,10.25,median,15.85,check,,,,,1.0,floor
+0106231AR,Magnolia grandiflora,False,C\ Riera Alta,4.07,3.53,ok,,medium,430282.39,4581326.0,430282.08,4581330.06,1.0,class
+0106232AR,Brachychiton populneus,False,C\ Montalegre,,8.67,median,3.8,check,,,,,1.0,floor
+0106233AR,Tipuana tipu,False,Pl Bonsuccés,,7.21,no_kerb,,check,,,,,1.0,floor
+0106235AR,Magnolia grandiflora,False,C\ Xuclà,,4.38,no_kerb,,check,,,,,1.0,floor
+0106237AR,Tipuana tipu,False,C\ Sant Oleguer,4.35,3.65,ok,,medium,430685.71,4581001.32,430683.37,4580997.66,1.0,class
+0106238AR,Brachychiton populneus,False,C\ Montalegre,3.5,2.75,ok,,medium,430368.98,4581684.43,430366.16,4581682.35,1.0,class
+0106241AR,Celtis australis,False,C\ Àngels,5.01,4.12,ok,,medium,430423.12,4581580.59,430419.11,4581577.59,1.0,class
+0106242AR,Brachychiton rupestris,False,C\ Unió,2.64,1.76,ok,,small,430848.91,4581186.11,430850.98,4581184.46,1.0,class
+0106243AR,Melia azedarach,False,C\ Portal de Santa Madrona,8.81,6.13,ok,,large,431036.28,4580820.15,431037.52,4580828.88,1.5,class
+0106244AR,Ligustrum japonicum,False,C\ Joaquín Costa,3.1,2.54,ok,,small,430157.13,4581681.84,430154.68,4581679.94,1.0,class
+0106245AR,Magnolia grandiflora,False,C\ Riera Alta,3.94,2.68,ok,,medium,430234.81,4581335.16,430234.99,4581331.23,1.0,class
+0106247AR,Acer monspessulanum,False,C\ Sant Antoni Abat,,0.95,no_kerb,,check,,,,,1.0,floor
+0106248AR,Ficus microcarpa,False,C\ Reina Amàlia,4.59,3.15,ok,,medium,430452.35,4580866.61,430449.44,4580863.06,1.0,class
+0106249AR,Quercus ilex,False,C\ Ramon Berenguer el Vell,,4.98,no_kerb,,check,,,,,1.0,floor
+0106250AR,Ligustrum japonicum,False,C\ Joaquín Costa,3.05,2.29,ok,,small,430223.5,4581598.2,430221.11,4581596.3,1.0,class
+0106251AR,Celtis australis,False,C\ Àngels,15.67,8.19,ok,,large,430491.67,4581452.35,430507.17,4581450.09,1.5,class
+0106252AR,Celtis australis,False,C\ Àngels,5.03,4.22,ok,,medium,430430.82,4581570.32,430426.8,4581567.29,1.0,class
+0106253AR,Ficus microcarpa,False,C\ Carretes,3.34,2.27,ok,,small,430492.13,4580891.89,430494.29,4580894.44,1.0,class
+0106256AR,Platanus × acerifolia,True,Rda Sant Antoni,7.66,6.52,ok,,large,430078.66,4581534.41,430071.05,4581535.2,1.5,class
+0106258AR,Styphnolobium japonicum,False,Av Drassanes,4.65,2.61,ok,,medium,431025.51,4580846.6,431026.69,4580851.09,1.0,class
+0106259AR,Platanus × acerifolia,True,C\ Rambla,,9.63,median,17.18,check,,,,,1.0,floor
+0106260AR,Platanus × acerifolia,True,C\ Rambla,,12.56,median,14.41,check,,,,,1.0,floor
+0106261AR,Platanus × acerifolia,True,C\ Rambla,,13.61,median,23.12,check,,,,,1.0,floor
+0106263AR,Ficus microcarpa,False,C\ Reina Amàlia,4.59,3.33,ok,,medium,430441.2,4580875.73,430438.3,4580872.18,1.0,class
+0106264AR,Platanus × acerifolia,True,Rbla Raval,7.03,5.77,ok,,large,430473.33,4581251.81,430468.05,4581247.17,1.5,class
+0106265AR,Firmiana simplex,False,Pl Vicenç Martorell,,13.4,no_kerb,,check,,,,,1.0,floor
+0106267AR,Jacaranda mimosifolia,False,Av Drassanes,13.17,12.67,ok,,large,430942.4,4580900.82,430937.32,4580888.67,1.5,class
+0106268AR,Platanus × acerifolia,True,C\ Rambla,,7.94,median,5.55,check,,,,,1.0,floor
+0106269AR,Celtis australis,False,C\ Àngels,5.0,4.18,ok,,medium,430513.19,4581460.58,430509.19,4581457.58,1.0,class
+0106270AR,Prunus cerasifera 'Pissardii',False,C\ Doctor Dou,2.57,2.01,ok,,small,430473.04,4581611.06,430470.98,4581609.52,1.0,class
+0106273AR,Styphnolobium japonicum,False,Pl Pes de la Palla,,14.41,no_kerb,,check,,,,,1.0,floor
+0106274AR,Platanus × acerifolia,True,Rbla Raval,,20.43,median,31.99,check,,,,,1.0,floor
+0106275AR,Platanus × acerifolia,True,Rbla Raval,5.58,4.37,ok,,medium,430431.94,4581210.72,430436.14,4581214.39,1.0,class
+0106276AR,Platanus × acerifolia,True,C\ Rambla,,14.6,median,13.44,check,,,,,1.0,floor
+0106277AR,Celtis australis,False,C\ Àngels,5.27,5.21,ok,,medium,430481.58,4581502.72,430477.37,4581499.56,1.0,class
+0106278AR,Melia azedarach,False,C\ Portal de Santa Madrona,6.92,5.75,ok,,large,431027.22,4580800.58,431020.94,4580803.49,1.5,class
+0106279AR,Magnolia grandiflora,False,C\ Riera Alta,2.96,2.21,ok,,small,430359.23,4581343.79,430359.44,4581340.84,1.0,class
+0106280AR,Cercis siliquastrum,False,C\ Junta de Comerç,3.8,2.86,ok,,medium,430674.14,4581316.08,430677.32,4581318.15,1.0,class
+0106281AR,Magnolia grandiflora,False,C\ Riera Alta,6.13,2.96,ok,,large,430129.25,4581315.37,430128.83,4581321.49,1.5,class
+0106282AR,Ulmus pumila,False,C\ Portal de Santa Madrona,,13.91,median,13.75,check,,,,,1.0,floor
+0106283AR,Celtis australis,False,C\ Pintor Fortuny,4.11,3.38,ok,,medium,430576.78,4581601.08,430579.24,4581597.79,1.0,class
+0106284AR,Ligustrum japonicum,False,C\ Joaquín Costa,3.05,2.07,ok,,small,430196.87,4581631.72,430194.49,4581629.82,1.0,class
+0106285AR,Styphnolobium japonicum,False,Av Drassanes,4.68,3.27,ok,,medium,430782.43,4580912.38,430783.64,4580916.9,1.0,class
+0106286AR,Ligustrum japonicum,False,C\ Joaquín Costa,3.05,1.86,ok,,small,430231.97,4581587.53,430229.58,4581585.63,1.0,class
+0106287AR,Jacaranda mimosifolia,False,C\ Portal de Santa Madrona,,27.58,no_kerb,,check,,,,,1.0,floor
+0106288AR,Jacaranda mimosifolia,False,C\ Príncep de Viana,2.83,1.5,ok,,small,430075.24,4581288.38,430072.42,4581288.14,1.0,class
+0106289AR,Brachychiton acerifolius,False,C\ Portal de Santa Madrona,,22.56,median,,check,,,,,1.0,floor
+0106290AR,Quercus ilex,False,C\ Maria Aurèlia Capmany,4.45,2.85,ok,,medium,430400.87,4581280.4,430404.21,4581283.33,1.0,class
+0106291AR,Platanus × acerifolia,True,Rda Sant Antoni,,12.75,no_kerb,,check,,,,,1.0,floor
+0106292AR,Magnolia grandiflora,False,C\ Tàpies,,2.51,no_kerb,32.15,check,,,,,1.0,floor
+0106293AR,Platanus × acerifolia,True,Av Paral·lel,12.03,11.31,ok,,large,431009.84,4580699.57,431002.84,4580689.78,1.5,class
+0106296AR,Platanus × acerifolia,True,Rbla Raval,6.06,4.79,ok,,large,430558.0,4581154.86,430552.95,4581151.49,1.5,class
+0106297AR,Brachychiton populneus,False,C\ Torres i Amat,6.84,5.89,ok,,large,430244.34,4581771.93,430240.74,4581777.74,1.5,class
+0106298AR,Tipuana tipu,False,C\ Erasme de Janer,2.25,1.0,ok,,none,430243.58,4581300.96,430241.73,4581299.67,1.0,floor
+0106299AR,Platanus × acerifolia,True,Rbla Raval,,14.4,median,,check,,,,,1.0,floor
+0106300AR,Melia azedarach,False,Jard Doctor Fleming,,8.65,median,,check,,,,,1.0,floor
+0106301AR,Platanus × acerifolia,True,C\ Rambla,,12.1,median,14.46,check,,,,,1.0,floor
+0106302AR,Tipuana tipu,False,Pl Pieyre de Mandiargues,,7.94,no_kerb,,check,,,,,1.0,floor
+0106303AR,Ligustrum lucidum,False,C\ Peracamps,3.15,2.6,ok,,small,430985.69,4580809.68,430984.9,4580806.63,1.0,class
+0106304AR,Styphnolobium japonicum,False,Av Drassanes,12.45,11.98,ok,,large,430992.02,4580886.77,430989.43,4580874.59,1.5,class
+0106305AR,Styphnolobium japonicum,False,C\ Riera Alta,,1.43,no_kerb,,check,,,,,1.0,floor
+0106306AR,Platanus × acerifolia,True,Pl Blanquerna,,26.9,no_kerb,,check,,,,,1.0,floor
+0106307AR,Styphnolobium japonicum,False,Av Drassanes,11.95,11.59,ok,,large,431015.31,4580879.98,431012.2,4580868.45,1.5,class
+0106308AR,Platanus × acerifolia,True,Rbla Raval,,18.02,median,32.01,check,,,,,1.0,floor
+0106309AR,Melia azedarach,False,C\ Portal de Santa Madrona,5.9,4.64,ok,,medium,431030.21,4580807.05,431024.85,4580809.53,1.0,class
+0106311AR,Platanus × acerifolia,True,Rbla Raval,,16.92,median,31.94,check,,,,,1.0,floor
+0106313AR,Platanus × acerifolia,True,C\ Rambla,,8.74,median,18.51,check,,,,,1.0,floor
+0106314AR,Celtis australis,False,C\ Sant Pau,10.5,5.23,ok,,large,430479.65,4580847.05,430487.64,4580840.23,1.5,class
+0106315AR,Jacaranda mimosifolia,False,C\ Cid,,8.92,no_kerb,,check,,,,,1.0,floor
+0106317AR,Platanus × acerifolia,True,C\ Rambla,,15.61,median,23.71,check,,,,,1.0,floor
+0106319AR,Styphnolobium japonicum,False,Av Drassanes,5.08,3.61,ok,,medium,430949.98,4580866.76,430951.33,4580871.66,1.0,class
+0106320AR,Platanus × acerifolia,True,Av Drassanes,12.39,11.08,ok,,large,431104.4,4580856.12,431101.29,4580844.12,1.5,class
+0106321AR,Tipuana tipu,False,C\ Sant Oleguer,4.03,2.88,ok,,medium,430698.63,4580971.9,430700.8,4580975.3,1.0,class
+0106323AR,Platanus × acerifolia,True,Av Paral·lel,8.35,7.27,ok,,large,430748.89,4580721.2,430748.14,4580712.88,1.5,class
+0106324AR,Magnolia grandiflora,False,C\ Riera Alta,4.24,3.22,ok,,medium,430301.07,4581327.41,430300.75,4581331.64,1.0,class
+0106325AR,Jacaranda mimosifolia,False,C\ Cid,,3.46,no_kerb,,check,,,,,1.0,floor
+0106326AR,Platanus × acerifolia,True,Av Drassanes,19.4,7.69,ok,,large,431118.17,4580854.37,431124.86,4580836.16,1.5,class
+0106327AR,Ulmus pumila,False,C\ Portal de Santa Madrona,,36.57,no_facade,,check,,,,,1.0,floor
+0106328AR,Platanus × acerifolia,True,Rda Sant Pau,7.38,7.04,ok,,large,430059.02,4581117.93,430053.76,4581112.76,1.5,class
+0106329AR,Ulmus pumila,False,C\ Arc del Teatre,6.59,4.94,ok,,large,430867.05,4580847.18,430871.94,4580851.6,1.5,class
+0106331AR,Melia azedarach,False,Pl Vicenç Martorell,,18.78,no_kerb,,check,,,,,1.0,floor
+0106332AR,Brachychiton populneus,False,C\ Montalegre,,6.24,median,4.19,check,,,,,1.0,floor
+0106334AR,Tipuana tipu,False,Av Drassanes,9.67,7.51,ok,,large,430896.02,4580876.76,430898.57,4580886.09,1.5,class
+0106336AR,Magnolia grandiflora,False,C\ Riera Alta,4.24,3.13,ok,,medium,430289.23,4581338.45,430286.34,4581335.35,1.0,class
+0106337AR,Brachychiton populneus,False,C\ Unió,2.61,1.67,ok,,small,430852.61,4581190.74,430854.65,4581189.12,1.0,class
+0106338AR,Platanus × acerifolia,True,C\ Rambla,,19.74,median,25.49,check,,,,,1.0,floor
+0106340AR,Platanus × acerifolia,True,Pl Pere Coromines,19.42,16.22,ok,,large,430775.37,4580960.23,430764.15,4580944.39,1.5,class
+0106341AR,Platanus × acerifolia,True,Av Paral·lel,8.39,7.14,ok,,large,430720.08,4580723.78,430719.33,4580715.43,1.5,class
+0106343AR,Prunus cerasifera 'Pissardii',False,C\ Doctor Dou,2.47,0.83,ok,,none,430469.4,4581595.93,430471.38,4581597.41,1.0,floor
+0106344AR,Magnolia grandiflora,False,C\ Riera Alta,2.95,1.74,ok,,small,430346.86,4581342.89,430347.08,4581339.95,1.0,class
+0106345AR,Platanus × acerifolia,True,Rbla Raval,,14.79,median,,check,,,,,1.0,floor
+0106346AR,Platanus × acerifolia,True,C\ Rambla,,9.15,median,16.69,check,,,,,1.0,floor
+0106347AR,Styphnolobium japonicum,False,Av Drassanes,4.81,3.27,ok,,medium,430863.91,4580890.46,430865.19,4580895.1,1.0,class
+0106348AR,Platanus × acerifolia,True,C\ Rambla,,9.21,median,16.04,check,,,,,1.0,floor
+0106349AR,Styphnolobium japonicum,False,Av Drassanes,,10.85,median,1.89,check,,,,,1.0,floor
+0106350AR,Platanus × acerifolia,True,Av Drassanes,12.37,10.91,ok,,large,431092.97,4580859.07,431089.87,4580847.1,1.5,class
+0106352AR,Platanus × acerifolia,True,Rbla Raval,,14.82,median,,check,,,,,1.0,floor
+0106353AR,Platanus × acerifolia,True,Av Paral·lel,8.43,7.43,ok,,large,430757.72,4580720.25,430754.97,4580712.28,1.5,class
+0106354AR,Platanus × acerifolia,True,Av Paral·lel,8.44,7.34,ok,,large,430698.44,4580725.73,430697.68,4580717.32,1.5,class
+0106355AR,Ligustrum lucidum,False,C\ Santa Madrona,1.99,1.3,ok,,none,430669.7,4580795.11,430670.69,4580796.83,1.0,floor
+0106356AR,Parrotia persica 'Vanessa',False,C\ Príncep de Viana,2.66,2.19,ok,,small,430082.57,4581203.7,430079.93,4581203.47,1.0,class
+0106357AR,Platanus × acerifolia,True,Av Drassanes,25.09,22.46,ok,,large,431089.22,4580860.04,431064.91,4580853.84,1.5,class
+0106358AR,Styphnolobium japonicum,False,Av Drassanes,,11.16,median,1.92,check,,,,,1.0,floor
+0106362AR,Ulmus pumila,False,C\ Portal de Santa Madrona,,19.1,median,26.67,check,,,,,1.0,floor
+0106364AR,Platanus × acerifolia,True,Rbla Raval,6.36,5.21,ok,,large,430513.37,4581205.89,430508.56,4581201.72,1.5,class
+0106365AR,Tipuana tipu,False,C\ Carme,,9.06,median,,check,,,,,1.0,floor
+0106367AR,Platanus × acerifolia,True,C\ Rambla,,13.53,median,,check,,,,,1.0,floor
+0106368AR,Platanus × acerifolia,True,C\ Rambla,,16.76,median,24.65,check,,,,,1.0,floor
+0106369AR,Platanus × acerifolia,True,Av Paral·lel,,24.14,no_kerb,,check,,,,,1.0,floor
+0106370AR,Tipuana tipu,False,C\ Cid,4.72,3.57,ok,,medium,430914.16,4580805.12,430918.75,4580804.02,1.0,class
+0106371AR,Brachychiton populneus,False,C\ Portal de Santa Madrona,,27.19,median,18.53,check,,,,,1.0,floor
+0106373AR,Platanus × acerifolia,True,Rda Sant Antoni,7.56,6.1,ok,,large,430093.46,4581665.16,430085.95,4581666.0,1.5,class
+0106374AR,Tipuana tipu,False,Pl Raquel Meller,,8.52,median,,check,,,,,1.0,floor
+0106375AR,Magnolia grandiflora,False,C\ Riera Alta,2.89,2.16,ok,,small,430296.26,4581339.03,430296.5,4581336.15,1.0,class
+0106376AR,Platanus × acerifolia,True,Rda Sant Pau,,16.34,median,7.37,check,,,,,1.0,floor
+0106377AR,Platanus × acerifolia,True,Av Drassanes,,18.72,median,1.9,check,,,,,1.0,floor
+0106378AR,Myrtus communis,False,C\ Príncep de Viana,2.75,1.99,ok,,small,430081.7,4581213.65,430078.96,4581213.41,1.0,class
+0106379AR,Platanus × acerifolia,True,Rda Sant Antoni,7.65,6.04,ok,,large,430096.12,4581688.71,430088.52,4581689.57,1.5,class
+0106380AR,Prunus cerasifera 'Pissardii',False,C\ Hospital,3.9,3.57,ok,,medium,430811.35,4581392.99,430813.42,4581389.69,1.0,class
+0106381AR,Celtis australis,False,C\ Àngels,5.04,3.87,ok,,medium,430427.1,4581575.27,430423.07,4581572.25,1.0,class
+0106382AR,Elaeagnus pungens,False,C\ Maria Aurèlia Capmany,4.43,3.38,ok,,medium,430380.86,4581303.25,430384.2,4581306.17,1.0,class
+0106383AR,Brachychiton acerifolius,False,C\ Portal de Santa Madrona,,31.54,no_facade,14.16,check,,,,,1.0,floor
+0106385AR,Prunus cerasifera 'Pissardii',False,C\ Doctor Dou,2.68,1.94,ok,,small,430552.56,4581484.67,430554.7,4581486.28,1.0,class
+0106386AR,Platanus × acerifolia,True,Pl Canonge Colom,,5.16,no_kerb,27.13,check,,,,,1.0,floor
+0106387AR,Tipuana tipu,False,Pl Bonsuccés,,7.01,no_kerb,,check,,,,,1.0,floor
+0106388AR,Platanus × acerifolia,True,Pl Pere Coromines,20.28,19.53,ok,,large,430760.37,4580970.86,430748.65,4580954.31,1.5,class
+0106389AR,Tipuana tipu,False,Pl Pieyre de Mandiargues,8.0,4.98,ok,,large,430728.26,4581017.8,430731.01,4581025.31,1.5,class
+0106390AR,Platanus × acerifolia,True,Rda Sant Antoni,7.55,6.65,ok,,large,430102.86,4581750.22,430095.32,4581749.68,1.5,class
+0106391AR,Magnolia grandiflora,False,C\ Riera Alta,4.12,3.32,ok,,medium,430178.36,4581318.74,430178.09,4581322.85,1.0,class
+0106392AR,Ulmus pumila,False,C\ Arc del Teatre,5.03,2.99,ok,,medium,430837.2,4580761.04,430841.92,4580759.29,1.0,class
+0106393AR,Platanus × acerifolia,True,Rbla Raval,5.72,4.59,ok,,medium,430580.15,4581041.88,430584.45,4581045.66,1.0,class
+0106394AR,Brachychiton populneus,False,C\ Unió,2.64,1.85,ok,,small,430845.21,4581181.48,430847.28,4581179.83,1.0,class
+0106395AR,Platanus × acerifolia,True,Av Paral·lel,8.46,7.45,ok,,large,430690.67,4580726.42,430689.91,4580718.0,1.5,class
+0106397AR,Tipuana tipu,False,Jard Voltes d'en Cirés,23.17,15.67,ok,,large,430812.84,4580964.03,430830.86,4580949.47,1.5,class
+0106398AR,Ligustrum lucidum,False,C\ Om,2.08,2.39,ok,,none,430751.99,4580838.6,430751.33,4580836.62,1.0,floor
+0106399AR,Jacaranda mimosifolia,False,Pl Jean Genet,,8.73,no_kerb,29.59,check,,,,,1.0,floor
+0106400AR,Styphnolobium japonicum,False,Av Drassanes,12.47,4.68,ok,,large,430986.77,4580888.23,430983.42,4580876.22,1.5,class
+0106402AR,Ligustrum japonicum,False,C\ Joaquín Costa,3.05,1.93,ok,,small,430201.06,4581626.44,430198.68,4581624.55,1.0,class
+0106404AR,Ligustrum lucidum,False,C\ Sant Gil,1.96,0.41,ok,,none,430192.44,4581372.97,430192.28,4581374.93,1.0,floor
+0106406AR,Platanus × acerifolia,True,Rbla Raval,,15.24,median,21.45,check,,,,,1.0,floor
+0106407AR,Tipuana tipu,False,Pl Emili Vendrell,,7.54,median,14.17,check,,,,,1.0,floor
+0106408AR,Quercus ilex,False,C\ Sant Pau,4.96,3.25,ok,,medium,430480.25,4580808.65,430476.82,4580812.23,1.0,class
+0106409AR,Jacaranda mimosifolia,False,C\ Cid,,3.53,no_kerb,,check,,,,,1.0,floor
+0106410AR,Ulmus pumila,False,C\ Arc del Teatre,,6.81,median,,check,,,,,1.0,floor
+0106411AR,Platanus × acerifolia,True,Rbla Raval,,14.97,median,10.36,check,,,,,1.0,floor
+0106413AR,Brachychiton acerifolius,False,C\ Portal de Santa Madrona,,23.94,median,25.66,check,,,,,1.0,floor
+0106414AR,Robinia pseudoacacia,False,C\ Riera Alta,,1.67,no_kerb,,check,,,,,1.0,floor
+0106416AR,Platanus × acerifolia,True,Rbla Raval,6.77,5.81,ok,,large,430495.63,4581226.4,430490.51,4581221.97,1.5,class
+0106417AR,Platanus × acerifolia,True,C\ Rambla,,13.35,median,13.83,check,,,,,1.0,floor
+0106418AR,Quercus ilex,False,C\ Portal de Santa Madrona,,34.6,no_facade,,check,,,,,1.0,floor
+0106419AR,Quercus suber,False,Pl Caramelles,,7.71,no_kerb,,check,,,,,1.0,floor
+0106420AR,Platanus × acerifolia,True,Av Paral·lel,7.79,6.49,ok,,large,430771.6,4580718.62,430770.69,4580710.89,1.5,class
+0106423AR,Ligustrum lucidum,False,C\ Ferlandina,3.9,2.51,ok,,medium,430117.16,4581467.16,430117.69,4581463.3,1.0,class
+0106424AR,Platanus × acerifolia,True,Av Paral·lel,,31.92,no_facade,2.49,check,,,,,1.0,floor
+0106425AR,Styphnolobium japonicum,False,Av Drassanes,5.15,3.33,ok,,medium,430973.19,4580860.35,430974.56,4580865.32,1.0,class
+0106427AR,Quercus suber,False,Pl Caramelles,,5.19,no_kerb,,check,,,,,1.0,floor
+0106428AR,Celtis australis,False,C\ Pintor Fortuny,4.27,3.19,ok,,medium,430546.15,4581578.48,430548.72,4581575.08,1.0,class
+0106429AR,Magnolia grandiflora,False,C\ Riera Alta,2.88,2.42,ok,,small,430167.86,4581329.91,430168.04,4581327.04,1.0,class
+0106430AR,Tipuana tipu,False,C\ Erasme de Janer,2.41,1.43,ok,,none,430269.02,4581264.24,430267.03,4581262.88,1.0,floor
+0106432AR,Platanus × acerifolia,True,Rbla Raval,,14.35,median,,check,,,,,1.0,floor
+0106433AR,Celtis australis,False,C\ Àngels,5.03,4.51,ok,,medium,430447.18,4581548.58,430443.16,4581545.56,1.0,class
+0106434AR,Ligustrum lucidum,False,C\ Peracamps,3.04,2.79,ok,,small,430911.49,4580828.82,430910.72,4580825.88,1.0,class
+0106435AR,Celtis sinensis,False,C\ Valldonzella,4.58,3.89,ok,,medium,430283.08,4581784.83,430286.89,4581782.3,1.0,class
+0106436AR,Jacaranda mimosifolia,False,Rbla Raval,,23.23,median,31.94,check,,,,,1.0,floor
+0106437AR,Platanus × acerifolia,True,Av Drassanes,29.74,28.63,ok,,large,431045.66,4580815.61,431058.61,4580842.38,1.5,class
+0106438AR,Platanus × acerifolia,True,C\ Rambla,,15.27,median,13.67,check,,,,,1.0,floor
+0106439AR,Quercus ilex,False,C\ Maria Aurèlia Capmany,4.47,3.77,ok,,medium,430389.46,4581316.13,430386.1,4581313.19,1.0,class
+0106442AR,Prunus cerasifera 'Pissardii',False,C\ Doctor Dou,2.46,1.54,ok,,none,430506.75,4581566.11,430504.79,4581564.63,1.0,floor
+0106443AR,Ficus microcarpa,False,C\ Reina Amàlia,,4.21,median,,check,,,,,1.0,floor
+0106444AR,Quercus suber,False,Pl Caramelles,,17.05,no_kerb,,check,,,,,1.0,floor
+0106445AR,Cercis siliquastrum,False,C\ Flors,3.12,2.08,ok,,small,430392.75,4580824.74,430392.72,4580821.62,1.0,class
+0106448AR,Quercus ilex,False,C\ Portal de Santa Madrona,,29.51,no_kerb,,check,,,,,1.0,floor
+0106449AR,Magnolia grandiflora,False,C\ Riera Alta,2.6,1.54,ok,,small,430251.59,4581335.04,430251.52,4581332.44,1.0,class
+0106450AR,Styphnolobium japonicum,False,Av Drassanes,5.1,3.83,ok,,medium,430955.8,4580865.15,430957.16,4580870.07,1.0,class
+0106452AR,Platanus × acerifolia,True,Rbla Raval,,14.95,median,31.96,check,,,,,1.0,floor
+0106453AR,Magnolia grandiflora,False,C\ Riera Baixa,29.98,2.08,ok,,large,430407.33,4581332.26,430391.93,4581306.53,1.5,class
+0106454AR,Platanus × acerifolia,True,Rda Sant Pau,7.42,6.64,ok,,large,430196.51,4580976.49,430191.19,4580971.32,1.5,class
+0106455AR,Platanus × acerifolia,True,Rbla Raval,5.72,4.37,ok,,medium,430603.2,4581015.66,430607.49,4581019.44,1.0,class
+0106458AR,Casuarina cunninghamiana,False,C\ Cervelló,,1.71,no_kerb,34.74,check,,,,,1.0,floor
+0106460AR,Celtis australis,False,C\ Pintor Fortuny,4.13,3.12,ok,,medium,430667.56,4581674.76,430669.47,4581671.1,1.0,class
+0106461AR,Platanus × acerifolia,True,Rbla Raval,5.59,4.55,ok,,medium,430449.97,4581190.14,430454.17,4581193.83,1.0,class
+0106462AR,Ulmus pumila,False,C\ Arc del Teatre,3.17,2.36,ok,,small,430864.71,4580840.3,430867.72,4580839.28,1.0,class
+0106463AR,Styphnolobium japonicum,False,Av Drassanes,17.66,16.59,ok,,large,430980.53,4580889.97,430965.24,4580881.12,1.5,class
+0106464AR,Tipuana tipu,False,Pl Emili Vendrell,6.8,7.58,ok,,large,430339.6,4581412.85,430344.87,4581417.14,1.5,class
+0106465AR,Brachychiton populneus,False,C\ Montalegre,3.35,2.43,ok,,small,430334.25,4581731.54,430331.55,4581729.55,1.0,class
+0106467AR,Celtis australis,False,C\ Pintor Fortuny,3.65,2.36,ok,,medium,430607.26,4581627.59,430609.95,4581625.13,1.0,class
+0106469AR,Celtis australis,False,C\ Àngels,6.56,3.79,ok,,large,430464.67,4581491.82,430469.92,4581495.75,1.5,class
+0106471AR,Celtis australis,False,C\ Sant Pau,,4.4,no_kerb,,check,,,,,1.0,floor
+0106472AR,Platanus × acerifolia,True,C\ Rambla,,11.58,median,14.27,check,,,,,1.0,floor
+0106473AR,Jacaranda mimosifolia,False,C\ Príncep de Viana,,4.71,no_kerb,,check,,,,,1.0,floor
+0106474AR,Platanus × acerifolia,True,Rbla Raval,7.09,6.13,ok,,large,430649.04,4581052.07,430643.83,4581047.26,1.5,class
+0106475AR,Brachychiton populneus,False,C\ Portal de Santa Madrona,,29.19,median,,check,,,,,1.0,floor
+0106476AR,Jacaranda mimosifolia,False,Pl Jean Genet,,4.72,no_kerb,,check,,,,,1.0,floor
+0106478AR,Ligustrum lucidum,False,C\ Om,3.91,3.61,ok,,medium,430725.2,4580849.46,430723.58,4580845.89,1.0,class
+0106479AR,Tipuana tipu,False,Pl Vicenç Martorell,,20.67,no_kerb,,check,,,,,1.0,floor
+0106480AR,Celtis australis,False,C\ Santa Elena,,4.77,no_kerb,,check,,,,,1.0,floor
+0106481AR,Platanus × acerifolia,True,Av Drassanes,,22.65,median,1.91,check,,,,,1.0,floor
+0106482AR,Ligustrum lucidum,False,C\ Ferlandina,3.88,2.38,ok,,medium,430111.44,4581466.38,430111.96,4581462.53,1.0,class
+0106483AR,Tipuana tipu,False,Av Drassanes,12.28,12.12,ok,,large,430877.14,4580917.7,430873.96,4580905.85,1.5,class
+0106484AR,Melia azedarach,False,Jard Doctor Fleming,,3.2,no_kerb,,check,,,,,1.0,floor
+0106485AR,Tipuana tipu,False,Jard Voltes d'en Cirés,,14.06,median,,check,,,,,1.0,floor
+0106486AR,Jacaranda mimosifolia,False,Av Drassanes,17.0,7.93,ok,,large,430939.32,4580903.69,430927.72,4580891.27,1.5,class
+0106487AR,Platanus × acerifolia,True,Rda Sant Antoni,7.45,6.44,ok,,large,430079.39,4581541.48,430071.98,4581542.24,1.5,class
+0106488AR,Prunus cerasifera 'Pissardii',False,C\ Doctor Dou,2.42,1.93,ok,,none,430540.28,4581521.24,430538.34,4581519.8,1.0,floor
+0106489AR,Ligustrum lucidum,False,C\ Om,2.16,2.24,ok,,none,430812.97,4580818.31,430812.29,4580816.26,1.0,floor
+0106490AR,Tipuana tipu,False,Av Drassanes,,11.39,median,1.99,check,,,,,1.0,floor
+0106491AR,Ligustrum lucidum,False,C\ Om,2.18,2.12,ok,,none,430828.42,4580813.17,430827.73,4580811.1,1.0,floor
+0106492AR,Ficus microcarpa,False,C\ Carretes,3.34,2.46,ok,,small,430487.29,4580895.98,430489.45,4580898.53,1.0,class
+0106493AR,Tipuana tipu,False,Av Drassanes,12.27,5.1,ok,,large,430876.32,4580917.92,430873.14,4580906.07,1.5,class
+0106494AR,Quercus suber,False,Pl Caramelles,,24.72,no_kerb,,check,,,,,1.0,floor
+0106496AR,Tipuana tipu,False,Jard Voltes d'en Cirés,,20.89,median,,check,,,,,1.0,floor
+0106497AR,Styphnolobium japonicum,False,Pl Pes de la Palla,,11.69,no_kerb,,check,,,,,1.0,floor
+0106498AR,Tipuana tipu,False,Pl Pieyre de Mandiargues,,12.41,median,,check,,,,,1.0,floor
+0106499AR,Styphnolobium japonicum,False,Av Drassanes,4.77,3.11,ok,,medium,430858.19,4580892.04,430859.46,4580896.63,1.0,class
+0106500AR,Tipuana tipu,False,C\ Sant Oleguer,4.07,2.96,ok,,medium,430657.61,4581019.15,430655.44,4581015.7,1.0,class
+0106501AR,Brachychiton populneus,False,Pl Dubte,,8.28,no_kerb,,check,,,,,1.0,floor
+0106502AR,Platanus × acerifolia,True,Av Drassanes,,18.67,median,1.86,check,,,,,1.0,floor
+0106503AR,Platanus × acerifolia,True,C\ Rambla,,12.71,median,13.94,check,,,,,1.0,floor
+0106504AR,Jacaranda mimosifolia,False,Rbla Raval,,23.05,median,32.01,check,,,,,1.0,floor
+0106505AR,Ligustrum japonicum,False,C\ Joaquín Costa,3.05,2.53,ok,,small,430267.53,4581542.75,430265.14,4581540.86,1.0,class
+0106506AR,Celtis australis,False,C\ Àngels,5.02,4.02,ok,,medium,430510.14,4581464.64,430506.12,4581461.63,1.0,class
+0106507AR,Styphnolobium japonicum,False,Pl Pes de la Palla,,5.79,no_kerb,,check,,,,,1.0,floor
+0106509AR,Platanus × acerifolia,True,Pl Universitat,8.72,6.53,ok,,large,430134.08,4581883.96,430127.97,4581890.18,1.5,class
+0106510AR,Tipuana tipu,False,Pl Vicenç Martorell,,16.8,no_kerb,,check,,,,,1.0,floor
+0106511AR,Quercus suber,False,Pl Caramelles,,12.43,no_kerb,,check,,,,,1.0,floor
+0106513AR,Celtis australis,False,C\ Àngels,5.17,4.28,ok,,medium,430493.34,4581487.05,430489.21,4581483.95,1.0,class
+0106515AR,Celtis australis,False,C\ Peu de la Creu,3.29,2.71,ok,,small,430442.64,4581484.43,430440.61,4581487.03,1.0,class
+0106516AR,Platanus × acerifolia,True,Rbla Raval,5.72,4.61,ok,,medium,430571.03,4581052.26,430575.33,4581056.03,1.0,class
+0106517AR,Platanus × acerifolia,True,Rda Sant Pau,7.41,6.16,ok,,large,430173.38,4581000.32,430168.11,4580995.12,1.5,class
+0106518AR,Cercis siliquastrum,False,C\ Junta de Comerç,2.09,0.17,ok,,none,430702.26,4581273.29,430704.01,4581274.43,1.0,floor
+0106519AR,Melia azedarach,False,Plta Aureli Capmany,25.89,10.17,ok,,large,430342.05,4581315.15,430360.33,4581333.48,1.5,class
+0106520AR,Jacaranda mimosifolia,False,Av Drassanes,22.03,20.28,ok,,large,430889.56,4580914.37,430903.97,4580897.71,1.5,class
+0106521AR,Fraxinus ornus 'Mecsek',False,C\ Hospital,4.58,4.28,ok,,medium,430816.48,4581396.2,430818.9,4581392.32,1.0,class
+0106523AR,Celtis australis,False,C\ Santa Elena,,5.32,no_kerb,,check,,,,,1.0,floor
+0106524AR,Platanus × acerifolia,True,Rbla Raval,6.17,4.97,ok,,large,430521.8,4581196.15,430517.13,4581192.11,1.5,class
+0106525AR,Styphnolobium japonicum,False,C\ Riera Alta,2.89,2.51,ok,,small,430190.99,4581331.36,430191.17,4581328.48,1.0,class
+0106526AR,Platanus × acerifolia,True,Rbla Raval,6.04,4.97,ok,,large,430531.05,4581185.55,430526.54,4581181.54,1.5,class
+0106528AR,Platanus × acerifolia,True,C\ Rambla,,8.94,median,15.42,check,,,,,1.0,floor
+0106529AR,Platanus × acerifolia,True,Av Drassanes,,25.94,median,,check,,,,,1.0,floor
+0106530AR,Ligustrum lucidum,False,C\ Sant Gil,1.92,0.54,ok,,none,430080.38,4581363.48,430080.23,4581365.4,1.0,floor
+0106531AR,Platanus × acerifolia,True,Rda Sant Pau,7.49,6.31,ok,,large,430132.33,4581042.78,430126.95,4581037.56,1.5,class
+0106532AR,Fraxinus ornus OBELISK® 'Paus Johannes-Paulus II',False,C\ Gravina,3.19,2.56,ok,,small,430243.58,4581888.1,430246.75,4581887.68,1.0,class
+0106533AR,Platanus × acerifolia,True,C\ Rambla,,9.63,median,15.94,check,,,,,1.0,floor
+0106534AR,Styphnolobium japonicum,False,Av Drassanes,12.24,12.11,ok,,large,430866.01,4580920.69,430862.84,4580908.86,1.5,class
+0106535AR,Platanus × acerifolia,True,Av Paral·lel,,32.6,no_facade,,check,,,,,1.0,floor
+0106536AR,Tipuana tipu,False,Jard Voltes d'en Cirés,,20.51,median,16.21,check,,,,,1.0,floor
+0106537AR,Styphnolobium japonicum,False,Av Drassanes,,10.19,median,2.04,check,,,,,1.0,floor
+0106538AR,Styphnolobium japonicum,False,Av Drassanes,11.95,3.85,ok,,large,431015.61,4580879.9,431012.5,4580868.37,1.5,class
+0106539AR,Jacaranda mimosifolia,False,Plta Aureli Capmany,19.78,7.7,ok,,large,430337.48,4581319.71,430351.44,4581333.72,1.5,class
+0106540AR,Fraxinus ornus 'Mecsek',False,C\ Hospital,3.53,3.07,ok,,medium,430834.51,4581405.98,430836.18,4581402.87,1.0,class
+0106541AR,Tipuana tipu,False,C\ Erasme de Janer,2.26,1.0,ok,,none,430254.68,4581284.84,430252.82,4581283.55,1.0,floor
+0106542AR,Celtis australis,False,C\ Pintor Fortuny,4.06,3.75,ok,,medium,430468.69,4581520.22,430471.09,4581516.95,1.0,class
+0106543AR,Platanus × acerifolia,True,Av Drassanes,10.2,8.99,ok,,large,431133.79,4580806.95,431137.91,4580816.29,1.5,class
+0106544AR,Platanus × acerifolia,True,Rda Sant Pau,7.44,6.62,ok,,large,430385.96,4580781.4,430380.6,4580776.24,1.5,class
+0106545AR,Platanus × acerifolia,True,Rbla Raval,10.02,8.45,ok,,large,430565.2,4581149.45,430563.41,4581139.6,1.5,class
+0106548AR,Cercis siliquastrum,False,C\ Riera Alta,,6.27,no_kerb,,check,,,,,1.0,floor
+0106549AR,Styphnolobium japonicum,False,Pl Pes de la Palla,,16.37,no_kerb,,check,,,,,1.0,floor
+0106553AR,Platanus × acerifolia,True,Rbla Raval,,21.22,median,31.97,check,,,,,1.0,floor
+0106554AR,Tipuana tipu,False,Pl Bonsuccés,,2.83,no_kerb,,check,,,,,1.0,floor
+0106555AR,Platanus × acerifolia,True,Av Drassanes,,27.28,median,,check,,,,,1.0,floor
+0106556AR,Celtis australis,False,C\ Àngels,5.03,4.43,ok,,medium,430454.25,4581539.19,430450.23,4581536.16,1.0,class
+0106557AR,Jacaranda mimosifolia,False,Av Drassanes,14.5,10.59,ok,,large,430942.29,4580868.88,430930.52,4580877.35,1.5,class
+0106558AR,Pyrus calleryana 'Chanticleer',False,C\ Jovellanos,,2.24,no_kerb,,check,,,,,1.0,floor
+0106560AR,Platanus × acerifolia,True,Rbla Raval,,15.13,median,32.05,check,,,,,1.0,floor
+0106561AR,Platanus × acerifolia,True,Rbla Raval,5.99,4.95,ok,,medium,430508.49,4581123.44,430513.01,4581127.37,1.0,class
+0106562AR,Prunus cerasifera 'Pissardii',False,C\ Doctor Dou,2.47,0.83,ok,,none,430466.44,4581599.89,430468.42,4581601.38,1.0,floor
+0106563AR,Platanus × acerifolia,True,Rda Sant Antoni,,6.43,no_kerb,,check,,,,,1.0,floor
+0106564AR,Platanus × acerifolia,True,Rda Sant Antoni,7.52,6.37,ok,,large,430105.99,4581777.1,430098.53,4581777.97,1.5,class
+0106565AR,Tipuana tipu,False,Pl Raquel Meller,21.83,11.92,ok,,large,430595.38,4580746.83,430587.21,4580726.59,1.5,class
+0106567AR,Ligustrum lucidum,False,C\ Peracamps,3.1,3.4,ok,,small,430899.72,4580831.94,430898.93,4580828.94,1.0,class
+0106568AR,Tipuana tipu,False,C\ Sant Oleguer,4.01,2.6,ok,,medium,430645.95,4581005.31,430648.1,4581008.7,1.0,class
+0106569AR,Celtis sinensis,False,C\ Valldonzella,4.53,3.82,ok,,medium,430286.3,4581789.69,430290.08,4581787.18,1.0,class
+0106570AR,Prunus cerasifera 'Pissardii',False,C\ Doctor Dou,2.51,1.72,ok,,small,430463.87,4581623.54,430461.83,4581622.08,1.0,class
+0106571AR,Platanus × acerifolia,True,Rbla Raval,5.88,5.03,ok,,medium,430482.52,4581153.16,430486.94,4581157.03,1.0,class
+0106573AR,Tipuana tipu,False,C\ Sant Oleguer,4.2,3.78,ok,,medium,430726.57,4580975.33,430724.32,4580971.78,1.0,class
+0106576AR,Platanus × acerifolia,True,Av Drassanes,13.51,4.33,ok,,large,431089.22,4580860.04,431080.77,4580849.5,1.5,class
+0106577AR,Magnolia grandiflora,False,C\ Cera,3.26,3.17,ok,,small,430251.07,4581132.28,430248.56,4581134.37,1.0,class
+0106578AR,Quercus suber,False,Pl Caramelles,,15.08,no_kerb,,check,,,,,1.0,floor
+0106579AR,Platanus × acerifolia,True,C\ Rambla,,8.73,median,16.09,check,,,,,1.0,floor
+0106581AR,Platanus × acerifolia,True,C\ Rambla,,8.83,median,15.73,check,,,,,1.0,floor
+0106582AR,Platanus × acerifolia,True,Rbla Raval,11.26,9.75,ok,,large,430554.73,4581163.73,430543.59,4581162.15,1.5,class
+0106583AR,Celtis australis,False,C\ Àngels,6.57,4.09,ok,,large,430467.66,4581487.83,430472.92,4581491.77,1.5,class
+0106584AR,Ulmus pumila,False,C\ Portal de Santa Madrona,6.82,5.1,ok,,large,431015.4,4580822.73,431021.91,4580824.75,1.5,class
+0106585AR,Styphnolobium japonicum,False,Av Drassanes,13.65,7.33,ok,,large,430794.18,4580940.94,430782.67,4580933.6,1.5,class
+0106586AR,Styphnolobium japonicum,False,Av Drassanes,,11.1,median,1.93,check,,,,,1.0,floor
+0106588AR,Platanus × acerifolia,True,Rbla Raval,,14.83,median,31.98,check,,,,,1.0,floor
+0106590AR,Ligustrum lucidum,False,C\ Om,,4.8,median,,check,,,,,1.0,floor
+0106591AR,Cercis siliquastrum,False,C\ Junta de Comerç,3.73,0.2,ok,,medium,430712.66,4581257.41,430715.78,4581259.45,1.0,class
+0106593AR,Platanus × acerifolia,True,Av Paral·lel,5.95,4.74,ok,,medium,430829.77,4580711.63,430828.85,4580705.75,1.0,class
+0106594AR,Jacaranda mimosifolia,False,Av Drassanes,,19.6,median,2.06,check,,,,,1.0,floor
+0106596AR,Platanus × acerifolia,True,Av Drassanes,12.44,4.36,ok,,large,431110.47,4580854.54,431107.36,4580842.5,1.5,class
+0106597AR,Platanus × acerifolia,True,Rbla Raval,6.08,5.14,ok,,large,430525.97,4581191.32,430521.38,4581187.34,1.5,class
+0106598AR,Magnolia grandiflora,False,C\ Cera,2.58,2.06,ok,,small,430245.61,4581125.72,430243.59,4581127.32,1.0,class
+0106599AR,Platanus × acerifolia,True,Rbla Raval,5.79,4.63,ok,,medium,430548.89,4581077.44,430553.24,4581081.26,1.0,class
+0106600AR,Robinia pseudoacacia,False,C\ Riera Alta,3.88,2.33,ok,,medium,430260.61,4581324.36,430260.32,4581328.23,1.0,class
+0106601AR,Magnolia grandiflora 'Goliath',False,C\ Peu de la Creu,5.2,3.81,ok,,medium,430386.66,4581433.28,430383.02,4581437.0,1.0,class
+0106603AR,Platanus × acerifolia,True,Rbla Raval,6.99,5.98,ok,,large,430478.49,4581245.96,430473.25,4581241.34,1.5,class
+0106604AR,Platanus × acerifolia,True,Rbla Raval,,15.11,median,31.99,check,,,,,1.0,floor
+0106605AR,Tipuana tipu,False,Jard Voltes d'en Cirés,,9.07,no_kerb,,check,,,,,1.0,floor
+0106606AR,Cercis siliquastrum,False,Pl Dubte,,2.44,no_kerb,,check,,,,,1.0,floor
+0106607AR,Quercus ilex,False,Rbla Raval,,21.28,median,32.15,check,,,,,1.0,floor
+0106608AR,Quercus ilex,False,C\ Ramon Berenguer el Vell,,5.19,no_kerb,,check,,,,,1.0,floor
+0106609AR,Tipuana tipu,False,C\ Portal de Santa Madrona,,6.41,median,21.78,check,,,,,1.0,floor
+0106610AR,X chitalpa tashkentensis 'minsum' SUMMER BELLS®,False,C\ Robador,4.45,3.59,ok,,medium,430710.26,4581150.57,430706.45,4581148.27,1.0,class
+0106611AR,Jacaranda mimosifolia,False,C\ Príncep de Viana,2.78,1.93,ok,,small,430080.31,4581229.43,430077.55,4581229.19,1.0,class
+0106612AR,Platanus × acerifolia,True,Av Drassanes,15.28,13.35,ok,,large,431089.22,4580860.04,431077.36,4580850.41,1.5,class
+0106613AR,Ulmus pumila,False,C\ Santa Madrona,6.97,6.85,ok,,large,430892.4,4580727.11,430896.15,4580721.24,1.5,class
+0106614AR,Ulmus pumila,False,C\ Portal de Santa Madrona,,18.13,median,20.16,check,,,,,1.0,floor
+0106615AR,Quercus ilex,False,C\ Portal de Santa Madrona,24.92,16.22,ok,,large,431009.45,4580762.21,430986.83,4580772.69,1.5,class
+0106616AR,Platanus × acerifolia,True,C\ Rambla,,12.13,median,14.47,check,,,,,1.0,floor
+0106617AR,Ligustrum japonicum,False,C\ Joaquín Costa,3.05,1.87,ok,,small,430236.27,4581582.11,430233.88,4581580.21,1.0,class
+0106618AR,Styphnolobium japonicum,False,Av Drassanes,15.19,10.55,ok,,large,430791.99,4580944.51,430779.04,4580936.58,1.5,class
+0106619AR,Tipuana tipu,False,Av Drassanes,,23.62,no_kerb,12.58,check,,,,,1.0,floor
+0106624AR,Platanus × acerifolia,True,Rbla Raval,,14.75,median,31.92,check,,,,,1.0,floor
+0106625AR,Koelreuteria paniculata,False,C\ Portal de Santa Madrona,,28.65,median,,check,,,,,1.0,floor
+0106627AR,Celtis australis,False,C\ Àngels,6.59,3.91,ok,,large,430470.91,4581483.49,430476.19,4581487.44,1.5,class
+0106628AR,Platanus × acerifolia,True,C\ Rambla,,7.9,median,15.67,check,,,,,1.0,floor
+0106630AR,Ulmus pumila,False,C\ Arc del Teatre,3.19,2.34,ok,,small,430866.75,4580846.3,430869.77,4580845.27,1.0,class
+0106631AR,Jacaranda mimosifolia,False,C\ Cid,,8.81,no_kerb,54.75,check,,,,,1.0,floor
+0106632AR,Jacaranda mimosifolia,False,Av Drassanes,25.59,10.9,ok,,large,430942.4,4580900.82,430960.24,4580882.48,1.5,class
+0106633AR,Platanus × acerifolia,True,Rda Sant Pau,7.59,7.34,ok,,large,430225.22,4580947.16,430219.83,4580941.83,1.5,class
+0106634AR,Tipuana tipu,False,Av Drassanes,,10.11,median,1.98,check,,,,,1.0,floor
+0106635AR,Platanus × acerifolia,True,Rbla Raval,6.03,5.06,ok,,large,430531.32,4581097.27,430535.83,4581101.28,1.5,class
+0106637AR,Platanus × acerifolia,True,Rbla Raval,6.01,4.96,ok,,large,430512.15,4581119.24,430516.68,4581123.18,1.5,class
+0106638AR,Platanus × acerifolia,True,Rda Sant Antoni,,20.01,no_kerb,,check,,,,,1.0,floor
+0106640AR,Platanus × acerifolia,True,C\ Rambla,,9.39,median,16.08,check,,,,,1.0,floor
+0106641AR,Magnolia grandiflora,False,C\ Doctor Dou,5.22,4.72,ok,,medium,430511.44,4581561.05,430508.75,4581556.58,1.0,class
+0106642AR,Quercus suber,False,Pl Caramelles,,13.78,no_kerb,,check,,,,,1.0,floor
+0106644AR,Platanus × acerifolia,True,Rbla Raval,5.88,4.7,ok,,medium,430631.38,4581071.18,430627.07,4581067.19,1.0,class
+0106645AR,Prunus cerasifera 'Pissardii',False,C\ Est,,8.67,median,,check,,,,,1.0,floor
+0106646AR,Platanus × acerifolia,True,C\ Rambla,,9.17,median,15.95,check,,,,,1.0,floor
+0106647AR,Tipuana tipu,False,Jard Voltes d'en Cirés,,17.31,median,16.1,check,,,,,1.0,floor
+0106648AR,Platanus × acerifolia,True,Av Paral·lel,,32.77,no_facade,,check,,,,,1.0,floor
+0106649AR,Platanus × acerifolia,True,Rda Sant Pau,7.5,6.32,ok,,large,430138.4,4581036.52,430133.02,4581031.3,1.5,class
+0106650AR,Jacaranda mimosifolia,False,Pl Pedró,,3.28,no_kerb,24.79,check,,,,,1.0,floor
+0106651AR,Ligustrum lucidum,False,C\ Joaquín Costa,3.15,2.86,ok,,small,430370.7,4581413.4,430368.21,4581411.46,1.0,class
+0106654AR,Celtis australis,False,C\ Santa Elena,,4.51,no_kerb,,check,,,,,1.0,floor
+0106655AR,Quercus suber,False,Pl Caramelles,,7.48,no_kerb,,check,,,,,1.0,floor
+0106656AR,Ligustrum lucidum,False,C\ Sant Gil,1.91,0.42,ok,,none,430075.82,4581363.11,430075.67,4581365.01,1.0,floor
+0106657AR,Platanus × acerifolia,True,Rda Sant Antoni,7.23,6.5,ok,,large,430083.78,4581579.31,430076.6,4581580.12,1.5,class
+0106658AR,Celtis australis,False,C\ Àngels,6.69,4.27,ok,,large,430488.96,4581459.41,430494.31,4581463.42,1.5,class
+0106660AR,Tipuana tipu,False,Pl Bonsuccés,,7.47,no_kerb,,check,,,,,1.0,floor
+0106661AR,Celtis australis,False,C\ Valldonzella,4.9,4.34,ok,,medium,430308.79,4581797.03,430304.65,4581799.64,1.0,class
+0106663AR,Jacaranda mimosifolia,False,C\ Príncep de Viana,2.71,2.19,ok,,small,430082.18,4581208.19,430079.48,4581207.95,1.0,class
+0106664AR,Prunus cerasifera 'Pissardii',False,C\ Doctor Dou,2.48,1.25,ok,,none,430459.36,4581609.35,430461.34,4581610.84,1.0,floor
+0106665AR,Quercus suber,False,Pl Caramelles,,5.34,no_kerb,,check,,,,,1.0,floor
+0106666AR,Magnolia grandiflora,False,C\ Peu de la Creu,2.11,1.09,ok,,none,430348.66,4581403.95,430347.15,4581405.43,1.0,floor
+0106668AR,Magnolia grandiflora,False,C\ Riera Alta,3.46,3.28,ok,,small,430243.09,4581335.27,430242.99,4581331.81,1.0,class
+0106669AR,Jacaranda mimosifolia,False,Pl Jean Genet,,16.02,no_kerb,34.31,check,,,,,1.0,floor
+0106670AR,Ligustrum lucidum,False,C\ Om,2.12,1.91,ok,,none,430782.44,4580828.47,430781.77,4580826.45,1.0,floor
+0106672AR,Tipuana tipu,False,C\ Ramon Berenguer el Vell,,7.79,no_kerb,,check,,,,,1.0,floor
+0106673AR,Ulmus pumila,False,C\ Arc del Teatre,,7.17,median,,check,,,,,1.0,floor
+0106674AR,Styphnolobium japonicum,False,C\ Riera Alta,2.88,1.98,ok,,small,430299.45,4581339.29,430299.68,4581336.42,1.0,class
+0106675AR,Styphnolobium japonicum,False,Av Drassanes,,11.01,median,1.88,check,,,,,1.0,floor
+0106676AR,Platanus × acerifolia,True,Av Paral·lel,5.66,4.64,ok,,medium,430836.42,4580710.76,430835.69,4580705.15,1.0,class
+0106678AR,Platanus × acerifolia,True,C\ Rambla,,9.72,median,15.91,check,,,,,1.0,floor
+0106679AR,Ligustrum japonicum,False,C\ Joaquín Costa,4.47,3.74,ok,,medium,430368.82,4581415.81,430364.39,4581416.37,1.0,class
+0106680AR,Styphnolobium japonicum,False,Av Drassanes,11.95,4.16,ok,,large,431004.09,4580883.02,431000.97,4580871.48,1.5,class
+0106682AR,Styphnolobium japonicum,False,Av Drassanes,,15.42,median,12.83,check,,,,,1.0,floor
+0106684AR,Tipuana tipu,False,Pl Emili Vendrell,,7.63,median,9.86,check,,,,,1.0,floor
+0106685AR,Magnolia grandiflora,False,C\ Riera Baixa,,2.36,no_kerb,,check,,,,,1.0,floor
+0106687AR,Platanus × acerifolia,True,Rbla Raval,,14.72,median,,check,,,,,1.0,floor
+0106688AR,X chitalpa tashkentensis 'minsum' SUMMER BELLS®,False,C\ Robador,,4.59,median,3.58,check,,,,,1.0,floor
+0106689AR,Ulmus pumila,False,C\ Arc del Teatre,3.07,2.21,ok,,small,430854.51,4580810.18,430857.41,4580809.19,1.0,class
+0106690AR,Magnolia grandiflora,False,C\ Pintor Fortuny,4.58,2.6,ok,,medium,430508.43,4581533.8,430509.08,4581538.33,1.0,class
+0106691AR,Styphnolobium japonicum,False,C\ Riera Alta,3.91,2.59,ok,,medium,430264.74,4581324.67,430264.45,4581328.57,1.0,class
+0106692AR,Styphnolobium japonicum,False,Av Drassanes,12.52,11.77,ok,,large,430981.23,4580889.77,430977.87,4580877.72,1.5,class
+0106693AR,Platanus × acerifolia,True,Rbla Raval,,15.18,median,32.13,check,,,,,1.0,floor
+0106694AR,Platanus × acerifolia,True,Pl Blanquerna,,18.31,no_kerb,,check,,,,,1.0,floor
+0106695AR,Platanus × acerifolia,True,Rda Sant Pau,7.5,6.32,ok,,large,430144.47,4581030.27,430139.09,4581025.04,1.5,class
+0106696AR,Platanus × acerifolia,True,Rbla Raval,,15.29,median,21.49,check,,,,,1.0,floor
+0106697AR,Pyrus calleryana 'Chanticleer',False,C\ Jovellanos,,2.28,no_kerb,,check,,,,,1.0,floor
+0106698AR,Platanus × acerifolia,True,Rda Sant Antoni,,6.08,no_kerb,,check,,,,,1.0,floor
+0106699AR,Celtis australis,False,C\ Pintor Fortuny,3.76,3.24,ok,,medium,430603.55,4581623.53,430606.32,4581621.0,1.0,class
+0106701AR,Ligustrum lucidum,False,C\ Peracamps,3.2,2.34,ok,,small,430974.32,4580812.63,430973.51,4580809.53,1.0,class
+0106702AR,Tipuana tipu,False,Av Drassanes,,15.05,median,2.02,check,,,,,1.0,floor
+0106703AR,Tipuana tipu,False,Pl Bonsuccés,,7.35,no_kerb,,check,,,,,1.0,floor
+0106704AR,Platanus × acerifolia,True,C\ Rambla,,12.39,median,13.88,check,,,,,1.0,floor
+0106708AR,Platanus × acerifolia,True,Rbla Raval,5.59,4.27,ok,,medium,430444.56,4581196.32,430448.76,4581200.0,1.0,class
+0106709AR,Prunus cerasifera 'Pissardii',False,C\ Est,9.75,2.46,ok,,large,430902.38,4580951.39,430909.04,4580958.51,1.5,class
+0106710AR,Celtis australis,False,C\ Pintor Fortuny,4.07,3.4,ok,,medium,430554.9,4581584.75,430557.33,4581581.49,1.0,class
+0106711AR,Styphnolobium japonicum,False,Pl Pes de la Palla,,4.29,no_kerb,,check,,,,,1.0,floor
+0106712AR,Quercus ilex,False,C\ Ramon Berenguer el Vell,,5.08,no_kerb,,check,,,,,1.0,floor
+0106713AR,Phytolacca dioica,False,Jard Voltes d'en Cirés,,9.37,median,,check,,,,,1.0,floor
+0106714AR,Jacaranda mimosifolia,False,Av Drassanes,,22.85,median,2.04,check,,,,,1.0,floor
+0106715AR,Tipuana tipu,False,Av Drassanes,12.22,11.33,ok,,large,430854.67,4580923.73,430851.51,4580911.93,1.5,class
+0106717AR,Celtis australis,False,C\ Peu de la Creu,4.93,4.08,ok,,medium,430395.16,4581441.6,430391.71,4581445.12,1.0,class
+0106718AR,Ligustrum lucidum,False,C\ Requesens,,1.7,no_kerb,,check,,,,,1.0,floor
+0106719AR,Magnolia grandiflora,False,C\ Xuclà,,4.46,no_kerb,,check,,,,,1.0,floor
+0106721AR,Tipuana tipu,False,C\ Sant Oleguer,4.18,3.19,ok,,medium,430715.71,4580982.23,430713.47,4580978.7,1.0,class
+0106722AR,Platanus × acerifolia,True,C\ Rambla,,9.12,median,15.78,check,,,,,1.0,floor
+0106723AR,Styphnolobium japonicum,False,Pl Pes de la Palla,,6.29,no_kerb,,check,,,,,1.0,floor
+0106724AR,Tipuana tipu,False,Pl Bonsuccés,,2.21,no_kerb,,check,,,,,1.0,floor
+0106725AR,Quercus suber,False,Pl Caramelles,,6.94,no_kerb,,check,,,,,1.0,floor
+0106726AR,Tipuana tipu,False,Pl Pieyre de Mandiargues,19.66,4.38,ok,,large,430746.87,4581003.55,430758.82,4581019.16,1.5,class
+0106727AR,Platanus × acerifolia,True,C\ Rambla,,16.63,median,23.71,check,,,,,1.0,floor
+0106729AR,Tipuana tipu,False,C\ Cid,5.82,4.63,ok,,medium,430901.86,4580759.41,430907.33,4580757.41,1.0,class
+0106730AR,Tipuana tipu,False,Av Drassanes,9.12,6.36,ok,,large,431161.52,4580795.79,431166.79,4580803.23,1.5,class
+0106731AR,X chitalpa tashkentensis 'minsum' SUMMER BELLS®,False,C\ Est,,13.42,median,,check,,,,,1.0,floor
+0106732AR,Ceiba speciosa,False,Pl Drassanes,,32.94,no_facade,,check,,,,,1.0,floor
+0106733AR,Quercus suber,False,Pl Caramelles,,18.27,no_kerb,,check,,,,,1.0,floor
+0106734AR,Tipuana tipu,False,Jard Voltes d'en Cirés,10.07,6.92,ok,,large,430852.78,4580972.8,430853.45,4580962.75,1.5,class
+0106735AR,Phytolacca dioica,False,C\ Arc del Teatre,16.8,8.54,ok,,large,430859.77,4580866.54,430874.0,4580857.61,1.5,class
+0106736AR,Quercus suber,False,Pl Caramelles,,16.04,no_kerb,,check,,,,,1.0,floor
+0106737AR,Quercus suber,False,Pl Caramelles,,18.53,no_kerb,,check,,,,,1.0,floor
+0106738AR,Acer monspessulanum,False,C\ Cid,8.75,6.83,ok,,large,430898.32,4580744.53,430905.39,4580749.69,1.5,class
+0106739AR,Ulmus pumila,False,C\ Portal de Santa Madrona,,23.23,median,7.46,check,,,,,1.0,floor
+0106740AR,Jacaranda mimosifolia,False,C\ Cid,,3.77,no_kerb,,check,,,,,1.0,floor
+0106741AR,Quercus ilex,False,C\ Cervelló,,2.77,no_kerb,28.34,check,,,,,1.0,floor
+0106742AR,Tipuana tipu,False,Pl Raquel Meller,19.78,17.65,ok,,large,430600.36,4580744.82,430592.96,4580726.48,1.5,class
+0106744AR,Fraxinus ornus 'Mecsek',False,C\ Hospital,3.74,3.03,ok,,medium,430839.88,4581408.87,430841.65,4581405.57,1.0,class
+0106746AR,Magnolia grandiflora,False,C\ Riera Alta,2.86,1.93,ok,,small,430303.61,4581339.63,430303.85,4581336.78,1.0,class
+0106747AR,Styphnolobium japonicum,False,Av Drassanes,15.99,14.3,ok,,large,430789.91,4580947.91,430776.28,4580939.56,1.5,class
+0106748AR,Platanus × acerifolia,True,Rda Sant Pau,23.67,20.51,ok,,large,430277.38,4580893.02,430287.85,4580871.79,1.5,class
+0106749AR,Tipuana tipu,False,Av Drassanes,,16.64,median,5.52,check,,,,,1.0,floor
+0106750AR,Brachychiton populneus,False,C\ Portal de Santa Madrona,,27.17,median,,check,,,,,1.0,floor
+0106751AR,Platanus × acerifolia,True,Rbla Raval,,14.95,median,10.44,check,,,,,1.0,floor
+0106752AR,Quercus ilex,False,C\ Portal de Santa Madrona,29.35,23.46,ok,,large,431006.25,4580755.3,430979.61,4580767.64,1.5,class
+0106753AR,Brachychiton populneus,False,C\ Montalegre,3.41,2.23,ok,,small,430306.39,4581768.44,430303.72,4581766.33,1.0,class
+0106755AR,Platanus × acerifolia,True,Rbla Raval,,14.87,median,32.13,check,,,,,1.0,floor
+0106756AR,Hibiscus syriacus,False,C\ Gravina,2.97,1.52,ok,,small,430240.28,4581861.3,430243.23,4581860.93,1.0,class
+0106757AR,Styphnolobium japonicum,False,Av Drassanes,,16.64,no_kerb,,check,,,,,1.0,floor
+0106758AR,Cercis siliquastrum,False,C\ Junta de Comerç,4.42,4.17,ok,,medium,430680.12,4581305.97,430683.7,4581308.56,1.0,class
+0106759AR,Tipuana tipu,False,Pl Raquel Meller,13.92,4.34,ok,,large,430626.31,4580737.52,430612.47,4580739.06,1.5,class
+0106760AR,Brachychiton populneus,False,C\ Montalegre,3.49,2.53,ok,,small,430357.05,4581700.61,430354.24,4581698.54,1.0,class
+0106762AR,Magnolia grandiflora,False,C\ Riera Alta,2.97,2.51,ok,,small,430376.08,4581345.02,430376.29,4581342.06,1.0,class
+0106763AR,Magnolia grandiflora,False,C\ Riera Alta,2.94,2.95,ok,,small,430333.79,4581341.94,430334.0,4581339.01,1.0,class
+0106764AR,Brachychiton populneus,False,C\ Unió,2.58,1.58,ok,,small,430856.31,4581195.38,430858.33,4581193.77,1.0,class
+0106765AR,Ligustrum lucidum,False,C\ Peracamps,3.25,2.44,ok,,small,430956.62,4580817.21,430955.81,4580814.06,1.0,class
+0106766AR,Ligustrum lucidum,False,C\ Sant Gil,1.95,1.61,ok,,none,430146.51,4581369.02,430146.34,4581370.96,1.0,floor
+0106767AR,Platanus × acerifolia,True,Rda Sant Antoni,,6.94,no_kerb,49.82,check,,,,,1.0,floor
+0106768AR,Ficus microcarpa,False,C\ Carretes,3.34,2.27,ok,,small,430474.65,4580906.68,430476.8,4580909.23,1.0,class
+0106769AR,Styphnolobium japonicum,False,Pl Pes de la Palla,,5.12,no_kerb,,check,,,,,1.0,floor
+0106771AR,Platanus × acerifolia,True,Rda Sant Antoni,,6.36,no_kerb,,check,,,,,1.0,floor
+0106772AR,Prunus cerasifera 'Pissardii',False,C\ Doctor Dou,2.69,1.15,ok,,small,430543.08,4581497.31,430545.23,4581498.92,1.0,class
+0106773AR,Celtis sinensis,False,C\ Valldonzella,4.45,3.7,ok,,medium,430292.43,4581798.94,430296.14,4581796.48,1.0,class
+0106774AR,Styphnolobium japonicum,False,Av Drassanes,11.95,3.95,ok,,large,431027.03,4580876.82,431023.91,4580865.28,1.5,class
+0106776AR,Brachychiton populneus,False,C\ Montalegre,3.3,2.47,ok,,small,430330.4,4581736.77,430327.74,4581734.81,1.0,class
+0106777AR,Tipuana tipu,False,C\ Cid,5.23,3.97,ok,,medium,430903.77,4580764.62,430908.68,4580762.82,1.0,class
+0106778AR,Hibiscus syriacus,False,C\ Gravina,3.05,2.4,ok,,small,430242.28,4581877.26,430245.32,4581876.89,1.0,class
+0106779AR,Tipuana tipu,False,C\ Sant Oleguer,9.6,6.99,ok,,large,430688.59,4580978.29,430683.36,4580986.34,1.5,class
+0106780AR,Quercus ilex,False,C\ Sant Pau,4.65,2.77,ok,,medium,430462.92,4580792.0,430459.7,4580795.36,1.0,class
+0106781AR,Jacaranda mimosifolia,False,C\ Cid,,3.4,no_kerb,,check,,,,,1.0,floor
+0106782AR,Platanus × acerifolia,True,Rbla Raval,5.57,4.27,ok,,medium,430422.92,4581221.02,430427.11,4581224.69,1.0,class
+0106783AR,Styphnolobium japonicum,False,C\ Riera Alta,2.95,2.62,ok,,small,430206.87,4581332.39,430207.23,4581329.47,1.0,class
+0106784AR,Cercis siliquastrum,False,C\ Junta de Comerç,4.65,4.05,ok,,medium,430676.64,4581310.77,430680.41,4581313.5,1.0,class
+0106786AR,Platanus × acerifolia,True,Rbla Raval,5.5,4.52,ok,,medium,430620.96,4581082.47,430616.92,4581078.73,1.0,class
+0106787AR,Platanus × acerifolia,True,Rda Sant Antoni,,5.88,no_kerb,,check,,,,,1.0,floor
+0106789AR,Celtis australis,False,C\ Àngels,6.72,5.12,ok,,large,430452.74,4581508.25,430459.44,4581507.71,1.5,class
+0106790AR,Celtis australis,False,C\ Pintor Fortuny,4.3,3.0,ok,,medium,430644.95,4581662.31,430647.39,4581658.77,1.0,class
+0106791AR,Tipuana tipu,False,C\ Portal de Santa Madrona,,8.35,median,23.26,check,,,,,1.0,floor
+0106792AR,Platanus × acerifolia,True,Av Drassanes,26.97,8.62,ok,,large,431089.22,4580860.04,431062.85,4580854.41,1.5,class
+0106793AR,Eugenia uniflora,False,C\ Junta de Comerç,3.89,0.61,ok,,medium,430750.59,4581199.5,430753.84,4581201.63,1.0,class
+0106794AR,Platanus × acerifolia,True,Pl Pere Coromines,20.53,4.89,ok,,large,430755.3,4580974.45,430743.43,4580957.7,1.5,class
+0106795AR,Ficus microcarpa,False,C\ Carretes,3.34,2.3,ok,,small,430496.98,4580887.8,430499.13,4580890.34,1.0,class
+0106796AR,Tipuana tipu,False,Jard Voltes d'en Cirés,29.94,21.76,ok,,large,430857.54,4580938.63,430828.64,4580946.43,1.5,class
+0106798AR,Ligustrum lucidum,False,C\ Om,2.08,2.14,ok,,none,430747.96,4580839.94,430747.3,4580837.97,1.0,floor
+0106799AR,Magnolia grandiflora,False,C\ Peu de la Creu,2.15,1.27,ok,,none,430340.21,4581395.34,430338.67,4581396.85,1.0,floor
+0106800AR,Ligustrum lucidum,False,C\ Om,2.09,1.71,ok,,none,430759.27,4580836.18,430758.61,4580834.19,1.0,floor
+0106801AR,Platanus × acerifolia,True,C\ Rambla,,16.99,median,23.78,check,,,,,1.0,floor
+0106802AR,Tipuana tipu,False,Pl Emili Vendrell,6.8,7.41,ok,,large,430342.04,4581409.84,430347.32,4581414.13,1.5,class
+0106804AR,Magnolia grandiflora,False,C\ Peu de la Creu,2.43,1.61,ok,,none,430290.74,4581344.65,430289.01,4581346.35,1.0,floor
+0106805AR,Jacaranda mimosifolia,False,Av Drassanes,,23.98,median,2.05,check,,,,,1.0,floor
+0106806AR,Tipuana tipu,False,C\ Sant Oleguer,13.33,7.37,ok,,large,430728.94,4580942.19,430736.68,4580953.05,1.5,class
+0106808AR,Platanus × acerifolia,True,C\ Rambla,,14.83,median,28.6,check,,,,,1.0,floor
+0106809AR,Tipuana tipu,False,C\ Carme,,8.99,median,18.6,check,,,,,1.0,floor
+0106811AR,Celtis australis,False,C\ Peu de la Creu,4.56,3.39,ok,,medium,430406.37,4581452.58,430403.18,4581455.84,1.0,class
+0106812AR,Platanus × acerifolia,True,Rda Sant Antoni,7.36,6.68,ok,,large,430082.88,4581571.31,430075.57,4581572.14,1.5,class
+0106814AR,Platanus × acerifolia,True,Rbla Raval,6.02,4.94,ok,,large,430522.56,4581107.32,430527.09,4581111.28,1.5,class
+0106815AR,Acer monspessulanum,False,C\ Sant Antoni Abat,,0.79,no_kerb,,check,,,,,1.0,floor
+0106816AR,Tipuana tipu,False,Av Drassanes,12.29,5.22,ok,,large,430883.35,4580916.04,430880.17,4580904.16,1.5,class
+0106817AR,Celtis australis,False,C\ Valldonzella,4.37,3.57,ok,,medium,430298.3,4581807.81,430301.95,4581805.4,1.0,class
+0106818AR,Brachychiton populneus,False,Pl Sant Agustí,,9.96,no_kerb,,check,,,,,1.0,floor
+0106819AR,Tipuana tipu,False,Av Drassanes,,17.23,median,5.52,check,,,,,1.0,floor
+0106820AR,Tipuana tipu,False,Jard Doctor Fleming,,17.38,median,,check,,,,,1.0,floor
+0106821AR,Tipuana tipu,False,Pl Raquel Meller,,8.68,median,22.83,check,,,,,1.0,floor
+0106822AR,Jacaranda mimosifolia,False,Av Drassanes,13.99,5.61,ok,,large,430942.4,4580900.82,430934.12,4580889.53,1.5,class
+0106823AR,Tipuana tipu,False,C\ Ramon Berenguer el Vell,,11.0,no_kerb,,check,,,,,1.0,floor
+0106824AR,Platanus × acerifolia,True,C\ Rambla,,9.16,median,19.5,check,,,,,1.0,floor
+0106826AR,Platanus × acerifolia,True,Rda Sant Antoni,7.54,6.69,ok,,large,430107.12,4581786.76,430099.62,4581787.64,1.5,class
+0106827AR,Platanus × acerifolia,True,Av Paral·lel,8.5,7.71,ok,,large,430676.69,4580727.68,430675.93,4580719.22,1.5,class
+0106828AR,Platanus × acerifolia,True,C\ Rambla,,7.79,median,15.78,check,,,,,1.0,floor
+0106829AR,Celtis australis,False,C\ Valldonzella,4.83,4.43,ok,,medium,430311.73,4581801.6,430307.67,4581804.21,1.0,class
+0106830AR,Celtis australis,False,C\ Àngels,6.04,3.47,ok,,large,430478.62,4581474.19,430483.44,4581477.83,1.5,class
+0106832AR,Albizia julibrissin,False,Plta Aureli Capmany,,15.81,median,25.89,check,,,,,1.0,floor
+0106833AR,Platanus × acerifolia,True,C\ Rambla,,24.51,median,4.25,check,,,,,1.0,floor
+0106834AR,Grevillea robusta,False,Rbla Raval,5.58,4.31,ok,,medium,430436.41,4581205.62,430440.61,4581209.3,1.0,class
+0106835AR,Quercus suber,False,Pl Caramelles,,10.32,no_kerb,,check,,,,,1.0,floor
+0106837AR,Platanus × acerifolia,True,Av Paral·lel,7.13,5.89,ok,,large,430792.11,4580716.16,430791.27,4580709.07,1.5,class
+0106838AR,Jacaranda mimosifolia,False,C\ Cid,,9.55,no_kerb,,check,,,,,1.0,floor
+0106839AR,Platanus × acerifolia,True,Rbla Raval,6.03,4.97,ok,,large,430635.65,4581066.56,430631.22,4581062.47,1.5,class
+0106840AR,Brachychiton populneus,False,C\ Montalegre,3.34,2.56,ok,,small,430311.0,4581762.61,430308.38,4581760.54,1.0,class
+0106841AR,Platanus × acerifolia,True,C\ Rambla,,8.22,median,15.8,check,,,,,1.0,floor
+0106842AR,Ligustrum lucidum,False,C\ Peracamps,3.07,2.39,ok,,small,430997.17,4580806.7,430996.4,4580803.74,1.0,class
+0106843AR,Platanus × acerifolia,True,Rbla Raval,5.72,4.56,ok,,medium,430575.64,4581047.02,430579.93,4581050.8,1.0,class
+0106844AR,Platanus × acerifolia,True,Rbla Raval,5.73,4.63,ok,,medium,430553.38,4581072.34,430557.69,4581076.12,1.0,class
+0106845AR,Jacaranda mimosifolia,False,Av Drassanes,20.02,10.82,ok,,large,430935.15,4580907.59,430921.48,4580892.96,1.5,class
+0106847AR,Tipuana tipu,False,Av Drassanes,13.26,12.46,ok,,large,430889.56,4580914.37,430891.09,4580901.2,1.5,class
+0106849AR,Celtis australis,False,C\ Peu de la Creu,4.69,3.33,ok,,medium,430402.33,4581448.62,430399.05,4581451.97,1.0,class
+0106852AR,Ligustrum japonicum,False,C\ Joaquín Costa,3.0,2.38,ok,,small,430160.84,4581677.07,430158.46,4581675.22,1.0,class
+0106853AR,Magnolia grandiflora,False,C\ Riera Alta,2.96,2.14,ok,,small,430367.44,4581344.39,430367.66,4581341.44,1.0,class
+0106854AR,Brachychiton rupestris,False,C\ Unió,2.62,1.94,ok,,small,430841.51,4581176.84,430843.57,4581175.2,1.0,class
+0106855AR,Styphnolobium japonicum,False,Av Drassanes,23.12,7.1,ok,,large,431003.86,4580883.08,430981.63,4580876.7,1.5,class
+0106856AR,Platanus × acerifolia,True,Rda Sant Antoni,16.48,6.58,ok,,large,430044.34,4581227.17,430027.95,4581228.9,1.5,class
+0106857AR,Acer monspessulanum,False,C\ Cid,4.76,3.12,ok,,medium,430896.98,4580735.76,430901.59,4580734.6,1.0,class
+0106858AR,Platanus × acerifolia,True,Rbla Raval,,15.23,median,21.47,check,,,,,1.0,floor
+0106859AR,Platanus × acerifolia,True,Rbla Raval,5.86,4.99,ok,,medium,430478.21,4581158.07,430482.62,4581161.94,1.0,class
+0106860AR,Jacaranda mimosifolia,False,Rbla Raval,,21.0,median,32.02,check,,,,,1.0,floor
+0106862AR,Tipuana tipu,False,C\ Sant Oleguer,13.06,11.19,ok,,large,430733.71,4580938.8,430741.29,4580949.44,1.5,class
+0106864AR,Ulmus pumila,False,C\ Arc del Teatre,3.11,2.15,ok,,small,430858.69,4580822.51,430861.63,4580821.51,1.0,class
+0106865AR,Platanus × acerifolia,True,C\ Rambla,,12.91,median,21.28,check,,,,,1.0,floor
+0106866AR,Platanus × acerifolia,True,Rbla Raval,,14.78,median,10.39,check,,,,,1.0,floor
+0106867AR,Ficus microcarpa,False,C\ Reina Amàlia,4.59,3.38,ok,,medium,430458.28,4580861.75,430455.37,4580858.2,1.0,class
+0106868AR,Tipuana tipu,False,Pl Pieyre de Mandiargues,19.56,7.25,ok,,large,430731.59,4581015.25,430743.48,4581030.78,1.5,class
+0106869AR,Tipuana tipu,False,Av Drassanes,19.31,13.61,ok,,large,430896.84,4580876.53,430915.52,4580881.45,1.5,class
+0106872AR,Platanus × acerifolia,True,Rda Sant Antoni,7.47,6.41,ok,,large,430104.41,4581763.56,430096.99,4581764.42,1.5,class
+0106873AR,Ceiba speciosa,False,Pl Drassanes,,28.06,no_kerb,,check,,,,,1.0,floor
+0106874AR,Magnolia grandiflora,False,C\ Riera Alta,2.95,2.15,ok,,small,430355.12,4581343.49,430355.34,4581340.55,1.0,class
+0106875AR,Platanus × acerifolia,True,Rda Sant Pau,7.51,7.23,ok,,large,430093.22,4581083.08,430087.83,4581077.85,1.5,class
+0106876AR,Acer monspessulanum,False,C\ Sant Antoni Abat,,0.81,no_kerb,,check,,,,,1.0,floor
+0106878AR,Quercus ilex,False,C\ Portal de Santa Madrona,29.05,19.32,ok,,large,431006.46,4580755.77,430980.1,4580767.98,1.5,class
+0106879AR,Platanus × acerifolia,True,C\ Rambla,,7.41,median,11.8,check,,,,,1.0,floor
+0106880AR,Platanus × acerifolia,True,Rda Sant Antoni,7.64,6.55,ok,,large,430097.01,4581696.58,430089.41,4581697.43,1.5,class
+0106882AR,Prunus cerasifera 'Pissardii',False,C\ Doctor Dou,2.45,1.67,ok,,none,430481.92,4581599.2,430479.96,4581597.73,1.0,floor
+0106883AR,Styphnolobium japonicum,False,Av Drassanes,12.72,5.5,ok,,large,430796.48,4580940.3,430793.06,4580928.05,1.5,class
+0106884AR,Tipuana tipu,False,Av Drassanes,15.97,5.9,ok,,large,430889.56,4580914.37,430896.16,4580899.83,1.5,class
+0106885AR,Tipuana tipu,False,Jard Voltes d'en Cirés,16.68,11.72,ok,,large,430808.22,4580940.6,430822.97,4580932.81,1.5,class
+0106887AR,Celtis australis,False,C\ Pintor Fortuny,4.05,3.7,ok,,medium,430640.18,4581658.59,430642.71,4581655.42,1.0,class
+0106888AR,Platanus × acerifolia,True,Rbla Raval,,15.58,median,,check,,,,,1.0,floor
+0106889AR,Platanus × acerifolia,True,Rda Sant Antoni,,7.54,no_kerb,,check,,,,,1.0,floor
+0106890AR,Cercis siliquastrum,False,C\ Flors,3.17,2.45,ok,,small,430417.03,4580824.45,430416.99,4580821.28,1.0,class
+0106891AR,Platanus × acerifolia,True,Rbla Raval,,15.21,median,21.51,check,,,,,1.0,floor
+0106892AR,Quercus ilex,False,C\ Portal de Santa Madrona,26.3,20.82,ok,,large,431008.45,4580760.06,430984.58,4580771.11,1.5,class
+0106893AR,Quercus ilex,False,C\ Maria Aurèlia Capmany,4.46,3.77,ok,,medium,430398.21,4581306.14,430394.85,4581303.2,1.0,class
+0106894AR,Magnolia grandiflora,False,C\ Doctor Dou,5.18,2.15,ok,,medium,430500.87,4581552.71,430506.0,4581553.41,1.0,class
+0106896AR,Platanus × acerifolia,True,Av Drassanes,,9.97,median,,check,,,,,1.0,floor
+0106898AR,Platanus × acerifolia,True,Rda Sant Pau,14.08,5.49,ok,,large,430048.79,4581133.69,430034.77,4581132.43,1.5,class
+0106899AR,Platanus × acerifolia,True,Rbla Raval,9.02,6.53,ok,,large,430612.38,4581005.22,430619.16,4581011.17,1.5,class
+0106900AR,Tipuana tipu,False,Jard Doctor Fleming,,10.42,no_kerb,,check,,,,,1.0,floor
+0106903AR,Prunus cerasifera 'Pissardii',False,C\ Hospital,3.34,2.83,ok,,small,430829.59,4581403.35,430831.17,4581400.4,1.0,class
+0106904AR,Celtis sinensis,False,C\ Peu de la Creu,4.55,3.68,ok,,medium,430422.11,4581485.32,430424.83,4581481.68,1.0,class
+0106905AR,Tipuana tipu,False,C\ Cid,4.77,3.63,ok,,medium,430915.67,4580811.43,430920.31,4580810.33,1.0,class
+0106906AR,Platanus × acerifolia,True,Rda Sant Pau,7.38,7.55,ok,,large,430335.8,4580833.2,430330.55,4580828.02,1.5,class
+0106909AR,Platanus × acerifolia,True,Rda Sant Antoni,16.5,6.63,ok,,large,430049.67,4581274.48,430033.28,4581276.32,1.5,class
+0106910AR,Platanus × acerifolia,True,C\ Rambla,,8.28,median,16.03,check,,,,,1.0,floor
+0106911AR,Platanus × acerifolia,True,Av Drassanes,19.97,17.45,ok,,large,431089.22,4580860.04,431070.85,4580852.2,1.5,class
+0106912AR,Tipuana tipu,False,C\ Sant Oleguer,4.07,1.98,ok,,medium,430708.94,4580965.33,430711.12,4580968.76,1.0,class
+0106913AR,Melia azedarach,False,Jard Doctor Fleming,20.62,5.2,ok,,large,430584.87,4581443.84,430601.25,4581456.37,1.5,class
+0106915AR,Quercus ilex,False,C\ Sant Pau,4.13,2.49,ok,,medium,430427.72,4580758.21,430424.87,4580761.18,1.0,class
+0106916AR,Platanus × acerifolia,True,Rbla Raval,5.58,4.29,ok,,medium,430440.57,4581200.87,430444.77,4581204.55,1.0,class
+0106917AR,Jacaranda mimosifolia,False,Av Drassanes,,22.95,no_kerb,,check,,,,,1.0,floor
+0106918AR,Casuarina cunninghamiana,False,C\ Cervelló,,1.99,no_kerb,12.76,check,,,,,1.0,floor
+0106919AR,Platanus × acerifolia,True,C\ Rambla,,10.62,median,21.61,check,,,,,1.0,floor
+0106920AR,Magnolia grandiflora,False,C\ Riera Alta,3.82,2.56,ok,,medium,430238.86,4581335.34,430239.02,4581331.52,1.0,class
+0106921AR,Celtis australis,False,C\ Peu de la Creu,3.49,2.59,ok,,small,430428.46,4581473.63,430426.32,4581476.38,1.0,class
+0106922AR,Brachychiton populneus,False,C\ Portal de Santa Madrona,11.05,6.3,ok,,large,430874.58,4580718.72,430878.84,4580708.52,1.5,class
+0106923AR,Celtis australis,False,C\ Àngels,5.11,4.16,ok,,medium,430500.25,4581477.84,430496.16,4581474.77,1.0,class
+0106924AR,Jacaranda mimosifolia,False,C\ Cid,,4.18,no_kerb,,check,,,,,1.0,floor
+0106926AR,Celtis australis,False,C\ Pintor Fortuny,4.01,2.26,ok,,medium,430655.56,4581668.5,430657.42,4581664.94,1.0,class
+0106927AR,Ligustrum japonicum,False,C\ Joaquín Costa,3.21,2.71,ok,,small,430153.42,4581686.62,430150.89,4581684.65,1.0,class
+0106929AR,Magnolia grandiflora,False,C\ Riera Alta,2.84,2.01,ok,,small,430307.12,4581339.92,430307.35,4581337.08,1.0,class
+0106930AR,Platanus × acerifolia,True,C\ Rambla,,23.98,median,30.72,check,,,,,1.0,floor
+0106931AR,Ligustrum japonicum,False,C\ Joaquín Costa,3.05,2.42,ok,,small,430214.1,4581610.02,430211.72,4581608.13,1.0,class
+0106932AR,Styphnolobium japonicum,False,C\ Riera Alta,3.0,2.66,ok,,small,430195.68,4581331.77,430195.95,4581328.78,1.0,class
+0106933AR,Magnolia grandiflora,False,C\ Riera Alta,4.12,3.27,ok,,medium,430166.46,4581317.95,430166.18,4581322.06,1.0,class
+0106935AR,Styphnolobium japonicum,False,C\ Riera Alta,3.22,2.79,ok,,small,430211.21,4581332.93,430211.6,4581329.74,1.0,class
+0106936AR,Celtis australis,False,C\ Pintor Fortuny,4.09,3.59,ok,,medium,430489.99,4581536.27,430492.51,4581533.05,1.0,class
+0106938AR,Platanus × acerifolia,True,Pl Pere Coromines,20.75,10.43,ok,,large,430750.65,4580977.74,430738.66,4580960.81,1.5,class
+0106939AR,Melia azedarach,False,C\ Portal de Santa Madrona,5.03,4.64,ok,,medium,431032.71,4580812.45,431028.15,4580814.56,1.0,class
+0106940AR,Platanus × acerifolia,True,Rbla Raval,5.48,4.71,ok,,medium,430612.74,4581091.79,430608.62,4581088.17,1.0,class
+0106941AR,Platanus × acerifolia,True,Rbla Raval,6.36,5.02,ok,,large,430561.58,4581151.09,430557.83,4581145.95,1.5,class
+0106942AR,Tipuana tipu,False,Jard Voltes d'en Cirés,10.13,7.6,ok,,large,430808.22,4580940.6,430817.88,4580943.65,1.5,class
+0106944AR,Tipuana tipu,False,C\ Erasme de Janer,2.27,1.23,ok,,none,430259.21,4581278.25,430257.35,4581276.96,1.0,floor
+0106945AR,Cercis siliquastrum,False,C\ Junta de Comerç,2.08,0.15,ok,,none,430697.06,4581281.23,430698.8,4581282.37,1.0,floor
+0106947AR,Styphnolobium japonicum,False,Av Drassanes,,10.7,median,1.95,check,,,,,1.0,floor
+0106948AR,Celtis australis,False,C\ Sant Pau,9.04,7.54,ok,,large,430476.77,4580835.62,430485.56,4580837.73,1.5,class
+0106949AR,Celtis australis,False,C\ Àngels,5.03,4.8,ok,,medium,430442.23,4581555.15,430438.21,4581552.13,1.0,class
+0106950AR,Platanus × acerifolia,True,Pl Pere Coromines,19.75,9.74,ok,,large,430770.56,4580963.64,430759.14,4580947.52,1.5,class
+0106951AR,Magnolia grandiflora,False,C\ Peu de la Creu,2.26,1.26,ok,,none,430331.7,4581386.67,430330.08,4581388.26,1.0,floor
+0106952AR,Platanus × acerifolia,True,Rda Sant Antoni,7.41,5.63,ok,,large,430089.18,4581627.17,430081.81,4581628.0,1.5,class
+0106953AR,Robinia pseudoacacia,False,C\ Riera Alta,,4.76,no_kerb,,check,,,,,1.0,floor
+0106954AR,Platanus × acerifolia,True,Rda Sant Pau,7.48,6.48,ok,,large,430115.17,4581060.46,430109.81,4581055.25,1.5,class
+0106957AR,Jacaranda mimosifolia,False,Av Drassanes,15.49,14.78,ok,,large,430941.41,4580901.74,430930.84,4580890.42,1.5,class
+0106958AR,Magnolia grandiflora,False,C\ Príncep de Viana,2.81,1.82,ok,,small,430078.05,4581255.67,430075.25,4581255.43,1.0,class
+0106959AR,Platanus × acerifolia,True,C\ Sant Rafael,11.49,9.31,ok,,large,430535.56,4581180.49,430537.42,4581169.16,1.5,class
+0106960AR,Tipuana tipu,False,Pl Emili Vendrell,6.8,7.71,ok,,large,430334.5,4581419.12,430339.77,4581423.41,1.5,class
+0106961AR,Tipuana tipu,False,C\ Sant Oleguer,13.59,4.42,ok,,large,430724.44,4580945.4,430732.32,4580956.47,1.5,class
+0106962AR,Styphnolobium japonicum,False,Av Drassanes,11.95,3.56,ok,,large,431009.93,4580881.44,431006.81,4580869.9,1.5,class
+0106964AR,Jacaranda mimosifolia,False,Pl Jean Genet,,9.99,no_kerb,,check,,,,,1.0,floor
+0106965AR,Styphnolobium japonicum 'Columnare',False,Av Drassanes,11.58,8.8,ok,,large,430872.24,4580888.17,430883.77,4580889.26,1.5,class
+0106966AR,Tipuana tipu,False,Av Drassanes,,18.6,no_kerb,12.5,check,,,,,1.0,floor
+0106967AR,Melia azedarach,False,Jard Doctor Fleming,,8.24,median,,check,,,,,1.0,floor
+0106968AR,Ligustrum lucidum,False,C\ Peracamps,3.23,2.13,ok,,small,430950.35,4580818.83,430949.54,4580815.71,1.0,class
+0106969AR,Tipuana tipu,False,Av Drassanes,,15.95,median,2.01,check,,,,,1.0,floor
+0106970AR,Jacaranda mimosifolia,False,Rbla Raval,,20.64,median,10.37,check,,,,,1.0,floor
+0106972AR,Eugenia uniflora,False,C\ Peu de la Creu,2.5,1.06,ok,,small,430314.08,4581368.72,430312.3,4581370.46,1.0,class
+0106973AR,Platanus × acerifolia,True,Rbla Raval,,15.8,median,32.03,check,,,,,1.0,floor
+0106974AR,Magnolia grandiflora,False,C\ Pintor Fortuny,5.6,2.6,ok,,medium,430500.02,4581545.21,430505.55,4581544.31,1.0,class
+0106975AR,Platanus × acerifolia,True,Rbla Raval,,14.62,median,,check,,,,,1.0,floor
+0106976AR,Styphnolobium japonicum,False,Av Drassanes,11.95,11.44,ok,,large,431003.98,4580883.04,431000.87,4580871.51,1.5,class
+0106977AR,Ligustrum japonicum,False,C\ Joaquín Costa,3.05,2.17,ok,,small,430227.69,4581592.92,430225.3,4581591.02,1.0,class
+0106978AR,Quercus ilex,False,C\ Portal de Santa Madrona,21.71,15.4,ok,,large,431011.78,4580767.26,430992.08,4580776.38,1.5,class
+0106979AR,Tipuana tipu,False,Pl Sant Agustí,,10.86,no_kerb,,check,,,,,1.0,floor
+0106980AR,Platanus × acerifolia,True,Rbla Raval,5.6,4.6,ok,,medium,430597.0,4581109.86,430592.8,4581106.16,1.0,class
+0106981AR,Platanus × acerifolia,True,Rda Sant Pau,7.48,6.39,ok,,large,430109.8,4581065.99,430104.43,4581060.78,1.5,class
+0106982AR,Tipuana tipu,False,C\ Sant Oleguer,13.28,9.02,ok,,large,430738.43,4580934.84,430745.95,4580945.78,1.5,class
+0106983AR,Jacaranda mimosifolia,False,C\ Cid,,8.76,no_kerb,,check,,,,,1.0,floor
+0106984AR,Platanus × acerifolia,True,Av Drassanes,12.55,11.01,ok,,large,431089.22,4580860.04,431083.9,4580848.67,1.5,class
+0106985AR,Tipuana tipu,False,C\ Carme,,8.5,median,,check,,,,,1.0,floor
+0106986AR,Styphnolobium japonicum,False,Pl Pes de la Palla,,5.52,no_kerb,,check,,,,,1.0,floor
+0106987AR,Styphnolobium japonicum,False,Av Drassanes,11.95,3.86,ok,,large,431033.55,4580875.06,431030.43,4580863.52,1.5,class
+0106993AR,Platanus × acerifolia,True,Rbla Raval,,14.94,median,31.99,check,,,,,1.0,floor
+0106994AR,Ligustrum lucidum,False,C\ Peracamps,3.18,2.24,ok,,small,430979.63,4580811.25,430978.83,4580808.17,1.0,class
+0106995AR,Platanus × acerifolia,True,C\ Rambla,,17.86,median,26.35,check,,,,,1.0,floor
+0106996AR,Platanus × acerifolia,True,Av Drassanes,9.47,8.97,ok,,large,431106.0,4580819.58,431109.42,4580828.41,1.5,class
+0106997AR,Platanus × acerifolia,True,Av Drassanes,,9.03,median,8.0,check,,,,,1.0,floor
+0106999AR,Platanus × acerifolia,True,C\ Rambla,,25.81,median,29.69,check,,,,,1.0,floor
+0107001AR,Platanus × acerifolia,True,Av Paral·lel,,32.63,no_facade,,check,,,,,1.0,floor
+0107002AR,Platanus × acerifolia,True,Rbla Raval,,21.43,median,32.0,check,,,,,1.0,floor
+0107004AR,Magnolia grandiflora,False,C\ Peu de la Creu,2.11,1.09,ok,,none,430353.79,4581409.18,430352.28,4581410.65,1.0,floor
+0107005AR,Quercus suber,False,Pl Caramelles,,10.6,no_kerb,,check,,,,,1.0,floor
+0107006AR,Quercus ilex,False,C\ Portal de Santa Madrona,,27.12,no_kerb,,check,,,,,1.0,floor
+0107010AR,Platanus × acerifolia,True,Rbla Raval,,15.94,median,32.02,check,,,,,1.0,floor
+0107012AR,Platanus × acerifolia,True,Av Paral·lel,,32.89,no_facade,,check,,,,,1.0,floor
+0107013AR,Platanus × acerifolia,True,C\ Rambla,,8.55,median,14.18,check,,,,,1.0,floor
+0107015AR,Tipuana tipu,False,C\ Ramon Berenguer el Vell,,9.5,no_kerb,,check,,,,,1.0,floor
+0107016AR,Platanus × acerifolia,True,Rbla Raval,5.72,4.45,ok,,medium,430561.98,4581062.56,430566.28,4581066.33,1.0,class
+0107017AR,Platanus × acerifolia,True,Rda Sant Pau,8.3,7.38,ok,,large,430233.12,4580938.94,430225.28,4580936.22,1.5,class
+0107018AR,Jacaranda mimosifolia,False,Rbla Raval,,22.42,median,32.15,check,,,,,1.0,floor
+0107019AR,Platanus × acerifolia,True,Rda Sant Pau,,23.75,median,7.36,check,,,,,1.0,floor
+0107020AR,Elaeagnus pungens,False,C\ Maria Aurèlia Capmany,4.44,2.8,ok,,medium,430403.51,4581277.38,430406.85,4581280.31,1.0,class
+0107021AR,Celtis australis,False,C\ Pintor Fortuny,4.19,3.24,ok,,medium,430534.49,4581569.66,430537.01,4581566.32,1.0,class
+0107022AR,Celtis australis,False,C\ Pintor Fortuny,4.14,3.09,ok,,medium,430494.16,4581539.48,430496.63,4581536.15,1.0,class
+0107024AR,Tipuana tipu,False,Pl Pieyre de Mandiargues,,9.59,median,,check,,,,,1.0,floor
+0107025AR,Platanus × acerifolia,True,Rbla Raval,5.72,4.6,ok,,medium,430566.88,4581056.99,430571.17,4581060.76,1.0,class
+0107029AR,Platanus × acerifolia,True,Av Paral·lel,7.33,5.83,ok,,large,430799.25,4580715.73,430798.58,4580708.43,1.5,class
+0107031AR,Jacaranda mimosifolia,False,Av Drassanes,,14.78,median,2.03,check,,,,,1.0,floor
+0107032AR,Tipuana tipu,False,C\ Sant Oleguer,4.84,3.67,ok,,medium,430676.46,4580985.96,430680.88,4580987.93,1.0,class
+0107033AR,Ficus microcarpa,False,C\ Carretes,3.34,1.77,ok,,small,430462.86,4580916.65,430465.01,4580919.2,1.0,class
+0107034AR,Quercus suber,False,Pl Caramelles,,8.6,no_kerb,,check,,,,,1.0,floor
+0107035AR,Jacaranda mimosifolia,False,Rbla Raval,,27.3,median,31.97,check,,,,,1.0,floor
+0107037AR,Jacaranda mimosifolia,False,C\ Príncep de Viana,6.78,3.28,ok,,large,430079.66,4581236.86,430076.35,4581242.79,1.5,class
+0107039AR,Tipuana tipu,False,C\ Cid,4.76,3.71,ok,,medium,430895.32,4580729.18,430899.94,4580728.02,1.0,class
+0107040AR,Ligustrum lucidum,False,C\ Peu de la Creu,2.19,1.27,ok,,none,430337.54,4581392.62,430335.98,4581394.15,1.0,floor
+0107041AR,Styphnolobium japonicum,False,Av Drassanes,,10.99,median,1.89,check,,,,,1.0,floor
+0107043AR,Styphnolobium japonicum,False,Av Drassanes,,11.41,median,1.88,check,,,,,1.0,floor
+0107045AR,Platanus × acerifolia,True,Rda Sant Pau,22.38,10.67,ok,,large,430408.23,4580770.67,430407.75,4580748.29,1.5,class
+0107047AR,Platanus × acerifolia,True,Av Paral·lel,8.54,7.31,ok,,large,430812.85,4580715.67,430813.13,4580707.14,1.5,class
+0107050AR,Platanus × acerifolia,True,Av Drassanes,,19.37,no_kerb,16.43,check,,,,,1.0,floor
+0107052AR,Platanus × acerifolia,True,C\ Rambla,,9.39,median,15.94,check,,,,,1.0,floor
+0107053AR,Brachychiton populneus,False,C\ Montalegre,,7.89,median,3.75,check,,,,,1.0,floor
+0107054AR,Tipuana tipu,False,Jard Voltes d'en Cirés,,19.62,median,16.59,check,,,,,1.0,floor
+0107055AR,Quercus ilex,False,C\ Cervelló,14.25,3.31,ok,,large,431011.2,4580942.71,431024.89,4580938.78,1.5,class
+0107056AR,Styphnolobium japonicum,False,C\ Montserrat,4.36,2.71,ok,,medium,431038.96,4580918.79,431042.02,4580921.9,1.0,class
+0107058AR,Celtis australis,False,C\ Pintor Fortuny,3.85,3.61,ok,,medium,430598.5,4581618.6,430601.16,4581615.83,1.0,class
+0107059AR,Celtis sinensis,False,C\ Peu de la Creu,4.55,3.76,ok,,medium,430415.57,4581480.43,430418.29,4581476.79,1.0,class
+0107060AR,Platanus × acerifolia,True,Rda Sant Pau,7.58,6.48,ok,,large,430369.51,4580798.52,430364.04,4580793.26,1.5,class
+0107062AR,Tipuana tipu,False,Pl Bonsuccés,,3.16,no_kerb,,check,,,,,1.0,floor
+0107063AR,Jacaranda mimosifolia,False,Rbla Raval,,20.98,median,32.14,check,,,,,1.0,floor
+0107065AR,Brachychiton populneus,False,C\ Portal de Santa Madrona,,34.99,no_facade,,check,,,,,1.0,floor
+0107066AR,Myrtus communis,False,C\ Sant Gil,1.86,0.4,ok,,none,430061.73,4581361.97,430061.58,4581363.83,1.0,floor
+0107067AR,Prunus cerasifera 'Pissardii',False,C\ Doctor Dou,2.47,0.55,ok,,none,430482.31,4581578.67,430484.29,4581580.15,1.0,floor
+0107068AR,Tipuana tipu,False,Jard Voltes d'en Cirés,,16.57,no_kerb,17.68,check,,,,,1.0,floor
+0107069AR,Eugenia uniflora,False,C\ Peu de la Creu,2.34,1.34,ok,,none,430326.31,4581381.18,430324.65,4581382.82,1.0,floor
+0107070AR,Brachychiton populneus,False,C\ Montalegre,3.49,2.71,ok,,small,430361.06,4581695.18,430358.25,4581693.11,1.0,class
+0107071AR,Magnolia grandiflora,False,C\ Doctor Dou,4.2,3.55,ok,,medium,430526.37,4581540.03,430522.32,4581538.92,1.0,class
+0107072AR,Styphnolobium japonicum,False,Av Drassanes,4.72,3.07,ok,,medium,430840.49,4580896.82,430841.71,4580901.38,1.0,class
+0107073AR,Tipuana tipu,False,C\ Erasme de Janer,2.26,1.01,ok,,none,430247.29,4581295.58,430245.43,4581294.3,1.0,floor
+0107074AR,Tipuana tipu,False,Pl Bonsuccés,,2.73,no_kerb,,check,,,,,1.0,floor
+0107075AR,Melia azedarach,False,Jard Doctor Fleming,,9.4,median,,check,,,,,1.0,floor
+0107077AR,Celtis australis,False,C\ Àngels,8.19,4.0,ok,,large,430446.65,4581516.4,430453.2,4581521.31,1.5,class
+0107078AR,Styphnolobium japonicum,False,Av Drassanes,4.83,2.9,ok,,medium,431002.03,4580852.81,431003.31,4580857.47,1.0,class
+0107079AR,Platanus × acerifolia,True,Rda Sant Pau,7.48,6.68,ok,,large,430121.56,4581053.87,430116.19,4581048.66,1.5,class
+0107080AR,Melia azedarach,False,C\ Portal de Santa Madrona,17.84,10.52,ok,,large,431014.63,4580773.41,430998.44,4580780.9,1.5,class
+0107081AR,Platanus × acerifolia,True,Rbla Raval,5.72,4.3,ok,,medium,430598.33,4581021.2,430602.63,4581024.98,1.0,class
+0107083AR,Platanus × acerifolia,True,Rbla Raval,5.72,4.55,ok,,medium,430584.46,4581036.98,430588.75,4581040.76,1.0,class
+0107084AR,Ligustrum lucidum,False,C\ Om,2.52,2.12,ok,,small,430716.47,4580850.93,430715.62,4580848.55,1.0,class
+0107085AR,Platanus × acerifolia,True,Av Drassanes,,20.02,median,1.9,check,,,,,1.0,floor
+0107086AR,Celtis australis,False,C\ Àngels,8.83,4.11,ok,,large,430461.36,4581496.13,430468.44,4581501.41,1.5,class
+0107087AR,Platanus × acerifolia,True,C\ Rambla,,8.85,median,19.11,check,,,,,1.0,floor
+0107089AR,Ficus microcarpa,False,C\ Reina Amàlia,4.59,2.97,ok,,medium,430446.75,4580871.19,430443.84,4580867.64,1.0,class
+0107090AR,Ligustrum lucidum,False,C\ Requesens,,1.42,no_kerb,,check,,,,,1.0,floor
+0107091AR,Platanus × acerifolia,True,Rda Sant Pau,7.56,7.81,ok,,large,430235.53,4580936.52,430230.18,4580931.18,1.5,class
+0107092AR,Styphnolobium japonicum,False,Av Drassanes,12.47,11.87,ok,,large,430986.75,4580888.23,430983.41,4580876.22,1.5,class
+0107093AR,Platanus × acerifolia,True,Rda Sant Pau,14.66,14.48,ok,,large,430277.38,4580893.02,430281.04,4580878.83,1.5,class
+0107094AR,Ligustrum lucidum,False,C\ Peu de la Creu,2.53,1.11,ok,,small,430308.66,4581363.2,430306.86,4581364.97,1.0,class
+0107095AR,Platanus × acerifolia,True,Rda Sant Pau,10.92,9.87,ok,,large,430363.26,4580807.05,430352.51,4580805.11,1.5,class
+0107096AR,Brachychiton populneus,False,C\ Torres i Amat,,3.93,median,2.57,check,,,,,1.0,floor
+0107097AR,Styphnolobium japonicum,False,Av Drassanes,,11.17,median,1.93,check,,,,,1.0,floor
+0107098AR,Tipuana tipu,False,Jard Voltes d'en Cirés,7.23,4.53,ok,,large,430807.8,4580940.09,430813.42,4580935.54,1.5,class
+0107099AR,Tipuana tipu,False,C\ Erasme de Janer,2.26,0.99,ok,,none,430236.28,4581311.49,430234.17,4581310.66,1.0,floor
+0107100AR,Platanus × acerifolia,True,Av Paral·lel,24.44,25.34,ok,,large,431009.84,4580699.57,430986.84,4580691.3,1.5,class
+0107101AR,Quercus ilex,False,C\ Cervelló,17.64,2.91,ok,,large,431009.57,4580937.06,431026.53,4580932.19,1.5,class
+0107103AR,Jacaranda mimosifolia,False,Av Drassanes,,19.19,median,2.04,check,,,,,1.0,floor
+0107104AR,Styphnolobium japonicum,False,Av Drassanes,5.07,2.76,ok,,medium,430944.26,4580868.34,430945.61,4580873.22,1.0,class
+0107105AR,Magnolia grandiflora,False,C\ Riera Alta,2.97,2.64,ok,,small,430384.03,4581345.6,430384.24,4581342.63,1.0,class
+0107106AR,Ligustrum lucidum,False,C\ Joaquín Costa,2.91,2.92,ok,,small,430407.12,4581366.61,430404.83,4581364.83,1.0,class
+0107107AR,Celtis australis,False,C\ Pintor Fortuny,3.94,3.37,ok,,medium,430484.39,4581531.87,430486.82,4581528.77,1.0,class
+0107108AR,Platanus × acerifolia,True,C\ Rambla,,9.61,median,15.77,check,,,,,1.0,floor
+0107109AR,Tipuana tipu,False,Pl Sant Agustí,25.68,6.01,ok,,large,430756.43,4581359.05,430730.77,4581359.87,1.5,class
+0107110AR,Platanus × acerifolia,True,C\ Rambla,,13.51,median,25.0,check,,,,,1.0,floor
+0107112AR,Platanus × acerifolia,True,Rda Sant Antoni,,6.75,no_kerb,,check,,,,,1.0,floor
+0107113AR,Platanus × acerifolia,True,Rbla Raval,,14.75,median,,check,,,,,1.0,floor
+0107114AR,Styphnolobium japonicum,False,Av Drassanes,13.26,13.98,ok,,large,430853.6,4580924.02,430845.44,4580913.56,1.5,class
+0107115AR,Cercis siliquastrum,False,Pl Dubte,,5.64,no_kerb,35.77,check,,,,,1.0,floor
+0107116AR,Eugenia uniflora,False,C\ Peu de la Creu,2.11,1.03,ok,,none,430345.71,4581400.95,430344.21,4581402.43,1.0,floor
+0107117AR,Ligustrum japonicum,False,C\ Joaquín Costa,3.05,2.03,ok,,small,430244.08,4581572.27,430241.69,4581570.38,1.0,class
+0107120AR,Melia azedarach,False,C\ Portal de Santa Madrona,22.37,11.36,ok,,large,431011.31,4580766.23,430991.01,4580775.63,1.5,class
+0107121AR,Styphnolobium japonicum,False,C\ Riera Alta,4.36,2.95,ok,,medium,430313.52,4581328.34,430313.19,4581332.69,1.0,class
+0107122AR,Platanus × acerifolia,True,Rbla Raval,,14.89,median,32.1,check,,,,,1.0,floor
+0107123AR,Magnolia grandiflora,False,C\ Riera Baixa,,2.24,no_kerb,,check,,,,,1.0,floor
+0107124AR,X chitalpa tashkentensis 'minsum' SUMMER BELLS®,False,C\ Est,20.59,5.52,ok,,large,430902.29,4580951.48,430894.91,4580970.7,1.5,class
+0107125AR,Tipuana tipu,False,C\ Carme,,8.47,median,,check,,,,,1.0,floor
+0107126AR,Platanus × acerifolia,True,C\ Rambla,,8.55,median,14.66,check,,,,,1.0,floor
+0107127AR,Jacaranda mimosifolia,False,Av Drassanes,16.71,15.82,ok,,large,430889.56,4580914.37,430897.25,4580899.53,1.5,class
+0107128AR,Platanus × acerifolia,True,C\ Rambla,,12.55,median,13.92,check,,,,,1.0,floor
+0107132AR,Jacaranda mimosifolia,False,Rbla Raval,,21.17,median,32.14,check,,,,,1.0,floor
+0107133AR,Platanus × acerifolia,True,Rda Sant Pau,7.51,6.72,ok,,large,430087.77,4581088.68,430082.41,4581083.41,1.5,class
+0107135AR,Magnolia grandiflora,False,C\ Peu de la Creu,2.5,1.58,ok,,small,430287.96,4581341.81,430286.18,4581343.56,1.0,class
+0107137AR,Celtis australis,False,C\ Pintor Fortuny,3.87,2.84,ok,,medium,430594.56,4581614.82,430597.24,4581612.03,1.0,class
+0107138AR,Prunus cerasifera 'Pissardii',False,C\ Doctor Dou,2.57,1.79,ok,,small,430527.07,4581518.66,430529.13,4581520.2,1.0,class
+0107139AR,Platanus × acerifolia,True,C\ Rambla,9.07,9.03,ok,,large,430881.41,4581355.11,430889.04,4581360.02,1.5,class
+0107140AR,Platanus × acerifolia,True,C\ Rambla,,14.05,median,13.79,check,,,,,1.0,floor
+0107141AR,Tipuana tipu,False,Pl Emili Vendrell,6.8,7.56,ok,,large,430337.2,4581415.79,430342.48,4581420.08,1.5,class
+0107143AR,Celtis australis,False,C\ Pintor Fortuny,4.22,2.54,ok,,medium,430539.61,4581573.54,430542.16,4581570.17,1.0,class
+0107144AR,Styphnolobium japonicum,False,Av Drassanes,4.68,3.63,ok,,medium,430770.57,4580915.55,430771.78,4580920.07,1.0,class
+0107145AR,Platanus × acerifolia,True,Rda Sant Pau,7.31,7.78,ok,,large,430252.15,4580919.06,430247.11,4580913.77,1.5,class
+0107146AR,Quercus suber,False,Pl Caramelles,,7.96,no_kerb,,check,,,,,1.0,floor
+0107147AR,Magnolia grandiflora,False,C\ Riera Alta,,1.6,no_kerb,,check,,,,,1.0,floor
+0107148AR,Tipuana tipu,False,Pl Emili Vendrell,,7.83,median,9.92,check,,,,,1.0,floor
+0107149AR,Platanus × acerifolia,True,Rbla Raval,,14.56,median,10.05,check,,,,,1.0,floor
+0107150AR,Ligustrum japonicum,False,C\ Joaquín Costa,3.02,2.39,ok,,small,430391.3,4581386.94,430388.92,4581385.08,1.0,class
+0107151AR,Celtis australis,False,C\ Pintor Fortuny,4.08,3.16,ok,,medium,430560.58,4581588.99,430563.02,4581585.72,1.0,class
+0107152AR,Platanus × acerifolia,True,Rbla Raval,,18.18,median,32.0,check,,,,,1.0,floor
+0107154AR,Platanus × acerifolia,True,C\ Rambla,,8.34,median,15.98,check,,,,,1.0,floor
+0107156AR,Platanus × acerifolia,True,C\ Rambla,,11.46,median,21.89,check,,,,,1.0,floor
+0107157AR,Styphnolobium japonicum,False,Av Drassanes,5.17,3.06,ok,,medium,430996.19,4580854.06,430997.56,4580859.04,1.0,class
+0107158AR,Platanus × acerifolia,True,Av Drassanes,12.38,4.27,ok,,large,431104.73,4580856.03,431101.63,4580844.05,1.5,class
+0107159AR,Platanus × acerifolia,True,C\ Rambla,,8.87,median,18.74,check,,,,,1.0,floor
+0107160AR,Cercis siliquastrum,False,Pl Dubte,,3.18,no_kerb,,check,,,,,1.0,floor
+0107161AR,Ginkgo biloba,False,C\ Sant Antoni Abat,6.3,5.68,ok,,large,430192.35,4581205.65,430194.83,4581199.85,1.5,class
+0107162AR,Tipuana tipu,False,Jard Voltes d'en Cirés,,12.9,median,,check,,,,,1.0,floor
+0107163AR,Platanus × acerifolia,True,Rda Sant Antoni,7.6,6.23,ok,,large,430098.66,4581711.23,430091.11,4581712.08,1.5,class
+0107164AR,Platanus × acerifolia,True,C\ Rambla,,29.18,median,3.47,check,,,,,1.0,floor
+0107165AR,Platanus × acerifolia,True,Av Paral·lel,7.35,6.0,ok,,large,430785.1,4580716.98,430784.0,4580709.71,1.5,class
+0107166AR,Tipuana tipu,False,C\ Tàpies,5.78,5.19,ok,,medium,430588.28,4580758.91,430583.5,4580762.15,1.0,class
+0107167AR,Tipuana tipu,False,C\ Erasme de Janer,2.75,1.99,ok,,small,430273.47,4581258.36,430271.28,4581256.71,1.0,class
+0107169AR,Celtis australis,False,C\ Valldonzella,4.74,4.32,ok,,medium,430315.85,4581808.01,430311.87,4581810.58,1.0,class
+0107170AR,Eugenia uniflora,False,C\ Peu de la Creu,2.41,1.19,ok,,none,430320.51,4581375.27,430318.79,4581376.96,1.0,floor
+0107171AR,Prunus cerasifera 'Pissardii',False,C\ Doctor Dou,2.48,1.1,ok,,none,430462.85,4581604.69,430464.83,4581606.17,1.0,floor
+0107172AR,Platanus × acerifolia,True,Rbla Raval,5.47,4.47,ok,,medium,430616.71,4581087.26,430612.6,4581083.65,1.0,class
+0107173AR,X chitalpa tashkentensis 'minsum' SUMMER BELLS®,False,C\ Robador,4.09,3.31,ok,,medium,430700.36,4581166.88,430696.88,4581164.74,1.0,class
+0107174AR,Prunus cerasifera 'Pissardii',False,C\ Doctor Dou,2.43,1.16,ok,,none,430491.18,4581586.85,430489.24,4581585.39,1.0,floor
+0107175AR,Styphnolobium japonicum,False,Av Drassanes,13.49,12.9,ok,,large,431003.86,4580883.08,430994.7,4580873.17,1.5,class
+0107176AR,Tipuana tipu,False,C\ Sant Oleguer,4.05,2.98,ok,,medium,430658.21,4580997.54,430660.38,4581000.96,1.0,class
+0107177AR,Ligustrum lucidum,False,C\ Sant Gil,1.96,0.45,ok,,none,430185.56,4581372.38,430185.39,4581374.33,1.0,floor
+0107179AR,Tipuana tipu,False,C\ Sant Oleguer,4.35,3.7,ok,,medium,430675.51,4581007.84,430673.17,4581004.17,1.0,class
+0107180AR,Styphnolobium japonicum,False,Av Drassanes,,10.43,median,5.36,check,,,,,1.0,floor
+0107181AR,Platanus × acerifolia,True,Rbla Raval,10.89,8.12,ok,,large,430585.03,4581123.47,430574.66,4581126.8,1.5,class
+0107182AR,Brachychiton populneus,False,C\ Portal de Santa Madrona,,35.35,no_facade,7.34,check,,,,,1.0,floor
+0107183AR,Platanus × acerifolia,True,Rbla Raval,18.98,14.81,ok,,large,430585.03,4581123.47,430568.86,4581133.4,1.5,class
+0107184AR,Jacaranda mimosifolia,False,Av Drassanes,28.4,18.22,ok,,large,430896.84,4580876.53,430925.15,4580878.82,1.5,class
+0107186AR,Platanus × acerifolia,True,C\ Rambla,,9.45,median,16.01,check,,,,,1.0,floor
+0107187AR,Platanus × acerifolia,True,Av Paral·lel,,36.69,no_facade,2.63,check,,,,,1.0,floor
+0107188AR,Ligustrum lucidum,False,C\ Peracamps,3.18,2.29,ok,,small,430932.46,4580823.47,430931.67,4580820.4,1.0,class
+0107189AR,Tipuana tipu,False,C\ Erasme de Janer,2.6,1.59,ok,,small,430271.48,4581261.0,430269.41,4581259.43,1.0,class
+0107190AR,Styphnolobium japonicum,False,Av Drassanes,4.71,3.42,ok,,medium,430823.18,4580901.46,430824.4,4580906.0,1.0,class
+0107191AR,Magnolia grandiflora,False,C\ Riera Alta,2.94,2.58,ok,,small,430328.81,4581341.58,430329.03,4581338.65,1.0,class
+0107193AR,Grevillea robusta,False,Rbla Raval,5.59,4.51,ok,,medium,430592.12,4581115.41,430587.92,4581111.72,1.0,class
+0107194AR,Tipuana tipu,False,Pl Bonsuccés,,2.8,no_kerb,,check,,,,,1.0,floor
+0107195AR,Ligustrum japonicum,False,C\ Joaquín Costa,3.05,2.86,ok,,small,430248.35,4581566.91,430245.96,4581565.01,1.0,class
+0107196AR,Tipuana tipu,False,C\ Sant Oleguer,4.19,3.24,ok,,medium,430720.96,4580978.89,430718.72,4580975.36,1.0,class
+0107198AR,X chitalpa tashkentensis 'minsum' SUMMER BELLS®,False,C\ Robador,3.86,3.1,ok,,medium,430696.66,4581172.78,430693.4,4581170.73,1.0,class
+0107199AR,Tipuana tipu,False,C\ Ramon Berenguer el Vell,,5.27,no_kerb,,check,,,,,1.0,floor
+0107200AR,Platanus × acerifolia,True,Rda Sant Antoni,7.52,7.12,ok,,large,430082.02,4581563.66,430074.55,4581564.5,1.5,class
+0107201AR,Ligustrum lucidum,False,C\ Cera,2.4,1.93,ok,,none,430172.15,4581040.55,430173.52,4581038.59,1.0,floor
+0107202AR,Styphnolobium japonicum,False,C\ Riera Alta,3.83,1.7,ok,,medium,430255.87,4581324.0,430255.58,4581327.83,1.0,class
+0107203AR,Cercis siliquastrum,False,C\ Flors,3.02,2.99,ok,,small,430366.03,4580824.99,430366.0,4580821.97,1.0,class
+0107204AR,Tipuana tipu,False,Pl Sant Agustí,,7.31,no_kerb,,check,,,,,1.0,floor
+0107205AR,Cercis siliquastrum,False,C\ Flors,3.1,3.1,ok,,small,430443.04,4580824.1,430443.0,4580821.0,1.0,class
+0107206AR,Platanus × acerifolia,True,C\ Rambla,,8.73,median,15.16,check,,,,,1.0,floor
+0107208AR,Tipuana tipu,False,C\ Cid,5.66,4.33,ok,,medium,430904.8,4580767.44,430910.24,4580769.02,1.0,class
+0107209AR,Platanus × acerifolia,True,Rda Sant Pau,,21.45,median,7.38,check,,,,,1.0,floor
+0107210AR,Brachychiton acerifolius,False,C\ Portal de Santa Madrona,,19.54,median,18.28,check,,,,,1.0,floor
+0107211AR,Ulmus pumila,False,C\ Arc del Teatre,,6.7,median,,check,,,,,1.0,floor
+0107213AR,Tipuana tipu,False,Av Drassanes,16.76,17.16,ok,,large,430853.6,4580924.02,430839.34,4580915.21,1.5,class
+0107215AR,Platanus × acerifolia,True,C\ Rambla,,14.03,median,3.07,check,,,,,1.0,floor
+0107216AR,Platanus × acerifolia,True,Rbla Raval,5.91,4.91,ok,,medium,430492.33,4581141.97,430496.77,4581145.87,1.0,class
+0107219AR,Celtis australis,False,C\ Àngels,5.21,4.36,ok,,medium,430488.7,4581493.24,430484.53,4581490.11,1.0,class
+0107220AR,Platanus × acerifolia,True,C\ Rambla,,13.9,median,13.59,check,,,,,1.0,floor
+0107222AR,Platanus × acerifolia,True,Rda Sant Antoni,7.6,6.3,ok,,large,430110.97,4581819.79,430103.42,4581820.65,1.5,class
+0107223AR,Celtis australis,False,C\ Àngels,5.03,4.55,ok,,medium,430450.77,4581543.81,430446.76,4581540.78,1.0,class
+0107224AR,Acer monspessulanum,False,C\ Sant Antoni Abat,,1.79,no_kerb,,check,,,,,1.0,floor
+0107226AR,Quercus suber,False,Pl Caramelles,,7.91,no_kerb,,check,,,,,1.0,floor
+0107227AR,Platanus × acerifolia,True,Rbla Raval,5.62,4.17,ok,,medium,430468.01,4581169.8,430472.2,4581173.54,1.0,class
+0107228AR,X chitalpa tashkentensis 'minsum' SUMMER BELLS®,False,C\ Robador,3.31,3.96,ok,,small,430661.5,4581212.31,430664.22,4581214.19,1.0,class
+0107229AR,Quercus suber,False,Pl Caramelles,,7.6,no_kerb,,check,,,,,1.0,floor
+0107231AR,Jacaranda mimosifolia,False,Pl Jean Genet,,19.88,no_kerb,28.93,check,,,,,1.0,floor
+0107232AR,Platanus × acerifolia,True,Rda Sant Pau,7.46,6.17,ok,,large,430077.59,4581099.04,430072.27,4581093.81,1.5,class
+0107234AR,Tipuana tipu,False,C\ Sant Oleguer,13.06,4.12,ok,,large,430733.79,4580938.74,430741.38,4580949.36,1.5,class
+0107235AR,Platanus × acerifolia,True,Rbla Raval,5.55,4.23,ok,,medium,430459.03,4581179.86,430463.18,4581183.56,1.0,class
+0107236AR,Ulmus pumila,False,C\ Arc del Teatre,11.45,3.36,ok,,large,430869.19,4580878.89,430880.06,4580875.31,1.5,class
+0107237AR,Tipuana tipu,False,Av Drassanes,,16.59,median,5.51,check,,,,,1.0,floor
+0107239AR,Platanus × acerifolia,True,C\ Rambla,,12.35,median,14.12,check,,,,,1.0,floor
+0107240AR,Styphnolobium japonicum,False,Pl Pes de la Palla,,5.56,no_kerb,,check,,,,,1.0,floor
+0107241AR,Melia azedarach,False,Jard Doctor Fleming,27.84,2.98,ok,,large,430556.6,4581465.24,430579.06,4581481.69,1.5,class
+0107242AR,Tipuana tipu,False,C\ Sant Oleguer,12.64,10.95,ok,,large,430743.58,4580931.61,430750.75,4580942.02,1.5,class
+0107243AR,Platanus × acerifolia,True,Av Paral·lel,8.4,7.13,ok,,large,430714.25,4580724.31,430713.5,4580715.94,1.5,class
+0107245AR,Celtis australis,False,C\ Pintor Fortuny,4.22,3.26,ok,,medium,430528.65,4581565.25,430531.2,4581561.89,1.0,class
+0107246AR,Quercus suber,False,Pl Caramelles,,5.43,no_kerb,,check,,,,,1.0,floor
+0107247AR,Quercus ilex,False,C\ Sant Pau,5.22,4.31,ok,,medium,430416.23,4580770.93,430418.37,4580766.17,1.0,class
+0107248AR,Platanus × acerifolia,True,Rbla Raval,6.08,4.9,ok,,large,430534.78,4581181.37,430530.24,4581177.33,1.5,class
+0107252AR,Celtis australis,False,C\ Peu de la Creu,5.32,4.46,ok,,medium,430383.12,4581429.81,430379.4,4581433.61,1.0,class
+0107253AR,Quercus ilex,False,C\ Ramon Berenguer el Vell,,5.07,no_kerb,,check,,,,,1.0,floor
+0107254AR,Platanus × acerifolia,True,C\ Rambla,,14.88,median,22.88,check,,,,,1.0,floor
+0107255AR,Platanus × acerifolia,True,Av Drassanes,12.42,11.38,ok,,large,431110.02,4580854.66,431106.91,4580842.64,1.5,class
+0107256AR,Ligustrum lucidum,False,C\ Om,2.09,1.72,ok,,none,430755.42,4580837.46,430754.76,4580835.48,1.0,floor
+0107257AR,Platanus × acerifolia,True,Av Drassanes,,30.04,no_facade,,check,,,,,1.0,floor
+0107258AR,Eugenia uniflora,False,C\ Junta de Comerç,3.86,0.55,ok,,medium,430746.48,4581205.78,430749.7,4581207.89,1.0,class
+0107260AR,Styphnolobium japonicum,False,Av Drassanes,,11.02,median,1.93,check,,,,,1.0,floor
+0107261AR,Platanus × acerifolia,True,C\ Rambla,,9.11,median,17.58,check,,,,,1.0,floor
+0107262AR,Platanus × acerifolia,True,Av Paral·lel,18.32,17.15,ok,,large,431009.84,4580699.57,430993.85,4580690.64,1.5,class
+0107263AR,Platanus × acerifolia,True,Rbla Raval,,14.89,median,,check,,,,,1.0,floor
+0107265AR,Tipuana tipu,False,Pl Bonsuccés,,2.43,no_kerb,,check,,,,,1.0,floor
+0107266AR,Prunus cerasifera 'Pissardii',False,C\ Doctor Dou,2.42,1.58,ok,,none,430533.87,4581529.9,430531.92,4581528.46,1.0,floor
+0107267AR,Quercus ilex,False,C\ Maria Aurèlia Capmany,4.39,2.94,ok,,medium,430422.91,4581255.22,430426.21,4581258.12,1.0,class
+0107269AR,Platanus × acerifolia,True,Rbla Raval,,14.68,median,,check,,,,,1.0,floor
+0107271AR,Ligustrum lucidum,False,C\ Cera,5.53,4.5,ok,,medium,430157.9,4581026.07,430158.91,4581020.63,1.0,class
+0107272AR,Casuarina cunninghamiana,False,C\ Cervelló,,3.47,median,,check,,,,,1.0,floor
+0107273AR,Styphnolobium japonicum,False,Av Drassanes,12.53,5.2,ok,,large,430980.53,4580889.97,430976.84,4580877.99,1.5,class
+0107274AR,Platanus × acerifolia,True,C\ Rambla,,13.48,median,22.67,check,,,,,1.0,floor
+0107275AR,Tipuana tipu,False,Av Drassanes,,13.31,median,2.0,check,,,,,1.0,floor
+0107276AR,Celtis australis,False,C\ Peu de la Creu,5.46,4.85,ok,,medium,430378.74,4581425.52,430374.92,4581429.43,1.0,class
+0107277AR,Brachychiton populneus,False,C\ Montalegre,3.49,2.71,ok,,small,430353.49,4581705.45,430350.68,4581703.37,1.0,class
+0107279AR,Platanus × acerifolia,True,C\ Rambla,,9.31,median,16.07,check,,,,,1.0,floor
+0107280AR,Magnolia grandiflora,False,C\ Riera Alta,2.92,2.13,ok,,small,430291.6,4581338.65,430291.83,4581335.74,1.0,class
+0107281AR,Tipuana tipu,False,C\ Sant Oleguer,11.08,5.15,ok,,large,430752.08,4580925.76,430758.37,4580934.89,1.5,class
+0107282AR,Jacaranda mimosifolia,False,C\ Cid,,4.01,no_kerb,,check,,,,,1.0,floor
+0283894AR,Platanus × acerifolia,True,Pl Joan Coromines,,15.17,no_kerb,,check,,,,,1.0,floor
+0283904AR,Tipuana tipu,False,Jard Dolors Aleu,9.67,0.49,ok,,large,430891.57,4580877.97,430894.12,4580887.3,1.5,class
+0283915AR,Tipuana tipu,False,Jard Dolors Aleu,,21.69,no_kerb,,check,,,,,1.0,floor
+0283925AR,Platanus × acerifolia,True,Pl Drassanes,,14.07,no_kerb,,check,,,,,1.0,floor
+0283931AR,Cercis siliquastrum,False,C\ Montalegre,,6.42,no_kerb,,check,,,,,1.0,floor
+0283933AR,Platanus × acerifolia,True,Pl Drassanes,,16.29,no_kerb,,check,,,,,1.0,floor
+0283935AR,Platanus × acerifolia,True,Pl Drassanes,,12.66,no_kerb,,check,,,,,1.0,floor
+0283940AR,Celtis australis,False,Pl Joan Coromines,,16.91,no_kerb,,check,,,,,1.0,floor
+0283942AR,Ginkgo biloba 'Fastigiata Blagon',False,C\ Montalegre,,6.6,no_kerb,,check,,,,,1.0,floor
+0283947AR,Tipuana tipu,False,Jard Dolors Aleu,,6.28,no_kerb,,check,,,,,1.0,floor
+0283958AR,Platanus × acerifolia,True,Pl Drassanes,,13.91,no_kerb,,check,,,,,1.0,floor
+0283960AR,Platanus × acerifolia,True,Pl Drassanes,24.87,6.67,ok,,large,431121.77,4580686.62,431118.9,4580661.92,1.5,class
+0283988AR,Jacaranda mimosifolia,False,Jard Dolors Aleu,,15.8,no_kerb,,check,,,,,1.0,floor
+0284001AR,Celtis australis,False,Pl Joan Coromines,,5.49,no_kerb,,check,,,,,1.0,floor
+0284009AR,Platanus × acerifolia,True,Pl Drassanes,29.57,18.04,ok,,large,431065.55,4580701.34,431051.88,4580675.11,1.5,class
+0284025AR,Celtis australis,False,Pl Joan Coromines,,15.02,no_kerb,,check,,,,,1.0,floor
+0284036AR,Tipuana tipu,False,Jard Dolors Aleu,,18.2,no_kerb,,check,,,,,1.0,floor
+0284067AR,Tipuana tipu,False,Jard Dolors Aleu,9.69,0.99,ok,,large,430896.84,4580876.53,430900.04,4580885.68,1.5,class
+0284071AR,Celtis australis,False,Pl Joan Coromines,,18.21,no_kerb,,check,,,,,1.0,floor
+0284072AR,Celtis australis,False,Pl Joan Coromines,,10.05,no_kerb,,check,,,,,1.0,floor
+0284079AR,Platanus × acerifolia,True,Pl Drassanes,27.12,8.27,ok,,large,431116.42,4580687.53,431105.2,4580662.84,1.5,class
+0289321AR,Olea europaea,False,Pl Joan Coromines,,12.94,no_kerb,,check,,,,,1.0,floor
+0289322AR,Celtis australis,False,Pl Joan Coromines,,5.03,no_kerb,,check,,,,,1.0,floor
+0289323AR,Tilia x europaea,False,Pl Joan Coromines,,4.46,no_kerb,,check,,,,,1.0,floor
+0289324AR,Tilia x europaea,False,Pl Joan Coromines,,3.43,no_kerb,,check,,,,,1.0,floor
+0289325AR,Celtis australis,False,Pl Joan Coromines,,4.36,no_kerb,,check,,,,,1.0,floor
+0289327AR,Magnolia grandiflora,False,Plta Miquel Pallés,,1.95,no_kerb,,check,,,,,1.0,floor
+0289328AR,Celtis australis,False,C\ Ramelleres,,2.56,no_kerb,,check,,,,,1.0,floor
+0292112AR,Platanus × acerifolia,True,C\ Flors,15.47,4.91,ok,,large,430364.45,4580811.5,430349.5,4580815.5,1.5,class
+0292228AR,Celtis australis,False,C\ Pintor Fortuny,4.1,4.12,ok,,medium,430673.09,4581677.65,430674.99,4581674.02,1.0,class
+0292234AR,Populus nigra,False,Pl Vicenç Martorell,,7.51,no_kerb,,check,,,,,1.0,floor
+0298002AR,Tipuana tipu,False,Pl Bonsuccés,,2.16,no_kerb,,check,,,,,1.0,floor
+0298158AR,Platanus × acerifolia,True,C\ Rambla,,9.16,median,15.87,check,,,,,1.0,floor
+0301687AR,Tilia x europaea,False,C\ Torres i Amat,,8.09,median,,check,,,,,1.0,floor
+0303495AR,Styphnolobium japonicum,False,C\ Riera Alta,4.48,3.51,ok,,medium,430318.21,4581328.7,430317.88,4581333.16,1.0,class
+0303496AR,Brachychiton populneus,False,C\ Montalegre,3.47,2.55,ok,,small,430341.77,4581721.33,430338.98,4581719.28,1.0,class
+0303497AR,Cercis siliquastrum,False,C\ Montalegre,,6.55,no_kerb,,check,,,,,1.0,floor
+0303498AR,Cercis siliquastrum,False,C\ Montalegre,,6.31,no_kerb,,check,,,,,1.0,floor
+0303500AR,Styphnolobium japonicum,False,Av Drassanes,12.04,11.54,ok,,large,431037.85,4580873.89,431036.2,4580861.97,1.5,class
+0303501AR,Styphnolobium japonicum,False,Av Drassanes,12.79,3.94,ok,,large,431037.85,4580873.89,431039.15,4580861.17,1.5,class
+0303502AR,Melia azedarach,False,C\ Portal de Santa Madrona,4.0,3.25,ok,,medium,431035.64,4580818.77,431032.0,4580820.46,1.0,class
+0303503AR,Pyrus calleryana 'Chanticleer',False,C\ Jovellanos,,2.42,no_kerb,,check,,,,,1.0,floor
+0303504AR,Prunus cerasifera 'Pissardii',False,C\ Doctor Dou,2.61,1.73,ok,,small,430530.43,4581514.18,430532.51,4581515.75,1.0,class
+0304095AR,Platanus × acerifolia,True,Rda Sant Pau,13.76,8.34,ok,,large,430422.77,4580751.01,430409.94,4580746.04,1.5,class
+0304096AR,Platanus × acerifolia,True,Rda Sant Pau,,7.01,no_kerb,17.01,check,,,,,1.0,floor
+0304097AR,Platanus × acerifolia,True,Rda Sant Pau,12.85,10.82,ok,,large,430398.57,4580770.88,430398.3,4580758.03,1.5,class
+0304098AR,Platanus × acerifolia,True,Rda Sant Pau,7.4,7.18,ok,,large,430391.18,4580775.98,430385.84,4580770.85,1.5,class
+0304107AR,Platanus × acerifolia,True,Rda Sant Antoni,,7.22,no_kerb,,check,,,,,1.0,floor
+0304111AR,Tilia x europaea,False,C\ Montalegre,,5.84,no_kerb,,check,,,,,1.0,floor
+0304112AR,Tilia x europaea,False,C\ Montalegre,,5.58,no_kerb,,check,,,,,1.0,floor
+0305047AR,Catalpa bignonioides,False,C\ Hospital,9.15,4.22,ok,,large,430737.84,4581374.34,430743.04,4581366.81,1.5,class
+0305185AR,Pyrus calleryana 'Chanticleer',False,C\ Ramelleres,,5.14,no_kerb,,check,,,,,1.0,floor
+0305186AR,Pyrus calleryana 'Chanticleer',False,C\ Ramelleres,,12.53,no_kerb,,check,,,,,1.0,floor
+0305187AR,X chitalpa tashkentensis 'minsum' SUMMER BELLS®,False,C\ Ramelleres,,9.03,no_kerb,,check,,,,,1.0,floor
+0305188AR,X chitalpa tashkentensis 'minsum' SUMMER BELLS®,False,C\ Ramelleres,,5.69,no_kerb,,check,,,,,1.0,floor
+0305190AR,Cercis siliquastrum,False,C\ Ramelleres,,11.09,no_kerb,,check,,,,,1.0,floor
+0305191AR,Cercis siliquastrum,False,C\ Ramelleres,,5.57,no_kerb,,check,,,,,1.0,floor
+0305192AR,Pyrus calleryana 'Chanticleer',False,C\ Ramelleres,,6.12,no_kerb,,check,,,,,1.0,floor
+0305193AR,Handroanthus heptaphyllus,False,C\ Ramelleres,,4.15,no_kerb,,check,,,,,1.0,floor
+0305196AR,Platanus × acerifolia,True,Rda Sant Antoni,16.52,6.82,ok,,large,430052.57,4581300.15,430036.17,4581302.05,1.5,class
+0305197AR,Ficus microcarpa,False,C\ Carretes,3.34,2.37,ok,,small,430501.71,4580883.8,430503.86,4580886.34,1.0,class
+0305358AR,Jacaranda mimosifolia,False,Pl Gardunya,,7.35,no_kerb,,check,,,,,1.0,floor
+0305359AR,Styphnolobium japonicum,False,Pl Gardunya,,5.5,no_kerb,,check,,,,,1.0,floor
+0305360AR,Styphnolobium japonicum,False,Pl Gardunya,,7.68,no_kerb,,check,,,,,1.0,floor
+0305361AR,Styphnolobium japonicum,False,Pl Gardunya,,8.64,no_kerb,,check,,,,,1.0,floor
+0305362AR,Styphnolobium japonicum,False,Pl Gardunya,,10.83,no_kerb,,check,,,,,1.0,floor
+0305363AR,Jacaranda mimosifolia,False,Pl Gardunya,,15.79,no_kerb,,check,,,,,1.0,floor
+0305364AR,Styphnolobium japonicum,False,Pl Gardunya,,17.16,no_kerb,,check,,,,,1.0,floor
+0305365AR,Styphnolobium japonicum,False,Pl Gardunya,,20.01,no_kerb,,check,,,,,1.0,floor
+0305366AR,Styphnolobium japonicum,False,Pl Gardunya,,14.2,no_kerb,,check,,,,,1.0,floor
+0305367AR,Styphnolobium japonicum,False,Pl Gardunya,,13.72,no_kerb,,check,,,,,1.0,floor
+0305368AR,Jacaranda mimosifolia,False,Pl Gardunya,,19.29,no_kerb,,check,,,,,1.0,floor
+0305369AR,Styphnolobium japonicum,False,Pl Gardunya,,8.87,no_kerb,,check,,,,,1.0,floor
+0305370AR,Styphnolobium japonicum,False,Pl Gardunya,,11.45,no_kerb,,check,,,,,1.0,floor
+0305371AR,Styphnolobium japonicum,False,Pl Gardunya,,7.65,no_kerb,,check,,,,,1.0,floor
+0305372AR,Styphnolobium japonicum,False,Pl Gardunya,,8.16,no_kerb,,check,,,,,1.0,floor
+0305373AR,Styphnolobium japonicum,False,Pl Gardunya,,2.54,no_kerb,,check,,,,,1.0,floor
+0305375AR,Styphnolobium japonicum,False,Pl Gardunya,,13.07,no_kerb,,check,,,,,1.0,floor
+0305376AR,Styphnolobium japonicum,False,Pl Gardunya,,14.08,no_kerb,,check,,,,,1.0,floor
+0311146AR,Populus nigra,False,Pl Vicenç Martorell,,8.25,no_kerb,,check,,,,,1.0,floor
+0311291AR,Brachychiton acerifolius,False,C\ Portal de Santa Madrona,,32.27,no_facade,,check,,,,,1.0,floor
+0311292AR,Melia azedarach,False,C\ Portal de Santa Madrona,16.14,12.43,ok,,large,431036.28,4580820.15,431041.75,4580835.34,1.5,class
+0311463AR,Platanus × acerifolia,True,Rda Sant Antoni,7.53,6.32,ok,,large,430092.59,4581657.42,430085.11,4581658.27,1.5,class
+0311465AR,Platanus × acerifolia,True,Rda Sant Antoni,16.5,6.57,ok,,large,430048.95,4581268.03,430032.55,4581269.87,1.5,class
+0311466AR,Platanus × acerifolia,True,Rda Sant Pau,7.31,7.46,ok,,large,430265.0,4580905.86,430259.75,4580900.76,1.5,class
+0311467AR,Platanus × acerifolia,True,Rda Sant Pau,9.54,9.0,ok,,large,430244.66,4580929.97,430237.7,4580923.44,1.5,class
+0321814AR,Prunus cerasifera 'Pissardii',False,C\ Doctor Dou,2.43,1.11,ok,,none,430502.94,4581571.14,430501.01,4581569.67,1.0,floor
+0333866AR,Ulmus pumila,False,C\ Portal de Santa Madrona,3.67,3.25,ok,,medium,431012.29,4580816.08,431015.61,4580814.52,1.0,class
+0333964AR,Tipuana tipu,False,Pl Sant Agustí,,9.99,no_kerb,,check,,,,,1.0,floor
+0340167AR,Prunus cerasifera,False,C\ Doctor Dou,2.43,1.41,ok,,none,430494.39,4581582.56,430492.45,4581581.1,1.0,floor
+0342779AR,Tipuana tipu,False,Av Drassanes,,16.49,median,1.81,check,,,,,1.0,floor
+0342780AR,Platanus × acerifolia,True,Av Drassanes,,16.52,median,1.81,check,,,,,1.0,floor
+0342781AR,Tipuana tipu,False,Av Drassanes,,15.49,median,1.81,check,,,,,1.0,floor
+0342782AR,Platanus × acerifolia,True,Av Drassanes,,15.42,median,1.8,check,,,,,1.0,floor
+0342783AR,Platanus × acerifolia,True,Av Drassanes,,16.33,median,1.8,check,,,,,1.0,floor
+0342784AR,Platanus × acerifolia,True,Av Drassanes,,16.51,median,1.81,check,,,,,1.0,floor
+0342785AR,Tipuana tipu,False,Av Drassanes,,16.82,median,1.81,check,,,,,1.0,floor
+0342786AR,Platanus × acerifolia,True,Av Drassanes,,16.59,median,1.81,check,,,,,1.0,floor
+0342787AR,Platanus × acerifolia,True,Av Drassanes,,15.98,median,1.8,check,,,,,1.0,floor
+0342788AR,Platanus × acerifolia,True,Av Drassanes,,16.56,median,1.76,check,,,,,1.0,floor
+0342791AR,Platanus × acerifolia,True,Av Drassanes,17.0,14.88,ok,,large,431116.71,4580853.95,431121.36,4580837.6,1.5,class
+0344345AR,Platanus × acerifolia,True,Av Drassanes,,9.02,median,8.08,check,,,,,1.0,floor
+0346717AR,Cercis siliquastrum,False,Rda Sant Antoni,,12.89,no_kerb,,check,,,,,1.0,floor
+0346718AR,Cercis siliquastrum,False,C\ Paloma,,12.85,no_kerb,,check,,,,,1.0,floor
+0346719AR,Cercis siliquastrum,False,Rda Sant Antoni,,12.56,no_kerb,,check,,,,,1.0,floor
+0346720AR,Cercis siliquastrum,False,Rda Sant Antoni,,11.74,no_kerb,50.39,check,,,,,1.0,floor
+0346721AR,Cercis siliquastrum,False,Rda Sant Antoni,,11.85,no_kerb,,check,,,,,1.0,floor
+0346722AR,Cercis siliquastrum,False,Rda Sant Antoni,,12.71,no_kerb,,check,,,,,1.0,floor
+0346723AR,Cercis siliquastrum,False,Rda Sant Antoni,,11.23,no_kerb,,check,,,,,1.0,floor
+0346724AR,Cercis siliquastrum,False,Rda Sant Antoni,,12.55,no_kerb,,check,,,,,1.0,floor
+0346725AR,Cercis siliquastrum,False,C\ Tigre,27.36,12.51,ok,,large,430076.18,4581511.56,430049.09,4581515.32,1.5,class
+0346726AR,Platanus × acerifolia,True,C\ Tigre,27.23,6.83,ok,,large,430076.18,4581511.56,430049.23,4581515.46,1.5,class
+0346832AR,Platanus × acerifolia,True,Rda Sant Antoni,16.48,6.56,ok,,large,430046.49,4581246.4,430030.13,4581248.34,1.5,class
+0346833AR,Platanus × acerifolia,True,Rda Sant Antoni,16.5,6.68,ok,,large,430048.37,4581262.87,430031.97,4581264.72,1.5,class
+0346834AR,Platanus × acerifolia,True,Rda Sant Antoni,16.5,6.71,ok,,large,430051.59,4581291.47,430035.19,4581293.31,1.5,class
+0346835AR,Platanus × acerifolia,True,Rda Sant Antoni,,7.12,no_kerb,48.56,check,,,,,1.0,floor
+0346836AR,Platanus × acerifolia,True,Rda Sant Antoni,,6.2,no_kerb,,check,,,,,1.0,floor
+0346837AR,Platanus × acerifolia,True,Rda Sant Antoni,,6.29,no_kerb,,check,,,,,1.0,floor
+0346838AR,Platanus × acerifolia,True,Pl Pes de la Palla,,20.78,no_kerb,,check,,,,,1.0,floor
+0346839AR,Platanus × acerifolia,True,Pl Pes de la Palla,,11.45,no_kerb,,check,,,,,1.0,floor
+0346840AR,Cercis siliquastrum,False,Rda Sant Antoni,,11.69,no_kerb,,check,,,,,1.0,floor
+0347355AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,Pl Terenci Moix,,10.18,median,,check,,,,,1.0,floor
+0347356AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,Pl Terenci Moix,,16.23,median,,check,,,,,1.0,floor
+0347357AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,Pl Terenci Moix,,10.15,median,,check,,,,,1.0,floor
+0347358AR,Grevillea robusta,False,Pl Terenci Moix,,8.63,median,,check,,,,,1.0,floor
+0347359AR,Grevillea robusta,False,Pl Terenci Moix,,7.73,median,,check,,,,,1.0,floor
+0347360AR,Grevillea robusta,False,Pl Terenci Moix,,8.24,median,,check,,,,,1.0,floor
+0347531AR,Grevillea robusta,False,C\ Arc del Teatre,,4.8,no_kerb,16.86,check,,,,,1.0,floor

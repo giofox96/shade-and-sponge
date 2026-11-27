@@ -1,0 +1,1642 @@
+tree_id,species,is_plane,street,width_m,facade_dist_m,flag,strip_width_m,size_class,ray_x0,ray_y0,ray_x1,ray_y1,pit_min_m2,pit_basis
+0192799AR,Tipuana tipu,False,Rda General Mitre,23.94,1.72,ok,,large,428863.27,4584238.6,428878.85,4584220.42,1.5,class
+0205277AR,Magnolia grandiflora,False,C\ Esteve Terradas,,32.41,no_facade,38.21,check,,,,,1.0,floor
+0205285AR,Jacaranda mimosifolia,False,C\ Gustavo Bécquer,,13.34,median,11.15,check,,,,,1.0,floor
+0205291AR,Magnolia grandiflora,False,C\ Esteve Terradas,,28.19,median,19.37,check,,,,,1.0,floor
+0205317AR,Magnolia grandiflora,False,C\ Esteve Terradas,,30.01,no_facade,25.08,check,,,,,1.0,floor
+0205324AR,Magnolia grandiflora,False,C\ Esteve Terradas,,28.2,median,21.71,check,,,,,1.0,floor
+0205336AR,Magnolia grandiflora,False,C\ Esteve Terradas,,16.94,median,15.87,check,,,,,1.0,floor
+0205350AR,Magnolia grandiflora,False,C\ Esteve Terradas,,25.91,median,17.93,check,,,,,1.0,floor
+0205355AR,Magnolia grandiflora,False,C\ Esteve Terradas,,25.21,median,16.86,check,,,,,1.0,floor
+0206191AR,Pyrus calleryana 'Chanticleer',False,C\ Gustavo Bécquer,12.1,10.74,ok,,large,428328.97,4585262.23,428323.75,4585273.14,1.5,class
+0206192AR,Platanus × acerifolia,True,C\ Collserola,9.15,8.31,ok,,large,427731.8,4585426.15,427724.84,4585420.21,1.5,class
+0206193AR,Tilia platyphyllos,False,C\ Dolors Lleonart,,4.73,no_kerb,,check,,,,,1.0,floor
+0206195AR,Robinia pseudoacacia,False,C\ Cardedeu,3.23,2.36,ok,,small,428489.23,4585662.83,428492.17,4585661.5,1.0,class
+0206196AR,Platanus × acerifolia,True,Av República Argentina,5.17,4.29,ok,,medium,428197.96,4584834.24,428195.2,4584829.86,1.0,class
+0206198AR,Brachychiton populneus,False,Av República Argentina,12.16,8.25,ok,,large,427960.01,4585085.89,427947.92,4585084.55,1.5,class
+0206199AR,Platanus × acerifolia,True,Av República Argentina,5.49,5.08,ok,,medium,428261.87,4584821.38,428261.02,4584815.96,1.0,class
+0206203AR,Casuarina cunninghamiana,False,C\ Anna Piferrer,6.11,4.32,ok,,large,428098.46,4585514.32,428095.55,4585508.95,1.5,class
+0206206AR,Paulownia tomentosa,False,C\ Anna Piferrer,7.07,5.72,ok,,large,428156.4,4585462.38,428161.3,4585467.47,1.5,class
+0206207AR,Platanus × acerifolia,True,Av Vallcarca,4.35,3.37,ok,,medium,428194.23,4585839.77,428189.93,4585839.14,1.0,class
+0206208AR,Pyrus calleryana 'Chanticleer',False,C\ Gustavo Bécquer,3.88,2.96,ok,,medium,428492.64,4585019.53,428495.58,4585022.06,1.0,class
+0206210AR,Styphnolobium japonicum,False,C\ General Mendoza,7.61,6.76,ok,,large,428419.62,4585779.19,428421.9,4585786.46,1.5,class
+0206211AR,Citrus × aurantium,False,C\ Ticià,2.17,1.76,ok,,none,428080.61,4585340.75,428079.11,4585339.2,1.0,floor
+0206212AR,Robinia pseudoacacia,False,C\ Baró de la Barre,13.19,10.71,ok,,large,428265.79,4585459.18,428264.71,4585472.32,1.5,class
+0206213AR,Celtis australis,False,C\ Otília Castellví,,19.23,median,3.94,check,,,,,1.0,floor
+0206215AR,Brachychiton populneus,False,Pl Alfonso Comín,25.04,24.33,ok,,large,428022.59,4585168.5,427999.93,4585179.17,1.5,class
+0206216AR,Brachychiton populneus,False,Pg Vall d'Hebron,,18.73,median,,check,,,,,1.0,floor
+0206217AR,Grevillea robusta,False,Av Vallcarca,5.39,4.76,ok,,medium,428750.67,4584620.03,428746.52,4584616.6,1.0,class
+0206218AR,Cercis siliquastrum,False,C\ Josep M. Sert,,17.88,median,,check,,,,,1.0,floor
+0206219AR,Prunus cerasifera 'Pissardii',False,C\ Gomis,2.58,1.05,ok,,small,428090.39,4585029.62,428092.32,4585031.33,1.0,class
+0206220AR,Cercis siliquastrum,False,C\ Josep M. Sert,,15.91,median,6.29,check,,,,,1.0,floor
+0206221AR,Platanus × acerifolia,True,Pg Vall d'Hebron,,11.22,median,,check,,,,,1.0,floor
+0206222AR,Brachychiton populneus,False,Av Vallcarca,27.04,25.69,ok,,large,428160.33,4585760.64,428169.81,4585785.97,1.5,class
+0206224AR,Grevillea robusta,False,Av Vallcarca,7.32,4.75,ok,,large,428721.59,4584655.02,428715.93,4584650.38,1.5,class
+0206225AR,Brachychiton populneus,False,C\ Esteve Terradas,10.21,8.57,ok,,large,428159.13,4585029.75,428166.12,4585037.2,1.5,class
+0206226AR,Pyrus calleryana 'Chanticleer',False,C\ Gustavo Bécquer,2.7,1.59,ok,,small,428422.97,4585143.86,428425.43,4585145.0,1.0,class
+0206227AR,Grevillea robusta,False,Av Vallcarca,7.36,4.13,ok,,large,428716.19,4584661.6,428710.5,4584656.93,1.5,class
+0206228AR,Platanus × acerifolia,True,Av Vallcarca,5.0,3.45,ok,,medium,428203.28,4585533.7,428208.25,4585534.25,1.0,class
+0206229AR,Brachychiton populneus,False,C\ Esteve Terradas,25.03,24.02,ok,,large,428030.81,4585185.96,428008.17,4585196.63,1.5,class
+0206230AR,Tipuana tipu,False,Av Vallcarca,,76.36,no_facade,19.74,check,,,,,1.0,floor
+0206231AR,Brachychiton populneus,False,Pl Alfonso Comín,8.58,8.17,ok,,large,427957.92,4585257.41,427952.0,4585251.21,1.5,class
+0206232AR,Koelreuteria paniculata,False,C\ Ticià,,6.25,median,2.04,check,,,,,1.0,floor
+0206233AR,Ligustrum lucidum,False,Av República Argentina,2.98,2.16,ok,,small,428725.19,4584474.92,428722.61,4584473.43,1.0,class
+0206234AR,Platanus × acerifolia,True,Pg Vall d'Hebron,6.67,4.16,ok,,large,428089.14,4585576.63,428082.87,4585578.92,1.5,class
+0206235AR,Platanus × acerifolia,True,Av República Argentina,5.23,4.39,ok,,medium,428293.08,4584816.35,428292.3,4584811.18,1.0,class
+0206236AR,Styphnolobium japonicum,False,Av Vallcarca,,21.81,no_kerb,,check,,,,,1.0,floor
+0206237AR,Prunus cerasifera 'Pissardii',False,C\ Sant Eudald,2.99,1.83,ok,,small,428790.05,4585211.8,428788.01,4585213.99,1.0,class
+0206240AR,Styphnolobium japonicum,False,C\ Montornès,7.53,7.35,ok,,large,428397.52,4585402.83,428403.61,4585407.27,1.5,class
+0206241AR,Platanus × acerifolia,True,Av Vallcarca,6.11,4.72,ok,,large,428248.76,4585369.26,428254.29,4585371.85,1.5,class
+0206242AR,Brachychiton populneus,False,Pg Mare de Déu del Coll,,11.38,median,5.25,check,,,,,1.0,floor
+0206243AR,Liriodendron tulipifera,False,Av República Argentina,17.09,13.41,ok,,large,428550.44,4584777.99,428533.42,4584776.56,1.5,class
+0206246AR,Grevillea robusta,False,Av Vallcarca,9.24,8.22,ok,,large,428908.52,4584426.84,428902.37,4584419.95,1.5,class
+0206248AR,Platanus × acerifolia,True,Av Vallcarca,20.74,13.95,ok,,large,428398.17,4584950.77,428380.7,4584939.59,1.5,class
+0206249AR,Brachychiton populneus,False,Pg Vall d'Hebron,,21.32,median,3.02,check,,,,,1.0,floor
+0206250AR,Celtis australis,False,C\ Veciana,6.16,5.58,ok,,large,428358.71,4585731.52,428356.18,4585737.14,1.5,class
+0206251AR,Platanus × acerifolia,True,Av Vallcarca,20.65,12.3,ok,,large,428190.88,4585658.52,428192.46,4585679.11,1.5,class
+0206252AR,Brachychiton populneus,False,Pg Mare de Déu del Coll,7.65,6.25,ok,,large,428664.24,4585241.47,428659.4,4585235.54,1.5,class
+0206253AR,Cercis siliquastrum,False,C\ Apel·les Mestres,,18.14,median,3.4,check,,,,,1.0,floor
+0206254AR,Ligustrum lucidum,False,Av República Argentina,3.06,2.26,ok,,small,428614.08,4584680.41,428611.19,4584679.41,1.0,class
+0206255AR,Brachychiton populneus,False,C\ Esteve Terradas,20.38,18.28,ok,,large,428043.64,4585198.49,428052.31,4585216.93,1.5,class
+0206256AR,Platanus × acerifolia,True,Av Vallcarca,4.09,2.51,ok,,medium,428371.18,4585074.55,428375.25,4585074.14,1.0,class
+0206257AR,Citrus × aurantium,False,C\ Castellterçol,5.89,5.24,ok,,medium,428561.52,4585348.3,428562.54,4585354.1,1.0,class
+0206258AR,Platanus × acerifolia,True,Av Vallcarca,5.93,3.97,ok,,medium,428244.96,4585377.35,428250.33,4585379.87,1.0,class
+0206259AR,Ligustrum lucidum,False,Av República Argentina,3.05,2.88,ok,,small,428728.46,4584469.5,428725.86,4584467.91,1.0,class
+0206260AR,Platanus × acerifolia,True,Av Vallcarca,,18.48,median,,check,,,,,1.0,floor
+0206261AR,Brachychiton populneus,False,Pg Vall d'Hebron,,22.09,median,,check,,,,,1.0,floor
+0206262AR,Platanus × acerifolia,True,Av República Argentina,4.89,5.02,ok,,medium,428074.64,4584962.46,428071.09,4584959.09,1.0,class
+0206263AR,Tilia tomentosa,False,C\ Josefa Rosich,5.35,3.58,ok,,medium,428001.6,4585322.71,428003.69,4585327.63,1.0,class
+0206264AR,Prunus cerasifera 'Pissardii',False,C\ Josep Jover,9.94,8.66,ok,,large,428322.54,4585119.45,428317.16,4585127.81,1.5,class
+0206267AR,Koelreuteria paniculata,False,Jard Manuel Blancafort,29.08,27.79,ok,,large,428554.45,4584781.85,428546.93,4584809.93,1.5,class
+0206268AR,Melia azedarach,False,Av Vallcarca,13.67,12.37,ok,,large,428945.47,4584380.88,428934.85,4584372.28,1.5,class
+0206269AR,Platanus × acerifolia,True,C\ Collserola,9.18,8.4,ok,,large,427706.4,4585454.89,427699.55,4585448.78,1.5,class
+0206271AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Esteve Terradas,11.8,10.07,ok,,large,428060.69,4585240.24,428066.3,4585229.86,1.5,class
+0206272AR,Platanus × acerifolia,True,C\ Montornès,,8.01,median,5.23,check,,,,,1.0,floor
+0206273AR,Platanus × acerifolia,True,Pg Vall d'Hebron,,23.51,median,5.04,check,,,,,1.0,floor
+0206274AR,Pyrus calleryana 'Chanticleer',False,C\ Gustavo Bécquer,5.0,4.6,ok,,medium,428443.92,4585093.41,428448.49,4585095.44,1.0,class
+0206275AR,Quercus robur 'Fastigiata',False,C\ Castellterçol,11.02,6.05,ok,,large,428491.51,4585408.97,428490.58,4585419.96,1.5,class
+0206276AR,Celtis sinensis,False,C\ Gomis,,66.54,no_facade,18.23,check,,,,,1.0,floor
+0206277AR,Brachychiton populneus,False,Pg Vall d'Hebron,23.18,15.27,ok,,large,427982.32,4585448.6,428000.65,4585462.79,1.5,class
+0206279AR,Brachychiton populneus,False,C\ Esteve Terradas,15.22,13.04,ok,,large,428083.2,4585180.54,428098.14,4585183.41,1.5,class
+0206280AR,Magnolia grandiflora,False,Pg Vall d'Hebron,7.77,7.08,ok,,large,428081.24,4585682.29,428088.52,4585679.6,1.5,class
+0206282AR,Robinia pseudoacacia,False,C\ Cardedeu,5.69,4.05,ok,,medium,428484.25,4585333.48,428488.72,4585329.96,1.0,class
+0206284AR,Melia azedarach,False,C\ Gomis,10.82,4.88,ok,,large,428131.88,4584999.67,428122.3,4585004.7,1.5,class
+0206286AR,Brachychiton populneus,False,Pl Alfonso Comín,,42.3,no_facade,4.0,check,,,,,1.0,floor
+0206287AR,Platanus × acerifolia,True,Pl Olèrdola,6.52,5.27,ok,,large,428410.94,4585691.96,428414.06,4585686.24,1.5,class
+0206289AR,Cercis siliquastrum,False,C\ Josep M. Sert,,15.87,median,,check,,,,,1.0,floor
+0206290AR,Platanus × acerifolia,True,Pg Vall d'Hebron,12.43,11.71,ok,,large,427971.2,4585290.9,427962.22,4585299.49,1.5,class
+0206291AR,Platanus × acerifolia,True,Av Vallcarca,13.29,12.97,ok,,large,428353.9,4585127.97,428366.9,4585130.76,1.5,class
+0206292AR,Prunus cerasifera 'Pissardii',False,C\ Velázquez,4.4,3.34,ok,,medium,428860.87,4584402.96,428857.97,4584406.28,1.0,class
+0206293AR,Platanus × acerifolia,True,Pg Vall d'Hebron,,32.15,no_facade,8.7,check,,,,,1.0,floor
+0206295AR,Celtis australis,False,C\ Farigola,5.65,3.96,ok,,medium,428749.55,4585116.28,428754.83,4585114.27,1.0,class
+0206297AR,Celtis australis,False,Pg Mare de Déu del Coll,4.34,3.27,ok,,medium,428517.16,4585043.09,428521.46,4585043.74,1.0,class
+0206298AR,Brachychiton populneus,False,Pl Alfonso Comín,,59.1,no_facade,4.05,check,,,,,1.0,floor
+0206299AR,Platanus × acerifolia,True,Av Vallcarca,,18.44,median,,check,,,,,1.0,floor
+0206300AR,Styphnolobium japonicum,False,C\ Montornès,6.67,5.59,ok,,large,428342.53,4585531.61,428349.09,4585530.39,1.5,class
+0206301AR,Ligustrum lucidum,False,Av República Argentina,3.17,2.6,ok,,small,428689.84,4584535.31,428687.13,4584533.65,1.0,class
+0206302AR,Photinia x fraseri 'Red Robin',False,C\ Ticià,2.14,1.4,ok,,none,427895.2,4585521.72,427893.7,4585520.19,1.0,floor
+0206303AR,Platanus × acerifolia,True,Pl Olèrdola,8.26,3.71,ok,,large,428403.1,4585658.5,428411.05,4585656.23,1.5,class
+0206304AR,Styphnolobium japonicum,False,C\ Cardedeu,9.76,9.01,ok,,large,428548.49,4585261.54,428540.29,4585256.26,1.5,class
+0206305AR,Quercus robur 'Fastigiata',False,C\ Castellterçol,10.75,2.95,ok,,large,428588.98,4585357.7,428578.56,4585355.07,1.5,class
+0206306AR,Cercis siliquastrum,False,C\ Josep M. Sert,,16.26,median,5.22,check,,,,,1.0,floor
+0206307AR,Platanus × acerifolia,True,Av Vallcarca,10.18,9.21,ok,,large,428218.15,4585637.01,428208.03,4585635.89,1.5,class
+0206308AR,Brachychiton populneus,False,Pg Vall d'Hebron,12.5,11.87,ok,,large,427975.4,4585295.29,427966.36,4585303.93,1.5,class
+0206309AR,Brachychiton populneus,False,Pg Vall d'Hebron,,35.38,no_facade,11.12,check,,,,,1.0,floor
+0206311AR,Citrus × aurantium,False,C\ Cardedeu,6.84,6.76,ok,,large,428485.07,4585407.77,428478.35,4585409.04,1.5,class
+0206312AR,Brachychiton populneus,False,Pl Alfonso Comín,,36.0,no_facade,,check,,,,,1.0,floor
+0206313AR,Platanus × acerifolia,True,Pl Alfonso Comín,10.65,10.01,ok,,large,427958.73,4585256.64,427956.11,4585246.32,1.5,class
+0206314AR,Citrus × aurantium,False,C\ Cardedeu,5.4,3.94,ok,,medium,428496.59,4585300.12,428500.97,4585303.27,1.0,class
+0206315AR,Prunus cerasifera 'Pissardii',False,C\ Gomis,2.46,1.5,ok,,none,428021.73,4585107.96,428023.58,4585109.58,1.0,floor
+0206316AR,Platanus × acerifolia,True,Av Vallcarca,,18.69,median,,check,,,,,1.0,floor
+0206317AR,Pyrus calleryana 'Chanticleer',False,C\ Gustavo Bécquer,6.01,5.01,ok,,large,428354.82,4585279.26,428353.73,4585273.34,1.5,class
+0206318AR,Melia azedarach,False,Av Vallcarca,16.06,15.11,ok,,large,428954.74,4584369.43,428942.26,4584359.32,1.5,class
+0206320AR,Brachychiton populneus,False,Pl Alfonso Comín,,20.38,median,,check,,,,,1.0,floor
+0206321AR,Grevillea robusta,False,Av Vallcarca,5.34,4.4,ok,,medium,428839.44,4584511.47,428835.3,4584508.1,1.0,class
+0206322AR,Ligustrum lucidum,False,C\ Betània,4.7,4.23,ok,,medium,428152.04,4585534.63,428156.46,4585533.02,1.0,class
+0206323AR,Ligustrum lucidum,False,Av República Argentina,3.23,2.62,ok,,small,428628.83,4584641.52,428625.85,4584640.28,1.0,class
+0206324AR,Celtis australis,False,C\ Otília Castellví,,9.93,median,4.44,check,,,,,1.0,floor
+0206325AR,Brachychiton populneus,False,Pg Vall d'Hebron,12.35,11.34,ok,,large,428073.11,4585505.78,428061.47,4585509.91,1.5,class
+0206326AR,Platanus × acerifolia,True,Pg Vall d'Hebron,,46.67,no_facade,10.25,check,,,,,1.0,floor
+0206327AR,Platanus × acerifolia,True,Pg Vall d'Hebron,4.99,3.99,ok,,medium,428105.58,4585621.41,428100.89,4585623.12,1.0,class
+0206328AR,Platanus × acerifolia,True,Av Vallcarca,22.47,18.07,ok,,large,428190.25,4585579.52,428197.89,4585600.65,1.5,class
+0206329AR,Platanus × acerifolia,True,Av Vallcarca,6.85,5.41,ok,,large,428182.74,4585704.92,428189.23,4585707.1,1.5,class
+0206331AR,Pyrus calleryana 'Chanticleer',False,C\ Gustavo Bécquer,2.7,2.12,ok,,small,428402.47,4585186.69,428404.91,4585187.86,1.0,class
+0206332AR,Ulmus pumila,False,Av Vallcarca,3.0,2.42,ok,,small,428762.05,4584574.63,428764.4,4584576.49,1.0,class
+0206333AR,Platanus × acerifolia,True,Av Vallcarca,10.86,9.47,ok,,large,428392.37,4585058.32,428386.46,4585067.44,1.5,class
+0206335AR,Styphnolobium japonicum,False,C\ General Mendoza,7.37,5.53,ok,,large,428428.12,4585770.34,428434.99,4585772.98,1.5,class
+0206336AR,Prunus cerasifera 'Pissardii',False,C\ Gomis,2.49,1.45,ok,,none,428030.89,4585097.48,428032.77,4585099.12,1.0,floor
+0206337AR,Celtis australis,False,Pg Mare de Déu del Coll,,16.1,median,4.99,check,,,,,1.0,floor
+0206338AR,Styphnolobium japonicum,False,C\ Cardedeu,4.92,4.19,ok,,medium,428543.35,4585233.9,428546.01,4585238.04,1.0,class
+0206339AR,Melia azedarach,False,C\ Gomis,7.04,4.69,ok,,large,428313.25,4584853.28,428317.23,4584847.47,1.5,class
+0206340AR,Platanus × acerifolia,True,Av Vallcarca,,12.63,median,9.76,check,,,,,1.0,floor
+0206342AR,Pinus halepensis,False,C\ Morell,10.84,9.96,ok,,large,428320.74,4585448.58,428330.64,4585444.16,1.5,class
+0206344AR,Ligustrum lucidum,False,Av República Argentina,3.22,2.58,ok,,small,428761.81,4584414.79,428760.05,4584412.09,1.0,class
+0206347AR,Brachychiton populneus,False,C\ Esteve Terradas,8.62,8.31,ok,,large,428060.69,4585240.24,428059.1,4585231.77,1.5,class
+0206348AR,Brachychiton populneus,False,Pl Alfonso Comín,,30.64,no_facade,,check,,,,,1.0,floor
+0206349AR,Platanus × acerifolia,True,Av Vallcarca,9.94,8.87,ok,,large,428388.26,4584957.92,428378.35,4584957.09,1.5,class
+0206350AR,Brachychiton populneus,False,Pl Alfonso Comín,,39.1,no_facade,,check,,,,,1.0,floor
+0206351AR,Paulownia tomentosa,False,C\ Anna Piferrer,11.81,8.62,ok,,large,428154.29,4585464.41,428148.28,4585474.58,1.5,class
+0206353AR,Platanus × acerifolia,True,Av Vallcarca,7.0,7.45,ok,,large,428198.4,4585802.81,428191.44,4585802.05,1.5,class
+0206354AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Esteve Terradas,,35.22,no_facade,19.15,check,,,,,1.0,floor
+0206355AR,Brachychiton populneus,False,Pg Vall d'Hebron,6.38,5.29,ok,,large,428154.82,4585750.05,428148.87,4585752.34,1.5,class
+0206356AR,Platanus × acerifolia,True,C\ Collserola,8.0,7.6,ok,,large,427575.52,4585549.57,427571.1,4585542.9,1.5,class
+0206357AR,Brachychiton populneus,False,Pg Vall d'Hebron,17.1,14.9,ok,,large,428129.88,4585656.87,428113.75,4585662.54,1.5,class
+0206358AR,Brachychiton populneus,False,Pg Vall d'Hebron,26.53,17.27,ok,,large,427982.32,4585448.6,428002.14,4585466.24,1.5,class
+0206360AR,Platanus × acerifolia,True,Pg Vall d'Hebron,5.02,4.38,ok,,medium,428093.11,4585587.5,428088.39,4585589.22,1.0,class
+0206361AR,Platanus × acerifolia,True,C\ Veciana,8.71,7.82,ok,,large,428335.57,4585734.93,428335.3,4585726.23,1.5,class
+0206362AR,Platanus × acerifolia,True,Av Vallcarca,18.15,16.25,ok,,large,428175.78,4585685.05,428192.57,4585678.16,1.5,class
+0206364AR,Platanus × acerifolia,True,Pl Alfonso Comín,27.89,26.98,ok,,large,427958.73,4585256.64,427970.8,4585231.51,1.5,class
+0206365AR,Platanus × acerifolia,True,Av Vallcarca,14.7,12.92,ok,,large,428177.86,4585690.99,428191.73,4585686.13,1.5,class
+0206366AR,Prunus cerasifera 'Pissardii',False,C\ Gomis,2.54,1.52,ok,,small,428144.5,4584967.97,428146.4,4584969.64,1.0,class
+0206367AR,Robinia pseudoacacia,False,C\ Montornès,12.38,3.71,ok,,large,428469.64,4585380.63,428471.72,4585368.43,1.5,class
+0206368AR,Citrus × aurantium,False,C\ Cardedeu,6.49,6.02,ok,,large,428487.62,4585394.19,428481.24,4585392.99,1.5,class
+0206369AR,Tilia tomentosa,False,C\ Josefa Rosich,4.98,3.73,ok,,medium,428042.06,4585284.03,428045.51,4585287.64,1.0,class
+0206373AR,Melia azedarach,False,C\ Gomis,3.63,2.42,ok,,medium,428309.57,4584855.06,428307.99,4584851.79,1.0,class
+0206374AR,Platanus × acerifolia,True,Pg Vall d'Hebron,12.71,11.92,ok,,large,427979.66,4585299.75,427970.47,4585308.53,1.5,class
+0206375AR,Platanus × acerifolia,True,Pl Olèrdola,6.46,6.63,ok,,large,428406.17,4585689.36,428409.27,4585683.69,1.5,class
+0206376AR,Platanus × acerifolia,True,C\ Collserola,12.04,11.28,ok,,large,427697.85,4585468.6,427688.93,4585460.52,1.5,class
+0206377AR,Platanus × acerifolia,True,C\ Montornès,4.48,3.75,ok,,medium,428397.03,4585615.19,428400.69,4585612.61,1.0,class
+0206378AR,Cercis siliquastrum,False,C\ Josep M. Sert,14.11,12.6,ok,,large,427692.07,4585521.08,427706.12,4585519.69,1.5,class
+0206381AR,Platanus × acerifolia,True,Av República Argentina,5.22,4.54,ok,,medium,428287.19,4584817.24,428286.41,4584812.08,1.0,class
+0206382AR,Grevillea robusta,False,Av Vallcarca,8.28,5.1,ok,,large,428874.68,4584467.98,428868.25,4584462.76,1.5,class
+0206383AR,Celtis australis,False,Pg Mare de Déu del Coll,,5.41,median,2.97,check,,,,,1.0,floor
+0206385AR,Ulmus pumila,False,Av Vallcarca,,10.49,median,2.84,check,,,,,1.0,floor
+0206386AR,Celtis australis,False,C\ Farigola,12.26,11.04,ok,,large,428698.3,4585055.04,428706.27,4585045.73,1.5,class
+0206387AR,Brachychiton populneus,False,Pl Alfonso Comín,,29.17,median,,check,,,,,1.0,floor
+0206388AR,Brachychiton populneus,False,Pl Alfonso Comín,,43.38,no_facade,,check,,,,,1.0,floor
+0206389AR,Platanus × acerifolia,True,Pg Vall d'Hebron,,22.61,median,4.2,check,,,,,1.0,floor
+0206390AR,Platanus × acerifolia,True,Av Vallcarca,6.38,5.64,ok,,large,428358.91,4585187.2,428353.21,4585190.06,1.5,class
+0206391AR,Robinia pseudoacacia,False,C\ Velázquez,8.2,7.22,ok,,large,428827.64,4584373.89,428822.25,4584380.07,1.5,class
+0206392AR,Brachychiton populneus,False,Pl Alfonso Comín,,37.18,no_facade,,check,,,,,1.0,floor
+0206393AR,Styphnolobium japonicum,False,C\ Cardedeu,7.81,6.08,ok,,large,428486.61,4585314.95,428494.16,4585316.93,1.5,class
+0206394AR,Platanus × acerifolia,True,Av Vallcarca,8.7,5.77,ok,,large,428299.87,4585317.05,428291.22,4585317.95,1.5,class
+0206395AR,Fraxinus angustifolia 'Raywood',False,C\ Castellterçol,26.03,20.27,ok,,large,428486.73,4585408.08,428481.94,4585433.66,1.5,class
+0206396AR,Brachychiton populneus,False,Pl Alfonso Comín,,20.37,median,,check,,,,,1.0,floor
+0206397AR,Platanus × acerifolia,True,Pg Vall d'Hebron,,20.73,median,5.1,check,,,,,1.0,floor
+0206399AR,Pyrus calleryana 'Chanticleer',False,C\ Repartidor,2.91,2.58,ok,,small,428779.59,4584899.56,428776.7,4584899.28,1.0,class
+0206400AR,Brachychiton populneus,False,Pl Alfonso Comín,,35.45,no_facade,,check,,,,,1.0,floor
+0206401AR,Brachychiton populneus,False,Pl Alfonso Comín,15.88,14.84,ok,,large,427817.14,4585242.15,427806.84,4585254.24,1.5,class
+0206402AR,Melia azedarach,False,C\ Gomis,4.14,1.94,ok,,medium,428119.03,4585014.85,428115.98,4585012.05,1.0,class
+0206403AR,Brachychiton populneus,False,C\ Esteve Terradas,6.7,4.85,ok,,large,428179.68,4585010.47,428184.27,4585015.35,1.5,class
+0206404AR,Styphnolobium japonicum,False,Av Vallcarca,28.26,18.1,ok,,large,428877.89,4584385.36,428899.39,4584403.69,1.5,class
+0206405AR,Prunus cerasifera 'Pissardii',False,C\ Gomis,2.53,0.01,ok,,small,428137.41,4584976.08,428139.32,4584977.75,1.0,class
+0206407AR,Platanus × acerifolia,True,Pg Vall d'Hebron,5.08,3.96,ok,,medium,428097.45,4585599.19,428092.68,4585600.94,1.0,class
+0206408AR,Brachychiton populneus,False,Pl Alfonso Comín,,37.51,no_facade,,check,,,,,1.0,floor
+0206409AR,Firmiana simplex,False,C\ Morell,8.07,8.0,ok,,large,428345.05,4585452.04,428346.46,4585444.09,1.5,class
+0206410AR,Platanus × acerifolia,True,C\ Montornès,4.35,4.13,ok,,medium,428410.93,4585634.81,428414.46,4585632.27,1.0,class
+0206411AR,Brachychiton populneus,False,Pg Mare de Déu del Coll,4.7,4.05,ok,,medium,428516.45,4585048.59,428520.56,4585050.86,1.0,class
+0206412AR,Ligustrum lucidum,False,Av República Argentina,,14.31,median,,check,,,,,1.0,floor
+0206413AR,Magnolia grandiflora,False,Pg Vall d'Hebron,9.59,8.47,ok,,large,428074.36,4585663.66,428079.46,4585655.54,1.5,class
+0206416AR,Pyrus calleryana 'Chanticleer',False,C\ Gustavo Bécquer,5.07,4.83,ok,,medium,428453.48,4585071.95,428458.11,4585074.01,1.0,class
+0206417AR,Styphnolobium japonicum,False,C\ Cardedeu,5.55,3.45,ok,,medium,428456.06,4585481.61,428461.6,4585481.98,1.0,class
+0206419AR,Platanus × acerifolia,True,Av Vallcarca,5.0,3.83,ok,,medium,428204.42,4585523.36,428209.38,4585523.91,1.0,class
+0206421AR,Casuarina cunninghamiana,False,Av República Argentina,,17.87,median,25.27,check,,,,,1.0,floor
+0206424AR,Brachychiton populneus,False,Pl Alfonso Comín,,51.51,no_facade,,check,,,,,1.0,floor
+0206425AR,Platanus × acerifolia,True,Ctra Sant Cugat,,22.16,median,3.63,check,,,,,1.0,floor
+0206426AR,Photinia x fraseri 'Red Robin',False,C\ Veciana,4.45,3.25,ok,,medium,428386.11,4585742.0,428387.39,4585746.26,1.0,class
+0206427AR,Brachychiton populneus,False,Pg Vall d'Hebron,7.81,7.0,ok,,large,428083.33,4585687.96,428090.65,4585685.26,1.5,class
+0206428AR,Ligustrum lucidum,False,Av República Argentina,2.84,2.03,ok,,small,428618.4,4584667.74,428615.7,4584666.84,1.0,class
+0206429AR,Brachychiton populneus,False,C\ General Mendoza,15.9,14.19,ok,,large,428223.93,4585866.18,428217.2,4585880.59,1.5,class
+0206430AR,Photinia x fraseri 'Red Robin',False,C\ Ticià,5.21,4.54,ok,,medium,427841.76,4585578.31,427838.11,4585574.59,1.0,class
+0206431AR,Styphnolobium japonicum,False,C\ General Mendoza,16.29,13.98,ok,,large,428428.13,4585766.5,428440.85,4585756.34,1.5,class
+0206432AR,Grevillea robusta,False,Av Vallcarca,5.42,5.38,ok,,medium,428756.01,4584613.55,428751.83,4584610.1,1.0,class
+0206433AR,Robinia pseudoacacia,False,C\ Cardedeu,6.14,5.48,ok,,large,428500.02,4585698.15,428505.99,4585699.62,1.5,class
+0206434AR,Platanus × acerifolia,True,Pg Vall d'Hebron,3.64,2.43,ok,,medium,428150.32,4585746.22,428146.71,4585746.71,1.0,class
+0206436AR,Brachychiton populneus,False,Pl Alfonso Comín,19.66,18.33,ok,,large,427818.88,4585243.64,427808.03,4585260.03,1.5,class
+0206438AR,Celtis australis,False,C\ Otília Castellví,,9.1,median,4.24,check,,,,,1.0,floor
+0206439AR,Platanus × acerifolia,True,Pg Vall d'Hebron,7.69,6.39,ok,,large,428101.89,4585737.73,428109.12,4585735.12,1.5,class
+0206440AR,Styphnolobium japonicum,False,C\ Cardedeu,9.56,8.84,ok,,large,428501.42,4585343.28,428492.93,4585338.87,1.5,class
+0206441AR,Pyrus calleryana 'Chanticleer',False,C\ Gustavo Bécquer,10.01,9.24,ok,,large,428360.65,4585280.52,428369.93,4585276.75,1.5,class
+0206443AR,Ulmus pumila,False,Av Vallcarca,4.01,2.24,ok,,medium,428624.79,4584729.69,428627.93,4584732.17,1.0,class
+0206444AR,Pyrus calleryana 'Chanticleer',False,C\ Gomis,2.47,1.37,ok,,none,428110.21,4585007.17,428112.06,4585008.8,1.0,floor
+0206445AR,Melia azedarach,False,C\ Gomis,3.79,3.4,ok,,medium,428162.03,4584965.68,428159.2,4584963.16,1.0,class
+0206447AR,Platanus × acerifolia,True,Av Vallcarca,5.96,4.95,ok,,medium,428227.0,4585415.25,428232.4,4585417.79,1.0,class
+0206448AR,Cercis siliquastrum,False,C\ Josep M. Sert,,11.94,median,1.83,check,,,,,1.0,floor
+0206450AR,Grevillea robusta,False,Ctra Sant Cugat,28.04,16.71,ok,,large,427976.3,4585469.7,427996.24,4585489.42,1.5,class
+0206451AR,Brachychiton populneus,False,Pl Alfonso Comín,10.85,10.2,ok,,large,427815.97,4585241.16,427806.98,4585235.08,1.5,class
+0206452AR,Brachychiton populneus,False,Pg Mare de Déu del Coll,5.77,5.61,ok,,medium,428589.69,4585198.69,428591.69,4585193.28,1.0,class
+0206453AR,Platanus × acerifolia,True,C\ Veciana,,13.0,median,,check,,,,,1.0,floor
+0206454AR,Brachychiton populneus,False,Pl Alfonso Comín,,37.75,no_facade,,check,,,,,1.0,floor
+0206455AR,Platanus × acerifolia,True,C\ Collserola,,20.29,median,,check,,,,,1.0,floor
+0206456AR,Celtis australis,False,C\ Otília Castellví,,10.73,median,4.02,check,,,,,1.0,floor
+0206458AR,Platanus × acerifolia,True,Av República Argentina,4.9,4.71,ok,,medium,428045.7,4584992.87,428042.15,4584989.5,1.0,class
+0206459AR,Brachychiton populneus,False,Pl Alfonso Comín,,20.4,median,,check,,,,,1.0,floor
+0206460AR,Robinia pseudoacacia,False,C\ Cardedeu,7.02,6.95,ok,,large,428495.88,4585353.94,428489.15,4585355.94,1.5,class
+0206461AR,Casuarina cunninghamiana,False,C\ Anna Piferrer,10.99,7.28,ok,,large,428098.35,4585514.38,428087.41,4585513.23,1.5,class
+0206462AR,Ligustrum lucidum,False,C\ Betània,4.75,3.86,ok,,medium,428178.92,4585557.39,428174.45,4585559.0,1.0,class
+0206464AR,Populus nigra,False,C\ Cardedeu,5.32,4.09,ok,,medium,428466.96,4585601.63,428472.22,4585600.81,1.0,class
+0206465AR,Brachychiton populneus,False,Pl Alfonso Comín,,40.46,no_facade,,check,,,,,1.0,floor
+0206466AR,Robinia pseudoacacia,False,C\ Palou,6.89,5.76,ok,,large,428343.42,4585625.26,428339.66,4585631.02,1.5,class
+0206467AR,Prunus cerasifera 'Pissardii',False,C\ Gomis,2.59,1.32,ok,,small,428081.06,4585040.25,428083.01,4585041.94,1.0,class
+0206468AR,Cercis siliquastrum,False,C\ Josep M. Sert,10.05,8.05,ok,,large,427685.9,4585527.05,427691.94,4585535.08,1.5,class
+0206470AR,Robinia pseudoacacia,False,C\ Veciana,5.19,3.91,ok,,medium,428411.51,4585741.32,428411.43,4585746.51,1.0,class
+0206471AR,Cercis siliquastrum,False,C\ Carles Pirozzini,4.92,4.5,ok,,medium,427744.26,4585430.59,427747.45,4585426.84,1.0,class
+0206472AR,Platanus × acerifolia,True,C\ Ticià,2.15,1.19,ok,,none,428077.53,4585343.74,428076.04,4585342.19,1.0,floor
+0206474AR,Ligustrum lucidum,False,Av República Argentina,3.1,2.21,ok,,small,428718.66,4584486.24,428715.97,4584484.69,1.0,class
+0206475AR,Brachychiton populneus,False,C\ Esteve Terradas,,22.63,median,,check,,,,,1.0,floor
+0206476AR,Platanus × acerifolia,True,C\ Capellades,3.87,3.84,ok,,medium,428252.69,4585559.45,428250.99,4585555.98,1.0,class
+0206477AR,Ligustrum lucidum,False,C\ Palou,6.94,6.48,ok,,large,428280.16,4585672.26,428273.33,4585671.04,1.5,class
+0206478AR,Brachychiton populneus,False,Pg Vall d'Hebron,9.5,8.55,ok,,large,428033.58,4585392.72,428024.1,4585393.28,1.5,class
+0206479AR,Pyrus calleryana 'Chanticleer',False,C\ Gomis,2.77,1.28,ok,,small,428201.03,4584903.65,428203.12,4584905.46,1.0,class
+0206480AR,Photinia x fraseri 'Red Robin',False,C\ Ticià,7.11,6.36,ok,,large,427845.74,4585552.33,427850.72,4585557.4,1.5,class
+0206481AR,Platanus × acerifolia,True,Pg Mare de Déu del Coll,,9.48,median,7.11,check,,,,,1.0,floor
+0206482AR,Nerium oleander,False,C\ Trullols,7.7,6.88,ok,,large,427933.67,4585743.36,427941.25,4585742.01,1.5,class
+0206483AR,Grevillea robusta,False,Av Vallcarca,5.45,5.49,ok,,medium,428791.23,4584570.51,428787.04,4584567.03,1.0,class
+0206485AR,Platanus × acerifolia,True,Av Vallcarca,8.81,9.67,ok,,large,428216.49,4585652.13,428207.84,4585653.83,1.5,class
+0206486AR,Brachychiton populneus,False,Pg Mare de Déu del Coll,,13.57,median,5.18,check,,,,,1.0,floor
+0206487AR,Brachychiton populneus,False,Pg Mare de Déu del Coll,,11.84,median,4.97,check,,,,,1.0,floor
+0206488AR,Platanus × acerifolia,True,C\ Collserola,10.35,9.53,ok,,large,427720.43,4585440.48,427711.55,4585435.16,1.5,class
+0206490AR,Liriodendron tulipifera,False,C\ Collserola,,21.26,median,6.23,check,,,,,1.0,floor
+0206491AR,Pinus pinea,False,Pl Alfonso Comín,,34.41,no_facade,,check,,,,,1.0,floor
+0206492AR,Platanus × acerifolia,True,C\ Collserola,,20.45,median,10.09,check,,,,,1.0,floor
+0206493AR,Tilia tomentosa,False,C\ Josefa Rosich,5.02,3.68,ok,,medium,428048.54,4585277.85,428052.0,4585281.47,1.0,class
+0206494AR,Melia azedarach,False,C\ Gomis,3.73,3.05,ok,,medium,428213.97,4584906.11,428211.15,4584903.66,1.0,class
+0206495AR,Platanus × acerifolia,True,Av Vallcarca,,17.96,median,,check,,,,,1.0,floor
+0206496AR,Brachychiton populneus,False,Pg Vall d'Hebron,,27.69,median,4.52,check,,,,,1.0,floor
+0206497AR,Melia azedarach,False,C\ Gomis,4.04,2.1,ok,,medium,428173.43,4584952.86,428170.41,4584950.18,1.0,class
+0206498AR,Pyrus calleryana 'Chanticleer',False,C\ Gustavo Bécquer,13.11,12.09,ok,,large,428496.8,4585014.7,428508.17,4585008.18,1.5,class
+0206499AR,Brachychiton populneus,False,Av Vallcarca,8.45,7.05,ok,,large,428366.09,4584896.98,428369.53,4584904.7,1.5,class
+0206500AR,Cupressus sempervirens,False,C\ Cesare Cantù,,4.78,no_kerb,19.95,check,,,,,1.0,floor
+0206501AR,Cercis siliquastrum,False,C\ Carles Pirozzini,,10.82,median,,check,,,,,1.0,floor
+0206502AR,Celtis australis,False,Av Vallcarca,16.54,14.39,ok,,large,428554.45,4584781.85,428563.35,4584795.79,1.5,class
+0206503AR,Pinus halepensis,False,C\ Morell,,9.57,no_kerb,,check,,,,,1.0,floor
+0206504AR,Brachychiton populneus,False,Pg Vall d'Hebron,,13.16,median,5.16,check,,,,,1.0,floor
+0206505AR,Prunus cerasifera 'Pissardii',False,C\ Gomis,2.56,1.81,ok,,small,428007.28,4585124.49,428009.21,4585126.17,1.0,class
+0206507AR,Styphnolobium japonicum,False,Av Vallcarca,,14.71,no_kerb,,check,,,,,1.0,floor
+0206508AR,Melia azedarach,False,C\ Gomis,4.15,3.41,ok,,medium,428021.01,4585126.6,428017.88,4585123.88,1.0,class
+0206509AR,Pyrus calleryana 'Chanticleer',False,C\ Gustavo Bécquer,6.79,5.4,ok,,large,428441.75,4585098.29,428444.39,4585104.55,1.5,class
+0206510AR,Brachychiton populneus,False,Pl Alfonso Comín,,29.84,median,7.6,check,,,,,1.0,floor
+0206512AR,Citrus × aurantium,False,C\ Castellterçol,6.28,4.61,ok,,large,428495.16,4585405.56,428497.01,4585411.56,1.5,class
+0206513AR,Brachychiton populneus,False,Pg Vall d'Hebron,5.11,3.93,ok,,medium,428095.33,4585593.42,428090.53,4585595.18,1.0,class
+0206514AR,Brachychiton populneus,False,Pl Alfonso Comín,,28.26,no_kerb,,check,,,,,1.0,floor
+0206516AR,Brachychiton populneus,False,C\ Esteve Terradas,,16.9,median,6.46,check,,,,,1.0,floor
+0206518AR,Melia azedarach,False,C\ Gomis,,8.67,median,,check,,,,,1.0,floor
+0206519AR,Platanus × acerifolia,True,Av Vallcarca,3.87,2.51,ok,,medium,428191.35,4585653.82,428195.2,4585654.2,1.0,class
+0206520AR,Ulmus pumila,False,Av Vallcarca,3.9,2.72,ok,,medium,428622.97,4584760.0,428620.21,4584757.25,1.0,class
+0206521AR,Melia azedarach,False,C\ Gomis,3.93,1.84,ok,,medium,428113.83,4585020.5,428110.94,4585017.84,1.0,class
+0206524AR,Brachychiton populneus,False,C\ Esteve Terradas,,37.98,no_facade,7.22,check,,,,,1.0,floor
+0206525AR,Platanus × acerifolia,True,Av Vallcarca,5.0,3.39,ok,,medium,428202.44,4585541.31,428207.41,4585541.86,1.0,class
+0206528AR,Prunus cerasifera 'Pissardii',False,C\ Gomis,2.51,1.27,ok,,small,428017.48,4585112.83,428019.36,4585114.48,1.0,class
+0206529AR,Platanus × acerifolia,True,C\ Collserola,8.16,6.99,ok,,large,427675.48,4585487.57,427669.38,4585482.16,1.5,class
+0206530AR,Ulmus pumila,False,Av Vallcarca,3.87,2.74,ok,,medium,428619.52,4584763.48,428616.77,4584760.75,1.0,class
+0206531AR,Platanus × acerifolia,True,C\ Veciana,5.79,5.04,ok,,medium,428318.3,4585706.02,428316.89,4585711.64,1.0,class
+0206532AR,Citrus × aurantium,False,C\ Riera de Vallcarca,,1.82,no_kerb,,check,,,,,1.0,floor
+0206533AR,Platanus × acerifolia,True,Pg Vall d'Hebron,5.0,4.26,ok,,medium,428101.43,4585610.06,428096.73,4585611.77,1.0,class
+0206534AR,Brachychiton populneus,False,Pg Vall d'Hebron,11.52,9.79,ok,,large,428109.85,4585759.81,428120.23,4585764.81,1.5,class
+0206535AR,Cercis siliquastrum,False,C\ Josep M. Sert,,12.78,median,,check,,,,,1.0,floor
+0206536AR,Ligustrum lucidum,False,C\ Palou,4.15,3.67,ok,,medium,428271.08,4585710.78,428266.99,4585710.1,1.0,class
+0206537AR,Brachychiton populneus,False,C\ Esteve Terradas,19.83,18.49,ok,,large,428034.87,4585194.57,428021.4,4585209.13,1.5,class
+0206538AR,Ligustrum lucidum,False,C\ Betània,13.37,13.06,ok,,large,428165.25,4585596.62,428177.81,4585592.03,1.5,class
+0206539AR,Melia azedarach,False,C\ Gomis,4.1,2.8,ok,,medium,428194.6,4584928.7,428191.51,4584926.01,1.0,class
+0206541AR,Platanus × acerifolia,True,Pg Vall d'Hebron,,15.44,median,5.21,check,,,,,1.0,floor
+0206542AR,Melia azedarach,False,C\ Gomis,3.9,1.46,ok,,medium,428239.1,4584889.21,428237.39,4584885.71,1.0,class
+0206544AR,Styphnolobium japonicum,False,Av Vallcarca,,24.08,median,,check,,,,,1.0,floor
+0206545AR,Citrus × aurantium,False,C\ Cardedeu,,6.86,median,,check,,,,,1.0,floor
+0206546AR,Ligustrum lucidum,False,C\ Betània,4.76,3.86,ok,,medium,428181.51,4585564.55,428177.04,4585566.16,1.0,class
+0206547AR,Prunus cerasifera 'Pissardii',False,Av República Argentina,3.27,2.52,ok,,small,428877.27,4584284.66,428876.36,4584281.52,1.0,class
+0206548AR,Brachychiton populneus,False,Pl Alfonso Comín,21.85,21.61,ok,,large,428018.29,4585159.37,427998.52,4585168.68,1.5,class
+0206549AR,Cercis siliquastrum,False,C\ Apel·les Mestres,,17.87,median,4.03,check,,,,,1.0,floor
+0206550AR,Pyrus calleryana 'Chanticleer',False,C\ Gustavo Bécquer,2.69,1.74,ok,,small,428377.4,4585238.33,428379.83,4585239.48,1.0,class
+0206552AR,Platanus × acerifolia,True,Av República Argentina,4.93,4.44,ok,,medium,428180.18,4584850.05,428176.57,4584846.69,1.0,class
+0206553AR,Ulmus pumila,False,C\ Palou,5.31,4.39,ok,,medium,428254.46,4585724.53,428259.71,4585725.36,1.0,class
+0206554AR,Koelreuteria paniculata,False,Av Vallcarca,,16.96,median,28.47,check,,,,,1.0,floor
+0206555AR,Celtis australis,False,Pg Mare de Déu del Coll,,11.11,median,4.79,check,,,,,1.0,floor
+0206556AR,Celtis australis,False,C\ Farigola,6.8,5.02,ok,,large,428736.73,4585096.85,428743.22,4585098.87,1.5,class
+0206557AR,Ulmus pumila,False,C\ Cardedeu,6.12,5.17,ok,,large,428455.99,4585514.84,428462.06,4585515.61,1.5,class
+0206558AR,Platanus × acerifolia,True,Pl Olèrdola,4.57,3.51,ok,,medium,428418.87,4585646.46,428421.99,4585649.79,1.0,class
+0206559AR,Ligustrum lucidum,False,C\ Betània,4.84,4.2,ok,,medium,428155.93,4585492.97,428151.33,4585494.46,1.0,class
+0206560AR,Cercis siliquastrum,False,C\ Apel·les Mestres,12.18,11.47,ok,,large,427661.54,4585533.27,427673.71,4585532.98,1.5,class
+0206561AR,Robinia pseudoacacia,False,C\ Palou,7.93,7.38,ok,,large,428377.78,4585674.88,428384.1,4585670.09,1.5,class
+0206562AR,Platanus × acerifolia,True,Av Vallcarca,7.03,5.86,ok,,large,428209.52,4585470.05,428216.43,4585471.36,1.5,class
+0206563AR,Platanus × acerifolia,True,Av Vallcarca,8.07,5.82,ok,,large,428191.69,4585650.41,428196.43,4585643.88,1.5,class
+0206564AR,Styphnolobium japonicum,False,C\ General Mendoza,6.93,5.19,ok,,large,428405.27,4585794.0,428410.32,4585798.74,1.5,class
+0206566AR,Celtis australis,False,Pg Mare de Déu del Coll,1.65,0.57,ok,,none,428673.5,4585246.28,428674.94,4585245.48,1.0,floor
+0206567AR,Tilia platyphyllos,False,C\ Dolors Lleonart,,4.69,no_kerb,,check,,,,,1.0,floor
+0206569AR,Platanus × acerifolia,True,Av Vallcarca,7.04,4.98,ok,,large,428181.16,4585735.01,428185.72,4585729.65,1.5,class
+0206571AR,Ligustrum lucidum,False,C\ Betània,6.98,6.32,ok,,large,428158.5,4585552.33,428164.66,4585555.61,1.5,class
+0206572AR,Platanus × acerifolia,True,Pg Vall d'Hebron,6.38,5.48,ok,,large,428156.88,4585755.39,428150.93,4585757.68,1.5,class
+0206573AR,Prunus cerasifera 'Pissardii',False,C\ Gomis,2.52,1.37,ok,,small,428076.65,4585045.32,428078.55,4585046.98,1.0,class
+0206575AR,Platanus × acerifolia,True,Av Vallcarca,11.57,11.44,ok,,large,428394.5,4585091.82,428386.83,4585100.47,1.5,class
+0206577AR,Celtis australis,False,C\ Otília Castellví,,18.13,median,3.77,check,,,,,1.0,floor
+0206578AR,Melia azedarach,False,C\ Gomis,3.93,1.84,ok,,medium,428139.03,4584991.73,428136.1,4584989.1,1.0,class
+0206579AR,Styphnolobium japonicum,False,C\ Cardedeu,5.99,5.25,ok,,medium,428499.62,4585704.94,428505.44,4585706.37,1.0,class
+0206580AR,Platanus × acerifolia,True,Av Vallcarca,8.61,9.08,ok,,large,428220.03,4585619.99,428211.47,4585619.05,1.5,class
+0206582AR,Platanus × acerifolia,True,Av Vallcarca,10.17,6.1,ok,,large,428370.61,4585101.06,428372.93,4585110.97,1.5,class
+0206583AR,Platanus × acerifolia,True,Pg Mare de Déu del Coll,,10.31,median,,check,,,,,1.0,floor
+0206584AR,Melia azedarach,False,Av Vallcarca,,20.28,median,,check,,,,,1.0,floor
+0206586AR,Quercus robur 'Fastigiata',False,Pl Alfonso Comín,14.95,14.42,ok,,large,428013.28,4585148.73,427999.76,4585155.1,1.5,class
+0206587AR,Melia azedarach,False,C\ Gomis,3.95,2.83,ok,,medium,428148.54,4584981.07,428145.59,4584978.45,1.0,class
+0206588AR,Brachychiton populneus,False,Pl Alfonso Comín,,53.41,no_facade,4.03,check,,,,,1.0,floor
+0206589AR,Robinia pseudoacacia,False,C\ Gustavo Bécquer,4.33,1.89,ok,,medium,428592.1,4584883.34,428594.17,4584887.14,1.0,class
+0206590AR,Liriodendron tulipifera,False,C\ Collserola,,18.02,median,6.5,check,,,,,1.0,floor
+0206591AR,Melia azedarach,False,C\ Gomis,3.93,2.41,ok,,medium,428103.77,4585031.64,428100.85,4585029.01,1.0,class
+0206592AR,Celtis australis,False,Pg Mare de Déu del Coll,8.96,7.43,ok,,large,428517.2,4585031.75,428523.86,4585025.74,1.5,class
+0206593AR,Styphnolobium japonicum,False,C\ Cardedeu,5.85,4.35,ok,,medium,428464.35,4585417.62,428469.25,4585420.82,1.0,class
+0206595AR,Robinia pseudoacacia,False,C\ Cardedeu,,14.12,median,7.34,check,,,,,1.0,floor
+0206596AR,Ligustrum lucidum,False,C\ Betània,13.53,13.07,ok,,large,428154.49,4585567.14,428167.2,4585562.5,1.5,class
+0206597AR,Gleditsia triacanthos f. inermis,False,C\ Josep Jover,,35.27,no_facade,,check,,,,,1.0,floor
+0206598AR,Platanus × acerifolia,True,Av Vallcarca,7.93,5.23,ok,,large,428302.32,4585311.88,428295.28,4585308.22,1.5,class
+0206600AR,Brachychiton populneus,False,Pg Vall d'Hebron,5.05,4.29,ok,,medium,428099.35,4585604.37,428094.62,4585606.11,1.0,class
+0206601AR,Prunus cerasifera 'Pissardii',False,Av República Argentina,3.36,2.45,ok,,small,428836.39,4584329.38,428833.95,4584327.08,1.0,class
+0206602AR,Photinia x fraseri 'Red Robin',False,C\ Ticià,18.23,2.82,ok,,large,427862.77,4585542.74,427877.15,4585531.54,1.5,class
+0206603AR,Platanus × acerifolia,True,Av Vallcarca,,16.53,median,12.88,check,,,,,1.0,floor
+0206604AR,Grevillea robusta,False,Av Vallcarca,4.97,4.55,ok,,medium,428693.5,4584689.29,428689.63,4584686.16,1.0,class
+0206605AR,Platanus × acerifolia,True,C\ Collserola,8.68,8.1,ok,,large,427635.47,4585521.86,427630.51,4585514.74,1.5,class
+0206606AR,Pyrus calleryana 'Chanticleer',False,C\ Repartidor,2.78,1.74,ok,,small,428781.77,4584877.43,428779.02,4584876.97,1.0,class
+0206608AR,Brachychiton populneus,False,Pl Alfonso Comín,,36.07,no_facade,,check,,,,,1.0,floor
+0206609AR,Pyrus calleryana 'Chanticleer',False,C\ Gustavo Bécquer,5.05,4.71,ok,,medium,428449.88,4585080.03,428454.49,4585082.09,1.0,class
+0206610AR,Brachychiton populneus,False,Pl Alfonso Comín,,36.78,no_facade,3.92,check,,,,,1.0,floor
+0206611AR,Brachychiton populneus,False,Pl Alfonso Comín,26.22,23.34,ok,,large,427831.44,4585260.53,427818.16,4585283.14,1.5,class
+0206613AR,Gleditsia triacanthos f. inermis,False,C\ Josep Jover,,8.83,median,4.77,check,,,,,1.0,floor
+0206614AR,Platanus × acerifolia,True,Av República Argentina,4.9,4.47,ok,,medium,428054.18,4584983.96,428050.63,4584980.58,1.0,class
+0206615AR,Brachychiton populneus,False,Pg Vall d'Hebron,,50.83,no_facade,2.02,check,,,,,1.0,floor
+0206616AR,Citrus × aurantium,False,C\ Cardedeu,9.29,8.66,ok,,large,428538.56,4585274.47,428530.75,4585269.44,1.5,class
+0206617AR,Platanus × acerifolia,True,Av Vallcarca,8.89,8.12,ok,,large,428181.89,4585702.48,428190.27,4585699.54,1.5,class
+0206619AR,Ulmus pumila,False,C\ Cardedeu,,14.27,median,10.41,check,,,,,1.0,floor
+0206620AR,Brachychiton populneus,False,C\ Esteve Terradas,,25.68,median,,check,,,,,1.0,floor
+0206621AR,Styphnolobium japonicum,False,C\ Navata,,13.07,median,2.22,check,,,,,1.0,floor
+0206623AR,Citrus × aurantium,False,C\ Riera de Vallcarca,,1.8,no_kerb,,check,,,,,1.0,floor
+0206624AR,Platanus × acerifolia,True,Av Vallcarca,,19.98,median,29.55,check,,,,,1.0,floor
+0206625AR,Casuarina cunninghamiana,False,C\ Anna Piferrer,7.94,6.97,ok,,large,428100.33,4585493.46,428107.79,4585496.19,1.5,class
+0206626AR,Citrus × aurantium,False,C\ Cardedeu,22.39,8.71,ok,,large,428473.15,4585381.23,428480.48,4585360.07,1.5,class
+0206627AR,Ligustrum lucidum,False,C\ Cesare Cantù,4.36,3.98,ok,,medium,428117.67,4585416.73,428120.81,4585413.7,1.0,class
+0206628AR,Robinia pseudoacacia,False,C\ Cardedeu,5.47,4.01,ok,,medium,428462.7,4585572.56,428467.46,4585569.88,1.0,class
+0206629AR,Citrus × aurantium,False,C\ Cardedeu,8.02,7.62,ok,,large,428566.91,4585234.99,428560.08,4585230.79,1.5,class
+0206630AR,Platanus × acerifolia,True,Av Vallcarca,24.37,18.55,ok,,large,428406.32,4584938.85,428386.2,4584925.1,1.5,class
+0206631AR,Brachychiton populneus,False,C\ Baró de la Barre,,7.59,no_kerb,26.67,check,,,,,1.0,floor
+0206632AR,Platanus × acerifolia,True,C\ Veciana,,11.4,median,1.85,check,,,,,1.0,floor
+0206633AR,Platanus × acerifolia,True,Av Vallcarca,10.51,9.61,ok,,large,428243.93,4585450.4,428233.42,4585450.55,1.5,class
+0206637AR,Platanus × acerifolia,True,Av Vallcarca,8.28,7.97,ok,,large,428210.73,4585700.18,428202.93,4585697.4,1.5,class
+0206638AR,Pyrus calleryana 'Chanticleer',False,C\ Gustavo Bécquer,6.49,5.47,ok,,large,428426.28,4585128.33,428432.17,4585131.05,1.5,class
+0206640AR,Pyrus calleryana 'Chanticleer',False,C\ Gustavo Bécquer,6.05,4.91,ok,,large,428345.78,4585280.9,428344.5,4585274.99,1.5,class
+0206641AR,Styphnolobium japonicum,False,Av Vallcarca,,19.86,no_kerb,,check,,,,,1.0,floor
+0206642AR,Brachychiton populneus,False,C\ Esteve Terradas,10.57,9.06,ok,,large,428337.18,4584908.55,428341.42,4584918.23,1.5,class
+0206644AR,Citrus × aurantium,False,C\ Riera de Vallcarca,,1.7,no_kerb,,check,,,,,1.0,floor
+0206645AR,Cercis siliquastrum,False,C\ Carles Pirozzini,4.24,3.58,ok,,medium,427757.69,4585442.71,427760.41,4585439.46,1.0,class
+0206646AR,Platanus × acerifolia,True,Pl Alfonso Comín,,38.8,no_facade,17.71,check,,,,,1.0,floor
+0206647AR,Platanus × acerifolia,True,Av Vallcarca,8.89,7.37,ok,,large,428391.65,4585017.66,428382.78,4585018.35,1.5,class
+0206649AR,Platanus × acerifolia,True,C\ Collserola,,17.33,median,7.56,check,,,,,1.0,floor
+0206650AR,Brachychiton populneus,False,C\ Esteve Terradas,,22.33,median,,check,,,,,1.0,floor
+0206651AR,Prunus cerasifera 'Pissardii',False,C\ Sant Eudald,2.39,1.73,ok,,none,428781.3,4585203.66,428779.67,4585205.41,1.0,floor
+0206652AR,Platanus × acerifolia,True,Pg Vall d'Hebron,23.24,20.93,ok,,large,428019.08,4585358.32,427999.1,4585346.45,1.5,class
+0206653AR,Platanus × acerifolia,True,Pg Vall d'Hebron,,36.46,no_facade,4.96,check,,,,,1.0,floor
+0206654AR,Prunus cerasifera 'Pissardii',False,Av República Argentina,3.0,2.19,ok,,small,428864.44,4584298.7,428862.22,4584296.67,1.0,class
+0206655AR,Pinus nigra subsp. salzmannii,False,C\ Veciana,7.23,6.08,ok,,large,428300.74,4585704.08,428298.99,4585711.09,1.5,class
+0206656AR,Nerium oleander,False,C\ Trullols,,6.25,median,,check,,,,,1.0,floor
+0206659AR,Melia azedarach,False,C\ Navata,7.14,6.11,ok,,large,427922.18,4585673.09,427928.07,4585677.13,1.5,class
+0206660AR,Brachychiton populneus,False,Pl Alfonso Comín,,24.93,median,,check,,,,,1.0,floor
+0206661AR,Platanus × acerifolia,True,Pg Vall d'Hebron,10.66,8.96,ok,,large,428087.88,4585573.21,428080.29,4585565.72,1.5,class
+0206662AR,Prunus cerasifera 'Pissardii',False,C\ Gomis,2.44,0.53,ok,,none,428263.38,4584864.83,428264.46,4584867.02,1.0,floor
+0206663AR,Platanus × acerifolia,True,Pg Vall d'Hebron,24.43,23.4,ok,,large,428076.14,4585478.57,428051.75,4585477.11,1.5,class
+0206664AR,Robinia pseudoacacia,False,C\ Palou,7.25,5.64,ok,,large,428357.88,4585641.65,428350.64,4585642.0,1.5,class
+0206665AR,Prunus cerasifera 'Pissardii',False,C\ Josep Jover,11.09,8.54,ok,,large,428346.69,4585137.33,428343.82,4585148.04,1.5,class
+0206666AR,Platanus × acerifolia,True,Pg Vall d'Hebron,16.84,14.07,ok,,large,428149.2,4585734.24,428137.71,4585721.94,1.5,class
+0206668AR,Ligustrum lucidum,False,Av República Argentina,3.14,2.82,ok,,small,428708.96,4584502.78,428706.26,4584501.19,1.0,class
+0206669AR,Cercis siliquastrum,False,C\ Apel·les Mestres,6.67,5.8,ok,,large,427680.22,4585521.02,427675.36,4585525.6,1.5,class
+0206670AR,Platanus × acerifolia,True,Av Vallcarca,20.07,17.57,ok,,large,428354.22,4585006.45,428368.75,4584992.61,1.5,class
+0206671AR,Platanus × acerifolia,True,Av Vallcarca,9.75,7.14,ok,,large,428258.14,4585349.63,428260.19,4585359.16,1.5,class
+0206672AR,Brachychiton populneus,False,C\ Esteve Terradas,17.94,17.72,ok,,large,428005.85,4585243.27,428017.32,4585229.48,1.5,class
+0206673AR,Celtis australis,False,C\ Veciana,5.8,5.47,ok,,medium,428420.03,4585759.66,428419.91,4585753.86,1.0,class
+0206674AR,Photinia x fraseri 'Red Robin',False,C\ Veciana,8.99,5.13,ok,,large,428290.59,4585710.18,428299.55,4585711.02,1.5,class
+0206676AR,Brachychiton populneus,False,Pg Vall d'Hebron,,18.43,median,5.13,check,,,,,1.0,floor
+0206677AR,Platanus × acerifolia,True,C\ Collserola,6.49,6.33,ok,,large,427581.4,4585545.67,427579.5,4585539.47,1.5,class
+0206679AR,Brachychiton populneus,False,C\ Esteve Terradas,,20.88,median,20.13,check,,,,,1.0,floor
+0206680AR,Platanus × acerifolia,True,C\ Montornès,,9.46,median,5.19,check,,,,,1.0,floor
+0206681AR,Platanus × acerifolia,True,Av Vallcarca,10.81,8.93,ok,,large,428249.73,4585435.91,428239.7,4585431.89,1.5,class
+0206682AR,Pyrus calleryana 'Chanticleer',False,C\ Gustavo Bécquer,9.45,7.81,ok,,large,428343.65,4585281.97,428335.94,4585276.51,1.5,class
+0206683AR,Grevillea robusta,False,Av Vallcarca,4.94,4.35,ok,,medium,428700.66,4584680.43,428696.85,4584677.3,1.0,class
+0206684AR,Robinia pseudoacacia,False,C\ Baró de la Barre,,14.39,median,12.17,check,,,,,1.0,floor
+0206685AR,Robinia pseudoacacia,False,C\ Cardedeu,4.61,3.5,ok,,medium,428459.6,4585539.6,428464.17,4585538.94,1.0,class
+0206686AR,Brachychiton populneus,False,Pg Vall d'Hebron,7.83,7.14,ok,,large,428104.09,4585743.82,428111.46,4585741.16,1.5,class
+0206687AR,Casuarina cunninghamiana,False,Av República Argentina,,61.61,no_facade,26.35,check,,,,,1.0,floor
+0206688AR,Casuarina cunninghamiana,False,Av República Argentina,,53.54,no_facade,25.35,check,,,,,1.0,floor
+0206689AR,Pyrus calleryana 'Chanticleer',False,C\ Gustavo Bécquer,2.72,1.82,ok,,small,428395.16,4585201.84,428397.61,4585203.02,1.0,class
+0206691AR,Cercis siliquastrum,False,C\ Josep M. Sert,8.54,7.51,ok,,large,427755.57,4585451.92,427762.1,4585457.41,1.5,class
+0206692AR,Pyrus calleryana 'Chanticleer',False,C\ Gustavo Bécquer,2.6,1.11,ok,,small,428370.48,4585252.51,428372.81,4585253.66,1.0,class
+0206693AR,Platanus × acerifolia,True,Av Vallcarca,7.09,6.45,ok,,large,428394.5,4585091.82,428387.41,4585091.92,1.5,class
+0206695AR,Nerium oleander,False,C\ Trullols,6.75,5.64,ok,,large,427936.44,4585754.37,427943.08,4585753.19,1.5,class
+0206696AR,Brachychiton populneus,False,Av República Argentina,15.19,11.55,ok,,large,427960.77,4585091.29,427946.86,4585097.4,1.5,class
+0206697AR,Prunus cerasifera 'Pissardii',False,C\ Gomis,2.7,1.0,ok,,small,428194.39,4584911.25,428196.41,4584913.03,1.0,class
+0206698AR,Koelreuteria paniculata,False,Av Vallcarca,4.08,3.13,ok,,medium,428610.3,4584744.42,428613.19,4584747.3,1.0,class
+0206699AR,Celtis australis,False,C\ Farigola,7.97,7.7,ok,,large,428741.87,4585108.6,428747.51,4585102.96,1.5,class
+0206700AR,Robinia pseudoacacia,False,C\ Cardedeu,5.86,5.45,ok,,medium,428497.58,4585713.25,428503.27,4585714.65,1.0,class
+0206701AR,Platanus × acerifolia,True,Av Vallcarca,3.99,2.87,ok,,medium,428370.43,4585067.07,428374.4,4585066.67,1.0,class
+0206702AR,Platanus × acerifolia,True,Av Vallcarca,6.03,5.02,ok,,large,428227.13,4585529.05,428221.14,4585528.38,1.5,class
+0206703AR,Brachychiton populneus,False,Pg Vall d'Hebron,,16.32,median,7.4,check,,,,,1.0,floor
+0206704AR,Robinia pseudoacacia 'Bessoniana',False,Pl Lesseps,,9.69,no_kerb,,check,,,,,1.0,floor
+0206705AR,Styphnolobium japonicum,False,C\ Montornès,4.08,3.26,ok,,medium,428415.87,4585396.4,428417.71,4585400.04,1.0,class
+0206707AR,Celtis australis,False,Pg Mare de Déu del Coll,4.7,3.89,ok,,medium,428517.5,4585040.86,428522.0,4585039.52,1.0,class
+0206708AR,Platanus × acerifolia,True,Pg Vall d'Hebron,,39.96,no_facade,1.83,check,,,,,1.0,floor
+0206709AR,Brachychiton populneus,False,Pg Vall d'Hebron,20.88,19.07,ok,,large,428063.95,4585656.84,428072.93,4585637.99,1.5,class
+0206710AR,Cercis siliquastrum,False,C\ Apel·les Mestres,,16.6,median,,check,,,,,1.0,floor
+0206711AR,Brachychiton populneus,False,Pl Alfonso Comín,,30.43,no_facade,,check,,,,,1.0,floor
+0206713AR,Ulmus pumila,False,Av Vallcarca,3.94,2.44,ok,,medium,428628.08,4584754.86,428625.28,4584752.08,1.0,class
+0206714AR,Tilia tomentosa,False,C\ Josefa Rosich,4.95,3.79,ok,,medium,428035.65,4585290.16,428039.07,4585293.74,1.0,class
+0206715AR,Jacaranda mimosifolia,False,C\ Sant Camil,6.53,2.3,ok,,large,428636.16,4585027.39,428640.39,4585022.42,1.5,class
+0206716AR,Platanus × acerifolia,True,Av Vallcarca,10.99,10.51,ok,,large,428217.66,4585663.41,428206.74,4585662.21,1.5,class
+0206717AR,Melia azedarach,False,C\ Gomis,4.1,2.95,ok,,medium,428068.52,4585072.21,428065.43,4585069.52,1.0,class
+0206719AR,Brachychiton populneus,False,Pg Vall d'Hebron,12.7,11.94,ok,,large,427989.29,4585319.44,427989.41,4585332.14,1.5,class
+0206720AR,Platanus × acerifolia,True,Pg Vall d'Hebron,,46.81,no_facade,1.97,check,,,,,1.0,floor
+0206721AR,Platanus × acerifolia,True,Av Vallcarca,,23.59,median,4.04,check,,,,,1.0,floor
+0206722AR,Platanus × acerifolia,True,Av Vallcarca,7.03,6.53,ok,,large,428349.48,4585213.96,428342.94,4585211.39,1.5,class
+0206724AR,Brachychiton populneus,False,C\ Collserola,,23.79,median,1.92,check,,,,,1.0,floor
+0206725AR,Celtis australis,False,Pg Mare de Déu del Coll,,11.2,median,6.84,check,,,,,1.0,floor
+0206726AR,Cercis siliquastrum,False,C\ Josep M. Sert,,12.26,median,,check,,,,,1.0,floor
+0206727AR,Quercus ilex,False,C\ Trullols,3.67,2.72,ok,,medium,427942.12,4585781.81,427945.36,4585783.54,1.0,class
+0206728AR,Cercis siliquastrum,False,C\ Carles Pirozzini,,11.72,median,,check,,,,,1.0,floor
+0206730AR,Koelreuteria paniculata,False,C\ Ticià,,7.11,median,2.02,check,,,,,1.0,floor
+0206733AR,Citrus × aurantium,False,C\ Cardedeu,9.99,6.0,ok,,large,428505.46,4585315.17,428508.07,4585305.53,1.5,class
+0206734AR,Brachychiton populneus,False,Pl Alfonso Comín,,20.81,median,,check,,,,,1.0,floor
+0206736AR,Brachychiton populneus,False,Pg Vall d'Hebron,7.57,6.43,ok,,large,428099.99,4585732.46,428107.11,4585729.89,1.5,class
+0206737AR,Brachychiton populneus,False,C\ Esteve Terradas,,24.33,median,,check,,,,,1.0,floor
+0206738AR,Platanus × acerifolia,True,Pl Olèrdola,5.97,5.76,ok,,medium,428450.15,4585665.94,428444.53,4585667.98,1.0,class
+0206739AR,Pyrus calleryana 'Chanticleer',False,C\ Repartidor,2.91,1.89,ok,,small,428786.88,4584865.35,428784.49,4584863.69,1.0,class
+0206740AR,Platanus × acerifolia,True,Pl Olèrdola,7.22,6.75,ok,,large,428441.15,4585648.25,428435.35,4585652.55,1.5,class
+0206742AR,Citrus × aurantium,False,C\ Cardedeu,2.36,1.56,ok,,none,428503.9,4585318.56,428501.76,4585317.57,1.0,floor
+0206743AR,Platanus × acerifolia,True,Av Vallcarca,10.01,8.79,ok,,large,428360.47,4585013.59,428370.07,4585010.75,1.5,class
+0206745AR,Platanus × acerifolia,True,Av Vallcarca,6.54,6.62,ok,,large,428203.74,4585750.87,428197.22,4585750.44,1.5,class
+0206746AR,Platanus × acerifolia,True,C\ Collserola,10.93,9.33,ok,,large,427676.24,4585486.71,427675.08,4585475.84,1.5,class
+0206747AR,Brachychiton populneus,False,C\ Esteve Terradas,16.53,15.01,ok,,large,428082.28,4585181.16,428091.58,4585194.83,1.5,class
+0206748AR,Pyrus calleryana 'Chanticleer',False,C\ Gustavo Bécquer,2.71,1.91,ok,,small,428391.75,4585208.9,428394.19,4585210.08,1.0,class
+0206749AR,Robinia pseudoacacia,False,C\ Velázquez,8.78,7.83,ok,,large,428822.39,4584369.31,428816.61,4584375.93,1.5,class
+0206750AR,Grevillea robusta,False,Av Vallcarca,7.02,6.76,ok,,large,428888.25,4584451.26,428882.8,4584446.84,1.5,class
+0206751AR,Prunus cerasifera 'Pissardii',False,Av República Argentina,3.74,3.34,ok,,medium,428818.12,4584349.63,428815.36,4584347.11,1.0,class
+0206752AR,Cercis siliquastrum,False,C\ Josep M. Sert,,12.71,median,1.98,check,,,,,1.0,floor
+0206754AR,Ulmus pumila,False,Av Vallcarca,3.03,1.9,ok,,small,428766.29,4584569.42,428768.64,4584571.34,1.0,class
+0206755AR,Melia azedarach,False,C\ Gomis,4.11,3.07,ok,,medium,428203.3,4584918.67,428200.19,4584915.98,1.0,class
+0206756AR,Styphnolobium japonicum,False,Av Vallcarca,25.23,18.66,ok,,large,428919.43,4584327.51,428937.85,4584344.75,1.5,class
+0206757AR,Styphnolobium japonicum,False,C\ Navata,4.56,4.12,ok,,medium,427992.05,4585757.16,427996.42,4585755.88,1.0,class
+0206758AR,Robinia pseudoacacia,False,C\ Palou,6.81,5.87,ok,,large,428349.72,4585631.98,428345.46,4585637.3,1.5,class
+0206759AR,Melia azedarach,False,C\ Gomis,8.29,4.4,ok,,large,428121.22,4585012.46,428122.65,4585004.29,1.5,class
+0206760AR,Brachychiton populneus,False,C\ Esteve Terradas,25.38,23.06,ok,,large,428045.95,4585197.4,428064.8,4585214.39,1.5,class
+0206761AR,Gleditsia triacanthos f. inermis,False,C\ Josep Jover,10.46,8.35,ok,,large,428332.77,4585126.61,428326.39,4585134.9,1.5,class
+0206762AR,Styphnolobium japonicum,False,C\ Navata,,11.88,median,3.75,check,,,,,1.0,floor
+0206763AR,Styphnolobium japonicum,False,C\ Montornès,4.47,5.05,ok,,medium,428339.91,4585504.81,428344.12,4585506.33,1.0,class
+0206764AR,Platanus × acerifolia,True,Av Vallcarca,6.84,4.74,ok,,large,428368.75,4585046.45,428372.24,4585040.56,1.5,class
+0206766AR,Celtis australis,False,Av Vallcarca,,33.17,no_facade,,check,,,,,1.0,floor
+0206767AR,Ligustrum lucidum,False,Av República Argentina,,14.37,median,,check,,,,,1.0,floor
+0206768AR,Pyrus calleryana 'Chanticleer',False,C\ Gustavo Bécquer,8.12,6.8,ok,,large,428334.02,4585264.65,428330.51,4585271.97,1.5,class
+0206770AR,Robinia pseudoacacia,False,C\ Cardedeu,5.33,4.3,ok,,medium,428458.08,4585531.07,428463.4,4585530.97,1.0,class
+0206771AR,Brachychiton populneus,False,Av República Argentina,6.83,6.55,ok,,large,427967.89,4585075.64,427962.94,4585070.94,1.5,class
+0206772AR,Crataegus x media 'Paul's Scarlet',False,C\ Anna Piferrer,8.54,7.03,ok,,large,428198.47,4585462.04,428191.51,4585457.11,1.5,class
+0206773AR,Brachychiton populneus,False,Pg Vall d'Hebron,11.36,9.99,ok,,large,428084.78,4585550.05,428073.44,4585550.48,1.5,class
+0206776AR,Platanus × acerifolia,True,Av Vallcarca,8.34,9.22,ok,,large,428217.16,4585646.01,428208.87,4585645.1,1.5,class
+0206780AR,Brachychiton populneus,False,Av Vallcarca,4.0,3.03,ok,,medium,428636.73,4584746.14,428633.89,4584743.32,1.0,class
+0206781AR,Styphnolobium japonicum,False,C\ Cardedeu,2.36,1.6,ok,,none,428501.11,4585324.84,428498.9,4585324.04,1.0,floor
+0206782AR,Prunus cerasifera 'Pissardii',False,Av Vallcarca,14.57,7.28,ok,,large,428863.46,4584402.28,428874.55,4584411.73,1.5,class
+0206783AR,Platanus × acerifolia,True,Av Vallcarca,6.46,4.44,ok,,large,428229.0,4585512.28,428223.05,4585509.75,1.5,class
+0206784AR,Nerium oleander,False,C\ Ticià,,7.2,median,,check,,,,,1.0,floor
+0206785AR,Grevillea robusta,False,Av Vallcarca,5.42,5.25,ok,,medium,428846.07,4584503.32,428841.87,4584499.9,1.0,class
+0206786AR,Platanus × acerifolia,True,C\ Veciana,4.95,4.32,ok,,medium,428340.46,4585736.27,428341.23,4585731.38,1.0,class
+0206787AR,Platanus × acerifolia,True,Av Vallcarca,,18.93,median,9.1,check,,,,,1.0,floor
+0206788AR,Brachychiton populneus,False,Pl Alfonso Comín,,30.41,no_facade,,check,,,,,1.0,floor
+0206789AR,Ulmus pumila,False,Av Vallcarca,2.93,2.13,ok,,small,428724.16,4584620.86,428726.43,4584622.73,1.0,class
+0206790AR,Brachychiton populneus,False,Pl Alfonso Comín,,34.46,no_facade,,check,,,,,1.0,floor
+0206791AR,Platanus × acerifolia,True,Av República Argentina,2.96,2.58,ok,,small,428642.96,4584614.65,428640.36,4584613.23,1.0,class
+0206792AR,Tilia tomentosa,False,C\ Josefa Rosich,4.99,3.41,ok,,medium,428026.36,4585299.04,428029.81,4585302.65,1.0,class
+0206793AR,Robinia pseudoacacia,False,C\ Cardedeu,9.41,8.82,ok,,large,428535.11,4585279.83,428526.53,4585275.98,1.5,class
+0206794AR,Pyrus calleryana 'Chanticleer',False,C\ Gustavo Bécquer,5.46,4.46,ok,,medium,428344.56,4585264.0,428344.83,4585269.46,1.0,class
+0206796AR,Prunus cerasifera 'Pissardii',False,Av República Argentina,3.69,2.86,ok,,medium,428821.73,4584345.67,428819.0,4584343.19,1.0,class
+0206798AR,Pyrus calleryana 'Chanticleer',False,C\ Gustavo Bécquer,12.97,11.75,ok,,large,428365.05,4585255.15,428359.49,4585266.86,1.5,class
+0206800AR,Platanus × acerifolia,True,Av Vallcarca,16.57,15.43,ok,,large,428347.11,4585136.79,428360.24,4585146.91,1.5,class
+0206801AR,Robinia pseudoacacia,False,C\ Palou,5.77,4.87,ok,,medium,428364.75,4585663.76,428370.28,4585662.11,1.0,class
+0206802AR,Platanus × acerifolia,True,Av Vallcarca,5.31,4.44,ok,,medium,428390.49,4585050.06,428385.19,4585050.41,1.0,class
+0206803AR,Platanus × acerifolia,True,C\ Veciana,8.12,6.8,ok,,large,428346.55,4585742.3,428354.63,4585743.03,1.5,class
+0206805AR,Pyrus calleryana 'Chanticleer',False,C\ Repartidor,,3.91,no_kerb,,check,,,,,1.0,floor
+0206806AR,Ulmus pumila,False,Av Vallcarca,8.63,5.01,ok,,large,428639.25,4584714.66,428647.13,4584711.15,1.5,class
+0206807AR,Platanus × acerifolia,True,C\ Collserola,13.92,12.56,ok,,large,427692.95,4585474.01,427679.33,4585471.14,1.5,class
+0206808AR,Platanus × acerifolia,True,Av Vallcarca,3.71,2.74,ok,,medium,428180.98,4585736.26,428184.65,4585736.78,1.0,class
+0206809AR,Koelreuteria paniculata 'Fastigiata',False,Ctra Sant Cugat,22.67,12.6,ok,,large,427985.28,4585526.17,427990.61,4585504.13,1.5,class
+0206810AR,Koelreuteria paniculata,False,Av Vallcarca,4.04,3.14,ok,,medium,428614.12,4584740.58,428616.98,4584743.43,1.0,class
+0206811AR,Brachychiton populneus,False,Pg Vall d'Hebron,19.01,12.36,ok,,large,428074.36,4585663.66,428077.9,4585644.98,1.5,class
+0206812AR,Platanus × acerifolia,True,Av Vallcarca,6.26,4.61,ok,,large,428282.27,4585298.17,428288.5,4585298.78,1.5,class
+0206813AR,Brachychiton populneus,False,Pg Vall d'Hebron,23.08,22.03,ok,,large,428076.14,4585478.57,428053.55,4585483.29,1.5,class
+0206814AR,Platanus × acerifolia,True,Pl Olèrdola,7.3,6.9,ok,,large,428394.99,4585684.09,428398.48,4585677.68,1.5,class
+0206815AR,Platanus × acerifolia,True,Pg Vall d'Hebron,,46.28,no_facade,1.91,check,,,,,1.0,floor
+0206816AR,Laurus nobilis,False,C\ Josep M. Sert,,14.85,median,,check,,,,,1.0,floor
+0206818AR,Celtis australis,False,C\ Farigola,15.06,13.93,ok,,large,428694.42,4585051.72,428704.21,4585040.27,1.5,class
+0206819AR,Brachychiton populneus,False,Pg Vall d'Hebron,16.38,15.65,ok,,large,428122.49,4585634.03,428107.25,4585640.03,1.5,class
+0206820AR,Brachychiton populneus,False,Pg Vall d'Hebron,,15.81,median,4.91,check,,,,,1.0,floor
+0206822AR,Ligustrum lucidum,False,C\ Palou,4.56,3.82,ok,,medium,428267.59,4585645.78,428272.1,4585646.42,1.0,class
+0206823AR,Brachychiton populneus,False,C\ Esteve Terradas,16.47,15.19,ok,,large,428060.69,4585240.24,428071.69,4585227.99,1.5,class
+0206824AR,Platanus × acerifolia,True,Av Vallcarca,12.71,10.86,ok,,large,428282.27,4585298.17,428292.42,4585290.51,1.5,class
+0206826AR,Brachychiton populneus,False,Av Vallcarca,,20.95,median,17.31,check,,,,,1.0,floor
+0206827AR,Platanus × acerifolia,True,C\ Veciana,4.45,3.17,ok,,medium,428334.37,4585713.11,428332.36,4585717.08,1.0,class
+0206828AR,Ligustrum lucidum,False,C\ Cesare Cantù,4.36,3.86,ok,,medium,428114.33,4585413.26,428117.46,4585410.23,1.0,class
+0206829AR,Styphnolobium japonicum,False,Av Vallcarca,29.99,15.05,ok,,large,428880.41,4584382.41,428903.23,4584401.86,1.5,class
+0206830AR,Citrus × aurantium,False,C\ Riera de Vallcarca,,1.1,no_kerb,,check,,,,,1.0,floor
+0206832AR,Brachychiton populneus,False,Pl Alfonso Comín,,37.8,no_facade,,check,,,,,1.0,floor
+0206833AR,Platanus × acerifolia,True,Av Vallcarca,7.45,6.93,ok,,large,428378.02,4585155.28,428371.34,4585151.99,1.5,class
+0206834AR,Robinia pseudoacacia,False,C\ Cardedeu,7.8,7.56,ok,,large,428557.02,4585248.24,428550.42,4585244.08,1.5,class
+0206836AR,Brachychiton populneus,False,Pg Vall d'Hebron,16.11,10.63,ok,,large,427982.32,4585448.6,427997.07,4585455.1,1.5,class
+0206837AR,Celtis australis,False,C\ Veciana,7.2,6.74,ok,,large,428422.73,4585759.6,428427.01,4585753.82,1.5,class
+0206838AR,Casuarina cunninghamiana,False,Av República Argentina,,38.5,no_facade,24.81,check,,,,,1.0,floor
+0206839AR,Celtis australis,False,Pg Mare de Déu del Coll,7.87,5.28,ok,,large,428509.03,4585075.51,428515.87,4585079.4,1.5,class
+0206840AR,Brachychiton acerifolius,False,Pl Alfonso Comín,,57.51,no_facade,18.94,check,,,,,1.0,floor
+0206841AR,Platanus × acerifolia,True,Av Vallcarca,6.57,5.76,ok,,large,428392.35,4585058.11,428385.8,4585058.53,1.5,class
+0206843AR,Casuarina cunninghamiana,False,C\ Anna Piferrer,,15.92,median,6.51,check,,,,,1.0,floor
+0206844AR,Platanus × acerifolia,True,C\ Collserola,8.7,8.07,ok,,large,427547.76,4585563.08,427542.89,4585555.86,1.5,class
+0206846AR,Pinus pinea,False,Pl Alfonso Comín,,43.76,no_facade,,check,,,,,1.0,floor
+0206847AR,Cercis siliquastrum,False,C\ Apel·les Mestres,10.77,10.16,ok,,large,427692.83,4585570.87,427700.56,4585563.37,1.5,class
+0206848AR,Grevillea robusta,False,Av Vallcarca,5.09,4.28,ok,,medium,428727.79,4584647.45,428723.85,4584644.22,1.0,class
+0206849AR,Styphnolobium japonicum,False,C\ Montornès,,8.53,median,4.94,check,,,,,1.0,floor
+0206850AR,Melia azedarach,False,C\ Gomis,3.77,1.38,ok,,medium,428289.84,4584864.59,428288.2,4584861.2,1.0,class
+0206851AR,Platanus × acerifolia,True,C\ Montornès,4.24,3.73,ok,,medium,428388.1,4585601.94,428390.45,4585598.42,1.0,class
+0206853AR,Nerium oleander,False,C\ Trullols,4.57,3.45,ok,,medium,427954.83,4585759.85,427950.31,4585760.54,1.0,class
+0206854AR,Platanus × acerifolia,True,Av Vallcarca,,20.67,median,29.07,check,,,,,1.0,floor
+0206855AR,Robinia pseudoacacia 'Bessoniana',False,Pl Lesseps,,10.97,no_kerb,,check,,,,,1.0,floor
+0206856AR,Koelreuteria paniculata,False,C\ Ticià,,8.65,no_kerb,2.04,check,,,,,1.0,floor
+0206858AR,Platanus × acerifolia,True,Av Vallcarca,17.61,16.16,ok,,large,428296.75,4585324.77,428283.88,4585336.79,1.5,class
+0206859AR,Grevillea robusta,False,C\ Sant Camil,9.4,4.94,ok,,large,428618.02,4585009.2,428624.68,4585002.58,1.5,class
+0206861AR,Styphnolobium japonicum,False,C\ Montornès,8.59,6.14,ok,,large,428341.22,4585495.2,428346.35,4585488.31,1.5,class
+0206862AR,Platanus × acerifolia,True,Av Vallcarca,7.13,4.92,ok,,large,428190.88,4585658.52,428194.08,4585664.89,1.5,class
+0206863AR,Platanus × acerifolia,True,C\ Montornès,4.05,3.49,ok,,medium,428406.85,4585628.47,428410.16,4585626.12,1.0,class
+0206864AR,Cercis siliquastrum,False,C\ Josep M. Sert,5.22,5.05,ok,,medium,427663.14,4585582.62,427660.69,4585578.01,1.0,class
+0206866AR,Brachychiton populneus,False,Pg Vall d'Hebron,,24.1,median,5.09,check,,,,,1.0,floor
+0206867AR,Robinia pseudoacacia,False,C\ Cardedeu,4.08,3.01,ok,,medium,428495.8,4585678.0,428498.95,4585675.4,1.0,class
+0206868AR,Citrus × aurantium,False,C\ Castellterçol,,3.57,median,4.55,check,,,,,1.0,floor
+0206870AR,Ulmus pumila,False,Av Vallcarca,5.56,2.69,ok,,medium,428616.42,4584766.6,428610.86,4584766.76,1.0,class
+0206871AR,Platanus × acerifolia,True,Av Vallcarca,6.66,5.56,ok,,large,428225.02,4585419.47,428229.7,4585424.2,1.5,class
+0206872AR,Prunus cerasifera 'Pissardii',False,Av República Argentina,3.07,2.34,ok,,small,428859.94,4584303.61,428857.68,4584301.54,1.0,class
+0206874AR,Styphnolobium japonicum,False,C\ Navata,7.16,6.94,ok,,large,427996.67,4585767.44,428002.17,4585762.86,1.5,class
+0206876AR,Pinus pinea,False,Pl Alfonso Comín,,47.56,no_facade,,check,,,,,1.0,floor
+0206877AR,Melia azedarach,False,C\ Gomis,3.95,1.99,ok,,medium,428143.8,4584986.39,428140.85,4584983.76,1.0,class
+0206878AR,Koelreuteria paniculata,False,C\ Ticià,,7.05,median,2.02,check,,,,,1.0,floor
+0206880AR,Brachychiton populneus,False,Pg Vall d'Hebron,15.95,15.11,ok,,large,428030.34,4585371.47,428019.62,4585383.28,1.5,class
+0206881AR,Styphnolobium japonicum,False,C\ Cardedeu,2.72,1.86,ok,,small,428472.07,4585387.57,428474.75,4585388.03,1.0,class
+0206882AR,Ligustrum lucidum,False,C\ Betània,,13.16,no_kerb,11.57,check,,,,,1.0,floor
+0206883AR,Ligustrum lucidum,False,C\ Betània,13.53,13.06,ok,,large,428159.87,4585581.88,428172.58,4585577.24,1.5,class
+0206884AR,Cedrus deodara,False,C\ Montornès,10.94,7.55,ok,,large,428396.02,4585589.53,428402.13,4585598.6,1.5,class
+0206886AR,Brachychiton populneus,False,Ctra Sant Cugat,,20.5,median,3.23,check,,,,,1.0,floor
+0206887AR,Ligustrum lucidum,False,Av República Argentina,5.25,4.22,ok,,medium,428304.75,4584814.59,428303.97,4584809.4,1.0,class
+0206888AR,Platanus × acerifolia,True,Pl Olèrdola,7.28,6.68,ok,,large,428445.51,4585654.13,428439.67,4585658.46,1.5,class
+0206889AR,Grevillea robusta,False,Av Vallcarca,5.25,4.28,ok,,medium,428742.53,4584629.78,428738.54,4584626.37,1.0,class
+0206891AR,Melia azedarach,False,C\ Gomis,4.03,2.47,ok,,medium,428094.34,4585042.49,428091.3,4585039.85,1.0,class
+0206892AR,Quercus ilex,False,Av Vallcarca,8.69,3.88,ok,,large,428204.66,4585754.74,428196.45,4585757.57,1.5,class
+0206893AR,Grevillea robusta,False,Av Vallcarca,5.48,5.53,ok,,medium,428853.28,4584494.5,428849.04,4584491.03,1.0,class
+0206896AR,Platanus × acerifolia,True,Av Vallcarca,12.07,7.78,ok,,large,428249.0,4585368.73,428258.94,4585361.89,1.5,class
+0206898AR,Grevillea robusta,False,C\ Sant Camil,10.76,7.11,ok,,large,428612.54,4585003.7,428620.15,4584996.09,1.5,class
+0206899AR,Platanus × acerifolia,True,Av Vallcarca,,23.01,median,4.8,check,,,,,1.0,floor
+0206900AR,Brachychiton populneus,False,Pl Alfonso Comín,,23.09,median,,check,,,,,1.0,floor
+0206901AR,Melia azedarach,False,C\ Gomis,4.01,3.0,ok,,medium,428088.68,4585049.01,428085.65,4585046.38,1.0,class
+0206902AR,Brachychiton populneus,False,Pl Alfonso Comín,,43.8,no_facade,13.74,check,,,,,1.0,floor
+0206903AR,Ligustrum lucidum,False,Av República Argentina,3.02,2.78,ok,,small,428740.27,4584449.4,428737.65,4584447.88,1.0,class
+0206904AR,Platanus × acerifolia,True,Pg Vall d'Hebron,12.94,11.98,ok,,large,428073.11,4585505.78,428060.17,4585505.56,1.5,class
+0206905AR,Platanus × acerifolia,True,Pg Vall d'Hebron,7.41,6.58,ok,,large,428093.8,4585715.35,428100.76,4585712.81,1.5,class
+0206906AR,Ligustrum lucidum,False,Av República Argentina,3.09,1.86,ok,,small,428631.22,4584635.79,428628.38,4584634.6,1.0,class
+0206907AR,Melia azedarach,False,C\ Gomis,3.97,2.82,ok,,medium,428084.47,4585053.85,428081.47,4585051.25,1.0,class
+0206908AR,Brachychiton populneus,False,Ctra Sant Cugat,,24.79,median,4.67,check,,,,,1.0,floor
+0206909AR,Brachychiton populneus,False,C\ Esteve Terradas,27.69,26.47,ok,,large,428132.8,4585041.26,428152.75,4585060.47,1.5,class
+0206910AR,Brachychiton populneus,False,Pg Vall d'Hebron,7.53,4.68,ok,,large,428087.88,4585573.21,428080.45,4585572.02,1.5,class
+0206912AR,Brachychiton populneus,False,C\ Esteve Terradas,,22.33,median,,check,,,,,1.0,floor
+0206913AR,Platanus × acerifolia,True,Av Vallcarca,6.54,5.96,ok,,large,428309.26,4585297.99,428303.33,4585295.21,1.5,class
+0206914AR,Brachychiton populneus,False,Pl Alfonso Comín,19.25,18.7,ok,,large,428015.95,4585154.41,427998.54,4585162.62,1.5,class
+0206916AR,Prunus cerasifera 'Pissardii',False,Av República Argentina,3.15,2.46,ok,,small,428855.06,4584308.99,428852.7,4584306.89,1.0,class
+0206917AR,Platanus × acerifolia,True,Av Vallcarca,,25.3,median,9.93,check,,,,,1.0,floor
+0206918AR,Platanus × acerifolia,True,Av Vallcarca,,8.22,median,6.07,check,,,,,1.0,floor
+0206919AR,Brachychiton populneus,False,C\ Esteve Terradas,,33.65,no_facade,6.91,check,,,,,1.0,floor
+0206920AR,Robinia pseudoacacia,False,C\ Palou,4.59,4.0,ok,,medium,428361.21,4585644.51,428358.21,4585648.0,1.0,class
+0206921AR,Melia azedarach,False,Av Vallcarca,11.04,9.91,ok,,large,428934.18,4584390.83,428929.46,4584380.86,1.5,class
+0206922AR,Platanus × acerifolia,True,Pg Vall d'Hebron,12.02,11.04,ok,,large,428037.84,4585397.12,428029.2,4585405.48,1.5,class
+0206925AR,Brachychiton populneus,False,C\ Esteve Terradas,19.29,18.03,ok,,large,428034.87,4585194.57,428027.2,4585212.27,1.5,class
+0206926AR,Styphnolobium japonicum,False,C\ Navata,5.1,4.31,ok,,medium,427920.75,4585670.28,427922.49,4585665.49,1.0,class
+0206927AR,Magnolia grandiflora,False,Av Vallcarca,23.68,18.25,ok,,large,428919.43,4584327.51,428940.07,4584339.12,1.5,class
+0206928AR,Pyrus calleryana 'Chanticleer',False,C\ Gustavo Bécquer,2.7,1.95,ok,,small,428415.88,4585158.9,428418.31,4585160.08,1.0,class
+0206929AR,Platanus × acerifolia,True,C\ Veciana,4.56,3.31,ok,,medium,428344.39,4585740.16,428347.6,4585736.92,1.0,class
+0206930AR,Cercis siliquastrum,False,C\ Apel·les Mestres,9.06,8.49,ok,,large,427656.89,4585527.34,427664.02,4585521.75,1.5,class
+0206931AR,Pyrus calleryana 'Chanticleer',False,C\ Gustavo Bécquer,6.14,4.26,ok,,large,428320.78,4585285.42,428320.06,4585279.31,1.5,class
+0206932AR,Platanus × acerifolia,True,Av Vallcarca,8.92,7.71,ok,,large,428361.03,4585182.81,428361.0,4585173.89,1.5,class
+0206934AR,Jacaranda mimosifolia,False,C\ Sant Camil,10.18,6.26,ok,,large,428614.83,4585005.99,428622.05,4584998.81,1.5,class
+0206935AR,Melia azedarach,False,C\ Gomis,3.76,1.18,ok,,medium,428262.49,4584877.81,428260.85,4584874.42,1.0,class
+0206937AR,Casuarina cunninghamiana,False,Av República Argentina,,32.09,no_facade,24.94,check,,,,,1.0,floor
+0206939AR,Platanus × acerifolia,True,Av Vallcarca,11.46,11.22,ok,,large,428393.69,4585117.69,428385.43,4585109.74,1.5,class
+0206940AR,Brachychiton populneus,False,C\ Veciana,3.07,2.01,ok,,small,428206.17,4585852.39,428208.95,4585853.69,1.0,class
+0206941AR,Brachychiton populneus,False,Pl Alfonso Comín,,23.19,median,,check,,,,,1.0,floor
+0206942AR,Platanus × acerifolia,True,C\ Collserola,,17.08,median,3.76,check,,,,,1.0,floor
+0206943AR,Brachychiton populneus,False,Pg Mare de Déu del Coll,,9.92,median,,check,,,,,1.0,floor
+0206944AR,Brachychiton populneus,False,Pg Vall d'Hebron,6.74,4.19,ok,,large,428090.94,4585581.56,428084.61,4585583.87,1.5,class
+0206945AR,Platanus × acerifolia,True,C\ Veciana,6.5,4.9,ok,,large,428312.85,4585704.66,428311.01,4585710.89,1.5,class
+0206946AR,Platanus × acerifolia,True,Av República Argentina,4.87,4.57,ok,,medium,428066.37,4584971.15,428062.84,4584967.79,1.0,class
+0206950AR,Cercis siliquastrum,False,C\ Josep M. Sert,8.99,7.66,ok,,large,427707.67,4585504.32,427714.54,4585510.12,1.5,class
+0206951AR,Prunus cerasifera 'Pissardii',False,C\ Gomis,2.44,1.44,ok,,none,428100.1,4585018.67,428101.93,4585020.28,1.0,floor
+0206952AR,Platanus × acerifolia,True,Av República Argentina,5.06,4.3,ok,,medium,428341.13,4584808.91,428340.33,4584803.91,1.0,class
+0206953AR,Robinia pseudoacacia,False,C\ Cardedeu,4.62,3.47,ok,,medium,428460.33,4585546.91,428464.92,4585546.46,1.0,class
+0206954AR,Brachychiton populneus,False,Av Vallcarca,6.58,5.32,ok,,large,428198.48,4585850.14,428195.7,4585856.1,1.5,class
+0206955AR,Prunus cerasifera 'Pissardii',False,Av República Argentina,3.4,3.89,ok,,small,428840.83,4584324.66,428838.35,4584322.33,1.0,class
+0206956AR,Pyrus calleryana 'Chanticleer',False,C\ Gustavo Bécquer,6.53,5.41,ok,,large,428429.27,4585121.85,428435.19,4585124.59,1.5,class
+0206957AR,Brachychiton populneus,False,Pg Vall d'Hebron,,24.61,median,5.2,check,,,,,1.0,floor
+0206958AR,Robinia pseudoacacia,False,C\ Cardedeu,6.5,5.07,ok,,large,428552.93,4585214.57,428558.66,4585217.64,1.5,class
+0206960AR,Casuarina cunninghamiana,False,C\ Anna Piferrer,8.24,7.14,ok,,large,428201.52,4585460.76,428199.36,4585452.81,1.5,class
+0206961AR,Grevillea robusta,False,Av Vallcarca,5.47,4.56,ok,,medium,428819.28,4584536.23,428815.04,4584532.78,1.0,class
+0206962AR,Robinia pseudoacacia,False,C\ Cardedeu,8.0,7.45,ok,,large,428572.95,4585221.58,428566.25,4585217.19,1.5,class
+0206964AR,Brachychiton populneus,False,C\ Esteve Terradas,23.59,22.51,ok,,large,428033.25,4585191.14,428011.91,4585201.19,1.5,class
+0206965AR,Ligustrum lucidum,False,C\ Palou,7.34,6.98,ok,,large,428373.16,4585672.41,428376.63,4585665.94,1.5,class
+0206966AR,Brachychiton populneus,False,Pg Vall d'Hebron,10.28,9.06,ok,,large,427983.9,4585313.91,427973.76,4585312.21,1.5,class
+0206967AR,Celtis australis,False,Av Vallcarca,21.62,8.62,ok,,large,428572.18,4584782.12,428559.18,4584799.39,1.5,class
+0206968AR,Brachychiton populneus,False,Pl Alfonso Comín,,42.15,no_facade,,check,,,,,1.0,floor
+0206969AR,Styphnolobium japonicum,False,C\ Cardedeu,6.0,4.86,ok,,medium,428467.18,4585396.15,428473.16,4585396.74,1.0,class
+0206970AR,Platanus × acerifolia,True,Pg Vall d'Hebron,,37.96,no_facade,5.1,check,,,,,1.0,floor
+0206971AR,Ligustrum lucidum,False,Av República Argentina,3.13,2.53,ok,,small,428731.51,4584464.48,428728.8,4584462.91,1.0,class
+0206972AR,Brachychiton populneus,False,Pl Alfonso Comín,,37.48,no_facade,22.9,check,,,,,1.0,floor
+0206973AR,Brachychiton populneus,False,Ctra Sant Cugat,,17.76,median,,check,,,,,1.0,floor
+0206974AR,Pyrus calleryana 'Chanticleer',False,C\ Gustavo Bécquer,6.46,5.68,ok,,large,428436.37,4585106.6,428442.23,4585109.31,1.5,class
+0206978AR,Prunus cerasifera 'Pissardii',False,C\ Josep Jover,,8.3,median,4.69,check,,,,,1.0,floor
+0206980AR,Ligustrum lucidum,False,Av República Argentina,5.2,4.51,ok,,medium,428326.68,4584811.22,428325.86,4584806.09,1.0,class
+0206981AR,Celtis australis,False,Pg Mare de Déu del Coll,6.23,4.26,ok,,large,428511.37,4585071.38,428517.47,4585072.65,1.5,class
+0206982AR,Koelreuteria paniculata,False,C\ Ticià,5.37,2.92,ok,,medium,427891.68,4585525.17,427886.67,4585527.09,1.0,class
+0206983AR,Brachychiton populneus,False,Pl Alfonso Comín,,20.35,median,,check,,,,,1.0,floor
+0206984AR,Prunus cerasifera 'Pissardii',False,C\ Josep Jover,14.45,12.09,ok,,large,428317.31,4585115.43,428302.95,4585117.01,1.5,class
+0206985AR,Platanus × acerifolia,True,Av Vallcarca,26.0,20.76,ok,,large,428414.24,4584927.26,428394.83,4584909.97,1.5,class
+0206986AR,Brachychiton populneus,False,Pl Alfonso Comín,,21.8,median,,check,,,,,1.0,floor
+0206987AR,Ligustrum lucidum,False,C\ Cesare Cantù,5.59,1.97,ok,,medium,428120.72,4585404.32,428123.44,4585409.2,1.0,class
+0206990AR,Celtis australis,False,Av Vallcarca,,18.29,median,11.87,check,,,,,1.0,floor
+0206991AR,Cercis siliquastrum,False,C\ Josep M. Sert,,13.02,median,,check,,,,,1.0,floor
+0206992AR,Platanus × acerifolia,True,Av Vallcarca,6.91,6.42,ok,,large,428201.09,4585778.11,428194.22,4585777.37,1.5,class
+0206993AR,Platanus × acerifolia,True,C\ Cardedeu,5.84,5.02,ok,,medium,428460.28,4585444.51,428466.01,4585443.37,1.0,class
+0206994AR,Brachychiton populneus,False,Pl Alfonso Comín,,33.5,no_facade,,check,,,,,1.0,floor
+0206995AR,Robinia pseudoacacia,False,C\ Palou,3.65,2.37,ok,,medium,428295.73,4585614.45,428297.68,4585617.53,1.0,class
+0206996AR,Grevillea robusta,False,Av Vallcarca,5.04,3.58,ok,,medium,428776.81,4584587.52,428772.91,4584584.32,1.0,class
+0206997AR,Robinia pseudoacacia,False,C\ Cardedeu,5.88,4.03,ok,,medium,428497.13,4585681.88,428502.78,4585683.52,1.0,class
+0206999AR,Platanus × acerifolia,True,Av República Argentina,5.24,4.31,ok,,medium,428298.91,4584815.47,428298.13,4584810.29,1.0,class
+0207000AR,Brachychiton populneus,False,Pg Vall d'Hebron,,37.8,no_facade,5.24,check,,,,,1.0,floor
+0207001AR,Casuarina cunninghamiana,False,C\ Anna Piferrer,8.33,6.86,ok,,large,428126.81,4585477.07,428132.67,4585482.98,1.5,class
+0207002AR,Platanus × acerifolia,True,Pg Vall d'Hebron,20.82,20.14,ok,,large,427859.01,4585348.39,427873.19,4585333.14,1.5,class
+0207003AR,Brachychiton populneus,False,C\ Esteve Terradas,16.55,16.29,ok,,large,428005.85,4585243.27,428004.99,4585226.75,1.5,class
+0207004AR,Prunus cerasifera 'Pissardii',False,Bda Gomis,2.89,2.17,ok,,small,428351.5,4584810.52,428353.2,4584812.86,1.0,class
+0207005AR,Ligustrum lucidum,False,C\ Betània,4.76,3.86,ok,,medium,428184.1,4585571.7,428179.62,4585573.32,1.0,class
+0207006AR,Cercis siliquastrum,False,C\ Josep M. Sert,10.84,9.74,ok,,large,427706.6,4585505.58,427709.34,4585516.08,1.5,class
+0207007AR,Platanus × acerifolia,True,Av República Argentina,5.56,5.63,ok,,medium,428234.82,4584825.57,428234.01,4584820.07,1.0,class
+0207008AR,Platanus × acerifolia,True,C\ Montornès,,12.58,median,,check,,,,,1.0,floor
+0207009AR,Platanus × acerifolia,True,Av Vallcarca,10.06,8.7,ok,,large,428360.57,4585018.04,428370.63,4585018.39,1.5,class
+0207011AR,Platanus × acerifolia,True,Pg Vall d'Hebron,6.8,5.96,ok,,large,427983.9,4585313.91,427977.87,4585317.06,1.5,class
+0207012AR,Gleditsia triacanthos f. inermis,False,C\ Josep Jover,,8.4,median,4.67,check,,,,,1.0,floor
+0207013AR,Tipuana tipu,False,Jrdi Arabescos,,73.39,no_facade,20.51,check,,,,,1.0,floor
+0207014AR,Styphnolobium japonicum,False,C\ Cardedeu,5.37,4.09,ok,,medium,428461.55,4585563.63,428466.5,4585561.55,1.0,class
+0207015AR,Tilia tomentosa,False,C\ Josefa Rosich,20.95,16.18,ok,,large,428076.42,4585251.2,428094.42,4585240.5,1.5,class
+0207017AR,Brachychiton populneus,False,Pg Vall d'Hebron,,29.53,median,5.89,check,,,,,1.0,floor
+0207018AR,Grevillea robusta,False,Av Vallcarca,5.5,4.33,ok,,medium,428811.96,4584545.21,428807.69,4584541.74,1.0,class
+0207019AR,Styphnolobium japonicum,False,C\ Montornès,6.4,5.72,ok,,large,428379.88,4585416.87,428385.1,4585420.57,1.5,class
+0207021AR,Platanus × acerifolia,True,Av Vallcarca,8.34,6.08,ok,,large,428232.75,4585403.04,428240.54,4585400.05,1.5,class
+0207023AR,Koelreuteria paniculata,False,C\ Ticià,,7.28,median,2.05,check,,,,,1.0,floor
+0207025AR,Platanus × acerifolia,True,Pg Vall d'Hebron,,14.82,median,3.99,check,,,,,1.0,floor
+0207027AR,Brachychiton populneus,False,Pl Alfonso Comín,,31.91,no_facade,,check,,,,,1.0,floor
+0207028AR,Melia azedarach,False,C\ Gomis,4.02,2.82,ok,,medium,428074.59,4585065.23,428071.56,4585062.6,1.0,class
+0207029AR,Platanus × acerifolia,True,Av Vallcarca,6.22,4.93,ok,,large,428313.38,4585288.27,428307.75,4585285.63,1.5,class
+0207030AR,Pyrus calleryana 'Chanticleer',False,C\ Gustavo Bécquer,5.87,4.81,ok,,medium,428335.76,4585265.49,428338.75,4585270.53,1.0,class
+0207031AR,Citrus × aurantium,False,C\ Cardedeu,8.73,7.79,ok,,large,428523.46,4585295.34,428518.31,4585288.29,1.5,class
+0207033AR,Crataegus x media 'Paul's Scarlet',False,C\ Anna Piferrer,7.76,6.49,ok,,large,428155.93,4585485.14,428150.72,4585479.39,1.5,class
+0207034AR,Platanus × acerifolia,True,C\ Collserola,8.51,7.81,ok,,large,427643.25,4585516.83,427637.91,4585510.2,1.5,class
+0207035AR,Celtis australis,False,Pg Mare de Déu del Coll,6.0,5.93,ok,,medium,428604.32,4585208.35,428607.0,4585202.98,1.0,class
+0207037AR,Citrus × aurantium,False,C\ Cardedeu,5.63,4.72,ok,,medium,428463.13,4585576.15,428468.45,4585578.0,1.0,class
+0207038AR,Brachychiton populneus,False,Pl Alfonso Comín,,36.71,no_facade,,check,,,,,1.0,floor
+0207040AR,Platanus × acerifolia,True,Pg Vall d'Hebron,,27.84,median,5.14,check,,,,,1.0,floor
+0207042AR,Platanus × acerifolia,True,Pg Vall d'Hebron,8.41,6.92,ok,,large,427954.13,4585283.37,427954.51,4585291.77,1.5,class
+0207043AR,Cercis siliquastrum,False,C\ Josep M. Sert,,14.75,median,7.28,check,,,,,1.0,floor
+0207044AR,Melia azedarach,False,C\ Gomis,3.9,3.65,ok,,medium,428166.94,4584960.16,428164.02,4584957.57,1.0,class
+0207047AR,Ligustrum lucidum,False,Av República Argentina,3.08,2.53,ok,,small,428674.1,4584561.93,428671.45,4584560.36,1.0,class
+0207048AR,Styphnolobium japonicum,False,C\ Cardedeu,5.86,4.75,ok,,medium,428499.31,4585691.77,428505.09,4585690.82,1.0,class
+0207049AR,Platanus × acerifolia,True,Av República Argentina,4.95,4.45,ok,,medium,427995.7,4585046.07,427992.1,4585042.68,1.0,class
+0207051AR,Platanus × acerifolia,True,Pl Alfonso Comín,7.86,7.62,ok,,large,427953.56,4585261.59,427948.12,4585255.9,1.5,class
+0207052AR,Celtis australis,False,C\ Otília Castellví,,9.2,median,4.08,check,,,,,1.0,floor
+0207053AR,Ligustrum lucidum,False,Av República Argentina,3.23,2.72,ok,,small,428696.35,4584524.37,428693.56,4584522.74,1.0,class
+0207055AR,Platanus × acerifolia,True,Ctra Sant Cugat,,16.26,median,3.28,check,,,,,1.0,floor
+0207056AR,Nerium oleander,False,C\ Ticià,,7.88,median,29.28,check,,,,,1.0,floor
+0207057AR,Brachychiton populneus,False,Pl Alfonso Comín,,37.92,no_facade,,check,,,,,1.0,floor
+0207058AR,Ligustrum lucidum,False,C\ Betània,4.78,4.24,ok,,medium,428149.35,4585527.26,428153.83,4585525.62,1.0,class
+0207059AR,Brachychiton populneus,False,Pl Alfonso Comín,,41.31,no_facade,,check,,,,,1.0,floor
+0207060AR,Tilia tomentosa,False,C\ Josefa Rosich,4.97,3.88,ok,,medium,428067.84,4585259.4,428071.27,4585262.99,1.0,class
+0207061AR,Robinia pseudoacacia,False,C\ Cardedeu,5.03,4.26,ok,,medium,428546.85,4585228.93,428550.96,4585231.83,1.0,class
+0207062AR,Casuarina cunninghamiana,False,C\ Anna Piferrer,3.09,2.04,ok,,small,428083.39,4585505.69,428084.86,4585508.4,1.0,class
+0207064AR,Brachychiton populneus,False,C\ Esteve Terradas,8.01,5.98,ok,,large,428169.91,4585019.64,428175.38,4585025.48,1.5,class
+0207065AR,Platanus × acerifolia,True,Av República Argentina,4.88,4.33,ok,,medium,428062.32,4584975.41,428058.78,4584972.04,1.0,class
+0207066AR,Platanus × acerifolia,True,Pg Vall d'Hebron,,53.24,no_facade,12.62,check,,,,,1.0,floor
+0207067AR,Grevillea robusta,False,Av Vallcarca,5.56,4.76,ok,,medium,428860.72,4584485.3,428856.39,4584481.82,1.0,class
+0207068AR,Cercis siliquastrum,False,C\ Apel·les Mestres,6.96,5.9,ok,,large,427684.48,4585525.55,427679.42,4585530.32,1.5,class
+0207070AR,Magnolia grandiflora,False,Av Vallcarca,,7.92,no_kerb,,check,,,,,1.0,floor
+0207071AR,Tilia tomentosa,False,C\ Josefa Rosich,5.01,3.62,ok,,medium,428006.93,4585317.61,428010.39,4585321.24,1.0,class
+0207072AR,Brachychiton populneus,False,C\ Esteve Terradas,8.69,6.89,ok,,large,428165.28,4585023.97,428171.23,4585030.31,1.5,class
+0207073AR,Brachychiton populneus,False,Ctra Sant Cugat,,30.22,no_facade,0.72,check,,,,,1.0,floor
+0207074AR,Platanus × acerifolia,True,Av Vallcarca,5.81,4.43,ok,,medium,428276.23,4585311.14,428281.5,4585313.59,1.0,class
+0207076AR,Styphnolobium japonicum,False,C\ Montornès,,6.14,median,5.13,check,,,,,1.0,floor
+0207077AR,Prunus cerasifera 'Pissardii',False,C\ Sant Eudald,5.48,3.17,ok,,medium,428792.09,4585213.7,428792.99,4585219.11,1.0,class
+0207078AR,Brachychiton populneus,False,Pg Vall d'Hebron,,26.59,median,10.61,check,,,,,1.0,floor
+0207079AR,Styphnolobium japonicum,False,Av Vallcarca,,24.4,no_kerb,,check,,,,,1.0,floor
+0207081AR,Koelreuteria paniculata,False,Av Vallcarca,,10.88,median,24.52,check,,,,,1.0,floor
+0207082AR,Platanus × acerifolia,True,Av Vallcarca,11.18,10.27,ok,,large,428225.02,4585419.47,428226.53,4585430.54,1.5,class
+0207084AR,Pyrus calleryana 'Chanticleer',False,C\ Gustavo Bécquer,6.46,5.3,ok,,large,428433.13,4585113.61,428439.0,4585116.32,1.5,class
+0207085AR,Brachychiton populneus,False,C\ Esteve Terradas,23.54,23.01,ok,,large,428050.56,4585249.93,428034.29,4585232.91,1.5,class
+0207086AR,Cupressus sempervirens,False,C\ Cesare Cantù,4.41,3.99,ok,,medium,428130.95,4585410.63,428127.76,4585413.67,1.0,class
+0207087AR,Ligustrum lucidum,False,C\ Betània,9.52,8.43,ok,,large,428140.78,4585506.64,428148.88,4585511.65,1.5,class
+0207089AR,Ligustrum lucidum,False,C\ Cesare Cantù,4.38,4.27,ok,,medium,428124.99,4585424.31,428128.14,4585421.26,1.0,class
+0207090AR,Koelreuteria paniculata,False,C\ Anna Piferrer,10.25,8.93,ok,,large,428169.12,4585480.87,428165.96,4585471.12,1.5,class
+0207091AR,Brachychiton populneus,False,Pg Vall d'Hebron,16.23,15.49,ok,,large,428126.87,4585646.9,428110.9,4585649.79,1.5,class
+0207092AR,Brachychiton populneus,False,Pl Alfonso Comín,,52.74,no_facade,,check,,,,,1.0,floor
+0207093AR,Cercis siliquastrum,False,C\ Carles Pirozzini,,11.01,median,,check,,,,,1.0,floor
+0207094AR,Pyrus calleryana 'Chanticleer',False,C\ Gustavo Bécquer,2.72,1.96,ok,,small,428398.72,4585194.47,428401.16,4585195.65,1.0,class
+0207095AR,Photinia x fraseri 'Red Robin',False,C\ Veciana,5.89,5.69,ok,,medium,428413.81,4585759.78,428413.69,4585753.89,1.0,class
+0207096AR,Pyrus calleryana 'Chanticleer',False,C\ Gomis,2.59,1.02,ok,,small,428174.11,4584934.38,428176.06,4584936.07,1.0,class
+0207097AR,Prunus cerasifera 'Pissardii',False,C\ Velázquez,4.97,3.95,ok,,medium,428855.92,4584398.64,428852.65,4584402.38,1.0,class
+0207098AR,Ulmus pumila,False,Av Vallcarca,8.85,8.38,ok,,large,428772.12,4584552.99,428778.95,4584558.63,1.5,class
+0207099AR,Robinia pseudoacacia,False,C\ Cardedeu,5.95,5.09,ok,,medium,428469.81,4585618.53,428475.46,4585616.65,1.0,class
+0207101AR,Prunus cerasifera 'Pissardii',False,C\ Gòlgota,17.08,11.73,ok,,large,428123.51,4585636.64,428109.76,4585646.76,1.5,class
+0207102AR,Platanus × acerifolia,True,C\ Montornès,3.33,2.86,ok,,small,428359.83,4585565.22,428362.17,4585562.84,1.0,class
+0207103AR,Celtis australis,False,C\ Otília Castellví,,12.84,median,3.9,check,,,,,1.0,floor
+0207104AR,Robinia pseudoacacia,False,C\ Gomis,3.32,2.25,ok,,small,428330.96,4584844.76,428329.17,4584841.95,1.0,class
+0207105AR,Platanus × acerifolia,True,Av Vallcarca,,20.25,median,,check,,,,,1.0,floor
+0207107AR,Brachychiton populneus,False,C\ Esteve Terradas,,23.2,median,,check,,,,,1.0,floor
+0207108AR,Platanus × acerifolia,True,Av Vallcarca,9.04,8.65,ok,,large,428391.77,4585122.45,428383.38,4585119.07,1.5,class
+0207109AR,Brachychiton populneus,False,C\ Esteve Terradas,17.0,15.67,ok,,large,428041.6,4585199.44,428039.02,4585216.25,1.5,class
+0207111AR,Brachychiton populneus,False,Pl Alfonso Comín,,39.83,no_facade,,check,,,,,1.0,floor
+0207112AR,Platanus × acerifolia,True,Av Vallcarca,6.11,5.16,ok,,large,428228.07,4585520.57,428222.0,4585519.89,1.5,class
+0207113AR,Platanus × acerifolia,True,C\ Collserola,,18.6,median,3.9,check,,,,,1.0,floor
+0207114AR,Styphnolobium japonicum,False,Av Vallcarca,,20.36,no_kerb,,check,,,,,1.0,floor
+0207115AR,Pinus pinea,False,Pl Alfonso Comín,,20.94,median,,check,,,,,1.0,floor
+0207116AR,Celtis australis,False,Pg Mare de Déu del Coll,,11.81,median,9.52,check,,,,,1.0,floor
+0207117AR,Brachychiton populneus,False,Pl Alfonso Comín,,20.22,median,4.19,check,,,,,1.0,floor
+0207118AR,Platanus × acerifolia,True,Pg Vall d'Hebron,,29.21,median,4.5,check,,,,,1.0,floor
+0207119AR,Nerium oleander,False,C\ Trullols,7.63,6.83,ok,,large,427934.7,4585749.14,427942.21,4585747.8,1.5,class
+0207120AR,Platanus × acerifolia,True,Av Vallcarca,5.91,4.39,ok,,medium,428265.84,4585333.23,428271.47,4585335.02,1.0,class
+0207123AR,Grevillea robusta,False,Av Vallcarca,5.45,4.28,ok,,medium,428825.9,4584528.09,428821.68,4584524.65,1.0,class
+0207124AR,Brachychiton populneus,False,Pl Alfonso Comín,,20.66,median,,check,,,,,1.0,floor
+0207125AR,Cupressus sempervirens,False,C\ August Font,,2.79,no_kerb,,check,,,,,1.0,floor
+0207126AR,Platanus × acerifolia,True,C\ Montornès,4.19,3.31,ok,,medium,428390.43,4585605.38,428394.16,4585603.47,1.0,class
+0207129AR,Brachychiton populneus,False,Pl Alfonso Comín,,28.7,median,,check,,,,,1.0,floor
+0207130AR,Brachychiton populneus,False,Pl Alfonso Comín,,20.44,median,,check,,,,,1.0,floor
+0207131AR,Platanus × acerifolia,True,Av República Argentina,4.91,4.58,ok,,medium,428049.72,4584988.65,428046.16,4584985.26,1.0,class
+0207134AR,Celtis australis,False,C\ Farigola,7.56,6.61,ok,,large,428746.31,4585113.04,428751.66,4585107.7,1.5,class
+0207135AR,Brachychiton populneus,False,Ctra Sant Cugat,,16.61,median,3.24,check,,,,,1.0,floor
+0207136AR,Platanus × acerifolia,True,Av Vallcarca,,9.22,median,3.72,check,,,,,1.0,floor
+0207137AR,Platanus × acerifolia,True,Av Vallcarca,,6.8,median,,check,,,,,1.0,floor
+0207138AR,Platanus × acerifolia,True,Av Vallcarca,8.64,7.05,ok,,large,428197.67,4585559.44,428205.8,4585556.5,1.5,class
+0207139AR,Platanus × acerifolia,True,Ctra Sant Cugat,,14.91,median,3.27,check,,,,,1.0,floor
+0207140AR,Pyrus calleryana 'Chanticleer',False,C\ Gustavo Bécquer,2.75,1.91,ok,,small,428384.89,4585222.95,428387.35,4585224.17,1.0,class
+0207141AR,Koelreuteria paniculata,False,C\ Anna Piferrer,8.42,7.12,ok,,large,428159.82,4585483.88,428157.23,4585475.87,1.5,class
+0207143AR,Platanus × acerifolia,True,Av Vallcarca,22.11,21.78,ok,,large,428169.13,4585757.34,428177.3,4585777.88,1.5,class
+0207144AR,Robinia pseudoacacia,False,C\ Castellterçol,,3.07,median,4.57,check,,,,,1.0,floor
+0207145AR,Platanus × acerifolia,True,Av Vallcarca,,21.32,median,23.5,check,,,,,1.0,floor
+0207146AR,Cercis siliquastrum,False,C\ Apel·les Mestres,10.26,9.44,ok,,large,427697.66,4585575.33,427704.93,4585568.08,1.5,class
+0207147AR,Brachychiton populneus,False,Pl Alfonso Comín,,25.5,median,3.36,check,,,,,1.0,floor
+0207148AR,Brachychiton populneus,False,Pl Alfonso Comín,,32.68,no_facade,,check,,,,,1.0,floor
+0207149AR,Brachychiton populneus,False,Av Vallcarca,,22.53,median,22.46,check,,,,,1.0,floor
+0207150AR,Platanus × acerifolia,True,Av Vallcarca,8.53,9.31,ok,,large,428219.25,4585627.02,428210.77,4585626.09,1.5,class
+0207151AR,Brachychiton populneus,False,Pg Vall d'Hebron,,43.6,no_facade,13.13,check,,,,,1.0,floor
+0207152AR,Casuarina cunninghamiana,False,C\ Anna Piferrer,,17.89,median,3.28,check,,,,,1.0,floor
+0207153AR,Platanus × acerifolia,True,Av Vallcarca,14.36,13.4,ok,,large,428352.26,4585130.11,428363.63,4585138.87,1.5,class
+0207154AR,Celtis australis,False,Pg Mare de Déu del Coll,,11.4,median,10.9,check,,,,,1.0,floor
+0207155AR,Fraxinus angustifolia 'Raywood',False,C\ Castellterçol,18.83,12.65,ok,,large,428489.33,4585408.57,428485.86,4585427.08,1.5,class
+0207156AR,Styphnolobium japonicum,False,C\ Cardedeu,6.54,4.41,ok,,large,428461.61,4585427.53,428468.11,4585428.23,1.5,class
+0207157AR,Jacaranda mimosifolia,False,C\ Gòlgota,,6.25,no_kerb,,check,,,,,1.0,floor
+0207158AR,Ulmus pumila,False,Av Vallcarca,23.16,12.9,ok,,large,428742.12,4584599.08,428758.93,4584583.15,1.5,class
+0207159AR,Platanus × acerifolia,True,Av Vallcarca,8.86,9.06,ok,,large,428222.01,4585601.99,428213.2,4585601.02,1.5,class
+0207160AR,Platanus × acerifolia,True,Av Vallcarca,11.62,10.59,ok,,large,428377.49,4585156.36,428367.02,4585161.39,1.5,class
+0207163AR,Ligustrum lucidum,False,Av República Argentina,5.28,4.95,ok,,medium,428755.93,4584423.7,428751.05,4584425.73,1.0,class
+0207164AR,Brachychiton populneus,False,Pg Vall d'Hebron,9.83,8.63,ok,,large,428093.8,4585715.35,428098.55,4585706.74,1.5,class
+0207165AR,Pyrus calleryana 'Chanticleer',False,C\ Repartidor,2.89,1.29,ok,,small,428778.23,4584913.79,428775.35,4584913.52,1.0,class
+0207166AR,Brachychiton populneus,False,Pg Vall d'Hebron,14.8,13.6,ok,,large,428073.7,4585500.87,428058.91,4585501.38,1.5,class
+0207167AR,Styphnolobium japonicum,False,C\ Montornès,7.58,6.65,ok,,large,428339.72,4585520.43,428347.23,4585521.47,1.5,class
+0207169AR,Platanus × acerifolia,True,Av Vallcarca,,9.85,median,3.69,check,,,,,1.0,floor
+0207170AR,Styphnolobium japonicum,False,C\ Cardedeu,6.99,5.69,ok,,large,428554.41,4585208.67,428560.46,4585212.17,1.5,class
+0207171AR,Platanus × acerifolia,True,Av Vallcarca,17.1,15.76,ok,,large,428353.9,4585127.97,428370.04,4585122.33,1.5,class
+0207172AR,Platanus × acerifolia,True,Av Vallcarca,4.99,4.13,ok,,medium,428205.07,4585517.49,428210.02,4585518.03,1.0,class
+0207174AR,Celtis australis,False,C\ Farigola,9.58,8.24,ok,,large,428702.0,4585058.21,428708.23,4585050.93,1.5,class
+0207175AR,Prunus cerasifera 'Pissardii',False,C\ Josep Jover,10.18,8.41,ok,,large,428317.31,4585115.43,428309.54,4585122.01,1.5,class
+0207176AR,Platanus × acerifolia,True,Av Vallcarca,6.87,5.86,ok,,large,428202.06,4585769.21,428195.23,4585768.47,1.5,class
+0207179AR,Platanus × acerifolia,True,Av Vallcarca,4.13,2.75,ok,,medium,428371.43,4585082.72,428375.56,4585082.67,1.0,class
+0207180AR,Platanus × acerifolia,True,Av Vallcarca,5.74,4.12,ok,,medium,428241.47,4585384.79,428246.67,4585387.24,1.0,class
+0207181AR,Fraxinus angustifolia 'Raywood',False,C\ Castellterçol,8.67,7.97,ok,,large,428579.17,4585346.44,428578.63,4585355.09,1.5,class
+0207182AR,Prunus cerasifera 'Pissardii',False,Bda Gomis,4.95,3.61,ok,,medium,428355.54,4584807.67,428360.22,4584809.27,1.0,class
+0207183AR,Brachychiton populneus,False,Pg Mare de Déu del Coll,,11.1,median,10.88,check,,,,,1.0,floor
+0207184AR,Brachychiton populneus,False,Pl Alfonso Comín,,53.62,no_facade,18.52,check,,,,,1.0,floor
+0207185AR,Styphnolobium japonicum,False,Av Vallcarca,,15.33,no_kerb,,check,,,,,1.0,floor
+0207186AR,Platanus × acerifolia,True,C\ Collserola,,18.41,median,3.86,check,,,,,1.0,floor
+0207187AR,Platanus × acerifolia,True,Av Vallcarca,11.16,10.87,ok,,large,428216.81,4585671.19,428205.71,4585669.97,1.5,class
+0207188AR,Platanus × acerifolia,True,Av Vallcarca,5.84,4.44,ok,,medium,428262.64,4585340.03,428267.94,4585342.52,1.0,class
+0207189AR,Platanus × acerifolia,True,C\ Collserola,6.5,5.98,ok,,large,427594.71,4585540.18,427593.28,4585533.84,1.5,class
+0207190AR,Celtis australis,False,C\ Otília Castellví,,11.56,median,5.94,check,,,,,1.0,floor
+0207192AR,Magnolia grandiflora,False,Pg Vall d'Hebron,,8.61,median,,check,,,,,1.0,floor
+0207193AR,Crataegus x media 'Paul's Scarlet',False,C\ Anna Piferrer,5.74,4.36,ok,,medium,428121.5,4585501.63,428118.76,4585496.58,1.0,class
+0207195AR,Brachychiton populneus,False,C\ Esteve Terradas,,22.96,median,10.3,check,,,,,1.0,floor
+0207196AR,Cercis siliquastrum,False,C\ Carles Pirozzini,,13.15,median,,check,,,,,1.0,floor
+0207197AR,Magnolia grandiflora,False,Av Vallcarca,27.06,16.92,ok,,large,428919.43,4584327.51,428936.22,4584348.73,1.5,class
+0207198AR,Brachychiton populneus,False,Ctra Sant Cugat,27.57,25.93,ok,,large,427978.92,4585467.04,427998.63,4585486.32,1.5,class
+0207199AR,Melia azedarach,False,Av Vallcarca,,27.23,median,,check,,,,,1.0,floor
+0207200AR,Platanus × acerifolia,True,C\ Veciana,,11.06,median,,check,,,,,1.0,floor
+0207202AR,Platanus × acerifolia,True,Pl Olèrdola,4.34,1.99,ok,,medium,428402.27,4585662.46,428406.0,4585664.69,1.0,class
+0207203AR,Ligustrum lucidum,False,Av República Argentina,3.1,2.24,ok,,small,428639.87,4584620.07,428637.18,4584618.53,1.0,class
+0207204AR,Brachychiton populneus,False,C\ Esteve Terradas,,30.05,no_facade,6.81,check,,,,,1.0,floor
+0207205AR,Platanus × acerifolia,True,Pl Alfonso Comín,6.87,6.82,ok,,large,427948.14,4585266.77,427941.48,4585265.08,1.5,class
+0207207AR,Ligustrum japonicum,False,Av República Argentina,5.06,4.78,ok,,medium,428158.94,4584872.89,428155.26,4584869.42,1.0,class
+0207208AR,Robinia pseudoacacia,False,C\ Veciana,5.12,4.61,ok,,medium,428252.03,4585739.79,428257.1,4585740.59,1.0,class
+0207209AR,Brachychiton populneus,False,Pg Vall d'Hebron,,38.37,no_facade,6.98,check,,,,,1.0,floor
+0207210AR,Brachychiton populneus,False,Pg Mare de Déu del Coll,,10.69,median,9.88,check,,,,,1.0,floor
+0207211AR,Robinia pseudoacacia,False,C\ Baró de la Barre,,11.66,median,11.52,check,,,,,1.0,floor
+0207212AR,Celtis sinensis,False,C\ Maignon,,8.96,median,,check,,,,,1.0,floor
+0207213AR,Casuarina cunninghamiana,False,C\ Anna Piferrer,6.66,5.19,ok,,large,428128.37,4585498.88,428126.15,4585492.6,1.5,class
+0207214AR,Tilia platyphyllos,False,C\ Dolors Lleonart,,5.15,no_kerb,,check,,,,,1.0,floor
+0207215AR,Casuarina cunninghamiana,False,C\ Anna Piferrer,11.42,10.21,ok,,large,428173.75,4585479.37,428171.18,4585468.25,1.5,class
+0207216AR,Celtis australis,False,Av Vallcarca,24.33,21.38,ok,,large,428554.45,4584781.85,428551.52,4584806.0,1.5,class
+0207217AR,Melia azedarach,False,C\ Gomis,,8.52,median,19.81,check,,,,,1.0,floor
+0207218AR,Styphnolobium japonicum,False,C\ Cardedeu,13.42,12.11,ok,,large,428573.49,4585220.74,428568.51,4585208.29,1.5,class
+0207220AR,Ulmus pumila,False,Av Vallcarca,3.97,2.81,ok,,medium,428632.72,4584750.18,428629.9,4584747.38,1.0,class
+0207221AR,Platanus × acerifolia,True,Av Vallcarca,10.07,8.57,ok,,large,428344.06,4585227.23,428339.67,4585218.18,1.5,class
+0207222AR,Citrus × aurantium,False,C\ Cardedeu,5.28,4.96,ok,,medium,428492.4,4585365.43,428487.38,4585363.8,1.0,class
+0207224AR,Platanus × acerifolia,True,Pg Vall d'Hebron,,18.74,median,,check,,,,,1.0,floor
+0207226AR,Brachychiton populneus,False,Pl Alfonso Comín,9.07,8.44,ok,,large,427948.14,4585266.77,427940.18,4585271.12,1.5,class
+0207227AR,Ligustrum lucidum,False,Av República Argentina,2.98,3.08,ok,,small,428743.66,4584443.55,428741.09,4584442.05,1.0,class
+0207230AR,Prunus cerasifera 'Pissardii',False,Av República Argentina,3.23,2.23,ok,,small,428850.52,4584313.97,428848.14,4584311.8,1.0,class
+0207232AR,Brachychiton populneus,False,Pl Alfonso Comín,,40.94,no_facade,,check,,,,,1.0,floor
+0207233AR,Robinia pseudoacacia,False,C\ Castellterçol,6.86,4.95,ok,,large,428530.37,4585365.99,428536.74,4585368.53,1.5,class
+0207234AR,Ulmus pumila,False,C\ Palou,5.3,3.73,ok,,medium,428255.78,4585716.27,428261.01,4585717.11,1.0,class
+0207235AR,Brachychiton populneus,False,Pg Vall d'Hebron,,32.44,no_facade,5.85,check,,,,,1.0,floor
+0207236AR,Celtis sinensis,False,C\ Gomis,,66.28,no_facade,14.9,check,,,,,1.0,floor
+0207237AR,Brachychiton populneus,False,Pl Alfonso Comín,28.43,25.71,ok,,large,427832.38,4585260.95,427822.45,4585287.58,1.5,class
+0207239AR,Acer saccharinum,False,Pl Lesseps,17.42,13.76,ok,,large,428990.12,4584399.29,429001.71,4584386.29,1.5,class
+0207240AR,Robinia pseudoacacia,False,C\ Cardedeu,6.27,5.25,ok,,large,428455.31,4585488.12,428461.31,4585489.96,1.5,class
+0207241AR,Brachychiton populneus,False,Pl Alfonso Comín,13.64,13.03,ok,,large,427818.73,4585237.92,427808.34,4585229.07,1.5,class
+0207242AR,Platanus × acerifolia,True,C\ Collserola,7.64,7.0,ok,,large,427591.9,4585542.36,427587.23,4585536.31,1.5,class
+0207243AR,Ulmus pumila,False,Av Vallcarca,,4.96,median,3.02,check,,,,,1.0,floor
+0207246AR,Celtis australis,False,Pg Mare de Déu del Coll,18.65,11.55,ok,,large,428589.69,4585198.69,428575.59,4585186.48,1.5,class
+0207247AR,Platanus × acerifolia,True,Av Vallcarca,9.19,7.22,ok,,large,428210.45,4585465.15,428218.73,4585461.15,1.5,class
+0207248AR,Ligustrum lucidum,False,Av República Argentina,,13.8,median,,check,,,,,1.0,floor
+0207249AR,Platanus × acerifolia,True,Pg Vall d'Hebron,,33.78,no_facade,5.07,check,,,,,1.0,floor
+0207250AR,Brachychiton acerifolius,False,Pl Alfonso Comín,,48.19,no_facade,,check,,,,,1.0,floor
+0207251AR,Brachychiton populneus,False,Pg Vall d'Hebron,,33.53,no_facade,5.11,check,,,,,1.0,floor
+0207252AR,Melia azedarach,False,C\ Gomis,3.78,3.36,ok,,medium,428255.13,4584881.36,428253.53,4584877.94,1.0,class
+0207253AR,Platanus × acerifolia,True,Pg Vall d'Hebron,17.69,15.21,ok,,large,428128.13,4585650.49,428111.44,4585656.35,1.5,class
+0207256AR,Platanus × acerifolia,True,Pg Vall d'Hebron,,17.94,median,6.03,check,,,,,1.0,floor
+0207258AR,Brachychiton populneus,False,Pg Vall d'Hebron,,28.9,median,4.51,check,,,,,1.0,floor
+0207259AR,Platanus × acerifolia,True,Av Vallcarca,,22.16,median,,check,,,,,1.0,floor
+0207261AR,Prunus cerasifera 'Pissardii',False,C\ Gomis,2.56,1.13,ok,,small,428011.53,4585119.63,428013.46,4585121.32,1.0,class
+0207262AR,Platanus × acerifolia,True,C\ Capellades,,11.32,median,,check,,,,,1.0,floor
+0207263AR,Brachychiton populneus,False,Pl Alfonso Comín,22.62,19.61,ok,,large,427828.82,4585257.44,427807.67,4585265.45,1.5,class
+0207264AR,Grevillea robusta,False,Av Vallcarca,5.05,3.9,ok,,medium,428784.61,4584577.97,428780.7,4584574.77,1.0,class
+0207265AR,Ulmus pumila,False,Av Vallcarca,,5.17,median,2.99,check,,,,,1.0,floor
+0207266AR,Cercis siliquastrum,False,C\ Apel·les Mestres,10.6,10.78,ok,,large,427687.23,4585565.1,427690.94,4585555.17,1.5,class
+0207267AR,Grevillea robusta,False,Av Vallcarca,5.15,5.37,ok,,medium,428736.12,4584637.45,428732.17,4584634.14,1.0,class
+0207268AR,Brachychiton populneus,False,C\ Esteve Terradas,6.37,3.71,ok,,large,428189.46,4585001.29,428193.82,4585005.94,1.5,class
+0207269AR,Platanus × acerifolia,True,Av República Argentina,5.6,4.78,ok,,medium,428240.65,4584824.72,428239.84,4584819.18,1.0,class
+0207271AR,Citrus × aurantium,False,C\ Riera de Vallcarca,,1.52,no_kerb,,check,,,,,1.0,floor
+0207273AR,Styphnolobium japonicum,False,C\ Cardedeu,8.98,8.73,ok,,large,428551.11,4585257.47,428544.05,4585251.94,1.5,class
+0207274AR,Melia azedarach,False,C\ Gomis,4.11,3.18,ok,,medium,428198.39,4584924.33,428195.29,4584921.64,1.0,class
+0207275AR,Ligustrum lucidum,False,Av República Argentina,3.13,2.63,ok,,small,428712.57,4584496.63,428709.87,4584495.05,1.0,class
+0207276AR,Celtis sinensis,False,C\ Maignon,,9.9,median,,check,,,,,1.0,floor
+0207277AR,Platanus × acerifolia,True,Av República Argentina,4.97,5.08,ok,,medium,428037.7,4585001.48,428034.08,4584998.08,1.0,class
+0207278AR,Brachychiton populneus,False,C\ Esteve Terradas,17.91,17.1,ok,,large,428078.25,4585183.9,428088.32,4585198.71,1.5,class
+0207279AR,Prunus cerasifera 'Pissardii',False,C\ Josep Jover,,8.37,median,4.67,check,,,,,1.0,floor
+0207281AR,Jacaranda mimosifolia,False,C\ Sant Camil,6.47,2.06,ok,,large,428644.98,4585035.09,428649.28,4585030.25,1.5,class
+0207282AR,Brachychiton populneus,False,Pl Alfonso Comín,,31.4,no_facade,,check,,,,,1.0,floor
+0207283AR,Ulmus pumila,False,C\ Cardedeu,4.15,3.32,ok,,medium,428474.88,4585633.44,428479.02,4585633.1,1.0,class
+0207284AR,Melia azedarach,False,C\ Gomis,4.02,2.88,ok,,medium,428209.91,4584910.92,428206.82,4584908.35,1.0,class
+0207285AR,Prunus cerasifera 'Pissardii',False,Av República Argentina,6.48,3.82,ok,,large,428812.89,4584355.5,428807.99,4584351.26,1.5,class
+0207286AR,Platanus × acerifolia,True,Av Vallcarca,,17.39,median,,check,,,,,1.0,floor
+0207288AR,Brachychiton populneus,False,C\ Esteve Terradas,10.71,9.5,ok,,large,428352.04,4584901.99,428356.39,4584911.77,1.5,class
+0207289AR,Cercis siliquastrum,False,C\ Josep M. Sert,,14.06,median,7.88,check,,,,,1.0,floor
+0207290AR,Nerium oleander,False,C\ Ticià,2.06,0.38,ok,,none,427860.73,4585544.73,427862.17,4585546.2,1.0,floor
+0207291AR,Robinia pseudoacacia,False,C\ Palou,10.44,8.25,ok,,large,428387.11,4585659.81,428376.67,4585659.65,1.5,class
+0207292AR,Ligustrum lucidum,False,C\ Palou,,10.59,median,11.86,check,,,,,1.0,floor
+0207293AR,Pyrus calleryana 'Chanticleer',False,C\ Gustavo Bécquer,8.6,2.49,ok,,large,428368.4,4585256.74,428368.59,4585265.33,1.5,class
+0207294AR,Platanus × acerifolia,True,Av Vallcarca,,20.25,median,,check,,,,,1.0,floor
+0207295AR,Platanus × acerifolia,True,Av Vallcarca,9.56,8.73,ok,,large,428388.88,4584973.36,428379.33,4584973.74,1.5,class
+0207296AR,Melia azedarach,False,C\ Gomis,4.15,3.34,ok,,medium,428178.35,4584947.3,428175.23,4584944.57,1.0,class
+0207297AR,Ulmus pumila,False,Av Vallcarca,2.91,1.91,ok,,small,428727.77,4584616.49,428730.01,4584618.35,1.0,class
+0207298AR,Ligustrum lucidum,False,C\ Betània,6.47,4.17,ok,,large,428158.68,4585505.66,428153.79,4585501.42,1.5,class
+0207299AR,Melia azedarach,False,C\ Gomis,4.26,3.01,ok,,medium,428059.14,4585083.01,428055.29,4585081.19,1.0,class
+0207300AR,Citrus × aurantium,False,C\ Cardedeu,9.17,9.13,ok,,large,428487.89,4585392.72,428482.79,4585385.1,1.5,class
+0207301AR,Styphnolobium japonicum,False,C\ Cardedeu,4.99,3.88,ok,,medium,428456.24,4585499.83,428461.23,4585499.92,1.0,class
+0207302AR,Brachychiton acerifolius,False,Pl Alfonso Comín,,30.36,no_facade,,check,,,,,1.0,floor
+0207303AR,Brachychiton populneus,False,Pg Vall d'Hebron,21.66,20.86,ok,,large,428139.22,4585670.17,428124.3,4585685.88,1.5,class
+0207304AR,Celtis australis,False,Pg Mare de Déu del Coll,6.6,5.92,ok,,large,428616.8,4585216.25,428621.93,4585212.09,1.5,class
+0207305AR,Ligustrum lucidum,False,C\ Betània,4.06,4.15,ok,,medium,428172.13,4585542.73,428169.67,4585545.97,1.0,class
+0207307AR,Brachychiton populneus,False,C\ Esteve Terradas,,23.87,median,,check,,,,,1.0,floor
+0207308AR,Prunus cerasifera 'Pissardii',False,C\ Gomis,2.52,1.49,ok,,small,428270.42,4584861.37,428271.53,4584863.62,1.0,class
+0207309AR,Brachychiton populneus,False,Pl Alfonso Comín,,20.37,median,,check,,,,,1.0,floor
+0207310AR,Styphnolobium japonicum,False,C\ Cardedeu,5.03,4.34,ok,,medium,428490.95,4585670.44,428495.57,4585668.47,1.0,class
+0207311AR,Cercis siliquastrum,False,C\ Carles Pirozzini,6.4,6.32,ok,,large,427736.12,4585424.08,427737.34,4585417.8,1.5,class
+0207313AR,Brachychiton populneus,False,Pl Alfonso Comín,,26.2,median,,check,,,,,1.0,floor
+0207314AR,Platanus × acerifolia,True,C\ Montornès,,10.38,median,,check,,,,,1.0,floor
+0207315AR,Platanus × acerifolia,True,Pg Vall d'Hebron,,37.68,no_facade,5.3,check,,,,,1.0,floor
+0207316AR,Pyrus calleryana 'Chanticleer',False,C\ Gustavo Bécquer,8.39,7.33,ok,,large,428346.46,4585262.65,428352.9,4585268.03,1.5,class
+0207317AR,Platanus × acerifolia,True,Av República Argentina,4.9,4.55,ok,,medium,428149.12,4584883.08,428145.43,4584879.85,1.0,class
+0207318AR,Brachychiton populneus,False,Pg Vall d'Hebron,,28.19,median,,check,,,,,1.0,floor
+0207319AR,Platanus × acerifolia,True,Av Vallcarca,,18.2,median,,check,,,,,1.0,floor
+0207320AR,Brachychiton populneus,False,C\ Esteve Terradas,,27.41,median,,check,,,,,1.0,floor
+0207323AR,Brachychiton populneus,False,Pl Alfonso Comín,,36.79,no_facade,,check,,,,,1.0,floor
+0207324AR,Platanus × acerifolia,True,Av Vallcarca,,22.89,median,,check,,,,,1.0,floor
+0207325AR,Platanus × acerifolia,True,Pg Vall d'Hebron,7.9,6.48,ok,,large,428105.96,4585748.99,428113.39,4585746.32,1.5,class
+0207327AR,Platanus × acerifolia,True,Av Vallcarca,24.85,22.18,ok,,large,428350.22,4585002.26,428368.21,4584985.12,1.5,class
+0207329AR,Pyrus calleryana 'Chanticleer',False,C\ Gustavo Bécquer,5.08,5.16,ok,,medium,428456.61,4585064.92,428461.25,4585066.99,1.0,class
+0207330AR,Platanus × acerifolia,True,Av República Argentina,5.14,4.15,ok,,medium,428331.93,4584810.38,428331.12,4584805.3,1.0,class
+0207331AR,Platanus × acerifolia,True,Av Vallcarca,,8.5,median,4.8,check,,,,,1.0,floor
+0207333AR,Pyrus calleryana 'Chanticleer',False,C\ Gomis,2.62,1.42,ok,,small,428060.34,4585063.83,428062.3,4585065.55,1.0,class
+0207334AR,Platanus × acerifolia,True,Av Vallcarca,21.56,13.63,ok,,large,428191.69,4585650.41,428197.91,4585629.77,1.5,class
+0207335AR,Platanus × acerifolia,True,Av Vallcarca,3.66,2.5,ok,,medium,428180.16,4585742.04,428183.79,4585742.55,1.0,class
+0207337AR,Brachychiton populneus,False,Pl Alfonso Comín,,51.93,no_facade,4.0,check,,,,,1.0,floor
+0207338AR,Platanus × acerifolia,True,Av Vallcarca,7.92,6.32,ok,,large,428250.52,4585426.46,428243.17,4585423.52,1.5,class
+0207340AR,Melia azedarach,False,C\ Gomis,,8.92,median,,check,,,,,1.0,floor
+0207341AR,Platanus × acerifolia,True,Pg Vall d'Hebron,10.44,9.96,ok,,large,428081.38,4585540.65,428071.55,4585544.16,1.5,class
+0207342AR,Cercis siliquastrum,False,C\ Apel·les Mestres,,19.7,median,16.34,check,,,,,1.0,floor
+0207343AR,Phytolacca dioica,False,Av Vallcarca,,20.58,no_kerb,,check,,,,,1.0,floor
+0207344AR,Brachychiton populneus,False,Pg Vall d'Hebron,9.97,8.63,ok,,large,428149.2,4585734.24,428140.46,4585729.44,1.5,class
+0207345AR,Platanus × acerifolia,True,C\ Collserola,,16.07,median,3.82,check,,,,,1.0,floor
+0207346AR,Celtis sinensis,False,C\ Maignon,,14.94,median,,check,,,,,1.0,floor
+0207347AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,Pl Lesseps,24.35,9.08,ok,,large,428877.27,4584284.66,428889.04,4584263.35,1.5,class
+0207348AR,Brachychiton populneus,False,Pl Alfonso Comín,,33.25,no_facade,11.03,check,,,,,1.0,floor
+0207349AR,Tilia tomentosa,False,C\ Josefa Rosich,13.53,10.37,ok,,large,428001.6,4585322.71,427995.6,4585334.83,1.5,class
+0207350AR,Platanus × acerifolia,True,Av República Argentina,4.92,4.41,ok,,medium,428187.44,4584842.25,428183.85,4584838.89,1.0,class
+0207352AR,Styphnolobium japonicum,False,Av Vallcarca,28.91,21.05,ok,,large,428899.79,4584357.56,428925.91,4584369.93,1.5,class
+0207353AR,Platanus × acerifolia,True,Av Vallcarca,24.13,23.98,ok,,large,428405.65,4584939.82,428385.74,4584926.2,1.5,class
+0207355AR,Platanus × acerifolia,True,Av República Argentina,5.2,4.72,ok,,medium,428190.92,4584839.32,428187.74,4584835.21,1.0,class
+0207356AR,Prunus cerasifera 'Pissardii',False,C\ Gomis,2.51,0.54,ok,,small,428289.91,4584852.02,428291.0,4584854.28,1.0,class
+0207357AR,Celtis australis,False,C\ Baró de la Barre,,11.43,median,10.87,check,,,,,1.0,floor
+0207359AR,Cercis siliquastrum,False,C\ Josep M. Sert,,15.31,median,1.77,check,,,,,1.0,floor
+0207360AR,Celtis australis,False,Pg Mare de Déu del Coll,,11.37,median,4.91,check,,,,,1.0,floor
+0207361AR,Casuarina cunninghamiana,False,Av República Argentina,,45.24,no_facade,,check,,,,,1.0,floor
+0207362AR,Brachychiton populneus,False,Pg Vall d'Hebron,,25.37,median,4.39,check,,,,,1.0,floor
+0207363AR,Cercis siliquastrum,False,C\ Josep M. Sert,4.35,4.14,ok,,medium,427680.21,4585564.35,427677.29,4585561.12,1.0,class
+0207364AR,Celtis australis,False,Pg Mare de Déu del Coll,4.83,3.86,ok,,medium,428518.04,4585032.94,428522.87,4585033.09,1.0,class
+0207365AR,Koelreuteria paniculata,False,Av Vallcarca,,18.03,median,2.83,check,,,,,1.0,floor
+0207366AR,Citrus × aurantium,False,C\ Castellterçol,,13.57,median,10.71,check,,,,,1.0,floor
+0207367AR,Platanus × acerifolia,True,Av Vallcarca,,25.81,median,4.03,check,,,,,1.0,floor
+0207368AR,Styphnolobium japonicum,False,C\ General Mendoza,12.91,9.43,ok,,large,428428.13,4585766.85,428441.03,4585766.89,1.5,class
+0207369AR,Brachychiton populneus,False,Pl Alfonso Comín,,31.0,no_facade,11.59,check,,,,,1.0,floor
+0207370AR,Platanus × acerifolia,True,Av Vallcarca,,22.14,median,23.38,check,,,,,1.0,floor
+0207371AR,Ligustrum lucidum,False,C\ Betània,7.3,5.91,ok,,large,428177.85,4585554.43,428171.48,4585550.86,1.5,class
+0207372AR,Grevillea robusta,False,Av Vallcarca,7.92,4.77,ok,,large,428868.29,4584475.86,428862.09,4584470.93,1.5,class
+0207373AR,Pyrus calleryana 'Chanticleer',False,C\ Gustavo Bécquer,6.37,5.47,ok,,large,428423.4,4585134.57,428428.9,4585137.79,1.5,class
+0207374AR,Styphnolobium japonicum,False,C\ Navata,4.6,4.11,ok,,medium,427921.94,4585672.61,427926.04,4585670.53,1.0,class
+0207375AR,Koelreuteria paniculata 'Fastigiata',False,C\ Ticià,,6.29,median,,check,,,,,1.0,floor
+0207376AR,Brachychiton populneus,False,Pg Vall d'Hebron,10.52,9.76,ok,,large,427950.94,4585280.12,427941.16,4585276.25,1.5,class
+0207377AR,Ligustrum lucidum,False,Pl Alfonso Comín,15.61,7.86,ok,,large,427988.19,4585115.69,427978.12,4585127.62,1.5,class
+0207378AR,Cercis siliquastrum,False,C\ Apel·les Mestres,,15.59,median,,check,,,,,1.0,floor
+0207382AR,Gleditsia triacanthos f. inermis,False,C\ Josep Jover,11.36,9.8,ok,,large,428288.93,4585094.6,428288.42,4585105.95,1.5,class
+0207383AR,Styphnolobium japonicum,False,C\ Cardedeu,6.0,4.81,ok,,medium,428468.15,4585610.96,428474.01,4585609.69,1.0,class
+0207384AR,Brachychiton populneus,False,Pg Vall d'Hebron,,33.63,no_facade,7.01,check,,,,,1.0,floor
+0207385AR,Ligustrum lucidum,False,Av República Argentina,3.09,2.57,ok,,small,428676.69,4584557.55,428674.02,4584555.98,1.0,class
+0207386AR,Platanus × acerifolia,True,Av Vallcarca,11.8,9.91,ok,,large,428182.74,4585704.92,428188.02,4585715.47,1.5,class
+0207387AR,Brachychiton populneus,False,Pg Vall d'Hebron,7.95,6.74,ok,,large,428108.01,4585754.7,428115.49,4585752.01,1.5,class
+0207388AR,Platanus × acerifolia,True,Av Vallcarca,7.45,6.47,ok,,large,428253.29,4585419.56,428246.38,4585416.79,1.5,class
+0207390AR,Grevillea robusta,False,Av Vallcarca,6.61,5.52,ok,,large,428881.74,4584459.28,428876.61,4584455.11,1.5,class
+0207393AR,Platanus × acerifolia,True,Av República Argentina,5.53,5.38,ok,,medium,428229.8,4584826.32,428228.98,4584820.86,1.0,class
+0207394AR,Styphnolobium japonicum,False,C\ Sant Onofre,,10.47,median,7.22,check,,,,,1.0,floor
+0207395AR,Platanus × acerifolia,True,Av Vallcarca,6.91,5.56,ok,,large,428274.71,4585314.41,428278.37,4585320.27,1.5,class
+0207396AR,Robinia pseudoacacia,False,C\ Veciana,5.36,4.38,ok,,medium,428403.54,4585741.16,428402.71,4585746.46,1.0,class
+0207397AR,Platanus × acerifolia,True,Av República Argentina,5.55,4.8,ok,,medium,428254.12,4584822.62,428253.24,4584817.14,1.0,class
+0207398AR,Ligustrum lucidum,False,C\ Palou,5.38,5.28,ok,,medium,428310.67,4585626.61,428311.84,4585621.36,1.0,class
+0207399AR,Melia azedarach,False,C\ Gomis,4.42,3.52,ok,,medium,428029.31,4585117.06,428027.28,4585113.14,1.0,class
+0207400AR,Platanus × acerifolia,True,Av Vallcarca,10.86,9.46,ok,,large,428246.23,4585444.67,428236.14,4585440.63,1.5,class
+0207402AR,Brachychiton populneus,False,C\ Baró de la Barre,,5.1,no_kerb,,check,,,,,1.0,floor
+0207404AR,Ligustrum lucidum,False,Av República Argentina,3.22,2.32,ok,,small,428636.82,4584625.42,428634.02,4584623.82,1.0,class
+0207405AR,Ligustrum lucidum,False,C\ Palou,11.59,9.44,ok,,large,428274.73,4585621.84,428277.52,4585633.09,1.5,class
+0207406AR,Cercis siliquastrum,False,C\ Carles Pirozzini,6.86,6.09,ok,,large,427745.36,4585431.52,427752.21,4585431.59,1.5,class
+0207408AR,Platanus × acerifolia,True,Pg Vall d'Hebron,8.09,7.0,ok,,large,428109.85,4585759.81,428117.77,4585758.18,1.5,class
+0207409AR,Ligustrum lucidum,False,C\ Palou,3.7,3.1,ok,,medium,428280.3,4585650.24,428276.86,4585648.86,1.0,class
+0207410AR,Casuarina cunninghamiana,False,C\ Anna Piferrer,15.42,13.21,ok,,large,428197.98,4585464.68,428182.82,4585461.86,1.5,class
+0207411AR,Melia azedarach,False,C\ Gomis,3.76,1.41,ok,,medium,428282.01,4584868.38,428280.37,4584864.99,1.0,class
+0207412AR,Styphnolobium japonicum,False,C\ Cardedeu,5.63,4.82,ok,,medium,428464.97,4585411.68,428470.57,4585412.26,1.0,class
+0207413AR,Celtis australis,False,C\ Otília Castellví,,12.72,median,13.06,check,,,,,1.0,floor
+0207414AR,Platanus × acerifolia,True,Av Vallcarca,,18.35,median,,check,,,,,1.0,floor
+0207415AR,Ligustrum lucidum,False,C\ Trullols,4.65,3.11,ok,,medium,427924.2,4585705.35,427928.39,4585703.33,1.0,class
+0207416AR,Prunus cerasifera 'Pissardii',False,C\ Josep Jover,,11.0,median,,check,,,,,1.0,floor
+0207417AR,Ulmus pumila,False,Av Vallcarca,9.25,8.31,ok,,large,428768.68,4584556.68,428775.45,4584562.99,1.5,class
+0207418AR,Nerium oleander,False,C\ Trullols,6.64,5.61,ok,,large,427937.55,4585760.6,427944.08,4585759.44,1.5,class
+0207419AR,Platanus × acerifolia,True,Av Vallcarca,5.85,4.65,ok,,medium,428279.54,4585304.05,428284.84,4585306.52,1.0,class
+0207420AR,Brachychiton populneus,False,C\ Esteve Terradas,21.6,20.36,ok,,large,428083.79,4585163.02,428104.0,4585170.64,1.5,class
+0207421AR,Brachychiton populneus,False,Pg Vall d'Hebron,,50.2,no_facade,11.78,check,,,,,1.0,floor
+0207422AR,Platanus × acerifolia,True,Av Vallcarca,8.13,7.32,ok,,large,428388.65,4585130.19,428381.11,4585127.15,1.5,class
+0207424AR,Brachychiton populneus,False,Pl Alfonso Comín,,47.06,no_facade,4.0,check,,,,,1.0,floor
+0207425AR,Platanus × acerifolia,True,C\ Collserola,,15.55,median,,check,,,,,1.0,floor
+0207427AR,Ulmus pumila,False,Av Vallcarca,,18.21,median,2.83,check,,,,,1.0,floor
+0207428AR,Ligustrum lucidum,False,Pl Alfonso Comín,15.51,6.01,ok,,large,428000.88,4585126.41,427990.87,4585138.25,1.5,class
+0207429AR,Cercis siliquastrum,False,C\ Carles Pirozzini,,11.94,median,22.53,check,,,,,1.0,floor
+0207430AR,Brachychiton populneus,False,Pg Vall d'Hebron,7.64,6.47,ok,,large,428074.64,4585664.43,428081.81,4585661.78,1.5,class
+0207431AR,Liriodendron tulipifera,False,Av República Argentina,4.01,2.16,ok,,medium,428598.16,4584723.44,428594.91,4584721.1,1.0,class
+0207432AR,Brachychiton populneus,False,Pl Alfonso Comín,,20.35,median,,check,,,,,1.0,floor
+0207433AR,Platanus × acerifolia,True,Av Vallcarca,,20.65,median,23.64,check,,,,,1.0,floor
+0207434AR,Cercis siliquastrum,False,C\ Josep M. Sert,,17.95,median,5.37,check,,,,,1.0,floor
+0207436AR,Citrus × aurantium,False,C\ Cardedeu,10.32,9.58,ok,,large,428530.86,4585288.06,428522.19,4585282.46,1.5,class
+0207437AR,Ligustrum lucidum,False,Av República Argentina,2.88,2.59,ok,,small,428646.29,4584608.96,428643.83,4584607.46,1.0,class
+0207439AR,Platanus × acerifolia,True,Av Vallcarca,11.45,9.45,ok,,large,428265.84,4585333.23,428275.32,4585326.81,1.5,class
+0207440AR,Pyrus calleryana 'Chanticleer',False,C\ Gustavo Bécquer,2.69,1.96,ok,,small,428388.68,4585215.27,428391.1,4585216.44,1.0,class
+0207441AR,Brachychiton populneus,False,C\ Esteve Terradas,,26.21,median,28.58,check,,,,,1.0,floor
+0207442AR,Ligustrum lucidum,False,Av República Argentina,,13.67,median,,check,,,,,1.0,floor
+0207443AR,Brachychiton populneus,False,Ctra Sant Cugat,,16.66,median,3.27,check,,,,,1.0,floor
+0207444AR,Platanus × acerifolia,True,Av República Argentina,5.02,4.29,ok,,medium,428347.07,4584807.96,428346.27,4584803.0,1.0,class
+0207445AR,Brachychiton populneus,False,Pg Vall d'Hebron,,9.67,median,,check,,,,,1.0,floor
+0207446AR,Ligustrum lucidum,False,C\ Palou,,9.57,median,24.43,check,,,,,1.0,floor
+0207447AR,Nerium oleander,False,C\ Trullols,4.72,4.12,ok,,medium,427951.72,4585739.52,427947.05,4585740.23,1.0,class
+0207448AR,Ulmus pumila,False,Av Vallcarca,4.0,2.19,ok,,medium,428621.96,4584732.58,428624.9,4584735.28,1.0,class
+0207449AR,Brachychiton populneus,False,Pl Alfonso Comín,,21.29,median,,check,,,,,1.0,floor
+0207450AR,Platanus × acerifolia,True,Av Vallcarca,5.58,3.32,ok,,medium,428201.7,4585548.01,428206.4,4585551.01,1.0,class
+0207451AR,Platanus × acerifolia,True,Pl Olèrdola,7.61,7.33,ok,,large,428398.01,4585685.72,428403.55,4585680.51,1.5,class
+0207452AR,Platanus × acerifolia,True,Av Vallcarca,,11.05,median,,check,,,,,1.0,floor
+0207453AR,Platanus × acerifolia,True,Av Vallcarca,,23.93,median,,check,,,,,1.0,floor
+0207454AR,Platanus × acerifolia,True,Av Vallcarca,6.8,5.27,ok,,large,428198.81,4585562.58,428204.77,4585565.84,1.5,class
+0207455AR,Ligustrum lucidum,False,C\ Betània,4.76,3.85,ok,,medium,428186.69,4585578.87,428182.21,4585580.49,1.0,class
+0207456AR,Platanus × acerifolia,True,Av Vallcarca,,20.0,median,23.61,check,,,,,1.0,floor
+0207458AR,Brachychiton populneus,False,Pl Alfonso Comín,,15.91,median,4.05,check,,,,,1.0,floor
+0207459AR,Prunus cerasifera 'Pissardii',False,Av República Argentina,4.2,4.55,ok,,medium,428833.53,4584332.42,428829.35,4584332.03,1.0,class
+0207460AR,Robinia pseudoacacia,False,C\ Castellterçol,5.21,3.18,ok,,medium,428500.66,4585400.24,428502.72,4585405.03,1.0,class
+0207461AR,Platanus × acerifolia,True,Av República Argentina,6.88,6.75,ok,,large,427983.24,4585059.34,427978.19,4585054.66,1.5,class
+0207462AR,Brachychiton populneus,False,C\ General Mendoza,6.02,4.85,ok,,large,428216.9,4585862.9,428210.95,4585863.77,1.5,class
+0207463AR,Prunus cerasifera 'Pissardii',False,C\ Gomis,2.49,0.96,ok,,none,428252.21,4584870.16,428253.28,4584872.42,1.0,floor
+0207464AR,Cercis siliquastrum,False,C\ Josep M. Sert,4.7,3.69,ok,,medium,427729.67,4585486.44,427733.13,4585489.62,1.0,class
+0207465AR,Brachychiton populneus,False,Ctra Sant Cugat,27.26,25.24,ok,,large,427978.92,4585467.04,428001.61,4585482.15,1.5,class
+0207466AR,Prunus cerasifera 'Pissardii',False,C\ Josep Jover,12.0,10.16,ok,,large,428239.0,4585056.21,428227.42,4585059.36,1.5,class
+0207467AR,Celtis australis,False,C\ Otília Castellví,,9.03,median,6.7,check,,,,,1.0,floor
+0207468AR,Brachychiton populneus,False,C\ Esteve Terradas,,27.43,median,7.02,check,,,,,1.0,floor
+0207469AR,Melia azedarach,False,C\ Gomis,4.07,3.2,ok,,medium,428189.39,4584934.68,428186.31,4584932.01,1.0,class
+0207470AR,Brachychiton populneus,False,Pg Vall d'Hebron,,37.56,no_facade,5.06,check,,,,,1.0,floor
+0207471AR,Robinia pseudoacacia,False,C\ Veciana,5.6,3.92,ok,,medium,428435.06,4585741.08,428434.97,4585746.68,1.0,class
+0207472AR,Brachychiton populneus,False,Ctra Sant Cugat,,36.86,no_facade,,check,,,,,1.0,floor
+0207473AR,Casuarina cunninghamiana,False,C\ Anna Piferrer,8.53,7.32,ok,,large,428113.97,4585484.87,428113.18,4585493.36,1.5,class
+0207475AR,Platanus × acerifolia,True,Av Vallcarca,4.19,3.27,ok,,medium,428196.78,4585849.35,428192.72,4585850.36,1.0,class
+0207476AR,Celtis australis,False,C\ Farigola,17.62,16.3,ok,,large,428690.88,4585048.68,428702.34,4585035.3,1.5,class
+0207477AR,Prunus cerasifera 'Pissardii',False,Av República Argentina,3.4,2.35,ok,,small,428845.64,4584319.49,428843.13,4584317.19,1.0,class
+0207478AR,Brachychiton populneus,False,Pg Vall d'Hebron,7.29,6.49,ok,,large,427987.41,4585317.51,427982.19,4585322.6,1.5,class
+0207479AR,Ligustrum lucidum,False,C\ Cesare Cantù,5.43,4.71,ok,,medium,428128.75,4585406.87,428124.79,4585410.61,1.0,class
+0207482AR,Cercis siliquastrum,False,C\ Josep M. Sert,9.21,8.21,ok,,large,427711.9,4585499.31,427718.94,4585505.26,1.5,class
+0207483AR,Prunus cerasifera 'Pissardii',False,Bda Gomis,15.23,9.7,ok,,large,428355.54,4584807.67,428370.36,4584804.14,1.5,class
+0207484AR,Grevillea robusta,False,Av Vallcarca,8.18,7.3,ok,,large,428902.15,4584434.18,428895.85,4584428.97,1.5,class
+0207485AR,Celtis sinensis,False,C\ Gomis,,62.06,no_facade,29.58,check,,,,,1.0,floor
+0207486AR,Brachychiton populneus,False,Pl Alfonso Comín,,20.36,median,,check,,,,,1.0,floor
+0207487AR,Brachychiton populneus,False,Pl Alfonso Comín,23.33,20.1,ok,,large,427829.64,4585258.96,427810.65,4585272.53,1.5,class
+0207488AR,Casuarina cunninghamiana,False,C\ Anna Piferrer,9.72,8.21,ok,,large,428126.81,4585477.07,428125.8,4585486.73,1.5,class
+0207491AR,Platanus × acerifolia,True,C\ Collserola,8.38,7.95,ok,,large,427629.5,4585524.87,427624.84,4585517.9,1.5,class
+0207495AR,Brachychiton populneus,False,C\ Esteve Terradas,28.63,26.66,ok,,large,428045.95,4585197.4,428070.61,4585211.94,1.5,class
+0207497AR,Platanus × acerifolia,True,Pg Vall d'Hebron,,47.08,no_facade,14.1,check,,,,,1.0,floor
+0207498AR,Ligustrum lucidum,False,Pl Alfonso Comín,15.57,8.27,ok,,large,427993.23,4585119.94,427983.18,4585131.83,1.5,class
+0207499AR,Platanus × acerifolia,True,Av Vallcarca,25.65,25.03,ok,,large,428410.06,4584933.37,428388.89,4584918.9,1.5,class
+0207500AR,Platanus × acerifolia,True,Pl Alfonso Comín,,49.42,no_facade,17.7,check,,,,,1.0,floor
+0207501AR,Platanus × acerifolia,True,Av Vallcarca,,23.22,median,4.06,check,,,,,1.0,floor
+0207502AR,Nerium oleander,False,C\ Trullols,4.59,3.54,ok,,medium,427953.79,4585753.02,427949.25,4585753.72,1.0,class
+0207503AR,Koelreuteria paniculata,False,Av Vallcarca,4.04,3.26,ok,,medium,428606.61,4584748.21,428609.5,4584751.02,1.0,class
+0207504AR,Platanus × acerifolia,True,C\ Cardedeu,7.11,5.79,ok,,large,428459.94,4585447.53,428464.87,4585452.65,1.5,class
+0207505AR,Celtis australis,False,Pg Mare de Déu del Coll,,9.84,median,,check,,,,,1.0,floor
+0207507AR,Ligustrum lucidum,False,C\ Palou,5.23,4.66,ok,,medium,428271.74,4585706.75,428268.15,4585702.95,1.0,class
+0207508AR,Platanus × acerifolia,True,Pg Vall d'Hebron,29.87,25.26,ok,,large,428149.2,4585734.24,428133.01,4585709.14,1.5,class
+0207510AR,Ligustrum lucidum,False,C\ Betània,8.04,5.4,ok,,large,428154.74,4585486.77,428146.71,4585487.26,1.5,class
+0207511AR,Platanus × acerifolia,True,Pg Vall d'Hebron,6.61,5.42,ok,,large,428149.2,4585734.24,428142.82,4585735.95,1.5,class
+0207512AR,Platanus × acerifolia,True,C\ Montornès,4.56,4.03,ok,,medium,428349.55,4585556.95,428348.61,4585552.48,1.0,class
+0207513AR,Platanus × acerifolia,True,Av Vallcarca,21.47,17.8,ok,,large,428187.31,4585580.58,428191.76,4585601.59,1.5,class
+0207514AR,Brachychiton populneus,False,Av República Argentina,17.09,9.84,ok,,large,427959.99,4585088.43,427943.2,4585091.61,1.5,class
+0207515AR,Ligustrum lucidum,False,Av República Argentina,3.03,1.84,ok,,small,428722.23,4584480.04,428719.61,4584478.52,1.0,class
+0207516AR,Ligustrum lucidum,False,C\ Palou,6.59,5.59,ok,,large,428256.54,4585711.46,428262.37,4585708.4,1.5,class
+0207517AR,Brachychiton populneus,False,Pg Vall d'Hebron,17.49,16.4,ok,,large,428131.44,4585661.32,428120.13,4585674.65,1.5,class
+0207518AR,Cercis siliquastrum,False,C\ Josep M. Sert,8.11,7.36,ok,,large,427759.97,4585446.67,427766.18,4585451.89,1.5,class
+0207519AR,Celtis sinensis,False,C\ Gomis,,72.24,no_facade,21.65,check,,,,,1.0,floor
+0207520AR,Melia azedarach,False,C\ Gomis,4.08,2.97,ok,,medium,428184.16,4584940.67,428181.08,4584937.98,1.0,class
+0207522AR,Styphnolobium japonicum,False,C\ General Mendoza,6.69,4.75,ok,,large,428425.9,4585772.65,428430.72,4585777.28,1.5,class
+0207523AR,Brachychiton populneus,False,Pl Alfonso Comín,,24.75,median,6.23,check,,,,,1.0,floor
+0207525AR,Cupressus sempervirens,False,Av Vallcarca,4.13,1.53,ok,,medium,428233.45,4585512.78,428233.91,4585508.67,1.0,class
+0207526AR,Robinia pseudoacacia,False,C\ Baró de la Barre,,12.16,median,,check,,,,,1.0,floor
+0207527AR,Brachychiton populneus,False,Pl Alfonso Comín,8.24,8.35,ok,,large,428011.96,4585145.94,428004.4,4585142.65,1.5,class
+0207528AR,Ligustrum lucidum,False,Av República Argentina,3.01,2.7,ok,,small,428649.32,4584604.0,428646.75,4584602.42,1.0,class
+0207529AR,Pyrus calleryana 'Chanticleer',False,C\ Gustavo Bécquer,2.65,2.08,ok,,small,428419.37,4585151.62,428421.77,4585152.74,1.0,class
+0207531AR,Magnolia grandiflora,False,Pg Vall d'Hebron,7.81,6.32,ok,,large,428085.35,4585693.44,428092.67,4585690.74,1.5,class
+0207533AR,Brachychiton populneus,False,C\ Esteve Terradas,21.39,20.26,ok,,large,428034.87,4585194.57,428016.5,4585205.53,1.5,class
+0207534AR,Brachychiton populneus,False,Pl Alfonso Comín,,22.72,median,29.21,check,,,,,1.0,floor
+0207535AR,Ligustrum lucidum,False,Av República Argentina,2.98,1.86,ok,,small,428616.47,4584673.49,428613.65,4584672.51,1.0,class
+0207536AR,Ligustrum lucidum,False,C\ Betània,4.63,4.23,ok,,medium,428154.73,4585541.99,428159.08,4585540.4,1.0,class
+0207537AR,Platanus × acerifolia,True,Pg Vall d'Hebron,9.0,7.74,ok,,large,427989.29,4585319.44,427986.09,4585327.85,1.5,class
+0207538AR,Platanus × acerifolia,True,Av República Argentina,4.92,4.45,ok,,medium,428183.95,4584845.99,428180.35,4584842.64,1.0,class
+0207539AR,Platanus × acerifolia,True,C\ Veciana,,10.74,median,6.06,check,,,,,1.0,floor
+0207540AR,Cercis siliquastrum,False,C\ Apel·les Mestres,10.0,9.0,ok,,large,427702.99,4585580.67,427710.07,4585573.61,1.5,class
+0207542AR,Brachychiton populneus,False,Ctra Sant Cugat,28.25,26.91,ok,,large,427975.47,4585470.54,427995.56,4585490.4,1.5,class
+0207543AR,Brachychiton populneus,False,Pl Alfonso Comín,24.38,21.36,ok,,large,427830.33,4585259.72,427813.93,4585277.76,1.5,class
+0207545AR,Platanus × acerifolia,True,Av Vallcarca,22.11,21.61,ok,,large,428400.74,4584947.01,428382.49,4584934.53,1.5,class
+0207546AR,Platanus × acerifolia,True,Pg Vall d'Hebron,17.65,16.57,ok,,large,428073.7,4585500.87,428057.04,4585495.08,1.5,class
+0207548AR,Platanus × acerifolia,True,Pl Olèrdola,,8.29,no_kerb,,check,,,,,1.0,floor
+0207549AR,Platanus × acerifolia,True,Av Vallcarca,6.99,6.57,ok,,large,428328.54,4585258.55,428322.24,4585255.53,1.5,class
+0207550AR,Platanus × acerifolia,True,Av Vallcarca,,7.84,median,6.09,check,,,,,1.0,floor
+0207551AR,Celtis sinensis,False,C\ Maignon,15.93,14.94,ok,,large,428938.5,4584453.22,428947.91,4584440.36,1.5,class
+0207552AR,Prunus cerasifera 'Pissardii',False,C\ Sant Eudald,2.68,1.78,ok,,small,428785.49,4585207.56,428783.67,4585209.52,1.0,class
+0207553AR,Robinia pseudoacacia,False,C\ Veciana,27.42,10.73,ok,,large,428275.14,4585720.06,428257.08,4585740.69,1.5,class
+0207554AR,Brachychiton populneus,False,Pl Alfonso Comín,,33.11,no_facade,,check,,,,,1.0,floor
+0207555AR,Celtis australis,False,C\ Otília Castellví,,15.71,median,3.98,check,,,,,1.0,floor
+0207556AR,Ligustrum lucidum,False,Av República Argentina,2.96,2.39,ok,,small,428623.57,4584654.09,428620.84,4584652.95,1.0,class
+0207558AR,Brachychiton populneus,False,Pg Vall d'Hebron,10.84,9.81,ok,,large,428086.05,4585553.61,428078.98,4585561.82,1.5,class
+0207559AR,Robinia pseudoacacia,False,C\ Cardedeu,3.89,2.51,ok,,medium,428482.2,4585336.69,428485.18,4585339.2,1.0,class
+0207561AR,Platanus × acerifolia,True,Av Vallcarca,,21.03,median,27.01,check,,,,,1.0,floor
+0207562AR,Cercis siliquastrum,False,C\ Apel·les Mestres,14.95,10.94,ok,,large,427669.64,4585507.26,427655.61,4585502.08,1.5,class
+0207563AR,Platanus × acerifolia,True,Av Vallcarca,,20.77,median,23.63,check,,,,,1.0,floor
+0207564AR,Melia azedarach,False,C\ Navata,7.11,6.68,ok,,large,428000.97,4585772.61,428006.43,4585768.06,1.5,class
+0207567AR,Platanus × acerifolia,True,C\ Montornès,10.21,8.02,ok,,large,428359.83,4585565.22,428369.16,4585569.39,1.5,class
+0207569AR,Brachychiton populneus,False,Pg Mare de Déu del Coll,5.64,5.22,ok,,medium,428593.45,4585201.08,428596.48,4585196.31,1.0,class
+0207570AR,Cercis siliquastrum,False,C\ Josep M. Sert,,12.01,median,2.3,check,,,,,1.0,floor
+0207571AR,Citrus × aurantium,False,C\ Cardedeu,6.74,5.65,ok,,large,428492.33,4585306.04,428497.02,4585310.89,1.5,class
+0207572AR,Brachychiton populneus,False,Pl Alfonso Comín,9.73,8.94,ok,,large,427815.97,4585241.16,427806.24,4585241.39,1.5,class
+0207573AR,Fraxinus angustifolia 'Raywood',False,C\ Castellterçol,6.29,5.69,ok,,large,428548.16,4585351.85,428549.21,4585358.05,1.5,class
+0207575AR,Cercis siliquastrum,False,C\ Josep M. Sert,4.23,3.9,ok,,medium,427676.07,4585568.37,427673.12,4585565.33,1.0,class
+0207576AR,Platanus × acerifolia,True,Av Vallcarca,10.96,9.97,ok,,large,428360.28,4585026.32,428371.23,4585026.7,1.5,class
+0207578AR,Platanus × acerifolia,True,Av Vallcarca,,20.5,median,11.26,check,,,,,1.0,floor
+0207579AR,Platanus × acerifolia,True,C\ Collserola,9.24,8.33,ok,,large,427712.41,4585448.15,427705.52,4585442.0,1.5,class
+0207581AR,Magnolia grandiflora,False,Av Vallcarca,,11.73,no_kerb,,check,,,,,1.0,floor
+0207582AR,Robinia pseudoacacia,False,C\ Cardedeu,2.9,1.96,ok,,small,428473.15,4585381.23,428476.04,4585381.16,1.0,class
+0207583AR,Platanus × acerifolia,True,Av República Argentina,4.94,4.49,ok,,medium,428008.89,4585032.07,428005.29,4585028.68,1.0,class
+0207584AR,Platanus × acerifolia,True,Pg Vall d'Hebron,6.99,5.84,ok,,large,427950.94,4585280.12,427944.21,4585282.02,1.5,class
+0207585AR,Ligustrum lucidum,False,Av República Argentina,3.25,2.74,ok,,small,428693.29,4584529.61,428690.48,4584527.97,1.0,class
+0207586AR,Platanus × acerifolia,True,Av República Argentina,5.09,4.34,ok,,medium,428084.95,4584951.64,428081.26,4584948.13,1.0,class
+0207587AR,Photinia x fraseri 'Red Robin',False,C\ Ticià,5.19,4.7,ok,,medium,427846.27,4585573.88,427842.63,4585570.18,1.0,class
+0207588AR,Cercis siliquastrum,False,C\ Josep M. Sert,,11.57,median,,check,,,,,1.0,floor
+0207591AR,Brachychiton populneus,False,Pl Alfonso Comín,,30.1,no_facade,,check,,,,,1.0,floor
+0207592AR,Platanus × acerifolia,True,Av Vallcarca,7.04,6.46,ok,,large,428332.04,4585251.14,428325.66,4585248.15,1.5,class
+0207594AR,Celtis australis,False,C\ Farigola,2.91,1.58,ok,,small,428729.59,4585089.34,428731.7,4585087.33,1.0,class
+0207596AR,Brachychiton populneus,False,Ctra Sant Cugat,11.68,10.39,ok,,large,427985.6,4585526.5,427993.99,4585518.37,1.5,class
+0207597AR,Ligustrum lucidum,False,Av República Argentina,3.22,2.59,ok,,small,428634.06,4584630.34,428631.24,4584628.79,1.0,class
+0207599AR,Platanus × acerifolia,True,Pg Vall d'Hebron,,28.72,median,4.86,check,,,,,1.0,floor
+0207600AR,Styphnolobium japonicum,False,C\ Cardedeu,8.14,7.57,ok,,large,428518.89,4585302.49,428510.94,4585300.74,1.5,class
+0207602AR,Brachychiton populneus,False,Av Vallcarca,5.69,4.49,ok,,medium,428194.87,4585841.36,428191.37,4585845.85,1.0,class
+0207603AR,Pyrus calleryana 'Chanticleer',False,C\ Gustavo Bécquer,2.72,1.92,ok,,small,428409.72,4585171.66,428412.17,4585172.84,1.0,class
+0207604AR,Koelreuteria paniculata,False,C\ Ticià,,6.8,median,1.99,check,,,,,1.0,floor
+0207606AR,Prunus cerasifera 'Pissardii',False,C\ Josep Jover,,11.31,median,,check,,,,,1.0,floor
+0207607AR,Platanus × acerifolia,True,Av Vallcarca,5.8,4.38,ok,,medium,428259.44,4585346.86,428264.7,4585349.32,1.0,class
+0207608AR,Ligustrum lucidum,False,Av República Argentina,3.01,2.65,ok,,small,428757.85,4584420.78,428755.34,4584419.12,1.0,class
+0207609AR,Platanus × acerifolia,True,Av Vallcarca,7.6,6.51,ok,,large,428385.16,4585138.45,428378.11,4585135.6,1.5,class
+0207610AR,Gleditsia triacanthos f. inermis,False,C\ Josep Jover,,8.11,median,4.68,check,,,,,1.0,floor
+0207611AR,Cercis siliquastrum,False,C\ Apel·les Mestres,,16.77,median,2.0,check,,,,,1.0,floor
+0207612AR,Styphnolobium japonicum,False,C\ Navata,,9.93,median,4.17,check,,,,,1.0,floor
+0207613AR,Celtis australis,False,C\ Otília Castellví,,14.02,median,,check,,,,,1.0,floor
+0207614AR,Tilia tomentosa,False,C\ Josefa Rosich,5.02,3.66,ok,,medium,428013.39,4585311.44,428016.86,4585315.07,1.0,class
+0207615AR,Ligustrum lucidum,False,Pl Alfonso Comín,15.58,5.93,ok,,large,427991.08,4585118.13,427981.03,4585130.04,1.5,class
+0207616AR,Ligustrum lucidum,False,Av República Argentina,3.14,2.72,ok,,small,428686.33,4584541.21,428683.63,4584539.62,1.0,class
+0207617AR,Tilia platyphyllos,False,C\ Dolors Lleonart,,3.71,no_kerb,,check,,,,,1.0,floor
+0207618AR,Cupressus sempervirens,False,C\ Cesare Cantù,4.37,3.88,ok,,medium,428121.44,4585420.63,428124.59,4585417.6,1.0,class
+0207619AR,Brachychiton populneus,False,Pg Vall d'Hebron,16.28,14.64,ok,,large,428019.08,4585358.32,428003.44,4585353.78,1.5,class
+0207620AR,Ulmus pumila,False,Av Vallcarca,,17.65,median,2.83,check,,,,,1.0,floor
+0207621AR,Citrus × aurantium,False,C\ Cardedeu,5.43,3.53,ok,,medium,428487.03,4585657.92,428487.74,4585652.54,1.0,class
+0207622AR,Brachychiton populneus,False,C\ Esteve Terradas,,31.35,no_facade,,check,,,,,1.0,floor
+0207623AR,Ligustrum lucidum,False,C\ Betània,4.64,4.22,ok,,medium,428157.42,4585549.37,428161.78,4585547.78,1.0,class
+0207624AR,Brachychiton populneus,False,Pg Vall d'Hebron,5.93,4.4,ok,,medium,428150.42,4585740.68,428144.49,4585740.57,1.0,class
+0207625AR,Ligustrum lucidum,False,Av República Argentina,3.16,2.53,ok,,small,428706.11,4584507.66,428703.38,4584506.07,1.0,class
+0207626AR,Brachychiton populneus,False,Pl Alfonso Comín,,20.37,median,,check,,,,,1.0,floor
+0207627AR,Platanus × acerifolia,True,Av Vallcarca,3.9,3.32,ok,,medium,428360.74,4585183.41,428357.23,4585181.72,1.0,class
+0207628AR,Brachychiton populneus,False,C\ Esteve Terradas,17.51,16.12,ok,,large,428041.6,4585199.44,428032.6,4585214.46,1.5,class
+0207629AR,Pyrus calleryana 'Chanticleer',False,C\ Gustavo Bécquer,2.83,1.86,ok,,small,428380.4,4585232.01,428382.96,4585233.23,1.0,class
+0207630AR,Citrus × aurantium,False,C\ Ticià,2.11,2.15,ok,,none,428070.5,4585350.55,428069.03,4585349.03,1.0,floor
+0207631AR,Nerium oleander,False,C\ Trullols,4.64,4.03,ok,,medium,427952.76,4585746.34,427948.17,4585747.04,1.0,class
+0207632AR,Robinia pseudoacacia,False,C\ Cardedeu,4.82,4.14,ok,,medium,428457.94,4585523.76,428462.75,4585523.67,1.0,class
+0207633AR,Prunus cerasifera 'Pissardii',False,C\ Gomis,2.7,1.5,ok,,small,428178.92,4584928.75,428180.96,4584930.52,1.0,class
+0207634AR,Styphnolobium japonicum,False,C\ General Mendoza,6.66,5.1,ok,,large,428421.7,4585777.02,428426.51,4585781.63,1.5,class
+0207635AR,Prunus cerasifera 'Pissardii',False,C\ Josep Jover,10.41,8.19,ok,,large,428338.28,4585130.85,428331.93,4585139.09,1.5,class
+0207636AR,Platanus × acerifolia,True,C\ Collserola,9.95,9.17,ok,,large,427703.38,4585458.28,427693.94,4585455.13,1.5,class
+0207640AR,Melia azedarach,False,C\ Gomis,,8.58,median,,check,,,,,1.0,floor
+0207641AR,Pyrus calleryana 'Chanticleer',False,C\ Gomis,2.45,1.24,ok,,none,428104.83,4585013.29,428106.67,4585014.91,1.0,floor
+0207642AR,Pinus halepensis,False,C\ Morell,,7.01,no_kerb,,check,,,,,1.0,floor
+0207644AR,Celtis sinensis,False,C\ Gomis,,71.91,no_facade,6.08,check,,,,,1.0,floor
+0207645AR,Ligustrum lucidum,False,Av República Argentina,3.06,2.74,ok,,small,428737.37,4584454.38,428734.73,4584452.84,1.0,class
+0207646AR,Brachychiton populneus,False,Pl Alfonso Comín,10.83,10.43,ok,,large,428011.96,4585145.94,428001.62,4585149.17,1.5,class
+0207647AR,Brachychiton populneus,False,Pl Alfonso Comín,23.82,23.43,ok,,large,428020.53,4585164.13,427998.98,4585174.27,1.5,class
+0207648AR,Crataegus x media 'Paul's Scarlet',False,C\ Anna Piferrer,5.81,4.8,ok,,medium,428115.65,4585504.76,428113.07,4585499.56,1.0,class
+0207649AR,Brachychiton populneus,False,Av Vallcarca,9.43,8.01,ok,,large,428361.93,4584898.84,428363.35,4584908.16,1.5,class
+0207651AR,Nerium oleander,False,C\ Trullols,3.16,2.4,ok,,small,427949.06,4585732.54,427945.95,4585733.08,1.0,class
+0207652AR,Pyrus calleryana 'Chanticleer',False,C\ Gustavo Bécquer,2.58,1.0,ok,,small,428373.56,4585246.23,428375.88,4585247.37,1.0,class
+0207653AR,Melia azedarach,False,C\ Gomis,4.09,2.4,ok,,medium,428063.91,4585077.52,428060.82,4585074.84,1.0,class
+0207655AR,Celtis australis,False,C\ Baró de la Barre,24.47,8.85,ok,,large,428503.85,4585120.58,428509.79,4585096.84,1.5,class
+0207656AR,Platanus × acerifolia,True,C\ Collserola,12.03,11.44,ok,,large,427693.39,4585473.52,427684.47,4585465.45,1.5,class
+0207657AR,Brachychiton populneus,False,C\ Esteve Terradas,7.39,5.07,ok,,large,428174.53,4585015.3,428179.58,4585020.69,1.5,class
+0207658AR,Prunus cerasifera 'Pissardii',False,C\ Josep Jover,15.62,12.13,ok,,large,428346.69,4585137.33,428350.95,4585152.36,1.5,class
+0207659AR,Platanus × acerifolia,True,Pg Vall d'Hebron,,37.06,no_facade,6.39,check,,,,,1.0,floor
+0207660AR,Liriodendron tulipifera,False,C\ Collserola,,17.34,median,7.21,check,,,,,1.0,floor
+0207661AR,Platanus × acerifolia,True,Av Vallcarca,7.12,6.65,ok,,large,428255.85,4585413.17,428250.1,4585408.96,1.5,class
+0207662AR,Styphnolobium japonicum,False,Av Vallcarca,,18.34,no_kerb,,check,,,,,1.0,floor
+0207668AR,Celtis australis,False,Pg Mare de Déu del Coll,,11.27,median,5.02,check,,,,,1.0,floor
+0207669AR,Cercis siliquastrum,False,C\ Josep M. Sert,8.46,7.8,ok,,large,427719.52,4585493.2,427727.55,4585495.86,1.5,class
+0207670AR,Brachychiton populneus,False,Pg Vall d'Hebron,22.36,20.51,ok,,large,428073.7,4585500.87,428055.09,4585488.48,1.5,class
+0207673AR,Celtis australis,False,Pg Mare de Déu del Coll,6.68,5.61,ok,,large,428514.4,4585052.3,428519.92,4585056.07,1.5,class
+0207674AR,Brachychiton populneus,False,Pl Alfonso Comín,,26.4,median,,check,,,,,1.0,floor
+0207675AR,Brachychiton populneus,False,C\ Esteve Terradas,,22.34,median,,check,,,,,1.0,floor
+0207676AR,Liriodendron tulipifera,False,Av República Argentina,27.98,21.23,ok,,large,428550.44,4584777.99,428522.56,4584780.34,1.5,class
+0207678AR,Brachychiton populneus,False,Pg Vall d'Hebron,,25.26,median,6.63,check,,,,,1.0,floor
+0207679AR,Platanus × acerifolia,True,Av Vallcarca,7.83,7.26,ok,,large,428343.07,4585229.26,428336.04,4585225.82,1.5,class
+0207680AR,Tilia tomentosa,False,C\ Josefa Rosich,4.98,3.68,ok,,medium,428074.33,4585253.2,428077.77,4585256.8,1.0,class
+0207681AR,Brachychiton populneus,False,Pg Vall d'Hebron,,41.83,no_facade,8.56,check,,,,,1.0,floor
+0207682AR,Styphnolobium japonicum,False,C\ Cardedeu,7.59,6.69,ok,,large,428497.98,4585349.88,428491.25,4585346.38,1.5,class
+0207683AR,Brachychiton populneus,False,Av República Argentina,6.86,6.66,ok,,large,427971.88,4585071.43,427966.9,4585066.71,1.5,class
+0207684AR,Gleditsia triacanthos f. inermis,False,C\ Josep Jover,,8.44,median,4.72,check,,,,,1.0,floor
+0207686AR,Prunus cerasifera 'Pissardii',False,C\ Gomis,2.4,1.02,ok,,none,428070.7,4585052.18,428072.51,4585053.76,1.0,floor
+0207688AR,Prunus cerasifera 'Pissardii',False,C\ Gomis,2.72,1.74,ok,,small,428041.34,4585085.28,428043.37,4585087.09,1.0,class
+0207689AR,Tilia tomentosa,False,C\ Josefa Rosich,5.02,3.53,ok,,medium,428061.57,4585265.39,428065.04,4585269.02,1.0,class
+0207690AR,Melia azedarach,False,C\ Gomis,4.13,3.46,ok,,medium,428026.08,4585120.77,428022.97,4585118.07,1.0,class
+0207691AR,Pyrus calleryana 'Chanticleer',False,C\ Gustavo Bécquer,9.72,8.28,ok,,large,428359.22,4585279.47,428364.76,4585271.49,1.5,class
+0207692AR,Brachychiton populneus,False,C\ Esteve Terradas,10.77,9.46,ok,,large,428347.41,4584904.05,428351.79,4584913.89,1.5,class
+0207693AR,Platanus × acerifolia,True,Av Vallcarca,,18.91,median,,check,,,,,1.0,floor
+0207694AR,Brachychiton populneus,False,Pg Vall d'Hebron,22.91,22.16,ok,,large,427859.78,4585349.11,427878.66,4585336.12,1.5,class
+0207695AR,Cupressus sempervirens,False,C\ Cesare Cantù,,4.04,no_kerb,,check,,,,,1.0,floor
+0207696AR,Platanus × acerifolia,True,Av Vallcarca,7.06,6.39,ok,,large,428199.15,4585795.97,428192.13,4585795.21,1.5,class
+0207698AR,Styphnolobium japonicum,False,C\ General Mendoza,14.01,11.82,ok,,large,428428.13,4585766.5,428441.07,4585761.14,1.5,class
+0207699AR,Pyrus calleryana 'Chanticleer',False,C\ Gustavo Bécquer,,8.42,median,8.41,check,,,,,1.0,floor
+0207700AR,Citrus × aurantium,False,C\ Castellterçol,,18.4,median,6.11,check,,,,,1.0,floor
+0207701AR,Ligustrum lucidum,False,Av República Argentina,3.04,2.54,ok,,small,428664.32,4584578.49,428661.7,4584576.94,1.0,class
+0207702AR,Styphnolobium japonicum,False,Pl Lesseps,,8.88,no_kerb,,check,,,,,1.0,floor
+0207703AR,Brachychiton populneus,False,C\ Esteve Terradas,20.1,16.47,ok,,large,428158.29,4585030.54,428157.94,4585050.63,1.5,class
+0207704AR,Platanus × acerifolia,True,C\ Ticià,2.19,1.83,ok,,none,428084.86,4585336.64,428083.34,4585335.07,1.0,floor
+0207707AR,Tilia tomentosa,False,C\ Josefa Rosich,5.05,3.53,ok,,medium,428055.1,4585271.57,428058.59,4585275.22,1.0,class
+0207708AR,Ligustrum lucidum,False,Av República Argentina,3.05,2.48,ok,,small,428667.41,4584573.27,428664.78,4584571.72,1.0,class
+0207710AR,Brachychiton populneus,False,Pl Alfonso Comín,,28.89,median,,check,,,,,1.0,floor
+0207711AR,Robinia pseudoacacia,False,C\ Palou,10.92,7.8,ok,,large,428366.23,4585648.83,428372.91,4585657.47,1.5,class
+0207712AR,Citrus × aurantium,False,C\ Cardedeu,6.69,5.9,ok,,large,428463.5,4585583.32,428469.67,4585585.9,1.5,class
+0207713AR,Brachychiton populneus,False,Pl Alfonso Comín,,30.07,no_facade,,check,,,,,1.0,floor
+0207714AR,Platanus × acerifolia,True,Av Vallcarca,4.09,2.79,ok,,medium,428179.41,4585747.34,428182.86,4585749.53,1.0,class
+0207715AR,Brachychiton populneus,False,C\ General Mendoza,16.13,10.34,ok,,large,428220.36,4585864.51,428213.53,4585879.13,1.5,class
+0207716AR,Pinus pinea,False,Pl Alfonso Comín,,42.48,no_facade,,check,,,,,1.0,floor
+0207717AR,Cercis siliquastrum,False,C\ Josep M. Sert,,15.89,median,5.52,check,,,,,1.0,floor
+0207718AR,Brachychiton populneus,False,Ctra Sant Cugat,,18.93,median,3.22,check,,,,,1.0,floor
+0207719AR,Platanus × acerifolia,True,Av Vallcarca,,18.81,median,,check,,,,,1.0,floor
+0207720AR,Platanus × acerifolia,True,Pg Vall d'Hebron,15.43,14.74,ok,,large,428131.44,4585661.32,428117.97,4585668.85,1.5,class
+0207721AR,Platanus × acerifolia,True,C\ Collserola,10.14,9.03,ok,,large,427723.37,4585437.13,427715.75,4585430.44,1.5,class
+0207722AR,Tilia platyphyllos,False,C\ Dolors Lleonart,,4.85,no_kerb,,check,,,,,1.0,floor
+0207723AR,Platanus × acerifolia,True,Pg Vall d'Hebron,,27.04,median,7.22,check,,,,,1.0,floor
+0207724AR,Styphnolobium japonicum,False,C\ Montornès,7.1,5.98,ok,,large,428375.37,4585423.24,428375.0,4585430.33,1.5,class
+0207725AR,Platanus × acerifolia,True,Av Vallcarca,,24.0,median,4.03,check,,,,,1.0,floor
+0207726AR,Robinia pseudoacacia,False,C\ Cardedeu,6.98,6.52,ok,,large,428474.48,4585640.55,428481.44,4585639.96,1.5,class
+0207727AR,Brachychiton populneus,False,Pg Vall d'Hebron,,32.19,no_facade,7.38,check,,,,,1.0,floor
+0207730AR,Robinia pseudoacacia,False,C\ Montornès,19.31,5.29,ok,,large,428472.59,4585381.13,428475.84,4585362.1,1.5,class
+0207731AR,Pyrus calleryana 'Chanticleer',False,C\ Gustavo Bécquer,5.51,4.48,ok,,medium,428496.8,4585014.7,428502.23,4585015.59,1.0,class
+0207732AR,Casuarina cunninghamiana,False,Av República Argentina,,61.23,no_facade,26.97,check,,,,,1.0,floor
+0207733AR,Nerium oleander,False,C\ Trullols,5.35,4.0,ok,,medium,427933.91,4585722.0,427938.28,4585725.1,1.0,class
+0207734AR,Photinia x fraseri 'Red Robin',False,C\ Ticià,5.24,4.57,ok,,medium,427835.88,4585584.09,427832.2,4585580.36,1.0,class
+0207735AR,Ligustrum lucidum,False,C\ Betània,5.98,5.2,ok,,medium,428140.35,4585505.43,428145.99,4585503.44,1.0,class
+0207736AR,Brachychiton populneus,False,C\ General Mendoza,15.97,6.64,ok,,large,428217.0,4585862.94,428210.24,4585877.41,1.5,class
+0207737AR,Casuarina cunninghamiana,False,C\ Anna Piferrer,8.22,6.97,ok,,large,428115.52,4585483.3,428121.38,4585489.06,1.5,class
+0207739AR,Ulmus pumila,False,Av Vallcarca,3.42,2.65,ok,,small,428635.11,4584719.21,428636.28,4584722.42,1.0,class
+0207740AR,Platanus × acerifolia,True,Av Vallcarca,9.9,9.12,ok,,large,428388.54,4584964.76,428378.64,4584965.16,1.5,class
+0207742AR,Ligustrum lucidum,False,Av República Argentina,2.77,2.29,ok,,small,428620.7,4584661.17,428618.12,4584660.15,1.0,class
+0207743AR,Casuarina cunninghamiana,False,C\ Anna Piferrer,16.41,14.61,ok,,large,428173.75,4585479.37,428179.14,4585463.87,1.5,class
+0207745AR,Casuarina cunninghamiana,False,Av República Argentina,,57.34,no_facade,27.8,check,,,,,1.0,floor
+0207747AR,Brachychiton populneus,False,Pg Vall d'Hebron,9.75,8.58,ok,,large,428033.95,4585393.1,428026.94,4585399.88,1.5,class
+0207748AR,Casuarina cunninghamiana,False,C\ Anna Piferrer,5.85,5.07,ok,,medium,428098.64,4585494.39,428101.47,4585499.52,1.0,class
+0207749AR,Platanus × acerifolia,True,Av Vallcarca,,28.73,median,28.29,check,,,,,1.0,floor
+0207750AR,Pinus pinea,False,Pl Alfonso Comín,,40.69,no_facade,,check,,,,,1.0,floor
+0207751AR,Brachychiton populneus,False,C\ Esteve Terradas,10.66,9.56,ok,,large,428341.72,4584906.56,428346.0,4584916.32,1.5,class
+0207752AR,Brachychiton populneus,False,Pg Mare de Déu del Coll,,13.25,median,14.16,check,,,,,1.0,floor
+0207753AR,Platanus × acerifolia,True,Av Vallcarca,,20.13,median,,check,,,,,1.0,floor
+0207754AR,Robinia pseudoacacia,False,C\ Palou,9.25,7.92,ok,,large,428277.28,4585619.25,428283.87,4585625.75,1.5,class
+0207756AR,Platanus × acerifolia,True,Av Vallcarca,7.26,6.26,ok,,large,428339.14,4585236.37,428332.67,4585233.06,1.5,class
+0207757AR,Platanus × acerifolia,True,Av Vallcarca,9.21,8.46,ok,,large,428389.25,4584982.35,428380.04,4584982.72,1.5,class
+0207761AR,Ligustrum lucidum,False,C\ Betània,3.45,2.47,ok,,small,428169.82,4585536.38,428166.58,4585537.55,1.0,class
+0207762AR,Tilia tomentosa,False,C\ Josefa Rosich,5.02,3.74,ok,,medium,428019.87,4585305.25,428023.33,4585308.87,1.0,class
+0207763AR,Prunus cerasifera 'Pissardii',False,Av República Argentina,2.86,2.0,ok,,small,428874.19,4584288.04,428872.08,4584286.11,1.0,class
+0207764AR,Liriodendron tulipifera,False,Av República Argentina,,28.68,no_kerb,,check,,,,,1.0,floor
+0207765AR,Celtis australis,False,C\ Veciana,5.25,3.69,ok,,medium,428419.57,4585741.36,428418.76,4585746.55,1.0,class
+0207766AR,Platanus × acerifolia,True,C\ Veciana,4.89,3.81,ok,,medium,428327.11,4585709.45,428324.9,4585713.81,1.0,class
+0207767AR,Platanus × acerifolia,True,Pg Vall d'Hebron,,39.12,no_facade,12.42,check,,,,,1.0,floor
+0207768AR,Photinia x fraseri 'Red Robin',False,C\ Ticià,2.16,1.18,ok,,none,427880.01,4585536.64,427878.49,4585535.1,1.0,floor
+0207769AR,Platanus × acerifolia,True,Pg Vall d'Hebron,16.7,15.35,ok,,large,428109.85,4585759.81,428122.44,4585770.79,1.5,class
+0207770AR,Casuarina cunninghamiana,False,Av República Argentina,,42.58,no_facade,24.74,check,,,,,1.0,floor
+0207771AR,Citrus × aurantium,False,C\ Cardedeu,6.19,4.67,ok,,large,428501.7,4585291.64,428504.58,4585297.12,1.5,class
+0207772AR,Brachychiton populneus,False,C\ Esteve Terradas,22.45,20.25,ok,,large,428045.95,4585197.4,428058.31,4585216.14,1.5,class
+0207773AR,Magnolia grandiflora,False,Pg Vall d'Hebron,7.68,6.6,ok,,large,428076.81,4585670.29,428084.01,4585667.63,1.5,class
+0207775AR,Prunus cerasifera 'Pissardii',False,Av República Argentina,2.93,2.16,ok,,small,428869.57,4584293.09,428867.41,4584291.12,1.0,class
+0207776AR,Celtis sinensis,False,C\ Maignon,15.98,14.99,ok,,large,428932.67,4584448.95,428942.11,4584436.05,1.5,class
+0207777AR,Platanus × acerifolia,True,Av Vallcarca,6.72,6.71,ok,,large,428208.67,4585706.72,428201.99,4585706.0,1.5,class
+0207778AR,Platanus × acerifolia,True,C\ Collserola,9.22,7.9,ok,,large,427670.98,4585492.65,427662.08,4585490.23,1.5,class
+0207779AR,Celtis australis,False,Av Vallcarca,6.23,2.89,ok,,large,428572.18,4584782.12,428571.79,4584788.33,1.5,class
+0207781AR,Jacaranda mimosifolia,False,Jrdi Arabescos,,79.73,no_facade,14.31,check,,,,,1.0,floor
+0207782AR,Cercis siliquastrum,False,C\ Josep M. Sert,,11.95,median,,check,,,,,1.0,floor
+0207783AR,Platanus × acerifolia,True,Av Vallcarca,9.23,7.89,ok,,large,428195.32,4585576.08,428204.0,4585572.95,1.5,class
+0207785AR,Pyrus calleryana 'Chanticleer',False,C\ Repartidor,2.89,1.39,ok,,small,428778.84,4584907.4,428775.97,4584907.13,1.0,class
+0207786AR,Brachychiton populneus,False,Pl Alfonso Comín,,29.16,median,,check,,,,,1.0,floor
+0207787AR,Casuarina cunninghamiana,False,C\ Anna Piferrer,9.22,7.59,ok,,large,428136.97,4585495.85,428137.19,4585486.63,1.5,class
+0207788AR,Citrus × aurantium,False,C\ Cardedeu,5.42,4.56,ok,,medium,428458.57,4585458.83,428463.95,4585459.48,1.0,class
+0207789AR,Photinia x fraseri 'Red Robin',False,C\ Ticià,10.97,6.26,ok,,large,427880.48,4585536.18,427886.65,4585527.1,1.5,class
+0207790AR,Ulmus pumila,False,Av Vallcarca,9.21,6.02,ok,,large,428742.12,4584599.08,428749.89,4584594.14,1.5,class
+0207791AR,Styphnolobium japonicum,False,C\ Cardedeu,12.23,12.27,ok,,large,428485.07,4585407.77,428477.13,4585417.07,1.5,class
+0207792AR,Ligustrum lucidum,False,Av República Argentina,3.13,2.71,ok,,small,428684.14,4584544.93,428681.44,4584543.34,1.0,class
+0207793AR,Platanus × acerifolia,True,Pl Olèrdola,6.22,6.29,ok,,large,428424.96,4585696.84,428426.08,4585690.72,1.5,class
+0207794AR,Grevillea robusta,False,Av Vallcarca,5.48,4.77,ok,,medium,428763.52,4584604.43,428759.3,4584600.95,1.0,class
+0207795AR,Melia azedarach,False,C\ Gomis,11.04,8.43,ok,,large,428059.14,4585083.01,428049.27,4585087.96,1.5,class
+0207796AR,Platanus × acerifolia,True,Pl Olèrdola,7.01,6.18,ok,,large,428418.35,4585695.63,428419.61,4585688.74,1.5,class
+0207797AR,Platanus × acerifolia,True,Av República Argentina,4.96,4.45,ok,,medium,428034.0,4585005.41,428030.38,4585002.01,1.0,class
+0207798AR,Robinia pseudoacacia,False,C\ Baró de la Barre,,6.47,median,6.84,check,,,,,1.0,floor
+0207799AR,Platanus × acerifolia,True,Av Vallcarca,13.12,12.09,ok,,large,428388.26,4584957.92,428378.98,4584948.66,1.5,class
+0207800AR,Casuarina cunninghamiana,False,C\ Anna Piferrer,3.0,1.81,ok,,small,428076.09,4585509.64,428077.52,4585512.28,1.0,class
+0207801AR,Celtis australis,False,C\ Farigola,3.0,2.14,ok,,small,428726.75,4585086.36,428728.92,4585084.29,1.0,class
+0207802AR,Styphnolobium japonicum,False,C\ Cardedeu,6.47,4.38,ok,,large,428460.64,4585434.51,428467.08,4585435.23,1.5,class
+0207803AR,Koelreuteria paniculata,False,C\ Ticià,,10.21,median,2.2,check,,,,,1.0,floor
+0207804AR,Brachychiton populneus,False,Pg Vall d'Hebron,8.6,5.53,ok,,large,428159.05,4585761.02,428151.03,4585764.11,1.5,class
+0207805AR,Ligustrum lucidum,False,C\ Betània,13.54,12.65,ok,,large,428157.12,4585574.34,428169.84,4585569.69,1.5,class
+0207806AR,Photinia x fraseri 'Red Robin',False,C\ Ticià,2.04,1.14,ok,,none,427828.48,4585576.27,427829.91,4585577.72,1.0,floor
+0207808AR,Brachychiton populneus,False,Pl Alfonso Comín,,48.74,no_facade,,check,,,,,1.0,floor
+0207809AR,Robinia pseudoacacia,False,C\ Cardedeu,7.01,5.11,ok,,large,428549.43,4585225.27,428556.15,4585223.28,1.5,class
+0207810AR,Platanus × acerifolia,True,Av Vallcarca,,9.3,median,7.11,check,,,,,1.0,floor
+0207811AR,Platanus × acerifolia,True,Av Vallcarca,6.94,7.12,ok,,large,428207.06,4585723.85,428200.18,4585723.02,1.5,class
+0207812AR,Brachychiton populneus,False,Pl Alfonso Comín,,20.4,median,,check,,,,,1.0,floor
+0207813AR,Ligustrum lucidum,False,C\ Cesare Cantù,4.4,3.73,ok,,medium,428137.8,4585417.81,428134.62,4585420.84,1.0,class
+0207814AR,Koelreuteria paniculata,False,Av Vallcarca,,18.01,median,2.83,check,,,,,1.0,floor
+0207815AR,Platanus × acerifolia,True,Av Vallcarca,12.38,11.39,ok,,large,428169.13,4585757.34,428181.16,4585760.24,1.5,class
+0207816AR,Ligustrum lucidum,False,Av República Argentina,3.13,1.95,ok,,small,428626.19,4584647.83,428623.3,4584646.63,1.0,class
+0207817AR,Platanus × acerifolia,True,Av Vallcarca,,20.44,median,,check,,,,,1.0,floor
+0207818AR,Melia azedarach,False,Av Vallcarca,19.42,18.68,ok,,large,428955.54,4584368.45,428946.71,4584351.15,1.5,class
+0207819AR,Platanus × acerifolia,True,Av Vallcarca,6.9,6.61,ok,,large,428197.47,4585812.16,428190.62,4585811.36,1.5,class
+0207820AR,Citrus × aurantium,False,C\ Riera de Vallcarca,,3.77,no_kerb,,check,,,,,1.0,floor
+0207821AR,Platanus × acerifolia,True,Av Vallcarca,9.19,9.3,ok,,large,428204.66,4585754.74,428196.33,4585758.61,1.5,class
+0207822AR,Robinia pseudoacacia,False,C\ Cardedeu,5.27,4.57,ok,,medium,428494.34,4585721.43,428498.98,4585723.93,1.0,class
+0207824AR,Platanus × acerifolia,True,Av República Argentina,5.45,4.13,ok,,medium,428268.9,4584820.27,428268.05,4584814.89,1.0,class
+0207825AR,Styphnolobium japonicum,False,C\ Montornès,4.51,4.44,ok,,medium,428345.57,4585472.99,428349.66,4585474.88,1.0,class
+0207826AR,Platanus × acerifolia,True,Pg Vall d'Hebron,7.45,6.77,ok,,large,428098.07,4585727.17,428105.08,4585724.64,1.5,class
+0207827AR,Quercus robur 'Fastigiata',False,C\ Castellterçol,8.26,4.19,ok,,large,428591.88,4585359.3,428597.67,4585365.19,1.5,class
+0207828AR,Quercus robur 'Fastigiata',False,C\ Castellterçol,11.41,9.6,ok,,large,428639.37,4585385.86,428628.18,4585383.67,1.5,class
+0207829AR,Brachychiton populneus,False,Pg Vall d'Hebron,18.45,12.27,ok,,large,427982.32,4585448.6,427998.33,4585457.79,1.5,class
+0207830AR,Platanus × acerifolia,True,C\ Palou,4.46,3.81,ok,,medium,428394.81,4585664.86,428392.52,4585668.69,1.0,class
+0207831AR,Ligustrum lucidum,False,Pl Alfonso Comín,15.54,10.87,ok,,large,427996.63,4585122.81,427986.6,4585134.69,1.5,class
+0207832AR,Brachychiton populneus,False,Av República Argentina,6.9,6.76,ok,,large,427975.86,4585067.24,427970.86,4585062.48,1.5,class
+0207833AR,Gleditsia triacanthos f. inermis,False,C\ Josep Jover,10.47,9.29,ok,,large,428329.16,4585123.83,428322.77,4585132.12,1.5,class
+0207834AR,Casuarina cunninghamiana,False,C\ Anna Piferrer,18.44,16.96,ok,,large,428159.16,4585459.72,428177.56,4585458.5,1.5,class
+0207835AR,Brachychiton populneus,False,C\ Esteve Terradas,25.82,25.09,ok,,large,428028.24,4585180.5,428004.88,4585191.5,1.5,class
+0207836AR,Cercis siliquastrum,False,C\ Josep M. Sert,7.72,6.56,ok,,large,427717.8,4585495.13,427723.56,4585500.26,1.5,class
+0207837AR,Brachychiton populneus,False,Pl Alfonso Comín,7.11,7.07,ok,,large,427949.19,4585265.76,427944.28,4585260.62,1.5,class
+0207838AR,Styphnolobium japonicum,False,C\ Cardedeu,8.81,7.8,ok,,large,428483.5,4585319.77,428490.9,4585324.55,1.5,class
+0207840AR,Prunus cerasifera 'Pissardii',False,C\ Gomis,2.48,1.08,ok,,none,428124.5,4584990.9,428126.36,4584992.53,1.0,floor
+0207842AR,Brachychiton populneus,False,Pl Alfonso Comín,,44.21,no_facade,,check,,,,,1.0,floor
+0207843AR,Platanus × acerifolia,True,Av Vallcarca,13.93,13.63,ok,,large,428255.85,4585413.17,428254.7,4585399.29,1.5,class
+0207844AR,Brachychiton populneus,False,Pg Vall d'Hebron,26.97,26.35,ok,,large,428076.14,4585478.57,428050.12,4585471.48,1.5,class
+0207845AR,Styphnolobium japonicum,False,C\ Montornès,6.7,6.22,ok,,large,428390.62,4585408.9,428396.7,4585411.71,1.5,class
+0207846AR,Melia azedarach,False,C\ Gomis,3.78,1.69,ok,,medium,428297.06,4584861.11,428295.41,4584857.71,1.0,class
+0207847AR,Styphnolobium japonicum,False,C\ Cardedeu,5.6,4.97,ok,,medium,428481.92,4585651.43,428484.77,4585646.61,1.0,class
+0207848AR,Brachychiton populneus,False,Pg Vall d'Hebron,7.72,6.76,ok,,large,428078.96,4585676.11,428086.2,4585673.44,1.5,class
+0207851AR,Platanus × acerifolia,True,Pl Olèrdola,15.22,14.89,ok,,large,428447.26,4585696.72,428440.48,4585683.1,1.5,class
+0207852AR,Cercis siliquastrum,False,C\ Apel·les Mestres,7.8,6.68,ok,,large,427669.64,4585507.26,427662.55,4585510.52,1.5,class
+0207853AR,Styphnolobium japonicum,False,C\ Montornès,12.48,6.51,ok,,large,428429.41,4585387.52,428439.38,4585395.03,1.5,class
+0207854AR,Brachychiton populneus,False,Pg Vall d'Hebron,21.7,17.87,ok,,large,427978.92,4585467.04,427999.64,4585460.59,1.5,class
+0207855AR,Ulmus pumila,False,Av Vallcarca,,17.9,median,2.83,check,,,,,1.0,floor
+0207856AR,Pyrus calleryana 'Chanticleer',False,C\ Gomis,3.88,1.57,ok,,medium,428133.09,4584998.33,428130.2,4584995.73,1.0,class
+0207857AR,Casuarina cunninghamiana,False,Av República Argentina,,29.08,median,25.02,check,,,,,1.0,floor
+0207858AR,Tipuana tipu,False,Jrdi Arabescos,,76.2,no_facade,21.6,check,,,,,1.0,floor
+0207860AR,Brachychiton populneus,False,C\ Esteve Terradas,25.97,25.35,ok,,large,428026.75,4585177.33,428003.25,4585188.39,1.5,class
+0207862AR,Platanus × acerifolia,True,Av República Argentina,4.96,4.72,ok,,medium,428013.44,4585027.24,428009.83,4585023.84,1.0,class
+0207863AR,Cercis siliquastrum,False,C\ Carles Pirozzini,,12.29,median,,check,,,,,1.0,floor
+0207864AR,Grevillea robusta,False,Av Vallcarca,6.1,5.5,ok,,large,428679.98,4584706.27,428674.62,4584703.34,1.5,class
+0207865AR,Robinia pseudoacacia,False,C\ Cardedeu,17.9,15.75,ok,,large,428586.49,4585202.87,428571.37,4585193.28,1.5,class
+0207866AR,Pyrus calleryana 'Chanticleer',False,C\ Gustavo Bécquer,2.73,2.01,ok,,small,428412.56,4585165.78,428415.01,4585166.97,1.0,class
+0207867AR,Jacaranda mimosifolia,False,Jrdi Arabescos,,77.94,no_facade,12.14,check,,,,,1.0,floor
+0207868AR,Platanus × acerifolia,True,Av República Argentina,5.07,4.57,ok,,medium,428120.88,4584913.34,428117.19,4584909.85,1.0,class
+0207869AR,Grevillea robusta,False,Av Vallcarca,5.52,5.58,ok,,medium,428769.23,4584597.52,428764.93,4584594.06,1.0,class
+0207870AR,Melia azedarach,False,C\ Gomis,3.83,2.55,ok,,medium,428157.53,4584970.8,428154.63,4584968.29,1.0,class
+0207871AR,Brachychiton populneus,False,Pl Alfonso Comín,,32.15,no_facade,,check,,,,,1.0,floor
+0207872AR,Pyrus calleryana 'Chanticleer',False,C\ Repartidor,2.95,2.55,ok,,small,428781.1,4584883.89,428778.16,4584883.61,1.0,class
+0207875AR,Platanus × acerifolia,True,Av Vallcarca,3.83,2.71,ok,,medium,428369.79,4585059.21,428373.6,4585058.9,1.0,class
+0207876AR,Platanus × acerifolia,True,C\ Collserola,9.58,8.42,ok,,large,427728.98,4585429.46,427720.36,4585425.3,1.5,class
+0207877AR,Platanus × acerifolia,True,Pg Vall d'Hebron,,27.97,median,15.76,check,,,,,1.0,floor
+0207878AR,Platanus × acerifolia,True,Pg Vall d'Hebron,,33.33,no_facade,1.57,check,,,,,1.0,floor
+0207879AR,Platanus × acerifolia,True,Av Vallcarca,8.09,6.97,ok,,large,428380.8,4585149.63,428374.67,4585144.36,1.5,class
+0207881AR,Platanus × acerifolia,True,Av República Argentina,4.98,3.82,ok,,medium,428354.37,4584806.79,428353.59,4584801.88,1.0,class
+0207882AR,Brachychiton populneus,False,Pl Alfonso Comín,,53.23,no_facade,,check,,,,,1.0,floor
+0207883AR,Platanus × acerifolia,True,Pg Vall d'Hebron,19.67,18.38,ok,,large,428139.22,4585670.17,428121.98,4585679.63,1.5,class
+0207884AR,Brachychiton populneus,False,Pg Vall d'Hebron,6.75,5.68,ok,,large,428106.27,4585623.32,428103.15,4585629.29,1.5,class
+0207885AR,Platanus × acerifolia,True,C\ Collserola,7.97,7.37,ok,,large,427623.01,4585527.93,427619.19,4585520.93,1.5,class
+0207886AR,Brachychiton populneus,False,Pg Vall d'Hebron,,38.3,no_facade,16.77,check,,,,,1.0,floor
+0207887AR,Casuarina cunninghamiana,False,Av República Argentina,,47.96,no_facade,24.86,check,,,,,1.0,floor
+0207888AR,Cercis siliquastrum,False,C\ Carles Pirozzini,,12.97,median,,check,,,,,1.0,floor
+0207889AR,Casuarina cunninghamiana,False,Av República Argentina,,48.7,no_facade,30.57,check,,,,,1.0,floor
+0207890AR,Platanus × acerifolia,True,Av República Argentina,5.0,4.45,ok,,medium,428167.9,4584863.26,428164.24,4584859.86,1.0,class
+0207891AR,Platanus × acerifolia,True,Av Vallcarca,13.28,11.88,ok,,large,428195.83,4585577.5,428202.34,4585589.08,1.5,class
+0207892AR,Brachychiton populneus,False,C\ Esteve Terradas,6.53,4.26,ok,,large,428193.08,4584997.89,428197.55,4585002.65,1.5,class
+0207895AR,Platanus × acerifolia,True,Av Vallcarca,8.17,6.74,ok,,large,428195.83,4585577.5,428203.16,4585581.13,1.5,class
+0207897AR,Platanus × acerifolia,True,Av Vallcarca,14.85,10.77,ok,,large,428181.16,4585735.01,428187.05,4585721.38,1.5,class
+0207898AR,Prunus cerasifera 'Pissardii',False,C\ Josep Jover,,8.83,median,4.76,check,,,,,1.0,floor
+0207899AR,Nerium oleander,False,C\ Trullols,4.45,3.55,ok,,medium,427935.23,4585731.82,427939.53,4585730.67,1.0,class
+0207900AR,Ligustrum lucidum,False,C\ Betània,25.64,13.95,ok,,large,428187.31,4585580.58,428189.06,4585606.16,1.5,class
+0207902AR,Prunus cerasifera 'Pissardii',False,Av República Argentina,3.63,4.17,ok,,medium,428827.08,4584339.81,428824.4,4584337.36,1.0,class
+0207903AR,Platanus × acerifolia,True,Pg Vall d'Hebron,,38.74,no_facade,5.23,check,,,,,1.0,floor
+0207904AR,Celtis australis,False,Pg Mare de Déu del Coll,2.4,2.24,ok,,none,428664.72,4585241.79,428666.03,4585239.77,1.0,floor
+0207905AR,Platanus × acerifolia,True,Av Vallcarca,25.72,24.93,ok,,large,428165.72,4585758.62,428174.74,4585782.71,1.5,class
+0207906AR,Prunus cerasifera 'Pissardii',False,C\ Josep Jover,10.35,8.04,ok,,large,428343.79,4585135.09,428337.47,4585143.29,1.5,class
+0207907AR,Robinia pseudoacacia,False,C\ Castellterçol,,4.07,median,4.91,check,,,,,1.0,floor
+0207908AR,Brachychiton populneus,False,Pg Vall d'Hebron,,40.34,no_facade,4.83,check,,,,,1.0,floor
+0207911AR,Platanus × acerifolia,True,Av Vallcarca,8.74,8.08,ok,,large,428221.03,4585610.88,428212.34,4585609.93,1.5,class
+0207913AR,Robinia pseudoacacia,False,C\ Cardedeu,5.62,4.05,ok,,medium,428456.08,4585508.01,428461.52,4585506.61,1.0,class
+0207914AR,Platanus × acerifolia,True,Av Vallcarca,10.49,7.95,ok,,large,428241.47,4585384.79,428242.85,4585395.19,1.5,class
+0207915AR,Styphnolobium japonicum,False,C\ Cardedeu,6.5,6.16,ok,,large,428486.1,4585402.32,428479.71,4585401.12,1.5,class
+0207917AR,Styphnolobium japonicum,False,C\ General Mendoza,,5.32,median,5.67,check,,,,,1.0,floor
+0207918AR,Cercis siliquastrum,False,C\ Josep M. Sert,10.55,9.46,ok,,large,427687.23,4585565.1,427684.92,4585554.8,1.5,class
+0207919AR,Platanus × acerifolia,True,C\ Montornès,4.59,3.69,ok,,medium,428403.4,4585623.61,428405.55,4585619.55,1.0,class
+0207920AR,Platanus × acerifolia,True,Pg Vall d'Hebron,16.71,16.08,ok,,large,428123.51,4585636.64,428109.2,4585645.26,1.5,class
+0207921AR,Platanus × acerifolia,True,Av Vallcarca,12.01,7.17,ok,,large,428179.41,4585747.34,428181.32,4585759.2,1.5,class
+0207922AR,Melia azedarach,False,C\ Gomis,3.9,2.52,ok,,medium,428109.13,4585025.69,428106.23,4585023.08,1.0,class
+0207923AR,Ulmus pumila,False,Av Vallcarca,2.96,1.52,ok,,small,428720.12,4584625.76,428722.41,4584627.65,1.0,class
+0207924AR,Citrus × aurantium,False,C\ Cardedeu,,4.69,median,4.19,check,,,,,1.0,floor
+0207925AR,Cercis siliquastrum,False,C\ Josep M. Sert,,17.0,median,,check,,,,,1.0,floor
+0207926AR,Tilia platyphyllos,False,C\ Dolors Lleonart,,3.08,no_kerb,,check,,,,,1.0,floor
+0207927AR,Platanus × acerifolia,True,Av Vallcarca,6.64,6.64,ok,,large,428204.6,4585743.79,428198.0,4585743.0,1.5,class
+0207928AR,Pyrus calleryana 'Chanticleer',False,C\ Gustavo Bécquer,5.03,4.63,ok,,medium,428447.0,4585086.51,428451.59,4585088.55,1.0,class
+0207929AR,Ligustrum lucidum,False,C\ Betània,3.33,2.45,ok,,small,428164.63,4585522.05,428161.49,4585523.19,1.0,class
+0207930AR,Pyrus calleryana 'Chanticleer',False,C\ Repartidor,2.93,1.52,ok,,small,428780.42,4584890.97,428777.5,4584890.69,1.0,class
+0207931AR,Platanus × acerifolia,True,Pg Vall d'Hebron,,53.04,no_facade,13.0,check,,,,,1.0,floor
+0207932AR,Brachychiton populneus,False,Pl Alfonso Comín,,27.83,median,6.09,check,,,,,1.0,floor
+0207933AR,Ulmus pumila,False,Av Vallcarca,6.58,5.04,ok,,large,428624.79,4584729.69,428631.09,4584727.81,1.5,class
+0207934AR,Platanus × acerifolia,True,Av Vallcarca,7.7,6.37,ok,,large,428296.75,4585324.77,428289.11,4585325.72,1.5,class
+0207935AR,Platanus × acerifolia,True,C\ Ticià,2.07,2.04,ok,,none,428066.48,4585354.44,428065.03,4585352.95,1.0,floor
+0207936AR,Brachychiton populneus,False,Pg Mare de Déu del Coll,,11.34,median,11.22,check,,,,,1.0,floor
+0207937AR,Platanus × acerifolia,True,Av Vallcarca,,21.96,median,20.96,check,,,,,1.0,floor
+0207938AR,Platanus × acerifolia,True,Av Vallcarca,9.48,8.53,ok,,large,428308.42,4585299.77,428299.6,4585303.22,1.5,class
+0207939AR,Prunus cerasifera 'Pissardii',False,C\ Gomis,2.66,1.52,ok,,small,428036.87,4585090.47,428038.93,4585092.15,1.0,class
+0207940AR,Brachychiton populneus,False,Pg Vall d'Hebron,,29.05,median,,check,,,,,1.0,floor
+0207941AR,Magnolia grandiflora,False,Av Vallcarca,,18.23,no_kerb,,check,,,,,1.0,floor
+0207942AR,Platanus × acerifolia,True,Av Vallcarca,9.19,8.28,ok,,large,428362.76,4585036.18,428371.8,4585034.5,1.5,class
+0207943AR,Celtis australis,False,C\ Otília Castellví,,18.1,median,3.83,check,,,,,1.0,floor
+0207944AR,Brachychiton populneus,False,C\ Esteve Terradas,6.53,3.94,ok,,large,428184.31,4585006.13,428188.78,4585010.89,1.5,class
+0207945AR,Brachychiton populneus,False,Ctra Sant Cugat,,23.68,median,20.37,check,,,,,1.0,floor
+0207946AR,Quercus ilex,False,C\ Josep M. Sert,,6.88,median,,check,,,,,1.0,floor
+0207947AR,Styphnolobium japonicum,False,C\ General Mendoza,7.15,5.27,ok,,large,428401.24,4585798.28,428405.27,4585804.19,1.5,class
+0207948AR,Platanus × acerifolia,True,Av Vallcarca,18.49,17.08,ok,,large,428169.13,4585757.34,428178.84,4585773.08,1.5,class
+0207950AR,Styphnolobium japonicum,False,C\ Cardedeu,7.89,6.92,ok,,large,428571.26,4585224.15,428563.37,4585224.28,1.5,class
+0207952AR,Prunus cerasifera 'Pissardii',False,C\ Gomis,2.56,0.95,ok,,small,428310.68,4584842.0,428311.79,4584844.31,1.0,class
+0207953AR,Brachychiton populneus,False,Pl Alfonso Comín,,57.38,no_facade,4.01,check,,,,,1.0,floor
+0207954AR,Brachychiton populneus,False,Av República Argentina,14.7,13.3,ok,,large,427961.99,4585093.34,427950.14,4585102.05,1.5,class
+0207956AR,Platanus × acerifolia,True,Av República Argentina,5.26,4.28,ok,,medium,428319.7,4584812.33,428318.87,4584807.13,1.0,class
+0207957AR,Pyrus calleryana 'Chanticleer',False,C\ Repartidor,2.74,2.5,ok,,small,428783.56,4584871.38,428781.06,4584870.26,1.0,class
+0207958AR,Styphnolobium japonicum,False,C\ Navata,,7.0,median,,check,,,,,1.0,floor
+0207959AR,Gleditsia triacanthos f. inermis,False,C\ Josep Jover,18.59,15.93,ok,,large,428239.0,4585056.21,428220.54,4585054.02,1.5,class
+0207960AR,Olea europaea,False,Av Vallcarca,,1.36,no_kerb,23.67,check,,,,,1.0,floor
+0207962AR,Tilia platyphyllos,False,C\ Dolors Lleonart,,3.65,no_kerb,,check,,,,,1.0,floor
+0207963AR,Melia azedarach,False,C\ Gomis,3.76,2.35,ok,,medium,428276.02,4584871.27,428274.39,4584867.89,1.0,class
+0207964AR,Platanus × acerifolia,True,Av Vallcarca,13.99,12.55,ok,,large,428359.43,4585011.89,428369.44,4585002.11,1.5,class
+0207965AR,Prunus cerasifera 'Pissardii',False,Av República Argentina,8.19,5.2,ok,,large,428810.16,4584358.65,428802.03,4584357.63,1.5,class
+0207966AR,Brachychiton populneus,False,Pg Vall d'Hebron,,56.36,no_facade,13.46,check,,,,,1.0,floor
+0207967AR,Ligustrum lucidum,False,C\ Betània,3.28,2.46,ok,,small,428162.03,4585514.9,428158.95,4585516.02,1.0,class
+0270830AR,Pinus pinea,False,Pl Olèrdola,17.52,5.42,ok,,large,428427.39,4585670.33,428444.53,4585673.95,1.5,class
+0270851AR,Ligustrum lucidum,False,Pg Turull,,26.46,median,1.98,check,,,,,1.0,floor
+0270879AR,Cupressus sempervirens,False,Bda Briz,,7.21,median,,check,,,,,1.0,floor
+0270888AR,Platanus × acerifolia,True,C\ Gòlgota,,3.58,no_kerb,,check,,,,,1.0,floor
+0270892AR,Cupressus sempervirens,False,Pl Olèrdola,17.49,1.32,ok,,large,428422.41,4585669.74,428409.21,4585658.25,1.5,class
+0270918AR,Fraxinus angustifolia,False,Av Vallcarca,,19.42,no_kerb,,check,,,,,1.0,floor
+0270935AR,Casuarina cunninghamiana,False,Pg Turull,,10.74,median,,check,,,,,1.0,floor
+0270972AR,Jacaranda mimosifolia,False,C\ Gòlgota,,4.62,no_kerb,,check,,,,,1.0,floor
+0270978AR,Ligustrum lucidum,False,Pl Olèrdola,17.77,7.01,ok,,large,428421.0,4585671.36,428403.25,4585670.45,1.5,class
+0271013AR,Fraxinus angustifolia,False,Av Vallcarca,,27.98,median,,check,,,,,1.0,floor
+0271016AR,Firmiana simplex,False,C\ Morell,14.02,6.83,ok,,large,428314.06,4585421.31,428308.69,4585434.26,1.5,class
+0271026AR,Acacia dealbata,False,Bda Briz,,12.26,median,,check,,,,,1.0,floor
+0271028AR,Firmiana simplex,False,C\ Morell,,7.2,no_kerb,15.39,check,,,,,1.0,floor
+0271029AR,Platanus × acerifolia,True,C\ Gòlgota,,8.99,no_kerb,,check,,,,,1.0,floor
+0271044AR,Pinus pinea,False,Pl Olèrdola,17.85,7.21,ok,,large,428424.13,4585674.08,428435.37,4585687.94,1.5,class
+0271072AR,Olea europaea,False,Bda Briz,,7.63,median,,check,,,,,1.0,floor
+0271096AR,Cedrus libani,False,Pl Olèrdola,16.03,3.98,ok,,large,428423.72,4585673.73,428413.2,4585685.82,1.5,class
+0271098AR,Fraxinus angustifolia,False,Av Vallcarca,,25.47,no_kerb,,check,,,,,1.0,floor
+0271106AR,Jacaranda mimosifolia,False,Av Vallcarca,,71.88,no_facade,7.41,check,,,,,1.0,floor
+0271139AR,Cupressus sempervirens,False,Pg Turull,,5.58,no_kerb,24.81,check,,,,,1.0,floor
+0271191AR,Ligustrum lucidum,False,Pl Olèrdola,17.79,1.3,ok,,large,428424.26,4585667.61,428421.83,4585649.98,1.5,class
+0271195AR,Ligustrum lucidum,False,C\ Morell,22.72,6.24,ok,,large,428320.04,4585424.73,428308.88,4585444.52,1.5,class
+0271199AR,Quercus ilex,False,C\ Vallpar,,20.12,median,33.25,check,,,,,1.0,floor
+0271256AR,Ligustrum lucidum,False,Pl Olèrdola,17.3,9.05,ok,,large,428427.39,4585670.33,428444.55,4585668.11,1.5,class
+0271260AR,Prunus domestica,False,Pg Turull,29.7,27.23,ok,,large,428852.05,4585091.44,428832.66,4585113.93,1.5,class
+0271263AR,Ligustrum lucidum,False,Pl Olèrdola,18.17,0.24,ok,,large,428425.0,4585673.07,428438.71,4585685.0,1.5,class
+0271286AR,Platanus × acerifolia,True,C\ Gòlgota,,12.52,no_kerb,,check,,,,,1.0,floor
+0271305AR,Jacaranda mimosifolia,False,C\ Gòlgota,,4.71,no_kerb,,check,,,,,1.0,floor
+0271330AR,Jacaranda mimosifolia,False,C\ Gòlgota,,3.55,no_kerb,,check,,,,,1.0,floor
+0271337AR,Fraxinus angustifolia,False,Av Vallcarca,,26.83,median,,check,,,,,1.0,floor
+0271347AR,Styphnolobium japonicum,False,Pg Turull,,10.41,no_kerb,29.07,check,,,,,1.0,floor
+0271360AR,Ligustrum lucidum,False,Pl Olèrdola,17.02,6.24,ok,,large,428424.13,4585674.08,428427.93,4585690.67,1.5,class
+0271421AR,Styphnolobium japonicum,False,Pg Turull,,10.47,no_kerb,26.56,check,,,,,1.0,floor
+0271424AR,Jacaranda mimosifolia,False,C\ Gòlgota,,3.73,no_kerb,,check,,,,,1.0,floor
+0271435AR,Cedrus libani,False,Pl Olèrdola,15.45,6.29,ok,,large,428424.13,4585674.08,428420.5,4585689.1,1.5,class
+0271449AR,Pinus pinea,False,Pl Olèrdola,18.25,8.48,ok,,large,428425.99,4585671.94,428439.76,4585683.91,1.5,class
+0271459AR,Jacaranda mimosifolia,False,C\ Gòlgota,,3.8,no_kerb,,check,,,,,1.0,floor
+0271476AR,Prunus domestica,False,Pg Turull,,30.29,no_facade,,check,,,,,1.0,floor
+0271496AR,Fraxinus angustifolia,False,Av Vallcarca,,26.43,median,,check,,,,,1.0,floor
+0271538AR,Brachychiton populneus,False,C\ Esteve Terradas,,15.09,median,,check,,,,,1.0,floor
+0271552AR,Ligustrum lucidum,False,Pg Turull,,32.94,no_facade,24.99,check,,,,,1.0,floor
+0271559AR,Ligustrum lucidum,False,Pg Turull,,34.18,no_facade,,check,,,,,1.0,floor
+0271564AR,Styphnolobium japonicum,False,Pg Turull,,6.46,no_kerb,30.48,check,,,,,1.0,floor
+0271577AR,Platanus × acerifolia,True,C\ Gòlgota,,12.13,no_kerb,,check,,,,,1.0,floor
+0271627AR,Ligustrum lucidum,False,Bda Briz,,5.46,no_kerb,,check,,,,,1.0,floor
+0271643AR,Firmiana simplex,False,C\ Morell,,6.21,no_kerb,16.14,check,,,,,1.0,floor
+0286680AR,Ligustrum lucidum,False,Av República Argentina,9.7,7.62,ok,,large,428761.81,4584414.79,428764.61,4584405.5,1.5,class
+0286681AR,Ligustrum lucidum,False,Av República Argentina,14.27,12.98,ok,,large,428761.81,4584414.79,428767.48,4584401.7,1.5,class
+0286689AR,Ligustrum lucidum,False,C\ Betània,13.48,13.06,ok,,large,428162.56,4585589.26,428175.23,4585584.64,1.5,class
+0288860AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Esteve Terradas,,29.5,median,,check,,,,,1.0,floor
+0288861AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Esteve Terradas,,11.37,median,15.31,check,,,,,1.0,floor
+0288862AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Josefa Rosich,,21.26,median,27.01,check,,,,,1.0,floor
+0288864AR,Platanus × acerifolia,True,Pl Alfonso Comín,15.0,14.43,ok,,large,427958.73,4585256.64,427959.97,4585241.7,1.5,class
+0288865AR,Brachychiton populneus,False,C\ Esteve Terradas,28.1,27.93,ok,,large,428002.29,4585246.68,427982.85,4585226.4,1.5,class
+0288866AR,Brachychiton populneus,False,C\ Esteve Terradas,25.15,24.68,ok,,large,428005.52,4585243.59,427988.11,4585225.43,1.5,class
+0288867AR,Brachychiton populneus,False,C\ Esteve Terradas,21.96,21.7,ok,,large,428005.85,4585243.27,427993.35,4585225.22,1.5,class
+0288868AR,Brachychiton populneus,False,C\ Esteve Terradas,19.03,18.47,ok,,large,428005.85,4585243.27,427998.83,4585225.58,1.5,class
+0288869AR,Celtis australis,False,C\ Otília Castellví,,13.8,median,4.23,check,,,,,1.0,floor
+0288870AR,Celtis australis,False,C\ Otília Castellví,15.66,12.05,ok,,large,428078.32,4585301.53,428087.59,4585314.16,1.5,class
+0288871AR,Celtis australis,False,C\ Otília Castellví,10.21,6.14,ok,,large,428078.32,4585301.53,428082.2,4585310.97,1.5,class
+0289647AR,Brachychiton populneus,False,Pg Vall d'Hebron,21.46,19.89,ok,,large,428159.08,4585761.11,428158.99,4585782.57,1.5,class
+0289831AR,Platanus × acerifolia,True,Av Vallcarca,,23.35,median,27.0,check,,,,,1.0,floor
+0289832AR,Celtis australis,False,Av Vallcarca,25.71,6.56,ok,,large,428875.0,4584388.74,428894.57,4584405.42,1.5,class
+0289833AR,Prunus cerasifera 'Pissardii',False,Av Vallcarca,18.51,11.89,ok,,large,428867.05,4584398.07,428881.13,4584410.07,1.5,class
+0290681AR,Tilia platyphyllos,False,C\ Vallpar,2.0,1.65,ok,,none,427803.86,4585638.08,427802.46,4585636.65,1.0,floor
+0290682AR,Robinia pseudoacacia,False,C\ Salvador Alarma,8.01,6.08,ok,,large,427580.16,4585599.27,427588.11,4585598.28,1.5,class
+0290683AR,Platanus × acerifolia,True,Pg Vall d'Hebron,,17.76,median,7.5,check,,,,,1.0,floor
+0291766AR,Magnolia grandiflora,False,Av Vallcarca,,4.36,no_kerb,,check,,,,,1.0,floor
+0291767AR,Magnolia grandiflora,False,Av Vallcarca,8.93,1.23,ok,,large,428216.88,4585688.34,428215.91,4585697.21,1.5,class
+0291768AR,Magnolia grandiflora,False,Av Vallcarca,,2.21,no_kerb,,check,,,,,1.0,floor
+0291769AR,Magnolia grandiflora,False,Av Vallcarca,8.97,1.28,ok,,large,428221.18,4585688.81,428220.2,4585697.73,1.5,class
+0292355AR,Quercus ilex,False,Av Vallcarca,26.72,15.55,ok,,large,428163.55,4585759.44,428172.92,4585784.46,1.5,class
+0298036AR,Platanus × acerifolia,True,C\ Collserola,13.24,10.95,ok,,large,427670.98,4585492.65,427657.92,4585494.84,1.5,class
+0304906AR,Koelreuteria paniculata 'Fastigiata',False,C\ Ticià,4.87,3.97,ok,,medium,427862.22,4585557.85,427858.79,4585554.4,1.0,class
+0304907AR,Photinia x fraseri 'Red Robin',False,C\ Ticià,4.94,4.4,ok,,medium,427856.59,4585563.46,427853.1,4585559.96,1.0,class
+0304911AR,Photinia x fraseri 'Red Robin',False,C\ Ticià,2.15,1.83,ok,,none,427976.12,4585442.52,427974.62,4585440.98,1.0,floor
+0304912AR,Photinia x fraseri 'Red Robin',False,C\ Ticià,2.12,2.0,ok,,none,427971.62,4585446.87,427970.15,4585445.35,1.0,floor
+0304913AR,Koelreuteria paniculata 'Fastigiata',False,C\ Ticià,18.78,5.95,ok,,large,427962.0,4585445.5,427976.77,4585433.91,1.5,class
+0304914AR,Photinia x fraseri 'Red Robin',False,C\ Ticià,6.3,4.92,ok,,large,427968.3,4585433.44,427972.71,4585437.95,1.5,class
+0304915AR,Photinia x fraseri 'Red Robin',False,C\ Ticià,8.8,4.79,ok,,large,427962.89,4585455.4,427955.31,4585459.88,1.5,class
+0304916AR,Photinia x fraseri 'Red Robin',False,C\ Ticià,7.24,6.54,ok,,large,427958.74,4585466.65,427953.65,4585461.5,1.5,class
+0304917AR,Photinia x fraseri 'Red Robin',False,C\ Ticià,9.07,7.83,ok,,large,427957.34,4585468.02,427948.38,4585466.65,1.5,class
+0304918AR,Koelreuteria paniculata 'Fastigiata',False,C\ Ticià,11.94,9.54,ok,,large,427941.58,4585480.67,427945.56,4585469.41,1.5,class
+0304919AR,Koelreuteria paniculata 'Fastigiata',False,C\ Ticià,7.3,3.48,ok,,large,427956.91,4585450.5,427953.37,4585456.88,1.5,class
+0304920AR,Photinia x fraseri 'Red Robin',False,C\ Ticià,18.56,9.86,ok,,large,427956.91,4585450.5,427945.19,4585464.88,1.5,class
+0304921AR,Photinia x fraseri 'Red Robin',False,C\ Ticià,,12.32,median,,check,,,,,1.0,floor
+0304922AR,Photinia x fraseri 'Red Robin',False,C\ Ticià,15.54,9.38,ok,,large,427934.51,4585472.38,427946.98,4585463.12,1.5,class
+0304924AR,Photinia x fraseri 'Red Robin',False,C\ Ticià,2.12,1.13,ok,,none,427916.39,4585500.94,427914.82,4585499.52,1.0,floor
+0304925AR,Koelreuteria paniculata 'Fastigiata',False,C\ Ticià,2.11,1.07,ok,,none,427921.22,4585496.2,427919.74,4585494.7,1.0,floor
+0304926AR,Nerium oleander,False,C\ Ticià,2.1,0.96,ok,,none,427927.26,4585490.27,427925.79,4585488.78,1.0,floor
+0304927AR,Photinia x fraseri 'Red Robin',False,C\ Ticià,5.19,4.36,ok,,medium,427935.06,4585486.95,427931.47,4585483.21,1.0,class
+0304928AR,Photinia x fraseri 'Red Robin',False,C\ Ticià,2.08,0.78,ok,,none,427906.15,4585500.2,427907.59,4585501.7,1.0,floor
+0304929AR,Nerium oleander,False,C\ Ticià,7.29,4.38,ok,,large,427907.82,4585498.58,427914.27,4585495.16,1.5,class
+0304930AR,Photinia x fraseri 'Red Robin',False,C\ Ticià,,6.11,median,,check,,,,,1.0,floor
+0304932AR,Nerium oleander,False,C\ Ticià,,6.61,median,,check,,,,,1.0,floor
+0304934AR,Photinia x fraseri 'Red Robin',False,C\ Ticià,7.23,6.13,ok,,large,427841.35,4585556.64,427845.3,4585562.7,1.5,class
+0304935AR,Photinia x fraseri 'Red Robin',False,C\ Ticià,4.78,2.4,ok,,medium,427837.24,4585567.71,427841.76,4585566.15,1.0,class
+0304936AR,Photinia x fraseri 'Red Robin',False,C\ Ticià,2.05,1.1,ok,,none,427834.27,4585570.61,427835.7,4585572.08,1.0,floor
+0304951AR,Jacaranda mimosifolia,False,C\ Sant Camil,,3.35,median,,check,,,,,1.0,floor
+0304955AR,Platanus × acerifolia,True,Av Vallcarca,6.4,5.85,ok,,large,428355.94,4585199.13,428350.18,4585196.34,1.5,class
+0304956AR,Platanus × acerifolia,True,Av Vallcarca,14.57,13.57,ok,,large,428236.13,4585471.58,428231.91,4585457.64,1.5,class
+0304958AR,Platanus × acerifolia,True,Av Vallcarca,7.32,6.76,ok,,large,428235.61,4585476.08,428228.33,4585475.24,1.5,class
+0304959AR,Platanus × acerifolia,True,Av Vallcarca,,10.17,median,5.61,check,,,,,1.0,floor
+0304960AR,Schinus molle,False,C\ Capellades,,10.61,median,8.94,check,,,,,1.0,floor
+0307294AR,Crataegus x media 'Paul's Scarlet',False,C\ Anna Piferrer,9.28,7.96,ok,,large,428164.24,4585482.45,428161.38,4585473.62,1.5,class
+0310600AR,Tipuana tipu,False,Av Vallcarca,,77.96,no_facade,25.52,check,,,,,1.0,floor
+0310602AR,Tipuana tipu,False,Av Vallcarca,,72.72,no_facade,34.93,check,,,,,1.0,floor
+0310603AR,Jacaranda mimosifolia,False,Av Vallcarca,,71.91,no_facade,37.37,check,,,,,1.0,floor
+0310604AR,Tipuana tipu,False,Av Vallcarca,,65.95,no_facade,,check,,,,,1.0,floor
+0311772AR,Ligustrum lucidum,False,Av República Argentina,3.21,2.15,ok,,small,428699.54,4584518.9,428696.77,4584517.29,1.0,class
+0311852AR,Robinia pseudoacacia,False,C\ Gustavo Bécquer,,7.67,no_kerb,,check,,,,,1.0,floor
+0311957AR,Styphnolobium japonicum,False,C\ Montornès,,3.31,median,2.57,check,,,,,1.0,floor
+0311977AR,Styphnolobium japonicum,False,C\ Cardedeu,6.1,5.02,ok,,large,428457.72,4585465.9,428462.59,4585469.58,1.5,class
+0312043AR,Magnolia grandiflora,False,C\ Esteve Terradas,,18.34,median,15.15,check,,,,,1.0,floor
+0312046AR,Brachychiton populneus,False,Pg Vall d'Hebron,13.51,11.47,ok,,large,427954.13,4585283.37,427958.85,4585296.02,1.5,class
+0312050AR,Nerium oleander,False,C\ Trullols,6.3,7.03,ok,,large,427939.08,4585769.23,427945.29,4585768.13,1.5,class
+0312051AR,Nerium oleander,False,C\ Trullols,6.47,6.38,ok,,large,427938.32,4585764.95,427944.69,4585763.81,1.5,class
+0312053AR,Brachychiton populneus,False,Pg Vall d'Hebron,,41.27,no_facade,1.81,check,,,,,1.0,floor
+0312054AR,Brachychiton populneus,False,Pg Vall d'Hebron,,37.54,no_facade,1.76,check,,,,,1.0,floor
+0312129AR,Ulmus pumila,False,C\ Gòlgota,,0.96,no_kerb,,check,,,,,1.0,floor
+0312179AR,Olea europaea,False,Pg Vall d'Hebron,,37.91,no_facade,12.08,check,,,,,1.0,floor
+0312180AR,Koelreuteria paniculata,False,C\ Gòlgota,,3.32,no_kerb,,check,,,,,1.0,floor
+0312181AR,Koelreuteria paniculata,False,C\ Gòlgota,,4.88,no_kerb,,check,,,,,1.0,floor
+0312184AR,Brachychiton populneus,False,Pg Vall d'Hebron,,37.83,no_facade,5.2,check,,,,,1.0,floor
+0312282AR,Brachychiton populneus,False,Av República Argentina,6.91,7.44,ok,,large,427980.1,4585062.72,427975.04,4585058.02,1.5,class
+0322059AR,Gleditsia triacanthos f. inermis,False,C\ Montornès,9.91,7.21,ok,,large,428362.42,4585542.17,428353.32,4585546.1,1.5,class
+0322060AR,Gleditsia triacanthos f. inermis,False,C\ Montornès,10.07,5.75,ok,,large,428362.42,4585542.17,428355.53,4585549.52,1.5,class
+0322061AR,Styphnolobium japonicum,False,C\ Montornès,,6.63,median,7.89,check,,,,,1.0,floor
+0322062AR,Styphnolobium japonicum,False,C\ Montornès,5.93,4.07,ok,,medium,428377.91,4585565.45,428372.42,4585567.69,1.0,class
+0322063AR,Styphnolobium japonicum,False,C\ Montornès,7.2,6.73,ok,,large,428389.04,4585576.13,428382.09,4585578.0,1.5,class
+0322064AR,Styphnolobium japonicum,False,C\ Montornès,3.08,3.95,ok,,small,428393.36,4585588.38,428390.63,4585589.8,1.0,class
+0322345AR,Crataegus x media 'Paul's Scarlet',False,C\ Anna Piferrer,5.62,4.0,ok,,medium,428103.63,4585510.99,428100.94,4585506.05,1.0,class
+0324138AR,Styphnolobium japonicum,False,C\ Capellades,,9.79,median,9.42,check,,,,,1.0,floor
+0324139AR,Styphnolobium japonicum,False,C\ Capellades,,5.84,median,5.09,check,,,,,1.0,floor
+0324140AR,Styphnolobium japonicum,False,C\ Capellades,,6.72,median,5.16,check,,,,,1.0,floor
+0324141AR,Styphnolobium japonicum,False,C\ Capellades,,8.77,median,5.27,check,,,,,1.0,floor
+0324142AR,Styphnolobium japonicum,False,C\ Capellades,8.13,6.82,ok,,large,428265.76,4585536.31,428271.41,4585542.14,1.5,class
+0324143AR,Styphnolobium japonicum,False,C\ Capellades,1.92,2.47,ok,,none,428279.28,4585536.31,428279.65,4585538.19,1.0,floor
+0324144AR,Styphnolobium japonicum,False,C\ Capellades,7.35,6.04,ok,,large,428285.71,4585535.06,428292.66,4585537.45,1.5,class
+0324145AR,Styphnolobium japonicum,False,C\ Capellades,,5.69,median,5.21,check,,,,,1.0,floor
+0324146AR,Styphnolobium japonicum,False,C\ Capellades,7.27,5.95,ok,,large,428315.36,4585531.9,428317.25,4585538.92,1.5,class
+0324147AR,Styphnolobium japonicum,False,C\ Capellades,4.39,4.99,ok,,medium,428331.05,4585535.52,428329.9,4585539.76,1.0,class
+0324148AR,Styphnolobium japonicum,False,C\ Capellades,6.21,4.93,ok,,large,428341.36,4585537.86,428341.07,4585544.07,1.5,class
+0324149AR,Styphnolobium japonicum,False,C\ Montornès,4.13,2.96,ok,,medium,428350.64,4585460.32,428354.41,4585462.02,1.0,class
+0324150AR,Styphnolobium japonicum,False,C\ Montornès,7.86,7.27,ok,,large,428352.8,4585455.54,428359.59,4585451.58,1.5,class
+0324151AR,Styphnolobium japonicum,False,C\ Montornès,13.14,14.02,ok,,large,428454.54,4585364.78,428467.65,4585365.66,1.5,class
+0324152AR,Styphnolobium japonicum,False,C\ Montornès,,8.95,median,,check,,,,,1.0,floor
+0324153AR,Styphnolobium japonicum,False,C\ Montornès,,5.09,median,4.95,check,,,,,1.0,floor
+0324154AR,Styphnolobium japonicum,False,C\ Montornès,1.69,2.57,ok,,none,428421.18,4585630.38,428420.09,4585631.67,1.0,floor
+0324155AR,Styphnolobium japonicum,False,Pl Olèrdola,,7.22,median,,check,,,,,1.0,floor
+0329165AR,Firmiana simplex,False,C\ Morell,13.89,6.99,ok,,large,428297.35,4585430.15,428298.62,4585416.31,1.5,class
+0329671AR,Phytolacca dioica,False,Av Vallcarca,29.52,13.78,ok,,large,428896.41,4584361.68,428919.26,4584380.37,1.5,class
+0329889AR,Aesculus hippocastanum,False,C\ Esteve Terradas,,35.31,no_facade,24.94,check,,,,,1.0,floor
+0329906AR,Phytolacca dioica,False,C\ Esteve Terradas,,14.12,median,18.1,check,,,,,1.0,floor
+0332563AR,Styphnolobium japonicum 'Columnare',False,Av Vallcarca,,27.9,no_kerb,,check,,,,,1.0,floor
+0335221AR,Casuarina cunninghamiana,False,C\ Anna Piferrer,12.49,10.65,ok,,large,428136.4,4585467.43,428145.32,4585476.17,1.5,class
+0335944AR,Styphnolobium japonicum,False,C\ Cardedeu,2.72,2.13,ok,,small,428498.61,4585331.79,428495.9,4585331.55,1.0,class
+0335947AR,Liriodendron tulipifera,False,Pl Mons,29.45,15.53,ok,,large,428492.74,4584994.11,428518.67,4585008.05,1.5,class
+0335948AR,Liriodendron tulipifera,False,Pl Mons,24.32,10.05,ok,,large,428492.74,4584994.11,428516.87,4584997.09,1.5,class
+0335951AR,Liriodendron tulipifera,False,C\ Mare de Déu dels Reis,5.04,4.84,ok,,medium,428540.87,4584993.13,428540.82,4584998.17,1.0,class
+0335953AR,Liriodendron tulipifera,False,Pl Mons,11.65,9.33,ok,,large,428534.32,4584991.49,428522.69,4584992.28,1.5,class
+0336119AR,Ulmus pumila,False,C\ Gomis,,15.27,median,7.09,check,,,,,1.0,floor
+0336148AR,Robinia pseudoacacia,False,Jard Manuel Blancafort,,14.13,no_kerb,34.56,check,,,,,1.0,floor
+0336156AR,Acer platanoides 'Crimson King',False,Pl Alfonso Comín,,62.27,no_facade,,check,,,,,1.0,floor
+0343450AR,Pyrus calleryana 'Chanticleer',False,Bda Glòria,2.48,1.38,ok,,none,428860.15,4584735.98,428861.55,4584733.94,1.0,floor
+0343453AR,Pyrus calleryana 'Chanticleer',False,Bda Glòria,4.62,2.91,ok,,medium,428853.07,4584731.09,428851.09,4584726.92,1.0,class
+0343456AR,Pyrus calleryana 'Chanticleer',False,Bda Glòria,5.2,4.37,ok,,medium,428838.61,4584724.79,428841.84,4584720.72,1.0,class
+0343457AR,Pyrus calleryana 'Chanticleer',False,Bda Glòria,5.14,4.34,ok,,medium,428831.57,4584719.99,428834.75,4584715.97,1.0,class
+0343459AR,Pyrus calleryana 'Chanticleer',False,Bda Glòria,2.74,1.99,ok,,small,428824.36,4584712.28,428825.89,4584710.0,1.0,class
+0343462AR,Pyrus calleryana 'Chanticleer',False,Bda Glòria,2.75,1.95,ok,,small,428819.7,4584709.16,428821.23,4584706.87,1.0,class
+0343463AR,Pyrus calleryana 'Chanticleer',False,Bda Glòria,2.76,1.97,ok,,small,428814.74,4584705.84,428816.28,4584703.55,1.0,class
+0343464AR,Pyrus calleryana 'Chanticleer',False,Bda Glòria,2.77,1.82,ok,,small,428806.58,4584700.38,428808.11,4584698.08,1.0,class
+0343467AR,Pyrus calleryana 'Chanticleer',False,Bda Glòria,2.8,2.13,ok,,small,428798.08,4584694.69,428799.63,4584692.36,1.0,class
+0343485AR,Pyrus calleryana 'Chanticleer',False,Bda Glòria,2.78,1.99,ok,,small,428883.09,4584751.56,428884.64,4584749.25,1.0,class
+0343487AR,Pyrus calleryana 'Chanticleer',False,Bda Glòria,2.72,1.94,ok,,small,428889.02,4584755.52,428890.54,4584753.26,1.0,class
+0343490AR,Pyrus calleryana 'Chanticleer',False,Bda Glòria,2.68,1.87,ok,,small,428896.38,4584760.44,428897.87,4584758.22,1.0,class
+0343491AR,Pyrus calleryana 'Chanticleer',False,Bda Glòria,2.7,1.89,ok,,small,428899.93,4584762.86,428901.46,4584760.62,1.0,class
+0343496AR,Pyrus calleryana 'Chanticleer',False,Bda Glòria,2.62,1.83,ok,,small,428917.84,4584774.9,428919.32,4584772.75,1.0,class
+0343497AR,Pyrus calleryana 'Chanticleer',False,Bda Glòria,2.61,1.82,ok,,small,428919.97,4584776.33,428921.42,4584774.16,1.0,class
+0343498AR,Pyrus calleryana 'Chanticleer',False,Bda Glòria,2.62,1.83,ok,,small,428922.7,4584778.19,428924.16,4584776.01,1.0,class
+0346021AR,Brachychiton populneus,False,Pl Alfonso Comín,22.94,4.07,ok,,large,427829.25,4585258.39,427809.39,4585269.87,1.5,class
+0347425AR,Ligustrum lucidum,False,Av Vallcarca,8.45,2.23,ok,,large,428207.18,4585722.93,428200.81,4585717.36,1.5,class
+0347426AR,Cedrus atlantica,False,Av Vallcarca,6.72,1.82,ok,,large,428208.79,4585705.57,428202.11,4585704.86,1.5,class
+0347427AR,Cedrus atlantica,False,Av Vallcarca,6.81,1.64,ok,,large,428207.71,4585715.66,428200.93,4585716.27,1.5,class
+0347428AR,Cupressus sempervirens,False,Av Vallcarca,8.98,2.53,ok,,large,428206.12,4585731.7,428198.67,4585736.71,1.5,class
+0347431AR,Cupressus sempervirens,False,Av Vallcarca,8.5,4.3,ok,,large,428218.95,4585629.76,428210.5,4585628.83,1.5,class

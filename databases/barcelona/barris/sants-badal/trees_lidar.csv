@@ -1,0 +1,830 @@
+tree_id,x,y,ground_z,species,is_plane,size_category,street,height_m,crown_area_m2,crown_diam_m,crown_base_m,gap_fraction,lai_proxy,n_points,flag
+0170845AR,427186.83,4580389.66,22.01,Prunus cerasifera 'Pissardii',False,SEGONA,C\ Pavia,11.93,10.0,3.57,4.12,0.294,2.45,274,ok
+0170846AR,426946.41,4581014.85,36.36,Styphnolobium japonicum,False,SEGONA,C\ Portbou,13.68,29.5,6.13,9.84,0.015,7.82,1024,ok
+0170847AR,427115.79,4580649.5,26.54,Nerium oleander (vermell),False,PRIMERA,C\ Sugranyes,,0.0,0.0,,,,0,no_crown_detected
+0170849AR,426844.18,4580877.83,34.94,Platanus × acerifolia,True,SEGONA,C\ Arizala,14.01,43.0,7.4,8.87,0.197,3.25,1841,ok
+0170850AR,426846.8,4580740.38,30.89,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Bassegoda,19.83,16.8,4.62,3.61,0.366,2.01,453,ok
+0170851AR,427073.37,4580348.2,22.97,Styphnolobium japonicum,False,SEGONA,Rier Blanca,9.17,70.8,9.49,5.49,0.367,2.0,2961,ok
+0170852AR,427307.32,4580330.1,19.43,Nerium oleander (vermell),False,PRIMERA,C\ Sugranyes,,0.0,0.0,,,,0,no_crown_detected
+0170854AR,426874.39,4580817.63,33.51,Styphnolobium japonicum,False,SEGONA,C\ Sants,11.02,30.2,6.21,7.09,0.26,2.69,1302,ok
+0170855AR,427002.69,4580959.92,34.5,Bauhinia purpurea,False,SEGONA,C\ Roger,8.91,33.0,6.48,4.52,0.307,2.36,1056,ok
+0170857AR,427176.8,4581048.97,34.89,Bauhinia purpurea,False,SEGONA,C\ Roger,28.28,28.0,5.97,1.84,0.163,3.63,1040,ok
+0170859AR,427213.91,4580803.89,28.56,Platanus × acerifolia,True,EXEMPLAR,C\ Sants,18.1,110.5,11.86,10.0,0.223,3.0,5540,ok
+0170860AR,427116.01,4580441.62,22.98,Styphnolobium japonicum,False,SEGONA,C\ Carreras i Candi,12.58,27.0,5.86,7.74,0.152,3.77,461,ok
+0170861AR,426947.8,4580931.68,34.21,Bauhinia purpurea,False,PRIMERA,C\ Roger,3.69,4.5,2.39,2.73,0.455,1.58,128,ok
+0170862AR,427318.46,4580627.83,24.56,Platanus × acerifolia,True,TERCERA,Rbla Badal,18.87,105.5,11.59,9.11,0.201,3.21,3171,ok
+0170864AR,426956.1,4580446.49,25.63,Styphnolobium japonicum,False,SEGONA,Rier Blanca,10.54,45.8,7.63,5.53,0.227,2.96,695,ok
+0170865AR,427148.4,4580362.06,22.14,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Pavia,4.51,55.0,8.37,3.54,0.364,2.02,2366,ok
+0170866AR,426862.15,4580533.01,27.72,Styphnolobium japonicum,False,SEGONA,Rier Blanca,23.2,56.0,8.44,5.98,0.162,3.64,845,ok
+0170867AR,426955.68,4580935.82,34.29,Bauhinia purpurea,False,PRIMERA,C\ Roger,6.47,18.2,4.82,3.38,0.357,2.06,532,ok
+0170868AR,426935.17,4580935.99,34.44,Bauhinia purpurea,False,SEGONA,C\ Roger,8.71,43.0,7.4,5.33,0.199,3.23,1431,ok
+0170870AR,426931.63,4580923.41,34.19,Bauhinia purpurea,False,SEGONA,C\ Roger,6.67,15.5,4.44,2.76,0.259,2.7,492,ok
+0170871AR,427318.11,4580606.54,24.24,Platanus × acerifolia,True,SEGONA,Rbla Badal,12.38,14.2,4.26,10.19,0.278,2.56,144,ok
+0170872AR,426899.14,4580917.32,34.43,Bauhinia purpurea,False,SEGONA,C\ Roger,7.94,29.0,6.08,4.01,0.261,2.68,1105,ok
+0170874AR,427172.04,4580555.88,25.37,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Sugranyes,,0.0,0.0,,,,0,no_crown_detected
+0170876AR,426777.33,4580694.04,30.08,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Bassegoda,15.01,7.5,3.09,5.7,0.21,3.12,586,ok
+0170877AR,427207.23,4580496.42,23.91,Styphnolobium japonicum,False,SEGONA,C\ Sugranyes,9.18,31.2,6.31,5.39,0.139,3.94,496,ok
+0170878AR,427061.04,4580727.91,28.21,Nerium oleander (vermell),False,PRIMERA,C\ Sugranyes,16.58,0.8,0.98,5.38,0.192,3.3,64,no_crown_detected
+0170879AR,426725.62,4580889.06,36.72,Celtis australis,False,TERCERA,Av Madrid,11.17,63.2,8.97,7.06,0.099,4.62,1720,ok
+0170880AR,427249.9,4580803.11,28.2,Styphnolobium japonicum,False,SEGONA,C\ Sants,25.85,42.2,7.33,6.34,0.19,3.32,1320,ok
+0170882AR,426825.1,4580967.43,36.2,Celtis australis,False,TERCERA,Av Madrid,11.68,81.8,10.2,6.78,0.225,2.98,2304,ok
+0170883AR,427115.35,4580456.14,23.21,Tipuana tipu,False,TERCERA,C\ Carreras i Candi,16.8,57.8,8.57,9.69,0.064,5.49,1043,ok
+0170884AR,427147.46,4580807.14,29.34,Platanus × acerifolia,True,EXEMPLAR,C\ Sants,21.91,111.5,11.91,10.91,0.142,3.91,5325,ok
+0170886AR,427222.23,4580459.84,22.79,Nerium oleander (vermell),False,PRIMERA,C\ Sugranyes,18.85,4.5,2.39,4.33,0.14,3.93,50,ok
+0170888AR,427181.13,4580793.6,28.96,Brachychiton populneus,False,TERCERA,C\ Begur,,0.0,0.0,,,,0,no_crown_detected
+0170889AR,427204.04,4580407.5,22.0,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Pavia,18.93,3.0,1.95,2.94,0.308,2.36,26,few_points
+0170890AR,426747.87,4580648.28,30.1,Styphnolobium japonicum,False,SEGONA,Rier Blanca,7.12,8.5,3.29,6.36,0.419,1.74,226,ok
+0170891AR,427266.04,4580436.34,21.99,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Pavia,18.99,5.5,2.65,2.88,0.244,2.82,78,ok
+0170892AR,427005.67,4580865.61,32.12,Styphnolobium japonicum,False,SEGONA,C\ Portbou,14.15,58.2,8.61,8.49,0.201,3.2,2204,ok
+0170893AR,427075.33,4581155.69,38.2,Celtis australis,False,SEGONA,Av Madrid,8.85,42.8,7.38,5.6,0.222,3.01,1095,ok
+0170895AR,427094.14,4580685.72,27.22,Nerium oleander (vermell),False,PRIMERA,C\ Sugranyes,,0.0,0.0,,,,0,no_crown_detected
+0170896AR,427117.72,4580808.31,29.68,Styphnolobium japonicum,False,SEGONA,C\ Sants,9.46,42.8,7.38,5.55,0.392,1.87,1595,ok
+0170897AR,426875.31,4581007.05,36.51,Celtis australis,False,SEGONA,Av Madrid,11.02,57.2,8.54,6.94,0.169,3.55,1596,ok
+0170899AR,427069.9,4581151.68,38.27,Celtis australis,False,SEGONA,Av Madrid,8.09,50.2,8.0,2.4,0.156,3.72,1414,ok
+0170900AR,426773.22,4580691.02,30.05,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Bassegoda,16.34,10.5,3.66,4.15,0.419,1.74,286,ok
+0170902AR,426855.3,4580865.87,34.49,Styphnolobium japonicum,False,SEGONA,C\ Arizala,8.92,48.8,7.88,5.33,0.241,2.85,1637,ok
+0170903AR,427242.6,4580897.38,29.82,Populus nigra 'Italica',False,SEGONA,Rbla Brasil,13.28,23.8,5.5,6.18,0.236,2.89,1132,ok
+0170904AR,426943.7,4580940.34,34.47,Bauhinia purpurea,False,PRIMERA,C\ Roger,4.76,8.8,3.34,2.47,0.422,1.73,252,ok
+0170905AR,426979.7,4581086.28,37.83,Celtis australis,False,SEGONA,Av Madrid,7.8,34.0,6.58,4.97,0.223,3.01,985,ok
+0170906AR,427288.06,4580456.77,22.16,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Pavia,4.06,1.2,1.26,2.51,0.562,1.15,16,no_crown_detected
+0170907AR,427298.17,4580345.34,19.55,Nerium oleander (vermell),False,PRIMERA,C\ Sugranyes,4.37,3.5,2.11,3.51,0.571,1.12,100,ok
+0170908AR,427176.34,4580383.04,22.09,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Pavia,14.78,6.8,2.93,3.28,0.407,1.8,81,ok
+0170909AR,426998.7,4580968.54,34.69,Bauhinia purpurea,False,PRIMERA,C\ Roger,3.07,0.2,0.56,4.33,0.667,0.81,5,no_crown_detected
+0170910AR,427180.64,4580782.34,28.64,Brachychiton populneus,False,TERCERA,C\ Begur,25.73,28.8,6.05,9.5,0.166,3.59,1038,ok
+0170911AR,427243.28,4580436.92,22.05,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Sugranyes,4.59,5.8,2.71,2.81,0.382,1.92,68,ok
+0170912AR,427231.58,4580444.19,22.34,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Sugranyes,18.49,9.2,3.43,3.52,0.159,3.67,226,ok
+0170913AR,427173.6,4580953.59,32.24,Acer negundo,False,SEGONA,C\ Miquel Àngel,1.66,8.0,3.19,5.49,0.27,2.62,266,low_tree
+0170914AR,426962.83,4580439.78,25.45,Styphnolobium japonicum,False,SEGONA,Rier Blanca,10.43,75.8,9.82,6.26,0.26,2.69,1231,ok
+0170916AR,427089.54,4581004.56,35.59,Bauhinia purpurea,False,PRIMERA,C\ Roger,4.09,9.0,3.39,3.2,0.459,1.56,263,ok
+0170917AR,426973.89,4580930.17,33.81,Platanus × acerifolia,True,SEGONA,C\ Portbou,18.97,45.5,7.61,11.62,0.0,7.82,1681,ok
+0170919AR,426974.26,4580964.47,34.67,Platanus × acerifolia,True,SEGONA,C\ Portbou,22.95,28.5,6.02,12.15,0.01,7.82,1050,ok
+0170920AR,427123.46,4580325.88,22.28,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Pavia,4.42,8.8,3.34,2.96,0.412,1.77,299,ok
+0170921AR,426596.92,4580827.52,36.86,Platanus × acerifolia,True,SEGONA,C\ Sants,15.92,55.2,8.39,8.54,0.132,4.05,2688,ok
+0170922AR,427125.5,4580633.74,26.27,Nerium oleander (vermell),False,PRIMERA,C\ Sugranyes,17.29,5.0,2.52,8.95,0.2,3.22,206,ok
+0170923AR,427316.99,4580633.95,24.7,Platanus × acerifolia,True,SEGONA,Rbla Badal,10.7,40.0,7.14,6.45,0.211,3.11,1796,ok
+0170924AR,427157.27,4581049.34,35.29,Bauhinia purpurea,False,SEGONA,C\ Roger,8.38,36.2,6.79,4.41,0.164,3.62,1211,ok
+0170925AR,426704.3,4580871.79,36.79,Celtis australis,False,TERCERA,Av Madrid,13.06,86.0,10.46,7.61,0.162,3.64,2443,ok
+0170926AR,427212.73,4580475.88,23.3,Nerium oleander (vermell),False,PRIMERA,C\ Sugranyes,18.91,3.2,2.03,6.23,0.128,4.12,141,ok
+0170927AR,427050.52,4581099.67,37.83,Platanus × acerifolia,True,TERCERA,C\ Juan de Sada,29.23,43.2,7.42,7.81,0.044,6.26,1253,ok
+0170928AR,427099.54,4581009.56,35.62,Bauhinia purpurea,False,SEGONA,C\ Roger,6.95,32.0,6.38,3.78,0.283,2.52,1184,ok
+0170929AR,427235.25,4580926.26,30.46,Koelreuteria paniculata 'Fastigiata',False,PRIMERA,Rbla Brasil,5.61,3.5,2.11,3.38,0.44,1.64,116,ok
+0170930AR,427146.5,4580348.47,22.02,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Pavia,,0.0,0.0,,,,0,no_crown_detected
+0170931AR,426804.71,4580718.13,30.39,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Bassegoda,4.74,2.8,1.87,3.32,0.464,1.53,45,few_points
+0170932AR,427057.24,4580734.04,28.39,Prunus cerasifera 'Pissardii',False,SEGONA,C\ Sugranyes,14.93,13.0,4.07,3.76,0.148,3.82,654,ok
+0170933AR,427105.79,4581177.4,38.12,Celtis australis,False,TERCERA,Av Madrid,10.91,81.5,10.19,6.17,0.19,3.32,2290,ok
+0170934AR,426690.48,4580793.31,34.62,Styphnolobium japonicum,False,SEGONA,C\ Munné,14.62,54.5,8.33,7.69,0.188,3.34,2535,ok
+0170935AR,426763.78,4580918.74,36.49,Celtis australis,False,SEGONA,Av Madrid,8.96,38.8,7.02,4.47,0.247,2.79,1137,ok
+0170936AR,426820.96,4580926.4,35.59,Platanus × acerifolia,True,EXEMPLAR,C\ Arizala,22.36,74.2,9.72,10.18,0.09,4.83,3461,ok
+0170937AR,427179.58,4581143.56,36.29,Koelreuteria paniculata 'Fastigiata',False,PRIMERA,Rbla Brasil,6.05,7.5,3.09,4.47,0.263,2.67,230,ok
+0170939AR,426925.47,4580815.58,32.63,Styphnolobium japonicum,False,SEGONA,C\ Sants,10.4,15.5,4.44,6.4,0.043,6.29,575,ok
+0170941AR,427216.13,4581002.11,32.5,Koelreuteria paniculata 'Fastigiata',False,PRIMERA,Rbla Brasil,,0.0,0.0,,,,0,no_crown_detected
+0170942AR,426872.68,4580831.04,33.52,Styphnolobium japonicum,False,SEGONA,C\ Sants,11.64,71.2,9.52,4.6,0.206,3.16,2022,ok
+0170943AR,426832.05,4580903.09,35.23,Platanus × acerifolia,True,EXEMPLAR,C\ Arizala,15.94,80.5,10.12,6.96,0.18,3.43,2967,ok
+0170944AR,426712.79,4580878.66,36.66,Celtis australis,False,TERCERA,Av Madrid,13.04,89.2,10.66,7.58,0.167,3.57,2736,ok
+0170945AR,427009.33,4580963.61,34.59,Bauhinia purpurea,False,SEGONA,C\ Roger,9.05,34.5,6.63,4.62,0.235,2.9,1203,ok
+0170946AR,427072.44,4580721.7,27.94,Nerium oleander (vermell),False,PRIMERA,C\ Sugranyes,8.35,2.5,1.78,4.36,0.231,2.93,72,ok
+0170947AR,426771.31,4580834.82,35.03,Styphnolobium japonicum,False,SEGONA,C\ Sants,8.19,54.5,8.33,4.98,0.259,2.7,1595,ok
+0170948AR,426830.25,4580934.53,35.58,Styphnolobium japonicum,False,PRIMERA,C\ Arizala,10.88,40.0,7.14,4.49,0.108,4.44,1228,ok
+0170951AR,427327.54,4580594.48,23.99,Platanus × acerifolia,True,SEGONA,Rbla Badal,12.23,50.2,8.0,7.4,0.147,3.84,716,ok
+0170952AR,427078.37,4580344.08,22.88,Styphnolobium japonicum,False,SEGONA,Rier Blanca,8.37,39.5,7.09,5.35,0.422,1.73,1759,ok
+0170953AR,427203.07,4580269.23,21.02,Styphnolobium japonicum,False,SEGONA,Rier Blanca,0.0,8.2,3.24,8.32,0.138,3.96,530,low_tree
+0170954AR,427286.67,4580352.5,19.69,Nerium oleander (vermell),False,PRIMERA,C\ Sugranyes,5.19,6.8,2.93,4.27,0.379,1.94,106,ok
+0170955AR,427183.91,4580522.0,24.9,Tipuana tipu,False,SEGONA,C\ Sugranyes,9.81,53.8,8.27,5.17,0.189,3.33,884,ok
+0170957AR,426987.93,4580922.38,33.74,Platanus × acerifolia,True,TERCERA,C\ Portbou,18.98,49.5,7.94,11.96,0.08,5.05,1987,ok
+0170958AR,427168.78,4580561.57,25.4,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Sugranyes,4.59,3.0,1.95,2.9,0.417,1.75,36,few_points
+0170959AR,427137.5,4581029.12,35.52,Bauhinia purpurea,False,SEGONA,C\ Roger,5.98,15.8,4.48,1.76,0.213,3.09,465,ok
+0170960AR,427211.29,4580818.45,28.69,Styphnolobium japonicum,False,SEGONA,C\ Sants,9.45,48.8,7.88,5.66,0.371,1.98,2044,ok
+0170962AR,427149.54,4580307.62,21.85,Styphnolobium japonicum,False,SEGONA,Rier Blanca,8.42,15.8,4.48,6.92,0.339,2.16,555,ok
+0170963AR,426836.95,4580733.97,30.76,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Bassegoda,8.66,20.2,5.08,4.13,0.372,1.98,559,ok
+0170964AR,427056.03,4581076.81,37.26,Platanus × acerifolia,True,TERCERA,C\ Juan de Sada,16.54,46.0,7.65,8.08,0.058,5.7,1909,ok
+0170966AR,427313.78,4580319.68,19.35,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Sugranyes,3.9,6.0,2.76,3.16,0.552,1.19,191,ok
+0170967AR,427149.27,4581045.08,35.37,Bauhinia purpurea,False,SEGONA,C\ Roger,6.4,13.8,4.18,4.26,0.31,2.34,451,ok
+0170968AR,427032.46,4580787.73,29.81,Nerium oleander (vermell),False,PRIMERA,C\ Sugranyes,,0.0,0.0,,,,0,no_crown_detected
+0170970AR,426691.0,4580815.68,35.49,Styphnolobium japonicum,False,SEGONA,C\ Munné,10.98,58.8,8.65,6.53,0.362,2.03,2085,ok
+0170971AR,426869.36,4580760.37,31.22,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Bassegoda,13.72,23.5,5.47,4.18,0.159,3.68,465,ok
+0170972AR,427330.66,4580560.64,23.46,Platanus × acerifolia,True,SEGONA,Rbla Badal,13.34,30.5,6.23,8.52,0.09,4.81,477,ok
+0170973AR,427056.96,4581112.95,37.85,Styphnolobium japonicum,False,SEGONA,C\ Juan de Sada,14.88,2.5,1.78,7.52,0.0,7.82,65,ok
+0170974AR,427213.16,4581013.3,32.85,Populus alba 'Pyramidalis',False,SEGONA,Rbla Brasil,10.04,4.5,2.39,5.45,0.023,7.52,109,ok
+0170975AR,427207.72,4580708.14,26.78,Brachychiton populneus,False,TERCERA,C\ Begur,11.67,30.2,6.21,5.61,0.251,2.76,1085,ok
+0170976AR,427099.81,4581172.83,37.98,Celtis australis,False,SEGONA,Av Madrid,11.63,57.5,8.56,7.35,0.106,4.5,1413,ok
+0170977AR,427203.58,4580818.66,28.72,Styphnolobium japonicum,False,SEGONA,C\ Sants,10.11,51.2,8.08,5.86,0.291,2.47,2079,ok
+0170978AR,427107.67,4580663.14,26.77,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Sugranyes,16.43,3.5,2.11,3.26,0.533,1.26,94,ok
+0170979AR,427209.3,4580261.0,20.72,Styphnolobium japonicum,False,SEGONA,Rier Blanca,,0.0,0.0,,,,0,no_crown_detected
+0170980AR,427153.92,4581037.49,35.33,Bauhinia purpurea,False,SEGONA,C\ Roger,9.56,22.8,5.38,3.91,0.268,2.64,749,ok
+0170983AR,427152.88,4580588.09,25.65,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Sugranyes,4.06,3.8,2.19,3.01,0.447,1.61,38,few_points
+0170984AR,427275.99,4580442.26,22.09,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Pavia,16.55,2.5,1.78,4.21,0.123,4.19,65,ok
+0170985AR,426861.81,4580750.12,31.05,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Bassegoda,8.7,29.5,6.13,3.88,0.267,2.64,785,ok
+0170986AR,426919.1,4580927.49,34.39,Bauhinia purpurea,False,PRIMERA,C\ Roger,20.32,51.8,8.12,5.04,0.23,2.94,1946,ok
+0170990AR,426736.01,4580896.92,36.77,Celtis australis,False,SEGONA,Av Madrid,9.84,50.8,8.04,5.32,0.243,2.83,1425,ok
+0170991AR,427001.79,4581102.63,37.97,Celtis australis,False,SEGONA,Av Madrid,10.33,57.8,8.57,6.06,0.19,3.32,1497,ok
+0170992AR,426844.1,4580870.44,34.71,Platanus × acerifolia,True,SEGONA,C\ Arizala,8.86,27.8,5.94,5.16,0.302,2.39,758,ok
+0170995AR,426940.14,4581033.68,36.8,Styphnolobium japonicum,False,SEGONA,C\ Portbou,29.23,42.8,7.38,6.65,0.215,3.07,1138,ok
+0170996AR,427220.73,4580966.8,31.58,Acer negundo,False,TERCERA,C\ Miquel Àngel,28.75,32.8,6.46,5.51,0.257,2.72,1619,ok
+0170997AR,427180.08,4580769.11,28.38,Brachychiton populneus,False,SEGONA,C\ Begur,11.66,17.8,4.75,5.24,0.286,2.5,635,ok
+0170998AR,427305.35,4580321.72,19.38,Nerium oleander (vermell),False,PRIMERA,C\ Sugranyes,,0.0,0.0,,,,0,no_crown_detected
+0170999AR,427164.13,4580950.79,32.36,Hibiscus syriacus,False,PRIMERA,C\ Miquel Àngel,19.69,24.8,5.61,3.22,0.245,2.81,745,ok
+0171001AR,426579.41,4580828.24,37.16,Styphnolobium japonicum,False,SEGONA,C\ Sants,13.82,73.8,9.69,5.92,0.321,2.27,3188,ok
+0171002AR,427322.01,4580593.14,24.06,Platanus × acerifolia,True,SEGONA,Rbla Badal,11.68,9.0,3.39,8.44,0.147,3.83,102,ok
+0171003AR,427110.18,4580646.18,26.43,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Sugranyes,3.61,1.2,1.26,2.95,0.5,1.39,48,no_crown_detected
+0171005AR,427243.52,4580891.51,29.69,Koelreuteria paniculata 'Fastigiata',False,PRIMERA,Rbla Brasil,28.88,7.5,3.09,10.38,0.145,3.86,549,ok
+0171008AR,426981.29,4580909.06,33.29,Platanus × acerifolia,True,EXEMPLAR,C\ Portbou,19.43,69.0,9.37,9.97,0.089,4.83,3101,ok
+0171009AR,426963.82,4581074.5,37.7,Celtis australis,False,SEGONA,Av Madrid,9.46,49.2,7.92,2.42,0.189,3.33,1406,ok
+0171010AR,426743.12,4580902.55,36.62,Celtis australis,False,SEGONA,Av Madrid,8.39,35.8,6.75,5.79,0.375,1.96,938,ok
+0171011AR,427122.95,4580625.12,26.16,Nerium oleander (vermell),False,PRIMERA,C\ Sugranyes,15.97,12.0,3.91,4.3,0.224,2.99,190,ok
+0171012AR,427073.2,4581046.73,36.78,Platanus × acerifolia,True,EXEMPLAR,C\ Juan de Sada,12.65,26.5,5.81,6.96,0.098,4.64,1102,ok
+0171013AR,427147.51,4580945.99,32.63,Hibiscus syriacus,False,PRIMERA,C\ Miquel Àngel,4.38,13.2,4.11,3.25,0.311,2.34,467,ok
+0171014AR,426963.46,4580939.76,34.28,Bauhinia purpurea,False,SEGONA,C\ Roger,8.31,22.0,5.29,4.13,0.231,2.93,727,ok
+0171015AR,427171.42,4580380.47,22.07,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Pavia,3.78,3.5,2.11,2.95,0.538,1.24,63,ok
+0171017AR,427135.53,4580942.04,32.74,Hibiscus syriacus,False,PRIMERA,C\ Miquel Àngel,20.82,32.0,6.38,3.85,0.155,3.73,1385,ok
+0171019AR,427027.07,4580797.01,30.28,Nerium oleander (vermell),False,PRIMERA,C\ Sugranyes,,0.0,0.0,,,,0,no_crown_detected
+0171020AR,427308.31,4580316.53,19.36,Nerium oleander (vermell),False,PRIMERA,C\ Sugranyes,,0.0,0.0,,,,0,no_crown_detected
+0171021AR,427044.1,4581124.75,38.25,Styphnolobium japonicum,False,SEGONA,C\ Juan de Sada,27.73,61.2,8.83,6.43,0.165,3.6,1701,ok
+0171022AR,427098.0,4580952.09,33.49,Koelreuteria paniculata 'Fastigiata',False,SEGONA,C\ Juan de Sada,10.47,25.2,5.67,3.61,0.314,2.32,619,ok
+0171023AR,426779.91,4580834.64,34.95,Styphnolobium japonicum,False,SEGONA,C\ Sants,10.64,64.5,9.06,5.08,0.268,2.64,2497,ok
+0171024AR,427029.3,4581123.16,38.25,Celtis australis,False,SEGONA,Av Madrid,8.51,49.0,7.9,5.11,0.241,2.85,1238,ok
+0171025AR,426768.38,4580687.66,30.0,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Bassegoda,4.95,1.2,1.26,2.73,0.3,2.41,55,no_crown_detected
+0171027AR,427133.14,4581036.9,35.55,Bauhinia purpurea,False,SEGONA,C\ Roger,15.58,22.8,5.38,4.27,0.337,2.18,826,ok
+0171028AR,426648.5,4580825.85,36.23,Styphnolobium japonicum,False,SEGONA,C\ Sants,9.79,53.8,8.27,2.86,0.27,2.62,2141,ok
+0171029AR,426995.28,4580871.23,32.36,Koelreuteria paniculata 'Fastigiata',False,PRIMERA,C\ Portbou,6.5,22.5,5.35,5.82,0.161,3.66,773,ok
+0171030AR,427225.51,4580676.66,25.74,Brachychiton populneus,False,TERCERA,C\ Begur,14.81,21.0,5.17,7.17,0.17,3.54,859,ok
+0171031AR,426947.59,4581062.64,37.5,Celtis australis,False,SEGONA,Av Madrid,9.34,57.2,8.54,5.89,0.292,2.46,1562,ok
+0171033AR,427251.34,4580411.2,21.34,Nerium oleander (vermell),False,PRIMERA,C\ Sugranyes,,0.0,0.0,,,,0,no_crown_detected
+0171034AR,426837.15,4580977.19,36.26,Celtis australis,False,SEGONA,Av Madrid,8.95,56.5,8.48,5.58,0.303,2.39,1557,ok
+0171035AR,426814.48,4580724.51,30.5,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Bassegoda,15.65,3.5,2.11,3.41,0.238,2.87,46,few_points
+0171036AR,427109.39,4580466.1,23.44,Tipuana tipu,False,SEGONA,C\ Carreras i Candi,14.58,63.2,8.97,6.42,0.081,5.02,1168,ok
+0171037AR,427046.1,4581116.3,38.13,Koelreuteria paniculata 'Fastigiata',False,PRIMERA,C\ Juan de Sada,4.85,1.5,1.38,3.78,0.4,1.83,30,no_crown_detected
+0171038AR,426861.61,4580897.85,34.83,Bauhinia purpurea,False,SEGONA,C\ Roger,6.63,21.5,5.23,4.02,0.237,2.88,561,ok
+0171039AR,427091.3,4580482.82,24.05,Styphnolobium japonicum,False,SEGONA,C\ Carreras i Candi,10.67,30.2,6.21,6.19,0.063,5.54,447,ok
+0171040AR,427107.19,4580822.13,29.89,Styphnolobium japonicum,False,SEGONA,C\ Sants,8.83,41.5,7.27,5.66,0.313,2.33,1230,ok
+0171041AR,427045.44,4580386.24,23.67,Melia azedarach,False,EXEMPLAR,C\ Canalejas,9.67,115.0,12.1,4.09,0.104,4.53,3749,ok
+0171042AR,427209.85,4580410.53,21.98,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Pavia,18.57,10.8,3.7,1.65,0.108,4.46,130,ok
+0171043AR,426932.48,4580877.07,33.26,Koelreuteria paniculata 'Fastigiata',False,PRIMERA,C\ Jaume Roig,,0.0,0.0,,,,0,no_crown_detected
+0171044AR,427293.8,4580719.23,26.51,Platanus × acerifolia,True,TERCERA,Rbla Badal,16.27,69.2,9.39,10.42,0.05,6.0,2515,ok
+0171046AR,427376.17,4580392.77,20.2,Platanus × acerifolia,True,SEGONA,C\ Begur,11.97,27.5,5.92,10.39,0.104,4.53,222,ok
+0171047AR,427064.24,4581083.4,37.3,Platanus × acerifolia,True,SEGONA,C\ Juan de Sada,15.25,47.0,7.74,10.67,0.037,6.6,1551,ok
+0171048AR,426924.14,4581045.03,37.28,Celtis australis,False,SEGONA,Av Madrid,9.78,44.8,7.55,5.88,0.255,2.73,1188,ok
+0171049AR,427088.23,4580695.42,27.41,Nerium oleander (vermell),False,PRIMERA,C\ Sugranyes,,0.0,0.0,,,,0,no_crown_detected
+0171050AR,427298.77,4580679.66,25.6,Platanus × acerifolia,True,SEGONA,Rbla Badal,12.69,9.8,3.52,3.13,0.047,6.13,258,ok
+0171052AR,426948.72,4580453.17,25.84,Styphnolobium japonicum,False,SEGONA,Rier Blanca,11.84,62.8,8.94,7.11,0.213,3.1,941,ok
+0171053AR,427248.35,4580834.38,28.84,Koelreuteria paniculata 'Fastigiata',False,PRIMERA,Rbla Brasil,5.68,2.0,1.6,4.03,0.385,1.91,50,ok
+0171054AR,426739.11,4580835.84,35.45,Styphnolobium japonicum,False,SEGONA,C\ Sants,8.64,35.8,6.75,5.03,0.267,2.64,964,ok
+0171055AR,426716.34,4580822.96,35.6,Styphnolobium japonicum,False,SEGONA,C\ Sants,8.87,54.0,8.29,7.0,0.262,2.68,1767,ok
+0171057AR,427245.45,4580885.7,29.57,Pyrus calleryana 'Chanticleer',False,PRIMERA,Rbla Brasil,,0.0,0.0,,,,0,no_crown_detected
+0171058AR,426898.52,4580906.2,34.28,Bauhinia purpurea,False,SEGONA,C\ Roger,7.66,22.8,5.38,2.66,0.256,2.73,919,ok
+0171060AR,427189.44,4580512.8,24.6,Tipuana tipu,False,SEGONA,C\ Sugranyes,9.54,40.5,7.18,5.58,0.355,2.07,735,ok
+0171062AR,427153.7,4580573.42,25.58,Nerium oleander (vermell),False,PRIMERA,C\ Sugranyes,14.39,5.2,2.59,3.28,0.333,2.2,66,ok
+0171063AR,426871.69,4580756.6,31.29,Prunus cerasifera 'Pissardii',False,SEGONA,C\ Bassegoda,7.36,17.2,4.69,4.71,0.164,3.61,437,ok
+0171064AR,426844.55,4580744.11,30.86,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Bassegoda,5.61,14.2,4.26,3.45,0.245,2.81,252,ok
+0171065AR,427364.44,4580442.76,21.48,Styphnolobium japonicum,False,TERCERA,C\ Begur,11.18,85.5,10.43,5.56,0.174,3.5,1393,ok
+0171067AR,427188.87,4581106.31,35.32,Koelreuteria paniculata 'Fastigiata',False,PRIMERA,Rbla Brasil,5.81,1.2,1.26,4.07,0.4,1.83,25,no_crown_detected
+0171068AR,427042.67,4580758.29,28.95,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Sugranyes,16.45,11.0,3.74,3.5,0.264,2.66,424,ok
+0171069AR,427101.12,4580661.07,26.76,Nerium oleander (vermell),False,PRIMERA,C\ Sugranyes,9.44,6.8,2.93,3.21,0.412,1.77,204,ok
+0171070AR,426702.97,4580725.81,32.71,Styphnolobium japonicum,False,SEGONA,Rier Blanca,7.46,33.2,6.51,5.85,0.389,1.89,1011,ok
+0171071AR,427160.56,4580806.36,29.03,Platanus × acerifolia,True,SEGONA,C\ Sants,25.72,30.0,6.18,8.35,0.191,3.31,1288,ok
+0171072AR,426817.45,4580934.19,35.72,Styphnolobium japonicum,False,SEGONA,C\ Arizala,12.67,48.0,7.82,9.43,0.133,4.03,1886,ok
+0171077AR,426929.57,4580777.18,31.7,Celtis australis,False,TERCERA,C\ Carreras i Candi,14.47,37.0,6.86,10.18,0.054,5.85,1080,ok
+0171079AR,427066.46,4580823.76,30.31,Styphnolobium japonicum,False,SEGONA,C\ Sants,9.1,36.2,6.79,5.02,0.21,3.12,1032,ok
+0171080AR,426843.16,4580858.55,34.5,Styphnolobium japonicum,False,SEGONA,C\ Arizala,10.63,34.5,6.63,5.19,0.333,2.2,960,ok
+0171081AR,427223.75,4580972.07,31.75,Populus alba 'Pyramidalis',False,SEGONA,Rbla Brasil,27.54,16.2,4.55,6.49,0.105,4.5,1015,ok
+0171082AR,427046.34,4580824.53,30.52,Styphnolobium japonicum,False,SEGONA,C\ Sants,9.66,58.2,8.61,6.05,0.267,2.64,1911,ok
+0171083AR,427159.19,4580577.36,25.57,Nerium oleander (vermell),False,PRIMERA,C\ Sugranyes,,0.0,0.0,,,,0,no_crown_detected
+0171084AR,426985.22,4580896.68,33.01,Platanus × acerifolia,True,EXEMPLAR,C\ Portbou,16.85,59.5,8.7,9.33,0.162,3.64,2469,ok
+0171085AR,427236.77,4580920.54,30.34,Populus nigra 'Italica',False,SEGONA,Rbla Brasil,10.27,12.2,3.95,2.6,0.223,3.01,512,ok
+0171086AR,427254.71,4580405.95,21.11,Nerium oleander (vermell),False,PRIMERA,C\ Sugranyes,,0.0,0.0,,,,0,no_crown_detected
+0171087AR,426806.4,4580819.75,34.39,Platanus × acerifolia,True,SEGONA,C\ Sants,13.81,37.0,6.86,8.72,0.266,2.65,1747,ok
+0171088AR,427081.33,4581000.21,35.6,Bauhinia purpurea,False,SEGONA,C\ Roger,7.03,44.8,7.55,3.77,0.294,2.45,1542,ok
+0171089AR,426919.83,4580793.22,31.93,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Bassegoda,13.07,29.0,6.08,10.82,0.119,4.26,492,ok
+0171090AR,427182.31,4580752.54,28.07,Brachychiton populneus,False,TERCERA,C\ Begur,12.72,34.0,6.58,5.08,0.322,2.27,1371,ok
+0171091AR,427247.7,4580816.93,28.46,Styphnolobium japonicum,False,SEGONA,C\ Sants,8.79,54.5,8.33,4.9,0.234,2.91,1885,ok
+0171092AR,427214.92,4580965.16,31.66,Hibiscus syriacus,False,PRIMERA,C\ Miquel Àngel,29.97,13.8,4.18,3.29,0.131,4.06,753,ok
+0171093AR,426852.71,4580989.36,36.31,Celtis australis,False,TERCERA,Av Madrid,12.23,107.5,11.7,6.97,0.242,2.84,3190,ok
+0171095AR,427113.84,4580639.96,26.34,Nerium oleander (vermell),False,PRIMERA,C\ Sugranyes,,0.0,0.0,,,,0,no_crown_detected
+0171096AR,427055.1,4581120.69,37.96,Styphnolobium japonicum,False,SEGONA,C\ Juan de Sada,10.66,17.2,4.69,6.97,0.026,7.26,394,ok
+0171097AR,427157.16,4580364.12,22.04,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Pavia,3.82,12.5,3.99,2.34,0.306,2.37,368,ok
+0171099AR,427198.1,4580497.86,24.06,Tipuana tipu,False,SEGONA,C\ Sugranyes,11.12,59.5,8.7,4.81,0.18,3.43,1072,ok
+0171100AR,426747.83,4580673.47,29.78,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Bassegoda,0.0,4.5,2.39,3.12,0.474,1.49,156,low_tree
+0171101AR,426718.52,4580704.7,31.1,Styphnolobium japonicum,False,SEGONA,Rier Blanca,9.51,19.2,4.95,6.3,0.25,2.77,493,ok
+0171105AR,426939.17,4580927.33,34.21,Bauhinia purpurea,False,PRIMERA,C\ Roger,6.72,19.0,4.92,4.4,0.209,3.13,615,ok
+0171106AR,426854.51,4580750.62,31.0,Prunus cerasifera 'Pissardii',False,SEGONA,C\ Bassegoda,7.65,33.5,6.53,4.42,0.29,2.48,802,ok
+0171108AR,427278.99,4580377.36,19.92,Nerium oleander (vermell),False,PRIMERA,C\ Sugranyes,,0.0,0.0,,,,0,no_crown_detected
+0171109AR,426995.21,4580812.79,31.34,Styphnolobium japonicum,False,SEGONA,C\ Sants,9.81,35.0,6.68,5.58,0.252,2.76,1618,ok
+0171110AR,427139.32,4581200.02,37.92,Celtis australis,False,TERCERA,Av Madrid,10.53,63.5,8.99,6.65,0.188,3.34,1415,ok
+0171111AR,427060.81,4581098.2,37.51,Styphnolobium japonicum,False,SEGONA,C\ Juan de Sada,15.85,38.0,6.96,10.49,0.0,7.82,1017,ok
+0171112AR,426924.97,4580790.12,32.16,Celtis australis,False,EXEMPLAR,C\ Bassegoda,15.33,84.8,10.39,8.87,0.099,4.63,2460,ok
+0171113AR,427195.07,4580818.3,28.71,Styphnolobium japonicum,False,SEGONA,C\ Sants,9.57,48.8,7.88,5.55,0.307,2.36,1870,ok
+0171114AR,427135.27,4580617.58,26.05,Nerium oleander (vermell),False,PRIMERA,C\ Sugranyes,12.71,3.5,2.11,3.18,0.315,2.31,54,ok
+0171115AR,427179.94,4580762.78,28.28,Brachychiton populneus,False,TERCERA,C\ Begur,13.88,27.8,5.94,6.27,0.206,3.16,1089,ok
+0171116AR,427240.14,4580442.06,22.15,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Sugranyes,3.96,3.5,2.11,3.28,0.35,2.1,40,few_points
+0171117AR,427168.6,4581184.46,37.33,Populus nigra 'Italica',False,SEGONA,Rbla Brasil,11.85,12.0,3.91,5.45,0.391,1.88,330,ok
+0171118AR,426677.47,4580762.73,33.84,Styphnolobium japonicum,False,SEGONA,C\ Munné,10.34,70.2,9.46,5.26,0.286,2.5,2881,ok
+0171119AR,426728.27,4580822.73,35.61,Styphnolobium japonicum,False,SEGONA,C\ Sants,10.3,35.2,6.7,6.28,0.262,2.68,1306,ok
+0171120AR,427233.74,4580932.16,30.62,Koelreuteria paniculata 'Fastigiata',False,PRIMERA,Rbla Brasil,7.2,14.8,4.33,4.95,0.19,3.33,615,ok
+0171121AR,426786.87,4580936.96,36.31,Celtis australis,False,TERCERA,Av Madrid,11.29,74.5,9.74,6.34,0.162,3.64,2104,ok
+0171122AR,427048.68,4580811.01,30.44,Styphnolobium japonicum,False,SEGONA,C\ Sants,19.23,41.8,7.29,6.65,0.167,3.58,1657,ok
+0171123AR,427201.43,4580505.78,24.18,Styphnolobium japonicum,False,SEGONA,C\ Sugranyes,8.64,34.5,6.63,4.32,0.232,2.92,620,ok
+0171124AR,427053.6,4580752.88,28.7,Nerium oleander (vermell),False,PRIMERA,C\ Sugranyes,,0.0,0.0,,,,0,no_crown_detected
+0171125AR,427130.06,4581025.32,35.56,Bauhinia purpurea,False,SEGONA,C\ Roger,5.74,18.0,4.79,2.79,0.192,3.3,544,ok
+0171126AR,426921.17,4580894.76,33.7,Koelreuteria paniculata 'Fastigiata',False,PRIMERA,C\ Jaume Roig,7.04,3.0,1.95,4.65,0.256,2.73,109,ok
+0171127AR,426869.14,4580901.86,34.75,Bauhinia purpurea,False,SEGONA,C\ Roger,7.92,23.5,5.47,4.3,0.263,2.67,688,ok
+0171129AR,427053.22,4581139.83,38.26,Celtis australis,False,TERCERA,Av Madrid,11.14,76.2,9.85,6.87,0.248,2.79,2158,ok
+0171130AR,427301.55,4580339.92,19.52,Nerium oleander (vermell),False,PRIMERA,C\ Sugranyes,3.59,1.2,1.26,2.8,0.429,1.69,49,no_crown_detected
+0171131AR,426725.7,4580695.41,30.8,Styphnolobium japonicum,False,SEGONA,Rier Blanca,10.08,32.8,6.46,5.08,0.308,2.35,1032,ok
+0171132AR,427168.36,4580806.51,28.94,Styphnolobium japonicum,False,SEGONA,C\ Sants,8.85,33.2,6.51,6.11,0.192,3.3,1210,ok
+0171133AR,427052.99,4581129.18,38.14,Platanus × acerifolia,True,TERCERA,C\ Juan de Sada,14.42,56.8,8.5,8.5,0.151,3.78,1788,ok
+0171134AR,427233.8,4580452.51,22.5,Nerium oleander (vermell),False,PRIMERA,C\ Sugranyes,,0.0,0.0,,,,0,no_crown_detected
+0171135AR,427195.12,4580730.66,27.48,Brachychiton populneus,False,SEGONA,C\ Begur,8.21,7.5,3.09,4.18,0.312,2.33,349,ok
+0171136AR,427158.82,4580820.21,29.26,Styphnolobium japonicum,False,SEGONA,C\ Sants,9.12,57.2,8.54,2.49,0.28,2.55,2317,ok
+0171138AR,426917.53,4580481.48,26.5,Styphnolobium japonicum,False,SEGONA,Rier Blanca,10.66,73.8,9.69,6.6,0.254,2.74,1376,ok
+0171140AR,427210.34,4580703.3,26.61,Brachychiton populneus,False,TERCERA,C\ Begur,12.5,21.0,5.17,5.65,0.255,2.73,940,ok
+0171142AR,427154.66,4580947.99,32.52,Acer negundo,False,SEGONA,C\ Miquel Àngel,19.92,26.5,5.81,2.35,0.134,4.02,1027,ok
+0171143AR,426794.62,4580711.26,30.26,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Bassegoda,,0.0,0.0,,,,0,no_crown_detected
+0171145AR,426764.35,4580821.12,35.18,Platanus × acerifolia,True,EXEMPLAR,C\ Sants,13.45,55.5,8.41,7.21,0.267,2.64,2515,ok
+0171146AR,427032.27,4580811.5,30.71,Styphnolobium japonicum,False,SEGONA,C\ Sants,11.22,58.5,8.63,6.3,0.192,3.3,1895,ok
+0171147AR,426997.12,4580866.84,32.23,Koelreuteria paniculata 'Fastigiata',False,SEGONA,C\ Portbou,8.61,37.0,6.86,5.53,0.091,4.8,1314,ok
+0171148AR,427204.57,4580713.92,26.93,Brachychiton populneus,False,TERCERA,C\ Begur,15.19,38.2,6.98,6.3,0.26,2.7,1675,ok
+0171150AR,427217.68,4580479.18,23.37,Prunus cerasifera 'Pissardii',False,SEGONA,C\ Sugranyes,4.97,4.2,2.33,3.9,0.352,2.09,71,ok
+0171152AR,427292.04,4580356.15,19.61,Nerium oleander (vermell),False,PRIMERA,C\ Sugranyes,4.06,11.0,3.74,3.19,0.199,3.23,717,ok
+0171155AR,427197.72,4580396.04,21.93,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Pavia,,0.0,0.0,,,,0,no_crown_detected
+0171156AR,427141.61,4580943.99,32.7,Acer negundo,False,SEGONA,C\ Miquel Àngel,21.29,36.5,6.82,5.48,0.181,3.42,1434,ok
+0171157AR,427114.51,4580324.32,22.48,Styphnolobium japonicum,False,SEGONA,Rier Blanca,8.86,86.8,10.51,5.59,0.357,2.06,3507,ok
+0171158AR,426813.71,4580942.1,35.91,Styphnolobium japonicum,False,SEGONA,C\ Arizala,12.28,67.8,9.29,6.84,0.17,3.55,2507,ok
+0171159AR,427175.01,4581160.88,36.73,Koelreuteria paniculata 'Fastigiata',False,PRIMERA,Rbla Brasil,,0.0,0.0,,,,0,no_crown_detected
+0171160AR,427304.14,4580335.55,19.47,Nerium oleander (vermell),False,PRIMERA,C\ Sugranyes,4.28,6.2,2.82,3.57,0.463,1.54,198,ok
+0171162AR,427187.42,4580529.42,25.01,Styphnolobium japonicum,False,SEGONA,C\ Sugranyes,9.01,25.5,5.7,5.65,0.242,2.84,455,ok
+0171163AR,426820.66,4580819.28,34.27,Styphnolobium japonicum,False,SEGONA,C\ Sants,26.27,29.5,6.13,5.67,0.23,2.94,982,ok
+0171164AR,426793.17,4580941.97,36.29,Celtis australis,False,TERCERA,Av Madrid,13.11,104.8,11.55,8.35,0.129,4.1,3312,ok
+0171165AR,427291.68,4580704.73,26.08,Platanus × acerifolia,True,SEGONA,Rbla Badal,14.59,16.0,4.51,10.36,0.273,2.59,485,ok
+0171166AR,427377.83,4580387.1,20.13,Platanus × acerifolia,True,SEGONA,C\ Begur,13.0,17.0,4.65,11.2,0.0,7.82,228,ok
+0171167AR,427053.26,4580740.88,28.51,Nerium oleander (vermell),False,PRIMERA,C\ Sugranyes,4.3,2.5,1.78,3.3,0.452,1.59,92,ok
+0171168AR,427234.79,4580438.63,22.17,Nerium oleander (vermell),False,PRIMERA,C\ Sugranyes,17.08,11.2,3.78,3.85,0.172,3.52,215,ok
+0171169AR,426834.63,4580737.81,30.79,Prunus cerasifera 'Pissardii',False,SEGONA,C\ Bassegoda,8.0,17.8,4.75,4.17,0.241,2.85,405,ok
+0171170AR,426964.09,4580961.66,34.71,Platanus × acerifolia,True,TERCERA,C\ Portbou,20.26,96.0,11.06,11.79,0.037,6.59,4176,ok
+0171171AR,427178.65,4580531.03,25.24,Tipuana tipu,False,EXEMPLAR,C\ Sugranyes,13.07,77.2,9.92,6.74,0.289,2.48,1714,ok
+0171172AR,427295.01,4580350.47,19.52,Nerium oleander (vermell),False,PRIMERA,C\ Sugranyes,0.0,0.2,0.56,13.57,0.125,4.16,32,no_crown_detected
+0171173AR,427089.98,4580336.16,22.71,Styphnolobium japonicum,False,SEGONA,Rier Blanca,8.14,36.2,6.79,4.81,0.413,1.77,1619,ok
+0171174AR,426744.77,4580655.62,30.04,Styphnolobium japonicum,False,SEGONA,Rier Blanca,9.93,21.0,5.17,6.47,0.424,1.72,802,ok
+0171176AR,426720.88,4580884.97,36.62,Celtis australis,False,TERCERA,Av Madrid,12.66,79.8,10.08,7.69,0.122,4.21,2300,ok
+0171178AR,427176.53,4581155.51,36.61,Koelreuteria paniculata 'Fastigiata',False,PRIMERA,Rbla Brasil,1.67,4.8,2.46,7.74,0.157,3.7,94,low_tree
+0171179AR,427135.31,4580807.44,29.44,Styphnolobium japonicum,False,SEGONA,C\ Sants,15.5,73.0,9.64,8.84,0.143,3.89,2779,ok
+0171181AR,426659.99,4580825.47,36.08,Platanus × acerifolia,True,TERCERA,C\ Sants,17.4,102.0,11.4,8.58,0.206,3.16,4375,ok
+0171182AR,427065.93,4581077.53,37.16,Platanus × acerifolia,True,EXEMPLAR,C\ Juan de Sada,17.52,77.5,9.93,11.03,0.108,4.46,3386,ok
+0171186AR,426818.12,4580833.13,34.36,Styphnolobium japonicum,False,SEGONA,C\ Sants,10.31,59.2,8.69,5.88,0.248,2.79,2054,ok
+0171188AR,427101.79,4580672.84,26.96,Nerium oleander (vermell),False,PRIMERA,C\ Sugranyes,3.43,3.2,2.03,2.97,0.533,1.26,67,ok
+0171189AR,426982.13,4580813.05,31.66,Styphnolobium japonicum,False,SEGONA,C\ Sants,7.98,2.0,1.6,6.48,0.037,6.59,84,ok
+0171190AR,427219.27,4580687.84,26.08,Brachychiton populneus,False,TERCERA,C\ Begur,10.51,34.0,6.58,5.28,0.317,2.3,1385,ok
+0171193AR,426991.79,4580412.91,24.81,Styphnolobium japonicum,False,SEGONA,Rier Blanca,9.43,41.8,7.29,5.95,0.215,3.08,587,ok
+0171194AR,426745.34,4580677.08,29.85,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Bassegoda,4.27,10.5,3.66,3.03,0.455,1.57,233,ok
+0171195AR,427370.9,4580431.18,21.22,Platanus × acerifolia,True,EXEMPLAR,C\ Begur,15.06,149.5,13.8,7.87,0.078,5.11,2929,ok
+0171196AR,426678.37,4580784.48,34.42,Styphnolobium japonicum,False,SEGONA,C\ Munné,10.55,60.2,8.76,6.74,0.244,2.82,1928,ok
+0171198AR,427024.64,4580801.11,30.44,Nerium oleander (vermell),False,PRIMERA,C\ Sugranyes,,0.0,0.0,,,,0,no_crown_detected
+0171199AR,427315.4,4580465.56,22.19,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Pavia,,0.0,0.0,,,,0,no_crown_detected
+0171200AR,427100.34,4580480.68,23.92,Tipuana tipu,False,EXEMPLAR,C\ Carreras i Candi,15.77,113.2,12.01,7.65,0.102,4.56,2224,ok
+0171201AR,426806.83,4580714.19,30.42,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Bassegoda,12.89,7.8,3.14,3.18,0.5,1.39,159,ok
+0171202AR,427139.04,4580312.5,22.0,Styphnolobium japonicum,False,SEGONA,Rier Blanca,26.55,66.2,9.18,6.46,0.343,2.14,2289,ok
+0171204AR,426897.85,4581024.46,36.99,Celtis australis,False,SEGONA,Av Madrid,8.68,52.8,8.2,5.4,0.308,2.36,1503,ok
+0171206AR,426951.38,4580944.3,34.49,Bauhinia purpurea,False,SEGONA,C\ Roger,8.06,24.2,5.56,1.82,0.23,2.94,754,ok
+0171207AR,427214.71,4581007.38,32.68,Koelreuteria paniculata 'Fastigiata',False,PRIMERA,Rbla Brasil,25.68,2.0,1.6,2.76,0.387,1.9,54,ok
+0171208AR,427316.74,4580314.61,19.36,Prunus cerasifera 'Pissardii',False,SEGONA,C\ Sugranyes,4.34,3.8,2.19,2.8,0.564,1.15,123,ok
+0171209AR,427192.04,4580736.06,27.62,Brachychiton populneus,False,SEGONA,C\ Begur,9.64,15.8,4.48,4.78,0.278,2.56,717,ok
+0171210AR,426703.28,4580823.36,35.73,Styphnolobium japonicum,False,SEGONA,C\ Sants,11.48,52.8,8.2,6.98,0.275,2.58,2323,ok
+0171211AR,427094.54,4580477.26,23.82,Styphnolobium japonicum,False,SEGONA,C\ Carreras i Candi,14.09,33.0,6.48,8.76,0.023,7.53,517,ok
+0171213AR,427050.17,4580745.92,28.64,Nerium oleander (vermell),False,PRIMERA,C\ Sugranyes,10.34,3.8,2.19,2.79,0.455,1.58,125,ok
+0171214AR,427029.35,4580792.93,30.09,Nerium oleander (vermell),False,PRIMERA,C\ Sugranyes,,0.0,0.0,,,,0,no_crown_detected
+0171215AR,426690.23,4580786.37,34.46,Styphnolobium japonicum,False,SEGONA,C\ Munné,21.57,47.8,7.8,7.51,0.244,2.83,1929,ok
+0171216AR,427213.11,4580698.76,26.45,Brachychiton populneus,False,TERCERA,C\ Begur,9.88,27.8,5.94,5.27,0.24,2.85,949,ok
+0171217AR,427004.0,4580870.52,32.2,Platanus × acerifolia,True,SEGONA,C\ Portbou,16.91,27.2,5.89,9.46,0.114,4.34,1181,ok
+0171218AR,426944.73,4581020.08,36.34,Platanus × acerifolia,True,SEGONA,C\ Portbou,29.64,20.8,5.14,6.93,0.079,5.07,725,ok
+0171219AR,426888.3,4580816.91,33.24,Styphnolobium japonicum,False,SEGONA,C\ Sants,9.42,25.5,5.7,4.95,0.247,2.8,1012,ok
+0171221AR,426990.42,4580913.59,33.34,Koelreuteria paniculata 'Fastigiata',False,PRIMERA,C\ Portbou,13.9,26.2,5.78,9.01,0.15,3.79,1056,ok
+0171222AR,427066.2,4581002.77,35.52,Bauhinia purpurea,False,SEGONA,C\ Roger,6.0,37.5,6.91,3.7,0.282,2.53,1454,ok
+0171223AR,427045.71,4580765.4,29.04,Nerium oleander (vermell),False,PRIMERA,C\ Sugranyes,17.07,4.2,2.33,6.9,0.149,3.81,179,ok
+0171224AR,427257.94,4580400.37,20.93,Nerium oleander (vermell),False,PRIMERA,C\ Sugranyes,5.13,4.0,2.26,3.39,0.408,1.79,49,few_points
+0171225AR,426882.07,4580897.84,34.5,Bauhinia purpurea,False,SEGONA,C\ Roger,,0.0,0.0,,,,0,no_crown_detected
+0171226AR,426908.55,4580829.64,32.97,Styphnolobium japonicum,False,SEGONA,C\ Sants,9.87,43.5,7.44,5.48,0.255,2.73,1420,ok
+0171227AR,427302.3,4580326.7,19.46,Prunus cerasifera 'Pissardii',False,SEGONA,C\ Sugranyes,4.98,3.0,1.95,3.17,0.326,2.24,57,ok
+0171228AR,427332.52,4580576.22,23.82,Platanus × acerifolia,True,SEGONA,Rbla Badal,17.64,36.5,6.82,9.48,0.08,5.05,600,ok
+0171229AR,427112.89,4580654.26,26.6,Nerium oleander (vermell),False,PRIMERA,C\ Sugranyes,17.55,1.2,1.26,3.1,0.438,1.65,16,no_crown_detected
+0171230AR,427189.0,4580741.32,27.72,Brachychiton populneus,False,TERCERA,C\ Begur,10.81,23.8,5.5,6.42,0.243,2.83,990,ok
+0171231AR,426918.61,4581040.64,37.15,Celtis australis,False,SEGONA,Av Madrid,9.61,36.8,6.84,6.43,0.212,3.1,966,ok
+0171232AR,427100.67,4580467.2,23.6,Styphnolobium japonicum,False,SEGONA,C\ Carreras i Candi,18.72,14.8,4.33,8.74,0.0,7.82,252,ok
+0171233AR,427058.26,4580998.66,35.44,Bauhinia purpurea,False,SEGONA,C\ Roger,6.06,39.0,7.05,3.39,0.252,2.76,1512,ok
+0171234AR,427066.5,4580731.32,28.12,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Sugranyes,4.21,4.8,2.46,2.77,0.3,2.41,125,ok
+0171235AR,427204.52,4580804.8,28.69,Styphnolobium japonicum,False,SEGONA,C\ Sants,10.51,45.5,7.61,6.97,0.241,2.84,1627,ok
+0171236AR,427146.02,4581033.6,35.43,Bauhinia purpurea,False,SEGONA,C\ Roger,6.55,21.2,5.2,3.75,0.23,2.94,613,ok
+0171238AR,426796.3,4580581.43,29.1,Styphnolobium japonicum,False,SEGONA,Rier Blanca,24.19,21.2,5.2,4.63,0.175,3.49,360,ok
+0171239AR,427094.16,4581169.13,38.1,Celtis australis,False,TERCERA,Av Madrid,11.73,64.0,9.03,7.13,0.196,3.26,1752,ok
+0171240AR,426956.46,4581019.33,36.21,Platanus × acerifolia,True,TERCERA,C\ Portbou,19.65,81.5,10.19,10.19,0.124,4.18,3283,ok
+0171241AR,427310.6,4580324.97,19.42,Nerium oleander (vermell),False,PRIMERA,C\ Sugranyes,,0.0,0.0,,,,0,no_crown_detected
+0171242AR,427176.81,4580288.0,21.41,Styphnolobium japonicum,False,SEGONA,Rier Blanca,9.72,54.2,8.31,7.37,0.056,5.75,1462,ok
+0171245AR,426608.8,4580827.14,36.61,Platanus × acerifolia,True,EXEMPLAR,C\ Sants,13.48,42.2,7.33,9.24,0.11,4.42,1374,ok
+0171246AR,426888.58,4580830.7,33.2,Styphnolobium japonicum,False,SEGONA,C\ Sants,8.04,27.5,5.92,4.35,0.27,2.62,709,ok
+0171247AR,427104.35,4580655.84,26.59,Nerium oleander (vermell),False,PRIMERA,C\ Sugranyes,4.96,4.5,2.39,3.53,0.268,2.63,174,ok
+0171248AR,427154.96,4580301.14,21.74,Styphnolobium japonicum,False,SEGONA,Rier Blanca,18.12,2.5,1.78,5.15,0.196,3.26,190,ok
+0171249AR,426826.1,4580832.66,34.25,Styphnolobium japonicum,False,SEGONA,C\ Sants,9.92,47.5,7.78,5.46,0.268,2.63,1279,ok
+0171250AR,427095.59,4581018.08,35.71,Bauhinia purpurea,False,SEGONA,C\ Roger,5.74,15.8,4.48,3.92,0.343,2.14,502,ok
+0171251AR,427121.66,4581021.13,35.59,Bauhinia purpurea,False,SEGONA,C\ Roger,6.62,16.8,4.62,3.24,0.256,2.72,448,ok
+0171252AR,427228.56,4580671.34,25.56,Brachychiton populneus,False,PRIMERA,C\ Begur,16.9,23.5,5.47,9.12,0.096,4.69,891,ok
+0171253AR,427222.33,4580682.22,25.88,Brachychiton populneus,False,TERCERA,C\ Begur,11.5,26.2,5.78,5.42,0.302,2.39,1172,ok
+0171254AR,426993.85,4580955.21,34.47,Bauhinia purpurea,False,PRIMERA,C\ Roger,3.46,6.0,2.76,2.59,0.496,1.4,176,ok
+0171255AR,426697.18,4580866.24,36.53,Celtis australis,False,TERCERA,Av Madrid,11.23,58.5,8.63,6.21,0.21,3.12,1613,ok
+0171256AR,427243.3,4580803.0,28.29,Styphnolobium japonicum,False,SEGONA,C\ Sants,11.77,23.5,5.47,7.85,0.178,3.45,981,ok
+0171257AR,427201.29,4580493.26,23.93,Tipuana tipu,False,EXEMPLAR,C\ Sugranyes,12.31,77.0,9.9,6.86,0.181,3.42,1446,ok
+0171258AR,427220.89,4580473.91,23.21,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Sugranyes,4.24,1.2,1.26,3.7,0.333,2.2,18,no_crown_detected
+0171261AR,427063.51,4580396.43,23.45,Melia azedarach,False,EXEMPLAR,C\ Canalejas,10.46,83.0,10.28,5.54,0.241,2.84,2550,ok
+0171262AR,427206.68,4581036.44,33.58,Populus alba 'Pyramidalis',False,PRIMERA,Rbla Brasil,29.45,3.0,1.95,4.47,0.023,7.57,87,ok
+0171263AR,427002.24,4580876.1,32.38,Platanus × acerifolia,True,SEGONA,C\ Portbou,17.04,35.2,6.7,9.36,0.177,3.46,1599,ok
+0171264AR,427160.91,4580297.0,21.62,Styphnolobium japonicum,False,SEGONA,Rier Blanca,18.1,0.5,0.8,9.12,0.6,1.02,15,no_crown_detected
+0171265AR,427215.56,4580470.72,23.15,Nerium oleander (vermell),False,PRIMERA,C\ Sugranyes,19.17,1.2,1.26,10.49,0.089,4.83,56,no_crown_detected
+0171266AR,426808.11,4580574.03,28.8,Styphnolobium japonicum,False,SEGONA,Rier Blanca,23.78,13.8,4.18,5.6,0.237,2.88,262,ok
+0171267AR,426731.37,4580836.47,35.53,Styphnolobium japonicum,False,SEGONA,C\ Sants,9.93,43.5,7.44,4.88,0.237,2.88,1301,ok
+0171268AR,427071.94,4580995.39,35.51,Bauhinia purpurea,False,SEGONA,C\ Roger,7.84,42.8,7.38,3.9,0.244,2.82,1658,ok
+0171269AR,427288.26,4580717.85,26.43,Platanus × acerifolia,True,SEGONA,Rbla Badal,12.32,25.0,5.64,8.08,0.018,7.82,530,ok
+0171270AR,427204.28,4580501.24,24.06,Styphnolobium japonicum,False,SEGONA,C\ Sugranyes,7.48,25.0,5.64,4.74,0.252,2.76,464,ok
+0171272AR,426942.5,4581026.97,36.65,Styphnolobium japonicum,False,SEGONA,C\ Portbou,29.57,46.0,7.65,7.0,0.083,4.97,1426,ok
+0171273AR,427054.25,4581084.11,37.37,Platanus × acerifolia,True,TERCERA,C\ Juan de Sada,16.35,32.2,6.41,10.51,0.028,7.18,1181,ok
+0171274AR,426800.59,4580833.74,34.6,Styphnolobium japonicum,False,SEGONA,C\ Sants,13.6,50.5,8.02,5.27,0.255,2.73,1327,ok
+0171275AR,427271.15,4580788.97,27.94,Platanus × acerifolia,True,SEGONA,Rbla Badal,18.06,52.8,8.2,9.36,0.189,3.34,2061,ok
+0171277AR,426983.38,4580936.3,34.04,Platanus × acerifolia,True,TERCERA,C\ Portbou,21.41,66.5,9.2,13.11,0.015,7.82,2707,ok
+0171278AR,426747.73,4580906.23,36.6,Celtis australis,False,TERCERA,Av Madrid,10.5,59.0,8.67,6.72,0.212,3.1,1660,ok
+0171279AR,426927.36,4580931.85,34.43,Bauhinia purpurea,False,SEGONA,C\ Roger,8.75,34.5,6.63,4.14,0.274,2.59,1136,ok
+0171281AR,427052.69,4580363.35,23.32,Styphnolobium japonicum,False,SEGONA,Rier Blanca,9.9,38.2,6.98,5.31,0.421,1.73,1752,ok
+0171282AR,426690.82,4580808.88,35.21,Styphnolobium japonicum,False,SEGONA,C\ Munné,10.53,36.2,6.79,7.0,0.333,2.2,1289,ok
+0171283AR,427312.1,4580471.02,22.25,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Pavia,4.58,6.2,2.82,2.92,0.403,1.82,67,ok
+0171284AR,426839.7,4580915.1,35.32,Platanus × acerifolia,True,SEGONA,C\ Arizala,11.37,70.0,9.44,6.61,0.278,2.56,2345,ok
+0171285AR,426952.79,4581030.61,36.54,Platanus × acerifolia,True,SEGONA,C\ Portbou,23.56,9.5,3.48,7.52,0.143,3.89,325,ok
+0171286AR,426758.35,4580914.47,36.48,Celtis australis,False,SEGONA,Av Madrid,7.65,27.5,5.92,4.76,0.399,1.84,823,ok
+0171288AR,426885.08,4580512.12,27.32,Styphnolobium japonicum,False,SEGONA,Rier Blanca,9.18,35.0,6.68,5.54,0.289,2.48,495,ok
+0171289AR,426980.77,4580945.33,34.34,Platanus × acerifolia,True,EXEMPLAR,C\ Portbou,20.96,94.5,10.97,10.69,0.1,4.61,4725,ok
+0171290AR,427173.2,4581057.64,35.06,Bauhinia purpurea,False,SEGONA,C\ Roger,8.15,38.5,7.0,4.79,0.224,2.99,1129,ok
+0171292AR,427094.96,4580414.08,23.07,Melia azedarach,False,SEGONA,C\ Canalejas,6.91,54.2,8.31,3.09,0.262,2.68,805,ok
+0171293AR,427181.11,4580526.55,25.18,Tipuana tipu,False,SEGONA,C\ Sugranyes,11.92,48.2,7.84,6.18,0.15,3.79,831,ok
+0171295AR,426949.87,4581039.38,36.78,Koelreuteria paniculata 'Fastigiata',False,PRIMERA,C\ Portbou,14.72,3.2,2.03,5.39,0.167,3.58,62,ok
+0171296AR,426854.56,4580842.3,34.04,Styphnolobium japonicum,False,SEGONA,C\ Arizala,7.83,60.0,8.74,4.83,0.29,2.47,2013,ok
+0171299AR,427007.19,4581106.81,38.09,Celtis australis,False,SEGONA,Av Madrid,11.0,50.2,8.0,2.77,0.083,4.98,1278,ok
+0171300AR,426688.06,4580852.14,36.26,Platanus × acerifolia,True,SEGONA,Av Madrid,12.89,64.8,9.08,5.41,0.141,3.92,2222,ok
+0171302AR,427203.31,4580961.88,31.83,Hibiscus syriacus,False,PRIMERA,C\ Miquel Àngel,29.59,13.0,4.07,6.52,0.194,3.28,307,ok
+0171303AR,427048.1,4580761.31,28.94,Nerium oleander (vermell),False,PRIMERA,C\ Sugranyes,,0.0,0.0,,,,0,no_crown_detected
+0171304AR,426868.8,4581001.71,36.51,Celtis australis,False,TERCERA,Av Madrid,12.85,112.2,11.95,7.09,0.181,3.41,3438,ok
+0171305AR,426855.9,4580877.66,34.72,Styphnolobium japonicum,False,SEGONA,C\ Arizala,11.56,39.0,7.05,6.07,0.289,2.48,1133,ok
+0171306AR,426834.01,4580927.14,35.42,Platanus × acerifolia,True,SEGONA,C\ Arizala,14.18,52.8,8.2,9.46,0.104,4.53,1892,ok
+0171307AR,427097.65,4580472.2,23.64,Styphnolobium japonicum,False,SEGONA,C\ Carreras i Candi,12.31,25.0,5.64,7.7,0.003,7.82,391,ok
+0171308AR,426849.05,4580896.49,34.99,Platanus × acerifolia,True,SEGONA,C\ Arizala,16.64,72.0,9.57,7.0,0.238,2.87,2937,ok
+0171310AR,427056.04,4580748.73,28.59,Nerium oleander (vermell),False,PRIMERA,C\ Sugranyes,,0.0,0.0,,,,0,no_crown_detected
+0171312AR,427311.46,4580311.34,19.37,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Sugranyes,6.33,7.5,3.09,4.6,0.345,2.13,126,ok
+0171314AR,427088.48,4580682.35,27.28,Nerium oleander (vermell),False,PRIMERA,C\ Sugranyes,,0.0,0.0,,,,0,no_crown_detected
+0171315AR,426866.48,4580753.18,31.18,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Bassegoda,14.52,32.0,6.38,4.46,0.224,3.0,894,ok
+0171317AR,426695.47,4580736.37,33.01,Styphnolobium japonicum,False,TERCERA,Rier Blanca,24.49,57.0,8.52,6.81,0.275,2.58,1732,ok
+0171318AR,427109.83,4581025.26,35.62,Bauhinia purpurea,False,SEGONA,C\ Roger,5.93,14.0,4.22,4.04,0.27,2.62,415,ok
+0171319AR,426763.42,4580684.21,29.95,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Bassegoda,10.28,17.8,4.75,3.41,0.397,1.85,419,ok
+0171320AR,427267.8,4580384.21,20.36,Nerium oleander (vermell),False,PRIMERA,C\ Sugranyes,4.48,2.0,1.6,3.74,0.421,1.73,19,few_points
+0171321AR,426755.75,4580684.38,29.98,Prunus cerasifera 'Pissardii',False,SEGONA,C\ Bassegoda,7.63,36.0,6.77,4.07,0.166,3.59,807,ok
+0171322AR,427161.56,4581041.6,35.23,Bauhinia purpurea,False,SEGONA,C\ Roger,5.46,13.5,4.15,2.95,0.178,3.45,345,ok
+0171325AR,427383.27,4580388.93,20.07,Platanus × acerifolia,True,EXEMPLAR,C\ Begur,15.52,113.5,12.02,6.37,0.061,5.61,2298,ok
+0171326AR,426877.33,4580905.95,34.62,Bauhinia purpurea,False,SEGONA,C\ Roger,19.28,27.0,5.86,5.1,0.27,2.62,847,ok
+0171327AR,427101.37,4580417.58,23.0,Melia azedarach,False,TERCERA,C\ Canalejas,8.54,81.8,10.2,3.87,0.251,2.77,1475,ok
+0171328AR,427109.6,4580452.26,23.38,Styphnolobium japonicum,False,SEGONA,C\ Carreras i Candi,17.22,17.2,4.69,8.73,0.0,7.82,277,ok
+0171329AR,427171.97,4581173.01,37.02,Koelreuteria paniculata 'Fastigiata',False,PRIMERA,Rbla Brasil,,0.0,0.0,,,,0,no_crown_detected
+0171331AR,427328.96,4580566.57,23.56,Platanus × acerifolia,True,SEGONA,Rbla Badal,14.73,16.8,4.62,13.42,0.0,7.82,107,ok
+0171332AR,427163.92,4581202.08,37.75,Koelreuteria paniculata 'Fastigiata',False,PRIMERA,Rbla Brasil,9.17,14.0,4.22,3.3,0.307,2.36,450,ok
+0171334AR,426985.86,4580928.31,33.84,Platanus × acerifolia,True,TERCERA,C\ Portbou,20.59,65.2,9.11,14.05,0.008,7.82,2736,ok
+0171335AR,427023.39,4581118.74,38.18,Celtis australis,False,SEGONA,Av Madrid,8.39,33.0,6.48,5.25,0.259,2.7,932,ok
+0171336AR,426976.7,4580922.76,33.68,Platanus × acerifolia,True,TERCERA,C\ Portbou,20.27,81.0,10.16,8.99,0.025,7.34,3449,ok
+0171337AR,426997.0,4580407.84,24.68,Styphnolobium japonicum,False,SEGONA,Rier Blanca,8.23,64.5,9.06,5.72,0.231,2.93,1169,ok
+0171338AR,427316.33,4580613.41,24.46,Platanus × acerifolia,True,SEGONA,Rbla Badal,11.25,11.8,3.87,6.9,0.329,2.22,155,ok
+0171340AR,427184.57,4580534.14,25.1,Styphnolobium japonicum,False,SEGONA,C\ Sugranyes,9.68,24.0,5.53,5.61,0.201,3.21,457,ok
+0171341AR,427269.39,4580393.61,20.51,Nerium oleander (vermell),False,PRIMERA,C\ Sugranyes,,0.0,0.0,,,,0,no_crown_detected
+0171342AR,427221.3,4580817.99,28.58,Styphnolobium japonicum,False,SEGONA,C\ Sants,13.59,48.0,7.82,5.03,0.281,2.54,1495,ok
+0171343AR,427018.01,4580799.45,30.63,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Sugranyes,23.19,3.2,2.03,2.99,0.238,2.87,138,ok
+0171344AR,427064.02,4580723.13,28.1,Nerium oleander (vermell),False,PRIMERA,C\ Sugranyes,,0.0,0.0,,,,0,no_crown_detected
+0171345AR,426865.43,4580817.73,33.62,Styphnolobium japonicum,False,SEGONA,C\ Sants,27.52,27.5,5.92,6.19,0.203,3.19,1023,ok
+0171346AR,426866.32,4580890.06,34.75,Bauhinia purpurea,False,SEGONA,C\ Roger,7.14,9.2,3.43,4.57,0.306,2.37,370,ok
+0171347AR,426603.1,4580827.41,36.74,Platanus × acerifolia,True,EXEMPLAR,C\ Sants,16.94,74.8,9.76,8.83,0.104,4.52,3371,ok
+0171348AR,427192.17,4580392.82,21.99,Prunus cerasifera 'Pissardii',False,SEGONA,C\ Pavia,6.86,19.5,4.98,4.15,0.233,2.91,283,ok
+0171349AR,427222.02,4580978.28,31.93,Koelreuteria paniculata 'Fastigiata',False,PRIMERA,Rbla Brasil,26.69,3.5,2.11,19.48,0.137,3.97,223,ok
+0171350AR,427126.26,4580619.2,26.06,Nerium oleander (vermell),False,PRIMERA,C\ Sugranyes,12.74,2.5,1.78,3.3,0.345,2.13,29,few_points
+0171351AR,426922.15,4580789.53,32.17,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Bassegoda,15.2,33.5,6.53,3.88,0.159,3.68,929,ok
+0171352AR,427058.12,4580823.88,30.43,Styphnolobium japonicum,False,SEGONA,C\ Sants,9.24,37.2,6.89,5.1,0.319,2.28,929,ok
+0171353AR,427132.39,4580622.6,26.11,Nerium oleander (vermell),False,PRIMERA,C\ Sugranyes,,0.0,0.0,,,,0,no_crown_detected
+0171354AR,426689.69,4580770.2,33.9,Styphnolobium japonicum,False,SEGONA,C\ Munné,10.76,40.0,7.14,6.2,0.299,2.42,1487,ok
+0171355AR,427095.33,4580333.26,22.76,Styphnolobium japonicum,False,SEGONA,Rier Blanca,8.3,51.5,8.1,2.66,0.368,2.0,1994,ok
+0171356AR,426756.74,4580629.13,30.12,Styphnolobium japonicum,False,SEGONA,Rier Blanca,9.57,30.0,6.18,5.58,0.203,3.19,398,ok
+0171357AR,427319.99,4580599.97,24.17,Platanus × acerifolia,True,SEGONA,Rbla Badal,9.11,6.5,2.88,7.59,0.192,3.3,73,ok
+0171358AR,427201.27,4580719.53,27.13,Brachychiton populneus,False,TERCERA,C\ Begur,13.25,27.8,5.94,7.04,0.204,3.18,1320,ok
+0171359AR,427162.3,4580572.14,25.51,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Sugranyes,,0.0,0.0,,,,0,no_crown_detected
+0171360AR,426923.28,4580919.34,34.17,Bauhinia purpurea,False,SEGONA,C\ Roger,8.64,23.8,5.5,3.8,0.239,2.86,881,ok
+0171361AR,427075.47,4580716.87,27.88,Nerium oleander (vermell),False,PRIMERA,C\ Sugranyes,11.02,4.2,2.33,4.32,0.153,3.75,194,ok
+0171362AR,427198.39,4580725.04,27.31,Brachychiton populneus,False,SEGONA,C\ Begur,7.21,11.0,3.74,4.67,0.311,2.34,469,ok
+0171363AR,427062.3,4581091.66,37.45,Styphnolobium japonicum,False,SEGONA,C\ Juan de Sada,15.36,16.5,4.58,9.02,0.0,7.82,488,ok
+0171365AR,426892.05,4580913.74,34.52,Bauhinia purpurea,False,SEGONA,C\ Roger,7.14,24.5,5.59,3.45,0.234,2.91,675,ok
+0171366AR,427253.98,4580419.94,21.55,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Sugranyes,8.73,29.0,6.08,3.0,0.198,3.24,596,ok
+0171368AR,427305.82,4580459.83,22.19,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Pavia,16.71,5.8,2.71,2.79,0.159,3.68,107,ok
+0171369AR,427114.17,4581017.23,35.64,Bauhinia purpurea,False,SEGONA,C\ Roger,6.62,15.2,4.41,3.43,0.186,3.36,464,ok
+0171370AR,426821.9,4580724.1,30.59,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Bassegoda,0.0,13.8,4.18,4.89,0.271,2.61,322,low_tree
+0171371AR,426991.78,4580908.56,33.15,Platanus × acerifolia,True,SEGONA,C\ Portbou,16.92,44.5,7.53,11.86,0.032,6.91,1653,ok
+0171372AR,427106.46,4580470.5,23.72,Tipuana tipu,False,TERCERA,C\ Carreras i Candi,14.71,33.5,6.53,6.61,0.069,5.35,567,ok
+0171373AR,427195.16,4581082.94,34.71,Koelreuteria paniculata 'Fastigiata',False,PRIMERA,Rbla Brasil,5.57,3.2,2.03,2.94,0.455,1.58,77,ok
+0171374AR,426690.43,4580801.86,34.99,Styphnolobium japonicum,False,SEGONA,C\ Munné,12.55,57.8,8.57,8.05,0.26,2.69,2207,ok
+0171375AR,427058.3,4580810.66,30.3,Styphnolobium japonicum,False,PRIMERA,C\ Sants,10.8,39.0,7.05,5.95,0.204,3.18,1534,ok
+0171377AR,427334.51,4580568.32,23.46,Platanus × acerifolia,True,EXEMPLAR,Rbla Badal,19.64,105.5,11.59,9.64,0.124,4.18,1956,ok
+0171378AR,426849.54,4580818.1,33.83,Styphnolobium japonicum,False,SEGONA,C\ Sants,12.5,59.5,8.7,6.71,0.205,3.17,2502,ok
+0171379AR,427299.18,4580332.29,19.46,Nerium oleander (vermell),False,PRIMERA,C\ Sugranyes,4.38,10.2,3.61,3.23,0.35,2.1,277,ok
+0171380AR,427052.05,4581092.58,37.76,Platanus × acerifolia,True,TERCERA,C\ Juan de Sada,14.43,15.8,4.48,8.3,0.011,7.82,559,ok
+0171381AR,426762.42,4580616.45,30.08,Styphnolobium japonicum,False,PRIMERA,Rier Blanca,,0.0,0.0,,,,0,no_crown_detected
+0171382AR,426972.78,4580969.7,34.78,Platanus × acerifolia,True,SEGONA,C\ Portbou,23.12,24.2,5.56,11.64,0.023,7.54,885,ok
+0171383AR,426641.8,4580775.96,34.28,Styphnolobium japonicum,False,SEGONA,Rier Blanca,8.52,40.8,7.2,5.76,0.35,2.1,1433,ok
+0171384AR,427261.3,4580433.49,22.0,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Pavia,4.53,1.2,1.26,2.65,0.467,1.52,15,no_crown_detected
+0171385AR,426983.51,4580960.62,34.65,Bauhinia purpurea,False,SEGONA,C\ Roger,8.51,35.2,6.7,5.38,0.274,2.59,1065,ok
+0171386AR,427108.87,4580808.6,29.83,Platanus × acerifolia,True,TERCERA,C\ Sants,16.56,84.2,10.36,7.73,0.15,3.8,3554,ok
+0171388AR,426938.35,4580868.12,33.05,Koelreuteria paniculata 'Fastigiata',False,PRIMERA,C\ Jaume Roig,7.67,5.0,2.52,3.93,0.283,2.52,231,ok
+0171389AR,426789.96,4580834.21,34.84,Styphnolobium japonicum,False,SEGONA,C\ Sants,9.28,42.8,7.38,5.25,0.34,2.16,1450,ok
+0171390AR,427085.43,4580338.8,22.72,Styphnolobium japonicum,False,SEGONA,Rier Blanca,6.73,32.2,6.41,5.37,0.451,1.59,1396,ok
+0171391AR,427181.03,4580787.72,28.73,Brachychiton populneus,False,SEGONA,C\ Begur,9.56,7.2,3.04,4.36,0.243,2.83,146,ok
+0171392AR,427145.18,4581204.13,37.99,Celtis australis,False,TERCERA,Av Madrid,11.9,79.8,10.08,7.01,0.198,3.24,2026,ok
+0171394AR,426838.13,4580891.09,35.05,Styphnolobium japonicum,False,SEGONA,C\ Arizala,15.01,81.8,10.2,7.07,0.201,3.21,2968,ok
+0171395AR,426677.74,4580769.98,33.94,Styphnolobium japonicum,False,SEGONA,C\ Munné,9.77,40.0,7.14,2.5,0.253,2.75,1450,ok
+0171396AR,427112.32,4580460.92,23.37,Tipuana tipu,False,TERCERA,C\ Carreras i Candi,16.84,61.8,8.87,8.27,0.132,4.04,1268,ok
+0171397AR,427141.41,4581041.41,35.51,Bauhinia purpurea,False,SEGONA,C\ Roger,5.74,12.0,3.91,4.08,0.324,2.26,383,ok
+0171400AR,427036.86,4580977.38,34.85,Bauhinia purpurea,False,PRIMERA,C\ Roger,,0.0,0.0,,,,0,no_crown_detected
+0171401AR,426778.9,4580930.63,36.42,Celtis australis,False,SEGONA,Av Madrid,8.65,42.8,7.38,5.12,0.297,2.43,1238,ok
+0171403AR,426736.83,4580822.35,35.46,Styphnolobium japonicum,False,SEGONA,C\ Sants,10.15,30.0,6.18,5.88,0.26,2.7,1224,ok
+0171404AR,427014.97,4580804.48,30.93,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Sugranyes,5.18,7.2,3.04,3.48,0.183,3.4,195,ok
+0171405AR,427302.45,4580465.31,22.2,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Pavia,4.72,35.2,6.7,3.59,0.192,3.3,665,ok
+0171406AR,426960.55,4580971.35,34.93,Platanus × acerifolia,True,EXEMPLAR,C\ Portbou,19.66,82.2,10.23,9.71,0.059,5.66,3667,ok
+0171407AR,427197.51,4580960.26,31.87,Hibiscus syriacus,False,PRIMERA,C\ Miquel Àngel,,0.0,0.0,,,,0,no_crown_detected
+0171408AR,427106.55,4580457.47,23.26,Styphnolobium japonicum,False,SEGONA,C\ Carreras i Candi,11.68,17.8,4.75,8.14,0.0,7.82,244,ok
+0171410AR,427230.47,4580944.4,31.01,Koelreuteria paniculata 'Fastigiata',False,PRIMERA,Rbla Brasil,6.0,2.0,1.6,2.27,0.294,2.45,60,ok
+0171411AR,427103.06,4581021.8,35.62,Bauhinia purpurea,False,SEGONA,C\ Roger,5.79,12.0,3.91,3.49,0.357,2.06,374,ok
+0171412AR,427069.58,4581060.57,37.0,Platanus × acerifolia,True,TERCERA,C\ Juan de Sada,14.56,62.5,8.92,6.43,0.178,3.45,2834,ok
+0171413AR,427129.36,4581193.32,38.01,Celtis australis,False,TERCERA,Av Madrid,10.85,67.8,9.29,5.89,0.196,3.26,1734,ok
+0171414AR,427138.36,4580612.03,25.99,Prunus cerasifera 'Pissardii',False,SEGONA,C\ Sugranyes,12.87,6.8,2.93,3.36,0.361,2.04,83,ok
+0171415AR,426890.56,4581018.89,36.87,Celtis australis,False,SEGONA,Av Madrid,9.05,47.8,7.8,5.53,0.334,2.19,1406,ok
+0171416AR,427266.55,4580398.29,20.66,Nerium oleander (vermell),False,PRIMERA,C\ Sugranyes,9.06,3.8,2.19,3.14,0.191,3.31,68,ok
+0171417AR,426878.5,4580518.0,27.44,Styphnolobium japonicum,False,SEGONA,Rier Blanca,9.85,39.5,7.09,5.68,0.29,2.48,601,ok
+0171418AR,426928.75,4580782.83,32.05,Celtis australis,False,TERCERA,C\ Carreras i Candi,16.0,50.8,8.04,10.95,0.039,6.47,1607,ok
+0171420AR,426588.39,4580827.84,36.93,Platanus × acerifolia,True,SEGONA,C\ Sants,12.01,23.8,5.5,6.37,0.318,2.29,953,ok
+0171421AR,427118.28,4580451.14,23.16,Tipuana tipu,False,EXEMPLAR,C\ Carreras i Candi,15.52,96.0,11.06,8.49,0.184,3.38,1705,ok
+0171422AR,427215.45,4580413.96,21.98,Prunus cerasifera 'Pissardii',False,SEGONA,C\ Pavia,18.91,23.2,5.44,3.45,0.168,3.56,285,ok
+0171423AR,427232.51,4580937.96,30.78,Koelreuteria paniculata 'Fastigiata',False,PRIMERA,Rbla Brasil,5.73,10.8,3.7,5.54,0.159,3.67,520,ok
+0171425AR,426799.36,4580714.59,30.38,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Bassegoda,7.92,9.8,3.52,3.73,0.357,2.06,126,ok
+0171426AR,426957.9,4580977.61,35.14,Platanus × acerifolia,True,TERCERA,C\ Portbou,18.79,33.2,6.51,8.51,0.099,4.62,1397,ok
+0171428AR,427256.93,4580413.89,21.25,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Sugranyes,4.6,2.8,1.87,3.27,0.333,2.2,48,few_points
+0171429AR,426891.04,4580506.36,27.11,Styphnolobium japonicum,False,SEGONA,Rier Blanca,9.55,39.5,7.09,5.82,0.26,2.7,655,ok
+0171430AR,427129.47,4580614.08,26.04,Nerium oleander (vermell),False,PRIMERA,C\ Sugranyes,3.15,1.2,1.26,2.35,0.0,7.82,8,no_crown_detected
+0171431AR,426751.11,4580835.58,35.34,Styphnolobium japonicum,False,SEGONA,C\ Sants,8.88,45.8,7.63,5.09,0.305,2.38,1231,ok
+0171432AR,426722.45,4580836.47,35.55,Styphnolobium japonicum,False,SEGONA,C\ Sants,10.78,61.0,8.81,5.45,0.165,3.61,2220,ok
+0171434AR,427112.6,4580447.34,23.09,Ligustrum lucidum,False,SEGONA,C\ Carreras i Candi,17.12,20.5,5.11,9.19,0.012,7.82,330,ok
+0171435AR,426881.77,4580763.04,31.47,Prunus cerasifera 'Pissardii',False,SEGONA,C\ Bassegoda,12.09,17.0,4.65,4.44,0.22,3.03,571,ok
+0171439AR,427074.44,4580823.39,30.27,Styphnolobium japonicum,False,SEGONA,C\ Sants,25.64,56.5,8.48,5.52,0.209,3.13,1965,ok
+0171441AR,427303.03,4580686.16,25.67,Platanus × acerifolia,True,SEGONA,Rbla Badal,14.84,63.2,8.97,6.74,0.19,3.32,2650,ok
+0171442AR,427261.2,4580394.66,20.73,Nerium oleander (vermell),False,PRIMERA,C\ Sugranyes,20.43,1.2,1.26,2.9,0.217,3.05,23,no_crown_detected
+0171443AR,426630.49,4580826.58,36.4,Platanus × acerifolia,True,EXEMPLAR,C\ Sants,18.41,51.8,8.12,9.77,0.109,4.43,2470,ok
+0171444AR,426956.57,4581069.18,37.52,Celtis australis,False,SEGONA,Av Madrid,8.5,44.8,7.55,2.28,0.172,3.53,1230,ok
+0171445AR,426934.97,4580465.86,26.21,Styphnolobium japonicum,False,SEGONA,Rier Blanca,12.58,55.0,8.37,6.86,0.212,3.1,932,ok
+0171446AR,426997.7,4580893.04,32.76,Platanus × acerifolia,True,TERCERA,C\ Portbou,0.0,14.0,4.22,10.3,0.238,2.87,497,low_tree
+0171447AR,427329.93,4580587.27,23.88,Platanus × acerifolia,True,SEGONA,Rbla Badal,11.96,45.0,7.57,7.87,0.008,7.82,592,ok
+0171448AR,427119.41,4580643.44,26.41,Nerium oleander (vermell),False,PRIMERA,C\ Sugranyes,16.7,5.8,2.71,3.51,0.469,1.52,65,ok
+0171449AR,427224.37,4580468.61,23.03,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Sugranyes,6.32,6.8,2.93,3.08,0.252,2.76,123,ok
+0171450AR,426976.46,4580813.42,31.72,Styphnolobium japonicum,False,SEGONA,C\ Sants,,0.0,0.0,,,,0,no_crown_detected
+0171452AR,427227.41,4580463.17,22.85,Nerium oleander (vermell),False,PRIMERA,C\ Sugranyes,6.24,3.0,1.95,3.63,0.349,2.11,43,few_points
+0171453AR,427059.59,4581144.33,38.26,Celtis australis,False,SEGONA,Av Madrid,8.42,39.8,7.11,5.29,0.225,2.98,987,ok
+0171456AR,426904.33,4581029.63,37.06,Celtis australis,False,SEGONA,Av Madrid,9.05,48.0,7.82,5.38,0.171,3.54,1391,ok
+0171457AR,427297.53,4580684.83,25.62,Platanus × acerifolia,True,SEGONA,Rbla Badal,13.92,12.8,4.03,8.26,0.11,4.41,397,ok
+0171458AR,427079.02,4580697.35,27.6,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Sugranyes,12.74,2.5,1.78,2.59,0.444,1.62,79,ok
+0171459AR,427089.12,4580410.58,23.16,Melia azedarach,False,SEGONA,C\ Canalejas,8.3,103.0,11.45,3.56,0.241,2.85,2058,ok
+0171460AR,427069.56,4580726.51,28.06,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Sugranyes,4.1,5.0,2.52,2.16,0.176,3.48,137,ok
+0171462AR,427270.93,4580378.84,20.17,Nerium oleander (vermell),False,PRIMERA,C\ Sugranyes,,0.0,0.0,,,,0,no_crown_detected
+0171463AR,427185.76,4580746.88,27.9,Brachychiton populneus,False,TERCERA,C\ Begur,12.52,30.2,6.21,6.24,0.22,3.03,1352,ok
+0171464AR,426855.56,4580871.81,34.61,Styphnolobium japonicum,False,SEGONA,C\ Arizala,9.17,35.2,6.7,5.93,0.29,2.47,965,ok
+0171465AR,427063.03,4580355.78,23.11,Styphnolobium japonicum,False,SEGONA,Rier Blanca,7.65,17.5,4.72,5.4,0.4,1.84,736,ok
+0171466AR,426895.34,4580816.66,33.14,Styphnolobium japonicum,False,SEGONA,C\ Sants,10.62,40.0,7.14,5.97,0.205,3.17,1501,ok
+0171470AR,427159.58,4580563.32,25.5,Nerium oleander (vermell),False,PRIMERA,C\ Sugranyes,17.52,7.2,3.04,3.12,0.245,2.82,139,ok
+0171471AR,427042.36,4580370.92,23.61,Styphnolobium japonicum,False,SEGONA,Rier Blanca,9.04,58.0,8.59,5.63,0.394,1.86,2592,ok
+0171472AR,426827.3,4580940.84,35.77,Styphnolobium japonicum,False,SEGONA,C\ Arizala,11.81,47.8,7.8,6.86,0.134,4.01,1061,ok
+0171473AR,426758.19,4580680.65,29.87,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Bassegoda,20.61,27.0,5.86,4.31,0.318,2.29,946,ok
+0171474AR,427162.83,4580557.87,25.4,Nerium oleander (vermell),False,PRIMERA,C\ Sugranyes,4.17,2.5,1.78,2.78,0.195,3.27,41,few_points
+0171475AR,427058.43,4580393.9,23.52,Melia azedarach,False,SEGONA,C\ Canalejas,8.55,50.8,8.04,5.35,0.284,2.52,1592,ok
+0171477AR,427095.69,4580822.65,30.04,Styphnolobium japonicum,False,SEGONA,C\ Sants,9.36,34.8,6.65,5.29,0.326,2.24,851,ok
+0171478AR,427304.35,4580681.0,25.6,Platanus × acerifolia,True,SEGONA,Rbla Badal,15.91,42.0,7.31,6.7,0.145,3.86,1553,ok
+0171479AR,427066.96,4580718.14,27.99,Nerium oleander (vermell),False,PRIMERA,C\ Sugranyes,,0.0,0.0,,,,0,no_crown_detected
+0171480AR,427043.62,4580768.88,29.14,Nerium oleander (vermell),False,PRIMERA,C\ Sugranyes,17.13,5.0,2.52,10.02,0.165,3.61,245,ok
+0171481AR,426706.58,4580837.09,35.71,Styphnolobium japonicum,False,SEGONA,C\ Sants,9.81,43.5,7.44,5.28,0.193,3.29,1513,ok
+0171482AR,427165.6,4581196.41,37.66,Koelreuteria paniculata 'Fastigiata',False,PRIMERA,Rbla Brasil,12.48,12.5,3.99,3.97,0.308,2.35,420,ok
+0171484AR,427177.78,4581150.08,36.44,Koelreuteria paniculata 'Fastigiata',False,PRIMERA,Rbla Brasil,,0.0,0.0,,,,0,no_crown_detected
+0171485AR,426985.92,4581090.98,37.81,Celtis australis,False,SEGONA,Av Madrid,8.45,38.0,6.96,4.93,0.23,2.94,885,ok
+0171486AR,427115.6,4581183.87,38.1,Celtis australis,False,SEGONA,Av Madrid,10.52,74.0,9.71,6.08,0.195,3.27,2014,ok
+0171487AR,426915.66,4580903.72,33.93,Photinia x fraseri 'Red Robin',False,PRIMERA,C\ Jaume Roig,7.3,6.0,2.76,2.6,0.302,2.4,147,ok
+0171489AR,427321.99,4580614.9,24.31,Platanus × acerifolia,True,PRIMERA,Rbla Badal,6.94,22.8,5.38,3.58,0.353,2.08,321,ok
+0171490AR,427139.51,4580338.2,22.08,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Pavia,16.56,2.0,1.6,2.66,0.4,1.83,20,few_points
+0171491AR,426882.08,4580830.74,33.33,Styphnolobium japonicum,False,SEGONA,C\ Sants,11.0,51.5,8.1,5.01,0.196,3.26,1822,ok
+0171492AR,427120.33,4580425.26,22.73,Melia azedarach,False,EXEMPLAR,C\ Canalejas,8.83,94.8,10.98,3.29,0.216,3.06,1585,ok
+0171493AR,426907.77,4580490.63,26.64,Styphnolobium japonicum,False,SEGONA,Rier Blanca,10.61,21.5,5.23,6.58,0.228,2.95,337,ok
+0171495AR,426771.26,4580820.89,35.12,Styphnolobium japonicum,False,SEGONA,C\ Sants,10.26,38.2,6.98,5.46,0.163,3.62,1461,ok
+0171496AR,426842.79,4580850.41,34.41,Styphnolobium japonicum,False,SEGONA,C\ Arizala,12.34,77.5,9.93,7.05,0.215,3.07,2811,ok
+0171497AR,427069.8,4580713.2,27.89,Nerium oleander (vermell),False,PRIMERA,C\ Sugranyes,,0.0,0.0,,,,0,no_crown_detected
+0171499AR,426970.26,4580976.74,35.06,Styphnolobium japonicum,False,SEGONA,C\ Portbou,11.12,28.5,6.02,6.95,0.007,7.82,1031,ok
+0171502AR,426918.76,4580815.75,32.76,Styphnolobium japonicum,False,SEGONA,C\ Sants,11.96,35.8,6.75,6.67,0.162,3.64,1323,ok
+0171503AR,427143.04,4580591.0,25.81,Nerium oleander (vermell),False,PRIMERA,C\ Sugranyes,16.57,7.8,3.14,3.67,0.315,2.31,130,ok
+0171504AR,427274.18,4580373.7,19.96,Nerium oleander (vermell),False,PRIMERA,C\ Sugranyes,5.08,2.0,1.6,3.23,0.429,1.69,28,few_points
+0171505AR,426986.26,4580951.89,34.43,Bauhinia purpurea,False,PRIMERA,C\ Roger,2.48,7.2,3.04,2.34,0.5,1.39,228,low_tree
+0171506AR,426761.32,4580835.3,35.26,Styphnolobium japonicum,False,SEGONA,C\ Sants,7.83,33.5,6.53,4.0,0.274,2.59,1029,ok
+0171507AR,426816.83,4580720.77,30.54,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Bassegoda,4.27,3.0,1.95,3.06,0.324,2.25,123,ok
+0171508AR,427166.9,4581191.3,37.51,Populus alba 'Pyramidalis',False,PRIMERA,Rbla Brasil,6.48,2.0,1.6,1.92,0.214,3.08,45,few_points
+0171509AR,426775.24,4580697.7,30.06,Prunus cerasifera 'Pissardii',False,SEGONA,C\ Bassegoda,6.07,12.5,3.99,3.87,0.361,2.04,236,ok
+0171510AR,426993.1,4581095.99,38.09,Celtis australis,False,SEGONA,Av Madrid,10.04,49.8,7.96,6.24,0.227,2.96,1304,ok
+0171511AR,426968.46,4580982.58,35.15,Styphnolobium japonicum,False,SEGONA,C\ Portbou,21.49,5.8,2.71,6.48,0.073,5.22,177,ok
+0171512AR,427099.41,4580809.11,29.94,Platanus × acerifolia,True,TERCERA,C\ Sants,15.91,90.0,10.7,7.88,0.208,3.14,4201,ok
+0171513AR,426636.3,4580826.2,36.4,Styphnolobium japonicum,False,SEGONA,C\ Sants,17.55,82.0,10.22,6.87,0.151,3.78,3270,ok
+0171514AR,427019.58,4580387.2,24.16,Styphnolobium japonicum,False,SEGONA,Rier Blanca,5.62,21.5,5.23,4.88,0.457,1.57,868,ok
+0171515AR,426879.84,4581010.45,36.67,Celtis australis,False,SEGONA,Av Madrid,10.8,49.2,7.92,5.98,0.206,3.16,1611,ok
+0171516AR,427011.13,4580395.65,24.5,Styphnolobium japonicum,False,SEGONA,Rier Blanca,10.16,48.5,7.86,5.67,0.309,2.35,2089,ok
+0171517AR,426971.33,4580937.39,34.3,Platanus × acerifolia,True,SEGONA,C\ Portbou,18.94,24.8,5.61,12.12,0.07,5.31,1113,ok
+0171518AR,427002.32,4580403.67,24.61,Styphnolobium japonicum,False,SEGONA,Rier Blanca,9.28,28.5,6.02,5.62,0.251,2.76,422,ok
+0171519AR,426937.44,4581042.0,37.19,Styphnolobium japonicum,False,SEGONA,C\ Portbou,28.01,19.2,4.95,3.05,0.0,7.82,336,ok
+0171522AR,426868.46,4580527.73,27.68,Styphnolobium japonicum,False,SEGONA,Rier Blanca,9.85,42.2,7.33,3.07,0.134,4.02,581,ok
+0171524AR,426689.94,4580778.01,34.15,Styphnolobium japonicum,False,SEGONA,C\ Munné,11.55,21.0,5.17,7.33,0.301,2.4,762,ok
+0171525AR,427320.16,4580468.5,22.24,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Pavia,,0.0,0.0,,,,0,no_crown_detected
+0171527AR,426885.34,4580910.28,34.56,Bauhinia purpurea,False,SEGONA,C\ Roger,15.83,23.5,5.47,4.12,0.328,2.23,835,ok
+0171528AR,426846.66,4580984.3,36.24,Celtis australis,False,SEGONA,Av Madrid,8.14,45.0,7.57,2.69,0.274,2.59,1535,ok
+0171529AR,427026.89,4580784.36,29.94,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Sugranyes,11.27,3.5,2.11,1.66,0.268,2.63,79,ok
+0171530AR,427058.98,4581105.35,37.75,Styphnolobium japonicum,False,SEGONA,C\ Juan de Sada,11.78,26.5,5.81,9.09,0.014,7.82,813,ok
+0171531AR,427071.37,4581054.36,36.87,Styphnolobium japonicum,False,SEGONA,C\ Juan de Sada,20.28,40.0,7.14,5.24,0.139,3.95,1343,ok
+0171532AR,427078.9,4580711.1,27.78,Nerium oleander (vermell),False,PRIMERA,C\ Sugranyes,15.42,8.5,3.29,4.54,0.39,1.88,137,ok
+0171533AR,427103.67,4580462.18,23.42,Styphnolobium japonicum,False,SEGONA,C\ Carreras i Candi,10.68,21.5,5.23,8.79,0.0,7.82,276,ok
+0171534AR,426943.91,4580859.54,32.85,Koelreuteria paniculata 'Fastigiata',False,PRIMERA,C\ Jaume Roig,,0.0,0.0,,,,0,no_crown_detected
+0171535AR,426958.72,4580947.93,34.48,Bauhinia purpurea,False,PRIMERA,C\ Roger,3.66,3.8,2.19,2.76,0.507,1.36,105,ok
+0171536AR,426722.04,4580700.15,30.95,Styphnolobium japonicum,False,SEGONA,Rier Blanca,0.0,3.2,2.03,6.21,0.343,2.14,57,low_tree
+0171537AR,427062.57,4580990.27,35.32,Bauhinia purpurea,False,PRIMERA,C\ Roger,2.82,3.0,1.95,2.63,0.453,1.58,103,low_tree
+0171538AR,426678.84,4580809.65,35.28,Styphnolobium japonicum,False,SEGONA,C\ Munné,11.08,42.8,7.38,6.39,0.325,2.25,1400,ok
+0171540AR,427122.36,4580638.62,26.33,Nerium oleander (vermell),False,PRIMERA,C\ Sugranyes,17.09,1.2,1.26,9.73,0.179,3.44,60,no_crown_detected
+0171541AR,427192.1,4580507.77,24.41,Tipuana tipu,False,SEGONA,C\ Sugranyes,8.79,54.0,8.29,5.25,0.316,2.3,981,ok
+0171542AR,426678.31,4580795.23,34.74,Styphnolobium japonicum,False,SEGONA,C\ Munné,9.67,59.8,8.72,5.67,0.375,1.96,1991,ok
+0171543AR,426831.38,4580972.36,36.19,Celtis australis,False,SEGONA,Av Madrid,9.16,41.5,7.27,5.51,0.246,2.8,1128,ok
+0171544AR,426994.8,4580900.41,33.03,Platanus × acerifolia,True,EXEMPLAR,C\ Portbou,19.3,73.0,9.64,10.91,0.079,5.08,2988,ok
+0171545AR,427220.52,4580984.14,32.05,Koelreuteria paniculata 'Fastigiata',False,PRIMERA,Rbla Brasil,,0.0,0.0,,,,0,no_crown_detected
+0171546AR,427196.53,4580805.06,28.7,Styphnolobium japonicum,False,SEGONA,C\ Sants,11.77,43.8,7.46,6.16,0.231,2.93,2022,ok
+0171547AR,426831.96,4580730.67,30.73,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Bassegoda,15.6,35.8,6.75,4.64,0.29,2.48,1108,ok
+0171548AR,427228.72,4580951.01,31.18,Koelreuteria paniculata 'Fastigiata',False,PRIMERA,Rbla Brasil,28.08,4.0,2.26,6.53,0.292,2.46,133,ok
+0171550AR,427293.4,4580698.75,25.94,Platanus × acerifolia,True,EXEMPLAR,Rbla Badal,29.02,27.2,5.89,10.58,0.301,2.4,1041,ok
+0171551AR,427069.95,4580400.13,23.35,Melia azedarach,False,EXEMPLAR,C\ Canalejas,9.56,124.0,12.57,6.05,0.283,2.52,2836,ok
+0171552AR,426845.7,4580903.5,35.12,Styphnolobium japonicum,False,SEGONA,C\ Arizala,10.4,66.8,9.22,5.74,0.225,2.98,2154,ok
+0171553AR,427128.53,4580628.34,26.19,Nerium oleander (vermell),False,PRIMERA,C\ Sugranyes,,0.0,0.0,,,,0,no_crown_detected
+0171554AR,426662.72,4580762.08,33.76,Styphnolobium japonicum,False,SEGONA,Rier Blanca,8.64,80.8,10.14,2.41,0.328,2.23,3346,ok
+0171555AR,426914.13,4581037.02,37.16,Celtis australis,False,SEGONA,Av Madrid,7.87,36.0,6.77,5.22,0.285,2.51,963,ok
+0171556AR,427231.58,4580665.66,25.38,Brachychiton populneus,False,PRIMERA,C\ Begur,4.65,3.0,1.95,11.03,0.0,7.82,72,ok
+0171557AR,427248.09,4580840.58,28.93,Populus alba 'Pyramidalis',False,PRIMERA,Rbla Brasil,7.46,8.0,3.19,3.37,0.392,1.87,211,ok
+0171558AR,427039.15,4580764.52,29.05,Nerium oleander (vermell),False,PRIMERA,C\ Sugranyes,4.31,5.0,2.52,3.09,0.208,3.14,258,ok
+0171559AR,427115.28,4580821.82,29.75,Styphnolobium japonicum,False,SEGONA,C\ Sants,9.83,57.0,8.52,5.21,0.268,2.64,1903,ok
+0171560AR,427133.01,4580608.09,25.95,Nerium oleander (vermell),False,PRIMERA,C\ Sugranyes,,0.0,0.0,,,,0,no_crown_detected
+0171561AR,427190.1,4580524.9,24.83,Styphnolobium japonicum,False,SEGONA,C\ Sugranyes,7.62,20.0,5.05,5.35,0.191,3.31,282,ok
+0171562AR,426951.41,4581000.07,35.76,Platanus × acerifolia,True,TERCERA,C\ Portbou,16.9,1.2,1.26,8.45,0.0,7.82,24,no_crown_detected
+0171563AR,427131.81,4580316.16,22.14,Styphnolobium japonicum,False,SEGONA,Rier Blanca,10.23,38.8,7.02,5.48,0.34,2.15,1408,ok
+0171564AR,427106.91,4580651.51,26.56,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Sugranyes,15.96,11.0,3.74,3.48,0.194,3.28,537,ok
+0171565AR,427198.65,4580510.62,24.38,Styphnolobium japonicum,False,SEGONA,C\ Sugranyes,8.89,27.8,5.94,5.3,0.187,3.36,520,ok
+0171566AR,426823.58,4580949.2,35.88,Styphnolobium japonicum,False,SEGONA,C\ Arizala,9.03,42.2,7.33,4.5,0.184,3.39,1126,ok
+0171567AR,427297.65,4580706.28,26.1,Platanus × acerifolia,True,EXEMPLAR,Rbla Badal,15.06,111.0,11.89,9.39,0.252,2.76,4343,ok
+0171568AR,427148.78,4580594.54,25.72,Nerium oleander (vermell),False,PRIMERA,C\ Sugranyes,,0.0,0.0,,,,0,no_crown_detected
+0171569AR,426900.02,4580497.81,26.81,Styphnolobium japonicum,False,SEGONA,Rier Blanca,10.15,55.8,8.43,6.04,0.193,3.29,1033,ok
+0171570AR,427155.99,4580582.6,25.6,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Sugranyes,4.3,3.0,1.95,2.92,0.333,2.2,33,few_points
+0171571AR,427170.78,4580292.64,21.42,Styphnolobium japonicum,False,SEGONA,Rier Blanca,26.32,28.5,6.02,6.62,0.191,3.31,766,ok
+0171573AR,426911.8,4580816.08,32.82,Styphnolobium japonicum,False,SEGONA,C\ Sants,11.11,30.5,6.23,6.26,0.24,2.85,1369,ok
+0171574AR,426824.75,4580918.65,35.47,Platanus × acerifolia,True,EXEMPLAR,C\ Arizala,20.55,76.5,9.87,10.96,0.159,3.68,3433,ok
+0171576AR,426698.36,4580732.76,32.89,Styphnolobium japonicum,False,SEGONA,Rier Blanca,25.68,26.0,5.75,5.73,0.333,2.2,798,ok
+0171577AR,426678.66,4580801.58,34.91,Styphnolobium japonicum,False,SEGONA,C\ Munné,9.93,38.8,7.02,5.13,0.264,2.67,1151,ok
+0171578AR,427107.16,4581013.56,35.66,Bauhinia purpurea,False,SEGONA,C\ Roger,6.77,34.2,6.6,3.63,0.336,2.18,1131,ok
+0171579AR,427227.74,4580817.59,28.47,Styphnolobium japonicum,False,SEGONA,C\ Sants,8.7,32.0,6.38,5.02,0.274,2.59,772,ok
+0171581AR,427082.13,4581160.52,38.18,Celtis australis,False,SEGONA,Av Madrid,9.36,55.8,8.43,5.75,0.233,2.91,1380,ok
+0171582AR,427186.7,4580517.29,24.72,Tipuana tipu,False,SEGONA,C\ Sugranyes,9.71,55.5,8.41,5.23,0.27,2.62,1040,ok
+0171584AR,426815.75,4580568.78,28.65,Styphnolobium japonicum,False,SEGONA,Rier Blanca,6.21,21.2,5.2,5.24,0.256,2.72,324,ok
+0171585AR,427088.76,4580822.82,30.09,Styphnolobium japonicum,False,SEGONA,C\ Sants,8.19,35.0,6.68,5.12,0.28,2.55,913,ok
+0171586AR,427173.39,4581167.27,36.88,Koelreuteria paniculata 'Fastigiata',False,PRIMERA,Rbla Brasil,5.69,3.8,2.19,4.8,0.214,3.08,68,ok
+0171587AR,427081.91,4580692.44,27.47,Nerium oleander (vermell),False,PRIMERA,C\ Sugranyes,,0.0,0.0,,,,0,no_crown_detected
+0171588AR,426875.71,4580894.58,34.64,Bauhinia purpurea,False,PRIMERA,C\ Roger,26.25,2.8,1.87,22.6,0.0,7.82,216,ok
+0171589AR,426937.82,4580828.75,32.5,Styphnolobium japonicum,False,SEGONA,C\ Sants,8.61,44.8,7.55,3.88,0.269,2.63,1318,ok
+0171590AR,427323.69,4580607.95,24.2,Platanus × acerifolia,True,TERCERA,Rbla Badal,14.9,40.2,7.16,4.05,0.213,3.09,794,ok
+0171591AR,426655.53,4580766.68,33.88,Styphnolobium japonicum,False,SEGONA,Rier Blanca,8.53,49.5,7.94,2.24,0.255,2.73,1723,ok
+0171592AR,427238.33,4580914.74,30.18,Koelreuteria paniculata 'Fastigiata',False,PRIMERA,Rbla Brasil,,0.0,0.0,,,,0,no_crown_detected
+0171594AR,427103.43,4580475.76,23.74,Tipuana tipu,False,TERCERA,C\ Carreras i Candi,15.41,55.2,8.39,9.26,0.091,4.79,988,ok
+0171595AR,426901.49,4580816.52,32.99,Styphnolobium japonicum,False,SEGONA,C\ Sants,10.98,29.8,6.15,6.93,0.158,3.69,1028,ok
+0171596AR,427247.6,4580852.56,29.09,Koelreuteria paniculata 'Fastigiata',False,PRIMERA,Rbla Brasil,5.99,1.2,1.26,3.78,0.375,1.96,34,no_crown_detected
+0171597AR,426689.38,4580761.99,33.67,Styphnolobium japonicum,False,SEGONA,C\ Munné,9.48,43.5,7.44,5.27,0.247,2.8,1558,ok
+0171598AR,427264.34,4580389.37,20.54,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Sugranyes,4.02,3.5,2.11,3.26,0.312,2.33,32,few_points
+0171600AR,427321.78,4580476.66,22.26,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Pavia,17.29,4.0,2.26,3.07,0.317,2.3,60,ok
+0171601AR,427331.19,4580580.7,23.68,Platanus × acerifolia,True,SEGONA,Rbla Badal,11.87,15.0,4.37,8.97,0.0,7.82,180,ok
+0171602AR,427208.78,4581030.74,33.34,Populus alba 'Pyramidalis',False,PRIMERA,Rbla Brasil,8.26,3.0,1.95,4.14,0.304,2.38,73,ok
+0171603AR,426854.8,4580849.39,34.2,Styphnolobium japonicum,False,SEGONA,C\ Arizala,10.76,43.2,7.42,5.04,0.324,2.25,2109,ok
+0171604AR,427295.88,4580713.3,26.21,Platanus × acerifolia,True,TERCERA,Rbla Badal,18.22,76.0,9.84,9.87,0.113,4.36,2813,ok
+0171605AR,427324.97,4580471.38,22.26,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Pavia,4.06,6.2,2.82,2.83,0.403,1.82,62,ok
+0171606AR,427181.49,4581061.95,34.81,Bauhinia purpurea,False,SEGONA,C\ Roger,6.24,18.8,4.89,3.89,0.377,1.95,632,ok
+0171607AR,426781.59,4580592.67,29.58,Styphnolobium japonicum,False,SEGONA,Rier Blanca,,0.0,0.0,,,,0,no_crown_detected
+0171608AR,426769.19,4580922.91,36.49,Celtis australis,False,SEGONA,Av Madrid,7.88,39.2,7.07,5.68,0.379,1.94,1097,ok
+0171609AR,426766.03,4580691.38,30.02,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Bassegoda,14.16,23.0,5.41,3.63,0.179,3.44,556,ok
+0171610AR,427269.53,4580794.87,28.12,Platanus × acerifolia,True,TERCERA,Rbla Badal,16.67,38.8,7.02,9.91,0.159,3.68,1381,ok
+0171611AR,427194.78,4580503.28,24.25,Tipuana tipu,False,SEGONA,C\ Sugranyes,9.35,63.0,8.96,5.41,0.3,2.41,1273,ok
+0171612AR,427203.69,4581048.11,33.88,Koelreuteria paniculata 'Fastigiata',False,PRIMERA,Rbla Brasil,25.99,5.8,2.71,3.01,0.2,3.22,209,ok
+0171613AR,427195.72,4580515.24,24.52,Styphnolobium japonicum,False,SEGONA,C\ Sugranyes,6.97,13.8,4.18,4.24,0.348,2.11,253,ok
+0171614AR,427193.0,4580519.84,24.66,Styphnolobium japonicum,False,SEGONA,C\ Sugranyes,7.65,23.0,5.41,4.63,0.298,2.42,409,ok
+0171615AR,427326.08,4580601.35,24.09,Platanus × acerifolia,True,SEGONA,Rbla Badal,13.15,47.5,7.78,8.94,0.266,2.65,875,ok
+0171616AR,427235.37,4580803.35,28.36,Platanus × acerifolia,True,EXEMPLAR,C\ Sants,14.11,80.5,10.12,8.22,0.298,2.42,3711,ok
+0171617AR,427080.74,4581016.68,35.89,Platanus × acerifolia,True,TERCERA,C\ Juan de Sada,13.07,63.2,8.97,6.37,0.219,3.03,2727,ok
+0171618AR,427263.28,4580403.75,20.86,Nerium oleander (vermell),False,PRIMERA,C\ Sugranyes,,0.0,0.0,,,,0,no_crown_detected
+0171619AR,426983.41,4580903.23,33.17,Styphnolobium japonicum,False,SEGONA,C\ Portbou,17.0,48.2,7.84,8.08,0.046,6.17,1948,ok
+0171620AR,426879.76,4580767.03,31.36,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Bassegoda,16.41,36.0,6.77,4.09,0.303,2.39,1011,ok
+0171621AR,427057.13,4581070.91,37.2,Styphnolobium japonicum,False,TERCERA,C\ Juan de Sada,11.46,58.8,8.65,7.13,0.145,3.86,2452,ok
+0171622AR,426679.03,4580816.84,35.63,Styphnolobium japonicum,False,SEGONA,C\ Munné,10.75,45.2,7.59,6.61,0.417,1.75,1416,ok
+0171623AR,427228.57,4580449.32,22.5,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Sugranyes,4.48,2.5,1.78,2.84,0.304,2.38,23,few_points
+0171625AR,427170.21,4581045.8,35.09,Bauhinia purpurea,False,SEGONA,C\ Roger,27.83,37.0,6.86,4.43,0.171,3.53,1200,ok
+0171626AR,427012.56,4581110.69,38.1,Celtis australis,False,SEGONA,Av Madrid,10.5,67.0,9.24,6.28,0.178,3.45,1636,ok
+0171627AR,427108.38,4580421.66,22.88,Melia azedarach,False,SEGONA,C\ Canalejas,7.8,67.2,9.25,3.39,0.144,3.88,1175,ok
+0171628AR,427053.35,4580390.57,23.56,Melia azedarach,False,PRIMERA,C\ Canalejas,9.42,56.8,8.5,3.93,0.259,2.71,1898,ok
+0171629AR,426855.29,4580857.31,34.36,Styphnolobium japonicum,False,PRIMERA,C\ Arizala,15.16,66.8,9.22,5.83,0.25,2.77,3331,ok
+0171630AR,426940.43,4580460.43,26.04,Styphnolobium japonicum,False,SEGONA,Rier Blanca,12.15,61.2,8.83,7.13,0.184,3.39,1214,ok
+0171631AR,427081.96,4580706.17,27.64,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Sugranyes,16.5,4.2,2.33,2.89,0.429,1.69,50,ok
+0171632AR,427182.08,4581132.29,35.99,Koelreuteria paniculata 'Fastigiata',False,PRIMERA,Rbla Brasil,,0.0,0.0,,,,0,no_crown_detected
+0171635AR,426714.1,4580836.98,35.7,Styphnolobium japonicum,False,SEGONA,C\ Sants,12.1,62.2,8.9,5.78,0.16,3.67,2354,ok
+0171636AR,426971.02,4581079.86,37.75,Celtis australis,False,SEGONA,Av Madrid,9.96,43.5,7.44,6.14,0.254,2.74,1213,ok
+0171637AR,427180.28,4580776.76,28.56,Brachychiton populneus,False,TERCERA,C\ Begur,14.78,24.5,5.59,6.03,0.215,3.08,917,ok
+0171638AR,427209.12,4580963.53,31.72,Acer negundo,False,SEGONA,C\ Miquel Àngel,29.99,18.2,4.82,5.42,0.167,3.57,484,ok
+0171639AR,426648.39,4580771.49,34.14,Styphnolobium japonicum,False,SEGONA,Rier Blanca,8.88,43.8,7.46,5.06,0.294,2.45,1373,ok
+0171640AR,427325.59,4580579.28,23.86,Platanus × acerifolia,True,SEGONA,Rbla Badal,11.98,12.2,3.95,8.97,0.114,4.35,88,ok
+0171641AR,426949.75,4580850.42,32.61,Koelreuteria paniculata 'Fastigiata',False,PRIMERA,C\ Jaume Roig,,0.0,0.0,,,,0,no_crown_detected
+0171642AR,427037.87,4580825.03,30.67,Styphnolobium japonicum,False,SEGONA,C\ Sants,9.45,46.5,7.69,5.01,0.249,2.78,1735,ok
+0171643AR,426953.38,4580992.28,35.57,Platanus × acerifolia,True,TERCERA,C\ Portbou,15.57,3.8,2.19,7.26,0.052,5.92,142,ok
+0171644AR,427165.52,4581053.55,35.13,Bauhinia purpurea,False,PRIMERA,C\ Roger,3.82,5.0,2.52,2.92,0.441,1.64,157,ok
+0171645AR,426797.6,4580819.9,34.46,Styphnolobium japonicum,False,SEGONA,C\ Sants,11.01,43.5,7.44,6.34,0.211,3.12,1781,ok
+0171647AR,427194.19,4580401.66,22.01,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Pavia,18.85,4.2,2.33,4.03,0.262,2.68,42,few_points
+0171648AR,427166.15,4580552.27,25.35,Nerium oleander (vermell),False,PRIMERA,C\ Sugranyes,3.9,3.0,1.95,3.11,0.514,1.33,35,few_points
+0171649AR,427118.31,4581029.2,35.61,Bauhinia purpurea,False,SEGONA,C\ Roger,6.72,12.5,3.99,4.24,0.24,2.86,429,ok
+0171651AR,426966.69,4580813.77,31.9,Styphnolobium japonicum,False,SEGONA,C\ Sants,8.59,33.5,6.53,6.24,0.2,3.22,1367,ok
+0171653AR,427024.31,4580788.69,30.1,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Sugranyes,,0.0,0.0,,,,0,no_crown_detected
+0216036AR,427244.96,4580920.08,30.49,Koelreuteria paniculata 'Fastigiata',False,PRIMERA,Rbla Brasil,10.64,34.5,6.63,7.07,0.39,1.88,1598,ok
+0216053AR,427246.44,4580914.34,30.31,Koelreuteria paniculata 'Fastigiata',False,PRIMERA,Rbla Brasil,7.22,2.8,1.87,2.99,0.417,1.75,135,ok
+0216063AR,427242.01,4580931.54,30.7,Koelreuteria paniculata 'Fastigiata',False,PRIMERA,Rbla Brasil,8.45,14.5,4.3,6.28,0.38,1.93,707,ok
+0216594AR,427184.72,4581151.47,36.61,Koelreuteria paniculata 'Fastigiata',False,PRIMERA,Rbla Brasil,16.36,114.0,12.05,8.62,0.265,2.66,6213,ok
+0216991AR,427176.16,4581186.57,37.55,Koelreuteria paniculata 'Fastigiata',False,PRIMERA,Rbla Brasil,11.67,12.2,3.95,7.33,0.106,4.48,495,ok
+0217317AR,427174.33,4581192.64,37.68,Koelreuteria paniculata 'Fastigiata',False,PRIMERA,Rbla Brasil,4.51,1.2,1.26,6.92,0.115,4.32,40,no_crown_detected
+0217468AR,427380.13,4580444.69,22.69,Tipuana tipu,False,PRIMERA,Rbla Badal,5.98,19.8,5.01,4.71,0.37,1.99,362,ok
+0217667AR,427384.46,4580426.96,22.63,Tipuana tipu,False,PRIMERA,Rbla Badal,5.71,21.5,5.23,4.12,0.219,3.04,429,ok
+0217669AR,427184.88,4581161.25,38.33,Tipuana tipu,False,TERCERA,Rbla Brasil,13.9,39.8,7.11,9.29,0.141,3.92,1629,ok
+0289398AR,426789.35,4580820.43,34.75,Styphnolobium japonicum,False,PRIMERA,C\ Sants,8.71,39.2,7.07,4.85,0.223,3.0,1174,ok
+0289399AR,426780.26,4580820.75,34.8,Styphnolobium japonicum,False,SEGONA,C\ Sants,8.73,45.8,7.63,5.17,0.197,3.25,1455,ok
+0289924AR,427181.72,4580282.33,21.5,Styphnolobium japonicum,False,SEGONA,Rier Blanca,8.13,34.8,6.65,6.09,0.063,5.53,834,ok
+0289925AR,427114.14,4580424.71,22.85,Melia azedarach,False,TERCERA,C\ Canalejas,8.16,71.2,9.52,4.29,0.157,3.71,1156,ok
+0294316AR,426808.7,4580833.38,34.53,Styphnolobium japonicum,False,SEGONA,C\ Sants,9.88,50.8,8.04,5.66,0.231,2.93,1532,ok
+0294510AR,427064.82,4580810.39,30.36,Styphnolobium japonicum,False,SEGONA,C\ Sants,10.12,27.8,5.94,6.46,0.279,2.56,1241,ok
+0294635AR,427344.94,4580577.36,23.68,Pyrus calleryana 'Chanticleer',False,PRIMERA,Rbla Badal,4.0,12.5,3.99,7.08,0.234,2.9,282,ok
+0294638AR,427314.68,4580684.95,25.68,Nerium oleander (blanc),False,PRIMERA,Rbla Badal,3.6,8.8,3.34,3.5,0.331,2.21,337,ok
+0294640AR,427317.52,4580679.72,25.57,Pyrus calleryana 'Chanticleer',False,PRIMERA,Rbla Badal,5.35,6.2,2.82,3.41,0.246,2.81,254,ok
+0294641AR,427317.95,4580674.71,25.48,Nerium oleander (blanc),False,PRIMERA,Rbla Badal,,0.0,0.0,,,,0,no_crown_detected
+0294644AR,427320.45,4580667.19,25.26,Nerium oleander,False,PRIMERA,Rbla Badal,,0.0,0.0,,,,0,no_crown_detected
+0294645AR,427321.44,4580661.84,25.22,Nerium oleander,False,PRIMERA,Rbla Badal,3.65,4.2,2.33,3.04,0.239,2.86,152,ok
+0294646AR,427323.51,4580656.94,25.09,Pyrus calleryana 'Chanticleer',False,PRIMERA,Rbla Badal,5.5,5.0,2.52,3.52,0.218,3.05,214,ok
+0294647AR,427324.38,4580651.92,24.94,Pyrus communis,False,PRIMERA,Rbla Badal,4.59,4.0,2.26,3.51,0.066,5.45,141,ok
+0294652AR,427333.38,4580617.15,24.29,Nerium oleander,False,PRIMERA,Rbla Badal,4.7,7.8,3.14,3.48,0.286,2.51,140,ok
+0294653AR,427336.21,4580609.63,24.17,Nerium oleander,False,PRIMERA,Rbla Badal,4.17,3.8,2.19,3.56,0.184,3.38,76,ok
+0294654AR,427336.65,4580604.94,24.1,Crataegus x media 'Paul's Scarlet',False,PRIMERA,Rbla Badal,4.94,1.2,1.26,3.44,0.031,6.93,32,no_crown_detected
+0294655AR,427339.38,4580598.07,23.98,Nerium oleander,False,PRIMERA,Rbla Badal,0.73,0.2,0.56,6.09,0.333,2.2,3,no_crown_detected
+0294656AR,427339.7,4580593.17,23.95,Crataegus x media 'Paul's Scarlet',False,PRIMERA,Rbla Badal,5.47,1.8,1.49,2.59,0.108,4.45,37,no_crown_detected
+0294657AR,427342.43,4580586.63,23.83,Nerium oleander,False,PRIMERA,Rbla Badal,4.66,5.8,2.71,3.69,0.252,2.75,111,ok
+0294658AR,427342.97,4580581.94,23.76,Nerium oleander,False,PRIMERA,Rbla Badal,4.61,8.5,3.29,3.38,0.311,2.33,167,ok
+0303829AR,427219.27,4580487.63,23.61,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Canalejas,7.25,9.8,3.52,3.31,0.338,2.17,210,ok
+0303831AR,427229.17,4580493.36,23.58,Pyrus calleryana 'Chanticleer',False,SEGONA,C\ Canalejas,12.05,15.2,4.41,5.12,0.304,2.38,306,ok
+0303832AR,427236.13,4580497.32,23.55,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Canalejas,11.75,12.0,3.91,4.52,0.315,2.31,238,ok
+0303833AR,427241.18,4580500.19,23.51,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Canalejas,11.78,7.8,3.14,4.04,0.394,1.86,127,ok
+0303834AR,427248.11,4580503.94,23.51,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Canalejas,11.59,10.5,3.66,3.68,0.266,2.65,169,ok
+0303835AR,427255.62,4580508.31,23.5,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Canalejas,,0.0,0.0,,,,0,no_crown_detected
+0303836AR,427263.19,4580512.62,23.44,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Canalejas,,0.0,0.0,,,,0,no_crown_detected
+0303837AR,427279.44,4580521.83,23.41,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Canalejas,15.43,5.2,2.59,3.47,0.255,2.73,94,ok
+0303838AR,427320.3,4580544.9,23.38,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Canalejas,,0.0,0.0,,,,0,no_crown_detected
+0303839AR,427314.22,4580541.49,23.37,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Canalejas,21.54,2.5,1.78,2.99,0.342,2.15,38,few_points
+0303840AR,427285.93,4580525.52,23.38,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Canalejas,16.63,6.2,2.82,4.69,0.326,2.24,92,ok
+0303841AR,427292.41,4580529.2,23.36,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Canalejas,,0.0,0.0,,,,0,no_crown_detected
+0303842AR,427332.58,4580551.87,23.32,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Canalejas,,0.0,0.0,,,,0,no_crown_detected
+0303843AR,427326.85,4580548.59,23.37,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Canalejas,27.14,2.5,1.78,4.27,0.158,3.69,19,few_points
+0303844AR,427131.3,4580437.96,22.72,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Canalejas,18.72,8.5,3.29,3.83,0.388,1.89,121,ok
+0303845AR,427137.4,4580441.4,22.76,Pyrus calleryana 'Chanticleer',False,SEGONA,C\ Canalejas,18.69,13.2,4.11,4.66,0.26,2.69,242,ok
+0303846AR,427143.49,4580444.85,22.79,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Canalejas,,0.0,0.0,,,,0,no_crown_detected
+0303847AR,427149.59,4580448.29,22.86,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Canalejas,18.54,1.2,1.26,7.02,0.109,4.44,46,no_crown_detected
+0303848AR,427155.68,4580451.73,22.88,Pyrus calleryana 'Chanticleer',False,SEGONA,C\ Canalejas,18.51,12.5,3.99,4.19,0.311,2.34,180,ok
+0303850AR,427167.87,4580458.62,23.02,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Canalejas,6.08,7.5,3.09,3.55,0.357,2.06,112,ok
+0303851AR,427173.97,4580462.06,23.08,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Canalejas,18.93,7.5,3.09,3.23,0.316,2.3,117,ok
+0303852AR,427180.06,4580465.5,23.14,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Canalejas,18.85,8.5,3.29,3.96,0.385,1.91,122,ok
+0303853AR,427186.16,4580468.94,23.2,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Canalejas,6.2,8.2,3.24,4.08,0.351,2.09,111,ok
+0303854AR,427192.26,4580472.39,23.28,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Canalejas,6.73,9.0,3.39,4.39,0.393,1.87,112,ok
+0303855AR,427198.35,4580475.83,23.34,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Canalejas,18.95,3.8,2.19,9.38,0.147,3.84,116,ok
+0303856AR,427204.44,4580479.27,23.45,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Canalejas,18.78,9.8,3.52,4.23,0.306,2.37,160,ok
+0310050AR,427253.69,4580884.44,29.78,Koelreuteria paniculata 'Fastigiata',False,PRIMERA,Rbla Brasil,14.38,175.2,14.94,10.12,0.181,3.42,6472,ok
+0310093AR,427300.8,4580731.39,26.69,Nerium oleander,False,PRIMERA,Rbla Badal,4.18,3.0,1.95,6.85,0.481,1.46,122,ok
+0310094AR,427299.54,4580735.99,26.78,Crataegus x media 'Paul's Scarlet',False,PRIMERA,Rbla Badal,,0.0,0.0,,,,0,no_crown_detected
+0310096AR,427303.25,4580721.73,26.49,Crataegus x media 'Paul's Scarlet',False,PRIMERA,Rbla Badal,12.12,27.0,5.86,8.37,0.31,2.34,1130,ok
+0310187AR,427181.39,4580819.58,28.96,Styphnolobium japonicum,False,SEGONA,C\ Sants,10.96,89.8,10.69,5.13,0.22,3.03,3280,ok
+0315497AR,426615.13,4580827.05,36.59,Styphnolobium japonicum 'Columnare',False,SEGONA,C\ Sants,0.0,5.2,2.59,8.19,0.206,3.16,167,low_tree
+0315516AR,426935.0,4580482.02,26.44,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Sant Frederic,26.04,5.0,2.52,24.51,0.106,4.48,235,ok
+0315517AR,426941.9,4580486.08,26.38,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Sant Frederic,14.38,2.8,1.87,5.91,0.236,2.88,55,ok
+0315518AR,426948.8,4580490.13,26.34,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Sant Frederic,14.69,9.5,3.48,2.9,0.266,2.65,128,ok
+0315519AR,426955.69,4580494.19,26.29,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Sant Frederic,15.51,6.2,2.82,2.73,0.182,3.41,99,ok
+0315520AR,426962.59,4580498.24,26.28,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Sant Frederic,5.69,4.5,2.39,3.18,0.325,2.25,77,ok
+0315521AR,426969.48,4580502.3,26.26,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Sant Frederic,6.5,8.5,3.29,3.1,0.317,2.3,120,ok
+0315522AR,426984.79,4580511.4,26.24,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Sant Frederic,19.97,23.5,5.47,4.61,0.203,3.19,690,ok
+0315523AR,426990.78,4580515.02,26.22,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Sant Frederic,18.93,5.8,2.71,3.29,0.309,2.35,81,ok
+0315524AR,426996.77,4580518.63,26.23,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Sant Frederic,20.51,4.5,2.39,3.5,0.319,2.29,69,ok
+0315525AR,427001.81,4580521.68,26.26,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Sant Frederic,18.85,7.8,3.14,3.73,0.257,2.72,148,ok
+0315526AR,427006.48,4580524.57,26.33,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Sant Frederic,16.51,10.2,3.61,2.94,0.246,2.81,183,ok
+0315527AR,427013.85,4580528.84,26.25,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Sant Frederic,6.78,8.0,3.19,3.37,0.35,2.1,177,ok
+0315528AR,427020.5,4580532.95,26.3,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Sant Frederic,8.09,10.8,3.7,3.45,0.296,2.44,203,ok
+0315529AR,427027.26,4580537.15,26.22,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Sant Frederic,10.74,7.5,3.09,3.48,0.254,2.74,114,ok
+0315530AR,427032.61,4580540.3,26.15,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Sant Frederic,8.7,7.2,3.04,3.62,0.305,2.38,128,ok
+0315531AR,427040.11,4580544.72,26.08,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Sant Frederic,,0.0,0.0,,,,0,no_crown_detected
+0315532AR,427045.78,4580548.17,26.05,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Sant Frederic,5.91,5.0,2.52,2.93,0.404,1.81,94,ok
+0315533AR,427118.65,4580591.99,26.1,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Sant Frederic,4.8,3.2,2.03,3.28,0.375,1.96,56,ok
+0315534AR,427124.82,4580595.54,26.02,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Sant Frederic,12.81,4.8,2.46,3.01,0.317,2.3,104,ok
+0315535AR,427130.67,4580599.02,25.94,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Sant Frederic,12.92,7.0,2.99,3.01,0.308,2.36,130,ok
+0315536AR,427061.56,4580557.36,26.05,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Sant Frederic,,0.0,0.0,,,,0,no_crown_detected
+0315537AR,427067.64,4580561.0,26.2,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Sant Frederic,20.77,13.5,4.15,3.99,0.18,3.43,255,ok
+0315538AR,427074.63,4580565.29,26.34,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Sant Frederic,17.29,21.8,5.26,4.71,0.188,3.34,467,ok
+0315539AR,427082.03,4580569.82,26.38,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Sant Frederic,16.99,12.8,4.03,4.11,0.146,3.84,253,ok
+0315540AR,427087.87,4580573.3,26.35,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Sant Frederic,17.5,4.8,2.46,3.74,0.317,2.29,63,ok
+0315541AR,427095.35,4580577.67,26.29,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Sant Frederic,15.94,2.5,1.78,3.16,0.231,2.93,39,few_points
+0315542AR,427100.54,4580580.82,26.26,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Sant Frederic,6.27,5.2,2.59,3.4,0.277,2.57,101,ok
+0315543AR,427107.45,4580584.87,26.17,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Sant Frederic,6.02,3.5,2.11,3.08,0.306,2.37,62,ok
+0315544AR,427112.56,4580588.1,26.14,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Sant Frederic,5.78,5.5,2.65,3.45,0.364,2.02,77,ok
+0315545AR,427186.54,4580634.61,25.66,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Casteràs,5.14,5.8,2.71,3.0,0.272,2.61,81,ok
+0315546AR,427274.63,4580687.26,25.7,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Casteràs,,0.0,0.0,,,,0,no_crown_detected
+0315547AR,427146.02,4580610.42,25.98,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Casteràs,13.26,5.2,2.59,2.85,0.293,2.46,82,ok
+0315548AR,427191.68,4580637.56,25.61,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Casteràs,6.0,7.0,2.99,3.08,0.325,2.25,114,ok
+0315549AR,427208.47,4580647.61,25.53,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Casteràs,16.41,8.8,3.34,3.73,0.157,3.7,244,ok
+0315551AR,427163.95,4580621.2,25.8,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Casteràs,5.86,2.5,1.78,3.2,0.375,1.96,32,few_points
+0315552AR,427220.78,4580654.96,25.45,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Casteràs,16.66,7.2,3.04,3.19,0.171,3.53,124,ok
+0315553AR,427247.79,4580670.74,25.44,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Casteràs,,0.0,0.0,,,,0,no_crown_detected
+0315554AR,427254.26,4580674.53,25.52,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Casteràs,,0.0,0.0,,,,0,no_crown_detected
+0315555AR,427281.37,4580690.54,25.81,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Casteràs,,0.0,0.0,,,,0,no_crown_detected
+0315556AR,427287.87,4580694.22,25.83,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Casteràs,,0.0,0.0,,,,0,no_crown_detected
+0315557AR,427197.87,4580641.32,25.55,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Casteràs,6.11,3.5,2.11,3.3,0.338,2.17,65,ok
+0315558AR,427215.24,4580651.61,25.49,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Casteràs,6.78,5.5,2.65,3.33,0.198,3.24,96,ok
+0315559AR,427176.59,4580628.47,25.68,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Casteràs,17.13,6.8,2.93,3.57,0.225,2.98,120,ok
+0315560AR,427152.46,4580614.26,25.9,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Casteràs,12.87,9.8,3.52,3.23,0.23,2.94,183,ok
+0315561AR,427181.16,4580631.34,25.69,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Casteràs,,0.0,0.0,,,,0,no_crown_detected
+0315562AR,427226.33,4580658.08,25.42,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Casteràs,16.63,7.0,2.99,3.45,0.347,2.12,98,ok
+0315563AR,427170.4,4580625.04,25.8,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Casteràs,16.6,5.2,2.59,3.55,0.187,3.36,75,ok
+0322690AR,426939.23,4580775.65,31.61,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Carreras i Candi,16.63,30.0,6.18,8.03,0.058,5.68,883,ok
+0322691AR,426940.46,4580768.02,31.39,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Carreras i Candi,15.44,17.5,4.72,10.6,0.136,4.0,744,ok
+0322692AR,426942.31,4580760.45,31.1,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Carreras i Candi,16.62,4.8,2.46,3.19,0.209,3.13,203,ok
+0322693AR,426946.59,4580750.25,30.83,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Carreras i Candi,9.0,1.2,1.26,3.01,0.263,2.67,38,no_crown_detected
+0322694AR,426949.4,4580744.74,30.71,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Carreras i Candi,,0.0,0.0,,,,0,no_crown_detected
+0322695AR,426952.21,4580739.29,30.61,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Carreras i Candi,18.59,3.8,2.19,3.28,0.431,1.68,91,ok
+0322696AR,426963.94,4580716.66,30.07,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Carreras i Candi,13.38,2.0,1.6,4.44,0.364,2.02,56,ok
+0322697AR,426967.31,4580710.22,29.93,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Carreras i Candi,5.03,2.8,1.87,3.14,0.467,1.52,55,ok
+0322698AR,426970.75,4580703.68,29.76,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Carreras i Candi,6.71,2.0,1.6,3.59,0.314,2.31,61,ok
+0322699AR,426974.32,4580696.75,29.55,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Carreras i Candi,7.11,2.5,1.78,2.94,0.366,2.01,58,ok
+0322700AR,426977.77,4580690.33,29.33,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Carreras i Candi,5.49,2.2,1.69,2.28,0.438,1.65,44,few_points
+0322701AR,426981.35,4580684.02,29.21,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Carreras i Candi,7.17,3.0,1.95,3.25,0.381,1.93,70,ok
+0322702AR,426985.27,4580677.09,29.01,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Carreras i Candi,7.42,2.5,1.78,3.35,0.405,1.81,79,ok
+0322703AR,426989.1,4580670.26,28.82,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Carreras i Candi,,0.0,0.0,,,,0,no_crown_detected
+0322704AR,426992.99,4580663.44,28.66,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Carreras i Candi,6.86,2.2,1.69,3.32,0.323,2.26,46,few_points
+0322705AR,426997.36,4580655.73,28.45,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Carreras i Candi,6.34,2.0,1.6,2.77,0.371,1.98,37,few_points
+0322706AR,427001.22,4580648.79,28.26,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Carreras i Candi,17.73,2.5,1.78,2.99,0.357,2.06,53,ok
+0322707AR,427005.54,4580641.13,28.1,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Carreras i Candi,12.1,3.5,2.11,3.11,0.42,1.73,129,ok
+0322708AR,427009.22,4580634.9,28.0,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Carreras i Candi,6.49,1.2,1.26,3.44,0.44,1.64,53,no_crown_detected
+0322709AR,427013.03,4580628.37,27.83,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Carreras i Candi,6.77,6.0,2.76,3.85,0.37,1.99,92,ok
+0322710AR,427024.18,4580608.41,27.32,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Carreras i Candi,6.47,1.2,1.26,2.69,0.25,2.77,20,no_crown_detected
+0322711AR,427029.36,4580599.68,27.11,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Carreras i Candi,6.91,2.8,1.87,2.7,0.349,2.11,43,few_points
+0322712AR,427032.84,4580593.93,26.96,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Carreras i Candi,,0.0,0.0,,,,0,no_crown_detected
+0322713AR,427036.38,4580588.06,26.8,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Carreras i Candi,,0.0,0.0,,,,0,no_crown_detected
+0322714AR,427040.14,4580581.91,26.68,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Carreras i Candi,5.46,1.2,1.26,4.84,0.643,0.88,14,no_crown_detected
+0322715AR,427043.88,4580575.73,26.42,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Carreras i Candi,19.41,5.0,2.52,3.43,0.136,3.98,132,ok
+0322716AR,427047.48,4580569.73,26.32,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Carreras i Candi,6.16,1.2,1.26,3.14,0.286,2.51,21,no_crown_detected
+0322717AR,427051.23,4580563.69,26.21,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Carreras i Candi,5.63,2.8,1.87,3.18,0.412,1.77,34,few_points
+0322718AR,427062.84,4580544.11,25.73,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Carreras i Candi,14.75,2.0,1.6,3.44,0.375,1.96,24,few_points
+0322719AR,427066.18,4580538.61,25.56,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Carreras i Candi,15.06,3.0,1.95,3.0,0.484,1.45,31,few_points
+0322720AR,427069.49,4580533.16,25.36,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Carreras i Candi,14.82,2.8,1.87,3.43,0.528,1.28,36,few_points
+0322721AR,427072.84,4580527.68,25.17,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Carreras i Candi,15.05,2.0,1.6,3.0,0.367,2.01,30,few_points
+0322722AR,427238.11,4580339.52,20.25,Lophostemon confertus,False,SEGONA,C\ Esteràs,19.63,11.0,3.74,2.89,0.311,2.33,509,ok
+0322723AR,427076.25,4580522.0,25.04,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Carreras i Candi,14.7,4.2,2.33,2.7,0.346,2.12,52,ok
+0322724AR,427079.86,4580515.99,24.84,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Carreras i Candi,14.9,3.0,1.95,3.13,0.341,2.15,41,few_points
+0322725AR,427083.65,4580509.78,24.63,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Carreras i Candi,5.87,2.5,1.78,3.66,0.382,1.92,34,few_points
+0322726AR,427087.14,4580503.96,24.44,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Carreras i Candi,5.95,3.2,2.03,3.01,0.405,1.81,37,few_points
+0322727AR,427133.43,4580427.47,22.56,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Carreras i Candi,6.0,2.8,1.87,2.65,0.39,1.88,41,few_points
+0322728AR,427136.29,4580422.76,22.46,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Carreras i Candi,6.05,2.5,1.78,3.18,0.414,1.76,29,few_points
+0322729AR,427139.88,4580416.77,22.43,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Carreras i Candi,6.28,3.0,1.95,2.78,0.333,2.2,51,ok
+0322730AR,427143.8,4580410.28,22.37,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Carreras i Candi,18.76,2.0,1.6,3.31,0.379,1.94,29,few_points
+0322731AR,427153.13,4580394.81,22.23,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Carreras i Candi,6.37,2.5,1.78,3.03,0.325,2.25,102,ok
+0322732AR,427156.74,4580388.8,22.18,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Carreras i Candi,6.82,2.0,1.6,2.43,0.343,2.14,103,ok
+0322733AR,427173.2,4580370.19,21.89,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Carreras i Candi,,0.0,0.0,,,,0,no_crown_detected
+0322734AR,427179.31,4580364.8,21.75,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Carreras i Candi,6.39,3.0,1.95,3.45,0.395,1.86,126,ok
+0322735AR,427201.07,4580345.68,21.36,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Carreras i Candi,,0.0,0.0,,,,0,no_crown_detected
+0322736AR,427205.32,4580341.99,21.27,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Carreras i Candi,5.43,1.2,1.26,3.36,0.462,1.55,42,no_crown_detected
+0322737AR,427209.63,4580338.16,21.18,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Carreras i Candi,5.45,3.0,1.95,3.1,0.333,2.2,117,ok
+0322738AR,427214.76,4580333.67,21.1,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Carreras i Candi,19.94,3.2,2.03,3.37,0.232,2.92,182,ok
+0322739AR,427242.39,4580309.42,20.52,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Carreras i Candi,19.87,2.5,1.78,2.8,0.316,2.31,107,ok
+0322740AR,427248.23,4580304.16,20.39,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Carreras i Candi,19.41,2.5,1.78,2.54,0.281,2.54,95,ok
+0322741AR,427254.01,4580298.95,20.3,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Carreras i Candi,20.72,5.2,2.59,9.74,0.174,3.5,382,ok
+0322742AR,427259.51,4580294.22,20.24,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Carreras i Candi,20.36,4.0,2.26,3.13,0.271,2.61,220,ok
+0322743AR,427264.76,4580289.6,20.14,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Carreras i Candi,6.22,1.2,1.26,2.44,0.385,1.91,54,no_crown_detected
+0322744AR,427269.64,4580285.26,20.08,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Carreras i Candi,20.86,11.2,3.78,4.36,0.204,3.18,855,ok
+0322745AR,427274.56,4580280.86,20.02,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Carreras i Candi,16.36,0.8,0.98,10.09,0.263,2.67,65,no_crown_detected
+0322746AR,427277.94,4580277.89,19.93,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Carreras i Candi,6.22,4.2,2.33,3.1,0.483,1.46,183,ok
+0322747AR,427199.54,4580277.63,21.21,Lophostemon confertus,False,PRIMERA,C\ Esteràs,25.88,31.2,6.31,6.91,0.126,4.14,1373,ok
+0322749AR,427207.9,4580294.05,21.25,Lophostemon confertus,False,PRIMERA,C\ Esteràs,20.98,14.5,4.3,4.42,0.12,4.23,481,ok
+0322750AR,427211.57,4580300.82,21.16,Lophostemon confertus,False,PRIMERA,C\ Esteràs,18.28,13.5,4.15,3.87,0.176,3.48,481,ok
+0322753AR,427232.19,4580335.21,20.46,Lophostemon confertus,False,SEGONA,C\ Esteràs,20.46,7.2,3.04,4.03,0.25,2.77,371,ok
+0322759AR,427270.58,4580363.14,19.86,Lophostemon confertus,False,SEGONA,C\ Esteràs,6.23,13.8,4.18,3.35,0.377,1.95,597,ok
+0332768AR,427072.44,4580708.55,27.83,Nerium oleander (vermell),False,PRIMERA,C\ Sugranyes,16.22,12.5,3.99,4.6,0.216,3.06,615,ok

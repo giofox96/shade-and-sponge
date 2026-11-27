@@ -1,0 +1,683 @@
+tree_id,x,y,ground_z,species,is_plane,size_category,street,height_m,crown_area_m2,crown_diam_m,crown_base_m,gap_fraction,lai_proxy,n_points,flag
+0083606AR,428547.69,4580421.56,20.7,Platanus × acerifolia,True,SEGONA,G.V. Corts Catalanes,8.87,44.8,7.55,5.54,0.171,3.53,584,ok
+0083607AR,428373.01,4580126.64,22.59,Styphnolobium japonicum,False,SEGONA,C\ Sant Fructuós,12.36,6.5,2.88,7.6,0.294,2.45,312,ok
+0083609AR,428216.14,4579789.69,25.06,Jacaranda mimosifolia,False,SEGONA,C\ Font Florida,9.47,35.5,6.72,5.4,0.37,1.99,1712,ok
+0083610AR,428758.07,4580213.49,37.4,Celtis australis,False,TERCERA,C\ Montfar,9.08,66.8,9.22,3.92,0.255,2.74,2728,ok
+0083611AR,428126.68,4579735.73,17.06,Jacaranda mimosifolia,False,SEGONA,C\ Font Florida,8.59,38.8,7.02,4.76,0.443,1.63,953,ok
+0083612AR,428854.8,4580204.64,41.84,Platanus × acerifolia,True,SEGONA,Av Francesc Ferrer i Guàrdia,11.67,75.8,9.82,5.99,0.409,1.79,3025,ok
+0083613AR,428700.65,4580255.75,35.1,Ulmus minor 'Umbraculifera',False,SEGONA,C\ Valls,8.67,29.0,6.08,5.24,0.174,3.5,759,ok
+0083614AR,428161.24,4579737.15,19.54,Jacaranda mimosifolia,False,TERCERA,C\ Font Florida,10.93,93.0,10.88,6.2,0.256,2.72,2767,ok
+0083615AR,428719.2,4580220.91,37.07,Celtis australis,False,TERCERA,C\ Montfar,7.84,36.0,6.77,4.83,0.345,2.13,1342,ok
+0083616AR,428287.42,4580129.43,17.23,Styphnolobium japonicum,False,SEGONA,C\ Mandoni,28.36,29.8,6.15,5.95,0.223,3.0,822,ok
+0083618AR,428394.82,4580282.6,18.5,Platanus × acerifolia,True,SEGONA,G.V. Corts Catalanes,13.78,72.2,9.59,7.57,0.198,3.24,2614,ok
+0083620AR,428675.36,4580368.13,29.55,Koelreuteria paniculata 'Fastigiata',False,PRIMERA,C\ Sant Fructuós,10.09,20.8,5.14,2.4,0.239,2.87,717,ok
+0083621AR,428187.74,4580069.29,14.39,Platanus × acerifolia,True,SEGONA,G.V. Corts Catalanes,11.6,48.8,7.88,6.53,0.18,3.43,1561,ok
+0083622AR,428625.67,4580341.46,30.04,Styphnolobium japonicum,False,SEGONA,C\ Sant Fructuós,14.22,35.2,6.7,6.45,0.247,2.8,1438,ok
+0083624AR,428271.1,4580043.65,19.46,Styphnolobium japonicum,False,SEGONA,C\ Sant Fructuós,12.08,50.8,8.04,6.84,0.261,2.69,2047,ok
+0083626AR,428655.73,4580246.39,36.39,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Chopin,5.92,18.2,4.82,3.16,0.358,2.05,521,ok
+0083627AR,428206.47,4580098.03,15.14,Platanus × acerifolia,True,SEGONA,G.V. Corts Catalanes,15.23,81.2,10.17,7.18,0.201,3.21,3546,ok
+0083628AR,428485.73,4580009.96,66.95,Celtis australis,False,SEGONA,C\ Polvorí,6.48,23.0,5.41,5.1,0.429,1.69,904,ok
+0083629AR,428341.36,4580230.49,17.86,Platanus × acerifolia,True,SEGONA,G.V. Corts Catalanes,13.78,65.8,9.15,6.24,0.264,2.66,2696,ok
+0083634AR,428656.12,4580235.53,36.59,Celtis australis,False,SEGONA,C\ Chopin,7.85,57.8,8.57,4.85,0.304,2.38,2415,ok
+0083636AR,428587.85,4580318.18,30.86,Styphnolobium japonicum,False,SEGONA,C\ Santa Dorotea,18.21,17.0,4.65,8.89,0.022,7.61,695,ok
+0083637AR,428176.9,4580068.79,14.36,Platanus × acerifolia,True,TERCERA,G.V. Corts Catalanes,13.3,49.8,7.96,8.58,0.198,3.24,1847,ok
+0083639AR,428717.31,4580211.88,37.06,Celtis australis,False,SEGONA,C\ Montfar,8.92,28.8,6.05,5.32,0.398,1.84,1164,ok
+0083640AR,428376.49,4580254.04,18.23,Platanus × acerifolia,True,SEGONA,G.V. Corts Catalanes,11.55,41.5,7.27,6.69,0.245,2.81,1427,ok
+0083642AR,428594.75,4580467.58,21.77,Platanus × acerifolia,True,TERCERA,G.V. Corts Catalanes,15.58,84.8,10.39,8.6,0.19,3.32,1709,ok
+0083643AR,428218.55,4580109.6,15.44,Platanus × acerifolia,True,PRIMERA,G.V. Corts Catalanes,13.53,24.8,5.61,4.52,0.362,2.03,1098,ok
+0083644AR,428583.09,4580455.92,21.51,Platanus × acerifolia,True,TERCERA,G.V. Corts Catalanes,17.27,51.0,8.06,9.63,0.111,4.4,1127,ok
+0083645AR,428302.92,4580058.27,19.02,Styphnolobium japonicum,False,SEGONA,C\ Sant Fructuós,9.34,32.2,6.41,6.31,0.31,2.34,1069,ok
+0083647AR,428262.32,4579911.49,26.56,Jacaranda mimosifolia,False,SEGONA,C\ Font Florida,7.09,22.2,5.32,4.74,0.452,1.59,1003,ok
+0083648AR,428737.23,4580210.98,37.22,Celtis australis,False,TERCERA,C\ Montfar,8.28,45.8,7.63,4.65,0.303,2.38,1693,ok
+0083650AR,428844.31,4580404.83,31.27,Ginkgo biloba 'Fastigiata Blagon',False,PRIMERA,C\ Gimbernat,4.42,7.5,3.09,1.82,0.222,3.01,72,ok
+0083651AR,428377.45,4580147.88,23.55,Styphnolobium japonicum,False,SEGONA,C\ Sant Fructuós,20.32,47.0,7.74,6.25,0.254,2.74,1881,ok
+0083652AR,428688.86,4580379.37,29.37,Styphnolobium japonicum,False,SEGONA,C\ Sant Fructuós,11.19,29.0,6.08,7.17,0.177,3.47,855,ok
+0083653AR,428563.7,4580332.47,27.48,Styphnolobium japonicum,False,SEGONA,C\ Santa Dorotea,11.36,49.0,7.9,8.32,0.051,5.95,1156,ok
+0083655AR,428353.91,4580108.3,20.96,Styphnolobium japonicum,False,SEGONA,C\ Sant Fructuós,12.55,38.2,6.98,6.63,0.232,2.92,1522,ok
+0083656AR,428860.7,4580239.6,40.0,Platanus × acerifolia,True,EXEMPLAR,Av Francesc Ferrer i Guàrdia,18.33,148.8,13.76,9.01,0.197,3.24,6291,ok
+0083657AR,428153.55,4580045.66,13.7,Platanus × acerifolia,True,TERCERA,G.V. Corts Catalanes,13.14,45.0,7.57,9.66,0.061,5.6,1595,ok
+0083658AR,428293.49,4580064.88,19.02,Styphnolobium japonicum,False,SEGONA,C\ Sant Fructuós,12.46,43.0,7.4,7.74,0.232,2.92,1851,ok
+0083659AR,428735.75,4580537.73,24.7,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Mèxic,15.42,9.2,3.43,4.39,0.388,1.89,139,ok
+0083662AR,428800.0,4580361.84,32.21,Ginkgo biloba 'Fastigiata Blagon',False,PRIMERA,C\ Gimbernat,4.44,4.0,2.26,2.85,0.446,1.61,136,ok
+0083663AR,428363.86,4579920.91,58.44,Pinus pinea,False,PRIMERA,C\ Polvorí,3.36,3.5,2.11,2.62,0.278,2.56,126,ok
+0083664AR,428536.69,4580420.59,20.6,Platanus × acerifolia,True,SEGONA,G.V. Corts Catalanes,11.96,49.8,7.96,7.17,0.216,3.07,895,ok
+0083665AR,428349.52,4579898.16,57.34,Pinus pinea,False,PRIMERA,C\ Polvorí,9.84,35.2,6.7,5.16,0.323,2.26,1360,ok
+0083666AR,428107.42,4579924.83,11.89,Tipuana tipu,False,TERCERA,C\ Mineria,15.35,44.0,7.48,11.06,0.172,3.52,1677,ok
+0083667AR,428627.21,4580128.59,57.7,Platanus × acerifolia,True,PRIMERA,Av Francesc Ferrer i Guàrdia,14.68,52.0,8.14,5.69,0.337,2.17,2533,ok
+0083668AR,428574.05,4580321.96,28.9,Styphnolobium japonicum,False,SEGONA,C\ Santa Dorotea,13.17,44.8,7.55,8.92,0.008,7.82,1026,ok
+0083669AR,428370.51,4580248.04,18.21,Platanus × acerifolia,True,SEGONA,G.V. Corts Catalanes,14.69,54.0,8.29,6.17,0.177,3.47,2139,ok
+0083670AR,428608.28,4580122.28,58.75,Styphnolobium japonicum,False,SEGONA,Av Francesc Ferrer i Guàrdia,8.95,40.0,7.14,3.42,0.375,1.96,1891,ok
+0083674AR,428617.3,4580424.05,25.06,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Sant Germà,7.68,15.0,4.37,3.23,0.085,4.93,200,ok
+0083675AR,428180.87,4579742.47,21.04,Jacaranda mimosifolia,False,TERCERA,C\ Font Florida,12.87,64.0,9.03,4.55,0.372,1.98,2261,ok
+0083676AR,428552.94,4580352.26,25.2,Styphnolobium japonicum,False,SEGONA,C\ Santa Dorotea,10.94,45.2,7.59,5.72,0.117,4.29,1470,ok
+0083677AR,428818.1,4580317.53,34.22,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Morabos,4.74,3.5,2.11,3.64,0.319,2.28,74,ok
+0083678AR,428678.46,4580224.2,36.88,Celtis australis,False,SEGONA,C\ Montfar,7.54,30.5,6.23,4.67,0.394,1.86,1166,ok
+0083681AR,428085.56,4579733.85,14.14,Jacaranda mimosifolia,False,SEGONA,C\ Font Florida,8.67,54.5,8.33,4.73,0.377,1.95,1490,ok
+0083682AR,428714.21,4580401.15,28.94,Styphnolobium japonicum,False,SEGONA,C\ Sant Fructuós,10.65,25.0,5.64,5.19,0.143,3.88,495,ok
+0083684AR,428690.37,4580218.86,36.9,Celtis australis,False,TERCERA,C\ Montfar,8.28,39.2,7.07,4.8,0.348,2.11,1475,ok
+0083685AR,428318.51,4580196.78,17.35,Platanus × acerifolia,True,SEGONA,G.V. Corts Catalanes,14.28,44.5,7.53,8.03,0.252,2.75,2049,ok
+0083686AR,428064.89,4579786.31,11.21,Tipuana tipu,False,SEGONA,C\ Mineria,11.5,69.8,9.42,7.67,0.27,2.62,2458,ok
+0083687AR,428517.05,4580378.46,20.36,Styphnolobium japonicum,False,SEGONA,C\ Santa Dorotea,10.88,40.8,7.2,7.68,0.202,3.2,642,ok
+0083688AR,428664.03,4580136.14,55.55,Platanus × acerifolia,True,EXEMPLAR,Av Francesc Ferrer i Guàrdia,14.35,87.5,10.56,6.96,0.334,2.19,3728,ok
+0083689AR,428421.7,4579961.93,62.87,Pinus halepensis,False,EXEMPLAR,C\ Polvorí,13.77,143.2,13.51,3.87,0.336,2.18,5610,ok
+0083690AR,428429.18,4580305.57,18.88,Platanus × acerifolia,True,TERCERA,G.V. Corts Catalanes,13.98,62.0,8.88,8.04,0.176,3.48,2164,ok
+0083691AR,428344.48,4579878.3,56.65,Pinus pinea,False,SEGONA,C\ Polvorí,3.62,5.8,2.71,2.33,0.545,1.21,253,ok
+0083692AR,428784.85,4580127.72,48.72,Platanus × acerifolia,True,PRIMERA,Av Francesc Ferrer i Guàrdia,8.95,29.0,6.08,2.2,0.375,1.96,1188,ok
+0083693AR,428384.98,4580155.2,24.06,Styphnolobium japonicum,False,SEGONA,C\ Sant Fructuós,9.67,50.5,8.02,5.4,0.317,2.29,2107,ok
+0083694AR,428617.26,4580125.34,58.27,Styphnolobium japonicum,False,SEGONA,Av Francesc Ferrer i Guàrdia,5.23,27.0,5.86,2.12,0.388,1.9,1049,ok
+0083695AR,428764.29,4580329.97,32.18,Brachychiton populneus,False,SEGONA,C\ Nord,5.81,5.8,2.71,2.81,0.434,1.67,231,ok
+0083696AR,428731.44,4580210.41,37.18,Celtis australis,False,SEGONA,C\ Montfar,6.86,22.8,5.38,4.19,0.429,1.69,893,ok
+0083699AR,428623.12,4580494.51,22.16,Platanus × acerifolia,True,TERCERA,G.V. Corts Catalanes,18.28,99.8,11.27,7.44,0.173,3.51,1943,ok
+0083701AR,428607.91,4580326.79,30.43,Styphnolobium japonicum,False,SEGONA,C\ Sant Fructuós,10.38,26.5,5.81,7.14,0.385,1.91,920,ok
+0083702AR,428831.61,4580304.02,35.11,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Morabos,19.86,6.0,2.76,2.93,0.3,2.41,75,ok
+0083703AR,428335.76,4580107.34,19.83,Styphnolobium japonicum,False,SEGONA,C\ Sant Fructuós,18.5,32.8,6.46,5.17,0.254,2.74,1168,ok
+0083705AR,428666.55,4580230.11,36.82,Celtis australis,False,TERCERA,C\ Montfar,9.52,52.0,8.14,4.8,0.215,3.08,1926,ok
+0083706AR,428825.53,4580445.69,29.68,Prunus cerasifera 'Pissardii',False,SEGONA,C\ Mèxic,5.96,10.0,3.57,4.0,0.41,1.79,105,ok
+0083707AR,428646.86,4580250.96,36.34,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Chopin,4.79,10.2,3.61,3.26,0.362,2.03,284,ok
+0083708AR,428221.98,4579824.17,26.77,Jacaranda mimosifolia,False,TERCERA,C\ Font Florida,9.15,42.5,7.36,5.38,0.451,1.59,2141,ok
+0083709AR,428836.78,4580158.84,44.83,Platanus × acerifolia,True,EXEMPLAR,Av Francesc Ferrer i Guàrdia,16.54,100.8,11.33,8.49,0.349,2.11,4329,ok
+0083710AR,428241.29,4580121.19,15.83,Platanus × acerifolia,True,TERCERA,G.V. Corts Catalanes,15.72,93.2,10.9,7.2,0.173,3.51,3783,ok
+0083711AR,428388.84,4580276.62,18.46,Platanus × acerifolia,True,TERCERA,G.V. Corts Catalanes,15.63,83.2,10.3,8.11,0.193,3.29,3625,ok
+0083712AR,428453.5,4580340.12,19.22,Platanus × acerifolia,True,SEGONA,G.V. Corts Catalanes,13.09,71.8,9.56,7.23,0.307,2.36,2706,ok
+0083714AR,428357.96,4580112.16,21.29,Styphnolobium japonicum,False,SEGONA,C\ Sant Fructuós,12.72,39.5,7.09,6.92,0.269,2.63,1442,ok
+0083715AR,428640.59,4580510.78,22.23,Platanus × acerifolia,True,TERCERA,G.V. Corts Catalanes,0.0,20.8,5.14,7.44,0.165,3.6,473,low_tree
+0083716AR,428684.05,4580221.65,36.9,Celtis australis,False,TERCERA,C\ Montfar,7.51,39.2,7.07,4.47,0.382,1.92,1595,ok
+0083717AR,428400.81,4580288.2,18.56,Platanus × acerifolia,True,TERCERA,G.V. Corts Catalanes,14.75,107.2,11.69,7.7,0.286,2.51,4196,ok
+0083718AR,428578.52,4580107.01,60.8,Styphnolobium japonicum 'Columnare',False,EXEMPLAR,Av Francesc Ferrer i Guàrdia,7.22,26.5,5.81,2.34,0.295,2.44,1177,ok
+0083719AR,428764.64,4580215.04,37.43,Celtis australis,False,TERCERA,C\ Montfar,9.42,53.2,8.23,5.98,0.259,2.7,1966,ok
+0083721AR,428572.24,4580332.8,28.06,Styphnolobium japonicum,False,SEGONA,C\ Santa Dorotea,15.57,36.2,6.79,7.36,0.079,5.07,923,ok
+0083722AR,428340.4,4580111.78,20.23,Styphnolobium japonicum,False,SEGONA,C\ Sant Fructuós,10.63,40.2,7.16,5.54,0.334,2.19,1630,ok
+0083723AR,428815.96,4580455.5,29.18,Prunus cerasifera 'Pissardii',False,SEGONA,C\ Mèxic,7.04,20.8,5.14,4.06,0.307,2.36,238,ok
+0083724AR,428266.31,4580155.87,16.57,Platanus × acerifolia,True,TERCERA,G.V. Corts Catalanes,15.61,55.8,8.43,8.56,0.184,3.38,2490,ok
+0083725AR,428726.13,4580230.29,36.65,Celtis australis,False,TERCERA,C\ Rabí Rubèn,8.56,37.5,6.91,5.59,0.275,2.58,1274,ok
+0083726AR,428764.32,4580446.89,28.54,Styphnolobium japonicum,False,SEGONA,C\ Sant Fructuós,19.87,18.0,4.79,6.89,0.238,2.87,361,ok
+0083727AR,428723.23,4580235.79,36.17,Celtis australis,False,TERCERA,C\ Rabí Rubèn,9.75,34.8,6.65,5.49,0.29,2.48,1245,ok
+0083728AR,428266.68,4579916.78,26.43,Jacaranda mimosifolia,False,SEGONA,C\ Font Florida,8.9,43.2,7.42,4.41,0.466,1.53,1976,ok
+0083729AR,428225.82,4579844.91,27.22,Jacaranda mimosifolia,False,TERCERA,C\ Font Florida,8.92,73.8,9.69,4.78,0.423,1.72,3250,ok
+0083730AR,428283.09,4580133.92,17.01,Acer negundo,False,SEGONA,C\ Mandoni,28.62,37.0,6.86,5.0,0.204,3.18,1366,ok
+0083731AR,428414.88,4579957.57,62.26,Pinus halepensis,False,EXEMPLAR,C\ Polvorí,12.92,116.5,12.18,3.49,0.289,2.48,4184,ok
+0083732AR,428438.2,4579971.68,64.12,Pinus halepensis,False,EXEMPLAR,C\ Polvorí,13.66,110.5,11.86,8.03,0.297,2.43,4054,ok
+0083734AR,428775.94,4580336.16,32.5,Brachychiton populneus,False,SEGONA,C\ Nord,6.19,3.8,2.19,2.7,0.385,1.91,147,ok
+0083735AR,428766.49,4580370.17,31.18,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Morabos,15.68,7.8,3.14,3.74,0.221,3.02,154,ok
+0083736AR,428558.45,4580337.89,26.88,Styphnolobium japonicum,False,SEGONA,C\ Santa Dorotea,11.86,55.0,8.37,7.54,0.223,3.0,1459,ok
+0083737AR,428798.8,4580232.02,37.57,Celtis australis,False,SEGONA,C\ Montfar,10.49,45.0,7.57,7.11,0.142,3.91,1186,ok
+0083738AR,428671.81,4580380.35,29.43,Styphnolobium japonicum,False,SEGONA,C\ Sant Fructuós,12.46,31.8,6.36,8.15,0.238,2.87,1121,ok
+0083739AR,428126.18,4579989.59,12.6,Celtis australis,False,EXEMPLAR,C\ Mineria,11.9,118.2,12.27,6.24,0.172,3.53,4381,ok
+0083740AR,428628.07,4580390.22,27.16,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Sant Germà,,0.0,0.0,,,,0,no_crown_detected
+0083741AR,428622.06,4580127.11,58.02,Platanus × acerifolia,True,PRIMERA,Av Francesc Ferrer i Guàrdia,6.23,4.5,2.39,3.83,0.459,1.56,185,ok
+0083744AR,428787.99,4580225.85,37.52,Celtis australis,False,SEGONA,C\ Montfar,10.68,47.0,7.74,6.35,0.104,4.53,1370,ok
+0083745AR,428548.85,4580432.37,20.89,Platanus × acerifolia,True,SEGONA,G.V. Corts Catalanes,13.39,58.0,8.59,7.1,0.227,2.97,1151,ok
+0083746AR,428358.73,4580130.12,22.05,Styphnolobium japonicum,False,SEGONA,C\ Sant Fructuós,17.79,42.5,7.36,6.44,0.25,2.78,1901,ok
+0083747AR,428201.93,4579758.92,22.83,Jacaranda mimosifolia,False,SEGONA,C\ Font Florida,10.12,48.2,7.84,5.41,0.445,1.62,2381,ok
+0083749AR,428719.76,4580241.29,35.79,Celtis australis,False,TERCERA,C\ Rabí Rubèn,10.26,44.8,7.55,6.76,0.158,3.69,1380,ok
+0083750AR,428732.98,4580233.95,36.51,Celtis australis,False,SEGONA,C\ Rabí Rubèn,13.02,28.2,6.0,5.22,0.29,2.47,989,ok
+0083751AR,428808.36,4580369.52,31.95,Ginkgo biloba 'Fastigiata Blagon',False,PRIMERA,C\ Gimbernat,7.28,7.2,3.04,4.0,0.244,2.82,331,ok
+0083752AR,428821.36,4580143.17,46.23,Platanus × acerifolia,True,EXEMPLAR,Av Francesc Ferrer i Guàrdia,13.02,75.0,9.77,6.36,0.428,1.7,3284,ok
+0083753AR,428062.83,4579781.16,11.1,Tipuana tipu,False,SEGONA,C\ Mineria,11.94,68.8,9.36,7.08,0.299,2.41,2517,ok
+0083754AR,428835.6,4580396.45,31.46,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Gimbernat,16.25,7.2,3.04,3.49,0.383,1.92,60,ok
+0083756AR,428534.85,4580066.96,63.91,Styphnolobium japonicum 'Columnare',False,SEGONA,Av Francesc Ferrer i Guàrdia,5.39,21.8,5.26,3.36,0.449,1.6,919,ok
+0083758AR,428347.15,4580236.66,17.92,Platanus × acerifolia,True,TERCERA,G.V. Corts Catalanes,15.57,68.0,9.3,6.71,0.212,3.11,3030,ok
+0083759AR,428253.59,4580143.98,16.39,Platanus × acerifolia,True,EXEMPLAR,G.V. Corts Catalanes,17.77,99.8,11.27,8.87,0.19,3.32,4535,ok
+0083760AR,428565.45,4580438.35,21.12,Platanus × acerifolia,True,TERCERA,G.V. Corts Catalanes,15.88,46.0,7.65,8.95,0.069,5.33,849,ok
+0083761AR,428646.45,4580133.31,56.5,Platanus × acerifolia,True,EXEMPLAR,Av Francesc Ferrer i Guàrdia,9.17,58.2,8.61,5.82,0.424,1.72,2502,ok
+0083763AR,428318.49,4580207.23,17.52,Platanus × acerifolia,True,TERCERA,G.V. Corts Catalanes,17.45,93.2,10.9,7.68,0.187,3.35,4023,ok
+0083764AR,428608.35,4580452.01,23.15,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Sant Germà,4.82,2.8,1.87,2.89,0.0,7.82,16,few_points
+0083766AR,428274.58,4580031.11,19.72,Styphnolobium japonicum,False,SEGONA,C\ Sant Fructuós,11.7,42.5,7.36,6.75,0.25,2.78,2082,ok
+0083767AR,428728.42,4580428.6,28.71,Styphnolobium japonicum,False,SEGONA,C\ Sant Fructuós,9.84,38.8,7.02,6.27,0.214,3.08,593,ok
+0083768AR,428464.35,4579987.66,66.06,Pinus pinea,False,SEGONA,C\ Polvorí,6.1,37.2,6.89,2.49,0.315,2.31,1459,ok
+0083769AR,428434.51,4580259.7,21.76,Styphnolobium japonicum,False,SEGONA,C\ Sant Paulí de Nola,10.36,62.8,8.94,6.3,0.15,3.79,2108,ok
+0083770AR,428459.15,4580251.82,23.99,Styphnolobium japonicum,False,SEGONA,C\ Sant Paulí de Nola,25.74,0.5,0.8,9.06,0.0,7.82,21,no_crown_detected
+0083772AR,428123.54,4579977.97,12.46,Celtis australis,False,PRIMERA,C\ Mineria,1.72,25.5,5.7,6.12,0.237,2.88,943,low_tree
+0083774AR,428248.14,4580021.26,19.94,Koelreuteria paniculata 'Fastigiata',False,PRIMERA,C\ Sant Fructuós,7.2,40.8,7.2,3.44,0.328,2.23,1355,ok
+0083775AR,428205.48,4580086.04,14.85,Platanus × acerifolia,True,SEGONA,G.V. Corts Catalanes,15.49,57.2,8.54,8.11,0.229,2.95,2412,ok
+0083776AR,428768.66,4580127.37,49.72,Platanus × acerifolia,True,EXEMPLAR,Av Francesc Ferrer i Guàrdia,14.68,78.8,10.01,6.71,0.422,1.73,3831,ok
+0083778AR,428355.08,4579909.04,57.73,Pinus pinea,False,SEGONA,C\ Polvorí,3.27,4.2,2.33,2.45,0.552,1.19,161,ok
+0083779AR,428218.58,4579803.58,25.77,Jacaranda mimosifolia,False,TERCERA,C\ Font Florida,10.53,48.5,7.86,5.5,0.419,1.74,2749,ok
+0083780AR,428467.2,4580243.12,25.28,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Sant Paulí de Nola,24.39,10.5,3.66,3.42,0.204,3.18,463,ok
+0083782AR,428742.01,4580395.47,29.49,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Morabos,5.46,15.8,4.48,4.26,0.139,3.95,202,ok
+0083783AR,428181.5,4580063.37,14.23,Platanus × acerifolia,True,TERCERA,G.V. Corts Catalanes,18.04,76.8,9.89,8.11,0.213,3.1,3617,ok
+0083784AR,428524.53,4580409.21,20.38,Platanus × acerifolia,True,SEGONA,G.V. Corts Catalanes,14.34,49.5,7.94,7.38,0.183,3.39,927,ok
+0083786AR,428609.45,4580312.7,30.82,Styphnolobium japonicum,False,SEGONA,C\ Sant Fructuós,18.57,0.5,0.8,7.07,0.0,7.82,10,no_crown_detected
+0083787AR,428093.02,4579878.71,11.62,Tipuana tipu,False,PRIMERA,C\ Mineria,13.89,23.2,5.44,2.26,0.278,2.56,828,ok
+0083788AR,428804.2,4580332.39,33.28,Prunus cerasifera 'Pissardii',False,SEGONA,C\ Morabos,5.46,12.0,3.91,3.53,0.233,2.92,220,ok
+0083789AR,428832.53,4580153.3,45.29,Platanus × acerifolia,True,EXEMPLAR,Av Francesc Ferrer i Guàrdia,16.63,108.0,11.73,8.54,0.33,2.22,4923,ok
+0083790AR,428703.35,4580214.51,36.97,Celtis australis,False,SEGONA,C\ Montfar,7.62,32.5,6.43,4.84,0.411,1.78,1225,ok
+0083791AR,428371.07,4579927.7,58.94,Pinus halepensis,False,PRIMERA,C\ Polvorí,3.23,10.2,3.61,2.05,0.453,1.59,362,ok
+0083792AR,428614.47,4580316.37,30.78,Styphnolobium japonicum,False,SEGONA,C\ Sant Fructuós,11.84,28.5,6.02,4.48,0.178,3.46,1268,ok
+0083794AR,428650.85,4580519.93,22.25,Platanus × acerifolia,True,SEGONA,G.V. Corts Catalanes,9.51,28.2,6.0,9.23,0.101,4.58,503,ok
+0083795AR,428278.63,4580035.16,19.65,Styphnolobium japonicum,False,SEGONA,C\ Sant Fructuós,12.47,51.0,8.06,6.76,0.264,2.66,2564,ok
+0083798AR,428853.52,4580196.41,42.29,Platanus × acerifolia,True,EXEMPLAR,Av Francesc Ferrer i Guàrdia,16.18,138.2,13.27,7.77,0.339,2.16,7307,ok
+0083799AR,428729.12,4580224.4,37.03,Celtis australis,False,SEGONA,C\ Rabí Rubèn,7.94,37.5,6.91,5.14,0.388,1.89,1289,ok
+0083800AR,428710.9,4580212.62,37.02,Celtis australis,False,SEGONA,C\ Montfar,8.21,29.2,6.1,4.84,0.476,1.49,1224,ok
+0083801AR,428098.34,4579895.94,11.74,Tipuana tipu,False,TERCERA,C\ Mineria,14.88,45.8,7.63,9.48,0.156,3.71,1923,ok
+0083802AR,428209.74,4579770.48,23.84,Jacaranda mimosifolia,False,SEGONA,C\ Font Florida,8.35,26.2,5.78,4.8,0.432,1.68,1258,ok
+0083803AR,428725.69,4580220.01,37.13,Celtis australis,False,TERCERA,C\ Montfar,7.28,32.2,6.41,4.6,0.442,1.63,1195,ok
+0083804AR,428291.76,4580048.29,19.11,Styphnolobium japonicum,False,SEGONA,C\ Sant Fructuós,12.89,36.8,6.84,8.48,0.216,3.07,1495,ok
+0083806AR,428465.85,4580351.88,19.43,Platanus × acerifolia,True,SEGONA,G.V. Corts Catalanes,13.78,85.5,10.43,6.35,0.261,2.69,3340,ok
+0083807AR,428770.33,4580333.35,32.33,Brachychiton populneus,False,PRIMERA,C\ Nord,,0.0,0.0,,,,0,no_crown_detected
+0083808AR,428448.1,4580333.56,19.13,Platanus × acerifolia,True,SEGONA,G.V. Corts Catalanes,12.82,58.0,8.59,6.51,0.359,2.05,2288,ok
+0083810AR,428705.08,4580258.04,34.72,Ulmus minor 'Umbraculifera',False,SEGONA,C\ Valls,7.65,10.2,3.61,5.82,0.281,2.54,340,ok
+0083811AR,428449.4,4580248.61,23.58,Prunus cerasifera 'Pissardii',False,SEGONA,C\ Sant Paulí de Nola,6.3,29.5,6.13,3.96,0.328,2.23,748,ok
+0083812AR,428424.16,4580310.78,18.8,Platanus × acerifolia,True,SEGONA,G.V. Corts Catalanes,13.57,63.0,8.96,7.32,0.308,2.36,2404,ok
+0083813AR,428682.8,4580246.08,35.79,Brachychiton acerifolius,False,PRIMERA,C\ Valls,4.64,3.0,1.95,1.77,0.333,2.2,97,ok
+0083814AR,428772.65,4580456.45,28.39,Styphnolobium japonicum,False,SEGONA,C\ Sant Fructuós,10.67,12.0,3.91,6.66,0.168,3.57,155,ok
+0083815AR,428133.78,4579735.85,17.58,Jacaranda mimosifolia,False,TERCERA,C\ Font Florida,9.73,56.8,8.5,5.46,0.396,1.85,1563,ok
+0083816AR,428260.02,4580150.27,16.42,Platanus × acerifolia,True,EXEMPLAR,C\ Mandoni,20.52,109.5,11.81,8.72,0.16,3.66,5333,ok
+0083817AR,428679.03,4580546.07,22.36,Platanus × acerifolia,True,EXEMPLAR,G.V. Corts Catalanes,17.58,86.8,10.51,10.27,0.147,3.83,1709,ok
+0083820AR,428275.35,4580047.51,19.36,Koelreuteria paniculata 'Fastigiata',False,PRIMERA,C\ Sant Fructuós,10.59,24.2,5.56,4.91,0.301,2.4,810,ok
+0083821AR,428782.59,4580222.95,37.47,Celtis australis,False,SEGONA,C\ Montfar,8.96,43.0,7.4,5.97,0.212,3.1,1180,ok
+0083822AR,428696.86,4580136.32,53.62,Platanus × acerifolia,True,EXEMPLAR,Av Francesc Ferrer i Guàrdia,15.69,66.8,9.22,6.58,0.403,1.82,3399,ok
+0083824AR,428564.62,4580097.69,61.63,Platanus × acerifolia,True,PRIMERA,Av Francesc Ferrer i Guàrdia,4.5,18.2,4.82,2.16,0.293,2.45,703,ok
+0083825AR,428645.77,4580241.12,36.37,Celtis australis,False,SEGONA,C\ Chopin,9.96,42.2,7.33,5.41,0.134,4.02,1537,ok
+0083826AR,428233.75,4579871.57,26.94,Jacaranda mimosifolia,False,SEGONA,C\ Font Florida,9.54,105.2,11.58,3.92,0.416,1.76,5353,ok
+0083827AR,428733.14,4580404.34,28.93,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Morabos,14.08,20.5,5.11,4.32,0.441,1.64,399,ok
+0083831AR,428512.95,4580397.43,20.15,Platanus × acerifolia,True,SEGONA,G.V. Corts Catalanes,13.61,57.0,8.52,7.61,0.246,2.81,1189,ok
+0083832AR,428593.73,4580115.78,59.75,Styphnolobium japonicum,False,EXEMPLAR,Av Francesc Ferrer i Guàrdia,8.71,70.5,9.47,4.72,0.358,2.05,3337,ok
+0083833AR,428168.22,4579738.21,20.0,Jacaranda mimosifolia,False,TERCERA,C\ Font Florida,11.99,71.2,9.52,6.62,0.358,2.05,1859,ok
+0083835AR,428571.42,4580455.42,21.41,Platanus × acerifolia,True,SEGONA,G.V. Corts Catalanes,11.61,48.0,7.82,6.7,0.263,2.67,871,ok
+0083836AR,428134.93,4580016.7,13.11,Platanus × acerifolia,True,TERCERA,G.V. Corts Catalanes,12.97,67.5,9.27,6.81,0.24,2.85,2432,ok
+0083837AR,428105.34,4579919.17,11.84,Tipuana tipu,False,TERCERA,C\ Mineria,16.67,53.2,8.23,10.5,0.204,3.18,2094,ok
+0083838AR,428082.43,4579844.1,11.49,Tipuana tipu,False,SEGONA,C\ Mineria,14.58,41.5,7.27,9.15,0.272,2.6,1496,ok
+0083839AR,428738.52,4580131.3,51.3,Platanus × acerifolia,True,EXEMPLAR,Av Francesc Ferrer i Guàrdia,13.02,66.5,9.2,5.94,0.429,1.69,3001,ok
+0083840AR,428115.97,4579953.16,12.25,Celtis australis,False,EXEMPLAR,C\ Mineria,13.41,93.8,10.93,7.72,0.161,3.66,2814,ok
+0083842AR,428237.24,4579878.09,26.89,Jacaranda mimosifolia,False,PRIMERA,C\ Font Florida,0.0,32.0,6.38,3.49,0.357,2.06,1242,low_tree
+0083843AR,428346.92,4579891.33,57.08,Pinus halepensis,False,EXEMPLAR,C\ Polvorí,9.02,33.8,6.56,6.43,0.321,2.27,1155,ok
+0083844AR,428540.97,4580074.97,63.42,Platanus × acerifolia,True,PRIMERA,Av Francesc Ferrer i Guàrdia,6.03,7.5,3.09,2.12,0.416,1.75,291,ok
+0083845AR,428199.89,4580081.11,14.74,Platanus × acerifolia,True,SEGONA,G.V. Corts Catalanes,15.96,78.0,9.97,6.14,0.177,3.47,2950,ok
+0083849AR,428427.06,4580283.94,19.77,Styphnolobium japonicum,False,SEGONA,C\ Sant Paulí de Nola,7.83,75.8,9.82,4.52,0.231,2.93,2900,ok
+0083851AR,428348.69,4580103.49,20.56,Styphnolobium japonicum,False,SEGONA,C\ Sant Fructuós,9.32,43.5,7.44,5.25,0.221,3.02,1434,ok
+0083852AR,428683.24,4580390.31,29.29,Styphnolobium japonicum,False,TERCERA,C\ Sant Fructuós,11.53,26.2,5.78,7.5,0.193,3.29,457,ok
+0083853AR,428382.86,4580270.82,18.39,Platanus × acerifolia,True,TERCERA,G.V. Corts Catalanes,16.24,85.0,10.4,6.83,0.28,2.54,3493,ok
+0083854AR,428691.5,4580251.07,35.46,Brachychiton acerifolius,False,SEGONA,C\ Valls,5.93,4.5,2.39,4.84,0.159,3.68,133,ok
+0083855AR,428712.79,4580222.39,36.99,Celtis australis,False,TERCERA,C\ Montfar,7.26,25.0,5.64,5.19,0.465,1.53,923,ok
+0083856AR,428080.4,4579838.41,11.36,Tipuana tipu,False,TERCERA,C\ Mineria,13.9,44.2,7.51,8.88,0.278,2.56,1592,ok
+0083857AR,428378.56,4579933.96,59.57,Pinus halepensis,False,EXEMPLAR,C\ Polvorí,10.71,95.5,11.03,7.97,0.282,2.53,3201,ok
+0083859AR,428845.24,4580171.99,43.85,Platanus × acerifolia,True,EXEMPLAR,Av Francesc Ferrer i Guàrdia,14.05,59.8,8.72,7.63,0.348,2.11,2603,ok
+0083861AR,428793.78,4580229.13,37.54,Celtis australis,False,TERCERA,C\ Montfar,10.58,45.8,7.63,7.03,0.091,4.79,1181,ok
+0083862AR,428815.24,4580139.29,46.62,Platanus × acerifolia,True,TERCERA,Av Francesc Ferrer i Guàrdia,10.16,35.8,6.75,2.36,0.372,1.98,1492,ok
+0083863AR,428113.2,4579735.03,16.1,Jacaranda mimosifolia,False,TERCERA,C\ Font Florida,10.0,64.8,9.08,5.39,0.38,1.94,1901,ok
+0083864AR,428299.57,4580178.18,17.25,Platanus × acerifolia,True,SEGONA,G.V. Corts Catalanes,13.44,52.0,8.14,6.38,0.164,3.62,2086,ok
+0083865AR,428598.26,4580319.65,30.71,Styphnolobium japonicum,False,SEGONA,C\ Sant Fructuós,18.44,34.0,6.58,6.7,0.219,3.03,1514,ok
+0083866AR,428418.57,4580275.64,19.66,Robinia pseudoacacia,False,TERCERA,C\ Sant Paulí de Nola,13.4,54.8,8.35,7.3,0.209,3.13,1818,ok
+0083867AR,428541.51,4580415.77,20.62,Platanus × acerifolia,True,SEGONA,G.V. Corts Catalanes,13.94,51.0,8.06,6.97,0.074,5.22,937,ok
+0083868AR,428715.03,4580134.51,52.63,Platanus × acerifolia,True,EXEMPLAR,Av Francesc Ferrer i Guàrdia,10.56,43.5,7.44,8.17,0.481,1.46,1811,ok
+0083869AR,428772.14,4580500.46,27.27,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Mèxic,20.31,6.2,2.82,3.0,0.391,1.88,69,ok
+0083871AR,428533.15,4580363.02,22.82,Styphnolobium japonicum,False,SEGONA,C\ Santa Dorotea,11.24,27.5,5.92,8.88,0.097,4.66,622,ok
+0083872AR,428076.94,4579827.23,11.34,Tipuana tipu,False,SEGONA,C\ Mineria,15.37,42.8,7.38,10.42,0.232,2.92,1723,ok
+0083873AR,428061.55,4579775.37,11.08,Tipuana tipu,False,SEGONA,C\ Mineria,10.67,71.8,9.56,7.38,0.258,2.71,2347,ok
+0083875AR,428109.21,4579930.34,11.96,Tipuana tipu,False,TERCERA,C\ Mineria,18.07,55.5,8.41,12.76,0.267,2.64,2251,ok
+0083876AR,428368.0,4580138.8,22.89,Styphnolobium japonicum,False,SEGONA,C\ Sant Fructuós,17.01,28.0,5.97,4.21,0.323,2.26,1045,ok
+0083878AR,428750.39,4580386.76,30.08,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Morabos,6.37,20.8,5.14,4.05,0.285,2.51,291,ok
+0083882AR,428277.42,4580157.13,16.68,Platanus × acerifolia,True,TERCERA,G.V. Corts Catalanes,14.21,78.0,9.97,8.09,0.196,3.25,3183,ok
+0083883AR,428296.2,4580051.76,19.05,Styphnolobium japonicum,False,SEGONA,C\ Sant Fructuós,22.55,39.2,7.07,8.26,0.252,2.75,1360,ok
+0083885AR,428631.61,4580399.79,26.62,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Sant Germà,5.77,3.5,2.11,4.04,0.425,1.71,40,few_points
+0083886AR,428826.19,4580146.72,45.83,Platanus × acerifolia,True,EXEMPLAR,Av Francesc Ferrer i Guàrdia,11.65,51.0,8.06,6.83,0.399,1.84,2189,ok
+0083887AR,428140.52,4579735.85,17.99,Jacaranda mimosifolia,False,TERCERA,C\ Font Florida,11.14,59.0,8.67,6.31,0.39,1.88,1665,ok
+0083888AR,428223.55,4580104.11,15.32,Platanus × acerifolia,True,TERCERA,G.V. Corts Catalanes,16.91,66.0,9.17,8.08,0.204,3.18,2568,ok
+0083889AR,428518.93,4580403.42,20.28,Platanus × acerifolia,True,SEGONA,G.V. Corts Catalanes,14.27,69.0,9.37,7.04,0.218,3.04,1273,ok
+0083891AR,428101.76,4579907.86,11.84,Tipuana tipu,False,TERCERA,C\ Mineria,15.35,40.8,7.2,10.02,0.193,3.29,1447,ok
+0083893AR,428489.05,4580020.05,66.38,Pinus halepensis,False,EXEMPLAR,C\ Polvorí,17.34,52.5,8.18,7.64,0.334,2.19,2055,ok
+0083894AR,428390.98,4579943.28,60.38,Pinus halepensis,False,EXEMPLAR,C\ Polvorí,11.24,35.0,6.68,6.77,0.314,2.32,1371,ok
+0083895AR,428638.13,4580255.59,36.06,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Chopin,6.17,13.8,4.18,3.46,0.196,3.26,398,ok
+0083896AR,428826.22,4580232.68,38.24,Celtis australis,False,SEGONA,C\ Dàlia,11.97,44.0,7.48,6.92,0.097,4.66,1168,ok
+0083897AR,428676.74,4580136.94,54.82,Platanus × acerifolia,True,TERCERA,Av Francesc Ferrer i Guàrdia,11.98,67.8,9.29,6.85,0.368,2.0,2848,ok
+0083900AR,428712.48,4580415.35,28.9,Styphnolobium japonicum,False,SEGONA,C\ Sant Fructuós,19.59,27.8,5.94,7.08,0.169,3.56,450,ok
+0083901AR,428582.43,4580322.78,29.55,Styphnolobium japonicum,False,SEGONA,C\ Santa Dorotea,19.48,29.2,6.1,10.42,0.031,6.97,964,ok
+0083902AR,428560.24,4580443.95,21.16,Platanus × acerifolia,True,SEGONA,G.V. Corts Catalanes,14.14,65.5,9.13,7.65,0.224,2.99,1195,ok
+0083903AR,428746.59,4580319.84,31.8,Brachychiton populneus,False,TERCERA,C\ Nord,9.0,29.8,6.15,4.34,0.302,2.4,1378,ok
+0083905AR,428394.05,4580271.4,18.47,Platanus × acerifolia,True,TERCERA,G.V. Corts Catalanes,14.67,43.2,7.42,6.38,0.093,4.75,1649,ok
+0083906AR,428685.57,4580551.64,22.51,Platanus × acerifolia,True,EXEMPLAR,G.V. Corts Catalanes,13.97,29.0,6.08,9.02,0.0,7.82,398,ok
+0083907AR,428696.86,4580216.64,36.9,Celtis australis,False,SEGONA,C\ Montfar,7.71,31.5,6.33,4.76,0.449,1.6,1241,ok
+0083909AR,428848.41,4580408.44,31.18,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Gimbernat,,0.0,0.0,,,,0,no_crown_detected
+0083910AR,428816.52,4580377.69,31.8,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Gimbernat,4.31,2.0,1.6,2.63,0.448,1.6,69,ok
+0083911AR,428530.13,4580404.0,20.26,Platanus × acerifolia,True,PRIMERA,G.V. Corts Catalanes,8.69,31.2,6.31,6.86,0.339,2.17,493,ok
+0083912AR,428678.34,4580244.1,36.02,Brachychiton acerifolius,False,SEGONA,C\ Valls,,0.0,0.0,,,,0,no_crown_detected
+0083913AR,428266.28,4580039.21,19.58,Styphnolobium japonicum,False,SEGONA,C\ Sant Fructuós,12.06,51.5,8.1,7.61,0.28,2.54,1921,ok
+0083915AR,428723.72,4580250.94,35.35,Celtis australis,False,TERCERA,C\ Rabí Rubèn,12.07,35.5,6.72,8.17,0.064,5.49,825,ok
+0083916AR,428716.67,4580246.88,35.25,Celtis australis,False,SEGONA,C\ Rabí Rubèn,10.64,43.2,7.42,7.72,0.022,7.65,1065,ok
+0083917AR,428773.01,4580229.18,37.42,Celtis australis,False,SEGONA,C\ Montfar,8.72,36.5,6.82,5.52,0.233,2.91,1179,ok
+0083918AR,428476.66,4580352.46,19.41,Platanus × acerifolia,True,PRIMERA,G.V. Corts Catalanes,7.49,34.2,6.6,4.06,0.294,2.45,804,ok
+0083919AR,428430.34,4580317.34,18.97,Platanus × acerifolia,True,TERCERA,G.V. Corts Catalanes,12.71,55.0,8.37,7.42,0.333,2.2,2363,ok
+0083920AR,428831.8,4580226.44,38.77,Celtis australis,False,EXEMPLAR,C\ Dàlia,13.56,67.0,9.24,7.33,0.157,3.7,2227,ok
+0083922AR,428542.19,4580363.17,23.58,Styphnolobium japonicum,False,SEGONA,C\ Santa Dorotea,13.15,37.2,6.89,2.64,0.059,5.66,1332,ok
+0083923AR,428446.94,4580322.36,19.07,Platanus × acerifolia,True,SEGONA,G.V. Corts Catalanes,9.82,26.8,5.84,6.21,0.236,2.89,780,ok
+0083924AR,428228.72,4579858.62,27.09,Jacaranda mimosifolia,False,SEGONA,C\ Font Florida,7.99,42.2,7.33,4.37,0.429,1.69,2049,ok
+0083925AR,428750.89,4580450.37,28.36,Styphnolobium japonicum,False,SEGONA,C\ Sant Fructuós,19.0,39.2,7.07,6.1,0.135,4.01,772,ok
+0083927AR,428078.77,4579831.91,11.42,Tipuana tipu,False,SEGONA,C\ Mineria,13.12,30.8,6.26,7.17,0.233,2.92,1190,ok
+0083928AR,428488.3,4580024.88,66.0,Pinus halepensis,False,EXEMPLAR,C\ Polvorí,17.5,86.2,10.48,3.76,0.231,2.93,3578,ok
+0083929AR,428679.79,4580371.97,29.54,Styphnolobium japonicum,False,SEGONA,C\ Sant Fructuós,12.24,35.2,6.7,3.5,0.177,3.46,1559,ok
+0083930AR,428488.24,4580363.46,19.6,Platanus × acerifolia,True,SEGONA,G.V. Corts Catalanes,8.63,22.5,5.35,4.23,0.211,3.11,706,ok
+0083931AR,428192.25,4579749.4,21.96,Jacaranda mimosifolia,False,TERCERA,C\ Font Florida,11.24,51.8,8.12,5.62,0.389,1.89,3176,ok
+0083933AR,428621.61,4580337.6,30.14,Styphnolobium japonicum,False,SEGONA,C\ Sant Fructuós,11.37,43.5,7.44,6.75,0.342,2.15,1918,ok
+0083934AR,428303.72,4580112.17,18.03,Styphnolobium japonicum,False,SEGONA,C\ Mandoni,10.26,42.0,7.31,6.86,0.307,2.36,1361,ok
+0083935AR,428121.95,4579971.46,12.48,Celtis australis,False,EXEMPLAR,C\ Mineria,10.12,88.0,10.59,5.96,0.217,3.06,3406,ok
+0083936AR,428602.51,4580322.35,30.57,Styphnolobium japonicum,False,SEGONA,C\ Sant Fructuós,18.37,31.0,6.28,7.38,0.285,2.51,1167,ok
+0083937AR,428773.78,4580126.87,49.34,Platanus × acerifolia,True,EXEMPLAR,Av Francesc Ferrer i Guàrdia,12.66,70.2,9.46,6.5,0.398,1.84,3232,ok
+0083938AR,428737.91,4580399.57,29.2,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Morabos,17.58,10.0,3.57,4.41,0.265,2.66,155,ok
+0083939AR,428365.1,4580253.64,18.22,Platanus × acerifolia,True,SEGONA,G.V. Corts Catalanes,12.88,58.8,8.65,7.66,0.27,2.62,2241,ok
+0083940AR,428670.33,4580364.29,29.72,Styphnolobium japonicum,False,SEGONA,C\ Sant Fructuós,12.1,44.2,7.51,5.98,0.233,2.92,2254,ok
+0083941AR,428790.65,4580129.23,48.33,Platanus × acerifolia,True,TERCERA,Av Francesc Ferrer i Guàrdia,12.14,48.8,7.88,6.65,0.37,1.99,2191,ok
+0083943AR,428762.87,4580374.11,30.92,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Morabos,,0.0,0.0,,,,0,no_crown_detected
+0083944AR,428272.6,4580162.16,16.69,Platanus × acerifolia,True,SEGONA,G.V. Corts Catalanes,17.02,47.8,7.8,8.88,0.201,3.21,2107,ok
+0083945AR,428197.25,4579754.08,22.39,Jacaranda mimosifolia,False,TERCERA,C\ Font Florida,11.34,51.5,8.1,5.21,0.387,1.9,2799,ok
+0083946AR,428630.13,4580406.54,26.28,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Sant Germà,,0.0,0.0,,,,0,no_crown_detected
+0083947AR,428441.15,4580317.54,19.02,Platanus × acerifolia,True,SEGONA,G.V. Corts Catalanes,12.3,46.2,7.67,6.43,0.203,3.19,1683,ok
+0083948AR,428224.6,4579838.21,27.24,Jacaranda mimosifolia,False,SEGONA,C\ Font Florida,9.68,52.2,8.16,4.88,0.369,1.99,2583,ok
+0083950AR,428721.67,4580134.0,52.3,Platanus × acerifolia,True,EXEMPLAR,Av Francesc Ferrer i Guàrdia,14.44,74.5,9.74,7.13,0.366,2.01,3415,ok
+0083952AR,428217.96,4580098.53,15.12,Platanus × acerifolia,True,SEGONA,G.V. Corts Catalanes,12.36,42.5,7.36,8.59,0.208,3.15,1423,ok
+0083953AR,428307.05,4580062.7,19.0,Styphnolobium japonicum,False,SEGONA,C\ Sant Fructuós,12.33,30.2,6.21,7.53,0.309,2.35,1285,ok
+0083954AR,428265.7,4580022.04,19.94,Styphnolobium japonicum,False,SEGONA,C\ Sant Fructuós,10.05,33.2,6.51,4.78,0.319,2.29,1507,ok
+0083955AR,428084.87,4579851.02,11.45,Tipuana tipu,False,TERCERA,C\ Mineria,16.05,52.2,8.16,9.82,0.195,3.26,1973,ok
+0083956AR,428247.86,4580126.78,16.03,Platanus × acerifolia,True,TERCERA,G.V. Corts Catalanes,14.9,74.0,9.71,7.17,0.204,3.18,2832,ok
+0083957AR,428594.98,4580302.28,31.24,Styphnolobium japonicum,False,TERCERA,C\ Sant Fructuós,18.46,83.5,10.31,6.46,0.281,2.54,3459,ok
+0083958AR,428735.13,4580434.81,28.62,Styphnolobium japonicum,False,SEGONA,C\ Sant Fructuós,10.4,45.5,7.61,6.28,0.136,3.99,707,ok
+0083959AR,428760.08,4580377.4,30.65,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Morabos,7.28,13.5,4.15,5.04,0.235,2.89,449,ok
+0083961AR,428659.23,4580135.75,55.81,Platanus × acerifolia,True,EXEMPLAR,Av Francesc Ferrer i Guàrdia,13.99,67.8,9.29,7.64,0.304,2.38,2905,ok
+0083963AR,428174.6,4579739.87,20.61,Jacaranda mimosifolia,False,TERCERA,C\ Font Florida,11.2,76.8,9.89,6.48,0.373,1.97,2750,ok
+0083964AR,428622.24,4580429.26,24.91,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Sant Germà,5.25,6.0,2.76,3.15,0.418,1.74,67,ok
+0083965AR,428660.34,4580528.67,22.24,Platanus × acerifolia,True,SEGONA,G.V. Corts Catalanes,9.56,35.2,6.7,5.46,0.281,2.54,487,ok
+0083966AR,428295.64,4580105.99,17.88,Acer negundo,False,TERCERA,C\ Mandoni,11.21,60.5,8.78,6.5,0.245,2.81,2766,ok
+0083967AR,428309.51,4580080.71,18.71,Styphnolobium japonicum,False,TERCERA,C\ Sant Fructuós,11.15,109.0,11.78,5.65,0.315,2.31,4362,ok
+0083968AR,428398.49,4579947.4,60.95,Pinus halepensis,False,EXEMPLAR,C\ Polvorí,12.25,111.5,11.91,3.59,0.329,2.23,4333,ok
+0083969AR,428373.21,4580143.82,23.26,Styphnolobium japonicum,False,SEGONA,C\ Sant Fructuós,10.36,39.2,7.07,5.15,0.251,2.77,1702,ok
+0083970AR,428288.86,4580061.02,19.06,Styphnolobium japonicum,False,TERCERA,C\ Sant Fructuós,17.99,54.8,8.35,8.55,0.272,2.6,2041,ok
+0083971AR,428459.87,4580346.3,19.28,Platanus × acerifolia,True,SEGONA,G.V. Corts Catalanes,15.54,72.5,9.61,7.54,0.262,2.68,2872,ok
+0083973AR,428240.63,4579883.82,26.91,Jacaranda mimosifolia,False,TERCERA,C\ Font Florida,8.7,81.8,10.2,3.89,0.316,2.31,3443,ok
+0083974AR,428257.59,4580030.53,19.74,Styphnolobium japonicum,False,SEGONA,C\ Sant Fructuós,10.37,38.2,6.98,5.16,0.164,3.61,1354,ok
+0083975AR,428334.99,4580090.36,19.59,Styphnolobium japonicum,False,SEGONA,C\ Sant Fructuós,9.93,56.8,8.5,5.45,0.312,2.33,2435,ok
+0083976AR,428751.51,4580211.56,37.33,Celtis australis,False,EXEMPLAR,C\ Montfar,9.97,56.2,8.46,5.64,0.321,2.27,2380,ok
+0083978AR,428745.87,4580130.24,50.97,Platanus × acerifolia,True,EXEMPLAR,Av Francesc Ferrer i Guàrdia,14.76,35.5,6.72,6.98,0.418,1.74,1571,ok
+0083979AR,428170.66,4580062.88,14.18,Platanus × acerifolia,True,TERCERA,G.V. Corts Catalanes,15.4,82.5,10.25,8.31,0.217,3.05,3878,ok
+0083980AR,428499.82,4580375.04,19.74,Platanus × acerifolia,True,SEGONA,G.V. Corts Catalanes,11.46,58.5,8.63,4.61,0.241,2.84,1642,ok
+0083981AR,428684.02,4580136.86,54.41,Platanus × acerifolia,True,TERCERA,Av Francesc Ferrer i Guàrdia,13.33,74.5,9.74,7.58,0.421,1.73,3389,ok
+0083982AR,428577.5,4580461.17,21.54,Platanus × acerifolia,True,SEGONA,G.V. Corts Catalanes,14.68,59.2,8.69,7.45,0.187,3.35,1127,ok
+0083983AR,428774.71,4580474.55,28.07,Styphnolobium japonicum,False,SEGONA,C\ Sant Fructuós,19.33,63.0,8.96,7.83,0.082,5.01,1006,ok
+0083984AR,428729.89,4580239.45,36.13,Celtis australis,False,SEGONA,C\ Rabí Rubèn,13.57,25.8,5.73,6.25,0.274,2.59,773,ok
+0083987AR,428435.74,4580322.54,19.01,Platanus × acerifolia,True,SEGONA,G.V. Corts Catalanes,12.15,70.2,9.46,7.97,0.322,2.27,2497,ok
+0083988AR,428064.98,4579734.19,12.81,Jacaranda mimosifolia,False,EXEMPLAR,C\ Font Florida,11.22,131.5,12.94,5.32,0.303,2.39,3323,ok
+0083989AR,428586.26,4580111.82,60.3,Styphnolobium japonicum 'Columnare',False,EXEMPLAR,Av Francesc Ferrer i Guàrdia,8.65,32.0,6.38,2.82,0.29,2.48,1406,ok
+0083990AR,428532.54,4580372.53,21.91,Styphnolobium japonicum,False,SEGONA,C\ Santa Dorotea,11.34,25.0,5.64,9.14,0.052,5.9,589,ok
+0083991AR,428588.67,4580461.83,21.67,Platanus × acerifolia,True,SEGONA,G.V. Corts Catalanes,11.99,45.0,7.57,8.03,0.15,3.79,812,ok
+0083992AR,428717.74,4580555.66,23.52,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Mèxic,5.85,7.0,2.99,3.37,0.321,2.27,106,ok
+0083994AR,428382.47,4580259.62,18.36,Platanus × acerifolia,True,SEGONA,G.V. Corts Catalanes,14.06,56.5,8.48,8.01,0.272,2.6,2282,ok
+0083995AR,428615.2,4580429.79,24.69,Pyrus calleryana 'Chanticleer',False,SEGONA,C\ Sant Germà,,0.0,0.0,,,,0,no_crown_detected
+0083996AR,428297.48,4580069.35,18.8,Koelreuteria paniculata 'Fastigiata',False,PRIMERA,C\ Sant Fructuós,9.55,18.0,4.79,5.52,0.328,2.23,610,ok
+0083997AR,428088.53,4579862.4,11.5,Tipuana tipu,False,TERCERA,C\ Mineria,16.57,35.8,6.75,9.99,0.284,2.51,1564,ok
+0083998AR,428147.75,4580039.87,13.54,Platanus × acerifolia,True,TERCERA,G.V. Corts Catalanes,16.31,44.8,7.55,9.71,0.091,4.78,1845,ok
+0083999AR,428359.88,4579916.35,58.12,Pinus halepensis,False,EXEMPLAR,C\ Polvorí,8.83,46.0,7.65,5.74,0.375,1.96,1830,ok
+0084000AR,428571.04,4580443.95,21.16,Platanus × acerifolia,True,SEGONA,G.V. Corts Catalanes,13.32,51.2,8.08,7.21,0.035,6.73,869,ok
+0084001AR,428746.61,4580400.89,29.32,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Morabos,,0.0,0.0,,,,0,no_crown_detected
+0084002AR,428760.98,4580460.82,28.3,Styphnolobium japonicum,False,SEGONA,C\ Sant Fructuós,11.63,49.2,7.92,6.76,0.174,3.5,823,ok
+0084005AR,428092.8,4579734.19,14.64,Jacaranda mimosifolia,False,SEGONA,C\ Font Florida,8.23,65.2,9.11,4.69,0.362,2.03,1744,ok
+0084006AR,428650.95,4580238.0,36.53,Celtis australis,False,TERCERA,C\ Chopin,11.32,57.5,8.56,5.66,0.22,3.03,2504,ok
+0084007AR,428112.78,4579942.55,11.96,Tipuana tipu,False,TERCERA,C\ Mineria,13.41,50.8,8.04,9.17,0.275,2.58,2023,ok
+0084008AR,428537.96,4580071.15,63.65,Styphnolobium japonicum 'Columnare',False,SEGONA,Av Francesc Ferrer i Guàrdia,6.41,22.0,5.29,2.2,0.303,2.39,962,ok
+0084009AR,428200.22,4580091.96,14.99,Platanus × acerifolia,True,SEGONA,G.V. Corts Catalanes,14.09,83.2,10.3,7.96,0.263,2.67,3252,ok
+0084010AR,428249.23,4579895.16,26.77,Jacaranda mimosifolia,False,SEGONA,C\ Font Florida,8.63,52.5,8.18,4.17,0.396,1.85,2407,ok
+0084011AR,428623.93,4580323.9,30.58,Styphnolobium japonicum,False,SEGONA,C\ Sant Fructuós,10.16,30.8,6.26,6.24,0.212,3.11,1277,ok
+0084012AR,428429.74,4580264.64,21.09,Styphnolobium japonicum,False,SEGONA,C\ Sant Paulí de Nola,7.61,13.8,4.18,5.31,0.263,2.67,371,ok
+0084013AR,428537.46,4580367.81,22.85,Styphnolobium japonicum,False,SEGONA,C\ Santa Dorotea,10.96,32.5,6.43,8.13,0.083,4.99,1092,ok
+0084014AR,428779.43,4580127.43,49.07,Platanus × acerifolia,True,EXEMPLAR,Av Francesc Ferrer i Guàrdia,12.11,64.8,9.08,6.86,0.398,1.84,2893,ok
+0084015AR,428651.34,4580248.65,36.41,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Chopin,5.2,11.2,3.78,3.65,0.367,2.01,287,ok
+0084016AR,428214.74,4579783.13,24.61,Jacaranda mimosifolia,False,SEGONA,C\ Font Florida,8.01,28.8,6.05,4.61,0.455,1.57,1327,ok
+0084017AR,428253.77,4580132.36,16.22,Platanus × acerifolia,True,SEGONA,G.V. Corts Catalanes,13.37,59.0,8.67,6.2,0.252,2.76,2204,ok
+0084019AR,428400.04,4580277.38,18.5,Platanus × acerifolia,True,SEGONA,G.V. Corts Catalanes,15.34,86.8,10.51,7.39,0.202,3.2,3320,ok
+0084020AR,428465.27,4580340.3,19.26,Platanus × acerifolia,True,SEGONA,G.V. Corts Catalanes,11.14,28.8,6.05,6.52,0.29,2.48,991,ok
+0084022AR,428603.47,4580308.07,31.02,Styphnolobium japonicum,False,SEGONA,C\ Sant Fructuós,10.19,4.5,2.39,8.2,0.438,1.65,115,ok
+0084025AR,428742.82,4580426.39,28.73,Styphnolobium japonicum,False,SEGONA,C\ Sant Fructuós,11.21,30.8,6.26,6.72,0.13,4.09,633,ok
+0084026AR,428611.77,4580329.69,30.33,Styphnolobium japonicum,False,SEGONA,C\ Sant Fructuós,11.58,45.0,7.57,6.72,0.319,2.28,1747,ok
+0084027AR,428523.76,4580398.21,20.16,Platanus × acerifolia,True,SEGONA,G.V. Corts Catalanes,12.5,47.2,7.76,6.93,0.164,3.62,948,ok
+0084028AR,428059.23,4579769.57,11.06,Tipuana tipu,False,TERCERA,C\ Mineria,11.05,76.5,9.87,7.06,0.268,2.64,2643,ok
+0084033AR,428452.54,4580329.12,19.09,Platanus × acerifolia,True,SEGONA,G.V. Corts Catalanes,12.56,34.2,6.6,6.11,0.213,3.09,1202,ok
+0084034AR,428700.31,4580225.68,36.91,Celtis australis,False,TERCERA,C\ Montfar,8.38,36.2,6.79,4.79,0.363,2.03,1518,ok
+0084035AR,428706.45,4580409.81,29.0,Styphnolobium japonicum,False,SEGONA,C\ Sant Fructuós,10.46,43.2,7.42,7.01,0.197,3.25,695,ok
+0084036AR,428066.14,4579791.99,11.06,Tipuana tipu,False,TERCERA,C\ Mineria,11.56,62.2,8.9,8.15,0.342,2.14,2327,ok
+0084038AR,428644.6,4580526.82,22.4,Platanus × acerifolia,True,SEGONA,G.V. Corts Catalanes,11.58,49.2,7.92,6.52,0.218,3.05,949,ok
+0084039AR,428371.28,4580259.62,18.27,Platanus × acerifolia,True,SEGONA,G.V. Corts Catalanes,13.45,64.2,9.04,5.31,0.268,2.63,2555,ok
+0084040AR,428548.37,4580358.45,24.45,Platanus × acerifolia,True,EXEMPLAR,C\ Santa Dorotea,20.5,48.5,7.86,9.39,0.242,2.83,2347,ok
+0084043AR,428353.71,4580242.07,18.03,Platanus × acerifolia,True,SEGONA,G.V. Corts Catalanes,12.69,67.0,9.24,5.59,0.226,2.98,2838,ok
+0084044AR,428089.55,4579866.47,11.56,Tipuana tipu,False,PRIMERA,C\ Mineria,16.67,23.5,5.47,2.94,0.365,2.02,1095,ok
+0084045AR,428799.18,4580243.02,37.5,Celtis australis,False,EXEMPLAR,C\ Montfar,12.87,77.8,9.95,7.3,0.158,3.69,2277,ok
+0084047AR,428601.45,4580118.91,59.19,Platanus × acerifolia,True,PRIMERA,Av Francesc Ferrer i Guàrdia,7.59,21.5,5.23,3.62,0.305,2.38,1109,ok
+0084048AR,428205.99,4579764.55,23.33,Jacaranda mimosifolia,False,SEGONA,C\ Font Florida,9.75,28.2,6.0,5.49,0.446,1.62,1427,ok
+0084050AR,428706.63,4580223.54,36.94,Celtis australis,False,TERCERA,C\ Montfar,8.02,32.5,6.43,5.1,0.351,2.09,1332,ok
+0084051AR,428100.12,4579901.9,11.77,Tipuana tipu,False,TERCERA,C\ Mineria,15.98,53.0,8.21,10.66,0.203,3.18,1923,ok
+0084052AR,428553.87,4580427.54,20.82,Platanus × acerifolia,True,SEGONA,G.V. Corts Catalanes,11.92,33.2,6.51,5.81,0.133,4.04,655,ok
+0084055AR,428646.32,4580343.39,30.17,Styphnolobium japonicum,False,SEGONA,C\ Sant Fructuós,12.14,24.2,5.56,6.52,0.378,1.94,1140,ok
+0084057AR,428635.12,4580333.55,30.37,Koelreuteria paniculata 'Fastigiata',False,PRIMERA,C\ Sant Fructuós,3.33,7.0,2.99,6.27,0.268,2.63,271,ok
+0084058AR,428653.38,4580134.79,56.14,Platanus × acerifolia,True,PRIMERA,Av Francesc Ferrer i Guàrdia,11.73,15.0,4.37,7.06,0.36,2.04,702,ok
+0084059AR,428350.05,4580121.43,21.12,Styphnolobium japonicum,False,SEGONA,C\ Sant Fructuós,18.72,36.8,6.84,6.97,0.276,2.58,1788,ok
+0084060AR,428305.85,4580184.89,17.15,Platanus × acerifolia,True,SEGONA,G.V. Corts Catalanes,13.26,56.5,8.48,5.72,0.248,2.79,2149,ok
+0084061AR,428726.02,4580547.69,24.03,Prunus cerasifera 'Pissardii',False,SEGONA,C\ Mèxic,6.29,7.2,3.04,4.77,0.405,1.81,79,ok
+0084063AR,428776.66,4580461.06,28.35,Styphnolobium japonicum,False,SEGONA,C\ Sant Fructuós,19.49,2.2,1.69,7.64,0.182,3.41,22,few_points
+0084064AR,428820.04,4580451.34,29.38,Prunus cerasifera 'Pissardii',False,SEGONA,C\ Mèxic,6.93,17.5,4.72,4.73,0.299,2.41,214,ok
+0084066AR,428701.72,4580135.97,53.38,Platanus × acerifolia,True,EXEMPLAR,Av Francesc Ferrer i Guàrdia,14.14,75.8,9.82,6.35,0.398,1.84,3387,ok
+0084067AR,428770.81,4580217.93,37.38,Celtis australis,False,TERCERA,C\ Montfar,9.67,47.0,7.74,5.85,0.276,2.58,1880,ok
+0084068AR,428141.55,4580033.87,13.45,Platanus × acerifolia,True,TERCERA,G.V. Corts Catalanes,17.09,96.2,11.07,7.89,0.164,3.61,4176,ok
+0084069AR,428140.52,4580023.12,13.29,Platanus × acerifolia,True,TERCERA,G.V. Corts Catalanes,15.21,29.0,6.08,7.78,0.179,3.44,1139,ok
+0084070AR,428742.67,4580404.83,29.09,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Morabos,5.32,10.0,3.57,3.27,0.464,1.54,97,ok
+0084071AR,428626.77,4580394.74,26.89,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Sant Germà,,0.0,0.0,,,,0,no_crown_detected
+0084072AR,428106.46,4579734.87,15.66,Jacaranda mimosifolia,False,SEGONA,C\ Font Florida,8.04,38.2,6.98,4.88,0.39,1.88,1068,ok
+0084073AR,428823.12,4580312.7,34.58,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Morabos,4.15,7.0,2.99,2.72,0.186,3.37,102,ok
+0084074AR,428075.32,4579821.54,11.31,Tipuana tipu,False,SEGONA,C\ Mineria,15.28,52.0,8.14,10.07,0.279,2.55,1807,ok
+0084075AR,428538.57,4580357.93,23.49,Styphnolobium japonicum,False,SEGONA,C\ Santa Dorotea,9.74,30.0,6.18,7.78,0.023,7.52,886,ok
+0084076AR,428442.5,4580327.57,19.03,Platanus × acerifolia,True,SEGONA,G.V. Corts Catalanes,10.5,38.8,7.02,7.4,0.369,2.0,1479,ok
+0084077AR,428634.67,4580516.89,22.36,Platanus × acerifolia,True,SEGONA,G.V. Corts Catalanes,7.68,31.5,6.33,6.81,0.381,1.93,580,ok
+0084078AR,428159.75,4580052.14,13.92,Platanus × acerifolia,True,TERCERA,G.V. Corts Catalanes,16.58,86.0,10.46,8.28,0.203,3.19,3803,ok
+0084079AR,428094.54,4579884.4,11.64,Tipuana tipu,False,TERCERA,C\ Mineria,14.36,52.2,8.16,10.66,0.269,2.63,1989,ok
+0084080AR,428864.18,4580259.4,39.1,Platanus × acerifolia,True,EXEMPLAR,Av Francesc Ferrer i Guàrdia,15.27,108.2,11.74,8.2,0.26,2.7,4430,ok
+0084081AR,428527.71,4580377.46,21.26,Styphnolobium japonicum,False,SEGONA,C\ Santa Dorotea,11.55,23.2,5.44,8.59,0.136,3.99,646,ok
+0084082AR,428804.2,4580234.34,37.64,Celtis australis,False,TERCERA,C\ Montfar,11.59,37.5,6.91,7.28,0.093,4.74,1068,ok
+0084083AR,428067.55,4579796.55,11.15,Tipuana tipu,False,TERCERA,C\ Mineria,10.26,79.5,10.06,7.06,0.273,2.6,2883,ok
+0084084AR,428809.03,4580237.04,37.68,Celtis australis,False,SEGONA,C\ Montfar,10.92,43.8,7.46,7.62,0.103,4.55,1030,ok
+0084085AR,428258.49,4579906.37,26.66,Jacaranda mimosifolia,False,TERCERA,C\ Font Florida,9.41,56.2,8.46,5.04,0.403,1.82,2894,ok
+0084086AR,428637.9,4580384.48,27.76,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Sant Germà,,0.0,0.0,,,,0,no_crown_detected
+0084087AR,428522.02,4580383.63,20.46,Styphnolobium japonicum,False,SEGONA,C\ Santa Dorotea,28.42,42.2,7.33,7.07,0.143,3.9,752,ok
+0084088AR,428252.38,4580025.7,19.87,Styphnolobium japonicum,False,SEGONA,C\ Sant Fructuós,10.57,53.2,8.23,6.41,0.231,2.93,1777,ok
+0084089AR,428668.36,4580377.2,29.4,Styphnolobium japonicum,False,SEGONA,C\ Sant Fructuós,11.5,38.5,7.0,6.45,0.277,2.56,1522,ok
+0084090AR,428659.25,4580345.8,30.2,Ulmus pumila,False,TERCERA,C\ Rabí Rubèn,13.4,71.2,9.52,6.73,0.27,2.62,2409,ok
+0084091AR,428506.39,4580381.04,19.82,Platanus × acerifolia,True,SEGONA,G.V. Corts Catalanes,12.02,61.8,8.87,6.58,0.138,3.96,1517,ok
+0084092AR,428778.53,4580231.83,37.35,Celtis australis,False,TERCERA,C\ Montfar,10.2,50.2,8.0,6.64,0.184,3.38,1546,ok
+0084093AR,428280.75,4580053.11,19.28,Styphnolobium japonicum,False,SEGONA,C\ Sant Fructuós,10.02,36.0,6.77,6.35,0.295,2.44,1360,ok
+0084094AR,428684.03,4580375.82,29.5,Styphnolobium japonicum,False,SEGONA,C\ Sant Fructuós,11.79,27.0,5.86,5.86,0.164,3.62,1104,ok
+0084096AR,428751.74,4580434.98,28.58,Styphnolobium japonicum,False,SEGONA,C\ Sant Fructuós,8.71,21.5,5.23,6.57,0.198,3.24,364,ok
+0084098AR,428261.84,4580034.2,19.64,Styphnolobium japonicum,False,TERCERA,C\ Sant Fructuós,11.88,36.5,6.82,6.17,0.267,2.64,1312,ok
+0084100AR,428618.84,4580418.18,25.4,Pyrus calleryana 'Chanticleer',False,SEGONA,C\ Sant Germà,5.82,7.0,2.99,3.99,0.361,2.04,83,ok
+0084101AR,428736.07,4580228.07,36.93,Celtis australis,False,TERCERA,C\ Rabí Rubèn,9.0,45.5,7.61,5.29,0.25,2.78,1538,ok
+0084102AR,428813.27,4580322.35,33.9,Pyrus calleryana 'Chanticleer',False,SEGONA,C\ Morabos,6.98,11.0,3.74,4.84,0.177,3.47,248,ok
+0084103AR,428229.13,4580109.7,15.41,Platanus × acerifolia,True,SEGONA,G.V. Corts Catalanes,12.67,46.5,7.69,7.05,0.241,2.85,1623,ok
+0084105AR,428312.58,4580201.64,17.42,Platanus × acerifolia,True,TERCERA,G.V. Corts Catalanes,17.62,98.5,11.2,8.77,0.182,3.41,4500,ok
+0084106AR,428376.87,4580265.22,18.35,Platanus × acerifolia,True,SEGONA,G.V. Corts Catalanes,13.75,64.2,9.04,7.15,0.248,2.79,2712,ok
+0084107AR,428500.6,4580386.24,19.88,Platanus × acerifolia,True,SEGONA,G.V. Corts Catalanes,13.17,49.8,7.96,7.19,0.254,2.74,1069,ok
+0084108AR,428253.92,4579900.51,26.64,Jacaranda mimosifolia,False,SEGONA,C\ Font Florida,6.99,37.0,6.86,4.14,0.431,1.68,1646,ok
+0084109AR,428583.74,4580467.41,21.67,Platanus × acerifolia,True,SEGONA,G.V. Corts Catalanes,12.08,32.2,6.41,6.76,0.273,2.59,567,ok
+0084110AR,428785.65,4580469.45,28.25,Styphnolobium japonicum,False,SEGONA,C\ Sant Fructuós,11.87,45.8,7.63,6.95,0.157,3.7,890,ok
+0084111AR,428182.65,4580074.54,14.52,Platanus × acerifolia,True,TERCERA,G.V. Corts Catalanes,12.81,29.2,6.1,7.74,0.195,3.27,936,ok
+0084112AR,428118.08,4579959.49,12.24,Celtis australis,False,EXEMPLAR,C\ Mineria,11.66,57.0,8.52,7.39,0.152,3.77,1796,ok
+0084113AR,428763.01,4580127.82,49.99,Platanus × acerifolia,True,PRIMERA,Av Francesc Ferrer i Guàrdia,12.48,66.2,9.18,7.47,0.455,1.58,2859,ok
+0084114AR,428744.18,4580210.98,37.27,Celtis australis,False,TERCERA,C\ Montfar,9.89,44.2,7.51,6.26,0.352,2.09,1777,ok
+0084116AR,428347.34,4580224.7,17.91,Platanus × acerifolia,True,SEGONA,G.V. Corts Catalanes,10.53,36.5,6.82,5.39,0.215,3.08,1431,ok
+0084117AR,428688.4,4580229.95,36.61,Celtis australis,False,TERCERA,C\ Montfar,7.86,30.2,6.21,4.53,0.357,2.06,1131,ok
+0084119AR,428528.38,4580368.28,22.37,Styphnolobium japonicum,False,SEGONA,C\ Santa Dorotea,10.5,30.5,6.23,9.28,0.026,7.33,385,ok
+0084120AR,428823.34,4580236.21,38.1,Celtis australis,False,SEGONA,C\ Dàlia,10.89,68.5,9.34,5.87,0.14,3.93,1776,ok
+0084123AR,428633.83,4580258.23,35.96,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Chopin,5.44,9.0,3.39,3.05,0.273,2.6,216,ok
+0084127AR,428124.77,4579984.14,12.53,Celtis australis,False,TERCERA,C\ Mineria,11.03,61.2,8.83,5.25,0.219,3.04,2593,ok
+0084128AR,428103.85,4579913.66,11.9,Tipuana tipu,False,TERCERA,C\ Mineria,15.83,41.0,7.23,3.16,0.144,3.88,1546,ok
+0084129AR,428788.76,4580237.04,37.57,Celtis australis,False,EXEMPLAR,C\ Montfar,13.31,62.2,8.9,9.19,0.062,5.56,1883,ok
+0084130AR,428676.44,4580384.29,29.42,Styphnolobium japonicum,False,SEGONA,C\ Sant Fructuós,11.89,8.0,3.19,6.53,0.269,2.63,164,ok
+0084131AR,428565.84,4580449.67,21.26,Platanus × acerifolia,True,SEGONA,G.V. Corts Catalanes,12.02,64.0,9.03,7.13,0.219,3.04,1051,ok
+0084132AR,428694.31,4580227.65,36.8,Celtis australis,False,TERCERA,C\ Montfar,8.87,35.2,6.7,4.87,0.398,1.84,1472,ok
+0084133AR,428548.84,4580083.84,62.86,Platanus × acerifolia,True,PRIMERA,Av Francesc Ferrer i Guàrdia,7.02,16.5,4.58,2.15,0.346,2.12,670,ok
+0084135AR,428660.17,4580243.25,36.38,Ulmus minor 'Umbraculifera',False,SEGONA,C\ Chopin,7.86,21.0,5.17,5.29,0.35,2.1,687,ok
+0084136AR,428494.23,4580369.46,19.65,Platanus × acerifolia,True,TERCERA,G.V. Corts Catalanes,12.3,44.5,7.53,6.01,0.199,3.23,1691,ok
+0084137AR,428722.82,4580407.66,28.92,Styphnolobium japonicum,False,TERCERA,C\ Sant Fructuós,11.3,79.0,10.03,6.69,0.257,2.72,1688,ok
+0084138AR,428363.36,4580117.58,21.79,Styphnolobium japonicum,False,SEGONA,C\ Sant Fructuós,12.53,46.8,7.72,7.12,0.242,2.84,1968,ok
+0084139AR,428629.82,4580260.54,35.89,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Chopin,4.25,3.0,1.95,2.9,0.485,1.45,89,ok
+0084140AR,428795.16,4580130.16,48.05,Platanus × acerifolia,True,TERCERA,Av Francesc Ferrer i Guàrdia,13.65,46.2,7.67,6.37,0.347,2.12,2133,ok
+0084142AR,428193.98,4580075.53,14.55,Platanus × acerifolia,True,TERCERA,G.V. Corts Catalanes,17.4,69.0,9.37,6.66,0.193,3.29,3216,ok
+0084145AR,428749.9,4580396.78,29.56,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Morabos,4.7,21.0,5.17,3.89,0.299,2.41,294,ok
+0084146AR,428294.35,4580184.23,17.05,Platanus × acerifolia,True,PRIMERA,G.V. Corts Catalanes,14.47,27.2,5.89,4.47,0.367,2.01,1067,ok
+0084147AR,428830.02,4580440.71,29.97,Prunus cerasifera 'Pissardii',False,SEGONA,C\ Mèxic,17.47,19.0,4.92,4.1,0.25,2.77,240,ok
+0084149AR,428454.71,4580256.58,23.47,Styphnolobium japonicum,False,SEGONA,C\ Sant Paulí de Nola,26.25,24.2,5.56,4.73,0.225,2.98,922,ok
+0084151AR,428696.06,4580253.24,35.24,Quercus robur 'Fastigiata',False,PRIMERA,C\ Valls,8.04,29.0,6.08,5.49,0.142,3.9,716,ok
+0084152AR,428740.92,4580532.45,25.0,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Mèxic,6.97,25.8,5.73,4.74,0.156,3.72,436,ok
+0084154AR,428859.35,4580232.24,40.36,Platanus × acerifolia,True,PRIMERA,Av Francesc Ferrer i Guàrdia,13.76,53.0,8.21,7.58,0.334,2.19,2243,ok
+0084155AR,428243.31,4580016.44,20.07,Styphnolobium japonicum,False,TERCERA,C\ Sant Fructuós,8.2,56.8,8.5,4.34,0.222,3.01,1894,ok
+0084156AR,428359.31,4580248.04,18.11,Platanus × acerifolia,True,SEGONA,G.V. Corts Catalanes,11.87,58.2,8.61,7.06,0.281,2.54,2380,ok
+0084157AR,428364.71,4580242.44,18.14,Platanus × acerifolia,True,SEGONA,G.V. Corts Catalanes,10.93,40.0,7.14,6.78,0.251,2.77,1655,ok
+0084158AR,428750.59,4580129.48,50.68,Platanus × acerifolia,True,EXEMPLAR,Av Francesc Ferrer i Guàrdia,15.15,57.2,8.54,6.6,0.342,2.15,2639,ok
+0084160AR,428768.39,4580452.19,28.47,Styphnolobium japonicum,False,SEGONA,C\ Sant Fructuós,19.5,35.5,6.72,6.22,0.14,3.93,570,ok
+0084161AR,428219.74,4579810.74,26.1,Jacaranda mimosifolia,False,SEGONA,C\ Font Florida,9.02,45.8,7.63,5.76,0.476,1.48,2250,ok
+0084163AR,428435.36,4580311.54,18.87,Platanus × acerifolia,True,PRIMERA,G.V. Corts Catalanes,6.01,25.5,5.7,4.17,0.399,1.84,794,ok
+0084164AR,428857.66,4580222.57,40.89,Platanus × acerifolia,True,EXEMPLAR,Av Francesc Ferrer i Guàrdia,15.89,50.5,8.02,8.71,0.215,3.07,2159,ok
+0084167AR,428814.24,4580240.51,37.92,Celtis australis,False,EXEMPLAR,C\ Montfar,11.98,90.5,10.73,7.12,0.186,3.37,2331,ok
+0084169AR,428186.31,4579745.81,21.44,Jacaranda mimosifolia,False,SEGONA,C\ Font Florida,10.51,52.0,8.14,5.76,0.384,1.91,2415,ok
+0084170AR,428256.44,4580014.12,20.12,Styphnolobium japonicum,False,TERCERA,C\ Sant Fructuós,12.93,104.5,11.53,5.79,0.255,2.73,4663,ok
+0084172AR,428188.72,4580080.62,14.67,Platanus × acerifolia,True,TERCERA,G.V. Corts Catalanes,16.37,104.8,11.55,7.16,0.21,3.12,4108,ok
+0084173AR,428344.83,4580099.42,20.19,Styphnolobium japonicum,False,SEGONA,C\ Sant Fructuós,11.06,37.5,6.91,5.81,0.296,2.44,1489,ok
+0084175AR,428769.36,4580469.21,28.09,Styphnolobium japonicum,False,SEGONA,C\ Sant Fructuós,11.58,43.2,7.42,6.82,0.146,3.85,609,ok
+0084176AR,428682.49,4580232.74,36.46,Celtis australis,False,TERCERA,C\ Montfar,9.48,40.8,7.2,4.83,0.317,2.3,1435,ok
+0084177AR,428424.98,4580269.57,20.45,Robinia pseudoacacia,False,SEGONA,C\ Sant Paulí de Nola,7.98,19.0,4.92,7.93,0.227,2.97,568,ok
+0084179AR,428649.49,4580531.57,22.45,Platanus × acerifolia,True,SEGONA,G.V. Corts Catalanes,11.76,40.8,7.2,6.77,0.225,2.98,803,ok
+0084180AR,428300.43,4580189.65,17.23,Platanus × acerifolia,True,PRIMERA,G.V. Corts Catalanes,9.38,29.5,6.13,5.67,0.353,2.08,1191,ok
+0084183AR,428783.94,4580234.53,37.3,Celtis australis,False,TERCERA,C\ Montfar,12.23,53.8,8.27,8.16,0.022,7.59,1307,ok
+0084184AR,428056.26,4579759.27,11.19,Tipuana tipu,False,SEGONA,C\ Mineria,11.01,68.2,9.32,7.24,0.35,2.1,2367,ok
+0084186AR,428530.9,4580415.0,20.54,Platanus × acerifolia,True,SEGONA,G.V. Corts Catalanes,11.81,48.2,7.84,7.66,0.186,3.36,880,ok
+0084187AR,428393.47,4580146.9,24.54,Styphnolobium japonicum,False,SEGONA,C\ Sant Fructuós,12.54,45.5,7.61,6.16,0.352,2.09,1963,ok
+0084188AR,428454.1,4580243.5,24.29,Styphnolobium japonicum,False,SEGONA,C\ Sant Paulí de Nola,8.61,56.0,8.44,4.44,0.199,3.23,1688,ok
+0084189AR,428226.89,4579852.07,27.18,Jacaranda mimosifolia,False,SEGONA,C\ Font Florida,6.32,26.5,5.81,4.36,0.48,1.47,1186,ok
+0084190AR,428310.29,4580066.24,18.99,Styphnolobium japonicum,False,SEGONA,C\ Sant Fructuós,9.14,40.0,7.14,4.7,0.188,3.34,1308,ok
+0084191AR,428856.44,4580214.33,41.31,Platanus × acerifolia,True,EXEMPLAR,Av Francesc Ferrer i Guàrdia,14.33,144.2,13.55,7.55,0.29,2.48,6176,ok
+0084192AR,428810.52,4580136.57,47.02,Platanus × acerifolia,True,EXEMPLAR,Av Francesc Ferrer i Guàrdia,12.83,52.2,8.16,6.6,0.372,1.98,2143,ok
+0084193AR,428119.94,4579735.2,16.56,Jacaranda mimosifolia,False,TERCERA,C\ Font Florida,9.98,56.5,8.48,4.96,0.405,1.81,1648,ok
+0084194AR,428458.52,4580334.51,19.18,Platanus × acerifolia,True,SEGONA,G.V. Corts Catalanes,14.26,42.2,7.33,7.88,0.188,3.34,1518,ok
+0084195AR,428221.0,4579817.27,26.46,Jacaranda mimosifolia,False,TERCERA,C\ Font Florida,8.55,51.2,8.08,5.0,0.464,1.54,2435,ok
+0084196AR,428154.48,4579736.44,18.94,Jacaranda mimosifolia,False,PRIMERA,C\ Font Florida,9.6,34.5,6.63,4.15,0.142,3.91,797,ok
+0084197AR,428577.17,4580450.0,21.43,Platanus × acerifolia,True,SEGONA,G.V. Corts Catalanes,7.34,40.2,7.16,4.99,0.109,4.43,650,ok
+0084198AR,428073.69,4579816.46,11.38,Tipuana tipu,False,TERCERA,C\ Mineria,14.17,46.0,7.65,9.81,0.204,3.18,1716,ok
+0084199AR,428382.47,4580136.11,23.5,Styphnolobium japonicum,False,SEGONA,C\ Sant Fructuós,10.63,39.0,7.05,5.78,0.307,2.36,1776,ok
+0084200AR,428330.49,4580218.89,17.65,Platanus × acerifolia,True,PRIMERA,G.V. Corts Catalanes,0.0,13.2,4.11,6.86,0.377,1.95,457,low_tree
+0084201AR,428547.77,4580347.91,25.31,Styphnolobium japonicum,False,SEGONA,C\ Santa Dorotea,14.53,39.8,7.11,6.74,0.203,3.19,1333,ok
+0084202AR,428687.16,4580248.65,35.68,Quercus robur 'Fastigiata',False,PRIMERA,C\ Valls,4.59,5.8,2.71,2.39,0.409,1.79,166,ok
+0084204AR,428174.93,4580057.46,14.06,Platanus × acerifolia,True,PRIMERA,G.V. Corts Catalanes,6.41,20.5,5.11,5.11,0.342,2.15,860,ok
+0084205AR,428303.53,4580074.34,18.76,Styphnolobium japonicum,False,SEGONA,C\ Sant Fructuós,12.43,45.8,7.63,6.69,0.216,3.06,1875,ok
+0084206AR,428671.18,4580136.82,55.17,Platanus × acerifolia,True,TERCERA,Av Francesc Ferrer i Guàrdia,12.42,70.5,9.47,6.95,0.329,2.23,2818,ok
+0084207AR,428223.23,4579830.88,27.06,Jacaranda mimosifolia,False,SEGONA,C\ Font Florida,6.64,19.2,4.95,4.01,0.498,1.39,910,ok
+0084208AR,428053.82,4579751.15,11.36,Tipuana tipu,False,TERCERA,C\ Mineria,10.28,112.5,11.97,6.02,0.38,1.93,4794,ok
+0084210AR,428099.54,4579734.36,15.08,Jacaranda mimosifolia,False,PRIMERA,C\ Font Florida,5.78,22.8,5.38,3.59,0.434,1.67,534,ok
+0084212AR,428714.16,4580251.42,35.0,Celtis australis,False,EXEMPLAR,C\ Rabí Rubèn,12.42,74.5,9.74,7.41,0.179,3.44,2037,ok
+0084213AR,428147.5,4579736.32,18.44,Jacaranda mimosifolia,False,SEGONA,C\ Font Florida,10.55,27.2,5.89,5.61,0.363,2.03,797,ok
+0084216AR,428639.95,4580337.6,30.31,Styphnolobium japonicum,False,TERCERA,C\ Sant Fructuós,13.52,48.0,7.82,6.54,0.225,2.98,2017,ok
+0084217AR,428862.53,4580250.64,39.48,Platanus × acerifolia,True,EXEMPLAR,Av Francesc Ferrer i Guàrdia,15.32,57.0,8.52,9.7,0.242,2.84,2275,ok
+0084218AR,428212.21,4580103.13,15.27,Platanus × acerifolia,True,SEGONA,G.V. Corts Catalanes,14.34,42.5,7.36,7.57,0.249,2.78,1873,ok
+0084220AR,428270.25,4579921.4,26.44,Jacaranda mimosifolia,False,TERCERA,C\ Font Florida,8.47,82.8,10.26,4.02,0.41,1.78,3806,ok
+0084221AR,428609.89,4580446.7,23.57,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Sant Germà,6.56,5.8,2.71,3.84,0.421,1.73,57,ok
+0084222AR,428743.86,4580442.36,28.57,Styphnolobium japonicum,False,SEGONA,C\ Sant Fructuós,10.52,36.8,6.84,6.52,0.131,4.06,564,ok
+0084224AR,428450.61,4580260.7,22.81,Robinia pseudoacacia,False,SEGONA,C\ Sant Paulí de Nola,23.81,32.0,6.38,6.96,0.246,2.81,1416,ok
+0084226AR,428767.34,4580226.81,37.4,Celtis australis,False,TERCERA,C\ Montfar,10.03,54.0,8.29,5.99,0.246,2.8,2086,ok
+0084228AR,428482.45,4580357.68,19.48,Platanus × acerifolia,True,PRIMERA,G.V. Corts Catalanes,6.56,14.8,4.33,2.92,0.328,2.23,489,ok
+0084231AR,428418.37,4580305.57,18.78,Platanus × acerifolia,True,SEGONA,G.V. Corts Catalanes,13.35,59.0,8.67,6.93,0.29,2.47,2245,ok
+0084232AR,428470.87,4580346.68,19.31,Platanus × acerifolia,True,PRIMERA,G.V. Corts Catalanes,9.08,22.0,5.29,2.35,0.274,2.59,650,ok
+0084233AR,428352.56,4580231.07,17.88,Platanus × acerifolia,True,SEGONA,G.V. Corts Catalanes,13.44,52.5,8.18,7.0,0.225,2.98,1988,ok
+0084234AR,428487.88,4580015.35,66.71,Celtis australis,False,SEGONA,C\ Polvorí,9.83,27.5,5.92,5.37,0.377,1.95,1068,ok
+0084235AR,428776.99,4580220.83,37.45,Celtis australis,False,TERCERA,C\ Montfar,9.97,45.0,7.57,6.22,0.23,2.94,1580,ok
+0084236AR,428327.46,4580099.63,19.19,Styphnolobium japonicum,False,SEGONA,C\ Sant Fructuós,10.24,56.0,8.44,5.77,0.253,2.74,2336,ok
+0084238AR,428725.99,4580133.18,51.95,Platanus × acerifolia,True,PRIMERA,Av Francesc Ferrer i Guàrdia,11.63,21.0,5.17,6.92,0.455,1.58,790,ok
+0084239AR,428805.53,4580134.05,47.35,Platanus × acerifolia,True,PRIMERA,Av Francesc Ferrer i Guàrdia,13.65,74.5,9.74,7.91,0.392,1.88,3319,ok
+0084240AR,428757.78,4580326.69,32.01,Brachychiton populneus,False,TERCERA,C\ Nord,9.37,18.8,4.89,3.96,0.349,2.11,827,ok
+0084241AR,428555.89,4580090.5,62.23,Platanus × acerifolia,True,PRIMERA,Av Francesc Ferrer i Guàrdia,6.05,9.2,3.43,2.15,0.354,2.07,375,ok
+0084242AR,428096.82,4579890.48,11.73,Tipuana tipu,False,TERCERA,C\ Mineria,16.27,54.5,8.33,10.45,0.177,3.47,2370,ok
+0084245AR,428424.75,4580299.18,18.86,Platanus × acerifolia,True,SEGONA,G.V. Corts Catalanes,13.59,69.8,9.42,7.32,0.195,3.26,3000,ok
+0084247AR,428611.85,4580441.25,23.92,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Sant Germà,5.84,0.5,0.8,4.84,0.4,1.83,5,no_crown_detected
+0084248AR,428152.1,4580034.49,13.55,Platanus × acerifolia,True,TERCERA,G.V. Corts Catalanes,19.36,75.5,9.8,6.94,0.128,4.11,2897,ok
+0084250AR,428211.06,4580092.61,14.92,Platanus × acerifolia,True,SEGONA,G.V. Corts Catalanes,14.31,54.5,8.33,7.6,0.313,2.32,1886,ok
+0084252AR,428629.5,4580512.28,22.34,Platanus × acerifolia,True,SEGONA,G.V. Corts Catalanes,11.46,113.2,12.01,6.38,0.249,2.78,2174,ok
+0084253AR,428756.14,4580380.85,30.4,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Morabos,,0.0,0.0,,,,0,no_crown_detected
+0084254AR,428726.81,4580245.05,35.69,Celtis australis,False,SEGONA,C\ Rabí Rubèn,12.73,30.0,6.18,8.11,0.052,5.9,769,ok
+0084255AR,428099.87,4579983.63,12.58,Platanus × acerifolia,True,SEGONA,G.V. Corts Catalanes,12.72,168.2,14.64,6.65,0.271,2.61,6765,ok
+0084256AR,428672.22,4580227.24,36.9,Celtis australis,False,TERCERA,C\ Montfar,9.23,53.5,8.25,5.44,0.313,2.33,2167,ok
+0084258AR,428234.72,4580115.28,15.62,Platanus × acerifolia,True,TERCERA,G.V. Corts Catalanes,16.64,82.8,10.26,7.21,0.182,3.41,3528,ok
+0084259AR,428306.5,4580195.57,17.3,Platanus × acerifolia,True,SEGONA,G.V. Corts Catalanes,15.85,72.8,9.62,7.57,0.281,2.54,3192,ok
+0084261AR,428793.97,4580240.51,37.56,Celtis australis,False,SEGONA,C\ Montfar,12.01,44.5,7.53,8.56,0.012,7.82,1127,ok
+0084262AR,428463.42,4580247.38,24.6,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Sant Paulí de Nola,24.68,4.0,2.26,3.04,0.242,2.83,97,ok
+0084263AR,428217.06,4579796.96,25.35,Jacaranda mimosifolia,False,SEGONA,C\ Font Florida,9.05,31.2,6.31,4.96,0.429,1.69,1506,ok
+0084264AR,428746.71,4580430.11,28.68,Styphnolobium japonicum,False,SEGONA,C\ Sant Fructuós,11.39,39.0,7.05,6.82,0.163,3.63,681,ok
+0084266AR,428506.77,4580391.64,20.02,Platanus × acerifolia,True,SEGONA,C\ Santa Dorotea,12.28,67.2,9.25,7.46,0.26,2.7,1176,ok
+0084267AR,428781.15,4580464.71,28.33,Styphnolobium japonicum,False,SEGONA,C\ Sant Fructuós,9.21,26.2,5.78,7.11,0.116,4.32,554,ok
+0084269AR,428578.81,4580315.55,30.24,Platanus × acerifolia,True,TERCERA,C\ Santa Dorotea,21.13,30.0,6.18,10.47,0.116,4.32,1167,ok
+0084270AR,428724.62,4580210.24,37.16,Celtis australis,False,SEGONA,C\ Montfar,7.34,31.2,6.31,4.63,0.472,1.5,1200,ok
+0084271AR,428245.06,4579889.69,26.82,Jacaranda mimosifolia,False,SEGONA,C\ Font Florida,8.57,52.8,8.2,4.9,0.478,1.48,2144,ok
+0084272AR,428757.49,4580128.41,50.32,Platanus × acerifolia,True,EXEMPLAR,Av Francesc Ferrer i Guàrdia,16.78,90.2,10.72,8.88,0.386,1.91,4243,ok
+0084273AR,428571.72,4580102.99,61.23,Platanus × acerifolia,True,SEGONA,Av Francesc Ferrer i Guàrdia,5.9,19.5,4.98,2.25,0.258,2.71,794,ok
+0084275AR,428559.47,4580093.44,62.06,Platanus × acerifolia,True,PRIMERA,Av Francesc Ferrer i Guàrdia,7.47,15.0,4.37,2.09,0.261,2.69,589,ok
+0084276AR,428542.86,4580426.77,20.78,Platanus × acerifolia,True,SEGONA,G.V. Corts Catalanes,12.26,71.5,9.54,7.53,0.195,3.27,1190,ok
+0084278AR,428363.17,4580133.97,22.45,Styphnolobium japonicum,False,SEGONA,C\ Sant Fructuós,17.37,32.8,6.46,5.69,0.289,2.48,1244,ok
+0084279AR,428323.92,4580202.14,17.48,Platanus × acerifolia,True,TERCERA,G.V. Corts Catalanes,17.88,45.8,7.63,9.44,0.208,3.14,1768,ok
+0084280AR,428354.68,4580125.68,21.56,Styphnolobium japonicum,False,SEGONA,C\ Sant Fructuós,18.24,40.0,7.14,7.16,0.281,2.54,1631,ok
+0084283AR,428848.76,4580180.53,43.29,Platanus × acerifolia,True,EXEMPLAR,Av Francesc Ferrer i Guàrdia,13.95,56.0,8.44,7.99,0.359,2.05,2605,ok
+0084284AR,428621.64,4580410.77,25.92,Pyrus calleryana 'Chanticleer',False,SEGONA,C\ Sant Germà,7.89,18.0,4.79,4.24,0.291,2.47,230,ok
+0084285AR,428286.93,4580043.27,19.4,Styphnolobium japonicum,False,SEGONA,C\ Sant Fructuós,9.92,15.8,4.48,7.56,0.234,2.91,502,ok
+0084286AR,428158.3,4580040.7,13.7,Platanus × acerifolia,True,SEGONA,G.V. Corts Catalanes,19.04,60.5,8.78,10.11,0.093,4.75,2141,ok
+0084287AR,428269.75,4580026.86,19.88,Styphnolobium japonicum,False,SEGONA,C\ Sant Fructuós,11.53,39.5,7.09,5.33,0.169,3.56,1488,ok
+0084288AR,428629.74,4580385.33,27.49,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Sant Germà,,0.0,0.0,,,,0,no_crown_detected
+0084289AR,428841.53,4580165.97,44.37,Platanus × acerifolia,True,EXEMPLAR,Av Francesc Ferrer i Guàrdia,15.61,117.8,12.24,8.25,0.312,2.33,5361,ok
+0084290AR,428283.26,4580039.21,19.55,Styphnolobium japonicum,False,SEGONA,C\ Sant Fructuós,12.46,35.2,6.7,6.77,0.249,2.78,1654,ok
+0084291AR,428577.34,4580327.38,28.91,Styphnolobium japonicum,False,SEGONA,C\ Santa Dorotea,10.97,31.0,6.28,7.74,0.066,5.43,822,ok
+0084292AR,428811.94,4580373.1,31.85,Ginkgo biloba 'Fastigiata Blagon',False,PRIMERA,C\ Gimbernat,6.72,11.5,3.83,3.13,0.202,3.2,545,ok
+0084294AR,428086.29,4579856.1,11.55,Tipuana tipu,False,TERCERA,C\ Mineria,16.25,60.2,8.76,9.97,0.244,2.82,2384,ok
+0084297AR,428071.56,4579733.52,13.09,Jacaranda mimosifolia,False,SEGONA,C\ Font Florida,7.63,28.8,6.05,4.73,0.367,2.0,713,ok
+0084298AR,428756.85,4580456.57,28.3,Styphnolobium japonicum,False,SEGONA,C\ Sant Fructuós,20.17,49.5,7.94,7.19,0.091,4.79,868,ok
+0084299AR,428843.67,4580426.96,30.62,Prunus cerasifera 'Pissardii',False,SEGONA,C\ Mèxic,6.4,16.8,4.62,4.03,0.358,2.05,187,ok
+0084300AR,428070.7,4579806.22,11.31,Tipuana tipu,False,TERCERA,C\ Mineria,12.73,73.8,9.69,8.28,0.284,2.52,2824,ok
+0084302AR,428554.64,4580438.16,21.03,Platanus × acerifolia,True,SEGONA,G.V. Corts Catalanes,14.74,65.0,9.1,7.32,0.244,2.82,1219,ok
+0084303AR,428589.49,4580472.67,21.81,Platanus × acerifolia,True,SEGONA,G.V. Corts Catalanes,11.15,51.0,8.06,6.28,0.211,3.11,977,ok
+0084304AR,428747.38,4580446.05,28.45,Styphnolobium japonicum,False,SEGONA,C\ Sant Fructuós,10.58,25.5,5.7,6.67,0.158,3.69,425,ok
+0084305AR,428707.62,4580395.89,29.02,Koelreuteria paniculata 'Fastigiata',False,PRIMERA,C\ Sant Fructuós,10.27,28.8,6.05,6.22,0.165,3.61,559,ok
+0084307AR,428057.8,4579763.9,11.1,Tipuana tipu,False,TERCERA,C\ Mineria,12.21,66.2,9.18,8.43,0.282,2.53,2368,ok
+0084308AR,428078.98,4579733.69,13.63,Jacaranda mimosifolia,False,SEGONA,C\ Font Florida,7.56,26.0,5.75,4.43,0.413,1.77,651,ok
+0084309AR,428618.72,4580320.61,30.66,Styphnolobium japonicum,False,SEGONA,C\ Sant Fructuós,11.56,38.5,7.0,6.71,0.194,3.28,1481,ok
+0084310AR,428324.41,4580212.98,17.59,Platanus × acerifolia,True,TERCERA,G.V. Corts Catalanes,15.93,79.2,10.05,8.66,0.211,3.11,3348,ok
+0084311AR,428523.13,4580372.88,21.06,Styphnolobium japonicum,False,SEGONA,C\ Santa Dorotea,10.63,27.2,5.89,7.78,0.016,7.82,355,ok
+0084312AR,428212.55,4579776.73,24.24,Jacaranda mimosifolia,False,SEGONA,C\ Font Florida,6.8,27.0,5.86,4.54,0.478,1.47,1196,ok
+0084313AR,428639.7,4580522.06,22.38,Platanus × acerifolia,True,SEGONA,G.V. Corts Catalanes,7.77,42.8,7.38,6.78,0.275,2.58,712,ok
+0084314AR,428110.99,4579936.89,11.95,Tipuana tipu,False,TERCERA,C\ Mineria,15.83,49.2,7.92,10.3,0.246,2.8,1975,ok
+0084315AR,428829.18,4580229.23,38.67,Celtis australis,False,TERCERA,C\ Dàlia,13.07,49.8,7.96,7.67,0.114,4.33,1364,ok
+0084316AR,428527.92,4580056.15,64.55,Paulownia tomentosa,False,TERCERA,Av Francesc Ferrer i Guàrdia,8.79,47.8,7.8,2.14,0.409,1.79,2165,ok
+0084318AR,428164.74,4580057.13,14.02,Platanus × acerifolia,True,SEGONA,G.V. Corts Catalanes,13.44,68.2,9.32,7.55,0.283,2.52,2904,ok
+0084319AR,428693.39,4580383.9,29.23,Styphnolobium japonicum,False,SEGONA,C\ Sant Fructuós,12.41,52.2,8.16,5.29,0.186,3.36,1025,ok
+0084321AR,428444.38,4579975.51,64.65,Pinus halepensis,False,EXEMPLAR,C\ Polvorí,13.43,73.8,9.69,5.89,0.288,2.49,2979,ok
+0084322AR,428800.82,4580131.9,47.69,Platanus × acerifolia,True,PRIMERA,Av Francesc Ferrer i Guàrdia,4.6,33.5,6.53,2.38,0.383,1.92,1325,ok
+0084323AR,428752.28,4580322.83,31.92,Brachychiton populneus,False,TERCERA,C\ Nord,7.16,23.8,5.5,4.24,0.363,2.02,875,ok
+0084324AR,428640.06,4580132.0,56.94,Platanus × acerifolia,True,TERCERA,Av Francesc Ferrer i Guàrdia,13.02,108.5,11.75,5.33,0.367,2.0,4684,ok
+0084325AR,428689.34,4580136.44,54.06,Platanus × acerifolia,True,EXEMPLAR,Av Francesc Ferrer i Guàrdia,15.64,108.2,11.74,7.3,0.374,1.97,6095,ok
+0084326AR,428851.28,4580187.04,42.88,Platanus × acerifolia,True,EXEMPLAR,Av Francesc Ferrer i Guàrdia,13.23,44.2,7.51,8.44,0.423,1.72,2050,ok
+0084327AR,428329.5,4580207.72,17.55,Platanus × acerifolia,True,TERCERA,G.V. Corts Catalanes,13.19,69.0,9.37,7.22,0.201,3.21,3028,ok
+0084328AR,428663.43,4580373.75,29.5,Styphnolobium japonicum,False,SEGONA,C\ Sant Fructuós,18.39,33.8,6.56,5.85,0.276,2.57,1430,ok
+0084330AR,428535.72,4580409.79,20.34,Platanus × acerifolia,True,TERCERA,G.V. Corts Catalanes,16.1,48.8,7.88,9.42,0.111,4.4,830,ok
+0084331AR,428456.79,4579983.05,65.51,Celtis australis,False,SEGONA,C\ Polvorí,8.29,43.0,7.4,3.41,0.326,2.24,1749,ok
+0084332AR,428642.13,4580370.73,28.62,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Sant Germà,4.92,2.0,1.6,2.24,0.422,1.72,97,ok
+0084333AR,428755.43,4580438.16,28.59,Styphnolobium japonicum,False,SEGONA,C\ Sant Fructuós,9.78,0.2,0.56,9.59,0.5,1.39,2,no_crown_detected
+0084334AR,428635.32,4580393.66,27.19,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Sant Germà,19.87,7.2,3.04,4.68,0.217,3.05,115,ok
+0084335AR,428277.63,4580167.33,16.78,Platanus × acerifolia,True,EXEMPLAR,G.V. Corts Catalanes,18.25,116.2,12.17,8.6,0.261,2.69,5485,ok
+0286748AR,428642.37,4580253.46,36.17,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Chopin,5.63,10.2,3.61,3.21,0.172,3.52,263,ok
+0296472AR,428228.84,4580005.47,19.61,Prunus cerasifera 'Pissardii',False,SEGONA,C\ Trajà,5.62,15.5,4.44,3.32,0.371,1.98,410,ok
+0296473AR,428223.62,4580008.84,19.18,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Trajà,4.99,12.0,3.91,3.33,0.325,2.25,330,ok
+0296474AR,428218.58,4580012.1,18.74,Prunus cerasifera 'Pissardii',False,SEGONA,C\ Trajà,5.39,17.2,4.69,3.16,0.302,2.39,428,ok
+0296475AR,428213.54,4580015.36,18.24,Prunus cerasifera 'Pissardii',False,SEGONA,C\ Trajà,5.79,14.8,4.33,3.59,0.329,2.23,352,ok
+0296477AR,428203.46,4580021.87,17.17,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Trajà,4.9,10.5,3.66,2.96,0.407,1.8,232,ok
+0296478AR,428198.42,4580025.13,16.8,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Trajà,5.46,11.8,3.87,3.2,0.301,2.4,275,ok
+0296479AR,428188.34,4580031.64,15.79,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Trajà,4.74,10.2,3.61,3.52,0.337,2.18,202,ok
+0296480AR,428183.31,4580034.9,15.35,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Trajà,5.17,10.8,3.7,3.57,0.282,2.53,223,ok
+0296481AR,428178.27,4580038.16,14.88,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Trajà,5.7,9.2,3.43,3.62,0.301,2.4,177,ok
+0296482AR,428226.65,4580014.93,19.07,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Trajà,6.13,9.0,3.39,2.42,0.215,3.08,285,ok
+0296483AR,428222.3,4580017.68,18.88,Prunus cerasifera 'Pissardii',False,SEGONA,C\ Trajà,6.48,21.0,5.17,3.5,0.149,3.81,510,ok
+0296484AR,428217.26,4580020.94,18.23,Prunus cerasifera 'Pissardii',False,SEGONA,C\ Trajà,6.27,22.2,5.32,3.21,0.153,3.76,542,ok
+0296485AR,428212.22,4580024.2,17.69,Prunus cerasifera 'Pissardii',False,SEGONA,C\ Trajà,6.86,18.5,4.85,3.0,0.185,3.37,520,ok
+0296486AR,428207.19,4580027.46,17.19,Prunus cerasifera 'Pissardii',False,SEGONA,C\ Trajà,7.08,22.8,5.38,3.04,0.158,3.69,543,ok
+0296487AR,428202.15,4580030.72,16.67,Prunus cerasifera 'Pissardii',False,SEGONA,C\ Trajà,6.13,14.0,4.22,3.26,0.185,3.38,368,ok
+0296490AR,428187.04,4580040.5,15.35,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Trajà,4.87,3.0,1.95,2.65,0.148,3.82,46,few_points
+0296491AR,428182.0,4580043.77,14.8,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Trajà,4.71,9.2,3.43,2.89,0.173,3.51,149,ok
+0296492AR,428294.02,4579961.66,26.06,Prunus cerasifera 'Pissardii',False,SEGONA,C\ Trajà,6.23,9.5,3.48,3.2,0.39,1.88,244,ok
+0296493AR,428289.01,4579964.96,25.5,Prunus cerasifera 'Pissardii',False,SEGONA,C\ Trajà,5.33,13.5,4.15,4.13,0.247,2.8,392,ok
+0296494AR,428284.0,4579968.26,25.03,Prunus cerasifera 'Pissardii',False,SEGONA,C\ Trajà,18.21,17.8,4.75,3.78,0.26,2.69,553,ok
+0296495AR,428278.99,4579971.56,24.5,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Trajà,13.77,15.8,4.48,3.87,0.353,2.08,441,ok
+0296496AR,428273.98,4579974.86,23.96,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Trajà,4.25,20.8,5.14,3.79,0.27,2.62,601,ok
+0296498AR,428263.96,4579981.46,23.03,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Trajà,4.46,7.8,3.14,3.02,0.389,1.89,215,ok
+0296499AR,428258.95,4579984.76,22.52,Prunus cerasifera 'Pissardii',False,SEGONA,C\ Trajà,3.82,11.0,3.74,3.5,0.343,2.14,276,ok
+0296500AR,428253.94,4579988.06,22.04,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Trajà,19.06,8.8,3.34,4.4,0.286,2.51,232,ok
+0296501AR,428248.93,4579991.36,21.58,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Trajà,3.25,15.8,4.48,3.28,0.339,2.16,456,ok
+0296502AR,428293.22,4579971.14,25.36,Prunus cerasifera 'Pissardii',False,SEGONA,C\ Trajà,5.4,23.8,5.5,2.88,0.231,2.93,599,ok
+0296503AR,428288.18,4579974.4,24.87,Prunus cerasifera 'Pissardii',False,SEGONA,C\ Trajà,5.22,20.2,5.08,3.21,0.216,3.07,464,ok
+0296504AR,428283.14,4579977.66,24.33,Prunus cerasifera 'Pissardii',False,SEGONA,C\ Trajà,6.74,25.2,5.67,3.19,0.215,3.07,659,ok
+0296505AR,428278.11,4579980.92,23.77,Prunus cerasifera 'Pissardii',False,SEGONA,C\ Trajà,5.98,25.0,5.64,3.58,0.165,3.61,593,ok
+0296506AR,428273.07,4579984.18,23.23,Prunus cerasifera 'Pissardii',False,SEGONA,C\ Trajà,6.36,13.0,4.07,3.71,0.221,3.02,431,ok
+0296507AR,428261.36,4579992.1,22.29,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Trajà,6.27,16.5,4.58,3.38,0.182,3.4,404,ok
+0296508AR,428257.14,4579994.78,21.75,Prunus cerasifera 'Pissardii',False,SEGONA,C\ Trajà,6.17,18.8,4.89,3.15,0.353,2.08,574,ok
+0296509AR,428252.69,4579997.34,21.38,Prunus cerasifera 'Pissardii',False,SEGONA,C\ Trajà,6.42,6.5,2.88,2.97,0.363,2.03,251,ok
+0310037AR,428518.7,4580037.7,65.72,Firmiana simplex,False,TERCERA,Av Francesc Ferrer i Guàrdia,8.08,40.8,7.2,5.76,0.368,2.0,1376,ok
+0310038AR,428521.76,4580044.65,65.22,Firmiana simplex,False,TERCERA,Av Francesc Ferrer i Guàrdia,8.22,57.8,8.57,3.19,0.385,1.91,2497,ok
+0310039AR,428524.26,4580049.51,64.85,Platanus × acerifolia,True,PRIMERA,Av Francesc Ferrer i Guàrdia,5.72,27.2,5.89,2.18,0.429,1.69,1156,ok
+0310148AR,428230.5,4580012.38,19.49,Prunus amygdalus,False,SEGONA,C\ Trajà,19.66,35.0,6.68,3.42,0.248,2.79,1307,ok
+0310149AR,428265.45,4579989.52,22.57,Prunus amygdalus,False,SEGONA,C\ Trajà,6.87,23.8,5.5,3.22,0.239,2.86,704,ok
+0319338AR,428632.89,4580130.23,57.28,Platanus × acerifolia,True,TERCERA,Av Francesc Ferrer i Guàrdia,17.2,104.8,11.55,5.96,0.289,2.48,4940,ok
+0319339AR,428582.32,4580109.71,60.49,Styphnolobium japonicum,False,TERCERA,Av Francesc Ferrer i Guàrdia,9.16,23.5,5.47,3.75,0.256,2.72,1354,ok
+0319903AR,428405.5,4580176.68,24.44,Koelreuteria paniculata 'Fastigiata',False,PRIMERA,C\ Sant Fructuós,4.21,8.2,3.24,2.98,0.485,1.45,245,ok
+0319904AR,428414.13,4580185.48,24.57,Koelreuteria paniculata 'Fastigiata',False,PRIMERA,C\ Sant Fructuós,4.73,11.8,3.87,3.44,0.437,1.66,335,ok
+0319905AR,428428.23,4580199.24,24.79,Koelreuteria paniculata 'Fastigiata',False,PRIMERA,C\ Sant Fructuós,4.6,3.5,2.11,3.29,0.512,1.34,81,ok
+0319906AR,428420.11,4580190.78,24.65,Koelreuteria paniculata 'Fastigiata',False,PRIMERA,C\ Sant Fructuós,4.51,13.0,4.07,3.25,0.482,1.46,345,ok
+0319907AR,428424.04,4580195.14,24.68,Koelreuteria paniculata 'Fastigiata',False,PRIMERA,C\ Sant Fructuós,5.38,11.5,3.83,4.12,0.362,2.03,324,ok
+0319908AR,428433.18,4580204.03,24.86,Koelreuteria paniculata 'Fastigiata',False,PRIMERA,C\ Sant Fructuós,4.93,9.5,3.48,4.15,0.408,1.79,257,ok
+0319909AR,428438.31,4580209.33,24.96,Koelreuteria paniculata 'Fastigiata',False,PRIMERA,C\ Sant Fructuós,16.62,15.0,4.37,3.56,0.409,1.79,411,ok
+0319910AR,428443.44,4580214.2,25.03,Koelreuteria paniculata 'Fastigiata',False,PRIMERA,C\ Sant Fructuós,5.23,14.8,4.33,3.42,0.442,1.63,389,ok
+0319911AR,428448.31,4580218.9,25.13,Koelreuteria paniculata 'Fastigiata',False,PRIMERA,C\ Sant Fructuós,16.54,3.2,2.03,2.57,0.49,1.43,99,ok
+0319912AR,428454.21,4580224.88,25.22,Koelreuteria paniculata 'Fastigiata',False,PRIMERA,C\ Sant Fructuós,4.39,11.0,3.74,2.8,0.489,1.43,309,ok
+0319913AR,428414.63,4580166.08,26.06,Koelreuteria paniculata 'Fastigiata',False,PRIMERA,C\ Sant Fructuós,4.43,9.8,3.52,2.09,0.379,1.94,314,ok
+0319914AR,428410.0,4580161.24,25.63,Koelreuteria paniculata 'Fastigiata',False,PRIMERA,C\ Sant Fructuós,4.31,15.0,4.37,2.83,0.367,2.0,528,ok
+0319915AR,428419.68,4580171.02,26.87,Koelreuteria paniculata 'Fastigiata',False,PRIMERA,C\ Sant Fructuós,4.41,32.5,6.43,2.61,0.319,2.28,955,ok
+0319916AR,428424.92,4580175.86,27.79,Koelreuteria paniculata 'Fastigiata',False,SEGONA,C\ Sant Fructuós,5.22,36.2,6.79,2.61,0.222,3.01,1039,ok
+0319917AR,428430.17,4580181.21,28.76,Koelreuteria paniculata 'Fastigiata',False,PRIMERA,C\ Sant Fructuós,8.32,26.2,5.78,3.27,0.245,2.81,786,ok
+0319918AR,428445.41,4580196.24,31.42,Koelreuteria paniculata 'Fastigiata',False,PRIMERA,C\ Sant Fructuós,7.12,75.8,9.82,2.25,0.201,3.21,2291,ok
+0319919AR,428452.2,4580203.03,32.49,Koelreuteria paniculata 'Fastigiata',False,PRIMERA,C\ Sant Fructuós,4.54,62.0,8.88,2.4,0.18,3.43,2068,ok
+0319920AR,428455.79,4580206.75,32.87,Koelreuteria paniculata 'Fastigiata',False,SEGONA,C\ Sant Fructuós,4.45,14.0,4.22,3.03,0.225,2.99,487,ok
+0319923AR,428474.02,4580224.74,34.54,Koelreuteria paniculata 'Fastigiata',False,SEGONA,C\ Sant Fructuós,5.08,14.5,4.3,3.24,0.321,2.28,358,ok
+0319924AR,428478.96,4580229.38,34.96,Koelreuteria paniculata 'Fastigiata',False,PRIMERA,C\ Sant Fructuós,19.62,16.5,4.58,3.2,0.331,2.21,449,ok
+0319925AR,428484.42,4580234.73,35.41,Koelreuteria paniculata 'Fastigiata',False,PRIMERA,C\ Sant Fructuós,5.24,23.5,5.47,3.23,0.265,2.65,707,ok
+0319926AR,428490.16,4580240.19,36.03,Koelreuteria paniculata 'Fastigiata',False,PRIMERA,C\ Sant Fructuós,4.77,29.0,6.08,2.09,0.299,2.41,994,ok
+0319927AR,428494.07,4580244.11,36.39,Koelreuteria paniculata 'Fastigiata',False,SEGONA,C\ Sant Fructuós,5.14,36.0,6.77,2.87,0.301,2.4,1210,ok
+0319928AR,428499.25,4580249.34,36.69,Koelreuteria paniculata 'Fastigiata',False,PRIMERA,C\ Sant Fructuós,16.91,10.8,3.7,2.9,0.116,4.31,280,ok
+0319929AR,428513.52,4580261.49,35.89,Koelreuteria paniculata 'Fastigiata',False,PRIMERA,C\ Sant Fructuós,17.45,17.5,4.72,3.43,0.189,3.33,394,ok
+0319930AR,428503.8,4580253.59,36.51,Koelreuteria paniculata 'Fastigiata',False,PRIMERA,C\ Sant Fructuós,3.72,14.5,4.3,1.96,0.191,3.31,295,ok
+0319931AR,428520.58,4580265.97,35.35,Koelreuteria paniculata 'Fastigiata',False,PRIMERA,C\ Sant Fructuós,17.02,14.0,4.22,3.18,0.159,3.68,355,ok
+0319932AR,428526.81,4580269.24,34.88,Koelreuteria paniculata 'Fastigiata',False,PRIMERA,C\ Sant Fructuós,4.96,22.2,5.32,3.46,0.283,2.52,524,ok
+0319933AR,428538.58,4580274.4,34.08,Koelreuteria paniculata 'Fastigiata',False,PRIMERA,C\ Sant Fructuós,9.7,16.0,4.51,3.11,0.167,3.58,407,ok
+0319934AR,428548.3,4580278.04,33.49,Koelreuteria paniculata 'Fastigiata',False,PRIMERA,C\ Sant Fructuós,18.36,15.0,4.37,3.36,0.28,2.54,254,ok
+0319935AR,428555.82,4580281.08,33.05,Koelreuteria paniculata 'Fastigiata',False,PRIMERA,C\ Sant Fructuós,4.88,16.5,4.58,1.64,0.149,3.81,347,ok
+0319936AR,428563.03,4580284.12,32.52,Koelreuteria paniculata 'Fastigiata',False,PRIMERA,C\ Sant Fructuós,11.25,11.5,3.83,3.1,0.344,2.14,286,ok
+0319937AR,428569.11,4580287.16,32.14,Koelreuteria paniculata 'Fastigiata',False,PRIMERA,C\ Sant Fructuós,,0.0,0.0,,,,0,no_crown_detected
+0319938AR,428476.38,4580247.63,25.84,Koelreuteria paniculata 'Fastigiata',False,PRIMERA,C\ Sant Fructuós,23.26,11.2,3.78,3.14,0.33,2.22,482,ok
+0319939AR,428481.76,4580252.79,26.12,Koelreuteria paniculata 'Fastigiata',False,PRIMERA,C\ Sant Fructuós,24.68,17.5,4.72,3.43,0.364,2.02,558,ok
+0319940AR,428486.81,4580257.62,26.43,Koelreuteria paniculata 'Fastigiata',False,PRIMERA,C\ Sant Fructuós,22.72,17.5,4.72,2.72,0.297,2.43,956,ok
+0319941AR,428491.86,4580262.67,26.7,Koelreuteria paniculata 'Fastigiata',False,PRIMERA,C\ Sant Fructuós,24.32,13.8,4.18,2.47,0.46,1.55,363,ok
+0319942AR,428497.02,4580267.5,27.03,Koelreuteria paniculata 'Fastigiata',False,PRIMERA,C\ Sant Fructuós,18.32,16.5,4.58,2.79,0.411,1.78,483,ok
+0319943AR,428502.84,4580272.34,27.33,Koelreuteria paniculata 'Fastigiata',False,PRIMERA,C\ Sant Fructuós,4.97,14.2,4.26,3.11,0.312,2.33,395,ok
+0319944AR,428508.88,4580276.4,27.73,Koelreuteria paniculata 'Fastigiata',False,PRIMERA,C\ Sant Fructuós,4.62,12.0,3.91,2.43,0.335,2.19,376,ok
+0319945AR,428521.18,4580283.2,28.65,Koelreuteria paniculata 'Fastigiata',False,PRIMERA,C\ Sant Fructuós,7.57,14.2,4.26,2.95,0.368,2.0,386,ok
+0319946AR,428527.99,4580286.17,29.11,Koelreuteria paniculata 'Fastigiata',False,PRIMERA,C\ Sant Fructuós,4.17,12.0,3.91,2.63,0.349,2.11,386,ok
+0319947AR,428533.81,4580288.48,29.61,Koelreuteria paniculata 'Fastigiata',False,PRIMERA,C\ Sant Fructuós,15.1,15.2,4.41,2.75,0.304,2.38,484,ok
+0319948AR,428545.89,4580293.2,30.37,Koelreuteria paniculata 'Fastigiata',False,PRIMERA,C\ Sant Fructuós,4.14,12.2,3.95,2.33,0.347,2.12,400,ok
+0319949AR,428551.92,4580295.94,30.85,Koelreuteria paniculata 'Fastigiata',False,PRIMERA,C\ Sant Fructuós,3.77,13.2,4.11,2.86,0.402,1.82,381,ok
+0319950AR,428558.84,4580298.91,31.33,Koelreuteria paniculata 'Fastigiata',False,PRIMERA,C\ Sant Fructuós,17.2,15.2,4.41,3.08,0.407,1.8,457,ok
+0319951AR,428566.75,4580302.64,31.53,Koelreuteria paniculata 'Fastigiata',False,PRIMERA,C\ Sant Fructuós,19.23,6.8,2.93,2.77,0.486,1.44,169,ok
+0319952AR,428573.67,4580306.04,31.51,Koelreuteria paniculata 'Fastigiata',False,PRIMERA,C\ Sant Fructuós,,0.0,0.0,,,,0,no_crown_detected
+0319953AR,428408.13,4580151.57,25.78,Hibiscus syriacus,False,PRIMERA,C\ Indíbil,3.65,6.8,2.93,2.8,0.553,1.18,248,ok
+0319954AR,428413.09,4580146.96,26.44,Hibiscus syriacus,False,PRIMERA,C\ Indíbil,3.95,7.5,3.09,2.53,0.457,1.57,281,ok
+0319955AR,428418.41,4580141.82,27.14,Hibiscus syriacus,False,PRIMERA,C\ Indíbil,3.61,9.0,3.39,2.43,0.472,1.5,320,ok
+0319956AR,428423.9,4580136.06,27.94,Hibiscus syriacus,False,PRIMERA,C\ Indíbil,,0.0,0.0,,,,0,no_crown_detected
+0319957AR,428425.4,4580123.36,28.79,Hibiscus syriacus,False,PRIMERA,C\ Indíbil,3.82,9.2,3.43,2.38,0.23,2.94,238,ok
+0319958AR,428421.08,4580127.45,28.3,Hibiscus syriacus,False,PRIMERA,C\ Indíbil,16.71,6.2,2.82,2.74,0.427,1.7,161,ok
+0319959AR,428416.62,4580132.13,27.7,Hibiscus syriacus,False,PRIMERA,C\ Indíbil,3.51,6.5,2.88,2.24,0.356,2.06,146,ok
+0319960AR,428412.02,4580136.65,27.09,Hibiscus syriacus,False,PRIMERA,C\ Indíbil,20.05,15.2,4.41,2.23,0.099,4.62,507,ok
+0319961AR,428406.61,4580141.97,26.35,Hibiscus syriacus,False,PRIMERA,C\ Indíbil,21.08,9.8,3.52,2.52,0.187,3.35,268,ok
+0319962AR,428402.0,4580146.76,25.78,Hibiscus syriacus,False,PRIMERA,C\ Indíbil,6.88,8.5,3.29,2.56,0.384,1.91,301,ok
+0319964AR,428379.28,4580182.55,22.08,Hibiscus syriacus,False,PRIMERA,C\ Indíbil,19.72,10.5,3.66,2.79,0.386,1.9,301,ok
+0319965AR,428373.69,4580187.92,21.31,Hibiscus syriacus,False,PRIMERA,C\ Indíbil,,0.0,0.0,,,,0,no_crown_detected
+0319966AR,428368.91,4580192.54,20.63,Hibiscus syriacus,False,PRIMERA,C\ Indíbil,,0.0,0.0,,,,0,no_crown_detected
+0319967AR,428363.48,4580198.02,19.85,Hibiscus syriacus,False,PRIMERA,C\ Indíbil,,0.0,0.0,,,,0,no_crown_detected
+0319968AR,428359.73,4580201.78,19.35,Hibiscus syriacus,False,PRIMERA,C\ Indíbil,5.68,11.2,3.78,2.46,0.494,1.41,401,ok
+0319969AR,428355.82,4580206.06,18.86,Hibiscus syriacus,False,PRIMERA,C\ Indíbil,4.06,9.8,3.52,2.57,0.463,1.54,249,ok
+0319970AR,428351.31,4580210.66,18.28,Hibiscus syriacus,False,PRIMERA,C\ Indíbil,28.87,7.5,3.09,2.76,0.495,1.41,237,ok
+0319971AR,428379.71,4580169.63,22.92,Hibiscus syriacus,False,PRIMERA,C\ Indíbil,20.93,4.8,2.46,7.71,0.122,4.21,255,ok
+0319972AR,428373.28,4580176.06,22.0,Hibiscus syriacus,False,PRIMERA,C\ Indíbil,21.45,27.5,5.92,2.59,0.112,4.37,999,ok
+0319973AR,428367.86,4580181.57,21.24,Hibiscus syriacus,False,PRIMERA,C\ Indíbil,,0.0,0.0,,,,0,no_crown_detected
+0319974AR,428363.12,4580186.39,20.46,Hibiscus syriacus,False,PRIMERA,C\ Indíbil,,0.0,0.0,,,,0,no_crown_detected
+0319975AR,428357.7,4580191.89,19.68,Hibiscus syriacus,False,PRIMERA,C\ Indíbil,,0.0,0.0,,,,0,no_crown_detected
+0319976AR,428353.97,4580195.79,19.12,Hibiscus syriacus,False,PRIMERA,C\ Indíbil,,0.0,0.0,,,,0,no_crown_detected
+0319977AR,428349.82,4580199.94,18.54,Hibiscus syriacus,False,PRIMERA,C\ Indíbil,4.16,5.5,2.65,2.98,0.312,2.33,125,ok
+0319978AR,428345.68,4580204.93,18.09,Hibiscus syriacus,False,PRIMERA,C\ Indíbil,3.84,7.8,3.14,2.39,0.337,2.17,144,ok
+0322668AR,428236.06,4580000.28,20.31,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Trajà,5.29,9.8,3.52,2.87,0.317,2.3,264,ok
+0334246AR,428383.66,4579938.47,59.93,Celtis australis,False,SEGONA,C\ Polvorí,9.49,24.2,5.56,5.17,0.283,2.53,889,ok
+0338535AR,428345.4,4579885.04,56.82,Pinus pinea,False,SEGONA,C\ Polvorí,,0.0,0.0,,,,0,no_crown_detected
+0338537AR,428471.49,4579992.2,66.54,Pinus pinea,False,PRIMERA,C\ Guatlla,1.03,11.0,3.74,5.06,0.328,2.23,395,low_tree
+0339769AR,428481.97,4580003.77,67.07,Pinus halepensis,False,EXEMPLAR,C\ Polvorí,10.74,70.5,9.47,7.94,0.307,2.36,2503,ok
+0339770AR,428477.58,4579997.62,66.95,Pinus halepensis,False,EXEMPLAR,C\ Polvorí,11.16,86.2,10.48,6.42,0.34,2.16,3048,ok
+0341501AR,428289.99,4580169.3,16.86,Platanus × acerifolia,True,PRIMERA,G.V. Corts Catalanes,3.25,0.5,0.8,8.32,0.222,3.01,18,no_crown_detected

@@ -1,0 +1,387 @@
+tree_id,species,is_plane,street,width_m,facade_dist_m,flag,strip_width_m,size_class,ray_x0,ray_y0,ray_x1,ray_y1,pit_min_m2,pit_basis
+0001110AR,Fraxinus angustifolia 'Raywood',False,Pg Fabra i Puig,13.58,8.12,ok,,large,430205.75,4587542.92,430193.02,4587547.65,1.5,class
+0001156AR,Pinus halepensis,False,Pl César Vallejo,,13.46,median,,check,,,,,1.0,floor
+0057888AR,Populus nigra 'Italica',False,C\ Darnius,,4.34,no_kerb,,check,,,,,1.0,floor
+0058224AR,Melia azedarach,False,C\ Montsant,,5.23,median,,check,,,,,1.0,floor
+0058451AR,Populus alba 'Pyramidalis',False,C\ Beret,,2.81,no_kerb,,check,,,,,1.0,floor
+0058682AR,Brachychiton populneus,False,C\ Montagut,3.19,2.63,ok,,small,430497.98,4587277.33,430500.7,4587275.66,1.0,class
+0058683AR,Melia azedarach,False,C\ Darnius,29.91,2.99,ok,,large,430297.92,4587295.43,430326.89,4587287.99,1.5,class
+0058684AR,Pyrus calleryana 'Chanticleer',False,C\ Travau,4.96,4.36,ok,,medium,430617.64,4587208.66,430621.87,4587206.06,1.0,class
+0058685AR,Melia azedarach,False,C\ Espinauga,,5.3,median,8.46,check,,,,,1.0,floor
+0058686AR,Melia azedarach,False,C\ Darnius,,11.18,no_kerb,,check,,,,,1.0,floor
+0058687AR,Ulmus pumila,False,C\ Vila-seca,5.49,4.68,ok,,medium,430563.78,4587230.39,430560.92,4587225.7,1.0,class
+0058688AR,Populus alba 'Pyramidalis',False,C\ Darnius,,2.65,no_kerb,,check,,,,,1.0,floor
+0058689AR,Platanus × acerifolia,True,Pg Fabra i Puig,,13.71,median,6.94,check,,,,,1.0,floor
+0058690AR,Populus nigra 'Italica',False,Pl Sant Francesc Xavier,4.11,3.56,ok,,medium,430155.64,4587303.1,430156.91,4587307.01,1.0,class
+0058691AR,Brachychiton populneus,False,Pg Urrutia,9.0,8.4,ok,,large,430473.61,4587407.67,430476.71,4587416.12,1.5,class
+0058692AR,Melia azedarach,False,C\ Darnius,21.27,5.48,ok,,large,430327.94,4587394.21,430349.19,4587394.99,1.5,class
+0058697AR,Melia azedarach,False,C\ Bellcaire,,5.8,median,8.47,check,,,,,1.0,floor
+0058698AR,Populus nigra 'Italica',False,Pl Sant Francesc Xavier,4.08,3.61,ok,,medium,430185.78,4587293.36,430187.03,4587297.24,1.0,class
+0058699AR,Melia azedarach,False,C\ Darnius,,4.86,no_kerb,27.87,check,,,,,1.0,floor
+0058700AR,Brachychiton populneus,False,Pg Urrutia,8.7,8.36,ok,,large,430376.37,4587443.08,430379.32,4587451.26,1.5,class
+0058701AR,Platanus × acerifolia,True,Pg Fabra i Puig,,19.55,median,5.31,check,,,,,1.0,floor
+0058702AR,Brachychiton populneus,False,C\ Montagut,3.19,2.54,ok,,small,430502.97,4587285.44,430505.68,4587283.77,1.0,class
+0058703AR,Melia azedarach,False,C\ Bellcaire,,6.74,median,7.79,check,,,,,1.0,floor
+0058704AR,Brachychiton populneus,False,Pg Urrutia,8.69,8.27,ok,,large,430336.15,4587457.63,430339.12,4587465.79,1.5,class
+0058706AR,Acer monspessulanum,False,C\ Vila-seca,6.59,5.99,ok,,large,430544.79,4587225.04,430544.48,4587231.62,1.5,class
+0058707AR,Brachychiton populneus,False,Pg Urrutia,6.56,5.88,ok,,large,430212.16,4587504.77,430214.33,4587510.97,1.5,class
+0058709AR,Ulmus pumila,False,C\ Vila-seca,2.57,1.5,ok,,small,430407.42,4587311.65,430408.21,4587314.1,1.0,class
+0058710AR,Koelreuteria paniculata,False,Pl Sant Francesc Xavier,,12.17,median,19.07,check,,,,,1.0,floor
+0058711AR,Platanus × acerifolia,True,Pg Fabra i Puig,,18.29,median,6.93,check,,,,,1.0,floor
+0058712AR,Ulmus pumila,False,C\ Vila-seca,5.44,4.66,ok,,medium,430528.47,4587251.95,430525.63,4587247.31,1.0,class
+0058713AR,Ulmus pumila,False,C\ Vila-seca,6.08,2.75,ok,,large,430415.91,4587320.79,430412.73,4587315.6,1.5,class
+0058714AR,Platanus × acerifolia,True,Pg Fabra i Puig,,13.68,median,6.95,check,,,,,1.0,floor
+0058716AR,Prunus cerasifera 'Pissardii',False,C\ Montagut,3.19,2.52,ok,,small,430500.57,4587281.55,430503.29,4587279.88,1.0,class
+0058717AR,Brachychiton populneus,False,C\ Montagut,3.18,2.61,ok,,small,430510.75,4587298.13,430513.46,4587296.47,1.0,class
+0058719AR,Ulmus pumila,False,C\ Espinauga,,7.64,median,8.98,check,,,,,1.0,floor
+0058720AR,Melia azedarach,False,Pg Urrutia,6.59,3.62,ok,,large,430431.16,4587448.02,430429.71,4587441.6,1.5,class
+0058721AR,Populus alba 'Pyramidalis',False,C\ Darnius,11.88,2.91,ok,,large,430310.4,4587295.44,430299.1,4587299.11,1.5,class
+0058722AR,Ulmus pumila,False,C\ Vila-seca,3.67,3.07,ok,,medium,430482.88,4587279.85,430480.97,4587276.72,1.0,class
+0058723AR,Platanus × acerifolia,True,Pg Fabra i Puig,,18.37,median,5.3,check,,,,,1.0,floor
+0058724AR,Platanus × acerifolia,True,Pg Fabra i Puig,,13.38,median,6.96,check,,,,,1.0,floor
+0058726AR,Melia azedarach,False,C\ Darnius,11.45,5.54,ok,,large,430337.9,4587424.53,430349.14,4587426.72,1.5,class
+0058727AR,Platanus × acerifolia,True,Pg Urrutia,,12.98,no_kerb,,check,,,,,1.0,floor
+0058728AR,Jacaranda mimosifolia,False,C\ Darnius,,3.51,no_kerb,30.03,check,,,,,1.0,floor
+0058729AR,Prunus cerasifera 'Pissardii',False,C\ Montagut,3.17,2.57,ok,,small,430517.83,4587287.13,430515.13,4587288.78,1.0,class
+0058730AR,Ulmus pumila,False,C\ Vila-seca,5.5,4.53,ok,,medium,430531.52,4587233.11,430534.37,4587237.8,1.0,class
+0058732AR,Acer monspessulanum,False,C\ Vila-seca,3.77,2.88,ok,,medium,430421.42,4587317.41,430419.45,4587314.2,1.0,class
+0058733AR,Robinia pseudoacacia,False,C\ Riells,,5.84,median,9.05,check,,,,,1.0,floor
+0058734AR,Ulmus pumila,False,C\ Vila-seca,5.53,4.78,ok,,medium,430543.86,4587242.55,430540.98,4587237.83,1.0,class
+0058736AR,Melia azedarach,False,C\ Bellcaire,,7.41,median,8.47,check,,,,,1.0,floor
+0058740AR,Platanus × acerifolia,True,Pg Fabra i Puig,13.65,13.2,ok,,large,430205.07,4587541.09,430192.28,4587545.85,1.5,class
+0058741AR,Prunus cerasifera 'Pissardii',False,C\ Montagut,3.48,2.65,ok,,small,430545.35,4587353.24,430541.88,4587353.16,1.0,class
+0058742AR,Melia azedarach,False,C\ Vila-seca,5.51,4.6,ok,,medium,430589.21,4587214.86,430586.34,4587210.16,1.0,class
+0058744AR,Ulmus pumila,False,C\ Montsant,,5.09,median,9.1,check,,,,,1.0,floor
+0058745AR,Robinia pseudoacacia,False,C\ Cabanelles,3.27,3.6,ok,,small,430247.92,4587447.08,430244.81,4587448.1,1.0,class
+0058747AR,Melia azedarach,False,C\ Vila-seca,5.55,4.99,ok,,medium,430604.64,4587205.45,430601.75,4587200.71,1.0,class
+0058748AR,Brachychiton populneus,False,Pg Urrutia,3.61,2.78,ok,,medium,430519.14,4587396.97,430520.37,4587400.36,1.0,class
+0058749AR,Styphnolobium japonicum,False,Pl Sant Francesc Xavier,4.51,5.09,ok,,medium,430166.73,4587315.79,430171.02,4587314.41,1.0,class
+0058750AR,Populus nigra 'Italica',False,Pg Urrutia,8.09,7.69,ok,,large,430302.37,4587493.89,430299.63,4587486.28,1.5,class
+0058751AR,Populus nigra 'Italica',False,Pg Urrutia,8.08,7.58,ok,,large,430314.04,4587489.68,430311.3,4587482.08,1.5,class
+0058752AR,Melia azedarach,False,C\ Riells,,5.75,median,23.64,check,,,,,1.0,floor
+0058753AR,Melia azedarach,False,C\ Espinauga,,7.63,median,8.94,check,,,,,1.0,floor
+0058757AR,Styphnolobium japonicum,False,C\ Riells,,6.12,median,9.04,check,,,,,1.0,floor
+0058758AR,Brachychiton populneus,False,Pg Urrutia,6.75,6.31,ok,,large,430301.17,4587472.31,430303.42,4587478.67,1.5,class
+0058759AR,Acer monspessulanum,False,C\ Vila-seca,4.47,3.39,ok,,medium,430286.06,4587348.99,430287.42,4587353.24,1.0,class
+0058761AR,Brachychiton populneus,False,Pg Urrutia,8.72,8.35,ok,,large,430367.16,4587446.41,430370.12,4587454.61,1.5,class
+0058762AR,Jacaranda mimosifolia,False,C\ Darnius,,2.62,no_kerb,,check,,,,,1.0,floor
+0058763AR,Platanus × acerifolia,True,Pg Fabra i Puig,,16.18,median,6.93,check,,,,,1.0,floor
+0058764AR,Prunus cerasifera 'Pissardii',False,C\ Escala,,3.29,no_kerb,,check,,,,,1.0,floor
+0058767AR,Pyrus calleryana 'Chanticleer',False,C\ Travau,4.95,4.3,ok,,medium,430620.56,4587213.39,430624.78,4587210.8,1.0,class
+0058768AR,Celtis australis,False,C\ Vila-seca,4.43,3.47,ok,,medium,430297.2,4587345.44,430298.54,4587349.66,1.0,class
+0058769AR,Acer monspessulanum,False,C\ Vila-seca,3.72,2.97,ok,,medium,430434.26,4587309.56,430432.32,4587306.38,1.0,class
+0058770AR,Melia azedarach,False,C\ Darnius,,5.12,no_kerb,26.94,check,,,,,1.0,floor
+0058771AR,Platanus × acerifolia,True,Pg Urrutia,,18.23,median,,check,,,,,1.0,floor
+0058772AR,Melia azedarach,False,Pg Urrutia,5.99,2.38,ok,,medium,430358.73,4587473.54,430356.69,4587467.9,1.0,class
+0058773AR,Eriobotrya japonica,False,C\ Riells,8.36,4.6,ok,,large,430564.45,4587298.65,430561.6,4587290.79,1.5,class
+0058774AR,Populus nigra 'Italica',False,Pg Urrutia,8.08,7.47,ok,,large,430308.64,4587491.62,430305.9,4587484.02,1.5,class
+0058777AR,Prunus cerasifera 'Pissardii',False,C\ Montagut,3.19,2.56,ok,,small,430523.19,4587295.88,430520.47,4587297.55,1.0,class
+0058778AR,Ulmus pumila,False,C\ Montsant,,5.19,median,9.05,check,,,,,1.0,floor
+0058779AR,Acer monspessulanum,False,C\ Vila-seca,5.45,4.66,ok,,medium,430578.77,4587221.24,430575.93,4587216.59,1.0,class
+0058780AR,Melia azedarach,False,C\ Vila-seca,5.45,2.94,ok,,medium,430398.63,4587326.53,430396.96,4587321.34,1.0,class
+0058781AR,Brachychiton populneus,False,Pg Urrutia,16.84,14.5,ok,,large,430220.36,4587501.91,430237.19,4587502.64,1.5,class
+0058782AR,Brachychiton populneus,False,Pg Urrutia,9.22,8.66,ok,,large,430361.43,4587448.48,430361.56,4587457.7,1.5,class
+0058783AR,Brachychiton populneus,False,Pg Urrutia,8.74,8.3,ok,,large,430417.14,4587428.26,430420.13,4587436.47,1.5,class
+0058785AR,Brachychiton populneus,False,Pg Urrutia,8.89,8.12,ok,,large,430445.24,4587418.05,430448.29,4587426.4,1.5,class
+0058787AR,Prunus cerasifera 'Pissardii',False,C\ Agullana,,2.39,no_kerb,48.11,check,,,,,1.0,floor
+0058788AR,Prunus cerasifera 'Pissardii',False,C\ Agullana,,2.47,no_kerb,,check,,,,,1.0,floor
+0058789AR,Koelreuteria paniculata,False,Pl Sant Francesc Xavier,,12.12,median,29.82,check,,,,,1.0,floor
+0058790AR,Celtis australis,False,C\ Vila-seca,4.54,3.52,ok,,medium,430280.35,4587350.81,430281.73,4587355.13,1.0,class
+0058791AR,Robinia pseudoacacia,False,C\ Espinauga,,6.83,median,8.88,check,,,,,1.0,floor
+0058792AR,Melia azedarach,False,C\ Darnius,29.83,2.72,ok,,large,430303.98,4587314.16,430332.37,4587305.01,1.5,class
+0058794AR,Prunus cerasifera 'Pissardii',False,Pl Sant Francesc Xavier,11.02,5.77,ok,,large,430178.71,4587353.06,430189.61,4587354.69,1.5,class
+0058795AR,Melia azedarach,False,Pg Urrutia,5.9,2.61,ok,,medium,430402.06,4587457.87,430400.05,4587452.32,1.0,class
+0058796AR,Robinia pseudoacacia,False,C\ Bellcaire,,8.17,median,8.44,check,,,,,1.0,floor
+0058797AR,Prunus cerasifera 'Pissardii',False,C\ Montagut,3.11,2.11,ok,,small,430521.22,4587330.22,430524.08,4587328.98,1.0,class
+0058798AR,Populus alba 'Pyramidalis',False,C\ Darnius,,6.8,no_kerb,23.87,check,,,,,1.0,floor
+0058799AR,Ulmus pumila,False,C\ Vila-seca,2.54,1.53,ok,,small,430361.53,4587326.54,430362.31,4587328.96,1.0,class
+0058800AR,Melia azedarach,False,C\ Darnius,,3.07,no_kerb,,check,,,,,1.0,floor
+0058801AR,Populus nigra 'Italica',False,Pg Urrutia,8.26,7.56,ok,,large,430339.18,4587480.6,430335.06,4587473.44,1.5,class
+0058802AR,Prunus cerasifera 'Pissardii',False,C\ Montagut,3.22,2.39,ok,,small,430541.88,4587343.72,430538.85,4587344.82,1.0,class
+0058803AR,Prunus cerasifera 'Pissardii',False,C\ Agullana,29.18,2.6,ok,,large,430499.13,4587362.64,430489.19,4587335.2,1.5,class
+0058805AR,Grevillea robusta,False,Pg Urrutia,7.51,7.09,ok,,large,430270.59,4587483.42,430269.64,4587490.87,1.5,class
+0058806AR,Ulmus pumila,False,C\ Vila-seca,8.09,7.11,ok,,large,430485.39,4587258.64,430487.88,4587266.33,1.5,class
+0058808AR,Brachychiton populneus,False,Pg Urrutia,6.72,6.29,ok,,large,430275.26,4587481.7,430277.59,4587488.0,1.5,class
+0058810AR,Brachychiton populneus,False,Pg Urrutia,8.85,8.15,ok,,large,430431.47,4587423.04,430434.5,4587431.36,1.5,class
+0058811AR,Brachychiton populneus,False,Pg Urrutia,3.61,2.9,ok,,medium,430506.48,4587401.55,430507.71,4587404.95,1.0,class
+0058812AR,Prunus cerasifera 'Pissardii',False,C\ Agullana,,2.39,no_kerb,,check,,,,,1.0,floor
+0058813AR,Casuarina cunninghamiana,False,Pg Fabra i Puig,,17.11,median,18.74,check,,,,,1.0,floor
+0058814AR,Acer monspessulanum,False,C\ Vila-seca,5.43,4.53,ok,,medium,430518.26,4587258.19,430515.43,4587253.55,1.0,class
+0058815AR,Melia azedarach,False,C\ Darnius,,5.68,no_kerb,31.38,check,,,,,1.0,floor
+0058817AR,Populus nigra 'Italica',False,Pg Urrutia,8.01,7.58,ok,,large,430221.21,4587523.21,430218.42,4587515.71,1.5,class
+0058818AR,Platanus × acerifolia,True,C\ Montsant,,5.03,median,9.06,check,,,,,1.0,floor
+0058821AR,Melia azedarach,False,C\ Espinauga,,7.73,median,8.93,check,,,,,1.0,floor
+0058822AR,Ulmus pumila,False,C\ Vila-seca,3.77,3.09,ok,,medium,430364.94,4587337.44,430363.78,4587333.85,1.0,class
+0058824AR,Prunus cerasifera 'Pissardii',False,C\ Escala,,2.69,no_kerb,,check,,,,,1.0,floor
+0058825AR,Brachychiton populneus,False,Pg Urrutia,3.6,3.04,ok,,medium,430531.74,4587392.4,430532.97,4587395.79,1.0,class
+0058826AR,Melia azedarach,False,Pg Urrutia,5.97,2.56,ok,,medium,430364.3,4587471.52,430362.27,4587465.91,1.0,class
+0058827AR,Prunus cerasifera 'Pissardii',False,C\ Cabanelles,3.24,3.35,ok,,small,430227.15,4587449.24,430230.24,4587448.24,1.0,class
+0058828AR,Melia azedarach,False,C\ Vila-seca,3.73,3.04,ok,,medium,430353.55,4587341.12,430352.4,4587337.57,1.0,class
+0058829AR,Melia azedarach,False,C\ Bellcaire,,8.09,median,8.4,check,,,,,1.0,floor
+0058830AR,Robinia pseudoacacia,False,C\ Riells,4.35,2.75,ok,,medium,430546.04,4587305.33,430544.55,4587301.24,1.0,class
+0058833AR,Acer monspessulanum,False,C\ Vila-seca,5.53,4.78,ok,,medium,430553.44,4587236.71,430550.56,4587231.98,1.0,class
+0058834AR,Acer monspessulanum,False,C\ Vila-seca,3.76,3.09,ok,,medium,430387.97,4587329.97,430386.82,4587326.39,1.0,class
+0058836AR,Styphnolobium japonicum,False,C\ Riells,,5.78,median,9.05,check,,,,,1.0,floor
+0058838AR,Prunus cerasifera 'Pissardii',False,Pl Sant Francesc Xavier,4.12,3.83,ok,,medium,430168.17,4587369.65,430166.91,4587365.73,1.0,class
+0058839AR,Brachychiton populneus,False,Pg Urrutia,3.59,3.01,ok,,medium,430540.86,4587389.1,430542.09,4587392.48,1.0,class
+0058840AR,Ulmus pumila,False,C\ Vila-seca,3.75,2.87,ok,,medium,430347.82,4587342.98,430346.67,4587339.41,1.0,class
+0058841AR,Melia azedarach,False,C\ Bellcaire,,7.16,median,8.46,check,,,,,1.0,floor
+0058842AR,Brachychiton populneus,False,Pg Urrutia,3.57,2.89,ok,,medium,430557.2,4587383.19,430558.42,4587386.54,1.0,class
+0058843AR,Brachychiton populneus,False,Pg Urrutia,,16.09,median,,check,,,,,1.0,floor
+0058845AR,Platanus × acerifolia,True,Pg Fabra i Puig,,16.35,median,6.92,check,,,,,1.0,floor
+0058846AR,Populus nigra 'Italica',False,Pl Sant Francesc Xavier,4.19,3.68,ok,,medium,430207.15,4587321.66,430203.16,4587322.95,1.0,class
+0058847AR,Brachychiton populneus,False,C\ Montagut,3.11,2.06,ok,,small,430526.06,4587343.7,430528.99,4587342.64,1.0,class
+0058848AR,Prunus cerasifera 'Pissardii',False,C\ Montagut,4.53,2.45,ok,,medium,430540.59,4587383.93,430544.87,4587382.43,1.0,class
+0058849AR,Styphnolobium japonicum,False,Pl Sant Francesc Xavier,,9.99,median,3.04,check,,,,,1.0,floor
+0058850AR,Ulmus pumila,False,C\ Vila-seca,2.57,1.85,ok,,small,430440.58,4587292.26,430441.92,4587294.45,1.0,class
+0058851AR,Pinus halepensis,False,Pl Sant Francesc Xavier,4.48,4.86,ok,,medium,430173.87,4587337.91,430178.13,4587336.54,1.0,class
+0058852AR,Melia azedarach,False,C\ Darnius,28.48,5.06,ok,,large,430314.94,4587353.59,430339.83,4587339.75,1.5,class
+0058854AR,Prunus cerasifera 'Pissardii',False,C\ Montagut,3.16,2.48,ok,,small,430507.89,4587293.45,430510.59,4587291.8,1.0,class
+0058855AR,Acer monspessulanum,False,C\ Vila-seca,3.39,2.01,ok,,small,430380.06,4587320.55,430378.75,4587323.67,1.0,class
+0058856AR,Melia azedarach,False,Pg Urrutia,6.1,3.37,ok,,large,430426.21,4587449.33,430424.54,4587443.47,1.5,class
+0058857AR,Platanus × acerifolia,True,Pg Fabra i Puig,,13.4,median,6.95,check,,,,,1.0,floor
+0058858AR,Populus nigra 'Italica',False,Pg Urrutia,17.2,16.23,ok,,large,430224.97,4587521.82,430236.5,4587509.06,1.5,class
+0058859AR,Robinia pseudoacacia,False,C\ Riells,,5.78,median,9.04,check,,,,,1.0,floor
+0058860AR,Prunus cerasifera 'Pissardii',False,C\ Agullana,,2.58,no_kerb,,check,,,,,1.0,floor
+0058862AR,Melia azedarach,False,C\ Bellcaire,,5.44,median,8.43,check,,,,,1.0,floor
+0058863AR,Koelreuteria paniculata,False,Pl Sant Francesc Xavier,,12.37,median,29.82,check,,,,,1.0,floor
+0058864AR,Koelreuteria paniculata,False,Pl Sant Francesc Xavier,,13.93,median,19.06,check,,,,,1.0,floor
+0058865AR,Populus alba 'Pyramidalis',False,C\ Darnius,,11.1,no_kerb,35.62,check,,,,,1.0,floor
+0058866AR,Ulmus pumila,False,C\ Vila-seca,2.53,1.79,ok,,small,430349.7,4587330.35,430350.48,4587332.76,1.0,class
+0058867AR,Acer monspessulanum,False,C\ Vila-seca,3.73,3.1,ok,,medium,430429.91,4587312.22,430427.96,4587309.04,1.0,class
+0058868AR,Prunus cerasifera 'Pissardii',False,Pg Fabra i Puig,,19.44,median,6.61,check,,,,,1.0,floor
+0058869AR,Platanus × acerifolia,True,C\ Capsec,,15.9,median,5.3,check,,,,,1.0,floor
+0058870AR,Melia azedarach,False,C\ Vila-seca,3.7,3.31,ok,,medium,430438.73,4587306.82,430436.8,4587303.67,1.0,class
+0058872AR,Ulmus pumila,False,C\ Vila-seca,2.58,1.73,ok,,small,430384.59,4587319.07,430385.38,4587321.53,1.0,class
+0058874AR,Brachychiton populneus,False,Pg Urrutia,3.58,2.83,ok,,medium,430497.92,4587404.66,430499.14,4587408.03,1.0,class
+0058875AR,Platanus × acerifolia,True,C\ Capsec,,10.26,median,5.2,check,,,,,1.0,floor
+0058877AR,Prunus cerasifera 'Pissardii',False,Pl Sant Francesc Xavier,,10.1,median,3.06,check,,,,,1.0,floor
+0058878AR,Ulmus pumila,False,C\ Vila-seca,5.49,4.65,ok,,medium,430539.08,4587245.47,430536.23,4587240.79,1.0,class
+0058879AR,Ulmus pumila,False,C\ Vila-seca,5.46,4.91,ok,,medium,430546.01,4587224.3,430548.85,4587228.96,1.0,class
+0058880AR,Brachychiton populneus,False,C\ Montagut,3.22,2.78,ok,,small,430513.14,4587279.39,430510.4,4587281.08,1.0,class
+0058881AR,Platanus × acerifolia,True,C\ Capsec,,14.27,median,5.18,check,,,,,1.0,floor
+0058882AR,Ulmus pumila,False,C\ Vila-seca,3.77,3.18,ok,,medium,430393.89,4587328.06,430392.74,4587324.47,1.0,class
+0058883AR,Melia azedarach,False,C\ Darnius,,5.27,no_kerb,,check,,,,,1.0,floor
+0058884AR,Ulmus pumila,False,C\ Vila-seca,5.45,4.53,ok,,medium,430533.65,4587248.79,430530.81,4587244.14,1.0,class
+0058885AR,Melia azedarach,False,C\ Vila-seca,,9.8,median,,check,,,,,1.0,floor
+0058886AR,Melia azedarach,False,Pg Urrutia,7.41,4.14,ok,,large,430436.49,4587446.9,430435.19,4587439.61,1.5,class
+0058887AR,Acer monspessulanum,False,C\ Vila-seca,2.93,1.76,ok,,small,430480.7,4587267.71,430483.23,4587269.19,1.0,class
+0058888AR,Celtis australis,False,C\ Vila-seca,4.34,3.17,ok,,medium,430308.04,4587341.98,430309.36,4587346.12,1.0,class
+0058889AR,Brachychiton populneus,False,Pg Urrutia,8.72,8.2,ok,,large,430345.7,4587454.14,430348.69,4587462.34,1.5,class
+0058890AR,Melia azedarach,False,C\ Riells,,5.71,median,9.05,check,,,,,1.0,floor
+0058891AR,Melia azedarach,False,C\ Vila-seca,,9.58,median,,check,,,,,1.0,floor
+0058892AR,Ulmus pumila,False,C\ Espinauga,,6.57,median,8.86,check,,,,,1.0,floor
+0058893AR,Acer monspessulanum,False,C\ Vila-seca,3.67,3.06,ok,,medium,430457.09,4587295.63,430455.18,4587292.5,1.0,class
+0058894AR,Melia azedarach,False,C\ Darnius,,4.77,no_kerb,26.92,check,,,,,1.0,floor
+0058895AR,Prunus cerasifera 'Pissardii',False,Pl Sant Francesc Xavier,4.14,3.91,ok,,medium,430175.85,4587367.19,430174.59,4587363.25,1.0,class
+0058896AR,Robinia pseudoacacia,False,C\ Bellcaire,,7.83,median,8.49,check,,,,,1.0,floor
+0058897AR,Melia azedarach,False,C\ Bellcaire,,7.44,median,8.35,check,,,,,1.0,floor
+0058898AR,Melia azedarach,False,C\ Bellcaire,,5.75,median,8.5,check,,,,,1.0,floor
+0058899AR,Platanus × acerifolia,True,Pg Fabra i Puig,,16.3,median,6.92,check,,,,,1.0,floor
+0058902AR,Robinia pseudoacacia,False,C\ Espinauga,,7.63,median,8.92,check,,,,,1.0,floor
+0058904AR,Populus nigra 'Italica',False,Pg Urrutia,9.14,8.75,ok,,large,430279.96,4587503.08,430276.99,4587494.43,1.5,class
+0058907AR,Ulmus pumila,False,C\ Vila-seca,3.75,3.08,ok,,medium,430425.7,4587314.8,430423.74,4587311.6,1.0,class
+0058908AR,Jacaranda mimosifolia,False,C\ Darnius,,2.8,no_kerb,,check,,,,,1.0,floor
+0058909AR,Brachychiton populneus,False,Pg Urrutia,,20.17,median,,check,,,,,1.0,floor
+0058911AR,Brachychiton populneus,False,C\ Montagut,3.69,2.77,ok,,medium,430537.53,4587331.85,430533.91,4587331.15,1.0,class
+0058912AR,Brachychiton populneus,False,Pg Urrutia,8.12,7.65,ok,,large,430285.66,4587499.91,430282.36,4587492.5,1.5,class
+0058913AR,Ulmus pumila,False,C\ Vila-seca,6.69,5.72,ok,,large,430523.78,4587237.8,430523.49,4587244.49,1.5,class
+0058914AR,Laurus nobilis,False,C\ Riells,6.69,5.4,ok,,large,430556.78,4587301.43,430554.5,4587295.14,1.5,class
+0058915AR,Ulmus pumila,False,C\ Vila-seca,5.55,4.91,ok,,medium,430609.99,4587202.19,430607.09,4587197.45,1.0,class
+0058916AR,Melia azedarach,False,Pg Urrutia,5.9,2.89,ok,,medium,430407.09,4587456.05,430405.08,4587450.5,1.0,class
+0058918AR,Platanus × acerifolia,True,Pg Fabra i Puig,,16.54,median,6.91,check,,,,,1.0,floor
+0058919AR,Celtis australis,False,C\ Cistellet,,5.19,no_kerb,23.62,check,,,,,1.0,floor
+0058920AR,Ulmus pumila,False,C\ Vila-seca,3.76,3.21,ok,,medium,430376.14,4587333.82,430374.98,4587330.24,1.0,class
+0058922AR,Populus nigra 'Italica',False,Pl Sant Francesc Xavier,4.21,3.76,ok,,medium,430191.27,4587362.25,430189.98,4587358.23,1.0,class
+0058923AR,Jacaranda mimosifolia,False,C\ Darnius,,3.5,no_kerb,30.03,check,,,,,1.0,floor
+0058924AR,Ulmus pumila,False,C\ Vila-seca,5.55,4.62,ok,,medium,430548.77,4587239.56,430545.88,4587234.82,1.0,class
+0058925AR,Ulmus pumila,False,C\ Bellcaire,,6.89,median,7.97,check,,,,,1.0,floor
+0058927AR,Melia azedarach,False,C\ Darnius,21.18,5.99,ok,,large,430346.89,4587453.71,430368.0,4587455.37,1.5,class
+0058928AR,Melia azedarach,False,C\ Darnius,,5.62,no_kerb,30.26,check,,,,,1.0,floor
+0058930AR,Melia azedarach,False,C\ Espinauga,,7.62,median,,check,,,,,1.0,floor
+0058931AR,Prunus cerasifera 'Pissardii',False,C\ Agullana,28.09,2.58,ok,,large,430494.08,4587364.47,430484.51,4587338.06,1.5,class
+0058932AR,Populus nigra 'Italica',False,Pl Sant Francesc Xavier,4.18,3.57,ok,,medium,430209.63,4587329.35,430205.65,4587330.64,1.0,class
+0058934AR,Populus alba,False,C\ Travau,4.97,4.25,ok,,medium,430614.94,4587204.26,430619.17,4587201.65,1.0,class
+0058936AR,Populus nigra 'Italica',False,Pg Urrutia,,19.59,median,,check,,,,,1.0,floor
+0058937AR,Robinia pseudoacacia,False,C\ Riells,,5.51,median,9.06,check,,,,,1.0,floor
+0058939AR,Celtis australis,False,C\ Vila-seca,4.44,3.4,ok,,medium,430291.68,4587347.2,430293.03,4587351.43,1.0,class
+0058940AR,Acer monspessulanum,False,C\ Vila-seca,2.58,1.67,ok,,small,430401.29,4587313.64,430402.09,4587316.1,1.0,class
+0058941AR,Melia azedarach,False,C\ Darnius,,8.55,no_kerb,,check,,,,,1.0,floor
+0058942AR,Brachychiton populneus,False,Pg Urrutia,8.78,8.22,ok,,large,430424.12,4587425.72,430427.12,4587433.97,1.5,class
+0058943AR,Melia azedarach,False,C\ Darnius,,4.46,no_kerb,23.84,check,,,,,1.0,floor
+0058945AR,Platanus × acerifolia,True,Pg Fabra i Puig,,13.36,median,6.96,check,,,,,1.0,floor
+0058946AR,Populus alba 'Pyramidalis',False,C\ Darnius,,2.76,no_kerb,34.11,check,,,,,1.0,floor
+0058948AR,Melia azedarach,False,C\ Bellcaire,,6.64,median,8.48,check,,,,,1.0,floor
+0058950AR,Brachychiton populneus,False,C\ Montagut,3.21,2.62,ok,,small,430520.5,4587291.49,430517.77,4587293.17,1.0,class
+0058951AR,Platanus × acerifolia,True,Pg Fabra i Puig,,17.33,median,6.9,check,,,,,1.0,floor
+0058952AR,Brachychiton populneus,False,Pg Urrutia,8.53,8.09,ok,,large,430260.68,4587485.06,430263.05,4587493.25,1.5,class
+0058953AR,Melia azedarach,False,C\ Montsant,,5.17,median,9.06,check,,,,,1.0,floor
+0058954AR,Brachychiton populneus,False,C\ Montagut,3.22,2.62,ok,,small,430508.12,4587271.23,430505.38,4587272.91,1.0,class
+0058956AR,Melia azedarach,False,C\ Espinauga,,6.63,median,8.87,check,,,,,1.0,floor
+0058958AR,Melia azedarach,False,C\ Darnius,,4.95,no_kerb,,check,,,,,1.0,floor
+0058959AR,Melia azedarach,False,C\ Bellcaire,,7.52,median,8.41,check,,,,,1.0,floor
+0058960AR,Acer monspessulanum,False,C\ Vila-seca,5.48,4.63,ok,,medium,430583.88,4587218.12,430581.03,4587213.44,1.0,class
+0058961AR,Ulmus pumila,False,C\ Bellcaire,,6.77,median,8.46,check,,,,,1.0,floor
+0058962AR,Prunus cerasifera 'Pissardii',False,C\ Agullana,,2.51,no_kerb,48.11,check,,,,,1.0,floor
+0058963AR,Melia azedarach,False,C\ Vila-seca,6.24,5.2,ok,,large,430553.93,4587219.48,430559.36,4587222.55,1.5,class
+0058964AR,Melia azedarach,False,Pg Urrutia,5.93,2.7,ok,,medium,430374.85,4587467.71,430372.83,4587462.13,1.0,class
+0058965AR,Ulmus pumila,False,C\ Cabanelles,3.28,3.69,ok,,small,430246.47,4587442.63,430243.35,4587443.65,1.0,class
+0058966AR,Melia azedarach,False,C\ Vila-seca,2.56,1.57,ok,,small,430416.85,4587306.78,430418.19,4587308.96,1.0,class
+0058967AR,Brachychiton populneus,False,Pg Urrutia,12.09,11.46,ok,,large,430260.68,4587485.06,430255.49,4587495.98,1.5,class
+0058969AR,Platanus × acerifolia,True,Pg Urrutia,,16.1,median,22.88,check,,,,,1.0,floor
+0058971AR,Melia azedarach,False,C\ Darnius,,4.98,no_kerb,26.94,check,,,,,1.0,floor
+0058972AR,Melia azedarach,False,C\ Darnius,29.8,3.02,ok,,large,430300.52,4587303.45,430328.89,4587294.3,1.5,class
+0058973AR,Brachychiton populneus,False,C\ Montagut,3.19,2.24,ok,,small,430533.21,4587319.71,430530.21,4587320.79,1.0,class
+0058974AR,Prunus cerasifera 'Pissardii',False,C\ Montagut,3.19,2.78,ok,,small,430505.83,4587267.5,430503.12,4587269.17,1.0,class
+0058976AR,Brachychiton populneus,False,Pg Urrutia,8.96,8.5,ok,,large,430459.13,4587412.97,430462.21,4587421.39,1.5,class
+0058978AR,Ulmus pumila,False,C\ Vila-seca,7.79,6.88,ok,,large,430532.73,4587232.37,430540.31,4587234.16,1.5,class
+0058979AR,Melia azedarach,False,C\ Bellcaire,,7.57,median,8.4,check,,,,,1.0,floor
+0058980AR,Robinia pseudoacacia,False,C\ Riells,,5.64,median,9.01,check,,,,,1.0,floor
+0058982AR,Ulmus pumila,False,C\ Vila-seca,2.53,1.6,ok,,small,430426.57,4587300.83,430427.89,4587302.99,1.0,class
+0058983AR,Melia azedarach,False,C\ Montsant,,5.25,median,9.03,check,,,,,1.0,floor
+0058985AR,Acer negundo,False,Pg Fabra i Puig,6.19,5.5,ok,,large,430142.08,4587289.86,430135.9,4587289.4,1.5,class
+0058986AR,Melia azedarach,False,C\ Espinauga,,7.04,median,8.9,check,,,,,1.0,floor
+0058987AR,Melia azedarach,False,C\ Montsant,,5.09,median,9.03,check,,,,,1.0,floor
+0058988AR,Brachychiton populneus,False,Pg Urrutia,7.79,7.3,ok,,large,430278.87,4587480.35,430284.81,4587485.39,1.5,class
+0058989AR,Styphnolobium japonicum,False,C\ Riells,,5.64,median,8.99,check,,,,,1.0,floor
+0058990AR,Prunus cerasifera 'Pissardii',False,C\ Montagut,3.19,2.23,ok,,small,430513.17,4587302.1,430515.89,4587300.44,1.0,class
+0058991AR,Robinia pseudoacacia,False,C\ Bellcaire,,8.04,median,8.42,check,,,,,1.0,floor
+0058992AR,Prunus cerasifera 'Pissardii',False,C\ Agullana,27.09,2.72,ok,,large,430489.41,4587366.17,430480.18,4587340.7,1.5,class
+0058993AR,Populus nigra 'Italica',False,Pl Sant Francesc Xavier,4.1,3.65,ok,,medium,430163.0,4587300.72,430164.26,4587304.62,1.0,class
+0058994AR,Prunus cerasifera 'Pissardii',False,C\ Agullana,,2.61,no_kerb,,check,,,,,1.0,floor
+0058996AR,Melia azedarach,False,C\ Espinauga,,6.92,median,8.9,check,,,,,1.0,floor
+0058997AR,Populus alba,False,C\ Travau,4.95,4.25,ok,,medium,430629.35,4587227.74,430633.58,4587225.16,1.0,class
+0058999AR,Prunus cerasifera 'Pissardii',False,C\ Montagut,3.22,2.38,ok,,small,430552.7,4587373.63,430549.67,4587374.72,1.0,class
+0059000AR,Brachychiton populneus,False,Pg Urrutia,9.05,8.48,ok,,large,430482.79,4587404.31,430485.91,4587412.81,1.5,class
+0059002AR,Ulmus pumila,False,C\ Riells,,5.86,median,9.02,check,,,,,1.0,floor
+0059004AR,Robinia pseudoacacia,False,C\ Bellcaire,,7.83,median,8.52,check,,,,,1.0,floor
+0059005AR,Populus nigra 'Italica',False,Pl Sant Francesc Xavier,4.19,3.58,ok,,medium,430204.77,4587314.27,430200.78,4587315.56,1.0,class
+0059008AR,Jacaranda mimosifolia,False,C\ Darnius,,2.6,no_kerb,,check,,,,,1.0,floor
+0059009AR,Melia azedarach,False,C\ Darnius,,4.92,no_kerb,,check,,,,,1.0,floor
+0059010AR,Celtis australis,False,C\ Vila-seca,4.4,3.7,ok,,medium,430303.11,4587343.55,430304.45,4587347.74,1.0,class
+0059011AR,Brachychiton populneus,False,Pg Urrutia,8.73,8.15,ok,,large,430410.87,4587430.54,430413.86,4587438.74,1.5,class
+0059012AR,Brachychiton populneus,False,Pg Urrutia,8.39,7.76,ok,,large,430224.97,4587521.82,430224.59,4587513.44,1.5,class
+0059013AR,Brachychiton populneus,False,Pg Urrutia,3.55,2.84,ok,,medium,430566.13,4587379.94,430567.34,4587383.28,1.0,class
+0059014AR,Populus nigra 'Italica',False,Pg Urrutia,,19.68,median,,check,,,,,1.0,floor
+0059015AR,Acer monspessulanum,False,C\ Vila-seca,,9.62,median,23.24,check,,,,,1.0,floor
+0059016AR,Brachychiton populneus,False,Pg Urrutia,8.94,8.18,ok,,large,430451.78,4587415.66,430454.85,4587424.06,1.5,class
+0059017AR,Robinia pseudoacacia,False,C\ Riells,9.84,8.12,ok,,large,430571.36,4587296.14,430568.0,4587286.89,1.5,class
+0059019AR,Melia azedarach,False,C\ Montsant,,4.82,median,,check,,,,,1.0,floor
+0059020AR,Brachychiton populneus,False,C\ Montagut,12.18,5.81,ok,,large,430521.22,4587330.22,430521.66,4587318.04,1.5,class
+0059021AR,Brachychiton populneus,False,C\ Montagut,3.35,2.67,ok,,small,430543.07,4587346.98,430540.34,4587348.93,1.0,class
+0059022AR,Platanus × acerifolia,True,Pg Fabra i Puig,,17.25,median,5.35,check,,,,,1.0,floor
+0059025AR,Platanus × acerifolia,True,C\ Capsec,7.5,7.04,ok,,large,430154.44,4587345.21,430147.3,4587347.5,1.5,class
+0059027AR,Ulmus pumila,False,C\ Vila-seca,5.42,4.68,ok,,medium,430512.95,4587261.43,430510.12,4587256.8,1.0,class
+0059028AR,Platanus × acerifolia,True,Pg Fabra i Puig,,15.96,median,6.94,check,,,,,1.0,floor
+0059029AR,Melia azedarach,False,C\ Riells,,5.96,median,9.09,check,,,,,1.0,floor
+0059030AR,Melia azedarach,False,C\ Espinauga,,5.36,median,7.78,check,,,,,1.0,floor
+0059031AR,Robinia pseudoacacia,False,C\ Capsec,,10.82,median,5.16,check,,,,,1.0,floor
+0059032AR,Melia azedarach,False,C\ Espinauga,,7.71,median,8.93,check,,,,,1.0,floor
+0059033AR,Melia azedarach,False,C\ Darnius,,5.01,no_kerb,,check,,,,,1.0,floor
+0059034AR,Ulmus pumila,False,C\ Vila-seca,2.48,1.68,ok,,none,430461.18,4587279.66,430462.48,4587281.77,1.0,floor
+0059035AR,Jacaranda mimosifolia,False,C\ Darnius,,3.25,no_kerb,30.03,check,,,,,1.0,floor
+0059038AR,Melia azedarach,False,Pg Urrutia,5.9,2.84,ok,,medium,430417.01,4587452.47,430415.01,4587446.92,1.0,class
+0059039AR,Ulmus pumila,False,C\ Vila-seca,3.76,3.13,ok,,medium,430370.46,4587335.65,430369.31,4587332.07,1.0,class
+0059040AR,Styphnolobium japonicum,False,Pl Sant Francesc Xavier,4.5,5.09,ok,,medium,430168.48,4587321.22,430172.77,4587319.84,1.0,class
+0059041AR,Prunus cerasifera 'Pissardii',False,C\ Montagut,3.11,2.24,ok,,small,430524.41,4587339.1,430527.34,4587338.05,1.0,class
+0059042AR,Brachychiton populneus,False,Pg Urrutia,6.47,5.97,ok,,large,430218.72,4587502.48,430220.85,4587508.59,1.5,class
+0059043AR,Brachychiton populneus,False,Pg Urrutia,8.67,8.12,ok,,large,430329.65,4587459.99,430332.62,4587468.14,1.5,class
+0059044AR,Melia azedarach,False,C\ Bellcaire,,6.55,median,7.62,check,,,,,1.0,floor
+0059045AR,Brachychiton populneus,False,Pg Urrutia,8.7,8.16,ok,,large,430401.54,4587433.94,430404.52,4587442.12,1.5,class
+0059046AR,Melia azedarach,False,C\ Bellcaire,,8.03,median,8.5,check,,,,,1.0,floor
+0059048AR,Acer monspessulanum,False,C\ Vila-seca,3.64,2.93,ok,,medium,430472.49,4587286.21,430470.59,4587283.1,1.0,class
+0059049AR,Melia azedarach,False,C\ Darnius,,4.37,no_kerb,23.84,check,,,,,1.0,floor
+0059050AR,Styphnolobium japonicum,False,Pl Sant Francesc Xavier,,16.27,median,5.98,check,,,,,1.0,floor
+0059051AR,Ulmus pumila,False,C\ Cabanelles,3.3,3.5,ok,,small,430230.19,4587458.64,430233.33,4587457.63,1.0,class
+0059052AR,Prunus cerasifera 'Pissardii',False,C\ Montagut,3.03,2.53,ok,,small,430537.12,4587374.06,430539.98,4587373.06,1.0,class
+0059053AR,Ulmus pumila,False,C\ Vila-seca,2.55,1.67,ok,,small,430372.3,4587323.08,430373.08,4587325.5,1.0,class
+0059054AR,Melia azedarach,False,C\ Montsant,,5.13,median,9.05,check,,,,,1.0,floor
+0059055AR,Albizia julibrissin,False,C\ Espinauga,7.91,4.65,ok,,large,430351.6,4587405.95,430348.91,4587398.51,1.5,class
+0059056AR,Jacaranda mimosifolia,False,C\ Darnius,,2.84,no_kerb,,check,,,,,1.0,floor
+0059057AR,Ulmus pumila,False,C\ Vila-seca,3.65,3.1,ok,,medium,430477.61,4587283.08,430475.7,4587279.96,1.0,class
+0059058AR,Melia azedarach,False,C\ Darnius,,4.76,no_kerb,31.08,check,,,,,1.0,floor
+0059059AR,Platanus × acerifolia,True,Pg Urrutia,27.67,3.63,ok,,large,430571.51,4587377.98,430598.49,4587371.87,1.5,class
+0059060AR,Ulmus pumila,False,C\ Vila-seca,11.76,9.85,ok,,large,430553.93,4587219.48,430565.67,4587218.69,1.5,class
+0059062AR,Ulmus pumila,False,C\ Vila-seca,3.69,3.05,ok,,medium,430451.97,4587298.76,430450.05,4587295.62,1.0,class
+0059063AR,Liquidambar styraciflua,False,Pl Sant Francesc Xavier,4.26,3.52,ok,,medium,430206.2,4587357.46,430204.9,4587353.4,1.0,class
+0059064AR,Brachychiton populneus,False,Pg Urrutia,8.14,7.58,ok,,large,430203.69,4587529.73,430200.85,4587522.1,1.5,class
+0059065AR,Melia azedarach,False,C\ Espinauga,,7.59,median,8.9,check,,,,,1.0,floor
+0059066AR,Acer monspessulanum,False,C\ Vila-seca,3.63,2.91,ok,,medium,430467.18,4587289.46,430465.28,4587286.36,1.0,class
+0059067AR,Ulmus pumila,False,C\ Vila-seca,3.62,3.01,ok,,medium,430492.21,4587274.14,430490.32,4587271.06,1.0,class
+0059068AR,Brachychiton populneus,False,Pg Urrutia,3.6,3.03,ok,,medium,430525.19,4587394.78,430526.41,4587398.16,1.0,class
+0059069AR,Brachychiton populneus,False,C\ Montagut,3.11,2.28,ok,,small,430522.86,4587334.77,430525.78,4587333.72,1.0,class
+0059071AR,Robinia pseudoacacia,False,C\ Espinauga,,7.23,median,8.91,check,,,,,1.0,floor
+0059073AR,Populus alba 'Pyramidalis',False,C\ Darnius,,11.11,no_kerb,,check,,,,,1.0,floor
+0059076AR,Jacaranda mimosifolia,False,C\ Darnius,,2.73,no_kerb,,check,,,,,1.0,floor
+0059077AR,Prunus cerasifera 'Pissardii',False,Pl Sant Francesc Xavier,,9.61,median,3.06,check,,,,,1.0,floor
+0059079AR,Ulmus pumila,False,C\ Vila-seca,5.42,4.66,ok,,medium,430507.48,4587264.77,430504.66,4587260.15,1.0,class
+0059080AR,Robinia pseudoacacia,False,C\ Riells,,5.89,median,9.01,check,,,,,1.0,floor
+0059081AR,Jacaranda mimosifolia,False,C\ Darnius,,2.81,no_kerb,,check,,,,,1.0,floor
+0059082AR,Liquidambar styraciflua,False,Pl Sant Francesc Xavier,4.09,3.71,ok,,medium,430170.73,4587298.22,430171.99,4587302.12,1.0,class
+0059083AR,Brachychiton populneus,False,Pg Urrutia,8.67,8.4,ok,,large,430390.14,4587438.1,430393.09,4587446.25,1.5,class
+0059084AR,Brachychiton populneus,False,Pg Urrutia,8.87,8.45,ok,,large,430293.09,4587472.97,430296.13,4587481.31,1.5,class
+0059085AR,Populus alba 'Pyramidalis',False,C\ Darnius,,3.38,no_kerb,,check,,,,,1.0,floor
+0059086AR,Koelreuteria paniculata,False,Pl Sant Francesc Xavier,,13.85,median,19.07,check,,,,,1.0,floor
+0059087AR,Melia azedarach,False,C\ Espinauga,,5.56,median,8.45,check,,,,,1.0,floor
+0059088AR,Ulmus pumila,False,C\ Vila-seca,2.48,1.61,ok,,none,430456.25,4587282.68,430457.54,4587284.79,1.0,floor
+0059090AR,Melia azedarach,False,Pg Urrutia,5.95,2.39,ok,,medium,430369.42,4587469.67,430367.4,4587464.07,1.0,class
+0059091AR,Brachychiton populneus,False,C\ Montagut,3.11,2.58,ok,,small,430530.92,4587357.08,430533.85,4587356.03,1.0,class
+0059092AR,Populus nigra 'Italica',False,Pg Urrutia,8.09,7.64,ok,,large,430291.25,4587497.9,430288.51,4587490.29,1.5,class
+0059093AR,Prunus cerasifera 'Pissardii',False,C\ Montagut,3.19,2.25,ok,,small,430538.83,4587335.4,430535.83,4587336.49,1.0,class
+0059094AR,Melia azedarach,False,C\ Bellcaire,,7.82,median,8.52,check,,,,,1.0,floor
+0059095AR,Ulmus pumila,False,C\ Vila-seca,2.6,1.81,ok,,small,430343.55,4587332.37,430345.05,4587334.5,1.0,class
+0059097AR,Populus nigra 'Italica',False,Pg Urrutia,8.07,7.59,ok,,large,430326.27,4587485.27,430323.54,4587477.68,1.5,class
+0059101AR,Melia azedarach,False,C\ Bellcaire,,7.4,median,8.51,check,,,,,1.0,floor
+0059102AR,Ulmus pumila,False,C\ Vila-seca,2.53,1.6,ok,,small,430355.51,4587328.48,430356.29,4587330.89,1.0,class
+0059103AR,Melia azedarach,False,C\ Espinauga,,6.84,median,8.89,check,,,,,1.0,floor
+0059104AR,Populus nigra 'Italica',False,Pl Sant Francesc Xavier,4.09,3.57,ok,,medium,430178.5,4587295.71,430179.76,4587299.6,1.0,class
+0059105AR,Melia azedarach,False,C\ Bellcaire,,5.78,median,8.41,check,,,,,1.0,floor
+0059106AR,Platanus × acerifolia,True,Pg Urrutia,,15.57,median,,check,,,,,1.0,floor
+0059108AR,Melia azedarach,False,C\ Montsant,,4.98,median,9.01,check,,,,,1.0,floor
+0059109AR,Prunus cerasifera 'Pissardii',False,C\ Montagut,3.22,2.85,ok,,small,430510.77,4587275.54,430508.03,4587277.23,1.0,class
+0059110AR,Brachychiton populneus,False,Pg Urrutia,13.35,12.63,ok,,large,430240.14,4587487.39,430243.85,4587500.22,1.5,class
+0059111AR,Melia azedarach,False,C\ Espinauga,,5.08,median,7.61,check,,,,,1.0,floor
+0059112AR,Populus nigra 'Italica',False,Pg Urrutia,8.07,7.73,ok,,large,430320.36,4587487.4,430317.62,4587479.8,1.5,class
+0059113AR,Melia azedarach,False,C\ Espinauga,,7.7,median,8.96,check,,,,,1.0,floor
+0059115AR,Platanus × acerifolia,True,Pg Fabra i Puig,,16.43,median,6.93,check,,,,,1.0,floor
+0059116AR,Prunus cerasifera 'Pissardii',False,C\ Montagut,3.17,2.62,ok,,small,430495.75,4587273.7,430498.45,4587272.04,1.0,class
+0059117AR,Ulmus pumila,False,C\ Vila-seca,2.55,1.81,ok,,small,430435.97,4587295.09,430437.29,4587297.26,1.0,class
+0059118AR,Melia azedarach,False,C\ Darnius,,5.97,no_kerb,30.26,check,,,,,1.0,floor
+0059119AR,Populus nigra 'Italica',False,Pg Urrutia,12.06,11.12,ok,,large,430224.97,4587521.82,430230.69,4587511.2,1.5,class
+0059120AR,Melia azedarach,False,C\ Vila-seca,3.67,3.16,ok,,medium,430487.68,4587276.92,430485.76,4587273.78,1.0,class
+0059121AR,Platanus × acerifolia,True,Pg Fabra i Puig,13.3,12.72,ok,,large,430201.19,4587530.66,430188.05,4587532.73,1.5,class
+0059123AR,Brachychiton populneus,False,C\ Montagut,4.76,2.45,ok,,medium,430554.51,4587378.65,430550.03,4587380.26,1.0,class
+0059124AR,Ulmus pumila,False,C\ Montsant,,5.07,median,9.04,check,,,,,1.0,floor
+0059125AR,Koelreuteria paniculata,False,Pl Sant Francesc Xavier,,13.76,median,19.04,check,,,,,1.0,floor
+0059126AR,Melia azedarach,False,C\ Darnius,29.82,3.06,ok,,large,430302.11,4587308.35,430330.48,4587299.2,1.5,class
+0059127AR,Brachychiton populneus,False,Pg Urrutia,8.65,8.16,ok,,large,430322.76,4587462.51,430325.72,4587470.63,1.5,class
+0209366AR,Acer negundo,False,C\ Capsec,,9.82,median,10.15,check,,,,,1.0,floor
+0209465AR,Platanus × acerifolia,True,Pg Fabra i Puig,,20.94,median,3.86,check,,,,,1.0,floor
+0209840AR,Acer negundo,False,C\ Capsec,,20.81,median,8.22,check,,,,,1.0,floor
+0210874AR,Platanus × acerifolia,True,Pg Fabra i Puig,,19.97,median,3.82,check,,,,,1.0,floor
+0211096AR,Platanus × acerifolia,True,Pg Fabra i Puig,,21.6,median,3.87,check,,,,,1.0,floor
+0211135AR,Platanus × acerifolia,True,Pg Fabra i Puig,,19.78,median,3.83,check,,,,,1.0,floor
+0211246AR,Platanus × acerifolia,True,Pg Fabra i Puig,,22.22,median,4.01,check,,,,,1.0,floor
+0211312AR,Platanus × acerifolia,True,Pg Fabra i Puig,,20.55,median,3.96,check,,,,,1.0,floor
+0211767AR,Platanus × acerifolia,True,Pg Fabra i Puig,,21.95,median,3.97,check,,,,,1.0,floor
+0211869AR,Platanus × acerifolia,True,Pg Fabra i Puig,,21.8,median,3.95,check,,,,,1.0,floor
+0211954AR,Platanus × acerifolia,True,Pg Fabra i Puig,,22.22,median,3.89,check,,,,,1.0,floor
+0289375AR,Melia azedarach,False,Pg Urrutia,6.02,2.41,ok,,large,430349.11,4587477.01,430347.06,4587471.35,1.5,class
+0289376AR,Brachychiton populneus,False,Pg Urrutia,5.91,2.52,ok,,medium,430397.04,4587459.69,430395.03,4587454.14,1.0,class
+0289377AR,Brachychiton populneus,False,Pg Urrutia,5.9,2.86,ok,,medium,430411.89,4587454.32,430409.88,4587448.77,1.0,class
+0289378AR,Brachychiton populneus,False,Pg Urrutia,6.01,2.63,ok,,large,430353.74,4587475.34,430351.7,4587469.69,1.5,class
+0289379AR,Brachychiton populneus,False,Pg Urrutia,5.89,3.18,ok,,medium,430421.68,4587450.76,430419.75,4587445.2,1.0,class
+0289557AR,Jacaranda mimosifolia,False,C\ Feliu i Codina,10.68,7.84,ok,,large,430108.92,4587571.78,430099.51,4587576.83,1.5,class
+0292006AR,Melia azedarach,False,C\ Riells,,6.31,median,9.04,check,,,,,1.0,floor
+0292007AR,Melia azedarach,False,C\ Riells,,5.71,median,9.01,check,,,,,1.0,floor
+0292008AR,Melia azedarach,False,C\ Riells,,5.62,median,8.99,check,,,,,1.0,floor
+0303755AR,Prunus cerasifera 'Pissardii',False,Pg Fabra i Puig,,4.73,median,18.93,check,,,,,1.0,floor
+0303756AR,Prunus cerasifera 'Pissardii',False,Pg Fabra i Puig,,10.28,median,18.93,check,,,,,1.0,floor
+0303757AR,Koelreuteria paniculata,False,Pl Sant Francesc Xavier,,12.26,median,19.05,check,,,,,1.0,floor
+0303758AR,Koelreuteria paniculata,False,Pl Sant Francesc Xavier,,13.83,median,19.09,check,,,,,1.0,floor
+0309988AR,Acer monspessulanum,False,C\ Vila-seca,5.44,4.61,ok,,medium,430523.46,4587255.01,430520.63,4587250.37,1.0,class
+0311776AR,Melia azedarach,False,C\ Cornudella,,3.14,no_kerb,,check,,,,,1.0,floor
+0332829AR,Populus nigra 'Italica',False,Pg Urrutia,11.08,10.64,ok,,large,430279.96,4587503.08,430270.97,4587496.6,1.5,class
+0332830AR,Populus nigra 'Italica',False,Pg Urrutia,,14.71,median,,check,,,,,1.0,floor
+0343517AR,Liquidambar styraciflua,False,C\ Sant Francesc Xavier,4.17,4.04,ok,,medium,430212.23,4587337.4,430208.26,4587338.68,1.0,class
+0347373AR,Melia azedarach,False,C\ Cornudella,21.02,3.55,ok,,large,430361.22,4587273.73,430354.7,4587253.75,1.5,class

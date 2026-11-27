@@ -1,0 +1,370 @@
+tree_id,species,is_plane,street,width_m,facade_dist_m,flag,strip_width_m,size_class,ray_x0,ray_y0,ray_x1,ray_y1,pit_min_m2,pit_basis
+0048716AR,Tilia x euchlora,False,C\ Sant Feliu de Codines,,47.39,no_facade,2.54,check,,,,,1.0,floor
+0048718AR,Ostrya carpinifolia,False,Av Vallbona,6.55,4.48,ok,,large,431783.14,4590018.25,431787.81,4590022.84,1.5,class
+0048722AR,Tilia x euchlora,False,C\ Llerona,,20.68,median,6.69,check,,,,,1.0,floor
+0048724AR,Styphnolobium japonicum,False,C\ Castellfollit,,9.47,median,,check,,,,,1.0,floor
+0048726AR,Tilia x euchlora,False,C\ Sant Feliu de Codines,,47.5,no_facade,2.63,check,,,,,1.0,floor
+0048730AR,Ostrya carpinifolia,False,C\ Vallcivera,,18.5,median,14.5,check,,,,,1.0,floor
+0048732AR,Styphnolobium japonicum,False,Trvs Castellfollit,9.71,6.54,ok,,large,431075.45,4589696.06,431071.81,4589687.06,1.5,class
+0048733AR,Ostrya carpinifolia,False,Av Vallbona,,39.91,no_facade,10.71,check,,,,,1.0,floor
+0048734AR,Robinia pseudoacacia,False,C\ Bellprat,,21.7,median,1.18,check,,,,,1.0,floor
+0048735AR,Grevillea robusta,False,C\ Martorelles,9.38,8.59,ok,,large,431803.25,4589915.72,431806.45,4589924.53,1.5,class
+0048736AR,Ostrya carpinifolia,False,Av Vallbona,8.96,7.3,ok,,large,431807.74,4589990.65,431814.2,4589996.86,1.5,class
+0048737AR,Populus nigra 'Italica',False,Av Vallbona,,17.15,median,19.68,check,,,,,1.0,floor
+0048740AR,Tilia x euchlora,False,C\ Sant Feliu de Codines,9.03,7.53,ok,,large,431591.26,4590200.15,431596.94,4590207.17,1.5,class
+0048745AR,Tilia x euchlora,False,C\ Sant Feliu de Codines,,53.53,no_facade,2.64,check,,,,,1.0,floor
+0048746AR,Styphnolobium japonicum,False,Trvs Castellfollit,,6.59,median,10.44,check,,,,,1.0,floor
+0048748AR,Populus nigra 'Italica',False,Av Vallbona,,51.08,no_facade,9.76,check,,,,,1.0,floor
+0048749AR,Prunus cerasifera 'Pissardii',False,C\ Bellprat,,9.44,median,1.4,check,,,,,1.0,floor
+0048750AR,Ostrya carpinifolia,False,Av Vallbona,,13.25,median,10.32,check,,,,,1.0,floor
+0048751AR,Styphnolobium japonicum,False,Trvs Castellfollit,,9.95,median,1.06,check,,,,,1.0,floor
+0048752AR,Tilia cordata,False,C\ Castell d'Argençola,,6.54,median,13.73,check,,,,,1.0,floor
+0048754AR,Ostrya carpinifolia,False,Av Vallbona,4.93,3.25,ok,,medium,431796.43,4590007.55,431799.23,4590011.61,1.0,class
+0048756AR,Populus nigra 'Italica',False,Av Vallbona,,11.93,median,10.49,check,,,,,1.0,floor
+0048757AR,Ostrya carpinifolia,False,Av Vallbona,,11.34,median,10.34,check,,,,,1.0,floor
+0048758AR,Tilia cordata,False,C\ Castellví,,12.03,median,,check,,,,,1.0,floor
+0048759AR,Pinus pinea,False,C\ Castellfollit,,7.86,median,32.58,check,,,,,1.0,floor
+0048764AR,Tilia x euchlora,False,C\ Castellví,,4.94,median,,check,,,,,1.0,floor
+0048765AR,Robinia pseudoacacia 'Pyramidalis',False,C\ Bellprat,,5.32,median,,check,,,,,1.0,floor
+0048767AR,Populus nigra 'Italica',False,C\ Vallcivera,,20.46,median,10.91,check,,,,,1.0,floor
+0048768AR,Ulmus pumila,False,C\ Orís,,6.45,median,8.69,check,,,,,1.0,floor
+0048769AR,Tipuana tipu,False,C\ Sant Feliu de Codines,,18.93,median,10.37,check,,,,,1.0,floor
+0048770AR,Tilia x euchlora,False,C\ Castellví,6.53,3.73,ok,,large,430919.4,4589519.13,430912.88,4589518.73,1.5,class
+0048773AR,Tilia x euchlora,False,C\ Castellví,,6.87,median,,check,,,,,1.0,floor
+0048775AR,Populus nigra 'Italica',False,Av Vallbona,,30.73,no_facade,18.41,check,,,,,1.0,floor
+0048776AR,Populus nigra 'Italica',False,Av Vallbona,,26.06,median,30.23,check,,,,,1.0,floor
+0048777AR,Tilia x euchlora,False,C\ Castelldefels,6.21,4.88,ok,,large,431576.15,4590020.52,431582.32,4590019.86,1.5,class
+0048780AR,Tipuana tipu,False,C\ Sant Feliu de Codines,,16.13,median,10.4,check,,,,,1.0,floor
+0048781AR,Tilia x euchlora,False,C\ Sant Feliu de Codines,,42.87,no_facade,2.71,check,,,,,1.0,floor
+0048783AR,Tilia x euchlora,False,C\ Castellví,,11.6,median,,check,,,,,1.0,floor
+0048785AR,Tilia x euchlora,False,C\ Llerona,,19.05,median,6.62,check,,,,,1.0,floor
+0048786AR,Robinia pseudoacacia,False,C\ Bellprat,,5.78,median,1.39,check,,,,,1.0,floor
+0048789AR,Styphnolobium japonicum,False,Trvs Castellfollit,,7.42,median,15.19,check,,,,,1.0,floor
+0048790AR,Tilia x euchlora,False,Av Vallbona,4.97,2.81,ok,,medium,431620.87,4590186.16,431624.63,4590189.41,1.0,class
+0048791AR,Populus nigra 'Italica',False,Av Vallbona,,33.93,no_facade,10.56,check,,,,,1.0,floor
+0048793AR,Populus nigra 'Italica',False,Av Vallbona,,13.94,median,18.06,check,,,,,1.0,floor
+0048794AR,Ostrya carpinifolia,False,Av Vallbona,,11.75,median,10.33,check,,,,,1.0,floor
+0048796AR,Ostrya carpinifolia,False,Av Vallbona,,47.76,no_facade,9.78,check,,,,,1.0,floor
+0048800AR,Ostrya carpinifolia,False,Av Vallbona,,23.51,no_kerb,,check,,,,,1.0,floor
+0048801AR,Populus nigra 'Italica',False,Av Vallbona,,14.72,median,10.44,check,,,,,1.0,floor
+0048802AR,Ostrya carpinifolia,False,Av Vallbona,11.33,6.32,ok,,large,431835.73,4589970.13,431831.0,4589980.42,1.5,class
+0048803AR,Populus alba 'Pyramidalis',False,C\ Martorelles,7.67,7.14,ok,,large,431722.45,4590033.37,431716.65,4590028.35,1.5,class
+0048806AR,Grevillea robusta,False,C\ Martorelles,9.48,7.6,ok,,large,431829.56,4589883.96,431837.59,4589889.0,1.5,class
+0048807AR,Pinus pinea,False,Av Vallbona,,20.51,median,,check,,,,,1.0,floor
+0048808AR,Populus nigra 'Italica',False,Av Vallbona,,18.81,no_kerb,23.26,check,,,,,1.0,floor
+0048810AR,Tilia x euchlora,False,C\ Llerona,,25.07,median,6.66,check,,,,,1.0,floor
+0048814AR,Tilia x euchlora,False,C\ Sant Feliu de Codines,,82.61,no_facade,2.7,check,,,,,1.0,floor
+0048818AR,Ostrya carpinifolia,False,Av Vallbona,,29.35,median,10.4,check,,,,,1.0,floor
+0048821AR,Ostrya carpinifolia,False,Av Vallbona,,57.8,no_facade,11.26,check,,,,,1.0,floor
+0048822AR,Tilia x euchlora,False,Av Vallbona,5.18,2.78,ok,,medium,431632.88,4590172.21,431636.84,4590175.55,1.0,class
+0048823AR,Tilia cordata,False,C\ Castell d'Argençola,4.27,4.44,ok,,medium,431025.97,4589515.04,431023.65,4589518.63,1.0,class
+0048824AR,Populus nigra 'Italica',False,Av Vallbona,,12.49,median,5.15,check,,,,,1.0,floor
+0048825AR,Tilia x euchlora,False,C\ Castell d'Argençola,,16.32,median,,check,,,,,1.0,floor
+0048827AR,Robinia pseudoacacia,False,C\ Bellprat,,26.33,median,1.21,check,,,,,1.0,floor
+0048828AR,Tilia x euchlora,False,C\ Sant Feliu de Codines,,60.43,no_facade,2.55,check,,,,,1.0,floor
+0048829AR,Populus nigra 'Italica',False,Av Vallbona,,10.01,median,10.81,check,,,,,1.0,floor
+0048830AR,Grevillea robusta,False,C\ Martorelles,9.96,9.03,ok,,large,431805.42,4589913.75,431812.11,4589921.13,1.5,class
+0048831AR,Populus alba 'Pyramidalis',False,C\ Martorelles,10.42,8.92,ok,,large,431842.15,4589837.12,431852.5,4589835.81,1.5,class
+0048832AR,Populus alba 'Pyramidalis',False,C\ Martorelles,7.35,6.76,ok,,large,431695.96,4590053.35,431689.73,4590049.45,1.5,class
+0048834AR,Tilia x euchlora,False,C\ Sant Feliu de Codines,,45.26,no_facade,2.62,check,,,,,1.0,floor
+0048835AR,Populus alba 'Pyramidalis',False,C\ Martorelles,12.18,11.69,ok,,large,431838.6,4589821.55,431848.63,4589814.64,1.5,class
+0048836AR,Tilia x euchlora,False,C\ Llerona,,19.01,median,6.66,check,,,,,1.0,floor
+0048837AR,Populus nigra 'Italica',False,Av Vallbona,24.62,14.88,ok,,large,431887.68,4589914.35,431906.41,4589930.32,1.5,class
+0048841AR,Tilia x euchlora,False,C\ Castellví,,6.39,median,,check,,,,,1.0,floor
+0048847AR,Ostrya carpinifolia,False,Av Vallbona,,12.66,median,10.42,check,,,,,1.0,floor
+0048848AR,Populus alba 'Pyramidalis',False,C\ Sant Feliu de Codines,,83.44,no_facade,4.95,check,,,,,1.0,floor
+0048850AR,Ostrya carpinifolia,False,Av Vallbona,,24.48,median,10.56,check,,,,,1.0,floor
+0048851AR,Tilia x euchlora,False,C\ Sant Feliu de Codines,,57.97,no_facade,2.65,check,,,,,1.0,floor
+0048852AR,Ostrya carpinifolia,False,Av Vallbona,,37.8,no_facade,9.77,check,,,,,1.0,floor
+0048854AR,Ostrya carpinifolia,False,Av Vallbona,,17.65,median,18.9,check,,,,,1.0,floor
+0048855AR,Cercis siliquastrum,False,Trvs Castellfollit,10.89,6.66,ok,,large,431144.01,4589670.91,431154.39,4589674.2,1.5,class
+0048856AR,Tilia x euchlora,False,C\ Castelldefels,,6.85,median,6.09,check,,,,,1.0,floor
+0048859AR,Populus nigra 'Italica',False,Av Vallbona,,34.14,no_facade,9.85,check,,,,,1.0,floor
+0048860AR,Styphnolobium japonicum,False,C\ Castellfollit,,32.78,no_facade,0.84,check,,,,,1.0,floor
+0048861AR,Grevillea robusta,False,C\ Martorelles,9.53,8.66,ok,,large,431810.16,4589909.46,431816.55,4589916.51,1.5,class
+0048862AR,Ostrya carpinifolia,False,Av Vallbona,,11.44,median,10.28,check,,,,,1.0,floor
+0048864AR,Tilia x euchlora,False,C\ Sant Feliu de Codines,,11.31,median,,check,,,,,1.0,floor
+0048865AR,Populus alba 'Pyramidalis',False,C\ Martorelles,6.2,5.62,ok,,large,431704.98,4590046.77,431701.7,4590041.51,1.5,class
+0048866AR,Tilia x euchlora,False,C\ Sant Feliu de Codines,,79.11,no_facade,2.75,check,,,,,1.0,floor
+0048867AR,Styphnolobium japonicum,False,C\ Castellfollit,,33.85,no_facade,0.66,check,,,,,1.0,floor
+0048868AR,Styphnolobium japonicum,False,Trvs Castellfollit,,6.62,median,11.95,check,,,,,1.0,floor
+0048872AR,Populus nigra 'Italica',False,Av Vallbona,,12.79,median,10.5,check,,,,,1.0,floor
+0048879AR,Styphnolobium japonicum,False,C\ Castellfollit,,35.8,no_facade,0.77,check,,,,,1.0,floor
+0048880AR,Tilia x euchlora,False,C\ Sant Feliu de Codines,,9.34,median,2.7,check,,,,,1.0,floor
+0048882AR,Populus alba 'Pyramidalis',False,C\ Martorelles,10.09,9.74,ok,,large,431842.1,4589847.46,431851.82,4589850.16,1.5,class
+0048883AR,Tilia cordata,False,C\ Prats de Rei,,5.69,median,1.42,check,,,,,1.0,floor
+0048885AR,Pinus pinea,False,C\ Castellfollit,,6.04,median,,check,,,,,1.0,floor
+0048888AR,Tilia x euchlora,False,C\ Sant Feliu de Codines,,28.12,median,3.12,check,,,,,1.0,floor
+0048889AR,Ostrya carpinifolia,False,C\ Vallcivera,,21.73,median,10.95,check,,,,,1.0,floor
+0048891AR,Styphnolobium japonicum,False,Trvs Castellfollit,,13.2,median,1.14,check,,,,,1.0,floor
+0048893AR,Tilia x europaea,False,Av Vallbona,,15.94,median,15.27,check,,,,,1.0,floor
+0048894AR,Tilia x euchlora,False,C\ Sant Feliu de Codines,,47.07,no_facade,2.51,check,,,,,1.0,floor
+0048895AR,Pinus pinea,False,Av Vallbona,,23.61,median,26.0,check,,,,,1.0,floor
+0048896AR,Pinus pinea,False,Av Vallbona,,21.08,median,28.56,check,,,,,1.0,floor
+0048898AR,Populus nigra 'Italica',False,Av Vallbona,,12.57,median,10.48,check,,,,,1.0,floor
+0048901AR,Styphnolobium japonicum,False,Trvs Castellfollit,,7.01,median,5.33,check,,,,,1.0,floor
+0048902AR,Populus nigra 'Italica',False,Av Vallbona,,30.09,no_facade,18.46,check,,,,,1.0,floor
+0048903AR,Tilia x europaea,False,Av Vallbona,,15.89,median,15.76,check,,,,,1.0,floor
+0048907AR,Tilia x euchlora,False,C\ Sant Feliu de Codines,,33.25,no_facade,2.67,check,,,,,1.0,floor
+0048908AR,Styphnolobium japonicum,False,Trvs Castellfollit,,6.54,median,,check,,,,,1.0,floor
+0048910AR,Grevillea robusta,False,C\ Martorelles,8.96,7.3,ok,,large,431838.06,4589867.1,431846.73,4589869.37,1.5,class
+0048911AR,Tilia x europaea,False,Av Vallbona,,15.85,median,14.54,check,,,,,1.0,floor
+0048912AR,Tilia x euchlora,False,C\ Sant Feliu de Codines,,17.92,median,2.62,check,,,,,1.0,floor
+0048914AR,Populus nigra 'Italica',False,Av Vallbona,,20.22,no_kerb,,check,,,,,1.0,floor
+0048918AR,Tilia x euchlora,False,C\ Sant Feliu de Codines,,66.19,no_facade,2.66,check,,,,,1.0,floor
+0048920AR,Populus alba 'Pyramidalis',False,C\ Sant Feliu de Codines,,67.49,no_facade,2.59,check,,,,,1.0,floor
+0048921AR,Populus alba 'Pyramidalis',False,C\ Martorelles,6.8,5.93,ok,,large,431713.1,4590041.06,431707.0,4590038.05,1.5,class
+0048922AR,Tilia platyphyllos,False,C\ Sant Feliu de Codines,,18.53,median,3.47,check,,,,,1.0,floor
+0048923AR,Tilia x euchlora,False,C\ Sant Feliu de Codines,,28.55,median,2.51,check,,,,,1.0,floor
+0048924AR,Tilia x euchlora,False,C\ Sant Feliu de Codines,,51.45,no_facade,2.59,check,,,,,1.0,floor
+0048925AR,Populus alba 'Pyramidalis',False,C\ Martorelles,6.04,5.55,ok,,large,431715.93,4590038.15,431712.6,4590033.11,1.5,class
+0048926AR,Styphnolobium japonicum,False,C\ Castellfollit,,10.25,median,1.8,check,,,,,1.0,floor
+0048931AR,Ostrya carpinifolia,False,Av Vallbona,,24.11,median,21.94,check,,,,,1.0,floor
+0048934AR,Tilia x euchlora,False,C\ Sant Feliu de Codines,8.24,7.08,ok,,large,431609.48,4590199.38,431605.47,4590206.58,1.5,class
+0048938AR,Jacaranda mimosifolia,False,C\ Sant Feliu de Codines,14.13,4.65,ok,,large,431597.01,4590195.48,431605.91,4590206.45,1.5,class
+0048940AR,Pinus pinaster,False,Av Vallbona,,22.37,median,18.04,check,,,,,1.0,floor
+0048942AR,Tilia x euchlora,False,C\ Sant Feliu de Codines,,11.57,median,,check,,,,,1.0,floor
+0048943AR,Ostrya carpinifolia,False,Av Vallbona,,12.14,median,5.28,check,,,,,1.0,floor
+0048945AR,Populus nigra 'Italica',False,Av Vallbona,,14.12,median,10.38,check,,,,,1.0,floor
+0048948AR,Ostrya carpinifolia,False,Av Vallbona,,11.73,median,10.55,check,,,,,1.0,floor
+0048949AR,Grevillea robusta,False,C\ Martorelles,9.34,8.44,ok,,large,431818.48,4589899.65,431825.7,4589905.57,1.5,class
+0048950AR,Tilia platyphyllos,False,C\ Sant Feliu de Codines,,16.53,median,4.2,check,,,,,1.0,floor
+0048951AR,Populus alba 'Pyramidalis',False,C\ Martorelles,6.57,6.06,ok,,large,431700.91,4590049.31,431695.48,4590045.62,1.5,class
+0048952AR,Tilia x euchlora,False,Av Vallbona,5.02,2.79,ok,,medium,431626.89,4590179.18,431630.69,4590182.46,1.0,class
+0048954AR,Styphnolobium japonicum,False,C\ Castellfollit,,15.24,median,10.12,check,,,,,1.0,floor
+0048955AR,Tilia x euchlora,False,C\ Castelldefels,6.31,4.95,ok,,large,431577.11,4590027.72,431583.35,4590026.8,1.5,class
+0048958AR,Tilia cordata,False,C\ Prats de Rei,,5.8,median,1.43,check,,,,,1.0,floor
+0048961AR,Robinia pseudoacacia,False,C\ Bellprat,,37.63,no_facade,0.32,check,,,,,1.0,floor
+0048963AR,Tilia x euchlora,False,C\ Castellví,1.38,0.76,ok,,none,430933.73,4589514.19,430933.24,4589512.9,1.0,floor
+0048967AR,Populus nigra 'Italica',False,Av Vallbona,,11.48,median,11.75,check,,,,,1.0,floor
+0048969AR,Tilia x euchlora,False,C\ Llerona,,18.51,median,6.62,check,,,,,1.0,floor
+0048971AR,Styphnolobium japonicum,False,Trvs Castellfollit,,6.94,median,9.47,check,,,,,1.0,floor
+0048974AR,Tilia x euchlora,False,C\ Castellví,,8.19,median,,check,,,,,1.0,floor
+0048975AR,Styphnolobium japonicum,False,C\ Castellfollit,,22.02,median,5.54,check,,,,,1.0,floor
+0048977AR,Populus nigra 'Italica',False,Av Vallbona,,37.53,no_facade,9.81,check,,,,,1.0,floor
+0048979AR,Tilia x euchlora,False,C\ Sant Feliu de Codines,,72.78,no_facade,2.66,check,,,,,1.0,floor
+0048981AR,Tilia cordata,False,C\ Castellví,,8.43,median,,check,,,,,1.0,floor
+0048982AR,Tilia x euchlora,False,C\ Castellví,5.38,4.68,ok,,medium,430934.61,4589513.86,430939.49,4589511.6,1.0,class
+0048983AR,Tilia x euchlora,False,C\ Sant Feliu de Codines,,49.42,no_facade,2.71,check,,,,,1.0,floor
+0048985AR,Ostrya carpinifolia,False,Av Vallbona,26.38,16.44,ok,,large,431699.61,4590103.98,431721.01,4590088.55,1.5,class
+0048988AR,Tilia x euchlora,False,C\ Sant Feliu de Codines,,56.49,no_facade,2.62,check,,,,,1.0,floor
+0048989AR,Ostrya carpinifolia,False,Av Vallbona,,11.01,median,17.21,check,,,,,1.0,floor
+0048990AR,Tilia x euchlora,False,C\ Llerona,,24.24,median,7.13,check,,,,,1.0,floor
+0048992AR,Populus nigra 'Italica',False,Av Vallbona,,28.53,no_kerb,,check,,,,,1.0,floor
+0048993AR,Populus nigra 'Italica',False,Av Vallbona,,25.96,median,10.49,check,,,,,1.0,floor
+0048994AR,Tilia cordata,False,C\ Castell d'Argençola,,7.18,median,10.25,check,,,,,1.0,floor
+0048996AR,Grevillea robusta,False,C\ Martorelles,,7.12,median,,check,,,,,1.0,floor
+0048998AR,Populus alba 'Pyramidalis',False,C\ Martorelles,5.9,5.56,ok,,medium,431788.94,4589928.5,431792.93,4589932.85,1.0,class
+0048999AR,Populus nigra 'Italica',False,Av Vallbona,,13.37,median,10.34,check,,,,,1.0,floor
+0049000AR,Ulmus pumila,False,C\ Orís,,5.71,median,4.33,check,,,,,1.0,floor
+0049004AR,Populus alba 'Pyramidalis',False,C\ Martorelles,,5.55,median,2.83,check,,,,,1.0,floor
+0049005AR,Populus alba 'Pyramidalis',False,C\ Martorelles,,6.76,median,,check,,,,,1.0,floor
+0049007AR,Tilia x euchlora,False,C\ Llerona,,19.17,median,6.62,check,,,,,1.0,floor
+0049009AR,Tilia x euchlora,False,C\ Sant Feliu de Codines,,36.22,no_facade,2.57,check,,,,,1.0,floor
+0049010AR,Quercus ilex,False,C\ Castellfollit,7.8,5.74,ok,,large,431211.63,4589690.41,431218.55,4589686.83,1.5,class
+0049014AR,Styphnolobium japonicum,False,C\ Castellfollit,,18.02,median,13.5,check,,,,,1.0,floor
+0049015AR,Populus alba 'Pyramidalis',False,C\ Martorelles,6.2,5.28,ok,,large,431783.38,4589933.6,431787.56,4589938.17,1.5,class
+0049016AR,Tilia x euchlora,False,C\ Sant Feliu de Codines,,7.34,median,2.67,check,,,,,1.0,floor
+0049019AR,Pinus pinea,False,Av Vallbona,,25.59,median,16.17,check,,,,,1.0,floor
+0049026AR,Styphnolobium japonicum,False,C\ Castellfollit,,24.97,median,,check,,,,,1.0,floor
+0049029AR,Populus nigra 'Italica',False,Av Vallbona,,11.53,no_kerb,,check,,,,,1.0,floor
+0049030AR,Ostrya carpinifolia,False,C\ Vallcivera,,24.49,median,10.99,check,,,,,1.0,floor
+0049032AR,Tilia x euchlora,False,Av Vallbona,4.96,2.84,ok,,medium,431614.85,4590193.15,431618.61,4590196.39,1.0,class
+0049033AR,Tilia x euchlora,False,C\ Sant Feliu de Codines,,8.14,median,2.72,check,,,,,1.0,floor
+0049037AR,Prunus cerasifera 'Pissardii',False,C\ Castell d'Argençola,,10.94,median,14.79,check,,,,,1.0,floor
+0049038AR,Tilia cordata,False,C\ Prats de Rei,,6.8,median,7.02,check,,,,,1.0,floor
+0049043AR,Styphnolobium japonicum,False,C\ Castellfollit,,16.07,median,7.48,check,,,,,1.0,floor
+0049044AR,Tilia x europaea,False,Av Vallbona,,19.13,median,15.85,check,,,,,1.0,floor
+0049045AR,Tilia x euchlora,False,C\ Sant Feliu de Codines,,64.84,no_facade,2.75,check,,,,,1.0,floor
+0049046AR,Grevillea robusta,False,C\ Martorelles,9.91,8.88,ok,,large,431842.12,4589842.95,431852.03,4589843.01,1.5,class
+0049048AR,Tilia platyphyllos,False,C\ Sant Feliu de Codines,,15.24,median,4.94,check,,,,,1.0,floor
+0049049AR,Ostrya carpinifolia,False,Av Vallbona,5.45,4.65,ok,,medium,431745.42,4590056.98,431749.45,4590060.65,1.0,class
+0049052AR,Ostrya carpinifolia,False,Av Vallbona,,22.32,median,10.41,check,,,,,1.0,floor
+0049053AR,Tilia x euchlora,False,C\ Sant Feliu de Codines,,54.72,no_facade,2.66,check,,,,,1.0,floor
+0049055AR,Robinia pseudoacacia,False,C\ Bellprat,,16.68,median,1.12,check,,,,,1.0,floor
+0049057AR,Ostrya carpinifolia,False,Av Vallbona,,12.48,median,10.41,check,,,,,1.0,floor
+0049063AR,Styphnolobium japonicum,False,C\ Castellfollit,,11.9,median,,check,,,,,1.0,floor
+0049064AR,Ostrya carpinifolia,False,Av Vallbona,,26.87,median,19.32,check,,,,,1.0,floor
+0049066AR,Styphnolobium japonicum,False,C\ Castellfollit,,17.81,median,,check,,,,,1.0,floor
+0049068AR,Ostrya carpinifolia,False,Av Vallbona,,30.68,no_facade,,check,,,,,1.0,floor
+0049069AR,Tilia cordata,False,C\ Prats de Rei,,5.87,median,1.41,check,,,,,1.0,floor
+0049072AR,Populus nigra 'Italica',False,Av Vallbona,,51.84,no_facade,9.73,check,,,,,1.0,floor
+0049073AR,Ulmus pumila,False,C\ Orís,,8.05,median,20.09,check,,,,,1.0,floor
+0049075AR,Tilia x euchlora,False,C\ Castellví,,12.42,median,25.47,check,,,,,1.0,floor
+0049076AR,Populus nigra 'Italica',False,Av Vallbona,,4.92,no_kerb,,check,,,,,1.0,floor
+0049077AR,Styphnolobium japonicum,False,C\ Castellfollit,,18.23,median,6.53,check,,,,,1.0,floor
+0049078AR,Populus nigra 'Italica',False,Av Vallbona,,20.21,median,10.56,check,,,,,1.0,floor
+0049079AR,Tilia x euchlora,False,C\ Sant Feliu de Codines,,73.02,no_facade,2.62,check,,,,,1.0,floor
+0049080AR,Robinia pseudoacacia,False,C\ Bellprat,,7.65,median,1.59,check,,,,,1.0,floor
+0049081AR,Ostrya carpinifolia,False,Av Vallbona,10.92,7.82,ok,,large,431745.82,4590056.54,431756.34,4590053.61,1.5,class
+0049084AR,Ostrya carpinifolia,False,Av Vallbona,,15.59,median,10.33,check,,,,,1.0,floor
+0049086AR,Robinia pseudoacacia,False,C\ Bellprat,,32.7,no_facade,,check,,,,,1.0,floor
+0049087AR,Populus nigra 'Italica',False,Av Vallbona,,45.41,no_facade,9.73,check,,,,,1.0,floor
+0049088AR,Grevillea robusta,False,C\ Martorelles,9.4,7.74,ok,,large,431814.01,4589905.09,431821.28,4589911.05,1.5,class
+0049089AR,Tilia platyphyllos,False,C\ Castellví,,7.8,median,,check,,,,,1.0,floor
+0049090AR,Tilia x euchlora,False,C\ Sant Feliu de Codines,,58.35,no_facade,2.68,check,,,,,1.0,floor
+0049091AR,Ostrya carpinifolia,False,Av Vallbona,,45.26,no_facade,10.9,check,,,,,1.0,floor
+0049092AR,Tilia x euchlora,False,C\ Sant Feliu de Codines,,49.52,no_facade,2.62,check,,,,,1.0,floor
+0049094AR,Ostrya carpinifolia,False,Av Vallbona,,27.8,median,10.64,check,,,,,1.0,floor
+0049095AR,Styphnolobium japonicum,False,C\ Castellfollit,,17.41,median,12.71,check,,,,,1.0,floor
+0049097AR,Tilia x europaea,False,Av Vallbona,,15.73,median,14.9,check,,,,,1.0,floor
+0049098AR,Tilia x euchlora,False,C\ Sant Feliu de Codines,,56.33,no_facade,2.67,check,,,,,1.0,floor
+0049099AR,Tilia x euchlora,False,C\ Sant Feliu de Codines,,50.29,no_facade,2.54,check,,,,,1.0,floor
+0049103AR,Ostrya carpinifolia,False,Av Vallbona,,16.66,median,10.39,check,,,,,1.0,floor
+0049106AR,Populus nigra 'Italica',False,Av Vallbona,9.77,7.77,ok,,large,431811.7,4589986.54,431820.58,4589990.62,1.5,class
+0049110AR,Ostrya carpinifolia,False,Av Vallbona,,28.33,median,9.82,check,,,,,1.0,floor
+0049111AR,Populus alba 'Pyramidalis',False,C\ Martorelles,10.68,10.29,ok,,large,431838.18,4589862.96,431848.78,4589864.26,1.5,class
+0049115AR,Tilia x euchlora,False,C\ Castelldefels,6.97,5.76,ok,,large,431578.3,4590035.84,431585.19,4590034.82,1.5,class
+0049117AR,Populus nigra 'Italica',False,Av Vallbona,,13.02,no_kerb,,check,,,,,1.0,floor
+0049118AR,Populus nigra 'Italica',False,Av Vallbona,,11.64,median,5.64,check,,,,,1.0,floor
+0049121AR,Grevillea robusta,False,C\ Martorelles,10.73,8.72,ok,,large,431819.97,4589895.61,431829.86,4589899.78,1.5,class
+0049123AR,Styphnolobium japonicum,False,Trvs Castellfollit,,7.5,median,,check,,,,,1.0,floor
+0049124AR,Styphnolobium japonicum,False,C\ Castellfollit,,15.53,median,11.22,check,,,,,1.0,floor
+0049125AR,Ostrya carpinifolia,False,Av Vallbona,,35.5,no_facade,9.76,check,,,,,1.0,floor
+0049126AR,Populus nigra 'Italica',False,Av Vallbona,,33.88,no_facade,9.73,check,,,,,1.0,floor
+0049127AR,Tilia x euchlora,False,C\ Castell d'Argençola,3.65,3.76,ok,,medium,431012.1,4589507.91,431009.92,4589510.83,1.0,class
+0049128AR,Ostrya carpinifolia,False,Av Vallbona,8.73,5.47,ok,,large,431762.5,4590041.53,431770.95,4590039.33,1.5,class
+0049129AR,Tilia x euchlora,False,C\ Castellví,,7.67,median,,check,,,,,1.0,floor
+0049130AR,Tilia cordata,False,C\ Castell d'Argençola,4.77,5.42,ok,,medium,431019.66,4589510.88,431017.03,4589514.86,1.0,class
+0049131AR,Tilia cordata,False,C\ Prats de Rei,,6.6,median,1.42,check,,,,,1.0,floor
+0049132AR,Tilia x euchlora,False,C\ Sant Feliu de Codines,,61.21,no_facade,2.71,check,,,,,1.0,floor
+0049133AR,Ostrya carpinifolia,False,Av Vallbona,,13.85,median,10.41,check,,,,,1.0,floor
+0049134AR,Populus nigra 'Italica',False,Av Vallbona,,20.8,median,10.41,check,,,,,1.0,floor
+0049136AR,Populus nigra 'Italica',False,Av Vallbona,,14.13,no_kerb,,check,,,,,1.0,floor
+0049137AR,Styphnolobium japonicum,False,C\ Castellfollit,,16.4,median,11.84,check,,,,,1.0,floor
+0049138AR,Populus alba 'Pyramidalis',False,C\ Martorelles,11.52,11.31,ok,,large,431840.11,4589854.31,431851.44,4589856.42,1.5,class
+0049140AR,Styphnolobium japonicum,False,C\ Castellfollit,,15.27,median,8.43,check,,,,,1.0,floor
+0049141AR,Tilia x euchlora,False,C\ Sant Feliu de Codines,13.73,10.88,ok,,large,431573.85,4590212.69,431573.26,4590198.97,1.5,class
+0049143AR,Pinus pinea,False,Av Vallbona,,21.31,median,33.13,check,,,,,1.0,floor
+0049147AR,Populus nigra 'Italica',False,Av Vallbona,,28.28,no_kerb,,check,,,,,1.0,floor
+0049148AR,Tilia x euchlora,False,C\ Sant Feliu de Codines,,20.0,median,2.7,check,,,,,1.0,floor
+0049150AR,Tilia x euchlora,False,C\ Sant Feliu de Codines,,39.35,no_facade,2.57,check,,,,,1.0,floor
+0049151AR,Styphnolobium japonicum,False,C\ Castellfollit,,25.95,median,4.81,check,,,,,1.0,floor
+0049153AR,Tilia x europaea,False,Av Vallbona,,16.36,median,15.96,check,,,,,1.0,floor
+0049154AR,Populus nigra 'Italica',False,Av Vallbona,7.35,5.53,ok,,large,431774.0,4590026.24,431780.01,4590030.46,1.5,class
+0049155AR,Robinia pseudoacacia,False,C\ Bellprat,,6.27,median,1.55,check,,,,,1.0,floor
+0049156AR,Prunus cerasifera 'Pissardii',False,C\ Bellprat,,6.0,median,1.44,check,,,,,1.0,floor
+0049158AR,Robinia pseudoacacia,False,C\ Bellprat,,17.1,median,,check,,,,,1.0,floor
+0246241AR,Populus nigra 'Italica',False,C\ Vallcivera,,28.48,median,11.25,check,,,,,1.0,floor
+0246255AR,Populus nigra,False,C\ Vallcivera,,48.38,no_facade,20.15,check,,,,,1.0,floor
+0246257AR,Ostrya carpinifolia,False,C\ Vallcivera,,32.76,no_facade,11.6,check,,,,,1.0,floor
+0246266AR,Populus nigra 'Italica',False,C\ Vallcivera,,61.95,no_facade,27.76,check,,,,,1.0,floor
+0246315AR,Ostrya carpinifolia,False,C\ Vallcivera,,54.52,no_facade,23.06,check,,,,,1.0,floor
+0246324AR,Ostrya carpinifolia,False,C\ Vallcivera,,33.49,no_facade,16.83,check,,,,,1.0,floor
+0246331AR,Ostrya carpinifolia,False,C\ Vallcivera,,39.26,no_facade,18.7,check,,,,,1.0,floor
+0259588AR,Populus nigra 'Italica',False,Av Vallbona,8.8,7.14,ok,,large,431927.23,4589808.65,431925.32,4589817.24,1.5,class
+0259598AR,Ostrya carpinifolia,False,Av Vallbona,5.02,3.29,ok,,medium,431974.23,4589800.84,431976.29,4589805.42,1.0,class
+0259601AR,Populus nigra 'Italica',False,Av Vallbona,4.7,2.97,ok,,medium,431983.54,4589796.65,431985.47,4589800.94,1.0,class
+0259602AR,Populus nigra 'Italica',False,Av Vallbona,25.02,9.3,ok,,large,431915.04,4589805.94,431908.28,4589830.03,1.5,class
+0259609AR,Populus nigra 'Italica',False,Av Vallbona,15.71,4.95,ok,,large,431921.2,4589807.31,431917.8,4589822.64,1.5,class
+0259611AR,Populus nigra 'Italica',False,Av Vallbona,21.44,6.58,ok,,large,431917.86,4589806.57,431913.21,4589827.5,1.5,class
+0260070AR,Quercus ilex,False,C\ Vallcivera,,15.39,median,27.07,check,,,,,1.0,floor
+0260371AR,Quercus ilex,False,C\ Vallcivera,,21.29,median,28.43,check,,,,,1.0,floor
+0260424AR,Quercus ilex,False,C\ Vallcivera,,13.71,median,24.82,check,,,,,1.0,floor
+0290001AR,Populus alba 'Pyramidalis',False,C\ Sant Feliu de Codines,,78.08,no_facade,5.23,check,,,,,1.0,floor
+0290002AR,Populus alba 'Pyramidalis',False,C\ Sant Feliu de Codines,,71.83,no_facade,6.0,check,,,,,1.0,floor
+0290003AR,Populus alba 'Pyramidalis',False,C\ Sant Feliu de Codines,,66.44,no_facade,6.68,check,,,,,1.0,floor
+0290004AR,Quercus ilex,False,C\ Sant Feliu de Codines,,61.02,no_facade,7.81,check,,,,,1.0,floor
+0290005AR,Populus alba 'Pyramidalis',False,C\ Sant Feliu de Codines,,56.76,no_facade,8.72,check,,,,,1.0,floor
+0290006AR,Populus alba 'Pyramidalis',False,C\ Sant Feliu de Codines,,53.97,no_facade,9.54,check,,,,,1.0,floor
+0290007AR,Populus alba 'Pyramidalis',False,C\ Sant Feliu de Codines,,35.57,no_facade,12.36,check,,,,,1.0,floor
+0290008AR,Populus alba 'Pyramidalis',False,C\ Sant Feliu de Codines,,45.2,no_facade,10.52,check,,,,,1.0,floor
+0290009AR,Quercus ilex,False,C\ Sant Feliu de Codines,,28.2,median,14.15,check,,,,,1.0,floor
+0290010AR,Populus alba 'Pyramidalis',False,C\ Sant Feliu de Codines,,21.53,median,13.79,check,,,,,1.0,floor
+0290011AR,Populus alba 'Pyramidalis',False,C\ Sant Feliu de Codines,,20.56,median,12.95,check,,,,,1.0,floor
+0290012AR,Populus alba 'Pyramidalis',False,C\ Sant Feliu de Codines,,22.62,median,12.83,check,,,,,1.0,floor
+0290013AR,Populus alba 'Pyramidalis',False,C\ Sant Feliu de Codines,,24.42,median,13.63,check,,,,,1.0,floor
+0290014AR,Quercus ilex,False,C\ Sant Feliu de Codines,,19.72,median,15.06,check,,,,,1.0,floor
+0290015AR,Populus alba 'Pyramidalis',False,C\ Sant Feliu de Codines,,17.06,median,16.15,check,,,,,1.0,floor
+0290016AR,Populus alba 'Pyramidalis',False,C\ Sant Feliu de Codines,,16.65,median,17.72,check,,,,,1.0,floor
+0290017AR,Populus alba 'Pyramidalis',False,C\ Sant Feliu de Codines,,15.42,median,6.56,check,,,,,1.0,floor
+0290018AR,Quercus ilex,False,C\ Sant Feliu de Codines,,16.11,median,4.13,check,,,,,1.0,floor
+0290020AR,Populus nigra 'Italica',False,C\ Sant Feliu de Codines,,13.82,median,22.83,check,,,,,1.0,floor
+0290021AR,Populus alba 'Pyramidalis',False,C\ Sant Feliu de Codines,,14.38,median,14.82,check,,,,,1.0,floor
+0293723AR,Tilia x euchlora,False,C\ Sant Feliu de Codines,,22.61,median,2.61,check,,,,,1.0,floor
+0293724AR,Tilia x euchlora,False,C\ Sant Feliu de Codines,,27.32,median,2.65,check,,,,,1.0,floor
+0293725AR,Tilia x euchlora,False,C\ Sant Feliu de Codines,,14.18,median,2.75,check,,,,,1.0,floor
+0293727AR,Tilia x euchlora,False,C\ Sant Feliu de Codines,,8.47,median,2.72,check,,,,,1.0,floor
+0293728AR,Tilia x euchlora,False,C\ Sant Feliu de Codines,,8.96,median,2.7,check,,,,,1.0,floor
+0293729AR,Tilia x euchlora,False,C\ Sant Feliu de Codines,,7.96,median,2.67,check,,,,,1.0,floor
+0293732AR,Styphnolobium japonicum,False,C\ Castellfollit,,34.35,no_facade,3.77,check,,,,,1.0,floor
+0293733AR,Styphnolobium japonicum,False,C\ Castellfollit,,30.0,no_facade,4.2,check,,,,,1.0,floor
+0293734AR,Styphnolobium japonicum,False,C\ Castellfollit,,20.62,median,14.86,check,,,,,1.0,floor
+0293735AR,Styphnolobium japonicum,False,C\ Castellfollit,,23.75,median,16.43,check,,,,,1.0,floor
+0293737AR,Tilia x euchlora,False,Av Vallbona,4.88,3.34,ok,,medium,431661.47,4590143.83,431665.17,4590147.0,1.0,class
+0293751AR,Tilia x euchlora,False,C\ Llerona,,17.81,median,6.67,check,,,,,1.0,floor
+0293752AR,Tilia x euchlora,False,C\ Castell d'Argençola,4.36,1.74,ok,,medium,431067.9,4589534.66,431070.66,4589538.03,1.0,class
+0293922AR,Quercus ilex,False,C\ Vallcivera,,23.57,median,18.86,check,,,,,1.0,floor
+0302810AR,Melia azedarach,False,Av Escolapi Càncer,2.63,2.13,ok,,small,431640.39,4590140.38,431638.68,4590142.38,1.0,class
+0302811AR,Melia azedarach,False,Av Escolapi Càncer,3.84,3.18,ok,,medium,431635.18,4590135.92,431631.34,4590136.02,1.0,class
+0302812AR,Melia azedarach,False,Av Escolapi Càncer,2.58,2.18,ok,,small,431626.44,4590128.36,431624.74,4590130.3,1.0,class
+0302813AR,Melia azedarach,False,Av Escolapi Càncer,4.57,4.07,ok,,medium,431556.03,4589992.43,431551.5,4589993.07,1.0,class
+0302814AR,Tipuana tipu,False,C\ Castelldefels,9.64,8.13,ok,,large,431572.87,4589997.07,431582.42,4589995.71,1.5,class
+0302815AR,Tipuana tipu,False,C\ Castelldefels,12.33,7.9,ok,,large,431571.5,4589987.49,431583.7,4589985.74,1.5,class
+0302816AR,Tipuana tipu,False,C\ Castelldefels,14.61,12.43,ok,,large,431571.07,4589984.48,431583.59,4589976.96,1.5,class
+0302817AR,Tipuana tipu,False,C\ Castelldefels,12.51,9.72,ok,,large,431571.07,4589984.48,431576.38,4589973.16,1.5,class
+0302818AR,Tipuana tipu,False,C\ Castelldefels,,29.25,median,5.44,check,,,,,1.0,floor
+0302819AR,Melia azedarach,False,Av Escolapi Càncer,4.89,4.36,ok,,medium,431555.26,4589986.95,431550.49,4589985.88,1.0,class
+0302820AR,Melia azedarach,False,Av Escolapi Càncer,10.38,7.74,ok,,large,431557.2,4589986.65,431555.59,4589976.4,1.5,class
+0302821AR,Melia azedarach,False,Av Escolapi Càncer,,26.47,median,,check,,,,,1.0,floor
+0302823AR,Melia azedarach,False,Av Escolapi Càncer,,40.96,no_facade,6.17,check,,,,,1.0,floor
+0302824AR,Melia azedarach,False,Av Escolapi Càncer,,44.48,no_facade,29.42,check,,,,,1.0,floor
+0302825AR,Melia azedarach,False,Av Escolapi Càncer,,37.42,no_facade,4.84,check,,,,,1.0,floor
+0302826AR,Melia azedarach,False,Av Escolapi Càncer,,30.58,no_facade,4.26,check,,,,,1.0,floor
+0302827AR,Melia azedarach,False,Av Escolapi Càncer,,48.32,no_facade,4.95,check,,,,,1.0,floor
+0302828AR,Melia azedarach,False,Av Escolapi Càncer,,23.77,median,4.64,check,,,,,1.0,floor
+0302829AR,Melia azedarach,False,Av Escolapi Càncer,,18.51,median,4.65,check,,,,,1.0,floor
+0302830AR,Melia azedarach,False,Av Escolapi Càncer,,17.06,median,4.63,check,,,,,1.0,floor
+0302831AR,Melia azedarach,False,Av Escolapi Càncer,2.62,2.38,ok,,small,431620.57,4590123.21,431618.84,4590125.18,1.0,class
+0302832AR,Melia azedarach,False,Av Escolapi Càncer,,16.93,median,4.8,check,,,,,1.0,floor
+0302833AR,Melia azedarach,False,Av Escolapi Càncer,,17.07,median,4.81,check,,,,,1.0,floor
+0302834AR,Melia azedarach,False,Av Escolapi Càncer,,17.2,median,6.58,check,,,,,1.0,floor
+0302835AR,Melia azedarach,False,Av Escolapi Càncer,,16.49,median,6.58,check,,,,,1.0,floor
+0302836AR,Melia azedarach,False,Av Escolapi Càncer,6.0,4.4,ok,,medium,431563.34,4590043.91,431559.35,4590048.38,1.0,class
+0302837AR,Melia azedarach,False,Av Escolapi Càncer,,17.44,median,,check,,,,,1.0,floor
+0302839AR,Melia azedarach,False,Av Escolapi Càncer,2.75,2.35,ok,,small,431599.53,4590105.22,431597.74,4590107.3,1.0,class
+0302840AR,Melia azedarach,False,Av Escolapi Càncer,2.77,1.81,ok,,small,431594.18,4590100.62,431592.38,4590102.72,1.0,class
+0302842AR,Melia azedarach,False,Av Escolapi Càncer,4.58,3.75,ok,,medium,431562.92,4590040.95,431558.39,4590041.6,1.0,class
+0302843AR,Melia azedarach,False,Av Escolapi Càncer,5.08,4.34,ok,,medium,431558.41,4590090.44,431562.61,4590087.58,1.0,class
+0302844AR,Melia azedarach,False,Av Escolapi Càncer,5.04,4.08,ok,,medium,431565.0,4590098.77,431568.71,4590095.35,1.0,class
+0302845AR,Melia azedarach,False,Av Escolapi Càncer,4.83,4.14,ok,,medium,431587.15,4590118.57,431590.31,4590114.92,1.0,class
+0302847AR,Melia azedarach,False,Av Escolapi Càncer,4.57,3.64,ok,,medium,431557.6,4590003.49,431553.07,4590004.13,1.0,class
+0302848AR,Eucalyptus camaldulensis,False,Av Escolapi Càncer,12.9,10.94,ok,,large,431628.07,4590153.69,431622.09,4590142.26,1.5,class
+0302849AR,Eucalyptus camaldulensis,False,Av Escolapi Càncer,,14.09,median,,check,,,,,1.0,floor
+0302850AR,Eucalyptus camaldulensis,False,Av Escolapi Càncer,,14.42,median,4.9,check,,,,,1.0,floor
+0302851AR,Eucalyptus globulus,False,Av Escolapi Càncer,,14.43,median,10.46,check,,,,,1.0,floor
+0302857AR,Tilia x euchlora,False,C\ Sant Feliu de Codines,,3.59,median,4.17,check,,,,,1.0,floor
+0302858AR,Tilia x euchlora,False,C\ Sant Feliu de Codines,4.11,3.26,ok,,medium,431577.9,4590188.41,431574.72,4590191.01,1.0,class
+0302859AR,Tilia x euchlora,False,C\ Sant Feliu de Codines,4.06,3.24,ok,,medium,431583.82,4590195.63,431580.68,4590198.2,1.0,class
+0306117AR,Ostrya carpinifolia,False,Av Vallbona,,19.45,no_kerb,13.17,check,,,,,1.0,floor
+0306138AR,Tilia x euchlora,False,C\ Sant Feliu de Codines,9.95,8.78,ok,,large,431549.43,4590184.85,431558.52,4590180.82,1.5,class
+0306139AR,Tilia x euchlora,False,C\ Sant Feliu de Codines,3.04,2.2,ok,,small,431589.01,4590201.97,431587.59,4590204.65,1.0,class
+0306140AR,Cupressus sempervirens 'Stricta',False,C\ Sant Feliu de Codines,,2.69,no_kerb,,check,,,,,1.0,floor
+0306142AR,Ostrya carpinifolia,False,C\ Vallcivera,,50.81,no_facade,22.01,check,,,,,1.0,floor
+0306306AR,Quercus ilex,False,C\ Llerona,6.72,3.02,ok,,large,431620.8,4590002.85,431627.06,4590005.29,1.5,class
+0306307AR,Quercus ilex,False,C\ Llerona,6.45,2.1,ok,,large,431621.04,4590002.24,431627.06,4590004.58,1.5,class
+0306308AR,Grevillea robusta,False,C\ Martorelles,9.48,8.03,ok,,large,431827.64,4589887.03,431833.97,4589894.08,1.5,class
+0309840AR,Ostrya carpinifolia,False,Av Vallbona,6.37,4.83,ok,,large,431739.92,4590061.36,431744.08,4590066.19,1.5,class
+0312094AR,Quercus ilex,False,C\ Llerona,8.19,7.13,ok,,large,431625.22,4589980.72,431632.16,4589985.09,1.5,class
+0312097AR,Tilia x euchlora,False,C\ Sant Feliu de Codines,,51.16,no_facade,2.63,check,,,,,1.0,floor
+0312099AR,Ulmus pumila,False,C\ Sant Feliu de Codines,,86.34,no_facade,5.18,check,,,,,1.0,floor
+0312112AR,Melia azedarach,False,C\ Castellví,,15.85,median,3.06,check,,,,,1.0,floor
+0312113AR,Eucalyptus globulus,False,C\ Castellví,,15.82,median,3.06,check,,,,,1.0,floor
+0312114AR,Eucalyptus globulus,False,C\ Castellví,,15.6,median,3.06,check,,,,,1.0,floor
+0312177AR,Tilia cordata,False,C\ Sant Feliu de Codines,7.41,6.78,ok,,large,431535.36,4590153.25,431532.37,4590160.03,1.5,class
+0313491AR,Cupressus sempervirens,False,C\ Llerona,18.82,16.46,ok,,large,431620.19,4590017.93,431633.1,4590031.62,1.5,class
+0337129AR,Pinus pinea,False,C\ Sant Quirze Safaja,,6.6,median,4.01,check,,,,,1.0,floor
+0337130AR,Styphnolobium japonicum 'Columnare',False,C\ Bellprat,,7.69,median,8.17,check,,,,,1.0,floor
+0344752AR,Melia azedarach,False,C\ Castelldefels,,38.85,no_facade,1.17,check,,,,,1.0,floor
+0344753AR,Melia azedarach,False,C\ Castelldefels,,32.96,no_facade,1.37,check,,,,,1.0,floor
+0344754AR,Melia azedarach,False,C\ Castelldefels,,32.68,no_facade,1.19,check,,,,,1.0,floor
+0344755AR,Melia azedarach,False,C\ Castelldefels,,26.37,median,1.19,check,,,,,1.0,floor
+0344756AR,Melia azedarach,False,C\ Castelldefels,,20.33,median,1.21,check,,,,,1.0,floor
+0344757AR,Melia azedarach,False,C\ Castelldefels,,14.82,median,1.23,check,,,,,1.0,floor
+0344758AR,Melia azedarach,False,C\ Castelldefels,,12.42,median,1.21,check,,,,,1.0,floor
+0344759AR,Melia azedarach,False,C\ Castelldefels,,8.43,median,1.21,check,,,,,1.0,floor
+0344760AR,Melia azedarach,False,C\ Castelldefels,,7.97,median,1.24,check,,,,,1.0,floor
+0344761AR,Melia azedarach,False,C\ Castelldefels,,7.36,median,1.24,check,,,,,1.0,floor
+0344762AR,Melia azedarach,False,C\ Castelldefels,,7.54,median,1.23,check,,,,,1.0,floor
+0346970AR,Ulmus pumila,False,C\ Orís,,7.49,median,22.57,check,,,,,1.0,floor
+0346972AR,Pinus pinea,False,C\ Masquefa,,15.83,median,,check,,,,,1.0,floor
