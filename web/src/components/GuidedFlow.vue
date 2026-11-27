@@ -363,8 +363,11 @@ const COSTS = [['tree', 'per new tree', 'New pit on a free spot, planting includ
 .guide.full { inset: 0; width: auto; max-height: none; align-items: center; justify-content: center; left: 0; bottom: 0;
   background: color-mix(in srgb, var(--bg) 82%, transparent); backdrop-filter: blur(3px); }
 .guide.slimside { width: 340px; }
-.guide.above { bottom: calc(42% + 26px); max-height: calc(58% - 46px); } /* over the tree table */
-.guide.above .card { max-height: calc(58vh - 160px); }
+/* the docked tree table sits right of the guide; only on a narrow screen does the guide go over it */
+@media (max-width: 1000px) {
+  .guide.above { bottom: calc(42% + 26px); max-height: calc(58% - 46px); }
+  .guide.above .card { max-height: calc(58vh - 160px); }
+}
 .card { background: var(--panel); border: 0.5px solid var(--line); border-radius: 18px; padding: 22px 24px; overflow: auto;
   box-shadow: 0 10px 30px rgba(42, 38, 34, 0.14); max-height: calc(100vh - 230px); }
 .card.slim { padding: 16px 20px; }
@@ -417,7 +420,7 @@ button.ghost { background: transparent; }
 .vnav, .dots { display: flex; align-items: center; gap: 8px; align-self: stretch; min-height: 52px; background: var(--panel);
   border: 0.5px solid var(--line); border-radius: 999px; padding: 6px 8px; box-shadow: 0 4px 14px rgba(42, 38, 34, 0.1); }
 .vnav button { border-radius: 999px; padding: 8px 12px; font-size: 14px; }
-.vnav .vdot { flex: 1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.vnav .vdot { flex: 1 1 auto; white-space: nowrap; padding: 8px 10px; font-size: 13px; }
 .vnav > button:first-child, .vnav > button:last-child { width: 38px; height: 38px; padding: 0; flex: none; }
 .vdot.on { background: var(--accent); color: var(--bg); border-color: var(--accent); }
 .dot { width: 10px; height: 10px; padding: 0; border-radius: 50%; border: 0; background: var(--line); transition: width 0.3s, background 0.3s; }
