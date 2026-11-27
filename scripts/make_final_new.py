@@ -404,13 +404,14 @@ def n_florence(s):
     """Florence transfer test (PR #199): Firenze Nova, 10 sites of 200 m, 133 planes; pooled layouts, today's crowns from the
     Comune di Firenze LiDAR 2023. Headline = method with the 9.4 diversity floor (without it 97.5%, but 94% Gleditsia)."""
     head(s, "Transfer: Florence", "Firenze Nova, 10 sites, 133 planes replaced: new trees' summer shade, % of today's planes")
-    bars(s, M, 1.5, 7.0, 4.4, ["Method, ≥ 9.4 species", "City practice (BCN)", "Announced mix (BCN)", "Florence's recent plantings"],
+    pic_h(s, "florence_sites", M, 1.4, 5.3, 5.2)
+    x = M + 5.5
+    text(s, x, 1.45, W - M - x, 1.2, [[("92% vs 74%", {"bold": True, "color": TREE, "size": 40})],
+                                      "the method, at the city's announced diversity, against city practice"], 15, INK)
+    bars(s, x, 2.75, W - M - x, 2.6, ["Method, ≥ 9.4 species", "City practice (BCN)", "Announced mix (BCN)", "Florence's recent plantings"],
          [92, 74, 71, 63], [TREE, GREY, GREY, WARN], axis_min=0, axis_max=110)
-    text(s, 7.9, 1.6, W - M - 7.9, 1.6, [[("92% vs 74%", {"bold": True, "color": TREE, "size": 40})],
-                                         "the method, at the city's announced diversity, against city practice"], 16, INK)
-    text(s, 7.9, 3.35, W - M - 7.9, 0.8, [[("Runoff: ", {"bold": True}), ("+0.14%, all options rise slightly", {})]], 15, INK)
-    text(s, 7.9, 4.1, W - M - 7.9, 2.0, [[("Without the floor: ", {"bold": True, "color": MUTED}),
-                                          ("97.5%, but 94% one species (Gleditsia). Today's crowns from Florence's LiDAR (2023).", {})]], 14, MUTED)
+    text(s, x, 5.45, W - M - x, 1.0, [[("Runoff: ", {"bold": True}), ("+0.14%, all options rise slightly. ", {}),
+                                       ("Without the floor: ", {"bold": True}), ("97.5%, but 94% Gleditsia.", {})]], 13, MUTED)
     source(s, "Comune di Firenze, LiDAR 2023 and Alberi (CC BY 4.0); Life Escapos tree census (CC BY-NC 4.0); Overture Maps (ODbL).")
 
 
