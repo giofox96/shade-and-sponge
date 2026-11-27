@@ -17,6 +17,8 @@ where the tree stands on a road line inside a narrow band (notes/sidewalk_width.
 pit_min_m2 = minimum tree-pit area for that sidewalk class, 2011 guide p.25 ("El disseny dels escocells"): narrow and
 medium street 1 m2, wide street 1.5 m2 (printed as "1,5 m2 (1,2 x 1,2 m)"). A regulation minimum, not a measured pit:
 no open source gives pit size per tree (Open Data inventory and the 1:1000 map checked, 22 Nov 2026).
+Trees with no sidewalk class (size_class "check" or "none") get 1 m2, the minimum the guide sets for every street type
+(pit_basis "floor"); classed trees have pit_basis "class".
 """
 import json, pathlib, re, sys, time, numpy as np, pandas as pd, requests
 import geopandas as gpd
@@ -124,7 +126,8 @@ def size_class(w):
     return np.select([w < 2.5, w < 3.5, w <= 6.0], ["none", "small", "medium"], "large")
 
 
-PIT_MIN_M2 = {"small": 1.0, "medium": 1.0, "large": 1.5}   # 2011 guide p.25; "none"/"check" -> NaN
+PIT_MIN_M2 = {"small": 1.0, "medium": 1.0, "large": 1.5}   # 2011 guide p.25
+PIT_FLOOR_M2 = 1.0                                          # guide minimum for any street: "none"/"check" trees
 
 
 if __name__ == "__main__":
@@ -169,10 +172,11 @@ if __name__ == "__main__":
     out["width_m"] = out.width_m.round(2); out["strip_width_m"] = out.strip_width_m.round(2); out["facade_dist_m"] = out.facade_dist_m.round(2)
     out[["ray_x0", "ray_y0", "ray_x1", "ray_y1"]] = out[["ray_x0", "ray_y0", "ray_x1", "ray_y1"]].round(2)
     out["size_class"] = np.where(out.flag == "ok", size_class(out.width_m.fillna(0)), "check")
-    out["pit_min_m2"] = out.size_class.map(PIT_MIN_M2)
+    out["pit_basis"] = np.where(out.size_class.isin(list(PIT_MIN_M2)), "class", "floor")
+    out["pit_min_m2"] = out.size_class.map(PIT_MIN_M2).fillna(PIT_FLOOR_M2)
     out = t[["tree_id", "species", "is_plane", "street"]].merge(out, on="tree_id")
     ray = ["ray_x0", "ray_y0", "ray_x1", "ray_y1"]
-    out = out[[c for c in out.columns if c not in ray + ["pit_min_m2"]] + ray + ["pit_min_m2"]]   # new columns last, earlier ones unchanged
+    out = out[[c for c in out.columns if c not in ray + ["pit_min_m2", "pit_basis"]] + ray + ["pit_min_m2", "pit_basis"]]   # new columns last, earlier ones unchanged
     assert len(out) == len(t) and out.tree_id.is_unique
     out.to_csv(dest, index=False)
     print(f"{len(fac)} facade lines, {len(road)} road lines >= {MIN_KERB} m")
