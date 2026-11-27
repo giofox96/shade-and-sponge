@@ -856,12 +856,12 @@ watch(() => ui.theme, (t) => {
 // Earth palette (as the slides) for deck.gl and ECharts, light and dark
 export const themeColors = computed(() => (isDark.value
   ? { text: '#F2F0EA', muted: '#B3BAB9', grid: '#333A33', plane: '#E4DFD3', other: '#5E5B54', kept: [150, 150, 140, 150], park: [110, 140, 105, 140],
-      building: [64, 70, 64, 235], buildingLine: [40, 44, 40], facade: [120, 120, 115, 170], kerb: [170, 176, 184, 150],
+      building: [64, 70, 64, 235], buildingLine: [40, 44, 40], facade: [120, 120, 115, 170], kerb: [170, 176, 184, 150], pit: [176, 120, 88, 170],
       ring: [242, 240, 234], ringOn: [157, 180, 222], area: [157, 180, 222], draft: [217, 184, 102],
       random: '#7A776E', city: '#D9B866', announced: '#8F8460', optimised: '#9DB4DE', current: '#E4DFD3', on: '#F2F0EA',
       ground: [44, 48, 44], basemap: 'https://basemaps.cartocdn.com/gl/dark-matter-gl-style/style.json' }
   : { text: '#2A2622', muted: '#665E4F', grid: '#DCD8CE', plane: '#3A3630', other: '#C9C4B8', kept: [150, 155, 135, 150], park: [120, 150, 110, 140],
-      building: [222, 218, 208, 235], buildingLine: [180, 176, 166], facade: [195, 195, 190, 210], kerb: [110, 116, 128, 210],
+      building: [222, 218, 208, 235], buildingLine: [180, 176, 166], facade: [195, 195, 190, 210], kerb: [110, 116, 128, 210], pit: [102, 56, 37, 150],
       ring: [255, 255, 255], ringOn: [40, 63, 102], area: [40, 63, 102], draft: [140, 106, 36],
       random: '#B4AE9F', city: '#8C6A24', announced: '#CDB98A', optimised: '#5D7BAA', current: '#2A2622', on: '#283F66',
       ground: [236, 233, 225], basemap: 'https://tiles.openfreemap.org/styles/positron' }))

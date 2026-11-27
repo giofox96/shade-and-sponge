@@ -38,7 +38,7 @@ const hint = (on) => (on ? 'Visible on map · click to hide' : 'Hidden · click 
       <button class="tb" :aria-pressed="state.showStreets" aria-label="Sidewalks and free spots" @click="state.showStreets = !state.showStreets">
         <Icon name="sidewalk" /><i v-if="state.showStreets" class="dot"></i>
         <span class="tt"><b>Sidewalks and free spots</b>{{ hint(state.showStreets) }}
-          <em>Brown = façade, dark = kerb. Green dots = free spots, light to dark = small / medium / large tree. Both lines come from the city's 1:1000 map; a tree's sidewalk width is measured along a line through it (thin grey lines; the selected tree's in blue): 1,545 of Porta's 2,825 street trees.</em></span>
+          <em>Brown = façade, dark = kerb. Green dots = free spots, light to dark = small / medium / large tree. Both lines come from the city's 1:1000 map; a tree's sidewalk width is measured along a line through it (thin grey lines; the selected tree's in blue): 1,545 of Porta's 2,825 street trees. Squares at the trunks = the minimum tree pit of the 2011 guide (1 × 1 or 1.2 × 1.2 m), not a measured pit.</em></span>
       </button>
       <button v-if="state.meta.parks" class="tb" :aria-pressed="state.showParks" aria-label="Park trees" @click="setParks(!state.showParks)">
         <Icon name="park" /><i v-if="state.showParks" class="dot"></i>

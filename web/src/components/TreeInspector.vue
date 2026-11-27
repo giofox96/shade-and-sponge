@@ -16,7 +16,8 @@ const card = computed(() => {
   if (o[0] === 'k') {
     const K = state.trees.kept
     return { title: K.species[n], sub: 'Existing street tree (not a plane)',
-      rows: [['Crown', `${K.crown_diam_m[n].toFixed(1)} m wide, ${K.height_m[n].toFixed(1)} m tall (LiDAR)`], ['Sidewalk', K.sw_width_m?.[n] ? `${K.sw_width_m[n].toFixed(1)} m` : 'not measured']] }
+      rows: [['Crown', `${K.crown_diam_m[n].toFixed(1)} m wide, ${K.height_m[n].toFixed(1)} m tall (LiDAR)`], ['Sidewalk', K.sw_width_m?.[n] ? `${K.sw_width_m[n].toFixed(1)} m` : 'not measured'],
+        ...(K.pit_min_m2?.[n] ? [['Pit', pitText(K.pit_min_m2[n], K.pit_basis[n])]] : [])] }
   }
   const S = state.trees.spots
   return { title: `Planting spot ${S.id[n]}`, sub: `${spotClass(n)} · ${S.size_class[n]} tree`,
@@ -55,6 +56,10 @@ const sidewalk = computed(() => {
   }
   return `not measured: ${WHY[f] ?? 'no data'}; no size filter applied`
 })
+// tree pit: the 2011 guide's minimum for the sidewalk class (p.25), not a measured pit
+const pitText = (a, basis) => (a ? `at least ${a} m² (${a >= 1.5 ? '1.2 × 1.2' : '1 × 1'} m): ${basis === 'class'
+  ? "minimum for this sidewalk's class" : 'minimum for every street, no sidewalk class'} (2011 guide), not measured` : null)
+const pit = computed(() => { const p = state.trees.positions; return i.value == null ? null : pitText(p.pit_min_m2?.[i.value], p.pit_basis?.[i.value]) })
 </script>
 
 <template>
@@ -84,6 +89,9 @@ const sidewalk = computed(() => {
       </template>
       <template v-if="sidewalk">
         <dt>Sidewalk</dt><dd>{{ sidewalk }}</dd>
+      </template>
+      <template v-if="pit">
+        <dt>Pit</dt><dd>{{ pit }}</dd>
       </template>
     </dl>
     <div class="leaf" :title="sp.leaf_basis">
