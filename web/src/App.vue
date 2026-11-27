@@ -17,6 +17,9 @@ import SpeciesCards from './components/SpeciesCards.vue'
 import Icon from './components/Icon.vue'
 import MapToolbar from './components/MapToolbar.vue'
 import ScheduleTable from './components/ScheduleTable.vue'
+import GuidedFlow from './components/GuidedFlow.vue'
+import RulesPanel from './components/RulesPanel.vue'
+import ReportView from './components/ReportView.vue'
 
 onMounted(() => load())
 
@@ -53,19 +56,21 @@ watch(
     if (w) state.scenarioId === AREA ? runArea(w) : runLive(w)
   },
 )
-// diversity-floor benchmarks (notes/cobenefits_plan.md): the city's 2026 mix in Porta, and Santamour's 10% species cap
-const DIV_PRESETS = [[9.4, 'City practice 9.4', "Effective species of the city's 2026 mix on Porta's plane positions"],
-  [10, 'Santamour 10', 'No species above 10% (Santamour 1990) means at least 10 effective species']]
 </script>
 
 <template>
   <div v-if="state.error" class="msg">{{ state.error }}</div>
   <div v-else-if="!state.meta" class="msg">Loading site…</div>
-  <div v-else class="app" :style="{ '--lw': panels.leftOpen ? panels.leftW + 'px' : '0px', '--rw': panels.rightOpen ? panels.rightW + 'px' : '0px' }">
+  <div v-else class="app" :class="ui.mode" :style="{ '--lw': panels.leftOpen ? panels.leftW + 'px' : '0px', '--rw': panels.rightOpen && ui.mode === 'expert' ? panels.rightW + 'px' : '0px' }">
     <header>
       <b>Shade and sponge</b>
       <span class="muted">{{ state.meta.site.name }}, Barcelona</span>
       <span class="spacer"></span>
+      <span class="seg" role="group" aria-label="Mode">
+        <button :class="{ on: ui.mode === 'guided' }" :aria-pressed="ui.mode === 'guided'" title="One step at a time (v0.2.0)" @click="ui.mode = 'guided'">Guided</button>
+        <button :class="{ on: ui.mode === 'expert' }" :aria-pressed="ui.mode === 'expert'" title="Every setting at once (as v0.1.0)" @click="ui.mode = 'expert'">Expert</button>
+      </span>
+      <template v-if="ui.mode === 'expert'">
       <span class="ctl muted">Palette</span>
       <span class="seg" role="group" aria-label="Species palette">
         <button :class="{ on: state.site !== 'porta-barcelona' }" @click="switchSite('porta')">City (7)</button>
@@ -82,6 +87,7 @@ const DIV_PRESETS = [[9.4, 'City practice 9.4', "Effective species of the city's
                   @click="switchSite('porta')">Established</button>
         </span>
       </template>
+      </template>
       <span class="seg" role="group" aria-label="Colour theme">
         <button v-for="[t, l] in [['auto', 'Auto'], ['light', 'Light'], ['dark', 'Dark']]" :key="t" :class="{ on: ui.theme === t }"
                 :aria-pressed="ui.theme === t" :title="t === 'auto' ? 'Follow the system setting' : `${l} theme`" @click="ui.theme = t">{{ l }}</button>
@@ -89,6 +95,8 @@ const DIV_PRESETS = [[9.4, 'City practice 9.4', "Effective species of the city's
     </header>
 
     <aside v-show="panels.leftOpen" class="left">
+      <GuidedFlow v-if="ui.mode === 'guided'" />
+      <template v-else>
       <details class="group" open>
         <summary>Neighbourhood <span class="muted">{{ state.barri }}</span></summary>
         <section><BarriPicker /></section>
@@ -97,7 +105,7 @@ const DIV_PRESETS = [[9.4, 'City practice 9.4', "Effective species of the city's
         <h3>1 · Scenario</h3>
         <div class="btns">
           <button :class="{ on: state.scenarioId === 'S0_current' }" @click="state.scenarioId = 'S0_current'">Today</button>
-          <button :class="{ on: state.scenarioId === 'S1a_city_0' }" @click="state.scenarioId = 'S1a_city_0'">City practice</button>
+          <button :class="{ on: state.scenarioId === 'S1b_obs_0' }" @click="state.scenarioId = 'S1b_obs_0'">City practice</button>
           <button :class="{ on: state.scenarioId.startsWith('S4') || state.scenarioId === LIVE }" @click="state.scenarioId = BALANCED">Optimised</button>
           <button v-if="state.area" :class="{ on: state.scenarioId === AREA }" @click="state.scenarioId = AREA">Project area</button>
           <button class="ghost" :class="{ on: state.scenarioId === 'S1_random_0' }" title="A random palette under the same rules: what optimisation adds over chance"
@@ -171,40 +179,7 @@ const DIV_PRESETS = [[9.4, 'City practice 9.4', "Effective species of the city's
 
       <details class="group">
         <summary>Rules and species <span class="muted">{{ Math.round(state.share * 100) }}% cap{{ state.minEff ? ` · ≥ ${state.minEff.toFixed(1)} species` : '' }}{{ state.exclude.length ? ` · ${state.exclude.length} excluded` : '' }}</span></summary>
-        <section>
-          <h3>Max share per species <span class="muted">{{ Math.round(state.share * 100) }}%</span></h3>
-          <input type="range" min="0.05" max="0.3" step="0.01" v-model.number="state.share" aria-label="Maximum share per species" />
-          <p class="small muted">Of all {{ state.pot.n_total.toLocaleString('en') }} street trees; the city tree plan sets 15%.</p>
-        </section>
-        <section>
-          <h3>Diversity floor <span class="muted">{{ state.minEff ? `≥ ${state.minEff.toFixed(1)} effective species` : 'off' }}</span></h3>
-          <label class="check"><input type="checkbox" :checked="state.minEff > 0"
-                 @change="state.minEff = $event.target.checked ? Math.min(8, state.pot.species.length - state.exclude.length - 1) : 0" />
-            Keep a minimum Shannon diversity</label>
-          <input v-if="state.minEff" type="range" min="2" :max="state.pot.species.length - state.exclude.length" step="0.1" v-model.number="state.minEff"
-                 aria-label="Minimum effective number of species" />
-          <!-- benchmarks (notes/cobenefits_plan.md): the city's 2026 mix in Porta = 9.4; Santamour's 10% species cap implies >= 10 -->
-          <div class="btns">
-            <button v-for="[v, name, why] in DIV_PRESETS"
-                    :key="v" :class="{ on: state.minEff === v }" :disabled="v > state.pot.species.length - state.exclude.length"
-                    :title="v > state.pot.species.length - state.exclude.length ? 'Needs more species than this palette allows: use the Barcelona palette' : why"
-                    @click="state.minEff = v">{{ name }}</button>
-          </div>
-          <p class="small muted">exp(Shannon H) of the replanted positions. This layout: {{ layoutEff?.toFixed(1) }}.</p>
-        </section>
-        <section>
-          <h3>Species <span class="muted">untick to exclude</span></h3>
-          <p v-if="state.meta.palette_kind === 'barcelona'" class="small muted">Colour = leaf habit (ochre deciduous, green evergreen, olive semi-deciduous); darker = larger crown.</p>
-          <ul class="legend">
-            <li v-for="p in state.meta.palette" :key="p.species">
-              <input v-if="p.in_palette" type="checkbox" :value="p.species" :checked="!state.exclude.includes(p.species)"
-                     :aria-label="`Allow ${p.species}`"
-                     @change="state.exclude = $event.target.checked ? state.exclude.filter((x) => x !== p.species) : [...state.exclude, p.species]" />
-              <span class="dot" :style="{ background: p.color }"></span>{{ p.species }}
-              <span class="muted">{{ p.in_palette ? p.leaf_habit.split(' ')[0] : 'current' }}</span>
-            </li>
-          </ul>
-        </section>
+        <RulesPanel />
       </details>
 
       <details class="group">
@@ -222,25 +197,27 @@ const DIV_PRESETS = [[9.4, 'City practice 9.4', "Effective species of the city's
           <a href="https://github.com/giofox96/shade-and-sponge" target="_blank" rel="noopener">Code and method</a>
         </p>
       </details>
+      </template>
     </aside>
 
     <main>
-      <div class="tabs seg" role="tablist" aria-label="View">
+      <div v-if="ui.mode === 'expert' || state.view !== 'report'" class="tabs seg" role="tablist" aria-label="View">
         <button v-for="[v, l] in [['map', 'Map'], ['compare', 'Compare side by side'], ['species', 'Species']]" :key="v" role="tab"
                 :aria-selected="state.view === v" :class="{ on: state.view === v }" @click="state.view = v">{{ l }}</button>
         <button :class="{ on: state.showSchedule }" :aria-pressed="state.showSchedule"
                 title="Tree schedule: every tree and free spot as a table linked to the map, with Action, Reason and Field check"
                 @click="state.showSchedule = !state.showSchedule">Schedule</button>
       </div>
-      <ComparePanel v-if="state.view === 'compare'" />
+      <ReportView v-if="state.view === 'report'" />
+      <ComparePanel v-else-if="state.view === 'compare'" />
       <SpeciesCards v-else-if="state.view === 'species'" />
       <template v-else><MapView :key="state.site" /><MapToolbar /></template>
       <ScheduleTable v-if="state.showSchedule" />
       <PanelHandle side="left" />
-      <PanelHandle side="right" />
+      <PanelHandle v-if="ui.mode === 'expert'" side="right" />
     </main>
 
-    <aside v-show="panels.rightOpen" class="right">
+    <aside v-show="panels.rightOpen && ui.mode === 'expert'" class="right">
       <!-- priorities and the trade-off chart together: the triangle steers the optimiser, the chart shows where the result lands -->
       <section>
         <h3>Trade-off</h3>

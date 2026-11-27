@@ -692,6 +692,19 @@ export function configJson() {
   }, null, 1)
 }
 
+// Autosave (v0.2.0, no login): the configuration goes to this browser's storage when it changes; the guided flow offers
+// to resume it. Download "Save project" to keep it elsewhere.
+const AUTO_KEY = 'shade-sponge-autosave'
+export function savedProject() {
+  try { const j = JSON.parse(localStorage.getItem(AUTO_KEY)); return j?.tool === 'shade-and-sponge' ? j : null } catch { return null }
+}
+let autoTimer
+watch(() => [state.area?.version, state.area?.poly, state.addedVersion, state.schedule, state.share, state.minEff, state.exclude.length], () => {
+  if (!state.meta || state.loadingConfig || !(state.area || state.added.length)) return
+  clearTimeout(autoTimer)
+  autoTimer = setTimeout(() => { try { localStorage.setItem(AUTO_KEY, configJson()) } catch { /* storage blocked or full */ } }, 1000)
+}, { deep: true })
+
 export async function loadConfig(cfg) {
   if (cfg?.tool !== 'shade-and-sponge') throw new Error('not a Shade and sponge configuration file')
   state.loadingConfig = true
@@ -797,12 +810,43 @@ watch(panels, (p) => {
   try { localStorage.setItem(PANEL_KEY, JSON.stringify(p)) } catch { /* private window or blocked storage: keep the defaults */ }
 })
 
+// ---- cost of the project area (v0.2.0, notes/tutor_feedback_24nov.md §3c): unit costs are the designer's own (the tool has no
+// sourced prices), remembered in this browser; shown beside heat and runoff, never optimised
+const COST_KEY = 'shade-sponge-costs'
+// default unit prices = direct costs (no overhead, profit or VAT), notes/costs_stakeholders.md §1: new pit on a free spot ~260 €
+// (a replaced small tree ~190 €, a large one with its stump ~1,070 €), young-tree transplant ~700 € (CYPE JSP020),
+// dismantling and re-installing a traffic sign ~80 € without the post (CYPE DTM030, TSV050). Watering is not priced.
+const COST_DEFAULTS = { tree: 260, move: 700, object: 80 }
+export const costs = reactive((() => { try { return JSON.parse(localStorage.getItem(COST_KEY)) ?? { ...COST_DEFAULTS } } catch { return { ...COST_DEFAULTS } } })())
+watch(costs, (c) => { try { localStorage.setItem(COST_KEY, JSON.stringify(c)) } catch { /* storage blocked */ } }, { deep: true })
+export const projectCost = computed(() => {
+  const A = state.area
+  if (!A?.idx) return null
+  const act = (key) => state.schedule.trees[key]?.action
+  const keys = [...A.idx.map((i) => state.trees.positions.tree_id[i]), ...A.keptRows.map((k) => `k${k}`)]
+  const moves = keys.filter((k) => act(k) === 'move').length
+  const added = state.added.filter((t) => insidePoly(t.lon, t.lat, A.poly))
+  const S = state.trees.spots
+  const objects = added.filter((t) => t.spot && spotClass(S.id.indexOf(t.spot)) === 'conditional').length
+  const n = { replace: keys.length - moves, move: moves, add: added.length, object: objects }
+  const unit = { replace: costs.tree, move: costs.move, add: costs.tree, object: costs.object }
+  const known = Object.keys(n).every((k) => !n[k] || unit[k] > 0)
+  const total = Object.keys(n).reduce((a, k) => a + n[k] * (unit[k] || 0), 0)
+  const trees = n.replace + n.move + n.add
+  const shade = A.local?.shade_summer_m2h?.delta
+  return { n, total, known, perTree: trees ? total / trees : null, perShade: shade > 0 ? (1000 * total) / shade : null }
+})
+
 // ---- theme: 'auto' follows the system; the choice is remembered in this browser ---------------------------------
 const THEME_KEY = 'shade-sponge-theme'
 const mq = typeof matchMedia === 'function' ? matchMedia('(prefers-color-scheme: dark)') : null
 export const ui = reactive({ theme: (() => { try { return localStorage.getItem(THEME_KEY) || 'auto' } catch { return 'auto' } })(),
   systemDark: !!mq?.matches })
 mq?.addEventListener?.('change', (e) => (ui.systemDark = e.matches))
+// v0.2.0: guided flow (one step at a time) or expert mode (every setting at once, as v0.1.0); remembered in this browser
+const MODE_KEY = 'shade-sponge-mode'
+Object.assign(ui, { mode: (() => { try { return localStorage.getItem(MODE_KEY) || 'guided' } catch { return 'guided' } })(), step: 0 })
+watch(() => ui.mode, (m) => { try { localStorage.setItem(MODE_KEY, m) } catch { /* storage blocked */ } })
 export const isDark = computed(() => ui.theme === 'dark' || (ui.theme === 'auto' && ui.systemDark))
 watch(() => ui.theme, (t) => {
   try { localStorage.setItem(THEME_KEY, t) } catch { /* storage blocked: the choice lasts this visit */ }
