@@ -93,7 +93,24 @@ const DOCK0 = { docked: true, x: 80, y: 80, w: 900, h: 360 }
 const dock = reactive((() => { try { return { ...DOCK0, ...JSON.parse(localStorage.getItem(DOCK)) } } catch { return { ...DOCK0 } } })())
 watch(dock, () => { try { localStorage.setItem(DOCK, JSON.stringify(dock)) } catch { /* storage blocked */ } })
 const box = ref(null)
-const floatStyle = computed(() => (dock.docked ? {} : { left: `${dock.x}px`, top: `${dock.y}px`, width: `${dock.w}px`, height: `${dock.h}px` }))
+// guided and docked: the table's top follows the guide card's top, its bottom the step bar's (user 27 Nov sketch)
+const guideTop = ref(null)
+const floatStyle = computed(() => (!dock.docked ? { left: `${dock.x}px`, top: `${dock.y}px`, width: `${dock.w}px`, height: `${dock.h}px` }
+  : ui.mode === 'guided' && guideTop.value != null ? { top: `${guideTop.value}px`, height: 'auto' } : {}))
+let gro = null
+function measureGuide() {
+  const g = document.querySelector('.guide'), m = box.value?.offsetParent
+  guideTop.value = g && m && innerWidth > 1000 ? Math.max(12, g.firstElementChild.getBoundingClientRect().top - m.getBoundingClientRect().top) : null
+}
+onMounted(() => {
+  gro = new ResizeObserver(measureGuide)
+  const g = document.querySelector('.guide')
+  if (g) { gro.observe(g); [...g.children].forEach((c) => gro.observe(c)) }
+  addEventListener('resize', measureGuide)
+  setTimeout(measureGuide, 500) // after the card's slide-in
+})
+onBeforeUnmount(() => { gro?.disconnect(); removeEventListener('resize', measureGuide) })
+watch(() => ui.step, () => setTimeout(measureGuide, 500))
 function drag(e) {
   if (dock.docked || e.target.closest('button, input, select')) return
   const x0 = e.clientX - dock.x, y0 = e.clientY - dock.y
@@ -256,7 +273,7 @@ async function openCfg(ev) {
 select.auto { font-style: italic; color: var(--muted); }
 .schedule.docked { left: 12px; right: 12px; bottom: 12px; height: 42%; }
 /* guided mode: docked to the right of the guide card (user 27 Nov); on a narrow screen it goes under it */
-.schedule.docked.guided { left: calc(min(460px, 100% - 40px) + 32px); }
+.schedule.docked.guided { left: calc(min(460px, 100% - 40px) + 32px); right: 60px; bottom: 20px; } /* clear of the layer column */
 @media (max-width: 1000px) { .schedule.docked.guided { left: 12px; } }
 .schedule.floating { position: fixed; z-index: 9; resize: both; min-width: 420px; min-height: 160px; }
 .floating .bar { cursor: move; }
