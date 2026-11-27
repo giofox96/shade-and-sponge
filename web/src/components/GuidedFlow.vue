@@ -4,11 +4,12 @@
 import { computed, watch } from 'vue'
 import { download } from '../exporter.js'
 import { state, ui, startDrawing, finishArea, cancelDrawing, setAreaAll, fillAreaSpots, fillableSpots, spotClass, areaCover,
-  layoutEff, configJson, switchSite, AREA } from '../store.js'
+  layoutEff, configJson, switchSite, savedProject, loadConfig, costs, projectCost, AREA } from '../store.js'
 import BarriPicker from './BarriPicker.vue'
 import PriorityTriangle from './PriorityTriangle.vue'
 import KpiPanel from './KpiPanel.vue'
 import CoverCounter from './CoverCounter.vue'
+import RulesPanel from './RulesPanel.vue'
 
 const STEPS = ['Project area', 'Today', 'Trees to act on', 'Priorities', 'Result', 'Compare', 'Report', 'Save and export']
 const A = computed(() => state.area)
@@ -31,6 +32,12 @@ const spots = computed(() => {
   return c
 })
 const msg = computed(() => state.addMsg)
+// the project autosaved in this browser, offered on step 1 when nothing is drawn yet
+const saved = savedProject()
+async function resume() {
+  await loadConfig(saved)
+  if (state.area) go(4)
+}
 const printReport = () => window.print()
 function saveCfg() {
   const a = Object.assign(document.createElement('a'), { download: `shade_sponge_${state.site}_config.json`,
@@ -59,6 +66,8 @@ function saveCfg() {
       <button v-if="state.drawing" :disabled="state.draft.length < 3" @click="finishArea">Finish ({{ state.draft.length }} corners)</button>
       <button v-if="state.drawing" @click="cancelDrawing">Cancel</button>
     </div>
+    <p v-if="saved?.area && !A" class="small">
+      <button @click="resume">Resume the project saved on {{ new Date(saved.saved).toLocaleString('en-GB', { dateStyle: 'medium', timeStyle: 'short' }) }}</button></p>
     <p v-if="msg" class="small accent">{{ msg }}</p>
     <p v-if="A" class="small good">Area set: {{ A.inPlanes.length }} plane trees, {{ A.keptIdx.length }} other street trees, {{ A.spotIdx.length }} spots.</p>
   </section>
@@ -99,8 +108,8 @@ function saveCfg() {
       <button :class="{ on: state.site !== 'porta-barcelona' }" @click="switchSite('porta')">City (7)</button>
       <button :class="{ on: state.site === 'porta-barcelona' }" @click="switchSite('porta-barcelona')">Barcelona (30)</button>
     </div>
-    <details class="how"><summary>Advanced</summary>
-      <p class="small muted">Species cap, diversity floor and species on/off are in Expert mode (header). They stay applied when you come back.</p>
+    <details class="how"><summary>Advanced: species cap, diversity floor, species</summary>
+      <RulesPanel />
     </details>
   </section>
 
@@ -114,6 +123,20 @@ function saveCfg() {
     <h3>6 · Compare with the city's practice</h3>
     <p class="small">"vs city practice" = the city's 2026 planting mix on the same positions. The project-area table gives the area on its own.</p>
     <KpiPanel />
+    <p class="sub">Cost <span class="muted">· your own unit prices (the tool has none)</span></p>
+    <div class="cost">
+      <label>€ per new tree (planting, pit) <input type="number" min="0" step="10" v-model.number="costs.tree" /></label>
+      <label>€ per transplant (Move) <input type="number" min="0" step="10" v-model.number="costs.move" /></label>
+      <label>€ per object moved (conditional spot) <input type="number" min="0" step="10" v-model.number="costs.object" /></label>
+    </div>
+    <p v-if="projectCost" class="small">
+      {{ projectCost.n.replace }} new trees on replaced positions, {{ projectCost.n.move }} transplants, {{ projectCost.n.add }} trees added
+      ({{ projectCost.n.object }} on conditional spots).
+      <template v-if="projectCost.known"><br><b>≈ € {{ Math.round(projectCost.total).toLocaleString('en') }}</b>
+        <template v-if="projectCost.perTree"> · € {{ Math.round(projectCost.perTree).toLocaleString('en') }} per tree</template>
+        <template v-if="projectCost.perShade"> · € {{ Math.round(projectCost.perShade).toLocaleString('en') }} per 1,000 m²·h of summer shade gained</template></template>
+      <template v-else><br><span class="muted">Enter the unit prices above to get the total.</span></template>
+    </p>
   </section>
 
   <section v-else-if="ui.step === 6 && A">
@@ -151,5 +174,8 @@ function saveCfg() {
 .facts { padding-left: 18px; margin: 6px 0; font-size: 13px; line-height: 1.5; }
 .nav { display: flex; justify-content: space-between; margin-top: 12px; position: sticky; bottom: 0; background: var(--panel); padding: 8px 0; }
 .primary { font-weight: 600; }
+.cost { display: grid; gap: 4px; font-size: 12px; }
+.cost label { display: flex; justify-content: space-between; gap: 8px; align-items: center; }
+.cost input { width: 90px; }
 .good { color: var(--good); }
 </style>

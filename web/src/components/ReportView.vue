@@ -1,7 +1,7 @@
 <script setup>
 // One-page report of the project area (v0.2.0, step 7): scripted sentences from the numbers on screen, no LLM; printable.
 import { computed } from 'vue'
-import { state, areaCover, layoutEff, label, scenario } from '../store.js'
+import { state, areaCover, layoutEff, label, scenario, projectCost } from '../store.js'
 
 const A = computed(() => state.area)
 const s0 = computed(() => state.meta.scenarios.find((s) => s.id === 'S0_current').metrics)
@@ -25,10 +25,12 @@ const better = computed(() => {
   const r = rows.value
   if (!r) return { up: [], down: [] }
   const up = [], down = []
-  ;(r.summer.d > 0 ? up : down).push('summer shade')
-  ;(r.winter.d > 0 ? down : up).push('winter sun')
-  ;(r.hot.d < 0 ? up : down).push('water reaching the flood hotspots')
-  if (areaCover.value) (areaCover.value.now >= areaCover.value.today ? up : down).push('canopy cover')
+  // a change smaller than these counts as unchanged (1 m²·h of shade, 1 litre, 0.05 pts of cover)
+  const put = (v, eps, good, name) => Math.abs(v) >= eps && (v * good > 0 ? up : down).push(name)
+  put(r.summer.d, 1, 1, 'summer shade')
+  put(r.winter.d, 1, -1, 'winter sun')
+  put(r.hot.d, 0.001, -1, 'water reaching the flood hotspots')
+  if (areaCover.value) put(areaCover.value.now - areaCover.value.today, 0.05, 1, 'canopy cover')
   return { up, down }
 })
 const today = new Date().toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' })
@@ -53,12 +55,19 @@ const today = new Date().toLocaleDateString('en-GB', { day: 'numeric', month: 'l
           {{ n(rows.summer.c) }} m²·h {{ rows.summer.c >= 0 ? 'more' : 'less' }} than the city's practice on the same positions</template>.</li>
         <li><b>Winter sun:</b> winter shade {{ rows.winter.d >= 0 ? 'rises' : 'falls' }} by {{ n(rows.winter.p) }}% ({{ n(rows.winter.d) }} m²·h)<template v-if="rows.winter.c != null">;
           {{ n(rows.winter.c) }} m²·h {{ rows.winter.c >= 0 ? 'more' : 'less' }} than the city's practice</template>.</li>
-        <li><b>{{ n(-1000 * rows.hot.d) }} litres {{ rows.hot.d <= 0 ? 'less' : 'more' }} water reach the flood hotspots</b> in the design
+        <li><b v-if="Math.abs(rows.hot.d) < 0.001">No change in the water reaching the flood hotspots</b><b v-else>{{ n(-1000 * rows.hot.d) }} litres {{ rows.hot.d < 0 ? 'less' : 'more' }} water reach the flood hotspots</b> in the design
           storm (2-year, 1 hour)<template v-if="rows.hot.c != null">; {{ n(-1000 * rows.hot.c) }} litres {{ rows.hot.c <= 0 ? 'less' : 'more' }} than the city's practice</template>.
           The crowns hold {{ n(rows.rain.d, 1) }} m³ {{ rows.rain.d >= 0 ? 'more' : 'less' }} rain.</li>
         <li v-if="areaCover"><b>Canopy cover {{ areaCover.today.toFixed(1) }}% → {{ areaCover.now.toFixed(1) }}%</b> of the area (target 30%).</li>
       </ul>
-      <p><b>Better:</b> {{ better.up.join(', ') || 'nothing measured' }}. <b>Worse:</b> {{ better.down.join(', ') || 'nothing measured' }}.</p>
+      <p><b>Better:</b> {{ better.up.join(', ') || 'nothing' }}. <b>Worse:</b> {{ better.down.join(', ') || 'nothing' }}.</p>
+
+      <template v-if="projectCost?.known && projectCost.total">
+        <h2>Cost</h2>
+        <p>≈ € {{ n(projectCost.total) }} ({{ projectCost.n.replace + projectCost.n.add }} new trees, {{ projectCost.n.move }} transplants,
+          {{ projectCost.n.object }} objects moved)<template v-if="projectCost.perTree">, € {{ n(projectCost.perTree) }} per tree</template><template
+          v-if="projectCost.perShade">, € {{ n(projectCost.perShade) }} per 1,000 m²·h of summer shade gained</template>. Unit prices entered by the user.</p>
+      </template>
 
       <h2>Species</h2>
       <p>{{ mix.map(([s, k]) => `${s} ${k}`).join(' · ') }}. Diversity: {{ layoutEff?.toFixed(1) }} effective species.</p>

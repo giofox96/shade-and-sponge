@@ -692,6 +692,19 @@ export function configJson() {
   }, null, 1)
 }
 
+// Autosave (v0.2.0, no login): the configuration goes to this browser's storage when it changes; the guided flow offers
+// to resume it. Download "Save project" to keep it elsewhere.
+const AUTO_KEY = 'shade-sponge-autosave'
+export function savedProject() {
+  try { const j = JSON.parse(localStorage.getItem(AUTO_KEY)); return j?.tool === 'shade-and-sponge' ? j : null } catch { return null }
+}
+let autoTimer
+watch(() => [state.area?.version, state.area?.poly, state.addedVersion, state.schedule, state.share, state.minEff, state.exclude.length], () => {
+  if (!state.meta || state.loadingConfig || !(state.area || state.added.length)) return
+  clearTimeout(autoTimer)
+  autoTimer = setTimeout(() => { try { localStorage.setItem(AUTO_KEY, configJson()) } catch { /* storage blocked or full */ } }, 1000)
+}, { deep: true })
+
 export async function loadConfig(cfg) {
   if (cfg?.tool !== 'shade-and-sponge') throw new Error('not a Shade and sponge configuration file')
   state.loadingConfig = true
@@ -795,6 +808,29 @@ const savedPanels = (() => {
 export const panels = reactive({ leftW: 270, rightW: 330, leftOpen: true, rightOpen: true, ...savedPanels })
 watch(panels, (p) => {
   try { localStorage.setItem(PANEL_KEY, JSON.stringify(p)) } catch { /* private window or blocked storage: keep the defaults */ }
+})
+
+// ---- cost of the project area (v0.2.0, notes/tutor_feedback_24nov.md §3c): unit costs are the designer's own (the tool has no
+// sourced prices), remembered in this browser; shown beside heat and runoff, never optimised
+const COST_KEY = 'shade-sponge-costs'
+export const costs = reactive((() => { try { return JSON.parse(localStorage.getItem(COST_KEY)) ?? {} } catch { return {} } })())
+watch(costs, (c) => { try { localStorage.setItem(COST_KEY, JSON.stringify(c)) } catch { /* storage blocked */ } }, { deep: true })
+export const projectCost = computed(() => {
+  const A = state.area
+  if (!A?.idx) return null
+  const act = (key) => state.schedule.trees[key]?.action
+  const keys = [...A.idx.map((i) => state.trees.positions.tree_id[i]), ...A.keptRows.map((k) => `k${k}`)]
+  const moves = keys.filter((k) => act(k) === 'move').length
+  const added = state.added.filter((t) => insidePoly(t.lon, t.lat, A.poly))
+  const S = state.trees.spots
+  const objects = added.filter((t) => t.spot && spotClass(S.id.indexOf(t.spot)) === 'conditional').length
+  const n = { replace: keys.length - moves, move: moves, add: added.length, object: objects }
+  const unit = { replace: costs.tree, move: costs.move, add: costs.tree, object: costs.object }
+  const known = Object.keys(n).every((k) => !n[k] || unit[k] > 0)
+  const total = Object.keys(n).reduce((a, k) => a + n[k] * (unit[k] || 0), 0)
+  const trees = n.replace + n.move + n.add
+  const shade = A.local?.shade_summer_m2h?.delta
+  return { n, total, known, perTree: trees ? total / trees : null, perShade: shade > 0 ? (1000 * total) / shade : null }
 })
 
 // ---- theme: 'auto' follows the system; the choice is remembered in this browser ---------------------------------

@@ -76,7 +76,7 @@ const winterRange = computed(() => {
           <td class="num">{{ r.own ? num(r.today) : '' }}</td>
           <td class="num">{{ r.own ? num(r.after) : '' }}</td>
           <td class="num" :class="good(r.delta, r.sign)">≈ {{ sgn(r.delta) }} <span class="u">{{ r.unit }}</span>
-            <br><span class="u">{{ r.own ? `${r.pct > 0 ? '+' : ''}${r.pct.toFixed(0)}%` : `${sgn(r.perTree)} L per tree` }}</span></td>
+            <br><span class="u">{{ r.own ? (r.pct == null ? '' : `${r.pct > 0 ? '+' : ''}${r.pct.toFixed(0)}%`) : `${sgn(r.perTree)} L per tree` }}</span></td>
         </tr>
       </tbody>
     </table>
