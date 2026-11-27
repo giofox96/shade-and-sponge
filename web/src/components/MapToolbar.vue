@@ -2,7 +2,7 @@
 // Icon column on the right edge of the map: one button per map layer, grouped in pills. A dot marks a layer that is on;
 // the tooltip gives name, state and action. "More" opens the month (leaf calendar) and building-opacity tools.
 import { ref } from 'vue'
-import { state, MONTHS, setGround3d } from '../store.js'
+import { state, MONTHS, setGround3d, setUtilities, UTIL_NETS } from '../store.js'
 import Icon from './Icon.vue'
 
 const more = ref(false)
@@ -40,10 +40,23 @@ const hint = (on) => (on ? 'Visible on map · click to hide' : 'Hidden · click 
         <span class="tt"><b>Free planting spots</b>{{ hint(state.showSpots) }}
           <em>Green discs = free spots, light to dark = small / medium / large tree; an amber centre = a field check first, orange = a buried service (SYNTHETIC lines in this public version), red = blocked.</em></span>
       </button>
+      <button v-if="state.meta.utilities" class="tb" :aria-pressed="state.showUtilities" aria-label="Underground services (synthetic)"
+              @click="setUtilities(!state.showUtilities)">
+        <Icon name="pipe" /><i v-if="state.showUtilities" class="dot"></i>
+        <span class="tt"><b>Underground services · SYNTHETIC</b>{{ hint(state.showUtilities) }}
+          <em>Random lines drawn from how the real networks sit in Porta's streets (eWise plans, aggregates only): not the real
+            services. A free spot whose pit would sit on a line gets an orange centre.</em></span>
+      </button>
       <button class="tb" :aria-pressed="state.buildingOpacity > 0" aria-label="Buildings" @click="toggleBuildings">
         <Icon name="building" /><i v-if="state.buildingOpacity > 0" class="dot"></i>
         <span class="tt"><b>Buildings</b>{{ state.buildingOpacity > 0 ? `${Math.round(state.buildingOpacity * 100)}% opaque · click to hide` : 'Hidden · click to show' }}</span>
       </button>
+    </div>
+    <!-- the legend of the services layer, while it is on (user 27 Nov) -->
+    <div v-if="state.showUtilities" class="ulegend" role="note" aria-label="Underground services legend">
+      <b>Underground services <span class="syn">synthetic</span></b>
+      <span v-for="[k, l, c] in UTIL_NETS" :key="k"><i :style="{ background: `rgb(${c})` }"></i>{{ l }}</span>
+      <span class="thin"><i></i>thin line: service to a building</span>
     </div>
     <div class="pill">
       <button v-for="o in state.meta.overlays" :key="o.id" class="tb" :aria-pressed="state.overlay === o.id" :aria-label="o.label"
@@ -99,4 +112,9 @@ const hint = (on) => (on ? 'Visible on map · click to hide' : 'Hidden · click 
 .months button:hover { background: var(--hover); }
 .months button.on { background: var(--accent); color: var(--panel); }
 .tool input[type='range'] { width: 150px; }
+.ulegend { position: absolute; right: 46px; top: 120px; display: flex; flex-direction: column; gap: 3px; padding: 8px 10px; border-radius: 10px;
+  background: var(--panel); box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2); font-size: 11.5px; white-space: nowrap; }
+.ulegend b { font-size: 12px; margin-bottom: 2px; } .ulegend .syn { font-weight: 400; color: var(--muted); }
+.ulegend span { display: flex; align-items: center; gap: 6px; }
+.ulegend i { width: 16px; height: 3px; border-radius: 2px; } .ulegend .thin i { height: 1px; background: var(--muted); }
 </style>
