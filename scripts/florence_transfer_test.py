@@ -7,8 +7,9 @@ Same core and rules as the Mataró test (shade_sponge.layout / heat / runoff / s
 façade clearance, LP sweep, balanced weights 0.50 / 0.25 / 0.25, five seeds per draw). What differs, all declared:
 - Trees: the Life Escapos census (Comune di Firenze, CC BY-NC 4.0, 1,459 public trees of Firenze Nova, EPSG:7791;
   databases/florence/raw/escapos_tree_census.shp, as scripts/florence_lidar_trees.py). The census has no street name and no
-  street-vs-park flag, so ASSUMPTION test sites = groups of census planes linked at <= LINK m (a row of planes), kept if
-  >= MIN_N planes. Every census tree counts as a street tree for the cap (no flag to split them).
+  street-vs-park flag, so ASSUMPTION test sites = the census planes inside each TILE x TILE m square of a fixed grid,
+  kept if >= MIN_N planes: a project area about one block across. (A first run grouped planes linked at <= 15 m with
+  >= 8 planes and found one group of 34 of the 140 planes: the Firenze Nova planes stand in short rows and singles.) Every census tree counts as a street tree for the cap (no flag to split them).
 - Crowns of the existing trees: Florence 2023 LiDAR (databases/florence/florence_tree_lidar.csv, scripts/florence_lidar_trees.py):
   crown diameter, height and crown base for every tree with flag "ok". ASSUMPTION LAI: the Barcelona LiDAR pool median of the
   species and trunk class (mataro_transfer_test.trait_table), not the Florence LAI proxy, which is about twice Porta's for
@@ -47,9 +48,6 @@ import requests
 from pyproj import Transformer
 from rasterio.features import rasterize
 from rasterio.transform import from_origin
-from scipy.sparse import coo_matrix
-from scipy.sparse.csgraph import connected_components
-from scipy.spatial import cKDTree
 from shapely import wkb
 from shapely.geometry import MultiPoint
 
@@ -67,7 +65,7 @@ INV = FL / "alberi.geojson"
 INV_URL = "https://data.comune.fi.it/datastore/download.php?id=6370&type=99&format=url&file_format=geojson&file_id=23066"
 BLD = FL / "raw/overture_buildings.parquet"
 CRS = 7791                                                       # RDN2008 / UTM 32N, the census and LiDAR CRS
-LINK, MIN_N = 15.0, 8                                            # ASSUMPTION: test-site grouping of planes
+TILE, MIN_N = 200.0, 5                                           # ASSUMPTION: test-site grid and minimum planes
 
 
 def girth_class(dbh_cm):
@@ -87,15 +85,12 @@ def load_trees():
 
 
 def sites(d):
-    """Groups of planes linked at <= LINK m, with >= MIN_N planes, largest first."""
+    """Planes per TILE x TILE m grid square (squares counted from multiples of TILE), squares with >= MIN_N planes,
+    largest first."""
     p = d[d.is_plane]
-    pairs = np.array(sorted(cKDTree(p[["x", "y"]].values).query_pairs(LINK)))
-    n = len(p)
-    g = coo_matrix((np.ones(len(pairs)), (pairs[:, 0], pairs[:, 1])), shape=(n, n)) if len(pairs) else coo_matrix((n, n))
-    _, lab = connected_components(g, directed=False)
-    sizes = pd.Series(lab).value_counts()
-    keep = sizes[sizes >= MIN_N].index
-    return [p[lab == k].reset_index(drop=True) for k in keep]
+    lab = (p.x // TILE).astype(int).astype(str) + "_" + (p.y // TILE).astype(int).astype(str)
+    sizes = lab.value_counts()
+    return [p[lab == k].reset_index(drop=True) for k in sizes[sizes >= MIN_N].index]
 
 
 def fetch_buildings(groups):
@@ -166,8 +161,8 @@ def make_site(census, pos_xy, get, lidar):
 def main():
     d = load_trees()
     groups = sites(d)
-    print(f"{d.is_plane.sum()} planes; {len(groups)} test sites (>= {MIN_N} planes linked at <= {LINK:.0f} m): "
-          f"{[len(g) for g in groups]}", flush=True)
+    print(f"{d.is_plane.sum()} planes; {len(groups)} test sites ({TILE:.0f} m squares with >= {MIN_N} planes): "
+          f"{[len(g) for g in groups]}, {sum(map(len, groups))} planes covered", flush=True)
     if not BLD.exists():
         fetch_buildings(groups)
     lidar = pd.read_csv(LIDAR)
@@ -246,7 +241,7 @@ def figure(df):
     ax.text(len(df) - 0.5, 98, "today's planes (LiDAR) = 100%", ha="right", va="top", fontsize=8)
     ax.set_xticks(x, [f"{s}\n(n={n})" for s, n in zip(df.site, df.n)], fontsize=8)
     ax.set_ylabel("Summer shade of the new trees\n(% of today's plane trees)")
-    ax.set_title(f"Florence transfer test: replacing every plane in {len(df)} groups of Firenze Nova", fontsize=11, loc="left")
+    ax.set_title(f"Florence transfer test: replacing every plane in {len(df)} {TILE:.0f} m squares of Firenze Nova", fontsize=11, loc="left")
     ax.set_ylim(0, 128)
     ax.legend(fontsize=8, frameon=False, ncol=2, loc="upper left")
     ax.spines[["top", "right"]].set_visible(False)
