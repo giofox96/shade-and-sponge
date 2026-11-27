@@ -28,7 +28,7 @@ SEA = "#DCE3EA"
 plt.rcParams.update({"font.family": "IBM Plex Sans", "font.size": 13, "text.color": INK})
 PORTA = (2.178, 41.437)        # Porta (Nou Barris), Barcelona: near the repo's local origin 430800, 4586800 (EPSG:25831)
 MATARO = (2.444, 41.540)       # Mataró centre
-OFFSET = {"ALFONS X EL SAVI, RONDA D'": (-175, 30), "MIGUEL DE CERVANTES, RONDA DE": (16, -60)}   # label placement, points
+OFFSET = {"ALFONS X EL SAVI, RONDA D'": (-175, 30), "València, Carrer de": (-118, 14), "MIGUEL DE CERVANTES, RONDA DE": (16, -60)}   # label placement, points
 KX = 111.32 * np.cos(np.radians(41.45))   # km per degree of longitude at this latitude
 
 

@@ -251,7 +251,7 @@ def n_contribution(s):
     rows = [("Porta", "summer shade 103% vs 98%, winter 98% vs 106%", "same spots, same works: 2/3 of the gain from the wider palette, 1/4 from choosing species", TREE),
             ("City plan", "101% vs 98% at the same diversity", "diversity is not what costs the shade", TREE),
             ("Back-test", "more shade in 23 of 26 real replacements, 1.7× per tree", "it holds where the city really worked, not only in Porta", HEAT),
-            ("Mataró", "83% vs 63% of the planes' shade, 6 of 6 streets", "it travels to another city with its own rules", RAIN),
+            ("Mataró", "127% vs 106% of the planes' shade, 6 of 6 streets", "it travels to another city with its own rules", RAIN),
             ("Runoff", "equal everywhere", "at street scale species barely move runoff: a do-no-harm check", MUTED)]
     for k, (t, res, mean, c) in enumerate(rows):
         y = 1.5 + k * 0.97
@@ -389,14 +389,14 @@ def old_tag(s, label):
 
 
 def n_mataro(s):
-    """Transfer test, first run (PR #150): crowns = Barcelona medians, Mataró LiDAR crowns not yet in."""
-    head(s, "Transfer: Mataró", "Six plane streets, every plane replaced: summer shade of the new trees, method vs city practice")
+    """Transfer test with Mataró's own LiDAR crowns (PR #194: ICGC flight 20 Jul 2021, crowns for 87% of 6,657 trees)."""
+    head(s, "Transfer: Mataró", "Six plane streets, every plane replaced: new trees' summer shade, % of today's planes")
     R.picture(s, ROOT / "slides/midterm/fig/mataro_streets.png", M, 1.45, 6.6, crop_top=0)
-    text(s, 7.5, 1.6, 5.3, 1.6, [[("83% vs 63%", {"bold": True, "color": TREE, "size": 40})],
-                                 "median share of the planes' shade · the method wins 6 of 6 streets"], 16, INK)
+    text(s, 7.5, 1.6, 5.3, 1.6, [[("127% vs 106%", {"bold": True, "color": TREE, "size": 40})],
+                                 "median over the six streets · the method wins 6 of 6, by 17–35 points"], 16, INK)
     text(s, 7.5, 3.35, 5.3, 0.8, [[("Runoff: ", {"bold": True}), ("never worse (6 of 6)", {})]], 15, INK)
-    text(s, 7.5, 4.1, 5.3, 2.0, [[("First run: ", {"bold": True, "color": MUTED}),
-                                  ("crowns from Barcelona, Mataró LiDAR next. Florence follows with its own LiDAR.", {})]], 14, MUTED)
+    text(s, 7.5, 4.1, 5.3, 2.0, [[("Mataró's own recent plantings: ", {"bold": True, "color": MUTED}), ("90%. ", {}),
+                                  ("Today's crowns from Mataró's LiDAR (87% of trees). Florence follows with its own LiDAR.", {})]], 14, MUTED)
     source(s, "Ajuntament de Mataró, arbrat (2026); Overture Maps (ODbL); ICGC, LiDAR 2021.")
 
 
@@ -481,7 +481,7 @@ SLIDES = [
     (n_backtest, "I went back to 26 places where the city really replaced a group of trees. With the same positions, the method gives more shade in 23 of them, 1.7 times the shade per tree, and never more runoff."),
     (n_effective, "To count diversity I use the effective number of species: how many equally common species a mix is worth. Ten species in equal shares are worth ten; ten species with one at ninety percent are worth fewer than two."),
     (n_diversity,"Diversity is cheap: matching the city's announced mix costs a fifth of a point of shade; at the city's practice diversity the top species falls from 45% to 21% of the replacements; and even at twenty effective species the method stays above the city's practice."),
-    (n_mataro, "Does it travel? In Mataró, replacing every plane on six streets, the method keeps 83% of the planes' shade against 63% for the city's practice, and wins all six streets. Florence follows."),
+    (n_mataro, "Does it travel? In Mataró, replacing every plane on six streets, the method gives 127% of today's planes' summer shade against 106% for the city's practice (median of the six streets), and wins all six streets by 17 to 35 points. Mataró's own recent plantings would give 90%. Today's crowns come from Mataró's own LiDAR. Florence follows."),
     (n_cost, "Each action has a price: keeping a tree about 44 euros, adding one about 260, replacing one 190 to 1,070, moving a young tree 700 to 3,000. The method replaces the same trees as the city, so the works and the cost are the same."),
     (n_impact, "Real projects cost one to two million euros. If the 513 planes the city plans to change in Porta followed the method, about 1,950 square metres more ground would be shaded on summer afternoons, for the same money. With ten million euros, about 9,300 replacements, the same order as the city made in eight years, and about three and a half hectares more shade."),
     (n_stakeholders,"Who does what in a Barcelona street project. The Ajuntament pays and approves, the District promotes, BIMSA runs the investment and commissions the design. The designer uses the tool, with the utilities' service plans. Parcs i Jardins decides the species and checks every project with trees: 93 green technicians, 21 senior and 72 mid-level. So the agronomists are already in the process. The tool does not replace them: it gives them and the designer the same rules and numbers to compare. The neighbours comment during the public exhibition and get the shade."),
@@ -543,6 +543,18 @@ def build():
         finally:
             MT.FIG = keep
     old = [(b1_postneedle if t == "OLD B1" else f, t, n) for f, t, n in old]
+
+    def m15_final(s):
+        """OLD M15 (Next / thank you) for the defence: Mataró is done with its own LiDAR (PR #194)."""
+        MT.s1_photo(s)
+        text(s, 0.75, 1.3, 7.4, 1.0, "Next", 54, BG, True, name="Title")
+        text(s, 0.75, 2.5, 7.2, 2.6, ["Felt temperature (UTCI): Ladybug, Infrared City", "Florence: transfer test with its own LiDAR",
+                                      "Utility plans: which spots are really free"], 22, BG)
+        text(s, 0.75, 5.1, 7.2, 0.8, "Thank you.", 22, BG, True)
+        text(s, 0.75, 6.2, 11.0, 0.4, "Giovanni Volpe · MaCAD, IAAC · Thesis defence", 16, "#CFC9BC", name="Mono")
+    old = [(m15_final, t, "Three steps come next: felt temperature, with Ladybug and Infrared City, to check that more shade means "
+            "a cooler street; Florence, the second transfer test, with its own LiDAR; and the utility plans, to see which spots are "
+            "really free. Thank you.") if t == "OLD M15" else (f, t, n) for f, t, n in old]
     pool = {f"NEW N{k + 1}": (f, n) for k, (f, n) in enumerate(SLIDES)}
     pool.update({t: (f, n) for f, t, n in old})
     seq = []
