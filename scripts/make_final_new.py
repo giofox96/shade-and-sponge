@@ -208,25 +208,44 @@ def arrow(s, x1, y1, x2, y2, label=None, color=MUTED, lx=None, ly=None):
 
 
 def n_stakeholders(s):
-    head(s, "Who uses it, who benefits", "The tool advises, people decide")
-    nodes = {"city": (M, 1.75, "landmark", "City: Parcs i Jardins", "sets the rules, approves", RAIN),
-             "des": (M + 4.6, 1.75, "ruler", "Street designer", "city staff or a commissioned firm", TREE),
-             "tool": (M + 9.2, 1.75, "sliders-horizontal", "The tool", "species and positions, report", WARN),
-             "nb": (M + 4.6, 4.6, "heart", "Neighbours", "more summer shade, winter sun, same cost", HEAT)}
-    bw, bh = 3.0, 1.55
-    for x, y, ic, t, sub, c in nodes.values():
-        box(s, x, y, bw, bh, tint(c, 0.10))
-        ico(s, ic, c, x + 0.25, y + 0.25, 0.45)
-        text(s, x + 0.85, y + 0.15, bw - 1.0, 0.5, t, 16, c, True)
-        text(s, x + 0.25, y + 0.8, bw - 0.4, 0.7, sub, 13, INK)
-    y_f, y_b = 1.75 + 0.5, 1.75 + 1.1
-    arrow(s, M + bw, y_f, M + 4.6, y_f, "rules, species", lx=M + bw - 0.3, ly=y_f - 0.42)
-    arrow(s, M + 4.6, y_b, M + bw, y_b, "proposal", lx=M + bw - 0.3, ly=y_b + 0.05)
-    arrow(s, M + 4.6 + bw, y_f, M + 9.2, y_f, "area + actions", lx=M + 4.6 + bw - 0.3, ly=y_f - 0.42)
-    arrow(s, M + 9.2, y_b, M + 4.6 + bw, y_b, "layout + report", lx=M + 4.6 + bw - 0.3, ly=y_b + 0.05)
-    arrow(s, M + bw / 2, 1.75 + bh, M + bw / 2, 4.6 + bh / 2, None)
-    arrow(s, M + bw / 2, 4.6 + bh / 2, M + 4.6, 4.6 + bh / 2, "approved works", lx=M + bw / 2, ly=4.6 + bh / 2 - 0.42)
-    source(s, BCN)
+    head(s, "Who decides, who uses it, who benefits", "Species are chosen by the city's green technicians; the tool gives them numbers to compare")
+    def actor(x, y, w, h, ic, t, sub, c, fs=11):
+        box(s, x, y, w, h, tint(c, 0.10))
+        ico(s, ic, c, x + 0.18, y + 0.2, 0.4)
+        text(s, x + 0.7, y + 0.08, w - 0.8, 0.4, t, 14, c, True)
+        text(s, x + 0.7, y + 0.45, w - 0.8, h - 0.5, sub, fs, INK)
+    c1, w1, c2, w2, c3, w3 = M, 3.1, M + 3.85, 3.0, M + 8.25, W - 2 * M - 8.25
+    actor(c1, 1.5, w1, 0.95, "landmark", "Ajuntament", "pays, approves the project", RAIN)
+    actor(c1, 2.6, w1, 0.95, "map-pin", "District", "promotes the works", RAIN)
+    actor(c1, 3.7, w1, 0.95, "building-2", "BIMSA", "runs the investment, commissions the design", RAIN)
+    actor(c1, 5.25, w1, 0.95, "plug", "Utilities", "water, sewer, power, gas, telecom", MUTED)
+    actor(c2, 1.5, w2, 1.2, "ruler", "Street designer", "a firm or city staff: section, pits, trees", WARN)
+    actor(c2, 3.55, w2, 1.2, "sliders-horizontal", "The tool", "species + position per tree; shade, winter sun, runoff", WARN)
+    actor(c2, 5.25, w2, 0.95, "users", "Neighbours", "comment in the public exhibition; get the shade", HEAT)
+    box(s, c3, 1.5, w3, 4.7, tint(TREE, 0.10))
+    ico(s, "sprout", TREE, c3 + 0.2, 1.65, 0.5)
+    text(s, c3 + 0.85, 1.58, w3 - 1.0, 0.4, "Parcs i Jardins", 18, TREE, True)
+    text(s, c3 + 0.85, 1.95, w3 - 1.0, 0.35, "Institut Municipal", 12, MUTED)
+    text(s, c3 + 0.25, 2.45, w3 - 0.5, 1.2, ["decides the species of each pit", "maintains the street trees",
+                                             "checks every urban project with trees"], 13, INK)
+    text(s, c3 + 0.25, 3.6, w3 - 0.5, 1.4, [[("93", {"bold": True, "color": TREE, "size": 40}), ("  green technicians", {"bold": True, "color": TREE})],
+                                           "21 senior + 72 mid-level, of 919 staff;", "plus a call for 9 agricultural technicians (2017)"], 13, INK)
+    box(s, c3, 5.3, w3, 0.9, tint(TREE, 0.22))
+    text(s, c3 + 0.25, 5.3, w3 - 0.5, 0.9, "The agronomists are here. The tool does not replace them.", 14, INK, True,
+         anchor=MSO_ANCHOR.MIDDLE)
+    arrow(s, c1 + w1, 4.17, c2, 2.35, "commissions", lx=c1 + w1 - 0.75, ly=3.15)
+    arrow(s, c2, 1.8, c1 + w1, 1.8, "project", lx=c1 + w1 - 0.3, ly=1.38)
+    arrow(s, c1 + w1, 5.72, c2, 4.4, "service plans", lx=c1 + w1 - 0.85, ly=4.95)
+    arrow(s, c2 + 1.0, 2.7, c2 + 1.0, 3.55, None)
+    arrow(s, c2 + 2.2, 3.55, c2 + 2.2, 2.7, None)
+    text(s, c2 - 0.2, 2.9, 1.15, 0.4, "site + rules", 12, MUTED, align=PP_ALIGN.RIGHT)
+    text(s, c2 + 2.3, 2.9, 1.3, 0.4, "layout + report", 12, MUTED)
+    arrow(s, c3, 1.85, c2 + w2, 1.85, "species, 15% cap", lx=c2 + w2 - 0.15, ly=1.43)
+    arrow(s, c2 + w2, 2.45, c3, 2.45, "project to check", lx=c2 + w2 - 0.15, ly=2.5)
+    arrow(s, c2 + w2, 4.15, c3, 4.15, "same numbers", lx=c2 + w2 - 0.15, ly=4.2)
+    arrow(s, c2 + w2 / 2, 4.75, c2 + w2 / 2, 5.25, None, color=HEAT)
+    source(s, "Ajuntament de Barcelona, BOPB (2025); BIMSA, Pressupost 2018; Parcs i Jardins, institut page and staff list (30 Nov 2022); "
+              "Parcs i Jardins, call for agricultural technicians (2017).")
 
 
 def n_contribution(s):
@@ -467,7 +486,7 @@ SLIDES = [
     (n_mataro, "Does it travel? In Mataró, replacing every plane on six streets, the method keeps 83% of the planes' shade against 63% for the city's practice, and wins all six streets. Florence follows."),
     (n_cost, "Each action has a price: keeping a tree about 44 euros, adding one about 260, replacing one 190 to 1,070, moving a young tree 700 to 3,000. The method replaces the same trees as the city, so the works and the cost are the same."),
     (n_impact, "Real projects cost one to two million euros. If the 513 planes the city plans to change in Porta followed the method, about 1,950 square metres more ground would be shaded on summer afternoons, for the same money. With ten million euros, about 9,300 replacements, the same order as the city made in eight years, and about three and a half hectares more shade."),
-    (n_stakeholders,"The city sets the rules and the species list; the street designer, city staff or a firm, uses the tool and gets a layout and a report; the city approves the proposal, and the neighbours get the shade."),
+    (n_stakeholders,"Who does what in a Barcelona street project. The Ajuntament pays and approves, the District promotes, BIMSA runs the investment and commissions the design. The designer uses the tool, with the utilities' service plans. Parcs i Jardins decides the species and checks every project with trees: 93 green technicians, 21 senior and 72 mid-level. So the agronomists are already in the process. The tool does not replace them: it gives them and the designer the same rules and numbers to compare. The neighbours comment during the public exhibition and get the shade."),
     (n_contribution, "What the results say: in Porta, same spots and same works, two thirds of the gain come from the wider palette and a quarter from choosing species; at the city's own diversity the method still gains; it holds in 23 of 26 real replacements and in Mataró; runoff does not move, so it stays a do-no-harm check."),
     (n_limits, "These are the limits: new trees at today's size, heat as shade checked with felt temperature, one interception rate, runoff that barely moves, free spots as an upper bound, and the cap on street trees only."),
     (n_context_maps, "Barcelona replaced almost eleven thousand street trees in eight years, one at a time. The plan caps any species at fifteen percent, but says nothing about where. Porta's canopy is twenty percent, the target thirty."),
