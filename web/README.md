@@ -1,5 +1,7 @@
 # Shade and sponge: web app
 
+**Guided look (27 Nov, night):** the guide is a card floating on a full-width map, one step per screen sliding sideways, short spoken lines, big toggles and counting numbers, a welcome screen; slide colours and IBM Plex Sans.
+
 **v0.2.0 (in progress, 27 Nov): Guided | Expert switch in the header.** Guided = one step at a time (`src/components/GuidedFlow.vue`): 1 project area · 2 today (trees, spots, canopy) · 3 trees to act on (schedule) · 4 priorities (triangle, palette) · 5 result · 6 compare with city practice · 7 one-page report, printable to PDF (`ReportView.vue`, scripted sentences, no LLM) · 8 save and export. Step 4 has the species cap, diversity floor and species under "Advanced" (`RulesPanel.vue`, shared with Expert). Step 6 and the report show a **cost** from the designer's own unit prices (€ per new tree, transplant, object moved; the tool has no sourced prices). The project is **autosaved in the browser** and step 1 offers to resume it; "Save project" downloads it. Expert = every setting at once, as v0.1.0. Plan: `notes/tutor_feedback_24nov.md` §3e.
 
 Browse the street-tree layouts of the tool (`shade_sponge/`) on a 3D map: priorities triangle, results against the current trees and a random palette, trade-off chart, and a per-tree inspector that shows what each palette species would deliver at that position.
