@@ -251,7 +251,7 @@ def n_contribution(s):
     rows = [("Porta", "summer shade 103% vs 98%, winter 98% vs 106%", "same spots, same works: 2/3 of the gain from the wider palette, 1/4 from choosing species", TREE),
             ("City plan", "101% vs 98% at the same diversity", "diversity is not what costs the shade", TREE),
             ("Back-test", "more shade in 23 of 26 real replacements, 1.7× per tree", "it holds where the city really worked, not only in Porta", HEAT),
-            ("Mataró", "127% vs 106% of the planes' shade, 6 of 6 streets", "it travels to another city with its own rules", RAIN),
+            ("Transfer", "Mataró 127% vs 106%, Florence 92% vs 74%", "it travels to other cities, with their own data", RAIN),
             ("Runoff", "equal everywhere", "at street scale species barely move runoff: a do-no-harm check", MUTED)]
     for k, (t, res, mean, c) in enumerate(rows):
         y = 1.5 + k * 0.97
@@ -259,7 +259,7 @@ def n_contribution(s):
         text(s, M + 0.25, y, 1.9, 0.85, t, 17, c, True, anchor=MSO_ANCHOR.MIDDLE)
         text(s, M + 2.2, y, 4.8, 0.85, res, 14, INK, anchor=MSO_ANCHOR.MIDDLE)
         text(s, M + 7.2, y, W - 2 * M - 7.4, 0.85, mean, 14, INK, True, anchor=MSO_ANCHOR.MIDDLE)
-    source(s, "ICGC, LiDAR 2021; Open Data BCN, arbrat viari 2018–2026; Parcs i Jardins (2026); Ajuntament de Mataró.")
+    source(s, "ICGC, LiDAR 2021; Open Data BCN, arbrat viari 2018–2026; Parcs i Jardins (2026); Ajuntament de Mataró; Comune di Firenze.")
 
 
 def n_context_maps(s):
@@ -396,8 +396,22 @@ def n_mataro(s):
                                  "median over the six streets · the method wins 6 of 6, by 17–35 points"], 16, INK)
     text(s, 7.5, 3.35, 5.3, 0.8, [[("Runoff: ", {"bold": True}), ("never worse (6 of 6)", {})]], 15, INK)
     text(s, 7.5, 4.1, 5.3, 2.0, [[("Mataró's own recent plantings: ", {"bold": True, "color": MUTED}), ("90%. ", {}),
-                                  ("Today's crowns from Mataró's LiDAR (87% of trees). Florence follows with its own LiDAR.", {})]], 14, MUTED)
+                                  ("Today's crowns from Mataró's LiDAR (87% of trees).", {})]], 14, MUTED)
     source(s, "Ajuntament de Mataró, arbrat (2026); Overture Maps (ODbL); ICGC, LiDAR 2021.")
+
+
+def n_florence(s):
+    """Florence transfer test (PR #199): Firenze Nova, 10 sites of 200 m, 133 planes; pooled layouts, today's crowns from the
+    Comune di Firenze LiDAR 2023. Headline = method with the 9.4 diversity floor (without it 97.5%, but 94% Gleditsia)."""
+    head(s, "Transfer: Florence", "Firenze Nova, 10 sites, 133 planes replaced: new trees' summer shade, % of today's planes")
+    bars(s, M, 1.5, 7.0, 4.4, ["Method, ≥ 9.4 species", "City practice (BCN)", "Announced mix (BCN)", "Florence's recent plantings"],
+         [92, 74, 71, 63], [TREE, GREY, GREY, WARN], axis_min=0, axis_max=110)
+    text(s, 7.9, 1.6, W - M - 7.9, 1.6, [[("92% vs 74%", {"bold": True, "color": TREE, "size": 40})],
+                                         "the method, at the city's announced diversity, against city practice"], 16, INK)
+    text(s, 7.9, 3.35, W - M - 7.9, 0.8, [[("Runoff: ", {"bold": True}), ("+0.14%, all options rise slightly", {})]], 15, INK)
+    text(s, 7.9, 4.1, W - M - 7.9, 2.0, [[("Without the floor: ", {"bold": True, "color": MUTED}),
+                                          ("97.5%, but 94% one species (Gleditsia). Today's crowns from Florence's LiDAR (2023).", {})]], 14, MUTED)
+    source(s, "Comune di Firenze, LiDAR 2023 and Alberi (CC BY 4.0); Life Escapos tree census (CC BY-NC 4.0); Overture Maps (ODbL).")
 
 
 def n_cost(s):
@@ -485,7 +499,7 @@ SLIDES = [
     (n_cost, "Each action has a price: keeping a tree about 44 euros, adding one about 260, replacing one 190 to 1,070, moving a young tree 700 to 3,000. The method replaces the same trees as the city, so the works and the cost are the same."),
     (n_impact, "Real projects cost one to two million euros. If the 513 planes the city plans to change in Porta followed the method, about 1,950 square metres more ground would be shaded on summer afternoons, for the same money. With ten million euros, about 9,300 replacements, the same order as the city made in eight years, and about three and a half hectares more shade."),
     (n_stakeholders,"Who does what in a Barcelona street project. The Ajuntament pays and approves, the District promotes, BIMSA runs the investment and commissions the design. The designer uses the tool, with the utilities' service plans. Parcs i Jardins decides the species and checks every project with trees: 93 green technicians, 21 senior and 72 mid-level. So the agronomists are already in the process. The tool does not replace them: it gives them and the designer the same rules and numbers to compare. The neighbours comment during the public exhibition and get the shade."),
-    (n_contribution, "What the results say: in Porta, same spots and same works, two thirds of the gain come from the wider palette and a quarter from choosing species; at the city's own diversity the method still gains; it holds in 23 of 26 real replacements and in Mataró; runoff does not move, so it stays a do-no-harm check."),
+    (n_contribution, "What the results say: in Porta, same spots and same works, two thirds of the gain come from the wider palette and a quarter from choosing species; at the city's own diversity the method still gains; it holds in 23 of 26 real replacements, in Mataró and in Florence; runoff does not move, so it stays a do-no-harm check."),
     (n_limits, "These are the limits: new trees at today's size, heat as shade checked with felt temperature, one interception rate, runoff that barely moves, free spots as an upper bound, and the cap on street trees only."),
     (n_context_maps, "Barcelona replaced almost eleven thousand street trees in eight years, one at a time. The plan caps any species at fifteen percent, but says nothing about where. Porta's canopy is twenty percent, the target thirty."),
     (n_crowns, "Same trunk, different crowns: at the plane's trunk size, the thirty species cast very different shade."),
@@ -499,6 +513,7 @@ SLIDES = [
     (n_obstacles, "The conditional spots: signs, lamps, crossings and bollards a project can move, and underground services that need a field check."),
     (n_water, "Where the water goes in Porta: the flow paths from the terrain and the city's flood hotspots."),
     (n_runoff, "The runoff module: the design storm falls on a one-metre grid; crowns hold water, the soil takes some, the rest flows downhill to the flood spots."),
+    (n_florence, "And in Florence: in Firenze Nova, ten sites with 133 planes, the method at the city's announced diversity gives 92% of today's planes' summer shade, against 74% for city practice and 63% for Florence's own recent plantings. Without the diversity floor it reaches 97.5%, but almost all one species, so the floor stays. Runoff rises slightly for every option, 0.14% for the method."),
 ]
 
 
@@ -517,7 +532,7 @@ ORDER = ["OLD M1", "NEW N15", "NEW N16", "NEW N17", "NEW N18",               # w
          "NEW N3", "NEW N21",                                               # scenarios, city practice
          "§Results", "NEW N4", "NEW N5", "NEW N6", "OLD B8",                # Porta, city plan, back-test, Rio de Janeiro
          "NEW N7", "NEW N8",                                                # diversity explained, its cost
-         "OLD B5", "NEW N9",                                                # Mataró: why, result
+         "OLD B5", "NEW N9", "NEW N27",                                                # Mataró: why, result
          "§In practice", "NEW N10", "NEW N11",                              # cost, 10 M€
          "§Conclusions", "NEW N13", "NEW N14", "OLD M15", "NEW N22"]                   # results read, limits, next/thanks
 # Removed in the review (26 Nov): replaced by a new slide, or the appendix.
@@ -548,13 +563,11 @@ def build():
         """OLD M15 (Next / thank you) for the defence: Mataró is done with its own LiDAR (PR #194)."""
         MT.s1_photo(s)
         text(s, 0.75, 1.3, 7.4, 1.0, "Next", 54, BG, True, name="Title")
-        text(s, 0.75, 2.5, 7.2, 2.6, ["Felt temperature (UTCI): Ladybug, Infrared City", "Florence: transfer test with its own LiDAR",
-                                      "Utility plans: which spots are really free"], 22, BG)
+        text(s, 0.75, 2.5, 7.2, 2.6, ["Felt temperature (UTCI): Ladybug, Infrared City", "Utility plans: which spots are really free"], 22, BG)
         text(s, 0.75, 5.1, 7.2, 0.8, "Thank you.", 22, BG, True)
         text(s, 0.75, 6.2, 11.0, 0.4, "Giovanni Volpe · MaCAD, IAAC · Thesis defence", 16, "#CFC9BC", name="Mono")
-    old = [(m15_final, t, "Three steps come next: felt temperature, with Ladybug and Infrared City, to check that more shade means "
-            "a cooler street; Florence, the second transfer test, with its own LiDAR; and the utility plans, to see which spots are "
-            "really free. Thank you.") if t == "OLD M15" else (f, t, n) for f, t, n in old]
+    old = [(m15_final, t, "Two steps come next: felt temperature, with Ladybug and Infrared City, to check that more shade means "
+            "a cooler street; and the utility plans, to see which spots are really free. Thank you.") if t == "OLD M15" else (f, t, n) for f, t, n in old]
     pool = {f"NEW N{k + 1}": (f, n) for k, (f, n) in enumerate(SLIDES)}
     pool.update({t: (f, n) for f, t, n in old})
     seq = []
