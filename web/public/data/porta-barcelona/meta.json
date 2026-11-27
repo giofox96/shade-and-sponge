@@ -3800,148 +3800,148 @@
     "summer": 100.0
    },
    "S1_random_0": {
-    "eff_species": 28.5,
-    "pollen_lo": 10.6,
-    "pollen_hi": 41.9,
-    "pollen_cov": 61.1,
-    "carbon": 41.5,
-    "summer": 91.6
+    "eff_species": 28.3,
+    "pollen_lo": 11.3,
+    "pollen_hi": 38.5,
+    "pollen_cov": 64.8,
+    "carbon": 39.7,
+    "summer": 91.8
    },
    "S1a_city_0": {
-    "eff_species": 9.2,
-    "pollen_lo": 6.6,
-    "pollen_hi": 62.2,
-    "pollen_cov": 52.0,
-    "carbon": 52.3,
-    "summer": 100.1
+    "eff_species": 7.7,
+    "pollen_lo": 5.8,
+    "pollen_hi": 56.4,
+    "pollen_cov": 52.4,
+    "carbon": 45.1,
+    "summer": 98.4
    },
    "S1b_obs_0": {
-    "eff_species": 15.6,
-    "pollen_lo": 8.5,
-    "pollen_hi": 45.2,
-    "pollen_cov": 63.2,
-    "carbon": 52.1,
-    "summer": 99.4
+    "eff_species": 15.7,
+    "pollen_lo": 7.9,
+    "pollen_hi": 43.4,
+    "pollen_cov": 62.0,
+    "carbon": 45.2,
+    "summer": 97.9
    },
    "S4_s0.00_w0.00_r1.00": {
-    "eff_species": 6.9,
-    "pollen_lo": 5.5,
-    "pollen_hi": 108.3,
-    "pollen_cov": 34.9,
-    "carbon": 69.8,
-    "summer": 106.5
+    "eff_species": 7.6,
+    "pollen_lo": 11.5,
+    "pollen_hi": 28.5,
+    "pollen_cov": 87.0,
+    "carbon": 54.7,
+    "summer": 103.0
    },
    "S4_s0.00_w0.25_r0.75": {
-    "eff_species": 8.5,
-    "pollen_lo": 4.9,
-    "pollen_hi": 39.6,
-    "pollen_cov": 55.8,
-    "carbon": 28.1,
-    "summer": 83.4
+    "eff_species": 7.8,
+    "pollen_lo": 7.8,
+    "pollen_hi": 15.4,
+    "pollen_cov": 88.3,
+    "carbon": 24.9,
+    "summer": 82.6
    },
    "S4_s0.00_w0.50_r0.50": {
-    "eff_species": 8.4,
-    "pollen_lo": 7.2,
-    "pollen_hi": 23.5,
-    "pollen_cov": 78.0,
-    "carbon": 25.6,
-    "summer": 82.9
+    "eff_species": 7.6,
+    "pollen_lo": 7.7,
+    "pollen_hi": 14.9,
+    "pollen_cov": 88.7,
+    "carbon": 24.4,
+    "summer": 82.3
    },
    "S4_s0.00_w0.75_r0.25": {
-    "eff_species": 8.7,
-    "pollen_lo": 6.8,
-    "pollen_hi": 19.5,
-    "pollen_cov": 81.8,
-    "carbon": 22.8,
-    "summer": 81.9
+    "eff_species": 7.8,
+    "pollen_lo": 7.4,
+    "pollen_hi": 14.7,
+    "pollen_cov": 88.6,
+    "carbon": 23.2,
+    "summer": 81.6
    },
    "S4_s0.00_w1.00_r0.00": {
-    "eff_species": 5.7,
-    "pollen_lo": 4.5,
-    "pollen_hi": 13.3,
-    "pollen_cov": 82.2,
-    "carbon": 12.5,
-    "summer": 74.9
+    "eff_species": 5.4,
+    "pollen_lo": 6.1,
+    "pollen_hi": 11.2,
+    "pollen_cov": 89.3,
+    "carbon": 15.2,
+    "summer": 75.3
    },
    "S4_s0.25_w0.00_r0.75": {
-    "eff_species": 6.3,
-    "pollen_lo": 3.9,
-    "pollen_hi": 129.2,
-    "pollen_cov": 20.5,
-    "carbon": 71.4,
-    "summer": 106.7
+    "eff_species": 7.5,
+    "pollen_lo": 7.5,
+    "pollen_hi": 74.7,
+    "pollen_cov": 49.5,
+    "carbon": 63.9,
+    "summer": 103.8
    },
    "S4_s0.25_w0.25_r0.50": {
-    "eff_species": 5.9,
-    "pollen_lo": 6.1,
-    "pollen_hi": 102.3,
-    "pollen_cov": 38.3,
-    "carbon": 68.9,
-    "summer": 106.6
+    "eff_species": 7.0,
+    "pollen_lo": 11.3,
+    "pollen_hi": 24.9,
+    "pollen_cov": 89.1,
+    "carbon": 54.3,
+    "summer": 103.1
    },
    "S4_s0.25_w0.50_r0.25": {
-    "eff_species": 7.1,
-    "pollen_lo": 8.4,
-    "pollen_hi": 88.3,
-    "pollen_cov": 47.3,
-    "carbon": 65.6,
-    "summer": 106.2
+    "eff_species": 7.9,
+    "pollen_lo": 11.4,
+    "pollen_hi": 18.8,
+    "pollen_cov": 93.6,
+    "carbon": 51.0,
+    "summer": 102.6
    },
    "S4_s0.25_w0.75_r0.00": {
-    "eff_species": 7.2,
-    "pollen_lo": 14.3,
-    "pollen_hi": 46.6,
-    "pollen_cov": 76.6,
-    "carbon": 50.2,
-    "summer": 102.5
+    "eff_species": 8.6,
+    "pollen_lo": 13.9,
+    "pollen_hi": 21.9,
+    "pollen_cov": 92.9,
+    "carbon": 41.3,
+    "summer": 100.4
    },
    "S4_s0.50_w0.00_r0.50": {
-    "eff_species": 6.1,
-    "pollen_lo": 3.6,
-    "pollen_hi": 131.5,
-    "pollen_cov": 18.9,
-    "carbon": 71.7,
-    "summer": 106.7
+    "eff_species": 6.9,
+    "pollen_lo": 7.4,
+    "pollen_hi": 75.3,
+    "pollen_cov": 48.9,
+    "carbon": 64.5,
+    "summer": 103.9
    },
    "S4_s0.50_w0.25_r0.25": {
-    "eff_species": 5.7,
-    "pollen_lo": 5.4,
-    "pollen_hi": 106.5,
-    "pollen_cov": 35.4,
-    "carbon": 69.4,
-    "summer": 106.7
+    "eff_species": 7.1,
+    "pollen_lo": 11.0,
+    "pollen_hi": 31.9,
+    "pollen_cov": 84.1,
+    "carbon": 56.0,
+    "summer": 103.2
    },
    "S4_s0.50_w0.50_r0.00": {
-    "eff_species": 5.3,
-    "pollen_lo": 5.9,
-    "pollen_hi": 98.8,
-    "pollen_cov": 40.7,
-    "carbon": 68.8,
-    "summer": 106.7
+    "eff_species": 6.9,
+    "pollen_lo": 11.2,
+    "pollen_hi": 25.6,
+    "pollen_cov": 88.7,
+    "carbon": 54.5,
+    "summer": 103.2
    },
    "S4_s0.75_w0.00_r0.25": {
-    "eff_species": 6.2,
-    "pollen_lo": 3.7,
-    "pollen_hi": 130.9,
-    "pollen_cov": 19.3,
-    "carbon": 71.7,
-    "summer": 106.8
+    "eff_species": 6.4,
+    "pollen_lo": 7.5,
+    "pollen_hi": 74.8,
+    "pollen_cov": 49.6,
+    "carbon": 64.9,
+    "summer": 103.8
    },
    "S4_s0.75_w0.25_r0.00": {
-    "eff_species": 5.5,
-    "pollen_lo": 5.5,
-    "pollen_hi": 104.7,
-    "pollen_cov": 36.7,
-    "carbon": 69.6,
-    "summer": 106.7
+    "eff_species": 7.0,
+    "pollen_lo": 10.8,
+    "pollen_hi": 35.3,
+    "pollen_cov": 81.4,
+    "carbon": 56.9,
+    "summer": 103.2
    },
    "S4_s1.00_w0.00_r0.00": {
-    "eff_species": 5.8,
-    "pollen_lo": 3.7,
-    "pollen_hi": 128.6,
-    "pollen_cov": 20.2,
-    "carbon": 71.2,
-    "summer": 106.9
+    "eff_species": 6.3,
+    "pollen_lo": 7.3,
+    "pollen_hi": 74.8,
+    "pollen_cov": 49.6,
+    "carbon": 65.1,
+    "summer": 103.8
    }
   },
   "floors": {
@@ -3955,148 +3955,148 @@
      "summer": 100.0
     },
     "S1_random_0": {
-     "eff_species": 28.5,
-     "pollen_lo": 10.6,
-     "pollen_hi": 41.9,
-     "pollen_cov": 61.1,
-     "carbon": 41.5,
-     "summer": 91.6
+     "eff_species": 28.3,
+     "pollen_lo": 11.3,
+     "pollen_hi": 38.5,
+     "pollen_cov": 64.8,
+     "carbon": 39.7,
+     "summer": 91.8
     },
     "S1a_city_0": {
-     "eff_species": 9.2,
-     "pollen_lo": 6.6,
-     "pollen_hi": 62.2,
-     "pollen_cov": 52.0,
-     "carbon": 52.3,
-     "summer": 100.1
+     "eff_species": 7.7,
+     "pollen_lo": 5.8,
+     "pollen_hi": 56.4,
+     "pollen_cov": 52.4,
+     "carbon": 45.1,
+     "summer": 98.4
     },
     "S1b_obs_0": {
-     "eff_species": 15.6,
-     "pollen_lo": 8.5,
-     "pollen_hi": 45.2,
-     "pollen_cov": 63.2,
-     "carbon": 52.1,
-     "summer": 99.4
+     "eff_species": 15.7,
+     "pollen_lo": 7.9,
+     "pollen_hi": 43.4,
+     "pollen_cov": 62.0,
+     "carbon": 45.2,
+     "summer": 97.9
     },
     "S4_s0.00_w0.00_r1.00": {
      "eff_species": 7.6,
-     "pollen_lo": 5.8,
-     "pollen_hi": 106.3,
-     "pollen_cov": 35.9,
-     "carbon": 69.4,
-     "summer": 106.5
+     "pollen_lo": 11.5,
+     "pollen_hi": 28.5,
+     "pollen_cov": 87.0,
+     "carbon": 54.7,
+     "summer": 103.0
     },
     "S4_s0.00_w0.25_r0.75": {
-     "eff_species": 8.5,
-     "pollen_lo": 4.9,
-     "pollen_hi": 39.6,
-     "pollen_cov": 55.8,
-     "carbon": 28.1,
-     "summer": 83.4
+     "eff_species": 7.8,
+     "pollen_lo": 7.8,
+     "pollen_hi": 15.4,
+     "pollen_cov": 88.3,
+     "carbon": 24.9,
+     "summer": 82.6
     },
     "S4_s0.00_w0.50_r0.50": {
-     "eff_species": 8.4,
-     "pollen_lo": 7.2,
-     "pollen_hi": 23.5,
-     "pollen_cov": 78.0,
-     "carbon": 25.6,
-     "summer": 82.9
+     "eff_species": 7.6,
+     "pollen_lo": 7.7,
+     "pollen_hi": 14.9,
+     "pollen_cov": 88.7,
+     "carbon": 24.4,
+     "summer": 82.3
     },
     "S4_s0.00_w0.75_r0.25": {
-     "eff_species": 8.7,
-     "pollen_lo": 6.8,
-     "pollen_hi": 19.5,
-     "pollen_cov": 81.8,
-     "carbon": 22.8,
-     "summer": 81.9
+     "eff_species": 7.8,
+     "pollen_lo": 7.4,
+     "pollen_hi": 14.7,
+     "pollen_cov": 88.6,
+     "carbon": 23.2,
+     "summer": 81.6
     },
     "S4_s0.00_w1.00_r0.00": {
      "eff_species": 7.5,
-     "pollen_lo": 5.2,
-     "pollen_hi": 11.4,
-     "pollen_cov": 85.4,
-     "carbon": 12.4,
-     "summer": 74.7
+     "pollen_lo": 5.6,
+     "pollen_hi": 13.0,
+     "pollen_cov": 82.8,
+     "carbon": 14.9,
+     "summer": 75.2
     },
     "S4_s0.25_w0.00_r0.75": {
      "eff_species": 7.5,
-     "pollen_lo": 4.6,
-     "pollen_hi": 118.3,
-     "pollen_cov": 27.8,
-     "carbon": 70.8,
-     "summer": 106.6
+     "pollen_lo": 7.6,
+     "pollen_hi": 74.2,
+     "pollen_cov": 50.0,
+     "carbon": 63.7,
+     "summer": 103.8
     },
     "S4_s0.25_w0.25_r0.50": {
      "eff_species": 7.5,
-     "pollen_lo": 6.5,
-     "pollen_hi": 98.4,
-     "pollen_cov": 40.6,
-     "carbon": 68.5,
-     "summer": 106.5
+     "pollen_lo": 11.5,
+     "pollen_hi": 26.7,
+     "pollen_cov": 88.0,
+     "carbon": 54.3,
+     "summer": 103.1
     },
     "S4_s0.25_w0.50_r0.25": {
-     "eff_species": 7.5,
-     "pollen_lo": 8.4,
-     "pollen_hi": 88.1,
-     "pollen_cov": 47.3,
-     "carbon": 65.4,
-     "summer": 106.1
+     "eff_species": 7.9,
+     "pollen_lo": 11.4,
+     "pollen_hi": 18.8,
+     "pollen_cov": 93.6,
+     "carbon": 51.0,
+     "summer": 102.6
     },
     "S4_s0.25_w0.75_r0.00": {
-     "eff_species": 7.5,
-     "pollen_lo": 14.2,
-     "pollen_hi": 46.9,
-     "pollen_cov": 76.3,
-     "carbon": 50.2,
-     "summer": 102.5
+     "eff_species": 8.6,
+     "pollen_lo": 13.9,
+     "pollen_hi": 21.9,
+     "pollen_cov": 92.9,
+     "carbon": 41.3,
+     "summer": 100.4
     },
     "S4_s0.50_w0.00_r0.50": {
      "eff_species": 7.5,
-     "pollen_lo": 4.6,
-     "pollen_hi": 119.0,
-     "pollen_cov": 27.2,
-     "carbon": 70.8,
-     "summer": 106.6
+     "pollen_lo": 7.8,
+     "pollen_hi": 72.0,
+     "pollen_cov": 51.7,
+     "carbon": 63.6,
+     "summer": 103.8
     },
     "S4_s0.50_w0.25_r0.25": {
      "eff_species": 7.5,
-     "pollen_lo": 6.1,
-     "pollen_hi": 100.1,
-     "pollen_cov": 39.5,
-     "carbon": 69.0,
-     "summer": 106.6
+     "pollen_lo": 11.2,
+     "pollen_hi": 32.1,
+     "pollen_cov": 84.1,
+     "carbon": 55.6,
+     "summer": 103.2
     },
     "S4_s0.50_w0.50_r0.00": {
      "eff_species": 7.5,
-     "pollen_lo": 6.4,
-     "pollen_hi": 96.6,
-     "pollen_cov": 41.6,
-     "carbon": 68.2,
-     "summer": 106.5
+     "pollen_lo": 11.4,
+     "pollen_hi": 27.6,
+     "pollen_cov": 87.4,
+     "carbon": 54.5,
+     "summer": 103.2
     },
     "S4_s0.75_w0.00_r0.25": {
      "eff_species": 7.5,
-     "pollen_lo": 4.6,
-     "pollen_hi": 118.2,
-     "pollen_cov": 27.8,
-     "carbon": 70.8,
-     "summer": 106.6
+     "pollen_lo": 8.3,
+     "pollen_hi": 67.0,
+     "pollen_cov": 56.3,
+     "carbon": 63.0,
+     "summer": 103.7
     },
     "S4_s0.75_w0.25_r0.00": {
      "eff_species": 7.5,
-     "pollen_lo": 5.8,
-     "pollen_hi": 101.1,
-     "pollen_cov": 38.8,
-     "carbon": 69.1,
-     "summer": 106.6
+     "pollen_lo": 11.1,
+     "pollen_hi": 34.9,
+     "pollen_cov": 82.0,
+     "carbon": 56.5,
+     "summer": 103.2
     },
     "S4_s1.00_w0.00_r0.00": {
      "eff_species": 7.5,
-     "pollen_lo": 4.5,
-     "pollen_hi": 118.4,
-     "pollen_cov": 27.6,
-     "carbon": 70.8,
-     "summer": 106.7
+     "pollen_lo": 8.1,
+     "pollen_hi": 68.5,
+     "pollen_cov": 55.2,
+     "carbon": 63.3,
+     "summer": 103.7
     }
    },
    "9.4": {
@@ -4109,148 +4109,148 @@
      "summer": 100.0
     },
     "S1_random_0": {
-     "eff_species": 28.5,
-     "pollen_lo": 10.6,
-     "pollen_hi": 41.9,
-     "pollen_cov": 61.1,
-     "carbon": 41.5,
-     "summer": 91.6
+     "eff_species": 28.3,
+     "pollen_lo": 11.3,
+     "pollen_hi": 38.5,
+     "pollen_cov": 64.8,
+     "carbon": 39.7,
+     "summer": 91.8
     },
     "S1a_city_0": {
-     "eff_species": 9.2,
-     "pollen_lo": 6.6,
-     "pollen_hi": 62.2,
-     "pollen_cov": 52.0,
-     "carbon": 52.3,
-     "summer": 100.1
+     "eff_species": 7.7,
+     "pollen_lo": 5.8,
+     "pollen_hi": 56.4,
+     "pollen_cov": 52.4,
+     "carbon": 45.1,
+     "summer": 98.4
     },
     "S1b_obs_0": {
-     "eff_species": 15.6,
-     "pollen_lo": 8.5,
-     "pollen_hi": 45.2,
-     "pollen_cov": 63.2,
-     "carbon": 52.1,
-     "summer": 99.4
+     "eff_species": 15.7,
+     "pollen_lo": 7.9,
+     "pollen_hi": 43.4,
+     "pollen_cov": 62.0,
+     "carbon": 45.2,
+     "summer": 97.9
     },
     "S4_s0.00_w0.00_r1.00": {
      "eff_species": 9.4,
-     "pollen_lo": 6.2,
-     "pollen_hi": 100.7,
-     "pollen_cov": 38.7,
-     "carbon": 68.6,
-     "summer": 106.3
+     "pollen_lo": 11.3,
+     "pollen_hi": 32.4,
+     "pollen_cov": 83.6,
+     "carbon": 53.9,
+     "summer": 102.8
     },
     "S4_s0.00_w0.25_r0.75": {
      "eff_species": 9.4,
-     "pollen_lo": 5.1,
-     "pollen_hi": 38.4,
-     "pollen_cov": 57.2,
-     "carbon": 28.2,
-     "summer": 83.5
+     "pollen_lo": 8.0,
+     "pollen_hi": 17.5,
+     "pollen_cov": 84.6,
+     "carbon": 24.7,
+     "summer": 82.4
     },
     "S4_s0.00_w0.50_r0.50": {
      "eff_species": 9.4,
-     "pollen_lo": 7.4,
-     "pollen_hi": 21.8,
-     "pollen_cov": 80.0,
-     "carbon": 25.8,
-     "summer": 82.8
+     "pollen_lo": 8.0,
+     "pollen_hi": 16.3,
+     "pollen_cov": 86.1,
+     "carbon": 24.1,
+     "summer": 82.1
     },
     "S4_s0.00_w0.75_r0.25": {
      "eff_species": 9.4,
-     "pollen_lo": 6.8,
-     "pollen_hi": 19.6,
-     "pollen_cov": 81.2,
-     "carbon": 23.2,
-     "summer": 81.8
+     "pollen_lo": 7.9,
+     "pollen_hi": 16.3,
+     "pollen_cov": 85.7,
+     "carbon": 23.1,
+     "summer": 81.4
     },
     "S4_s0.00_w1.00_r0.00": {
      "eff_species": 9.4,
-     "pollen_lo": 5.7,
-     "pollen_hi": 12.6,
-     "pollen_cov": 83.5,
-     "carbon": 13.6,
-     "summer": 75.2
+     "pollen_lo": 5.6,
+     "pollen_hi": 14.3,
+     "pollen_cov": 79.8,
+     "carbon": 15.2,
+     "summer": 76.1
     },
     "S4_s0.25_w0.00_r0.75": {
      "eff_species": 9.4,
-     "pollen_lo": 5.6,
-     "pollen_hi": 105.8,
-     "pollen_cov": 35.3,
-     "carbon": 70.0,
-     "summer": 106.4
+     "pollen_lo": 8.8,
+     "pollen_hi": 63.1,
+     "pollen_cov": 59.4,
+     "carbon": 60.6,
+     "summer": 103.6
     },
     "S4_s0.25_w0.25_r0.50": {
      "eff_species": 9.4,
-     "pollen_lo": 7.1,
-     "pollen_hi": 90.8,
-     "pollen_cov": 44.7,
-     "carbon": 67.3,
-     "summer": 106.3
+     "pollen_lo": 11.3,
+     "pollen_hi": 30.6,
+     "pollen_cov": 84.7,
+     "carbon": 53.6,
+     "summer": 102.9
     },
     "S4_s0.25_w0.50_r0.25": {
      "eff_species": 9.4,
-     "pollen_lo": 8.6,
-     "pollen_hi": 82.9,
-     "pollen_cov": 49.8,
-     "carbon": 64.2,
-     "summer": 105.8
+     "pollen_lo": 11.2,
+     "pollen_hi": 22.0,
+     "pollen_cov": 91.0,
+     "carbon": 50.0,
+     "summer": 102.3
     },
     "S4_s0.25_w0.75_r0.00": {
      "eff_species": 9.4,
-     "pollen_lo": 13.3,
-     "pollen_hi": 48.2,
-     "pollen_cov": 73.8,
-     "carbon": 50.4,
-     "summer": 102.4
+     "pollen_lo": 13.4,
+     "pollen_hi": 22.9,
+     "pollen_cov": 91.4,
+     "carbon": 41.3,
+     "summer": 100.4
     },
     "S4_s0.50_w0.00_r0.50": {
      "eff_species": 9.4,
-     "pollen_lo": 5.5,
-     "pollen_hi": 106.2,
-     "pollen_cov": 34.9,
-     "carbon": 69.9,
-     "summer": 106.4
+     "pollen_lo": 8.9,
+     "pollen_hi": 63.3,
+     "pollen_cov": 59.3,
+     "carbon": 60.8,
+     "summer": 103.6
     },
     "S4_s0.50_w0.25_r0.25": {
      "eff_species": 9.4,
-     "pollen_lo": 6.7,
-     "pollen_hi": 93.0,
-     "pollen_cov": 43.5,
-     "carbon": 68.2,
-     "summer": 106.3
+     "pollen_lo": 11.3,
+     "pollen_hi": 35.9,
+     "pollen_cov": 81.1,
+     "carbon": 55.1,
+     "summer": 103.0
     },
     "S4_s0.50_w0.50_r0.00": {
      "eff_species": 9.4,
-     "pollen_lo": 7.2,
-     "pollen_hi": 88.0,
-     "pollen_cov": 46.5,
-     "carbon": 66.9,
-     "summer": 106.2
+     "pollen_lo": 11.2,
+     "pollen_hi": 31.1,
+     "pollen_cov": 84.4,
+     "carbon": 53.8,
+     "summer": 103.0
     },
     "S4_s0.75_w0.00_r0.25": {
      "eff_species": 9.4,
-     "pollen_lo": 5.5,
-     "pollen_hi": 106.6,
-     "pollen_cov": 34.7,
-     "carbon": 70.0,
-     "summer": 106.4
+     "pollen_lo": 8.7,
+     "pollen_hi": 64.3,
+     "pollen_cov": 58.5,
+     "carbon": 60.9,
+     "summer": 103.6
     },
     "S4_s0.75_w0.25_r0.00": {
      "eff_species": 9.4,
-     "pollen_lo": 6.4,
-     "pollen_hi": 94.6,
-     "pollen_cov": 42.3,
-     "carbon": 68.3,
-     "summer": 106.4
+     "pollen_lo": 11.2,
+     "pollen_hi": 37.3,
+     "pollen_cov": 80.1,
+     "carbon": 55.5,
+     "summer": 103.1
     },
     "S4_s1.00_w0.00_r0.00": {
      "eff_species": 9.4,
-     "pollen_lo": 5.4,
-     "pollen_hi": 106.9,
-     "pollen_cov": 34.4,
-     "carbon": 70.0,
-     "summer": 106.5
+     "pollen_lo": 8.6,
+     "pollen_hi": 65.8,
+     "pollen_cov": 57.3,
+     "carbon": 61.4,
+     "summer": 103.5
     }
    },
    "10": {
@@ -4263,148 +4263,148 @@
      "summer": 100.0
     },
     "S1_random_0": {
-     "eff_species": 28.5,
-     "pollen_lo": 10.6,
-     "pollen_hi": 41.9,
-     "pollen_cov": 61.1,
-     "carbon": 41.5,
-     "summer": 91.6
+     "eff_species": 28.3,
+     "pollen_lo": 11.3,
+     "pollen_hi": 38.5,
+     "pollen_cov": 64.8,
+     "carbon": 39.7,
+     "summer": 91.8
     },
     "S1a_city_0": {
-     "eff_species": 9.2,
-     "pollen_lo": 6.6,
-     "pollen_hi": 62.2,
-     "pollen_cov": 52.0,
-     "carbon": 52.3,
-     "summer": 100.1
+     "eff_species": 7.7,
+     "pollen_lo": 5.8,
+     "pollen_hi": 56.4,
+     "pollen_cov": 52.4,
+     "carbon": 45.1,
+     "summer": 98.4
     },
     "S1b_obs_0": {
-     "eff_species": 15.6,
-     "pollen_lo": 8.5,
-     "pollen_hi": 45.2,
-     "pollen_cov": 63.2,
-     "carbon": 52.1,
-     "summer": 99.4
+     "eff_species": 15.7,
+     "pollen_lo": 7.9,
+     "pollen_hi": 43.4,
+     "pollen_cov": 62.0,
+     "carbon": 45.2,
+     "summer": 97.9
     },
     "S4_s0.00_w0.00_r1.00": {
      "eff_species": 10.0,
-     "pollen_lo": 6.3,
-     "pollen_hi": 98.2,
-     "pollen_cov": 40.0,
-     "carbon": 68.3,
-     "summer": 106.2
+     "pollen_lo": 11.1,
+     "pollen_hi": 32.9,
+     "pollen_cov": 82.9,
+     "carbon": 53.6,
+     "summer": 102.8
     },
     "S4_s0.00_w0.25_r0.75": {
      "eff_species": 10.0,
-     "pollen_lo": 5.2,
-     "pollen_hi": 38.2,
-     "pollen_cov": 57.0,
-     "carbon": 28.2,
-     "summer": 83.5
+     "pollen_lo": 8.2,
+     "pollen_hi": 17.5,
+     "pollen_cov": 85.1,
+     "carbon": 24.8,
+     "summer": 82.6
     },
     "S4_s0.00_w0.50_r0.50": {
      "eff_species": 10.0,
-     "pollen_lo": 7.7,
-     "pollen_hi": 22.0,
-     "pollen_cov": 79.4,
-     "carbon": 25.9,
-     "summer": 82.8
+     "pollen_lo": 8.2,
+     "pollen_hi": 16.5,
+     "pollen_cov": 86.0,
+     "carbon": 24.2,
+     "summer": 82.2
     },
     "S4_s0.00_w0.75_r0.25": {
      "eff_species": 10.0,
-     "pollen_lo": 6.9,
-     "pollen_hi": 18.7,
-     "pollen_cov": 82.0,
-     "carbon": 23.4,
-     "summer": 81.7
+     "pollen_lo": 8.0,
+     "pollen_hi": 16.6,
+     "pollen_cov": 85.4,
+     "carbon": 23.2,
+     "summer": 81.6
     },
     "S4_s0.00_w1.00_r0.00": {
      "eff_species": 10.0,
-     "pollen_lo": 5.8,
-     "pollen_hi": 13.0,
-     "pollen_cov": 82.8,
-     "carbon": 13.8,
-     "summer": 75.3
+     "pollen_lo": 5.7,
+     "pollen_hi": 14.8,
+     "pollen_cov": 79.2,
+     "carbon": 15.5,
+     "summer": 76.4
     },
     "S4_s0.25_w0.00_r0.75": {
      "eff_species": 10.0,
-     "pollen_lo": 5.8,
-     "pollen_hi": 103.2,
-     "pollen_cov": 36.8,
-     "carbon": 69.7,
-     "summer": 106.3
+     "pollen_lo": 9.0,
+     "pollen_hi": 61.8,
+     "pollen_cov": 60.3,
+     "carbon": 60.0,
+     "summer": 103.5
     },
     "S4_s0.25_w0.25_r0.50": {
      "eff_species": 10.0,
-     "pollen_lo": 7.2,
-     "pollen_hi": 88.9,
-     "pollen_cov": 45.6,
-     "carbon": 67.0,
-     "summer": 106.2
+     "pollen_lo": 11.1,
+     "pollen_hi": 31.5,
+     "pollen_cov": 83.8,
+     "carbon": 53.2,
+     "summer": 102.8
     },
     "S4_s0.25_w0.50_r0.25": {
      "eff_species": 10.0,
-     "pollen_lo": 8.6,
-     "pollen_hi": 81.9,
-     "pollen_cov": 50.1,
-     "carbon": 63.8,
-     "summer": 105.7
+     "pollen_lo": 11.1,
+     "pollen_hi": 23.4,
+     "pollen_cov": 89.7,
+     "carbon": 49.6,
+     "summer": 102.2
     },
     "S4_s0.25_w0.75_r0.00": {
      "eff_species": 10.0,
      "pollen_lo": 13.1,
-     "pollen_hi": 48.5,
-     "pollen_cov": 73.2,
-     "carbon": 50.4,
-     "summer": 102.3
+     "pollen_hi": 23.7,
+     "pollen_cov": 90.6,
+     "carbon": 41.7,
+     "summer": 100.5
     },
     "S4_s0.50_w0.00_r0.50": {
      "eff_species": 10.0,
-     "pollen_lo": 5.7,
-     "pollen_hi": 103.3,
-     "pollen_cov": 36.6,
-     "carbon": 69.6,
-     "summer": 106.3
+     "pollen_lo": 9.0,
+     "pollen_hi": 61.9,
+     "pollen_cov": 60.3,
+     "carbon": 60.1,
+     "summer": 103.5
     },
     "S4_s0.50_w0.25_r0.25": {
      "eff_species": 10.0,
-     "pollen_lo": 6.8,
-     "pollen_hi": 91.2,
-     "pollen_cov": 44.3,
-     "carbon": 67.7,
-     "summer": 106.2
+     "pollen_lo": 11.1,
+     "pollen_hi": 37.1,
+     "pollen_cov": 79.9,
+     "carbon": 54.9,
+     "summer": 103.0
     },
     "S4_s0.50_w0.50_r0.00": {
      "eff_species": 10.0,
-     "pollen_lo": 7.0,
-     "pollen_hi": 89.1,
-     "pollen_cov": 45.1,
-     "carbon": 66.6,
-     "summer": 106.2
+     "pollen_lo": 11.0,
+     "pollen_hi": 32.6,
+     "pollen_cov": 83.0,
+     "carbon": 53.6,
+     "summer": 102.9
     },
     "S4_s0.75_w0.00_r0.25": {
      "eff_species": 10.0,
-     "pollen_lo": 5.7,
-     "pollen_hi": 103.8,
-     "pollen_cov": 36.3,
-     "carbon": 69.7,
-     "summer": 106.3
+     "pollen_lo": 9.0,
+     "pollen_hi": 62.8,
+     "pollen_cov": 59.6,
+     "carbon": 60.2,
+     "summer": 103.5
     },
     "S4_s0.75_w0.25_r0.00": {
      "eff_species": 10.0,
-     "pollen_lo": 6.5,
-     "pollen_hi": 92.3,
-     "pollen_cov": 43.6,
-     "carbon": 68.1,
-     "summer": 106.3
+     "pollen_lo": 11.1,
+     "pollen_hi": 38.4,
+     "pollen_cov": 79.0,
+     "carbon": 55.4,
+     "summer": 103.1
     },
     "S4_s1.00_w0.00_r0.00": {
      "eff_species": 10.0,
-     "pollen_lo": 5.6,
-     "pollen_hi": 104.0,
-     "pollen_cov": 36.0,
-     "carbon": 69.6,
-     "summer": 106.4
+     "pollen_lo": 8.9,
+     "pollen_hi": 63.9,
+     "pollen_cov": 58.8,
+     "carbon": 60.6,
+     "summer": 103.4
     }
    },
    "15.6": {
@@ -4417,148 +4417,148 @@
      "summer": 100.0
     },
     "S1_random_0": {
-     "eff_species": 28.5,
-     "pollen_lo": 10.6,
-     "pollen_hi": 41.9,
-     "pollen_cov": 61.1,
-     "carbon": 41.5,
-     "summer": 91.6
+     "eff_species": 28.3,
+     "pollen_lo": 11.3,
+     "pollen_hi": 38.5,
+     "pollen_cov": 64.8,
+     "carbon": 39.7,
+     "summer": 91.8
     },
     "S1a_city_0": {
-     "eff_species": 9.2,
-     "pollen_lo": 6.6,
-     "pollen_hi": 62.2,
-     "pollen_cov": 52.0,
-     "carbon": 52.3,
-     "summer": 100.1
+     "eff_species": 7.7,
+     "pollen_lo": 5.8,
+     "pollen_hi": 56.4,
+     "pollen_cov": 52.4,
+     "carbon": 45.1,
+     "summer": 98.4
     },
     "S1b_obs_0": {
-     "eff_species": 15.6,
-     "pollen_lo": 8.5,
-     "pollen_hi": 45.2,
-     "pollen_cov": 63.2,
-     "carbon": 52.1,
-     "summer": 99.4
+     "eff_species": 15.7,
+     "pollen_lo": 7.9,
+     "pollen_hi": 43.4,
+     "pollen_cov": 62.0,
+     "carbon": 45.2,
+     "summer": 97.9
     },
     "S4_s0.00_w0.00_r1.00": {
      "eff_species": 15.6,
-     "pollen_lo": 7.1,
-     "pollen_hi": 84.2,
-     "pollen_cov": 44.9,
-     "carbon": 64.4,
-     "summer": 104.9
+     "pollen_lo": 10.2,
+     "pollen_hi": 41.9,
+     "pollen_cov": 73.3,
+     "carbon": 51.3,
+     "summer": 101.9
     },
     "S4_s0.00_w0.25_r0.75": {
      "eff_species": 15.6,
-     "pollen_lo": 6.3,
-     "pollen_hi": 40.8,
-     "pollen_cov": 53.0,
-     "carbon": 29.5,
-     "summer": 84.0
+     "pollen_lo": 9.0,
+     "pollen_hi": 21.1,
+     "pollen_cov": 80.6,
+     "carbon": 26.5,
+     "summer": 84.7
     },
     "S4_s0.00_w0.50_r0.50": {
      "eff_species": 15.6,
-     "pollen_lo": 8.3,
-     "pollen_hi": 26.6,
-     "pollen_cov": 72.8,
-     "carbon": 27.4,
-     "summer": 83.4
+     "pollen_lo": 9.0,
+     "pollen_hi": 21.1,
+     "pollen_cov": 80.3,
+     "carbon": 26.2,
+     "summer": 84.5
     },
     "S4_s0.00_w0.75_r0.25": {
      "eff_species": 15.6,
-     "pollen_lo": 7.8,
-     "pollen_hi": 21.0,
-     "pollen_cov": 78.5,
-     "carbon": 24.2,
-     "summer": 82.2
+     "pollen_lo": 8.5,
+     "pollen_hi": 19.9,
+     "pollen_cov": 80.6,
+     "carbon": 24.4,
+     "summer": 83.4
     },
     "S4_s0.00_w1.00_r0.00": {
      "eff_species": 15.6,
-     "pollen_lo": 6.6,
-     "pollen_hi": 17.9,
-     "pollen_cov": 75.3,
-     "carbon": 17.9,
-     "summer": 78.1
+     "pollen_lo": 6.5,
+     "pollen_hi": 19.5,
+     "pollen_cov": 73.3,
+     "carbon": 18.6,
+     "summer": 79.2
     },
     "S4_s0.25_w0.00_r0.75": {
      "eff_species": 15.6,
-     "pollen_lo": 7.1,
-     "pollen_hi": 84.0,
-     "pollen_cov": 45.7,
-     "carbon": 66.1,
-     "summer": 105.1
+     "pollen_lo": 9.8,
+     "pollen_hi": 58.5,
+     "pollen_cov": 60.8,
+     "carbon": 56.0,
+     "summer": 102.6
     },
     "S4_s0.25_w0.25_r0.50": {
      "eff_species": 15.6,
-     "pollen_lo": 7.9,
-     "pollen_hi": 75.5,
-     "pollen_cov": 50.6,
-     "carbon": 63.1,
-     "summer": 104.9
+     "pollen_lo": 10.2,
+     "pollen_hi": 41.7,
+     "pollen_cov": 73.5,
+     "carbon": 51.2,
+     "summer": 102.0
     },
     "S4_s0.25_w0.50_r0.25": {
      "eff_species": 15.6,
-     "pollen_lo": 9.2,
-     "pollen_hi": 65.6,
-     "pollen_cov": 57.7,
-     "carbon": 58.8,
-     "summer": 104.1
+     "pollen_lo": 10.4,
+     "pollen_hi": 37.5,
+     "pollen_cov": 76.4,
+     "carbon": 47.4,
+     "summer": 101.2
     },
     "S4_s0.25_w0.75_r0.00": {
      "eff_species": 15.6,
-     "pollen_lo": 10.4,
-     "pollen_hi": 51.4,
-     "pollen_cov": 66.0,
-     "carbon": 49.4,
-     "summer": 100.9
+     "pollen_lo": 10.7,
+     "pollen_hi": 33.6,
+     "pollen_cov": 78.6,
+     "carbon": 42.2,
+     "summer": 99.8
     },
     "S4_s0.50_w0.00_r0.50": {
      "eff_species": 15.6,
-     "pollen_lo": 7.3,
-     "pollen_hi": 82.8,
-     "pollen_cov": 46.6,
-     "carbon": 66.1,
-     "summer": 105.2
+     "pollen_lo": 9.8,
+     "pollen_hi": 58.4,
+     "pollen_cov": 60.9,
+     "carbon": 56.1,
+     "summer": 102.6
     },
     "S4_s0.50_w0.25_r0.25": {
      "eff_species": 15.6,
-     "pollen_lo": 8.0,
-     "pollen_hi": 74.5,
-     "pollen_cov": 52.0,
-     "carbon": 64.1,
-     "summer": 105.1
+     "pollen_lo": 10.6,
+     "pollen_hi": 43.9,
+     "pollen_cov": 72.5,
+     "carbon": 52.6,
+     "summer": 102.2
     },
     "S4_s0.50_w0.50_r0.00": {
      "eff_species": 15.6,
-     "pollen_lo": 8.5,
-     "pollen_hi": 69.5,
-     "pollen_cov": 55.1,
-     "carbon": 62.4,
-     "summer": 105.0
+     "pollen_lo": 10.4,
+     "pollen_hi": 40.9,
+     "pollen_cov": 74.3,
+     "carbon": 51.1,
+     "summer": 102.0
     },
     "S4_s0.75_w0.00_r0.25": {
      "eff_species": 15.6,
-     "pollen_lo": 7.4,
-     "pollen_hi": 81.8,
-     "pollen_cov": 47.3,
-     "carbon": 66.0,
-     "summer": 105.2
+     "pollen_lo": 9.8,
+     "pollen_hi": 58.6,
+     "pollen_cov": 60.8,
+     "carbon": 56.1,
+     "summer": 102.7
     },
     "S4_s0.75_w0.25_r0.00": {
      "eff_species": 15.6,
-     "pollen_lo": 7.7,
-     "pollen_hi": 77.1,
-     "pollen_cov": 50.1,
-     "carbon": 64.4,
-     "summer": 105.3
+     "pollen_lo": 10.6,
+     "pollen_hi": 45.9,
+     "pollen_cov": 71.0,
+     "carbon": 53.4,
+     "summer": 102.5
     },
     "S4_s1.00_w0.00_r0.00": {
      "eff_species": 15.6,
-     "pollen_lo": 7.3,
-     "pollen_hi": 82.5,
-     "pollen_cov": 46.8,
-     "carbon": 66.0,
-     "summer": 105.4
+     "pollen_lo": 9.2,
+     "pollen_hi": 61.8,
+     "pollen_cov": 58.0,
+     "carbon": 56.7,
+     "summer": 102.7
     }
    },
    "20": {
@@ -4571,148 +4571,148 @@
      "summer": 100.0
     },
     "S1_random_0": {
-     "eff_species": 28.5,
-     "pollen_lo": 10.6,
-     "pollen_hi": 41.9,
-     "pollen_cov": 61.1,
-     "carbon": 41.5,
-     "summer": 91.6
+     "eff_species": 28.3,
+     "pollen_lo": 11.3,
+     "pollen_hi": 38.5,
+     "pollen_cov": 64.8,
+     "carbon": 39.7,
+     "summer": 91.8
     },
     "S1a_city_0": {
-     "eff_species": 9.2,
-     "pollen_lo": 6.6,
-     "pollen_hi": 62.2,
-     "pollen_cov": 52.0,
-     "carbon": 52.3,
-     "summer": 100.1
+     "eff_species": 7.7,
+     "pollen_lo": 5.8,
+     "pollen_hi": 56.4,
+     "pollen_cov": 52.4,
+     "carbon": 45.1,
+     "summer": 98.4
     },
     "S1b_obs_0": {
-     "eff_species": 15.6,
-     "pollen_lo": 8.5,
-     "pollen_hi": 45.2,
-     "pollen_cov": 63.2,
-     "carbon": 52.1,
-     "summer": 99.4
+     "eff_species": 15.7,
+     "pollen_lo": 7.9,
+     "pollen_hi": 43.4,
+     "pollen_cov": 62.0,
+     "carbon": 45.2,
+     "summer": 97.9
     },
     "S4_s0.00_w0.00_r1.00": {
-     "eff_species": 20.9,
-     "pollen_lo": 7.7,
-     "pollen_hi": 76.4,
-     "pollen_cov": 45.6,
-     "carbon": 59.5,
-     "summer": 102.4
+     "eff_species": 20.0,
+     "pollen_lo": 10.6,
+     "pollen_hi": 45.7,
+     "pollen_cov": 68.1,
+     "carbon": 49.3,
+     "summer": 100.8
     },
     "S4_s0.00_w0.25_r0.75": {
      "eff_species": 20.0,
-     "pollen_lo": 6.7,
-     "pollen_hi": 43.1,
-     "pollen_cov": 52.1,
-     "carbon": 32.0,
-     "summer": 85.8
+     "pollen_lo": 9.6,
+     "pollen_hi": 24.5,
+     "pollen_cov": 76.9,
+     "carbon": 28.7,
+     "summer": 86.6
     },
     "S4_s0.00_w0.50_r0.50": {
      "eff_species": 20.0,
-     "pollen_lo": 8.3,
-     "pollen_hi": 30.3,
-     "pollen_cov": 68.3,
-     "carbon": 29.8,
-     "summer": 85.1
+     "pollen_lo": 9.5,
+     "pollen_hi": 25.2,
+     "pollen_cov": 75.8,
+     "carbon": 28.5,
+     "summer": 86.6
     },
     "S4_s0.00_w0.75_r0.25": {
      "eff_species": 20.0,
-     "pollen_lo": 7.9,
-     "pollen_hi": 24.0,
-     "pollen_cov": 73.7,
-     "carbon": 25.8,
-     "summer": 83.4
+     "pollen_lo": 8.3,
+     "pollen_hi": 23.6,
+     "pollen_cov": 74.8,
+     "carbon": 25.3,
+     "summer": 84.6
     },
     "S4_s0.00_w1.00_r0.00": {
      "eff_species": 20.0,
-     "pollen_lo": 6.8,
-     "pollen_hi": 22.3,
-     "pollen_cov": 69.7,
-     "carbon": 21.7,
-     "summer": 80.3
+     "pollen_lo": 7.2,
+     "pollen_hi": 22.7,
+     "pollen_cov": 70.6,
+     "carbon": 21.4,
+     "summer": 81.5
     },
     "S4_s0.25_w0.00_r0.75": {
      "eff_species": 20.0,
-     "pollen_lo": 8.0,
-     "pollen_hi": 76.5,
-     "pollen_cov": 47.1,
-     "carbon": 62.2,
-     "summer": 103.4
+     "pollen_lo": 10.9,
+     "pollen_hi": 54.0,
+     "pollen_cov": 62.2,
+     "carbon": 52.6,
+     "summer": 101.3
     },
     "S4_s0.25_w0.25_r0.50": {
      "eff_species": 20.0,
-     "pollen_lo": 8.5,
-     "pollen_hi": 67.3,
-     "pollen_cov": 53.5,
-     "carbon": 59.6,
-     "summer": 103.3
+     "pollen_lo": 10.6,
+     "pollen_hi": 45.0,
+     "pollen_cov": 68.7,
+     "carbon": 49.0,
+     "summer": 100.8
     },
     "S4_s0.25_w0.50_r0.25": {
      "eff_species": 20.0,
-     "pollen_lo": 8.6,
-     "pollen_hi": 63.1,
-     "pollen_cov": 55.5,
-     "carbon": 55.8,
-     "summer": 102.3
+     "pollen_lo": 10.3,
+     "pollen_hi": 42.0,
+     "pollen_cov": 70.3,
+     "carbon": 46.3,
+     "summer": 100.0
     },
     "S4_s0.25_w0.75_r0.00": {
      "eff_species": 20.0,
-     "pollen_lo": 9.1,
-     "pollen_hi": 51.4,
-     "pollen_cov": 62.3,
-     "carbon": 48.1,
-     "summer": 99.0
+     "pollen_lo": 10.0,
+     "pollen_hi": 36.7,
+     "pollen_cov": 73.3,
+     "carbon": 41.7,
+     "summer": 98.3
     },
     "S4_s0.50_w0.00_r0.50": {
      "eff_species": 20.0,
-     "pollen_lo": 8.1,
-     "pollen_hi": 74.2,
-     "pollen_cov": 49.0,
-     "carbon": 62.4,
-     "summer": 103.7
+     "pollen_lo": 10.4,
+     "pollen_hi": 55.2,
+     "pollen_cov": 61.1,
+     "carbon": 52.8,
+     "summer": 101.4
     },
     "S4_s0.50_w0.25_r0.25": {
      "eff_species": 20.0,
-     "pollen_lo": 8.4,
-     "pollen_hi": 69.2,
-     "pollen_cov": 52.3,
-     "carbon": 60.8,
-     "summer": 103.5
+     "pollen_lo": 10.6,
+     "pollen_hi": 47.3,
+     "pollen_cov": 67.2,
+     "carbon": 50.7,
+     "summer": 101.1
     },
     "S4_s0.50_w0.50_r0.00": {
      "eff_species": 20.0,
-     "pollen_lo": 8.8,
-     "pollen_hi": 64.8,
-     "pollen_cov": 55.4,
-     "carbon": 59.3,
-     "summer": 103.5
+     "pollen_lo": 10.5,
+     "pollen_hi": 45.7,
+     "pollen_cov": 68.2,
+     "carbon": 49.2,
+     "summer": 101.0
     },
     "S4_s0.75_w0.00_r0.25": {
      "eff_species": 20.0,
-     "pollen_lo": 8.1,
-     "pollen_hi": 73.9,
-     "pollen_cov": 49.2,
-     "carbon": 62.4,
-     "summer": 103.8
+     "pollen_lo": 10.3,
+     "pollen_hi": 54.9,
+     "pollen_cov": 61.4,
+     "carbon": 52.8,
+     "summer": 101.5
     },
     "S4_s0.75_w0.25_r0.00": {
      "eff_species": 20.0,
-     "pollen_lo": 8.5,
-     "pollen_hi": 69.1,
-     "pollen_cov": 52.5,
-     "carbon": 60.9,
-     "summer": 103.8
+     "pollen_lo": 10.5,
+     "pollen_hi": 48.8,
+     "pollen_cov": 66.1,
+     "carbon": 51.4,
+     "summer": 101.4
     },
     "S4_s1.00_w0.00_r0.00": {
      "eff_species": 20.0,
-     "pollen_lo": 8.1,
-     "pollen_hi": 73.8,
-     "pollen_cov": 49.1,
-     "carbon": 62.1,
-     "summer": 103.9
+     "pollen_lo": 9.9,
+     "pollen_hi": 57.7,
+     "pollen_cov": 58.9,
+     "carbon": 53.4,
+     "summer": 101.6
     }
    }
   }
