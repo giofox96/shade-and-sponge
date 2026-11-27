@@ -25,7 +25,10 @@ façade clearance, LP sweep, balanced weights 0.50 / 0.25 / 0.25, five seeds per
   §6), so the runoff objective and check use all open ground, all open ground sealed (interception differences only), design
   storm = Barcelona PDISBA T2-60 (runoff.design_storm), only to rank layouts.
 - ASSUMPTION sizing: no sidewalk widths measured in Florence, so the 2011 guide sizing rule is off (façade clearance only).
-- Cap: 15% of the census trees (the method's rule; Florence has no such rule), the same for every draw.
+- Cap: 15% of the census trees (the method's rule; Florence has no such rule), the same for every draw. Per site it never
+  binds (5-36 planes against a cap of ~200), so each site alone tends to one species. Two pooled layouts treat all sites
+  as one project: method_pool (cap only) and method_div (cap + diversity floor DIV_FLOOR = 9.4 effective species, the
+  S1a level used as default in Barcelona), each sliced back to its sites for scoring.
 - Florence practice (S1f): species mix of the municipal inventory's trees with trunk circumference <= 30 cm (Mataró's
   youngest band), taken as recent plantings (ASSUMPTION), planes out, restricted to palette species like S1b. Source:
   Comune di Firenze "Alberi" (CC BY 4.0), databases/florence/alberi.geojson, fetched once as scripts/species_coverage.py
@@ -66,6 +69,7 @@ INV_URL = "https://data.comune.fi.it/datastore/download.php?id=6370&type=99&form
 BLD = FL / "raw/overture_buildings.parquet"
 CRS = 7791                                                       # RDN2008 / UTM 32N, the census and LiDAR CRS
 TILE, MIN_N = 200.0, 5                                           # ASSUMPTION: test-site grid and minimum planes
+DIV_FLOOR = 9.4                                                  # effective species of S1a, the Barcelona default floor
 
 
 def girth_class(dbh_cm):
@@ -169,11 +173,11 @@ def main():
     get = mt.trait_table(city_trees())
     ymix = young_mix()
     p_mm = runoff.design_storm(2, 60)
-    rows = []
-    for n_site, m in enumerate(groups, 1):
+    gone = d.tree_id.isin(pd.concat(groups).tree_id).values
+    ctx = []
+    for m in groups:                                             # per-site inputs, kept for the pooled layouts below
         site, h_src = make_site(d, m[["x", "y"]].values, get, lidar)
         pal = layout.palette(site, "barcelona", "TERCERA", d.tree_id.isin(m.tree_id).values)
-        pal_key = pal.species.map(mt.key)
         cap = pal.cap.values
         pos = m[["tree_id", "x", "y"]]
         fit = layout.fits(site, pos, pal, None, cap=cap)
@@ -181,11 +185,33 @@ def main():
         lit = {s: [heat.sunlit(site, *x) for x in sun[s]] for s in sun}
         pot = {s: layout.shade_potential(site, pos, pal, sun[s], lit[s], heat.SEASONS[s]["month"]) for s in sun}
         water = layout.water_potential(site, pos, pal, p_mm, runoff_target="all")
+        ctx.append((m, site, h_src, pal, cap, pos, fit, sun, lit, pot, water))
+    # Pooled: the sites as one project (every test plane replaced at once), so that the cap and a diversity floor act on the
+    # whole set, as the city-wide cap does in Barcelona. Cap: 15% of the census minus the trees that stay. Floor:
+    # DIV_FLOOR = 9.4, the announced mix S1a (default in the Barcelona runs). Same balanced weights.
+    pcap = layout.palette(ctx[0][1], "barcelona", "TERCERA", gone).cap.values
+    stack = lambda i: np.vstack([c[i] for c in ctx])
+    pobj = {"summer": (np.vstack([c[9]["summer"] for c in ctx]), 1), "winter": (np.vstack([c[9]["winter"] for c in ctx]), -1),
+            "runoff": (stack(10), 1)}
+    pfit = stack(6)
+    pooled = {"method_pool": layout.sweep(pobj, pcap, pfit)[mt.BAL]}
+    try:
+        pooled["method_div"] = layout.sweep(pobj, pcap, pfit, min_eff=DIV_FLOOR)[mt.BAL]
+    except RuntimeError as e:                                    # floor out of reach with these fits: report, run on
+        print("diversity floor:", e, flush=True)
+    cut = np.cumsum([0] + [len(c[0]) for c in ctx])
+    for k, ch in pooled.items():
+        print(f"{k}: eff. species {layout.eff_species(ch, len(ctx[0][3])):.1f}; top "
+              + "; ".join(f"{s} {n}" for s, n in pd.Series(ctx[0][3].species.values[ch]).value_counts().head(4).items()), flush=True)
+    rows = []
+    for n_site, (m, site, h_src, pal, cap, pos, fit, sun, lit, pot, water) in enumerate(ctx, 1):
+        pal_key = pal.species.map(mt.key)
         sw = layout.sweep({"summer": (pot["summer"], 1), "winter": (pot["winter"], -1), "runoff": (water, 1)}, cap, fit)
         mixes = {"S1a": layout.S1A_MIX, "S1b": layout.s1b_mix(),
                  "S1f": {sp: ymix.get(k, 0) for sp, k in zip(pal.species, pal_key)}}
         rng = np.random.default_rng(0)
-        lay = {"none": None, "before": None, "method_bal": sw[mt.BAL], "method_sum": sw[mt.SUM]}
+        lay = {"none": None, "before": None, "method_bal": sw[mt.BAL], "method_sum": sw[mt.SUM],
+               **{k: ch[cut[n_site - 1]:cut[n_site]] for k, ch in pooled.items()}}
         for k, mix in mixes.items():
             for i in range(mt.SEEDS):
                 lay[f"{k}_{i}"] = layout.s1a_layout(pal, cap, fit, rng, mix)
@@ -224,6 +250,9 @@ def main():
               f"S1b {r['summer_pct_S1b']:.0f}% S1f {r['summer_pct_S1f']:.0f}% random {r['summer_pct_random']:.0f}% "
               f"of the planes' summer shade; {r['top_method_bal']}", flush=True)
     df = pd.DataFrame(rows)
+    w = df.n / df.n.sum()
+    for k in [k for k in ("method_bal", "method_pool", "method_div", "S1a", "S1b", "S1f", "random") if f"summer_pct_{k}" in df]:
+        print(f"pooled summer shade {k}: {(w * df[f'summer_pct_{k}']).sum():.1f}% of the planes'", flush=True)
     keep = [c for c in df.columns if not re.search(r"_\d$", c)]       # seed means only
     df[keep].round(3).to_csv(FL / "transfer_test.csv", index=False)
     figure(df)
@@ -232,11 +261,14 @@ def main():
 def figure(df):
     import matplotlib.pyplot as plt
     cols = [("S1a", "City practice: announced mix (BCN S1a)", "#bdbdbd"), ("S1b", "City practice: built mix (BCN S1b)", "#8c8c8c"),
-            ("S1f", "Florence recent plantings (S1f)", "#d9a441"), ("method_bal", "Method (balanced)", "#2e7d32")]
+            ("S1f", "Florence recent plantings (S1f)", "#d9a441"), ("method_div", "Method, floor 9.4 (pooled)", "#7fb07f"),
+            ("method_bal", "Method (balanced)", "#2e7d32")]
     fig, ax = plt.subplots(figsize=(10, 4.6))
     x = np.arange(len(df))
+    cols = [c for c in cols if f"summer_pct_{c[0]}" in df]
+    bw = 0.8 / len(cols)
     for i, (k, lab, c) in enumerate(cols):
-        ax.bar(x + (i - 1.5) * 0.2, df[f"summer_pct_{k}"], 0.2, label=lab, color=c)
+        ax.bar(x + (i - (len(cols) - 1) / 2) * bw, df[f"summer_pct_{k}"], bw, label=lab, color=c)
     ax.axhline(100, color="k", lw=0.8, ls="--")
     ax.text(len(df) - 0.5, 98, "today's planes (LiDAR) = 100%", ha="right", va="top", fontsize=8)
     ax.set_xticks(x, [f"{s}\n(n={n})" for s, n in zip(df.site, df.n)], fontsize=8)
