@@ -220,8 +220,8 @@ if kind == "city" and trunk == "TERCERA" and size_rule == "exact":   # the addit
                               city_pts=round(float(a_.filter(regex="^A_S1a", axis=0).canopy_pct.mean() - a_.loc["S0_current", "canopy_pct"]), 2))
 lon_c, lat_c = to_ll(x0 + W / 2, y1 - H / 2)
 leaf_by_species = {s: [float(phen.loc[s, f"m{m:02d}"]) for m in range(1, 13)] for s in sorted(set(kept.sp)) if s in phen.index}
-# leaf habit of the other kept species without a leaf calendar (databases/traits/leaf_habit_other.csv, sourced per species)
-oh = pd.read_csv(DB.parent / "traits/leaf_habit_other.csv").set_index("species").leaf_habit
+# leaf habit of the other kept species without a leaf calendar (databases/traits/leaf_habit_extra.csv, sourced per species)
+oh = pd.read_csv(DB.parent / "traits/leaf_habit_extra.csv").set_index("species").habit
 habit_by_species = {s: oh[s] for s in sorted(set(kept.sp)) if s not in phen.index and s in oh.index}
 meta = dict(palette_kind=kind, run=dict(size_rule=size_rule, trunk_class=trunk), s1a_mix=layout.S1A_MIX, cover=cover,
             leaf_by_species=leaf_by_species, habit_by_species=habit_by_species, grid=grid, model=model, site=dict(name=name.capitalize(), center=[round(lon_c, 6), round(lat_c, 6)], corners=[r6(c) for c in corners]),
