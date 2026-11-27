@@ -1,5 +1,5 @@
 # Builds the web app (web/) and publishes it to the gh-pages branch, which GitHub Pages serves at
-# https://giofox96.github.io/shade-and-sponge/. Runs when web/ changes on main or claude/web-ui.
+# https://giofox96.github.io/shade-and-sponge/ (frozen releases under /<tag>/). Runs when web/ changes on main or claude/web-ui.
 name: Pages
 on:
   push:
@@ -27,6 +27,16 @@ jobs:
           cache-dependency-path: web/package-lock.json
       - run: npm ci && npm run build
         working-directory: web
+      # frozen releases stay online at a fixed path (e.g. /shade-and-sponge/v0.1.0/ = "expert mode"); the app uses
+      # relative paths (vite base './'), so a build works from a subfolder
+      - name: Build frozen releases into subfolders
+        run: |
+          for tag in v0.1.0; do
+            git fetch -q --depth 1 origin "refs/tags/$tag:refs/tags/$tag"
+            git worktree add -q "$RUNNER_TEMP/$tag" "$tag"
+            (cd "$RUNNER_TEMP/$tag/web" && npm ci && npm run build)
+            cp -r "$RUNNER_TEMP/$tag/web/dist" "web/dist/$tag"
+          done
       - name: Publish web/dist to gh-pages
         working-directory: web/dist
         run: |
