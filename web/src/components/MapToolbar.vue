@@ -35,10 +35,15 @@ const hint = (on) => (on ? 'Visible on map · click to hide' : 'Hidden · click 
       </button>
     </div>
     <div class="pill">
-      <button class="tb" :aria-pressed="state.showStreets" aria-label="Sidewalks and free spots" @click="state.showStreets = !state.showStreets">
+      <button class="tb" :aria-pressed="state.showStreets" aria-label="Sidewalk lines" @click="state.showStreets = !state.showStreets">
         <Icon name="sidewalk" /><i v-if="state.showStreets" class="dot"></i>
-        <span class="tt"><b>Sidewalks and free spots</b>{{ hint(state.showStreets) }}
-          <em>Brown = façade, dark = kerb. Green dots = free spots, light to dark = small / medium / large tree. Both lines come from the city's 1:1000 map; a tree's sidewalk width is measured along a line through it (thin grey lines; the selected tree's in blue): 1,545 of Porta's 2,825 street trees. Squares at the trunks = the minimum tree pit of the 2011 guide (1 × 1 or 1.2 × 1.2 m), not a measured pit.</em></span>
+        <span class="tt"><b>Sidewalk lines</b>{{ hint(state.showStreets) }}
+          <em>Grey = façade, dark = kerb, both from the city's 1:1000 map; a tree's sidewalk width is measured along a line through it: 1,545 of Porta's 2,825 street trees. Squares at the trunks = the minimum tree pit of the 2011 guide (1 × 1 or 1.2 × 1.2 m), not a measured pit.</em></span>
+      </button>
+      <button class="tb" :aria-pressed="state.showSpots" aria-label="Free planting spots" @click="state.showSpots = !state.showSpots">
+        <Icon name="fill" /><i v-if="state.showSpots" class="dot"></i>
+        <span class="tt"><b>Free planting spots</b>{{ hint(state.showSpots) }}
+          <em>Green discs = free spots, light to dark = small / medium / large tree; an amber centre = a field check first, orange = a buried service.</em></span>
       </button>
       <button v-if="state.meta.parks" class="tb" :aria-pressed="state.showParks" aria-label="Park trees" @click="setParks(!state.showParks)">
         <Icon name="park" /><i v-if="state.showParks" class="dot"></i>

@@ -40,7 +40,7 @@ const nextName = computed(() => STEPS[ui.step + 1]?.[0])
 
 // what each step shows on the map and in the views
 watch(() => ui.step, (k) => {
-  if (k === 2) Object.assign(state, { scenarioId: 'S0_current', showStreets: true })
+  if (k === 2) Object.assign(state, { scenarioId: 'S0_current', showStreets: true, showSpots: true })
   if (k >= 3 && k <= 7 && A.value?.metrics) state.scenarioId = AREA
   if (k !== 3 && k !== 4) state.showSchedule = false
   if (k !== 4 && state.addMode) setAddMode(false)

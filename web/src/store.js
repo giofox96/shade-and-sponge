@@ -23,7 +23,8 @@ export const state = reactive({
   draft: [], // [lon, lat] vertices while drawing
   area: null, // { poly, idx, keptIdx, spotIdx, all, weights, layout, keptLayout, metrics, counts, city, ms }
   buildingOpacity: 1, // Map display slider: 1 = solid, lower = see-through buildings
-  showStreets: true, // sidewalk edges (facades, kerbs) and free planting spots on the map
+  showStreets: true, // sidewalk edges (facades, kerbs) and minimum pits on the map
+  showSpots: true, // free planting spots, on their own switch (user 27 Nov)
   overlay: '', // none by default: sidewalks and free spots read better (the sun / water layers are in Map display)
   basemap: 'map', // 'map' (street map) | 'satellite' (ICGC orthophoto)
   ground3d: false, // relief from the site DTM (meta.terrain); trees, buildings and lines then sit on it

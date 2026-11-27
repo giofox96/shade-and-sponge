@@ -455,7 +455,7 @@ function layers() {
         getFillColor: themeColors.value.pit, getLineColor: themeColors.value.facade, lineWidthUnits: 'pixels', getLineWidth: 1,
         updateTriggers: { getFillColor: isDark.value, getLineColor: isDark.value } }),
     // free planting spots: the crown footprint of the spot's size class on the ground, a white dot at the planting point
-    state.showStreets &&
+    state.showSpots &&
       new ScatterplotLayer({ id: 'spots', data: state.trees.spots.lon.map((lon, i) => i), radiusUnits: 'meters',
         getPosition: (i) => spotUp(i, 0.15),
         getRadius: (i) => SPOT_R[state.trees.spots.size_class[i]], radiusMinPixels: 3,
@@ -467,7 +467,7 @@ function layers() {
           if (state.addMode) tryAdd(state.trees.spots.lon[info.index], state.trees.spots.lat[info.index], info)
           else state.selected = `s${info.index}` // the schedule's Spots tab follows
         } }),
-    state.showStreets &&
+    state.showSpots &&
       new ScatterplotLayer({ id: 'spot-centres', data: state.trees.spots.lon.map((lon, i) => i), getPosition: (i) => spotUp(i, 0.2),
         getRadius: 0.35, radiusUnits: 'meters', radiusMinPixels: 1.5, updateTriggers: { getPosition: g3 },
         // white = free; amber = conditional (an object a street project can move: field check first);
@@ -567,7 +567,7 @@ onMounted(() => {
 })
 
 watch(
-  () => [state.scenarioId, state.live?.version, state.area?.version, state.area, state.drawing, state.draft, state.overlay, state.showStreets, isDark.value,
+  () => [state.scenarioId, state.live?.version, state.area?.version, state.area, state.drawing, state.draft, state.overlay, state.showStreets, state.showSpots, isDark.value,
     state.month, state.selected, state.addedVersion, state.showParks, state.showUtilities, state.buildingOpacity, state.addMode, state.editing, state.ground3d, state.basemap, state.meta, state.showLidar, habits.map, Object.values(state.schedule.trees).map((e) => e.to ?? "").join()],
   () => overlay?.setProps({ layers: layers() }),
 )
