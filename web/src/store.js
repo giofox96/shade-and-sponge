@@ -14,7 +14,7 @@ export const state = reactive({
   meta: null,
   trees: null,
   pot: null,
-  scenarioId: BALANCED,
+  scenarioId: 'S0_current', // the tool always opens on today's trees (user 27 Nov)
   view: 'map', // 'map' | 'compare' (side-by-side columns: today | city practice | optimised) | 'species' (botanical cards)
   speciesScope: 'site', // Species tab: 'site' (whole neighbourhood) or 'area' (the project area, when one is drawn)
   // project area: only the plane positions inside a drawn polygon are replaced; outside, today's trees stay
@@ -22,7 +22,7 @@ export const state = reactive({
   editing: false, // moving the corners of the project area (draft holds the polygon being edited)
   draft: [], // [lon, lat] vertices while drawing
   area: null, // { poly, idx, keptIdx, spotIdx, all, weights, layout, keptLayout, metrics, counts, city, ms }
-  buildingOpacity: 1, // Map display slider: 1 = solid, lower = see-through buildings
+  buildingOpacity: 0.9, // Map display slider: 1 = solid, lower = see-through; 0.9 so trees behind buildings show (user 27 Nov)
   showStreets: true, // sidewalk edges (facades, kerbs) and minimum pits on the map
   showSpots: true, // free planting spots, on their own switch (user 27 Nov)
   overlay: '', // none by default: sidewalks and free spots read better (the sun / water layers are in Map display)
@@ -30,7 +30,7 @@ export const state = reactive({
   ground3d: false, // relief from the site DTM (meta.terrain); trees, buildings and lines then sit on it
   terrain: null, // { w, h, z (Float32Array, m above the site's lowest point), bounds: [west, south, east, north] } once loaded
   showLidar: false, // thinned LiDAR cloud (meta.lidar), loaded on first use
-  showParks: false, // park and zone trees (meta.parks): context only, never scored
+  showParks: true, // park and zone trees (meta.parks): context only, never scored; always drawn (user 27 Nov)
   parks: null, // { site, id, kind, place, species, lon, lat, height_m, crown_diam_m, crown_base_m } once loaded
   showUtilities: false, // SYNTHETIC underground services (meta.utilities, scripts/synthetic_utilities.py): a mock, not real plans
   utilities: null, // { site, features } once loaded
@@ -80,7 +80,7 @@ export async function switchSite(site, keep = true) {
   const oldName = state.meta?.site.name // only within the same neighbourhood: another barri's trees are elsewhere
   const carry = keep && state.meta && (state.area || state.added.length || Object.keys(state.schedule.trees).length || Object.keys(state.schedule.spots).length)
     ? JSON.parse(configJson()) : null
-  Object.assign(state, { scenarioId: BALANCED, live: null, selected: null, exclude: [], minEff: 0, liveError: null, meta: null, added: [], addMsg: null, area: null, drawing: false, editing: false, draft: [], addMode: false, schedule: { trees: {}, spots: {} } }) // the new site's grid loads with the next Add trees
+  Object.assign(state, { scenarioId: 'S0_current', live: null, selected: null, exclude: [], minEff: 0, liveError: null, meta: null, added: [], addMsg: null, area: null, drawing: false, editing: false, draft: [], addMode: false, schedule: { trees: {}, spots: {} } }) // the new site's grid loads with the next Add trees
   grid = null
   planePotCache.clear()
   planeScale = null
@@ -289,7 +289,7 @@ export function addableMask() {
   const img = ctx.createImageData(W, H)
   for (let k = 0; k < W * H; k++) {
     if ((flags[k] & 5) !== 1 || facade[k] < 10 || !inArea(k)) continue
-    img.data.set(near[k] || facade[k] < 20 ? [230, 160, 30, 120] : [70, 190, 80, 120], 4 * k)
+    img.data.set(near[k] || facade[k] < 20 ? [230, 160, 30, 170] : [70, 190, 80, 170], 4 * k) // strong enough to see where a click counts
   }
   ctx.putImageData(img, 0, 0)
   return cv
@@ -307,6 +307,10 @@ export function addTreeAt(lon, lat) {
   const tree = { lon, lat, x: q.x, y: q.y, pot: { summer: q.summer, winter: q.winter, water: q.water, fit: q.fit }, warn,
     sun_summer: q.sun_summer, sun_winter: q.sun_winter, drains_to_hotspot: q.drains_to_hotspot }
   tree.species = recommend(tree.pot)
+  if (tree.species < 0) { // no sidewalk size class here (a courtyard, a square): best species without the sizing rule
+    tree.species = recommend({ ...tree.pot, fit: tree.pot.fit.map(() => 1) })
+    warn.push('no sidewalk sizing rule here: check the species')
+  }
   tree.auto = true
   state.added.push(tree)
   state.addedVersion++
@@ -538,7 +542,8 @@ function areaCity(rows) {
   }))
   const mostLikely = P.map((p) => p.indexOf(Math.max(...p))) // for drawing the kept trees the rule would replace
   return { metrics: areaMetrics(rows, sums), counts: Object.fromEntries(Object.entries(counts).map(([s, n]) => [s, Math.round(n)])),
-    keptLayout: rows.map((r, n) => (r.kind === 'kept' ? mostLikely[n] : null)).filter((j) => j != null) }
+    keptLayout: rows.map((r, n) => (r.kind === 'kept' ? mostLikely[n] : null)).filter((j) => j != null),
+    planeLayout: rows.map((r, n) => (r.kind === 'plane' ? mostLikely[n] : null)).filter((j) => j != null) } // A.idx order, for the report
 }
 
 export async function finishArea() {
@@ -695,6 +700,7 @@ export async function setSpotEntry(s, patch) {
   if (!('action' in patch) || patch.action === prev.action) return
   const k = state.added.findIndex((t) => t.spot === id)
   if (patch.action === 'add' && k < 0) {
+    if (spotClass(s) === 'blocked') return void (state.addMsg = 'A blocked spot cannot take a tree.')
     await ensureGrid()
     pushSpotTree(s)
   } else if (patch.action !== 'add' && k >= 0) state.added.splice(k, 1)
@@ -890,9 +896,9 @@ export const themeColors = computed(() => (isDark.value
       random: '#7A776E', city: '#D9B866', announced: '#8F8460', optimised: '#9DB4DE', current: '#E4DFD3', on: '#F2F0EA',
       ground: [44, 48, 44], basemap: 'https://basemaps.cartocdn.com/gl/dark-matter-gl-style/style.json' }
   : { text: '#2A2622', muted: '#665E4F', grid: '#DCD8CE', plane: '#3A3630', other: '#C9C4B8', kept: [150, 155, 135, 150], park: [120, 150, 110, 140],
-      building: [222, 218, 208, 235], buildingLine: [180, 176, 166], facade: [195, 195, 190, 210], kerb: [110, 116, 128, 210], pit: [102, 56, 37, 150],
+      building: [228, 226, 219, 235], buildingLine: [180, 176, 166], facade: [195, 195, 190, 210], kerb: [110, 116, 128, 210], pit: [102, 56, 37, 150],
       ring: [255, 255, 255], ringOn: [40, 63, 102], area: [40, 63, 102], draft: [140, 106, 36],
       random: '#B4AE9F', city: '#8C6A24', announced: '#CDB98A', optimised: '#5D7BAA', current: '#2A2622', on: '#283F66',
-      ground: [236, 233, 225], basemap: 'https://tiles.openfreemap.org/styles/positron' }))
+      ground: [242, 243, 240], basemap: 'https://tiles.openfreemap.org/styles/positron' }))
 // Orthophoto of Catalonia, ICGC base-map service (CC BY 4.0)
 export const ORTO = 'https://geoserveis.icgc.cat/servei/catalunya/mapa-base/wmts/orto/MON3857NW/{z}/{x}/{y}.png'

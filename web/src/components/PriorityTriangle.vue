@@ -36,11 +36,11 @@ function weightsAt(evt) {
 </script>
 
 <template>
-  <svg ref="svg" viewBox="0 0 240 206" class="tri" role="img"
+  <svg ref="svg" viewBox="0 -8 240 214" class="tri" role="img"
        aria-label="Priority triangle: pick the weights of summer shade, winter sun and runoff"
        @click="runLive(weightsAt($event))">
     <polygon :points="[V.s, V.w, V.r].map((p) => p.join(',')).join(' ')" class="edge" />
-    <text :x="V.s[0]" :y="V.s[1] - 6" text-anchor="middle">summer shade</text>
+    <text :x="V.s[0]" :y="V.s[1] - 12" text-anchor="middle">summer shade</text>
     <text :x="V.w[0]" :y="V.w[1] + 16">winter sun</text>
     <text :x="V.r[0]" :y="V.r[1] + 16" text-anchor="end">runoff</text>
     <g v-for="pt in points" :key="pt.id" class="pt" @click.stop="state.area ? runArea(pt.w) : (state.scenarioId = pt.id)">
@@ -58,6 +58,7 @@ function weightsAt(evt) {
 </template>
 
 <style scoped>
+text { user-select: none; }
 .tri { width: 100%; display: block; cursor: crosshair; }
 .edge { fill: var(--hover); fill-opacity: 0.4; stroke: var(--muted); stroke-width: 1; }
 text { font-size: 11px; fill: var(--muted); pointer-events: none; }
