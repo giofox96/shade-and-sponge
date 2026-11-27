@@ -61,7 +61,7 @@ watch(
 <template>
   <div v-if="state.error" class="msg">{{ state.error }}</div>
   <div v-else-if="!state.meta" class="msg">Loading site…</div>
-  <div v-else class="app" :class="ui.mode" :style="{ '--lw': panels.leftOpen ? panels.leftW + 'px' : '0px', '--rw': panels.rightOpen && ui.mode === 'expert' ? panels.rightW + 'px' : '0px' }">
+  <div v-else class="app" :class="ui.mode" :style="{ '--lw': panels.leftOpen && ui.mode === 'expert' ? panels.leftW + 'px' : '0px', '--rw': panels.rightOpen && ui.mode === 'expert' ? panels.rightW + 'px' : '0px' }">
     <header>
       <b>Shade and sponge</b>
       <span class="muted">{{ state.meta.site.name }}, Barcelona</span>
@@ -94,9 +94,8 @@ watch(
       </span>
     </header>
 
-    <aside v-show="panels.leftOpen" class="left">
-      <GuidedFlow v-if="ui.mode === 'guided'" />
-      <template v-else>
+    <aside v-show="panels.leftOpen && ui.mode === 'expert'" class="left">
+      <template v-if="ui.mode === 'expert'">
       <details class="group" open>
         <summary>Neighbourhood <span class="muted">{{ state.barri }}</span></summary>
         <section><BarriPicker /></section>
@@ -201,7 +200,7 @@ watch(
     </aside>
 
     <main>
-      <div v-if="ui.mode === 'expert' || state.view !== 'report'" class="tabs seg" role="tablist" aria-label="View">
+      <div v-if="ui.mode === 'expert'" class="tabs seg" role="tablist" aria-label="View">
         <button v-for="[v, l] in [['map', 'Map'], ['compare', 'Compare side by side'], ['species', 'Species']]" :key="v" role="tab"
                 :aria-selected="state.view === v" :class="{ on: state.view === v }" @click="state.view = v">{{ l }}</button>
         <button :class="{ on: state.showSchedule }" :aria-pressed="state.showSchedule"
@@ -213,7 +212,8 @@ watch(
       <SpeciesCards v-else-if="state.view === 'species'" />
       <template v-else><MapView :key="state.site" /><MapToolbar /></template>
       <ScheduleTable v-if="state.showSchedule" />
-      <PanelHandle side="left" />
+      <GuidedFlow v-if="ui.mode === 'guided'" />
+      <PanelHandle v-if="ui.mode === 'expert'" side="left" />
       <PanelHandle v-if="ui.mode === 'expert'" side="right" />
     </main>
 
