@@ -263,3 +263,36 @@ a.legend(loc="upper center", bbox_to_anchor=(0.5, 0.02), ncol=2, frameon=False, 
 a.set_aspect("equal"); a.set_axis_off()
 fig.savefig(OUT / "city_practice_rule.png", dpi=250, bbox_inches="tight", facecolor=BG)
 print("wrote city_practice_rule", int(bt.ok.sum()), int(bt.over.sum()), len(q), "groups")
+
+# 10. S1c: the city's own per-tree plan for 513 Porta planes vs the method on the same positions, by species.
+#     Inputs are internal documents kept OUT of the repo (Parcs i Jardins xlsx; the method's per-tree layout from the
+#     div9.7 plan run on OMEN, columns tree_id, species). Only the rendered image goes in the deck.
+import re
+PJ = Path("/mnt/project-files/parcs_jardins")
+xl = pd.read_excel(PJ / "Arbrat_Barri_Porta_planned_species.xlsx")
+pid = pd.Series(TB["positions"]["tree_id"])
+xl = xl[xl.CODI_ELEM.isin(pid) & xl.NOM_SUBST.notna() & (xl.NOM_SUBST != xl.NOM_ESPECIE) & ~xl.NOM_SUBST.str.startswith("Eliminar")]
+nm = lambda s: re.sub(r"\s*'[^']*'|\s+\S*®", "", s).strip().replace("Platanus × acerifolia", "Platanus (new clone)")
+xy = pd.DataFrame({"x": px_, "y": py_}, index=pid)
+PANELS = [("City plan", xl.set_index("CODI_ELEM").NOM_SUBST.map(nm), RAIN)]
+mf = PJ / "porta_plan_method_div9.7.csv"
+if mf.exists():
+    PANELS.append(("Method", pd.read_csv(mf).set_index("tree_id").species.map(nm), TREE))
+tops = []
+for _, sp, _ in PANELS:
+    tops += [k for k in sp.value_counts().index[:5] if k not in tops]
+CAT3 = dict(zip(tops, [TREE, RAIN, HEAT, WARN, SAGE, "#7B6A9B", "#C08A5B", "#5E8C8A", "#B5677A", "#6B7F3A"]))
+fig, axs = plt.subplots(1, len(PANELS), figsize=(3.65 * len(PANELS), 4.9), facecolor=BG, squeeze=False)
+for a, (t, sp, tc) in zip(axs[0], PANELS):
+    bld.plot(ax=a, color="#E2DED5", linewidth=0)
+    a.scatter(kx, ky, s=1.5, color=GREY, linewidths=0)
+    a.scatter(px_, py_, s=1.5, color=GREY, linewidths=0)
+    q = xy.loc[sp.index]
+    a.scatter(q.x, q.y, s=7, c=[CAT3.get(v, "#CFC9BC") for v in sp], linewidths=0, zorder=4)
+    a.set_title(t, fontsize=14, weight="bold", color=tc, loc="left")
+    a.set_xlim(ext[0], ext[1]); a.set_ylim(ext[2], ext[3]); a.set_aspect("equal"); a.set_axis_off()
+for k, c in list(CAT3.items()) + [("other species", "#CFC9BC")]:
+    axs[0][0].scatter([], [], s=40, color=c, label=k)
+fig.legend(loc="lower center", ncol=3, frameon=False, bbox_to_anchor=(0.5, 0.06), prop={"style": "italic", "size": 9})
+fig.savefig(OUT / "porta_cityplan_species.png", dpi=250, bbox_inches="tight", facecolor=BG)
+print("wrote porta_cityplan_species", len(xl), "trees;", [p[0] for p in PANELS])

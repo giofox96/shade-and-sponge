@@ -162,7 +162,7 @@ def n_porta(s):
 
 def n_cityplan(s):
     head(s, "The city's own plan", "513 Porta planes the city plans to change, at the same diversity")
-    rhino(s, M, 1.45, 7.3, 4.9, "Porta map: the 513 planes, coloured by species, city plan vs method", "MAP")
+    pic_h(s, "porta_cityplan_species", M, 1.45, 4.9, 7.3)
     results_panel(s, [("sun", "Summer shade", 98.2, 101.4, HEAT), ("snowflake", "Winter shade", 104.4, 98.1, RAIN)], "City plan")
     source(s, "Parcs i Jardins, planned species for Porta (2026); ICGC, LiDAR 2021; " + BCN)
 
