@@ -119,3 +119,10 @@ body.resizing { cursor: col-resize; user-select: none; }
 body.resizing main { pointer-events: none; }
 main .tabs { left: 24px; } /* clear of the left panel's fold button */
 @media (max-width: 900px) { main .handle { display: none; } aside.left, aside.right { display: block !important; } }
+
+/* v0.2.0 report: print only the report page */
+@media print {
+  header, aside, main .tabs, main .handle, .schedule { display: none !important; }
+  .app { display: block !important; }
+  main { position: static !important; }
+}

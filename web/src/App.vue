@@ -17,6 +17,8 @@ import SpeciesCards from './components/SpeciesCards.vue'
 import Icon from './components/Icon.vue'
 import MapToolbar from './components/MapToolbar.vue'
 import ScheduleTable from './components/ScheduleTable.vue'
+import GuidedFlow from './components/GuidedFlow.vue'
+import ReportView from './components/ReportView.vue'
 
 onMounted(() => load())
 
@@ -61,11 +63,16 @@ const DIV_PRESETS = [[9.4, 'City practice 9.4', "Effective species of the city's
 <template>
   <div v-if="state.error" class="msg">{{ state.error }}</div>
   <div v-else-if="!state.meta" class="msg">Loading site…</div>
-  <div v-else class="app" :style="{ '--lw': panels.leftOpen ? panels.leftW + 'px' : '0px', '--rw': panels.rightOpen ? panels.rightW + 'px' : '0px' }">
+  <div v-else class="app" :class="ui.mode" :style="{ '--lw': panels.leftOpen ? panels.leftW + 'px' : '0px', '--rw': panels.rightOpen && ui.mode === 'expert' ? panels.rightW + 'px' : '0px' }">
     <header>
       <b>Shade and sponge</b>
       <span class="muted">{{ state.meta.site.name }}, Barcelona</span>
       <span class="spacer"></span>
+      <span class="seg" role="group" aria-label="Mode">
+        <button :class="{ on: ui.mode === 'guided' }" :aria-pressed="ui.mode === 'guided'" title="One step at a time (v0.2.0)" @click="ui.mode = 'guided'">Guided</button>
+        <button :class="{ on: ui.mode === 'expert' }" :aria-pressed="ui.mode === 'expert'" title="Every setting at once (as v0.1.0)" @click="ui.mode = 'expert'">Expert</button>
+      </span>
+      <template v-if="ui.mode === 'expert'">
       <span class="ctl muted">Palette</span>
       <span class="seg" role="group" aria-label="Species palette">
         <button :class="{ on: state.site !== 'porta-barcelona' }" @click="switchSite('porta')">City (7)</button>
@@ -82,6 +89,7 @@ const DIV_PRESETS = [[9.4, 'City practice 9.4', "Effective species of the city's
                   @click="switchSite('porta')">Established</button>
         </span>
       </template>
+      </template>
       <span class="seg" role="group" aria-label="Colour theme">
         <button v-for="[t, l] in [['auto', 'Auto'], ['light', 'Light'], ['dark', 'Dark']]" :key="t" :class="{ on: ui.theme === t }"
                 :aria-pressed="ui.theme === t" :title="t === 'auto' ? 'Follow the system setting' : `${l} theme`" @click="ui.theme = t">{{ l }}</button>
@@ -89,6 +97,8 @@ const DIV_PRESETS = [[9.4, 'City practice 9.4', "Effective species of the city's
     </header>
 
     <aside v-show="panels.leftOpen" class="left">
+      <GuidedFlow v-if="ui.mode === 'guided'" />
+      <template v-else>
       <details class="group" open>
         <summary>Neighbourhood <span class="muted">{{ state.barri }}</span></summary>
         <section><BarriPicker /></section>
@@ -222,25 +232,27 @@ const DIV_PRESETS = [[9.4, 'City practice 9.4', "Effective species of the city's
           <a href="https://github.com/giofox96/shade-and-sponge" target="_blank" rel="noopener">Code and method</a>
         </p>
       </details>
+      </template>
     </aside>
 
     <main>
-      <div class="tabs seg" role="tablist" aria-label="View">
+      <div v-if="ui.mode === 'expert' || state.view !== 'report'" class="tabs seg" role="tablist" aria-label="View">
         <button v-for="[v, l] in [['map', 'Map'], ['compare', 'Compare side by side'], ['species', 'Species']]" :key="v" role="tab"
                 :aria-selected="state.view === v" :class="{ on: state.view === v }" @click="state.view = v">{{ l }}</button>
         <button :class="{ on: state.showSchedule }" :aria-pressed="state.showSchedule"
                 title="Tree schedule: every tree and free spot as a table linked to the map, with Action, Reason and Field check"
                 @click="state.showSchedule = !state.showSchedule">Schedule</button>
       </div>
-      <ComparePanel v-if="state.view === 'compare'" />
+      <ReportView v-if="state.view === 'report'" />
+      <ComparePanel v-else-if="state.view === 'compare'" />
       <SpeciesCards v-else-if="state.view === 'species'" />
       <template v-else><MapView :key="state.site" /><MapToolbar /></template>
       <ScheduleTable v-if="state.showSchedule" />
       <PanelHandle side="left" />
-      <PanelHandle side="right" />
+      <PanelHandle v-if="ui.mode === 'expert'" side="right" />
     </main>
 
-    <aside v-show="panels.rightOpen" class="right">
+    <aside v-show="panels.rightOpen && ui.mode === 'expert'" class="right">
       <!-- priorities and the trade-off chart together: the triangle steers the optimiser, the chart shows where the result lands -->
       <section>
         <h3>Trade-off</h3>

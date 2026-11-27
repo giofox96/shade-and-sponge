@@ -803,6 +803,10 @@ const mq = typeof matchMedia === 'function' ? matchMedia('(prefers-color-scheme:
 export const ui = reactive({ theme: (() => { try { return localStorage.getItem(THEME_KEY) || 'auto' } catch { return 'auto' } })(),
   systemDark: !!mq?.matches })
 mq?.addEventListener?.('change', (e) => (ui.systemDark = e.matches))
+// v0.2.0: guided flow (one step at a time) or expert mode (every setting at once, as v0.1.0); remembered in this browser
+const MODE_KEY = 'shade-sponge-mode'
+Object.assign(ui, { mode: (() => { try { return localStorage.getItem(MODE_KEY) || 'guided' } catch { return 'guided' } })(), step: 0 })
+watch(() => ui.mode, (m) => { try { localStorage.setItem(MODE_KEY, m) } catch { /* storage blocked */ } })
 export const isDark = computed(() => ui.theme === 'dark' || (ui.theme === 'auto' && ui.systemDark))
 watch(() => ui.theme, (t) => {
   try { localStorage.setItem(THEME_KEY, t) } catch { /* storage blocked: the choice lasts this visit */ }

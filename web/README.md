@@ -1,5 +1,7 @@
 # Shade and sponge: web app
 
+**v0.2.0 (in progress, 27 Nov): Guided | Expert switch in the header.** Guided = one step at a time (`src/components/GuidedFlow.vue`): 1 project area · 2 today (trees, spots, canopy) · 3 trees to act on (schedule) · 4 priorities (triangle, palette) · 5 result · 6 compare with city practice · 7 one-page report, printable to PDF (`ReportView.vue`, scripted sentences, no LLM) · 8 save and export. Expert = every setting at once, as v0.1.0. Plan: `notes/tutor_feedback_24nov.md` §3e.
+
 Browse the street-tree layouts of the tool (`shade_sponge/`) on a 3D map: priorities triangle, results against the current trees and a random palette, trade-off chart, and a per-tree inspector that shows what each palette species would deliver at that position.
 
 **Stack:** Vue 3 + Vite · MapLibre GL (OpenFreeMap basemap, no key) · deck.gl (buildings, tree crowns as ellipsoids, raster overlays) · ECharts. Static site: no server.
