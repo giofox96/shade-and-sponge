@@ -15,7 +15,7 @@ import { TileLayer } from '@deck.gl/geo-layers'
 import { _TerrainExtension as TerrainExtension } from '@deck.gl/extensions'
 import { SphereGeometry } from '@luma.gl/engine'
 import { state, dataUrl, hexToRgb, currentLayout, spotClass, addTreeAt, addVertex, keptReplaced, themeColors, isDark, AREA, addableMask, finishArea,
-  cancelDrawing, finishEditArea, cancelEditArea, groundZ, setGround3d, setLidar, setParks, keptKey, ORTO } from '../store.js'
+  cancelDrawing, finishEditArea, cancelEditArea, groundZ, setGround3d, setLidar, setParks, setUtilities, spotWhy, keptKey, ORTO } from '../store.js'
 
 setWorkerUrl(workerUrl)
 const el = ref(null)
@@ -296,6 +296,8 @@ function selRing(sel) {
 // free spots: footprint radius (m) per size class, and the spot lifted onto the highest ground under its footprint (a flat
 // disc on a slope would otherwise sink into the relief)
 const SPOT_R = { small: 1.6, medium: 2.2, large: 2.8 }
+// synthetic utility lines by network (scripts/synthetic_utilities.py)
+const UTIL_COLOR = { water: [60, 130, 200], gas: [220, 170, 40], electricity: [200, 70, 60], 'house connection': [140, 110, 160] }
 function spotUp(i, dz) {
   const S = state.trees.spots, r = SPOT_R[S.size_class[i]], lon = S.lon[i], lat = S.lat[i]
   const dLon = r / (M_DEG * Math.cos((lat * Math.PI) / 180)), dLat = r / M_DEG
@@ -416,6 +418,11 @@ function layers() {
         // orange = the pit would sit on a buried service (scripts/utilities_conditional.py)
         getFillColor: (i) => (state.trees.spots.utility_conditional?.[i] ? [230, 120, 20, 245]
           : spotClass(i) === 'conditional' ? [235, 150, 30, 245] : [255, 255, 255, 235]) }),
+    // SYNTHETIC underground services (a mock from published rules): drawn on the ground, under the spots' rings
+    state.showUtilities && state.utilities?.site === state.site &&
+      new PathLayer({ id: 'utilities', data: state.utilities.features, getPath: (f) => f.geometry.coordinates, ...drape(),
+        getColor: (f) => UTIL_COLOR[f.properties.network] ?? [150, 150, 150], getWidth: (f) => (f.properties.kind === 'connection' ? 1.2 : 2),
+        widthUnits: 'pixels', pickable: true, parameters: ON_TOP }),
     state.area &&
       new PolygonLayer({ id: 'area', data: [state.area.poly], getPolygon: (d) => d, stroked: false, filled: true, ...drape(),
         getFillColor: [...themeColors.value.area, 30] }),
@@ -483,9 +490,10 @@ onMounted(() => {
       if (layer?.id === 'spots') {
         const S = state.trees.spots, c = spotClass(index) === 'conditional'
         return { text: `${c ? 'Conditional' : 'Free'} planting spot · ${S.size_class[index]} tree · sidewalk ${S.width_m[index]} m` +
-          (c ? `\nMove first: ${S.reasons[index].replaceAll('_', ' ').replaceAll(';', ', ')}` : '') +
-          (S.utility_conditional?.[index] ? '\nConditional: the pit would sit on a buried gas or telecom line (PTEV 2024 p. 31)' : '') }
+          (c ? `\nMove first: ${spotWhy(index)}` : '') +
+          (S.utility_conditional?.[index] ? `\nThe pit would sit on a buried ${state.meta.utilities?.synthetic ? 'SYNTHETIC ' : ''}line (PTEV 2024 p. 31)` : '') }
       }
+      if (layer?.id === 'utilities') return { text: `SYNTHETIC ${object.properties.network} line, not real data\n(mock from published layout rules)` }
       if (layer?.id === 'parks') { const P = state.parks; return { text: `${P.species[index]} (${P.kind[index]} tree, context only)${P.place[index] ? '\n' + P.place[index] : ''}` } }
       if (layer?.id === 'kept') return { text: `${state.trees.kept.species[object]} (existing)` }
       if (layer?.id !== 'positions' || index < 0) return null
@@ -500,7 +508,7 @@ onMounted(() => {
 
 watch(
   () => [state.scenarioId, state.live?.version, state.area?.version, state.area, state.drawing, state.draft, state.overlay, state.showStreets, isDark.value,
-    state.month, state.selected, state.addedVersion, state.showParks, state.buildingOpacity, state.addMode, state.editing, state.ground3d, state.basemap, state.meta, state.showLidar],
+    state.month, state.selected, state.addedVersion, state.showParks, state.showUtilities, state.buildingOpacity, state.addMode, state.editing, state.ground3d, state.basemap, state.meta, state.showLidar],
   () => overlay?.setProps({ layers: layers() }),
 )
 
@@ -508,7 +516,7 @@ watch(
 watch(() => [isDark.value, state.basemap], () => map?.setStyle(style()))
 
 // another site or palette: its own relief file
-watch(() => state.meta, (m) => { if (m && state.ground3d) setGround3d(true); if (m && state.showLidar) setLidar(true); if (m && state.showParks) setParks(true) })
+watch(() => state.meta, (m) => { if (m && state.ground3d) setGround3d(true); if (m && state.showLidar) setLidar(true); if (m && state.showParks) setParks(true); if (m && state.showUtilities) setUtilities(true) })
 
 // a new project area: frame it (keeps the current pitch and bearing)
 watch(() => state.area?.poly, (poly) => {

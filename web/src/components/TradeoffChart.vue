@@ -13,7 +13,7 @@ use([ScatterChart, GridComponent, TooltipComponent, MarkLineComponent, CanvasRen
 const groups = computed(() => {
   const C = themeColors.value
   return [['S0', 'Current trees', C.current, 'rect'], ['S1', 'Random palette', C.random, 'circle'],
-    ['S1a', 'City practice', C.city, 'circle'], ['S4', 'Optimised', C.optimised, 'diamond']]
+    ['S1a', 'City announced mix', C.announced, 'circle'], ['S1b', 'City practice', C.city, 'circle'], ['S4', 'Optimised', C.optimised, 'diamond']]
 })
 
 const option = computed(() => {

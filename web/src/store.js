@@ -31,6 +31,8 @@ export const state = reactive({
   showLidar: false, // thinned LiDAR cloud (meta.lidar), loaded on first use
   showParks: false, // park and zone trees (meta.parks): context only, never scored
   parks: null, // { site, id, kind, place, species, lon, lat, height_m, crown_diam_m, crown_base_m } once loaded
+  showUtilities: false, // SYNTHETIC underground services (meta.utilities, scripts/synthetic_utilities.py): a mock, not real plans
+  utilities: null, // { site, features } once loaded
   lidar: null, // { site, n, pos (Float32Array: east, north m from site.center, 0), z, hag (m), cls } once loaded
   month: 7,
   selected: null, // index into positions
@@ -139,6 +141,12 @@ export async function setParks(on) {
     state.parks = markRaw({ site: state.site, ...(await (await fetch(dataUrl(state.meta.parks.file))).json()) })
   state.showParks = on && !!state.parks
 }
+// Synthetic underground services (python scripts/synthetic_utilities.py): published layout rules + random choices, not real plans
+export async function setUtilities(on) {
+  if (on && state.meta?.utilities && state.utilities?.site !== state.site)
+    state.utilities = markRaw({ site: state.site, features: (await (await fetch(dataUrl(state.meta.utilities.file))).json()).features })
+  state.showUtilities = on && !!state.utilities
+}
 export async function setGround3d(on) {
   if (on) await loadTerrain()
   state.ground3d = on && !!state.terrain
@@ -167,21 +175,23 @@ export function label(s) {
     const n = s.idx.length + (s.all ? s.keptIdx.length : 0)
     return `Project area, ${n} ${s.all ? 'trees' : 'planes'} replaced: summer ${a}, winter ${b}, runoff ${c}`
   }
-  if (s.id.startsWith('S1a')) return `City practice (2026 mix) #${s.id.split('_').pop()}`
+  if (s.id.startsWith('S1b')) return `City practice (observed) #${s.id.split('_').pop()}`
+  if (s.id.startsWith('S1a')) return `City announced mix (2026) #${s.id.split('_').pop()}`
   if (s.id.startsWith('S1')) return `Random palette #${s.id.split('_').pop()}`
   const [a, b, c] = s.weights.map((w) => +w.toFixed(2))
   return `${s.id === LIVE ? 'Live estimate' : 'Optimised'}: summer ${a}, winter ${b}, runoff ${c}`
 }
 
-// Mean of the 10 city-practice layouts (S1a, the 2026 mix within the sizing rule): the thesis baseline
+// Mean of the 10 city-practice layouts (S1b, the mix the city actually planted in place of planes 2018–2026, within the sizing
+// rule): the thesis baseline. S1a (the announced 2026 mix) is shown as "City announced mix"
 export const cityMean = computed(() => {
-  const r = state.meta?.scenarios.filter((s) => s.group === 'S1a') ?? []
+  const r = state.meta?.scenarios.filter((s) => s.group === 'S1b') ?? []
   if (!r.length) return null
   const keys = Object.keys(r[0].metrics)
   return Object.fromEntries(keys.map((k) => [k, r.reduce((a, s) => a + s.metrics[k], 0) / r.length]))
 })
 
-// "vs city practice" reference: the whole-site S1a mean, or the city practice inside the project area (estimate)
+// "vs city practice" reference: the whole-site S1b mean, or the city practice inside the project area (estimate)
 export const baseline = computed(() => (state.scenarioId === AREA && state.area?.city ? state.area.city.metrics : cityMean.value))
 
 // Calibration of live estimates: exact metric (full raster model) vs summed single-tree potentials, over the saved
@@ -484,12 +494,15 @@ function keptAfter(rows) {
   return kept
 }
 
-// City practice on the rows: the expected value of the S1a draw (2026 mix weights among the fitting mix species; any
-// fitting species if none of the mix fits), with capped species scaled down to their room, as the exact S1a draws
+// City practice on the rows: the expected value of an S1b-like draw (mix weights among the fitting mix species; any fitting
+// species if none of the mix fits), with capped species scaled down to their room, as the exact draws. Weights = the species
+// counts summed over the site's 10 S1b layouts (the observed mix as the palette and the sizing rule let it land; an
+// approximation of layout.s1b_mix); S1a's announced mix if the data has no S1b
 function areaCity(rows) {
   const pot = state.pot
   const cap = caps({ ...pot, kept: keptAfter(rows) }, state.share, state.exclude)
-  let w = pot.species.map((s) => state.meta.s1a_mix?.[s] ?? 0)
+  const s1b = state.meta.scenarios.filter((s) => s.group === 'S1b')
+  let w = pot.species.map((s) => (s1b.length ? s1b.reduce((a, x) => a + (x.counts?.[s] ?? 0), 0) : state.meta.s1a_mix?.[s] ?? 0))
   const probs = () => rows.map((r) => {
     let ww = pot.species.map((_, j) => (r.fit[j] ? w[j] : 0))
     if (!ww.some((v) => v > 0)) ww = pot.species.map((_, j) => r.fit[j])
@@ -566,8 +579,15 @@ export async function setAreaAll(on) {
   await runArea(state.area.weights)
 }
 
-// Spot class (scripts/porta_spot_classes.py, user decision 18 Nov): 'free' or 'conditional'; data without classes = free
-export const spotClass = (s) => state.trees.spots.spot_class?.[s] ?? 'free'
+// Spot class (scripts/porta_spot_classes.py, user decision 18 Nov): 'free' or 'conditional'; data without classes = free.
+// A free spot whose pit would sit on a buried line (synthetic in the public app) is conditional too (PTEV 2024 p. 31)
+export const spotClass = (s) => (state.trees.spots.utility_conditional?.[s] ? 'conditional' : state.trees.spots.spot_class?.[s] ?? 'free')
+// what has to move first at a conditional spot: surface objects, and the buried line under the pit
+export const spotWhy = (s) => {
+  const S = state.trees.spots
+  return [S.reasons[s] && S.reasons[s].replaceAll('_', ' ').replaceAll(';', ', '),
+    S.utility_conditional?.[s] && `buried service${state.meta?.utilities?.synthetic ? ' (synthetic)' : ''}`].filter(Boolean).join(', ')
+}
 // the area's spots that "Fill" plants: free ones, plus conditional ones when the switch is on
 export const fillableSpots = () => state.area.spotIdx.filter((s) => spotClass(s) === 'free' || state.useConditional)
 
@@ -588,7 +608,7 @@ function pushSpotTree(s) {
   const q = pointPotentials(grid, state.meta, S.lon[s], S.lat[s])
   const fit = withSizeRule(q.fit, S.size_class[s])
   const t = { lon: S.lon[s], lat: S.lat[s], x: q.x, y: q.y, pot: { summer: q.summer, winter: q.winter, water: q.water, fit },
-    warn: spotClass(s) === 'conditional' ? [`conditional spot: move ${S.reasons[s].replaceAll('_', ' ').replaceAll(';', ', ')} first`] : [],
+    warn: spotClass(s) === 'conditional' ? [`conditional spot: move ${spotWhy(s)} first`] : [],
     sun_summer: q.sun_summer, sun_winter: q.sun_winter, drains_to_hotspot: q.drains_to_hotspot, spot: S.id[s], auto: true,
     species: fit.indexOf(1) }
   if (!state.area) t.species = recommend(t.pot) // no optimiser run follows: the best fitting species for the priorities on screen
@@ -671,6 +691,19 @@ export function configJson() {
     added: state.added.map((t) => ({ lon: t.lon, lat: t.lat, spot: t.spot ?? null, species: state.meta.palette[t.species]?.species ?? null, auto: t.auto })),
   }, null, 1)
 }
+
+// Autosave (v0.2.0, no login): the configuration goes to this browser's storage when it changes; the guided flow offers
+// to resume it. Download "Save project" to keep it elsewhere.
+const AUTO_KEY = 'shade-sponge-autosave'
+export function savedProject() {
+  try { const j = JSON.parse(localStorage.getItem(AUTO_KEY)); return j?.tool === 'shade-and-sponge' ? j : null } catch { return null }
+}
+let autoTimer
+watch(() => [state.area?.version, state.area?.poly, state.addedVersion, state.schedule, state.share, state.minEff, state.exclude.length], () => {
+  if (!state.meta || state.loadingConfig || !(state.area || state.added.length)) return
+  clearTimeout(autoTimer)
+  autoTimer = setTimeout(() => { try { localStorage.setItem(AUTO_KEY, configJson()) } catch { /* storage blocked or full */ } }, 1000)
+}, { deep: true })
 
 export async function loadConfig(cfg) {
   if (cfg?.tool !== 'shade-and-sponge') throw new Error('not a Shade and sponge configuration file')
@@ -777,12 +810,43 @@ watch(panels, (p) => {
   try { localStorage.setItem(PANEL_KEY, JSON.stringify(p)) } catch { /* private window or blocked storage: keep the defaults */ }
 })
 
+// ---- cost of the project area (v0.2.0, notes/tutor_feedback_24nov.md §3c): unit costs are the designer's own (the tool has no
+// sourced prices), remembered in this browser; shown beside heat and runoff, never optimised
+const COST_KEY = 'shade-sponge-costs'
+// default unit prices = direct costs (no overhead, profit or VAT), notes/costs_stakeholders.md §1: new pit on a free spot ~260 €
+// (a replaced small tree ~190 €, a large one with its stump ~1,070 €), young-tree transplant ~700 € (CYPE JSP020),
+// dismantling and re-installing a traffic sign ~80 € without the post (CYPE DTM030, TSV050). Watering is not priced.
+const COST_DEFAULTS = { tree: 260, move: 700, object: 80 }
+export const costs = reactive((() => { try { return JSON.parse(localStorage.getItem(COST_KEY)) ?? { ...COST_DEFAULTS } } catch { return { ...COST_DEFAULTS } } })())
+watch(costs, (c) => { try { localStorage.setItem(COST_KEY, JSON.stringify(c)) } catch { /* storage blocked */ } }, { deep: true })
+export const projectCost = computed(() => {
+  const A = state.area
+  if (!A?.idx) return null
+  const act = (key) => state.schedule.trees[key]?.action
+  const keys = [...A.idx.map((i) => state.trees.positions.tree_id[i]), ...A.keptRows.map((k) => `k${k}`)]
+  const moves = keys.filter((k) => act(k) === 'move').length
+  const added = state.added.filter((t) => insidePoly(t.lon, t.lat, A.poly))
+  const S = state.trees.spots
+  const objects = added.filter((t) => t.spot && spotClass(S.id.indexOf(t.spot)) === 'conditional').length
+  const n = { replace: keys.length - moves, move: moves, add: added.length, object: objects }
+  const unit = { replace: costs.tree, move: costs.move, add: costs.tree, object: costs.object }
+  const known = Object.keys(n).every((k) => !n[k] || unit[k] > 0)
+  const total = Object.keys(n).reduce((a, k) => a + n[k] * (unit[k] || 0), 0)
+  const trees = n.replace + n.move + n.add
+  const shade = A.local?.shade_summer_m2h?.delta
+  return { n, total, known, perTree: trees ? total / trees : null, perShade: shade > 0 ? (1000 * total) / shade : null }
+})
+
 // ---- theme: 'auto' follows the system; the choice is remembered in this browser ---------------------------------
 const THEME_KEY = 'shade-sponge-theme'
 const mq = typeof matchMedia === 'function' ? matchMedia('(prefers-color-scheme: dark)') : null
 export const ui = reactive({ theme: (() => { try { return localStorage.getItem(THEME_KEY) || 'auto' } catch { return 'auto' } })(),
   systemDark: !!mq?.matches })
 mq?.addEventListener?.('change', (e) => (ui.systemDark = e.matches))
+// v0.2.0: guided flow (one step at a time) or expert mode (every setting at once, as v0.1.0); remembered in this browser
+const MODE_KEY = 'shade-sponge-mode'
+Object.assign(ui, { mode: (() => { try { return localStorage.getItem(MODE_KEY) || 'guided' } catch { return 'guided' } })(), step: 0 })
+watch(() => ui.mode, (m) => { try { localStorage.setItem(MODE_KEY, m) } catch { /* storage blocked */ } })
 export const isDark = computed(() => ui.theme === 'dark' || (ui.theme === 'auto' && ui.systemDark))
 watch(() => ui.theme, (t) => {
   try { localStorage.setItem(THEME_KEY, t) } catch { /* storage blocked: the choice lasts this visit */ }
@@ -794,12 +858,12 @@ export const themeColors = computed(() => (isDark.value
   ? { text: '#F2F0EA', muted: '#B3BAB9', grid: '#333A33', plane: '#E4DFD3', other: '#5E5B54', kept: [150, 150, 140, 150], park: [110, 140, 105, 140],
       building: [64, 70, 64, 235], buildingLine: [40, 44, 40], facade: [120, 120, 115, 170], kerb: [170, 176, 184, 150],
       ring: [242, 240, 234], ringOn: [157, 180, 222], area: [157, 180, 222], draft: [217, 184, 102],
-      random: '#7A776E', city: '#D9B866', optimised: '#9DB4DE', current: '#E4DFD3', on: '#F2F0EA',
+      random: '#7A776E', city: '#D9B866', announced: '#8F8460', optimised: '#9DB4DE', current: '#E4DFD3', on: '#F2F0EA',
       ground: [44, 48, 44], basemap: 'https://basemaps.cartocdn.com/gl/dark-matter-gl-style/style.json' }
   : { text: '#2A2622', muted: '#665E4F', grid: '#DCD8CE', plane: '#3A3630', other: '#C9C4B8', kept: [150, 155, 135, 150], park: [120, 150, 110, 140],
       building: [222, 218, 208, 235], buildingLine: [180, 176, 166], facade: [195, 195, 190, 210], kerb: [110, 116, 128, 210],
       ring: [255, 255, 255], ringOn: [40, 63, 102], area: [40, 63, 102], draft: [140, 106, 36],
-      random: '#B4AE9F', city: '#8C6A24', optimised: '#5D7BAA', current: '#2A2622', on: '#283F66',
+      random: '#B4AE9F', city: '#8C6A24', announced: '#CDB98A', optimised: '#5D7BAA', current: '#2A2622', on: '#283F66',
       ground: [236, 233, 225], basemap: 'https://tiles.openfreemap.org/styles/positron' }))
 // Orthophoto of Catalonia, ICGC base-map service (CC BY 4.0)
 export const ORTO = 'https://geoserveis.icgc.cat/servei/catalunya/mapa-base/wmts/orto/MON3857NW/{z}/{x}/{y}.png'

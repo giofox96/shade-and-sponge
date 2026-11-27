@@ -10,9 +10,9 @@ pit-to-service distance is written (§3.2 p.82 only asks for the service plans; 
 Inputs (OMEN only, gitignored, ACEFAT eWise request 872551): databases/barcelona/raw/ewise/GN_872551_Vectorial.dwg/*.dxf
 (layers BP = gas mains, ACOMETIDA = gas service lines) and TF1_872551_Vectorial.dwg/*.dxf (Canalizacion_Barna_shape = ducts).
 TERMS: raw utility geometry never leaves this script; only per-spot distances (0.1 m) and the flag are written.
-Outputs: databases/barcelona/porta_spots_utilities.csv; `utility_conditional` (0/1 per spot) added to the spots of
-web/public/data/porta*/trees.json; counts printed (spots and, for context, existing trees)."""
-import json, glob, pathlib
+Outputs: databases/barcelona/porta_spots_utilities.csv; counts printed (spots and, for context, existing trees). The public web
+app uses the synthetic layer instead (scripts/synthetic_utilities.py)."""
+import json, pathlib
 import numpy as np, pandas as pd
 from pyproj import Transformer
 from shapely.geometry import LineString, Point, box
@@ -77,12 +77,8 @@ tx, ty = to_utm.transform(T["positions"]["lon"] + T["kept"]["lon"], T["positions
 TP = [p for p in map(Point, tx, ty) if AREA.contains(p)]
 td = np.min([nearest(TP, g) for g in nets.values()], axis=0)
 
-# web app: the flag per spot (spots outside the rectangle: 0)
-flag = dict(zip(out.spot_id, out.utility_conditional))
-for f in sorted(glob.glob(str(ROOT / "web/public/data/porta*/trees.json"))):
-    j = json.load(open(f, encoding="utf-8"))
-    j["spots"]["utility_conditional"] = [int(flag.get(i, 0)) for i in j["spots"]["id"]]
-    json.dump(j, open(f, "w", encoding="utf-8"), separators=(",", ":"))
+# web app: no longer written here. The public app shows the SYNTHETIC layer (scripts/synthetic_utilities.py, tutor feedback
+# 24 Nov G2); the real flags stay in the CSV above and are reported as counts only.
 
 within = lambda d, r: int((d <= r).sum())
 print(f"lines: " + ", ".join(f"{k} {len(g)}" for k, g in nets.items()))
