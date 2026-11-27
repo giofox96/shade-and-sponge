@@ -1,7 +1,7 @@
 <script setup>
 import { onMounted, watch, ref } from 'vue'
 import { download } from './exporter.js'
-import { state, load, switchSite, scenario, label, layoutEff, runLive, runArea, setAddMode, addedCsv, startDrawing, finishArea,
+import { state, load, scenario, label, layoutEff, runLive, runArea, setAddMode, addedCsv, startDrawing, finishArea,
   cancelDrawing, clearArea, fillableSpots, spotClass, startEditArea, finishEditArea, cancelEditArea, setAreaAll, fillAreaSpots, panels, ui, MIN_SPACING_M, BALANCED, LIVE, AREA } from './store.js'
 import MapView from './components/MapView.vue'
 import PriorityTriangle from './components/PriorityTriangle.vue'
@@ -70,24 +70,6 @@ watch(
         <button :class="{ on: ui.mode === 'guided' }" :aria-pressed="ui.mode === 'guided'" title="One step at a time (v0.2.0)" @click="ui.mode = 'guided'">Guided</button>
         <button :class="{ on: ui.mode === 'expert' }" :aria-pressed="ui.mode === 'expert'" title="Every setting at once (as v0.1.0)" @click="ui.mode = 'expert'">Expert</button>
       </span>
-      <template v-if="ui.mode === 'expert'">
-      <span class="ctl muted">Palette</span>
-      <span class="seg" role="group" aria-label="Species palette">
-        <button :class="{ on: state.site !== 'porta-barcelona' }" @click="switchSite('porta')">City (7)</button>
-        <button :class="{ on: state.site === 'porta-barcelona' }" @click="switchSite('porta-barcelona')">Barcelona (30)</button>
-      </span>
-      <template v-if="state.site !== 'porta-barcelona'">
-        <span class="ctl muted">New trees at</span>
-        <span class="seg" role="group" aria-label="Size of the new trees">
-          <button :class="{ on: state.site === 'porta-segona' }" aria-label="About 10 years after planting"
-                  title="Second trunk class (41–80 cm perimeter): median 9.7 years after planting for the dated palette trees"
-                  @click="switchSite('porta-segona')">≈ 10 years</button>
-          <button :class="{ on: state.site === 'porta' }" aria-label="Established trees"
-                  title="Third trunk class (81–110 cm perimeter): the thesis comparison at equal trunk size"
-                  @click="switchSite('porta')">Established</button>
-        </span>
-      </template>
-      </template>
       <span class="seg" role="group" aria-label="Colour theme">
         <button v-for="[t, l] in [['auto', 'Auto'], ['light', 'Light'], ['dark', 'Dark']]" :key="t" :class="{ on: ui.theme === t }"
                 :aria-pressed="ui.theme === t" :title="t === 'auto' ? 'Follow the system setting' : `${l} theme`" @click="ui.theme = t">{{ l }}</button>
@@ -139,7 +121,7 @@ watch(
             Include {{ state.area.spotIdx.filter((s) => spotClass(s) === 'conditional').length }} conditional spots</label>
           <p class="small muted">{{ state.area.all ? 'All the street trees inside are replaced.' : `Only the ${state.area.idx.length} planes are replaced.` }}</p>
           <p v-if="state.area.all" class="small accent">New trees are scored at the selected size, today's at theirs: replacing young or healthy
-            trees looks like a gain that takes years to arrive. Check "≈ 10 years".</p>
+            trees looks like a gain that takes years to arrive.</p>
         </template>
         <details class="how"><summary>How it works</summary>
           <p class="small muted">Trees are replaced where a dead tree, a project or a street rebuild opens the ground. Draw that place: only the
@@ -211,7 +193,7 @@ watch(
       <ComparePanel v-else-if="state.view === 'compare'" />
       <SpeciesCards v-else-if="state.view === 'species'" />
       <template v-else><MapView :key="state.site" /><MapToolbar /></template>
-      <ScheduleTable v-if="state.showSchedule" />
+      <Transition name="sheet"><ScheduleTable v-if="state.showSchedule" /></Transition>
       <GuidedFlow v-if="ui.mode === 'guided'" />
       <PanelHandle v-if="ui.mode === 'expert'" side="left" />
       <PanelHandle v-if="ui.mode === 'expert'" side="right" />

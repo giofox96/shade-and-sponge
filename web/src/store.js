@@ -9,7 +9,7 @@ export const LIVE = 'live'
 export const AREA = 'area'
 
 export const state = reactive({
-  site: 'porta',
+  site: 'porta-barcelona', // one palette only: the Barcelona shortlist of 30 species (user 27 Nov)
   barri: 'Porta', // neighbourhood picked in BarriPicker (only barris with exported data change `site`)
   meta: null,
   trees: null,
@@ -23,7 +23,8 @@ export const state = reactive({
   draft: [], // [lon, lat] vertices while drawing
   area: null, // { poly, idx, keptIdx, spotIdx, all, weights, layout, keptLayout, metrics, counts, city, ms }
   buildingOpacity: 1, // Map display slider: 1 = solid, lower = see-through buildings
-  showStreets: true, // sidewalk edges (facades, kerbs) and free planting spots on the map
+  showStreets: true, // sidewalk edges (facades, kerbs) and minimum pits on the map
+  showSpots: true, // free planting spots, on their own switch (user 27 Nov)
   overlay: '', // none by default: sidewalks and free spots read better (the sun / water layers are in Map display)
   basemap: 'map', // 'map' (street map) | 'satellite' (ICGC orthophoto)
   ground3d: false, // relief from the site DTM (meta.terrain); trees, buildings and lines then sit on it
@@ -88,6 +89,17 @@ export async function switchSite(site, keep = true) {
   const names = state.meta.palette.map((p) => p.species)
   carry.rules.exclude = carry.rules.exclude.filter((x) => names.includes(x)) // species the new palette lacks drop out
   await loadConfig({ ...carry, site })
+}
+
+// Leaf habit of every species drawn (web/public/data/leaf_habit.json, scripts/web_leaf_habit.py): colour code of today's
+// trees and park trees, as the palette's (ochre deciduous, green evergreen, olive semi-deciduous; grey unknown)
+export const HABIT_RGB = { deciduous: [176, 138, 46], evergreen: [94, 143, 85], 'semi-deciduous': [163, 163, 90], unknown: [150, 150, 140] }
+export const habits = reactive({ map: {} })
+fetch('./data/leaf_habit.json').then((r) => r.json()).then((m) => (habits.map = m)).catch(() => {})
+// a cultivar falls back to its species (first two words, without the cultivar name)
+export function habitOf(sp) {
+  const m = habits.map
+  return m[sp] ?? m[(sp ?? '').replace(/['‘’].*/, '').replace(/[×�]/g, 'x').split(/\s+/).slice(0, 2).join(' ')] ?? 'unknown'
 }
 
 export const dataUrl = (file) => `./data/${state.site}/${file}`
@@ -589,7 +601,24 @@ export const spotWhy = (s) => {
     S.utility_conditional?.[s] && `buried service${state.meta?.utilities?.synthetic ? ' (synthetic)' : ''}`].filter(Boolean).join(', ')
 }
 // the area's spots that "Fill" plants: free ones, plus conditional ones when the switch is on
-export const fillableSpots = () => state.area.spotIdx.filter((s) => spotClass(s) === 'free' || state.useConditional)
+// Move (user tests 27 Nov): a tree marked Move goes to an empty spot the designer picks on the map. Its old pit is replaced
+// like any other row; at the new spot the tree is drawn with its own crown and its transplant is costed, but its shade and
+// water there are not scored (ASSUMPTION: a moved tree's effect at the spot is left out of the estimates).
+export const moveTargets = () => {
+  const m = new Map()
+  for (const [key, e] of Object.entries(state.schedule.trees)) if (e.action === 'move' && e.to) m.set(e.to, key)
+  return m
+}
+export function pickMoveTarget(key) { state.movePick = key; state.addMsg = 'Click an empty spot on the map for this tree.' }
+export async function setMoveTarget(spotIdx) {
+  const key = state.movePick, id = state.trees.spots.id[spotIdx]
+  state.movePick = null
+  state.addMsg = null
+  if (!key || moveTargets().has(id)) return
+  await setTreeEntry(key, { action: 'move', to: id })
+}
+export const fillableSpots = () => state.area.spotIdx.filter((s) => (spotClass(s) === 'free' || state.useConditional) &&
+  !moveTargets().has(state.trees.spots.id[s])) // a spot that receives a moved tree is taken
 
 // "Fill the free spots": every free planting spot in the area becomes an added tree (sizing rule of its sidewalk)
 export async function fillAreaSpots() {

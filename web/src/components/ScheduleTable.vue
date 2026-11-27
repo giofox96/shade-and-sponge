@@ -4,7 +4,7 @@
 // the actions change what the optimiser replaces or plants (store.js, areaSets / setSpotEntry).
 import { computed, ref, watch, nextTick } from 'vue'
 import { state, currentLayout, keptReplaced, spotClass, spotWhy, AREA, TREE_ACTIONS, SPOT_ACTIONS, REASONS, CHECKS, keptKey,
-  setTreeEntry, setSpotEntry, focusOn, scheduleCsv, configJson, loadConfig, removeAdded } from '../store.js'
+  setTreeEntry, setSpotEntry, pickMoveTarget, focusOn, scheduleCsv, configJson, loadConfig, removeAdded } from '../store.js'
 
 const tab = ref('trees')
 const filter = ref('')
@@ -37,7 +37,7 @@ const treeRows = computed(() => {
     }),
     ...kept.map((k) => {
       const key = keptKey(k), e = sched[key] ?? {}
-      return { key, sel: key, id: `other ${k + 1}`, lon: K.lon[k], lat: K.lat[k], today: K.species[k], next: pal[repl.get(k)]?.species ?? '',
+      return { key, sel: key, id: K.tree_id?.[k] ?? `other ${k + 1}`, lon: K.lon[k], lat: K.lat[k], today: K.species[k], next: pal[repl.get(k)]?.species ?? '',
         width: K.sw_width_m?.[k], size: K.size_class?.[k], crown: K.crown_diam_m[k], ...e, ...auto(e, repl.has(k)) }
     }),
   ]
@@ -136,6 +136,9 @@ async function openCfg(ev) {
                       :aria-label="`Action for ${r.id}`" @change="setTreeEntry(r.key, { action: $event.target.value })">
                 <option v-for="[v, l] in TREE_ACTIONS" :key="v" :value="v">{{ l }}</option>
               </select>
+              <button v-if="r.action === 'move' && !r.isNew" class="to" :class="{ on: state.movePick === r.key }"
+                      :title="r.to ? `Moving to spot ${r.to}: click to choose another` : 'Choose the empty spot this tree goes to'"
+                      @click="pickMoveTarget(r.key)">{{ r.to ? `→ ${r.to}` : 'choose spot' }}</button>
             </td>
             <td @click.stop>
               <template v-if="!r.isNew">
@@ -182,9 +185,11 @@ async function openCfg(ev) {
 </template>
 
 <style scoped>
+.to { font-size: 11px; padding: 1px 6px; border-radius: 999px; margin-left: 4px; }
+.to.on { background: var(--accent); color: var(--bg); }
 select.auto { font-style: italic; color: var(--muted); }
-.schedule { position: absolute; left: 0; right: 0; bottom: 0; height: 42%; z-index: 6; display: flex; flex-direction: column;
-  background: var(--panel); border-top: 0.5px solid var(--line); box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.1); }
+.schedule { position: absolute; left: 12px; right: 12px; bottom: 12px; height: 42%; z-index: 6; display: flex; flex-direction: column;
+  background: var(--panel); border: 0.5px solid var(--line); border-radius: 16px; overflow: hidden; box-shadow: 0 10px 30px rgba(42, 38, 34, 0.16); }
 .bar { display: flex; align-items: center; gap: 8px; padding: 6px 10px; flex-wrap: wrap; border-bottom: 0.5px solid var(--line); }
 .spacer { flex: 1; }
 .find { font: inherit; font-size: 12px; padding: 3px 6px; border: 0.5px solid var(--line); border-radius: 4px; background: var(--bg); color: var(--text); min-width: 160px; }
