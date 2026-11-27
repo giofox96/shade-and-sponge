@@ -414,6 +414,26 @@ def n_florence(s):
     source(s, "Comune di Firenze, LiDAR 2023 and Alberi (CC BY 4.0); Life Escapos tree census (CC BY-NC 4.0); Overture Maps (ODbL).")
 
 
+def n_cobenefits(s):
+    """Co-benefits of the Porta layouts (cobenefits_porta.csv, PR #198, post-fix crowns): reported, not optimised.
+    City practice = S1b_obs_0 (one draw: the co-benefits are computed on that draw only). Method = balanced S4_s0.50_w0.25_r0.25.
+    Carbon: Jucker et al. 2017 allometry from height x crown, x0.5. Pollen: Cariñanos et al. 2014 load; lower bound = unscored
+    species count 0, upper bound = top of each scale."""
+    head(s, "Co-benefits: reported, not optimised", "Porta, the 832 planes replaced; today = 100, new trees grown to the planes' trunk size")
+    w = 7.6
+    dumbbell(s, M, 1.7, w, "trees", "Carbon stored", 45.2, 56.0, "City practice", lo=0, hi=110, c=TREE)
+    dumbbell(s, M, 3.9, w, "heart", "Pollen load (unscored species at the top of the scale)", 43.4, 31.9, "City practice", lo=0, hi=110, c=HEAT)
+    x = M + w + 0.5
+    for k, (big, small, c) in enumerate((("+11 pts", "carbon kept by the method over city practice", TREE),
+                                         ("< ½", "today's pollen load with any replacement (8–43%): the planes are highly allergenic", HEAT),
+                                         ("not goals", "the tool reports these; it optimises shade and runoff", MUTED))):
+        y = 1.6 + k * 1.55
+        box(s, x, y, W - M - x, 1.35, tint(c, 0.10))
+        text(s, x + 0.25, y, W - M - x - 0.4, 1.35, [[(big, {"bold": True, "color": c, "size": 26})], small], 13, INK,
+             anchor=MSO_ANCHOR.MIDDLE)
+    source(s, "Jucker et al. 2017 (carbon from height and crown); Cariñanos et al. 2014 (pollen); ICGC, LiDAR 2021.")
+
+
 def n_cost(s):
     head(s, "Cost of each action", "Direct cost per tree; the method changes the species, not the number of works")
     rows = [("circle-check", "Keep", 44, 44, "~44 €", TREE), ("circle-plus", "Add", 260, 260, "~260 €", TREE),
@@ -513,6 +533,7 @@ SLIDES = [
     (n_obstacles, "The conditional spots: signs, lamps, crossings and bollards a project can move, and underground services that need a field check."),
     (n_water, "Where the water goes in Porta: the flow paths from the terrain and the city's flood hotspots."),
     (n_runoff, "The runoff module: the design storm falls on a one-metre grid; crowns hold water, the soil takes some, the rest flows downhill to the flood spots."),
+    (n_cobenefits, "The tool also reports co-benefits, without optimising them. Once the new trees are grown, the method stores 56% of today's carbon against 45% for city practice. Pollen falls with any replacement, because the planes are highly allergenic: between 8 and 43% of today, depending on how unscored species count; the ranking between method and practice flips with that choice, so I do not claim it."),
     (n_florence, "And in Florence: in Firenze Nova, ten sites with 133 planes, the method at the city's announced diversity gives 92% of today's planes' summer shade, against 74% for city practice and 63% for Florence's own recent plantings. Without the diversity floor it reaches 97.5%, but almost all one species, so the floor stays. Runoff rises slightly for every option, 0.14% for the method."),
 ]
 
@@ -530,9 +551,9 @@ ORDER = ["OLD M1", "NEW N15", "NEW N16", "NEW N17", "NEW N18",               # w
          "OLD M9", "NEW N20", "NEW N24",                                               # rules, spots
          "NEW N2", "NEW N26", "OLD M11", "OLD M12", "NEW N25", "OLD B1",               # heat, runoff, bucket, hill, trade-off triangle
          "NEW N3", "NEW N21",                                               # scenarios, city practice
-         "§Results", "NEW N4", "NEW N5", "NEW N6", "OLD B8",                # Porta, city plan, back-test, Rio de Janeiro
+         "§Results", "NEW N4", "NEW N27", "NEW N5", "NEW N6", "OLD B8",                # Porta, city plan, back-test, Rio de Janeiro
          "NEW N7", "NEW N8",                                                # diversity explained, its cost
-         "OLD B5", "NEW N9", "NEW N27",                                                # Mataró: why, result
+         "OLD B5", "NEW N9", "NEW N28",                                                # Mataró: why, result
          "§In practice", "NEW N10", "NEW N11",                              # cost, 10 M€
          "§Conclusions", "NEW N13", "NEW N14", "OLD M15", "NEW N22"]                   # results read, limits, next/thanks
 # Removed in the review (26 Nov): replaced by a new slide, or the appendix.
