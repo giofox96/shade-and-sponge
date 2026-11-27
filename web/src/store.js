@@ -30,7 +30,7 @@ export const state = reactive({
   ground3d: false, // relief from the site DTM (meta.terrain); trees, buildings and lines then sit on it
   terrain: null, // { w, h, z (Float32Array, m above the site's lowest point), bounds: [west, south, east, north] } once loaded
   showLidar: false, // thinned LiDAR cloud (meta.lidar), loaded on first use
-  showParks: false, // park and zone trees (meta.parks): context only, never scored
+  showParks: true, // park and zone trees (meta.parks): context only, never scored; always drawn (user 27 Nov)
   parks: null, // { site, id, kind, place, species, lon, lat, height_m, crown_diam_m, crown_base_m } once loaded
   showUtilities: false, // SYNTHETIC underground services (meta.utilities, scripts/synthetic_utilities.py): a mock, not real plans
   utilities: null, // { site, features } once loaded
