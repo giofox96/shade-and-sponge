@@ -404,14 +404,19 @@ def n_florence(s):
     """Florence transfer test (PR #199): Firenze Nova, 10 sites of 200 m, 133 planes; pooled layouts, today's crowns from the
     Comune di Firenze LiDAR 2023. Headline = method with the 9.4 diversity floor (without it 97.5%, but 94% Gleditsia)."""
     head(s, "Transfer: Florence", "Firenze Nova, 10 sites, 133 planes replaced: new trees' summer shade, % of today's planes")
-    pic_h(s, "florence_sites", M, 1.4, 5.3, 5.2)
-    x = M + 5.5
-    text(s, x, 1.45, W - M - x, 1.2, [[("92% vs 74%", {"bold": True, "color": TREE, "size": 40})],
-                                      "the method, at the city's announced diversity, against city practice"], 15, INK)
-    bars(s, x, 2.75, W - M - x, 2.6, ["Method, ≥ 9.4 species", "City practice (BCN)", "Announced mix (BCN)", "Florence's recent plantings"],
-         [92, 74, 71, 63], [TREE, GREY, GREY, WARN], axis_min=0, axis_max=110)
-    text(s, x, 5.45, W - M - x, 1.0, [[("Runoff: ", {"bold": True}), ("+0.14%, all options rise slightly. ", {}),
-                                       ("Without the floor: ", {"bold": True}), ("97.5%, but 94% Gleditsia.", {})]], 13, MUTED)
+    from pptx.enum.shapes import MSO_SHAPE
+    pic_h(s, "florence_sites_map", M, 1.35, 5.55, 5.7)
+    x = M + 6.1
+    text(s, x, 1.45, W - M - x, 1.3, [[("92% vs 74%", {"bold": True, "color": TREE, "size": 44})],
+                                      "summer shade of the new trees, method (≥ 9.4 species) vs city practice"], 15, INK)
+    text(s, x, 3.0, W - M - x, 0.4, "Method, species per tree", 14, MUTED, True)
+    for k, (sp, n, c) in enumerate((("Gleditsia triacanthos", 37, TREE), ("Tilia x europaea", 26, RAIN), ("Melia azedarach", 16, HEAT),
+                                    ("Tipuana tipu", 11, WARN), ("Grevillea robusta", 8, "#9DB596"), ("other species", 35, GREY))):
+        y = 3.45 + k * 0.4
+        o = s.shapes.add_shape(MSO_SHAPE.OVAL, Inches(x + 0.05), Inches(y + 0.1), Inches(0.2), Inches(0.2))
+        o.fill.solid(); o.fill.fore_color.rgb = rgb(c); o.line.fill.background()
+        text(s, x + 0.4, y, W - M - x - 0.4, 0.4, [[(sp, {"italic": sp != "other species"}), (f"  {n}", {"color": MUTED})]], 15, INK)
+    text(s, x, 5.95, W - M - x, 0.5, "Florence's recent plantings: 63%. Runoff +0.14% for all options.", 12, MUTED)
     source(s, "Comune di Firenze, LiDAR 2023 and Alberi (CC BY 4.0); Life Escapos tree census (CC BY-NC 4.0); Overture Maps (ODbL).")
 
 
