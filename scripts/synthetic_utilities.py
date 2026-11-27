@@ -9,8 +9,9 @@ random draws from those distributions: it says nothing about where Porta's real 
 
 Networks: gas mains and service lines (Nedgia DXF), Telefónica ducts (DXF), and from the PDF plans georeferenced by
 scripts/utilities_pdf.py water mains and service lines (Aigües de Barcelona), Vodafone-ONO ducts and street lighting
-(Ajuntament). Not generated: electricity (Endesa sent raster images only), sewers (under the road; BCASA draws no house
-connections) and traffic lights (drawn in the base-map colour, not separable).
+(Ajuntament), and low/medium-voltage electricity traced from Endesa's raster plans (scripts/utilities_raster.py). Not
+generated: sewers (under the road; BCASA draws no house connections) and traffic lights (drawn in the base-map colour, not
+separable).
 The flag: a spot is "conditional" when its pit would sit on a line: PTEV 2024 §2.2.6.2 p.31, pit footprint = disc of radius
 PIT_R_M (ASSUMPTION, as scripts/utilities_conditional.py).
 Inputs: web/public/data/porta/sidewalks.geojson (façade and kerb lines, city 1:1000 map), the spots in trees.json, the
@@ -34,8 +35,9 @@ STEP_M = 1.0                  # sampling step along a façade
 MIN_OFF_M = 0.3               # a line never touches the façade
 PIT_R_M = 0.5                 # pit footprint radius (ASSUMPTION, scripts/utilities_conditional.py)
 NOTE = "SYNTHETIC: random positions drawn from how the real networks sit in the street (demo rectangle), not Porta's real services"
-LONG = {"gas_main": "gas", "water_main": "water", "telecom": "telecom", "telecom_ono": "telecom (ONO)", "lighting": "lighting"}
-SERVICES = {"gas_service": "gas service", "water_service": "water service"}   # lines straight across the sidewalk
+LONG = {"gas_main": "gas", "water_main": "water", "electricity_lv": "electricity (LV)", "electricity_mv": "electricity (MV)",
+        "telecom": "telecom", "telecom_ono": "telecom (ONO)", "lighting": "lighting"}
+SERVICES = {"gas_service": "gas service", "water_service": "water service", "electricity_service": "electricity service"}
 # Real services and today's trees: in the rectangle no gas service line passes within PIT_R_M of a trunk, so a synthetic one
 # slides up to SLIDE_M along the façade to miss one, or is dropped. Mains and ducts drawn at random already hit about as many
 # trunks as the real ones (seeds 1-6: 19-43 trunks of 244 vs 26 real, same rectangle, in-sample), so they take one draw;

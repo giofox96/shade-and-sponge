@@ -1,10 +1,10 @@
 """Georeference the eWise PDF plans and pull out their networks: python scripts/utilities_pdf.py
 The water (Aigües de Barcelona), municipal (BCASA: sewers; Ajuntament: lighting, traffic lights, fibre) and Vodafone-ONO plans
 came as PDFs. Their lines are vectors (scripts/pdf_lines.py) but in page units. Each sheet is placed in EPSG:25831 by matching
-its base-map lines (the city cartography every operator draws under its network) to the same cartography in Nedgia's DXF
-(layers FINCA, MANZANA, FONDO_LINEA, already in EPSG:25831): scale from a short list of plan scales, translation by FFT
-cross-correlation of 1 m occupancy grids, then a few rounds of least-squares similarity fit (ICP) on nearby point pairs. The
-fit residual is printed per sheet; a sheet that does not fit (median > 1.5 m) is skipped.
+its base-map lines (the city cartography every operator draws under its network) to the city's façade and kerb lines
+(target(), EPSG:25831): for each scale in a short list of plan scales, translation by FFT
+cross-correlation of 1 m occupancy grids, then a few rounds of least-squares similarity fit (ICP) on nearby point pairs; the
+scale with the smallest residual wins. The fit residual is printed per sheet; a sheet that does not fit (median > 1.5 m) is skipped.
 
 TERMS: everything stays on the OMEN, under EWISE_DIR/derived/ (gitignored): the per-network lines (networks_pdf.geojson) feed
 scripts/utilities_study.py, which writes aggregates only. Raw geometry never goes into the repo, the web app or slides."""
@@ -19,7 +19,8 @@ ROOT = pathlib.Path(__file__).resolve().parents[1]
 RAW = pathlib.Path(os.environ.get("EWISE_DIR", ROOT / "databases/barcelona/raw/ewise"))
 OUT = RAW / "derived"
 PT_M = 0.0254 / 72                     # one PDF point on paper, in metres
-SCALES = (250, 500, 1000, 2000)        # candidate plan scales 1:n
+SCALES = (500,)                        # plan scale 1:n: every eWise sheet says 1:500; letting the fit choose among 1:250-1:2000
+                                       # gave wrong 1:250 fits on some sheets (a smaller residual inside the blocks)
 MAX_RES = 1.5                          # m, median residual above which a sheet is not used
 
 # per PDF: which stroke colours are base map (to fit) and which are networks (to keep), from each plan's legend and a render
@@ -92,7 +93,7 @@ def fit(src, tgt_pts, tree, box):
     x0, y0 = box[0], box[1]
     W, H = int(box[2] - x0), int(box[3] - y0)
     G = np.fft.rfft2(grid(tgt_pts, x0, y0, W, H))
-    best = None
+    best = []
     for n in SCALES:
         P = src * PT_M * n
         P = P - P.min(0)
@@ -102,21 +103,32 @@ def fit(src, tgt_pts, tree, box):
         c = np.fft.irfft2(G * np.conj(np.fft.rfft2(S)), s=(H, W))
         k = np.unravel_index(np.argmax(c), c.shape)
         sc = c[k] / max(S.sum(), 1)
-        if best is None or sc > best[0]:
-            best = (sc, n, np.array([x0 + k[1], y0 + k[0]]) - (src * PT_M * n).min(0))
-    if best is None:
-        return None, np.inf, None
-    _, n, t = best
-    s, R = PT_M * n, np.eye(2)
-    for it in range(25):                                     # ICP on pairs closer than a shrinking radius
-        Q = s * src @ R.T + t
-        d, j = tree.query(Q)
-        keep = d < max(1.0, 6.0 - it * 0.4)
-        if keep.sum() < 50:
-            break
-        s, R, t = similarity(src[keep], tgt_pts[j[keep]])
-    d, _ = tree.query(s * src @ R.T + t)
-    return (lambda p: s * np.asarray(p) @ R.T + t), float(np.median(d)), round(s / PT_M)
+        best.append((n, np.array([x0 + k[1], y0 + k[0]]) - (src * PT_M * n).min(0)))
+    out = (None, np.inf, None)
+    for n, t in best:                                        # every scale refined; the smallest residual wins
+        s, R = PT_M * n, np.eye(2)
+        for it in range(25):                                 # ICP on pairs closer than a shrinking radius
+            Q = s * src @ R.T + t
+            d, j = tree.query(Q)
+            keep = d < max(1.0, 6.0 - it * 0.4)
+            if keep.sum() < 50:
+                break
+            s, R, t = similarity(src[keep], tgt_pts[j[keep]])
+        res = float(np.median(tree.query(s * src @ R.T + t)[0]))
+        if res < out[1]:
+            out = ((lambda p, s=s, R=R, t=t: s * np.asarray(p) @ R.T + t), res, round(s / PT_M))
+    return out
+
+
+def target():
+    """Fit target, 0.5 m apart: the façade and kerb lines of the city's 1:1000 map (web/public/data/porta/sidewalks.geojson)
+    plus Nedgia's block and parcel outlines (MANZANA, FINCA), the cartography the operators draw under their networks."""
+    from pyproj import Transformer
+    tr = Transformer.from_crs(4326, 25831, always_xy=True)
+    sw = json.load(open(ROOT / "web/public/data/porta/sidewalks.geojson", encoding="utf-8"))["features"]
+    T = dense([np.c_[tr.transform(*np.asarray(f["geometry"]["coordinates"]).T)] for f in sw] + dxf_lines({"MANZANA", "FINCA"}), 0.5)
+    T = T[(T[:, 0] > 430900) & (T[:, 0] < 431700) & (T[:, 1] > 4586600) & (T[:, 1] < 4587400)]   # request area + 250 m
+    return T, cKDTree(T), (T[:, 0].min() - 150, T[:, 1].min() - 150, T[:, 0].max() + 150, T[:, 1].max() + 150)
 
 
 def close(c, ref):
@@ -124,10 +136,7 @@ def close(c, ref):
 
 
 if __name__ == "__main__":
-    base = dxf_lines({"FINCA", "MANZANA", "FONDO_LINEA"})
-    T = dense(base, 0.5)
-    tree = cKDTree(T)
-    box = (T[:, 0].min() - 150, T[:, 1].min() - 150, T[:, 0].max() + 150, T[:, 1].max() + 150)
+    T, tree, box = target()
     feats = []
     for fn, cfg in PLANS.items():
         for p in pages(str(RAW / fn)):

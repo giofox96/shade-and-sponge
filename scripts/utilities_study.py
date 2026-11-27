@@ -1,7 +1,8 @@
 """How the real buried services sit in the street, to make the synthetic layer believable: python scripts/utilities_study.py
 Reads the eWise vector plans (ACEFAT request 872551: gas mains BP, gas service lines ACOMETIDA, Telefónica ducts; entrance
 numbers PORTAL_500) and the PDF plans georeferenced by scripts/utilities_pdf.py (water mains and service lines, Vodafone-ONO
-ducts, street lighting) inside the demo rectangle, and measures each network against the city's façade and kerb lines
+ducts, street lighting) and Endesa's raster plans traced by scripts/utilities_raster.py (low and medium voltage) inside the
+demo rectangle, and measures each network against the city's façade and kerb lines
 (web/public/data/porta/sidewalks.geojson): how much of it runs under the sidewalk or the road, how far from the façade (in
 metres and as a share of the sidewalk width), how much of the façade has one in front, and how often service lines leave a
 façade. The same measures run on the synthetic layer (web/public/data/porta/utilities.geojson) so the two can be compared.
@@ -165,6 +166,16 @@ if __name__ == "__main__":
         for k in ("telecom_ono", "lighting"):
             if k in pdf:
                 real[k] = pdf[k]
+    # Endesa's raster plans, traced by scripts/utilities_raster.py: low voltage (mains + service lines) and medium voltage
+    ras_f = RAW / "derived/networks_raster.geojson"
+    if ras_f.exists():
+        ras = {}
+        for f in json.load(open(ras_f))["features"]:
+            ras.setdefault(f["properties"]["network"], []).append(LineString(f["geometry"]["coordinates"]))
+        if "electricity_lv" in ras:
+            real["electricity_lv"], real["electricity_service"] = split(ras["electricity_lv"])
+        if "electricity_mv" in ras:
+            real["electricity_mv"] = ras["electricity_mv"]
     R = measure(real, dxf("GN", "PORTAL_500", "TEXT"))
     syn_f = ROOT / (sys.argv[1] if len(sys.argv) > 1 else "web/public/data/porta/utilities.geojson")
     S = {}
