@@ -121,9 +121,12 @@ function saveCfg() {
 
   <section v-else-if="ui.step === 5 && A">
     <h3>6 · Compare with the city's practice</h3>
-    <p class="small">"vs city practice" = the city's 2026 planting mix on the same positions. The project-area table gives the area on its own.</p>
+    <p class="small">"vs city practice" = the mix the city actually planted in place of plane trees in 2018–2026, on the same positions. The project-area table gives the area on its own.</p>
     <KpiPanel />
-    <p class="sub">Cost <span class="muted">· your own unit prices (the tool has none)</span></p>
+    <p class="sub">Cost <span class="muted">· direct costs, change them to your own prices</span></p>
+    <p class="small muted">Defaults from the CYPE price generator and the Arenys de Mar 2024 list, no VAT: new tree in a new pit ~260 €
+      (a replaced small tree ~190 €, a large one with its stump ~1,070 €), young-tree transplant ~700 €, moving a sign ~80 € without the post.
+      Watering for the first years is not priced. City practice on the same positions costs about the same: same actions, other species.</p>
     <div class="cost">
       <label>€ per new tree (planting, pit) <input type="number" min="0" step="10" v-model.number="costs.tree" /></label>
       <label>€ per transplant (Move) <input type="number" min="0" step="10" v-model.number="costs.move" /></label>

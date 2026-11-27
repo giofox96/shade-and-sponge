@@ -105,7 +105,7 @@ watch(
         <h3>1 · Scenario</h3>
         <div class="btns">
           <button :class="{ on: state.scenarioId === 'S0_current' }" @click="state.scenarioId = 'S0_current'">Today</button>
-          <button :class="{ on: state.scenarioId === 'S1a_city_0' }" @click="state.scenarioId = 'S1a_city_0'">City practice</button>
+          <button :class="{ on: state.scenarioId === 'S1b_obs_0' }" @click="state.scenarioId = 'S1b_obs_0'">City practice</button>
           <button :class="{ on: state.scenarioId.startsWith('S4') || state.scenarioId === LIVE }" @click="state.scenarioId = BALANCED">Optimised</button>
           <button v-if="state.area" :class="{ on: state.scenarioId === AREA }" @click="state.scenarioId = AREA">Project area</button>
           <button class="ghost" :class="{ on: state.scenarioId === 'S1_random_0' }" title="A random palette under the same rules: what optimisation adds over chance"

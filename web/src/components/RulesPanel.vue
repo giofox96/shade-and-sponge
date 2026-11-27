@@ -4,7 +4,7 @@
 import { state, layoutEff } from '../store.js'
 
 // diversity-floor benchmarks (notes/cobenefits_plan.md): the city's 2026 mix in Porta, and Santamour's 10% species cap
-const DIV_PRESETS = [[9.4, 'City practice 9.4', "Effective species of the city's 2026 mix on Porta's plane positions"],
+const DIV_PRESETS = [[9.4, 'City announced mix 9.4', "Effective species of the city's announced 2026 mix on Porta's plane positions"],
   [10, 'Santamour 10', 'No species above 10% (Santamour 1990) means at least 10 effective species']]
 </script>
 

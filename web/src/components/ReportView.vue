@@ -66,7 +66,7 @@ const today = new Date().toLocaleDateString('en-GB', { day: 'numeric', month: 'l
         <h2>Cost</h2>
         <p>≈ € {{ n(projectCost.total) }} ({{ projectCost.n.replace + projectCost.n.add }} new trees, {{ projectCost.n.move }} transplants,
           {{ projectCost.n.object }} objects moved)<template v-if="projectCost.perTree">, € {{ n(projectCost.perTree) }} per tree</template><template
-          v-if="projectCost.perShade">, € {{ n(projectCost.perShade) }} per 1,000 m²·h of summer shade gained</template>. Unit prices entered by the user.</p>
+          v-if="projectCost.perShade">, € {{ n(projectCost.perShade) }} per 1,000 m²·h of summer shade gained</template>. Direct costs, no VAT, watering not priced; unit prices as set in step 6.</p>
       </template>
 
       <h2>Species</h2>

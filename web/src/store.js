@@ -813,7 +813,11 @@ watch(panels, (p) => {
 // ---- cost of the project area (v0.2.0, notes/tutor_feedback_24nov.md §3c): unit costs are the designer's own (the tool has no
 // sourced prices), remembered in this browser; shown beside heat and runoff, never optimised
 const COST_KEY = 'shade-sponge-costs'
-export const costs = reactive((() => { try { return JSON.parse(localStorage.getItem(COST_KEY)) ?? {} } catch { return {} } })())
+// default unit prices = direct costs (no overhead, profit or VAT), notes/costs_stakeholders.md §1: new pit on a free spot ~260 €
+// (a replaced small tree ~190 €, a large one with its stump ~1,070 €), young-tree transplant ~700 € (CYPE JSP020),
+// dismantling and re-installing a traffic sign ~80 € without the post (CYPE DTM030, TSV050). Watering is not priced.
+const COST_DEFAULTS = { tree: 260, move: 700, object: 80 }
+export const costs = reactive((() => { try { return JSON.parse(localStorage.getItem(COST_KEY)) ?? { ...COST_DEFAULTS } } catch { return { ...COST_DEFAULTS } } })())
 watch(costs, (c) => { try { localStorage.setItem(COST_KEY, JSON.stringify(c)) } catch { /* storage blocked */ } }, { deep: true })
 export const projectCost = computed(() => {
   const A = state.area
