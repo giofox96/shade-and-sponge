@@ -2,7 +2,7 @@
 The real plans (ACEFAT eWise request 872551, scripts/utilities_conditional.py) cannot be published, so the public app shows
 a mock layer. v2 (user 27 Nov: "study the eWise data and generate believable ones"): the layer now copies how the real
 networks sit in the street, measured by scripts/utilities_study.py in the demo rectangle and read here as aggregates only
-(EWISE_DIR/derived/utility_params.json, gitignored): for each network, the share of façade length with a line in front, how
+(databases/barcelona/utility_params.json: aggregates only, published with the user's approval on 27 Nov): for each network, the share of façade length with a line in front, how
 long a continuous piece runs, whether it lies under the sidewalk or the road, and how far from the façade (as a share of the
 sidewalk width) or past the kerb; for gas service lines, how often one leaves a façade and how long it is. Positions are
 random draws from those distributions: it says nothing about where Porta's real services run. Every label says "synthetic".
@@ -27,7 +27,7 @@ from shapely.strtree import STRtree
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 WEB = ROOT / "web/public/data"
-PARAMS = pathlib.Path(os.environ.get("EWISE_DIR", ROOT / "databases/barcelona/raw/ewise")) / "derived/utility_params.json"
+PARAMS = ROOT / "databases/barcelona/utility_params.json"   # aggregates from scripts/utilities_study.py (copy of EWISE_DIR/derived/)
 SEED = int(os.environ.get("SEED", 1))
 MAX_W_M = 12.0                # a façade point with no kerb this close has no sidewalk of its own (squares, courtyards)
 MIN_W_M = 1.0
@@ -61,7 +61,7 @@ kerb = [LineString(utm(f["geometry"]["coordinates"])) for f in sw if f["properti
 kp = np.vstack([np.asarray([k.interpolate(s).coords[0] for s in np.arange(0, k.length + 0.25, 0.25)]) for k in kerb])
 kd = cKDTree(kp)
 
-R = json.load(open(PARAMS, encoding="utf-8"))["real"]    # FileNotFoundError: run scripts/utilities_study.py on the OMEN first
+R = json.load(open(PARAMS, encoding="utf-8"))["real"]
 QP = [0.1, 0.25, 0.5, 0.75, 0.9]
 
 

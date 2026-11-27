@@ -484,7 +484,7 @@ function layers() {
         // orange = the pit would sit on a buried service (scripts/utilities_conditional.py)
         getFillColor: (i) => (spotClass(i) === 'blocked' ? [178, 44, 34, 245] : state.trees.spots.utility_conditional?.[i] ? [230, 120, 20, 245]
           : spotClass(i) === 'conditional' ? [235, 150, 30, 245] : [255, 255, 255, 235]) }), // red centre = blocked
-    // SYNTHETIC underground services (a mock from published rules): drawn on the ground, under the spots' rings
+    // SYNTHETIC underground services (random lines drawn from the real networks' statistics): on the ground, under the spots' rings
     state.showUtilities && state.utilities?.site === state.site &&
       new PathLayer({ id: 'utilities', data: state.utilities.features, getPath: (f) => f.geometry.coordinates, ...drape(),
         getColor: (f) => UTIL_COLOR[f.properties.network] ?? [150, 150, 150], getWidth: (f) => (f.properties.kind === 'connection' ? 1.2 : 2),
@@ -563,7 +563,7 @@ onMounted(() => {
           (c ? `\nMove first: ${spotWhy(index)}` : '') +
           (S.utility_conditional?.[index] ? `\nThe pit would sit on a buried ${state.meta.utilities?.synthetic ? 'SYNTHETIC ' : ''}line (PTEV 2024 p. 31)` : '') }
       }
-      if (layer?.id === 'utilities') return { text: `SYNTHETIC ${object.properties.network} line, not real data\n(mock from published layout rules)` }
+      if (layer?.id === 'utilities') return { text: `SYNTHETIC ${object.properties.network} line, not real data\n(random, drawn from how the real networks sit in the street)` }
       if (layer?.id === 'parks') { const P = state.parks; return { text: `${P.species[index]} (${P.kind[index]} tree, context only)${P.place[index] ? '\n' + P.place[index] : ''}` } }
       if (layer?.id === 'kept') return { text: `${state.trees.kept.species[object]} (existing)` }
       if (layer?.id !== 'positions' || index < 0) return null

@@ -153,7 +153,7 @@ export async function setParks(on) {
     state.parks = markRaw({ site: state.site, ...(await (await fetch(dataUrl(state.meta.parks.file))).json()) })
   state.showParks = on && !!state.parks
 }
-// Synthetic underground services (python scripts/synthetic_utilities.py): published layout rules + random choices, not real plans
+// Synthetic underground services (python scripts/synthetic_utilities.py): random lines drawn from the real networks' statistics, not real plans
 export async function setUtilities(on) {
   if (on && state.meta?.utilities && state.utilities?.site !== state.site)
     state.utilities = markRaw({ site: state.site, features: (await (await fetch(dataUrl(state.meta.utilities.file))).json()).features })
