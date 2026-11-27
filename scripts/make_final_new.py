@@ -205,6 +205,47 @@ def arrow(s, x1, y1, x2, y2, label=None, color=MUTED, lx=None, ly=None):
              align=PP_ALIGN.CENTER)
 
 
+def curve(s, x1, y1, x2, y2, label=None, lx=None, ly=None, orient="h", line="#CFC9BC", head=MUTED):
+    """Arrow in the methodology-flowchart style: light S-curve (cubic Bezier, as polyline) and a dark triangle head."""
+    from pptx.enum.shapes import MSO_SHAPE
+    import math
+    hl = 0.13                                                   # head length, inches
+    if orient == "h":
+        sg = 1 if x2 >= x1 else -1
+        ex, ey = x2 - sg * hl, y2
+        c1, c2 = (x1 + (ex - x1) / 2, y1), (x1 + (ex - x1) / 2, ey)
+        rot = 90 if sg > 0 else 270
+    else:
+        sg = 1 if y2 >= y1 else -1
+        ex, ey = x2, y2 - sg * hl
+        c1, c2 = (x1, y1 + (ey - y1) / 2), (ex, y1 + (ey - y1) / 2)
+        rot = 180 if sg > 0 else 0
+    pts = []
+    for k in range(41):
+        t = k / 40
+        bx = (1 - t) ** 3 * x1 + 3 * (1 - t) ** 2 * t * c1[0] + 3 * (1 - t) * t ** 2 * c2[0] + t ** 3 * ex
+        by = (1 - t) ** 3 * y1 + 3 * (1 - t) ** 2 * t * c1[1] + 3 * (1 - t) * t ** 2 * c2[1] + t ** 3 * ey
+        pts.append((Inches(bx), Inches(by)))
+    fb = s.shapes.build_freeform(pts[0][0], pts[0][1], scale=1.0)
+    fb.add_line_segments(pts[1:], close=False)
+    f = fb.convert_to_shape()
+    f.fill.background()
+    f.line.color.rgb, f.line.width = rgb(line), Pt(1.5)
+    w, h = 0.16, hl
+    tri = s.shapes.add_shape(MSO_SHAPE.ISOSCELES_TRIANGLE, Inches(x2 - (w / 2 if orient == "v" else (h / 2 if sg > 0 else -h / 2)) - (0 if orient == "v" else w / 2 - h / 2)),
+                             Inches(0), Inches(w), Inches(h))
+    # place the head centred on the end point, pointing along the end tangent
+    cx = x2 - (sg * hl / 2 if orient == "h" else 0)
+    cy = y2 - (sg * hl / 2 if orient == "v" else 0)
+    tri.left, tri.top = Inches(cx - w / 2), Inches(cy - h / 2)
+    tri.rotation = rot
+    tri.fill.solid(); tri.fill.fore_color.rgb = rgb(head); tri.line.fill.background()
+    if label:
+        ww = (abs(x2 - x1) or 2.0) + (0.6 if lx is not None else 0)
+        text(s, lx if lx is not None else min(x1, x2), ly if ly is not None else min(y1, y2) - 0.42, ww, 0.4, label, 12, MUTED,
+             align=PP_ALIGN.CENTER)
+
+
 def n_stakeholders(s):
     head(s, "Who decides, who uses it, who benefits", "Species are chosen by the city's green technicians; the tool gives them numbers to compare")
     def actor(x, y, w, h, ic, t, sub, c, fs=11):
@@ -231,17 +272,17 @@ def n_stakeholders(s):
     box(s, c3, 5.3, w3, 0.9, tint(TREE, 0.22))
     text(s, c3 + 0.25, 5.3, w3 - 0.5, 0.9, "The agronomists are here. The tool does not replace them.", 14, INK, True,
          anchor=MSO_ANCHOR.MIDDLE)
-    arrow(s, c1 + w1, 4.17, c2, 2.35, "commissions", lx=c1 + w1 - 0.75, ly=3.15)
-    arrow(s, c2, 1.8, c1 + w1, 1.8, "project", lx=c1 + w1 - 0.3, ly=1.38)
-    arrow(s, c1 + w1, 5.72, c2, 4.4, "service plans", lx=c1 + w1 - 0.85, ly=4.95)
-    arrow(s, c2 + 1.0, 2.7, c2 + 1.0, 3.55, None)
-    arrow(s, c2 + 2.2, 3.55, c2 + 2.2, 2.7, None)
+    curve(s, c1 + w1, 4.17, c2, 2.35, "commissions", lx=c1 + w1 - 0.75, ly=3.15)
+    curve(s, c2, 1.8, c1 + w1, 1.8, "project", lx=c1 + w1 - 0.3, ly=1.38)
+    curve(s, c1 + w1, 5.72, c2, 4.4, "service plans", lx=c1 + w1 - 0.85, ly=4.95)
+    curve(s, c2 + 1.0, 2.7, c2 + 1.0, 3.55, None, orient="v")
+    curve(s, c2 + 2.2, 3.55, c2 + 2.2, 2.7, None, orient="v")
     text(s, c2 - 0.2, 2.9, 1.15, 0.4, "site + rules", 12, MUTED, align=PP_ALIGN.RIGHT)
     text(s, c2 + 2.3, 2.9, 1.3, 0.4, "layout + report", 12, MUTED)
-    arrow(s, c3, 1.85, c2 + w2, 1.85, "species, 15% cap", lx=c2 + w2 - 0.15, ly=1.43)
-    arrow(s, c2 + w2, 2.45, c3, 2.45, "project to check", lx=c2 + w2 - 0.15, ly=2.5)
-    arrow(s, c2 + w2, 4.15, c3, 4.15, "same numbers", lx=c2 + w2 - 0.15, ly=4.2)
-    arrow(s, c2 + w2 / 2, 4.75, c2 + w2 / 2, 5.25, None, color=HEAT)
+    curve(s, c3, 1.85, c2 + w2, 1.85, "species, 15% cap", lx=c2 + w2 - 0.15, ly=1.43)
+    curve(s, c2 + w2, 2.45, c3, 2.45, "project to check", lx=c2 + w2 - 0.15, ly=2.5)
+    curve(s, c2 + w2, 4.15, c3, 4.15, "same numbers", lx=c2 + w2 - 0.15, ly=4.2)
+    curve(s, c2 + w2 / 2, 4.75, c2 + w2 / 2, 5.25, None, orient="v")
     source(s, "Ajuntament de Barcelona, BOPB (2025); BIMSA, Pressupost 2018; Parcs i Jardins, institut page and staff list (30 Nov 2022); "
               "Parcs i Jardins, call for agricultural technicians (2017).")
 
@@ -373,7 +414,7 @@ def n_effective(s):
     pic_h(s, "porta_diversity_species", M, 1.45, 4.9, 7.2)
     shades = [tint(TREE, 0.15 + 0.085 * k) for k in range(10)]
     for k, (vals, cols, eff, lab, c) in enumerate((([1] * 10, shades, "10", "10 species, equal", TREE),
-                                                   ([90] + [10 / 9] * 9, [RAIN] + shades[1:], "1.7", "10 species, one at 90%", RAIN))):
+                                                   ([90] + [10 / 9] * 9, [GREY] + shades[1:], "1.7", "10 species, one at 90%", MUTED))):
         y = 1.45 + k * 2.45
         pie(s, 8.0, y, 2.2, 2.2, vals, cols)
         text(s, 10.3, y, W - M - 10.3, 2.2, [[(eff, {"bold": True, "color": c, "size": 36})], lab], 14, INK, anchor=MSO_ANCHOR.MIDDLE)

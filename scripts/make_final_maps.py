@@ -181,18 +181,15 @@ for kind in ("replaced", "planes", "canopy"):
         gb.plot(ax=a, column="share", cmap=ramp(TREE), edgecolor=BG, linewidth=0.4, vmin=0, vmax=50)
         gb[gb.share > 15].boundary.plot(ax=a, color=INK, linewidth=0.5)
     else:
-        gb.plot(ax=a, color="#E2DED5", edgecolor=BG, linewidth=0.4)
-        porta_g.plot(ax=a, color=TREE)
-        ins = a.inset_axes([0.42, 0.0, 0.58, 0.58])
-        bld.plot(ax=ins, color="#E2DED5", linewidth=0)
+        bld.plot(ax=a, color="#E2DED5", linewidth=0)                  # Porta itself fills the panel: canopy today
         cimg = np.zeros((gr["H"], gr["W"], 4))
         cimg[C["C"]] = to_rgba(TREE, 0.9)
-        ins.imshow(cimg, extent=ext, interpolation="nearest")
-        porta_g.boundary.plot(ax=ins, color=INK, linewidth=0.6, linestyle="--")
-        ins.set_xlim(ext[0], ext[1]); ins.set_ylim(ext[2], ext[3]); ins.set_aspect("equal")
-        ins.set_xticks([]); ins.set_yticks([]); ins.set_xlabel(""); ins.set_ylabel("")
-        for sp_ in ins.spines.values():
-            sp_.set_color(MUTED); sp_.set_linewidth(0.6)
+        a.imshow(cimg, extent=ext, interpolation="nearest", zorder=2)
+        a.set_xlim(ext[0], ext[1]); a.set_ylim(ext[2], ext[3])
+        loc = a.inset_axes([0.0, 0.72, 0.28, 0.28])                    # small locator: Porta in Barcelona
+        gb.plot(ax=loc, color="#D6D1C6", edgecolor=BG, linewidth=0.2)
+        porta_g.plot(ax=loc, color=TREE)
+        loc.set_aspect("equal"); loc.set_axis_off()
     a.set_aspect("equal"); a.set_axis_off()
     fig.savefig(OUT / f"context_{kind}.png", dpi=250, bbox_inches="tight", facecolor=BG)
     plt.close(fig)
@@ -200,6 +197,7 @@ print("wrote context maps; barris with planes > 15% of street trees:", int((gb.s
       "; city plane share", round(100 * gb.planes.sum() / gb.street_trees.sum(), 1))
 
 # 7. Porta result: the 832 planes replaced, coloured by new species; city practice (one draw of S1b) vs method (balanced)
+# NOTE: Porta maps 7-8 need the post-fix web export (claude/diversity-newcrowns @2742cd3 until merged)
 TB = json.load(open("web/public/data/porta-barcelona/trees.json"))
 PAL = json.load(open("web/public/data/porta-barcelona/meta.json"))["palette"]
 px_, py_ = tr.transform(TB["positions"]["lon"], TB["positions"]["lat"])
