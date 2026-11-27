@@ -195,6 +195,12 @@ watch(
       <template v-else><MapView :key="state.site" /><MapToolbar /></template>
       <Transition name="sheet"><ScheduleTable v-if="state.showSchedule" /></Transition>
       <GuidedFlow v-if="ui.mode === 'guided'" />
+      <Transition name="sheet">
+        <aside v-if="ui.mode === 'guided' && state.selected != null && state.view === 'map'" class="inspect-card" aria-label="Selected tree">
+          <button class="close" aria-label="Close" @click="state.selected = null">×</button>
+          <TreeInspector />
+        </aside>
+      </Transition>
       <PanelHandle v-if="ui.mode === 'expert'" side="left" />
       <PanelHandle v-if="ui.mode === 'expert'" side="right" />
     </main>

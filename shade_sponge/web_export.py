@@ -89,11 +89,11 @@ lon, lat = to_ll(pos.x.values, pos.y.values)
 kept = site.trees[~site.trees.is_plane & (site.trees.flag == "ok")]
 sw = pd.read_csv(DB / f"{name}_sidewalk_width.csv").set_index("tree_id")          # scripts/porta_sidewalk_width.py
 # planting spots (scripts/porta_planting_spots.py): free and conditional ones (scripts/porta_spot_classes.py, user decision
-# 18 Nov); blocked spots are left out. Still an upper bound, see shade_sponge/README.md "Additions"
+# 18 Nov) and, since 27 Nov, the blocked ones for the map legend. Still an upper bound, see shade_sponge/README.md "Additions"
 sp_ = pd.read_csv(DB / f"{name}_planting_spots.csv")
 if "spot_class" not in sp_:
     sp_["spot_class"] = np.where(sp_.get("excluded_by", pd.Series("", index=sp_.index)).fillna("") == "", "free", "blocked")
-sp_ = sp_[sp_.spot_class != "blocked"]
+sp_ = pd.concat([sp_[sp_.spot_class != "blocked"], sp_[sp_.spot_class == "blocked"]])   # blocked last: shown on the map (red centre), never planted
 slon, slat = to_ll(sp_.x.values, sp_.y.values)
 klon, klat = to_ll(kept.x.values, kept.y.values)
 
