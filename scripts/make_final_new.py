@@ -182,14 +182,12 @@ def n_backtest(s):
 
 def n_diversity(s):
     head(s, "Diversity costs almost nothing", "Asking for more species in Porta, summer shade as a share of today's")
-    bars(s, M, 1.5, 7.0, 4.4, ["no floor", "≥ 7.5 species", "≥ 9.4 (city's announced mix)", "≥ 15.6 (city's practice)", "≥ 20"],
-         [106.7, 106.6, 106.3, 105.1, 103.5], [TREE, TREE, TREE, TREE, TREE], axis_min=95, axis_max=110)
+    bars(s, M, 1.5, 7.0, 4.4, ["no floor (7.1)", "≥ 7.5 species", "≥ 9.4 (city's announced mix)", "≥ 15.6 (city's practice)", "≥ 20"],
+         [103.2, 103.2, 103.0, 102.2, 101.1], [TREE, TREE, TREE, TREE, TREE], axis_min=90, axis_max=106)
     text(s, 8.1, 1.7, W - M - 8.1, 4.2,
-         [[("−0.4 pts ", {"bold": True, "color": TREE, "size": 30}), ("to match the city's announced diversity", {})],
-          [("Top species: 51% → 36% ", {"bold": True}), ("of the replacements", {})],
-          [("At 20 effective species ", {"bold": True}), ("the method still beats the city's practice.", {})]], 16, INK)
-    b = box(s, W - 4.6, 0.1, 2.2, 0.32, WARN, radius=0.3, name="RERUN tag")
-    text(s, W - 4.6, 0.1, 2.2, 0.32, "numbers to rerun", 11, BG, True, align=PP_ALIGN.CENTER, anchor=MSO_ANCHOR.MIDDLE)
+         [[("−0.2 pts ", {"bold": True, "color": TREE, "size": 30}), ("to match the city's announced diversity", {})],
+          [("Top species: 45% → 21% ", {"bold": True}), ("of the replacements, at the city's practice diversity", {})],
+          [("At 20 effective species ", {"bold": True}), ("the method still beats the city's practice (101% vs 98%).", {})]], 16, INK)
     source(s, "Nicol et al. 2026 (effective number of species); " + BCN)
 
 
@@ -482,7 +480,7 @@ SLIDES = [
     (n_cityplan, "The city has a per-tree plan for 513 Porta planes. At the same diversity, the method gives 101% of today's summer shade against the plan's 98%, with more winter sun and equal runoff."),
     (n_backtest, "I went back to 26 places where the city really replaced a group of trees. With the same positions, the method gives more shade in 23 of them, 1.7 times the shade per tree, and never more runoff."),
     (n_effective, "To count diversity I use the effective number of species: how many equally common species a mix is worth. Ten species in equal shares are worth ten; ten species with one at ninety percent are worth fewer than two."),
-    (n_diversity,"Diversity is cheap: matching the city's announced mix costs less than half a point of shade, and even at twenty effective species the method stays above the city's practice."),
+    (n_diversity,"Diversity is cheap: matching the city's announced mix costs a fifth of a point of shade; at the city's practice diversity the top species falls from 45% to 21% of the replacements; and even at twenty effective species the method stays above the city's practice."),
     (n_mataro, "Does it travel? In Mataró, replacing every plane on six streets, the method keeps 83% of the planes' shade against 63% for the city's practice, and wins all six streets. Florence follows."),
     (n_cost, "Each action has a price: keeping a tree about 44 euros, adding one about 260, replacing one 190 to 1,070, moving a young tree 700 to 3,000. The method replaces the same trees as the city, so the works and the cost are the same."),
     (n_impact, "Real projects cost one to two million euros. If the 513 planes the city plans to change in Porta followed the method, about 1,950 square metres more ground would be shaded on summer afternoons, for the same money. With ten million euros, about 9,300 replacements, the same order as the city made in eight years, and about three and a half hectares more shade."),
