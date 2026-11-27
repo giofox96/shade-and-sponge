@@ -293,6 +293,28 @@ function selRing(sel) {
     parameters: ON_TOP })
 }
 
+// tree pits: the minimum pit of the 2011 street-tree guide p.25 (web_export pit_min_m2), a standard, not a measured pit.
+// 1 m² is drawn 1 × 1 m, 1.5 m² as the guide prints it, 1.2 × 1.2 m. The square is turned to the kerb when the tree has a
+// measuring ray (façade -> kerb), else it is north-up
+function pitSquares() {
+  const out = []
+  for (const g of [state.trees.positions, state.trees.kept]) {
+    if (!g.pit_min_m2) continue
+    for (let i = 0; i < g.lon.length; i++) {
+      const a = g.pit_min_m2[i]
+      if (!a) continue
+      const h = (a >= 1.5 ? 1.2 : 1.0) / 2, lat = g.lat[i], kx = M_DEG * Math.cos((lat * Math.PI) / 180), r = g.sw_ray?.[i]
+      let [ux, uy] = r ? [(r[2] - r[0]) * kx, (r[3] - r[1]) * M_DEG] : [0, 1]
+      const n = Math.hypot(ux, uy) || 1; [ux, uy] = [ux / n, uy / n]
+      const pt = (s, t) => [g.lon[i] + (s * ux * h + t * uy * h) / kx, lat + (s * uy * h - t * ux * h) / M_DEG]
+      out.push({ poly: [pt(1, 1), pt(1, -1), pt(-1, -1), pt(-1, 1)], basis: g.pit_basis[i] })
+    }
+  }
+  return out
+}
+let pits = null, pitsOf = null
+const pitData = () => (pitsOf !== state.trees ? ((pitsOf = state.trees), (pits = pitSquares())) : pits)
+
 // free spots: footprint radius (m) per size class, and the spot lifted onto the highest ground under its footprint (a flat
 // disc on a slope would otherwise sink into the relief)
 const SPOT_R = { small: 1.6, medium: 2.2, large: 2.8 }
@@ -399,6 +421,10 @@ function layers() {
         getLineColor: (f) => (f.properties.kind === 'facade' ? themeColors.value.facade : themeColors.value.kerb),
         updateTriggers: { getLineColor: isDark.value },
         getLineWidth: (f) => (f.properties.kind === 'facade' ? 0.5 : 1), lineWidthUnits: 'pixels' }),
+    state.showStreets && state.trees.positions.pit_min_m2 &&
+      new PolygonLayer({ id: 'pits', data: pitData(), getPolygon: (d) => d.poly, ...drape(), filled: true, stroked: true,
+        getFillColor: themeColors.value.pit, getLineColor: themeColors.value.facade, lineWidthUnits: 'pixels', getLineWidth: 1,
+        updateTriggers: { getFillColor: isDark.value, getLineColor: isDark.value } }),
     // free planting spots: the crown footprint of the spot's size class on the ground, a white dot at the planting point
     state.showStreets &&
       new ScatterplotLayer({ id: 'spots', data: state.trees.spots.lon.map((lon, i) => i), radiusUnits: 'meters',

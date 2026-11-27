@@ -105,7 +105,10 @@ def sidewalk(ids):
     c, d = to_ll(w.ray_x1.fillna(0).values, w.ray_y1.fillna(0).values)
     ray = [[round(float(v), 6) for v in r] if ok else None for r, ok in zip(zip(a, b, c, d), w.ray_x0.notna())]
     return dict(sw_width_m=[None if pd.isna(v) else round(float(v), 2) for v in w.width_m], sw_flag=w.flag.fillna("none").tolist(),
-                sw_size_class=w.size_class.fillna("check").tolist(), sw_ray=ray)
+                sw_size_class=w.size_class.fillna("check").tolist(), sw_ray=ray,
+                # minimum pit area of the 2011 street-tree guide p.25 (scripts/porta_sidewalk_width.py): a standard, not a measured pit
+                pit_min_m2=[None if pd.isna(v) else float(v) for v in w.pit_min_m2],
+                pit_basis=w.pit_basis.fillna("none").tolist())
 
 
 
