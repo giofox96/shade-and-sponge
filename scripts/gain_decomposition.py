@@ -6,6 +6,8 @@
   3 method_7   = the LP with the city's 7 replacement species (layout.CITY_PALETTE)
   4 method_30  = the LP with the Barcelona palette (the tool's default)
 Gains: placement = 2 − 1, species choice = 3 − 2, wider palette = 4 − 3; they add up to 4 − 1.
+In a back-test group planted with one species (18 of 26) placement cannot be measured (nothing to swap): it is left empty (NaN),
+not 0, and the bars draw it as 0.
 Every LP uses the balanced weights (0.50 summer, 0.25 winter, 0.25 hotspot runoff), normalised as layout.sweep does.
 Constraints: 2 keeps the practice's species counts as exact caps and the same fit rules as 4 (façade clearance + 2011 sizing
 rule; backtest_works.fit_matrix in the back-test), except that a position may always keep the species practice gave it, so
@@ -148,12 +150,14 @@ def backtest():
                    "method_30": palB.species.values[balanced(loc, pos, palB, sun, lit, p_mm, palB.cap.values, fitter(palB))].tolist()}
             kept = T[~gone & (T.flag == "ok")]
             getC = palC.set_index("species")[["crown_diam_m", "height_m", "crown_base_m", "lai"]]
-            r = dict(group=g, barri=slug, quarter=m.quarter_added.iloc[0], n=len(m))
+            r = dict(group=g, barri=slug, quarter=m.quarter_added.iloc[0], n=len(m), n_species_practice=len(set(city)))
             for v, sp in lay.items():
                 gt = (lambda s: getC.loc[s].to_dict()) if v == "method_7" else get
                 r.update({f"{k}_{v}": x for k, x in score(loc, trees_with(kept, pos, sp, gt), sun, lit, p_mm).items()})
                 r[f"top_{v}"] = pd.Series(sp).mode()[0]
             rows.append(gains(r))
+            if r["n_species_practice"] == 1:                 # one species: nothing to swap, placement is not measured here
+                r["gain_placement"] = np.nan
             print(f"{slug} {r['quarter']} n={r['n']}: " + ", ".join(f"{k} {r['gain_' + k.replace(' ', '_')]:+,.0f}" for k, _, _ in GAINS))
     df = pd.DataFrame(rows)
     df.round(2).to_csv(DB / f"gain_decomposition_backtest{TAG}.csv", index=False)
@@ -190,7 +194,7 @@ def figure(p, bt):
     a.legend(fontsize=8, frameon=False)
     if bt is not None:
         q = bt.assign(tot=bt.gain_total / bt.shade_summer_practice).sort_values("tot")
-        parts = {k: (100 * q[f"gain_{k.replace(' ', '_')}"] / q.shade_summer_practice).values for k in cols}
+        parts = {k: np.nan_to_num((100 * q[f"gain_{k.replace(' ', '_')}"] / q.shade_summer_practice).values) for k in cols}
         bars(b, [f"{s[:12]} {qq}" for s, qq in zip(q.barri, q.quarter)], parts, 100 * q.tot.values)
         b.set_title("per back-test group", fontsize=9)
     a.set_title("why the method wins: summer shade vs city practice", fontsize=9)
