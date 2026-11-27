@@ -5,7 +5,8 @@
 import { computed, watch } from 'vue'
 import { state, currentLayout, keptReplaced, insidePoly, AREA } from './store.js'
 
-// leaf habit class: palette text, or the leaf calendar (meta.leaf_by_species) for today's other species
+// leaf habit class: palette text, or the leaf calendar (meta.leaf_by_species) for today's other species, or their sourced
+// habit (meta.habit_by_species, databases/traits/leaf_habit_other.csv) where there is no calendar
 export const HABITS = ['deciduous', 'semi-deciduous', 'evergreen']
 const habitOf = (text, leaf) => {
   if (text) return text.startsWith('evergreen') ? 'evergreen' : text.includes('semi') ? 'semi-deciduous' : 'deciduous'
@@ -26,7 +27,7 @@ export const viewTrees = computed(() => {
   const pal = state.meta.palette, P = state.trees.positions, K = state.trees.kept
   const palIdx = new Map(pal.map((p, j) => [p.species, j]))
   const habits = new Map(pal.map((p) => [p.species, habitOf(p.leaf_habit)]))
-  const habit = (s) => habits.get(s) ?? habitOf(null, state.meta.leaf_by_species?.[s])
+  const habit = (s) => habits.get(s) ?? state.meta.habit_by_species?.[s] ?? habitOf(null, state.meta.leaf_by_species?.[s])
   const area = scopeIsArea.value ? state.area : null
   const lay = currentLayout()
   const repl = state.scenarioId === AREA && state.area ? keptReplaced() : new Map()
