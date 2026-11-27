@@ -362,7 +362,7 @@ const COSTS = [['tree', 'per new tree', 'New pit on a free spot, planting includ
 .guide > * { pointer-events: auto; }
 .guide.full { inset: 0; width: auto; max-height: none; align-items: center; justify-content: center; left: 0; bottom: 0;
   background: color-mix(in srgb, var(--bg) 82%, transparent); backdrop-filter: blur(3px); }
-.guide.slimside { width: 340px; }
+.guide.slimside { width: 400px; }
 /* the docked tree table sits right of the guide; only on a narrow screen does the guide go over it */
 @media (max-width: 1000px) {
   .guide.above { bottom: calc(42% + 26px); max-height: calc(58% - 46px); }
@@ -427,7 +427,7 @@ button.ghost { background: transparent; }
 .dot.done { background: var(--muted); }
 .dot.on { width: 26px; border-radius: 6px; background: var(--accent); }
 .arrow, .help { border-radius: 50%; width: 38px; height: 38px; padding: 0; font-size: 16px; flex: none; }
-.next-big { border-radius: 999px; padding: 10px 16px; font-size: 15px; font-weight: 600; margin-left: auto; }
+.next-big { border-radius: 999px; padding: 10px 16px; font-size: 15px; font-weight: 600; margin-left: auto; white-space: nowrap; }
 .tipq { display: flex; gap: 8px; align-items: center; justify-content: center; margin-top: 22px; font-size: 15px; color: var(--muted); animation: rise 0.6s ease both 0.5s; }
 .tipq button { border-radius: 999px; padding: 6px 16px; }
 .tipq button.on { background: var(--good); border-color: var(--good); color: #fff; }

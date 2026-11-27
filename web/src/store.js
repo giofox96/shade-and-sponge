@@ -542,7 +542,8 @@ function areaCity(rows) {
   }))
   const mostLikely = P.map((p) => p.indexOf(Math.max(...p))) // for drawing the kept trees the rule would replace
   return { metrics: areaMetrics(rows, sums), counts: Object.fromEntries(Object.entries(counts).map(([s, n]) => [s, Math.round(n)])),
-    keptLayout: rows.map((r, n) => (r.kind === 'kept' ? mostLikely[n] : null)).filter((j) => j != null) }
+    keptLayout: rows.map((r, n) => (r.kind === 'kept' ? mostLikely[n] : null)).filter((j) => j != null),
+    planeLayout: rows.map((r, n) => (r.kind === 'plane' ? mostLikely[n] : null)).filter((j) => j != null) } // A.idx order, for the report
 }
 
 export async function finishArea() {
