@@ -110,7 +110,8 @@ else:
 
     # ---- 3. trees: seed watershed at inventory positions on the CHM
     t = pd.read_csv(DB / "arbrat_viari.csv")
-    key = lambda n: slug(n).replace("-", "")          # the inventory spells some names without the apostrophe
+    alias = {"lamarinadelport": "lamarinadeport"}     # inventory "LA MARINA DEL PORT" = official "la Marina de Port"
+    key = lambda n: (lambda k: alias.get(k, k))(slug(n).replace("-", ""))   # the inventory spells some names without the apostrophe
     t = t[(t.tipus_element == "ARBRE VIARI") & (t.nom_barri.fillna("").map(key) == key(name))].reset_index(drop=True)
     assert len(t), f"no inventory street trees for {name!r}; inventory names: {sorted(t.nom_barri.dropna().unique())}"
     tc = ((t.x_etrs89 - x0) / RES).astype(int).values
