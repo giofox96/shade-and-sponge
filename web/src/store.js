@@ -600,7 +600,24 @@ export const spotWhy = (s) => {
     S.utility_conditional?.[s] && `buried service${state.meta?.utilities?.synthetic ? ' (synthetic)' : ''}`].filter(Boolean).join(', ')
 }
 // the area's spots that "Fill" plants: free ones, plus conditional ones when the switch is on
-export const fillableSpots = () => state.area.spotIdx.filter((s) => spotClass(s) === 'free' || state.useConditional)
+// Move (user tests 27 Nov): a tree marked Move goes to an empty spot the designer picks on the map. Its old pit is replaced
+// like any other row; at the new spot the tree is drawn with its own crown and its transplant is costed, but its shade and
+// water there are not scored (ASSUMPTION: a moved tree's effect at the spot is left out of the estimates).
+export const moveTargets = () => {
+  const m = new Map()
+  for (const [key, e] of Object.entries(state.schedule.trees)) if (e.action === 'move' && e.to) m.set(e.to, key)
+  return m
+}
+export function pickMoveTarget(key) { state.movePick = key; state.addMsg = 'Click an empty spot on the map for this tree.' }
+export async function setMoveTarget(spotIdx) {
+  const key = state.movePick, id = state.trees.spots.id[spotIdx]
+  state.movePick = null
+  state.addMsg = null
+  if (!key || moveTargets().has(id)) return
+  await setTreeEntry(key, { action: 'move', to: id })
+}
+export const fillableSpots = () => state.area.spotIdx.filter((s) => (spotClass(s) === 'free' || state.useConditional) &&
+  !moveTargets().has(state.trees.spots.id[s])) // a spot that receives a moved tree is taken
 
 // "Fill the free spots": every free planting spot in the area becomes an added tree (sizing rule of its sidewalk)
 export async function fillAreaSpots() {

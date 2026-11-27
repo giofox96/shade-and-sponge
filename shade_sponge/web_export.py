@@ -127,7 +127,7 @@ trees = dict(
                    water_convergence_m2=P.water_convergence_m2.astype(int).tolist(),
                    s0_crown_diam_m=r2(s0.crown_diam_m.fillna(0)), s0_height_m=r2(s0.height_m.fillna(0)),
                    s0_crown_base_m=r2(s0.crown_base_m.fillna(0)), **sidewalk(P.tree_id)),
-    kept=dict(lon=r6(klon), lat=r6(klat), species=kept.sp.tolist(), lai=r2(kept.lai),
+    kept=dict(tree_id=kept.tree_id.tolist(), lon=r6(klon), lat=r6(klat), species=kept.sp.tolist(), lai=r2(kept.lai),
               size_class=kept.tree_id.map(sw.size_class).fillna("check").tolist(), crown_diam_m=r2(kept.crown_diam_m),
               height_m=r2(kept.height_m), crown_base_m=r2(kept.crown_base_m), **{k: v for k, v in sidewalk(kept.tree_id).items() if k != "sw_size_class"}),
     spots=dict(id=sp_.spot_id.tolist(), lon=r6(slon), lat=r6(slat), size_class=sp_.size_class.tolist(), width_m=r2(sp_.width_m),

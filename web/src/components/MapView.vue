@@ -12,10 +12,10 @@ import { COORDINATE_SYSTEM } from '@deck.gl/core'
 import { BitmapLayer, GeoJsonLayer, PathLayer, PointCloudLayer, PolygonLayer, ScatterplotLayer, TextLayer } from '@deck.gl/layers'
 import { SimpleMeshLayer } from '@deck.gl/mesh-layers'
 import { TileLayer } from '@deck.gl/geo-layers'
-import { _TerrainExtension as TerrainExtension } from '@deck.gl/extensions'
+import { _TerrainExtension as TerrainExtension, PathStyleExtension } from '@deck.gl/extensions'
 import { SphereGeometry } from '@luma.gl/engine'
 import { state, dataUrl, hexToRgb, currentLayout, spotClass, addTreeAt, addVertex, keptReplaced, themeColors, isDark, AREA, addableMask, finishArea,
-  cancelDrawing, finishEditArea, cancelEditArea, groundZ, HABIT_RGB, habits, habitOf, setGround3d, setLidar, setParks, setUtilities, spotWhy, keptKey, ORTO } from '../store.js'
+  cancelDrawing, finishEditArea, cancelEditArea, groundZ, HABIT_RGB, habits, habitOf, moveTargets, setMoveTarget, setGround3d, setLidar, setParks, setUtilities, spotWhy, keptKey, ORTO } from '../store.js'
 
 setWorkerUrl(workerUrl)
 const el = ref(null)
@@ -284,6 +284,27 @@ function addMask() {
   return mask
 }
 
+// trees marked Move: their crown at the new spot and a dashed line from the old pit (a plane keeps its measured crown)
+function movedLayers() {
+  const T = state.trees, S = T.spots, out = []
+  for (const [spot, key] of moveTargets()) {
+    const s = S.id.indexOf(spot)
+    if (s < 0) continue
+    const k = key.startsWith('k') ? Number(key.slice(1)) : T.positions.tree_id.indexOf(key)
+    const d = key.startsWith('k') ? [T.kept.crown_diam_m[k], T.kept.height_m[k], T.kept.crown_base_m[k]]
+      : [T.positions.s0_crown_diam_m[k], T.positions.s0_height_m[k], T.positions.s0_crown_base_m[k]]
+    const from = key.startsWith('k') ? [T.kept.lon[k], T.kept.lat[k]] : [T.positions.lon[k], T.positions.lat[k]]
+    out.push({ to: [S.lon[s], S.lat[s]], from, d })
+  }
+  if (!out.length) return []
+  return [
+    new PathLayer({ id: 'moved-path', data: out, getPath: (m) => [up(m.from, 0.5), up(m.to, 0.5)], getColor: themeColors.value.ringOn,
+      getWidth: 2, widthUnits: 'pixels', getDashArray: [4, 3], extensions: [new PathStyleExtension({ dash: true })], parameters: ON_TOP }),
+    new SimpleMeshLayer({ id: 'moved', data: out, mesh: sphere, getPosition: (m) => [m.to[0], m.to[1], groundZ(...m.to) + crownZ(...m.d)[0]],
+      getScale: (m) => [m.d[0] / 2, m.d[0] / 2, crownZ(...m.d)[1]], getColor: [...themeColors.value.ringOn, 170] }),
+  ]
+}
+
 // the selected tree or spot (map or schedule): a ring on the ground, drawn over everything
 function selRing(sel) {
   if (sel == null) return null
@@ -442,6 +463,7 @@ function layers() {
         stroked: false, pickable: true, updateTriggers: { getPosition: g3 },
         onClick: (info) => { // a click on a free spot plants there in "Add trees" mode
           if (state.drawing) return addVertex(...at(info))
+          if (state.movePick) return setMoveTarget(info.index) // the tree chosen for Move goes to this spot
           if (state.addMode) tryAdd(state.trees.spots.lon[info.index], state.trees.spots.lat[info.index], info)
           else state.selected = `s${info.index}` // the schedule's Spots tab follows
         } }),
@@ -461,6 +483,7 @@ function layers() {
       new PolygonLayer({ id: 'area', data: [state.area.poly], getPolygon: (d) => d, stroked: false, filled: true, ...drape(),
         getFillColor: [...themeColors.value.area, 30] }),
     ...crowns(),
+    ...movedLayers(),
     ...dimensions(selected), // after the crowns: drawn over them
     selRing(selected),
     state.showLidar && state.lidar &&
@@ -545,7 +568,7 @@ onMounted(() => {
 
 watch(
   () => [state.scenarioId, state.live?.version, state.area?.version, state.area, state.drawing, state.draft, state.overlay, state.showStreets, isDark.value,
-    state.month, state.selected, state.addedVersion, state.showParks, state.showUtilities, state.buildingOpacity, state.addMode, state.editing, state.ground3d, state.basemap, state.meta, state.showLidar, habits.map],
+    state.month, state.selected, state.addedVersion, state.showParks, state.showUtilities, state.buildingOpacity, state.addMode, state.editing, state.ground3d, state.basemap, state.meta, state.showLidar, habits.map, Object.values(state.schedule.trees).map((e) => e.to ?? "").join()],
   () => overlay?.setProps({ layers: layers() }),
 )
 
