@@ -7,8 +7,10 @@ long a continuous piece runs, whether it lies under the sidewalk or the road, an
 sidewalk width) or past the kerb; for gas service lines, how often one leaves a façade and how long it is. Positions are
 random draws from those distributions: it says nothing about where Porta's real services run. Every label says "synthetic".
 
-Networks: only the ones delivered as vectors (gas mains and service lines, Nedgia; Telefónica ducts). Water and electricity
-came only as PDF plans, so they are not generated (v1 drew them from rules alone).
+Networks: gas mains and service lines (Nedgia DXF), Telefónica ducts (DXF), and from the PDF plans georeferenced by
+scripts/utilities_pdf.py water mains and service lines (Aigües de Barcelona), Vodafone-ONO ducts and street lighting
+(Ajuntament). Not generated: electricity (Endesa sent raster images only), sewers (under the road; BCASA draws no house
+connections) and traffic lights (drawn in the base-map colour, not separable).
 The flag: a spot is "conditional" when its pit would sit on a line: PTEV 2024 §2.2.6.2 p.31, pit footprint = disc of radius
 PIT_R_M (ASSUMPTION, as scripts/utilities_conditional.py).
 Inputs: web/public/data/porta/sidewalks.geojson (façade and kerb lines, city 1:1000 map), the spots in trees.json, the
@@ -32,7 +34,8 @@ STEP_M = 1.0                  # sampling step along a façade
 MIN_OFF_M = 0.3               # a line never touches the façade
 PIT_R_M = 0.5                 # pit footprint radius (ASSUMPTION, scripts/utilities_conditional.py)
 NOTE = "SYNTHETIC: random positions drawn from how the real networks sit in the street (demo rectangle), not Porta's real services"
-LONG = {"gas_main": "gas", "telecom": "telecom"}   # longitudinal networks: aggregate key -> label on the map
+LONG = {"gas_main": "gas", "water_main": "water", "telecom": "telecom", "telecom_ono": "telecom (ONO)", "lighting": "lighting"}
+SERVICES = {"gas_service": "gas service", "water_service": "water service"}   # lines straight across the sidewalk
 # Real services and today's trees: in the rectangle no gas service line passes within PIT_R_M of a trunk, so a synthetic one
 # slides up to SLIDE_M along the façade to miss one, or is dropped. Mains and ducts drawn at random already hit about as many
 # trunks as the real ones (seeds 1-6: 19-43 trunks of 244 vs 26 real, same rectangle, in-sample), so they take one draw;
@@ -85,6 +88,8 @@ for f in fac:
     ok = (d >= MIN_W_M) & (d <= MAX_W_M)
     u = (kp[j] - p) / np.maximum(d, 1e-9)[:, None]          # unit vector façade -> kerb
     for key, label in LONG.items():
+        if key not in R:
+            continue
         r = R[key]
         c = min(max(r["facade_coverage"], 0.01), 0.99)
         on, t = rng.uniform() < c, 0.0                        # alternate pieces with and without the network along the façade
@@ -107,21 +112,24 @@ for f in fac:
                     lines.append(("service", label, LineString(best[1]).simplify(0.2)))
             t += L
             on = not on
-    # gas service lines: straight across, from the façade outwards, at the measured rate and length
-    gap = 100 / max(R["gas_service"]["across_per_100m_facade"], 0.1)
-    t = rng.uniform(0, gap)
-    while t < f.length:
-        i = min(int(round(t / STEP_M)), len(s) - 1)
-        L = draw(R["gas_service"]["piece_len_q"], 2.0)
-        for k in sorted(range(max(0, i - SLIDE_M), min(len(s), i + SLIDE_M + 1)), key=lambda k: abs(k - i)):
-            if ok[k] and not hits(dense(p[k], p[k] + u[k] * L)):
-                lines.append(("connection", "gas service", LineString([p[k], p[k] + u[k] * L])))
-                break
-        t += rng.exponential(gap)
+    # service lines: straight across, from the façade outwards, at the measured rate and length
+    for key, label in SERVICES.items():
+        if key not in R:
+            continue
+        gap = 100 / max(R[key]["across_per_100m_facade"], 0.1)
+        t = rng.uniform(0, gap)
+        while t < f.length:
+            i = min(int(round(t / STEP_M)), len(s) - 1)
+            L = draw(R[key]["piece_len_q"], 1.0)
+            for k in sorted(range(max(0, i - SLIDE_M), min(len(s), i + SLIDE_M + 1)), key=lambda k: abs(k - i)):
+                if ok[k] and not hits(dense(p[k], p[k] + u[k] * L)):
+                    lines.append(("connection", label, LineString([p[k], p[k] + u[k] * L])))
+                    break
+            t += rng.exponential(gap)
 
 geoms = [g for _, _, g in lines]
 tree = STRtree(geoms)
-print(f"synthetic lines: {sum(k == 'service' for k, _, _ in lines)} longitudinal, {sum(k == 'connection' for k, _, _ in lines)} gas service lines")
+print(f"synthetic lines: {sum(k == 'service' for k, _, _ in lines)} longitudinal, {sum(k == 'connection' for k, _, _ in lines)} service lines across the sidewalk")
 
 
 def ll(g):

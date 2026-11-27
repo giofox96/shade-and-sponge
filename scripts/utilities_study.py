@@ -1,6 +1,7 @@
 """How the real buried services sit in the street, to make the synthetic layer believable: python scripts/utilities_study.py
 Reads the eWise vector plans (ACEFAT request 872551: gas mains BP, gas service lines ACOMETIDA, Telefónica ducts; entrance
-numbers PORTAL_500) inside the demo rectangle, and measures each network against the city's façade and kerb lines
+numbers PORTAL_500) and the PDF plans georeferenced by scripts/utilities_pdf.py (water mains and service lines, Vodafone-ONO
+ducts, street lighting) inside the demo rectangle, and measures each network against the city's façade and kerb lines
 (web/public/data/porta/sidewalks.geojson): how much of it runs under the sidewalk or the road, how far from the façade (in
 metres and as a share of the sidewalk width), how much of the façade has one in front, and how often service lines leave a
 façade. The same measures run on the synthetic layer (web/public/data/porta/utilities.geojson) so the two can be compared.
@@ -13,7 +14,7 @@ import json, os, pathlib, sys
 import numpy as np
 from pyproj import Transformer
 from shapely.geometry import LineString, Point, box
-from shapely.ops import nearest_points
+from shapely.ops import linemerge, nearest_points, unary_union
 from shapely.strtree import STRtree
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
@@ -22,6 +23,7 @@ AREA = box(431150, 4586830, 431450, 4587110)     # demo rectangle of request 872
 STEP = 1.0                                        # m, sampling step along lines and façades
 MAX_W = 12.0                                      # m, a façade point with no kerb this close has no sidewalk (synthetic_utilities.py)
 FRONT = 0.5                                       # m of tolerance when asking "between façade and kerb"
+SYMBOL_M = 1.2                                    # m, PDF strokes shorter than this are symbols (arrowheads), not pipes
 Q = [0.1, 0.25, 0.5, 0.75, 0.9]
 to_utm = Transformer.from_crs(4326, 25831, always_xy=True)
 
@@ -73,6 +75,27 @@ def place(p):
     return ("sidewalk" if df + dk <= w + FRONT else "road"), df, w
 
 
+def angle(l):
+    """Degrees between a piece (end to end) and the façade normal: 0 = straight across, 90 = along the façade."""
+    a, b = np.asarray(l.coords)[[0, -1]]
+    m = Point((a + b) / 2)
+    f = FAC[tf.nearest(m)]
+    s = f.project(m)
+    t = np.subtract(f.interpolate(min(s + 0.5, f.length)).coords[0], f.interpolate(max(s - 0.5, 0)).coords[0])
+    c = abs(np.dot(b - a, t)) / (np.linalg.norm(b - a) * np.linalg.norm(t) + 1e-9)
+    return float(np.degrees(np.arcsin(min(1, c))))
+
+
+def split(ls):
+    """Mains and service lines drawn in one colour (the water plan). Strokes under SYMBOL_M are arrowheads and other symbols;
+    short pieces straight across are service lines; the rest, joined end to end, are mains."""
+    ls = [l for l in ls if l.length >= SYMBOL_M]
+    srv = [l for l in ls if l.length < 15 and angle(l) < 30]
+    ids = set(map(id, srv))
+    m = linemerge(unary_union([l for l in ls if id(l) not in ids]))
+    return list(getattr(m, "geoms", [m])), srv
+
+
 def measure(nets, portals=None):
     """Aggregate numbers per network; nets = {name: [LineString]} already in EPSG:25831."""
     out = {}
@@ -111,18 +134,7 @@ def measure(nets, portals=None):
         r["facade_coverage"] = round(float(np.mean(cov)), 2) if cov else None
         r["facade_m"] = len(cov)
         # pieces that cross the sidewalk (service lines): angle to the façade normal, rate per 100 m of façade
-        ang = []
-        for l in ls:
-            a, b = np.asarray(l.coords)[[0, -1]]
-            if l.length < 0.5:
-                continue
-            m = Point((a + b) / 2)
-            f = FAC[tf.nearest(m)]
-            s = f.project(m)
-            t = np.subtract(f.interpolate(min(s + 0.5, f.length)).coords[0], f.interpolate(max(s - 0.5, 0)).coords[0])
-            c = abs(np.dot(b - a, t)) / (np.linalg.norm(b - a) * np.linalg.norm(t) + 1e-9)
-            ang.append(np.degrees(np.arcsin(min(1, c))))           # 0 = straight across, 90 = along the façade
-        ang = np.array(ang)
+        ang = np.array([angle(l) for l in ls if l.length >= 0.5])
         r["angle_to_normal_q"] = np.round(np.quantile(ang, Q), 0).tolist() if len(ang) else None
         r["share_across"] = round(float((ang < 30).mean()), 2) if len(ang) else None
         r["across_per_100m_facade"] = round(100 * float((ang < 30).sum()) / max(len(cov), 1), 1)
@@ -142,6 +154,17 @@ if __name__ == "__main__":
     real = {"gas_main": dxf("GN", "BP"), "gas_service": dxf("GN", "ACOMETIDA"), "telecom": dxf("TF1", "Canalizacion_Barna_shape")}
     for k, g in real.items():
         assert g and 400000 < g[0].coords[0][0] < 460000, f"{k}: empty or not EPSG:25831"
+    # the PDF plans, georeferenced by scripts/utilities_pdf.py (water, Vodafone-ONO, street lighting)
+    pdf_f = RAW / "derived/networks_pdf.geojson"
+    if pdf_f.exists():
+        pdf = {}
+        for f in json.load(open(pdf_f))["features"]:
+            pdf.setdefault(f["properties"]["network"], []).append(LineString(f["geometry"]["coordinates"]))
+        if "water" in pdf:
+            real["water_main"], real["water_service"] = split(pdf["water"])
+        for k in ("telecom_ono", "lighting"):
+            if k in pdf:
+                real[k] = pdf[k]
     R = measure(real, dxf("GN", "PORTAL_500", "TEXT"))
     syn_f = ROOT / (sys.argv[1] if len(sys.argv) > 1 else "web/public/data/porta/utilities.geojson")
     S = {}
