@@ -15,7 +15,7 @@ import { TileLayer } from '@deck.gl/geo-layers'
 import { _TerrainExtension as TerrainExtension, PathStyleExtension } from '@deck.gl/extensions'
 import { SphereGeometry } from '@luma.gl/engine'
 import { state, dataUrl, hexToRgb, currentLayout, spotClass, addTreeAt, addVertex, keptReplaced, themeColors, isDark, AREA, addableMask, finishArea,
-  cancelDrawing, finishEditArea, cancelEditArea, groundZ, HABIT_RGB, habits, habitOf, moveTargets, setMoveTarget, setGround3d, setLidar, setParks, setUtilities, spotWhy, keptKey, ORTO } from '../store.js'
+  cancelDrawing, finishEditArea, cancelEditArea, groundZ, HABIT_RGB, habits, habitOf, moveTargets, setMoveTarget, setGround3d, setLidar, setParks, setUtilities, spotWhy, keptKey, ORTO, UTIL_COLOR } from '../store.js'
 
 setWorkerUrl(workerUrl)
 const el = ref(null)
@@ -357,7 +357,6 @@ const pitData = () => (pitsOf !== state.trees ? ((pitsOf = state.trees), (pits =
 // disc on a slope would otherwise sink into the relief)
 const SPOT_R = { small: 1.6, medium: 2.2, large: 2.8 }
 // synthetic utility lines by network (scripts/synthetic_utilities.py)
-const UTIL_COLOR = { water: [60, 130, 200], gas: [220, 170, 40], electricity: [200, 70, 60], 'house connection': [140, 110, 160] }
 function spotUp(i, dz) {
   const S = state.trees.spots, r = SPOT_R[S.size_class[i]], lon = S.lon[i], lat = S.lat[i]
   const dLon = r / (M_DEG * Math.cos((lat * Math.PI) / 180)), dLat = r / M_DEG
@@ -484,10 +483,10 @@ function layers() {
         // orange = the pit would sit on a buried service (scripts/utilities_conditional.py)
         getFillColor: (i) => (spotClass(i) === 'blocked' ? [178, 44, 34, 245] : state.trees.spots.utility_conditional?.[i] ? [230, 120, 20, 245]
           : spotClass(i) === 'conditional' ? [235, 150, 30, 245] : [255, 255, 255, 235]) }), // red centre = blocked
-    // SYNTHETIC underground services (a mock from published rules): drawn on the ground, under the spots' rings
+    // SYNTHETIC underground services (random lines drawn from the real networks' statistics): on the ground, under the spots' rings
     state.showUtilities && state.utilities?.site === state.site &&
       new PathLayer({ id: 'utilities', data: state.utilities.features, getPath: (f) => f.geometry.coordinates, ...drape(),
-        getColor: (f) => UTIL_COLOR[f.properties.network] ?? [150, 150, 150], getWidth: (f) => (f.properties.kind === 'connection' ? 1.2 : 2),
+        getColor: (f) => UTIL_COLOR[f.properties.network] ?? [150, 150, 150], getWidth: (f) => (f.properties.kind === 'connection' ? 1 : 2.2),
         widthUnits: 'pixels', pickable: true, parameters: ON_TOP }),
     state.area &&
       new PolygonLayer({ id: 'area', data: [state.area.poly], getPolygon: (d) => d, stroked: false, filled: true, ...drape(),
@@ -563,7 +562,7 @@ onMounted(() => {
           (c ? `\nMove first: ${spotWhy(index)}` : '') +
           (S.utility_conditional?.[index] ? `\nThe pit would sit on a buried ${state.meta.utilities?.synthetic ? 'SYNTHETIC ' : ''}line (PTEV 2024 p. 31)` : '') }
       }
-      if (layer?.id === 'utilities') return { text: `SYNTHETIC ${object.properties.network} line, not real data\n(mock from published layout rules)` }
+      if (layer?.id === 'utilities') return { text: `SYNTHETIC ${object.properties.network} line, not real data\n(random, drawn from how the real networks sit in the street)` }
       if (layer?.id === 'parks') { const P = state.parks; return { text: `${P.species[index]} (${P.kind[index]} tree, context only)${P.place[index] ? '\n' + P.place[index] : ''}` } }
       if (layer?.id === 'kept') return { text: `${state.trees.kept.species[object]} (existing)` }
       if (layer?.id !== 'positions' || index < 0) return null

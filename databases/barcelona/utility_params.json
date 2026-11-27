@@ -1,0 +1,480 @@
+{
+ "source": "ACEFAT eWise request 872551 (Nedgia, Telefonica, Aigues de Barcelona, Endesa, Vodafone-ONO, Ajuntament), demo rectangle; aggregates only, no geometry (scripts/utilities_study.py). Published with the user's approval, 27 Nov 2026",
+ "rectangle": [
+  431150.0,
+  4586830.0,
+  431450.0,
+  4587110.0
+ ],
+ "real": {
+  "gas_main": {
+   "length_m": 2744,
+   "n_pieces": 139,
+   "share_sidewalk": 0.83,
+   "share_road": 0.17,
+   "share_open": 0.0,
+   "d_facade_q": [
+    0.63,
+    0.81,
+    1.12,
+    1.77,
+    2.45
+   ],
+   "ratio_q": [
+    0.16,
+    0.28,
+    0.44,
+    0.62,
+    0.84
+   ],
+   "d_past_kerb_q": [
+    0.35,
+    0.82,
+    1.81,
+    2.71,
+    4.11
+   ],
+   "facade_coverage": 0.74,
+   "facade_m": 3957,
+   "angle_to_normal_q": [
+    43.0,
+    46.0,
+    88.0,
+    90.0,
+    90.0
+   ],
+   "share_across": 0.09,
+   "across_per_100m_facade": 0.3,
+   "piece_len_q": [
+    1.2,
+    3.9,
+    8.6,
+    29.7,
+    54.8
+   ]
+  },
+  "gas_service": {
+   "length_m": 1483,
+   "n_pieces": 156,
+   "share_sidewalk": 0.17,
+   "share_road": 0.78,
+   "share_open": 0.04,
+   "d_facade_q": [
+    0.14,
+    0.24,
+    0.58,
+    1.24,
+    2.37
+   ],
+   "ratio_q": [
+    0.05,
+    0.08,
+    0.15,
+    0.31,
+    0.46
+   ],
+   "d_past_kerb_q": [
+    3.34,
+    5.11,
+    7.37,
+    9.83,
+    12.36
+   ],
+   "facade_coverage": 0.3,
+   "facade_m": 3957,
+   "angle_to_normal_q": [
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    9.0
+   ],
+   "share_across": 0.95,
+   "across_per_100m_facade": 3.7,
+   "piece_len_q": [
+    7.2,
+    9.1,
+    9.8,
+    10.5,
+    11.0
+   ]
+  },
+  "telecom": {
+   "length_m": 621,
+   "n_pieces": 30,
+   "share_sidewalk": 0.43,
+   "share_road": 0.57,
+   "share_open": 0.0,
+   "d_facade_q": [
+    0.25,
+    0.76,
+    1.47,
+    2.4,
+    5.08
+   ],
+   "ratio_q": [
+    0.1,
+    0.2,
+    0.66,
+    0.93,
+    0.99
+   ],
+   "d_past_kerb_q": [
+    0.37,
+    0.88,
+    1.71,
+    2.94,
+    3.6
+   ],
+   "facade_coverage": 0.11,
+   "facade_m": 3957,
+   "angle_to_normal_q": [
+    1.0,
+    9.0,
+    27.0,
+    81.0,
+    90.0
+   ],
+   "share_across": 0.53,
+   "across_per_100m_facade": 0.4,
+   "piece_len_q": [
+    2.4,
+    5.1,
+    11.1,
+    23.9,
+    39.5
+   ]
+  },
+  "water_main": {
+   "length_m": 2577,
+   "n_pieces": 119,
+   "share_sidewalk": 0.84,
+   "share_road": 0.16,
+   "share_open": 0.0,
+   "d_facade_q": [
+    0.44,
+    0.72,
+    1.15,
+    1.78,
+    2.53
+   ],
+   "ratio_q": [
+    0.18,
+    0.25,
+    0.34,
+    0.56,
+    0.82
+   ],
+   "d_past_kerb_q": [
+    0.32,
+    0.7,
+    1.6,
+    3.98,
+    4.99
+   ],
+   "facade_coverage": 0.71,
+   "facade_m": 3957,
+   "angle_to_normal_q": [
+    45.0,
+    67.0,
+    88.0,
+    90.0,
+    90.0
+   ],
+   "share_across": 0.02,
+   "across_per_100m_facade": 0.1,
+   "piece_len_q": [
+    1.4,
+    2.2,
+    8.7,
+    33.6,
+    63.7
+   ]
+  },
+  "water_service": {
+   "length_m": 1067,
+   "n_pieces": 287,
+   "share_sidewalk": 0.27,
+   "share_road": 0.72,
+   "share_open": 0.0,
+   "d_facade_q": [
+    0.18,
+    0.5,
+    1.45,
+    2.47,
+    4.07
+   ],
+   "ratio_q": [
+    0.05,
+    0.11,
+    0.39,
+    0.68,
+    0.95
+   ],
+   "d_past_kerb_q": [
+    0.93,
+    2.24,
+    3.86,
+    5.51,
+    7.59
+   ],
+   "facade_coverage": 0.33,
+   "facade_m": 3957,
+   "angle_to_normal_q": [
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    2.0
+   ],
+   "share_across": 1.0,
+   "across_per_100m_facade": 7.2,
+   "piece_len_q": [
+    1.6,
+    2.8,
+    4.2,
+    4.2,
+    4.2
+   ]
+  },
+  "telecom_ono": {
+   "length_m": 1486,
+   "n_pieces": 66,
+   "share_sidewalk": 0.58,
+   "share_road": 0.42,
+   "share_open": 0.0,
+   "d_facade_q": [
+    0.78,
+    1.46,
+    3.2,
+    4.82,
+    5.54
+   ],
+   "ratio_q": [
+    0.29,
+    0.46,
+    0.71,
+    0.79,
+    0.91
+   ],
+   "d_past_kerb_q": [
+    0.32,
+    0.5,
+    0.97,
+    1.76,
+    2.76
+   ],
+   "facade_coverage": 0.3,
+   "facade_m": 3957,
+   "angle_to_normal_q": [
+    1.0,
+    36.0,
+    70.0,
+    89.0,
+    90.0
+   ],
+   "share_across": 0.23,
+   "across_per_100m_facade": 0.4,
+   "piece_len_q": [
+    2.6,
+    8.0,
+    15.9,
+    26.3,
+    39.2
+   ]
+  },
+  "lighting": {
+   "length_m": 975,
+   "n_pieces": 65,
+   "share_sidewalk": 0.57,
+   "share_road": 0.43,
+   "share_open": 0.0,
+   "d_facade_q": [
+    3.01,
+    3.55,
+    4.91,
+    5.78,
+    6.31
+   ],
+   "ratio_q": [
+    0.43,
+    0.59,
+    0.8,
+    0.85,
+    0.88
+   ],
+   "d_past_kerb_q": [
+    0.35,
+    0.87,
+    1.44,
+    2.47,
+    3.44
+   ],
+   "facade_coverage": 0.16,
+   "facade_m": 3957,
+   "angle_to_normal_q": [
+    16.0,
+    42.0,
+    67.0,
+    87.0,
+    90.0
+   ],
+   "share_across": 0.18,
+   "across_per_100m_facade": 0.3,
+   "piece_len_q": [
+    2.9,
+    6.3,
+    10.5,
+    23.1,
+    29.8
+   ]
+  },
+  "electricity_lv": {
+   "length_m": 4092,
+   "n_pieces": 534,
+   "share_sidewalk": 0.51,
+   "share_road": 0.45,
+   "share_open": 0.05,
+   "d_facade_q": [
+    0.32,
+    0.8,
+    1.31,
+    2.15,
+    3.57
+   ],
+   "ratio_q": [
+    0.09,
+    0.3,
+    0.5,
+    0.71,
+    0.93
+   ],
+   "d_past_kerb_q": [
+    0.37,
+    0.66,
+    1.36,
+    3.78,
+    7.04
+   ],
+   "facade_coverage": 0.54,
+   "facade_m": 3957,
+   "angle_to_normal_q": [
+    39.0,
+    56.0,
+    81.0,
+    88.0,
+    89.0
+   ],
+   "share_across": 0.03,
+   "across_per_100m_facade": 0.4,
+   "piece_len_q": [
+    1.0,
+    2.1,
+    4.6,
+    9.8,
+    18.0
+   ]
+  },
+  "electricity_service": {
+   "length_m": 711,
+   "n_pieces": 190,
+   "share_sidewalk": 0.31,
+   "share_road": 0.63,
+   "share_open": 0.05,
+   "d_facade_q": [
+    0.09,
+    0.3,
+    0.99,
+    1.87,
+    3.25
+   ],
+   "ratio_q": [
+    0.03,
+    0.11,
+    0.36,
+    0.65,
+    0.86
+   ],
+   "d_past_kerb_q": [
+    0.57,
+    1.91,
+    3.22,
+    5.71,
+    8.65
+   ],
+   "facade_coverage": 0.22,
+   "facade_m": 3957,
+   "angle_to_normal_q": [
+    1.0,
+    2.0,
+    5.0,
+    16.0,
+    25.0
+   ],
+   "share_across": 0.99,
+   "across_per_100m_facade": 4.8,
+   "piece_len_q": [
+    1.8,
+    2.5,
+    3.3,
+    4.5,
+    6.0
+   ]
+  },
+  "electricity_mv": {
+   "length_m": 1554,
+   "n_pieces": 173,
+   "share_sidewalk": 0.33,
+   "share_road": 0.61,
+   "share_open": 0.06,
+   "d_facade_q": [
+    0.55,
+    0.86,
+    1.13,
+    1.83,
+    4.86
+   ],
+   "ratio_q": [
+    0.11,
+    0.25,
+    0.38,
+    0.6,
+    0.81
+   ],
+   "d_past_kerb_q": [
+    0.55,
+    0.9,
+    1.4,
+    3.03,
+    4.72
+   ],
+   "facade_coverage": 0.2,
+   "facade_m": 3957,
+   "angle_to_normal_q": [
+    25.0,
+    52.0,
+    88.0,
+    89.0,
+    89.0
+   ],
+   "share_across": 0.13,
+   "across_per_100m_facade": 0.6,
+   "piece_len_q": [
+    1.6,
+    4.0,
+    5.0,
+    7.0,
+    13.9
+   ]
+  },
+  "entrances": {
+   "n": 270,
+   "per_100m_facade": 4.8,
+   "share_with_gas_service_3m": 0.37
+  },
+  "trees_on_a_line": {
+   "n": 244,
+   "on": 96
+  }
+ }
+}

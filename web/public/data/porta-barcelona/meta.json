@@ -4727,11 +4727,11 @@
  "utilities": {
   "file": "utilities.geojson",
   "synthetic": true,
-  "note": "SYNTHETIC: generated from published layout rules and random choices, not Porta's real services",
+  "note": "SYNTHETIC: random positions drawn from how the real networks sit in the street (demo rectangle), not Porta's real services",
   "seed": 1,
-  "n_lines": 6700,
-  "spots_flagged": 46,
-  "free_spots_flagged": 29,
+  "n_lines": 17290,
+  "spots_flagged": 121,
+  "free_spots_flagged": 72,
   "pit_r_m": 0.5
  },
  "habit_by_species": {

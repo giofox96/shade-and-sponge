@@ -153,7 +153,13 @@ export async function setParks(on) {
     state.parks = markRaw({ site: state.site, ...(await (await fetch(dataUrl(state.meta.parks.file))).json()) })
   state.showParks = on && !!state.parks
 }
-// Synthetic underground services (python scripts/synthetic_utilities.py): published layout rules + random choices, not real plans
+// Synthetic underground services (python scripts/synthetic_utilities.py): random lines drawn from the real networks' statistics, not real plans
+// one colour per synthetic network (map lines and the legend); a service line to a building takes its network's colour, thinner
+export const UTIL_NETS = [['water', 'Water', [40, 110, 210]], ['gas', 'Gas', [230, 170, 20]], ['electricity (LV)', 'Electricity, low voltage', [210, 50, 50]],
+  ['electricity (MV)', 'Electricity, medium voltage', [130, 20, 40]], ['telecom', 'Telecom (Telefónica)', [140, 80, 190]],
+  ['telecom (ONO)', 'Telecom (Vodafone-ONO)', [40, 150, 70]], ['lighting', 'Street lighting', [240, 120, 20]]]
+export const UTIL_COLOR = Object.fromEntries([...UTIL_NETS.map(([k, , c]) => [k, c]),
+  ['gas service', [230, 170, 20]], ['water service', [40, 110, 210]], ['electricity service', [210, 50, 50]]])
 export async function setUtilities(on) {
   if (on && state.meta?.utilities && state.utilities?.site !== state.site)
     state.utilities = markRaw({ site: state.site, features: (await (await fetch(dataUrl(state.meta.utilities.file))).json()).features })
