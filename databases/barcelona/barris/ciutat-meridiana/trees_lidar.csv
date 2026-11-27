@@ -1,0 +1,113 @@
+tree_id,x,y,ground_z,species,is_plane,size_category,street,height_m,crown_area_m2,crown_diam_m,crown_base_m,gap_fraction,lai_proxy,n_points,flag
+0244596AR,431258.0,4590124.0,56.73,Ostrya carpinifolia,False,SEGONA,C\ Vallcivera,5.41,18.5,4.85,2.53,0.437,1.65,589,ok
+0246215AR,431118.0,4590120.0,65.64,Cercis siliquastrum,False,SEGONA,Av Rasos de Peguera,,0.0,0.0,,,,0,no_crown_detected
+0246218AR,431451.63,4590305.26,39.53,Tipuana tipu,False,SEGONA,Pl Roja de la Ciutat Meridiana,11.85,41.5,7.27,5.95,0.4,1.83,1932,ok
+0246219AR,431470.84,4590323.13,39.41,Brachychiton populneus,False,SEGONA,C\ Vallcivera,7.15,11.8,3.87,3.56,0.45,1.6,520,ok
+0246221AR,431390.0,4590308.0,41.78,Brachychiton populneus,False,TERCERA,Av Rasos de Peguera,8.54,25.0,5.64,3.26,0.325,2.25,970,ok
+0246222AR,431245.83,4590195.51,53.43,Populus nigra 'Italica',False,TERCERA,Av Rasos de Peguera,16.84,28.5,6.02,6.09,0.319,2.28,1495,ok
+0246223AR,431192.83,4590110.74,60.12,Melia azedarach,False,EXEMPLAR,Av Rasos de Peguera,8.76,53.8,8.27,5.12,0.476,1.49,2141,ok
+0246224AR,431289.0,4590146.0,54.07,Celtis australis,False,SEGONA,C\ Vallcivera,8.2,42.0,7.31,4.36,0.411,1.78,1797,ok
+0246225AR,431432.08,4590296.26,39.39,Populus nigra 'Italica',False,SEGONA,Pl Roja de la Ciutat Meridiana,18.93,40.2,7.16,6.67,0.372,1.98,2451,ok
+0246228AR,431417.81,4590330.75,40.41,Brachychiton populneus,False,TERCERA,Av Rasos de Peguera,6.52,17.0,4.65,3.14,0.462,1.54,820,ok
+0246229AR,431247.91,4590200.97,53.03,Populus nigra 'Italica',False,TERCERA,Av Rasos de Peguera,17.98,24.8,5.61,5.39,0.326,2.24,1365,ok
+0246230AR,431521.47,4590329.02,39.68,Populus nigra,False,EXEMPLAR,C\ Vallcivera,15.03,99.8,11.27,6.49,0.321,2.27,5060,ok
+0246232AR,431004.76,4590216.84,101.88,Robinia pseudoacacia 'Bessoniana',False,SEGONA,Av Rasos de Peguera,8.42,22.8,5.38,3.41,0.322,2.27,1430,ok
+0246234AR,431241.59,4590183.51,54.46,Populus nigra 'Italica',False,SEGONA,Av Rasos de Peguera,14.59,23.8,5.5,4.97,0.335,2.19,1063,ok
+0246235AR,431428.0,4590339.0,40.01,Brachychiton populneus,False,TERCERA,Av Rasos de Peguera,10.24,26.8,5.84,5.37,0.251,2.76,1365,ok
+0246236AR,431019.75,4590228.34,100.91,Robinia pseudoacacia 'Bessoniana',False,SEGONA,Av Rasos de Peguera,5.42,24.2,5.56,3.06,0.479,1.47,874,ok
+0246237AR,431257.13,4590216.84,52.08,Liquidambar styraciflua,False,PRIMERA,Av Rasos de Peguera,0.0,5.8,2.71,6.87,0.403,1.82,243,low_tree
+0246239AR,431285.21,4590239.64,50.82,Populus nigra 'Italica',False,SEGONA,Av Rasos de Peguera,11.58,20.8,5.14,3.07,0.291,2.47,961,ok
+0246240AR,431266.86,4590225.37,51.54,Populus nigra 'Italica',False,SEGONA,Av Rasos de Peguera,7.79,11.5,3.83,3.31,0.315,2.31,482,ok
+0246242AR,431419.0,4590290.78,39.52,Populus nigra 'Italica',False,TERCERA,Pl Roja de la Ciutat Meridiana,19.64,88.2,10.6,6.0,0.342,2.15,5263,ok
+0246243AR,431435.45,4590299.24,39.4,Populus nigra 'Italica',False,SEGONA,Pl Roja de la Ciutat Meridiana,14.04,34.8,6.65,5.79,0.385,1.91,1866,ok
+0246244AR,431230.0,4590098.0,58.89,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Vallcivera,5.95,22.0,5.29,3.37,0.582,1.08,843,ok
+0246245AR,431454.84,4590343.48,39.25,Brachychiton populneus,False,PRIMERA,C\ Vallcivera,3.44,2.0,1.6,2.34,0.613,0.98,67,ok
+0246246AR,431474.15,4590318.91,39.52,Brachychiton populneus,False,EXEMPLAR,C\ Vallcivera,8.38,30.5,6.23,3.52,0.43,1.69,1255,ok
+0246247AR,431399.34,4590315.54,41.22,Brachychiton populneus,False,SEGONA,Av Rasos de Peguera,3.46,9.0,3.39,2.38,0.527,1.28,395,ok
+0246248AR,431462.83,4590333.08,39.29,Brachychiton populneus,False,TERCERA,C\ Vallcivera,6.82,8.8,3.34,3.79,0.392,1.87,326,ok
+0246252AR,431271.82,4590229.31,51.32,Populus nigra 'Italica',False,SEGONA,Av Rasos de Peguera,11.7,21.2,5.2,4.28,0.348,2.11,1045,ok
+0246254AR,431204.0,4590093.0,59.89,Melia azedarach,False,SEGONA,C\ Vallcivera,6.64,46.5,7.69,3.55,0.432,1.68,1946,ok
+0246258AR,431494.71,4590314.62,39.65,Populus nigra 'Italica',False,SEGONA,C\ Vallcivera,12.76,15.8,4.48,3.65,0.322,2.27,941,ok
+0246259AR,431422.53,4590334.54,40.19,Brachychiton populneus,False,TERCERA,Av Rasos de Peguera,7.98,21.0,5.17,3.23,0.367,2.01,948,ok
+0246260AR,431459.07,4590338.25,39.25,Brachychiton populneus,False,SEGONA,C\ Vallcivera,5.98,8.2,3.24,3.42,0.466,1.53,351,ok
+0246264AR,431409.18,4590310.43,40.3,Jacaranda mimosifolia,False,PRIMERA,Pl Roja de la Ciutat Meridiana,3.93,5.0,2.52,2.84,0.6,1.02,208,ok
+0246265AR,430994.35,4590208.51,102.48,Robinia pseudoacacia 'Bessoniana',False,PRIMERA,Av Rasos de Peguera,7.1,34.8,6.65,5.69,0.328,2.23,1424,ok
+0246268AR,431503.0,4590321.0,39.6,Ostrya carpinifolia,False,PRIMERA,C\ Vallcivera,3.63,3.5,2.11,2.79,0.505,1.36,151,ok
+0246271AR,431439.17,4590295.15,39.6,Tipuana tipu,False,SEGONA,Pl Roja de la Ciutat Meridiana,12.76,30.2,6.21,7.79,0.347,2.12,1313,ok
+0246275AR,431447.47,4590301.87,39.56,Tipuana tipu,False,SEGONA,Pl Roja de la Ciutat Meridiana,12.32,39.2,7.07,6.39,0.419,1.74,1743,ok
+0246276AR,431395.95,4590324.79,41.09,Tipuana tipu,False,TERCERA,Av Rasos de Peguera,11.34,71.2,9.52,4.59,0.303,2.39,2847,ok
+0246279AR,431446.49,4590312.14,39.18,Populus nigra 'Italica',False,TERCERA,Pl Roja de la Ciutat Meridiana,16.42,50.0,7.98,5.32,0.344,2.13,2958,ok
+0246280AR,431304.0,4590160.0,52.52,Celtis australis,False,SEGONA,C\ Vallcivera,8.48,61.5,8.85,4.27,0.289,2.48,2525,ok
+0246281AR,431280.49,4590236.11,51.0,Populus nigra 'Italica',False,SEGONA,Av Rasos de Peguera,6.88,16.8,4.62,3.31,0.36,2.04,613,ok
+0246282AR,431275.95,4590232.29,51.18,Populus nigra 'Italica',False,SEGONA,Av Rasos de Peguera,13.82,28.2,6.0,3.59,0.354,2.07,1476,ok
+0246286AR,431403.79,4590304.2,39.79,Prunus cerasifera 'Pissardii',False,PRIMERA,Pl Roja de la Ciutat Meridiana,4.65,11.5,3.83,2.81,0.477,1.48,476,ok
+0246287AR,431266.74,4590155.34,55.0,Acer negundo,False,TERCERA,Av Rasos de Peguera,11.09,154.5,14.03,4.8,0.365,2.02,8481,ok
+0246289AR,431253.42,4590211.51,52.34,Populus nigra 'Italica',False,TERCERA,Av Rasos de Peguera,17.46,30.8,6.26,6.34,0.368,2.0,1693,ok
+0246291AR,431243.61,4590189.35,53.91,Populus nigra 'Italica',False,SEGONA,Av Rasos de Peguera,14.27,16.2,4.55,6.13,0.312,2.33,833,ok
+0246295AR,431533.56,4590301.82,42.06,Ostrya carpinifolia,False,PRIMERA,C\ Vallcivera,3.99,6.0,2.76,2.72,0.508,1.36,247,ok
+0246296AR,431390.33,4590320.68,41.37,Tipuana tipu,False,SEGONA,Av Rasos de Peguera,10.65,28.2,6.0,6.43,0.26,2.69,1083,ok
+0246297AR,431450.27,4590314.98,39.16,Populus nigra 'Italica',False,SEGONA,Pl Roja de la Ciutat Meridiana,13.06,24.2,5.56,4.86,0.366,2.01,1546,ok
+0246298AR,431380.14,4590313.01,42.06,Tipuana tipu,False,TERCERA,Av Rasos de Peguera,13.94,139.2,13.32,8.72,0.247,2.8,6073,ok
+0246300AR,431399.66,4590300.67,39.67,Prunus cerasifera 'Pissardii',False,PRIMERA,Pl Roja de la Ciutat Meridiana,4.14,7.2,3.04,2.65,0.493,1.41,312,ok
+0246301AR,431559.8,4590286.94,44.02,Ostrya carpinifolia,False,PRIMERA,C\ Vallcivera,6.21,4.0,2.26,2.73,0.482,1.46,162,ok
+0246302AR,431284.0,4590141.0,54.54,Celtis australis,False,SEGONA,C\ Vallcivera,6.42,35.2,6.7,4.14,0.388,1.89,1392,ok
+0246303AR,431423.13,4590282.55,39.69,Tipuana tipu,False,TERCERA,Pl Roja de la Ciutat Meridiana,14.33,71.0,9.51,5.55,0.282,2.53,3498,ok
+0246304AR,431547.45,4590295.54,43.23,Ostrya carpinifolia,False,PRIMERA,C\ Vallcivera,5.4,2.8,1.87,2.38,0.426,1.7,138,ok
+0246305AR,431413.59,4590327.49,40.53,Brachychiton populneus,False,PRIMERA,Av Rasos de Peguera,3.96,10.0,3.57,3.04,0.478,1.47,415,ok
+0246306AR,431250.08,4590206.3,52.67,Populus nigra 'Italica',False,SEGONA,Av Rasos de Peguera,8.6,17.0,4.65,4.54,0.334,2.19,730,ok
+0246308AR,431406.71,4590307.47,40.04,Jacaranda mimosifolia,False,PRIMERA,Pl Roja de la Ciutat Meridiana,4.44,5.8,2.71,2.93,0.482,1.46,240,ok
+0246309AR,431500.5,4590311.44,39.85,Populus nigra 'Italica',False,TERCERA,C\ Vallcivera,14.18,28.2,6.0,4.6,0.33,2.21,1515,ok
+0246310AR,431459.17,4590310.48,39.51,Tipuana tipu,False,SEGONA,C\ Vallcivera,8.44,2.2,1.69,3.17,0.551,1.19,76,ok
+0246312AR,431439.0,4590304.0,39.28,Populus nigra 'Italica',False,SEGONA,Pl Roja de la Ciutat Meridiana,14.64,52.0,8.14,5.69,0.421,1.73,2920,ok
+0246314AR,431242.0,4590110.0,57.89,Hibiscus syriacus,False,SEGONA,C\ Vallcivera,5.37,28.8,6.05,2.85,0.48,1.47,1153,ok
+0246316AR,431526.85,4590304.03,41.54,Ostrya carpinifolia,False,PRIMERA,C\ Vallcivera,5.49,8.0,3.19,2.79,0.552,1.19,294,ok
+0246318AR,431294.0,4590150.0,53.61,Celtis australis,False,TERCERA,C\ Vallcivera,9.44,86.8,10.51,4.87,0.34,2.16,3980,ok
+0246320AR,431411.82,4590312.74,40.46,Jacaranda mimosifolia,False,PRIMERA,Pl Roja de la Ciutat Meridiana,,0.0,0.0,,,,0,no_crown_detected
+0246321AR,431477.56,4590314.19,39.63,Brachychiton populneus,False,TERCERA,C\ Vallcivera,7.26,21.5,5.23,3.65,0.396,1.85,673,ok
+0246322AR,431427.37,4590285.78,39.62,Tipuana tipu,False,SEGONA,Pl Roja de la Ciutat Meridiana,10.01,26.5,5.81,3.73,0.409,1.79,922,ok
+0246323AR,431240.0,4590178.0,54.88,Populus nigra 'Italica',False,SEGONA,Av Rasos de Peguera,14.12,54.2,8.31,5.6,0.327,2.24,2566,ok
+0246325AR,431466.72,4590327.99,39.27,Brachychiton populneus,False,TERCERA,C\ Vallcivera,6.56,8.0,3.19,3.48,0.418,1.75,322,ok
+0246326AR,430988.4,4590203.09,102.9,Pinus halepensis,False,EXEMPLAR,Av Rasos de Peguera,12.39,72.0,9.57,6.33,0.357,2.06,2838,ok
+0246327AR,431407.95,4590323.79,40.76,Brachychiton populneus,False,TERCERA,Av Rasos de Peguera,6.65,12.8,4.03,4.01,0.442,1.63,665,ok
+0246328AR,431431.1,4590288.81,39.63,Tipuana tipu,False,SEGONA,Pl Roja de la Ciutat Meridiana,13.16,33.5,6.53,5.31,0.356,2.07,1624,ok
+0246329AR,431279.13,4590136.67,55.06,Celtis australis,False,TERCERA,C\ Vallcivera,10.31,57.0,8.52,4.37,0.26,2.7,2281,ok
+0246330AR,430999.08,4590212.26,102.25,Robinia pseudoacacia,False,SEGONA,Av Rasos de Peguera,7.95,18.8,4.89,4.5,0.427,1.7,951,ok
+0246332AR,431443.56,4590298.82,39.54,Tipuana tipu,False,SEGONA,Pl Roja de la Ciutat Meridiana,12.38,29.0,6.08,6.97,0.367,2.01,1301,ok
+0246333AR,431508.83,4590324.76,39.58,Ostrya carpinifolia,False,PRIMERA,C\ Vallcivera,5.39,4.2,2.33,2.46,0.483,1.45,179,ok
+0246336AR,431394.42,4590312.05,41.5,Brachychiton populneus,False,SEGONA,Av Rasos de Peguera,6.16,11.5,3.83,2.67,0.395,1.86,480,ok
+0246337AR,431149.0,4590127.0,63.61,Cercis siliquastrum,False,SEGONA,Av Rasos de Peguera,3.49,15.0,4.37,2.6,0.526,1.28,475,ok
+0246339AR,431431.97,4590341.72,39.87,Brachychiton populneus,False,SEGONA,Av Rasos de Peguera,8.7,4.2,2.33,7.62,0.174,3.49,231,ok
+0246340AR,431010.08,4590221.06,101.56,Robinia pseudoacacia 'Bessoniana',False,PRIMERA,Av Rasos de Peguera,5.62,7.5,3.09,2.91,0.447,1.61,334,ok
+0246341AR,431016.15,4590225.62,101.2,Robinia pseudoacacia 'Bessoniana',False,SEGONA,Av Rasos de Peguera,6.45,56.8,8.5,3.28,0.487,1.44,2462,ok
+0246342AR,431515.77,4590326.92,39.61,Ostrya carpinifolia,False,PRIMERA,C\ Vallcivera,4.44,7.2,3.04,2.5,0.465,1.53,241,ok
+0246343AR,431435.47,4590292.72,39.6,Tipuana tipu,False,TERCERA,Pl Roja de la Ciutat Meridiana,13.36,30.5,6.23,6.51,0.392,1.87,1468,ok
+0246345AR,431385.12,4590316.81,41.72,Tipuana tipu,False,SEGONA,Av Rasos de Peguera,12.62,65.2,9.11,7.42,0.236,2.89,2780,ok
+0246347AR,431540.46,4590298.87,42.65,Ostrya carpinifolia,False,PRIMERA,C\ Vallcivera,4.72,2.0,1.6,2.49,0.412,1.77,98,ok
+0260628AR,431417.0,4590346.0,42.55,Tipuana tipu,False,EXEMPLAR,Av Rasos de Peguera,15.13,119.8,12.35,7.62,0.308,2.35,5096,ok
+0260797AR,431419.0,4590345.0,41.13,Tipuana tipu,False,EXEMPLAR,Av Rasos de Peguera,16.34,82.5,10.25,9.26,0.218,3.04,3617,ok
+0293923AR,431452.24,4590253.68,43.96,Quercus ilex,False,SEGONA,C\ Vallcivera,6.53,87.2,10.54,2.73,0.35,2.1,3319,ok
+0312096AR,431506.43,4590308.81,40.06,Ostrya carpinifolia,False,PRIMERA,C\ Vallcivera,5.86,7.0,2.99,3.59,0.456,1.57,269,ok
+0312107AR,431489.08,4590280.1,47.13,Quercus ilex,False,PRIMERA,C\ Vallcivera,3.96,8.5,3.29,2.62,0.476,1.48,314,ok
+0313595AR,431158.8,4590432.84,93.97,Acer saccharinum,False,SEGONA,C\ Pedraforca,7.49,14.0,4.22,3.44,0.211,3.12,266,ok
+0313596AR,431157.11,4590425.94,93.9,Acer saccharinum,False,SEGONA,C\ Pedraforca,6.97,10.5,3.66,3.43,0.265,2.66,151,ok
+0313597AR,431154.98,4590418.83,93.92,Acer saccharinum,False,SEGONA,C\ Pedraforca,7.07,10.0,3.57,3.8,0.265,2.66,185,ok
+0313598AR,431149.57,4590400.16,95.1,Acer saccharinum,False,SEGONA,C\ Pedraforca,6.0,5.0,2.52,2.61,0.49,1.43,102,ok
+0313599AR,431147.88,4590393.79,95.67,Acer saccharinum,False,PRIMERA,C\ Pedraforca,7.35,8.0,3.19,3.19,0.296,2.44,213,ok
+0313600AR,431145.75,4590386.79,96.26,Acer saccharinum,False,SEGONA,C\ Pedraforca,7.74,8.8,3.34,3.62,0.324,2.25,222,ok
+0313601AR,431143.74,4590380.11,96.8,Acer saccharinum,False,SEGONA,C\ Pedraforca,6.79,8.8,3.34,3.43,0.352,2.09,207,ok
+0313602AR,431140.14,4590367.41,97.6,Acer saccharinum,False,PRIMERA,C\ Pedraforca,7.19,13.8,4.18,2.77,0.294,2.45,502,ok
+0313603AR,431138.31,4590360.46,97.65,Acer saccharinum,False,SEGONA,C\ Pedraforca,7.69,6.8,2.93,3.27,0.407,1.8,247,ok
+0313604AR,431136.18,4590353.12,97.72,Acer saccharinum,False,SEGONA,C\ Pedraforca,7.32,5.5,2.65,2.83,0.414,1.76,227,ok
+0313605AR,431132.61,4590340.85,97.79,Acer saccharinum,False,PRIMERA,C\ Pedraforca,,0.0,0.0,,,,0,no_crown_detected
+0313606AR,431130.68,4590333.03,97.82,Acer saccharinum,False,PRIMERA,C\ Pedraforca,5.47,2.5,1.78,3.89,0.548,1.2,66,ok
+0313608AR,431126.43,4590319.8,97.86,Acer saccharinum,False,PRIMERA,C\ Pedraforca,7.32,5.2,2.59,3.25,0.318,2.29,165,ok
+0313609AR,431120.49,4590299.62,97.92,Acer saccharinum,False,PRIMERA,C\ Pedraforca,5.21,5.8,2.71,3.02,0.413,1.77,148,ok
+0313610AR,431118.75,4590292.76,97.99,Acer saccharinum,False,PRIMERA,C\ Pedraforca,5.03,5.0,2.52,2.75,0.388,1.89,135,ok
+0313611AR,431117.11,4590286.19,98.02,Acer saccharinum,False,PRIMERA,C\ Pedraforca,4.73,3.5,2.11,2.19,0.471,1.51,100,ok
+0313612AR,431114.89,4590279.72,98.05,Acer saccharinum,False,PRIMERA,C\ Pedraforca,5.81,3.8,2.19,2.74,0.462,1.55,99,ok
+0319301AR,431193.74,4590116.0,59.91,Melia azedarach,False,PRIMERA,Av Rasos de Peguera,7.06,50.8,8.04,3.85,0.401,1.83,2076,ok
+0322088AR,431480.72,4590275.82,47.02,Quercus ilex,False,PRIMERA,C\ Vallcivera,,0.0,0.0,,,,0,no_crown_detected
+0329056AR,431235.06,4590359.76,79.53,Platycladus orientalis,False,SEGONA,C\ Agudes,8.03,56.0,8.44,2.78,0.389,1.89,2620,ok
+0346709AR,431017.8,4590083.2,73.76,Pinus pinea,False,TERCERA,Av Rasos de Peguera,9.17,31.5,6.33,5.91,0.302,2.39,1156,ok
+0346710AR,431021.11,4590072.35,71.84,Ulmus pumila,False,SEGONA,Av Rasos de Peguera,9.17,69.2,9.39,4.62,0.345,2.13,2787,ok
+0346712AR,431043.0,4590146.57,82.2,Malus domestica,False,SEGONA,Av Rasos de Peguera,6.52,96.5,11.08,3.19,0.31,2.34,3264,ok

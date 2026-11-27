@@ -1,0 +1,907 @@
+tree_id,species,is_plane,street,width_m,facade_dist_m,flag,strip_width_m,size_class,ray_x0,ray_y0,ray_x1,ray_y1,pit_min_m2,pit_basis
+0060364AR,Casuarina cunninghamiana,False,Av Cardenal Vidal i Barraquer,,17.94,no_kerb,,check,,,,,1.0,floor
+0060440AR,Casuarina cunninghamiana,False,Av Cardenal Vidal i Barraquer,,10.99,no_kerb,,check,,,,,1.0,floor
+0060568AR,Casuarina cunninghamiana,False,Av Cardenal Vidal i Barraquer,,28.29,no_kerb,,check,,,,,1.0,floor
+0060610AR,Casuarina cunninghamiana,False,Av Cardenal Vidal i Barraquer,,23.51,no_kerb,,check,,,,,1.0,floor
+0060633AR,Casuarina cunninghamiana,False,Av Cardenal Vidal i Barraquer,,14.89,median,,check,,,,,1.0,floor
+0060756AR,Styphnolobium japonicum,False,C\ Granja Vella,,60.55,no_facade,14.17,check,,,,,1.0,floor
+0060766AR,Styphnolobium japonicum,False,Av Martí-Codolar,,53.57,no_facade,8.08,check,,,,,1.0,floor
+0060798AR,Styphnolobium japonicum,False,Av Martí-Codolar,,71.04,no_facade,23.92,check,,,,,1.0,floor
+0060826AR,Styphnolobium japonicum,False,Av Martí-Codolar,,34.74,no_facade,16.69,check,,,,,1.0,floor
+0062322AR,Magnolia grandiflora,False,C\ Pare Mariana,,41.61,no_facade,,check,,,,,1.0,floor
+0062323AR,Platanus × acerifolia,True,Pg Vall d'Hebron,,69.55,no_facade,,check,,,,,1.0,floor
+0062326AR,Populus nigra 'Italica',False,Pg Vall d'Hebron,,60.8,no_facade,2.81,check,,,,,1.0,floor
+0062329AR,Celtis sinensis,False,C\ Ventura Rodríguez,,19.98,median,,check,,,,,1.0,floor
+0062330AR,Platanus × acerifolia,True,Pg Vall d'Hebron,3.91,3.26,ok,,medium,428743.17,4587304.53,428739.64,4587306.22,1.0,class
+0062332AR,Platanus × acerifolia,True,Pg Vall d'Hebron,,71.6,no_facade,,check,,,,,1.0,floor
+0062333AR,Styphnolobium japonicum,False,C\ Granja Vella,,58.34,no_facade,,check,,,,,1.0,floor
+0062334AR,Ligustrum lucidum,False,C\ Arquitecte Moragas,25.64,2.89,ok,,large,428799.44,4587144.64,428775.33,4587153.35,1.5,class
+0062336AR,Tipuana tipu,False,C\ Coll i Alentorn,,59.96,no_facade,4.0,check,,,,,1.0,floor
+0062338AR,Brachychiton populneus,False,C\ Berruguete,,17.06,median,14.2,check,,,,,1.0,floor
+0062339AR,Casuarina cunninghamiana,False,Av Martí-Codolar,,65.03,no_facade,27.7,check,,,,,1.0,floor
+0062341AR,Brachychiton populneus,False,C\ Berruguete,,7.51,median,14.15,check,,,,,1.0,floor
+0062343AR,Magnolia grandiflora,False,C\ Pare Mariana,,29.28,median,7.87,check,,,,,1.0,floor
+0062344AR,Ceratonia siliqua,False,C\ Granja Vella,,45.4,no_facade,13.51,check,,,,,1.0,floor
+0062346AR,Casuarina cunninghamiana,False,C\ Granja Vella,,64.9,no_facade,4.43,check,,,,,1.0,floor
+0062347AR,Brachychiton populneus,False,C\ Berruguete,5.72,6.71,ok,,medium,428866.49,4587222.96,428862.45,4587218.92,1.0,class
+0062351AR,Celtis sinensis,False,C\ Jorge Manrique,,66.9,no_facade,18.19,check,,,,,1.0,floor
+0062356AR,Casuarina cunninghamiana,False,Av Martí-Codolar,,69.85,no_facade,29.39,check,,,,,1.0,floor
+0062359AR,Brachychiton populneus,False,C\ Berruguete,,14.8,median,12.54,check,,,,,1.0,floor
+0062361AR,Styphnolobium japonicum,False,C\ Arquitecte Moragas,16.46,8.16,ok,,large,428781.28,4587126.3,428765.77,4587131.84,1.5,class
+0062362AR,Brachychiton populneus,False,C\ Berruguete,,11.81,median,11.6,check,,,,,1.0,floor
+0062367AR,Casuarina cunninghamiana,False,Av Martí-Codolar,,62.9,no_facade,28.36,check,,,,,1.0,floor
+0062368AR,Brachychiton populneus,False,C\ Berruguete,,18.66,median,12.56,check,,,,,1.0,floor
+0062369AR,Melia azedarach,False,Av Can Marcet,,64.84,no_facade,,check,,,,,1.0,floor
+0062370AR,Prunus cerasifera 'Pissardii',False,C\ Can Travi,5.96,4.06,ok,,medium,429043.59,4587172.43,429049.19,4587170.42,1.0,class
+0062372AR,Celtis sinensis,False,C\ Juan de Mena,,24.56,median,,check,,,,,1.0,floor
+0062377AR,Pinus pinea,False,C\ Jorge Manrique,,47.07,no_facade,29.59,check,,,,,1.0,floor
+0062380AR,Tipuana tipu,False,Pl Sibil·les,,10.76,median,8.26,check,,,,,1.0,floor
+0062383AR,Styphnolobium japonicum,False,C\ Arquitecte Moragas,,18.58,no_kerb,,check,,,,,1.0,floor
+0062384AR,Magnolia grandiflora,False,C\ Pare Mariana,,23.9,median,7.9,check,,,,,1.0,floor
+0062386AR,Tipuana tipu,False,C\ Jorge Manrique,,17.56,median,,check,,,,,1.0,floor
+0062389AR,Platanus × acerifolia,True,Pg Vall d'Hebron,20.24,18.35,ok,,large,428986.26,4587576.3,428993.49,4587595.2,1.5,class
+0062390AR,Ginkgo biloba,False,Av Cardenal Vidal i Barraquer,28.83,4.3,ok,,large,429120.29,4587201.26,429137.92,4587224.08,1.5,class
+0062393AR,Platanus × acerifolia,True,C\ Arquitecte Moragas,,39.92,no_facade,,check,,,,,1.0,floor
+0062395AR,Brachychiton populneus,False,C\ Berruguete,,10.33,median,13.95,check,,,,,1.0,floor
+0062396AR,Brachychiton populneus,False,C\ Berruguete,,12.39,median,13.92,check,,,,,1.0,floor
+0062398AR,Magnolia grandiflora,False,C\ Pare Mariana,,31.89,no_facade,,check,,,,,1.0,floor
+0062399AR,Populus nigra 'Italica',False,C\ Granja Vella,,78.12,no_facade,3.21,check,,,,,1.0,floor
+0062400AR,Celtis sinensis,False,C\ Ventura Rodríguez,5.43,4.5,ok,,medium,428929.41,4587149.87,428934.52,4587148.02,1.0,class
+0062403AR,Platanus × acerifolia,True,C\ Arquitecte Moragas,,12.91,median,26.39,check,,,,,1.0,floor
+0062409AR,Tipuana tipu,False,C\ Coll i Alentorn,,52.73,no_facade,6.52,check,,,,,1.0,floor
+0062412AR,Magnolia grandiflora,False,C\ Pare Mariana,,40.04,no_facade,7.68,check,,,,,1.0,floor
+0062413AR,Celtis sinensis,False,C\ Berruguete,5.59,4.86,ok,,medium,428985.38,4587153.55,428987.27,4587158.81,1.0,class
+0062415AR,Casuarina cunninghamiana,False,Av Martí-Codolar,,55.78,no_facade,,check,,,,,1.0,floor
+0062419AR,Brachychiton populneus,False,C\ Berruguete,,10.99,median,,check,,,,,1.0,floor
+0062420AR,Fraxinus angustifolia,False,C\ Can Travi,5.96,4.26,ok,,medium,429046.07,4587179.35,429051.68,4587177.34,1.0,class
+0062424AR,Celtis sinensis,False,Pg Vall d'Hebron,4.3,3.4,ok,,medium,428614.56,4586952.21,428610.5,4586953.64,1.0,class
+0062429AR,Brachychiton populneus,False,C\ Berruguete,,8.01,median,25.53,check,,,,,1.0,floor
+0062430AR,Brachychiton populneus,False,C\ Berruguete,,8.0,median,14.69,check,,,,,1.0,floor
+0062435AR,Celtis sinensis,False,C\ Ventura Rodríguez,2.87,2.17,ok,,small,428920.73,4587060.41,428918.03,4587061.38,1.0,class
+0062440AR,Celtis sinensis,False,Pg Vall d'Hebron,3.77,3.14,ok,,medium,428633.28,4587005.41,428629.72,4587006.66,1.0,class
+0062442AR,Celtis australis,False,C\ Arquitecte Moragas,6.99,6.15,ok,,large,428845.25,4587322.61,428838.67,4587324.97,1.5,class
+0062443AR,Celtis sinensis,False,C\ Ventura Rodríguez,2.86,2.23,ok,,small,428927.21,4587078.56,428924.52,4587079.52,1.0,class
+0062445AR,Celtis sinensis,False,Pg Vall d'Hebron,4.3,3.41,ok,,medium,428612.56,4586946.53,428608.5,4586947.95,1.0,class
+0062454AR,Brachychiton populneus,False,C\ Berruguete,,9.15,median,,check,,,,,1.0,floor
+0062456AR,Acer negundo,False,C\ Juan de Mena,21.95,21.04,ok,,large,428771.39,4586964.42,428775.04,4586986.06,1.5,class
+0062457AR,Populus nigra 'Italica',False,C\ Granja Vella,,34.36,no_facade,5.23,check,,,,,1.0,floor
+0062459AR,Styphnolobium japonicum,False,Av Martí-Codolar,,48.05,no_facade,23.06,check,,,,,1.0,floor
+0062460AR,Celtis sinensis,False,C\ Ventura Rodríguez,19.3,18.36,ok,,large,428963.76,4587144.74,428945.65,4587138.06,1.5,class
+0062464AR,Cupressus sempervirens 'Stricta',False,Pg Vall d'Hebron,,48.96,no_facade,9.14,check,,,,,1.0,floor
+0062465AR,Ligustrum lucidum,False,C\ Arquitecte Moragas,25.68,2.77,ok,,large,428803.63,4587156.24,428779.48,4587164.97,1.5,class
+0062467AR,Styphnolobium japonicum,False,C\ Arquitecte Moragas,25.7,19.13,ok,,large,428820.14,4587201.91,428795.97,4587210.64,1.5,class
+0062468AR,Celtis sinensis,False,Pg Vall d'Hebron,4.3,3.36,ok,,medium,428621.04,4586970.62,428616.98,4586972.05,1.0,class
+0062469AR,Casuarina cunninghamiana,False,Av Martí-Codolar,,56.91,no_facade,26.71,check,,,,,1.0,floor
+0062471AR,Brachychiton populneus,False,C\ Berruguete,,9.44,median,14.07,check,,,,,1.0,floor
+0062474AR,Celtis sinensis,False,C\ Ventura Rodríguez,5.43,4.79,ok,,medium,428924.69,4587136.78,428929.8,4587134.93,1.0,class
+0062476AR,Pinus pinea,False,C\ Jorge Manrique,,21.85,median,6.78,check,,,,,1.0,floor
+0062480AR,Casuarina cunninghamiana,False,C\ Granja Vella,,67.74,no_facade,4.26,check,,,,,1.0,floor
+0062483AR,Casuarina cunninghamiana,False,C\ Granja Vella,,69.15,no_facade,4.06,check,,,,,1.0,floor
+0062484AR,Prunus cerasifera 'Pissardii',False,C\ Can Travi,12.52,3.06,ok,,large,429064.33,4587175.53,429052.54,4587179.72,1.5,class
+0062485AR,Brachychiton populneus,False,Pg Vall d'Hebron,,61.78,no_facade,5.3,check,,,,,1.0,floor
+0062487AR,Styphnolobium japonicum,False,Av Martí-Codolar,,38.24,no_facade,23.2,check,,,,,1.0,floor
+0062489AR,Celtis sinensis,False,C\ Jorge Manrique,,46.72,no_facade,27.44,check,,,,,1.0,floor
+0062496AR,Magnolia grandiflora,False,C\ Pare Mariana,,23.89,median,7.87,check,,,,,1.0,floor
+0062498AR,Celtis sinensis,False,Pg Vall d'Hebron,3.77,2.98,ok,,medium,428636.99,4587015.96,428633.44,4587017.21,1.0,class
+0062499AR,Platanus × acerifolia,True,C\ Arquitecte Moragas,25.7,24.94,ok,,large,428820.1,4587201.8,428795.93,4587210.54,1.5,class
+0062500AR,Catalpa bignonioides,False,C\ Rubió i Balaguer,,11.8,median,8.58,check,,,,,1.0,floor
+0062506AR,Platanus × acerifolia,True,Pg Vall d'Hebron,3.28,2.39,ok,,small,428759.37,4587336.75,428756.46,4587338.26,1.0,class
+0062507AR,Celtis sinensis,False,C\ Juan de Mena,,24.89,median,,check,,,,,1.0,floor
+0062509AR,Platanus × acerifolia,True,Pg Vall d'Hebron,5.38,4.36,ok,,medium,428775.83,4587361.4,428771.43,4587364.49,1.0,class
+0062510AR,Celtis sinensis,False,C\ Jorge Manrique,17.69,13.19,ok,,large,428889.0,4587010.14,428874.05,4587019.58,1.5,class
+0062512AR,Casuarina cunninghamiana,False,C\ Granja Vella,,105.6,no_facade,1.84,check,,,,,1.0,floor
+0062514AR,Magnolia grandiflora,False,C\ Pare Mariana,,23.88,median,7.84,check,,,,,1.0,floor
+0062521AR,Prunus cerasifera 'Pissardii',False,C\ Can Travi,5.16,4.52,ok,,medium,429008.18,4587073.56,429013.04,4587071.82,1.0,class
+0062522AR,Populus nigra 'Italica',False,Pl Clota,,46.32,no_facade,27.43,check,,,,,1.0,floor
+0062523AR,Celtis australis,False,C\ Arquitecte Moragas,7.63,6.57,ok,,large,428821.53,4587325.07,428828.7,4587322.47,1.5,class
+0062524AR,Tipuana tipu,False,Pg Vall d'Hebron,,61.38,no_facade,,check,,,,,1.0,floor
+0062529AR,Pinus pinea,False,Av Cardenal Vidal i Barraquer,,40.35,no_facade,28.79,check,,,,,1.0,floor
+0062531AR,Celtis australis,False,C\ Ventura Rodríguez,,19.11,median,23.65,check,,,,,1.0,floor
+0062535AR,Catalpa bignonioides,False,C\ Rubió i Balaguer,5.27,4.77,ok,,medium,428841.74,4587203.3,428846.69,4587201.51,1.0,class
+0062537AR,Koelreuteria paniculata,False,C\ Coll i Alentorn,,37.77,no_facade,3.12,check,,,,,1.0,floor
+0062540AR,Prunus cerasifera 'Pissardii',False,C\ Can Travi,6.06,4.35,ok,,large,429057.61,4587211.63,429063.32,4587209.58,1.5,class
+0062542AR,Brachychiton populneus,False,C\ Berruguete,,12.49,median,13.95,check,,,,,1.0,floor
+0062543AR,Celtis australis,False,C\ Berruguete,,6.51,median,6.66,check,,,,,1.0,floor
+0062545AR,Celtis australis,False,C\ Ventura Rodríguez,,18.66,median,23.52,check,,,,,1.0,floor
+0062546AR,Celtis sinensis,False,C\ Jorge Manrique,,53.34,no_facade,,check,,,,,1.0,floor
+0062547AR,Styphnolobium japonicum,False,Av Martí-Codolar,,44.58,no_facade,23.12,check,,,,,1.0,floor
+0062552AR,Magnolia grandiflora,False,C\ Pare Mariana,,23.88,median,7.82,check,,,,,1.0,floor
+0062558AR,Pinus canariensis,False,C\ Rubió i Balaguer,7.68,4.45,ok,,large,428843.0,4587206.79,428850.22,4587204.18,1.5,class
+0062559AR,Platanus × acerifolia,True,Pg Vall d'Hebron,,37.45,no_facade,,check,,,,,1.0,floor
+0062561AR,Brachychiton populneus,False,C\ Berruguete,9.3,10.15,ok,,large,428857.46,4587230.71,428854.37,4587221.93,1.5,class
+0062564AR,Platanus × acerifolia,True,Pg Vall d'Hebron,,34.61,no_facade,,check,,,,,1.0,floor
+0062570AR,Platanus × acerifolia,True,Pg Vall d'Hebron,14.93,13.32,ok,,large,428986.26,4587576.3,428987.39,4587591.19,1.5,class
+0062571AR,Casuarina cunninghamiana,False,C\ Can Travi,5.95,4.52,ok,,medium,429041.09,4587165.45,429046.68,4587163.44,1.0,class
+0062575AR,Styphnolobium japonicum,False,C\ Arquitecte Moragas,25.7,18.79,ok,,large,428805.61,4587161.7,428781.44,4587170.44,1.5,class
+0062577AR,Koelreuteria paniculata 'Fastigiata',False,C\ Coll i Alentorn,,52.45,no_facade,3.7,check,,,,,1.0,floor
+0062578AR,Celtis sinensis,False,C\ Jorge Manrique,,63.98,no_facade,,check,,,,,1.0,floor
+0062579AR,Tipuana tipu,False,Pg Vall d'Hebron,,51.59,no_facade,,check,,,,,1.0,floor
+0062581AR,Styphnolobium japonicum,False,Av Martí-Codolar,,59.84,no_facade,24.07,check,,,,,1.0,floor
+0062582AR,Pinus pinea,False,C\ Jorge Manrique,,45.73,no_facade,28.57,check,,,,,1.0,floor
+0062585AR,Casuarina cunninghamiana,False,C\ Granja Vella,,108.61,no_facade,5.37,check,,,,,1.0,floor
+0062587AR,Acer negundo,False,C\ Juan de Mena,7.72,6.75,ok,,large,428786.43,4586911.48,428794.15,4586911.39,1.5,class
+0062589AR,Celtis australis,False,C\ Pare Mariana,3.95,3.46,ok,,medium,428613.11,4586919.98,428611.8,4586916.25,1.0,class
+0062591AR,Magnolia grandiflora,False,C\ Pare Mariana,,27.08,median,10.91,check,,,,,1.0,floor
+0062596AR,Casuarina cunninghamiana,False,C\ Can Travi,12.41,2.96,ok,,large,429073.47,4587201.15,429061.78,4587205.33,1.5,class
+0062597AR,Casuarina cunninghamiana,False,Av Martí-Codolar,,81.38,no_facade,33.05,check,,,,,1.0,floor
+0062598AR,Platanus × acerifolia,True,Pg Vall d'Hebron,,18.25,median,8.47,check,,,,,1.0,floor
+0062599AR,Cupressus sempervirens 'Stricta',False,Pg Vall d'Hebron,,53.18,no_facade,7.19,check,,,,,1.0,floor
+0062600AR,Quercus ilex,False,C\ Arquitecte Moragas,26.2,18.23,ok,,large,428823.41,4587364.57,428847.6,4587374.63,1.5,class
+0062601AR,Celtis australis,False,C\ Berruguete,,8.97,median,21.53,check,,,,,1.0,floor
+0062603AR,Casuarina cunninghamiana,False,C\ Granja Vella,,55.07,no_facade,5.56,check,,,,,1.0,floor
+0062604AR,Brachychiton populneus,False,C\ Berruguete,,16.97,median,14.23,check,,,,,1.0,floor
+0062608AR,Cupressus sempervirens 'Stricta',False,C\ Jorge Manrique,,57.4,no_facade,9.21,check,,,,,1.0,floor
+0062614AR,Brachychiton populneus,False,C\ Berruguete,,11.65,median,13.4,check,,,,,1.0,floor
+0062615AR,Ginkgo biloba,False,Av Cardenal Vidal i Barraquer,,1.87,no_kerb,,check,,,,,1.0,floor
+0062616AR,Brachychiton populneus,False,C\ Berruguete,,6.45,median,11.6,check,,,,,1.0,floor
+0062617AR,Casuarina cunninghamiana,False,Av Martí-Codolar,,52.07,no_facade,13.57,check,,,,,1.0,floor
+0062618AR,Casuarina cunninghamiana,False,C\ Granja Vella,,46.22,no_facade,7.1,check,,,,,1.0,floor
+0062620AR,Brachychiton populneus,False,C\ Berruguete,,8.48,median,14.19,check,,,,,1.0,floor
+0062621AR,Platanus × acerifolia,True,C\ Arquitecte Moragas,25.7,25.15,ok,,large,428809.71,4587173.06,428785.54,4587181.8,1.5,class
+0062622AR,Celtis sinensis,False,Pg Vall d'Hebron,4.3,3.34,ok,,medium,428623.0,4586976.2,428618.95,4586977.63,1.0,class
+0062624AR,Populus nigra 'Italica',False,Av Martí-Codolar,,75.85,no_facade,26.73,check,,,,,1.0,floor
+0062625AR,Platanus × acerifolia,True,Pg Vall d'Hebron,,80.77,no_facade,,check,,,,,1.0,floor
+0062627AR,Pinus pinea,False,Av Cardenal Vidal i Barraquer,,33.66,no_facade,,check,,,,,1.0,floor
+0062629AR,Casuarina cunninghamiana,False,C\ Granja Vella,,81.15,no_facade,2.95,check,,,,,1.0,floor
+0062630AR,Cupressus sempervirens 'Stricta',False,C\ Jorge Manrique,,63.92,no_facade,9.19,check,,,,,1.0,floor
+0062633AR,Tipuana tipu,False,C\ Jorge Manrique,,17.21,median,24.94,check,,,,,1.0,floor
+0062634AR,Populus nigra 'Italica',False,Pg Vall d'Hebron,,60.88,no_facade,2.56,check,,,,,1.0,floor
+0062637AR,Acer negundo,False,C\ Juan de Mena,6.33,5.36,ok,,large,428791.06,4586942.05,428796.17,4586945.77,1.5,class
+0062638AR,Styphnolobium japonicum,False,Av Martí-Codolar,,42.11,no_facade,23.68,check,,,,,1.0,floor
+0062640AR,Styphnolobium japonicum,False,C\ Granja Vella,,90.0,no_facade,12.96,check,,,,,1.0,floor
+0062643AR,Magnolia grandiflora,False,C\ Pare Mariana,,45.22,no_facade,7.73,check,,,,,1.0,floor
+0062646AR,Eucalyptus camaldulensis,False,C\ Pare Mariana,,33.27,no_facade,,check,,,,,1.0,floor
+0062649AR,Celtis sinensis,False,C\ Pare Mariana,6.26,3.61,ok,,large,428607.38,4586922.0,428605.3,4586916.09,1.5,class
+0062651AR,Ligustrum lucidum,False,C\ Arquitecte Moragas,27.35,2.7,ok,,large,428795.3,4587133.18,428769.58,4587142.48,1.5,class
+0062652AR,Brachychiton populneus,False,C\ Berruguete,,18.45,median,14.22,check,,,,,1.0,floor
+0062654AR,Populus nigra 'Italica',False,C\ Coll i Alentorn,,35.02,no_facade,3.06,check,,,,,1.0,floor
+0062657AR,Brachychiton populneus,False,C\ Berruguete,,18.71,median,14.21,check,,,,,1.0,floor
+0062664AR,Cupressus sempervirens 'Stricta',False,Pg Vall d'Hebron,,48.35,no_facade,9.08,check,,,,,1.0,floor
+0062665AR,Tipuana tipu,False,Pg Vall d'Hebron,,38.99,no_facade,,check,,,,,1.0,floor
+0062668AR,Celtis sinensis,False,C\ Ventura Rodríguez,14.77,14.02,ok,,large,428967.15,4587154.13,428953.25,4587159.13,1.5,class
+0062670AR,Pinus pinea,False,C\ Jorge Manrique,,49.87,no_facade,,check,,,,,1.0,floor
+0062673AR,Eucalyptus globulus,False,C\ Granja Vella,,97.91,no_facade,20.2,check,,,,,1.0,floor
+0062676AR,Platanus × acerifolia,True,Pg Vall d'Hebron,7.61,6.45,ok,,large,428785.9,4587374.21,428781.05,4587380.08,1.5,class
+0062677AR,Celtis sinensis,False,C\ Jorge Manrique,,68.85,no_facade,18.23,check,,,,,1.0,floor
+0062679AR,Magnolia grandiflora,False,C\ Pare Mariana,,44.39,no_facade,7.73,check,,,,,1.0,floor
+0062680AR,Brachychiton populneus,False,C\ Berruguete,,10.68,median,11.65,check,,,,,1.0,floor
+0062682AR,Celtis sinensis,False,Pg Vall d'Hebron,6.11,3.23,ok,,large,428627.04,4586987.69,428621.28,4586989.72,1.5,class
+0062684AR,Cupressus sempervirens 'Stricta',False,Pg Vall d'Hebron,,54.96,no_facade,5.98,check,,,,,1.0,floor
+0062686AR,Brachychiton populneus,False,Pg Vall d'Hebron,,12.48,median,19.45,check,,,,,1.0,floor
+0062687AR,Platanus × acerifolia,True,C\ Arquitecte Moragas,14.8,14.13,ok,,large,428779.23,4587120.58,428765.18,4587125.22,1.5,class
+0062689AR,Pinus pinea,False,C\ Jorge Manrique,,21.3,median,6.46,check,,,,,1.0,floor
+0062690AR,Celtis sinensis,False,C\ Berruguete,6.95,5.98,ok,,large,428969.05,4587159.42,428967.02,4587166.07,1.5,class
+0062692AR,Brachychiton populneus,False,C\ Berruguete,,6.42,median,14.01,check,,,,,1.0,floor
+0062694AR,Celtis sinensis,False,C\ Juan de Mena,4.83,3.55,ok,,medium,428661.35,4587026.11,428665.55,4587028.49,1.0,class
+0062695AR,Brachychiton populneus,False,Pg Vall d'Hebron,,50.99,no_facade,3.8,check,,,,,1.0,floor
+0062696AR,Styphnolobium japonicum,False,C\ Granja Vella,,53.36,no_facade,13.39,check,,,,,1.0,floor
+0062697AR,Celtis sinensis,False,C\ Juan de Mena,3.75,2.97,ok,,medium,428748.95,4586995.36,428750.19,4586998.9,1.0,class
+0062701AR,Casuarina cunninghamiana,False,Av Martí-Codolar,,70.35,no_facade,31.44,check,,,,,1.0,floor
+0062702AR,Cupressus sempervirens,False,Pg Vall d'Hebron,,49.89,no_facade,9.23,check,,,,,1.0,floor
+0062703AR,Styphnolobium japonicum,False,C\ Granja Vella,,62.28,no_facade,14.21,check,,,,,1.0,floor
+0062704AR,Prunus cerasifera 'Pissardii',False,C\ Can Travi,5.14,4.61,ok,,medium,429019.1,4587104.08,429023.93,4587102.35,1.0,class
+0062707AR,Brachychiton populneus,False,C\ Berruguete,,7.66,median,14.2,check,,,,,1.0,floor
+0062708AR,Ceratonia siliqua,False,C\ Granja Vella,,42.16,no_facade,13.48,check,,,,,1.0,floor
+0062711AR,Quercus ilex,False,C\ Pare Mariana,23.25,20.29,ok,,large,428773.37,4586908.3,428765.56,4586886.4,1.5,class
+0062712AR,Casuarina cunninghamiana,False,C\ Granja Vella,,84.41,no_facade,2.67,check,,,,,1.0,floor
+0062714AR,Cupressus sempervirens 'Stricta',False,C\ Jorge Manrique,,60.52,no_facade,9.21,check,,,,,1.0,floor
+0062717AR,Platanus × acerifolia,True,C\ Arquitecte Moragas,,15.37,median,2.97,check,,,,,1.0,floor
+0062719AR,Celtis sinensis,False,C\ Juan de Mena,3.65,2.82,ok,,medium,428735.47,4587000.09,428736.68,4587003.53,1.0,class
+0062720AR,Celtis sinensis,False,C\ Berruguete,2.93,2.01,ok,,small,428919.86,4587180.29,428920.83,4587183.06,1.0,class
+0062721AR,Brachychiton populneus,False,C\ Berruguete,,7.17,median,,check,,,,,1.0,floor
+0062724AR,Styphnolobium japonicum,False,Av Martí-Codolar,,48.17,no_facade,,check,,,,,1.0,floor
+0062725AR,Pinus pinea,False,Av Cardenal Vidal i Barraquer,,56.05,no_facade,,check,,,,,1.0,floor
+0062726AR,Melia azedarach,False,Av Can Marcet,,59.78,no_facade,,check,,,,,1.0,floor
+0062728AR,Platanus × acerifolia,True,Pg Vall d'Hebron,3.36,2.58,ok,,small,428756.54,4587331.33,428753.56,4587332.88,1.0,class
+0062729AR,Styphnolobium japonicum,False,C\ Arquitecte Moragas,25.7,19.1,ok,,large,428816.0,4587190.46,428791.83,4587199.19,1.5,class
+0062730AR,Brachychiton populneus,False,C\ Berruguete,,15.13,median,14.22,check,,,,,1.0,floor
+0062733AR,Celtis sinensis,False,C\ Jorge Manrique,,35.31,no_facade,,check,,,,,1.0,floor
+0062736AR,Acer negundo,False,C\ Juan de Mena,17.11,16.36,ok,,large,428774.5,4586963.33,428780.19,4586979.46,1.5,class
+0062737AR,Celtis sinensis,False,Pg Vall d'Hebron,4.3,3.34,ok,,medium,428606.57,4586929.49,428602.51,4586930.92,1.0,class
+0062738AR,Celtis australis,False,C\ Juan de Mena,13.83,12.79,ok,,large,428778.82,4586961.8,428783.42,4586974.84,1.5,class
+0062742AR,Magnolia grandiflora,False,C\ Pare Mariana,,46.21,no_facade,,check,,,,,1.0,floor
+0062745AR,Celtis sinensis,False,C\ Juan de Mena,6.73,5.86,ok,,large,428685.74,4587014.28,428687.97,4587020.62,1.5,class
+0062746AR,Celtis sinensis,False,C\ Ventura Rodríguez,2.87,2.3,ok,,small,428923.13,4587067.14,428920.43,4587068.1,1.0,class
+0062753AR,Brachychiton populneus,False,C\ Berruguete,,10.07,median,14.08,check,,,,,1.0,floor
+0062758AR,Pinus pinea,False,Av Cardenal Vidal i Barraquer,,47.4,no_facade,,check,,,,,1.0,floor
+0062759AR,Brachychiton populneus,False,Av Can Marcet,,57.77,no_facade,,check,,,,,1.0,floor
+0062761AR,Celtis sinensis,False,C\ Berruguete,5.57,4.81,ok,,medium,428972.35,4587158.24,428974.24,4587163.48,1.0,class
+0062766AR,Cupressus sempervirens 'Stricta',False,Pg Vall d'Hebron,,51.78,no_facade,9.2,check,,,,,1.0,floor
+0062768AR,Platanus × acerifolia,True,Pg Vall d'Hebron,5.76,4.7,ok,,medium,428779.24,4587366.26,428774.53,4587369.57,1.0,class
+0062769AR,Platanus × acerifolia,True,Pg Vall d'Hebron,11.89,10.57,ok,,large,428985.44,4587575.53,428977.3,4587584.19,1.5,class
+0062770AR,Brachychiton populneus,False,C\ Berruguete,,7.41,median,12.48,check,,,,,1.0,floor
+0062771AR,Melia azedarach,False,Av Can Marcet,,51.35,no_facade,,check,,,,,1.0,floor
+0062773AR,Pinus pinea,False,C\ Jorge Manrique,,20.56,median,,check,,,,,1.0,floor
+0062774AR,Celtis australis,False,C\ Jorge Manrique,,71.53,no_facade,18.28,check,,,,,1.0,floor
+0062777AR,Catalpa bignonioides,False,C\ Rubió i Balaguer,5.42,4.66,ok,,medium,428835.94,4587187.26,428841.04,4587185.42,1.0,class
+0062780AR,Platanus × acerifolia,True,Pg Vall d'Hebron,,16.26,median,8.48,check,,,,,1.0,floor
+0062785AR,Platanus × acerifolia,True,Pg Vall d'Hebron,,67.27,no_facade,,check,,,,,1.0,floor
+0062786AR,Brachychiton populneus,False,C\ Berruguete,,7.32,median,14.1,check,,,,,1.0,floor
+0062788AR,Styphnolobium japonicum,False,C\ Arquitecte Moragas,16.69,9.32,ok,,large,428783.62,4587132.86,428772.42,4587145.22,1.5,class
+0062789AR,Brachychiton populneus,False,Pg Vall d'Hebron,,56.08,no_facade,4.9,check,,,,,1.0,floor
+0062792AR,Platanus × acerifolia,True,Pg Vall d'Hebron,,52.07,no_facade,,check,,,,,1.0,floor
+0062793AR,Celtis sinensis,False,C\ Ventura Rodríguez,5.44,4.79,ok,,medium,428934.79,4587164.8,428939.91,4587162.96,1.0,class
+0062794AR,Platanus × acerifolia,True,Pg Vall d'Hebron,6.35,5.28,ok,,large,428783.03,4587371.41,428778.08,4587375.39,1.5,class
+0062795AR,Celtis sinensis,False,C\ Jorge Manrique,6.99,5.4,ok,,large,428924.49,4587024.3,428928.46,4587018.54,1.5,class
+0062798AR,Celtis sinensis,False,Pg Vall d'Hebron,6.03,2.96,ok,,large,428629.03,4586993.34,428623.35,4586995.34,1.5,class
+0062801AR,Celtis sinensis,False,C\ Berruguete,5.62,4.94,ok,,medium,429004.88,4587146.53,429006.78,4587151.82,1.0,class
+0062802AR,Brachychiton populneus,False,Pg Vall d'Hebron,,58.91,no_facade,5.14,check,,,,,1.0,floor
+0062803AR,Populus nigra 'Italica',False,C\ Granja Vella,,47.96,no_facade,7.23,check,,,,,1.0,floor
+0062804AR,Celtis australis,False,C\ Arquitecte Moragas,7.84,6.48,ok,,large,428810.27,4587293.98,428817.64,4587291.31,1.5,class
+0062805AR,Brachychiton populneus,False,C\ Berruguete,,5.74,median,14.16,check,,,,,1.0,floor
+0062808AR,Styphnolobium japonicum,False,Av Martí-Codolar,,61.34,no_facade,24.14,check,,,,,1.0,floor
+0062809AR,Magnolia grandiflora,False,C\ Pare Mariana,,38.6,no_facade,,check,,,,,1.0,floor
+0062810AR,Celtis sinensis,False,C\ Berruguete,5.61,4.87,ok,,medium,428998.8,4587148.72,429000.7,4587154.0,1.0,class
+0062814AR,Celtis sinensis,False,C\ Ventura Rodríguez,5.42,4.68,ok,,medium,428921.8,4587128.77,428926.91,4587126.93,1.0,class
+0062815AR,Brachychiton populneus,False,C\ Berruguete,,8.32,median,13.99,check,,,,,1.0,floor
+0062822AR,Brachychiton populneus,False,C\ Berruguete,,10.58,median,13.92,check,,,,,1.0,floor
+0062823AR,Styphnolobium japonicum,False,C\ Arquitecte Moragas,25.66,18.95,ok,,large,428801.55,4587150.48,428777.42,4587159.2,1.5,class
+0062826AR,Cupressus sempervirens 'Stricta',False,Pg Vall d'Hebron,,51.61,no_facade,9.21,check,,,,,1.0,floor
+0062830AR,Styphnolobium japonicum,False,Av Martí-Codolar,,49.46,no_facade,23.49,check,,,,,1.0,floor
+0062831AR,Styphnolobium japonicum,False,C\ Granja Vella,,99.71,no_facade,15.92,check,,,,,1.0,floor
+0062834AR,Styphnolobium japonicum,False,Av Martí-Codolar,,40.64,no_facade,23.08,check,,,,,1.0,floor
+0062835AR,Styphnolobium japonicum,False,C\ Arquitecte Moragas,25.7,18.98,ok,,large,428807.77,4587167.69,428783.6,4587176.42,1.5,class
+0062836AR,Ligustrum lucidum,False,C\ Arquitecte Moragas,25.7,2.71,ok,,large,428811.96,4587179.27,428787.79,4587188.01,1.5,class
+0062838AR,Brachychiton populneus,False,C\ Berruguete,,7.74,median,14.19,check,,,,,1.0,floor
+0062841AR,Eucalyptus camaldulensis,False,C\ Pare Mariana,,31.27,no_facade,,check,,,,,1.0,floor
+0062843AR,Styphnolobium japonicum,False,C\ Granja Vella,,84.15,no_facade,13.44,check,,,,,1.0,floor
+0062849AR,Celtis sinensis,False,C\ Juan de Mena,4.0,3.31,ok,,medium,428730.67,4587001.77,428730.33,4587005.76,1.0,class
+0062854AR,Casuarina cunninghamiana,False,C\ Granja Vella,,62.33,no_facade,4.93,check,,,,,1.0,floor
+0062855AR,Melia azedarach,False,Av Can Marcet,,47.35,no_facade,,check,,,,,1.0,floor
+0062856AR,Cupressus sempervirens 'Stricta',False,Pg Vall d'Hebron,,61.38,no_facade,9.17,check,,,,,1.0,floor
+0062858AR,Cupressus sempervirens 'Stricta',False,C\ Jorge Manrique,,58.94,no_facade,9.22,check,,,,,1.0,floor
+0062861AR,Celtis sinensis,False,Pg Vall d'Hebron,3.77,2.96,ok,,medium,428640.56,4587026.1,428637.0,4587027.35,1.0,class
+0062864AR,Celtis australis,False,C\ Arquitecte Moragas,,34.84,no_facade,,check,,,,,1.0,floor
+0062865AR,Platanus × acerifolia,True,Pg Vall d'Hebron,,98.99,no_facade,,check,,,,,1.0,floor
+0062866AR,Styphnolobium japonicum,False,C\ Granja Vella,,57.45,no_facade,13.04,check,,,,,1.0,floor
+0062867AR,Celtis sinensis,False,C\ Juan de Mena,,17.84,median,15.24,check,,,,,1.0,floor
+0062869AR,Tipuana tipu,False,Pg Vall d'Hebron,,56.97,no_facade,,check,,,,,1.0,floor
+0062870AR,Styphnolobium japonicum,False,C\ Arquitecte Moragas,,19.06,median,3.36,check,,,,,1.0,floor
+0062871AR,Celtis australis,False,C\ Ventura Rodríguez,2.88,2.16,ok,,small,428918.12,4587053.09,428915.41,4587054.05,1.0,class
+0062873AR,Platanus × acerifolia,True,C\ Arquitecte Moragas,,43.82,no_facade,,check,,,,,1.0,floor
+0062874AR,Brachychiton populneus,False,C\ Berruguete,,4.05,median,14.11,check,,,,,1.0,floor
+0062875AR,Celtis sinensis,False,C\ Juan de Mena,6.74,6.12,ok,,large,428707.63,4587006.58,428709.87,4587012.94,1.5,class
+0062877AR,Pinus pinea,False,Av Cardenal Vidal i Barraquer,,32.28,no_facade,27.64,check,,,,,1.0,floor
+0062879AR,Brachychiton populneus,False,C\ Berruguete,,8.42,median,11.7,check,,,,,1.0,floor
+0062880AR,Pinus pinea,False,Av Cardenal Vidal i Barraquer,,37.02,no_facade,27.4,check,,,,,1.0,floor
+0062882AR,Populus nigra 'Italica',False,Pg Vall d'Hebron,,65.72,no_facade,2.71,check,,,,,1.0,floor
+0062883AR,Celtis sinensis,False,Av Can Marcet,28.92,19.29,ok,,large,428822.78,4587365.93,428848.6,4587378.98,1.5,class
+0062885AR,Platanus × acerifolia,True,Pg Vall d'Hebron,3.65,2.68,ok,,medium,428738.0,4587293.77,428734.71,4587295.35,1.0,class
+0062886AR,Brachychiton populneus,False,C\ Berruguete,,4.57,median,25.61,check,,,,,1.0,floor
+0062887AR,Cupressus sempervirens 'Stricta',False,Pg Vall d'Hebron,,49.68,no_facade,9.17,check,,,,,1.0,floor
+0062888AR,Eucalyptus globulus,False,C\ Granja Vella,,33.26,no_facade,14.88,check,,,,,1.0,floor
+0062890AR,Casuarina cunninghamiana,False,Av Martí-Codolar,,82.68,no_facade,32.65,check,,,,,1.0,floor
+0062892AR,Magnolia grandiflora,False,C\ Pare Mariana,,29.22,median,7.84,check,,,,,1.0,floor
+0062893AR,Eucalyptus globulus,False,C\ Granja Vella,,35.84,no_facade,14.72,check,,,,,1.0,floor
+0062896AR,Populus nigra 'Italica',False,Pg Vall d'Hebron,,46.52,no_facade,9.27,check,,,,,1.0,floor
+0062897AR,Brachychiton populneus,False,Pg Vall d'Hebron,,12.68,median,19.45,check,,,,,1.0,floor
+0062898AR,Eucalyptus globulus,False,C\ Granja Vella,,32.8,no_facade,15.29,check,,,,,1.0,floor
+0062901AR,Casuarina cunninghamiana,False,Av Martí-Codolar,,77.29,no_facade,25.05,check,,,,,1.0,floor
+0062902AR,Styphnolobium japonicum,False,C\ Arquitecte Moragas,,19.13,median,2.97,check,,,,,1.0,floor
+0062903AR,Magnolia grandiflora,False,Pg Vall d'Hebron,,29.01,median,10.88,check,,,,,1.0,floor
+0062905AR,Celtis australis,False,C\ Ventura Rodríguez,,17.47,median,23.07,check,,,,,1.0,floor
+0062906AR,Celtis sinensis,False,C\ Ventura Rodríguez,2.91,2.21,ok,,small,428933.95,4587097.21,428931.22,4587098.21,1.0,class
+0062907AR,Eucalyptus globulus,False,C\ Granja Vella,,33.46,no_facade,15.02,check,,,,,1.0,floor
+0062910AR,Populus nigra 'Italica',False,Pl Clota,,43.59,no_facade,21.55,check,,,,,1.0,floor
+0062911AR,Styphnolobium japonicum,False,C\ Arquitecte Moragas,25.7,19.07,ok,,large,428821.98,4587207.01,428797.81,4587215.74,1.5,class
+0062914AR,Brachychiton populneus,False,C\ Berruguete,9.31,10.24,ok,,large,428934.54,4587202.87,428931.38,4587194.11,1.5,class
+0062916AR,Cupressus sempervirens 'Stricta',False,Pg Vall d'Hebron,,38.29,no_facade,,check,,,,,1.0,floor
+0062922AR,Celtis sinensis,False,C\ Jorge Manrique,9.17,6.98,ok,,large,428889.0,4587010.14,428882.44,4587016.55,1.5,class
+0062923AR,Celtis sinensis,False,C\ Ventura Rodríguez,4.51,3.88,ok,,medium,428913.58,4587035.56,428909.33,4587037.05,1.0,class
+0062925AR,Brachychiton populneus,False,C\ Berruguete,,7.09,median,,check,,,,,1.0,floor
+0062928AR,Magnolia grandiflora,False,C\ Pare Mariana,,29.5,median,7.91,check,,,,,1.0,floor
+0062930AR,Casuarina cunninghamiana,False,C\ Granja Vella,,38.11,no_facade,5.93,check,,,,,1.0,floor
+0062931AR,Magnolia grandiflora,False,C\ Pare Mariana,,24.63,median,11.08,check,,,,,1.0,floor
+0062934AR,Koelreuteria paniculata 'Fastigiata',False,C\ Coll i Alentorn,,58.75,no_facade,4.13,check,,,,,1.0,floor
+0062935AR,Acer negundo,False,C\ Juan de Mena,11.11,10.13,ok,,large,428783.8,4586956.33,428794.27,4586952.63,1.5,class
+0062936AR,Pinus pinea,False,C\ Jorge Manrique,,50.03,no_facade,32.56,check,,,,,1.0,floor
+0062940AR,Magnolia grandiflora,False,Pg Vall d'Hebron,,17.97,median,10.83,check,,,,,1.0,floor
+0062941AR,Styphnolobium japonicum,False,C\ Arquitecte Moragas,25.7,18.9,ok,,large,428813.88,4587184.6,428789.71,4587193.33,1.5,class
+0062942AR,Koelreuteria paniculata 'Fastigiata',False,C\ Coll i Alentorn,,54.24,no_facade,5.66,check,,,,,1.0,floor
+0062943AR,Populus nigra 'Italica',False,Pl Clota,26.16,19.18,ok,,large,428911.97,4586411.38,428937.58,4586416.68,1.5,class
+0062945AR,Brachychiton populneus,False,C\ Berruguete,,12.43,median,13.93,check,,,,,1.0,floor
+0062946AR,Casuarina cunninghamiana,False,C\ Granja Vella,,111.61,no_facade,6.76,check,,,,,1.0,floor
+0062947AR,Catalpa bignonioides,False,C\ Rubió i Balaguer,5.42,4.77,ok,,medium,428823.9,4587153.96,428829.0,4587152.12,1.0,class
+0062948AR,Tipuana tipu,False,Pl Sibil·les,,16.85,median,5.14,check,,,,,1.0,floor
+0062949AR,Melia azedarach,False,Av Can Marcet,,59.72,no_facade,,check,,,,,1.0,floor
+0062950AR,Celtis sinensis,False,Pg Vall d'Hebron,3.77,2.9,ok,,medium,428638.69,4587020.78,428635.13,4587022.03,1.0,class
+0062952AR,Brachychiton populneus,False,C\ Berruguete,,10.25,median,13.97,check,,,,,1.0,floor
+0062954AR,Platanus × acerifolia,True,C\ Arquitecte Moragas,25.68,25.12,ok,,large,428803.53,4587155.95,428779.38,4587164.68,1.5,class
+0062955AR,Brachychiton populneus,False,C\ Berruguete,,9.88,median,,check,,,,,1.0,floor
+0062956AR,Prunus cerasifera 'Pissardii',False,C\ Can Travi,12.56,3.07,ok,,large,429059.53,4587162.04,429047.7,4587166.25,1.5,class
+0062957AR,Casuarina cunninghamiana,False,C\ Granja Vella,,47.61,no_facade,6.86,check,,,,,1.0,floor
+0062958AR,Celtis sinensis,False,C\ Juan de Mena,,22.43,median,,check,,,,,1.0,floor
+0062960AR,Cupressus sempervirens 'Stricta',False,Pg Vall d'Hebron,,53.73,no_facade,9.19,check,,,,,1.0,floor
+0062961AR,Platanus × acerifolia,True,C\ Arquitecte Moragas,,11.03,median,8.51,check,,,,,1.0,floor
+0062964AR,Platanus × acerifolia,True,C\ Arquitecte Moragas,17.3,14.9,ok,,large,428783.62,4587132.86,428769.91,4587143.4,1.5,class
+0062967AR,Casuarina cunninghamiana,False,C\ Granja Vella,,75.2,no_facade,3.49,check,,,,,1.0,floor
+0062969AR,Celtis australis,False,C\ Arquitecte Moragas,7.0,5.88,ok,,large,428825.55,4587267.78,428818.96,4587270.15,1.5,class
+0062970AR,Platanus × acerifolia,True,Pg Vall d'Hebron,,48.47,no_facade,,check,,,,,1.0,floor
+0062974AR,Pinus pinea,False,Av Cardenal Vidal i Barraquer,,44.0,no_facade,28.88,check,,,,,1.0,floor
+0062975AR,Styphnolobium japonicum,False,C\ Granja Vella,,51.98,no_facade,25.94,check,,,,,1.0,floor
+0062976AR,Melia azedarach,False,Av Can Marcet,,69.88,no_facade,,check,,,,,1.0,floor
+0062979AR,Celtis sinensis,False,C\ Juan de Mena,,24.91,median,,check,,,,,1.0,floor
+0062981AR,Styphnolobium japonicum,False,Av Martí-Codolar,,83.63,no_facade,27.99,check,,,,,1.0,floor
+0062984AR,Brachychiton populneus,False,C\ Berruguete,,12.34,median,13.93,check,,,,,1.0,floor
+0062986AR,Koelreuteria paniculata 'Fastigiata',False,C\ Coll i Alentorn,,55.91,no_facade,3.71,check,,,,,1.0,floor
+0062987AR,Brachychiton populneus,False,Pg Vall d'Hebron,,12.56,median,19.47,check,,,,,1.0,floor
+0062990AR,Pinus pinea,False,Pl Sibil·les,,19.83,median,5.08,check,,,,,1.0,floor
+0062991AR,Celtis australis,False,C\ Arquitecte Moragas,7.84,6.7,ok,,large,428812.5,4587300.14,428819.88,4587297.47,1.5,class
+0062992AR,Brachychiton populneus,False,C\ Berruguete,,12.73,median,14.71,check,,,,,1.0,floor
+0062993AR,Populus nigra 'Italica',False,C\ Coll i Alentorn,,36.3,no_facade,3.09,check,,,,,1.0,floor
+0062994AR,Platanus × acerifolia,True,C\ Arquitecte Moragas,18.28,17.52,ok,,large,428783.62,4587132.86,428773.42,4587148.03,1.5,class
+0062995AR,Tipuana tipu,False,Pg Vall d'Hebron,,37.0,no_facade,,check,,,,,1.0,floor
+0062996AR,Tipuana tipu,False,Pl Sibil·les,,14.79,median,9.7,check,,,,,1.0,floor
+0062997AR,Platanus × acerifolia,True,Pg Vall d'Hebron,,15.19,median,8.38,check,,,,,1.0,floor
+0063000AR,Celtis sinensis,False,C\ Ventura Rodríguez,5.41,4.77,ok,,medium,428908.07,4587090.67,428913.16,4587088.83,1.0,class
+0063001AR,Styphnolobium japonicum,False,C\ Granja Vella,,50.43,no_facade,,check,,,,,1.0,floor
+0063003AR,Cupressus sempervirens 'Stricta',False,Pg Vall d'Hebron,,49.69,no_facade,8.93,check,,,,,1.0,floor
+0063007AR,Magnolia grandiflora,False,C\ Pare Mariana,,40.67,no_facade,,check,,,,,1.0,floor
+0063009AR,Ginkgo biloba,False,Av Cardenal Vidal i Barraquer,28.43,3.88,ok,,large,429112.45,4587206.69,429127.79,4587230.63,1.5,class
+0063011AR,Catalpa bignonioides,False,C\ Rubió i Balaguer,5.33,4.81,ok,,medium,428827.84,4587164.85,428832.85,4587163.03,1.0,class
+0063012AR,Casuarina cunninghamiana,False,C\ Granja Vella,,113.78,no_facade,6.15,check,,,,,1.0,floor
+0063013AR,Celtis sinensis,False,C\ Ventura Rodríguez,15.37,14.52,ok,,large,428963.76,4587144.74,428948.42,4587145.75,1.5,class
+0063014AR,Platanus × acerifolia,True,Pg Vall d'Hebron,,28.71,no_kerb,8.16,check,,,,,1.0,floor
+0063015AR,Platanus × acerifolia,True,Pg Vall d'Hebron,3.78,2.85,ok,,medium,428740.65,4587299.29,428737.24,4587300.93,1.0,class
+0063017AR,Cupressus sempervirens 'Stricta',False,Pg Vall d'Hebron,,50.48,no_facade,8.61,check,,,,,1.0,floor
+0063018AR,Brachychiton populneus,False,C\ Berruguete,,9.39,median,14.21,check,,,,,1.0,floor
+0063026AR,Platanus × acerifolia,True,Pg Vall d'Hebron,16.93,15.65,ok,,large,428795.5,4587378.99,428791.48,4587395.43,1.5,class
+0063027AR,Celtis sinensis,False,Pg Vall d'Hebron,4.3,3.52,ok,,medium,428608.63,4586935.35,428604.57,4586936.78,1.0,class
+0063028AR,Catalpa bignonioides,False,C\ Rubió i Balaguer,5.33,4.86,ok,,medium,428839.91,4587198.25,428844.92,4587196.44,1.0,class
+0063029AR,Celtis sinensis,False,Pg Vall d'Hebron,4.3,3.46,ok,,medium,428618.87,4586964.46,428614.82,4586965.89,1.0,class
+0063031AR,Casuarina cunninghamiana,False,C\ Granja Vella,,32.75,no_facade,4.89,check,,,,,1.0,floor
+0063033AR,Celtis sinensis,False,Pg Vall d'Hebron,4.3,3.26,ok,,medium,428610.66,4586941.12,428606.6,4586942.54,1.0,class
+0063035AR,Casuarina cunninghamiana,False,Av Martí-Codolar,,67.6,no_facade,28.65,check,,,,,1.0,floor
+0063037AR,Eucalyptus globulus,False,C\ Granja Vella,,99.61,no_facade,20.28,check,,,,,1.0,floor
+0063039AR,Styphnolobium japonicum,False,C\ Granja Vella,,63.42,no_facade,14.17,check,,,,,1.0,floor
+0063040AR,Brachychiton populneus,False,C\ Berruguete,,7.42,median,14.04,check,,,,,1.0,floor
+0063047AR,Koelreuteria paniculata,False,C\ Coll i Alentorn,,48.94,no_facade,3.62,check,,,,,1.0,floor
+0063049AR,Magnolia grandiflora,False,C\ Pare Mariana,,35.18,no_facade,7.39,check,,,,,1.0,floor
+0063051AR,Magnolia grandiflora,False,Pg Vall d'Hebron,,57.27,no_facade,11.46,check,,,,,1.0,floor
+0063052AR,Celtis australis,False,C\ Arquitecte Moragas,6.96,5.75,ok,,large,428841.19,4587311.32,428834.64,4587313.68,1.5,class
+0063053AR,Pyrus communis,False,Av Martí-Codolar,,38.47,no_facade,17.69,check,,,,,1.0,floor
+0063057AR,Prunus cerasifera 'Pissardii',False,C\ Can Travi,12.39,2.75,ok,,large,429075.71,4587207.43,429064.05,4587211.6,1.5,class
+0063058AR,Koelreuteria paniculata 'Fastigiata',False,C\ Coll i Alentorn,,54.24,no_facade,3.7,check,,,,,1.0,floor
+0063060AR,Celtis sinensis,False,C\ Ventura Rodríguez,3.19,2.49,ok,,small,428932.11,4587092.16,428928.94,4587091.85,1.0,class
+0063061AR,Brachychiton populneus,False,Pg Vall d'Hebron,,67.05,no_facade,5.3,check,,,,,1.0,floor
+0063062AR,Casuarina cunninghamiana,False,Av Martí-Codolar,,79.86,no_facade,33.78,check,,,,,1.0,floor
+0063065AR,Brachychiton populneus,False,C\ Granja Vella,,100.2,no_facade,,check,,,,,1.0,floor
+0063066AR,Celtis sinensis,False,C\ Berruguete,5.6,4.85,ok,,medium,428992.25,4587151.08,428994.14,4587156.35,1.0,class
+0063067AR,Platanus × acerifolia,True,Pg Vall d'Hebron,,58.86,no_facade,,check,,,,,1.0,floor
+0063070AR,Koelreuteria paniculata 'Fastigiata',False,C\ Coll i Alentorn,,40.82,no_facade,3.25,check,,,,,1.0,floor
+0063073AR,Casuarina cunninghamiana,False,C\ Granja Vella,,55.13,no_facade,5.9,check,,,,,1.0,floor
+0063074AR,Tipuana tipu,False,Pg Vall d'Hebron,,55.57,no_facade,,check,,,,,1.0,floor
+0063075AR,Cercis siliquastrum,False,C\ Arquitecte Moragas,25.7,16.15,ok,,large,428822.47,4587208.34,428798.3,4587217.08,1.5,class
+0063083AR,Celtis sinensis,False,C\ Jorge Manrique,,49.44,no_facade,,check,,,,,1.0,floor
+0063084AR,Platanus × acerifolia,True,C\ Arquitecte Moragas,,17.07,median,18.78,check,,,,,1.0,floor
+0063085AR,Celtis australis,False,C\ Can Travi,,5.04,median,14.91,check,,,,,1.0,floor
+0063086AR,Melia azedarach,False,Av Can Marcet,,22.83,median,12.31,check,,,,,1.0,floor
+0063091AR,Casuarina cunninghamiana,False,C\ Granja Vella,,60.53,no_facade,4.93,check,,,,,1.0,floor
+0063092AR,Styphnolobium japonicum,False,Av Martí-Codolar,,51.03,no_facade,9.9,check,,,,,1.0,floor
+0063101AR,Fraxinus angustifolia,False,C\ Can Travi,6.01,4.25,ok,,large,429053.09,4587198.99,429058.75,4587196.97,1.5,class
+0063102AR,Celtis sinensis,False,C\ Ventura Rodríguez,5.42,4.77,ok,,medium,428917.52,4587116.9,428922.62,4587115.06,1.0,class
+0063104AR,Pinus pinea,False,C\ Jorge Manrique,,49.8,no_facade,,check,,,,,1.0,floor
+0063106AR,Casuarina cunninghamiana,False,C\ Granja Vella,,76.51,no_facade,3.37,check,,,,,1.0,floor
+0063108AR,Ginkgo biloba,False,Av Cardenal Vidal i Barraquer,,3.91,no_kerb,,check,,,,,1.0,floor
+0063110AR,Celtis sinensis,False,C\ Juan de Mena,7.58,6.65,ok,,large,428790.32,4586939.97,428797.46,4586937.43,1.5,class
+0063112AR,Styphnolobium japonicum,False,C\ Granja Vella,,61.45,no_facade,,check,,,,,1.0,floor
+0063113AR,Celtis sinensis,False,C\ Ventura Rodríguez,5.75,5.1,ok,,medium,428906.45,4587086.18,428910.87,4587082.5,1.0,class
+0063114AR,Melia azedarach,False,Av Can Marcet,,8.71,no_kerb,,check,,,,,1.0,floor
+0063115AR,Brachychiton populneus,False,C\ Berruguete,,5.66,median,,check,,,,,1.0,floor
+0063117AR,Catalpa bignonioides,False,C\ Rubió i Balaguer,5.5,4.76,ok,,medium,428815.47,4587130.65,428820.65,4587128.78,1.0,class
+0063118AR,Celtis sinensis,False,C\ Pare Mariana,11.18,10.05,ok,,large,428622.81,4586916.57,428631.29,4586909.28,1.5,class
+0063120AR,Casuarina cunninghamiana,False,C\ Granja Vella,,66.43,no_facade,4.42,check,,,,,1.0,floor
+0063122AR,Celtis australis,False,C\ Juan de Mena,8.58,7.94,ok,,large,428784.75,4586959.71,428787.6,4586967.8,1.5,class
+0063123AR,Koelreuteria paniculata 'Fastigiata',False,C\ Coll i Alentorn,,54.35,no_facade,6.6,check,,,,,1.0,floor
+0063126AR,Platanus × acerifolia,True,Pg Vall d'Hebron,8.23,6.66,ok,,large,428775.53,4587360.96,428767.72,4587358.34,1.5,class
+0063128AR,Casuarina cunninghamiana,False,Av Martí-Codolar,,71.94,no_facade,30.97,check,,,,,1.0,floor
+0063130AR,Cupressus sempervirens 'Stricta',False,Pg Vall d'Hebron,,44.69,no_facade,9.29,check,,,,,1.0,floor
+0063132AR,Celtis australis,False,C\ Arquitecte Moragas,7.01,5.96,ok,,large,428823.38,4587261.74,428816.77,4587264.11,1.5,class
+0063133AR,Pinus pinea,False,Av Cardenal Vidal i Barraquer,,42.21,no_facade,,check,,,,,1.0,floor
+0063135AR,Tipuana tipu,False,Pg Vall d'Hebron,,41.44,no_facade,,check,,,,,1.0,floor
+0063136AR,Platanus × acerifolia,True,C\ Arquitecte Moragas,,37.28,no_facade,,check,,,,,1.0,floor
+0063141AR,Koelreuteria paniculata 'Fastigiata',False,C\ Coll i Alentorn,,54.73,no_facade,4.98,check,,,,,1.0,floor
+0063143AR,Casuarina cunninghamiana,False,C\ Granja Vella,,109.57,no_facade,4.42,check,,,,,1.0,floor
+0063144AR,Prunus cerasifera 'Pissardii',False,C\ Can Travi,5.15,4.62,ok,,medium,429010.34,4587079.61,429015.19,4587077.87,1.0,class
+0063146AR,Platanus × acerifolia PLATANOR® 'Vallis Clausa',True,C\ Arquitecte Moragas,25.7,25.18,ok,,large,428821.92,4587206.83,428797.75,4587215.57,1.5,class
+0063148AR,Celtis australis,False,C\ Jorge Manrique,27.07,19.42,ok,,large,428889.0,4587010.14,428865.08,4587022.8,1.5,class
+0063150AR,Pinus pinea,False,Av Can Marcet,12.8,5.64,ok,,large,428819.59,4587370.89,428829.52,4587378.96,1.5,class
+0063152AR,Ligustrum lucidum,False,C\ Arquitecte Moragas,25.7,2.5,ok,,large,428809.92,4587173.63,428785.75,4587182.37,1.5,class
+0063153AR,Celtis sinensis,False,C\ Ventura Rodríguez,5.42,4.66,ok,,medium,428915.27,4587110.63,428920.36,4587108.79,1.0,class
+0063155AR,Styphnolobium japonicum,False,Av Martí-Codolar,,62.18,no_facade,24.1,check,,,,,1.0,floor
+0063156AR,Fraxinus angustifolia,False,C\ Can Travi,5.21,4.53,ok,,medium,429027.25,4587126.87,429032.16,4587125.11,1.0,class
+0063157AR,Celtis sinensis,False,C\ Ventura Rodríguez,3.53,2.98,ok,,medium,428928.63,4587082.55,428926.65,4587085.48,1.0,class
+0063159AR,Celtis sinensis,False,C\ Jorge Manrique,4.08,3.19,ok,,medium,428921.79,4587025.25,428920.45,4587021.4,1.0,class
+0063162AR,Cupressus sempervirens 'Stricta',False,Pg Vall d'Hebron,,42.93,no_facade,9.31,check,,,,,1.0,floor
+0063164AR,Prunus cerasifera 'Pissardii',False,C\ Can Travi,12.47,2.94,ok,,large,429068.87,4587188.27,429057.12,4587192.45,1.5,class
+0063166AR,Magnolia grandiflora,False,Pg Vall d'Hebron,,24.09,median,10.85,check,,,,,1.0,floor
+0063167AR,Celtis sinensis,False,C\ Juan de Mena,,21.86,median,,check,,,,,1.0,floor
+0063169AR,Brachychiton populneus,False,C\ Berruguete,,12.34,median,13.94,check,,,,,1.0,floor
+0063171AR,Styphnolobium japonicum,False,C\ Arquitecte Moragas,24.85,19.0,ok,,large,428824.19,4587213.11,428800.82,4587221.56,1.5,class
+0063172AR,Fraxinus angustifolia,False,C\ Can Travi,6.07,4.48,ok,,large,429066.45,4587236.15,429072.15,4587234.09,1.5,class
+0063173AR,Casuarina cunninghamiana,False,Av Martí-Codolar,,54.29,no_facade,,check,,,,,1.0,floor
+0063177AR,Quercus ilex,False,C\ Pare Mariana,27.83,24.41,ok,,large,428766.88,4586910.61,428757.53,4586884.4,1.5,class
+0063179AR,Styphnolobium japonicum,False,C\ Granja Vella,,48.15,no_facade,11.91,check,,,,,1.0,floor
+0063180AR,Fraxinus angustifolia 'Raywood',False,Pl Clota,,50.04,no_facade,,check,,,,,1.0,floor
+0063181AR,Ulmus pumila,False,Av Cardenal Vidal i Barraquer,,28.42,median,36.85,check,,,,,1.0,floor
+0063182AR,Celtis sinensis,False,C\ Juan de Mena,5.73,4.71,ok,,medium,428654.22,4587028.62,428656.12,4587034.03,1.0,class
+0063183AR,Platanus × acerifolia,True,Pg Vall d'Hebron,3.56,2.61,ok,,medium,428748.33,4587315.41,428745.11,4587316.94,1.0,class
+0063184AR,Platanus × acerifolia,True,C\ Arquitecte Moragas,16.46,13.96,ok,,large,428781.07,4587125.71,428765.56,4587131.25,1.5,class
+0063186AR,Ligustrum lucidum,False,C\ Arquitecte Moragas,25.7,2.75,ok,,large,428814.02,4587184.97,428789.85,4587193.7,1.5,class
+0063187AR,Celtis sinensis,False,C\ Ventura Rodríguez,10.24,7.53,ok,,large,428933.97,4587097.26,428934.58,4587107.48,1.5,class
+0063189AR,Styphnolobium japonicum,False,C\ Arquitecte Moragas,,18.95,median,2.97,check,,,,,1.0,floor
+0063190AR,Styphnolobium japonicum,False,C\ Pare Mariana,,56.4,no_facade,,check,,,,,1.0,floor
+0063191AR,Celtis australis,False,C\ Berruguete,,6.53,median,13.84,check,,,,,1.0,floor
+0063192AR,Platanus × acerifolia,True,C\ Arquitecte Moragas,25.7,25.03,ok,,large,428805.63,4587161.78,428781.47,4587170.52,1.5,class
+0063193AR,Styphnolobium japonicum,False,C\ Granja Vella,,87.34,no_facade,13.42,check,,,,,1.0,floor
+0063194AR,Pinus pinea,False,Av Cardenal Vidal i Barraquer,,51.98,no_facade,,check,,,,,1.0,floor
+0063197AR,Platanus × acerifolia,True,Pg Vall d'Hebron,,18.1,median,15.44,check,,,,,1.0,floor
+0063199AR,Celtis sinensis,False,C\ Ventura Rodríguez,5.77,5.07,ok,,medium,428916.67,4587040.43,428911.22,4587042.35,1.0,class
+0063202AR,Cupressus sempervirens 'Stricta',False,Pg Vall d'Hebron,,37.5,no_facade,,check,,,,,1.0,floor
+0063204AR,Platanus × acerifolia,True,Pg Vall d'Hebron,7.71,5.5,ok,,large,428759.87,4587337.72,428760.33,4587345.42,1.5,class
+0063206AR,Eucalyptus globulus,False,C\ Granja Vella,,34.54,no_facade,14.72,check,,,,,1.0,floor
+0063208AR,Styphnolobium japonicum,False,Av Martí-Codolar,,81.92,no_facade,28.59,check,,,,,1.0,floor
+0063209AR,Brachychiton populneus,False,C\ Berruguete,,18.95,median,14.2,check,,,,,1.0,floor
+0063210AR,Populus nigra 'Italica',False,C\ Coll i Alentorn,,54.06,no_facade,7.61,check,,,,,1.0,floor
+0063215AR,Pinus pinea,False,Av Cardenal Vidal i Barraquer,,53.08,no_facade,,check,,,,,1.0,floor
+0063221AR,Celtis sinensis,False,Pg Vall d'Hebron,6.18,3.39,ok,,large,428625.34,4586982.84,428619.51,4586984.89,1.5,class
+0063224AR,Brachychiton populneus,False,Pg Vall d'Hebron,,61.1,no_facade,5.22,check,,,,,1.0,floor
+0063226AR,Styphnolobium japonicum,False,Av Martí-Codolar,,38.29,no_facade,15.04,check,,,,,1.0,floor
+0063229AR,Casuarina cunninghamiana,False,C\ Granja Vella,,59.65,no_facade,5.21,check,,,,,1.0,floor
+0063231AR,Celtis sinensis,False,C\ Berruguete,5.58,2.31,ok,,medium,428937.68,4587173.86,428941.22,4587178.17,1.0,class
+0063232AR,Tipuana tipu,False,Pg Vall d'Hebron,,84.08,no_facade,,check,,,,,1.0,floor
+0063237AR,Cupressus sempervirens 'Stricta',False,Pg Vall d'Hebron,,48.4,no_facade,9.11,check,,,,,1.0,floor
+0063240AR,Pinus pinea,False,C\ Jorge Manrique,,20.74,median,7.42,check,,,,,1.0,floor
+0063242AR,Brachychiton populneus,False,C\ Berruguete,,15.46,median,,check,,,,,1.0,floor
+0063245AR,Catalpa bignonioides,False,C\ Rubió i Balaguer,5.38,4.75,ok,,medium,428829.85,4587170.42,428834.91,4587168.6,1.0,class
+0063250AR,Tipuana tipu,False,C\ Coll i Alentorn,,56.33,no_facade,4.45,check,,,,,1.0,floor
+0063252AR,Platanus × acerifolia,True,Pg Vall d'Hebron,,53.51,no_facade,,check,,,,,1.0,floor
+0063255AR,Brachychiton populneus,False,C\ Berruguete,,16.5,median,12.55,check,,,,,1.0,floor
+0063256AR,Brachychiton populneus,False,Pg Vall d'Hebron,,12.77,median,19.45,check,,,,,1.0,floor
+0063257AR,Magnolia grandiflora,False,Pg Vall d'Hebron,,51.12,no_facade,,check,,,,,1.0,floor
+0063259AR,Celtis sinensis,False,C\ Jorge Manrique,4.04,3.45,ok,,medium,428915.79,4587027.35,428914.46,4587023.53,1.0,class
+0063260AR,Cupressus sempervirens 'Stricta',False,Pg Vall d'Hebron,,51.29,no_facade,8.59,check,,,,,1.0,floor
+0063262AR,Styphnolobium japonicum,False,C\ Arquitecte Moragas,25.7,19.04,ok,,large,428817.89,4587195.7,428793.73,4587204.43,1.5,class
+0063263AR,Styphnolobium japonicum,False,Av Martí-Codolar,,47.77,no_facade,10.51,check,,,,,1.0,floor
+0063264AR,Celtis sinensis,False,C\ Jorge Manrique,,27.47,no_kerb,,check,,,,,1.0,floor
+0063267AR,Celtis australis,False,C\ Arquitecte Moragas,7.02,6.27,ok,,large,428850.3,4587336.68,428843.7,4587339.05,1.5,class
+0063269AR,Celtis sinensis,False,C\ Ventura Rodríguez,5.42,4.71,ok,,medium,428919.69,4587122.91,428924.79,4587121.07,1.0,class
+0063270AR,Platanus × acerifolia,True,C\ Arquitecte Moragas,,41.37,no_facade,,check,,,,,1.0,floor
+0063272AR,Styphnolobium japonicum,False,C\ Granja Vella,,104.25,no_facade,13.73,check,,,,,1.0,floor
+0063283AR,Brachychiton populneus,False,C\ Berruguete,,9.11,median,14.04,check,,,,,1.0,floor
+0063284AR,Pinus pinea,False,C\ Jorge Manrique,,18.92,median,12.95,check,,,,,1.0,floor
+0063285AR,Styphnolobium japonicum,False,C\ Granja Vella,,52.59,no_facade,8.56,check,,,,,1.0,floor
+0063287AR,Brachychiton populneus,False,C\ Berruguete,,6.45,median,25.57,check,,,,,1.0,floor
+0063289AR,Casuarina cunninghamiana,False,C\ Granja Vella,,115.31,no_facade,6.82,check,,,,,1.0,floor
+0063290AR,Populus nigra 'Italica',False,C\ Coll i Alentorn,,57.32,no_facade,3.74,check,,,,,1.0,floor
+0063291AR,Prunus cerasifera 'Pissardii',False,C\ Can Travi,5.99,4.6,ok,,medium,429050.66,4587192.19,429056.3,4587190.17,1.0,class
+0063293AR,Pyrus communis,False,Av Martí-Codolar,,42.06,no_facade,17.04,check,,,,,1.0,floor
+0063296AR,Casuarina cunninghamiana,False,Av Martí-Codolar,,58.9,no_facade,26.5,check,,,,,1.0,floor
+0063297AR,Pinus pinea,False,C\ Jorge Manrique,,50.52,no_facade,,check,,,,,1.0,floor
+0063298AR,Magnolia grandiflora,False,Pg Vall d'Hebron,,35.25,no_facade,10.83,check,,,,,1.0,floor
+0063301AR,Celtis sinensis,False,C\ Berruguete,2.71,2.19,ok,,small,429023.87,4587142.81,429024.79,4587145.36,1.0,class
+0063302AR,Celtis australis,False,C\ Juan de Mena,,24.94,median,,check,,,,,1.0,floor
+0063304AR,Magnolia grandiflora,False,C\ Pare Mariana,,35.73,no_facade,7.66,check,,,,,1.0,floor
+0063306AR,Prunus cerasifera 'Pissardii',False,C\ Can Travi,6.09,4.27,ok,,large,429061.96,4587223.73,429067.68,4587221.66,1.5,class
+0063307AR,Pinus pinea,False,Av Cardenal Vidal i Barraquer,,46.92,no_facade,34.21,check,,,,,1.0,floor
+0063311AR,Platanus × acerifolia,True,C\ Arquitecte Moragas,,22.62,median,15.67,check,,,,,1.0,floor
+0063321AR,Celtis sinensis,False,C\ Ventura Rodríguez,17.71,14.96,ok,,large,428933.97,4587097.26,428937.19,4587114.67,1.5,class
+0063322AR,Casuarina cunninghamiana,False,C\ Granja Vella,,106.11,no_facade,2.67,check,,,,,1.0,floor
+0063323AR,Acer negundo,False,C\ Juan de Mena,6.45,5.65,ok,,large,428789.98,4586919.42,428796.09,4586917.32,1.5,class
+0063328AR,Casuarina cunninghamiana,False,C\ Granja Vella,,70.67,no_facade,3.92,check,,,,,1.0,floor
+0063331AR,Magnolia grandiflora,False,Pg Vall d'Hebron,,51.5,no_facade,10.97,check,,,,,1.0,floor
+0063333AR,Celtis australis,False,C\ Berruguete,,4.07,median,7.16,check,,,,,1.0,floor
+0063334AR,Casuarina cunninghamiana,False,C\ Granja Vella,,45.71,no_facade,7.87,check,,,,,1.0,floor
+0063335AR,Celtis sinensis,False,C\ Jorge Manrique,4.07,3.02,ok,,medium,428911.26,4587028.94,428909.51,4587025.27,1.0,class
+0063337AR,Brachychiton populneus,False,C\ Berruguete,,5.74,median,14.19,check,,,,,1.0,floor
+0063338AR,Brachychiton populneus,False,C\ Berruguete,,10.4,median,13.94,check,,,,,1.0,floor
+0063341AR,Platanus × acerifolia,True,Pg Vall d'Hebron,,12.4,median,9.8,check,,,,,1.0,floor
+0063343AR,Brachychiton populneus,False,C\ Berruguete,,3.92,median,14.16,check,,,,,1.0,floor
+0063344AR,Casuarina cunninghamiana,False,C\ Granja Vella,,27.04,median,3.28,check,,,,,1.0,floor
+0063346AR,Platanus × acerifolia,True,Pg Vall d'Hebron,15.72,11.71,ok,,large,428759.87,4587337.72,428764.38,4587352.78,1.5,class
+0063347AR,Populus simonii,False,Av Martí-Codolar,,63.33,no_facade,29.54,check,,,,,1.0,floor
+0063348AR,Magnolia grandiflora,False,C\ Pare Mariana,,18.34,median,11.51,check,,,,,1.0,floor
+0063353AR,Styphnolobium japonicum,False,C\ Arquitecte Moragas,25.7,19.04,ok,,large,428811.78,4587178.78,428787.61,4587187.51,1.5,class
+0063355AR,Brachychiton populneus,False,C\ Berruguete,,7.16,median,,check,,,,,1.0,floor
+0063358AR,Brachychiton populneus,False,C\ Berruguete,,9.07,median,14.45,check,,,,,1.0,floor
+0063361AR,Celtis australis,False,C\ Ventura Rodríguez,,17.64,median,23.36,check,,,,,1.0,floor
+0063367AR,Melia azedarach,False,Av Can Marcet,12.5,10.1,ok,,large,428814.32,4587375.64,428821.27,4587386.03,1.5,class
+0063368AR,Brachychiton populneus,False,C\ Berruguete,9.33,10.12,ok,,large,428849.52,4587233.5,428846.42,4587224.7,1.5,class
+0063370AR,Celtis australis,False,C\ Ventura Rodríguez,,17.54,median,23.22,check,,,,,1.0,floor
+0063372AR,Platanus × acerifolia,True,Pg Vall d'Hebron,,13.05,median,10.44,check,,,,,1.0,floor
+0063373AR,Acer negundo,False,C\ Juan de Mena,4.88,3.62,ok,,medium,428793.65,4586929.17,428797.83,4586931.69,1.0,class
+0063374AR,Brachychiton populneus,False,C\ Berruguete,,19.65,median,25.57,check,,,,,1.0,floor
+0063375AR,Celtis sinensis,False,C\ Juan de Mena,,6.15,median,5.56,check,,,,,1.0,floor
+0063376AR,Brachychiton populneus,False,Pg Vall d'Hebron,,53.54,no_facade,4.37,check,,,,,1.0,floor
+0063380AR,Casuarina cunninghamiana,False,Av Martí-Codolar,,66.15,no_facade,29.39,check,,,,,1.0,floor
+0063381AR,Platanus × acerifolia,True,C\ Arquitecte Moragas,25.7,25.19,ok,,large,428813.77,4587184.28,428789.6,4587193.01,1.5,class
+0063383AR,Platanus × acerifolia,True,Pg Vall d'Hebron,3.51,2.61,ok,,medium,428735.36,4587288.28,428732.19,4587289.8,1.0,class
+0063389AR,Platanus × acerifolia,True,Pg Vall d'Hebron,,75.36,no_facade,,check,,,,,1.0,floor
+0063390AR,Tipuana tipu,False,Pg Vall d'Hebron,,78.55,no_facade,,check,,,,,1.0,floor
+0063392AR,Cupressus sempervirens 'Stricta',False,Pg Vall d'Hebron,,38.23,no_facade,9.34,check,,,,,1.0,floor
+0063394AR,Tipuana tipu,False,Pg Vall d'Hebron,,44.52,no_facade,,check,,,,,1.0,floor
+0063395AR,Casuarina cunninghamiana,False,C\ Granja Vella,,110.99,no_facade,5.42,check,,,,,1.0,floor
+0063396AR,Brachychiton populneus,False,C\ Berruguete,,8.76,median,25.53,check,,,,,1.0,floor
+0063397AR,Tipuana tipu,False,Pg Vall d'Hebron,,38.89,no_facade,,check,,,,,1.0,floor
+0063399AR,Pinus pinea,False,Pl Sibil·les,,19.91,median,7.14,check,,,,,1.0,floor
+0063400AR,Brachychiton populneus,False,Pg Vall d'Hebron,,67.21,no_facade,5.53,check,,,,,1.0,floor
+0063405AR,Tipuana tipu,False,Pg Vall d'Hebron,,36.23,no_facade,22.05,check,,,,,1.0,floor
+0063406AR,Brachychiton populneus,False,C\ Berruguete,,17.45,median,11.79,check,,,,,1.0,floor
+0063407AR,Tipuana tipu,False,Pg Vall d'Hebron,,48.02,no_facade,,check,,,,,1.0,floor
+0063410AR,Celtis sinensis,False,C\ Arquitecte Moragas,,43.18,no_facade,,check,,,,,1.0,floor
+0063411AR,Catalpa bignonioides,False,C\ Rubió i Balaguer,,9.8,median,6.63,check,,,,,1.0,floor
+0063412AR,Celtis australis,False,C\ Berruguete,3.03,2.46,ok,,small,429013.42,4587146.55,429013.08,4587149.56,1.0,class
+0063414AR,Celtis sinensis,False,C\ Jorge Manrique,,65.01,no_facade,18.34,check,,,,,1.0,floor
+0063415AR,Celtis sinensis,False,C\ Ventura Rodríguez,2.89,2.35,ok,,small,428915.91,4587046.88,428913.19,4587047.85,1.0,class
+0063416AR,Prunus cerasifera 'Pissardii',False,C\ Can Travi,3.36,2.73,ok,,small,429081.51,4587223.58,429078.35,4587224.71,1.0,class
+0063417AR,Platanus × acerifolia,True,Pg Vall d'Hebron,,70.24,no_facade,,check,,,,,1.0,floor
+0063419AR,Celtis australis,False,C\ Arquitecte Moragas,6.95,6.12,ok,,large,428834.6,4587292.96,428828.05,4587295.29,1.5,class
+0063423AR,Styphnolobium japonicum,False,Av Cardenal Vidal i Barraquer,,29.64,median,,check,,,,,1.0,floor
+0063424AR,Magnolia grandiflora,False,C\ Pare Mariana,,22.68,median,10.9,check,,,,,1.0,floor
+0063426AR,Brachychiton populneus,False,Pg Vall d'Hebron,,58.4,no_facade,5.06,check,,,,,1.0,floor
+0063430AR,Brachychiton populneus,False,C\ Berruguete,,18.25,median,25.53,check,,,,,1.0,floor
+0063431AR,Brachychiton populneus,False,C\ Berruguete,,4.24,median,11.79,check,,,,,1.0,floor
+0063433AR,Celtis australis,False,C\ Juan de Mena,6.74,5.97,ok,,large,428702.19,4587008.49,428704.43,4587014.85,1.5,class
+0063434AR,Eucalyptus globulus,False,C\ Granja Vella,,97.8,no_facade,20.59,check,,,,,1.0,floor
+0063439AR,Eucalyptus globulus,False,C\ Granja Vella,,34.79,no_facade,15.06,check,,,,,1.0,floor
+0063442AR,Platanus × acerifolia,True,Pg Vall d'Hebron,10.06,8.64,ok,,large,428789.65,4587376.72,428784.76,4587385.52,1.5,class
+0063445AR,Populus nigra 'Italica',False,Pg Vall d'Hebron,,41.34,no_facade,9.32,check,,,,,1.0,floor
+0063446AR,Cupressus sempervirens 'Stricta',False,Pg Vall d'Hebron,,51.09,no_facade,9.2,check,,,,,1.0,floor
+0063450AR,Brachychiton populneus,False,C\ Berruguete,,5.63,median,14.11,check,,,,,1.0,floor
+0063452AR,Celtis australis,False,C\ Pare Mariana,20.65,19.74,ok,,large,428658.53,4586920.8,428651.8,4586901.28,1.5,class
+0063453AR,Catalpa bignonioides,False,C\ Rubió i Balaguer,5.5,4.89,ok,,medium,428817.49,4587136.22,428822.66,4587134.35,1.0,class
+0063455AR,Celtis sinensis,False,C\ Arquitecte Moragas,,20.13,median,11.74,check,,,,,1.0,floor
+0063459AR,Casuarina cunninghamiana,False,C\ Granja Vella,,51.83,no_facade,6.17,check,,,,,1.0,floor
+0063460AR,Platanus × acerifolia,True,Pg Vall d'Hebron,22.0,20.9,ok,,large,428798.11,4587379.46,428795.59,4587401.31,1.5,class
+0063461AR,Magnolia grandiflora,False,C\ Pare Mariana,,41.34,no_facade,,check,,,,,1.0,floor
+0063463AR,Brachychiton populneus,False,C\ Berruguete,3.02,3.64,ok,,small,429038.56,4587158.46,429038.34,4587155.44,1.0,class
+0063465AR,Prunus cerasifera 'Pissardii',False,C\ Can Travi,5.16,4.42,ok,,medium,429021.5,4587110.79,429026.35,4587109.05,1.0,class
+0063466AR,Celtis sinensis,False,C\ Jorge Manrique,,42.24,no_facade,,check,,,,,1.0,floor
+0063468AR,Celtis sinensis,False,C\ Berruguete,5.58,4.93,ok,,medium,428979.1,4587155.81,428980.99,4587161.06,1.0,class
+0063469AR,Magnolia grandiflora,False,C\ Pare Mariana,,28.59,median,10.43,check,,,,,1.0,floor
+0063470AR,Cupressus sempervirens 'Stricta',False,Pg Vall d'Hebron,,49.12,no_facade,8.99,check,,,,,1.0,floor
+0063473AR,Casuarina cunninghamiana,False,Av Martí-Codolar,,76.25,no_facade,32.06,check,,,,,1.0,floor
+0063477AR,Styphnolobium japonicum,False,C\ Pare Mariana,,37.35,no_facade,,check,,,,,1.0,floor
+0063478AR,Cupressus sempervirens 'Stricta',False,Pg Vall d'Hebron,,50.06,no_facade,9.19,check,,,,,1.0,floor
+0063479AR,Magnolia grandiflora,False,Pg Vall d'Hebron,,22.89,median,10.87,check,,,,,1.0,floor
+0063481AR,Platanus × acerifolia,True,C\ Arquitecte Moragas,25.7,25.15,ok,,large,428811.72,4587178.61,428787.55,4587187.35,1.5,class
+0063482AR,Schinus molle,False,C\ Coll i Alentorn,,62.49,no_facade,22.81,check,,,,,1.0,floor
+0063488AR,Brachychiton populneus,False,Pg Vall d'Hebron,,12.63,median,19.48,check,,,,,1.0,floor
+0063489AR,Celtis australis,False,C\ Juan de Mena,9.59,7.71,ok,,large,428749.03,4586995.33,428758.59,4586996.04,1.5,class
+0063490AR,Celtis sinensis,False,C\ Ventura Rodríguez,5.44,4.8,ok,,medium,428932.22,4587157.66,428937.33,4587155.81,1.0,class
+0063494AR,Celtis sinensis,False,C\ Arquitecte Moragas,,26.8,median,,check,,,,,1.0,floor
+0063496AR,Quercus ilex,False,C\ Pare Mariana,,47.32,no_facade,,check,,,,,1.0,floor
+0063502AR,Koelreuteria paniculata 'Fastigiata',False,C\ Coll i Alentorn,,58.24,no_facade,3.8,check,,,,,1.0,floor
+0063506AR,Brachychiton populneus,False,C\ Berruguete,9.3,10.27,ok,,large,428936.33,4587202.22,428933.17,4587193.48,1.5,class
+0063507AR,Celtis sinensis,False,C\ Jorge Manrique,,59.79,no_facade,,check,,,,,1.0,floor
+0063509AR,Fraxinus angustifolia,False,C\ Can Travi,5.14,4.5,ok,,medium,429012.49,4587085.63,429017.33,4587083.89,1.0,class
+0063514AR,Brachychiton populneus,False,C\ Berruguete,,12.97,median,11.61,check,,,,,1.0,floor
+0063517AR,Brachychiton populneus,False,C\ Berruguete,,9.59,median,12.49,check,,,,,1.0,floor
+0063518AR,Tipuana tipu,False,Pg Vall d'Hebron,,67.57,no_facade,,check,,,,,1.0,floor
+0063523AR,Celtis sinensis,False,C\ Ventura Rodríguez,5.41,4.71,ok,,medium,428913.05,4587104.48,428918.14,4587102.64,1.0,class
+0063526AR,Casuarina cunninghamiana,False,C\ Can Travi,12.44,2.84,ok,,large,429071.13,4587194.6,429059.41,4587198.79,1.5,class
+0063529AR,Casuarina cunninghamiana,False,C\ Granja Vella,,107.32,no_facade,4.36,check,,,,,1.0,floor
+0063531AR,Populus nigra 'Italica',False,Av Martí-Codolar,,61.78,no_facade,26.23,check,,,,,1.0,floor
+0063533AR,Ligustrum lucidum,False,C\ Arquitecte Moragas,25.7,2.65,ok,,large,428807.78,4587167.72,428783.61,4587176.46,1.5,class
+0063535AR,Platanus × acerifolia,True,Pg Vall d'Hebron,,76.26,no_facade,,check,,,,,1.0,floor
+0063537AR,Tipuana tipu,False,Pg Vall d'Hebron,,49.85,no_facade,,check,,,,,1.0,floor
+0063538AR,Casuarina cunninghamiana,False,C\ Granja Vella,,106.75,no_facade,3.43,check,,,,,1.0,floor
+0063539AR,Celtis australis,False,C\ Arquitecte Moragas,7.81,6.74,ok,,large,428814.76,4587306.39,428822.1,4587303.73,1.5,class
+0063541AR,Styphnolobium japonicum,False,C\ Arquitecte Moragas,16.46,8.1,ok,,large,428783.14,4587131.53,428767.64,4587137.07,1.5,class
+0063542AR,Brachychiton populneus,False,C\ Berruguete,,8.31,median,,check,,,,,1.0,floor
+0063546AR,Prunus cerasifera 'Pissardii',False,C\ Can Travi,5.19,4.51,ok,,medium,429024.46,4587119.08,429029.35,4587117.33,1.0,class
+0063547AR,Celtis sinensis,False,C\ Juan de Mena,5.72,4.76,ok,,medium,428649.29,4587030.36,428651.19,4587035.75,1.0,class
+0063549AR,Pinus pinea,False,C\ Jorge Manrique,,46.77,no_facade,,check,,,,,1.0,floor
+0063551AR,Platanus × acerifolia,True,Pg Vall d'Hebron,,49.53,no_facade,,check,,,,,1.0,floor
+0063552AR,Platanus × acerifolia,True,Pg Vall d'Hebron,,13.7,median,8.01,check,,,,,1.0,floor
+0063554AR,Styphnolobium japonicum,False,C\ Arquitecte Moragas,14.81,8.05,ok,,large,428779.23,4587120.58,428765.12,4587125.07,1.5,class
+0063555AR,Eucalyptus camaldulensis,False,C\ Pare Mariana,,34.02,no_facade,,check,,,,,1.0,floor
+0063556AR,Brachychiton populneus,False,Pg Vall d'Hebron,,70.16,no_facade,5.42,check,,,,,1.0,floor
+0063557AR,Celtis australis,False,C\ Arquitecte Moragas,6.96,6.09,ok,,large,428832.19,4587286.28,428825.64,4587288.63,1.5,class
+0063561AR,Brachychiton populneus,False,C\ Berruguete,,7.54,median,14.47,check,,,,,1.0,floor
+0063565AR,Styphnolobium japonicum,False,C\ Pare Mariana,,54.93,no_facade,,check,,,,,1.0,floor
+0063566AR,Melia azedarach,False,Av Can Marcet,,17.39,no_kerb,15.95,check,,,,,1.0,floor
+0063568AR,Brachychiton populneus,False,C\ Berruguete,,17.3,median,14.23,check,,,,,1.0,floor
+0063569AR,Prunus cerasifera 'Pissardii',False,C\ Can Travi,5.97,4.48,ok,,medium,429048.16,4587185.2,429053.78,4587183.19,1.0,class
+0063572AR,Cupressus sempervirens 'Stricta',False,Pg Vall d'Hebron,,48.41,no_facade,9.06,check,,,,,1.0,floor
+0063573AR,Platanus × acerifolia,True,C\ Arquitecte Moragas,,47.55,no_facade,,check,,,,,1.0,floor
+0063574AR,Styphnolobium japonicum,False,Av Cardenal Vidal i Barraquer,,36.83,no_facade,,check,,,,,1.0,floor
+0063575AR,Cercis siliquastrum,False,C\ Arquitecte Moragas,25.7,9.69,ok,,large,428818.93,4587198.58,428794.77,4587207.31,1.5,class
+0063580AR,Platanus × acerifolia,True,Pg Vall d'Hebron,3.49,2.76,ok,,small,428751.08,4587320.83,428747.98,4587322.44,1.0,class
+0063581AR,Pinus pinea,False,Av Cardenal Vidal i Barraquer,,31.76,no_facade,27.88,check,,,,,1.0,floor
+0063582AR,Casuarina cunninghamiana,False,C\ Granja Vella,,46.47,no_facade,7.35,check,,,,,1.0,floor
+0063584AR,Platanus × acerifolia,True,Pg Vall d'Hebron,3.77,2.99,ok,,medium,428745.69,4587309.81,428742.28,4587311.42,1.0,class
+0063587AR,Styphnolobium japonicum,False,C\ Granja Vella,,58.98,no_facade,13.41,check,,,,,1.0,floor
+0063590AR,Celtis sinensis,False,C\ Ventura Rodríguez,5.43,4.71,ok,,medium,428927.19,4587143.72,428932.3,4587141.87,1.0,class
+0063592AR,Koelreuteria paniculata 'Fastigiata',False,C\ Coll i Alentorn,,43.94,no_facade,3.46,check,,,,,1.0,floor
+0063594AR,Celtis sinensis,False,C\ Pare Mariana,4.0,3.47,ok,,medium,428622.55,4586916.66,428621.22,4586912.88,1.0,class
+0063595AR,Celtis sinensis,False,C\ Jorge Manrique,,63.96,no_facade,,check,,,,,1.0,floor
+0063596AR,Catalpa bignonioides,False,C\ Rubió i Balaguer,5.38,4.84,ok,,medium,428825.76,4587159.1,428830.81,4587157.27,1.0,class
+0063597AR,Quercus ilex,False,Av Martí-Codolar,19.64,11.28,ok,,large,428866.7,4586633.98,428849.34,4586624.8,1.5,class
+0063599AR,Celtis australis,False,C\ Juan de Mena,16.26,14.12,ok,,large,428749.03,4586995.33,428765.2,4586993.6,1.5,class
+0063600AR,Brachychiton populneus,False,Pg Vall d'Hebron,,12.43,median,19.45,check,,,,,1.0,floor
+0063606AR,Melia azedarach,False,Av Can Marcet,,58.38,no_facade,,check,,,,,1.0,floor
+0063608AR,Brachychiton populneus,False,C\ Berruguete,2.91,3.59,ok,,small,429037.45,4587158.86,429036.46,4587156.13,1.0,class
+0063609AR,Ginkgo biloba,False,Av Cardenal Vidal i Barraquer,28.41,3.9,ok,,large,429116.22,4587204.27,429131.55,4587228.2,1.5,class
+0063610AR,Fraxinus angustifolia,False,C\ Can Travi,5.31,4.53,ok,,medium,429029.37,4587133.13,429034.41,4587131.46,1.0,class
+0063616AR,Platanus × acerifolia,True,C\ Arquitecte Moragas,,21.9,median,17.05,check,,,,,1.0,floor
+0063619AR,Celtis sinensis,False,C\ Jorge Manrique,,56.52,no_facade,,check,,,,,1.0,floor
+0063621AR,Tipuana tipu,False,Pg Vall d'Hebron,19.26,15.77,ok,,large,428734.41,4587286.31,428724.23,4587269.96,1.5,class
+0063622AR,Celtis australis,False,C\ Arquitecte Moragas,6.99,5.82,ok,,large,428827.78,4587274.0,428821.21,4587276.37,1.5,class
+0063624AR,Celtis sinensis,False,C\ Juan de Mena,22.18,20.29,ok,,large,428749.03,4586995.33,428770.6,4586990.19,1.5,class
+0063625AR,Brachychiton populneus,False,Pg Vall d'Hebron,,64.42,no_facade,5.34,check,,,,,1.0,floor
+0063626AR,Celtis sinensis,False,C\ Juan de Mena,,17.59,median,,check,,,,,1.0,floor
+0063627AR,Casuarina cunninghamiana,False,Av Martí-Codolar,,53.93,no_facade,10.33,check,,,,,1.0,floor
+0063628AR,Celtis sinensis,False,C\ Juan de Mena,6.75,5.94,ok,,large,428713.55,4587004.5,428715.79,4587010.86,1.5,class
+0063629AR,Populus nigra 'Italica',False,Pg Vall d'Hebron,,56.02,no_facade,9.18,check,,,,,1.0,floor
+0063632AR,Styphnolobium japonicum,False,C\ Granja Vella,,53.73,no_facade,8.96,check,,,,,1.0,floor
+0063636AR,Casuarina cunninghamiana,False,C\ Granja Vella,,44.01,no_facade,7.22,check,,,,,1.0,floor
+0063638AR,Populus nigra 'Italica',False,Pl Clota,,39.98,no_facade,20.09,check,,,,,1.0,floor
+0063639AR,Platanus × acerifolia,True,Pg Vall d'Hebron,,55.19,no_facade,,check,,,,,1.0,floor
+0063641AR,Celtis sinensis,False,C\ Ventura Rodríguez,14.77,13.98,ok,,large,428964.77,4587147.51,428950.87,4587152.52,1.5,class
+0063642AR,Brachychiton populneus,False,C\ Berruguete,5.45,6.39,ok,,medium,428880.99,4587217.96,428880.34,4587212.55,1.0,class
+0063646AR,Prunus cerasifera 'Pissardii',False,C\ Can Travi,6.04,4.03,ok,,large,429055.25,4587205.03,429060.93,4587202.99,1.5,class
+0063651AR,Magnolia grandiflora,False,C\ Pare Mariana,11.05,8.93,ok,,large,428783.98,4586904.79,428780.59,4586894.28,1.5,class
+0063652AR,Casuarina cunninghamiana,False,C\ Granja Vella,,35.94,no_facade,5.55,check,,,,,1.0,floor
+0063653AR,Celtis australis,False,C\ Arquitecte Moragas,9.0,8.01,ok,,large,428826.7,4587340.08,428835.6,4587341.44,1.5,class
+0063656AR,Catalpa bignonioides,False,C\ Rubió i Balaguer,5.38,4.95,ok,,medium,428837.99,4587192.93,428843.04,4587191.1,1.0,class
+0063657AR,Platanus × acerifolia,True,Pg Vall d'Hebron,,32.41,no_facade,,check,,,,,1.0,floor
+0063658AR,Celtis sinensis,False,C\ Ventura Rodríguez,5.41,4.89,ok,,medium,428910.87,4587098.43,428915.96,4587096.59,1.0,class
+0063660AR,Brachychiton populneus,False,C\ Berruguete,,6.32,median,11.74,check,,,,,1.0,floor
+0063662AR,Styphnolobium japonicum,False,Av Martí-Codolar,,45.54,no_facade,23.48,check,,,,,1.0,floor
+0063665AR,Ceratonia siliqua,False,C\ Granja Vella,,51.36,no_facade,13.48,check,,,,,1.0,floor
+0063667AR,Cupressus sempervirens 'Stricta',False,Pg Vall d'Hebron,,50.43,no_facade,9.2,check,,,,,1.0,floor
+0063672AR,Casuarina cunninghamiana,False,C\ Granja Vella,,40.28,no_facade,6.39,check,,,,,1.0,floor
+0063673AR,Prunus cerasifera 'Pissardii',False,C\ Can Travi,5.13,4.52,ok,,medium,429014.64,4587091.62,429019.47,4587089.89,1.0,class
+0063677AR,Celtis sinensis,False,C\ Pare Mariana,3.98,3.56,ok,,medium,428617.61,4586918.4,428616.29,4586914.64,1.0,class
+0063678AR,Celtis sinensis,False,C\ Pare Mariana,6.26,5.49,ok,,large,428622.81,4586916.57,428625.99,4586911.18,1.5,class
+0063679AR,Celtis australis,False,C\ Arquitecte Moragas,7.03,6.3,ok,,large,428852.53,4587342.86,428845.91,4587345.24,1.5,class
+0063682AR,Tipuana tipu,False,Pg Vall d'Hebron,,73.21,no_facade,,check,,,,,1.0,floor
+0063683AR,Celtis australis,False,C\ Arquitecte Moragas,6.98,6.22,ok,,large,428830.03,4587280.25,428823.46,4587282.6,1.5,class
+0063684AR,Cercis siliquastrum,False,C\ Arquitecte Moragas,25.7,14.04,ok,,large,428821.17,4587204.77,428797.0,4587213.5,1.5,class
+0063685AR,Brachychiton populneus,False,C\ Berruguete,,7.43,median,14.16,check,,,,,1.0,floor
+0063686AR,Ligustrum lucidum,False,C\ Arquitecte Moragas,25.7,2.83,ok,,large,428818.2,4587196.55,428794.03,4587205.28,1.5,class
+0063687AR,Prunus cerasifera 'Pissardii',False,C\ Can Travi,12.54,2.86,ok,,large,429061.83,4587168.51,429050.02,4587172.72,1.5,class
+0063688AR,Platanus × acerifolia,True,Pg Vall d'Hebron,,75.66,no_facade,,check,,,,,1.0,floor
+0063689AR,Casuarina cunninghamiana,False,Av Martí-Codolar,,85.32,no_facade,33.06,check,,,,,1.0,floor
+0063690AR,Brachychiton populneus,False,C\ Berruguete,,15.38,median,14.2,check,,,,,1.0,floor
+0063692AR,Brachychiton populneus,False,Pg Vall d'Hebron,,70.08,no_facade,5.48,check,,,,,1.0,floor
+0063693AR,Brachychiton populneus,False,Pg Vall d'Hebron,,12.61,median,19.47,check,,,,,1.0,floor
+0063694AR,Cercis siliquastrum,False,C\ Arquitecte Moragas,25.7,14.59,ok,,large,428818.63,4587197.72,428794.46,4587206.46,1.5,class
+0063698AR,Tipuana tipu,False,C\ Jorge Manrique,,14.2,median,8.26,check,,,,,1.0,floor
+0063703AR,Ligustrum lucidum,False,C\ Arquitecte Moragas,25.7,2.59,ok,,large,428805.59,4587161.66,428781.42,4587170.39,1.5,class
+0063705AR,Cupressus sempervirens 'Stricta',False,C\ Jorge Manrique,,64.42,no_facade,9.18,check,,,,,1.0,floor
+0063706AR,Platanus × acerifolia,True,C\ Arquitecte Moragas,25.7,25.25,ok,,large,428807.7,4587167.51,428783.53,4587176.24,1.5,class
+0063709AR,Celtis sinensis,False,C\ Juan de Mena,6.86,5.79,ok,,large,428673.6,4587018.55,428674.53,4587025.34,1.5,class
+0063710AR,Celtis australis,False,C\ Berruguete,3.06,2.2,ok,,small,428932.25,4587175.83,428933.29,4587178.7,1.0,class
+0063712AR,Platanus × acerifolia,True,Pg Vall d'Hebron,,11.41,median,9.02,check,,,,,1.0,floor
+0063714AR,Celtis sinensis,False,Pg Vall d'Hebron,3.77,3.02,ok,,medium,428635.12,4587010.63,428631.56,4587011.88,1.0,class
+0063715AR,Ligustrum lucidum,False,C\ Arquitecte Moragas,25.7,2.67,ok,,large,428820.25,4587202.2,428796.08,4587210.94,1.5,class
+0063716AR,Celtis australis,False,C\ Berruguete,,6.58,median,3.01,check,,,,,1.0,floor
+0063717AR,Ginkgo biloba,False,Av Cardenal Vidal i Barraquer,26.14,1.88,ok,,large,429101.18,4587216.71,429115.29,4587238.72,1.5,class
+0063718AR,Tipuana tipu,False,Pg Vall d'Hebron,,44.35,no_facade,,check,,,,,1.0,floor
+0063720AR,Magnolia grandiflora,False,Pg Vall d'Hebron,,47.99,no_facade,,check,,,,,1.0,floor
+0063723AR,Celtis sinensis,False,Pg Vall d'Hebron,3.77,2.85,ok,,medium,428631.36,4586999.95,428627.8,4587001.21,1.0,class
+0063724AR,Platanus × acerifolia,True,Pg Vall d'Hebron,25.78,23.21,ok,,large,428986.26,4587576.3,428998.96,4587598.74,1.5,class
+0063729AR,Pinus pinea,False,Av Cardenal Vidal i Barraquer,,48.19,no_facade,29.16,check,,,,,1.0,floor
+0063730AR,Cupressus sempervirens 'Stricta',False,C\ Jorge Manrique,,62.19,no_facade,9.2,check,,,,,1.0,floor
+0063734AR,Styphnolobium japonicum,False,C\ Pare Mariana,15.73,11.26,ok,,large,428942.6,4586809.86,428937.16,4586824.62,1.5,class
+0063735AR,Styphnolobium japonicum,False,Av Martí-Codolar,,55.41,no_facade,24.14,check,,,,,1.0,floor
+0063736AR,Celtis australis,False,C\ Arquitecte Moragas,7.64,6.86,ok,,large,428819.43,4587319.29,428826.62,4587316.68,1.5,class
+0063737AR,Melia azedarach,False,Av Can Marcet,,77.18,no_facade,,check,,,,,1.0,floor
+0063738AR,Magnolia grandiflora,False,C\ Pare Mariana,,23.91,median,6.92,check,,,,,1.0,floor
+0063739AR,Ceratonia siliqua,False,C\ Granja Vella,,47.17,no_facade,13.52,check,,,,,1.0,floor
+0063744AR,Celtis australis,False,C\ Arquitecte Moragas,6.98,5.79,ok,,large,428843.34,4587317.28,428836.77,4587319.64,1.5,class
+0063745AR,Ligustrum lucidum,False,C\ Arquitecte Moragas,25.62,2.97,ok,,large,428797.35,4587138.86,428773.26,4587147.57,1.5,class
+0063749AR,Celtis sinensis,False,Pg Vall d'Hebron,4.3,3.37,ok,,medium,428616.67,4586958.21,428612.62,4586959.64,1.0,class
+0063750AR,Brachychiton populneus,False,C\ Berruguete,,5.94,median,14.49,check,,,,,1.0,floor
+0063753AR,Casuarina cunninghamiana,False,C\ Granja Vella,,113.31,no_facade,6.77,check,,,,,1.0,floor
+0063754AR,Populus nigra 'Italica',False,Pg Vall d'Hebron,,58.37,no_facade,9.17,check,,,,,1.0,floor
+0063758AR,Celtis australis,False,C\ Jorge Manrique,,65.12,no_facade,,check,,,,,1.0,floor
+0063761AR,Brachychiton populneus,False,C\ Berruguete,,15.25,median,14.21,check,,,,,1.0,floor
+0063763AR,Tipuana tipu,False,C\ Jorge Manrique,,11.77,median,22.46,check,,,,,1.0,floor
+0063764AR,Populus nigra 'Italica',False,C\ Jorge Manrique,,17.94,median,,check,,,,,1.0,floor
+0063765AR,Cupressus sempervirens,False,Pg Vall d'Hebron,,52.75,no_facade,11.55,check,,,,,1.0,floor
+0063767AR,Platanus × acerifolia,True,Pg Vall d'Hebron,19.48,18.17,ok,,large,428902.41,4587497.62,428889.08,4587511.82,1.5,class
+0063773AR,Platanus × acerifolia,True,Pg Vall d'Hebron,,15.94,median,8.29,check,,,,,1.0,floor
+0063780AR,Platanus × acerifolia,True,C\ Arquitecte Moragas,16.46,14.03,ok,,large,428783.14,4587131.51,428767.64,4587137.05,1.5,class
+0063787AR,Brachychiton populneus,False,C\ Berruguete,5.47,6.39,ok,,medium,428899.5,4587211.26,428896.51,4587206.69,1.0,class
+0063789AR,Styphnolobium japonicum,False,C\ Arquitecte Moragas,25.7,18.73,ok,,large,428809.8,4587173.29,428785.63,4587182.03,1.5,class
+0063790AR,Casuarina cunninghamiana,False,Av Martí-Codolar,,77.59,no_facade,,check,,,,,1.0,floor
+0063791AR,Brachychiton populneus,False,C\ Berruguete,,18.69,median,,check,,,,,1.0,floor
+0063792AR,Celtis sinensis,False,C\ Berruguete,2.72,2.31,ok,,small,429017.76,4587145.0,429018.68,4587147.55,1.0,class
+0063793AR,Platanus × acerifolia,True,C\ Arquitecte Moragas,22.57,21.94,ok,,large,428783.62,4587132.86,428775.53,4587153.93,1.5,class
+0063794AR,Celtis sinensis,False,C\ Juan de Mena,3.68,2.93,ok,,medium,428741.67,4586997.91,428742.89,4587001.38,1.0,class
+0063797AR,Populus nigra 'Italica',False,Pl Sibil·les,,16.82,median,,check,,,,,1.0,floor
+0063799AR,Platanus × acerifolia,True,Pg Vall d'Hebron,,63.12,no_facade,,check,,,,,1.0,floor
+0063801AR,Styphnolobium japonicum,False,C\ Arquitecte Moragas,,20.24,median,2.97,check,,,,,1.0,floor
+0063802AR,Brachychiton populneus,False,C\ Granja Vella,,99.46,no_facade,,check,,,,,1.0,floor
+0063803AR,Populus nigra 'Italica',False,C\ Granja Vella,,65.01,no_facade,4.59,check,,,,,1.0,floor
+0063804AR,Populus nigra 'Italica',False,C\ Granja Vella,,49.58,no_facade,6.86,check,,,,,1.0,floor
+0063806AR,Platanus × acerifolia,True,Pg Vall d'Hebron,,18.19,median,10.23,check,,,,,1.0,floor
+0063807AR,Populus nigra 'Italica',False,Pg Vall d'Hebron,,53.9,no_facade,2.71,check,,,,,1.0,floor
+0063808AR,Brachychiton populneus,False,C\ Berruguete,,5.24,median,,check,,,,,1.0,floor
+0063810AR,Styphnolobium japonicum,False,C\ Arquitecte Moragas,,19.1,median,2.97,check,,,,,1.0,floor
+0063811AR,Platanus × acerifolia,True,C\ Arquitecte Moragas,25.66,25.01,ok,,large,428801.52,4587150.4,428777.39,4587159.12,1.5,class
+0063812AR,Cupressus sempervirens 'Stricta',False,Pg Vall d'Hebron,,49.25,no_facade,9.16,check,,,,,1.0,floor
+0063814AR,Casuarina cunninghamiana,False,C\ Granja Vella,,110.09,no_facade,6.05,check,,,,,1.0,floor
+0063816AR,Platanus × acerifolia,True,C\ Arquitecte Moragas,25.7,25.18,ok,,large,428817.87,4587195.63,428793.7,4587204.37,1.5,class
+0063818AR,Celtis sinensis,False,C\ Juan de Mena,6.72,5.93,ok,,large,428679.5,4587016.47,428681.73,4587022.81,1.5,class
+0063822AR,Platanus × acerifolia,True,Pg Vall d'Hebron,,15.49,median,8.45,check,,,,,1.0,floor
+0063823AR,Tipuana tipu,False,Pg Vall d'Hebron,5.26,3.96,ok,,medium,428734.41,4587286.31,428729.66,4587284.05,1.0,class
+0063826AR,Celtis sinensis,False,C\ Juan de Mena,,24.84,median,,check,,,,,1.0,floor
+0063829AR,Platanus × acerifolia,True,Pg Vall d'Hebron,,94.56,no_facade,,check,,,,,1.0,floor
+0063831AR,Brachychiton populneus,False,Pg Vall d'Hebron,,67.17,no_facade,5.3,check,,,,,1.0,floor
+0063832AR,Casuarina cunninghamiana,False,C\ Granja Vella,,79.61,no_facade,3.06,check,,,,,1.0,floor
+0063833AR,Brachychiton populneus,False,Pg Vall d'Hebron,,12.59,median,19.49,check,,,,,1.0,floor
+0063836AR,Cupressus sempervirens 'Stricta',False,Pg Vall d'Hebron,,52.26,no_facade,8.57,check,,,,,1.0,floor
+0063837AR,Brachychiton populneus,False,Pg Vall d'Hebron,,69.71,no_facade,5.35,check,,,,,1.0,floor
+0063838AR,Magnolia grandiflora,False,C\ Pare Mariana,,37.15,no_facade,,check,,,,,1.0,floor
+0063839AR,Brachychiton populneus,False,C\ Berruguete,17.1,18.06,ok,,large,428966.15,4587198.68,428965.95,4587181.58,1.5,class
+0063840AR,Ligustrum lucidum,False,C\ Arquitecte Moragas,25.7,2.5,ok,,large,428822.31,4587207.9,428798.14,4587216.64,1.5,class
+0063841AR,Populus nigra 'Italica',False,Pg Vall d'Hebron,,39.47,no_facade,9.34,check,,,,,1.0,floor
+0063842AR,Brachychiton populneus,False,Pg Vall d'Hebron,,52.49,no_facade,4.13,check,,,,,1.0,floor
+0063843AR,Cercis siliquastrum,False,C\ Arquitecte Moragas,25.7,8.08,ok,,large,428820.28,4587202.29,428796.11,4587211.03,1.5,class
+0063844AR,Platanus × acerifolia,True,Pg Vall d'Hebron,,16.45,median,24.89,check,,,,,1.0,floor
+0063845AR,Celtis sinensis,False,C\ Ventura Rodríguez,2.86,2.29,ok,,small,428925.4,4587073.5,428922.71,4587074.46,1.0,class
+0063849AR,Tipuana tipu,False,Pg Vall d'Hebron,,55.51,no_facade,,check,,,,,1.0,floor
+0063850AR,Styphnolobium japonicum,False,C\ Pare Mariana,,37.19,no_facade,,check,,,,,1.0,floor
+0063851AR,Catalpa bignonioides,False,C\ Rubió i Balaguer,,3.21,no_kerb,,check,,,,,1.0,floor
+0063856AR,Pinus pinea,False,C\ Jorge Manrique,,22.63,median,7.12,check,,,,,1.0,floor
+0063859AR,Styphnolobium japonicum,False,Av Martí-Codolar,,34.54,no_facade,18.35,check,,,,,1.0,floor
+0063864AR,Platanus × acerifolia,True,Pg Vall d'Hebron,,89.49,no_facade,,check,,,,,1.0,floor
+0063865AR,Celtis sinensis,False,C\ Berruguete,2.71,2.02,ok,,small,429029.97,4587140.63,429030.88,4587143.18,1.0,class
+0063869AR,Casuarina cunninghamiana,False,C\ Granja Vella,,48.66,no_facade,7.53,check,,,,,1.0,floor
+0063870AR,Celtis sinensis,False,C\ Ventura Rodríguez,5.6,4.7,ok,,medium,428937.0,4587170.92,428942.56,4587170.29,1.0,class
+0063873AR,Celtis sinensis,False,C\ Ventura Rodríguez,,20.19,median,,check,,,,,1.0,floor
+0063874AR,Casuarina cunninghamiana,False,Av Martí-Codolar,,75.12,no_facade,30.9,check,,,,,1.0,floor
+0063878AR,Ginkgo biloba,False,Av Cardenal Vidal i Barraquer,7.18,1.87,ok,,large,429127.51,4587199.74,429131.39,4587205.79,1.5,class
+0063886AR,Brachychiton populneus,False,C\ Berruguete,,11.46,median,12.5,check,,,,,1.0,floor
+0063888AR,Tipuana tipu,False,C\ Coll i Alentorn,,39.21,no_facade,3.15,check,,,,,1.0,floor
+0063890AR,Prunus cerasifera 'Pissardii',False,C\ Can Travi,3.36,2.55,ok,,small,429079.21,4587217.18,429076.04,4587218.32,1.0,class
+0063891AR,Pinus pinea,False,Av Cardenal Vidal i Barraquer,,37.45,no_facade,27.18,check,,,,,1.0,floor
+0063892AR,Celtis sinensis,False,C\ Berruguete,15.6,10.3,ok,,large,428969.05,4587159.42,428958.58,4587170.99,1.5,class
+0063894AR,Platanus × acerifolia,True,Pg Vall d'Hebron,,64.13,no_facade,,check,,,,,1.0,floor
+0063895AR,Brachychiton populneus,False,Pg Vall d'Hebron,,71.33,no_facade,5.44,check,,,,,1.0,floor
+0063896AR,Styphnolobium japonicum,False,C\ Arquitecte Moragas,25.68,19.02,ok,,large,428803.62,4587156.21,428779.47,4587164.94,1.5,class
+0063897AR,Populus nigra 'Italica',False,C\ Granja Vella,,46.79,no_facade,7.55,check,,,,,1.0,floor
+0063900AR,Koelreuteria paniculata 'Fastigiata',False,C\ Coll i Alentorn,,45.66,no_facade,3.53,check,,,,,1.0,floor
+0063901AR,Prunus cerasifera 'Pissardii',False,C\ Can Travi,12.5,3.0,ok,,large,429066.44,4587181.46,429054.67,4587185.66,1.5,class
+0063902AR,Cupressus sempervirens 'Stricta',False,Pg Vall d'Hebron,,48.73,no_facade,9.04,check,,,,,1.0,floor
+0063904AR,Celtis sinensis,False,C\ Berruguete,2.97,2.32,ok,,small,428925.85,4587178.15,428926.86,4587180.93,1.0,class
+0215435AR,Ligustrum lucidum,False,Av Martí-Codolar,,23.76,median,2.9,check,,,,,1.0,floor
+0215694AR,Ligustrum lucidum,False,Av Martí-Codolar,,25.06,median,2.73,check,,,,,1.0,floor
+0215700AR,Ligustrum lucidum,False,Av Martí-Codolar,,23.94,median,2.07,check,,,,,1.0,floor
+0215707AR,Ligustrum lucidum,False,Av Martí-Codolar,,24.75,median,3.12,check,,,,,1.0,floor
+0267164AR,Styphnolobium japonicum,False,C\ Basses d'Horta,,136.88,no_facade,5.07,check,,,,,1.0,floor
+0267252AR,Robinia pseudoacacia 'Pyramidalis',False,C\ Jorge Manrique,5.46,3.77,ok,,medium,428993.28,4587043.97,428991.4,4587038.85,1.0,class
+0267282AR,Tipuana tipu,False,Av Cardenal Vidal i Barraquer,,13.4,median,5.55,check,,,,,1.0,floor
+0267599AR,Ulmus pumila,False,C\ Basses d'Horta,,102.45,no_facade,26.63,check,,,,,1.0,floor
+0267611AR,Pinus pinea,False,Pl Sibil·les,,18.92,median,4.37,check,,,,,1.0,floor
+0267619AR,Styphnolobium japonicum,False,C\ Basses d'Horta,,144.21,no_facade,4.91,check,,,,,1.0,floor
+0267651AR,Robinia pseudoacacia,False,C\ Arquitecte Moragas,,4.72,no_kerb,,check,,,,,1.0,floor
+0267669AR,Styphnolobium japonicum,False,C\ Basses d'Horta,,122.25,no_facade,,check,,,,,1.0,floor
+0267703AR,Styphnolobium japonicum,False,C\ Basses d'Horta,,151.81,no_facade,5.07,check,,,,,1.0,floor
+0267788AR,Styphnolobium japonicum,False,C\ Basses d'Horta,,144.04,no_facade,5.07,check,,,,,1.0,floor
+0267873AR,Magnolia grandiflora,False,C\ Arquitecte Moragas,,23.53,median,,check,,,,,1.0,floor
+0268037AR,Robinia pseudoacacia,False,C\ Arquitecte Moragas,12.05,1.89,ok,,large,428824.27,4587344.22,428836.28,4587343.29,1.5,class
+0268060AR,Styphnolobium japonicum,False,C\ Basses d'Horta,,129.06,no_facade,5.07,check,,,,,1.0,floor
+0268313AR,Robinia pseudoacacia 'Pyramidalis',False,C\ Jorge Manrique,5.45,3.74,ok,,medium,428998.0,4587042.23,428996.12,4587037.11,1.0,class
+0268358AR,Casuarina cunninghamiana,False,Av Can Marcet,,28.79,median,18.63,check,,,,,1.0,floor
+0268375AR,Styphnolobium japonicum,False,C\ Basses d'Horta,,104.69,no_facade,26.99,check,,,,,1.0,floor
+0268400AR,Tipuana tipu,False,Av Cardenal Vidal i Barraquer,8.16,6.36,ok,,large,429055.94,4586747.32,429060.11,4586740.3,1.5,class
+0268407AR,Robinia pseudoacacia 'Pyramidalis',False,C\ Jorge Manrique,5.48,3.74,ok,,medium,428978.74,4587049.33,428976.85,4587044.18,1.0,class
+0286613AR,Pinus pinea,False,Pl Sibil·les,,17.19,median,6.41,check,,,,,1.0,floor
+0286614AR,Pinus pinea,False,C\ Jorge Manrique,,17.54,median,17.35,check,,,,,1.0,floor
+0286618AR,Pinus pinea,False,C\ Jorge Manrique,,50.15,no_facade,,check,,,,,1.0,floor
+0286619AR,Pinus pinea,False,C\ Jorge Manrique,,48.75,no_facade,,check,,,,,1.0,floor
+0286620AR,Pinus pinea,False,C\ Jorge Manrique,,20.91,median,19.58,check,,,,,1.0,floor
+0286621AR,Pinus pinea,False,C\ Jorge Manrique,,20.26,median,5.42,check,,,,,1.0,floor
+0286627AR,Prunus cerasifera 'Pissardii',False,C\ Can Travi,12.58,3.18,ok,,large,429057.03,4587155.02,429045.18,4587159.24,1.5,class
+0286643AR,Melia azedarach,False,Av Can Marcet,,64.13,no_facade,,check,,,,,1.0,floor
+0287311AR,Platanus × acerifolia,True,Av Estatut de Catalunya,,40.76,no_facade,2.12,check,,,,,1.0,floor
+0287312AR,Platanus × acerifolia,True,Av Estatut de Catalunya,,38.37,no_facade,3.42,check,,,,,1.0,floor
+0287313AR,Platanus × acerifolia,True,Av Estatut de Catalunya,,35.53,no_facade,10.08,check,,,,,1.0,floor
+0287314AR,Platanus × acerifolia,True,Av Estatut de Catalunya,,32.08,no_facade,18.31,check,,,,,1.0,floor
+0287316AR,Platanus × acerifolia,True,Av Estatut de Catalunya,,14.38,median,9.9,check,,,,,1.0,floor
+0287317AR,Platanus × acerifolia,True,Av Estatut de Catalunya,,13.39,median,9.33,check,,,,,1.0,floor
+0287318AR,Platanus × acerifolia,True,Av Estatut de Catalunya,,13.14,median,8.16,check,,,,,1.0,floor
+0287319AR,Platanus × acerifolia,True,Av Estatut de Catalunya,,13.02,median,7.48,check,,,,,1.0,floor
+0287320AR,Platanus × acerifolia,True,Av Estatut de Catalunya,,13.2,median,8.04,check,,,,,1.0,floor
+0287321AR,Platanus × acerifolia,True,Av Estatut de Catalunya,,13.3,median,8.81,check,,,,,1.0,floor
+0287322AR,Platanus × acerifolia,True,Av Estatut de Catalunya,,13.18,median,9.26,check,,,,,1.0,floor
+0287323AR,Platanus × acerifolia,True,Av Estatut de Catalunya,,13.05,median,9.64,check,,,,,1.0,floor
+0287324AR,Platanus × acerifolia,True,Av Estatut de Catalunya,,13.15,median,9.62,check,,,,,1.0,floor
+0287325AR,Platanus × acerifolia,True,Av Estatut de Catalunya,,13.35,median,8.81,check,,,,,1.0,floor
+0287326AR,Platanus × acerifolia,True,Av Estatut de Catalunya,,13.57,median,2.75,check,,,,,1.0,floor
+0287327AR,Platanus × acerifolia,True,Av Estatut de Catalunya,,17.22,median,2.74,check,,,,,1.0,floor
+0287328AR,Platanus × acerifolia,True,Av Estatut de Catalunya,,20.56,median,2.52,check,,,,,1.0,floor
+0287329AR,Platanus × acerifolia,True,Av Estatut de Catalunya,,23.87,median,5.83,check,,,,,1.0,floor
+0290697AR,Magnolia grandiflora,False,C\ Arquitecte Moragas,,28.72,median,,check,,,,,1.0,floor
+0290699AR,Magnolia grandiflora,False,C\ Arquitecte Moragas,,32.73,no_facade,,check,,,,,1.0,floor
+0290700AR,Magnolia grandiflora,False,C\ Arquitecte Moragas,,25.59,median,,check,,,,,1.0,floor
+0291413AR,Styphnolobium japonicum,False,C\ Basses d'Horta,,95.65,no_facade,23.3,check,,,,,1.0,floor
+0291547AR,Styphnolobium japonicum,False,C\ Basses d'Horta,,113.19,no_facade,30.42,check,,,,,1.0,floor
+0296163AR,Tipuana tipu,False,C\ Coll i Alentorn,,59.56,no_facade,3.87,check,,,,,1.0,floor
+0296164AR,Koelreuteria paniculata 'Fastigiata',False,C\ Coll i Alentorn,,58.12,no_facade,4.47,check,,,,,1.0,floor
+0296165AR,Tipuana tipu,False,C\ Coll i Alentorn,,56.57,no_facade,4.98,check,,,,,1.0,floor
+0296166AR,Populus nigra 'Italica',False,C\ Coll i Alentorn,,52.57,no_facade,5.63,check,,,,,1.0,floor
+0296167AR,Koelreuteria paniculata 'Fastigiata',False,C\ Coll i Alentorn,,50.91,no_facade,6.48,check,,,,,1.0,floor
+0296170AR,Tipuana tipu,False,C\ Coll i Alentorn,,55.67,no_facade,5.71,check,,,,,1.0,floor
+0299195AR,Populus nigra 'Italica',False,C\ Granja Vella,,90.45,no_facade,16.41,check,,,,,1.0,floor
+0299201AR,Populus nigra 'Italica',False,C\ Granja Vella,,31.46,no_facade,4.61,check,,,,,1.0,floor
+0299202AR,Casuarina cunninghamiana,False,C\ Granja Vella,,42.52,no_facade,6.39,check,,,,,1.0,floor
+0299203AR,Casuarina cunninghamiana,False,C\ Granja Vella,,44.16,no_facade,6.77,check,,,,,1.0,floor
+0299291AR,Casuarina cunninghamiana,False,C\ Granja Vella,,111.8,no_facade,6.07,check,,,,,1.0,floor
+0299391AR,Tilia x europaea,False,Av Estatut de Catalunya,,11.1,median,8.54,check,,,,,1.0,floor
+0299438AR,Tilia x europaea,False,Av Estatut de Catalunya,,19.87,median,,check,,,,,1.0,floor
+0299439AR,Tilia x europaea,False,Av Estatut de Catalunya,21.83,20.98,ok,,large,429267.1,4587031.82,429286.87,4587041.07,1.5,class
+0299440AR,Tilia x europaea,False,Av Estatut de Catalunya,20.99,20.08,ok,,large,429263.22,4587043.16,429283.19,4587049.61,1.5,class
+0299441AR,Tilia x europaea,False,Av Estatut de Catalunya,20.88,19.99,ok,,large,429262.03,4587046.83,429279.37,4587058.47,1.5,class
+0299442AR,Tilia x europaea,False,Av Estatut de Catalunya,24.59,23.59,ok,,large,429262.03,4587046.83,429275.51,4587067.4,1.5,class
+0299443AR,Tilia x europaea,False,Av Estatut de Catalunya,,29.83,no_kerb,,check,,,,,1.0,floor
+0299444AR,Tilia x europaea,False,Av Estatut de Catalunya,,37.46,no_facade,,check,,,,,1.0,floor
+0299445AR,Tilia x europaea,False,Av Estatut de Catalunya,,45.72,no_facade,,check,,,,,1.0,floor
+0299446AR,Tilia x europaea,False,Av Estatut de Catalunya,,54.35,no_facade,,check,,,,,1.0,floor
+0299447AR,Tilia x europaea,False,Av Estatut de Catalunya,,63.17,no_facade,,check,,,,,1.0,floor
+0299467AR,Tilia x europaea,False,Av Estatut de Catalunya,,78.32,no_facade,,check,,,,,1.0,floor
+0299468AR,Tilia x europaea,False,Av Estatut de Catalunya,,73.53,no_facade,,check,,,,,1.0,floor
+0299825AR,Styphnolobium japonicum,False,C\ Maternitat d'Elna,16.07,13.88,ok,,large,429129.6,4587341.93,429113.66,4587339.83,1.5,class
+0299826AR,Styphnolobium japonicum,False,C\ Maternitat d'Elna,,11.06,median,9.89,check,,,,,1.0,floor
+0299827AR,Styphnolobium japonicum,False,C\ Maternitat d'Elna,,10.74,median,8.11,check,,,,,1.0,floor
+0299983AR,Pyrus calleryana 'Chanticleer',False,C\ Maternitat d'Elna,4.51,3.65,ok,,medium,429132.51,4587345.6,429128.98,4587348.41,1.0,class
+0299985AR,Pyrus calleryana 'Chanticleer',False,Av Can Marcet,4.55,3.52,ok,,medium,429143.58,4587357.75,429140.35,4587360.96,1.0,class
+0299986AR,Pyrus calleryana 'Chanticleer',False,C\ Maternitat d'Elna,4.51,3.58,ok,,medium,429184.04,4587387.23,429181.61,4587391.03,1.0,class
+0299987AR,Pyrus calleryana 'Chanticleer',False,C\ Maternitat d'Elna,4.5,3.66,ok,,medium,429191.04,4587391.89,429188.48,4587395.59,1.0,class
+0299988AR,Pyrus calleryana 'Chanticleer',False,C\ Maternitat d'Elna,4.52,3.69,ok,,medium,429198.39,4587397.17,429195.69,4587400.79,1.0,class
+0299997AR,Pyrus calleryana 'Chanticleer',False,Av Can Marcet,4.55,3.62,ok,,medium,429149.32,4587363.16,429146.32,4587366.58,1.0,class
+0299998AR,Pyrus calleryana 'Chanticleer',False,C\ Maternitat d'Elna,4.55,3.52,ok,,medium,429155.59,4587368.48,429152.76,4587372.05,1.0,class
+0299999AR,Pyrus calleryana 'Chanticleer',False,C\ Maternitat d'Elna,4.58,3.74,ok,,medium,429162.3,4587373.5,429159.67,4587377.25,1.0,class
+0300000AR,Pyrus calleryana 'Chanticleer',False,C\ Maternitat d'Elna,4.64,3.76,ok,,medium,429169.18,4587378.07,429166.61,4587381.93,1.0,class
+0300001AR,Pyrus calleryana 'Chanticleer',False,C\ Maternitat d'Elna,4.54,3.62,ok,,medium,429176.73,4587382.73,429174.41,4587386.64,1.0,class
+0300006AR,Styphnolobium japonicum,False,Av Can Marcet,,25.13,median,1.51,check,,,,,1.0,floor
+0300010AR,Styphnolobium japonicum,False,C\ Maternitat d'Elna,15.4,5.58,ok,,large,429129.6,4587341.93,429114.53,4587345.11,1.5,class
+0300082AR,Jacaranda mimosifolia,False,Av Can Marcet,,28.73,median,1.51,check,,,,,1.0,floor
+0300083AR,Jacaranda mimosifolia,False,Av Can Marcet,,26.86,median,7.68,check,,,,,1.0,floor
+0300084AR,Jacaranda mimosifolia,False,Av Can Marcet,,27.59,median,1.52,check,,,,,1.0,floor
+0300267AR,Casuarina cunninghamiana,False,Av Can Marcet,,31.48,no_facade,24.22,check,,,,,1.0,floor
+0300288AR,Styphnolobium japonicum,False,Av Can Marcet,,25.16,median,1.56,check,,,,,1.0,floor
+0309639AR,Platanus × acerifolia,True,Av Estatut de Catalunya,,15.75,median,9.7,check,,,,,1.0,floor
+0309640AR,Platanus × acerifolia,True,Av Estatut de Catalunya,,27.19,median,13.75,check,,,,,1.0,floor
+0309641AR,Platanus × acerifolia,True,Av Estatut de Catalunya,,24.15,median,2.96,check,,,,,1.0,floor
+0309935AR,Platanus × acerifolia,True,Pg Vall d'Hebron,28.9,27.59,ok,,large,428900.5,4587495.83,428871.65,4587494.38,1.5,class
+0309936AR,Platanus × acerifolia,True,Pg Vall d'Hebron,24.68,23.68,ok,,large,428900.5,4587495.83,428876.01,4587498.86,1.5,class
+0309937AR,Platanus × acerifolia,True,Pg Vall d'Hebron,,15.07,median,8.11,check,,,,,1.0,floor
+0309950AR,Celtis sinensis,False,C\ Juan de Mena,6.74,6.13,ok,,large,428696.03,4587010.66,428698.26,4587017.01,1.5,class
+0314798AR,Liquidambar styraciflua,False,Av Can Marcet,,22.13,median,13.17,check,,,,,1.0,floor
+0314799AR,Ulmus pumila,False,Av Can Marcet,,21.94,median,,check,,,,,1.0,floor
+0315277AR,Ulmus pumila,False,Av Can Marcet,,23.13,median,,check,,,,,1.0,floor
+0315348AR,Brachychiton populneus,False,Pg Vall d'Hebron,,60.75,no_facade,2.61,check,,,,,1.0,floor
+0315355AR,Styphnolobium japonicum,False,C\ Basses d'Horta,,121.84,no_facade,5.07,check,,,,,1.0,floor
+0315356AR,Styphnolobium japonicum,False,C\ Basses d'Horta,,114.37,no_facade,5.07,check,,,,,1.0,floor
+0315357AR,Styphnolobium japonicum,False,C\ Basses d'Horta,,106.34,no_facade,5.07,check,,,,,1.0,floor
+0321358AR,Cupressus sempervirens 'Stricta',False,Pg Vall d'Hebron,,52.49,no_facade,9.2,check,,,,,1.0,floor
+0321359AR,Cupressus sempervirens 'Stricta',False,Pg Vall d'Hebron,,56.26,no_facade,9.21,check,,,,,1.0,floor
+0321360AR,Cupressus sempervirens 'Stricta',False,Pg Vall d'Hebron,,55.14,no_facade,9.2,check,,,,,1.0,floor
+0321361AR,Cupressus sempervirens 'Stricta',False,Pg Vall d'Hebron,,54.18,no_facade,9.2,check,,,,,1.0,floor
+0321362AR,Cupressus sempervirens 'Stricta',False,Pg Vall d'Hebron,,53.35,no_facade,9.2,check,,,,,1.0,floor
+0323959AR,Celtis australis,False,C\ Jorge Manrique,,46.28,no_facade,,check,,,,,1.0,floor
+0329592AR,Casuarina cunninghamiana,False,C\ Granja Vella,,50.09,no_facade,6.18,check,,,,,1.0,floor
+0329593AR,Casuarina cunninghamiana,False,C\ Granja Vella,,47.97,no_facade,6.52,check,,,,,1.0,floor
+0335197AR,Robinia pseudoacacia,False,C\ Basses d'Horta,,12.47,median,,check,,,,,1.0,floor
+0344771AR,Taxus baccata,False,Av Martí-Codolar,,4.19,no_kerb,,check,,,,,1.0,floor
+0346557AR,Ligustrum lucidum,False,Pl Sibil·les,29.07,11.21,ok,,large,428886.0,4587090.38,428857.04,4587092.93,1.5,class
+0347068AR,Ulmus pumila,False,C\ Pare Mariana,,8.98,no_kerb,23.57,check,,,,,1.0,floor
+0347069AR,Ulmus pumila,False,C\ Pare Mariana,,9.71,median,22.51,check,,,,,1.0,floor
+0347437AR,Ulmus pumila,False,Pas Isadora Duncan,,26.79,median,,check,,,,,1.0,floor
+0347438AR,Ulmus pumila,False,Av Martí-Codolar,,21.21,median,19.94,check,,,,,1.0,floor
+0347572AR,Cupressus sempervirens,False,Av Martí-Codolar,,47.94,no_facade,,check,,,,,1.0,floor
+0347573AR,Ulmus pumila,False,Av Martí-Codolar,,52.84,no_facade,,check,,,,,1.0,floor
+0347574AR,Pinus pinea,False,Av Martí-Codolar,,24.42,median,,check,,,,,1.0,floor
+0347575AR,Pinus pinea,False,Av Martí-Codolar,,21.38,median,15.84,check,,,,,1.0,floor
+0347576AR,Pinus pinea,False,Av Martí-Codolar,,31.84,no_facade,18.27,check,,,,,1.0,floor
+0347577AR,Pinus pinea,False,Av Martí-Codolar,,27.91,median,,check,,,,,1.0,floor
+0347578AR,Populus nigra,False,Av Martí-Codolar,,39.0,no_facade,11.41,check,,,,,1.0,floor
+0347579AR,Pinus pinea,False,Av Martí-Codolar,,43.06,no_facade,11.8,check,,,,,1.0,floor
+0347580AR,Pinus pinea,False,Av Martí-Codolar,,50.07,no_facade,13.16,check,,,,,1.0,floor
+0347581AR,Pinus pinea,False,Av Martí-Codolar,,51.53,no_facade,,check,,,,,1.0,floor

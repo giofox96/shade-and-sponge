@@ -1,0 +1,683 @@
+tree_id,species,is_plane,street,width_m,facade_dist_m,flag,strip_width_m,size_class,ray_x0,ray_y0,ray_x1,ray_y1,pit_min_m2,pit_basis
+0083606AR,Platanus × acerifolia,True,G.V. Corts Catalanes,8.09,7.02,ok,,large,428552.62,4580416.56,428546.94,4580422.32,1.5,class
+0083607AR,Styphnolobium japonicum,False,C\ Sant Fructuós,3.56,2.41,ok,,medium,428374.71,4580124.93,428372.2,4580127.45,1.0,class
+0083609AR,Jacaranda mimosifolia,False,C\ Font Florida,,53.27,no_facade,,check,,,,,1.0,floor
+0083610AR,Celtis australis,False,C\ Montfar,,13.45,median,,check,,,,,1.0,floor
+0083611AR,Jacaranda mimosifolia,False,C\ Font Florida,,61.2,no_facade,4.28,check,,,,,1.0,floor
+0083612AR,Platanus × acerifolia,True,Av Francesc Ferrer i Guàrdia,27.35,10.92,ok,,large,428843.89,4580205.14,428871.21,4580203.9,1.5,class
+0083613AR,Ulmus minor 'Umbraculifera',False,C\ Valls,3.87,3.47,ok,,medium,428699.04,4580258.82,428700.84,4580255.39,1.0,class
+0083614AR,Jacaranda mimosifolia,False,C\ Font Florida,,55.54,no_facade,3.83,check,,,,,1.0,floor
+0083615AR,Celtis australis,False,C\ Montfar,3.94,3.46,ok,,medium,428719.78,4580224.33,428719.12,4580220.44,1.0,class
+0083616AR,Styphnolobium japonicum,False,C\ Mandoni,2.82,1.72,ok,,small,428288.65,4580130.63,428286.63,4580128.66,1.0,class
+0083618AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,15.67,median,2.3,check,,,,,1.0,floor
+0083620AR,Koelreuteria paniculata 'Fastigiata',False,C\ Sant Fructuós,3.57,2.42,ok,,medium,428676.94,4580366.3,428674.61,4580369.0,1.0,class
+0083621AR,Platanus × acerifolia,True,G.V. Corts Catalanes,8.75,7.72,ok,,large,428191.08,4580062.33,428187.3,4580070.22,1.5,class
+0083622AR,Styphnolobium japonicum,False,C\ Sant Fructuós,3.4,2.66,ok,,small,428623.97,4580343.51,428626.14,4580340.89,1.0,class
+0083624AR,Styphnolobium japonicum,False,C\ Sant Fructuós,4.17,3.51,ok,,medium,428269.29,4580046.66,428271.44,4580043.08,1.0,class
+0083626AR,Prunus cerasifera 'Pissardii',False,C\ Chopin,4.06,3.82,ok,,medium,428657.54,4580249.75,428655.61,4580246.17,1.0,class
+0083627AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,14.82,median,1.85,check,,,,,1.0,floor
+0083628AR,Celtis australis,False,C\ Polvorí,,19.44,median,3.86,check,,,,,1.0,floor
+0083629AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,15.43,median,2.06,check,,,,,1.0,floor
+0083634AR,Celtis australis,False,C\ Chopin,,13.19,median,,check,,,,,1.0,floor
+0083636AR,Styphnolobium japonicum,False,C\ Santa Dorotea,3.54,1.89,ok,,medium,428589.19,4580319.51,428586.68,4580317.02,1.0,class
+0083637AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,14.65,median,1.98,check,,,,,1.0,floor
+0083639AR,Celtis australis,False,C\ Montfar,6.21,5.44,ok,,large,428716.19,4580206.55,428717.47,4580212.64,1.5,class
+0083640AR,Platanus × acerifolia,True,G.V. Corts Catalanes,8.55,7.48,ok,,large,428381.65,4580248.63,428375.75,4580254.82,1.5,class
+0083642AR,Platanus × acerifolia,True,G.V. Corts Catalanes,9.42,7.87,ok,,large,428597.26,4580460.12,428594.25,4580469.05,1.5,class
+0083643AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,14.44,median,3.69,check,,,,,1.0,floor
+0083644AR,Platanus × acerifolia,True,G.V. Corts Catalanes,7.92,6.65,ok,,large,428587.76,4580451.18,428582.2,4580456.82,1.5,class
+0083645AR,Styphnolobium japonicum,False,C\ Sant Fructuós,3.49,2.31,ok,,small,428304.53,4580056.61,428302.1,4580059.12,1.0,class
+0083647AR,Jacaranda mimosifolia,False,C\ Font Florida,,19.15,median,4.13,check,,,,,1.0,floor
+0083648AR,Celtis australis,False,C\ Montfar,,13.68,median,,check,,,,,1.0,floor
+0083650AR,Ginkgo biloba 'Fastigiata Blagon',False,C\ Gimbernat,3.59,2.91,ok,,medium,428842.25,4580406.89,428844.79,4580404.35,1.0,class
+0083651AR,Styphnolobium japonicum,False,C\ Sant Fructuós,3.25,2.71,ok,,small,428375.56,4580149.83,428377.82,4580147.5,1.0,class
+0083652AR,Styphnolobium japonicum,False,C\ Sant Fructuós,3.27,2.11,ok,,small,428690.24,4580377.78,428688.1,4580380.25,1.0,class
+0083653AR,Styphnolobium japonicum,False,C\ Santa Dorotea,3.63,3.03,ok,,medium,428561.54,4580330.35,428564.13,4580332.89,1.0,class
+0083655AR,Styphnolobium japonicum,False,C\ Sant Fructuós,3.63,2.83,ok,,medium,428355.88,4580106.26,428353.35,4580108.88,1.0,class
+0083656AR,Platanus × acerifolia,True,Av Francesc Ferrer i Guàrdia,,14.96,no_kerb,,check,,,,,1.0,floor
+0083657AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,14.39,median,1.98,check,,,,,1.0,floor
+0083658AR,Styphnolobium japonicum,False,C\ Sant Fructuós,3.55,3.42,ok,,medium,428291.1,4580067.33,428293.58,4580064.79,1.0,class
+0083659AR,Prunus cerasifera 'Pissardii',False,C\ Mèxic,3.5,2.87,ok,,medium,428733.71,4580535.72,428736.2,4580538.17,1.0,class
+0083662AR,Ginkgo biloba 'Fastigiata Blagon',False,C\ Gimbernat,3.19,2.01,ok,,small,428798.58,4580363.26,428800.83,4580361.01,1.0,class
+0083663AR,Pinus pinea,False,C\ Polvorí,,24.33,median,15.31,check,,,,,1.0,floor
+0083664AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,14.05,median,1.99,check,,,,,1.0,floor
+0083665AR,Pinus pinea,False,C\ Polvorí,,39.21,no_facade,17.53,check,,,,,1.0,floor
+0083666AR,Tipuana tipu,False,C\ Mineria,5.95,5.37,ok,,medium,428112.56,4579923.29,428106.87,4579925.0,1.0,class
+0083667AR,Platanus × acerifolia,True,Av Francesc Ferrer i Guàrdia,,11.82,no_kerb,36.73,check,,,,,1.0,floor
+0083668AR,Styphnolobium japonicum,False,C\ Santa Dorotea,3.55,3.0,ok,,medium,428571.92,4580319.85,428574.44,4580322.35,1.0,class
+0083669AR,Platanus × acerifolia,True,G.V. Corts Catalanes,8.5,7.27,ok,,large,428375.53,4580242.79,428369.66,4580248.93,1.5,class
+0083670AR,Styphnolobium japonicum,False,Av Francesc Ferrer i Guàrdia,20.37,17.56,ok,,large,428618.46,4580136.58,428606.65,4580119.99,1.5,class
+0083674AR,Pyrus calleryana 'Chanticleer',False,C\ Sant Germà,3.79,3.12,ok,,medium,428614.33,4580423.08,428617.94,4580424.26,1.0,class
+0083675AR,Jacaranda mimosifolia,False,C\ Font Florida,,50.18,no_facade,4.35,check,,,,,1.0,floor
+0083676AR,Styphnolobium japonicum,False,C\ Santa Dorotea,6.17,5.65,ok,,large,428557.02,4580356.16,428552.56,4580351.89,1.5,class
+0083677AR,Prunus cerasifera 'Pissardii',False,C\ Morabos,3.35,2.42,ok,,small,428816.37,4580315.84,428818.77,4580318.18,1.0,class
+0083678AR,Celtis australis,False,C\ Montfar,6.65,5.37,ok,,large,428676.15,4580219.35,428679.01,4580225.36,1.5,class
+0083681AR,Jacaranda mimosifolia,False,C\ Font Florida,,31.32,no_facade,4.23,check,,,,,1.0,floor
+0083682AR,Styphnolobium japonicum,False,C\ Sant Fructuós,3.44,2.48,ok,,small,428715.81,4580399.25,428713.6,4580401.88,1.0,class
+0083684AR,Celtis australis,False,C\ Montfar,6.84,5.68,ok,,large,428687.92,4580213.73,428690.87,4580219.91,1.5,class
+0083685AR,Platanus × acerifolia,True,G.V. Corts Catalanes,8.24,6.99,ok,,large,428323.41,4580191.8,428317.63,4580197.67,1.5,class
+0083686AR,Tipuana tipu,False,C\ Mineria,,21.92,median,,check,,,,,1.0,floor
+0083687AR,Styphnolobium japonicum,False,C\ Santa Dorotea,3.4,1.76,ok,,small,428515.79,4580377.23,428518.22,4580379.6,1.0,class
+0083688AR,Platanus × acerifolia,True,Av Francesc Ferrer i Guàrdia,,20.42,median,,check,,,,,1.0,floor
+0083689AR,Pinus halepensis,False,C\ Polvorí,,36.67,no_facade,15.85,check,,,,,1.0,floor
+0083690AR,Platanus × acerifolia,True,G.V. Corts Catalanes,8.12,7.14,ok,,large,428434.37,4580300.67,428428.47,4580306.25,1.5,class
+0083691AR,Pinus pinea,False,C\ Polvorí,,43.5,no_facade,18.4,check,,,,,1.0,floor
+0083692AR,Platanus × acerifolia,True,Av Francesc Ferrer i Guàrdia,,30.87,no_facade,36.57,check,,,,,1.0,floor
+0083693AR,Styphnolobium japonicum,False,C\ Sant Fructuós,5.11,4.42,ok,,medium,428380.56,4580155.2,428385.67,4580155.2,1.0,class
+0083694AR,Styphnolobium japonicum,False,Av Francesc Ferrer i Guàrdia,,11.3,no_kerb,,check,,,,,1.0,floor
+0083695AR,Brachychiton populneus,False,C\ Nord,,4.46,no_kerb,41.67,check,,,,,1.0,floor
+0083696AR,Celtis australis,False,C\ Montfar,10.6,8.83,ok,,large,428724.64,4580204.78,428732.81,4580211.54,1.5,class
+0083699AR,Platanus × acerifolia,True,G.V. Corts Catalanes,7.57,6.63,ok,,large,428627.76,4580489.78,428622.46,4580495.18,1.5,class
+0083701AR,Styphnolobium japonicum,False,C\ Sant Fructuós,3.4,2.66,ok,,small,428606.22,4580328.84,428608.38,4580326.22,1.0,class
+0083702AR,Prunus cerasifera 'Pissardii',False,C\ Morabos,3.3,2.63,ok,,small,428829.73,4580302.18,428832.09,4580304.49,1.0,class
+0083703AR,Styphnolobium japonicum,False,C\ Sant Fructuós,3.46,2.55,ok,,small,428334.0,4580109.19,428336.39,4580106.68,1.0,class
+0083705AR,Celtis australis,False,C\ Montfar,10.38,8.54,ok,,large,428670.62,4580222.6,428665.67,4580231.73,1.5,class
+0083706AR,Prunus cerasifera 'Pissardii',False,C\ Mèxic,3.58,2.79,ok,,medium,428823.53,4580443.75,428826.1,4580446.25,1.0,class
+0083707AR,Prunus cerasifera 'Pissardii',False,C\ Chopin,4.18,4.0,ok,,medium,428648.76,4580254.48,428646.77,4580250.8,1.0,class
+0083708AR,Jacaranda mimosifolia,False,C\ Font Florida,,37.23,no_facade,4.4,check,,,,,1.0,floor
+0083709AR,Platanus × acerifolia,True,Av Francesc Ferrer i Guàrdia,,27.31,no_kerb,,check,,,,,1.0,floor
+0083710AR,Platanus × acerifolia,True,G.V. Corts Catalanes,8.34,6.99,ok,,large,428246.19,4580116.21,428240.34,4580122.15,1.5,class
+0083711AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,15.27,median,2.32,check,,,,,1.0,floor
+0083712AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,15.06,median,1.99,check,,,,,1.0,floor
+0083714AR,Styphnolobium japonicum,False,C\ Sant Fructuós,3.67,2.78,ok,,medium,428359.92,4580110.19,428357.33,4580112.79,1.0,class
+0083715AR,Platanus × acerifolia,True,G.V. Corts Catalanes,6.91,6.04,ok,,large,428644.81,4580506.46,428639.99,4580511.4,1.5,class
+0083716AR,Celtis australis,False,C\ Montfar,6.68,5.48,ok,,large,428681.69,4580216.7,428684.57,4580222.73,1.5,class
+0083717AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,18.74,median,2.07,check,,,,,1.0,floor
+0083718AR,Styphnolobium japonicum 'Columnare',False,Av Francesc Ferrer i Guàrdia,,39.7,no_facade,,check,,,,,1.0,floor
+0083719AR,Celtis australis,False,C\ Montfar,15.67,11.58,ok,,large,428776.21,4580214.65,428760.55,4580215.18,1.5,class
+0083721AR,Styphnolobium japonicum,False,C\ Santa Dorotea,3.39,2.68,ok,,small,428574.12,4580334.71,428571.74,4580332.3,1.0,class
+0083722AR,Styphnolobium japonicum,False,C\ Sant Fructuós,3.35,2.53,ok,,small,428338.66,4580113.61,428340.96,4580111.19,1.0,class
+0083723AR,Prunus cerasifera 'Pissardii',False,C\ Mèxic,3.61,2.76,ok,,medium,428813.98,4580453.58,428816.57,4580456.1,1.0,class
+0083724AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,17.01,median,2.0,check,,,,,1.0,floor
+0083725AR,Celtis australis,False,C\ Rabí Rubèn,4.0,3.04,ok,,medium,428723.48,4580228.8,428726.96,4580230.76,1.0,class
+0083726AR,Styphnolobium japonicum,False,C\ Sant Fructuós,3.58,2.24,ok,,medium,428765.94,4580445.34,428763.35,4580447.82,1.0,class
+0083727AR,Celtis australis,False,C\ Rabí Rubèn,4.0,3.2,ok,,medium,428720.44,4580234.23,428723.93,4580236.18,1.0,class
+0083728AR,Jacaranda mimosifolia,False,C\ Font Florida,,14.0,median,4.16,check,,,,,1.0,floor
+0083729AR,Jacaranda mimosifolia,False,C\ Font Florida,,36.16,no_facade,4.36,check,,,,,1.0,floor
+0083730AR,Acer negundo,False,C\ Mandoni,2.82,1.69,ok,,small,428284.3,4580135.1,428282.28,4580133.13,1.0,class
+0083731AR,Pinus halepensis,False,C\ Polvorí,,30.51,no_facade,15.96,check,,,,,1.0,floor
+0083732AR,Pinus halepensis,False,C\ Polvorí,,53.07,no_facade,15.67,check,,,,,1.0,floor
+0083734AR,Brachychiton populneus,False,C\ Nord,,4.24,no_kerb,,check,,,,,1.0,floor
+0083735AR,Prunus cerasifera 'Pissardii',False,C\ Morabos,3.25,2.09,ok,,small,428765.0,4580368.7,428767.31,4580370.98,1.0,class
+0083736AR,Styphnolobium japonicum,False,C\ Santa Dorotea,3.61,3.07,ok,,medium,428556.26,4580335.75,428558.84,4580338.27,1.0,class
+0083737AR,Celtis australis,False,C\ Montfar,5.75,4.5,ok,,medium,428800.95,4580228.06,428798.21,4580233.11,1.0,class
+0083738AR,Styphnolobium japonicum,False,C\ Sant Fructuós,3.4,2.65,ok,,small,428670.1,4580382.38,428672.29,4580379.78,1.0,class
+0083739AR,Celtis australis,False,C\ Mineria,16.83,14.96,ok,,large,428136.83,4580000.1,428124.85,4579988.28,1.5,class
+0083740AR,Pyrus calleryana 'Chanticleer',False,C\ Sant Germà,3.63,2.9,ok,,medium,428625.32,4580389.32,428628.77,4580390.45,1.0,class
+0083741AR,Platanus × acerifolia,True,Av Francesc Ferrer i Guàrdia,,10.11,no_kerb,,check,,,,,1.0,floor
+0083744AR,Celtis australis,False,C\ Montfar,5.72,4.23,ok,,medium,428790.01,4580222.13,428787.28,4580227.16,1.0,class
+0083745AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,13.9,median,1.96,check,,,,,1.0,floor
+0083746AR,Styphnolobium japonicum,False,C\ Sant Fructuós,3.28,2.26,ok,,small,428357.14,4580131.73,428359.45,4580129.4,1.0,class
+0083747AR,Jacaranda mimosifolia,False,C\ Font Florida,,63.91,no_facade,4.34,check,,,,,1.0,floor
+0083749AR,Celtis australis,False,C\ Rabí Rubèn,4.01,2.85,ok,,medium,428717.27,4580239.9,428720.77,4580241.85,1.0,class
+0083750AR,Celtis australis,False,C\ Rabí Rubèn,3.05,2.24,ok,,small,428734.93,4580235.05,428732.28,4580233.55,1.0,class
+0083751AR,Ginkgo biloba 'Fastigiata Blagon',False,C\ Gimbernat,3.32,2.48,ok,,small,428806.6,4580371.28,428808.95,4580368.93,1.0,class
+0083752AR,Platanus × acerifolia,True,Av Francesc Ferrer i Guàrdia,,29.17,median,,check,,,,,1.0,floor
+0083753AR,Tipuana tipu,False,C\ Mineria,,24.81,median,,check,,,,,1.0,floor
+0083754AR,Prunus cerasifera 'Pissardii',False,C\ Gimbernat,3.47,2.68,ok,,small,428833.7,4580398.35,428836.16,4580395.89,1.0,class
+0083756AR,Styphnolobium japonicum 'Columnare',False,Av Francesc Ferrer i Guàrdia,,36.96,no_facade,,check,,,,,1.0,floor
+0083758AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,15.33,median,1.97,check,,,,,1.0,floor
+0083759AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,17.81,median,3.7,check,,,,,1.0,floor
+0083760AR,Platanus × acerifolia,True,G.V. Corts Catalanes,8.01,6.51,ok,,large,428570.02,4580433.71,428564.4,4580439.41,1.5,class
+0083761AR,Platanus × acerifolia,True,Av Francesc Ferrer i Guàrdia,,17.87,median,15.19,check,,,,,1.0,floor
+0083763AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,14.46,median,2.0,check,,,,,1.0,floor
+0083764AR,Pyrus calleryana 'Chanticleer',False,C\ Sant Germà,3.87,3.23,ok,,medium,428605.28,4580451.03,428608.96,4580452.2,1.0,class
+0083766AR,Styphnolobium japonicum,False,C\ Sant Fructuós,3.47,2.66,ok,,small,428276.44,4580029.2,428274.02,4580031.69,1.0,class
+0083767AR,Styphnolobium japonicum,False,C\ Sant Fructuós,3.39,2.8,ok,,small,428726.54,4580430.68,428728.82,4580428.16,1.0,class
+0083768AR,Pinus pinea,False,C\ Polvorí,,50.06,no_facade,3.79,check,,,,,1.0,floor
+0083769AR,Styphnolobium japonicum,False,C\ Sant Paulí de Nola,2.92,1.49,ok,,small,428433.44,4580258.66,428435.53,4580260.7,1.0,class
+0083770AR,Styphnolobium japonicum,False,C\ Sant Paulí de Nola,2.69,1.4,ok,,small,428460.15,4580252.8,428458.23,4580250.92,1.0,class
+0083772AR,Celtis australis,False,C\ Mineria,26.66,25.0,ok,,large,428141.34,4579995.53,428122.36,4579976.8,1.5,class
+0083774AR,Koelreuteria paniculata 'Fastigiata',False,C\ Sant Fructuós,3.4,2.67,ok,,small,428246.26,4580023.15,428248.65,4580020.74,1.0,class
+0083775AR,Platanus × acerifolia,True,G.V. Corts Catalanes,8.56,7.13,ok,,large,428209.33,4580080.04,428204.71,4580087.24,1.5,class
+0083776AR,Platanus × acerifolia,True,Av Francesc Ferrer i Guàrdia,,39.37,no_facade,38.11,check,,,,,1.0,floor
+0083778AR,Pinus pinea,False,C\ Polvorí,,31.37,no_facade,13.56,check,,,,,1.0,floor
+0083779AR,Jacaranda mimosifolia,False,C\ Font Florida,,44.18,no_facade,,check,,,,,1.0,floor
+0083780AR,Prunus cerasifera 'Pissardii',False,C\ Sant Paulí de Nola,2.66,1.71,ok,,small,428468.42,4580244.31,428466.52,4580242.45,1.0,class
+0083782AR,Pyrus calleryana 'Chanticleer',False,C\ Morabos,3.21,2.38,ok,,small,428740.31,4580393.81,428742.61,4580396.05,1.0,class
+0083783AR,Platanus × acerifolia,True,G.V. Corts Catalanes,8.41,7.55,ok,,large,428185.97,4580057.28,428180.99,4580064.06,1.5,class
+0083784AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,14.47,median,1.99,check,,,,,1.0,floor
+0083786AR,Styphnolobium japonicum,False,C\ Sant Fructuós,3.55,2.42,ok,,medium,428610.85,4580310.73,428608.8,4580313.62,1.0,class
+0083787AR,Tipuana tipu,False,C\ Mineria,6.13,5.57,ok,,large,428098.33,4579877.05,428092.48,4579878.88,1.5,class
+0083788AR,Prunus cerasifera 'Pissardii',False,C\ Morabos,3.42,2.86,ok,,small,428802.15,4580330.39,428804.6,4580332.78,1.0,class
+0083789AR,Platanus × acerifolia,True,Av Francesc Ferrer i Guàrdia,,32.57,no_facade,,check,,,,,1.0,floor
+0083790AR,Celtis australis,False,C\ Montfar,6.32,5.15,ok,,large,428702.29,4580209.47,428703.59,4580215.66,1.5,class
+0083791AR,Pinus halepensis,False,C\ Polvorí,,22.18,median,14.55,check,,,,,1.0,floor
+0083792AR,Styphnolobium japonicum,False,C\ Sant Fructuós,3.6,2.46,ok,,medium,428616.05,4580314.49,428613.73,4580317.25,1.0,class
+0083794AR,Platanus × acerifolia,True,G.V. Corts Catalanes,6.49,5.42,ok,,large,428654.64,4580516.05,428650.1,4580520.7,1.5,class
+0083795AR,Styphnolobium japonicum,False,C\ Sant Fructuós,3.46,2.72,ok,,small,428280.54,4580033.22,428278.11,4580035.69,1.0,class
+0083798AR,Platanus × acerifolia,True,Av Francesc Ferrer i Guàrdia,,12.35,no_kerb,,check,,,,,1.0,floor
+0083799AR,Celtis australis,False,C\ Rabí Rubèn,4.04,2.81,ok,,medium,428726.48,4580223.43,428730.27,4580224.82,1.0,class
+0083800AR,Celtis australis,False,C\ Montfar,6.08,4.85,ok,,large,428709.9,4580207.88,428711.15,4580213.82,1.5,class
+0083801AR,Tipuana tipu,False,C\ Mineria,6.1,5.64,ok,,large,428103.72,4579894.26,428097.9,4579896.08,1.5,class
+0083802AR,Jacaranda mimosifolia,False,C\ Font Florida,,70.76,no_facade,4.4,check,,,,,1.0,floor
+0083803AR,Celtis australis,False,C\ Montfar,3.91,3.48,ok,,medium,428726.05,4580223.47,428725.65,4580219.59,1.0,class
+0083804AR,Styphnolobium japonicum,False,C\ Sant Fructuós,3.47,2.94,ok,,small,428293.81,4580046.18,428291.4,4580048.66,1.0,class
+0083806AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,14.78,median,3.81,check,,,,,1.0,floor
+0083807AR,Brachychiton populneus,False,C\ Nord,,4.19,no_kerb,,check,,,,,1.0,floor
+0083808AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,14.18,median,2.03,check,,,,,1.0,floor
+0083810AR,Ulmus minor 'Umbraculifera',False,C\ Valls,4.64,4.19,ok,,medium,428701.41,4580260.07,428705.47,4580257.82,1.0,class
+0083811AR,Prunus cerasifera 'Pissardii',False,C\ Sant Paulí de Nola,4.88,4.38,ok,,medium,428446.27,4580245.54,428449.75,4580248.96,1.0,class
+0083812AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,14.37,median,1.98,check,,,,,1.0,floor
+0083813AR,Brachychiton acerifolius,False,C\ Valls,3.87,3.74,ok,,medium,428681.06,4580249.39,428682.86,4580245.96,1.0,class
+0083814AR,Styphnolobium japonicum,False,C\ Sant Fructuós,3.55,2.86,ok,,medium,428774.71,4580454.47,428772.15,4580456.93,1.0,class
+0083815AR,Jacaranda mimosifolia,False,C\ Font Florida,,66.92,no_facade,4.23,check,,,,,1.0,floor
+0083816AR,Platanus × acerifolia,True,C\ Mandoni,,22.9,median,1.95,check,,,,,1.0,floor
+0083817AR,Platanus × acerifolia,True,G.V. Corts Catalanes,4.77,4.12,ok,,medium,428681.91,4580543.13,428678.57,4580546.53,1.0,class
+0083820AR,Koelreuteria paniculata 'Fastigiata',False,C\ Sant Fructuós,4.76,4.33,ok,,medium,428271.89,4580050.11,428275.69,4580047.25,1.0,class
+0083821AR,Celtis australis,False,C\ Montfar,5.71,4.25,ok,,medium,428784.62,4580219.21,428781.89,4580224.23,1.0,class
+0083822AR,Platanus × acerifolia,True,Av Francesc Ferrer i Guàrdia,,34.03,no_facade,41.49,check,,,,,1.0,floor
+0083824AR,Platanus × acerifolia,True,Av Francesc Ferrer i Guàrdia,,41.11,no_facade,,check,,,,,1.0,floor
+0083825AR,Celtis australis,False,C\ Chopin,,13.18,median,,check,,,,,1.0,floor
+0083826AR,Jacaranda mimosifolia,False,C\ Font Florida,,30.09,no_facade,4.27,check,,,,,1.0,floor
+0083827AR,Pyrus calleryana 'Chanticleer',False,C\ Morabos,3.17,2.22,ok,,small,428731.55,4580402.79,428733.82,4580405.0,1.0,class
+0083831AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,14.21,median,2.01,check,,,,,1.0,floor
+0083832AR,Styphnolobium japonicum,False,Av Francesc Ferrer i Guàrdia,,31.54,no_facade,,check,,,,,1.0,floor
+0083833AR,Jacaranda mimosifolia,False,C\ Font Florida,,52.12,no_facade,3.96,check,,,,,1.0,floor
+0083835AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,14.48,median,1.99,check,,,,,1.0,floor
+0083836AR,Platanus × acerifolia,True,G.V. Corts Catalanes,8.19,6.64,ok,,large,428139.56,4580011.95,428133.85,4580017.81,1.5,class
+0083837AR,Tipuana tipu,False,C\ Mineria,5.99,5.74,ok,,medium,428110.84,4579917.52,428105.1,4579919.24,1.0,class
+0083838AR,Tipuana tipu,False,C\ Mineria,6.04,5.27,ok,,large,428087.45,4579842.49,428081.7,4579844.34,1.5,class
+0083839AR,Platanus × acerifolia,True,Av Francesc Ferrer i Guàrdia,,37.73,no_facade,42.28,check,,,,,1.0,floor
+0083840AR,Celtis australis,False,C\ Mineria,6.03,5.6,ok,,large,428121.32,4579951.5,428115.56,4579953.29,1.5,class
+0083842AR,Jacaranda mimosifolia,False,C\ Font Florida,,23.95,median,4.22,check,,,,,1.0,floor
+0083843AR,Pinus halepensis,False,C\ Polvorí,,44.34,no_facade,18.19,check,,,,,1.0,floor
+0083844AR,Platanus × acerifolia,True,Av Francesc Ferrer i Guàrdia,,39.6,no_facade,,check,,,,,1.0,floor
+0083845AR,Platanus × acerifolia,True,G.V. Corts Catalanes,9.45,8.41,ok,,large,428206.85,4580076.39,428199.03,4580081.69,1.5,class
+0083849AR,Styphnolobium japonicum,False,C\ Sant Paulí de Nola,10.83,6.51,ok,,large,428433.57,4580283.92,428422.73,4580283.95,1.5,class
+0083851AR,Styphnolobium japonicum,False,C\ Sant Fructuós,3.57,3.01,ok,,medium,428350.78,4580101.33,428348.3,4580103.89,1.0,class
+0083852AR,Styphnolobium japonicum,False,C\ Sant Fructuós,3.38,2.41,ok,,small,428681.68,4580392.15,428683.86,4580389.57,1.0,class
+0083853AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,15.21,median,2.23,check,,,,,1.0,floor
+0083854AR,Brachychiton acerifolius,False,C\ Valls,3.87,3.36,ok,,medium,428689.94,4580254.05,428691.74,4580250.62,1.0,class
+0083855AR,Celtis australis,False,C\ Montfar,3.91,3.18,ok,,medium,428713.45,4580225.5,428712.64,4580221.68,1.0,class
+0083856AR,Tipuana tipu,False,C\ Mineria,5.99,5.46,ok,,medium,428085.6,4579836.74,428079.9,4579838.57,1.0,class
+0083857AR,Pinus halepensis,False,C\ Polvorí,,22.39,median,15.08,check,,,,,1.0,floor
+0083859AR,Platanus × acerifolia,True,Av Francesc Ferrer i Guàrdia,,17.22,no_kerb,,check,,,,,1.0,floor
+0083861AR,Celtis australis,False,C\ Montfar,5.73,4.35,ok,,medium,428795.86,4580225.3,428793.12,4580230.34,1.0,class
+0083862AR,Platanus × acerifolia,True,Av Francesc Ferrer i Guàrdia,,27.18,median,,check,,,,,1.0,floor
+0083863AR,Jacaranda mimosifolia,False,C\ Font Florida,,50.13,no_facade,4.12,check,,,,,1.0,floor
+0083864AR,Platanus × acerifolia,True,G.V. Corts Catalanes,8.27,6.94,ok,,large,428304.4,4580173.2,428298.64,4580179.14,1.5,class
+0083865AR,Styphnolobium japonicum,False,C\ Sant Fructuós,3.57,2.43,ok,,medium,428596.83,4580321.61,428598.93,4580318.73,1.0,class
+0083866AR,Robinia pseudoacacia,False,C\ Sant Paulí de Nola,10.8,5.97,ok,,large,428418.53,4580269.67,428418.6,4580280.47,1.5,class
+0083867AR,Platanus × acerifolia,True,G.V. Corts Catalanes,8.12,7.23,ok,,large,428546.58,4580410.62,428540.89,4580416.4,1.5,class
+0083868AR,Platanus × acerifolia,True,Av Francesc Ferrer i Guàrdia,,35.37,no_facade,40.88,check,,,,,1.0,floor
+0083869AR,Prunus cerasifera 'Pissardii',False,C\ Mèxic,3.49,2.74,ok,,small,428770.19,4580498.54,428772.68,4580500.99,1.0,class
+0083871AR,Styphnolobium japonicum,False,C\ Santa Dorotea,3.42,2.45,ok,,small,428531.4,4580361.31,428533.85,4580363.7,1.0,class
+0083872AR,Tipuana tipu,False,C\ Mineria,5.88,5.34,ok,,medium,428082.02,4579825.6,428076.43,4579827.39,1.0,class
+0083873AR,Tipuana tipu,False,C\ Mineria,,24.38,median,,check,,,,,1.0,floor
+0083875AR,Tipuana tipu,False,C\ Mineria,5.96,5.29,ok,,medium,428114.26,4579928.77,428108.57,4579930.54,1.0,class
+0083876AR,Styphnolobium japonicum,False,C\ Sant Fructuós,3.31,2.61,ok,,small,428366.16,4580140.66,428368.49,4580138.31,1.0,class
+0083878AR,Pyrus calleryana 'Chanticleer',False,C\ Morabos,3.22,2.26,ok,,small,428748.78,4580385.18,428751.07,4580387.43,1.0,class
+0083882AR,Platanus × acerifolia,True,G.V. Corts Catalanes,8.29,7.29,ok,,large,428282.97,4580152.4,428276.66,4580157.78,1.5,class
+0083883AR,Styphnolobium japonicum,False,C\ Sant Fructuós,3.48,2.33,ok,,small,428297.83,4580050.09,428295.4,4580052.58,1.0,class
+0083885AR,Pyrus calleryana 'Chanticleer',False,C\ Sant Germà,2.76,2.57,ok,,small,428634.05,4580400.59,428631.43,4580399.73,1.0,class
+0083886AR,Platanus × acerifolia,True,Av Francesc Ferrer i Guàrdia,,30.74,no_facade,,check,,,,,1.0,floor
+0083887AR,Jacaranda mimosifolia,False,C\ Font Florida,,69.0,no_facade,4.15,check,,,,,1.0,floor
+0083888AR,Platanus × acerifolia,True,G.V. Corts Catalanes,8.14,7.01,ok,,large,428228.39,4580099.04,428222.77,4580104.93,1.5,class
+0083889AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,14.28,median,2.0,check,,,,,1.0,floor
+0083891AR,Tipuana tipu,False,C\ Mineria,6.07,5.92,ok,,large,428107.43,4579906.16,428101.62,4579907.9,1.5,class
+0083893AR,Pinus halepensis,False,C\ Polvorí,,9.42,median,4.32,check,,,,,1.0,floor
+0083894AR,Pinus halepensis,False,C\ Polvorí,,22.07,median,16.28,check,,,,,1.0,floor
+0083895AR,Prunus cerasifera 'Pissardii',False,C\ Chopin,4.12,4.07,ok,,medium,428640.06,4580259.18,428638.11,4580255.55,1.0,class
+0083896AR,Celtis australis,False,C\ Dàlia,5.3,4.69,ok,,medium,428823.91,4580228.6,428826.52,4580233.21,1.0,class
+0083897AR,Platanus × acerifolia,True,Av Francesc Ferrer i Guàrdia,,24.49,median,35.98,check,,,,,1.0,floor
+0083900AR,Styphnolobium japonicum,False,C\ Sant Fructuós,3.4,2.31,ok,,small,428710.98,4580417.11,428713.19,4580414.52,1.0,class
+0083901AR,Styphnolobium japonicum,False,C\ Santa Dorotea,3.5,2.51,ok,,medium,428584.21,4580324.54,428581.73,4580322.08,1.0,class
+0083902AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,14.16,median,2.0,check,,,,,1.0,floor
+0083903AR,Brachychiton populneus,False,C\ Nord,,4.48,no_kerb,,check,,,,,1.0,floor
+0083905AR,Platanus × acerifolia,True,G.V. Corts Catalanes,8.69,7.9,ok,,large,428399.51,4580265.69,428393.5,4580271.97,1.5,class
+0083906AR,Platanus × acerifolia,True,G.V. Corts Catalanes,4.41,3.51,ok,,medium,428688.03,4580549.14,428684.94,4580552.29,1.0,class
+0083907AR,Celtis australis,False,C\ Montfar,6.89,5.9,ok,,large,428695.65,4580210.87,428697.06,4580217.61,1.5,class
+0083909AR,Prunus cerasifera 'Pissardii',False,C\ Gimbernat,3.64,3.25,ok,,medium,428846.11,4580410.74,428848.69,4580408.16,1.0,class
+0083910AR,Prunus cerasifera 'Pissardii',False,C\ Gimbernat,3.47,2.47,ok,,small,428814.77,4580379.44,428817.22,4580376.99,1.0,class
+0083911AR,Platanus × acerifolia,True,G.V. Corts Catalanes,8.17,6.83,ok,,large,428534.92,4580399.13,428529.19,4580404.95,1.5,class
+0083912AR,Brachychiton acerifolius,False,C\ Valls,3.87,3.42,ok,,medium,428676.75,4580247.13,428678.55,4580243.7,1.0,class
+0083913AR,Styphnolobium japonicum,False,C\ Sant Fructuós,5.69,4.83,ok,,medium,428262.28,4580041.91,428267.0,4580038.73,1.0,class
+0083915AR,Celtis australis,False,C\ Rabí Rubèn,2.9,1.91,ok,,small,428725.38,4580251.88,428722.86,4580250.45,1.0,class
+0083916AR,Celtis australis,False,C\ Rabí Rubèn,4.02,2.89,ok,,medium,428714.15,4580245.47,428717.66,4580247.43,1.0,class
+0083917AR,Celtis australis,False,C\ Montfar,3.71,3.29,ok,,medium,428771.45,4580232.08,428773.21,4580228.81,1.0,class
+0083918AR,Platanus × acerifolia,True,G.V. Corts Catalanes,8.25,7.61,ok,,large,428482.0,4580347.04,428476.21,4580352.92,1.5,class
+0083919AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,14.93,median,2.02,check,,,,,1.0,floor
+0083920AR,Celtis australis,False,C\ Dàlia,4.84,4.17,ok,,medium,428831.32,4580222.3,428831.88,4580227.11,1.0,class
+0083922AR,Styphnolobium japonicum,False,C\ Santa Dorotea,3.42,2.94,ok,,small,428544.3,4580365.22,428541.85,4580362.84,1.0,class
+0083923AR,Platanus × acerifolia,True,G.V. Corts Catalanes,8.43,7.01,ok,,large,428451.86,4580317.37,428445.95,4580323.37,1.5,class
+0083924AR,Jacaranda mimosifolia,False,C\ Font Florida,,33.25,no_facade,4.21,check,,,,,1.0,floor
+0083925AR,Styphnolobium japonicum,False,C\ Sant Fructuós,3.44,2.71,ok,,small,428748.94,4580452.25,428751.41,4580449.87,1.0,class
+0083927AR,Tipuana tipu,False,C\ Mineria,5.94,5.03,ok,,medium,428083.56,4579830.37,428077.91,4579832.19,1.0,class
+0083928AR,Pinus halepensis,False,C\ Polvorí,,7.45,median,4.13,check,,,,,1.0,floor
+0083929AR,Styphnolobium japonicum,False,C\ Sant Fructuós,3.47,2.43,ok,,small,428681.38,4580370.13,428679.11,4580372.76,1.0,class
+0083930AR,Platanus × acerifolia,True,G.V. Corts Catalanes,8.22,7.32,ok,,large,428493.38,4580358.24,428487.61,4580364.1,1.5,class
+0083931AR,Jacaranda mimosifolia,False,C\ Font Florida,,54.5,no_facade,4.35,check,,,,,1.0,floor
+0083933AR,Styphnolobium japonicum,False,C\ Sant Fructuós,3.4,3.05,ok,,small,428619.67,4580339.95,428621.83,4580337.33,1.0,class
+0083934AR,Styphnolobium japonicum,False,C\ Mandoni,2.94,2.2,ok,,small,428305.28,4580113.73,428303.2,4580111.65,1.0,class
+0083935AR,Celtis australis,False,C\ Mineria,23.99,19.94,ok,,large,428121.32,4579951.53,428122.08,4579975.51,1.5,class
+0083936AR,Styphnolobium japonicum,False,C\ Sant Fructuós,3.52,2.76,ok,,medium,428600.88,4580324.58,428602.96,4580321.74,1.0,class
+0083937AR,Platanus × acerifolia,True,Av Francesc Ferrer i Guàrdia,,36.61,no_facade,37.72,check,,,,,1.0,floor
+0083938AR,Pyrus calleryana 'Chanticleer',False,C\ Morabos,3.19,2.3,ok,,small,428736.26,4580397.96,428738.54,4580400.19,1.0,class
+0083939AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,15.05,median,1.99,check,,,,,1.0,floor
+0083940AR,Styphnolobium japonicum,False,C\ Sant Fructuós,3.68,2.8,ok,,medium,428672.16,4580362.17,428669.76,4580364.95,1.0,class
+0083941AR,Platanus × acerifolia,True,Av Francesc Ferrer i Guàrdia,,28.07,median,35.57,check,,,,,1.0,floor
+0083943AR,Pyrus calleryana 'Chanticleer',False,C\ Morabos,3.24,2.28,ok,,small,428761.25,4580372.51,428763.56,4580374.79,1.0,class
+0083944AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,14.23,median,2.01,check,,,,,1.0,floor
+0083945AR,Jacaranda mimosifolia,False,C\ Font Florida,,58.92,no_facade,4.36,check,,,,,1.0,floor
+0083946AR,Pyrus calleryana 'Chanticleer',False,C\ Sant Germà,2.75,1.9,ok,,small,428631.94,4580407.11,428629.32,4580406.28,1.0,class
+0083947AR,Platanus × acerifolia,True,G.V. Corts Catalanes,8.48,7.64,ok,,large,428446.51,4580312.1,428440.56,4580318.14,1.5,class
+0083948AR,Jacaranda mimosifolia,False,C\ Font Florida,,37.12,no_facade,4.39,check,,,,,1.0,floor
+0083950AR,Platanus × acerifolia,True,Av Francesc Ferrer i Guàrdia,,37.6,no_facade,40.31,check,,,,,1.0,floor
+0083952AR,Platanus × acerifolia,True,G.V. Corts Catalanes,8.63,7.4,ok,,large,428221.81,4580092.21,428217.32,4580099.58,1.5,class
+0083953AR,Styphnolobium japonicum,False,C\ Sant Fructuós,3.51,2.61,ok,,medium,428308.87,4580060.83,428306.42,4580063.34,1.0,class
+0083954AR,Styphnolobium japonicum,False,C\ Sant Fructuós,3.49,2.4,ok,,small,428267.38,4580020.33,428264.93,4580022.82,1.0,class
+0083955AR,Tipuana tipu,False,C\ Mineria,6.1,5.07,ok,,large,428089.69,4579849.47,428083.88,4579851.34,1.5,class
+0083956AR,Platanus × acerifolia,True,G.V. Corts Catalanes,8.32,6.36,ok,,large,428252.33,4580122.25,428246.49,4580128.17,1.5,class
+0083957AR,Styphnolobium japonicum,False,C\ Sant Fructuós,3.48,2.06,ok,,small,428596.29,4580300.69,428594.08,4580303.37,1.0,class
+0083958AR,Styphnolobium japonicum,False,C\ Sant Fructuós,3.34,2.7,ok,,small,428733.32,4580436.81,428735.56,4580434.34,1.0,class
+0083959AR,Pyrus calleryana 'Chanticleer',False,C\ Morabos,3.23,2.6,ok,,small,428758.23,4580375.58,428760.53,4580377.85,1.0,class
+0083961AR,Platanus × acerifolia,True,Av Francesc Ferrer i Guàrdia,,18.9,median,,check,,,,,1.0,floor
+0083963AR,Jacaranda mimosifolia,False,C\ Font Florida,,50.28,no_facade,3.96,check,,,,,1.0,floor
+0083964AR,Pyrus calleryana 'Chanticleer',False,C\ Sant Germà,2.77,2.47,ok,,small,428624.59,4580430.01,428621.95,4580429.17,1.0,class
+0083965AR,Platanus × acerifolia,True,G.V. Corts Catalanes,5.96,4.94,ok,,medium,428663.85,4580525.19,428659.62,4580529.39,1.0,class
+0083966AR,Acer negundo,False,C\ Mandoni,3.03,2.72,ok,,small,428293.71,4580104.08,428295.86,4580106.21,1.0,class
+0083967AR,Styphnolobium japonicum,False,C\ Sant Fructuós,6.58,6.26,ok,,large,428303.25,4580080.74,428309.83,4580080.71,1.5,class
+0083968AR,Pinus halepensis,False,C\ Polvorí,,22.0,median,16.2,check,,,,,1.0,floor
+0083969AR,Styphnolobium japonicum,False,C\ Sant Fructuós,3.3,2.69,ok,,small,428371.34,4580145.75,428373.64,4580143.38,1.0,class
+0083970AR,Styphnolobium japonicum,False,C\ Sant Fructuós,3.57,2.96,ok,,medium,428286.8,4580063.14,428289.29,4580060.58,1.0,class
+0083971AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,15.0,median,3.82,check,,,,,1.0,floor
+0083973AR,Jacaranda mimosifolia,False,C\ Font Florida,,19.43,median,4.2,check,,,,,1.0,floor
+0083974AR,Styphnolobium japonicum,False,C\ Sant Fructuós,5.97,4.88,ok,,medium,428257.89,4580035.4,428257.52,4580029.44,1.0,class
+0083975AR,Styphnolobium japonicum,False,C\ Sant Fructuós,6.01,5.32,ok,,large,428340.26,4580091.15,428334.31,4580090.26,1.5,class
+0083976AR,Celtis australis,False,C\ Montfar,,13.15,median,,check,,,,,1.0,floor
+0083978AR,Platanus × acerifolia,True,Av Francesc Ferrer i Guàrdia,,36.59,no_facade,43.5,check,,,,,1.0,floor
+0083979AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,16.1,median,1.99,check,,,,,1.0,floor
+0083980AR,Platanus × acerifolia,True,G.V. Corts Catalanes,8.23,7.45,ok,,large,428505.05,4580369.73,428499.27,4580375.6,1.5,class
+0083981AR,Platanus × acerifolia,True,Av Francesc Ferrer i Guàrdia,,27.61,median,40.38,check,,,,,1.0,floor
+0083982AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,14.31,median,1.98,check,,,,,1.0,floor
+0083983AR,Styphnolobium japonicum,False,C\ Sant Fructuós,3.67,3.05,ok,,medium,428772.52,4580476.67,428775.15,4580474.12,1.0,class
+0083984AR,Celtis australis,False,C\ Rabí Rubèn,3.0,2.21,ok,,small,428731.81,4580240.54,428729.2,4580239.06,1.0,class
+0083987AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,14.99,median,2.02,check,,,,,1.0,floor
+0083988AR,Jacaranda mimosifolia,False,C\ Font Florida,,27.27,median,4.21,check,,,,,1.0,floor
+0083989AR,Styphnolobium japonicum 'Columnare',False,Av Francesc Ferrer i Guàrdia,,39.61,no_facade,,check,,,,,1.0,floor
+0083990AR,Styphnolobium japonicum,False,C\ Santa Dorotea,3.45,3.29,ok,,small,428534.87,4580374.85,428532.43,4580372.42,1.0,class
+0083991AR,Platanus × acerifolia,True,G.V. Corts Catalanes,8.0,7.03,ok,,large,428593.38,4580456.61,428588.02,4580462.55,1.5,class
+0083992AR,Prunus cerasifera 'Pissardii',False,C\ Mèxic,3.5,2.58,ok,,medium,428715.9,4580553.85,428718.4,4580556.3,1.0,class
+0083994AR,Platanus × acerifolia,True,G.V. Corts Catalanes,8.6,7.38,ok,,large,428387.57,4580254.28,428381.63,4580260.5,1.5,class
+0083995AR,Pyrus calleryana 'Chanticleer',False,C\ Sant Germà,3.82,2.9,ok,,medium,428612.44,4580428.89,428616.07,4580430.07,1.0,class
+0083996AR,Koelreuteria paniculata 'Fastigiata',False,C\ Sant Fructuós,3.53,3.0,ok,,medium,428295.39,4580071.5,428297.85,4580068.97,1.0,class
+0083997AR,Tipuana tipu,False,C\ Mineria,6.12,4.98,ok,,large,428093.28,4579860.91,428087.44,4579862.74,1.5,class
+0083998AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,14.29,median,1.96,check,,,,,1.0,floor
+0083999AR,Pinus halepensis,False,C\ Polvorí,,26.89,median,4.4,check,,,,,1.0,floor
+0084000AR,Platanus × acerifolia,True,G.V. Corts Catalanes,7.98,6.58,ok,,large,428575.66,4580439.26,428570.06,4580444.95,1.5,class
+0084001AR,Pyrus calleryana 'Chanticleer',False,C\ Morabos,3.11,2.03,ok,,small,428748.05,4580402.33,428745.85,4580400.13,1.0,class
+0084002AR,Styphnolobium japonicum,False,C\ Sant Fructuós,3.58,2.71,ok,,medium,428759.03,4580462.7,428761.6,4580460.22,1.0,class
+0084005AR,Jacaranda mimosifolia,False,C\ Font Florida,,35.67,no_facade,4.14,check,,,,,1.0,floor
+0084006AR,Celtis australis,False,C\ Chopin,,13.47,median,27.21,check,,,,,1.0,floor
+0084007AR,Tipuana tipu,False,C\ Mineria,5.99,5.5,ok,,medium,428118.03,4579940.92,428112.31,4579942.7,1.0,class
+0084008AR,Styphnolobium japonicum 'Columnare',False,Av Francesc Ferrer i Guàrdia,,37.95,no_facade,,check,,,,,1.0,floor
+0084009AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,15.0,median,1.93,check,,,,,1.0,floor
+0084010AR,Jacaranda mimosifolia,False,C\ Font Florida,,17.21,median,4.12,check,,,,,1.0,floor
+0084011AR,Styphnolobium japonicum,False,C\ Sant Fructuós,3.67,2.13,ok,,medium,428625.3,4580322.27,428622.94,4580325.07,1.0,class
+0084012AR,Styphnolobium japonicum,False,C\ Sant Paulí de Nola,2.9,1.54,ok,,small,428428.64,4580263.56,428430.72,4580265.59,1.0,class
+0084013AR,Styphnolobium japonicum,False,C\ Santa Dorotea,3.47,3.11,ok,,small,428539.69,4580369.97,428537.2,4580367.56,1.0,class
+0084014AR,Platanus × acerifolia,True,Av Francesc Ferrer i Guàrdia,,33.23,no_facade,37.39,check,,,,,1.0,floor
+0084015AR,Prunus cerasifera 'Pissardii',False,C\ Chopin,4.12,3.91,ok,,medium,428653.2,4580252.09,428651.24,4580248.46,1.0,class
+0084016AR,Jacaranda mimosifolia,False,C\ Font Florida,,58.45,no_facade,4.47,check,,,,,1.0,floor
+0084017AR,Platanus × acerifolia,True,G.V. Corts Catalanes,8.79,6.57,ok,,large,428256.56,4580126.42,428252.83,4580134.37,1.5,class
+0084019AR,Platanus × acerifolia,True,G.V. Corts Catalanes,9.21,8.52,ok,,large,428403.69,4580269.68,428399.74,4580278.01,1.5,class
+0084020AR,Platanus × acerifolia,True,G.V. Corts Catalanes,8.41,6.93,ok,,large,428470.13,4580335.36,428464.24,4580341.35,1.5,class
+0084022AR,Styphnolobium japonicum,False,C\ Sant Fructuós,3.48,2.11,ok,,small,428604.69,4580306.35,428602.68,4580309.18,1.0,class
+0084025AR,Styphnolobium japonicum,False,C\ Sant Fructuós,3.45,2.28,ok,,small,428744.37,4580424.71,428742.03,4580427.25,1.0,class
+0084026AR,Styphnolobium japonicum,False,C\ Sant Fructuós,3.4,2.88,ok,,small,428609.93,4580331.91,428612.1,4580329.29,1.0,class
+0084027AR,Platanus × acerifolia,True,G.V. Corts Catalanes,8.21,7.18,ok,,large,428528.8,4580393.1,428523.04,4580398.94,1.5,class
+0084028AR,Tipuana tipu,False,C\ Mineria,,23.88,median,,check,,,,,1.0,floor
+0084033AR,Platanus × acerifolia,True,G.V. Corts Catalanes,8.37,7.9,ok,,large,428458.08,4580323.49,428452.21,4580329.46,1.5,class
+0084034AR,Celtis australis,False,C\ Montfar,7.01,5.76,ok,,large,428705.8,4580227.43,428699.12,4580225.3,1.5,class
+0084035AR,Styphnolobium japonicum,False,C\ Sant Fructuós,3.39,2.61,ok,,small,428704.76,4580411.79,428706.96,4580409.21,1.0,class
+0084036AR,Tipuana tipu,False,C\ Mineria,,16.43,median,,check,,,,,1.0,floor
+0084038AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,14.72,median,2.18,check,,,,,1.0,floor
+0084039AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,15.11,median,2.06,check,,,,,1.0,floor
+0084040AR,Platanus × acerifolia,True,C\ Santa Dorotea,7.08,3.77,ok,,large,428547.35,4580362.08,428549.27,4580355.26,1.5,class
+0084043AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,14.59,median,1.96,check,,,,,1.0,floor
+0084044AR,Tipuana tipu,False,C\ Mineria,6.13,5.22,ok,,large,428094.54,4579864.91,428088.69,4579866.74,1.5,class
+0084045AR,Celtis australis,False,C\ Montfar,4.1,3.88,ok,,medium,428797.3,4580246.42,428799.28,4580242.83,1.0,class
+0084047AR,Platanus × acerifolia,True,Av Francesc Ferrer i Guàrdia,,24.27,no_kerb,,check,,,,,1.0,floor
+0084048AR,Jacaranda mimosifolia,False,C\ Font Florida,,69.9,no_facade,4.22,check,,,,,1.0,floor
+0084050AR,Celtis australis,False,C\ Montfar,3.96,3.51,ok,,medium,428707.57,4580226.93,428706.51,4580223.11,1.0,class
+0084051AR,Tipuana tipu,False,C\ Mineria,6.09,5.72,ok,,large,428105.58,4579900.19,428099.76,4579902.01,1.5,class
+0084052AR,Platanus × acerifolia,True,G.V. Corts Catalanes,8.06,6.94,ok,,large,428558.74,4580422.6,428553.08,4580428.34,1.5,class
+0084055AR,Styphnolobium japonicum,False,C\ Sant Fructuós,3.81,2.74,ok,,medium,428648.07,4580341.28,428645.64,4580344.21,1.0,class
+0084057AR,Koelreuteria paniculata 'Fastigiata',False,C\ Sant Fructuós,3.76,2.33,ok,,medium,428636.61,4580331.76,428634.21,4580334.65,1.0,class
+0084058AR,Platanus × acerifolia,True,Av Francesc Ferrer i Guàrdia,,17.51,median,,check,,,,,1.0,floor
+0084059AR,Styphnolobium japonicum,False,C\ Sant Fructuós,3.25,2.33,ok,,small,428348.41,4580123.09,428350.7,4580120.78,1.0,class
+0084060AR,Platanus × acerifolia,True,G.V. Corts Catalanes,8.25,7.38,ok,,large,428310.99,4580179.59,428305.24,4580185.52,1.5,class
+0084061AR,Prunus cerasifera 'Pissardii',False,C\ Mèxic,3.5,2.91,ok,,medium,428723.95,4580545.65,428726.44,4580548.1,1.0,class
+0084063AR,Styphnolobium japonicum,False,C\ Sant Fructuós,3.54,3.16,ok,,medium,428778.94,4580458.87,428776.39,4580461.32,1.0,class
+0084064AR,Prunus cerasifera 'Pissardii',False,C\ Mèxic,3.6,2.79,ok,,medium,428818.04,4580449.4,428820.62,4580451.91,1.0,class
+0084066AR,Platanus × acerifolia,True,Av Francesc Ferrer i Guàrdia,,33.65,no_facade,38.02,check,,,,,1.0,floor
+0084067AR,Celtis australis,False,C\ Montfar,7.54,6.32,ok,,large,428776.21,4580214.65,428769.76,4580218.56,1.5,class
+0084068AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,14.32,median,1.99,check,,,,,1.0,floor
+0084069AR,Platanus × acerifolia,True,G.V. Corts Catalanes,8.26,7.34,ok,,large,428145.64,4580017.86,428139.88,4580023.78,1.5,class
+0084070AR,Pyrus calleryana 'Chanticleer',False,C\ Morabos,3.06,2.02,ok,,small,428744.1,4580406.26,428741.94,4580404.1,1.0,class
+0084071AR,Pyrus calleryana 'Chanticleer',False,C\ Sant Germà,3.62,3.06,ok,,medium,428623.86,4580393.79,428627.3,4580394.91,1.0,class
+0084072AR,Jacaranda mimosifolia,False,C\ Font Florida,,44.92,no_facade,4.08,check,,,,,1.0,floor
+0084073AR,Prunus cerasifera 'Pissardii',False,C\ Morabos,3.33,2.63,ok,,small,428821.24,4580310.86,428823.62,4580313.19,1.0,class
+0084074AR,Tipuana tipu,False,C\ Mineria,5.78,5.14,ok,,medium,428080.21,4579819.97,428074.71,4579821.74,1.0,class
+0084075AR,Styphnolobium japonicum,False,C\ Santa Dorotea,3.45,2.77,ok,,small,428536.6,4580355.98,428539.05,4580358.41,1.0,class
+0084076AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,13.84,median,2.03,check,,,,,1.0,floor
+0084077AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,14.55,median,2.25,check,,,,,1.0,floor
+0084078AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,14.7,median,1.99,check,,,,,1.0,floor
+0084079AR,Tipuana tipu,False,C\ Mineria,6.12,5.82,ok,,large,428100.09,4579882.66,428094.25,4579884.49,1.5,class
+0084080AR,Platanus × acerifolia,True,Av Francesc Ferrer i Guàrdia,24.67,20.87,ok,,large,428846.93,4580247.64,428867.31,4580261.54,1.5,class
+0084081AR,Styphnolobium japonicum,False,C\ Santa Dorotea,3.41,3.24,ok,,small,428530.0,4580379.74,428527.59,4580377.34,1.0,class
+0084082AR,Celtis australis,False,C\ Montfar,5.77,3.97,ok,,medium,428806.09,4580230.85,428803.34,4580235.92,1.0,class
+0084083AR,Tipuana tipu,False,C\ Mineria,,11.98,median,,check,,,,,1.0,floor
+0084084AR,Celtis australis,False,C\ Montfar,5.81,4.04,ok,,medium,428810.95,4580233.49,428808.19,4580238.59,1.0,class
+0084085AR,Jacaranda mimosifolia,False,C\ Font Florida,,18.77,median,4.13,check,,,,,1.0,floor
+0084086AR,Pyrus calleryana 'Chanticleer',False,C\ Sant Germà,2.71,1.21,ok,,small,428639.06,4580384.84,428636.47,4580384.03,1.0,class
+0084087AR,Styphnolobium japonicum,False,C\ Santa Dorotea,3.35,2.92,ok,,small,428524.09,4580385.69,428521.71,4580383.32,1.0,class
+0084088AR,Styphnolobium japonicum,False,C\ Sant Fructuós,5.04,4.1,ok,,medium,428249.0,4580028.01,428253.16,4580025.17,1.0,class
+0084089AR,Styphnolobium japonicum,False,C\ Sant Fructuós,3.41,2.83,ok,,small,428666.53,4580379.37,428668.73,4580376.76,1.0,class
+0084090AR,Ulmus pumila,False,C\ Rabí Rubèn,4.2,3.1,ok,,medium,428659.09,4580342.7,428659.31,4580346.89,1.0,class
+0084091AR,Platanus × acerifolia,True,G.V. Corts Catalanes,8.26,7.11,ok,,large,428511.38,4580375.97,428505.59,4580381.85,1.5,class
+0084092AR,Celtis australis,False,C\ Montfar,4.03,3.73,ok,,medium,428776.77,4580235.12,428778.67,4580231.56,1.0,class
+0084093AR,Styphnolobium japonicum,False,C\ Sant Fructuós,5.55,4.55,ok,,medium,428281.15,4580057.64,428280.66,4580052.12,1.0,class
+0084094AR,Styphnolobium japonicum,False,C\ Sant Fructuós,3.37,2.57,ok,,small,428685.71,4580373.87,428683.51,4580376.43,1.0,class
+0084096AR,Styphnolobium japonicum,False,C\ Sant Fructuós,3.65,2.55,ok,,medium,428753.47,4580433.11,428750.99,4580435.79,1.0,class
+0084098AR,Styphnolobium japonicum,False,C\ Sant Fructuós,4.33,3.94,ok,,medium,428258.57,4580036.4,428262.16,4580033.98,1.0,class
+0084100AR,Pyrus calleryana 'Chanticleer',False,C\ Sant Germà,3.76,2.77,ok,,medium,428616.2,4580417.32,428619.78,4580418.49,1.0,class
+0084101AR,Celtis australis,False,C\ Rabí Rubèn,4.07,3.21,ok,,medium,428737.18,4580231.08,428735.78,4580227.27,1.0,class
+0084102AR,Pyrus calleryana 'Chanticleer',False,C\ Morabos,3.37,2.33,ok,,small,428811.6,4580320.72,428814.02,4580323.08,1.0,class
+0084103AR,Platanus × acerifolia,True,G.V. Corts Catalanes,8.25,7.2,ok,,large,428234.1,4580104.49,428228.41,4580110.45,1.5,class
+0084105AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,14.61,median,2.0,check,,,,,1.0,floor
+0084106AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,15.3,median,2.14,check,,,,,1.0,floor
+0084107AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,14.88,median,3.8,check,,,,,1.0,floor
+0084108AR,Jacaranda mimosifolia,False,C\ Font Florida,,18.18,median,4.13,check,,,,,1.0,floor
+0084109AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,14.47,median,1.97,check,,,,,1.0,floor
+0084110AR,Styphnolobium japonicum,False,C\ Sant Fructuós,3.51,2.48,ok,,medium,428787.44,4580467.73,428784.91,4580470.16,1.0,class
+0084111AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,14.84,median,1.97,check,,,,,1.0,floor
+0084112AR,Celtis australis,False,C\ Mineria,9.53,8.6,ok,,large,428121.32,4579951.53,428117.73,4579960.35,1.5,class
+0084113AR,Platanus × acerifolia,True,Av Francesc Ferrer i Guàrdia,,38.6,no_facade,37.16,check,,,,,1.0,floor
+0084114AR,Celtis australis,False,C\ Montfar,,11.9,median,,check,,,,,1.0,floor
+0084116AR,Platanus × acerifolia,True,G.V. Corts Catalanes,9.83,7.61,ok,,large,428354.68,4580222.7,428345.2,4580225.28,1.5,class
+0084117AR,Celtis australis,False,C\ Montfar,3.95,3.26,ok,,medium,428689.65,4580232.97,428688.14,4580229.31,1.0,class
+0084119AR,Styphnolobium japonicum,False,C\ Santa Dorotea,3.41,2.72,ok,,small,428526.44,4580366.37,428528.87,4580368.76,1.0,class
+0084120AR,Celtis australis,False,C\ Dàlia,6.36,5.94,ok,,large,428818.13,4580233.37,428823.71,4580236.41,1.5,class
+0084123AR,Prunus cerasifera 'Pissardii',False,C\ Chopin,4.08,3.79,ok,,medium,428635.63,4580261.57,428633.7,4580257.98,1.0,class
+0084127AR,Celtis australis,False,C\ Mineria,21.26,19.8,ok,,large,428138.86,4579998.04,428123.73,4579983.11,1.5,class
+0084128AR,Tipuana tipu,False,C\ Mineria,6.03,5.58,ok,,large,428109.2,4579912.06,428103.42,4579913.79,1.5,class
+0084129AR,Celtis australis,False,C\ Montfar,4.38,4.42,ok,,medium,428788.3,4580241.43,428788.76,4580237.08,1.0,class
+0084130AR,Styphnolobium japonicum,False,C\ Sant Fructuós,3.39,2.63,ok,,small,428674.75,4580386.3,428676.93,4580383.71,1.0,class
+0084131AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,14.3,median,1.99,check,,,,,1.0,floor
+0084132AR,Celtis australis,False,C\ Montfar,6.5,5.52,ok,,large,428691.73,4580232.54,428694.77,4580226.78,1.5,class
+0084133AR,Platanus × acerifolia,True,Av Francesc Ferrer i Guàrdia,,46.14,no_facade,,check,,,,,1.0,floor
+0084135AR,Ulmus minor 'Umbraculifera',False,C\ Chopin,4.0,4.47,ok,,medium,428662.29,4580247.18,428660.39,4580243.67,1.0,class
+0084136AR,Platanus × acerifolia,True,G.V. Corts Catalanes,8.22,7.39,ok,,large,428499.42,4580364.19,428493.65,4580370.05,1.5,class
+0084137AR,Styphnolobium japonicum,False,C\ Sant Fructuós,6.29,4.16,ok,,large,428723.03,4580403.5,428722.72,4580409.78,1.5,class
+0084138AR,Styphnolobium japonicum,False,C\ Sant Fructuós,3.63,2.81,ok,,medium,428365.34,4580115.59,428362.78,4580118.16,1.0,class
+0084139AR,Prunus cerasifera 'Pissardii',False,C\ Chopin,4.03,3.66,ok,,medium,428631.56,4580263.76,428629.64,4580260.21,1.0,class
+0084140AR,Platanus × acerifolia,True,Av Francesc Ferrer i Guàrdia,,26.87,median,40.95,check,,,,,1.0,floor
+0084142AR,Platanus × acerifolia,True,G.V. Corts Catalanes,8.75,7.81,ok,,large,428196.96,4580068.31,428193.62,4580076.4,1.5,class
+0084145AR,Pyrus calleryana 'Chanticleer',False,C\ Morabos,3.13,2.62,ok,,small,428751.75,4580398.64,428749.54,4580396.42,1.0,class
+0084146AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,14.91,median,2.21,check,,,,,1.0,floor
+0084147AR,Prunus cerasifera 'Pissardii',False,C\ Mèxic,3.58,2.52,ok,,medium,428828.21,4580438.95,428830.77,4580441.44,1.0,class
+0084149AR,Styphnolobium japonicum,False,C\ Sant Paulí de Nola,2.71,1.26,ok,,small,428455.61,4580257.46,428453.67,4580255.57,1.0,class
+0084151AR,Quercus robur 'Fastigiata',False,C\ Valls,3.87,3.56,ok,,medium,428694.41,4580256.39,428696.21,4580252.96,1.0,class
+0084152AR,Prunus cerasifera 'Pissardii',False,C\ Mèxic,3.5,2.85,ok,,medium,428738.89,4580530.45,428741.38,4580532.9,1.0,class
+0084154AR,Platanus × acerifolia,True,Av Francesc Ferrer i Guàrdia,,12.88,no_kerb,,check,,,,,1.0,floor
+0084155AR,Styphnolobium japonicum,False,C\ Sant Fructuós,3.37,2.69,ok,,small,428241.42,4580018.35,428243.8,4580015.95,1.0,class
+0084156AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,15.0,median,1.96,check,,,,,1.0,floor
+0084157AR,Platanus × acerifolia,True,G.V. Corts Catalanes,8.46,7.22,ok,,large,428369.7,4580237.22,428363.86,4580243.33,1.5,class
+0084158AR,Platanus × acerifolia,True,Av Francesc Ferrer i Guàrdia,,36.31,no_facade,43.94,check,,,,,1.0,floor
+0084160AR,Styphnolobium japonicum,False,C\ Sant Fructuós,3.57,2.98,ok,,medium,428770.54,4580450.13,428767.97,4580452.6,1.0,class
+0084161AR,Jacaranda mimosifolia,False,C\ Font Florida,,40.72,no_facade,,check,,,,,1.0,floor
+0084163AR,Platanus × acerifolia,True,G.V. Corts Catalanes,8.33,7.26,ok,,large,428440.34,4580306.25,428434.63,4580312.32,1.5,class
+0084164AR,Platanus × acerifolia,True,Av Francesc Ferrer i Guàrdia,24.83,8.55,ok,,large,428849.23,4580224.02,428873.7,4580219.82,1.5,class
+0084167AR,Celtis australis,False,C\ Montfar,5.85,4.61,ok,,medium,428816.44,4580236.46,428813.65,4580241.6,1.0,class
+0084169AR,Jacaranda mimosifolia,False,C\ Font Florida,,51.89,no_facade,4.33,check,,,,,1.0,floor
+0084170AR,Styphnolobium japonicum,False,C\ Sant Fructuós,3.49,3.22,ok,,small,428258.67,4580011.8,428256.25,4580014.32,1.0,class
+0084172AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,14.81,median,1.95,check,,,,,1.0,floor
+0084173AR,Styphnolobium japonicum,False,C\ Sant Fructuós,3.52,2.76,ok,,medium,428346.75,4580097.43,428344.31,4580099.96,1.0,class
+0084175AR,Styphnolobium japonicum,False,C\ Sant Fructuós,3.66,2.91,ok,,medium,428767.27,4580471.23,428769.89,4580468.69,1.0,class
+0084176AR,Celtis australis,False,C\ Montfar,3.95,3.1,ok,,medium,428683.81,4580235.54,428682.13,4580231.97,1.0,class
+0084177AR,Robinia pseudoacacia,False,C\ Sant Paulí de Nola,2.88,1.58,ok,,small,428423.85,4580268.46,428425.91,4580270.48,1.0,class
+0084179AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,14.69,median,2.18,check,,,,,1.0,floor
+0084180AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,14.57,median,2.12,check,,,,,1.0,floor
+0084183AR,Celtis australis,False,C\ Montfar,4.03,3.96,ok,,medium,428781.51,4580237.65,428783.99,4580234.47,1.0,class
+0084184AR,Tipuana tipu,False,C\ Mineria,,24.13,median,21.14,check,,,,,1.0,floor
+0084186AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,14.13,median,1.98,check,,,,,1.0,floor
+0084187AR,Styphnolobium japonicum,False,C\ Sant Fructuós,3.43,2.32,ok,,small,428395.11,4580145.26,428392.69,4580147.68,1.0,class
+0084188AR,Styphnolobium japonicum,False,C\ Sant Paulí de Nola,4.82,4.17,ok,,medium,428451.12,4580240.58,428454.56,4580243.95,1.0,class
+0084189AR,Jacaranda mimosifolia,False,C\ Font Florida,,34.4,no_facade,4.29,check,,,,,1.0,floor
+0084190AR,Styphnolobium japonicum,False,C\ Sant Fructuós,3.52,2.89,ok,,medium,428312.3,4580064.17,428309.85,4580066.69,1.0,class
+0084191AR,Platanus × acerifolia,True,Av Francesc Ferrer i Guàrdia,26.62,9.67,ok,,large,428847.64,4580218.35,428871.85,4580207.29,1.5,class
+0084192AR,Platanus × acerifolia,True,Av Francesc Ferrer i Guàrdia,,25.95,median,,check,,,,,1.0,floor
+0084193AR,Jacaranda mimosifolia,False,C\ Font Florida,,55.55,no_facade,4.2,check,,,,,1.0,floor
+0084194AR,Platanus × acerifolia,True,G.V. Corts Catalanes,8.39,7.54,ok,,large,428463.81,4580329.14,428457.92,4580335.12,1.5,class
+0084195AR,Jacaranda mimosifolia,False,C\ Font Florida,,38.29,no_facade,4.41,check,,,,,1.0,floor
+0084196AR,Jacaranda mimosifolia,False,C\ Font Florida,,59.69,no_facade,3.98,check,,,,,1.0,floor
+0084197AR,Platanus × acerifolia,True,G.V. Corts Catalanes,7.95,6.59,ok,,large,428581.79,4580445.31,428576.22,4580450.97,1.5,class
+0084198AR,Tipuana tipu,False,C\ Mineria,5.7,5.14,ok,,medium,428078.58,4579814.89,428073.16,4579816.63,1.0,class
+0084199AR,Styphnolobium japonicum,False,C\ Sant Fructuós,3.48,2.44,ok,,small,428384.19,4580134.38,428381.74,4580136.85,1.0,class
+0084200AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,17.53,median,2.29,check,,,,,1.0,floor
+0084201AR,Styphnolobium japonicum,False,C\ Santa Dorotea,3.52,2.38,ok,,medium,428546.06,4580346.26,428548.59,4580348.7,1.0,class
+0084202AR,Quercus robur 'Fastigiata',False,C\ Valls,3.87,3.49,ok,,medium,428685.54,4580251.74,428687.34,4580248.31,1.0,class
+0084204AR,Platanus × acerifolia,True,G.V. Corts Catalanes,11.38,10.73,ok,,large,428185.65,4580056.99,428174.27,4580057.49,1.5,class
+0084205AR,Styphnolobium japonicum,False,C\ Sant Fructuós,3.51,3.65,ok,,medium,428300.99,4580076.95,428303.43,4580074.44,1.0,class
+0084206AR,Platanus × acerifolia,True,Av Francesc Ferrer i Guàrdia,,22.32,median,34.75,check,,,,,1.0,floor
+0084207AR,Jacaranda mimosifolia,False,C\ Font Florida,,37.06,no_facade,4.4,check,,,,,1.0,floor
+0084208AR,Tipuana tipu,False,C\ Mineria,,24.03,median,8.85,check,,,,,1.0,floor
+0084210AR,Jacaranda mimosifolia,False,C\ Font Florida,,39.79,no_facade,4.1,check,,,,,1.0,floor
+0084212AR,Celtis australis,False,C\ Rabí Rubèn,4.02,2.91,ok,,medium,428711.62,4580250.0,428715.13,4580251.96,1.0,class
+0084213AR,Jacaranda mimosifolia,False,C\ Font Florida,,64.83,no_facade,4.06,check,,,,,1.0,floor
+0084216AR,Styphnolobium japonicum,False,C\ Sant Fructuós,3.81,2.36,ok,,medium,428641.46,4580335.79,428639.02,4580338.72,1.0,class
+0084217AR,Platanus × acerifolia,True,Av Francesc Ferrer i Guàrdia,,15.88,no_kerb,,check,,,,,1.0,floor
+0084218AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,14.54,median,3.68,check,,,,,1.0,floor
+0084220AR,Jacaranda mimosifolia,False,C\ Font Florida,,8.27,median,4.23,check,,,,,1.0,floor
+0084221AR,Pyrus calleryana 'Chanticleer',False,C\ Sant Germà,3.89,3.08,ok,,medium,428606.95,4580445.76,428610.66,4580446.95,1.0,class
+0084222AR,Styphnolobium japonicum,False,C\ Sant Fructuós,3.33,3.22,ok,,small,428741.54,4580444.6,428743.94,4580442.28,1.0,class
+0084224AR,Robinia pseudoacacia,False,C\ Sant Paulí de Nola,2.73,1.32,ok,,small,428451.56,4580261.62,428449.6,4580259.72,1.0,class
+0084226AR,Celtis australis,False,C\ Montfar,3.24,2.69,ok,,small,428766.06,4580229.18,428767.6,4580226.33,1.0,class
+0084228AR,Platanus × acerifolia,True,G.V. Corts Catalanes,8.23,7.26,ok,,large,428487.55,4580352.5,428481.78,4580358.37,1.5,class
+0084231AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,16.39,median,1.99,check,,,,,1.0,floor
+0084232AR,Platanus × acerifolia,True,G.V. Corts Catalanes,8.37,7.55,ok,,large,428476.17,4580341.3,428470.29,4580347.27,1.5,class
+0084233AR,Platanus × acerifolia,True,G.V. Corts Catalanes,8.52,7.55,ok,,large,428357.85,4580225.68,428351.88,4580231.76,1.5,class
+0084234AR,Celtis australis,False,C\ Polvorí,,13.76,median,4.22,check,,,,,1.0,floor
+0084235AR,Celtis australis,False,C\ Montfar,5.88,5.06,ok,,medium,428779.4,4580216.38,428776.6,4580221.55,1.0,class
+0084236AR,Styphnolobium japonicum,False,C\ Sant Fructuós,6.56,4.74,ok,,large,428327.58,4580104.37,428327.41,4580097.81,1.5,class
+0084238AR,Platanus × acerifolia,True,Av Francesc Ferrer i Guàrdia,,37.29,no_facade,40.74,check,,,,,1.0,floor
+0084239AR,Platanus × acerifolia,True,Av Francesc Ferrer i Guàrdia,,25.46,median,,check,,,,,1.0,floor
+0084240AR,Brachychiton populneus,False,C\ Nord,,4.42,no_kerb,41.42,check,,,,,1.0,floor
+0084241AR,Platanus × acerifolia,True,Av Francesc Ferrer i Guàrdia,,46.01,no_facade,,check,,,,,1.0,floor
+0084242AR,Tipuana tipu,False,C\ Mineria,6.11,5.46,ok,,large,428102.03,4579888.85,428096.2,4579890.68,1.5,class
+0084245AR,Platanus × acerifolia,True,G.V. Corts Catalanes,12.33,8.86,ok,,large,428433.61,4580299.16,428421.27,4580299.19,1.5,class
+0084247AR,Pyrus calleryana 'Chanticleer',False,C\ Sant Germà,3.88,3.27,ok,,medium,428608.75,4580440.24,428612.43,4580441.44,1.0,class
+0084248AR,Platanus × acerifolia,True,G.V. Corts Catalanes,8.37,7.4,ok,,large,428157.26,4580029.19,428151.42,4580035.18,1.5,class
+0084250AR,Platanus × acerifolia,True,G.V. Corts Catalanes,8.34,7.73,ok,,large,428215.59,4580086.35,428210.7,4580093.1,1.5,class
+0084252AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,14.87,median,2.28,check,,,,,1.0,floor
+0084253AR,Pyrus calleryana 'Chanticleer',False,C\ Morabos,3.22,2.21,ok,,small,428754.57,4580379.3,428756.86,4580381.56,1.0,class
+0084254AR,Celtis australis,False,C\ Rabí Rubèn,2.95,2.13,ok,,small,428728.66,4580246.1,428726.09,4580244.64,1.0,class
+0084255AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,38.61,no_facade,28.06,check,,,,,1.0,floor
+0084256AR,Celtis australis,False,C\ Montfar,6.14,4.91,ok,,large,428670.62,4580222.6,428672.62,4580228.41,1.5,class
+0084258AR,Platanus × acerifolia,True,G.V. Corts Catalanes,8.35,7.38,ok,,large,428239.82,4580109.94,428234.05,4580115.98,1.5,class
+0084259AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,14.55,median,2.0,check,,,,,1.0,floor
+0084261AR,Celtis australis,False,C\ Montfar,4.06,3.55,ok,,medium,428792.25,4580243.62,428794.21,4580240.07,1.0,class
+0084262AR,Prunus cerasifera 'Pissardii',False,C\ Sant Paulí de Nola,2.68,1.44,ok,,small,428464.45,4580248.39,428462.54,4580246.52,1.0,class
+0084263AR,Jacaranda mimosifolia,False,C\ Font Florida,,48.52,no_facade,,check,,,,,1.0,floor
+0084264AR,Styphnolobium japonicum,False,C\ Sant Fructuós,3.54,2.38,ok,,medium,428748.32,4580428.36,428745.93,4580430.96,1.0,class
+0084266AR,Platanus × acerifolia,True,C\ Santa Dorotea,13.93,14.86,ok,,large,428514.25,4580378.8,428507.24,4580390.83,1.5,class
+0084267AR,Styphnolobium japonicum,False,C\ Sant Fructuós,3.52,2.45,ok,,medium,428782.91,4580463.02,428780.37,4580465.46,1.0,class
+0084269AR,Platanus × acerifolia,True,C\ Santa Dorotea,3.49,1.87,ok,,small,428577.48,4580314.24,428579.96,4580316.69,1.0,class
+0084270AR,Celtis australis,False,C\ Montfar,6.76,5.34,ok,,large,428723.52,4580205.01,428724.91,4580211.63,1.5,class
+0084271AR,Jacaranda mimosifolia,False,C\ Font Florida,,17.06,median,4.11,check,,,,,1.0,floor
+0084272AR,Platanus × acerifolia,True,Av Francesc Ferrer i Guàrdia,,36.98,no_facade,38.01,check,,,,,1.0,floor
+0084273AR,Platanus × acerifolia,True,Av Francesc Ferrer i Guàrdia,,39.58,no_facade,,check,,,,,1.0,floor
+0084275AR,Platanus × acerifolia,True,Av Francesc Ferrer i Guàrdia,,43.73,no_facade,,check,,,,,1.0,floor
+0084276AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,14.12,median,1.98,check,,,,,1.0,floor
+0084278AR,Styphnolobium japonicum,False,C\ Sant Fructuós,3.29,2.65,ok,,small,428361.31,4580135.85,428363.62,4580133.51,1.0,class
+0084279AR,Platanus × acerifolia,True,G.V. Corts Catalanes,8.36,7.02,ok,,large,428328.84,4580197.13,428322.98,4580203.1,1.5,class
+0084280AR,Styphnolobium japonicum,False,C\ Sant Fructuós,3.26,2.57,ok,,small,428352.87,4580127.5,428355.17,4580125.18,1.0,class
+0084283AR,Platanus × acerifolia,True,Av Francesc Ferrer i Guàrdia,,14.5,no_kerb,,check,,,,,1.0,floor
+0084284AR,Pyrus calleryana 'Chanticleer',False,C\ Sant Germà,3.7,3.14,ok,,medium,428618.65,4580409.8,428622.18,4580410.94,1.0,class
+0084285AR,Styphnolobium japonicum,False,C\ Sant Fructuós,3.45,2.71,ok,,small,428288.82,4580041.32,428286.41,4580043.8,1.0,class
+0084286AR,Platanus × acerifolia,True,G.V. Corts Catalanes,8.35,7.52,ok,,large,428163.55,4580035.31,428157.72,4580041.29,1.5,class
+0084287AR,Styphnolobium japonicum,False,C\ Sant Fructuós,3.46,2.99,ok,,small,428271.85,4580024.73,428269.42,4580027.2,1.0,class
+0084288AR,Pyrus calleryana 'Chanticleer',False,C\ Sant Germà,3.64,2.97,ok,,medium,428626.92,4580384.41,428630.37,4580385.54,1.0,class
+0084289AR,Platanus × acerifolia,True,Av Francesc Ferrer i Guàrdia,,21.06,no_kerb,,check,,,,,1.0,floor
+0084290AR,Styphnolobium japonicum,False,C\ Sant Fructuós,3.45,2.37,ok,,small,428284.92,4580037.52,428282.5,4580039.98,1.0,class
+0084291AR,Styphnolobium japonicum,False,C\ Santa Dorotea,3.46,2.89,ok,,small,428579.4,4580329.41,428576.94,4580326.98,1.0,class
+0084292AR,Ginkgo biloba 'Fastigiata Blagon',False,C\ Gimbernat,3.39,2.48,ok,,small,428810.19,4580374.86,428812.58,4580372.46,1.0,class
+0084294AR,Tipuana tipu,False,C\ Mineria,6.12,5.24,ok,,large,428091.29,4579854.54,428085.45,4579856.36,1.5,class
+0084297AR,Jacaranda mimosifolia,False,C\ Font Florida,,26.41,median,4.17,check,,,,,1.0,floor
+0084298AR,Styphnolobium japonicum,False,C\ Sant Fructuós,3.52,2.69,ok,,medium,428754.91,4580458.44,428757.44,4580456.0,1.0,class
+0084299AR,Prunus cerasifera 'Pissardii',False,C\ Mèxic,3.53,2.67,ok,,medium,428841.76,4580425.09,428844.28,4580427.56,1.0,class
+0084300AR,Tipuana tipu,False,C\ Mineria,,4.9,median,5.52,check,,,,,1.0,floor
+0084302AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,13.97,median,1.98,check,,,,,1.0,floor
+0084303AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,14.76,median,1.97,check,,,,,1.0,floor
+0084304AR,Styphnolobium japonicum,False,C\ Sant Fructuós,3.38,3.19,ok,,small,428745.09,4580448.26,428747.52,4580445.92,1.0,class
+0084305AR,Koelreuteria paniculata 'Fastigiata',False,C\ Sant Fructuós,3.31,2.69,ok,,small,428709.35,4580393.83,428707.22,4580396.37,1.0,class
+0084307AR,Tipuana tipu,False,C\ Mineria,,24.22,median,,check,,,,,1.0,floor
+0084308AR,Jacaranda mimosifolia,False,C\ Font Florida,,28.26,median,4.25,check,,,,,1.0,floor
+0084309AR,Styphnolobium japonicum,False,C\ Sant Fructuós,3.63,2.97,ok,,medium,428620.63,4580318.34,428618.29,4580321.12,1.0,class
+0084310AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,14.49,median,2.06,check,,,,,1.0,floor
+0084311AR,Styphnolobium japonicum,False,C\ Santa Dorotea,3.41,2.2,ok,,small,428521.56,4580371.34,428523.99,4580373.73,1.0,class
+0084312AR,Jacaranda mimosifolia,False,C\ Font Florida,,64.37,no_facade,4.47,check,,,,,1.0,floor
+0084313AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,14.74,median,2.21,check,,,,,1.0,floor
+0084314AR,Tipuana tipu,False,C\ Mineria,5.98,5.53,ok,,medium,428116.27,4579935.25,428110.56,4579937.02,1.0,class
+0084315AR,Celtis australis,False,C\ Dàlia,4.99,4.3,ok,,medium,428825.07,4580227.94,428829.83,4580229.43,1.0,class
+0084316AR,Paulownia tomentosa,False,Av Francesc Ferrer i Guàrdia,,30.73,no_facade,,check,,,,,1.0,floor
+0084318AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,16.5,median,2.0,check,,,,,1.0,floor
+0084319AR,Styphnolobium japonicum,False,C\ Sant Fructuós,3.17,2.57,ok,,small,428695.07,4580381.95,428693.0,4580384.35,1.0,class
+0084321AR,Pinus halepensis,False,C\ Polvorí,,58.83,no_facade,15.74,check,,,,,1.0,floor
+0084322AR,Platanus × acerifolia,True,Av Francesc Ferrer i Guàrdia,,25.9,median,34.73,check,,,,,1.0,floor
+0084323AR,Brachychiton populneus,False,C\ Nord,,4.55,no_kerb,,check,,,,,1.0,floor
+0084324AR,Platanus × acerifolia,True,Av Francesc Ferrer i Guàrdia,,16.32,median,,check,,,,,1.0,floor
+0084325AR,Platanus × acerifolia,True,Av Francesc Ferrer i Guàrdia,,30.62,no_facade,42.94,check,,,,,1.0,floor
+0084326AR,Platanus × acerifolia,True,Av Francesc Ferrer i Guàrdia,,14.14,no_kerb,,check,,,,,1.0,floor
+0084327AR,Platanus × acerifolia,True,G.V. Corts Catalanes,8.68,7.25,ok,,large,428333.38,4580201.6,428328.73,4580208.93,1.5,class
+0084328AR,Styphnolobium japonicum,False,C\ Sant Fructuós,3.41,2.29,ok,,small,428661.95,4580375.5,428664.15,4580372.89,1.0,class
+0084330AR,Platanus × acerifolia,True,G.V. Corts Catalanes,8.15,7.03,ok,,large,428540.66,4580404.78,428534.94,4580410.58,1.5,class
+0084331AR,Celtis australis,False,C\ Polvorí,,58.48,no_facade,9.5,check,,,,,1.0,floor
+0084332AR,Pyrus calleryana 'Chanticleer',False,C\ Sant Germà,3.46,1.62,ok,,small,428643.06,4580372.06,428641.08,4580369.23,1.0,class
+0084333AR,Styphnolobium japonicum,False,C\ Sant Fructuós,3.72,2.38,ok,,medium,428757.05,4580436.41,428754.52,4580439.15,1.0,class
+0084334AR,Pyrus calleryana 'Chanticleer',False,C\ Sant Germà,2.78,0.93,ok,,small,428636.21,4580393.94,428633.56,4580393.11,1.0,class
+0084335AR,Platanus × acerifolia,True,G.V. Corts Catalanes,,14.43,median,1.99,check,,,,,1.0,floor
+0286748AR,Prunus cerasifera 'Pissardii',False,C\ Chopin,4.16,3.94,ok,,medium,428644.24,4580256.92,428642.26,4580253.26,1.0,class
+0296472AR,Prunus cerasifera 'Pissardii',False,C\ Trajà,3.18,2.52,ok,,small,428227.44,4580003.37,428229.21,4580006.02,1.0,class
+0296473AR,Prunus cerasifera 'Pissardii',False,C\ Trajà,3.16,2.44,ok,,small,428222.27,4580006.81,428224.02,4580009.44,1.0,class
+0296474AR,Prunus cerasifera 'Pissardii',False,C\ Trajà,3.16,2.38,ok,,small,428217.27,4580010.12,428219.01,4580012.75,1.0,class
+0296475AR,Prunus cerasifera 'Pissardii',False,C\ Trajà,3.16,2.32,ok,,small,428212.26,4580013.42,428214.0,4580016.06,1.0,class
+0296477AR,Prunus cerasifera 'Pissardii',False,C\ Trajà,3.15,2.19,ok,,small,428202.25,4580020.04,428203.99,4580022.67,1.0,class
+0296478AR,Prunus cerasifera 'Pissardii',False,C\ Trajà,3.15,2.13,ok,,small,428197.25,4580023.35,428198.98,4580025.98,1.0,class
+0296479AR,Prunus cerasifera 'Pissardii',False,C\ Trajà,3.16,2.0,ok,,small,428187.23,4580029.97,428188.98,4580032.6,1.0,class
+0296480AR,Prunus cerasifera 'Pissardii',False,C\ Trajà,3.17,1.95,ok,,small,428182.23,4580033.27,428183.98,4580035.92,1.0,class
+0296481AR,Prunus cerasifera 'Pissardii',False,C\ Trajà,3.19,1.9,ok,,small,428177.22,4580036.57,428178.98,4580039.23,1.0,class
+0296482AR,Prunus cerasifera 'Pissardii',False,C\ Trajà,3.23,2.72,ok,,small,428228.16,4580017.19,428226.37,4580014.51,1.0,class
+0296483AR,Prunus cerasifera 'Pissardii',False,C\ Trajà,3.25,2.85,ok,,small,428223.88,4580020.05,428222.08,4580017.34,1.0,class
+0296484AR,Prunus cerasifera 'Pissardii',False,C\ Trajà,3.27,2.93,ok,,small,428218.88,4580023.38,428217.07,4580020.65,1.0,class
+0296485AR,Prunus cerasifera 'Pissardii',False,C\ Trajà,3.28,3.0,ok,,small,428213.88,4580026.7,428212.06,4580023.96,1.0,class
+0296486AR,Prunus cerasifera 'Pissardii',False,C\ Trajà,3.29,3.06,ok,,small,428208.88,4580030.01,428207.06,4580027.27,1.0,class
+0296487AR,Prunus cerasifera 'Pissardii',False,C\ Trajà,3.29,3.12,ok,,small,428203.87,4580033.32,428202.06,4580030.58,1.0,class
+0296490AR,Prunus cerasifera 'Pissardii',False,C\ Trajà,3.24,3.26,ok,,small,428188.83,4580043.22,428187.05,4580040.51,1.0,class
+0296491AR,Prunus cerasifera 'Pissardii',False,C\ Trajà,4.45,4.55,ok,,medium,428186.44,4580044.8,428182.1,4580043.79,1.0,class
+0296492AR,Prunus cerasifera 'Pissardii',False,C\ Trajà,3.24,1.92,ok,,small,428292.96,4579960.06,428294.75,4579962.76,1.0,class
+0296493AR,Prunus cerasifera 'Pissardii',False,C\ Trajà,3.24,1.91,ok,,small,428287.96,4579963.36,428289.74,4579966.06,1.0,class
+0296494AR,Prunus cerasifera 'Pissardii',False,C\ Trajà,3.23,1.9,ok,,small,428282.95,4579966.67,428284.73,4579969.37,1.0,class
+0296495AR,Prunus cerasifera 'Pissardii',False,C\ Trajà,3.23,1.9,ok,,small,428277.94,4579969.98,428279.73,4579972.67,1.0,class
+0296496AR,Prunus cerasifera 'Pissardii',False,C\ Trajà,3.23,1.89,ok,,small,428272.94,4579973.28,428274.72,4579975.98,1.0,class
+0296498AR,Prunus cerasifera 'Pissardii',False,C\ Trajà,3.23,1.88,ok,,small,428262.92,4579979.89,428264.7,4579982.58,1.0,class
+0296499AR,Prunus cerasifera 'Pissardii',False,C\ Trajà,3.21,1.87,ok,,small,428257.92,4579983.2,428259.69,4579985.88,1.0,class
+0296500AR,Prunus cerasifera 'Pissardii',False,C\ Trajà,3.2,1.86,ok,,small,428252.91,4579986.51,428254.68,4579989.18,1.0,class
+0296501AR,Prunus cerasifera 'Pissardii',False,C\ Trajà,3.2,1.84,ok,,small,428247.91,4579989.83,428249.68,4579992.49,1.0,class
+0296502AR,Prunus cerasifera 'Pissardii',False,C\ Trajà,3.22,2.58,ok,,small,428294.64,4579973.29,428292.87,4579970.6,1.0,class
+0296503AR,Prunus cerasifera 'Pissardii',False,C\ Trajà,3.23,2.64,ok,,small,428289.64,4579976.6,428287.86,4579973.91,1.0,class
+0296504AR,Prunus cerasifera 'Pissardii',False,C\ Trajà,3.23,2.69,ok,,small,428284.62,4579979.91,428282.85,4579977.21,1.0,class
+0296505AR,Prunus cerasifera 'Pissardii',False,C\ Trajà,3.21,2.73,ok,,small,428279.61,4579983.2,428277.84,4579980.52,1.0,class
+0296506AR,Prunus cerasifera 'Pissardii',False,C\ Trajà,3.33,2.89,ok,,small,428275.27,4579986.05,428272.73,4579983.89,1.0,class
+0296507AR,Prunus cerasifera 'Pissardii',False,C\ Trajà,3.02,2.43,ok,,small,428262.7,4579994.13,428261.04,4579991.61,1.0,class
+0296508AR,Prunus cerasifera 'Pissardii',False,C\ Trajà,3.02,2.52,ok,,small,428258.53,4579996.88,428256.86,4579994.36,1.0,class
+0296509AR,Prunus cerasifera 'Pissardii',False,C\ Trajà,4.79,4.49,ok,,medium,428257.16,4579997.78,428252.4,4579997.31,1.0,class
+0310037AR,Firmiana simplex,False,Av Francesc Ferrer i Guàrdia,,18.76,median,,check,,,,,1.0,floor
+0310038AR,Firmiana simplex,False,Av Francesc Ferrer i Guàrdia,,21.5,median,,check,,,,,1.0,floor
+0310039AR,Platanus × acerifolia,True,Av Francesc Ferrer i Guàrdia,,24.89,median,41.41,check,,,,,1.0,floor
+0310148AR,Prunus amygdalus,False,C\ Trajà,5.01,4.35,ok,,medium,428229.93,4580016.69,428230.59,4580011.72,1.0,class
+0310149AR,Prunus amygdalus,False,C\ Trajà,3.02,2.34,ok,,small,428266.74,4579991.47,428265.07,4579988.94,1.0,class
+0319338AR,Platanus × acerifolia,True,Av Francesc Ferrer i Guàrdia,,14.23,median,29.79,check,,,,,1.0,floor
+0319339AR,Styphnolobium japonicum,False,Av Francesc Ferrer i Guàrdia,,39.44,no_facade,,check,,,,,1.0,floor
+0319903AR,Koelreuteria paniculata 'Fastigiata',False,C\ Sant Fructuós,4.21,2.09,ok,,medium,428404.07,4580178.21,428406.95,4580175.14,1.0,class
+0319904AR,Koelreuteria paniculata 'Fastigiata',False,C\ Sant Fructuós,4.07,1.7,ok,,medium,428412.94,4580186.69,428415.79,4580183.79,1.0,class
+0319905AR,Koelreuteria paniculata 'Fastigiata',False,C\ Sant Fructuós,4.07,1.77,ok,,medium,428426.99,4580200.5,428429.85,4580197.59,1.0,class
+0319906AR,Koelreuteria paniculata 'Fastigiata',False,C\ Sant Fructuós,4.08,2.11,ok,,medium,428418.63,4580192.28,428421.49,4580189.37,1.0,class
+0319907AR,Koelreuteria paniculata 'Fastigiata',False,C\ Sant Fructuós,4.08,1.75,ok,,medium,428422.81,4580196.39,428425.67,4580193.48,1.0,class
+0319908AR,Koelreuteria paniculata 'Fastigiata',False,C\ Sant Fructuós,4.11,1.82,ok,,medium,428431.9,4580205.33,428434.78,4580202.4,1.0,class
+0319909AR,Koelreuteria paniculata 'Fastigiata',False,C\ Sant Fructuós,4.14,1.64,ok,,medium,428437.16,4580210.5,428440.06,4580207.55,1.0,class
+0319910AR,Koelreuteria paniculata 'Fastigiata',False,C\ Sant Fructuós,4.14,1.76,ok,,medium,428442.21,4580215.45,428445.11,4580212.5,1.0,class
+0319911AR,Koelreuteria paniculata 'Fastigiata',False,C\ Sant Fructuós,4.1,1.82,ok,,medium,428447.03,4580220.2,428449.91,4580217.28,1.0,class
+0319912AR,Koelreuteria paniculata 'Fastigiata',False,C\ Sant Fructuós,4.12,1.7,ok,,medium,428453.02,4580226.09,428455.91,4580223.15,1.0,class
+0319913AR,Koelreuteria paniculata 'Fastigiata',False,C\ Sant Fructuós,2.64,1.06,ok,,small,428415.38,4580165.33,428413.51,4580167.19,1.0,class
+0319914AR,Koelreuteria paniculata 'Fastigiata',False,C\ Sant Fructuós,13.07,6.65,ok,,large,428415.3,4580165.25,428404.88,4580157.37,1.5,class
+0319915AR,Koelreuteria paniculata 'Fastigiata',False,C\ Sant Fructuós,4.99,1.98,ok,,medium,428419.19,4580169.1,428420.42,4580173.93,1.0,class
+0319916AR,Koelreuteria paniculata 'Fastigiata',False,C\ Sant Fructuós,8.34,2.45,ok,,large,428427.11,4580176.97,428419.67,4580173.2,1.5,class
+0319917AR,Koelreuteria paniculata 'Fastigiata',False,C\ Sant Fructuós,2.48,0.87,ok,,none,428430.78,4580180.59,428429.04,4580182.36,1.0,floor
+0319918AR,Koelreuteria paniculata 'Fastigiata',False,C\ Sant Fructuós,10.34,3.86,ok,,large,428443.42,4580192.94,428448.76,4580201.79,1.5,class
+0319919AR,Koelreuteria paniculata 'Fastigiata',False,C\ Sant Fructuós,7.64,3.17,ok,,large,428455.08,4580204.35,428448.13,4580201.17,1.5,class
+0319920AR,Koelreuteria paniculata 'Fastigiata',False,C\ Sant Fructuós,2.6,1.22,ok,,small,428456.65,4580205.87,428454.83,4580207.73,1.0,class
+0319923AR,Koelreuteria paniculata 'Fastigiata',False,C\ Sant Fructuós,2.57,1.28,ok,,small,428474.91,4580223.82,428473.13,4580225.67,1.0,class
+0319924AR,Koelreuteria paniculata 'Fastigiata',False,C\ Sant Fructuós,2.64,1.19,ok,,small,428479.73,4580228.47,428478.03,4580230.49,1.0,class
+0319925AR,Koelreuteria paniculata 'Fastigiata',False,C\ Sant Fructuós,2.64,1.17,ok,,small,428485.24,4580233.89,428483.4,4580235.78,1.0,class
+0319926AR,Koelreuteria paniculata 'Fastigiata',False,C\ Sant Fructuós,2.62,1.06,ok,,small,428490.9,4580239.43,428489.07,4580241.3,1.0,class
+0319927AR,Koelreuteria paniculata 'Fastigiata',False,C\ Sant Fructuós,3.66,1.61,ok,,medium,428494.05,4580242.5,428494.1,4580246.16,1.0,class
+0319928AR,Koelreuteria paniculata 'Fastigiata',False,C\ Sant Fructuós,2.57,1.24,ok,,small,428500.11,4580248.44,428498.34,4580250.3,1.0,class
+0319929AR,Koelreuteria paniculata 'Fastigiata',False,C\ Sant Fructuós,2.86,1.42,ok,,small,428514.33,4580260.32,428512.7,4580262.67,1.0,class
+0319930AR,Koelreuteria paniculata 'Fastigiata',False,C\ Sant Fructuós,2.63,1.2,ok,,small,428504.62,4580252.72,428502.81,4580254.63,1.0,class
+0319931AR,Koelreuteria paniculata 'Fastigiata',False,C\ Sant Fructuós,2.57,1.24,ok,,small,428521.25,4580264.92,428519.86,4580267.09,1.0,class
+0319932AR,Koelreuteria paniculata 'Fastigiata',False,C\ Sant Fructuós,2.37,0.92,ok,,none,428527.22,4580268.41,428526.16,4580270.54,1.0,floor
+0319933AR,Koelreuteria paniculata 'Fastigiata',False,C\ Sant Fructuós,2.51,1.27,ok,,small,428539.0,4580273.21,428538.17,4580275.57,1.0,class
+0319934AR,Koelreuteria paniculata 'Fastigiata',False,C\ Sant Fructuós,2.6,1.25,ok,,small,428548.76,4580276.88,428547.8,4580279.29,1.0,class
+0319935AR,Koelreuteria paniculata 'Fastigiata',False,C\ Sant Fructuós,2.6,1.21,ok,,small,428556.28,4580279.96,428555.29,4580282.36,1.0,class
+0319936AR,Koelreuteria paniculata 'Fastigiata',False,C\ Sant Fructuós,2.7,1.08,ok,,small,428563.47,4580283.13,428562.37,4580285.6,1.0,class
+0319937AR,Koelreuteria paniculata 'Fastigiata',False,C\ Sant Fructuós,2.76,1.33,ok,,small,428569.67,4580285.96,428568.5,4580288.46,1.0,class
+0319938AR,Koelreuteria paniculata 'Fastigiata',False,C\ Sant Fructuós,3.98,0.86,ok,,medium,428475.78,4580248.24,428478.57,4580245.4,1.0,class
+0319939AR,Koelreuteria paniculata 'Fastigiata',False,C\ Sant Fructuós,3.98,0.95,ok,,medium,428481.09,4580253.47,428483.89,4580250.63,1.0,class
+0319940AR,Koelreuteria paniculata 'Fastigiata',False,C\ Sant Fructuós,3.99,1.04,ok,,medium,428486.08,4580258.36,428488.87,4580255.52,1.0,class
+0319941AR,Koelreuteria paniculata 'Fastigiata',False,C\ Sant Fructuós,4.0,0.97,ok,,medium,428491.18,4580263.37,428493.98,4580260.51,1.0,class
+0319942AR,Koelreuteria paniculata 'Fastigiata',False,C\ Sant Fructuós,3.78,0.73,ok,,medium,428496.55,4580268.06,428498.96,4580265.16,1.0,class
+0319943AR,Koelreuteria paniculata 'Fastigiata',False,C\ Sant Fructuós,3.77,0.52,ok,,medium,428502.53,4580272.76,428504.77,4580269.72,1.0,class
+0319944AR,Koelreuteria paniculata 'Fastigiata',False,C\ Sant Fructuós,4.01,0.65,ok,,medium,428508.53,4580276.94,428510.73,4580273.59,1.0,class
+0319945AR,Koelreuteria paniculata 'Fastigiata',False,C\ Sant Fructuós,4.15,0.98,ok,,medium,428520.73,4580284.07,428522.64,4580280.38,1.0,class
+0319946AR,Koelreuteria paniculata 'Fastigiata',False,C\ Sant Fructuós,4.24,0.94,ok,,medium,428527.67,4580287.05,428529.13,4580283.07,1.0,class
+0319947AR,Koelreuteria paniculata 'Fastigiata',False,C\ Sant Fructuós,4.16,0.79,ok,,medium,428533.54,4580289.22,428534.98,4580285.31,1.0,class
+0319948AR,Koelreuteria paniculata 'Fastigiata',False,C\ Sant Fructuós,4.05,0.71,ok,,medium,428545.61,4580293.86,428547.21,4580290.14,1.0,class
+0319949AR,Koelreuteria paniculata 'Fastigiata',False,C\ Sant Fructuós,4.05,0.58,ok,,medium,428551.69,4580296.47,428553.29,4580292.75,1.0,class
+0319950AR,Koelreuteria paniculata 'Fastigiata',False,C\ Sant Fructuós,3.78,0.51,ok,,medium,428558.67,4580299.39,428559.95,4580295.83,1.0,class
+0319951AR,Koelreuteria paniculata 'Fastigiata',False,C\ Sant Fructuós,4.02,0.77,ok,,medium,428566.39,4580303.32,428568.26,4580299.77,1.0,class
+0319952AR,Koelreuteria paniculata 'Fastigiata',False,C\ Sant Fructuós,4.3,0.94,ok,,medium,428573.24,4580306.87,428575.21,4580303.05,1.0,class
+0319953AR,Hibiscus syriacus,False,C\ Indíbil,6.99,5.87,ok,,large,428413.82,4580150.11,428407.05,4580151.85,1.5,class
+0319954AR,Hibiscus syriacus,False,C\ Indíbil,3.65,2.73,ok,,medium,428415.03,4580148.87,428412.43,4580146.31,1.0,class
+0319955AR,Hibiscus syriacus,False,C\ Indíbil,3.7,2.54,ok,,medium,428420.22,4580143.6,428417.58,4580141.01,1.0,class
+0319956AR,Hibiscus syriacus,False,C\ Indíbil,3.73,2.65,ok,,medium,428425.79,4580137.91,428423.13,4580135.3,1.0,class
+0319957AR,Hibiscus syriacus,False,C\ Indíbil,2.89,1.65,ok,,small,428423.82,4580122.86,428426.58,4580123.73,1.0,class
+0319958AR,Hibiscus syriacus,False,C\ Indíbil,2.75,1.25,ok,,small,428420.19,4580126.57,428422.15,4580128.5,1.0,class
+0319959AR,Hibiscus syriacus,False,C\ Indíbil,2.78,1.34,ok,,small,428415.66,4580131.19,428417.65,4580133.14,1.0,class
+0319960AR,Hibiscus syriacus,False,C\ Indíbil,2.82,1.22,ok,,small,428411.15,4580135.79,428413.16,4580137.77,1.0,class
+0319961AR,Hibiscus syriacus,False,C\ Indíbil,2.86,1.09,ok,,small,428405.84,4580141.21,428407.88,4580143.21,1.0,class
+0319962AR,Hibiscus syriacus,False,C\ Indíbil,3.03,1.28,ok,,small,428401.12,4580145.83,428403.2,4580148.03,1.0,class
+0319964AR,Hibiscus syriacus,False,C\ Indíbil,3.29,1.86,ok,,small,428380.61,4580183.84,428378.25,4580181.55,1.0,class
+0319965AR,Hibiscus syriacus,False,C\ Indíbil,3.26,2.1,ok,,small,428375.19,4580189.39,428372.86,4580187.11,1.0,class
+0319966AR,Hibiscus syriacus,False,C\ Indíbil,3.24,2.29,ok,,small,428370.55,4580194.14,428368.23,4580191.88,1.0,class
+0319967AR,Hibiscus syriacus,False,C\ Indíbil,3.22,2.35,ok,,small,428365.16,4580199.66,428362.86,4580197.41,1.0,class
+0319968AR,Hibiscus syriacus,False,C\ Indíbil,3.21,2.41,ok,,small,428361.45,4580203.46,428359.16,4580201.22,1.0,class
+0319969AR,Hibiscus syriacus,False,C\ Indíbil,3.2,2.22,ok,,small,428357.41,4580207.61,428355.11,4580205.37,1.0,class
+0319970AR,Hibiscus syriacus,False,C\ Indíbil,4.58,3.24,ok,,medium,428354.55,4580210.61,428349.96,4580210.68,1.0,class
+0319971AR,Hibiscus syriacus,False,C\ Indíbil,3.3,1.5,ok,,small,428378.64,4580168.58,428381.0,4580170.89,1.0,class
+0319972AR,Hibiscus syriacus,False,C\ Indíbil,3.31,1.39,ok,,small,428372.28,4580175.09,428374.66,4580177.4,1.0,class
+0319973AR,Hibiscus syriacus,False,C\ Indíbil,3.32,1.36,ok,,small,428366.88,4580180.62,428369.26,4580182.94,1.0,class
+0319974AR,Hibiscus syriacus,False,C\ Indíbil,3.33,1.34,ok,,small,428362.16,4580185.45,428364.55,4580187.78,1.0,class
+0319975AR,Hibiscus syriacus,False,C\ Indíbil,3.33,1.26,ok,,small,428356.79,4580191.02,428359.19,4580193.32,1.0,class
+0319976AR,Hibiscus syriacus,False,C\ Indíbil,3.29,1.27,ok,,small,428353.05,4580194.92,428355.43,4580197.19,1.0,class
+0319977AR,Hibiscus syriacus,False,C\ Indíbil,3.24,1.13,ok,,small,428349.0,4580199.16,428351.35,4580201.4,1.0,class
+0319978AR,Hibiscus syriacus,False,C\ Indíbil,5.42,3.09,ok,,medium,428345.74,4580201.84,428345.63,4580207.26,1.0,class
+0322668AR,Prunus cerasifera 'Pissardii',False,C\ Trajà,3.2,2.2,ok,,small,428234.84,4579998.45,428236.62,4580001.12,1.0,class
+0334246AR,Celtis australis,False,C\ Polvorí,,22.79,median,15.67,check,,,,,1.0,floor
+0338535AR,Pinus pinea,False,C\ Polvorí,,43.53,no_facade,18.51,check,,,,,1.0,floor
+0338537AR,Pinus pinea,False,C\ Guatlla,,42.12,no_facade,4.03,check,,,,,1.0,floor
+0339769AR,Pinus halepensis,False,C\ Polvorí,,26.69,median,3.74,check,,,,,1.0,floor
+0339770AR,Pinus halepensis,False,C\ Polvorí,,34.23,no_facade,3.95,check,,,,,1.0,floor
+0341501AR,Platanus × acerifolia,True,G.V. Corts Catalanes,8.3,7.23,ok,,large,428295.03,4580164.11,428289.24,4580170.07,1.5,class

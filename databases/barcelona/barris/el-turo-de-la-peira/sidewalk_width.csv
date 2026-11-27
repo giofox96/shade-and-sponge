@@ -1,0 +1,827 @@
+tree_id,species,is_plane,street,width_m,facade_dist_m,flag,strip_width_m,size_class,ray_x0,ray_y0,ray_x1,ray_y1,pit_min_m2,pit_basis
+0057742AR,Pyrus calleryana 'Chanticleer',False,C\ Travau,3.08,2.49,ok,,small,430536.25,4587054.41,430533.93,4587056.44,1.0,class
+0057743AR,Melia azedarach,False,C\ Aneto,4.73,4.32,ok,,medium,430663.76,4587136.41,430667.03,4587139.82,1.0,class
+0057744AR,Platanus × acerifolia,True,C\ Sant Iscle,2.37,1.69,ok,,none,430814.86,4587167.08,430812.99,4587165.62,1.0,floor
+0057745AR,Tilia x europaea,False,C\ Montmajor,,14.5,median,,check,,,,,1.0,floor
+0057747AR,Platanus × acerifolia,True,Pg Fabra i Puig,7.2,6.69,ok,,large,430947.51,4586872.12,430947.37,4586864.92,1.5,class
+0057749AR,Platanus × acerifolia,True,C\ Doctor Pi i Molist,5.08,4.62,ok,,medium,431008.81,4586948.64,431013.52,4586950.56,1.0,class
+0057750AR,Pyrus calleryana 'Chanticleer',False,C\ Travau,3.55,3.12,ok,,medium,430516.07,4587049.79,430518.66,4587047.37,1.0,class
+0057751AR,Cupressus sempervirens,False,C\ Pere d'Artés,,6.87,no_kerb,,check,,,,,1.0,floor
+0057752AR,Populus alba 'Pyramidalis',False,C\ Beret,3.34,2.95,ok,,small,430516.76,4587146.71,430519.63,4587145.0,1.0,class
+0057753AR,Melia azedarach,False,C\ Montsant,,10.16,median,24.91,check,,,,,1.0,floor
+0057754AR,Populus alba 'Pyramidalis',False,C\ Cadí,4.34,3.78,ok,,medium,430622.35,4587079.79,430618.63,4587082.03,1.0,class
+0057755AR,Populus alba 'Pyramidalis',False,C\ Beret,3.44,3.08,ok,,small,430520.19,4587129.23,430517.23,4587130.99,1.0,class
+0057757AR,Platanus × acerifolia,True,Pg Peira,6.01,5.42,ok,,large,430566.93,4587052.5,430570.07,4587057.62,1.5,class
+0057758AR,Platanus × acerifolia,True,C\ Sant Iscle,,4.14,median,3.81,check,,,,,1.0,floor
+0057759AR,Melia azedarach,False,C\ Aneto,4.52,3.98,ok,,medium,430653.0,4587166.68,430649.89,4587163.4,1.0,class
+0057760AR,Platanus × acerifolia,True,C\ Doctor Pi i Molist,5.58,5.11,ok,,medium,430880.22,4587263.56,430885.39,4587265.67,1.0,class
+0057762AR,Melia azedarach,False,C\ Montsant,4.57,4.0,ok,,medium,430706.17,4587186.74,430708.58,4587190.62,1.0,class
+0057763AR,Platanus × acerifolia,True,C\ Sant Iscle,4.07,3.57,ok,,medium,430661.84,4587295.77,430664.44,4587298.91,1.0,class
+0057764AR,Melia azedarach,False,C\ Montsant,4.66,4.05,ok,,medium,430765.74,4587149.95,430768.19,4587153.92,1.0,class
+0057766AR,Celtis australis,False,C\ Sant Iscle,,10.6,median,9.74,check,,,,,1.0,floor
+0057767AR,Populus alba 'Pyramidalis',False,C\ Beret,3.37,2.97,ok,,small,430521.55,4587154.71,430524.46,4587153.03,1.0,class
+0057768AR,Platanus × acerifolia,True,C\ Doctor Pi i Molist,5.79,5.26,ok,,medium,430866.98,4587295.95,430872.34,4587298.14,1.0,class
+0057769AR,Platanus × acerifolia,True,Pg Fabra i Puig,7.29,6.63,ok,,large,430958.98,4586871.89,430958.84,4586864.6,1.5,class
+0057770AR,Tilia x europaea,False,C\ Montmajor,6.08,5.66,ok,,large,430698.78,4587096.21,430704.16,4587093.39,1.5,class
+0057771AR,Pyrus calleryana 'Chanticleer',False,C\ Travau,3.65,3.03,ok,,medium,430566.02,4587099.55,430562.9,4587101.43,1.0,class
+0057773AR,Platanus × acerifolia,True,C\ Sant Iscle,3.37,2.91,ok,,small,430982.72,4586889.02,430979.52,4586887.96,1.0,class
+0057774AR,Melia azedarach,False,C\ Aneto,4.58,4.08,ok,,medium,430621.38,4587177.12,430624.57,4587180.4,1.0,class
+0057775AR,Platanus × acerifolia,True,Pg Fabra i Puig,11.57,10.94,ok,,large,430101.48,4587073.07,430090.36,4587076.26,1.5,class
+0057776AR,Melia azedarach,False,C\ Aneto,4.35,3.77,ok,,medium,430635.24,4587183.51,430632.25,4587180.35,1.0,class
+0057777AR,Platanus × acerifolia,True,C\ Sant Iscle,6.1,5.53,ok,,large,430925.31,4586999.43,430928.61,4587004.56,1.5,class
+0057778AR,Tilia x europaea,False,C\ Montmajor,6.18,5.72,ok,,large,430723.35,4587143.4,430728.83,4587140.55,1.5,class
+0057779AR,Platanus × acerifolia,True,Pg Fabra i Puig,7.06,6.77,ok,,large,430578.95,4586889.54,430578.78,4586882.48,1.5,class
+0057780AR,Populus alba 'Pyramidalis',False,C\ Travau,5.32,4.95,ok,,medium,430579.48,4587145.1,430584.04,4587142.35,1.0,class
+0057781AR,Platanus × acerifolia,True,C\ Sant Iscle,3.52,2.92,ok,,medium,430716.12,4587271.07,430714.06,4587268.21,1.0,class
+0057782AR,Brachychiton populneus,False,C\ Cadí,3.67,3.16,ok,,medium,430499.75,4586955.54,430500.91,4586952.06,1.0,class
+0057783AR,Platanus × acerifolia,True,Pg Fabra i Puig,3.97,3.46,ok,,medium,430375.18,4586893.77,430375.05,4586889.8,1.0,class
+0057785AR,Brachychiton populneus,False,C\ Cadí,3.05,2.4,ok,,small,430562.12,4587006.49,430564.51,4587004.6,1.0,class
+0057787AR,Melia azedarach,False,C\ Aneto,5.68,4.86,ok,,medium,430749.55,4587074.21,430748.49,4587068.63,1.0,class
+0057788AR,Platanus × acerifolia,True,Pg Fabra i Puig,2.61,2.37,ok,,small,430218.05,4586926.84,430216.77,4586924.56,1.0,class
+0057789AR,Platanus × acerifolia,True,Pg Peira,5.86,5.34,ok,,medium,430509.16,4587087.57,430512.21,4587092.57,1.0,class
+0057790AR,Platanus × acerifolia,True,C\ Doctor Pi i Molist,5.52,5.26,ok,,medium,430954.6,4587081.06,430959.71,4587083.15,1.0,class
+0057791AR,Brachychiton populneus,False,C\ Cadí,2.74,2.23,ok,,small,430577.29,4587007.04,430575.08,4587008.66,1.0,class
+0057793AR,Brachychiton populneus,False,C\ Cadí,2.9,2.53,ok,,small,430423.6,4586925.29,430423.28,4586928.17,1.0,class
+0057794AR,Melia azedarach,False,C\ Vila-seca,,9.57,median,,check,,,,,1.0,floor
+0057795AR,Tilia x europaea,False,C\ Montmajor,6.1,5.62,ok,,large,430712.3,4587122.2,430717.71,4587119.38,1.5,class
+0057796AR,Brachychiton populneus,False,C\ Cadí,2.95,2.26,ok,,small,430549.5,4586975.53,430547.43,4586977.63,1.0,class
+0057798AR,Platanus × acerifolia,True,C\ Sant Iscle,5.81,5.05,ok,,medium,430731.19,4587259.77,430725.45,4587258.9,1.0,class
+0057799AR,Pyrus calleryana 'Chanticleer',False,C\ Travau,5.32,4.96,ok,,medium,430569.68,4587128.84,430574.23,4587126.09,1.0,class
+0057800AR,Populus alba 'Pyramidalis',False,C\ Cadí,4.8,4.39,ok,,medium,430676.51,4587192.74,430680.61,4587190.24,1.0,class
+0057801AR,Pyrus calleryana 'Chanticleer',False,C\ Travau,5.15,4.66,ok,,medium,430591.72,4587165.36,430596.13,4587162.7,1.0,class
+0057803AR,Brachychiton populneus,False,C\ Cadí,3.75,3.45,ok,,medium,430480.03,4586949.31,430481.08,4586945.72,1.0,class
+0057804AR,Melia azedarach,False,C\ Montsant,4.16,3.55,ok,,medium,430663.9,4587229.6,430661.72,4587226.06,1.0,class
+0057805AR,Brachychiton populneus,False,C\ Cadí,2.97,2.56,ok,,small,430469.1,4586933.75,430468.37,4586936.63,1.0,class
+0057806AR,Crataegus x media 'Paul's Scarlet',False,C\ Rosario Pi,7.23,6.56,ok,,large,430787.9,4587008.33,430795.13,4587008.13,1.5,class
+0057807AR,Tilia x europaea,False,C\ Montmajor,5.86,5.28,ok,,medium,430752.06,4587155.06,430746.87,4587157.78,1.0,class
+0057809AR,Brachychiton populneus,False,C\ Cadí,3.77,3.14,ok,,medium,430424.96,4586937.73,430425.49,4586934.0,1.0,class
+0057810AR,Platanus × acerifolia,True,C\ Sant Iscle,3.83,3.27,ok,,medium,430627.63,4587324.08,430630.07,4587327.03,1.0,class
+0057813AR,Pyrus calleryana 'Chanticleer',False,C\ Travau,3.46,3.05,ok,,small,430525.11,4587059.56,430527.84,4587057.44,1.0,class
+0057815AR,Tilia x europaea,False,C\ Montmajor,,14.48,median,,check,,,,,1.0,floor
+0057816AR,Platanus × acerifolia,True,C\ Sant Iscle,6.33,5.83,ok,,large,430954.22,4586975.87,430947.89,4586975.87,1.5,class
+0057817AR,Celtis australis,False,C\ Travau,,10.6,median,21.85,check,,,,,1.0,floor
+0057819AR,Platanus × acerifolia,True,Pg Fabra i Puig,18.81,17.21,ok,,large,430182.52,4586948.99,430166.1,4586958.18,1.5,class
+0057821AR,Melia azedarach,False,C\ Aneto,4.48,3.8,ok,,medium,430648.5,4587170.95,430645.42,4587167.7,1.0,class
+0057822AR,Platanus × acerifolia,True,Pg Peira,6.84,6.53,ok,,large,430623.35,4586903.3,430616.83,4586905.36,1.5,class
+0057823AR,Platanus × acerifolia,True,C\ Sant Iscle,2.3,1.82,ok,,none,430785.0,4587205.26,430783.19,4587203.84,1.0,floor
+0057824AR,Tilia x europaea,False,C\ Montmajor,6.09,5.55,ok,,large,430709.6,4587117.01,430715.0,4587114.2,1.5,class
+0057825AR,Platanus × acerifolia,True,C\ Sant Iscle,2.35,1.82,ok,,none,430810.22,4587173.01,430808.37,4587171.56,1.0,floor
+0057826AR,Platanus × acerifolia,True,C\ Sant Iscle,2.29,1.87,ok,,none,430790.37,4587198.39,430788.57,4587196.98,1.0,floor
+0057827AR,Tilia x europaea,False,C\ Besiberri,,5.37,no_kerb,,check,,,,,1.0,floor
+0057828AR,Platanus × acerifolia,True,Pg Fabra i Puig,,22.34,median,,check,,,,,1.0,floor
+0057829AR,Melia azedarach,False,C\ Aneto,4.63,4.17,ok,,medium,430625.74,4587172.88,430628.97,4587176.2,1.0,class
+0057831AR,Brachychiton populneus,False,C\ Cadí,2.95,2.56,ok,,small,430498.05,4586942.37,430497.14,4586945.18,1.0,class
+0057832AR,Tilia x euchlora,False,C\ Montmajor,11.19,10.35,ok,,large,430701.15,4587057.27,430700.03,4587068.4,1.5,class
+0057833AR,Platanus × acerifolia,True,C\ Sant Iscle,4.13,3.62,ok,,medium,430681.39,4587279.81,430683.98,4587283.02,1.0,class
+0057834AR,Ulmus pumila,False,C\ Vila-seca,2.68,1.88,ok,,small,430593.03,4587198.79,430594.46,4587201.06,1.0,class
+0057835AR,Platanus × acerifolia,True,Pg Fabra i Puig,3.67,3.4,ok,,medium,430127.34,4587008.03,430124.17,4587006.17,1.0,class
+0057836AR,Populus alba 'Pyramidalis',False,C\ Travau,5.27,4.85,ok,,medium,430582.57,4587150.22,430587.08,4587147.49,1.0,class
+0057837AR,Melia azedarach,False,C\ Vila-seca,2.78,2.07,ok,,small,430598.51,4587195.35,430599.98,4587197.71,1.0,class
+0057840AR,Platanus × acerifolia,True,Pg Peira,18.65,17.13,ok,,large,430628.82,4586911.13,430629.36,4586929.78,1.5,class
+0057841AR,Celtis australis,False,C\ Teide,,9.26,median,3.1,check,,,,,1.0,floor
+0057842AR,Platanus × acerifolia,True,Pg Urrutia,11.3,10.71,ok,,large,430759.47,4587350.42,430753.07,4587359.74,1.5,class
+0057843AR,Melia azedarach,False,C\ Aneto,4.86,4.15,ok,,medium,430647.43,4587151.8,430650.81,4587155.29,1.0,class
+0057844AR,Platanus × acerifolia,True,C\ Doctor Pi i Molist,,7.38,median,5.44,check,,,,,1.0,floor
+0057845AR,Melia azedarach,False,C\ Montsant,6.36,3.45,ok,,large,430659.79,4587232.14,430656.45,4587226.72,1.5,class
+0057846AR,Gleditsia triacanthos f. inermis,False,C\ Sant Iscle,,10.72,median,8.95,check,,,,,1.0,floor
+0057847AR,Melia azedarach,False,C\ Montsant,5.06,4.37,ok,,medium,430753.38,4587157.59,430754.4,4587162.55,1.0,class
+0057849AR,Platanus × acerifolia,True,Pg Fabra i Puig,7.44,7.05,ok,,large,430740.94,4586878.86,430740.71,4586871.42,1.5,class
+0057851AR,Populus alba 'Pyramidalis',False,C\ Cadí,4.95,4.39,ok,,medium,430680.08,4587198.58,430684.31,4587196.0,1.0,class
+0057852AR,Melia azedarach,False,C\ Aneto,9.31,8.41,ok,,large,430719.22,4587074.42,430723.5,4587082.68,1.5,class
+0057853AR,Platanus × acerifolia,True,Pg Fabra i Puig,7.37,7.02,ok,,large,430721.8,4586879.47,430721.57,4586872.11,1.5,class
+0057854AR,Populus alba 'Pyramidalis',False,C\ Travau,5.24,4.81,ok,,medium,430563.7,4587118.88,430568.19,4587116.19,1.0,class
+0057855AR,Platanus × acerifolia,True,Pg Fabra i Puig,7.62,6.89,ok,,large,430786.62,4586877.4,430786.38,4586869.78,1.5,class
+0057856AR,Populus alba 'Pyramidalis',False,C\ Travau,3.71,3.2,ok,,medium,430559.75,4587089.1,430556.57,4587091.01,1.0,class
+0057857AR,Platanus × acerifolia,True,Pg Fabra i Puig,,22.4,median,,check,,,,,1.0,floor
+0057858AR,Platanus × acerifolia,True,C\ Doctor Pi i Molist,5.29,4.79,ok,,medium,430977.94,4587024.18,430982.83,4587026.18,1.0,class
+0057859AR,Brachychiton populneus,False,C\ Cadí,3.73,3.23,ok,,medium,430486.09,4586951.1,430487.14,4586947.52,1.0,class
+0057862AR,Brachychiton populneus,False,Ptge Doctor Pi i Molist,3.97,3.5,ok,,medium,430965.57,4587015.38,430961.75,4587016.48,1.0,class
+0057864AR,Brachychiton populneus,False,C\ Cadí,2.98,2.64,ok,,small,430452.28,4586929.89,430451.71,4586932.81,1.0,class
+0057865AR,Platanus × acerifolia,True,Pg Fabra i Puig,23.52,23.05,ok,,large,430164.03,4586992.78,430147.35,4586976.19,1.5,class
+0057866AR,Pyrus calleryana 'Chanticleer',False,C\ Travau,3.24,2.71,ok,,small,430498.2,4587020.01,430496.37,4587022.68,1.0,class
+0057868AR,Platanus × acerifolia,True,Pg Fabra i Puig,10.72,5.28,ok,,large,430493.8,4586892.29,430493.48,4586881.57,1.5,class
+0057870AR,Platanus × acerifolia,True,Pg Fabra i Puig,6.16,5.8,ok,,large,430458.53,4586893.34,430458.35,4586887.18,1.5,class
+0057871AR,Celtis australis,False,C\ Sant Iscle,,10.3,median,,check,,,,,1.0,floor
+0057872AR,Platanus × acerifolia,True,Pg Fabra i Puig,13.94,13.52,ok,,large,430102.57,4587086.65,430089.23,4587082.61,1.5,class
+0057873AR,Platanus × acerifolia,True,C\ Doctor Pi i Molist,5.91,5.33,ok,,medium,430855.99,4587322.85,430861.46,4587325.09,1.0,class
+0057874AR,Brachychiton populneus,False,C\ Cadí,2.93,2.65,ok,,small,430433.88,4586926.68,430433.43,4586929.57,1.0,class
+0057875AR,Platanus × acerifolia,True,Pg Fabra i Puig,13.22,12.79,ok,,large,430100.9,4587092.18,430088.25,4587088.34,1.5,class
+0057876AR,Platanus × acerifolia,True,Pg Peira,5.88,5.32,ok,,medium,430593.81,4587064.11,430590.77,4587059.08,1.0,class
+0057877AR,Platanus × acerifolia,True,Pg Fabra i Puig,,22.32,median,,check,,,,,1.0,floor
+0057878AR,Platanus × acerifolia,True,C\ Doctor Pi i Molist,5.52,4.93,ok,,medium,430959.15,4587069.93,430964.26,4587072.02,1.0,class
+0057879AR,Pyrus calleryana 'Chanticleer',False,C\ Rosario Pi,,10.28,median,,check,,,,,1.0,floor
+0057880AR,Celtis australis,False,C\ Teide,,9.24,median,3.13,check,,,,,1.0,floor
+0057881AR,Platanus × acerifolia,True,Pg Fabra i Puig,6.57,5.63,ok,,large,430302.24,4586897.65,430305.96,4586892.24,1.5,class
+0057882AR,Platanus × acerifolia,True,C\ Doctor Pi i Molist,5.32,4.81,ok,,medium,430980.21,4587018.61,430985.13,4587020.62,1.0,class
+0057883AR,Melia azedarach,False,C\ Aneto,4.32,3.95,ok,,medium,430788.4,4587036.19,430785.4,4587033.08,1.0,class
+0057884AR,Melia azedarach,False,C\ Aneto,6.75,5.51,ok,,large,430726.78,4587070.51,430729.88,4587076.5,1.5,class
+0057886AR,Platanus × acerifolia,True,C\ Doctor Pi i Molist,5.23,4.75,ok,,medium,431001.75,4586965.91,431006.59,4586967.89,1.0,class
+0057889AR,Platanus × acerifolia,True,C\ Sant Iscle,2.54,2.06,ok,,small,430751.82,4587240.52,430750.1,4587238.66,1.0,class
+0057890AR,Platanus × acerifolia,True,Pg Peira,5.22,4.96,ok,,medium,430625.56,4586911.23,430621.57,4586914.6,1.0,class
+0057892AR,Brachychiton populneus,False,C\ Cadí,2.91,2.52,ok,,small,430546.0,4586988.5,430548.07,4586986.45,1.0,class
+0057894AR,Platanus × acerifolia,True,C\ Doctor Pi i Molist,5.76,5.34,ok,,medium,430939.07,4587118.93,430944.4,4587121.11,1.0,class
+0057896AR,Platanus × acerifolia,True,Pg Fabra i Puig,,14.1,median,,check,,,,,1.0,floor
+0057898AR,Platanus × acerifolia,True,C\ Sant Iscle,3.41,2.92,ok,,small,430976.6,4586907.58,430973.36,4586906.52,1.0,class
+0057900AR,Celtis australis,False,C\ Sant Iscle,5.98,5.05,ok,,medium,430958.18,4586963.73,430952.49,4586961.87,1.0,class
+0057901AR,Populus alba 'Pyramidalis',False,C\ Travau,5.14,4.66,ok,,medium,430594.68,4587170.25,430599.07,4587167.6,1.0,class
+0057902AR,Populus alba 'Pyramidalis',False,C\ Cadí,4.57,3.85,ok,,medium,430613.57,4587088.6,430617.48,4587086.25,1.0,class
+0057903AR,Pyrus calleryana 'Chanticleer',False,C\ Travau,3.76,3.25,ok,,medium,430520.68,4587054.74,430523.44,4587052.18,1.0,class
+0057904AR,Brachychiton populneus,False,C\ Cadí,3.85,3.4,ok,,medium,430461.29,4586944.34,430462.21,4586940.61,1.0,class
+0057905AR,Pyrus calleryana 'Chanticleer',False,C\ Travau,3.01,2.33,ok,,small,430527.13,4587044.0,430524.87,4587045.98,1.0,class
+0057906AR,Pyrus calleryana 'Chanticleer',False,C\ Rosario Pi,,10.81,median,,check,,,,,1.0,floor
+0057907AR,Celtis australis,False,Pg Peira,5.95,5.56,ok,,medium,430586.36,4586890.57,430592.31,4586890.38,1.0,class
+0057908AR,Platanus × acerifolia,True,Pg Fabra i Puig,3.94,3.61,ok,,medium,430368.63,4586893.99,430368.5,4586890.05,1.0,class
+0057909AR,Tilia x europaea,False,C\ Montmajor,6.04,5.57,ok,,large,430667.99,4587037.57,430673.34,4587034.76,1.5,class
+0057910AR,Melia azedarach,False,C\ Montsant,4.62,4.07,ok,,medium,430715.65,4587180.88,430718.07,4587184.8,1.0,class
+0057911AR,Platanus × acerifolia,True,C\ Sant Iscle,2.79,2.36,ok,,small,430703.13,4587280.58,430702.03,4587278.01,1.0,class
+0057912AR,Platanus × acerifolia,True,C\ Sant Iscle,3.36,2.81,ok,,small,430985.07,4586881.92,430981.87,4586880.87,1.0,class
+0057913AR,Brachychiton populneus,False,Ptge Doctor Pi i Molist,4.06,3.53,ok,,medium,430955.91,4587025.32,430959.82,4587024.22,1.0,class
+0057914AR,Platanus × acerifolia,True,C\ Doctor Pi i Molist,5.18,4.7,ok,,medium,431003.95,4586960.54,431008.75,4586962.5,1.0,class
+0057915AR,Platanus × acerifolia,True,C\ Doctor Pi i Molist,5.37,4.79,ok,,medium,430986.99,4587002.03,430991.96,4587004.06,1.0,class
+0057920AR,Populus alba 'Pyramidalis',False,C\ Cadí,4.72,3.99,ok,,medium,430673.45,4587187.73,430677.47,4587185.27,1.0,class
+0057921AR,Populus alba 'Pyramidalis',False,C\ Beret,3.09,2.81,ok,,small,430467.55,4587059.02,430465.53,4587061.36,1.0,class
+0057923AR,Platanus × acerifolia,True,Pg Fabra i Puig,5.65,4.89,ok,,medium,430131.87,4587000.29,430130.85,4586994.73,1.0,class
+0057924AR,Fraxinus angustifolia 'Raywood',False,C\ Cadí,4.54,4.01,ok,,medium,430682.33,4587178.43,430678.47,4587180.83,1.0,class
+0057925AR,Celtis australis,False,C\ Sant Iscle,5.99,5.43,ok,,medium,430956.19,4586969.83,430950.49,4586967.98,1.0,class
+0057926AR,Platanus × acerifolia,True,C\ Sant Iscle,,15.94,median,10.14,check,,,,,1.0,floor
+0057928AR,Platanus × acerifolia,True,Pg Fabra i Puig,,22.2,median,,check,,,,,1.0,floor
+0057929AR,Platanus × acerifolia,True,C\ Sant Iscle,6.0,2.82,ok,,medium,430955.88,4586970.77,430950.18,4586968.92,1.0,class
+0057930AR,Melia azedarach,False,C\ Montsant,,10.45,median,,check,,,,,1.0,floor
+0057931AR,Platanus × acerifolia,True,Pg Fabra i Puig,11.25,10.5,ok,,large,430909.44,4586874.39,430901.68,4586866.25,1.5,class
+0057932AR,Populus alba 'Pyramidalis',False,C\ Travau,3.5,2.94,ok,,medium,430587.84,4587135.88,430584.84,4587137.69,1.0,class
+0057933AR,Platanus × acerifolia,True,Pg Peira,5.89,5.52,ok,,medium,430583.69,4587070.21,430580.65,4587065.17,1.0,class
+0057934AR,Tilia x europaea,False,C\ Montmajor,13.07,12.29,ok,,large,430699.28,4587053.7,430688.5,4587046.31,1.5,class
+0057935AR,Platanus × acerifolia,True,Pg Urrutia,8.44,7.16,ok,,large,430629.41,4587351.56,430634.77,4587358.07,1.5,class
+0057936AR,Platanus × acerifolia,True,Pg Peira,5.8,4.94,ok,,medium,430520.7,4587080.63,430523.66,4587085.61,1.0,class
+0057938AR,Melia azedarach,False,Pg Peira,5.91,5.51,ok,,medium,430613.87,4587024.02,430616.93,4587029.08,1.0,class
+0057939AR,Brachychiton populneus,False,C\ Cadí,2.94,2.51,ok,,small,430550.21,4586992.77,430552.31,4586990.7,1.0,class
+0057940AR,Prunus cerasifera 'Pissardii',False,C\ Teide,2.83,2.39,ok,,small,430527.73,4586945.59,430525.4,4586943.98,1.0,class
+0057941AR,Melia azedarach,False,C\ Aneto,4.55,3.98,ok,,medium,430704.03,4587117.83,430700.87,4587114.55,1.0,class
+0057942AR,Platanus × acerifolia,True,C\ Sant Iscle,5.77,5.22,ok,,medium,430945.36,4587000.57,430940.32,4586997.76,1.0,class
+0057943AR,Melia azedarach,False,C\ Montsant,,10.13,median,,check,,,,,1.0,floor
+0057945AR,Platanus × acerifolia,True,Pg Fabra i Puig,17.75,17.05,ok,,large,430870.18,4586883.04,430877.8,4586867.01,1.5,class
+0057946AR,Populus alba 'Pyramidalis',False,C\ Cadí,4.46,4.05,ok,,medium,430673.08,4587163.58,430669.29,4587165.94,1.0,class
+0057947AR,Melia azedarach,False,C\ Montsant,4.5,3.98,ok,,medium,430789.31,4587135.39,430791.67,4587139.21,1.0,class
+0057949AR,Melia azedarach,False,C\ Montsant,4.7,4.01,ok,,medium,430730.91,4587171.44,430733.38,4587175.43,1.0,class
+0057950AR,Pyrus calleryana 'Chanticleer',False,C\ Travau,3.59,2.88,ok,,medium,430594.03,4587146.19,430590.95,4587148.03,1.0,class
+0057951AR,Platanus × acerifolia,True,Pg Fabra i Puig,7.55,7.02,ok,,large,430671.32,4586880.94,430671.15,4586873.39,1.5,class
+0057952AR,Platanus × acerifolia,True,Pg Peira,8.72,8.2,ok,,large,430614.14,4586943.71,430615.37,4586935.08,1.5,class
+0057953AR,Celtis australis,False,C\ Montsant,7.52,5.68,ok,,large,430651.09,4587237.49,430643.7,4587238.88,1.5,class
+0057955AR,Pyrus calleryana 'Chanticleer',False,C\ Travau,3.19,2.75,ok,,small,430500.86,4587036.46,430502.66,4587033.83,1.0,class
+0057956AR,Brachychiton populneus,False,C\ Cadí,3.08,2.31,ok,,small,430570.4,4586997.78,430567.93,4586999.63,1.0,class
+0057958AR,Platanus × acerifolia,True,Pg Fabra i Puig,2.46,2.09,ok,,none,430200.45,4586936.69,430199.25,4586934.54,1.0,floor
+0057959AR,Populus alba 'Pyramidalis',False,C\ Cadí,4.59,3.85,ok,,medium,430653.1,4587130.97,430649.16,4587133.33,1.0,class
+0057960AR,Populus alba 'Pyramidalis',False,C\ Cadí,4.55,4.11,ok,,medium,430685.57,4587183.63,430681.71,4587186.03,1.0,class
+0057961AR,Platanus × acerifolia,True,Pg Peira,5.89,5.36,ok,,medium,430588.72,4587067.18,430585.68,4587062.14,1.0,class
+0057963AR,Melia azedarach,False,C\ Montsant,4.17,3.81,ok,,medium,430668.08,4587227.03,430665.89,4587223.48,1.0,class
+0057964AR,Platanus × acerifolia,True,C\ Doctor Pi i Molist,11.36,10.35,ok,,large,430900.71,4587213.27,430902.06,4587224.56,1.5,class
+0057965AR,Melia azedarach,False,C\ Aneto,4.43,4.17,ok,,medium,430673.78,4587146.94,430670.71,4587143.74,1.0,class
+0057966AR,Platanus × acerifolia,True,Pg Fabra i Puig,5.57,4.72,ok,,medium,430233.43,4586918.68,430235.72,4586913.61,1.0,class
+0057967AR,Platanus × acerifolia,True,C\ Sant Iscle,3.95,3.4,ok,,medium,430644.91,4587309.78,430647.43,4587312.83,1.0,class
+0057968AR,Platanus × acerifolia,True,Pg Peira,6.16,5.58,ok,,large,430524.89,4587105.82,430521.71,4587100.54,1.5,class
+0057969AR,Pyrus calleryana 'Chanticleer',False,C\ Beret,,9.02,median,,check,,,,,1.0,floor
+0057970AR,Parrotia persica 'Vanessa',False,C\ Rosario Pi,16.29,15.15,ok,,large,430787.74,4587002.31,430800.03,4586991.61,1.5,class
+0057971AR,Platanus × acerifolia,True,Pg Fabra i Puig,5.47,5.06,ok,,medium,430287.54,4586901.66,430286.1,4586896.39,1.0,class
+0057972AR,Platanus × acerifolia,True,Pg Peira,6.09,5.59,ok,,large,430518.8,4587109.47,430515.66,4587104.25,1.5,class
+0057973AR,Populus alba 'Pyramidalis',False,C\ Travau,5.16,4.77,ok,,medium,430597.83,4587175.46,430602.24,4587172.79,1.0,class
+0057974AR,Platanus × acerifolia,True,Pg Fabra i Puig,11.24,10.58,ok,,large,430097.63,4587102.97,430086.53,4587101.14,1.5,class
+0057975AR,Melia azedarach,False,C\ Montsant,4.64,4.07,ok,,medium,430720.62,4587177.8,430723.06,4587181.75,1.0,class
+0057977AR,Platanus × acerifolia,True,Pg Peira,6.52,5.99,ok,,large,430620.65,4587019.92,430626.14,4587023.44,1.5,class
+0057978AR,Melia azedarach,False,C\ Montsant,8.49,6.96,ok,,large,430708.84,4587201.92,430712.54,4587194.27,1.5,class
+0057980AR,Brachychiton populneus,False,C\ Cadí,2.94,2.47,ok,,small,430503.66,4586944.24,430502.73,4586947.03,1.0,class
+0057981AR,Brachychiton populneus,False,Ptge Doctor Pi i Molist,3.98,3.59,ok,,medium,430963.77,4587009.12,430959.95,4587010.22,1.0,class
+0057982AR,Tilia x europaea,False,C\ Montmajor,6.01,5.36,ok,,large,430690.37,4587080.19,430695.68,4587077.4,1.5,class
+0057983AR,Fraxinus angustifolia 'Raywood',False,C\ Cadí,4.58,4.08,ok,,medium,430643.82,4587115.53,430639.89,4587117.89,1.0,class
+0057984AR,Pyrus calleryana 'Chanticleer',False,C\ Rosario Pi,,10.66,median,,check,,,,,1.0,floor
+0057986AR,Melia azedarach,False,C\ Montsant,4.59,3.99,ok,,medium,430710.9,4587183.81,430713.32,4587187.71,1.0,class
+0057987AR,Platanus × acerifolia,True,C\ Doctor Pi i Molist,5.75,5.3,ok,,medium,430869.19,4587290.56,430874.51,4587292.73,1.0,class
+0057989AR,Platanus × acerifolia,True,C\ Doctor Pi i Molist,4.99,4.34,ok,,medium,431022.16,4586915.97,431026.78,4586917.86,1.0,class
+0057990AR,Melia azedarach,False,C\ Aneto,4.68,4.18,ok,,medium,430629.88,4587168.85,430633.15,4587172.21,1.0,class
+0057991AR,Platanus × acerifolia,True,C\ Sant Iscle,4.0,3.44,ok,,medium,430944.87,4586956.94,430948.67,4586958.17,1.0,class
+0057992AR,Brachychiton populneus,False,C\ Cadí,3.71,3.42,ok,,medium,430490.56,4586952.5,430491.73,4586948.98,1.0,class
+0057994AR,Platanus × acerifolia,True,Pg Peira,15.15,14.6,ok,,large,430624.03,4586889.54,430608.89,4586889.89,1.5,class
+0057995AR,Platanus × acerifolia,True,Pg Fabra i Puig,3.84,3.37,ok,,medium,430130.59,4587002.48,430127.27,4587000.54,1.0,class
+0057996AR,Platanus × acerifolia,True,C\ Sant Iscle,3.69,3.26,ok,,medium,430704.55,4587261.42,430706.87,4587264.29,1.0,class
+0057997AR,Populus alba 'Pyramidalis',False,C\ Beret,3.36,2.95,ok,,small,430487.9,4587079.43,430485.35,4587081.62,1.0,class
+0057999AR,Cupressus sempervirens,False,C\ Pere d'Artés,20.5,5.32,ok,,large,430874.37,4586885.05,430883.77,4586866.83,1.5,class
+0058001AR,Populus alba 'Pyramidalis',False,C\ Beret,3.59,3.1,ok,,medium,430493.82,4587086.7,430490.98,4587088.89,1.0,class
+0058002AR,Melia azedarach,False,C\ Montsant,6.39,3.65,ok,,large,430698.71,4587208.16,430695.36,4587202.71,1.5,class
+0058003AR,Acer platanoides,False,C\ Cadí,4.34,3.88,ok,,medium,430612.84,4587063.97,430609.13,4587066.21,1.0,class
+0058004AR,Platanus × acerifolia,True,Pg Fabra i Puig,7.34,6.75,ok,,large,430964.84,4586871.77,430964.69,4586864.44,1.5,class
+0058005AR,Pyrus calleryana 'Chanticleer',False,C\ Travau,3.19,2.08,ok,,small,430510.64,4587029.13,430508.63,4587031.61,1.0,class
+0058006AR,Brachychiton populneus,False,C\ Cadí,3.72,3.4,ok,,medium,430473.3,4586947.34,430474.35,4586943.77,1.0,class
+0058007AR,Platanus × acerifolia,True,Pg Fabra i Puig,24.49,24.11,ok,,large,430164.03,4586992.78,430152.17,4586971.35,1.5,class
+0058010AR,Platanus × acerifolia,True,Pg Peira,6.23,5.68,ok,,large,430531.26,4587101.99,430528.05,4587096.65,1.5,class
+0058011AR,Platanus × acerifolia,True,C\ Doctor Pi i Molist,5.16,4.74,ok,,medium,431031.97,4586887.62,431037.13,4586887.61,1.0,class
+0058012AR,Populus alba 'Pyramidalis',False,C\ Cadí,4.52,4.08,ok,,medium,430679.35,4587173.65,430675.51,4587176.04,1.0,class
+0058016AR,Pyrus calleryana 'Chanticleer',False,C\ Travau,3.41,2.96,ok,,small,430529.18,4587064.82,430531.88,4587062.73,1.0,class
+0058017AR,Platanus × acerifolia,True,Pg Fabra i Puig,4.13,3.5,ok,,medium,430325.84,4586895.4,430325.7,4586891.27,1.0,class
+0058019AR,Populus alba 'Pyramidalis',False,C\ Cadí,4.42,3.89,ok,,medium,430628.57,4587090.16,430624.79,4587092.43,1.0,class
+0058020AR,Platanus × acerifolia,True,C\ Sant Iscle,,10.32,median,9.33,check,,,,,1.0,floor
+0058021AR,Melia azedarach,False,C\ Aneto,4.52,4.04,ok,,medium,430695.45,4587126.09,430692.31,4587122.83,1.0,class
+0058022AR,Brachychiton populneus,False,Ptge Doctor Pi i Molist,3.96,3.7,ok,,medium,430948.49,4586999.1,430952.3,4586998.02,1.0,class
+0058023AR,Platanus × acerifolia,True,C\ Sant Iscle,,10.36,median,28.13,check,,,,,1.0,floor
+0058024AR,Melia azedarach,False,C\ Aneto,,12.24,median,,check,,,,,1.0,floor
+0058025AR,Platanus × acerifolia,True,Pg Urrutia,4.75,3.65,ok,,medium,430676.02,4587347.07,430676.25,4587351.81,1.0,class
+0058027AR,Brachychiton populneus,False,C\ Cadí,2.92,2.51,ok,,small,430482.27,4586937.39,430481.43,4586940.2,1.0,class
+0058028AR,Platanus × acerifolia,True,Pg Fabra i Puig,7.67,7.02,ok,,large,430843.37,4586875.7,430843.17,4586868.03,1.5,class
+0058029AR,Pyrus calleryana 'Chanticleer',False,C\ Travau,3.26,2.69,ok,,small,430504.27,4587024.16,430502.43,4587026.85,1.0,class
+0058031AR,Prunus cerasifera 'Pissardii',False,C\ Teide,3.19,2.62,ok,,small,430461.34,4587041.5,430458.71,4587039.69,1.0,class
+0058032AR,Tilia x europaea,False,C\ Montmajor,5.87,5.28,ok,,medium,430749.26,4587149.7,430744.06,4587152.42,1.0,class
+0058033AR,Platanus × acerifolia,True,C\ Sant Iscle,2.53,1.93,ok,,small,430757.84,4587235.57,430756.12,4587233.71,1.0,class
+0058035AR,Brachychiton populneus,False,C\ Cadí,2.72,2.31,ok,,small,430418.25,4586924.7,430417.96,4586927.4,1.0,class
+0058036AR,Melia azedarach,False,C\ Aneto,4.73,4.11,ok,,medium,430668.2,4587132.16,430671.47,4587135.58,1.0,class
+0058037AR,Platanus × acerifolia,True,C\ Sant Iscle,5.31,4.33,ok,,medium,430734.24,4587237.12,430739.53,4587237.56,1.0,class
+0058040AR,Platanus × acerifolia,True,Pg Fabra i Puig,10.67,9.78,ok,,large,430318.99,4586899.15,430311.21,4586891.84,1.5,class
+0058042AR,Melia azedarach,False,C\ Aneto,4.44,3.69,ok,,medium,430644.45,4587174.79,430641.39,4587171.57,1.0,class
+0058044AR,Platanus × acerifolia,True,C\ Doctor Pi i Molist,9.19,8.72,ok,,large,430832.68,4587372.69,430839.45,4587378.9,1.5,class
+0058045AR,Populus alba 'Pyramidalis',False,C\ Travau,5.21,4.66,ok,,medium,430604.01,4587185.67,430608.46,4587182.97,1.0,class
+0058046AR,Pyrus calleryana 'Chanticleer',False,C\ Travau,5.4,4.69,ok,,medium,430626.48,4587197.19,430621.89,4587200.01,1.0,class
+0058047AR,Platanus × acerifolia,True,Pg Urrutia,14.8,13.75,ok,,large,430650.47,4587340.0,430650.84,4587354.8,1.5,class
+0058048AR,Platanus × acerifolia,True,Pg Fabra i Puig,6.18,5.38,ok,,large,430480.2,4586892.69,430480.02,4586886.51,1.5,class
+0058051AR,Melia azedarach,False,C\ Montsant,4.13,3.58,ok,,medium,430804.58,4587126.29,430806.75,4587129.81,1.0,class
+0058052AR,Brachychiton populneus,False,C\ Cadí,2.96,2.39,ok,,small,430535.11,4586963.32,430533.38,4586965.72,1.0,class
+0058053AR,Platanus × acerifolia,True,Pg Fabra i Puig,5.03,4.25,ok,,medium,430321.37,4586895.54,430318.36,4586891.51,1.0,class
+0058054AR,Populus alba 'Pyramidalis',False,C\ Beret,,8.93,median,16.32,check,,,,,1.0,floor
+0058055AR,Fraxinus angustifolia 'Raywood',False,C\ Cadí,4.6,4.04,ok,,medium,430656.1,4587135.96,430652.16,4587138.33,1.0,class
+0058056AR,Populus alba 'Pyramidalis',False,C\ Cadí,4.67,4.12,ok,,medium,430667.24,4587177.59,430671.23,4587175.15,1.0,class
+0058057AR,Platanus × acerifolia,True,C\ Doctor Pi i Molist,5.62,5.11,ok,,medium,430877.67,4587269.8,430882.87,4587271.92,1.0,class
+0058058AR,Pyrus calleryana 'Chanticleer',False,C\ Travau,5.23,4.59,ok,,medium,430585.07,4587154.37,430589.55,4587151.67,1.0,class
+0058060AR,Melia azedarach,False,C\ Aneto,4.54,4.14,ok,,medium,430699.97,4587121.74,430696.82,4587118.47,1.0,class
+0058061AR,Melia azedarach,False,C\ Aneto,,12.06,median,,check,,,,,1.0,floor
+0058062AR,Platanus × acerifolia,True,Pg Fabra i Puig,7.64,7.24,ok,,large,430696.53,4586880.28,430696.29,4586872.65,1.5,class
+0058064AR,Platanus × acerifolia,True,Pg Fabra i Puig,,19.23,median,,check,,,,,1.0,floor
+0058065AR,Melia azedarach,False,C\ Montsant,4.52,3.95,ok,,medium,430696.48,4587192.73,430698.86,4587196.57,1.0,class
+0058066AR,Platanus × acerifolia,True,C\ Sant Iscle,2.47,2.16,ok,,none,430849.7,4587122.27,430847.75,4587120.75,1.0,floor
+0058070AR,Celtis australis,False,C\ Teide,,9.18,median,3.12,check,,,,,1.0,floor
+0058071AR,Melia azedarach,False,C\ Aneto,,12.61,median,21.78,check,,,,,1.0,floor
+0058072AR,Brachychiton populneus,False,C\ Cadí,2.73,2.55,ok,,small,430541.36,4586983.95,430543.11,4586981.87,1.0,class
+0058073AR,Platanus × acerifolia,True,C\ Doctor Pi i Molist,4.99,4.82,ok,,medium,431031.74,4586890.53,431036.65,4586891.38,1.0,class
+0058075AR,Populus alba 'Pyramidalis',False,C\ Cadí,4.55,4.12,ok,,medium,430688.37,4587188.13,430684.51,4587190.54,1.0,class
+0058076AR,Platanus × acerifolia,True,Pg Peira,6.25,5.45,ok,,large,430659.5,4587024.5,430656.29,4587019.14,1.5,class
+0058077AR,Melia azedarach,False,C\ Aneto,4.41,4.09,ok,,medium,430670.48,4587150.12,430667.42,4587146.94,1.0,class
+0058078AR,Platanus × acerifolia,True,Pg Peira,16.68,16.28,ok,,large,430660.54,4586957.39,430643.87,4586957.96,1.5,class
+0058079AR,Platanus × acerifolia,True,Pg Peira,19.18,18.8,ok,,large,430660.36,4586952.11,430641.18,4586952.76,1.5,class
+0058080AR,Fraxinus ornus OBELISK® 'Paus Johannes-Paulus II',False,C\ Cadí,4.49,3.96,ok,,medium,430675.97,4587168.23,430672.16,4587170.6,1.0,class
+0058081AR,Melia azedarach,False,C\ Aneto,4.47,3.96,ok,,medium,430682.69,4587138.37,430679.59,4587135.14,1.0,class
+0058085AR,Gleditsia triacanthos f. inermis,False,C\ Sant Iscle,3.39,2.86,ok,,small,430980.28,4586896.42,430977.07,4586895.35,1.0,class
+0058086AR,Platanus × acerifolia,True,C\ Sant Iscle,5.03,4.52,ok,,medium,430939.8,4587010.55,430935.4,4587008.1,1.0,class
+0058087AR,Platanus × acerifolia,True,C\ Teide,2.92,2.35,ok,,small,430507.97,4586974.43,430505.57,4586972.77,1.0,class
+0058088AR,Platanus × acerifolia,True,Pg Fabra i Puig,,22.07,median,,check,,,,,1.0,floor
+0058089AR,Platanus × acerifolia,True,C\ Sant Iscle,,11.55,median,11.89,check,,,,,1.0,floor
+0058090AR,Platanus × acerifolia,True,Pg Peira,5.98,5.59,ok,,medium,430604.14,4587029.91,430607.23,4587035.03,1.0,class
+0058091AR,Melia azedarach,False,C\ Aneto,4.67,3.89,ok,,medium,430731.6,4587091.36,430728.37,4587087.98,1.0,class
+0058092AR,Platanus × acerifolia,True,C\ Doctor Pi i Molist,10.24,9.62,ok,,large,430963.55,4587052.31,430973.41,4587049.52,1.5,class
+0058093AR,Platanus × acerifolia,True,Pg Peira,5.85,5.53,ok,,medium,430626.02,4587044.57,430623.01,4587039.55,1.0,class
+0058094AR,Platanus × acerifolia,True,C\ Sant Iscle,2.28,1.73,ok,,none,430795.25,4587192.15,430793.45,4587190.75,1.0,floor
+0058095AR,Pyrus calleryana 'Chanticleer',False,C\ Beret,4.1,3.66,ok,,medium,430513.36,4587140.92,430514.91,4587137.12,1.0,class
+0058096AR,Tilia x europaea,False,C\ Montmajor,5.98,5.61,ok,,medium,430732.35,4587117.33,430727.06,4587120.1,1.0,class
+0058098AR,Platanus × acerifolia,True,Pg Fabra i Puig,,22.2,median,,check,,,,,1.0,floor
+0058099AR,Populus alba 'Pyramidalis',False,C\ Travau,3.44,2.84,ok,,small,430609.26,4587171.55,430606.31,4587173.32,1.0,class
+0058100AR,Parrotia persica 'Vanessa',False,C\ Rosario Pi,,14.25,median,,check,,,,,1.0,floor
+0058102AR,Prunus cerasifera 'Pissardii',False,C\ Teide,5.43,2.62,ok,,medium,430473.46,4587024.1,430469.65,4587020.22,1.0,class
+0058103AR,Platanus × acerifolia,True,C\ Doctor Pi i Molist,5.04,4.59,ok,,medium,431024.24,4586910.73,431028.94,4586912.55,1.0,class
+0058105AR,Platanus × acerifolia,True,Pg Fabra i Puig,7.05,6.2,ok,,large,430383.39,4586893.5,430389.16,4586889.45,1.5,class
+0058106AR,Brachychiton populneus,False,Ptge Doctor Pi i Molist,4.08,3.55,ok,,medium,430957.58,4587031.22,430961.51,4587030.11,1.0,class
+0058107AR,Tilia x europaea,False,C\ Montmajor,5.92,5.3,ok,,medium,430740.77,4587133.45,430735.53,4587136.18,1.0,class
+0058108AR,Platanus × acerifolia,True,Pg Peira,9.58,9.05,ok,,large,430661.05,4586972.4,430651.48,4586972.73,1.5,class
+0058109AR,Platanus × acerifolia,True,Pg Fabra i Puig,6.15,5.51,ok,,large,430486.64,4586892.5,430486.46,4586886.35,1.5,class
+0058110AR,Platanus × acerifolia,True,Pg Peira,14.37,13.92,ok,,large,430660.7,4586962.28,430646.35,4586962.78,1.5,class
+0058111AR,Platanus × acerifolia,True,Pg Peira,5.74,5.05,ok,,medium,430526.09,4587077.42,430529.02,4587082.36,1.0,class
+0058113AR,Platanus × acerifolia,True,C\ Teide,2.95,2.55,ok,,small,430503.98,4586959.46,430506.64,4586960.73,1.0,class
+0058114AR,Melia azedarach,False,C\ Aneto,4.49,4.16,ok,,medium,430686.91,4587134.31,430683.79,4587131.07,1.0,class
+0058115AR,Brachychiton populneus,False,C\ Cadí,2.86,2.12,ok,,small,430553.49,4586979.49,430551.48,4586981.52,1.0,class
+0058116AR,Platanus × acerifolia,True,C\ Sant Iscle,3.29,2.86,ok,,small,430740.49,4587250.81,430738.26,4587248.39,1.0,class
+0058118AR,Platanus × acerifolia,True,C\ Sant Iscle,,10.38,median,25.39,check,,,,,1.0,floor
+0058119AR,Platanus × acerifolia,True,Pg Urrutia,12.55,11.25,ok,,large,430635.63,4587346.42,430643.62,4587356.11,1.5,class
+0058121AR,Platanus × acerifolia,True,C\ Sant Iscle,2.41,1.8,ok,,none,430820.38,4587160.02,430818.48,4587158.54,1.0,floor
+0058122AR,Platanus × acerifolia,True,C\ Sant Iscle,8.29,5.49,ok,,large,430943.05,4586959.38,430947.51,4586966.37,1.5,class
+0058123AR,Platanus × acerifolia,True,Pg Fabra i Puig,16.11,15.24,ok,,large,430905.5,4586878.15,430894.38,4586866.49,1.5,class
+0058124AR,Melia azedarach,False,C\ Montsant,4.47,3.61,ok,,medium,430704.23,4587204.76,430701.89,4587200.95,1.0,class
+0058126AR,Melia azedarach,False,C\ Aneto,4.71,4.05,ok,,medium,430738.26,4587085.0,430735.01,4587081.6,1.0,class
+0058127AR,Melia azedarach,False,C\ Montsant,4.29,3.8,ok,,medium,430683.0,4587217.84,430680.74,4587214.19,1.0,class
+0058128AR,Populus alba 'Pyramidalis',False,C\ Beret,3.35,2.73,ok,,small,430529.35,4587144.6,430526.47,4587146.32,1.0,class
+0058129AR,Platanus × acerifolia,True,Pg Fabra i Puig,5.12,4.78,ok,,medium,430295.58,4586899.47,430294.23,4586894.53,1.0,class
+0058131AR,Melia azedarach,False,C\ Aneto,4.29,3.75,ok,,medium,430775.31,4587048.81,430772.33,4587045.72,1.0,class
+0058133AR,Parrotia persica 'Vanessa',False,C\ Rosario Pi,3.09,2.63,ok,,small,430806.98,4586966.48,430809.68,4586967.98,1.0,class
+0058134AR,Brachychiton populneus,False,C\ Cadí,2.93,2.65,ok,,small,430439.8,4586927.63,430439.31,4586930.52,1.0,class
+0058135AR,Tilia x europaea,False,C\ Besiberri,,6.71,no_kerb,,check,,,,,1.0,floor
+0058136AR,Platanus × acerifolia,True,Pg Fabra i Puig,7.43,6.96,ok,,large,430715.35,4586879.68,430715.11,4586872.25,1.5,class
+0058137AR,Populus alba,False,C\ Travau,5.43,4.59,ok,,medium,430641.83,4587222.19,430637.2,4587225.03,1.0,class
+0058138AR,Platanus × acerifolia,True,Pg Fabra i Puig,6.15,5.73,ok,,large,430444.73,4586893.75,430444.55,4586887.6,1.5,class
+0058139AR,Platanus × acerifolia,True,C\ Doctor Pi i Molist,5.15,4.79,ok,,medium,431030.82,4586893.83,431035.62,4586895.7,1.0,class
+0058141AR,Tilia x europaea,False,C\ Montmajor,6.14,5.72,ok,,large,430699.69,4587054.48,430694.25,4587057.32,1.5,class
+0058142AR,Pyrus calleryana 'Chanticleer',False,C\ Travau,2.97,2.29,ok,,small,430540.83,4587060.4,430538.47,4587062.2,1.0,class
+0058143AR,Platanus × acerifolia,True,Pg Fabra i Puig,,22.26,median,,check,,,,,1.0,floor
+0058144AR,Melia azedarach,False,C\ Aneto,4.4,3.83,ok,,medium,430639.73,4587179.26,430636.7,4587176.07,1.0,class
+0058147AR,Platanus × acerifolia,True,C\ Doctor Pi i Molist,5.13,4.73,ok,,medium,431026.57,4586904.74,431031.35,4586906.61,1.0,class
+0058149AR,Brachychiton populneus,False,Ptge Doctor Pi i Molist,4.03,3.51,ok,,medium,430954.01,4587018.57,430957.88,4587017.48,1.0,class
+0058150AR,Brachychiton populneus,False,C\ Cadí,3.84,3.4,ok,,medium,430467.44,4586945.86,430468.35,4586942.13,1.0,class
+0058151AR,Platanus × acerifolia,True,Pg Peira,5.9,5.34,ok,,medium,430578.0,4587073.65,430574.95,4587068.59,1.0,class
+0058152AR,Platanus × acerifolia,True,C\ Sant Iscle,4.03,3.48,ok,,medium,430656.1,4587300.52,430658.67,4587303.63,1.0,class
+0058153AR,Platanus × acerifolia,True,C\ Doctor Pi i Molist,5.82,5.37,ok,,medium,430864.81,4587301.26,430870.2,4587303.46,1.0,class
+0058154AR,Tilia x europaea,False,C\ Montmajor,,14.6,median,,check,,,,,1.0,floor
+0058155AR,Melia azedarach,False,Pg Peira,,20.57,median,,check,,,,,1.0,floor
+0058156AR,Platanus × acerifolia,True,Pg Fabra i Puig,7.55,7.09,ok,,large,430768.05,4586878.0,430767.81,4586870.45,1.5,class
+0058157AR,Platanus × acerifolia,True,Pg Fabra i Puig,4.06,3.56,ok,,medium,430339.76,4586894.94,430339.62,4586890.88,1.0,class
+0058158AR,Platanus × acerifolia,True,Pg Fabra i Puig,7.6,7.0,ok,,large,430781.01,4586877.58,430780.77,4586869.98,1.5,class
+0058159AR,Platanus × acerifolia,True,Pg Fabra i Puig,,22.13,median,6.76,check,,,,,1.0,floor
+0058160AR,Brachychiton populneus,False,C\ Cadí,2.92,2.55,ok,,small,430463.47,4586932.35,430462.79,4586935.19,1.0,class
+0058161AR,Melia azedarach,False,C\ Aneto,4.72,4.17,ok,,medium,430672.48,4587128.06,430675.75,4587131.47,1.0,class
+0058162AR,Melia azedarach,False,C\ Aneto,4.85,4.27,ok,,medium,430643.01,4587156.1,430646.38,4587159.58,1.0,class
+0058163AR,Platanus × acerifolia,True,Pg Peira,6.1,5.57,ok,,large,430647.23,4587031.85,430644.1,4587026.62,1.5,class
+0058165AR,Platanus × acerifolia,True,Pg Peira,5.91,5.3,ok,,medium,430566.52,4587080.57,430563.47,4587075.51,1.0,class
+0058166AR,Platanus × acerifolia,True,C\ Doctor Pi i Molist,5.92,5.31,ok,,medium,430853.64,4587328.59,430859.12,4587330.85,1.0,class
+0058167AR,Platanus × acerifolia,True,Pg Fabra i Puig,,23.96,median,,check,,,,,1.0,floor
+0058170AR,Tilia x europaea,False,C\ Montmajor,13.57,13.1,ok,,large,430718.26,4587074.92,430707.99,4587083.8,1.5,class
+0058171AR,Melia azedarach,False,C\ Montsant,3.98,3.38,ok,,medium,430834.59,4587107.76,430836.68,4587111.15,1.0,class
+0058172AR,Platanus × acerifolia,True,C\ Doctor Pi i Molist,15.07,14.62,ok,,large,430821.68,4587384.67,430832.78,4587394.85,1.5,class
+0058173AR,Tilia x europaea,False,C\ Montmajor,11.19,10.74,ok,,large,430712.39,4587067.96,430702.59,4587073.37,1.5,class
+0058177AR,Platanus × acerifolia,True,C\ Sant Iscle,2.97,2.53,ok,,small,430746.18,4587245.72,430744.17,4587243.53,1.0,class
+0058178AR,Brachychiton populneus,False,C\ Cadí,2.89,2.31,ok,,small,430587.03,4587021.42,430584.59,4587022.98,1.0,class
+0058179AR,Platanus × acerifolia,True,C\ Sant Iscle,6.39,3.21,ok,,large,430929.87,4586996.5,430933.32,4587001.87,1.5,class
+0058180AR,Platanus × acerifolia,True,Pg Peira,14.01,12.46,ok,,large,430614.14,4586943.71,430612.66,4586929.78,1.5,class
+0058181AR,Platanus × acerifolia,True,Pg Urrutia,10.27,8.62,ok,,large,430667.24,4587347.5,430658.85,4587353.42,1.5,class
+0058182AR,Platanus × acerifolia,True,C\ Doctor Pi i Molist,5.8,5.39,ok,,medium,430928.18,4587145.54,430933.55,4587147.74,1.0,class
+0058183AR,Platanus × acerifolia,True,Pg Fabra i Puig,9.04,8.4,ok,,large,430094.18,4587124.92,430085.25,4587123.47,1.5,class
+0058184AR,Platanus × acerifolia,True,Pg Fabra i Puig,,22.23,median,,check,,,,,1.0,floor
+0058185AR,Brachychiton populneus,False,C\ Cadí,3.02,2.34,ok,,small,430557.88,4586983.84,430555.75,4586985.98,1.0,class
+0058186AR,Platanus × acerifolia,True,Pg Fabra i Puig,6.16,5.6,ok,,large,430451.65,4586893.54,430451.46,4586887.39,1.5,class
+0058187AR,Platanus × acerifolia,True,Pg Fabra i Puig,27.19,26.69,ok,,large,430164.03,4586992.78,430157.23,4586966.44,1.5,class
+0058188AR,Populus alba 'Pyramidalis',False,C\ Cadí,4.53,3.9,ok,,medium,430607.12,4587077.86,430611.01,4587075.53,1.0,class
+0058189AR,Tilia x europaea,False,C\ Montmajor,6.29,5.81,ok,,large,430731.7,4587159.43,430737.28,4587156.52,1.5,class
+0058191AR,Melia azedarach,False,C\ Montsant,,11.58,median,18.57,check,,,,,1.0,floor
+0058192AR,Populus alba 'Pyramidalis',False,C\ Cadí,4.58,4.17,ok,,medium,430616.64,4587093.73,430620.57,4587091.38,1.0,class
+0058193AR,Platanus × acerifolia,True,Pg Fabra i Puig,7.24,6.8,ok,,large,430584.08,4586889.42,430583.91,4586882.18,1.5,class
+0058194AR,Melia azedarach,False,C\ Aneto,7.58,6.46,ok,,large,430734.58,4587062.88,430736.4,4587070.23,1.5,class
+0058195AR,Populus alba 'Pyramidalis',False,C\ Cadí,4.63,4.1,ok,,medium,430644.14,4587139.61,430648.11,4587137.23,1.0,class
+0058196AR,Brachychiton populneus,False,C\ Cadí,3.69,3.33,ok,,medium,430495.33,4586954.08,430496.49,4586950.57,1.0,class
+0058199AR,Platanus × acerifolia,True,Pg Peira,7.98,7.55,ok,,large,430621.94,4586898.63,430614.09,4586900.01,1.5,class
+0058200AR,Platanus × acerifolia,True,Pg Peira,5.84,5.51,ok,,medium,430504.02,4587090.7,430507.06,4587095.69,1.0,class
+0058202AR,Platanus × acerifolia,True,Pg Fabra i Puig,4.02,3.7,ok,,medium,430347.12,4586894.7,430346.99,4586890.68,1.0,class
+0058204AR,Populus alba 'Pyramidalis',False,C\ Cadí,4.64,4.07,ok,,medium,430625.88,4587109.13,430629.85,4587106.75,1.0,class
+0058205AR,Platanus × acerifolia,True,C\ Doctor Pi i Molist,5.01,4.55,ok,,medium,431017.71,4586926.86,431022.35,4586928.75,1.0,class
+0058206AR,Melia azedarach,False,Pg Peira,20.21,18.26,ok,,large,430614.14,4586943.71,430609.69,4586924.0,1.5,class
+0058207AR,Platanus × acerifolia,True,C\ Doctor Pi i Molist,7.08,6.61,ok,,large,430836.63,4587368.38,430841.85,4587373.17,1.5,class
+0058208AR,Platanus × acerifolia,True,Pg Peira,5.38,5.05,ok,,medium,430624.5,4586909.25,430619.16,4586909.9,1.0,class
+0058209AR,Platanus × acerifolia,True,Pg Peira,5.01,4.32,ok,,medium,430621.49,4586957.99,430625.94,4586955.7,1.0,class
+0058210AR,Platanus × acerifolia,True,Pg Fabra i Puig,6.11,5.55,ok,,large,430437.26,4586893.97,430437.08,4586887.86,1.5,class
+0058211AR,Tilia x europaea,False,C\ Montmajor,6.04,5.6,ok,,large,430670.69,4587042.7,430676.04,4587039.9,1.5,class
+0058213AR,Platanus × acerifolia,True,Pg Peira,8.46,7.73,ok,,large,430625.56,4586911.23,430624.12,4586919.57,1.5,class
+0058214AR,Platanus × acerifolia,True,C\ Doctor Pi i Molist,5.72,5.41,ok,,medium,430943.45,4587108.24,430948.74,4587110.41,1.0,class
+0058215AR,Tilia x europaea,False,C\ Montmajor,6.22,5.65,ok,,large,430726.24,4587148.95,430731.75,4587146.08,1.5,class
+0058216AR,Platanus × acerifolia,True,Pg Peira,11.2,10.63,ok,,large,430621.94,4586898.63,430611.41,4586894.8,1.5,class
+0058217AR,Platanus × acerifolia,True,Pg Fabra i Puig,12.91,12.19,ok,,large,430861.63,4586879.17,430866.78,4586867.33,1.5,class
+0058219AR,Platanus × acerifolia,True,C\ Teide,2.9,2.22,ok,,small,430512.0,4586968.6,430509.61,4586966.95,1.0,class
+0058220AR,Tilia x europaea,False,C\ Montmajor,6.02,5.55,ok,,large,430681.39,4587063.09,430686.72,4587060.29,1.5,class
+0058221AR,Melia azedarach,False,C\ Montsant,4.09,3.47,ok,,medium,430811.97,4587121.73,430814.11,4587125.21,1.0,class
+0058222AR,Tilia x europaea,False,C\ Montmajor,6.02,5.78,ok,,large,430727.13,4587107.32,430721.79,4587110.11,1.5,class
+0058225AR,Platanus × acerifolia,True,Pg Fabra i Puig,10.06,9.24,ok,,large,430101.83,4587071.9,430092.19,4587069.02,1.5,class
+0058226AR,Platanus × acerifolia,True,C\ Doctor Pi i Molist,5.79,5.33,ok,,medium,430930.46,4587139.98,430935.82,4587142.18,1.0,class
+0058228AR,Platanus × acerifolia,True,C\ Doctor Pi i Molist,5.29,4.9,ok,,medium,430995.4,4586981.46,431000.29,4586983.46,1.0,class
+0058229AR,Platanus × acerifolia,True,Pg Fabra i Puig,7.56,7.12,ok,,large,430703.07,4586880.07,430702.83,4586872.51,1.5,class
+0058230AR,Platanus × acerifolia,True,Pg Peira,5.87,5.34,ok,,medium,430636.99,4587009.89,430640.06,4587014.9,1.0,class
+0058231AR,Platanus × acerifolia,True,C\ Doctor Pi i Molist,12.7,12.26,ok,,large,430826.1,4587379.85,430835.46,4587388.44,1.5,class
+0058233AR,Tilia x europaea,False,C\ Montmajor,6.02,5.48,ok,,large,430684.69,4587069.37,430690.01,4587066.57,1.5,class
+0058234AR,Tilia x europaea,False,C\ Montmajor,6.05,5.52,ok,,large,430662.29,4587026.71,430667.65,4587023.9,1.5,class
+0058235AR,Celtis australis,False,C\ Travau,,10.64,median,,check,,,,,1.0,floor
+0058236AR,Platanus × acerifolia,True,Pg Fabra i Puig,3.91,3.39,ok,,medium,430381.87,4586893.55,430381.74,4586889.65,1.0,class
+0058238AR,Platanus × acerifolia,True,C\ Sant Iscle,9.4,8.77,ok,,large,430955.08,4586978.86,430946.04,4586981.45,1.5,class
+0058239AR,Cupressus sempervirens,False,C\ Rosario Pi,15.13,2.65,ok,,large,430830.74,4586882.03,430819.06,4586872.41,1.5,class
+0058240AR,Melia azedarach,False,C\ Aneto,7.82,6.85,ok,,large,430736.96,4587059.18,430743.53,4587063.4,1.5,class
+0058242AR,Acer platanoides,False,C\ Cadí,4.46,3.97,ok,,medium,430631.63,4587095.25,430627.81,4587097.54,1.0,class
+0058243AR,Platanus × acerifolia,True,Pg Fabra i Puig,7.6,7.08,ok,,large,430677.84,4586880.79,430677.66,4586873.19,1.5,class
+0058244AR,Platanus × acerifolia,True,Pg Peira,,20.41,median,4.97,check,,,,,1.0,floor
+0058245AR,Platanus × acerifolia,True,C\ Sant Iscle,4.2,3.6,ok,,medium,430676.71,4587283.59,430678.94,4587287.15,1.0,class
+0058246AR,Platanus × acerifolia,True,C\ Sant Iscle,2.3,1.85,ok,,none,430799.96,4587186.13,430798.15,4587184.72,1.0,floor
+0058247AR,Platanus × acerifolia,True,Pg Fabra i Puig,7.5,6.82,ok,,large,430755.9,4586878.38,430755.66,4586870.88,1.5,class
+0058248AR,Melia azedarach,False,C\ Montsant,4.21,3.72,ok,,medium,430677.86,4587221.0,430675.66,4587217.42,1.0,class
+0058249AR,Platanus × acerifolia,True,Pg Fabra i Puig,15.17,14.52,ok,,large,430866.05,4586881.09,430872.1,4586867.18,1.5,class
+0058250AR,Tilia tomentosa,False,C\ Besiberri,,4.98,no_kerb,,check,,,,,1.0,floor
+0058251AR,Platanus × acerifolia,True,C\ Teide,2.95,2.49,ok,,small,430489.12,4587001.77,430486.69,4587000.09,1.0,class
+0058252AR,Platanus × acerifolia,True,C\ Doctor Pi i Molist,5.34,4.78,ok,,medium,430982.33,4587013.42,430987.28,4587015.44,1.0,class
+0058253AR,Melia azedarach,False,C\ Aneto,4.72,4.25,ok,,medium,430676.87,4587123.86,430680.13,4587127.27,1.0,class
+0058254AR,Celtis australis,False,C\ Teide,,9.37,median,3.15,check,,,,,1.0,floor
+0058255AR,Populus alba 'Pyramidalis',False,C\ Beret,3.15,2.62,ok,,small,430474.57,4587065.38,430472.4,4587067.67,1.0,class
+0058257AR,Platanus × acerifolia,True,C\ Doctor Pi i Molist,5.31,4.92,ok,,medium,430993.28,4586986.63,430998.2,4586988.64,1.0,class
+0058258AR,Platanus × acerifolia,True,Pg Fabra i Puig,9.6,8.63,ok,,large,430657.26,4586881.27,430650.92,4586874.05,1.5,class
+0058259AR,Platanus × acerifolia,True,Pg Peira,13.73,12.2,ok,,large,430626.48,4586911.2,430626.87,4586924.93,1.5,class
+0058260AR,Pyrus calleryana 'Chanticleer',False,C\ Travau,3.64,3.1,ok,,medium,430578.66,4587120.59,430575.53,4587122.46,1.0,class
+0058262AR,Platanus × acerifolia,True,C\ Sant Iscle,3.34,2.76,ok,,small,430964.44,4586944.51,430961.26,4586943.47,1.0,class
+0058263AR,Platanus × acerifolia,True,C\ Sant Iscle,3.75,3.34,ok,,medium,430698.93,4587265.96,430701.07,4587269.04,1.0,class
+0058265AR,Platanus × acerifolia,True,C\ Teide,2.92,2.35,ok,,small,430480.85,4586992.98,430483.24,4586994.64,1.0,class
+0058266AR,Gleditsia triacanthos f. inermis,False,C\ Sant Iscle,3.04,2.61,ok,,small,430709.63,4587275.74,430707.86,4587273.27,1.0,class
+0058267AR,Platanus × acerifolia,True,Pg Urrutia,,5.21,median,5.29,check,,,,,1.0,floor
+0058269AR,Melia azedarach,False,C\ Montsant,4.67,4.12,ok,,medium,430725.59,4587174.72,430728.05,4587178.69,1.0,class
+0058270AR,Tilia x europaea,False,C\ Besiberri,,5.41,no_kerb,,check,,,,,1.0,floor
+0058271AR,Pyrus calleryana 'Chanticleer',False,C\ Travau,2.98,2.34,ok,,small,430521.35,4587038.44,430519.29,4587040.6,1.0,class
+0058272AR,Populus alba 'Pyramidalis',False,C\ Travau,3.64,2.92,ok,,medium,430575.29,4587114.99,430572.17,4587116.86,1.0,class
+0058273AR,Platanus × acerifolia,True,C\ Doctor Pi i Molist,6.61,6.11,ok,,large,430900.7,4587211.71,430907.31,4587211.69,1.5,class
+0058274AR,Platanus × acerifolia,True,C\ Sant Iscle,3.44,3.04,ok,,small,430971.36,4586923.48,430968.09,4586922.41,1.0,class
+0058276AR,Cupressus sempervirens,False,C\ Rosario Pi,14.99,8.08,ok,,large,430830.5,4586882.31,430818.93,4586872.79,1.5,class
+0058278AR,Populus alba 'Pyramidalis',False,C\ Cadí,4.61,4.1,ok,,medium,430660.91,4587167.24,430664.84,4587164.83,1.0,class
+0058279AR,Prunus cerasifera 'Pissardii',False,C\ Teide,3.2,2.65,ok,,small,430464.85,4587036.42,430462.22,4587034.6,1.0,class
+0058281AR,Melia azedarach,False,C\ Montsant,4.55,3.88,ok,,medium,430708.84,4587201.92,430706.88,4587197.82,1.0,class
+0058282AR,Platanus × acerifolia,True,Pg Peira,6.18,5.63,ok,,large,430645.51,4587004.68,430649.76,4587009.17,1.5,class
+0058284AR,Platanus × acerifolia,True,C\ Doctor Pi i Molist,5.78,5.28,ok,,medium,430932.54,4587134.9,430937.89,4587137.09,1.0,class
+0058285AR,Brachychiton populneus,False,C\ Cadí,2.9,2.38,ok,,small,430558.14,4587001.48,430560.41,4586999.68,1.0,class
+0058286AR,Platanus × acerifolia,True,Pg Peira,5.88,5.3,ok,,medium,430627.94,4587015.43,430631.01,4587020.45,1.0,class
+0058287AR,Platanus × acerifolia,True,Pg Fabra i Puig,9.53,8.98,ok,,large,430626.84,4586884.41,430626.49,4586874.89,1.5,class
+0058288AR,Melia azedarach,False,C\ Montsant,,10.25,median,21.99,check,,,,,1.0,floor
+0058289AR,Prunus cerasifera 'Pissardii',False,C\ Teide,3.15,2.2,ok,,small,430457.32,4587047.31,430454.73,4587045.52,1.0,class
+0058290AR,Platanus × acerifolia,True,C\ Doctor Pi i Molist,,9.31,median,5.43,check,,,,,1.0,floor
+0058291AR,Platanus × acerifolia,True,Pg Fabra i Puig,7.65,7.06,ok,,large,430684.09,4586880.64,430683.91,4586872.99,1.5,class
+0058292AR,Platanus × acerifolia,True,Pg Fabra i Puig,7.15,6.72,ok,,large,430941.53,4586872.24,430941.38,4586865.09,1.5,class
+0058293AR,Platanus × acerifolia,True,Pg Fabra i Puig,6.42,6.02,ok,,large,430092.08,4587137.82,430085.68,4587137.28,1.5,class
+0058294AR,Platanus × acerifolia,True,Pg Fabra i Puig,8.46,6.34,ok,,large,430540.62,4586890.78,430540.35,4586882.32,1.5,class
+0058295AR,Platanus × acerifolia,True,C\ Doctor Pi i Molist,6.23,5.76,ok,,large,430900.71,4587213.27,430904.72,4587218.03,1.5,class
+0058296AR,Tilia x europaea,False,C\ Montmajor,6.03,5.51,ok,,large,430676.36,4587053.5,430681.7,4587050.7,1.5,class
+0058297AR,Platanus × acerifolia,True,C\ Doctor Pi i Molist,6.77,6.31,ok,,large,430918.74,4587168.62,430922.73,4587174.09,1.5,class
+0058298AR,Platanus × acerifolia,True,C\ Doctor Pi i Molist,5.89,5.42,ok,,medium,430858.27,4587317.26,430863.73,4587319.49,1.0,class
+0058299AR,Platanus × acerifolia,True,Pg Fabra i Puig,3.94,3.38,ok,,medium,430360.58,4586894.25,430360.45,4586890.32,1.0,class
+0058300AR,Platanus × acerifolia,True,C\ Sant Iscle,4.0,3.23,ok,,medium,430947.44,4586948.97,430951.25,4586950.2,1.0,class
+0058301AR,Platanus × acerifolia,True,C\ Teide,2.95,2.57,ok,,small,430496.91,4586990.48,430494.48,4586988.8,1.0,class
+0058302AR,Populus alba 'Pyramidalis',False,C\ Beret,3.25,2.88,ok,,small,430481.43,4587072.25,430479.08,4587074.49,1.0,class
+0058303AR,Populus alba 'Pyramidalis',False,C\ Beret,3.4,3.01,ok,,small,430525.15,4587137.55,430522.22,4587139.29,1.0,class
+0058304AR,Tilia x europaea,False,C\ Montmajor,,14.57,median,10.62,check,,,,,1.0,floor
+0058306AR,Melia azedarach,False,C\ Montsant,4.54,4.02,ok,,medium,430701.51,4587189.62,430703.9,4587193.49,1.0,class
+0058307AR,Populus alba 'Pyramidalis',False,C\ Beret,,9.44,median,,check,,,,,1.0,floor
+0058308AR,Platanus × acerifolia,True,C\ Doctor Pi i Molist,5.33,4.83,ok,,medium,430991.25,4586991.6,430996.18,4586993.62,1.0,class
+0058309AR,Populus alba 'Pyramidalis',False,C\ Cadí,4.59,4.05,ok,,medium,430650.13,4587126.03,430646.19,4587128.39,1.0,class
+0058310AR,Platanus × acerifolia,True,Pg Fabra i Puig,7.25,6.67,ok,,large,430953.45,4586872.0,430953.31,4586864.75,1.5,class
+0058311AR,Platanus × acerifolia,True,Pg Fabra i Puig,6.09,5.4,ok,,large,430430.06,4586894.18,430429.88,4586888.1,1.5,class
+0058312AR,Celtis australis,False,C\ Sant Iscle,7.75,5.69,ok,,large,430784.54,4587205.86,430778.16,4587210.26,1.5,class
+0058313AR,Celtis australis,False,C\ Teide,,9.19,median,3.32,check,,,,,1.0,floor
+0058314AR,Melia azedarach,False,Pg Peira,6.05,5.42,ok,,large,430572.32,4587049.21,430575.47,4587054.37,1.5,class
+0058315AR,Platanus × acerifolia,True,Pg Peira,5.91,5.45,ok,,medium,430630.84,4587041.67,430627.8,4587036.61,1.0,class
+0058317AR,Melia azedarach,False,C\ Montsant,,10.65,median,22.25,check,,,,,1.0,floor
+0058318AR,Celtis australis,False,C\ Teide,,10.51,median,24.01,check,,,,,1.0,floor
+0058320AR,Melia azedarach,False,C\ Aneto,4.29,3.75,ok,,medium,430769.22,4587054.68,430766.24,4587051.6,1.0,class
+0058321AR,Platanus × acerifolia,True,Pg Fabra i Puig,,22.33,median,,check,,,,,1.0,floor
+0058323AR,Platanus × acerifolia,True,C\ Sant Iscle,,10.22,median,10.67,check,,,,,1.0,floor
+0058324AR,Platanus × acerifolia,True,Pg Fabra i Puig,8.83,6.43,ok,,large,430534.09,4586890.99,430533.8,4586882.16,1.5,class
+0058326AR,Brachychiton populneus,False,C\ Cadí,3.9,3.32,ok,,medium,430430.36,4586938.5,430430.91,4586934.65,1.0,class
+0058327AR,Pyrus calleryana 'Chanticleer',False,C\ Travau,3.49,2.92,ok,,small,430603.25,4587161.54,430600.26,4587163.33,1.0,class
+0058328AR,Platanus × acerifolia,True,C\ Teide,2.97,2.51,ok,,small,430477.02,4586998.49,430479.46,4587000.18,1.0,class
+0058329AR,Tilia x europaea,False,C\ Montmajor,12.88,12.38,ok,,large,430712.39,4587067.96,430705.39,4587078.77,1.5,class
+0058330AR,Platanus × acerifolia,True,Pg Urrutia,7.39,6.77,ok,,large,430731.48,4587347.33,430729.45,4587354.43,1.5,class
+0058331AR,Brachychiton populneus,False,Ptge Doctor Pi i Molist,4.0,3.59,ok,,medium,430958.33,4586990.17,430954.49,4586991.27,1.0,class
+0058332AR,Platanus × acerifolia,True,Pg Fabra i Puig,7.39,6.88,ok,,large,430727.46,4586879.29,430727.22,4586871.9,1.5,class
+0058333AR,Platanus × acerifolia,True,Pg Peira,5.76,5.49,ok,,medium,430615.56,4587050.83,430612.6,4587045.89,1.0,class
+0058334AR,Populus alba 'Pyramidalis',False,C\ Travau,3.47,2.85,ok,,small,430606.18,4587166.41,430603.21,4587168.2,1.0,class
+0058335AR,Brachychiton populneus,False,C\ Cadí,2.89,2.37,ok,,small,430509.91,4586946.36,430508.97,4586949.09,1.0,class
+0058336AR,Platanus × acerifolia,True,Pg Fabra i Puig,8.84,6.18,ok,,large,430514.67,4586891.62,430514.38,4586882.78,1.5,class
+0058337AR,Platanus × acerifolia,True,Pg Peira,5.93,5.18,ok,,medium,430556.55,4587058.84,430559.64,4587063.9,1.0,class
+0058339AR,Platanus × acerifolia,True,C\ Doctor Pi i Molist,5.8,5.45,ok,,medium,430921.48,4587161.91,430926.85,4587164.11,1.0,class
+0058341AR,Celtis australis,False,C\ Sant Iscle,,10.7,median,9.34,check,,,,,1.0,floor
+0058342AR,Platanus × acerifolia,True,Pg Urrutia,5.24,4.75,ok,,medium,430815.84,4587391.04,430813.11,4587395.51,1.0,class
+0058344AR,Populus alba 'Pyramidalis',False,C\ Cadí,4.33,3.7,ok,,medium,430609.92,4587059.11,430606.21,4587061.33,1.0,class
+0058345AR,Platanus × acerifolia,True,C\ Doctor Pi i Molist,5.7,5.3,ok,,medium,430945.71,4587102.71,430950.99,4587104.87,1.0,class
+0058346AR,Melia azedarach,False,C\ Montsant,,10.23,median,,check,,,,,1.0,floor
+0058347AR,Platanus × acerifolia,True,C\ Doctor Pi i Molist,5.77,5.18,ok,,medium,430936.81,4587124.46,430942.15,4587126.64,1.0,class
+0058348AR,Populus alba,False,C\ Travau,5.18,4.53,ok,,medium,430601.01,4587180.7,430605.44,4587178.02,1.0,class
+0058350AR,Platanus × acerifolia,True,Pg Peira,5.86,5.39,ok,,medium,430515.13,4587083.94,430518.12,4587088.98,1.0,class
+0058351AR,Platanus × acerifolia,True,C\ Doctor Pi i Molist,7.3,6.9,ok,,large,430910.94,4587185.04,430918.24,4587184.99,1.5,class
+0058352AR,Brachychiton populneus,False,C\ Cadí,2.89,2.6,ok,,small,430445.49,4586928.61,430444.97,4586931.46,1.0,class
+0058353AR,Brachychiton populneus,False,C\ Cadí,2.89,2.4,ok,,small,430536.46,4586979.84,430538.32,4586977.62,1.0,class
+0058355AR,Celtis australis,False,C\ Teide,,9.35,median,3.18,check,,,,,1.0,floor
+0058356AR,Tilia x europaea,False,C\ Montmajor,,14.61,median,,check,,,,,1.0,floor
+0058357AR,Platanus × acerifolia,True,Pg Fabra i Puig,2.53,2.1,ok,,small,430211.41,4586930.55,430210.18,4586928.35,1.0,class
+0058358AR,Brachychiton populneus,False,Ptge Doctor Pi i Molist,4.01,3.59,ok,,medium,430952.27,4587012.45,430956.13,4587011.36,1.0,class
+0058359AR,Platanus × acerifolia,True,C\ Doctor Pi i Molist,5.68,5.32,ok,,medium,430873.72,4587279.47,430878.98,4587281.62,1.0,class
+0058360AR,Brachychiton populneus,False,Ptge Doctor Pi i Molist,3.97,3.6,ok,,medium,430967.38,4587021.68,430963.56,4587022.77,1.0,class
+0058362AR,Platanus × acerifolia,True,C\ Doctor Pi i Molist,6.83,6.08,ok,,large,430976.86,4587026.8,430980.08,4587032.83,1.5,class
+0058363AR,Pyrus calleryana 'Chanticleer',False,C\ Travau,3.26,2.42,ok,,small,430516.09,4587033.53,430514.04,4587036.07,1.0,class
+0058366AR,Platanus × acerifolia,True,Pg Fabra i Puig,4.09,3.58,ok,,medium,430332.91,4586895.16,430332.77,4586891.08,1.0,class
+0058367AR,Tilia x europaea,False,C\ Montmajor,6.0,5.53,ok,,medium,430693.25,4587085.68,430698.56,4587082.89,1.0,class
+0058368AR,Melia azedarach,False,C\ Montsant,,9.82,median,15.47,check,,,,,1.0,floor
+0058369AR,Platanus × acerifolia,True,Pg Fabra i Puig,,22.49,median,,check,,,,,1.0,floor
+0058370AR,Platanus × acerifolia,True,C\ Doctor Pi i Molist,5.78,5.31,ok,,medium,430934.7,4587129.62,430940.04,4587131.81,1.0,class
+0058371AR,Tilia x europaea,False,C\ Montmajor,6.04,5.6,ok,,large,430673.44,4587047.94,430678.78,4587045.14,1.5,class
+0058373AR,Melia azedarach,False,C\ Montsant,,10.32,median,28.13,check,,,,,1.0,floor
+0058375AR,Brachychiton populneus,False,C\ Cadí,2.96,2.38,ok,,small,430590.22,4587026.53,430587.67,4587028.04,1.0,class
+0058376AR,Platanus × acerifolia,True,Pg Peira,6.16,5.59,ok,,large,430652.46,4587028.72,430649.3,4587023.43,1.5,class
+0058377AR,Tilia x europaea,False,C\ Montmajor,5.96,5.58,ok,,medium,430735.23,4587122.84,430729.95,4587125.59,1.0,class
+0058378AR,Brachychiton populneus,False,C\ Cadí,2.98,2.68,ok,,small,430593.77,4587032.53,430591.2,4587034.05,1.0,class
+0058380AR,Cupressus sempervirens,False,C\ Pere d'Artés,13.27,4.03,ok,,large,430862.34,4586879.48,430867.64,4586867.31,1.5,class
+0058383AR,Platanus × acerifolia,True,C\ Doctor Pi i Molist,5.72,5.39,ok,,medium,430871.11,4587285.85,430876.41,4587288.02,1.0,class
+0058384AR,Platanus × acerifolia,True,C\ Sant Iscle,3.35,2.97,ok,,small,430987.54,4586874.42,430984.36,4586873.37,1.0,class
+0058385AR,Brachychiton populneus,False,Ptge Doctor Pi i Molist,6.64,5.89,ok,,large,430967.96,4587023.16,430965.45,4587029.31,1.5,class
+0058386AR,Melia azedarach,False,C\ Montsant,3.95,3.49,ok,,medium,430842.03,4587103.17,430844.11,4587106.53,1.0,class
+0058387AR,Platanus × acerifolia,True,C\ Sant Iscle,11.72,7.18,ok,,large,430930.14,4586995.51,430940.0,4586989.17,1.5,class
+0058388AR,Brachychiton populneus,False,C\ Cadí,3.84,3.46,ok,,medium,430447.48,4586941.35,430448.24,4586937.58,1.0,class
+0058390AR,Brachychiton populneus,False,Ptge Doctor Pi i Molist,4.1,3.55,ok,,medium,430959.42,4587037.72,430963.37,4587036.6,1.0,class
+0058391AR,Platanus × acerifolia,True,Pg Peira,5.87,5.42,ok,,medium,430641.67,4587007.03,430644.73,4587012.04,1.0,class
+0058392AR,Platanus × acerifolia,True,Pg Peira,6.04,5.46,ok,,large,430642.41,4587034.74,430639.3,4587029.56,1.5,class
+0058393AR,Platanus × acerifolia,True,Pg Urrutia,8.52,7.86,ok,,large,430723.39,4587345.08,430721.19,4587353.31,1.5,class
+0058395AR,Platanus × acerifolia,True,C\ Teide,2.91,2.32,ok,,small,430522.45,4586932.28,430524.85,4586933.93,1.0,class
+0058396AR,Platanus × acerifolia,True,C\ Teide,2.92,2.25,ok,,small,430515.47,4586942.49,430517.88,4586944.14,1.0,class
+0058397AR,Platanus × acerifolia,True,Pg Fabra i Puig,,22.32,median,,check,,,,,1.0,floor
+0058398AR,Platanus × acerifolia,True,Pg Peira,5.16,4.9,ok,,medium,430614.14,4586943.71,430618.11,4586940.43,1.0,class
+0058399AR,Platanus × acerifolia,True,C\ Doctor Pi i Molist,,13.05,median,6.7,check,,,,,1.0,floor
+0058400AR,Platanus × acerifolia,True,Pg Urrutia,5.05,4.22,ok,,medium,430667.65,4587347.48,430667.9,4587352.52,1.0,class
+0058401AR,Celtis australis,False,C\ Sant Iscle,8.65,7.94,ok,,large,430947.31,4586997.06,430943.43,4586989.33,1.5,class
+0058404AR,Pyrus calleryana 'Chanticleer',False,C\ Travau,3.61,2.89,ok,,medium,430581.67,4587125.6,430578.58,4587127.46,1.0,class
+0058405AR,Platanus × acerifolia,True,Pg Fabra i Puig,9.56,9.01,ok,,large,430633.22,4586884.22,430632.89,4586874.67,1.5,class
+0058406AR,Platanus × acerifolia,True,Pg Fabra i Puig,6.09,5.41,ok,,large,430409.93,4586894.78,430409.75,4586888.69,1.5,class
+0058407AR,Platanus × acerifolia,True,C\ Doctor Pi i Molist,5.35,4.77,ok,,medium,430989.01,4586997.1,430993.96,4586999.12,1.0,class
+0058408AR,Tilia x europaea,False,C\ Besiberri,,8.53,no_kerb,,check,,,,,1.0,floor
+0058409AR,Tilia x europaea,False,C\ Montmajor,6.11,5.72,ok,,large,430717.84,4587132.82,430723.25,4587130.0,1.5,class
+0058410AR,Platanus × acerifolia,True,Pg Fabra i Puig,7.5,7.11,ok,,large,430709.54,4586879.86,430709.3,4586872.37,1.5,class
+0058411AR,Platanus × acerifolia,True,Pg Fabra i Puig,6.16,5.71,ok,,large,430416.76,4586894.58,430416.58,4586888.41,1.5,class
+0058412AR,Platanus × acerifolia,True,Pg Fabra i Puig,5.66,5.18,ok,,medium,430281.97,4586903.18,430280.48,4586897.72,1.0,class
+0058415AR,Tilia x europaea,False,C\ Montmajor,6.05,5.46,ok,,large,430665.14,4587032.14,430670.5,4587029.33,1.5,class
+0058416AR,Pyrus calleryana 'Chanticleer',False,C\ Travau,3.34,2.78,ok,,small,430511.33,4587045.28,430513.53,4587042.76,1.0,class
+0058417AR,Platanus × acerifolia,True,C\ Doctor Pi i Molist,5.66,5.3,ok,,medium,430910.97,4587187.98,430915.75,4587191.01,1.0,class
+0058418AR,Populus alba 'Pyramidalis',False,C\ Cadí,4.51,3.92,ok,,medium,430604.01,4587072.66,430607.88,4587070.33,1.0,class
+0058419AR,Populus alba 'Pyramidalis',False,C\ Cadí,4.67,4.03,ok,,medium,430632.02,4587119.38,430636.03,4587116.98,1.0,class
+0058420AR,Platanus × acerifolia,True,Pg Peira,8.31,7.99,ok,,large,430586.52,4586895.53,430594.83,4586895.26,1.5,class
+0058421AR,Platanus × acerifolia,True,C\ Doctor Pi i Molist,8.77,8.36,ok,,large,430900.69,4587206.44,430909.46,4587206.42,1.5,class
+0058423AR,Platanus × acerifolia,True,Pg Urrutia,5.08,4.16,ok,,medium,430683.93,4587346.67,430685.92,4587351.34,1.0,class
+0058424AR,Celtis australis,False,Pg Peira,5.9,5.36,ok,,medium,430573.07,4587076.62,430570.02,4587071.56,1.0,class
+0058426AR,Melia azedarach,False,C\ Montsant,4.19,3.96,ok,,medium,430672.91,4587224.05,430670.71,4587220.49,1.0,class
+0058427AR,Platanus × acerifolia,True,Pg Peira,5.03,4.46,ok,,medium,430615.9,4586947.13,430620.37,4586944.83,1.0,class
+0058428AR,Platanus × acerifolia,True,Pg Peira,5.94,5.42,ok,,medium,430608.88,4587027.05,430611.96,4587032.13,1.0,class
+0058429AR,Melia azedarach,False,Pg Peira,12.03,11.47,ok,,large,430660.87,4586967.22,430648.85,4586967.63,1.5,class
+0058430AR,Platanus × acerifolia,True,C\ Doctor Pi i Molist,5.57,5.33,ok,,medium,430952.1,4587087.15,430957.26,4587089.26,1.0,class
+0058431AR,Melia azedarach,False,C\ Montsant,4.55,3.87,ok,,medium,430782.22,4587139.77,430784.61,4587143.64,1.0,class
+0058433AR,Populus alba 'Pyramidalis',False,C\ Cadí,4.58,4.03,ok,,medium,430640.81,4587110.53,430636.89,4587112.88,1.0,class
+0058434AR,Platanus × acerifolia,True,C\ Doctor Pi i Molist,5.72,4.94,ok,,medium,431031.62,4586884.28,431037.22,4586883.09,1.0,class
+0058436AR,Brachychiton populneus,False,C\ Cadí,2.85,2.2,ok,,small,430583.86,4587016.49,430581.49,4587018.06,1.0,class
+0058437AR,Platanus × acerifolia,True,C\ Doctor Pi i Molist,5.27,4.73,ok,,medium,430997.82,4586975.53,431002.7,4586977.52,1.0,class
+0058438AR,Celtis australis,False,C\ Travau,,10.5,median,24.99,check,,,,,1.0,floor
+0058439AR,Platanus × acerifolia,True,Pg Fabra i Puig,3.98,3.41,ok,,medium,430354.07,4586894.47,430353.94,4586890.49,1.0,class
+0058440AR,Fraxinus angustifolia 'Raywood',False,C\ Cadí,4.59,4.13,ok,,medium,430647.03,4587120.86,430643.09,4587123.23,1.0,class
+0058441AR,Platanus × acerifolia,True,C\ Sant Iscle,,10.3,median,8.06,check,,,,,1.0,floor
+0058442AR,Melia azedarach,False,C\ Aneto,4.32,3.8,ok,,medium,430631.12,4587187.42,430628.15,4587184.28,1.0,class
+0058443AR,Melia azedarach,False,C\ Montsant,4.04,3.34,ok,,medium,430819.68,4587116.97,430821.81,4587120.41,1.0,class
+0058444AR,Platanus × acerifolia,True,C\ Doctor Pi i Molist,5.04,4.72,ok,,medium,431013.09,4586938.17,431017.75,4586940.08,1.0,class
+0058445AR,Platanus × acerifolia,True,C\ Sant Iscle,3.84,3.33,ok,,medium,430687.15,4587275.48,430689.56,4587278.46,1.0,class
+0058446AR,Melia azedarach,False,C\ Montsant,4.71,3.96,ok,,medium,430758.83,4587154.23,430761.3,4587158.23,1.0,class
+0058447AR,Cupressus sempervirens,False,C\ Pere d'Artés,16.83,4.74,ok,,large,430868.56,4586882.27,430875.78,4586867.07,1.5,class
+0058448AR,Parrotia persica 'Vanessa',False,C\ Rosario Pi,,12.28,median,,check,,,,,1.0,floor
+0058450AR,Celtis australis,False,C\ Sant Iscle,6.61,5.87,ok,,large,430941.67,4587007.19,430935.9,4587003.97,1.5,class
+0058452AR,Platanus × acerifolia,True,Pg Fabra i Puig,,19.41,median,,check,,,,,1.0,floor
+0058453AR,Brachychiton populneus,False,C\ Cadí,2.97,2.35,ok,,small,430524.52,4586955.67,430522.78,4586958.08,1.0,class
+0058454AR,Platanus × acerifolia,True,Pg Fabra i Puig,,22.29,median,,check,,,,,1.0,floor
+0058455AR,Populus alba 'Pyramidalis',False,C\ Beret,3.06,2.62,ok,,small,430460.27,4587053.05,430458.39,4587055.47,1.0,class
+0058456AR,Populus alba 'Pyramidalis',False,C\ Travau,5.36,5.07,ok,,medium,430576.27,4587139.78,430580.86,4587137.01,1.0,class
+0058457AR,Platanus × acerifolia,True,Pg Fabra i Puig,8.86,6.29,ok,,large,430526.53,4586891.23,430526.25,4586882.38,1.5,class
+0058458AR,Celtis australis,False,C\ Sant Iscle,6.51,5.98,ok,,large,430724.69,4587267.9,430720.2,4587263.19,1.5,class
+0058459AR,Brachychiton populneus,False,Ptge Doctor Pi i Molist,3.98,3.45,ok,,medium,430950.4,4587005.85,430954.24,4587004.76,1.0,class
+0058460AR,Melia azedarach,False,C\ Aneto,4.82,4.43,ok,,medium,430660.86,4587139.14,430663.61,4587143.11,1.0,class
+0058461AR,Platanus × acerifolia,True,C\ Doctor Pi i Molist,9.56,9.2,ok,,large,430910.9,4587179.68,430920.46,4587179.61,1.5,class
+0058462AR,Populus alba,False,C\ Travau,5.4,4.87,ok,,medium,430629.37,4587201.88,430624.76,4587204.71,1.0,class
+0058464AR,Populus alba 'Pyramidalis',False,C\ Travau,5.35,4.97,ok,,medium,430573.09,4587134.5,430577.67,4587131.73,1.0,class
+0058466AR,Platanus × acerifolia,True,Pg Fabra i Puig,7.58,6.97,ok,,large,430774.43,4586877.79,430774.19,4586870.22,1.5,class
+0058467AR,Melia azedarach,False,C\ Aneto,4.45,4.12,ok,,medium,430678.3,4587142.59,430675.22,4587139.38,1.0,class
+0058470AR,Brachychiton populneus,False,C\ Cadí,2.91,2.47,ok,,small,430530.41,4586959.93,430528.71,4586962.29,1.0,class
+0058471AR,Brachychiton populneus,False,C\ Cadí,3.12,2.56,ok,,small,430566.34,4586992.99,430564.04,4586995.1,1.0,class
+0058472AR,Platanus × acerifolia,True,Pg Peira,5.67,5.08,ok,,medium,430531.82,4587074.02,430534.72,4587078.9,1.0,class
+0058474AR,Platanus × acerifolia,True,Pg Fabra i Puig,7.47,7.05,ok,,large,430747.87,4586878.64,430747.64,4586871.17,1.5,class
+0058475AR,Melia azedarach,False,C\ Aneto,4.71,4.34,ok,,medium,430694.4,4587107.08,430697.65,4587110.48,1.0,class
+0058477AR,Celtis australis,False,C\ Sant Iscle,3.99,3.5,ok,,medium,430650.52,4587305.14,430653.06,4587308.22,1.0,class
+0058479AR,Pyrus calleryana 'Chanticleer',False,C\ Travau,3.66,3.01,ok,,medium,430563.06,4587094.61,430559.92,4587096.5,1.0,class
+0058480AR,Brachychiton populneus,False,C\ Cadí,2.8,2.31,ok,,small,430574.05,4587002.65,430571.81,4587004.32,1.0,class
+0058481AR,Platanus × acerifolia,True,Pg Urrutia,6.57,3.84,ok,,large,430623.48,4587356.44,430627.66,4587361.51,1.5,class
+0058482AR,Melia azedarach,False,C\ Aneto,4.52,3.94,ok,,medium,430616.71,4587181.65,430619.86,4587184.89,1.0,class
+0058483AR,Platanus × acerifolia,True,Pg Peira,5.0,4.55,ok,,medium,430630.87,4586976.22,430635.31,4586973.93,1.0,class
+0058485AR,Platanus × acerifolia,True,C\ Sant Iscle,,13.78,median,9.68,check,,,,,1.0,floor
+0058486AR,Brachychiton populneus,False,C\ Cadí,2.98,3.1,ok,,small,430570.43,4587017.73,430572.9,4587016.07,1.0,class
+0058487AR,Platanus × acerifolia,True,C\ Doctor Pi i Molist,5.05,4.56,ok,,medium,431011.04,4586943.19,431015.71,4586945.09,1.0,class
+0058488AR,Platanus × acerifolia,True,Pg Fabra i Puig,7.42,7.02,ok,,large,430734.8,4586879.06,430734.57,4586871.64,1.5,class
+0058489AR,Populus alba 'Pyramidalis',False,C\ Beret,,9.44,median,,check,,,,,1.0,floor
+0058490AR,Tilia x europaea,False,C\ Besiberri,,5.27,no_kerb,,check,,,,,1.0,floor
+0058492AR,Platanus × acerifolia,True,Pg Fabra i Puig,7.6,7.07,ok,,large,430837.0,4586875.86,430836.81,4586868.26,1.5,class
+0058496AR,Pyrus calleryana 'Chanticleer',False,C\ Travau,3.51,2.9,ok,,medium,430600.12,4587156.32,430597.11,4587158.13,1.0,class
+0058497AR,Melia azedarach,False,C\ Montsant,,10.16,median,28.52,check,,,,,1.0,floor
+0058498AR,Platanus × acerifolia,True,C\ Doctor Pi i Molist,5.86,5.33,ok,,medium,430862.58,4587306.71,430868.01,4587308.93,1.0,class
+0058499AR,Brachychiton populneus,False,C\ Cadí,3.56,3.15,ok,,medium,430419.18,4586936.82,430419.74,4586933.31,1.0,class
+0058500AR,Populus alba 'Pyramidalis',False,C\ Travau,3.54,2.99,ok,,medium,430597.04,4587151.2,430594.01,4587153.02,1.0,class
+0058501AR,Melia azedarach,False,C\ Aneto,4.28,3.62,ok,,medium,430626.72,4587191.59,430623.78,4587188.49,1.0,class
+0058502AR,Melia azedarach,False,C\ Montsant,6.38,3.7,ok,,large,430693.85,4587211.15,430690.51,4587205.72,1.5,class
+0058503AR,Prunus cerasifera 'Pissardii',False,C\ Teide,8.86,2.2,ok,,large,430523.45,4586951.73,430516.18,4586946.66,1.5,class
+0058504AR,Brachychiton populneus,False,C\ Cadí,2.87,2.62,ok,,small,430527.29,4586972.36,430528.98,4586970.04,1.0,class
+0058505AR,Platanus × acerifolia,True,Pg Urrutia,6.1,5.68,ok,,large,430780.57,4587364.92,430777.11,4587369.95,1.5,class
+0058507AR,Melia azedarach,False,C\ Montsant,,10.17,median,,check,,,,,1.0,floor
+0058508AR,Populus alba,False,C\ Travau,5.42,4.84,ok,,medium,430638.58,4587216.89,430633.96,4587219.73,1.0,class
+0058509AR,Platanus × acerifolia,True,C\ Doctor Pi i Molist,5.96,5.27,ok,,medium,430851.55,4587333.64,430857.06,4587335.93,1.0,class
+0058510AR,Populus alba 'Pyramidalis',False,C\ Cadí,4.69,4.11,ok,,medium,430635.04,4587124.42,430639.07,4587122.01,1.0,class
+0058511AR,Melia azedarach,False,C\ Aneto,4.72,4.21,ok,,medium,430685.56,4587115.54,430688.82,4587118.95,1.0,class
+0058512AR,Parrotia persica 'Vanessa',False,C\ Rosario Pi,9.59,7.0,ok,,large,430808.03,4586964.59,430814.33,4586957.36,1.5,class
+0058513AR,Platanus × acerifolia,True,Pg Fabra i Puig,11.45,10.14,ok,,large,430131.87,4587000.29,430135.09,4586989.3,1.5,class
+0058515AR,Brachychiton populneus,False,C\ Cadí,3.0,2.63,ok,,small,430475.25,4586935.38,430474.47,4586938.28,1.0,class
+0058517AR,Melia azedarach,False,C\ Montsant,,9.77,median,12.07,check,,,,,1.0,floor
+0058518AR,Cupressus sempervirens,False,C\ Pere d'Artés,28.92,6.29,ok,,large,430878.99,4586887.43,430898.78,4586866.34,1.5,class
+0058519AR,Melia azedarach,False,C\ Aneto,4.72,4.02,ok,,medium,430681.26,4587119.66,430684.52,4587123.06,1.0,class
+0058520AR,Platanus × acerifolia,True,Pg Fabra i Puig,,22.29,median,,check,,,,,1.0,floor
+0058521AR,Platanus × acerifolia,True,C\ Sant Iscle,,12.96,median,8.61,check,,,,,1.0,floor
+0058522AR,Melia azedarach,False,C\ Aneto,4.74,4.24,ok,,medium,430634.32,4587164.54,430637.62,4587167.94,1.0,class
+0058523AR,Brachychiton populneus,False,C\ Cadí,2.97,2.46,ok,,small,430532.3,4586976.35,430534.21,4586974.08,1.0,class
+0058524AR,Tilia x europaea,False,C\ Montmajor,6.14,5.71,ok,,large,430720.64,4587138.2,430726.08,4587135.36,1.5,class
+0058525AR,Platanus × acerifolia,True,Pg Peira,5.98,5.55,ok,,medium,430637.24,4587037.84,430634.17,4587032.71,1.0,class
+0058527AR,Platanus × acerifolia,True,Pg Peira,13.64,13.08,ok,,large,430586.89,4586906.71,430600.52,4586906.26,1.5,class
+0058528AR,Platanus × acerifolia,True,C\ Doctor Pi i Molist,6.79,5.9,ok,,large,430848.15,4587341.86,430852.56,4587347.01,1.5,class
+0058529AR,Platanus × acerifolia,True,Pg Fabra i Puig,10.09,9.74,ok,,large,430095.2,4587118.61,430085.25,4587116.98,1.5,class
+0058530AR,Platanus × acerifolia,True,Pg Fabra i Puig,9.67,8.8,ok,,large,430835.79,4586875.89,430829.53,4586868.52,1.5,class
+0058531AR,Brachychiton populneus,False,Ptge Doctor Pi i Molist,3.99,3.62,ok,,medium,430959.97,4586995.88,430956.13,4586996.98,1.0,class
+0058533AR,Brachychiton populneus,False,C\ Cadí,3.78,3.38,ok,,medium,430455.15,4586942.9,430455.9,4586939.19,1.0,class
+0058534AR,Platanus × acerifolia,True,Pg Fabra i Puig,2.48,2.19,ok,,none,430206.11,4586933.52,430204.9,4586931.36,1.0,floor
+0058537AR,Tilia x europaea,False,C\ Montmajor,6.83,6.36,ok,,large,430701.15,4587057.27,430697.08,4587062.75,1.5,class
+0058538AR,Platanus × acerifolia,True,Pg Urrutia,5.04,4.47,ok,,medium,430796.93,4587376.14,430793.96,4587380.22,1.0,class
+0058540AR,Ulmus pumila,False,C\ Vila-seca,3.98,2.9,ok,,medium,430585.02,4587203.82,430583.72,4587207.58,1.0,class
+0058541AR,Platanus × acerifolia,True,Pg Peira,10.94,10.35,ok,,large,430586.7,4586901.04,430597.64,4586900.68,1.5,class
+0058542AR,Pyrus calleryana 'Chanticleer',False,C\ Travau,3.33,2.61,ok,,small,430532.7,4587069.36,430535.33,4587067.32,1.0,class
+0058544AR,Celtis australis,False,Pg Urrutia,7.35,6.79,ok,,large,430772.62,4587359.46,430768.46,4587365.52,1.5,class
+0058545AR,Platanus × acerifolia,True,C\ Teide,2.83,2.18,ok,,small,430531.53,4586940.14,430529.21,4586938.53,1.0,class
+0058546AR,Platanus × acerifolia,True,Pg Peira,6.09,5.43,ok,,large,430577.27,4587046.18,430580.44,4587051.37,1.5,class
+0058547AR,Melia azedarach,False,C\ Aneto,4.71,4.27,ok,,medium,430690.01,4587111.28,430693.26,4587114.69,1.0,class
+0058549AR,Platanus × acerifolia,True,Pg Peira,5.02,4.32,ok,,medium,430618.61,4586952.41,430623.08,4586950.11,1.0,class
+0058550AR,Brachychiton populneus,False,C\ Cadí,3.88,3.58,ok,,medium,430438.41,4586939.66,430438.96,4586935.81,1.0,class
+0058551AR,Platanus × acerifolia,True,Pg Urrutia,5.24,4.73,ok,,medium,430809.88,4587385.72,430806.68,4587389.86,1.0,class
+0058552AR,Brachychiton populneus,False,C\ Cadí,2.8,2.35,ok,,small,430580.35,4587011.22,430578.09,4587012.88,1.0,class
+0058553AR,Melia azedarach,False,C\ Montsant,,10.17,median,,check,,,,,1.0,floor
+0058554AR,Melia azedarach,False,C\ Montsant,4.38,3.73,ok,,medium,430688.47,4587214.47,430686.17,4587210.74,1.0,class
+0058555AR,Populus alba 'Pyramidalis',False,C\ Cadí,4.59,4.12,ok,,medium,430647.43,4587145.09,430651.37,4587142.73,1.0,class
+0058557AR,Platanus × acerifolia,True,Pg Fabra i Puig,7.53,6.87,ok,,large,430761.84,4586878.19,430761.6,4586870.67,1.5,class
+0058561AR,Platanus × acerifolia,True,Pg Peira,6.29,5.7,ok,,large,430536.89,4587098.61,430533.65,4587093.22,1.5,class
+0058562AR,Platanus × acerifolia,True,C\ Doctor Pi i Molist,10.8,10.27,ok,,large,430900.67,4587201.51,430911.48,4587201.48,1.5,class
+0058563AR,Brachychiton populneus,False,C\ Cadí,2.74,1.85,ok,,small,430554.68,4586997.3,430556.63,4586995.38,1.0,class
+0058564AR,Pyrus calleryana 'Chanticleer',False,C\ Travau,3.58,2.87,ok,,medium,430590.87,4587140.93,430587.8,4587142.77,1.0,class
+0058565AR,Brachychiton populneus,False,C\ Cadí,2.98,2.67,ok,,small,430429.02,4586925.97,430428.6,4586928.92,1.0,class
+0058566AR,Brachychiton populneus,False,C\ Cadí,2.98,2.4,ok,,small,430544.57,4586971.11,430542.67,4586973.41,1.0,class
+0058567AR,Platanus × acerifolia,True,Pg Fabra i Puig,6.18,5.33,ok,,large,430472.89,4586892.91,430472.7,4586886.73,1.5,class
+0058568AR,Platanus × acerifolia,True,Pg Fabra i Puig,3.32,2.68,ok,,small,430116.46,4587026.61,430113.6,4587024.94,1.0,class
+0058569AR,Fraxinus angustifolia 'Raywood',False,C\ Cadí,4.33,3.85,ok,,medium,430615.98,4587069.19,430612.27,4587071.42,1.0,class
+0058570AR,Platanus × acerifolia,True,C\ Doctor Pi i Molist,5.02,4.62,ok,,medium,431015.44,4586932.41,431020.09,4586934.31,1.0,class
+0058572AR,Platanus × acerifolia,True,Pg Fabra i Puig,7.68,7.2,ok,,large,430690.76,4586880.46,430690.51,4586872.79,1.5,class
+0058573AR,Platanus × acerifolia,True,C\ Sant Iscle,2.32,1.7,ok,,none,430804.77,4587179.98,430802.94,4587178.55,1.0,floor
+0058574AR,Celtis australis,False,C\ Travau,,10.75,median,,check,,,,,1.0,floor
+0058575AR,Platanus × acerifolia,True,Pg Urrutia,6.56,6.12,ok,,large,430739.55,4587349.57,430737.8,4587355.89,1.5,class
+0058577AR,Tilia x europaea,False,C\ Montmajor,8.12,7.67,ok,,large,430699.28,4587053.7,430691.38,4587051.83,1.5,class
+0058578AR,Platanus × acerifolia,True,Pg Fabra i Puig,7.82,7.35,ok,,large,430093.07,4587131.7,430085.36,4587130.44,1.5,class
+0058581AR,Prunus cerasifera 'Pissardii',False,C\ Teide,2.9,2.43,ok,,small,430492.93,4586975.5,430495.32,4586977.15,1.0,class
+0058582AR,Platanus × acerifolia,True,C\ Doctor Pi i Molist,,5.22,median,5.67,check,,,,,1.0,floor
+0058584AR,Brachychiton populneus,False,C\ Cadí,2.94,2.33,ok,,small,430562.1,4586988.37,430559.94,4586990.36,1.0,class
+0058585AR,Parrotia persica 'Vanessa',False,C\ Rosario Pi,,7.52,median,,check,,,,,1.0,floor
+0058588AR,Celtis australis,False,Pg Urrutia,4.91,4.24,ok,,medium,430803.19,4587380.7,430800.31,4587384.67,1.0,class
+0058589AR,Melia azedarach,False,C\ Aneto,4.51,4.05,ok,,medium,430691.17,4587130.21,430688.04,4587126.96,1.0,class
+0058590AR,Tilia x europaea,False,C\ Montmajor,6.01,5.45,ok,,large,430687.5,4587074.73,430692.83,4587071.94,1.5,class
+0058593AR,Pyrus calleryana 'Chanticleer',False,C\ Travau,3.51,2.81,ok,,medium,430584.91,4587131.0,430581.9,4587132.81,1.0,class
+0058594AR,Platanus × acerifolia,True,C\ Doctor Pi i Molist,5.0,4.33,ok,,medium,431020.07,4586921.08,431024.7,4586922.97,1.0,class
+0058595AR,Celtis australis,False,C\ Teide,,9.51,median,3.09,check,,,,,1.0,floor
+0058596AR,Platanus × acerifolia,True,Pg Fabra i Puig,3.06,2.53,ok,,small,430224.87,4586923.42,430223.12,4586920.92,1.0,class
+0058597AR,Platanus × acerifolia,True,Pg Peira,5.97,5.21,ok,,medium,430562.29,4587055.34,430565.4,4587060.43,1.0,class
+0058598AR,Brachychiton populneus,False,Pg Fabra i Puig,10.18,10.25,ok,,large,430185.56,4586954.43,430177.5,4586960.64,1.5,class
+0058599AR,Brachychiton populneus,False,C\ Cadí,2.94,2.57,ok,,small,430458.61,4586931.22,430457.97,4586934.09,1.0,class
+0058602AR,Platanus × acerifolia,True,C\ Sant Iscle,3.74,3.22,ok,,medium,430734.53,4587256.29,430732.0,4587253.54,1.0,class
+0058604AR,Tilia x europaea,False,C\ Besiberri,,5.25,no_kerb,,check,,,,,1.0,floor
+0058605AR,Platanus × acerifolia,True,C\ Sant Iscle,3.92,3.21,ok,,medium,430639.49,4587314.26,430641.99,4587317.28,1.0,class
+0058607AR,Platanus × acerifolia,True,C\ Doctor Pi i Molist,5.22,4.69,ok,,medium,431028.74,4586899.17,431033.61,4586901.06,1.0,class
+0058608AR,Platanus × acerifolia,True,C\ Doctor Pi i Molist,13.27,11.73,ok,,large,430976.86,4587026.8,430977.19,4587040.07,1.5,class
+0058609AR,Platanus × acerifolia,True,Pg Fabra i Puig,15.58,13.86,ok,,large,430092.08,4587137.82,430086.84,4587152.5,1.5,class
+0058611AR,Platanus × acerifolia,True,C\ Sant Iscle,3.42,2.98,ok,,small,430974.23,4586914.78,430970.98,4586913.71,1.0,class
+0058613AR,Platanus × acerifolia,True,C\ Doctor Pi i Molist,5.54,5.11,ok,,medium,430961.19,4587064.94,430966.31,4587067.04,1.0,class
+0058615AR,Platanus × acerifolia,True,C\ Teide,2.95,2.69,ok,,small,430500.99,4586984.56,430498.56,4586982.88,1.0,class
+0058617AR,Brachychiton populneus,False,Ptge Doctor Pi i Molist,4.12,3.46,ok,,medium,430961.21,4587044.02,430965.18,4587042.9,1.0,class
+0058618AR,Tilia x euchlora,False,C\ Montmajor,6.26,5.74,ok,,large,430728.95,4587154.14,430734.49,4587151.25,1.5,class
+0058619AR,Brachychiton populneus,False,C\ Cadí,2.98,2.61,ok,,small,430492.82,4586940.68,430491.91,4586943.51,1.0,class
+0058621AR,Melia azedarach,False,C\ Aneto,4.79,4.07,ok,,medium,430638.63,4587160.35,430641.97,4587163.79,1.0,class
+0058622AR,Platanus × acerifolia,True,Pg Peira,5.88,5.43,ok,,medium,430632.44,4587012.68,430635.5,4587017.69,1.0,class
+0058623AR,Brachychiton populneus,False,Ptge Doctor Pi i Molist,3.99,3.44,ok,,medium,430961.93,4587002.72,430958.1,4587003.82,1.0,class
+0058624AR,Platanus × acerifolia,True,Pg Peira,5.79,5.54,ok,,medium,430621.11,4587047.51,430618.13,4587042.54,1.0,class
+0058625AR,Platanus × acerifolia,True,Pg Fabra i Puig,24.41,23.46,ok,,large,430183.17,4586950.16,430161.87,4586962.08,1.5,class
+0058628AR,Celtis australis,False,C\ Teide,2.91,2.22,ok,,small,430519.15,4586937.11,430521.56,4586938.75,1.0,class
+0058629AR,Brachychiton populneus,False,C\ Cadí,2.99,1.8,ok,,small,430566.59,4587012.12,430568.93,4587010.26,1.0,class
+0058631AR,Pyrus calleryana 'Chanticleer',False,C\ Travau,3.2,2.6,ok,,small,430506.08,4587040.71,430508.19,4587038.29,1.0,class
+0058632AR,Platanus × acerifolia,True,C\ Doctor Pi i Molist,5.13,4.74,ok,,medium,431006.33,4586954.71,431011.08,4586956.65,1.0,class
+0058633AR,Platanus × acerifolia,True,C\ Doctor Pi i Molist,5.62,5.14,ok,,medium,430950.08,4587092.1,430955.14,4587094.54,1.0,class
+0058634AR,Pyrus calleryana 'Chanticleer',False,C\ Travau,2.92,2.29,ok,,small,430531.55,4587049.05,430529.35,4587050.98,1.0,class
+0058635AR,Melia azedarach,False,Pg Peira,5.88,5.48,ok,,medium,430618.37,4587021.3,430621.42,4587026.33,1.0,class
+0058636AR,Brachychiton populneus,False,C\ Cadí,2.97,2.66,ok,,small,430487.72,4586939.07,430486.84,4586941.91,1.0,class
+0058639AR,Celtis australis,False,Pg Peira,6.13,5.02,ok,,large,430582.59,4587042.93,430585.79,4587048.16,1.5,class
+0058641AR,Brachychiton populneus,False,C\ Cadí,2.89,2.37,ok,,small,430539.77,4586967.12,430537.92,4586969.35,1.0,class
+0058642AR,Platanus × acerifolia,True,Pg Urrutia,8.81,8.1,ok,,large,430742.16,4587350.29,430746.73,4587357.82,1.5,class
+0058643AR,Platanus × acerifolia,True,C\ Doctor Pi i Molist,5.81,5.4,ok,,medium,430926.03,4587150.8,430931.41,4587153.0,1.0,class
+0058644AR,Platanus × acerifolia,True,Pg Fabra i Puig,7.11,6.55,ok,,large,430935.51,4586872.36,430935.37,4586865.26,1.5,class
+0058645AR,Pyrus calleryana 'Chanticleer',False,C\ Travau,5.28,4.79,ok,,medium,430566.59,4587123.72,430571.13,4587121.0,1.0,class
+0058646AR,Platanus × acerifolia,True,Pg Peira,5.88,5.31,ok,,medium,430550.08,4587062.79,430553.15,4587067.81,1.0,class
+0058649AR,Tilia x europaea,False,C\ Besiberri,,5.21,no_kerb,,check,,,,,1.0,floor
+0058650AR,Platanus × acerifolia,True,C\ Sant Iscle,4.13,3.7,ok,,medium,430666.9,4587291.59,430669.53,4587294.77,1.0,class
+0058651AR,Platanus × acerifolia,True,Pg Urrutia,9.2,8.73,ok,,large,430765.59,4587354.62,430760.37,4587362.21,1.5,class
+0058652AR,Platanus × acerifolia,True,C\ Doctor Pi i Molist,5.37,4.84,ok,,medium,430984.6,4587007.88,430989.57,4587009.91,1.0,class
+0058654AR,Platanus × acerifolia,True,C\ Doctor Pi i Molist,5.88,5.33,ok,,medium,430860.41,4587312.04,430865.85,4587314.27,1.0,class
+0058656AR,Populus alba 'Pyramidalis',False,C\ Travau,3.64,3.11,ok,,medium,430572.08,4587109.64,430568.96,4587111.51,1.0,class
+0058657AR,Platanus × acerifolia,True,Pg Fabra i Puig,9.56,9.02,ok,,large,430639.67,4586884.0,430639.34,4586874.45,1.5,class
+0058658AR,Melia azedarach,False,C\ Montsant,,9.77,median,9.04,check,,,,,1.0,floor
+0058659AR,Pyrus calleryana 'Chanticleer',False,C\ Rosario Pi,16.96,13.9,ok,,large,430808.03,4586964.59,430817.08,4586950.25,1.5,class
+0058660AR,Populus alba 'Pyramidalis',False,C\ Beret,3.48,2.96,ok,,small,430515.33,4587121.09,430512.35,4587122.87,1.0,class
+0058662AR,Platanus × acerifolia,True,C\ Doctor Pi i Molist,5.74,5.28,ok,,medium,430941.23,4587113.65,430946.55,4587115.82,1.0,class
+0058663AR,Platanus × acerifolia,True,Pg Fabra i Puig,6.17,5.72,ok,,large,430465.94,4586893.12,430465.76,4586886.95,1.5,class
+0058664AR,Platanus × acerifolia,True,Pg Urrutia,11.67,10.36,ok,,large,430683.93,4587346.67,430694.6,4587351.41,1.5,class
+0058665AR,Tilia x europaea,False,C\ Montmajor,5.99,5.5,ok,,medium,430695.97,4587090.86,430701.27,4587088.07,1.0,class
+0058666AR,Celtis australis,False,C\ Sant Iscle,3.87,3.19,ok,,medium,430633.15,4587319.51,430635.61,4587322.5,1.0,class
+0058667AR,Platanus × acerifolia,True,Pg Fabra i Puig,10.96,10.55,ok,,large,430096.49,4587110.7,430085.68,4587108.93,1.5,class
+0128289AR,Platanus × acerifolia,True,Pg Fabra i Puig,11.74,10.76,ok,,large,430313.75,4586868.51,430314.57,4586880.22,1.5,class
+0128338AR,Robinia pseudoacacia,False,Pg Fabra i Puig,17.21,9.53,ok,,large,430268.5,4586877.64,430273.75,4586894.02,1.5,class
+0128349AR,Platanus × acerifolia,True,Pg Fabra i Puig,,12.56,median,,check,,,,,1.0,floor
+0128366AR,Robinia pseudoacacia,False,Pg Fabra i Puig,16.07,8.49,ok,,large,430287.28,4586872.77,430291.03,4586888.39,1.5,class
+0128374AR,Platanus × acerifolia,True,Pg Fabra i Puig,13.05,11.95,ok,,large,430308.31,4586868.89,430309.23,4586881.9,1.5,class
+0128466AR,Robinia pseudoacacia 'Pyramidalis',False,Pg Fabra i Puig,,14.33,median,22.23,check,,,,,1.0,floor
+0128491AR,Brachychiton populneus,False,Pg Fabra i Puig,,12.95,median,2.58,check,,,,,1.0,floor
+0128522AR,Robinia pseudoacacia,False,Pg Fabra i Puig,12.54,7.58,ok,,large,430310.43,4586868.74,430311.31,4586881.25,1.5,class
+0128537AR,Platanus × acerifolia,True,Pg Fabra i Puig,,12.09,median,,check,,,,,1.0,floor
+0128636AR,Platanus × acerifolia,True,Pg Fabra i Puig,,12.01,median,,check,,,,,1.0,floor
+0128777AR,Platanus × acerifolia,True,Pg Fabra i Puig,,12.53,median,,check,,,,,1.0,floor
+0129152AR,Robinia pseudoacacia,False,Pg Fabra i Puig,16.68,9.12,ok,,large,430282.37,4586873.94,430286.27,4586890.16,1.5,class
+0129283AR,Robinia pseudoacacia 'Bessoniana',False,Pg Fabra i Puig,16.75,9.4,ok,,large,430247.45,4586884.47,430252.8,4586900.34,1.5,class
+0129561AR,Platanus × acerifolia,True,Pg Fabra i Puig,,13.12,median,,check,,,,,1.0,floor
+0129821AR,Platanus × acerifolia,True,Pg Fabra i Puig,,13.31,median,,check,,,,,1.0,floor
+0129876AR,Platanus × acerifolia,True,Pg Fabra i Puig,,13.21,median,,check,,,,,1.0,floor
+0130091AR,Platanus × acerifolia,True,Pg Fabra i Puig,,12.7,median,,check,,,,,1.0,floor
+0130334AR,Robinia pseudoacacia 'Bessoniana',False,Pg Fabra i Puig,,12.47,median,26.08,check,,,,,1.0,floor
+0130366AR,Robinia pseudoacacia,False,Pg Fabra i Puig,15.38,7.76,ok,,large,430292.45,4586871.52,430296.04,4586886.48,1.5,class
+0130375AR,Platanus × acerifolia,True,Pg Fabra i Puig,14.41,13.58,ok,,large,430302.85,4586869.27,430303.86,4586883.64,1.5,class
+0130450AR,Platanus × acerifolia,True,Pg Fabra i Puig,,11.87,median,,check,,,,,1.0,floor
+0130536AR,Robinia pseudoacacia 'Bessoniana',False,Pg Fabra i Puig,,13.07,median,23.76,check,,,,,1.0,floor
+0288873AR,Nerium oleander,False,C\ Nil,3.14,2.61,ok,,small,430829.96,4587351.94,430832.75,4587350.51,1.0,class
+0288874AR,Nerium oleander,False,C\ Nil,3.13,2.7,ok,,small,430788.37,4587271.23,430791.16,4587269.8,1.0,class
+0288875AR,Nerium oleander,False,C\ Nil,3.13,2.81,ok,,small,430791.51,4587277.35,430794.3,4587275.92,1.0,class
+0288876AR,Nerium oleander,False,C\ Nil,3.12,2.71,ok,,small,430794.85,4587283.87,430797.63,4587282.44,1.0,class
+0288877AR,Nerium oleander,False,C\ Nil,3.1,2.42,ok,,small,430800.04,4587293.97,430802.8,4587292.56,1.0,class
+0288878AR,Nerium oleander,False,C\ Nil,3.15,2.56,ok,,small,430805.79,4587305.19,430808.59,4587303.75,1.0,class
+0288880AR,Nerium oleander,False,C\ Nil,3.11,2.52,ok,,small,430818.61,4587329.95,430821.37,4587328.52,1.0,class
+0288881AR,Nerium oleander,False,C\ Nil,3.11,2.45,ok,,small,430822.72,4587337.88,430825.47,4587336.45,1.0,class
+0288882AR,Nerium oleander,False,C\ Nil,3.17,2.66,ok,,small,430833.15,4587358.17,430835.97,4587356.73,1.0,class
+0288954AR,Nerium oleander,False,C\ Nil,2.6,2.04,ok,,small,430775.67,4587245.4,430777.99,4587244.23,1.0,class
+0290655AR,Platanus × acerifolia,True,C\ Sant Iscle,,9.62,median,3.75,check,,,,,1.0,floor
+0290657AR,Platanus × acerifolia,True,C\ Sant Iscle,3.9,3.33,ok,,medium,430901.74,4587032.88,430905.21,4587034.66,1.0,class
+0290658AR,Platanus × acerifolia,True,C\ Sant Iscle,6.1,5.68,ok,,large,430896.92,4587035.97,430900.21,4587041.11,1.5,class
+0290659AR,Celtis australis,False,C\ Sant Iscle,8.87,8.14,ok,,large,430890.34,4587040.18,430895.12,4587047.66,1.5,class
+0290660AR,Platanus × acerifolia,True,C\ Sant Iscle,11.25,10.6,ok,,large,430884.71,4587043.78,430890.78,4587053.25,1.5,class
+0290661AR,Celtis australis,False,C\ Sant Iscle,5.71,5.04,ok,,medium,430868.96,4587072.55,430872.03,4587077.37,1.0,class
+0290662AR,Celtis australis,False,C\ Sant Iscle,7.85,6.98,ok,,large,430863.87,4587075.79,430868.09,4587082.41,1.5,class
+0290663AR,Platanus × acerifolia,True,C\ Sant Iscle,12.52,9.73,ok,,large,430857.66,4587079.74,430864.39,4587090.3,1.5,class
+0290664AR,Platanus × acerifolia,True,C\ Sant Iscle,8.73,8.18,ok,,large,430928.34,4587031.0,430920.73,4587026.73,1.5,class
+0290666AR,Platanus × acerifolia,True,C\ Sant Iscle,6.3,5.91,ok,,large,430935.81,4587017.72,430930.3,4587014.65,1.5,class
+0290667AR,Platanus × acerifolia,True,C\ Sant Iscle,9.95,9.54,ok,,large,430924.55,4587037.76,430915.87,4587032.89,1.5,class
+0290668AR,Celtis australis,False,C\ Sant Iscle,11.22,10.72,ok,,large,430921.65,4587042.94,430911.11,4587039.07,1.5,class
+0290669AR,Celtis australis,False,C\ Sant Iscle,,13.02,median,,check,,,,,1.0,floor
+0290670AR,Platanus × acerifolia,True,C\ Sant Iscle,15.9,12.42,ok,,large,430896.17,4587062.76,430903.66,4587048.74,1.5,class
+0290671AR,Platanus × acerifolia,True,C\ Sant Iscle,5.74,5.15,ok,,medium,430896.17,4587062.76,430897.17,4587057.12,1.0,class
+0290672AR,Celtis australis,False,C\ Sant Iscle,2.67,2.3,ok,,small,430893.87,4587065.71,430891.76,4587064.07,1.0,class
+0290676AR,Celtis australis,False,C\ Sant Iscle,2.58,2.19,ok,,small,430873.88,4587091.31,430871.85,4587089.72,1.0,class
+0290677AR,Platanus × acerifolia,True,C\ Sant Iscle,2.54,1.97,ok,,small,430864.18,4587103.73,430862.18,4587102.17,1.0,class
+0290679AR,Platanus × acerifolia,True,C\ Sant Iscle,2.49,2.04,ok,,none,430854.79,4587115.76,430852.82,4587114.22,1.0,floor
+0291800AR,Platanus × acerifolia,True,C\ Sant Iscle,,10.94,median,3.75,check,,,,,1.0,floor
+0291801AR,Celtis australis,False,C\ Sant Iscle,4.06,3.3,ok,,medium,430873.23,4587069.83,430877.18,4587070.78,1.0,class
+0298183AR,Acer buergerianum,False,C\ Vall d'Ordesa,,8.96,median,,check,,,,,1.0,floor
+0298184AR,Acer buergerianum,False,C\ Vall d'Ordesa,,9.07,median,,check,,,,,1.0,floor
+0298186AR,Acer buergerianum,False,C\ Vall d'Ordesa,10.61,9.49,ok,,large,430198.57,4586997.87,430188.41,4587000.91,1.5,class
+0298187AR,Acer buergerianum,False,C\ Vall d'Ordesa,4.59,4.04,ok,,medium,430198.57,4586997.87,430194.49,4586995.76,1.0,class
+0298188AR,Acer buergerianum,False,C\ Vall d'Ordesa,5.1,4.59,ok,,medium,430202.77,4586995.97,430200.67,4586991.32,1.0,class
+0298189AR,Acer buergerianum,False,C\ Vall d'Ordesa,5.92,5.49,ok,,medium,430209.16,4586993.07,430206.7,4586987.69,1.0,class
+0298190AR,Acer buergerianum,False,C\ Vall d'Ordesa,6.31,5.69,ok,,large,430215.86,4586990.01,430213.23,4586984.26,1.5,class
+0298191AR,Acer buergerianum,False,C\ Vall d'Ordesa,6.43,5.97,ok,,large,430222.58,4586986.93,430219.9,4586981.09,1.5,class
+0298192AR,Acer buergerianum,False,C\ Vall d'Ordesa,6.3,6.03,ok,,large,430229.13,4586983.93,430226.51,4586978.2,1.5,class
+0298193AR,Acer buergerianum,False,C\ Vall d'Ordesa,5.99,5.52,ok,,medium,430235.42,4586981.07,430232.96,4586975.61,1.0,class
+0298194AR,Acer buergerianum,False,C\ Vall d'Ordesa,,5.71,median,3.57,check,,,,,1.0,floor
+0298195AR,Acer buergerianum,False,C\ Vall d'Ordesa,4.02,3.14,ok,,medium,430249.83,4586973.54,430246.66,4586971.07,1.0,class
+0298198AR,Acer monspessulanum,False,C\ Vall d'Ordesa,3.21,2.75,ok,,small,430268.38,4586968.5,430267.55,4586965.39,1.0,class
+0298199AR,Acer monspessulanum,False,C\ Vall d'Ordesa,3.23,2.79,ok,,small,430273.88,4586967.02,430273.05,4586963.91,1.0,class
+0298200AR,Acer monspessulanum,False,C\ Vall d'Ordesa,3.24,2.7,ok,,small,430279.82,4586965.44,430278.98,4586962.3,1.0,class
+0298201AR,Acer monspessulanum,False,C\ Vall d'Ordesa,3.21,2.82,ok,,small,430290.22,4586962.6,430289.38,4586959.5,1.0,class
+0298202AR,Acer monspessulanum,False,C\ Vall d'Ordesa,3.19,2.69,ok,,small,430296.5,4586960.89,430295.68,4586957.81,1.0,class
+0298203AR,Acer monspessulanum,False,C\ Vall d'Ordesa,3.21,2.66,ok,,small,430303.49,4586959.03,430302.66,4586955.93,1.0,class
+0298204AR,Acer monspessulanum,False,C\ Vall d'Ordesa,3.15,2.7,ok,,small,430309.98,4586957.29,430309.17,4586954.25,1.0,class
+0298205AR,Acer monspessulanum,False,C\ Vall d'Ordesa,7.72,6.94,ok,,large,430313.85,4586960.03,430317.17,4586953.05,1.5,class
+0298206AR,Acer monspessulanum,False,C\ Vall d'Ordesa,17.33,11.83,ok,,large,430313.85,4586960.03,430327.99,4586950.01,1.5,class
+0298207AR,Acer monspessulanum,False,C\ Vall d'Ordesa,12.48,8.23,ok,,large,430337.71,4586957.6,430327.8,4586950.02,1.5,class
+0298208AR,Acer monspessulanum,False,C\ Vall d'Ordesa,3.93,3.03,ok,,medium,430340.08,4586954.5,430337.66,4586951.4,1.0,class
+0298209AR,Acer monspessulanum,False,C\ Vall d'Ordesa,3.24,2.72,ok,,small,430345.3,4586954.35,430345.22,4586951.12,1.0,class
+0298210AR,Acer monspessulanum,False,C\ Vall d'Ordesa,3.27,2.89,ok,,small,430352.62,4586954.15,430352.53,4586950.89,1.0,class
+0298211AR,Acer monspessulanum,False,C\ Vall d'Ordesa,3.28,2.83,ok,,small,430359.87,4586953.94,430359.77,4586950.66,1.0,class
+0298212AR,Acer monspessulanum,False,C\ Vall d'Ordesa,3.29,2.95,ok,,small,430366.91,4586953.73,430366.81,4586950.44,1.0,class
+0298213AR,Acer monspessulanum,False,C\ Vall d'Ordesa,3.31,2.91,ok,,small,430374.11,4586953.51,430374.02,4586950.21,1.0,class
+0298214AR,Acer monspessulanum,False,C\ Vall d'Ordesa,3.33,2.84,ok,,small,430381.14,4586953.31,430381.05,4586949.98,1.0,class
+0298215AR,Acer monspessulanum,False,C\ Vall d'Ordesa,3.33,2.75,ok,,small,430388.39,4586953.1,430388.28,4586949.77,1.0,class
+0298216AR,Acer monspessulanum,False,C\ Vall d'Ordesa,3.31,2.74,ok,,small,430395.17,4586952.89,430395.06,4586949.57,1.0,class
+0309905AR,Acer monspessulanum,False,C\ Cadí,2.8,2.05,ok,,small,430408.11,4586923.53,430407.64,4586926.28,1.0,class
+0309906AR,Acer monspessulanum,False,C\ Vall d'Ordesa,6.46,5.46,ok,,large,430395.55,4586930.29,430402.0,4586929.95,1.5,class
+0309907AR,Acer monspessulanum,False,C\ Vall d'Ordesa,5.35,4.69,ok,,medium,430395.82,4586936.72,430401.17,4586936.55,1.0,class
+0309908AR,Acer monspessulanum,False,C\ Canfranc,3.55,2.9,ok,,medium,430405.06,4586955.51,430408.51,4586954.64,1.0,class
+0309910AR,Acer monspessulanum,False,C\ Canfranc,10.17,8.76,ok,,large,430412.06,4586982.02,430414.72,4586972.2,1.5,class
+0309911AR,Acer monspessulanum,False,C\ Canfranc,5.14,4.35,ok,,medium,430414.54,4586986.4,430419.68,4586986.23,1.0,class
+0309912AR,Acer monspessulanum,False,C\ Canfranc,7.12,6.34,ok,,large,430414.74,4586992.65,430421.86,4586992.41,1.5,class
+0309913AR,Acer monspessulanum,False,C\ Canfranc,5.79,4.99,ok,,medium,430412.06,4586982.02,430417.38,4586979.74,1.0,class
+0309914AR,Acer monspessulanum,False,C\ Canfranc,5.2,4.34,ok,,medium,430405.32,4586960.55,430410.51,4586960.29,1.0,class
+0311573AR,Nerium oleander,False,C\ Nil,3.15,2.53,ok,,small,430810.23,4587313.78,430813.03,4587312.33,1.0,class
+0311745AR,Platanus × acerifolia,True,C\ Teide,3.15,2.53,ok,,small,430486.07,4587006.42,430483.15,4587005.22,1.0,class
+0322086AR,Platanus × acerifolia,True,C\ Nil,3.04,2.32,ok,,small,430764.23,4587234.16,430764.73,4587231.17,1.0,class
+0347035AR,Acer campestre,False,C\ Travau,,9.32,median,,check,,,,,1.0,floor
+0347036AR,Acer campestre,False,C\ Travau,10.58,9.36,ok,,large,430353.72,4587017.62,430345.68,4587010.75,1.5,class
+0347037AR,Acer campestre,False,C\ Travau,4.52,3.75,ok,,medium,430366.08,4587014.52,430366.97,4587010.09,1.0,class
+0347038AR,Acer campestre,False,C\ Travau,,9.4,median,,check,,,,,1.0,floor
+0347042AR,Gleditsia triacanthos f. inermis,False,C\ Travau,,10.22,median,6.23,check,,,,,1.0,floor
+0347043AR,Styphnolobium japonicum,False,C\ Travau,,11.57,median,19.6,check,,,,,1.0,floor
+0347044AR,Styphnolobium japonicum,False,C\ Travau,,12.7,no_kerb,,check,,,,,1.0,floor

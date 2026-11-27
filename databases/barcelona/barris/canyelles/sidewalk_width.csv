@@ -1,0 +1,786 @@
+tree_id,species,is_plane,street,width_m,facade_dist_m,flag,strip_width_m,size_class,ray_x0,ray_y0,ray_x1,ray_y1,pit_min_m2,pit_basis
+0136251AR,Ligustrum lucidum,False,Via Favència,,43.3,no_facade,34.87,check,,,,,1.0,floor
+0136272AR,Ligustrum lucidum,False,Via Favència,,37.38,no_facade,35.83,check,,,,,1.0,floor
+0136429AR,Ligustrum lucidum,False,Via Favència,,37.98,no_facade,35.61,check,,,,,1.0,floor
+0136440AR,Ligustrum lucidum,False,Via Favència,,38.13,no_facade,35.55,check,,,,,1.0,floor
+0136503AR,Ligustrum lucidum,False,Via Favència,,39.83,no_facade,35.12,check,,,,,1.0,floor
+0136524AR,Ligustrum lucidum,False,Via Favència,,38.42,no_facade,35.41,check,,,,,1.0,floor
+0136588AR,Ligustrum lucidum,False,Via Favència,,39.24,no_facade,35.17,check,,,,,1.0,floor
+0136834AR,Ligustrum lucidum,False,Via Favència,,48.7,no_facade,34.63,check,,,,,1.0,floor
+0136950AR,Ligustrum lucidum,False,Via Favència,,38.28,no_facade,35.48,check,,,,,1.0,floor
+0136958AR,Ligustrum lucidum,False,Via Favència,,40.63,no_facade,35.04,check,,,,,1.0,floor
+0136981AR,Ligustrum lucidum,False,Via Favència,,38.88,no_facade,35.22,check,,,,,1.0,floor
+0137170AR,Ligustrum lucidum,False,Via Favència,,37.65,no_facade,35.82,check,,,,,1.0,floor
+0137277AR,Ligustrum lucidum,False,Via Favència,,52.64,no_facade,34.53,check,,,,,1.0,floor
+0137355AR,Ligustrum lucidum,False,Via Favència,,50.64,no_facade,34.59,check,,,,,1.0,floor
+0137510AR,Parkinsonia aculeata,False,Via Favència,,60.66,no_facade,13.9,check,,,,,1.0,floor
+0137665AR,Ligustrum lucidum,False,Via Favència,,38.72,no_facade,35.27,check,,,,,1.0,floor
+0137688AR,Ligustrum lucidum,False,Via Favència,,44.98,no_facade,34.79,check,,,,,1.0,floor
+0138043AR,Ligustrum lucidum,False,Via Favència,,62.17,no_facade,34.39,check,,,,,1.0,floor
+0138454AR,Ligustrum lucidum,False,Via Favència,,38.0,no_facade,35.69,check,,,,,1.0,floor
+0138484AR,Ligustrum lucidum,False,Via Favència,,41.66,no_facade,34.96,check,,,,,1.0,floor
+0138561AR,Jacaranda mimosifolia,False,C\ Federico García Lorca,,13.66,median,,check,,,,,1.0,floor
+0138695AR,Jacaranda mimosifolia,False,C\ Federico García Lorca,,14.8,median,,check,,,,,1.0,floor
+0138765AR,Jacaranda mimosifolia,False,C\ Federico García Lorca,,17.83,median,,check,,,,,1.0,floor
+0139804AR,Platanus × acerifolia,True,Rda Guineueta Vella,13.05,9.65,ok,,large,430025.83,4588228.71,430013.39,4588232.64,1.5,class
+0139805AR,Firmiana simplex,False,Pl Miguel de Unamuno,9.61,5.39,ok,,large,430545.92,4588288.31,430554.53,4588292.57,1.5,class
+0139807AR,Jacaranda mimosifolia,False,C\ Miguel Hernández,22.9,4.29,ok,,large,430312.9,4588330.93,430323.16,4588310.47,1.5,class
+0139808AR,Corylus colurna,False,C\ Miguel Hernández,,31.86,no_facade,12.58,check,,,,,1.0,floor
+0139809AR,Styphnolobium japonicum 'Dot',False,C\ Antonio Machado,8.34,7.06,ok,,large,430505.27,4588310.33,430501.55,4588317.8,1.5,class
+0139811AR,Cercis siliquastrum,False,C\ Miguel Hernández,8.46,7.32,ok,,large,430124.46,4588217.04,430120.75,4588209.43,1.5,class
+0139813AR,Jacaranda mimosifolia,False,C\ Miguel Hernández,22.34,3.25,ok,,large,430283.66,4588315.58,430293.63,4588295.59,1.5,class
+0139814AR,Celtis sinensis,False,Via Favència,21.13,20.59,ok,,large,430521.45,4588239.23,430531.25,4588220.52,1.5,class
+0139815AR,Platanus × acerifolia,True,C\ Federico García Lorca,,36.43,no_facade,,check,,,,,1.0,floor
+0139817AR,Populus nigra 'Italica',False,Via Favència,,12.07,no_kerb,,check,,,,,1.0,floor
+0139818AR,Platanus × acerifolia,True,C\ Federico García Lorca,22.04,20.86,ok,,large,430217.2,4588118.82,430236.94,4588128.62,1.5,class
+0139819AR,Platanus × acerifolia,True,Rda Guineueta Vella,6.53,5.27,ok,,large,430633.62,4588360.0,430640.08,4588360.96,1.5,class
+0139820AR,Ulmus pumila,False,C\ Víctor Jara,,7.84,no_kerb,,check,,,,,1.0,floor
+0139821AR,Cercis siliquastrum,False,C\ Miguel Hernández,5.16,4.42,ok,,medium,430125.77,4588217.7,430128.07,4588213.08,1.0,class
+0139822AR,Tipuana tipu,False,Pl Isabel de Villena,10.55,6.44,ok,,large,430485.53,4588283.53,430490.28,4588274.11,1.5,class
+0139824AR,Cupressus sempervirens 'Stricta',False,Pl Karl Marx,,30.19,no_facade,25.44,check,,,,,1.0,floor
+0139825AR,Celtis sinensis,False,Via Favència,6.68,6.28,ok,,large,430296.31,4588111.8,430295.56,4588105.16,1.5,class
+0139826AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Federico García Lorca,4.35,3.06,ok,,medium,430298.32,4588350.72,430296.39,4588354.61,1.0,class
+0139827AR,Platanus × acerifolia,True,C\ Federico García Lorca,,30.68,no_facade,,check,,,,,1.0,floor
+0139828AR,Jacaranda mimosifolia,False,C\ Federico García Lorca,26.91,12.9,ok,,large,430219.72,4588113.73,430246.14,4588108.62,1.5,class
+0139830AR,Populus nigra 'Italica',False,Rda Guineueta Vella,,9.41,median,1.6,check,,,,,1.0,floor
+0139831AR,Platanus × acerifolia,True,Via Favència,21.1,5.75,ok,,large,430518.64,4588237.84,430527.92,4588218.88,1.5,class
+0139832AR,Cercis siliquastrum,False,C\ Miguel Hernández,,17.91,median,13.64,check,,,,,1.0,floor
+0139834AR,Platanus × acerifolia,True,C\ Federico García Lorca,,35.41,no_facade,,check,,,,,1.0,floor
+0139835AR,Populus nigra 'Italica',False,Via Favència,,12.02,no_kerb,,check,,,,,1.0,floor
+0139836AR,Platanus × acerifolia,True,Via Favència,18.22,6.09,ok,,large,430574.76,4588260.8,430582.33,4588244.22,1.5,class
+0139837AR,Platanus × acerifolia,True,C\ Antonio Machado,14.68,3.42,ok,,large,430042.81,4588109.75,430057.14,4588112.96,1.5,class
+0139838AR,Celtis australis,False,C\ Antonio Machado,7.01,4.76,ok,,large,430120.16,4588147.28,430123.2,4588140.96,1.5,class
+0139839AR,Jacaranda mimosifolia,False,C\ Federico García Lorca,17.27,7.95,ok,,large,430211.89,4588151.62,430229.07,4588153.42,1.5,class
+0139840AR,Ulmus pumila,False,Pl Karl Marx,14.08,6.11,ok,,large,430075.05,4588077.27,430067.88,4588065.15,1.5,class
+0139841AR,Paulownia tomentosa,False,C\ Antonio Machado,6.53,5.53,ok,,large,430027.81,4588102.34,430030.72,4588096.49,1.5,class
+0139842AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Federico García Lorca,5.62,4.23,ok,,medium,430417.88,4588410.75,430415.34,4588415.76,1.0,class
+0139843AR,Cedrus deodara,False,Pl Isabel de Villena,,5.42,no_kerb,,check,,,,,1.0,floor
+0139845AR,Celtis sinensis,False,Via Favència,18.16,14.33,ok,,large,430118.09,4588031.7,430103.09,4588021.47,1.5,class
+0139846AR,Tilia tomentosa,False,Rda Guineueta Vella,26.93,25.85,ok,,large,430183.69,4588356.0,430160.55,4588369.79,1.5,class
+0139847AR,Liquidambar styraciflua,False,C\ Carles Soldevila,3.64,1.95,ok,,medium,430153.75,4588115.77,430157.0,4588117.39,1.0,class
+0139848AR,Brachychiton populneus,False,Via Favència,,37.0,no_facade,6.35,check,,,,,1.0,floor
+0139849AR,Cercis siliquastrum,False,C\ Miguel Hernández,12.4,11.59,ok,,large,430148.73,4588233.68,430160.33,4588229.3,1.5,class
+0139850AR,Brachychiton acerifolius,False,C\ Antonio Machado,,44.97,no_facade,8.07,check,,,,,1.0,floor
+0139851AR,Tilia x euchlora,False,Rda Guineueta Vella,18.01,17.44,ok,,large,430415.89,4588464.29,430408.14,4588480.55,1.5,class
+0139853AR,Celtis australis,False,C\ Antonio Machado,,52.2,no_facade,,check,,,,,1.0,floor
+0139854AR,Celtis australis,False,C\ Antonio Machado,,50.21,no_facade,,check,,,,,1.0,floor
+0139855AR,Ulmus pumila,False,C\ Víctor Jara,2.59,1.72,ok,,small,430085.31,4588058.93,430084.14,4588061.25,1.0,class
+0139856AR,Platanus × acerifolia,True,C\ Federico García Lorca,21.73,20.31,ok,,large,430219.72,4588113.73,430239.77,4588122.12,1.5,class
+0139857AR,Platanus × acerifolia,True,Via Favència,21.68,6.3,ok,,large,430540.5,4588249.22,430550.56,4588230.01,1.5,class
+0139858AR,Celtis australis,False,C\ Antonio Machado,,48.66,no_facade,,check,,,,,1.0,floor
+0139859AR,Ulmus pumila,False,Pl Karl Marx,11.9,11.66,ok,,large,430068.38,4588090.31,430057.78,4588084.89,1.5,class
+0139861AR,Tilia tomentosa,False,Rda Guineueta Vella,7.88,7.19,ok,,large,430196.3,4588378.74,430192.79,4588385.8,1.5,class
+0139862AR,Celtis sinensis,False,Via Favència,,19.11,median,,check,,,,,1.0,floor
+0139863AR,Cercis siliquastrum,False,C\ Miguel Hernández,20.78,17.51,ok,,large,430118.52,4588189.45,430098.25,4588184.84,1.5,class
+0139864AR,Liquidambar styraciflua,False,C\ Carles Soldevila,,12.03,median,,check,,,,,1.0,floor
+0139865AR,Platanus × acerifolia,True,Rda Guineueta Vella,11.66,10.44,ok,,large,430650.88,4588314.37,430659.34,4588322.39,1.5,class
+0139866AR,Celtis australis,False,C\ Antonio Machado,,6.76,median,4.48,check,,,,,1.0,floor
+0139867AR,Jacaranda mimosifolia,False,C\ Antonio Machado,,19.44,median,5.45,check,,,,,1.0,floor
+0139868AR,Pinus pinea,False,C\ Federico García Lorca,8.0,4.19,ok,,large,430206.3,4588208.27,430214.15,4588209.8,1.5,class
+0139871AR,Liquidambar styraciflua,False,C\ Carles Soldevila,12.52,3.21,ok,,large,430172.92,4588077.44,430181.05,4588067.91,1.5,class
+0139872AR,Melia azedarach,False,C\ Federico García Lorca,23.16,22.13,ok,,large,430468.85,4588382.09,430448.14,4588371.7,1.5,class
+0139873AR,Ulmus pumila,False,C\ Antonio Machado,5.85,5.41,ok,,medium,430094.46,4588104.18,430091.8,4588109.39,1.0,class
+0139874AR,Platanus × acerifolia,True,C\ Federico García Lorca,,28.27,median,,check,,,,,1.0,floor
+0139877AR,Jacaranda mimosifolia,False,C\ Miguel Hernández,22.88,4.45,ok,,large,430320.13,4588334.56,430330.38,4588314.11,1.5,class
+0139878AR,Platanus × acerifolia,True,C\ Federico García Lorca,11.91,10.09,ok,,large,430206.3,4588208.27,430216.55,4588202.2,1.5,class
+0139879AR,Celtis sinensis,False,Via Favència,,43.53,no_facade,,check,,,,,1.0,floor
+0139881AR,Celtis australis,False,C\ Antonio Machado,11.27,10.16,ok,,large,430166.45,4588170.45,430177.71,4588170.85,1.5,class
+0139882AR,Platanus × acerifolia,True,C\ Federico García Lorca,27.27,25.39,ok,,large,430219.72,4588113.73,430246.42,4588108.13,1.5,class
+0139883AR,Platanus × acerifolia,True,C\ Federico García Lorca,9.15,8.27,ok,,large,430197.32,4588226.04,430205.56,4588230.02,1.5,class
+0139884AR,Jacaranda mimosifolia,False,C\ Antonio Machado,,52.15,no_facade,6.82,check,,,,,1.0,floor
+0139886AR,Ulmus pumila,False,C\ Víctor Jara,4.38,2.3,ok,,medium,430088.61,4588060.61,430090.59,4588064.52,1.0,class
+0139887AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Federico García Lorca,6.92,6.62,ok,,large,430210.49,4588306.21,430207.37,4588312.39,1.5,class
+0139888AR,Platanus × acerifolia,True,C\ Antonio Machado,,5.14,no_kerb,,check,,,,,1.0,floor
+0139889AR,Platanus × acerifolia,True,C\ Federico García Lorca,10.27,8.88,ok,,large,430196.03,4588228.72,430202.08,4588237.01,1.5,class
+0139891AR,Platanus × acerifolia,True,C\ Federico García Lorca,18.09,16.75,ok,,large,430210.46,4588154.6,430226.75,4588162.45,1.5,class
+0139892AR,Platanus × acerifolia,True,Via Favència,18.54,5.56,ok,,large,430580.3,4588263.33,430588.0,4588246.46,1.5,class
+0139893AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Federico García Lorca,4.57,3.67,ok,,medium,430241.04,4588321.62,430238.98,4588325.69,1.0,class
+0139894AR,Ulmus pumila,False,C\ Antonio Machado,4.3,3.39,ok,,medium,430131.56,4588124.32,430129.65,4588128.17,1.0,class
+0139895AR,Platanus × acerifolia,True,Via Favència,25.97,10.67,ok,,large,430475.44,4588222.03,430487.12,4588198.83,1.5,class
+0139896AR,Celtis australis,False,C\ Miguel Hernández,,25.76,no_kerb,21.13,check,,,,,1.0,floor
+0139897AR,Melia azedarach,False,C\ Federico García Lorca,,30.61,no_facade,,check,,,,,1.0,floor
+0139898AR,Ulmus pumila,False,C\ Miguel Hernández,17.15,13.83,ok,,large,430500.85,4588353.7,430483.71,4588353.37,1.5,class
+0139899AR,Ulmus pumila,False,C\ Federico García Lorca,,24.14,median,13.79,check,,,,,1.0,floor
+0139901AR,Jacaranda mimosifolia,False,C\ Federico García Lorca,,12.23,no_kerb,,check,,,,,1.0,floor
+0139902AR,Celtis sinensis,False,Via Favència,21.77,21.05,ok,,large,430543.39,4588250.73,430553.49,4588231.45,1.5,class
+0139903AR,Melia azedarach,False,C\ Antonio Machado,6.11,5.15,ok,,large,430073.34,4588093.41,430070.56,4588098.85,1.5,class
+0139904AR,Robinia pseudoacacia 'Bessoniana',False,Pl Karl Marx,12.11,5.49,ok,,large,430093.08,4588042.49,430082.29,4588036.98,1.5,class
+0139905AR,Platanus × acerifolia,True,Via Favència,18.93,5.6,ok,,large,430585.44,4588265.67,430593.3,4588248.45,1.5,class
+0139906AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Federico García Lorca,4.63,3.41,ok,,medium,430370.34,4588386.67,430368.26,4588390.8,1.0,class
+0139908AR,Celtis australis,False,C\ Federico García Lorca,7.16,6.68,ok,,large,430282.55,4588380.89,430285.79,4588374.5,1.5,class
+0139909AR,Ulmus pumila,False,C\ Miguel Hernández,24.3,19.61,ok,,large,430500.85,4588353.7,430476.84,4588349.96,1.5,class
+0139910AR,Platanus × acerifolia,True,C\ Federico García Lorca,,19.78,median,,check,,,,,1.0,floor
+0139912AR,Ulmus pumila,False,C\ Miguel Hernández,,20.58,median,,check,,,,,1.0,floor
+0139913AR,Platanus × acerifolia,True,C\ Federico García Lorca,,23.57,median,,check,,,,,1.0,floor
+0139914AR,Celtis australis,False,C\ Federico García Lorca,6.74,5.83,ok,,large,430325.95,4588402.28,430328.9,4588396.21,1.5,class
+0139916AR,Platanus × acerifolia,True,C\ Federico García Lorca,,19.47,median,,check,,,,,1.0,floor
+0139917AR,Platanus × acerifolia,True,C\ Antonio Machado,25.23,8.09,ok,,large,430042.81,4588109.75,430066.65,4588118.0,1.5,class
+0139918AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Federico García Lorca,4.4,3.7,ok,,medium,430304.79,4588353.92,430302.84,4588357.87,1.0,class
+0139919AR,Celtis australis,False,C\ Antonio Machado,6.48,4.65,ok,,large,430193.69,4588184.21,430193.98,4588177.74,1.5,class
+0139920AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Federico García Lorca,4.57,3.54,ok,,medium,430350.26,4588376.55,430348.21,4588380.63,1.0,class
+0139921AR,Platanus × acerifolia,True,Rda Guineueta Vella,6.43,3.7,ok,,large,430627.6,4588372.06,430632.19,4588376.56,1.5,class
+0139922AR,Celtis sinensis,False,Via Favència,11.81,9.62,ok,,large,430118.09,4588031.7,430111.16,4588022.13,1.5,class
+0139923AR,Acer negundo,False,C\ Carles Soldevila,3.62,2.25,ok,,medium,430162.33,4588097.95,430165.46,4588099.77,1.0,class
+0139924AR,Platanus × acerifolia,True,C\ Federico García Lorca,20.97,15.64,ok,,large,430206.3,4588208.27,430219.31,4588191.82,1.5,class
+0139925AR,Jacaranda mimosifolia,False,C\ Federico García Lorca,,16.32,no_kerb,,check,,,,,1.0,floor
+0139926AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Federico García Lorca,4.57,3.63,ok,,medium,430388.29,4588395.75,430386.22,4588399.83,1.0,class
+0139927AR,Tilia x euchlora,False,Rda Guineueta Vella,12.06,11.6,ok,,large,430393.6,4588469.41,430401.75,4588478.3,1.5,class
+0139928AR,Brachychiton acerifolius,False,C\ Antonio Machado,,34.32,no_facade,20.16,check,,,,,1.0,floor
+0139929AR,Celtis sinensis,False,Via Favència,,33.93,no_facade,,check,,,,,1.0,floor
+0139930AR,Styphnolobium japonicum,False,C\ Miguel Hernández,,17.44,median,1.6,check,,,,,1.0,floor
+0139931AR,Platanus × acerifolia,True,C\ Federico García Lorca,29.58,29.11,ok,,large,430275.46,4588135.2,430245.98,4588132.79,1.5,class
+0139933AR,Acer negundo,False,Pl Miguel de Unamuno,,3.71,no_kerb,,check,,,,,1.0,floor
+0139934AR,Celtis australis,False,C\ Federico García Lorca,7.69,5.62,ok,,large,430308.94,4588394.11,430314.66,4588388.97,1.5,class
+0139935AR,Celtis australis,False,C\ Antonio Machado,,30.11,no_facade,9.63,check,,,,,1.0,floor
+0139936AR,Cupressus sempervirens 'Stricta',False,Pl Karl Marx,,37.89,no_facade,,check,,,,,1.0,floor
+0139937AR,Platanus × acerifolia,True,Via Favència,21.99,7.72,ok,,large,430551.06,4588254.75,430561.26,4588235.27,1.5,class
+0139938AR,Tilia tomentosa,False,Rda Guineueta Vella,18.45,15.69,ok,,large,430192.98,4588377.09,430174.53,4588376.76,1.5,class
+0139940AR,Tilia x euchlora,False,Rda Guineueta Vella,15.68,13.44,ok,,large,430241.22,4588401.16,430250.15,4588414.05,1.5,class
+0139941AR,Liquidambar styraciflua,False,C\ Carles Soldevila,11.01,6.74,ok,,large,430153.79,4588115.68,430161.57,4588107.88,1.5,class
+0139942AR,Jacaranda mimosifolia,False,C\ Miguel Hernández,22.84,3.61,ok,,large,430259.83,4588304.18,430269.98,4588283.72,1.5,class
+0139943AR,Platanus × acerifolia,True,Via Favència,21.84,6.28,ok,,large,430545.85,4588252.02,430555.98,4588232.67,1.5,class
+0139944AR,Styphnolobium japonicum,False,C\ Miguel Hernández,,17.34,median,1.58,check,,,,,1.0,floor
+0139945AR,Celtis sinensis,False,Via Favència,,39.52,no_facade,,check,,,,,1.0,floor
+0139946AR,Brachychiton populneus,False,C\ Miguel Hernández,15.99,13.28,ok,,large,430418.13,4588383.98,430425.26,4588369.67,1.5,class
+0139947AR,Tilia tomentosa,False,Rda Guineueta Vella,8.55,7.64,ok,,large,430208.87,4588385.0,430208.48,4588393.54,1.5,class
+0139948AR,Jacaranda mimosifolia,False,C\ Miguel Hernández,25.03,4.67,ok,,large,430335.89,4588342.46,430347.11,4588320.08,1.5,class
+0139949AR,Tilia x euchlora,False,Rda Guineueta Vella,16.23,15.41,ok,,large,430431.21,4588471.61,430421.57,4588484.67,1.5,class
+0139951AR,Celtis sinensis,False,Via Favència,9.71,9.32,ok,,large,430365.93,4588150.0,430370.12,4588141.24,1.5,class
+0139952AR,Jacaranda mimosifolia,False,C\ Miguel Hernández,21.76,3.78,ok,,large,430363.5,4588354.65,430369.37,4588333.7,1.5,class
+0139953AR,Ulmus pumila,False,C\ Federico García Lorca,3.14,2.34,ok,,small,430472.78,4588299.86,430470.66,4588302.17,1.0,class
+0139954AR,Celtis sinensis,False,Via Favència,12.53,11.58,ok,,large,430160.16,4588053.16,430162.64,4588040.88,1.5,class
+0139957AR,Platanus × acerifolia,True,C\ Antonio Machado,,9.44,no_kerb,,check,,,,,1.0,floor
+0139958AR,Platanus × acerifolia,True,C\ Federico García Lorca,27.99,27.84,ok,,large,430277.19,4588131.56,430251.91,4588119.54,1.5,class
+0139959AR,Platanus × acerifolia,True,Rda Guineueta Vella,17.48,15.39,ok,,large,430026.22,4588227.98,430010.76,4588219.83,1.5,class
+0139961AR,Ulmus pumila,False,C\ Antonio Machado,,18.18,median,9.94,check,,,,,1.0,floor
+0139962AR,Cercis siliquastrum,False,C\ Miguel Hernández,6.77,5.74,ok,,large,430073.86,4588146.38,430076.73,4588152.52,1.5,class
+0139963AR,Melia azedarach,False,C\ Federico García Lorca,24.53,23.63,ok,,large,430470.99,4588377.8,430453.92,4588360.2,1.5,class
+0139964AR,Cercis siliquastrum,False,C\ Miguel Hernández,5.72,4.71,ok,,medium,430133.38,4588197.19,430133.56,4588202.91,1.0,class
+0139965AR,Firmiana simplex,False,C\ Antonio Machado,,14.41,median,1.36,check,,,,,1.0,floor
+0139966AR,Liquidambar styraciflua,False,C\ Carles Soldevila,,11.74,median,,check,,,,,1.0,floor
+0139967AR,Cercis siliquastrum,False,C\ Miguel Hernández,5.46,4.62,ok,,medium,430181.31,4588221.14,430177.95,4588225.44,1.0,class
+0139968AR,Celtis australis,False,C\ Antonio Machado,22.41,5.33,ok,,large,430135.11,4588154.7,430152.79,4588140.92,1.5,class
+0139969AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Federico García Lorca,8.23,7.52,ok,,large,430203.16,4588300.83,430195.77,4588297.21,1.5,class
+0139970AR,Tilia x euchlora,False,Rda Guineueta Vella,6.04,5.43,ok,,large,430314.49,4588437.31,430311.78,4588442.71,1.5,class
+0139971AR,Liquidambar styraciflua,False,C\ Carles Soldevila,28.53,16.24,ok,,large,430172.92,4588077.44,430187.87,4588053.14,1.5,class
+0139972AR,Grevillea robusta,False,Via Favència,,11.55,no_kerb,,check,,,,,1.0,floor
+0139973AR,Robinia pseudoacacia 'Bessoniana',False,Pl Karl Marx,12.11,11.5,ok,,large,430093.05,4588042.54,430082.27,4588037.03,1.5,class
+0139975AR,Melia azedarach,False,C\ Federico García Lorca,,31.93,no_facade,,check,,,,,1.0,floor
+0139976AR,Ulmus pumila,False,C\ Antonio Machado,5.42,2.29,ok,,medium,430481.68,4588304.2,430479.31,4588309.07,1.0,class
+0139977AR,Tilia x euchlora,False,Rda Guineueta Vella,19.4,15.51,ok,,large,430475.51,4588463.43,430492.06,4588473.53,1.5,class
+0139978AR,Celtis australis,False,C\ Federico García Lorca,7.17,6.75,ok,,large,430288.73,4588384.01,430291.97,4588377.61,1.5,class
+0139979AR,Firmiana simplex,False,Pl Miguel de Unamuno,,3.78,no_kerb,40.71,check,,,,,1.0,floor
+0139980AR,Ulmus pumila,False,C\ Antonio Machado,8.51,7.08,ok,,large,430180.3,4588148.56,430176.52,4588156.19,1.5,class
+0139981AR,Cercis siliquastrum,False,C\ Miguel Hernández,5.33,4.54,ok,,medium,430154.13,4588207.37,430152.56,4588212.47,1.0,class
+0139982AR,Grevillea robusta,False,Via Favència,,33.82,no_facade,,check,,,,,1.0,floor
+0139983AR,Jacaranda mimosifolia,False,C\ Miguel Hernández,22.49,2.86,ok,,large,430233.89,4588289.61,430249.65,4588273.56,1.5,class
+0139985AR,Brachychiton populneus,False,Via Favència,,23.03,median,6.38,check,,,,,1.0,floor
+0139986AR,Styphnolobium japonicum,False,C\ Miguel Hernández,10.3,7.57,ok,,large,430073.9,4588146.3,430083.13,4588150.87,1.5,class
+0139987AR,Celtis australis,False,C\ Federico García Lorca,7.51,6.35,ok,,large,430329.54,4588404.02,430335.66,4588399.65,1.5,class
+0139988AR,Grevillea robusta,False,Via Favència,,33.58,no_facade,,check,,,,,1.0,floor
+0139989AR,Celtis sinensis,False,Via Favència,,30.48,no_facade,,check,,,,,1.0,floor
+0139990AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Federico García Lorca,16.57,16.63,ok,,large,430209.24,4588288.22,430193.36,4588283.49,1.5,class
+0139991AR,Platanus × acerifolia,True,C\ Antonio Machado,18.68,13.25,ok,,large,430197.77,4588186.34,430216.42,4588187.27,1.5,class
+0139992AR,Platanus × acerifolia,True,C\ Antonio Machado,7.76,7.33,ok,,large,430037.84,4588107.28,430041.3,4588100.34,1.5,class
+0139993AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Federico García Lorca,4.57,3.05,ok,,medium,430320.55,4588361.73,430318.53,4588365.82,1.0,class
+0139995AR,Platanus × acerifolia,True,C\ Federico García Lorca,,26.81,median,,check,,,,,1.0,floor
+0139997AR,Celtis sinensis,False,Via Favència,,39.84,no_facade,,check,,,,,1.0,floor
+0139998AR,Cercis siliquastrum,False,C\ Miguel Hernández,10.43,4.29,ok,,large,430082.45,4588129.02,430092.52,4588131.74,1.5,class
+0139999AR,Melia azedarach,False,C\ Federico García Lorca,,29.93,median,32.39,check,,,,,1.0,floor
+0140001AR,Platanus × acerifolia,True,Via Favència,21.15,5.65,ok,,large,430495.11,4588226.32,430504.4,4588207.33,1.5,class
+0140002AR,Jacaranda mimosifolia,False,C\ Miguel Hernández,25.16,4.41,ok,,large,430424.36,4588387.07,430435.57,4588364.55,1.5,class
+0140003AR,Styphnolobium japonicum,False,C\ Víctor Jara,,9.75,no_kerb,,check,,,,,1.0,floor
+0140004AR,Platanus × acerifolia,True,Via Favència,20.18,6.13,ok,,large,430596.05,4588270.95,430605.52,4588253.13,1.5,class
+0140005AR,Platanus × acerifolia,True,Via Favència,21.11,5.54,ok,,large,430512.8,4588234.98,430522.08,4588216.01,1.5,class
+0140006AR,Platanus × acerifolia,True,Rda Guineueta Vella,11.2,10.03,ok,,large,430652.22,4588311.72,430662.22,4588316.76,1.5,class
+0140007AR,Jacaranda mimosifolia,False,C\ Federico García Lorca,,19.81,no_kerb,,check,,,,,1.0,floor
+0140008AR,Firmiana simplex,False,Pl Miguel de Unamuno,24.96,4.43,ok,,large,430587.95,4588316.31,430565.62,4588305.16,1.5,class
+0140009AR,Jacaranda mimosifolia,False,C\ Antonio Machado,,17.85,median,13.22,check,,,,,1.0,floor
+0140011AR,Celtis sinensis,False,Via Favència,19.08,18.26,ok,,large,430587.37,4588266.55,430595.29,4588249.2,1.5,class
+0140012AR,Tilia tomentosa,False,Rda Guineueta Vella,23.28,22.29,ok,,large,430183.69,4588356.0,430168.82,4588373.92,1.5,class
+0140014AR,Ulmus pumila,False,Pl Karl Marx,12.08,5.46,ok,,large,430084.83,4588058.54,430074.14,4588052.92,1.5,class
+0140015AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Federico García Lorca,4.38,3.62,ok,,medium,430286.14,4588344.53,430284.14,4588348.43,1.0,class
+0140016AR,Acer negundo,False,C\ Carles Soldevila,,9.99,median,,check,,,,,1.0,floor
+0140017AR,Jacaranda mimosifolia,False,C\ Miguel Hernández,20.24,5.79,ok,,large,430392.42,4588371.18,430401.44,4588353.06,1.5,class
+0140018AR,Platanus × acerifolia,True,C\ Federico García Lorca,,17.49,median,,check,,,,,1.0,floor
+0140020AR,Platanus × acerifolia,True,C\ Federico García Lorca,17.1,15.93,ok,,large,430211.89,4588151.62,430228.6,4588155.24,1.5,class
+0140021AR,Citrus × aurantium,False,Pl Miguel de Unamuno,,6.5,no_kerb,,check,,,,,1.0,floor
+0140023AR,Ulmus pumila,False,Pl Karl Marx,11.9,5.14,ok,,large,430073.81,4588079.68,430063.22,4588074.26,1.5,class
+0140024AR,Firmiana simplex,False,Pl Miguel de Unamuno,5.08,4.93,ok,,medium,430558.54,4588308.72,430560.04,4588303.86,1.0,class
+0140025AR,Jacaranda mimosifolia,False,C\ Federico García Lorca,,18.92,no_kerb,,check,,,,,1.0,floor
+0140026AR,Cercis siliquastrum,False,C\ Miguel Hernández,5.25,4.45,ok,,medium,430161.23,4588211.01,430158.84,4588215.68,1.0,class
+0140027AR,Gleditsia triacanthos,False,Via Favència,28.25,4.8,ok,,large,430168.78,4588075.26,430181.86,4588050.21,1.5,class
+0140030AR,Platanus × acerifolia,True,Rda Guineueta Vella,10.87,9.05,ok,,large,430028.39,4588247.11,430018.73,4588242.12,1.5,class
+0140031AR,Celtis sinensis,False,Via Favència,,40.39,no_facade,,check,,,,,1.0,floor
+0140032AR,Celtis sinensis,False,Via Favència,12.33,11.7,ok,,large,430132.61,4588039.63,430141.05,4588030.64,1.5,class
+0140033AR,Ulmus pumila,False,Pl Karl Marx,13.57,12.79,ok,,large,430084.77,4588058.66,430071.2,4588058.66,1.5,class
+0140034AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Federico García Lorca,4.9,3.99,ok,,medium,430202.5,4588302.18,430197.61,4588302.56,1.0,class
+0140035AR,Melia azedarach,False,Pl Karl Marx,11.9,5.1,ok,,large,430068.36,4588090.35,430057.76,4588084.93,1.5,class
+0140036AR,Grevillea robusta,False,Via Favència,,29.46,no_kerb,,check,,,,,1.0,floor
+0140037AR,Platanus × acerifolia,True,Via Favència,21.2,5.8,ok,,large,430523.82,4588240.48,430533.66,4588221.7,1.5,class
+0140039AR,Celtis sinensis,False,Via Favència,,39.69,no_facade,,check,,,,,1.0,floor
+0140040AR,Liquidambar styraciflua,False,C\ Carles Soldevila,5.64,4.44,ok,,medium,430164.19,4588128.28,430159.78,4588124.76,1.0,class
+0140041AR,Celtis sinensis,False,Via Favència,9.52,8.85,ok,,large,430426.46,4588179.62,430430.68,4588171.08,1.5,class
+0140043AR,Ulmus pumila,False,C\ Antonio Machado,15.38,7.45,ok,,large,430567.03,4588335.41,430560.2,4588349.18,1.5,class
+0140044AR,Tilia x euchlora,False,Rda Guineueta Vella,,5.11,median,4.92,check,,,,,1.0,floor
+0140045AR,Cercis siliquastrum,False,C\ Miguel Hernández,12.7,10.67,ok,,large,430118.52,4588189.45,430105.83,4588188.72,1.5,class
+0140046AR,Tilia x euchlora,False,Rda Guineueta Vella,,5.15,median,4.96,check,,,,,1.0,floor
+0140047AR,Cercis siliquastrum,False,C\ Miguel Hernández,4.99,4.41,ok,,medium,430099.81,4588204.58,430102.06,4588200.13,1.0,class
+0140049AR,Platanus × acerifolia,True,Via Favència,20.84,8.34,ok,,large,430601.4,4588273.79,430611.18,4588255.39,1.5,class
+0140051AR,Acer negundo,False,Pl Miguel de Unamuno,,5.71,no_kerb,,check,,,,,1.0,floor
+0140053AR,Firmiana simplex,False,Pl Miguel de Unamuno,24.78,3.86,ok,,large,430578.06,4588285.13,430566.88,4588307.25,1.5,class
+0140054AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Federico García Lorca,4.56,3.23,ok,,medium,430229.22,4588315.65,430227.16,4588319.72,1.0,class
+0140055AR,Celtis sinensis,False,Via Favència,9.74,9.43,ok,,large,430360.69,4588147.5,430364.89,4588138.7,1.5,class
+0140056AR,Liquidambar styraciflua,False,C\ Carles Soldevila,5.67,4.57,ok,,medium,430161.2,4588134.49,430156.09,4588132.04,1.0,class
+0140057AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Federico García Lorca,4.55,3.85,ok,,medium,430394.89,4588399.1,430392.83,4588403.15,1.0,class
+0140058AR,Gleditsia triacanthos,False,Via Favència,2.01,2.3,ok,,none,430162.97,4588057.93,430164.74,4588058.86,1.0,floor
+0140060AR,Prunus cerasifera 'Pissardii',False,Pl Miguel de Unamuno,5.57,1.42,ok,,medium,430598.75,4588339.9,430604.32,4588340.12,1.0,class
+0140061AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Federico García Lorca,4.5,3.01,ok,,medium,430268.05,4588335.27,430266.0,4588339.27,1.0,class
+0140062AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Federico García Lorca,20.24,19.79,ok,,large,430212.66,4588281.6,430194.68,4588272.3,1.5,class
+0140063AR,Platanus × acerifolia,True,Rda Guineueta Vella,12.84,11.78,ok,,large,430025.83,4588228.71,430017.66,4588238.61,1.5,class
+0140064AR,Celtis australis,False,C\ Antonio Machado,7.02,4.07,ok,,large,430183.93,4588179.13,430187.17,4588172.9,1.5,class
+0140065AR,Grevillea robusta,False,Via Favència,,33.64,no_facade,,check,,,,,1.0,floor
+0140066AR,Cercis siliquastrum,False,C\ Miguel Hernández,,17.33,median,17.72,check,,,,,1.0,floor
+0140067AR,Ulmus pumila,False,C\ Víctor Jara,9.81,6.01,ok,,large,430116.38,4588074.47,430106.74,4588072.69,1.5,class
+0140069AR,Celtis sinensis,False,Via Favència,11.82,10.99,ok,,large,430152.68,4588049.21,430158.19,4588038.76,1.5,class
+0140070AR,Ostrya carpinifolia,False,C\ Antonio Machado,,26.49,median,24.87,check,,,,,1.0,floor
+0140071AR,Acer negundo,False,C\ Carles Soldevila,3.22,1.89,ok,,small,430168.31,4588086.4,430171.17,4588087.87,1.0,class
+0140072AR,Platanus × acerifolia,True,Via Favència,21.52,5.9,ok,,large,430534.74,4588246.2,430544.73,4588227.14,1.5,class
+0140073AR,Celtis sinensis,False,Via Favència,12.08,11.52,ok,,large,430286.71,4588111.52,430284.68,4588099.62,1.5,class
+0140074AR,Celtis australis,False,C\ Antonio Machado,,50.79,no_facade,8.06,check,,,,,1.0,floor
+0140077AR,Celtis sinensis,False,Via Favència,5.69,5.14,ok,,medium,430304.22,4588115.58,430306.68,4588110.44,1.0,class
+0140079AR,Styphnolobium japonicum,False,C\ Víctor Jara,,4.46,no_kerb,,check,,,,,1.0,floor
+0140080AR,Platanus × acerifolia,True,Rda Guineueta Vella,,19.85,median,10.54,check,,,,,1.0,floor
+0140081AR,Celtis sinensis,False,Via Favència,21.3,20.58,ok,,large,430527.37,4588242.34,430537.25,4588223.47,1.5,class
+0140082AR,Celtis sinensis,False,Via Favència,4.29,3.74,ok,,medium,430453.34,4588186.87,430456.14,4588183.61,1.0,class
+0140083AR,Cercis siliquastrum,False,C\ Miguel Hernández,5.42,4.35,ok,,medium,430138.77,4588224.18,430141.19,4588219.33,1.0,class
+0140084AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Federico García Lorca,4.52,3.53,ok,,medium,430401.32,4588402.36,430399.27,4588406.39,1.0,class
+0140085AR,Styphnolobium japonicum,False,C\ Víctor Jara,12.08,5.13,ok,,large,430159.32,4588096.42,430153.86,4588107.2,1.5,class
+0140086AR,Tilia tomentosa,False,Rda Guineueta Vella,7.85,6.85,ok,,large,430203.73,4588382.44,430200.23,4588389.47,1.5,class
+0140087AR,Acer negundo,False,C\ Carles Soldevila,,9.96,median,,check,,,,,1.0,floor
+0140088AR,Platanus × acerifolia,True,C\ Federico García Lorca,,35.2,no_facade,,check,,,,,1.0,floor
+0140089AR,Jacaranda mimosifolia,False,C\ Miguel Hernández,20.23,5.25,ok,,large,430408.11,4588378.99,430417.13,4588360.88,1.5,class
+0140090AR,Tilia x euchlora,False,Rda Guineueta Vella,22.37,21.47,ok,,large,430351.82,4588439.15,430350.76,4588461.49,1.5,class
+0140091AR,Citrus × aurantium,False,C\ Víctor Jara,,4.28,no_kerb,,check,,,,,1.0,floor
+0140093AR,Celtis sinensis,False,Via Favència,10.74,9.99,ok,,large,430128.64,4588037.46,430131.32,4588027.07,1.5,class
+0140094AR,Styphnolobium japonicum,False,C\ Víctor Jara,,4.3,no_kerb,,check,,,,,1.0,floor
+0140095AR,Melia azedarach,False,C\ Federico García Lorca,,30.04,no_facade,,check,,,,,1.0,floor
+0140096AR,Celtis australis,False,C\ Antonio Machado,,35.76,no_facade,,check,,,,,1.0,floor
+0140097AR,Cercis siliquastrum,False,C\ Miguel Hernández,5.2,4.31,ok,,medium,430145.28,4588227.43,430147.6,4588222.78,1.0,class
+0140098AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Federico García Lorca,4.53,3.37,ok,,medium,430263.46,4588332.92,430261.42,4588336.96,1.0,class
+0140099AR,Celtis australis,False,C\ Antonio Machado,23.55,10.35,ok,,large,430601.45,4588385.46,430623.75,4588393.02,1.5,class
+0140100AR,Ulmus pumila,False,Pl Karl Marx,15.39,14.47,ok,,large,430075.05,4588077.27,430068.9,4588063.16,1.5,class
+0140101AR,Platanus × acerifolia,True,Rda Guineueta Vella,6.18,5.25,ok,,large,430631.8,4588363.65,430637.33,4588366.4,1.5,class
+0140102AR,Cercis siliquastrum,False,C\ Miguel Hernández,11.91,9.93,ok,,large,430149.88,4588205.2,430137.97,4588205.16,1.5,class
+0140103AR,Acer negundo,False,C\ Carles Soldevila,,9.71,median,,check,,,,,1.0,floor
+0140104AR,Celtis australis,False,C\ Federico García Lorca,22.93,21.79,ok,,large,430234.47,4588373.92,430237.35,4588351.18,1.5,class
+0140106AR,Platanus × acerifolia,True,C\ Federico García Lorca,,31.58,no_facade,,check,,,,,1.0,floor
+0140107AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Federico García Lorca,2.88,1.21,ok,,small,430426.56,4588395.24,430429.13,4588396.54,1.0,class
+0140108AR,Celtis sinensis,False,Via Favència,9.73,9.34,ok,,large,430286.71,4588111.52,430290.34,4588102.49,1.5,class
+0140109AR,Platanus × acerifolia,True,C\ Federico García Lorca,,34.82,no_facade,,check,,,,,1.0,floor
+0140111AR,Platanus × acerifolia,True,C\ Federico García Lorca,,19.2,median,19.69,check,,,,,1.0,floor
+0140112AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Federico García Lorca,4.54,3.75,ok,,medium,430217.09,4588309.54,430215.04,4588313.6,1.0,class
+0140113AR,Platanus × acerifolia,True,C\ Federico García Lorca,23.26,21.76,ok,,large,430219.72,4588113.73,430242.95,4588114.99,1.5,class
+0140114AR,Jacaranda mimosifolia,False,C\ Antonio Machado,,55.09,no_facade,,check,,,,,1.0,floor
+0140116AR,Jacaranda mimosifolia,False,C\ Antonio Machado,,13.55,median,5.41,check,,,,,1.0,floor
+0140118AR,Cercis siliquastrum,False,C\ Miguel Hernández,,17.68,median,25.43,check,,,,,1.0,floor
+0140120AR,Firmiana simplex,False,Pl Miguel de Unamuno,25.0,4.74,ok,,large,430590.79,4588310.61,430568.43,4588299.45,1.5,class
+0140121AR,Celtis australis,False,C\ Antonio Machado,,45.58,no_facade,8.07,check,,,,,1.0,floor
+0140122AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Federico García Lorca,4.67,3.83,ok,,medium,430331.16,4588366.98,430329.09,4588371.17,1.0,class
+0140123AR,Celtis australis,False,C\ Antonio Machado,,40.33,no_facade,,check,,,,,1.0,floor
+0140124AR,Celtis sinensis,False,Via Favència,8.98,8.4,ok,,large,430122.07,4588033.87,430126.38,4588025.99,1.5,class
+0140125AR,Melia azedarach,False,C\ Federico García Lorca,,24.18,median,,check,,,,,1.0,floor
+0140126AR,Celtis australis,False,C\ Antonio Machado,,31.48,no_facade,,check,,,,,1.0,floor
+0140128AR,Celtis australis,False,C\ Antonio Machado,18.22,16.58,ok,,large,430207.09,4588161.57,430218.3,4588175.94,1.5,class
+0140129AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Federico García Lorca,25.08,23.92,ok,,large,430212.99,4588280.96,430198.36,4588260.59,1.5,class
+0140130AR,Melia azedarach,False,C\ Federico García Lorca,,35.75,no_facade,,check,,,,,1.0,floor
+0140132AR,Cercis siliquastrum,False,C\ Miguel Hernández,5.3,4.13,ok,,medium,430079.87,4588134.23,430084.62,4588136.58,1.0,class
+0140133AR,Prunus cerasifera 'Pissardii',False,Pl Miguel de Unamuno,,4.63,no_kerb,,check,,,,,1.0,floor
+0140134AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Federico García Lorca,18.66,18.3,ok,,large,430210.3,4588286.16,430193.73,4588277.59,1.5,class
+0140135AR,Cercis siliquastrum,False,C\ Miguel Hernández,5.68,4.81,ok,,medium,430185.47,4588223.28,430184.77,4588228.91,1.0,class
+0140136AR,Ulmus pumila,False,C\ Antonio Machado,6.05,5.55,ok,,large,430078.52,4588096.05,430075.78,4588101.44,1.5,class
+0140137AR,Melia azedarach,False,C\ Federico García Lorca,23.73,21.66,ok,,large,430211.89,4588151.62,430232.64,4588140.1,1.5,class
+0140138AR,Celtis sinensis,False,Via Favència,5.7,5.05,ok,,medium,430309.68,4588118.19,430312.14,4588113.05,1.0,class
+0140139AR,Celtis australis,False,C\ Antonio Machado,,5.49,median,1.6,check,,,,,1.0,floor
+0140140AR,Celtis sinensis,False,Via Favència,4.17,3.45,ok,,medium,430448.45,4588184.48,430450.28,4588180.73,1.0,class
+0140142AR,Robinia pseudoacacia 'Bessoniana',False,Pl Karl Marx,11.9,11.26,ok,,large,430071.03,4588085.13,430060.43,4588079.71,1.5,class
+0140143AR,Styphnolobium japonicum,False,C\ Víctor Jara,,6.2,no_kerb,,check,,,,,1.0,floor
+0140144AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Carles Soldevila,,9.83,median,,check,,,,,1.0,floor
+0140145AR,Platanus × acerifolia,True,C\ Federico García Lorca,26.56,26.11,ok,,large,430286.17,4588112.67,430262.18,4588101.27,1.5,class
+0140147AR,Firmiana simplex,False,Pl Miguel de Unamuno,5.0,4.94,ok,,medium,430562.26,4588310.54,430564.47,4588306.05,1.0,class
+0140148AR,Platanus × acerifolia,True,C\ Antonio Machado,7.85,6.4,ok,,large,430033.01,4588104.93,430036.79,4588098.05,1.5,class
+0140149AR,Acer negundo,False,Pl Miguel de Unamuno,,6.91,no_kerb,,check,,,,,1.0,floor
+0140150AR,Celtis australis,False,C\ Federico García Lorca,,7.96,median,5.39,check,,,,,1.0,floor
+0140153AR,Ulmus pumila,False,C\ Federico García Lorca,,11.74,median,,check,,,,,1.0,floor
+0140154AR,Tilia x euchlora,False,Rda Guineueta Vella,6.53,6.01,ok,,large,430447.74,4588479.71,430452.05,4588484.62,1.5,class
+0140155AR,Platanus × acerifolia,True,Via Favència,26.03,10.69,ok,,large,430481.06,4588224.86,430492.76,4588201.61,1.5,class
+0140156AR,Populus nigra 'Italica',False,Via Favència,,15.72,no_kerb,,check,,,,,1.0,floor
+0140157AR,Celtis sinensis,False,Via Favència,5.62,4.77,ok,,medium,430326.05,4588126.02,430328.48,4588120.95,1.0,class
+0140160AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Federico García Lorca,4.51,3.17,ok,,medium,430360.46,4588381.69,430358.44,4588385.72,1.0,class
+0140161AR,Ulmus pumila,False,C\ Antonio Machado,6.17,5.57,ok,,large,430068.53,4588090.96,430065.73,4588096.45,1.5,class
+0140162AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Federico García Lorca,4.57,1.72,ok,,medium,430247.39,4588324.82,430245.33,4588328.9,1.0,class
+0140164AR,Acer negundo,False,C\ Carles Soldevila,,13.42,median,,check,,,,,1.0,floor
+0140165AR,Acer negundo,False,C\ Carles Soldevila,,9.59,median,,check,,,,,1.0,floor
+0140166AR,Tilia x euchlora,False,Rda Guineueta Vella,9.28,7.7,ok,,large,430467.51,4588473.23,430463.43,4588481.56,1.5,class
+0140167AR,Liquidambar styraciflua,False,C\ Carles Soldevila,3.78,2.46,ok,,medium,430147.94,4588127.38,430151.33,4588129.07,1.0,class
+0140168AR,Cercis siliquastrum,False,C\ Miguel Hernández,4.79,3.69,ok,,medium,430059.5,4588176.51,430063.82,4588178.59,1.0,class
+0140169AR,Celtis australis,False,C\ Antonio Machado,,56.76,no_facade,,check,,,,,1.0,floor
+0140170AR,Ulmus pumila,False,Via Favència,,8.73,no_kerb,,check,,,,,1.0,floor
+0140171AR,Jacaranda mimosifolia,False,C\ Miguel Hernández,22.67,3.58,ok,,large,430270.02,4588309.08,430279.57,4588288.51,1.5,class
+0140172AR,Ulmus pumila,False,C\ Antonio Machado,5.55,2.57,ok,,medium,430491.04,4588308.77,430489.76,4588314.17,1.0,class
+0140173AR,Celtis sinensis,False,Via Favència,5.56,4.68,ok,,medium,430331.51,4588128.63,430333.91,4588123.62,1.0,class
+0140178AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Federico García Lorca,6.4,5.74,ok,,large,430204.29,4588303.08,430201.4,4588308.8,1.5,class
+0140179AR,Firmiana simplex,False,Pl Miguel de Unamuno,4.99,4.58,ok,,medium,430567.17,4588312.96,430569.37,4588308.48,1.0,class
+0140180AR,Cercis siliquastrum,False,C\ Miguel Hernández,5.98,5.0,ok,,medium,430118.52,4588189.45,430113.45,4588192.62,1.0,class
+0140181AR,Cercis siliquastrum,False,C\ Miguel Hernández,,10.61,median,1.6,check,,,,,1.0,floor
+0140182AR,Liquidambar styraciflua,False,C\ Carles Soldevila,3.08,1.72,ok,,small,430171.32,4588080.55,430174.06,4588081.96,1.0,class
+0140183AR,Platanus × acerifolia,True,C\ Federico García Lorca,8.56,7.61,ok,,large,430203.62,4588213.55,430211.26,4588217.42,1.5,class
+0140184AR,Robinia pseudoacacia 'Bessoniana',False,Pl Karl Marx,11.9,5.12,ok,,large,430071.09,4588085.01,430060.49,4588079.59,1.5,class
+0140186AR,Cercis siliquastrum,False,C\ Miguel Hernández,,17.77,median,,check,,,,,1.0,floor
+0140187AR,Celtis sinensis,False,Via Favència,8.43,7.33,ok,,large,430342.7,4588133.98,430350.86,4588131.9,1.5,class
+0140189AR,Jacaranda mimosifolia,False,C\ Antonio Machado,,19.67,median,5.43,check,,,,,1.0,floor
+0140190AR,Ulmus pumila,False,C\ Víctor Jara,,6.48,no_kerb,,check,,,,,1.0,floor
+0140191AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Federico García Lorca,4.56,3.66,ok,,medium,430235.0,4588318.57,430232.95,4588322.64,1.0,class
+0140192AR,Tilia x euchlora,False,Rda Guineueta Vella,10.76,9.99,ok,,large,430377.32,4588461.28,430368.58,4588467.57,1.5,class
+0140193AR,Cercis siliquastrum,False,C\ Miguel Hernández,4.85,4.0,ok,,medium,430061.83,4588171.68,430066.19,4588173.79,1.0,class
+0140194AR,Ulmus pumila,False,C\ Víctor Jara,3.18,1.77,ok,,small,430099.73,4588066.25,430100.22,4588069.39,1.0,class
+0140195AR,Styphnolobium japonicum,False,C\ Víctor Jara,,5.95,no_kerb,,check,,,,,1.0,floor
+0140196AR,Platanus × acerifolia,True,Via Favència,19.8,7.0,ok,,large,430571.42,4588259.23,430570.46,4588239.45,1.5,class
+0140197AR,Tilia x euchlora,False,Rda Guineueta Vella,14.41,11.92,ok,,large,430329.44,4588444.79,430338.58,4588455.92,1.5,class
+0140198AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Federico García Lorca,4.43,3.18,ok,,medium,430277.83,4588340.28,430275.81,4588344.22,1.0,class
+0140200AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Federico García Lorca,,9.53,median,,check,,,,,1.0,floor
+0140201AR,Celtis sinensis,False,Via Favència,11.86,9.99,ok,,large,430447.98,4588184.25,430439.86,4588175.61,1.5,class
+0140202AR,Cercis siliquastrum,False,C\ Miguel Hernández,4.96,4.08,ok,,medium,430129.26,4588195.16,430126.65,4588199.37,1.0,class
+0140203AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Federico García Lorca,4.55,3.73,ok,,medium,430223.28,4588312.66,430221.23,4588316.72,1.0,class
+0140204AR,Ulmus pumila,False,C\ Juan Ramón Jiménez,3.74,2.9,ok,,medium,430021.97,4588187.65,430020.86,4588191.22,1.0,class
+0140205AR,Jacaranda mimosifolia,False,C\ Federico García Lorca,17.37,8.4,ok,,large,430211.89,4588151.62,430227.66,4588158.9,1.5,class
+0140206AR,Grevillea robusta,False,C\ Antonio Machado,,8.09,no_kerb,5.44,check,,,,,1.0,floor
+0140207AR,Platanus × acerifolia,True,C\ Federico García Lorca,28.1,27.57,ok,,large,430275.46,4588135.2,430248.86,4588126.16,1.5,class
+0140208AR,Platanus × acerifolia,True,Rda Guineueta Vella,,15.02,median,6.3,check,,,,,1.0,floor
+0140209AR,Platanus × acerifolia,True,C\ Federico García Lorca,,20.32,median,,check,,,,,1.0,floor
+0140211AR,Celtis australis,False,C\ Antonio Machado,,35.79,no_facade,,check,,,,,1.0,floor
+0140214AR,Firmiana simplex,False,Pl Miguel de Unamuno,4.98,4.62,ok,,medium,430572.81,4588315.73,430575.01,4588311.27,1.0,class
+0140216AR,Celtis australis,False,C\ Federico García Lorca,13.4,13.04,ok,,large,430257.14,4588368.45,430249.79,4588357.25,1.5,class
+0140217AR,Platanus × acerifolia,True,C\ Federico García Lorca,19.12,17.76,ok,,large,430211.89,4588151.62,430230.58,4588147.55,1.5,class
+0140218AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Federico García Lorca,5.1,3.45,ok,,medium,430422.02,4588399.34,430426.51,4588401.75,1.0,class
+0140219AR,Platanus × acerifolia,True,C\ Federico García Lorca,,28.2,median,,check,,,,,1.0,floor
+0140220AR,Celtis sinensis,False,Via Favència,5.72,4.96,ok,,medium,430315.14,4588120.8,430317.61,4588115.65,1.0,class
+0140221AR,Platanus × acerifolia,True,Via Favència,21.14,5.66,ok,,large,430500.88,4588229.15,430510.17,4588210.16,1.5,class
+0140222AR,Platanus × acerifolia,True,Via Favència,22.12,9.39,ok,,large,430555.37,4588257.01,430565.64,4588237.42,1.5,class
+0140223AR,Jacaranda mimosifolia,False,C\ Miguel Hernández,22.93,3.75,ok,,large,430298.24,4588323.58,430308.51,4588303.09,1.5,class
+0140224AR,Ulmus pumila,False,Pl Karl Marx,12.12,6.05,ok,,large,430090.39,4588047.75,430079.6,4588042.24,1.5,class
+0140225AR,Platanus × acerifolia,True,C\ Federico García Lorca,,29.85,median,,check,,,,,1.0,floor
+0140226AR,Ulmus pumila,False,C\ Antonio Machado,5.72,4.99,ok,,medium,430105.51,4588109.81,430102.91,4588114.91,1.0,class
+0140227AR,Celtis sinensis,False,Via Favència,14.67,7.81,ok,,large,430095.58,4588037.7,430094.31,4588023.08,1.5,class
+0140229AR,Celtis australis,False,C\ Antonio Machado,,46.9,no_facade,5.34,check,,,,,1.0,floor
+0140230AR,Cercis siliquastrum,False,C\ Miguel Hernández,6.46,5.46,ok,,large,430164.81,4588212.84,430165.77,4588219.24,1.5,class
+0140231AR,Styphnolobium japonicum,False,C\ Víctor Jara,2.58,1.4,ok,,small,430095.48,4588064.1,430094.31,4588066.4,1.0,class
+0140232AR,Tilia x euchlora,False,Rda Guineueta Vella,18.42,17.96,ok,,large,430415.89,4588464.29,430414.9,4588482.68,1.5,class
+0140234AR,Gleditsia triacanthos,False,Via Favència,28.26,12.86,ok,,large,430169.0,4588075.38,430182.18,4588050.37,1.5,class
+0140236AR,Celtis sinensis,False,Via Favència,9.78,9.53,ok,,large,430355.44,4588144.99,430359.66,4588136.17,1.5,class
+0140237AR,Celtis australis,False,C\ Antonio Machado,,5.13,median,8.43,check,,,,,1.0,floor
+0140238AR,Platanus × acerifolia,True,C\ Federico García Lorca,,33.12,no_facade,,check,,,,,1.0,floor
+0140240AR,Brachychiton acerifolius,False,C\ Antonio Machado,,50.22,no_facade,6.88,check,,,,,1.0,floor
+0140241AR,Parkinsonia aculeata,False,Via Favència,,26.89,median,10.34,check,,,,,1.0,floor
+0140243AR,Celtis sinensis,False,Via Favència,5.68,5.23,ok,,medium,430298.76,4588112.97,430301.21,4588107.85,1.0,class
+0140244AR,Cercis siliquastrum,False,C\ Miguel Hernández,4.91,4.03,ok,,medium,430064.55,4588166.05,430068.97,4588168.18,1.0,class
+0140245AR,Brachychiton populneus,False,C\ Miguel Hernández,23.2,10.06,ok,,large,430421.88,4588385.84,430432.21,4588365.07,1.5,class
+0140246AR,Celtis australis,False,C\ Antonio Machado,,12.35,median,4.86,check,,,,,1.0,floor
+0140247AR,Styphnolobium japonicum,False,C\ Víctor Jara,8.65,5.52,ok,,large,430151.58,4588092.5,430152.24,4588101.12,1.5,class
+0140248AR,Ligustrum lucidum,False,C\ Víctor Jara,19.58,8.09,ok,,large,430123.52,4588100.35,430120.52,4588081.0,1.5,class
+0140250AR,Celtis australis,False,C\ Antonio Machado,,5.59,median,20.07,check,,,,,1.0,floor
+0140251AR,Liquidambar styraciflua,False,C\ Carles Soldevila,9.67,8.58,ok,,large,430164.19,4588128.28,430162.76,4588118.72,1.5,class
+0140252AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Federico García Lorca,,9.5,median,,check,,,,,1.0,floor
+0140253AR,Brachychiton populneus,False,Via Favència,,42.2,no_facade,6.31,check,,,,,1.0,floor
+0140254AR,Ulmus pumila,False,C\ Antonio Machado,3.42,2.61,ok,,small,430589.58,4588357.7,430588.07,4588360.77,1.0,class
+0140255AR,Celtis sinensis,False,Via Favència,12.24,11.86,ok,,large,430162.93,4588054.62,430168.64,4588043.79,1.5,class
+0140256AR,Ulmus pumila,False,Pl Karl Marx,12.08,11.42,ok,,large,430084.79,4588058.63,430074.09,4588053.01,1.5,class
+0140257AR,Celtis sinensis,False,Via Favència,21.1,20.38,ok,,large,430517.13,4588237.1,430526.41,4588218.14,1.5,class
+0140258AR,Ulmus pumila,False,C\ Federico García Lorca,27.19,26.03,ok,,large,430470.99,4588377.8,430456.79,4588354.62,1.5,class
+0140259AR,Ulmus pumila,False,Via Favència,,4.2,no_kerb,,check,,,,,1.0,floor
+0140260AR,Jacaranda mimosifolia,False,C\ Federico García Lorca,22.09,8.14,ok,,large,430211.89,4588151.62,430231.94,4588142.34,1.5,class
+0140261AR,Tilia tomentosa,False,Rda Guineueta Vella,9.87,8.36,ok,,large,430192.98,4588377.09,430184.17,4588381.54,1.5,class
+0140262AR,Tilia x euchlora,False,Rda Guineueta Vella,19.44,17.99,ok,,large,430511.24,4588451.0,430502.58,4588468.41,1.5,class
+0140263AR,Tipuana tipu,False,Pl Isabel de Villena,10.55,6.02,ok,,large,430490.9,4588286.24,430495.64,4588276.82,1.5,class
+0140264AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Federico García Lorca,4.71,3.24,ok,,medium,430340.43,4588371.6,430338.31,4588375.81,1.0,class
+0140265AR,Firmiana simplex,False,Pl Miguel de Unamuno,,6.87,no_kerb,,check,,,,,1.0,floor
+0140266AR,Melia azedarach,False,C\ Federico García Lorca,23.23,22.38,ok,,large,430470.99,4588377.8,430451.09,4588365.82,1.5,class
+0140267AR,Celtis sinensis,False,Via Favència,18.61,17.86,ok,,large,430581.25,4588263.76,430588.97,4588246.83,1.5,class
+0140268AR,Styphnolobium japonicum,False,C\ Víctor Jara,,9.83,median,,check,,,,,1.0,floor
+0140269AR,Celtis sinensis,False,Via Favència,,16.78,median,,check,,,,,1.0,floor
+0140270AR,Platanus × acerifolia,True,Rda Guineueta Vella,10.45,9.54,ok,,large,430644.3,4588327.64,430650.26,4588336.22,1.5,class
+0140271AR,Styphnolobium japonicum,False,C\ Miguel Hernández,10.19,7.55,ok,,large,430078.51,4588136.98,430087.64,4588141.5,1.5,class
+0140272AR,Platanus × acerifolia,True,Rda Guineueta Vella,21.24,19.54,ok,,large,430029.3,4588219.94,430008.61,4588215.11,1.5,class
+0140273AR,Catalpa bignonioides,False,Via Favència,28.25,3.39,ok,,large,430134.35,4588058.72,430146.85,4588033.38,1.5,class
+0140274AR,Cercis siliquastrum,False,C\ Miguel Hernández,6.87,4.39,ok,,large,430132.26,4588220.94,430135.33,4588214.78,1.5,class
+0140275AR,Celtis sinensis,False,Via Favència,21.46,20.73,ok,,large,430532.71,4588245.14,430542.67,4588226.13,1.5,class
+0140276AR,Cercis siliquastrum,False,C\ Miguel Hernández,5.12,4.48,ok,,medium,430105.59,4588207.51,430108.66,4588203.41,1.0,class
+0140277AR,Platanus × acerifolia,True,Rda Guineueta Vella,,16.94,median,8.21,check,,,,,1.0,floor
+0140278AR,Celtis sinensis,False,Via Favència,11.82,11.19,ok,,large,430149.5,4588047.54,430152.74,4588036.18,1.5,class
+0140279AR,Jacaranda mimosifolia,False,C\ Miguel Hernández,22.86,4.13,ok,,large,430252.31,4588300.45,430262.48,4588279.97,1.5,class
+0140280AR,Celtis sinensis,False,Via Favència,19.46,19.42,ok,,large,430571.42,4588259.23,430571.25,4588239.76,1.5,class
+0140281AR,Firmiana simplex,False,C\ Antonio Machado,,6.75,median,1.59,check,,,,,1.0,floor
+0140282AR,Cercis siliquastrum,False,C\ Miguel Hernández,10.47,4.78,ok,,large,430149.88,4588205.2,430142.19,4588212.29,1.5,class
+0140283AR,Firmiana simplex,False,Pl Miguel de Unamuno,10.7,9.5,ok,,large,430558.54,4588308.72,430552.3,4588300.03,1.5,class
+0140285AR,Ulmus pumila,False,C\ Antonio Machado,5.8,4.92,ok,,medium,430099.24,4588106.61,430096.6,4588111.78,1.0,class
+0140287AR,Celtis sinensis,False,Via Favència,21.61,20.89,ok,,large,430538.05,4588247.93,430548.08,4588228.79,1.5,class
+0140288AR,Acer negundo,False,C\ Carles Soldevila,19.24,9.73,ok,,large,430172.92,4588077.44,430184.09,4588061.78,1.5,class
+0140289AR,Platanus × acerifolia,True,Via Favència,,11.27,no_kerb,,check,,,,,1.0,floor
+0140290AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Federico García Lorca,3.1,1.31,ok,,small,430421.31,4588405.2,430424.07,4588406.6,1.0,class
+0140291AR,Ulmus pumila,False,C\ Antonio Machado,5.92,5.01,ok,,medium,430089.28,4588101.54,430086.59,4588106.81,1.0,class
+0140292AR,Platanus × acerifolia,True,C\ Federico García Lorca,19.56,18.3,ok,,large,430207.27,4588161.2,430224.88,4588169.7,1.5,class
+0140293AR,Jacaranda mimosifolia,False,C\ Miguel Hernández,22.85,4.65,ok,,large,430327.3,4588338.15,430337.54,4588317.72,1.5,class
+0140294AR,Jacaranda mimosifolia,False,C\ Antonio Machado,,40.4,no_facade,8.07,check,,,,,1.0,floor
+0140295AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Federico García Lorca,4.47,3.57,ok,,medium,430272.5,4588337.54,430270.46,4588341.52,1.0,class
+0140296AR,Brachychiton acerifolius,False,C\ Antonio Machado,,39.87,no_facade,8.07,check,,,,,1.0,floor
+0140297AR,Styphnolobium japonicum,False,C\ Víctor Jara,,5.87,no_kerb,,check,,,,,1.0,floor
+0140299AR,Ostrya carpinifolia,False,C\ Antonio Machado,,21.51,median,,check,,,,,1.0,floor
+0140300AR,Ulmus pumila,False,C\ Víctor Jara,,6.48,no_kerb,12.03,check,,,,,1.0,floor
+0140301AR,Jacaranda mimosifolia,False,C\ Federico García Lorca,22.54,14.46,ok,,large,430214.34,4588124.57,430234.54,4588134.59,1.5,class
+0140302AR,Firmiana simplex,False,Pl Miguel de Unamuno,24.83,3.64,ok,,large,430572.66,4588282.4,430561.46,4588304.56,1.5,class
+0140303AR,Celtis sinensis,False,Via Favència,14.16,13.46,ok,,large,430149.5,4588047.54,430147.23,4588033.56,1.5,class
+0140304AR,Celtis australis,False,C\ Antonio Machado,4.3,3.51,ok,,medium,430121.17,4588119.17,430119.26,4588123.02,1.0,class
+0140306AR,Tilia tomentosa,False,C\ Antonio Machado,,35.23,no_facade,9.91,check,,,,,1.0,floor
+0140307AR,Ulmus pumila,False,C\ Antonio Machado,7.24,6.29,ok,,large,430107.29,4588110.72,430108.75,4588117.81,1.5,class
+0140308AR,Celtis sinensis,False,Via Favència,21.13,20.4,ok,,large,430506.31,4588231.8,430515.59,4588212.83,1.5,class
+0140310AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Federico García Lorca,4.51,3.12,ok,,medium,430315.01,4588358.98,430313.0,4588363.02,1.0,class
+0140311AR,Brachychiton populneus,False,Via Favència,,31.99,no_facade,6.36,check,,,,,1.0,floor
+0140312AR,Celtis sinensis,False,Via Favència,9.55,8.81,ok,,large,430421.01,4588176.93,430425.24,4588168.36,1.5,class
+0140313AR,Ulmus pumila,False,C\ Juan Ramón Jiménez,10.8,4.22,ok,,large,430003.97,4588180.7,430012.64,4588187.15,1.5,class
+0140314AR,Prunus cerasifera 'Pissardii',False,Pl Miguel de Unamuno,10.2,6.45,ok,,large,430597.85,4588330.23,430607.01,4588334.73,1.5,class
+0140316AR,Platanus × acerifolia,True,Via Favència,26.32,7.35,ok,,large,430493.13,4588225.36,430488.4,4588199.46,1.5,class
+0140317AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,Pl Isabel de Villena,5.18,4.56,ok,,medium,430481.78,4588281.64,430477.42,4588278.84,1.0,class
+0140318AR,Cupressus sempervirens 'Stricta',False,Pl Karl Marx,,41.15,no_facade,,check,,,,,1.0,floor
+0140319AR,Populus nigra 'Italica',False,Via Favència,,11.61,no_kerb,,check,,,,,1.0,floor
+0140320AR,Tilia x euchlora,False,Rda Guineueta Vella,6.02,5.43,ok,,large,430320.87,4588440.5,430318.18,4588445.88,1.5,class
+0140323AR,Celtis australis,False,C\ Antonio Machado,,54.72,no_facade,,check,,,,,1.0,floor
+0140324AR,Celtis sinensis,False,Via Favència,17.07,14.59,ok,,large,430095.58,4588037.7,430101.18,4588021.57,1.5,class
+0140325AR,Jacaranda mimosifolia,False,C\ Miguel Hernández,22.91,3.93,ok,,large,430306.12,4588327.53,430316.39,4588307.05,1.5,class
+0140326AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Federico García Lorca,2.86,1.19,ok,,small,430429.18,4588390.07,430431.73,4588391.37,1.0,class
+0140329AR,Styphnolobium japonicum,False,C\ Víctor Jara,2.77,1.74,ok,,small,430116.46,4588074.51,430115.2,4588076.98,1.0,class
+0140330AR,Tilia tomentosa,False,Rda Guineueta Vella,9.74,8.37,ok,,large,430225.02,4588393.05,430216.3,4588397.41,1.5,class
+0140331AR,Jacaranda mimosifolia,False,C\ Federico García Lorca,,26.19,no_kerb,,check,,,,,1.0,floor
+0140333AR,Platanus × acerifolia,True,C\ Antonio Machado,9.44,5.0,ok,,large,430627.05,4588371.79,430622.84,4588380.24,1.5,class
+0140334AR,Platanus × acerifolia,True,C\ Federico García Lorca,,22.24,median,,check,,,,,1.0,floor
+0140335AR,Ulmus pumila,False,C\ Antonio Machado,5.99,5.06,ok,,medium,430083.3,4588098.49,430080.58,4588103.83,1.0,class
+0140336AR,Platanus × acerifolia,True,Rda Guineueta Vella,11.04,10.12,ok,,large,430646.81,4588322.65,430656.67,4588327.62,1.5,class
+0140338AR,Brachychiton populneus,False,C\ Miguel Hernández,25.19,14.36,ok,,large,430423.07,4588386.44,430434.29,4588363.89,1.5,class
+0140339AR,Robinia pseudoacacia 'Bessoniana',False,C\ Antonio Machado,13.7,7.49,ok,,large,430068.15,4588090.76,430055.3,4588095.51,1.5,class
+0140340AR,Styphnolobium japonicum,False,C\ Miguel Hernández,,19.1,median,1.6,check,,,,,1.0,floor
+0140341AR,Jacaranda mimosifolia,False,C\ Antonio Machado,,53.62,no_facade,,check,,,,,1.0,floor
+0140342AR,Ulmus pumila,False,Pl Karl Marx,17.7,7.88,ok,,large,430084.77,4588058.66,430068.12,4588064.68,1.5,class
+0140344AR,Celtis australis,False,C\ Federico García Lorca,,8.02,median,4.73,check,,,,,1.0,floor
+0140345AR,Platanus × acerifolia,True,C\ Federico García Lorca,,34.82,no_facade,,check,,,,,1.0,floor
+0140346AR,Celtis australis,False,C\ Federico García Lorca,21.04,18.23,ok,,large,430257.14,4588368.45,430242.27,4588353.56,1.5,class
+0140347AR,Celtis sinensis,False,Via Favència,20.59,19.94,ok,,large,430599.19,4588272.62,430608.84,4588254.44,1.5,class
+0140348AR,Celtis sinensis,False,Via Favència,21.11,20.38,ok,,large,430511.72,4588234.45,430521.0,4588215.48,1.5,class
+0140349AR,Tilia x euchlora,False,Rda Guineueta Vella,13.64,12.91,ok,,large,430435.28,4588473.61,430429.28,4588485.86,1.5,class
+0140350AR,Jacaranda mimosifolia,False,C\ Miguel Hernández,21.66,2.98,ok,,large,430229.12,4588287.23,430235.7,4588266.59,1.5,class
+0140351AR,Jacaranda mimosifolia,False,C\ Antonio Machado,,45.02,no_facade,,check,,,,,1.0,floor
+0140352AR,Ulmus pumila,False,C\ Antonio Machado,8.57,7.1,ok,,large,430185.59,4588151.18,430181.79,4588158.86,1.5,class
+0140353AR,Platanus × acerifolia,True,C\ Federico García Lorca,,20.81,median,,check,,,,,1.0,floor
+0140355AR,Platanus × acerifolia,True,C\ Antonio Machado,22.24,20.3,ok,,large,430197.77,4588186.34,430219.62,4588190.49,1.5,class
+0140356AR,Jacaranda mimosifolia,False,C\ Miguel Hernández,26.41,4.49,ok,,large,430368.28,4588357.06,430391.69,4588344.84,1.5,class
+0140357AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Federico García Lorca,4.5,3.59,ok,,medium,430354.69,4588378.78,430352.67,4588382.81,1.0,class
+0140359AR,Platanus × acerifolia,True,Rda Guineueta Vella,15.92,11.17,ok,,large,430025.83,4588228.71,430010.38,4588224.84,1.5,class
+0140360AR,Celtis australis,False,C\ Federico García Lorca,6.88,5.49,ok,,large,430319.05,4588398.93,430322.06,4588392.74,1.5,class
+0140362AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Federico García Lorca,4.34,3.42,ok,,medium,430292.43,4588347.76,430290.45,4588351.61,1.0,class
+0140364AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Federico García Lorca,,15.41,median,,check,,,,,1.0,floor
+0140365AR,Eucalyptus camaldulensis,False,C\ Federico García Lorca,23.16,12.67,ok,,large,430212.16,4588128.98,430232.91,4588139.27,1.5,class
+0140367AR,Ulmus pumila,False,Pl Karl Marx,11.9,11.15,ok,,large,430073.79,4588079.74,430063.19,4588074.32,1.5,class
+0140368AR,Celtis australis,False,C\ Antonio Machado,,39.48,no_facade,,check,,,,,1.0,floor
+0140369AR,Tilia tomentosa,False,Rda Guineueta Vella,8.43,9.42,ok,,large,430280.96,4588420.79,430272.96,4588423.45,1.5,class
+0140370AR,Celtis sinensis,False,Via Favència,8.51,6.95,ok,,large,430118.09,4588031.7,430118.92,4588023.23,1.5,class
+0140371AR,Tilia tomentosa,False,Rda Guineueta Vella,8.46,7.0,ok,,large,430241.22,4588401.16,430241.17,4588409.62,1.5,class
+0140372AR,Prunus cerasifera 'Pissardii',False,Pl Miguel de Unamuno,,1.28,no_kerb,,check,,,,,1.0,floor
+0140373AR,Styphnolobium japonicum,False,C\ Víctor Jara,,10.1,no_kerb,,check,,,,,1.0,floor
+0140374AR,Platanus × acerifolia,True,Rda Guineueta Vella,,13.96,median,4.93,check,,,,,1.0,floor
+0140375AR,Tilia tomentosa,False,Rda Guineueta Vella,7.67,6.16,ok,,large,430236.1,4588398.6,430232.67,4588405.46,1.5,class
+0140376AR,Koelreuteria paniculata,False,C\ Miguel Hernández,25.62,8.31,ok,,large,430500.51,4588359.38,430476.71,4588349.89,1.5,class
+0140377AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Federico García Lorca,4.65,3.53,ok,,medium,430344.72,4588373.76,430342.63,4588377.91,1.0,class
+0140378AR,Celtis australis,False,C\ Antonio Machado,,43.51,no_facade,,check,,,,,1.0,floor
+0140379AR,Firmiana simplex,False,Pl Miguel de Unamuno,9.61,4.26,ok,,large,430548.49,4588283.11,430557.1,4588287.37,1.5,class
+0140380AR,Platanus × acerifolia,True,Via Favència,21.12,5.8,ok,,large,430506.9,4588232.09,430516.18,4588213.12,1.5,class
+0140381AR,Firmiana simplex,False,Pl Miguel de Unamuno,24.88,3.75,ok,,large,430567.78,4588279.93,430556.56,4588302.14,1.5,class
+0140382AR,Jacaranda mimosifolia,False,C\ Miguel Hernández,15.06,5.44,ok,,large,430414.85,4588382.34,430421.55,4588368.86,1.5,class
+0140383AR,Tilia x euchlora,False,Rda Guineueta Vella,4.98,3.7,ok,,medium,430469.93,4588474.41,430470.48,4588479.36,1.0,class
+0140385AR,Citrus × aurantium,False,Pl Miguel de Unamuno,,6.54,no_kerb,24.01,check,,,,,1.0,floor
+0140387AR,Jacaranda mimosifolia,False,C\ Antonio Machado,,47.77,no_facade,,check,,,,,1.0,floor
+0140388AR,Firmiana simplex,False,Via Favència,,3.16,no_kerb,,check,,,,,1.0,floor
+0140389AR,Ulmus pumila,False,C\ Víctor Jara,,8.32,no_kerb,11.97,check,,,,,1.0,floor
+0140390AR,Firmiana simplex,False,Pl Miguel de Unamuno,5.16,4.75,ok,,medium,430576.44,4588317.52,430579.87,4588313.67,1.0,class
+0140391AR,Cupressus sempervirens,False,Rda Guineueta Vella,8.91,4.19,ok,,large,429964.24,4588156.32,429955.4,4588157.47,1.5,class
+0140392AR,Celtis sinensis,False,Via Favència,5.5,4.58,ok,,medium,430336.97,4588131.24,430339.35,4588126.28,1.0,class
+0140393AR,Firmiana simplex,False,C\ Antonio Machado,7.3,5.51,ok,,large,430073.36,4588124.57,430077.19,4588118.35,1.5,class
+0140394AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Federico García Lorca,11.38,11.48,ok,,large,430204.77,4588297.53,430194.56,4588292.52,1.5,class
+0140395AR,Cercis siliquastrum,False,C\ Miguel Hernández,12.58,10.29,ok,,large,430065.72,4588163.62,430075.28,4588155.44,1.5,class
+0140397AR,Jacaranda mimosifolia,False,C\ Miguel Hernández,21.32,3.73,ok,,large,430353.76,4588349.74,430363.36,4588330.7,1.5,class
+0140402AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Federico García Lorca,6.77,4.87,ok,,large,430410.82,4588407.17,430407.76,4588413.21,1.5,class
+0140404AR,Jacaranda mimosifolia,False,C\ Federico García Lorca,22.26,13.76,ok,,large,430215.68,4588121.89,430235.62,4588131.78,1.5,class
+0140405AR,Celtis australis,False,C\ Federico García Lorca,6.57,5.52,ok,,large,430351.08,4588414.78,430353.92,4588408.85,1.5,class
+0140407AR,Celtis australis,False,C\ Miguel Hernández,,36.51,no_facade,,check,,,,,1.0,floor
+0140408AR,Platanus × acerifolia,True,Via Favència,21.35,5.85,ok,,large,430528.98,4588243.18,430538.89,4588224.28,1.5,class
+0140409AR,Tilia x euchlora,False,Rda Guineueta Vella,8.59,7.89,ok,,large,430313.15,4588436.63,430305.0,4588439.35,1.5,class
+0140410AR,Tilia x euchlora,False,Rda Guineueta Vella,5.99,5.47,ok,,medium,430326.89,4588443.51,430324.21,4588448.87,1.0,class
+0140411AR,Tilia x euchlora,False,Rda Guineueta Vella,7.62,7.66,ok,,large,430393.6,4588469.41,430396.4,4588476.5,1.5,class
+0140413AR,Celtis australis,False,C\ Antonio Machado,,19.04,median,6.92,check,,,,,1.0,floor
+0140414AR,Tilia x euchlora,False,Rda Guineueta Vella,19.88,18.32,ok,,large,430494.4,4588450.94,430495.68,4588470.79,1.5,class
+0140415AR,Cercis siliquastrum,False,C\ Miguel Hernández,10.96,9.28,ok,,large,430181.31,4588221.14,430170.36,4588221.58,1.5,class
+0140418AR,Jacaranda mimosifolia,False,C\ Miguel Hernández,20.23,5.49,ok,,large,430399.88,4588374.89,430408.9,4588356.78,1.5,class
+0140419AR,Firmiana simplex,False,Pl Miguel de Unamuno,9.61,3.48,ok,,large,430544.72,4588290.72,430553.34,4588294.98,1.5,class
+0140420AR,Celtis sinensis,False,Via Favència,19.65,15.85,ok,,large,430286.71,4588111.52,430277.6,4588094.12,1.5,class
+0140421AR,Platanus × acerifolia,True,Via Favència,19.5,5.58,ok,,large,430590.81,4588268.17,430599.96,4588250.95,1.5,class
+0140422AR,Celtis sinensis,False,Via Favència,21.14,20.4,ok,,large,430500.88,4588229.15,430510.17,4588210.16,1.5,class
+0140424AR,Platanus × acerifolia,True,Rda Guineueta Vella,11.01,10.14,ok,,large,430644.65,4588326.95,430654.48,4588331.9,1.5,class
+0140425AR,Tilia x euchlora,False,Rda Guineueta Vella,7.48,6.31,ok,,large,430446.63,4588479.17,430443.34,4588485.89,1.5,class
+0140426AR,Tilia x euchlora,False,Rda Guineueta Vella,11.51,10.21,ok,,large,430448.73,4588477.69,430459.07,4588482.75,1.5,class
+0140427AR,Jacaranda mimosifolia,False,C\ Miguel Hernández,22.81,4.95,ok,,large,430344.24,4588346.65,430354.46,4588326.26,1.5,class
+0140428AR,Platanus × acerifolia,True,C\ Federico García Lorca,,29.3,median,,check,,,,,1.0,floor
+0140430AR,Celtis australis,False,C\ Antonio Machado,,49.83,no_facade,,check,,,,,1.0,floor
+0140431AR,Platanus × acerifolia,True,Rda Guineueta Vella,11.15,10.01,ok,,large,430654.89,4588306.41,430664.92,4588311.29,1.5,class
+0140432AR,Tilia x euchlora,False,Rda Guineueta Vella,23.31,19.51,ok,,large,430329.44,4588444.79,430347.12,4588459.97,1.5,class
+0140433AR,Platanus × acerifolia,True,C\ Federico García Lorca,28.03,27.19,ok,,large,430280.2,4588125.23,430254.89,4588113.2,1.5,class
+0140434AR,Tilia x euchlora,False,Rda Guineueta Vella,15.49,14.13,ok,,large,430377.32,4588461.28,430362.41,4588465.51,1.5,class
+0140435AR,Platanus × acerifolia,True,C\ Federico García Lorca,,18.69,median,,check,,,,,1.0,floor
+0140436AR,Celtis sinensis,False,Via Favència,9.58,8.84,ok,,large,430415.35,4588174.14,430419.59,4588165.54,1.5,class
+0140437AR,Firmiana simplex,False,C\ Antonio Machado,10.7,8.86,ok,,large,430082.45,4588129.02,430092.76,4588126.17,1.5,class
+0140438AR,Ulmus pumila,False,Pl Karl Marx,12.12,11.49,ok,,large,430090.33,4588047.87,430079.54,4588042.36,1.5,class
+0140439AR,Tilia tomentosa,False,Rda Guineueta Vella,7.75,6.41,ok,,large,430228.1,4588394.6,430224.63,4588401.52,1.5,class
+0140440AR,Platanus × acerifolia,True,Rda Guineueta Vella,6.81,5.54,ok,,large,430633.62,4588360.0,430638.26,4588355.01,1.5,class
+0140441AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Federico García Lorca,4.52,3.36,ok,,medium,430257.44,4588329.89,430255.41,4588333.93,1.0,class
+0140442AR,Tilia x euchlora,False,Rda Guineueta Vella,7.86,7.23,ok,,large,430297.74,4588428.96,430299.5,4588436.62,1.5,class
+0140443AR,Jacaranda mimosifolia,False,C\ Federico García Lorca,,22.29,no_kerb,,check,,,,,1.0,floor
+0140444AR,Firmiana simplex,False,Pl Miguel de Unamuno,25.03,4.76,ok,,large,430593.5,4588305.19,430571.1,4588294.02,1.5,class
+0140445AR,Jacaranda mimosifolia,False,C\ Miguel Hernández,24.23,2.07,ok,,large,430291.2,4588318.22,430311.08,4588304.38,1.5,class
+0140446AR,Jacaranda mimosifolia,False,C\ Miguel Hernández,23.25,5.54,ok,,large,430384.24,4588367.11,430394.6,4588346.3,1.5,class
+0140447AR,Platanus × acerifolia,True,C\ Federico García Lorca,27.15,27.05,ok,,large,430283.21,4588118.9,430258.68,4588107.25,1.5,class
+0140448AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Federico García Lorca,4.59,2.08,ok,,medium,430382.44,4588392.79,430380.36,4588396.88,1.0,class
+0140451AR,Celtis australis,False,C\ Antonio Machado,7.15,4.62,ok,,large,430162.29,4588168.39,430163.57,4588161.36,1.5,class
+0140452AR,Platanus × acerifolia,True,C\ Federico García Lorca,8.99,7.92,ok,,large,430200.45,4588219.81,430208.46,4588223.87,1.5,class
+0140453AR,Gleditsia triacanthos,False,Via Favència,2.16,1.49,ok,,none,430159.67,4588064.32,430161.6,4588065.3,1.0,floor
+0140454AR,Ulmus pumila,False,C\ Antonio Machado,13.31,12.41,ok,,large,430068.15,4588090.76,430054.83,4588090.67,1.5,class
+0140456AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Federico García Lorca,3.11,1.46,ok,,small,430419.36,4588409.05,430422.13,4588410.45,1.0,class
+0140457AR,Jacaranda mimosifolia,False,C\ Miguel Hernández,21.37,2.55,ok,,large,430278.03,4588311.66,430287.57,4588292.54,1.5,class
+0140458AR,Celtis australis,False,Via Favència,11.36,10.95,ok,,large,430130.75,4588038.61,430136.2,4588028.64,1.5,class
+0140459AR,Platanus × acerifolia,True,C\ Federico García Lorca,,30.48,no_facade,,check,,,,,1.0,floor
+0140460AR,Cercis siliquastrum,False,C\ Miguel Hernández,18.31,16.52,ok,,large,430148.73,4588233.68,430167.01,4588232.73,1.5,class
+0140461AR,Firmiana simplex,False,C\ Antonio Machado,,2.08,no_kerb,,check,,,,,1.0,floor
+0140462AR,Brachychiton acerifolius,False,C\ Antonio Machado,,51.9,no_facade,6.82,check,,,,,1.0,floor
+0140464AR,Tilia x euchlora,False,Rda Guineueta Vella,23.18,20.2,ok,,large,430377.32,4588461.28,430354.19,4588462.78,1.5,class
+0140465AR,Platanus × acerifolia,True,Via Favència,,9.86,median,,check,,,,,1.0,floor
+0140466AR,Cercis siliquastrum,False,C\ Miguel Hernández,5.13,4.28,ok,,medium,430122.65,4588191.56,430120.31,4588196.13,1.0,class
+0140468AR,Acer negundo,False,C\ Carles Soldevila,3.4,2.05,ok,,small,430165.31,4588092.23,430168.33,4588093.79,1.0,class
+0140469AR,Platanus × acerifolia,True,C\ Federico García Lorca,22.57,21.39,ok,,large,430214.2,4588124.85,430234.43,4588134.88,1.5,class
+0140470AR,Celtis sinensis,False,Via Favència,,38.15,no_facade,,check,,,,,1.0,floor
+0140471AR,Tilia x euchlora,False,Rda Guineueta Vella,10.19,6.58,ok,,large,430470.57,4588473.14,430479.65,4588477.75,1.5,class
+0140472AR,Firmiana simplex,False,Pl Miguel de Unamuno,,5.16,no_kerb,37.55,check,,,,,1.0,floor
+0140473AR,Ulmus pumila,False,C\ Víctor Jara,12.45,7.1,ok,,large,430099.73,4588066.25,430109.43,4588074.05,1.5,class
+0140475AR,Platanus × acerifolia,True,Pl Miguel de Unamuno,6.61,5.44,ok,,large,430629.66,4588358.02,430632.61,4588352.1,1.5,class
+0142014AR,Jacaranda mimosifolia,False,C\ Antonio Machado,,36.62,no_facade,5.37,check,,,,,1.0,floor
+0142064AR,Jacaranda mimosifolia,False,C\ Antonio Machado,,40.9,no_facade,,check,,,,,1.0,floor
+0142090AR,Brachychiton populneus,False,Via Favència,24.34,21.61,ok,,large,430755.33,4588334.85,430739.62,4588316.25,1.5,class
+0142148AR,Celtis australis,False,C\ Antonio Machado,,19.66,median,,check,,,,,1.0,floor
+0142156AR,Celtis australis,False,C\ Antonio Machado,5.17,4.01,ok,,medium,430741.54,4588419.57,430739.79,4588424.44,1.0,class
+0142178AR,Brachychiton populneus,False,Via Favència,9.13,8.13,ok,,large,430756.28,4588335.18,430759.33,4588326.58,1.5,class
+0142179AR,Brachychiton populneus,False,Via Favència,8.57,7.36,ok,,large,430768.81,4588339.62,430776.09,4588335.1,1.5,class
+0142237AR,Celtis australis,False,C\ Antonio Machado,,15.21,median,,check,,,,,1.0,floor
+0142280AR,Celtis australis,False,C\ Antonio Machado,,32.38,no_facade,,check,,,,,1.0,floor
+0142291AR,Celtis australis,False,C\ Antonio Machado,20.47,15.98,ok,,large,430726.44,4588414.14,430706.07,4588412.12,1.5,class
+0142349AR,Jacaranda mimosifolia,False,C\ Antonio Machado,,28.75,median,,check,,,,,1.0,floor
+0142371AR,Jacaranda mimosifolia,False,C\ Antonio Machado,26.71,20.68,ok,,large,430726.44,4588414.14,430700.07,4588409.9,1.5,class
+0142380AR,Celtis australis,False,C\ Antonio Machado,,17.94,median,,check,,,,,1.0,floor
+0142426AR,Celtis australis,False,C\ Antonio Machado,,22.47,median,,check,,,,,1.0,floor
+0142433AR,Celtis australis,False,C\ Antonio Machado,,25.09,median,,check,,,,,1.0,floor
+0142443AR,Celtis australis,False,C\ Antonio Machado,,29.66,median,,check,,,,,1.0,floor
+0142501AR,Celtis australis,False,C\ Antonio Machado,,34.34,no_facade,,check,,,,,1.0,floor
+0142527AR,Jacaranda mimosifolia,False,C\ Antonio Machado,,39.16,no_facade,,check,,,,,1.0,floor
+0142528AR,Brachychiton populneus,False,Via Favència,16.67,14.94,ok,,large,430755.33,4588334.85,430747.31,4588320.23,1.5,class
+0142702AR,Celtis australis,False,C\ Antonio Machado,,41.68,no_facade,5.35,check,,,,,1.0,floor
+0142720AR,Celtis australis,False,C\ Antonio Machado,,20.04,median,,check,,,,,1.0,floor
+0142756AR,Celtis australis,False,C\ Antonio Machado,,31.2,no_facade,5.36,check,,,,,1.0,floor
+0142828AR,Celtis australis,False,C\ Antonio Machado,5.19,4.03,ok,,medium,430746.41,4588421.33,430744.65,4588426.2,1.0,class
+0142877AR,Platanus × acerifolia,True,Via Favència,8.36,7.39,ok,,large,430761.69,4588337.1,430764.48,4588329.22,1.5,class
+0142915AR,Jacaranda mimosifolia,False,C\ Antonio Machado,,15.69,median,,check,,,,,1.0,floor
+0142951AR,Celtis australis,False,C\ Antonio Machado,5.12,3.36,ok,,medium,430726.58,4588414.19,430724.84,4588419.01,1.0,class
+0142960AR,Jacaranda mimosifolia,False,C\ Antonio Machado,,20.54,median,,check,,,,,1.0,floor
+0142962AR,Celtis australis,False,C\ Antonio Machado,,36.79,no_facade,,check,,,,,1.0,floor
+0142964AR,Brachychiton populneus,False,Via Favència,7.5,6.37,ok,,large,430767.75,4588339.25,430770.26,4588332.18,1.5,class
+0142977AR,Jacaranda mimosifolia,False,C\ Antonio Machado,,25.45,median,,check,,,,,1.0,floor
+0143002AR,Celtis australis,False,C\ Antonio Machado,,43.72,no_facade,,check,,,,,1.0,floor
+0143003AR,Celtis australis,False,C\ Antonio Machado,,21.45,median,,check,,,,,1.0,floor
+0143027AR,Jacaranda mimosifolia,False,C\ Antonio Machado,8.66,5.98,ok,,large,430726.44,4588414.14,430718.13,4588416.56,1.5,class
+0143041AR,Celtis australis,False,C\ Antonio Machado,,45.46,no_facade,,check,,,,,1.0,floor
+0143139AR,Celtis australis,False,C\ Antonio Machado,14.8,10.84,ok,,large,430726.44,4588414.14,430711.64,4588414.17,1.5,class
+0143160AR,Jacaranda mimosifolia,False,C\ Antonio Machado,5.15,4.01,ok,,medium,430736.66,4588417.82,430734.91,4588422.67,1.0,class
+0143164AR,Celtis australis,False,C\ Antonio Machado,,26.41,no_kerb,5.35,check,,,,,1.0,floor
+0143170AR,Celtis australis,False,C\ Antonio Machado,5.13,3.71,ok,,medium,430731.16,4588415.84,430729.42,4588420.67,1.0,class
+0261975AR,Cercis siliquastrum,False,C\ Federico García Lorca,,12.37,median,13.04,check,,,,,1.0,floor
+0262003AR,Tipuana tipu,False,C\ Miguel Hernández,22.67,12.83,ok,,large,430270.16,4588309.14,430279.71,4588288.58,1.5,class
+0262012AR,Prunus cerasifera 'Pissardii',False,C\ Federico García Lorca,,13.4,median,13.36,check,,,,,1.0,floor
+0262018AR,Cercis siliquastrum,False,C\ Antonio Machado,9.11,2.84,ok,,large,430198.89,4588222.88,430207.02,4588227.0,1.5,class
+0262033AR,Jacaranda mimosifolia,False,C\ Federico García Lorca,13.36,7.31,ok,,large,430200.85,4588340.59,430206.61,4588328.54,1.5,class
+0262036AR,Cercis siliquastrum,False,C\ Federico García Lorca,,14.21,median,14.29,check,,,,,1.0,floor
+0262042AR,Albizia julibrissin,False,C\ Miguel Hernández,20.23,14.63,ok,,large,430396.35,4588373.14,430405.37,4588355.02,1.5,class
+0262049AR,Cercis siliquastrum,False,C\ Federico García Lorca,,13.98,median,14.28,check,,,,,1.0,floor
+0262053AR,Schinus molle,False,C\ Federico García Lorca,,10.98,no_kerb,,check,,,,,1.0,floor
+0262069AR,Celtis australis,False,Rda Guineueta Vella,8.58,5.39,ok,,large,430544.55,4588446.15,430550.82,4588452.02,1.5,class
+0262078AR,Schinus molle,False,C\ Federico García Lorca,22.3,16.13,ok,,large,430218.3,4588366.2,430231.93,4588348.56,1.5,class
+0262079AR,Brachychiton populneus,False,C\ Miguel Hernández,23.08,13.67,ok,,large,430375.41,4588362.5,430386.15,4588342.08,1.5,class
+0262088AR,Platycladus orientalis,False,Via Favència,,13.2,median,,check,,,,,1.0,floor
+0262089AR,Magnolia grandiflora,False,C\ Federico García Lorca,,18.44,median,11.82,check,,,,,1.0,floor
+0262094AR,Jacaranda mimosifolia,False,C\ Antonio Machado,19.51,9.93,ok,,large,430207.38,4588160.99,430224.95,4588169.46,1.5,class
+0262112AR,Ligustrum lucidum,False,C\ Miguel Hernández,29.88,18.41,ok,,large,430212.99,4588280.96,430207.14,4588251.66,1.5,class
+0262124AR,Melia azedarach,False,C\ Miguel Hernández,21.93,10.21,ok,,large,430357.4,4588351.58,430371.46,4588334.75,1.5,class
+0262135AR,Cercis siliquastrum,False,Rda Guineueta Vella,,14.92,median,10.98,check,,,,,1.0,floor
+0262136AR,Jacaranda mimosifolia,False,C\ Antonio Machado,19.67,7.83,ok,,large,430207.09,4588161.57,430224.74,4588170.25,1.5,class
+0262162AR,Platanus × acerifolia,True,Rda Guineueta Vella,13.48,10.66,ok,,large,430562.77,4588433.82,430568.43,4588446.06,1.5,class
+0262164AR,Platanus × acerifolia,True,Rda Guineueta Vella,,20.38,median,5.27,check,,,,,1.0,floor
+0262177AR,Laurus nobilis,False,Via Favència,,20.43,median,,check,,,,,1.0,floor
+0262179AR,Cercis siliquastrum,False,C\ Federico García Lorca,,12.92,median,14.14,check,,,,,1.0,floor
+0262186AR,Ligustrum lucidum,False,C\ Miguel Hernández,23.08,10.83,ok,,large,430217.45,4588283.26,430228.04,4588262.76,1.5,class
+0262188AR,Cercis siliquastrum,False,C\ Federico García Lorca,,12.94,median,13.83,check,,,,,1.0,floor
+0262197AR,Carpinus betulus,False,C\ Federico García Lorca,,14.36,median,13.7,check,,,,,1.0,floor
+0262203AR,Laurus nobilis,False,C\ Antonio Machado,24.28,6.1,ok,,large,430170.44,4588190.77,430170.51,4588166.49,1.5,class
+0262205AR,Platanus × acerifolia,True,Rda Guineueta Vella,18.08,14.39,ok,,large,430562.77,4588433.82,430578.68,4588442.41,1.5,class
+0262209AR,Quercus ilex,False,C\ Federico García Lorca,,19.33,median,14.29,check,,,,,1.0,floor
+0262210AR,Cercis siliquastrum,False,C\ Federico García Lorca,13.7,3.75,ok,,large,430184.66,4588316.04,430190.8,4588303.79,1.5,class
+0262249AR,Cercis siliquastrum,False,C\ Federico García Lorca,,14.0,median,12.59,check,,,,,1.0,floor
+0262251AR,Ligustrum lucidum,False,C\ Federico García Lorca,28.59,16.69,ok,,large,430212.99,4588280.96,430202.98,4588254.18,1.5,class
+0262258AR,Platanus × acerifolia,True,Rda Guineueta Vella,20.89,17.25,ok,,large,430563.89,4588431.49,430582.69,4588440.61,1.5,class
+0262296AR,Cupressus pendula,False,C\ Antonio Machado,10.35,4.1,ok,,large,430196.03,4588228.72,430201.94,4588237.21,1.5,class
+0262298AR,Citrus × aurantium,False,C\ Antonio Machado,,5.31,no_kerb,,check,,,,,1.0,floor
+0262309AR,Pinus pinea,False,C\ Antonio Machado,23.3,2.97,ok,,large,430205.91,4588208.08,430216.11,4588187.13,1.5,class
+0262315AR,Platycladus orientalis,False,Via Favència,,7.84,median,19.81,check,,,,,1.0,floor
+0262331AR,Carpinus betulus,False,C\ Federico García Lorca,,14.15,median,13.29,check,,,,,1.0,floor
+0262332AR,Platanus × acerifolia,True,Rda Guineueta Vella,12.33,8.11,ok,,large,430543.06,4588445.42,430537.62,4588456.48,1.5,class
+0262336AR,Carpinus betulus,False,C\ Federico García Lorca,,16.66,median,13.94,check,,,,,1.0,floor
+0262341AR,Cercis siliquastrum,False,C\ Federico García Lorca,,16.55,median,13.52,check,,,,,1.0,floor
+0262354AR,Carpinus betulus,False,C\ Federico García Lorca,,16.5,median,14.04,check,,,,,1.0,floor
+0262362AR,Quercus ilex,False,C\ Federico García Lorca,,14.82,median,14.26,check,,,,,1.0,floor
+0262364AR,Platanus × acerifolia,True,Rda Guineueta Vella,8.63,4.59,ok,,large,430529.35,4588452.86,430537.09,4588456.66,1.5,class
+0262365AR,Platycladus orientalis,False,Via Favència,,7.5,median,21.29,check,,,,,1.0,floor
+0262368AR,Bauhinia variegata,False,C\ Miguel Hernández,22.8,17.75,ok,,large,430341.82,4588345.44,430352.04,4588325.05,1.5,class
+0262381AR,Magnolia grandiflora,False,C\ Federico García Lorca,,19.71,median,13.01,check,,,,,1.0,floor
+0262402AR,Tipuana tipu,False,C\ Miguel Hernández,21.38,15.13,ok,,large,430276.4,4588310.84,430285.94,4588291.71,1.5,class
+0262403AR,Albizia julibrissin,False,C\ Miguel Hernández,20.23,13.44,ok,,large,430402.38,4588376.14,430411.4,4588358.02,1.5,class
+0262407AR,Brachychiton populneus,False,C\ Miguel Hernández,20.24,15.17,ok,,large,430390.75,4588370.35,430399.77,4588352.23,1.5,class
+0262408AR,Ceratonia siliqua,False,C\ Miguel Hernández,21.33,15.5,ok,,large,430354.27,4588350.0,430363.87,4588330.96,1.5,class
+0262413AR,Koelreuteria paniculata,False,C\ Miguel Hernández,22.8,11.96,ok,,large,430342.02,4588345.54,430352.24,4588325.15,1.5,class
+0262421AR,Olea europaea,False,C\ Miguel Hernández,22.85,17.13,ok,,large,430327.34,4588338.18,430337.58,4588317.75,1.5,class
+0262437AR,Platanus × acerifolia,True,Rda Guineueta Vella,15.08,11.95,ok,,large,430562.77,4588433.82,430573.62,4588444.28,1.5,class
+0262439AR,Prunus cerasifera 'Pissardii',False,C\ Federico García Lorca,,17.45,median,13.12,check,,,,,1.0,floor
+0262441AR,Platanus × acerifolia,True,Rda Guineueta Vella,26.56,23.1,ok,,large,430567.46,4588424.15,430591.36,4588435.73,1.5,class
+0262442AR,Citrus × aurantium,False,C\ Miguel Hernández,,6.25,no_kerb,,check,,,,,1.0,floor
+0262448AR,Platycladus orientalis,False,Via Favència,,6.79,median,20.01,check,,,,,1.0,floor
+0262450AR,Quercus ilex,False,C\ Federico García Lorca,,20.85,median,14.28,check,,,,,1.0,floor
+0262466AR,Brachychiton populneus,False,C\ Miguel Hernández,23.14,17.85,ok,,large,430377.81,4588363.77,430388.58,4588343.29,1.5,class
+0262483AR,Platanus × acerifolia,True,Rda Guineueta Vella,14.9,10.65,ok,,large,430546.48,4588442.3,430559.8,4588448.98,1.5,class
+0262502AR,Ligustrum lucidum,False,Via Favència,,28.08,median,,check,,,,,1.0,floor
+0262506AR,Acer monspessulanum,False,C\ Miguel Hernández,22.9,12.06,ok,,large,430308.96,4588328.96,430319.23,4588308.49,1.5,class
+0262512AR,Tilia tomentosa,False,C\ Miguel Hernández,22.85,14.18,ok,,large,430257.65,4588303.1,430267.81,4588282.63,1.5,class
+0262524AR,Melia azedarach,False,C\ Miguel Hernández,21.32,10.33,ok,,large,430352.77,4588349.24,430362.37,4588330.21,1.5,class
+0262529AR,Platycladus orientalis,False,Via Favència,,14.42,median,,check,,,,,1.0,floor
+0262551AR,Tipuana tipu,False,C\ Miguel Hernández,22.79,17.21,ok,,large,430266.49,4588307.44,430276.09,4588286.77,1.5,class
+0262558AR,Ligustrum lucidum,False,C\ Federico García Lorca,25.95,19.36,ok,,large,430212.99,4588280.96,430199.38,4588258.86,1.5,class
+0262560AR,Prunus amygdalus,False,C\ Federico García Lorca,,20.0,median,14.25,check,,,,,1.0,floor
+0262566AR,Prunus cerasifera 'Pissardii',False,C\ Federico García Lorca,,15.48,median,13.06,check,,,,,1.0,floor
+0262579AR,Cercis siliquastrum,False,C\ Federico García Lorca,9.93,2.21,ok,,large,430188.84,4588318.13,430193.29,4588309.26,1.5,class
+0262580AR,Platycladus orientalis,False,Via Favència,,13.84,median,,check,,,,,1.0,floor
+0262596AR,Prunus cerasifera 'Pissardii',False,C\ Federico García Lorca,,16.33,median,13.09,check,,,,,1.0,floor
+0262602AR,Cercis siliquastrum,False,C\ Federico García Lorca,,13.03,median,13.67,check,,,,,1.0,floor
+0262605AR,Magnolia grandiflora,False,C\ Federico García Lorca,,19.04,median,12.58,check,,,,,1.0,floor
+0262607AR,Jacaranda mimosifolia,False,C\ Federico García Lorca,17.72,8.53,ok,,large,430193.38,4588324.18,430209.22,4588332.12,1.5,class
+0262610AR,Citrus × aurantium,False,C\ Miguel Hernández,,6.72,no_kerb,,check,,,,,1.0,floor
+0262630AR,Cupressus pendula,False,C\ Antonio Machado,9.15,3.68,ok,,large,430196.43,4588227.89,430204.67,4588231.87,1.5,class
+0262675AR,Jacaranda mimosifolia,False,C\ Antonio Machado,20.0,11.06,ok,,large,430207.09,4588161.57,430224.28,4588171.8,1.5,class
+0262676AR,Cercis siliquastrum,False,C\ Federico García Lorca,,12.69,median,13.11,check,,,,,1.0,floor
+0262689AR,Prunus cerasifera 'Pissardii',False,C\ Federico García Lorca,,14.09,median,13.4,check,,,,,1.0,floor
+0262692AR,Citrus × aurantium,False,C\ Antonio Machado,,6.72,no_kerb,,check,,,,,1.0,floor
+0262696AR,Melia azedarach,False,C\ Miguel Hernández,21.46,16.31,ok,,large,430280.28,4588312.78,430291.76,4588294.65,1.5,class
+0262703AR,Cercis siliquastrum,False,C\ Antonio Machado,8.66,2.99,ok,,large,430203.17,4588214.43,430210.9,4588218.34,1.5,class
+0262717AR,Ligustrum lucidum,False,C\ Miguel Hernández,29.39,22.8,ok,,large,430212.99,4588280.96,430204.57,4588252.8,1.5,class
+0293237AR,Melia azedarach,False,C\ Miguel Hernández,21.38,9.96,ok,,large,430365.7,4588355.76,430375.32,4588336.67,1.5,class
+0293238AR,Ceratonia siliqua,False,C\ Miguel Hernández,21.37,16.47,ok,,large,430365.46,4588355.64,430375.08,4588336.55,1.5,class
+0293239AR,Bauhinia variegata,False,C\ Miguel Hernández,22.77,16.71,ok,,large,430352.66,4588349.19,430355.03,4588326.54,1.5,class
+0293240AR,Olea europaea,False,C\ Miguel Hernández,22.87,12.43,ok,,large,430322.96,4588335.98,430333.21,4588315.54,1.5,class
+0293241AR,Melia azedarach,False,C\ Miguel Hernández,21.32,15.38,ok,,large,430291.2,4588318.22,430301.35,4588299.48,1.5,class
+0293242AR,Melia azedarach,False,C\ Miguel Hernández,21.33,17.02,ok,,large,430287.28,4588316.27,430296.8,4588297.19,1.5,class
+0293243AR,Citrus × aurantium,False,C\ Miguel Hernández,23.29,11.93,ok,,large,430291.2,4588318.22,430309.18,4588303.42,1.5,class
+0293245AR,Melia azedarach,False,C\ Miguel Hernández,22.72,18.47,ok,,large,430291.2,4588318.22,430307.83,4588302.74,1.5,class
+0293248AR,Cercis siliquastrum,False,C\ Miguel Hernández,,5.01,no_kerb,,check,,,,,1.0,floor
+0293249AR,Cercis siliquastrum,False,C\ Antonio Machado,25.6,3.96,ok,,large,430152.1,4588188.66,430140.09,4588211.27,1.5,class
+0293360AR,Quercus ilex,False,C\ Federico García Lorca,,17.09,median,13.37,check,,,,,1.0,floor
+0293361AR,Quercus ilex,False,C\ Federico García Lorca,,16.99,median,13.39,check,,,,,1.0,floor
+0293362AR,Fraxinus angustifolia 'Raywood',False,C\ Federico García Lorca,,15.82,median,14.32,check,,,,,1.0,floor
+0293363AR,Fraxinus angustifolia,False,C\ Federico García Lorca,,16.13,median,14.25,check,,,,,1.0,floor
+0293365AR,Cercis siliquastrum,False,C\ Federico García Lorca,,12.22,median,13.38,check,,,,,1.0,floor
+0293366AR,Celtis australis,False,C\ Federico García Lorca,,14.18,median,13.4,check,,,,,1.0,floor
+0293367AR,Magnolia grandiflora,False,C\ Federico García Lorca,,17.78,median,14.08,check,,,,,1.0,floor
+0293368AR,Magnolia grandiflora,False,C\ Federico García Lorca,,15.94,median,22.15,check,,,,,1.0,floor
+0293370AR,Fraxinus angustifolia,False,C\ Federico García Lorca,,16.8,median,10.08,check,,,,,1.0,floor
+0293371AR,Cercis siliquastrum,False,C\ Federico García Lorca,,13.02,median,9.08,check,,,,,1.0,floor
+0293378AR,Jacaranda mimosifolia,False,C\ Miguel Hernández,23.11,5.25,ok,,large,430376.76,4588363.21,430387.51,4588342.76,1.5,class
+0293379AR,Jacaranda mimosifolia,False,C\ Miguel Hernández,25.91,3.65,ok,,large,430244.74,4588295.03,430267.38,4588282.42,1.5,class
+0293380AR,Jacaranda mimosifolia,False,C\ Miguel Hernández,21.4,2.9,ok,,large,430240.43,4588292.87,430249.98,4588273.73,1.5,class
+0293381AR,Jacaranda mimosifolia,False,C\ Miguel Hernández,23.09,4.59,ok,,large,430218.18,4588283.64,430228.78,4588263.13,1.5,class
+0297996AR,Styphnolobium japonicum 'Columnare',False,C\ Antonio Machado,24.4,7.86,ok,,large,430202.45,4588206.39,430205.55,4588182.19,1.5,class
+0310698AR,Celtis australis,False,C\ Antonio Machado,,29.32,median,9.65,check,,,,,1.0,floor
+0311445AR,Celtis sinensis,False,Via Favència,19.72,18.68,ok,,large,430592.53,4588269.08,430601.78,4588251.66,1.5,class
+0311446AR,Celtis sinensis,False,Via Favència,22.1,22.19,ok,,large,430554.7,4588256.66,430564.96,4588237.08,1.5,class
+0311447AR,Celtis sinensis,False,Via Favència,21.94,21.18,ok,,large,430549.17,4588253.76,430559.35,4588234.33,1.5,class
+0311471AR,Cercis siliquastrum,False,C\ Miguel Hernández,22.87,17.89,ok,,large,430251.33,4588299.97,430261.5,4588279.48,1.5,class
+0312308AR,Ligustrum lucidum,False,C\ Miguel Hernández,25.92,10.3,ok,,large,430212.99,4588280.96,430218.55,4588255.64,1.5,class
+0313448AR,Handroanthus heptaphyllus,False,Rda Guineueta Vella,,24.54,median,3.46,check,,,,,1.0,floor
+0313449AR,Pterocarya fraxinifolia,False,Rda Guineueta Vella,,22.48,median,3.31,check,,,,,1.0,floor
+0313450AR,Handroanthus heptaphyllus,False,Rda Guineueta Vella,,22.45,median,3.38,check,,,,,1.0,floor
+0313451AR,Handroanthus heptaphyllus,False,Rda Guineueta Vella,,22.69,median,3.31,check,,,,,1.0,floor
+0313452AR,Handroanthus heptaphyllus,False,Rda Guineueta Vella,,25.62,median,3.16,check,,,,,1.0,floor
+0313453AR,Handroanthus heptaphyllus,False,Rda Guineueta Vella,,19.07,median,12.05,check,,,,,1.0,floor
+0315301AR,Gleditsia triacanthos 'sunburst',False,C\ Miguel Hernández,22.91,16.73,ok,,large,430304.11,4588326.53,430314.38,4588306.04,1.5,class
+0319137AR,Tipuana tipu,False,Via Favència,,18.9,median,,check,,,,,1.0,floor
+0336852AR,Celtis australis,False,C\ Miguel Hernández,4.58,3.78,ok,,medium,430506.42,4588362.32,430504.37,4588366.42,1.0,class
+0336853AR,Celtis australis,False,C\ Miguel Hernández,4.58,3.76,ok,,medium,430513.21,4588365.7,430511.18,4588369.81,1.0,class
+0336854AR,Celtis australis,False,C\ Miguel Hernández,4.59,3.76,ok,,medium,430519.89,4588369.02,430517.85,4588373.13,1.0,class
+0336855AR,Celtis australis,False,C\ Miguel Hernández,6.78,3.87,ok,,large,430500.51,4588359.38,430496.2,4588364.61,1.5,class
+0336856AR,Styphnolobium japonicum 'Dot',False,C\ Antonio Machado,5.42,4.62,ok,,medium,430589.02,4588379.25,430591.44,4588374.4,1.0,class
+0336857AR,Styphnolobium japonicum 'Dot',False,C\ Antonio Machado,5.55,4.73,ok,,medium,430601.45,4588385.46,430604.85,4588381.07,1.0,class
+0336858AR,Styphnolobium japonicum 'Dot',False,C\ Antonio Machado,5.43,4.63,ok,,medium,430595.84,4588382.66,430598.27,4588377.8,1.0,class
+0336859AR,Styphnolobium japonicum 'Dot',False,C\ Antonio Machado,5.41,4.61,ok,,medium,430582.28,4588375.89,430584.7,4588371.05,1.0,class
+0336860AR,Styphnolobium japonicum 'Dot',False,C\ Antonio Machado,5.69,4.85,ok,,medium,430510.2,4588340.1,430511.0,4588334.47,1.0,class
+0336861AR,Styphnolobium japonicum 'Dot',False,C\ Antonio Machado,5.45,4.62,ok,,medium,430522.29,4588346.13,430524.72,4588341.25,1.0,class
+0336862AR,Styphnolobium japonicum 'Dot',False,C\ Antonio Machado,5.46,4.63,ok,,medium,430529.07,4588349.51,430531.51,4588344.62,1.0,class
+0336863AR,Styphnolobium japonicum 'Dot',False,C\ Antonio Machado,7.5,6.71,ok,,large,430606.36,4588361.46,430603.01,4588368.18,1.5,class
+0336864AR,Styphnolobium japonicum 'Dot',False,C\ Antonio Machado,7.52,6.7,ok,,large,430599.75,4588358.17,430596.39,4588364.9,1.5,class
+0336865AR,Styphnolobium japonicum 'Dot',False,C\ Antonio Machado,7.48,6.66,ok,,large,430616.0,4588366.27,430612.66,4588372.97,1.5,class
+0336866AR,Styphnolobium japonicum 'Dot',False,C\ Antonio Machado,5.85,5.03,ok,,medium,430519.64,4588317.5,430517.03,4588322.73,1.0,class
+0336867AR,Styphnolobium japonicum 'Dot',False,C\ Antonio Machado,5.83,5.02,ok,,medium,430526.47,4588320.91,430523.87,4588326.12,1.0,class
+0336868AR,Styphnolobium japonicum 'Dot',False,C\ Antonio Machado,5.81,5.01,ok,,medium,430533.13,4588324.23,430530.54,4588329.43,1.0,class
+0336869AR,Styphnolobium japonicum 'Dot',False,C\ Antonio Machado,5.79,4.97,ok,,medium,430539.79,4588327.55,430537.2,4588332.73,1.0,class
+0336870AR,Firmiana simplex,False,C\ Antonio Machado,5.87,5.03,ok,,medium,430512.84,4588314.11,430510.23,4588319.36,1.0,class
+0336872AR,Styphnolobium japonicum 'Dot',False,C\ Antonio Machado,5.44,4.67,ok,,medium,430515.52,4588342.75,430517.94,4588337.88,1.0,class
+0336873AR,Ginkgo biloba 'Fastigiata Blagon',False,C\ Antonio Machado,7.43,4.73,ok,,large,430552.41,4588361.08,430555.66,4588354.4,1.5,class
+0336874AR,Ginkgo biloba 'Fastigiata Blagon',False,C\ Miguel Hernández,3.1,2.26,ok,,small,430559.2,4588390.21,430557.83,4588392.99,1.0,class
+0336875AR,Ginkgo biloba 'Fastigiata Blagon',False,C\ Miguel Hernández,3.1,2.28,ok,,small,430565.57,4588393.37,430564.19,4588396.15,1.0,class
+0336876AR,Ginkgo biloba 'Fastigiata Blagon',False,C\ Miguel Hernández,3.47,2.54,ok,,small,430554.05,4588387.66,430551.27,4588389.74,1.0,class
+0336877AR,Ginkgo biloba 'Fastigiata Blagon',False,C\ Miguel Hernández,3.42,2.5,ok,,small,430537.02,4588379.2,430536.95,4588382.62,1.0,class
+0336878AR,Ginkgo biloba 'Fastigiata Blagon',False,C\ Miguel Hernández,3.09,2.28,ok,,small,430525.48,4588373.47,430524.11,4588376.24,1.0,class
+0336879AR,Ginkgo biloba 'Fastigiata Blagon',False,C\ Miguel Hernández,3.09,2.27,ok,,small,430531.79,4588376.61,430530.42,4588379.37,1.0,class
+0336880AR,Ginkgo biloba 'Fastigiata Blagon',False,C\ Antonio Machado,3.91,3.1,ok,,medium,430576.29,4588371.24,430578.03,4588367.73,1.0,class
+0336881AR,Ginkgo biloba 'Fastigiata Blagon',False,C\ Antonio Machado,3.93,3.11,ok,,medium,430569.59,4588367.93,430571.33,4588364.4,1.0,class
+0336882AR,Ginkgo biloba 'Fastigiata Blagon',False,C\ Antonio Machado,4.06,3.2,ok,,medium,430564.98,4588365.65,430565.87,4588361.69,1.0,class
+0336883AR,Ginkgo biloba 'Fastigiata Blagon',False,C\ Antonio Machado,3.96,3.15,ok,,medium,430536.4,4588351.47,430538.16,4588347.93,1.0,class
+0336884AR,Ginkgo biloba 'Fastigiata Blagon',False,C\ Antonio Machado,3.95,3.13,ok,,medium,430545.23,4588355.85,430546.98,4588352.31,1.0,class
+0336885AR,Ginkgo biloba 'Fastigiata Blagon',False,C\ Antonio Machado,5.78,4.95,ok,,medium,430546.61,4588330.95,430544.03,4588336.12,1.0,class
+0336886AR,Ginkgo biloba 'Fastigiata Blagon',False,C\ Antonio Machado,5.76,4.95,ok,,medium,430553.2,4588334.24,430550.63,4588339.39,1.0,class
+0336887AR,Ginkgo biloba 'Fastigiata Blagon',False,C\ Antonio Machado,13.65,6.55,ok,,large,430556.23,4588335.75,430559.71,4588348.94,1.5,class
+0336888AR,Celtis australis,False,C\ Miguel Hernández,16.13,9.2,ok,,large,430591.91,4588404.77,430602.15,4588417.24,1.5,class
+0336889AR,Celtis australis,False,C\ Miguel Hernández,4.6,3.78,ok,,medium,430585.93,4588401.81,430583.89,4588405.92,1.0,class
+0336890AR,Celtis australis,False,C\ Miguel Hernández,4.71,3.85,ok,,medium,430591.91,4588404.77,430590.76,4588409.34,1.0,class
+0336891AR,Celtis australis,False,C\ Miguel Hernández,4.59,3.78,ok,,medium,430572.54,4588395.17,430570.5,4588399.28,1.0,class
+0336892AR,Celtis australis,False,C\ Miguel Hernández,4.59,3.77,ok,,medium,430579.26,4588398.5,430577.22,4588402.61,1.0,class
+0336893AR,Tipuana tipu,False,C\ Federico García Lorca,7.26,5.6,ok,,large,430501.78,4588351.79,430497.15,4588346.2,1.5,class
+0336894AR,Jacaranda mimosifolia,False,C\ Miguel Hernández,21.57,15.48,ok,,large,430596.37,4588400.78,430611.68,4588415.98,1.5,class
+0336895AR,Platanus × acerifolia,True,Rda Guineueta Vella,28.78,25.41,ok,,large,430569.16,4588420.64,430595.05,4588433.19,1.5,class
+0337332AR,Carpinus betulus,False,C\ Federico García Lorca,,13.53,median,13.82,check,,,,,1.0,floor
+0347032AR,Celtis australis,False,C\ Federico García Lorca,6.73,5.25,ok,,large,430344.51,4588411.63,430347.42,4588405.56,1.5,class
+0347033AR,Celtis australis,False,C\ Federico García Lorca,6.42,5.27,ok,,large,430357.07,4588417.65,430359.85,4588411.86,1.5,class

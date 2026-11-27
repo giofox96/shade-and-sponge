@@ -1,0 +1,246 @@
+tree_id,species,is_plane,street,width_m,facade_dist_m,flag,strip_width_m,size_class,ray_x0,ray_y0,ray_x1,ray_y1,pit_min_m2,pit_basis
+0004220AR,Pinus pinea,False,C\ Elisa Moragas i Badia,,13.33,median,,check,,,,,1.0,floor
+0074356AR,Celtis australis,False,Pl Pep Ventura,,13.67,median,,check,,,,,1.0,floor
+0074357AR,Acer saccharinum,False,Camí Pantà,7.32,6.34,ok,,large,424625.7,4585504.02,424632.5,4585506.74,1.5,class
+0074358AR,Styphnolobium japonicum,False,C\ Turó,4.05,3.93,ok,,medium,425052.07,4584946.86,425056.08,4584946.26,1.0,class
+0074360AR,Celtis australis,False,Pl Vallvidrera,5.73,4.48,ok,,medium,425182.37,4584992.77,425178.31,4584996.82,1.0,class
+0074362AR,Celtis australis,False,Ctra Sarrià a Vallvidrera,3.68,2.85,ok,,medium,425142.65,4584934.28,425146.11,4584935.53,1.0,class
+0074364AR,Pinus pinea,False,Pl Pins de Vallvidrera,,25.21,median,,check,,,,,1.0,floor
+0074365AR,Celtis australis,False,Pl Vallvidrera,5.59,4.09,ok,,medium,425155.37,4584967.75,425151.62,4584971.9,1.0,class
+0074366AR,Celtis australis,False,Pl Pep Ventura,,16.21,median,,check,,,,,1.0,floor
+0074367AR,Celtis australis,False,Pl Vallvidrera,3.18,2.99,ok,,small,425144.82,4584997.46,425146.96,4584995.11,1.0,class
+0074369AR,Robinia pseudoacacia 'Bessoniana',False,Camí Pantà,,9.24,median,,check,,,,,1.0,floor
+0074370AR,Acer saccharinum,False,Camí Pantà,7.17,6.16,ok,,large,424626.14,4585495.35,424633.31,4585495.5,1.5,class
+0074371AR,Acer saccharinum,False,Camí Pantà,7.91,5.63,ok,,large,424622.91,4585554.78,424628.43,4585549.12,1.5,class
+0074372AR,Styphnolobium japonicum,False,Pl Pins de Vallvidrera,,20.03,median,20.9,check,,,,,1.0,floor
+0074373AR,Robinia pseudoacacia 'Bessoniana',False,Camí Pantà,,6.25,median,6.35,check,,,,,1.0,floor
+0074374AR,Celtis australis,False,Pl Vallvidrera,5.9,4.53,ok,,medium,425180.29,4584990.68,425176.11,4584994.84,1.0,class
+0074376AR,Celtis australis,False,Ctra Sarrià a Vallvidrera,3.73,2.91,ok,,medium,425147.3,4584921.29,425150.82,4584922.51,1.0,class
+0074377AR,Acer negundo,False,Camí Sant Cugat,1.52,1.36,ok,,none,426237.5,4585917.54,426236.3,4585916.61,1.0,floor
+0074378AR,Acer campestre 'Pyramidale',False,Camí Pantà,13.35,11.66,ok,,large,424555.63,4585657.28,424553.08,4585670.39,1.5,class
+0074380AR,Celtis australis,False,C\ Queralt,,9.33,median,,check,,,,,1.0,floor
+0074382AR,Celtis australis,False,Pl Vallvidrera,5.95,4.75,ok,,medium,425171.31,4584982.2,425167.31,4584986.59,1.0,class
+0074383AR,Celtis australis,False,Pl Pep Ventura,,17.83,median,40.47,check,,,,,1.0,floor
+0074384AR,Celtis australis,False,C\ Queralt,,10.83,median,,check,,,,,1.0,floor
+0074385AR,Celtis australis,False,Pl Vallvidrera,3.41,3.48,ok,,small,425161.99,4585012.8,425164.12,4585010.12,1.0,class
+0074386AR,Acer saccharinum,False,Camí Pantà,13.78,10.68,ok,,large,424622.91,4585554.78,424629.19,4585542.52,1.5,class
+0074387AR,Acer saccharinum,False,Camí Pantà,15.59,11.56,ok,,large,424620.57,4585567.5,424625.84,4585582.17,1.5,class
+0074389AR,Robinia pseudoacacia,False,Camí Sant Cugat,4.29,4.92,ok,,medium,426193.4,4585952.66,426189.39,4585951.13,1.0,class
+0074390AR,Celtis australis,False,Pl Pep Ventura,,20.21,median,37.47,check,,,,,1.0,floor
+0074391AR,Acer saccharinum,False,Camí Pantà,12.28,9.46,ok,,large,424627.09,4585530.52,424629.18,4585542.62,1.5,class
+0074392AR,Tilia x euchlora,False,Pl Pep Ventura,,7.82,median,,check,,,,,1.0,floor
+0074393AR,Acer saccharinum,False,Camí Pantà,3.95,3.03,ok,,medium,424575.92,4585633.19,424577.06,4585636.97,1.0,class
+0074395AR,Robinia pseudoacacia,False,Camí Pantà,20.79,19.85,ok,,large,424604.91,4585594.26,424625.67,4585595.39,1.5,class
+0074396AR,Celtis australis,False,Pl Pep Ventura,,18.81,median,39.0,check,,,,,1.0,floor
+0074397AR,Styphnolobium japonicum,False,Pl Pins de Vallvidrera,,20.08,median,16.68,check,,,,,1.0,floor
+0074398AR,Celtis australis,False,Pl Vallvidrera,2.44,1.74,ok,,none,425136.64,4584967.97,425139.07,4584967.75,1.0,floor
+0074399AR,Celtis australis,False,Ctra Sarrià a Vallvidrera,3.43,2.64,ok,,small,425150.41,4584870.35,425153.43,4584868.74,1.0,class
+0074400AR,Robinia pseudoacacia 'Bessoniana',False,Camí Pantà,7.39,6.22,ok,,large,424585.96,4585618.57,424591.64,4585623.3,1.5,class
+0074401AR,Celtis australis,False,Pl Vallvidrera,3.44,3.01,ok,,small,425149.36,4585001.59,425151.68,4584999.05,1.0,class
+0074402AR,Styphnolobium japonicum,False,C\ Turó,5.6,5.42,ok,,medium,425034.98,4584987.25,425036.24,4584992.71,1.0,class
+0074403AR,Magnolia grandiflora,False,C\ Queralt,4.71,2.95,ok,,medium,425246.94,4585124.41,425242.84,4585122.09,1.0,class
+0074404AR,Tilia x europaea,False,Pl Pep Ventura,,11.09,median,,check,,,,,1.0,floor
+0074405AR,Robinia pseudoacacia,False,Camí Sant Cugat,1.16,1.43,ok,,none,426239.56,4585914.01,426238.52,4585913.51,1.0,floor
+0074407AR,Celtis australis,False,Ctra Sarrià a Vallvidrera,4.38,3.19,ok,,medium,425154.59,4584895.66,425158.94,4584896.14,1.0,class
+0074408AR,Celtis australis,False,Pl Vallvidrera,5.89,4.65,ok,,medium,425168.18,4584979.35,425164.22,4584983.7,1.0,class
+0074409AR,Tilia x europaea,False,Pl Pep Ventura,2.97,3.91,ok,,small,425206.84,4585102.65,425208.23,4585105.27,1.0,class
+0074410AR,Acer saccharinum,False,Camí Pantà,5.67,4.74,ok,,medium,424620.76,4585566.47,424626.34,4585567.5,1.0,class
+0074411AR,Styphnolobium japonicum,False,C\ Turó,3.36,3.27,ok,,small,425037.12,4584982.03,425040.23,4584983.31,1.0,class
+0074412AR,Tilia x europaea,False,Pl Pep Ventura,2.94,3.77,ok,,small,425194.24,4585109.31,425195.61,4585111.91,1.0,class
+0074413AR,Acer saccharinum,False,Camí Pantà,4.49,3.66,ok,,medium,424626.83,4585522.99,424631.31,4585522.83,1.0,class
+0074415AR,Celtis australis,False,Pl Vallvidrera,6.0,4.89,ok,,medium,425174.25,4584984.87,425170.21,4584989.31,1.0,class
+0074416AR,Robinia pseudoacacia 'Bessoniana',False,Camí Pantà,7.3,6.27,ok,,large,424538.59,4585680.8,424545.89,4585681.06,1.5,class
+0074417AR,Celtis australis,False,Pl Pep Ventura,,13.25,median,,check,,,,,1.0,floor
+0074418AR,Celtis australis,False,Ctra Sarrià a Vallvidrera,3.51,2.93,ok,,medium,425139.12,4584944.74,425142.47,4584945.81,1.0,class
+0074420AR,Robinia pseudoacacia,False,Camí Sant Cugat,3.2,3.65,ok,,small,426169.4,4585960.76,426169.49,4585957.55,1.0,class
+0074421AR,Tilia x euchlora,False,Pl Pep Ventura,2.95,3.74,ok,,small,425200.32,4585106.09,425201.7,4585108.71,1.0,class
+0074422AR,Celtis australis,False,Pl Vallvidrera,3.67,3.06,ok,,medium,425155.53,4585007.2,425158.21,4585004.7,1.0,class
+0074423AR,Acer saccharinum,False,Camí Pantà,15.16,14.39,ok,,large,424604.91,4585594.26,424618.36,4585601.27,1.5,class
+0074424AR,Celtis australis,False,Pl Vallvidrera,3.56,3.02,ok,,medium,425152.79,4585004.71,425155.18,4585002.07,1.0,class
+0074425AR,Acer saccharinum,False,Camí Pantà,4.91,3.67,ok,,medium,424622.76,4585555.61,424627.59,4585556.5,1.0,class
+0074426AR,Acer saccharinum,False,Camí Pantà,17.83,16.96,ok,,large,424604.91,4585594.26,424622.29,4585598.25,1.5,class
+0074428AR,Acer saccharinum,False,Camí Pantà,6.21,4.57,ok,,large,424627.09,4585530.52,424629.94,4585536.03,1.5,class
+0074429AR,Celtis australis,False,C\ Queralt,,10.66,median,,check,,,,,1.0,floor
+0074430AR,Robinia pseudoacacia 'Bessoniana',False,Camí Pantà,3.73,2.87,ok,,medium,424577.69,4585630.9,424580.64,4585633.17,1.0,class
+0074431AR,Celtis australis,False,C\ Queralt,,10.68,median,,check,,,,,1.0,floor
+0074432AR,Celtis australis,False,C\ Queralt,,10.12,median,,check,,,,,1.0,floor
+0074434AR,Styphnolobium japonicum,False,Camí Pantà,3.36,2.63,ok,,small,424558.96,4585655.72,424561.39,4585658.05,1.0,class
+0074435AR,Celtis australis,False,C\ Queralt,14.1,10.09,ok,,large,425251.0,4585131.98,425238.57,4585138.64,1.5,class
+0074436AR,Acer campestre 'Pyramidale',False,Camí Pantà,20.61,19.74,ok,,large,424605.3,4585590.19,424625.9,4585589.62,1.5,class
+0074437AR,Celtis australis,False,Pl Vallvidrera,3.16,2.37,ok,,small,425147.91,4584961.01,425145.79,4584963.36,1.0,class
+0074438AR,Celtis australis,False,Pl Pep Ventura,,12.89,median,,check,,,,,1.0,floor
+0074439AR,Robinia pseudoacacia 'Bessoniana',False,Camí Pantà,8.67,7.7,ok,,large,424555.63,4585657.28,424556.07,4585665.94,1.5,class
+0074440AR,Robinia pseudoacacia 'Bessoniana',False,Camí Pantà,11.38,10.82,ok,,large,424541.25,4585667.77,424551.47,4585672.77,1.5,class
+0074441AR,Celtis australis,False,Pl Vallvidrera,5.82,4.56,ok,,medium,425165.19,4584976.64,425161.28,4584980.95,1.0,class
+0074442AR,Crataegus x media 'Paul's Scarlet',False,C\ Queralt,15.26,1.39,ok,,large,425251.86,4585133.57,425238.41,4585140.78,1.5,class
+0074443AR,Tilia x euchlora,False,Pl Pep Ventura,,7.73,median,,check,,,,,1.0,floor
+0074444AR,Tilia x europaea,False,Pl Pep Ventura,2.99,3.77,ok,,small,425217.69,4585096.92,425219.09,4585099.56,1.0,class
+0074445AR,Styphnolobium japonicum,False,Pl Pins de Vallvidrera,,27.33,median,16.24,check,,,,,1.0,floor
+0074446AR,Robinia pseudoacacia 'Bessoniana',False,Camí Pantà,13.82,13.1,ok,,large,424601.92,4585596.7,424610.66,4585607.41,1.5,class
+0074447AR,Celtis australis,False,Pl Vallvidrera,5.67,4.22,ok,,medium,425158.93,4584970.98,425155.13,4584975.19,1.0,class
+0074448AR,Robinia pseudoacacia,False,C\ Queralt,8.73,6.87,ok,,large,425235.26,4585102.34,425229.12,4585096.13,1.5,class
+0074449AR,Celtis australis,False,Ctra Sarrià a Vallvidrera,3.81,2.67,ok,,medium,425148.94,4584916.54,425152.54,4584917.78,1.0,class
+0074451AR,Styphnolobium japonicum,False,Pl Pins de Vallvidrera,,28.86,median,17.37,check,,,,,1.0,floor
+0074453AR,Acer saccharinum,False,Camí Pantà,8.13,7.58,ok,,large,424628.38,4585463.68,424635.36,4585467.84,1.5,class
+0074454AR,Prunus cerasifera,False,Pl Pins de Vallvidrera,,18.08,median,26.44,check,,,,,1.0,floor
+0074456AR,Robinia pseudoacacia,False,C\ Queralt,2.72,2.05,ok,,small,425235.26,4585102.34,425232.55,4585102.62,1.0,class
+0074458AR,Acer saccharinum,False,Camí Pantà,22.43,17.3,ok,,large,424620.57,4585567.5,424625.9,4585589.28,1.5,class
+0074460AR,Celtis australis,False,Ctra Sarrià a Vallvidrera,3.67,2.76,ok,,medium,425145.72,4584925.82,425149.17,4584927.07,1.0,class
+0074461AR,Styphnolobium japonicum,False,Camí Pantà,16.27,12.88,ok,,large,424575.92,4585633.19,424568.67,4585647.75,1.5,class
+0074462AR,Acer saccharinum,False,Camí Pantà,8.74,7.58,ok,,large,424626.5,4585475.65,424634.54,4585479.07,1.5,class
+0074463AR,Celtis australis,False,Pl Pep Ventura,,14.85,median,,check,,,,,1.0,floor
+0074464AR,Robinia pseudoacacia,False,Camí Sant Cugat,3.56,4.05,ok,,medium,426203.81,4585946.66,426202.04,4585943.58,1.0,class
+0074465AR,Styphnolobium japonicum,False,Camí Pantà,5.6,4.88,ok,,medium,424556.33,4585656.95,424558.71,4585662.03,1.0,class
+0074466AR,Robinia pseudoacacia,False,C\ Queralt,,9.47,median,21.98,check,,,,,1.0,floor
+0074468AR,Celtis australis,False,Pl Pep Ventura,,9.17,median,,check,,,,,1.0,floor
+0074469AR,Quercus ilex,False,Pl Pep Ventura,,15.73,median,,check,,,,,1.0,floor
+0074470AR,Robinia pseudoacacia 'Bessoniana',False,Camí Pantà,4.56,3.69,ok,,medium,424580.55,4585627.18,424584.54,4585629.38,1.0,class
+0074471AR,Celtis australis,False,Pl Pep Ventura,,14.31,median,,check,,,,,1.0,floor
+0074473AR,Celtis australis,False,Ctra Sarrià a Vallvidrera,3.67,2.78,ok,,medium,425143.71,4584931.37,425147.16,4584932.62,1.0,class
+0074474AR,Celtis australis,False,C\ Queralt,2.44,1.6,ok,,none,425213.26,4585086.1,425215.4,4585084.93,1.0,floor
+0074475AR,Styphnolobium japonicum,False,C\ Turó,7.51,7.36,ok,,large,425041.2,4584962.08,425048.18,4584964.83,1.5,class
+0074476AR,Styphnolobium japonicum,False,Pl Pins de Vallvidrera,,27.37,median,16.39,check,,,,,1.0,floor
+0074478AR,Celtis australis,False,C\ Queralt,,10.48,median,,check,,,,,1.0,floor
+0074480AR,Robinia pseudoacacia 'Bessoniana',False,Camí Pantà,10.29,7.62,ok,,large,424575.92,4585633.19,424572.41,4585642.86,1.5,class
+0074481AR,Tilia x europaea,False,Pl Pep Ventura,2.98,3.81,ok,,small,425212.4,4585099.71,425213.79,4585102.34,1.0,class
+0074483AR,Tilia x europaea,False,Pl Pep Ventura,,8.26,median,,check,,,,,1.0,floor
+0074484AR,Celtis australis,False,Ctra Sarrià a Vallvidrera,3.89,2.78,ok,,medium,425150.78,4584911.24,425154.46,4584912.52,1.0,class
+0074485AR,Pinus pinea,False,Pl Vallvidrera,,12.34,median,4.32,check,,,,,1.0,floor
+0074486AR,Celtis australis,False,Pl Vallvidrera,5.75,4.5,ok,,medium,425162.01,4584973.76,425158.16,4584978.02,1.0,class
+0074489AR,Celtis australis,False,Ctra Sarrià a Vallvidrera,4.42,3.98,ok,,medium,425154.47,4584883.19,425158.85,4584882.55,1.0,class
+0074490AR,Tilia x europaea,False,Pl Pep Ventura,,3.98,median,27.63,check,,,,,1.0,floor
+0074491AR,Celtis australis,False,Pl Pep Ventura,,13.75,median,,check,,,,,1.0,floor
+0074492AR,Celtis australis,False,Pl Pep Ventura,,15.46,median,,check,,,,,1.0,floor
+0074493AR,Celtis australis,False,Ctra Sarrià a Vallvidrera,3.97,2.78,ok,,medium,425153.77,4584878.38,425157.69,4584877.8,1.0,class
+0074494AR,Pinus pinea,False,Pl Pins de Vallvidrera,,21.49,median,7.49,check,,,,,1.0,floor
+0074495AR,Celtis australis,False,Camí Sant Cugat,27.11,4.56,ok,,large,426242.75,4585902.19,426233.01,4585876.89,1.5,class
+0074496AR,Celtis australis,False,Pl Vallvidrera,20.97,10.71,ok,,large,425136.7,4584968.59,425148.02,4584986.24,1.5,class
+0074497AR,Quercus robur 'Fastigiata',False,C\ Casetes,9.7,7.02,ok,,large,425057.52,4584910.07,425059.22,4584919.62,1.5,class
+0074498AR,Robinia pseudoacacia 'Bessoniana',False,Camí Pantà,6.62,5.85,ok,,large,424538.59,4585680.8,424542.44,4585686.18,1.5,class
+0074499AR,Robinia pseudoacacia 'Bessoniana',False,Camí Pantà,11.42,10.01,ok,,large,424538.59,4585680.8,424549.09,4585676.3,1.5,class
+0074501AR,Robinia pseudoacacia 'Bessoniana',False,Camí Pantà,9.97,8.97,ok,,large,424535.2,4585682.16,424538.91,4585691.41,1.5,class
+0074503AR,Celtis australis,False,Pl Pep Ventura,,7.99,median,29.42,check,,,,,1.0,floor
+0074504AR,Celtis australis,False,Ctra Sarrià a Vallvidrera,3.1,2.48,ok,,small,425137.57,4584950.47,425140.61,4584951.08,1.0,class
+0074505AR,Acer saccharinum,False,Camí Pantà,7.56,6.24,ok,,large,424626.8,4585522.15,424631.8,4585516.48,1.5,class
+0074506AR,Acer saccharinum,False,Camí Pantà,3.83,2.92,ok,,medium,424627.01,4585528.31,424630.84,4585528.18,1.0,class
+0074507AR,Robinia pseudoacacia,False,Camí Sant Cugat,1.17,1.17,ok,,none,426215.02,4585935.56,426214.31,4585934.63,1.0,floor
+0074508AR,Pinus pinea,False,Pl Pins de Vallvidrera,,23.38,median,,check,,,,,1.0,floor
+0074509AR,Acer saccharinum,False,Camí Pantà,9.6,8.49,ok,,large,424626.14,4585495.35,424633.75,4585489.5,1.5,class
+0074510AR,Celtis australis,False,Ctra Sarrià a Vallvidrera,4.12,2.89,ok,,medium,425153.95,4584900.47,425157.96,4584901.4,1.0,class
+0074512AR,Pinus pinea,False,Pl Pins de Vallvidrera,,35.47,no_facade,28.95,check,,,,,1.0,floor
+0074513AR,Magnolia grandiflora,False,C\ Queralt,3.6,2.37,ok,,medium,425242.29,4585115.6,425241.23,4585119.03,1.0,class
+0074515AR,Robinia pseudoacacia,False,Camí Sant Cugat,3.35,3.74,ok,,small,426194.67,4585951.93,426193.0,4585949.02,1.0,class
+0074516AR,Celtis australis,False,Pl Pep Ventura,,19.75,median,39.9,check,,,,,1.0,floor
+0074518AR,Celtis australis,False,C\ Queralt,,10.16,median,,check,,,,,1.0,floor
+0074520AR,Celtis australis,False,Ctra Sarrià a Vallvidrera,3.32,2.39,ok,,small,425148.06,4584865.93,425150.99,4584864.37,1.0,class
+0074521AR,Pinus pinea,False,Pl Pins de Vallvidrera,,33.53,no_facade,7.0,check,,,,,1.0,floor
+0074523AR,Celtis australis,False,Ctra Sarrià a Vallvidrera,4.5,3.56,ok,,medium,425154.9,4584891.09,425159.4,4584891.15,1.0,class
+0074525AR,Celtis australis,False,Pl Pep Ventura,,19.14,median,38.3,check,,,,,1.0,floor
+0074526AR,Acer negundo,False,Camí Sant Cugat,2.88,3.27,ok,,small,426148.57,4585963.34,426148.45,4585960.46,1.0,class
+0074527AR,Acer saccharinum,False,Camí Pantà,11.32,10.06,ok,,large,424625.7,4585504.02,424632.02,4585513.41,1.5,class
+0074528AR,Styphnolobium japonicum,False,C\ Turó,3.87,3.69,ok,,medium,425049.6,4584952.72,425052.11,4584955.66,1.0,class
+0074529AR,Celtis australis,False,Ctra Sarrià a Vallvidrera,3.86,2.24,ok,,medium,425152.71,4584905.62,425156.36,4584906.87,1.0,class
+0074530AR,Celtis australis,False,Pl Vallvidrera,5.33,3.06,ok,,medium,425151.69,4584964.43,425148.12,4584968.38,1.0,class
+0074531AR,Celtis australis,False,Pl Vallvidrera,6.03,4.69,ok,,large,425177.49,4584987.88,425173.22,4584992.14,1.5,class
+0074534AR,Magnolia grandiflora,False,C\ Queralt,2.57,1.53,ok,,small,425248.52,4585127.35,425246.25,4585128.56,1.0,class
+0074535AR,Acer saccharinum,False,Camí Pantà,13.82,13.08,ok,,large,424604.91,4585594.26,424614.41,4585604.31,1.5,class
+0074536AR,Acer saccharinum,False,Camí Pantà,5.29,4.21,ok,,medium,424621.76,4585561.04,424626.96,4585562.0,1.0,class
+0074537AR,Celtis australis,False,Pl Pep Ventura,,13.46,median,,check,,,,,1.0,floor
+0074538AR,Celtis australis,False,Pl Pep Ventura,,12.49,median,,check,,,,,1.0,floor
+0074539AR,Celtis australis,False,Ctra Sarrià a Vallvidrera,3.61,2.75,ok,,medium,425140.55,4584940.38,425143.98,4584941.51,1.0,class
+0074540AR,Styphnolobium japonicum,False,C\ Turó,,11.47,median,,check,,,,,1.0,floor
+0074541AR,Styphnolobium japonicum,False,Pl Pins de Vallvidrera,,28.32,median,21.82,check,,,,,1.0,floor
+0074542AR,Celtis australis,False,C\ Queralt,20.75,10.76,ok,,large,425252.61,4585134.98,425238.63,4585150.31,1.5,class
+0074543AR,Celtis australis,False,Pl Pep Ventura,,20.5,median,36.15,check,,,,,1.0,floor
+0074544AR,Pinus pinea,False,Pl Pins de Vallvidrera,14.05,13.57,ok,,large,424959.41,4584543.34,424946.91,4584549.76,1.5,class
+0074545AR,Pinus pinea,False,Pl Vallvidrera,8.6,5.38,ok,,large,425136.7,4584968.59,425142.14,4584975.25,1.5,class
+0271869AR,Platanus × acerifolia,True,C\ Elisa Moragas i Badia,6.51,2.62,ok,,large,425029.29,4585223.29,425027.3,4585217.09,1.5,class
+0271870AR,Platanus × acerifolia,True,C\ Elisa Moragas i Badia,,11.81,no_kerb,,check,,,,,1.0,floor
+0271878AR,Tipuana tipu,False,C\ Elisa Moragas i Badia,,6.54,no_kerb,,check,,,,,1.0,floor
+0271879AR,Platanus × acerifolia,True,C\ Elisa Moragas i Badia,6.11,3.72,ok,,large,425025.85,4585229.55,425020.5,4585226.61,1.5,class
+0271883AR,Brachychiton populneus,False,C\ Actor Morano,,3.68,no_kerb,,check,,,,,1.0,floor
+0271890AR,Tipuana tipu,False,C\ Elisa Moragas i Badia,,7.04,no_kerb,,check,,,,,1.0,floor
+0271894AR,Brachychiton populneus,False,C\ Actor Morano,,3.99,no_kerb,,check,,,,,1.0,floor
+0271896AR,Platanus × acerifolia,True,C\ Elisa Moragas i Badia,,19.09,no_kerb,,check,,,,,1.0,floor
+0271900AR,Tipuana tipu,False,C\ Elisa Moragas i Badia,,5.73,median,,check,,,,,1.0,floor
+0271901AR,Platanus × acerifolia,True,C\ Elisa Moragas i Badia,,18.75,no_kerb,,check,,,,,1.0,floor
+0271908AR,Brachychiton populneus,False,C\ Actor Morano,,3.75,no_kerb,,check,,,,,1.0,floor
+0271910AR,Pinus pinea,False,C\ Elisa Moragas i Badia,,23.52,median,,check,,,,,1.0,floor
+0271915AR,Brachychiton populneus,False,C\ Actor Morano,,4.11,no_kerb,,check,,,,,1.0,floor
+0271917AR,Brachychiton populneus,False,C\ Actor Morano,,3.94,no_kerb,,check,,,,,1.0,floor
+0271918AR,Pinus halepensis,False,C\ Elisa Moragas i Badia,,18.66,no_kerb,,check,,,,,1.0,floor
+0271919AR,Tipuana tipu,False,C\ Elisa Moragas i Badia,,5.01,no_kerb,,check,,,,,1.0,floor
+0271923AR,Tipuana tipu,False,C\ Elisa Moragas i Badia,,8.95,median,,check,,,,,1.0,floor
+0271924AR,Brachychiton populneus,False,C\ Actor Morano,,3.97,no_kerb,,check,,,,,1.0,floor
+0288762AR,Liquidambar styraciflua,False,Jrdi Baltasar Porcel,9.27,7.61,ok,,large,425094.78,4585087.35,425089.3,4585094.84,1.5,class
+0288763AR,Liquidambar styraciflua,False,Jrdi Baltasar Porcel,,15.05,no_kerb,,check,,,,,1.0,floor
+0288764AR,Acer saccharinum,False,Jrdi Baltasar Porcel,8.03,4.64,ok,,large,425097.31,4585089.21,425092.57,4585095.69,1.5,class
+0288765AR,Acer saccharinum,False,Jrdi Baltasar Porcel,12.39,9.2,ok,,large,425106.28,4585066.69,425097.06,4585058.4,1.5,class
+0288766AR,Acer saccharinum,False,Jrdi Baltasar Porcel,12.25,4.03,ok,,large,425106.17,4585066.81,425097.05,4585058.62,1.5,class
+0288767AR,Acer saccharinum,False,Jrdi Baltasar Porcel,,11.94,median,,check,,,,,1.0,floor
+0288768AR,Acer saccharinum,False,Jrdi Baltasar Porcel,,14.66,median,,check,,,,,1.0,floor
+0288769AR,Acer saccharinum,False,Jrdi Baltasar Porcel,,15.63,median,,check,,,,,1.0,floor
+0288770AR,Acer saccharinum,False,Jrdi Baltasar Porcel,,14.9,median,,check,,,,,1.0,floor
+0297014AR,Pinus pinea,False,Pl Pins de Vallvidrera,,26.84,median,16.27,check,,,,,1.0,floor
+0297015AR,Acer saccharinum,False,Jrdi Baltasar Porcel,,11.35,median,,check,,,,,1.0,floor
+0297016AR,Acer saccharinum,False,Jrdi Baltasar Porcel,,6.39,median,29.7,check,,,,,1.0,floor
+0302546AR,Quercus ilex,False,Pg Solé i Pla,21.28,10.86,ok,,large,423895.87,4586564.53,423901.62,4586585.02,1.5,class
+0302547AR,Quercus ilex,False,Pg Solé i Pla,24.14,14.11,ok,,large,423892.38,4586565.51,423898.9,4586588.76,1.5,class
+0302548AR,Quercus ilex,False,Pg Solé i Pla,24.25,12.33,ok,,large,423887.54,4586566.87,423894.09,4586590.22,1.5,class
+0302549AR,Quercus ilex,False,Pg Solé i Pla,20.04,11.03,ok,,large,423885.05,4586567.57,423885.05,4586587.61,1.5,class
+0309884AR,Celtis australis,False,Camí Sta Creu Olorda Vallvidrera,,22.06,median,6.57,check,,,,,1.0,floor
+0309885AR,Pinus halepensis,False,Camí Sta Creu Olorda Vallvidrera,,11.39,median,9.69,check,,,,,1.0,floor
+0309886AR,Pinus halepensis,False,Camí Sta Creu Olorda Vallvidrera,11.29,10.18,ok,,large,424819.08,4584604.09,424813.3,4584594.39,1.5,class
+0309888AR,Pinus halepensis,False,C\ Ginestera,10.13,9.81,ok,,large,424915.88,4584624.0,424925.4,4584627.47,1.5,class
+0309889AR,Pinus pinea,False,C\ Ginestera,2.68,2.08,ok,,small,424875.01,4584693.49,424876.35,4584695.82,1.0,class
+0309890AR,Quercus ilex,False,C\ Elisa Moragas i Badia,,14.51,median,,check,,,,,1.0,floor
+0309891AR,Celtis australis,False,C\ Algarves,,2.41,no_kerb,,check,,,,,1.0,floor
+0309892AR,Celtis australis,False,C\ Algarves,,3.24,no_kerb,,check,,,,,1.0,floor
+0309893AR,Celtis australis,False,C\ Algarves,,5.57,no_kerb,,check,,,,,1.0,floor
+0309894AR,Celtis australis,False,C\ Algarves,,4.89,no_kerb,,check,,,,,1.0,floor
+0309895AR,Celtis australis,False,C\ Algarves,,4.76,no_kerb,,check,,,,,1.0,floor
+0309896AR,Celtis australis,False,C\ Algarves,,4.7,no_kerb,,check,,,,,1.0,floor
+0309897AR,Celtis australis,False,C\ Algarves,,4.85,no_kerb,,check,,,,,1.0,floor
+0309898AR,Celtis australis,False,C\ Algarves,,5.98,no_kerb,,check,,,,,1.0,floor
+0309899AR,Celtis australis,False,C\ Algarves,,5.29,no_kerb,,check,,,,,1.0,floor
+0309900AR,Celtis australis,False,C\ Algarves,,3.4,no_kerb,,check,,,,,1.0,floor
+0309901AR,Celtis australis,False,C\ Algarves,,2.17,no_kerb,,check,,,,,1.0,floor
+0309902AR,Celtis australis,False,C\ Algarves,,4.88,no_kerb,,check,,,,,1.0,floor
+0309903AR,Celtis australis,False,C\ Algarves,,2.96,no_kerb,,check,,,,,1.0,floor
+0309904AR,Robinia pseudoacacia,False,Camí Sant Cugat,,3.11,median,5.34,check,,,,,1.0,floor
+0315904AR,Schinus molle,False,C\ Navarro i Reverter,7.53,5.89,ok,,large,425314.13,4585299.68,425311.8,4585292.52,1.5,class
+0315905AR,Schinus molle,False,C\ Navarro i Reverter,,11.58,median,,check,,,,,1.0,floor
+0315906AR,Schinus molle,False,C\ Navarro i Reverter,11.06,8.86,ok,,large,425314.13,4585299.68,425315.52,4585288.71,1.5,class
+0315907AR,Schinus molle,False,C\ Navarro i Reverter,6.66,5.39,ok,,large,425312.89,4585300.96,425308.1,4585296.34,1.5,class
+0315909AR,Robinia pseudoacacia,False,C\ Navarro i Reverter,,6.95,median,10.69,check,,,,,1.0,floor
+0315915AR,Robinia pseudoacacia,False,C\ Navarro i Reverter,,5.25,no_kerb,27.33,check,,,,,1.0,floor
+0315916AR,Robinia pseudoacacia,False,C\ Navarro i Reverter,27.53,4.84,ok,,large,425281.1,4585295.62,425261.65,4585315.1,1.5,class
+0315917AR,Robinia pseudoacacia,False,C\ Navarro i Reverter,29.1,4.01,ok,,large,425279.41,4585293.93,425258.85,4585314.53,1.5,class
+0315919AR,Pyrus calleryana 'Chanticleer',False,C\ Navarro i Reverter,3.04,2.11,ok,,small,425278.35,4585290.86,425276.15,4585288.76,1.0,class
+0315920AR,Robinia pseudoacacia,False,C\ Navarro i Reverter,4.24,3.44,ok,,medium,425280.09,4585289.03,425277.02,4585286.11,1.0,class
+0315922AR,Robinia pseudoacacia,False,C\ Navarro i Reverter,,5.79,no_kerb,28.08,check,,,,,1.0,floor
+0315923AR,Cercis siliquastrum,False,C\ Navarro i Reverter,17.06,11.81,ok,,large,425286.06,4585305.93,425273.49,4585317.47,1.5,class
+0315924AR,Robinia pseudoacacia,False,C\ Navarro i Reverter,19.0,10.54,ok,,large,425284.26,4585303.97,425270.26,4585316.82,1.5,class
+0315926AR,Quercus ilex,False,C\ Navarro i Reverter,27.9,9.24,ok,,large,425264.43,4585303.32,425291.87,4585308.36,1.5,class
+0315927AR,Cercis siliquastrum,False,C\ Navarro i Reverter,29.86,7.28,ok,,large,425264.96,4585300.46,425294.32,4585305.86,1.5,class
+0315930AR,Robinia pseudoacacia,False,C\ Navarro i Reverter,,4.02,no_kerb,,check,,,,,1.0,floor
+0318558AR,Ficus carica,False,Pg Solé i Pla,,6.91,median,3.83,check,,,,,1.0,floor
+0318559AR,Quercus robur,False,Pg Solé i Pla,,8.77,median,7.25,check,,,,,1.0,floor
+0318560AR,Robinia pseudoacacia,False,Pg Solé i Pla,,5.56,median,9.31,check,,,,,1.0,floor
+0318561AR,Robinia pseudoacacia,False,Pg Solé i Pla,,3.29,median,4.94,check,,,,,1.0,floor
+0318562AR,Cupressus sempervirens,False,Pg Solé i Pla,,7.21,median,8.84,check,,,,,1.0,floor
+0318563AR,Cupressus sempervirens,False,Pg Solé i Pla,3.41,4.21,ok,,small,423889.6,4586540.99,423887.13,4586543.34,1.0,class
+0318564AR,Cupressus sempervirens,False,Pg Solé i Pla,3.39,1.61,ok,,small,423891.22,4586542.69,423888.76,4586545.03,1.0,class
+0322018AR,Acer negundo,False,Camí Sant Cugat,1.2,1.37,ok,,none,426218.35,4585933.01,426217.62,4585932.06,1.0,floor
+0322019AR,Acer negundo,False,Camí Sant Cugat,1.24,1.41,ok,,none,426228.03,4585925.56,426227.28,4585924.58,1.0,floor
+0322020AR,Robinia pseudoacacia,False,Camí Sant Cugat,1.33,1.4,ok,,none,426232.56,4585922.08,426231.75,4585921.02,1.0,floor
+0333690AR,Platanus × acerifolia,True,Camí Pantà,,29.51,median,,check,,,,,1.0,floor
+0342190AR,Quercus cerrioides,False,C\ Avet,,17.47,median,,check,,,,,1.0,floor
+0342191AR,Quercus ilex,False,C\ Casafranca,5.73,3.59,ok,,medium,425348.82,4585321.42,425343.68,4585323.96,1.0,class
+0342193AR,Pinus halepensis,False,C\ Can Basseda,9.58,6.11,ok,,large,425629.65,4585503.37,425627.9,4585493.94,1.5,class
+0342194AR,Quercus ilex,False,C\ Gabriel Ferrater,9.26,7.55,ok,,large,425492.17,4585274.42,425499.04,4585268.2,1.5,class
+0342195AR,Populus nigra 'Italica',False,C\ Gabriel Ferrater,15.1,12.56,ok,,large,425492.17,4585274.42,425499.29,4585261.1,1.5,class
+0342196AR,Populus nigra,False,C\ Gabriel Ferrater,4.4,2.77,ok,,medium,425494.12,4585284.21,425498.43,4585283.35,1.0,class
+0342197AR,Populus nigra,False,C\ Can Basseda,5.03,4.3,ok,,medium,425524.06,4585279.24,425529.01,4585280.13,1.0,class
+0342250AR,Quercus ilex,False,Camí Múrgola,,18.3,no_kerb,,check,,,,,1.0,floor
+0346872AR,Quercus suber,False,T Rovelló,,33.14,no_facade,2.58,check,,,,,1.0,floor

@@ -1,0 +1,1021 @@
+tree_id,species,is_plane,street,width_m,facade_dist_m,flag,strip_width_m,size_class,ray_x0,ray_y0,ray_x1,ray_y1,pit_min_m2,pit_basis
+0053170AR,Grevillea robusta,False,C\ Las Chafarinas,9.68,8.59,ok,,large,431816.13,4588893.89,431825.1,4588897.54,1.5,class
+0053176AR,Grevillea robusta,False,C\ Las Chafarinas,6.62,5.89,ok,,large,431797.57,4588849.64,431803.72,4588847.19,1.5,class
+0053180AR,Grevillea robusta,False,C\ Las Chafarinas,6.61,6.05,ok,,large,431806.0,4588869.57,431812.1,4588867.03,1.5,class
+0053181AR,Grevillea robusta,False,C\ Las Chafarinas,6.55,5.83,ok,,large,431825.3,4588850.74,431819.25,4588853.24,1.5,class
+0053185AR,Grevillea robusta,False,C\ Las Chafarinas,10.98,10.07,ok,,large,431789.14,4588840.92,431799.28,4588836.69,1.5,class
+0053187AR,Grevillea robusta,False,C\ Las Chafarinas,6.44,5.63,ok,,large,431829.39,4588860.63,431823.44,4588863.09,1.5,class
+0053190AR,Grevillea robusta,False,C\ Las Chafarinas,6.35,5.25,ok,,large,431833.14,4588869.68,431827.27,4588872.11,1.5,class
+0053877AR,Platanus × acerifolia,True,C\ Aiguablava,7.81,2.12,ok,,large,431540.04,4588778.69,431544.47,4588772.25,1.5,class
+0053918AR,Melia azedarach,False,C\ Aiguablava,7.45,6.34,ok,,large,431563.2,4588818.35,431568.64,4588813.25,1.5,class
+0053919AR,Gleditsia triacanthos f. inermis,False,C\ Aiguablava,,41.37,no_facade,1.43,check,,,,,1.0,floor
+0053920AR,Styphnolobium japonicum,False,C\ Vila-real,,8.27,median,7.06,check,,,,,1.0,floor
+0053921AR,Celtis australis,False,C\ Las Chafarinas,20.83,11.63,ok,,large,431800.3,4588779.52,431780.1,4588784.59,1.5,class
+0053922AR,Celtis australis,False,C\ Las Chafarinas,11.19,9.0,ok,,large,431754.18,4588720.45,431765.37,4588720.11,1.5,class
+0053923AR,Ulmus pumila,False,C\ Aiguablava,7.29,3.89,ok,,large,431615.62,4588808.29,431608.96,4588811.24,1.5,class
+0053924AR,Jacaranda mimosifolia,False,C\ Fosca,8.93,7.18,ok,,large,431718.01,4588853.9,431726.93,4588853.3,1.5,class
+0053925AR,Celtis australis,False,C\ Aiguablava,8.65,7.8,ok,,large,432014.31,4589184.38,432022.72,4589182.37,1.5,class
+0053928AR,Gleditsia triacanthos,False,C\ Aiguablava,10.94,10.26,ok,,large,432039.33,4589164.43,432035.97,4589174.84,1.5,class
+0053929AR,Prunus serrulata 'Kanzan',False,C\ Las Chafarinas,6.22,3.41,ok,,large,431839.8,4588885.77,431834.05,4588888.15,1.5,class
+0053930AR,Cupressus sempervirens,False,C\ S'Agaró,,2.34,no_kerb,,check,,,,,1.0,floor
+0053931AR,Jacaranda mimosifolia,False,C\ Las Chafarinas,16.27,4.29,ok,,large,431838.42,4588946.71,431853.45,4588940.48,1.5,class
+0053933AR,Jacaranda mimosifolia,False,C\ Vila-real,,11.53,no_kerb,,check,,,,,1.0,floor
+0053934AR,Platanus × acerifolia,True,C\ Fenals,,8.3,median,4.38,check,,,,,1.0,floor
+0053936AR,Celtis australis,False,C\ Las Chafarinas,19.1,9.53,ok,,large,431804.66,4588796.89,431786.14,4588801.54,1.5,class
+0053937AR,Celtis australis,False,C\ Las Chafarinas,12.88,10.65,ok,,large,431751.06,4588706.38,431763.8,4588708.27,1.5,class
+0053938AR,Celtis australis,False,Via Favència,3.3,2.66,ok,,small,431953.07,4588696.99,431953.39,4588693.71,1.0,class
+0053939AR,Celtis australis,False,C\ Aiguablava,8.9,8.13,ok,,large,431800.82,4588983.48,431799.58,4588992.29,1.5,class
+0053940AR,Melia azedarach,False,C\ Aiguablava,12.22,6.29,ok,,large,431630.87,4588824.63,431618.91,4588822.11,1.5,class
+0053941AR,Celtis australis,False,Via Favència,8.14,7.35,ok,,large,431882.58,4588689.5,431889.92,4588685.98,1.5,class
+0053943AR,Celtis australis,False,Via Favència,11.36,10.15,ok,,large,431845.22,4588685.64,431855.84,4588681.59,1.5,class
+0053944AR,Prunus cerasifera 'Pissardii',False,C\ Palamós,3.28,2.7,ok,,small,431913.38,4588748.08,431916.59,4588747.45,1.0,class
+0053945AR,Celtis australis,False,C\ Aiguablava,,9.68,median,3.57,check,,,,,1.0,floor
+0053946AR,Albizia julibrissin,False,C\ Aiguablava,,7.49,median,4.76,check,,,,,1.0,floor
+0053947AR,Celtis australis,False,Via Favència,23.29,19.23,ok,,large,431952.58,4588696.94,431930.07,4588690.96,1.5,class
+0053949AR,Platanus × acerifolia,True,C\ Empúries,11.03,3.62,ok,,large,431630.22,4588749.08,431638.35,4588741.62,1.5,class
+0053950AR,Tipuana tipu,False,C\ Fenals,13.56,6.34,ok,,large,431685.56,4588699.55,431672.17,4588697.35,1.5,class
+0053953AR,Gleditsia triacanthos f. inermis,False,C\ Palamós,,7.75,median,1.39,check,,,,,1.0,floor
+0053954AR,Celtis australis,False,Via Favència,11.9,11.13,ok,,large,432064.68,4588716.85,432061.54,4588705.37,1.5,class
+0053955AR,Albizia julibrissin,False,C\ Aiguablava,5.12,4.07,ok,,medium,431974.45,4589083.93,431970.82,4589087.54,1.0,class
+0053961AR,Platanus × acerifolia,True,C\ Palamós,,12.03,no_kerb,,check,,,,,1.0,floor
+0053962AR,Corylus colurna,False,C\ Aiguablava,,4.25,median,19.89,check,,,,,1.0,floor
+0053963AR,Catalpa bignonioides,False,C\ Vall d'Aro,,6.67,no_kerb,,check,,,,,1.0,floor
+0053964AR,Populus nigra 'Italica',False,C\ Palamós,,15.68,median,3.49,check,,,,,1.0,floor
+0053966AR,Prunus cerasifera 'Pissardii',False,C\ Palamós,12.06,10.32,ok,,large,431915.31,4588757.9,431920.71,4588768.68,1.5,class
+0053967AR,Celtis australis,False,C\ Las Chafarinas,20.23,18.06,ok,,large,431763.89,4588796.77,431780.14,4588784.71,1.5,class
+0053969AR,Celtis sinensis,False,Pg Bosc de Roquetes,,16.09,median,,check,,,,,1.0,floor
+0053970AR,Gleditsia triacanthos f. inermis,False,C\ S'Agaró,7.6,5.96,ok,,large,432108.78,4588847.54,432111.61,4588840.48,1.5,class
+0053971AR,Styphnolobium japonicum,False,C\ Vila-real,,4.75,median,7.06,check,,,,,1.0,floor
+0053974AR,Melia azedarach,False,C\ Aiguablava,6.91,6.28,ok,,large,431735.49,4588923.08,431730.78,4588928.14,1.5,class
+0053976AR,Prunus cerasifera 'Pissardii',False,C\ Fosca,2.58,2.27,ok,,small,431760.48,4588849.1,431759.48,4588846.72,1.0,class
+0053977AR,Celtis sinensis,False,C\ Portlligat,,15.31,median,2.89,check,,,,,1.0,floor
+0053978AR,Jacaranda mimosifolia,False,C\ Vila-real,,19.62,median,23.79,check,,,,,1.0,floor
+0053979AR,Ostrya carpinifolia,False,Av Vallbona,,81.57,no_facade,12.94,check,,,,,1.0,floor
+0053980AR,Celtis sinensis,False,Pg Bosc de Roquetes,,29.52,median,10.74,check,,,,,1.0,floor
+0053981AR,Platanus × acerifolia,True,C\ Empúries,2.74,3.62,ok,,small,431651.57,4588733.29,431651.4,4588736.02,1.0,class
+0053983AR,Ulmus pumila,False,C\ Nou Barris,3.85,3.39,ok,,medium,431518.98,4588750.48,431515.81,4588748.29,1.0,class
+0053984AR,Ostrya carpinifolia,False,Av Vallbona,,81.1,no_facade,14.81,check,,,,,1.0,floor
+0053985AR,Celtis australis,False,C\ Aiguablava,11.74,11.11,ok,,large,431958.67,4589116.02,431968.54,4589109.66,1.5,class
+0053987AR,Platanus × acerifolia,True,C\ Palamós,,3.82,no_kerb,,check,,,,,1.0,floor
+0053988AR,Ulmus pumila,False,C\ Fosca,2.59,1.93,ok,,small,431744.7,4588855.72,431743.71,4588853.33,1.0,class
+0053990AR,Celtis australis,False,Via Favència,9.41,8.09,ok,,large,432026.86,4588704.68,432018.39,4588700.57,1.5,class
+0053992AR,Jacaranda mimosifolia,False,C\ Las Chafarinas,16.69,4.6,ok,,large,431840.17,4588951.84,431855.59,4588945.45,1.5,class
+0053995AR,Celtis australis,False,Via Favència,5.59,4.58,ok,,medium,432045.59,4588706.51,432050.54,4588703.91,1.0,class
+0053996AR,Celtis australis,False,C\ Aiguablava,,25.47,median,26.03,check,,,,,1.0,floor
+0053997AR,Celtis australis,False,Via Favència,6.44,5.86,ok,,large,431845.22,4588685.64,431849.42,4588680.75,1.5,class
+0053998AR,Gleditsia triacanthos f. inermis,False,C\ Aiguablava,17.44,7.29,ok,,large,431949.56,4589054.72,431950.61,4589072.14,1.5,class
+0054000AR,Celtis australis,False,Av Meridiana,,45.7,no_facade,1.87,check,,,,,1.0,floor
+0054001AR,Gleditsia triacanthos,False,C\ Aiguablava,,6.99,median,1.42,check,,,,,1.0,floor
+0054002AR,Celtis sinensis,False,Via Favència,,8.85,median,23.78,check,,,,,1.0,floor
+0054003AR,Ulmus pumila,False,C\ Nou Barris,7.67,6.58,ok,,large,431523.24,4588747.58,431525.53,4588740.26,1.5,class
+0054005AR,Celtis sinensis,False,Pg Bosc de Roquetes,10.48,9.77,ok,,large,431623.89,4589022.32,431630.93,4589030.09,1.5,class
+0054007AR,Platanus × acerifolia,True,C\ Garbí,,14.46,no_kerb,,check,,,,,1.0,floor
+0054008AR,Albizia julibrissin,False,C\ Aiguablava,,13.62,median,,check,,,,,1.0,floor
+0054009AR,Gleditsia triacanthos f. inermis,False,C\ Platja d'Aro,8.92,3.93,ok,,large,432099.78,4588895.23,432097.6,4588886.58,1.5,class
+0054010AR,Platanus × acerifolia,True,C\ Llosa,,23.42,no_kerb,,check,,,,,1.0,floor
+0054011AR,Celtis australis,False,C\ Las Chafarinas,23.2,13.46,ok,,large,431794.18,4588755.24,431771.12,4588752.64,1.5,class
+0054012AR,Platanus × acerifolia,True,C\ Palamós,,11.49,no_kerb,,check,,,,,1.0,floor
+0054013AR,Gleditsia triacanthos f. inermis,False,C\ Palamós,,15.41,median,3.48,check,,,,,1.0,floor
+0054015AR,Platanus × acerifolia,True,C\ Fenals,,14.63,median,4.97,check,,,,,1.0,floor
+0054017AR,Casuarina cunninghamiana,False,Via Favència,,14.69,median,23.74,check,,,,,1.0,floor
+0054018AR,Celtis australis,False,C\ Las Chafarinas,19.56,9.84,ok,,large,431784.46,4588716.25,431765.48,4588721.0,1.5,class
+0054019AR,Celtis australis,False,C\ Las Chafarinas,11.59,9.0,ok,,large,431753.6,4588688.94,431762.52,4588681.54,1.5,class
+0054020AR,Jacaranda mimosifolia,False,C\ Las Chafarinas,16.26,4.59,ok,,large,431829.76,4588926.76,431844.77,4588920.53,1.5,class
+0054022AR,Celtis australis,False,C\ Las Chafarinas,9.17,7.3,ok,,large,431753.6,4588688.94,431762.77,4588689.13,1.5,class
+0054023AR,Casuarina cunninghamiana,False,Via Favència,,28.01,median,23.2,check,,,,,1.0,floor
+0054024AR,Celtis sinensis,False,Pg Bosc de Roquetes,,21.27,median,7.03,check,,,,,1.0,floor
+0054026AR,Jacaranda mimosifolia,False,C\ Fosca,3.13,2.3,ok,,small,431709.6,4588857.85,431709.08,4588860.94,1.0,class
+0054028AR,Celtis australis,False,C\ S'Agaró,4.59,4.0,ok,,medium,432109.28,4588849.63,432113.78,4588848.72,1.0,class
+0054029AR,Celtis australis,False,Via Favència,,21.53,median,,check,,,,,1.0,floor
+0054031AR,Prunus cerasifera 'Pissardii',False,C\ Palamós,3.33,2.7,ok,,small,431932.52,4588748.83,431929.26,4588749.5,1.0,class
+0054032AR,Ostrya carpinifolia,False,Av Vallbona,,124.46,no_facade,15.78,check,,,,,1.0,floor
+0054033AR,Celtis australis,False,C\ Aiguablava,12.27,11.29,ok,,large,431978.04,4589137.21,431988.24,4589130.39,1.5,class
+0054036AR,Platanus × acerifolia,True,C\ Fenals,,12.93,median,4.26,check,,,,,1.0,floor
+0054037AR,Prunus cerasifera 'Pissardii',False,C\ Palamós,2.94,2.33,ok,,small,431914.93,4588754.15,431917.82,4588753.58,1.0,class
+0054038AR,Platanus × acerifolia,True,C\ Palamós,10.76,4.16,ok,,large,432107.85,4589345.25,432118.07,4589348.6,1.5,class
+0054039AR,Celtis australis,False,C\ Aiguablava,23.14,21.02,ok,,large,432014.31,4589184.38,432030.92,4589200.48,1.5,class
+0054040AR,Celtis sinensis,False,Pg Bosc de Roquetes,16.46,15.66,ok,,large,431635.12,4589012.16,431646.16,4589024.36,1.5,class
+0054041AR,Celtis sinensis,False,Pg Bosc de Roquetes,7.65,6.75,ok,,large,431610.12,4589032.95,431604.44,4589038.07,1.5,class
+0054042AR,Celtis sinensis,False,Via Favència,,10.69,median,21.79,check,,,,,1.0,floor
+0054043AR,Celtis sinensis,False,Pg Bosc de Roquetes,,29.92,median,2.82,check,,,,,1.0,floor
+0054047AR,Celtis australis,False,C\ S'Agaró,10.32,9.62,ok,,large,432089.69,4588795.49,432098.55,4588790.21,1.5,class
+0054048AR,Styphnolobium japonicum 'Columnare',False,C\ Pedrosa,,3.13,no_kerb,,check,,,,,1.0,floor
+0054049AR,Platanus × acerifolia,True,C\ Palamós,12.91,4.84,ok,,large,432111.46,4589334.55,432119.38,4589344.74,1.5,class
+0054050AR,Celtis australis,False,C\ Aiguablava,,8.57,median,2.86,check,,,,,1.0,floor
+0054053AR,Platanus × acerifolia,True,C\ Fenals,,10.53,median,,check,,,,,1.0,floor
+0054054AR,Albizia julibrissin,False,C\ Palamós,4.43,3.67,ok,,medium,432034.38,4588984.51,432030.37,4588986.41,1.0,class
+0054055AR,Prunus cerasifera 'Pissardii',False,C\ Palamós,4.78,3.96,ok,,medium,431940.61,4588831.65,431945.1,4588830.02,1.0,class
+0054056AR,Celtis australis,False,Pas Antonio Cuadrillero,6.46,4.06,ok,,large,431838.39,4589068.22,431833.6,4589072.55,1.5,class
+0054057AR,Gleditsia triacanthos,False,C\ Aiguablava,,7.64,median,1.43,check,,,,,1.0,floor
+0054059AR,Prunus cerasifera 'Pissardii',False,C\ Palamós,2.94,2.47,ok,,small,431929.74,4588737.5,431926.87,4588738.09,1.0,class
+0054060AR,Schinus molle,False,Pg Bosc de Roquetes,,68.73,no_facade,12.77,check,,,,,1.0,floor
+0054061AR,Platanus × acerifolia,True,C\ Fenals,,10.41,median,5.37,check,,,,,1.0,floor
+0054064AR,Platanus × acerifolia,True,C\ Palamós,,11.57,no_kerb,,check,,,,,1.0,floor
+0054065AR,Celtis australis,False,C\ Las Chafarinas,21.17,11.51,ok,,large,431788.83,4588733.67,431768.29,4588738.82,1.5,class
+0054068AR,Celtis australis,False,C\ Aiguablava,,17.17,median,6.52,check,,,,,1.0,floor
+0054069AR,Celtis sinensis,False,Pg Bosc de Roquetes,,24.08,median,9.01,check,,,,,1.0,floor
+0054070AR,Melia azedarach,False,C\ Aiguablava,6.82,5.86,ok,,large,431606.78,4588864.24,431608.72,4588857.71,1.5,class
+0054071AR,Celtis sinensis,False,Via Favència,,28.19,median,21.78,check,,,,,1.0,floor
+0054073AR,Celtis australis,False,Via Favència,4.35,3.7,ok,,medium,431868.21,4588687.6,431868.67,4588683.28,1.0,class
+0054074AR,Celtis australis,False,C\ Las Chafarinas,21.59,12.3,ok,,large,431796.25,4588763.38,431775.3,4588768.64,1.5,class
+0054075AR,Gleditsia triacanthos f. inermis,False,C\ S'Agaró,7.49,5.37,ok,,large,432105.22,4588834.19,432111.16,4588838.75,1.5,class
+0054076AR,Jacaranda mimosifolia,False,C\ Fosca,10.64,8.86,ok,,large,431697.57,4588860.98,431690.3,4588868.75,1.5,class
+0054078AR,Tipuana tipu,False,C\ Fenals,13.2,9.89,ok,,large,431685.67,4588698.86,431672.64,4588696.72,1.5,class
+0054079AR,Celtis australis,False,Via Favència,,34.54,no_facade,4.33,check,,,,,1.0,floor
+0054080AR,Celtis australis,False,Via Favència,9.13,8.33,ok,,large,432069.0,4588715.67,432066.99,4588706.76,1.5,class
+0054082AR,Prunus cerasifera 'Pissardii',False,C\ Palamós,5.58,4.79,ok,,medium,431904.39,4588702.43,431906.07,4588697.11,1.0,class
+0054084AR,Celtis sinensis,False,Pg Bosc de Roquetes,,57.26,no_facade,,check,,,,,1.0,floor
+0054085AR,Celtis australis,False,C\ Aiguablava,,7.06,median,2.85,check,,,,,1.0,floor
+0054086AR,Cupressus sempervirens,False,C\ S'Agaró,15.71,3.11,ok,,large,432147.85,4588909.38,432132.68,4588913.46,1.5,class
+0054089AR,Ostrya carpinifolia,False,Av Vallbona,,134.33,no_facade,19.61,check,,,,,1.0,floor
+0054090AR,Robinia pseudoacacia 'Pyramidalis',False,C\ Aiguablava,4.33,3.85,ok,,medium,431641.68,4588800.38,431638.5,4588803.32,1.0,class
+0054093AR,Gleditsia triacanthos f. inermis,False,C\ Palamós,,7.53,median,1.39,check,,,,,1.0,floor
+0054094AR,Platanus × acerifolia,True,C\ Fenals,,19.06,median,4.02,check,,,,,1.0,floor
+0054096AR,Celtis sinensis,False,Pg Bosc de Roquetes,,60.41,no_facade,2.5,check,,,,,1.0,floor
+0054097AR,Celtis australis,False,Via Favència,,11.71,median,23.6,check,,,,,1.0,floor
+0054098AR,Styphnolobium japonicum 'Columnare',False,C\ Pedrosa,,7.23,no_kerb,,check,,,,,1.0,floor
+0054099AR,Platanus × acerifolia,True,C\ Fenals,,16.0,median,4.29,check,,,,,1.0,floor
+0054100AR,Populus nigra 'Italica',False,C\ Palamós,,15.38,median,3.47,check,,,,,1.0,floor
+0054101AR,Celtis australis,False,Via Favència,,23.12,median,4.5,check,,,,,1.0,floor
+0054103AR,Celtis australis,False,Via Favència,,56.61,no_facade,4.1,check,,,,,1.0,floor
+0054104AR,Celtis sinensis,False,C\ Aiguablava,28.63,27.06,ok,,large,431754.44,4589023.34,431776.11,4589042.05,1.5,class
+0054105AR,Celtis australis,False,C\ S'Agaró,8.33,7.73,ok,,large,432079.11,4588751.36,432087.06,4588748.84,1.5,class
+0054107AR,Celtis sinensis,False,Pg Bosc de Roquetes,,72.09,no_facade,2.84,check,,,,,1.0,floor
+0054109AR,Celtis australis,False,Via Favència,4.56,4.08,ok,,medium,431874.23,4588688.58,431874.73,4588684.05,1.0,class
+0054111AR,Celtis australis,False,Via Favència,,5.36,median,,check,,,,,1.0,floor
+0054112AR,Jacaranda mimosifolia,False,C\ Aiguablava,10.6,2.66,ok,,large,431856.47,4589059.33,431862.93,4589050.91,1.5,class
+0054113AR,Celtis australis,False,C\ Garbí,,21.43,no_kerb,,check,,,,,1.0,floor
+0054114AR,Celtis australis,False,C\ Las Chafarinas,14.0,11.75,ok,,large,431753.24,4588732.5,431767.24,4588732.05,1.5,class
+0054115AR,Celtis sinensis,False,Pg Bosc de Roquetes,6.42,5.67,ok,,large,431615.92,4589029.54,431620.22,4589034.3,1.5,class
+0054116AR,Celtis sinensis,False,Pg Bosc de Roquetes,,28.52,median,,check,,,,,1.0,floor
+0054118AR,Prunus cerasifera 'Pissardii',False,C\ Palamós,3.22,2.57,ok,,small,431934.6,4588759.74,431931.45,4588760.38,1.0,class
+0054119AR,Celtis sinensis,False,Pg Bosc de Roquetes,,31.87,no_facade,,check,,,,,1.0,floor
+0054120AR,Celtis sinensis,False,Pg Bosc de Roquetes,,38.24,no_facade,,check,,,,,1.0,floor
+0054122AR,Celtis sinensis,False,Via Favència,,8.88,median,24.18,check,,,,,1.0,floor
+0054123AR,Styphnolobium japonicum,False,C\ Aiguablava,,24.9,median,29.31,check,,,,,1.0,floor
+0054124AR,Gleditsia triacanthos f. inermis,False,C\ Platja d'Aro,8.81,4.17,ok,,large,432052.54,4588907.34,432050.36,4588898.79,1.5,class
+0054125AR,Celtis australis,False,Via Favència,11.03,9.57,ok,,large,431904.39,4588702.43,431903.43,4588691.44,1.5,class
+0054128AR,Celtis australis,False,C\ Palamós,,17.51,median,,check,,,,,1.0,floor
+0054129AR,Casuarina cunninghamiana,False,Via Favència,,25.67,median,23.41,check,,,,,1.0,floor
+0054131AR,Styphnolobium japonicum,False,C\ Pedrosa,13.15,8.38,ok,,large,431804.1,4588898.94,431809.19,4588911.07,1.5,class
+0054134AR,Ulmus pumila,False,C\ Nou Barris,3.67,3.25,ok,,medium,431504.77,4588771.72,431501.76,4588769.62,1.0,class
+0054135AR,Platanus × acerifolia,True,C\ Fenals,,4.08,no_kerb,44.67,check,,,,,1.0,floor
+0054136AR,Styphnolobium japonicum,False,Pas Antonio Cuadrillero,,8.33,median,7.24,check,,,,,1.0,floor
+0054138AR,Celtis australis,False,C\ Aiguablava,,24.97,median,30.27,check,,,,,1.0,floor
+0054140AR,Celtis sinensis,False,Via Favència,,10.51,median,22.31,check,,,,,1.0,floor
+0054143AR,Phytolacca dioica,False,C\ Fenals,,13.35,no_kerb,,check,,,,,1.0,floor
+0054145AR,Robinia pseudoacacia,False,C\ Aiguablava,4.52,3.78,ok,,medium,431682.77,4588844.86,431679.45,4588847.92,1.0,class
+0054147AR,Styphnolobium japonicum,False,C\ Vila-real,,6.87,median,6.89,check,,,,,1.0,floor
+0054149AR,Robinia pseudoacacia 'Pyramidalis',False,C\ Aiguablava,4.41,3.93,ok,,medium,431657.78,4588817.83,431654.54,4588820.83,1.0,class
+0054150AR,Celtis sinensis,False,Via Favència,,10.94,median,21.87,check,,,,,1.0,floor
+0054151AR,Platanus × acerifolia,True,C\ Fosca,23.45,8.6,ok,,large,431694.08,4588857.57,431677.53,4588874.18,1.5,class
+0054152AR,Celtis australis,False,C\ S'Agaró,8.03,7.2,ok,,large,432095.49,4588810.3,432103.22,4588808.13,1.5,class
+0054153AR,Gleditsia triacanthos f. inermis,False,C\ Aiguablava,,14.82,median,1.24,check,,,,,1.0,floor
+0054154AR,Celtis sinensis,False,Pg Bosc de Roquetes,4.69,3.73,ok,,medium,431612.5,4589032.64,431615.64,4589036.11,1.0,class
+0054156AR,Celtis australis,False,C\ Aiguablava,,27.78,median,14.58,check,,,,,1.0,floor
+0054157AR,Styphnolobium japonicum,False,Pas Antonio Cuadrillero,,14.05,median,8.76,check,,,,,1.0,floor
+0054158AR,Gleditsia triacanthos f. inermis,False,C\ Palamós,,12.03,median,1.4,check,,,,,1.0,floor
+0054159AR,Jacaranda mimosifolia,False,C\ Vila-real,7.61,8.55,ok,,large,431935.25,4589168.56,431941.5,4589164.22,1.5,class
+0054160AR,Prunus cerasifera 'Pissardii',False,C\ Fosca,3.04,2.61,ok,,small,431756.72,4588850.68,431754.24,4588848.91,1.0,class
+0054161AR,Styphnolobium japonicum,False,C\ Vila-real,,11.01,no_kerb,21.32,check,,,,,1.0,floor
+0054162AR,Platanus × acerifolia,True,C\ Fenals,,4.19,no_kerb,39.77,check,,,,,1.0,floor
+0054163AR,Styphnolobium japonicum,False,C\ Pedrosa,13.12,4.04,ok,,large,431813.17,4588895.14,431818.25,4588907.24,1.5,class
+0054165AR,Celtis australis,False,C\ Empúries,,11.19,median,,check,,,,,1.0,floor
+0054166AR,Populus nigra 'Italica',False,Av Vallbona,,99.22,no_facade,13.31,check,,,,,1.0,floor
+0054168AR,Celtis sinensis,False,Pg Bosc de Roquetes,13.93,13.37,ok,,large,431655.12,4589044.18,431666.23,4589035.76,1.5,class
+0054169AR,Melia azedarach,False,C\ Aiguablava,6.73,5.22,ok,,large,431725.06,4588918.7,431727.42,4588925.0,1.5,class
+0054172AR,Jacaranda mimosifolia,False,C\ Fosca,2.66,2.05,ok,,small,431741.29,4588844.38,431741.96,4588846.95,1.0,class
+0054173AR,Ulmus pumila,False,C\ Nou Barris,2.86,2.17,ok,,small,431507.6,4588765.97,431505.25,4588764.33,1.0,class
+0054175AR,Celtis australis,False,C\ Las Chafarinas,,10.54,median,5.78,check,,,,,1.0,floor
+0054176AR,Celtis sinensis,False,C\ Portlligat,,9.47,median,3.01,check,,,,,1.0,floor
+0054177AR,Celtis australis,False,C\ Aiguablava,22.15,16.74,ok,,large,432032.63,4589307.8,432053.5,4589300.39,1.5,class
+0054178AR,Celtis australis,False,C\ Las Chafarinas,10.18,7.79,ok,,large,431783.04,4588819.59,431791.12,4588813.39,1.5,class
+0054179AR,Gleditsia triacanthos,False,C\ Aiguablava,,9.01,median,1.04,check,,,,,1.0,floor
+0054180AR,Gleditsia triacanthos f. inermis,False,C\ Aiguablava,,7.23,median,1.06,check,,,,,1.0,floor
+0054181AR,Melia azedarach,False,C\ Aiguablava,4.48,2.67,ok,,medium,431526.46,4588749.79,431528.98,4588746.09,1.0,class
+0054182AR,Celtis australis,False,C\ Portlligat,2.95,1.89,ok,,small,431623.3,4588991.97,431625.49,4588989.99,1.0,class
+0054183AR,Prunus cerasifera 'Pissardii',False,C\ Palamós,4.51,3.65,ok,,medium,431936.63,4588820.74,431940.87,4588819.2,1.0,class
+0054185AR,Celtis australis,False,C\ Fenals,,22.82,median,4.1,check,,,,,1.0,floor
+0054186AR,Celtis australis,False,C\ S'Agaró,18.1,17.61,ok,,large,432085.3,4588788.12,432088.46,4588770.29,1.5,class
+0054187AR,Celtis sinensis,False,Pg Bosc de Roquetes,16.95,16.07,ok,,large,431732.74,4589042.71,431741.78,4589057.05,1.5,class
+0054188AR,Melia azedarach,False,C\ Nou Barris,2.82,2.45,ok,,small,431500.04,4588777.38,431497.77,4588775.71,1.0,class
+0054189AR,Platanus × acerifolia,True,C\ Aiguablava,6.23,2.84,ok,,large,431694.23,4588831.37,431697.71,4588836.54,1.5,class
+0054190AR,Robinia pseudoacacia,False,C\ Pedrosa,12.75,6.97,ok,,large,432071.39,4588753.93,432074.74,4588766.23,1.5,class
+0054191AR,Ulmus pumila,False,C\ Aiguablava,6.97,3.62,ok,,large,431618.74,4588811.7,431613.6,4588816.4,1.5,class
+0054193AR,Styphnolobium japonicum,False,C\ Vila-real,,16.98,median,6.53,check,,,,,1.0,floor
+0054194AR,Jacaranda mimosifolia,False,C\ Fosca,5.61,4.65,ok,,medium,431699.69,4588859.05,431703.47,4588863.21,1.0,class
+0054195AR,Platanus × acerifolia,True,C\ Aiguablava,,5.48,median,27.19,check,,,,,1.0,floor
+0054196AR,Celtis australis,False,Pg Bosc de Roquetes,,18.85,median,7.27,check,,,,,1.0,floor
+0054199AR,Celtis australis,False,C\ Aiguablava,,33.73,no_facade,33.21,check,,,,,1.0,floor
+0054200AR,Cercis siliquastrum,False,C\ Palamós,,6.0,no_kerb,,check,,,,,1.0,floor
+0054201AR,Robinia pseudoacacia 'Bessoniana',False,C\ Las Chafarinas,,5.25,no_kerb,,check,,,,,1.0,floor
+0054202AR,Melia azedarach,False,C\ Aiguablava,3.0,2.34,ok,,small,431724.29,4588917.97,431722.22,4588920.14,1.0,class
+0054203AR,Ostrya carpinifolia,False,Av Vallbona,,85.7,no_facade,13.13,check,,,,,1.0,floor
+0054204AR,Gleditsia triacanthos f. inermis,False,C\ S'Agaró,10.0,6.14,ok,,large,432104.72,4588832.1,432106.9,4588822.34,1.5,class
+0054205AR,Populus nigra 'Italica',False,Av Vallbona,,42.45,no_facade,5.87,check,,,,,1.0,floor
+0054206AR,Platanus × acerifolia,True,C\ Palamós,,11.51,no_kerb,,check,,,,,1.0,floor
+0054209AR,Celtis australis,False,Av Meridiana,,33.61,no_facade,1.49,check,,,,,1.0,floor
+0054210AR,Celtis australis,False,Pg Bosc de Roquetes,,68.21,no_facade,28.15,check,,,,,1.0,floor
+0054213AR,Jacaranda mimosifolia,False,C\ Aiguablava,11.12,10.45,ok,,large,431857.52,4589060.13,431864.29,4589051.31,1.5,class
+0054214AR,Prunus cerasifera 'Pissardii',False,C\ Fosca,3.29,2.72,ok,,small,431896.06,4588777.31,431897.33,4588780.36,1.0,class
+0054215AR,Celtis sinensis,False,Pg Bosc de Roquetes,14.56,13.77,ok,,large,431604.94,4589027.2,431594.12,4589036.94,1.5,class
+0054220AR,Jacaranda mimosifolia,False,C\ Fosca,,10.31,median,2.75,check,,,,,1.0,floor
+0054222AR,Celtis australis,False,Via Favència,,28.84,median,4.37,check,,,,,1.0,floor
+0054223AR,Celtis australis,False,Via Favència,,52.95,no_facade,4.38,check,,,,,1.0,floor
+0054226AR,Prunus cerasifera 'Pissardii',False,C\ Palamós,2.7,2.16,ok,,small,431905.39,4588705.7,431908.02,4588705.09,1.0,class
+0054228AR,Celtis sinensis,False,Pg Bosc de Roquetes,25.71,24.28,ok,,large,431655.82,4589046.83,431681.4,4589049.3,1.5,class
+0054229AR,Ostrya carpinifolia,False,Av Vallbona,,114.64,no_facade,14.05,check,,,,,1.0,floor
+0054230AR,Gleditsia triacanthos,False,C\ Aiguablava,,7.54,median,1.84,check,,,,,1.0,floor
+0054231AR,Celtis australis,False,Via Favència,,58.45,no_facade,4.48,check,,,,,1.0,floor
+0054233AR,Celtis australis,False,C\ Aiguablava,,10.26,median,2.9,check,,,,,1.0,floor
+0054236AR,Styphnolobium japonicum,False,C\ Vila-real,,10.41,median,7.21,check,,,,,1.0,floor
+0054237AR,Celtis australis,False,C\ S'Agaró,16.83,15.97,ok,,large,432085.3,4588788.12,432093.03,4588773.18,1.5,class
+0054239AR,Ulmus pumila,False,C\ Fosca,3.52,2.67,ok,,medium,431776.17,4588842.32,431777.62,4588839.11,1.0,class
+0054240AR,Citrus × aurantium,False,C\ Vall d'Aro,17.98,3.42,ok,,large,431679.86,4588761.23,431688.99,4588745.74,1.5,class
+0054242AR,Prunus cerasifera 'Pissardii',False,C\ Palamós,2.84,1.52,ok,,small,431924.46,4588787.26,431927.12,4588786.29,1.0,class
+0054243AR,Casuarina cunninghamiana,False,Via Favència,,15.24,median,22.1,check,,,,,1.0,floor
+0054244AR,Melia azedarach,False,C\ Aiguablava,2.96,2.22,ok,,small,431695.88,4588891.56,431693.77,4588893.64,1.0,class
+0054245AR,Celtis australis,False,Via Favència,,21.89,median,5.11,check,,,,,1.0,floor
+0054246AR,Celtis sinensis,False,Via Favència,,14.5,median,21.95,check,,,,,1.0,floor
+0054247AR,Platanus × acerifolia,True,C\ Aiguablava,,3.18,no_kerb,19.87,check,,,,,1.0,floor
+0054248AR,Platanus × acerifolia,True,C\ Vall d'Aro,17.94,2.92,ok,,large,431698.31,4588805.8,431711.27,4588793.4,1.5,class
+0054249AR,Styphnolobium japonicum,False,C\ Las Chafarinas,13.12,8.33,ok,,large,431813.19,4588895.13,431818.26,4588907.23,1.5,class
+0054250AR,Celtis sinensis,False,C\ Portlligat,,9.59,median,2.97,check,,,,,1.0,floor
+0054251AR,Robinia pseudoacacia,False,C\ Aiguablava,,3.22,median,19.47,check,,,,,1.0,floor
+0054252AR,Celtis australis,False,C\ Aiguablava,9.73,8.78,ok,,large,432006.1,4589171.76,432014.26,4589166.46,1.5,class
+0054253AR,Ostrya carpinifolia,False,Av Vallbona,,89.95,no_facade,13.09,check,,,,,1.0,floor
+0054254AR,Celtis australis,False,C\ Las Chafarinas,13.45,11.19,ok,,large,431775.69,4588810.02,431786.15,4588801.56,1.5,class
+0054255AR,Prunus cerasifera 'Pissardii',False,C\ Palamós,3.46,2.72,ok,,small,431930.43,4588803.68,431933.68,4588802.49,1.0,class
+0054256AR,Celtis australis,False,C\ Aiguablava,,31.99,no_facade,,check,,,,,1.0,floor
+0054257AR,Celtis australis,False,C\ Portlligat,2.82,2.12,ok,,small,431627.94,4588997.09,431630.03,4588995.2,1.0,class
+0054258AR,Celtis australis,False,Via Favència,,62.47,no_facade,25.69,check,,,,,1.0,floor
+0054259AR,Celtis australis,False,C\ Aiguablava,,18.8,median,9.34,check,,,,,1.0,floor
+0054260AR,Melia azedarach,False,C\ Fosca,4.65,3.5,ok,,medium,431787.78,4588837.65,431790.34,4588833.77,1.0,class
+0054263AR,Celtis australis,False,Via Favència,3.22,2.55,ok,,small,432037.35,4588705.7,432037.67,4588702.5,1.0,class
+0054264AR,Populus nigra 'Italica',False,Av Vallbona,,74.25,no_facade,14.92,check,,,,,1.0,floor
+0054265AR,Citrus × aurantium,False,C\ Vall d'Aro,21.96,3.79,ok,,large,431683.65,4588765.87,431699.72,4588750.91,1.5,class
+0054266AR,Casuarina cunninghamiana,False,Via Favència,,33.3,no_facade,,check,,,,,1.0,floor
+0054267AR,Celtis australis,False,Via Favència,14.06,12.28,ok,,large,431882.58,4588689.5,431896.41,4588686.95,1.5,class
+0054268AR,Brachychiton populneus,False,Via Favència,,57.6,no_facade,36.16,check,,,,,1.0,floor
+0054272AR,Ulmus pumila,False,C\ Aiguablava,9.27,5.28,ok,,large,431537.11,4588776.32,431542.36,4588768.69,1.5,class
+0054273AR,Celtis sinensis,False,Pg Bosc de Roquetes,10.46,9.56,ok,,large,431718.53,4589046.01,431717.52,4589056.42,1.5,class
+0054275AR,Platanus × acerifolia,True,C\ Palamós,,11.7,no_kerb,,check,,,,,1.0,floor
+0054278AR,Celtis australis,False,C\ Aiguablava,12.75,11.65,ok,,large,432014.31,4589184.38,432026.01,4589189.44,1.5,class
+0054279AR,Gleditsia triacanthos f. inermis,False,C\ Platja d'Aro,8.89,4.44,ok,,large,432068.06,4588903.33,432065.92,4588894.7,1.5,class
+0054281AR,Celtis australis,False,C\ Las Chafarinas,20.09,10.62,ok,,large,431785.93,4588722.14,431766.44,4588727.02,1.5,class
+0054282AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Pedrosa,,3.68,no_kerb,,check,,,,,1.0,floor
+0054285AR,Celtis australis,False,C\ S'Agaró,9.4,9.05,ok,,large,432070.84,4588721.22,432079.92,4588718.81,1.5,class
+0054287AR,Styphnolobium japonicum,False,C\ Vila-real,,8.3,median,21.28,check,,,,,1.0,floor
+0054289AR,Celtis sinensis,False,Via Favència,,10.67,median,22.14,check,,,,,1.0,floor
+0054290AR,Styphnolobium japonicum,False,C\ Aiguablava,,23.69,median,22.08,check,,,,,1.0,floor
+0054291AR,Styphnolobium japonicum,False,C\ Vila-real,,8.07,median,7.12,check,,,,,1.0,floor
+0054292AR,Casuarina cunninghamiana,False,Via Favència,,28.5,median,,check,,,,,1.0,floor
+0054293AR,Celtis australis,False,C\ Aiguablava,,31.02,no_facade,,check,,,,,1.0,floor
+0054294AR,Platanus × acerifolia,True,C\ Fenals,15.92,3.07,ok,,large,431612.54,4588788.34,431602.18,4588776.26,1.5,class
+0054297AR,Celtis australis,False,C\ Aiguablava,,11.2,median,3.33,check,,,,,1.0,floor
+0054298AR,Platanus × acerifolia,True,C\ Aiguablava,3.87,3.26,ok,,medium,431787.14,4588975.59,431785.11,4588978.89,1.0,class
+0054299AR,Albizia julibrissin,False,C\ Aiguablava,,42.04,no_facade,,check,,,,,1.0,floor
+0054300AR,Prunus cerasifera 'Pissardii',False,C\ Las Chafarinas,6.58,3.19,ok,,large,431822.94,4588845.06,431816.87,4588847.58,1.5,class
+0054301AR,Albizia julibrissin,False,C\ Aiguablava,4.1,3.26,ok,,medium,432022.92,4589137.84,432019.42,4589139.99,1.0,class
+0054302AR,Celtis sinensis,False,Pg Bosc de Roquetes,,19.97,median,9.59,check,,,,,1.0,floor
+0054303AR,Celtis sinensis,False,Via Favència,,12.38,median,21.64,check,,,,,1.0,floor
+0054304AR,Jacaranda mimosifolia,False,C\ Vila-real,,8.55,median,16.71,check,,,,,1.0,floor
+0054305AR,Celtis sinensis,False,Via Favència,,10.21,median,21.69,check,,,,,1.0,floor
+0054306AR,Acer negundo,False,C\ Palamós,4.25,3.03,ok,,medium,431934.61,4588815.17,431938.6,4588813.72,1.0,class
+0054309AR,Albizia julibrissin,False,C\ Palamós,4.44,3.36,ok,,medium,432039.46,4588995.28,432035.45,4588997.17,1.0,class
+0054311AR,Celtis australis,False,C\ S'Agaró,9.5,8.94,ok,,large,432072.6,4588727.86,432081.55,4588724.67,1.5,class
+0054314AR,Celtis australis,False,Via Favència,2.82,2.29,ok,,small,431965.34,4588697.86,431965.62,4588695.05,1.0,class
+0054315AR,Ostrya carpinifolia,False,Av Vallbona,,38.7,no_facade,16.98,check,,,,,1.0,floor
+0054317AR,Celtis australis,False,C\ Aiguablava,14.65,13.78,ok,,large,431973.7,4589130.72,431975.08,4589116.13,1.5,class
+0054318AR,Melia azedarach,False,C\ Aiguablava,5.82,5.14,ok,,medium,431608.65,4588866.32,431612.98,4588862.42,1.0,class
+0054319AR,Ostrya carpinifolia,False,Av Vallbona,,88.16,no_facade,14.69,check,,,,,1.0,floor
+0054320AR,Casuarina cunninghamiana,False,Via Favència,,32.72,no_facade,21.75,check,,,,,1.0,floor
+0054321AR,Styphnolobium japonicum,False,C\ Aiguablava,,20.39,median,19.72,check,,,,,1.0,floor
+0054322AR,Albizia julibrissin,False,C\ Aiguablava,,27.44,median,,check,,,,,1.0,floor
+0054326AR,Platanus × acerifolia,True,C\ Vall d'Aro,25.77,5.11,ok,,large,431718.27,4588797.18,431709.23,4588773.05,1.5,class
+0054327AR,Platanus × acerifolia,True,C\ Alhucemas,9.8,4.62,ok,,large,431699.52,4588826.35,431709.19,4588827.94,1.5,class
+0054328AR,Casuarina cunninghamiana,False,Via Favència,,14.08,median,23.78,check,,,,,1.0,floor
+0054329AR,Celtis sinensis,False,Pg Bosc de Roquetes,19.64,19.03,ok,,large,431734.77,4589041.31,431747.55,4589056.22,1.5,class
+0054330AR,Celtis australis,False,Pas Antonio Cuadrillero,7.18,4.31,ok,,large,431833.6,4589062.92,431828.28,4589067.73,1.5,class
+0054331AR,Celtis sinensis,False,Pg Bosc de Roquetes,,65.81,no_facade,2.75,check,,,,,1.0,floor
+0054332AR,Platanus × acerifolia,True,C\ Palamós,,11.3,no_kerb,,check,,,,,1.0,floor
+0054333AR,Celtis australis,False,Via Favència,3.12,2.75,ok,,small,431970.73,4588698.74,431971.04,4588695.64,1.0,class
+0054334AR,Grevillea robusta,False,Via Favència,,19.04,median,,check,,,,,1.0,floor
+0054335AR,Grevillea robusta,False,Via Favència,,31.69,no_facade,23.28,check,,,,,1.0,floor
+0054337AR,Casuarina cunninghamiana,False,Via Favència,,16.78,median,21.68,check,,,,,1.0,floor
+0054339AR,Ulmus pumila,False,C\ Aiguablava,8.2,4.2,ok,,large,431621.55,4588814.77,431619.44,4588822.69,1.5,class
+0054342AR,Celtis australis,False,C\ Aiguablava,,23.42,median,31.14,check,,,,,1.0,floor
+0054344AR,Gleditsia triacanthos f. inermis,False,C\ Palamós,8.18,7.52,ok,,large,432016.23,4588946.08,432008.77,4588949.45,1.5,class
+0054345AR,Celtis sinensis,False,Pg Bosc de Roquetes,12.59,11.85,ok,,large,431726.46,4589045.4,431729.56,4589057.61,1.5,class
+0054346AR,Celtis australis,False,C\ Aiguablava,15.71,7.67,ok,,large,431838.41,4589056.18,431829.16,4589043.48,1.5,class
+0054347AR,Styphnolobium japonicum,False,C\ Vila-real,,11.69,median,11.84,check,,,,,1.0,floor
+0054348AR,Styphnolobium japonicum,False,C\ Vila-real,10.25,4.47,ok,,large,432002.52,4589193.5,432009.44,4589201.07,1.5,class
+0054349AR,Casuarina cunninghamiana,False,Via Favència,,20.54,median,21.77,check,,,,,1.0,floor
+0054351AR,Celtis australis,False,Via Favència,8.15,6.89,ok,,large,431989.74,4588700.85,431982.64,4588696.87,1.5,class
+0054352AR,Celtis sinensis,False,C\ Portlligat,2.78,2.19,ok,,small,431635.41,4589005.35,431637.47,4589003.48,1.0,class
+0054353AR,Platanus × acerifolia,True,C\ Palamós,,21.01,median,15.01,check,,,,,1.0,floor
+0054355AR,Celtis sinensis,False,C\ Portlligat,,18.99,median,2.99,check,,,,,1.0,floor
+0054358AR,Celtis australis,False,Via Favència,3.21,2.71,ok,,small,431697.73,4588664.56,431698.24,4588661.39,1.0,class
+0054359AR,Celtis sinensis,False,Via Favència,,9.46,median,23.74,check,,,,,1.0,floor
+0054362AR,Albizia julibrissin,False,C\ Aiguablava,5.39,4.71,ok,,medium,432015.23,4589125.38,432010.65,4589128.21,1.0,class
+0054363AR,Celtis australis,False,C\ Las Chafarinas,18.98,9.4,ok,,large,431783.26,4588711.48,431764.85,4588716.1,1.5,class
+0054364AR,Celtis sinensis,False,Pg Bosc de Roquetes,,52.19,no_facade,,check,,,,,1.0,floor
+0054365AR,Celtis sinensis,False,Pg Bosc de Roquetes,10.35,9.49,ok,,large,431714.66,4589045.27,431711.76,4589055.2,1.5,class
+0054367AR,Ulmus pumila,False,C\ Aiguablava,6.13,2.46,ok,,large,431549.36,4588792.45,431554.12,4588788.59,1.5,class
+0054368AR,Celtis australis,False,Via Favència,,60.21,no_facade,27.6,check,,,,,1.0,floor
+0054369AR,Celtis sinensis,False,Pg Bosc de Roquetes,27.68,27.04,ok,,large,431746.15,4589030.96,431764.9,4589051.33,1.5,class
+0054370AR,Platanus × acerifolia,True,C\ Fenals,,10.2,median,,check,,,,,1.0,floor
+0054371AR,Styphnolobium japonicum,False,C\ Vila-real,,4.67,median,7.05,check,,,,,1.0,floor
+0054374AR,Melia azedarach,False,C\ Aiguablava,7.71,7.06,ok,,large,431736.88,4588924.38,431734.65,4588931.76,1.5,class
+0054375AR,Celtis australis,False,Via Favència,5.37,4.86,ok,,medium,431829.96,4588683.59,431830.3,4588678.23,1.0,class
+0054376AR,Celtis australis,False,C\ Aiguablava,,12.98,no_kerb,19.69,check,,,,,1.0,floor
+0054377AR,Prunus cerasifera 'Pissardii',False,C\ Palamós,2.9,2.28,ok,,small,431912.57,4588742.13,431915.42,4588741.57,1.0,class
+0054378AR,Celtis australis,False,C\ Las Chafarinas,18.77,16.07,ok,,large,431752.93,4588736.4,431769.53,4588745.16,1.5,class
+0054379AR,Casuarina cunninghamiana,False,Via Favència,,28.37,median,23.31,check,,,,,1.0,floor
+0054380AR,Celtis australis,False,C\ Las Chafarinas,15.95,6.28,ok,,large,431778.92,4588694.18,431762.98,4588694.22,1.5,class
+0054381AR,Prunus cerasifera 'Pissardii',False,C\ Palamós,2.91,2.28,ok,,small,431930.94,4588743.31,431928.09,4588743.9,1.0,class
+0054382AR,Jacaranda mimosifolia,False,C\ Aiguablava,12.45,3.26,ok,,large,431860.32,4589062.28,431867.89,4589052.39,1.5,class
+0054384AR,Casuarina cunninghamiana,False,Via Favència,,33.7,no_facade,,check,,,,,1.0,floor
+0054385AR,Robinia pseudoacacia,False,C\ Aiguablava,,32.65,no_facade,21.81,check,,,,,1.0,floor
+0054386AR,Celtis sinensis,False,Pg Bosc de Roquetes,18.86,17.97,ok,,large,431700.86,4589034.11,431684.11,4589042.78,1.5,class
+0054387AR,Celtis australis,False,C\ Las Chafarinas,21.58,8.62,ok,,large,431778.92,4588694.18,431762.49,4588680.2,1.5,class
+0054389AR,Celtis australis,False,Pg Bosc de Roquetes,12.39,11.61,ok,,large,431627.51,4589019.04,431635.82,4589028.23,1.5,class
+0054390AR,Casuarina cunninghamiana,False,Via Favència,,16.02,median,21.81,check,,,,,1.0,floor
+0054393AR,Celtis sinensis,False,C\ Aiguablava,25.89,22.16,ok,,large,431754.44,4589023.34,431774.55,4589039.65,1.5,class
+0054395AR,Celtis sinensis,False,Pg Bosc de Roquetes,14.7,13.96,ok,,large,431653.65,4589044.56,431649.94,4589030.34,1.5,class
+0054396AR,Styphnolobium japonicum,False,Pas Antonio Cuadrillero,,18.32,median,16.51,check,,,,,1.0,floor
+0054397AR,Celtis australis,False,C\ S'Agaró,,14.89,median,8.96,check,,,,,1.0,floor
+0054399AR,Platanus × acerifolia,True,C\ Palamós,,9.35,no_kerb,,check,,,,,1.0,floor
+0054400AR,Melia azedarach,False,C\ Aiguablava,8.61,5.97,ok,,large,431559.52,4588814.43,431565.8,4588808.53,1.5,class
+0054402AR,Platanus × acerifolia,True,C\ Palamós,,11.13,no_kerb,,check,,,,,1.0,floor
+0054403AR,Celtis australis,False,C\ S'Agaró,13.93,13.31,ok,,large,432085.3,4588788.12,432095.4,4588778.53,1.5,class
+0054408AR,Tipuana tipu,False,C\ Fenals,,3.14,no_kerb,28.77,check,,,,,1.0,floor
+0054410AR,Styphnolobium japonicum,False,C\ Aiguablava,27.8,18.27,ok,,large,431935.61,4589103.18,431924.67,4589077.63,1.5,class
+0054411AR,Ulmus pumila,False,C\ Fosca,6.43,4.54,ok,,large,431833.13,4588803.27,431839.46,4588804.35,1.5,class
+0054412AR,Styphnolobium japonicum,False,Pas Antonio Cuadrillero,,17.86,median,10.22,check,,,,,1.0,floor
+0054413AR,Celtis sinensis,False,Pg Bosc de Roquetes,22.68,22.08,ok,,large,431738.32,4589038.12,431753.5,4589054.97,1.5,class
+0054414AR,Celtis sinensis,False,Pg Bosc de Roquetes,19.7,18.9,ok,,large,431655.82,4589046.83,431675.4,4589044.68,1.5,class
+0054416AR,Robinia pseudoacacia 'Bessoniana',False,C\ Las Chafarinas,21.67,3.04,ok,,large,431795.82,4588761.7,431774.81,4588766.98,1.5,class
+0054417AR,Celtis australis,False,C\ Las Chafarinas,12.68,10.43,ok,,large,431753.84,4588724.35,431766.35,4588726.43,1.5,class
+0054418AR,Celtis australis,False,C\ Aiguablava,,37.13,no_facade,,check,,,,,1.0,floor
+0054420AR,Casuarina cunninghamiana,False,Via Favència,,33.12,no_facade,21.71,check,,,,,1.0,floor
+0054421AR,Prunus serrulata 'Royal Burgundy',False,C\ Las Chafarinas,6.38,4.28,ok,,large,431803.96,4588864.15,431809.88,4588861.78,1.5,class
+0054422AR,Populus nigra 'Italica',False,C\ Palamós,,15.62,median,3.5,check,,,,,1.0,floor
+0054423AR,Melia azedarach,False,C\ Aiguablava,7.44,4.04,ok,,large,431639.46,4588833.5,431634.02,4588838.58,1.5,class
+0054424AR,Celtis sinensis,False,Pg Bosc de Roquetes,3.76,2.92,ok,,medium,431611.03,4589033.96,431609.99,4589037.57,1.0,class
+0054425AR,Platanus × acerifolia,True,C\ Palamós,,5.4,no_kerb,,check,,,,,1.0,floor
+0054426AR,Casuarina cunninghamiana,False,Via Favència,,19.15,median,,check,,,,,1.0,floor
+0054429AR,Styphnolobium japonicum,False,C\ Vila-real,,12.27,median,28.96,check,,,,,1.0,floor
+0054430AR,Gleditsia triacanthos,False,C\ Aiguablava,,35.62,no_facade,1.45,check,,,,,1.0,floor
+0054431AR,Celtis australis,False,C\ Las Chafarinas,,11.0,median,5.84,check,,,,,1.0,floor
+0054432AR,Styphnolobium japonicum,False,C\ Aiguablava,15.58,7.6,ok,,large,431888.41,4589074.71,431900.69,4589065.11,1.5,class
+0054433AR,Styphnolobium japonicum,False,C\ Vila-real,,8.35,median,7.07,check,,,,,1.0,floor
+0054434AR,Celtis sinensis,False,Via Favència,,9.39,median,23.05,check,,,,,1.0,floor
+0054436AR,Robinia pseudoacacia 'Pyramidalis',False,C\ Aiguablava,5.52,6.12,ok,,medium,431657.3,4588832.04,431661.33,4588828.27,1.0,class
+0054437AR,Celtis australis,False,C\ Aiguablava,,28.96,no_kerb,,check,,,,,1.0,floor
+0054439AR,Albizia julibrissin,False,C\ Aiguablava,,37.35,no_facade,3.91,check,,,,,1.0,floor
+0054440AR,Platanus × acerifolia,True,C\ Fenals,,12.96,median,,check,,,,,1.0,floor
+0054441AR,Casuarina cunninghamiana,False,Via Favència,,15.64,median,21.76,check,,,,,1.0,floor
+0054442AR,Celtis australis,False,C\ Aiguablava,,14.97,median,3.01,check,,,,,1.0,floor
+0054444AR,Ulmus pumila,False,C\ Aiguablava,,10.5,median,3.04,check,,,,,1.0,floor
+0054445AR,Ulmus pumila,False,C\ Fosca,12.87,8.36,ok,,large,431724.19,4588864.32,431711.58,4588866.9,1.5,class
+0054446AR,Eucalyptus camaldulensis,False,C\ Aiguablava,,10.29,no_kerb,19.69,check,,,,,1.0,floor
+0054449AR,Platanus × acerifolia,True,C\ Llosa,,40.57,no_facade,,check,,,,,1.0,floor
+0054450AR,Celtis australis,False,Via Favència,3.27,2.78,ok,,small,432007.7,4588702.74,432008.04,4588699.49,1.0,class
+0054452AR,Citrus × aurantium,False,C\ Empúries,12.45,2.29,ok,,large,431666.93,4588753.41,431675.87,4588744.75,1.5,class
+0054453AR,Styphnolobium japonicum,False,C\ Vila-real,,8.18,median,6.84,check,,,,,1.0,floor
+0054455AR,Celtis australis,False,C\ Las Chafarinas,14.27,11.95,ok,,large,431748.29,4588675.29,431762.41,4588677.39,1.5,class
+0054456AR,Casuarina cunninghamiana,False,Via Favència,,16.41,median,,check,,,,,1.0,floor
+0054457AR,Gleditsia triacanthos f. inermis,False,C\ Palamós,,15.4,median,3.49,check,,,,,1.0,floor
+0054459AR,Casuarina cunninghamiana,False,Via Favència,,20.52,median,,check,,,,,1.0,floor
+0054461AR,Celtis australis,False,C\ Aiguablava,24.96,23.2,ok,,large,431800.82,4588983.48,431813.74,4589004.84,1.5,class
+0054463AR,Prunus cerasifera 'Pissardii',False,C\ Las Chafarinas,6.41,3.62,ok,,large,431830.95,4588864.39,431825.03,4588866.84,1.5,class
+0054464AR,Casuarina cunninghamiana,False,Via Favència,,31.21,no_facade,23.25,check,,,,,1.0,floor
+0054467AR,Celtis sinensis,False,Via Favència,,28.21,median,21.75,check,,,,,1.0,floor
+0054468AR,Celtis australis,False,C\ Aiguablava,13.81,12.89,ok,,large,431987.43,4589151.26,431999.17,4589143.98,1.5,class
+0054471AR,Tipuana tipu,False,C\ Fenals,,4.33,no_kerb,,check,,,,,1.0,floor
+0054472AR,Platanus × acerifolia,True,C\ Palamós,,3.48,no_kerb,,check,,,,,1.0,floor
+0054473AR,Styphnolobium japonicum 'Columnare',False,C\ Pedrosa,21.22,4.36,ok,,large,431800.79,4588900.33,431790.44,4588918.85,1.5,class
+0054474AR,Platanus × acerifolia,True,C\ Palamós,,10.11,no_kerb,,check,,,,,1.0,floor
+0054478AR,Celtis sinensis,False,Via Favència,,11.61,median,22.03,check,,,,,1.0,floor
+0054479AR,Melia azedarach,False,C\ Nou Barris,8.48,7.11,ok,,large,431499.8,4588777.71,431493.07,4588782.87,1.5,class
+0054480AR,Celtis australis,False,C\ Palamós,,11.53,no_kerb,,check,,,,,1.0,floor
+0054481AR,Celtis australis,False,C\ Las Chafarinas,16.68,14.1,ok,,large,431775.69,4588810.02,431783.61,4588795.34,1.5,class
+0054482AR,Melia azedarach,False,C\ Aiguablava,2.99,2.29,ok,,small,431579.06,4588829.43,431581.28,4588827.43,1.0,class
+0054485AR,Platanus × acerifolia,True,C\ Fenals,22.9,7.13,ok,,large,431612.54,4588788.34,431608.04,4588765.89,1.5,class
+0054486AR,Prunus cerasifera 'Pissardii',False,C\ Palamós,9.15,8.44,ok,,large,431934.6,4588759.74,431933.62,4588768.84,1.5,class
+0054488AR,Melia azedarach,False,C\ Aiguablava,2.99,2.22,ok,,small,431587.69,4588838.87,431589.93,4588836.9,1.0,class
+0054489AR,Styphnolobium japonicum,False,C\ Vila-real,,8.28,median,6.91,check,,,,,1.0,floor
+0054492AR,Gleditsia triacanthos f. inermis,False,C\ Platja d'Aro,9.02,4.69,ok,,large,432083.99,4588899.27,432081.78,4588890.53,1.5,class
+0054493AR,Celtis sinensis,False,Via Favència,,21.42,median,23.39,check,,,,,1.0,floor
+0054495AR,Casuarina cunninghamiana,False,Via Favència,,16.23,median,21.81,check,,,,,1.0,floor
+0054497AR,Celtis sinensis,False,Pg Bosc de Roquetes,,19.69,median,7.22,check,,,,,1.0,floor
+0054501AR,Celtis australis,False,C\ Las Chafarinas,,21.96,median,5.18,check,,,,,1.0,floor
+0054502AR,Albizia julibrissin,False,C\ Aiguablava,,39.8,no_facade,,check,,,,,1.0,floor
+0054503AR,Platanus × acerifolia,True,C\ Palamós,,16.12,no_kerb,,check,,,,,1.0,floor
+0054504AR,Celtis australis,False,C\ Portlligat,2.8,2.21,ok,,small,431631.8,4589001.37,431633.88,4588999.49,1.0,class
+0054507AR,Celtis sinensis,False,C\ Portlligat,,9.44,median,2.91,check,,,,,1.0,floor
+0054509AR,Celtis australis,False,C\ S'Agaró,,16.91,median,6.35,check,,,,,1.0,floor
+0054511AR,Ostrya carpinifolia,False,Av Vallbona,,119.38,no_facade,14.76,check,,,,,1.0,floor
+0054512AR,Styphnolobium japonicum,False,C\ Vila-real,,8.44,median,7.08,check,,,,,1.0,floor
+0054514AR,Jacaranda mimosifolia,False,C\ Fosca,2.61,2.0,ok,,small,431728.17,4588862.69,431727.18,4588860.27,1.0,class
+0054515AR,Ulmus pumila,False,C\ Aiguablava,2.98,2.37,ok,,small,431690.98,4588887.02,431688.95,4588889.19,1.0,class
+0054517AR,Celtis sinensis,False,Pg Bosc de Roquetes,,24.1,median,,check,,,,,1.0,floor
+0054521AR,Prunus cerasifera 'Pissardii',False,C\ Palamós,6.31,5.21,ok,,large,431927.15,4588722.66,431922.76,4588718.13,1.5,class
+0054522AR,Pinus halepensis,False,C\ Pedrosa,13.15,3.78,ok,,large,431804.09,4588898.95,431809.18,4588911.07,1.5,class
+0054523AR,Celtis australis,False,C\ Aiguablava,13.15,12.23,ok,,large,431982.6,4589144.02,431993.53,4589136.72,1.5,class
+0054524AR,Celtis australis,False,C\ Aiguablava,,8.59,median,2.81,check,,,,,1.0,floor
+0054525AR,Styphnolobium japonicum 'Columnare',False,C\ Pedrosa,,3.05,no_kerb,,check,,,,,1.0,floor
+0054527AR,Celtis sinensis,False,Pg Bosc de Roquetes,13.86,13.14,ok,,large,431704.55,4589039.22,431694.65,4589048.91,1.5,class
+0054533AR,Robinia pseudoacacia 'Pyramidalis',False,C\ Las Chafarinas,21.45,3.03,ok,,large,431790.03,4588738.45,431769.22,4588743.67,1.5,class
+0054535AR,Tipuana tipu,False,C\ Fenals,,2.76,no_kerb,24.91,check,,,,,1.0,floor
+0054538AR,Celtis australis,False,Via Favència,3.2,2.49,ok,,small,432042.3,4588705.84,432044.08,4588703.18,1.0,class
+0054539AR,Celtis sinensis,False,Pg Bosc de Roquetes,,47.71,no_facade,2.46,check,,,,,1.0,floor
+0054540AR,Celtis australis,False,C\ Las Chafarinas,20.61,11.02,ok,,large,431787.33,4588727.71,431767.34,4588732.72,1.5,class
+0054541AR,Jacaranda mimosifolia,False,C\ Aiguablava,12.81,12.3,ok,,large,431861.09,4589062.87,431868.89,4589052.71,1.5,class
+0054542AR,Robinia pseudoacacia 'Pyramidalis',False,C\ Aiguablava,4.13,3.38,ok,,medium,431637.71,4588796.47,431634.67,4588799.27,1.0,class
+0054543AR,Platanus × acerifolia,True,C\ Palamós,,5.19,no_kerb,,check,,,,,1.0,floor
+0054544AR,Styphnolobium japonicum,False,C\ Aiguablava,6.43,4.2,ok,,large,431898.11,4589078.81,431895.64,4589072.87,1.5,class
+0054545AR,Celtis australis,False,Pas Antonio Cuadrillero,,20.87,no_kerb,14.76,check,,,,,1.0,floor
+0054546AR,Celtis australis,False,C\ Aiguablava,14.07,12.89,ok,,large,432001.06,4589163.99,432003.79,4589150.18,1.5,class
+0054547AR,Ulmus pumila,False,C\ Fosca,2.95,2.16,ok,,small,431848.83,4588797.27,431849.96,4588799.99,1.0,class
+0054548AR,Populus nigra 'Italica',False,Av Vallbona,,55.92,no_facade,13.11,check,,,,,1.0,floor
+0054550AR,Celtis sinensis,False,Pg Bosc de Roquetes,,19.25,median,2.66,check,,,,,1.0,floor
+0054554AR,Celtis australis,False,Av Meridiana,,38.65,no_facade,1.86,check,,,,,1.0,floor
+0054555AR,Celtis sinensis,False,Pg Bosc de Roquetes,,19.91,median,,check,,,,,1.0,floor
+0054557AR,Celtis australis,False,C\ Aiguablava,,35.7,no_facade,25.13,check,,,,,1.0,floor
+0054558AR,Celtis sinensis,False,Pg Bosc de Roquetes,,18.77,median,10.48,check,,,,,1.0,floor
+0054559AR,Celtis sinensis,False,Via Favència,,16.06,median,23.49,check,,,,,1.0,floor
+0054560AR,Celtis australis,False,C\ Palamós,,9.41,no_kerb,,check,,,,,1.0,floor
+0054561AR,Ulmus pumila,False,C\ Nou Barris,6.27,5.22,ok,,large,431508.69,4588764.4,431509.33,4588758.16,1.5,class
+0054562AR,Styphnolobium japonicum,False,C\ Vila-real,,8.27,median,7.06,check,,,,,1.0,floor
+0054563AR,Celtis sinensis,False,Pg Bosc de Roquetes,,21.43,median,,check,,,,,1.0,floor
+0054564AR,Acer negundo,False,C\ Palamós,3.0,2.17,ok,,small,431926.51,4588792.9,431929.33,4588791.88,1.0,class
+0054565AR,Styphnolobium japonicum,False,C\ Vila-real,,8.31,median,7.05,check,,,,,1.0,floor
+0054566AR,Populus nigra 'Italica',False,Av Vallbona,,71.64,no_facade,12.46,check,,,,,1.0,floor
+0054567AR,Casuarina cunninghamiana,False,Via Favència,,14.58,median,21.74,check,,,,,1.0,floor
+0054570AR,Celtis australis,False,C\ Aiguablava,11.03,10.62,ok,,large,431973.7,4589130.72,431981.28,4589122.7,1.5,class
+0054572AR,Ulmus pumila,False,C\ Fosca,5.48,4.28,ok,,medium,431700.76,4588874.19,431704.29,4588870.0,1.0,class
+0054574AR,Prunus cerasifera 'Pissardii',False,Pas Antonio Cuadrillero,,5.16,no_kerb,45.77,check,,,,,1.0,floor
+0054575AR,Gleditsia triacanthos f. inermis,False,C\ Palamós,,15.69,median,3.5,check,,,,,1.0,floor
+0054579AR,Robinia pseudoacacia,False,C\ Aiguablava,3.18,3.82,ok,,small,431658.95,4588792.5,431656.15,4588794.0,1.0,class
+0054582AR,Ulmus pumila,False,C\ Fosca,3.51,2.22,ok,,medium,431821.59,4588808.02,431822.95,4588811.26,1.0,class
+0054583AR,Celtis australis,False,C\ Aiguablava,,5.59,median,2.64,check,,,,,1.0,floor
+0054584AR,Celtis australis,False,C\ Las Chafarinas,25.77,18.7,ok,,large,431778.92,4588694.18,431769.55,4588670.18,1.5,class
+0054586AR,Celtis sinensis,False,Via Favència,,10.95,median,21.82,check,,,,,1.0,floor
+0054587AR,Populus nigra 'Italica',False,Av Vallbona,,45.75,no_facade,8.31,check,,,,,1.0,floor
+0054588AR,Prunus cerasifera 'Pissardii',False,C\ Palamós,3.17,2.46,ok,,small,431928.15,4588797.4,431931.13,4588796.32,1.0,class
+0054591AR,Celtis australis,False,Pg Bosc de Roquetes,15.87,15.18,ok,,large,431655.13,4589044.19,431670.49,4589040.19,1.5,class
+0054593AR,Celtis australis,False,Via Favència,14.79,14.14,ok,,large,431902.46,4588702.81,431899.59,4588688.3,1.5,class
+0054595AR,Platanus × acerifolia,True,C\ Palamós,,3.8,no_kerb,44.32,check,,,,,1.0,floor
+0054599AR,Celtis australis,False,C\ S'Agaró,,8.2,median,7.29,check,,,,,1.0,floor
+0054600AR,Prunus cerasifera 'Pissardii',False,C\ Fosca,3.12,2.44,ok,,small,431724.19,4588864.32,431721.55,4588862.67,1.0,class
+0054601AR,Albizia julibrissin,False,Pas Antonio Cuadrillero,12.68,11.33,ok,,large,432040.52,4589164.36,432041.29,4589177.01,1.5,class
+0054602AR,Celtis sinensis,False,Pg Bosc de Roquetes,29.57,28.81,ok,,large,431750.22,4589027.22,431770.25,4589048.98,1.5,class
+0054604AR,Casuarina cunninghamiana,False,Via Favència,,18.86,median,,check,,,,,1.0,floor
+0054605AR,Celtis australis,False,C\ Palamós,,15.18,median,,check,,,,,1.0,floor
+0054606AR,Casuarina cunninghamiana,False,Via Favència,,16.65,median,22.33,check,,,,,1.0,floor
+0054607AR,Celtis australis,False,C\ Aiguablava,,23.13,median,,check,,,,,1.0,floor
+0054609AR,Celtis sinensis,False,Pg Bosc de Roquetes,14.37,13.37,ok,,large,431729.7,4589044.29,431735.25,4589057.55,1.5,class
+0054610AR,Celtis australis,False,C\ Las Chafarinas,10.05,7.91,ok,,large,431753.02,4588694.08,431763.01,4588695.08,1.5,class
+0054611AR,Ulmus pumila,False,C\ Aiguablava,7.02,3.68,ok,,large,431635.56,4588829.75,431630.38,4588834.5,1.5,class
+0054612AR,Cupressus sempervirens,False,C\ S'Agaró,14.35,4.75,ok,,large,432139.62,4588916.4,432131.21,4588904.77,1.5,class
+0054614AR,Gleditsia triacanthos f. inermis,False,C\ Aiguablava,,9.87,median,1.43,check,,,,,1.0,floor
+0054615AR,Ulmus pumila,False,C\ Aiguablava,3.96,3.05,ok,,medium,431699.41,4588894.88,431699.41,4588898.84,1.0,class
+0054616AR,Celtis australis,False,Via Favència,,58.46,no_facade,4.02,check,,,,,1.0,floor
+0054617AR,Celtis sinensis,False,Pg Bosc de Roquetes,,41.77,no_facade,2.48,check,,,,,1.0,floor
+0054618AR,Celtis australis,False,C\ Aiguablava,,20.88,median,33.03,check,,,,,1.0,floor
+0054620AR,Platanus × acerifolia,True,C\ Fenals,15.86,4.62,ok,,large,431606.41,4588793.95,431591.24,4588789.31,1.5,class
+0054621AR,Celtis australis,False,C\ Las Chafarinas,21.33,12.15,ok,,large,431797.69,4588769.12,431777.0,4588774.32,1.5,class
+0054622AR,Celtis australis,False,Via Favència,12.05,10.77,ok,,large,431826.58,4588683.57,431816.79,4588676.53,1.5,class
+0054625AR,Jacaranda mimosifolia,False,C\ Vila-real,8.19,9.14,ok,,large,431935.25,4589168.56,431943.44,4589168.84,1.5,class
+0054627AR,Celtis australis,False,C\ Aiguablava,,26.25,median,30.16,check,,,,,1.0,floor
+0054628AR,Celtis australis,False,Via Favència,4.61,4.0,ok,,medium,431726.49,4588669.23,431728.47,4588665.07,1.0,class
+0054629AR,Celtis sinensis,False,Pg Bosc de Roquetes,11.09,10.1,ok,,large,431607.85,4589030.43,431599.61,4589037.85,1.5,class
+0054630AR,Celtis australis,False,C\ S'Agaró,7.65,6.98,ok,,large,432108.21,4588851.75,432115.32,4588854.57,1.5,class
+0054631AR,Melia azedarach,False,C\ Aiguablava,3.06,2.6,ok,,small,431709.12,4588903.71,431707.04,4588905.95,1.0,class
+0054632AR,Ulmus pumila,False,C\ Fosca,4.12,3.29,ok,,medium,431747.36,4588854.62,431749.31,4588850.98,1.0,class
+0054634AR,Ulmus pumila,False,C\ Aiguablava,5.86,5.04,ok,,medium,431613.55,4588871.76,431617.91,4588867.83,1.0,class
+0054635AR,Celtis australis,False,Via Favència,,58.23,no_facade,4.66,check,,,,,1.0,floor
+0054636AR,Robinia pseudoacacia,False,C\ Aiguablava,,4.79,median,19.27,check,,,,,1.0,floor
+0054637AR,Celtis australis,False,C\ Aiguablava,,14.63,median,2.95,check,,,,,1.0,floor
+0054638AR,Casuarina cunninghamiana,False,Via Favència,,16.14,median,21.84,check,,,,,1.0,floor
+0054639AR,Platanus × acerifolia,True,C\ Empúries,13.42,6.17,ok,,large,431662.77,4588752.65,431653.44,4588743.0,1.5,class
+0054640AR,Firmiana simplex,False,Via Favència,,19.61,median,21.85,check,,,,,1.0,floor
+0054642AR,Melia azedarach,False,C\ Aiguablava,3.05,2.48,ok,,small,431719.6,4588913.52,431717.51,4588915.73,1.0,class
+0054643AR,Robinia pseudoacacia,False,C\ Aiguablava,,23.48,median,29.58,check,,,,,1.0,floor
+0054644AR,Platanus × acerifolia,True,C\ S'Agaró,,4.0,no_kerb,,check,,,,,1.0,floor
+0054645AR,Celtis australis,False,Via Favència,,61.78,no_facade,4.77,check,,,,,1.0,floor
+0054646AR,Celtis australis,False,Via Favència,8.31,6.88,ok,,large,431971.28,4588698.8,431979.27,4588696.52,1.5,class
+0054647AR,Casuarina cunninghamiana,False,Via Favència,,15.71,median,21.83,check,,,,,1.0,floor
+0054648AR,Melia azedarach,False,C\ Aiguablava,12.94,6.12,ok,,large,431654.88,4588851.07,431642.36,4588847.8,1.5,class
+0054649AR,Pinus pinea,False,C\ Aiguablava,17.93,18.84,ok,,large,432030.26,4589311.53,432045.41,4589321.12,1.5,class
+0054650AR,Platanus × acerifolia,True,C\ S'Agaró,,2.92,no_kerb,,check,,,,,1.0,floor
+0054651AR,Platanus × acerifolia,True,C\ Fenals,,11.65,median,,check,,,,,1.0,floor
+0054655AR,Melia azedarach,False,C\ Aiguablava,14.79,7.23,ok,,large,431558.04,4588812.84,431559.7,4588798.15,1.5,class
+0054656AR,Platanus × acerifolia,True,C\ Empúries,12.58,4.86,ok,,large,431646.18,4588750.79,431637.64,4588741.55,1.5,class
+0054658AR,Prunus cerasifera 'Pissardii',False,C\ S'Agaró,5.63,4.58,ok,,medium,432101.13,4588818.35,432106.38,4588820.36,1.0,class
+0054659AR,Ulmus pumila,False,C\ Aiguablava,7.65,3.4,ok,,large,431646.96,4588842.21,431643.47,4588849.02,1.5,class
+0054660AR,Celtis sinensis,False,Pg Bosc de Roquetes,11.27,10.28,ok,,large,431722.74,4589046.04,431723.77,4589057.27,1.5,class
+0054662AR,Populus nigra 'Italica',False,Av Vallbona,,65.96,no_facade,11.88,check,,,,,1.0,floor
+0054663AR,Albizia julibrissin,False,C\ Palamós,4.39,3.34,ok,,medium,432018.94,4588951.83,432014.98,4588953.7,1.0,class
+0054664AR,Gleditsia triacanthos,False,C\ Aiguablava,,9.2,median,1.43,check,,,,,1.0,floor
+0054666AR,Celtis sinensis,False,Pg Bosc de Roquetes,,42.73,no_facade,,check,,,,,1.0,floor
+0054667AR,Casuarina cunninghamiana,False,Via Favència,,30.88,no_facade,,check,,,,,1.0,floor
+0054670AR,Celtis australis,False,C\ Las Chafarinas,21.72,14.01,ok,,large,431778.92,4588694.18,431768.19,4588675.3,1.5,class
+0054672AR,Celtis australis,False,Via Favència,2.9,2.37,ok,,small,432031.68,4588704.8,432031.96,4588701.92,1.0,class
+0054674AR,Gleditsia triacanthos,False,C\ Aiguablava,,31.95,no_facade,1.4,check,,,,,1.0,floor
+0054675AR,Celtis australis,False,C\ Aiguablava,20.83,13.97,ok,,large,431836.91,4589057.58,431822.67,4589042.37,1.5,class
+0054676AR,Pinus halepensis,False,C\ Palamós,,5.41,no_kerb,,check,,,,,1.0,floor
+0054677AR,Platanus × acerifolia,True,C\ Palamós,,4.19,no_kerb,,check,,,,,1.0,floor
+0054679AR,Celtis australis,False,Via Favència,,58.07,no_facade,4.42,check,,,,,1.0,floor
+0054682AR,Styphnolobium japonicum,False,C\ Vila-real,,5.24,median,6.96,check,,,,,1.0,floor
+0054683AR,Jacaranda mimosifolia,False,C\ Fosca,9.07,6.93,ok,,large,431741.29,4588844.38,431734.31,4588850.17,1.5,class
+0054685AR,Gleditsia triacanthos f. inermis,False,C\ Palamós,,15.61,median,3.5,check,,,,,1.0,floor
+0054686AR,Celtis australis,False,C\ Las Chafarinas,17.02,7.05,ok,,large,431779.88,4588698.0,431763.38,4588702.14,1.5,class
+0054687AR,Casuarina cunninghamiana,False,Via Favència,,32.86,no_facade,21.78,check,,,,,1.0,floor
+0054688AR,Corylus colurna,False,C\ Aiguablava,4.4,4.03,ok,,medium,431650.07,4588809.4,431646.84,4588812.38,1.0,class
+0054689AR,Celtis sinensis,False,C\ Aiguablava,19.66,16.12,ok,,large,431754.44,4589023.34,431770.37,4589034.87,1.5,class
+0054691AR,Platanus × acerifolia,True,C\ Palamós,,11.44,no_kerb,,check,,,,,1.0,floor
+0054692AR,Gleditsia triacanthos f. inermis,False,C\ Palamós,,15.46,median,3.49,check,,,,,1.0,floor
+0054693AR,Ostrya carpinifolia,False,Av Vallbona,,116.01,no_facade,8.13,check,,,,,1.0,floor
+0054694AR,Celtis australis,False,Via Favència,3.24,2.8,ok,,small,431989.9,4588700.87,431990.24,4588697.65,1.0,class
+0054695AR,Ulmus pumila,False,C\ Alhucemas,12.69,4.38,ok,,large,431735.96,4588802.22,431748.19,4588798.85,1.5,class
+0054696AR,Celtis australis,False,Via Favència,5.59,5.15,ok,,medium,431835.65,4588684.57,431836.26,4588679.01,1.0,class
+0054697AR,Gleditsia triacanthos f. inermis,False,C\ Aiguablava,14.29,7.13,ok,,large,431963.57,4589053.88,431964.43,4589068.15,1.5,class
+0054700AR,Jacaranda mimosifolia,False,C\ Las Chafarinas,16.8,4.95,ok,,large,431843.15,4588959.03,431858.67,4588952.59,1.5,class
+0054701AR,Celtis australis,False,C\ Las Chafarinas,,10.94,median,5.75,check,,,,,1.0,floor
+0054702AR,Corylus colurna,False,C\ Aiguablava,,3.52,no_kerb,19.78,check,,,,,1.0,floor
+0054703AR,Prunus cerasifera 'Pissardii',False,C\ Palamós,3.23,2.65,ok,,small,431909.79,4588729.86,431912.96,4588729.24,1.0,class
+0054704AR,Celtis sinensis,False,Via Favència,,11.74,median,21.77,check,,,,,1.0,floor
+0054705AR,Casuarina cunninghamiana,False,Via Favència,,33.15,no_facade,21.64,check,,,,,1.0,floor
+0054706AR,Celtis australis,False,Via Favència,6.85,6.31,ok,,large,431826.58,4588683.57,431823.67,4588677.36,1.5,class
+0054707AR,Jacaranda mimosifolia,False,C\ Vila-real,,16.71,median,6.05,check,,,,,1.0,floor
+0054709AR,Gleditsia triacanthos f. inermis,False,C\ Aiguablava,,39.97,no_facade,1.4,check,,,,,1.0,floor
+0054712AR,Celtis australis,False,Via Favència,,11.51,median,21.71,check,,,,,1.0,floor
+0054713AR,Albizia julibrissin,False,C\ Aiguablava,,44.05,no_facade,3.9,check,,,,,1.0,floor
+0054714AR,Ulmus pumila,False,C\ Fosca,4.35,3.31,ok,,medium,431879.55,4588784.17,431878.25,4588788.32,1.0,class
+0054717AR,Populus nigra 'Italica',False,C\ Palamós,,15.41,median,3.46,check,,,,,1.0,floor
+0054718AR,Populus nigra 'Italica',False,Av Vallbona,,66.61,no_facade,12.01,check,,,,,1.0,floor
+0054720AR,Ostrya carpinifolia,False,Av Vallbona,,38.04,no_facade,15.39,check,,,,,1.0,floor
+0054721AR,Ulmus pumila,False,C\ Fosca,5.07,3.72,ok,,medium,431845.02,4588798.48,431842.7,4588802.99,1.0,class
+0054722AR,Gleditsia triacanthos f. inermis,False,C\ Palamós,,15.41,median,3.5,check,,,,,1.0,floor
+0054724AR,Jacaranda mimosifolia,False,C\ Vila-real,17.75,6.56,ok,,large,431935.25,4589168.56,431935.85,4589150.82,1.5,class
+0054725AR,Celtis australis,False,C\ Las Chafarinas,21.48,11.77,ok,,large,431790.17,4588739.05,431769.34,4588744.27,1.5,class
+0054726AR,Corylus colurna,False,C\ Aiguablava,4.53,3.8,ok,,medium,431673.31,4588834.65,431670.01,4588837.74,1.0,class
+0054728AR,Ulmus pumila,False,C\ Fosca,3.35,2.46,ok,,small,431860.8,4588791.9,431862.09,4588794.99,1.0,class
+0054731AR,Ulmus pumila,False,C\ Fosca,3.42,2.05,ok,,small,431699.66,4588875.36,431697.16,4588873.02,1.0,class
+0054732AR,Casuarina cunninghamiana,False,Via Favència,,24.25,median,23.37,check,,,,,1.0,floor
+0054734AR,Celtis australis,False,C\ S'Agaró,5.1,4.01,ok,,medium,432100.62,4588816.4,432104.5,4588813.09,1.0,class
+0054735AR,Prunus cerasifera 'Pissardii',False,C\ Palamós,5.34,4.45,ok,,medium,431915.31,4588757.9,431919.37,4588761.37,1.0,class
+0054739AR,Celtis sinensis,False,Pg Bosc de Roquetes,,18.13,median,6.97,check,,,,,1.0,floor
+0054741AR,Celtis australis,False,C\ S'Agaró,9.49,8.76,ok,,large,432076.6,4588742.87,432086.05,4588742.01,1.5,class
+0054742AR,Platanus × acerifolia,True,C\ Fenals,,13.48,median,,check,,,,,1.0,floor
+0054743AR,Prunus cerasifera 'Pissardii',False,C\ Las Chafarinas,6.49,3.4,ok,,large,431827.39,4588855.8,431821.39,4588858.28,1.5,class
+0054744AR,Populus nigra 'Italica',False,Av Vallbona,,123.22,no_facade,24.94,check,,,,,1.0,floor
+0054745AR,Celtis australis,False,C\ Vall d'Aro,,11.38,median,,check,,,,,1.0,floor
+0054746AR,Celtis australis,False,Via Favència,,57.69,no_facade,4.53,check,,,,,1.0,floor
+0054748AR,Gleditsia triacanthos f. inermis,False,C\ Palamós,,7.49,median,1.38,check,,,,,1.0,floor
+0054750AR,Celtis sinensis,False,Pg Bosc de Roquetes,,31.11,no_facade,,check,,,,,1.0,floor
+0054754AR,Celtis sinensis,False,Via Favència,,11.85,median,21.89,check,,,,,1.0,floor
+0054755AR,Celtis australis,False,C\ Las Chafarinas,18.32,8.83,ok,,large,431806.0,4588802.23,431788.24,4588806.69,1.5,class
+0054758AR,Styphnolobium japonicum,False,C\ Pedrosa,13.13,3.92,ok,,large,431808.0,4588897.3,431813.08,4588909.41,1.5,class
+0054759AR,Celtis australis,False,Via Favència,,17.39,median,4.5,check,,,,,1.0,floor
+0054762AR,Platanus × acerifolia,True,C\ Fosca,,8.74,no_kerb,18.67,check,,,,,1.0,floor
+0054763AR,Styphnolobium japonicum,False,C\ Aiguablava,19.08,12.55,ok,,large,431939.47,4589101.53,431934.0,4589083.25,1.5,class
+0054764AR,Celtis sinensis,False,Pg Bosc de Roquetes,15.74,14.87,ok,,large,431655.12,4589044.18,431656.06,4589028.47,1.5,class
+0054765AR,Jacaranda mimosifolia,False,C\ Las Chafarinas,13.59,8.74,ok,,large,431829.25,4588925.52,431832.25,4588912.27,1.5,class
+0054768AR,Celtis australis,False,Via Favència,3.07,2.42,ok,,small,431958.83,4588697.21,431960.19,4588694.46,1.0,class
+0054769AR,Ulmus pumila,False,C\ Aiguablava,6.1,4.94,ok,,large,431628.08,4588888.04,431632.59,4588883.95,1.5,class
+0054770AR,Platanus × acerifolia,True,C\ Vall d'Aro,10.84,5.07,ok,,large,431707.28,4588809.27,431713.11,4588800.13,1.5,class
+0054771AR,Platanus × acerifolia,True,C\ Aiguablava,7.37,2.77,ok,,large,431665.4,4588843.6,431670.8,4588838.6,1.5,class
+0054772AR,Prunus cerasifera 'Pissardii',False,C\ Las Chafarinas,6.31,3.98,ok,,large,431799.96,4588854.47,431805.94,4588852.46,1.5,class
+0054773AR,Prunus cerasifera 'Pissardii',False,C\ Fosca,5.96,4.66,ok,,medium,431862.6,4588791.15,431868.43,4588792.38,1.0,class
+0054774AR,Celtis australis,False,C\ Aiguablava,,16.09,median,6.68,check,,,,,1.0,floor
+0054775AR,Pinus pinea,False,C\ Aiguablava,16.56,17.47,ok,,large,432032.63,4589307.8,432047.76,4589314.52,1.5,class
+0054776AR,Celtis australis,False,C\ Aiguablava,4.34,3.39,ok,,medium,432067.92,4589392.65,432072.24,4589392.33,1.0,class
+0054777AR,Ostrya carpinifolia,False,Av Vallbona,,77.69,no_facade,12.7,check,,,,,1.0,floor
+0054778AR,Celtis australis,False,C\ S'Agaró,8.24,7.73,ok,,large,432069.0,4588715.67,432076.86,4588713.18,1.5,class
+0054779AR,Styphnolobium japonicum,False,C\ Vila-real,,6.25,median,7.08,check,,,,,1.0,floor
+0054782AR,Celtis sinensis,False,Pg Bosc de Roquetes,,62.23,no_facade,,check,,,,,1.0,floor
+0054783AR,Celtis sinensis,False,Pg Bosc de Roquetes,,18.45,median,6.95,check,,,,,1.0,floor
+0054785AR,Albizia julibrissin,False,C\ Aiguablava,9.66,7.84,ok,,large,431938.59,4589055.38,431939.17,4589065.03,1.5,class
+0054787AR,Celtis australis,False,C\ Aiguablava,,30.53,no_facade,29.27,check,,,,,1.0,floor
+0054788AR,Robinia pseudoacacia,False,C\ Aiguablava,,24.05,median,,check,,,,,1.0,floor
+0054790AR,Platanus × acerifolia,True,C\ S'Agaró,,42.47,no_facade,,check,,,,,1.0,floor
+0054793AR,Ulmus pumila,False,C\ Aiguablava,8.07,4.2,ok,,large,431545.6,4588789.46,431551.24,4588783.7,1.5,class
+0054796AR,Celtis sinensis,False,Pg Bosc de Roquetes,,34.59,no_facade,,check,,,,,1.0,floor
+0054797AR,Citrus × aurantium,False,C\ Empúries,13.04,5.31,ok,,large,431676.01,4588757.64,431674.73,4588744.66,1.5,class
+0054798AR,Celtis australis,False,C\ Aiguablava,10.12,9.41,ok,,large,432001.06,4589163.99,432009.49,4589158.38,1.5,class
+0054799AR,Ulmus pumila,False,C\ Aiguablava,5.28,4.02,ok,,medium,431577.75,4588827.98,431577.0,4588822.76,1.0,class
+0054800AR,Celtis australis,False,Via Favència,,46.89,no_facade,4.27,check,,,,,1.0,floor
+0054801AR,Celtis australis,False,Via Favència,,4.23,median,4.52,check,,,,,1.0,floor
+0054802AR,Celtis sinensis,False,Via Favència,,10.06,median,26.3,check,,,,,1.0,floor
+0054804AR,Celtis australis,False,Pg Bosc de Roquetes,,74.72,no_facade,28.76,check,,,,,1.0,floor
+0054805AR,Celtis australis,False,Via Favència,,57.71,no_facade,4.63,check,,,,,1.0,floor
+0054806AR,Platanus × acerifolia,True,C\ S'Agaró,,41.9,no_facade,,check,,,,,1.0,floor
+0054808AR,Celtis sinensis,False,Pg Bosc de Roquetes,,20.7,median,2.62,check,,,,,1.0,floor
+0054809AR,Celtis sinensis,False,Pg Bosc de Roquetes,21.15,20.25,ok,,large,431693.63,4589023.55,431679.61,4589039.38,1.5,class
+0054810AR,Melia azedarach,False,C\ Aiguablava,9.47,4.33,ok,,large,431660.54,4588856.05,431653.59,4588862.48,1.5,class
+0054811AR,Celtis australis,False,Via Favència,4.25,3.6,ok,,medium,431879.25,4588688.79,431880.73,4588684.81,1.0,class
+0054816AR,Ostrya carpinifolia,False,Av Vallbona,,101.8,no_facade,12.8,check,,,,,1.0,floor
+0054817AR,Celtis sinensis,False,Via Favència,,9.71,median,22.21,check,,,,,1.0,floor
+0054818AR,Celtis sinensis,False,Pg Bosc de Roquetes,,23.43,median,3.12,check,,,,,1.0,floor
+0054819AR,Celtis sinensis,False,Pg Bosc de Roquetes,12.22,11.39,ok,,large,431707.07,4589041.47,431699.74,4589051.24,1.5,class
+0054821AR,Gleditsia triacanthos f. inermis,False,C\ Palamós,,7.58,median,1.37,check,,,,,1.0,floor
+0054822AR,Celtis sinensis,False,Via Favència,,24.79,median,21.74,check,,,,,1.0,floor
+0054823AR,Platanus × acerifolia,True,C\ Empúries,10.18,3.24,ok,,large,431647.44,4588750.05,431654.91,4588743.14,1.5,class
+0054824AR,Celtis sinensis,False,C\ Portlligat,,9.42,median,2.89,check,,,,,1.0,floor
+0054828AR,Celtis australis,False,Via Favència,,56.82,no_facade,4.57,check,,,,,1.0,floor
+0054830AR,Robinia pseudoacacia 'Bessoniana',False,C\ Las Chafarinas,,5.95,no_kerb,,check,,,,,1.0,floor
+0054831AR,Platanus × acerifolia,True,C\ Fenals,,20.86,median,4.3,check,,,,,1.0,floor
+0054832AR,Platanus × acerifolia,True,C\ Llosa,,18.15,no_kerb,,check,,,,,1.0,floor
+0054835AR,Platanus × acerifolia,True,C\ Aiguablava,8.07,3.52,ok,,large,431669.44,4588848.99,431675.37,4588843.52,1.5,class
+0054837AR,Celtis sinensis,False,C\ Portlligat,3.34,2.66,ok,,small,431638.66,4589008.95,431641.96,4589008.49,1.0,class
+0054838AR,Jacaranda mimosifolia,False,C\ Vila-real,,5.96,no_kerb,,check,,,,,1.0,floor
+0054839AR,Melia azedarach,False,C\ Aiguablava,6.78,3.33,ok,,large,431610.61,4588802.91,431605.61,4588807.48,1.5,class
+0054841AR,Celtis sinensis,False,Pg Bosc de Roquetes,,26.57,median,9.54,check,,,,,1.0,floor
+0054842AR,Celtis australis,False,C\ Aiguablava,14.45,4.15,ok,,large,431838.41,4589056.18,431830.96,4589043.79,1.5,class
+0054843AR,Casuarina cunninghamiana,False,Via Favència,,16.1,median,21.87,check,,,,,1.0,floor
+0054844AR,Celtis australis,False,Via Favència,,21.56,median,5.06,check,,,,,1.0,floor
+0054845AR,Styphnolobium japonicum,False,C\ Vila-real,,4.61,median,7.07,check,,,,,1.0,floor
+0054846AR,Prunus cerasifera 'Pissardii',False,C\ Palamós,4.9,2.85,ok,,medium,431951.27,4588804.85,431946.75,4588806.72,1.0,class
+0054847AR,Celtis sinensis,False,Via Favència,,10.7,median,22.23,check,,,,,1.0,floor
+0054851AR,Ulmus pumila,False,C\ Aiguablava,4.42,3.75,ok,,medium,431706.92,4588901.67,431702.5,4588901.72,1.0,class
+0054853AR,Melia azedarach,False,C\ Aiguablava,3.05,2.4,ok,,small,431599.04,4588851.35,431601.79,4588850.03,1.0,class
+0054854AR,Celtis australis,False,C\ S'Agaró,5.54,4.78,ok,,medium,432113.34,4588865.1,432118.55,4588867.0,1.0,class
+0054857AR,Celtis australis,False,Via Favència,,40.74,no_facade,4.36,check,,,,,1.0,floor
+0054859AR,Melia azedarach,False,C\ Aiguablava,13.56,5.59,ok,,large,431549.36,4588792.45,431560.7,4588799.87,1.5,class
+0054860AR,Celtis australis,False,C\ Las Chafarinas,,13.93,median,6.03,check,,,,,1.0,floor
+0054861AR,Cercis siliquastrum,False,C\ Pedrosa,10.76,6.75,ok,,large,432065.7,4588793.58,432065.7,4588782.82,1.5,class
+0054862AR,Acer negundo,False,C\ Palamós,3.86,3.03,ok,,medium,431932.56,4588809.52,431936.19,4588808.2,1.0,class
+0054863AR,Ulmus pumila,False,C\ Fosca,3.32,2.44,ok,,small,431854.8,4588794.4,431856.08,4588797.47,1.0,class
+0054864AR,Ostrya carpinifolia,False,Av Vallbona,,39.37,no_facade,14.91,check,,,,,1.0,floor
+0054866AR,Platanus × acerifolia,True,C\ S'Agaró,,42.27,no_facade,,check,,,,,1.0,floor
+0054867AR,Melia azedarach,False,C\ Nou Barris,4.89,4.3,ok,,medium,431516.78,4588753.65,431511.93,4588754.23,1.0,class
+0054869AR,Platanus × acerifolia,True,C\ Palamós,,14.34,no_kerb,,check,,,,,1.0,floor
+0054871AR,Robinia pseudoacacia,False,C\ Aiguablava,4.29,3.62,ok,,medium,431677.11,4588839.09,431673.94,4588841.98,1.0,class
+0054875AR,Citrus × aurantium,False,C\ Empúries,18.48,7.89,ok,,large,431676.79,4588758.48,431690.3,4588745.87,1.5,class
+0054876AR,Jacaranda mimosifolia,False,C\ Las Chafarinas,16.4,4.32,ok,,large,431841.92,4588955.15,431857.06,4588948.86,1.5,class
+0054877AR,Celtis australis,False,C\ Las Chafarinas,17.31,7.77,ok,,large,431807.55,4588808.6,431790.64,4588812.28,1.5,class
+0054879AR,Celtis sinensis,False,Pg Bosc de Roquetes,,24.41,median,2.89,check,,,,,1.0,floor
+0054880AR,Ulmus pumila,False,C\ Fosca,7.5,2.81,ok,,large,431695.73,4588880.96,431690.12,4588875.99,1.5,class
+0054881AR,Gleditsia triacanthos f. inermis,False,C\ Aiguablava,,6.79,median,1.45,check,,,,,1.0,floor
+0054882AR,Celtis australis,False,Via Favència,,19.9,median,21.7,check,,,,,1.0,floor
+0054885AR,Ulmus pumila,False,C\ Fosca,2.84,2.11,ok,,small,431784.35,4588839.08,431782.25,4588837.17,1.0,class
+0054886AR,Tilia x europaea,False,C\ Fenals,,5.94,no_kerb,,check,,,,,1.0,floor
+0054887AR,Celtis australis,False,C\ S'Agaró,11.98,11.28,ok,,large,432086.74,4588790.54,432097.03,4588784.41,1.5,class
+0054888AR,Celtis sinensis,False,Pg Bosc de Roquetes,,21.98,median,9.11,check,,,,,1.0,floor
+0054889AR,Robinia pseudoacacia 'Bessoniana',False,C\ Las Chafarinas,21.76,2.95,ok,,large,431794.27,4588755.63,431773.2,4588761.05,1.5,class
+0054891AR,Jacaranda mimosifolia,False,C\ Vila-real,,10.96,median,6.87,check,,,,,1.0,floor
+0054892AR,Celtis sinensis,False,Pg Bosc de Roquetes,,32.62,no_facade,11.3,check,,,,,1.0,floor
+0054893AR,Melia azedarach,False,C\ Aiguablava,3.1,2.49,ok,,small,431595.88,4588848.12,431598.2,4588846.05,1.0,class
+0054894AR,Celtis sinensis,False,Pg Bosc de Roquetes,25.29,24.63,ok,,large,431742.0,4589034.79,431759.13,4589053.4,1.5,class
+0054898AR,Ulmus pumila,False,C\ Aiguablava,8.41,2.64,ok,,large,431542.93,4588780.68,431550.95,4588783.2,1.5,class
+0054899AR,Ulmus pumila,False,C\ Nou Barris,5.05,4.39,ok,,medium,431488.6,4588798.4,431483.72,4588797.09,1.0,class
+0054900AR,Celtis australis,False,Pas Antonio Cuadrillero,13.7,6.8,ok,,large,431832.5,4589061.7,431819.01,4589059.36,1.5,class
+0054905AR,Prunus cerasifera 'Pissardii',False,C\ Las Chafarinas,6.71,3.97,ok,,large,431812.36,4588884.88,431818.54,4588882.28,1.5,class
+0054907AR,Celtis australis,False,Via Favència,2.94,2.37,ok,,small,432002.24,4588701.81,432002.19,4588698.88,1.0,class
+0054908AR,Platanus × acerifolia,True,C\ Fenals,15.84,8.51,ok,,large,431612.54,4588788.34,431601.95,4588776.56,1.5,class
+0054910AR,Platanus × acerifolia,True,C\ S'Agaró,6.0,3.46,ok,,medium,432139.62,4588916.4,432133.78,4588917.75,1.0,class
+0054911AR,Platanus × acerifolia,True,C\ Vall d'Aro,,4.27,no_kerb,33.99,check,,,,,1.0,floor
+0054912AR,Celtis sinensis,False,C\ Portlligat,,9.46,median,2.9,check,,,,,1.0,floor
+0054913AR,Prunus cerasifera 'Pissardii',False,C\ Palamós,4.83,2.63,ok,,medium,431943.49,4588786.05,431939.03,4588787.9,1.0,class
+0054914AR,Celtis australis,False,Via Favència,5.59,4.94,ok,,medium,431713.39,4588667.11,431709.99,4588662.69,1.0,class
+0054915AR,Platanus × acerifolia,True,C\ Palamós,,17.29,no_kerb,,check,,,,,1.0,floor
+0054917AR,Prunus cerasifera 'Pissardii',False,C\ Palamós,4.51,2.48,ok,,medium,431947.12,4588795.72,431942.95,4588797.45,1.0,class
+0054918AR,Celtis australis,False,C\ Las Chafarinas,11.81,9.46,ok,,large,431779.13,4588814.5,431788.5,4588807.31,1.5,class
+0054919AR,Platanus × acerifolia,True,C\ Llosa,,44.87,no_facade,,check,,,,,1.0,floor
+0054921AR,Melia azedarach,False,C\ Aiguablava,3.25,2.7,ok,,small,431602.18,4588855.23,431604.95,4588853.52,1.0,class
+0054922AR,Albizia julibrissin,False,C\ Palamós,4.4,3.63,ok,,medium,432024.07,4588962.69,432020.09,4588964.57,1.0,class
+0054923AR,Celtis sinensis,False,Via Favència,,10.34,median,21.7,check,,,,,1.0,floor
+0054924AR,Celtis sinensis,False,Via Favència,,28.45,median,21.67,check,,,,,1.0,floor
+0054925AR,Celtis australis,False,Via Favència,2.9,2.4,ok,,small,431995.68,4588701.12,431995.98,4588698.24,1.0,class
+0054926AR,Celtis sinensis,False,Pg Bosc de Roquetes,,53.59,no_facade,2.46,check,,,,,1.0,floor
+0054927AR,Firmiana simplex,False,Via Favència,,19.38,median,26.02,check,,,,,1.0,floor
+0054930AR,Gleditsia triacanthos f. inermis,False,C\ Palamós,,7.49,median,1.38,check,,,,,1.0,floor
+0054934AR,Celtis sinensis,False,Pg Bosc de Roquetes,,16.83,median,2.67,check,,,,,1.0,floor
+0054935AR,Celtis australis,False,C\ Aiguablava,,12.23,median,,check,,,,,1.0,floor
+0054938AR,Celtis australis,False,C\ Palamós,,5.58,no_kerb,,check,,,,,1.0,floor
+0054940AR,Celtis australis,False,C\ S'Agaró,7.17,6.25,ok,,large,432069.0,4588715.67,432072.36,4588709.34,1.5,class
+0054944AR,Celtis australis,False,Via Favència,8.13,6.32,ok,,large,431952.58,4588696.94,431945.59,4588692.8,1.5,class
+0054945AR,Albizia julibrissin,False,C\ Aiguablava,3.63,2.96,ok,,medium,432030.27,4589149.76,432027.19,4589151.67,1.0,class
+0054946AR,Albizia julibrissin,False,C\ Aiguablava,26.1,24.51,ok,,large,432045.61,4589164.05,432047.2,4589190.1,1.5,class
+0054947AR,Styphnolobium japonicum,False,C\ Vila-real,,12.34,median,21.96,check,,,,,1.0,floor
+0054949AR,Jacaranda mimosifolia,False,C\ Fosca,2.76,2.16,ok,,small,431713.33,4588855.99,431714.56,4588858.46,1.0,class
+0054951AR,Celtis australis,False,C\ S'Agaró,9.42,8.58,ok,,large,432075.54,4588738.88,432084.64,4588736.45,1.5,class
+0054952AR,Styphnolobium japonicum,False,Pas Antonio Cuadrillero,,16.33,median,15.25,check,,,,,1.0,floor
+0054953AR,Melia azedarach,False,C\ Aiguablava,12.9,9.38,ok,,large,431531.08,4588772.59,431538.37,4588761.96,1.5,class
+0054954AR,Tipuana tipu,False,C\ Fenals,11.6,7.65,ok,,large,431685.92,4588697.34,431674.91,4588693.7,1.5,class
+0054956AR,Celtis australis,False,Via Favència,6.07,5.42,ok,,large,431863.91,4588687.45,431860.78,4588682.24,1.5,class
+0054957AR,Celtis australis,False,C\ Aiguablava,6.71,6.04,ok,,large,431797.73,4588982.01,431795.15,4588988.2,1.5,class
+0054958AR,Casuarina cunninghamiana,False,Via Favència,,29.43,median,23.34,check,,,,,1.0,floor
+0054959AR,Celtis australis,False,Via Favència,5.23,4.61,ok,,medium,431735.88,4588670.73,431734.1,4588665.81,1.0,class
+0054960AR,Brachychiton populneus,False,Via Favència,,45.3,no_facade,32.24,check,,,,,1.0,floor
+0054961AR,Prunus cerasifera 'Pissardii',False,Pas Antonio Cuadrillero,,7.9,no_kerb,,check,,,,,1.0,floor
+0054962AR,Gleditsia triacanthos,False,C\ Aiguablava,,7.62,median,1.32,check,,,,,1.0,floor
+0054963AR,Ostrya carpinifolia,False,Av Vallbona,,94.49,no_facade,12.95,check,,,,,1.0,floor
+0054964AR,Casuarina cunninghamiana,False,Via Favència,,13.36,median,23.77,check,,,,,1.0,floor
+0054965AR,Platanus × acerifolia,True,C\ Aiguablava,7.54,3.08,ok,,large,431674.09,4588853.23,431679.62,4588848.11,1.5,class
+0054968AR,Platanus × acerifolia,True,C\ S'Agaró,,42.72,no_facade,,check,,,,,1.0,floor
+0054970AR,Robinia pseudoacacia,False,C\ Fenals,2.16,2.87,ok,,none,431663.48,4588798.66,431661.91,4588800.15,1.0,floor
+0054972AR,Melia azedarach,False,C\ Nou Barris,4.95,4.07,ok,,medium,431521.22,4588747.23,431519.56,4588742.57,1.0,class
+0054973AR,Jacaranda mimosifolia,False,C\ Aiguablava,18.84,4.39,ok,,large,431862.52,4589063.96,431879.78,4589056.39,1.5,class
+0054974AR,Melia azedarach,False,C\ Aiguablava,9.4,5.17,ok,,large,431665.73,4588862.64,431664.62,4588871.97,1.5,class
+0054975AR,Celtis australis,False,C\ Garbí,,16.08,no_kerb,,check,,,,,1.0,floor
+0054977AR,Celtis australis,False,Via Favència,,59.22,no_facade,4.46,check,,,,,1.0,floor
+0054978AR,Platanus × acerifolia,True,C\ Fenals,,11.65,median,4.29,check,,,,,1.0,floor
+0054979AR,Grevillea robusta,False,C\ Las Chafarinas,9.51,5.51,ok,,large,431796.86,4588847.86,431800.25,4588838.98,1.5,class
+0054980AR,Celtis australis,False,C\ Las Chafarinas,15.53,13.28,ok,,large,431752.93,4588736.4,431768.28,4588738.75,1.5,class
+0054981AR,Cercis siliquastrum,False,C\ Palamós,,9.24,no_kerb,,check,,,,,1.0,floor
+0054982AR,Albizia julibrissin,False,C\ Aiguablava,7.74,3.13,ok,,large,432037.5,4589161.46,432030.91,4589165.53,1.5,class
+0054983AR,Catalpa bignonioides,False,C\ Aiguablava,,2.25,no_kerb,,check,,,,,1.0,floor
+0054986AR,Prunus cerasifera 'Pissardii',False,C\ Palamós,3.41,2.86,ok,,small,431928.9,4588731.23,431925.57,4588731.91,1.0,class
+0054987AR,Celtis australis,False,C\ Aiguablava,,27.43,median,,check,,,,,1.0,floor
+0054988AR,Platanus × acerifolia,True,C\ Aiguablava,6.28,3.48,ok,,large,431678.2,4588812.63,431679.41,4588818.79,1.5,class
+0054989AR,Platanus × acerifolia,True,C\ S'Agaró,,40.84,no_facade,,check,,,,,1.0,floor
+0054990AR,Celtis sinensis,False,Pg Bosc de Roquetes,,77.89,no_facade,,check,,,,,1.0,floor
+0054991AR,Melia azedarach,False,C\ Aiguablava,12.9,5.35,ok,,large,431529.43,4588757.46,431540.05,4588764.79,1.5,class
+0054992AR,Melia azedarach,False,C\ Aiguablava,7.09,3.43,ok,,large,431631.5,4588825.31,431626.27,4588830.11,1.5,class
+0054993AR,Celtis australis,False,C\ Palamós,,14.78,no_kerb,,check,,,,,1.0,floor
+0054994AR,Populus nigra 'Italica',False,Av Vallbona,,61.56,no_facade,11.74,check,,,,,1.0,floor
+0054995AR,Celtis australis,False,Via Favència,,57.23,no_facade,4.06,check,,,,,1.0,floor
+0054996AR,Platanus × acerifolia,True,C\ S'Agaró,6.04,3.43,ok,,large,432140.86,4588920.77,432135.05,4588922.41,1.5,class
+0054998AR,Populus nigra 'Italica',False,Av Vallbona,,37.18,no_facade,15.88,check,,,,,1.0,floor
+0054999AR,Styphnolobium japonicum,False,C\ Vila-real,,12.25,median,29.63,check,,,,,1.0,floor
+0055001AR,Albizia julibrissin,False,C\ Aiguablava,,5.62,median,6.71,check,,,,,1.0,floor
+0055002AR,Styphnolobium japonicum,False,C\ Vila-real,,8.26,median,6.99,check,,,,,1.0,floor
+0055003AR,Celtis sinensis,False,C\ Portlligat,15.39,13.38,ok,,large,431638.66,4589008.95,431650.29,4589019.03,1.5,class
+0055004AR,Celtis sinensis,False,Pg Bosc de Roquetes,10.96,10.23,ok,,large,431710.55,4589043.66,431705.55,4589053.41,1.5,class
+0055005AR,Citrus × aurantium,False,C\ Vall d'Aro,17.25,2.6,ok,,large,431689.56,4588771.74,431702.19,4588760.0,1.5,class
+0055006AR,Grevillea robusta,False,Via Favència,,32.02,no_facade,,check,,,,,1.0,floor
+0055009AR,Celtis australis,False,C\ S'Agaró,9.5,8.74,ok,,large,432073.86,4588732.6,432083.04,4588730.16,1.5,class
+0055010AR,Prunus cerasifera 'Pissardii',False,C\ Palamós,13.41,11.38,ok,,large,431927.15,4588722.66,431921.2,4588710.64,1.5,class
+0055011AR,Casuarina cunninghamiana,False,Via Favència,,19.27,median,22.36,check,,,,,1.0,floor
+0055012AR,Platanus × acerifolia,True,C\ Fenals,17.06,3.93,ok,,large,431672.96,4588711.46,431674.34,4588694.46,1.5,class
+0055013AR,Tipuana tipu,False,C\ Fenals,25.67,3.18,ok,,large,431628.16,4588781.33,431610.72,4588762.5,1.5,class
+0055014AR,Ulmus pumila,False,C\ Aiguablava,14.37,10.59,ok,,large,431665.73,4588862.64,431670.8,4588876.08,1.5,class
+0055015AR,Brachychiton populneus,False,Via Favència,,54.89,no_facade,31.06,check,,,,,1.0,floor
+0055016AR,Casuarina cunninghamiana,False,Via Favència,,14.18,median,22.44,check,,,,,1.0,floor
+0055017AR,Robinia pseudoacacia 'Pyramidalis',False,C\ Aiguablava,6.72,7.3,ok,,large,431657.62,4588832.38,431664.28,4588831.5,1.5,class
+0055018AR,Jacaranda mimosifolia,False,C\ Vila-real,7.53,2.68,ok,,large,431935.25,4589168.56,431941.68,4589164.66,1.5,class
+0055019AR,Platanus × acerifolia,True,C\ Empúries,10.55,3.63,ok,,large,431665.44,4588751.88,431673.02,4588744.54,1.5,class
+0055021AR,Albizia julibrissin,False,C\ Aiguablava,4.43,3.48,ok,,medium,431925.65,4589052.0,431923.56,4589055.9,1.0,class
+0055024AR,Celtis australis,False,C\ Aiguablava,13.63,12.41,ok,,large,431800.82,4588983.48,431804.28,4588996.66,1.5,class
+0055026AR,Brachychiton populneus,False,Via Favència,,47.89,no_facade,22.97,check,,,,,1.0,floor
+0055027AR,Robinia pseudoacacia 'Pyramidalis',False,C\ Fenals,6.64,5.33,ok,,large,431635.87,4588781.91,431640.84,4588777.51,1.5,class
+0055028AR,Prunus cerasifera 'Pissardii',False,C\ Palamós,3.88,3.34,ok,,medium,431954.87,4588813.53,431952.25,4588816.4,1.0,class
+0055030AR,Gleditsia triacanthos,False,C\ Aiguablava,,11.96,median,1.21,check,,,,,1.0,floor
+0055031AR,Ostrya carpinifolia,False,Av Vallbona,,130.04,no_facade,21.96,check,,,,,1.0,floor
+0055032AR,Celtis sinensis,False,Pg Bosc de Roquetes,8.4,7.58,ok,,large,431619.88,4589025.95,431625.52,4589032.18,1.5,class
+0055035AR,Celtis australis,False,C\ Pedrosa,10.14,8.12,ok,,large,432077.87,4588752.16,432080.53,4588761.95,1.5,class
+0055036AR,Celtis australis,False,C\ S'Agaró,,15.6,median,22.44,check,,,,,1.0,floor
+0055038AR,Celtis australis,False,C\ Las Chafarinas,20.48,11.11,ok,,large,431801.71,4588785.14,431781.85,4588790.13,1.5,class
+0055040AR,Melia azedarach,False,C\ Aiguablava,7.39,6.72,ok,,large,431566.99,4588822.38,431573.56,4588819.0,1.5,class
+0055041AR,Celtis australis,False,C\ Las Chafarinas,12.77,10.48,ok,,large,431754.18,4588720.45,431764.41,4588712.81,1.5,class
+0055042AR,Celtis australis,False,C\ Las Chafarinas,20.0,10.43,ok,,large,431803.12,4588790.76,431783.73,4588795.63,1.5,class
+0055043AR,Celtis australis,False,C\ Las Chafarinas,18.28,16.0,ok,,large,431767.26,4588801.31,431781.94,4588790.42,1.5,class
+0055045AR,Platanus × acerifolia,True,C\ Aiguablava,5.7,5.08,ok,,medium,431793.58,4588979.15,431790.64,4588984.04,1.0,class
+0055046AR,Ulmus pumila,False,C\ Fosca,10.7,7.5,ok,,large,431897.27,4588776.81,431907.94,4588775.95,1.5,class
+0055047AR,Platanus × acerifolia,True,C\ Llosa,,15.85,no_kerb,,check,,,,,1.0,floor
+0055048AR,Melia azedarach,False,C\ Aiguablava,2.86,2.06,ok,,small,431583.39,4588833.97,431585.54,4588832.08,1.0,class
+0055051AR,Platanus × acerifolia,True,C\ Fenals,16.66,3.51,ok,,large,431608.1,4588792.4,431596.86,4588780.11,1.5,class
+0055052AR,Celtis australis,False,C\ Aiguablava,7.25,5.9,ok,,large,432033.8,4589378.87,432034.34,4589371.64,1.5,class
+0055053AR,Ulmus pumila,False,C\ Nou Barris,6.87,6.14,ok,,large,431493.62,4588794.05,431489.12,4588788.86,1.5,class
+0055055AR,Casuarina cunninghamiana,False,Via Favència,,19.68,median,23.46,check,,,,,1.0,floor
+0055056AR,Albizia julibrissin,False,C\ Aiguablava,,37.58,no_facade,,check,,,,,1.0,floor
+0055057AR,Celtis australis,False,Via Favència,,4.28,median,4.78,check,,,,,1.0,floor
+0055058AR,Platanus × acerifolia,True,C\ Fenals,,5.93,no_kerb,,check,,,,,1.0,floor
+0055059AR,Jacaranda mimosifolia,False,C\ Vila-real,,10.15,median,13.47,check,,,,,1.0,floor
+0055061AR,Celtis australis,False,C\ Aiguablava,,28.88,median,7.8,check,,,,,1.0,floor
+0055062AR,Celtis sinensis,False,Pg Bosc de Roquetes,,47.42,no_facade,,check,,,,,1.0,floor
+0055063AR,Celtis australis,False,Via Favència,,59.69,no_facade,4.83,check,,,,,1.0,floor
+0055064AR,Platanus × acerifolia,True,C\ Fenals,9.33,3.84,ok,,large,431686.86,4588691.58,431677.65,4588690.07,1.5,class
+0055065AR,Celtis sinensis,False,Via Favència,,15.35,median,21.64,check,,,,,1.0,floor
+0055067AR,Styphnolobium japonicum,False,C\ Vila-real,,8.13,median,22.11,check,,,,,1.0,floor
+0055070AR,Celtis australis,False,C\ Las Chafarinas,11.57,9.78,ok,,large,431751.92,4588699.73,431763.34,4588701.56,1.5,class
+0055073AR,Ostrya carpinifolia,False,Av Vallbona,,67.7,no_facade,12.18,check,,,,,1.0,floor
+0055075AR,Celtis australis,False,C\ Aiguablava,,14.97,median,3.04,check,,,,,1.0,floor
+0055076AR,Celtis sinensis,False,Pg Bosc de Roquetes,16.12,15.19,ok,,large,431702.49,4589036.75,431689.4,4589046.16,1.5,class
+0055079AR,Celtis australis,False,Via Favència,4.23,3.63,ok,,medium,431721.42,4588668.41,431722.1,4588664.24,1.0,class
+0055080AR,Celtis sinensis,False,Pg Bosc de Roquetes,,22.9,median,,check,,,,,1.0,floor
+0055082AR,Celtis australis,False,C\ Fenals,,11.84,median,10.57,check,,,,,1.0,floor
+0055083AR,Celtis australis,False,Via Favència,,58.34,no_facade,4.74,check,,,,,1.0,floor
+0055086AR,Celtis australis,False,C\ S'Agaró,,8.15,median,6.05,check,,,,,1.0,floor
+0055087AR,Gleditsia triacanthos f. inermis,False,Pas Antonio Cuadrillero,,19.11,median,1.44,check,,,,,1.0,floor
+0055088AR,Celtis australis,False,Via Favència,3.55,2.91,ok,,medium,432026.86,4588704.68,432025.75,4588701.31,1.0,class
+0055089AR,Celtis sinensis,False,Pg Bosc de Roquetes,,26.87,median,,check,,,,,1.0,floor
+0055091AR,Melia azedarach,False,C\ Aiguablava,3.08,2.4,ok,,small,431714.0,4588908.25,431711.91,4588910.51,1.0,class
+0055092AR,Celtis australis,False,C\ Aiguablava,12.21,9.74,ok,,large,431754.44,4589023.34,431765.22,4589029.06,1.5,class
+0055095AR,Celtis australis,False,Via Favència,3.56,3.12,ok,,medium,431703.84,4588665.53,431704.4,4588662.02,1.0,class
+0055096AR,Celtis australis,False,Via Favència,18.29,16.79,ok,,large,431826.58,4588683.57,431810.08,4588675.66,1.5,class
+0055097AR,Prunus cerasifera 'Pissardii',False,C\ Palamós,2.9,2.25,ok,,small,431911.36,4588736.01,431914.2,4588735.45,1.0,class
+0055098AR,Celtis australis,False,Via Favència,,56.58,no_facade,17.92,check,,,,,1.0,floor
+0055100AR,Ulmus pumila,False,C\ Fosca,11.59,8.73,ok,,large,431879.55,4588784.17,431870.57,4588791.5,1.5,class
+0055101AR,Celtis australis,False,Via Favència,4.04,3.49,ok,,medium,431715.44,4588667.45,431716.09,4588663.45,1.0,class
+0055103AR,Celtis australis,False,C\ Aiguablava,18.86,17.65,ok,,large,431800.82,4588983.48,431808.67,4589000.64,1.5,class
+0055105AR,Celtis australis,False,Pas Antonio Cuadrillero,6.07,3.82,ok,,large,431843.16,4589073.49,431838.66,4589077.56,1.5,class
+0055106AR,Tipuana tipu,False,C\ Fenals,19.74,5.4,ok,,large,431661.06,4588770.28,431646.56,4588783.69,1.5,class
+0055108AR,Albizia julibrissin,False,C\ Palamós,4.41,3.7,ok,,medium,432029.33,4588973.84,432025.34,4588975.73,1.0,class
+0055109AR,Casuarina cunninghamiana,False,Via Favència,,34.28,no_facade,,check,,,,,1.0,floor
+0055110AR,Prunus cerasifera 'Pissardii',False,C\ Palamós,4.82,2.61,ok,,medium,431940.92,4588779.84,431936.47,4588781.69,1.0,class
+0055111AR,Celtis australis,False,C\ Aiguablava,,28.27,median,,check,,,,,1.0,floor
+0055112AR,Prunus cerasifera 'Pissardii',False,C\ Fosca,4.34,3.41,ok,,medium,431731.22,4588861.43,431733.36,4588857.66,1.0,class
+0055113AR,Ostrya carpinifolia,False,Av Vallbona,,109.14,no_facade,11.99,check,,,,,1.0,floor
+0055115AR,Styphnolobium japonicum,False,C\ Vila-real,3.48,4.45,ok,,small,431941.73,4589127.52,431938.52,4589128.88,1.0,class
+0055116AR,Celtis australis,False,Via Favència,,60.23,no_facade,4.72,check,,,,,1.0,floor
+0055117AR,Acer negundo,False,C\ Palamós,2.87,2.28,ok,,small,431908.96,4588723.84,431911.78,4588723.29,1.0,class
+0055118AR,Casuarina cunninghamiana,False,Via Favència,,31.1,no_facade,21.74,check,,,,,1.0,floor
+0055119AR,Casuarina cunninghamiana,False,Via Favència,,33.91,no_facade,21.66,check,,,,,1.0,floor
+0055120AR,Ostrya carpinifolia,False,Av Vallbona,,104.31,no_facade,13.51,check,,,,,1.0,floor
+0055121AR,Prunus cerasifera 'Pissardii',False,C\ Palamós,2.85,2.26,ok,,small,431907.71,4588717.47,431910.51,4588716.92,1.0,class
+0055122AR,Ulmus pumila,False,C\ Aiguablava,8.72,3.87,ok,,large,431656.12,4588852.41,431649.72,4588858.33,1.5,class
+0055124AR,Populus nigra 'Italica',False,Av Vallbona,,129.48,no_facade,17.35,check,,,,,1.0,floor
+0261313AR,Tipuana tipu,False,Via Favència,,2.28,no_kerb,20.42,check,,,,,1.0,floor
+0261374AR,Pinus pinea,False,C\ Aiguablava,16.62,15.07,ok,,large,432032.63,4589307.8,432047.61,4589314.98,1.5,class
+0261375AR,Ulmus pumila,False,C\ Aiguablava,,23.74,median,28.23,check,,,,,1.0,floor
+0261390AR,Pinus pinea,False,C\ Aiguablava,16.41,12.81,ok,,large,432032.63,4589307.8,432048.19,4589313.0,1.5,class
+0261391AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Pedrosa,,6.5,no_kerb,,check,,,,,1.0,floor
+0261408AR,Tipuana tipu,False,Via Favència,,2.93,no_kerb,24.43,check,,,,,1.0,floor
+0261445AR,Ulmus pumila,False,C\ Aiguablava,,18.03,median,36.69,check,,,,,1.0,floor
+0261493AR,Celtis australis,False,C\ Palamós,,16.89,median,4.8,check,,,,,1.0,floor
+0261504AR,Celtis australis,False,C\ Aiguablava,,14.38,median,,check,,,,,1.0,floor
+0261516AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,Via Favència,,5.06,no_kerb,,check,,,,,1.0,floor
+0261535AR,Tipuana tipu,False,Via Favència,26.73,3.21,ok,,large,431733.78,4588683.12,431715.73,4588663.41,1.5,class
+0261606AR,Tipuana tipu,False,Via Favència,,4.63,no_kerb,21.13,check,,,,,1.0,floor
+0261664AR,Tipuana tipu,False,Via Favència,,3.09,no_kerb,21.39,check,,,,,1.0,floor
+0261680AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Pedrosa,,4.25,no_kerb,,check,,,,,1.0,floor
+0261683AR,Celtis australis,False,C\ Aiguablava,,23.53,median,25.35,check,,,,,1.0,floor
+0261707AR,Celtis australis,False,C\ Aiguablava,,15.01,median,,check,,,,,1.0,floor
+0261712AR,Tipuana tipu,False,Via Favència,,3.84,no_kerb,29.33,check,,,,,1.0,floor
+0261716AR,Tipuana tipu,False,Via Favència,26.53,4.57,ok,,large,431712.91,4588670.41,431686.66,4588666.62,1.5,class
+0261731AR,Celtis australis,False,C\ Aiguablava,,20.07,median,20.23,check,,,,,1.0,floor
+0261762AR,Tipuana tipu,False,Via Favència,,3.91,no_kerb,24.82,check,,,,,1.0,floor
+0261775AR,Pinus pinea,False,C\ Aiguablava,15.32,13.16,ok,,large,432032.63,4589307.8,432047.89,4589309.13,1.5,class
+0261784AR,Platanus × acerifolia,True,C\ Vall d'Aro,10.08,5.51,ok,,large,431698.05,4588781.08,431706.38,4588775.41,1.5,class
+0261798AR,Ulmus pumila,False,C\ Aiguablava,,17.06,median,,check,,,,,1.0,floor
+0261905AR,Ulmus pumila,False,C\ Aiguablava,,11.01,median,,check,,,,,1.0,floor
+0261920AR,Ulmus pumila,False,C\ Aiguablava,,21.03,median,29.88,check,,,,,1.0,floor
+0290064AR,Gleditsia triacanthos f. inermis,False,C\ Tamariu,,40.12,no_facade,,check,,,,,1.0,floor
+0290065AR,Gleditsia triacanthos f. inermis,False,C\ Tamariu,,46.88,no_facade,,check,,,,,1.0,floor
+0290066AR,Gleditsia triacanthos f. inermis,False,C\ Tamariu,,16.48,no_kerb,,check,,,,,1.0,floor
+0290067AR,Gleditsia triacanthos f. inermis,False,C\ Tamariu,,27.59,no_kerb,,check,,,,,1.0,floor
+0290068AR,Gleditsia triacanthos f. inermis,False,C\ Tamariu,,38.26,no_facade,,check,,,,,1.0,floor
+0290069AR,Gleditsia triacanthos f. inermis,False,C\ Tamariu,,55.8,no_facade,,check,,,,,1.0,floor
+0290070AR,Gleditsia triacanthos,False,C\ Tamariu,,53.74,no_facade,32.76,check,,,,,1.0,floor
+0290071AR,Gleditsia triacanthos f. inermis,False,C\ Tamariu,,42.75,no_facade,33.48,check,,,,,1.0,floor
+0290105AR,Populus nigra 'Italica',False,C\ Palamós,,39.37,no_facade,5.23,check,,,,,1.0,floor
+0290106AR,Gleditsia triacanthos f. inermis,False,C\ Palamós,,39.98,no_facade,4.5,check,,,,,1.0,floor
+0290107AR,Populus nigra 'Italica',False,C\ Palamós,,37.42,no_facade,3.87,check,,,,,1.0,floor
+0290110AR,Gleditsia triacanthos f. inermis,False,C\ Palamós,23.52,19.69,ok,,large,432121.96,4589173.93,432134.68,4589193.72,1.5,class
+0290111AR,Populus nigra 'Italica',False,C\ Palamós,17.17,14.2,ok,,large,432121.96,4589173.93,432132.27,4589187.66,1.5,class
+0290112AR,Populus nigra 'Italica',False,C\ Palamós,9.56,8.22,ok,,large,432121.96,4589173.93,432129.16,4589180.22,1.5,class
+0290115AR,Populus nigra 'Italica',False,C\ Palamós,4.04,3.49,ok,,medium,432117.31,4589164.98,432120.9,4589163.11,1.0,class
+0290116AR,Populus nigra 'Italica',False,C\ Palamós,4.05,3.51,ok,,medium,432114.57,4589159.7,432118.15,4589157.81,1.0,class
+0290117AR,Populus nigra 'Italica',False,C\ Palamós,4.01,3.35,ok,,medium,432111.66,4589154.22,432115.2,4589152.34,1.0,class
+0290118AR,Populus nigra 'Italica',False,C\ Palamós,3.87,3.23,ok,,medium,432108.9,4589149.0,432112.32,4589147.19,1.0,class
+0290119AR,Populus nigra 'Italica',False,C\ Palamós,3.63,2.88,ok,,medium,432106.19,4589143.85,432109.41,4589142.17,1.0,class
+0290120AR,Populus nigra 'Italica',False,C\ Palamós,12.7,11.16,ok,,large,432103.22,4589143.45,432102.41,4589130.78,1.5,class
+0290121AR,Gleditsia triacanthos f. inermis,False,C\ Palamós,,32.34,no_facade,1.41,check,,,,,1.0,floor
+0290122AR,Gleditsia triacanthos f. inermis,False,C\ Palamós,,31.89,no_facade,1.39,check,,,,,1.0,floor
+0290123AR,Gleditsia triacanthos f. inermis,False,C\ Palamós,,26.94,median,1.4,check,,,,,1.0,floor
+0290124AR,Gleditsia triacanthos f. inermis,False,C\ Palamós,,17.39,median,1.42,check,,,,,1.0,floor
+0290125AR,Gleditsia triacanthos f. inermis,False,C\ Palamós,,11.26,median,1.41,check,,,,,1.0,floor
+0290126AR,Gleditsia triacanthos f. inermis,False,C\ Palamós,,11.27,median,1.43,check,,,,,1.0,floor
+0290127AR,Gleditsia triacanthos f. inermis,False,C\ Palamós,,11.36,median,1.38,check,,,,,1.0,floor
+0290128AR,Gleditsia triacanthos f. inermis,False,C\ Palamós,,11.12,median,3.12,check,,,,,1.0,floor
+0290129AR,Populus nigra 'Italica',False,C\ Palamós,17.53,13.82,ok,,large,432089.19,4589117.92,432101.9,4589129.99,1.5,class
+0290130AR,Populus nigra 'Italica',False,C\ Palamós,10.6,8.04,ok,,large,432089.19,4589117.92,432097.9,4589123.95,1.5,class
+0290131AR,Albizia julibrissin,False,C\ Palamós,,27.69,median,17.96,check,,,,,1.0,floor
+0290132AR,Albizia julibrissin,False,C\ Palamós,,29.52,median,21.88,check,,,,,1.0,floor
+0290133AR,Albizia julibrissin,False,C\ Palamós,,24.37,median,5.68,check,,,,,1.0,floor
+0290134AR,Albizia julibrissin,False,C\ Palamós,,16.62,median,5.2,check,,,,,1.0,floor
+0290135AR,Albizia julibrissin,False,C\ Palamós,,15.2,median,4.61,check,,,,,1.0,floor
+0293556AR,Robinia pseudoacacia,False,C\ Aiguablava,4.48,3.38,ok,,medium,431685.88,4588848.66,431683.85,4588852.66,1.0,class
+0293576AR,Cercis siliquastrum,False,C\ Palamós,,4.54,no_kerb,,check,,,,,1.0,floor
+0293577AR,Prunus cerasifera 'Pissardii',False,C\ Palamós,2.97,2.54,ok,,small,431933.16,4588754.17,431930.24,4588754.71,1.0,class
+0293578AR,Celtis australis,False,C\ Las Chafarinas,21.76,12.46,ok,,large,431794.76,4588757.5,431773.68,4588762.93,1.5,class
+0293736AR,Styphnolobium japonicum,False,C\ Aiguablava,14.74,13.89,ok,,large,431888.41,4589074.71,431889.15,4589060.0,1.5,class
+0293744AR,Gleditsia triacanthos f. inermis,False,C\ Aiguablava,14.2,7.03,ok,,large,431978.58,4589052.98,431979.43,4589067.16,1.5,class
+0293745AR,Celtis sinensis,False,Pg Bosc de Roquetes,,26.27,median,2.41,check,,,,,1.0,floor
+0293746AR,Ulmus pumila,False,C\ Aiguablava,,11.74,median,,check,,,,,1.0,floor
+0293747AR,Celtis sinensis,False,Pg Bosc de Roquetes,,28.92,median,2.68,check,,,,,1.0,floor
+0305754AR,Platanus × acerifolia,True,C\ Palamós,,11.45,no_kerb,,check,,,,,1.0,floor
+0305755AR,Platanus × acerifolia,True,C\ Palamós,,11.88,no_kerb,,check,,,,,1.0,floor
+0305756AR,Platanus × acerifolia,True,C\ Palamós,,11.85,no_kerb,,check,,,,,1.0,floor
+0305758AR,Platanus × acerifolia,True,C\ Palamós,,11.35,no_kerb,,check,,,,,1.0,floor
+0305872AR,Celtis australis,False,C\ Aiguablava,13.04,12.41,ok,,large,432056.74,4589380.71,432054.14,4589367.93,1.5,class
+0305873AR,Celtis australis,False,C\ Aiguablava,,17.43,median,20.87,check,,,,,1.0,floor
+0305961AR,Platanus × acerifolia,True,C\ Palamós,,3.51,no_kerb,,check,,,,,1.0,floor
+0305962AR,Platanus × acerifolia,True,C\ Palamós,,3.42,no_kerb,,check,,,,,1.0,floor
+0305963AR,Platanus × acerifolia,True,C\ Palamós,,9.75,no_kerb,,check,,,,,1.0,floor
+0305964AR,Celtis sinensis,False,Pg Bosc de Roquetes,21.68,20.9,ok,,large,431693.16,4589023.04,431675.63,4589035.8,1.5,class
+0305969AR,Melia azedarach,False,C\ Aiguablava,3.06,2.2,ok,,small,431591.77,4588843.5,431594.06,4588841.46,1.0,class
+0305971AR,Jacaranda mimosifolia,False,C\ Las Chafarinas,16.11,4.54,ok,,large,431834.48,4588937.21,431849.11,4588930.5,1.5,class
+0305989AR,Platanus × acerifolia,True,C\ Aiguablava,5.0,5.01,ok,,medium,432068.57,4589333.07,432064.01,4589331.01,1.0,class
+0305990AR,Platanus × acerifolia,True,C\ Aiguablava,7.83,7.68,ok,,large,432070.82,4589328.54,432063.87,4589324.93,1.5,class
+0305991AR,Platanus × acerifolia,True,C\ Aiguablava,7.19,6.66,ok,,large,432071.23,4589319.83,432064.14,4589318.65,1.5,class
+0305992AR,Platanus × acerifolia,True,C\ Aiguablava,7.73,7.35,ok,,large,432072.22,4589313.19,432064.54,4589312.25,1.5,class
+0305993AR,Platanus × acerifolia,True,C\ Sa Tuna,9.1,9.79,ok,,large,432073.06,4589302.34,432075.79,4589293.66,1.5,class
+0305994AR,Platanus × acerifolia,True,C\ Sa Tuna,6.33,5.89,ok,,large,432087.35,4589292.47,432081.6,4589289.82,1.5,class
+0305995AR,Platanus × acerifolia,True,C\ Sa Tuna,5.16,5.56,ok,,medium,432098.51,4589282.72,432093.4,4589282.05,1.0,class
+0305996AR,Platanus × acerifolia,True,C\ Sa Tuna,2.64,2.94,ok,,small,432100.6,4589280.46,432099.16,4589278.25,1.0,class
+0305997AR,Platanus × acerifolia,True,C\ Sa Tuna,2.68,3.01,ok,,small,432106.64,4589276.52,432105.18,4589274.28,1.0,class
+0305998AR,Platanus × acerifolia,True,C\ Sa Tuna,3.57,4.07,ok,,medium,432117.86,4589269.27,432114.47,4589268.15,1.0,class
+0305999AR,Platanus × acerifolia,True,C\ Sa Tuna,2.57,2.44,ok,,small,432122.35,4589266.04,432120.93,4589263.89,1.0,class
+0306000AR,Platanus × acerifolia,True,C\ Sa Tuna,2.55,3.29,ok,,small,432128.82,4589261.74,432127.41,4589259.62,1.0,class
+0306010AR,Cercis siliquastrum,False,C\ Aiguablava,,48.93,no_facade,,check,,,,,1.0,floor
+0307364AR,Celtis australis,False,C\ Aiguablava,,10.72,median,8.97,check,,,,,1.0,floor
+0307365AR,Celtis australis,False,C\ Aiguablava,,14.6,median,9.08,check,,,,,1.0,floor
+0307366AR,Celtis australis,False,C\ Aiguablava,,19.3,median,9.17,check,,,,,1.0,floor
+0307367AR,Celtis australis,False,C\ Aiguablava,,24.76,median,9.28,check,,,,,1.0,floor
+0307368AR,Celtis australis,False,C\ Aiguablava,,30.27,no_facade,9.41,check,,,,,1.0,floor
+0307369AR,Celtis australis,False,C\ Aiguablava,,27.18,median,9.53,check,,,,,1.0,floor
+0307370AR,Celtis australis,False,C\ Aiguablava,,21.32,median,9.66,check,,,,,1.0,floor
+0307371AR,Celtis australis,False,C\ Aiguablava,5.42,4.26,ok,,medium,431754.44,4589023.34,431759.86,4589023.38,1.0,class
+0307372AR,Celtis australis,False,C\ Aiguablava,,3.88,median,3.48,check,,,,,1.0,floor
+0307373AR,Celtis australis,False,C\ Aiguablava,,7.24,median,3.5,check,,,,,1.0,floor
+0307374AR,Celtis australis,False,C\ Aiguablava,,10.46,median,3.47,check,,,,,1.0,floor
+0311108AR,Cercis siliquastrum,False,C\ Aiguablava,,4.8,no_kerb,27.19,check,,,,,1.0,floor
+0311109AR,Robinia pseudoacacia,False,C\ Fosca,27.46,3.23,ok,,large,431693.7,4588857.16,431673.53,4588875.78,1.5,class
+0311111AR,Celtis australis,False,C\ Vall d'Aro,14.52,8.76,ok,,large,431693.34,4588776.43,431703.97,4588766.54,1.5,class
+0311140AR,Populus nigra 'Italica',False,C\ Palamós,4.45,3.68,ok,,medium,432121.96,4589173.93,432126.4,4589174.26,1.0,class
+0311919AR,Brachychiton populneus,False,Via Favència,,47.37,no_facade,,check,,,,,1.0,floor
+0311937AR,Corylus colurna,False,C\ Aiguablava,6.03,5.47,ok,,large,431658.62,4588818.74,431658.11,4588824.74,1.5,class
+0311939AR,Corylus colurna,False,C\ Fenals,4.25,3.9,ok,,medium,431629.43,4588787.49,431626.31,4588790.38,1.0,class
+0311940AR,Corylus colurna,False,C\ Fenals,4.7,3.67,ok,,medium,431626.02,4588783.32,431621.96,4588785.69,1.0,class
+0311941AR,Melia azedarach,False,C\ Aiguablava,7.0,3.86,ok,,large,431664.01,4588860.79,431658.88,4588865.54,1.5,class
+0311951AR,Albizia julibrissin,False,C\ Tamariu,10.89,9.65,ok,,large,431912.74,4589045.09,431901.85,4589045.43,1.5,class
+0311971AR,Platanus × acerifolia,True,C\ Llosa,,38.78,no_facade,,check,,,,,1.0,floor
+0311973AR,Platanus × acerifolia,True,C\ Llosa,,41.96,no_facade,,check,,,,,1.0,floor
+0311974AR,Platanus × acerifolia,True,C\ Llosa,,44.86,no_facade,,check,,,,,1.0,floor
+0312003AR,Gleditsia triacanthos,False,C\ Aiguablava,,31.64,no_facade,1.44,check,,,,,1.0,floor
+0333819AR,Melia azedarach,False,C\ Aiguablava,8.18,7.57,ok,,large,431666.71,4588933.17,431672.62,4588927.51,1.5,class
+0333820AR,Melia azedarach,False,C\ Aiguablava,2.71,2.2,ok,,small,431660.51,4588918.38,431662.62,4588916.68,1.0,class
+0333821AR,Melia azedarach,False,C\ Aiguablava,3.06,2.68,ok,,small,431645.3,4588902.42,431647.52,4588900.31,1.0,class
+0333822AR,Melia azedarach,False,C\ Aiguablava,8.61,6.01,ok,,large,431638.91,4588895.3,431635.67,4588887.32,1.5,class
+0333823AR,Melia azedarach,False,C\ Aiguablava,2.69,2.3,ok,,small,431650.74,4588907.8,431652.49,4588905.77,1.0,class
+0333824AR,Melia azedarach,False,C\ Aiguablava,2.98,2.6,ok,,small,431640.36,4588896.88,431642.55,4588894.87,1.0,class
+0333825AR,Melia azedarach,False,C\ Aiguablava,9.38,8.82,ok,,large,431668.53,4588935.07,431677.73,4588933.27,1.5,class
+0333826AR,Melia azedarach,False,C\ Aiguablava,,3.34,median,3.12,check,,,,,1.0,floor
+0333827AR,Melia azedarach,False,C\ Aiguablava,2.96,2.54,ok,,small,431655.4,4588913.28,431657.55,4588911.24,1.0,class
+0333832AR,Pyrus calleryana 'Chanticleer',False,C\ Portlligat,3.68,3.3,ok,,medium,431581.91,4588928.54,431581.59,4588932.21,1.0,class
+0333833AR,Pyrus calleryana 'Chanticleer',False,C\ Portlligat,2.72,2.41,ok,,small,431579.19,4588925.51,431577.16,4588927.32,1.0,class
+0333834AR,Pyrus calleryana 'Chanticleer',False,C\ Portlligat,3.52,3.21,ok,,medium,431574.83,4588919.5,431572.2,4588921.84,1.0,class
+0333835AR,Pyrus calleryana 'Chanticleer',False,C\ Portlligat,3.84,3.51,ok,,medium,431570.19,4588913.91,431567.22,4588916.34,1.0,class
+0333836AR,Pyrus calleryana 'Chanticleer',False,C\ Portlligat,9.01,8.32,ok,,large,431570.19,4588913.91,431561.88,4588910.44,1.5,class
+0333837AR,Pyrus calleryana 'Chanticleer',False,C\ Portlligat,3.07,2.75,ok,,small,431602.08,4588950.37,431599.81,4588952.43,1.0,class
+0333838AR,Pyrus calleryana 'Chanticleer',False,C\ Portlligat,6.8,6.01,ok,,large,431600.69,4588948.83,431594.35,4588946.37,1.5,class
+0333839AR,Pyrus calleryana 'Chanticleer',False,C\ Portlligat,3.85,3.45,ok,,medium,431592.16,4588938.34,431589.95,4588941.49,1.0,class
+0333840AR,Pyrus calleryana 'Chanticleer',False,C\ Portlligat,12.87,11.58,ok,,large,431609.34,4588958.54,431615.52,4588969.83,1.5,class
+0333841AR,Pyrus calleryana 'Chanticleer',False,C\ Portlligat,5.22,4.71,ok,,medium,431609.34,4588958.54,431610.02,4588963.72,1.0,class
+0333842AR,Pyrus calleryana 'Chanticleer',False,C\ Portlligat,2.98,2.68,ok,,small,431606.99,4588955.92,431604.77,4588957.91,1.0,class
+0333843AR,Pyrus calleryana 'Chanticleer',False,C\ Portlligat,2.85,2.47,ok,,small,431534.62,4588876.04,431532.49,4588877.94,1.0,class
+0333844AR,Pyrus calleryana 'Chanticleer',False,C\ Portlligat,3.9,3.37,ok,,medium,431531.19,4588872.2,431527.3,4588872.18,1.0,class
+0333845AR,Pyrus calleryana 'Chanticleer',False,C\ Portlligat,4.2,3.73,ok,,medium,431524.28,4588863.18,431522.71,4588867.07,1.0,class
+0333846AR,Pyrus calleryana 'Chanticleer',False,C\ Portlligat,2.93,2.57,ok,,small,431519.83,4588859.5,431517.63,4588861.43,1.0,class
+0333847AR,Pyrus calleryana 'Chanticleer',False,C\ Portlligat,3.16,2.78,ok,,small,431514.3,4588853.26,431512.76,4588856.02,1.0,class
+0333848AR,Pyrus calleryana 'Chanticleer',False,C\ Portlligat,3.03,2.67,ok,,small,431509.98,4588848.41,431507.71,4588850.43,1.0,class
+0333849AR,Pyrus calleryana 'Chanticleer',False,C\ Portlligat,3.1,2.73,ok,,small,431505.07,4588842.89,431502.76,4588844.94,1.0,class
+0333850AR,Pyrus calleryana 'Chanticleer',False,C\ Portlligat,3.15,2.78,ok,,small,431500.41,4588837.71,431497.76,4588839.42,1.0,class
+0333851AR,Pyrus calleryana 'Chanticleer',False,C\ Portlligat,2.73,2.37,ok,,small,431549.4,4588892.58,431547.37,4588894.4,1.0,class
+0333852AR,Pyrus calleryana 'Chanticleer',False,C\ Portlligat,3.1,2.56,ok,,small,431543.79,4588886.3,431542.64,4588889.18,1.0,class
+0333853AR,Pyrus calleryana 'Chanticleer',False,C\ Portlligat,3.41,2.93,ok,,small,431540.64,4588882.77,431537.26,4588883.22,1.0,class
+0333854AR,Pyrus calleryana 'Chanticleer',False,C\ Portlligat,8.72,7.87,ok,,large,431555.11,4588897.66,431557.81,4588905.94,1.5,class
+0333855AR,Pyrus calleryana 'Chanticleer',False,C\ Portlligat,3.49,3.05,ok,,small,431553.08,4588896.7,431552.57,4588900.14,1.0,class
+0333856AR,Pyrus calleryana 'Chanticleer',False,C\ Portlligat,6.03,5.49,ok,,large,431493.39,4588828.21,431493.07,4588834.23,1.5,class
+0333857AR,Pyrus calleryana 'Chanticleer',False,C\ Portlligat,3.07,2.69,ok,,small,431490.17,4588826.45,431487.87,4588828.48,1.0,class
+0333858AR,Pyrus calleryana 'Chanticleer',False,C\ Portlligat,3.18,2.8,ok,,small,431485.43,4588821.06,431482.89,4588822.97,1.0,class
+0340075AR,Celtis sinensis,False,Pg Bosc de Roquetes,,35.96,no_facade,2.6,check,,,,,1.0,floor
+0340087AR,Ceiba speciosa,False,Pl Terra,,18.64,no_kerb,,check,,,,,1.0,floor
+0340088AR,Cercis siliquastrum,False,Pl Terra,,8.91,no_kerb,,check,,,,,1.0,floor
+0340089AR,Ceiba speciosa,False,Pl Terra,,26.06,no_kerb,,check,,,,,1.0,floor
+0340090AR,Cercis siliquastrum,False,Pl Terra,,11.88,no_kerb,,check,,,,,1.0,floor
+0340091AR,Ceiba speciosa,False,Pl Terra,,9.92,no_kerb,,check,,,,,1.0,floor
+0340092AR,Cercis siliquastrum,False,Pl Terra,,5.43,no_kerb,,check,,,,,1.0,floor
+0340093AR,Cercis siliquastrum,False,Pl Terra,,6.27,no_kerb,,check,,,,,1.0,floor
+0340094AR,Cercis siliquastrum,False,Pl Terra,,5.05,no_kerb,,check,,,,,1.0,floor
+0347161AR,Prunus cerasifera 'Pissardii',False,C\ Palamós,,13.27,median,,check,,,,,1.0,floor
+0347162AR,Prunus cerasifera 'Pissardii',False,C\ Palamós,4.83,3.94,ok,,medium,431945.89,4588839.35,431950.38,4588837.58,1.0,class
+0347163AR,Prunus cerasifera 'Pissardii',False,C\ Palamós,,12.38,median,,check,,,,,1.0,floor
+0347164AR,Prunus cerasifera 'Pissardii',False,C\ Palamós,4.28,3.54,ok,,medium,431960.77,4588873.51,431964.39,4588871.23,1.0,class
+0347173AR,Gleditsia triacanthos f. inermis,False,C\ Palamós,,15.32,median,,check,,,,,1.0,floor
+0347174AR,Gleditsia triacanthos f. inermis,False,C\ Pedrosa,,20.02,no_kerb,,check,,,,,1.0,floor
+0347175AR,Gleditsia triacanthos f. inermis,False,C\ Palamós,,17.02,median,,check,,,,,1.0,floor
+0347176AR,Gleditsia triacanthos f. inermis,False,C\ Palamós,,20.11,median,29.12,check,,,,,1.0,floor
+0347177AR,Gleditsia triacanthos f. inermis,False,C\ Pedrosa,,9.65,median,,check,,,,,1.0,floor
+0347178AR,Gleditsia triacanthos f. inermis,False,C\ Palamós,,5.55,median,13.38,check,,,,,1.0,floor
+0347179AR,Gleditsia triacanthos f. inermis,False,C\ Pedrosa,9.67,8.62,ok,,large,431909.5,4588882.41,431900.99,4588877.81,1.5,class
+0347180AR,Gleditsia triacanthos f. inermis,False,C\ Pedrosa,7.72,8.68,ok,,large,431872.46,4588881.33,431875.57,4588888.39,1.5,class
+0347181AR,Schinus terebinthifolia,False,C\ Pedrosa,21.44,14.63,ok,,large,431986.94,4588826.06,431971.21,4588840.63,1.5,class
+0347182AR,Schinus terebinthifolia,False,C\ Pedrosa,,8.49,median,4.66,check,,,,,1.0,floor
+0347183AR,Schinus terebinthifolia,False,C\ Pedrosa,6.53,7.47,ok,,large,431933.4,4588857.26,431935.86,4588863.31,1.5,class
+0347184AR,Schinus terebinthifolia,False,C\ Pedrosa,,8.13,median,5.46,check,,,,,1.0,floor
+0347185AR,Schinus terebinthifolia,False,C\ Pedrosa,,11.12,median,5.5,check,,,,,1.0,floor
+0347186AR,Schinus terebinthifolia,False,C\ Pedrosa,6.79,5.36,ok,,large,431911.4,4588878.89,431913.73,4588872.52,1.5,class
+0347187AR,Schinus terebinthifolia,False,C\ Pedrosa,14.47,8.19,ok,,large,431872.35,4588900.43,431861.58,4588890.76,1.5,class
+0347188AR,Schinus terebinthifolia,False,C\ Pedrosa,,10.29,median,,check,,,,,1.0,floor
+0347189AR,Schinus terebinthifolia,False,C\ Las Chafarinas,,10.43,median,8.4,check,,,,,1.0,floor
+0347190AR,Schinus terebinthifolia,False,C\ Las Chafarinas,,12.07,median,25.36,check,,,,,1.0,floor
+0347191AR,Schinus terebinthifolia,False,C\ Las Chafarinas,,17.27,median,,check,,,,,1.0,floor
+0347345AR,Schinus molle,False,C\ Aiguablava,,2.52,no_kerb,,check,,,,,1.0,floor

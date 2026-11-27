@@ -1,0 +1,1461 @@
+tree_id,species,is_plane,street,width_m,facade_dist_m,flag,strip_width_m,size_class,ray_x0,ray_y0,ray_x1,ray_y1,pit_min_m2,pit_basis
+0081738AR,Platanus × acerifolia,True,C\ Tortosa,,52.77,no_facade,,check,,,,,1.0,floor
+0081741AR,Platanus × acerifolia,True,C\ Tortosa,26.93,13.0,ok,,large,428157.53,4578146.71,428136.74,4578163.83,1.5,class
+0081742AR,Platanus × acerifolia,True,C\ Arnes,,20.35,median,,check,,,,,1.0,floor
+0081744AR,Styphnolobium japonicum,False,C\ Estany,3.95,3.49,ok,,medium,428201.78,4578395.92,428198.3,4578394.07,1.0,class
+0081746AR,Styphnolobium japonicum,False,C\ Estany,5.58,5.16,ok,,medium,428103.39,4578579.8,428097.94,4578580.99,1.0,class
+0081748AR,Platanus × acerifolia,True,C\ Foc,10.23,9.64,ok,,large,428104.57,4578580.45,428099.63,4578589.41,1.5,class
+0081750AR,Cercis siliquastrum,False,C\ Motors,,23.71,median,17.4,check,,,,,1.0,floor
+0081751AR,Platanus × acerifolia,True,C\ Foc,17.02,15.16,ok,,large,427798.01,4578422.3,427786.15,4578434.5,1.5,class
+0081752AR,Platanus × acerifolia,True,C\ Plom,,21.34,median,11.29,check,,,,,1.0,floor
+0081754AR,Cercis siliquastrum,False,C\ Cisell,,14.16,median,12.65,check,,,,,1.0,floor
+0081755AR,Ulmus RESISTA® 'New Horizon',False,Pl Nou,,16.14,median,28.01,check,,,,,1.0,floor
+0081756AR,Styphnolobium japonicum,False,Pl Nou,,25.05,median,27.3,check,,,,,1.0,floor
+0081758AR,Platanus × acerifolia,True,C\ Encuny,8.22,8.39,ok,,large,428554.73,4578382.39,428547.36,4578378.75,1.5,class
+0081759AR,Platanus × acerifolia,True,C\ Tortosa,,24.76,median,,check,,,,,1.0,floor
+0081760AR,Cercis siliquastrum,False,C\ Cisell,,12.79,median,,check,,,,,1.0,floor
+0081763AR,Platanus × acerifolia,True,C\ Tortosa,,8.89,no_kerb,,check,,,,,1.0,floor
+0081765AR,Cercis siliquastrum,False,C\ Cisell,,10.35,median,7.45,check,,,,,1.0,floor
+0081766AR,Styphnolobium japonicum,False,C\ Tortosa,,3.77,no_kerb,,check,,,,,1.0,floor
+0081767AR,Tipuana tipu,False,C\ Acer,12.92,10.14,ok,,large,427841.3,4578076.13,427844.05,4578088.75,1.5,class
+0081768AR,Styphnolobium japonicum,False,C\ Estany,25.37,23.01,ok,,large,428106.29,4578574.54,428114.35,4578550.49,1.5,class
+0081770AR,Platanus × acerifolia,True,C\ Cisell,4.07,3.23,ok,,medium,428300.2,4578412.88,428302.77,4578409.72,1.0,class
+0081771AR,Styphnolobium japonicum,False,C\ Estany,,23.93,median,6.38,check,,,,,1.0,floor
+0081772AR,Styphnolobium japonicum,False,Pl Nou,,17.92,median,1.95,check,,,,,1.0,floor
+0081773AR,Styphnolobium japonicum,False,C\ Foc,18.53,17.5,ok,,large,428133.53,4578599.49,428118.54,4578610.38,1.5,class
+0081775AR,Styphnolobium japonicum,False,C\ Riudoms,,4.07,no_kerb,,check,,,,,1.0,floor
+0081777AR,Platanus × acerifolia,True,C\ Tortosa,,8.62,no_kerb,,check,,,,,1.0,floor
+0081778AR,Platanus × acerifolia,True,C\ Foc,,33.94,no_facade,,check,,,,,1.0,floor
+0081779AR,Robinia pseudoacacia,False,C\ Arnes,4.02,2.08,ok,,medium,428081.57,4578176.87,428084.42,4578174.03,1.0,class
+0081781AR,Platanus × acerifolia,True,C\ Plom,4.67,3.29,ok,,medium,427960.17,4578238.72,427959.11,4578243.26,1.0,class
+0081786AR,Platanus × acerifolia,True,C\ Foc,,48.33,no_facade,,check,,,,,1.0,floor
+0081787AR,Cercis siliquastrum,False,C\ Motors,,8.62,no_kerb,23.38,check,,,,,1.0,floor
+0081788AR,Platanus × acerifolia,True,Pl Falset,,9.09,no_kerb,,check,,,,,1.0,floor
+0081791AR,Styphnolobium japonicum,False,C\ Estany,4.03,3.52,ok,,medium,428190.47,4578417.2,428186.91,4578415.31,1.0,class
+0081792AR,Platanus × acerifolia,True,C\ Tortosa,,24.28,no_kerb,,check,,,,,1.0,floor
+0081793AR,Platanus × acerifolia,True,C\ Tortosa,,21.98,no_kerb,,check,,,,,1.0,floor
+0081794AR,Styphnolobium japonicum,False,C\ Plom,8.75,7.64,ok,,large,427692.65,4578168.92,427699.38,4578163.32,1.5,class
+0081795AR,Platanus × acerifolia,True,C\ Tortosa,,9.08,median,,check,,,,,1.0,floor
+0081796AR,Platanus × acerifolia,True,C\ Cobalt,,26.4,no_kerb,,check,,,,,1.0,floor
+0081797AR,Ulmus RESISTA® 'New Horizon',False,Pl Nou,,21.89,median,26.59,check,,,,,1.0,floor
+0081798AR,Platanus × acerifolia,True,C\ Tortosa,26.97,12.92,ok,,large,428149.31,4578136.72,428128.49,4578153.86,1.5,class
+0081799AR,Platanus × acerifolia,True,C\ Cobalt,,16.56,median,,check,,,,,1.0,floor
+0081801AR,Gleditsia triacanthos f. inermis,False,Pg Zona Franca,22.85,20.9,ok,,large,428234.92,4578575.03,428255.78,4578565.71,1.5,class
+0081802AR,Platanus × acerifolia,True,C\ Tortosa,27.12,8.71,ok,,large,428140.45,4578125.8,428119.44,4578142.95,1.5,class
+0081806AR,Cercis siliquastrum,False,C\ Cisell,,14.23,median,14.74,check,,,,,1.0,floor
+0081807AR,Styphnolobium japonicum,False,C\ Arnes,13.82,12.12,ok,,large,428030.22,4578135.4,428040.9,4578126.62,1.5,class
+0081808AR,Platanus × acerifolia,True,Pl Falset,,23.84,no_kerb,,check,,,,,1.0,floor
+0081809AR,Styphnolobium japonicum,False,C\ Cobalt,16.01,11.89,ok,,large,428048.64,4578397.65,428034.52,4578390.09,1.5,class
+0081811AR,Styphnolobium japonicum,False,Pg Zona Franca,14.85,15.03,ok,,large,428487.48,4578200.03,428474.82,4578207.78,1.5,class
+0081812AR,Styphnolobium japonicum,False,Pg Zona Franca,,31.26,no_facade,,check,,,,,1.0,floor
+0081814AR,Styphnolobium japonicum,False,Pg Zona Franca,4.07,2.91,ok,,medium,428436.96,4578209.53,428440.55,4578211.45,1.0,class
+0081815AR,Styphnolobium japonicum,False,C\ Estany,3.89,3.35,ok,,medium,428210.42,4578379.66,428206.99,4578377.84,1.0,class
+0081816AR,Styphnolobium japonicum,False,C\ Estany,3.92,3.44,ok,,medium,428204.6,4578390.62,428201.13,4578388.78,1.0,class
+0081817AR,Platanus × acerifolia,True,C\ Plom,11.15,10.69,ok,,large,428029.09,4578247.73,428024.83,4578258.04,1.5,class
+0081819AR,Platanus × acerifolia,True,C\ Plom,,16.86,median,11.97,check,,,,,1.0,floor
+0081820AR,Platanus × acerifolia,True,C\ Encuny,5.99,5.1,ok,,medium,428645.96,4578257.8,428640.32,4578255.79,1.0,class
+0081821AR,Platanus × acerifolia,True,C\ Foc,,45.58,no_facade,,check,,,,,1.0,floor
+0081823AR,Eucalyptus globulus,False,C\ Tortosa,,3.8,no_kerb,,check,,,,,1.0,floor
+0081824AR,Styphnolobium japonicum,False,Pl Nou,,16.08,median,26.87,check,,,,,1.0,floor
+0081826AR,Platanus × acerifolia,True,C\ Foc,,41.7,no_facade,,check,,,,,1.0,floor
+0081827AR,Platanus × acerifolia,True,C\ Foc,16.13,15.14,ok,,large,427832.57,4578440.78,427824.96,4578455.01,1.5,class
+0081829AR,Platanus × acerifolia,True,C\ Foc,,50.88,no_facade,,check,,,,,1.0,floor
+0081830AR,Platanus × acerifolia,True,C\ Cobalt,,20.7,median,,check,,,,,1.0,floor
+0081831AR,Platanus × acerifolia,True,C\ Tortosa,,8.61,no_kerb,,check,,,,,1.0,floor
+0081832AR,Platanus × acerifolia,True,C\ Cobalt,9.91,5.74,ok,,large,428083.94,4578318.67,428075.21,4578313.99,1.5,class
+0081833AR,Tipuana tipu,False,C\ Acer,15.32,14.51,ok,,large,427876.09,4578090.53,427863.55,4578081.73,1.5,class
+0081834AR,Platanus × acerifolia,True,C\ Foc,,42.28,no_facade,10.01,check,,,,,1.0,floor
+0081835AR,Styphnolobium japonicum,False,C\ Plom,17.39,15.5,ok,,large,427882.32,4578197.94,427881.24,4578215.29,1.5,class
+0081836AR,Styphnolobium japonicum,False,C\ Plom,10.44,9.89,ok,,large,427699.62,4578175.79,427703.67,4578166.18,1.5,class
+0081837AR,Platanus × acerifolia,True,C\ Foc,,44.97,no_facade,,check,,,,,1.0,floor
+0081839AR,Styphnolobium japonicum,False,C\ Estany,18.49,16.52,ok,,large,428189.58,4578418.88,428177.48,4578432.87,1.5,class
+0081842AR,Platanus × acerifolia,True,C\ Encuny,9.36,9.54,ok,,large,428554.52,4578382.81,428545.22,4578383.8,1.5,class
+0081843AR,Platanus × acerifolia,True,C\ Plom,,9.54,median,10.25,check,,,,,1.0,floor
+0081844AR,Cercis siliquastrum,False,C\ Motors,,19.77,median,,check,,,,,1.0,floor
+0081847AR,Cercis siliquastrum,False,C\ Motors,,13.44,median,20.74,check,,,,,1.0,floor
+0081848AR,Platanus × acerifolia,True,C\ Foc,,64.52,no_facade,,check,,,,,1.0,floor
+0081849AR,Platanus × acerifolia,True,C\ Encuny,8.4,8.73,ok,,large,428557.63,4578376.52,428550.1,4578372.8,1.5,class
+0081850AR,Styphnolobium japonicum,False,C\ Estany,3.97,3.47,ok,,medium,428198.95,4578401.25,428195.45,4578399.39,1.0,class
+0081851AR,Platanus × acerifolia,True,Pl Falset,,8.87,no_kerb,,check,,,,,1.0,floor
+0081854AR,Platanus × acerifolia,True,C\ Encuny,5.92,4.62,ok,,medium,428649.63,4578252.56,428644.77,4578249.16,1.0,class
+0081855AR,Platanus × acerifolia,True,C\ Plom,10.33,7.93,ok,,large,428130.27,4578278.31,428138.82,4578284.11,1.5,class
+0081857AR,Cercis siliquastrum,False,C\ Encuny,,19.17,median,23.36,check,,,,,1.0,floor
+0081858AR,Platanus × acerifolia,True,C\ Cisell,4.12,3.56,ok,,medium,428239.75,4578364.01,428242.33,4578360.8,1.0,class
+0081860AR,Platanus × acerifolia,True,C\ Cisell,4.18,3.3,ok,,medium,428265.65,4578384.83,428268.95,4578382.26,1.0,class
+0081862AR,Styphnolobium japonicum,False,C\ Estany,9.92,8.69,ok,,large,428167.58,4578405.03,428176.33,4578409.71,1.5,class
+0081863AR,Platanus × acerifolia,True,C\ Cobalt,9.92,5.93,ok,,large,428091.23,4578305.06,428082.49,4578300.38,1.5,class
+0081864AR,Tipuana tipu,False,C\ Acer,15.29,14.56,ok,,large,427903.98,4578050.75,427891.46,4578041.98,1.5,class
+0081865AR,Styphnolobium japonicum,False,C\ Foc,11.21,10.11,ok,,large,428147.98,4578613.31,428144.0,4578623.79,1.5,class
+0081866AR,Platanus × acerifolia,True,C\ Cobalt,,22.49,median,,check,,,,,1.0,floor
+0081869AR,Platanus × acerifolia,True,C\ Cisell,14.48,13.11,ok,,large,428265.76,4578392.84,428280.17,4578391.36,1.5,class
+0081871AR,Styphnolobium japonicum,False,Pg Zona Franca,4.07,3.23,ok,,medium,428445.11,4578194.29,428448.7,4578196.2,1.0,class
+0081872AR,Styphnolobium japonicum,False,Pl Nou,,12.98,median,12.2,check,,,,,1.0,floor
+0081873AR,Robinia pseudoacacia,False,C\ Arnes,3.36,1.05,ok,,small,428086.22,4578180.17,428088.68,4578177.89,1.0,class
+0081874AR,Platanus × acerifolia,True,C\ Plom,5.05,4.64,ok,,medium,428104.74,4578293.46,428105.87,4578288.54,1.0,class
+0081875AR,Platanus × acerifolia,True,C\ Tortosa,,27.32,no_kerb,,check,,,,,1.0,floor
+0081877AR,Styphnolobium japonicum,False,C\ Plom,15.92,15.5,ok,,large,427810.62,4578194.57,427797.45,4578203.53,1.5,class
+0081878AR,Tipuana tipu,False,C\ Acer,15.31,13.95,ok,,large,427837.48,4578145.62,427824.95,4578136.83,1.5,class
+0081880AR,Styphnolobium japonicum,False,C\ Plom,,22.21,median,,check,,,,,1.0,floor
+0081882AR,Platanus × acerifolia,True,C\ Plom,10.02,9.16,ok,,large,427735.47,4578199.35,427740.97,4578190.98,1.5,class
+0081883AR,Platanus × acerifolia,True,C\ Pontils,,16.13,median,,check,,,,,1.0,floor
+0081886AR,Tipuana tipu,False,C\ Acer,,16.83,median,2.9,check,,,,,1.0,floor
+0081887AR,Ulmus RESISTA® 'New Horizon',False,Pl Nou,,20.92,median,28.58,check,,,,,1.0,floor
+0081888AR,Platanus × acerifolia,True,Pl Nou,4.96,4.34,ok,,medium,428120.68,4578299.43,428124.22,4578295.95,1.0,class
+0081889AR,Cercis siliquastrum,False,C\ Cisell,,14.14,median,11.16,check,,,,,1.0,floor
+0081890AR,Styphnolobium japonicum,False,C\ Estany,3.99,3.56,ok,,medium,428196.14,4578406.53,428192.62,4578404.66,1.0,class
+0081891AR,Platanus × acerifolia,True,C\ Cobalt,,31.88,no_facade,,check,,,,,1.0,floor
+0081892AR,Platanus × acerifolia,True,C\ Tortosa,28.59,9.41,ok,,large,428141.65,4578127.27,428126.59,4578151.57,1.5,class
+0081893AR,Styphnolobium japonicum,False,Pg Zona Franca,11.68,7.19,ok,,large,428504.59,4578167.97,428494.31,4578162.45,1.5,class
+0081894AR,Styphnolobium japonicum,False,C\ Tortosa,,13.62,no_kerb,,check,,,,,1.0,floor
+0081896AR,Platanus × acerifolia,True,C\ Plom,15.45,14.07,ok,,large,428015.99,4578241.96,428005.96,4578253.71,1.5,class
+0081897AR,Ulmus pumila,False,C\ Sovelles,,15.37,median,,check,,,,,1.0,floor
+0081898AR,Cercis siliquastrum,False,C\ Encuny,,13.99,no_kerb,21.67,check,,,,,1.0,floor
+0081899AR,Ulmus pumila,False,C\ Plom,10.14,9.78,ok,,large,427750.25,4578170.56,427744.66,4578179.01,1.5,class
+0081901AR,Ulmus pumila,False,C\ Sovelles,7.24,6.08,ok,,large,428225.75,4578317.15,428230.86,4578322.28,1.5,class
+0081902AR,Platanus × acerifolia,True,C\ Tortosa,,57.61,no_facade,,check,,,,,1.0,floor
+0081903AR,Platanus × acerifolia,True,C\ Plom,11.68,10.3,ok,,large,427680.07,4578163.93,427683.49,4578152.76,1.5,class
+0081904AR,Styphnolobium japonicum,False,Pg Zona Franca,15.19,13.36,ok,,large,428393.0,4578386.28,428378.1,4578389.2,1.5,class
+0081905AR,Platanus × acerifolia,True,Pl Falset,,9.87,no_kerb,,check,,,,,1.0,floor
+0081906AR,Robinia pseudoacacia,False,C\ Arnes,19.66,15.4,ok,,large,428012.03,4578103.8,428029.47,4578112.88,1.5,class
+0081908AR,Tipuana tipu,False,C\ Acer,15.31,14.63,ok,,large,427858.11,4578116.19,427845.58,4578107.4,1.5,class
+0081909AR,Platanus × acerifolia,True,C\ Foc,16.95,16.07,ok,,large,427838.16,4578443.77,427835.29,4578460.47,1.5,class
+0081910AR,Tipuana tipu,False,C\ Acer,15.31,14.31,ok,,large,427828.54,4578158.38,427816.0,4578149.59,1.5,class
+0081912AR,Platanus × acerifolia,True,Pl Falset,,10.32,no_kerb,,check,,,,,1.0,floor
+0081913AR,Platanus × acerifolia,True,Pl Nou,5.06,4.68,ok,,medium,428128.8,4578307.71,428132.41,4578304.17,1.0,class
+0081916AR,Platanus × acerifolia,True,C\ Plom,3.95,3.5,ok,,medium,428091.77,4578269.25,428090.87,4578273.1,1.0,class
+0081918AR,Tipuana tipu,False,C\ Acer,15.31,14.6,ok,,large,427861.66,4578111.13,427849.12,4578102.34,1.5,class
+0081920AR,Platanus × acerifolia,True,C\ Foc,,45.93,no_facade,,check,,,,,1.0,floor
+0081921AR,Platanus × acerifolia,True,C\ Foc,16.26,15.29,ok,,large,428134.33,4578600.52,428124.72,4578613.64,1.5,class
+0081922AR,Platanus × acerifolia,True,C\ Foc,,48.51,no_facade,,check,,,,,1.0,floor
+0081923AR,Styphnolobium japonicum,False,C\ Estany,,22.63,median,9.97,check,,,,,1.0,floor
+0081924AR,Platanus × acerifolia,True,C\ Plom,3.95,3.34,ok,,medium,427849.63,4578213.83,427848.76,4578217.68,1.0,class
+0081925AR,Platanus × acerifolia,True,C\ Cobalt,,11.97,median,10.07,check,,,,,1.0,floor
+0081926AR,Styphnolobium japonicum,False,C\ Foc,,68.79,no_facade,,check,,,,,1.0,floor
+0081927AR,Styphnolobium japonicum,False,C\ Foc,,23.11,median,7.59,check,,,,,1.0,floor
+0081928AR,Styphnolobium japonicum,False,C\ Foc,,55.21,no_facade,,check,,,,,1.0,floor
+0081929AR,Cercis siliquastrum,False,C\ Cisell,,9.33,median,6.24,check,,,,,1.0,floor
+0081930AR,Platanus × acerifolia,True,C\ Foc,,57.59,no_facade,,check,,,,,1.0,floor
+0081932AR,Styphnolobium japonicum,False,C\ Pontils,,16.75,median,,check,,,,,1.0,floor
+0081934AR,Tipuana tipu,False,C\ Acer,15.31,14.65,ok,,large,427853.37,4578122.95,427840.84,4578114.16,1.5,class
+0081937AR,Platanus × acerifolia,True,C\ Cobalt,,26.36,median,,check,,,,,1.0,floor
+0081938AR,Styphnolobium japonicum,False,C\ Tortosa,,3.96,no_kerb,,check,,,,,1.0,floor
+0081939AR,Ulmus pumila,False,Pl Nou,,26.65,median,25.6,check,,,,,1.0,floor
+0081941AR,Styphnolobium japonicum,False,C\ Cobalt,16.36,11.25,ok,,large,428056.92,4578382.17,428044.36,4578371.69,1.5,class
+0081942AR,Styphnolobium japonicum,False,C\ Estany,,9.28,median,3.98,check,,,,,1.0,floor
+0081943AR,Platanus × acerifolia,True,C\ Tortosa,26.94,13.62,ok,,large,428154.78,4578143.37,428133.98,4578160.49,1.5,class
+0081944AR,Tipuana tipu,False,C\ Acer,9.52,8.2,ok,,large,427841.96,4578075.13,427849.86,4578080.44,1.5,class
+0081946AR,Gleditsia triacanthos f. inermis,False,Pg Zona Franca,16.95,15.15,ok,,large,428234.92,4578575.03,428251.77,4578573.21,1.5,class
+0081947AR,Styphnolobium japonicum,False,Pg Zona Franca,4.07,3.47,ok,,medium,428425.29,4578231.39,428428.87,4578233.31,1.0,class
+0081948AR,Platanus × acerifolia,True,C\ Tortosa,,45.56,no_facade,,check,,,,,1.0,floor
+0081949AR,Platanus × acerifolia,True,Pl Falset,,13.04,no_kerb,,check,,,,,1.0,floor
+0081950AR,Cercis siliquastrum,False,C\ Cisell,2.85,1.8,ok,,small,428523.36,4578502.15,428521.89,4578504.59,1.0,class
+0081952AR,Platanus × acerifolia,True,C\ Tortosa,,59.09,no_facade,38.48,check,,,,,1.0,floor
+0081953AR,Cercis siliquastrum,False,C\ Cisell,2.88,1.79,ok,,small,428535.82,4578509.67,428534.33,4578512.14,1.0,class
+0081954AR,Robinia pseudoacacia,False,C\ Motors,,15.13,median,24.61,check,,,,,1.0,floor
+0081955AR,Styphnolobium japonicum,False,C\ Estany,,9.35,median,3.97,check,,,,,1.0,floor
+0081957AR,Styphnolobium japonicum,False,C\ Foc,,49.48,no_facade,,check,,,,,1.0,floor
+0081958AR,Styphnolobium japonicum,False,C\ Tortosa,,29.46,median,,check,,,,,1.0,floor
+0081960AR,Platanus × acerifolia,True,Pl Falset,,10.14,no_kerb,,check,,,,,1.0,floor
+0081961AR,Cercis siliquastrum,False,C\ Cisell,2.83,1.7,ok,,small,428519.09,4578499.57,428517.62,4578502.0,1.0,class
+0081962AR,Ulmus pumila,False,C\ Sovelles,,16.11,median,,check,,,,,1.0,floor
+0081964AR,Styphnolobium japonicum,False,C\ Tortosa,,3.74,no_kerb,,check,,,,,1.0,floor
+0081966AR,Tipuana tipu,False,C\ Acer,15.48,13.44,ok,,large,427804.08,4578119.19,427817.91,4578126.14,1.5,class
+0081967AR,Styphnolobium japonicum,False,Pl Nou,,22.76,median,28.58,check,,,,,1.0,floor
+0081968AR,Platanus × acerifolia,True,C\ Plom,6.65,5.02,ok,,large,427962.43,4578239.24,427966.02,4578244.84,1.5,class
+0081970AR,Platanus × acerifolia,True,Pl Nou,,18.51,median,8.52,check,,,,,1.0,floor
+0081971AR,Platanus × acerifolia,True,Pl Nou,11.08,10.27,ok,,large,428175.04,4578362.69,428182.94,4578354.92,1.5,class
+0081972AR,Styphnolobium japonicum,False,C\ Estany,4.01,2.93,ok,,medium,428144.53,4578460.34,428148.06,4578462.23,1.0,class
+0081973AR,Styphnolobium japonicum,False,C\ Estany,9.96,8.83,ok,,large,428162.02,4578415.3,428170.8,4578420.0,1.5,class
+0081974AR,Platanus × acerifolia,True,C\ Tortosa,,36.34,no_facade,,check,,,,,1.0,floor
+0081975AR,Platanus × acerifolia,True,C\ Tortosa,,32.67,no_facade,,check,,,,,1.0,floor
+0081976AR,Styphnolobium japonicum,False,Pl Nou,,25.16,median,26.61,check,,,,,1.0,floor
+0081977AR,Tipuana tipu,False,C\ Acer,15.32,14.77,ok,,large,427885.85,4578076.61,427873.31,4578067.81,1.5,class
+0081978AR,Styphnolobium japonicum,False,Pg Zona Franca,4.07,2.88,ok,,medium,428419.1,4578242.97,428422.69,4578244.89,1.0,class
+0081981AR,Styphnolobium japonicum,False,C\ Estany,,30.36,no_facade,,check,,,,,1.0,floor
+0081982AR,Platanus × acerifolia,True,C\ Cobalt,19.79,13.54,ok,,large,428056.92,4578382.17,428048.27,4578364.38,1.5,class
+0081984AR,Platanus × acerifolia,True,C\ Tortosa,,45.4,no_facade,,check,,,,,1.0,floor
+0081985AR,Styphnolobium japonicum,False,Pg Zona Franca,24.56,21.5,ok,,large,428393.0,4578386.28,428372.46,4578399.75,1.5,class
+0081987AR,Styphnolobium japonicum,False,C\ Estany,,22.94,median,10.11,check,,,,,1.0,floor
+0081989AR,Platanus × acerifolia,True,C\ Cisell,10.66,8.02,ok,,large,428265.65,4578384.83,428275.87,4578387.88,1.5,class
+0081991AR,Styphnolobium japonicum,False,C\ Encuny,6.66,6.52,ok,,large,428624.5,4578280.11,428625.91,4578273.6,1.5,class
+0081993AR,Styphnolobium japonicum,False,C\ Plom,9.33,8.13,ok,,large,427690.76,4578168.33,427693.49,4578159.41,1.5,class
+0081994AR,Platanus × acerifolia,True,C\ Cobalt,,31.36,no_facade,,check,,,,,1.0,floor
+0081995AR,Platanus × acerifolia,True,Pl Nou,,18.49,median,14.71,check,,,,,1.0,floor
+0081996AR,Styphnolobium japonicum,False,C\ Cobalt,,11.94,median,10.05,check,,,,,1.0,floor
+0082002AR,Platanus × acerifolia,True,C\ Cobalt,,5.88,median,10.02,check,,,,,1.0,floor
+0082005AR,Platanus × acerifolia,True,C\ Plom,5.04,4.87,ok,,medium,428098.68,4578292.06,428099.82,4578287.15,1.0,class
+0082007AR,Platanus × acerifolia,True,Pl Nou,4.99,4.57,ok,,medium,428124.13,4578302.95,428127.69,4578299.45,1.0,class
+0082008AR,Styphnolobium japonicum,False,C\ Tortosa,,3.86,no_kerb,,check,,,,,1.0,floor
+0082009AR,Ulmus pumila,False,C\ Sovelles,7.24,6.1,ok,,large,428231.76,4578311.17,428236.87,4578316.3,1.5,class
+0082010AR,Robinia pseudoacacia,False,C\ Arnes,18.12,16.43,ok,,large,428018.82,4578127.93,428030.4,4578113.99,1.5,class
+0082011AR,Platanus × acerifolia,True,Pl Falset,,19.63,no_kerb,,check,,,,,1.0,floor
+0082012AR,Ulmus pumila,False,C\ Sovelles,,15.23,median,,check,,,,,1.0,floor
+0082014AR,Styphnolobium japonicum,False,C\ Plom,5.03,4.82,ok,,medium,428110.52,4578294.8,428111.66,4578289.9,1.0,class
+0082018AR,Platanus × acerifolia,True,C\ Foc,,76.57,no_facade,,check,,,,,1.0,floor
+0082019AR,Ulmus pumila,False,C\ Sovelles,,15.22,median,,check,,,,,1.0,floor
+0082020AR,Platanus × acerifolia,True,C\ Plom,3.75,2.93,ok,,medium,428119.89,4578275.87,428119.03,4578279.52,1.0,class
+0082022AR,Styphnolobium japonicum,False,C\ Estany,,33.35,no_facade,6.2,check,,,,,1.0,floor
+0082023AR,Styphnolobium japonicum,False,Pg Zona Franca,,38.26,no_facade,,check,,,,,1.0,floor
+0082026AR,Platanus × acerifolia,True,C\ Tortosa,,37.58,no_facade,,check,,,,,1.0,floor
+0082028AR,Platanus × acerifolia,True,C\ Cisell,4.11,3.35,ok,,medium,428257.88,4578378.58,428260.45,4578375.38,1.0,class
+0082029AR,Platanus × acerifolia,True,C\ Foc,16.29,15.52,ok,,large,427802.52,4578424.71,427794.84,4578439.07,1.5,class
+0082031AR,Tipuana tipu,False,C\ Acer,15.48,14.01,ok,,large,427809.51,4578111.16,427822.05,4578120.22,1.5,class
+0082033AR,Styphnolobium japonicum,False,C\ Foc,,62.73,no_facade,,check,,,,,1.0,floor
+0082034AR,Gleditsia triacanthos f. inermis,False,Pg Zona Franca,,11.16,median,7.98,check,,,,,1.0,floor
+0082036AR,Styphnolobium japonicum,False,C\ Estany,,24.25,median,,check,,,,,1.0,floor
+0082038AR,Tipuana tipu,False,C\ Acer,,16.41,median,2.9,check,,,,,1.0,floor
+0082040AR,Platanus × acerifolia,True,Pl Nou,,16.62,median,8.06,check,,,,,1.0,floor
+0082043AR,Ulmus RESISTA® 'New Horizon',False,Pl Nou,,17.44,median,28.98,check,,,,,1.0,floor
+0082044AR,Ulmus pumila,False,C\ Sovelles,8.84,6.2,ok,,large,428254.27,4578288.76,428260.5,4578295.02,1.5,class
+0082045AR,Tipuana tipu,False,C\ Acer,15.3,14.69,ok,,large,427897.76,4578059.62,427885.23,4578050.84,1.5,class
+0082046AR,Platanus × acerifolia,True,Pl Falset,,9.73,no_kerb,,check,,,,,1.0,floor
+0082047AR,Platanus × acerifolia,True,Pl Falset,,9.75,no_kerb,,check,,,,,1.0,floor
+0082048AR,Styphnolobium japonicum,False,Pl Nou,,21.74,median,23.88,check,,,,,1.0,floor
+0082049AR,Tipuana tipu,False,C\ Acer,9.66,8.16,ok,,large,427846.1,4578068.96,427854.12,4578074.34,1.5,class
+0082050AR,Styphnolobium japonicum,False,C\ Plom,10.15,9.44,ok,,large,427745.43,4578167.37,427739.83,4578175.83,1.5,class
+0082052AR,Platanus × acerifolia,True,C\ Arnes,9.08,8.31,ok,,large,427940.75,4578047.37,427946.33,4578040.21,1.5,class
+0082053AR,Platanus × acerifolia,True,C\ Cisell,4.07,3.31,ok,,medium,428290.74,4578405.19,428293.31,4578402.03,1.0,class
+0082054AR,Platanus × acerifolia,True,C\ Cisell,4.07,3.4,ok,,medium,428310.07,4578420.89,428312.63,4578417.73,1.0,class
+0082055AR,Styphnolobium japonicum,False,Pg Zona Franca,12.14,10.97,ok,,large,428435.39,4578307.56,428424.69,4578301.82,1.5,class
+0082057AR,Platanus × acerifolia,True,C\ Plom,10.12,9.48,ok,,large,427720.83,4578189.74,427726.39,4578181.28,1.5,class
+0082058AR,Platanus × acerifolia,True,Pl Falset,,14.21,no_kerb,,check,,,,,1.0,floor
+0082059AR,Styphnolobium japonicum,False,C\ Encuny,3.41,3.27,ok,,small,428514.98,4578466.26,428511.97,4578464.64,1.0,class
+0082061AR,Ulmus pumila,False,C\ Sovelles,,15.41,median,,check,,,,,1.0,floor
+0082062AR,Cercis siliquastrum,False,C\ Encuny,,13.87,median,31.86,check,,,,,1.0,floor
+0082063AR,Robinia pseudoacacia,False,C\ Arnes,3.24,0.97,ok,,small,428066.67,4578160.36,428069.04,4578158.14,1.0,class
+0082064AR,Ginkgo biloba 'Fastigiata',False,C\ Motors,,14.64,median,23.82,check,,,,,1.0,floor
+0082065AR,Eucalyptus globulus,False,C\ Tortosa,,3.78,no_kerb,,check,,,,,1.0,floor
+0082067AR,Styphnolobium japonicum,False,C\ Cobalt,13.01,7.82,ok,,large,428037.92,4578404.84,428033.1,4578392.76,1.5,class
+0082071AR,Ulmus pumila,False,C\ Sovelles,,15.1,median,,check,,,,,1.0,floor
+0082072AR,Platanus × acerifolia,True,C\ Tortosa,,32.83,no_facade,,check,,,,,1.0,floor
+0082074AR,Styphnolobium japonicum,False,C\ Encuny,3.32,3.19,ok,,small,428509.48,4578476.51,428506.55,4578474.94,1.0,class
+0082075AR,Platanus × acerifolia,True,Pl Falset,,19.91,no_kerb,,check,,,,,1.0,floor
+0082078AR,Platanus × acerifolia,True,C\ Foc,,38.07,no_facade,,check,,,,,1.0,floor
+0082079AR,Styphnolobium japonicum,False,C\ Estany,19.32,17.03,ok,,large,428106.29,4578574.54,428111.43,4578555.92,1.5,class
+0082081AR,Styphnolobium japonicum 'Dot',False,C\ Acer,,38.64,no_facade,,check,,,,,1.0,floor
+0082082AR,Ulmus pumila,False,C\ Sovelles,8.82,6.09,ok,,large,428248.44,4578294.56,428254.67,4578300.81,1.5,class
+0082083AR,Styphnolobium japonicum,False,C\ Estany,,28.43,median,6.28,check,,,,,1.0,floor
+0082084AR,Tipuana tipu,False,C\ Acer,15.31,13.73,ok,,large,427849.34,4578128.7,427836.81,4578119.91,1.5,class
+0082086AR,Platanus × acerifolia,True,Pl Falset,,24.59,no_kerb,,check,,,,,1.0,floor
+0082088AR,Styphnolobium japonicum,False,C\ Estany,9.93,8.69,ok,,large,428170.41,4578399.73,428179.17,4578404.41,1.5,class
+0082089AR,Styphnolobium japonicum,False,C\ Foc,,44.38,no_facade,,check,,,,,1.0,floor
+0082090AR,Styphnolobium japonicum,False,C\ Estany,,22.76,median,10.07,check,,,,,1.0,floor
+0082091AR,Platanus × acerifolia,True,C\ Arnes,,19.86,median,,check,,,,,1.0,floor
+0082092AR,Ulmus pumila,False,C\ Plom,10.22,9.48,ok,,large,427714.09,4578146.62,427708.45,4578155.15,1.5,class
+0082095AR,Styphnolobium japonicum,False,C\ Plom,,22.66,median,,check,,,,,1.0,floor
+0082098AR,Platanus × acerifolia,True,C\ Foc,,79.75,no_facade,,check,,,,,1.0,floor
+0082099AR,Platanus × acerifolia,True,C\ Encuny,6.47,5.3,ok,,large,428654.33,4578245.83,428649.02,4578242.12,1.5,class
+0082100AR,Platanus × acerifolia,True,C\ Foc,,42.58,no_facade,,check,,,,,1.0,floor
+0082101AR,Platanus × acerifolia,True,Pl Nou,7.8,6.31,ok,,large,428148.07,4578326.89,428147.35,4578319.12,1.5,class
+0082103AR,Cercis siliquastrum,False,C\ Cisell,,14.19,median,11.89,check,,,,,1.0,floor
+0082104AR,Platanus × acerifolia,True,Pl Nou,5.85,4.93,ok,,medium,428137.18,4578316.25,428142.74,4578314.42,1.0,class
+0082105AR,Tipuana tipu,False,C\ Acer,16.52,16.09,ok,,large,427812.04,4578182.95,427796.46,4578177.46,1.5,class
+0082107AR,Ulmus pumila,False,C\ Sovelles,,15.4,median,,check,,,,,1.0,floor
+0082108AR,Platanus × acerifolia,True,Pl Falset,,9.79,no_kerb,,check,,,,,1.0,floor
+0082109AR,Platanus × acerifolia,True,Pl Falset,,18.24,no_kerb,,check,,,,,1.0,floor
+0082110AR,Platanus × acerifolia,True,C\ Tortosa,27.03,8.97,ok,,large,428122.78,4578104.62,428101.9,4578121.79,1.5,class
+0082111AR,Platanus × acerifolia,True,Pl Falset,,23.68,no_kerb,,check,,,,,1.0,floor
+0082112AR,Styphnolobium japonicum,False,C\ Plom,3.84,2.79,ok,,medium,428101.77,4578271.61,428100.89,4578275.34,1.0,class
+0082113AR,Styphnolobium japonicum,False,C\ Tortosa,,3.86,no_kerb,,check,,,,,1.0,floor
+0082114AR,Morus alba,False,C\ Plom,11.47,9.47,ok,,large,427691.97,4578117.46,427680.88,4578114.54,1.5,class
+0082115AR,Styphnolobium japonicum,False,C\ Estany,9.95,8.76,ok,,large,428156.29,4578426.01,428165.06,4578430.7,1.5,class
+0082116AR,Styphnolobium japonicum,False,C\ Riudoms,,4.05,no_kerb,,check,,,,,1.0,floor
+0082117AR,Cercis siliquastrum,False,C\ Cisell,,9.79,median,6.83,check,,,,,1.0,floor
+0082121AR,Platanus × acerifolia,True,C\ Encuny,3.24,2.8,ok,,small,428525.84,4578445.17,428522.94,4578443.72,1.0,class
+0082123AR,Platanus × acerifolia,True,C\ Cobalt,,16.7,median,,check,,,,,1.0,floor
+0082124AR,Platanus × acerifolia,True,C\ Encuny,3.63,3.47,ok,,medium,428586.71,4578319.9,428585.19,4578316.61,1.0,class
+0082125AR,Styphnolobium japonicum,False,C\ Plom,10.47,9.55,ok,,large,427696.88,4578135.1,427689.99,4578142.98,1.5,class
+0082126AR,Platanus × acerifolia,True,C\ Cisell,4.12,3.47,ok,,medium,428235.11,4578360.28,428237.69,4578357.07,1.0,class
+0082127AR,Platanus × acerifolia,True,Pl Falset,,10.25,no_kerb,,check,,,,,1.0,floor
+0082128AR,Platanus × acerifolia,True,C\ Cisell,4.12,3.4,ok,,medium,428244.33,4578367.69,428246.91,4578364.48,1.0,class
+0082130AR,Platanus × acerifolia,True,C\ Tortosa,,15.93,median,,check,,,,,1.0,floor
+0082133AR,Robinia pseudoacacia,False,C\ Motors,,14.97,median,24.6,check,,,,,1.0,floor
+0082134AR,Styphnolobium japonicum,False,C\ Estany,,16.85,median,5.99,check,,,,,1.0,floor
+0082135AR,Platanus × acerifolia,True,C\ Plom,12.87,12.19,ok,,large,427818.27,4578197.9,427813.14,4578209.7,1.5,class
+0082136AR,Styphnolobium japonicum,False,C\ Estany,12.55,10.79,ok,,large,428106.29,4578574.54,428108.09,4578562.12,1.5,class
+0082137AR,Styphnolobium japonicum,False,C\ Estany,9.98,8.69,ok,,large,428184.62,4578373.16,428193.42,4578377.87,1.5,class
+0082138AR,Platanus × acerifolia,True,C\ Foc,,47.68,no_facade,,check,,,,,1.0,floor
+0082139AR,Platanus × acerifolia,True,C\ Tortosa,,20.43,median,,check,,,,,1.0,floor
+0082140AR,Platanus × acerifolia,True,C\ Tortosa,26.96,8.84,ok,,large,428137.22,4578122.15,428116.41,4578139.29,1.5,class
+0082141AR,Platanus × acerifolia,True,C\ Tortosa,,8.33,no_kerb,,check,,,,,1.0,floor
+0082143AR,Platanus × acerifolia,True,C\ Cisell,4.07,3.44,ok,,medium,428295.5,4578409.05,428298.06,4578405.89,1.0,class
+0082144AR,Platanus × acerifolia,True,C\ Cobalt,,16.77,median,,check,,,,,1.0,floor
+0082145AR,Styphnolobium japonicum,False,C\ Estany,10.58,9.43,ok,,large,428149.35,4578438.97,428156.31,4578446.95,1.5,class
+0082146AR,Ulmus pumila,False,C\ Sovelles,8.85,6.21,ok,,large,428259.92,4578283.13,428266.17,4578289.4,1.5,class
+0082147AR,Styphnolobium japonicum,False,C\ Estany,12.16,10.73,ok,,large,428189.58,4578418.88,428180.59,4578427.08,1.5,class
+0082148AR,Styphnolobium japonicum,False,C\ Estany,,20.08,median,19.77,check,,,,,1.0,floor
+0082149AR,Styphnolobium japonicum,False,C\ Arnes,6.07,3.46,ok,,large,428047.1,4578139.53,428046.73,4578133.47,1.5,class
+0082150AR,Styphnolobium japonicum,False,C\ Estany,,22.48,median,19.75,check,,,,,1.0,floor
+0082151AR,Styphnolobium japonicum,False,C\ Plom,,22.69,median,,check,,,,,1.0,floor
+0082154AR,Platanus × acerifolia,True,C\ Tortosa,,55.26,no_facade,41.89,check,,,,,1.0,floor
+0082156AR,Tipuana tipu,False,C\ Acer,17.43,16.84,ok,,large,427906.28,4578047.46,427898.58,4578031.83,1.5,class
+0082158AR,Styphnolobium japonicum,False,C\ Estany,,22.06,median,6.06,check,,,,,1.0,floor
+0082161AR,Ulmus pumila,False,C\ Sovelles,8.84,6.08,ok,,large,428296.82,4578246.59,428303.04,4578252.86,1.5,class
+0082163AR,Styphnolobium japonicum,False,Pl Nou,,29.97,median,26.9,check,,,,,1.0,floor
+0082164AR,Styphnolobium japonicum,False,C\ Tortosa,,3.65,no_kerb,,check,,,,,1.0,floor
+0082165AR,Ulmus pumila,False,C\ Sovelles,8.84,6.2,ok,,large,428275.78,4578267.44,428282.0,4578273.72,1.5,class
+0082168AR,Platanus × acerifolia,True,C\ Arnes,,19.91,median,,check,,,,,1.0,floor
+0082169AR,Styphnolobium japonicum,False,Pg Zona Franca,,31.55,no_facade,,check,,,,,1.0,floor
+0082170AR,Robinia pseudoacacia,False,C\ Motors,,14.89,median,24.54,check,,,,,1.0,floor
+0082171AR,Styphnolobium japonicum,False,Pl Nou,,12.91,median,8.26,check,,,,,1.0,floor
+0082172AR,Styphnolobium japonicum,False,C\ Plom,,26.17,median,,check,,,,,1.0,floor
+0082173AR,Platanus × acerifolia,True,C\ Foc,11.83,10.87,ok,,large,428164.32,4578622.31,428163.62,4578634.12,1.5,class
+0082177AR,Tipuana tipu,False,C\ Acer,15.35,13.5,ok,,large,427822.95,4578092.17,427835.55,4578100.93,1.5,class
+0082178AR,Platanus × acerifolia,True,C\ Cisell,2.87,1.45,ok,,small,428507.29,4578481.57,428504.52,4578482.32,1.0,class
+0082179AR,Platanus × acerifolia,True,C\ Encuny,3.79,2.9,ok,,medium,428628.52,4578250.82,428631.47,4578253.2,1.0,class
+0082181AR,Platanus × acerifolia,True,C\ Cobalt,19.51,14.47,ok,,large,427986.55,4578520.7,427968.01,4578514.63,1.5,class
+0082184AR,Styphnolobium japonicum,False,C\ Estany,3.88,3.38,ok,,medium,428213.78,4578373.34,428210.35,4578371.51,1.0,class
+0082187AR,Platanus × acerifolia,True,C\ Encuny,8.57,7.7,ok,,large,428586.71,4578319.9,428589.62,4578311.84,1.5,class
+0082188AR,Styphnolobium japonicum,False,C\ Cobalt,,27.87,median,,check,,,,,1.0,floor
+0082189AR,Styphnolobium japonicum,False,C\ Plom,3.81,3.17,ok,,medium,428107.97,4578273.06,428107.09,4578276.77,1.0,class
+0082190AR,Styphnolobium japonicum,False,C\ Estany,,17.81,median,6.74,check,,,,,1.0,floor
+0082191AR,Platanus × acerifolia,True,C\ Cobalt,,17.83,median,,check,,,,,1.0,floor
+0082192AR,Morus alba,False,C\ Encuny,3.55,3.61,ok,,medium,428624.5,4578280.11,428622.53,4578277.15,1.0,class
+0082193AR,Platanus × acerifolia,True,C\ Foc,17.57,16.76,ok,,large,427989.96,4578522.59,427983.6,4578538.96,1.5,class
+0082194AR,Tipuana tipu,False,C\ Acer,14.16,11.73,ok,,large,427781.93,4578162.8,427795.31,4578158.15,1.5,class
+0082196AR,Platanus × acerifolia,True,C\ Cobalt,,12.23,median,10.07,check,,,,,1.0,floor
+0082197AR,Platanus × acerifolia,True,C\ Encuny,3.26,3.01,ok,,small,428540.57,4578408.52,428537.36,4578407.95,1.0,class
+0082199AR,Styphnolobium japonicum,False,C\ Riudoms,,4.01,no_kerb,,check,,,,,1.0,floor
+0082200AR,Cercis siliquastrum,False,C\ Cisell,2.94,2.47,ok,,small,428553.81,4578520.53,428552.3,4578523.04,1.0,class
+0082202AR,Styphnolobium japonicum,False,C\ Tortosa,,19.53,no_kerb,,check,,,,,1.0,floor
+0082203AR,Cercis siliquastrum,False,C\ Encuny,,17.51,median,32.68,check,,,,,1.0,floor
+0082206AR,Platanus × acerifolia,True,C\ Tortosa,26.97,9.07,ok,,large,428134.05,4578118.3,428113.24,4578135.46,1.5,class
+0082207AR,Platanus × acerifolia,True,C\ Pontils,,16.57,median,,check,,,,,1.0,floor
+0082208AR,Platanus × acerifolia,True,C\ Cobalt,,25.54,median,,check,,,,,1.0,floor
+0082210AR,Cercis siliquastrum,False,C\ Encuny,,12.8,median,22.79,check,,,,,1.0,floor
+0082211AR,Platanus × acerifolia,True,Pl Falset,,11.02,no_kerb,,check,,,,,1.0,floor
+0082213AR,Styphnolobium japonicum,False,C\ Estany,,22.93,median,10.18,check,,,,,1.0,floor
+0082214AR,Platanus × acerifolia,True,C\ Plom,,17.04,median,,check,,,,,1.0,floor
+0082217AR,Ulmus pumila,False,C\ Sovelles,8.83,6.22,ok,,large,428301.98,4578241.47,428308.2,4578247.74,1.5,class
+0082219AR,Styphnolobium japonicum,False,C\ Plom,10.24,9.54,ok,,large,427707.39,4578142.19,427701.74,4578150.73,1.5,class
+0082221AR,Styphnolobium japonicum,False,C\ Estany,,12.3,median,5.92,check,,,,,1.0,floor
+0082222AR,Styphnolobium japonicum,False,C\ Plom,10.04,8.81,ok,,large,427683.99,4578165.13,427689.11,4578156.49,1.5,class
+0082223AR,Platanus × acerifolia,True,C\ Pontils,,23.77,median,40.95,check,,,,,1.0,floor
+0082224AR,Ulmus pumila,False,Pg Zona Franca,7.51,7.35,ok,,large,428495.11,4578185.82,428488.47,4578182.3,1.5,class
+0082225AR,Ulmus pumila,False,C\ Sovelles,7.25,6.18,ok,,large,428237.68,4578305.28,428242.8,4578310.42,1.5,class
+0082228AR,Styphnolobium japonicum,False,C\ Tortosa,,17.36,no_kerb,,check,,,,,1.0,floor
+0082229AR,Platanus × acerifolia,True,C\ Arnes,,19.45,median,,check,,,,,1.0,floor
+0082230AR,Platanus × acerifolia,True,C\ Plom,4.12,3.34,ok,,medium,428071.43,4578264.47,428070.48,4578268.48,1.0,class
+0082231AR,Ulmus RESISTA® 'New Horizon',False,Pl Nou,,22.03,median,24.98,check,,,,,1.0,floor
+0082232AR,Styphnolobium japonicum,False,C\ Foc,,43.96,no_facade,,check,,,,,1.0,floor
+0082233AR,Tipuana tipu,False,C\ Acer,,17.06,median,2.9,check,,,,,1.0,floor
+0082234AR,Platanus × acerifolia,True,C\ Tortosa,26.96,13.4,ok,,large,428151.46,4578139.34,428130.65,4578156.47,1.5,class
+0082235AR,Tipuana tipu,False,C\ Acer,15.72,15.24,ok,,large,427813.59,4578179.47,427803.49,4578167.43,1.5,class
+0082236AR,Platanus × acerifolia,True,C\ Cobalt,16.02,10.98,ok,,large,428054.88,4578385.98,428040.76,4578378.42,1.5,class
+0082238AR,Tipuana tipu,False,C\ Acer,15.31,13.47,ok,,large,427865.2,4578106.07,427852.66,4578097.28,1.5,class
+0082239AR,Styphnolobium japonicum,False,C\ Estany,6.24,5.44,ok,,large,428189.58,4578418.88,428183.77,4578421.18,1.5,class
+0082241AR,Platanus × acerifolia,True,C\ Encuny,8.45,8.69,ok,,large,428560.59,4578370.46,428552.93,4578366.88,1.5,class
+0082243AR,Styphnolobium japonicum,False,C\ Arnes,16.39,14.5,ok,,large,428026.84,4578132.49,428033.24,4578117.4,1.5,class
+0082245AR,Styphnolobium japonicum,False,C\ Foc,17.55,15.99,ok,,large,427986.55,4578520.7,427977.52,4578535.75,1.5,class
+0082246AR,Platanus × acerifolia,True,C\ Pontils,,20.98,median,41.49,check,,,,,1.0,floor
+0082248AR,Cercis siliquastrum,False,C\ Cisell,,14.21,median,14.78,check,,,,,1.0,floor
+0082249AR,Styphnolobium japonicum,False,Pl Nou,,22.39,median,28.95,check,,,,,1.0,floor
+0082251AR,Cercis siliquastrum,False,C\ Cisell,,14.16,median,13.35,check,,,,,1.0,floor
+0082252AR,Platanus × acerifolia,True,Pl Falset,,10.16,no_kerb,,check,,,,,1.0,floor
+0082254AR,Styphnolobium japonicum,False,C\ Pontils,,16.45,median,,check,,,,,1.0,floor
+0082255AR,Platanus × acerifolia,True,C\ Foc,16.93,16.44,ok,,large,428134.33,4578600.52,428131.54,4578617.23,1.5,class
+0082256AR,Styphnolobium japonicum,False,C\ Arnes,11.02,9.37,ok,,large,427999.04,4578093.13,428006.03,4578084.62,1.5,class
+0082257AR,Platanus × acerifolia,True,Pl Nou,,19.05,median,22.06,check,,,,,1.0,floor
+0082258AR,Platanus × acerifolia,True,C\ Tortosa,27.01,8.53,ok,,large,428125.86,4578108.37,428105.0,4578125.54,1.5,class
+0082260AR,Styphnolobium japonicum,False,C\ Foc,,47.12,no_facade,,check,,,,,1.0,floor
+0082261AR,Platanus × acerifolia,True,C\ Foc,,58.23,no_facade,,check,,,,,1.0,floor
+0082262AR,Platanus × acerifolia,True,C\ Plom,3.78,2.52,ok,,medium,428113.81,4578274.44,428112.94,4578278.12,1.0,class
+0082263AR,Cercis siliquastrum,False,C\ Motors,,14.35,median,20.65,check,,,,,1.0,floor
+0082264AR,Styphnolobium japonicum,False,C\ Tortosa,,3.73,no_kerb,,check,,,,,1.0,floor
+0082265AR,Platanus × acerifolia,True,C\ Encuny,4.13,2.77,ok,,medium,428645.14,4578220.88,428648.9,4578222.57,1.0,class
+0082266AR,Ulmus pumila,False,C\ Plom,10.21,9.59,ok,,large,427720.77,4578151.04,427715.13,4578159.55,1.5,class
+0082267AR,Platanus × acerifolia,True,Pl Nou,,17.62,median,11.5,check,,,,,1.0,floor
+0082268AR,Platanus × acerifolia,True,C\ Encuny,3.74,2.37,ok,,medium,428620.01,4578261.23,428622.81,4578263.71,1.0,class
+0082270AR,Styphnolobium japonicum,False,C\ Foc,,74.32,no_facade,,check,,,,,1.0,floor
+0082271AR,Styphnolobium japonicum 'Dot',False,C\ Plom,,26.41,median,,check,,,,,1.0,floor
+0082274AR,Styphnolobium japonicum,False,C\ Encuny,3.39,3.19,ok,,small,428657.97,4578232.76,428654.85,4578231.41,1.0,class
+0082275AR,Styphnolobium japonicum,False,C\ Arnes,13.42,10.54,ok,,large,428012.03,4578103.8,428024.95,4578107.44,1.5,class
+0082279AR,Ulmus pumila,False,C\ Sovelles,10.73,7.74,ok,,large,428262.76,4578280.3,428273.3,4578282.33,1.5,class
+0082280AR,Platanus × acerifolia,True,C\ Pontils,,17.43,median,,check,,,,,1.0,floor
+0082283AR,Platanus × acerifolia,True,C\ Plom,14.45,13.0,ok,,large,427907.61,4578221.1,427895.17,4578228.45,1.5,class
+0082284AR,Platanus × acerifolia,True,C\ Plom,8.32,5.73,ok,,large,428070.58,4578264.27,428062.62,4578266.68,1.5,class
+0082286AR,Platanus × acerifolia,True,C\ Encuny,3.61,2.37,ok,,medium,428647.98,4578214.51,428651.27,4578215.99,1.0,class
+0082288AR,Tipuana tipu,False,C\ Acer,15.32,14.68,ok,,large,427873.14,4578094.74,427860.59,4578085.95,1.5,class
+0082289AR,Platanus × acerifolia,True,C\ Foc,16.11,14.96,ok,,large,427838.16,4578443.77,427830.96,4578458.18,1.5,class
+0082290AR,Styphnolobium japonicum,False,C\ Estany,,28.73,no_kerb,,check,,,,,1.0,floor
+0082292AR,Styphnolobium japonicum,False,C\ Foc,,63.01,no_facade,,check,,,,,1.0,floor
+0082294AR,Styphnolobium japonicum,False,Pg Zona Franca,7.47,7.29,ok,,large,428502.53,4578171.83,428495.93,4578168.33,1.5,class
+0082295AR,Styphnolobium japonicum,False,Pg Zona Franca,9.21,6.74,ok,,large,428403.5,4578356.26,428394.54,4578358.39,1.5,class
+0082296AR,Platanus × acerifolia,True,C\ Foc,,53.75,no_facade,,check,,,,,1.0,floor
+0082298AR,Morus alba,False,C\ Encuny,12.22,10.68,ok,,large,428624.65,4578280.17,428629.9,4578269.14,1.5,class
+0082299AR,Platanus × acerifolia,True,C\ Foc,12.95,12.24,ok,,large,428147.98,4578613.31,428136.94,4578620.07,1.5,class
+0082300AR,Platanus × acerifolia,True,C\ Encuny,4.08,2.9,ok,,medium,428642.31,4578227.21,428646.03,4578228.87,1.0,class
+0082302AR,Platanus × acerifolia,True,C\ Encuny,3.34,2.94,ok,,small,428582.89,4578324.0,428580.45,4578321.72,1.0,class
+0082303AR,Styphnolobium japonicum,False,C\ Plom,10.17,9.54,ok,,large,427735.41,4578160.74,427729.8,4578169.22,1.5,class
+0082305AR,Platanus × acerifolia,True,C\ Tortosa,,16.31,no_kerb,,check,,,,,1.0,floor
+0082306AR,Styphnolobium japonicum,False,C\ Estany,9.94,8.79,ok,,large,428153.47,4578431.27,428162.23,4578435.96,1.5,class
+0082307AR,Styphnolobium japonicum,False,C\ Plom,,21.21,median,,check,,,,,1.0,floor
+0082308AR,Styphnolobium japonicum,False,C\ Foc,11.1,9.73,ok,,large,428163.91,4578622.28,428156.08,4578630.15,1.5,class
+0082310AR,Styphnolobium japonicum,False,C\ Estany,,17.52,median,7.04,check,,,,,1.0,floor
+0082311AR,Platanus × acerifolia,True,Pl Nou,5.17,4.26,ok,,medium,428134.7,4578313.73,428138.39,4578310.1,1.0,class
+0082313AR,Styphnolobium japonicum,False,C\ Tortosa,,3.8,no_kerb,,check,,,,,1.0,floor
+0082315AR,Styphnolobium japonicum,False,C\ Plom,10.18,9.44,ok,,large,427730.56,4578157.53,427724.94,4578166.02,1.5,class
+0082318AR,Styphnolobium japonicum,False,C\ Estany,,9.33,median,3.98,check,,,,,1.0,floor
+0082320AR,Platanus × acerifolia,True,Pl Falset,,17.92,no_kerb,,check,,,,,1.0,floor
+0082321AR,Platanus × acerifolia,True,C\ Arnes,10.72,9.73,ok,,large,427925.56,4578035.53,427926.73,4578024.88,1.5,class
+0082323AR,Styphnolobium japonicum,False,C\ Estany,9.95,8.74,ok,,large,428176.05,4578389.18,428184.83,4578393.87,1.5,class
+0082325AR,Platanus × acerifolia,True,C\ Arnes,9.13,8.35,ok,,large,427954.34,4578057.97,427959.98,4578050.79,1.5,class
+0082326AR,Platanus × acerifolia,True,C\ Foc,,28.73,no_kerb,,check,,,,,1.0,floor
+0082328AR,Styphnolobium japonicum,False,C\ Estany,,22.98,median,10.14,check,,,,,1.0,floor
+0082330AR,Platanus × acerifolia,True,C\ Plom,3.98,3.45,ok,,medium,427845.52,4578212.9,427844.21,4578216.66,1.0,class
+0082331AR,Platanus × acerifolia,True,C\ Tortosa,,48.4,no_facade,,check,,,,,1.0,floor
+0082333AR,Styphnolobium japonicum,False,C\ Tortosa,,3.73,no_kerb,,check,,,,,1.0,floor
+0082334AR,Styphnolobium japonicum,False,C\ Tortosa,,3.91,no_kerb,,check,,,,,1.0,floor
+0082337AR,Styphnolobium japonicum,False,Pg Zona Franca,17.65,17.9,ok,,large,428454.28,4578272.37,428449.43,4578255.4,1.5,class
+0082338AR,Platanus × acerifolia,True,C\ Plom,14.07,13.04,ok,,large,427812.69,4578195.48,427807.08,4578208.38,1.5,class
+0082340AR,Platanus × acerifolia,True,Pl Falset,,13.0,no_kerb,,check,,,,,1.0,floor
+0082343AR,Ulmus RESISTA® 'New Horizon',False,Pl Nou,,22.62,median,27.91,check,,,,,1.0,floor
+0082344AR,Tipuana tipu,False,C\ Acer,15.31,14.09,ok,,large,427892.3,4578067.41,427879.76,4578058.62,1.5,class
+0082346AR,Platanus × acerifolia,True,Parc Tretze Roses,,30.49,no_facade,,check,,,,,1.0,floor
+0082347AR,Eucalyptus globulus,False,C\ Tortosa,,3.81,no_kerb,,check,,,,,1.0,floor
+0082349AR,Tipuana tipu,False,C\ Acer,8.28,7.33,ok,,large,427781.93,4578162.8,427789.31,4578166.56,1.5,class
+0082351AR,Tipuana tipu,False,C\ Acer,22.79,18.73,ok,,large,427781.93,4578162.8,427800.95,4578150.24,1.5,class
+0082352AR,Styphnolobium japonicum,False,Pl Nou,,22.11,median,28.18,check,,,,,1.0,floor
+0082353AR,Ulmus pumila,False,C\ Sovelles,8.84,6.23,ok,,large,428281.2,4578262.07,428287.42,4578268.34,1.5,class
+0082355AR,Platanus × acerifolia,True,C\ Foc,,46.58,no_facade,,check,,,,,1.0,floor
+0082359AR,Tipuana tipu,False,C\ Acer,18.32,16.0,ok,,large,427882.58,4578001.61,427897.77,4578011.85,1.5,class
+0082360AR,Styphnolobium japonicum,False,C\ Riudoms,,4.0,no_kerb,,check,,,,,1.0,floor
+0082361AR,Platanus × acerifolia,True,C\ Foc,,60.21,no_facade,,check,,,,,1.0,floor
+0082362AR,Cercis siliquastrum,False,C\ Cisell,,11.95,median,9.11,check,,,,,1.0,floor
+0082364AR,Platanus × acerifolia,True,C\ Foc,,49.65,no_facade,,check,,,,,1.0,floor
+0082366AR,Platanus × acerifolia,True,C\ Arnes,,19.81,median,,check,,,,,1.0,floor
+0082367AR,Cercis siliquastrum,False,C\ Encuny,,18.68,median,13.55,check,,,,,1.0,floor
+0082368AR,Platanus × acerifolia,True,Pl Nou,4.9,2.53,ok,,medium,428165.79,4578344.72,428169.27,4578341.27,1.0,class
+0082369AR,Platanus × acerifolia,True,C\ Plom,15.48,14.79,ok,,large,427810.62,4578194.57,427801.66,4578207.2,1.5,class
+0082372AR,Styphnolobium japonicum 'Dot',False,C\ Acer,,21.89,no_kerb,,check,,,,,1.0,floor
+0082374AR,Styphnolobium japonicum,False,C\ Arnes,3.36,1.65,ok,,small,428059.93,4578153.18,428062.38,4578150.88,1.0,class
+0082375AR,Styphnolobium japonicum,False,Pg Zona Franca,12.61,11.05,ok,,large,428445.98,4578287.87,428433.73,4578284.87,1.5,class
+0082376AR,Cercis siliquastrum,False,C\ Cisell,,13.46,median,10.54,check,,,,,1.0,floor
+0082378AR,Platanus × acerifolia,True,Pl Falset,,25.15,no_kerb,,check,,,,,1.0,floor
+0082379AR,Gleditsia triacanthos f. inermis,False,Pg Zona Franca,14.04,12.82,ok,,large,428234.92,4578575.03,428247.8,4578580.62,1.5,class
+0082380AR,Platanus × acerifolia,True,C\ Cobalt,9.91,5.74,ok,,large,428087.86,4578311.35,428079.13,4578306.67,1.5,class
+0082381AR,Platanus × acerifolia,True,C\ Foc,,62.64,no_facade,,check,,,,,1.0,floor
+0082382AR,Styphnolobium japonicum,False,C\ Foc,,39.47,no_facade,,check,,,,,1.0,floor
+0082384AR,Platanus × acerifolia,True,C\ Cobalt,,41.99,no_facade,,check,,,,,1.0,floor
+0082386AR,Platanus × acerifolia,True,C\ Foc,16.17,15.39,ok,,large,427826.19,4578437.37,427818.56,4578451.62,1.5,class
+0082387AR,Styphnolobium japonicum,False,C\ Estany,3.88,3.35,ok,,medium,428217.18,4578366.95,428213.75,4578365.13,1.0,class
+0082388AR,Platanus × acerifolia,True,C\ Foc,14.07,13.14,ok,,large,428151.93,4578613.52,428151.18,4578627.57,1.5,class
+0082392AR,Styphnolobium japonicum,False,C\ Foc,19.91,18.79,ok,,large,427989.96,4578522.59,427990.28,4578542.49,1.5,class
+0082393AR,Styphnolobium japonicum,False,C\ Estany,,26.81,median,,check,,,,,1.0,floor
+0082394AR,Styphnolobium japonicum,False,C\ Plom,13.31,11.87,ok,,large,427755.64,4578174.13,427759.44,4578186.88,1.5,class
+0082395AR,Styphnolobium japonicum,False,C\ Estany,4.27,3.73,ok,,medium,428104.99,4578576.91,428101.25,4578574.85,1.0,class
+0082396AR,Platanus × acerifolia,True,C\ Plom,4.1,3.27,ok,,medium,427855.9,4578215.25,427855.0,4578219.25,1.0,class
+0082397AR,Platanus × acerifolia,True,C\ Cobalt,,35.44,no_facade,,check,,,,,1.0,floor
+0082399AR,Styphnolobium japonicum,False,C\ Foc,,17.71,median,9.17,check,,,,,1.0,floor
+0082400AR,Styphnolobium japonicum,False,C\ Estany,,20.05,median,9.9,check,,,,,1.0,floor
+0082401AR,Platanus × acerifolia,True,C\ Tortosa,,40.97,no_facade,,check,,,,,1.0,floor
+0082402AR,Ulmus pumila,False,C\ Sovelles,8.82,6.16,ok,,large,428286.68,4578256.64,428292.89,4578262.9,1.5,class
+0082403AR,Styphnolobium japonicum,False,Pg Zona Franca,,28.27,no_kerb,,check,,,,,1.0,floor
+0082404AR,Platanus × acerifolia,True,Pl Falset,,10.4,no_kerb,,check,,,,,1.0,floor
+0082405AR,Platanus × acerifolia,True,C\ Foc,,35.15,no_facade,,check,,,,,1.0,floor
+0082406AR,Styphnolobium japonicum,False,C\ Estany,,20.14,median,6.49,check,,,,,1.0,floor
+0082407AR,Tipuana tipu,False,C\ Acer,15.36,15.08,ok,,large,427827.41,4578085.75,427840.02,4578094.53,1.5,class
+0082408AR,Platanus × acerifolia,True,C\ Encuny,6.02,5.62,ok,,large,428534.57,4578425.56,428533.41,4578419.65,1.5,class
+0082409AR,Platanus × acerifolia,True,Pl Falset,,9.73,no_kerb,,check,,,,,1.0,floor
+0082410AR,Platanus × acerifolia,True,C\ Tortosa,,47.21,no_facade,,check,,,,,1.0,floor
+0082411AR,Styphnolobium japonicum,False,C\ Plom,,9.31,median,9.75,check,,,,,1.0,floor
+0082412AR,Platanus × acerifolia,True,C\ Cisell,4.07,3.4,ok,,medium,428305.44,4578417.13,428308.01,4578413.97,1.0,class
+0082413AR,Styphnolobium japonicum,False,Pl Nou,,18.53,median,4.86,check,,,,,1.0,floor
+0082414AR,Platanus × acerifolia,True,C\ Tortosa,,24.23,no_kerb,,check,,,,,1.0,floor
+0082415AR,Platanus × acerifolia,True,Pl Falset,,18.38,no_kerb,,check,,,,,1.0,floor
+0082416AR,Platanus × acerifolia,True,C\ Encuny,5.09,5.07,ok,,medium,428540.01,4578411.62,428535.54,4578414.05,1.0,class
+0082417AR,Platanus × acerifolia,True,C\ Foc,,50.96,no_facade,,check,,,,,1.0,floor
+0082418AR,Styphnolobium japonicum,False,Pl Nou,,23.7,median,13.67,check,,,,,1.0,floor
+0082419AR,Platanus × acerifolia,True,C\ Plom,6.99,6.35,ok,,large,428055.31,4578257.84,428053.42,4578264.57,1.5,class
+0082422AR,Platanus × acerifolia,True,Pl Falset,,25.62,no_kerb,,check,,,,,1.0,floor
+0082423AR,Platanus × acerifolia,True,C\ Plom,3.73,2.63,ok,,medium,428125.81,4578277.26,428124.96,4578280.89,1.0,class
+0082424AR,Platanus × acerifolia,True,C\ Encuny,3.34,3.0,ok,,small,428528.38,4578440.05,428525.39,4578438.56,1.0,class
+0082425AR,Styphnolobium japonicum,False,C\ Estany,,22.65,median,10.04,check,,,,,1.0,floor
+0082426AR,Styphnolobium japonicum,False,C\ Plom,10.12,9.38,ok,,large,427754.97,4578173.69,427749.38,4578182.13,1.5,class
+0082430AR,Styphnolobium japonicum,False,C\ Tortosa,,13.52,no_kerb,,check,,,,,1.0,floor
+0082434AR,Platanus × acerifolia,True,C\ Encuny,7.05,6.39,ok,,large,428658.12,4578240.41,428652.34,4578236.37,1.5,class
+0082435AR,Platanus × acerifolia,True,C\ Cobalt,9.89,5.11,ok,,large,428073.47,4578338.23,428064.75,4578333.56,1.5,class
+0082436AR,Styphnolobium japonicum,False,Pl Nou,,22.16,median,26.1,check,,,,,1.0,floor
+0082437AR,Styphnolobium japonicum 'Dot',False,C\ Acer,,34.63,no_facade,,check,,,,,1.0,floor
+0082438AR,Platanus × acerifolia,True,C\ Plom,4.04,3.12,ok,,medium,428081.67,4578266.88,428080.75,4578270.81,1.0,class
+0082439AR,Platanus × acerifolia,True,Pl Falset,,10.75,no_kerb,,check,,,,,1.0,floor
+0082440AR,Platanus × acerifolia,True,C\ Tortosa,,50.82,no_facade,44.62,check,,,,,1.0,floor
+0082441AR,Platanus × acerifolia,True,C\ Foc,,42.53,no_facade,,check,,,,,1.0,floor
+0082443AR,Platanus × acerifolia,True,Pl Falset,,9.73,no_kerb,,check,,,,,1.0,floor
+0082444AR,Platanus × acerifolia,True,C\ Foc,21.47,20.27,ok,,large,428105.4,4578580.91,428103.76,4578602.32,1.5,class
+0082447AR,Styphnolobium japonicum,False,Pg Zona Franca,21.48,20.87,ok,,large,428487.48,4578200.03,428471.37,4578214.24,1.5,class
+0082448AR,Platanus × acerifolia,True,C\ Cobalt,29.45,21.79,ok,,large,428016.88,4578457.28,427991.05,4578471.42,1.5,class
+0082449AR,Platanus × acerifolia,True,C\ Cisell,2.97,1.34,ok,,small,428510.0,4578491.58,428507.13,4578492.36,1.0,class
+0082450AR,Styphnolobium japonicum,False,C\ Estany,,9.14,median,3.99,check,,,,,1.0,floor
+0082452AR,Platanus × acerifolia,True,C\ Foc,21.74,20.57,ok,,large,427838.16,4578443.77,427843.53,4578464.83,1.5,class
+0082453AR,Ulmus RESISTA® 'New Horizon',False,Pl Nou,,30.42,no_facade,25.9,check,,,,,1.0,floor
+0082454AR,Platanus × acerifolia,True,C\ Cisell,7.85,6.7,ok,,large,428290.66,4578405.12,428288.01,4578397.73,1.5,class
+0082455AR,Tipuana tipu,False,C\ Acer,18.8,18.09,ok,,large,427813.59,4578179.47,427807.53,4578161.67,1.5,class
+0082456AR,Styphnolobium japonicum,False,C\ Estany,,34.51,no_facade,,check,,,,,1.0,floor
+0082458AR,Platanus × acerifolia,True,C\ Cobalt,23.13,18.2,ok,,large,427987.02,4578519.81,427976.14,4578499.4,1.5,class
+0082459AR,Styphnolobium japonicum,False,C\ Arnes,,19.8,median,,check,,,,,1.0,floor
+0082460AR,Cupressus sempervirens,False,Pl Nou,,14.49,median,8.08,check,,,,,1.0,floor
+0082461AR,Platanus × acerifolia,True,C\ Plom,10.09,9.4,ok,,large,427725.45,4578192.77,427730.99,4578184.34,1.5,class
+0082464AR,Platanus × acerifolia,True,C\ Foc,,43.75,no_facade,,check,,,,,1.0,floor
+0082465AR,Platanus × acerifolia,True,C\ Foc,,50.09,no_facade,,check,,,,,1.0,floor
+0082466AR,Styphnolobium japonicum,False,C\ Estany,9.97,8.78,ok,,large,428181.74,4578378.54,428190.53,4578383.24,1.5,class
+0082467AR,Ulmus pumila,False,C\ Sovelles,8.84,6.1,ok,,large,428291.89,4578251.47,428298.12,4578257.75,1.5,class
+0082470AR,Platanus × acerifolia,True,Pl Falset,,18.89,no_kerb,,check,,,,,1.0,floor
+0082474AR,Platanus × acerifolia,True,C\ Plom,15.05,9.61,ok,,large,427962.43,4578239.24,427975.37,4578246.94,1.5,class
+0082475AR,Platanus × acerifolia,True,C\ Plom,10.05,9.34,ok,,large,427730.68,4578196.21,427736.2,4578187.8,1.5,class
+0082476AR,Platanus × acerifolia,True,C\ Plom,3.92,3.22,ok,,medium,428096.07,4578270.26,428095.17,4578274.07,1.0,class
+0082477AR,Styphnolobium japonicum,False,C\ Riudoms,,4.13,no_kerb,,check,,,,,1.0,floor
+0082478AR,Ulmus pumila,False,C\ Arnes,4.0,3.44,ok,,medium,428224.31,4578318.05,428221.46,4578320.86,1.0,class
+0082479AR,Platanus × acerifolia,True,C\ Foc,,67.38,no_facade,,check,,,,,1.0,floor
+0082480AR,Styphnolobium japonicum,False,C\ Riudoms,,3.99,no_kerb,,check,,,,,1.0,floor
+0082481AR,Platanus × acerifolia,True,C\ Tortosa,,56.68,no_facade,38.44,check,,,,,1.0,floor
+0082482AR,Platanus × acerifolia,True,Pl Falset,,14.58,no_kerb,,check,,,,,1.0,floor
+0082484AR,Platanus × acerifolia,True,C\ Cobalt,28.13,22.24,ok,,large,427987.02,4578519.81,427979.75,4578492.64,1.5,class
+0082485AR,Platanus × acerifolia,True,C\ Arnes,,25.07,median,2.85,check,,,,,1.0,floor
+0082486AR,Cercis siliquastrum,False,C\ Cisell,2.97,2.25,ok,,small,428570.89,4578530.83,428569.36,4578533.37,1.0,class
+0082489AR,Platanus × acerifolia,True,C\ Tortosa,,49.67,no_facade,,check,,,,,1.0,floor
+0082490AR,Platanus × acerifolia,True,C\ Foc,,37.91,no_facade,,check,,,,,1.0,floor
+0082492AR,Styphnolobium japonicum,False,Pl Falset,,28.85,no_kerb,,check,,,,,1.0,floor
+0082493AR,Ulmus pumila,False,Pl Nou,,25.69,median,28.34,check,,,,,1.0,floor
+0082495AR,Styphnolobium japonicum,False,Pg Zona Franca,11.68,9.49,ok,,large,428406.07,4578351.48,428404.38,4578339.92,1.5,class
+0082496AR,Styphnolobium japonicum,False,C\ Foc,16.23,15.33,ok,,large,427814.0,4578430.85,427806.35,4578445.16,1.5,class
+0082497AR,Styphnolobium japonicum,False,C\ Estany,9.94,8.7,ok,,large,428173.26,4578394.4,428182.03,4578399.08,1.5,class
+0082498AR,Platanus × acerifolia,True,Pl Nou,11.21,10.39,ok,,large,428184.07,4578371.87,428192.07,4578364.0,1.5,class
+0082499AR,Styphnolobium japonicum,False,C\ Estany,10.52,9.24,ok,,large,428166.31,4578407.4,428173.38,4578415.2,1.5,class
+0082500AR,Styphnolobium japonicum,False,C\ Encuny,3.37,3.26,ok,,small,428512.13,4578471.57,428509.16,4578469.98,1.0,class
+0082502AR,Platanus × acerifolia,True,C\ Foc,,47.12,no_facade,,check,,,,,1.0,floor
+0082504AR,Tipuana tipu,False,C\ Acer,8.09,6.78,ok,,large,427778.33,4578168.03,427784.99,4578172.62,1.5,class
+0082505AR,Platanus × acerifolia,True,Pl Falset,,18.08,no_kerb,,check,,,,,1.0,floor
+0082507AR,Platanus × acerifolia,True,C\ Foc,,62.19,no_facade,17.72,check,,,,,1.0,floor
+0082509AR,Styphnolobium japonicum,False,C\ Tortosa,,3.82,no_kerb,,check,,,,,1.0,floor
+0082510AR,Styphnolobium japonicum,False,C\ Plom,,20.38,median,,check,,,,,1.0,floor
+0082512AR,Gleditsia triacanthos f. inermis,False,Pg Zona Franca,,11.14,median,7.97,check,,,,,1.0,floor
+0082514AR,Platanus × acerifolia,True,C\ Cobalt,9.88,5.98,ok,,large,428069.15,4578346.28,428060.44,4578341.62,1.5,class
+0082515AR,Platanus × acerifolia,True,C\ Pontils,4.36,2.75,ok,,medium,428137.67,4578214.57,428140.85,4578211.58,1.0,class
+0082516AR,Cercis siliquastrum,False,C\ Cisell,,14.39,median,,check,,,,,1.0,floor
+0082517AR,Platanus × acerifolia,True,C\ Cobalt,22.94,16.74,ok,,large,428016.88,4578457.28,427994.97,4578464.08,1.5,class
+0082518AR,Platanus × acerifolia,True,C\ Cobalt,,16.62,median,,check,,,,,1.0,floor
+0082520AR,Platanus × acerifolia,True,Pl Falset,,10.0,no_kerb,,check,,,,,1.0,floor
+0082523AR,Styphnolobium japonicum,False,C\ Acer,,26.51,median,,check,,,,,1.0,floor
+0082525AR,Platanus × acerifolia,True,C\ Plom,10.12,9.3,ok,,large,427908.99,4578221.41,427906.73,4578231.28,1.5,class
+0082526AR,Tipuana tipu,False,C\ Acer,,16.91,median,2.9,check,,,,,1.0,floor
+0082527AR,Styphnolobium japonicum,False,C\ Arnes,9.1,8.12,ok,,large,427927.58,4578037.11,427933.17,4578029.93,1.5,class
+0082529AR,Platanus × acerifolia,True,C\ Arnes,,27.75,median,,check,,,,,1.0,floor
+0082530AR,Styphnolobium japonicum,False,Pg Zona Franca,11.35,9.93,ok,,large,428422.53,4578329.5,428413.83,4578322.21,1.5,class
+0082531AR,Platanus × acerifolia,True,C\ Cobalt,,38.54,no_facade,,check,,,,,1.0,floor
+0082532AR,Platanus × acerifolia,True,C\ Plom,10.67,9.54,ok,,large,428031.43,4578248.7,428030.47,4578259.32,1.5,class
+0082533AR,Platanus × acerifolia,True,Pl Falset,,17.33,no_kerb,,check,,,,,1.0,floor
+0082534AR,Styphnolobium japonicum,False,C\ Estany,,9.09,median,3.99,check,,,,,1.0,floor
+0082535AR,Platanus × acerifolia,True,C\ Tortosa,,40.34,no_facade,,check,,,,,1.0,floor
+0082536AR,Platanus × acerifolia,True,C\ Encuny,11.53,10.85,ok,,large,428581.67,4578325.3,428572.55,4578332.35,1.5,class
+0082537AR,Styphnolobium japonicum,False,C\ Estany,3.85,3.36,ok,,medium,428220.6,4578360.51,428217.2,4578358.7,1.0,class
+0082539AR,Morus alba,False,C\ Encuny,13.01,12.05,ok,,large,428643.41,4578272.76,428631.8,4578266.89,1.5,class
+0082540AR,Platanus × acerifolia,True,C\ Plom,10.2,8.94,ok,,large,427934.11,4578227.18,427932.02,4578237.16,1.5,class
+0082541AR,Tipuana tipu,False,C\ Acer,,13.27,median,2.9,check,,,,,1.0,floor
+0082543AR,Tipuana tipu,False,C\ Plom,12.0,10.9,ok,,large,427763.74,4578173.41,427767.34,4578184.85,1.5,class
+0082545AR,Styphnolobium japonicum,False,C\ Cobalt,,20.47,median,,check,,,,,1.0,floor
+0082547AR,Platanus × acerifolia,True,C\ Cobalt,19.41,15.47,ok,,large,427987.02,4578519.81,427971.39,4578508.3,1.5,class
+0082548AR,Platanus × acerifolia,True,C\ Arnes,9.08,8.26,ok,,large,427934.33,4578042.37,427939.91,4578035.21,1.5,class
+0082550AR,Platanus × acerifolia,True,C\ Foc,,48.77,no_facade,,check,,,,,1.0,floor
+0082552AR,Styphnolobium japonicum,False,C\ Foc,,30.13,no_facade,,check,,,,,1.0,floor
+0082554AR,Platanus × acerifolia,True,C\ Cobalt,,11.96,median,10.06,check,,,,,1.0,floor
+0082555AR,Styphnolobium japonicum,False,Pl Nou,,23.58,median,,check,,,,,1.0,floor
+0082556AR,Styphnolobium japonicum,False,C\ Plom,,22.49,median,,check,,,,,1.0,floor
+0082557AR,Platanus × acerifolia,True,C\ Cisell,4.11,3.35,ok,,medium,428253.26,4578374.87,428255.84,4578371.67,1.0,class
+0082564AR,Robinia pseudoacacia,False,C\ Motors,,14.0,median,24.62,check,,,,,1.0,floor
+0082565AR,Tipuana tipu,False,C\ Acer,,16.18,median,2.9,check,,,,,1.0,floor
+0082566AR,Tipuana tipu,False,C\ Acer,15.36,13.92,ok,,large,427813.98,4578104.97,427826.43,4578113.97,1.5,class
+0082567AR,Tipuana tipu,False,C\ Acer,15.31,14.47,ok,,large,427845.18,4578134.64,427832.64,4578125.85,1.5,class
+0082571AR,Styphnolobium japonicum,False,C\ Tortosa,,3.64,no_kerb,,check,,,,,1.0,floor
+0082572AR,Platanus × acerifolia,True,C\ Foc,,55.72,no_facade,26.01,check,,,,,1.0,floor
+0082574AR,Platanus × acerifolia,True,C\ Tortosa,,21.57,no_kerb,,check,,,,,1.0,floor
+0082575AR,Styphnolobium japonicum,False,C\ Estany,,17.34,median,9.83,check,,,,,1.0,floor
+0082576AR,Platanus × acerifolia,True,C\ Plom,12.18,10.9,ok,,large,428020.01,4578245.39,428012.9,4578255.28,1.5,class
+0082578AR,Styphnolobium japonicum,False,C\ Plom,10.85,9.67,ok,,large,427907.61,4578221.1,427901.52,4578230.08,1.5,class
+0082579AR,Robinia pseudoacacia,False,C\ Motors,,15.03,median,24.43,check,,,,,1.0,floor
+0082580AR,Cercis siliquastrum,False,C\ Cisell,,14.2,median,,check,,,,,1.0,floor
+0082582AR,Platanus × acerifolia,True,C\ Plom,11.73,11.02,ok,,large,427823.56,4578200.2,427818.88,4578210.96,1.5,class
+0082583AR,Styphnolobium japonicum,False,C\ Foc,,44.21,no_facade,,check,,,,,1.0,floor
+0082584AR,Tipuana tipu,False,C\ Acer,15.31,14.1,ok,,large,427833.51,4578151.29,427820.97,4578142.5,1.5,class
+0082585AR,Styphnolobium japonicum,False,Pg Zona Franca,26.96,26.24,ok,,large,428487.48,4578200.03,428468.65,4578219.32,1.5,class
+0082586AR,Styphnolobium japonicum,False,C\ Estany,,22.43,median,9.84,check,,,,,1.0,floor
+0082587AR,Platanus × acerifolia,True,C\ Tortosa,,28.69,no_kerb,,check,,,,,1.0,floor
+0082588AR,Cercis siliquastrum,False,C\ Cisell,2.86,1.74,ok,,small,428527.56,4578504.68,428526.08,4578507.13,1.0,class
+0082589AR,Styphnolobium japonicum,False,C\ Estany,,17.61,median,19.78,check,,,,,1.0,floor
+0082590AR,Platanus × acerifolia,True,Pl Falset,,18.2,no_kerb,,check,,,,,1.0,floor
+0082591AR,Ulmus pumila,False,C\ Sovelles,8.81,6.11,ok,,large,428242.87,4578300.11,428249.08,4578306.35,1.5,class
+0082592AR,Ulmus pumila,False,Pg Zona Franca,7.54,6.9,ok,,large,428490.67,4578194.19,428484.01,4578190.66,1.5,class
+0082594AR,Styphnolobium japonicum,False,C\ Tortosa,,14.56,no_kerb,,check,,,,,1.0,floor
+0082599AR,Styphnolobium japonicum,False,C\ Arnes,16.81,9.0,ok,,large,428047.1,4578139.53,428039.26,4578124.67,1.5,class
+0082600AR,Platanus × acerifolia,True,C\ Cisell,14.3,12.18,ok,,large,428290.66,4578405.12,428282.58,4578393.32,1.5,class
+0082601AR,Platanus × acerifolia,True,C\ Tortosa,,12.71,median,,check,,,,,1.0,floor
+0082603AR,Ulmus RESISTA® 'New Horizon',False,Pl Nou,,16.64,median,28.6,check,,,,,1.0,floor
+0082605AR,Cercis siliquastrum,False,C\ Encuny,,18.2,median,24.17,check,,,,,1.0,floor
+0082607AR,Cercis siliquastrum,False,C\ Cisell,2.95,2.1,ok,,small,428557.72,4578522.88,428556.19,4578525.41,1.0,class
+0082612AR,Platanus × acerifolia,True,C\ Plom,10.18,9.21,ok,,large,428042.32,4578252.79,428035.7,4578260.52,1.5,class
+0082613AR,Platanus × acerifolia,True,C\ Foc,22.96,21.4,ok,,large,428133.53,4578599.49,428111.77,4578606.82,1.5,class
+0082614AR,Tipuana tipu,False,C\ Acer,15.31,13.63,ok,,large,427841.92,4578139.28,427829.39,4578130.5,1.5,class
+0082615AR,Styphnolobium japonicum,False,C\ Estany,,22.84,median,10.0,check,,,,,1.0,floor
+0082617AR,Styphnolobium japonicum,False,C\ Estany,3.9,3.37,ok,,medium,428207.38,4578385.39,428203.93,4578383.56,1.0,class
+0082620AR,Platanus × acerifolia,True,Pl Nou,11.15,10.33,ok,,large,428179.45,4578367.17,428187.4,4578359.36,1.5,class
+0082621AR,Styphnolobium japonicum,False,Pg Zona Franca,8.41,7.5,ok,,large,428487.48,4578200.03,428479.08,4578199.85,1.5,class
+0082626AR,Styphnolobium japonicum,False,Pg Zona Franca,11.82,10.02,ok,,large,428393.0,4578386.28,428382.11,4578381.69,1.5,class
+0082627AR,Styphnolobium japonicum,False,C\ Estany,6.01,5.27,ok,,large,428106.29,4578574.54,428104.5,4578568.8,1.5,class
+0082628AR,Platanus × acerifolia,True,C\ Plom,4.93,4.79,ok,,medium,428116.02,4578296.07,428117.13,4578291.27,1.0,class
+0082629AR,Platanus × acerifolia,True,C\ Foc,,75.36,no_facade,,check,,,,,1.0,floor
+0082630AR,Styphnolobium japonicum,False,C\ Tortosa,,3.7,no_kerb,,check,,,,,1.0,floor
+0082632AR,Platanus × acerifolia,True,C\ Plom,,12.37,median,10.97,check,,,,,1.0,floor
+0082635AR,Platanus × acerifolia,True,Pl Falset,,14.18,no_kerb,,check,,,,,1.0,floor
+0082636AR,Platanus × acerifolia,True,C\ Plom,3.95,3.53,ok,,medium,427840.86,4578211.85,427839.99,4578215.7,1.0,class
+0082642AR,Styphnolobium japonicum,False,C\ Estany,9.96,8.76,ok,,large,428159.15,4578420.65,428167.93,4578425.34,1.5,class
+0082644AR,Ulmus pumila,False,C\ Sovelles,,15.46,median,,check,,,,,1.0,floor
+0082646AR,Robinia pseudoacacia,False,C\ Arnes,9.17,7.51,ok,,large,428006.42,4578099.19,428012.24,4578092.11,1.5,class
+0082647AR,Cercis siliquastrum,False,C\ Motors,,20.82,median,19.78,check,,,,,1.0,floor
+0082649AR,Platanus × acerifolia,True,C\ Tortosa,,8.18,median,,check,,,,,1.0,floor
+0082651AR,Styphnolobium japonicum,False,Pg Zona Franca,11.73,9.84,ok,,large,428400.85,4578371.49,428390.51,4578365.96,1.5,class
+0082652AR,Platanus × acerifolia,True,C\ Plom,4.01,2.76,ok,,medium,428130.27,4578278.31,428130.91,4578282.27,1.0,class
+0082653AR,Platanus × acerifolia,True,Pl Nou,,13.34,median,4.88,check,,,,,1.0,floor
+0082654AR,Platanus × acerifolia,True,C\ Foc,,44.66,no_facade,,check,,,,,1.0,floor
+0082655AR,Platanus × acerifolia,True,C\ Encuny,3.24,3.04,ok,,small,428542.32,4578402.41,428539.22,4578401.5,1.0,class
+0082656AR,Ulmus pumila,False,Pl Nou,,17.87,median,24.31,check,,,,,1.0,floor
+0082657AR,Styphnolobium japonicum,False,Pg Zona Franca,11.78,9.97,ok,,large,428418.8,4578337.92,428408.41,4578332.37,1.5,class
+0082658AR,Styphnolobium japonicum,False,C\ Foc,16.19,15.43,ok,,large,427820.56,4578434.36,427812.92,4578448.64,1.5,class
+0082660AR,Styphnolobium japonicum,False,C\ Tortosa,,3.76,no_kerb,,check,,,,,1.0,floor
+0082661AR,Platanus × acerifolia,True,C\ Foc,,49.03,no_facade,17.6,check,,,,,1.0,floor
+0082662AR,Robinia pseudoacacia,False,C\ Arnes,3.3,1.88,ok,,small,428063.47,4578156.95,428065.87,4578154.69,1.0,class
+0082663AR,Eucalyptus globulus,False,C\ Tortosa,,3.78,no_kerb,,check,,,,,1.0,floor
+0082664AR,Styphnolobium japonicum,False,C\ Estany,,27.66,median,6.13,check,,,,,1.0,floor
+0082665AR,Tipuana tipu,False,C\ Acer,,8.39,median,2.9,check,,,,,1.0,floor
+0082667AR,Styphnolobium japonicum,False,Pg Zona Franca,,10.35,median,7.33,check,,,,,1.0,floor
+0082668AR,Platanus × acerifolia,True,C\ Tortosa,,52.15,no_facade,41.14,check,,,,,1.0,floor
+0082669AR,Styphnolobium japonicum,False,C\ Estany,,16.55,median,9.76,check,,,,,1.0,floor
+0082670AR,Styphnolobium japonicum,False,C\ Estany,4.01,3.51,ok,,medium,428193.3,4578411.87,428189.77,4578409.99,1.0,class
+0082671AR,Styphnolobium japonicum,False,Pg Zona Franca,24.67,24.05,ok,,large,428454.28,4578272.37,428453.52,4578247.71,1.5,class
+0082672AR,Cercis siliquastrum,False,C\ Cisell,,11.16,median,8.25,check,,,,,1.0,floor
+0082673AR,Ulmus pumila,False,C\ Sovelles,,15.23,median,,check,,,,,1.0,floor
+0082675AR,Platanus × acerifolia,True,C\ Cisell,4.11,3.5,ok,,medium,428249.05,4578371.49,428251.63,4578368.28,1.0,class
+0082676AR,Styphnolobium japonicum,False,Pg Zona Franca,6.92,5.02,ok,,large,428405.42,4578352.7,428399.32,4578349.42,1.5,class
+0082677AR,Styphnolobium japonicum,False,C\ Encuny,3.79,2.59,ok,,medium,428623.98,4578256.46,428626.94,4578258.83,1.0,class
+0082679AR,Styphnolobium japonicum,False,C\ Arnes,4.03,3.42,ok,,medium,428219.36,4578313.02,428216.49,4578315.84,1.0,class
+0082680AR,Ulmus pumila,False,C\ Arnes,4.08,3.45,ok,,medium,428209.54,4578303.04,428206.63,4578305.9,1.0,class
+0082683AR,Styphnolobium japonicum,False,C\ Estany,4.03,2.94,ok,,medium,428147.25,4578455.25,428150.8,4578457.15,1.0,class
+0082686AR,Platanus × acerifolia,True,Pl Nou,,18.93,median,13.62,check,,,,,1.0,floor
+0082687AR,Platanus × acerifolia,True,C\ Foc,,36.37,no_facade,,check,,,,,1.0,floor
+0082688AR,Styphnolobium japonicum,False,C\ Estany,,9.15,median,3.99,check,,,,,1.0,floor
+0082689AR,Platanus × acerifolia,True,C\ Cobalt,,16.81,median,,check,,,,,1.0,floor
+0082690AR,Platanus × acerifolia,True,C\ Arnes,9.72,7.84,ok,,large,427954.61,4578059.13,427964.08,4578056.98,1.5,class
+0082691AR,Platanus × acerifolia,True,C\ Foc,,57.24,no_facade,,check,,,,,1.0,floor
+0082692AR,Tipuana tipu,False,C\ Acer,,25.85,median,13.73,check,,,,,1.0,floor
+0082693AR,Cercis siliquastrum,False,C\ Motors,,3.75,median,24.81,check,,,,,1.0,floor
+0082694AR,Platanus × acerifolia,True,C\ Cobalt,,16.83,median,,check,,,,,1.0,floor
+0082695AR,Ulmus pumila,False,C\ Sovelles,,15.08,median,,check,,,,,1.0,floor
+0082696AR,Ulmus pumila,False,C\ Sovelles,,15.32,median,,check,,,,,1.0,floor
+0082700AR,Platanus × acerifolia,True,C\ Cobalt,,13.5,median,,check,,,,,1.0,floor
+0082703AR,Cercis siliquastrum,False,C\ Cisell,,14.18,median,9.76,check,,,,,1.0,floor
+0082705AR,Platanus × acerifolia,True,C\ Arnes,,21.02,median,1.96,check,,,,,1.0,floor
+0082706AR,Platanus × acerifolia,True,Pl Nou,,12.92,median,15.53,check,,,,,1.0,floor
+0082707AR,Styphnolobium japonicum,False,Pl Nou,,16.89,median,16.52,check,,,,,1.0,floor
+0082708AR,Platanus × acerifolia,True,C\ Plom,,23.57,median,,check,,,,,1.0,floor
+0082710AR,Styphnolobium japonicum,False,C\ Estany,25.64,22.4,ok,,large,428189.58,4578418.88,428174.04,4578439.28,1.5,class
+0082712AR,Platanus × acerifolia,True,C\ Cobalt,,26.72,no_kerb,,check,,,,,1.0,floor
+0082713AR,Platanus × acerifolia,True,C\ Tortosa,,28.88,no_kerb,,check,,,,,1.0,floor
+0082714AR,Cercis siliquastrum,False,C\ Cisell,,14.01,median,11.18,check,,,,,1.0,floor
+0082715AR,Platanus × acerifolia,True,C\ Foc,24.55,23.21,ok,,large,427989.96,4578522.59,427997.08,4578546.09,1.5,class
+0082716AR,Styphnolobium japonicum,False,C\ Estany,8.45,6.28,ok,,large,428147.48,4578454.82,428154.55,4578450.2,1.5,class
+0082719AR,Platanus × acerifolia,True,C\ Encuny,8.73,8.58,ok,,large,428562.49,4578366.38,428555.96,4578360.59,1.5,class
+0082720AR,Styphnolobium japonicum,False,C\ Plom,,22.83,median,,check,,,,,1.0,floor
+0082724AR,Styphnolobium japonicum,False,C\ Sovelles,,15.51,median,,check,,,,,1.0,floor
+0082728AR,Ulmus pumila,False,C\ Sovelles,8.83,6.26,ok,,large,428307.0,4578236.49,428313.22,4578242.77,1.5,class
+0082729AR,Platanus × acerifolia,True,Pl Falset,,10.68,no_kerb,,check,,,,,1.0,floor
+0082730AR,Styphnolobium japonicum 'Dot',False,C\ Acer,,32.8,no_facade,,check,,,,,1.0,floor
+0082731AR,Platanus × acerifolia,True,C\ Encuny,5.74,5.5,ok,,medium,428581.67,4578325.3,428576.24,4578327.16,1.0,class
+0082733AR,Platanus × acerifolia,True,C\ Pontils,,23.83,median,40.53,check,,,,,1.0,floor
+0082735AR,Styphnolobium japonicum,False,C\ Sovelles,,15.38,median,,check,,,,,1.0,floor
+0082736AR,Ulmus pumila,False,C\ Sovelles,,15.87,median,,check,,,,,1.0,floor
+0082739AR,Styphnolobium japonicum,False,C\ Estany,,22.99,median,10.21,check,,,,,1.0,floor
+0082740AR,Tipuana tipu,False,C\ Plom,8.72,8.08,ok,,large,427774.14,4578174.1,427776.09,4578182.6,1.5,class
+0082742AR,Ulmus pumila,False,C\ Plom,10.24,9.58,ok,,large,427700.68,4578137.76,427695.04,4578146.31,1.5,class
+0082746AR,Platanus × acerifolia,True,Pl Falset,,10.4,no_kerb,,check,,,,,1.0,floor
+0082748AR,Tipuana tipu,False,C\ Acer,15.32,14.78,ok,,large,427869.69,4578099.66,427857.15,4578090.87,1.5,class
+0087457AR,Ulmus pumila,False,C\ Motors,,48.03,no_facade,,check,,,,,1.0,floor
+0087459AR,Ulmus pumila,False,C\ Motors,,48.36,no_facade,,check,,,,,1.0,floor
+0087463AR,Ulmus pumila,False,C\ Motors,,107.57,no_facade,,check,,,,,1.0,floor
+0087464AR,Grevillea robusta,False,C\ Motors,,38.63,no_facade,,check,,,,,1.0,floor
+0087465AR,Casuarina cunninghamiana,False,C\ Motors,,41.11,no_facade,,check,,,,,1.0,floor
+0087467AR,Ulmus pumila,False,C\ Motors,,48.26,no_facade,,check,,,,,1.0,floor
+0087469AR,Ulmus pumila,False,C\ Motors,,48.43,no_facade,,check,,,,,1.0,floor
+0087470AR,Ulmus pumila,False,C\ Motors,,40.01,no_facade,,check,,,,,1.0,floor
+0087471AR,Ulmus pumila,False,C\ Motors,,41.37,no_facade,,check,,,,,1.0,floor
+0087477AR,Ulmus pumila,False,C\ Motors,,49.39,no_facade,13.25,check,,,,,1.0,floor
+0087478AR,Casuarina cunninghamiana,False,C\ Motors,,52.95,no_facade,,check,,,,,1.0,floor
+0087479AR,Grevillea robusta,False,C\ Motors,,33.51,no_facade,,check,,,,,1.0,floor
+0087484AR,Ulmus pumila,False,C\ Motors,,47.85,no_facade,,check,,,,,1.0,floor
+0087490AR,Ulmus pumila,False,C\ Motors,,53.94,no_facade,,check,,,,,1.0,floor
+0087491AR,Casuarina cunninghamiana,False,C\ Motors,,40.7,no_facade,,check,,,,,1.0,floor
+0087493AR,Melia azedarach,False,C\ Motors,,49.84,no_facade,3.73,check,,,,,1.0,floor
+0087495AR,Melia azedarach,False,C\ Motors,,18.02,median,3.78,check,,,,,1.0,floor
+0087500AR,Populus nigra 'Italica',False,C\ Mare de Déu de Port,10.63,9.74,ok,,large,428983.41,4578242.65,428987.3,4578252.54,1.5,class
+0087501AR,Platanus × acerifolia,True,C\ Mare de Déu de Port,6.33,4.72,ok,,large,429614.76,4578192.01,429614.65,4578185.68,1.5,class
+0087505AR,Melia azedarach,False,C\ Motors,,29.73,median,3.75,check,,,,,1.0,floor
+0087510AR,Ulmus pumila,False,C\ Motors,,59.27,no_facade,,check,,,,,1.0,floor
+0087511AR,Casuarina cunninghamiana,False,C\ Motors,,63.25,no_facade,,check,,,,,1.0,floor
+0087512AR,Ulmus pumila,False,C\ Motors,,69.91,no_facade,,check,,,,,1.0,floor
+0087517AR,Populus nigra,False,C\ Motors,,35.41,no_facade,,check,,,,,1.0,floor
+0087519AR,Casuarina cunninghamiana,False,C\ Motors,,47.56,no_facade,,check,,,,,1.0,floor
+0087521AR,Casuarina cunninghamiana,False,C\ Motors,,36.58,no_facade,16.49,check,,,,,1.0,floor
+0087522AR,Casuarina cunninghamiana,False,C\ Motors,,55.81,no_facade,,check,,,,,1.0,floor
+0087523AR,Grevillea robusta,False,C\ Motors,,43.54,no_facade,,check,,,,,1.0,floor
+0087524AR,Ulmus pumila,False,C\ Motors,,25.8,median,,check,,,,,1.0,floor
+0087525AR,Ulmus pumila,False,C\ Motors,,48.09,no_facade,,check,,,,,1.0,floor
+0087527AR,Ulmus pumila,False,C\ Motors,,78.03,no_facade,,check,,,,,1.0,floor
+0087530AR,Casuarina cunninghamiana,False,C\ Motors,,44.86,no_facade,,check,,,,,1.0,floor
+0087531AR,Ulmus pumila,False,C\ Motors,,39.72,no_facade,,check,,,,,1.0,floor
+0087532AR,Ulmus pumila,False,C\ Motors,,38.08,no_facade,,check,,,,,1.0,floor
+0087533AR,Casuarina cunninghamiana,False,C\ Motors,,46.01,no_facade,,check,,,,,1.0,floor
+0087535AR,Ulmus pumila,False,C\ Motors,,47.1,no_facade,,check,,,,,1.0,floor
+0087536AR,Ulmus pumila,False,C\ Motors,,57.19,no_facade,,check,,,,,1.0,floor
+0087537AR,Melia azedarach,False,C\ Motors,,90.63,no_facade,3.79,check,,,,,1.0,floor
+0087542AR,Ulmus pumila,False,C\ Motors,,123.61,no_facade,,check,,,,,1.0,floor
+0087545AR,Eucalyptus globulus,False,C\ Motors,,5.11,median,2.45,check,,,,,1.0,floor
+0087547AR,Ulmus pumila,False,C\ Motors,,73.58,no_facade,,check,,,,,1.0,floor
+0087548AR,Ulmus pumila,False,C\ Motors,,34.06,no_facade,,check,,,,,1.0,floor
+0087551AR,Ulmus pumila,False,C\ Motors,,67.52,no_facade,,check,,,,,1.0,floor
+0087556AR,Grevillea robusta,False,C\ Motors,,43.68,no_facade,,check,,,,,1.0,floor
+0087557AR,Ulmus pumila,False,C\ Motors,,62.19,no_facade,,check,,,,,1.0,floor
+0087559AR,Casuarina cunninghamiana,False,C\ Motors,,87.27,no_facade,,check,,,,,1.0,floor
+0087561AR,Ulmus pumila,False,C\ Motors,,51.58,no_facade,,check,,,,,1.0,floor
+0087562AR,Ulmus pumila,False,C\ Motors,,40.36,no_facade,,check,,,,,1.0,floor
+0087563AR,Melia azedarach,False,C\ Motors,,33.39,no_facade,3.78,check,,,,,1.0,floor
+0087564AR,Casuarina cunninghamiana,False,C\ Motors,,47.45,no_facade,,check,,,,,1.0,floor
+0087566AR,Ulmus pumila,False,C\ Motors,,41.89,no_facade,13.19,check,,,,,1.0,floor
+0087568AR,Ulmus pumila,False,C\ Motors,,54.79,no_facade,12.65,check,,,,,1.0,floor
+0087569AR,Casuarina cunninghamiana,False,C\ Motors,,38.41,no_facade,15.81,check,,,,,1.0,floor
+0087570AR,Platanus × acerifolia,True,C\ Mare de Déu de Port,7.07,5.99,ok,,large,429598.07,4578192.28,429597.95,4578185.21,1.5,class
+0087571AR,Ulmus pumila,False,C\ Motors,,59.78,no_facade,,check,,,,,1.0,floor
+0087573AR,Melia azedarach,False,C\ Motors,,45.98,no_facade,3.8,check,,,,,1.0,floor
+0087574AR,Ulmus pumila,False,C\ Motors,,114.36,no_facade,,check,,,,,1.0,floor
+0087575AR,Melia azedarach,False,C\ Motors,,40.36,no_facade,3.74,check,,,,,1.0,floor
+0087578AR,Ulmus pumila,False,C\ Motors,,47.47,no_facade,,check,,,,,1.0,floor
+0087581AR,Ulmus pumila,False,C\ Motors,,56.03,no_facade,,check,,,,,1.0,floor
+0087582AR,Platanus × acerifolia,True,C\ Mare de Déu de Port,8.01,6.36,ok,,large,429576.56,4578192.63,429576.43,4578184.61,1.5,class
+0087583AR,Grevillea robusta,False,C\ Motors,,34.21,no_facade,,check,,,,,1.0,floor
+0087588AR,Ulmus pumila,False,C\ Motors,,48.38,no_facade,,check,,,,,1.0,floor
+0087589AR,Ulmus pumila,False,C\ Motors,,72.25,no_facade,,check,,,,,1.0,floor
+0087594AR,Populus nigra 'Italica',False,C\ Mare de Déu de Port,1.39,1.71,ok,,none,429046.93,4578207.87,429047.82,4578208.94,1.0,floor
+0087596AR,Ulmus pumila,False,C\ Motors,,43.44,no_facade,,check,,,,,1.0,floor
+0087599AR,Melia azedarach,False,C\ Motors,,78.28,no_facade,3.87,check,,,,,1.0,floor
+0087600AR,Ulmus pumila,False,C\ Motors,,48.39,no_facade,,check,,,,,1.0,floor
+0087601AR,Casuarina cunninghamiana,False,C\ Motors,,35.31,no_facade,14.26,check,,,,,1.0,floor
+0087609AR,Casuarina cunninghamiana,False,C\ Motors,,38.55,no_facade,,check,,,,,1.0,floor
+0087610AR,Casuarina cunninghamiana,False,C\ Motors,,47.86,no_facade,,check,,,,,1.0,floor
+0087612AR,Melia azedarach,False,C\ Motors,,94.23,no_facade,3.89,check,,,,,1.0,floor
+0087614AR,Ulmus pumila,False,C\ Motors,,15.78,median,,check,,,,,1.0,floor
+0087618AR,Melia azedarach,False,C\ Motors,,99.39,no_facade,3.82,check,,,,,1.0,floor
+0087619AR,Ulmus pumila,False,C\ Motors,,44.96,no_facade,14.1,check,,,,,1.0,floor
+0087620AR,Ulmus pumila,False,C\ Motors,,44.21,no_facade,,check,,,,,1.0,floor
+0087622AR,Ulmus pumila,False,C\ Motors,,57.31,no_facade,,check,,,,,1.0,floor
+0087623AR,Melia azedarach,False,C\ Motors,,68.87,no_facade,3.86,check,,,,,1.0,floor
+0087624AR,Casuarina cunninghamiana,False,C\ Motors,,47.89,no_facade,,check,,,,,1.0,floor
+0087627AR,Ulmus pumila,False,C\ Motors,,65.96,no_facade,,check,,,,,1.0,floor
+0087628AR,Melia azedarach,False,C\ Motors,,26.36,median,3.76,check,,,,,1.0,floor
+0087629AR,Ulmus pumila,False,C\ Motors,,59.7,no_facade,,check,,,,,1.0,floor
+0087630AR,Melia azedarach,False,C\ Motors,,12.31,median,3.72,check,,,,,1.0,floor
+0087637AR,Ulmus pumila,False,C\ Motors,,47.9,no_facade,,check,,,,,1.0,floor
+0087642AR,Ulmus pumila,False,C\ Motors,,47.76,no_facade,,check,,,,,1.0,floor
+0087644AR,Melia azedarach,False,C\ Motors,,53.94,no_facade,3.82,check,,,,,1.0,floor
+0087645AR,Populus nigra 'Italica',False,C\ Mare de Déu de Port,10.12,9.41,ok,,large,428976.16,4578247.9,428982.46,4578255.82,1.5,class
+0087646AR,Casuarina cunninghamiana,False,C\ Motors,,47.32,no_facade,,check,,,,,1.0,floor
+0087647AR,Ulmus pumila,False,C\ Motors,,47.8,no_facade,,check,,,,,1.0,floor
+0087648AR,Casuarina cunninghamiana,False,C\ Motors,,47.75,no_facade,,check,,,,,1.0,floor
+0087649AR,Grevillea robusta,False,C\ Motors,,40.3,no_facade,,check,,,,,1.0,floor
+0087650AR,Casuarina cunninghamiana,False,C\ Motors,,106.75,no_facade,,check,,,,,1.0,floor
+0288585AR,Grevillea robusta,False,C\ Motors,,39.68,no_facade,,check,,,,,1.0,floor
+0288586AR,Grevillea robusta,False,C\ Motors,,36.23,no_facade,,check,,,,,1.0,floor
+0288587AR,Grevillea robusta,False,C\ Motors,,33.79,no_facade,,check,,,,,1.0,floor
+0288588AR,Grevillea robusta,False,C\ Motors,,34.34,no_facade,,check,,,,,1.0,floor
+0288589AR,Grevillea robusta,False,C\ Motors,,34.35,no_facade,,check,,,,,1.0,floor
+0288590AR,Grevillea robusta,False,C\ Motors,,34.39,no_facade,,check,,,,,1.0,floor
+0288595AR,Grevillea robusta,False,C\ Motors,,35.35,no_facade,,check,,,,,1.0,floor
+0288598AR,Grevillea robusta,False,C\ Motors,,45.84,no_facade,,check,,,,,1.0,floor
+0288603AR,Ulmus pumila,False,C\ Motors,,50.81,no_facade,,check,,,,,1.0,floor
+0288794AR,Casuarina cunninghamiana,False,C\ Motors,,48.12,no_facade,,check,,,,,1.0,floor
+0289941AR,Casuarina cunninghamiana,False,C\ Motors,,88.7,no_facade,,check,,,,,1.0,floor
+0290092AR,Tipuana tipu,False,C\ Acer,16.49,15.57,ok,,large,427827.66,4578159.63,427811.62,4578155.84,1.5,class
+0290094AR,Ulmus RESISTA® 'New Horizon',False,Pl Nou,,27.43,median,,check,,,,,1.0,floor
+0290095AR,Ulmus RESISTA® 'New Horizon',False,Pl Nou,,18.6,median,,check,,,,,1.0,floor
+0290188AR,Grevillea robusta,False,C\ Motors,,33.94,no_facade,,check,,,,,1.0,floor
+0290403AR,Platanus × acerifolia,True,C\ Plom,10.56,9.7,ok,,large,427829.05,4578202.59,427824.84,4578212.28,1.5,class
+0294571AR,Grevillea robusta,False,C\ Motors,,43.99,no_facade,,check,,,,,1.0,floor
+0294573AR,Ulmus pumila,False,C\ Motors,,5.19,median,2.73,check,,,,,1.0,floor
+0294574AR,Ulmus pumila,False,C\ Motors,,4.55,median,2.36,check,,,,,1.0,floor
+0297391AR,Populus alba 'Pyramidalis',False,C\ Motors,,4.71,median,3.86,check,,,,,1.0,floor
+0297392AR,Populus alba 'Pyramidalis',False,C\ Motors,,4.12,no_kerb,,check,,,,,1.0,floor
+0297393AR,Populus alba 'Pyramidalis',False,C\ Motors,,4.14,no_kerb,,check,,,,,1.0,floor
+0297395AR,Populus alba 'Pyramidalis',False,C\ Motors,5.57,2.49,ok,,medium,428444.64,4578082.26,428446.91,4578077.18,1.0,class
+0297401AR,Prunus cerasifera 'Pissardii',False,C\ Motors,,26.4,median,,check,,,,,1.0,floor
+0297402AR,Prunus cerasifera 'Pissardii',False,C\ Motors,,31.64,no_facade,,check,,,,,1.0,floor
+0297403AR,Ginkgo biloba,False,C\ Motors,,29.87,median,,check,,,,,1.0,floor
+0297407AR,Acer saccharinum,False,C\ Motors,,39.15,no_facade,,check,,,,,1.0,floor
+0297408AR,Prunus cerasifera 'Pissardii',False,C\ Motors,,43.45,no_facade,,check,,,,,1.0,floor
+0297409AR,Acer saccharinum,False,C\ Motors,,39.28,no_facade,,check,,,,,1.0,floor
+0297410AR,Prunus cerasifera 'Pissardii',False,C\ Motors,,43.01,no_facade,,check,,,,,1.0,floor
+0297412AR,Prunus cerasifera 'Pissardii',False,C\ Motors,,39.51,no_facade,,check,,,,,1.0,floor
+0297416AR,Prunus cerasifera 'Pissardii',False,C\ Motors,,43.51,no_facade,,check,,,,,1.0,floor
+0297418AR,Acer saccharinum,False,C\ Motors,,39.04,no_facade,,check,,,,,1.0,floor
+0297419AR,Prunus cerasifera 'Pissardii',False,C\ Motors,,39.16,no_facade,,check,,,,,1.0,floor
+0297421AR,Tipuana tipu,False,C\ Motors,,20.79,median,,check,,,,,1.0,floor
+0297422AR,Tipuana tipu,False,C\ Motors,,29.61,median,,check,,,,,1.0,floor
+0297423AR,Tipuana tipu,False,C\ Motors,,39.07,no_facade,,check,,,,,1.0,floor
+0297424AR,Jacaranda mimosifolia,False,C\ Motors,,47.22,no_facade,,check,,,,,1.0,floor
+0297425AR,Tipuana tipu,False,C\ Motors,,47.32,no_facade,,check,,,,,1.0,floor
+0297426AR,Tipuana tipu,False,C\ Motors,,48.87,no_facade,,check,,,,,1.0,floor
+0297427AR,Jacaranda mimosifolia,False,C\ Motors,,47.2,no_facade,,check,,,,,1.0,floor
+0297428AR,Tipuana tipu,False,C\ Motors,,47.07,no_facade,,check,,,,,1.0,floor
+0297429AR,Ginkgo biloba,False,C\ Motors,,43.73,no_facade,,check,,,,,1.0,floor
+0297436AR,Prunus cerasifera 'Pissardii',False,C\ Motors,,39.45,no_facade,,check,,,,,1.0,floor
+0297438AR,Ginkgo biloba,False,C\ Motors,,39.05,no_facade,,check,,,,,1.0,floor
+0297439AR,Acer saccharinum,False,C\ Motors,,39.0,no_facade,,check,,,,,1.0,floor
+0297440AR,Ginkgo biloba,False,C\ Motors,,39.09,no_facade,,check,,,,,1.0,floor
+0297441AR,Jacaranda mimosifolia,False,C\ Motors,,47.13,no_facade,,check,,,,,1.0,floor
+0297442AR,Tipuana tipu,False,C\ Motors,,47.6,no_facade,,check,,,,,1.0,floor
+0297443AR,Tipuana tipu,False,C\ Motors,,46.99,no_facade,,check,,,,,1.0,floor
+0297446AR,Jacaranda mimosifolia,False,C\ Motors,,47.58,no_facade,,check,,,,,1.0,floor
+0297449AR,Prunus cerasifera 'Pissardii',False,C\ Motors,,38.97,no_facade,,check,,,,,1.0,floor
+0297454AR,Prunus cerasifera 'Pissardii',False,C\ Motors,,38.85,no_facade,,check,,,,,1.0,floor
+0297455AR,Acer saccharinum,False,C\ Motors,,38.94,no_facade,,check,,,,,1.0,floor
+0297456AR,Acer saccharinum,False,C\ Motors,,39.77,no_facade,,check,,,,,1.0,floor
+0297458AR,Tipuana tipu,False,C\ Motors,,46.95,no_facade,,check,,,,,1.0,floor
+0297459AR,Jacaranda mimosifolia,False,C\ Motors,,46.96,no_facade,,check,,,,,1.0,floor
+0297460AR,Tipuana tipu,False,C\ Motors,,47.54,no_facade,,check,,,,,1.0,floor
+0297461AR,Tipuana tipu,False,C\ Motors,,50.07,no_facade,,check,,,,,1.0,floor
+0297463AR,Prunus cerasifera 'Pissardii',False,C\ Motors,,56.25,no_facade,,check,,,,,1.0,floor
+0297466AR,Prunus cerasifera 'Pissardii',False,C\ Motors,,62.83,no_facade,,check,,,,,1.0,floor
+0297467AR,Prunus cerasifera 'Pissardii',False,C\ Motors,,59.47,no_facade,,check,,,,,1.0,floor
+0297468AR,Paulownia tomentosa,False,C\ Motors,,55.66,no_facade,,check,,,,,1.0,floor
+0297473AR,Prunus cerasifera 'Pissardii',False,C\ Motors,,75.83,no_facade,,check,,,,,1.0,floor
+0297475AR,Acer saccharinum,False,C\ Motors,,48.55,no_facade,,check,,,,,1.0,floor
+0297476AR,Ginkgo biloba,False,C\ Motors,,54.69,no_facade,,check,,,,,1.0,floor
+0297477AR,Acer saccharinum,False,C\ Motors,,59.69,no_facade,,check,,,,,1.0,floor
+0297478AR,Acer saccharinum,False,C\ Motors,,66.06,no_facade,,check,,,,,1.0,floor
+0297479AR,Ginkgo biloba,False,C\ Motors,,74.33,no_facade,,check,,,,,1.0,floor
+0297480AR,Tipuana tipu,False,C\ Motors,,54.28,no_facade,,check,,,,,1.0,floor
+0297481AR,Jacaranda mimosifolia,False,C\ Motors,,59.56,no_facade,,check,,,,,1.0,floor
+0297482AR,Tipuana tipu,False,C\ Motors,,63.68,no_facade,,check,,,,,1.0,floor
+0297483AR,Tipuana tipu,False,C\ Motors,,66.45,no_facade,,check,,,,,1.0,floor
+0297484AR,Jacaranda mimosifolia,False,C\ Motors,,70.47,no_facade,,check,,,,,1.0,floor
+0297485AR,Tipuana tipu,False,C\ Motors,,75.7,no_facade,,check,,,,,1.0,floor
+0297486AR,Tipuana tipu,False,C\ Motors,,81.79,no_facade,,check,,,,,1.0,floor
+0297487AR,Grevillea robusta,False,C\ Motors,,63.62,no_facade,2.97,check,,,,,1.0,floor
+0297488AR,Grevillea robusta,False,C\ Motors,,59.25,no_facade,2.96,check,,,,,1.0,floor
+0297489AR,Grevillea robusta,False,C\ Motors,,53.97,no_facade,2.97,check,,,,,1.0,floor
+0297490AR,Grevillea robusta,False,C\ Motors,,48.9,no_facade,2.97,check,,,,,1.0,floor
+0297491AR,Prunus cerasifera 'Pissardii',False,C\ Motors,,39.52,no_facade,,check,,,,,1.0,floor
+0297494AR,Ginkgo biloba,False,C\ Motors,,31.97,no_facade,,check,,,,,1.0,floor
+0297495AR,Ginkgo biloba,False,C\ Motors,,42.98,no_facade,,check,,,,,1.0,floor
+0297496AR,Prunus cerasifera 'Pissardii',False,C\ Motors,,56.73,no_facade,,check,,,,,1.0,floor
+0297498AR,Prunus cerasifera 'Pissardii',False,C\ Motors,,58.52,no_facade,,check,,,,,1.0,floor
+0297499AR,Prunus cerasifera 'Pissardii',False,C\ Motors,,50.57,no_facade,,check,,,,,1.0,floor
+0297500AR,Jacaranda mimosifolia,False,C\ Motors,,54.96,no_facade,,check,,,,,1.0,floor
+0297503AR,Tipuana tipu,False,C\ Motors,,33.05,no_facade,,check,,,,,1.0,floor
+0297504AR,Tipuana tipu,False,C\ Motors,,42.72,no_facade,,check,,,,,1.0,floor
+0297505AR,Ginkgo biloba,False,C\ Motors,,67.12,no_facade,,check,,,,,1.0,floor
+0297507AR,Prunus cerasifera 'Pissardii',False,C\ SN(Motors-Tortosa),,65.98,no_facade,,check,,,,,1.0,floor
+0297508AR,Acer saccharinum,False,C\ SN(Motors-Tortosa),,70.92,no_facade,,check,,,,,1.0,floor
+0297510AR,Acer saccharinum,False,C\ SN(Motors-Tortosa),,71.94,no_facade,,check,,,,,1.0,floor
+0297513AR,Prunus cerasifera 'Pissardii',False,C\ SN(Motors-Tortosa),,68.54,no_facade,,check,,,,,1.0,floor
+0297514AR,Ginkgo biloba,False,C\ SN(Motors-Tortosa),,70.07,no_facade,,check,,,,,1.0,floor
+0297517AR,Prunus cerasifera 'Pissardii',False,C\ SN(Motors-Tortosa),,61.17,no_facade,,check,,,,,1.0,floor
+0297518AR,Prunus cerasifera 'Pissardii',False,C\ SN(Motors-Tortosa),,57.42,no_facade,,check,,,,,1.0,floor
+0297519AR,Acer saccharinum,False,C\ SN(Motors-Tortosa),,52.58,no_facade,,check,,,,,1.0,floor
+0297520AR,Tipuana tipu,False,C\ Ulldecona,,37.58,no_facade,,check,,,,,1.0,floor
+0297521AR,Tipuana tipu,False,C\ Ulldecona,,43.85,no_facade,,check,,,,,1.0,floor
+0297522AR,Salix alba,False,C\ SN(Motors-Tortosa),,50.49,no_facade,,check,,,,,1.0,floor
+0297523AR,Prunus cerasifera 'Pissardii',False,C\ Ulldecona,,44.47,no_facade,,check,,,,,1.0,floor
+0297524AR,Populus alba 'Pyramidalis',False,C\ Motors,5.52,4.42,ok,,medium,428440.59,4578080.45,428442.84,4578075.41,1.0,class
+0297525AR,Grevillea robusta,False,C\ Motors,,30.05,no_facade,16.88,check,,,,,1.0,floor
+0297526AR,Grevillea robusta,False,C\ Motors,,27.06,median,2.97,check,,,,,1.0,floor
+0297527AR,Grevillea robusta,False,C\ Motors,,26.72,median,2.98,check,,,,,1.0,floor
+0297528AR,Grevillea robusta,False,C\ Motors,,26.72,median,2.98,check,,,,,1.0,floor
+0297529AR,Grevillea robusta,False,C\ Motors,,26.72,median,2.98,check,,,,,1.0,floor
+0297530AR,Grevillea robusta,False,C\ Motors,,26.73,median,2.98,check,,,,,1.0,floor
+0297531AR,Grevillea robusta,False,C\ Motors,,26.73,median,2.98,check,,,,,1.0,floor
+0297532AR,Grevillea robusta,False,C\ Motors,,26.73,median,2.98,check,,,,,1.0,floor
+0297533AR,Grevillea robusta,False,C\ Motors,,26.74,median,2.98,check,,,,,1.0,floor
+0297534AR,Grevillea robusta,False,C\ Motors,,27.1,median,2.97,check,,,,,1.0,floor
+0297535AR,Grevillea robusta,False,C\ Motors,,28.69,median,2.97,check,,,,,1.0,floor
+0297536AR,Grevillea robusta,False,C\ Motors,,28.14,median,2.97,check,,,,,1.0,floor
+0297537AR,Grevillea robusta,False,C\ Motors,,26.78,median,2.97,check,,,,,1.0,floor
+0297538AR,Grevillea robusta,False,C\ Motors,,26.59,median,2.98,check,,,,,1.0,floor
+0297539AR,Grevillea robusta,False,C\ Motors,,26.6,median,2.98,check,,,,,1.0,floor
+0297540AR,Grevillea robusta,False,C\ Motors,,26.48,median,2.97,check,,,,,1.0,floor
+0297541AR,Grevillea robusta,False,C\ Motors,,26.53,median,2.97,check,,,,,1.0,floor
+0297542AR,Grevillea robusta,False,C\ Motors,,26.59,median,2.97,check,,,,,1.0,floor
+0297543AR,Grevillea robusta,False,C\ Motors,,26.63,median,2.97,check,,,,,1.0,floor
+0297544AR,Grevillea robusta,False,C\ Motors,,26.64,median,2.97,check,,,,,1.0,floor
+0297545AR,Grevillea robusta,False,C\ Motors,,26.64,median,2.98,check,,,,,1.0,floor
+0297546AR,Grevillea robusta,False,C\ Motors,,27.07,median,2.98,check,,,,,1.0,floor
+0297547AR,Grevillea robusta,False,C\ Motors,,27.43,median,2.98,check,,,,,1.0,floor
+0297548AR,Grevillea robusta,False,C\ Motors,,26.49,median,2.98,check,,,,,1.0,floor
+0297549AR,Grevillea robusta,False,C\ Motors,,26.47,median,2.98,check,,,,,1.0,floor
+0297550AR,Grevillea robusta,False,C\ Motors,,26.46,median,2.97,check,,,,,1.0,floor
+0297551AR,Grevillea robusta,False,C\ Motors,,26.46,median,2.97,check,,,,,1.0,floor
+0297552AR,Grevillea robusta,False,C\ Motors,,26.47,median,2.97,check,,,,,1.0,floor
+0297553AR,Grevillea robusta,False,C\ Motors,,26.67,median,2.97,check,,,,,1.0,floor
+0297554AR,Grevillea robusta,False,C\ Motors,,28.04,median,2.97,check,,,,,1.0,floor
+0297555AR,Grevillea robusta,False,C\ Motors,,30.56,no_facade,2.97,check,,,,,1.0,floor
+0297556AR,Grevillea robusta,False,C\ Motors,,33.96,no_facade,2.97,check,,,,,1.0,floor
+0297557AR,Grevillea robusta,False,C\ Motors,,37.59,no_facade,2.97,check,,,,,1.0,floor
+0297558AR,Grevillea robusta,False,C\ Motors,,40.48,no_facade,2.97,check,,,,,1.0,floor
+0297559AR,Grevillea robusta,False,C\ Motors,,42.0,no_facade,2.97,check,,,,,1.0,floor
+0297560AR,Grevillea robusta,False,C\ Motors,,43.16,no_facade,2.97,check,,,,,1.0,floor
+0297561AR,Grevillea robusta,False,C\ Motors,,45.08,no_facade,2.98,check,,,,,1.0,floor
+0297562AR,Grevillea robusta,False,C\ Motors,,47.7,no_facade,2.97,check,,,,,1.0,floor
+0297563AR,Grevillea robusta,False,C\ Motors,,50.89,no_facade,2.96,check,,,,,1.0,floor
+0297564AR,Grevillea robusta,False,C\ Motors,,54.55,no_facade,2.96,check,,,,,1.0,floor
+0297565AR,Grevillea robusta,False,C\ Motors,,58.6,no_facade,2.98,check,,,,,1.0,floor
+0297566AR,Grevillea robusta,False,C\ Motors,,62.96,no_facade,2.99,check,,,,,1.0,floor
+0297567AR,Grevillea robusta,False,C\ Motors,,67.58,no_facade,2.99,check,,,,,1.0,floor
+0297569AR,Liriodendron tulipifera,False,C\ Pontils,,54.2,no_facade,,check,,,,,1.0,floor
+0297570AR,Jacaranda mimosifolia,False,C\ Pontils,,54.78,no_facade,,check,,,,,1.0,floor
+0297571AR,Jacaranda mimosifolia,False,C\ Pontils,,52.07,no_facade,,check,,,,,1.0,floor
+0297572AR,Jacaranda mimosifolia,False,C\ Pontils,,49.24,no_facade,,check,,,,,1.0,floor
+0297573AR,Jacaranda mimosifolia,False,C\ Pontils,,48.96,no_facade,,check,,,,,1.0,floor
+0297574AR,Jacaranda mimosifolia,False,C\ Pontils,,45.15,no_facade,,check,,,,,1.0,floor
+0297575AR,Jacaranda mimosifolia,False,C\ Pontils,,42.28,no_facade,,check,,,,,1.0,floor
+0297576AR,Jacaranda mimosifolia,False,C\ Pontils,,40.69,no_facade,,check,,,,,1.0,floor
+0297577AR,Jacaranda mimosifolia,False,C\ Pontils,,40.39,no_facade,,check,,,,,1.0,floor
+0297578AR,Liriodendron tulipifera,False,C\ Pontils,,54.18,no_facade,,check,,,,,1.0,floor
+0297579AR,Jacaranda mimosifolia,False,C\ Pontils,,43.06,no_facade,,check,,,,,1.0,floor
+0297580AR,Jacaranda mimosifolia,False,C\ Pontils,,38.59,no_facade,,check,,,,,1.0,floor
+0297582AR,Jacaranda mimosifolia,False,C\ Pontils,,33.78,no_facade,,check,,,,,1.0,floor
+0297583AR,Liriodendron tulipifera,False,C\ Pontils,,46.21,no_facade,,check,,,,,1.0,floor
+0297584AR,Jacaranda mimosifolia,False,C\ Pontils,,37.26,no_facade,,check,,,,,1.0,floor
+0297585AR,Jacaranda mimosifolia,False,C\ Pontils,,32.06,no_facade,,check,,,,,1.0,floor
+0297586AR,Jacaranda mimosifolia,False,C\ Pontils,,28.55,no_kerb,,check,,,,,1.0,floor
+0297587AR,Jacaranda mimosifolia,False,C\ Pontils,,26.67,no_kerb,,check,,,,,1.0,floor
+0297588AR,Liriodendron tulipifera,False,C\ Pontils,,41.44,no_facade,,check,,,,,1.0,floor
+0297589AR,Jacaranda mimosifolia,False,C\ Pontils,,31.75,no_facade,,check,,,,,1.0,floor
+0297590AR,Jacaranda mimosifolia,False,C\ Pontils,,25.46,no_kerb,,check,,,,,1.0,floor
+0297591AR,Jacaranda mimosifolia,False,C\ Pontils,,21.84,no_kerb,,check,,,,,1.0,floor
+0297592AR,Jacaranda mimosifolia,False,C\ Pontils,,10.07,no_kerb,,check,,,,,1.0,floor
+0297593AR,Liriodendron tulipifera,False,C\ Pontils,,31.7,no_facade,,check,,,,,1.0,floor
+0297594AR,Liriodendron tulipifera,False,C\ Pontils,,29.0,median,,check,,,,,1.0,floor
+0297595AR,Jacaranda mimosifolia,False,C\ Pontils,22.39,20.11,ok,,large,428280.59,4578053.58,428301.08,4578062.59,1.5,class
+0297596AR,Jacaranda mimosifolia,False,C\ Pontils,22.91,12.64,ok,,large,428281.12,4578052.38,428302.09,4578061.59,1.5,class
+0297598AR,Jacaranda mimosifolia,False,C\ Pontils,20.34,10.02,ok,,large,428278.52,4578058.3,428297.14,4578066.48,1.5,class
+0297599AR,Jacaranda mimosifolia,False,C\ Pontils,19.88,17.67,ok,,large,428278.05,4578059.35,428296.25,4578067.35,1.5,class
+0297600AR,Liriodendron tulipifera,False,C\ Pontils,,25.32,median,,check,,,,,1.0,floor
+0297601AR,Jacaranda mimosifolia,False,C\ Pontils,17.23,14.91,ok,,large,428275.34,4578065.53,428291.11,4578072.46,1.5,class
+0297602AR,Jacaranda mimosifolia,False,C\ Pontils,17.79,7.42,ok,,large,428275.92,4578064.21,428292.2,4578071.37,1.5,class
+0297603AR,Jacaranda mimosifolia,False,C\ Pontils,15.82,13.71,ok,,large,428275.08,4578066.12,428285.65,4578077.89,1.5,class
+0297604AR,Liriodendron tulipifera,False,C\ Pontils,,22.64,median,,check,,,,,1.0,floor
+0297605AR,Jacaranda mimosifolia,False,C\ Pontils,9.18,6.8,ok,,large,428250.69,4578099.59,428257.17,4578106.09,1.5,class
+0297606AR,Liriodendron tulipifera,False,C\ Pontils,5.19,4.56,ok,,medium,428261.82,4578117.27,428258.18,4578113.57,1.0,class
+0297607AR,Jacaranda mimosifolia,False,C\ Pontils,9.16,4.71,ok,,large,428246.08,4578104.18,428252.54,4578110.67,1.5,class
+0297608AR,Jacaranda mimosifolia,False,C\ Pontils,9.18,7.06,ok,,large,428241.87,4578108.33,428248.36,4578114.82,1.5,class
+0297609AR,Liriodendron tulipifera,False,C\ Pontils,5.16,4.59,ok,,medium,428254.69,4578124.29,428251.07,4578120.62,1.0,class
+0297610AR,Jacaranda mimosifolia,False,C\ Pontils,9.16,4.82,ok,,large,428238.19,4578112.01,428244.66,4578118.49,1.5,class
+0297611AR,Liriodendron tulipifera,False,C\ Pontils,5.12,4.55,ok,,medium,428247.7,4578131.17,428244.11,4578127.53,1.0,class
+0297612AR,Jacaranda mimosifolia,False,C\ Pontils,9.14,6.84,ok,,large,428234.33,4578115.85,428240.78,4578122.33,1.5,class
+0297613AR,Liriodendron tulipifera,False,C\ Cal Cisó,5.26,3.96,ok,,medium,428199.5,4578051.01,428197.37,4578055.82,1.0,class
+0297614AR,Liriodendron tulipifera,False,C\ Cal Cisó,5.26,3.96,ok,,medium,428208.81,4578055.12,428206.68,4578059.94,1.0,class
+0297615AR,Liriodendron tulipifera,False,C\ Cal Cisó,5.28,4.01,ok,,medium,428217.84,4578059.11,428215.71,4578063.94,1.0,class
+0297616AR,Acer saccharinum,False,C\ Cal Cisó,8.63,7.24,ok,,large,428218.5,4578081.23,428221.98,4578073.33,1.5,class
+0297617AR,Liriodendron tulipifera,False,C\ Cal Cisó,5.29,4.0,ok,,medium,428226.64,4578063.0,428224.5,4578067.84,1.0,class
+0297618AR,Liriodendron tulipifera,False,C\ Cal Cisó,5.3,4.02,ok,,medium,428236.22,4578067.23,428234.08,4578072.09,1.0,class
+0297619AR,Liriodendron tulipifera,False,C\ Cal Cisó,5.27,4.07,ok,,medium,428245.37,4578071.3,428243.22,4578076.12,1.0,class
+0297620AR,Tilia x europaea,False,C\ Cal Cisó,5.26,4.07,ok,,medium,428257.13,4578076.52,428255.01,4578081.33,1.0,class
+0297623AR,Acer saccharinum,False,C\ Cal Cisó,8.91,4.9,ok,,large,428241.0,4578091.17,428246.49,4578084.16,1.5,class
+0297624AR,Acer saccharinum,False,C\ Cal Cisó,8.63,7.12,ok,,large,428249.73,4578095.01,428253.21,4578087.12,1.5,class
+0297625AR,Jacaranda mimosifolia,False,C\ Cal Cisó,10.85,5.64,ok,,large,428253.58,4578096.71,428264.19,4578098.92,1.5,class
+0297626AR,Liriodendron tulipifera,False,C\ Cal Cisó,5.26,4.59,ok,,medium,428273.58,4578105.69,428270.23,4578101.63,1.0,class
+0297627AR,Cercis siliquastrum,False,C\ Cal Cisó,,3.62,no_kerb,,check,,,,,1.0,floor
+0297628AR,Cercis siliquastrum,False,C\ Cal Cisó,,10.19,no_kerb,,check,,,,,1.0,floor
+0297629AR,Cercis siliquastrum,False,C\ Cal Cisó,,16.71,no_kerb,33.92,check,,,,,1.0,floor
+0297632AR,Cercis siliquastrum,False,C\ Cal Cisó,,10.26,no_kerb,35.17,check,,,,,1.0,floor
+0297633AR,Cercis siliquastrum,False,C\ Cal Cisó,,15.9,no_kerb,29.27,check,,,,,1.0,floor
+0297634AR,Cercis siliquastrum,False,C\ Cal Cisó,,11.06,no_kerb,27.62,check,,,,,1.0,floor
+0297636AR,Cercis siliquastrum,False,C\ Cal Cisó,,13.34,no_kerb,28.87,check,,,,,1.0,floor
+0297638AR,Cercis siliquastrum,False,C\ Cal Cisó,,10.33,no_kerb,,check,,,,,1.0,floor
+0297640AR,Cercis siliquastrum,False,C\ Cal Cisó,,6.21,no_kerb,29.74,check,,,,,1.0,floor
+0297642AR,Cercis siliquastrum,False,C\ Cal Cisó,4.87,3.83,ok,,medium,428349.55,4578170.65,428346.13,4578167.19,1.0,class
+0297643AR,Cercis siliquastrum,False,C\ Cal Cisó,9.65,3.77,ok,,large,428344.67,4578175.48,428337.89,4578168.62,1.5,class
+0297644AR,Cercis siliquastrum,False,C\ Cal Cisó,8.34,3.87,ok,,large,428339.74,4578180.36,428333.86,4578174.44,1.5,class
+0297645AR,Cercis siliquastrum,False,C\ Cal Cisó,,3.8,no_kerb,,check,,,,,1.0,floor
+0297646AR,Acer saccharinum,False,C\ Cal Cisó,,6.53,no_kerb,11.02,check,,,,,1.0,floor
+0297647AR,Ginkgo biloba,False,C\ Micaela Chalmeta,17.16,8.7,ok,,large,428383.44,4578161.06,428399.04,4578153.92,1.5,class
+0297648AR,Liriodendron tulipifera,False,C\ Micaela Chalmeta,5.17,4.39,ok,,medium,428398.28,4578174.2,428394.65,4578170.53,1.0,class
+0297649AR,Ginkgo biloba,False,C\ Micaela Chalmeta,8.6,6.78,ok,,large,428383.44,4578161.06,428389.91,4578166.72,1.5,class
+0297650AR,Ginkgo biloba,False,C\ Micaela Chalmeta,8.57,4.2,ok,,large,428377.45,4578167.01,428383.49,4578173.09,1.5,class
+0297651AR,Liriodendron tulipifera,False,C\ Micaela Chalmeta,5.16,4.41,ok,,medium,428391.17,4578181.23,428387.54,4578177.57,1.0,class
+0297652AR,Liriodendron tulipifera,False,C\ Micaela Chalmeta,5.15,4.42,ok,,medium,428384.06,4578188.26,428380.44,4578184.6,1.0,class
+0297653AR,Ginkgo biloba,False,C\ Micaela Chalmeta,8.56,6.68,ok,,large,428370.79,4578173.62,428376.81,4578179.71,1.5,class
+0297654AR,Ginkgo biloba,False,C\ Micaela Chalmeta,8.56,4.14,ok,,large,428364.69,4578179.66,428370.71,4578185.75,1.5,class
+0297655AR,Liriodendron tulipifera,False,C\ Micaela Chalmeta,5.14,4.44,ok,,medium,428376.92,4578195.33,428373.3,4578191.67,1.0,class
+0297656AR,Liriodendron tulipifera,False,C\ Micaela Chalmeta,5.14,4.46,ok,,medium,428369.53,4578202.64,428365.91,4578198.99,1.0,class
+0297657AR,Ginkgo biloba,False,C\ Micaela Chalmeta,8.57,6.51,ok,,large,428359.27,4578185.02,428365.3,4578191.11,1.5,class
+0297658AR,Ginkgo biloba,False,C\ Micaela Chalmeta,8.55,4.12,ok,,large,428349.62,4578194.6,428355.66,4578200.66,1.5,class
+0297660AR,Liriodendron tulipifera,False,C\ Cal Cisó,,15.84,median,,check,,,,,1.0,floor
+0297661AR,Acer saccharinum,False,C\ Cal Cisó,8.78,4.8,ok,,large,428287.4,4578111.83,428290.95,4578103.8,1.5,class
+0297663AR,Liriodendron tulipifera,False,C\ Cal Cisó,,15.84,median,,check,,,,,1.0,floor
+0297665AR,Liriodendron tulipifera,False,C\ Cal Cisó,,15.84,median,,check,,,,,1.0,floor
+0297666AR,Acer saccharinum,False,C\ Cal Cisó,8.8,6.98,ok,,large,428312.14,4578122.78,428315.71,4578114.74,1.5,class
+0297667AR,Liriodendron tulipifera,False,C\ Cal Cisó,,15.82,median,,check,,,,,1.0,floor
+0297670AR,Liriodendron tulipifera,False,C\ Cal Cisó,,15.77,median,,check,,,,,1.0,floor
+0297672AR,Acer saccharinum,False,C\ Cal Cisó,8.79,4.78,ok,,large,428335.98,4578133.32,428339.53,4578125.28,1.5,class
+0297673AR,Liriodendron tulipifera,False,C\ Cal Cisó,,15.96,median,,check,,,,,1.0,floor
+0297674AR,Acer saccharinum,False,C\ Cal Cisó,19.92,15.96,ok,,large,428337.75,4578134.1,428357.65,4578133.29,1.5,class
+0297676AR,Acer saccharinum,False,C\ Cal Cisó,25.29,14.6,ok,,large,428371.07,4578149.31,428353.26,4578131.35,1.5,class
+0297678AR,Acer saccharinum,False,C\ Cal Cisó,10.6,8.37,ok,,large,428371.42,4578148.97,428369.54,4578138.54,1.5,class
+0297679AR,Acer saccharinum,False,C\ Cal Cisó,10.16,5.89,ok,,large,428372.76,4578150.32,428379.96,4578143.15,1.5,class
+0297682AR,Acer saccharinum,False,C\ Cal Cisó,13.08,10.87,ok,,large,428378.06,4578155.64,428387.33,4578146.41,1.5,class
+0297684AR,Liriodendron tulipifera,False,C\ Cal Cisó,,19.89,median,,check,,,,,1.0,floor
+0297685AR,Liriodendron tulipifera,False,C\ Cal Cisó,,15.85,median,,check,,,,,1.0,floor
+0297686AR,Liriodendron tulipifera,False,C\ Cal Cisó,,16.86,median,,check,,,,,1.0,floor
+0297687AR,Liriodendron tulipifera,False,C\ Cal Cisó,,19.85,median,,check,,,,,1.0,floor
+0297688AR,Liriodendron tulipifera,False,C\ Cal Cisó,,15.66,median,,check,,,,,1.0,floor
+0297689AR,Acer saccharinum,False,C\ Cal Cisó,16.37,10.58,ok,,large,428434.01,4578176.6,428424.87,4578163.02,1.5,class
+0297690AR,Acer saccharinum,False,Pg Zona Franca,9.29,4.73,ok,,large,428434.01,4578176.6,428440.43,4578169.89,1.5,class
+0297691AR,Liriodendron tulipifera,False,C\ Cal Cisó,,17.05,median,,check,,,,,1.0,floor
+0297692AR,Liriodendron tulipifera,False,C\ Cal Cisó,,20.68,median,,check,,,,,1.0,floor
+0297693AR,Acer saccharinum,False,Pg Zona Franca,12.73,10.35,ok,,large,428439.97,4578182.63,428449.02,4578173.67,1.5,class
+0297696AR,Salix babylonica 'Tortuosa',False,C\ Cal Cisó,,27.57,median,,check,,,,,1.0,floor
+0297698AR,Salix babylonica 'Tortuosa',False,C\ Cal Cisó,,27.17,median,,check,,,,,1.0,floor
+0297700AR,Salix babylonica 'Tortuosa',False,C\ Cal Cisó,,30.99,no_facade,,check,,,,,1.0,floor
+0297703AR,Salix babylonica 'Tortuosa',False,C\ Cal Cisó,,34.28,no_facade,,check,,,,,1.0,floor
+0297705AR,Salix babylonica 'Tortuosa',False,C\ Cal Cisó,,34.11,no_facade,,check,,,,,1.0,floor
+0297706AR,Salix babylonica 'Tortuosa',False,C\ Cal Cisó,,32.66,no_facade,,check,,,,,1.0,floor
+0297707AR,Salix babylonica 'Tortuosa',False,C\ Cal Cisó,,33.46,no_facade,,check,,,,,1.0,floor
+0297709AR,Salix babylonica 'Tortuosa',False,C\ Cal Cisó,,40.47,no_facade,,check,,,,,1.0,floor
+0297713AR,Salix babylonica 'Tortuosa',False,C\ Cal Cisó,,39.2,no_facade,,check,,,,,1.0,floor
+0297714AR,Salix babylonica 'Tortuosa',False,C\ Cal Cisó,,38.46,no_facade,,check,,,,,1.0,floor
+0297764AR,Ginkgo biloba,False,C\ Motors,,40.65,no_facade,,check,,,,,1.0,floor
+0300562AR,Quercus ilex,False,C\ Ulldecona,,31.57,no_facade,,check,,,,,1.0,floor
+0307976AR,Prunus serrulata,False,C\ Ulldecona,19.86,8.6,ok,,large,428397.68,4578278.1,428385.28,4578293.62,1.5,class
+0307977AR,Celtis australis,False,C\ Ulldecona,,9.54,no_kerb,,check,,,,,1.0,floor
+0307978AR,Crataegus monogyna,False,C\ Ulldecona,,6.15,no_kerb,,check,,,,,1.0,floor
+0307979AR,Fraxinus excelsior,False,C\ Ulldecona,,7.02,no_kerb,,check,,,,,1.0,floor
+0307980AR,Fraxinus excelsior,False,C\ Ulldecona,19.86,12.2,ok,,large,428390.57,4578272.43,428378.18,4578287.94,1.5,class
+0307981AR,Salix alba,False,C\ Ulldecona,,12.95,no_kerb,,check,,,,,1.0,floor
+0307982AR,Pyrus calleryana 'Chanticleer',False,C\ Ulldecona,,8.58,median,,check,,,,,1.0,floor
+0307983AR,Fraxinus excelsior,False,C\ Ulldecona,,10.3,no_kerb,,check,,,,,1.0,floor
+0307984AR,Pyrus calleryana 'Chanticleer',False,C\ Ulldecona,,8.77,median,,check,,,,,1.0,floor
+0307987AR,Salix alba,False,C\ Ulldecona,,12.47,no_kerb,,check,,,,,1.0,floor
+0307988AR,Fraxinus excelsior,False,C\ Ulldecona,,7.51,no_kerb,,check,,,,,1.0,floor
+0307989AR,Pyrus calleryana 'Chanticleer',False,C\ Ulldecona,,12.54,no_kerb,,check,,,,,1.0,floor
+0307990AR,Acer pseudoplatanus,False,C\ Pontils,4.81,3.84,ok,,medium,428210.81,4578167.3,428207.43,4578163.88,1.0,class
+0307991AR,Acer pseudoplatanus,False,C\ Cal Cisó,16.21,12.18,ok,,large,428169.78,4578059.73,428160.78,4578046.25,1.5,class
+0307992AR,Fraxinus angustifolia,False,C\ Ulldecona,18.97,11.5,ok,,large,428136.38,4578054.76,428149.86,4578041.41,1.5,class
+0307993AR,Liriodendron tulipifera,False,C\ Cal Cisó,,17.65,median,,check,,,,,1.0,floor
+0307994AR,Cercis siliquastrum,False,C\ Ulldecona,25.47,10.96,ok,,large,428148.13,4578066.62,428166.16,4578048.63,1.5,class
+0307995AR,Salix alba,False,C\ Ulldecona,,8.18,no_kerb,,check,,,,,1.0,floor
+0307996AR,Salix alba,False,C\ Ulldecona,,6.74,no_kerb,,check,,,,,1.0,floor
+0307997AR,Acer pseudoplatanus,False,C\ Cal Cisó,10.04,5.39,ok,,large,428200.36,4578073.22,428208.51,4578067.37,1.5,class
+0307998AR,Acer pseudoplatanus,False,C\ Cal Cisó,8.64,6.4,ok,,large,428212.33,4578078.5,428215.81,4578070.6,1.5,class
+0307999AR,Acer pseudoplatanus,False,C\ Cal Cisó,8.66,6.49,ok,,large,428196.87,4578071.69,428200.37,4578063.76,1.5,class
+0308000AR,Salix alba,False,C\ Ulldecona,,6.78,no_kerb,,check,,,,,1.0,floor
+0308004AR,Fraxinus excelsior,False,C\ Ulldecona,,9.38,no_kerb,,check,,,,,1.0,floor
+0308011AR,Acer saccharinum,False,C\ Ulldecona,,10.19,no_kerb,,check,,,,,1.0,floor
+0308016AR,Acer saccharinum,False,C\ Ulldecona,,8.46,no_kerb,,check,,,,,1.0,floor
+0308023AR,Fraxinus excelsior,False,C\ Ulldecona,,9.16,no_kerb,,check,,,,,1.0,floor
+0308025AR,Salix alba,False,C\ Ulldecona,,6.19,no_kerb,,check,,,,,1.0,floor
+0308026AR,Platanus orientalis,True,C\ Cal Cisó,,31.66,no_facade,,check,,,,,1.0,floor
+0308027AR,Platanus orientalis,True,C\ Cal Cisó,,38.16,no_facade,,check,,,,,1.0,floor
+0308028AR,Platanus orientalis,True,C\ Cal Cisó,,44.03,no_facade,9.3,check,,,,,1.0,floor
+0308029AR,Platanus orientalis,True,C\ Cal Cisó,,50.7,no_facade,9.3,check,,,,,1.0,floor
+0308030AR,Platanus orientalis,True,C\ Cal Cisó,,46.95,no_facade,,check,,,,,1.0,floor
+0308031AR,Platanus × acerifolia,True,C\ Ulldecona,20.16,11.38,ok,,large,428119.44,4578037.66,428106.48,4578022.22,1.5,class
+0308032AR,Platanus × acerifolia,True,C\ Ulldecona,,24.19,no_kerb,,check,,,,,1.0,floor
+0308033AR,Platanus × acerifolia,True,C\ Ulldecona,22.76,18.26,ok,,large,428119.44,4578037.66,428103.86,4578021.06,1.5,class
+0308034AR,Liriodendron tulipifera,False,C\ Ulldecona,,36.6,no_facade,,check,,,,,1.0,floor
+0308035AR,Liriodendron tulipifera,False,C\ Ulldecona,,45.01,no_facade,,check,,,,,1.0,floor
+0308036AR,Liriodendron tulipifera,False,C\ Cal Cisó,,45.03,no_facade,,check,,,,,1.0,floor
+0308038AR,Fraxinus angustifolia 'Raywood',False,C\ Ulldecona,,8.27,no_kerb,,check,,,,,1.0,floor
+0308041AR,Fraxinus excelsior,False,C\ Ulldecona,28.21,6.84,ok,,large,428153.13,4578071.63,428173.1,4578051.7,1.5,class
+0308042AR,Fraxinus excelsior,False,C\ Ulldecona,27.58,8.02,ok,,large,428151.97,4578070.47,428171.49,4578050.99,1.5,class
+0308043AR,Fraxinus excelsior,False,C\ Ulldecona,,8.88,no_kerb,,check,,,,,1.0,floor
+0308044AR,Fraxinus angustifolia,False,C\ Ulldecona,20.06,13.86,ok,,large,428138.34,4578056.74,428152.59,4578042.62,1.5,class
+0308046AR,Fraxinus angustifolia,False,C\ Ulldecona,,7.57,no_kerb,,check,,,,,1.0,floor
+0308048AR,Fraxinus angustifolia,False,C\ Ulldecona,,7.26,no_kerb,,check,,,,,1.0,floor
+0308049AR,Fraxinus angustifolia,False,C\ Ulldecona,,8.86,no_kerb,,check,,,,,1.0,floor
+0308051AR,Salix alba,False,C\ Ulldecona,,6.31,no_kerb,,check,,,,,1.0,floor
+0308052AR,Fraxinus angustifolia,False,C\ Ulldecona,20.67,10.57,ok,,large,428139.43,4578057.85,428154.12,4578043.3,1.5,class
+0308053AR,Fraxinus angustifolia,False,C\ Ulldecona,19.65,7.45,ok,,large,428137.6,4578055.99,428151.56,4578042.17,1.5,class
+0308054AR,Cercis siliquastrum,False,C\ Ulldecona,26.09,8.7,ok,,large,428149.26,4578067.75,428167.73,4578049.32,1.5,class
+0308057AR,Celtis australis,False,C\ Ulldecona,,6.42,no_kerb,,check,,,,,1.0,floor
+0308058AR,Celtis australis,False,C\ Ulldecona,,6.59,no_kerb,,check,,,,,1.0,floor
+0308059AR,Celtis australis,False,C\ Ulldecona,,7.42,no_kerb,,check,,,,,1.0,floor
+0308060AR,Salix alba,False,C\ Ulldecona,,6.91,no_kerb,,check,,,,,1.0,floor
+0308061AR,Cercis siliquastrum,False,C\ Ulldecona,26.3,6.87,ok,,large,428149.65,4578068.14,428168.27,4578049.56,1.5,class
+0308062AR,Fraxinus angustifolia,False,C\ Ulldecona,21.1,8.34,ok,,large,428140.21,4578058.63,428155.2,4578043.78,1.5,class
+0308063AR,Salix alba,False,C\ Ulldecona,13.17,7.54,ok,,large,428125.96,4578044.25,428135.32,4578034.98,1.5,class
+0308064AR,Salix alba,False,C\ Ulldecona,15.86,6.13,ok,,large,428130.79,4578049.12,428142.06,4578037.96,1.5,class
+0308065AR,Salix alba,False,C\ Ulldecona,17.17,11.44,ok,,large,428133.15,4578051.5,428145.35,4578039.42,1.5,class
+0308067AR,Acer pseudoplatanus,False,C\ Cal Cisó,8.66,4.74,ok,,large,428191.11,4578069.14,428194.6,4578061.21,1.5,class
+0308068AR,Acer pseudoplatanus,False,C\ Cal Cisó,8.67,6.51,ok,,large,428184.92,4578066.41,428188.42,4578058.48,1.5,class
+0308069AR,Acer pseudoplatanus,False,C\ Cal Cisó,8.68,4.59,ok,,large,428178.59,4578063.62,428182.09,4578055.68,1.5,class
+0308070AR,Acer pseudoplatanus,False,C\ Cal Cisó,8.68,6.57,ok,,large,428172.42,4578060.89,428175.92,4578052.95,1.5,class
+0308071AR,Acer pseudoplatanus,False,C\ Cal Cisó,11.16,5.81,ok,,large,428169.78,4578059.73,428166.89,4578048.95,1.5,class
+0308073AR,Liriodendron tulipifera,False,C\ Cal Cisó,,22.29,median,,check,,,,,1.0,floor
+0308074AR,Liriodendron tulipifera,False,C\ Cal Cisó,,16.41,median,,check,,,,,1.0,floor
+0308076AR,Acer pseudoplatanus,False,C\ Pontils,4.85,3.88,ok,,medium,428224.9,4578153.38,428221.49,4578149.93,1.0,class
+0308077AR,Acer pseudoplatanus,False,C\ Pontils,4.83,3.87,ok,,medium,428218.09,4578160.1,428214.7,4578156.67,1.0,class
+0308078AR,Acer pseudoplatanus,False,C\ Pontils,4.8,3.78,ok,,medium,428204.58,4578173.46,428201.21,4578170.05,1.0,class
+0308079AR,Acer pseudoplatanus,False,C\ Pontils,4.78,3.91,ok,,medium,428196.4,4578181.55,428193.04,4578178.15,1.0,class
+0308088AR,Acer pseudoplatanus,False,C\ Pontils,5.51,4.48,ok,,medium,428180.54,4578197.31,428179.05,4578192.01,1.0,class
+0308094AR,Pyrus calleryana 'Chanticleer',False,C\ Ulldecona,,9.04,no_kerb,,check,,,,,1.0,floor
+0308095AR,Pyrus calleryana 'Chanticleer',False,C\ Ulldecona,,10.41,no_kerb,,check,,,,,1.0,floor
+0308096AR,Pyrus calleryana 'Chanticleer',False,C\ Ulldecona,,13.32,no_kerb,,check,,,,,1.0,floor
+0308097AR,Pyrus calleryana 'Chanticleer',False,C\ Ulldecona,,8.36,no_kerb,,check,,,,,1.0,floor
+0308098AR,Pyrus calleryana 'Chanticleer',False,C\ Ulldecona,,11.6,no_kerb,,check,,,,,1.0,floor
+0308100AR,Fraxinus excelsior,False,C\ Ulldecona,,13.0,no_kerb,,check,,,,,1.0,floor
+0308101AR,Fraxinus excelsior,False,C\ Ulldecona,,7.54,no_kerb,,check,,,,,1.0,floor
+0308102AR,Fraxinus excelsior,False,C\ Ulldecona,,10.82,no_kerb,,check,,,,,1.0,floor
+0308103AR,Fraxinus excelsior,False,C\ Ulldecona,,6.49,no_kerb,,check,,,,,1.0,floor
+0308104AR,Fraxinus excelsior,False,C\ Ulldecona,,8.21,no_kerb,,check,,,,,1.0,floor
+0308105AR,Fraxinus excelsior,False,C\ Ulldecona,,12.1,no_kerb,,check,,,,,1.0,floor
+0308107AR,Fraxinus excelsior,False,C\ Ulldecona,,7.49,no_kerb,,check,,,,,1.0,floor
+0308112AR,Salix alba,False,C\ Ulldecona,,10.45,no_kerb,,check,,,,,1.0,floor
+0308113AR,Pyrus calleryana 'Chanticleer',False,C\ Ulldecona,,7.49,no_kerb,,check,,,,,1.0,floor
+0308114AR,Fraxinus excelsior,False,C\ Ulldecona,,14.5,no_kerb,,check,,,,,1.0,floor
+0308115AR,Celtis australis,False,C\ Ulldecona,,6.07,no_kerb,,check,,,,,1.0,floor
+0308116AR,Celtis australis,False,C\ Ulldecona,,7.84,no_kerb,,check,,,,,1.0,floor
+0308117AR,Pyrus calleryana 'Chanticleer',False,C\ Ulldecona,,5.33,no_kerb,,check,,,,,1.0,floor
+0308118AR,Salix alba,False,C\ Ulldecona,,13.42,no_kerb,,check,,,,,1.0,floor
+0308119AR,Celtis australis,False,C\ Ulldecona,,6.35,no_kerb,,check,,,,,1.0,floor
+0308120AR,Celtis australis,False,C\ Ulldecona,,6.73,no_kerb,,check,,,,,1.0,floor
+0308121AR,Fraxinus excelsior,False,C\ Ulldecona,,6.56,no_kerb,,check,,,,,1.0,floor
+0308123AR,Salix alba,False,C\ Ulldecona,,6.67,no_kerb,,check,,,,,1.0,floor
+0308124AR,Pyrus calleryana 'Chanticleer',False,C\ Ulldecona,20.0,10.94,ok,,large,428292.08,4578211.87,428305.34,4578196.9,1.5,class
+0308126AR,Salix alba,False,C\ Ulldecona,,12.44,no_kerb,,check,,,,,1.0,floor
+0308132AR,Celtis australis,False,C\ Ulldecona,,6.3,no_kerb,,check,,,,,1.0,floor
+0308133AR,Pyrus calleryana 'Chanticleer',False,C\ Ulldecona,21.09,11.81,ok,,large,428292.08,4578211.87,428301.42,4578192.96,1.5,class
+0308135AR,Ginkgo biloba,False,C\ Micaela Chalmeta,8.55,4.91,ok,,large,428329.63,4578214.47,428335.66,4578220.53,1.5,class
+0308136AR,Ginkgo biloba,False,C\ Micaela Chalmeta,8.55,6.43,ok,,large,428334.76,4578209.37,428340.79,4578215.44,1.5,class
+0308139AR,Liriodendron tulipifera,False,C\ Micaela Chalmeta,5.13,4.17,ok,,medium,428357.36,4578214.7,428353.75,4578211.06,1.0,class
+0308140AR,Pyrus calleryana 'Chanticleer',False,C\ Ulldecona,19.96,8.56,ok,,large,428292.17,4578211.96,428306.33,4578197.9,1.5,class
+0308141AR,Fraxinus excelsior,False,C\ Ulldecona,,6.53,no_kerb,,check,,,,,1.0,floor
+0308142AR,Salix alba,False,C\ Ulldecona,,8.29,no_kerb,,check,,,,,1.0,floor
+0308143AR,Fraxinus excelsior,False,C\ Ulldecona,,9.3,no_kerb,,check,,,,,1.0,floor
+0308144AR,Fraxinus excelsior,False,C\ Ulldecona,,6.18,no_kerb,,check,,,,,1.0,floor
+0308145AR,Fraxinus excelsior,False,C\ Ulldecona,,9.69,no_kerb,,check,,,,,1.0,floor
+0308147AR,Pyrus calleryana 'Chanticleer',False,C\ Ulldecona,,5.69,no_kerb,,check,,,,,1.0,floor
+0308149AR,Fraxinus excelsior,False,C\ Ulldecona,,5.41,no_kerb,36.19,check,,,,,1.0,floor
+0308150AR,Pyrus calleryana 'Chanticleer',False,C\ Cal Cisó,19.97,9.11,ok,,large,428294.7,4578214.51,428308.87,4578200.45,1.5,class
+0308151AR,Pyrus calleryana 'Chanticleer',False,C\ Ulldecona,,6.7,no_kerb,,check,,,,,1.0,floor
+0308153AR,Fraxinus excelsior,False,C\ Ulldecona,,8.24,no_kerb,,check,,,,,1.0,floor
+0308154AR,Fraxinus excelsior,False,C\ Ulldecona,,7.05,no_kerb,,check,,,,,1.0,floor
+0308156AR,Fraxinus excelsior,False,C\ Ulldecona,,8.56,no_kerb,,check,,,,,1.0,floor
+0308158AR,Salix alba,False,C\ Ulldecona,,7.7,no_kerb,,check,,,,,1.0,floor
+0308159AR,Salix alba,False,C\ Ulldecona,,7.23,no_kerb,,check,,,,,1.0,floor
+0308160AR,Fraxinus excelsior,False,C\ Ulldecona,19.86,11.4,ok,,large,428394.72,4578275.75,428382.33,4578291.26,1.5,class
+0308162AR,Fraxinus excelsior,False,C\ Ulldecona,19.86,8.5,ok,,large,428389.92,4578271.91,428377.53,4578287.43,1.5,class
+0308163AR,Salix alba,False,C\ Ulldecona,,10.54,no_kerb,,check,,,,,1.0,floor
+0308164AR,Fraxinus excelsior,False,C\ Ulldecona,,8.75,no_kerb,,check,,,,,1.0,floor
+0308166AR,Fraxinus excelsior,False,C\ Ulldecona,,6.75,no_kerb,,check,,,,,1.0,floor
+0308167AR,Platanus × acerifolia,True,C\ Ulldecona,,12.7,no_kerb,,check,,,,,1.0,floor
+0308168AR,Platanus × acerifolia,True,C\ Ulldecona,,13.38,no_kerb,,check,,,,,1.0,floor
+0308170AR,Pyrus calleryana 'Chanticleer',False,C\ Ulldecona,,5.45,no_kerb,,check,,,,,1.0,floor
+0308171AR,Pyrus calleryana 'Chanticleer',False,C\ Ulldecona,,13.01,no_kerb,,check,,,,,1.0,floor
+0308173AR,Crataegus monogyna,False,C\ Ulldecona,,10.27,no_kerb,,check,,,,,1.0,floor
+0308174AR,Crataegus monogyna,False,C\ Ulldecona,,12.17,no_kerb,,check,,,,,1.0,floor
+0308175AR,Pyrus calleryana 'Chanticleer',False,C\ Ulldecona,,7.74,no_kerb,,check,,,,,1.0,floor
+0308176AR,Celtis australis,False,C\ Ulldecona,,12.48,no_kerb,,check,,,,,1.0,floor
+0308178AR,Celtis australis,False,C\ Ulldecona,,11.47,no_kerb,,check,,,,,1.0,floor
+0308179AR,Celtis australis,False,C\ Ulldecona,,11.23,no_kerb,,check,,,,,1.0,floor
+0308180AR,Celtis australis,False,C\ Ulldecona,,10.54,no_kerb,,check,,,,,1.0,floor
+0308181AR,Prunus serrulata,False,C\ Ulldecona,20.68,6.55,ok,,large,428399.54,4578279.59,428391.56,4578298.66,1.5,class
+0308183AR,Pyrus calleryana 'Chanticleer',False,C\ Ulldecona,19.88,9.19,ok,,large,428386.92,4578269.51,428374.47,4578285.01,1.5,class
+0308184AR,Pyrus calleryana 'Chanticleer',False,C\ Ulldecona,19.89,5.97,ok,,large,428382.66,4578266.09,428370.25,4578281.63,1.5,class
+0308185AR,Pyrus calleryana 'Chanticleer',False,C\ Ulldecona,,10.19,median,,check,,,,,1.0,floor
+0308186AR,Pyrus calleryana 'Chanticleer',False,C\ Ulldecona,19.88,5.67,ok,,large,428386.9,4578269.49,428374.45,4578284.99,1.5,class
+0308187AR,Crataegus monogyna,False,C\ Ulldecona,,11.03,median,,check,,,,,1.0,floor
+0308188AR,Pyrus calleryana 'Chanticleer',False,C\ Ulldecona,19.89,8.72,ok,,large,428383.82,4578267.01,428371.37,4578282.52,1.5,class
+0308190AR,Pyrus calleryana 'Chanticleer',False,C\ Ulldecona,19.86,5.56,ok,,large,428396.75,4578277.37,428384.36,4578292.88,1.5,class
+0315298AR,Ulmus pumila,False,Pl Nou,,15.84,median,28.32,check,,,,,1.0,floor
+0315299AR,Ulmus pumila,False,Pl Nou,,14.78,median,27.4,check,,,,,1.0,floor
+0317164AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Mare de Déu de Port,6.0,3.63,ok,,medium,428613.07,4578506.71,428617.37,4578510.9,1.0,class
+0317167AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Mare de Déu de Port,,5.53,median,,check,,,,,1.0,floor
+0317168AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Mare de Déu de Port,,13.76,median,,check,,,,,1.0,floor
+0317169AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Mare de Déu de Port,,19.76,median,,check,,,,,1.0,floor
+0317170AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Mare de Déu de Port,,18.81,median,,check,,,,,1.0,floor
+0317173AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Mare de Déu de Port,4.92,3.58,ok,,medium,428682.5,4578454.78,428685.32,4578458.82,1.0,class
+0317174AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Mare de Déu de Port,4.97,3.67,ok,,medium,428690.84,4578448.96,428693.68,4578453.04,1.0,class
+0317175AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Mare de Déu de Port,5.01,3.73,ok,,medium,428695.83,4578445.49,428698.69,4578449.6,1.0,class
+0317176AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Mare de Déu de Port,5.07,3.75,ok,,medium,428700.71,4578442.09,428703.61,4578446.25,1.0,class
+0317177AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Mare de Déu de Port,25.06,3.95,ok,,large,428719.98,4578428.67,428734.29,4578449.24,1.5,class
+0317178AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Mare de Déu de Port,25.03,3.71,ok,,large,428762.07,4578399.42,428776.35,4578419.98,1.5,class
+0317179AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Mare de Déu de Port,25.07,3.75,ok,,large,428742.25,4578413.19,428756.55,4578433.78,1.5,class
+0317180AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Mare de Déu de Port,25.06,3.87,ok,,large,428752.49,4578406.08,428766.79,4578426.66,1.5,class
+0317181AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Mare de Déu de Port,25.06,3.78,ok,,large,428731.99,4578420.32,428746.29,4578440.9,1.5,class
+0317182AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Mare de Déu de Port,25.05,3.98,ok,,large,428725.8,4578424.62,428740.09,4578445.19,1.5,class
+0317183AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Mare de Déu de Port,25.07,3.79,ok,,large,428737.86,4578416.25,428752.16,4578436.84,1.5,class
+0317184AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Mare de Déu de Port,25.06,3.81,ok,,large,428747.84,4578409.31,428762.14,4578429.89,1.5,class
+0317185AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Mare de Déu de Port,25.04,3.67,ok,,large,428757.87,4578402.34,428772.16,4578422.91,1.5,class
+0317186AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Mare de Déu de Port,25.03,3.56,ok,,large,428776.14,4578389.66,428790.42,4578410.21,1.5,class
+0317187AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Mare de Déu de Port,25.04,3.58,ok,,large,428782.18,4578385.46,428796.46,4578406.02,1.5,class
+0317188AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Mare de Déu de Port,24.91,3.57,ok,,large,428867.13,4578326.46,428881.34,4578346.92,1.5,class
+0317189AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Mare de Déu de Port,25.04,3.8,ok,,large,428801.34,4578372.15,428815.63,4578392.72,1.5,class
+0317190AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Mare de Déu de Port,24.91,3.62,ok,,large,428862.91,4578329.39,428877.12,4578349.84,1.5,class
+0317191AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Mare de Déu de Port,25.03,3.68,ok,,large,428805.9,4578368.99,428820.18,4578389.55,1.5,class
+0317192AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Mare de Déu de Port,24.91,3.66,ok,,large,428856.57,4578333.79,428870.78,4578354.25,1.5,class
+0317193AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Mare de Déu de Port,25.03,3.68,ok,,large,428811.39,4578365.17,428825.67,4578385.73,1.5,class
+0317194AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Mare de Déu de Port,24.91,3.74,ok,,large,428852.31,4578336.75,428866.52,4578357.21,1.5,class
+0317195AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Mare de Déu de Port,25.03,3.61,ok,,large,428815.98,4578361.98,428830.26,4578382.54,1.5,class
+0317196AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Mare de Déu de Port,24.91,3.7,ok,,large,428846.08,4578341.08,428860.29,4578361.54,1.5,class
+0317197AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Mare de Déu de Port,25.0,3.45,ok,,large,428821.74,4578357.98,428836.0,4578378.52,1.5,class
+0317200AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Mare de Déu de Port,24.94,3.5,ok,,large,428835.82,4578348.2,428850.05,4578368.68,1.5,class
+0317202AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Mare de Déu de Port,8.32,6.27,ok,,large,428868.9,4578325.22,428877.22,4578325.35,1.5,class
+0317205AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Mare de Déu de Port,,24.03,no_kerb,,check,,,,,1.0,floor
+0317206AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Mare de Déu de Port,,49.89,no_facade,,check,,,,,1.0,floor
+0317207AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Mare de Déu de Port,,36.12,no_facade,,check,,,,,1.0,floor
+0317208AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Mare de Déu de Port,,30.6,no_facade,,check,,,,,1.0,floor
+0317210AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Mare de Déu de Port,,47.58,no_facade,,check,,,,,1.0,floor
+0317211AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Mare de Déu de Port,,35.38,no_facade,,check,,,,,1.0,floor
+0322688AR,Morus alba,False,C\ Cal Cisó,,10.04,no_kerb,,check,,,,,1.0,floor
+0322761AR,Cercis siliquastrum,False,C\ Motors,,13.88,median,21.82,check,,,,,1.0,floor
+0322785AR,Platanus × acerifolia PLATANOR® 'Vallis Clausa',True,C\ Mare de Déu de Port,11.6,11.0,ok,,large,429095.63,4578230.47,429089.67,4578220.52,1.5,class
+0331695AR,Grevillea robusta,False,C\ Motors,,49.68,no_facade,2.95,check,,,,,1.0,floor
+0331696AR,Grevillea robusta,False,C\ Motors,,47.37,no_facade,2.95,check,,,,,1.0,floor
+0331697AR,Grevillea robusta,False,C\ Motors,,42.74,no_facade,2.96,check,,,,,1.0,floor
+0331698AR,Grevillea robusta,False,C\ Motors,,38.52,no_facade,2.97,check,,,,,1.0,floor
+0331699AR,Grevillea robusta,False,C\ Motors,,36.55,no_facade,2.97,check,,,,,1.0,floor
+0331700AR,Grevillea robusta,False,C\ Motors,,34.77,no_facade,2.98,check,,,,,1.0,floor
+0331701AR,Grevillea robusta,False,C\ Motors,,34.46,no_facade,2.98,check,,,,,1.0,floor
+0331702AR,Grevillea robusta,False,C\ Motors,,31.75,no_facade,2.98,check,,,,,1.0,floor
+0331703AR,Grevillea robusta,False,C\ Motors,,28.23,median,2.99,check,,,,,1.0,floor
+0331704AR,Grevillea robusta,False,C\ Motors,,26.49,median,2.99,check,,,,,1.0,floor
+0331705AR,Grevillea robusta,False,C\ Motors,,25.64,median,2.98,check,,,,,1.0,floor
+0331706AR,Grevillea robusta,False,C\ Motors,,25.55,median,2.97,check,,,,,1.0,floor
+0331707AR,Grevillea robusta,False,C\ Motors,,26.87,median,2.96,check,,,,,1.0,floor
+0331708AR,Grevillea robusta,False,C\ Motors,,29.31,median,,check,,,,,1.0,floor
+0331709AR,Grevillea robusta,False,C\ Motors,,33.77,no_facade,3.0,check,,,,,1.0,floor
+0331710AR,Grevillea robusta,False,C\ Acer,,26.48,median,2.97,check,,,,,1.0,floor
+0331711AR,Grevillea robusta,False,C\ Acer,,25.22,median,2.97,check,,,,,1.0,floor
+0331712AR,Grevillea robusta,False,C\ Acer,,25.49,median,2.97,check,,,,,1.0,floor
+0331713AR,Grevillea robusta,False,C\ Motors,,25.17,median,2.97,check,,,,,1.0,floor
+0331714AR,Grevillea robusta,False,C\ Motors,,25.0,median,2.97,check,,,,,1.0,floor
+0331715AR,Grevillea robusta,False,C\ Motors,,25.61,median,2.97,check,,,,,1.0,floor
+0331716AR,Grevillea robusta,False,C\ Motors,,25.33,median,2.98,check,,,,,1.0,floor
+0331717AR,Grevillea robusta,False,C\ Motors,,25.15,median,2.98,check,,,,,1.0,floor
+0331718AR,Grevillea robusta,False,C\ Motors,,25.53,median,2.98,check,,,,,1.0,floor
+0331719AR,Grevillea robusta,False,C\ Motors,,25.89,median,2.98,check,,,,,1.0,floor
+0331720AR,Grevillea robusta,False,C\ Motors,,26.01,median,2.99,check,,,,,1.0,floor
+0331721AR,Jacaranda mimosifolia,False,C\ Motors,,23.87,no_kerb,20.58,check,,,,,1.0,floor
+0331722AR,Tipuana tipu,False,C\ Motors,,40.27,no_facade,15.84,check,,,,,1.0,floor
+0331723AR,Tipuana tipu,False,C\ Motors,,32.06,no_facade,15.36,check,,,,,1.0,floor
+0331725AR,Tipuana tipu,False,C\ Motors,,13.68,median,18.5,check,,,,,1.0,floor
+0331726AR,Prunus cerasifera 'Pissardii',False,C\ Motors,,32.92,no_facade,,check,,,,,1.0,floor
+0331727AR,Prunus cerasifera 'Pissardii',False,C\ Motors,,34.82,no_facade,,check,,,,,1.0,floor
+0331728AR,Tipuana tipu,False,C\ Motors,,33.4,no_facade,,check,,,,,1.0,floor
+0331731AR,Liriodendron tulipifera,False,C\ Acer,5.19,4.27,ok,,medium,427973.81,4577951.41,427971.72,4577956.16,1.0,class
+0331732AR,Liriodendron tulipifera,False,C\ Cal Cisó,5.18,4.46,ok,,medium,427981.98,4577955.02,427979.89,4577959.76,1.0,class
+0331733AR,Liriodendron tulipifera,False,C\ Cal Cisó,5.18,4.45,ok,,medium,427990.3,4577958.7,427988.21,4577963.43,1.0,class
+0331734AR,Liriodendron tulipifera,False,C\ Cal Cisó,5.18,4.29,ok,,medium,427998.22,4577962.19,427996.12,4577966.93,1.0,class
+0331735AR,Liriodendron tulipifera,False,C\ Cal Cisó,5.19,4.21,ok,,medium,428006.93,4577966.04,428004.83,4577970.79,1.0,class
+0331736AR,Liriodendron tulipifera,False,C\ Cal Cisó,5.2,4.34,ok,,medium,428014.97,4577969.59,428012.87,4577974.35,1.0,class
+0331737AR,Liriodendron tulipifera,False,C\ Motors,5.19,4.38,ok,,medium,428023.19,4577973.22,428021.09,4577977.97,1.0,class
+0331738AR,Liriodendron tulipifera,False,C\ Cal Cisó,5.17,4.33,ok,,medium,428031.3,4577976.8,428029.31,4577981.57,1.0,class
+0331780AR,Prunus cerasifera 'Pissardii',False,C\ Motors,15.04,9.17,ok,,large,428059.47,4577905.02,428065.55,4577891.26,1.5,class
+0331781AR,Tipuana tipu,False,C\ Motors,15.03,3.56,ok,,large,428049.75,4577900.72,428055.82,4577886.97,1.5,class
+0331782AR,Jacaranda mimosifolia,False,C\ Motors,15.04,3.82,ok,,large,428056.31,4577903.62,428062.38,4577889.86,1.5,class
+0331783AR,Tipuana tipu,False,C\ Motors,15.04,4.35,ok,,large,428067.02,4577908.35,428073.1,4577894.59,1.5,class
+0331784AR,Tipuana tipu,False,C\ Motors,15.05,4.48,ok,,large,428075.37,4577912.04,428081.45,4577898.27,1.5,class
+0331785AR,Prunus cerasifera 'Pissardii',False,C\ Motors,17.08,10.77,ok,,large,428025.28,4577889.92,428023.96,4577872.89,1.5,class
+0331786AR,Ginkgo biloba,False,C\ Motors,15.05,12.31,ok,,large,428025.63,4577890.07,428031.71,4577876.3,1.5,class
+0331787AR,Prunus cerasifera 'Pissardii',False,C\ Motors,15.05,9.66,ok,,large,428030.8,4577892.35,428036.88,4577878.58,1.5,class
+0331789AR,Prunus cerasifera 'Pissardii',False,C\ Motors,15.03,11.44,ok,,large,428043.02,4577897.75,428049.09,4577883.99,1.5,class
+0331791AR,Tipuana tipu,False,C\ Motors,15.03,4.43,ok,,large,428042.31,4577897.43,428048.38,4577883.68,1.5,class
+0331792AR,Jacaranda mimosifolia,False,C\ Motors,15.04,4.48,ok,,large,428034.38,4577893.93,428040.46,4577880.18,1.5,class
+0331793AR,Tipuana tipu,False,C\ Motors,15.05,4.37,ok,,large,428025.94,4577890.21,428032.02,4577876.44,1.5,class
+0331794AR,Jacaranda mimosifolia,False,C\ Motors,,10.8,no_kerb,,check,,,,,1.0,floor
+0331795AR,Tipuana tipu,False,C\ Motors,15.15,4.58,ok,,large,427967.63,4577864.61,427973.46,4577850.62,1.5,class
+0331796AR,Tipuana tipu,False,C\ Motors,17.77,5.36,ok,,large,427973.1,4577867.02,427987.73,4577856.94,1.5,class
+0331797AR,Jacaranda mimosifolia,False,C\ Acer,,12.42,no_kerb,32.33,check,,,,,1.0,floor
+0331798AR,Paulownia tomentosa,False,C\ Motors,22.22,13.2,ok,,large,427973.1,4577867.02,427994.1,4577859.76,1.5,class
+0331799AR,Ginkgo biloba,False,C\ Motors,15.14,11.85,ok,,large,427972.18,4577866.61,427978.29,4577852.76,1.5,class
+0331800AR,Prunus cerasifera 'Pissardii',False,C\ Motors,15.97,14.18,ok,,large,427973.1,4577867.02,427983.88,4577855.24,1.5,class
+0331801AR,Prunus cerasifera 'Pissardii',False,C\ Motors,15.15,10.06,ok,,large,427967.63,4577864.61,427973.37,4577850.59,1.5,class
+0331802AR,Ginkgo biloba,False,C\ Motors,17.2,13.81,ok,,large,427967.63,4577864.61,427966.3,4577847.45,1.5,class
+0331803AR,Prunus cerasifera 'Pissardii',False,C\ Motors,22.81,13.8,ok,,large,427967.63,4577864.61,427958.16,4577843.85,1.5,class
+0331866AR,Prunus cerasifera 'Pissardii',False,C\ Motors,,40.17,no_facade,15.31,check,,,,,1.0,floor
+0331867AR,Ginkgo biloba,False,C\ Motors,,38.95,no_facade,15.3,check,,,,,1.0,floor
+0331868AR,Ginkgo biloba,False,C\ Motors,,27.5,median,20.35,check,,,,,1.0,floor
+0331869AR,Prunus cerasifera 'Pissardii',False,C\ Motors,,24.56,median,20.36,check,,,,,1.0,floor
+0331870AR,Styphnolobium japonicum 'Columnare',False,C\ Acer,26.92,24.38,ok,,large,428023.32,4577894.42,427998.64,4577883.64,1.5,class
+0331871AR,Styphnolobium japonicum,False,C\ Acer,27.93,23.83,ok,,large,428021.36,4577898.91,427995.76,4577887.74,1.5,class
+0331872AR,Styphnolobium japonicum 'Dot',False,C\ Acer,,21.12,median,28.71,check,,,,,1.0,floor
+0331873AR,Styphnolobium japonicum,False,C\ Acer,27.33,16.07,ok,,large,427986.11,4577916.6,427993.9,4577890.4,1.5,class
+0331874AR,Styphnolobium japonicum,False,C\ Acer,15.14,11.22,ok,,large,427986.11,4577916.6,427986.11,4577901.45,1.5,class
+0331875AR,Styphnolobium japonicum,False,C\ Acer,9.61,5.41,ok,,large,427986.11,4577916.6,427981.24,4577908.32,1.5,class
+0331876AR,Styphnolobium japonicum,False,C\ Acer,8.75,6.34,ok,,large,427983.51,4577920.26,427976.38,4577915.19,1.5,class
+0331877AR,Styphnolobium japonicum,False,C\ Acer,8.72,4.7,ok,,large,427980.03,4577925.13,427972.94,4577920.03,1.5,class
+0331878AR,Styphnolobium japonicum,False,C\ Acer,8.96,6.76,ok,,large,427975.0,4577932.2,427969.13,4577925.44,1.5,class
+0331879AR,Tipuana tipu,False,C\ Acer,9.8,5.8,ok,,large,427973.2,4577936.3,427964.24,4577932.34,1.5,class
+0331880AR,Styphnolobium japonicum,False,C\ Acer,,38.76,no_facade,,check,,,,,1.0,floor
+0331881AR,Styphnolobium japonicum,False,C\ Acer,,44.97,no_facade,,check,,,,,1.0,floor
+0331882AR,Styphnolobium japonicum,False,C\ Acer,,45.41,no_facade,,check,,,,,1.0,floor
+0331883AR,Styphnolobium japonicum,False,C\ Acer,,41.33,no_facade,,check,,,,,1.0,floor
+0331884AR,Styphnolobium japonicum,False,C\ Acer,,35.23,no_facade,,check,,,,,1.0,floor
+0331885AR,Tipuana tipu,False,C\ Acer,,31.07,no_facade,,check,,,,,1.0,floor
+0331891AR,Tipuana tipu,False,C\ Ascó,,15.69,median,,check,,,,,1.0,floor
+0331892AR,Gleditsia triacanthos,False,C\ Ascó,,13.68,median,,check,,,,,1.0,floor
+0331893AR,Gleditsia triacanthos,False,C\ Ascó,,14.96,median,,check,,,,,1.0,floor
+0331894AR,Gleditsia triacanthos,False,C\ Ascó,,13.31,median,,check,,,,,1.0,floor
+0331895AR,Gleditsia triacanthos,False,C\ Ascó,,15.29,median,,check,,,,,1.0,floor
+0331896AR,Gleditsia triacanthos,False,C\ Ascó,,13.54,median,,check,,,,,1.0,floor
+0331897AR,Gleditsia triacanthos,False,C\ Ascó,,15.45,median,,check,,,,,1.0,floor
+0331898AR,Gleditsia triacanthos,False,C\ Ascó,,13.45,median,,check,,,,,1.0,floor
+0331899AR,Gleditsia triacanthos,False,C\ Ascó,,15.71,median,,check,,,,,1.0,floor
+0331900AR,Gleditsia triacanthos,False,C\ Ascó,,13.56,median,,check,,,,,1.0,floor
+0331901AR,Platanus × acerifolia,True,C\ Motors,,13.24,median,,check,,,,,1.0,floor
+0331902AR,Platanus × acerifolia,True,C\ Cal Cisó,,15.27,median,,check,,,,,1.0,floor
+0331903AR,Platanus × acerifolia,True,C\ Cal Cisó,,13.54,median,,check,,,,,1.0,floor
+0331904AR,Platanus × acerifolia,True,C\ Motors,,15.19,median,,check,,,,,1.0,floor
+0331905AR,Platanus × acerifolia,True,C\ Motors,,13.36,median,,check,,,,,1.0,floor
+0331908AR,Platanus × acerifolia,True,C\ Cal Cisó,,15.13,median,,check,,,,,1.0,floor
+0331909AR,Platanus × acerifolia,True,C\ Cal Cisó,,13.46,median,,check,,,,,1.0,floor
+0331910AR,Platanus × acerifolia,True,C\ Acer,,15.22,median,,check,,,,,1.0,floor
+0331911AR,Gleditsia triacanthos,False,C\ Ascó,,33.01,no_facade,,check,,,,,1.0,floor
+0331912AR,Gleditsia triacanthos,False,C\ Ascó,,39.58,no_facade,,check,,,,,1.0,floor
+0331913AR,Gleditsia triacanthos,False,C\ Ascó,,47.09,no_facade,,check,,,,,1.0,floor
+0331914AR,Gleditsia triacanthos,False,C\ Ascó,,54.27,no_facade,,check,,,,,1.0,floor
+0331915AR,Gleditsia triacanthos,False,C\ Ascó,,54.73,no_facade,,check,,,,,1.0,floor
+0331916AR,Gleditsia triacanthos,False,C\ Ascó,,47.48,no_facade,,check,,,,,1.0,floor
+0331917AR,Gleditsia triacanthos,False,C\ Ascó,,40.44,no_facade,,check,,,,,1.0,floor
+0331918AR,Gleditsia triacanthos,False,C\ Ascó,,33.5,no_facade,,check,,,,,1.0,floor
+0331919AR,Gleditsia triacanthos,False,C\ Ascó,,27.16,median,,check,,,,,1.0,floor
+0331922AR,Platanus × acerifolia,True,C\ Cal Cisó,,43.71,no_facade,,check,,,,,1.0,floor
+0331923AR,Tipuana tipu,False,C\ Cal Cisó,,37.85,no_facade,,check,,,,,1.0,floor
+0331924AR,Gleditsia triacanthos,False,C\ Ascó,,48.96,no_facade,,check,,,,,1.0,floor
+0331926AR,Gleditsia triacanthos,False,C\ Ascó,,37.85,no_facade,,check,,,,,1.0,floor
+0331927AR,Gleditsia triacanthos,False,C\ Ascó,,44.56,no_facade,,check,,,,,1.0,floor
+0331928AR,Gleditsia triacanthos,False,C\ Ascó,,56.0,no_facade,8.95,check,,,,,1.0,floor
+0331929AR,Gleditsia triacanthos,False,C\ Ascó,,56.33,no_facade,8.97,check,,,,,1.0,floor
+0331930AR,Gleditsia triacanthos,False,C\ Ascó,,49.85,no_facade,8.98,check,,,,,1.0,floor
+0331931AR,Gleditsia triacanthos,False,C\ Ascó,,43.2,no_facade,8.99,check,,,,,1.0,floor
+0331932AR,Gleditsia triacanthos,False,C\ Ascó,,36.51,no_facade,8.99,check,,,,,1.0,floor
+0331933AR,Styphnolobium japonicum 'Columnare',False,C\ Acer,,23.35,no_kerb,,check,,,,,1.0,floor
+0331949AR,Acer buergerianum,False,C\ Motors,15.05,14.36,ok,,large,428075.92,4577912.28,428082.0,4577898.52,1.5,class
+0331950AR,Ginkgo biloba 'Fastigiata Blagon',False,C\ Ascó,15.04,14.04,ok,,large,428064.71,4577907.33,428070.79,4577893.57,1.5,class
+0333922AR,Styphnolobium japonicum 'Dot',False,Pg Zona Franca,4.07,2.94,ok,,medium,428416.43,4578247.96,428420.02,4578249.88,1.0,class
+0333924AR,Catalpa bignonioides,False,C\ Motors,,20.78,median,,check,,,,,1.0,floor
+0333925AR,Prunus cerasifera 'Pissardii',False,C\ Motors,,33.17,no_facade,,check,,,,,1.0,floor
+0333926AR,Liriodendron tulipifera,False,C\ Acer,12.84,9.43,ok,,large,428031.35,4577976.79,428040.31,4577985.99,1.5,class
+0333927AR,Liriodendron tulipifera,False,C\ Ascó,,37.96,no_facade,,check,,,,,1.0,floor
+0333928AR,Liriodendron tulipifera,False,C\ Ascó,,32.67,no_facade,,check,,,,,1.0,floor
+0333930AR,Cercis siliquastrum,False,C\ Cal Cisó,,2.94,no_kerb,41.85,check,,,,,1.0,floor
+0333931AR,Melia azedarach,False,C\ Motors,,102.34,no_facade,3.87,check,,,,,1.0,floor
+0336135AR,Gleditsia triacanthos,False,C\ Ascó,11.21,9.27,ok,,large,428051.89,4577964.63,428050.52,4577975.76,1.5,class
+0336136AR,Gleditsia triacanthos,False,C\ Ascó,5.38,4.45,ok,,medium,428051.89,4577964.63,428055.64,4577968.5,1.0,class
+0336137AR,Gleditsia triacanthos,False,C\ Ascó,5.29,4.37,ok,,medium,428055.65,4577959.3,428059.97,4577962.35,1.0,class
+0336138AR,Gleditsia triacanthos,False,C\ Ascó,5.3,4.36,ok,,medium,428059.89,4577953.3,428064.22,4577956.35,1.0,class
+0336139AR,Gleditsia triacanthos,False,C\ Ascó,5.32,4.35,ok,,medium,428064.13,4577947.29,428068.47,4577950.36,1.0,class
+0336140AR,Gleditsia triacanthos,False,C\ Ascó,5.3,4.34,ok,,medium,428068.37,4577941.29,428072.69,4577944.34,1.0,class
+0336141AR,Gleditsia triacanthos,False,C\ Ascó,5.3,4.33,ok,,medium,428072.6,4577935.28,428076.93,4577938.34,1.0,class
+0336142AR,Gleditsia triacanthos,False,C\ Ascó,5.31,4.33,ok,,medium,428076.85,4577929.28,428081.18,4577932.34,1.0,class
+0336143AR,Gleditsia triacanthos,False,C\ Ascó,5.31,4.32,ok,,medium,428081.08,4577923.27,428085.43,4577926.34,1.0,class
+0336144AR,Gleditsia triacanthos,False,C\ Ascó,,4.41,no_kerb,20.7,check,,,,,1.0,floor
+0337789AR,Prunus cerasifera,False,C\ Micaela Chalmeta,8.56,6.65,ok,,large,428363.22,4578181.11,428369.25,4578187.2,1.5,class
+0337894AR,Cercis siliquastrum,False,C\ Foc,16.26,11.67,ok,,large,427808.09,4578427.69,427800.42,4578442.02,1.5,class
+0337895AR,Cercis siliquastrum,False,C\ Foc,16.22,11.72,ok,,large,427815.05,4578431.41,427807.39,4578445.71,1.5,class
+0337903AR,Ulmus pumila,False,C\ Plom,,5.27,median,,check,,,,,1.0,floor
+0337907AR,Grevillea robusta,False,C\ Motors,,28.52,median,,check,,,,,1.0,floor
+0337908AR,Grevillea robusta,False,C\ Motors,,32.14,no_facade,16.6,check,,,,,1.0,floor
+0337909AR,Grevillea robusta,False,C\ Motors,,32.12,no_facade,16.59,check,,,,,1.0,floor
+0337910AR,Grevillea robusta,False,C\ Motors,,29.09,median,16.58,check,,,,,1.0,floor
+0337911AR,Grevillea robusta,False,C\ Motors,,26.98,median,16.57,check,,,,,1.0,floor
+0337912AR,Grevillea robusta,False,C\ Motors,,26.62,median,16.51,check,,,,,1.0,floor
+0337913AR,Grevillea robusta,False,C\ Motors,,26.65,median,16.08,check,,,,,1.0,floor
+0337914AR,Grevillea robusta,False,C\ Motors,,26.63,median,14.73,check,,,,,1.0,floor
+0337917AR,Ulmus pumila,False,C\ Motors,3.32,1.43,ok,,small,427143.29,4577453.03,427141.95,4577456.06,1.0,class
+0337925AR,Robinia pseudoacacia,False,C\ Arnes,4.27,1.01,ok,,medium,428093.09,4578187.59,428096.23,4578184.69,1.0,class
+0337926AR,Robinia pseudoacacia,False,C\ Arnes,3.83,1.25,ok,,medium,428089.8,4578184.04,428092.61,4578181.44,1.0,class
+0337958AR,Populus nigra,False,C\ Mare de Déu de Port,11.03,10.02,ok,,large,428976.16,4578247.9,428978.01,4578258.78,1.5,class
+0340594AR,Gleditsia triacanthos,False,C\ Ascó,,23.5,median,3.39,check,,,,,1.0,floor
+0340595AR,Gleditsia triacanthos,False,C\ Ferro,,14.63,median,5.31,check,,,,,1.0,floor
+0340596AR,Gleditsia triacanthos,False,C\ Ascó,,25.97,median,5.22,check,,,,,1.0,floor
+0340597AR,Gleditsia triacanthos,False,C\ Ferro,,14.7,median,5.32,check,,,,,1.0,floor
+0340598AR,Gleditsia triacanthos,False,C\ Ferro,,14.7,median,5.42,check,,,,,1.0,floor
+0340599AR,Gleditsia triacanthos,False,C\ Ferro,9.65,10.16,ok,,large,427892.03,4578180.93,427900.41,4578185.71,1.5,class
+0340600AR,Gleditsia triacanthos,False,C\ Ferro,8.96,9.47,ok,,large,427888.48,4578187.15,427896.26,4578191.59,1.5,class
+0340601AR,Gleditsia triacanthos,False,C\ Ferro,8.23,8.74,ok,,large,427884.78,4578193.63,427891.93,4578197.71,1.5,class
+0340602AR,Gleditsia triacanthos,False,C\ Ferro,,12.85,median,5.42,check,,,,,1.0,floor
+0340603AR,Gleditsia triacanthos,False,C\ Ferro,11.66,12.16,ok,,large,427902.3,4578162.93,427912.42,4578168.72,1.5,class
+0340604AR,Gleditsia triacanthos,False,C\ Ferro,,11.5,median,1.21,check,,,,,1.0,floor
+0340605AR,Gleditsia triacanthos,False,C\ Ferro,10.33,10.84,ok,,large,427895.53,4578174.79,427904.5,4578179.91,1.5,class
+0340606AR,Gleditsia triacanthos,False,C\ Ferro,,16.67,median,5.41,check,,,,,1.0,floor
+0340607AR,Gleditsia triacanthos,False,C\ Ferro,,17.83,median,5.42,check,,,,,1.0,floor
+0340608AR,Gleditsia triacanthos,False,C\ Ferro,,15.65,median,5.43,check,,,,,1.0,floor
+0340609AR,Gleditsia triacanthos,False,C\ Ferro,,13.55,median,5.43,check,,,,,1.0,floor
+0340610AR,Gleditsia triacanthos,False,C\ Ferro,,14.67,median,5.32,check,,,,,1.0,floor
+0340611AR,Gleditsia triacanthos,False,C\ Ferro,,5.91,median,3.39,check,,,,,1.0,floor
+0340612AR,Gleditsia triacanthos,False,C\ Arnes,,11.29,median,3.39,check,,,,,1.0,floor
+0340613AR,Gleditsia triacanthos,False,C\ Arnes,,16.46,median,3.39,check,,,,,1.0,floor
+0340614AR,Gleditsia triacanthos,False,C\ Ferro,7.36,7.9,ok,,large,427956.08,4578140.8,427950.47,4578136.04,1.5,class
+0340615AR,Gleditsia triacanthos,False,C\ Ferro,,7.15,median,3.39,check,,,,,1.0,floor
+0340616AR,Gleditsia triacanthos,False,C\ Ferro,,5.92,median,3.4,check,,,,,1.0,floor
+0340617AR,Gleditsia triacanthos,False,C\ Ferro,2.97,3.5,ok,,small,427976.0,4578105.04,427973.57,4578103.32,1.0,class
+0340618AR,Gleditsia triacanthos,False,C\ Ferro,,4.84,median,3.38,check,,,,,1.0,floor
+0340619AR,Gleditsia triacanthos,False,C\ Ferro,,6.57,median,3.38,check,,,,,1.0,floor
+0340620AR,Gleditsia triacanthos,False,C\ Ferro,6.24,6.78,ok,,large,427947.87,4578150.48,427943.11,4578146.45,1.5,class
+0340621AR,Gleditsia triacanthos,False,C\ Ferro,,9.7,median,3.39,check,,,,,1.0,floor
+0340622AR,Gleditsia triacanthos,False,C\ Ferro,5.28,5.85,ok,,medium,427913.09,4578198.06,427908.52,4578195.42,1.0,class
+0340623AR,Gleditsia triacanthos,False,C\ Ferro,,7.48,median,3.4,check,,,,,1.0,floor
+0340624AR,Gleditsia triacanthos,False,C\ Ferro,2.7,3.26,ok,,small,427926.67,4578174.34,427924.33,4578173.0,1.0,class
+0340625AR,Gleditsia triacanthos,False,C\ Ferro,,4.9,median,3.38,check,,,,,1.0,floor
+0340626AR,Gleditsia triacanthos,False,C\ Ferro,6.53,7.14,ok,,large,427906.16,4578210.02,427900.51,4578206.75,1.5,class
+0340627AR,Gleditsia triacanthos,False,C\ Ferro,,8.72,median,3.39,check,,,,,1.0,floor
+0341530AR,Gleditsia triacanthos f. inermis,False,C\ Plom,,36.11,no_facade,,check,,,,,1.0,floor
+0341531AR,Gleditsia triacanthos f. inermis,False,C\ Plom,,38.82,no_facade,,check,,,,,1.0,floor
+0341532AR,Gleditsia triacanthos f. inermis,False,C\ Plom,,45.07,no_facade,,check,,,,,1.0,floor
+0341533AR,Gleditsia triacanthos f. inermis,False,C\ Ferro,,53.84,no_facade,,check,,,,,1.0,floor
+0341534AR,Gleditsia triacanthos f. inermis,False,C\ Ferro,,60.76,no_facade,,check,,,,,1.0,floor
+0341535AR,Gleditsia triacanthos f. inermis,False,C\ Ferro,,65.91,no_facade,,check,,,,,1.0,floor
+0341536AR,Gleditsia triacanthos f. inermis,False,C\ Ferro,,72.39,no_facade,,check,,,,,1.0,floor
+0341537AR,Gleditsia triacanthos f. inermis,False,C\ Ferro,,77.83,no_facade,,check,,,,,1.0,floor
+0341538AR,Gleditsia triacanthos f. inermis,False,C\ Ferro,,83.9,no_facade,,check,,,,,1.0,floor
+0341539AR,Gleditsia triacanthos f. inermis,False,C\ Ferro,,89.98,no_facade,,check,,,,,1.0,floor
+0341540AR,Gleditsia triacanthos f. inermis,False,C\ Ferro,,90.14,no_facade,,check,,,,,1.0,floor
+0341541AR,Gleditsia triacanthos f. inermis,False,C\ Ferro,,84.0,no_facade,,check,,,,,1.0,floor
+0341542AR,Gleditsia triacanthos f. inermis,False,C\ Ferro,,77.51,no_facade,,check,,,,,1.0,floor
+0341543AR,Gleditsia triacanthos f. inermis,False,C\ Ferro,,72.07,no_facade,,check,,,,,1.0,floor
+0341544AR,Gleditsia triacanthos f. inermis,False,C\ Ferro,,37.49,no_facade,,check,,,,,1.0,floor
+0341545AR,Gleditsia triacanthos f. inermis,False,C\ Ferro,,30.62,no_facade,,check,,,,,1.0,floor
+0341546AR,Gleditsia triacanthos f. inermis,False,C\ Ferro,,25.87,no_kerb,,check,,,,,1.0,floor
+0341547AR,Gleditsia triacanthos f. inermis,False,C\ Ferro,,19.85,no_kerb,,check,,,,,1.0,floor
+0341548AR,Gleditsia triacanthos f. inermis,False,C\ Ferro,9.28,6.85,ok,,large,427799.83,4578395.8,427791.77,4578391.2,1.5,class
+0341549AR,Gleditsia triacanthos f. inermis,False,C\ Ferro,11.61,6.02,ok,,large,427798.46,4578398.19,427787.02,4578400.14,1.5,class
+0341550AR,Gleditsia triacanthos f. inermis,False,C\ Ferro,17.25,12.26,ok,,large,427798.46,4578398.19,427783.5,4578406.78,1.5,class
+0341591AR,Jacaranda mimosifolia,False,C\ Ferro,,57.39,no_facade,,check,,,,,1.0,floor
+0341602AR,Platanus × acerifolia,True,C\ Foc,22.17,19.63,ok,,large,427798.01,4578422.3,427777.1,4578429.69,1.5,class
+0341603AR,Platanus × acerifolia,True,C\ Cobalt,,23.26,median,,check,,,,,1.0,floor
+0341604AR,Platanus × acerifolia,True,C\ Cobalt,,30.78,no_facade,,check,,,,,1.0,floor
+0341605AR,Platanus × acerifolia,True,C\ Foc,,83.91,no_facade,,check,,,,,1.0,floor
+0341606AR,Platanus × acerifolia,True,C\ Foc,,77.16,no_facade,,check,,,,,1.0,floor
+0341607AR,Platanus × acerifolia,True,C\ Foc,,71.65,no_facade,,check,,,,,1.0,floor
+0341631AR,Styphnolobium japonicum,False,C\ Plom,,22.68,median,,check,,,,,1.0,floor
+0341632AR,Styphnolobium japonicum,False,C\ Plom,,22.66,median,,check,,,,,1.0,floor
+0341633AR,Styphnolobium japonicum,False,C\ Plom,,24.05,median,,check,,,,,1.0,floor
+0341634AR,Styphnolobium japonicum,False,C\ Plom,,24.47,median,,check,,,,,1.0,floor
+0341635AR,Styphnolobium japonicum,False,C\ Plom,,24.07,median,,check,,,,,1.0,floor
+0341636AR,Styphnolobium japonicum,False,C\ Plom,,24.3,median,,check,,,,,1.0,floor
+0341655AR,Koelreuteria paniculata,False,C\ Foc,,56.65,no_facade,,check,,,,,1.0,floor
+0341656AR,Koelreuteria paniculata,False,C\ Foc,,74.87,no_facade,,check,,,,,1.0,floor
+0341657AR,Koelreuteria paniculata,False,C\ Foc,,82.35,no_facade,,check,,,,,1.0,floor
+0341658AR,Koelreuteria paniculata,False,C\ Foc,,67.35,no_facade,,check,,,,,1.0,floor
+0341659AR,Koelreuteria paniculata,False,C\ Foc,,61.17,no_facade,,check,,,,,1.0,floor
+0341660AR,Koelreuteria paniculata,False,C\ Foc,,54.35,no_facade,,check,,,,,1.0,floor
+0341661AR,Koelreuteria paniculata,False,C\ Foc,19.88,16.15,ok,,large,427838.16,4578443.77,427840.93,4578463.46,1.5,class
+0341662AR,Koelreuteria paniculata,False,C\ Foc,16.51,13.58,ok,,large,427838.16,4578443.77,427833.84,4578459.71,1.5,class
+0341663AR,Koelreuteria paniculata,False,C\ Foc,16.12,12.85,ok,,large,427835.47,4578442.33,427827.87,4578456.55,1.5,class
+0341664AR,Koelreuteria paniculata,False,C\ Foc,16.15,13.0,ok,,large,427828.95,4578438.85,427821.33,4578453.09,1.5,class
+0341665AR,Prunus cerasifera 'Pissardii',False,C\ Plom,,21.06,median,,check,,,,,1.0,floor
+0341666AR,Prunus cerasifera 'Pissardii',False,C\ Plom,,22.7,median,,check,,,,,1.0,floor
+0341777AR,Platanus × acerifolia,True,C\ Cobalt,9.87,4.87,ok,,large,428062.02,4578359.6,428053.27,4578355.02,1.5,class
+0341842AR,Styphnolobium japonicum,False,C\ Plom,,17.99,median,,check,,,,,1.0,floor
+0341843AR,Platanus × acerifolia,True,C\ Plom,,19.92,median,,check,,,,,1.0,floor
+0341847AR,Pyrus calleryana 'Chanticleer',False,C\ Ulldecona,,12.27,median,,check,,,,,1.0,floor
+0341849AR,Brachychiton acerifolius,False,C\ Arnes,,6.72,median,11.86,check,,,,,1.0,floor
+0343249AR,Melia azedarach,False,C\ Cobalt,,29.28,median,,check,,,,,1.0,floor
+0343250AR,Melia azedarach,False,C\ Cobalt,,29.33,median,,check,,,,,1.0,floor

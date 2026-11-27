@@ -1,0 +1,331 @@
+tree_id,species,is_plane,street,width_m,facade_dist_m,flag,strip_width_m,size_class,ray_x0,ray_y0,ray_x1,ray_y1,pit_min_m2,pit_basis
+0062374AR,Cupressus sempervirens,False,Av Cardenal Vidal i Barraquer,,23.53,no_kerb,,check,,,,,1.0,floor
+0062421AR,Cupressus sempervirens,False,Av Cardenal Vidal i Barraquer,,20.42,no_kerb,,check,,,,,1.0,floor
+0062473AR,Cupressus sempervirens,False,Av Cardenal Vidal i Barraquer,,23.13,no_kerb,,check,,,,,1.0,floor
+0062574AR,Cupressus sempervirens,False,Av Cardenal Vidal i Barraquer,,19.65,no_kerb,,check,,,,,1.0,floor
+0062602AR,Cupressus sempervirens,False,Av Cardenal Vidal i Barraquer,,23.96,no_kerb,,check,,,,,1.0,floor
+0062700AR,Cupressus sempervirens,False,Av Cardenal Vidal i Barraquer,,19.04,no_kerb,,check,,,,,1.0,floor
+0062982AR,Cupressus sempervirens,False,Av Cardenal Vidal i Barraquer,,21.04,no_kerb,,check,,,,,1.0,floor
+0063042AR,Cupressus sempervirens,False,Av Cardenal Vidal i Barraquer,,15.8,no_kerb,,check,,,,,1.0,floor
+0063246AR,Cupressus sempervirens,False,Av Cardenal Vidal i Barraquer,,17.11,no_kerb,,check,,,,,1.0,floor
+0063360AR,Cupressus sempervirens,False,Av Cardenal Vidal i Barraquer,,16.64,no_kerb,,check,,,,,1.0,floor
+0063362AR,Cupressus sempervirens,False,Av Cardenal Vidal i Barraquer,,22.72,no_kerb,,check,,,,,1.0,floor
+0063458AR,Cupressus sempervirens,False,Av Cardenal Vidal i Barraquer,,22.19,no_kerb,,check,,,,,1.0,floor
+0063528AR,Cupressus sempervirens,False,Av Cardenal Vidal i Barraquer,,21.72,no_kerb,,check,,,,,1.0,floor
+0063633AR,Cupressus sempervirens,False,Av Cardenal Vidal i Barraquer,,17.68,no_kerb,,check,,,,,1.0,floor
+0063821AR,Cupressus sempervirens,False,Av Cardenal Vidal i Barraquer,,18.42,no_kerb,,check,,,,,1.0,floor
+0063924AR,Prunus cerasifera 'Pissardii',False,Av Cardenal Vidal i Barraquer,,17.34,median,18.62,check,,,,,1.0,floor
+0063940AR,Prunus cerasifera 'Pissardii',False,Av Cardenal Vidal i Barraquer,,22.69,median,17.61,check,,,,,1.0,floor
+0063942AR,Prunus cerasifera 'Pissardii',False,Av Cardenal Vidal i Barraquer,,13.24,median,19.81,check,,,,,1.0,floor
+0063946AR,Prunus cerasifera 'Pissardii',False,Av Cardenal Vidal i Barraquer,,14.7,median,19.71,check,,,,,1.0,floor
+0063999AR,Celtis australis,False,C\ Lisboa,,27.3,median,5.09,check,,,,,1.0,floor
+0064000AR,Styphnolobium japonicum,False,C\ Alarcón,,6.41,median,5.1,check,,,,,1.0,floor
+0064001AR,Styphnolobium japonicum,False,C\ Alarcón,,8.23,median,,check,,,,,1.0,floor
+0064002AR,Celtis australis,False,C\ Lisboa,18.2,16.93,ok,,large,429105.11,4586452.11,429123.3,4586451.93,1.5,class
+0064003AR,Tipuana tipu,False,Pl Estatut,,26.33,median,14.73,check,,,,,1.0,floor
+0064004AR,Populus nigra 'Italica',False,Pl Clota,,56.35,no_facade,,check,,,,,1.0,floor
+0064006AR,Celtis australis,False,C\ Lisboa,,9.27,median,4.88,check,,,,,1.0,floor
+0064007AR,Populus nigra 'Italica',False,Pl Clota,,59.03,no_facade,,check,,,,,1.0,floor
+0064008AR,Celtis australis,False,C\ Lisboa,,23.18,median,5.06,check,,,,,1.0,floor
+0064010AR,Celtis australis,False,C\ Lisboa,,28.19,median,5.03,check,,,,,1.0,floor
+0064011AR,Celtis australis,False,C\ Lisboa,,26.43,median,5.05,check,,,,,1.0,floor
+0064012AR,Cupressus sempervirens,False,Av Cardenal Vidal i Barraquer,,25.48,median,,check,,,,,1.0,floor
+0064013AR,Celtis australis,False,C\ Lisboa,10.77,10.21,ok,,large,429498.95,4586715.18,429502.93,4586705.17,1.5,class
+0064014AR,Tipuana tipu,False,Pl Estatut,,22.71,median,8.4,check,,,,,1.0,floor
+0064015AR,Celtis australis,False,C\ Lisboa,,28.55,median,4.97,check,,,,,1.0,floor
+0064016AR,Pinus halepensis,False,Av Cardenal Vidal i Barraquer,,40.6,no_facade,8.18,check,,,,,1.0,floor
+0064017AR,Prunus cerasifera 'Pissardii',False,Av Cardenal Vidal i Barraquer,,3.14,median,4.62,check,,,,,1.0,floor
+0064019AR,Styphnolobium japonicum,False,C\ Alarcón,5.35,3.12,ok,,medium,429173.39,4586541.42,429178.59,4586540.17,1.0,class
+0064020AR,Styphnolobium japonicum,False,C\ Alarcón,,8.46,median,,check,,,,,1.0,floor
+0064021AR,Pinus pinea,False,Av Cardenal Vidal i Barraquer,16.28,14.59,ok,,large,429090.52,4586777.28,429074.95,4586782.02,1.5,class
+0064022AR,Celtis australis,False,C\ Lisboa,,15.39,median,5.14,check,,,,,1.0,floor
+0064023AR,Jacaranda mimosifolia,False,C\ Alarcón,,22.07,median,8.57,check,,,,,1.0,floor
+0064024AR,Celtis australis,False,C\ Lisboa,,24.93,median,5.04,check,,,,,1.0,floor
+0064025AR,Prunus cerasifera 'Pissardii',False,C\ Lisboa,,21.27,median,32.38,check,,,,,1.0,floor
+0064026AR,Jacaranda mimosifolia,False,Pl Clota,,57.18,no_facade,,check,,,,,1.0,floor
+0064027AR,Tipuana tipu,False,Pl Estatut,,19.17,median,8.08,check,,,,,1.0,floor
+0064028AR,Celtis australis,False,C\ Lisboa,,19.43,median,5.07,check,,,,,1.0,floor
+0064029AR,Celtis australis,False,C\ Lisboa,17.01,16.03,ok,,large,429498.95,4586715.18,429515.44,4586711.0,1.5,class
+0064030AR,Tipuana tipu,False,Pl Estatut,,23.28,median,,check,,,,,1.0,floor
+0064031AR,Celtis australis,False,C\ Lisboa,,12.69,median,4.82,check,,,,,1.0,floor
+0064032AR,Celtis australis,False,C\ Lisboa,9.93,9.24,ok,,large,429101.51,4586450.52,429101.16,4586440.59,1.5,class
+0064034AR,Celtis australis,False,C\ Lisboa,12.2,11.64,ok,,large,429096.49,4586450.7,429096.06,4586438.5,1.5,class
+0064036AR,Cupressus sempervirens,False,Camí Sant Genís a Horta,,29.87,median,,check,,,,,1.0,floor
+0064038AR,Jacaranda mimosifolia,False,Pl Clota,,61.37,no_facade,,check,,,,,1.0,floor
+0064039AR,Populus nigra,False,C\ Lisboa,,22.83,median,34.1,check,,,,,1.0,floor
+0064040AR,Cupressus sempervirens,False,Av Cardenal Vidal i Barraquer,,26.48,median,,check,,,,,1.0,floor
+0064042AR,Celtis australis,False,C\ Lisboa,,27.71,median,5.25,check,,,,,1.0,floor
+0064043AR,Citrus × aurantium,False,C\ Torelló,,5.63,median,4.61,check,,,,,1.0,floor
+0064044AR,Cupressus sempervirens,False,Av Cardenal Vidal i Barraquer,,24.95,median,,check,,,,,1.0,floor
+0064045AR,Celtis australis,False,C\ Lisboa,,18.06,median,4.78,check,,,,,1.0,floor
+0064046AR,Populus nigra 'Italica',False,C\ Lisboa,10.96,4.87,ok,,large,429498.95,4586715.18,429505.23,4586706.2,1.5,class
+0064048AR,Gleditsia triacanthos f. inermis,False,Av Cardenal Vidal i Barraquer,9.82,4.81,ok,,large,429057.55,4586604.84,429049.11,4586599.84,1.5,class
+0064049AR,Tipuana tipu,False,Pl Estatut,,13.12,median,16.53,check,,,,,1.0,floor
+0064050AR,Pinus pinea,False,Av Cardenal Vidal i Barraquer,,41.4,no_facade,8.19,check,,,,,1.0,floor
+0064052AR,Prunus cerasifera 'Pissardii',False,Av Cardenal Vidal i Barraquer,,7.74,median,3.7,check,,,,,1.0,floor
+0064053AR,Cupressus sempervirens,False,Av Cardenal Vidal i Barraquer,,28.04,median,,check,,,,,1.0,floor
+0064054AR,Celtis australis,False,C\ Lisboa,,16.85,median,9.69,check,,,,,1.0,floor
+0064055AR,Tipuana tipu,False,Pl Estatut,,10.83,median,16.97,check,,,,,1.0,floor
+0064056AR,Jacaranda mimosifolia,False,Pl Clota,,57.5,no_facade,,check,,,,,1.0,floor
+0064057AR,Styphnolobium japonicum,False,C\ Alarcón,,7.59,median,,check,,,,,1.0,floor
+0064058AR,Celtis australis,False,C\ Lisboa,,20.88,median,4.95,check,,,,,1.0,floor
+0064059AR,Celtis australis,False,C\ Lisboa,,19.56,median,4.81,check,,,,,1.0,floor
+0064061AR,Celtis australis,False,C\ Lisboa,,22.13,median,4.86,check,,,,,1.0,floor
+0064062AR,Celtis australis,False,C\ Lisboa,,27.82,median,5.32,check,,,,,1.0,floor
+0064063AR,Gleditsia triacanthos f. inermis,False,Av Cardenal Vidal i Barraquer,,23.49,median,4.75,check,,,,,1.0,floor
+0064064AR,Prunus cerasifera 'Pissardii',False,Av Cardenal Vidal i Barraquer,,19.5,no_kerb,,check,,,,,1.0,floor
+0064065AR,Gleditsia triacanthos f. inermis,False,Av Cardenal Vidal i Barraquer,,13.81,median,5.18,check,,,,,1.0,floor
+0064066AR,Styphnolobium japonicum,False,C\ Alarcón,,10.68,median,,check,,,,,1.0,floor
+0064067AR,Celtis australis,False,C\ Lisboa,,22.16,median,5.02,check,,,,,1.0,floor
+0064068AR,Pinus pinea,False,Av Cardenal Vidal i Barraquer,18.23,16.22,ok,,large,429091.76,4586781.36,429075.51,4586789.61,1.5,class
+0064069AR,Celtis australis,False,C\ Lisboa,,11.99,median,3.96,check,,,,,1.0,floor
+0064070AR,Styphnolobium japonicum,False,Av Cardenal Vidal i Barraquer,,11.6,median,5.45,check,,,,,1.0,floor
+0064072AR,Celtis australis,False,C\ Lisboa,,29.96,median,4.98,check,,,,,1.0,floor
+0064073AR,Citrus × aurantium,False,Av Cardenal Vidal i Barraquer,6.21,2.79,ok,,large,429057.55,4586604.84,429051.35,4586604.5,1.5,class
+0064074AR,Prunus cerasifera 'Pissardii',False,Av Cardenal Vidal i Barraquer,,2.89,median,4.33,check,,,,,1.0,floor
+0064075AR,Styphnolobium japonicum,False,C\ Alarcón,,19.24,median,,check,,,,,1.0,floor
+0064076AR,Celtis australis,False,C\ Lisboa,,9.17,median,5.02,check,,,,,1.0,floor
+0064077AR,Styphnolobium japonicum,False,C\ Alarcón,,5.8,median,,check,,,,,1.0,floor
+0064078AR,Celtis australis,False,C\ Lisboa,,20.98,median,14.37,check,,,,,1.0,floor
+0064080AR,Jacaranda mimosifolia,False,Pl Clota,,47.7,no_facade,,check,,,,,1.0,floor
+0064081AR,Celtis australis,False,C\ Lisboa,12.43,11.68,ok,,large,429498.95,4586715.18,429509.01,4586707.88,1.5,class
+0064082AR,Tipuana tipu,False,Pl Estatut,,26.78,median,8.69,check,,,,,1.0,floor
+0064083AR,Tipuana tipu,False,Pl Estatut,,31.64,no_facade,8.91,check,,,,,1.0,floor
+0064084AR,Styphnolobium japonicum,False,Av Marquès de Castellbell,10.41,4.27,ok,,large,429412.09,4586749.85,429404.13,4586743.14,1.5,class
+0064085AR,Celtis australis,False,C\ Lisboa,,20.28,median,4.95,check,,,,,1.0,floor
+0064086AR,Cupressus sempervirens,False,Av Cardenal Vidal i Barraquer,,28.56,median,,check,,,,,1.0,floor
+0064088AR,Tipuana tipu,False,Av Marquès de Castellbell,2.69,2.0,ok,,small,429506.79,4586740.09,429507.48,4586737.49,1.0,class
+0064089AR,Tipuana tipu,False,Pl Estatut,,12.19,median,17.17,check,,,,,1.0,floor
+0064090AR,Styphnolobium japonicum,False,Ptge Marquès de Castellbell,4.4,2.95,ok,,medium,429410.12,4586766.76,429405.74,4586767.19,1.0,class
+0064091AR,Prunus cerasifera 'Pissardii',False,Av Cardenal Vidal i Barraquer,,26.92,median,4.68,check,,,,,1.0,floor
+0064092AR,Jacaranda mimosifolia,False,Pl Clota,,61.09,no_facade,,check,,,,,1.0,floor
+0064093AR,Cupressus sempervirens,False,Av Cardenal Vidal i Barraquer,,27.52,median,,check,,,,,1.0,floor
+0064094AR,Cupressus sempervirens,False,Av Cardenal Vidal i Barraquer,,26.84,median,,check,,,,,1.0,floor
+0064095AR,Celtis australis,False,C\ Lisboa,3.95,3.33,ok,,medium,429479.93,4586698.93,429481.87,4586695.49,1.0,class
+0064097AR,Cupressus sempervirens,False,Av Cardenal Vidal i Barraquer,,27.18,median,,check,,,,,1.0,floor
+0064098AR,Styphnolobium japonicum,False,C\ Alarcón,,5.81,median,29.31,check,,,,,1.0,floor
+0064100AR,Cupressus sempervirens,False,Av Cardenal Vidal i Barraquer,,27.78,median,,check,,,,,1.0,floor
+0064101AR,Tipuana tipu,False,Pl Estatut,,39.86,no_facade,16.84,check,,,,,1.0,floor
+0064102AR,Celtis australis,False,C\ Lisboa,,27.1,median,5.17,check,,,,,1.0,floor
+0064103AR,Celtis australis,False,C\ Lisboa,,20.61,median,4.98,check,,,,,1.0,floor
+0064105AR,Celtis australis,False,C\ Lisboa,,23.69,median,4.96,check,,,,,1.0,floor
+0064107AR,Celtis australis,False,C\ Lisboa,,32.65,no_facade,5.14,check,,,,,1.0,floor
+0064108AR,Celtis australis,False,C\ Lisboa,,10.93,median,4.85,check,,,,,1.0,floor
+0064109AR,Citrus × aurantium,False,Av Cardenal Vidal i Barraquer,,20.34,median,4.63,check,,,,,1.0,floor
+0064110AR,Cupressus sempervirens,False,Camí Sant Genís a Horta,,30.38,no_facade,,check,,,,,1.0,floor
+0064111AR,Celtis australis,False,C\ Lisboa,,29.66,median,5.49,check,,,,,1.0,floor
+0064113AR,Tipuana tipu,False,Pl Estatut,,29.76,median,13.55,check,,,,,1.0,floor
+0064114AR,Pinus pinea,False,Av Cardenal Vidal i Barraquer,23.59,21.09,ok,,large,429091.76,4586781.36,429076.87,4586799.65,1.5,class
+0064115AR,Celtis australis,False,C\ Lisboa,,31.82,no_facade,5.05,check,,,,,1.0,floor
+0064117AR,Styphnolobium japonicum,False,C\ Alarcón,,8.8,median,,check,,,,,1.0,floor
+0064118AR,Prunus cerasifera 'Pissardii',False,Av Cardenal Vidal i Barraquer,19.98,15.1,ok,,large,429054.96,4586570.92,429041.73,4586585.88,1.5,class
+0064119AR,Celtis australis,False,C\ Lisboa,,20.79,median,5.1,check,,,,,1.0,floor
+0064120AR,Jacaranda mimosifolia,False,Pl Clota,,55.17,no_facade,,check,,,,,1.0,floor
+0064122AR,Celtis australis,False,C\ Lisboa,,19.76,median,4.91,check,,,,,1.0,floor
+0064123AR,Celtis australis,False,C\ Lisboa,,20.59,median,5.06,check,,,,,1.0,floor
+0064124AR,Cupressus sempervirens,False,Av Cardenal Vidal i Barraquer,,25.95,median,,check,,,,,1.0,floor
+0064125AR,Styphnolobium japonicum,False,Ptge Marquès de Castellbell,4.56,3.36,ok,,medium,429409.11,4586753.37,429404.76,4586752.0,1.0,class
+0064126AR,Celtis australis,False,C\ Lisboa,,15.3,median,7.29,check,,,,,1.0,floor
+0064127AR,Styphnolobium japonicum,False,Av Cardenal Vidal i Barraquer,,23.32,median,8.94,check,,,,,1.0,floor
+0064128AR,Celtis australis,False,C\ Lisboa,8.97,7.99,ok,,large,429105.09,4586450.39,429112.64,4586445.56,1.5,class
+0064129AR,Citrus × aurantium,False,Av Cardenal Vidal i Barraquer,23.26,15.56,ok,,large,429033.52,4586551.02,429034.87,4586574.25,1.5,class
+0064130AR,Celtis australis,False,C\ Lisboa,22.6,21.49,ok,,large,429105.14,4586455.52,429127.74,4586455.3,1.5,class
+0064131AR,Styphnolobium japonicum,False,Av Cardenal Vidal i Barraquer,,21.27,median,12.83,check,,,,,1.0,floor
+0064132AR,Tipuana tipu,False,Pl Estatut,,16.24,median,16.07,check,,,,,1.0,floor
+0064133AR,Tipuana tipu,False,Pl Estatut,12.03,10.24,ok,,large,429502.71,4586760.16,429503.12,4586772.19,1.5,class
+0064134AR,Celtis australis,False,C\ Lisboa,,23.17,median,4.78,check,,,,,1.0,floor
+0064135AR,Celtis australis,False,C\ Lisboa,,21.47,median,4.93,check,,,,,1.0,floor
+0064136AR,Celtis australis,False,C\ Lisboa,16.7,13.05,ok,,large,429469.63,4586693.79,429456.18,4586683.89,1.5,class
+0064137AR,Populus nigra 'Italica',False,Pl Clota,,48.5,no_facade,,check,,,,,1.0,floor
+0064138AR,Tipuana tipu,False,Pl Estatut,,19.16,median,16.41,check,,,,,1.0,floor
+0064139AR,Cupressus sempervirens,False,Camí Sant Genís a Horta,,29.49,median,,check,,,,,1.0,floor
+0064140AR,Celtis australis,False,C\ Lisboa,,32.82,no_facade,5.28,check,,,,,1.0,floor
+0064141AR,Celtis australis,False,C\ Lisboa,24.88,19.12,ok,,large,429469.63,4586693.79,429448.55,4586680.58,1.5,class
+0064142AR,Styphnolobium japonicum,False,Av Marquès de Castellbell,,19.47,median,,check,,,,,1.0,floor
+0064144AR,Celtis australis,False,C\ Lisboa,,28.06,median,5.15,check,,,,,1.0,floor
+0064145AR,Styphnolobium japonicum,False,C\ Alarcón,,6.84,median,,check,,,,,1.0,floor
+0064146AR,Tipuana tipu,False,Pl Estatut,,23.07,median,15.59,check,,,,,1.0,floor
+0064147AR,Populus nigra 'Italica',False,Pl Clota,,57.02,no_facade,,check,,,,,1.0,floor
+0064148AR,Celtis australis,False,C\ Lisboa,,24.26,median,8.72,check,,,,,1.0,floor
+0064149AR,Cupressus sempervirens,False,Av Cardenal Vidal i Barraquer,,28.94,median,,check,,,,,1.0,floor
+0064150AR,Celtis australis,False,C\ Lisboa,3.6,2.83,ok,,medium,429469.63,4586693.79,429470.33,4586690.26,1.0,class
+0064151AR,Citrus × aurantium,False,Av Cardenal Vidal i Barraquer,,15.51,no_kerb,,check,,,,,1.0,floor
+0064152AR,Styphnolobium japonicum,False,C\ Alarcón,,6.09,median,,check,,,,,1.0,floor
+0064153AR,Tipuana tipu,False,Pl Estatut,,32.22,no_facade,12.08,check,,,,,1.0,floor
+0064154AR,Tipuana tipu,False,Pl Estatut,,18.83,median,16.94,check,,,,,1.0,floor
+0064155AR,Styphnolobium japonicum,False,Av Marquès de Castellbell,5.31,4.11,ok,,medium,429414.53,4586746.95,429411.68,4586742.47,1.0,class
+0064156AR,Jacaranda mimosifolia,False,Pl Clota,,50.19,no_facade,,check,,,,,1.0,floor
+0064157AR,Styphnolobium japonicum,False,C\ Alarcón,,9.24,median,,check,,,,,1.0,floor
+0064158AR,Citrus × aurantium,False,Av Cardenal Vidal i Barraquer,18.9,14.28,ok,,large,429054.96,4586570.92,429039.4,4586581.64,1.5,class
+0064160AR,Celtis australis,False,C\ Lisboa,,12.81,median,5.2,check,,,,,1.0,floor
+0064161AR,Styphnolobium japonicum,False,Av Cardenal Vidal i Barraquer,,13.94,median,14.75,check,,,,,1.0,floor
+0064163AR,Brachychiton populneus,False,C\ Lisboa,11.12,2.93,ok,,large,429098.87,4586450.61,429098.48,4586439.49,1.5,class
+0064164AR,Jacaranda mimosifolia,False,Pl Clota,,53.54,no_facade,,check,,,,,1.0,floor
+0064165AR,Celtis australis,False,C\ Lisboa,3.74,3.19,ok,,medium,429474.79,4586696.37,429476.46,4586693.02,1.0,class
+0064166AR,Populus nigra 'Italica',False,Pl Clota,,44.51,no_facade,,check,,,,,1.0,floor
+0064167AR,Gleditsia triacanthos f. inermis,False,Av Cardenal Vidal i Barraquer,,28.38,median,4.79,check,,,,,1.0,floor
+0064168AR,Styphnolobium japonicum,False,Ptge Marquès de Castellbell,5.52,4.06,ok,,medium,429410.67,4586773.24,429406.35,4586776.68,1.0,class
+0064169AR,Celtis australis,False,C\ Lisboa,26.58,25.5,ok,,large,429105.17,4586458.54,429131.75,4586458.74,1.5,class
+0064171AR,Styphnolobium japonicum,False,Ptge Marquès de Castellbell,4.31,2.85,ok,,medium,429409.51,4586758.75,429405.22,4586759.07,1.0,class
+0064172AR,Prunus cerasifera 'Pissardii',False,C\ Torelló,,5.91,median,4.86,check,,,,,1.0,floor
+0064173AR,Styphnolobium japonicum,False,Av Marquès de Castellbell,,16.33,median,,check,,,,,1.0,floor
+0064174AR,Celtis sinensis,False,C\ Lisboa,,13.09,median,20.39,check,,,,,1.0,floor
+0064175AR,Styphnolobium japonicum,False,C\ Alarcón,,11.14,median,,check,,,,,1.0,floor
+0064176AR,Prunus cerasifera 'Pissardii',False,Av Cardenal Vidal i Barraquer,20.69,10.07,ok,,large,429058.45,4586601.06,429042.7,4586587.65,1.5,class
+0064177AR,Tipuana tipu,False,Pl Estatut,,26.33,median,27.34,check,,,,,1.0,floor
+0064178AR,Tipuana tipu,False,Pl Estatut,,15.39,median,16.92,check,,,,,1.0,floor
+0064179AR,Celtis australis,False,C\ Lisboa,8.55,6.96,ok,,large,429469.63,4586693.79,429463.97,4586687.38,1.5,class
+0064180AR,Celtis australis,False,C\ Lisboa,,14.6,median,4.71,check,,,,,1.0,floor
+0064181AR,Celtis australis,False,C\ Lisboa,,22.1,median,4.9,check,,,,,1.0,floor
+0064183AR,Celtis australis,False,C\ Alarcón,,15.51,median,8.83,check,,,,,1.0,floor
+0064184AR,Jacaranda mimosifolia,False,Pl Clota,,42.36,no_facade,,check,,,,,1.0,floor
+0064185AR,Celtis australis,False,C\ Lisboa,,20.11,median,5.19,check,,,,,1.0,floor
+0064186AR,Tipuana tipu,False,Pl Estatut,,10.45,median,17.16,check,,,,,1.0,floor
+0064187AR,Styphnolobium japonicum,False,C\ Alarcón,,6.4,median,,check,,,,,1.0,floor
+0064188AR,Tipuana tipu,False,Pl Estatut,,50.36,no_facade,11.72,check,,,,,1.0,floor
+0064189AR,Celtis australis,False,C\ Lisboa,,13.12,median,5.34,check,,,,,1.0,floor
+0064190AR,Styphnolobium japonicum,False,C\ Alarcón,,5.82,median,,check,,,,,1.0,floor
+0064191AR,Tipuana tipu,False,Pl Estatut,,46.78,no_facade,11.58,check,,,,,1.0,floor
+0064194AR,Citrus × aurantium,False,Av Cardenal Vidal i Barraquer,21.54,17.46,ok,,large,429054.96,4586570.92,429033.45,4586571.97,1.5,class
+0064195AR,Tipuana tipu,False,Pl Estatut,,35.5,no_facade,9.18,check,,,,,1.0,floor
+0064196AR,Celtis australis,False,C\ Lisboa,,27.66,median,9.88,check,,,,,1.0,floor
+0064197AR,Pinus pinea,False,Av Cardenal Vidal i Barraquer,,26.48,no_kerb,,check,,,,,1.0,floor
+0064198AR,Citrus × aurantium,False,Av Cardenal Vidal i Barraquer,,27.07,no_kerb,,check,,,,,1.0,floor
+0064199AR,Celtis australis,False,C\ Lisboa,,21.25,median,4.92,check,,,,,1.0,floor
+0064200AR,Celtis australis,False,C\ Lisboa,12.76,11.68,ok,,large,429105.09,4586450.39,429117.68,4586448.33,1.5,class
+0064201AR,Styphnolobium japonicum,False,C\ Alarcón,5.45,3.66,ok,,medium,429171.01,4586538.01,429170.59,4586532.58,1.0,class
+0064202AR,Styphnolobium japonicum,False,C\ Alarcón,,9.61,median,,check,,,,,1.0,floor
+0064203AR,Celtis australis,False,C\ Lisboa,,11.9,median,4.03,check,,,,,1.0,floor
+0064204AR,Jacaranda mimosifolia,False,Pl Clota,,52.99,no_facade,,check,,,,,1.0,floor
+0064205AR,Celtis australis,False,C\ Lisboa,7.72,6.94,ok,,large,429105.09,4586450.39,429106.36,4586442.78,1.5,class
+0064207AR,Celtis australis,False,C\ Lisboa,,10.39,median,4.84,check,,,,,1.0,floor
+0064208AR,Celtis australis,False,C\ Lisboa,,12.29,median,5.22,check,,,,,1.0,floor
+0064209AR,Citrus × aurantium,False,Av Cardenal Vidal i Barraquer,,24.9,no_kerb,,check,,,,,1.0,floor
+0064210AR,Styphnolobium japonicum,False,C\ Alarcón,,6.29,median,,check,,,,,1.0,floor
+0064211AR,Jacaranda mimosifolia,False,Pl Clota,,52.32,no_facade,,check,,,,,1.0,floor
+0064212AR,Tipuana tipu,False,Pl Estatut,,43.3,no_facade,11.46,check,,,,,1.0,floor
+0064213AR,Prunus cerasifera 'Pissardii',False,Av Cardenal Vidal i Barraquer,23.25,17.39,ok,,large,429054.96,4586570.92,429045.06,4586591.94,1.5,class
+0064214AR,Celtis australis,False,C\ Lisboa,,19.31,median,4.85,check,,,,,1.0,floor
+0064215AR,Celtis australis,False,C\ Lisboa,,28.11,median,5.0,check,,,,,1.0,floor
+0064216AR,Celtis australis,False,C\ Lisboa,,21.81,median,4.97,check,,,,,1.0,floor
+0064217AR,Celtis australis,False,C\ Lisboa,,32.57,no_facade,5.02,check,,,,,1.0,floor
+0064218AR,Celtis australis,False,C\ Lisboa,,27.74,median,5.19,check,,,,,1.0,floor
+0064219AR,Jacaranda mimosifolia,False,Pl Clota,,57.25,no_facade,,check,,,,,1.0,floor
+0064220AR,Brachychiton populneus,False,C\ Lisboa,13.14,3.03,ok,,large,429094.29,4586450.77,429093.82,4586437.64,1.5,class
+0064221AR,Tipuana tipu,False,Pl Estatut,,53.36,no_facade,11.77,check,,,,,1.0,floor
+0064222AR,Jacaranda mimosifolia,False,Pl Clota,,49.83,no_facade,,check,,,,,1.0,floor
+0064224AR,Celtis australis,False,C\ Lisboa,,22.63,median,5.1,check,,,,,1.0,floor
+0064225AR,Celtis australis,False,C\ Lisboa,,25.85,median,5.0,check,,,,,1.0,floor
+0064226AR,Populus nigra 'Italica',False,Pl Clota,,58.71,no_facade,,check,,,,,1.0,floor
+0064227AR,Jacaranda mimosifolia,False,Pl Clota,,46.29,no_facade,,check,,,,,1.0,floor
+0064228AR,Celtis australis,False,C\ Lisboa,,11.66,median,5.36,check,,,,,1.0,floor
+0064229AR,Populus nigra 'Italica',False,Pl Clota,,58.57,no_facade,,check,,,,,1.0,floor
+0064230AR,Tipuana tipu,False,Av Marquès de Castellbell,,8.52,median,11.67,check,,,,,1.0,floor
+0064231AR,Prunus cerasifera 'Pissardii',False,Av Cardenal Vidal i Barraquer,,7.03,median,5.47,check,,,,,1.0,floor
+0064232AR,Tipuana tipu,False,Pl Estatut,16.9,15.2,ok,,large,429501.92,4586760.19,429499.74,4586776.95,1.5,class
+0064233AR,Styphnolobium japonicum,False,Av Cardenal Vidal i Barraquer,,17.79,median,14.78,check,,,,,1.0,floor
+0064234AR,Celtis australis,False,C\ Lisboa,,15.28,median,5.26,check,,,,,1.0,floor
+0064235AR,Celtis australis,False,C\ Lisboa,,31.41,no_facade,5.39,check,,,,,1.0,floor
+0064236AR,Celtis australis,False,C\ Lisboa,,9.56,median,4.89,check,,,,,1.0,floor
+0064237AR,Cupressus sempervirens,False,Camí Sant Genís a Horta,,30.85,no_facade,,check,,,,,1.0,floor
+0064238AR,Celtis australis,False,C\ Lisboa,7.93,6.57,ok,,large,429479.93,4586698.93,429487.84,4586698.25,1.5,class
+0064239AR,Citrus × aurantium,False,Av Cardenal Vidal i Barraquer,12.86,7.71,ok,,large,429058.45,4586601.06,429046.93,4586595.36,1.5,class
+0064240AR,Celtis australis,False,C\ Lisboa,,25.58,no_kerb,4.95,check,,,,,1.0,floor
+0064241AR,Celtis australis,False,C\ Lisboa,,9.1,median,4.92,check,,,,,1.0,floor
+0209299AR,Tipuana tipu,False,Pl Estatut,,35.36,no_facade,10.38,check,,,,,1.0,floor
+0209919AR,Ulmus pumila,False,Ptge Marquès de Castellbell,,52.42,no_facade,11.92,check,,,,,1.0,floor
+0210568AR,Ulmus pumila,False,Ptge Marquès de Castellbell,,31.75,no_facade,9.19,check,,,,,1.0,floor
+0268427AR,Tipuana tipu,False,Av Marquès de Castellbell,,42.39,no_facade,12.48,check,,,,,1.0,floor
+0268435AR,Tipuana tipu,False,Pl Estatut,,27.89,median,23.52,check,,,,,1.0,floor
+0268438AR,Tipuana tipu,False,Pl Estatut,,21.76,median,19.97,check,,,,,1.0,floor
+0268448AR,Tipuana tipu,False,Pl Estatut,,24.9,median,20.67,check,,,,,1.0,floor
+0268464AR,Tipuana tipu,False,Av Marquès de Castellbell,,40.35,no_facade,8.38,check,,,,,1.0,floor
+0286537AR,Prunus cerasifera 'Pissardii',False,Av Cardenal Vidal i Barraquer,19.96,15.52,ok,,large,429054.96,4586570.92,429035.47,4586575.22,1.5,class
+0286538AR,Prunus cerasifera 'Pissardii',False,C\ Lisboa,,24.83,median,29.54,check,,,,,1.0,floor
+0299351AR,Tilia x europaea,False,Av Estatut de Catalunya,4.77,3.97,ok,,medium,429363.74,4586934.91,429366.79,4586938.58,1.0,class
+0299352AR,Tilia x europaea,False,Av Estatut de Catalunya,4.78,3.98,ok,,medium,429371.33,4586928.61,429374.39,4586932.29,1.0,class
+0299353AR,Tilia x europaea,False,Av Estatut de Catalunya,4.8,3.95,ok,,medium,429378.89,4586922.34,429381.95,4586926.03,1.0,class
+0299373AR,Tilia x europaea,False,Av Estatut de Catalunya,4.81,4.03,ok,,medium,429386.37,4586916.14,429389.44,4586919.84,1.0,class
+0299374AR,Tilia x europaea,False,Av Estatut de Catalunya,4.82,3.95,ok,,medium,429393.92,4586909.87,429397.0,4586913.58,1.0,class
+0299375AR,Tilia x europaea,False,Av Estatut de Catalunya,4.83,4.01,ok,,medium,429401.46,4586903.62,429404.55,4586907.33,1.0,class
+0299376AR,Tilia x europaea,False,Av Estatut de Catalunya,4.84,4.05,ok,,medium,429408.97,4586897.39,429412.06,4586901.11,1.0,class
+0299377AR,Tilia x europaea,False,Av Estatut de Catalunya,6.36,5.54,ok,,large,429414.62,4586891.0,429419.77,4586894.73,1.5,class
+0299378AR,Tilia x europaea,False,Av Estatut de Catalunya,8.81,8.0,ok,,large,429420.22,4586883.27,429427.35,4586888.44,1.5,class
+0299379AR,Tilia x europaea,False,Av Estatut de Catalunya,10.27,9.33,ok,,large,429425.8,4586875.58,429434.12,4586881.61,1.5,class
+0299380AR,Tilia x europaea,False,Av Estatut de Catalunya,,8.47,median,,check,,,,,1.0,floor
+0299392AR,Tilia x europaea,False,Av Estatut de Catalunya,6.1,5.28,ok,,large,429295.03,4587008.16,429300.38,4587011.09,1.5,class
+0299393AR,Tilia x europaea,False,Av Estatut de Catalunya,5.98,5.12,ok,,medium,429300.2,4586999.28,429305.34,4587002.34,1.0,class
+0299394AR,Tilia x europaea,False,Av Estatut de Catalunya,5.99,5.18,ok,,medium,429305.74,4586990.54,429310.64,4586993.98,1.0,class
+0299397AR,Tilia x europaea,False,Av Estatut de Catalunya,5.99,5.2,ok,,medium,429325.4,4586966.46,429329.77,4586970.56,1.0,class
+0299406AR,Tilia x europaea,False,Av Estatut de Catalunya,6.07,5.34,ok,,large,429332.87,4586959.06,429336.96,4586963.54,1.5,class
+0299407AR,Tilia x europaea,False,Av Estatut de Catalunya,6.26,5.39,ok,,large,429340.56,4586952.23,429344.55,4586957.06,1.5,class
+0309316AR,Tipuana tipu,False,Pl Estatut,,47.31,no_facade,12.28,check,,,,,1.0,floor
+0309317AR,Tipuana tipu,False,Pl Estatut,,53.21,no_facade,12.06,check,,,,,1.0,floor
+0309318AR,Tipuana tipu,False,Ptge Marquès de Castellbell,,25.33,median,9.36,check,,,,,1.0,floor
+0309319AR,Tipuana tipu,False,Ptge Marquès de Castellbell,,20.47,median,9.27,check,,,,,1.0,floor
+0309320AR,Tipuana tipu,False,Ptge Marquès de Castellbell,,37.19,no_facade,9.08,check,,,,,1.0,floor
+0309321AR,Tipuana tipu,False,Ptge Marquès de Castellbell,,20.18,median,9.08,check,,,,,1.0,floor
+0309322AR,Tipuana tipu,False,Ptge Marquès de Castellbell,,17.21,median,,check,,,,,1.0,floor
+0309323AR,Catalpa bignonioides,False,Ptge Marquès de Castellbell,,46.98,no_facade,9.13,check,,,,,1.0,floor
+0309324AR,Catalpa bignonioides,False,Ptge Marquès de Castellbell,,41.11,no_facade,9.13,check,,,,,1.0,floor
+0309325AR,Catalpa bignonioides,False,Ptge Marquès de Castellbell,,37.19,no_facade,9.13,check,,,,,1.0,floor
+0309326AR,Catalpa bignonioides,False,Ptge Marquès de Castellbell,,28.16,median,9.13,check,,,,,1.0,floor
+0309327AR,Catalpa bignonioides,False,Ptge Marquès de Castellbell,,22.99,median,9.13,check,,,,,1.0,floor
+0309328AR,Catalpa bignonioides,False,Ptge Marquès de Castellbell,,18.85,median,9.13,check,,,,,1.0,floor
+0309329AR,Tipuana tipu,False,Ptge Marquès de Castellbell,,13.39,median,,check,,,,,1.0,floor
+0309330AR,Tipuana tipu,False,Ptge Marquès de Castellbell,6.11,3.06,ok,,large,429458.23,4586766.41,429454.61,4586771.34,1.5,class
+0309331AR,Tipuana tipu,False,Ptge Marquès de Castellbell,4.33,2.01,ok,,medium,429461.31,4586766.03,429461.85,4586770.33,1.0,class
+0309332AR,Tipuana tipu,False,Ptge Marquès de Castellbell,4.25,1.84,ok,,medium,429466.73,4586765.35,429467.26,4586769.57,1.0,class
+0309333AR,Tipuana tipu,False,Ptge Marquès de Castellbell,4.17,1.96,ok,,medium,429471.99,4586764.69,429472.5,4586768.83,1.0,class
+0309334AR,Tipuana tipu,False,Ptge Marquès de Castellbell,4.59,2.05,ok,,medium,429476.0,4586764.19,429478.29,4586768.16,1.0,class
+0309335AR,Tipuana tipu,False,Ptge Marquès de Castellbell,4.67,3.81,ok,,medium,429482.21,4586763.22,429482.77,4586767.86,1.0,class
+0309336AR,Tipuana tipu,False,Ptge Marquès de Castellbell,10.58,3.67,ok,,large,429487.79,4586762.54,429489.06,4586773.05,1.5,class
+0309337AR,Tipuana tipu,False,Ptge Marquès de Castellbell,,7.48,no_kerb,32.32,check,,,,,1.0,floor
+0313525AR,Styphnolobium japonicum 'Dot',False,Ptge Marquès de Castellbell,1.15,1.97,ok,,none,429418.45,4586772.23,429418.59,4586773.37,1.0,floor
+0313526AR,Styphnolobium japonicum 'Dot',False,Ptge Marquès de Castellbell,1.14,1.97,ok,,none,429414.12,4586772.79,429414.26,4586773.92,1.0,floor
+0314500AR,Cupressus sempervirens,False,C\ Torelló,16.89,7.07,ok,,large,429089.55,4586695.82,429080.44,4586710.04,1.5,class
+0314501AR,Cupressus sempervirens,False,C\ Torelló,15.73,6.32,ok,,large,429089.55,4586695.82,429080.56,4586708.72,1.5,class
+0314502AR,Cupressus sempervirens,False,C\ Torelló,14.13,5.58,ok,,large,429089.55,4586695.82,429080.73,4586706.85,1.5,class
+0314503AR,Cupressus sempervirens,False,Av Cardenal Vidal i Barraquer,,14.52,no_kerb,,check,,,,,1.0,floor
+0314504AR,Cupressus sempervirens,False,Av Cardenal Vidal i Barraquer,,14.96,no_kerb,,check,,,,,1.0,floor
+0322862AR,Tilia x europaea,False,Av Estatut de Catalunya,7.9,6.86,ok,,large,429358.75,4586939.04,429356.95,4586946.74,1.5,class
+0322863AR,Tilia x europaea,False,Av Estatut de Catalunya,6.58,5.89,ok,,large,429345.59,4586948.07,429351.19,4586951.52,1.5,class
+0322864AR,Styphnolobium japonicum,False,C\ Alarcón,,5.72,median,,check,,,,,1.0,floor
+0322865AR,Styphnolobium japonicum,False,C\ Alarcón,,16.25,median,,check,,,,,1.0,floor
+0322866AR,Styphnolobium japonicum,False,C\ Alarcón,,14.27,median,,check,,,,,1.0,floor
+0322867AR,Styphnolobium japonicum,False,C\ Alarcón,,5.31,median,,check,,,,,1.0,floor
+0322868AR,Styphnolobium japonicum,False,C\ Alarcón,,5.14,median,,check,,,,,1.0,floor
+0322869AR,Styphnolobium japonicum,False,C\ Alarcón,,5.32,median,,check,,,,,1.0,floor
+0322870AR,Styphnolobium japonicum,False,C\ Lisboa,,16.79,no_kerb,10.81,check,,,,,1.0,floor
+0322871AR,Styphnolobium japonicum,False,C\ Alarcón,,7.01,median,,check,,,,,1.0,floor
+0322872AR,Styphnolobium japonicum,False,C\ Alarcón,17.08,16.33,ok,,large,429148.61,4586519.55,429151.4,4586502.7,1.5,class
+0322873AR,Styphnolobium japonicum,False,C\ Alarcón,,17.67,median,3.91,check,,,,,1.0,floor
+0322874AR,Styphnolobium japonicum,False,C\ Alarcón,,17.39,median,5.2,check,,,,,1.0,floor
+0322875AR,Styphnolobium japonicum,False,C\ Alarcón,,17.33,median,4.22,check,,,,,1.0,floor
+0334255AR,Populus nigra 'Italica',False,C\ Lisboa,19.15,3.81,ok,,large,429499.66,4586723.46,429518.34,4586719.2,1.5,class
+0345812AR,Cupressus sempervirens,False,Av Cardenal Vidal i Barraquer,14.13,1.43,ok,,large,429020.37,4586517.71,429010.28,4586507.82,1.5,class
+0345813AR,Cupressus sempervirens,False,Av Cardenal Vidal i Barraquer,,2.12,no_kerb,,check,,,,,1.0,floor
+0345827AR,Phoenix canariensis,False,Av Cardenal Vidal i Barraquer,24.54,13.91,ok,,large,429091.76,4586781.36,429077.13,4586801.06,1.5,class
+0345828AR,Phoenix canariensis,False,Av Cardenal Vidal i Barraquer,29.94,18.78,ok,,large,429091.76,4586781.36,429078.64,4586808.26,1.5,class
+0345829AR,Phoenix canariensis,False,Av Cardenal Vidal i Barraquer,,21.54,no_kerb,,check,,,,,1.0,floor
+0345830AR,Phoenix canariensis,False,Av Cardenal Vidal i Barraquer,,24.18,no_kerb,,check,,,,,1.0,floor
+0345831AR,Phoenix canariensis,False,Av Cardenal Vidal i Barraquer,,26.63,no_kerb,,check,,,,,1.0,floor
+0345832AR,Phoenix canariensis,False,Av Cardenal Vidal i Barraquer,,29.05,no_kerb,,check,,,,,1.0,floor
+0345833AR,Phoenix canariensis,False,Av Cardenal Vidal i Barraquer,,31.34,no_facade,,check,,,,,1.0,floor
+0345838AR,Cupressus sempervirens,False,Av Cardenal Vidal i Barraquer,,3.43,no_kerb,,check,,,,,1.0,floor
+0345839AR,Cupressus sempervirens,False,Av Cardenal Vidal i Barraquer,,4.24,no_kerb,,check,,,,,1.0,floor
+0345840AR,Cupressus sempervirens,False,Av Cardenal Vidal i Barraquer,22.41,2.5,ok,,large,429019.65,4586509.27,429013.98,4586530.94,1.5,class
+0345841AR,Cupressus sempervirens,False,Av Cardenal Vidal i Barraquer,19.37,1.9,ok,,large,429019.65,4586509.27,429013.72,4586527.7,1.5,class
+0345842AR,Cupressus sempervirens,False,Av Cardenal Vidal i Barraquer,8.73,0.81,ok,,large,429019.64,4586508.92,429010.92,4586509.36,1.5,class
+0345843AR,Cupressus sempervirens,False,Av Cardenal Vidal i Barraquer,9.12,0.76,ok,,large,429019.58,4586507.8,429010.48,4586508.26,1.5,class
+0345844AR,Cupressus sempervirens,False,Av Cardenal Vidal i Barraquer,9.44,0.73,ok,,large,429019.54,4586506.97,429010.12,4586507.44,1.5,class
+0345845AR,Cupressus sempervirens,False,Av Cardenal Vidal i Barraquer,9.76,0.7,ok,,large,429019.5,4586506.14,429009.75,4586506.62,1.5,class
+0345846AR,Cupressus sempervirens,False,Av Cardenal Vidal i Barraquer,13.51,0.81,ok,,large,429019.46,4586505.29,429006.54,4586501.34,1.5,class
+0345855AR,Cupressus sempervirens,False,Av Cardenal Vidal i Barraquer,19.98,0.87,ok,,large,429017.76,4586483.72,429001.92,4586495.91,1.5,class
+0345856AR,Cupressus sempervirens,False,Av Cardenal Vidal i Barraquer,22.64,0.71,ok,,large,429017.65,4586482.4,428995.09,4586484.3,1.5,class
+0345860AR,Cupressus sempervirens,False,Av Cardenal Vidal i Barraquer,23.4,0.62,ok,,large,429017.41,4586479.62,428994.09,4586481.58,1.5,class
+0345861AR,Cupressus sempervirens,False,Av Cardenal Vidal i Barraquer,23.65,0.74,ok,,large,429017.26,4586477.84,428993.7,4586479.82,1.5,class
+0345863AR,Cupressus sempervirens,False,Av Cardenal Vidal i Barraquer,23.87,0.7,ok,,large,429017.13,4586476.21,428993.34,4586478.21,1.5,class
+0345864AR,Cupressus sempervirens,False,Av Cardenal Vidal i Barraquer,24.12,0.73,ok,,large,429016.55,4586467.9,428992.47,4586469.38,1.5,class
+0345865AR,Cupressus sempervirens,False,Av Cardenal Vidal i Barraquer,24.16,0.69,ok,,large,429016.6,4586468.74,428992.49,4586470.23,1.5,class
+0345866AR,Cupressus sempervirens,False,Av Cardenal Vidal i Barraquer,24.2,0.71,ok,,large,429016.66,4586469.63,428992.5,4586471.12,1.5,class

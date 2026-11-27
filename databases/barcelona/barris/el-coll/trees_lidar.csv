@@ -1,0 +1,278 @@
+tree_id,x,y,ground_z,species,is_plane,size_category,street,height_m,crown_area_m2,crown_diam_m,crown_base_m,gap_fraction,lai_proxy,n_points,flag
+0073840AR,428518.24,4585713.66,187.74,Melia azedarach,False,PRIMERA,C\ Cardedeu,9.23,28.5,6.02,5.24,0.274,2.59,810,ok
+0073893AR,428526.96,4585059.38,135.15,Celtis australis,False,SEGONA,Pg Mare de Déu del Coll,12.53,26.2,5.78,4.84,0.241,2.85,507,ok
+0073894AR,428664.69,4585229.82,153.27,Brachychiton populneus,False,PRIMERA,Pg Mare de Déu del Coll,4.54,4.5,2.39,3.49,0.527,1.28,165,ok
+0073901AR,429103.48,4585745.04,197.67,Citrus × aurantium,False,PRIMERA,C\ Santuari,3.31,1.2,1.26,2.62,0.533,1.26,30,no_crown_detected
+0073904AR,428760.45,4585460.9,160.93,Platanus × acerifolia,True,TERCERA,Pg Mare de Déu del Coll,13.92,59.5,8.7,5.02,0.221,3.01,2942,ok
+0073905AR,428513.04,4585707.37,187.52,Robinia pseudoacacia,False,SEGONA,C\ Cardedeu,8.76,42.2,7.33,5.21,0.362,2.03,962,ok
+0073907AR,428519.59,4585395.94,177.54,Citrus × aurantium,False,PRIMERA,C\ Castellterçol,4.38,21.8,5.26,2.3,0.348,2.11,834,ok
+0073909AR,428618.12,4585387.31,181.8,Quercus suber,False,TERCERA,C\ Castellterçol,5.99,33.2,6.51,3.31,0.461,1.55,1425,ok
+0073910AR,428713.48,4585143.77,126.13,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Sant Eudald,8.84,7.5,3.09,3.07,0.318,2.29,171,ok
+0073911AR,428508.32,4585722.36,187.86,Quercus robur 'Fastigiata',False,PRIMERA,C\ Cardedeu,2.48,11.0,3.74,6.66,0.409,1.79,247,low_tree
+0073912AR,428712.35,4585301.56,155.11,Celtis australis,False,SEGONA,Pg Mare de Déu del Coll,12.83,18.8,4.89,5.37,0.321,2.27,641,ok
+0073915AR,428706.62,4585138.52,125.93,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Sant Eudald,4.28,33.0,6.48,2.47,0.149,3.81,1048,ok
+0073920AR,428771.46,4585500.69,164.03,Platanus × acerifolia,True,TERCERA,Pg Mare de Déu del Coll,16.66,56.0,8.44,8.18,0.107,4.46,2720,ok
+0073923AR,428514.11,4585401.75,176.87,Citrus × aurantium,False,PRIMERA,C\ Castellterçol,10.12,53.0,8.21,2.26,0.219,3.04,2131,ok
+0073924AR,428927.43,4585429.25,156.68,Tilia x euchlora,False,SEGONA,Plta Montserrat,5.23,16.0,4.51,2.77,0.311,2.33,623,ok
+0073925AR,428485.57,4585439.84,173.57,Fraxinus angustifolia 'Raywood',False,PRIMERA,C\ Castellterçol,10.06,28.5,6.02,6.46,0.41,1.78,1376,ok
+0073926AR,429093.51,4585685.49,193.34,Styphnolobium japonicum,False,SEGONA,C\ Tirso,15.43,53.0,8.21,4.41,0.143,3.88,1332,ok
+0073930AR,428473.63,4585557.15,180.83,Styphnolobium japonicum,False,PRIMERA,C\ Cardedeu,4.25,8.0,3.19,2.44,0.507,1.36,325,ok
+0073931AR,428677.79,4585131.25,127.43,Ligustrum lucidum,False,SEGONA,C\ Balears,11.52,17.0,4.65,3.85,0.321,2.27,607,ok
+0073933AR,428471.15,4585533.34,179.11,Styphnolobium japonicum,False,PRIMERA,C\ Cardedeu,0.0,21.5,5.23,3.39,0.333,2.2,1032,low_tree
+0073934AR,428476.89,4585581.41,182.68,Robinia pseudoacacia,False,SEGONA,C\ Cardedeu,8.32,32.8,6.46,6.37,0.526,1.28,1560,ok
+0073935AR,428565.56,4585166.06,145.62,Celtis australis,False,TERCERA,Pg Mare de Déu del Coll,12.78,36.5,6.82,5.4,0.292,2.46,1510,ok
+0073936AR,428928.6,4585462.06,159.5,Pyrus calleryana 'Chanticleer',False,SEGONA,C\ Font del Remei,5.88,10.0,3.57,2.91,0.423,1.72,366,ok
+0073939AR,428621.95,4585387.0,181.61,Robinia pseudoacacia,False,SEGONA,C\ Castellterçol,7.75,29.0,6.08,3.77,0.398,1.84,1716,ok
+0073942AR,428591.58,4585184.28,148.48,Platanus × acerifolia,True,SEGONA,Pg Mare de Déu del Coll,12.3,52.5,8.18,5.96,0.281,2.54,2261,ok
+0073946AR,428560.98,4585162.33,145.12,Celtis australis,False,TERCERA,Pg Mare de Déu del Coll,14.16,24.2,5.56,4.92,0.379,1.94,963,ok
+0073947AR,428711.7,4585296.92,154.93,Brachychiton populneus,False,PRIMERA,Pg Mare de Déu del Coll,9.02,3.0,1.95,2.34,0.568,1.13,69,ok
+0073948AR,428822.12,4585586.2,173.68,Brachychiton populneus,False,SEGONA,Pg Mare de Déu del Coll,8.97,50.5,8.02,2.64,0.252,2.76,2648,ok
+0073949AR,428624.01,4585074.57,130.09,Prunus cerasifera 'Pissardii',False,SEGONA,C\ Sant Eudald,6.0,64.8,9.08,2.44,0.229,2.95,1437,ok
+0073951AR,428599.38,4585055.74,132.39,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Sant Eudald,9.96,5.8,2.71,2.93,0.333,2.2,132,ok
+0073953AR,428669.7,4585233.0,153.4,Platanus × acerifolia,True,SEGONA,Pg Mare de Déu del Coll,9.5,56.0,8.44,5.6,0.371,1.99,2088,ok
+0073954AR,428559.0,4585024.0,132.19,Prunus cerasifera 'Pissardii',False,SEGONA,C\ Sant Eudald,6.72,17.8,4.75,3.52,0.278,2.56,374,ok
+0073955AR,428553.36,4585363.55,180.49,Quercus robur 'Fastigiata',False,PRIMERA,C\ Castellterçol,10.59,28.2,6.0,3.93,0.242,2.84,1446,ok
+0073956AR,428889.0,4585495.0,151.74,Tipuana tipu,False,SEGONA,Bda Sant Marià,11.78,34.2,6.6,7.15,0.123,4.2,1237,ok
+0073957AR,428476.22,4585574.01,182.16,Styphnolobium japonicum,False,PRIMERA,C\ Cardedeu,0.69,0.2,0.56,7.32,0.6,1.02,11,no_crown_detected
+0073958AR,429084.28,4585677.28,191.62,Styphnolobium japonicum,False,SEGONA,C\ Tirso,10.11,63.2,8.97,4.51,0.203,3.19,1956,ok
+0073960AR,428537.51,4585444.15,190.59,Magnolia grandiflora,False,PRIMERA,Ptge Manlleu,5.26,60.2,8.76,2.2,0.304,2.38,2808,ok
+0073961AR,428633.9,4585406.04,180.8,Celtis australis,False,SEGONA,C\ Castellterçol,5.62,25.2,5.67,3.57,0.465,1.53,1082,ok
+0073962AR,428919.43,4585443.23,156.97,Pyrus calleryana 'Chanticleer',False,SEGONA,C\ Font del Remei,5.93,10.5,3.66,2.96,0.422,1.73,441,ok
+0073963AR,428497.8,4585654.86,186.64,Robinia pseudoacacia,False,SEGONA,C\ Cardedeu,5.66,25.8,5.73,2.26,0.402,1.82,1102,ok
+0073964AR,428793.28,4585551.05,168.46,Brachychiton populneus,False,PRIMERA,Pg Mare de Déu del Coll,7.03,12.8,4.03,4.53,0.432,1.68,556,ok
+0073965AR,428748.67,4585178.19,125.46,Prunus cerasifera 'Pissardii',False,SEGONA,C\ Sant Eudald,5.47,20.5,5.11,3.79,0.2,3.22,565,ok
+0073969AR,428963.76,4585703.2,174.51,Prunus cerasifera 'Pissardii',False,SEGONA,C\ Móra d'Ebre,11.8,15.5,4.44,3.22,0.258,2.71,229,ok
+0073970AR,428609.79,4585381.64,182.4,Quercus ilex,False,TERCERA,C\ Castellterçol,8.08,24.8,5.61,4.82,0.366,2.01,935,ok
+0073971AR,428789.44,4585547.72,167.96,Brachychiton populneus,False,SEGONA,Pg Mare de Déu del Coll,7.0,12.2,3.95,3.26,0.39,1.88,593,ok
+0073972AR,428570.35,4585169.94,146.21,Brachychiton populneus,False,PRIMERA,Pg Mare de Déu del Coll,17.44,27.2,5.89,5.52,0.148,3.82,963,ok
+0073975AR,428545.0,4585013.0,131.01,Prunus cerasifera 'Pissardii',False,SEGONA,C\ Sant Eudald,5.41,9.2,3.43,3.66,0.333,2.2,171,ok
+0073976AR,428784.1,4585404.67,150.06,Cupressus sempervirens,False,SEGONA,Bda Solanell,10.7,4.8,2.46,3.39,0.187,3.35,260,ok
+0073977AR,428712.98,4585306.15,155.25,Brachychiton populneus,False,PRIMERA,Pg Mare de Déu del Coll,11.72,34.5,6.63,5.38,0.367,2.01,1405,ok
+0073984AR,428810.66,4585393.82,144.24,Cupressus sempervirens,False,SEGONA,Bda Solanell,7.44,5.8,2.71,2.84,0.237,2.88,202,ok
+0073985AR,428666.48,4585146.07,132.07,Pyrus calleryana 'Chanticleer',False,SEGONA,C\ Balears,7.81,13.5,4.15,3.54,0.333,2.2,647,ok
+0073988AR,428544.0,4585147.0,143.31,Brachychiton populneus,False,PRIMERA,Pg Mare de Déu del Coll,10.83,63.2,8.97,5.56,0.234,2.9,2607,ok
+0073989AR,428541.53,4585373.06,179.9,Robinia pseudoacacia,False,SEGONA,C\ Castellterçol,11.52,85.5,10.43,4.22,0.272,2.6,3856,ok
+0073991AR,428770.46,4585497.36,163.82,Platanus × acerifolia,True,SEGONA,Pg Mare de Déu del Coll,14.04,48.0,7.82,4.57,0.212,3.11,2343,ok
+0073992AR,428490.27,4585640.12,186.32,Styphnolobium japonicum,False,PRIMERA,C\ Cardedeu,8.83,40.2,7.16,3.9,0.427,1.7,2321,ok
+0073993AR,428631.31,4585208.58,151.37,Brachychiton populneus,False,PRIMERA,Pg Mare de Déu del Coll,12.96,71.8,9.56,6.58,0.161,3.65,2636,ok
+0073995AR,428979.05,4585761.1,194.6,Citrus × aurantium,False,PRIMERA,C\ Santuari,,0.0,0.0,,,,0,no_crown_detected
+0073997AR,429024.01,4585754.06,195.54,Citrus × aurantium,False,SEGONA,C\ Santuari,4.65,5.8,2.71,4.07,0.411,1.78,107,ok
+0073998AR,429085.34,4585682.99,192.39,Styphnolobium japonicum,False,SEGONA,C\ Tirso,9.7,40.0,7.14,3.41,0.181,3.41,1042,ok
+0074002AR,428774.36,4585512.67,165.02,Platanus × acerifolia,True,SEGONA,Pg Mare de Déu del Coll,16.23,62.2,8.9,7.91,0.103,4.55,3086,ok
+0074003AR,428851.11,4585663.58,182.18,Brachychiton populneus,False,SEGONA,Pg Mare de Déu del Coll,8.19,4.0,2.26,2.53,0.325,2.25,185,ok
+0074004AR,428951.05,4585509.14,165.19,Pyrus calleryana 'Chanticleer',False,SEGONA,C\ Font del Remei,7.22,18.5,4.85,3.37,0.334,2.19,772,ok
+0074008AR,428498.37,4585420.23,175.16,Citrus × aurantium,False,PRIMERA,C\ Castellterçol,9.46,4.2,2.33,3.36,0.397,1.85,161,ok
+0074009AR,428487.0,4585633.34,186.14,Styphnolobium japonicum,False,PRIMERA,C\ Cardedeu,8.12,12.8,4.03,3.1,0.593,1.04,551,ok
+0074010AR,428472.99,4585549.57,180.34,Styphnolobium japonicum,False,PRIMERA,C\ Cardedeu,,0.0,0.0,,,,0,no_crown_detected
+0074011AR,428739.4,4585402.59,157.77,Styphnolobium japonicum,False,SEGONA,Pg Mare de Déu del Coll,13.01,42.2,7.33,5.77,0.232,2.92,2101,ok
+0074012AR,429102.0,4585676.0,199.16,Celtis australis,False,EXEMPLAR,C\ Portell,9.69,94.5,10.97,4.35,0.195,3.27,1675,ok
+0074013AR,428629.0,4585400.17,181.13,Celtis australis,False,SEGONA,C\ Castellterçol,5.91,28.2,6.0,3.38,0.47,1.51,1190,ok
+0074015AR,428809.21,4585567.23,171.08,Ulmus pumila,False,SEGONA,Pg Mare de Déu del Coll,7.1,13.2,4.11,4.25,0.439,1.65,574,ok
+0074016AR,429032.56,4585523.66,190.65,Celtis australis,False,SEGONA,C\ Francesc Tarafa,7.29,93.0,10.88,2.4,0.288,2.49,4119,ok
+0074017AR,428815.28,4585391.55,142.79,Cupressus sempervirens,False,SEGONA,Bda Solanell,11.29,7.8,3.14,2.74,0.158,3.7,341,ok
+0074019AR,429102.29,4585670.5,199.22,Celtis australis,False,EXEMPLAR,C\ Portell,9.58,86.5,10.49,4.2,0.247,2.8,2108,ok
+0074020AR,428991.0,4585759.0,194.81,Citrus × aurantium,False,PRIMERA,C\ Santuari,3.53,1.2,1.26,2.89,0.48,1.47,25,no_crown_detected
+0074021AR,428470.92,4585484.18,175.55,Citrus × aurantium,False,PRIMERA,C\ Cardedeu,5.66,21.8,5.26,2.55,0.31,2.34,815,ok
+0074022AR,428742.04,4585407.47,157.91,Brachychiton populneus,False,PRIMERA,Pg Mare de Déu del Coll,8.47,15.0,4.37,5.97,0.349,2.11,688,ok
+0074024AR,428710.74,4585291.53,154.73,Brachychiton populneus,False,PRIMERA,Pg Mare de Déu del Coll,6.15,7.0,2.99,2.77,0.333,2.2,278,ok
+0074025AR,428530.84,4585384.21,178.77,Citrus × aurantium,False,PRIMERA,C\ Castellterçol,7.18,55.5,8.41,2.34,0.217,3.06,2164,ok
+0074026AR,429094.9,4585691.07,194.16,Platanus × acerifolia,True,EXEMPLAR,C\ Tirso,15.65,80.5,10.12,5.12,0.164,3.61,2038,ok
+0074027AR,428637.65,4585402.51,181.05,Celtis australis,False,SEGONA,C\ Castellterçol,6.55,11.2,3.78,4.77,0.54,1.23,526,ok
+0074028AR,428755.65,4585444.82,159.8,Platanus × acerifolia,True,SEGONA,Pg Mare de Déu del Coll,13.57,36.8,6.84,8.02,0.264,2.66,1823,ok
+0074030AR,428577.15,4585360.95,181.29,Citrus × aurantium,False,PRIMERA,C\ Castellterçol,18.02,152.8,13.95,5.04,0.192,3.3,7636,ok
+0074032AR,428655.27,4585223.1,152.86,Celtis australis,False,SEGONA,Pg Mare de Déu del Coll,15.86,30.0,6.18,4.77,0.285,2.51,1182,ok
+0074033AR,428535.8,4585378.53,179.43,Fraxinus angustifolia 'Raywood',False,PRIMERA,C\ Castellterçol,9.36,34.8,6.65,2.64,0.233,2.91,1491,ok
+0074034AR,428865.96,4585704.52,186.7,Brachychiton populneus,False,SEGONA,Pg Mare de Déu del Coll,7.85,33.0,6.48,2.61,0.208,3.14,644,ok
+0074035AR,428959.26,4585764.27,194.16,Citrus × aurantium,False,PRIMERA,C\ Santuari,,0.0,0.0,,,,0,no_crown_detected
+0074039AR,428720.61,4585340.05,156.1,Brachychiton populneus,False,PRIMERA,Pg Mare de Déu del Coll,13.9,7.0,2.99,2.9,0.282,2.53,319,ok
+0074041AR,428621.84,4585202.28,150.9,Celtis australis,False,SEGONA,Pg Mare de Déu del Coll,12.48,45.5,7.61,5.01,0.324,2.25,1992,ok
+0074042AR,428554.8,4585021.2,131.92,Prunus cerasifera 'Pissardii',False,SEGONA,C\ Sant Eudald,5.47,27.5,5.92,3.71,0.288,2.49,538,ok
+0074045AR,428472.2,4585476.6,175.02,Styphnolobium japonicum,False,PRIMERA,C\ Cardedeu,7.36,30.0,6.18,4.16,0.404,1.81,1284,ok
+0074046AR,428775.2,4585205.9,125.37,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Sant Eudald,9.2,6.8,2.93,2.88,0.309,2.35,243,ok
+0074049AR,429088.36,4585699.84,195.04,Platanus × acerifolia,True,EXEMPLAR,C\ Tirso,14.9,77.2,9.92,7.0,0.146,3.85,1772,ok
+0074052AR,428721.81,4585344.75,156.21,Brachychiton populneus,False,SEGONA,Pg Mare de Déu del Coll,14.52,14.5,4.3,4.81,0.28,2.55,645,ok
+0074057AR,428826.78,4585600.34,175.33,Brachychiton populneus,False,SEGONA,Pg Mare de Déu del Coll,7.47,17.2,4.69,2.98,0.389,1.89,849,ok
+0074058AR,428833.93,4585616.65,177.07,Brachychiton populneus,False,SEGONA,Pg Mare de Déu del Coll,10.48,27.2,5.89,3.9,0.207,3.15,1201,ok
+0074059AR,428673.82,4585136.48,129.06,Ligustrum lucidum,False,SEGONA,C\ Balears,6.92,42.5,7.36,3.34,0.225,2.99,2043,ok
+0074060AR,428471.83,4585541.31,179.69,Citrus × aurantium,False,PRIMERA,C\ Cardedeu,4.21,5.8,2.71,2.92,0.511,1.34,241,ok
+0074061AR,428844.95,4585647.45,180.41,Brachychiton populneus,False,SEGONA,Pg Mare de Déu del Coll,11.45,38.5,7.0,5.31,0.193,3.29,1635,ok
+0074062AR,429019.34,4585524.22,184.66,Celtis australis,False,TERCERA,C\ Francesc Tarafa,8.26,113.0,11.99,3.25,0.21,3.12,4264,ok
+0074065AR,428493.97,4585426.37,174.59,Fraxinus angustifolia 'Raywood',False,PRIMERA,C\ Castellterçol,8.02,3.5,2.11,3.65,0.377,1.95,156,ok
+0074066AR,429086.29,4585687.8,193.1,Styphnolobium japonicum,False,SEGONA,C\ Tirso,10.49,68.8,9.36,4.74,0.142,3.9,1930,ok
+0074067AR,428758.64,4585452.99,160.36,Platanus × acerifolia,True,SEGONA,Pg Mare de Déu del Coll,14.97,82.2,10.23,7.85,0.275,2.58,3969,ok
+0074070AR,429048.66,4585749.58,196.19,Citrus × aurantium,False,PRIMERA,C\ Santuari,4.27,2.0,1.6,3.59,0.415,1.76,41,few_points
+0074074AR,428573.0,4585035.0,133.26,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Sant Eudald,4.13,5.0,2.52,2.92,0.383,1.92,81,ok
+0074076AR,428761.99,4585467.38,161.43,Platanus × acerifolia,True,TERCERA,Pg Mare de Déu del Coll,14.58,60.2,8.76,8.16,0.163,3.63,3036,ok
+0074077AR,428504.67,4585729.91,188.16,Robinia pseudoacacia,False,SEGONA,C\ Cardedeu,10.25,92.2,10.84,3.68,0.262,2.68,2270,ok
+0074078AR,428470.77,4585526.86,178.69,Quercus robur 'Fastigiata',False,PRIMERA,C\ Cardedeu,10.73,74.2,9.72,3.14,0.361,2.04,3140,ok
+0074080AR,428513.85,4585699.28,187.46,Robinia pseudoacacia,False,SEGONA,C\ Cardedeu,9.4,89.8,10.69,4.2,0.297,2.43,2285,ok
+0074081AR,428511.24,4585685.53,187.18,Robinia pseudoacacia,False,SEGONA,C\ Cardedeu,7.59,66.5,9.2,3.12,0.299,2.41,1580,ok
+0074082AR,428505.32,4585670.56,186.98,Robinia pseudoacacia,False,SEGONA,C\ Cardedeu,12.75,43.8,7.46,4.7,0.293,2.45,1319,ok
+0074083AR,428525.12,4585100.5,138.7,Brachychiton populneus,False,PRIMERA,Pg Mare de Déu del Coll,13.79,46.8,7.72,5.44,0.147,3.83,917,ok
+0074093AR,428613.49,4585384.27,182.15,Quercus suber,False,SEGONA,C\ Castellterçol,8.9,23.2,5.44,3.83,0.423,1.72,1000,ok
+0074094AR,428841.98,4585737.52,201.67,Jacaranda mimosifolia,False,PRIMERA,C\ Pineda,9.15,75.5,9.8,3.79,0.179,3.44,1489,ok
+0074096AR,428719.15,4585335.01,155.99,Brachychiton populneus,False,SEGONA,Pg Mare de Déu del Coll,6.54,20.2,5.08,4.2,0.286,2.51,778,ok
+0074097AR,428801.53,4585397.48,146.79,Cupressus sempervirens,False,PRIMERA,Bda Solanell,4.54,1.2,1.26,2.65,0.29,2.47,32,no_crown_detected
+0074098AR,428502.09,4585663.62,186.84,Robinia pseudoacacia,False,SEGONA,C\ Cardedeu,10.81,70.2,9.46,4.99,0.423,1.72,3464,ok
+0074099AR,428679.6,4585117.47,124.95,Prunus cerasifera 'Pissardii',False,SEGONA,C\ Sant Eudald,4.71,8.0,3.19,3.65,0.361,2.04,166,ok
+0074100AR,428824.83,4585592.79,174.47,Brachychiton populneus,False,SEGONA,Pg Mare de Déu del Coll,5.68,28.5,6.02,2.49,0.374,1.97,1362,ok
+0074101AR,428633.67,4585398.03,181.25,Celtis australis,False,SEGONA,C\ Castellterçol,7.17,14.2,4.26,4.2,0.353,2.08,688,ok
+0074102AR,429093.82,4585745.49,197.36,Citrus × aurantium,False,PRIMERA,C\ Santuari,,0.0,0.0,,,,0,no_crown_detected
+0074103AR,428679.56,4585239.45,153.37,Brachychiton populneus,False,PRIMERA,Pg Mare de Déu del Coll,4.91,1.2,1.26,2.66,0.438,1.65,66,no_crown_detected
+0074104AR,428806.18,4585395.63,145.59,Cupressus sempervirens,False,SEGONA,Bda Solanell,9.96,4.8,2.46,3.78,0.146,3.85,126,ok
+0074106AR,428684.07,4585242.33,153.33,Platanus × acerifolia,True,SEGONA,Pg Mare de Déu del Coll,12.86,23.0,5.41,5.89,0.372,1.98,1262,ok
+0074107AR,428770.8,4585410.52,153.0,Cupressus sempervirens,False,SEGONA,Bda Solanell,12.5,12.0,3.91,3.17,0.177,3.46,574,ok
+0074110AR,429011.26,4585756.23,195.25,Citrus × aurantium,False,SEGONA,C\ Santuari,5.15,7.0,2.99,3.51,0.377,1.95,122,ok
+0074112AR,429089.68,4585668.89,191.08,Platanus × acerifolia,True,EXEMPLAR,C\ Tirso,11.75,54.2,8.31,5.86,0.279,2.55,2006,ok
+0074114AR,428740.28,4585169.58,125.89,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Sant Eudald,4.41,6.0,2.76,3.02,0.388,1.89,180,ok
+0074115AR,428481.95,4585447.07,173.48,Robinia pseudoacacia,False,SEGONA,C\ Castellterçol,9.19,27.5,5.92,4.68,0.25,2.78,1427,ok
+0074116AR,428524.88,4585471.44,190.28,Magnolia grandiflora,False,SEGONA,Ptge Manlleu,7.35,35.5,6.72,2.19,0.284,2.52,1718,ok
+0074118AR,428802.32,4585559.87,169.9,Brachychiton populneus,False,PRIMERA,Pg Mare de Déu del Coll,9.61,51.8,8.12,5.84,0.377,1.95,2325,ok
+0074119AR,429069.98,4585747.03,196.79,Lagunaria patersonia,False,PRIMERA,C\ Santuari,,0.0,0.0,,,,0,no_crown_detected
+0074122AR,428946.36,4585499.41,164.04,Pyrus calleryana 'Chanticleer',False,SEGONA,C\ Font del Remei,7.57,22.8,5.38,3.45,0.328,2.23,928,ok
+0074124AR,428682.11,4585125.9,125.75,Ligustrum lucidum,False,SEGONA,C\ Balears,13.05,12.5,3.99,3.82,0.332,2.21,606,ok
+0074125AR,428896.0,4585493.0,151.63,Tipuana tipu,False,TERCERA,Bda Sant Marià,12.2,2.8,1.87,4.11,0.185,3.37,93,ok
+0074127AR,428860.0,4585688.0,184.85,Brachychiton populneus,False,SEGONA,Pg Mare de Déu del Coll,5.0,2.5,1.78,3.26,0.449,1.6,49,few_points
+0074128AR,428697.26,4585131.38,125.31,Prunus cerasifera 'Pissardii',False,SEGONA,C\ Sant Eudald,6.99,26.8,5.84,2.97,0.277,2.57,1013,ok
+0074129AR,428525.86,4585067.26,135.7,Celtis australis,False,SEGONA,Pg Mare de Déu del Coll,9.34,32.2,6.41,5.46,0.24,2.86,530,ok
+0074131AR,428774.3,4585542.43,167.77,Celtis australis,False,SEGONA,Pg Mare de Déu del Coll,10.17,38.8,7.02,4.58,0.274,2.59,1670,ok
+0074132AR,428591.04,4585368.1,182.09,Citrus × aurantium,False,PRIMERA,C\ Castellterçol,3.17,98.8,11.21,3.11,0.247,2.79,4838,ok
+0074133AR,428776.16,4585518.86,165.51,Platanus × acerifolia,True,SEGONA,Pg Mare de Déu del Coll,15.54,2.8,1.87,8.39,0.333,2.2,138,ok
+0074134AR,429090.72,4585674.83,191.71,Styphnolobium japonicum,False,SEGONA,C\ Tirso,7.77,51.2,8.08,3.99,0.208,3.14,1181,ok
+0074135AR,428546.62,4585367.55,180.18,Citrus × aurantium,False,PRIMERA,C\ Castellterçol,11.23,49.8,7.96,3.52,0.17,3.54,2703,ok
+0074136AR,428773.25,4585507.38,164.58,Platanus × acerifolia,True,TERCERA,Pg Mare de Déu del Coll,18.27,77.5,9.93,8.95,0.107,4.48,3705,ok
+0074137AR,428480.81,4585603.84,184.4,Styphnolobium japonicum,False,PRIMERA,C\ Cardedeu,5.67,18.5,4.85,2.18,0.49,1.42,755,ok
+0074139AR,428971.65,4585721.34,181.06,Prunus cerasifera 'Pissardii',False,SEGONA,C\ Móra d'Ebre,14.52,27.5,5.92,3.83,0.17,3.54,376,ok
+0074140AR,428484.28,4585619.6,185.59,Styphnolobium japonicum,False,SEGONA,C\ Cardedeu,6.38,11.0,3.74,3.07,0.472,1.5,598,ok
+0074142AR,428831.79,4585611.37,176.46,Ulmus pumila,False,TERCERA,Pg Mare de Déu del Coll,12.3,67.8,9.29,4.32,0.247,2.8,3154,ok
+0074143AR,428932.96,4585471.36,160.68,Pyrus calleryana 'Chanticleer',False,SEGONA,C\ Font del Remei,6.59,16.8,4.62,3.25,0.351,2.09,657,ok
+0074148AR,428608.55,4585062.72,131.64,Prunus cerasifera 'Pissardii',False,SEGONA,C\ Sant Eudald,6.28,17.8,4.75,3.61,0.272,2.6,294,ok
+0074153AR,428842.0,4585640.0,179.59,Brachychiton populneus,False,PRIMERA,Pg Mare de Déu del Coll,13.29,74.0,9.71,3.84,0.121,4.23,3790,ok
+0074154AR,428775.32,4585408.57,152.02,Cupressus sempervirens,False,TERCERA,Bda Solanell,15.95,12.2,3.95,3.47,0.129,4.1,701,ok
+0074155AR,429017.77,4585755.04,195.41,Citrus × aurantium,False,PRIMERA,C\ Santuari,,0.0,0.0,,,,0,no_crown_detected
+0074156AR,428744.69,4585412.6,158.03,Brachychiton populneus,False,SEGONA,Pg Mare de Déu del Coll,4.77,3.0,1.95,2.84,0.456,1.57,103,ok
+0074157AR,428998.1,4585758.2,194.94,Citrus × aurantium,False,SEGONA,C\ Santuari,4.94,9.2,3.43,3.22,0.379,1.94,177,ok
+0074159AR,428954.76,4585519.02,166.23,Pyrus calleryana 'Chanticleer',False,SEGONA,C\ Font del Remei,7.25,17.5,4.72,3.05,0.353,2.08,739,ok
+0074162AR,428516.88,4585546.83,197.56,Quercus ilex,False,PRIMERA,Ptge Manlleu,,0.0,0.0,,,,0,no_crown_detected
+0074163AR,428479.61,4585597.23,183.86,Styphnolobium japonicum,False,PRIMERA,C\ Cardedeu,0.0,0.2,0.56,3.1,0.5,1.39,11,no_crown_detected
+0074165AR,429024.03,4585523.49,188.03,Celtis australis,False,SEGONA,C\ Francesc Tarafa,8.13,76.2,9.85,2.36,0.278,2.56,2928,ok
+0074166AR,428871.67,4585715.85,187.58,Ulmus pumila,False,EXEMPLAR,Pg Mare de Déu del Coll,15.12,120.2,12.37,6.12,0.114,4.35,2473,ok
+0074168AR,428654.05,4585163.84,139.67,Celtis australis,False,EXEMPLAR,C\ Balears,11.08,84.8,10.39,4.35,0.136,3.99,3099,ok
+0074170AR,428849.2,4585657.95,181.47,Brachychiton populneus,False,TERCERA,Pg Mare de Déu del Coll,11.51,8.2,3.24,4.19,0.239,2.86,515,ok
+0074171AR,428511.42,4585715.07,187.74,Robinia pseudoacacia,False,TERCERA,C\ Cardedeu,12.51,75.2,9.79,7.05,0.247,2.79,1682,ok
+0074173AR,428664.59,4585105.86,126.12,Prunus cerasifera 'Pissardii',False,SEGONA,C\ Sant Eudald,7.03,52.0,8.14,3.67,0.239,2.86,1086,ok
+0074175AR,428960.02,4585527.62,166.73,Pyrus calleryana 'Chanticleer',False,SEGONA,C\ Font del Remei,6.35,17.8,4.75,2.97,0.422,1.73,701,ok
+0074176AR,428526.77,4585111.94,139.78,Celtis australis,False,SEGONA,Pg Mare de Déu del Coll,11.69,18.0,4.79,4.84,0.269,2.63,279,ok
+0074178AR,428624.62,4585394.14,181.37,Celtis australis,False,SEGONA,C\ Castellterçol,6.33,27.8,5.94,3.52,0.464,1.53,1260,ok
+0074179AR,428858.26,4585682.39,184.18,Brachychiton populneus,False,SEGONA,Pg Mare de Déu del Coll,4.39,3.0,1.95,3.57,0.476,1.48,42,few_points
+0074180AR,428777.67,4585525.91,166.06,Celtis australis,False,SEGONA,Pg Mare de Déu del Coll,14.05,7.5,3.09,7.13,0.251,2.76,262,ok
+0074181AR,428485.06,4585626.76,185.95,Robinia pseudoacacia,False,SEGONA,C\ Cardedeu,9.61,21.8,5.26,6.24,0.424,1.72,1192,ok
+0074182AR,428636.82,4585084.68,128.74,Prunus cerasifera 'Pissardii',False,SEGONA,C\ Sant Eudald,11.97,12.5,3.99,4.1,0.369,1.99,233,ok
+0074187AR,428469.3,4585506.89,177.13,Citrus × aurantium,False,PRIMERA,C\ Cardedeu,4.13,9.0,3.39,3.0,0.473,1.5,356,ok
+0074192AR,428478.86,4585455.89,173.85,Citrus × aurantium,False,SEGONA,C\ Cardedeu,6.44,7.8,3.14,2.71,0.384,1.91,264,ok
+0074193AR,428784.87,4585545.01,167.64,Celtis australis,False,SEGONA,Pg Mare de Déu del Coll,7.7,19.2,4.95,5.03,0.351,2.1,809,ok
+0074194AR,428766.7,4585484.61,162.81,Platanus × acerifolia,True,TERCERA,Pg Mare de Déu del Coll,16.58,98.2,11.18,9.16,0.166,3.59,4671,ok
+0074198AR,428950.38,4585765.13,193.61,Lagunaria patersonia,False,PRIMERA,C\ Santuari,,0.0,0.0,,,,0,no_crown_detected
+0074199AR,428474.35,4585564.13,181.39,Styphnolobium japonicum,False,PRIMERA,C\ Cardedeu,,0.0,0.0,,,,0,no_crown_detected
+0074200AR,428797.7,4585555.8,169.24,Ulmus pumila,False,SEGONA,Pg Mare de Déu del Coll,8.19,21.8,5.26,3.9,0.344,2.14,940,ok
+0074201AR,428829.0,4585606.0,175.89,Brachychiton populneus,False,SEGONA,Pg Mare de Déu del Coll,9.26,32.5,6.43,3.55,0.361,2.04,1640,ok
+0074202AR,428553.24,4585155.95,144.2,Celtis australis,False,TERCERA,Pg Mare de Déu del Coll,11.8,48.0,7.82,5.04,0.215,3.08,1984,ok
+0074205AR,428659.79,4585155.08,134.66,Ligustrum lucidum,False,SEGONA,C\ Balears,6.39,26.8,5.84,2.9,0.416,1.75,1016,ok
+0074206AR,428604.02,4585059.4,132.02,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Sant Eudald,4.21,2.8,1.87,3.04,0.4,1.83,45,few_points
+0074207AR,428568.89,4585032.12,132.99,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Sant Eudald,4.78,20.8,5.14,3.02,0.259,2.7,417,ok
+0074208AR,429004.37,4585757.35,195.1,Citrus × aurantium,False,PRIMERA,C\ Santuari,4.27,7.2,3.04,3.04,0.404,1.81,141,ok
+0074209AR,428527.82,4585052.83,134.58,Celtis australis,False,SEGONA,Pg Mare de Déu del Coll,12.97,25.8,5.73,5.57,0.214,3.08,546,ok
+0074210AR,428723.22,4585349.88,156.34,Celtis australis,False,TERCERA,Pg Mare de Déu del Coll,13.46,66.5,9.2,7.54,0.177,3.46,2717,ok
+0074211AR,428474.34,4585468.87,174.61,Citrus × aurantium,False,PRIMERA,C\ Cardedeu,4.24,17.8,4.75,2.16,0.368,2.0,678,ok
+0074213AR,429096.51,4585697.47,195.3,Platanus × acerifolia,True,EXEMPLAR,C\ Tirso,15.7,98.8,11.21,6.81,0.143,3.9,2603,ok
+0074214AR,428478.24,4585588.56,183.21,Styphnolobium japonicum,False,PRIMERA,C\ Cardedeu,,0.0,0.0,,,,0,no_crown_detected
+0074217AR,428863.42,4585696.13,185.7,Brachychiton populneus,False,SEGONA,Pg Mare de Déu del Coll,4.89,2.5,1.78,2.79,0.391,1.88,64,ok
+0074218AR,428707.46,4585276.9,154.17,Celtis australis,False,SEGONA,Pg Mare de Déu del Coll,12.39,46.8,7.72,6.34,0.224,2.99,1887,ok
+0074221AR,428764.62,4585474.45,161.97,Brachychiton populneus,False,PRIMERA,Pg Mare de Déu del Coll,16.84,75.0,9.77,6.96,0.264,2.67,3403,ok
+0074222AR,428507.44,4585409.27,176.15,Citrus × aurantium,False,PRIMERA,C\ Castellterçol,8.61,21.2,5.2,3.15,0.204,3.18,853,ok
+0074223AR,428806.29,4585563.48,170.57,Ulmus pumila,False,SEGONA,Pg Mare de Déu del Coll,8.83,28.8,6.05,5.36,0.361,2.04,1337,ok
+0074224AR,428968.07,4585713.33,178.01,Prunus cerasifera 'Pissardii',False,SEGONA,C\ Móra d'Ebre,5.53,11.5,3.83,2.85,0.277,2.56,137,ok
+0074226AR,428508.67,4585678.22,187.03,Styphnolobium japonicum,False,PRIMERA,C\ Cardedeu,11.48,42.5,7.36,3.75,0.312,2.33,1252,ok
+0074227AR,428783.1,4585213.48,124.86,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Sant Eudald,3.98,66.0,9.17,3.32,0.354,2.08,2312,ok
+0074228AR,428819.68,4585389.8,141.65,Cupressus sempervirens,False,SEGONA,Bda Solanell,8.0,2.5,1.78,2.48,0.318,2.29,119,ok
+0074232AR,428797.42,4585399.05,147.99,Cupressus sempervirens,False,SEGONA,Bda Solanell,8.84,7.5,3.09,3.05,0.234,2.9,243,ok
+0074234AR,428669.99,4585141.44,130.56,Ligustrum lucidum,False,SEGONA,C\ Balears,4.86,22.2,5.32,3.08,0.303,2.39,811,ok
+0074235AR,428969.65,4585561.11,165.24,Tipuana tipu,False,TERCERA,C\ Aldea,13.84,121.8,12.45,6.95,0.191,3.31,4879,ok
+0074236AR,428718.16,4585147.33,126.31,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Sant Eudald,4.15,6.8,2.93,2.89,0.318,2.29,160,ok
+0074237AR,428674.08,4585235.85,153.4,Brachychiton populneus,False,PRIMERA,Pg Mare de Déu del Coll,6.18,10.2,3.61,3.35,0.392,1.87,426,ok
+0074238AR,428613.34,4585066.53,131.14,Prunus cerasifera 'Pissardii',False,SEGONA,C\ Sant Eudald,7.45,32.5,6.43,3.59,0.269,2.62,646,ok
+0074239AR,428662.14,4585151.83,133.68,Ligustrum lucidum,False,SEGONA,C\ Balears,6.7,7.5,3.09,4.8,0.41,1.78,288,ok
+0074241AR,428973.28,4585762.15,194.49,Lagunaria patersonia,False,PRIMERA,C\ Santuari,3.71,2.0,1.6,3.14,0.35,2.1,40,few_points
+0074244AR,429086.27,4585658.01,190.19,Platanus × acerifolia,True,EXEMPLAR,C\ Tirso,13.89,95.0,11.0,4.09,0.246,2.8,4637,ok
+0074245AR,428493.96,4585648.68,186.51,Robinia pseudoacacia,False,SEGONA,C\ Cardedeu,9.74,43.0,7.4,2.23,0.442,1.63,2069,ok
+0074246AR,428469.0,4585516.0,177.86,Styphnolobium japonicum,False,PRIMERA,C\ Cardedeu,13.84,20.0,5.05,11.55,0.254,2.74,709,ok
+0074247AR,428727.77,4585156.44,126.51,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Sant Eudald,4.2,4.2,2.33,3.15,0.438,1.65,119,ok
+0074248AR,428529.0,4585123.0,140.69,Celtis australis,False,TERCERA,Pg Mare de Déu del Coll,14.86,51.0,8.06,6.17,0.201,3.21,1523,ok
+0074249AR,428641.37,4585407.28,180.62,Celtis australis,False,SEGONA,C\ Castellterçol,5.96,14.5,4.3,4.06,0.411,1.78,685,ok
+0074252AR,428490.24,4585433.17,174.2,Citrus × aurantium,False,PRIMERA,C\ Castellterçol,7.73,8.2,3.24,3.53,0.4,1.83,321,ok
+0074253AR,428714.09,4585311.68,155.37,Celtis australis,False,SEGONA,Pg Mare de Déu del Coll,12.66,62.0,8.88,5.85,0.258,2.71,2428,ok
+0074255AR,428469.57,4585500.69,176.71,Citrus × aurantium,False,PRIMERA,C\ Cardedeu,5.01,35.8,6.75,2.49,0.295,2.44,1299,ok
+0074256AR,428545.12,4585428.6,190.71,Magnolia grandiflora,False,SEGONA,Ptge Manlleu,7.01,35.0,6.68,2.34,0.212,3.1,1822,ok
+0074257AR,428882.0,4585499.0,152.02,Tipuana tipu,False,TERCERA,Bda Sant Marià,12.85,63.8,9.01,6.26,0.213,3.09,2542,ok
+0074258AR,428768.83,4585491.62,163.32,Platanus × acerifolia,True,TERCERA,Pg Mare de Déu del Coll,18.49,90.0,10.7,5.4,0.187,3.36,4512,ok
+0074260AR,428569.24,4585360.03,180.98,Fraxinus angustifolia 'Raywood',False,PRIMERA,C\ Castellterçol,13.93,49.5,7.94,3.92,0.297,2.43,2200,ok
+0074261AR,428469.51,4585492.45,176.0,Styphnolobium japonicum,False,PRIMERA,C\ Cardedeu,5.45,39.5,7.09,2.46,0.283,2.52,1414,ok
+0074262AR,428779.77,4585543.62,167.61,Celtis australis,False,SEGONA,Pg Mare de Déu del Coll,8.98,31.8,6.36,5.42,0.284,2.52,1238,ok
+0074263AR,428522.26,4585476.68,190.51,Magnolia grandiflora,False,SEGONA,Ptge Manlleu,7.53,91.5,10.79,2.66,0.334,2.19,4181,ok
+0074264AR,428984.8,4585760.07,194.71,Lagunaria patersonia,False,PRIMERA,C\ Santuari,4.23,2.0,1.6,3.46,0.6,1.02,35,few_points
+0074266AR,428838.4,4585629.63,178.48,Brachychiton populneus,False,PRIMERA,Pg Mare de Déu del Coll,11.92,100.2,11.3,3.05,0.296,2.43,5469,ok
+0074267AR,428965.0,4585763.0,194.38,Lagunaria patersonia,False,PRIMERA,C\ Santuari,4.0,2.5,1.78,2.66,0.509,1.35,53,ok
+0074268AR,428921.21,4585767.48,191.28,Parrotia persica 'Vanessa',False,PRIMERA,C\ Santuari,4.97,1.2,1.26,2.56,0.4,1.83,35,no_crown_detected
+0074269AR,428561.12,4585360.69,180.71,Citrus × aurantium,False,PRIMERA,C\ Castellterçol,4.13,9.0,3.39,3.34,0.356,2.06,352,ok
+0074270AR,428645.04,4585412.46,180.22,Celtis australis,False,SEGONA,C\ Castellterçol,9.99,51.0,8.06,4.37,0.292,2.46,1922,ok
+0074272AR,428973.9,4585736.88,186.24,Prunus cerasifera 'Pissardii',False,SEGONA,C\ Móra d'Ebre,6.7,20.0,5.05,3.34,0.124,4.17,250,ok
+0074273AR,428513.11,4585691.85,187.36,Quercus robur 'Fastigiata',False,PRIMERA,C\ Cardedeu,5.23,41.5,7.27,2.6,0.347,2.12,983,ok
+0074274AR,428923.99,4585452.86,158.17,Pyrus calleryana 'Chanticleer',False,SEGONA,C\ Font del Remei,6.62,14.0,4.22,3.46,0.374,1.97,532,ok
+0074277AR,428594.54,4585052.02,132.92,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Sant Eudald,9.12,25.0,5.64,3.99,0.109,4.43,604,ok
+0074279AR,428728.95,4585370.09,156.78,Brachychiton populneus,False,PRIMERA,Pg Mare de Déu del Coll,12.61,17.0,4.65,5.65,0.187,3.35,826,ok
+0074282AR,428648.58,4585416.85,179.77,Celtis australis,False,TERCERA,C\ Castellterçol,10.74,94.2,10.95,5.18,0.231,2.93,3898,ok
+0074284AR,428867.86,4585718.84,189.66,Robinia pseudoacacia,False,TERCERA,C\ Funoses Llussà,14.94,74.0,9.71,7.26,0.135,4.0,2012,ok
+0074287AR,428853.33,4585668.88,182.69,Brachychiton populneus,False,TERCERA,Pg Mare de Déu del Coll,9.62,15.5,4.44,4.41,0.302,2.39,817,ok
+0074288AR,428701.87,4585134.88,125.6,Prunus cerasifera 'Pissardii',False,SEGONA,C\ Sant Eudald,6.35,32.8,6.46,2.75,0.255,2.74,1130,ok
+0074290AR,428937.49,4585480.68,161.88,Pyrus calleryana 'Chanticleer',False,SEGONA,C\ Font del Remei,5.14,13.8,4.18,3.02,0.451,1.59,512,ok
+0074291AR,428629.6,4585392.67,181.35,Celtis australis,False,SEGONA,C\ Castellterçol,7.64,33.0,6.48,4.45,0.415,1.76,1480,ok
+0074292AR,428941.93,4585490.03,163.01,Pyrus calleryana 'Chanticleer',False,SEGONA,C\ Font del Remei,6.58,17.5,4.72,3.24,0.329,2.22,666,ok
+0206522AR,428720.74,4585378.93,157.01,Platanus × acerifolia,True,SEGONA,Pg Mare de Déu del Coll,15.56,188.0,15.47,2.6,0.142,3.9,8920,ok
+0207054AR,428718.49,4585365.81,156.66,Brachychiton populneus,False,PRIMERA,Pg Mare de Déu del Coll,10.59,56.5,8.48,2.97,0.289,2.48,2125,ok
+0207161AR,428709.67,4585335.87,156.13,Celtis australis,False,SEGONA,Pg Mare de Déu del Coll,14.98,174.5,14.91,3.33,0.181,3.42,8480,ok
+0207493AR,428716.95,4585359.32,156.47,Brachychiton populneus,False,PRIMERA,Pg Mare de Déu del Coll,8.05,39.8,7.11,4.9,0.433,1.67,1715,ok
+0288378AR,428944.61,4585581.26,158.27,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,PRIMERA,C\ Duran i Borrell,5.52,3.0,1.95,2.7,0.366,2.01,123,ok
+0288379AR,428963.38,4585595.91,162.42,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,PRIMERA,C\ Aldea,,0.0,0.0,,,,0,no_crown_detected
+0288381AR,428957.98,4585603.56,161.24,Cercis siliquastrum,False,SEGONA,C\ Aldea,5.34,12.0,3.91,3.37,0.426,1.71,459,ok
+0288382AR,428962.49,4585569.2,164.34,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,PRIMERA,C\ Aldea,5.72,10.0,3.57,5.25,0.205,3.17,342,ok
+0288384AR,428939.82,4585569.89,157.27,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,SEGONA,C\ Duran i Borrell,7.09,14.2,4.26,4.08,0.328,2.23,599,ok
+0293335AR,428960.75,4585476.97,170.7,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,SEGONA,C\ Aldea,5.62,41.2,7.25,2.09,0.44,1.64,1824,ok
+0293346AR,428963.43,4585494.66,169.26,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,SEGONA,C\ Aldea,6.53,17.0,4.65,3.29,0.433,1.67,732,ok
+0293347AR,428963.18,4585502.1,168.62,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,SEGONA,C\ Aldea,6.4,16.5,4.58,3.6,0.452,1.59,706,ok
+0293348AR,428956.0,4585506.0,165.58,Jacaranda mimosifolia,False,SEGONA,C\ Font del Remei,8.89,31.5,6.33,3.45,0.263,2.67,1852,ok
+0293350AR,428962.69,4585508.44,168.08,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,PRIMERA,C\ Aldea,0.0,2.5,1.78,3.92,0.509,1.35,115,low_tree
+0304849AR,428905.0,4585903.95,204.15,Liriodendron tulipifera,False,SEGONA,C\ Morató,7.88,11.5,3.83,3.74,0.229,2.95,266,ok
+0304850AR,428897.68,4585896.33,205.37,Liriodendron tulipifera,False,SEGONA,C\ Morató,8.34,15.8,4.48,3.4,0.193,3.29,362,ok
+0304851AR,428890.61,4585888.91,206.31,Liriodendron tulipifera,False,SEGONA,C\ Morató,7.69,15.2,4.41,2.74,0.166,3.59,368,ok
+0304852AR,428884.99,4585883.13,207.28,Liriodendron tulipifera,False,PRIMERA,C\ Morató,,0.0,0.0,,,,0,no_crown_detected
+0304853AR,428880.04,4585877.84,208.36,Liriodendron tulipifera,False,SEGONA,C\ Morató,5.7,10.2,3.61,2.22,0.267,2.64,210,ok
+0304854AR,428874.2,4585871.78,209.66,Tilia x euchlora,False,PRIMERA,C\ Morató,5.74,13.8,4.18,1.81,0.219,3.03,319,ok
+0304855AR,428866.17,4585865.39,211.56,Tilia x euchlora,False,PRIMERA,C\ Morató,5.37,5.5,2.65,1.69,0.193,3.29,135,ok
+0304856AR,428859.0,4585860.0,213.25,Tilia x euchlora,False,PRIMERA,C\ Morató,5.1,6.8,2.93,2.55,0.18,3.43,150,ok
+0304857AR,428854.0,4585855.95,214.81,Liriodendron tulipifera,False,SEGONA,C\ Morató,6.43,36.2,6.79,2.13,0.219,3.04,712,ok
+0304859AR,429003.44,4585490.23,183.65,Acer monspessulanum,False,SEGONA,C\ Jaume Cascalls,5.65,16.0,4.51,2.27,0.237,2.88,610,ok
+0304860AR,429004.98,4585481.94,183.08,Acer monspessulanum,False,SEGONA,C\ Jaume Cascalls,6.51,31.2,6.31,2.22,0.258,2.71,1097,ok
+0304862AR,429032.43,4585445.36,180.37,Acer monspessulanum,False,SEGONA,C\ Jaume Cascalls,5.16,11.8,3.87,2.56,0.469,1.52,606,ok
+0304863AR,429026.13,4585454.03,181.39,Acer monspessulanum,False,SEGONA,C\ Jaume Cascalls,4.46,24.8,5.61,2.83,0.304,2.38,1173,ok
+0304864AR,429020.09,4585460.55,181.87,Acer monspessulanum,False,SEGONA,C\ Jaume Cascalls,6.47,47.5,7.78,2.58,0.288,2.49,1913,ok
+0304865AR,429014.16,4585466.95,182.21,Acer monspessulanum,False,SEGONA,C\ Jaume Cascalls,6.0,10.0,3.57,2.54,0.291,2.47,404,ok
+0305013AR,428945.6,4585423.7,156.78,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Pau Ferran,4.3,4.0,2.26,2.66,0.436,1.66,153,ok
+0305014AR,428983.0,4585416.0,157.92,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Pau Ferran,4.31,3.0,1.95,2.4,0.446,1.62,136,ok
+0305015AR,428964.0,4585420.0,157.25,Pyrus calleryana 'Chanticleer',False,SEGONA,C\ Pau Ferran,5.43,4.2,2.33,2.68,0.528,1.28,205,ok
+0312122AR,428959.22,4585492.13,169.09,Cercis siliquastrum,False,SEGONA,C\ Aldea,4.65,28.2,6.0,2.87,0.474,1.49,1342,ok
+0312123AR,429042.51,4585523.25,194.28,Cupressus sempervirens,False,SEGONA,C\ Francesc Tarafa,7.76,3.5,2.11,2.45,0.277,2.57,187,ok
+0312485AR,428641.72,4585422.66,181.02,Celtis australis,False,SEGONA,C\ Castellterçol,7.24,55.0,8.37,3.89,0.3,2.41,2177,ok
+0320753AR,428482.26,4585612.47,185.04,Styphnolobium japonicum,False,PRIMERA,C\ Cardedeu,5.54,10.8,3.7,2.15,0.507,1.36,525,ok
+0322051AR,428812.1,4585571.24,171.74,Ulmus pumila,False,TERCERA,Pg Mare de Déu del Coll,10.17,39.2,7.07,5.05,0.307,2.36,1905,ok
+0331108AR,428921.98,4585437.21,156.65,Tilia x euchlora,False,SEGONA,Plta Montserrat,5.56,8.8,3.34,2.52,0.374,1.97,412,ok
+0335950AR,428537.22,4585011.75,131.04,Liriodendron tulipifera,False,PRIMERA,Pl Mons,,0.0,0.0,,,,0,no_crown_detected

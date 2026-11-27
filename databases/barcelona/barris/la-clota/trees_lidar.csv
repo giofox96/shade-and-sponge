@@ -1,0 +1,331 @@
+tree_id,x,y,ground_z,species,is_plane,size_category,street,height_m,crown_area_m2,crown_diam_m,crown_base_m,gap_fraction,lai_proxy,n_points,flag
+0062374AR,429082.55,4586718.28,115.22,Cupressus sempervirens,False,PRIMERA,Av Cardenal Vidal i Barraquer,,0.0,0.0,,,,0,no_crown_detected
+0062421AR,429083.07,4586715.18,115.37,Cupressus sempervirens,False,PRIMERA,Av Cardenal Vidal i Barraquer,15.03,1.5,1.38,2.56,0.27,2.62,37,no_crown_detected
+0062473AR,429082.59,4586717.87,115.23,Cupressus sempervirens,False,SEGONA,Av Cardenal Vidal i Barraquer,,0.0,0.0,,,,0,no_crown_detected
+0062574AR,429083.23,4586714.42,115.41,Cupressus sempervirens,False,PRIMERA,Av Cardenal Vidal i Barraquer,15.03,1.2,1.26,2.95,0.172,3.52,29,no_crown_detected
+0062602AR,429082.44,4586718.69,115.24,Cupressus sempervirens,False,SEGONA,Av Cardenal Vidal i Barraquer,7.17,1.0,1.13,2.96,0.5,1.39,20,no_crown_detected
+0062700AR,429083.33,4586713.81,115.48,Cupressus sempervirens,False,PRIMERA,Av Cardenal Vidal i Barraquer,15.03,2.2,1.69,2.04,0.321,2.27,53,ok
+0062982AR,429082.94,4586715.79,115.4,Cupressus sempervirens,False,PRIMERA,Av Cardenal Vidal i Barraquer,15.03,3.2,2.03,3.33,0.224,3.0,76,ok
+0063042AR,429083.94,4586710.58,115.38,Cupressus sempervirens,False,PRIMERA,Av Cardenal Vidal i Barraquer,11.09,3.0,1.95,2.49,0.415,1.76,65,ok
+0063246AR,429083.7,4586711.89,115.38,Cupressus sempervirens,False,SEGONA,Av Cardenal Vidal i Barraquer,9.09,1.0,1.13,2.42,0.32,2.28,25,no_crown_detected
+0063360AR,429083.8,4586711.43,115.38,Cupressus sempervirens,False,SEGONA,Av Cardenal Vidal i Barraquer,9.09,2.2,1.69,2.77,0.34,2.16,47,few_points
+0063362AR,429082.67,4586717.47,115.24,Cupressus sempervirens,False,PRIMERA,Av Cardenal Vidal i Barraquer,13.71,0.5,0.8,3.24,0.308,2.36,13,no_crown_detected
+0063458AR,429082.75,4586716.94,115.25,Cupressus sempervirens,False,PRIMERA,Av Cardenal Vidal i Barraquer,13.93,1.0,1.13,2.46,0.276,2.58,29,no_crown_detected
+0063528AR,429082.84,4586716.47,115.28,Cupressus sempervirens,False,PRIMERA,Av Cardenal Vidal i Barraquer,14.54,1.2,1.26,2.31,0.176,3.47,34,no_crown_detected
+0063633AR,429083.62,4586712.47,115.38,Cupressus sempervirens,False,PRIMERA,Av Cardenal Vidal i Barraquer,14.02,0.8,0.98,2.28,0.312,2.33,16,no_crown_detected
+0063821AR,429083.42,4586713.18,115.51,Cupressus sempervirens,False,PRIMERA,Av Cardenal Vidal i Barraquer,14.9,1.5,1.38,2.48,0.222,3.01,36,no_crown_detected
+0063924AR,429073.65,4586664.67,115.88,Prunus cerasifera 'Pissardii',False,PRIMERA,Av Cardenal Vidal i Barraquer,3.95,4.8,2.46,2.66,0.49,1.43,98,ok
+0063940AR,429071.96,4586657.03,115.94,Prunus cerasifera 'Pissardii',False,PRIMERA,Av Cardenal Vidal i Barraquer,4.34,11.0,3.74,3.21,0.306,2.37,258,ok
+0063942AR,429076.44,4586680.43,115.85,Prunus cerasifera 'Pissardii',False,PRIMERA,Av Cardenal Vidal i Barraquer,4.32,4.0,2.26,2.78,0.443,1.63,97,ok
+0063946AR,429075.04,4586672.89,115.87,Prunus cerasifera 'Pissardii',False,PRIMERA,Av Cardenal Vidal i Barraquer,4.63,4.8,2.46,2.42,0.447,1.61,103,ok
+0063999AR,429398.96,4586655.23,95.7,Celtis australis,False,SEGONA,C\ Lisboa,6.04,9.2,3.43,4.59,0.412,1.77,187,ok
+0064000AR,429250.14,4586605.76,93.94,Styphnolobium japonicum,False,TERCERA,C\ Alarcón,7.25,62.8,8.94,2.33,0.275,2.58,1251,ok
+0064001AR,429275.79,4586621.02,93.08,Styphnolobium japonicum,False,TERCERA,C\ Alarcón,11.71,50.0,7.98,2.6,0.143,3.89,1421,ok
+0064002AR,429122.04,4586451.94,104.37,Celtis australis,False,SEGONA,C\ Lisboa,6.72,22.0,5.29,4.43,0.485,1.45,902,ok
+0064003AR,429502.3,4586786.52,85.76,Tipuana tipu,False,PRIMERA,Pl Estatut,5.56,12.5,3.99,3.8,0.5,1.39,238,ok
+0064004AR,428973.26,4586383.56,114.62,Populus nigra 'Italica',False,SEGONA,Pl Clota,10.56,23.5,5.47,3.33,0.334,2.19,1174,ok
+0064006AR,429240.17,4586534.97,102.7,Celtis australis,False,TERCERA,C\ Lisboa,7.73,60.5,8.78,3.66,0.32,2.28,2889,ok
+0064007AR,428977.99,4586395.8,114.47,Populus nigra 'Italica',False,SEGONA,Pl Clota,12.32,10.2,3.61,3.79,0.307,2.36,565,ok
+0064008AR,429379.38,4586641.68,97.51,Celtis australis,False,TERCERA,C\ Lisboa,8.08,45.2,7.59,4.57,0.29,2.48,848,ok
+0064010AR,429419.79,4586667.74,93.97,Celtis australis,False,SEGONA,C\ Lisboa,6.12,26.0,5.75,2.53,0.308,2.36,461,ok
+0064011AR,429296.32,4586568.28,102.18,Celtis australis,False,TERCERA,C\ Lisboa,8.4,30.2,6.21,4.15,0.31,2.34,675,ok
+0064012AR,429078.1,4586734.75,115.43,Cupressus sempervirens,False,PRIMERA,Av Cardenal Vidal i Barraquer,6.27,29.0,6.08,2.47,0.268,2.63,657,ok
+0064013AR,429502.72,4586705.69,87.32,Celtis australis,False,SEGONA,C\ Lisboa,5.88,30.5,6.23,4.2,0.299,2.42,586,ok
+0064014AR,429493.08,4586784.64,85.58,Tipuana tipu,False,SEGONA,Pl Estatut,6.7,34.2,6.6,4.46,0.313,2.32,604,ok
+0064015AR,429388.2,4586648.1,96.77,Celtis australis,False,SEGONA,C\ Lisboa,6.5,36.5,6.82,3.46,0.28,2.55,664,ok
+0064016AR,429090.51,4586823.94,112.83,Pinus halepensis,False,EXEMPLAR,Av Cardenal Vidal i Barraquer,16.87,96.0,11.06,9.32,0.226,2.97,1815,ok
+0064017AR,429055.63,4586609.55,116.33,Prunus cerasifera 'Pissardii',False,PRIMERA,Av Cardenal Vidal i Barraquer,13.35,11.0,3.74,2.91,0.319,2.28,238,ok
+0064019AR,429176.42,4586540.69,97.01,Styphnolobium japonicum,False,SEGONA,C\ Alarcón,5.7,20.8,5.14,3.48,0.498,1.39,880,ok
+0064020AR,429268.42,4586617.39,93.37,Styphnolobium japonicum,False,TERCERA,C\ Alarcón,11.18,57.5,8.56,2.05,0.157,3.7,1413,ok
+0064021AR,429076.56,4586781.53,114.28,Pinus pinea,False,TERCERA,Av Cardenal Vidal i Barraquer,8.42,93.8,10.93,3.77,0.255,2.73,1817,ok
+0064022AR,429171.06,4586498.53,103.42,Celtis australis,False,TERCERA,C\ Lisboa,7.75,41.2,7.25,4.41,0.422,1.72,1979,ok
+0064023AR,429137.14,4586474.27,103.94,Jacaranda mimosifolia,False,SEGONA,C\ Alarcón,10.43,92.5,10.85,3.05,0.246,2.8,4579,ok
+0064024AR,429301.64,4586572.41,102.11,Celtis australis,False,TERCERA,C\ Lisboa,7.99,38.8,7.02,4.47,0.294,2.45,798,ok
+0064025AR,429530.88,4586719.38,85.32,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Lisboa,9.2,24.5,5.59,2.95,0.363,2.03,546,ok
+0064026AR,428970.34,4586393.79,114.84,Jacaranda mimosifolia,False,PRIMERA,Pl Clota,3.93,3.5,2.11,3.22,0.535,1.25,147,ok
+0064027AR,429496.39,4586779.73,85.74,Tipuana tipu,False,SEGONA,Pl Estatut,7.71,40.0,7.14,4.54,0.335,2.19,831,ok
+0064028AR,429369.53,4586633.51,98.36,Celtis australis,False,TERCERA,C\ Lisboa,8.76,49.0,7.9,4.76,0.275,2.59,1071,ok
+0064029AR,429514.49,4586711.24,86.45,Celtis australis,False,SEGONA,C\ Lisboa,6.23,28.0,5.97,4.17,0.38,1.94,495,ok
+0064030AR,429530.08,4586739.37,85.55,Tipuana tipu,False,SEGONA,Pl Estatut,8.1,36.2,6.79,4.69,0.329,2.22,665,ok
+0064031AR,429250.82,4586540.69,102.76,Celtis australis,False,TERCERA,C\ Lisboa,8.54,35.2,6.7,4.55,0.325,2.25,1573,ok
+0064032AR,429101.18,4586441.28,105.73,Celtis australis,False,EXEMPLAR,C\ Lisboa,13.13,48.0,7.82,8.34,0.095,4.71,1742,ok
+0064034AR,429096.08,4586439.06,106.34,Celtis australis,False,EXEMPLAR,C\ Lisboa,14.04,80.5,10.12,7.9,0.146,3.85,3079,ok
+0064036AR,429079.3,4586728.7,115.57,Cupressus sempervirens,False,PRIMERA,Camí Sant Genís a Horta,5.95,1.8,1.49,2.25,0.333,2.2,42,no_crown_detected
+0064038AR,428975.16,4586400.52,114.58,Jacaranda mimosifolia,False,PRIMERA,Pl Clota,5.3,5.8,2.71,3.53,0.462,1.54,184,ok
+0064039AR,429533.35,4586724.0,85.4,Populus nigra,False,EXEMPLAR,C\ Lisboa,14.01,56.5,8.48,4.29,0.173,3.5,1413,ok
+0064040AR,429078.42,4586733.33,115.5,Cupressus sempervirens,False,PRIMERA,Av Cardenal Vidal i Barraquer,6.27,0.5,0.8,2.44,0.25,2.77,16,no_crown_detected
+0064042AR,429409.39,4586661.76,94.84,Celtis australis,False,TERCERA,C\ Lisboa,6.9,39.2,7.07,4.45,0.253,2.75,569,ok
+0064043AR,429083.94,4586696.21,115.65,Citrus × aurantium,False,SEGONA,C\ Torelló,10.65,10.0,3.57,2.8,0.387,1.9,222,ok
+0064044AR,429077.96,4586735.6,115.4,Cupressus sempervirens,False,SEGONA,Av Cardenal Vidal i Barraquer,5.2,22.0,5.29,2.65,0.278,2.56,644,ok
+0064045AR,429261.09,4586546.1,102.58,Celtis australis,False,TERCERA,C\ Lisboa,7.17,35.0,6.68,2.58,0.398,1.84,1620,ok
+0064046AR,429501.74,4586711.19,87.45,Populus nigra 'Italica',False,TERCERA,C\ Lisboa,13.77,51.2,8.08,4.07,0.198,3.24,1283,ok
+0064048AR,429053.41,4586602.39,116.32,Gleditsia triacanthos f. inermis,False,PRIMERA,Av Cardenal Vidal i Barraquer,14.75,15.0,4.37,2.86,0.378,1.95,392,ok
+0064049AR,429521.28,4586759.25,85.25,Tipuana tipu,False,SEGONA,Pl Estatut,7.37,25.8,5.73,4.77,0.371,1.98,547,ok
+0064050AR,429088.12,4586824.26,113.01,Pinus pinea,False,PRIMERA,Av Cardenal Vidal i Barraquer,16.65,40.5,7.18,9.59,0.297,2.43,772,ok
+0064052AR,429063.15,4586628.01,116.25,Prunus cerasifera 'Pissardii',False,PRIMERA,Av Cardenal Vidal i Barraquer,9.72,37.5,6.91,2.76,0.192,3.3,848,ok
+0064053AR,429078.85,4586731.15,115.54,Cupressus sempervirens,False,PRIMERA,Av Cardenal Vidal i Barraquer,6.25,1.0,1.13,2.03,0.364,2.02,22,no_crown_detected
+0064054AR,429157.25,4586487.18,103.56,Celtis australis,False,TERCERA,C\ Lisboa,9.17,43.2,7.42,4.85,0.385,1.91,2106,ok
+0064055AR,429518.53,4586763.16,85.26,Tipuana tipu,False,SEGONA,Pl Estatut,8.07,27.8,5.94,4.79,0.37,1.99,597,ok
+0064056AR,428971.16,4586398.15,114.76,Jacaranda mimosifolia,False,PRIMERA,Pl Clota,4.83,4.0,2.26,3.23,0.461,1.55,181,ok
+0064057AR,429279.94,4586622.8,92.94,Styphnolobium japonicum,False,TERCERA,C\ Alarcón,11.67,47.5,7.78,4.36,0.231,2.93,1190,ok
+0064058AR,429342.51,4586607.79,100.76,Celtis australis,False,TERCERA,C\ Lisboa,8.2,42.5,7.36,4.09,0.224,2.99,839,ok
+0064059AR,429360.53,4586625.82,99.16,Celtis australis,False,SEGONA,C\ Lisboa,7.26,33.5,6.53,4.17,0.285,2.51,806,ok
+0064061AR,429320.19,4586587.49,101.74,Celtis australis,False,SEGONA,C\ Lisboa,6.4,24.8,5.61,4.01,0.358,2.05,500,ok
+0064062AR,429271.75,4586552.23,102.48,Celtis australis,False,TERCERA,C\ Lisboa,7.88,50.0,7.98,2.4,0.266,2.65,2088,ok
+0064063AR,429069.15,4586643.31,116.05,Gleditsia triacanthos f. inermis,False,PRIMERA,Av Cardenal Vidal i Barraquer,,0.0,0.0,,,,0,no_crown_detected
+0064064AR,429081.47,4586713.56,115.66,Prunus cerasifera 'Pissardii',False,PRIMERA,Av Cardenal Vidal i Barraquer,15.2,23.5,5.47,2.91,0.335,2.19,492,ok
+0064065AR,429078.13,4586663.65,115.83,Gleditsia triacanthos f. inermis,False,PRIMERA,Av Cardenal Vidal i Barraquer,14.02,54.2,8.31,2.99,0.236,2.89,1329,ok
+0064066AR,429285.26,4586628.5,92.67,Styphnolobium japonicum,False,SEGONA,C\ Alarcón,10.35,44.8,7.55,4.27,0.215,3.08,1067,ok
+0064067AR,429311.07,4586579.54,101.97,Celtis australis,False,TERCERA,C\ Lisboa,8.18,35.8,6.75,4.57,0.312,2.33,837,ok
+0064068AR,429077.3,4586788.7,114.15,Pinus pinea,False,EXEMPLAR,Av Cardenal Vidal i Barraquer,8.37,70.0,9.44,5.0,0.231,2.93,1159,ok
+0064069AR,429492.13,4586700.91,88.19,Celtis australis,False,EXEMPLAR,C\ Lisboa,9.41,54.5,8.33,4.66,0.166,3.59,1128,ok
+0064070AR,429079.41,4586665.86,115.86,Styphnolobium japonicum,False,SEGONA,Av Cardenal Vidal i Barraquer,5.23,44.0,7.48,2.92,0.271,2.61,990,ok
+0064072AR,429425.17,4586670.43,93.58,Celtis australis,False,SEGONA,C\ Lisboa,7.12,34.0,6.58,3.99,0.308,2.36,604,ok
+0064073AR,429054.77,4586604.69,116.3,Citrus × aurantium,False,SEGONA,Av Cardenal Vidal i Barraquer,13.02,15.2,4.41,3.47,0.293,2.46,311,ok
+0064074AR,429056.67,4586612.3,116.32,Prunus cerasifera 'Pissardii',False,SEGONA,Av Cardenal Vidal i Barraquer,14.03,18.8,4.89,3.0,0.298,2.42,467,ok
+0064075AR,429290.5,4586636.71,92.23,Styphnolobium japonicum,False,EXEMPLAR,C\ Alarcón,12.17,45.8,7.63,5.44,0.172,3.52,1325,ok
+0064076AR,429202.44,4586516.72,103.23,Celtis australis,False,SEGONA,C\ Lisboa,8.35,104.0,11.51,3.81,0.308,2.36,3973,ok
+0064077AR,429265.73,4586613.07,93.41,Styphnolobium japonicum,False,TERCERA,C\ Alarcón,11.45,49.5,7.94,6.33,0.229,2.95,1157,ok
+0064078AR,429141.43,4586470.92,103.88,Celtis australis,False,SEGONA,C\ Lisboa,5.49,18.8,4.89,4.06,0.466,1.53,797,ok
+0064080AR,428961.32,4586398.05,115.3,Jacaranda mimosifolia,False,PRIMERA,Pl Clota,4.93,7.8,3.14,2.54,0.472,1.5,347,ok
+0064081AR,429508.4,4586708.32,86.8,Celtis australis,False,SEGONA,C\ Lisboa,5.85,23.2,5.44,4.16,0.343,2.14,443,ok
+0064082AR,429489.16,4586789.35,85.34,Tipuana tipu,False,SEGONA,Pl Estatut,8.77,44.2,7.51,4.92,0.319,2.29,985,ok
+0064083AR,429485.85,4586794.65,85.06,Tipuana tipu,False,SEGONA,Pl Estatut,8.37,29.0,6.08,4.93,0.333,2.2,663,ok
+0064084AR,429408.82,4586747.09,88.34,Styphnolobium japonicum,False,SEGONA,Av Marquès de Castellbell,7.53,38.5,7.0,4.58,0.337,2.18,739,ok
+0064085AR,429351.7,4586617.1,100.03,Celtis australis,False,SEGONA,C\ Lisboa,6.93,28.2,6.0,3.95,0.329,2.22,662,ok
+0064086AR,429078.96,4586730.41,115.56,Cupressus sempervirens,False,PRIMERA,Av Cardenal Vidal i Barraquer,6.09,1.2,1.26,1.77,0.32,2.28,25,no_crown_detected
+0064088AR,429507.3,4586738.16,86.47,Tipuana tipu,False,TERCERA,Av Marquès de Castellbell,8.09,49.5,7.94,4.56,0.266,2.65,913,ok
+0064089AR,429513.14,4586771.11,85.5,Tipuana tipu,False,SEGONA,Pl Estatut,7.28,29.5,6.13,4.84,0.401,1.83,698,ok
+0064090AR,429407.18,4586767.05,89.69,Styphnolobium japonicum,False,TERCERA,Ptge Marquès de Castellbell,8.51,46.5,7.69,4.0,0.279,2.55,938,ok
+0064091AR,429072.09,4586650.79,116.0,Prunus cerasifera 'Pissardii',False,PRIMERA,Av Cardenal Vidal i Barraquer,11.58,2.2,1.69,2.83,0.467,1.52,45,few_points
+0064092AR,428979.23,4586402.28,114.33,Jacaranda mimosifolia,False,PRIMERA,Pl Clota,4.44,5.8,2.71,3.32,0.437,1.66,305,ok
+0064093AR,429078.73,4586731.9,115.5,Cupressus sempervirens,False,PRIMERA,Av Cardenal Vidal i Barraquer,6.25,1.5,1.38,2.91,0.312,2.33,32,no_crown_detected
+0064094AR,429078.53,4586732.82,115.45,Cupressus sempervirens,False,PRIMERA,Av Cardenal Vidal i Barraquer,6.27,16.2,4.55,2.14,0.281,2.54,409,ok
+0064095AR,429481.57,4586696.03,88.98,Celtis australis,False,EXEMPLAR,C\ Lisboa,10.82,53.0,8.21,6.23,0.113,4.36,945,ok
+0064097AR,429078.63,4586732.36,115.49,Cupressus sempervirens,False,PRIMERA,Av Cardenal Vidal i Barraquer,6.27,3.0,1.95,2.29,0.234,2.9,64,ok
+0064098AR,429257.94,4586609.18,93.7,Styphnolobium japonicum,False,TERCERA,C\ Alarcón,9.62,41.0,7.23,4.52,0.198,3.24,955,ok
+0064100AR,429078.79,4586731.52,115.52,Cupressus sempervirens,False,PRIMERA,Av Cardenal Vidal i Barraquer,6.25,1.0,1.13,2.63,0.261,2.69,23,no_crown_detected
+0064101AR,429478.88,4586804.0,84.68,Tipuana tipu,False,SEGONA,Pl Estatut,7.47,33.2,6.51,5.0,0.384,1.91,607,ok
+0064102AR,429414.5,4586664.48,94.55,Celtis australis,False,SEGONA,C\ Lisboa,6.45,32.5,6.43,4.02,0.242,2.84,508,ok
+0064103AR,429347.27,4586612.68,100.36,Celtis australis,False,TERCERA,C\ Lisboa,7.94,38.0,6.96,4.32,0.286,2.5,801,ok
+0064105AR,429306.01,4586575.78,102.07,Celtis australis,False,SEGONA,C\ Lisboa,5.82,24.2,5.56,4.16,0.485,1.45,491,ok
+0064107AR,429436.23,4586675.77,92.7,Celtis australis,False,TERCERA,C\ Lisboa,6.96,38.2,6.98,4.24,0.316,2.31,703,ok
+0064108AR,429245.54,4586537.95,102.73,Celtis australis,False,SEGONA,C\ Lisboa,7.51,44.8,7.55,3.74,0.363,2.03,1872,ok
+0064109AR,429067.8,4586640.26,116.11,Citrus × aurantium,False,SEGONA,Av Cardenal Vidal i Barraquer,3.72,3.0,1.95,2.32,0.471,1.51,51,ok
+0064110AR,429079.4,4586728.02,115.59,Cupressus sempervirens,False,PRIMERA,Camí Sant Genís a Horta,8.11,0.5,0.8,2.79,0.133,4.03,15,no_crown_detected
+0064111AR,429286.94,4586561.47,102.32,Celtis australis,False,TERCERA,C\ Lisboa,7.87,39.2,7.07,4.49,0.309,2.35,1443,ok
+0064113AR,429499.36,4586790.0,85.62,Tipuana tipu,False,SEGONA,Pl Estatut,7.02,25.0,5.64,4.47,0.4,1.83,535,ok
+0064114AR,429078.45,4586797.71,113.92,Pinus pinea,False,EXEMPLAR,Av Cardenal Vidal i Barraquer,9.8,53.0,8.21,4.83,0.184,3.39,925,ok
+0064115AR,429441.83,4586678.3,92.22,Celtis australis,False,SEGONA,C\ Lisboa,5.06,15.5,4.44,3.61,0.353,2.08,289,ok
+0064117AR,429260.48,4586613.86,93.58,Styphnolobium japonicum,False,TERCERA,C\ Alarcón,10.75,74.8,9.76,2.32,0.186,3.36,1723,ok
+0064118AR,429044.96,4586582.23,116.34,Prunus cerasifera 'Pissardii',False,SEGONA,Av Cardenal Vidal i Barraquer,10.23,16.0,4.51,2.66,0.427,1.7,309,ok
+0064119AR,429374.63,4586637.63,97.82,Celtis australis,False,SEGONA,C\ Lisboa,5.42,19.5,4.98,4.06,0.416,1.75,365,ok
+0064120AR,428984.72,4586397.68,114.0,Jacaranda mimosifolia,False,PRIMERA,Pl Clota,9.1,15.2,4.41,3.43,0.441,1.64,847,ok
+0064122AR,429355.91,4586620.99,99.64,Celtis australis,False,SEGONA,C\ Lisboa,4.64,10.8,3.7,3.51,0.448,1.61,210,ok
+0064123AR,429166.04,4586494.59,103.45,Celtis australis,False,TERCERA,C\ Lisboa,8.21,39.2,7.07,4.59,0.368,2.0,1888,ok
+0064124AR,429078.24,4586734.06,115.47,Cupressus sempervirens,False,PRIMERA,Av Cardenal Vidal i Barraquer,6.27,0.8,0.98,2.47,0.222,3.01,18,no_crown_detected
+0064125AR,429405.91,4586752.36,88.5,Styphnolobium japonicum,False,TERCERA,Ptge Marquès de Castellbell,9.56,45.0,7.57,4.28,0.202,3.2,1232,ok
+0064126AR,429153.01,4586483.2,103.72,Celtis australis,False,TERCERA,C\ Lisboa,8.98,41.8,7.29,4.57,0.364,2.02,2313,ok
+0064127AR,428995.0,4586494.07,115.16,Styphnolobium japonicum,False,SEGONA,Av Cardenal Vidal i Barraquer,7.09,53.8,8.27,4.21,0.362,2.03,2701,ok
+0064128AR,429111.82,4586446.08,104.91,Celtis australis,False,SEGONA,C\ Lisboa,9.88,72.2,9.59,4.93,0.206,3.16,2868,ok
+0064129AR,429034.42,4586566.56,116.27,Citrus × aurantium,False,SEGONA,Av Cardenal Vidal i Barraquer,3.02,11.5,3.83,2.62,0.406,1.8,266,ok
+0064130AR,429126.63,4586455.31,104.18,Celtis australis,False,SEGONA,C\ Lisboa,9.28,54.8,8.35,4.39,0.268,2.63,2206,ok
+0064131AR,428998.36,4586502.54,115.28,Styphnolobium japonicum,False,SEGONA,Av Cardenal Vidal i Barraquer,8.11,28.0,5.97,4.54,0.375,1.96,1528,ok
+0064132AR,429524.15,4586755.65,85.3,Tipuana tipu,False,SEGONA,Pl Estatut,9.74,28.8,6.05,4.93,0.367,2.01,693,ok
+0064133AR,429503.06,4586770.4,85.7,Tipuana tipu,False,SEGONA,Pl Estatut,9.4,71.8,9.56,5.48,0.288,2.49,1502,ok
+0064134AR,429324.93,4586591.59,101.6,Celtis australis,False,SEGONA,C\ Lisboa,6.44,30.2,6.21,3.88,0.298,2.42,654,ok
+0064135AR,429315.96,4586583.91,101.88,Celtis australis,False,TERCERA,C\ Lisboa,8.93,44.8,7.55,4.35,0.259,2.7,928,ok
+0064136AR,429459.12,4586686.06,90.77,Celtis australis,False,PRIMERA,C\ Lisboa,5.6,10.8,3.7,3.24,0.433,1.67,231,ok
+0064137AR,428983.61,4586385.64,114.13,Populus nigra 'Italica',False,SEGONA,Pl Clota,11.49,17.2,4.69,3.66,0.33,2.22,877,ok
+0064138AR,429507.43,4586779.17,85.79,Tipuana tipu,False,SEGONA,Pl Estatut,7.25,28.8,6.05,4.17,0.338,2.17,613,ok
+0064139AR,429079.21,4586729.2,115.55,Cupressus sempervirens,False,PRIMERA,Camí Sant Genís a Horta,5.95,0.8,0.98,2.59,0.278,2.56,18,no_crown_detected
+0064140AR,429277.27,4586555.16,102.39,Celtis australis,False,EXEMPLAR,C\ Lisboa,9.08,58.0,8.59,3.13,0.248,2.79,2342,ok
+0064141AR,429453.43,4586683.64,91.27,Celtis australis,False,PRIMERA,C\ Lisboa,5.29,5.0,2.52,3.26,0.4,1.83,105,ok
+0064142AR,429395.9,4586738.84,88.42,Styphnolobium japonicum,False,EXEMPLAR,Av Marquès de Castellbell,8.9,59.0,8.67,4.69,0.237,2.88,1179,ok
+0064144AR,429404.0,4586658.52,95.31,Celtis australis,False,SEGONA,C\ Lisboa,5.96,14.5,4.3,3.84,0.301,2.4,256,ok
+0064145AR,429273.25,4586618.01,93.18,Styphnolobium japonicum,False,TERCERA,C\ Alarcón,11.41,43.8,7.46,4.66,0.196,3.26,1100,ok
+0064146AR,429504.79,4586783.17,85.79,Tipuana tipu,False,SEGONA,Pl Estatut,5.68,17.5,4.72,4.0,0.485,1.45,334,ok
+0064147AR,428980.33,4586395.49,114.3,Populus nigra 'Italica',False,SEGONA,Pl Clota,12.35,14.0,4.22,4.1,0.307,2.36,809,ok
+0064148AR,429138.0,4586466.72,103.92,Celtis australis,False,SEGONA,C\ Lisboa,8.71,37.2,6.89,4.37,0.344,2.13,2011,ok
+0064149AR,429079.04,4586729.88,115.51,Cupressus sempervirens,False,PRIMERA,Av Cardenal Vidal i Barraquer,5.95,1.8,1.49,2.54,0.147,3.83,34,no_crown_detected
+0064150AR,429470.18,4586691.02,89.94,Celtis australis,False,SEGONA,C\ Lisboa,6.56,24.8,5.61,4.4,0.327,2.23,397,ok
+0064151AR,429048.68,4586589.02,116.29,Citrus × aurantium,False,PRIMERA,Av Cardenal Vidal i Barraquer,8.93,11.8,3.87,2.53,0.413,1.77,242,ok
+0064152AR,429181.69,4586545.02,96.62,Styphnolobium japonicum,False,PRIMERA,C\ Alarcón,0.0,13.8,4.18,6.67,0.389,1.89,691,low_tree
+0064153AR,429496.55,4586793.57,85.44,Tipuana tipu,False,SEGONA,Pl Estatut,8.29,48.0,7.82,5.38,0.314,2.32,1022,ok
+0064154AR,429526.5,4586752.11,85.41,Tipuana tipu,False,SEGONA,Pl Estatut,9.87,36.2,6.79,5.27,0.347,2.12,793,ok
+0064155AR,429412.32,4586743.48,88.21,Styphnolobium japonicum,False,SEGONA,Av Marquès de Castellbell,8.66,43.2,7.42,4.27,0.237,2.88,907,ok
+0064156AR,428983.88,4586388.96,114.06,Jacaranda mimosifolia,False,PRIMERA,Pl Clota,10.0,14.8,4.33,3.08,0.361,2.04,680,ok
+0064157AR,429252.24,4586610.1,93.78,Styphnolobium japonicum,False,TERCERA,C\ Alarcón,9.08,41.5,7.27,3.28,0.176,3.47,850,ok
+0064158AR,429043.21,4586579.02,116.31,Citrus × aurantium,False,PRIMERA,Av Cardenal Vidal i Barraquer,13.79,12.5,3.99,2.5,0.351,2.09,353,ok
+0064160AR,429196.57,4586513.56,103.23,Celtis australis,False,SEGONA,C\ Lisboa,7.44,37.5,6.91,4.22,0.382,1.92,1625,ok
+0064161AR,429005.69,4586509.13,115.17,Styphnolobium japonicum,False,PRIMERA,Av Cardenal Vidal i Barraquer,8.95,69.0,9.37,3.9,0.337,2.18,3339,ok
+0064163AR,429098.77,4586447.68,105.43,Brachychiton populneus,False,SEGONA,C\ Lisboa,10.47,30.0,6.18,4.29,0.23,2.94,1048,ok
+0064164AR,428967.01,4586396.34,114.99,Jacaranda mimosifolia,False,PRIMERA,Pl Clota,0.35,3.0,1.95,3.26,0.527,1.28,136,low_tree
+0064165AR,429476.22,4586693.51,89.51,Celtis australis,False,SEGONA,C\ Lisboa,7.84,43.0,7.4,4.33,0.212,3.11,780,ok
+0064166AR,428957.44,4586393.56,115.56,Populus nigra 'Italica',False,SEGONA,Pl Clota,8.84,10.5,3.66,3.15,0.332,2.2,517,ok
+0064167AR,429071.05,4586648.06,116.01,Gleditsia triacanthos f. inermis,False,PRIMERA,Av Cardenal Vidal i Barraquer,,0.0,0.0,,,,0,no_crown_detected
+0064168AR,429407.49,4586775.77,90.48,Styphnolobium japonicum,False,SEGONA,Ptge Marquès de Castellbell,7.42,69.8,9.42,3.74,0.338,2.17,1431,ok
+0064169AR,429130.67,4586458.73,104.06,Celtis australis,False,EXEMPLAR,C\ Lisboa,10.56,63.5,8.99,4.71,0.148,3.82,2622,ok
+0064171AR,429406.67,4586758.96,88.96,Styphnolobium japonicum,False,TERCERA,Ptge Marquès de Castellbell,9.56,50.2,8.0,4.84,0.23,2.94,1256,ok
+0064172AR,429083.66,4586694.01,115.69,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Torelló,13.36,2.5,1.78,2.64,0.533,1.26,45,few_points
+0064173AR,429389.73,4586737.69,88.61,Styphnolobium japonicum,False,TERCERA,Av Marquès de Castellbell,8.58,49.8,7.96,4.7,0.231,2.93,1016,ok
+0064174AR,429513.97,4586729.14,86.4,Celtis sinensis,False,EXEMPLAR,C\ Lisboa,10.17,109.5,11.81,4.11,0.227,2.97,2825,ok
+0064175AR,429293.04,4586645.22,92.05,Styphnolobium japonicum,False,TERCERA,C\ Alarcón,10.97,69.8,9.42,3.75,0.122,4.21,1841,ok
+0064176AR,429050.78,4586594.53,116.3,Prunus cerasifera 'Pissardii',False,PRIMERA,Av Cardenal Vidal i Barraquer,11.35,20.8,5.14,2.97,0.343,2.14,539,ok
+0064177AR,429533.04,4586738.07,85.45,Tipuana tipu,False,SEGONA,Pl Estatut,10.33,31.5,6.33,4.96,0.252,2.76,664,ok
+0064178AR,429510.01,4586775.25,85.65,Tipuana tipu,False,SEGONA,Pl Estatut,6.94,36.2,6.79,4.59,0.409,1.79,749,ok
+0064179AR,429465.02,4586688.57,90.48,Celtis australis,False,SEGONA,C\ Lisboa,6.41,31.2,6.31,3.75,0.255,2.73,529,ok
+0064180AR,429255.89,4586543.36,102.63,Celtis australis,False,TERCERA,C\ Lisboa,8.1,33.5,6.53,4.71,0.342,2.14,1486,ok
+0064181AR,429329.21,4586595.06,101.47,Celtis australis,False,TERCERA,C\ Lisboa,8.36,47.0,7.74,4.38,0.245,2.82,1063,ok
+0064183AR,429149.23,4586479.28,103.75,Celtis australis,False,SEGONA,C\ Alarcón,8.06,31.0,6.28,4.55,0.393,1.87,1686,ok
+0064184AR,428955.76,4586396.5,115.71,Jacaranda mimosifolia,False,PRIMERA,Pl Clota,7.12,12.0,3.91,2.88,0.49,1.43,465,ok
+0064185AR,429161.71,4586491.25,103.55,Celtis australis,False,TERCERA,C\ Lisboa,8.16,36.8,6.84,4.82,0.414,1.76,1678,ok
+0064186AR,429516.23,4586766.64,85.34,Tipuana tipu,False,PRIMERA,Pl Estatut,6.32,30.5,6.23,4.62,0.465,1.53,579,ok
+0064187AR,429186.59,4586549.84,96.45,Styphnolobium japonicum,False,EXEMPLAR,C\ Alarcón,10.88,92.8,10.87,2.79,0.322,2.27,5045,ok
+0064188AR,429470.18,4586815.67,84.6,Tipuana tipu,False,SEGONA,Pl Estatut,6.48,13.0,4.07,4.62,0.466,1.53,249,ok
+0064189AR,429186.2,4586508.0,103.36,Celtis australis,False,SEGONA,C\ Lisboa,6.73,34.8,6.65,3.62,0.34,2.16,1399,ok
+0064190AR,429295.69,4586653.54,91.84,Styphnolobium japonicum,False,EXEMPLAR,C\ Alarcón,12.42,70.0,9.44,5.53,0.127,4.13,1916,ok
+0064191AR,429473.23,4586811.68,84.62,Tipuana tipu,False,SEGONA,Pl Estatut,6.91,34.8,6.65,4.62,0.425,1.71,645,ok
+0064194AR,429037.52,4586571.77,116.34,Citrus × aurantium,False,PRIMERA,Av Cardenal Vidal i Barraquer,13.95,12.5,3.99,2.67,0.375,1.96,339,ok
+0064195AR,429482.43,4586799.1,84.82,Tipuana tipu,False,SEGONA,Pl Estatut,7.0,37.5,6.91,4.49,0.286,2.51,711,ok
+0064196AR,429134.45,4586462.7,103.98,Celtis australis,False,SEGONA,C\ Lisboa,8.13,26.0,5.75,4.1,0.216,3.06,1121,ok
+0064197AR,429080.56,4586805.35,113.66,Pinus pinea,False,TERCERA,Av Cardenal Vidal i Barraquer,19.08,40.0,7.14,5.67,0.136,3.98,784,ok
+0064198AR,429080.05,4586721.16,115.6,Citrus × aurantium,False,SEGONA,Av Cardenal Vidal i Barraquer,12.66,17.5,4.72,2.9,0.335,2.19,436,ok
+0064199AR,429338.46,4586603.86,100.99,Celtis australis,False,SEGONA,C\ Lisboa,6.67,35.8,6.75,3.96,0.264,2.66,708,ok
+0064200AR,429116.62,4586448.5,104.72,Celtis australis,False,TERCERA,C\ Lisboa,9.43,61.5,8.85,4.91,0.262,2.68,2627,ok
+0064201AR,429170.73,4586534.36,97.29,Styphnolobium japonicum,False,TERCERA,C\ Alarcón,9.35,40.0,7.14,4.19,0.307,2.36,2014,ok
+0064202AR,429282.09,4586626.46,92.8,Styphnolobium japonicum,False,TERCERA,C\ Alarcón,10.93,39.0,7.05,5.58,0.191,3.32,1076,ok
+0064203AR,429497.39,4586703.36,87.76,Celtis australis,False,TERCERA,C\ Lisboa,8.0,42.8,7.38,4.42,0.228,2.95,828,ok
+0064204AR,428977.85,4586384.92,114.45,Jacaranda mimosifolia,False,PRIMERA,Pl Clota,0.0,5.5,2.65,3.27,0.442,1.63,257,low_tree
+0064205AR,429106.23,4586443.55,105.33,Celtis australis,False,TERCERA,C\ Lisboa,11.8,60.8,8.79,4.93,0.194,3.28,2008,ok
+0064207AR,429223.92,4586527.59,102.97,Celtis australis,False,PRIMERA,C\ Lisboa,8.58,40.0,7.14,4.25,0.297,2.43,2075,ok
+0064208AR,429176.29,4586501.66,103.45,Celtis australis,False,SEGONA,C\ Lisboa,6.95,40.8,7.2,4.1,0.366,2.01,1662,ok
+0064209AR,429080.36,4586718.96,115.61,Citrus × aurantium,False,PRIMERA,Av Cardenal Vidal i Barraquer,4.05,2.5,1.78,2.54,0.565,1.14,46,few_points
+0064210AR,429296.88,4586658.93,91.71,Styphnolobium japonicum,False,TERCERA,C\ Alarcón,9.93,63.8,9.01,4.98,0.172,3.52,1334,ok
+0064211AR,428983.97,4586392.53,114.1,Jacaranda mimosifolia,False,PRIMERA,Pl Clota,,0.0,0.0,,,,0,no_crown_detected
+0064212AR,429476.01,4586807.83,84.58,Tipuana tipu,False,SEGONA,Pl Estatut,6.93,33.8,6.56,4.63,0.455,1.57,679,ok
+0064213AR,429047.55,4586586.65,116.27,Prunus cerasifera 'Pissardii',False,PRIMERA,Av Cardenal Vidal i Barraquer,11.04,14.2,4.26,2.74,0.407,1.8,339,ok
+0064214AR,429364.5,4586629.29,98.87,Celtis australis,False,TERCERA,C\ Lisboa,8.32,43.8,7.46,4.76,0.257,2.72,891,ok
+0064215AR,429393.77,4586651.6,96.16,Celtis australis,False,TERCERA,C\ Lisboa,7.15,28.8,6.05,4.37,0.319,2.29,486,ok
+0064216AR,429333.61,4586599.35,101.26,Celtis australis,False,TERCERA,C\ Lisboa,7.51,35.8,6.75,4.35,0.285,2.51,764,ok
+0064217AR,429430.63,4586673.19,93.12,Celtis australis,False,SEGONA,C\ Lisboa,6.25,25.5,5.7,3.9,0.314,2.31,490,ok
+0064218AR,429291.79,4586564.83,102.27,Celtis australis,False,TERCERA,C\ Lisboa,8.47,39.2,7.07,4.43,0.308,2.36,1454,ok
+0064219AR,428969.01,4586387.2,114.91,Jacaranda mimosifolia,False,PRIMERA,Pl Clota,0.0,13.8,4.18,3.02,0.367,2.01,683,low_tree
+0064220AR,429094.18,4586447.75,105.6,Brachychiton populneus,False,EXEMPLAR,C\ Lisboa,9.68,52.0,8.14,4.1,0.277,2.57,2460,ok
+0064221AR,429467.26,4586819.06,84.67,Tipuana tipu,False,SEGONA,Pl Estatut,7.22,26.2,5.78,5.42,0.338,2.17,455,ok
+0064222AR,428962.88,4586393.73,115.3,Jacaranda mimosifolia,False,PRIMERA,Pl Clota,0.0,13.0,4.07,3.72,0.306,2.37,609,low_tree
+0064224AR,429266.39,4586548.92,102.52,Celtis australis,False,SEGONA,C\ Lisboa,6.74,31.0,6.28,3.99,0.413,1.77,1202,ok
+0064225AR,429384.02,4586645.12,97.14,Celtis australis,False,SEGONA,C\ Lisboa,7.37,56.8,8.5,4.98,0.239,2.86,975,ok
+0064226AR,428976.84,4586393.76,114.55,Populus nigra 'Italica',False,SEGONA,Pl Clota,12.43,8.2,3.24,4.47,0.252,2.76,521,ok
+0064227AR,428958.85,4586391.7,115.51,Jacaranda mimosifolia,False,PRIMERA,Pl Clota,7.8,19.8,5.01,3.64,0.266,2.65,1119,ok
+0064228AR,429181.38,4586504.88,103.4,Celtis australis,False,TERCERA,C\ Lisboa,6.85,69.0,9.37,2.62,0.313,2.33,2723,ok
+0064229AR,428975.79,4586392.05,114.6,Populus nigra 'Italica',False,SEGONA,Pl Clota,11.98,11.0,3.74,4.42,0.312,2.33,722,ok
+0064230AR,429395.82,4586726.14,88.26,Tipuana tipu,False,TERCERA,Av Marquès de Castellbell,6.84,73.5,9.67,3.83,0.305,2.38,1389,ok
+0064231AR,429082.66,4586679.24,115.72,Prunus cerasifera 'Pissardii',False,PRIMERA,Av Cardenal Vidal i Barraquer,11.19,15.0,4.37,2.8,0.485,1.45,295,ok
+0064232AR,429499.96,4586775.26,85.73,Tipuana tipu,False,SEGONA,Pl Estatut,6.16,17.5,4.72,4.19,0.455,1.58,354,ok
+0064233AR,429002.05,4586511.84,115.43,Styphnolobium japonicum,False,TERCERA,Av Cardenal Vidal i Barraquer,9.87,55.2,8.39,4.64,0.42,1.74,2914,ok
+0064234AR,429191.64,4586510.93,103.29,Celtis australis,False,SEGONA,C\ Lisboa,7.88,27.2,5.89,4.11,0.302,2.39,1422,ok
+0064235AR,429281.84,4586558.48,102.38,Celtis australis,False,TERCERA,C\ Lisboa,7.85,43.8,7.46,4.12,0.309,2.35,1751,ok
+0064236AR,429229.42,4586530.24,102.95,Celtis australis,False,PRIMERA,C\ Lisboa,9.1,40.2,7.16,4.91,0.318,2.29,2064,ok
+0064237AR,429079.51,4586727.42,115.6,Cupressus sempervirens,False,SEGONA,Camí Sant Genís a Horta,8.11,7.5,3.09,2.57,0.325,2.25,163,ok
+0064238AR,429486.48,4586698.37,88.59,Celtis australis,False,TERCERA,C\ Lisboa,9.7,47.8,7.8,5.1,0.121,4.22,835,ok
+0064239AR,429051.54,4586597.64,116.34,Citrus × aurantium,False,SEGONA,Av Cardenal Vidal i Barraquer,15.17,15.8,4.48,3.2,0.395,1.86,380,ok
+0064240AR,429447.52,4586680.93,91.83,Celtis australis,False,SEGONA,C\ Lisboa,6.14,25.2,5.67,4.36,0.311,2.33,376,ok
+0064241AR,429234.55,4586532.13,102.83,Celtis australis,False,TERCERA,C\ Lisboa,8.58,43.8,7.46,4.33,0.247,2.8,1897,ok
+0209299AR,429493.67,4586797.42,85.17,Tipuana tipu,False,SEGONA,Pl Estatut,9.63,52.2,8.16,5.07,0.243,2.83,1116,ok
+0209919AR,429456.24,4586819.13,88.09,Ulmus pumila,False,TERCERA,Ptge Marquès de Castellbell,8.54,60.8,8.79,3.56,0.235,2.89,1313,ok
+0210568AR,429478.07,4586795.93,86.62,Ulmus pumila,False,TERCERA,Ptge Marquès de Castellbell,9.98,51.8,8.12,3.85,0.202,3.19,1141,ok
+0268427AR,429451.77,4586833.16,86.0,Tipuana tipu,False,TERCERA,Av Marquès de Castellbell,8.61,8.2,3.24,4.35,0.3,2.41,190,ok
+0268435AR,429534.76,4586740.35,85.35,Tipuana tipu,False,TERCERA,Pl Estatut,12.82,79.2,10.05,6.25,0.236,2.89,1813,ok
+0268438AR,429529.17,4586748.41,85.38,Tipuana tipu,False,SEGONA,Pl Estatut,9.66,49.5,7.94,5.59,0.345,2.13,1196,ok
+0268448AR,429532.02,4586744.11,85.41,Tipuana tipu,False,SEGONA,Pl Estatut,10.09,48.0,7.82,6.06,0.319,2.29,1073,ok
+0268464AR,429492.55,4586802.61,84.79,Tipuana tipu,False,TERCERA,Av Marquès de Castellbell,9.56,91.0,10.76,4.96,0.245,2.82,1758,ok
+0286537AR,429039.81,4586574.26,116.37,Prunus cerasifera 'Pissardii',False,SEGONA,Av Cardenal Vidal i Barraquer,4.96,14.0,4.22,3.16,0.419,1.74,279,ok
+0286538AR,429527.23,4586726.0,85.8,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Lisboa,4.12,16.8,4.62,2.92,0.398,1.84,299,ok
+0299351AR,429366.27,4586937.96,93.19,Tilia x europaea,False,SEGONA,Av Estatut de Catalunya,9.23,21.2,5.2,4.93,0.341,2.15,675,ok
+0299352AR,429373.87,4586931.67,92.61,Tilia x europaea,False,SEGONA,Av Estatut de Catalunya,10.87,29.2,6.1,5.15,0.282,2.54,1067,ok
+0299353AR,429381.41,4586925.38,92.04,Tilia x europaea,False,SEGONA,Av Estatut de Catalunya,9.75,25.5,5.7,5.31,0.323,2.26,847,ok
+0299373AR,429388.94,4586919.24,91.5,Tilia x europaea,False,SEGONA,Av Estatut de Catalunya,9.08,20.5,5.11,4.42,0.321,2.28,646,ok
+0299374AR,429396.44,4586912.91,90.87,Tilia x europaea,False,SEGONA,Av Estatut de Catalunya,8.26,19.0,4.92,4.11,0.305,2.37,568,ok
+0299375AR,429404.02,4586906.7,90.3,Tilia x europaea,False,SEGONA,Av Estatut de Catalunya,8.44,20.5,5.11,5.0,0.321,2.27,624,ok
+0299376AR,429411.56,4586900.51,89.71,Tilia x europaea,False,SEGONA,Av Estatut de Catalunya,8.85,21.8,5.26,3.97,0.324,2.26,639,ok
+0299377AR,429419.11,4586894.25,89.1,Tilia x europaea,False,SEGONA,Av Estatut de Catalunya,8.26,18.5,4.85,4.25,0.33,2.22,583,ok
+0299378AR,429426.7,4586887.97,88.55,Tilia x europaea,False,SEGONA,Av Estatut de Catalunya,8.87,20.8,5.14,4.2,0.32,2.28,698,ok
+0299379AR,429433.36,4586881.06,88.16,Tilia x europaea,False,SEGONA,Av Estatut de Catalunya,7.45,16.8,4.62,4.04,0.351,2.09,284,ok
+0299380AR,429437.97,4586872.74,87.59,Tilia x europaea,False,SEGONA,Av Estatut de Catalunya,7.06,16.5,4.58,4.22,0.29,2.47,272,ok
+0299392AR,429299.66,4587010.7,99.39,Tilia x europaea,False,SEGONA,Av Estatut de Catalunya,9.05,21.0,5.17,4.58,0.404,1.81,792,ok
+0299393AR,429304.6,4587001.9,98.79,Tilia x europaea,False,SEGONA,Av Estatut de Catalunya,7.33,22.8,5.38,2.73,0.353,2.08,827,ok
+0299394AR,429309.98,4586993.52,98.18,Tilia x europaea,False,SEGONA,Av Estatut de Catalunya,7.11,21.8,5.26,2.94,0.431,1.68,875,ok
+0299397AR,429329.19,4586970.02,96.32,Tilia x europaea,False,SEGONA,Av Estatut de Catalunya,6.4,16.8,4.62,3.35,0.455,1.57,580,ok
+0299406AR,429336.47,4586963.0,95.65,Tilia x europaea,False,PRIMERA,Av Estatut de Catalunya,,0.0,0.0,,,,0,no_crown_detected
+0299407AR,429343.99,4586956.38,95.11,Tilia x europaea,False,SEGONA,Av Estatut de Catalunya,7.7,18.8,4.89,3.5,0.445,1.62,713,ok
+0309316AR,429454.83,4586829.3,85.71,Tipuana tipu,False,SEGONA,Pl Estatut,9.39,50.2,8.0,4.53,0.296,2.44,1032,ok
+0309317AR,429458.6,4586824.74,85.49,Tipuana tipu,False,TERCERA,Pl Estatut,9.77,76.2,9.85,5.31,0.275,2.58,1478,ok
+0309318AR,429422.19,4586797.28,89.98,Tipuana tipu,False,SEGONA,Ptge Marquès de Castellbell,4.16,40.5,7.18,2.67,0.335,2.19,759,ok
+0309319AR,429426.67,4586791.68,89.94,Tipuana tipu,False,SEGONA,Ptge Marquès de Castellbell,5.29,14.2,4.26,3.76,0.364,2.02,269,ok
+0309320AR,429432.03,4586807.56,89.28,Tipuana tipu,False,PRIMERA,Ptge Marquès de Castellbell,,0.0,0.0,,,,0,no_crown_detected
+0309321AR,429446.97,4586788.12,89.46,Tipuana tipu,False,SEGONA,Ptge Marquès de Castellbell,4.75,14.5,4.3,3.36,0.458,1.56,260,ok
+0309322AR,429451.22,4586782.13,89.43,Tipuana tipu,False,PRIMERA,Ptge Marquès de Castellbell,,0.0,0.0,,,,0,no_crown_detected
+0309323AR,429440.5,4586819.6,88.63,Catalpa bignonioides,False,SEGONA,Ptge Marquès de Castellbell,6.89,27.0,5.86,1.93,0.221,3.02,538,ok
+0309324AR,429448.87,4586809.58,88.79,Catalpa bignonioides,False,SEGONA,Ptge Marquès de Castellbell,5.34,14.2,4.26,2.89,0.342,2.15,284,ok
+0309325AR,429453.29,4586803.92,88.78,Catalpa bignonioides,False,SEGONA,Ptge Marquès de Castellbell,5.92,11.0,3.74,3.87,0.391,1.88,253,ok
+0309326AR,429460.66,4586794.47,88.78,Catalpa bignonioides,False,SEGONA,Ptge Marquès de Castellbell,5.02,9.8,3.52,3.31,0.485,1.45,206,ok
+0309327AR,429465.55,4586788.67,88.78,Catalpa bignonioides,False,PRIMERA,Ptge Marquès de Castellbell,2.7,4.2,2.33,1.53,0.125,4.16,88,low_tree
+0309328AR,429468.85,4586784.08,88.73,Catalpa bignonioides,False,SEGONA,Ptge Marquès de Castellbell,6.44,24.8,5.61,2.88,0.35,2.1,531,ok
+0309329AR,429473.21,4586778.03,88.68,Tipuana tipu,False,PRIMERA,Ptge Marquès de Castellbell,3.82,5.5,2.65,2.93,0.483,1.45,89,ok
+0309330AR,429456.42,4586768.88,89.42,Tipuana tipu,False,TERCERA,Ptge Marquès de Castellbell,7.54,53.5,8.25,2.64,0.244,2.82,969,ok
+0309331AR,429461.56,4586768.02,89.18,Tipuana tipu,False,TERCERA,Ptge Marquès de Castellbell,8.73,50.2,8.0,3.37,0.167,3.58,1022,ok
+0309332AR,429466.96,4586767.18,88.93,Tipuana tipu,False,SEGONA,Ptge Marquès de Castellbell,8.59,39.5,7.09,3.43,0.104,4.53,674,ok
+0309333AR,429472.23,4586766.64,88.78,Tipuana tipu,False,SEGONA,Ptge Marquès de Castellbell,7.15,31.8,6.36,3.86,0.231,2.93,615,ok
+0309334AR,429477.03,4586765.97,88.7,Tipuana tipu,False,SEGONA,Ptge Marquès de Castellbell,6.69,27.0,5.86,2.85,0.159,3.67,527,ok
+0309335AR,429482.67,4586767.0,88.51,Tipuana tipu,False,SEGONA,Ptge Marquès de Castellbell,6.28,30.0,6.18,2.72,0.274,2.59,616,ok
+0309336AR,429488.23,4586766.19,88.23,Tipuana tipu,False,SEGONA,Ptge Marquès de Castellbell,6.84,43.2,7.42,3.06,0.243,2.83,828,ok
+0309337AR,429496.17,4586764.97,87.93,Tipuana tipu,False,SEGONA,Ptge Marquès de Castellbell,8.46,56.5,8.48,3.91,0.243,2.83,1187,ok
+0313525AR,429418.7,4586774.18,90.57,Styphnolobium japonicum 'Dot',False,SEGONA,Ptge Marquès de Castellbell,7.43,19.2,4.95,3.9,0.306,2.37,379,ok
+0313526AR,429414.37,4586774.74,90.76,Styphnolobium japonicum 'Dot',False,SEGONA,Ptge Marquès de Castellbell,7.24,34.0,6.58,3.85,0.243,2.83,651,ok
+0314500AR,429085.74,4586701.77,114.9,Cupressus sempervirens,False,TERCERA,C\ Torelló,11.71,10.0,3.57,4.24,0.37,1.99,243,ok
+0314501AR,429085.94,4586701.0,114.92,Cupressus sempervirens,False,SEGONA,C\ Torelló,11.71,5.5,2.65,4.41,0.233,2.92,159,ok
+0314502AR,429086.07,4586700.17,114.84,Cupressus sempervirens,False,PRIMERA,C\ Torelló,11.71,10.5,3.66,3.5,0.255,2.73,251,ok
+0314503AR,429084.18,4586709.3,115.31,Cupressus sempervirens,False,PRIMERA,Av Cardenal Vidal i Barraquer,12.32,19.5,4.98,8.48,0.331,2.21,499,ok
+0314504AR,429084.11,4586709.75,115.31,Cupressus sempervirens,False,SEGONA,Av Cardenal Vidal i Barraquer,12.16,1.0,1.13,1.73,0.32,2.28,25,no_crown_detected
+0322862AR,429357.19,4586945.72,93.95,Tilia x europaea,False,PRIMERA,Av Estatut de Catalunya,5.4,3.8,2.19,2.59,0.495,1.41,165,ok
+0322863AR,429350.6,4586951.16,94.49,Tilia x europaea,False,PRIMERA,Av Estatut de Catalunya,4.76,3.5,2.11,2.59,0.571,1.12,141,ok
+0322864AR,429305.78,4586684.8,90.89,Styphnolobium japonicum,False,PRIMERA,C\ Alarcón,5.29,8.8,3.34,2.79,0.425,1.71,179,ok
+0322865AR,429292.5,4586638.97,92.14,Styphnolobium japonicum,False,PRIMERA,C\ Alarcón,11.22,53.2,8.23,3.32,0.207,3.15,1245,ok
+0322866AR,429291.01,4586631.41,92.45,Styphnolobium japonicum,False,PRIMERA,C\ Alarcón,10.02,34.0,6.58,3.83,0.239,2.86,879,ok
+0322867AR,429218.34,4586579.87,95.47,Styphnolobium japonicum,False,PRIMERA,C\ Alarcón,5.12,51.5,8.1,2.61,0.215,3.07,832,ok
+0322868AR,429208.69,4586569.73,95.69,Styphnolobium japonicum,False,PRIMERA,C\ Alarcón,4.95,33.5,6.53,2.62,0.252,2.75,568,ok
+0322869AR,429213.58,4586574.75,95.6,Styphnolobium japonicum,False,PRIMERA,C\ Alarcón,5.71,31.2,6.31,2.89,0.286,2.5,531,ok
+0322870AR,429161.67,4586501.93,98.45,Styphnolobium japonicum,False,PRIMERA,C\ Lisboa,,0.0,0.0,,,,0,no_crown_detected
+0322871AR,429193.99,4586554.79,96.15,Styphnolobium japonicum,False,PRIMERA,C\ Alarcón,9.27,29.5,6.13,3.35,0.313,2.32,1407,ok
+0322872AR,429151.28,4586503.44,101.27,Styphnolobium japonicum,False,PRIMERA,C\ Alarcón,5.04,17.5,4.72,1.81,0.274,2.59,648,ok
+0322873AR,429148.56,4586497.46,102.4,Styphnolobium japonicum,False,PRIMERA,C\ Alarcón,11.24,63.5,8.99,3.03,0.162,3.64,2745,ok
+0322874AR,429141.63,4586483.4,103.85,Styphnolobium japonicum,False,PRIMERA,C\ Alarcón,5.01,10.2,3.61,2.07,0.465,1.53,443,ok
+0322875AR,429145.42,4586490.72,103.66,Styphnolobium japonicum,False,PRIMERA,C\ Alarcón,8.25,40.0,7.14,2.98,0.219,3.04,2045,ok
+0334255AR,429503.38,4586722.61,86.91,Populus nigra 'Italica',False,PRIMERA,C\ Lisboa,3.17,13.8,4.18,2.15,0.424,1.71,271,ok
+0345812AR,429019.35,4586516.71,114.72,Cupressus sempervirens,False,PRIMERA,Av Cardenal Vidal i Barraquer,10.21,9.0,3.39,3.42,0.177,3.47,364,ok
+0345813AR,429019.29,4586515.88,114.66,Cupressus sempervirens,False,SEGONA,Av Cardenal Vidal i Barraquer,10.61,3.5,2.11,3.68,0.213,3.1,211,ok
+0345827AR,429083.47,4586792.52,113.96,Phoenix canariensis,False,SEGONA,Av Cardenal Vidal i Barraquer,13.54,10.2,3.61,3.02,0.219,3.04,146,ok
+0345828AR,429083.53,4586798.24,113.76,Phoenix canariensis,False,SEGONA,Av Cardenal Vidal i Barraquer,18.29,8.0,3.19,2.75,0.171,3.54,164,ok
+0345829AR,429083.72,4586801.34,113.72,Phoenix canariensis,False,SEGONA,Av Cardenal Vidal i Barraquer,19.11,20.2,5.08,13.5,0.135,4.0,362,ok
+0345830AR,429084.09,4586804.29,113.61,Phoenix canariensis,False,SEGONA,Av Cardenal Vidal i Barraquer,19.87,21.0,5.17,15.26,0.157,3.71,332,ok
+0345831AR,429084.28,4586806.97,113.57,Phoenix canariensis,False,SEGONA,Av Cardenal Vidal i Barraquer,20.2,20.5,5.11,16.14,0.264,2.67,406,ok
+0345832AR,429084.65,4586809.92,113.46,Phoenix canariensis,False,SEGONA,Av Cardenal Vidal i Barraquer,19.69,24.5,5.59,14.3,0.237,2.88,485,ok
+0345833AR,429085.07,4586812.65,113.46,Phoenix canariensis,False,SEGONA,Av Cardenal Vidal i Barraquer,20.35,78.8,10.01,17.44,0.215,3.07,1409,ok
+0345838AR,429019.22,4586514.48,114.62,Cupressus sempervirens,False,SEGONA,Av Cardenal Vidal i Barraquer,12.41,4.0,2.26,2.81,0.263,2.67,222,ok
+0345839AR,429019.15,4586513.48,114.56,Cupressus sempervirens,False,PRIMERA,Av Cardenal Vidal i Barraquer,12.41,2.5,1.78,2.57,0.218,3.04,92,ok
+0345840AR,429019.02,4586511.69,114.46,Cupressus sempervirens,False,PRIMERA,Av Cardenal Vidal i Barraquer,9.84,4.2,2.33,2.68,0.202,3.2,218,ok
+0345841AR,429019.07,4586511.08,114.43,Cupressus sempervirens,False,PRIMERA,Av Cardenal Vidal i Barraquer,9.85,2.0,1.6,2.47,0.228,2.96,80,ok
+0345842AR,429018.83,4586508.96,114.41,Cupressus sempervirens,False,PRIMERA,Av Cardenal Vidal i Barraquer,11.09,4.2,2.33,3.07,0.246,2.8,228,ok
+0345843AR,429018.82,4586507.84,114.43,Cupressus sempervirens,False,PRIMERA,Av Cardenal Vidal i Barraquer,10.97,1.8,1.49,2.94,0.259,2.7,99,no_crown_detected
+0345844AR,429018.81,4586507.01,114.39,Cupressus sempervirens,False,PRIMERA,Av Cardenal Vidal i Barraquer,8.9,1.8,1.49,4.16,0.381,1.93,100,no_crown_detected
+0345845AR,429018.8,4586506.17,114.38,Cupressus sempervirens,False,PRIMERA,Av Cardenal Vidal i Barraquer,8.45,0.2,0.56,5.61,0.5,1.39,8,no_crown_detected
+0345846AR,429018.68,4586505.05,114.25,Cupressus sempervirens,False,PRIMERA,Av Cardenal Vidal i Barraquer,,0.0,0.0,,,,0,no_crown_detected
+0345855AR,429017.07,4586484.25,114.01,Cupressus sempervirens,False,SEGONA,Av Cardenal Vidal i Barraquer,9.2,10.8,3.7,2.99,0.188,3.35,541,ok
+0345856AR,429016.94,4586482.46,113.91,Cupressus sempervirens,False,SEGONA,Av Cardenal Vidal i Barraquer,9.84,8.0,3.19,2.09,0.301,2.4,363,ok
+0345860AR,429016.8,4586479.67,112.98,Cupressus sempervirens,False,SEGONA,Av Cardenal Vidal i Barraquer,8.16,6.2,2.82,2.31,0.255,2.73,305,ok
+0345861AR,429016.53,4586477.9,112.41,Cupressus sempervirens,False,PRIMERA,Av Cardenal Vidal i Barraquer,7.63,2.8,1.87,1.76,0.043,6.3,133,ok
+0345863AR,429016.43,4586476.27,113.74,Cupressus sempervirens,False,PRIMERA,Av Cardenal Vidal i Barraquer,11.19,10.8,3.7,2.01,0.142,3.9,516,ok
+0345864AR,429015.82,4586467.94,109.85,Cupressus sempervirens,False,SEGONA,Av Cardenal Vidal i Barraquer,8.39,2.0,1.6,2.08,0.074,5.21,76,ok
+0345865AR,429015.91,4586468.78,110.8,Cupressus sempervirens,False,SEGONA,Av Cardenal Vidal i Barraquer,9.0,1.2,1.26,2.02,0.1,4.61,44,no_crown_detected
+0345866AR,429015.95,4586469.67,111.04,Cupressus sempervirens,False,PRIMERA,Av Cardenal Vidal i Barraquer,9.51,11.0,3.74,2.05,0.146,3.84,558,ok

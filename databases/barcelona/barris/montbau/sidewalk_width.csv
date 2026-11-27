@@ -1,0 +1,555 @@
+tree_id,species,is_plane,street,width_m,facade_dist_m,flag,strip_width_m,size_class,ray_x0,ray_y0,ray_x1,ray_y1,pit_min_m2,pit_basis
+0059758AR,Styphnolobium japonicum,False,C\ Natzaret,27.16,28.1,ok,,large,428023.28,4586816.62,428008.49,4586839.4,1.5,class
+0060113AR,Platanus × acerifolia,True,C\ Natzaret,24.99,25.62,ok,,large,428023.28,4586816.62,428004.3,4586832.87,1.5,class
+0060240AR,Styphnolobium japonicum,False,C\ Natzaret,,30.46,no_facade,2.69,check,,,,,1.0,floor
+0062310AR,Populus nigra,False,Pg Vall d'Hebron,,65.55,no_facade,13.56,check,,,,,1.0,floor
+0062392AR,Brachychiton populneus,False,Pg Vall d'Hebron,,34.56,no_facade,5.38,check,,,,,1.0,floor
+0062407AR,Brachychiton populneus,False,Pg Vall d'Hebron,,33.02,no_facade,5.34,check,,,,,1.0,floor
+0062432AR,Brachychiton populneus,False,Pg Vall d'Hebron,,33.41,no_facade,5.29,check,,,,,1.0,floor
+0062519AR,Populus nigra 'Italica',False,Pg Vall d'Hebron,,43.48,no_facade,2.19,check,,,,,1.0,floor
+0062576AR,Brachychiton populneus,False,Pg Vall d'Hebron,,38.83,no_facade,5.41,check,,,,,1.0,floor
+0062594AR,Populus nigra 'Italica',False,Pg Vall d'Hebron,,39.5,no_facade,2.26,check,,,,,1.0,floor
+0062678AR,Brachychiton populneus,False,Pg Vall d'Hebron,,33.39,no_facade,5.29,check,,,,,1.0,floor
+0062715AR,Brachychiton populneus,False,Pg Vall d'Hebron,,26.25,median,4.24,check,,,,,1.0,floor
+0062723AR,Brachychiton populneus,False,Pg Vall d'Hebron,,34.49,no_facade,5.29,check,,,,,1.0,floor
+0062797AR,Brachychiton populneus,False,Pg Vall d'Hebron,,27.48,median,4.86,check,,,,,1.0,floor
+0062904AR,Brachychiton populneus,False,Pg Vall d'Hebron,,29.2,median,5.3,check,,,,,1.0,floor
+0062972AR,Brachychiton populneus,False,Pg Vall d'Hebron,,42.45,no_facade,5.4,check,,,,,1.0,floor
+0063071AR,Brachychiton populneus,False,Pg Vall d'Hebron,,34.5,no_facade,5.36,check,,,,,1.0,floor
+0063094AR,Brachychiton populneus,False,Pg Vall d'Hebron,,43.55,no_facade,5.39,check,,,,,1.0,floor
+0063107AR,Brachychiton populneus,False,Pg Vall d'Hebron,,37.3,no_facade,5.4,check,,,,,1.0,floor
+0063432AR,Brachychiton populneus,False,Pg Vall d'Hebron,,26.18,median,3.78,check,,,,,1.0,floor
+0063522AR,Brachychiton populneus,False,Pg Vall d'Hebron,,34.52,no_facade,5.35,check,,,,,1.0,floor
+0063571AR,Brachychiton populneus,False,Pg Vall d'Hebron,,34.39,no_facade,5.32,check,,,,,1.0,floor
+0063630AR,Brachychiton populneus,False,Pg Vall d'Hebron,,34.72,no_facade,5.33,check,,,,,1.0,floor
+0063676AR,Brachychiton populneus,False,Pg Vall d'Hebron,,40.19,no_facade,5.39,check,,,,,1.0,floor
+0063866AR,Brachychiton populneus,False,Pg Vall d'Hebron,,35.63,no_facade,5.38,check,,,,,1.0,floor
+0063889AR,Populus nigra 'Italica',False,Pg Vall d'Hebron,,36.93,no_facade,2.13,check,,,,,1.0,floor
+0127390AR,Pinus halepensis,False,C\ Domènech i Montaner,9.95,2.85,ok,,large,428338.46,4586807.27,428341.79,4586816.65,1.5,class
+0127392AR,Platanus × acerifolia,True,C\ Arquitectura,,11.27,median,15.81,check,,,,,1.0,floor
+0127395AR,Brachychiton populneus,False,Pg Vall d'Hebron,,65.58,no_facade,,check,,,,,1.0,floor
+0127396AR,Tipuana tipu,False,Pl Zurbarán,13.26,10.71,ok,,large,428342.96,4586866.47,428355.45,4586862.0,1.5,class
+0127397AR,Brachychiton populneus,False,C\ Arquitectura,6.12,4.89,ok,,large,428139.75,4586795.91,428141.75,4586801.7,1.5,class
+0127399AR,Platanus × acerifolia,True,C\ Arquitectura,,13.19,median,3.49,check,,,,,1.0,floor
+0127400AR,Platanus × acerifolia,True,C\ Vayreda,,43.69,no_facade,,check,,,,,1.0,floor
+0127401AR,Brachychiton populneus,False,Pg Vall d'Hebron,13.66,13.19,ok,,large,428349.57,4586424.24,428362.42,4586419.61,1.5,class
+0127402AR,Styphnolobium japonicum,False,C\ Harmonia,,35.61,no_facade,17.78,check,,,,,1.0,floor
+0127405AR,Platanus × acerifolia,True,Pg Vall d'Hebron,,70.55,no_facade,,check,,,,,1.0,floor
+0127406AR,Platanus × acerifolia,True,Pg Vall d'Hebron,,33.01,no_facade,27.9,check,,,,,1.0,floor
+0127408AR,Platanus × acerifolia,True,Pg Vall d'Hebron,,59.61,no_facade,,check,,,,,1.0,floor
+0127409AR,Platanus × acerifolia,True,Av Jordà,2.62,2.07,ok,,small,428089.64,4586441.55,428088.17,4586439.38,1.0,class
+0127410AR,Tipuana tipu,False,Pl Zurbarán,17.07,15.87,ok,,large,428360.65,4586827.84,428366.47,4586843.89,1.5,class
+0127412AR,Platanus × acerifolia,True,C\ Paulo Freire,,50.83,no_facade,2.0,check,,,,,1.0,floor
+0127413AR,Jacaranda mimosifolia,False,C\ Joan Sales,10.42,10.09,ok,,large,428491.33,4587157.41,428501.7,4587156.43,1.5,class
+0127414AR,Platanus × acerifolia,True,Pg Vall d'Hebron,,78.76,no_facade,5.63,check,,,,,1.0,floor
+0127416AR,Tipuana tipu,False,Pl Zurbarán,18.04,12.46,ok,,large,428350.94,4586831.36,428351.13,4586849.4,1.5,class
+0127418AR,Jacaranda mimosifolia,False,C\ Joan Sales,10.02,10.03,ok,,large,428490.49,4587154.98,428499.97,4587151.72,1.5,class
+0127419AR,Platanus × acerifolia,True,C\ Paulo Freire,,32.36,no_facade,2.07,check,,,,,1.0,floor
+0127421AR,Platanus × acerifolia,True,C\ Paulo Freire,,46.28,no_facade,2.01,check,,,,,1.0,floor
+0127422AR,Platanus × acerifolia,True,Av Jordà,11.25,8.08,ok,,large,428089.64,4586441.55,428092.14,4586430.57,1.5,class
+0127424AR,Platanus × acerifolia,True,Pg Vall d'Hebron,20.31,18.99,ok,,large,428740.76,4587437.79,428753.72,4587422.15,1.5,class
+0127425AR,Styphnolobium japonicum,False,C\ Joan Sales,13.58,6.62,ok,,large,428485.02,4587154.34,428482.77,4587140.94,1.5,class
+0127426AR,Styphnolobium japonicum,False,Av Jordà,,29.12,median,,check,,,,,1.0,floor
+0127428AR,Platanus × acerifolia,True,Pg Vall d'Hebron,,50.95,no_facade,25.65,check,,,,,1.0,floor
+0127429AR,Brachychiton populneus,False,Pg Vall d'Hebron,24.28,23.23,ok,,large,428439.6,4586706.92,428462.48,4586698.8,1.5,class
+0127432AR,Platanus × acerifolia,True,C\ Natzaret,11.28,10.24,ok,,large,428007.63,4586790.61,428004.36,4586801.4,1.5,class
+0127433AR,Citrus × aurantium,False,C\ Mímica,2.47,1.85,ok,,none,428469.03,4587162.04,428466.7,4587162.87,1.0,floor
+0127435AR,Brachychiton populneus,False,Pg Vall d'Hebron,24.35,23.34,ok,,large,428456.42,4586753.83,428479.37,4586745.7,1.5,class
+0127436AR,Platanus × acerifolia,True,Pg Vall d'Hebron,24.19,23.26,ok,,large,428429.9,4586679.59,428452.7,4586671.5,1.5,class
+0127438AR,Platanus × acerifolia,True,Pg Vall d'Hebron,,77.82,no_facade,,check,,,,,1.0,floor
+0127439AR,Celtis australis,False,C\ Àngel Marquès,5.12,2.83,ok,,medium,428308.77,4586838.62,428313.59,4586836.9,1.0,class
+0127440AR,Styphnolobium japonicum,False,C\ Vayreda,11.16,10.14,ok,,large,428110.75,4586829.21,428100.23,4586832.92,1.5,class
+0127441AR,Platanus × acerifolia,True,Pg Vall d'Hebron,,32.44,no_facade,,check,,,,,1.0,floor
+0127443AR,Platanus × acerifolia,True,Pg Vall d'Hebron,26.84,25.7,ok,,large,428462.81,4586773.4,428489.64,4586773.9,1.5,class
+0127444AR,Tipuana tipu,False,Pl Zurbarán,,11.0,no_kerb,23.92,check,,,,,1.0,floor
+0127445AR,Brachychiton populneus,False,Pg Vall d'Hebron,,22.11,median,5.51,check,,,,,1.0,floor
+0127447AR,Brachychiton populneus,False,Pg Vall d'Hebron,,21.65,median,16.07,check,,,,,1.0,floor
+0127452AR,Platanus × acerifolia,True,C\ Harmonia,,12.1,median,,check,,,,,1.0,floor
+0127453AR,Styphnolobium japonicum,False,C\ Arquitectura,,34.25,no_facade,1.77,check,,,,,1.0,floor
+0127455AR,Platanus × acerifolia,True,C\ Paulo Freire,,31.5,no_facade,2.05,check,,,,,1.0,floor
+0127457AR,Platanus × acerifolia,True,C\ Harmonia,,30.87,no_facade,17.33,check,,,,,1.0,floor
+0127458AR,Platanus × acerifolia,True,C\ Arquitectura,2.65,1.71,ok,,small,428158.9,4586805.75,428158.0,4586803.25,1.0,class
+0127459AR,Melia azedarach,False,Pl Zurbarán,13.26,6.12,ok,,large,428343.08,4586866.78,428355.57,4586862.31,1.5,class
+0127460AR,Platanus × acerifolia,True,C\ Arquitectura,,19.13,median,10.77,check,,,,,1.0,floor
+0127461AR,Platanus × acerifolia,True,Pg Vall d'Hebron,24.41,23.4,ok,,large,428458.44,4586759.53,428481.45,4586751.38,1.5,class
+0127462AR,Brachychiton populneus,False,Pg Vall d'Hebron,,78.47,no_facade,5.93,check,,,,,1.0,floor
+0127463AR,Platanus × acerifolia,True,Av Jordà,,16.54,median,23.47,check,,,,,1.0,floor
+0127464AR,Platanus × acerifolia,True,Pg Vall d'Hebron,25.53,24.39,ok,,large,428705.77,4587393.47,428724.78,4587376.42,1.5,class
+0127466AR,Platanus × acerifolia,True,Pg Vall d'Hebron,,21.56,median,17.49,check,,,,,1.0,floor
+0127467AR,Platanus × acerifolia,True,Pg Vall d'Hebron,,56.3,no_facade,,check,,,,,1.0,floor
+0127468AR,Platanus × acerifolia,True,Pg Vall d'Hebron,24.4,23.37,ok,,large,428445.73,4586724.21,428468.73,4586716.05,1.5,class
+0127469AR,Tipuana tipu,False,Pl Zurbarán,,10.85,no_kerb,31.57,check,,,,,1.0,floor
+0127470AR,Platanus × acerifolia,True,C\ Harmonia,,14.54,median,15.11,check,,,,,1.0,floor
+0127471AR,Platanus × acerifolia,True,Av Jordà,,16.48,median,23.4,check,,,,,1.0,floor
+0127476AR,Platanus × acerifolia,True,C\ Paulo Freire,,62.22,no_facade,2.04,check,,,,,1.0,floor
+0127477AR,Platanus × acerifolia,True,Pg Vall d'Hebron,24.41,23.14,ok,,large,428709.58,4587397.72,428727.75,4587381.42,1.5,class
+0127478AR,Ulmus pumila,False,C\ Harmonia,,48.13,no_facade,20.75,check,,,,,1.0,floor
+0127479AR,Styphnolobium japonicum,False,C\ Vayreda,13.94,11.74,ok,,large,428175.34,4586910.57,428174.72,4586924.49,1.5,class
+0127480AR,Styphnolobium japonicum 'Dot',False,C\ Vayreda,,31.04,no_facade,,check,,,,,1.0,floor
+0127482AR,Platanus × acerifolia,True,Pg Vall d'Hebron,,34.23,no_facade,28.1,check,,,,,1.0,floor
+0127484AR,Platanus × acerifolia,True,C\ Arquitectura,,15.43,median,,check,,,,,1.0,floor
+0127488AR,Platanus × acerifolia,True,Pg Vall d'Hebron,,21.68,median,16.09,check,,,,,1.0,floor
+0127489AR,Platanus × acerifolia,True,Pg Vall d'Hebron,,32.76,no_facade,25.41,check,,,,,1.0,floor
+0127490AR,Brachychiton populneus,False,Pg Vall d'Hebron,,36.77,no_facade,,check,,,,,1.0,floor
+0127491AR,Platanus × acerifolia,True,Pg Vall d'Hebron,16.13,15.53,ok,,large,428361.14,4586456.36,428376.78,4586460.33,1.5,class
+0127493AR,Platanus × acerifolia,True,Pg Vall d'Hebron,,78.32,no_facade,,check,,,,,1.0,floor
+0127495AR,Platanus × acerifolia,True,C\ Arquitectura,5.18,4.52,ok,,medium,428127.52,4586819.97,428125.8,4586815.08,1.0,class
+0127498AR,Platanus × acerifolia,True,C\ Harmonia,,22.92,median,24.79,check,,,,,1.0,floor
+0127500AR,Platanus × acerifolia,True,Pg Vall d'Hebron,23.66,22.39,ok,,large,428710.66,4587398.91,428731.29,4587387.33,1.5,class
+0127501AR,Celtis australis,False,C\ Àngel Marquès,5.26,2.69,ok,,medium,428293.96,4586797.29,428298.91,4586795.52,1.0,class
+0127502AR,Brachychiton populneus,False,C\ Arquitectura,,48.2,no_facade,20.09,check,,,,,1.0,floor
+0127504AR,Platanus × acerifolia,True,C\ Harmonia,,25.1,median,16.86,check,,,,,1.0,floor
+0127505AR,Platanus × acerifolia,True,Pg Vall d'Hebron,,77.9,no_facade,,check,,,,,1.0,floor
+0127506AR,Styphnolobium japonicum,False,C\ Vayreda,,50.12,no_facade,,check,,,,,1.0,floor
+0127507AR,Styphnolobium japonicum,False,C\ Harmonia,15.01,13.35,ok,,large,428554.41,4587324.9,428543.53,4587314.56,1.5,class
+0127508AR,Brachychiton populneus,False,C\ Arquitectura,,57.49,no_facade,15.46,check,,,,,1.0,floor
+0127510AR,Platanus × acerifolia,True,C\ Arquitectura,,29.28,median,2.92,check,,,,,1.0,floor
+0127511AR,Platanus × acerifolia,True,Pg Vall d'Hebron,,48.85,no_facade,9.42,check,,,,,1.0,floor
+0127512AR,Melia azedarach,False,Pl Zurbarán,,6.09,no_kerb,23.76,check,,,,,1.0,floor
+0127513AR,Brachychiton populneus,False,Pg Vall d'Hebron,,25.44,median,5.44,check,,,,,1.0,floor
+0127518AR,Platanus × acerifolia,True,C\ Natzaret,14.59,13.08,ok,,large,427977.71,4586716.93,427965.37,4586709.16,1.5,class
+0127519AR,Platanus × acerifolia,True,Pg Vall d'Hebron,,59.64,no_facade,,check,,,,,1.0,floor
+0127521AR,Celtis australis,False,Pg Vall d'Hebron,,45.6,no_facade,,check,,,,,1.0,floor
+0127522AR,Platanus × acerifolia,True,Av Jordà,,17.31,median,25.12,check,,,,,1.0,floor
+0127523AR,Brachychiton populneus,False,Pg Vall d'Hebron,20.67,19.9,ok,,large,428361.14,4586456.36,428379.03,4586466.72,1.5,class
+0127524AR,Platanus × acerifolia,True,C\ Arquitectura,,12.98,median,,check,,,,,1.0,floor
+0127527AR,Platanus × acerifolia,True,C\ Poesia,,20.14,median,,check,,,,,1.0,floor
+0127528AR,Platanus × acerifolia,True,Pg Vall d'Hebron,13.45,12.92,ok,,large,428360.02,4586453.24,428372.67,4586448.68,1.5,class
+0127529AR,Platanus × acerifolia,True,Pg Vall d'Hebron,,26.16,median,7.69,check,,,,,1.0,floor
+0127530AR,Ligustrum lucidum,False,C\ Arquitectura,,13.96,median,,check,,,,,1.0,floor
+0127531AR,Fraxinus ornus OBELISK® 'Paus Johannes-Paulus II',False,C\ Arquitectura,,25.53,median,2.33,check,,,,,1.0,floor
+0127532AR,Brachychiton populneus,False,Pg Vall d'Hebron,29.18,28.39,ok,,large,428462.65,4586775.35,428491.58,4586779.23,1.5,class
+0127534AR,Tipuana tipu,False,Pl Zurbarán,17.09,3.1,ok,,large,428365.68,4586826.01,428371.51,4586842.08,1.5,class
+0127536AR,Tipuana tipu,False,Pl Zurbarán,17.09,15.54,ok,,large,428365.32,4586826.14,428371.15,4586842.21,1.5,class
+0127537AR,Platanus × acerifolia,True,Av Jordà,8.97,8.39,ok,,large,428105.34,4586422.28,428096.49,4586420.84,1.5,class
+0127540AR,Platanus × acerifolia,True,Av Jordà,,17.57,median,,check,,,,,1.0,floor
+0127541AR,Brachychiton populneus,False,Pg Vall d'Hebron,24.46,23.6,ok,,large,428460.33,4586764.88,428483.39,4586756.71,1.5,class
+0127542AR,Platanus × acerifolia,True,C\ Arquitectura,,11.6,median,,check,,,,,1.0,floor
+0127543AR,Platanus × acerifolia,True,Pg Vall d'Hebron,24.32,23.41,ok,,large,428441.67,4586712.75,428464.59,4586704.62,1.5,class
+0127544AR,Styphnolobium japonicum,False,C\ Arquitectura,,10.94,median,,check,,,,,1.0,floor
+0127546AR,Platanus × acerifolia,True,Pg Vall d'Hebron,,34.63,no_facade,27.81,check,,,,,1.0,floor
+0127547AR,Brachychiton populneus,False,C\ Arquitectura,,43.69,no_facade,14.95,check,,,,,1.0,floor
+0127551AR,Platanus × acerifolia,True,C\ Poesia,,16.63,median,,check,,,,,1.0,floor
+0127553AR,Platanus × acerifolia,True,Pg Vall d'Hebron,,32.47,no_facade,25.44,check,,,,,1.0,floor
+0127554AR,Platanus × acerifolia,True,C\ Paulo Freire,,67.15,no_facade,2.1,check,,,,,1.0,floor
+0127555AR,Styphnolobium japonicum,False,C\ Mímica,2.5,1.7,ok,,small,428475.02,4587178.97,428472.66,4587179.81,1.0,class
+0127557AR,Platanus × acerifolia,True,C\ Arquitectura,,19.77,median,,check,,,,,1.0,floor
+0127558AR,Styphnolobium japonicum,False,C\ Natzaret,6.61,5.62,ok,,large,427999.27,4586764.33,427993.14,4586766.81,1.5,class
+0127559AR,Tipuana tipu,False,Pl Zurbarán,17.06,3.24,ok,,large,428356.36,4586829.39,428362.18,4586845.43,1.5,class
+0127560AR,Celtis australis,False,Pg Vall d'Hebron,,38.37,no_facade,26.26,check,,,,,1.0,floor
+0127561AR,Platanus × acerifolia,True,C\ Harmonia,,10.54,median,,check,,,,,1.0,floor
+0127562AR,Brachychiton populneus,False,C\ Arquitectura,,51.15,no_facade,24.97,check,,,,,1.0,floor
+0127563AR,Platanus × acerifolia,True,C\ Harmonia,,9.7,median,26.7,check,,,,,1.0,floor
+0127565AR,Platanus × acerifolia,True,C\ Harmonia,,18.18,median,20.47,check,,,,,1.0,floor
+0127568AR,Styphnolobium japonicum,False,C\ Harmonia,13.61,13.0,ok,,large,428507.41,4587343.02,428499.89,4587331.68,1.5,class
+0127569AR,Platanus × acerifolia,True,C\ Arquitectura,,12.36,median,,check,,,,,1.0,floor
+0127570AR,Platanus × acerifolia,True,Av Jordà,2.38,1.88,ok,,none,428087.5,4586446.37,428085.32,4586445.41,1.0,floor
+0127572AR,Styphnolobium japonicum,False,Av Jordà,,18.84,median,29.42,check,,,,,1.0,floor
+0127575AR,Platanus × acerifolia,True,Pg Vall d'Hebron,,75.39,no_facade,,check,,,,,1.0,floor
+0127576AR,Brachychiton populneus,False,Pg Vall d'Hebron,,27.97,median,,check,,,,,1.0,floor
+0127578AR,Platanus × acerifolia,True,Pg Vall d'Hebron,,41.58,no_facade,17.89,check,,,,,1.0,floor
+0127579AR,Platanus × acerifolia,True,C\ Arquitectura,,13.35,median,2.97,check,,,,,1.0,floor
+0127580AR,Platanus × acerifolia,True,C\ Arquitectura,,24.67,median,11.77,check,,,,,1.0,floor
+0127581AR,Tipuana tipu,False,Pl Zurbarán,,10.78,no_kerb,29.74,check,,,,,1.0,floor
+0127583AR,Brachychiton populneus,False,Pg Vall d'Hebron,,21.62,median,16.14,check,,,,,1.0,floor
+0127585AR,Platanus × acerifolia,True,C\ Harmonia,,12.09,median,24.61,check,,,,,1.0,floor
+0127590AR,Brachychiton populneus,False,Pg Vall d'Hebron,,29.77,no_kerb,,check,,,,,1.0,floor
+0127591AR,Platanus × acerifolia,True,Pg Vall d'Hebron,,73.61,no_facade,5.16,check,,,,,1.0,floor
+0127592AR,Platanus × acerifolia,True,C\ Arquitectura,,24.35,median,,check,,,,,1.0,floor
+0127593AR,Brachychiton populneus,False,Pg Vall d'Hebron,,75.07,no_facade,,check,,,,,1.0,floor
+0127594AR,Ligustrum lucidum,False,C\ Roig i Solé,,4.46,no_kerb,27.65,check,,,,,1.0,floor
+0127597AR,Ulmus pumila,False,C\ Àngel Marquès,5.2,2.45,ok,,medium,428290.54,4586787.74,428295.44,4586785.98,1.0,class
+0127598AR,Platanus × acerifolia,True,C\ Vayreda,10.46,9.74,ok,,large,428164.58,4586884.57,428154.75,4586888.13,1.5,class
+0127600AR,Platanus × acerifolia,True,C\ Natzaret,9.39,8.22,ok,,large,427977.71,4586716.93,427968.63,4586714.54,1.5,class
+0127601AR,Robinia pseudoacacia,False,C\ Domènech i Montaner,4.58,3.68,ok,,medium,428355.07,4586801.37,428356.6,4586805.69,1.0,class
+0127602AR,Melia azedarach,False,Pl Zurbarán,13.08,6.14,ok,,large,428339.93,4586857.97,428352.24,4586853.56,1.5,class
+0127603AR,Catalpa bignonioides,False,Pl Zurbarán,7.72,5.64,ok,,large,428413.29,4586808.79,428415.92,4586816.05,1.5,class
+0127605AR,Platanus × acerifolia,True,Pg Vall d'Hebron,24.26,23.34,ok,,large,428437.76,4586701.74,428460.63,4586693.62,1.5,class
+0127606AR,Ligustrum lucidum,False,C\ Roig i Solé,3.7,3.06,ok,,medium,428181.23,4586843.84,428184.7,4586842.58,1.0,class
+0127607AR,Pinus halepensis,False,C\ Harmonia,11.13,3.72,ok,,large,428361.43,4587288.69,428365.21,4587299.15,1.5,class
+0127608AR,Styphnolobium japonicum,False,C\ Harmonia,,11.63,median,,check,,,,,1.0,floor
+0127609AR,Styphnolobium japonicum,False,C\ Harmonia,15.0,14.33,ok,,large,428502.06,4587346.57,428493.77,4587334.06,1.5,class
+0127612AR,Pyrus calleryana 'Chanticleer',False,C\ Joan Sales,6.79,6.32,ok,,large,428480.61,4587155.85,428478.41,4587149.44,1.5,class
+0127616AR,Platanus × acerifolia,True,C\ Vayreda,5.49,4.65,ok,,medium,428114.76,4586840.56,428109.58,4586842.39,1.0,class
+0127617AR,Platanus × acerifolia,True,C\ Natzaret,6.27,5.55,ok,,large,427978.4,4586718.64,427972.59,4586720.99,1.5,class
+0127618AR,Styphnolobium japonicum,False,C\ Mímica,3.48,2.1,ok,,small,428476.08,4587181.99,428474.52,4587185.09,1.0,class
+0127619AR,Celtis australis,False,Pg Vall d'Hebron,,34.1,no_facade,25.65,check,,,,,1.0,floor
+0127620AR,Platanus × acerifolia,True,C\ Arquitectura,,11.03,median,,check,,,,,1.0,floor
+0127622AR,Pyrus calleryana 'Chanticleer',False,C\ Mímica,,5.87,median,27.86,check,,,,,1.0,floor
+0127623AR,Catalpa bignonioides,False,Pl Zurbarán,8.18,5.49,ok,,large,428397.16,4586817.18,428404.82,4586820.07,1.5,class
+0127624AR,Brachychiton populneus,False,Pg Vall d'Hebron,25.77,24.85,ok,,large,428361.14,4586456.36,428381.12,4586472.64,1.5,class
+0127625AR,Platanus × acerifolia,True,Pg Vall d'Hebron,13.7,13.08,ok,,large,428347.67,4586418.95,428360.55,4586414.31,1.5,class
+0127626AR,Platanus × acerifolia,True,C\ Arquitectura,,16.65,median,8.45,check,,,,,1.0,floor
+0127627AR,Brachychiton populneus,False,Pg Vall d'Hebron,,29.33,median,7.65,check,,,,,1.0,floor
+0127628AR,Platanus × acerifolia,True,Pg Vall d'Hebron,,21.52,median,16.19,check,,,,,1.0,floor
+0127629AR,Platanus × acerifolia,True,Av Jordà,12.28,11.52,ok,,large,428105.69,4586426.62,428093.45,4586427.62,1.5,class
+0127630AR,Brachychiton populneus,False,Pg Vall d'Hebron,,36.65,no_facade,,check,,,,,1.0,floor
+0127631AR,Platanus × acerifolia,True,Pg Vall d'Hebron,,33.74,no_facade,29.25,check,,,,,1.0,floor
+0127632AR,Platanus × acerifolia,True,Av Jordà,,16.6,median,23.28,check,,,,,1.0,floor
+0127633AR,Styphnolobium japonicum,False,C\ Harmonia,12.32,11.61,ok,,large,428512.41,4587339.71,428505.61,4587329.44,1.5,class
+0127634AR,Tilia x europaea,False,Pl Zurbarán,17.07,7.19,ok,,large,428360.81,4586827.78,428366.63,4586843.83,1.5,class
+0127635AR,Platanus × acerifolia,True,Av Jordà,,20.83,median,17.1,check,,,,,1.0,floor
+0127637AR,Ligustrum lucidum,False,C\ Roig i Solé,3.69,2.89,ok,,medium,428178.17,4586835.39,428181.64,4586834.14,1.0,class
+0127638AR,Platanus × acerifolia,True,Av Jordà,,23.3,median,,check,,,,,1.0,floor
+0127640AR,Tilia x europaea,False,Pl Zurbarán,17.09,7.23,ok,,large,428365.43,4586826.1,428371.26,4586842.17,1.5,class
+0127641AR,Fraxinus ornus OBELISK® 'Paus Johannes-Paulus II',False,C\ Vayreda,14.6,13.91,ok,,large,428151.27,4586864.18,428142.89,4586876.14,1.5,class
+0127642AR,Brachychiton populneus,False,Pg Vall d'Hebron,24.17,23.25,ok,,large,428423.91,4586662.69,428446.69,4586654.61,1.5,class
+0127643AR,Platanus × acerifolia,True,C\ Arquitectura,5.22,4.62,ok,,medium,428115.68,4586824.14,428112.72,4586819.84,1.0,class
+0127644AR,Fraxinus ornus OBELISK® 'Paus Johannes-Paulus II',False,C\ Vayreda,,13.75,median,15.09,check,,,,,1.0,floor
+0127646AR,Styphnolobium japonicum,False,Av Jordà,,16.62,median,6.56,check,,,,,1.0,floor
+0127648AR,Platanus × acerifolia,True,C\ Arquitectura,5.11,4.56,ok,,medium,428121.19,4586822.2,428119.5,4586817.38,1.0,class
+0127649AR,Platanus × acerifolia,True,C\ Arquitectura,,35.72,no_facade,1.96,check,,,,,1.0,floor
+0127650AR,Ligustrum lucidum,False,C\ Arquitectura,13.09,12.39,ok,,large,428190.25,4586805.11,428182.42,4586794.63,1.5,class
+0127651AR,Platanus × acerifolia,True,Pg Vall d'Hebron,19.64,17.38,ok,,large,428726.46,4587416.64,428743.68,4587407.2,1.5,class
+0127653AR,Platanus × acerifolia,True,C\ Arquitectura,,20.18,median,,check,,,,,1.0,floor
+0127654AR,Ligustrum lucidum,False,C\ Roig i Solé,3.73,2.91,ok,,medium,428167.55,4586806.07,428171.06,4586804.8,1.0,class
+0127655AR,Platanus × acerifolia,True,C\ Arquitectura,,27.49,median,2.77,check,,,,,1.0,floor
+0127656AR,Brachychiton populneus,False,Pg Vall d'Hebron,,59.62,no_facade,,check,,,,,1.0,floor
+0127659AR,Styphnolobium japonicum,False,C\ Mímica,2.46,1.67,ok,,none,428479.89,4587192.93,428477.56,4587193.73,1.0,floor
+0127660AR,Platanus × acerifolia,True,C\ Natzaret,6.47,5.61,ok,,large,427985.92,4586731.31,427979.93,4586733.73,1.5,class
+0127661AR,Brachychiton populneus,False,Pg Vall d'Hebron,,31.31,no_facade,8.24,check,,,,,1.0,floor
+0127662AR,Pinus halepensis,False,C\ Joan Sales,14.99,3.47,ok,,large,428416.09,4587167.25,428429.35,4587160.24,1.5,class
+0127663AR,Platanus × acerifolia,True,C\ Paulo Freire,,40.84,no_facade,2.02,check,,,,,1.0,floor
+0127667AR,Styphnolobium japonicum,False,C\ Mímica,2.48,1.86,ok,,none,428470.51,4587166.24,428468.18,4587167.07,1.0,floor
+0127668AR,Brachychiton populneus,False,Pg Vall d'Hebron,13.49,12.93,ok,,large,428357.93,4586447.45,428370.63,4586442.88,1.5,class
+0127669AR,Platanus × acerifolia,True,Pg Vall d'Hebron,,78.97,no_facade,,check,,,,,1.0,floor
+0127671AR,Platanus × acerifolia,True,Pg Vall d'Hebron,,62.29,no_facade,,check,,,,,1.0,floor
+0127672AR,Quercus ilex,False,Pg Vall d'Hebron,,30.95,no_facade,17.43,check,,,,,1.0,floor
+0127673AR,Platanus × acerifolia,True,Pg Vall d'Hebron,25.79,24.54,ok,,large,428341.15,4586405.43,428348.56,4586380.73,1.5,class
+0127675AR,Platanus × acerifolia,True,C\ Vayreda,,17.89,median,13.84,check,,,,,1.0,floor
+0127676AR,Platanus × acerifolia,True,Av Jordà,,25.38,median,17.08,check,,,,,1.0,floor
+0127677AR,Platanus × acerifolia,True,Av Jordà,,16.46,median,23.46,check,,,,,1.0,floor
+0127678AR,Platanus × acerifolia,True,C\ Paulo Freire,,28.82,median,2.19,check,,,,,1.0,floor
+0127679AR,Styphnolobium japonicum,False,C\ Arquitectura,,38.28,no_facade,2.01,check,,,,,1.0,floor
+0127681AR,Jacaranda mimosifolia,False,C\ Joan Sales,,13.7,median,,check,,,,,1.0,floor
+0127682AR,Platanus × acerifolia,True,C\ Harmonia,,9.96,median,,check,,,,,1.0,floor
+0127683AR,Pinus pinea,False,C\ Joan Sales,,8.84,median,,check,,,,,1.0,floor
+0127685AR,Platanus × acerifolia,True,C\ Vayreda,6.44,5.35,ok,,large,428114.9,4586840.96,428114.52,4586847.39,1.5,class
+0127688AR,Platanus × acerifolia,True,Av Jordà,,16.38,median,23.47,check,,,,,1.0,floor
+0127692AR,Brachychiton populneus,False,Pg Vall d'Hebron,,37.22,no_facade,7.64,check,,,,,1.0,floor
+0127693AR,Brachychiton populneus,False,Pg Vall d'Hebron,,60.95,no_facade,,check,,,,,1.0,floor
+0127694AR,Ulmus pumila,False,C\ Harmonia,,28.86,median,14.55,check,,,,,1.0,floor
+0127696AR,Platanus × acerifolia,True,Pg Vall d'Hebron,,45.38,no_facade,29.75,check,,,,,1.0,floor
+0127697AR,Styphnolobium japonicum,False,C\ Mímica,2.48,1.68,ok,,none,428472.11,4587170.76,428469.77,4587171.59,1.0,floor
+0127698AR,Styphnolobium japonicum,False,C\ Vayreda,,20.71,median,15.16,check,,,,,1.0,floor
+0127699AR,Brachychiton populneus,False,Pg Vall d'Hebron,24.24,23.31,ok,,large,428427.86,4586673.83,428450.71,4586665.73,1.5,class
+0127700AR,Pinus halepensis,False,C\ Joan Sales,,3.95,no_kerb,,check,,,,,1.0,floor
+0127703AR,Platanus × acerifolia,True,C\ Natzaret,,33.23,no_facade,2.5,check,,,,,1.0,floor
+0127704AR,Brachychiton populneus,False,Pg Vall d'Hebron,14.65,14.01,ok,,large,428343.46,4586407.27,428354.77,4586397.97,1.5,class
+0127705AR,Brachychiton populneus,False,Pg Vall d'Hebron,,21.71,median,16.1,check,,,,,1.0,floor
+0127706AR,Brachychiton populneus,False,Pg Vall d'Hebron,,23.98,median,7.73,check,,,,,1.0,floor
+0127707AR,Platanus × acerifolia,True,Pg Vall d'Hebron,,36.54,no_facade,27.7,check,,,,,1.0,floor
+0127708AR,Pyrus calleryana 'Chanticleer',False,C\ Joan Sales,6.77,6.24,ok,,large,428476.12,4587157.4,428473.92,4587150.99,1.5,class
+0127709AR,Jacaranda mimosifolia,False,C\ Joan Sales,,10.75,median,,check,,,,,1.0,floor
+0127712AR,Ligustrum lucidum,False,C\ Roig i Solé,,4.71,median,21.98,check,,,,,1.0,floor
+0127714AR,Platanus × acerifolia,True,Av Jordà,,30.95,no_facade,17.06,check,,,,,1.0,floor
+0127716AR,Platanus × acerifolia,True,C\ Harmonia,,30.02,no_facade,26.3,check,,,,,1.0,floor
+0127717AR,Ligustrum lucidum,False,C\ Roig i Solé,,4.34,median,20.59,check,,,,,1.0,floor
+0127719AR,Platanus × acerifolia,True,C\ Harmonia,,12.62,median,25.45,check,,,,,1.0,floor
+0127720AR,Platanus × acerifolia,True,Pg Vall d'Hebron,,76.55,no_facade,,check,,,,,1.0,floor
+0127721AR,Robinia pseudoacacia,False,Pl Zurbarán,,6.02,no_kerb,,check,,,,,1.0,floor
+0127722AR,Celtis australis,False,Pg Vall d'Hebron,,52.67,no_facade,,check,,,,,1.0,floor
+0127724AR,Platanus × acerifolia,True,Pg Vall d'Hebron,26.94,25.62,ok,,large,428703.37,4587390.79,428721.76,4587371.1,1.5,class
+0127725AR,Tipuana tipu,False,Pl Zurbarán,17.06,15.81,ok,,large,428356.23,4586829.44,428362.05,4586845.48,1.5,class
+0127726AR,Platanus × acerifolia,True,Pg Vall d'Hebron,20.13,19.0,ok,,large,428725.33,4587415.4,428740.26,4587401.89,1.5,class
+0127729AR,Tipuana tipu,False,Pl Zurbarán,17.07,3.28,ok,,large,428360.66,4586827.83,428366.48,4586843.88,1.5,class
+0127732AR,Platanus × acerifolia,True,Pg Vall d'Hebron,,24.34,median,,check,,,,,1.0,floor
+0127733AR,Platanus × acerifolia,True,Pg Vall d'Hebron,,39.81,no_facade,28.21,check,,,,,1.0,floor
+0127737AR,Brachychiton populneus,False,Pg Vall d'Hebron,,78.0,no_facade,,check,,,,,1.0,floor
+0127738AR,Platanus × acerifolia,True,Pg Vall d'Hebron,,40.41,no_facade,,check,,,,,1.0,floor
+0127739AR,Pinus halepensis,False,C\ Arquitectura,7.14,5.92,ok,,large,428435.82,4586791.38,428436.41,4586798.49,1.5,class
+0127740AR,Platanus × acerifolia,True,Av Jordà,,16.52,median,23.38,check,,,,,1.0,floor
+0127741AR,Platanus × acerifolia,True,Pg Vall d'Hebron,,44.72,no_facade,14.24,check,,,,,1.0,floor
+0127742AR,Platanus × acerifolia,True,Pg Vall d'Hebron,13.62,12.98,ok,,large,428351.83,4586430.52,428364.64,4586425.9,1.5,class
+0127743AR,Platanus × acerifolia,True,C\ Arquitectura,,13.69,median,,check,,,,,1.0,floor
+0127745AR,Platanus × acerifolia,True,Pg Vall d'Hebron,,57.86,no_facade,5.5,check,,,,,1.0,floor
+0127746AR,Platanus × acerifolia,True,C\ Natzaret,5.93,5.06,ok,,medium,428004.84,4586783.72,427999.35,4586785.95,1.0,class
+0127748AR,Platanus × acerifolia,True,C\ Natzaret,5.29,4.48,ok,,medium,427991.47,4586745.04,427986.57,4586747.03,1.0,class
+0127749AR,Ligustrum lucidum,False,C\ Roig i Solé,3.68,2.87,ok,,medium,428174.92,4586826.42,428178.38,4586825.17,1.0,class
+0127750AR,Styphnolobium japonicum,False,C\ Mímica,4.28,3.49,ok,,medium,428468.33,4587160.08,428464.83,4587157.61,1.0,class
+0127751AR,Platanus × acerifolia,True,C\ Arquitectura,,11.32,median,,check,,,,,1.0,floor
+0127752AR,Platanus × acerifolia,True,Pg Vall d'Hebron,13.53,12.91,ok,,large,428356.0,4586442.08,428368.73,4586437.5,1.5,class
+0127754AR,Platanus × acerifolia,True,Pg Vall d'Hebron,,34.21,no_facade,27.65,check,,,,,1.0,floor
+0127755AR,Platanus × acerifolia,True,Pg Vall d'Hebron,,50.4,no_facade,26.9,check,,,,,1.0,floor
+0127756AR,Platanus × acerifolia,True,Pg Vall d'Hebron,,37.16,no_facade,7.66,check,,,,,1.0,floor
+0127758AR,Platanus × acerifolia,True,Pg Vall d'Hebron,,36.28,no_facade,25.9,check,,,,,1.0,floor
+0127763AR,Fraxinus ornus OBELISK® 'Paus Johannes-Paulus II',False,C\ Vayreda,13.45,12.35,ok,,large,428124.36,4586840.71,428120.69,4586853.65,1.5,class
+0127765AR,Ligustrum lucidum,False,C\ Roig i Solé,,4.45,median,21.99,check,,,,,1.0,floor
+0127767AR,Platanus × acerifolia,True,C\ Vayreda,7.96,7.39,ok,,large,428166.42,4586889.66,428158.94,4586892.37,1.5,class
+0127768AR,Platanus × acerifolia,True,C\ Natzaret,7.07,6.17,ok,,large,428001.87,4586770.76,427995.31,4586773.41,1.5,class
+0127770AR,Celtis australis,False,C\ Àngel Marquès,5.28,2.53,ok,,medium,428295.83,4586802.5,428300.8,4586800.72,1.0,class
+0127773AR,Styphnolobium japonicum,False,C\ Vayreda,11.66,7.39,ok,,large,428180.34,4586933.02,428174.22,4586923.1,1.5,class
+0127775AR,Pinus pinea,False,C\ Arquitectura,,32.18,no_facade,2.09,check,,,,,1.0,floor
+0127776AR,Platanus × acerifolia,True,C\ Arquitectura,,23.63,median,,check,,,,,1.0,floor
+0127777AR,Pinus pinea,False,C\ Arquitectura,,37.62,no_facade,2.05,check,,,,,1.0,floor
+0127778AR,Platanus × acerifolia,True,C\ Arquitectura,,26.08,median,2.48,check,,,,,1.0,floor
+0127779AR,Celtis australis,False,Pg Vall d'Hebron,,38.04,no_facade,26.8,check,,,,,1.0,floor
+0127780AR,Platanus × acerifolia,True,Av Jordà,,17.43,median,,check,,,,,1.0,floor
+0127781AR,Platanus × acerifolia,True,C\ Harmonia,,35.75,no_facade,25.97,check,,,,,1.0,floor
+0127782AR,Brachychiton populneus,False,Pg Vall d'Hebron,24.45,23.65,ok,,large,428447.86,4586730.19,428470.89,4586722.01,1.5,class
+0127784AR,Celtis australis,False,Pg Vall d'Hebron,,32.48,no_facade,25.41,check,,,,,1.0,floor
+0127785AR,Ulmus pumila,False,C\ Harmonia,6.74,3.31,ok,,large,428407.26,4587272.1,428409.54,4587278.45,1.5,class
+0127786AR,Platanus × acerifolia,True,Pg Vall d'Hebron,,51.19,no_facade,25.54,check,,,,,1.0,floor
+0127788AR,Ligustrum lucidum,False,C\ Roig i Solé,,4.56,median,22.06,check,,,,,1.0,floor
+0127789AR,Brachychiton populneus,False,C\ Arquitectura,,52.82,no_facade,19.94,check,,,,,1.0,floor
+0127790AR,Platanus × acerifolia,True,C\ Vayreda,7.95,6.53,ok,,large,428175.34,4586910.57,428172.37,4586917.94,1.5,class
+0127794AR,Ulmus pumila,False,Pl Zurbarán,17.04,7.43,ok,,large,428351.82,4586831.04,428357.63,4586847.06,1.5,class
+0127796AR,Platanus × acerifolia,True,Av Jordà,,17.62,median,,check,,,,,1.0,floor
+0127797AR,Platanus × acerifolia,True,C\ Harmonia,,42.02,no_facade,24.91,check,,,,,1.0,floor
+0127798AR,Styphnolobium japonicum 'Dot',False,C\ Vayreda,,37.65,no_facade,,check,,,,,1.0,floor
+0127799AR,Platanus × acerifolia,True,C\ Arquitectura,,19.8,median,2.85,check,,,,,1.0,floor
+0127801AR,Platanus × acerifolia,True,Pg Vall d'Hebron,,33.11,no_facade,27.87,check,,,,,1.0,floor
+0127803AR,Tipuana tipu,False,Pl Zurbarán,13.17,10.68,ok,,large,428341.42,4586862.15,428353.82,4586857.71,1.5,class
+0127804AR,Ligustrum lucidum,False,C\ Harmonia,,16.34,median,33.48,check,,,,,1.0,floor
+0127808AR,Platanus × acerifolia,True,C\ Harmonia,,26.07,median,25.27,check,,,,,1.0,floor
+0127810AR,Platanus × acerifolia,True,Pg Vall d'Hebron,,38.06,no_facade,26.74,check,,,,,1.0,floor
+0127812AR,Ligustrum lucidum,False,C\ Roig i Solé,,4.83,median,21.94,check,,,,,1.0,floor
+0127813AR,Platanus × acerifolia,True,C\ Arquitectura,,23.02,median,,check,,,,,1.0,floor
+0127815AR,Platanus × acerifolia,True,C\ Arquitectura,,12.56,median,,check,,,,,1.0,floor
+0127818AR,Brachychiton populneus,False,C\ Arquitectura,6.28,5.21,ok,,large,428144.57,4586794.24,428148.2,4586799.37,1.5,class
+0127820AR,Platanus × acerifolia,True,C\ Arquitectura,,11.56,median,,check,,,,,1.0,floor
+0127821AR,Platanus × acerifolia,True,Pg Vall d'Hebron,19.57,18.22,ok,,large,428740.76,4587437.79,428757.85,4587428.25,1.5,class
+0127823AR,Brachychiton populneus,False,C\ Arquitectura,6.2,5.26,ok,,large,428133.98,4586797.91,428136.01,4586803.77,1.5,class
+0127825AR,Ligustrum lucidum,False,C\ Roig i Solé,,4.48,no_kerb,15.53,check,,,,,1.0,floor
+0127827AR,Brachychiton populneus,False,Pg Vall d'Hebron,13.64,13.07,ok,,large,428361.14,4586456.36,428374.61,4586454.17,1.5,class
+0127830AR,Styphnolobium japonicum,False,C\ Arquitectura,8.26,7.55,ok,,large,428110.74,4586829.18,428106.44,4586822.12,1.5,class
+0127832AR,Platanus × acerifolia,True,Pg Vall d'Hebron,,31.58,no_facade,,check,,,,,1.0,floor
+0127834AR,Tipuana tipu,False,Pl Zurbarán,17.04,3.34,ok,,large,428351.49,4586831.16,428357.3,4586847.18,1.5,class
+0127835AR,Ligustrum lucidum,False,C\ Roig i Solé,4.88,3.99,ok,,medium,428186.37,4586858.93,428191.02,4586860.41,1.0,class
+0127836AR,Platanus × acerifolia,True,C\ Harmonia,,51.47,no_facade,20.99,check,,,,,1.0,floor
+0127838AR,Brachychiton populneus,False,Pg Vall d'Hebron,,38.3,no_facade,7.63,check,,,,,1.0,floor
+0127839AR,Styphnolobium japonicum,False,C\ Harmonia,,27.56,median,17.04,check,,,,,1.0,floor
+0127840AR,Platanus × acerifolia,True,C\ Vayreda,4.42,3.8,ok,,medium,428173.53,4586909.29,428170.26,4586912.27,1.0,class
+0127841AR,Platanus × acerifolia,True,C\ Vayreda,18.16,17.07,ok,,large,428149.45,4586859.25,428132.41,4586865.52,1.5,class
+0127842AR,Brachychiton populneus,False,Pg Vall d'Hebron,,59.69,no_facade,,check,,,,,1.0,floor
+0127844AR,Ligustrum lucidum,False,C\ Àngel Marquès,,3.64,median,12.52,check,,,,,1.0,floor
+0127845AR,Styphnolobium japonicum,False,C\ Arquitectura,6.01,5.13,ok,,large,428129.97,4586819.1,428131.01,4586813.19,1.5,class
+0127846AR,Tipuana tipu,False,Pl Zurbarán,,9.06,no_kerb,29.33,check,,,,,1.0,floor
+0127847AR,Styphnolobium japonicum,False,C\ Joan Sales,14.1,11.72,ok,,large,428489.87,4587153.18,428486.42,4587139.51,1.5,class
+0127848AR,Platanus × acerifolia,True,Pg Vall d'Hebron,,41.21,no_facade,,check,,,,,1.0,floor
+0127850AR,Brachychiton populneus,False,Pg Vall d'Hebron,24.36,23.48,ok,,large,428443.81,4586718.78,428466.77,4586710.64,1.5,class
+0127851AR,Platanus × acerifolia,True,Pg Vall d'Hebron,,32.42,no_facade,27.75,check,,,,,1.0,floor
+0127852AR,Platanus × acerifolia,True,Pg Vall d'Hebron,,68.2,no_facade,5.13,check,,,,,1.0,floor
+0127853AR,Brachychiton populneus,False,C\ Arquitectura,,39.73,no_facade,19.82,check,,,,,1.0,floor
+0127854AR,Catalpa bignonioides,False,Pl Zurbarán,7.72,5.66,ok,,large,428409.97,4586809.99,428412.6,4586817.25,1.5,class
+0127855AR,Platanus × acerifolia,True,C\ Arquitectura,,23.87,median,2.93,check,,,,,1.0,floor
+0127861AR,Platanus × acerifolia,True,Pg Vall d'Hebron,,48.68,no_facade,,check,,,,,1.0,floor
+0127862AR,Platanus × acerifolia,True,Pg Vall d'Hebron,,36.0,no_facade,,check,,,,,1.0,floor
+0127863AR,Platanus × acerifolia,True,Pg Vall d'Hebron,,62.55,no_facade,5.06,check,,,,,1.0,floor
+0127864AR,Platanus × acerifolia,True,Pg Vall d'Hebron,,36.76,no_facade,27.75,check,,,,,1.0,floor
+0127866AR,Tipuana tipu,False,Pl Zurbarán,,10.95,no_kerb,29.13,check,,,,,1.0,floor
+0127867AR,Platanus × acerifolia,True,C\ Arquitectura,,21.49,median,11.05,check,,,,,1.0,floor
+0127869AR,Platanus × acerifolia,True,Pg Vall d'Hebron,,32.73,no_facade,27.86,check,,,,,1.0,floor
+0127870AR,Platanus × acerifolia,True,C\ Arquitectura,,29.95,median,2.79,check,,,,,1.0,floor
+0127871AR,Platanus × acerifolia,True,Pg Vall d'Hebron,,33.72,no_facade,7.64,check,,,,,1.0,floor
+0127875AR,Platanus × acerifolia,True,Pg Vall d'Hebron,,37.14,no_facade,7.58,check,,,,,1.0,floor
+0127876AR,Platanus × acerifolia,True,C\ Vayreda,,25.53,median,,check,,,,,1.0,floor
+0127878AR,Citrus × aurantium,False,C\ Arquitectura,13.62,11.48,ok,,large,428129.79,4586799.36,428120.6,4586809.4,1.5,class
+0127881AR,Styphnolobium japonicum,False,Av Jordà,,25.53,median,28.21,check,,,,,1.0,floor
+0127883AR,Platanus × acerifolia,True,Pg Vall d'Hebron,,53.18,no_facade,6.77,check,,,,,1.0,floor
+0127884AR,Platanus × acerifolia,True,C\ Natzaret,,18.14,median,12.21,check,,,,,1.0,floor
+0127885AR,Platanus × acerifolia,True,Pg Vall d'Hebron,,72.67,no_facade,,check,,,,,1.0,floor
+0127887AR,Fraxinus ornus OBELISK® 'Paus Johannes-Paulus II',False,C\ Vayreda,,14.11,median,15.31,check,,,,,1.0,floor
+0127888AR,Brachychiton populneus,False,Pg Vall d'Hebron,,37.22,no_facade,7.65,check,,,,,1.0,floor
+0127889AR,Platanus × acerifolia,True,Av Jordà,,18.45,median,,check,,,,,1.0,floor
+0127890AR,Tipuana tipu,False,Pl Zurbarán,,15.35,no_kerb,29.05,check,,,,,1.0,floor
+0127891AR,Pinus halepensis,False,C\ Joan Sales,,9.88,no_kerb,,check,,,,,1.0,floor
+0127895AR,Platanus × acerifolia,True,C\ Arquitectura,,16.89,median,2.84,check,,,,,1.0,floor
+0127896AR,Platanus × acerifolia,True,C\ Harmonia,,17.61,median,24.9,check,,,,,1.0,floor
+0127898AR,Tilia x europaea,False,Pl Zurbarán,17.06,7.22,ok,,large,428356.28,4586829.42,428362.09,4586845.46,1.5,class
+0127899AR,Platanus × acerifolia,True,C\ Arquitectura,,11.05,median,,check,,,,,1.0,floor
+0127901AR,Platanus × acerifolia,True,Pg Vall d'Hebron,24.22,23.37,ok,,large,428433.74,4586690.42,428456.57,4586682.32,1.5,class
+0127902AR,Brachychiton populneus,False,Pg Vall d'Hebron,,29.32,no_kerb,25.43,check,,,,,1.0,floor
+0127903AR,Platanus × acerifolia,True,Pg Vall d'Hebron,,23.31,median,5.94,check,,,,,1.0,floor
+0127905AR,Platanus × acerifolia,True,Av Jordà,,16.46,median,23.47,check,,,,,1.0,floor
+0127906AR,Platanus × acerifolia,True,C\ Natzaret,,19.11,median,13.24,check,,,,,1.0,floor
+0127907AR,Platanus × acerifolia,True,Pg Vall d'Hebron,,32.69,no_facade,27.61,check,,,,,1.0,floor
+0127908AR,Brachychiton populneus,False,Pg Vall d'Hebron,,78.84,no_facade,,check,,,,,1.0,floor
+0127909AR,Brachychiton populneus,False,Pg Vall d'Hebron,13.74,13.19,ok,,large,428345.61,4586413.24,428358.53,4586408.58,1.5,class
+0127910AR,Platanus × acerifolia,True,Pg Vall d'Hebron,,51.27,no_facade,25.54,check,,,,,1.0,floor
+0127911AR,Platanus × acerifolia,True,C\ Harmonia,,14.86,median,11.91,check,,,,,1.0,floor
+0127912AR,Platanus × acerifolia,True,C\ Vayreda,8.32,7.36,ok,,large,428112.76,4586834.89,428104.91,4586837.66,1.5,class
+0127914AR,Platanus × acerifolia,True,Pg Vall d'Hebron,,59.38,no_facade,,check,,,,,1.0,floor
+0127916AR,Platanus × acerifolia,True,C\ Vayreda,6.2,5.26,ok,,large,428167.97,4586893.94,428162.14,4586896.05,1.5,class
+0127918AR,Platanus × acerifolia,True,Pg Vall d'Hebron,,39.04,no_facade,27.85,check,,,,,1.0,floor
+0127919AR,Platanus × acerifolia,True,Pg Vall d'Hebron,,59.7,no_facade,,check,,,,,1.0,floor
+0127924AR,Platanus × acerifolia,True,Pg Vall d'Hebron,,32.81,no_facade,27.88,check,,,,,1.0,floor
+0127925AR,Tilia x europaea,False,Pl Zurbarán,17.07,11.99,ok,,large,428360.72,4586827.81,428366.54,4586843.86,1.5,class
+0127926AR,Brachychiton populneus,False,Pg Vall d'Hebron,,21.48,median,16.17,check,,,,,1.0,floor
+0127928AR,Tipuana tipu,False,Pl Zurbarán,17.04,11.62,ok,,large,428351.76,4586831.06,428357.57,4586847.08,1.5,class
+0127929AR,Catalpa bignonioides,False,Pl Zurbarán,5.33,3.75,ok,,medium,428396.69,4586817.35,428398.51,4586822.36,1.0,class
+0127930AR,Platanus × acerifolia,True,C\ Paulo Freire,,36.37,no_facade,2.04,check,,,,,1.0,floor
+0127931AR,Melia azedarach,False,Pl Zurbarán,13.17,6.08,ok,,large,428341.41,4586862.12,428353.81,4586857.68,1.5,class
+0127932AR,Styphnolobium japonicum,False,C\ Joan Sales,6.76,6.29,ok,,large,428471.71,4587158.91,428469.52,4587152.52,1.5,class
+0127933AR,Brachychiton populneus,False,Pg Vall d'Hebron,24.2,23.27,ok,,large,428431.86,4586685.11,428454.67,4586677.02,1.5,class
+0127934AR,Catalpa bignonioides,False,Pl Zurbarán,7.72,5.76,ok,,large,428406.83,4586811.13,428409.46,4586818.39,1.5,class
+0127935AR,Platanus × acerifolia,True,Pg Vall d'Hebron,22.79,21.22,ok,,large,428721.04,4587410.65,428734.03,4587391.92,1.5,class
+0127937AR,Platanus × acerifolia,True,C\ Harmonia,,39.81,no_facade,18.27,check,,,,,1.0,floor
+0127938AR,Populus nigra 'Italica',False,C\ Arquitectura,5.84,5.08,ok,,medium,428413.94,4586780.32,428411.3,4586785.53,1.0,class
+0127939AR,Styphnolobium japonicum,False,C\ Arquitectura,7.46,6.4,ok,,large,428129.79,4586799.36,428128.09,4586806.63,1.5,class
+0127940AR,Platanus × acerifolia,True,Pg Vall d'Hebron,24.3,23.35,ok,,large,428454.46,4586748.29,428477.37,4586740.18,1.5,class
+0127941AR,Platanus × acerifolia,True,C\ Paulo Freire,,29.7,median,2.11,check,,,,,1.0,floor
+0127942AR,Platanus × acerifolia,True,Av Jordà,6.61,6.13,ok,,large,428085.49,4586460.81,428079.73,4586457.57,1.5,class
+0127945AR,Platanus × acerifolia,True,Pg Vall d'Hebron,24.21,23.32,ok,,large,428425.94,4586668.43,428448.76,4586660.33,1.5,class
+0127946AR,Platanus × acerifolia,True,Pg Vall d'Hebron,,36.7,no_facade,28.19,check,,,,,1.0,floor
+0127948AR,Platanus × acerifolia,True,Av Jordà,,16.57,median,23.22,check,,,,,1.0,floor
+0127949AR,Pyrus calleryana 'Chanticleer',False,C\ Mímica,2.49,1.9,ok,,none,428473.61,4587175.01,428471.26,4587175.84,1.0,floor
+0127950AR,Platanus × acerifolia,True,C\ Natzaret,6.62,5.7,ok,,large,428007.63,4586790.61,428002.03,4586794.14,1.5,class
+0127952AR,Brachychiton populneus,False,Pg Vall d'Hebron,21.49,20.61,ok,,large,428341.15,4586405.43,428350.48,4586386.07,1.5,class
+0127953AR,Platanus × acerifolia,True,Pg Vall d'Hebron,,50.72,no_facade,,check,,,,,1.0,floor
+0127954AR,Platanus × acerifolia,True,C\ Paulo Freire,,72.16,no_facade,,check,,,,,1.0,floor
+0127955AR,Celtis australis,False,C\ Harmonia,,59.24,no_facade,13.06,check,,,,,1.0,floor
+0127957AR,Platanus × acerifolia,True,C\ Arquitectura,,10.97,median,,check,,,,,1.0,floor
+0127958AR,Platanus × acerifolia,True,C\ Natzaret,,19.78,median,18.19,check,,,,,1.0,floor
+0127959AR,Platanus × acerifolia,True,C\ Harmonia,,45.07,no_facade,23.79,check,,,,,1.0,floor
+0127962AR,Platanus × acerifolia,True,C\ Vayreda,,16.8,median,13.49,check,,,,,1.0,floor
+0127963AR,Platanus × acerifolia,True,Av Jordà,,29.92,median,17.02,check,,,,,1.0,floor
+0127965AR,Platanus × acerifolia,True,Pg Vall d'Hebron,17.65,16.89,ok,,large,428341.15,4586405.43,428352.63,4586392.03,1.5,class
+0127966AR,Platanus × acerifolia,True,C\ Arquitectura,,16.88,median,,check,,,,,1.0,floor
+0127968AR,Platanus × acerifolia,True,Pg Vall d'Hebron,,81.16,no_facade,,check,,,,,1.0,floor
+0127970AR,Brachychiton populneus,False,Pg Vall d'Hebron,,45.39,no_facade,,check,,,,,1.0,floor
+0127974AR,Brachychiton populneus,False,Pg Vall d'Hebron,,22.01,median,17.69,check,,,,,1.0,floor
+0127975AR,Platanus × acerifolia,True,Pg Vall d'Hebron,,42.77,no_facade,30.24,check,,,,,1.0,floor
+0127976AR,Platanus × acerifolia,True,Pg Vall d'Hebron,,69.58,no_facade,,check,,,,,1.0,floor
+0127977AR,Platanus × acerifolia,True,C\ Natzaret,5.99,5.35,ok,,medium,427996.31,4586757.0,427990.75,4586759.24,1.0,class
+0127978AR,Platanus × acerifolia,True,C\ Harmonia,,16.28,median,21.83,check,,,,,1.0,floor
+0127979AR,Platanus × acerifolia,True,C\ Arquitectura,,33.81,no_facade,1.79,check,,,,,1.0,floor
+0127980AR,Platanus × acerifolia,True,C\ Natzaret,5.53,4.87,ok,,medium,427989.2,4586739.41,427984.07,4586741.49,1.0,class
+0127982AR,Tipuana tipu,False,Pl Zurbarán,17.09,11.63,ok,,large,428365.45,4586826.09,428371.28,4586842.16,1.5,class
+0127983AR,Brachychiton populneus,False,Pg Vall d'Hebron,13.57,13.0,ok,,large,428354.01,4586436.56,428366.78,4586431.96,1.5,class
+0127984AR,Celtis australis,False,Pl Zurbarán,,6.23,no_kerb,24.69,check,,,,,1.0,floor
+0127985AR,Platanus × acerifolia,True,Pg Vall d'Hebron,,32.99,no_facade,,check,,,,,1.0,floor
+0127987AR,Platanus × acerifolia,True,C\ Arquitectura,2.54,1.53,ok,,small,428165.5,4586803.37,428164.64,4586800.98,1.0,class
+0127993AR,Platanus × acerifolia,True,C\ Arquitectura,,40.63,no_facade,2.85,check,,,,,1.0,floor
+0127996AR,Platanus × acerifolia,True,C\ Arquitectura,,14.67,median,,check,,,,,1.0,floor
+0127997AR,Platanus × acerifolia,True,C\ Arquitectura,,33.68,no_facade,2.71,check,,,,,1.0,floor
+0127998AR,Styphnolobium japonicum,False,C\ Harmonia,18.03,13.03,ok,,large,428530.57,4587329.36,428542.15,4587315.55,1.5,class
+0128000AR,Styphnolobium japonicum,False,C\ Arquitectura,10.97,10.15,ok,,large,428110.74,4586829.18,428100.48,4586825.29,1.5,class
+0128001AR,Platanus × acerifolia,True,Pg Vall d'Hebron,24.52,23.59,ok,,large,428462.44,4586770.82,428485.55,4586762.64,1.5,class
+0128002AR,Tipuana tipu,False,Pl Zurbarán,17.06,11.62,ok,,large,428356.3,4586829.41,428362.11,4586845.45,1.5,class
+0128003AR,Ligustrum lucidum,False,C\ Roig i Solé,,1.61,no_kerb,18.87,check,,,,,1.0,floor
+0128006AR,Styphnolobium japonicum,False,C\ Arquitectura,13.01,11.76,ok,,large,428129.97,4586819.1,428139.39,4586810.14,1.5,class
+0128007AR,Pinus halepensis,False,C\ Joan Sales,10.08,3.02,ok,,large,428395.31,4587174.63,428385.33,4587176.06,1.5,class
+0128008AR,Platanus × acerifolia,True,C\ Arquitectura,,38.23,no_facade,2.82,check,,,,,1.0,floor
+0128011AR,Platanus × acerifolia,True,Av Jordà,10.57,9.8,ok,,large,428105.34,4586422.28,428099.98,4586413.17,1.5,class
+0128012AR,Cupressus sempervirens,False,Pg Vall d'Hebron,,49.36,no_facade,,check,,,,,1.0,floor
+0128013AR,Melia azedarach,False,Pl Zurbarán,,6.14,no_kerb,35.47,check,,,,,1.0,floor
+0128014AR,Pinus halepensis,False,C\ Joan Sales,13.72,3.37,ok,,large,428332.95,4587197.15,428345.88,4587192.55,1.5,class
+0128015AR,Styphnolobium japonicum,False,C\ Àngel Marquès,5.15,2.28,ok,,medium,428288.3,4586781.49,428293.15,4586779.75,1.0,class
+0128016AR,Celtis australis,False,C\ Àngel Marquès,5.15,2.82,ok,,medium,428305.74,4586830.16,428310.59,4586828.42,1.0,class
+0128018AR,Platanus × acerifolia,True,Pg Vall d'Hebron,21.09,20.31,ok,,large,428721.39,4587411.04,428737.03,4587396.89,1.5,class
+0128020AR,Tipuana tipu,False,Pl Zurbarán,17.04,15.59,ok,,large,428351.67,4586831.09,428357.48,4586847.12,1.5,class
+0128021AR,Platanus × acerifolia,True,C\ Vayreda,12.81,12.13,ok,,large,428162.84,4586879.78,428150.8,4586884.14,1.5,class
+0128022AR,Ligustrum lucidum,False,C\ Roig i Solé,,1.75,no_kerb,16.82,check,,,,,1.0,floor
+0128023AR,Styphnolobium japonicum,False,Av Jordà,,22.26,median,26.05,check,,,,,1.0,floor
+0128024AR,Styphnolobium japonicum,False,C\ Natzaret,5.63,4.88,ok,,medium,427994.04,4586751.39,427988.83,4586753.5,1.0,class
+0128026AR,Platanus × acerifolia,True,Pg Vall d'Hebron,24.46,23.52,ok,,large,428449.9,4586735.94,428472.95,4586727.77,1.5,class
+0128027AR,Platanus × acerifolia,True,C\ Harmonia,,21.45,median,16.64,check,,,,,1.0,floor
+0128030AR,Brachychiton populneus,False,Pg Vall d'Hebron,24.93,23.9,ok,,large,428462.78,4586771.79,428487.35,4586767.6,1.5,class
+0128032AR,Platanus × acerifolia,True,C\ Harmonia,,23.63,median,23.99,check,,,,,1.0,floor
+0128034AR,Robinia pseudoacacia,False,C\ Domènech i Montaner,4.4,3.71,ok,,medium,428350.16,4586803.12,428351.63,4586807.26,1.0,class
+0128036AR,Platanus × acerifolia,True,C\ Arquitectura,,20.16,median,13.13,check,,,,,1.0,floor
+0128038AR,Platanus × acerifolia,True,C\ Paulo Freire,,57.14,no_facade,2.03,check,,,,,1.0,floor
+0128039AR,Platanus × acerifolia,True,Pg Vall d'Hebron,,32.72,no_facade,27.88,check,,,,,1.0,floor
+0128040AR,Platanus × acerifolia,True,Pg Vall d'Hebron,,35.75,no_facade,,check,,,,,1.0,floor
+0128042AR,Platanus × acerifolia,True,C\ Arquitectura,,20.17,median,,check,,,,,1.0,floor
+0128044AR,Styphnolobium japonicum,False,C\ Mímica,2.5,1.59,ok,,small,428478.11,4587187.73,428475.74,4587188.55,1.0,class
+0128045AR,Platanus × acerifolia,True,C\ Arquitectura,,35.22,no_facade,2.85,check,,,,,1.0,floor
+0128046AR,Platanus × acerifolia,True,Av Jordà,16.05,14.96,ok,,large,428105.34,4586422.28,428103.01,4586406.4,1.5,class
+0128047AR,Platanus × acerifolia,True,Pg Vall d'Hebron,13.77,13.2,ok,,large,428343.87,4586408.42,428356.83,4586403.76,1.5,class
+0128049AR,Platanus × acerifolia,True,C\ Natzaret,5.47,4.72,ok,,medium,427980.53,4586723.91,427976.43,4586727.53,1.0,class
+0128051AR,Celtis australis,False,Pg Vall d'Hebron,,40.68,no_facade,28.42,check,,,,,1.0,floor
+0128053AR,Platanus × acerifolia,True,C\ Harmonia,,43.79,no_facade,18.96,check,,,,,1.0,floor
+0128054AR,Platanus × acerifolia,True,Pg Vall d'Hebron,,51.16,no_facade,25.76,check,,,,,1.0,floor
+0128055AR,Platanus × acerifolia,True,C\ Natzaret,,13.51,median,16.84,check,,,,,1.0,floor
+0128056AR,Ligustrum lucidum,False,C\ Roig i Solé,,4.52,median,21.94,check,,,,,1.0,floor
+0128060AR,Ligustrum lucidum,False,C\ Àngel Marquès,,3.36,median,8.09,check,,,,,1.0,floor
+0128061AR,Styphnolobium japonicum,False,C\ Mímica,,5.91,median,2.56,check,,,,,1.0,floor
+0128063AR,Platanus × acerifolia,True,C\ Arquitectura,,11.65,median,,check,,,,,1.0,floor
+0209409AR,Platanus × acerifolia,True,C\ Paulo Freire,,66.13,no_facade,19.29,check,,,,,1.0,floor
+0211719AR,Platanus × acerifolia,True,C\ Paulo Freire,,66.21,no_facade,5.0,check,,,,,1.0,floor
+0264949AR,Ulmus pumila,False,C\ Hipàtia d'Alexandria,,49.99,no_facade,15.49,check,,,,,1.0,floor
+0265011AR,Brachychiton populneus,False,C\ Arquitectura,,61.77,no_facade,11.07,check,,,,,1.0,floor
+0265029AR,Brachychiton populneus,False,Pg Vall d'Hebron,,59.6,no_facade,,check,,,,,1.0,floor
+0265097AR,Ligustrum lucidum,False,C\ Hipàtia d'Alexandria,,48.44,no_facade,14.01,check,,,,,1.0,floor
+0265149AR,Ligustrum lucidum,False,C\ Hipàtia d'Alexandria,,53.28,no_facade,12.2,check,,,,,1.0,floor
+0265162AR,Ligustrum lucidum,False,C\ Hipàtia d'Alexandria,,41.02,no_facade,17.25,check,,,,,1.0,floor
+0265172AR,Ligustrum lucidum,False,C\ Hipàtia d'Alexandria,,35.03,no_facade,19.79,check,,,,,1.0,floor
+0265199AR,Ulmus pumila,False,C\ Harmonia,,54.45,no_facade,14.38,check,,,,,1.0,floor
+0265209AR,Prunus cerasifera,False,Pl Zurbarán,5.89,3.39,ok,,medium,428433.5,4586822.5,428427.97,4586824.53,1.0,class
+0265211AR,Koelreuteria paniculata,False,Pl Zurbarán,5.89,0.84,ok,,medium,428433.4,4586822.22,428427.86,4586824.25,1.0,class
+0265230AR,Styphnolobium japonicum,False,C\ Harmonia,,19.33,median,13.09,check,,,,,1.0,floor
+0265234AR,Ulmus pumila,False,C\ Harmonia,,54.9,no_facade,13.69,check,,,,,1.0,floor
+0265334AR,Platanus × acerifolia,True,C\ Hipàtia d'Alexandria,,39.27,no_facade,18.97,check,,,,,1.0,floor
+0265347AR,Ulmus pumila,False,C\ Hipàtia d'Alexandria,,64.68,no_facade,13.74,check,,,,,1.0,floor
+0265375AR,Fraxinus ornus OBELISK® 'Paus Johannes-Paulus II',False,C\ Vayreda,18.22,16.37,ok,,large,428124.36,4586840.71,428125.84,4586858.86,1.5,class
+0265409AR,Robinia pseudoacacia,False,C\ Harmonia,,40.47,no_facade,27.93,check,,,,,1.0,floor
+0265425AR,Liquidambar styraciflua,False,Pg Vall d'Hebron,,44.23,no_facade,,check,,,,,1.0,floor
+0265440AR,Ligustrum lucidum,False,C\ Hipàtia d'Alexandria,,55.94,no_facade,11.3,check,,,,,1.0,floor
+0265495AR,Ulmus pumila,False,C\ Harmonia,,20.18,median,10.69,check,,,,,1.0,floor
+0265507AR,Liquidambar styraciflua,False,Pg Vall d'Hebron,,47.03,no_facade,,check,,,,,1.0,floor
+0265590AR,Ulmus pumila,False,C\ Harmonia,20.25,16.36,ok,,large,428377.94,4587339.96,428387.14,4587321.92,1.5,class
+0265595AR,Ligustrum lucidum,False,C\ Àngel Marquès,1.53,2.51,ok,,none,428306.87,4586842.28,428307.39,4586843.72,1.0,floor
+0265606AR,Ligustrum lucidum,False,C\ Hipàtia d'Alexandria,,53.25,no_facade,12.53,check,,,,,1.0,floor
+0265671AR,Koelreuteria paniculata,False,Pl Zurbarán,5.94,3.5,ok,,medium,428431.72,4586817.65,428426.14,4586819.7,1.0,class
+0265681AR,Ulmus pumila,False,C\ Harmonia,,48.01,no_facade,18.28,check,,,,,1.0,floor
+0265689AR,Cupressus sempervirens,False,Pl Zurbarán,5.73,3.66,ok,,medium,428431.26,4586814.97,428429.29,4586809.59,1.0,class
+0265698AR,Robinia pseudoacacia,False,C\ Arquitectura,2.89,0.6,ok,,small,428231.99,4586779.73,428231.02,4586777.01,1.0,class
+0265711AR,Ulmus pumila,False,C\ Hipàtia d'Alexandria,,65.97,no_facade,17.07,check,,,,,1.0,floor
+0265720AR,Ligustrum lucidum,False,C\ Hipàtia d'Alexandria,,37.72,no_facade,18.53,check,,,,,1.0,floor
+0265721AR,Pinus halepensis,False,C\ Domènech i Montaner,,8.31,no_kerb,,check,,,,,1.0,floor
+0265724AR,Ligustrum lucidum,False,C\ Hipàtia d'Alexandria,,50.99,no_facade,13.21,check,,,,,1.0,floor
+0265912AR,Pinus halepensis,False,C\ Arquitectura,,21.56,median,29.66,check,,,,,1.0,floor
+0266003AR,Liquidambar styraciflua,False,Pg Vall d'Hebron,,54.52,no_facade,25.98,check,,,,,1.0,floor
+0266033AR,Ulmus pumila,False,C\ Hipàtia d'Alexandria,,64.06,no_facade,9.87,check,,,,,1.0,floor
+0266089AR,Cupressus sempervirens,False,Pl Zurbarán,7.34,3.16,ok,,large,428432.83,4586814.4,428430.3,4586807.5,1.5,class
+0266093AR,Liquidambar styraciflua,False,Pg Vall d'Hebron,,50.51,no_facade,,check,,,,,1.0,floor
+0266167AR,Ligustrum lucidum,False,C\ Àngel Marquès,1.53,2.29,ok,,none,428301.01,4586844.39,428301.52,4586845.83,1.0,floor
+0266176AR,Platanus × acerifolia,True,C\ Harmonia,,19.95,median,14.09,check,,,,,1.0,floor
+0266186AR,Koelreuteria paniculata,False,Pg Vall d'Hebron,,66.08,no_facade,13.83,check,,,,,1.0,floor
+0266211AR,Ulmus pumila,False,Pg Vall d'Hebron,,76.95,no_facade,2.09,check,,,,,1.0,floor
+0266214AR,Cupressus sempervirens,False,Pl Zurbarán,7.89,3.08,ok,,large,428417.15,4586806.69,428424.57,4586804.0,1.5,class
+0266240AR,Ligustrum lucidum,False,C\ Hipàtia d'Alexandria,,44.83,no_facade,8.71,check,,,,,1.0,floor
+0266287AR,Ulmus pumila,False,C\ Harmonia,20.44,12.11,ok,,large,428377.94,4587339.96,428386.33,4587321.33,1.5,class
+0286540AR,Populus nigra 'Italica',False,Pg Vall d'Hebron,,36.99,no_facade,2.21,check,,,,,1.0,floor
+0287081AR,Platanus × acerifolia,True,C\ Natzaret,,20.51,median,15.42,check,,,,,1.0,floor
+0287082AR,Platanus × acerifolia,True,C\ Natzaret,,8.02,median,21.05,check,,,,,1.0,floor
+0290716AR,Styphnolobium japonicum,False,C\ Harmonia,,14.22,median,,check,,,,,1.0,floor
+0290717AR,Platanus × acerifolia,True,C\ Harmonia,,21.71,median,,check,,,,,1.0,floor
+0291445AR,Ulmus pumila,False,C\ Hipàtia d'Alexandria,,58.7,no_facade,10.44,check,,,,,1.0,floor
+0294551AR,Platanus × acerifolia,True,Av Jordà,,19.07,median,26.0,check,,,,,1.0,floor
+0294552AR,Platanus × acerifolia,True,Av Jordà,,16.65,median,24.09,check,,,,,1.0,floor
+0295506AR,Cercis siliquastrum,False,C\ Mímica,,4.95,no_kerb,,check,,,,,1.0,floor
+0295507AR,Cercis siliquastrum,False,C\ Mímica,7.57,5.32,ok,,large,428461.04,4587197.86,428468.17,4587195.29,1.5,class
+0295508AR,Cercis siliquastrum,False,C\ Mímica,7.45,5.1,ok,,large,428454.56,4587179.87,428461.57,4587177.34,1.5,class
+0295509AR,Cercis siliquastrum,False,C\ Mímica,7.49,5.07,ok,,large,428456.22,4587184.48,428463.26,4587181.94,1.5,class
+0295510AR,Cercis siliquastrum,False,C\ Mímica,7.6,5.36,ok,,large,428462.7,4587202.45,428469.85,4587199.87,1.5,class
+0295511AR,Cercis siliquastrum,False,C\ Mímica,7.55,5.16,ok,,large,428459.49,4587193.54,428466.58,4587190.98,1.5,class
+0295512AR,Cercis siliquastrum,False,C\ Mímica,7.52,5.17,ok,,large,428457.94,4587189.25,428465.01,4587186.7,1.5,class
+0310066AR,Brachychiton populneus,False,C\ Arquitectura,,45.5,no_facade,13.29,check,,,,,1.0,floor
+0314528AR,Celtis australis,False,C\ Harmonia,,36.3,no_facade,,check,,,,,1.0,floor
+0314529AR,Populus nigra 'Italica',False,Pg Vall d'Hebron,,50.63,no_facade,2.18,check,,,,,1.0,floor
+0314531AR,Populus nigra 'Italica',False,Pg Vall d'Hebron,,46.5,no_facade,2.23,check,,,,,1.0,floor
+0314532AR,Populus nigra 'Italica',False,Pg Vall d'Hebron,,50.71,no_facade,2.22,check,,,,,1.0,floor
+0314534AR,Populus nigra 'Italica',False,Pg Vall d'Hebron,,37.17,no_facade,2.19,check,,,,,1.0,floor
+0314535AR,Populus nigra 'Italica',False,Pg Vall d'Hebron,,37.24,no_facade,2.24,check,,,,,1.0,floor
+0315359AR,Populus nigra 'Italica',False,Pg Vall d'Hebron,,38.0,no_facade,2.19,check,,,,,1.0,floor
+0320798AR,Styphnolobium japonicum,False,C\ Harmonia,,41.81,no_facade,,check,,,,,1.0,floor
+0320811AR,Pyrus calleryana 'Chanticleer',False,C\ Harmonia,,12.01,no_kerb,,check,,,,,1.0,floor
+0320812AR,Pyrus calleryana 'Chanticleer',False,C\ Harmonia,,17.54,no_kerb,,check,,,,,1.0,floor
+0320813AR,Pyrus calleryana 'Chanticleer',False,C\ Harmonia,,21.06,median,,check,,,,,1.0,floor
+0320814AR,Pyrus calleryana 'Chanticleer',False,C\ Harmonia,,21.13,median,9.85,check,,,,,1.0,floor
+0320815AR,Pyrus calleryana 'Chanticleer',False,C\ Harmonia,,21.24,median,24.96,check,,,,,1.0,floor
+0320816AR,Pyrus calleryana 'Chanticleer',False,C\ Harmonia,,21.1,median,,check,,,,,1.0,floor
+0320820AR,Pyrus calleryana 'Chanticleer',False,C\ Harmonia,4.73,3.98,ok,,medium,428401.09,4587274.32,428400.92,4587279.05,1.0,class
+0320821AR,Pyrus calleryana 'Chanticleer',False,C\ Harmonia,4.36,3.79,ok,,medium,428394.83,4587276.59,428396.31,4587280.69,1.0,class
+0320822AR,Pyrus calleryana 'Chanticleer',False,C\ Harmonia,4.34,3.67,ok,,medium,428390.05,4587278.32,428391.52,4587282.4,1.0,class
+0320823AR,Pyrus calleryana 'Chanticleer',False,C\ Harmonia,4.33,3.73,ok,,medium,428384.92,4587280.16,428386.38,4587284.24,1.0,class
+0320824AR,Pyrus calleryana 'Chanticleer',False,C\ Harmonia,9.33,8.49,ok,,large,428381.28,4587281.47,428384.45,4587290.25,1.5,class
+0320825AR,Pyrus calleryana 'Chanticleer',False,C\ Harmonia,9.36,8.67,ok,,large,428375.1,4587283.71,428378.3,4587292.51,1.5,class
+0320826AR,Pyrus calleryana 'Chanticleer',False,C\ Harmonia,25.26,8.78,ok,,large,428368.99,4587285.95,428380.09,4587308.64,1.5,class
+0320827AR,Pyrus calleryana 'Chanticleer',False,C\ Harmonia,16.4,8.57,ok,,large,428365.32,4587287.28,428370.91,4587302.7,1.5,class
+0320828AR,Pyrus calleryana 'Chanticleer',False,C\ Harmonia,23.33,15.99,ok,,large,428368.99,4587285.95,428378.18,4587307.39,1.5,class
+0335006AR,Koelreuteria paniculata,False,Pg Vall d'Hebron,,37.1,no_facade,2.25,check,,,,,1.0,floor
+0335478AR,Styphnolobium japonicum 'Dot',False,C\ Vayreda,,48.09,no_facade,,check,,,,,1.0,floor
+0344289AR,Ulmus minor,False,C\ Germans Desvalls,,25.65,no_kerb,,check,,,,,1.0,floor

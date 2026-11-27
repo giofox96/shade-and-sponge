@@ -1,0 +1,907 @@
+tree_id,x,y,ground_z,species,is_plane,size_category,street,height_m,crown_area_m2,crown_diam_m,crown_base_m,gap_fraction,lai_proxy,n_points,flag
+0060364AR,429131.09,4587108.04,116.05,Casuarina cunninghamiana,False,SEGONA,Av Cardenal Vidal i Barraquer,,0.0,0.0,,,,0,no_crown_detected
+0060440AR,429157.56,4587098.68,114.32,Casuarina cunninghamiana,False,PRIMERA,Av Cardenal Vidal i Barraquer,14.99,49.5,7.94,5.98,0.31,2.34,3098,ok
+0060568AR,429117.33,4587113.18,117.09,Casuarina cunninghamiana,False,PRIMERA,Av Cardenal Vidal i Barraquer,5.37,1.2,1.26,1.82,0.41,1.78,70,no_crown_detected
+0060610AR,429123.48,4587111.01,116.59,Casuarina cunninghamiana,False,SEGONA,Av Cardenal Vidal i Barraquer,0.0,1.8,1.49,2.7,0.486,1.44,55,no_crown_detected
+0060633AR,429159.47,4587102.64,114.3,Casuarina cunninghamiana,False,PRIMERA,Av Cardenal Vidal i Barraquer,13.63,46.2,7.67,2.74,0.488,1.44,2206,ok
+0060756AR,428713.1,4586458.55,137.43,Styphnolobium japonicum,False,PRIMERA,C\ Granja Vella,9.18,17.5,4.72,4.43,0.484,1.45,743,ok
+0060766AR,428851.35,4586440.88,126.36,Styphnolobium japonicum,False,PRIMERA,Av Martí-Codolar,4.77,14.2,4.26,2.71,0.485,1.45,640,ok
+0060798AR,428820.14,4586343.36,123.22,Styphnolobium japonicum,False,PRIMERA,Av Martí-Codolar,,0.0,0.0,,,,0,no_crown_detected
+0060826AR,428850.87,4586412.3,125.52,Styphnolobium japonicum,False,PRIMERA,Av Martí-Codolar,11.61,39.2,7.07,5.2,0.362,2.03,1996,ok
+0062322AR,428708.76,4586891.51,127.09,Magnolia grandiflora,False,SEGONA,C\ Pare Mariana,6.04,14.0,4.22,2.86,0.375,1.96,304,ok
+0062323AR,428829.4,4587444.77,137.63,Platanus × acerifolia,True,SEGONA,Pg Vall d'Hebron,9.69,27.8,5.94,5.35,0.375,1.96,1247,ok
+0062326AR,428442.11,4586527.73,147.84,Populus nigra 'Italica',False,EXEMPLAR,Pg Vall d'Hebron,6.66,4.8,2.46,5.33,0.165,3.6,152,ok
+0062329AR,428939.52,4587118.99,126.11,Celtis sinensis,False,PRIMERA,C\ Ventura Rodríguez,3.38,6.2,2.82,2.6,0.583,1.08,230,ok
+0062330AR,428740.23,4587305.94,138.67,Platanus × acerifolia,True,SEGONA,Pg Vall d'Hebron,8.91,23.8,5.5,5.61,0.505,1.37,959,ok
+0062332AR,429065.41,4587635.41,134.28,Platanus × acerifolia,True,TERCERA,Pg Vall d'Hebron,13.28,70.2,9.46,7.32,0.151,3.79,1394,ok
+0062333AR,428890.66,4586515.91,125.47,Styphnolobium japonicum,False,EXEMPLAR,C\ Granja Vella,10.49,120.8,12.4,3.01,0.419,1.74,6537,ok
+0062334AR,428796.72,4587145.62,133.0,Ligustrum lucidum,False,SEGONA,C\ Arquitecte Moragas,26.38,15.2,4.41,4.3,0.498,1.4,371,ok
+0062336AR,428601.4,4586221.8,136.05,Tipuana tipu,False,PRIMERA,C\ Coll i Alentorn,4.88,13.0,4.07,3.31,0.456,1.57,485,ok
+0062338AR,428979.92,4587173.64,126.03,Brachychiton populneus,False,PRIMERA,C\ Berruguete,5.86,1.5,1.38,3.34,0.514,1.33,62,no_crown_detected
+0062339AR,428801.75,4586298.51,122.4,Casuarina cunninghamiana,False,SEGONA,Av Martí-Codolar,,0.0,0.0,,,,0,no_crown_detected
+0062341AR,429020.81,4587156.89,123.4,Brachychiton populneus,False,SEGONA,C\ Berruguete,6.64,12.8,4.03,3.77,0.393,1.87,487,ok
+0062343AR,428645.52,4586878.88,132.05,Magnolia grandiflora,False,SEGONA,C\ Pare Mariana,8.64,27.0,5.86,3.48,0.232,2.92,534,ok
+0062344AR,428504.55,4586519.74,149.77,Ceratonia siliqua,False,EXEMPLAR,C\ Granja Vella,7.38,55.2,8.39,3.82,0.382,1.92,2260,ok
+0062346AR,428736.55,4586473.41,135.66,Casuarina cunninghamiana,False,SEGONA,C\ Granja Vella,7.88,8.5,3.29,3.06,0.356,2.06,433,ok
+0062347AR,428861.75,4587218.22,131.76,Brachychiton populneus,False,SEGONA,C\ Berruguete,4.53,3.5,2.11,2.59,0.542,1.22,123,ok
+0062351AR,428810.53,4587041.42,128.71,Celtis sinensis,False,EXEMPLAR,C\ Jorge Manrique,7.65,51.2,8.08,3.99,0.334,2.19,2089,ok
+0062356AR,428805.13,4586305.79,122.54,Casuarina cunninghamiana,False,TERCERA,Av Martí-Codolar,10.41,18.0,4.79,2.52,0.423,1.72,1068,ok
+0062359AR,428955.79,4587184.0,127.5,Brachychiton populneus,False,SEGONA,C\ Berruguete,5.37,8.0,3.19,3.25,0.498,1.4,367,ok
+0062361AR,428773.59,4587129.05,132.49,Styphnolobium japonicum,False,PRIMERA,C\ Arquitecte Moragas,8.65,19.2,4.95,3.54,0.433,1.67,779,ok
+0062362AR,428846.61,4587222.01,132.69,Brachychiton populneus,False,SEGONA,C\ Berruguete,6.29,6.2,2.82,3.75,0.54,1.23,310,ok
+0062367AR,428807.86,4586299.34,122.42,Casuarina cunninghamiana,False,SEGONA,Av Martí-Codolar,7.96,24.8,5.61,2.97,0.368,2.0,1220,ok
+0062368AR,428957.34,4587179.91,127.39,Brachychiton populneus,False,SEGONA,C\ Berruguete,4.84,4.5,2.39,3.28,0.528,1.28,201,ok
+0062369AR,428869.52,4587435.06,135.37,Melia azedarach,False,TERCERA,Av Can Marcet,6.63,61.2,8.83,3.56,0.464,1.54,3062,ok
+0062370AR,429047.41,4587171.06,122.24,Prunus cerasifera 'Pissardii',False,SEGONA,C\ Can Travi,5.4,15.8,4.48,2.98,0.561,1.16,354,ok
+0062372AR,428679.01,4587043.18,132.71,Celtis sinensis,False,TERCERA,C\ Juan de Mena,15.72,101.5,11.37,4.71,0.239,2.86,4551,ok
+0062377AR,428820.86,4587061.71,128.78,Pinus pinea,False,PRIMERA,C\ Jorge Manrique,9.95,55.5,8.41,1.81,0.293,2.45,2658,ok
+0062380AR,428815.46,4587097.62,131.9,Tipuana tipu,False,TERCERA,Pl Sibil·les,9.38,47.0,7.74,5.59,0.314,2.32,2039,ok
+0062383AR,428781.72,4587151.34,132.71,Styphnolobium japonicum,False,SEGONA,C\ Arquitecte Moragas,9.1,28.2,6.0,3.21,0.397,1.85,1372,ok
+0062384AR,428640.25,4586884.0,132.23,Magnolia grandiflora,False,SEGONA,C\ Pare Mariana,7.5,19.5,4.98,3.4,0.221,3.02,452,ok
+0062386AR,428891.38,4587069.76,125.95,Tipuana tipu,False,TERCERA,C\ Jorge Manrique,13.93,59.2,8.69,5.44,0.371,1.98,2667,ok
+0062389AR,428992.82,4587593.44,136.18,Platanus × acerifolia,True,SEGONA,Pg Vall d'Hebron,9.37,29.2,6.1,5.03,0.355,2.07,687,ok
+0062390AR,429122.92,4587204.66,117.88,Ginkgo biloba,False,SEGONA,Av Cardenal Vidal i Barraquer,11.41,18.2,4.82,2.82,0.388,1.89,805,ok
+0062393AR,428732.69,4587057.78,131.41,Platanus × acerifolia,True,SEGONA,C\ Arquitecte Moragas,14.01,160.8,14.31,5.82,0.224,2.99,7871,ok
+0062395AR,428919.33,4587197.36,129.02,Brachychiton populneus,False,SEGONA,C\ Berruguete,5.11,5.8,2.71,3.1,0.483,1.45,265,ok
+0062396AR,428932.28,4587189.03,128.43,Brachychiton populneus,False,SEGONA,C\ Berruguete,7.31,3.2,2.03,2.98,0.495,1.4,194,ok
+0062398AR,428699.33,4586895.13,127.82,Magnolia grandiflora,False,SEGONA,C\ Pare Mariana,6.01,15.5,4.44,3.32,0.444,1.62,333,ok
+0062399AR,428752.34,4586473.56,134.33,Populus nigra 'Italica',False,SEGONA,C\ Granja Vella,9.62,8.2,3.24,3.34,0.304,2.38,410,ok
+0062400AR,428933.64,4587148.34,127.16,Celtis sinensis,False,SEGONA,C\ Ventura Rodríguez,5.74,5.5,2.65,3.99,0.473,1.5,140,ok
+0062403AR,428751.74,4587111.28,133.26,Platanus × acerifolia,True,TERCERA,C\ Arquitecte Moragas,15.14,61.8,8.87,6.62,0.189,3.33,3354,ok
+0062409AR,428585.08,4586229.35,137.84,Tipuana tipu,False,SEGONA,C\ Coll i Alentorn,5.33,7.0,2.99,3.16,0.221,3.02,251,ok
+0062412AR,428664.0,4586876.65,130.46,Magnolia grandiflora,False,SEGONA,C\ Pare Mariana,6.78,22.2,5.32,2.73,0.335,2.19,501,ok
+0062413AR,428987.02,4587158.12,125.34,Celtis sinensis,False,TERCERA,C\ Berruguete,7.3,70.5,9.47,4.06,0.375,1.96,3327,ok
+0062415AR,428803.76,4586289.16,122.48,Casuarina cunninghamiana,False,PRIMERA,Av Martí-Codolar,0.0,2.0,1.6,2.07,0.413,1.77,103,low_tree
+0062419AR,428934.15,4587188.34,128.34,Brachychiton populneus,False,PRIMERA,C\ Berruguete,6.73,1.5,1.38,3.36,0.514,1.33,60,no_crown_detected
+0062420AR,429050.08,4587177.91,122.29,Fraxinus angustifolia,False,TERCERA,C\ Can Travi,8.73,34.8,6.65,5.74,0.207,3.15,751,ok
+0062424AR,428611.35,4586953.34,137.36,Celtis sinensis,False,SEGONA,Pg Vall d'Hebron,8.28,49.0,7.9,4.94,0.28,2.55,1857,ok
+0062429AR,428942.36,4587185.23,127.99,Brachychiton populneus,False,SEGONA,C\ Berruguete,5.24,7.8,3.14,3.53,0.529,1.27,309,ok
+0062430AR,428862.37,4587216.11,131.76,Brachychiton populneus,False,SEGONA,C\ Berruguete,5.67,2.8,1.87,2.86,0.422,1.72,102,ok
+0062435AR,428918.69,4587061.14,124.77,Celtis sinensis,False,SEGONA,C\ Ventura Rodríguez,5.87,22.5,5.35,1.93,0.219,3.04,1036,ok
+0062440AR,428630.32,4587006.45,137.05,Celtis sinensis,False,SEGONA,Pg Vall d'Hebron,6.51,17.2,4.69,4.38,0.457,1.57,535,ok
+0062442AR,428839.46,4587324.69,132.99,Celtis australis,False,TERCERA,C\ Arquitecte Moragas,10.56,85.8,10.45,6.02,0.312,2.33,3634,ok
+0062443AR,428925.11,4587079.31,125.22,Celtis sinensis,False,SEGONA,C\ Ventura Rodríguez,7.2,19.5,4.98,4.8,0.326,2.24,757,ok
+0062445AR,428609.34,4586947.66,137.33,Celtis sinensis,False,SEGONA,Pg Vall d'Hebron,7.09,19.2,4.95,4.68,0.514,1.33,692,ok
+0062454AR,428935.66,4587189.46,128.26,Brachychiton populneus,False,SEGONA,C\ Berruguete,5.93,4.5,2.39,3.74,0.638,0.9,166,ok
+0062456AR,428774.89,4586985.17,124.45,Acer negundo,False,TERCERA,C\ Juan de Mena,9.97,74.2,9.72,4.38,0.396,1.85,4184,ok
+0062457AR,428646.52,4586493.52,141.65,Populus nigra 'Italica',False,SEGONA,C\ Granja Vella,8.48,10.8,3.7,2.89,0.445,1.62,488,ok
+0062459AR,428831.47,4586377.4,124.32,Styphnolobium japonicum,False,PRIMERA,Av Martí-Codolar,3.31,9.0,3.39,2.6,0.588,1.06,346,ok
+0062460AR,428946.54,4587138.39,126.6,Celtis sinensis,False,TERCERA,C\ Ventura Rodríguez,6.18,47.5,7.78,2.43,0.391,1.88,2145,ok
+0062464AR,428661.32,4587132.56,139.09,Cupressus sempervirens 'Stricta',False,PRIMERA,Pg Vall d'Hebron,10.79,11.8,3.87,4.34,0.299,2.41,538,ok
+0062465AR,428801.03,4587157.18,133.1,Ligustrum lucidum,False,PRIMERA,C\ Arquitecte Moragas,4.19,4.2,2.33,2.92,0.481,1.46,92,ok
+0062467AR,428802.15,4587208.41,133.14,Styphnolobium japonicum,False,PRIMERA,C\ Arquitecte Moragas,9.68,15.2,4.41,3.33,0.416,1.75,614,ok
+0062468AR,428617.87,4586971.74,137.24,Celtis sinensis,False,TERCERA,Pg Vall d'Hebron,10.65,45.0,7.57,4.96,0.466,1.53,1837,ok
+0062469AR,428796.98,4586286.79,122.35,Casuarina cunninghamiana,False,SEGONA,Av Martí-Codolar,7.78,4.5,2.39,2.17,0.411,1.78,260,ok
+0062471AR,428897.75,4587201.85,130.1,Brachychiton populneus,False,SEGONA,C\ Berruguete,7.79,7.0,2.99,3.79,0.436,1.66,242,ok
+0062474AR,428929.2,4587135.15,126.8,Celtis sinensis,False,SEGONA,C\ Ventura Rodríguez,8.8,40.5,7.18,4.69,0.326,2.24,1014,ok
+0062476AR,428828.19,4587088.04,130.25,Pinus pinea,False,SEGONA,C\ Jorge Manrique,4.97,11.5,3.83,3.26,0.519,1.31,447,ok
+0062480AR,428738.72,4586471.57,135.43,Casuarina cunninghamiana,False,PRIMERA,C\ Granja Vella,8.3,7.0,2.99,2.69,0.314,2.32,350,ok
+0062483AR,428740.68,4586471.87,135.29,Casuarina cunninghamiana,False,SEGONA,C\ Granja Vella,8.67,10.2,3.61,3.35,0.401,1.83,584,ok
+0062484AR,429061.45,4587176.55,122.07,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Can Travi,4.6,8.0,3.19,3.22,0.549,1.2,264,ok
+0062485AR,428472.56,4586607.52,151.01,Brachychiton populneus,False,SEGONA,Pg Vall d'Hebron,4.98,13.8,4.18,3.75,0.183,3.4,328,ok
+0062487AR,428842.35,4586372.66,124.19,Styphnolobium japonicum,False,PRIMERA,Av Martí-Codolar,9.7,45.2,7.59,3.88,0.264,2.66,2610,ok
+0062489AR,428761.92,4587058.95,131.28,Celtis sinensis,False,SEGONA,C\ Jorge Manrique,7.12,25.2,5.67,3.69,0.417,1.75,1131,ok
+0062496AR,428640.13,4586878.9,132.42,Magnolia grandiflora,False,SEGONA,C\ Pare Mariana,7.05,19.8,5.01,3.08,0.283,2.52,484,ok
+0062498AR,428634.18,4587016.95,137.07,Celtis sinensis,False,SEGONA,Pg Vall d'Hebron,9.1,31.8,6.36,4.58,0.333,2.2,1057,ok
+0062499AR,428796.65,4587210.28,133.13,Platanus × acerifolia,True,TERCERA,C\ Arquitecte Moragas,12.59,41.0,7.23,7.07,0.283,2.53,1857,ok
+0062500AR,428858.62,4587198.02,131.74,Catalpa bignonioides,False,SEGONA,C\ Rubió i Balaguer,8.25,43.0,7.4,4.63,0.371,1.99,1657,ok
+0062506AR,428757.25,4587337.85,138.41,Platanus × acerifolia,True,PRIMERA,Pg Vall d'Hebron,6.81,8.0,3.19,5.31,0.529,1.27,318,ok
+0062507AR,428704.63,4587034.02,130.28,Celtis sinensis,False,TERCERA,C\ Juan de Mena,6.39,68.5,9.34,4.25,0.38,1.94,2556,ok
+0062509AR,428772.26,4587363.91,138.31,Platanus × acerifolia,True,SEGONA,Pg Vall d'Hebron,10.65,39.2,7.07,4.92,0.294,2.45,1825,ok
+0062510AR,428877.85,4587017.18,124.87,Celtis sinensis,False,TERCERA,C\ Jorge Manrique,6.5,50.5,8.02,4.21,0.446,1.61,2178,ok
+0062512AR,428825.31,4586486.04,128.44,Casuarina cunninghamiana,False,SEGONA,C\ Granja Vella,5.22,1.2,1.26,1.96,0.579,1.09,49,no_crown_detected
+0062514AR,428640.01,4586873.79,132.65,Magnolia grandiflora,False,SEGONA,C\ Pare Mariana,8.89,17.2,4.69,2.92,0.359,2.05,395,ok
+0062521AR,429012.43,4587072.04,122.22,Prunus cerasifera 'Pissardii',False,SEGONA,C\ Can Travi,5.08,13.2,4.11,3.01,0.503,1.38,330,ok
+0062522AR,428944.72,4586444.28,116.24,Populus nigra 'Italica',False,SEGONA,Pl Clota,11.63,21.0,5.17,3.42,0.281,2.54,967,ok
+0062523AR,428827.71,4587322.83,133.14,Celtis australis,False,SEGONA,C\ Arquitecte Moragas,8.73,19.0,4.92,5.49,0.501,1.38,788,ok
+0062524AR,428708.81,4587228.35,139.36,Tipuana tipu,False,SEGONA,Pg Vall d'Hebron,7.13,51.8,8.12,2.34,0.383,1.92,1730,ok
+0062529AR,429081.0,4586860.85,113.18,Pinus pinea,False,TERCERA,Av Cardenal Vidal i Barraquer,8.28,36.8,6.84,5.15,0.203,3.19,556,ok
+0062531AR,428895.72,4587042.35,124.79,Celtis australis,False,SEGONA,C\ Ventura Rodríguez,9.19,28.0,5.97,4.71,0.339,2.16,1301,ok
+0062535AR,428846.22,4587201.68,132.65,Catalpa bignonioides,False,PRIMERA,C\ Rubió i Balaguer,13.52,5.2,2.59,3.06,0.338,2.17,167,ok
+0062537AR,428629.06,4586213.05,133.06,Koelreuteria paniculata,False,PRIMERA,C\ Coll i Alentorn,12.15,15.5,4.44,3.93,0.323,2.26,565,ok
+0062540AR,429061.71,4587210.16,122.43,Prunus cerasifera 'Pissardii',False,SEGONA,C\ Can Travi,5.12,27.0,5.86,2.95,0.497,1.4,740,ok
+0062542AR,428920.32,4587194.73,129.02,Brachychiton populneus,False,PRIMERA,C\ Berruguete,4.93,3.0,1.95,3.32,0.617,0.97,112,ok
+0062543AR,429052.65,4587146.57,121.83,Celtis australis,False,TERCERA,C\ Berruguete,8.73,46.2,7.67,4.18,0.244,2.82,1531,ok
+0062545AR,428897.02,4587045.88,124.89,Celtis australis,False,SEGONA,C\ Ventura Rodríguez,7.74,40.0,7.14,4.99,0.237,2.88,1806,ok
+0062546AR,428769.32,4587056.22,131.03,Celtis sinensis,False,SEGONA,C\ Jorge Manrique,7.84,24.2,5.56,3.86,0.423,1.72,910,ok
+0062547AR,428835.22,4586375.61,124.23,Styphnolobium japonicum,False,SEGONA,Av Martí-Codolar,7.22,20.0,5.05,3.85,0.441,1.64,956,ok
+0062552AR,428639.9,4586868.69,132.92,Magnolia grandiflora,False,SEGONA,C\ Pare Mariana,6.76,32.5,6.43,2.97,0.364,2.02,711,ok
+0062558AR,428847.18,4587205.28,132.68,Pinus canariensis,False,EXEMPLAR,C\ Rubió i Balaguer,19.78,38.5,7.0,9.08,0.286,2.5,1644,ok
+0062559AR,428864.6,4587485.17,137.45,Platanus × acerifolia,True,SEGONA,Pg Vall d'Hebron,10.31,60.8,8.79,4.22,0.295,2.44,1523,ok
+0062561AR,428854.09,4587221.13,132.21,Brachychiton populneus,False,TERCERA,C\ Berruguete,8.88,34.8,6.65,3.5,0.423,1.72,1643,ok
+0062564AR,429008.06,4587603.18,135.86,Platanus × acerifolia,True,PRIMERA,Pg Vall d'Hebron,6.71,3.2,2.03,4.06,0.093,4.74,75,ok
+0062570AR,428987.27,4587589.58,136.28,Platanus × acerifolia,True,SEGONA,Pg Vall d'Hebron,11.36,50.5,8.02,5.51,0.309,2.35,1170,ok
+0062571AR,429045.34,4587163.92,122.25,Casuarina cunninghamiana,False,PRIMERA,C\ Can Travi,4.34,2.5,1.78,3.42,0.488,1.44,71,ok
+0062575AR,428787.93,4587168.09,132.81,Styphnolobium japonicum,False,PRIMERA,C\ Arquitecte Moragas,7.09,30.8,6.26,4.99,0.472,1.5,1173,ok
+0062577AR,428612.09,4586217.69,134.87,Koelreuteria paniculata 'Fastigiata',False,PRIMERA,C\ Coll i Alentorn,7.86,6.5,2.88,2.88,0.341,2.15,315,ok
+0062578AR,428783.65,4587051.05,130.31,Celtis sinensis,False,TERCERA,C\ Jorge Manrique,6.97,25.5,5.7,4.11,0.335,2.19,1024,ok
+0062579AR,428662.33,4587099.0,137.7,Tipuana tipu,False,TERCERA,Pg Vall d'Hebron,9.42,31.2,6.31,5.42,0.389,1.89,1362,ok
+0062581AR,428824.52,4586358.53,123.69,Styphnolobium japonicum,False,SEGONA,Av Martí-Codolar,5.38,27.5,5.92,3.0,0.48,1.47,1269,ok
+0062582AR,428815.37,4587062.54,129.03,Pinus pinea,False,SEGONA,C\ Jorge Manrique,4.79,48.2,7.84,3.06,0.465,1.53,2197,ok
+0062585AR,428813.62,4586481.32,128.88,Casuarina cunninghamiana,False,PRIMERA,C\ Granja Vella,6.62,6.5,2.88,2.29,0.413,1.77,316,ok
+0062587AR,428793.18,4586911.4,122.37,Acer negundo,False,EXEMPLAR,C\ Juan de Mena,9.77,85.8,10.45,4.76,0.314,2.32,3290,ok
+0062589AR,428611.96,4586916.72,135.92,Celtis australis,False,SEGONA,C\ Pare Mariana,8.2,34.2,6.6,5.24,0.239,2.87,589,ok
+0062591AR,428694.28,4586896.66,128.17,Magnolia grandiflora,False,SEGONA,C\ Pare Mariana,6.7,9.5,3.48,3.65,0.407,1.8,221,ok
+0062596AR,429070.68,4587202.15,122.16,Casuarina cunninghamiana,False,PRIMERA,C\ Can Travi,7.17,24.2,5.56,3.66,0.422,1.73,1039,ok
+0062597AR,428817.28,4586325.74,122.76,Casuarina cunninghamiana,False,SEGONA,Av Martí-Codolar,10.2,23.8,5.5,2.17,0.439,1.65,1446,ok
+0062598AR,428894.16,4587514.91,137.17,Platanus × acerifolia,True,PRIMERA,Pg Vall d'Hebron,8.43,11.0,3.74,4.9,0.436,1.66,250,ok
+0062599AR,428674.71,4587162.6,133.6,Cupressus sempervirens 'Stricta',False,SEGONA,Pg Vall d'Hebron,18.09,4.0,2.26,8.29,0.0,7.82,190,ok
+0062600AR,428840.24,4587371.57,133.47,Quercus ilex,False,SEGONA,C\ Arquitecte Moragas,10.16,37.0,6.86,5.6,0.303,2.38,1720,ok
+0062601AR,429081.37,4587135.92,119.1,Celtis australis,False,SEGONA,C\ Berruguete,6.47,21.5,5.23,3.93,0.374,1.96,693,ok
+0062603AR,428722.82,4586472.5,136.83,Casuarina cunninghamiana,False,SEGONA,C\ Granja Vella,11.59,19.5,4.98,3.48,0.313,2.33,934,ok
+0062604AR,429002.84,4587165.3,124.54,Brachychiton populneus,False,PRIMERA,C\ Berruguete,6.89,10.0,3.57,3.29,0.34,2.16,426,ok
+0062608AR,428653.08,4587109.77,138.2,Cupressus sempervirens 'Stricta',False,PRIMERA,C\ Jorge Manrique,,0.0,0.0,,,,0,no_crown_detected
+0062614AR,428854.48,4587219.4,132.2,Brachychiton populneus,False,TERCERA,C\ Berruguete,8.88,6.2,2.82,2.95,0.268,2.64,346,ok
+0062615AR,429097.17,4587221.51,118.8,Ginkgo biloba,False,SEGONA,Av Cardenal Vidal i Barraquer,9.57,16.8,4.62,2.68,0.327,2.24,742,ok
+0062616AR,428877.51,4587212.29,131.02,Brachychiton populneus,False,TERCERA,C\ Berruguete,8.38,18.5,4.85,2.77,0.259,2.7,780,ok
+0062617AR,428799.35,4586282.57,122.6,Casuarina cunninghamiana,False,SEGONA,Av Martí-Codolar,7.86,16.5,4.58,2.29,0.356,2.07,822,ok
+0062618AR,428632.36,4586495.74,142.54,Casuarina cunninghamiana,False,SEGONA,C\ Granja Vella,,0.0,0.0,,,,0,no_crown_detected
+0062620AR,429013.47,4587159.81,123.91,Brachychiton populneus,False,EXEMPLAR,C\ Berruguete,8.22,16.0,4.51,3.57,0.33,2.22,614,ok
+0062621AR,428786.06,4587181.61,132.79,Platanus × acerifolia,True,SEGONA,C\ Arquitecte Moragas,10.93,46.2,7.67,5.99,0.404,1.81,2141,ok
+0062622AR,428619.85,4586977.31,137.15,Celtis sinensis,False,SEGONA,Pg Vall d'Hebron,7.86,21.2,5.2,4.65,0.426,1.71,803,ok
+0062624AR,428822.66,4586332.27,122.92,Populus nigra 'Italica',False,TERCERA,Av Martí-Codolar,14.35,17.0,4.65,3.9,0.317,2.29,1079,ok
+0062625AR,429076.43,4587640.33,133.95,Platanus × acerifolia,True,SEGONA,Pg Vall d'Hebron,10.97,21.5,5.23,5.36,0.328,2.23,418,ok
+0062627AR,429119.16,4587120.73,117.12,Pinus pinea,False,TERCERA,Av Cardenal Vidal i Barraquer,11.89,78.2,9.98,4.86,0.414,1.76,2721,ok
+0062629AR,428756.09,4586474.13,133.96,Casuarina cunninghamiana,False,SEGONA,C\ Granja Vella,9.73,12.5,3.99,3.15,0.269,2.63,672,ok
+0062630AR,428649.3,4587099.32,137.8,Cupressus sempervirens 'Stricta',False,PRIMERA,C\ Jorge Manrique,6.32,1.0,1.13,2.02,0.364,2.02,22,no_crown_detected
+0062633AR,429014.88,4587029.0,120.24,Tipuana tipu,False,EXEMPLAR,C\ Jorge Manrique,9.18,134.8,13.1,4.47,0.421,1.73,5769,ok
+0062634AR,428445.45,4586536.98,147.55,Populus nigra 'Italica',False,EXEMPLAR,Pg Vall d'Hebron,20.39,20.0,5.05,6.59,0.164,3.61,1000,ok
+0062637AR,428795.39,4586945.2,123.22,Acer negundo,False,TERCERA,C\ Juan de Mena,9.94,55.8,8.43,5.15,0.317,2.3,2790,ok
+0062638AR,428840.46,4586366.33,123.93,Styphnolobium japonicum,False,TERCERA,Av Martí-Codolar,10.41,36.8,6.84,3.55,0.346,2.12,1743,ok
+0062640AR,428761.76,4586466.11,133.41,Styphnolobium japonicum,False,PRIMERA,C\ Granja Vella,,0.0,0.0,,,,0,no_crown_detected
+0062643AR,428663.94,4586871.32,130.89,Magnolia grandiflora,False,SEGONA,C\ Pare Mariana,7.19,31.5,6.33,2.49,0.289,2.48,660,ok
+0062646AR,428811.58,4586885.96,121.78,Eucalyptus camaldulensis,False,EXEMPLAR,C\ Pare Mariana,21.79,75.0,9.77,8.4,0.244,2.82,2500,ok
+0062649AR,428606.18,4586918.59,136.82,Celtis sinensis,False,EXEMPLAR,C\ Pare Mariana,8.22,43.5,7.44,5.35,0.323,2.26,1030,ok
+0062651AR,428792.76,4587134.1,132.95,Ligustrum lucidum,False,SEGONA,C\ Arquitecte Moragas,6.36,15.8,4.48,4.23,0.47,1.51,381,ok
+0062652AR,428994.67,4587169.81,125.12,Brachychiton populneus,False,EXEMPLAR,C\ Berruguete,7.39,28.0,5.97,2.49,0.24,2.86,1031,ok
+0062654AR,428632.68,4586212.1,132.71,Populus nigra 'Italica',False,SEGONA,C\ Coll i Alentorn,11.75,11.8,3.87,3.87,0.294,2.45,582,ok
+0062657AR,428986.43,4587173.05,125.66,Brachychiton populneus,False,TERCERA,C\ Berruguete,8.2,18.0,4.79,3.01,0.331,2.21,820,ok
+0062664AR,428663.6,4587138.32,139.33,Cupressus sempervirens 'Stricta',False,PRIMERA,Pg Vall d'Hebron,11.54,27.0,5.86,6.27,0.375,1.96,1441,ok
+0062665AR,428670.16,4587121.3,138.51,Tipuana tipu,False,SEGONA,Pg Vall d'Hebron,5.21,26.5,5.81,2.15,0.48,1.47,1011,ok
+0062668AR,428953.95,4587158.88,127.11,Celtis sinensis,False,SEGONA,C\ Ventura Rodríguez,6.57,47.5,7.78,4.03,0.431,1.68,2039,ok
+0062670AR,428849.98,4587051.05,127.06,Pinus pinea,False,PRIMERA,C\ Jorge Manrique,8.25,19.0,4.92,2.6,0.421,1.73,811,ok
+0062673AR,428812.58,4586501.06,129.21,Eucalyptus globulus,False,EXEMPLAR,C\ Granja Vella,19.93,39.8,7.11,8.63,0.302,2.39,2448,ok
+0062676AR,428781.79,4587379.18,138.15,Platanus × acerifolia,True,SEGONA,Pg Vall d'Hebron,10.61,20.5,5.11,5.64,0.426,1.71,931,ok
+0062677AR,428815.86,4587039.42,128.39,Celtis sinensis,False,TERCERA,C\ Jorge Manrique,8.26,63.0,8.96,4.32,0.455,1.57,2902,ok
+0062679AR,428669.03,4586871.22,130.36,Magnolia grandiflora,False,SEGONA,C\ Pare Mariana,7.15,30.5,6.23,3.02,0.305,2.38,673,ok
+0062680AR,428839.47,4587222.61,133.05,Brachychiton populneus,False,SEGONA,C\ Berruguete,4.92,2.2,1.69,3.3,0.346,2.12,100,ok
+0062682AR,428624.0,4586988.76,137.21,Celtis sinensis,False,SEGONA,Pg Vall d'Hebron,5.76,18.8,4.89,2.59,0.393,1.87,441,ok
+0062684AR,428672.63,4587163.15,133.63,Cupressus sempervirens 'Stricta',False,SEGONA,Pg Vall d'Hebron,17.22,2.5,1.78,7.75,0.0,7.82,147,ok
+0062686AR,428620.9,4587007.83,137.16,Brachychiton populneus,False,SEGONA,Pg Vall d'Hebron,6.71,4.5,2.39,3.63,0.462,1.54,202,ok
+0062687AR,428765.82,4587125.01,132.31,Platanus × acerifolia,True,SEGONA,C\ Arquitecte Moragas,11.43,40.0,7.14,5.97,0.382,1.92,1860,ok
+0062689AR,428830.97,4587087.32,130.08,Pinus pinea,False,SEGONA,C\ Jorge Manrique,4.99,13.0,4.07,3.2,0.515,1.33,470,ok
+0062690AR,428967.3,4587165.14,126.59,Celtis sinensis,False,SEGONA,C\ Berruguete,7.47,53.5,8.25,3.49,0.319,2.28,2695,ok
+0062692AR,428911.8,4587199.95,129.36,Brachychiton populneus,False,SEGONA,C\ Berruguete,6.93,9.2,3.43,2.48,0.297,2.43,379,ok
+0062694AR,428664.44,4587027.86,133.4,Celtis sinensis,False,TERCERA,C\ Juan de Mena,12.83,100.2,11.3,4.8,0.341,2.15,5490,ok
+0062695AR,428484.1,4586643.5,146.2,Brachychiton populneus,False,TERCERA,Pg Vall d'Hebron,11.35,14.2,4.26,3.85,0.11,4.41,335,ok
+0062696AR,428696.52,4586459.83,138.76,Styphnolobium japonicum,False,SEGONA,C\ Granja Vella,6.44,38.2,6.98,3.64,0.5,1.39,1744,ok
+0062697AR,428749.93,4586998.16,125.94,Celtis sinensis,False,TERCERA,C\ Juan de Mena,8.92,32.8,6.46,5.39,0.216,3.06,1372,ok
+0062701AR,428817.09,4586312.96,122.55,Casuarina cunninghamiana,False,PRIMERA,Av Martí-Codolar,3.02,21.2,5.2,2.08,0.477,1.48,1045,ok
+0062702AR,428643.3,4587082.51,137.18,Cupressus sempervirens,False,PRIMERA,Pg Vall d'Hebron,10.21,12.2,3.95,3.66,0.373,1.97,611,ok
+0062703AR,428715.28,4586457.78,137.35,Styphnolobium japonicum,False,TERCERA,C\ Granja Vella,9.92,49.0,7.9,5.91,0.422,1.72,2351,ok
+0062704AR,429023.44,4587102.53,122.23,Prunus cerasifera 'Pissardii',False,SEGONA,C\ Can Travi,5.36,24.0,5.53,2.8,0.385,1.91,647,ok
+0062707AR,429012.49,4587163.98,123.95,Brachychiton populneus,False,TERCERA,C\ Berruguete,6.67,10.8,3.7,3.51,0.5,1.39,500,ok
+0062708AR,428510.05,4586519.71,149.4,Ceratonia siliqua,False,TERCERA,C\ Granja Vella,6.63,39.2,7.07,3.64,0.314,2.31,1279,ok
+0062711AR,428766.55,4586889.19,122.33,Quercus ilex,False,EXEMPLAR,C\ Pare Mariana,10.97,85.0,10.4,5.81,0.087,4.87,1407,ok
+0062712AR,428760.24,4586475.14,133.62,Casuarina cunninghamiana,False,TERCERA,C\ Granja Vella,9.32,17.8,4.75,2.67,0.342,2.15,875,ok
+0062714AR,428651.19,4587104.63,138.0,Cupressus sempervirens 'Stricta',False,SEGONA,C\ Jorge Manrique,3.43,1.0,1.13,1.7,0.55,1.2,35,no_crown_detected
+0062717AR,428763.88,4587119.92,132.26,Platanus × acerifolia,True,PRIMERA,C\ Arquitecte Moragas,6.12,23.5,5.47,4.61,0.483,1.46,903,ok
+0062719AR,428736.41,4587002.75,127.02,Celtis sinensis,False,PRIMERA,C\ Juan de Mena,11.3,29.2,6.1,3.75,0.321,2.27,1348,ok
+0062720AR,428920.53,4587182.19,128.88,Celtis sinensis,False,EXEMPLAR,C\ Berruguete,8.56,31.0,6.28,4.49,0.229,2.95,1631,ok
+0062721AR,428830.01,4587226.33,133.46,Brachychiton populneus,False,SEGONA,C\ Berruguete,6.76,9.0,3.39,3.0,0.478,1.48,449,ok
+0062724AR,428862.09,4586541.13,126.5,Styphnolobium japonicum,False,SEGONA,Av Martí-Codolar,4.52,9.5,3.48,3.0,0.351,2.09,409,ok
+0062725AR,429083.92,4586838.31,113.06,Pinus pinea,False,EXEMPLAR,Av Cardenal Vidal i Barraquer,9.53,74.2,9.72,5.7,0.269,2.63,1220,ok
+0062726AR,428832.34,4587433.34,137.05,Melia azedarach,False,PRIMERA,Av Can Marcet,4.24,2.8,1.87,3.57,0.545,1.21,109,ok
+0062728AR,428754.25,4587332.52,138.44,Platanus × acerifolia,True,PRIMERA,Pg Vall d'Hebron,8.09,12.2,3.95,4.92,0.409,1.79,605,ok
+0062729AR,428798.04,4587196.95,133.03,Styphnolobium japonicum,False,PRIMERA,C\ Arquitecte Moragas,4.19,8.2,3.24,2.78,0.525,1.29,312,ok
+0062730AR,428996.14,4587165.76,124.97,Brachychiton populneus,False,PRIMERA,C\ Berruguete,6.62,8.0,3.19,3.5,0.471,1.51,343,ok
+0062733AR,428856.91,4587024.87,126.02,Celtis sinensis,False,TERCERA,C\ Jorge Manrique,8.49,60.0,8.74,4.12,0.27,2.62,2441,ok
+0062736AR,428779.94,4586978.76,124.24,Acer negundo,False,TERCERA,C\ Juan de Mena,8.2,52.8,8.2,3.64,0.298,2.42,3011,ok
+0062737AR,428603.42,4586930.6,137.34,Celtis sinensis,False,PRIMERA,Pg Vall d'Hebron,7.38,12.2,3.95,1.74,0.335,2.19,410,ok
+0062738AR,428783.07,4586973.86,124.13,Celtis australis,False,SEGONA,C\ Juan de Mena,7.22,36.5,6.82,3.88,0.378,1.94,1499,ok
+0062742AR,428687.51,4586870.89,128.72,Magnolia grandiflora,False,SEGONA,C\ Pare Mariana,7.35,43.2,7.42,3.37,0.274,2.59,898,ok
+0062745AR,428687.68,4587019.8,131.09,Celtis sinensis,False,TERCERA,C\ Juan de Mena,10.72,61.0,8.81,5.3,0.386,1.9,3853,ok
+0062746AR,428920.97,4587067.91,124.94,Celtis sinensis,False,SEGONA,C\ Ventura Rodríguez,6.54,25.5,5.7,4.36,0.338,2.17,799,ok
+0062753AR,428894.88,4587202.32,130.18,Brachychiton populneus,False,TERCERA,C\ Berruguete,9.23,8.0,3.19,4.72,0.442,1.63,322,ok
+0062758AR,429094.27,4586843.53,112.69,Pinus pinea,False,EXEMPLAR,Av Cardenal Vidal i Barraquer,9.96,88.5,10.62,6.2,0.243,2.83,1396,ok
+0062759AR,428878.7,4587421.12,134.47,Brachychiton populneus,False,EXEMPLAR,Av Can Marcet,9.81,42.2,7.33,3.42,0.433,1.67,1915,ok
+0062761AR,428973.98,4587162.76,126.18,Celtis sinensis,False,TERCERA,C\ Berruguete,8.41,87.5,10.56,3.98,0.172,3.52,4194,ok
+0062766AR,428657.36,4587121.97,138.63,Cupressus sempervirens 'Stricta',False,PRIMERA,Pg Vall d'Hebron,,0.0,0.0,,,,0,no_crown_detected
+0062768AR,428775.4,4587368.96,138.25,Platanus × acerifolia,True,SEGONA,Pg Vall d'Hebron,9.25,37.2,6.89,6.0,0.409,1.79,1419,ok
+0062769AR,428978.2,4587583.23,136.42,Platanus × acerifolia,True,PRIMERA,Pg Vall d'Hebron,9.04,22.8,5.38,5.41,0.412,1.77,461,ok
+0062770AR,428947.96,4587186.73,127.78,Brachychiton populneus,False,SEGONA,C\ Berruguete,10.54,17.8,4.75,3.18,0.344,2.14,914,ok
+0062771AR,428854.02,4587416.99,132.88,Melia azedarach,False,EXEMPLAR,Av Can Marcet,8.61,94.0,10.94,4.02,0.389,1.89,4453,ok
+0062773AR,428836.88,4587085.99,129.69,Pinus pinea,False,SEGONA,C\ Jorge Manrique,6.02,16.2,4.55,3.83,0.406,1.8,572,ok
+0062774AR,428822.19,4587037.12,128.04,Celtis australis,False,EXEMPLAR,C\ Jorge Manrique,9.29,96.5,11.08,4.55,0.318,2.29,4704,ok
+0062777AR,428840.32,4587185.68,132.84,Catalpa bignonioides,False,PRIMERA,C\ Rubió i Balaguer,5.13,4.5,2.39,2.77,0.412,1.77,120,ok
+0062780AR,428930.25,4587547.47,136.87,Platanus × acerifolia,True,PRIMERA,Pg Vall d'Hebron,9.41,19.5,4.98,5.62,0.391,1.88,371,ok
+0062785AR,429060.16,4587632.78,134.48,Platanus × acerifolia,True,TERCERA,Pg Vall d'Hebron,13.14,65.8,9.15,6.84,0.156,3.72,1456,ok
+0062786AR,429029.31,4587154.02,122.89,Brachychiton populneus,False,PRIMERA,C\ Berruguete,3.64,2.5,1.78,2.91,0.528,1.28,72,ok
+0062788AR,428777.36,4587139.77,132.57,Styphnolobium japonicum,False,SEGONA,C\ Arquitecte Moragas,8.3,36.2,6.79,4.93,0.455,1.58,1466,ok
+0062789AR,428478.62,4586625.13,150.63,Brachychiton populneus,False,SEGONA,Pg Vall d'Hebron,6.3,13.8,4.18,4.29,0.161,3.65,285,ok
+0062792AR,429038.7,4587621.28,135.07,Platanus × acerifolia,True,SEGONA,Pg Vall d'Hebron,8.63,37.5,6.91,2.8,0.142,3.9,788,ok
+0062793AR,428939.3,4587163.18,127.52,Celtis sinensis,False,TERCERA,C\ Ventura Rodríguez,8.25,42.8,7.38,4.73,0.277,2.57,1208,ok
+0062794AR,428778.91,4587374.72,138.2,Platanus × acerifolia,True,SEGONA,Pg Vall d'Hebron,12.77,46.5,7.69,6.24,0.321,2.27,2080,ok
+0062795AR,428927.55,4587019.86,122.57,Celtis sinensis,False,TERCERA,C\ Jorge Manrique,5.95,42.5,7.36,3.99,0.397,1.85,1280,ok
+0062798AR,428626.24,4586994.32,137.18,Celtis sinensis,False,SEGONA,Pg Vall d'Hebron,7.65,28.8,6.05,4.43,0.407,1.8,1073,ok
+0062801AR,429006.55,4587151.18,124.15,Celtis sinensis,False,TERCERA,C\ Berruguete,10.66,60.0,8.74,3.88,0.135,4.01,2141,ok
+0062802AR,428475.61,4586616.1,150.82,Brachychiton populneus,False,SEGONA,Pg Vall d'Hebron,5.18,11.0,3.74,3.18,0.189,3.33,227,ok
+0062803AR,428703.84,4586468.0,138.22,Populus nigra 'Italica',False,SEGONA,C\ Granja Vella,9.62,6.5,2.88,3.16,0.216,3.06,396,ok
+0062804AR,428816.36,4587291.77,133.22,Celtis australis,False,EXEMPLAR,C\ Arquitecte Moragas,10.13,54.8,8.35,5.62,0.295,2.44,2360,ok
+0062805AR,429019.48,4587159.25,123.47,Brachychiton populneus,False,PRIMERA,C\ Berruguete,8.24,8.5,3.29,2.52,0.276,2.58,361,ok
+0062808AR,428825.3,4586353.55,123.55,Styphnolobium japonicum,False,SEGONA,Av Martí-Codolar,7.15,50.2,8.0,4.14,0.409,1.79,2400,ok
+0062809AR,428718.85,4586888.33,126.21,Magnolia grandiflora,False,SEGONA,C\ Pare Mariana,5.37,12.0,3.91,3.09,0.424,1.71,264,ok
+0062810AR,429000.45,4587153.3,124.52,Celtis sinensis,False,TERCERA,C\ Berruguete,8.07,59.8,8.72,3.53,0.247,2.8,2690,ok
+0062814AR,428926.21,4587127.18,126.64,Celtis sinensis,False,TERCERA,C\ Ventura Rodríguez,8.92,36.2,6.79,4.54,0.445,1.62,959,ok
+0062815AR,428912.53,4587197.85,129.33,Brachychiton populneus,False,SEGONA,C\ Berruguete,5.39,1.5,1.38,2.89,0.415,1.76,73,no_crown_detected
+0062822AR,428933.71,4587190.23,128.33,Brachychiton populneus,False,PRIMERA,C\ Berruguete,6.82,5.2,2.59,2.95,0.331,2.21,236,ok
+0062823AR,428783.73,4587156.92,132.79,Styphnolobium japonicum,False,SEGONA,C\ Arquitecte Moragas,8.78,44.2,7.51,4.43,0.401,1.83,2198,ok
+0062826AR,428643.95,4587084.22,137.27,Cupressus sempervirens 'Stricta',False,PRIMERA,Pg Vall d'Hebron,7.98,7.2,3.04,2.61,0.374,1.97,359,ok
+0062830AR,428830.84,4586372.5,124.15,Styphnolobium japonicum,False,SEGONA,Av Martí-Codolar,5.81,21.0,5.17,2.8,0.398,1.84,987,ok
+0062831AR,428810.14,4586466.05,128.92,Styphnolobium japonicum,False,PRIMERA,C\ Granja Vella,,0.0,0.0,,,,0,no_crown_detected
+0062834AR,428839.34,4586374.97,124.17,Styphnolobium japonicum,False,PRIMERA,Av Martí-Codolar,8.61,27.0,5.86,3.77,0.403,1.82,1284,ok
+0062835AR,428789.92,4587174.14,132.86,Styphnolobium japonicum,False,PRIMERA,C\ Arquitecte Moragas,9.75,22.2,5.32,3.89,0.418,1.74,1024,ok
+0062836AR,428809.41,4587180.19,133.29,Ligustrum lucidum,False,SEGONA,C\ Arquitecte Moragas,6.57,14.8,4.33,3.97,0.47,1.51,344,ok
+0062838AR,429013.3,4587161.37,123.91,Brachychiton populneus,False,SEGONA,C\ Berruguete,7.88,7.2,3.04,3.17,0.418,1.74,316,ok
+0062841AR,428810.97,4586888.71,121.89,Eucalyptus camaldulensis,False,TERCERA,C\ Pare Mariana,22.19,63.5,8.99,7.01,0.17,3.55,2067,ok
+0062843AR,428754.12,4586464.94,134.11,Styphnolobium japonicum,False,SEGONA,C\ Granja Vella,4.15,12.0,3.91,2.95,0.539,1.24,494,ok
+0062849AR,428730.39,4587005.07,127.45,Celtis sinensis,False,TERCERA,C\ Juan de Mena,7.57,49.0,7.9,4.5,0.412,1.77,2412,ok
+0062854AR,428730.94,4586470.53,136.11,Casuarina cunninghamiana,False,PRIMERA,C\ Granja Vella,4.53,4.5,2.39,2.27,0.505,1.37,181,ok
+0062855AR,428862.52,4587413.44,133.59,Melia azedarach,False,EXEMPLAR,Av Can Marcet,7.47,76.0,9.84,3.49,0.476,1.48,3633,ok
+0062856AR,428647.36,4587093.83,137.59,Cupressus sempervirens 'Stricta',False,PRIMERA,Pg Vall d'Hebron,9.92,14.5,4.3,2.69,0.274,2.59,729,ok
+0062858AR,428652.14,4587107.09,138.1,Cupressus sempervirens 'Stricta',False,PRIMERA,C\ Jorge Manrique,5.86,0.2,0.56,2.28,0.429,1.69,10,no_crown_detected
+0062861AR,428637.77,4587027.08,137.02,Celtis sinensis,False,TERCERA,Pg Vall d'Hebron,29.88,40.8,7.2,4.79,0.412,1.77,1261,ok
+0062864AR,428734.14,4587036.44,129.24,Celtis australis,False,PRIMERA,C\ Arquitecte Moragas,8.71,35.0,6.68,3.96,0.44,1.64,1324,ok
+0062865AR,429099.12,4587647.19,133.13,Platanus × acerifolia,True,TERCERA,Pg Vall d'Hebron,11.31,105.5,11.59,3.46,0.3,2.41,2736,ok
+0062866AR,428691.65,4586454.78,138.96,Styphnolobium japonicum,False,TERCERA,C\ Granja Vella,8.25,54.5,8.33,2.98,0.398,1.84,2779,ok
+0062867AR,428660.02,4587045.49,134.75,Celtis sinensis,False,SEGONA,C\ Juan de Mena,7.33,46.8,7.72,3.65,0.438,1.65,1936,ok
+0062869AR,428658.29,4587087.46,137.27,Tipuana tipu,False,EXEMPLAR,Pg Vall d'Hebron,12.56,114.8,12.09,5.91,0.297,2.43,5593,ok
+0062870AR,428753.74,4587091.53,132.03,Styphnolobium japonicum,False,PRIMERA,C\ Arquitecte Moragas,5.71,3.0,1.95,3.26,0.622,0.95,131,ok
+0062871AR,428916.09,4587053.81,124.6,Celtis australis,False,TERCERA,C\ Ventura Rodríguez,6.43,17.2,4.69,4.1,0.336,2.18,647,ok
+0062873AR,428728.1,4587045.83,130.25,Platanus × acerifolia,True,SEGONA,C\ Arquitecte Moragas,10.41,55.0,8.37,5.02,0.441,1.64,2925,ok
+0062874AR,429028.26,4587157.88,122.96,Brachychiton populneus,False,SEGONA,C\ Berruguete,4.41,6.8,2.93,2.8,0.444,1.63,193,ok
+0062875AR,428709.66,4587012.35,129.1,Celtis sinensis,False,EXEMPLAR,C\ Juan de Mena,12.45,59.0,8.67,5.9,0.346,2.12,2738,ok
+0062877AR,429082.31,4586868.87,112.94,Pinus pinea,False,EXEMPLAR,Av Cardenal Vidal i Barraquer,7.5,56.0,8.44,5.65,0.158,3.69,740,ok
+0062879AR,428838.82,4587224.8,133.11,Brachychiton populneus,False,SEGONA,C\ Berruguete,4.83,5.2,2.59,2.85,0.449,1.6,253,ok
+0062880AR,429087.19,4586864.32,112.54,Pinus pinea,False,EXEMPLAR,Av Cardenal Vidal i Barraquer,7.98,42.2,7.33,5.01,0.226,2.98,633,ok
+0062882AR,428423.75,4586476.73,149.59,Populus nigra 'Italica',False,SEGONA,Pg Vall d'Hebron,13.01,31.8,6.36,4.32,0.223,3.0,1455,ok
+0062883AR,428840.0,4587374.63,133.68,Celtis sinensis,False,TERCERA,Av Can Marcet,9.54,52.5,8.18,4.32,0.303,2.39,1960,ok
+0062885AR,428735.58,4587294.93,138.78,Platanus × acerifolia,True,PRIMERA,Pg Vall d'Hebron,7.23,19.5,4.98,4.42,0.429,1.69,867,ok
+0062886AR,428943.36,4587188.54,127.94,Brachychiton populneus,False,SEGONA,C\ Berruguete,9.05,12.0,3.91,3.8,0.419,1.74,552,ok
+0062887AR,428660.01,4587129.41,138.88,Cupressus sempervirens 'Stricta',False,PRIMERA,Pg Vall d'Hebron,,0.0,0.0,,,,0,no_crown_detected
+0062888AR,428710.08,4586490.88,137.44,Eucalyptus globulus,False,TERCERA,C\ Granja Vella,18.14,66.2,9.18,5.16,0.375,1.96,3549,ok
+0062890AR,428811.53,4586323.99,122.84,Casuarina cunninghamiana,False,SEGONA,Av Martí-Codolar,8.76,16.2,4.55,2.35,0.409,1.79,913,ok
+0062892AR,428645.35,4586873.81,132.29,Magnolia grandiflora,False,SEGONA,C\ Pare Mariana,9.18,45.2,7.59,3.03,0.236,2.88,956,ok
+0062893AR,428710.97,4586487.93,137.44,Eucalyptus globulus,False,EXEMPLAR,C\ Granja Vella,20.32,33.5,6.53,7.57,0.319,2.29,1909,ok
+0062896AR,428641.96,4587079.13,137.06,Populus nigra 'Italica',False,SEGONA,Pg Vall d'Hebron,9.19,11.0,3.74,2.8,0.312,2.33,492,ok
+0062897AR,428610.74,4586979.54,137.3,Brachychiton populneus,False,SEGONA,Pg Vall d'Hebron,7.8,4.8,2.46,3.58,0.278,2.56,217,ok
+0062898AR,428707.99,4586489.18,137.8,Eucalyptus globulus,False,EXEMPLAR,C\ Granja Vella,20.01,55.5,8.41,6.71,0.327,2.24,3048,ok
+0062901AR,428819.58,4586333.64,122.95,Casuarina cunninghamiana,False,PRIMERA,Av Martí-Codolar,0.0,5.2,2.59,4.73,0.359,2.05,244,low_tree
+0062902AR,428755.68,4587096.58,132.12,Styphnolobium japonicum,False,TERCERA,C\ Arquitecte Moragas,12.93,21.5,5.23,6.0,0.261,2.68,1097,ok
+0062903AR,428506.12,4586645.47,150.46,Magnolia grandiflora,False,TERCERA,Pg Vall d'Hebron,8.13,46.2,7.67,3.56,0.308,2.35,1012,ok
+0062905AR,428901.18,4587057.59,125.15,Celtis australis,False,TERCERA,C\ Ventura Rodríguez,8.4,44.5,7.53,4.63,0.339,2.16,2053,ok
+0062906AR,428931.88,4587097.97,125.62,Celtis sinensis,False,PRIMERA,C\ Ventura Rodríguez,0.0,16.2,4.55,5.49,0.429,1.69,734,low_tree
+0062907AR,428709.43,4586489.78,137.57,Eucalyptus globulus,False,TERCERA,C\ Granja Vella,17.86,3.8,2.19,9.25,0.289,2.48,211,ok
+0062910AR,428944.64,4586440.38,116.21,Populus nigra 'Italica',False,SEGONA,Pl Clota,9.86,17.0,4.65,3.75,0.268,2.63,809,ok
+0062911AR,428804.05,4587213.49,133.19,Styphnolobium japonicum,False,PRIMERA,C\ Arquitecte Moragas,5.68,9.2,3.43,2.88,0.525,1.29,411,ok
+0062914AR,428931.06,4587193.24,128.4,Brachychiton populneus,False,SEGONA,C\ Berruguete,5.59,9.8,3.52,3.06,0.489,1.43,419,ok
+0062916AR,428638.66,4587070.68,136.99,Cupressus sempervirens 'Stricta',False,SEGONA,Pg Vall d'Hebron,12.16,2.5,1.78,3.26,0.087,4.88,121,ok
+0062922AR,428884.01,4587015.02,124.53,Celtis sinensis,False,EXEMPLAR,C\ Jorge Manrique,6.76,80.8,10.14,3.86,0.413,1.77,3246,ok
+0062923AR,428909.92,4587036.84,124.18,Celtis sinensis,False,TERCERA,C\ Ventura Rodríguez,7.94,58.0,8.59,4.13,0.262,2.68,1866,ok
+0062925AR,428831.68,4587225.46,133.45,Brachychiton populneus,False,TERCERA,C\ Berruguete,6.94,10.0,3.57,1.56,0.408,1.79,459,ok
+0062928AR,428645.89,4586886.0,131.63,Magnolia grandiflora,False,SEGONA,C\ Pare Mariana,7.27,36.2,6.79,3.18,0.268,2.63,738,ok
+0062930AR,428641.25,4586495.42,141.99,Casuarina cunninghamiana,False,SEGONA,C\ Granja Vella,8.37,12.0,3.91,3.29,0.339,2.17,647,ok
+0062931AR,428686.95,4586893.95,128.71,Magnolia grandiflora,False,SEGONA,C\ Pare Mariana,5.65,12.0,3.91,2.99,0.45,1.6,271,ok
+0062934AR,428599.44,4586222.54,136.24,Koelreuteria paniculata 'Fastigiata',False,PRIMERA,C\ Coll i Alentorn,4.69,11.5,3.83,2.87,0.515,1.33,394,ok
+0062935AR,428793.35,4586952.95,123.47,Acer negundo,False,TERCERA,C\ Juan de Mena,10.58,50.2,8.0,5.1,0.365,2.02,2143,ok
+0062936AR,428841.29,4587053.18,127.54,Pinus pinea,False,PRIMERA,C\ Jorge Manrique,7.63,42.5,7.36,2.86,0.437,1.66,1865,ok
+0062940AR,428518.34,4586680.37,149.96,Magnolia grandiflora,False,SEGONA,Pg Vall d'Hebron,7.54,36.2,6.79,3.09,0.297,2.43,804,ok
+0062941AR,428796.11,4587191.02,133.01,Styphnolobium japonicum,False,PRIMERA,C\ Arquitecte Moragas,6.73,23.5,5.47,3.78,0.469,1.51,908,ok
+0062942AR,428588.96,4586227.9,137.33,Koelreuteria paniculata 'Fastigiata',False,PRIMERA,C\ Coll i Alentorn,10.71,7.5,3.09,4.22,0.327,2.24,329,ok
+0062943AR,428930.75,4586415.27,116.6,Populus nigra 'Italica',False,TERCERA,Pl Clota,12.57,28.2,6.0,3.04,0.233,2.92,1482,ok
+0062945AR,428930.06,4587189.84,128.55,Brachychiton populneus,False,SEGONA,C\ Berruguete,7.03,7.0,2.99,4.36,0.508,1.35,280,ok
+0062946AR,428806.09,4586478.75,129.3,Casuarina cunninghamiana,False,PRIMERA,C\ Granja Vella,13.59,20.2,5.08,4.34,0.264,2.66,1287,ok
+0062947AR,428828.39,4587152.34,132.74,Catalpa bignonioides,False,PRIMERA,C\ Rubió i Balaguer,4.37,6.5,2.88,2.43,0.446,1.62,140,ok
+0062948AR,428843.12,4587087.72,129.48,Tipuana tipu,False,TERCERA,Pl Sibil·les,9.34,43.0,7.4,4.82,0.371,1.98,1964,ok
+0062949AR,428862.08,4587449.5,136.34,Melia azedarach,False,EXEMPLAR,Av Can Marcet,7.74,117.5,12.23,4.03,0.429,1.69,4471,ok
+0062950AR,428635.95,4587021.74,137.0,Celtis sinensis,False,SEGONA,Pg Vall d'Hebron,29.71,28.8,6.05,4.56,0.388,1.89,879,ok
+0062952AR,428913.17,4587195.85,129.31,Brachychiton populneus,False,PRIMERA,C\ Berruguete,4.09,2.5,1.78,2.58,0.516,1.32,115,ok
+0062954AR,428779.9,4587164.49,132.69,Platanus × acerifolia,True,SEGONA,C\ Arquitecte Moragas,12.05,45.0,7.57,5.88,0.302,2.39,2139,ok
+0062955AR,428935.78,4587187.7,128.3,Brachychiton populneus,False,PRIMERA,C\ Berruguete,5.79,7.0,2.99,3.63,0.48,1.47,255,ok
+0062956AR,429056.64,4587163.07,122.04,Prunus cerasifera 'Pissardii',False,SEGONA,C\ Can Travi,5.69,17.0,4.65,3.48,0.497,1.4,663,ok
+0062957AR,428707.9,4586470.46,137.93,Casuarina cunninghamiana,False,SEGONA,C\ Granja Vella,6.92,5.0,2.52,2.06,0.41,1.78,203,ok
+0062958AR,428672.7,4587045.46,133.35,Celtis sinensis,False,SEGONA,C\ Juan de Mena,8.15,58.5,8.63,4.04,0.324,2.26,1913,ok
+0062960AR,428644.72,4587086.32,137.32,Cupressus sempervirens 'Stricta',False,PRIMERA,Pg Vall d'Hebron,8.78,1.8,1.49,1.77,0.258,2.71,60,no_crown_detected
+0062961AR,428750.28,4587106.1,132.37,Platanus × acerifolia,True,EXEMPLAR,C\ Arquitecte Moragas,19.25,108.8,11.77,7.43,0.184,3.39,5921,ok
+0062964AR,428771.81,4587141.94,132.51,Platanus × acerifolia,True,SEGONA,C\ Arquitecte Moragas,12.79,42.5,7.36,6.21,0.286,2.5,2174,ok
+0062967AR,428748.6,4586472.94,134.62,Casuarina cunninghamiana,False,PRIMERA,C\ Granja Vella,9.43,2.8,1.87,2.81,0.35,2.1,112,ok
+0062969AR,428820.01,4587269.77,133.03,Celtis australis,False,EXEMPLAR,C\ Arquitecte Moragas,11.1,51.2,8.08,6.14,0.26,2.69,1784,ok
+0062970AR,428856.1,4587476.4,137.52,Platanus × acerifolia,True,SEGONA,Pg Vall d'Hebron,9.38,27.8,5.94,5.01,0.414,1.76,657,ok
+0062974AR,429091.52,4586852.31,112.54,Pinus pinea,False,EXEMPLAR,Av Cardenal Vidal i Barraquer,9.69,51.2,8.08,5.06,0.242,2.83,899,ok
+0062975AR,428934.44,4586494.56,120.77,Styphnolobium japonicum,False,PRIMERA,C\ Granja Vella,8.51,65.8,9.15,5.22,0.438,1.65,3231,ok
+0062976AR,428846.95,4587450.94,137.09,Melia azedarach,False,PRIMERA,Av Can Marcet,,0.0,0.0,,,,0,no_crown_detected
+0062979AR,428698.36,4587036.24,131.04,Celtis sinensis,False,EXEMPLAR,C\ Juan de Mena,10.22,78.0,9.97,5.07,0.354,2.08,3966,ok
+0062981AR,428838.03,4586468.09,127.85,Styphnolobium japonicum,False,EXEMPLAR,Av Martí-Codolar,10.16,115.5,12.13,4.15,0.325,2.25,6378,ok
+0062984AR,428930.7,4587191.14,128.5,Brachychiton populneus,False,PRIMERA,C\ Berruguete,7.03,4.2,2.33,3.09,0.481,1.46,215,ok
+0062986AR,428608.55,4586218.94,135.2,Koelreuteria paniculata 'Fastigiata',False,PRIMERA,C\ Coll i Alentorn,8.51,0.8,0.98,2.88,0.643,0.88,19,no_crown_detected
+0062987AR,428618.72,4587001.88,137.2,Brachychiton populneus,False,SEGONA,Pg Vall d'Hebron,8.41,11.2,3.78,4.9,0.478,1.48,469,ok
+0062990AR,428842.79,4587084.68,129.3,Pinus pinea,False,PRIMERA,Pl Sibil·les,6.6,13.0,4.07,3.87,0.419,1.74,545,ok
+0062991AR,428818.8,4587297.86,133.16,Celtis australis,False,TERCERA,C\ Arquitecte Moragas,10.03,51.8,8.12,5.5,0.281,2.54,1970,ok
+0062992AR,428854.99,4587217.5,132.18,Brachychiton populneus,False,SEGONA,C\ Berruguete,8.21,6.8,2.93,3.52,0.411,1.78,382,ok
+0062993AR,428630.88,4586212.49,132.86,Populus nigra 'Italica',False,SEGONA,C\ Coll i Alentorn,12.15,9.8,3.52,4.67,0.226,2.97,474,ok
+0062994AR,428773.84,4587147.4,132.5,Platanus × acerifolia,True,SEGONA,C\ Arquitecte Moragas,11.84,48.8,7.88,6.93,0.366,2.01,2537,ok
+0062995AR,428672.47,4587126.99,138.78,Tipuana tipu,False,TERCERA,Pg Vall d'Hebron,10.99,48.5,7.86,5.78,0.36,2.04,2126,ok
+0062996AR,428821.83,4587095.86,131.25,Tipuana tipu,False,TERCERA,Pl Sibil·les,10.03,39.8,7.11,4.94,0.234,2.9,1792,ok
+0062997AR,428939.21,4587554.66,136.85,Platanus × acerifolia,True,SEGONA,Pg Vall d'Hebron,11.49,45.2,7.59,5.76,0.234,2.91,962,ok
+0063000AR,428912.56,4587089.05,125.8,Celtis sinensis,False,SEGONA,C\ Ventura Rodríguez,9.09,31.2,6.31,4.58,0.239,2.86,953,ok
+0063001AR,428943.26,4586495.83,119.8,Styphnolobium japonicum,False,EXEMPLAR,C\ Granja Vella,10.77,102.2,11.41,5.56,0.351,2.09,5736,ok
+0063003AR,428667.04,4587148.47,139.63,Cupressus sempervirens 'Stricta',False,PRIMERA,Pg Vall d'Hebron,4.16,1.0,1.13,1.66,0.35,2.1,35,no_crown_detected
+0063007AR,428713.8,4586889.75,126.66,Magnolia grandiflora,False,SEGONA,C\ Pare Mariana,5.31,13.2,4.11,3.64,0.449,1.6,276,ok
+0063009AR,429114.54,4587209.96,117.9,Ginkgo biloba,False,SEGONA,Av Cardenal Vidal i Barraquer,12.26,23.2,5.44,2.83,0.284,2.52,1252,ok
+0063011AR,428832.36,4587163.21,132.83,Catalpa bignonioides,False,PRIMERA,C\ Rubió i Balaguer,5.49,6.2,2.82,3.07,0.41,1.78,134,ok
+0063012AR,428808.42,4586483.72,129.24,Casuarina cunninghamiana,False,PRIMERA,C\ Granja Vella,4.55,5.2,2.59,2.93,0.372,1.98,244,ok
+0063013AR,428949.28,4587145.69,126.77,Celtis sinensis,False,SEGONA,C\ Ventura Rodríguez,5.9,45.2,7.59,2.42,0.324,2.25,1836,ok
+0063014AR,429002.7,4587599.84,136.0,Platanus × acerifolia,True,SEGONA,Pg Vall d'Hebron,8.63,36.8,6.84,5.16,0.337,2.17,738,ok
+0063015AR,428738.08,4587300.53,138.78,Platanus × acerifolia,True,SEGONA,Pg Vall d'Hebron,10.71,51.8,8.12,5.28,0.319,2.29,2310,ok
+0063017AR,428668.04,4587151.37,139.7,Cupressus sempervirens 'Stricta',False,PRIMERA,Pg Vall d'Hebron,3.95,0.2,0.56,3.36,0.667,0.81,11,no_crown_detected
+0063018AR,428863.37,4587214.11,131.75,Brachychiton populneus,False,SEGONA,C\ Berruguete,6.41,7.2,3.04,3.92,0.427,1.7,275,ok
+0063026AR,428791.78,4587394.19,137.98,Platanus × acerifolia,True,SEGONA,Pg Vall d'Hebron,9.97,17.8,4.75,6.19,0.436,1.66,901,ok
+0063027AR,428605.31,4586936.52,137.38,Celtis sinensis,False,TERCERA,Pg Vall d'Hebron,9.41,41.8,7.29,5.2,0.327,2.24,1434,ok
+0063028AR,428844.48,4587196.6,132.68,Catalpa bignonioides,False,PRIMERA,C\ Rubió i Balaguer,5.01,6.8,2.93,3.49,0.447,1.61,169,ok
+0063029AR,428615.61,4586965.61,137.18,Celtis sinensis,False,SEGONA,Pg Vall d'Hebron,7.5,29.5,6.13,4.81,0.418,1.75,923,ok
+0063031AR,428648.9,4586492.82,141.5,Casuarina cunninghamiana,False,PRIMERA,C\ Granja Vella,8.45,7.8,3.14,2.78,0.416,1.76,375,ok
+0063033AR,428607.58,4586942.2,137.33,Celtis sinensis,False,SEGONA,Pg Vall d'Hebron,9.06,31.2,6.31,5.4,0.544,1.22,1040,ok
+0063035AR,428803.24,4586302.13,122.48,Casuarina cunninghamiana,False,SEGONA,Av Martí-Codolar,8.74,14.5,4.3,3.13,0.367,2.0,759,ok
+0063037AR,428812.71,4586499.17,129.03,Eucalyptus globulus,False,EXEMPLAR,C\ Granja Vella,19.93,86.5,10.49,8.13,0.255,2.73,5550,ok
+0063039AR,428711.71,4586454.61,137.49,Styphnolobium japonicum,False,EXEMPLAR,C\ Granja Vella,10.29,81.2,10.17,3.23,0.288,2.49,4309,ok
+0063040AR,428904.62,4587200.95,129.76,Brachychiton populneus,False,SEGONA,C\ Berruguete,7.67,20.8,5.14,4.21,0.228,2.96,755,ok
+0063047AR,428615.76,4586216.44,134.55,Koelreuteria paniculata,False,PRIMERA,C\ Coll i Alentorn,7.93,16.5,4.58,3.07,0.389,1.89,776,ok
+0063049AR,428664.18,4586881.66,130.26,Magnolia grandiflora,False,SEGONA,C\ Pare Mariana,6.92,25.5,5.7,2.91,0.173,3.51,521,ok
+0063051AR,428533.44,4586733.24,150.09,Magnolia grandiflora,False,SEGONA,Pg Vall d'Hebron,5.8,23.2,5.44,2.98,0.361,2.04,509,ok
+0063052AR,428835.78,4587313.27,133.04,Celtis australis,False,EXEMPLAR,C\ Arquitecte Moragas,11.81,72.8,9.62,6.26,0.333,2.2,3292,ok
+0063053AR,428845.21,4586408.7,125.36,Pyrus communis,False,SEGONA,Av Martí-Codolar,10.16,39.0,7.05,3.31,0.304,2.38,2146,ok
+0063057AR,429073.12,4587208.36,122.18,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Can Travi,,0.0,0.0,,,,0,no_crown_detected
+0063058AR,428610.24,4586218.32,135.1,Koelreuteria paniculata 'Fastigiata',False,PRIMERA,C\ Coll i Alentorn,,0.0,0.0,,,,0,no_crown_detected
+0063060AR,428929.63,4587091.92,125.46,Celtis sinensis,False,TERCERA,C\ Ventura Rodríguez,7.36,49.8,7.96,3.4,0.432,1.68,2179,ok
+0063061AR,428467.04,4586595.78,151.35,Brachychiton populneus,False,TERCERA,Pg Vall d'Hebron,12.87,13.2,4.11,4.11,0.202,3.2,361,ok
+0063062AR,428815.38,4586334.83,123.01,Casuarina cunninghamiana,False,SEGONA,Av Martí-Codolar,4.43,6.0,2.76,1.88,0.558,1.17,257,ok
+0063065AR,428801.54,4586503.89,129.57,Brachychiton populneus,False,SEGONA,C\ Granja Vella,9.39,19.0,4.92,4.58,0.428,1.7,979,ok
+0063066AR,428993.89,4587155.64,124.92,Celtis sinensis,False,TERCERA,C\ Berruguete,8.25,77.0,9.9,2.8,0.295,2.44,3507,ok
+0063067AR,429049.65,4587626.94,134.85,Platanus × acerifolia,True,TERCERA,Pg Vall d'Hebron,12.12,58.5,8.63,5.87,0.223,3.0,1351,ok
+0063070AR,428625.2,4586213.99,133.45,Koelreuteria paniculata 'Fastigiata',False,PRIMERA,C\ Coll i Alentorn,5.64,7.8,3.14,3.04,0.426,1.71,310,ok
+0063073AR,428719.31,4586469.25,137.04,Casuarina cunninghamiana,False,PRIMERA,C\ Granja Vella,10.01,10.8,3.7,3.15,0.33,2.22,692,ok
+0063074AR,428659.96,4587093.3,137.5,Tipuana tipu,False,TERCERA,Pg Vall d'Hebron,11.46,56.2,8.46,6.47,0.376,1.96,2914,ok
+0063075AR,428807.28,4587213.83,133.28,Cercis siliquastrum,False,SEGONA,C\ Arquitecte Moragas,5.79,18.0,4.79,3.81,0.558,1.17,729,ok
+0063083AR,428843.58,4587029.66,126.8,Celtis sinensis,False,TERCERA,C\ Jorge Manrique,6.3,46.2,7.67,4.27,0.481,1.46,1920,ok
+0063084AR,428753.79,4587116.72,133.31,Platanus × acerifolia,True,TERCERA,C\ Arquitecte Moragas,14.24,26.5,5.81,7.07,0.333,2.2,1517,ok
+0063085AR,429051.74,4587149.47,121.84,Celtis australis,False,SEGONA,C\ Can Travi,8.59,29.5,6.13,4.18,0.256,2.72,1056,ok
+0063086AR,428811.58,4587401.26,136.87,Melia azedarach,False,SEGONA,Av Can Marcet,4.82,15.5,4.44,2.88,0.49,1.43,578,ok
+0063091AR,428730.58,4586472.87,136.18,Casuarina cunninghamiana,False,PRIMERA,C\ Granja Vella,5.26,5.0,2.52,1.97,0.385,1.91,243,ok
+0063092AR,428848.83,4586435.71,126.22,Styphnolobium japonicum,False,TERCERA,Av Martí-Codolar,7.69,36.0,6.77,3.75,0.332,2.2,1871,ok
+0063101AR,429057.09,4587197.56,122.39,Fraxinus angustifolia,False,SEGONA,C\ Can Travi,9.28,32.8,6.46,4.81,0.334,2.19,932,ok
+0063102AR,428922.01,4587115.28,126.38,Celtis sinensis,False,TERCERA,C\ Ventura Rodríguez,7.69,42.5,7.36,5.04,0.32,2.28,1160,ok
+0063104AR,428844.13,4587052.48,127.38,Pinus pinea,False,SEGONA,C\ Jorge Manrique,5.33,49.0,7.9,2.9,0.382,1.92,2378,ok
+0063106AR,428750.22,4586473.1,134.54,Casuarina cunninghamiana,False,SEGONA,C\ Granja Vella,9.87,8.0,3.19,2.86,0.353,2.08,408,ok
+0063108AR,429107.21,4587214.92,118.12,Ginkgo biloba,False,SEGONA,Av Cardenal Vidal i Barraquer,12.33,29.5,6.13,3.17,0.359,2.05,1204,ok
+0063110AR,428796.58,4586937.74,122.95,Celtis sinensis,False,PRIMERA,C\ Juan de Mena,6.94,27.0,5.86,2.99,0.337,2.18,1258,ok
+0063112AR,428889.38,4586512.13,125.43,Styphnolobium japonicum,False,SEGONA,C\ Granja Vella,9.61,38.2,6.98,4.03,0.366,2.01,2194,ok
+0063113AR,428910.37,4587082.92,125.72,Celtis sinensis,False,EXEMPLAR,C\ Ventura Rodríguez,9.33,85.2,10.42,5.26,0.329,2.22,2545,ok
+0063114AR,428805.2,4587388.08,136.98,Melia azedarach,False,PRIMERA,Av Can Marcet,4.74,5.0,2.52,2.44,0.514,1.33,214,ok
+0063115AR,428830.99,4587227.49,133.43,Brachychiton populneus,False,SEGONA,C\ Berruguete,7.12,5.5,2.65,2.99,0.292,2.46,286,ok
+0063117AR,428819.95,4587129.03,132.79,Catalpa bignonioides,False,SEGONA,C\ Rubió i Balaguer,8.25,23.2,5.44,3.9,0.285,2.51,583,ok
+0063118AR,428630.43,4586910.02,133.48,Celtis sinensis,False,EXEMPLAR,C\ Pare Mariana,10.99,89.2,10.66,5.53,0.285,2.51,3713,ok
+0063120AR,428736.85,4586471.26,135.63,Casuarina cunninghamiana,False,SEGONA,C\ Granja Vella,9.06,5.5,2.65,3.07,0.366,2.01,279,ok
+0063122AR,428787.39,4586967.2,123.88,Celtis australis,False,TERCERA,C\ Juan de Mena,7.91,59.8,8.72,4.04,0.339,2.16,2480,ok
+0063123AR,428585.6,4586231.02,137.77,Koelreuteria paniculata 'Fastigiata',False,PRIMERA,C\ Coll i Alentorn,5.82,6.8,2.93,3.24,0.331,2.21,256,ok
+0063126AR,428769.21,4587358.84,138.3,Platanus × acerifolia,True,PRIMERA,Pg Vall d'Hebron,7.85,16.5,4.58,4.74,0.45,1.6,691,ok
+0063128AR,428811.82,4586311.88,122.61,Casuarina cunninghamiana,False,PRIMERA,Av Martí-Codolar,8.65,15.2,4.41,2.14,0.479,1.47,793,ok
+0063130AR,428641.22,4587077.28,137.05,Cupressus sempervirens 'Stricta',False,PRIMERA,Pg Vall d'Hebron,10.79,6.2,2.82,2.65,0.232,2.92,225,ok
+0063132AR,428817.77,4587263.75,133.05,Celtis australis,False,TERCERA,C\ Arquitecte Moragas,10.27,51.5,8.1,6.09,0.267,2.64,1582,ok
+0063133AR,429088.78,4586859.28,112.49,Pinus pinea,False,TERCERA,Av Cardenal Vidal i Barraquer,7.21,48.0,7.82,4.41,0.276,2.58,780,ok
+0063135AR,428668.2,4587115.64,138.34,Tipuana tipu,False,PRIMERA,Pg Vall d'Hebron,12.47,52.5,8.18,2.12,0.281,2.54,3398,ok
+0063136AR,428726.03,4587039.62,129.6,Platanus × acerifolia,True,TERCERA,C\ Arquitecte Moragas,12.48,70.5,9.47,5.4,0.416,1.76,3732,ok
+0063141AR,428592.24,4586225.18,137.07,Koelreuteria paniculata 'Fastigiata',False,PRIMERA,C\ Coll i Alentorn,5.42,4.8,2.46,2.49,0.305,2.38,194,ok
+0063143AR,428816.46,4586484.75,128.82,Casuarina cunninghamiana,False,SEGONA,C\ Granja Vella,10.58,16.2,4.55,3.17,0.344,2.13,762,ok
+0063144AR,429014.69,4587078.05,122.15,Prunus cerasifera 'Pissardii',False,SEGONA,C\ Can Travi,5.63,18.8,4.89,3.08,0.336,2.18,438,ok
+0063146AR,428798.24,4587215.39,133.04,Platanus × acerifolia PLATANOR® 'Vallis Clausa',True,PRIMERA,C\ Arquitecte Moragas,8.22,7.0,2.99,2.69,0.423,1.72,384,ok
+0063148AR,428871.84,4587019.22,125.17,Celtis australis,False,TERCERA,C\ Jorge Manrique,6.53,2.2,1.69,3.39,0.432,1.68,127,ok
+0063150AR,428823.97,4587374.45,134.91,Pinus pinea,False,EXEMPLAR,Av Can Marcet,7.98,61.0,8.81,4.82,0.368,2.0,2381,ok
+0063152AR,428807.57,4587174.48,133.25,Ligustrum lucidum,False,SEGONA,C\ Arquitecte Moragas,5.67,8.2,3.24,4.21,0.523,1.3,183,ok
+0063153AR,428919.65,4587109.05,126.28,Celtis sinensis,False,SEGONA,C\ Ventura Rodríguez,7.07,36.2,6.79,4.38,0.411,1.78,902,ok
+0063155AR,428828.85,4586346.34,123.29,Styphnolobium japonicum,False,SEGONA,Av Martí-Codolar,5.68,25.2,5.67,3.32,0.467,1.52,1154,ok
+0063156AR,429031.52,4587125.34,122.23,Fraxinus angustifolia,False,SEGONA,C\ Can Travi,9.11,33.5,6.53,3.92,0.193,3.29,731,ok
+0063157AR,428926.96,4587085.02,125.33,Celtis sinensis,False,SEGONA,C\ Ventura Rodríguez,5.96,24.0,5.53,3.76,0.415,1.76,837,ok
+0063159AR,428920.74,4587022.24,122.96,Celtis sinensis,False,SEGONA,C\ Jorge Manrique,5.33,19.2,4.95,4.24,0.384,1.91,396,ok
+0063162AR,428640.49,4587075.48,137.05,Cupressus sempervirens 'Stricta',False,PRIMERA,Pg Vall d'Hebron,12.97,9.2,3.43,3.63,0.298,2.42,632,ok
+0063164AR,429066.1,4587189.25,122.1,Prunus cerasifera 'Pissardii',False,SEGONA,C\ Can Travi,6.85,25.8,5.73,3.67,0.475,1.49,934,ok
+0063166AR,428524.22,4586697.16,149.75,Magnolia grandiflora,False,SEGONA,Pg Vall d'Hebron,6.01,25.8,5.73,3.05,0.348,2.11,546,ok
+0063167AR,428666.09,4587047.62,134.11,Celtis sinensis,False,TERCERA,C\ Juan de Mena,6.62,51.8,8.12,3.79,0.312,2.33,2043,ok
+0063169AR,428920.43,4587192.95,128.98,Brachychiton populneus,False,PRIMERA,C\ Berruguete,4.93,4.0,2.26,2.74,0.462,1.54,189,ok
+0063171AR,428806.32,4587219.57,133.26,Styphnolobium japonicum,False,PRIMERA,C\ Arquitecte Moragas,5.87,13.2,4.11,3.28,0.509,1.35,592,ok
+0063172AR,429070.66,4587234.63,122.53,Fraxinus angustifolia,False,SEGONA,C\ Can Travi,11.17,88.5,10.62,8.55,0.223,3.0,4271,ok
+0063173AR,428801.35,4586286.18,122.52,Casuarina cunninghamiana,False,SEGONA,Av Martí-Codolar,2.91,2.2,1.69,1.86,0.55,1.2,87,low_tree
+0063177AR,428758.68,4586887.62,123.02,Quercus ilex,False,EXEMPLAR,C\ Pare Mariana,12.04,164.5,14.47,5.85,0.131,4.06,2731,ok
+0063179AR,428658.5,4586466.55,141.04,Styphnolobium japonicum,False,EXEMPLAR,C\ Granja Vella,9.22,88.5,10.62,4.5,0.35,2.1,5041,ok
+0063180AR,428948.69,4586445.52,116.02,Fraxinus angustifolia 'Raywood',False,PRIMERA,Pl Clota,8.57,4.8,2.46,3.14,0.299,2.42,220,ok
+0063181AR,429099.92,4587083.27,117.84,Ulmus pumila,False,TERCERA,Av Cardenal Vidal i Barraquer,13.79,119.2,12.32,3.42,0.315,2.31,5800,ok
+0063182AR,428655.78,4587033.07,134.84,Celtis sinensis,False,SEGONA,C\ Juan de Mena,8.09,51.8,8.12,4.81,0.318,2.29,1939,ok
+0063183AR,428745.97,4587316.53,138.62,Platanus × acerifolia,True,SEGONA,Pg Vall d'Hebron,11.15,53.5,8.25,6.12,0.357,2.06,2481,ok
+0063184AR,428767.92,4587130.41,132.44,Platanus × acerifolia,True,TERCERA,C\ Arquitecte Moragas,13.2,44.0,7.48,6.78,0.31,2.34,2500,ok
+0063186AR,428811.43,4587185.9,133.32,Ligustrum lucidum,False,SEGONA,C\ Arquitecte Moragas,4.73,8.5,3.29,3.54,0.538,1.24,170,ok
+0063187AR,428934.42,4587104.78,125.8,Celtis sinensis,False,EXEMPLAR,C\ Ventura Rodríguez,8.86,84.0,10.34,4.37,0.366,2.01,4633,ok
+0063189AR,428761.66,4587113.49,132.27,Styphnolobium japonicum,False,SEGONA,C\ Arquitecte Moragas,6.96,56.0,8.44,3.47,0.41,1.78,2896,ok
+0063190AR,428852.78,4586845.24,121.4,Styphnolobium japonicum,False,TERCERA,C\ Pare Mariana,8.07,41.2,7.25,2.49,0.271,2.61,914,ok
+0063191AR,429080.42,4587138.92,119.19,Celtis australis,False,TERCERA,C\ Berruguete,7.78,29.0,6.08,4.1,0.316,2.3,1059,ok
+0063192AR,428782.1,4587170.29,132.71,Platanus × acerifolia,True,SEGONA,C\ Arquitecte Moragas,13.16,44.8,7.55,6.87,0.257,2.72,2216,ok
+0063193AR,428755.41,4586461.2,133.93,Styphnolobium japonicum,False,SEGONA,C\ Granja Vella,6.41,11.8,3.87,4.3,0.502,1.38,465,ok
+0063194AR,429082.02,4586849.17,113.23,Pinus pinea,False,TERCERA,Av Cardenal Vidal i Barraquer,6.98,36.8,6.84,4.06,0.194,3.28,614,ok
+0063197AR,428907.29,4587527.02,137.06,Platanus × acerifolia,True,TERCERA,Pg Vall d'Hebron,12.76,88.2,10.6,6.66,0.284,2.52,2094,ok
+0063199AR,428911.89,4587042.12,124.36,Celtis sinensis,False,TERCERA,C\ Ventura Rodríguez,7.3,30.2,6.21,4.41,0.193,3.29,828,ok
+0063202AR,428640.52,4587070.05,136.97,Cupressus sempervirens 'Stricta',False,PRIMERA,Pg Vall d'Hebron,12.56,3.8,2.19,2.98,0.188,3.34,186,ok
+0063204AR,428760.2,4587343.21,138.41,Platanus × acerifolia,True,SEGONA,Pg Vall d'Hebron,9.96,30.8,6.26,3.19,0.348,2.11,1517,ok
+0063206AR,428710.94,4586489.9,137.35,Eucalyptus globulus,False,TERCERA,C\ Granja Vella,17.43,27.2,5.89,4.38,0.34,2.16,1216,ok
+0063208AR,428835.09,4586464.1,127.68,Styphnolobium japonicum,False,EXEMPLAR,Av Martí-Codolar,10.18,40.0,7.14,3.48,0.305,2.38,2315,ok
+0063209AR,428979.13,4587175.94,126.06,Brachychiton populneus,False,PRIMERA,C\ Berruguete,,0.0,0.0,,,,0,no_crown_detected
+0063210AR,428582.23,4586233.2,138.14,Populus nigra 'Italica',False,SEGONA,C\ Coll i Alentorn,9.38,16.2,4.55,3.22,0.269,2.63,729,ok
+0063215AR,429085.55,4586845.01,113.03,Pinus pinea,False,EXEMPLAR,Av Cardenal Vidal i Barraquer,9.61,50.5,8.02,5.54,0.164,3.62,781,ok
+0063221AR,428622.14,4586983.97,137.25,Celtis sinensis,False,SEGONA,Pg Vall d'Hebron,7.72,27.2,5.89,4.17,0.386,1.9,1029,ok
+0063224AR,428473.34,4586612.51,150.88,Brachychiton populneus,False,TERCERA,Pg Vall d'Hebron,10.31,12.5,3.99,4.12,0.163,3.62,300,ok
+0063226AR,428850.72,4586418.99,125.72,Styphnolobium japonicum,False,TERCERA,Av Martí-Codolar,8.03,52.2,8.16,3.59,0.383,1.92,2368,ok
+0063229AR,428726.85,4586470.06,136.46,Casuarina cunninghamiana,False,SEGONA,C\ Granja Vella,6.18,9.8,3.52,2.68,0.428,1.7,490,ok
+0063231AR,428939.14,4587175.64,127.97,Celtis sinensis,False,SEGONA,C\ Berruguete,10.83,33.8,6.56,5.12,0.339,2.17,1197,ok
+0063232AR,428700.94,4587206.0,139.66,Tipuana tipu,False,TERCERA,Pg Vall d'Hebron,7.85,33.2,6.51,4.42,0.38,1.94,1193,ok
+0063237AR,428662.77,4587135.92,139.32,Cupressus sempervirens 'Stricta',False,PRIMERA,Pg Vall d'Hebron,11.51,32.2,6.41,5.45,0.276,2.57,1777,ok
+0063240AR,428822.72,4587089.54,130.64,Pinus pinea,False,SEGONA,C\ Jorge Manrique,5.52,14.2,4.26,3.42,0.468,1.52,541,ok
+0063242AR,428970.6,4587174.81,126.62,Brachychiton populneus,False,SEGONA,C\ Berruguete,5.37,7.8,3.14,2.89,0.505,1.37,349,ok
+0063245AR,428834.32,4587168.81,132.85,Catalpa bignonioides,False,PRIMERA,C\ Rubió i Balaguer,5.57,12.2,3.95,3.06,0.399,1.84,287,ok
+0063250AR,428595.84,4586223.34,136.68,Tipuana tipu,False,SEGONA,C\ Coll i Alentorn,5.39,13.8,4.18,3.35,0.427,1.7,591,ok
+0063252AR,428852.4,4587472.4,137.54,Platanus × acerifolia,True,SEGONA,Pg Vall d'Hebron,9.82,32.5,6.43,4.71,0.356,2.07,866,ok
+0063255AR,428956.44,4587182.12,127.48,Brachychiton populneus,False,SEGONA,C\ Berruguete,5.55,5.8,2.71,3.34,0.503,1.37,255,ok
+0063256AR,428622.65,4587013.68,137.15,Brachychiton populneus,False,SEGONA,Pg Vall d'Hebron,9.2,13.5,4.15,4.15,0.388,1.9,599,ok
+0063257AR,428555.91,4586796.14,149.4,Magnolia grandiflora,False,SEGONA,Pg Vall d'Hebron,6.92,16.8,4.62,3.35,0.295,2.44,346,ok
+0063259AR,428914.65,4587024.09,123.34,Celtis sinensis,False,TERCERA,C\ Jorge Manrique,7.68,26.2,5.78,4.73,0.376,1.96,634,ok
+0063260AR,428669.1,4587154.13,139.75,Cupressus sempervirens 'Stricta',False,PRIMERA,Pg Vall d'Hebron,4.86,1.2,1.26,2.51,0.067,5.42,62,no_crown_detected
+0063262AR,428799.99,4587202.17,133.1,Styphnolobium japonicum,False,PRIMERA,C\ Arquitecte Moragas,4.63,19.5,4.98,3.42,0.476,1.48,776,ok
+0063263AR,428851.91,4586434.04,126.16,Styphnolobium japonicum,False,PRIMERA,Av Martí-Codolar,7.0,14.8,4.33,3.54,0.347,2.12,711,ok
+0063264AR,428864.31,4587022.17,125.6,Celtis sinensis,False,SEGONA,C\ Jorge Manrique,5.83,17.2,4.69,4.04,0.53,1.27,758,ok
+0063267AR,428844.4,4587338.8,133.02,Celtis australis,False,EXEMPLAR,C\ Arquitecte Moragas,13.22,60.0,8.74,6.77,0.242,2.84,2375,ok
+0063269AR,428924.12,4587121.31,126.54,Celtis sinensis,False,SEGONA,C\ Ventura Rodríguez,7.07,27.2,5.89,1.86,0.273,2.6,778,ok
+0063270AR,428736.4,4587042.74,130.09,Platanus × acerifolia,True,TERCERA,C\ Arquitecte Moragas,13.76,66.0,9.17,6.94,0.432,1.68,3596,ok
+0063272AR,428804.56,4586466.72,129.32,Styphnolobium japonicum,False,PRIMERA,C\ Granja Vella,4.9,4.2,2.33,3.11,0.554,1.18,163,ok
+0063283AR,428905.74,4587198.87,129.71,Brachychiton populneus,False,SEGONA,C\ Berruguete,5.7,6.8,2.93,4.25,0.485,1.45,258,ok
+0063284AR,428819.47,4587090.21,130.87,Pinus pinea,False,SEGONA,C\ Jorge Manrique,6.01,17.0,4.65,3.37,0.429,1.69,629,ok
+0063285AR,428640.72,4586472.31,142.0,Styphnolobium japonicum,False,SEGONA,C\ Granja Vella,5.97,67.5,9.27,2.28,0.344,2.13,3500,ok
+0063287AR,428943.49,4587186.63,127.93,Brachychiton populneus,False,SEGONA,C\ Berruguete,6.24,4.2,2.33,2.68,0.495,1.41,188,ok
+0063289AR,428804.74,4586482.53,129.45,Casuarina cunninghamiana,False,PRIMERA,C\ Granja Vella,4.46,3.0,1.95,2.18,0.485,1.45,100,ok
+0063290AR,428606.78,4586219.65,135.47,Populus nigra 'Italica',False,SEGONA,C\ Coll i Alentorn,11.88,7.8,3.14,3.74,0.354,2.08,417,ok
+0063291AR,429054.99,4587190.64,122.33,Prunus cerasifera 'Pissardii',False,SEGONA,C\ Can Travi,5.11,10.5,3.66,3.66,0.439,1.64,246,ok
+0063293AR,428842.7,4586411.95,125.43,Pyrus communis,False,TERCERA,Av Martí-Codolar,5.47,34.0,6.58,2.91,0.315,2.31,1509,ok
+0063296AR,428805.34,4586293.45,122.44,Casuarina cunninghamiana,False,SEGONA,Av Martí-Codolar,4.1,7.0,2.99,2.03,0.426,1.71,359,ok
+0063297AR,428856.15,4587049.62,126.77,Pinus pinea,False,PRIMERA,C\ Jorge Manrique,7.84,22.0,5.29,2.0,0.302,2.39,888,ok
+0063298AR,428499.53,4586628.34,150.66,Magnolia grandiflora,False,TERCERA,Pg Vall d'Hebron,7.43,29.5,6.13,2.9,0.34,2.16,635,ok
+0063301AR,429024.61,4587144.87,122.91,Celtis sinensis,False,TERCERA,C\ Berruguete,7.9,0.5,0.8,5.03,0.333,2.2,11,no_crown_detected
+0063302AR,428687.14,4587040.22,132.03,Celtis australis,False,TERCERA,C\ Juan de Mena,10.25,61.8,8.87,5.2,0.3,2.41,3156,ok
+0063304AR,428669.22,4586879.94,129.86,Magnolia grandiflora,False,TERCERA,C\ Pare Mariana,8.22,43.2,7.42,3.44,0.137,3.98,1059,ok
+0063306AR,429065.97,4587222.28,122.48,Prunus cerasifera 'Pissardii',False,SEGONA,C\ Can Travi,6.04,34.0,6.58,3.07,0.431,1.68,858,ok
+0063307AR,429080.56,4586854.3,113.32,Pinus pinea,False,TERCERA,Av Cardenal Vidal i Barraquer,7.03,33.0,6.48,4.44,0.266,2.65,533,ok
+0063311AR,428757.79,4587127.79,133.36,Platanus × acerifolia,True,TERCERA,C\ Arquitecte Moragas,14.03,107.5,11.7,5.7,0.175,3.49,6188,ok
+0063321AR,428936.69,4587111.97,125.93,Celtis sinensis,False,PRIMERA,C\ Ventura Rodríguez,1.62,17.0,4.65,4.95,0.462,1.54,859,low_tree
+0063322AR,428822.73,4586484.96,128.55,Casuarina cunninghamiana,False,PRIMERA,C\ Granja Vella,8.8,9.8,3.52,2.06,0.376,1.96,452,ok
+0063323AR,428795.33,4586917.58,122.48,Acer negundo,False,SEGONA,C\ Juan de Mena,9.1,37.2,6.89,4.31,0.407,1.8,1395,ok
+0063328AR,428742.6,4586471.97,135.16,Casuarina cunninghamiana,False,SEGONA,C\ Granja Vella,8.67,10.8,3.7,3.01,0.429,1.69,479,ok
+0063331AR,428548.8,4586774.6,150.42,Magnolia grandiflora,False,SEGONA,Pg Vall d'Hebron,7.72,26.0,5.75,3.28,0.248,2.78,495,ok
+0063333AR,429063.58,4587145.12,121.19,Celtis australis,False,SEGONA,C\ Berruguete,6.09,23.0,5.41,3.07,0.42,1.74,762,ok
+0063334AR,428695.62,4586467.49,138.81,Casuarina cunninghamiana,False,PRIMERA,C\ Granja Vella,4.98,3.8,2.19,2.22,0.375,1.96,172,ok
+0063335AR,428909.96,4587026.21,123.55,Celtis sinensis,False,TERCERA,C\ Jorge Manrique,7.18,52.5,8.18,4.82,0.286,2.5,1433,ok
+0063337AR,429014.64,4587163.25,123.8,Brachychiton populneus,False,SEGONA,C\ Berruguete,5.68,8.0,3.19,3.74,0.494,1.41,251,ok
+0063338AR,428921.9,4587196.38,128.85,Brachychiton populneus,False,PRIMERA,C\ Berruguete,4.28,0.8,0.98,3.21,0.583,1.08,24,no_crown_detected
+0063341AR,428968.16,4587576.32,136.54,Platanus × acerifolia,True,SEGONA,Pg Vall d'Hebron,13.35,52.5,8.18,6.53,0.202,3.2,1042,ok
+0063343AR,429019.42,4587161.21,123.55,Brachychiton populneus,False,EXEMPLAR,C\ Berruguete,8.92,19.8,5.01,3.7,0.331,2.21,854,ok
+0063344AR,428660.54,4586489.16,140.85,Casuarina cunninghamiana,False,SEGONA,C\ Granja Vella,6.86,7.5,3.09,3.52,0.391,1.88,382,ok
+0063346AR,428763.23,4587348.94,138.36,Platanus × acerifolia,True,SEGONA,Pg Vall d'Hebron,9.6,37.0,6.86,3.16,0.292,2.46,1787,ok
+0063347AR,428813.59,4586303.04,122.48,Populus simonii,False,PRIMERA,Av Martí-Codolar,,0.0,0.0,,,,0,no_crown_detected
+0063348AR,428684.85,4586900.06,129.07,Magnolia grandiflora,False,SEGONA,C\ Pare Mariana,6.35,14.2,4.26,3.08,0.414,1.76,368,ok
+0063353AR,428793.87,4587185.25,132.95,Styphnolobium japonicum,False,PRIMERA,C\ Arquitecte Moragas,7.42,20.5,5.11,3.4,0.469,1.51,790,ok
+0063355AR,428937.18,4587190.89,128.24,Brachychiton populneus,False,TERCERA,C\ Berruguete,7.74,20.8,5.14,3.7,0.471,1.51,809,ok
+0063358AR,428871.2,4587211.22,131.33,Brachychiton populneus,False,SEGONA,C\ Berruguete,8.04,7.5,3.09,3.68,0.401,1.83,387,ok
+0063361AR,428898.45,4587050.01,124.93,Celtis australis,False,SEGONA,C\ Ventura Rodríguez,10.46,39.5,7.09,5.04,0.238,2.87,1803,ok
+0063367AR,428819.94,4587384.04,135.59,Melia azedarach,False,TERCERA,Av Can Marcet,7.61,48.8,7.88,4.27,0.513,1.34,2217,ok
+0063368AR,428846.16,4587223.96,132.7,Brachychiton populneus,False,SEGONA,C\ Berruguete,9.42,63.8,9.01,5.65,0.299,2.42,2570,ok
+0063370AR,428899.72,4587053.69,125.05,Celtis australis,False,SEGONA,C\ Ventura Rodríguez,9.66,42.5,7.36,4.89,0.283,2.52,2143,ok
+0063372AR,428963.4,4587572.74,136.59,Platanus × acerifolia,True,SEGONA,Pg Vall d'Hebron,13.03,58.0,8.59,6.99,0.18,3.43,1195,ok
+0063373AR,428796.75,4586931.04,122.81,Acer negundo,False,TERCERA,C\ Juan de Mena,11.47,53.8,8.27,4.52,0.232,2.92,2325,ok
+0063374AR,428964.69,4587179.07,127.02,Brachychiton populneus,False,SEGONA,C\ Berruguete,8.92,8.2,3.24,3.03,0.392,1.87,448,ok
+0063375AR,428722.07,4587007.96,128.13,Celtis sinensis,False,TERCERA,C\ Juan de Mena,9.71,101.2,11.35,4.78,0.279,2.55,5207,ok
+0063376AR,428481.36,4586634.48,146.3,Brachychiton populneus,False,SEGONA,Pg Vall d'Hebron,8.95,16.8,4.62,3.51,0.094,4.73,341,ok
+0063380AR,428809.74,4586304.14,122.49,Casuarina cunninghamiana,False,SEGONA,Av Martí-Codolar,0.0,0.5,0.8,2.1,0.562,1.15,25,no_crown_detected
+0063381AR,428790.08,4587192.84,132.87,Platanus × acerifolia,True,TERCERA,C\ Arquitecte Moragas,13.36,85.8,10.45,6.35,0.321,2.27,4095,ok
+0063383AR,428733.01,4587289.41,138.86,Platanus × acerifolia,True,SEGONA,Pg Vall d'Hebron,12.43,47.0,7.74,5.69,0.277,2.57,2307,ok
+0063389AR,428833.28,4587449.61,137.61,Platanus × acerifolia,True,PRIMERA,Pg Vall d'Hebron,8.13,13.2,4.11,5.01,0.553,1.18,495,ok
+0063390AR,428702.96,4587211.62,139.59,Tipuana tipu,False,TERCERA,Pg Vall d'Hebron,9.48,62.2,8.9,2.51,0.316,2.3,2417,ok
+0063392AR,428642.18,4587070.84,136.99,Cupressus sempervirens 'Stricta',False,SEGONA,Pg Vall d'Hebron,13.13,5.8,2.71,3.77,0.274,2.59,327,ok
+0063394AR,428666.22,4587110.26,138.13,Tipuana tipu,False,SEGONA,Pg Vall d'Hebron,11.31,61.8,8.87,4.33,0.233,2.92,3711,ok
+0063395AR,428812.75,4586483.68,129.02,Casuarina cunninghamiana,False,SEGONA,C\ Granja Vella,7.1,9.0,3.39,2.63,0.4,1.83,384,ok
+0063396AR,428944.89,4587184.33,127.9,Brachychiton populneus,False,TERCERA,C\ Berruguete,7.02,9.2,3.43,3.09,0.348,2.11,479,ok
+0063397AR,428716.89,4587250.89,139.22,Tipuana tipu,False,EXEMPLAR,Pg Vall d'Hebron,9.35,120.8,12.4,2.96,0.305,2.37,4927,ok
+0063399AR,428825.88,4587092.02,130.57,Pinus pinea,False,SEGONA,Pl Sibil·les,8.71,23.2,5.44,3.38,0.401,1.83,1017,ok
+0063400AR,428458.03,4586569.96,152.03,Brachychiton populneus,False,SEGONA,Pg Vall d'Hebron,9.65,9.5,3.48,3.03,0.138,3.96,225,ok
+0063405AR,428674.47,4587132.57,138.95,Tipuana tipu,False,SEGONA,Pg Vall d'Hebron,9.53,43.2,7.42,6.05,0.459,1.56,1759,ok
+0063406AR,428963.5,4587181.39,127.2,Brachychiton populneus,False,EXEMPLAR,C\ Berruguete,10.34,23.0,5.41,4.01,0.364,2.02,1105,ok
+0063407AR,428664.27,4587104.7,137.91,Tipuana tipu,False,TERCERA,Pg Vall d'Hebron,10.08,52.0,8.14,5.78,0.382,1.93,2510,ok
+0063410AR,428740.69,4587054.71,131.23,Celtis sinensis,False,SEGONA,C\ Arquitecte Moragas,12.43,44.0,7.48,4.0,0.339,2.16,2128,ok
+0063411AR,428824.7,4587109.77,132.01,Catalpa bignonioides,False,TERCERA,C\ Rubió i Balaguer,9.06,35.8,6.75,4.74,0.426,1.71,1549,ok
+0063412AR,429013.14,4587149.0,123.7,Celtis australis,False,EXEMPLAR,C\ Berruguete,14.19,56.0,8.44,7.89,0.122,4.21,2356,ok
+0063414AR,428828.87,4587034.83,127.71,Celtis sinensis,False,TERCERA,C\ Jorge Manrique,8.28,87.0,10.52,4.57,0.385,1.91,3982,ok
+0063415AR,428913.7,4587047.67,124.42,Celtis sinensis,False,SEGONA,C\ Ventura Rodríguez,5.42,18.2,4.82,3.93,0.331,2.21,529,ok
+0063416AR,429078.94,4587224.5,122.29,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Can Travi,4.39,3.5,2.11,2.84,0.541,1.23,121,ok
+0063417AR,428840.82,4587458.8,137.56,Platanus × acerifolia,True,SEGONA,Pg Vall d'Hebron,7.15,20.0,5.05,4.67,0.424,1.72,422,ok
+0063419AR,428828.83,4587295.01,133.04,Celtis australis,False,TERCERA,C\ Arquitecte Moragas,8.65,30.2,6.21,5.08,0.272,2.61,1101,ok
+0063423AR,429039.12,4586907.67,113.97,Styphnolobium japonicum,False,TERCERA,Av Cardenal Vidal i Barraquer,8.18,119.5,12.33,3.86,0.339,2.16,6380,ok
+0063424AR,428689.78,4586898.42,128.6,Magnolia grandiflora,False,SEGONA,C\ Pare Mariana,6.17,10.5,3.66,3.39,0.385,1.91,265,ok
+0063426AR,428476.22,4586621.0,145.97,Brachychiton populneus,False,EXEMPLAR,Pg Vall d'Hebron,12.24,16.2,4.55,4.22,0.132,4.05,363,ok
+0063430AR,428964.75,4587177.16,126.98,Brachychiton populneus,False,SEGONA,C\ Berruguete,6.06,1.8,1.49,2.88,0.619,0.96,55,no_crown_detected
+0063431AR,428830.98,4587229.48,133.42,Brachychiton populneus,False,TERCERA,C\ Berruguete,7.12,15.5,4.44,3.09,0.431,1.68,515,ok
+0063433AR,428704.17,4587014.12,129.55,Celtis australis,False,EXEMPLAR,C\ Juan de Mena,14.91,77.0,9.9,8.18,0.276,2.57,3892,ok
+0063434AR,428811.77,4586501.52,129.21,Eucalyptus globulus,False,EXEMPLAR,C\ Granja Vella,19.62,26.0,5.75,9.7,0.277,2.56,1538,ok
+0063439AR,428709.27,4586487.64,137.65,Eucalyptus globulus,False,EXEMPLAR,C\ Granja Vella,20.67,37.0,6.86,7.39,0.229,2.95,2602,ok
+0063442AR,428785.45,4587384.28,138.1,Platanus × acerifolia,True,PRIMERA,Pg Vall d'Hebron,8.2,9.0,3.39,3.77,0.461,1.55,454,ok
+0063445AR,428639.82,4587073.85,137.12,Populus nigra 'Italica',False,EXEMPLAR,Pg Vall d'Hebron,12.97,6.5,2.88,2.95,0.163,3.62,369,ok
+0063446AR,428658.09,4587124.01,138.67,Cupressus sempervirens 'Stricta',False,PRIMERA,Pg Vall d'Hebron,,0.0,0.0,,,,0,no_crown_detected
+0063450AR,429028.74,4587156.02,122.91,Brachychiton populneus,False,PRIMERA,C\ Berruguete,4.14,2.5,1.78,2.3,0.418,1.74,78,ok
+0063452AR,428652.1,4586902.14,131.43,Celtis australis,False,SEGONA,C\ Pare Mariana,8.68,106.8,11.66,4.02,0.456,1.57,3162,ok
+0063453AR,428822.09,4587134.56,132.77,Catalpa bignonioides,False,SEGONA,C\ Rubió i Balaguer,5.84,11.5,3.83,4.01,0.258,2.71,322,ok
+0063455AR,428842.07,4587373.43,133.46,Celtis sinensis,False,TERCERA,C\ Arquitecte Moragas,9.57,44.8,7.55,4.77,0.265,2.65,1893,ok
+0063459AR,428715.62,4586470.54,137.36,Casuarina cunninghamiana,False,SEGONA,C\ Granja Vella,5.0,4.2,2.33,2.79,0.42,1.73,183,ok
+0063460AR,428795.72,4587400.22,137.99,Platanus × acerifolia,True,TERCERA,Pg Vall d'Hebron,9.63,58.2,8.61,4.97,0.324,2.25,2677,ok
+0063461AR,428687.32,4586875.93,128.68,Magnolia grandiflora,False,SEGONA,C\ Pare Mariana,8.02,38.5,7.0,3.88,0.193,3.29,853,ok
+0063463AR,429038.29,4587154.83,122.5,Brachychiton populneus,False,TERCERA,C\ Berruguete,9.25,14.0,4.22,3.65,0.338,2.17,657,ok
+0063465AR,429025.66,4587109.3,122.23,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Can Travi,3.8,3.5,2.11,2.82,0.523,1.3,82,ok
+0063466AR,428850.33,4587027.12,126.44,Celtis sinensis,False,TERCERA,C\ Jorge Manrique,6.83,50.2,8.0,4.25,0.424,1.71,1968,ok
+0063468AR,428980.77,4587160.45,125.73,Celtis sinensis,False,TERCERA,C\ Berruguete,7.71,56.2,8.46,2.92,0.379,1.94,2432,ok
+0063469AR,428691.73,4586892.37,128.37,Magnolia grandiflora,False,SEGONA,C\ Pare Mariana,5.16,21.5,5.23,2.84,0.451,1.59,463,ok
+0063470AR,428666.01,4587145.58,139.52,Cupressus sempervirens 'Stricta',False,PRIMERA,Pg Vall d'Hebron,6.65,0.5,0.8,3.03,0.636,0.9,22,no_crown_detected
+0063473AR,428814.37,4586318.2,122.67,Casuarina cunninghamiana,False,SEGONA,Av Martí-Codolar,10.89,29.8,6.15,2.2,0.432,1.68,1806,ok
+0063477AR,428898.68,4586834.47,120.12,Styphnolobium japonicum,False,TERCERA,C\ Pare Mariana,9.48,87.0,10.52,4.02,0.206,3.16,1798,ok
+0063478AR,428659.4,4587127.66,138.75,Cupressus sempervirens 'Stricta',False,PRIMERA,Pg Vall d'Hebron,,0.0,0.0,,,,0,no_crown_detected
+0063479AR,428512.63,4586664.16,150.17,Magnolia grandiflora,False,SEGONA,Pg Vall d'Hebron,6.09,18.5,4.85,2.58,0.343,2.14,376,ok
+0063481AR,428788.07,4587187.16,132.84,Platanus × acerifolia,True,SEGONA,C\ Arquitecte Moragas,11.0,44.2,7.51,5.99,0.341,2.15,1788,ok
+0063482AR,428549.42,4586251.5,142.57,Schinus molle,False,EXEMPLAR,C\ Coll i Alentorn,5.98,45.8,7.63,2.79,0.418,1.74,1920,ok
+0063488AR,428616.67,4586996.25,137.23,Brachychiton populneus,False,SEGONA,Pg Vall d'Hebron,7.51,4.2,2.33,4.13,0.37,1.99,184,ok
+0063489AR,428756.72,4586995.9,125.57,Celtis australis,False,PRIMERA,C\ Juan de Mena,,0.0,0.0,,,,0,no_crown_detected
+0063490AR,428936.73,4587156.03,127.35,Celtis sinensis,False,TERCERA,C\ Ventura Rodríguez,7.85,44.8,7.55,3.87,0.306,2.37,1155,ok
+0063494AR,428719.5,4587030.81,128.82,Celtis sinensis,False,EXEMPLAR,C\ Arquitecte Moragas,11.65,135.5,13.13,5.68,0.423,1.72,6684,ok
+0063496AR,428695.73,4586872.92,127.98,Quercus ilex,False,EXEMPLAR,C\ Pare Mariana,11.41,126.2,12.68,5.1,0.211,3.11,2542,ok
+0063502AR,428605.3,4586220.23,135.68,Koelreuteria paniculata 'Fastigiata',False,PRIMERA,C\ Coll i Alentorn,11.96,7.2,3.04,5.03,0.313,2.32,432,ok
+0063506AR,428932.84,4587192.56,128.34,Brachychiton populneus,False,PRIMERA,C\ Berruguete,5.91,8.0,3.19,3.27,0.496,1.4,264,ok
+0063507AR,428776.41,4587053.84,130.68,Celtis sinensis,False,SEGONA,C\ Jorge Manrique,11.36,9.0,3.39,2.65,0.152,3.76,331,ok
+0063509AR,429016.73,4587084.11,122.24,Fraxinus angustifolia,False,TERCERA,C\ Can Travi,10.24,34.5,6.63,4.36,0.13,4.08,974,ok
+0063514AR,428847.23,4587220.08,132.62,Brachychiton populneus,False,SEGONA,C\ Berruguete,5.8,4.0,2.26,2.69,0.487,1.44,200,ok
+0063517AR,428948.82,4587184.71,127.84,Brachychiton populneus,False,EXEMPLAR,C\ Berruguete,10.23,10.0,3.57,3.69,0.406,1.8,668,ok
+0063518AR,428706.62,4587222.34,139.42,Tipuana tipu,False,SEGONA,Pg Vall d'Hebron,7.51,59.0,8.67,2.34,0.395,1.86,2245,ok
+0063523AR,428917.48,4587102.88,126.09,Celtis sinensis,False,SEGONA,C\ Ventura Rodríguez,6.87,30.8,6.26,4.67,0.363,2.03,748,ok
+0063526AR,429068.45,4587195.56,122.17,Casuarina cunninghamiana,False,PRIMERA,C\ Can Travi,7.45,24.5,5.59,3.69,0.421,1.73,1018,ok
+0063529AR,428817.38,4586482.63,128.75,Casuarina cunninghamiana,False,PRIMERA,C\ Granja Vella,12.78,9.0,3.39,3.89,0.25,2.77,645,ok
+0063531AR,428800.42,4586294.19,122.44,Populus nigra 'Italica',False,SEGONA,Av Martí-Codolar,9.23,13.0,4.07,2.2,0.399,1.84,715,ok
+0063533AR,428805.29,4587168.62,133.2,Ligustrum lucidum,False,SEGONA,C\ Arquitecte Moragas,5.84,13.8,4.18,4.12,0.458,1.56,337,ok
+0063535AR,429070.57,4587638.23,134.12,Platanus × acerifolia,True,EXEMPLAR,Pg Vall d'Hebron,12.99,64.8,9.08,7.66,0.193,3.29,1401,ok
+0063537AR,428712.89,4587239.74,139.29,Tipuana tipu,False,TERCERA,Pg Vall d'Hebron,9.96,53.8,8.27,4.91,0.259,2.7,2179,ok
+0063538AR,428820.24,4586484.02,128.63,Casuarina cunninghamiana,False,SEGONA,C\ Granja Vella,10.81,9.5,3.48,2.54,0.327,2.23,494,ok
+0063539AR,428821.1,4587304.09,133.12,Celtis australis,False,SEGONA,C\ Arquitecte Moragas,7.56,26.5,5.81,4.89,0.47,1.51,1096,ok
+0063541AR,428775.52,4587134.25,132.54,Styphnolobium japonicum,False,PRIMERA,C\ Arquitecte Moragas,7.59,18.0,4.79,4.31,0.493,1.41,731,ok
+0063542AR,428878.65,4587209.96,131.01,Brachychiton populneus,False,TERCERA,C\ Berruguete,9.37,13.2,4.11,2.51,0.314,2.31,660,ok
+0063546AR,429028.71,4587117.56,122.24,Prunus cerasifera 'Pissardii',False,SEGONA,C\ Can Travi,6.18,22.0,5.29,3.4,0.467,1.52,553,ok
+0063547AR,428650.87,4587034.85,135.54,Celtis sinensis,False,SEGONA,C\ Juan de Mena,8.35,44.2,7.51,4.42,0.333,2.2,2090,ok
+0063549AR,428861.99,4587048.32,126.53,Pinus pinea,False,SEGONA,C\ Jorge Manrique,8.93,49.5,7.94,3.57,0.355,2.07,2267,ok
+0063551AR,429033.43,4587618.52,130.53,Platanus × acerifolia,True,SEGONA,Pg Vall d'Hebron,13.94,46.2,7.67,4.37,0.049,6.02,1012,ok
+0063552AR,428958.66,4587569.19,136.75,Platanus × acerifolia,True,SEGONA,Pg Vall d'Hebron,11.06,46.8,7.72,6.83,0.235,2.9,942,ok
+0063554AR,428771.56,4587123.02,132.46,Styphnolobium japonicum,False,SEGONA,C\ Arquitecte Moragas,7.8,29.0,6.08,3.82,0.404,1.81,1290,ok
+0063555AR,428813.76,4586888.05,121.81,Eucalyptus camaldulensis,False,EXEMPLAR,C\ Pare Mariana,20.38,102.8,11.44,8.66,0.237,2.88,3318,ok
+0063556AR,428463.66,4586582.56,151.69,Brachychiton populneus,False,SEGONA,Pg Vall d'Hebron,11.42,18.5,4.85,4.3,0.21,3.12,429,ok
+0063557AR,428826.46,4587288.34,133.0,Celtis australis,False,SEGONA,C\ Arquitecte Moragas,9.65,26.8,5.84,5.12,0.313,2.32,1007,ok
+0063561AR,428870.43,4587213.06,131.36,Brachychiton populneus,False,SEGONA,C\ Berruguete,8.04,6.5,2.88,3.53,0.362,2.03,280,ok
+0063565AR,428850.25,4586847.87,121.43,Styphnolobium japonicum,False,EXEMPLAR,C\ Pare Mariana,8.93,46.2,7.67,4.55,0.328,2.23,1135,ok
+0063566AR,428804.58,4587396.87,137.25,Melia azedarach,False,PRIMERA,Av Can Marcet,0.0,2.0,1.6,4.39,0.455,1.58,73,low_tree
+0063568AR,429002.89,4587167.28,124.58,Brachychiton populneus,False,EXEMPLAR,C\ Berruguete,8.01,16.0,4.51,3.65,0.342,2.15,709,ok
+0063569AR,429052.38,4587183.69,122.3,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Can Travi,3.88,11.2,3.78,2.87,0.464,1.53,265,ok
+0063572AR,428664.42,4587140.6,139.34,Cupressus sempervirens 'Stricta',False,PRIMERA,Pg Vall d'Hebron,10.56,25.5,5.7,5.48,0.391,1.88,1356,ok
+0063573AR,428738.64,4587048.65,130.68,Platanus × acerifolia,True,TERCERA,C\ Arquitecte Moragas,13.14,78.2,9.98,7.13,0.424,1.72,3906,ok
+0063574AR,429041.05,4586897.43,113.84,Styphnolobium japonicum,False,TERCERA,Av Cardenal Vidal i Barraquer,9.13,68.0,9.3,5.12,0.346,2.12,2349,ok
+0063575AR,428809.82,4587201.87,133.3,Cercis siliquastrum,False,PRIMERA,C\ Arquitecte Moragas,5.6,3.5,2.11,3.93,0.488,1.44,142,ok
+0063580AR,428748.63,4587322.1,138.54,Platanus × acerifolia,True,SEGONA,Pg Vall d'Hebron,10.89,49.5,7.94,4.81,0.36,2.05,2434,ok
+0063581AR,429074.1,4586870.75,113.49,Pinus pinea,False,EXEMPLAR,Av Cardenal Vidal i Barraquer,8.65,66.2,9.18,5.87,0.179,3.44,892,ok
+0063582AR,428631.17,4586498.57,142.48,Casuarina cunninghamiana,False,PRIMERA,C\ Granja Vella,9.33,9.2,3.43,3.68,0.31,2.34,477,ok
+0063584AR,428742.98,4587311.09,138.64,Platanus × acerifolia,True,SEGONA,Pg Vall d'Hebron,9.22,29.5,6.13,5.37,0.449,1.6,1343,ok
+0063587AR,428696.82,4586454.13,138.56,Styphnolobium japonicum,False,TERCERA,C\ Granja Vella,10.24,112.0,11.94,3.39,0.236,2.89,5892,ok
+0063590AR,428931.62,4587142.12,126.99,Celtis sinensis,False,SEGONA,C\ Ventura Rodríguez,7.26,43.2,7.42,3.35,0.318,2.29,1051,ok
+0063592AR,428621.44,4586214.92,133.9,Koelreuteria paniculata 'Fastigiata',False,PRIMERA,C\ Coll i Alentorn,8.3,8.5,3.29,3.42,0.409,1.79,461,ok
+0063594AR,428621.4,4586913.38,134.69,Celtis sinensis,False,TERCERA,C\ Pare Mariana,10.55,11.8,3.87,4.79,0.283,2.52,354,ok
+0063595AR,428789.93,4587048.83,129.97,Celtis sinensis,False,EXEMPLAR,C\ Jorge Manrique,7.94,94.0,10.94,4.58,0.36,2.04,3610,ok
+0063596AR,428830.31,4587157.45,132.83,Catalpa bignonioides,False,SEGONA,C\ Rubió i Balaguer,6.47,13.0,4.07,2.89,0.409,1.79,311,ok
+0063597AR,428856.73,4586628.71,126.12,Quercus ilex,False,EXEMPLAR,Av Martí-Codolar,10.6,66.8,9.22,3.0,0.208,3.14,1225,ok
+0063599AR,428763.07,4586993.83,125.08,Celtis australis,False,PRIMERA,C\ Juan de Mena,,0.0,0.0,,,,0,no_crown_detected
+0063600AR,428625.01,4587019.36,137.12,Brachychiton populneus,False,TERCERA,Pg Vall d'Hebron,9.15,20.5,5.11,4.29,0.412,1.77,921,ok
+0063606AR,428867.14,4587424.18,134.81,Melia azedarach,False,EXEMPLAR,Av Can Marcet,8.41,90.2,10.72,3.96,0.404,1.81,4176,ok
+0063608AR,429036.23,4587155.48,122.57,Brachychiton populneus,False,TERCERA,C\ Berruguete,7.73,18.8,4.89,2.6,0.316,2.3,651,ok
+0063609AR,429118.33,4587207.56,117.91,Ginkgo biloba,False,SEGONA,Av Cardenal Vidal i Barraquer,12.32,26.2,5.78,3.06,0.274,2.59,1398,ok
+0063610AR,429033.67,4587131.7,122.23,Fraxinus angustifolia,False,SEGONA,C\ Can Travi,7.23,26.8,5.84,4.18,0.287,2.5,590,ok
+0063616AR,428755.74,4587122.15,132.69,Platanus × acerifolia,True,SEGONA,C\ Arquitecte Moragas,12.4,60.8,8.79,6.51,0.351,2.09,2997,ok
+0063619AR,428836.92,4587032.08,127.16,Celtis sinensis,False,EXEMPLAR,C\ Jorge Manrique,6.71,59.5,8.7,4.25,0.45,1.6,2287,ok
+0063621AR,428726.08,4587272.93,139.0,Tipuana tipu,False,EXEMPLAR,Pg Vall d'Hebron,9.12,30.0,6.18,4.99,0.311,2.34,1078,ok
+0063622AR,428822.31,4587275.97,133.04,Celtis australis,False,EXEMPLAR,C\ Arquitecte Moragas,11.56,52.5,8.18,6.55,0.254,2.74,2082,ok
+0063624AR,428768.77,4586990.63,124.77,Celtis sinensis,False,PRIMERA,C\ Juan de Mena,4.04,16.2,4.55,2.91,0.57,1.12,626,ok
+0063625AR,428469.75,4586599.32,151.18,Brachychiton populneus,False,SEGONA,Pg Vall d'Hebron,10.18,21.2,5.2,3.97,0.202,3.2,495,ok
+0063626AR,428654.98,4587047.0,135.44,Celtis sinensis,False,TERCERA,C\ Juan de Mena,6.98,55.5,8.41,3.38,0.349,2.1,2153,ok
+0063627AR,428795.6,4586282.66,122.41,Casuarina cunninghamiana,False,TERCERA,Av Martí-Codolar,7.92,7.5,3.09,2.81,0.368,2.0,399,ok
+0063628AR,428715.52,4587010.1,128.58,Celtis sinensis,False,TERCERA,C\ Juan de Mena,6.88,17.0,4.65,5.96,0.3,2.41,962,ok
+0063629AR,428645.65,4587088.57,137.35,Populus nigra 'Italica',False,SEGONA,Pg Vall d'Hebron,9.42,9.5,3.48,2.48,0.326,2.24,376,ok
+0063632AR,428912.91,4586500.1,123.45,Styphnolobium japonicum,False,TERCERA,C\ Granja Vella,8.55,63.2,8.97,4.81,0.389,1.89,3340,ok
+0063636AR,428703.86,4586472.38,138.31,Casuarina cunninghamiana,False,SEGONA,C\ Granja Vella,3.73,5.2,2.59,1.82,0.539,1.24,238,ok
+0063638AR,428938.88,4586441.09,116.33,Populus nigra 'Italica',False,EXEMPLAR,Pl Clota,15.71,35.5,6.72,3.99,0.258,2.71,1959,ok
+0063639AR,429043.84,4587624.11,134.99,Platanus × acerifolia,True,SEGONA,Pg Vall d'Hebron,8.1,37.8,6.93,3.46,0.261,2.69,854,ok
+0063641AR,428951.61,4587152.25,126.94,Celtis sinensis,False,SEGONA,C\ Ventura Rodríguez,10.7,71.5,9.54,4.68,0.278,2.56,2792,ok
+0063642AR,428880.23,4587211.62,130.9,Brachychiton populneus,False,TERCERA,C\ Berruguete,9.37,21.8,5.26,2.51,0.27,2.62,987,ok
+0063646AR,429059.04,4587203.67,122.42,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Can Travi,5.06,17.2,4.69,2.96,0.432,1.68,421,ok
+0063651AR,428781.24,4586896.29,121.86,Magnolia grandiflora,False,SEGONA,C\ Pare Mariana,7.33,114.5,12.07,3.2,0.208,3.14,2966,ok
+0063652AR,428644.22,4586494.35,141.82,Casuarina cunninghamiana,False,SEGONA,C\ Granja Vella,8.36,10.0,3.57,2.56,0.38,1.93,454,ok
+0063653AR,428834.62,4587341.29,133.08,Celtis australis,False,TERCERA,C\ Arquitecte Moragas,9.73,44.2,7.51,5.44,0.358,2.05,1818,ok
+0063656AR,428842.64,4587191.25,132.77,Catalpa bignonioides,False,SEGONA,C\ Rubió i Balaguer,5.46,24.0,5.53,3.24,0.414,1.76,600,ok
+0063657AR,428868.72,4587489.52,137.39,Platanus × acerifolia,True,PRIMERA,Pg Vall d'Hebron,8.2,16.5,4.58,5.55,0.421,1.73,373,ok
+0063658AR,428915.47,4587096.77,125.95,Celtis sinensis,False,TERCERA,C\ Ventura Rodríguez,7.46,42.5,7.36,4.55,0.371,1.98,1087,ok
+0063660AR,428838.06,4587226.76,133.14,Brachychiton populneus,False,SEGONA,C\ Berruguete,6.79,15.2,4.41,3.04,0.416,1.75,547,ok
+0063662AR,428835.17,4586371.23,124.08,Styphnolobium japonicum,False,PRIMERA,Av Martí-Codolar,6.06,16.8,4.62,4.0,0.472,1.5,714,ok
+0063665AR,428501.98,4586514.17,149.38,Ceratonia siliqua,False,EXEMPLAR,C\ Granja Vella,6.77,40.5,7.18,3.69,0.313,2.32,1646,ok
+0063667AR,428658.86,4587125.95,138.74,Cupressus sempervirens 'Stricta',False,PRIMERA,Pg Vall d'Hebron,,0.0,0.0,,,,0,no_crown_detected
+0063672AR,428638.49,4586496.32,142.15,Casuarina cunninghamiana,False,SEGONA,C\ Granja Vella,7.22,2.5,1.78,3.65,0.15,3.79,105,ok
+0063673AR,429018.89,4587090.1,122.2,Prunus cerasifera 'Pissardii',False,SEGONA,C\ Can Travi,6.01,42.5,7.36,3.53,0.345,2.13,1057,ok
+0063677AR,428616.43,4586915.04,135.38,Celtis sinensis,False,TERCERA,C\ Pare Mariana,9.73,12.8,4.03,4.64,0.23,2.94,300,ok
+0063678AR,428625.6,4586911.84,134.15,Celtis sinensis,False,SEGONA,C\ Pare Mariana,10.93,57.8,8.57,4.05,0.265,2.66,2912,ok
+0063679AR,428846.6,4587344.99,132.9,Celtis australis,False,EXEMPLAR,C\ Arquitecte Moragas,13.95,65.0,9.1,7.4,0.225,2.98,2411,ok
+0063682AR,428704.68,4587216.86,139.48,Tipuana tipu,False,TERCERA,Pg Vall d'Hebron,9.01,67.8,9.29,2.31,0.31,2.34,2748,ok
+0063683AR,428824.17,4587282.35,133.02,Celtis australis,False,EXEMPLAR,C\ Arquitecte Moragas,11.66,62.0,8.88,6.03,0.263,2.67,3118,ok
+0063684AR,428807.97,4587209.54,133.26,Cercis siliquastrum,False,PRIMERA,C\ Arquitecte Moragas,3.92,4.0,2.26,2.7,0.527,1.28,162,ok
+0063685AR,429018.33,4587157.87,123.58,Brachychiton populneus,False,SEGONA,C\ Berruguete,7.3,15.5,4.44,4.07,0.361,2.04,546,ok
+0063686AR,428815.54,4587197.51,133.42,Ligustrum lucidum,False,PRIMERA,C\ Arquitecte Moragas,4.92,7.0,2.99,3.32,0.518,1.32,147,ok
+0063687AR,429059.14,4587169.47,122.05,Prunus cerasifera 'Pissardii',False,SEGONA,C\ Can Travi,6.61,25.0,5.64,3.71,0.449,1.6,974,ok
+0063688AR,428837.01,4587454.68,137.56,Platanus × acerifolia,True,PRIMERA,Pg Vall d'Hebron,,0.0,0.0,,,,0,no_crown_detected
+0063689AR,428812.48,4586327.56,122.92,Casuarina cunninghamiana,False,SEGONA,Av Martí-Codolar,9.4,13.0,4.07,2.86,0.428,1.7,646,ok
+0063690AR,428980.44,4587171.67,125.99,Brachychiton populneus,False,SEGONA,C\ Berruguete,5.86,6.2,2.82,3.03,0.438,1.65,267,ok
+0063692AR,428460.57,4586573.7,151.98,Brachychiton populneus,False,TERCERA,Pg Vall d'Hebron,11.67,17.0,4.65,3.58,0.185,3.38,428,ok
+0063693AR,428612.75,4586985.06,137.3,Brachychiton populneus,False,TERCERA,Pg Vall d'Hebron,11.63,10.2,3.61,4.95,0.252,2.75,537,ok
+0063694AR,428804.9,4587202.68,133.22,Cercis siliquastrum,False,SEGONA,C\ Arquitecte Moragas,5.63,27.5,5.92,3.53,0.507,1.36,1055,ok
+0063698AR,428812.56,4587094.09,131.68,Tipuana tipu,False,SEGONA,C\ Jorge Manrique,9.16,51.5,8.1,4.88,0.425,1.71,2193,ok
+0063703AR,428803.15,4587162.54,133.18,Ligustrum lucidum,False,SEGONA,C\ Arquitecte Moragas,27.27,12.8,4.03,3.72,0.481,1.46,290,ok
+0063705AR,428648.41,4587096.8,137.71,Cupressus sempervirens 'Stricta',False,PRIMERA,C\ Jorge Manrique,8.39,4.2,2.33,2.08,0.269,2.62,160,ok
+0063706AR,428783.96,4587176.09,132.8,Platanus × acerifolia,True,TERCERA,C\ Arquitecte Moragas,12.58,55.0,8.37,6.6,0.367,2.01,2739,ok
+0063709AR,428674.38,4587024.28,132.45,Celtis sinensis,False,TERCERA,C\ Juan de Mena,9.85,67.2,9.25,5.91,0.33,2.21,4027,ok
+0063710AR,428933.0,4587177.89,128.27,Celtis australis,False,EXEMPLAR,C\ Berruguete,12.92,37.0,6.86,6.31,0.245,2.82,1442,ok
+0063712AR,428973.45,4587579.92,136.55,Platanus × acerifolia,True,SEGONA,Pg Vall d'Hebron,13.03,54.0,8.29,6.3,0.2,3.22,1208,ok
+0063714AR,428632.27,4587011.63,137.08,Celtis sinensis,False,SEGONA,Pg Vall d'Hebron,6.97,20.8,5.14,4.27,0.396,1.85,594,ok
+0063715AR,428817.74,4587203.11,133.44,Ligustrum lucidum,False,SEGONA,C\ Arquitecte Moragas,21.75,7.5,3.09,3.31,0.565,1.14,147,ok
+0063716AR,429064.47,4587142.14,121.12,Celtis australis,False,PRIMERA,C\ Berruguete,6.17,13.0,4.07,3.52,0.473,1.5,465,ok
+0063717AR,429102.2,4587218.3,118.48,Ginkgo biloba,False,SEGONA,Av Cardenal Vidal i Barraquer,13.27,26.0,5.75,3.28,0.283,2.52,1311,ok
+0063718AR,428714.92,4587245.23,139.23,Tipuana tipu,False,SEGONA,Pg Vall d'Hebron,7.76,41.0,7.23,2.43,0.389,1.89,1605,ok
+0063720AR,428558.14,4586799.88,149.04,Magnolia grandiflora,False,TERCERA,Pg Vall d'Hebron,7.37,28.5,6.02,3.29,0.232,2.92,543,ok
+0063723AR,428628.67,4587000.9,137.11,Celtis sinensis,False,TERCERA,Pg Vall d'Hebron,10.1,32.2,6.41,4.93,0.297,2.43,1236,ok
+0063724AR,428997.69,4587596.5,136.1,Platanus × acerifolia,True,SEGONA,Pg Vall d'Hebron,9.21,23.5,5.47,5.32,0.34,2.16,536,ok
+0063729AR,429086.47,4586852.49,112.82,Pinus pinea,False,TERCERA,Av Cardenal Vidal i Barraquer,8.23,39.0,7.05,4.96,0.17,3.55,571,ok
+0063730AR,428650.27,4587101.99,137.85,Cupressus sempervirens 'Stricta',False,PRIMERA,C\ Jorge Manrique,5.75,1.2,1.26,1.98,0.167,3.58,38,no_crown_detected
+0063734AR,428938.71,4586820.42,119.73,Styphnolobium japonicum,False,EXEMPLAR,C\ Pare Mariana,7.1,64.2,9.04,3.87,0.328,2.23,1510,ok
+0063735AR,428834.79,4586349.69,123.39,Styphnolobium japonicum,False,TERCERA,Av Martí-Codolar,6.51,39.8,7.11,4.15,0.423,1.72,1791,ok
+0063736AR,428825.88,4587316.95,133.13,Celtis australis,False,SEGONA,C\ Arquitecte Moragas,7.87,23.0,5.41,5.35,0.431,1.68,1013,ok
+0063737AR,428837.96,4587449.83,137.37,Melia azedarach,False,PRIMERA,Av Can Marcet,,0.0,0.0,,,,0,no_crown_detected
+0063738AR,428640.37,4586889.11,132.15,Magnolia grandiflora,False,TERCERA,C\ Pare Mariana,7.61,39.2,7.07,3.55,0.161,3.66,722,ok
+0063739AR,428508.85,4586514.54,149.04,Ceratonia siliqua,False,EXEMPLAR,C\ Granja Vella,7.97,23.8,5.5,3.91,0.288,2.49,1059,ok
+0063744AR,428837.89,4587319.24,132.98,Celtis australis,False,TERCERA,C\ Arquitecte Moragas,11.12,45.5,7.61,6.38,0.313,2.32,2018,ok
+0063745AR,428794.56,4587139.87,132.99,Ligustrum lucidum,False,SEGONA,C\ Arquitecte Moragas,7.08,25.8,5.73,4.25,0.514,1.33,545,ok
+0063749AR,428613.49,4586959.33,137.32,Celtis sinensis,False,SEGONA,Pg Vall d'Hebron,7.92,27.2,5.89,4.84,0.514,1.33,1018,ok
+0063750AR,428869.59,4587215.13,131.39,Brachychiton populneus,False,TERCERA,C\ Berruguete,8.91,13.0,4.07,3.17,0.23,2.94,451,ok
+0063753AR,428805.44,4586480.47,129.33,Casuarina cunninghamiana,False,PRIMERA,C\ Granja Vella,12.26,6.8,2.93,2.28,0.235,2.9,256,ok
+0063754AR,428646.37,4587090.88,137.49,Populus nigra 'Italica',False,SEGONA,Pg Vall d'Hebron,9.68,12.8,4.03,2.97,0.314,2.32,607,ok
+0063758AR,428803.99,4587043.85,129.11,Celtis australis,False,EXEMPLAR,C\ Jorge Manrique,6.14,81.2,10.17,3.45,0.412,1.77,3597,ok
+0063761AR,428988.52,4587168.62,125.47,Brachychiton populneus,False,PRIMERA,C\ Berruguete,4.33,4.2,2.33,2.99,0.549,1.2,163,ok
+0063763AR,428817.98,4587097.26,131.76,Tipuana tipu,False,SEGONA,C\ Jorge Manrique,9.27,26.0,5.75,5.21,0.188,3.34,1096,ok
+0063764AR,428858.84,4587082.29,128.54,Populus nigra 'Italica',False,TERCERA,C\ Jorge Manrique,13.25,29.5,6.13,4.17,0.252,2.76,1514,ok
+0063765AR,428673.45,4587160.91,133.6,Cupressus sempervirens,False,TERCERA,Pg Vall d'Hebron,18.09,4.5,2.39,8.58,0.0,7.82,216,ok
+0063767AR,428889.97,4587510.87,137.27,Platanus × acerifolia,True,TERCERA,Pg Vall d'Hebron,11.67,67.5,9.27,5.44,0.216,3.07,1528,ok
+0063773AR,428944.14,4587558.63,136.79,Platanus × acerifolia,True,SEGONA,Pg Vall d'Hebron,10.81,48.0,7.82,6.64,0.345,2.13,1033,ok
+0063780AR,428769.93,4587136.23,132.44,Platanus × acerifolia,True,TERCERA,C\ Arquitecte Moragas,13.74,45.0,7.57,6.84,0.352,2.09,2655,ok
+0063787AR,428896.0,4587205.92,130.08,Brachychiton populneus,False,TERCERA,C\ Berruguete,7.72,18.2,4.82,3.4,0.525,1.29,531,ok
+0063789AR,428792.18,4587179.66,132.9,Styphnolobium japonicum,False,PRIMERA,C\ Arquitecte Moragas,4.08,6.2,2.82,3.04,0.47,1.51,228,ok
+0063790AR,428822.08,4586324.11,122.73,Casuarina cunninghamiana,False,SEGONA,Av Martí-Codolar,10.34,16.5,4.58,2.58,0.344,2.13,1053,ok
+0063791AR,428971.79,4587177.91,126.6,Brachychiton populneus,False,PRIMERA,C\ Berruguete,5.29,4.0,2.26,3.3,0.571,1.12,173,ok
+0063792AR,429018.54,4587147.17,123.34,Celtis sinensis,False,TERCERA,C\ Berruguete,9.83,26.5,5.81,5.87,0.126,4.14,1017,ok
+0063793AR,428775.76,4587153.34,132.56,Platanus × acerifolia,True,TERCERA,C\ Arquitecte Moragas,12.24,40.5,7.18,6.94,0.337,2.18,2146,ok
+0063794AR,428742.64,4587000.68,126.56,Celtis sinensis,False,EXEMPLAR,C\ Juan de Mena,12.86,53.0,8.21,5.45,0.249,2.78,2702,ok
+0063797AR,428888.7,4587071.51,126.15,Populus nigra 'Italica',False,EXEMPLAR,Pl Sibil·les,16.47,33.5,6.53,4.87,0.25,2.77,1900,ok
+0063799AR,429054.91,4587630.06,134.7,Platanus × acerifolia,True,TERCERA,Pg Vall d'Hebron,10.92,61.8,8.87,5.63,0.138,3.96,1260,ok
+0063801AR,428759.6,4587107.95,132.18,Styphnolobium japonicum,False,SEGONA,C\ Arquitecte Moragas,7.95,68.5,9.34,5.01,0.363,2.03,3568,ok
+0063802AR,428799.58,4586505.87,129.7,Brachychiton populneus,False,TERCERA,C\ Granja Vella,8.95,9.2,3.43,4.2,0.381,1.93,480,ok
+0063803AR,428734.88,4586471.05,135.77,Populus nigra 'Italica',False,SEGONA,C\ Granja Vella,9.03,8.8,3.34,3.57,0.317,2.3,441,ok
+0063804AR,428707.92,4586468.22,137.92,Populus nigra 'Italica',False,SEGONA,C\ Granja Vella,8.53,8.5,3.29,3.16,0.385,1.91,486,ok
+0063806AR,428898.88,4587519.25,137.15,Platanus × acerifolia,True,PRIMERA,Pg Vall d'Hebron,8.4,8.0,3.19,5.77,0.497,1.4,177,ok
+0063807AR,428414.79,4586451.16,150.78,Populus nigra 'Italica',False,EXEMPLAR,Pg Vall d'Hebron,16.0,30.2,6.21,4.01,0.148,3.82,1663,ok
+0063808AR,429037.06,4587153.44,122.51,Brachychiton populneus,False,TERCERA,C\ Berruguete,7.99,19.0,4.92,3.26,0.421,1.73,884,ok
+0063810AR,428757.56,4587101.83,132.1,Styphnolobium japonicum,False,SEGONA,C\ Arquitecte Moragas,14.58,46.5,7.69,4.62,0.289,2.48,2166,ok
+0063811AR,428778.0,4587158.9,132.63,Platanus × acerifolia,True,SEGONA,C\ Arquitecte Moragas,11.0,34.0,6.58,5.9,0.386,1.9,1585,ok
+0063812AR,428660.71,4587130.99,138.93,Cupressus sempervirens 'Stricta',False,PRIMERA,Pg Vall d'Hebron,,0.0,0.0,,,,0,no_crown_detected
+0063814AR,428809.89,4586480.12,129.03,Casuarina cunninghamiana,False,SEGONA,C\ Granja Vella,8.36,7.8,3.14,2.32,0.372,1.98,406,ok
+0063816AR,428794.19,4587204.19,132.97,Platanus × acerifolia,True,SEGONA,C\ Arquitecte Moragas,10.73,45.0,7.57,6.1,0.296,2.43,1661,ok
+0063818AR,428681.47,4587022.06,131.8,Celtis sinensis,False,TERCERA,C\ Juan de Mena,10.32,80.5,10.12,5.07,0.363,2.03,4643,ok
+0063822AR,428934.95,4587551.1,136.87,Platanus × acerifolia,True,SEGONA,Pg Vall d'Hebron,10.05,40.2,7.16,5.69,0.278,2.56,860,ok
+0063823AR,428730.84,4587284.61,138.95,Tipuana tipu,False,EXEMPLAR,Pg Vall d'Hebron,10.34,67.2,9.25,6.21,0.274,2.59,2208,ok
+0063826AR,428692.42,4587038.26,131.51,Celtis sinensis,False,SEGONA,C\ Juan de Mena,10.09,57.0,8.52,5.04,0.318,2.29,2800,ok
+0063829AR,429093.32,4587646.0,133.4,Platanus × acerifolia,True,TERCERA,Pg Vall d'Hebron,11.36,50.5,8.02,5.95,0.272,2.6,1290,ok
+0063831AR,428466.83,4586591.26,151.38,Brachychiton populneus,False,TERCERA,Pg Vall d'Hebron,13.17,21.5,5.23,4.82,0.166,3.59,481,ok
+0063832AR,428754.19,4586473.83,134.14,Casuarina cunninghamiana,False,SEGONA,C\ Granja Vella,9.62,10.5,3.66,2.94,0.28,2.54,531,ok
+0063833AR,428614.79,4586990.78,137.29,Brachychiton populneus,False,TERCERA,Pg Vall d'Hebron,12.44,9.5,3.48,3.56,0.273,2.59,538,ok
+0063836AR,428670.06,4587156.77,139.75,Cupressus sempervirens 'Stricta',False,PRIMERA,Pg Vall d'Hebron,,0.0,0.0,,,,0,no_crown_detected
+0063837AR,428464.21,4586587.49,151.44,Brachychiton populneus,False,TERCERA,Pg Vall d'Hebron,12.81,11.8,3.87,4.35,0.151,3.79,259,ok
+0063838AR,428704.37,4586893.04,127.44,Magnolia grandiflora,False,SEGONA,C\ Pare Mariana,5.76,11.5,3.83,2.74,0.424,1.72,269,ok
+0063839AR,428965.94,4587180.62,127.02,Brachychiton populneus,False,EXEMPLAR,C\ Berruguete,11.58,17.8,4.75,3.4,0.297,2.43,1153,ok
+0063840AR,428819.95,4587208.75,133.51,Ligustrum lucidum,False,SEGONA,C\ Arquitecte Moragas,4.94,10.0,3.57,3.23,0.511,1.34,228,ok
+0063841AR,428639.09,4587071.91,136.95,Populus nigra 'Italica',False,SEGONA,Pg Vall d'Hebron,11.85,5.0,2.52,3.57,0.165,3.61,244,ok
+0063842AR,428482.5,4586638.93,150.4,Brachychiton populneus,False,SEGONA,Pg Vall d'Hebron,11.29,10.8,3.7,3.56,0.205,3.17,264,ok
+0063843AR,428812.68,4587205.04,133.35,Cercis siliquastrum,False,PRIMERA,C\ Arquitecte Moragas,3.64,2.0,1.6,2.68,0.514,1.33,52,ok
+0063844AR,428925.59,4587543.63,136.95,Platanus × acerifolia,True,SEGONA,Pg Vall d'Hebron,10.26,38.8,7.02,5.47,0.298,2.42,962,ok
+0063845AR,428923.24,4587074.27,125.1,Celtis sinensis,False,TERCERA,C\ Ventura Rodríguez,6.36,23.0,5.41,4.46,0.467,1.52,746,ok
+0063849AR,428710.77,4587234.2,139.32,Tipuana tipu,False,EXEMPLAR,Pg Vall d'Hebron,10.97,74.0,9.71,2.46,0.299,2.42,3010,ok
+0063850AR,428894.48,4586833.97,120.11,Styphnolobium japonicum,False,EXEMPLAR,C\ Pare Mariana,12.11,115.8,12.14,3.87,0.179,3.44,2814,ok
+0063851AR,428818.33,4587123.86,132.72,Catalpa bignonioides,False,PRIMERA,C\ Rubió i Balaguer,4.36,4.5,2.39,1.86,0.42,1.73,117,ok
+0063856AR,428825.27,4587088.77,130.5,Pinus pinea,False,SEGONA,C\ Jorge Manrique,5.23,11.0,3.74,3.5,0.544,1.22,432,ok
+0063859AR,428848.16,4586405.33,125.35,Styphnolobium japonicum,False,SEGONA,Av Martí-Codolar,7.22,55.2,8.39,2.98,0.235,2.9,2843,ok
+0063864AR,429087.25,4587644.02,133.6,Platanus × acerifolia,True,SEGONA,Pg Vall d'Hebron,10.81,49.2,7.92,5.43,0.31,2.34,1250,ok
+0063865AR,429030.65,4587142.53,122.5,Celtis sinensis,False,TERCERA,C\ Berruguete,8.04,0.8,0.98,7.95,0.0,7.82,13,no_crown_detected
+0063869AR,428628.61,4586499.67,142.63,Casuarina cunninghamiana,False,TERCERA,C\ Granja Vella,9.02,10.5,3.66,2.88,0.344,2.14,479,ok
+0063870AR,428941.67,4587170.39,127.66,Celtis sinensis,False,TERCERA,C\ Ventura Rodríguez,6.81,40.0,7.14,4.48,0.272,2.6,915,ok
+0063873AR,428943.99,4587130.78,126.42,Celtis sinensis,False,TERCERA,C\ Ventura Rodríguez,6.85,82.2,10.23,4.05,0.421,1.73,3873,ok
+0063874AR,428807.26,4586313.01,122.68,Casuarina cunninghamiana,False,SEGONA,Av Martí-Codolar,11.4,33.2,6.51,2.47,0.403,1.82,1922,ok
+0063878AR,429128.52,4587201.31,117.9,Ginkgo biloba,False,SEGONA,Av Cardenal Vidal i Barraquer,9.71,26.5,5.81,2.99,0.334,2.19,1214,ok
+0063886AR,428949.3,4587182.84,127.75,Brachychiton populneus,False,SEGONA,C\ Berruguete,9.26,5.8,2.71,3.05,0.443,1.63,287,ok
+0063888AR,428627.11,4586213.43,133.29,Tipuana tipu,False,SEGONA,C\ Coll i Alentorn,7.6,17.2,4.69,4.06,0.446,1.61,595,ok
+0063890AR,429076.81,4587218.04,122.26,Prunus cerasifera 'Pissardii',False,SEGONA,C\ Can Travi,6.23,25.2,5.67,3.46,0.479,1.47,881,ok
+0063891AR,429075.78,4586864.45,113.51,Pinus pinea,False,EXEMPLAR,Av Cardenal Vidal i Barraquer,7.81,11.5,3.83,5.01,0.244,2.82,164,ok
+0063892AR,428962.14,4587167.06,126.99,Celtis sinensis,False,SEGONA,C\ Berruguete,6.8,44.0,7.48,2.5,0.389,1.89,2136,ok
+0063894AR,428845.06,4587463.6,137.52,Platanus × acerifolia,True,SEGONA,Pg Vall d'Hebron,11.17,48.0,7.82,2.8,0.29,2.48,1191,ok
+0063895AR,428461.08,4586578.69,146.89,Brachychiton populneus,False,EXEMPLAR,Pg Vall d'Hebron,11.58,21.2,5.2,3.7,0.133,4.04,580,ok
+0063896AR,428785.73,4587162.68,132.78,Styphnolobium japonicum,False,PRIMERA,C\ Arquitecte Moragas,10.22,30.5,6.23,3.35,0.458,1.56,1383,ok
+0063897AR,428699.93,4586467.68,138.51,Populus nigra 'Italica',False,SEGONA,C\ Granja Vella,10.71,15.2,4.41,3.34,0.262,2.68,937,ok
+0063900AR,428619.46,4586215.45,134.05,Koelreuteria paniculata 'Fastigiata',False,PRIMERA,C\ Coll i Alentorn,7.21,4.2,2.33,3.05,0.409,1.79,178,ok
+0063901AR,429063.62,4587182.47,122.08,Prunus cerasifera 'Pissardii',False,SEGONA,C\ Can Travi,6.71,25.8,5.73,3.85,0.411,1.78,901,ok
+0063902AR,428665.07,4587142.86,139.43,Cupressus sempervirens 'Stricta',False,PRIMERA,Pg Vall d'Hebron,9.68,18.0,4.79,5.27,0.405,1.81,890,ok
+0063904AR,428926.64,4587180.33,128.55,Celtis sinensis,False,SEGONA,C\ Berruguete,7.19,38.5,7.0,4.58,0.359,2.05,1075,ok
+0215435AR,428770.59,4586234.93,123.31,Ligustrum lucidum,False,PRIMERA,Av Martí-Codolar,3.53,5.8,2.71,2.77,0.541,1.23,200,ok
+0215694AR,428756.52,4586228.17,123.7,Ligustrum lucidum,False,PRIMERA,Av Martí-Codolar,3.83,3.0,1.95,2.81,0.579,1.09,108,ok
+0215700AR,428765.92,4586232.59,123.45,Ligustrum lucidum,False,PRIMERA,Av Martí-Codolar,3.26,1.2,1.26,2.82,0.519,1.31,53,no_crown_detected
+0215707AR,428761.4,4586230.4,123.58,Ligustrum lucidum,False,PRIMERA,Av Martí-Codolar,3.18,1.2,1.26,2.54,0.556,1.18,52,no_crown_detected
+0267164AR,428551.8,4586383.45,141.63,Styphnolobium japonicum,False,PRIMERA,C\ Basses d'Horta,4.39,5.8,2.71,2.78,0.554,1.18,235,ok
+0267252AR,428991.98,4587040.43,122.14,Robinia pseudoacacia 'Pyramidalis',False,EXEMPLAR,C\ Jorge Manrique,12.59,47.8,7.8,4.98,0.229,2.95,2125,ok
+0267282AR,429057.33,4586722.27,116.11,Tipuana tipu,False,EXEMPLAR,Av Cardenal Vidal i Barraquer,12.18,153.5,13.98,5.22,0.222,3.01,3102,ok
+0267599AR,428536.25,4586452.37,139.82,Ulmus pumila,False,SEGONA,C\ Basses d'Horta,7.95,61.2,8.83,3.04,0.268,2.63,2654,ok
+0267611AR,428849.0,4587083.45,128.97,Pinus pinea,False,PRIMERA,Pl Sibil·les,12.24,11.0,3.74,4.51,0.347,2.12,693,ok
+0267619AR,428554.57,4586410.22,141.63,Styphnolobium japonicum,False,PRIMERA,C\ Basses d'Horta,5.53,9.5,3.48,3.05,0.387,1.9,448,ok
+0267651AR,428829.29,4587344.03,133.32,Robinia pseudoacacia,False,PRIMERA,C\ Arquitecte Moragas,7.95,9.2,3.43,4.42,0.389,1.89,316,ok
+0267669AR,428554.72,4586432.19,141.98,Styphnolobium japonicum,False,PRIMERA,C\ Basses d'Horta,4.6,17.5,4.72,3.07,0.397,1.85,806,ok
+0267703AR,428553.92,4586401.1,141.65,Styphnolobium japonicum,False,PRIMERA,C\ Basses d'Horta,3.93,5.0,2.52,2.69,0.57,1.12,202,ok
+0267788AR,428552.87,4586391.97,141.63,Styphnolobium japonicum,False,PRIMERA,C\ Basses d'Horta,3.51,2.0,1.6,2.78,0.551,1.19,84,ok
+0267873AR,428760.9,4587139.2,132.56,Magnolia grandiflora,False,PRIMERA,C\ Arquitecte Moragas,3.59,17.8,4.75,8.02,0.22,3.03,975,ok
+0268037AR,428826.15,4587344.07,133.53,Robinia pseudoacacia,False,SEGONA,C\ Arquitecte Moragas,7.93,15.8,4.48,3.35,0.494,1.41,627,ok
+0268060AR,428549.9,4586374.56,141.64,Styphnolobium japonicum,False,PRIMERA,C\ Basses d'Horta,3.27,4.2,2.33,2.49,0.586,1.07,158,ok
+0268313AR,428996.71,4587038.72,121.28,Robinia pseudoacacia 'Pyramidalis',False,SEGONA,C\ Jorge Manrique,8.0,7.8,3.14,2.84,0.273,2.6,394,ok
+0268358AR,429156.45,4587288.04,112.84,Casuarina cunninghamiana,False,EXEMPLAR,Av Can Marcet,12.92,108.5,11.75,3.93,0.202,3.2,4522,ok
+0268375AR,428553.91,4586449.77,142.7,Styphnolobium japonicum,False,PRIMERA,C\ Basses d'Horta,4.44,16.8,4.62,2.97,0.417,1.75,775,ok
+0268400AR,429059.19,4586741.85,115.44,Tipuana tipu,False,EXEMPLAR,Av Cardenal Vidal i Barraquer,13.64,203.2,16.09,3.66,0.157,3.71,4563,ok
+0268407AR,428977.45,4587045.82,122.18,Robinia pseudoacacia 'Pyramidalis',False,SEGONA,C\ Jorge Manrique,7.35,12.2,3.95,3.72,0.329,2.22,450,ok
+0286613AR,428832.47,4587091.14,130.03,Pinus pinea,False,PRIMERA,Pl Sibil·les,7.03,7.2,3.04,3.05,0.384,1.92,415,ok
+0286614AR,428816.53,4587090.92,131.14,Pinus pinea,False,SEGONA,C\ Jorge Manrique,8.59,22.2,5.32,3.99,0.354,2.08,905,ok
+0286618AR,428852.96,4587050.36,126.93,Pinus pinea,False,SEGONA,C\ Jorge Manrique,6.67,32.0,6.38,3.15,0.331,2.21,1410,ok
+0286619AR,428859.35,4587048.83,126.64,Pinus pinea,False,SEGONA,C\ Jorge Manrique,9.41,31.8,6.36,3.64,0.39,1.88,1418,ok
+0286620AR,428833.96,4587086.65,129.86,Pinus pinea,False,SEGONA,C\ Jorge Manrique,5.53,13.8,4.18,3.32,0.473,1.5,521,ok
+0286621AR,428839.86,4587085.26,129.55,Pinus pinea,False,SEGONA,C\ Jorge Manrique,7.99,15.5,4.44,3.91,0.34,2.16,671,ok
+0286627AR,429054.03,4587156.09,122.01,Prunus cerasifera 'Pissardii',False,SEGONA,C\ Can Travi,5.23,16.8,4.62,3.12,0.439,1.65,616,ok
+0286643AR,428848.06,4587430.18,131.59,Melia azedarach,False,EXEMPLAR,Av Can Marcet,7.61,86.0,10.46,3.72,0.488,1.43,3352,ok
+0287311AR,429190.02,4587272.58,111.62,Platanus × acerifolia,True,EXEMPLAR,Av Estatut de Catalunya,14.35,132.5,12.99,7.06,0.25,2.77,5777,ok
+0287312AR,429194.19,4587276.11,111.65,Platanus × acerifolia,True,EXEMPLAR,Av Estatut de Catalunya,15.54,93.5,10.91,5.83,0.175,3.49,3903,ok
+0287313AR,429197.88,4587280.38,111.71,Platanus × acerifolia,True,TERCERA,Av Estatut de Catalunya,15.0,67.2,9.25,6.39,0.18,3.43,3349,ok
+0287314AR,429200.14,4587285.13,111.78,Platanus × acerifolia,True,SEGONA,Av Estatut de Catalunya,16.58,38.2,6.98,8.23,0.15,3.79,1915,ok
+0287316AR,429207.1,4587314.54,112.58,Platanus × acerifolia,True,TERCERA,Av Estatut de Catalunya,16.21,68.2,9.32,6.45,0.189,3.33,3734,ok
+0287317AR,429208.39,4587319.34,112.74,Platanus × acerifolia,True,TERCERA,Av Estatut de Catalunya,14.1,32.2,6.41,7.94,0.25,2.77,1599,ok
+0287318AR,429209.71,4587323.75,113.0,Platanus × acerifolia,True,TERCERA,Av Estatut de Catalunya,14.79,65.0,9.1,6.24,0.228,2.95,2985,ok
+0287319AR,429211.22,4587328.44,113.22,Platanus × acerifolia,True,TERCERA,Av Estatut de Catalunya,15.29,62.5,8.92,5.75,0.199,3.23,3078,ok
+0287320AR,429213.1,4587333.11,113.4,Platanus × acerifolia,True,TERCERA,Av Estatut de Catalunya,15.78,63.2,8.97,6.8,0.301,2.4,3059,ok
+0287321AR,429215.05,4587338.03,113.67,Platanus × acerifolia,True,TERCERA,Av Estatut de Catalunya,13.8,62.0,8.88,5.07,0.291,2.47,2862,ok
+0287322AR,429216.52,4587342.07,113.92,Platanus × acerifolia,True,SEGONA,Av Estatut de Catalunya,12.96,67.5,9.27,5.52,0.186,3.37,2946,ok
+0287323AR,429218.45,4587347.18,114.18,Platanus × acerifolia,True,TERCERA,Av Estatut de Catalunya,13.9,69.5,9.41,4.54,0.227,2.97,3086,ok
+0287324AR,429220.5,4587351.8,114.45,Platanus × acerifolia,True,SEGONA,Av Estatut de Catalunya,13.95,67.2,9.25,5.07,0.292,2.46,3163,ok
+0287325AR,429222.66,4587356.31,114.71,Platanus × acerifolia,True,SEGONA,Av Estatut de Catalunya,14.04,71.8,9.56,4.74,0.209,3.13,2897,ok
+0287326AR,429224.83,4587360.65,115.01,Platanus × acerifolia,True,EXEMPLAR,Av Estatut de Catalunya,13.63,82.2,10.23,7.33,0.261,2.68,3623,ok
+0287327AR,429229.77,4587371.7,115.68,Platanus × acerifolia,True,EXEMPLAR,Av Estatut de Catalunya,14.8,109.0,11.78,6.78,0.27,2.62,5379,ok
+0287328AR,429231.89,4587375.78,115.9,Platanus × acerifolia,True,SEGONA,Av Estatut de Catalunya,15.56,69.0,9.37,5.65,0.14,3.93,3119,ok
+0287329AR,429234.23,4587380.36,116.36,Platanus × acerifolia,True,EXEMPLAR,Av Estatut de Catalunya,13.89,72.5,9.61,6.45,0.12,4.23,3665,ok
+0290697AR,428766.88,4587156.2,132.68,Magnolia grandiflora,False,PRIMERA,C\ Arquitecte Moragas,4.86,6.5,2.88,3.24,0.57,1.13,278,ok
+0290699AR,428769.38,4587162.33,132.73,Magnolia grandiflora,False,PRIMERA,C\ Arquitecte Moragas,4.79,3.8,2.19,3.09,0.515,1.33,164,ok
+0290700AR,428764.71,4587150.1,132.66,Magnolia grandiflora,False,PRIMERA,C\ Arquitecte Moragas,4.64,5.0,2.52,3.06,0.574,1.11,234,ok
+0291413AR,428553.61,4586458.81,143.11,Styphnolobium japonicum,False,PRIMERA,C\ Basses d'Horta,5.35,25.8,5.73,3.07,0.433,1.67,1238,ok
+0291547AR,428554.37,4586441.25,142.31,Styphnolobium japonicum,False,PRIMERA,C\ Basses d'Horta,3.03,5.0,2.52,2.47,0.538,1.24,193,ok
+0296163AR,428603.44,4586221.08,135.81,Tipuana tipu,False,SEGONA,C\ Coll i Alentorn,11.86,7.5,3.09,2.94,0.429,1.69,306,ok
+0296164AR,428596.48,4586225.43,136.58,Koelreuteria paniculata 'Fastigiata',False,PRIMERA,C\ Coll i Alentorn,5.87,9.8,3.52,3.44,0.484,1.45,374,ok
+0296165AR,428593.03,4586227.05,137.0,Tipuana tipu,False,SEGONA,C\ Coll i Alentorn,5.36,18.2,4.82,3.97,0.469,1.51,658,ok
+0296166AR,428588.44,4586226.06,137.5,Populus nigra 'Italica',False,SEGONA,C\ Coll i Alentorn,10.38,12.5,3.99,4.4,0.29,2.47,611,ok
+0296167AR,428584.55,4586227.41,137.85,Koelreuteria paniculata 'Fastigiata',False,PRIMERA,C\ Coll i Alentorn,5.54,7.5,3.09,3.16,0.331,2.21,240,ok
+0296170AR,428589.46,4586229.39,137.33,Tipuana tipu,False,PRIMERA,C\ Coll i Alentorn,5.41,10.5,3.66,3.88,0.414,1.76,390,ok
+0299195AR,428773.45,4586497.14,132.82,Populus nigra 'Italica',False,TERCERA,C\ Granja Vella,13.89,65.8,9.15,3.17,0.313,2.32,4075,ok
+0299201AR,428651.09,4586492.03,141.39,Populus nigra 'Italica',False,SEGONA,C\ Granja Vella,5.9,16.2,4.55,3.1,0.4,1.83,816,ok
+0299202AR,428637.43,4586493.18,142.28,Casuarina cunninghamiana,False,PRIMERA,C\ Granja Vella,10.21,10.5,3.66,3.85,0.26,2.69,540,ok
+0299203AR,428634.99,4586494.64,142.41,Casuarina cunninghamiana,False,SEGONA,C\ Granja Vella,9.29,6.8,2.93,3.72,0.372,1.98,350,ok
+0299291AR,428809.21,4586481.79,129.18,Casuarina cunninghamiana,False,SEGONA,C\ Granja Vella,5.64,5.8,2.71,2.58,0.355,2.07,241,ok
+0299391AR,429293.62,4587023.43,100.22,Tilia x europaea,False,PRIMERA,Av Estatut de Catalunya,5.32,6.8,2.93,3.4,0.544,1.22,260,ok
+0299438AR,429289.9,4587032.02,100.75,Tilia x europaea,False,SEGONA,Av Estatut de Catalunya,5.99,12.2,3.95,3.5,0.461,1.55,461,ok
+0299439AR,429286.1,4587040.71,101.39,Tilia x europaea,False,PRIMERA,Av Estatut de Catalunya,5.07,5.0,2.52,3.34,0.575,1.11,196,ok
+0299440AR,429282.33,4587049.33,101.96,Tilia x europaea,False,SEGONA,Av Estatut de Catalunya,5.41,8.5,3.29,3.44,0.543,1.22,318,ok
+0299441AR,429278.63,4587057.98,102.5,Tilia x europaea,False,SEGONA,Av Estatut de Catalunya,5.8,10.8,3.7,3.32,0.498,1.39,395,ok
+0299442AR,429274.96,4587066.56,103.02,Tilia x europaea,False,SEGONA,Av Estatut de Catalunya,5.74,9.2,3.43,3.27,0.5,1.39,338,ok
+0299443AR,429271.25,4587075.2,103.61,Tilia x europaea,False,SEGONA,Av Estatut de Catalunya,5.21,8.5,3.29,3.49,0.549,1.2,313,ok
+0299444AR,429267.43,4587083.9,104.16,Tilia x europaea,False,PRIMERA,Av Estatut de Catalunya,4.94,7.8,3.14,3.1,0.575,1.11,323,ok
+0299445AR,429263.72,4587092.52,104.76,Tilia x europaea,False,PRIMERA,Av Estatut de Catalunya,4.83,4.8,2.46,3.05,0.628,0.93,182,ok
+0299446AR,429259.87,4587101.14,105.35,Tilia x europaea,False,SEGONA,Av Estatut de Catalunya,6.86,15.8,4.48,3.46,0.414,1.76,636,ok
+0299447AR,429256.2,4587109.73,105.91,Tilia x europaea,False,SEGONA,Av Estatut de Catalunya,6.57,13.8,4.18,3.08,0.452,1.59,507,ok
+0299467AR,429248.93,4587126.69,106.91,Tilia x europaea,False,PRIMERA,Av Estatut de Catalunya,5.33,6.5,2.88,3.29,0.526,1.28,248,ok
+0299468AR,429251.97,4587119.67,106.48,Tilia x europaea,False,PRIMERA,Av Estatut de Catalunya,4.38,4.0,2.26,3.28,0.649,0.86,150,ok
+0299825AR,429115.84,4587340.12,115.62,Styphnolobium japonicum,False,SEGONA,C\ Maternitat d'Elna,7.55,63.0,8.96,3.13,0.334,2.19,2773,ok
+0299826AR,429123.38,4587351.9,116.15,Styphnolobium japonicum,False,SEGONA,C\ Maternitat d'Elna,7.35,67.0,9.24,3.7,0.243,2.83,2878,ok
+0299827AR,429129.33,4587358.46,116.36,Styphnolobium japonicum,False,SEGONA,C\ Maternitat d'Elna,13.33,116.8,12.19,4.21,0.306,2.37,6123,ok
+0299983AR,429129.65,4587347.87,116.29,Pyrus calleryana 'Chanticleer',False,SEGONA,C\ Maternitat d'Elna,6.09,12.2,3.95,3.5,0.308,2.35,325,ok
+0299985AR,429141.09,4587360.23,116.79,Pyrus calleryana 'Chanticleer',False,SEGONA,Av Can Marcet,7.76,29.5,6.13,3.65,0.313,2.32,1146,ok
+0299986AR,429182.11,4587390.25,118.36,Pyrus calleryana 'Chanticleer',False,SEGONA,C\ Maternitat d'Elna,6.81,15.8,4.48,3.42,0.334,2.19,413,ok
+0299987AR,429188.96,4587394.9,118.68,Pyrus calleryana 'Chanticleer',False,SEGONA,C\ Maternitat d'Elna,7.65,16.8,4.62,3.44,0.347,2.12,428,ok
+0299988AR,429196.19,4587400.12,118.98,Pyrus calleryana 'Chanticleer',False,SEGONA,C\ Maternitat d'Elna,6.62,14.5,4.3,3.33,0.341,2.15,381,ok
+0299997AR,429146.93,4587365.88,117.03,Pyrus calleryana 'Chanticleer',False,SEGONA,Av Can Marcet,6.5,12.5,3.99,3.36,0.328,2.23,365,ok
+0299998AR,429153.4,4587371.24,117.28,Pyrus calleryana 'Chanticleer',False,SEGONA,C\ Maternitat d'Elna,7.79,15.2,4.41,3.15,0.291,2.47,470,ok
+0299999AR,429160.15,4587376.56,117.52,Pyrus calleryana 'Chanticleer',False,SEGONA,C\ Maternitat d'Elna,6.71,19.0,4.92,3.43,0.364,2.02,587,ok
+0300000AR,429167.1,4587381.2,117.82,Pyrus calleryana 'Chanticleer',False,SEGONA,C\ Maternitat d'Elna,9.04,69.0,9.37,4.18,0.267,2.64,3095,ok
+0300001AR,429174.88,4587385.85,118.13,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Maternitat d'Elna,6.07,14.5,4.3,3.2,0.343,2.14,585,ok
+0300006AR,429121.19,4587316.7,114.69,Styphnolobium japonicum,False,SEGONA,Av Can Marcet,7.44,63.5,8.99,3.57,0.457,1.57,2729,ok
+0300010AR,429124.14,4587343.08,116.02,Styphnolobium japonicum,False,PRIMERA,C\ Maternitat d'Elna,,0.0,0.0,,,,0,no_crown_detected
+0300082AR,429103.75,4587323.95,115.43,Jacaranda mimosifolia,False,SEGONA,Av Can Marcet,6.22,21.2,5.2,3.89,0.446,1.62,734,ok
+0300083AR,429087.37,4587328.4,116.15,Jacaranda mimosifolia,False,SEGONA,Av Can Marcet,6.21,64.2,9.04,3.67,0.331,2.21,2400,ok
+0300084AR,429097.88,4587325.66,115.66,Jacaranda mimosifolia,False,SEGONA,Av Can Marcet,5.48,22.2,5.32,3.6,0.54,1.23,835,ok
+0300267AR,429158.66,4587284.12,112.62,Casuarina cunninghamiana,False,TERCERA,Av Can Marcet,12.58,53.8,8.27,2.91,0.27,2.62,2529,ok
+0300288AR,429141.19,4587302.97,113.68,Styphnolobium japonicum,False,SEGONA,Av Can Marcet,6.77,23.2,5.44,3.34,0.292,2.46,971,ok
+0309639AR,429205.5,4587309.82,112.42,Platanus × acerifolia,True,EXEMPLAR,Av Estatut de Catalunya,17.36,145.2,13.6,6.46,0.152,3.76,7484,ok
+0309640AR,429200.39,4587290.76,112.01,Platanus × acerifolia,True,EXEMPLAR,Av Estatut de Catalunya,17.04,74.2,9.72,8.18,0.196,3.26,4046,ok
+0309641AR,429201.38,4587294.88,112.07,Platanus × acerifolia,True,EXEMPLAR,Av Estatut de Catalunya,17.92,138.8,13.29,5.98,0.187,3.36,7275,ok
+0309935AR,428872.95,4587494.45,137.36,Platanus × acerifolia,True,SEGONA,Pg Vall d'Hebron,10.41,22.0,5.29,6.01,0.379,1.94,536,ok
+0309936AR,428877.0,4587498.74,137.32,Platanus × acerifolia,True,SEGONA,Pg Vall d'Hebron,8.35,20.2,5.08,4.96,0.406,1.8,483,ok
+0309937AR,428951.24,4587564.11,136.73,Platanus × acerifolia,True,PRIMERA,Pg Vall d'Hebron,,0.0,0.0,,,,0,no_crown_detected
+0309950AR,428698.06,4587016.44,130.04,Celtis sinensis,False,TERCERA,C\ Juan de Mena,12.53,76.8,9.89,5.34,0.406,1.8,4057,ok
+0314798AR,428879.95,4587380.8,131.43,Liquidambar styraciflua,False,PRIMERA,Av Can Marcet,8.1,19.2,4.95,3.31,0.501,1.38,789,ok
+0314799AR,428887.76,4587375.64,130.72,Ulmus pumila,False,TERCERA,Av Can Marcet,9.73,102.0,11.4,3.57,0.373,1.97,4533,ok
+0315277AR,428982.9,4587339.43,122.44,Ulmus pumila,False,EXEMPLAR,Av Can Marcet,13.51,196.2,15.81,5.8,0.361,2.04,9343,ok
+0315348AR,428444.48,4586534.63,148.18,Brachychiton populneus,False,PRIMERA,Pg Vall d'Hebron,20.52,24.2,5.56,6.28,0.191,3.31,1536,ok
+0315355AR,428548.08,4586366.21,141.7,Styphnolobium japonicum,False,PRIMERA,C\ Basses d'Horta,3.74,4.8,2.46,2.76,0.495,1.4,213,ok
+0315356AR,428546.13,4586357.34,141.77,Styphnolobium japonicum,False,SEGONA,C\ Basses d'Horta,4.25,18.0,4.79,2.93,0.504,1.37,754,ok
+0315357AR,428543.34,4586348.23,141.92,Styphnolobium japonicum,False,SEGONA,C\ Basses d'Horta,6.63,38.0,6.96,3.14,0.494,1.41,1848,ok
+0321358AR,428656.7,4587119.93,138.55,Cupressus sempervirens 'Stricta',False,SEGONA,Pg Vall d'Hebron,,0.0,0.0,,,,0,no_crown_detected
+0321359AR,428653.82,4587111.86,138.31,Cupressus sempervirens 'Stricta',False,PRIMERA,Pg Vall d'Hebron,,0.0,0.0,,,,0,no_crown_detected
+0321360AR,428654.6,4587113.99,138.37,Cupressus sempervirens 'Stricta',False,PRIMERA,Pg Vall d'Hebron,,0.0,0.0,,,,0,no_crown_detected
+0321361AR,428655.31,4587115.96,138.45,Cupressus sempervirens 'Stricta',False,PRIMERA,Pg Vall d'Hebron,,0.0,0.0,,,,0,no_crown_detected
+0321362AR,428655.96,4587117.87,138.51,Cupressus sempervirens 'Stricta',False,PRIMERA,Pg Vall d'Hebron,,0.0,0.0,,,,0,no_crown_detected
+0323959AR,428673.74,4587070.81,136.47,Celtis australis,False,TERCERA,C\ Jorge Manrique,8.95,196.5,15.82,2.16,0.304,2.38,9294,ok
+0329592AR,428715.44,4586472.6,137.38,Casuarina cunninghamiana,False,PRIMERA,C\ Granja Vella,4.53,4.8,2.46,3.39,0.429,1.69,156,ok
+0329593AR,428711.48,4586472.3,137.7,Casuarina cunninghamiana,False,PRIMERA,C\ Granja Vella,,0.0,0.0,,,,0,no_crown_detected
+0335197AR,428470.81,4586272.3,147.8,Robinia pseudoacacia,False,SEGONA,C\ Basses d'Horta,12.54,183.8,15.3,2.9,0.233,2.91,9338,ok
+0344771AR,428916.83,4586679.71,124.31,Taxus baccata,False,TERCERA,Av Martí-Codolar,7.15,175.8,14.96,3.04,0.113,4.36,3750,ok
+0346557AR,428874.83,4587091.36,127.87,Ligustrum lucidum,False,PRIMERA,Pl Sibil·les,,0.0,0.0,,,,0,no_crown_detected
+0347068AR,428960.73,4586806.73,118.89,Ulmus pumila,False,SEGONA,C\ Pare Mariana,8.78,15.8,4.48,3.23,0.29,2.47,341,ok
+0347069AR,428964.46,4586804.91,118.95,Ulmus pumila,False,SEGONA,C\ Pare Mariana,10.82,59.0,8.67,2.65,0.255,2.73,1356,ok
+0347437AR,428846.78,4586728.8,125.18,Ulmus pumila,False,SEGONA,Pas Isadora Duncan,8.67,80.0,10.09,4.7,0.205,3.17,1619,ok
+0347438AR,428844.02,4586761.71,124.65,Ulmus pumila,False,TERCERA,Av Martí-Codolar,6.8,51.8,8.12,3.55,0.272,2.6,1099,ok
+0347572AR,428786.46,4586856.87,123.72,Cupressus sempervirens,False,SEGONA,Av Martí-Codolar,11.6,10.2,3.61,2.45,0.235,2.9,234,ok
+0347573AR,428795.27,4586853.1,123.9,Ulmus pumila,False,SEGONA,Av Martí-Codolar,,0.0,0.0,,,,0,no_crown_detected
+0347574AR,428838.03,4586790.99,124.46,Pinus pinea,False,SEGONA,Av Martí-Codolar,,0.0,0.0,,,,0,no_crown_detected
+0347575AR,428842.96,4586768.62,124.74,Pinus pinea,False,PRIMERA,Av Martí-Codolar,,0.0,0.0,,,,0,no_crown_detected
+0347576AR,428833.19,4586800.42,125.3,Pinus pinea,False,SEGONA,Av Martí-Codolar,,0.0,0.0,,,,0,no_crown_detected
+0347577AR,428836.99,4586799.26,123.44,Pinus pinea,False,SEGONA,Av Martí-Codolar,,0.0,0.0,,,,0,no_crown_detected
+0347578AR,428831.05,4586810.71,124.26,Populus nigra,False,SEGONA,Av Martí-Codolar,3.31,14.5,4.3,2.07,0.307,2.36,329,ok
+0347579AR,428829.08,4586814.75,123.8,Pinus pinea,False,SEGONA,Av Martí-Codolar,0.85,1.5,1.38,1.85,0.321,2.27,28,no_crown_detected
+0347580AR,428824.87,4586820.6,124.48,Pinus pinea,False,SEGONA,Av Martí-Codolar,2.97,6.8,2.93,2.1,0.286,2.51,105,low_tree
+0347581AR,428826.03,4586823.93,122.5,Pinus pinea,False,PRIMERA,Av Martí-Codolar,,0.0,0.0,,,,0,no_crown_detected

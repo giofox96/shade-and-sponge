@@ -1,0 +1,1149 @@
+tree_id,species,is_plane,street,width_m,facade_dist_m,flag,strip_width_m,size_class,ray_x0,ray_y0,ray_x1,ray_y1,pit_min_m2,pit_basis
+0224415AR,Prunus cerasifera 'Pissardii',False,C\ Alt de Pedrell,,16.77,median,8.52,check,,,,,1.0,floor
+0224443AR,Celtis australis,False,Pg Maragall,5.41,4.62,ok,,medium,430503.61,4586529.31,430504.29,4586534.67,1.0,class
+0224444AR,Robinia pseudoacacia,False,C\ Montserrat de Casanovas,8.26,4.26,ok,,large,430004.12,4586090.89,430012.01,4586093.35,1.5,class
+0224446AR,Platanus × acerifolia,True,C\ Peris i Mencheta,,9.21,median,10.24,check,,,,,1.0,floor
+0224447AR,Platanus × acerifolia,True,Av Frederic Rahola,6.01,5.24,ok,,large,430462.14,4586291.86,430460.02,4586286.24,1.5,class
+0224448AR,Robinia pseudoacacia,False,C\ Pedrell,5.58,4.71,ok,,medium,430080.81,4586183.11,430080.86,4586177.54,1.0,class
+0224449AR,Platanus × acerifolia,True,C\ Pedrell,8.0,6.86,ok,,large,429814.49,4586118.97,429812.15,4586111.32,1.5,class
+0224450AR,Platanus × acerifolia,True,Pg Font d'en Fargas,3.46,2.8,ok,,small,430250.44,4586151.32,430253.87,4586150.88,1.0,class
+0224451AR,Styphnolobium japonicum,False,Pg Font d'en Fargas,3.82,3.23,ok,,medium,430293.41,4586472.71,430297.19,4586472.17,1.0,class
+0224455AR,Robinia pseudoacacia,False,C\ Montserrat de Casanovas,6.65,6.1,ok,,large,430126.44,4586102.4,430125.36,4586108.96,1.5,class
+0224456AR,Citrus × aurantium,False,C\ Mossèn Josep Bundó,2.24,2.02,ok,,none,430185.57,4586445.88,430185.58,4586448.12,1.0,floor
+0224457AR,Styphnolobium japonicum,False,C\ Marquès de Foronda,5.35,4.69,ok,,medium,429793.83,4586364.83,429795.57,4586359.77,1.0,class
+0224458AR,Styphnolobium japonicum,False,C\ Pintor Pradilla,,8.04,median,,check,,,,,1.0,floor
+0224459AR,Robinia pseudoacacia,False,C\ Montserrat de Casanovas,,10.87,median,,check,,,,,1.0,floor
+0224460AR,Platanus × acerifolia,True,Pg Font d'en Fargas,14.4,13.53,ok,,large,430260.92,4586312.63,430275.32,4586312.65,1.5,class
+0224461AR,Platanus × acerifolia,True,Pg Font d'en Fargas,,14.14,median,16.49,check,,,,,1.0,floor
+0224465AR,Prunus cerasifera 'Pissardii',False,C\ Mossèn Josep Bundó,2.57,1.7,ok,,small,430266.72,4586471.08,430267.84,4586468.77,1.0,class
+0224466AR,Ginkgo biloba,False,C\ Garriga i Roca,3.5,3.06,ok,,medium,430576.1,4585894.5,430572.81,4585895.7,1.0,class
+0224467AR,Styphnolobium japonicum,False,Pg Font d'en Fargas,,9.07,median,,check,,,,,1.0,floor
+0224468AR,Ligustrum japonicum 'Texanum',False,C\ Comalada,5.11,4.71,ok,,medium,430804.27,4586189.68,430807.8,4586185.98,1.0,class
+0224469AR,Platanus × acerifolia,True,Av Frederic Rahola,6.97,6.21,ok,,large,430444.39,4586297.79,430438.54,4586294.0,1.5,class
+0224470AR,Photinia x fraseri 'Red Robin',False,C\ Montserrat de Casanovas,3.57,2.9,ok,,medium,430219.39,4586134.02,430220.02,4586130.5,1.0,class
+0224471AR,Prunus cerasifera 'Pissardii',False,C\ Pedrell,3.41,2.44,ok,,small,429999.09,4586154.18,429999.96,4586157.48,1.0,class
+0224472AR,Styphnolobium japonicum,False,Pg Font de la Mulassa,6.63,4.04,ok,,large,430021.75,4585935.52,430017.71,4585940.77,1.5,class
+0224474AR,Styphnolobium japonicum,False,C\ Pintor Pradilla,,7.43,median,21.05,check,,,,,1.0,floor
+0224475AR,Prunus avium,False,C\ Trèvol,,8.3,median,,check,,,,,1.0,floor
+0224476AR,Platanus × acerifolia,True,C\ Peris i Mencheta,5.53,3.81,ok,,medium,430088.05,4586503.96,430086.89,4586498.55,1.0,class
+0224477AR,Styphnolobium japonicum,False,C\ Marquès de Foronda,2.24,1.54,ok,,none,429733.2,4586347.69,429732.98,4586349.91,1.0,floor
+0224478AR,Platanus × acerifolia,True,Av Frederic Rahola,7.87,7.38,ok,,large,430214.27,4586409.36,430206.49,4586410.53,1.5,class
+0224480AR,Platanus × acerifolia,True,Pg Font d'en Fargas,,10.38,median,,check,,,,,1.0,floor
+0224481AR,Ligustrum japonicum 'Texanum',False,C\ Montserrat de Casanovas,7.16,6.49,ok,,large,430029.9,4586104.76,430031.26,4586097.73,1.5,class
+0224483AR,Styphnolobium japonicum,False,C\ Marquès de Foronda,5.28,4.55,ok,,medium,429738.09,4586359.01,429737.44,4586353.78,1.0,class
+0224484AR,Hibiscus syriacus,False,Ptge Pedrell,,0.55,no_kerb,41.44,check,,,,,1.0,floor
+0224486AR,Platanus × acerifolia,True,C\ Mas Pujol,6.97,6.35,ok,,large,430214.38,4586354.28,430217.4,4586347.99,1.5,class
+0224488AR,Styphnolobium japonicum,False,C\ Montserrat de Casanovas,3.81,2.7,ok,,medium,430401.73,4586154.98,430404.13,4586157.94,1.0,class
+0224489AR,Robinia pseudoacacia,False,C\ Marí,4.31,2.73,ok,,medium,429898.15,4586067.64,429897.35,4586063.41,1.0,class
+0224490AR,Platanus × acerifolia,True,Av Frederic Rahola,,6.6,median,7.12,check,,,,,1.0,floor
+0224491AR,Styphnolobium japonicum,False,C\ Peris i Mencheta,5.19,4.69,ok,,medium,430033.71,4586428.83,430029.97,4586432.43,1.0,class
+0224492AR,Citrus × aurantium,False,Pg Font de la Mulassa,5.78,4.99,ok,,medium,429932.7,4586182.37,429938.23,4586184.04,1.0,class
+0224493AR,Styphnolobium japonicum,False,Pg Font d'en Fargas,,12.45,median,,check,,,,,1.0,floor
+0224494AR,Styphnolobium japonicum,False,C\ Pedrell,3.7,2.8,ok,,medium,429679.8,4586061.19,429678.78,4586064.74,1.0,class
+0224495AR,Prunus serrulata 'Kanzan',False,C\ Dalmau de Creixell,2.73,2.2,ok,,small,430764.38,4586387.64,430763.51,4586390.23,1.0,class
+0224496AR,Platanus × acerifolia,True,C\ Mas Pujol,16.81,10.79,ok,,large,430171.23,4586311.74,430187.49,4586307.47,1.5,class
+0224497AR,Prunus cerasifera 'Pissardii',False,C\ Pedrell,5.49,4.83,ok,,medium,430243.26,4586197.47,430242.45,4586202.9,1.0,class
+0224498AR,Styphnolobium japonicum,False,Pg Font d'en Fargas,,11.69,median,10.7,check,,,,,1.0,floor
+0224499AR,Pyrus calleryana 'Chanticleer',False,C\ Canonge Almera,2.09,1.43,ok,,none,430012.23,4586180.7,430014.32,4586180.81,1.0,floor
+0224500AR,Celtis australis,False,Pg Maragall,,11.64,median,,check,,,,,1.0,floor
+0224502AR,Ligustrum japonicum 'Texanum',False,C\ Arc de Sant Martí,6.15,5.1,ok,,large,430744.96,4586345.54,430750.22,4586348.74,1.5,class
+0224503AR,Ginkgo biloba,False,C\ Garriga i Roca,5.02,4.26,ok,,medium,430590.41,4585929.96,430585.85,4585932.06,1.0,class
+0224504AR,Robinia pseudoacacia,False,C\ Canonge Almera,4.72,4.08,ok,,medium,430021.2,4586382.76,430017.4,4586379.95,1.0,class
+0224505AR,Citrus × aurantium,False,C\ Mossèn Josep Bundó,4.95,4.3,ok,,medium,430153.87,4586458.41,430155.04,4586453.6,1.0,class
+0224506AR,Robinia pseudoacacia,False,Ptge Pujolet,4.57,3.97,ok,,medium,430110.4,4586129.27,430105.9,4586128.45,1.0,class
+0224507AR,Styphnolobium japonicum,False,C\ Pedrell,4.29,3.55,ok,,medium,429834.27,4586122.7,429835.51,4586118.59,1.0,class
+0224508AR,Hibiscus syriacus,False,C\ Marí,5.71,5.2,ok,,medium,429879.86,4586080.02,429885.32,4586081.69,1.0,class
+0224509AR,Platanus × acerifolia,True,Pg Font d'en Fargas,3.75,3.14,ok,,medium,430295.35,4586486.31,430299.06,4586485.78,1.0,class
+0224510AR,Platanus × acerifolia,True,Pg Font d'en Fargas,,9.05,median,,check,,,,,1.0,floor
+0224511AR,Acer monspessulanum,False,C\ Trèvol,,10.08,median,,check,,,,,1.0,floor
+0224514AR,Ligustrum japonicum 'Texanum',False,C\ Arc de Sant Martí,3.98,2.94,ok,,medium,430785.43,4586216.47,430788.44,4586213.87,1.0,class
+0224515AR,Celtis australis,False,C\ Estoril,2.98,2.49,ok,,small,430070.11,4586557.47,430068.06,4586555.3,1.0,class
+0224516AR,Platanus × acerifolia,True,Av Frederic Rahola,11.96,11.26,ok,,large,430302.96,4586349.82,430291.89,4586345.29,1.5,class
+0224517AR,Hibiscus syriacus,False,C\ Marí,5.71,5.1,ok,,medium,429876.09,4586092.4,429881.55,4586094.07,1.0,class
+0224518AR,Styphnolobium japonicum,False,Ptge Pujolet,2.46,1.74,ok,,none,430104.76,4586148.81,430102.34,4586148.38,1.0,floor
+0224520AR,Celtis australis,False,Pg Maragall,,9.43,median,4.35,check,,,,,1.0,floor
+0224521AR,Platanus × acerifolia,True,Av Frederic Rahola,6.11,5.15,ok,,large,430238.07,4586517.92,430232.03,4586518.88,1.5,class
+0224522AR,Prunus cerasifera 'Pissardii',False,C\ Dalmau de Creixell,7.2,6.29,ok,,large,430801.64,4586395.44,430801.27,4586388.25,1.5,class
+0224523AR,Ligustrum japonicum 'Texanum',False,C\ Montserrat de Casanovas,3.66,2.95,ok,,medium,430093.55,4586099.71,430092.91,4586103.32,1.0,class
+0224525AR,Citrus × aurantium,False,Av Frederic Rahola,6.88,6.38,ok,,large,430215.7,4586534.67,430222.23,4586536.82,1.5,class
+0224526AR,Platanus × acerifolia,True,Av Frederic Rahola,7.54,6.96,ok,,large,430337.58,4586315.14,430341.93,4586321.29,1.5,class
+0224527AR,Styphnolobium japonicum,False,C\ Marquès de Foronda,,9.12,median,,check,,,,,1.0,floor
+0224528AR,Styphnolobium japonicum,False,C\ Marquès de Foronda,7.53,6.84,ok,,large,429876.06,4586375.67,429876.89,4586368.19,1.5,class
+0224529AR,Ginkgo biloba,False,C\ Pintor Pradilla,,9.45,median,4.6,check,,,,,1.0,floor
+0224530AR,Styphnolobium japonicum,False,C\ Marquès de Foronda,4.97,4.21,ok,,medium,429783.9,4586350.15,429783.4,4586355.1,1.0,class
+0224531AR,Robinia pseudoacacia,False,C\ Marí,10.4,5.83,ok,,large,429906.76,4586038.96,429902.03,4586048.22,1.5,class
+0224532AR,Platanus × acerifolia,True,C\ Peris i Mencheta,2.65,2.18,ok,,small,430137.82,4586540.17,430135.94,4586542.04,1.0,class
+0224533AR,Styphnolobium japonicum,False,C\ Maurici Vilomara,13.39,12.77,ok,,large,430036.24,4586065.64,430036.86,4586079.02,1.5,class
+0224534AR,Ulmus pumila,False,C\ Verema,5.29,4.67,ok,,medium,430106.46,4586285.34,430106.89,4586280.07,1.0,class
+0224535AR,Celtis australis,False,C\ Estoril,,9.93,median,,check,,,,,1.0,floor
+0224536AR,Platanus × acerifolia,True,Pg Font d'en Fargas,17.02,16.31,ok,,large,430265.05,4586363.01,430281.88,4586360.45,1.5,class
+0224537AR,Platanus × acerifolia,True,Pg Font de la Mulassa,6.61,6.17,ok,,large,429933.76,4586237.72,429927.42,4586235.88,1.5,class
+0224538AR,Pyrus calleryana 'Chanticleer',False,C\ Verema,5.58,4.83,ok,,medium,430154.1,4586270.8,430153.64,4586276.36,1.0,class
+0224540AR,Celtis australis,False,Pg Maragall,5.55,4.65,ok,,medium,430796.88,4586441.48,430798.87,4586446.66,1.0,class
+0224543AR,Styphnolobium japonicum,False,C\ Marquès de Foronda,2.16,1.44,ok,,none,429904.97,4586365.65,429904.76,4586367.8,1.0,floor
+0224544AR,Styphnolobium japonicum,False,C\ Marquès de Foronda,2.52,1.91,ok,,small,429744.62,4586348.54,429744.34,4586351.04,1.0,class
+0224545AR,Platanus × acerifolia,True,Av Frederic Rahola,,14.09,median,2.84,check,,,,,1.0,floor
+0224546AR,Hibiscus syriacus,False,C\ Marí,4.83,3.82,ok,,medium,429886.0,4586113.71,429881.36,4586115.0,1.0,class
+0224547AR,Robinia pseudoacacia,False,C\ Can Pujolet,6.42,5.78,ok,,large,430125.0,4586344.47,430118.57,4586344.63,1.5,class
+0224548AR,Hibiscus syriacus,False,C\ Verema,6.5,5.56,ok,,large,430035.62,4586279.73,430041.57,4586277.12,1.5,class
+0224549AR,Hibiscus syriacus,False,Ptge Pedrell,,6.76,no_kerb,41.44,check,,,,,1.0,floor
+0224551AR,Robinia pseudoacacia 'Bessoniana',False,Pg Font d'en Fargas,,10.76,median,,check,,,,,1.0,floor
+0224552AR,Acer platanoides 'Crimson King',False,C\ Trèvol,9.31,8.43,ok,,large,430471.08,4586454.79,430463.42,4586460.07,1.5,class
+0224553AR,Styphnolobium japonicum,False,Av Frederic Rahola,6.37,5.73,ok,,large,430350.36,4586333.4,430348.16,4586327.42,1.5,class
+0224554AR,Robinia pseudoacacia,False,C\ Canonge Almera,,9.95,median,,check,,,,,1.0,floor
+0224556AR,Platanus × acerifolia,True,Pg Font d'en Fargas,16.21,15.57,ok,,large,430260.29,4586322.16,430276.26,4586319.34,1.5,class
+0224557AR,Styphnolobium japonicum,False,C\ Marquès de Foronda,4.5,3.62,ok,,medium,429777.76,4586362.46,429777.68,4586357.96,1.0,class
+0224558AR,Robinia pseudoacacia,False,C\ Arc de Sant Martí,4.74,3.93,ok,,medium,430599.91,4586457.17,430601.81,4586461.52,1.0,class
+0224560AR,Hibiscus syriacus,False,Ptge Pedrell,,0.65,no_kerb,,check,,,,,1.0,floor
+0224561AR,Photinia x fraseri 'Red Robin',False,Pg Font de la Mulassa,2.36,1.4,ok,,none,430022.7,4585932.52,430020.45,4585931.81,1.0,floor
+0224562AR,Citrus × aurantium,False,C\ Marquès de Foronda,,6.11,median,,check,,,,,1.0,floor
+0224563AR,Platanus × acerifolia,True,Pg Font de la Mulassa,6.71,6.13,ok,,large,430009.93,4585985.59,430005.47,4585980.58,1.5,class
+0224564AR,Prunus serrulata 'Amanogawa',False,C\ Trèvol,,8.62,median,10.32,check,,,,,1.0,floor
+0224565AR,Celtis australis,False,C\ Estoril,,9.58,median,,check,,,,,1.0,floor
+0224567AR,Styphnolobium japonicum,False,C\ Marquès de Foronda,7.32,6.5,ok,,large,429785.76,4586350.34,429790.62,4586355.82,1.5,class
+0224568AR,Pyrus calleryana 'Chanticleer',False,C\ Can Pujolet,7.0,6.28,ok,,large,430110.25,4586442.61,430116.02,4586446.58,1.5,class
+0224569AR,Styphnolobium japonicum,False,Bda Can Mateu,7.97,7.25,ok,,large,430026.86,4586490.98,430021.4,4586485.18,1.5,class
+0224570AR,Acer buergerianum,False,C\ Peris i Mencheta,2.39,1.59,ok,,none,429884.78,4586307.49,429884.81,4586305.1,1.0,floor
+0224572AR,Platanus × acerifolia,True,Pg Font d'en Fargas,,10.27,median,,check,,,,,1.0,floor
+0224573AR,Ulmus pumila,False,C\ Maurici Vilomara,,12.46,median,18.46,check,,,,,1.0,floor
+0224574AR,Styphnolobium japonicum,False,C\ Canonge Almera,,8.86,median,,check,,,,,1.0,floor
+0224575AR,Platanus × acerifolia,True,Av Frederic Rahola,6.16,5.27,ok,,large,430318.8,4586323.2,430319.16,4586329.34,1.5,class
+0224576AR,Platanus × acerifolia,True,Av Frederic Rahola,8.18,7.51,ok,,large,430214.93,4586480.69,430222.89,4586482.56,1.5,class
+0224577AR,Platanus × acerifolia,True,Pg Font d'en Fargas,,22.28,median,5.69,check,,,,,1.0,floor
+0224579AR,Platanus × acerifolia,True,Av Frederic Rahola,5.44,4.7,ok,,medium,430455.16,4586293.83,430453.29,4586288.73,1.0,class
+0224580AR,Citrus × aurantium,False,C\ Marquès de Foronda,2.05,1.53,ok,,none,429918.68,4586367.2,429918.48,4586369.24,1.0,floor
+0224581AR,Celtis australis,False,Pg Maragall,,10.06,median,,check,,,,,1.0,floor
+0224582AR,Platanus × acerifolia,True,Av Frederic Rahola,9.45,8.59,ok,,large,430455.99,4586270.48,430454.61,4586279.82,1.5,class
+0224584AR,Prunus cerasifera 'Pissardii',False,C\ Pedrell,3.42,2.55,ok,,small,429890.32,4586126.25,429888.0,4586128.77,1.0,class
+0224588AR,Platanus × acerifolia,True,Pg Maragall,17.31,10.78,ok,,large,430151.73,4586587.34,430168.98,4586588.72,1.5,class
+0224589AR,Citrus × aurantium,False,C\ Marí,2.12,1.38,ok,,none,429897.19,4586071.01,429895.09,4586070.72,1.0,floor
+0224590AR,Platanus × acerifolia,True,Av Frederic Rahola,7.78,6.67,ok,,large,430498.6,4586257.01,430496.3,4586264.45,1.5,class
+0224591AR,Hibiscus syriacus,False,Ptge Pedrell,,8.75,no_kerb,,check,,,,,1.0,floor
+0224593AR,Platanus × acerifolia,True,Av Frederic Rahola,4.42,3.75,ok,,medium,430571.29,4586220.64,430567.24,4586218.87,1.0,class
+0224594AR,Celtis australis,False,Pg Maragall,,19.3,median,15.72,check,,,,,1.0,floor
+0224595AR,Pinus halepensis,False,C\ Mas Pujol,16.98,10.96,ok,,large,430169.49,4586299.98,430186.46,4586300.35,1.5,class
+0224596AR,Ulmus pumila,False,C\ Verema,2.89,2.14,ok,,small,430123.62,4586283.0,430121.67,4586280.86,1.0,class
+0224597AR,Platanus × acerifolia,True,Pg Font de la Mulassa,6.25,5.28,ok,,large,430017.92,4585959.22,430011.77,4585960.33,1.5,class
+0224598AR,Styphnolobium japonicum,False,Av Frederic Rahola,,11.77,median,,check,,,,,1.0,floor
+0224599AR,Platanus × acerifolia,True,C\ Peris i Mencheta,5.84,5.11,ok,,medium,430050.4,4586468.8,430053.15,4586463.65,1.0,class
+0224600AR,Platanus × acerifolia,True,Pg Font d'en Fargas,16.61,15.58,ok,,large,430259.5,4586031.03,430243.05,4586033.28,1.5,class
+0224602AR,Platanus × acerifolia,True,Pg Font d'en Fargas,3.28,2.56,ok,,small,430242.99,4586095.81,430246.23,4586095.33,1.0,class
+0224604AR,Platanus × acerifolia,True,Pg Font d'en Fargas,16.26,15.35,ok,,large,430303.83,4586356.14,430287.73,4586358.37,1.5,class
+0224605AR,Styphnolobium japonicum,False,C\ Marquès de Foronda,2.5,1.98,ok,,small,429750.48,4586349.19,429750.2,4586351.68,1.0,class
+0224606AR,Platanus × acerifolia,True,Av Frederic Rahola,6.9,6.18,ok,,large,430562.7,4586243.26,430559.54,4586237.12,1.5,class
+0224607AR,Melia azedarach,False,Av Frederic Rahola,5.11,3.68,ok,,medium,430260.95,4586340.97,430265.6,4586343.09,1.0,class
+0224608AR,Cupressus sempervirens,False,C\ Aguilar,5.08,1.54,ok,,medium,430539.37,4586359.53,430534.28,4586359.4,1.0,class
+0224610AR,Robinia pseudoacacia,False,Ptge Pujolet,2.48,1.66,ok,,none,430105.91,4586142.33,430103.47,4586141.9,1.0,floor
+0224612AR,Celtis australis,False,Pg Maragall,5.41,4.76,ok,,medium,430508.68,4586528.32,430509.71,4586533.63,1.0,class
+0224613AR,Platanus × acerifolia,True,C\ Pedrell,6.61,5.74,ok,,large,429937.59,4586156.64,429940.89,4586150.9,1.5,class
+0224614AR,Catalpa bignonioides,False,C\ Alt de Pedrell,,12.17,median,11.3,check,,,,,1.0,floor
+0224615AR,Styphnolobium japonicum,False,C\ Pintor Pradilla,2.56,1.87,ok,,small,430353.21,4586083.85,430353.31,4586081.29,1.0,class
+0224616AR,Robinia pseudoacacia,False,C\ Pedrell,6.5,5.57,ok,,large,429961.75,4586163.1,429963.65,4586156.88,1.5,class
+0224617AR,Platanus × acerifolia,True,Pg Maragall,13.58,10.87,ok,,large,430402.65,4586541.64,430400.18,4586555.0,1.5,class
+0224618AR,Acer buergerianum,False,C\ Peris i Mencheta,5.82,3.7,ok,,medium,429942.41,4586352.72,429940.49,4586347.22,1.0,class
+0224619AR,Photinia x fraseri 'Red Robin',False,C\ Montserrat de Casanovas,3.3,2.68,ok,,small,430209.23,4586120.3,430208.69,4586123.55,1.0,class
+0224620AR,Quercus ilex,False,Pg Font d'en Fargas,,11.65,median,,check,,,,,1.0,floor
+0224621AR,Melia azedarach,False,Av Frederic Rahola,8.98,8.17,ok,,large,430240.58,4586485.03,430231.72,4586486.46,1.5,class
+0224623AR,Ulmus pumila,False,C\ Mossèn Josep Bundó,2.07,1.44,ok,,none,430260.83,4586471.76,430260.6,4586469.71,1.0,floor
+0224624AR,Citrus × aurantium,False,C\ Peris i Mencheta,4.73,3.82,ok,,medium,429970.69,4586383.09,429975.38,4586383.62,1.0,class
+0224625AR,Platanus × acerifolia,True,Av Frederic Rahola,6.49,5.66,ok,,large,430217.9,4586491.67,430224.27,4586490.45,1.5,class
+0224626AR,Platanus × acerifolia,True,C\ Pedrell,7.88,7.15,ok,,large,429906.6,4586148.67,429908.84,4586141.12,1.5,class
+0224629AR,Citrus × aurantium,False,C\ Mossèn Josep Bundó,5.02,4.57,ok,,medium,430134.74,4586443.75,430134.86,4586448.77,1.0,class
+0224630AR,Prunus cerasifera 'Pissardii',False,C\ Mossèn Josep Bundó,7.07,6.34,ok,,large,430414.71,4586519.37,430421.77,4586519.83,1.5,class
+0224631AR,Robinia pseudoacacia,False,C\ Montserrat de Casanovas,5.98,5.46,ok,,medium,430159.4,4586108.92,430158.33,4586114.8,1.0,class
+0224632AR,Platanus × acerifolia,True,Pg Font de la Mulassa,7.48,6.88,ok,,large,429941.24,4586216.62,429934.07,4586214.49,1.5,class
+0224633AR,Celtis australis,False,C\ Estoril,,9.67,median,,check,,,,,1.0,floor
+0224634AR,Styphnolobium japonicum,False,C\ Marquès de Foronda,4.99,4.28,ok,,medium,429778.64,4586349.62,429778.14,4586354.59,1.0,class
+0224635AR,Celtis australis,False,Pg Maragall,8.28,7.76,ok,,large,430247.64,4586566.56,430248.84,4586574.75,1.5,class
+0224636AR,Styphnolobium japonicum,False,C\ Pedrell,3.16,2.48,ok,,small,430139.63,4586191.2,430140.2,4586188.1,1.0,class
+0224637AR,Platanus × acerifolia,True,Pg Font d'en Fargas,13.01,12.12,ok,,large,430293.31,4586302.51,430280.44,4586304.43,1.5,class
+0224638AR,Styphnolobium japonicum,False,Bda Can Mateu,5.85,5.14,ok,,medium,430020.7,4586493.61,430017.71,4586488.58,1.0,class
+0224639AR,Populus nigra 'Italica',False,C\ Pedrell,7.73,6.26,ok,,large,430303.54,4586224.97,430304.9,4586217.36,1.5,class
+0224640AR,Platanus × acerifolia,True,Av Frederic Rahola,12.53,11.99,ok,,large,430192.72,4586440.66,430205.25,4586440.58,1.5,class
+0224641AR,Prunus cerasifera 'Pissardii',False,C\ Estoril,,12.72,median,30.28,check,,,,,1.0,floor
+0224642AR,Platanus × acerifolia,True,Pg Font d'en Fargas,7.45,6.56,ok,,large,430243.26,4586117.42,430249.52,4586121.46,1.5,class
+0224643AR,Styphnolobium japonicum,False,C\ Can Pujolet,6.57,5.73,ok,,large,430122.98,4586245.5,430116.41,4586245.67,1.5,class
+0224644AR,Celtis australis,False,Pg Maragall,9.36,8.89,ok,,large,430272.83,4586562.0,430276.84,4586570.47,1.5,class
+0224645AR,Platanus × acerifolia,True,Pg Font de la Mulassa,7.0,5.9,ok,,large,429961.54,4586142.38,429955.13,4586145.2,1.5,class
+0224646AR,Platanus × acerifolia,True,Pg Font d'en Fargas,5.46,4.76,ok,,medium,430242.49,4586109.14,430247.93,4586108.66,1.0,class
+0224647AR,Citrus × aurantium,False,C\ Mossèn Josep Bundó,4.63,4.05,ok,,medium,430139.91,4586444.08,430140.02,4586448.71,1.0,class
+0224648AR,Styphnolobium japonicum,False,C\ Marquès de Foronda,2.43,1.83,ok,,none,429719.41,4586354.36,429719.65,4586351.94,1.0,floor
+0224649AR,Styphnolobium japonicum,False,C\ Canonge Almera,6.44,5.95,ok,,large,430022.35,4586280.51,430015.91,4586280.25,1.5,class
+0224650AR,Styphnolobium japonicum,False,Bda Can Mateu,14.98,14.22,ok,,large,430007.77,4586517.61,429995.06,4586509.69,1.5,class
+0224651AR,Photinia x fraseri 'Red Robin',False,C\ Arc de Sant Martí,,12.37,median,,check,,,,,1.0,floor
+0224652AR,Ligustrum japonicum 'Texanum',False,C\ Arc de Sant Martí,4.59,3.67,ok,,medium,430596.05,4586458.86,430595.89,4586463.45,1.0,class
+0224653AR,Robinia pseudoacacia,False,Pg Font de la Mulassa,4.95,3.57,ok,,medium,429957.78,4586111.14,429961.49,4586107.86,1.0,class
+0224655AR,Citrus × aurantium,False,C\ Mossèn Josep Bundó,7.13,5.95,ok,,large,430160.33,4586445.96,430153.68,4586448.54,1.5,class
+0224656AR,Robinia pseudoacacia,False,C\ Marí,16.49,9.52,ok,,large,429898.15,4586067.64,429901.04,4586051.41,1.5,class
+0224657AR,Citrus × aurantium,False,Pg Font de la Mulassa,2.52,1.72,ok,,small,429984.32,4586024.72,429986.72,4586025.49,1.0,class
+0224658AR,Styphnolobium japonicum,False,C\ Ciències,6.85,4.46,ok,,large,429691.81,4586291.18,429685.03,4586290.26,1.5,class
+0224659AR,Celtis australis,False,Pg Maragall,10.16,8.97,ok,,large,430562.51,4586514.74,430558.46,4586524.06,1.5,class
+0224660AR,Platanus × acerifolia,True,Av Frederic Rahola,5.93,5.38,ok,,medium,430536.25,4586241.98,430538.54,4586247.45,1.0,class
+0224661AR,Prunus cerasifera 'Pissardii',False,C\ Mossèn Josep Bundó,7.34,6.57,ok,,large,430413.52,4586537.77,430420.84,4586538.24,1.5,class
+0224662AR,Platanus × acerifolia,True,Pg Font de la Mulassa,2.35,1.69,ok,,none,429918.65,4586239.97,429920.9,4586240.64,1.0,floor
+0224663AR,Styphnolobium japonicum,False,C\ Canonge Almera,7.38,6.88,ok,,large,430021.86,4586309.57,430014.49,4586309.26,1.5,class
+0224664AR,Styphnolobium japonicum,False,Bda Can Mateu,7.9,6.96,ok,,large,430031.3,4586486.8,430025.89,4586481.05,1.5,class
+0224666AR,Platanus × acerifolia,True,Av Frederic Rahola,8.9,8.03,ok,,large,430237.15,4586368.87,430237.76,4586359.99,1.5,class
+0224668AR,Platanus × acerifolia,True,C\ Mas Pujol,7.07,6.33,ok,,large,430223.05,4586336.96,430218.22,4586342.13,1.5,class
+0224669AR,Platanus × acerifolia,True,C\ Peris i Mencheta,5.43,4.82,ok,,medium,430148.23,4586546.92,430144.37,4586550.74,1.0,class
+0224670AR,Platanus × acerifolia,True,Pg Font d'en Fargas,23.88,3.41,ok,,large,430254.16,4586193.1,430272.47,4586208.43,1.5,class
+0224671AR,Prunus cerasifera 'Pissardii',False,C\ Mossèn Josep Bundó,,6.07,median,,check,,,,,1.0,floor
+0224672AR,Platanus × acerifolia,True,Pg Font d'en Fargas,,22.31,median,,check,,,,,1.0,floor
+0224674AR,Platanus × acerifolia,True,Av Frederic Rahola,6.27,5.49,ok,,large,430501.41,4586255.86,430503.79,4586261.67,1.5,class
+0224676AR,Ginkgo biloba,False,C\ Garriga i Roca,5.08,4.52,ok,,medium,430623.66,4586021.95,430618.69,4586023.01,1.0,class
+0224677AR,Platanus × acerifolia,True,Pg Font d'en Fargas,,12.44,median,,check,,,,,1.0,floor
+0224678AR,Acer buergerianum,False,C\ Peris i Mencheta,7.36,5.8,ok,,large,429886.51,4586309.03,429893.7,4586307.48,1.5,class
+0224679AR,Ginkgo biloba,False,C\ Garriga i Roca,4.62,4.03,ok,,medium,430593.69,4585940.2,430589.41,4585941.94,1.0,class
+0224680AR,Styphnolobium japonicum,False,Rbla Carmel,8.39,6.15,ok,,large,429668.31,4586008.92,429664.41,4586016.35,1.5,class
+0224681AR,Robinia pseudoacacia,False,C\ Canonge Almera,6.98,6.5,ok,,large,430021.22,4586321.48,430014.24,4586321.82,1.5,class
+0224682AR,Platanus × acerifolia,True,C\ Peris i Mencheta,7.47,6.26,ok,,large,430013.23,4586429.79,430020.66,4586430.58,1.5,class
+0224683AR,Pyrus calleryana 'Chanticleer',False,C\ Can Pujolet,5.65,4.86,ok,,medium,430109.94,4586429.69,430115.59,4586429.55,1.0,class
+0224684AR,Photinia x fraseri 'Red Robin',False,Pg Font de la Mulassa,4.9,4.13,ok,,medium,429968.3,4586118.88,429963.64,4586117.37,1.0,class
+0224685AR,Styphnolobium japonicum,False,C\ Marquès de Foronda,,5.76,median,,check,,,,,1.0,floor
+0224686AR,Styphnolobium japonicum 'Columnare',False,Pg Font de la Mulassa,5.81,4.96,ok,,medium,429934.76,4586175.55,429940.32,4586177.24,1.0,class
+0224687AR,Styphnolobium japonicum,False,C\ Pintor Pradilla,2.47,2.07,ok,,none,430389.17,4586085.25,430389.27,4586082.78,1.0,floor
+0224688AR,Hibiscus syriacus,False,C\ Marí,2.4,1.63,ok,,none,429825.5,4586270.33,429827.8,4586271.02,1.0,floor
+0224689AR,Platanus × acerifolia,True,Pg Font d'en Fargas,6.18,4.93,ok,,large,430228.21,4585987.64,430232.34,4585992.24,1.5,class
+0224690AR,Styphnolobium japonicum,False,C\ Montserrat de Casanovas,3.43,2.63,ok,,small,430194.15,4586129.58,430194.74,4586126.2,1.0,class
+0224691AR,Celtis australis,False,Pg Maragall,8.92,8.06,ok,,large,430697.29,4586475.58,430700.52,4586483.9,1.5,class
+0224693AR,Celtis australis,False,Pg Maragall,,9.37,median,4.17,check,,,,,1.0,floor
+0224694AR,Prunus cerasifera 'Pissardii',False,C\ Mossèn Josep Bundó,13.67,12.78,ok,,large,430355.0,4586458.32,430351.52,4586445.09,1.5,class
+0224695AR,Robinia pseudoacacia,False,C\ Marí,8.49,7.35,ok,,large,429885.86,4586116.78,429879.17,4586122.0,1.5,class
+0224696AR,Platanus × acerifolia,True,C\ Peris i Mencheta,10.73,8.22,ok,,large,430069.35,4586485.87,430079.06,4586490.45,1.5,class
+0224697AR,Citrus × aurantium,False,C\ Mossèn Josep Bundó,7.42,6.84,ok,,large,430207.64,4586460.35,430208.05,4586452.95,1.5,class
+0224699AR,Platanus × acerifolia,True,Pg Font d'en Fargas,18.48,16.9,ok,,large,430226.47,4585996.99,430235.31,4586013.22,1.5,class
+0224701AR,Celtis australis,False,Pg Maragall,8.76,7.96,ok,,large,430684.37,4586480.6,430687.54,4586488.77,1.5,class
+0224703AR,Robinia pseudoacacia,False,C\ Can Pujolet,6.82,6.06,ok,,large,430123.33,4586258.68,430116.51,4586258.86,1.5,class
+0224704AR,Platanus × acerifolia,True,Pg Font d'en Fargas,12.1,10.13,ok,,large,430267.46,4586283.41,430272.86,4586294.23,1.5,class
+0224705AR,Celtis australis,False,Pg Maragall,,9.41,median,4.55,check,,,,,1.0,floor
+0224707AR,Robinia pseudoacacia,False,C\ Montserrat de Casanovas,3.72,2.72,ok,,medium,430222.55,4586122.2,430221.88,4586125.86,1.0,class
+0224708AR,Ligustrum japonicum 'Texanum',False,Pg Font de la Mulassa,4.99,4.59,ok,,medium,429961.75,4586140.66,429956.97,4586139.21,1.0,class
+0224709AR,Ulmus pumila,False,C\ Verema,3.03,2.59,ok,,small,430031.06,4586267.45,430030.91,4586270.48,1.0,class
+0224711AR,Platanus × acerifolia,True,C\ Mas Pujol,6.46,5.67,ok,,large,430196.91,4586346.9,430195.91,4586340.52,1.5,class
+0224714AR,Catalpa bignonioides,False,C\ Alt de Pedrell,,15.47,median,6.65,check,,,,,1.0,floor
+0224716AR,Platanus × acerifolia,True,Av Frederic Rahola,10.91,9.88,ok,,large,430221.97,4586439.7,430220.85,4586450.55,1.5,class
+0224717AR,Robinia pseudoacacia,False,C\ Montserrat de Casanovas,7.73,7.17,ok,,large,430182.99,4586111.25,430181.66,4586118.86,1.5,class
+0224718AR,Pyrus calleryana 'Chanticleer',False,C\ Canonge Almera,6.99,6.56,ok,,large,430021.6,4586329.31,430014.62,4586329.65,1.5,class
+0224719AR,Platanus × acerifolia,True,Av Frederic Rahola,8.69,7.44,ok,,large,430237.91,4586516.94,430232.67,4586510.02,1.5,class
+0224720AR,Platanus × acerifolia,True,Pg Font d'en Fargas,3.74,2.62,ok,,medium,430254.73,4586184.56,430258.44,4586184.08,1.0,class
+0224722AR,Ligustrum japonicum 'Texanum',False,C\ Arc de Sant Martí,3.0,2.18,ok,,small,430762.9,4586339.66,430760.17,4586338.42,1.0,class
+0224723AR,Ligustrum japonicum 'Texanum',False,Ptge Pujolet,8.32,7.74,ok,,large,430108.6,4586160.65,430100.4,4586159.25,1.5,class
+0224724AR,Styphnolobium japonicum,False,C\ Marquès de Foronda,2.38,1.8,ok,,none,429744.17,4586356.85,429744.1,4586354.47,1.0,floor
+0224725AR,Melia azedarach,False,C\ Ciències,22.2,17.23,ok,,large,429713.84,4586143.25,429703.01,4586162.64,1.5,class
+0224727AR,Ginkgo biloba,False,C\ Pintor Pradilla,,12.2,median,20.69,check,,,,,1.0,floor
+0224728AR,Styphnolobium japonicum,False,C\ Can Pujolet,6.26,5.74,ok,,large,430123.61,4586296.72,430117.35,4586296.83,1.5,class
+0224729AR,Robinia pseudoacacia,False,C\ Montserrat de Casanovas,3.58,2.76,ok,,medium,430176.19,4586126.34,430175.45,4586122.84,1.0,class
+0224730AR,Styphnolobium japonicum,False,C\ Ciències,10.64,9.74,ok,,large,429705.74,4586189.64,429695.61,4586186.4,1.5,class
+0224731AR,Platanus × acerifolia,True,Av Frederic Rahola,6.1,5.41,ok,,large,430237.05,4586557.65,430231.02,4586558.54,1.5,class
+0224732AR,Prunus cerasifera 'Pissardii',False,C\ Pedrell,3.17,2.35,ok,,small,430201.42,4586202.15,430201.95,4586199.02,1.0,class
+0224733AR,Citrus × aurantium,False,C\ Comalada,4.94,3.74,ok,,medium,430841.51,4586260.48,430842.67,4586255.67,1.0,class
+0224734AR,Platanus × acerifolia,True,Pg Font de la Mulassa,6.72,6.12,ok,,large,429937.27,4586225.68,429931.92,4586221.6,1.5,class
+0224735AR,Robinia pseudoacacia,False,C\ Arc de Sant Martí,,14.7,median,,check,,,,,1.0,floor
+0224736AR,Styphnolobium japonicum,False,C\ Montserrat de Casanovas,16.79,13.42,ok,,large,430629.32,4586062.68,430617.19,4586051.07,1.5,class
+0224737AR,Platanus × acerifolia,True,Av Frederic Rahola,3.09,2.06,ok,,small,430234.27,4586527.68,430231.21,4586527.23,1.0,class
+0224738AR,Robinia pseudoacacia,False,Pg Font de la Mulassa,2.6,1.99,ok,,small,429956.18,4586116.44,429958.67,4586117.19,1.0,class
+0224739AR,Platanus × acerifolia,True,Av Frederic Rahola,6.26,5.52,ok,,large,430509.95,4586252.91,430510.65,4586259.13,1.5,class
+0224741AR,Platanus × acerifolia,True,Av Frederic Rahola,6.7,5.91,ok,,large,430530.87,4586244.24,430533.45,4586250.42,1.5,class
+0224742AR,Styphnolobium japonicum,False,Pg Font de la Mulassa,,8.22,median,,check,,,,,1.0,floor
+0224743AR,Platanus × acerifolia,True,Av Frederic Rahola,5.53,5.01,ok,,medium,430219.6,4586383.98,430214.54,4586381.72,1.0,class
+0224744AR,Platanus × acerifolia,True,Av Frederic Rahola,8.14,5.23,ok,,large,430416.25,4586287.2,430419.19,4586294.8,1.5,class
+0224745AR,Celtis australis,False,Pg Maragall,6.81,6.04,ok,,large,430151.73,4586587.34,430156.34,4586592.35,1.5,class
+0224746AR,Laurus nobilis,False,C\ Alt de Pedrell,13.05,7.93,ok,,large,430585.07,4586171.65,430572.15,4586173.51,1.5,class
+0224747AR,Ligustrum japonicum 'Texanum',False,Pg Font de la Mulassa,2.65,1.95,ok,,small,429975.61,4586052.99,429978.2,4586053.54,1.0,class
+0224748AR,Robinia pseudoacacia,False,C\ Marí,7.57,6.62,ok,,large,429883.64,4586062.31,429891.21,4586062.54,1.5,class
+0224749AR,Pyrus calleryana 'Chanticleer',False,C\ Dalmau de Creixell,,6.46,median,13.18,check,,,,,1.0,floor
+0224750AR,Robinia pseudoacacia,False,C\ Montserrat de Casanovas,7.27,6.78,ok,,large,430035.07,4586105.76,430036.45,4586098.63,1.5,class
+0224751AR,Platanus × acerifolia,True,Av Frederic Rahola,6.74,6.37,ok,,large,430213.49,4586404.19,430207.01,4586402.33,1.5,class
+0224752AR,Populus nigra 'Italica',False,C\ Pedrell,10.92,9.17,ok,,large,430289.93,4586224.8,430287.28,4586214.21,1.5,class
+0224753AR,Platanus × acerifolia,True,Pg Font d'en Fargas,,9.71,median,,check,,,,,1.0,floor
+0224755AR,Robinia pseudoacacia,False,C\ Can Pujolet,6.34,5.74,ok,,large,430121.99,4586215.87,430115.65,4586216.09,1.5,class
+0224756AR,Platanus × acerifolia,True,C\ Peris i Mencheta,2.22,1.77,ok,,none,430059.08,4586459.19,430057.49,4586460.74,1.0,floor
+0224757AR,Platanus × acerifolia,True,C\ Peris i Mencheta,,13.26,median,4.39,check,,,,,1.0,floor
+0224758AR,Platanus × acerifolia,True,Av Frederic Rahola,15.02,14.41,ok,,large,430335.88,4586347.99,430329.83,4586334.24,1.5,class
+0224760AR,Ginkgo biloba,False,C\ Pintor Pradilla,5.4,4.55,ok,,medium,430263.1,4586055.9,430262.15,4586061.21,1.0,class
+0224761AR,Platanus × acerifolia,True,Pg Font d'en Fargas,5.69,5.11,ok,,medium,430243.11,4586115.9,430248.77,4586115.32,1.0,class
+0224763AR,Robinia pseudoacacia,False,C\ Arc de Sant Martí,4.03,3.25,ok,,medium,430588.63,4586461.44,430589.96,4586465.25,1.0,class
+0224764AR,Celtis australis,False,Pg Maragall,10.03,9.41,ok,,large,430536.22,4586518.23,430538.06,4586528.09,1.5,class
+0224765AR,Platanus × acerifolia,True,Av Frederic Rahola,5.39,4.65,ok,,medium,430364.48,4586307.1,430366.31,4586312.17,1.0,class
+0224766AR,Celtis australis,False,Pg Maragall,9.98,9.39,ok,,large,430543.25,4586516.92,430545.09,4586526.72,1.5,class
+0224767AR,Ligustrum japonicum 'Texanum',False,C\ Montserrat de Casanovas,5.99,4.8,ok,,medium,430135.82,4586107.15,430130.49,4586109.87,1.0,class
+0224768AR,Platanus × acerifolia,True,Av Frederic Rahola,6.67,5.88,ok,,large,430478.02,4586286.01,430473.24,4586281.35,1.5,class
+0224769AR,Tilia x europaea,False,C\ Verema,5.75,4.86,ok,,medium,430141.41,4586270.34,430139.3,4586275.68,1.0,class
+0224770AR,Styphnolobium japonicum,False,C\ Marquès de Foronda,4.45,3.77,ok,,medium,429952.61,4586380.54,429953.08,4586376.11,1.0,class
+0224771AR,Platanus × acerifolia,True,C\ Mas Pujol,12.51,11.18,ok,,large,430187.36,4586340.89,430190.58,4586328.8,1.5,class
+0224772AR,Styphnolobium japonicum,False,C\ Canonge Almera,5.1,4.36,ok,,medium,430006.89,4586391.08,430011.95,4586390.43,1.0,class
+0224773AR,Acer buergerianum,False,C\ Peris i Mencheta,2.4,1.88,ok,,none,429952.56,4586349.11,429950.84,4586350.78,1.0,floor
+0224776AR,Photinia x fraseri 'Red Robin',False,C\ Montserrat de Casanovas,7.95,6.26,ok,,large,430294.7,4586150.16,430300.5,4586144.72,1.5,class
+0224777AR,Citrus × aurantium,False,C\ Marquès de Foronda,3.62,2.49,ok,,medium,429932.04,4586368.49,429928.92,4586370.32,1.0,class
+0224778AR,Hibiscus syriacus,False,C\ Verema,5.05,4.46,ok,,medium,430105.94,4586269.64,430107.9,4586274.28,1.0,class
+0224781AR,Prunus cerasifera 'Pissardii',False,C\ Pedrell,6.06,5.22,ok,,large,430011.05,4586153.2,430009.89,4586159.15,1.5,class
+0224782AR,Styphnolobium japonicum,False,C\ Montserrat de Casanovas,6.58,6.1,ok,,large,430116.02,4586119.06,430117.23,4586112.59,1.5,class
+0224783AR,Prunus cerasifera 'Pissardii',False,C\ Mossèn Josep Bundó,6.15,5.49,ok,,large,430432.55,4586529.58,430426.92,4586527.1,1.5,class
+0224784AR,Celtis australis,False,Pg Maragall,10.23,9.17,ok,,large,430675.34,4586483.94,430673.57,4586494.02,1.5,class
+0224785AR,Robinia pseudoacacia,False,C\ Pedrell,6.81,6.1,ok,,large,430219.38,4586189.49,430217.14,4586195.93,1.5,class
+0224786AR,Platanus × acerifolia,True,Av Frederic Rahola,,14.73,median,,check,,,,,1.0,floor
+0224787AR,Platanus × acerifolia,True,Pg Font d'en Fargas,,10.66,median,,check,,,,,1.0,floor
+0224788AR,Styphnolobium japonicum,False,C\ Marquès de Foronda,,9.07,median,9.74,check,,,,,1.0,floor
+0224789AR,Robinia pseudoacacia,False,C\ Montserrat de Casanovas,3.4,2.18,ok,,small,430000.34,4586082.01,430003.64,4586081.15,1.0,class
+0224790AR,Platanus × acerifolia,True,Pg Font d'en Fargas,,19.03,median,13.41,check,,,,,1.0,floor
+0224791AR,Platanus × acerifolia,True,C\ Peris i Mencheta,2.55,2.02,ok,,small,430132.73,4586535.06,430130.92,4586536.86,1.0,class
+0224792AR,Citrus × aurantium,False,C\ Mossèn Josep Bundó,4.69,4.17,ok,,medium,430144.86,4586443.96,430144.97,4586448.65,1.0,class
+0224793AR,Styphnolobium japonicum,False,C\ Marquès de Foronda,2.5,1.95,ok,,small,429737.34,4586348.08,429738.18,4586350.43,1.0,class
+0224794AR,Robinia pseudoacacia,False,C\ Montserrat de Casanovas,6.18,5.69,ok,,large,430019.42,4586101.96,430020.46,4586095.87,1.5,class
+0224796AR,Robinia pseudoacacia,False,C\ Marí,2.5,1.97,ok,,small,429837.21,4586266.41,429834.81,4586265.7,1.0,class
+0224797AR,Pyrus calleryana 'Chanticleer',False,Rbla Carmel,10.19,9.56,ok,,large,429689.11,4585926.18,429679.08,4585924.44,1.5,class
+0224798AR,Melia azedarach,False,Av Frederic Rahola,13.23,12.6,ok,,large,430264.57,4586359.8,430273.69,4586350.23,1.5,class
+0224799AR,Celtis australis,False,Pg Maragall,,19.45,median,,check,,,,,1.0,floor
+0224800AR,Styphnolobium japonicum,False,C\ Marquès de Foronda,8.76,8.1,ok,,large,429872.45,4586355.69,429872.66,4586364.44,1.5,class
+0224801AR,Photinia x fraseri 'Red Robin',False,C\ Montserrat de Casanovas,5.87,5.02,ok,,medium,430431.2,4586156.83,430430.16,4586162.61,1.0,class
+0224802AR,Photinia x fraseri 'Red Robin',False,Pg Font de la Mulassa,5.23,4.54,ok,,medium,429949.96,4586180.8,429945.14,4586178.78,1.0,class
+0224804AR,Ginkgo biloba,False,C\ Garriga i Roca,5.47,4.9,ok,,medium,430591.73,4585855.9,430593.38,4585850.69,1.0,class
+0224805AR,Styphnolobium japonicum,False,C\ Canonge Almera,5.04,4.43,ok,,medium,430006.5,4586244.91,430011.54,4586245.14,1.0,class
+0224806AR,Citrus × aurantium,False,Pg Font de la Mulassa,5.38,4.59,ok,,medium,429967.01,4586124.37,429961.64,4586123.95,1.0,class
+0224807AR,Platanus × acerifolia,True,Pg Font d'en Fargas,,10.38,median,,check,,,,,1.0,floor
+0224808AR,Ligustrum lucidum,False,Ptge Espiell,23.8,3.44,ok,,large,429710.62,4586229.38,429691.86,4586214.73,1.5,class
+0224809AR,Ulmus pumila,False,Rbla Carmel,7.31,6.73,ok,,large,429668.38,4586039.02,429661.15,4586037.99,1.5,class
+0224810AR,Platanus × acerifolia,True,Pg Font d'en Fargas,,11.62,median,,check,,,,,1.0,floor
+0224811AR,Prunus cerasifera 'Pissardii',False,C\ Mossèn Josep Bundó,7.14,6.5,ok,,large,430414.36,4586524.78,430421.48,4586525.24,1.5,class
+0224812AR,Photinia x fraseri 'Red Robin',False,Ptge Pujolet,2.46,1.81,ok,,none,430107.02,4586136.13,430104.59,4586135.69,1.0,floor
+0224813AR,Photinia x fraseri 'Red Robin',False,C\ Montserrat de Casanovas,6.46,5.91,ok,,large,430155.41,4586108.19,430152.05,4586113.72,1.5,class
+0224814AR,Pyrus calleryana 'Chanticleer',False,Rbla Carmel,8.65,7.68,ok,,large,429678.51,4585964.61,429671.63,4585969.86,1.5,class
+0224815AR,Pyrus calleryana 'Chanticleer',False,C\ Can Pujolet,5.69,4.98,ok,,medium,430110.15,4586438.25,430115.84,4586438.11,1.0,class
+0224816AR,Styphnolobium japonicum,False,C\ Canonge Almera,5.06,4.42,ok,,medium,430025.58,4586176.22,430020.54,4586175.76,1.0,class
+0224817AR,Citrus × aurantium,False,C\ Comalada,4.8,4.11,ok,,medium,430814.36,4586209.77,430818.65,4586207.62,1.0,class
+0224818AR,Styphnolobium japonicum,False,C\ Ciències,20.82,18.89,ok,,large,429706.29,4586187.9,429701.47,4586167.65,1.5,class
+0224820AR,Citrus × aurantium,False,C\ Mossèn Josep Bundó,2.64,2.13,ok,,small,430160.33,4586445.96,430159.5,4586448.46,1.0,class
+0224821AR,Celtis australis,False,Pg Maragall,,11.81,median,,check,,,,,1.0,floor
+0224822AR,Prunus cerasifera 'Pissardii',False,C\ Mossèn Josep Bundó,9.17,8.34,ok,,large,430414.72,4586519.21,430421.84,4586513.43,1.5,class
+0224824AR,Platanus × acerifolia,True,C\ Pedrell,3.38,2.38,ok,,small,429931.14,4586151.04,429933.56,4586148.69,1.0,class
+0224825AR,Prunus cerasifera 'Pissardii',False,C\ Estoril,,14.59,median,28.75,check,,,,,1.0,floor
+0224826AR,Platanus × acerifolia,True,Pg Font d'en Fargas,3.9,3.29,ok,,medium,430276.82,4586248.95,430272.96,4586249.49,1.0,class
+0224827AR,Citrus × aurantium,False,Pg Font de la Mulassa,5.22,4.57,ok,,medium,429947.98,4586187.08,429943.0,4586185.51,1.0,class
+0224828AR,Platanus × acerifolia,True,Pg Font d'en Fargas,17.11,16.39,ok,,large,430261.63,4586337.11,430278.74,4586337.37,1.5,class
+0224829AR,Celtis australis,False,C\ Estoril,3.01,2.44,ok,,small,430078.33,4586549.72,430076.27,4586547.53,1.0,class
+0224830AR,Platanus × acerifolia,True,Pg Font d'en Fargas,4.48,3.17,ok,,medium,430242.27,4586090.92,430245.25,4586087.57,1.0,class
+0224831AR,Pyrus calleryana 'Chanticleer',False,C\ Can Pujolet,4.82,4.13,ok,,medium,430108.86,4586352.34,430113.67,4586352.25,1.0,class
+0224832AR,Pyrus calleryana 'Chanticleer',False,Rbla Carmel,10.22,9.6,ok,,large,429688.24,4585931.2,429678.18,4585929.47,1.5,class
+0224835AR,Platanus × acerifolia,True,C\ Peris i Mencheta,4.11,2.62,ok,,medium,430058.02,4586472.36,430057.61,4586468.26,1.0,class
+0224836AR,Platanus × acerifolia,True,Av Frederic Rahola,5.92,5.17,ok,,medium,430323.62,4586321.79,430327.02,4586326.64,1.0,class
+0224837AR,Celtis australis,False,Pg Maragall,6.43,5.45,ok,,large,430292.96,4586563.39,430289.78,4586568.98,1.5,class
+0224838AR,Platanus × acerifolia,True,Pg Font d'en Fargas,3.46,2.63,ok,,small,430251.83,4586162.1,430255.26,4586161.65,1.0,class
+0224840AR,Platanus × acerifolia,True,C\ Can Pujolet,8.87,8.36,ok,,large,430101.96,4586231.49,430110.65,4586229.68,1.5,class
+0224841AR,Platanus × acerifolia,True,Av Frederic Rahola,6.5,5.61,ok,,large,430466.92,4586290.06,430467.24,4586283.57,1.5,class
+0224843AR,Pyrus calleryana 'Chanticleer',False,C\ Can Pujolet,5.49,4.63,ok,,medium,430107.33,4586321.36,430112.82,4586321.16,1.0,class
+0224844AR,Platanus × acerifolia,True,Av Frederic Rahola,5.98,5.08,ok,,medium,430222.75,4586379.78,430219.02,4586375.11,1.0,class
+0224845AR,Robinia pseudoacacia,False,C\ Montserrat de Casanovas,5.38,4.97,ok,,medium,430134.4,4586121.03,430136.18,4586115.95,1.0,class
+0224846AR,Styphnolobium japonicum,False,C\ Montserrat de Casanovas,4.95,4.42,ok,,medium,430308.69,4586136.03,430307.76,4586140.89,1.0,class
+0224847AR,Styphnolobium japonicum,False,C\ Can Pujolet,4.82,4.03,ok,,medium,430112.76,4586456.51,430116.14,4586453.07,1.0,class
+0224848AR,Platanus × acerifolia,True,Pg Font d'en Fargas,4.64,3.89,ok,,medium,430265.32,4586266.72,430268.56,4586263.4,1.0,class
+0224849AR,Robinia pseudoacacia,False,C\ Montserrat de Casanovas,2.62,1.94,ok,,small,430300.84,4586137.09,430301.21,4586139.69,1.0,class
+0224851AR,Platanus × acerifolia,True,C\ Peris i Mencheta,8.99,8.22,ok,,large,429901.5,4586317.54,429910.41,4586316.33,1.5,class
+0224852AR,Citrus × aurantium,False,C\ Marquès de Foronda,5.25,4.65,ok,,medium,429721.09,4586343.39,429720.23,4586348.57,1.0,class
+0224853AR,Platanus × acerifolia,True,Av Frederic Rahola,5.65,5.13,ok,,medium,430552.78,4586196.22,430558.23,4586194.73,1.0,class
+0224854AR,Platanus × acerifolia,True,Pg Font d'en Fargas,14.77,13.97,ok,,large,430289.37,4586520.93,430304.08,4586522.19,1.5,class
+0224855AR,Platanus × acerifolia,True,Pg Font d'en Fargas,,10.61,median,,check,,,,,1.0,floor
+0224856AR,Celtis australis,False,Pg Maragall,7.04,4.45,ok,,large,430495.75,4586530.85,430497.11,4586537.76,1.5,class
+0224857AR,Robinia pseudoacacia,False,Pg Font d'en Fargas,16.29,15.72,ok,,large,430304.88,4586363.5,430288.73,4586365.66,1.5,class
+0224858AR,Melia azedarach,False,Av Frederic Rahola,5.45,4.79,ok,,medium,430358.49,4586309.27,430360.35,4586314.4,1.0,class
+0224860AR,Platanus × acerifolia,True,C\ Pedrell,9.92,9.02,ok,,large,429711.13,4586064.21,429708.17,4586073.68,1.5,class
+0224861AR,Platanus × acerifolia,True,Pg Font d'en Fargas,13.08,12.37,ok,,large,430305.7,4586408.29,430293.81,4586402.84,1.5,class
+0224863AR,Pyrus calleryana 'Chanticleer',False,C\ Canonge Almera,2.1,1.4,ok,,none,430010.88,4586210.17,430012.97,4586210.25,1.0,floor
+0224865AR,Hibiscus syriacus,False,C\ Verema,3.58,2.96,ok,,medium,430034.08,4586267.61,430035.83,4586270.73,1.0,class
+0224868AR,Platanus × acerifolia,True,Pg Font d'en Fargas,4.15,3.54,ok,,medium,430300.94,4586425.02,430296.81,4586424.53,1.0,class
+0224869AR,Platanus × acerifolia,True,C\ Peris i Mencheta,2.87,2.27,ok,,small,430099.94,4586516.18,430102.0,4586514.18,1.0,class
+0224871AR,Ginkgo biloba,False,C\ Pintor Pradilla,,13.46,median,3.32,check,,,,,1.0,floor
+0224872AR,Platanus × acerifolia,True,Av Frederic Rahola,12.83,12.03,ok,,large,430210.52,4586549.15,430222.44,4586553.9,1.5,class
+0224874AR,Platanus × acerifolia,True,Pg Font de la Mulassa,7.84,7.31,ok,,large,429944.43,4586205.92,429938.05,4586201.36,1.5,class
+0224875AR,Platanus × acerifolia,True,Pg Font d'en Fargas,6.7,5.72,ok,,large,430287.76,4586451.33,430294.38,4586450.34,1.5,class
+0224876AR,Styphnolobium japonicum,False,C\ Peris i Mencheta,2.36,1.83,ok,,none,429846.01,4586285.81,429845.35,4586288.08,1.0,floor
+0224877AR,Styphnolobium japonicum,False,C\ Montserrat de Casanovas,19.94,18.84,ok,,large,430607.34,4586071.22,430612.37,4586051.92,1.5,class
+0224879AR,Robinia pseudoacacia,False,C\ Montserrat de Casanovas,3.7,2.98,ok,,medium,430100.4,4586100.93,430099.76,4586104.57,1.0,class
+0224881AR,Platanus × acerifolia,True,Pg Font de la Mulassa,4.69,3.51,ok,,medium,429902.65,4586292.26,429903.34,4586296.9,1.0,class
+0224882AR,Platanus × acerifolia,True,Pg Font d'en Fargas,18.09,14.88,ok,,large,430303.2,4586544.14,430304.62,4586526.1,1.5,class
+0224884AR,Celtis australis,False,Pg Maragall,13.84,12.38,ok,,large,430575.96,4586512.04,430588.35,4586518.19,1.5,class
+0224885AR,Acer platanoides 'Crimson King',False,C\ Trèvol,4.46,3.93,ok,,medium,430431.29,4586443.58,430434.05,4586440.07,1.0,class
+0224886AR,Parrotia persica 'Vanessa',False,C\ Pintor Pradilla,,10.9,median,11.25,check,,,,,1.0,floor
+0224887AR,Celtis australis,False,Pg Maragall,11.15,10.23,ok,,large,430749.33,4586453.53,430753.28,4586463.96,1.5,class
+0224888AR,Platanus × acerifolia,True,Av Frederic Rahola,12.78,11.54,ok,,large,430218.76,4586496.17,430225.06,4586507.29,1.5,class
+0224889AR,Pyrus calleryana 'Chanticleer',False,C\ Can Pujolet,10.17,8.95,ok,,large,430108.28,4586370.5,430114.36,4586378.65,1.5,class
+0224890AR,Platanus × acerifolia,True,Av Frederic Rahola,7.45,6.92,ok,,large,430239.82,4586495.1,430232.46,4586493.98,1.5,class
+0224891AR,Platanus × acerifolia,True,Av Frederic Rahola,7.59,6.7,ok,,large,430525.22,4586269.35,430519.57,4586264.27,1.5,class
+0224894AR,Platanus × acerifolia,True,Pg Font d'en Fargas,14.32,13.43,ok,,large,430323.98,4586533.65,430310.91,4586527.82,1.5,class
+0224895AR,Ginkgo biloba,False,C\ Pintor Pradilla,6.1,5.48,ok,,large,430322.5,4586082.99,430323.64,4586076.99,1.5,class
+0224896AR,Acer buergerianum,False,C\ Peris i Mencheta,3.75,2.78,ok,,medium,430066.76,4586483.13,430069.49,4586480.55,1.0,class
+0224897AR,Hibiscus syriacus,False,C\ Marí,5.71,5.02,ok,,medium,429877.87,4586086.56,429883.33,4586088.23,1.0,class
+0224898AR,Pyrus calleryana 'Chanticleer',False,C\ Can Pujolet,7.09,6.21,ok,,large,430109.18,4586403.33,430114.8,4586399.0,1.5,class
+0224899AR,Platanus × acerifolia,True,C\ Pedrell,6.35,5.53,ok,,large,429859.2,4586131.72,429858.0,4586125.48,1.5,class
+0224900AR,Jacaranda mimosifolia,False,Ptge Espiell,22.42,12.75,ok,,large,429710.62,4586229.38,429692.12,4586216.71,1.5,class
+0224902AR,Platanus × acerifolia,True,C\ Peris i Mencheta,2.33,1.82,ok,,none,430084.98,4586485.95,430083.29,4586487.56,1.0,floor
+0224903AR,Platanus × acerifolia,True,Av Frederic Rahola,6.62,5.92,ok,,large,430515.4,4586272.86,430513.25,4586266.6,1.5,class
+0224904AR,Ligustrum japonicum 'Texanum',False,Pg Font de la Mulassa,2.74,1.82,ok,,small,429963.01,4586094.56,429964.92,4586096.52,1.0,class
+0224906AR,Quercus ilex,False,Pg Font d'en Fargas,23.74,13.29,ok,,large,430282.22,4586154.11,430258.84,4586150.01,1.5,class
+0224907AR,Platanus × acerifolia,True,Av Frederic Rahola,7.53,6.67,ok,,large,430213.85,4586476.69,430221.12,4586474.74,1.5,class
+0224908AR,Styphnolobium japonicum,False,C\ Can Pujolet,5.63,4.88,ok,,medium,430109.77,4586422.59,430115.36,4586421.91,1.0,class
+0224909AR,Acer saccharinum,False,C\ Peris i Mencheta,5.18,4.53,ok,,medium,429873.25,4586290.79,429871.8,4586295.76,1.0,class
+0224910AR,Robinia pseudoacacia,False,C\ Montserrat de Casanovas,4.03,3.13,ok,,medium,429998.7,4586069.58,430002.72,4586069.45,1.0,class
+0224911AR,Ligustrum japonicum 'Texanum',False,Ptge Pujolet,5.67,4.9,ok,,medium,430094.47,4586133.05,430099.23,4586136.14,1.0,class
+0224912AR,Styphnolobium japonicum,False,Pg Font de la Mulassa,6.76,6.1,ok,,large,429955.92,4586166.32,429949.46,4586164.35,1.5,class
+0224913AR,Styphnolobium japonicum,False,Bda Can Mateu,6.22,5.57,ok,,large,430018.43,4586495.8,430012.84,4586493.09,1.5,class
+0224914AR,Celtis australis,False,C\ Estoril,2.99,2.41,ok,,small,430085.54,4586542.93,430083.49,4586540.75,1.0,class
+0224915AR,Platanus × acerifolia,True,Pg Font d'en Fargas,14.94,14.07,ok,,large,430253.35,4586016.75,430242.19,4586026.69,1.5,class
+0224916AR,Platanus × acerifolia,True,Pg Font d'en Fargas,,12.86,median,,check,,,,,1.0,floor
+0224917AR,Photinia x fraseri 'Red Robin',False,Ptge Pujolet,2.5,1.86,ok,,small,430091.85,4586163.79,430094.31,4586164.24,1.0,class
+0224918AR,Robinia pseudoacacia,False,C\ Pedrell,3.05,2.23,ok,,small,429760.93,4586098.83,429761.79,4586095.91,1.0,class
+0224919AR,Acer buergerianum,False,C\ Peris i Mencheta,6.79,5.85,ok,,large,429873.59,4586308.31,429877.81,4586303.0,1.5,class
+0224920AR,Platanus × acerifolia,True,Pg Font de la Mulassa,2.49,1.79,ok,,none,429909.95,4586268.37,429912.33,4586269.11,1.0,floor
+0224921AR,Platanus × acerifolia,True,C\ Peris i Mencheta,2.71,2.21,ok,,small,429983.56,4586381.12,429981.61,4586383.0,1.0,class
+0224922AR,Robinia pseudoacacia,False,C\ Canonge Almera,,8.64,median,27.43,check,,,,,1.0,floor
+0224924AR,Robinia pseudoacacia,False,C\ Pedrell,3.78,2.89,ok,,medium,430189.57,4586187.85,430191.13,4586191.29,1.0,class
+0224928AR,Prunus cerasifera 'Pissardii',False,C\ Pedrell,8.45,7.63,ok,,large,430025.58,4586176.22,430025.55,4586167.77,1.5,class
+0224929AR,Ligustrum japonicum 'Texanum',False,C\ Arc de Sant Martí,,8.63,median,28.11,check,,,,,1.0,floor
+0224931AR,Pyrus calleryana 'Chanticleer',False,C\ Canonge Almera,5.9,2.55,ok,,medium,430009.27,4586368.83,430010.54,4586363.08,1.0,class
+0224932AR,Platanus × acerifolia,True,C\ Peris i Mencheta,6.05,5.16,ok,,large,430003.55,4586397.84,430001.3,4586403.46,1.5,class
+0224933AR,Robinia pseudoacacia,False,C\ Pedrell,3.12,2.41,ok,,small,430131.19,4586189.65,430131.41,4586186.54,1.0,class
+0224934AR,Platanus × acerifolia,True,C\ Peris i Mencheta,2.78,1.85,ok,,small,430116.76,4586533.46,430118.75,4586531.53,1.0,class
+0224935AR,Platanus × acerifolia,True,Av Frederic Rahola,,14.0,median,3.15,check,,,,,1.0,floor
+0224937AR,Platanus × acerifolia,True,Pg Font de la Mulassa,2.42,1.87,ok,,none,429903.8,4586288.47,429906.12,4586289.17,1.0,floor
+0224938AR,Celtis australis,False,Pg Maragall,5.33,4.63,ok,,medium,430480.83,4586533.79,430481.87,4586539.02,1.0,class
+0224939AR,Photinia x fraseri 'Red Robin',False,Pg Font de la Mulassa,2.43,1.63,ok,,none,429986.46,4586018.06,429988.78,4586018.8,1.0,floor
+0224940AR,Acer buergerianum,False,C\ Peris i Mencheta,2.89,2.11,ok,,small,430129.91,4586546.97,430132.51,4586545.69,1.0,class
+0224942AR,Styphnolobium japonicum,False,Pg Font de la Mulassa,2.53,1.89,ok,,small,429922.77,4586226.1,429925.2,4586226.82,1.0,class
+0224943AR,Prunus cerasifera 'Pissardii',False,C\ Pedrell,8.33,7.46,ok,,large,430212.73,4586186.72,430210.55,4586194.77,1.5,class
+0224945AR,Platanus × acerifolia,True,C\ Pedrell,5.6,1.73,ok,,medium,430245.93,4586197.87,430245.11,4586203.41,1.0,class
+0224946AR,Styphnolobium japonicum,False,C\ Ciències,12.18,7.69,ok,,large,429691.7,4586292.01,429682.69,4586300.21,1.5,class
+0224947AR,Platanus × acerifolia,True,C\ Mas Pujol,5.57,4.93,ok,,medium,430207.71,4586351.07,430210.12,4586346.05,1.0,class
+0224948AR,Platanus × acerifolia,True,C\ Peris i Mencheta,5.17,4.71,ok,,medium,430049.39,4586444.92,430045.69,4586448.53,1.0,class
+0224950AR,Celtis australis,False,Pg Maragall,6.97,5.71,ok,,large,430780.66,4586447.72,430778.56,4586454.37,1.5,class
+0224951AR,Firmiana simplex,False,Pg Font d'en Fargas,16.16,15.54,ok,,large,430302.96,4586349.82,430286.86,4586351.26,1.5,class
+0224952AR,Robinia pseudoacacia,False,C\ Marí,6.9,5.91,ok,,large,429890.75,4586040.74,429896.89,4586043.88,1.5,class
+0224953AR,Ligustrum japonicum 'Texanum',False,Pg Font de la Mulassa,,8.32,median,,check,,,,,1.0,floor
+0224954AR,Platanus × acerifolia,True,C\ Mas Pujol,12.59,12.0,ok,,large,430177.71,4586326.66,430189.73,4586322.92,1.5,class
+0224955AR,Styphnolobium japonicum,False,C\ Peris i Mencheta,,10.82,median,,check,,,,,1.0,floor
+0224956AR,Platanus × acerifolia,True,Pg Font d'en Fargas,6.78,5.44,ok,,large,430226.54,4585975.68,430229.08,4585969.39,1.5,class
+0224957AR,Ligustrum japonicum 'Texanum',False,C\ Montserrat de Casanovas,4.5,3.65,ok,,medium,430145.09,4586108.77,430147.03,4586112.83,1.0,class
+0224958AR,Ulmus pumila,False,Rbla Carmel,4.79,3.82,ok,,medium,429665.44,4586029.14,429661.96,4586032.42,1.0,class
+0224959AR,Platanus × acerifolia,True,Av Frederic Rahola,8.92,7.96,ok,,large,430544.84,4586231.96,430546.7,4586240.67,1.5,class
+0224960AR,Ulmus pumila,False,C\ Maurici Vilomara,,31.88,no_facade,10.78,check,,,,,1.0,floor
+0224963AR,Styphnolobium japonicum,False,C\ Can Pujolet,4.08,3.21,ok,,medium,430113.37,4586458.65,430116.28,4586461.51,1.0,class
+0224964AR,Platanus × acerifolia,True,Pg Font d'en Fargas,6.86,5.95,ok,,large,430226.47,4585996.99,430233.19,4585998.37,1.5,class
+0224966AR,Platanus × acerifolia,True,Av Frederic Rahola,,13.46,median,2.87,check,,,,,1.0,floor
+0224967AR,Hibiscus syriacus,False,C\ Verema,3.01,2.57,ok,,small,430025.27,4586267.15,430025.12,4586270.16,1.0,class
+0224968AR,Catalpa bignonioides,False,Rbla Carmel,4.48,3.43,ok,,medium,429678.06,4585958.26,429673.59,4585957.88,1.0,class
+0224969AR,Robinia pseudoacacia,False,C\ Marí,2.44,1.55,ok,,none,429827.95,4586262.19,429830.28,4586262.9,1.0,floor
+0224973AR,Populus nigra 'Italica',False,C\ Pedrell,,9.74,median,,check,,,,,1.0,floor
+0224974AR,Populus nigra 'Italica',False,C\ Pedrell,7.74,6.11,ok,,large,430293.8,4586223.24,430295.16,4586215.62,1.5,class
+0224975AR,Celtis australis,False,Pg Maragall,7.95,7.2,ok,,large,430604.97,4586506.77,430606.76,4586514.52,1.5,class
+0224976AR,Styphnolobium japonicum,False,Pg Font d'en Fargas,,9.2,median,,check,,,,,1.0,floor
+0224977AR,Photinia x fraseri 'Red Robin',False,C\ Montserrat de Casanovas,3.39,2.57,ok,,small,430002.01,4586087.35,430005.19,4586086.17,1.0,class
+0224978AR,Styphnolobium japonicum,False,C\ Pintor Pradilla,2.51,1.99,ok,,small,430365.31,4586084.32,430365.41,4586081.82,1.0,class
+0224979AR,Citrus × aurantium,False,C\ Mossèn Josep Bundó,4.13,3.63,ok,,medium,430149.57,4586457.78,430149.87,4586453.66,1.0,class
+0224980AR,Acer buergerianum,False,C\ Peris i Mencheta,7.47,8.28,ok,,large,429863.99,4586291.09,429863.06,4586298.5,1.5,class
+0224981AR,Celtis australis,False,Pg Maragall,9.28,7.89,ok,,large,430480.36,4586533.88,430473.95,4586540.59,1.5,class
+0224983AR,Ligustrum japonicum 'Texanum',False,C\ Arc de Sant Martí,5.84,5.18,ok,,medium,430605.35,4586453.76,430607.64,4586459.13,1.0,class
+0224984AR,Celtis australis,False,Pg Maragall,5.72,5.43,ok,,medium,430301.53,4586561.93,430303.49,4586567.31,1.0,class
+0224986AR,Styphnolobium japonicum,False,C\ Marquès de Foronda,,6.41,median,16.81,check,,,,,1.0,floor
+0224987AR,Robinia pseudoacacia,False,C\ Camil Oliveras,,3.45,no_kerb,,check,,,,,1.0,floor
+0224988AR,Prunus cerasifera 'Pissardii',False,C\ Mossèn Josep Bundó,6.5,5.83,ok,,large,430432.97,4586531.88,430426.58,4586533.07,1.5,class
+0224989AR,Melia azedarach,False,C\ Ciències,7.26,6.51,ok,,large,429695.88,4586263.63,429689.86,4586267.69,1.5,class
+0224991AR,Photinia x fraseri 'Red Robin',False,C\ Montserrat de Casanovas,3.45,2.78,ok,,small,430200.5,4586130.68,430201.09,4586127.28,1.0,class
+0224992AR,Robinia pseudoacacia,False,C\ Pedrell,3.24,2.29,ok,,small,430193.37,4586200.78,430193.91,4586197.59,1.0,class
+0224993AR,Platanus × acerifolia,True,C\ Peris i Mencheta,,10.65,median,3.92,check,,,,,1.0,floor
+0224994AR,Robinia pseudoacacia,False,C\ Pedrell,3.1,1.97,ok,,small,429820.0,4586104.63,429819.09,4586107.6,1.0,class
+0224995AR,Hibiscus syriacus,False,C\ Verema,2.15,1.56,ok,,none,430035.18,4586278.73,430036.21,4586276.83,1.0,floor
+0224996AR,Platanus × acerifolia,True,Pg Font d'en Fargas,13.15,12.24,ok,,large,430294.28,4586308.96,430281.42,4586311.69,1.5,class
+0224997AR,Platanus × acerifolia,True,C\ Peris i Mencheta,2.48,1.97,ok,,none,430127.96,4586530.27,430126.2,4586532.01,1.0,floor
+0224998AR,Celtis australis,False,Pg Maragall,9.03,8.5,ok,,large,430254.87,4586564.65,430256.19,4586573.59,1.5,class
+0224999AR,Hibiscus syriacus,False,C\ Verema,2.05,1.39,ok,,none,430127.74,4586283.21,430127.84,4586281.16,1.0,floor
+0225001AR,Celtis australis,False,Pg Maragall,5.58,4.85,ok,,medium,430803.62,4586438.88,430805.62,4586444.09,1.0,class
+0225003AR,Robinia pseudoacacia,False,C\ Peris i Mencheta,2.37,1.79,ok,,none,429839.56,4586283.92,429838.9,4586286.2,1.0,floor
+0225004AR,Celtis australis,False,Pg Maragall,5.65,4.97,ok,,medium,430836.68,4586426.36,430838.64,4586431.66,1.0,class
+0225005AR,Styphnolobium japonicum,False,Pg Font de la Mulassa,5.64,4.81,ok,,medium,429973.16,4586105.53,429967.74,4586103.92,1.0,class
+0225006AR,Robinia pseudoacacia,False,C\ Can Pujolet,5.89,5.15,ok,,medium,430108.27,4586370.13,430114.16,4586370.0,1.0,class
+0225007AR,Styphnolobium japonicum,False,C\ Ciències,10.24,9.23,ok,,large,429693.55,4586310.29,429683.43,4586308.77,1.5,class
+0225008AR,Robinia pseudoacacia,False,C\ Montserrat de Casanovas,3.73,2.98,ok,,medium,430105.97,4586101.9,430105.33,4586105.58,1.0,class
+0225009AR,Platanus × acerifolia,True,Av Frederic Rahola,8.91,8.18,ok,,large,430192.62,4586389.89,430201.36,4586391.62,1.5,class
+0225010AR,Prunus cerasifera 'Pissardii',False,Pg Font d'en Fargas,6.09,5.44,ok,,large,430250.13,4586214.03,430255.27,4586210.76,1.5,class
+0225011AR,Acer buergerianum,False,C\ Peris i Mencheta,5.21,4.0,ok,,medium,429863.99,4586291.09,429867.82,4586294.62,1.0,class
+0225012AR,Photinia x fraseri 'Red Robin',False,Ptge Pujolet,5.36,4.69,ok,,medium,430095.1,4586129.41,430100.38,4586130.31,1.0,class
+0225014AR,Prunus cerasifera 'Pissardii',False,C\ Pedrell,6.12,5.26,ok,,large,429893.19,4586142.68,429895.5,4586137.02,1.5,class
+0225015AR,Styphnolobium japonicum,False,Pg Font d'en Fargas,10.93,8.76,ok,,large,430303.2,4586544.14,430305.65,4586533.48,1.5,class
+0225018AR,Acer buergerianum,False,C\ Peris i Mencheta,6.03,5.54,ok,,large,430097.2,4586493.42,430092.89,4586497.64,1.5,class
+0225020AR,Platanus × acerifolia,True,Av Frederic Rahola,9.68,9.1,ok,,large,430571.06,4586236.44,430562.24,4586232.47,1.5,class
+0225021AR,Styphnolobium japonicum,False,C\ Marquès de Foronda,7.73,6.72,ok,,large,429813.59,4586350.97,429815.56,4586358.45,1.5,class
+0225023AR,Photinia x fraseri 'Red Robin',False,Pg Font de la Mulassa,7.34,6.6,ok,,large,429946.93,4586190.44,429940.39,4586193.76,1.5,class
+0225024AR,Styphnolobium japonicum,False,C\ Peris i Mencheta,6.51,5.77,ok,,large,429996.42,4586412.61,429997.11,4586406.14,1.5,class
+0225025AR,Platanus × acerifolia,True,Pg Font d'en Fargas,13.17,12.63,ok,,large,430295.4,4586316.87,430282.37,4586318.82,1.5,class
+0225026AR,Firmiana simplex,False,C\ Mas Pujol,11.98,11.06,ok,,large,430204.74,4586326.11,430204.53,4586338.09,1.5,class
+0225027AR,Robinia pseudoacacia,False,C\ Montserrat de Casanovas,3.35,2.6,ok,,small,430215.07,4586121.27,430214.52,4586124.57,1.0,class
+0225028AR,Platanus × acerifolia,True,Pg Font d'en Fargas,19.95,18.8,ok,,large,430323.98,4586533.65,430309.82,4586519.6,1.5,class
+0225029AR,Platanus × acerifolia,True,C\ Peris i Mencheta,3.9,3.27,ok,,medium,429935.71,4586329.61,429932.76,4586332.15,1.0,class
+0225031AR,Robinia pseudoacacia,False,C\ Marí,2.45,1.98,ok,,none,429838.84,4586260.97,429836.49,4586260.26,1.0,floor
+0225032AR,Celtis australis,False,Pg Maragall,,19.23,median,22.98,check,,,,,1.0,floor
+0225033AR,Platanus × acerifolia,True,C\ Pedrell,7.3,3.57,ok,,large,430249.69,4586197.48,430253.53,4586203.68,1.5,class
+0225034AR,Styphnolobium japonicum,False,C\ Marquès de Foronda,2.42,1.86,ok,,none,429725.8,4586355.01,429726.05,4586352.6,1.0,floor
+0225035AR,Platanus × acerifolia,True,Pg Font d'en Fargas,6.72,5.8,ok,,large,430286.77,4586444.7,430293.42,4586443.7,1.5,class
+0225036AR,Ginkgo biloba,False,C\ Pintor Pradilla,8.16,7.4,ok,,large,430296.36,4586080.37,430295.79,4586072.23,1.5,class
+0225037AR,Ginkgo biloba,False,C\ Garriga i Roca,2.39,1.91,ok,,none,430570.55,4585883.81,430568.24,4585883.19,1.0,floor
+0225038AR,Robinia pseudoacacia,False,C\ Peris i Mencheta,2.35,1.83,ok,,none,429852.32,4586287.66,429851.65,4586289.92,1.0,floor
+0225040AR,Platanus × acerifolia,True,Pg Font d'en Fargas,3.51,2.76,ok,,medium,430252.57,4586167.82,430256.05,4586167.37,1.0,class
+0225041AR,Melia azedarach,False,Pg Font d'en Fargas,11.96,7.35,ok,,large,430326.75,4586554.59,430314.89,4586556.09,1.5,class
+0225042AR,Pyrus calleryana 'Chanticleer',False,C\ Can Pujolet,4.79,4.04,ok,,medium,430106.46,4586257.94,430111.24,4586258.15,1.0,class
+0225044AR,Styphnolobium japonicum,False,C\ Ciències,5.3,4.72,ok,,medium,429696.05,4586262.5,429690.81,4586261.7,1.0,class
+0225045AR,Pyrus calleryana 'Chanticleer',False,C\ Can Pujolet,5.7,5.05,ok,,medium,430111.65,4586500.47,430117.32,4586500.96,1.0,class
+0225046AR,Robinia pseudoacacia,False,C\ Peris i Mencheta,5.88,4.95,ok,,medium,429899.72,4586314.87,429899.27,4586309.01,1.0,class
+0225047AR,Acer platanoides 'Crimson King',False,C\ Trèvol,12.81,11.52,ok,,large,430404.27,4586417.16,430416.69,4586420.26,1.5,class
+0225048AR,Robinia pseudoacacia,False,C\ Marí,4.11,3.57,ok,,medium,429895.14,4586084.52,429891.2,4586083.34,1.0,class
+0225049AR,Robinia pseudoacacia,False,C\ Pedrell,3.07,2.27,ok,,small,429803.8,4586111.96,429804.66,4586109.02,1.0,class
+0225050AR,Styphnolobium japonicum,False,C\ Marquès de Foronda,3.24,2.51,ok,,small,429922.68,4586366.91,429924.09,4586369.82,1.0,class
+0225052AR,Prunus cerasifera 'Pissardii',False,C\ Pedrell,3.16,2.39,ok,,small,430048.37,4586175.08,430048.87,4586171.97,1.0,class
+0225053AR,Acer buergerianum,False,C\ Peris i Mencheta,4.9,4.3,ok,,medium,429998.69,4586393.66,429995.41,4586397.3,1.0,class
+0225054AR,Ligustrum japonicum 'Texanum',False,C\ Arc de Sant Martí,4.39,3.74,ok,,medium,430788.52,4586258.89,430784.28,4586257.78,1.0,class
+0225055AR,Robinia pseudoacacia,False,C\ Marí,2.4,1.72,ok,,none,429875.03,4586141.81,429872.73,4586141.11,1.0,floor
+0225056AR,Ligustrum japonicum 'Texanum',False,C\ Arc de Sant Martí,3.75,3.33,ok,,medium,430794.41,4586223.54,430790.73,4586222.86,1.0,class
+0225057AR,Celtis australis,False,Pg Maragall,8.97,8.37,ok,,large,430261.58,4586563.66,430262.89,4586572.53,1.5,class
+0225059AR,Quercus suber,False,Pg Font d'en Fargas,21.3,10.9,ok,,large,430280.9,4586161.62,430259.92,4586157.94,1.5,class
+0225060AR,Styphnolobium japonicum,False,C\ Ciències,10.55,9.29,ok,,large,429694.14,4586306.36,429684.6,4586301.86,1.5,class
+0225061AR,Platanus × acerifolia,True,Av Frederic Rahola,4.1,3.29,ok,,medium,430543.93,4586258.23,430541.78,4586254.74,1.0,class
+0225062AR,Celtis australis,False,C\ Estoril,3.02,2.54,ok,,small,430074.25,4586553.57,430072.18,4586551.37,1.0,class
+0225063AR,Ligustrum japonicum 'Texanum',False,C\ Montserrat de Casanovas,6.83,5.81,ok,,large,430078.87,4586112.89,430080.06,4586106.16,1.5,class
+0225064AR,Citrus × aurantium,False,C\ Marquès de Foronda,7.43,6.6,ok,,large,429845.46,4586370.18,429840.85,4586364.35,1.5,class
+0225065AR,Pyrus calleryana 'Chanticleer',False,C\ Can Pujolet,,9.93,no_kerb,13.32,check,,,,,1.0,floor
+0225066AR,Styphnolobium japonicum,False,Rbla Carmel,2.57,1.9,ok,,small,429669.66,4585999.5,429667.11,4585999.13,1.0,class
+0225067AR,Styphnolobium japonicum,False,C\ Marquès de Foronda,5.42,4.77,ok,,medium,429858.65,4586371.7,429859.19,4586366.31,1.0,class
+0225069AR,Citrus × aurantium,False,C\ Pedrell,9.97,0.91,ok,,large,430291.62,4586225.11,430293.44,4586215.31,1.5,class
+0225070AR,Robinia pseudoacacia,False,C\ Pedrell,8.25,6.84,ok,,large,429753.01,4586081.15,429745.73,4586085.02,1.5,class
+0225071AR,Corylus colurna,False,C\ Mossèn Josep Bundó,4.55,3.97,ok,,medium,430138.52,4586458.06,430140.03,4586453.77,1.0,class
+0225072AR,Robinia pseudoacacia,False,C\ Montserrat de Casanovas,8.51,7.19,ok,,large,430062.29,4586091.16,430056.06,4586096.95,1.5,class
+0225073AR,Ginkgo biloba,False,C\ Pintor Pradilla,6.88,5.89,ok,,large,430284.98,4586076.34,430289.45,4586071.12,1.5,class
+0225074AR,Platanus × acerifolia,True,Av Frederic Rahola,8.74,7.76,ok,,large,430215.75,4586354.93,430224.1,4586352.34,1.5,class
+0225075AR,Styphnolobium japonicum,False,C\ Pedrell,7.8,7.02,ok,,large,429915.57,4586151.34,429917.79,4586143.87,1.5,class
+0225076AR,Prunus cerasifera 'Pissardii',False,C\ Dalmau de Creixell,4.52,3.23,ok,,medium,430772.49,4586386.56,430773.08,4586391.05,1.0,class
+0225077AR,Citrus × aurantium,False,C\ Mossèn Josep Bundó,2.39,1.91,ok,,none,430170.3,4586445.93,430170.31,4586448.32,1.0,floor
+0225078AR,Styphnolobium japonicum,False,C\ Marí,2.42,1.72,ok,,none,429855.11,4586207.0,429852.8,4586206.3,1.0,floor
+0225079AR,Platanus × acerifolia,True,C\ Peris i Mencheta,8.24,7.48,ok,,large,430154.41,4586553.18,430154.71,4586561.42,1.5,class
+0225080AR,Celtis australis,False,Pg Maragall,5.39,4.41,ok,,medium,430515.78,4586526.94,430516.81,4586532.23,1.0,class
+0225081AR,Celtis australis,False,Pg Maragall,9.93,8.11,ok,,large,430816.52,4586433.92,430826.13,4586436.41,1.5,class
+0225082AR,Styphnolobium japonicum,False,C\ Canonge Almera,5.48,4.7,ok,,medium,430006.33,4586238.2,430011.79,4586238.53,1.0,class
+0225083AR,Photinia x fraseri 'Red Robin',False,Pg Font de la Mulassa,,7.73,median,,check,,,,,1.0,floor
+0225085AR,Acer buergerianum,False,C\ Peris i Mencheta,2.58,1.88,ok,,small,429951.53,4586362.34,429953.41,4586360.57,1.0,class
+0225086AR,Prunus cerasifera 'Pissardii',False,C\ Mossèn Josep Bundó,9.41,8.37,ok,,large,430434.81,4586512.11,430425.54,4586513.72,1.5,class
+0225087AR,Robinia pseudoacacia,False,C\ Montserrat de Casanovas,5.98,4.75,ok,,medium,430115.03,4586103.47,430119.09,4586107.87,1.0,class
+0225090AR,Styphnolobium japonicum,False,Pg Font d'en Fargas,14.56,13.98,ok,,large,430287.42,4586508.03,430301.83,4586505.86,1.5,class
+0225092AR,Pyrus calleryana 'Chanticleer',False,C\ Can Pujolet,8.93,8.21,ok,,large,430129.01,4586407.22,430120.09,4586407.44,1.5,class
+0225094AR,Styphnolobium japonicum,False,Bda Can Mateu,7.98,7.37,ok,,large,430049.02,4586470.1,430043.55,4586464.29,1.5,class
+0225095AR,Celtis australis,False,Pg Maragall,8.28,7.64,ok,,large,430618.81,4586503.66,430619.97,4586511.86,1.5,class
+0225097AR,Ligustrum japonicum 'Texanum',False,C\ Arc de Sant Martí,11.23,9.28,ok,,large,430785.25,4586216.4,430789.41,4586205.97,1.5,class
+0225099AR,Melia azedarach,False,Av Frederic Rahola,15.54,10.03,ok,,large,430373.48,4586303.84,430388.87,4586305.99,1.5,class
+0225100AR,Citrus × aurantium,False,C\ Alt de Pedrell,,19.4,median,5.41,check,,,,,1.0,floor
+0225101AR,Pyrus calleryana 'Chanticleer',False,C\ Canonge Almera,5.79,5.05,ok,,medium,430021.76,4586256.42,430016.82,4586259.42,1.0,class
+0225102AR,Styphnolobium japonicum,False,C\ Maurici Vilomara,,11.76,median,5.31,check,,,,,1.0,floor
+0225103AR,Platanus × acerifolia,True,Av Frederic Rahola,10.33,9.49,ok,,large,430311.7,4586348.52,430315.43,4586338.89,1.5,class
+0225104AR,Platanus × acerifolia,True,C\ Peris i Mencheta,5.6,5.14,ok,,medium,429912.89,4586325.83,429914.46,4586320.45,1.0,class
+0225105AR,Platanus × acerifolia,True,Av Frederic Rahola,5.61,5.0,ok,,medium,430232.56,4586369.57,430229.53,4586364.85,1.0,class
+0225106AR,Ulmus pumila,False,C\ Verema,9.72,8.15,ok,,large,430035.87,4586267.23,430044.76,4586271.15,1.5,class
+0225108AR,Platanus × acerifolia,True,Pg Font d'en Fargas,6.73,6.07,ok,,large,430312.83,4586491.37,430306.16,4586492.31,1.5,class
+0225110AR,Styphnolobium japonicum,False,C\ Montserrat de Casanovas,6.72,6.07,ok,,large,430075.4,4586093.37,430074.38,4586100.02,1.5,class
+0225111AR,Platanus × acerifolia,True,C\ Pedrell,3.14,2.29,ok,,small,429765.0,4586087.66,429764.06,4586090.65,1.0,class
+0225113AR,Celtis australis,False,Pg Maragall,5.48,4.59,ok,,medium,430783.46,4586446.65,430785.43,4586451.76,1.0,class
+0225114AR,Platanus × acerifolia,True,Av Frederic Rahola,6.91,6.26,ok,,large,430252.34,4586361.4,430251.45,4586354.54,1.5,class
+0225115AR,Ligustrum japonicum 'Texanum',False,C\ Montserrat de Casanovas,,13.42,median,7.93,check,,,,,1.0,floor
+0225116AR,Styphnolobium japonicum,False,C\ Montserrat de Casanovas,6.06,4.65,ok,,large,430291.85,4586135.62,430285.94,4586136.95,1.5,class
+0225117AR,Styphnolobium japonicum,False,Pg Font d'en Fargas,14.73,14.13,ok,,large,430272.0,4586391.84,430285.36,4586385.63,1.5,class
+0225118AR,Celtis australis,False,C\ Estoril,,9.72,median,29.18,check,,,,,1.0,floor
+0225119AR,Pyrus calleryana 'Chanticleer',False,C\ Canonge Almera,,12.83,median,28.22,check,,,,,1.0,floor
+0225120AR,Platanus orientalis,True,Av Frederic Rahola,7.2,6.34,ok,,large,430438.06,4586278.18,430440.44,4586284.98,1.5,class
+0225121AR,Ginkgo biloba,False,C\ Garriga i Roca,6.04,5.37,ok,,large,430586.27,4585915.44,430580.74,4585917.85,1.5,class
+0225122AR,Corylus colurna,False,C\ Mossèn Josep Bundó,3.76,3.13,ok,,medium,430192.7,4586445.86,430195.81,4586447.97,1.0,class
+0225123AR,Pyrus calleryana 'Chanticleer',False,C\ Can Pujolet,6.69,6.03,ok,,large,430123.14,4586251.84,430116.45,4586252.02,1.5,class
+0225124AR,Celtis australis,False,Pg Maragall,8.84,8.24,ok,,large,430690.58,4586478.19,430693.78,4586486.43,1.5,class
+0225125AR,Platanus × acerifolia,True,Pg Font de la Mulassa,4.18,3.05,ok,,medium,429972.85,4586095.61,429969.52,4586098.15,1.0,class
+0225126AR,Platanus × acerifolia,True,Pg Font d'en Fargas,,10.63,median,,check,,,,,1.0,floor
+0225127AR,Melia azedarach,False,C\ Ciències,15.69,14.13,ok,,large,429706.29,4586187.9,429699.6,4586173.71,1.5,class
+0225129AR,Pyrus calleryana 'Chanticleer',False,Rbla Carmel,5.79,4.99,ok,,medium,429678.42,4585963.32,429672.64,4585963.73,1.0,class
+0225130AR,Platanus × acerifolia,True,Pg Font d'en Fargas,,10.68,median,,check,,,,,1.0,floor
+0225131AR,Platanus × acerifolia,True,C\ Peris i Mencheta,2.41,1.84,ok,,none,429941.77,4586337.97,429940.04,4586339.65,1.0,floor
+0225132AR,Robinia pseudoacacia,False,C\ Montserrat de Casanovas,6.62,5.88,ok,,large,430069.59,4586092.48,430068.59,4586099.02,1.5,class
+0225133AR,Styphnolobium japonicum,False,Ptge Pujolet,4.83,4.22,ok,,medium,430112.39,4586118.38,430108.11,4586116.15,1.0,class
+0225134AR,Robinia pseudoacacia,False,C\ Marí,8.68,7.52,ok,,large,429888.8,4586043.5,429895.38,4586049.15,1.5,class
+0225135AR,Styphnolobium japonicum,False,Bda Can Mateu,14.48,13.68,ok,,large,430009.48,4586515.99,429999.52,4586505.48,1.5,class
+0225136AR,Platanus × acerifolia,True,Pg Font d'en Fargas,16.66,15.99,ok,,large,430261.32,4586044.26,430244.81,4586046.52,1.5,class
+0225137AR,Platanus × acerifolia,True,C\ Pedrell,9.79,8.99,ok,,large,430058.27,4586157.76,430056.54,4586167.39,1.5,class
+0225138AR,Styphnolobium japonicum,False,C\ Marquès de Foronda,2.39,1.67,ok,,none,429946.84,4586370.0,429947.44,4586372.31,1.0,floor
+0225139AR,Citrus × aurantium,False,C\ Mossèn Josep Bundó,7.61,6.86,ok,,large,430196.38,4586460.61,430195.09,4586453.11,1.5,class
+0225142AR,Tilia tomentosa,False,C\ Verema,4.07,3.25,ok,,medium,430054.13,4586279.92,430050.77,4586277.62,1.0,class
+0225143AR,Styphnolobium japonicum,False,C\ Marquès de Foronda,5.32,4.44,ok,,medium,429780.56,4586362.98,429783.53,4586358.56,1.0,class
+0225145AR,Styphnolobium japonicum,False,C\ Ciències,10.59,9.59,ok,,large,429703.2,4586197.58,429692.62,4586198.12,1.5,class
+0225146AR,Ligustrum lucidum,False,Ptge Espiell,22.91,7.89,ok,,large,429710.62,4586229.38,429692.03,4586216.0,1.5,class
+0225147AR,Styphnolobium japonicum,False,C\ Pedrell,3.8,2.54,ok,,medium,429668.9,4586058.54,429670.14,4586062.14,1.0,class
+0225148AR,Platanus × acerifolia,True,C\ Peris i Mencheta,4.64,4.17,ok,,medium,429915.35,4586307.53,429912.02,4586310.77,1.0,class
+0225151AR,Ligustrum japonicum 'Texanum',False,C\ Montserrat de Casanovas,6.83,5.76,ok,,large,430089.43,4586114.75,430090.62,4586108.02,1.5,class
+0225152AR,Photinia x fraseri 'Red Robin',False,Pg Font de la Mulassa,,7.71,median,,check,,,,,1.0,floor
+0225153AR,Robinia pseudoacacia,False,C\ Can Pujolet,12.64,11.14,ok,,large,430123.83,4586309.45,430117.95,4586320.65,1.5,class
+0225154AR,Styphnolobium japonicum,False,C\ Marquès de Foronda,,6.54,median,13.06,check,,,,,1.0,floor
+0225155AR,Prunus cerasifera 'Pissardii',False,C\ Pedrell,3.13,2.36,ok,,small,430209.34,4586203.52,430209.89,4586200.44,1.0,class
+0225156AR,Platanus × acerifolia,True,C\ Pedrell,5.94,5.0,ok,,medium,429750.8,4586098.74,429752.57,4586093.07,1.0,class
+0225157AR,Styphnolobium japonicum,False,C\ Pedrell,12.25,7.67,ok,,large,429731.89,4586078.62,429742.83,4586084.13,1.5,class
+0225158AR,Platanus × acerifolia,True,C\ Peris i Mencheta,4.24,3.4,ok,,medium,430013.42,4586427.96,430014.07,4586423.77,1.0,class
+0225159AR,Platanus × acerifolia,True,Av Frederic Rahola,6.6,5.82,ok,,large,430529.53,4586267.61,430527.06,4586261.49,1.5,class
+0225160AR,Ginkgo biloba,False,C\ Pintor Pradilla,,13.69,median,3.28,check,,,,,1.0,floor
+0225161AR,Prunus cerasifera 'Pissardii',False,C\ Pedrell,3.42,2.89,ok,,small,429904.93,4586130.39,429903.95,4586133.66,1.0,class
+0225162AR,Robinia pseudoacacia,False,C\ Canonge Almera,,11.21,median,,check,,,,,1.0,floor
+0225163AR,Platanus × acerifolia,True,Av Frederic Rahola,6.32,5.59,ok,,large,430486.45,4586261.35,430488.6,4586267.29,1.5,class
+0225164AR,Pyrus calleryana 'Chanticleer',False,C\ Can Pujolet,5.23,4.64,ok,,medium,430126.95,4586476.04,430121.72,4586476.19,1.0,class
+0225165AR,Platanus × acerifolia,True,Av Frederic Rahola,8.88,8.32,ok,,large,430264.57,4586359.8,430266.71,4586351.18,1.5,class
+0225166AR,Platanus × acerifolia,True,C\ Peris i Mencheta,2.62,1.76,ok,,small,429973.05,4586370.28,429971.17,4586372.11,1.0,class
+0225167AR,Platanus × acerifolia,True,C\ Peris i Mencheta,10.06,8.78,ok,,large,429998.79,4586417.25,430008.79,4586418.29,1.5,class
+0225168AR,Platanus × acerifolia,True,Pg Font de la Mulassa,7.45,6.92,ok,,large,429942.87,4586211.16,429935.73,4586209.03,1.5,class
+0225169AR,Platanus × acerifolia,True,Pg Font de la Mulassa,2.35,1.47,ok,,none,429964.88,4586088.53,429967.12,4586089.23,1.0,floor
+0225170AR,Styphnolobium japonicum,False,C\ Marquès de Foronda,9.6,9.05,ok,,large,429880.66,4586355.99,429877.14,4586364.92,1.5,class
+0225171AR,Platanus × acerifolia,True,Av Frederic Rahola,6.59,5.81,ok,,large,430553.59,4586216.98,430559.95,4586215.24,1.5,class
+0225172AR,Styphnolobium japonicum,False,C\ Marquès de Foronda,5.07,4.08,ok,,medium,429727.49,4586344.26,429726.82,4586349.29,1.0,class
+0225173AR,Jacaranda mimosifolia,False,Ptge Espiell,10.03,6.09,ok,,large,429786.59,4586280.86,429792.37,4586272.66,1.5,class
+0225174AR,Acer buergerianum,False,C\ Peris i Mencheta,6.51,5.7,ok,,large,430102.46,4586501.24,430102.63,4586507.75,1.5,class
+0225175AR,Ginkgo biloba,False,C\ Garriga i Roca,5.85,5.4,ok,,medium,430581.17,4585855.9,430578.95,4585850.49,1.0,class
+0225176AR,Platanus × acerifolia,True,Pg Font d'en Fargas,9.47,8.2,ok,,large,430286.5,4586442.91,430292.2,4586435.35,1.5,class
+0225177AR,Celtis australis,False,Pg Maragall,5.65,4.82,ok,,medium,430706.54,4586475.96,430706.6,4586481.61,1.0,class
+0225178AR,Platanus × acerifolia,True,C\ Pedrell,4.53,3.33,ok,,medium,430054.26,4586176.02,430058.04,4586173.51,1.0,class
+0225179AR,Citrus × aurantium,False,C\ Comalada,,8.68,median,,check,,,,,1.0,floor
+0225180AR,Platanus × acerifolia,True,Pg Font d'en Fargas,,13.54,median,,check,,,,,1.0,floor
+0225181AR,Styphnolobium japonicum,False,C\ Pedrell,3.08,2.24,ok,,small,430178.72,4586185.94,430178.18,4586188.98,1.0,class
+0225182AR,Pyrus calleryana 'Chanticleer',False,Rbla Carmel,5.65,4.8,ok,,medium,429681.02,4585947.32,429675.47,4585946.28,1.0,class
+0225183AR,Platanus × acerifolia,True,Av Frederic Rahola,,7.38,median,4.22,check,,,,,1.0,floor
+0225184AR,Platanus × acerifolia,True,Av Frederic Rahola,7.99,7.33,ok,,large,430190.58,4586407.08,430198.57,4586407.07,1.5,class
+0225185AR,Melia azedarach,False,C\ Ciències,5.29,4.74,ok,,medium,429697.01,4586256.21,429691.78,4586255.42,1.0,class
+0225186AR,Celtis australis,False,Pg Maragall,,19.25,median,,check,,,,,1.0,floor
+0225187AR,Ligustrum japonicum 'Texanum',False,Pg Font de la Mulassa,3.35,2.32,ok,,small,429978.1,4586078.67,429976.46,4586075.74,1.0,class
+0225188AR,Populus nigra 'Italica',False,C\ Pedrell,10.67,8.6,ok,,large,430304.0,4586225.05,430312.6,4586218.73,1.5,class
+0225189AR,Robinia pseudoacacia,False,C\ Canonge Almera,6.74,6.13,ok,,large,430025.03,4586191.18,430019.74,4586195.35,1.5,class
+0225190AR,Styphnolobium japonicum,False,C\ Peris i Mencheta,7.52,6.57,ok,,large,429872.15,4586308.1,429870.48,4586300.77,1.5,class
+0225191AR,Hibiscus syriacus,False,Ptge Pedrell,,0.63,no_kerb,,check,,,,,1.0,floor
+0225192AR,Platanus × acerifolia,True,Pg Font d'en Fargas,4.39,3.59,ok,,medium,430274.17,4586230.1,430270.06,4586228.57,1.0,class
+0225193AR,Photinia x fraseri 'Red Robin',False,C\ Montserrat de Casanovas,3.96,3.04,ok,,medium,429999.15,4586076.28,430003.06,4586075.65,1.0,class
+0225194AR,Ligustrum japonicum 'Texanum',False,Pg Font de la Mulassa,2.43,1.71,ok,,none,429988.38,4586011.83,429990.71,4586012.54,1.0,floor
+0225195AR,Styphnolobium japonicum,False,C\ Marquès de Foronda,5.03,4.18,ok,,medium,429698.21,4586341.33,429696.73,4586346.14,1.0,class
+0225197AR,Platanus × acerifolia,True,Av Frederic Rahola,11.0,10.25,ok,,large,430193.13,4586384.4,430204.13,4586384.12,1.5,class
+0225198AR,Platanus × acerifolia,True,Av Frederic Rahola,6.47,5.87,ok,,large,430192.64,4586424.04,430199.11,4586424.0,1.5,class
+0225200AR,Styphnolobium japonicum,False,Pg Font de la Mulassa,4.18,2.6,ok,,medium,429917.14,4586245.05,429918.3,4586249.06,1.0,class
+0225201AR,Platanus × acerifolia,True,Pg Font de la Mulassa,2.69,2.15,ok,,small,429905.58,4586282.53,429908.26,4586282.25,1.0,class
+0225202AR,Styphnolobium japonicum,False,C\ Peris i Mencheta,2.34,1.77,ok,,none,429858.02,4586289.33,429857.36,4586291.58,1.0,floor
+0225203AR,Robinia pseudoacacia,False,C\ Pedrell,,9.94,median,27.7,check,,,,,1.0,floor
+0225205AR,Melia azedarach,False,C\ Joan Manén,,7.62,median,10.53,check,,,,,1.0,floor
+0225206AR,Robinia pseudoacacia,False,C\ Montserrat de Casanovas,7.65,6.99,ok,,large,430194.33,4586113.34,430192.93,4586120.87,1.5,class
+0225207AR,Platanus × acerifolia,True,C\ Peris i Mencheta,5.37,4.79,ok,,medium,430144.55,4586543.2,430140.73,4586546.98,1.0,class
+0225209AR,Catalpa bignonioides,False,C\ Alt de Pedrell,,11.44,median,12.28,check,,,,,1.0,floor
+0225211AR,Acer buergerianum,False,C\ Peris i Mencheta,5.31,4.9,ok,,medium,430028.75,4586423.67,430024.93,4586427.35,1.0,class
+0225212AR,Platanus × acerifolia,True,C\ Pedrell,13.64,6.73,ok,,large,430281.74,4586225.99,430272.8,4586215.69,1.5,class
+0225213AR,Styphnolobium japonicum,False,Pg Font d'en Fargas,3.84,3.13,ok,,medium,430274.83,4586234.78,430271.03,4586235.32,1.0,class
+0225214AR,Ulmus pumila,False,C\ Maurici Vilomara,,12.49,median,11.3,check,,,,,1.0,floor
+0225215AR,Styphnolobium japonicum,False,C\ Marquès de Foronda,5.2,3.72,ok,,medium,429717.15,4586354.13,429712.83,4586351.24,1.0,class
+0225216AR,Styphnolobium japonicum,False,Pg Font d'en Fargas,16.75,15.97,ok,,large,430261.24,4586332.78,430277.93,4586331.28,1.5,class
+0225217AR,Platanus × acerifolia,True,Pg Font d'en Fargas,3.46,2.72,ok,,small,430251.14,4586156.72,430254.57,4586156.27,1.0,class
+0225218AR,Platanus × acerifolia,True,Pg Font d'en Fargas,3.59,2.67,ok,,medium,430253.32,4586173.61,430256.88,4586173.15,1.0,class
+0225219AR,Platanus × acerifolia,True,C\ Peris i Mencheta,,15.81,median,4.76,check,,,,,1.0,floor
+0225220AR,Photinia x fraseri 'Red Robin',False,Pg Font de la Mulassa,5.8,4.98,ok,,medium,429974.6,4586045.02,429980.15,4586046.72,1.0,class
+0225221AR,Citrus × aurantium,False,Pg Font de la Mulassa,2.5,1.75,ok,,small,429949.99,4586137.0,429952.38,4586137.72,1.0,class
+0225222AR,Prunus serrulata 'Kanzan',False,C\ Dalmau de Creixell,2.48,1.98,ok,,none,430738.84,4586390.88,430739.15,4586393.34,1.0,floor
+0225224AR,Robinia pseudoacacia,False,C\ Pedrell,6.02,5.4,ok,,large,430162.26,4586198.12,430163.36,4586192.2,1.5,class
+0225225AR,Styphnolobium japonicum,False,C\ Peris i Mencheta,2.38,1.79,ok,,none,429833.21,4586282.06,429832.55,4586284.34,1.0,floor
+0225227AR,Styphnolobium japonicum,False,Pg Font de la Mulassa,2.48,1.62,ok,,none,429920.69,4586233.08,429923.07,4586233.78,1.0,floor
+0225228AR,Hibiscus syriacus,False,Ptge Pedrell,,6.35,no_kerb,41.66,check,,,,,1.0,floor
+0225229AR,Melia azedarach,False,Av Frederic Rahola,6.38,5.43,ok,,large,430367.27,4586327.23,430364.96,4586321.28,1.5,class
+0225230AR,Styphnolobium japonicum,False,Pg Font d'en Fargas,13.35,12.64,ok,,large,430296.25,4586322.56,430283.27,4586325.68,1.5,class
+0225231AR,Robinia pseudoacacia,False,C\ Marí,2.43,1.54,ok,,none,429870.52,4586156.65,429868.2,4586155.94,1.0,floor
+0225232AR,Platanus × acerifolia,True,Av Frederic Rahola,14.82,14.23,ok,,large,430320.28,4586351.48,430322.43,4586336.82,1.5,class
+0225233AR,Platanus × acerifolia,True,Av Frederic Rahola,,14.33,median,11.34,check,,,,,1.0,floor
+0225234AR,Platanus × acerifolia,True,C\ Peris i Mencheta,2.88,2.01,ok,,small,430095.74,4586511.86,430097.81,4586509.85,1.0,class
+0225235AR,Styphnolobium japonicum,False,C\ Marquès de Foronda,5.49,4.73,ok,,medium,429806.53,4586352.18,429807.46,4586357.59,1.0,class
+0225236AR,Platanus × acerifolia,True,Pg Font d'en Fargas,9.26,7.44,ok,,large,430257.3,4586111.81,430252.55,4586103.86,1.5,class
+0225237AR,Styphnolobium japonicum,False,Pg Font d'en Fargas,14.69,14.03,ok,,large,430274.66,4586416.43,430289.17,4586414.15,1.5,class
+0225239AR,Ligustrum ovalifolium,False,Ptge Espiell,16.57,6.91,ok,,large,429775.99,4586273.54,429792.57,4586273.37,1.5,class
+0225240AR,Acer saccharinum,False,C\ Marí,4.17,3.6,ok,,medium,429893.34,4586090.54,429889.35,4586089.35,1.0,class
+0225241AR,Platanus × acerifolia,True,Pg Font d'en Fargas,14.02,9.39,ok,,large,430242.27,4586090.92,430243.87,4586076.99,1.5,class
+0225242AR,Ligustrum japonicum 'Texanum',False,Ptge Pujolet,3.69,3.11,ok,,medium,430092.7,4586152.28,430096.33,4586152.94,1.0,class
+0225243AR,Platanus × acerifolia,True,Av Frederic Rahola,5.52,4.67,ok,,medium,430448.06,4586296.44,430446.16,4586291.26,1.0,class
+0225246AR,Pyrus calleryana 'Chanticleer',False,C\ Can Pujolet,6.56,6.05,ok,,large,430122.18,4586221.5,430115.84,4586223.19,1.5,class
+0225248AR,Ulmus pumila,False,C\ Verema,4.61,3.94,ok,,medium,430022.68,4586267.02,430019.03,4586269.83,1.0,class
+0225251AR,Platanus × acerifolia,True,C\ Pedrell,5.88,4.97,ok,,medium,429754.78,4586081.65,429753.17,4586087.31,1.0,class
+0225252AR,Parrotia persica 'Vanessa',False,C\ Pintor Pradilla,,12.35,median,3.3,check,,,,,1.0,floor
+0225254AR,Platanus × acerifolia,True,Pg Font d'en Fargas,3.9,3.28,ok,,medium,430275.83,4586241.87,430271.97,4586242.42,1.0,class
+0225255AR,Styphnolobium japonicum,False,C\ Ciències,9.61,7.51,ok,,large,429698.67,4586245.31,429693.71,4586237.07,1.5,class
+0225257AR,Platanus × acerifolia,True,Av Frederic Rahola,7.09,6.29,ok,,large,430213.05,4586422.32,430206.73,4586419.1,1.5,class
+0225258AR,Celtis australis,False,Pg Maragall,5.24,4.6,ok,,medium,430143.15,4586590.63,430145.03,4586595.52,1.0,class
+0225259AR,Ginkgo biloba,False,C\ Pintor Pradilla,7.35,6.37,ok,,large,430272.71,4586057.62,430276.71,4586063.78,1.5,class
+0225261AR,Photinia x fraseri 'Red Robin',False,C\ Montserrat de Casanovas,3.52,2.88,ok,,medium,430205.66,4586131.58,430206.87,4586128.27,1.0,class
+0225262AR,Platanus × acerifolia,True,C\ Peris i Mencheta,3.63,2.94,ok,,medium,430088.32,4586489.45,430088.53,4586493.08,1.0,class
+0225263AR,Platanus × acerifolia,True,C\ Peris i Mencheta,6.99,6.22,ok,,large,430050.31,4586445.87,430049.86,4586452.84,1.5,class
+0225264AR,Platanus × acerifolia,True,Pg Font d'en Fargas,,15.66,median,4.19,check,,,,,1.0,floor
+0225265AR,Platanus × acerifolia,True,Av Frederic Rahola,5.2,4.63,ok,,medium,430213.66,4586426.92,430208.57,4586428.0,1.0,class
+0225267AR,Robinia pseudoacacia,False,C\ Can Pujolet,6.63,6.1,ok,,large,430123.79,4586289.14,430117.17,4586289.32,1.5,class
+0225268AR,Platanus × acerifolia,True,C\ Peris i Mencheta,2.46,1.96,ok,,none,430069.38,4586469.72,430068.29,4586471.93,1.0,floor
+0225269AR,Prunus cerasifera 'Pissardii',False,C\ Mossèn Josep Bundó,13.58,12.81,ok,,large,430344.29,4586459.74,430342.35,4586446.3,1.5,class
+0225270AR,Hibiscus syriacus,False,C\ Marí,5.09,4.46,ok,,medium,429847.36,4586189.56,429852.25,4586191.0,1.0,class
+0225271AR,Styphnolobium japonicum,False,C\ Marquès de Foronda,4.77,3.99,ok,,medium,429753.28,4586349.5,429757.05,4586352.42,1.0,class
+0225272AR,Citrus × aurantium,False,C\ Mossèn Josep Bundó,5.19,4.65,ok,,medium,430130.26,4586459.06,430130.11,4586453.87,1.0,class
+0225273AR,Platanus × acerifolia,True,Av Frederic Rahola,7.23,6.56,ok,,large,430209.9,4586463.7,430216.1,4586459.97,1.5,class
+0225274AR,Platanus × acerifolia,True,Av Frederic Rahola,8.48,7.77,ok,,large,430191.19,4586398.08,430199.62,4586398.95,1.5,class
+0225275AR,Celtis australis,False,Pg Maragall,8.73,8.14,ok,,large,430678.45,4586482.9,430680.73,4586491.33,1.5,class
+0225276AR,Ligustrum japonicum 'Texanum',False,C\ Arc de Sant Martí,4.04,2.91,ok,,medium,430766.28,4586332.0,430765.12,4586328.13,1.0,class
+0225277AR,Celtis australis,False,Pg Maragall,8.38,7.48,ok,,large,430564.44,4586514.35,430566.09,4586522.57,1.5,class
+0225278AR,Platanus × acerifolia,True,Av Frederic Rahola,6.33,5.58,ok,,large,430374.91,4586324.28,430372.63,4586318.38,1.5,class
+0225281AR,Malus PERPETU® 'Evereste',False,C\ Pintor Pradilla,2.53,1.79,ok,,small,430359.43,4586084.09,430359.53,4586081.56,1.0,class
+0225282AR,Platanus × acerifolia,True,C\ Mas Pujol,,12.84,median,,check,,,,,1.0,floor
+0225283AR,Platanus × acerifolia,True,Av Frederic Rahola,5.77,5.21,ok,,medium,430228.84,4586372.6,430224.11,4586369.29,1.0,class
+0225284AR,Ligustrum japonicum 'Texanum',False,C\ Arc de Sant Martí,,7.75,median,11.6,check,,,,,1.0,floor
+0225285AR,Platanus × acerifolia,True,Av Frederic Rahola,5.06,4.37,ok,,medium,430558.81,4586246.45,430555.6,4586242.54,1.0,class
+0225287AR,Styphnolobium japonicum,False,C\ Can Pujolet,5.65,4.05,ok,,medium,430107.88,4586202.79,430110.06,4586208.01,1.0,class
+0225289AR,Citrus × aurantium,False,C\ Mossèn Josep Bundó,8.19,7.59,ok,,large,430204.38,4586461.03,430202.71,4586453.01,1.5,class
+0225290AR,Citrus × aurantium,False,C\ Mossèn Josep Bundó,7.13,6.5,ok,,large,430245.15,4586477.08,430244.04,4586470.04,1.5,class
+0225291AR,Platanus × acerifolia,True,Av Frederic Rahola,13.08,12.12,ok,,large,430349.68,4586333.65,430336.75,4586331.66,1.5,class
+0225292AR,Ginkgo biloba,False,C\ Garriga i Roca,10.95,10.0,ok,,large,430603.76,4585965.54,430601.82,4585976.31,1.5,class
+0225294AR,Populus nigra 'Italica',False,C\ Pedrell,13.65,11.89,ok,,large,430316.77,4586233.22,430320.78,4586220.17,1.5,class
+0225295AR,Ulmus pumila,False,C\ Verema,6.14,5.7,ok,,large,430088.56,4586285.37,430088.47,4586279.23,1.5,class
+0225296AR,Platanus × acerifolia,True,Av Frederic Rahola,,14.07,median,,check,,,,,1.0,floor
+0225297AR,Hibiscus syriacus,False,C\ Marí,4.86,4.12,ok,,medium,429856.71,4586159.66,429861.33,4586161.17,1.0,class
+0225298AR,Citrus × aurantium,False,C\ Peris i Mencheta,5.62,3.77,ok,,medium,430060.35,4586474.96,430065.71,4586476.65,1.0,class
+0225299AR,Celtis australis,False,Pg Maragall,5.66,4.78,ok,,medium,430816.37,4586433.97,430818.4,4586439.26,1.0,class
+0225300AR,Platanus × acerifolia,True,Pg Font d'en Fargas,,9.21,median,,check,,,,,1.0,floor
+0225303AR,Platanus × acerifolia,True,Pg Font d'en Fargas,3.41,2.7,ok,,small,430226.64,4585976.44,430230.02,4585975.96,1.0,class
+0225304AR,Pyrus calleryana 'Chanticleer',False,C\ Canonge Almera,6.24,5.42,ok,,large,430022.7,4586266.64,430016.47,4586266.28,1.5,class
+0225306AR,Ginkgo biloba,False,C\ Pintor Pradilla,,12.91,median,4.3,check,,,,,1.0,floor
+0225307AR,Styphnolobium japonicum,False,Pg Font d'en Fargas,14.9,14.11,ok,,large,430273.44,4586408.65,430288.16,4586406.34,1.5,class
+0225309AR,Platanus × acerifolia,True,Av Frederic Rahola,5.73,4.98,ok,,medium,430547.38,4586230.92,430551.62,4586234.78,1.0,class
+0225310AR,Pyrus calleryana 'Chanticleer',False,C\ Can Pujolet,5.63,5.06,ok,,medium,430111.47,4586493.17,430117.09,4586493.03,1.0,class
+0225311AR,Citrus × aurantium,False,C\ Mossèn Josep Bundó,4.19,3.79,ok,,medium,430145.05,4586457.91,430144.93,4586453.72,1.0,class
+0225312AR,Styphnolobium japonicum,False,Pg Font d'en Fargas,,9.7,median,,check,,,,,1.0,floor
+0225313AR,Ligustrum japonicum 'Texanum',False,C\ Arc de Sant Martí,2.8,2.06,ok,,small,430784.52,4586221.44,430787.27,4586221.94,1.0,class
+0225314AR,Styphnolobium japonicum,False,C\ Peris i Mencheta,,7.75,median,2.16,check,,,,,1.0,floor
+0225315AR,Prunus cerasifera 'Pissardii',False,C\ Mossèn Josep Bundó,6.46,5.94,ok,,large,430433.2,4586523.84,430427.24,4586521.35,1.5,class
+0225318AR,Styphnolobium japonicum,False,Pg Font de la Mulassa,2.31,1.28,ok,,none,429967.18,4586081.12,429969.38,4586081.8,1.0,floor
+0225319AR,Styphnolobium japonicum,False,Bda Can Mateu,7.85,6.91,ok,,large,430035.78,4586482.58,430030.39,4586476.87,1.5,class
+0225320AR,Ligustrum japonicum 'Texanum',False,C\ Arc de Sant Martí,3.03,2.54,ok,,small,430790.15,4586244.44,430787.19,4586243.81,1.0,class
+0225321AR,Hibiscus syriacus,False,C\ Verema,6.09,5.52,ok,,large,430096.15,4586285.49,430094.95,4586279.52,1.5,class
+0225322AR,Styphnolobium japonicum,False,Pg Font d'en Fargas,,11.58,median,,check,,,,,1.0,floor
+0225323AR,Firmiana simplex,False,Bda Can Mateu,7.92,7.1,ok,,large,430044.52,4586474.34,430039.08,4586468.58,1.5,class
+0225324AR,Hibiscus syriacus,False,Ptge Pedrell,,3.66,no_kerb,,check,,,,,1.0,floor
+0225325AR,Styphnolobium japonicum,False,C\ Can Pujolet,6.3,5.63,ok,,large,430121.74,4586208.99,430115.45,4586208.7,1.5,class
+0225326AR,Ligustrum japonicum 'Texanum',False,C\ Arc de Sant Martí,3.32,2.79,ok,,small,430791.78,4586236.83,430788.67,4586235.67,1.0,class
+0225328AR,Photinia x fraseri 'Red Robin',False,C\ Montserrat de Casanovas,6.67,6.04,ok,,large,430206.0,4586116.72,430202.77,4586122.54,1.5,class
+0225331AR,Platanus × acerifolia,True,Pg Font de la Mulassa,3.53,2.96,ok,,medium,429926.29,4586249.2,429922.95,4586250.35,1.0,class
+0225332AR,Robinia pseudoacacia,False,C\ Marí,1.8,1.19,ok,,none,429907.08,4586037.95,429905.36,4586037.42,1.0,floor
+0225333AR,Celtis australis,False,Pg Maragall,8.18,7.51,ok,,large,430611.62,4586505.24,430613.46,4586513.21,1.5,class
+0225334AR,Platanus × acerifolia,True,Av Frederic Rahola,6.81,5.93,ok,,large,430524.89,4586246.67,430527.27,4586253.05,1.5,class
+0225335AR,Platanus × acerifolia,True,C\ Pedrell,5.77,4.94,ok,,medium,430071.22,4586181.68,430072.19,4586176.0,1.0,class
+0225336AR,Ligustrum japonicum 'Texanum',False,C\ Arc de Sant Martí,,10.63,median,30.02,check,,,,,1.0,floor
+0225337AR,Platanus × acerifolia,True,Pg Font d'en Fargas,14.43,13.67,ok,,large,430269.47,4586376.23,430283.74,4586374.02,1.5,class
+0225339AR,Platanus × acerifolia,True,C\ Peris i Mencheta,9.23,8.17,ok,,large,429931.74,4586346.52,429930.91,4586337.32,1.5,class
+0225340AR,Hibiscus syriacus,False,C\ Marí,4.17,3.29,ok,,medium,429891.3,4586097.12,429887.31,4586095.9,1.0,class
+0225341AR,Styphnolobium japonicum,False,C\ Marquès de Foronda,6.59,6.0,ok,,large,429801.46,4586366.84,429800.84,4586360.28,1.5,class
+0225342AR,Acer buergerianum,False,C\ Peris i Mencheta,3.67,3.15,ok,,medium,429985.04,4586382.65,429984.84,4586386.31,1.0,class
+0225343AR,Tilia x europaea,False,C\ Verema,5.47,4.65,ok,,medium,430088.62,4586267.72,430088.35,4586273.18,1.0,class
+0225344AR,Platanus × acerifolia,True,Av Frederic Rahola,6.88,6.12,ok,,large,430571.65,4586227.62,430564.83,4586226.71,1.5,class
+0225345AR,Celtis australis,False,Pg Maragall,12.78,12.17,ok,,large,430452.89,4586531.73,430455.33,4586544.27,1.5,class
+0225346AR,Platanus × acerifolia,True,Pg Font d'en Fargas,6.66,6.08,ok,,large,430310.77,4586476.71,430304.17,4586477.64,1.5,class
+0225347AR,Platanus × acerifolia,True,Pg Font d'en Fargas,9.13,8.53,ok,,large,430286.73,4586284.67,430277.62,4586283.99,1.5,class
+0225348AR,Platanus × acerifolia,True,Pg Font d'en Fargas,11.79,10.65,ok,,large,430226.47,4585996.99,430234.26,4586005.85,1.5,class
+0225349AR,Acer monspessulanum,False,C\ Trèvol,18.62,17.24,ok,,large,430423.48,4586442.28,430419.93,4586424.01,1.5,class
+0225351AR,Prunus cerasifera 'Pissardii',False,C\ Pedrell,3.22,2.29,ok,,small,430148.42,4586192.82,430149.0,4586189.65,1.0,class
+0225352AR,Robinia pseudoacacia,False,C\ Canonge Almera,6.58,5.95,ok,,large,430024.0,4586235.05,430018.16,4586232.0,1.5,class
+0225353AR,Robinia pseudoacacia,False,C\ Montserrat de Casanovas,,6.62,median,3.67,check,,,,,1.0,floor
+0225354AR,Acer saccharinum,False,C\ Marí,5.49,4.8,ok,,medium,429894.33,4586033.79,429898.93,4586036.79,1.0,class
+0225355AR,Robinia pseudoacacia,False,C\ Montserrat de Casanovas,3.46,2.98,ok,,small,430122.78,4586117.08,430123.16,4586113.64,1.0,class
+0225357AR,Photinia x fraseri 'Red Robin',False,C\ Arc de Sant Martí,,9.92,median,,check,,,,,1.0,floor
+0225358AR,Platanus × acerifolia,True,Av Frederic Rahola,2.07,1.5,ok,,none,430237.87,4586342.43,430237.85,4586344.5,1.0,floor
+0225359AR,Prunus cerasifera 'Pissardii',False,C\ Pedrell,6.75,5.79,ok,,large,429977.03,4586146.64,429975.06,4586153.1,1.5,class
+0225360AR,Ulmus pumila,False,C\ Marí,7.44,6.7,ok,,large,429851.38,4586168.53,429858.73,4586169.66,1.5,class
+0225363AR,Platanus × acerifolia,True,Pg Font d'en Fargas,,15.93,median,17.68,check,,,,,1.0,floor
+0225364AR,Acer monspessulanum,False,C\ Gallecs,7.53,6.31,ok,,large,430459.23,4586363.23,430451.95,4586361.31,1.5,class
+0225366AR,Styphnolobium japonicum,False,C\ Peris i Mencheta,7.52,6.73,ok,,large,429984.79,4586400.28,429992.27,4586401.12,1.5,class
+0225367AR,Celtis australis,False,Pg Maragall,8.55,7.38,ok,,large,430631.19,4586503.82,430625.79,4586510.45,1.5,class
+0225368AR,Robinia pseudoacacia,False,C\ Montserrat de Casanovas,12.53,12.09,ok,,large,430328.29,4586131.78,430327.37,4586144.28,1.5,class
+0225370AR,Styphnolobium japonicum,False,C\ Marquès de Foronda,4.55,3.88,ok,,medium,429941.66,4586379.38,429940.99,4586374.89,1.0,class
+0225372AR,Platanus × acerifolia,True,Av Frederic Rahola,6.0,5.25,ok,,medium,430549.58,4586228.27,430555.57,4586228.19,1.0,class
+0225373AR,Styphnolobium japonicum,False,C\ Montserrat de Casanovas,6.82,6.01,ok,,large,430316.93,4586137.6,430320.81,4586143.2,1.5,class
+0225374AR,Pyrus calleryana 'Chanticleer',False,C\ Can Pujolet,5.86,5.07,ok,,medium,430108.12,4586363.01,430113.97,4586362.88,1.0,class
+0225375AR,Ginkgo biloba,False,C\ Garriga i Roca,9.61,7.71,ok,,large,430570.55,4585883.81,430565.48,4585875.65,1.5,class
+0225376AR,Ginkgo biloba,False,C\ Pintor Pradilla,,12.11,median,8.22,check,,,,,1.0,floor
+0225377AR,Citrus × aurantium,False,Pg Font de la Mulassa,2.54,1.67,ok,,small,429948.52,4586141.86,429950.66,4586143.22,1.0,class
+0225378AR,Citrus × aurantium,False,C\ Mossèn Josep Bundó,4.84,4.49,ok,,medium,430149.06,4586443.86,430150.14,4586448.58,1.0,class
+0225380AR,Populus nigra 'Italica',False,C\ Pedrell,,9.94,median,,check,,,,,1.0,floor
+0225381AR,Robinia pseudoacacia,False,C\ Pedrell,8.13,5.71,ok,,large,430107.36,4586185.48,430115.29,4586183.68,1.5,class
+0225382AR,Styphnolobium japonicum,False,C\ Marquès de Foronda,4.25,3.52,ok,,medium,429812.56,4586365.8,429812.7,4586361.55,1.0,class
+0225384AR,Platanus × acerifolia,True,C\ Mas Pujol,,12.47,median,,check,,,,,1.0,floor
+0225385AR,Styphnolobium japonicum,False,C\ Pintor Pradilla,2.51,1.99,ok,,small,430396.48,4586085.54,430396.58,4586083.02,1.0,class
+0225386AR,Acer buergerianum,False,C\ Peris i Mencheta,8.06,7.14,ok,,large,429855.72,4586304.54,429856.6,4586296.53,1.5,class
+0225387AR,Platanus × acerifolia,True,Pg Font d'en Fargas,,9.3,median,13.17,check,,,,,1.0,floor
+0225388AR,Acer monspessulanum,False,C\ Gallecs,7.53,6.6,ok,,large,430457.19,4586370.94,430449.91,4586369.01,1.5,class
+0225389AR,Platanus × acerifolia,True,C\ Pedrell,8.9,8.26,ok,,large,429923.31,4586130.59,429918.61,4586138.15,1.5,class
+0225390AR,Styphnolobium japonicum,False,C\ Pintor Pradilla,2.55,2.06,ok,,small,430402.69,4586085.78,430402.79,4586083.23,1.0,class
+0225392AR,Styphnolobium japonicum,False,C\ Pintor Pradilla,,7.7,median,21.41,check,,,,,1.0,floor
+0225393AR,Robinia pseudoacacia,False,C\ Montserrat de Casanovas,6.5,5.76,ok,,large,430154.88,4586125.81,430155.94,4586119.4,1.5,class
+0225394AR,Platanus × acerifolia,True,Av Frederic Rahola,7.5,6.77,ok,,large,430331.96,4586316.96,430334.27,4586324.09,1.5,class
+0225395AR,Ligustrum japonicum 'Texanum',False,C\ Montserrat de Casanovas,6.64,6.05,ok,,large,430138.79,4586122.83,430141.9,4586116.96,1.5,class
+0225396AR,Celtis australis,False,Pg Maragall,12.77,11.29,ok,,large,430292.96,4586563.39,430281.92,4586569.81,1.5,class
+0225397AR,Styphnolobium japonicum,False,C\ Pintor Pradilla,2.46,1.95,ok,,none,430377.55,4586084.8,430377.65,4586082.34,1.0,floor
+0225398AR,Hibiscus syriacus,False,C\ Verema,7.46,6.78,ok,,large,430075.83,4586286.16,430076.23,4586278.71,1.5,class
+0225399AR,Platanus × acerifolia,True,Pg Font d'en Fargas,13.82,13.24,ok,,large,430260.62,4586307.06,430274.33,4586305.3,1.5,class
+0225400AR,Prunus cerasifera 'Pissardii',False,C\ Pedrell,3.03,2.2,ok,,small,430225.21,4586206.29,430225.73,4586203.3,1.0,class
+0225401AR,Platanus × acerifolia,True,C\ Peris i Mencheta,5.15,4.45,ok,,medium,430038.13,4586433.38,430034.45,4586436.98,1.0,class
+0225403AR,Citrus × aurantium,False,Pg Font de la Mulassa,2.45,1.81,ok,,none,429990.5,4586004.88,429992.85,4586005.6,1.0,floor
+0225404AR,Citrus × aurantium,False,C\ Pintor Pradilla,2.48,1.92,ok,,none,430373.22,4586084.63,430373.31,4586082.15,1.0,floor
+0225405AR,Platanus × acerifolia,True,Pg Font d'en Fargas,,12.27,median,11.1,check,,,,,1.0,floor
+0225406AR,Celtis australis,False,Pg Maragall,8.92,8.37,ok,,large,430268.15,4586562.69,430269.45,4586571.52,1.5,class
+0225407AR,Platanus × acerifolia,True,C\ Peris i Mencheta,5.63,4.43,ok,,medium,429952.88,4586349.43,429954.65,4586354.78,1.0,class
+0225408AR,Robinia pseudoacacia,False,C\ Montserrat de Casanovas,8.57,7.81,ok,,large,430318.3,4586156.54,430319.77,4586148.09,1.5,class
+0225410AR,Photinia x fraseri 'Red Robin',False,Ptge Pujolet,4.32,3.13,ok,,medium,430104.17,4586152.11,430101.16,4586155.21,1.0,class
+0225411AR,Styphnolobium japonicum,False,Pg Font d'en Fargas,10.23,8.91,ok,,large,430278.67,4586262.36,430275.97,4586272.23,1.5,class
+0225412AR,Robinia pseudoacacia,False,C\ Can Pujolet,6.06,5.46,ok,,large,430124.36,4586354.28,430118.76,4586351.95,1.5,class
+0225413AR,Prunus cerasifera 'Pissardii',False,C\ Pedrell,,10.02,median,,check,,,,,1.0,floor
+0225415AR,Robinia pseudoacacia,False,C\ Montserrat de Casanovas,11.15,10.5,ok,,large,430238.16,4586144.1,430235.85,4586133.18,1.5,class
+0225416AR,Platanus × acerifolia,True,Pg Font de la Mulassa,2.61,1.86,ok,,small,429982.19,4586031.35,429984.67,4586032.15,1.0,class
+0225417AR,Platanus × acerifolia,True,Pg Font d'en Fargas,3.99,3.26,ok,,medium,430267.46,4586283.41,430271.44,4586283.57,1.0,class
+0225418AR,Prunus cerasifera 'Pissardii',False,C\ Mossèn Josep Bundó,6.36,5.56,ok,,large,430395.74,4586484.57,430401.37,4586481.6,1.5,class
+0225419AR,Robinia pseudoacacia,False,C\ Verema,4.85,4.14,ok,,medium,430161.33,4586272.03,430159.79,4586276.63,1.0,class
+0225420AR,Photinia x fraseri 'Red Robin',False,C\ Montserrat de Casanovas,2.7,1.89,ok,,small,430451.52,4586163.61,430451.06,4586166.27,1.0,class
+0225421AR,Styphnolobium japonicum,False,C\ Can Pujolet,4.77,4.1,ok,,medium,430108.74,4586344.03,430113.46,4586344.68,1.0,class
+0225422AR,Platanus × acerifolia,True,Pg Font de la Mulassa,4.19,3.61,ok,,medium,429927.24,4586245.96,429925.43,4586242.17,1.0,class
+0225423AR,Celtis australis,False,Pg Maragall,12.16,11.49,ok,,large,430464.96,4586530.0,430468.02,4586541.77,1.5,class
+0225424AR,Styphnolobium japonicum,False,C\ Marquès de Foronda,2.32,1.58,ok,,none,429749.71,4586357.39,429749.93,4586355.08,1.0,floor
+0225425AR,Celtis australis,False,Pg Maragall,4.9,4.18,ok,,medium,430631.71,4586503.65,430633.2,4586508.32,1.0,class
+0225426AR,Platanus × acerifolia,True,C\ Peris i Mencheta,2.5,1.88,ok,,small,429958.65,4586355.36,429956.84,4586357.08,1.0,class
+0225427AR,Photinia x fraseri 'Red Robin',False,Pg Font de la Mulassa,2.16,1.33,ok,,none,429982.74,4586063.01,429980.67,4586062.38,1.0,floor
+0225429AR,Prunus cerasifera 'Pissardii',False,C\ Pedrell,7.31,6.51,ok,,large,429968.11,4586144.45,429966.05,4586151.47,1.5,class
+0225430AR,Platanus × acerifolia,True,C\ Pedrell,6.12,5.27,ok,,large,429886.01,4586140.5,429887.79,4586134.65,1.5,class
+0225431AR,Pyrus calleryana 'Chanticleer',False,C\ Canonge Almera,5.94,5.58,ok,,medium,430004.0,4586279.56,430009.93,4586279.79,1.0,class
+0225432AR,Platanus × acerifolia,True,Av Frederic Rahola,4.84,4.23,ok,,medium,430549.75,4586254.34,430548.7,4586249.62,1.0,class
+0225433AR,Platanus × acerifolia,True,Pg Maragall,14.09,11.67,ok,,large,430385.61,4586543.71,430384.62,4586557.76,1.5,class
+0225434AR,Pinus halepensis,False,Pg Font d'en Fargas,,14.63,median,,check,,,,,1.0,floor
+0225435AR,Styphnolobium japonicum,False,C\ Can Pujolet,6.03,5.36,ok,,large,430125.18,4586376.04,430119.39,4586377.71,1.5,class
+0225436AR,Platanus × acerifolia,True,Pg Font d'en Fargas,3.67,2.65,ok,,medium,430254.07,4586179.42,430257.7,4586178.95,1.0,class
+0225437AR,Prunus cerasifera 'Pissardii',False,C\ Pedrell,3.08,2.16,ok,,small,430217.15,4586204.89,430217.68,4586201.85,1.0,class
+0225439AR,Hibiscus syriacus,False,C\ Marí,6.17,4.49,ok,,large,429842.91,4586247.36,429842.11,4586241.24,1.5,class
+0225440AR,Styphnolobium japonicum,False,C\ Ciències,6.37,4.25,ok,,large,429692.51,4586286.0,429686.76,4586283.25,1.5,class
+0225441AR,Platanus × acerifolia,True,C\ Pedrell,5.81,4.84,ok,,medium,430063.91,4586180.44,430064.88,4586174.71,1.0,class
+0225442AR,Styphnolobium japonicum,False,C\ Marquès de Foronda,5.04,4.52,ok,,medium,429796.43,4586351.38,429795.57,4586356.34,1.0,class
+0225443AR,Citrus × aurantium,False,C\ Mossèn Josep Bundó,2.29,1.95,ok,,none,430180.47,4586445.9,430180.48,4586448.19,1.0,floor
+0225445AR,Acer buergerianum,False,C\ Peris i Mencheta,8.06,7.4,ok,,large,429979.89,4586397.18,429980.74,4586389.17,1.5,class
+0225447AR,Celtis australis,False,Pg Maragall,,11.24,median,9.01,check,,,,,1.0,floor
+0225448AR,Ulmus pumila,False,C\ Maurici Vilomara,22.08,19.8,ok,,large,430150.16,4585938.38,430155.56,4585916.97,1.5,class
+0225450AR,Platanus × acerifolia,True,Av Frederic Rahola,15.16,10.95,ok,,large,430260.95,4586340.97,430276.1,4586341.68,1.5,class
+0225451AR,Ulmus pumila,False,C\ Verema,4.75,4.26,ok,,medium,430064.83,4586283.08,430065.05,4586278.34,1.0,class
+0225455AR,Celtis australis,False,Pg Maragall,11.68,10.67,ok,,large,430407.9,4586541.96,430407.21,4586553.62,1.5,class
+0225457AR,Ginkgo biloba,False,C\ Garriga i Roca,7.02,6.27,ok,,large,430582.03,4585855.55,430586.61,4585850.22,1.5,class
+0225458AR,Ulmus pumila,False,C\ Verema,5.67,5.2,ok,,medium,430100.32,4586285.43,430100.23,4586279.76,1.0,class
+0225459AR,Ginkgo biloba,False,C\ Garriga i Roca,7.34,6.88,ok,,large,430579.15,4585856.73,430572.73,4585853.17,1.5,class
+0225460AR,Platanus × acerifolia,True,Pg Font d'en Fargas,3.95,3.26,ok,,medium,430278.66,4586262.24,430274.74,4586262.76,1.0,class
+0225461AR,Ginkgo biloba,False,C\ Garriga i Roca,9.45,9.02,ok,,large,430573.56,4585868.8,430564.37,4585871.05,1.5,class
+0225462AR,Styphnolobium japonicum,False,C\ Marquès de Foronda,5.56,3.85,ok,,medium,429893.6,4586364.52,429888.27,4586366.1,1.0,class
+0225463AR,Platanus × acerifolia,True,Pg Font d'en Fargas,12.97,5.11,ok,,large,430274.47,4586229.82,430272.37,4586217.02,1.5,class
+0225464AR,Styphnolobium japonicum,False,Bda Can Mateu,11.42,9.78,ok,,large,430018.43,4586495.8,430007.27,4586498.25,1.5,class
+0225465AR,Styphnolobium japonicum,False,C\ Marquès de Foronda,2.13,1.47,ok,,none,429896.65,4586364.82,429896.43,4586366.94,1.0,floor
+0225466AR,Ulmus pumila,False,Rbla Carmel,2.7,2.24,ok,,small,429661.6,4586053.59,429658.93,4586053.17,1.0,class
+0225467AR,Platanus × acerifolia,True,Av Frederic Rahola,7.77,7.04,ok,,large,430240.5,4586500.97,430233.01,4586503.04,1.5,class
+0225468AR,Platanus × acerifolia,True,Pg Font de la Mulassa,6.05,4.28,ok,,large,430017.98,4585948.45,430017.2,4585942.45,1.5,class
+0225469AR,Celtis australis,False,Pg Maragall,5.47,4.69,ok,,medium,430710.86,4586474.32,430713.94,4586478.84,1.0,class
+0225470AR,Platanus × acerifolia,True,C\ Peris i Mencheta,,23.83,median,16.61,check,,,,,1.0,floor
+0225471AR,Acer monspessulanum,False,C\ Gallecs,7.49,6.52,ok,,large,430455.15,4586378.66,430447.91,4586376.74,1.5,class
+0225472AR,Pyrus calleryana 'Chanticleer',False,C\ Verema,4.82,4.13,ok,,medium,430076.68,4586267.8,430076.58,4586272.62,1.0,class
+0225473AR,Styphnolobium japonicum,False,C\ Ciències,11.46,10.52,ok,,large,429706.29,4586187.9,429697.45,4586180.62,1.5,class
+0225474AR,Catalpa bignonioides,False,Rbla Carmel,6.58,5.49,ok,,large,429680.43,4585950.46,429674.38,4585953.03,1.5,class
+0225475AR,Platanus × acerifolia,True,Pg Font de la Mulassa,2.52,1.73,ok,,small,430027.23,4585918.23,430024.82,4585917.51,1.0,class
+0225476AR,Pyrus calleryana 'Chanticleer',False,C\ Camil Oliveras,6.15,1.68,ok,,large,430653.42,4585938.23,430658.56,4585934.86,1.5,class
+0225477AR,Styphnolobium japonicum,False,C\ Montserrat de Casanovas,6.35,5.76,ok,,large,430380.95,4586147.35,430379.91,4586153.62,1.5,class
+0225478AR,Styphnolobium japonicum,False,Pg Font d'en Fargas,4.01,3.24,ok,,medium,430304.06,4586448.88,430300.28,4586450.19,1.0,class
+0225480AR,Acer buergerianum,False,C\ Peris i Mencheta,,18.28,median,,check,,,,,1.0,floor
+0225483AR,Platanus × acerifolia,True,C\ Pedrell,5.6,4.84,ok,,medium,429863.5,4586133.02,429865.13,4586127.66,1.0,class
+0225484AR,Citrus × aurantium,False,C\ Mossèn Josep Bundó,,8.22,median,,check,,,,,1.0,floor
+0225485AR,Platanus × acerifolia,True,Pg Font d'en Fargas,16.64,15.67,ok,,large,430260.34,4586037.1,430243.85,4586039.36,1.5,class
+0225486AR,Robinia pseudoacacia,False,C\ Pedrell,8.86,8.29,ok,,large,429926.21,4586131.47,429925.68,4586140.31,1.5,class
+0225487AR,Celtis australis,False,Pg Maragall,,18.95,median,8.7,check,,,,,1.0,floor
+0225488AR,Styphnolobium japonicum,False,C\ Marquès de Foronda,8.84,7.93,ok,,large,429694.39,4586338.57,429688.57,4586345.22,1.5,class
+0225490AR,Platanus × acerifolia,True,Pg Font de la Mulassa,2.41,1.83,ok,,none,429974.18,4586091.21,429971.87,4586090.51,1.0,floor
+0225491AR,Platanus × acerifolia,True,Pg Font d'en Fargas,11.03,10.61,ok,,large,430305.92,4586409.9,430294.99,4586411.38,1.5,class
+0225492AR,Robinia pseudoacacia,False,C\ Pedrell,7.67,6.24,ok,,large,430166.0,4586183.78,430158.52,4586185.47,1.5,class
+0225493AR,Robinia pseudoacacia,False,C\ Canonge Almera,5.06,4.21,ok,,medium,430022.39,4586391.59,430018.1,4586394.27,1.0,class
+0225495AR,Platanus × acerifolia,True,Pg Font d'en Fargas,3.79,3.17,ok,,medium,430294.38,4586479.54,430298.13,4586479.0,1.0,class
+0225496AR,Ligustrum japonicum 'Texanum',False,C\ Arc de Sant Martí,,8.79,median,,check,,,,,1.0,floor
+0225497AR,Citrus × aurantium,False,Ptge Pujolet,3.51,2.91,ok,,medium,430093.66,4586147.01,430097.12,4586147.64,1.0,class
+0225498AR,Citrus × aurantium,False,C\ Mossèn Josep Bundó,,8.03,median,,check,,,,,1.0,floor
+0225499AR,Hibiscus syriacus,False,C\ Marí,4.2,3.37,ok,,medium,429889.26,4586103.78,429885.24,4586102.54,1.0,class
+0225500AR,Ulmus pumila,False,Rbla Carmel,2.76,2.0,ok,,small,429662.35,4586048.83,429659.63,4586048.4,1.0,class
+0225501AR,Melia azedarach,False,Av Frederic Rahola,2.59,1.96,ok,,small,430257.57,4586341.41,430257.9,4586343.98,1.0,class
+0225502AR,Ginkgo biloba,False,C\ Garriga i Roca,6.5,5.79,ok,,large,430614.55,4585992.49,430608.63,4585995.2,1.5,class
+0225503AR,Robinia pseudoacacia,False,C\ Canonge Almera,2.01,1.36,ok,,none,430012.56,4586174.48,430014.57,4586174.58,1.0,floor
+0225504AR,Pyrus calleryana 'Chanticleer',False,C\ Canonge Almera,4.2,3.65,ok,,medium,430021.89,4586387.91,430017.76,4586387.13,1.0,class
+0225505AR,Hibiscus syriacus,False,Ptge Pedrell,13.61,7.04,ok,,large,430484.43,4586197.96,430476.09,4586208.71,1.5,class
+0225506AR,Platanus × acerifolia,True,Pg Font d'en Fargas,14.55,11.12,ok,,large,430226.54,4585975.68,430227.92,4585961.2,1.5,class
+0225507AR,Robinia pseudoacacia,False,C\ Pedrell,7.32,5.3,ok,,large,429824.39,4586105.98,429829.84,4586110.86,1.5,class
+0225508AR,Styphnolobium japonicum,False,C\ Ciències,5.71,4.9,ok,,medium,429698.64,4586245.48,429693.0,4586244.62,1.0,class
+0225509AR,Ligustrum japonicum 'Texanum',False,Pg Font de la Mulassa,2.42,1.86,ok,,none,429976.52,4586083.71,429974.21,4586082.98,1.0,floor
+0225510AR,Celtis australis,False,Pg Maragall,,9.21,median,4.02,check,,,,,1.0,floor
+0225511AR,Platanus × acerifolia,True,Pg Font d'en Fargas,13.71,13.01,ok,,large,430273.05,4586396.71,430286.65,4586395.0,1.5,class
+0225512AR,Ligustrum japonicum 'Texanum',False,Pg Font de la Mulassa,2.59,2.06,ok,,small,429954.49,4586122.04,429956.98,4586122.79,1.0,class
+0225513AR,Citrus × aurantium,False,C\ Mossèn Josep Bundó,2.18,1.86,ok,,none,430190.59,4586445.87,430190.6,4586448.05,1.0,floor
+0225514AR,Platanus × acerifolia,True,Av Frederic Rahola,8.03,7.34,ok,,large,430259.41,4586360.47,430258.37,4586352.51,1.5,class
+0225515AR,Acer buergerianum,False,C\ Peris i Mencheta,5.76,5.07,ok,,medium,429932.58,4586347.32,429936.58,4586343.17,1.0,class
+0225518AR,Ulmus pumila,False,C\ Marquès de Foronda,2.2,0.85,ok,,none,429942.09,4586369.51,429941.86,4586371.7,1.0,floor
+0225520AR,Styphnolobium japonicum,False,C\ Maurici Vilomara,,19.42,median,1.16,check,,,,,1.0,floor
+0225521AR,Platanus × acerifolia,True,C\ Pedrell,7.0,6.03,ok,,large,429787.77,4586111.24,429789.79,4586104.53,1.5,class
+0225522AR,Ligustrum lucidum,False,Pg Font de la Mulassa,3.32,2.13,ok,,small,429980.48,4586036.66,429982.43,4586039.34,1.0,class
+0225523AR,Platanus × acerifolia,True,Av Frederic Rahola,8.05,7.39,ok,,large,430309.03,4586348.92,430307.84,4586340.95,1.5,class
+0225524AR,Robinia pseudoacacia,False,C\ Pedrell,,12.85,median,,check,,,,,1.0,floor
+0225526AR,Styphnolobium japonicum,False,Bda Can Mateu,7.87,7.09,ok,,large,430040.09,4586478.51,430034.7,4586472.78,1.5,class
+0225527AR,Platanus × acerifolia,True,C\ Peris i Mencheta,10.16,7.66,ok,,large,430129.91,4586546.97,430138.71,4586552.03,1.5,class
+0225528AR,Styphnolobium japonicum,False,C\ Canonge Almera,5.37,4.58,ok,,medium,430005.94,4586257.27,430010.96,4586259.2,1.0,class
+0225529AR,Robinia pseudoacacia 'Bessoniana',False,Ptge Pujolet,5.99,5.37,ok,,medium,430097.03,4586116.09,430103.0,4586116.52,1.0,class
+0225530AR,Platanus × acerifolia,True,Av Frederic Rahola,6.41,5.69,ok,,large,430238.21,4586565.49,430231.86,4586566.43,1.5,class
+0225532AR,Platanus × acerifolia,True,Av Frederic Rahola,6.66,5.67,ok,,large,430553.17,4586218.02,430557.92,4586222.7,1.5,class
+0225533AR,Styphnolobium japonicum,False,Pg Font d'en Fargas,5.51,4.52,ok,,medium,430303.43,4586444.67,430299.03,4586441.37,1.0,class
+0225534AR,Acer monspessulanum,False,C\ Trèvol,12.68,11.75,ok,,large,430423.48,4586442.28,430424.84,4586429.67,1.5,class
+0225535AR,Styphnolobium japonicum,False,C\ Peris i Mencheta,2.72,2.22,ok,,small,429980.24,4586377.7,429978.29,4586379.59,1.0,class
+0225538AR,Ginkgo biloba,False,C\ Garriga i Roca,8.21,7.29,ok,,large,430615.59,4585994.77,430610.89,4586001.5,1.5,class
+0225539AR,Robinia pseudoacacia,False,Pg Font de la Mulassa,5.72,4.99,ok,,medium,429971.36,4586111.64,429965.86,4586110.05,1.0,class
+0225540AR,Styphnolobium japonicum,False,C\ Marquès de Foronda,5.14,4.47,ok,,medium,429807.02,4586366.02,429806.81,4586360.89,1.0,class
+0225541AR,Firmiana simplex,False,C\ Mas Pujol,,11.79,median,,check,,,,,1.0,floor
+0225542AR,Platanus × acerifolia,True,Pg Font d'en Fargas,3.43,2.69,ok,,small,430227.48,4585982.41,430230.87,4585981.94,1.0,class
+0225544AR,Cercis siliquastrum,False,C\ Pedrell,7.42,6.54,ok,,large,430040.79,4586177.95,430040.82,4586170.53,1.5,class
+0225545AR,Platanus × acerifolia,True,C\ Peris i Mencheta,4.4,3.73,ok,,medium,430100.96,4586501.28,430096.57,4586501.47,1.0,class
+0225546AR,Celtis australis,False,Pg Maragall,8.2,7.28,ok,,large,430763.31,4586451.39,430766.16,4586459.08,1.5,class
+0225547AR,Citrus × aurantium,False,C\ Mossèn Josep Bundó,2.34,1.89,ok,,none,430175.41,4586445.91,430175.42,4586448.25,1.0,floor
+0225549AR,Platanus × acerifolia,True,Av Frederic Rahola,5.79,4.95,ok,,medium,430214.25,4586394.01,430208.51,4586394.82,1.0,class
+0225550AR,Ligustrum lucidum,False,C\ Ciències,,16.99,median,9.88,check,,,,,1.0,floor
+0225551AR,Robinia pseudoacacia,False,C\ Verema,1.95,1.41,ok,,none,430024.85,4586278.15,430024.96,4586276.2,1.0,floor
+0225552AR,Malus x purpurea,False,C\ Mossèn Josep Bundó,8.1,7.38,ok,,large,430153.87,4586458.41,430160.34,4586453.53,1.5,class
+0225553AR,Platanus × acerifolia,True,Pg Font d'en Fargas,10.19,8.69,ok,,large,430295.35,4586486.31,430300.36,4586495.19,1.5,class
+0225554AR,Robinia pseudoacacia,False,C\ Arc de Sant Martí,5.43,4.5,ok,,medium,430612.68,4586451.6,430616.37,4586455.58,1.0,class
+0225555AR,Malus PERPETU® 'Evereste',False,C\ Pintor Pradilla,,5.55,median,5.13,check,,,,,1.0,floor
+0225556AR,Styphnolobium japonicum,False,Pg Font d'en Fargas,3.9,3.23,ok,,medium,430304.31,4586552.52,430308.18,4586552.0,1.0,class
+0225558AR,Acer buergerianum,False,C\ Peris i Mencheta,,8.19,median,,check,,,,,1.0,floor
+0225559AR,Celtis australis,False,Pg Maragall,5.23,4.58,ok,,medium,430137.95,4586592.63,430139.82,4586597.51,1.0,class
+0225560AR,Ligustrum lucidum,False,C\ Ciències,15.57,14.31,ok,,large,429706.56,4586236.2,429693.41,4586227.88,1.5,class
+0225561AR,Platanus × acerifolia,True,Av Frederic Rahola,5.74,4.16,ok,,medium,430207.44,4586373.04,430206.97,4586378.76,1.0,class
+0225562AR,Platanus × acerifolia,True,Av Frederic Rahola,11.38,9.54,ok,,large,430573.7,4586212.28,430568.16,4586202.35,1.5,class
+0225563AR,Styphnolobium japonicum,False,C\ Montserrat de Casanovas,7.98,7.07,ok,,large,430186.62,4586111.89,430187.19,4586119.85,1.5,class
+0225564AR,Acer platanoides 'Crimson King',False,C\ Trèvol,,11.47,median,,check,,,,,1.0,floor
+0225565AR,Platanus × acerifolia,True,C\ Mas Pujol,15.27,9.25,ok,,large,430170.09,4586293.18,430185.36,4586292.7,1.5,class
+0225566AR,Ginkgo biloba,False,C\ Pintor Pradilla,,11.87,median,22.58,check,,,,,1.0,floor
+0225567AR,Styphnolobium japonicum,False,Pg Font d'en Fargas,,9.57,median,11.65,check,,,,,1.0,floor
+0225568AR,Acer saccharinum,False,C\ Peris i Mencheta,4.68,4.28,ok,,medium,429931.48,4586324.11,429928.12,4586327.38,1.0,class
+0225570AR,Platanus × acerifolia,True,C\ Peris i Mencheta,4.82,4.28,ok,,medium,429993.57,4586388.4,429990.11,4586391.76,1.0,class
+0225571AR,Parrotia persica 'Vanessa',False,C\ Pintor Pradilla,,11.79,median,6.55,check,,,,,1.0,floor
+0225572AR,Ulmus pumila,False,C\ Verema,2.07,1.5,ok,,none,430134.03,4586283.53,430134.14,4586281.46,1.0,floor
+0225573AR,Celtis australis,False,Pg Maragall,7.09,4.47,ok,,large,430487.35,4586532.51,430488.72,4586539.46,1.5,class
+0225575AR,Styphnolobium japonicum,False,C\ Marquès de Foronda,3.52,2.38,ok,,medium,429757.35,4586358.27,429755.04,4586355.61,1.0,class
+0225576AR,Platanus × acerifolia,True,Av Frederic Rahola,5.21,4.3,ok,,medium,430539.58,4586261.16,430535.21,4586258.33,1.0,class
+0225577AR,Ligustrum japonicum 'Texanum',False,Pg Font de la Mulassa,2.57,1.82,ok,,small,429952.08,4586130.03,429954.54,4586130.77,1.0,class
+0225578AR,Styphnolobium japonicum,False,C\ Marquès de Foronda,9.22,8.65,ok,,large,429884.84,4586356.46,429883.8,4586365.62,1.5,class
+0225580AR,Pyrus calleryana 'Chanticleer',False,C\ Verema,1.93,1.46,ok,,none,430029.94,4586278.43,430030.05,4586276.51,1.0,floor
+0225581AR,Celtis australis,False,Pg Maragall,,19.51,median,,check,,,,,1.0,floor
+0225583AR,Platanus × acerifolia,True,Av Frederic Rahola,6.0,5.38,ok,,medium,430481.73,4586284.61,430479.61,4586279.0,1.0,class
+0225584AR,Photinia x fraseri 'Red Robin',False,C\ Montserrat de Casanovas,3.96,2.87,ok,,medium,430227.3,4586123.06,430228.07,4586126.95,1.0,class
+0225585AR,Robinia pseudoacacia,False,C\ Marí,3.1,2.44,ok,,small,429853.32,4586212.93,429850.4,4586213.96,1.0,class
+0225587AR,Platanus × acerifolia,True,Pg Font de la Mulassa,2.9,2.21,ok,,small,429928.83,4586204.7,429931.62,4586205.5,1.0,class
+0225588AR,Platanus × acerifolia,True,C\ Peris i Mencheta,2.26,1.78,ok,,none,430063.79,4586464.01,430062.17,4586465.59,1.0,floor
+0225589AR,Photinia x fraseri 'Red Robin',False,Pg Font de la Mulassa,7.68,7.02,ok,,large,429954.14,4586172.17,429946.67,4586173.96,1.5,class
+0225590AR,Citrus × aurantium,False,Pg Font de la Mulassa,3.01,2.0,ok,,small,429927.53,4586210.51,429929.36,4586212.9,1.0,class
+0225591AR,Styphnolobium japonicum,False,C\ Peris i Mencheta,4.43,3.37,ok,,medium,430069.35,4586485.87,430073.68,4586484.88,1.0,class
+0225592AR,Platanus × acerifolia,True,C\ Peris i Mencheta,5.5,5.02,ok,,medium,430153.4,4586552.15,430149.48,4586556.02,1.0,class
+0225593AR,Pyrus calleryana 'Chanticleer',False,C\ Can Pujolet,5.81,5.29,ok,,medium,430125.02,4586369.82,430119.21,4586369.97,1.0,class
+0225594AR,Ligustrum japonicum 'Texanum',False,C\ Arc de Sant Martí,6.57,5.65,ok,,large,430762.75,4586347.46,430757.13,4586344.05,1.5,class
+0225596AR,Ulmus pumila,False,C\ Maurici Vilomara,,37.87,no_facade,11.47,check,,,,,1.0,floor
+0225598AR,Platanus × acerifolia,True,Pg Font d'en Fargas,3.59,2.9,ok,,medium,430249.85,4586146.74,430253.2,4586145.47,1.0,class
+0225599AR,Ulmus pumila,False,C\ Verema,4.54,3.54,ok,,medium,430056.99,4586280.08,430061.11,4586278.16,1.0,class
+0225603AR,Platanus × acerifolia,True,Pg Font d'en Fargas,3.88,3.16,ok,,medium,430303.43,4586545.85,430307.28,4586545.33,1.0,class
+0225604AR,Robinia pseudoacacia,False,Pg Font de la Mulassa,2.27,1.61,ok,,none,429980.28,4586071.12,429978.11,4586070.46,1.0,floor
+0225606AR,Platanus × acerifolia,True,C\ Peris i Mencheta,2.77,1.86,ok,,small,430125.78,4586542.73,430127.77,4586540.8,1.0,class
+0225608AR,Robinia pseudoacacia,False,C\ Montserrat de Casanovas,10.96,8.15,ok,,large,430227.3,4586123.06,430236.82,4586128.5,1.5,class
+0225609AR,Hibiscus syriacus,False,C\ Verema,6.81,6.21,ok,,large,430082.13,4586285.75,430082.03,4586278.93,1.5,class
+0225610AR,Platanus × acerifolia,True,C\ Mas Pujol,,15.11,median,,check,,,,,1.0,floor
+0225612AR,Citrus × aurantium,False,C\ Verema,10.54,8.49,ok,,large,430054.13,4586279.92,430043.93,4586277.25,1.5,class
+0225613AR,Ligustrum japonicum 'Texanum',False,C\ Montserrat de Casanovas,4.37,3.51,ok,,medium,430178.85,4586126.82,430182.22,4586124.04,1.0,class
+0225614AR,Hibiscus syriacus,False,C\ Marí,4.03,3.24,ok,,medium,429887.15,4586109.98,429883.29,4586108.8,1.0,class
+0225615AR,Platanus × acerifolia,True,Pg Font de la Mulassa,3.49,2.67,ok,,small,429908.23,4586273.9,429909.9,4586276.96,1.0,class
+0225616AR,Photinia x fraseri 'Red Robin',False,C\ Arc de Sant Martí,,10.3,median,,check,,,,,1.0,floor
+0225617AR,Melia azedarach,False,C\ Ciències,,23.05,no_kerb,,check,,,,,1.0,floor
+0225618AR,Platanus × acerifolia,True,Av Frederic Rahola,7.51,6.99,ok,,large,430302.96,4586349.82,430299.24,4586343.29,1.5,class
+0225619AR,Platanus × acerifolia,True,Av Frederic Rahola,4.59,3.85,ok,,medium,430304.18,4586329.31,430304.86,4586333.85,1.0,class
+0225620AR,Robinia pseudoacacia,False,C\ Montserrat de Casanovas,3.76,2.98,ok,,medium,430111.84,4586102.92,430110.88,4586106.55,1.0,class
+0225621AR,Robinia pseudoacacia,False,C\ Peris i Mencheta,8.24,7.33,ok,,large,429900.74,4586291.68,429898.36,4586299.56,1.5,class
+0225622AR,Styphnolobium japonicum,False,C\ Marquès de Foronda,2.4,1.73,ok,,none,429732.14,4586355.65,429732.38,4586353.25,1.0,floor
+0225623AR,Styphnolobium japonicum,False,C\ Marquès de Foronda,5.38,4.76,ok,,medium,429863.91,4586372.23,429864.44,4586366.87,1.0,class
+0225625AR,Parrotia persica 'Vanessa',False,C\ Pintor Pradilla,8.67,7.95,ok,,large,430320.52,4586082.61,430315.42,4586075.6,1.5,class
+0225626AR,Celtis australis,False,Pg Maragall,,11.06,median,,check,,,,,1.0,floor
+0225627AR,Robinia pseudoacacia,False,C\ Arc de Sant Martí,,11.65,median,26.75,check,,,,,1.0,floor
+0225628AR,Platanus × acerifolia,True,C\ Peris i Mencheta,4.96,4.18,ok,,medium,429915.55,4586328.66,429919.17,4586325.26,1.0,class
+0225629AR,Ligustrum japonicum 'Texanum',False,C\ Arc de Sant Martí,7.13,6.2,ok,,large,430758.89,4586354.81,430753.26,4586350.42,1.5,class
+0225630AR,Platanus × acerifolia,True,Pg Font d'en Fargas,18.77,17.8,ok,,large,430305.7,4586408.29,430292.81,4586394.65,1.5,class
+0225633AR,Celtis australis,False,C\ Estoril,3.0,2.41,ok,,small,430082.21,4586546.07,430080.16,4586543.88,1.0,class
+0225634AR,Styphnolobium japonicum,False,Pg Font d'en Fargas,6.7,6.16,ok,,large,430311.74,4586483.64,430305.11,4586484.58,1.5,class
+0225635AR,Celtis australis,False,Pg Maragall,8.72,8.03,ok,,large,430729.62,4586463.62,430733.33,4586471.51,1.5,class
+0225636AR,Platanus × acerifolia,True,C\ Peris i Mencheta,,20.68,median,14.5,check,,,,,1.0,floor
+0225637AR,Photinia x fraseri 'Red Robin',False,C\ Montserrat de Casanovas,3.63,3.07,ok,,medium,430139.91,4586107.86,430139.28,4586111.44,1.0,class
+0225638AR,Citrus × aurantium,False,Pg Font de la Mulassa,5.65,4.69,ok,,medium,429939.2,4586161.32,429944.62,4586162.93,1.0,class
+0225639AR,Robinia pseudoacacia,False,C\ Marí,12.96,12.24,ok,,large,429913.45,4586055.04,429901.41,4586050.21,1.5,class
+0225640AR,Robinia pseudoacacia,False,C\ Pintor Pradilla,2.86,2.29,ok,,small,430348.98,4586083.69,430347.92,4586081.03,1.0,class
+0225641AR,Pyrus calleryana 'Chanticleer',False,C\ Canonge Almera,6.71,6.24,ok,,large,430022.12,4586286.16,430015.58,4586287.68,1.5,class
+0225642AR,Robinia pseudoacacia,False,C\ Montserrat de Casanovas,10.48,9.67,ok,,large,430345.35,4586137.13,430343.22,4586147.39,1.5,class
+0225643AR,Robinia pseudoacacia,False,C\ Canonge Almera,,7.96,median,,check,,,,,1.0,floor
+0225644AR,Robinia pseudoacacia,False,Pg Font d'en Fargas,,6.16,median,3.93,check,,,,,1.0,floor
+0225645AR,Platanus × acerifolia,True,Pg Font d'en Fargas,9.08,8.18,ok,,large,430250.41,4586216.25,430259.41,4586215.13,1.5,class
+0225647AR,Acer buergerianum,False,C\ Peris i Mencheta,5.15,4.55,ok,,medium,429880.34,4586292.86,429878.9,4586297.8,1.0,class
+0225648AR,Platanus × acerifolia,True,C\ Peris i Mencheta,5.29,4.69,ok,,medium,429992.12,4586386.91,429987.14,4586388.67,1.0,class
+0225650AR,Platanus × acerifolia,True,C\ Montserrat de Casanovas,7.58,6.23,ok,,large,430219.79,4586134.09,430226.98,4586131.68,1.5,class
+0225651AR,Melia azedarach,False,C\ Ciències,5.43,4.72,ok,,medium,429697.91,4586250.28,429692.54,4586249.46,1.0,class
+0225652AR,Ligustrum lucidum,False,Ptge Espiell,7.23,3.91,ok,,large,429775.99,4586273.54,429781.44,4586268.79,1.5,class
+0225653AR,Ginkgo biloba,False,C\ Pintor Pradilla,5.38,4.48,ok,,medium,430270.07,4586057.14,430269.12,4586062.44,1.0,class
+0225654AR,Robinia pseudoacacia,False,C\ Montserrat de Casanovas,7.72,6.95,ok,,large,430177.1,4586110.22,430175.77,4586117.82,1.5,class
+0225655AR,Styphnolobium japonicum,False,C\ Ciències,7.97,6.46,ok,,large,429695.74,4586279.12,429687.77,4586279.15,1.5,class
+0225656AR,Citrus × aurantium,False,Pg Font de la Mulassa,5.31,4.07,ok,,medium,429971.03,4586061.39,429976.18,4586060.1,1.0,class
+0225657AR,Citrus × aurantium,False,C\ Can Pujolet,,11.29,median,,check,,,,,1.0,floor
+0225658AR,Platanus × acerifolia,True,Av Frederic Rahola,5.35,4.82,ok,,medium,430573.7,4586212.28,430568.44,4586211.33,1.0,class
+0225660AR,Styphnolobium japonicum,False,C\ Marquès de Foronda,2.83,1.76,ok,,small,429713.74,4586345.49,429715.02,4586348.01,1.0,class
+0225661AR,Citrus × aurantium,False,C\ Mossèn Josep Bundó,4.33,3.83,ok,,medium,430135.08,4586458.16,430134.96,4586453.82,1.0,class
+0225663AR,Platanus × acerifolia,True,Av Frederic Rahola,5.5,4.85,ok,,medium,430489.14,4586281.35,430487.19,4586276.21,1.0,class
+0225664AR,Styphnolobium japonicum,False,C\ Marquès de Foronda,5.22,4.55,ok,,medium,429762.46,4586347.75,429761.9,4586352.94,1.0,class
+0225665AR,Ginkgo biloba,False,C\ Garriga i Roca,5.67,5.09,ok,,medium,430588.98,4585926.84,430583.48,4585925.47,1.0,class
+0225666AR,Styphnolobium japonicum,False,Pg Font de la Mulassa,4.31,3.44,ok,,medium,429959.03,4586101.11,429963.17,4586102.31,1.0,class
+0225667AR,Ginkgo biloba,False,C\ Garriga i Roca,9.37,8.82,ok,,large,430573.69,4585861.28,430564.84,4585864.34,1.5,class
+0225670AR,Robinia pseudoacacia,False,C\ Montserrat de Casanovas,3.52,2.85,ok,,medium,430213.27,4586132.93,430213.89,4586129.46,1.0,class
+0225671AR,Photinia x fraseri 'Red Robin',False,Pg Font de la Mulassa,,10.33,median,,check,,,,,1.0,floor
+0225672AR,Ginkgo biloba,False,C\ Garriga i Roca,5.48,5.02,ok,,medium,430599.48,4585953.81,430594.59,4585956.29,1.0,class
+0225674AR,Acer buergerianum,False,C\ Peris i Mencheta,4.85,4.35,ok,,medium,429996.2,4586391.11,429992.72,4586394.49,1.0,class
+0225675AR,Ligustrum japonicum 'Texanum',False,Ptge Pujolet,8.44,7.79,ok,,large,430107.69,4586166.01,430099.37,4586164.6,1.5,class
+0225677AR,Platanus × acerifolia,True,C\ Montserrat de Casanovas,11.82,10.65,ok,,large,430240.72,4586117.74,430242.16,4586129.47,1.5,class
+0225678AR,Styphnolobium japonicum,False,C\ Ciències,12.37,11.31,ok,,large,429703.6,4586207.72,429691.81,4586203.95,1.5,class
+0225679AR,Platanus × acerifolia,True,Pg Font d'en Fargas,16.71,16.07,ok,,large,430262.19,4586050.64,430245.64,4586052.91,1.5,class
+0225680AR,Platanus × acerifolia,True,Av Frederic Rahola,7.54,6.98,ok,,large,430193.4,4586431.78,430200.95,4586431.73,1.5,class
+0225681AR,Platanus × acerifolia,True,Pg Maragall,,8.03,median,5.06,check,,,,,1.0,floor
+0225682AR,Platanus × acerifolia,True,Pg Font d'en Fargas,,13.35,median,4.31,check,,,,,1.0,floor
+0225683AR,Platanus × acerifolia,True,C\ Peris i Mencheta,2.82,1.9,ok,,small,430111.21,4586527.76,430113.23,4586525.79,1.0,class
+0225684AR,Styphnolobium japonicum,False,C\ Pedrell,9.89,8.97,ok,,large,429717.51,4586066.21,429714.57,4586075.65,1.5,class
+0225686AR,Celtis australis,False,Pg Maragall,9.27,8.15,ok,,large,430760.07,4586452.59,430759.0,4586461.8,1.5,class
+0225687AR,Photinia x fraseri 'Red Robin',False,C\ Arc de Sant Martí,8.86,7.7,ok,,large,430745.96,4586343.89,430754.5,4586341.5,1.5,class
+0225688AR,Hibiscus syriacus,False,Ptge Pedrell,,9.09,no_kerb,41.73,check,,,,,1.0,floor
+0225690AR,Platanus × acerifolia,True,Pg Font d'en Fargas,11.7,10.17,ok,,large,430265.32,4586266.72,430267.49,4586255.22,1.5,class
+0225691AR,Platanus × acerifolia,True,C\ Peris i Mencheta,2.49,1.77,ok,,none,429963.34,4586360.28,429961.55,4586362.02,1.0,floor
+0225692AR,Photinia x fraseri 'Red Robin',False,C\ Montserrat de Casanovas,6.35,5.05,ok,,large,430291.78,4586149.64,430292.89,4586143.39,1.5,class
+0225693AR,Robinia pseudoacacia,False,C\ Canonge Almera,4.41,3.9,ok,,medium,430021.49,4586252.78,430017.21,4586251.68,1.0,class
+0225694AR,Celtis australis,False,Pg Maragall,8.76,8.12,ok,,large,430717.08,4586468.29,430720.13,4586476.5,1.5,class
+0225695AR,Robinia pseudoacacia,False,C\ Montserrat de Casanovas,9.31,8.66,ok,,large,430242.7,4586143.46,430241.4,4586134.24,1.5,class
+0225696AR,Platanus × acerifolia,True,Av Frederic Rahola,5.63,4.85,ok,,medium,430246.66,4586362.29,430244.68,4586357.01,1.0,class
+0225697AR,Pyrus calleryana 'Chanticleer',False,Rbla Carmel,2.99,2.29,ok,,small,429666.02,4586025.36,429663.07,4586024.9,1.0,class
+0225698AR,Robinia pseudoacacia,False,C\ Pedrell,2.99,2.02,ok,,small,429766.53,4586100.49,429767.38,4586097.63,1.0,class
+0225699AR,Prunus cerasifera 'Pissardii',False,C\ Mossèn Josep Bundó,5.92,5.13,ok,,medium,430387.24,4586471.14,430393.06,4586470.06,1.0,class
+0225700AR,Ligustrum japonicum 'Texanum',False,C\ Montserrat de Casanovas,6.8,5.99,ok,,large,430022.08,4586102.42,430025.92,4586096.81,1.5,class
+0225701AR,Celtis australis,False,C\ Estoril,,9.68,median,,check,,,,,1.0,floor
+0225702AR,Quercus ilex,False,C\ Sant Martí de Porres,,9.37,median,7.53,check,,,,,1.0,floor
+0225704AR,Platanus × acerifolia,True,Pg Font d'en Fargas,,9.48,median,,check,,,,,1.0,floor
+0225705AR,Hibiscus syriacus,False,C\ Marí,8.51,4.76,ok,,large,429874.22,4586110.86,429878.65,4586103.59,1.5,class
+0225706AR,Prunus cerasifera 'Pissardii',False,C\ Mossèn Josep Bundó,5.82,5.36,ok,,medium,430385.02,4586467.59,430387.53,4586462.33,1.0,class
+0225707AR,Photinia x fraseri 'Red Robin',False,C\ Montserrat de Casanovas,10.05,8.99,ok,,large,430035.71,4586105.89,430043.77,4586099.89,1.5,class
+0225708AR,Prunus cerasifera 'Pissardii',False,C\ Pedrell,3.34,2.39,ok,,small,429925.24,4586149.29,429924.71,4586145.99,1.0,class
+0225709AR,Ginkgo biloba,False,C\ Pintor Pradilla,6.69,5.81,ok,,large,430301.47,4586080.0,430302.49,4586073.4,1.5,class
+0225710AR,Acer platanoides 'Crimson King',False,C\ Gallecs,,19.49,median,27.57,check,,,,,1.0,floor
+0225711AR,Prunus cerasifera 'Pissardii',False,C\ Mossèn Josep Bundó,,8.46,median,,check,,,,,1.0,floor
+0225713AR,Celtis australis,False,Pg Maragall,5.51,4.63,ok,,medium,430790.14,4586444.08,430792.12,4586449.22,1.0,class
+0225714AR,Platanus × acerifolia,True,Pg Font d'en Fargas,16.48,15.79,ok,,large,430260.72,4586326.97,430277.14,4586325.5,1.5,class
+0225715AR,Crataegus x media 'Paul's Scarlet',False,C\ Can Pujolet,5.12,4.45,ok,,medium,430123.48,4586336.42,430118.36,4586336.44,1.0,class
+0225717AR,Platanus × acerifolia,True,C\ Peris i Mencheta,4.65,4.14,ok,,medium,429920.99,4586313.33,429917.65,4586316.58,1.0,class
+0225718AR,Melia azedarach,False,C\ Joan Manén,11.0,9.99,ok,,large,430372.0,4586299.75,430381.29,4586293.86,1.5,class
+0225719AR,Platanus × acerifolia,True,Pg Font d'en Fargas,,9.13,median,,check,,,,,1.0,floor
+0225720AR,Acer buergerianum,False,C\ Peris i Mencheta,,13.35,median,,check,,,,,1.0,floor
+0225723AR,Citrus × aurantium,False,C\ Mossèn Josep Bundó,12.25,10.03,ok,,large,430192.7,4586445.86,430204.81,4586447.74,1.5,class
+0225725AR,Styphnolobium japonicum,False,C\ Marquès de Foronda,7.56,6.71,ok,,large,429882.55,4586376.39,429883.38,4586368.87,1.5,class
+0225727AR,Styphnolobium japonicum,False,C\ Marquès de Foronda,2.03,1.45,ok,,none,429913.68,4586366.7,429913.47,4586368.72,1.0,floor
+0225729AR,Platanus × acerifolia,True,Av Frederic Rahola,9.66,8.68,ok,,large,430213.66,4586426.92,430212.12,4586436.46,1.5,class
+0225731AR,Celtis australis,False,Pg Maragall,8.44,7.42,ok,,large,430574.06,4586512.42,430575.72,4586520.7,1.5,class
+0225732AR,Platanus × acerifolia,True,Pg Font d'en Fargas,3.82,2.71,ok,,medium,430255.53,4586190.73,430259.31,4586190.24,1.0,class
+0225733AR,Robinia pseudoacacia,False,C\ Marí,5.06,4.09,ok,,medium,429863.04,4586138.36,429867.89,4586139.83,1.0,class
+0225734AR,Platanus × acerifolia,True,C\ Peris i Mencheta,2.4,1.75,ok,,none,429947.24,4586343.61,429945.51,4586345.29,1.0,floor
+0225735AR,Ligustrum japonicum 'Texanum',False,C\ Arc de Sant Martí,6.21,5.7,ok,,large,430777.69,4586241.77,430783.72,4586243.3,1.5,class
+0225736AR,Styphnolobium japonicum,False,C\ Can Pujolet,6.2,5.46,ok,,large,430123.72,4586303.41,430117.52,4586303.51,1.5,class
+0225737AR,Ginkgo biloba,False,C\ Pintor Pradilla,8.57,7.76,ok,,large,430303.56,4586080.24,430310.08,4586074.7,1.5,class
+0225738AR,Platanus × acerifolia,True,C\ Pedrell,5.6,4.7,ok,,medium,429773.88,4586105.48,429775.83,4586100.23,1.0,class
+0225739AR,Platanus × acerifolia,True,C\ Pedrell,10.74,7.85,ok,,large,430189.57,4586187.85,430199.14,4586192.73,1.5,class
+0225740AR,Robinia pseudoacacia,False,C\ Pedrell,3.09,2.18,ok,,small,429771.15,4586089.59,429770.23,4586092.54,1.0,class
+0225742AR,Hibiscus syriacus,False,C\ Marí,7.8,7.08,ok,,large,429879.85,4586072.87,429887.28,4586075.26,1.5,class
+0225745AR,Platanus × acerifolia,True,Av Frederic Rahola,8.27,7.53,ok,,large,430459.38,4586269.21,430462.28,4586276.95,1.5,class
+0225746AR,Platanus × acerifolia,True,Av Frederic Rahola,9.16,8.39,ok,,large,430352.2,4586311.14,430347.72,4586319.13,1.5,class
+0225747AR,Platanus × acerifolia,True,Av Frederic Rahola,5.42,4.67,ok,,medium,430496.48,4586278.57,430494.55,4586273.49,1.0,class
+0225748AR,Platanus × acerifolia,True,Pg Font d'en Fargas,14.34,13.73,ok,,large,430270.42,4586382.33,430284.59,4586380.14,1.5,class
+0225749AR,Platanus × acerifolia,True,Pg Font d'en Fargas,6.31,5.6,ok,,large,430240.79,4586102.58,430247.06,4586101.8,1.5,class
+0225750AR,Acer buergerianum,False,C\ Peris i Mencheta,2.57,1.76,ok,,small,429970.12,4586367.27,429968.28,4586369.07,1.0,class
+0225752AR,Celtis australis,False,Pg Maragall,5.76,5.02,ok,,medium,430830.18,4586428.75,430832.18,4586434.16,1.0,class
+0225753AR,Celtis australis,False,Pg Maragall,5.2,4.43,ok,,medium,430297.13,4586562.99,430297.62,4586568.16,1.0,class
+0225754AR,Robinia pseudoacacia,False,C\ Arc de Sant Martí,3.68,3.05,ok,,medium,430583.48,4586463.24,430584.7,4586466.71,1.0,class
+0225755AR,Robinia pseudoacacia,False,C\ Pedrell,5.76,4.68,ok,,medium,430241.75,4586211.55,430241.04,4586205.84,1.0,class
+0225756AR,Platanus × acerifolia,True,Av Frederic Rahola,5.72,5.22,ok,,medium,430356.02,4586330.66,430354.3,4586325.2,1.0,class
+0225757AR,Platanus × acerifolia,True,C\ Pedrell,6.09,5.01,ok,,large,430276.34,4586203.99,430270.28,4586204.56,1.5,class
+0225758AR,Robinia pseudoacacia,False,C\ Canonge Almera,12.27,11.02,ok,,large,430024.0,4586235.05,430018.5,4586224.08,1.5,class
+0225759AR,Populus nigra 'Italica',False,C\ Pedrell,,9.95,median,,check,,,,,1.0,floor
+0225760AR,Robinia pseudoacacia,False,C\ Canonge Almera,7.35,6.62,ok,,large,430021.18,4586299.26,430014.81,4586302.92,1.5,class
+0225761AR,Catalpa bignonioides,False,C\ Alt de Pedrell,,13.87,median,7.33,check,,,,,1.0,floor
+0225762AR,Tilia x europaea,False,C\ Verema,5.54,4.7,ok,,medium,430093.81,4586267.98,430094.32,4586273.5,1.0,class
+0225763AR,Pyrus calleryana 'Chanticleer',False,Rbla Carmel,8.87,8.25,ok,,large,429690.07,4585920.62,429681.33,4585919.12,1.5,class
+0225764AR,Styphnolobium japonicum,False,C\ Marquès de Foronda,4.01,3.15,ok,,medium,429802.26,4586353.02,429802.12,4586357.03,1.0,class
+0225766AR,Platanus × acerifolia,True,C\ Peris i Mencheta,5.33,4.83,ok,,medium,430077.41,4586473.71,430073.61,4586477.45,1.0,class
+0225767AR,Platanus × acerifolia,True,Pg Maragall,13.8,11.49,ok,,large,430390.93,4586542.67,430393.57,4586556.21,1.5,class
+0225768AR,Hibiscus syriacus,False,C\ Marí,5.71,4.7,ok,,medium,429874.07,4586099.01,429879.54,4586100.67,1.0,class
+0225769AR,Celtis australis,False,Pg Maragall,8.72,8.16,ok,,large,430723.78,4586465.8,430726.82,4586473.97,1.5,class
+0225770AR,Photinia x fraseri 'Red Robin',False,C\ Montserrat de Casanovas,7.61,6.88,ok,,large,430157.93,4586126.31,430162.98,4586120.63,1.5,class
+0225771AR,Platanus × acerifolia,True,C\ Peris i Mencheta,4.67,4.21,ok,,medium,429925.98,4586318.46,429922.64,4586321.72,1.0,class
+0225772AR,Citrus × aurantium,False,C\ Mossèn Josep Bundó,5.3,4.67,ok,,medium,430131.36,4586443.83,430129.62,4586448.84,1.0,class
+0225774AR,Hibiscus syriacus,False,C\ Marí,2.13,1.35,ok,,none,429873.8,4586112.29,429875.84,4586112.89,1.0,floor
+0225776AR,Styphnolobium japonicum,False,C\ Peris i Mencheta,,7.53,median,2.19,check,,,,,1.0,floor
+0269495AR,Pinus pinea,False,Av Frederic Rahola,,11.4,median,5.73,check,,,,,1.0,floor
+0269497AR,Ligustrum japonicum 'Texanum',False,C\ Montserrat de Casanovas,3.77,3.17,ok,,medium,430081.53,4586097.53,430080.09,4586101.01,1.0,class
+0269507AR,Robinia pseudoacacia,False,C\ Can Pujolet,,5.89,no_kerb,16.81,check,,,,,1.0,floor
+0269509AR,Robinia pseudoacacia,False,C\ Peris i Mencheta,26.24,8.25,ok,,large,429799.39,4586266.8,429803.53,4586292.71,1.5,class
+0286653AR,Pyrus calleryana 'Chanticleer',False,C\ Canonge Almera,7.3,6.96,ok,,large,430021.89,4586335.07,430015.04,4586337.61,1.5,class
+0286654AR,Styphnolobium japonicum,False,C\ Canonge Almera,,10.55,median,,check,,,,,1.0,floor
+0286661AR,Robinia pseudoacacia,False,C\ Pedrell,6.09,5.3,ok,,large,429735.27,4586094.12,429737.14,4586088.33,1.5,class
+0288735AR,Brachychiton acerifolius,False,C\ Santa Otília,2.49,2.69,ok,,none,429674.78,4585997.38,429675.22,4585994.93,1.0,floor
+0288736AR,Brachychiton acerifolius,False,C\ Santa Otília,2.59,2.6,ok,,small,429682.88,4585998.85,429683.34,4585996.3,1.0,class
+0288737AR,Brachychiton acerifolius,False,C\ Santa Otília,4.31,4.16,ok,,medium,429700.24,4586002.0,429703.95,4585999.79,1.0,class
+0288738AR,Brachychiton acerifolius,False,C\ Santa Otília,6.61,6.73,ok,,large,429709.58,4586007.47,429710.95,4586001.0,1.5,class
+0288739AR,Brachychiton acerifolius,False,C\ Santa Otília,6.85,6.8,ok,,large,429716.0,4586008.82,429717.41,4586002.12,1.5,class
+0288740AR,Brachychiton acerifolius,False,C\ Santa Otília,9.95,8.97,ok,,large,429853.81,4586048.56,429863.19,4586045.27,1.5,class
+0288741AR,Brachychiton acerifolius,False,C\ Santa Otília,2.97,2.35,ok,,small,429875.72,4586052.33,429876.59,4586049.49,1.0,class
+0288742AR,Brachychiton acerifolius,False,C\ Santa Otília,2.96,2.57,ok,,small,429881.8,4586054.2,429883.2,4586051.59,1.0,class
+0288743AR,Brachychiton acerifolius,False,C\ Santa Otília,7.05,6.88,ok,,large,429723.78,4586010.46,429725.23,4586003.57,1.5,class
+0288744AR,Brachychiton acerifolius,False,C\ Santa Otília,7.03,6.68,ok,,large,429729.67,4586011.7,429731.77,4586005.0,1.5,class
+0288745AR,Brachychiton acerifolius,False,C\ Santa Otília,6.85,6.73,ok,,large,429737.8,4586013.73,429739.19,4586007.02,1.5,class
+0288746AR,Brachychiton acerifolius,False,C\ Santa Otília,6.21,5.95,ok,,large,429744.24,4586015.07,429745.74,4586009.05,1.5,class
+0288747AR,Brachychiton acerifolius,False,C\ Santa Otília,,5.22,median,,check,,,,,1.0,floor
+0288748AR,Brachychiton acerifolius,False,C\ Santa Otília,5.79,5.55,ok,,medium,429758.9,4586019.25,429760.66,4586013.74,1.0,class
+0288749AR,Brachychiton acerifolius,False,C\ Santa Otília,5.85,5.43,ok,,medium,429766.01,4586021.52,429767.79,4586015.95,1.0,class
+0288750AR,Brachychiton acerifolius,False,C\ Santa Otília,4.47,3.51,ok,,medium,429774.89,4586021.14,429772.47,4586017.38,1.0,class
+0288751AR,Brachychiton acerifolius,False,C\ Santa Otília,2.9,2.23,ok,,small,429779.45,4586022.54,429780.3,4586019.76,1.0,class
+0288752AR,Brachychiton acerifolius,False,C\ Santa Otília,2.93,2.33,ok,,small,429785.13,4586024.28,429785.99,4586021.47,1.0,class
+0288753AR,Brachychiton acerifolius,False,C\ Santa Otília,2.96,2.33,ok,,small,429791.13,4586026.11,429791.99,4586023.28,1.0,class
+0288754AR,Brachychiton acerifolius,False,C\ Santa Otília,3.27,2.54,ok,,small,429797.96,4586028.2,429800.08,4586025.71,1.0,class
+0288755AR,Brachychiton acerifolius,False,C\ Santa Otília,,5.6,median,,check,,,,,1.0,floor
+0288756AR,Brachychiton acerifolius,False,C\ Santa Otília,,5.43,median,,check,,,,,1.0,floor
+0288757AR,Brachychiton acerifolius,False,C\ Santa Otília,3.05,2.56,ok,,small,429821.12,4586035.45,429822.03,4586032.54,1.0,class
+0288758AR,Brachychiton acerifolius,False,C\ Santa Otília,3.07,2.55,ok,,small,429834.61,4586039.68,429835.53,4586036.74,1.0,class
+0288759AR,Brachychiton acerifolius,False,C\ Santa Otília,3.09,2.63,ok,,small,429841.29,4586041.77,429842.21,4586038.82,1.0,class
+0288760AR,Brachychiton acerifolius,False,C\ Santa Otília,5.37,4.56,ok,,medium,429843.88,4586042.58,429849.0,4586040.93,1.0,class
+0288761AR,Brachychiton acerifolius,False,C\ Santa Otília,5.89,5.18,ok,,medium,429853.81,4586048.56,429855.71,4586042.99,1.0,class
+0298122AR,Platanus × acerifolia,True,Av Frederic Rahola,7.66,6.96,ok,,large,430388.83,4586320.41,430386.09,4586313.26,1.5,class
+0298123AR,Melia azedarach,False,Av Frederic Rahola,7.56,6.9,ok,,large,430377.43,4586323.31,430379.08,4586315.93,1.5,class
+0298124AR,Melia azedarach,False,Av Frederic Rahola,7.92,7.45,ok,,large,430214.88,4586356.83,430222.07,4586360.13,1.5,class
+0305306AR,Crataegus x media 'Paul's Scarlet',False,C\ Can Pujolet,2.66,2.06,ok,,small,430122.22,4586385.06,430119.57,4586385.11,1.0,class
+0309669AR,Celtis australis,False,Pg Maragall,,7.66,median,5.43,check,,,,,1.0,floor
+0309670AR,Celtis australis,False,C\ Llobregós,,12.13,median,,check,,,,,1.0,floor
+0309671AR,Celtis australis,False,C\ Llobregós,9.42,8.26,ok,,large,430012.39,4586522.68,430005.42,4586529.02,1.5,class
+0309672AR,Celtis australis,False,C\ Llobregós,11.72,10.26,ok,,large,430013.81,4586524.24,430017.55,4586535.34,1.5,class
+0309673AR,Celtis australis,False,C\ Llobregós,,16.18,median,,check,,,,,1.0,floor
+0309674AR,Celtis australis,False,C\ Llobregós,,15.87,median,,check,,,,,1.0,floor
+0309678AR,Olea europaea,False,Av Frederic Rahola,8.27,7.53,ok,,large,430573.98,4586212.32,430575.04,4586204.11,1.5,class
+0309679AR,Cupressus sempervirens,False,C\ Alt de Pedrell,,12.67,median,11.98,check,,,,,1.0,floor
+0309680AR,Ulmus pumila,False,C\ Maurici Vilomara,,10.91,median,,check,,,,,1.0,floor
+0309685AR,Melia azedarach,False,Av Frederic Rahola,4.59,4.03,ok,,medium,430210.99,4586365.3,430215.16,4586367.22,1.0,class
+0309686AR,Platanus × acerifolia,True,Av Frederic Rahola,11.22,8.34,ok,,large,430407.1,4586314.96,430403.87,4586304.21,1.5,class
+0309765AR,Pyrus calleryana 'Chanticleer',False,C\ Canonge Almera,9.39,8.19,ok,,large,430003.05,4586316.25,430008.6,4586308.67,1.5,class
+0309766AR,Styphnolobium japonicum,False,C\ Canonge Almera,10.29,9.61,ok,,large,430002.03,4586224.81,430012.31,4586225.18,1.5,class
+0309771AR,Platanus × acerifolia,True,Pg Font de la Mulassa,2.47,1.6,ok,,none,429992.22,4585999.28,429994.58,4586000.0,1.0,floor
+0314251AR,Ulmus pumila,False,C\ Maurici Vilomara,16.69,12.54,ok,,large,430154.32,4585848.66,430169.0,4585856.6,1.5,class
+0314255AR,Robinia pseudoacacia,False,C\ Pintor Pradilla,,11.89,median,19.68,check,,,,,1.0,floor
+0335000AR,Acer platanoides 'Crimson King',False,C\ Gallecs,,13.88,median,10.18,check,,,,,1.0,floor
+0336758AR,Platanus × acerifolia,True,Pg Font d'en Fargas,23.03,16.6,ok,,large,430226.54,4585975.68,430226.71,4585952.65,1.5,class

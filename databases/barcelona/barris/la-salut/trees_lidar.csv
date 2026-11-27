@@ -1,0 +1,789 @@
+tree_id,x,y,ground_z,species,is_plane,size_category,street,height_m,crown_area_m2,crown_diam_m,crown_base_m,gap_fraction,lai_proxy,n_points,flag
+0072392AR,429811.91,4585036.34,116.79,Pyrus calleryana 'Chanticleer',False,PRIMERA,Av Pompeu Fabra,6.78,16.5,4.58,2.98,0.313,2.32,377,ok
+0072393AR,429799.12,4584898.94,104.69,Jacaranda mimosifolia,False,SEGONA,Rda Guinardó,8.3,30.8,6.26,3.92,0.295,2.44,779,ok
+0072396AR,429473.93,4585193.6,150.21,Firmiana simplex,False,SEGONA,Ctra Carmel,4.39,12.2,3.95,3.05,0.45,1.6,465,ok
+0072397AR,429573.68,4585068.22,126.3,Brachychiton populneus,False,SEGONA,C\ Antequera,5.79,23.8,5.5,2.81,0.319,2.29,442,ok
+0072398AR,429608.21,4585118.96,128.92,Pyrus calleryana 'Chanticleer',False,PRIMERA,Av Pompeu Fabra,6.02,37.2,6.89,3.02,0.137,3.97,437,ok
+0072400AR,429572.83,4585125.61,131.38,Pyrus calleryana 'Chanticleer',False,PRIMERA,Av Pompeu Fabra,7.58,1.2,1.26,2.93,0.425,1.71,56,no_crown_detected
+0072402AR,429263.0,4585027.0,130.38,Robinia pseudoacacia 'Bessoniana',False,SEGONA,C\ Olot,7.25,55.8,8.43,2.43,0.315,2.31,1264,ok
+0072403AR,429394.5,4584764.42,107.53,Ligustrum lucidum,False,PRIMERA,C\ Larrard,5.06,6.5,2.88,3.91,0.514,1.33,232,ok
+0072404AR,429345.58,4584897.6,112.67,Platanus × acerifolia,True,SEGONA,Rbla Mercedes,15.37,78.5,10.0,9.06,0.108,4.45,2202,ok
+0072405AR,429917.75,4584971.64,111.0,Styphnolobium japonicum,False,SEGONA,C\ Sardenya,7.29,25.2,5.67,4.11,0.247,2.8,507,ok
+0072406AR,428978.35,4584571.59,109.02,Jacaranda mimosifolia,False,SEGONA,Ptge Napoleó,6.44,17.8,4.75,3.58,0.452,1.59,885,ok
+0072409AR,429590.48,4585122.57,130.4,Pyrus calleryana 'Chanticleer',False,PRIMERA,Av Pompeu Fabra,5.74,24.8,5.61,2.29,0.272,2.6,408,ok
+0072410AR,429796.12,4584791.89,96.0,Koelreuteria paniculata,False,SEGONA,C\ Camèlies,5.32,21.8,5.26,3.52,0.333,2.2,1078,ok
+0072411AR,429789.59,4584899.54,104.66,Tilia x euchlora,False,PRIMERA,Rda Guinardó,15.69,24.8,5.61,3.15,0.414,1.76,681,ok
+0072412AR,429695.25,4585103.04,123.46,Pyrus calleryana 'Chanticleer',False,PRIMERA,Av Pompeu Fabra,5.29,6.8,2.93,2.95,0.406,1.8,170,ok
+0072414AR,429297.75,4584789.89,119.97,Acer monspessulanum,False,SEGONA,Ptge Mercedes,6.36,38.2,6.98,2.82,0.21,3.12,1461,ok
+0072417AR,429326.63,4584948.32,115.75,Prunus avium,False,PRIMERA,C\ Marianao,5.08,44.2,7.51,2.34,0.278,2.56,864,ok
+0072418AR,429184.91,4584861.28,141.58,Prunus cerasifera 'Pissardii',False,PRIMERA,Av Santuari St Josep Muntanya,7.18,18.5,4.85,3.24,0.267,2.64,386,ok
+0072420AR,429656.88,4585106.0,125.41,Celtis australis,False,SEGONA,Av Pompeu Fabra,7.11,58.5,8.63,3.96,0.176,3.47,1500,ok
+0072421AR,429352.07,4584887.72,112.43,Platanus × acerifolia,True,TERCERA,Rbla Mercedes,18.83,66.8,9.22,10.49,0.182,3.41,2159,ok
+0072422AR,429361.6,4584799.53,111.62,Morus alba 'Fruitless',False,SEGONA,C\ Larrard,8.99,45.8,7.63,5.0,0.144,3.88,1925,ok
+0072423AR,429321.23,4584842.07,116.1,Ligustrum lucidum,False,PRIMERA,C\ Larrard,4.59,8.2,3.24,2.85,0.445,1.62,182,ok
+0072424AR,429303.0,4584877.0,118.51,Platanus × acerifolia,True,TERCERA,Rbla Mercedes,18.69,102.5,11.42,9.88,0.157,3.7,2917,ok
+0072425AR,429386.7,4584869.22,107.11,Prunus avium,False,PRIMERA,C\ Pare Jacint Alegre,,0.0,0.0,,,,0,no_crown_detected
+0072426AR,429634.71,4584704.81,89.57,Tipuana tipu,False,SEGONA,C\ Escorial,10.02,18.8,4.89,2.32,0.126,4.14,635,ok
+0072427AR,429654.23,4585006.72,115.19,Brachychiton populneus,False,SEGONA,Rier Can Toda,4.92,8.0,3.19,2.97,0.449,1.6,176,ok
+0072429AR,429337.92,4584936.33,113.93,Liquidambar styraciflua,False,PRIMERA,C\ Marianao,6.02,17.5,4.72,4.35,0.145,3.86,345,ok
+0072432AR,429745.1,4584890.13,104.55,Gleditsia triacanthos,False,SEGONA,Trav Dalt,11.1,56.2,8.46,4.96,0.166,3.6,906,ok
+0072433AR,429333.42,4584940.88,114.66,Liquidambar styraciflua,False,PRIMERA,C\ Marianao,3.68,0.2,0.56,2.75,0.667,0.81,3,no_crown_detected
+0072434AR,429662.32,4585104.75,125.03,Pyrus calleryana 'Chanticleer',False,PRIMERA,Av Pompeu Fabra,5.47,13.5,4.15,2.19,0.258,2.71,329,ok
+0072435AR,429280.83,4585042.74,132.68,Robinia pseudoacacia 'Bessoniana',False,PRIMERA,C\ Olot,7.13,37.5,6.91,3.94,0.311,2.33,1025,ok
+0072436AR,429860.0,4584969.0,112.05,Styphnolobium japonicum,False,SEGONA,Av Mare de Déu de Montserrat,10.2,55.8,8.43,5.1,0.192,3.3,1313,ok
+0072437AR,429083.14,4584555.53,107.02,Ligustrum lucidum,False,PRIMERA,C\ Verdi,4.92,12.0,3.91,2.92,0.335,2.19,438,ok
+0072440AR,429611.45,4584734.21,92.07,Tipuana tipu,False,SEGONA,C\ Escorial,9.08,45.8,7.63,5.63,0.329,2.23,1267,ok
+0072442AR,429649.0,4584779.0,97.98,Ligustrum lucidum,False,PRIMERA,Trav Dalt,36.22,10.0,3.57,34.04,0.102,4.58,598,ok
+0072443AR,429283.03,4584892.59,120.57,Ligustrum lucidum,False,PRIMERA,C\ Larrard,4.84,11.8,3.87,3.67,0.342,2.14,263,ok
+0072444AR,429677.99,4585109.34,124.46,Pyrus calleryana 'Chanticleer',False,PRIMERA,Av Pompeu Fabra,6.14,17.8,4.75,3.16,0.257,2.72,401,ok
+0072445AR,429555.07,4585023.93,126.96,Brachychiton populneus,False,SEGONA,C\ Antequera,6.46,7.0,2.99,2.81,0.451,1.59,182,ok
+0072446AR,429174.81,4584950.48,132.44,Robinia pseudoacacia 'Bessoniana',False,PRIMERA,C\ Olot,8.77,101.8,11.38,2.52,0.154,3.74,2228,ok
+0072447AR,429236.68,4585012.99,130.6,Robinia pseudoacacia,False,SEGONA,C\ Olot,7.38,26.2,5.78,4.16,0.166,3.6,501,ok
+0072449AR,429597.25,4585281.19,141.26,Firmiana simplex,False,SEGONA,Ctra Carmel,6.86,57.5,8.56,2.98,0.264,2.66,1915,ok
+0072450AR,429285.26,4584869.73,119.73,Platanus × acerifolia,True,EXEMPLAR,Rbla Mercedes,22.74,119.5,12.33,10.99,0.089,4.84,4005,ok
+0072451AR,429611.0,4584781.0,97.01,Albizia julibrissin,False,SEGONA,Trav Dalt,7.56,37.8,6.93,5.09,0.251,2.77,1244,ok
+0072452AR,429361.91,4584910.3,111.47,Prunus avium,False,PRIMERA,C\ Marianao,7.21,80.2,10.11,2.49,0.126,4.14,2032,ok
+0072453AR,429773.64,4584852.23,101.39,Gleditsia triacanthos,False,SEGONA,Trav Dalt,22.58,4.5,2.39,6.52,0.324,2.25,108,ok
+0072454AR,429653.27,4585117.66,125.79,Pyrus calleryana 'Chanticleer',False,PRIMERA,Av Pompeu Fabra,5.8,10.2,3.61,3.3,0.343,2.14,242,ok
+0072456AR,429189.75,4584974.24,130.26,Robinia pseudoacacia 'Bessoniana',False,PRIMERA,C\ Olot,20.23,60.0,8.74,4.53,0.12,4.24,2149,ok
+0072457AR,429756.07,4585065.2,119.96,Pyrus calleryana 'Chanticleer',False,PRIMERA,Av Pompeu Fabra,5.65,29.0,6.08,2.42,0.243,2.83,720,ok
+0072458AR,429308.68,4584854.83,117.46,Ligustrum lucidum,False,PRIMERA,C\ Larrard,6.08,2.8,1.87,3.22,0.4,1.83,55,ok
+0072459AR,429718.26,4585094.64,122.27,Pyrus calleryana 'Chanticleer',False,PRIMERA,Av Pompeu Fabra,5.86,46.2,7.67,3.52,0.261,2.68,1045,ok
+0072462AR,429273.48,4584851.26,121.89,Platanus × acerifolia,True,SEGONA,Rbla Mercedes,14.87,98.0,11.17,3.82,0.188,3.34,2107,ok
+0072463AR,429367.84,4584792.8,110.89,Ligustrum lucidum,False,PRIMERA,C\ Larrard,3.38,1.8,1.49,3.61,0.514,1.33,61,no_crown_detected
+0072464AR,429627.03,4584760.89,95.69,Ligustrum lucidum,False,PRIMERA,Trav Dalt,35.36,15.8,4.48,3.97,0.105,4.51,778,ok
+0072465AR,429823.0,4585030.98,116.12,Pyrus calleryana 'Chanticleer',False,PRIMERA,Av Pompeu Fabra,6.72,41.5,7.27,2.27,0.189,3.33,829,ok
+0072466AR,429800.81,4584920.03,107.17,Styphnolobium japonicum,False,SEGONA,Av Mare de Déu de Montserrat,22.41,17.8,4.75,4.3,0.251,2.77,335,ok
+0072467AR,428977.0,4584568.0,108.67,Jacaranda mimosifolia,False,PRIMERA,Ptge Napoleó,12.92,21.8,5.26,6.03,0.364,2.02,957,ok
+0072468AR,429584.35,4585281.19,142.32,Firmiana simplex,False,SEGONA,Ctra Carmel,8.71,46.2,7.67,4.78,0.229,2.95,1697,ok
+0072469AR,429284.61,4584880.51,119.92,Ligustrum lucidum,False,PRIMERA,C\ Larrard,11.34,20.5,5.11,3.52,0.302,2.4,514,ok
+0072470AR,429631.68,4584708.97,89.89,Tipuana tipu,False,SEGONA,C\ Escorial,7.17,20.8,5.14,2.59,0.228,2.96,834,ok
+0072471AR,429637.56,4584696.12,88.7,Tipuana tipu,False,SEGONA,C\ Escorial,9.15,32.8,6.46,4.95,0.211,3.11,1040,ok
+0072472AR,429336.25,4584807.35,114.69,Acer monspessulanum,False,SEGONA,Ptge Mercedes,6.66,18.2,4.82,3.7,0.276,2.57,803,ok
+0072474AR,429623.06,4584721.47,90.9,Tipuana tipu,False,SEGONA,C\ Escorial,8.76,21.5,5.23,5.57,0.27,2.62,718,ok
+0072475AR,429576.01,4585073.76,126.19,Brachychiton populneus,False,SEGONA,C\ Antequera,6.51,44.8,7.55,3.36,0.242,2.84,798,ok
+0072476AR,429235.14,4584933.08,125.3,Ligustrum lucidum,False,SEGONA,C\ Larrard,6.59,28.0,5.97,3.26,0.259,2.7,671,ok
+0072477AR,429614.23,4585051.63,121.65,Brachychiton populneus,False,TERCERA,Rier Can Toda,13.1,3.8,2.19,3.82,0.207,3.15,58,ok
+0072478AR,429709.0,4584861.0,103.25,Gleditsia triacanthos,False,SEGONA,Trav Dalt,10.45,81.8,10.2,7.03,0.174,3.5,1401,ok
+0072479AR,429241.19,4585016.75,130.24,Robinia pseudoacacia,False,SEGONA,C\ Olot,6.73,37.8,6.93,2.92,0.212,3.1,886,ok
+0072480AR,428993.29,4584579.87,109.81,Acer monspessulanum,False,PRIMERA,C\ Valldoreix,9.93,16.0,4.51,3.53,0.389,1.89,586,ok
+0072481AR,429740.44,4585003.21,113.48,Tipuana tipu,False,TERCERA,C\ Miquel i Badia,10.25,73.5,9.67,5.45,0.183,3.4,1625,ok
+0072482AR,429743.08,4584840.99,101.34,Gleditsia triacanthos,False,SEGONA,Trav Dalt,24.62,0.2,0.56,6.52,0.5,1.39,4,no_crown_detected
+0072486AR,429559.91,4585035.42,126.74,Brachychiton populneus,False,SEGONA,C\ Antequera,4.93,25.5,5.7,3.11,0.334,2.19,587,ok
+0072487AR,429479.7,4585198.74,149.9,Firmiana simplex,False,SEGONA,Ctra Carmel,5.99,19.5,4.98,3.61,0.482,1.46,842,ok
+0072489AR,429701.39,4585090.53,123.07,Pyrus calleryana 'Chanticleer',False,PRIMERA,Av Pompeu Fabra,5.86,28.8,6.05,2.18,0.176,3.47,374,ok
+0072490AR,429320.42,4584965.68,118.03,Prunus avium,False,PRIMERA,C\ Mercedes,5.0,2.5,1.78,3.31,0.446,1.61,65,ok
+0072491AR,429647.02,4585119.3,126.15,Pyrus calleryana 'Chanticleer',False,PRIMERA,Av Pompeu Fabra,5.82,9.2,3.43,3.55,0.246,2.81,183,ok
+0072492AR,429211.6,4584834.91,137.93,Platanus × acerifolia,True,SEGONA,Rbla Mercedes,12.1,36.5,6.82,6.45,0.259,2.7,1007,ok
+0072494AR,429264.28,4584912.62,122.66,Ligustrum lucidum,False,PRIMERA,C\ Larrard,,0.0,0.0,,,,0,no_crown_detected
+0072495AR,429882.05,4584986.87,113.87,Brachychiton acerifolius,False,SEGONA,Av Mare de Déu de Montserrat,9.25,20.2,5.08,3.74,0.234,2.91,475,ok
+0072496AR,429684.19,4585107.8,124.15,Pyrus calleryana 'Chanticleer',False,PRIMERA,Av Pompeu Fabra,9.19,49.5,7.94,5.07,0.184,3.39,1120,ok
+0072497AR,429256.41,4584910.6,123.05,Ligustrum lucidum,False,PRIMERA,C\ Larrard,,0.0,0.0,,,,0,no_crown_detected
+0072501AR,429345.78,4584927.33,112.93,Liquidambar styraciflua,False,PRIMERA,C\ Marianao,14.03,88.0,10.59,6.38,0.1,4.61,2189,ok
+0072503AR,429195.71,4584906.61,139.43,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Mercedes,,0.0,0.0,,,,0,no_crown_detected
+0072505AR,429271.92,4584893.76,121.32,Ligustrum lucidum,False,PRIMERA,C\ Larrard,0.0,6.0,2.76,3.48,0.246,2.8,130,low_tree
+0072507AR,429528.93,4585238.86,147.78,Firmiana simplex,False,SEGONA,Ctra Carmel,6.45,21.8,5.26,4.56,0.494,1.41,959,ok
+0072508AR,429762.4,4584848.77,101.42,Gleditsia triacanthos,False,SEGONA,Trav Dalt,29.37,90.2,10.72,5.83,0.202,3.2,2183,ok
+0072511AR,429218.31,4584824.79,137.7,Platanus × acerifolia,True,SEGONA,Rbla Mercedes,14.55,36.2,6.79,6.16,0.173,3.5,842,ok
+0072512AR,429744.88,4585017.13,114.28,Tipuana tipu,False,EXEMPLAR,C\ Miquel i Badia,12.72,84.8,10.39,6.69,0.168,3.57,1416,ok
+0072513AR,429394.3,4584774.51,108.13,Morus alba 'Fruitless',False,SEGONA,C\ Larrard,8.07,55.0,8.37,3.25,0.267,2.64,2501,ok
+0072514AR,429376.51,4584793.61,110.35,Morus alba 'Fruitless',False,SEGONA,C\ Larrard,7.6,47.2,7.76,4.06,0.376,1.96,2159,ok
+0072517AR,429266.51,4585011.41,127.71,Liquidambar styraciflua,False,PRIMERA,C\ Marianao,11.14,27.5,5.92,2.9,0.146,3.84,574,ok
+0072519AR,429593.4,4585131.93,130.26,Pyrus calleryana 'Chanticleer',False,PRIMERA,Av Pompeu Fabra,5.56,8.0,3.19,3.79,0.461,1.55,294,ok
+0072520AR,429461.32,4585184.3,150.71,Firmiana simplex,False,SEGONA,Ctra Carmel,5.61,15.2,4.41,3.99,0.517,1.32,671,ok
+0072522AR,429651.75,4585107.74,125.75,Celtis australis,False,SEGONA,Av Pompeu Fabra,6.95,45.2,7.59,3.63,0.285,2.51,1017,ok
+0072523AR,429329.12,4584889.74,114.83,Platanus × acerifolia,True,TERCERA,Rbla Mercedes,17.34,73.8,9.69,8.41,0.19,3.32,2000,ok
+0072527AR,429193.2,4584965.48,130.41,Robinia pseudoacacia 'Bessoniana',False,PRIMERA,C\ Olot,0.0,33.5,6.53,2.23,0.203,3.19,660,low_tree
+0072528AR,429269.85,4585033.31,131.3,Robinia pseudoacacia,False,TERCERA,C\ Olot,9.55,40.0,7.14,3.35,0.273,2.6,1059,ok
+0072529AR,429253.92,4584731.72,113.39,Styphnolobium japonicum,False,SEGONA,C\ Sant Cugat del Vallès,7.04,29.8,6.15,4.14,0.376,1.95,1441,ok
+0072530AR,429252.81,4584854.03,125.03,Platanus × acerifolia,True,TERCERA,Rbla Mercedes,17.29,89.8,10.69,7.92,0.149,3.81,2421,ok
+0072531AR,429288.0,4584876.0,119.46,Ligustrum lucidum,False,PRIMERA,C\ Larrard,21.54,51.8,8.12,4.94,0.159,3.68,1621,ok
+0072532AR,429389.0,4584779.0,108.79,Ligustrum lucidum,False,PRIMERA,C\ Larrard,4.57,27.5,5.92,3.23,0.353,2.08,1184,ok
+0072533AR,429793.61,4584904.2,105.32,Olea europaea,False,EXEMPLAR,Av Mare de Déu de Montserrat,13.94,43.8,7.46,3.9,0.296,2.43,760,ok
+0072534AR,429753.75,4584845.89,101.43,Gleditsia triacanthos,False,SEGONA,Trav Dalt,9.58,29.8,6.15,5.63,0.11,4.42,783,ok
+0072535AR,429937.6,4584940.25,106.79,Styphnolobium japonicum,False,SEGONA,C\ Sardenya,8.01,41.2,7.25,3.98,0.246,2.8,512,ok
+0072536AR,429005.0,4584594.17,111.16,Robinia pseudoacacia,False,SEGONA,C\ Valldoreix,9.2,25.2,5.67,5.39,0.224,2.99,1105,ok
+0072537AR,429224.38,4584841.37,136.54,Platanus × acerifolia,True,SEGONA,Rbla Mercedes,13.43,47.2,7.76,5.42,0.211,3.11,1299,ok
+0072538AR,429559.0,4585269.0,144.77,Firmiana simplex,False,PRIMERA,Ctra Carmel,5.88,18.0,4.79,2.08,0.307,2.36,731,ok
+0072539AR,429315.0,4584883.0,116.76,Platanus × acerifolia,True,SEGONA,Rbla Mercedes,17.16,61.8,8.87,9.33,0.163,3.63,1692,ok
+0072540AR,429613.0,4584749.0,93.9,Ligustrum lucidum,False,SEGONA,Trav Dalt,5.24,7.8,3.14,3.45,0.157,3.7,268,ok
+0072541AR,429702.95,4584938.08,108.1,Brachychiton populneus,False,SEGONA,Rier Can Toda,5.31,6.8,2.93,3.6,0.514,1.33,146,ok
+0072542AR,429622.19,4584718.4,90.57,Tipuana tipu,False,SEGONA,C\ Escorial,8.36,20.8,5.14,4.36,0.388,1.89,766,ok
+0072543AR,429236.38,4585001.48,130.66,Robinia pseudoacacia 'Bessoniana',False,SEGONA,C\ Olot,6.64,68.2,9.32,3.21,0.202,3.2,1700,ok
+0072544AR,429134.52,4584481.03,97.09,Ligustrum lucidum,False,PRIMERA,C\ Verdi,3.67,2.0,1.6,2.63,0.421,1.73,40,few_points
+0072545AR,429272.28,4584863.45,121.32,Platanus × acerifolia,True,TERCERA,Rbla Mercedes,16.47,91.0,10.76,8.87,0.181,3.42,2273,ok
+0072546AR,429265.96,4585037.29,131.37,Robinia pseudoacacia 'Bessoniana',False,PRIMERA,C\ Olot,10.61,9.8,3.52,4.93,0.446,1.61,204,ok
+0072548AR,429304.86,4584859.16,117.86,Ligustrum lucidum,False,PRIMERA,C\ Larrard,5.25,35.2,6.7,2.59,0.188,3.35,800,ok
+0072549AR,429522.03,4585141.75,134.4,Ulmus pumila,False,TERCERA,Av Pompeu Fabra,,0.0,0.0,,,,0,no_crown_detected
+0072552AR,429225.99,4584953.58,126.92,Ligustrum lucidum,False,SEGONA,C\ Larrard,3.93,37.5,6.91,2.39,0.312,2.33,756,ok
+0072553AR,429622.78,4585115.08,127.6,Pyrus calleryana 'Chanticleer',False,SEGONA,Av Pompeu Fabra,6.25,10.0,3.57,3.1,0.411,1.78,236,ok
+0072554AR,429351.6,4584900.49,111.95,Platanus × acerifolia,True,SEGONA,Rbla Mercedes,15.85,106.0,11.62,8.22,0.203,3.19,2740,ok
+0072555AR,429349.0,4584822.0,113.39,Ligustrum lucidum,False,PRIMERA,C\ Larrard,0.0,13.8,4.18,3.75,0.364,2.02,496,low_tree
+0072556AR,429610.7,4584716.08,90.86,Styphnolobium japonicum,False,SEGONA,C\ Escorial,6.18,26.8,5.84,3.64,0.341,2.15,697,ok
+0072557AR,429218.31,4584838.08,137.21,Platanus × acerifolia,True,SEGONA,Rbla Mercedes,11.99,32.2,6.41,6.24,0.299,2.42,777,ok
+0072558AR,429222.61,4584831.24,137.03,Platanus × acerifolia,True,SEGONA,Rbla Mercedes,9.63,22.8,5.38,5.36,0.23,2.94,538,ok
+0072559AR,429237.49,4584940.38,125.54,Ligustrum lucidum,False,PRIMERA,C\ Larrard,3.76,1.5,1.38,3.73,0.414,1.76,29,no_crown_detected
+0072560AR,429392.45,4584766.26,107.78,Ligustrum lucidum,False,SEGONA,C\ Larrard,7.14,16.0,4.51,3.85,0.473,1.5,681,ok
+0072562AR,429333.56,4584891.84,114.3,Platanus × acerifolia,True,SEGONA,Rbla Mercedes,15.47,59.2,8.69,9.37,0.203,3.18,1440,ok
+0072563AR,429566.7,4585051.61,126.52,Brachychiton populneus,False,SEGONA,C\ Antequera,7.15,29.5,6.13,3.5,0.316,2.3,769,ok
+0072564AR,429626.6,4585038.12,119.68,Brachychiton populneus,False,SEGONA,Rier Can Toda,6.35,15.0,4.37,3.26,0.354,2.08,452,ok
+0072565AR,429109.64,4584518.26,101.91,Ligustrum lucidum,False,PRIMERA,C\ Verdi,4.92,14.8,4.33,3.71,0.402,1.82,410,ok
+0072566AR,429342.23,4584829.26,114.17,Ligustrum lucidum,False,PRIMERA,C\ Larrard,4.11,5.2,2.59,3.01,0.427,1.7,117,ok
+0072568AR,429676.55,4584979.74,111.19,Brachychiton populneus,False,SEGONA,Rier Can Toda,6.71,15.8,4.48,2.63,0.333,2.2,375,ok
+0072570AR,429714.0,4584866.0,103.5,Gleditsia triacanthos,False,SEGONA,Trav Dalt,28.41,32.2,6.41,7.25,0.067,5.41,463,ok
+0072573AR,429206.37,4584987.71,130.15,Robinia pseudoacacia,False,SEGONA,C\ Olot,9.11,36.0,6.77,2.99,0.25,2.77,887,ok
+0072574AR,429076.47,4584565.85,108.56,Ligustrum lucidum,False,SEGONA,C\ Verdi,5.36,11.2,3.78,3.16,0.358,2.05,335,ok
+0072575AR,429235.0,4584722.49,113.96,Styphnolobium japonicum,False,SEGONA,C\ Sant Cugat del Vallès,6.81,45.2,7.59,4.31,0.347,2.11,2034,ok
+0072576AR,429674.36,4585100.53,124.32,Celtis australis,False,SEGONA,Av Pompeu Fabra,9.15,37.8,6.93,2.78,0.187,3.36,750,ok
+0072577AR,429355.86,4584804.64,112.22,Ligustrum lucidum,False,SEGONA,C\ Larrard,6.17,22.8,5.38,3.82,0.367,2.01,846,ok
+0072578AR,429376.11,4584881.27,108.62,Prunus avium,False,PRIMERA,C\ Pare Jacint Alegre,4.27,12.0,3.91,2.32,0.42,1.74,262,ok
+0072579AR,429694.46,4584954.12,108.99,Brachychiton populneus,False,SEGONA,Rier Can Toda,5.62,14.0,4.22,2.81,0.395,1.86,334,ok
+0072580AR,429270.19,4584777.0,123.73,Acer monspessulanum,False,PRIMERA,Ptge Mercedes,,0.0,0.0,,,,0,no_crown_detected
+0072581AR,429247.62,4584728.64,113.48,Styphnolobium japonicum,False,SEGONA,C\ Sant Cugat del Vallès,5.95,27.0,5.86,3.93,0.474,1.5,1093,ok
+0072583AR,429561.25,4585039.3,126.69,Brachychiton populneus,False,PRIMERA,C\ Antequera,,0.0,0.0,,,,0,no_crown_detected
+0072584AR,429665.32,4584994.19,113.37,Brachychiton populneus,False,SEGONA,Rier Can Toda,8.65,19.0,4.92,3.56,0.304,2.38,572,ok
+0072586AR,429715.32,4584736.77,93.43,Koelreuteria paniculata,False,SEGONA,C\ Camèlies,4.46,16.8,4.62,3.29,0.435,1.66,612,ok
+0072587AR,429310.13,4584795.11,118.35,Acer monspessulanum,False,SEGONA,Ptge Mercedes,5.61,29.2,6.1,2.35,0.327,2.23,1019,ok
+0072589AR,429458.77,4584583.74,89.24,Acer monspessulanum,False,PRIMERA,C\ Rabassa,16.18,18.8,4.89,3.99,0.211,3.11,581,ok
+0072590AR,429365.58,4584795.2,111.18,Ligustrum lucidum,False,SEGONA,C\ Larrard,6.52,20.5,5.11,4.07,0.204,3.18,846,ok
+0072591AR,429716.55,4584904.14,106.55,Jacaranda mimosifolia,False,TERCERA,Rier Can Toda,10.9,46.2,7.67,4.69,0.25,2.77,936,ok
+0072592AR,429729.76,4585006.04,113.06,Casuarina cunninghamiana,False,EXEMPLAR,C\ Miquel i Badia,15.0,46.0,7.65,6.62,0.149,3.81,1282,ok
+0072593AR,429633.34,4585112.89,126.93,Pyrus calleryana 'Chanticleer',False,PRIMERA,Av Pompeu Fabra,5.75,9.2,3.43,2.73,0.257,2.72,187,ok
+0072594AR,429339.73,4584881.74,113.98,Platanus × acerifolia,True,TERCERA,Rbla Mercedes,14.42,51.5,8.1,7.79,0.154,3.75,1379,ok
+0072597AR,429582.55,4585133.79,131.11,Pyrus calleryana 'Chanticleer',False,PRIMERA,Av Pompeu Fabra,6.48,15.5,4.44,2.21,0.292,2.46,409,ok
+0072598AR,429569.03,4585057.15,126.44,Brachychiton populneus,False,SEGONA,C\ Antequera,7.46,16.0,4.51,2.94,0.336,2.18,390,ok
+0072599AR,429204.41,4584709.55,115.83,Styphnolobium japonicum,False,SEGONA,C\ Sant Cugat del Vallès,7.85,19.2,4.95,4.76,0.313,2.32,944,ok
+0072602AR,429780.94,4584781.45,95.81,Koelreuteria paniculata,False,SEGONA,C\ Camèlies,4.72,13.8,4.18,3.33,0.514,1.33,418,ok
+0072603AR,429449.46,4584595.41,91.12,Acer monspessulanum,False,PRIMERA,C\ Rabassa,5.47,3.0,1.95,4.53,0.318,2.29,69,ok
+0072604AR,429329.98,4584832.06,115.12,Ligustrum lucidum,False,PRIMERA,C\ Larrard,2.68,8.2,3.24,2.3,0.178,3.45,157,low_tree
+0072605AR,429228.31,4584833.65,136.4,Platanus × acerifolia,True,SEGONA,Rbla Mercedes,8.92,37.2,6.89,6.15,0.251,2.76,907,ok
+0072606AR,429599.31,4585131.0,129.82,Celtis australis,False,SEGONA,Av Pompeu Fabra,8.09,22.8,5.38,4.28,0.367,2.01,1012,ok
+0072607AR,429516.98,4584757.64,94.78,Tilia platyphyllos,False,SEGONA,C\ Mare de Déu de la Salut,8.13,33.2,6.51,4.09,0.221,3.02,1230,ok
+0072608AR,429073.14,4584571.01,109.33,Ligustrum lucidum,False,PRIMERA,C\ Verdi,0.0,0.5,0.8,4.28,0.5,1.39,12,no_crown_detected
+0072611AR,429750.72,4585068.25,120.34,Pyrus calleryana 'Chanticleer',False,PRIMERA,Av Pompeu Fabra,5.76,13.0,4.07,2.36,0.319,2.28,288,ok
+0072612AR,429720.87,4584889.04,104.79,Jacaranda mimosifolia,False,SEGONA,Rier Can Toda,10.78,12.8,4.03,6.38,0.0,7.82,152,ok
+0072613AR,429845.8,4584902.14,104.49,Gleditsia triacanthos,False,SEGONA,Rda Guinardó,8.58,29.2,6.1,4.89,0.213,3.1,602,ok
+0072614AR,429773.72,4585037.29,116.53,Tipuana tipu,False,EXEMPLAR,C\ Miquel i Badia,10.2,116.8,12.19,4.72,0.179,3.44,2201,ok
+0072615AR,429617.0,4584753.0,94.5,Ligustrum lucidum,False,PRIMERA,Trav Dalt,0.0,0.8,0.98,4.13,0.5,1.39,6,no_crown_detected
+0072616AR,429866.05,4584903.13,103.97,Gleditsia triacanthos,False,SEGONA,Rda Guinardó,7.72,40.5,7.18,4.77,0.41,1.78,952,ok
+0072617AR,429739.85,4585073.34,121.03,Celtis australis,False,TERCERA,Av Pompeu Fabra,10.6,59.5,8.7,5.05,0.22,3.03,1270,ok
+0072618AR,429610.98,4585128.91,128.83,Pyrus calleryana 'Chanticleer',False,PRIMERA,Av Pompeu Fabra,7.11,6.0,2.76,3.4,0.275,2.59,284,ok
+0072619AR,429188.6,4584961.73,130.93,Robinia pseudoacacia 'Bessoniana',False,PRIMERA,C\ Olot,9.21,83.0,10.28,2.5,0.168,3.57,2107,ok
+0072620AR,429227.25,4584993.54,130.86,Robinia pseudoacacia 'Bessoniana',False,SEGONA,C\ Olot,1.66,3.0,1.95,2.03,0.122,4.21,41,few_points
+0072621AR,429807.0,4584898.0,104.57,Jacaranda mimosifolia,False,PRIMERA,Rda Guinardó,23.73,11.2,3.78,3.7,0.399,1.84,273,ok
+0072622AR,429225.15,4584803.96,136.41,Koelreuteria paniculata 'Fastigiata',False,PRIMERA,Av Santuari St Josep Muntanya,4.32,15.2,4.41,2.32,0.251,2.77,538,ok
+0072623AR,429761.42,4585062.16,119.62,Pyrus calleryana 'Chanticleer',False,PRIMERA,Av Pompeu Fabra,6.01,22.2,5.32,2.79,0.202,3.2,446,ok
+0072624AR,429667.35,4585102.85,124.76,Celtis australis,False,SEGONA,Av Pompeu Fabra,8.76,31.8,6.36,3.59,0.107,4.46,643,ok
+0072625AR,429338.09,4584833.64,114.59,Ligustrum lucidum,False,PRIMERA,C\ Larrard,,0.0,0.0,,,,0,no_crown_detected
+0072626AR,429661.59,4584998.61,114.01,Brachychiton populneus,False,SEGONA,Rier Can Toda,7.43,22.2,5.32,3.64,0.484,1.45,539,ok
+0072627AR,429463.74,4584576.64,88.26,Acer monspessulanum,False,PRIMERA,C\ Rabassa,5.69,11.8,3.87,3.3,0.171,3.53,286,ok
+0072632AR,429925.54,4584959.35,109.28,Styphnolobium japonicum,False,PRIMERA,C\ Sardenya,6.85,23.8,5.5,2.97,0.199,3.23,452,ok
+0072633AR,429313.43,4584860.47,117.39,Ligustrum lucidum,False,PRIMERA,C\ Larrard,,0.0,0.0,,,,0,no_crown_detected
+0072634AR,429624.82,4585125.16,127.65,Pyrus calleryana 'Chanticleer',False,PRIMERA,Av Pompeu Fabra,4.54,10.2,3.61,2.56,0.454,1.58,399,ok
+0072635AR,429210.53,4584980.72,129.85,Robinia pseudoacacia 'Bessoniana',False,SEGONA,C\ Olot,7.2,35.0,6.68,4.13,0.259,2.71,847,ok
+0072636AR,429389.0,4584769.0,108.22,Ligustrum lucidum,False,PRIMERA,C\ Larrard,7.55,14.8,4.33,3.88,0.322,2.27,619,ok
+0072637AR,429682.0,4584839.0,102.11,Gleditsia triacanthos,False,SEGONA,Trav Dalt,9.21,66.2,9.18,4.55,0.289,2.49,1410,ok
+0072638AR,429272.33,4585042.6,132.1,Robinia pseudoacacia,False,SEGONA,C\ Olot,9.85,53.8,8.27,4.29,0.256,2.72,1441,ok
+0072639AR,429625.05,4584714.47,90.25,Tipuana tipu,False,SEGONA,C\ Escorial,7.33,13.8,4.18,4.27,0.423,1.72,577,ok
+0072640AR,429614.11,4584711.23,90.44,Populus nigra,False,SEGONA,C\ Escorial,13.44,14.5,4.3,5.59,0.344,2.14,533,ok
+0072641AR,429730.65,4584923.08,107.12,Platanus × acerifolia,True,EXEMPLAR,C\ Mare de Déu de la Salut,18.32,131.0,12.91,7.69,0.112,4.39,3468,ok
+0072643AR,429637.69,4585024.45,117.82,Brachychiton populneus,False,SEGONA,Rier Can Toda,6.42,8.5,3.29,3.15,0.332,2.21,220,ok
+0072644AR,429333.95,4584838.04,115.01,Ligustrum lucidum,False,SEGONA,C\ Larrard,5.91,13.5,4.15,4.78,0.386,1.91,153,ok
+0072645AR,429714.9,4584984.66,111.51,Tipuana tipu,False,TERCERA,C\ Miquel i Badia,8.24,75.2,9.79,3.82,0.165,3.6,1568,ok
+0072646AR,429688.67,4584965.51,109.86,Brachychiton populneus,False,SEGONA,Rier Can Toda,6.11,23.2,5.44,3.11,0.379,1.94,491,ok
+0072647AR,429380.64,4584779.14,109.53,Ligustrum lucidum,False,PRIMERA,C\ Larrard,,0.0,0.0,,,,0,no_crown_detected
+0072649AR,429242.85,4584935.1,124.88,Ligustrum lucidum,False,SEGONA,C\ Larrard,0.0,5.5,2.65,3.94,0.43,1.69,121,low_tree
+0072650AR,429819.98,4584863.57,100.55,Gleditsia triacanthos,False,TERCERA,Rda Guinardó,12.6,77.0,9.9,6.8,0.215,3.08,1971,ok
+0072651AR,429316.87,4584798.37,117.39,Acer monspessulanum,False,SEGONA,Ptge Mercedes,5.22,35.0,6.68,1.94,0.215,3.07,1342,ok
+0072653AR,429196.91,4584979.96,129.9,Robinia pseudoacacia,False,SEGONA,C\ Olot,12.86,54.5,8.33,6.15,0.185,3.37,1573,ok
+0072654AR,429702.52,4585101.34,123.21,Celtis australis,False,SEGONA,Av Pompeu Fabra,8.15,24.5,5.59,4.71,0.282,2.53,553,ok
+0072655AR,429524.91,4584850.5,102.88,Morus alba 'Fruitless',False,PRIMERA,C\ Molist,6.57,42.0,7.31,2.58,0.22,3.03,749,ok
+0072656AR,428977.67,4584564.83,108.37,Robinia pseudoacacia,False,SEGONA,Ptge Napoleó,12.29,28.0,5.97,3.97,0.245,2.81,1393,ok
+0072658AR,429285.08,4585045.28,133.13,Robinia pseudoacacia 'Bessoniana',False,PRIMERA,C\ Olot,5.29,17.0,4.65,2.97,0.363,2.03,375,ok
+0072660AR,429185.65,4584894.2,141.09,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Mercedes,3.2,9.5,3.48,2.01,0.228,2.95,184,ok
+0072661AR,429522.6,4584854.26,103.87,Morus alba 'Fruitless',False,PRIMERA,C\ Molist,6.31,44.8,7.55,2.53,0.167,3.58,933,ok
+0072662AR,429522.34,4585005.44,129.87,Ginkgo biloba,False,SEGONA,C\ Sant Josep Cottolengo,6.37,96.2,11.07,2.21,0.175,3.48,1740,ok
+0072663AR,429718.83,4585083.7,122.09,Pyrus calleryana 'Chanticleer',False,PRIMERA,Av Pompeu Fabra,6.74,12.5,3.99,3.13,0.325,2.25,289,ok
+0072664AR,429216.07,4584828.16,137.75,Platanus × acerifolia,True,PRIMERA,Rbla Mercedes,14.21,23.0,5.41,6.31,0.168,3.57,668,ok
+0072665AR,429674.38,4584708.66,90.21,Koelreuteria paniculata,False,SEGONA,C\ Camèlies,25.25,21.0,5.17,3.53,0.325,2.25,923,ok
+0072670AR,429317.39,4584855.64,116.85,Ligustrum lucidum,False,PRIMERA,C\ Larrard,,0.0,0.0,,,,0,no_crown_detected
+0072671AR,429815.69,4584932.04,108.46,Styphnolobium japonicum,False,PRIMERA,Av Mare de Déu de Montserrat,,0.0,0.0,,,,0,no_crown_detected
+0072672AR,429777.48,4585053.03,118.66,Celtis australis,False,SEGONA,Av Pompeu Fabra,8.77,93.8,10.93,3.63,0.149,3.81,2009,ok
+0072673AR,429806.36,4585039.02,117.2,Pyrus calleryana 'Chanticleer',False,PRIMERA,Av Pompeu Fabra,7.83,9.5,3.48,3.32,0.28,2.54,189,ok
+0072674AR,429929.04,4584953.19,108.58,Styphnolobium japonicum,False,SEGONA,C\ Sardenya,9.36,33.0,6.48,6.03,0.195,3.27,564,ok
+0072675AR,429672.83,4584798.33,100.3,Ligustrum lucidum,False,PRIMERA,Trav Dalt,8.19,4.5,2.39,3.09,0.294,2.45,103,ok
+0072677AR,429241.23,4585006.09,130.29,Robinia pseudoacacia 'Bessoniana',False,PRIMERA,C\ Olot,7.86,18.5,4.85,4.51,0.298,2.42,467,ok
+0072681AR,429560.84,4585137.51,132.13,Pyrus calleryana 'Chanticleer',False,SEGONA,Av Pompeu Fabra,6.12,50.2,8.0,2.2,0.248,2.79,1639,ok
+0072683AR,429699.64,4584943.87,108.44,Brachychiton populneus,False,SEGONA,Rier Can Toda,8.47,16.2,4.55,3.06,0.357,2.06,387,ok
+0072684AR,429846.06,4584826.36,96.79,Koelreuteria paniculata,False,SEGONA,C\ Camèlies,4.14,7.8,3.14,2.86,0.409,1.79,216,ok
+0072685AR,429428.85,4585176.96,151.83,Firmiana simplex,False,SEGONA,Ctra Carmel,6.17,75.8,9.82,3.61,0.226,2.97,3247,ok
+0072686AR,429620.68,4584701.77,89.58,Styphnolobium japonicum,False,PRIMERA,C\ Escorial,12.99,14.0,4.22,6.37,0.371,1.98,680,ok
+0072688AR,429825.98,4584865.24,100.56,Gleditsia triacanthos,False,SEGONA,Rda Guinardó,10.95,40.8,7.2,7.09,0.224,2.99,967,ok
+0072689AR,429259.99,4584771.57,124.77,Acer monspessulanum,False,SEGONA,Ptge Mercedes,,0.0,0.0,,,,0,no_crown_detected
+0072690AR,429137.81,4584475.44,96.19,Ligustrum lucidum,False,PRIMERA,C\ Verdi,3.94,3.0,1.95,2.56,0.472,1.5,46,few_points
+0072691AR,429189.57,4584903.73,140.18,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Mercedes,4.67,4.2,2.33,3.22,0.474,1.49,95,ok
+0072692AR,429230.08,4584844.28,135.9,Platanus × acerifolia,True,SEGONA,Rbla Mercedes,11.58,38.2,6.98,2.89,0.21,3.12,900,ok
+0072693AR,429251.89,4584915.36,123.56,Ligustrum lucidum,False,SEGONA,C\ Larrard,7.75,12.8,4.03,4.78,0.301,2.4,259,ok
+0072694AR,429220.46,4584834.66,137.12,Platanus × acerifolia,True,SEGONA,Rbla Mercedes,10.77,29.0,6.08,5.89,0.217,3.06,688,ok
+0072695AR,429618.19,4585126.45,128.16,Celtis australis,False,SEGONA,Av Pompeu Fabra,6.52,23.0,5.41,3.91,0.393,1.87,913,ok
+0072697AR,429260.45,4584917.03,123.11,Ligustrum lucidum,False,PRIMERA,C\ Larrard,,0.0,0.0,,,,0,no_crown_detected
+0072698AR,429805.73,4584798.4,96.12,Koelreuteria paniculata,False,SEGONA,C\ Camèlies,5.43,22.2,5.32,3.95,0.433,1.67,686,ok
+0072700AR,429817.45,4585033.66,116.42,Pyrus calleryana 'Chanticleer',False,PRIMERA,Av Pompeu Fabra,6.15,14.5,4.3,2.89,0.303,2.39,320,ok
+0072701AR,429120.07,4584502.8,99.84,Ligustrum lucidum,False,PRIMERA,C\ Verdi,3.44,3.0,1.95,2.87,0.184,3.38,63,ok
+0072702AR,429666.49,4585113.54,125.02,Pyrus calleryana 'Chanticleer',False,PRIMERA,Av Pompeu Fabra,5.56,16.2,4.55,2.99,0.228,2.96,329,ok
+0072705AR,429921.26,4584966.02,110.25,Styphnolobium japonicum,False,PRIMERA,C\ Sardenya,5.12,30.8,6.26,3.15,0.288,2.49,480,ok
+0072706AR,429700.0,4584821.0,101.19,Gleditsia triacanthos,False,SEGONA,Trav Dalt,9.47,102.5,11.42,5.36,0.269,2.62,2919,ok
+0072708AR,429550.42,4585012.85,127.14,Brachychiton populneus,False,SEGONA,C\ Antequera,9.22,48.8,7.88,3.37,0.252,2.75,1494,ok
+0072710AR,429701.33,4584974.98,110.55,Tipuana tipu,False,EXEMPLAR,C\ Miquel i Badia,8.64,81.8,10.2,5.17,0.145,3.86,1515,ok
+0072711AR,429571.35,4585062.68,126.36,Brachychiton populneus,False,SEGONA,C\ Antequera,6.09,19.8,5.01,2.66,0.338,2.17,337,ok
+0072712AR,429175.02,4584962.19,131.77,Robinia pseudoacacia 'Bessoniana',False,PRIMERA,C\ Olot,5.75,12.5,3.99,3.63,0.232,2.93,272,ok
+0072713AR,429241.3,4584725.56,113.74,Styphnolobium japonicum,False,SEGONA,C\ Sant Cugat del Vallès,6.6,35.5,6.72,2.42,0.282,2.53,1577,ok
+0072714AR,429584.4,4585123.73,130.8,Pyrus calleryana 'Chanticleer',False,PRIMERA,Av Pompeu Fabra,6.09,40.5,7.18,2.95,0.203,3.19,1101,ok
+0072715AR,429908.94,4584985.76,112.94,Styphnolobium japonicum,False,SEGONA,C\ Sardenya,7.15,52.0,8.14,3.23,0.169,3.56,1136,ok
+0072716AR,429681.82,4584713.7,90.69,Koelreuteria paniculata,False,SEGONA,C\ Camèlies,6.53,22.5,5.35,3.37,0.395,1.86,646,ok
+0072717AR,429329.58,4584804.97,115.68,Acer monspessulanum,False,SEGONA,Ptge Mercedes,5.32,32.5,6.43,2.41,0.266,2.65,1099,ok
+0072718AR,429228.7,4584719.41,114.22,Styphnolobium japonicum,False,SEGONA,C\ Sant Cugat del Vallès,8.07,38.2,6.98,4.92,0.349,2.1,1809,ok
+0072720AR,429321.22,4584872.78,116.49,Platanus × acerifolia,True,SEGONA,Rbla Mercedes,18.61,40.0,7.14,8.42,0.176,3.47,1108,ok
+0072721AR,429602.57,4584774.04,96.28,Albizia julibrissin,False,SEGONA,Trav Dalt,5.8,15.2,4.41,4.31,0.414,1.76,489,ok
+0072723AR,429691.7,4584959.78,109.48,Brachychiton populneus,False,SEGONA,Rier Can Toda,7.54,14.8,4.33,3.08,0.405,1.81,380,ok
+0072725AR,429625.29,4584694.96,88.99,Populus nigra,False,SEGONA,C\ Escorial,10.53,8.8,3.34,3.49,0.374,1.97,392,ok
+0072726AR,429265.79,4584860.31,122.48,Platanus × acerifolia,True,SEGONA,Rbla Mercedes,13.82,30.5,6.23,7.03,0.135,4.0,532,ok
+0072727AR,429637.9,4584699.71,89.22,Tipuana tipu,False,SEGONA,C\ Escorial,9.88,21.0,5.17,5.01,0.07,5.31,550,ok
+0072728AR,429646.02,4585110.01,126.08,Pyrus calleryana 'Chanticleer',False,PRIMERA,Av Pompeu Fabra,5.79,7.0,2.99,2.05,0.278,2.56,176,ok
+0072729AR,429222.44,4584990.11,130.67,Robinia pseudoacacia 'Bessoniana',False,PRIMERA,C\ Olot,6.91,16.8,4.62,4.64,0.374,1.97,334,ok
+0072730AR,429370.37,4584789.46,110.62,Ligustrum lucidum,False,SEGONA,C\ Larrard,5.15,14.8,4.33,3.19,0.373,1.97,571,ok
+0072731AR,429680.63,4585098.12,124.07,Pyrus calleryana 'Chanticleer',False,PRIMERA,Av Pompeu Fabra,5.72,13.8,4.18,2.53,0.165,3.6,297,ok
+0072732AR,429747.1,4585007.85,113.98,Tipuana tipu,False,EXEMPLAR,C\ Miquel i Badia,11.06,108.2,11.74,3.97,0.136,4.0,1948,ok
+0072733AR,429610.11,4585056.13,122.23,Jacaranda mimosifolia,False,PRIMERA,Rier Can Toda,15.42,46.5,7.69,9.33,0.131,4.06,791,ok
+0072734AR,429772.12,4585056.07,119.0,Pyrus calleryana 'Chanticleer',False,PRIMERA,Av Pompeu Fabra,5.2,39.8,7.11,2.44,0.159,3.68,729,ok
+0072735AR,429151.33,4584909.74,145.44,Prunus cerasifera 'Pissardii',False,PRIMERA,Av Santuari St Josep Muntanya,4.96,10.2,3.61,2.49,0.507,1.36,227,ok
+0072736AR,429232.1,4584840.54,135.76,Platanus × acerifolia,True,SEGONA,Rbla Mercedes,11.67,27.5,5.92,6.4,0.107,4.47,654,ok
+0072737AR,429872.41,4584845.36,98.55,Koelreuteria paniculata,False,SEGONA,C\ Camèlies,4.58,11.0,3.74,3.25,0.31,2.34,158,ok
+0072738AR,429690.96,4585094.8,123.59,Pyrus calleryana 'Chanticleer',False,PRIMERA,Av Pompeu Fabra,5.49,7.5,3.09,2.89,0.395,1.86,185,ok
+0072741AR,429728.49,4585078.78,121.59,Pyrus calleryana 'Chanticleer',False,PRIMERA,Av Pompeu Fabra,4.49,19.2,4.95,2.33,0.163,3.63,258,ok
+0072742AR,429217.49,4584962.09,127.81,Morus alba 'Fruitless',False,PRIMERA,C\ Larrard,7.29,55.5,8.41,2.57,0.269,2.62,1355,ok
+0072744AR,429697.49,4584948.97,108.67,Brachychiton populneus,False,SEGONA,Rier Can Toda,7.34,18.5,4.85,3.59,0.356,2.06,466,ok
+0072746AR,429622.48,4585042.62,120.27,Brachychiton populneus,False,TERCERA,Rier Can Toda,9.95,37.8,6.93,3.22,0.285,2.51,1007,ok
+0072747AR,429566.43,4585126.41,131.61,Pyrus calleryana 'Chanticleer',False,PRIMERA,Av Pompeu Fabra,6.8,6.0,2.76,3.05,0.486,1.44,227,ok
+0072748AR,429322.72,4584801.58,116.66,Acer monspessulanum,False,SEGONA,Ptge Mercedes,8.49,53.0,8.21,2.5,0.178,3.45,2151,ok
+0072749AR,429386.0,4584772.0,108.7,Ligustrum lucidum,False,SEGONA,C\ Larrard,5.0,15.2,4.41,3.99,0.501,1.38,531,ok
+0072750AR,429576.53,4584778.42,95.85,Styphnolobium japonicum,False,SEGONA,C\ Escorial,5.61,23.8,5.5,3.58,0.281,2.54,791,ok
+0072751AR,429208.77,4584829.22,138.47,Platanus × acerifolia,True,TERCERA,Rbla Mercedes,14.62,37.0,6.86,6.26,0.114,4.35,1091,ok
+0072752AR,429117.45,4584507.21,100.48,Ligustrum lucidum,False,PRIMERA,C\ Verdi,3.93,3.5,2.11,2.8,0.279,2.55,71,ok
+0072753AR,429327.39,4584875.76,115.58,Platanus × acerifolia,True,TERCERA,Rbla Mercedes,13.95,33.8,6.56,8.48,0.152,3.77,990,ok
+0072755AR,429540.0,4585248.0,147.22,Firmiana simplex,False,PRIMERA,Ctra Carmel,4.02,15.5,4.44,3.18,0.43,1.69,636,ok
+0072756AR,429858.86,4584870.44,100.99,Gleditsia triacanthos f. inermis,False,SEGONA,Rda Guinardó,25.0,60.2,8.76,4.7,0.324,2.25,1502,ok
+0072757AR,428998.2,4584590.84,110.72,Robinia pseudoacacia,False,TERCERA,C\ Valldoreix,14.97,34.8,6.65,8.35,0.198,3.24,1842,ok
+0072758AR,429369.99,4584800.03,111.02,Morus alba 'Fruitless',False,SEGONA,C\ Larrard,7.85,54.5,8.33,4.01,0.272,2.6,2373,ok
+0072759AR,429215.61,4584995.24,130.84,Robinia pseudoacacia 'Bessoniana',False,PRIMERA,C\ Olot,5.88,19.8,5.01,4.05,0.26,2.69,373,ok
+0072761AR,429712.01,4584993.13,111.61,Tipuana tipu,False,TERCERA,C\ Miquel i Badia,12.31,51.8,8.12,6.71,0.075,5.18,1042,ok
+0072763AR,429220.7,4584810.1,137.04,Koelreuteria paniculata 'Fastigiata',False,PRIMERA,Av Santuari St Josep Muntanya,4.77,16.0,4.51,2.25,0.345,2.13,664,ok
+0072764AR,429765.05,4585030.84,115.85,Casuarina cunninghamiana,False,TERCERA,C\ Miquel i Badia,12.66,43.2,7.42,6.5,0.189,3.33,1063,ok
+0072765AR,429705.76,4584988.49,111.21,Casuarina cunninghamiana,False,EXEMPLAR,C\ Miquel i Badia,15.41,48.0,7.82,6.92,0.105,4.52,1100,ok
+0072766AR,429689.72,4585105.68,123.78,Pyrus calleryana 'Chanticleer',False,PRIMERA,Av Pompeu Fabra,5.62,12.8,4.03,3.21,0.434,1.67,267,ok
+0072767AR,429659.0,4584821.0,101.08,Ligustrum lucidum,False,PRIMERA,Trav Dalt,35.42,3.5,2.11,4.47,0.099,4.63,293,ok
+0072769AR,429317.66,4584846.23,116.51,Ligustrum lucidum,False,PRIMERA,C\ Larrard,,0.0,0.0,,,,0,no_crown_detected
+0072771AR,429606.0,4584777.0,96.62,Albizia julibrissin,False,SEGONA,Trav Dalt,7.92,27.8,5.94,4.28,0.31,2.34,1147,ok
+0072772AR,429708.11,4584979.82,111.0,Tipuana tipu,False,SEGONA,C\ Miquel i Badia,7.4,53.8,8.27,4.41,0.165,3.6,991,ok
+0072775AR,429344.43,4584816.94,113.6,Ligustrum lucidum,False,SEGONA,C\ Larrard,9.78,29.5,6.13,2.68,0.196,3.26,1237,ok
+0072778AR,429602.02,4585119.92,129.41,Pyrus calleryana 'Chanticleer',False,SEGONA,Av Pompeu Fabra,7.28,12.2,3.95,3.24,0.154,3.74,201,ok
+0072779AR,429147.02,4584916.14,146.02,Koelreuteria paniculata 'Fastigiata',False,PRIMERA,Av Santuari St Josep Muntanya,5.24,7.2,3.04,2.52,0.402,1.82,97,ok
+0072780AR,429339.57,4584894.72,113.44,Platanus × acerifolia,True,TERCERA,Rbla Mercedes,15.39,63.5,8.99,8.78,0.168,3.57,1632,ok
+0072781AR,429246.93,4585010.94,129.91,Robinia pseudoacacia 'Bessoniana',False,PRIMERA,C\ Olot,11.33,56.0,8.44,3.85,0.248,2.79,1288,ok
+0072784AR,429201.76,4584983.8,130.0,Robinia pseudoacacia,False,TERCERA,C\ Olot,13.65,52.5,8.18,5.2,0.19,3.32,1718,ok
+0072785AR,429272.28,4585005.28,126.47,Liquidambar styraciflua,False,PRIMERA,C\ Marianao,8.82,46.8,7.72,3.7,0.151,3.78,1044,ok
+0072786AR,429218.91,4584950.29,127.29,Morus alba 'Fruitless',False,SEGONA,C\ Larrard,13.38,30.2,6.21,3.57,0.235,2.9,541,ok
+0072789AR,429604.26,4585130.07,129.39,Pyrus calleryana 'Chanticleer',False,PRIMERA,Av Pompeu Fabra,5.67,13.2,4.11,3.07,0.391,1.88,523,ok
+0072791AR,429442.14,4584840.53,104.09,Prunus avium,False,PRIMERA,C\ Pare Jacint Alegre,,0.0,0.0,,,,0,no_crown_detected
+0072792AR,429865.88,4584840.62,97.92,Koelreuteria paniculata,False,SEGONA,C\ Camèlies,4.93,14.0,4.22,3.53,0.267,2.64,180,ok
+0072793AR,429021.23,4584802.97,154.01,Tipuana tipu,False,SEGONA,Av Coll del Portell,18.78,190.5,15.57,5.37,0.218,3.04,6108,ok
+0072794AR,429559.96,4585127.27,131.76,Pyrus calleryana 'Chanticleer',False,PRIMERA,Av Pompeu Fabra,,0.0,0.0,,,,0,no_crown_detected
+0072795AR,429195.23,4584846.52,140.55,Koelreuteria paniculata 'Fastigiata',False,PRIMERA,Av Santuari St Josep Muntanya,4.22,39.5,7.09,2.18,0.319,2.28,673,ok
+0072796AR,429814.31,4584804.27,96.17,Koelreuteria paniculata,False,SEGONA,C\ Camèlies,4.58,12.5,3.99,3.29,0.393,1.87,331,ok
+0072797AR,429615.63,4584784.75,97.49,Albizia julibrissin,False,SEGONA,Trav Dalt,5.69,27.5,5.92,4.16,0.323,2.26,877,ok
+0072798AR,429659.09,4584787.1,99.02,Ligustrum lucidum,False,PRIMERA,Trav Dalt,,0.0,0.0,,,,0,no_crown_detected
+0072799AR,429243.17,4585007.67,130.14,Robinia pseudoacacia,False,SEGONA,C\ Olot,9.16,34.8,6.65,3.27,0.278,2.56,890,ok
+0072800AR,429878.93,4584903.88,103.69,Gleditsia triacanthos f. inermis,False,PRIMERA,Rda Guinardó,,0.0,0.0,,,,0,no_crown_detected
+0072801AR,429786.83,4585035.68,117.18,Tipuana tipu,False,EXEMPLAR,C\ Miquel i Badia,12.42,156.2,14.1,4.96,0.162,3.64,3712,ok
+0072802AR,429201.0,4584817.0,139.48,Platanus × acerifolia,True,TERCERA,Rbla Mercedes,15.28,137.8,13.24,4.48,0.219,3.03,3461,ok
+0072803AR,429633.96,4584800.74,99.29,Ligustrum lucidum,False,SEGONA,Trav Dalt,11.28,1.8,1.49,4.06,0.361,2.04,104,no_crown_detected
+0072805AR,429617.63,4584706.37,90.0,Styphnolobium japonicum,False,PRIMERA,C\ Escorial,4.86,12.8,4.03,3.55,0.418,1.75,316,ok
+0072806AR,429838.23,4584867.72,100.67,Gleditsia triacanthos,False,SEGONA,Rda Guinardó,11.09,1.2,1.26,8.36,0.375,1.96,32,no_crown_detected
+0072808AR,429181.52,4584866.24,141.86,Prunus cerasifera 'Pissardii',False,SEGONA,Av Santuari St Josep Muntanya,5.93,23.5,5.47,3.53,0.227,2.97,445,ok
+0072809AR,429723.84,4585001.73,112.56,Tipuana tipu,False,EXEMPLAR,C\ Miquel i Badia,12.26,65.2,9.11,4.85,0.164,3.61,1419,ok
+0072810AR,429165.0,4584809.0,143.26,Cedrus atlantica,False,TERCERA,Rbla Mercedes,10.09,5.0,2.52,7.72,0.345,2.13,186,ok
+0072811AR,429231.09,4584831.12,136.26,Platanus × acerifolia,True,SEGONA,Rbla Mercedes,10.85,72.2,9.59,3.79,0.169,3.55,1630,ok
+0072812AR,429828.0,4584942.0,109.61,Styphnolobium japonicum,False,TERCERA,Av Mare de Déu de Montserrat,19.4,82.8,10.26,5.88,0.2,3.22,2252,ok
+0072813AR,428990.0,4584571.0,108.99,Robinia pseudoacacia,False,SEGONA,C\ Valldoreix,13.15,18.0,4.79,5.3,0.345,2.13,716,ok
+0072814AR,429636.09,4585122.95,126.84,Pyrus calleryana 'Chanticleer',False,PRIMERA,Av Pompeu Fabra,3.0,25.0,5.64,2.56,0.341,2.15,1055,ok
+0072815AR,429810.26,4584927.47,108.04,Brachychiton acerifolius,False,PRIMERA,Av Mare de Déu de Montserrat,,0.0,0.0,,,,0,no_crown_detected
+0072816AR,429256.62,4584920.42,123.52,Ligustrum lucidum,False,SEGONA,C\ Larrard,5.47,10.8,3.7,3.26,0.402,1.82,254,ok
+0072818AR,429236.87,4584919.02,125.26,Prunus avium,False,PRIMERA,C\ Mercedes,4.9,11.2,3.78,3.01,0.364,2.02,209,ok
+0072819AR,429700.91,4584726.73,92.21,Koelreuteria paniculata,False,SEGONA,C\ Camèlies,5.54,17.0,4.65,4.01,0.431,1.68,531,ok
+0072821AR,429231.7,4584936.85,125.73,Morus alba 'Fruitless',False,PRIMERA,C\ Larrard,8.09,40.8,7.2,4.08,0.154,3.74,980,ok
+0072822AR,429221.58,4584957.59,127.32,Morus alba 'Fruitless',False,SEGONA,C\ Larrard,6.54,48.5,7.86,2.7,0.329,2.22,1128,ok
+0072823AR,429554.81,4585138.85,132.49,Pyrus calleryana 'Chanticleer',False,PRIMERA,Av Pompeu Fabra,5.61,20.8,5.14,2.28,0.381,1.93,780,ok
+0072824AR,429566.26,4585136.58,131.9,Pyrus calleryana 'Chanticleer',False,PRIMERA,Av Pompeu Fabra,6.09,31.5,6.33,2.09,0.432,1.68,1354,ok
+0072825AR,429706.75,4585098.84,122.88,Pyrus calleryana 'Chanticleer',False,PRIMERA,Av Pompeu Fabra,6.45,10.0,3.57,3.47,0.331,2.21,236,ok
+0072826AR,429364.77,4584903.26,110.98,Prunus avium,False,PRIMERA,C\ Marianao,4.67,33.5,6.53,2.58,0.19,3.32,630,ok
+0072827AR,429614.58,4584729.59,91.52,Tipuana tipu,False,SEGONA,C\ Escorial,9.97,38.0,6.96,6.0,0.344,2.13,1291,ok
+0072828AR,429159.3,4584898.38,144.24,Koelreuteria paniculata 'Fastigiata',False,PRIMERA,Av Santuari St Josep Muntanya,4.97,48.2,7.84,2.51,0.215,3.07,907,ok
+0072829AR,429223.01,4584945.7,126.74,Morus alba 'Fruitless',False,SEGONA,C\ Larrard,7.52,39.8,7.11,3.09,0.148,3.82,967,ok
+0072830AR,429601.87,4585065.13,123.43,Brachychiton populneus,False,SEGONA,Rier Can Toda,14.89,42.0,7.31,5.08,0.198,3.24,789,ok
+0072831AR,429707.0,4584824.0,101.21,Gleditsia triacanthos,False,SEGONA,Trav Dalt,25.41,30.5,6.23,5.64,0.188,3.34,558,ok
+0072832AR,429701.0,4584855.0,103.0,Gleditsia triacanthos,False,SEGONA,Trav Dalt,24.9,50.8,8.04,6.0,0.144,3.87,665,ok
+0072833AR,429219.23,4584998.35,131.06,Robinia pseudoacacia 'Bessoniana',False,SEGONA,C\ Olot,7.74,18.5,4.85,4.46,0.281,2.54,438,ok
+0072834AR,429485.17,4585203.58,149.7,Firmiana simplex,False,SEGONA,Ctra Carmel,4.45,12.0,3.91,3.56,0.509,1.35,468,ok
+0072835AR,429286.04,4584857.12,119.8,Platanus × acerifolia,True,TERCERA,Rbla Mercedes,20.0,106.8,11.66,9.69,0.103,4.55,3026,ok
+0072836AR,429211.01,4584825.93,138.48,Platanus × acerifolia,True,TERCERA,Rbla Mercedes,15.18,39.0,7.05,6.65,0.075,5.17,1102,ok
+0072837AR,429206.54,4584832.51,138.67,Platanus × acerifolia,True,SEGONA,Rbla Mercedes,13.57,39.0,7.05,5.79,0.245,2.81,1062,ok
+0072841AR,429106.89,4584522.04,102.38,Ligustrum lucidum,False,SEGONA,C\ Verdi,6.66,15.8,4.48,3.44,0.324,2.25,461,ok
+0072843AR,429780.85,4584854.25,101.36,Gleditsia triacanthos,False,SEGONA,Trav Dalt,9.0,0.2,0.56,7.7,0.667,0.81,6,no_crown_detected
+0072844AR,429846.78,4584868.94,100.82,Gleditsia triacanthos,False,SEGONA,Rda Guinardó,25.3,13.8,4.18,7.37,0.332,2.21,407,ok
+0072845AR,428978.69,4584574.71,109.28,Jacaranda mimosifolia,False,PRIMERA,Ptge Napoleó,5.59,12.2,3.95,3.08,0.415,1.76,590,ok
+0072846AR,428902.0,4584945.0,152.4,Quercus ilex,False,SEGONA,C\ Arnold Schönberg,6.26,24.2,5.56,3.3,0.361,2.04,512,ok
+0072847AR,429941.13,4584934.18,106.21,Styphnolobium japonicum,False,SEGONA,C\ Sardenya,6.08,23.2,5.44,3.89,0.222,3.01,279,ok
+0072848AR,429570.86,4585277.28,143.52,Firmiana simplex,False,SEGONA,Ctra Carmel,7.01,44.8,7.55,2.79,0.353,2.08,1841,ok
+0072849AR,429407.24,4584853.88,105.41,Prunus avium,False,PRIMERA,C\ Pare Jacint Alegre,9.23,31.2,6.31,3.53,0.268,2.63,585,ok
+0072850AR,429736.17,4584838.68,101.27,Gleditsia triacanthos f. inermis,False,SEGONA,Trav Dalt,10.46,1.5,1.38,3.29,0.39,1.88,41,no_crown_detected
+0072851AR,429202.95,4584967.39,129.1,Morus alba 'Fruitless',False,SEGONA,C\ Larrard,7.73,68.2,9.32,2.79,0.21,3.12,1506,ok
+0072852AR,429224.76,4584827.83,136.98,Platanus × acerifolia,True,SEGONA,Rbla Mercedes,11.21,49.2,7.92,4.48,0.217,3.06,1203,ok
+0072853AR,429708.76,4585087.78,122.64,Pyrus calleryana 'Chanticleer',False,SEGONA,Av Pompeu Fabra,5.9,45.8,7.63,2.25,0.151,3.79,657,ok
+0072856AR,429712.5,4585096.74,122.57,Pyrus calleryana 'Chanticleer',False,SEGONA,Av Pompeu Fabra,6.08,19.0,4.92,2.62,0.347,2.11,403,ok
+0072857AR,429517.98,4584861.78,105.13,Morus alba 'Fruitless',False,SEGONA,C\ Molist,7.57,34.0,6.58,2.42,0.195,3.27,687,ok
+0072858AR,429304.24,4584792.68,119.04,Acer monspessulanum,False,SEGONA,Ptge Mercedes,5.99,25.5,5.7,2.04,0.349,2.11,946,ok
+0072859AR,429663.67,4584790.84,99.46,Ligustrum lucidum,False,PRIMERA,Trav Dalt,35.06,3.2,2.03,3.57,0.225,2.98,83,ok
+0072861AR,429232.16,4585009.23,130.79,Robinia pseudoacacia 'Bessoniana',False,SEGONA,C\ Olot,7.95,22.0,5.29,4.22,0.219,3.04,453,ok
+0072865AR,429357.33,4584915.28,111.84,Liquidambar styraciflua,False,PRIMERA,C\ Marianao,8.31,30.0,6.18,2.58,0.073,5.23,712,ok
+0072866AR,429891.77,4584859.3,100.17,Koelreuteria paniculata,False,SEGONA,C\ Camèlies,4.69,15.0,4.37,3.39,0.396,1.85,283,ok
+0072868AR,429520.29,4584858.02,104.28,Morus alba 'Fruitless',False,SEGONA,C\ Molist,8.63,29.8,6.15,2.84,0.15,3.8,602,ok
+0072870AR,429216.08,4584713.26,114.98,Styphnolobium japonicum,False,SEGONA,C\ Sant Cugat del Vallès,9.18,45.8,7.63,4.9,0.395,1.86,2291,ok
+0072871AR,429260.24,4584734.3,113.14,Styphnolobium japonicum,False,SEGONA,C\ Sant Cugat del Vallès,6.93,38.0,6.96,3.16,0.394,1.86,1647,ok
+0072872AR,429227.65,4585005.48,131.17,Robinia pseudoacacia 'Bessoniana',False,SEGONA,C\ Olot,8.3,29.5,6.13,4.28,0.269,2.63,680,ok
+0072873AR,429898.25,4584863.97,100.6,Koelreuteria paniculata,False,SEGONA,C\ Camèlies,4.56,10.5,3.66,3.29,0.459,1.56,207,ok
+0072874AR,429397.5,4584761.06,107.06,Ligustrum lucidum,False,SEGONA,C\ Larrard,6.57,25.5,5.7,1.64,0.403,1.82,991,ok
+0072875AR,429086.48,4584550.38,106.24,Ligustrum lucidum,False,SEGONA,C\ Verdi,4.9,7.0,2.99,4.31,0.342,2.15,277,ok
+0072876AR,429577.04,4585279.84,142.93,Firmiana simplex,False,SEGONA,Ctra Carmel,7.91,35.0,6.68,4.86,0.253,2.75,1197,ok
+0072877AR,429571.69,4585135.65,131.65,Pyrus calleryana 'Chanticleer',False,PRIMERA,Av Pompeu Fabra,5.41,20.5,5.11,2.21,0.4,1.83,770,ok
+0072878AR,429345.9,4584884.74,113.13,Platanus × acerifolia,True,TERCERA,Rbla Mercedes,16.63,48.2,7.84,9.3,0.181,3.42,1275,ok
+0072879AR,429467.99,4585188.76,150.46,Firmiana simplex,False,SEGONA,Ctra Carmel,4.36,11.8,3.87,3.26,0.523,1.3,438,ok
+0072880AR,429577.12,4585134.72,131.34,Pyrus calleryana 'Chanticleer',False,PRIMERA,Av Pompeu Fabra,6.11,29.5,6.13,2.23,0.409,1.79,1020,ok
+0072881AR,429593.0,4584766.0,95.28,Albizia julibrissin,False,SEGONA,Trav Dalt,8.48,29.8,6.15,4.77,0.303,2.39,1302,ok
+0072883AR,429761.01,4584767.91,95.47,Koelreuteria paniculata,False,PRIMERA,C\ Camèlies,5.16,13.5,4.15,2.37,0.374,1.97,462,ok
+0072884AR,429325.68,4584836.67,115.62,Ligustrum lucidum,False,SEGONA,C\ Larrard,6.73,46.0,7.65,2.19,0.245,2.81,974,ok
+0072886AR,428985.02,4584565.34,108.65,Jacaranda mimosifolia,False,SEGONA,Ptge Napoleó,8.79,38.5,7.0,3.23,0.326,2.24,1770,ok
+0072888AR,429212.14,4584968.27,128.56,Ligustrum lucidum,False,PRIMERA,C\ Larrard,4.36,26.5,5.81,2.79,0.285,2.51,474,ok
+0072889AR,429631.61,4584764.63,96.18,Ligustrum lucidum,False,SEGONA,Trav Dalt,34.8,10.8,3.7,4.44,0.208,3.14,238,ok
+0072890AR,429718.96,4584896.34,105.72,Jacaranda mimosifolia,False,PRIMERA,Rier Can Toda,0.0,6.0,2.76,7.55,0.014,7.82,72,low_tree
+0072893AR,429618.36,4585047.13,120.9,Brachychiton populneus,False,SEGONA,Rier Can Toda,7.71,26.2,5.78,3.81,0.33,2.22,652,ok
+0072894AR,429932.0,4584947.0,107.84,Styphnolobium japonicum,False,SEGONA,C\ Sardenya,7.07,36.5,6.82,4.33,0.227,2.96,449,ok
+0072895AR,429619.33,4584722.44,90.92,Tipuana tipu,False,SEGONA,C\ Escorial,7.45,15.5,4.44,3.76,0.375,1.96,496,ok
+0072896AR,429590.0,4585281.0,141.88,Firmiana simplex,False,SEGONA,Ctra Carmel,8.77,60.5,8.78,5.25,0.235,2.9,2158,ok
+0072897AR,429280.64,4584781.72,122.41,Acer monspessulanum,False,SEGONA,Ptge Mercedes,5.18,6.0,2.76,2.69,0.429,1.69,237,ok
+0072898AR,429695.67,4585092.76,123.35,Pyrus calleryana 'Chanticleer',False,PRIMERA,Av Pompeu Fabra,5.65,7.5,3.09,3.03,0.302,2.4,159,ok
+0072900AR,429681.4,4584973.72,110.51,Brachychiton populneus,False,SEGONA,Rier Can Toda,9.13,53.8,8.27,2.35,0.231,2.93,1258,ok
+0072901AR,429640.77,4585120.94,126.55,Pyrus calleryana 'Chanticleer',False,PRIMERA,Av Pompeu Fabra,5.53,8.8,3.34,3.08,0.273,2.6,194,ok
+0072903AR,429260.92,4584845.4,124.37,Platanus × acerifolia,True,TERCERA,Rbla Mercedes,18.05,61.2,8.83,10.54,0.198,3.24,1716,ok
+0072905AR,429445.72,4585178.06,151.24,Firmiana simplex,False,SEGONA,Ctra Carmel,5.65,9.5,3.48,4.26,0.432,1.68,391,ok
+0072907AR,429874.0,4584980.0,113.21,Styphnolobium japonicum,False,SEGONA,Av Mare de Déu de Montserrat,9.51,52.2,8.16,4.8,0.224,2.99,1338,ok
+0072908AR,429277.97,4584898.22,121.25,Morus alba 'Fruitless',False,PRIMERA,C\ Larrard,6.13,36.8,6.84,3.67,0.254,2.74,890,ok
+0072910AR,429229.29,4584915.1,126.32,Prunus avium,False,PRIMERA,C\ Mercedes,5.74,45.2,7.59,2.64,0.248,2.79,901,ok
+0072911AR,429433.95,4584842.0,104.34,Prunus avium,False,PRIMERA,C\ Pare Jacint Alegre,4.53,6.0,2.76,3.03,0.473,1.5,129,ok
+0072912AR,429454.17,4584589.36,90.18,Acer monspessulanum,False,PRIMERA,C\ Rabassa,15.72,7.5,3.09,2.76,0.201,3.2,200,ok
+0072915AR,429593.63,4585074.14,124.77,Brachychiton populneus,False,SEGONA,Rier Can Toda,8.1,24.8,5.61,3.78,0.365,2.02,674,ok
+0072916AR,429852.41,4584902.6,104.29,Gleditsia triacanthos,False,SEGONA,Rda Guinardó,8.85,37.0,6.86,5.3,0.271,2.61,890,ok
+0072917AR,428984.0,4584569.0,108.94,Jacaranda mimosifolia,False,PRIMERA,Ptge Napoleó,4.27,6.2,2.82,3.55,0.471,1.51,228,ok
+0072918AR,429832.74,4584900.4,104.8,Gleditsia triacanthos,False,SEGONA,Rda Guinardó,7.65,56.8,8.5,5.02,0.258,2.71,1126,ok
+0072920AR,429706.06,4584933.3,107.89,Brachychiton populneus,False,SEGONA,Rier Can Toda,5.74,14.5,4.3,3.1,0.379,1.94,306,ok
+0072921AR,429206.68,4584962.06,128.63,Ligustrum lucidum,False,PRIMERA,C\ Larrard,4.37,20.2,5.08,2.57,0.383,1.92,439,ok
+0072924AR,429213.83,4584831.53,137.88,Platanus × acerifolia,True,SEGONA,Rbla Mercedes,14.54,25.2,5.67,7.53,0.137,3.97,671,ok
+0072926AR,429646.0,4584811.0,100.2,Ligustrum lucidum,False,PRIMERA,Trav Dalt,36.67,1.5,1.38,3.51,0.125,4.16,226,no_crown_detected
+0072927AR,429597.75,4585069.63,124.02,Brachychiton populneus,False,SEGONA,Rier Can Toda,6.68,13.0,4.07,3.49,0.431,1.68,306,ok
+0072928AR,429401.3,4584756.62,106.47,Ligustrum lucidum,False,SEGONA,C\ Larrard,6.01,8.0,3.19,4.15,0.353,2.08,319,ok
+0072929AR,429643.09,4585020.12,117.07,Brachychiton populneus,False,EXEMPLAR,Rier Can Toda,9.13,26.2,5.78,3.65,0.329,2.23,627,ok
+0072933AR,429639.14,4585111.24,126.55,Pyrus calleryana 'Chanticleer',False,PRIMERA,Av Pompeu Fabra,6.03,0.8,0.98,2.97,0.286,2.51,14,no_crown_detected
+0072934AR,429721.69,4584989.5,112.0,Casuarina cunninghamiana,False,EXEMPLAR,C\ Miquel i Badia,10.78,62.2,8.9,2.54,0.164,3.61,1490,ok
+0072935AR,429291.6,4584985.2,122.48,Liquidambar styraciflua,False,PRIMERA,C\ Marianao,4.73,11.2,3.78,2.79,0.402,1.82,241,ok
+0072936AR,429747.72,4584758.82,95.11,Koelreuteria paniculata,False,PRIMERA,C\ Camèlies,5.25,36.2,6.79,4.22,0.184,3.39,1804,ok
+0072937AR,429596.12,4585121.28,129.93,Pyrus calleryana 'Chanticleer',False,PRIMERA,Av Pompeu Fabra,6.22,14.2,4.26,2.17,0.303,2.39,304,ok
+0072938AR,429858.59,4584835.48,97.48,Koelreuteria paniculata,False,SEGONA,C\ Camèlies,4.17,9.2,3.43,3.15,0.379,1.94,87,ok
+0072939AR,429355.3,4584816.23,112.85,Morus alba 'Fruitless',False,SEGONA,C\ Larrard,7.93,51.5,8.1,4.24,0.255,2.73,2079,ok
+0072940AR,429188.7,4584856.45,141.24,Prunus cerasifera 'Pissardii',False,SEGONA,Av Santuari St Josep Muntanya,6.32,17.8,4.75,3.23,0.254,2.74,351,ok
+0072941AR,429191.58,4584851.87,140.93,Prunus cerasifera 'Pissardii',False,PRIMERA,Av Santuari St Josep Muntanya,4.86,24.5,5.59,2.85,0.261,2.69,380,ok
+0072942AR,429321.53,4584851.24,116.44,Ligustrum lucidum,False,PRIMERA,C\ Larrard,3.58,3.5,2.11,3.04,0.447,1.61,38,few_points
+0072944AR,429723.82,4585081.18,121.89,Pyrus calleryana 'Chanticleer',False,SEGONA,Av Pompeu Fabra,6.21,20.5,5.11,2.8,0.163,3.63,276,ok
+0072945AR,429548.1,4585007.32,127.24,Brachychiton populneus,False,SEGONA,C\ Antequera,7.3,35.8,6.75,2.95,0.21,3.12,1037,ok
+0072946AR,429352.19,4584777.45,111.17,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Sant Cugat del Vallès,10.85,60.5,8.78,3.31,0.166,3.6,3363,ok
+0072947AR,429313.36,4584850.84,116.94,Ligustrum lucidum,False,PRIMERA,C\ Larrard,,0.0,0.0,,,,0,no_crown_detected
+0072948AR,429687.0,4584844.0,102.5,Gleditsia triacanthos,False,SEGONA,Trav Dalt,30.1,49.5,7.94,6.09,0.137,3.98,549,ok
+0072949AR,429260.94,4584905.85,122.52,Ligustrum lucidum,False,PRIMERA,C\ Larrard,5.59,6.0,2.76,4.65,0.37,1.99,92,ok
+0072951AR,429293.03,4584881.73,119.44,Ligustrum lucidum,False,PRIMERA,C\ Larrard,0.0,1.5,1.38,11.9,0.24,2.85,25,no_crown_detected
+0072952AR,429238.37,4584929.56,124.92,Morus alba 'Fruitless',False,SEGONA,C\ Larrard,8.18,49.2,7.92,3.9,0.229,2.94,1190,ok
+0072953AR,429358.22,4584779.89,110.94,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Sant Cugat del Vallès,3.31,0.2,0.56,3.04,0.0,7.82,5,no_crown_detected
+0072954AR,429642.0,4584807.0,99.81,Ligustrum lucidum,False,PRIMERA,Trav Dalt,36.78,4.2,2.33,4.04,0.141,3.92,481,ok
+0072955AR,429631.14,4584705.64,89.52,Tipuana tipu,False,SEGONA,C\ Escorial,6.52,13.2,4.11,2.34,0.301,2.4,480,ok
+0072957AR,429352.62,4584920.11,112.22,Liquidambar styraciflua,False,PRIMERA,C\ Marianao,0.0,15.0,4.37,3.52,0.125,4.15,279,low_tree
+0072958AR,429233.38,4584945.14,126.02,Ligustrum lucidum,False,PRIMERA,C\ Larrard,3.77,4.8,2.46,3.2,0.461,1.55,115,ok
+0072959AR,429309.52,4584880.3,117.59,Platanus × acerifolia,True,SEGONA,Rbla Mercedes,17.08,64.0,9.03,9.16,0.072,5.27,1673,ok
+0072960AR,429604.0,4585278.0,140.87,Firmiana simplex,False,TERCERA,Ctra Carmel,8.67,116.8,12.19,5.27,0.277,2.57,4408,ok
+0072961AR,429269.49,4584907.15,122.1,Ligustrum lucidum,False,PRIMERA,C\ Larrard,4.61,9.2,3.43,2.82,0.376,1.96,197,ok
+0072962AR,429217.0,4584986.0,130.32,Robinia pseudoacacia 'Bessoniana',False,SEGONA,C\ Olot,0.0,1.2,1.26,8.07,0.471,1.51,34,no_crown_detected
+0072963AR,429257.63,4585030.67,130.4,Robinia pseudoacacia,False,SEGONA,C\ Olot,9.39,26.8,5.84,4.79,0.357,2.06,656,ok
+0072964AR,429653.99,4584694.82,88.95,Koelreuteria paniculata,False,SEGONA,C\ Camèlies,6.16,22.8,5.38,3.43,0.355,2.07,723,ok
+0072966AR,429565.43,4585274.0,143.98,Firmiana simplex,False,SEGONA,Ctra Carmel,8.86,66.0,9.17,2.66,0.28,2.54,2567,ok
+0072967AR,429360.02,4584811.42,112.24,Ligustrum lucidum,False,PRIMERA,C\ Larrard,4.25,5.0,2.52,2.8,0.508,1.35,206,ok
+0072968AR,429177.81,4584897.86,141.64,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Mercedes,,0.0,0.0,,,,0,no_crown_detected
+0072969AR,429587.97,4585132.86,130.68,Celtis australis,False,TERCERA,Av Pompeu Fabra,8.95,27.2,5.89,5.22,0.282,2.54,709,ok
+0072970AR,429821.11,4584936.38,109.01,Brachychiton acerifolius,False,PRIMERA,Av Mare de Déu de Montserrat,,0.0,0.0,,,,0,no_crown_detected
+0072973AR,429638.14,4584804.22,99.57,Albizia julibrissin,False,SEGONA,Trav Dalt,5.87,8.8,3.34,3.6,0.36,2.04,365,ok
+0072974AR,429267.69,4584898.18,121.83,Ligustrum lucidum,False,SEGONA,C\ Larrard,4.15,9.2,3.43,3.7,0.351,2.09,114,ok
+0072975AR,429273.62,4584903.06,121.66,Ligustrum lucidum,False,SEGONA,C\ Larrard,4.73,15.5,4.44,3.23,0.403,1.82,340,ok
+0072977AR,429878.84,4584850.03,99.1,Koelreuteria paniculata,False,SEGONA,C\ Camèlies,4.12,8.8,3.34,3.05,0.436,1.66,94,ok
+0072978AR,429672.62,4584984.29,111.99,Brachychiton populneus,False,TERCERA,Rier Can Toda,8.1,29.2,6.1,3.63,0.292,2.46,945,ok
+0072979AR,429259.3,4584857.17,123.82,Platanus × acerifolia,True,TERCERA,Rbla Mercedes,16.21,55.0,8.37,8.67,0.114,4.34,1501,ok
+0072982AR,429767.75,4584772.44,95.6,Koelreuteria paniculata,False,SEGONA,C\ Camèlies,4.28,5.5,2.65,3.02,0.406,1.8,184,ok
+0072983AR,429288.3,4584784.64,121.4,Acer monspessulanum,False,SEGONA,Ptge Mercedes,5.4,43.0,7.4,2.4,0.248,2.79,1423,ok
+0072985AR,429552.75,4585018.39,127.04,Brachychiton populneus,False,SEGONA,C\ Antequera,5.35,37.0,6.86,2.92,0.252,2.76,1077,ok
+0072986AR,429437.65,4585177.14,151.5,Firmiana simplex,False,SEGONA,Ctra Carmel,5.71,26.2,5.78,3.04,0.298,2.42,1351,ok
+0072987AR,429629.3,4584689.24,88.6,Populus nigra,False,EXEMPLAR,C\ Escorial,19.44,35.8,6.75,6.47,0.194,3.28,2085,ok
+0072988AR,429549.38,4585260.09,144.68,Firmiana simplex,False,SEGONA,Ctra Carmel,9.79,62.0,8.88,3.95,0.259,2.7,2404,ok
+0072989AR,429707.6,4584731.32,92.75,Koelreuteria paniculata,False,SEGONA,C\ Camèlies,5.69,14.8,4.33,3.76,0.417,1.75,472,ok
+0072990AR,429212.04,4584956.68,127.96,Morus alba 'Fruitless',False,SEGONA,C\ Larrard,7.19,47.0,7.74,4.27,0.226,2.98,1098,ok
+0072991AR,429079.81,4584560.69,107.83,Ligustrum lucidum,False,PRIMERA,C\ Verdi,4.92,8.2,3.24,3.33,0.396,1.86,291,ok
+0072992AR,429280.38,4584884.93,120.38,Ligustrum lucidum,False,PRIMERA,C\ Larrard,6.62,18.0,4.79,3.71,0.279,2.55,408,ok
+0072993AR,429321.0,4584886.0,115.99,Platanus × acerifolia,True,TERCERA,Rbla Mercedes,15.95,74.0,9.71,8.56,0.195,3.27,2011,ok
+0072994AR,429734.57,4585075.83,121.28,Pyrus calleryana 'Chanticleer',False,PRIMERA,Av Pompeu Fabra,5.15,4.0,2.26,2.93,0.41,1.78,100,ok
+0072995AR,429866.13,4584870.95,101.11,Jacaranda mimosifolia,False,SEGONA,Rda Guinardó,8.64,37.0,6.86,4.83,0.307,2.36,1048,ok
+0072996AR,429454.0,4585180.0,150.94,Firmiana simplex,False,PRIMERA,Ctra Carmel,5.35,11.0,3.74,3.25,0.484,1.45,489,ok
+0072999AR,429364.76,4584783.29,110.68,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Sant Cugat del Vallès,5.24,4.5,2.39,2.88,0.462,1.55,221,ok
+0073000AR,428991.9,4584577.09,109.64,Robinia pseudoacacia,False,SEGONA,C\ Valldoreix,11.9,25.0,5.64,6.56,0.301,2.4,1184,ok
+0073001AR,429344.76,4584773.34,111.38,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Sant Cugat del Vallès,5.87,18.2,4.82,3.53,0.221,3.02,762,ok
+0073002AR,429708.45,4584928.22,107.71,Brachychiton populneus,False,TERCERA,Rier Can Toda,7.58,37.2,6.89,3.32,0.301,2.4,899,ok
+0073003AR,429128.06,4584491.45,98.59,Ligustrum lucidum,False,PRIMERA,C\ Verdi,,0.0,0.0,,,,0,no_crown_detected
+0073004AR,428990.0,4584574.0,109.25,Robinia pseudoacacia,False,SEGONA,C\ Valldoreix,12.78,32.2,6.41,6.13,0.297,2.43,1527,ok
+0073005AR,429841.0,4584952.0,110.55,Brachychiton acerifolius,False,TERCERA,Av Mare de Déu de Montserrat,20.21,30.0,6.18,5.78,0.134,4.01,737,ok
+0073006AR,429483.4,4584738.24,95.72,Morus alba,False,TERCERA,C\ Mare de Déu de la Salut,7.53,51.8,8.12,3.46,0.203,3.19,2303,ok
+0073007AR,429325.31,4584846.56,115.94,Ligustrum lucidum,False,PRIMERA,C\ Larrard,,0.0,0.0,,,,0,no_crown_detected
+0073008AR,429629.78,4584797.27,98.9,Ligustrum lucidum,False,PRIMERA,Trav Dalt,,0.0,0.0,,,,0,no_crown_detected
+0073009AR,429766.77,4585059.11,119.3,Pyrus calleryana 'Chanticleer',False,PRIMERA,Av Pompeu Fabra,6.03,32.2,6.41,2.75,0.124,4.18,518,ok
+0073010AR,429267.2,4584848.33,123.18,Platanus × acerifolia,True,SEGONA,Rbla Mercedes,18.59,50.8,8.04,6.7,0.134,4.02,1331,ok
+0073011AR,429227.6,4584941.11,126.18,Morus alba 'Fruitless',False,SEGONA,C\ Larrard,7.26,45.5,7.61,2.6,0.163,3.63,1206,ok
+0073013AR,429288.61,4584887.03,119.98,Ligustrum lucidum,False,SEGONA,C\ Larrard,4.38,4.5,2.39,3.46,0.367,2.01,60,ok
+0073014AR,429194.66,4584898.77,139.9,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Mercedes,3.33,40.2,7.16,2.24,0.148,3.82,690,ok
+0073017AR,429234.13,4584836.81,135.73,Platanus × acerifolia,True,TERCERA,Rbla Mercedes,14.49,56.8,8.5,5.69,0.174,3.5,1537,ok
+0073018AR,429634.33,4584701.02,89.14,Tipuana tipu,False,SEGONA,C\ Escorial,8.96,26.2,5.78,4.34,0.246,2.81,936,ok
+0073019AR,429885.88,4584871.86,101.48,Gleditsia triacanthos f. inermis,False,PRIMERA,Rda Guinardó,10.78,47.0,7.74,4.08,0.234,2.9,1153,ok
+0073020AR,429170.11,4584958.17,132.38,Robinia pseudoacacia,False,PRIMERA,C\ Olot,4.15,35.8,6.75,2.55,0.283,2.52,731,ok
+0073022AR,429245.71,4585020.51,130.01,Robinia pseudoacacia 'Bessoniana',False,PRIMERA,C\ Olot,11.29,86.2,10.48,3.21,0.232,2.92,2423,ok
+0073023AR,429659.55,4584698.52,89.24,Koelreuteria paniculata,False,SEGONA,C\ Camèlies,5.5,16.8,4.62,3.1,0.443,1.63,484,ok
+0073024AR,429184.84,4584970.22,130.71,Robinia pseudoacacia 'Bessoniana',False,PRIMERA,C\ Olot,17.17,36.2,6.79,5.9,0.149,3.8,1366,ok
+0073025AR,429405.0,4584761.0,106.38,Ligustrum lucidum,False,PRIMERA,C\ Larrard,9.62,100.2,11.3,2.98,0.219,3.04,5161,ok
+0073026AR,429699.31,4584984.26,110.8,Tipuana tipu,False,EXEMPLAR,C\ Miquel i Badia,12.1,66.5,9.2,7.05,0.1,4.61,1275,ok
+0073027AR,429179.0,4584966.0,131.44,Robinia pseudoacacia,False,TERCERA,C\ Olot,8.23,34.8,6.65,3.62,0.249,2.78,732,ok
+0073028AR,429292.32,4584860.05,119.11,Platanus × acerifolia,True,EXEMPLAR,Rbla Mercedes,23.23,140.2,13.36,9.61,0.063,5.53,4507,ok
+0073029AR,429892.0,4584995.0,114.59,Styphnolobium japonicum,False,SEGONA,Av Mare de Déu de Montserrat,9.29,62.8,8.94,4.65,0.217,3.06,1690,ok
+0073030AR,429622.0,4584757.0,95.12,Ligustrum lucidum,False,PRIMERA,Trav Dalt,,0.0,0.0,,,,0,no_crown_detected
+0073031AR,429686.13,4585095.97,123.73,Celtis australis,False,SEGONA,Av Pompeu Fabra,8.09,31.5,6.33,3.7,0.199,3.23,735,ok
+0073033AR,429504.29,4585021.64,134.02,Ginkgo biloba,False,SEGONA,C\ Sant Josep Cottolengo,6.36,4.5,2.39,2.44,0.289,2.48,142,ok
+0073034AR,429657.89,4585002.81,114.56,Brachychiton populneus,False,SEGONA,Rier Can Toda,5.09,3.2,2.03,3.1,0.484,1.45,91,ok
+0073036AR,429867.21,4584974.99,112.59,Brachychiton acerifolius,False,SEGONA,Av Mare de Déu de Montserrat,7.36,26.2,5.78,3.88,0.135,4.0,443,ok
+0073038AR,429176.68,4584873.56,142.27,Prunus cerasifera 'Pissardii',False,PRIMERA,Av Santuari St Josep Muntanya,4.66,9.2,3.43,3.04,0.34,2.16,203,ok
+0073039AR,429251.05,4585013.97,129.6,Robinia pseudoacacia 'Bessoniana',False,PRIMERA,C\ Olot,8.8,57.8,8.57,4.32,0.306,2.37,1316,ok
+0073040AR,429276.15,4584889.34,120.91,Morus alba 'Fruitless',False,SEGONA,C\ Larrard,8.75,39.8,7.11,3.6,0.159,3.67,985,ok
+0073041AR,429399.28,4584768.42,107.31,Ligustrum lucidum,False,PRIMERA,C\ Larrard,4.23,21.8,5.26,2.25,0.297,2.43,904,ok
+0073042AR,429733.79,4584998.58,112.99,Casuarina cunninghamiana,False,EXEMPLAR,C\ Miquel i Badia,12.36,44.2,7.51,5.08,0.242,2.84,1049,ok
+0073044AR,429885.42,4584854.82,99.72,Koelreuteria paniculata,False,SEGONA,C\ Camèlies,4.59,16.0,4.51,3.05,0.372,1.98,258,ok
+0073045AR,429222.38,4584716.33,114.55,Styphnolobium japonicum,False,SEGONA,C\ Sant Cugat del Vallès,8.85,35.8,6.75,4.43,0.276,2.57,1760,ok
+0073046AR,429554.8,4585264.95,145.38,Firmiana simplex,False,SEGONA,Ctra Carmel,7.09,24.2,5.56,4.62,0.333,2.2,882,ok
+0073049AR,429383.0,4584775.0,109.13,Ligustrum lucidum,False,SEGONA,C\ Larrard,4.71,8.0,3.19,3.84,0.505,1.36,291,ok
+0073050AR,429578.68,4585124.45,131.18,Pyrus calleryana 'Chanticleer',False,PRIMERA,Av Pompeu Fabra,5.48,31.8,6.36,2.61,0.24,2.86,743,ok
+0073051AR,429286.33,4584991.06,123.57,Prunus avium,False,PRIMERA,C\ Marianao,,0.0,0.0,,,,0,no_crown_detected
+0073052AR,429358.24,4584890.72,111.57,Platanus × acerifolia,True,TERCERA,Rbla Mercedes,16.42,86.8,10.51,7.97,0.16,3.67,2859,ok
+0073053AR,429717.92,4584997.43,112.1,Casuarina cunninghamiana,False,EXEMPLAR,C\ Miquel i Badia,16.45,45.8,7.63,7.08,0.145,3.86,1181,ok
+0073054AR,429878.37,4584871.8,101.31,Jacaranda mimosifolia,False,SEGONA,Rda Guinardó,10.61,82.2,10.23,5.48,0.252,2.76,2117,ok
+0073055AR,429213.25,4584822.64,138.18,Platanus × acerifolia,True,TERCERA,Rbla Mercedes,15.08,70.8,9.49,5.56,0.106,4.49,1920,ok
+0073057AR,429677.41,4584802.08,100.56,Ligustrum lucidum,False,PRIMERA,Trav Dalt,,0.0,0.0,,,,0,no_crown_detected
+0073058AR,429668.25,4584794.59,99.92,Ligustrum lucidum,False,PRIMERA,Trav Dalt,,0.0,0.0,,,,0,no_crown_detected
+0073059AR,429329.81,4584842.44,115.48,Ligustrum lucidum,False,PRIMERA,C\ Larrard,0.0,1.0,1.13,4.51,0.55,1.2,20,no_crown_detected
+0073062AR,429333.56,4584878.76,114.77,Platanus × acerifolia,True,TERCERA,Rbla Mercedes,14.55,48.0,7.82,8.85,0.19,3.32,1151,ok
+0073064AR,429392.74,4584864.07,106.58,Prunus avium,False,PRIMERA,C\ Pare Jacint Alegre,4.91,2.0,1.6,3.34,0.468,1.52,47,few_points
+0073065AR,429645.35,4584775.87,97.65,Albizia julibrissin,False,PRIMERA,Trav Dalt,35.49,3.0,1.95,9.99,0.075,5.19,299,ok
+0073066AR,429668.95,4584989.47,112.73,Brachychiton populneus,False,SEGONA,Rier Can Toda,7.07,22.5,5.35,3.59,0.425,1.71,595,ok
+0073069AR,429450.06,4584840.06,103.84,Prunus avium,False,PRIMERA,C\ Pare Jacint Alegre,4.55,2.5,1.78,2.96,0.464,1.54,69,ok
+0073070AR,429395.88,4584861.44,106.37,Liquidambar styraciflua,False,PRIMERA,C\ Pare Jacint Alegre,4.68,3.5,2.11,3.07,0.477,1.48,86,ok
+0073071AR,429627.78,4584709.92,89.87,Tipuana tipu,False,SEGONA,C\ Escorial,7.26,16.2,4.55,4.11,0.387,1.9,620,ok
+0073072AR,429342.17,4584810.22,113.84,Acer monspessulanum,False,SEGONA,Ptge Mercedes,5.59,31.8,6.36,2.82,0.16,3.67,1458,ok
+0073073AR,429315.05,4584869.8,117.24,Platanus × acerifolia,True,EXEMPLAR,Rbla Mercedes,21.16,80.8,10.14,10.49,0.121,4.22,2751,ok
+0073074AR,429605.99,4585060.63,122.85,Brachychiton populneus,False,SEGONA,Rier Can Toda,15.8,69.5,9.41,5.97,0.116,4.3,1290,ok
+0073075AR,429625.98,4584717.62,90.51,Tipuana tipu,False,SEGONA,C\ Escorial,8.13,17.0,4.65,4.45,0.314,2.32,589,ok
+0073076AR,429628.61,4584713.36,90.19,Tipuana tipu,False,SEGONA,C\ Escorial,7.08,18.5,4.85,4.94,0.338,2.17,698,ok
+0073078AR,428977.59,4584561.62,108.1,Robinia pseudoacacia,False,SEGONA,Ptge Napoleó,13.01,68.5,9.34,2.79,0.24,2.86,2469,ok
+0073081AR,429852.6,4584831.19,97.09,Koelreuteria paniculata,False,SEGONA,C\ Camèlies,4.14,8.0,3.19,3.31,0.338,2.17,77,ok
+0073083AR,429228.81,4584950.47,126.59,Ligustrum lucidum,False,PRIMERA,C\ Larrard,3.97,32.2,6.41,2.71,0.111,4.4,704,ok
+0073084AR,429340.36,4584820.94,114.02,Ligustrum lucidum,False,SEGONA,C\ Larrard,11.6,81.5,10.19,3.37,0.141,3.92,2481,ok
+0073085AR,429371.9,4584888.22,109.72,Liquidambar styraciflua,False,PRIMERA,C\ Pare Jacint Alegre,0.0,1.0,1.13,11.15,0.227,2.96,22,no_crown_detected
+0073088AR,429672.24,4585111.44,124.72,Pyrus calleryana 'Chanticleer',False,PRIMERA,Av Pompeu Fabra,5.92,8.8,3.34,3.59,0.333,2.2,204,ok
+0073090AR,429277.48,4584999.74,125.38,Liquidambar styraciflua,False,PRIMERA,C\ Marianao,6.02,0.2,0.56,4.22,0.4,1.83,5,no_crown_detected
+0073091AR,429627.52,4585114.14,127.28,Pyrus calleryana 'Chanticleer',False,PRIMERA,Av Pompeu Fabra,6.14,17.8,4.75,2.07,0.29,2.47,217,ok
+0073092AR,429598.22,4584770.47,95.91,Ligustrum lucidum,False,PRIMERA,Trav Dalt,5.35,6.0,2.76,2.47,0.248,2.79,309,ok
+0073093AR,429534.64,4585243.78,147.5,Firmiana simplex,False,PRIMERA,Ctra Carmel,4.35,7.5,3.09,2.79,0.497,1.4,324,ok
+0073095AR,429557.4,4585029.46,126.85,Brachychiton populneus,False,SEGONA,C\ Antequera,5.98,32.2,6.41,2.32,0.33,2.22,879,ok
+0073096AR,429365.05,4584806.22,111.65,Ligustrum lucidum,False,PRIMERA,C\ Larrard,3.9,11.8,3.87,3.47,0.414,1.76,441,ok
+0073098AR,429630.05,4585124.17,127.28,Pyrus calleryana 'Chanticleer',False,PRIMERA,Av Pompeu Fabra,5.92,36.0,6.77,2.32,0.414,1.76,1513,ok
+0073101AR,429880.9,4584865.7,101.35,Schinus molle,False,EXEMPLAR,Rda Guinardó,8.3,41.0,7.23,4.55,0.306,2.37,863,ok
+0073102AR,429820.92,4584808.82,96.17,Koelreuteria paniculata,False,SEGONA,C\ Camèlies,4.8,12.8,4.03,3.31,0.487,1.44,367,ok
+0073103AR,429173.15,4584878.39,142.62,Prunus cerasifera 'Pissardii',False,SEGONA,Av Santuari St Josep Muntanya,6.86,21.8,5.26,3.75,0.209,3.13,431,ok
+0073106AR,429114.64,4584510.81,100.99,Ligustrum lucidum,False,PRIMERA,C\ Verdi,3.83,4.0,2.26,2.76,0.343,2.14,95,ok
+0073108AR,429514.22,4584762.58,95.02,Tilia platyphyllos,False,SEGONA,C\ Mare de Déu de la Salut,10.36,65.0,9.1,4.43,0.156,3.71,2373,ok
+0073109AR,429634.84,4585029.12,118.34,Brachychiton populneus,False,SEGONA,Rier Can Toda,7.43,18.5,4.85,3.6,0.35,2.1,397,ok
+0073110AR,429774.25,4584776.94,95.66,Koelreuteria paniculata,False,SEGONA,C\ Camèlies,5.28,22.2,5.32,3.37,0.344,2.14,906,ok
+0073111AR,429630.72,4585033.62,119.02,Brachychiton populneus,False,SEGONA,Rier Can Toda,3.11,2.5,1.78,2.88,0.423,1.72,52,ok
+0289495AR,429211.0,4584991.3,130.6,Robinia pseudoacacia,False,TERCERA,C\ Olot,13.18,48.2,7.84,6.23,0.165,3.6,1549,ok
+0289496AR,429214.54,4584983.31,130.22,Robinia pseudoacacia 'Bessoniana',False,PRIMERA,C\ Olot,7.36,23.2,5.44,4.53,0.281,2.54,506,ok
+0289662AR,429215.7,4584512.64,94.22,Robinia pseudoacacia,False,TERCERA,C\ Mossèn Batlle,18.28,69.5,9.41,8.05,0.155,3.73,2910,ok
+0289663AR,429210.94,4584516.18,93.8,Ficus carica,False,TERCERA,C\ Mossèn Batlle,11.69,39.2,7.07,7.27,0.022,7.64,1386,ok
+0289664AR,429212.65,4584522.51,93.88,Magnolia grandiflora,False,SEGONA,C\ Mossèn Batlle,11.77,83.2,10.3,2.54,0.141,3.92,2526,ok
+0290488AR,429592.0,4584726.24,91.92,Tipuana tipu,False,SEGONA,Trav Dalt,7.54,79.8,10.08,3.52,0.261,2.68,3179,ok
+0290489AR,429593.18,4584715.93,91.86,Jacaranda mimosifolia,False,SEGONA,Trav Dalt,9.65,27.0,5.86,3.8,0.408,1.79,1241,ok
+0290490AR,429583.12,4584717.39,91.65,Jacaranda mimosifolia,False,SEGONA,Trav Dalt,7.15,14.8,4.33,2.61,0.363,2.03,658,ok
+0292239AR,429421.92,4585149.76,150.9,Pinus pinea,False,EXEMPLAR,C\ Sant Josep Cottolengo,6.45,69.0,9.37,3.83,0.402,1.82,2893,ok
+0292243AR,429477.65,4585151.51,141.28,Ailanthus altissima,False,SEGONA,Av Pompeu Fabra,12.72,32.8,6.46,5.48,0.229,2.95,1313,ok
+0292244AR,429479.1,4585154.35,145.65,Ceratonia siliqua,False,SEGONA,Av Pompeu Fabra,11.53,29.5,6.13,4.77,0.266,2.65,1336,ok
+0292245AR,429476.57,4585149.39,141.29,Ficus carica,False,SEGONA,Av Pompeu Fabra,11.99,22.2,5.32,5.24,0.113,4.36,750,ok
+0292246AR,429471.42,4585135.94,141.41,Ailanthus altissima,False,SEGONA,Av Pompeu Fabra,11.84,37.2,6.89,3.91,0.154,3.75,2011,ok
+0292247AR,429471.58,4585134.5,141.29,Ailanthus altissima,False,SEGONA,Av Pompeu Fabra,12.0,8.8,3.34,5.04,0.18,3.43,554,ok
+0292248AR,429470.63,4585133.49,141.36,Ailanthus altissima,False,SEGONA,Av Pompeu Fabra,12.29,30.2,6.21,4.01,0.064,5.51,1472,ok
+0292249AR,429480.01,4585145.86,140.22,Ailanthus altissima,False,SEGONA,Av Pompeu Fabra,11.29,10.5,3.66,5.09,0.211,3.11,599,ok
+0292250AR,429479.13,4585142.82,140.03,Ailanthus altissima,False,SEGONA,Av Pompeu Fabra,11.8,32.8,6.46,6.7,0.244,2.82,1730,ok
+0292251AR,429478.25,4585139.66,139.97,Ailanthus altissima,False,SEGONA,Av Pompeu Fabra,12.13,49.8,7.96,6.65,0.243,2.83,2938,ok
+0292252AR,429476.65,4585136.29,140.1,Ailanthus altissima,False,SEGONA,Av Pompeu Fabra,13.33,29.0,6.08,6.42,0.268,2.63,1789,ok
+0292253AR,429476.14,4585132.55,140.1,Ailanthus altissima,False,SEGONA,Av Pompeu Fabra,12.48,21.0,5.17,5.21,0.264,2.67,1038,ok
+0292257AR,429750.25,4585079.89,120.61,Pyrus calleryana 'Chanticleer',False,PRIMERA,Av Pompeu Fabra,,0.0,0.0,,,,0,no_crown_detected
+0292258AR,429744.79,4585082.37,120.99,Pyrus calleryana 'Chanticleer',False,PRIMERA,Av Pompeu Fabra,5.92,14.5,4.3,2.97,0.34,2.16,306,ok
+0292259AR,429739.33,4585084.85,121.23,Pyrus calleryana 'Chanticleer',False,PRIMERA,Av Pompeu Fabra,6.14,13.0,4.07,3.04,0.368,2.0,296,ok
+0292260AR,429733.86,4585087.33,121.56,Pyrus calleryana 'Chanticleer',False,SEGONA,Av Pompeu Fabra,6.47,14.5,4.3,3.44,0.372,1.98,341,ok
+0292261AR,429728.4,4585089.82,121.87,Pyrus calleryana 'Chanticleer',False,PRIMERA,Av Pompeu Fabra,,0.0,0.0,,,,0,no_crown_detected
+0292262AR,429722.94,4585092.3,122.12,Pyrus calleryana 'Chanticleer',False,PRIMERA,Av Pompeu Fabra,5.87,28.5,6.02,3.02,0.299,2.42,659,ok
+0292278AR,429171.0,4584795.0,142.86,Platanus × acerifolia,True,EXEMPLAR,Rbla Mercedes,17.39,79.8,10.08,8.3,0.227,2.96,4588,ok
+0292279AR,429176.08,4584798.71,142.07,Platanus × acerifolia,True,SEGONA,Rbla Mercedes,16.46,54.2,8.31,8.37,0.196,3.26,2831,ok
+0292281AR,429297.81,4584978.6,121.14,Prunus avium,False,SEGONA,C\ Marianao,5.41,34.0,6.58,2.53,0.277,2.57,707,ok
+0293236AR,429457.02,4584839.45,103.68,Prunus avium,False,PRIMERA,C\ Pare Jacint Alegre,,0.0,0.0,,,,0,no_crown_detected
+0294305AR,429947.32,4584913.78,103.76,Tipuana tipu,False,SEGONA,C\ Sardenya,6.54,31.5,6.33,3.35,0.263,2.67,631,ok
+0294306AR,429943.17,4584917.73,104.54,Tipuana tipu,False,SEGONA,C\ Sardenya,10.41,92.2,10.84,5.45,0.137,3.98,1230,ok
+0299866AR,429614.67,4585117.83,128.21,Pyrus calleryana 'Chanticleer',False,SEGONA,Av Pompeu Fabra,6.66,12.8,4.03,3.12,0.304,2.38,263,ok
+0301755AR,429874.29,4585057.76,122.43,Tipuana tipu,False,SEGONA,Pl Sanllehy,5.04,21.8,5.26,3.11,0.308,2.35,412,ok
+0301756AR,429865.52,4585052.69,122.81,Tipuana tipu,False,SEGONA,Pl Sanllehy,6.37,29.5,6.13,2.78,0.244,2.82,630,ok
+0301757AR,429856.93,4585047.76,123.22,Tipuana tipu,False,SEGONA,Pl Sanllehy,4.98,30.8,6.26,2.71,0.334,2.19,632,ok
+0301758AR,429848.23,4585043.0,123.73,Tipuana tipu,False,SEGONA,Pl Sanllehy,5.06,22.8,5.38,3.18,0.34,2.16,426,ok
+0301759AR,429838.62,4585039.96,124.22,Tipuana tipu,False,SEGONA,Pl Sanllehy,4.92,47.5,7.78,3.31,0.168,3.56,831,ok
+0306924AR,429407.44,4584749.08,105.6,Ligustrum lucidum,False,PRIMERA,C\ Larrard,10.47,6.0,2.76,3.23,0.3,2.41,215,ok
+0306925AR,429411.79,4584744.41,104.91,Ligustrum lucidum,False,PRIMERA,C\ Larrard,5.5,7.5,3.09,1.75,0.319,2.29,281,ok
+0306926AR,429415.78,4584739.91,104.32,Ligustrum lucidum,False,PRIMERA,C\ Larrard,4.67,8.5,3.29,2.75,0.436,1.66,325,ok
+0306927AR,429420.14,4584735.09,103.83,Ligustrum lucidum,False,PRIMERA,C\ Larrard,4.9,14.8,4.33,2.65,0.319,2.28,607,ok
+0306928AR,429424.71,4584730.31,103.08,Ligustrum lucidum,False,PRIMERA,C\ Larrard,4.5,2.2,1.69,2.39,0.167,3.58,97,ok
+0306929AR,429429.2,4584725.1,102.35,Ligustrum lucidum,False,PRIMERA,C\ Larrard,6.92,1.2,1.26,3.09,0.125,4.16,59,no_crown_detected
+0306930AR,429437.55,4584717.32,101.09,Ligustrum lucidum,False,PRIMERA,C\ Larrard,,0.0,0.0,,,,0,no_crown_detected
+0306931AR,429442.31,4584712.19,100.37,Ligustrum lucidum,False,PRIMERA,C\ Larrard,,0.0,0.0,,,,0,no_crown_detected
+0311346AR,429606.75,4584721.79,91.27,Styphnolobium japonicum,False,SEGONA,C\ Escorial,5.38,17.8,4.75,3.32,0.466,1.53,537,ok
+0311347AR,429603.29,4584726.76,91.7,Styphnolobium japonicum,False,SEGONA,C\ Escorial,4.45,16.0,4.51,2.9,0.407,1.8,541,ok
+0311513AR,429741.08,4584754.3,95.02,Koelreuteria paniculata,False,SEGONA,C\ Camèlies,5.24,23.0,5.41,3.74,0.262,2.68,842,ok
+0311661AR,429124.33,4584457.64,94.4,Gleditsia triacanthos,False,PRIMERA,Trav Dalt,8.75,25.8,5.73,5.07,0.349,2.11,987,ok
+0311662AR,429116.81,4584454.2,94.23,Gleditsia triacanthos,False,PRIMERA,Trav Dalt,7.55,22.2,5.32,4.56,0.355,2.07,913,ok
+0311663AR,429107.73,4584449.6,93.98,Gleditsia triacanthos,False,PRIMERA,Trav Dalt,7.93,39.0,7.05,5.27,0.282,2.53,1740,ok
+0311664AR,429098.96,4584445.19,93.71,Gleditsia triacanthos,False,PRIMERA,Trav Dalt,8.68,25.5,5.7,4.58,0.29,2.48,949,ok
+0311665AR,429091.31,4584441.38,93.49,Gleditsia triacanthos,False,PRIMERA,Trav Dalt,7.6,35.2,6.7,4.64,0.255,2.73,1325,ok
+0311666AR,429083.35,4584437.51,93.3,Gleditsia triacanthos,False,SEGONA,Trav Dalt,6.84,30.0,6.18,4.85,0.287,2.5,982,ok
+0311667AR,429077.75,4584434.11,93.03,Gleditsia triacanthos,False,SEGONA,Trav Dalt,8.31,42.5,7.36,4.4,0.29,2.48,1528,ok
+0311668AR,429067.74,4584429.22,92.79,Gleditsia triacanthos,False,SEGONA,Trav Dalt,6.9,30.8,6.26,4.25,0.199,3.23,1134,ok
+0311669AR,429057.78,4584423.64,92.39,Gleditsia triacanthos,False,SEGONA,Trav Dalt,7.43,34.8,6.65,4.47,0.26,2.69,1008,ok
+0311670AR,429048.62,4584418.49,92.01,Gleditsia triacanthos,False,PRIMERA,Trav Dalt,6.3,16.8,4.62,3.89,0.461,1.55,579,ok
+0311671AR,429041.02,4584414.14,91.7,Gleditsia triacanthos,False,SEGONA,Trav Dalt,7.27,24.5,5.59,3.49,0.265,2.66,802,ok
+0311672AR,429033.74,4584409.22,91.4,Gleditsia triacanthos,False,SEGONA,Trav Dalt,7.67,28.5,6.02,2.45,0.3,2.41,888,ok
+0311673AR,429026.59,4584404.67,91.09,Gleditsia triacanthos,False,SEGONA,Trav Dalt,5.92,16.5,4.58,4.1,0.401,1.83,446,ok
+0311676AR,429159.26,4584473.51,94.6,Gleditsia triacanthos,False,SEGONA,Trav Dalt,8.08,28.2,6.0,2.31,0.211,3.12,1065,ok
+0311677AR,429166.9,4584476.82,94.43,Gleditsia triacanthos,False,PRIMERA,Trav Dalt,7.35,24.0,5.53,2.81,0.177,3.46,804,ok
+0311678AR,429177.35,4584481.23,94.2,Gleditsia triacanthos,False,SEGONA,Trav Dalt,6.67,21.2,5.2,3.41,0.344,2.13,533,ok
+0311679AR,429185.16,4584485.13,94.09,Gleditsia triacanthos,False,SEGONA,Trav Dalt,7.77,35.0,6.68,3.66,0.245,2.82,1278,ok
+0311680AR,429198.47,4584491.11,93.93,Gleditsia triacanthos,False,SEGONA,Trav Dalt,8.87,22.0,5.29,4.37,0.326,2.24,694,ok
+0311681AR,429207.44,4584495.26,93.82,Gleditsia triacanthos,False,SEGONA,Trav Dalt,6.79,28.8,6.05,2.84,0.27,2.62,1135,ok
+0311682AR,429215.74,4584499.24,93.74,Gleditsia triacanthos,False,SEGONA,Trav Dalt,5.96,27.2,5.89,2.78,0.381,1.93,968,ok
+0311683AR,429227.0,4584504.0,93.58,Gleditsia triacanthos,False,SEGONA,Trav Dalt,6.64,27.2,5.89,2.91,0.395,1.86,1230,ok
+0311684AR,429234.94,4584507.97,93.53,Gleditsia triacanthos,False,SEGONA,Trav Dalt,8.75,14.8,4.33,4.61,0.31,2.34,566,ok
+0311685AR,429244.0,4584513.0,93.43,Gleditsia triacanthos,False,SEGONA,Trav Dalt,8.21,22.5,5.35,3.57,0.383,1.92,959,ok
+0311686AR,429266.0,4584522.0,93.18,Gleditsia triacanthos,False,SEGONA,Trav Dalt,9.02,32.8,6.46,4.26,0.414,1.76,1606,ok
+0311687AR,429274.66,4584526.03,93.09,Gleditsia triacanthos,False,SEGONA,Trav Dalt,8.58,31.5,6.33,4.06,0.395,1.86,1696,ok
+0311688AR,429282.52,4584529.64,93.01,Gleditsia triacanthos,False,PRIMERA,Trav Dalt,8.02,60.5,8.78,4.62,0.354,2.08,3409,ok
+0311689AR,429291.02,4584533.35,92.94,Gleditsia triacanthos,False,SEGONA,Trav Dalt,8.17,40.8,7.2,4.58,0.415,1.76,2123,ok
+0311690AR,429298.96,4584537.21,92.92,Gleditsia triacanthos,False,SEGONA,Trav Dalt,7.59,34.5,6.63,4.74,0.447,1.61,1582,ok
+0311691AR,429307.89,4584541.78,92.87,Gleditsia triacanthos,False,SEGONA,Trav Dalt,8.25,26.0,5.75,4.94,0.381,1.93,1307,ok
+0311692AR,429317.02,4584545.48,92.8,Gleditsia triacanthos,False,SEGONA,Trav Dalt,8.14,18.8,4.89,4.58,0.382,1.92,971,ok
+0311693AR,429325.05,4584549.18,92.78,Gleditsia triacanthos,False,SEGONA,Trav Dalt,8.39,18.2,4.82,4.74,0.394,1.86,966,ok
+0311694AR,429333.85,4584553.24,92.7,Gleditsia triacanthos,False,SEGONA,Trav Dalt,8.65,17.2,4.69,4.34,0.384,1.92,941,ok
+0311695AR,429341.58,4584557.63,92.65,Gleditsia triacanthos,False,SEGONA,Trav Dalt,8.41,27.8,5.94,4.35,0.385,1.91,1480,ok
+0311696AR,429349.92,4584561.73,92.57,Gleditsia triacanthos,False,SEGONA,Trav Dalt,8.78,35.2,6.7,5.08,0.415,1.76,2014,ok
+0311697AR,429356.97,4584566.15,92.54,Gleditsia triacanthos,False,SEGONA,Trav Dalt,8.95,24.2,5.56,4.77,0.382,1.93,1255,ok
+0311698AR,429379.94,4584581.28,92.58,Gleditsia triacanthos,False,SEGONA,Trav Dalt,8.83,20.8,5.14,4.7,0.312,2.33,942,ok
+0311699AR,429390.0,4584588.0,92.61,Gleditsia triacanthos,False,SEGONA,Trav Dalt,9.2,28.0,5.97,4.84,0.312,2.33,1133,ok
+0311701AR,429403.0,4584599.0,92.8,Gleditsia triacanthos,False,SEGONA,Trav Dalt,8.07,17.0,4.65,5.05,0.329,2.22,652,ok
+0311702AR,429412.1,4584607.12,92.98,Gleditsia triacanthos,False,SEGONA,Trav Dalt,8.81,25.0,5.64,4.5,0.344,2.13,1002,ok
+0311703AR,429419.86,4584613.6,93.11,Gleditsia triacanthos,False,SEGONA,Trav Dalt,8.46,24.8,5.61,5.08,0.292,2.46,1236,ok
+0311704AR,429426.79,4584619.36,93.3,Gleditsia triacanthos,False,SEGONA,Trav Dalt,10.09,50.0,7.98,5.87,0.204,3.18,3080,ok
+0311705AR,429439.78,4584631.34,93.6,Gleditsia triacanthos,False,SEGONA,Trav Dalt,8.02,16.8,4.62,4.97,0.301,2.4,582,ok
+0311706AR,429446.02,4584637.12,93.66,Gleditsia triacanthos,False,SEGONA,Trav Dalt,8.79,19.2,4.95,5.1,0.409,1.79,631,ok
+0311707AR,429457.85,4584648.65,93.95,Gleditsia triacanthos,False,SEGONA,Trav Dalt,8.95,23.2,5.44,2.38,0.33,2.22,1149,ok
+0311708AR,429462.85,4584653.59,93.96,Gleditsia triacanthos,False,SEGONA,Trav Dalt,8.22,16.0,4.51,4.14,0.42,1.73,593,ok
+0311709AR,429470.12,4584660.2,93.94,Gleditsia triacanthos,False,SEGONA,Trav Dalt,7.49,13.2,4.11,4.58,0.442,1.63,422,ok
+0311710AR,429477.16,4584666.47,93.9,Gleditsia triacanthos,False,SEGONA,Trav Dalt,8.63,21.5,5.23,4.67,0.347,2.12,828,ok
+0311711AR,429493.56,4584652.58,92.57,Gleditsia triacanthos,False,PRIMERA,Trav Dalt,6.25,6.2,2.82,3.69,0.391,1.88,209,ok
+0311712AR,429500.05,4584658.3,92.44,Gleditsia triacanthos,False,SEGONA,Trav Dalt,6.94,38.8,7.02,4.16,0.383,1.92,1392,ok
+0311713AR,429496.44,4584684.3,93.5,Gleditsia triacanthos,False,SEGONA,Trav Dalt,9.41,33.5,6.53,4.45,0.271,2.61,1724,ok
+0311714AR,429505.4,4584663.55,92.32,Gleditsia triacanthos,False,SEGONA,Trav Dalt,6.29,30.2,6.21,3.86,0.393,1.87,908,ok
+0311715AR,429514.15,4584670.61,92.1,Gleditsia triacanthos,False,SEGONA,Trav Dalt,6.3,31.2,6.31,2.73,0.311,2.34,1096,ok
+0311716AR,429503.63,4584690.32,93.24,Gleditsia triacanthos f. inermis,False,PRIMERA,Trav Dalt,8.94,26.8,5.84,5.55,0.363,2.03,952,ok
+0311717AR,429511.92,4584696.68,92.94,Gleditsia triacanthos,False,SEGONA,Trav Dalt,8.78,33.0,6.48,5.19,0.331,2.21,1489,ok
+0311718AR,429526.37,4584680.87,91.73,Gleditsia triacanthos,False,SEGONA,Trav Dalt,5.81,33.5,6.53,3.4,0.463,1.54,1566,ok
+0311719AR,429533.81,4584686.54,91.55,Gleditsia triacanthos,False,SEGONA,Trav Dalt,6.6,26.5,5.81,3.31,0.412,1.77,1227,ok
+0311720AR,429541.76,4584693.62,91.37,Gleditsia triacanthos,False,SEGONA,Trav Dalt,7.27,45.0,7.57,3.67,0.378,1.95,2218,ok
+0311721AR,429549.68,4584700.44,91.23,Gleditsia triacanthos,False,SEGONA,Trav Dalt,8.74,31.5,6.33,3.75,0.357,2.06,1423,ok
+0311722AR,429519.67,4584703.51,92.67,Gleditsia triacanthos,False,SEGONA,Trav Dalt,8.84,24.0,5.53,5.48,0.332,2.21,996,ok
+0311723AR,429526.06,4584709.27,92.55,Gleditsia triacanthos,False,SEGONA,Trav Dalt,8.82,23.8,5.5,4.09,0.38,1.94,880,ok
+0311724AR,429532.6,4584714.52,92.42,Gleditsia triacanthos,False,SEGONA,Trav Dalt,9.45,30.8,6.26,4.93,0.351,2.09,1178,ok
+0311725AR,429540.23,4584720.47,92.31,Gleditsia triacanthos,False,SEGONA,Trav Dalt,8.7,22.2,5.32,4.53,0.403,1.82,902,ok
+0311726AR,429546.6,4584725.75,92.32,Gleditsia triacanthos,False,SEGONA,Trav Dalt,8.22,34.8,6.65,4.9,0.215,3.07,2059,ok
+0311727AR,429552.08,4584730.21,92.41,Gleditsia triacanthos,False,SEGONA,Trav Dalt,10.64,22.8,5.38,5.75,0.302,2.39,1133,ok
+0311728AR,429562.27,4584710.63,91.26,Gleditsia triacanthos,False,SEGONA,Trav Dalt,8.32,42.8,7.38,3.36,0.354,2.08,1787,ok
+0311729AR,429569.01,4584715.84,91.37,Gleditsia triacanthos,False,SEGONA,Trav Dalt,6.75,42.2,7.33,3.56,0.386,1.9,1581,ok
+0311730AR,429575.17,4584750.42,93.58,Gleditsia triacanthos,False,SEGONA,Trav Dalt,7.44,20.2,5.08,4.16,0.457,1.56,789,ok
+0311731AR,429582.75,4584726.91,91.8,Gleditsia triacanthos,False,SEGONA,Trav Dalt,6.63,35.0,6.68,3.75,0.393,1.87,1737,ok
+0311732AR,429721.14,4584830.58,101.28,Gleditsia triacanthos,False,PRIMERA,Trav Dalt,25.09,7.2,3.04,9.19,0.109,4.43,303,ok
+0311733AR,429729.37,4584834.94,101.27,Gleditsia triacanthos,False,PRIMERA,Trav Dalt,25.15,2.0,1.6,6.28,0.13,4.08,100,ok
+0311738AR,429544.96,4585147.04,133.34,Ulmus pumila,False,EXEMPLAR,Av Pompeu Fabra,15.7,163.2,14.42,4.99,0.237,2.88,8481,ok
+0311755AR,429545.0,4585178.0,136.41,Ulmus pumila,False,SEGONA,Rier Can Toda,8.59,39.5,7.09,2.76,0.311,2.34,1588,ok
+0311756AR,429549.0,4585184.0,136.9,Ulmus pumila,False,SEGONA,Rier Can Toda,7.06,25.0,5.64,3.26,0.288,2.49,1060,ok
+0315685AR,429283.75,4584506.84,92.62,Gleditsia triacanthos,False,SEGONA,Trav Dalt,7.07,19.0,4.92,4.19,0.264,2.66,623,ok
+0315686AR,429292.34,4584510.72,92.56,Gleditsia triacanthos,False,SEGONA,Trav Dalt,7.05,25.2,5.67,4.03,0.355,2.07,1115,ok
+0315702AR,429430.93,4584594.73,92.42,Gleditsia triacanthos,False,SEGONA,Trav Dalt,7.08,24.2,5.56,3.76,0.38,1.94,834,ok
+0315703AR,429380.94,4584556.16,91.93,Gleditsia triacanthos,False,PRIMERA,Trav Dalt,6.73,27.5,5.92,3.71,0.41,1.78,994,ok
+0315704AR,429318.09,4584522.56,92.31,Gleditsia triacanthos,False,SEGONA,Trav Dalt,6.94,25.5,5.7,3.94,0.409,1.79,1040,ok
+0315761AR,429463.34,4584624.2,92.74,Gleditsia triacanthos,False,SEGONA,Trav Dalt,7.39,29.5,6.13,4.03,0.393,1.87,895,ok
+0315762AR,429469.07,4584629.65,92.74,Gleditsia triacanthos,False,SEGONA,Trav Dalt,6.56,28.0,5.97,3.98,0.284,2.51,1073,ok
+0315763AR,429300.58,4584514.51,92.51,Gleditsia triacanthos,False,SEGONA,Trav Dalt,7.37,25.8,5.73,4.27,0.371,1.98,1048,ok
+0315764AR,429309.5,4584518.53,92.38,Gleditsia triacanthos,False,SEGONA,Trav Dalt,6.92,17.2,4.69,3.97,0.356,2.07,713,ok
+0315765AR,429327.55,4584526.69,92.26,Gleditsia triacanthos,False,SEGONA,Trav Dalt,8.95,26.0,5.75,4.73,0.344,2.13,1107,ok
+0315766AR,429336.25,4584530.82,92.2,Gleditsia triacanthos,False,SEGONA,Trav Dalt,7.64,18.5,4.85,3.64,0.341,2.15,747,ok
+0315767AR,429344.84,4584534.95,92.16,Gleditsia triacanthos,False,SEGONA,Trav Dalt,6.66,26.5,5.81,4.02,0.406,1.8,962,ok
+0315768AR,429353.43,4584539.52,92.12,Gleditsia triacanthos,False,SEGONA,Trav Dalt,6.57,32.5,6.43,4.09,0.389,1.89,998,ok
+0315769AR,429361.7,4584544.3,92.02,Gleditsia triacanthos,False,SEGONA,Trav Dalt,7.04,31.8,6.36,2.26,0.384,1.91,1132,ok
+0315770AR,429369.96,4584549.2,91.99,Gleditsia triacanthos,False,PRIMERA,Trav Dalt,7.16,29.8,6.15,3.81,0.236,2.89,1184,ok
+0315772AR,429392.36,4584563.88,91.89,Gleditsia triacanthos,False,SEGONA,Trav Dalt,7.57,24.8,5.61,4.4,0.34,2.15,850,ok
+0315773AR,429397.91,4584567.58,91.87,Gleditsia triacanthos,False,SEGONA,Trav Dalt,24.89,32.0,6.38,4.1,0.423,1.72,1246,ok
+0315774AR,429409.56,4584576.7,92.09,Gleditsia triacanthos,False,SEGONA,Trav Dalt,7.62,46.0,7.65,4.08,0.236,2.89,1877,ok
+0315775AR,429417.38,4584582.99,92.23,Gleditsia triacanthos,False,SEGONA,Trav Dalt,7.91,28.8,6.05,3.88,0.356,2.07,1052,ok
+0315776AR,429424.09,4584588.86,92.32,Gleditsia triacanthos,False,SEGONA,Trav Dalt,6.44,18.8,4.89,3.63,0.3,2.41,656,ok
+0315777AR,429437.22,4584600.31,92.47,Gleditsia triacanthos,False,SEGONA,Trav Dalt,6.76,29.5,6.13,3.73,0.352,2.09,1198,ok
+0315778AR,429444.76,4584607.16,92.56,Gleditsia triacanthos,False,SEGONA,Trav Dalt,7.18,25.5,5.7,4.2,0.319,2.28,1068,ok
+0315779AR,429451.61,4584613.45,92.68,Gleditsia triacanthos,False,SEGONA,Trav Dalt,6.48,18.5,4.85,4.06,0.378,1.94,487,ok
+0315780AR,429457.76,4584619.17,92.72,Gleditsia triacanthos,False,SEGONA,Trav Dalt,6.6,26.8,5.84,4.08,0.285,2.51,1007,ok
+0315781AR,429617.24,4584671.62,87.31,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Cardener,13.18,7.0,2.99,2.81,0.288,2.49,357,ok
+0315782AR,429594.75,4584655.91,86.46,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Cardener,,0.0,0.0,,,,0,no_crown_detected
+0315783AR,429555.52,4584629.13,86.56,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Cardener,7.19,2.8,1.87,2.99,0.368,2.0,105,ok
+0315784AR,429550.6,4584625.97,86.65,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Cardener,7.0,2.5,1.78,2.78,0.327,2.24,103,ok
+0315785AR,429546.16,4584622.86,86.73,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Cardener,6.67,3.8,2.19,2.57,0.4,1.83,150,ok
+0315786AR,429540.72,4584619.17,86.8,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Cardener,9.19,3.5,2.11,2.91,0.429,1.69,131,ok
+0315787AR,429535.89,4584615.83,86.89,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Cardener,16.3,4.5,2.39,3.61,0.273,2.6,261,ok
+0315788AR,429530.82,4584612.5,86.96,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Cardener,11.59,2.0,1.6,3.32,0.25,2.77,115,ok
+0315789AR,429526.0,4584609.19,87.05,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Cardener,5.74,2.5,1.78,2.77,0.479,1.47,107,ok
+0315790AR,429520.43,4584605.46,87.11,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Cardener,9.31,2.5,1.78,2.82,0.349,2.11,109,ok
+0315791AR,429515.6,4584602.11,87.17,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Cardener,10.18,3.5,2.11,2.64,0.409,1.79,119,ok
+0315792AR,429505.45,4584594.82,87.3,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Cardener,7.0,4.0,2.26,2.91,0.409,1.79,133,ok
+0315793AR,429500.39,4584591.36,87.27,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Cardener,6.52,4.0,2.26,3.63,0.348,2.11,135,ok
+0315794AR,429576.81,4584643.67,86.3,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Cardener,5.67,3.5,2.11,3.1,0.393,1.87,123,ok
+0315795AR,429571.49,4584640.02,86.34,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Cardener,6.06,2.8,1.87,2.89,0.319,2.28,106,ok
+0315796AR,429566.19,4584636.44,86.42,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Cardener,,0.0,0.0,,,,0,no_crown_detected
+0315797AR,429561.16,4584633.05,86.48,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Cardener,6.75,4.2,2.33,3.22,0.379,1.94,143,ok
+0315798AR,429495.33,4584587.85,87.34,Pyrus calleryana 'Chanticleer',False,SEGONA,C\ Cardener,5.0,3.0,1.95,2.85,0.432,1.68,103,ok
+0315799AR,429490.12,4584584.34,87.45,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Cardener,,0.0,0.0,,,,0,no_crown_detected
+0315800AR,429485.19,4584580.99,87.44,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Cardener,4.68,4.0,2.26,3.01,0.226,2.97,171,ok
+0315802AR,429475.98,4584574.84,87.47,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Cardener,6.38,3.2,2.03,3.17,0.417,1.75,121,ok
+0315803AR,429470.94,4584571.29,87.44,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Cardener,5.96,1.2,1.26,2.8,0.28,2.55,66,no_crown_detected
+0315804AR,429454.14,4584559.62,87.23,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Cardener,6.93,3.5,2.11,3.8,0.415,1.76,140,ok
+0315805AR,429445.16,4584553.6,87.22,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Cardener,7.92,19.0,4.92,4.98,0.181,3.42,808,ok
+0315806AR,429439.47,4584549.53,87.23,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Cardener,7.56,6.0,2.76,2.93,0.37,1.99,282,ok
+0315807AR,429418.37,4584534.87,87.51,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Cardener,6.6,5.0,2.52,3.21,0.451,1.59,196,ok
+0315808AR,429411.59,4584530.35,87.57,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Cardener,,0.0,0.0,,,,0,no_crown_detected
+0315809AR,429405.89,4584526.53,87.58,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Cardener,,0.0,0.0,,,,0,no_crown_detected
+0315812AR,429388.79,4584514.84,87.68,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Cardener,6.53,3.0,1.95,2.71,0.268,2.63,129,ok
+0315813AR,429383.28,4584511.22,87.71,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Cardener,5.5,3.0,1.95,2.89,0.305,2.37,99,ok
+0315814AR,429378.36,4584507.74,87.73,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Cardener,7.28,4.8,2.46,3.11,0.364,2.02,190,ok
+0315815AR,429373.25,4584504.12,87.76,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Cardener,6.95,3.2,2.03,3.44,0.377,1.95,127,ok
+0315816AR,429363.96,4584497.92,87.78,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Cardener,6.63,4.5,2.39,3.08,0.294,2.45,158,ok
+0315817AR,429354.87,4584491.71,87.77,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Cardener,7.26,4.5,2.39,2.69,0.371,1.98,159,ok
+0315818AR,429349.61,4584488.23,87.78,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Cardener,6.63,4.8,2.46,2.98,0.367,2.0,175,ok
+0315819AR,429344.13,4584484.43,87.78,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Cardener,7.63,6.0,2.76,3.01,0.429,1.69,213,ok
+0315820AR,429339.7,4584481.5,87.74,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Cardener,7.12,5.5,2.65,3.11,0.353,2.08,194,ok
+0315821AR,429333.92,4584477.54,87.7,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Cardener,7.39,4.2,2.33,3.0,0.353,2.08,166,ok
+0315822AR,429328.94,4584474.04,87.67,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Cardener,6.96,3.5,2.11,3.18,0.326,2.24,147,ok
+0315823AR,429324.27,4584470.89,87.63,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Cardener,6.62,4.8,2.46,2.64,0.393,1.87,184,ok
+0315824AR,429319.57,4584467.72,87.6,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Cardener,7.21,2.5,1.78,3.27,0.408,1.79,114,ok
+0315825AR,429315.05,4584464.65,87.59,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Cardener,16.99,4.0,2.26,2.95,0.427,1.7,148,ok
+0315826AR,429600.93,4584659.6,86.59,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Cardener,,0.0,0.0,,,,0,no_crown_detected
+0315827AR,429607.12,4584663.29,86.82,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Cardener,6.21,4.2,2.33,2.9,0.392,1.87,159,ok
+0315828AR,429613.3,4584666.97,87.04,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Cardener,6.83,3.0,1.95,2.78,0.288,2.49,136,ok
+0315829AR,429629.59,4584679.01,87.98,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Cardener,,0.0,0.0,,,,0,no_crown_detected
+0315830AR,429623.42,4584675.31,87.61,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Cardener,6.78,2.8,1.87,3.1,0.24,2.85,150,ok
+0315831AR,429582.21,4584647.47,86.27,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Cardener,,0.0,0.0,,,,0,no_crown_detected
+0316378AR,428973.86,4584451.38,94.46,Corylus colurna,False,PRIMERA,C\ Maignon,5.43,3.8,2.19,3.11,0.424,1.71,152,ok
+0316379AR,428995.53,4584463.89,96.43,Corylus colurna,False,PRIMERA,C\ Maignon,6.52,8.5,3.29,3.41,0.406,1.8,303,ok
+0316380AR,428989.99,4584460.89,95.88,Corylus colurna,False,PRIMERA,C\ Maignon,5.79,4.0,2.26,3.61,0.269,2.63,174,ok
+0316381AR,428984.21,4584457.51,95.36,Corylus colurna,False,PRIMERA,C\ Maignon,6.08,2.0,1.6,3.96,0.25,2.77,119,ok
+0316382AR,428979.15,4584454.63,94.94,Corylus colurna,False,PRIMERA,C\ Maignon,20.01,2.5,1.78,2.37,0.415,1.76,99,ok
+0316383AR,429000.34,4584466.9,96.84,Corylus colurna,False,PRIMERA,C\ Maignon,13.33,7.0,2.99,3.61,0.412,1.77,255,ok
+0316384AR,429006.38,4584471.72,97.38,Corylus colurna,False,PRIMERA,C\ Maignon,4.78,7.0,2.99,2.74,0.45,1.6,211,ok
+0316385AR,429011.89,4584475.14,97.84,Corylus colurna,False,PRIMERA,C\ Maignon,6.23,8.5,3.29,3.25,0.35,2.1,219,ok
+0316386AR,429017.88,4584478.01,98.45,Corylus colurna,False,PRIMERA,C\ Maignon,13.29,7.0,2.99,3.77,0.455,1.57,239,ok
+0316387AR,429022.6,4584480.96,98.82,Corylus colurna,False,PRIMERA,C\ Maignon,7.11,4.8,2.46,3.21,0.467,1.52,162,ok
+0316388AR,429042.36,4584491.34,100.39,Corylus colurna,False,PRIMERA,C\ Maignon,5.68,3.8,2.19,3.3,0.429,1.69,128,ok
+0316389AR,429047.89,4584494.35,100.81,Corylus colurna,False,PRIMERA,C\ Maignon,5.93,7.0,2.99,3.36,0.27,2.62,228,ok
+0316390AR,429051.16,4584496.98,100.94,Corylus colurna,False,PRIMERA,C\ Maignon,6.3,6.0,2.76,3.2,0.348,2.11,189,ok
+0316391AR,429058.97,4584500.97,101.33,Corylus colurna,False,SEGONA,C\ Maignon,11.68,14.2,4.26,3.9,0.251,2.76,569,ok
+0316392AR,429064.39,4584504.1,101.58,Corylus colurna,False,PRIMERA,C\ Maignon,12.76,10.2,3.61,4.0,0.256,2.72,501,ok
+0316393AR,429070.89,4584507.72,101.83,Corylus colurna,False,PRIMERA,C\ Maignon,5.84,4.8,2.46,3.25,0.475,1.49,219,ok
+0316394AR,429076.67,4584511.09,102.09,Corylus colurna,False,PRIMERA,C\ Maignon,6.86,11.0,3.74,3.04,0.427,1.7,364,ok
+0316395AR,429081.6,4584514.1,102.35,Corylus colurna,False,SEGONA,C\ Maignon,13.36,8.0,3.19,3.52,0.391,1.88,313,ok
+0316396AR,429086.06,4584516.5,102.5,Corylus colurna,False,SEGONA,C\ Maignon,13.31,8.5,3.29,3.69,0.346,2.12,315,ok
+0316397AR,429090.15,4584518.91,102.69,Corylus colurna,False,PRIMERA,C\ Maignon,5.47,7.5,3.09,3.48,0.393,1.87,247,ok
+0316398AR,429094.72,4584521.44,102.84,Corylus colurna,False,PRIMERA,C\ Maignon,13.86,8.0,3.19,3.0,0.408,1.79,299,ok
+0320404AR,429688.38,4584718.2,91.2,Koelreuteria paniculata,False,SEGONA,C\ Camèlies,6.1,23.0,5.41,3.79,0.356,2.06,656,ok
+0320414AR,429754.41,4584763.32,95.27,Koelreuteria paniculata,False,SEGONA,C\ Camèlies,4.4,16.2,4.55,2.08,0.394,1.86,456,ok
+0329522AR,429035.31,4584488.11,99.97,Corylus colurna,False,PRIMERA,C\ Maignon,5.92,5.5,2.65,3.62,0.426,1.7,180,ok
+0329523AR,429028.71,4584484.74,99.38,Corylus colurna,False,PRIMERA,C\ Maignon,6.15,5.0,2.52,3.53,0.537,1.24,156,ok
+0329545AR,429462.35,4584940.75,124.54,Acer buergerianum,False,PRIMERA,C\ Antequera,,0.0,0.0,,,,0,no_crown_detected
+0329547AR,429450.16,4584934.01,125.91,Acer buergerianum,False,PRIMERA,C\ Antequera,4.69,9.0,3.39,4.16,0.351,2.09,205,ok
+0329549AR,429437.56,4584927.3,126.16,Acer buergerianum,False,PRIMERA,C\ Antequera,9.77,82.2,10.23,7.07,0.191,3.32,1385,ok
+0329551AR,429425.57,4584920.36,125.64,Acer buergerianum,False,PRIMERA,C\ Antequera,,0.0,0.0,,,,0,no_crown_detected
+0331952AR,429193.77,4584977.0,130.06,Robinia pseudoacacia,False,SEGONA,C\ Olot,13.71,29.5,6.13,4.1,0.156,3.71,755,ok
+0335215AR,428972.35,4584449.67,94.26,Magnolia grandiflora,False,PRIMERA,C\ Maignon,,0.0,0.0,,,,0,no_crown_detected
+0337562AR,429122.41,4584831.63,163.33,Pinus pinea,False,EXEMPLAR,E.A. Casa Vilaro,6.2,119.5,12.33,2.54,0.205,3.17,2691,ok
+0342683AR,429597.45,4584821.26,101.4,Handroanthus heptaphyllus,False,PRIMERA,C\ Mare de Déu de la Salut,,0.0,0.0,,,,0,no_crown_detected
+0342684AR,429606.33,4584828.77,102.74,Handroanthus heptaphyllus,False,PRIMERA,C\ Mare de Déu de la Salut,,0.0,0.0,,,,0,no_crown_detected
+0342685AR,429579.04,4584805.69,99.04,Handroanthus heptaphyllus,False,PRIMERA,C\ Mare de Déu de la Salut,9.38,68.8,9.36,4.44,0.36,2.05,3985,ok
+0342686AR,429588.13,4584813.37,100.33,Handroanthus heptaphyllus,False,PRIMERA,C\ Mare de Déu de la Salut,0.0,12.5,3.99,4.6,0.397,1.85,624,low_tree
+0342687AR,429570.63,4584798.58,97.85,Handroanthus heptaphyllus,False,PRIMERA,C\ Mare de Déu de la Salut,,0.0,0.0,,,,0,no_crown_detected
+0343449AR,428867.09,4584733.49,116.48,Pyrus calleryana 'Chanticleer',False,PRIMERA,Bda Glòria,,0.0,0.0,,,,0,no_crown_detected
+0343452AR,428856.81,4584726.33,114.55,Pyrus calleryana 'Chanticleer',False,PRIMERA,Bda Glòria,,0.0,0.0,,,,0,no_crown_detected
+0343454AR,428847.1,4584719.97,112.6,Pyrus calleryana 'Chanticleer',False,PRIMERA,Bda Glòria,,0.0,0.0,,,,0,no_crown_detected
+0343458AR,428830.98,4584709.06,109.64,Pyrus calleryana 'Chanticleer',False,PRIMERA,Bda Glòria,,0.0,0.0,,,,0,no_crown_detected
+0343461AR,428824.73,4584705.24,108.83,Pyrus calleryana 'Chanticleer',False,PRIMERA,Bda Glòria,,0.0,0.0,,,,0,no_crown_detected
+0343465AR,428810.94,4584695.74,107.42,Pyrus calleryana 'Chanticleer',False,PRIMERA,Bda Glòria,,0.0,0.0,,,,0,no_crown_detected
+0343466AR,428805.08,4584691.83,106.84,Pyrus calleryana 'Chanticleer',False,PRIMERA,Bda Glòria,,0.0,0.0,,,,0,no_crown_detected
+0343486AR,428889.8,4584748.52,120.8,Pyrus calleryana 'Chanticleer',False,PRIMERA,Bda Glòria,,0.0,0.0,,,,0,no_crown_detected
+0343488AR,428895.88,4584752.64,122.44,Pyrus calleryana 'Chanticleer',False,PRIMERA,Bda Glòria,,0.0,0.0,,,,0,no_crown_detected
+0343489AR,428900.09,4584755.48,123.57,Pyrus calleryana 'Chanticleer',False,PRIMERA,Bda Glòria,,0.0,0.0,,,,0,no_crown_detected
+0343492AR,428903.95,4584758.1,124.53,Pyrus calleryana 'Chanticleer',False,PRIMERA,Bda Glòria,,0.0,0.0,,,,0,no_crown_detected
+0343493AR,428906.09,4584759.55,125.23,Pyrus calleryana 'Chanticleer',False,PRIMERA,Bda Glòria,,0.0,0.0,,,,0,no_crown_detected
+0343494AR,428911.27,4584763.03,126.67,Pyrus calleryana 'Chanticleer',False,PRIMERA,Bda Glòria,,0.0,0.0,,,,0,no_crown_detected
+0343495AR,428918.55,4584767.97,128.89,Pyrus calleryana 'Chanticleer',False,PRIMERA,Bda Glòria,,0.0,0.0,,,,0,no_crown_detected
+0345681AR,428972.6,4585083.64,171.04,Brachychiton populneus,False,SEGONA,Av Coll del Portell,10.27,231.0,17.15,4.21,0.27,2.62,5913,ok
+0345810AR,429094.47,4585184.22,180.01,Pinus halepensis,False,EXEMPLAR,Pl 25 de Novembre,12.05,173.8,14.87,2.89,0.212,3.1,8590,ok
+0345837AR,429565.24,4585046.11,126.58,Brachychiton populneus,False,TERCERA,C\ Antequera,7.11,24.5,5.59,3.18,0.348,2.11,770,ok
+0345948AR,429031.78,4584841.37,170.75,Olea europaea,False,PRIMERA,Mdor Consol Casals i Genover,4.79,107.5,11.7,2.86,0.263,2.67,2648,ok

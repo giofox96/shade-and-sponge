@@ -1,0 +1,937 @@
+tree_id,x,y,ground_z,species,is_plane,size_category,street,height_m,crown_area_m2,crown_diam_m,crown_base_m,gap_fraction,lai_proxy,n_points,flag
+0140776AR,431351.44,4588552.72,85.56,Brachychiton populneus,False,TERCERA,Via Favència,8.38,25.5,5.7,4.71,0.272,2.6,525,ok
+0140835AR,431322.57,4588542.93,86.53,Brachychiton populneus,False,PRIMERA,Via Favència,13.95,55.0,8.37,6.95,0.159,3.68,1880,ok
+0140853AR,431345.31,4588550.77,85.7,Brachychiton populneus,False,TERCERA,Via Favència,9.17,11.0,3.74,3.18,0.348,2.11,276,ok
+0140937AR,431356.94,4588554.47,85.44,Brachychiton populneus,False,SEGONA,Via Favència,9.06,5.8,2.71,3.32,0.474,1.49,114,ok
+0140959AR,431370.08,4588559.13,85.42,Brachychiton populneus,False,TERCERA,Via Favència,9.35,30.5,6.23,3.99,0.197,3.25,641,ok
+0140964AR,431299.87,4588535.39,88.0,Brachychiton populneus,False,SEGONA,Via Favència,6.11,11.2,3.78,3.33,0.323,2.26,223,ok
+0141065AR,431382.37,4588562.79,85.21,Brachychiton populneus,False,SEGONA,Via Favència,5.02,8.8,3.34,3.51,0.447,1.61,152,ok
+0141137AR,431327.44,4588544.99,86.29,Brachychiton populneus,False,PRIMERA,Via Favència,5.03,24.0,5.53,3.92,0.232,2.92,598,ok
+0141194AR,431339.49,4588548.8,85.79,Brachychiton populneus,False,PRIMERA,Via Favència,9.38,4.0,2.26,3.5,0.473,1.5,74,ok
+0141257AR,431365.26,4588557.43,85.49,Brachychiton populneus,False,SEGONA,Via Favència,6.91,22.0,5.29,3.43,0.304,2.38,418,ok
+0141302AR,431388.47,4588564.5,85.14,Brachychiton populneus,False,EXEMPLAR,Via Favència,8.64,30.5,6.23,4.2,0.203,3.19,561,ok
+0141313AR,431375.78,4588560.71,85.37,Brachychiton populneus,False,TERCERA,Via Favència,8.74,27.8,5.94,4.1,0.293,2.46,676,ok
+0141340AR,431317.07,4588541.18,86.9,Brachychiton populneus,False,SEGONA,Via Favència,5.6,30.0,6.18,3.46,0.37,1.99,611,ok
+0141475AR,431310.52,4588539.02,87.28,Brachychiton populneus,False,SEGONA,Via Favència,7.31,12.8,4.03,3.68,0.399,1.84,303,ok
+0141539AR,431333.54,4588546.69,85.99,Brachychiton populneus,False,PRIMERA,Via Favència,9.96,4.2,2.33,2.48,0.421,1.73,107,ok
+0141939AR,431299.22,4588959.18,140.52,Robinia pseudoacacia 'Pyramidalis',False,TERCERA,C\ Cantera,12.0,18.0,4.79,3.58,0.171,3.53,910,ok
+0141941AR,431256.79,4588566.55,93.39,Brachychiton populneus,False,SEGONA,Via Favència,7.19,42.0,7.31,4.1,0.179,3.44,837,ok
+0141944AR,430831.34,4588365.34,108.25,Platanus × acerifolia,True,TERCERA,Via Favència,14.0,57.2,8.54,6.47,0.192,3.31,1739,ok
+0141945AR,431127.94,4588799.46,122.28,Hibiscus syriacus,False,PRIMERA,C\ Pla de Fornells,15.47,11.8,3.87,2.72,0.338,2.17,160,ok
+0141947AR,430750.42,4588525.22,128.31,Hibiscus syriacus,False,PRIMERA,C\ Artesania,3.79,22.2,5.32,2.11,0.373,1.97,391,ok
+0141948AR,431160.39,4588658.11,104.36,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Jaume Pinent,12.85,18.5,4.85,4.29,0.155,3.73,317,ok
+0141950AR,431366.0,4589198.0,196.11,Quercus ilex,False,PRIMERA,Ctra Alta de les Roquetes,5.4,7.8,3.14,3.16,0.49,1.43,343,ok
+0141951AR,431299.23,4588826.71,106.45,Celtis australis,False,SEGONA,C\ Nou Barris,6.38,24.8,5.61,4.12,0.181,3.42,371,ok
+0141952AR,430889.0,4588628.42,128.88,Prunus cerasifera 'Pissardii',False,SEGONA,C\ Alcántara,8.79,44.5,7.53,3.75,0.316,2.31,922,ok
+0141953AR,431072.77,4588473.27,94.98,Brachychiton populneus,False,SEGONA,Via Favència,14.57,1.8,1.49,13.65,0.029,7.11,35,no_crown_detected
+0141955AR,431245.61,4588699.19,104.05,Cercis siliquastrum,False,SEGONA,C\ Torres,11.74,25.8,5.73,3.5,0.406,1.8,490,ok
+0141956AR,430818.66,4588798.86,169.68,Quercus ilex,False,PRIMERA,C\ Turó de les Roquetes,4.63,6.2,2.82,2.83,0.394,1.86,127,ok
+0141958AR,430994.31,4588493.31,111.44,Jacaranda mimosifolia,False,TERCERA,C\ Almansa,9.26,95.0,11.0,5.53,0.162,3.63,1360,ok
+0141959AR,431010.85,4588687.73,122.45,Cercis siliquastrum,False,PRIMERA,C\ Torres,4.42,5.5,2.65,2.46,0.479,1.47,121,ok
+0141960AR,430960.44,4588701.98,133.47,Albizia julibrissin,False,TERCERA,C\ Mina de la Ciutat,8.88,40.5,7.18,5.21,0.238,2.87,780,ok
+0141964AR,430756.35,4588503.5,125.71,Magnolia grandiflora,False,SEGONA,C\ Artesania,7.06,13.5,4.15,3.54,0.311,2.34,161,ok
+0141965AR,431175.41,4588810.06,114.36,Ulmus pumila,False,SEGONA,C\ Vidal i Guasch,9.59,51.2,8.08,4.31,0.177,3.47,1076,ok
+0141966AR,431155.38,4588897.61,136.48,Cercis siliquastrum,False,SEGONA,C\ Cantera,13.76,39.5,7.09,4.64,0.183,3.4,683,ok
+0141967AR,431310.16,4588978.25,141.31,Tamarix gallica,False,TERCERA,C\ Cantera,8.97,52.2,8.16,3.79,0.347,2.11,2653,ok
+0141968AR,431040.4,4588468.83,106.08,Platanus × acerifolia,True,TERCERA,Via Favència,12.42,42.5,7.36,5.97,0.205,3.17,1169,ok
+0141969AR,430749.14,4588511.7,126.75,Hibiscus syriacus,False,PRIMERA,C\ Artesania,3.57,19.0,4.92,2.07,0.361,2.04,310,ok
+0141972AR,431013.13,4588455.03,107.02,Brachychiton populneus,False,TERCERA,Via Favència,7.76,28.5,6.02,3.9,0.298,2.42,487,ok
+0141973AR,431173.48,4588530.56,99.18,Platanus × acerifolia,True,TERCERA,Via Favència,14.24,33.5,6.53,7.06,0.176,3.48,962,ok
+0141974AR,431167.14,4588746.73,113.59,Hibiscus syriacus,False,PRIMERA,C\ Pla de Fornells,3.73,14.2,4.26,3.06,0.391,1.88,207,ok
+0141975AR,431309.43,4588973.05,140.99,Tamarix ramosissima,False,PRIMERA,C\ Cantera,6.82,27.5,5.92,3.38,0.38,1.94,1351,ok
+0141977AR,431187.5,4588728.12,110.1,Hibiscus syriacus,False,PRIMERA,C\ Pla de Fornells,12.19,6.0,2.76,2.83,0.235,2.89,85,ok
+0141978AR,431314.33,4589045.97,150.05,Grevillea robusta,False,PRIMERA,C\ Briquets,3.34,2.5,1.78,2.52,0.557,1.17,108,ok
+0141979AR,431156.35,4588769.2,116.81,Hibiscus syriacus,False,PRIMERA,C\ Pla de Fornells,4.29,4.0,2.26,2.81,0.357,2.06,56,ok
+0141980AR,431102.26,4589091.3,213.22,Quercus ilex,False,PRIMERA,Ctra Alta de les Roquetes,4.5,13.8,4.18,2.47,0.54,1.23,633,ok
+0141981AR,431287.35,4588841.02,109.02,Tilia x euchlora,False,SEGONA,C\ Nou Barris,7.34,22.2,5.32,2.9,0.319,2.28,526,ok
+0141982AR,430757.43,4588530.61,129.04,Magnolia grandiflora,False,SEGONA,C\ Artesania,7.89,16.0,4.51,3.82,0.232,2.92,233,ok
+0141983AR,431217.36,4588933.43,134.64,Quercus ilex,False,TERCERA,C\ Mina de la Ciutat,,0.0,0.0,,,,0,no_crown_detected
+0141984AR,430982.56,4588717.51,132.82,Melia azedarach,False,TERCERA,C\ Mina de la Ciutat,10.25,38.5,7.0,5.02,0.254,2.74,812,ok
+0141985AR,431314.31,4589003.16,143.68,Tamarix ramosissima,False,PRIMERA,C\ Cantera,7.78,22.0,5.29,3.54,0.367,2.01,885,ok
+0141986AR,431002.99,4588731.87,131.82,Melia azedarach,False,TERCERA,C\ Mina de la Ciutat,10.66,68.2,9.32,6.45,0.302,2.39,1416,ok
+0141989AR,431102.21,4588818.01,126.19,Melia azedarach,False,SEGONA,C\ Mina de la Ciutat,1.07,9.2,3.43,2.46,0.188,3.34,197,low_tree
+0141990AR,431225.41,4588697.41,104.96,Cercis siliquastrum,False,PRIMERA,C\ Torres,1.12,16.0,4.51,3.88,0.33,2.22,291,low_tree
+0141991AR,430971.29,4588709.63,133.29,Melia azedarach,False,SEGONA,C\ Mina de la Ciutat,6.37,29.8,6.15,1.7,0.298,2.42,577,ok
+0141993AR,431266.46,4588884.57,126.95,Pinus pinea,False,TERCERA,Pg Bosc de Roquetes,8.4,53.8,8.27,4.07,0.308,2.35,937,ok
+0141994AR,431451.06,4588715.93,81.23,Platanus × acerifolia,True,EXEMPLAR,C\ Torres,11.47,78.2,9.98,6.38,0.258,2.71,1795,ok
+0141995AR,430805.19,4588841.94,169.23,Quercus ilex,False,PRIMERA,C\ Turó de les Roquetes,4.74,6.8,2.93,2.08,0.41,1.78,117,ok
+0141996AR,431217.03,4588623.03,97.69,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Pla de Fornells,3.63,5.8,2.71,2.93,0.468,1.52,62,ok
+0141997AR,431163.6,4588860.49,124.61,Melia azedarach,False,TERCERA,C\ Mina de la Ciutat,8.18,42.5,7.36,5.61,0.385,1.91,1014,ok
+0141998AR,431190.77,4588538.09,97.1,Brachychiton populneus,False,EXEMPLAR,Via Favència,12.9,47.0,7.74,5.5,0.142,3.9,1032,ok
+0142000AR,431316.35,4589034.85,148.99,Tamarix gallica,False,TERCERA,C\ Cantera,10.34,27.8,5.94,4.7,0.371,1.98,1462,ok
+0142001AR,430863.64,4588676.63,135.46,Celtis sinensis,False,SEGONA,C\ Torres,5.79,16.2,4.55,4.19,0.295,2.44,261,ok
+0142002AR,431393.08,4588609.49,87.58,Brachychiton populneus,False,SEGONA,Via Favència,11.79,54.5,8.33,5.31,0.169,3.55,1133,ok
+0142003AR,430797.79,4588718.67,145.35,Quercus ilex,False,PRIMERA,C\ Turó de les Roquetes,7.53,20.5,5.11,2.77,0.313,2.32,418,ok
+0142004AR,430867.94,4588372.35,107.75,Brachychiton populneus,False,SEGONA,Via Favència,4.62,10.5,3.66,2.71,0.486,1.44,212,ok
+0142005AR,430885.47,4588678.42,134.63,Celtis sinensis,False,SEGONA,C\ Torres,14.1,27.2,5.89,4.18,0.178,3.46,411,ok
+0142008AR,430726.46,4588430.22,117.26,Celtis australis,False,PRIMERA,C\ Antonio Machado,0.0,18.8,4.89,5.24,0.219,3.03,401,low_tree
+0142009AR,431213.0,4589153.0,204.88,Quercus ilex,False,PRIMERA,Ctra Alta de les Roquetes,6.48,33.8,6.56,4.46,0.365,2.01,1266,ok
+0142012AR,430826.94,4588786.45,169.72,Quercus ilex,False,PRIMERA,C\ Turó de les Roquetes,4.35,3.2,2.03,2.41,0.4,1.83,65,ok
+0142013AR,431109.34,4588693.48,112.11,Cercis siliquastrum,False,SEGONA,C\ Torres,4.33,18.2,4.82,2.84,0.377,1.95,310,ok
+0142016AR,431040.37,4588457.52,106.26,Brachychiton populneus,False,TERCERA,Via Favència,8.35,26.8,5.84,4.09,0.293,2.45,610,ok
+0142017AR,430906.65,4588391.43,108.66,Brachychiton populneus,False,TERCERA,Via Favència,7.43,27.8,5.94,3.61,0.231,2.93,489,ok
+0142018AR,431060.66,4588867.92,139.26,Hibiscus syriacus,False,PRIMERA,C\ Pla de Fornells,4.17,5.8,2.71,3.02,0.464,1.53,112,ok
+0142019AR,431419.71,4589262.69,192.24,Robinia pseudoacacia,False,SEGONA,Ctra Alta de les Roquetes,8.97,33.2,6.51,3.62,0.39,1.88,2083,ok
+0142020AR,431024.7,4588461.17,106.71,Brachychiton populneus,False,TERCERA,Via Favència,13.83,32.5,6.43,4.99,0.241,2.85,640,ok
+0142022AR,431020.33,4588758.66,130.85,Melia azedarach,False,TERCERA,C\ Mina de la Ciutat,11.58,39.5,7.09,3.42,0.227,2.96,954,ok
+0142023AR,430781.0,4588647.0,138.75,Magnolia grandiflora,False,SEGONA,C\ Artesania,5.85,17.0,4.65,3.48,0.297,2.43,380,ok
+0142024AR,431292.68,4589046.1,150.01,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Briquets,4.17,3.0,1.95,2.53,0.522,1.3,127,ok
+0142025AR,431180.3,4588858.25,124.61,Melia azedarach,False,EXEMPLAR,C\ Mina de la Ciutat,8.5,55.2,8.39,4.98,0.373,1.97,1199,ok
+0142026AR,431102.95,4588759.63,119.56,Catalpa bignonioides,False,TERCERA,C\ Vidal i Guasch,13.6,30.5,6.23,4.31,0.225,2.98,733,ok
+0142027AR,431313.58,4588988.34,142.14,Tamarix gallica,False,TERCERA,C\ Cantera,7.77,33.0,6.48,3.51,0.334,2.19,1465,ok
+0142029AR,431306.58,4588957.49,140.4,Tamarix gallica,False,SEGONA,C\ Cantera,6.29,18.8,4.89,3.12,0.387,1.9,740,ok
+0142030AR,431262.78,4588886.86,127.13,Pinus pinea,False,TERCERA,Pg Bosc de Roquetes,8.54,46.2,7.67,4.85,0.202,3.2,707,ok
+0142031AR,430895.8,4588386.19,108.31,Brachychiton populneus,False,EXEMPLAR,Via Favència,10.09,38.0,6.96,3.75,0.231,2.93,818,ok
+0142032AR,430773.78,4588866.66,167.7,Quercus ilex,False,SEGONA,C\ Turó de les Roquetes,6.49,30.5,6.23,1.94,0.238,2.87,580,ok
+0142033AR,431388.95,4589233.4,192.78,Quercus ilex,False,SEGONA,Ctra Alta de les Roquetes,7.56,14.2,4.26,3.45,0.241,2.84,666,ok
+0142034AR,431057.76,4588477.16,105.5,Brachychiton populneus,False,SEGONA,Via Favència,10.36,56.8,8.5,4.08,0.295,2.44,1238,ok
+0142035AR,430981.54,4588731.21,132.77,Melia azedarach,False,SEGONA,C\ Mina de la Ciutat,8.28,28.5,6.02,4.83,0.329,2.23,578,ok
+0142036AR,431031.66,4588628.91,113.36,Ginkgo biloba,False,SEGONA,C\ Vidal i Guasch,7.89,22.2,5.32,3.12,0.281,2.54,467,ok
+0142037AR,431164.26,4588661.23,104.4,Cercis siliquastrum,False,SEGONA,C\ Jaume Pinent,10.98,27.8,5.94,5.1,0.055,5.82,422,ok
+0142038AR,431260.31,4588707.76,103.42,Cercis siliquastrum,False,SEGONA,C\ Torres,11.57,18.2,4.82,4.04,0.271,2.61,421,ok
+0142039AR,430859.01,4588547.22,125.31,Catalpa bignonioides,False,TERCERA,C\ Alcántara,10.36,35.8,6.75,6.01,0.226,2.97,601,ok
+0142040AR,430763.73,4588575.15,133.05,Magnolia grandiflora,False,PRIMERA,C\ Artesania,16.72,119.0,12.31,9.09,0.224,2.99,3014,ok
+0142041AR,431396.77,4589248.78,192.84,Quercus ilex,False,SEGONA,Ctra Alta de les Roquetes,5.32,14.5,4.3,3.45,0.485,1.45,549,ok
+0142043AR,431424.06,4589259.63,192.12,Quercus ilex,False,PRIMERA,Ctra Alta de les Roquetes,6.35,13.0,4.07,3.15,0.439,1.65,579,ok
+0142044AR,431220.57,4588830.46,111.14,Tilia x euchlora,False,SEGONA,C\ Nou Barris,6.44,35.0,6.68,3.2,0.342,2.15,641,ok
+0142046AR,431054.75,4588769.16,128.24,Melia azedarach,False,SEGONA,C\ Mina de la Ciutat,0.0,1.0,1.13,10.27,0.5,1.39,14,no_crown_detected
+0142048AR,430758.07,4588791.02,155.29,Quercus ilex,False,SEGONA,C\ Turó de les Roquetes,8.56,2.2,1.69,4.51,0.145,3.86,55,ok
+0142049AR,431170.21,4588520.47,99.63,Brachychiton populneus,False,TERCERA,Via Favència,6.96,22.5,5.35,3.91,0.146,3.85,474,ok
+0142050AR,431365.71,4589205.27,196.14,Quercus ilex,False,PRIMERA,Ctra Alta de les Roquetes,6.56,15.2,4.41,2.75,0.478,1.47,622,ok
+0142051AR,431368.65,4589210.17,195.98,Quercus ilex,False,TERCERA,Ctra Alta de les Roquetes,8.25,38.2,6.98,4.28,0.438,1.65,1709,ok
+0142052AR,431189.32,4589011.09,166.04,Citrus × aurantium,False,PRIMERA,C\ Llobera,5.63,10.5,3.66,3.38,0.42,1.74,297,ok
+0142053AR,431030.03,4588631.99,114.04,Ginkgo biloba,False,TERCERA,C\ Vidal i Guasch,11.31,46.5,7.69,2.72,0.219,3.03,930,ok
+0142054AR,431150.66,4588897.51,137.04,Brachychiton populneus,False,SEGONA,C\ Cantera,5.65,12.8,4.03,3.86,0.301,2.4,286,ok
+0142055AR,430772.36,4588643.54,138.73,Hibiscus syriacus,False,PRIMERA,C\ Artesania,3.31,9.8,3.52,2.12,0.492,1.42,187,ok
+0142058AR,430760.2,4588593.48,134.56,Hibiscus syriacus,False,PRIMERA,C\ Artesania,3.33,26.8,5.84,2.21,0.317,2.3,457,ok
+0142061AR,431137.48,4588828.05,124.6,Melia azedarach,False,SEGONA,C\ Mina de la Ciutat,6.25,25.5,5.7,2.16,0.212,3.11,416,ok
+0142062AR,431312.18,4589191.3,198.7,Quercus ilex,False,PRIMERA,Ctra Alta de les Roquetes,5.47,80.8,10.14,2.77,0.444,1.62,2982,ok
+0142063AR,431193.99,4589123.05,205.48,Robinia pseudoacacia,False,SEGONA,Ctra Alta de les Roquetes,6.78,44.2,7.51,3.79,0.43,1.69,2479,ok
+0142066AR,431029.69,4588452.19,106.53,Brachychiton populneus,False,SEGONA,Via Favència,5.96,14.8,4.33,2.87,0.329,2.22,292,ok
+0142070AR,430976.17,4588728.14,133.06,Melia azedarach,False,SEGONA,C\ Mina de la Ciutat,6.57,26.0,5.75,2.28,0.212,3.1,504,ok
+0142072AR,431223.14,4588587.5,95.38,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Jaume Pinent,4.76,2.0,1.6,2.35,0.29,2.47,31,few_points
+0142073AR,430987.14,4588735.09,132.53,Melia azedarach,False,SEGONA,C\ Mina de la Ciutat,5.11,12.8,4.03,3.82,0.376,1.96,226,ok
+0142074AR,431463.98,4588717.37,80.8,Platanus × acerifolia,True,TERCERA,C\ Torres,13.68,72.0,9.57,4.39,0.138,3.95,1704,ok
+0142075AR,431454.19,4588625.24,83.77,Brachychiton populneus,False,SEGONA,Via Favència,8.67,44.8,7.55,4.37,0.272,2.6,879,ok
+0142076AR,431216.36,4589159.05,204.77,Quercus ilex,False,PRIMERA,Ctra Alta de les Roquetes,7.6,71.8,9.56,3.31,0.423,1.72,2984,ok
+0142077AR,431187.09,4589108.78,205.81,Quercus ilex,False,PRIMERA,Ctra Alta de les Roquetes,4.07,6.8,2.93,2.86,0.377,1.95,263,ok
+0142078AR,431299.62,4588843.15,108.68,Tilia x euchlora,False,SEGONA,C\ Nou Barris,6.38,22.0,5.29,2.55,0.332,2.21,368,ok
+0142079AR,430809.21,4588708.11,145.18,Hibiscus syriacus,False,PRIMERA,C\ Artesania,,0.0,0.0,,,,0,no_crown_detected
+0142080AR,431080.7,4588637.26,109.41,Citrus × aurantium,False,PRIMERA,C\ Romaní,5.32,12.8,4.03,4.01,0.309,2.35,162,ok
+0142081AR,431218.4,4588632.62,98.51,Hibiscus syriacus,False,PRIMERA,C\ Pla de Fornells,12.28,8.5,3.29,2.81,0.287,2.5,143,ok
+0142084AR,431268.52,4588969.97,149.34,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Briquets,4.18,1.8,1.49,2.57,0.361,2.04,53,no_crown_detected
+0142086AR,431213.4,4588925.57,130.58,Melia azedarach,False,EXEMPLAR,C\ Cantera,12.49,67.8,9.29,6.93,0.263,2.67,1702,ok
+0142088AR,431345.65,4588597.87,90.2,Brachychiton populneus,False,TERCERA,Via Favència,6.76,18.5,4.85,3.4,0.296,2.44,389,ok
+0142089AR,430800.93,4588713.46,145.03,Quercus ilex,False,SEGONA,C\ Turó de les Roquetes,3.78,8.0,3.19,2.18,0.414,1.76,128,ok
+0142091AR,431269.75,4589184.99,201.82,Quercus ilex,False,PRIMERA,Ctra Alta de les Roquetes,3.99,16.8,4.62,3.05,0.416,1.75,670,ok
+0142092AR,431384.28,4588717.86,88.35,Cercis siliquastrum,False,SEGONA,C\ Torres,6.16,12.2,3.95,1.71,0.223,3.0,278,ok
+0142093AR,431035.36,4588455.02,106.37,Brachychiton populneus,False,SEGONA,Via Favència,8.14,26.8,5.84,4.72,0.287,2.49,501,ok
+0142096AR,431361.31,4588607.39,90.02,Cercis siliquastrum,False,PRIMERA,Camí Vell de la Pedrera,,0.0,0.0,,,,0,no_crown_detected
+0142098AR,431211.17,4588817.12,109.83,Celtis australis,False,SEGONA,C\ Vidal i Guasch,9.43,36.5,6.82,5.93,0.171,3.53,661,ok
+0142100AR,430801.82,4588696.52,143.35,Hibiscus syriacus,False,PRIMERA,C\ Artesania,,0.0,0.0,,,,0,no_crown_detected
+0142101AR,431300.52,4588963.94,140.6,Prunus cerasifera 'Pissardii',False,SEGONA,C\ Cantera,14.1,17.2,4.69,3.23,0.352,2.09,629,ok
+0142102AR,431168.26,4588753.58,114.27,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Pla de Fornells,4.83,10.2,3.61,3.41,0.244,2.82,176,ok
+0142104AR,431120.35,4589088.43,212.05,Quercus ilex,False,PRIMERA,Ctra Alta de les Roquetes,4.81,26.8,5.84,2.91,0.509,1.35,1016,ok
+0142105AR,431303.62,4588947.29,140.09,Tamarix ramosissima,False,PRIMERA,C\ Cantera,,0.0,0.0,,,,0,no_crown_detected
+0142106AR,431080.03,4589098.42,213.92,Quercus ilex,False,PRIMERA,Ctra Alta de les Roquetes,4.03,59.2,8.69,3.33,0.507,1.36,2105,ok
+0142108AR,431137.9,4588505.0,102.49,Brachychiton populneus,False,TERCERA,Via Favència,13.75,17.5,4.72,5.05,0.181,3.42,370,ok
+0142109AR,431338.71,4588714.3,95.09,Cercis siliquastrum,False,SEGONA,C\ Torres,10.93,15.2,4.41,3.59,0.422,1.73,308,ok
+0142110AR,431077.04,4588904.62,141.58,Brachychiton populneus,False,SEGONA,C\ Cantera,4.41,7.8,3.14,2.42,0.398,1.84,123,ok
+0142111AR,431345.45,4588707.54,94.34,Cercis siliquastrum,False,PRIMERA,C\ Torres,,0.0,0.0,,,,0,no_crown_detected
+0142112AR,431186.46,4588817.96,112.64,Ulmus pumila,False,TERCERA,C\ Vidal i Guasch,9.26,59.5,8.7,5.04,0.18,3.43,1472,ok
+0142114AR,430870.97,4588571.61,125.49,Prunus cerasifera 'Pissardii',False,SEGONA,C\ Alcántara,7.3,28.5,6.02,4.46,0.175,3.48,422,ok
+0142115AR,431086.84,4588757.27,120.31,Cercis siliquastrum,False,PRIMERA,C\ Jaume Pinent,13.07,12.0,3.91,3.59,0.231,2.93,195,ok
+0142116AR,431085.47,4588790.64,125.99,Melia azedarach,False,SEGONA,C\ Mina de la Ciutat,8.16,22.5,5.35,4.31,0.254,2.74,473,ok
+0142117AR,431106.24,4588857.32,130.43,Hibiscus syriacus,False,PRIMERA,C\ Pla de Fornells,12.32,11.0,3.74,3.42,0.411,1.78,129,ok
+0142118AR,431188.24,4588878.22,124.94,Melia azedarach,False,SEGONA,C\ Mina de la Ciutat,,0.0,0.0,,,,0,no_crown_detected
+0142119AR,430760.22,4588451.32,119.01,Magnolia grandiflora,False,SEGONA,C\ Artesania,5.46,9.8,3.52,3.8,0.359,2.05,117,ok
+0142120AR,431304.86,4588584.55,91.42,Brachychiton populneus,False,SEGONA,Via Favència,6.61,14.0,4.22,3.43,0.356,2.06,289,ok
+0142121AR,431215.73,4588613.44,96.91,Hibiscus syriacus,False,PRIMERA,C\ Pla de Fornells,12.35,5.2,2.59,2.59,0.467,1.52,60,ok
+0142122AR,431000.94,4588687.07,124.16,Cercis siliquastrum,False,PRIMERA,C\ Torres,13.57,13.5,4.15,3.79,0.314,2.32,306,ok
+0142123AR,431159.63,4588515.39,100.63,Brachychiton populneus,False,SEGONA,Via Favència,6.87,22.0,5.29,3.96,0.132,4.05,454,ok
+0142124AR,431173.26,4588649.07,102.35,Cercis siliquastrum,False,SEGONA,C\ Jaume Pinent,12.85,18.8,4.89,5.04,0.13,4.08,361,ok
+0142126AR,431237.68,4588698.44,104.4,Cercis siliquastrum,False,SEGONA,C\ Torres,8.19,37.5,6.91,4.11,0.192,3.3,755,ok
+0142127AR,431041.38,4588854.92,141.65,Hibiscus syriacus,False,PRIMERA,C\ Pla de Fornells,3.52,2.5,1.78,2.44,0.571,1.12,42,few_points
+0142129AR,430814.09,4588345.77,108.14,Brachychiton populneus,False,PRIMERA,Via Favència,5.84,5.2,2.59,3.25,0.562,1.15,238,ok
+0142130AR,430922.48,4588690.11,134.35,Albizia julibrissin,False,SEGONA,C\ Mina de la Ciutat,12.24,42.0,7.31,5.19,0.286,2.51,840,ok
+0142131AR,431144.86,4589089.42,209.22,Quercus ilex,False,PRIMERA,Ctra Alta de les Roquetes,2.86,1.8,1.49,3.13,0.5,1.39,54,no_crown_detected
+0142132AR,431160.83,4588844.21,124.33,Melia azedarach,False,PRIMERA,C\ Mina de la Ciutat,1.0,0.5,0.8,2.2,0.333,2.2,6,no_crown_detected
+0142133AR,430874.04,4588375.46,107.76,Brachychiton populneus,False,TERCERA,Via Favència,9.59,12.5,3.99,2.99,0.241,2.84,311,ok
+0142134AR,431387.57,4588608.29,87.97,Platanus × acerifolia,True,EXEMPLAR,Via Favència,13.25,103.5,11.48,5.95,0.146,3.85,2406,ok
+0142135AR,430798.67,4588854.96,169.08,Quercus ilex,False,SEGONA,C\ Turó de les Roquetes,6.76,44.0,7.48,2.28,0.201,3.21,880,ok
+0142136AR,431323.78,4589045.13,150.16,Grevillea robusta,False,PRIMERA,C\ Briquets,14.46,57.2,8.54,4.42,0.303,2.39,3922,ok
+0142137AR,431040.32,4588828.81,136.61,Ficus microcarpa,False,EXEMPLAR,C\ Jaume Pinent,11.85,26.8,5.84,5.7,0.047,6.1,485,ok
+0142139AR,431122.55,4588708.55,111.97,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Jaume Pinent,12.07,5.0,2.52,3.06,0.167,3.58,114,ok
+0142140AR,431263.83,4589184.1,202.51,Quercus ilex,False,PRIMERA,Ctra Alta de les Roquetes,,0.0,0.0,,,,0,no_crown_detected
+0142141AR,431105.47,4588805.15,125.67,Melia azedarach,False,TERCERA,C\ Mina de la Ciutat,14.16,40.0,7.14,8.04,0.258,2.71,922,ok
+0142142AR,431040.94,4588759.16,129.66,Melia azedarach,False,EXEMPLAR,C\ Mina de la Ciutat,14.85,36.2,6.79,7.58,0.192,3.3,901,ok
+0142143AR,431222.38,4588662.65,101.04,Hibiscus syriacus,False,PRIMERA,C\ Pla de Fornells,10.39,13.5,4.15,2.75,0.226,2.98,248,ok
+0142145AR,430915.81,4588673.32,133.85,Cercis siliquastrum,False,SEGONA,C\ Torres,7.6,25.5,5.7,4.44,0.258,2.71,558,ok
+0142146AR,430782.68,4588377.13,110.23,Celtis australis,False,TERCERA,C\ Artesania,12.07,52.8,8.2,6.68,0.12,4.24,832,ok
+0142149AR,431436.38,4588621.14,84.86,Brachychiton populneus,False,TERCERA,Via Favència,11.91,48.5,7.86,5.13,0.143,3.89,936,ok
+0142152AR,431370.81,4588622.25,90.27,Koelreuteria paniculata 'Fastigiata',False,PRIMERA,Camí Vell de la Pedrera,,0.0,0.0,,,,0,no_crown_detected
+0142153AR,431267.44,4588570.8,92.66,Brachychiton populneus,False,SEGONA,Via Favència,9.84,28.8,6.05,4.13,0.253,2.75,608,ok
+0142154AR,431060.2,4588691.79,116.87,Cercis siliquastrum,False,PRIMERA,C\ Torres,3.88,13.0,4.07,1.76,0.385,1.91,260,ok
+0142155AR,430875.0,4588781.67,170.04,Quercus ilex,False,SEGONA,C\ Rodrigo Caro,6.61,31.5,6.33,2.44,0.218,3.04,563,ok
+0142157AR,431376.13,4589217.93,195.34,Quercus ilex,False,PRIMERA,Ctra Alta de les Roquetes,7.13,8.5,3.29,3.96,0.443,1.63,302,ok
+0142158AR,431079.45,4588487.76,104.91,Brachychiton populneus,False,PRIMERA,Via Favència,13.72,36.2,6.79,8.69,0.141,3.92,753,ok
+0142159AR,431263.94,4588778.01,102.16,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Alvarado,,0.0,0.0,,,,0,no_crown_detected
+0142160AR,431207.43,4588899.32,126.52,Melia azedarach,False,TERCERA,C\ Mina de la Ciutat,9.86,26.0,5.75,4.76,0.281,2.54,573,ok
+0142161AR,431349.41,4589197.88,196.2,Quercus ilex,False,PRIMERA,Ctra Alta de les Roquetes,7.62,131.0,12.91,3.42,0.413,1.77,5722,ok
+0142162AR,431158.88,4588798.13,117.32,Celtis australis,False,SEGONA,C\ Vidal i Guasch,5.35,18.0,4.79,2.78,0.401,1.83,352,ok
+0142163AR,431078.24,4588769.37,123.29,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Jaume Pinent,10.14,5.0,2.52,2.45,0.379,1.94,58,ok
+0142165AR,431063.24,4588479.96,105.37,Platanus × acerifolia,True,TERCERA,Via Favència,12.66,71.8,9.56,5.38,0.306,2.37,1908,ok
+0142168AR,431051.86,4588474.42,105.78,Platanus × acerifolia,True,TERCERA,Via Favència,14.49,59.5,8.7,6.7,0.137,3.98,1662,ok
+0142169AR,431095.47,4588797.9,125.85,Melia azedarach,False,PRIMERA,C\ Mina de la Ciutat,,0.0,0.0,,,,0,no_crown_detected
+0142170AR,431234.72,4589174.1,204.14,Quercus ilex,False,PRIMERA,Ctra Alta de les Roquetes,4.66,1.0,1.13,2.4,0.448,1.6,51,no_crown_detected
+0142171AR,431471.02,4588717.84,80.67,Platanus × acerifolia,True,EXEMPLAR,C\ Torres,17.11,105.0,11.56,5.03,0.115,4.33,2754,ok
+0142173AR,431110.25,4588491.98,95.9,Brachychiton populneus,False,TERCERA,Via Favència,15.71,11.8,3.87,8.16,0.063,5.53,270,ok
+0142174AR,431076.42,4588642.88,109.6,Citrus × aurantium,False,PRIMERA,C\ Romaní,11.71,15.8,4.48,3.92,0.188,3.35,240,ok
+0142175AR,431230.6,4588569.55,94.85,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Jaume Pinent,3.65,6.8,2.93,2.48,0.345,2.13,84,ok
+0142180AR,431087.75,4588763.27,121.11,Cercis siliquastrum,False,SEGONA,C\ Jaume Pinent,6.09,15.0,4.37,4.46,0.146,3.84,205,ok
+0142181AR,431264.0,4588966.0,149.11,Citrus × aurantium,False,SEGONA,C\ Briquets,5.97,12.5,3.99,4.15,0.394,1.86,372,ok
+0142185AR,430946.08,4588682.94,132.17,Cercis siliquastrum,False,SEGONA,C\ Torres,4.62,10.8,3.7,3.64,0.49,1.43,208,ok
+0142186AR,431314.82,4588996.99,142.94,Tamarix gallica,False,TERCERA,C\ Cantera,9.33,47.8,7.8,3.72,0.242,2.83,2303,ok
+0142189AR,431066.77,4588685.21,116.09,Cercis siliquastrum,False,SEGONA,C\ Torres,6.69,37.0,6.86,4.54,0.383,1.92,698,ok
+0142190AR,431115.05,4589088.61,212.47,Quercus ilex,False,PRIMERA,Ctra Alta de les Roquetes,,0.0,0.0,,,,0,no_crown_detected
+0142192AR,431016.0,4588688.0,121.6,Cercis siliquastrum,False,SEGONA,C\ Torres,5.83,11.2,3.78,2.97,0.364,2.02,242,ok
+0142198AR,431176.25,4588645.01,101.69,Cercis siliquastrum,False,PRIMERA,C\ Jaume Pinent,11.42,16.0,4.51,4.35,0.145,3.86,207,ok
+0142202AR,430845.12,4588412.16,112.18,Jacaranda mimosifolia,False,TERCERA,C\ Almagro,9.06,119.2,12.32,5.59,0.171,3.53,1863,ok
+0142203AR,431105.48,4588739.14,116.68,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Jaume Pinent,12.46,16.5,4.58,4.21,0.12,4.24,242,ok
+0142204AR,431084.7,4588767.33,122.38,Cercis siliquastrum,False,SEGONA,C\ Jaume Pinent,7.42,18.8,4.89,5.7,0.14,3.94,258,ok
+0142205AR,430870.06,4588781.51,170.0,Quercus ilex,False,SEGONA,C\ Rodrigo Caro,5.8,9.5,3.48,2.97,0.406,1.8,187,ok
+0142207AR,431224.5,4588964.94,144.38,Prunus serrulata 'Kanzan',False,PRIMERA,C\ Briquets,3.79,2.0,1.6,2.12,0.419,1.74,43,few_points
+0142208AR,430756.99,4588486.69,123.67,Magnolia grandiflora,False,SEGONA,C\ Artesania,7.8,18.8,4.89,3.62,0.235,2.89,238,ok
+0142209AR,431011.72,4588851.08,144.58,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Pla de Fornells,,0.0,0.0,,,,0,no_crown_detected
+0142210AR,431044.98,4588815.96,132.24,Tipuana tipu,False,EXEMPLAR,C\ Jaume Pinent,15.37,138.2,13.27,7.1,0.115,4.33,3114,ok
+0142211AR,431282.65,4588884.54,127.05,Pinus pinea,False,TERCERA,Pg Bosc de Roquetes,6.75,29.8,6.15,5.17,0.371,1.98,523,ok
+0142212AR,431214.32,4588703.66,106.12,Cercis siliquastrum,False,PRIMERA,C\ Torres,4.3,14.0,4.22,2.51,0.331,2.21,278,ok
+0142215AR,431406.93,4589259.89,192.61,Robinia pseudoacacia,False,TERCERA,Ctra Alta de les Roquetes,9.8,67.8,9.29,3.41,0.274,2.59,3590,ok
+0142217AR,430750.72,4588462.85,120.61,Hibiscus syriacus,False,PRIMERA,C\ Artesania,3.13,10.2,3.61,1.71,0.376,1.96,202,ok
+0142218AR,431091.24,4588686.89,113.84,Cercis siliquastrum,False,PRIMERA,C\ Torres,5.65,24.0,5.53,2.55,0.351,2.09,387,ok
+0142219AR,431273.44,4588923.56,138.13,Robinia pseudoacacia 'Pyramidalis',False,SEGONA,C\ Cantera,8.44,32.0,6.38,2.72,0.251,2.76,761,ok
+0142220AR,431246.83,4588813.82,105.5,Celtis australis,False,SEGONA,C\ Vidal i Guasch,8.17,36.2,6.79,4.05,0.16,3.66,593,ok
+0142221AR,431083.61,4588762.03,121.4,Cercis siliquastrum,False,SEGONA,C\ Jaume Pinent,11.22,17.0,4.65,5.09,0.191,3.31,320,ok
+0142224AR,431229.14,4588657.42,100.72,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Pla de Fornells,4.66,2.0,1.6,2.58,0.296,2.43,27,few_points
+0142225AR,431219.42,4588642.63,99.31,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Pla de Fornells,12.01,3.2,2.03,2.22,0.333,2.2,42,few_points
+0142226AR,431167.45,4588657.07,103.78,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Jaume Pinent,12.96,18.8,4.89,5.29,0.148,3.83,298,ok
+0142228AR,431257.08,4588887.24,127.11,Pinus pinea,False,SEGONA,Pg Bosc de Roquetes,7.55,20.5,5.11,5.51,0.162,3.64,290,ok
+0142229AR,431225.16,4588627.03,97.96,Hibiscus syriacus,False,PRIMERA,C\ Pla de Fornells,,0.0,0.0,,,,0,no_crown_detected
+0142231AR,431131.49,4588929.37,144.97,Citrus × aurantium,False,PRIMERA,C\ Briquets,4.66,6.0,2.76,3.05,0.402,1.82,122,ok
+0142232AR,431075.92,4588893.54,140.06,Brachychiton populneus,False,SEGONA,C\ Cantera,4.6,4.2,2.33,2.96,0.246,2.8,69,ok
+0142233AR,430784.64,4588653.93,139.38,Magnolia grandiflora,False,PRIMERA,C\ Artesania,,0.0,0.0,,,,0,no_crown_detected
+0142235AR,431308.43,4589019.46,145.69,Tamarix africana,False,PRIMERA,C\ Cantera,5.16,6.5,2.88,4.41,0.44,1.64,249,ok
+0142238AR,431157.7,4589092.26,208.01,Quercus ilex,False,PRIMERA,Ctra Alta de les Roquetes,,0.0,0.0,,,,0,no_crown_detected
+0142239AR,431379.92,4588717.48,88.94,Cercis siliquastrum,False,SEGONA,C\ Torres,8.08,19.0,4.92,3.57,0.376,1.96,386,ok
+0142240AR,431083.9,4588478.82,94.42,Brachychiton acerifolius,False,TERCERA,Via Favència,18.08,39.5,7.09,8.92,0.059,5.66,695,ok
+0142241AR,431102.12,4588869.83,132.51,Hibiscus syriacus,False,SEGONA,C\ Pla de Fornells,5.71,24.0,5.53,3.44,0.252,2.75,420,ok
+0142244AR,431091.65,4588499.07,104.97,Brachychiton populneus,False,SEGONA,Via Favència,5.19,63.2,8.97,3.98,0.257,2.71,975,ok
+0142245AR,430795.52,4588723.15,145.7,Quercus ilex,False,PRIMERA,C\ Turó de les Roquetes,4.18,5.2,2.59,2.54,0.5,1.39,110,ok
+0142246AR,430872.51,4588677.2,135.12,Celtis australis,False,TERCERA,C\ Torres,11.56,26.0,5.75,5.6,0.162,3.65,458,ok
+0142247AR,430830.54,4588353.98,108.07,Brachychiton populneus,False,TERCERA,Via Favència,7.96,33.8,6.56,4.24,0.502,1.38,1462,ok
+0142248AR,431239.4,4588913.39,133.26,Tamarix gallica,False,PRIMERA,C\ Cantera,,0.0,0.0,,,,0,no_crown_detected
+0142249AR,431175.79,4588523.13,99.02,Brachychiton populneus,False,EXEMPLAR,Via Favència,9.62,42.0,7.31,5.74,0.149,3.81,888,ok
+0142253AR,430752.68,4588449.45,118.95,Hibiscus syriacus,False,PRIMERA,C\ Artesania,4.22,8.0,3.19,2.76,0.444,1.62,160,ok
+0142254AR,430773.8,4588417.7,114.6,Celtis australis,False,TERCERA,C\ Artesania,7.9,28.5,6.02,5.57,0.392,1.87,536,ok
+0142255AR,431097.04,4589092.59,213.48,Quercus ilex,False,PRIMERA,Ctra Alta de les Roquetes,4.4,24.0,5.53,3.01,0.479,1.47,914,ok
+0142258AR,431126.41,4589088.08,211.51,Quercus ilex,False,PRIMERA,Ctra Alta de les Roquetes,3.98,37.0,6.86,2.85,0.44,1.64,1290,ok
+0142259AR,431056.51,4588465.22,105.75,Brachychiton populneus,False,SEGONA,Via Favència,5.36,18.8,4.89,3.84,0.286,2.51,406,ok
+0142260AR,430774.7,4588403.15,113.16,Celtis australis,False,TERCERA,C\ Artesania,8.53,52.2,8.16,4.46,0.264,2.66,886,ok
+0142265AR,431180.69,4588813.82,113.53,Ulmus pumila,False,SEGONA,C\ Vidal i Guasch,12.66,47.8,7.8,6.25,0.165,3.6,979,ok
+0142267AR,431244.38,4588919.91,134.31,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Cantera,,0.0,0.0,,,,0,no_crown_detected
+0142269AR,431046.85,4588471.91,105.89,Brachychiton populneus,False,TERCERA,Via Favència,12.6,47.8,7.8,5.31,0.194,3.28,914,ok
+0142270AR,431042.89,4588923.02,159.52,Citrus × aurantium,False,PRIMERA,C\ Rodrigo Caro,4.35,7.8,3.14,3.05,0.411,1.78,124,ok
+0142271AR,431119.63,4588712.53,112.58,Cercis siliquastrum,False,PRIMERA,C\ Jaume Pinent,9.13,13.5,4.15,3.19,0.25,2.77,228,ok
+0142272AR,430757.92,4588474.42,121.97,Magnolia grandiflora,False,SEGONA,C\ Artesania,6.26,6.8,2.93,4.7,0.375,1.96,64,ok
+0142273AR,431197.38,4588885.12,125.1,Melia azedarach,False,EXEMPLAR,C\ Mina de la Ciutat,10.82,45.0,7.57,6.25,0.323,2.26,957,ok
+0142274AR,430955.66,4588698.28,133.54,Melia azedarach,False,PRIMERA,C\ Mina de la Ciutat,0.87,7.5,3.09,1.62,0.306,2.37,108,low_tree
+0142275AR,431191.32,4588625.49,98.7,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Jaume Pinent,13.05,15.5,4.44,3.18,0.224,2.99,272,ok
+0142276AR,431108.18,4588836.6,127.8,Hibiscus syriacus,False,PRIMERA,C\ Pla de Fornells,15.12,11.2,3.78,3.69,0.178,3.46,276,ok
+0142277AR,430853.07,4588513.19,122.59,Tipuana tipu,False,SEGONA,C\ Alcántara,11.42,53.8,8.27,5.37,0.182,3.4,1092,ok
+0142279AR,431185.75,4588722.27,109.68,Hibiscus syriacus,False,PRIMERA,C\ Pla de Fornells,12.62,6.2,2.82,3.09,0.312,2.33,96,ok
+0142282AR,431032.59,4588854.65,142.69,Hibiscus syriacus,False,PRIMERA,C\ Pla de Fornells,5.14,6.8,2.93,2.48,0.456,1.57,149,ok
+0142283AR,431120.49,4588719.02,113.11,Cercis siliquastrum,False,SEGONA,C\ Jaume Pinent,6.19,13.8,4.18,4.46,0.362,2.03,196,ok
+0142284AR,430757.39,4588480.18,122.76,Magnolia grandiflora,False,SEGONA,C\ Artesania,2.97,6.2,2.82,3.1,0.38,1.93,71,low_tree
+0142285AR,431306.46,4589049.77,149.89,Populus alba,False,TERCERA,C\ Briquets,13.62,61.2,8.83,3.97,0.337,2.18,4277,ok
+0142286AR,431399.41,4588719.14,85.97,Cercis siliquastrum,False,SEGONA,C\ Torres,5.77,70.5,9.47,3.28,0.15,3.79,1409,ok
+0142287AR,430887.85,4588769.95,164.01,Citrus × aurantium,False,PRIMERA,C\ Alcántara,,0.0,0.0,,,,0,no_crown_detected
+0142288AR,431385.06,4588711.07,88.38,Cercis siliquastrum,False,SEGONA,C\ Torres,5.67,19.2,4.95,3.4,0.451,1.59,357,ok
+0142289AR,431035.5,4588466.54,106.29,Brachychiton populneus,False,EXEMPLAR,Via Favència,10.65,42.5,7.36,4.96,0.135,4.0,969,ok
+0142290AR,430800.99,4588851.09,169.12,Quercus ilex,False,SEGONA,C\ Turó de les Roquetes,5.65,17.8,4.75,3.65,0.32,2.28,300,ok
+0142292AR,431119.99,4588666.06,109.05,Citrus × aurantium,False,PRIMERA,C\ Romaní,4.96,9.0,3.39,3.43,0.381,1.93,105,ok
+0142295AR,431094.37,4588483.71,94.66,Brachychiton populneus,False,SEGONA,Via Favència,14.51,5.8,2.71,8.07,0.071,5.28,112,ok
+0142296AR,431248.65,4588960.21,147.67,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Briquets,,0.0,0.0,,,,0,no_crown_detected
+0142298AR,431223.97,4588617.12,97.1,Hibiscus syriacus,False,SEGONA,C\ Pla de Fornells,4.21,24.5,5.59,2.1,0.206,3.16,320,ok
+0142299AR,431219.83,4588924.57,131.01,Melia azedarach,False,SEGONA,C\ Cantera,11.58,36.5,6.82,4.8,0.255,2.74,809,ok
+0142300AR,431193.38,4588918.45,130.7,Parrotia persica 'Vanessa',False,PRIMERA,C\ Cantera,7.25,14.0,4.22,5.3,0.151,3.79,219,ok
+0142302AR,430782.61,4588744.74,147.71,Quercus ilex,False,SEGONA,C\ Turó de les Roquetes,8.18,33.5,6.53,3.32,0.197,3.25,686,ok
+0142303AR,430854.97,4588539.84,125.14,Prunus cerasifera 'Pissardii',False,SEGONA,C\ Alcántara,7.18,30.2,6.21,4.04,0.349,2.11,562,ok
+0142304AR,431146.39,4588517.96,102.0,Brachychiton populneus,False,TERCERA,Via Favència,9.67,31.5,6.33,5.29,0.27,2.62,663,ok
+0142305AR,430736.48,4588433.9,117.27,Celtis australis,False,PRIMERA,C\ Antonio Machado,4.71,8.0,3.19,3.35,0.375,1.96,144,ok
+0142307AR,431400.19,4588611.75,87.12,Platanus × acerifolia,True,EXEMPLAR,Via Favència,14.22,96.2,11.07,7.0,0.155,3.73,2591,ok
+0142309AR,431256.54,4588700.05,103.45,Cercis siliquastrum,False,SEGONA,C\ Torres,6.84,33.5,6.53,3.83,0.314,2.32,692,ok
+0142310AR,431151.64,4589090.21,208.37,Quercus ilex,False,PRIMERA,Ctra Alta de les Roquetes,5.65,23.2,5.44,4.12,0.416,1.75,751,ok
+0142311AR,431008.72,4588735.82,131.51,Albizia julibrissin,False,TERCERA,C\ Mina de la Ciutat,12.35,53.0,8.21,7.66,0.268,2.63,1269,ok
+0142312AR,430731.5,4588432.4,117.33,Jacaranda mimosifolia,False,SEGONA,C\ Antonio Machado,6.84,16.5,4.58,3.83,0.366,2.01,372,ok
+0142313AR,431124.3,4588803.59,123.15,Hibiscus syriacus,False,PRIMERA,C\ Pla de Fornells,0.0,3.5,2.11,3.21,0.37,1.99,54,low_tree
+0142314AR,431145.6,4588976.42,163.46,Prunus cerasifera 'Pissardii',False,SEGONA,C\ Llobera,6.03,15.2,4.41,3.85,0.467,1.52,518,ok
+0142316AR,431445.8,4588715.78,81.38,Cercis siliquastrum,False,PRIMERA,C\ Torres,12.74,44.2,7.51,5.84,0.263,2.67,1006,ok
+0142317AR,431022.98,4588888.84,157.57,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Rodrigo Caro,,0.0,0.0,,,,0,no_crown_detected
+0142318AR,431203.23,4588609.3,96.56,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Jaume Pinent,12.86,23.8,5.5,2.91,0.319,2.29,533,ok
+0142319AR,431250.13,4588563.82,93.93,Platanus × acerifolia,True,EXEMPLAR,Via Favència,17.03,77.8,9.95,7.73,0.128,4.12,2234,ok
+0142320AR,430771.79,4588767.59,151.14,Quercus ilex,False,SEGONA,C\ Turó de les Roquetes,7.02,47.2,7.76,2.26,0.209,3.13,761,ok
+0142322AR,430758.51,4588852.33,165.02,Quercus ilex,False,SEGONA,C\ Turó de les Roquetes,7.43,27.5,5.92,2.81,0.234,2.9,534,ok
+0142323AR,431246.12,4589179.6,203.66,Robinia pseudoacacia,False,SEGONA,Ctra Alta de les Roquetes,8.38,61.0,8.81,2.71,0.396,1.85,2914,ok
+0142324AR,431301.74,4589009.47,144.29,Prunus cerasifera 'Pissardii',False,SEGONA,C\ Cantera,11.54,38.5,7.0,4.35,0.324,2.25,1832,ok
+0142326AR,431104.37,4588860.93,131.03,Hibiscus syriacus,False,PRIMERA,C\ Pla de Fornells,10.6,8.2,3.24,3.54,0.355,2.07,107,ok
+0142327AR,430784.04,4588446.34,117.67,Celtis australis,False,TERCERA,C\ Artesania,10.53,80.5,10.12,5.24,0.245,2.81,1418,ok
+0142328AR,431270.85,4588794.36,102.49,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Llopis,4.33,5.2,2.59,2.97,0.495,1.4,111,ok
+0142329AR,431104.48,4588663.41,109.27,Citrus × aurantium,False,PRIMERA,C\ Romaní,6.22,14.8,4.33,2.76,0.168,3.57,220,ok
+0142330AR,430758.12,4588586.34,134.01,Ginkgo biloba 'Fastigiata Blagon',False,PRIMERA,C\ Artesania,17.19,80.8,10.14,2.79,0.147,3.83,2296,ok
+0142331AR,431068.32,4588471.0,95.24,Brachychiton populneus,False,TERCERA,Via Favència,16.67,27.8,5.94,7.04,0.095,4.71,611,ok
+0142332AR,431111.17,4588857.7,130.31,Hibiscus syriacus,False,PRIMERA,C\ Pla de Fornells,3.16,9.0,3.39,2.58,0.326,2.24,92,ok
+0142334AR,431081.63,4588646.58,109.53,Citrus × aurantium,False,PRIMERA,C\ Romaní,5.66,13.5,4.15,3.52,0.211,3.12,190,ok
+0142336AR,431036.98,4588854.78,142.21,Hibiscus syriacus,False,PRIMERA,C\ Pla de Fornells,,0.0,0.0,,,,0,no_crown_detected
+0142337AR,430951.72,4588676.46,131.53,Cercis siliquastrum,False,PRIMERA,C\ Torres,,0.0,0.0,,,,0,no_crown_detected
+0142338AR,431347.0,4588844.0,105.02,Eucalyptus camaldulensis,False,EXEMPLAR,C\ Nou Barris,18.06,52.0,8.14,4.48,0.225,2.99,1447,ok
+0142339AR,431398.95,4589244.95,193.06,Quercus ilex,False,SEGONA,Ctra Alta de les Roquetes,6.27,28.0,5.97,3.43,0.407,1.8,1083,ok
+0142340AR,431209.79,4588603.82,96.06,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Jaume Pinent,4.94,3.0,1.95,2.22,0.403,1.82,62,ok
+0142341AR,431186.82,4589112.95,205.76,Quercus ilex,False,PRIMERA,Ctra Alta de les Roquetes,4.13,3.2,2.03,2.28,0.53,1.27,130,ok
+0142343AR,430763.0,4588860.0,166.3,Quercus ilex,False,SEGONA,C\ Turó de les Roquetes,7.83,45.8,7.63,3.03,0.156,3.71,933,ok
+0142344AR,431426.36,4588618.78,85.54,Brachychiton populneus,False,SEGONA,Via Favència,12.38,49.5,7.94,5.85,0.171,3.53,1182,ok
+0142346AR,431132.36,4589087.84,210.65,Quercus ilex,False,PRIMERA,Ctra Alta de les Roquetes,3.86,21.2,5.2,2.96,0.448,1.61,739,ok
+0142348AR,430793.08,4588692.46,142.57,Hibiscus syriacus,False,PRIMERA,C\ Artesania,4.35,6.5,2.88,2.68,0.443,1.63,115,ok
+0142350AR,430756.79,4588522.06,128.03,Magnolia grandiflora,False,SEGONA,C\ Artesania,7.28,11.0,3.74,4.15,0.278,2.56,176,ok
+0142351AR,430863.41,4588534.54,125.03,Melia azedarach,False,EXEMPLAR,C\ Alcántara,12.49,78.0,9.97,7.05,0.158,3.7,1656,ok
+0142352AR,430778.52,4588637.13,137.94,Magnolia grandiflora,False,SEGONA,C\ Artesania,5.86,15.5,4.44,3.85,0.426,1.71,312,ok
+0142353AR,430820.6,4588360.0,108.24,Brachychiton populneus,False,SEGONA,Via Favència,10.25,81.5,10.19,5.17,0.169,3.55,2098,ok
+0142354AR,430815.79,4588808.51,169.56,Quercus ilex,False,PRIMERA,C\ Turó de les Roquetes,4.26,6.2,2.82,2.36,0.458,1.56,107,ok
+0142355AR,430847.79,4588373.49,108.02,Brachychiton populneus,False,SEGONA,Via Favència,13.83,42.5,7.36,5.5,0.09,4.81,953,ok
+0142356AR,430834.02,4588425.69,113.94,Jacaranda mimosifolia,False,SEGONA,C\ Almagro,7.53,87.8,10.57,4.23,0.214,3.08,1362,ok
+0142358AR,431117.49,4588723.05,113.78,Cercis siliquastrum,False,SEGONA,C\ Jaume Pinent,7.32,16.5,4.58,4.34,0.32,2.28,269,ok
+0142360AR,431308.77,4589024.61,146.55,Tamarix gallica,False,TERCERA,C\ Cantera,5.86,15.5,4.44,2.6,0.458,1.56,693,ok
+0142361AR,430981.7,4588678.67,127.33,Cercis siliquastrum,False,SEGONA,C\ Torres,6.32,15.0,4.37,4.99,0.467,1.52,287,ok
+0142363AR,431280.71,4588991.54,150.09,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Briquets,,0.0,0.0,,,,0,no_crown_detected
+0142367AR,431239.09,4589177.11,203.97,Quercus ilex,False,PRIMERA,Ctra Alta de les Roquetes,3.0,14.5,4.3,2.16,0.518,1.32,583,ok
+0142368AR,431060.07,4588972.8,157.76,Prunus cerasifera 'Pissardii',False,SEGONA,C\ Llobera,6.65,19.5,4.98,4.25,0.36,2.04,555,ok
+0142369AR,431172.21,4588642.27,101.6,Cercis siliquastrum,False,PRIMERA,C\ Jaume Pinent,13.66,12.0,3.91,4.17,0.261,2.69,184,ok
+0142374AR,431153.87,4588794.03,118.31,Celtis australis,False,SEGONA,C\ Vidal i Guasch,5.26,26.0,5.75,3.6,0.277,2.56,548,ok
+0142377AR,431126.15,4588834.1,125.58,Melia azedarach,False,SEGONA,C\ Mina de la Ciutat,9.41,37.2,6.89,3.99,0.348,2.11,765,ok
+0142378AR,430991.64,4588738.53,132.28,Melia azedarach,False,SEGONA,C\ Mina de la Ciutat,6.1,16.2,4.55,4.66,0.338,2.17,308,ok
+0142379AR,431087.48,4588650.88,109.48,Citrus × aurantium,False,PRIMERA,C\ Romaní,5.41,11.5,3.83,3.48,0.132,4.04,136,ok
+0142381AR,431113.79,4588720.49,113.78,Cercis siliquastrum,False,PRIMERA,C\ Jaume Pinent,12.15,7.5,3.09,2.65,0.336,2.18,113,ok
+0142384AR,431022.53,4588745.83,130.76,Albizia julibrissin,False,TERCERA,C\ Mina de la Ciutat,11.45,37.2,6.89,5.56,0.279,2.56,894,ok
+0142385AR,430965.19,4588719.85,133.46,Melia azedarach,False,SEGONA,C\ Mina de la Ciutat,5.86,21.8,5.26,2.11,0.124,4.17,434,ok
+0142386AR,430890.82,4588651.14,131.74,Prunus cerasifera 'Pissardii',False,SEGONA,C\ Alcántara,5.17,33.8,6.56,2.08,0.229,2.94,510,ok
+0142389AR,430992.74,4588857.9,147.55,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Pla de Fornells,,0.0,0.0,,,,0,no_crown_detected
+0142390AR,430775.12,4588424.69,115.4,Celtis australis,False,TERCERA,C\ Artesania,9.97,57.5,8.56,5.43,0.276,2.57,1239,ok
+0142391AR,431136.47,4588841.44,125.06,Melia azedarach,False,EXEMPLAR,C\ Mina de la Ciutat,9.85,48.8,7.88,6.07,0.311,2.34,1167,ok
+0142393AR,431197.82,4588604.74,96.19,Hibiscus syriacus,False,PRIMERA,C\ Jaume Pinent,4.28,21.8,5.26,2.57,0.269,2.63,353,ok
+0142394AR,431164.65,4588517.7,100.15,Brachychiton populneus,False,SEGONA,Via Favència,7.43,15.8,4.48,3.47,0.246,2.81,334,ok
+0142395AR,431153.95,4588512.95,101.3,Brachychiton populneus,False,SEGONA,Via Favència,9.92,21.8,5.26,6.72,0.227,2.96,546,ok
+0142399AR,430817.22,4588803.68,169.68,Quercus ilex,False,SEGONA,C\ Turó de les Roquetes,6.88,31.0,6.28,3.93,0.235,2.9,498,ok
+0142400AR,431192.1,4588612.03,97.04,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Jaume Pinent,5.07,25.5,5.7,2.92,0.199,3.22,371,ok
+0142401AR,430993.63,4588725.49,132.3,Melia azedarach,False,SEGONA,C\ Mina de la Ciutat,7.7,29.8,6.15,4.62,0.284,2.52,536,ok
+0142402AR,431169.98,4588850.55,124.43,Melia azedarach,False,EXEMPLAR,C\ Mina de la Ciutat,9.35,69.8,9.42,4.43,0.335,2.19,1511,ok
+0142403AR,431093.71,4588810.96,126.21,Melia azedarach,False,SEGONA,C\ Mina de la Ciutat,10.38,8.5,3.29,1.78,0.232,2.93,177,ok
+0142404AR,431234.89,4588832.76,111.31,Tilia x euchlora,False,SEGONA,C\ Nou Barris,7.59,31.2,6.31,3.73,0.204,3.18,519,ok
+0142406AR,430907.73,4588668.87,133.78,Cercis siliquastrum,False,SEGONA,C\ Torres,7.23,29.0,6.08,4.08,0.267,2.64,439,ok
+0142407AR,431395.55,4589240.96,193.37,Quercus ilex,False,SEGONA,Ctra Alta de les Roquetes,4.82,11.0,3.74,3.24,0.471,1.5,423,ok
+0142409AR,431277.46,4588982.06,149.78,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Briquets,,0.0,0.0,,,,0,no_crown_detected
+0142411AR,431310.69,4589028.57,147.42,Tamarix ramosissima,False,PRIMERA,C\ Cantera,0.0,0.8,0.98,2.27,0.692,0.74,22,no_crown_detected
+0142412AR,430769.04,4588865.62,167.28,Quercus ilex,False,SEGONA,C\ Turó de les Roquetes,5.99,16.0,4.51,2.42,0.325,2.25,295,ok
+0142413AR,431073.56,4588626.24,108.61,Citrus × aurantium,False,PRIMERA,C\ Romaní,3.63,5.2,2.59,2.36,0.262,2.68,65,ok
+0142416AR,431173.01,4588800.87,115.71,Celtis australis,False,TERCERA,C\ Vidal i Guasch,11.85,44.2,7.51,6.3,0.068,5.38,738,ok
+0142417AR,431293.39,4588842.0,108.82,Tilia x euchlora,False,SEGONA,C\ Nou Barris,6.16,20.0,5.05,2.49,0.3,2.41,377,ok
+0142418AR,430826.06,4588362.61,108.22,Brachychiton populneus,False,SEGONA,Via Favència,12.81,51.8,8.12,4.5,0.146,3.84,1208,ok
+0142419AR,431131.89,4588824.16,124.7,Melia azedarach,False,SEGONA,C\ Mina de la Ciutat,7.41,40.8,7.2,3.52,0.154,3.75,638,ok
+0142420AR,430949.7,4588709.14,133.94,Melia azedarach,False,EXEMPLAR,C\ Mina de la Ciutat,9.8,42.8,7.38,6.55,0.349,2.1,836,ok
+0142421AR,430856.3,4588514.59,122.21,Tipuana tipu,False,SEGONA,C\ Alcántara,13.16,44.2,7.51,6.82,0.188,3.35,869,ok
+0142423AR,431221.27,4588956.13,141.97,Quercus ilex,False,TERCERA,C\ Mina de la Ciutat,,0.0,0.0,,,,0,no_crown_detected
+0142424AR,430825.32,4588351.42,108.11,Brachychiton populneus,False,TERCERA,Via Favència,8.85,29.0,6.08,4.03,0.416,1.75,1259,ok
+0142425AR,431058.63,4588785.5,127.54,Melia azedarach,False,SEGONA,C\ Mina de la Ciutat,11.09,22.0,5.29,7.38,0.393,1.87,521,ok
+0142428AR,431205.39,4588818.5,110.53,Celtis australis,False,TERCERA,C\ Vidal i Guasch,10.69,42.5,7.36,6.46,0.178,3.45,825,ok
+0142429AR,430809.54,4588354.78,108.41,Brachychiton populneus,False,TERCERA,Via Favència,9.3,39.8,7.11,4.5,0.264,2.67,1651,ok
+0142430AR,431277.31,4588884.79,127.04,Pinus pinea,False,TERCERA,Pg Bosc de Roquetes,8.03,35.0,6.68,5.09,0.373,1.97,702,ok
+0142431AR,430824.07,4588790.74,169.69,Quercus ilex,False,PRIMERA,C\ Turó de les Roquetes,4.58,11.2,3.78,2.47,0.4,1.83,220,ok
+0142434AR,431413.86,4588720.39,83.69,Cercis siliquastrum,False,SEGONA,C\ Torres,6.67,26.5,5.81,4.0,0.345,2.13,568,ok
+0142437AR,431329.1,4588713.32,96.43,Cercis siliquastrum,False,SEGONA,C\ Torres,6.93,36.8,6.84,3.28,0.288,2.49,746,ok
+0142438AR,431266.45,4588792.41,102.78,Prunus cerasifera 'Pissardii',False,SEGONA,C\ Llopis,3.9,13.2,4.11,2.36,0.454,1.58,295,ok
+0142439AR,431410.72,4589264.91,192.53,Robinia pseudoacacia,False,SEGONA,Ctra Alta de les Roquetes,8.15,36.2,6.79,3.61,0.406,1.8,2231,ok
+0142441AR,431387.2,4589237.45,193.78,Quercus ilex,False,PRIMERA,Ctra Alta de les Roquetes,6.57,17.2,4.69,3.42,0.41,1.78,868,ok
+0142442AR,431389.0,4588718.0,87.5,Cercis siliquastrum,False,PRIMERA,C\ Torres,13.95,5.2,2.59,3.59,0.212,3.1,113,ok
+0142445AR,431228.8,4588814.21,107.62,Celtis australis,False,SEGONA,C\ Vidal i Guasch,9.66,46.8,7.72,5.36,0.181,3.41,904,ok
+0142446AR,431392.57,4589237.34,193.76,Quercus ilex,False,SEGONA,Ctra Alta de les Roquetes,5.47,15.8,4.48,3.2,0.377,1.95,606,ok
+0142447AR,431126.49,4588710.98,111.89,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Jaume Pinent,5.05,6.0,2.76,3.23,0.329,2.22,85,ok
+0142448AR,431110.87,4588724.47,114.3,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Jaume Pinent,7.03,13.5,4.15,4.51,0.211,3.11,218,ok
+0142449AR,431184.66,4588731.78,110.7,Hibiscus syriacus,False,PRIMERA,C\ Pla de Fornells,13.6,15.0,4.37,3.67,0.218,3.05,248,ok
+0142450AR,431135.27,4588512.67,103.01,Brachychiton populneus,False,EXEMPLAR,Via Favència,13.88,34.8,6.65,7.27,0.186,3.36,838,ok
+0142451AR,431352.82,4588844.2,104.36,Eucalyptus camaldulensis,False,EXEMPLAR,C\ Nou Barris,18.26,30.5,6.23,2.68,0.298,2.42,799,ok
+0142455AR,431260.52,4588836.87,110.19,Tilia x euchlora,False,SEGONA,C\ Nou Barris,8.03,32.0,6.38,3.74,0.202,3.2,583,ok
+0142456AR,431134.4,4588906.46,139.83,Parrotia persica 'Vanessa',False,PRIMERA,C\ Cantera,,0.0,0.0,,,,0,no_crown_detected
+0142457AR,430949.68,4588412.53,109.67,Brachychiton populneus,False,TERCERA,Via Favència,7.99,25.5,5.7,2.77,0.306,2.37,487,ok
+0142458AR,431051.17,4588462.84,105.89,Brachychiton populneus,False,SEGONA,Via Favència,5.2,6.2,2.82,3.8,0.531,1.27,113,ok
+0142459AR,431015.8,4588755.43,131.1,Albizia julibrissin,False,TERCERA,C\ Mina de la Ciutat,11.55,37.2,6.89,6.63,0.206,3.16,809,ok
+0142460AR,431208.62,4588904.0,127.24,Melia azedarach,False,SEGONA,C\ Mina de la Ciutat,11.98,21.5,5.23,4.13,0.237,2.88,464,ok
+0142461AR,431285.99,4588886.74,127.02,Quercus ilex,False,PRIMERA,Pg Bosc de Roquetes,7.06,21.5,5.23,3.5,0.355,2.07,518,ok
+0142462AR,430841.24,4588359.51,107.93,Brachychiton populneus,False,SEGONA,Via Favència,4.63,17.2,4.69,3.43,0.459,1.56,519,ok
+0142463AR,431119.71,4588504.95,103.84,Platanus × acerifolia,True,EXEMPLAR,Via Favència,15.76,42.0,7.31,6.27,0.146,3.85,1186,ok
+0142465AR,431371.58,4588626.59,86.93,Koelreuteria paniculata 'Fastigiata',False,SEGONA,Camí Vell de la Pedrera,12.86,5.2,2.59,3.75,0.049,6.03,143,ok
+0142467AR,431259.81,4588963.69,148.78,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Briquets,,0.0,0.0,,,,0,no_crown_detected
+0142468AR,431138.63,4589089.17,210.27,Quercus ilex,False,PRIMERA,Ctra Alta de les Roquetes,4.36,5.8,2.71,2.68,0.5,1.39,227,ok
+0142469AR,430971.75,4588684.91,129.12,Cercis siliquastrum,False,SEGONA,C\ Torres,6.33,18.2,4.82,3.11,0.266,2.64,379,ok
+0142470AR,430751.05,4588532.03,129.12,Hibiscus syriacus,False,PRIMERA,C\ Artesania,3.69,23.0,5.41,2.02,0.324,2.25,401,ok
+0142471AR,431314.81,4588712.29,98.22,Cercis siliquastrum,False,PRIMERA,C\ Torres,3.13,5.5,2.65,2.11,0.394,1.86,99,ok
+0142474AR,431062.08,4588467.94,95.48,Brachychiton populneus,False,SEGONA,Via Favència,15.12,12.5,3.99,4.88,0.03,6.99,264,ok
+0142475AR,431222.72,4588814.87,108.31,Celtis australis,False,SEGONA,C\ Vidal i Guasch,9.36,38.5,7.0,5.05,0.203,3.19,844,ok
+0142476AR,430760.73,4588856.79,165.68,Quercus ilex,False,SEGONA,C\ Turó de les Roquetes,7.12,43.0,7.4,2.94,0.236,2.89,883,ok
+0142477AR,430885.06,4588614.53,127.35,Catalpa bignonioides,False,SEGONA,C\ Alcántara,6.45,15.5,4.44,3.74,0.299,2.42,318,ok
+0142481AR,430777.99,4588753.02,148.86,Quercus ilex,False,SEGONA,C\ Turó de les Roquetes,5.58,13.5,4.15,3.64,0.412,1.77,250,ok
+0142483AR,431329.95,4588706.27,96.61,Cercis siliquastrum,False,PRIMERA,C\ Torres,13.47,11.0,3.74,3.11,0.422,1.73,192,ok
+0142484AR,431321.84,4589035.93,149.49,Tamarix gallica,False,SEGONA,C\ Cantera,8.83,24.0,5.53,4.07,0.33,2.22,1221,ok
+0142485AR,430853.21,4588376.25,107.94,Platanus × acerifolia,True,EXEMPLAR,Via Favència,16.89,38.5,7.0,6.29,0.107,4.48,1098,ok
+0142486AR,431126.99,4588499.58,97.23,Brachychiton populneus,False,SEGONA,Via Favència,12.57,25.8,5.73,5.86,0.182,3.41,472,ok
+0142488AR,431078.34,4588914.6,142.91,Brachychiton populneus,False,SEGONA,C\ Cantera,5.19,5.5,2.65,2.91,0.376,1.96,101,ok
+0142489AR,430761.47,4588600.4,135.22,Hibiscus syriacus,False,SEGONA,C\ Garigliano,2.96,27.5,5.92,2.26,0.267,2.64,420,low_tree
+0142490AR,430792.85,4588727.29,145.97,Quercus ilex,False,PRIMERA,C\ Turó de les Roquetes,4.94,12.0,3.91,2.55,0.396,1.85,207,ok
+0142491AR,430951.55,4588683.57,131.6,Cercis siliquastrum,False,SEGONA,C\ Torres,5.94,29.2,6.1,3.08,0.359,2.05,576,ok
+0142493AR,431310.84,4588831.06,108.08,Celtis australis,False,SEGONA,C\ Nou Barris,9.03,40.2,7.16,4.48,0.167,3.58,724,ok
+0142494AR,430734.87,4588438.93,117.59,Celtis australis,False,SEGONA,C\ Antonio Machado,5.4,16.0,4.51,4.25,0.341,2.15,261,ok
+0142496AR,430775.82,4588397.37,112.47,Celtis australis,False,TERCERA,C\ Artesania,8.83,48.5,7.86,4.55,0.297,2.43,961,ok
+0142497AR,430959.44,4588715.57,133.62,Melia azedarach,False,SEGONA,C\ Mina de la Ciutat,7.75,34.2,6.6,2.25,0.253,2.75,656,ok
+0142498AR,430784.29,4588866.98,168.5,Quercus ilex,False,PRIMERA,C\ Turó de les Roquetes,0.0,26.8,5.84,3.35,0.204,3.18,637,low_tree
+0142500AR,431439.0,4588715.0,81.77,Platanus × acerifolia,True,EXEMPLAR,C\ Torres,13.65,93.8,10.93,6.58,0.213,3.09,2227,ok
+0142502AR,431115.65,4588494.17,103.78,Brachychiton populneus,False,TERCERA,Via Favència,14.39,18.2,4.82,4.86,0.177,3.46,350,ok
+0142503AR,430756.77,4588796.05,156.14,Quercus ilex,False,SEGONA,C\ Turó de les Roquetes,7.34,10.5,3.66,4.19,0.092,4.76,173,ok
+0142505AR,431279.48,4588839.98,109.39,Tilia x euchlora,False,SEGONA,C\ Nou Barris,6.47,23.8,5.5,2.86,0.298,2.42,473,ok
+0142506AR,431290.0,4589027.0,150.7,Prunus cerasifera 'Pissardii',False,SEGONA,C\ Briquets,8.12,80.0,10.09,4.36,0.234,2.9,2968,ok
+0142507AR,431301.13,4588968.7,140.82,Prunus cerasifera 'Pissardii',False,SEGONA,C\ Cantera,6.35,17.2,4.69,3.28,0.363,2.03,601,ok
+0142508AR,431228.58,4588652.63,100.3,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Pla de Fornells,,0.0,0.0,,,,0,no_crown_detected
+0142509AR,431135.37,4588789.02,120.64,Hibiscus syriacus,False,SEGONA,C\ Pla de Fornells,4.59,15.8,4.48,3.57,0.286,2.51,252,ok
+0142510AR,430821.21,4588795.04,169.69,Quercus ilex,False,SEGONA,C\ Turó de les Roquetes,5.37,19.8,5.01,3.32,0.344,2.13,340,ok
+0142511AR,431313.45,4589009.69,144.56,Tamarix africana,False,PRIMERA,C\ Cantera,7.33,54.2,8.31,2.34,0.384,1.91,2403,ok
+0142512AR,431216.25,4588569.37,94.72,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Jaume Pinent,3.15,1.2,1.26,2.44,0.4,1.83,25,no_crown_detected
+0142513AR,431113.95,4588502.31,104.24,Brachychiton populneus,False,EXEMPLAR,Via Favència,14.14,59.5,8.7,5.86,0.151,3.78,1311,ok
+0142514AR,430884.66,4588380.63,107.96,Brachychiton populneus,False,SEGONA,Via Favència,5.15,9.5,3.48,3.24,0.425,1.71,167,ok
+0142515AR,431189.41,4588916.09,131.35,Cercis siliquastrum,False,SEGONA,C\ Cantera,7.33,26.0,5.75,4.7,0.205,3.17,487,ok
+0142516AR,431178.7,4588804.97,114.15,Celtis australis,False,SEGONA,C\ Vidal i Guasch,12.58,34.2,6.6,5.32,0.029,7.1,660,ok
+0142517AR,431152.05,4588520.6,101.42,Platanus × acerifolia,True,TERCERA,Via Favència,13.61,40.8,7.2,6.31,0.264,2.66,1123,ok
+0142518AR,431150.94,4588837.19,124.39,Melia azedarach,False,SEGONA,C\ Mina de la Ciutat,,0.0,0.0,,,,0,no_crown_detected
+0142520AR,431030.27,4588464.03,106.48,Platanus × acerifolia,True,TERCERA,Via Favència,14.17,51.5,8.1,7.08,0.165,3.6,1561,ok
+0142523AR,430767.0,4588592.0,134.28,Magnolia grandiflora,False,SEGONA,C\ Artesania,,0.0,0.0,,,,0,no_crown_detected
+0142524AR,431025.58,4588762.35,130.55,Melia azedarach,False,TERCERA,C\ Mina de la Ciutat,11.39,43.2,7.42,7.27,0.321,2.27,892,ok
+0142525AR,431330.48,4588592.84,90.6,Brachychiton populneus,False,SEGONA,Via Favència,6.25,10.2,3.61,3.46,0.365,2.01,230,ok
+0142526AR,431093.48,4588655.31,109.45,Citrus × aurantium,False,PRIMERA,C\ Romaní,12.49,12.8,4.03,3.75,0.266,2.65,158,ok
+0142529AR,431227.94,4588831.78,111.24,Tilia x euchlora,False,SEGONA,C\ Nou Barris,7.67,25.0,5.64,4.09,0.284,2.52,514,ok
+0142532AR,430996.5,4588741.86,132.03,Melia azedarach,False,SEGONA,C\ Mina de la Ciutat,6.54,32.5,6.43,4.86,0.41,1.78,558,ok
+0142533AR,431418.83,4588616.77,86.0,Platanus × acerifolia,True,PRIMERA,Via Favència,6.07,6.8,2.93,3.84,0.469,1.51,130,ok
+0142535AR,431313.09,4589015.67,145.31,Tamarix gallica,False,PRIMERA,C\ Cantera,8.36,24.5,5.59,2.1,0.299,2.42,1123,ok
+0142537AR,431229.24,4588962.88,144.99,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Briquets,,0.0,0.0,,,,0,no_crown_detected
+0142538AR,431123.49,4588715.0,112.5,Cercis siliquastrum,False,SEGONA,C\ Jaume Pinent,10.53,12.8,4.03,4.45,0.347,2.12,202,ok
+0142539AR,431079.38,4588927.0,144.5,Brachychiton populneus,False,SEGONA,C\ Cantera,3.94,3.5,2.11,2.47,0.5,1.39,66,ok
+0142540AR,431198.1,4588962.4,143.55,Citrus × aurantium,False,PRIMERA,C\ Briquets,4.28,17.5,4.72,2.82,0.369,1.99,527,ok
+0142541AR,431109.78,4588667.35,109.25,Citrus × aurantium,False,PRIMERA,C\ Romaní,11.05,20.2,5.08,3.89,0.185,3.37,324,ok
+0142542AR,431178.25,4588532.88,98.63,Brachychiton populneus,False,SEGONA,Via Favència,14.48,33.5,6.53,5.95,0.264,2.67,770,ok
+0142543AR,431254.84,4588707.2,103.76,Cercis siliquastrum,False,SEGONA,C\ Torres,11.23,22.2,5.32,1.76,0.252,2.75,543,ok
+0142544AR,431155.54,4588673.24,106.69,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Jaume Pinent,7.77,10.8,3.7,5.05,0.208,3.14,178,ok
+0142545AR,430938.0,4588700.0,134.11,Melia azedarach,False,SEGONA,C\ Mina de la Ciutat,4.77,13.2,4.11,3.02,0.389,1.89,229,ok
+0142546AR,431088.94,4588806.82,126.26,Melia azedarach,False,SEGONA,C\ Mina de la Ciutat,,0.0,0.0,,,,0,no_crown_detected
+0142547AR,431291.23,4589041.99,150.03,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Briquets,0.0,6.2,2.82,5.03,0.299,2.41,239,low_tree
+0142549AR,431394.5,4588718.58,86.63,Cercis siliquastrum,False,SEGONA,C\ Torres,7.27,49.2,7.92,3.12,0.209,3.13,831,ok
+0142550AR,430776.24,4588656.63,139.93,Hibiscus syriacus,False,PRIMERA,C\ Artesania,3.64,9.5,3.48,2.26,0.329,2.23,143,ok
+0142551AR,431216.48,4588618.2,97.29,Hibiscus syriacus,False,SEGONA,C\ Pla de Fornells,5.02,11.5,3.83,2.85,0.358,2.06,137,ok
+0142553AR,431276.93,4588818.37,104.0,Celtis australis,False,PRIMERA,C\ Nou Barris,0.0,0.8,0.98,4.79,0.571,1.12,7,no_crown_detected
+0142554AR,431045.55,4588762.5,129.22,Melia azedarach,False,TERCERA,C\ Mina de la Ciutat,13.76,37.0,6.86,7.19,0.245,2.82,903,ok
+0142555AR,431107.31,4588853.36,129.84,Hibiscus syriacus,False,SEGONA,C\ Pla de Fornells,12.74,24.2,5.56,3.98,0.251,2.77,351,ok
+0142556AR,430991.0,4588876.0,154.06,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Rodrigo Caro,13.97,6.0,2.76,3.34,0.512,1.34,121,ok
+0142557AR,431140.82,4588901.0,138.65,Brachychiton populneus,False,SEGONA,C\ Cantera,6.29,7.2,3.04,3.2,0.384,1.92,159,ok
+0142558AR,431179.29,4588640.85,101.11,Cercis siliquastrum,False,SEGONA,C\ Jaume Pinent,11.06,12.0,3.91,4.14,0.2,3.22,185,ok
+0142559AR,431340.32,4588596.06,90.28,Brachychiton populneus,False,SEGONA,Via Favència,4.67,9.2,3.43,2.97,0.374,1.97,179,ok
+0142560AR,431275.68,4589185.89,201.12,Quercus ilex,False,PRIMERA,Ctra Alta de les Roquetes,6.18,28.8,6.05,3.23,0.411,1.78,1092,ok
+0142561AR,431324.81,4588834.11,107.24,Celtis australis,False,SEGONA,C\ Nou Barris,9.16,21.8,5.26,5.71,0.245,2.81,379,ok
+0142562AR,431232.83,4588887.14,126.58,Quercus ilex,False,EXEMPLAR,Pg Bosc de Roquetes,12.5,134.5,13.09,4.75,0.142,3.9,2740,ok
+0142563AR,430780.14,4588439.6,116.95,Celtis australis,False,TERCERA,C\ Artesania,10.53,67.8,9.29,6.29,0.224,3.0,1194,ok
+0142564AR,431389.63,4588835.02,100.02,Eucalyptus camaldulensis,False,TERCERA,C\ Nou Barris,12.65,27.5,5.92,5.12,0.25,2.78,781,ok
+0142565AR,431379.54,4589221.97,195.1,Quercus ilex,False,SEGONA,Ctra Alta de les Roquetes,7.37,36.0,6.77,4.51,0.413,1.77,1981,ok
+0142566AR,431234.93,4588813.85,106.77,Celtis australis,False,SEGONA,C\ Vidal i Guasch,9.3,37.0,6.86,4.62,0.165,3.6,805,ok
+0142567AR,431231.58,4588692.51,103.96,Olea europaea,False,EXEMPLAR,C\ Pla de Fornells,10.44,68.8,9.36,5.45,0.092,4.78,1263,ok
+0142568AR,431276.98,4588812.5,103.85,Handroanthus heptaphyllus,False,PRIMERA,C\ Llopis,6.66,30.2,6.21,3.35,0.303,2.39,669,ok
+0142572AR,431164.12,4588802.69,116.34,Melia azedarach,False,SEGONA,C\ Vidal i Guasch,7.46,44.8,7.55,4.32,0.291,2.47,868,ok
+0142575AR,431076.69,4588685.96,115.27,Cercis siliquastrum,False,PRIMERA,C\ Torres,6.24,19.0,4.92,4.05,0.416,1.76,373,ok
+0142576AR,430938.83,4588407.11,109.65,Brachychiton populneus,False,EXEMPLAR,Via Favència,9.47,30.8,6.26,4.62,0.27,2.62,744,ok
+0142578AR,431103.25,4588653.7,109.2,Citrus × aurantium,False,PRIMERA,C\ Romaní,5.47,10.0,3.57,3.61,0.265,2.66,117,ok
+0142580AR,431111.48,4588731.09,115.16,Cercis siliquastrum,False,SEGONA,C\ Jaume Pinent,8.67,16.8,4.62,5.45,0.265,2.66,287,ok
+0142581AR,431145.03,4588898.95,137.81,Cercis siliquastrum,False,SEGONA,C\ Cantera,4.88,11.8,3.87,3.97,0.431,1.68,225,ok
+0142584AR,431163.48,4588653.94,103.52,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Jaume Pinent,13.39,11.2,3.78,5.15,0.158,3.68,183,ok
+0142585AR,431219.93,4588966.33,143.95,Citrus × aurantium,False,PRIMERA,C\ Briquets,5.66,14.5,4.3,3.2,0.309,2.35,402,ok
+0142586AR,431266.94,4588701.03,102.75,Cercis siliquastrum,False,PRIMERA,C\ Torres,11.43,21.5,5.23,2.71,0.219,3.03,383,ok
+0142587AR,431218.34,4588564.03,94.69,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Jaume Pinent,4.75,2.5,1.78,2.43,0.283,2.52,53,ok
+0142588AR,431169.17,4589094.93,206.74,Quercus ilex,False,PRIMERA,Ctra Alta de les Roquetes,5.08,92.8,10.87,3.3,0.456,1.57,3216,ok
+0142589AR,431241.91,4588833.86,111.05,Tilia x euchlora,False,PRIMERA,C\ Nou Barris,5.39,6.2,2.82,2.36,0.398,1.84,133,ok
+0142590AR,431305.0,4588951.63,140.2,Crataegus x media 'Paul's Scarlet',False,PRIMERA,C\ Cantera,4.15,7.2,3.04,2.43,0.474,1.49,307,ok
+0142591AR,431140.63,4588514.91,102.5,Platanus × acerifolia,True,TERCERA,Via Favència,14.94,38.2,6.98,6.64,0.236,2.88,1053,ok
+0142593AR,431313.52,4589022.12,146.62,Tamarix ramosissima,False,PRIMERA,C\ Cantera,6.01,7.8,3.14,3.72,0.525,1.29,320,ok
+0142594AR,431220.43,4588697.02,105.2,Cercis siliquastrum,False,PRIMERA,C\ Torres,3.25,12.5,3.99,2.97,0.431,1.68,276,ok
+0142596AR,431195.02,4588608.21,96.63,Hibiscus syriacus,False,SEGONA,C\ Jaume Pinent,5.43,22.2,5.32,3.2,0.156,3.71,377,ok
+0142597AR,431163.0,4588986.0,164.57,Prunus cerasifera 'Pissardii',False,SEGONA,C\ Llobera,12.14,17.5,4.72,4.58,0.315,2.31,487,ok
+0142599AR,431330.0,4589194.0,197.47,Quercus ilex,False,PRIMERA,Ctra Alta de les Roquetes,0.0,20.0,5.05,3.24,0.398,1.84,713,low_tree
+0142600AR,431108.6,4588657.64,109.18,Acer monspessulanum,False,PRIMERA,C\ Romaní,,0.0,0.0,,,,0,no_crown_detected
+0142601AR,430753.39,4588815.46,159.2,Quercus ilex,False,PRIMERA,C\ Turó de les Roquetes,5.91,21.0,5.17,2.89,0.097,4.67,383,ok
+0142602AR,431029.99,4588765.46,130.33,Melia azedarach,False,PRIMERA,C\ Mina de la Ciutat,11.24,27.5,5.92,7.9,0.33,2.22,528,ok
+0142603AR,431380.58,4588710.78,89.12,Cercis siliquastrum,False,PRIMERA,C\ Torres,3.89,5.8,2.71,2.33,0.444,1.62,99,ok
+0142606AR,431200.16,4588613.31,97.08,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Jaume Pinent,10.72,9.0,3.39,2.56,0.284,2.52,148,ok
+0142608AR,431099.87,4588486.44,94.91,Brachychiton populneus,False,SEGONA,Via Favència,14.18,5.2,2.59,9.52,0.044,6.24,113,ok
+0142609AR,430836.53,4588368.03,108.1,Brachychiton populneus,False,TERCERA,Via Favència,9.3,29.8,6.15,4.46,0.107,4.48,544,ok
+0142611AR,431173.0,4588867.0,124.76,Melia azedarach,False,SEGONA,C\ Mina de la Ciutat,8.34,22.5,5.35,4.17,0.337,2.17,504,ok
+0142612AR,431055.05,4588806.62,129.92,Ficus microcarpa,False,SEGONA,C\ Jaume Pinent,6.22,39.2,7.07,3.88,0.132,4.05,667,ok
+0142614AR,430814.36,4588813.34,169.54,Quercus ilex,False,SEGONA,C\ Turó de les Roquetes,5.78,19.2,4.95,1.65,0.262,2.68,366,ok
+0142615AR,431057.51,4588801.97,128.55,Ficus microcarpa,False,SEGONA,C\ Jaume Pinent,5.98,27.5,5.92,4.08,0.12,4.25,301,ok
+0142616AR,431169.97,4588743.44,113.0,Hibiscus syriacus,False,PRIMERA,C\ Pla de Fornells,4.31,7.0,2.99,2.77,0.287,2.5,108,ok
+0142619AR,430784.6,4588372.53,109.96,Celtis australis,False,TERCERA,C\ Artesania,12.0,80.0,10.09,5.13,0.146,3.85,1137,ok
+0142621AR,430858.46,4588378.74,107.95,Brachychiton populneus,False,TERCERA,Via Favència,12.42,33.0,6.48,4.89,0.17,3.55,907,ok
+0142622AR,431185.48,4588632.28,99.72,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Jaume Pinent,13.25,6.5,2.88,3.19,0.252,2.75,111,ok
+0142623AR,430729.62,4588437.61,117.5,Jacaranda mimosifolia,False,PRIMERA,C\ Antonio Machado,6.63,52.0,8.14,3.45,0.245,2.81,1004,ok
+0142624AR,431447.77,4588623.39,84.22,Platanus × acerifolia,True,TERCERA,Via Favència,13.34,93.8,10.93,5.34,0.164,3.61,2204,ok
+0142625AR,431220.96,4588652.7,100.17,Hibiscus syriacus,False,PRIMERA,C\ Pla de Fornells,12.81,17.5,4.72,3.02,0.245,2.82,319,ok
+0142627AR,431372.94,4589214.36,195.59,Quercus ilex,False,TERCERA,Ctra Alta de les Roquetes,6.82,26.8,5.84,4.71,0.409,1.79,985,ok
+0142628AR,430976.75,4588685.43,128.2,Cercis siliquastrum,False,SEGONA,C\ Torres,11.03,18.8,4.89,3.24,0.171,3.54,346,ok
+0142629AR,430872.45,4588550.18,125.06,Malus PERPETU® 'Evereste',False,PRIMERA,C\ Alcántara,,0.0,0.0,,,,0,no_crown_detected
+0142630AR,431334.8,4588706.7,95.92,Cercis siliquastrum,False,PRIMERA,C\ Torres,6.04,12.0,3.91,3.67,0.443,1.63,230,ok
+0142631AR,431068.9,4588482.74,105.25,Brachychiton populneus,False,SEGONA,Via Favència,11.32,45.2,7.59,4.6,0.21,3.12,848,ok
+0142633AR,430900.96,4588388.59,108.45,Brachychiton populneus,False,EXEMPLAR,Via Favència,8.5,37.2,6.89,3.14,0.259,2.71,820,ok
+0142636AR,431078.91,4588800.77,126.47,Melia azedarach,False,SEGONA,C\ Mina de la Ciutat,,0.0,0.0,,,,0,no_crown_detected
+0142637AR,431068.02,4588778.36,126.8,Cercis siliquastrum,False,SEGONA,C\ Mina de la Ciutat,5.05,6.0,2.76,3.9,0.449,1.6,98,ok
+0142638AR,430757.44,4588847.13,164.2,Quercus ilex,False,PRIMERA,C\ Turó de les Roquetes,4.9,7.5,3.09,3.08,0.396,1.85,159,ok
+0142641AR,431069.55,4588794.09,126.76,Melia azedarach,False,EXEMPLAR,C\ Mina de la Ciutat,11.48,38.0,6.96,7.14,0.343,2.14,852,ok
+0142642AR,431246.87,4588887.78,126.85,Quercus ilex,False,PRIMERA,Pg Bosc de Roquetes,7.5,4.8,2.46,3.71,0.197,3.25,66,ok
+0142644AR,430961.49,4588677.31,130.37,Cercis siliquastrum,False,SEGONA,C\ Torres,7.28,12.0,3.91,4.62,0.393,1.87,270,ok
+0142645AR,431102.11,4588736.41,116.56,Cercis siliquastrum,False,SEGONA,C\ Jaume Pinent,10.51,15.0,4.37,5.23,0.183,3.4,224,ok
+0142647AR,430862.05,4588553.6,125.41,Prunus cerasifera 'Pissardii',False,SEGONA,C\ Alcántara,12.13,22.5,5.35,4.68,0.117,4.28,349,ok
+0142648AR,431299.78,4588583.09,91.55,Brachychiton populneus,False,SEGONA,C\ Catasús,5.16,11.5,3.83,2.96,0.411,1.78,209,ok
+0142649AR,431116.0,4588769.0,119.81,Catalpa bignonioides,False,PRIMERA,C\ Vidal i Guasch,12.84,16.2,4.55,2.88,0.228,2.95,311,ok
+0142652AR,431200.25,4588872.14,125.04,Melia azedarach,False,EXEMPLAR,C\ Mina de la Ciutat,11.91,100.5,11.31,6.38,0.18,3.43,2527,ok
+0142654AR,431143.28,4588846.34,124.72,Melia azedarach,False,SEGONA,C\ Mina de la Ciutat,0.0,2.0,1.6,6.85,0.575,1.11,40,few_points
+0142656AR,430966.37,4588677.76,129.61,Cercis siliquastrum,False,SEGONA,C\ Torres,13.01,26.2,5.78,3.88,0.314,2.32,606,ok
+0142658AR,431380.71,4589229.68,194.43,Robinia pseudoacacia,False,SEGONA,Ctra Alta de les Roquetes,8.5,42.0,7.31,3.82,0.405,1.81,2449,ok
+0142660AR,430748.6,4588497.89,125.0,Hibiscus syriacus,False,PRIMERA,C\ Artesania,3.84,11.2,3.78,2.0,0.301,2.4,183,ok
+0142661AR,430792.56,4588862.2,168.95,Quercus ilex,False,SEGONA,C\ Turó de les Roquetes,5.44,19.8,5.01,2.46,0.307,2.36,361,ok
+0142663AR,430930.89,4588674.8,133.1,Cercis siliquastrum,False,PRIMERA,C\ Torres,,0.0,0.0,,,,0,no_crown_detected
+0142664AR,430833.33,4588509.91,122.11,Melia azedarach,False,PRIMERA,C\ Alcántara,11.77,3.5,2.11,8.0,0.211,3.12,57,ok
+0142666AR,431191.59,4588722.38,109.18,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Pla de Fornells,4.43,3.0,1.95,2.52,0.385,1.91,39,few_points
+0142671AR,430762.41,4588605.67,135.59,Hibiscus syriacus,False,SEGONA,C\ Artesania,3.3,45.5,7.61,2.4,0.287,2.5,736,ok
+0142674AR,431029.94,4588893.86,157.89,Prunus cerasifera 'Pissardii',False,SEGONA,C\ Rodrigo Caro,12.23,2.8,1.87,5.28,0.23,2.94,61,ok
+0142675AR,430773.99,4588763.44,150.39,Quercus ilex,False,SEGONA,C\ Turó de les Roquetes,5.7,27.5,5.92,2.6,0.287,2.5,513,ok
+0142677AR,430842.0,4588370.47,108.09,Platanus × acerifolia,True,TERCERA,Via Favència,15.06,44.2,7.51,8.45,0.128,4.12,1097,ok
+0142678AR,431269.88,4588886.28,127.0,Quercus ilex,False,PRIMERA,Pg Bosc de Roquetes,7.53,8.0,3.19,5.37,0.336,2.18,125,ok
+0142679AR,431111.95,4588766.15,119.74,Catalpa bignonioides,False,SEGONA,C\ Vidal i Guasch,11.89,21.5,5.23,4.69,0.241,2.84,410,ok
+0142680AR,430879.74,4588677.84,134.8,Celtis australis,False,TERCERA,C\ Torres,10.79,38.2,6.98,5.29,0.154,3.74,570,ok
+0142683AR,431400.25,4588712.27,85.95,Cercis siliquastrum,False,PRIMERA,C\ Torres,5.35,16.5,4.58,3.01,0.386,1.91,319,ok
+0142685AR,431108.81,4588845.06,128.66,Hibiscus syriacus,False,PRIMERA,C\ Pla de Fornells,14.04,12.2,3.95,3.78,0.211,3.11,270,ok
+0142686AR,431090.47,4588794.27,125.88,Melia azedarach,False,SEGONA,C\ Mina de la Ciutat,1.55,2.0,1.6,1.67,0.2,3.22,30,few_points
+0142687AR,430966.76,4588421.08,109.03,Brachychiton populneus,False,TERCERA,Via Favència,6.79,25.0,5.64,4.26,0.313,2.32,473,ok
+0142689AR,430879.2,4588378.02,107.82,Brachychiton populneus,False,SEGONA,Via Favència,5.78,14.8,4.33,2.57,0.46,1.55,287,ok
+0142695AR,431219.14,4588637.72,98.9,Hibiscus syriacus,False,PRIMERA,C\ Pla de Fornells,13.52,4.5,2.39,2.45,0.387,1.9,62,ok
+0142696AR,431000.68,4588854.39,146.01,Citrus × aurantium,False,PRIMERA,C\ Pla de Fornells,9.03,2.0,1.6,2.79,0.457,1.57,35,few_points
+0142697AR,431027.0,4588749.0,130.49,Melia azedarach,False,TERCERA,C\ Mina de la Ciutat,10.44,37.5,6.91,5.24,0.207,3.15,753,ok
+0142698AR,431324.1,4588590.65,90.84,Brachychiton populneus,False,SEGONA,Via Favència,7.12,14.5,4.3,3.34,0.35,2.1,320,ok
+0142699AR,431090.8,4588759.22,120.23,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Jaume Pinent,5.96,9.2,3.43,3.82,0.23,2.94,139,ok
+0142700AR,431148.49,4588510.08,101.78,Brachychiton populneus,False,SEGONA,Via Favència,7.44,19.2,4.95,3.41,0.056,5.76,482,ok
+0142701AR,431031.74,4588752.49,130.29,Melia azedarach,False,EXEMPLAR,C\ Mina de la Ciutat,11.27,32.5,6.43,5.92,0.204,3.18,646,ok
+0142706AR,431250.26,4588886.22,126.95,Quercus ilex,False,PRIMERA,Pg Bosc de Roquetes,6.57,2.0,1.6,2.38,0.417,1.75,24,few_points
+0142708AR,431289.08,4588822.39,105.04,Celtis australis,False,SEGONA,C\ Nou Barris,7.68,29.2,6.1,4.82,0.246,2.81,411,ok
+0142712AR,431055.01,4588858.78,140.28,Hibiscus syriacus,False,PRIMERA,C\ Pla de Fornells,,0.0,0.0,,,,0,no_crown_detected
+0142714AR,431241.46,4588959.7,146.82,Prunus serrulata 'Kanzan',False,PRIMERA,C\ Briquets,4.95,6.5,2.88,2.75,0.48,1.47,215,ok
+0142716AR,431302.84,4588993.81,142.44,Prunus cerasifera 'Pissardii',False,SEGONA,C\ Cantera,10.81,16.0,4.51,2.98,0.287,2.49,740,ok
+0142717AR,431065.22,4588692.13,116.44,Cercis siliquastrum,False,PRIMERA,C\ Torres,12.6,7.0,2.99,3.31,0.314,2.32,121,ok
+0142718AR,430766.69,4588776.64,152.79,Quercus ilex,False,SEGONA,C\ Turó de les Roquetes,10.57,50.2,8.0,4.54,0.084,4.96,1158,ok
+0142719AR,430778.12,4588390.62,111.66,Celtis australis,False,TERCERA,C\ Artesania,9.22,49.0,7.9,5.79,0.307,2.36,916,ok
+0142721AR,431369.71,4588618.42,90.2,Koelreuteria paniculata 'Fastigiata',False,PRIMERA,Camí Vell de la Pedrera,6.75,3.0,1.95,3.59,0.382,1.92,68,ok
+0142722AR,431129.5,4588706.96,111.32,Cercis siliquastrum,False,SEGONA,C\ Jaume Pinent,6.64,25.8,5.73,3.96,0.281,2.54,360,ok
+0142723AR,431136.37,4588796.14,121.29,Hibiscus syriacus,False,PRIMERA,C\ Pla de Fornells,3.92,4.8,2.46,2.86,0.5,1.39,94,ok
+0142725AR,430750.19,4588469.68,121.49,Hibiscus syriacus,False,PRIMERA,C\ Artesania,3.36,8.0,3.19,2.31,0.461,1.55,154,ok
+0142726AR,431293.8,4588824.56,105.73,Celtis australis,False,SEGONA,C\ Nou Barris,7.0,27.0,5.86,4.22,0.168,3.57,370,ok
+0142728AR,431370.03,4588716.62,90.58,Cercis siliquastrum,False,SEGONA,C\ Torres,5.83,20.0,5.05,3.74,0.453,1.58,395,ok
+0142731AR,430756.04,4588572.43,132.9,Hibiscus syriacus,False,PRIMERA,C\ Artesania,3.76,33.8,6.56,2.13,0.261,2.68,597,ok
+0142733AR,431125.49,4588670.11,109.01,Citrus × aurantium,False,PRIMERA,C\ Romaní,4.97,11.2,3.78,3.5,0.338,2.17,130,ok
+0142734AR,430756.21,4588494.03,124.53,Magnolia grandiflora,False,SEGONA,C\ Artesania,7.26,12.0,3.91,3.78,0.325,2.25,151,ok
+0142737AR,430921.13,4588674.36,133.64,Cercis siliquastrum,False,SEGONA,C\ Torres,4.28,17.0,4.65,2.12,0.323,2.26,297,ok
+0142739AR,431291.98,4588940.52,139.79,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Cantera,,0.0,0.0,,,,0,no_crown_detected
+0142740AR,431252.96,4588813.87,104.82,Celtis australis,False,SEGONA,C\ Vidal i Guasch,7.97,40.8,7.2,5.19,0.144,3.88,633,ok
+0142743AR,431053.14,4588782.04,128.16,Melia azedarach,False,SEGONA,C\ Mina de la Ciutat,,0.0,0.0,,,,0,no_crown_detected
+0142745AR,430812.93,4588818.16,169.44,Quercus ilex,False,PRIMERA,C\ Turó de les Roquetes,3.37,6.8,2.93,2.33,0.394,1.86,127,ok
+0142747AR,430856.66,4588398.75,109.95,Jacaranda mimosifolia,False,EXEMPLAR,C\ Almagro,9.75,157.5,14.16,5.11,0.146,3.85,2335,ok
+0142748AR,431184.4,4588809.07,113.44,Celtis australis,False,TERCERA,C\ Vidal i Guasch,14.29,31.0,6.28,6.23,0.034,6.75,702,ok
+0142750AR,431283.02,4589001.15,150.29,Citrus × aurantium,False,PRIMERA,C\ Briquets,4.95,11.0,3.74,3.65,0.367,2.01,311,ok
+0142751AR,431415.4,4589264.66,192.37,Robinia pseudoacacia,False,PRIMERA,Ctra Alta de les Roquetes,5.36,19.0,4.92,2.98,0.447,1.61,882,ok
+0142753AR,431302.0,4588978.0,141.3,Prunus cerasifera 'Pissardii',False,SEGONA,C\ Cantera,9.03,31.0,6.28,3.28,0.362,2.03,1396,ok
+0142757AR,431262.12,4588568.87,93.03,Platanus × acerifolia,True,TERCERA,Via Favència,15.04,58.5,8.63,6.67,0.145,3.86,1575,ok
+0142758AR,431085.01,4589094.32,213.28,Quercus ilex,False,PRIMERA,Ctra Alta de les Roquetes,5.19,57.0,8.52,2.91,0.54,1.23,2163,ok
+0142759AR,431074.79,4588485.53,105.04,Platanus × acerifolia,True,TERCERA,Via Favència,16.0,41.8,7.29,8.35,0.128,4.12,1145,ok
+0142762AR,431254.5,4588961.27,148.32,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Briquets,,0.0,0.0,,,,0,no_crown_detected
+0142763AR,431186.25,4588914.15,131.91,Brachychiton populneus,False,SEGONA,C\ Cantera,9.18,23.2,5.44,4.48,0.371,1.98,561,ok
+0142764AR,430944.09,4588704.37,134.05,Melia azedarach,False,TERCERA,C\ Mina de la Ciutat,9.95,43.5,7.44,6.85,0.378,1.95,956,ok
+0142767AR,430753.79,4588809.45,158.27,Quercus ilex,False,SEGONA,C\ Turó de les Roquetes,8.23,40.2,7.16,3.63,0.07,5.31,923,ok
+0142769AR,430877.59,4588561.31,125.19,Prunus cerasifera 'Pissardii',False,SEGONA,C\ Alcántara,7.52,23.5,5.47,4.64,0.236,2.88,296,ok
+0142771AR,431374.8,4588709.89,90.24,Cercis siliquastrum,False,PRIMERA,C\ Torres,4.28,6.5,2.88,2.95,0.462,1.55,130,ok
+0142772AR,431124.66,4588507.39,103.62,Brachychiton populneus,False,SEGONA,Via Favència,12.41,32.2,6.41,6.52,0.236,2.88,740,ok
+0142775AR,431132.34,4588502.23,102.91,Brachychiton populneus,False,SEGONA,Via Favència,10.35,29.2,6.1,5.56,0.138,3.96,617,ok
+0142776AR,430758.71,4588539.33,129.94,Magnolia grandiflora,False,SEGONA,C\ Artesania,6.41,19.0,4.92,3.95,0.29,2.48,276,ok
+0142778AR,431129.3,4588777.88,119.91,Catalpa bignonioides,False,PRIMERA,C\ Vidal i Guasch,8.24,62.0,8.88,6.17,0.204,3.18,1055,ok
+0142780AR,431013.32,4588739.16,131.26,Melia azedarach,False,SEGONA,C\ Mina de la Ciutat,12.47,18.5,4.85,7.34,0.28,2.54,378,ok
+0142781AR,431285.26,4588577.54,92.0,Brachychiton populneus,False,SEGONA,Via Favència,6.91,13.5,4.15,3.11,0.36,2.04,308,ok
+0142782AR,431125.0,4588819.0,124.87,Melia azedarach,False,SEGONA,C\ Mina de la Ciutat,4.67,16.8,4.62,3.45,0.251,2.76,239,ok
+0142783AR,431400.13,4589252.84,192.71,Quercus ilex,False,PRIMERA,Ctra Alta de les Roquetes,3.61,22.5,5.35,2.83,0.448,1.61,1109,ok
+0142785AR,430745.9,4588437.14,117.38,Celtis australis,False,EXEMPLAR,C\ Antonio Machado,9.43,52.5,8.18,5.06,0.236,2.89,886,ok
+0142786AR,431394.93,4588711.76,86.78,Cercis siliquastrum,False,SEGONA,C\ Torres,7.36,30.2,6.21,3.89,0.384,1.91,596,ok
+0142787AR,430741.7,4588435.95,117.52,Celtis australis,False,TERCERA,C\ Antonio Machado,8.49,30.8,6.26,5.68,0.169,3.55,443,ok
+0142788AR,431294.74,4588710.29,100.75,Cercis siliquastrum,False,SEGONA,C\ Torres,12.49,19.8,5.01,2.94,0.313,2.32,409,ok
+0142790AR,431197.57,4589128.1,205.31,Quercus ilex,False,PRIMERA,Ctra Alta de les Roquetes,4.51,6.5,2.88,2.82,0.532,1.26,274,ok
+0142791AR,430764.43,4588622.29,136.94,Magnolia grandiflora 'Gallisoniensis',False,SEGONA,C\ Artesania,6.46,18.0,4.79,3.36,0.348,2.11,365,ok
+0142792AR,431158.21,4588669.37,106.02,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Jaume Pinent,7.8,13.5,4.15,4.47,0.23,2.94,256,ok
+0142793AR,431195.94,4589015.79,166.19,Citrus × aurantium,False,SEGONA,C\ Llobera,5.63,14.2,4.26,3.85,0.411,1.78,391,ok
+0142794AR,430822.06,4588438.99,115.82,Jacaranda mimosifolia,False,SEGONA,C\ Almagro,5.18,23.2,5.44,3.26,0.287,2.49,369,ok
+0142796AR,430855.26,4588781.03,169.99,Quercus ilex,False,SEGONA,C\ Rodrigo Caro,8.2,21.5,5.23,3.88,0.199,3.23,453,ok
+0142799AR,430857.18,4588518.36,123.56,Tipuana tipu,False,EXEMPLAR,C\ Alcántara,13.51,48.0,7.82,6.85,0.192,3.3,1003,ok
+0142801AR,431407.15,4588613.67,86.58,Brachychiton populneus,False,SEGONA,Via Favència,8.57,28.2,6.0,3.45,0.327,2.23,535,ok
+0142802AR,431389.56,4588711.48,87.69,Cercis siliquastrum,False,SEGONA,C\ Torres,6.91,26.8,5.84,3.96,0.348,2.11,580,ok
+0142803AR,430778.56,4588867.61,168.1,Quercus ilex,False,SEGONA,C\ Turó de les Roquetes,6.63,51.2,8.08,1.97,0.177,3.46,1105,ok
+0142804AR,431153.0,4588979.0,163.92,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Llobera,,0.0,0.0,,,,0,no_crown_detected
+0142805AR,431213.26,4588604.95,96.18,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Pla de Fornells,2.81,7.2,3.04,2.21,0.436,1.66,133,low_tree
+0142808AR,431169.17,4588805.55,115.45,Celtis australis,False,PRIMERA,C\ Vidal i Guasch,8.75,23.0,5.41,3.97,0.204,3.17,401,ok
+0142810AR,431299.75,4588710.79,100.12,Cercis siliquastrum,False,SEGONA,C\ Torres,5.4,15.0,4.37,2.4,0.246,2.81,305,ok
+0142812AR,431164.84,4588945.56,145.82,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Briquets,5.05,8.5,3.29,2.58,0.426,1.71,198,ok
+0142813AR,431230.19,4589171.19,204.32,Quercus ilex,False,PRIMERA,Ctra Alta de les Roquetes,1.5,17.2,4.69,3.23,0.438,1.65,630,low_tree
+0142815AR,431019.36,4588458.32,106.82,Brachychiton populneus,False,EXEMPLAR,Via Favència,8.97,31.8,6.36,4.19,0.294,2.45,722,ok
+0142816AR,431382.51,4589225.85,194.69,Quercus ilex,False,SEGONA,Ctra Alta de les Roquetes,7.99,18.5,4.85,4.51,0.319,2.29,798,ok
+0142819AR,431143.37,4588507.43,98.54,Brachychiton populneus,False,PRIMERA,Via Favència,0.0,0.8,0.98,9.54,0.462,1.55,13,no_crown_detected
+0142821AR,431130.11,4588510.23,103.34,Platanus × acerifolia,True,EXEMPLAR,Via Favència,13.1,43.0,7.4,7.62,0.197,3.25,1216,ok
+0142822AR,431257.0,4589183.0,203.04,Quercus ilex,False,PRIMERA,Ctra Alta de les Roquetes,5.25,9.2,3.43,2.96,0.423,1.72,426,ok
+0142823AR,431209.89,4588908.78,127.99,Melia azedarach,False,TERCERA,C\ Mina de la Ciutat,11.56,49.2,7.92,6.21,0.261,2.69,1145,ok
+0142824AR,430960.62,4588417.77,109.39,Brachychiton populneus,False,EXEMPLAR,Via Favència,12.45,38.8,7.02,5.33,0.237,2.88,979,ok
+0142825AR,431478.15,4588718.42,80.53,Platanus × acerifolia,True,EXEMPLAR,C\ Torres,15.17,148.5,13.75,7.3,0.149,3.8,3340,ok
+0142826AR,431251.99,4589182.32,203.33,Quercus ilex,False,PRIMERA,Ctra Alta de les Roquetes,4.56,12.8,4.03,2.1,0.461,1.55,540,ok
+0142827AR,430808.46,4588342.99,108.21,Brachychiton populneus,False,TERCERA,Via Favència,9.4,17.0,4.65,4.86,0.469,1.51,712,ok
+0142829AR,430836.17,4588781.67,169.82,Quercus ilex,False,SEGONA,C\ Rodrigo Caro,4.47,5.2,2.59,2.6,0.275,2.59,102,ok
+0142830AR,431078.48,4588475.9,94.81,Brachychiton populneus,False,SEGONA,Via Favència,16.84,29.0,6.08,8.14,0.086,4.9,592,ok
+0142831AR,431243.99,4588912.92,133.94,Tamarix africana,False,PRIMERA,C\ Cantera,,0.0,0.0,,,,0,no_crown_detected
+0142832AR,431341.0,4588846.0,105.68,Eucalyptus camaldulensis,False,EXEMPLAR,C\ Nou Barris,18.06,82.0,10.22,6.34,0.269,2.63,2261,ok
+0142834AR,430944.01,4588409.7,109.64,Brachychiton populneus,False,SEGONA,Via Favència,7.76,13.2,4.11,3.04,0.357,2.06,300,ok
+0142837AR,431239.37,4588888.22,126.62,Pinus pinea,False,EXEMPLAR,Pg Bosc de Roquetes,9.47,33.8,6.56,6.28,0.02,7.82,502,ok
+0142840AR,430966.76,4588684.4,129.72,Cercis siliquastrum,False,SEGONA,C\ Torres,5.51,21.8,5.26,3.08,0.304,2.38,444,ok
+0142841AR,431458.06,4588716.88,80.98,Styphnolobium japonicum,False,SEGONA,C\ Torres,10.66,65.2,9.11,3.62,0.138,3.96,1399,ok
+0142842AR,431014.29,4588884.97,157.1,Prunus cerasifera 'Pissardii',False,SEGONA,C\ Rodrigo Caro,4.35,9.5,3.48,3.43,0.404,1.81,178,ok
+0142843AR,431313.3,4589032.42,148.22,Tamarix ramosissima,False,PRIMERA,C\ Cantera,10.58,10.5,3.66,5.25,0.36,2.04,510,ok
+0142844AR,430774.33,4588651.67,139.5,Hibiscus syriacus,False,PRIMERA,C\ Artesania,2.42,12.2,3.95,2.26,0.443,1.63,219,low_tree
+0142846AR,430917.29,4588396.74,109.04,Brachychiton populneus,False,TERCERA,Via Favència,9.54,26.5,5.81,3.43,0.331,2.21,656,ok
+0142847AR,430784.92,4588740.61,147.19,Quercus ilex,False,PRIMERA,C\ Turó de les Roquetes,6.74,17.8,4.75,2.8,0.392,1.87,334,ok
+0142848AR,430797.24,4588700.63,143.63,Hibiscus syriacus,False,PRIMERA,C\ Artesania,3.23,10.0,3.57,2.34,0.527,1.28,186,ok
+0142849AR,431426.73,4589256.04,192.13,Robinia pseudoacacia,False,SEGONA,Ctra Alta de les Roquetes,9.29,43.8,7.46,3.17,0.367,2.0,2486,ok
+0142850AR,431157.0,4588523.14,100.89,Brachychiton populneus,False,SEGONA,Via Favència,10.28,29.8,6.15,5.16,0.304,2.38,664,ok
+0142851AR,431324.0,4589193.0,197.86,Quercus ilex,False,PRIMERA,Ctra Alta de les Roquetes,5.18,25.2,5.67,3.07,0.422,1.73,974,ok
+0142853AR,431020.76,4588688.39,120.87,Cercis siliquastrum,False,SEGONA,C\ Torres,7.52,30.0,6.18,4.21,0.397,1.85,693,ok
+0142855AR,431063.96,4588775.83,127.16,Melia azedarach,False,SEGONA,C\ Mina de la Ciutat,5.25,17.5,4.72,3.28,0.192,3.3,203,ok
+0142856AR,431050.15,4588765.83,128.8,Melia azedarach,False,PRIMERA,C\ Mina de la Ciutat,1.78,1.0,1.13,10.58,0.0,7.82,5,no_crown_detected
+0142857AR,431269.38,4588791.92,102.4,Prunus cerasifera 'Pissardii',False,SEGONA,C\ Llopis,6.31,20.0,5.05,3.57,0.32,2.28,325,ok
+0142858AR,431037.71,4588683.14,118.57,Cercis siliquastrum,False,SEGONA,C\ Torres,7.01,32.0,6.38,3.82,0.365,2.02,641,ok
+0142859AR,431336.73,4589195.89,197.08,Quercus ilex,False,PRIMERA,Ctra Alta de les Roquetes,5.31,61.0,8.81,3.27,0.435,1.67,2141,ok
+0142860AR,431059.36,4588772.5,127.54,Melia azedarach,False,TERCERA,C\ Mina de la Ciutat,12.73,28.8,6.05,4.31,0.274,2.59,646,ok
+0142861AR,431317.89,4588833.06,107.86,Celtis australis,False,SEGONA,C\ Nou Barris,7.8,38.8,7.02,4.38,0.127,4.12,573,ok
+0142863AR,431132.0,4588838.36,125.29,Melia azedarach,False,EXEMPLAR,C\ Mina de la Ciutat,11.46,40.2,7.16,6.95,0.318,2.29,949,ok
+0142866AR,431040.53,4588914.09,159.12,Citrus × aurantium,False,PRIMERA,C\ Rodrigo Caro,4.28,2.5,1.78,3.37,0.371,1.98,35,few_points
+0142868AR,431244.15,4588561.1,94.23,Brachychiton populneus,False,EXEMPLAR,Via Favència,13.94,46.0,7.65,6.62,0.104,4.53,916,ok
+0142869AR,431310.33,4588983.7,141.65,Tamarix gallica,False,TERCERA,C\ Cantera,8.99,31.2,6.31,3.88,0.255,2.73,1512,ok
+0142870AR,431295.22,4588703.2,100.58,Cercis siliquastrum,False,SEGONA,C\ Torres,5.75,12.8,4.03,4.64,0.494,1.41,253,ok
+0142871AR,431146.12,4588789.02,119.64,Ulmus pumila,False,TERCERA,C\ Vidal i Guasch,9.37,61.0,8.81,4.85,0.295,2.44,1259,ok
+0142872AR,431151.54,4588670.1,106.64,Cercis siliquastrum,False,SEGONA,C\ Jaume Pinent,14.37,21.8,5.26,4.89,0.155,3.73,368,ok
+0142875AR,431227.95,4588647.92,99.87,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Pla de Fornells,9.85,2.0,1.6,2.63,0.333,2.2,27,few_points
+0142880AR,430857.32,4588367.55,107.78,Brachychiton populneus,False,TERCERA,Via Favència,8.86,34.8,6.65,4.26,0.211,3.12,741,ok
+0142882AR,431285.19,4589008.16,150.46,Prunus cerasifera 'Pissardii',False,SEGONA,C\ Briquets,7.77,24.0,5.53,4.17,0.409,1.79,1037,ok
+0142883AR,431099.2,4588740.4,117.4,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Jaume Pinent,3.98,1.8,1.49,2.9,0.471,1.51,17,no_crown_detected
+0142884AR,430992.44,4588501.89,112.16,Jacaranda mimosifolia,False,TERCERA,C\ Almansa,9.77,87.8,10.57,5.09,0.204,3.18,1284,ok
+0142885AR,431262.01,4588700.62,103.14,Cercis siliquastrum,False,SEGONA,C\ Torres,6.62,21.0,5.17,4.36,0.31,2.35,407,ok
+0142886AR,431058.0,4588795.0,127.72,Ficus elastica,False,EXEMPLAR,C\ Jaume Pinent,13.75,34.8,6.65,5.87,0.138,3.96,629,ok
+0142887AR,431000.65,4588467.0,109.3,Jacaranda mimosifolia,False,TERCERA,C\ Almansa,9.97,115.8,12.14,5.85,0.133,4.04,1617,ok
+0142888AR,430911.96,4588394.05,108.84,Brachychiton populneus,False,TERCERA,Via Favència,8.02,30.2,6.21,3.0,0.337,2.17,584,ok
+0142889AR,430981.32,4588685.61,127.54,Cercis siliquastrum,False,PRIMERA,C\ Torres,5.44,18.5,4.85,1.71,0.292,2.46,332,ok
+0142891AR,431304.96,4588828.94,107.36,Celtis australis,False,SEGONA,C\ Nou Barris,7.05,32.2,6.41,4.56,0.175,3.49,509,ok
+0142892AR,430845.4,4588780.72,169.91,Quercus ilex,False,SEGONA,C\ Rodrigo Caro,5.48,21.0,5.17,2.19,0.172,3.53,338,ok
+0142894AR,431302.32,4589004.75,143.68,Prunus cerasifera 'Pissardii',False,SEGONA,C\ Cantera,6.97,16.2,4.55,3.4,0.3,2.41,650,ok
+0142896AR,431296.62,4588949.67,140.1,Crataegus x media 'Paul's Scarlet',False,PRIMERA,C\ Cantera,10.27,9.8,3.52,2.81,0.358,2.05,361,ok
+0142900AR,430795.79,4588859.6,169.06,Quercus ilex,False,SEGONA,C\ Turó de les Roquetes,8.2,41.8,7.29,2.99,0.224,2.99,831,ok
+0142901AR,431224.97,4589166.81,204.14,Robinia pseudoacacia,False,SEGONA,Ctra Alta de les Roquetes,6.23,92.8,10.87,3.22,0.432,1.68,4012,ok
+0142902AR,430976.01,4588713.11,133.15,Melia azedarach,False,SEGONA,C\ Mina de la Ciutat,4.73,12.5,3.99,1.64,0.256,2.73,176,ok
+0142903AR,431308.62,4588967.82,140.79,Tamarix gallica,False,SEGONA,C\ Cantera,5.55,20.8,5.14,2.85,0.402,1.82,961,ok
+0142906AR,431272.14,4588973.84,149.48,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Briquets,,0.0,0.0,,,,0,no_crown_detected
+0142907AR,431148.0,4588850.0,124.62,Melia azedarach,False,PRIMERA,C\ Mina de la Ciutat,8.0,6.0,2.76,1.81,0.245,2.81,147,ok
+0142909AR,430775.69,4588757.16,149.45,Quercus ilex,False,PRIMERA,C\ Turó de les Roquetes,4.32,7.5,3.09,2.75,0.481,1.47,129,ok
+0142910AR,430739.38,4588440.17,117.75,Celtis australis,False,SEGONA,C\ Antonio Machado,8.04,37.5,6.91,3.26,0.231,2.93,629,ok
+0142911AR,431158.06,4588856.99,124.58,Melia azedarach,False,PRIMERA,C\ Mina de la Ciutat,10.36,14.0,4.22,7.04,0.28,2.55,325,ok
+0142912AR,431089.47,4588481.43,94.51,Brachychiton populneus,False,SEGONA,Via Favència,16.83,18.5,4.85,7.58,0.033,6.85,369,ok
+0142913AR,430810.53,4588452.41,118.12,Jacaranda mimosifolia,False,EXEMPLAR,C\ Almagro,10.73,152.0,13.91,6.68,0.139,3.95,2236,ok
+0142914AR,430755.0,4588836.0,162.53,Quercus ilex,False,PRIMERA,C\ Turó de les Roquetes,3.06,5.0,2.52,2.16,0.044,6.25,91,ok
+0142917AR,431193.33,4588881.87,124.99,Melia azedarach,False,SEGONA,C\ Mina de la Ciutat,1.03,14.8,4.33,6.37,0.296,2.43,280,low_tree
+0142919AR,431100.47,4588801.52,125.74,Melia azedarach,False,SEGONA,C\ Mina de la Ciutat,12.15,29.8,6.15,5.89,0.283,2.52,629,ok
+0142920AR,431204.51,4589137.04,205.16,Quercus ilex,False,PRIMERA,Ctra Alta de les Roquetes,4.11,2.5,1.78,2.66,0.471,1.51,116,ok
+0142921AR,431227.2,4588680.96,103.94,Tipuana tipu,False,EXEMPLAR,C\ Pla de Fornells,15.68,146.2,13.65,7.76,0.151,3.78,3097,ok
+0142922AR,431164.31,4588750.66,114.26,Hibiscus syriacus,False,PRIMERA,C\ Pla de Fornells,3.71,5.0,2.52,2.97,0.4,1.83,60,ok
+0142923AR,431267.21,4588789.48,102.75,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Llopis,3.71,4.5,2.39,2.93,0.515,1.33,66,ok
+0142926AR,431235.0,4588960.0,145.9,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Briquets,6.72,14.5,4.3,4.34,0.409,1.79,489,ok
+0142927AR,431077.0,4588909.0,142.21,Parrotia persica 'Vanessa',False,PRIMERA,C\ Cantera,6.98,4.0,2.26,2.93,0.371,1.98,62,ok
+0142928AR,431282.48,4588820.0,104.34,Celtis australis,False,SEGONA,C\ Nou Barris,7.28,28.2,6.0,4.38,0.315,2.31,499,ok
+0142933AR,431043.83,4588775.12,129.34,Melia azedarach,False,SEGONA,C\ Mina de la Ciutat,8.35,26.8,5.84,4.26,0.342,2.14,584,ok
+0142934AR,430749.63,4588476.66,122.36,Hibiscus syriacus,False,PRIMERA,C\ Artesania,3.42,12.8,4.03,2.16,0.474,1.49,249,ok
+0142938AR,431359.0,4588842.0,103.58,Eucalyptus camaldulensis,False,PRIMERA,C\ Nou Barris,11.06,36.8,6.84,4.41,0.288,2.49,924,ok
+0142939AR,431219.36,4588704.05,105.7,Cercis siliquastrum,False,SEGONA,C\ Torres,8.27,30.0,6.18,3.98,0.211,3.11,733,ok
+0142940AR,431125.45,4588775.93,119.9,Catalpa bignonioides,False,PRIMERA,C\ Vidal i Guasch,6.27,8.2,3.24,2.49,0.4,1.83,130,ok
+0142942AR,431038.94,4588771.66,129.83,Melia azedarach,False,PRIMERA,C\ Mina de la Ciutat,1.42,2.8,1.87,4.47,0.213,3.1,47,few_points
+0142943AR,431189.65,4588725.04,109.64,Hibiscus syriacus,False,PRIMERA,C\ Pla de Fornells,11.54,2.2,1.69,2.91,0.417,1.75,24,few_points
+0142944AR,431212.79,4588546.62,95.02,Brachychiton populneus,False,TERCERA,Via Favència,8.35,34.5,6.63,4.97,0.279,2.56,596,ok
+0142945AR,431441.2,4588622.11,84.61,Platanus × acerifolia,True,TERCERA,Via Favència,12.02,65.2,9.11,6.04,0.16,3.67,1679,ok
+0142946AR,430782.47,4588665.98,140.54,Hibiscus syriacus,False,PRIMERA,C\ Artesania,3.97,9.0,3.39,2.62,0.527,1.28,169,ok
+0142949AR,430999.16,4588475.02,109.62,Jacaranda mimosifolia,False,TERCERA,C\ Almansa,9.03,62.2,8.9,5.2,0.153,3.76,877,ok
+0142950AR,431148.45,4588674.11,107.46,Cercis siliquastrum,False,TERCERA,C\ Jaume Pinent,14.11,21.0,5.17,5.52,0.081,5.02,381,ok
+0142957AR,431137.13,4588903.97,139.25,Parrotia persica 'Vanessa',False,PRIMERA,C\ Cantera,,0.0,0.0,,,,0,no_crown_detected
+0142958AR,431163.88,4588525.89,100.12,Platanus × acerifolia,True,TERCERA,Via Favència,14.7,45.5,7.61,7.13,0.195,3.27,1423,ok
+0142961AR,431050.97,4588690.8,117.7,Cercis siliquastrum,False,SEGONA,C\ Torres,5.23,34.2,6.6,3.2,0.355,2.07,650,ok
+0142963AR,431213.28,4588829.26,111.08,Tilia x euchlora,False,TERCERA,C\ Nou Barris,8.15,41.8,7.29,4.11,0.268,2.63,730,ok
+0142966AR,431083.7,4588489.85,104.86,Platanus × acerifolia,True,TERCERA,Via Favència,15.65,82.8,10.26,6.69,0.171,3.54,2375,ok
+0142967AR,431196.02,4588540.43,96.4,Platanus × acerifolia,True,EXEMPLAR,Via Favència,16.48,66.2,9.18,8.27,0.115,4.33,1699,ok
+0142968AR,431291.85,4588889.56,126.93,Pinus pinea,False,PRIMERA,Pg Bosc de Roquetes,0.38,18.5,4.85,4.77,0.375,1.96,336,low_tree
+0142970AR,430770.01,4588605.83,135.39,Magnolia grandiflora,False,SEGONA,C\ Artesania,6.03,18.0,4.79,3.5,0.37,1.99,378,ok
+0142971AR,431404.63,4588712.78,85.25,Cercis siliquastrum,False,SEGONA,C\ Torres,6.22,32.0,6.38,3.04,0.363,2.03,595,ok
+0142972AR,431074.22,4588797.28,126.55,Melia azedarach,False,SEGONA,C\ Mina de la Ciutat,9.99,5.5,2.65,7.35,0.439,1.65,114,ok
+0142973AR,430789.0,4588683.11,141.82,Hibiscus syriacus,False,PRIMERA,C\ Artesania,,0.0,0.0,,,,0,no_crown_detected
+0142974AR,430789.91,4588731.9,146.35,Quercus ilex,False,SEGONA,C\ Turó de les Roquetes,6.7,40.8,7.2,4.11,0.262,2.68,596,ok
+0142975AR,431492.56,4588720.0,80.58,Platanus × acerifolia,True,EXEMPLAR,C\ Torres,17.86,201.5,16.02,7.27,0.143,3.9,4798,ok
+0142976AR,430765.58,4588584.39,133.75,Magnolia grandiflora,False,PRIMERA,C\ Artesania,5.3,18.5,4.85,8.36,0.253,2.75,565,ok
+0142978AR,431234.02,4588913.94,132.34,Tamarix gallica,False,PRIMERA,C\ Cantera,,0.0,0.0,,,,0,no_crown_detected
+0142979AR,431107.45,4588762.89,119.64,Catalpa bignonioides,False,SEGONA,C\ Vidal i Guasch,13.44,23.5,5.47,4.56,0.271,2.61,516,ok
+0142980AR,430774.32,4588410.13,113.94,Celtis australis,False,TERCERA,C\ Artesania,9.11,42.8,7.38,5.34,0.255,2.73,780,ok
+0142981AR,431362.35,4589207.82,195.85,Quercus ilex,False,PRIMERA,Ctra Alta de les Roquetes,0.0,6.0,2.76,3.05,0.49,1.43,296,low_tree
+0142983AR,430927.29,4588693.39,134.31,Melia azedarach,False,TERCERA,C\ Mina de la Ciutat,8.3,45.2,7.59,5.54,0.342,2.14,800,ok
+0142985AR,431011.14,4588752.09,131.35,Melia azedarach,False,TERCERA,C\ Mina de la Ciutat,10.65,28.5,6.02,6.47,0.303,2.39,571,ok
+0142986AR,431366.92,4588607.99,89.8,Koelreuteria paniculata 'Fastigiata',False,PRIMERA,Camí Vell de la Pedrera,,0.0,0.0,,,,0,no_crown_detected
+0142989AR,431034.05,4588768.68,130.13,Melia azedarach,False,TERCERA,C\ Mina de la Ciutat,10.52,44.5,7.53,5.7,0.297,2.43,854,ok
+0142990AR,431170.28,4588653.17,103.07,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Jaume Pinent,9.92,12.2,3.95,4.1,0.256,2.73,168,ok
+0142991AR,431258.96,4588814.77,104.29,Celtis australis,False,TERCERA,C\ Vidal i Guasch,9.65,56.2,8.46,4.63,0.131,4.07,916,ok
+0142993AR,431169.14,4588865.2,124.73,Melia azedarach,False,EXEMPLAR,C\ Mina de la Ciutat,9.93,33.2,6.51,5.13,0.313,2.32,853,ok
+0142994AR,430926.01,4588674.58,133.4,Cercis siliquastrum,False,SEGONA,C\ Torres,6.46,24.5,5.59,1.78,0.263,2.67,494,ok
+0142995AR,431368.11,4588613.25,90.12,Koelreuteria paniculata 'Fastigiata',False,PRIMERA,Camí Vell de la Pedrera,6.85,5.2,2.59,4.12,0.542,1.22,107,ok
+0142996AR,431297.59,4589023.11,146.52,Robinia pseudoacacia 'Pyramidalis',False,EXEMPLAR,C\ Cantera,15.62,37.2,6.89,5.59,0.266,2.65,2012,ok
+0142997AR,431300.71,4588703.79,100.02,Cercis siliquastrum,False,SEGONA,C\ Torres,6.15,37.5,6.91,3.65,0.285,2.51,582,ok
+0142998AR,430988.83,4588431.69,107.58,Brachychiton populneus,False,SEGONA,Via Favència,5.51,6.2,2.82,3.11,0.459,1.56,135,ok
+0142999AR,431190.1,4588813.17,112.3,Celtis australis,False,TERCERA,C\ Vidal i Guasch,11.68,30.0,6.18,6.12,0.064,5.5,626,ok
+0143001AR,431175.11,4588950.76,145.06,Citrus × aurantium,False,PRIMERA,C\ Briquets,8.53,12.8,4.03,3.45,0.344,2.13,306,ok
+0143005AR,431168.33,4588528.02,99.77,Brachychiton populneus,False,TERCERA,Via Favència,12.87,30.8,6.26,5.69,0.198,3.24,642,ok
+0143006AR,430791.38,4588457.43,118.85,Celtis australis,False,EXEMPLAR,C\ Artesania,11.8,84.2,10.36,6.22,0.175,3.49,1503,ok
+0143007AR,431267.56,4588838.15,109.88,Tilia x euchlora,False,SEGONA,C\ Nou Barris,7.37,30.2,6.21,3.25,0.243,2.83,572,ok
+0143008AR,431056.62,4588684.29,116.91,Cercis siliquastrum,False,SEGONA,C\ Torres,8.04,38.5,7.0,5.04,0.365,2.02,886,ok
+0143011AR,430922.3,4588399.06,109.24,Brachychiton populneus,False,TERCERA,Via Favència,8.78,33.0,6.48,3.2,0.297,2.43,765,ok
+0143012AR,431273.0,4588839.0,109.61,Tilia x euchlora,False,PRIMERA,C\ Nou Barris,3.87,15.0,4.37,2.19,0.447,1.61,235,ok
+0143013AR,431221.79,4588602.36,96.2,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Pla de Fornells,3.35,1.2,1.26,2.2,0.077,5.13,13,no_crown_detected
+0143014AR,431110.47,4588808.78,125.59,Melia azedarach,False,PRIMERA,C\ Mina de la Ciutat,1.59,1.5,1.38,8.02,0.303,2.39,33,no_crown_detected
+0143016AR,431274.3,4588883.28,127.05,Pinus pinea,False,SEGONA,Pg Bosc de Roquetes,7.51,25.5,5.7,4.32,0.386,1.9,523,ok
+0143017AR,430965.8,4588705.92,133.38,Melia azedarach,False,SEGONA,C\ Mina de la Ciutat,9.26,46.5,7.69,1.84,0.255,2.73,928,ok
+0143018AR,430917.67,4588686.84,134.32,Melia azedarach,False,TERCERA,C\ Mina de la Ciutat,9.18,36.0,6.77,6.64,0.341,2.15,634,ok
+0143021AR,430748.69,4588491.58,124.34,Ginkgo biloba 'Fastigiata Blagon',False,PRIMERA,C\ Artesania,,0.0,0.0,,,,0,no_crown_detected
+0143022AR,430971.84,4588423.79,108.7,Brachychiton populneus,False,SEGONA,Via Favència,6.23,11.5,3.83,3.72,0.409,1.79,242,ok
+0143023AR,430776.84,4588431.26,116.09,Celtis australis,False,TERCERA,C\ Artesania,9.96,48.8,7.88,5.79,0.308,2.35,1070,ok
+0143025AR,430886.85,4588742.69,151.95,Citrus × aurantium,False,PRIMERA,C\ Alcántara,4.13,4.2,2.33,1.91,0.247,2.8,73,ok
+0143029AR,431152.47,4588677.13,107.44,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Jaume Pinent,8.81,18.0,4.79,5.18,0.195,3.27,287,ok
+0143030AR,430977.02,4588425.9,108.4,Brachychiton populneus,False,SEGONA,Via Favència,7.85,11.8,3.87,3.15,0.374,1.97,289,ok
+0143031AR,430888.0,4588764.0,161.76,Citrus × aurantium,False,PRIMERA,C\ Alcántara,,0.0,0.0,,,,0,no_crown_detected
+0143032AR,430851.9,4588364.72,107.88,Brachychiton populneus,False,TERCERA,Via Favència,8.78,28.2,6.0,3.72,0.231,2.93,604,ok
+0143033AR,431366.0,4588840.0,102.73,Eucalyptus globulus,False,EXEMPLAR,C\ Nou Barris,15.43,72.2,9.59,6.51,0.21,3.13,2229,ok
+0143034AR,431097.65,4588814.28,126.24,Melia azedarach,False,EXEMPLAR,C\ Mina de la Ciutat,12.04,39.2,7.07,6.37,0.188,3.35,986,ok
+0143035AR,431216.93,4588815.64,108.99,Celtis australis,False,SEGONA,C\ Vidal i Guasch,9.71,37.5,6.91,5.01,0.199,3.23,778,ok
+0143036AR,431146.63,4588774.45,118.13,Hibiscus syriacus,False,PRIMERA,C\ Pla de Fornells,4.07,4.0,2.26,2.52,0.422,1.72,45,few_points
+0143037AR,430982.68,4588428.73,108.02,Brachychiton populneus,False,TERCERA,Via Favència,7.14,23.0,5.41,3.49,0.376,1.96,447,ok
+0143038AR,430802.3,4588847.02,169.17,Quercus ilex,False,PRIMERA,C\ Turó de les Roquetes,5.97,7.5,3.09,2.0,0.38,1.94,150,ok
+0143039AR,430891.44,4588663.17,133.32,Catalpa bignonioides,False,TERCERA,C\ Alcántara,5.2,12.5,3.99,4.32,0.333,2.2,276,ok
+0143040AR,431175.38,4588637.88,100.71,Cercis siliquastrum,False,SEGONA,C\ Jaume Pinent,8.23,20.8,5.14,4.52,0.148,3.82,365,ok
+0143043AR,431121.64,4588496.93,96.8,Brachychiton populneus,False,SEGONA,Via Favència,11.7,29.0,6.08,6.87,0.118,4.28,594,ok
+0143044AR,430791.06,4588688.39,142.2,Hibiscus syriacus,False,PRIMERA,C\ Artesania,,0.0,0.0,,,,0,no_crown_detected
+0143045AR,430754.27,4588805.83,157.76,Quercus ilex,False,PRIMERA,C\ Turó de les Roquetes,9.87,41.8,7.29,4.95,0.055,5.82,899,ok
+0143046AR,431286.36,4588923.21,138.9,Tamarix gallica,False,SEGONA,C\ Cantera,5.88,19.2,4.95,2.55,0.377,1.95,443,ok
+0143047AR,430787.63,4588451.48,118.25,Celtis australis,False,TERCERA,C\ Artesania,11.57,67.2,9.25,5.98,0.138,3.96,1000,ok
+0143050AR,431227.31,4588642.14,99.33,Hibiscus syriacus,False,PRIMERA,C\ Pla de Fornells,4.18,6.8,2.93,2.96,0.382,1.92,89,ok
+0143051AR,431017.93,4588742.49,131.02,Melia azedarach,False,TERCERA,C\ Mina de la Ciutat,13.48,29.2,6.1,7.15,0.351,2.09,692,ok
+0143052AR,431155.18,4588762.62,116.27,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Pla de Fornells,4.78,1.2,1.26,2.78,0.353,2.08,17,no_crown_detected
+0143053AR,431080.9,4588765.77,122.17,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Jaume Pinent,10.77,15.8,4.48,4.92,0.111,4.4,235,ok
+0143054AR,431385.81,4589229.68,192.79,Quercus ilex,False,SEGONA,Ctra Alta de les Roquetes,6.24,18.5,4.85,3.4,0.298,2.42,940,ok
+0143055AR,431116.18,4588672.01,109.17,Citrus × aurantium,False,PRIMERA,C\ Romaní,5.32,15.2,4.41,3.44,0.171,3.53,228,ok
+0143057AR,430772.11,4588615.32,136.14,Magnolia grandiflora,False,SEGONA,C\ Artesania,4.45,16.5,4.58,4.08,0.31,2.34,268,ok
+0143058AR,430850.33,4588780.87,169.89,Quercus ilex,False,SEGONA,C\ Rodrigo Caro,7.13,32.0,6.38,1.91,0.205,3.17,577,ok
+0143059AR,430987.78,4588721.02,132.57,Melia azedarach,False,TERCERA,C\ Mina de la Ciutat,9.25,40.2,7.16,6.25,0.261,2.69,737,ok
+0143060AR,431221.29,4588592.58,95.6,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Pla de Fornells,4.38,2.0,1.6,2.66,0.4,1.83,25,few_points
+0143061AR,430769.51,4588771.55,151.8,Quercus ilex,False,SEGONA,C\ Turó de les Roquetes,6.21,18.5,4.85,3.39,0.146,3.85,357,ok
+0143062AR,430775.44,4588625.67,137.06,Magnolia grandiflora,False,SEGONA,C\ Artesania,6.93,16.5,4.58,4.0,0.305,2.38,292,ok
+0143063AR,430753.97,4588827.28,161.11,Quercus ilex,False,PRIMERA,C\ Turó de les Roquetes,7.64,70.2,9.46,3.42,0.155,3.72,1441,ok
+0143064AR,431116.71,4588716.51,113.13,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Jaume Pinent,,0.0,0.0,,,,0,no_crown_detected
+0143066AR,431274.93,4588977.32,149.62,Prunus serrulata 'Kanzan',False,PRIMERA,C\ Briquets,3.83,3.0,1.95,2.33,0.466,1.53,101,ok
+0143067AR,430749.26,4588518.02,127.57,Ginkgo biloba 'Fastigiata Blagon',False,PRIMERA,C\ Artesania,3.14,22.5,5.35,2.09,0.384,1.91,380,ok
+0143068AR,431154.47,4588666.16,105.89,Cercis siliquastrum,False,SEGONA,C\ Jaume Pinent,8.52,12.0,3.91,4.19,0.192,3.3,198,ok
+0143069AR,431293.67,4589188.43,200.21,Quercus ilex,False,PRIMERA,Ctra Alta de les Roquetes,5.12,48.2,7.84,2.86,0.45,1.6,1859,ok
+0143070AR,431005.74,4588748.45,131.56,Melia azedarach,False,SEGONA,C\ Mina de la Ciutat,8.99,49.5,7.94,5.77,0.411,1.78,1026,ok
+0143071AR,431317.99,4589030.32,148.51,Tamarix ramosissima,False,PRIMERA,C\ Cantera,5.98,4.0,2.26,3.45,0.461,1.55,200,ok
+0143072AR,431045.94,4588460.01,106.0,Platanus × acerifolia,True,PRIMERA,Via Favència,7.68,17.0,4.65,2.75,0.319,2.29,417,ok
+0143074AR,431005.95,4588680.46,123.16,Cercis siliquastrum,False,PRIMERA,C\ Torres,,0.0,0.0,,,,0,no_crown_detected
+0143075AR,431152.72,4588853.08,124.6,Melia azedarach,False,EXEMPLAR,C\ Mina de la Ciutat,11.35,31.0,6.28,5.81,0.232,2.92,893,ok
+0143076AR,431250.09,4588706.86,104.08,Cercis siliquastrum,False,SEGONA,C\ Torres,5.37,24.2,5.56,3.02,0.285,2.51,527,ok
+0143078AR,431185.38,4588955.96,144.25,Citrus × aurantium,False,PRIMERA,C\ Briquets,5.28,12.2,3.95,3.48,0.357,2.06,296,ok
+0143079AR,431425.13,4589247.05,192.09,Robinia pseudoacacia,False,EXEMPLAR,Ctra Alta de les Roquetes,11.7,77.2,9.92,3.84,0.274,2.59,3897,ok
+0143081AR,431125.62,4588811.13,123.89,Hibiscus syriacus,False,PRIMERA,C\ Pla de Fornells,,0.0,0.0,,,,0,no_crown_detected
+0143082AR,431093.9,4588870.05,133.69,Hibiscus syriacus,False,SEGONA,C\ Pla de Fornells,5.95,13.8,4.18,4.37,0.198,3.24,162,ok
+0143083AR,431064.84,4588633.68,110.0,Citrus × aurantium,False,PRIMERA,C\ Romaní,4.43,9.0,3.39,3.29,0.414,1.76,145,ok
+0143084AR,431036.0,4588755.0,130.03,Melia azedarach,False,SEGONA,C\ Mina de la Ciutat,13.43,39.8,7.11,5.55,0.156,3.72,848,ok
+0143087AR,430876.12,4588583.88,125.51,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Alcántara,0.0,7.8,3.14,1.62,0.19,3.32,121,low_tree
+0143088AR,430764.0,4588780.0,153.31,Quercus ilex,False,SEGONA,C\ Turó de les Roquetes,11.92,41.5,7.27,5.38,0.058,5.7,968,ok
+0143091AR,430748.99,4588505.66,126.03,Hibiscus syriacus,False,PRIMERA,C\ Artesania,4.09,22.2,5.32,2.1,0.332,2.21,368,ok
+0143092AR,431105.03,4588732.43,115.77,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Jaume Pinent,10.96,10.0,3.57,3.64,0.278,2.56,162,ok
+0143096AR,430756.73,4588512.54,126.92,Magnolia grandiflora,False,SEGONA,C\ Artesania,6.87,15.2,4.41,3.63,0.315,2.31,181,ok
+0143097AR,431264.75,4588708.1,103.11,Cercis siliquastrum,False,PRIMERA,C\ Torres,14.25,1.0,1.13,3.84,0.545,1.21,22,no_crown_detected
+0143099AR,430759.63,4588462.32,120.43,Magnolia grandiflora,False,SEGONA,C\ Artesania,12.28,24.8,5.61,3.98,0.238,2.87,421,ok
+0143102AR,431339.65,4588707.14,95.15,Cercis siliquastrum,False,SEGONA,C\ Torres,5.78,21.5,5.23,3.63,0.432,1.68,407,ok
+0143103AR,431314.71,4589026.42,147.47,Tamarix gallica,False,SEGONA,C\ Cantera,8.08,17.8,4.75,3.37,0.371,1.98,954,ok
+0143104AR,430754.69,4588832.28,161.96,Quercus ilex,False,PRIMERA,C\ Turó de les Roquetes,3.91,29.0,6.08,3.34,0.06,5.63,567,ok
+0143105AR,430819.76,4588348.61,108.1,Brachychiton populneus,False,SEGONA,Via Favència,6.15,5.0,2.52,3.92,0.535,1.25,221,ok
+0143106AR,431114.48,4588727.07,114.42,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Jaume Pinent,6.59,13.8,4.18,4.36,0.111,4.39,207,ok
+0143107AR,430762.0,4588784.0,154.01,Quercus ilex,False,PRIMERA,C\ Turó de les Roquetes,9.71,36.0,6.77,3.13,0.178,3.45,779,ok
+0143108AR,431253.52,4588887.44,127.04,Pinus pinea,False,EXEMPLAR,Pg Bosc de Roquetes,6.85,5.8,2.71,5.8,0.326,2.24,89,ok
+0143109AR,431350.21,4588707.91,93.69,Cercis siliquastrum,False,SEGONA,C\ Torres,7.16,13.8,4.18,4.71,0.376,1.96,303,ok
+0143110AR,430780.4,4588383.88,111.03,Celtis australis,False,EXEMPLAR,C\ Artesania,11.12,55.2,8.39,6.78,0.145,3.86,889,ok
+0143111AR,430950.77,4588694.94,133.58,Melia azedarach,False,TERCERA,C\ Mina de la Ciutat,10.93,50.0,7.98,5.27,0.328,2.23,1255,ok
+0143113AR,430837.97,4588515.43,122.77,Melia azedarach,False,TERCERA,C\ Alcántara,9.68,32.2,6.41,5.85,0.215,3.07,539,ok
+0143114AR,430770.58,4588635.68,138.04,Hibiscus syriacus,False,PRIMERA,C\ Artesania,4.3,4.0,2.26,1.63,0.176,3.48,91,ok
+0143115AR,431243.31,4588886.3,126.43,Pinus pinea,False,TERCERA,Pg Bosc de Roquetes,9.47,11.2,3.78,4.74,0.0,7.82,157,ok
+0143116AR,431335.4,4588594.25,90.42,Brachychiton populneus,False,SEGONA,Via Favència,4.85,10.5,3.66,2.86,0.384,1.91,224,ok
+0143117AR,431255.59,4588912.82,135.68,Tamarix gallica,False,SEGONA,C\ Cantera,4.73,11.0,3.74,2.6,0.421,1.73,240,ok
+0143118AR,430961.9,4588684.32,130.38,Cercis siliquastrum,False,PRIMERA,C\ Torres,5.06,22.0,5.29,2.68,0.283,2.52,424,ok
+0143119AR,431318.0,4589192.0,198.23,Quercus ilex,False,PRIMERA,Ctra Alta de les Roquetes,5.69,29.2,6.1,3.16,0.376,1.96,1105,ok
+0143122AR,431431.3,4588620.11,85.25,Platanus × acerifolia,True,EXEMPLAR,Via Favència,14.81,74.2,9.72,6.41,0.15,3.79,1989,ok
+0143123AR,431201.27,4588542.36,95.78,Brachychiton populneus,False,SEGONA,Via Favència,13.51,29.8,6.15,5.82,0.261,2.69,682,ok
+0143124AR,430928.51,4588402.21,109.51,Brachychiton populneus,False,TERCERA,Via Favència,8.24,28.8,6.05,3.04,0.281,2.54,597,ok
+0143126AR,430933.05,4588404.52,109.57,Brachychiton populneus,False,EXEMPLAR,Via Favència,9.13,29.2,6.1,4.73,0.266,2.65,542,ok
+0143127AR,430755.86,4588800.94,156.77,Quercus ilex,False,SEGONA,C\ Turó de les Roquetes,8.32,55.0,8.37,4.77,0.078,5.1,1052,ok
+0143131AR,430878.44,4588591.54,125.66,Melia azedarach,False,TERCERA,C\ Alcántara,18.36,41.2,7.25,6.42,0.2,3.22,619,ok
+0143132AR,431175.62,4588854.53,124.52,Albizia julibrissin,False,SEGONA,C\ Mina de la Ciutat,7.09,38.8,7.02,3.96,0.357,2.06,842,ok
+0143133AR,431370.28,4589217.07,195.42,Quercus ilex,False,PRIMERA,Ctra Alta de les Roquetes,7.48,25.2,5.67,4.36,0.432,1.68,1222,ok
+0143134AR,431459.49,4588628.01,83.55,Platanus × acerifolia,True,TERCERA,Via Favència,10.47,61.2,8.83,5.54,0.248,2.79,1328,ok
+0143137AR,431241.06,4588813.7,106.07,Celtis australis,False,SEGONA,C\ Vidal i Guasch,8.82,34.8,6.65,4.53,0.229,2.95,643,ok
+0143138AR,431209.18,4589025.2,166.66,Citrus × aurantium,False,PRIMERA,C\ Llobera,6.0,8.5,3.29,3.66,0.344,2.13,277,ok
+0143140AR,431206.69,4588605.1,96.16,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Jaume Pinent,4.21,9.0,3.39,2.54,0.478,1.48,178,ok
+0143145AR,431103.86,4588693.22,112.62,Cercis siliquastrum,False,PRIMERA,C\ Torres,4.66,12.0,3.91,2.88,0.475,1.49,217,ok
+0143147AR,430846.46,4588362.16,107.94,Brachychiton populneus,False,TERCERA,Via Favència,10.18,40.0,7.14,4.87,0.31,2.35,1010,ok
+0143149AR,431217.8,4589027.81,167.2,Citrus × aurantium,False,PRIMERA,C\ Llobera,,0.0,0.0,,,,0,no_crown_detected
+0143152AR,431269.38,4588708.34,102.8,Cercis siliquastrum,False,PRIMERA,C\ Torres,4.27,7.2,3.04,1.75,0.359,2.05,142,ok
+0143154AR,431303.21,4588988.59,141.93,Prunus cerasifera 'Pissardii',False,SEGONA,C\ Cantera,12.74,31.2,6.31,2.32,0.322,2.27,1400,ok
+0143156AR,431369.7,4589195.27,196.13,Quercus ilex,False,PRIMERA,Ctra Alta de les Roquetes,0.04,7.5,3.09,3.69,0.439,1.64,296,low_tree
+0143157AR,431184.6,4588535.35,97.92,Platanus × acerifolia,True,TERCERA,Via Favència,14.97,65.5,9.13,7.99,0.237,2.88,1727,ok
+0143158AR,431232.34,4588565.08,94.7,Hibiscus syriacus,False,PRIMERA,C\ Jaume Pinent,4.29,5.8,2.71,2.55,0.381,1.93,63,ok
+0143159AR,431364.98,4589201.61,196.15,Quercus ilex,False,TERCERA,Ctra Alta de les Roquetes,6.85,24.2,5.56,4.22,0.534,1.26,1068,ok
+0143161AR,430860.2,4588781.19,169.95,Quercus ilex,False,SEGONA,C\ Rodrigo Caro,7.13,25.8,5.73,3.91,0.238,2.87,437,ok
+0143162AR,430768.07,4588629.87,137.52,Hibiscus syriacus,False,PRIMERA,C\ Artesania,3.6,7.5,3.09,2.72,0.486,1.45,138,ok
+0143165AR,431354.22,4588708.46,93.19,Cercis siliquastrum,False,SEGONA,C\ Torres,5.96,18.5,4.85,3.73,0.345,2.13,296,ok
+0143166AR,431107.95,4588728.45,114.92,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Jaume Pinent,12.14,10.2,3.61,4.85,0.116,4.31,198,ok
+0143167AR,430807.0,4588837.0,169.33,Quercus ilex,False,SEGONA,C\ Turó de les Roquetes,6.82,35.8,6.75,2.35,0.127,4.12,604,ok
+0143168AR,431169.38,4588646.07,102.26,Cercis siliquastrum,False,SEGONA,C\ Jaume Pinent,13.96,13.2,4.11,5.49,0.109,4.43,202,ok
+0143169AR,430889.58,4588635.59,129.91,Melia azedarach,False,EXEMPLAR,C\ Alcántara,10.43,53.0,8.21,5.6,0.254,2.74,1125,ok
+0143171AR,431205.0,4588895.0,125.94,Melia azedarach,False,TERCERA,C\ Mina de la Ciutat,9.18,36.8,6.84,5.15,0.347,2.12,847,ok
+0143173AR,431132.34,4588801.32,122.21,Hibiscus syriacus,False,PRIMERA,C\ Pla de Fornells,,0.0,0.0,,,,0,no_crown_detected
+0143175AR,431178.51,4588871.2,124.8,Melia azedarach,False,EXEMPLAR,C\ Mina de la Ciutat,11.06,37.2,6.89,7.18,0.358,2.05,810,ok
+0143176AR,431158.0,4588982.0,164.22,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Llobera,,0.0,0.0,,,,0,no_crown_detected
+0143180AR,431095.99,4588874.08,133.72,Hibiscus syriacus,False,PRIMERA,C\ Pla de Fornells,8.89,10.0,3.57,3.11,0.34,2.16,200,ok
+0143181AR,431219.31,4588944.78,138.15,Quercus ilex,False,EXEMPLAR,C\ Mina de la Ciutat,,0.0,0.0,,,,0,no_crown_detected
+0143183AR,430875.02,4588555.31,125.15,Prunus cerasifera 'Pissardii',False,SEGONA,C\ Alcántara,6.0,20.0,5.05,4.0,0.251,2.77,299,ok
+0143184AR,431228.67,4588574.2,94.96,Hibiscus syriacus,False,PRIMERA,C\ Jaume Pinent,3.87,9.8,3.52,2.82,0.26,2.7,127,ok
+0143185AR,431108.48,4588735.11,115.89,Pyrus calleryana 'Chanticleer',False,PRIMERA,C\ Jaume Pinent,6.74,15.0,4.37,5.27,0.229,2.95,210,ok
+0143186AR,431157.35,4588662.16,105.13,Cercis siliquastrum,False,SEGONA,C\ Jaume Pinent,9.95,22.8,5.38,5.34,0.112,4.38,340,ok
+0143187AR,431377.35,4589196.16,196.14,Quercus ilex,False,TERCERA,Ctra Alta de les Roquetes,9.26,48.2,7.84,4.12,0.227,2.96,2032,ok
+0259369AR,431421.84,4588599.32,85.92,Ligustrum lucidum,False,PRIMERA,Via Favència,5.27,78.0,9.97,4.55,0.185,3.37,2837,ok
+0259374AR,431354.26,4588587.47,89.85,Ligustrum lucidum,False,PRIMERA,Via Favència,,0.0,0.0,,,,0,no_crown_detected
+0259380AR,431332.4,4588580.36,90.88,Ligustrum lucidum,False,TERCERA,Via Favència,6.18,11.5,3.83,4.03,0.329,2.22,173,ok
+0259387AR,431315.1,4588574.36,91.56,Ligustrum lucidum,False,PRIMERA,Via Favència,7.54,27.0,5.86,3.53,0.295,2.44,458,ok
+0259402AR,431387.0,4588596.32,88.82,Ligustrum lucidum,False,SEGONA,Via Favència,6.63,36.8,6.84,3.77,0.314,2.32,609,ok
+0259418AR,431383.18,4588595.4,88.89,Ligustrum lucidum,False,TERCERA,Via Favència,6.86,30.8,6.26,4.22,0.241,2.85,482,ok
+0259436AR,431319.64,4588575.92,91.35,Ligustrum lucidum,False,SEGONA,Via Favència,7.95,83.8,10.33,3.9,0.255,2.73,1370,ok
+0259437AR,431349.99,4588586.32,90.19,Ligustrum lucidum,False,TERCERA,Via Favència,7.31,15.0,4.37,4.65,0.343,2.14,239,ok
+0259457AR,431310.43,4588573.05,91.74,Ligustrum lucidum,False,SEGONA,Via Favència,6.72,23.0,5.41,3.8,0.249,2.78,353,ok
+0259460AR,431402.66,4588600.19,87.8,Ligustrum lucidum,False,TERCERA,Via Favència,6.72,16.0,4.51,4.24,0.35,2.1,294,ok
+0259471AR,431358.37,4588588.77,89.43,Ligustrum lucidum,False,PRIMERA,Via Favència,6.04,27.0,5.86,4.03,0.401,1.83,504,ok
+0259483AR,431302.07,4588570.32,91.9,Ligustrum lucidum,False,SEGONA,Via Favència,7.01,34.5,6.63,3.49,0.249,2.78,531,ok
+0259491AR,431406.59,4588600.99,87.57,Ligustrum lucidum,False,SEGONA,Via Favència,7.83,14.0,4.22,3.52,0.274,2.59,252,ok
+0259503AR,431289.02,4588565.02,92.41,Ligustrum lucidum,False,SEGONA,Via Favència,7.34,39.5,7.09,3.9,0.256,2.72,628,ok
+0259515AR,431341.15,4588583.24,90.55,Ligustrum lucidum,False,SEGONA,Via Favència,8.45,36.5,6.82,5.28,0.274,2.59,603,ok
+0259530AR,431345.68,4588585.01,90.42,Ligustrum lucidum,False,TERCERA,Via Favència,7.89,37.0,6.86,4.21,0.222,3.01,627,ok
+0259546AR,431379.42,4588594.38,89.03,Ligustrum lucidum,False,SEGONA,Via Favència,7.11,23.5,5.47,3.97,0.334,2.19,401,ok
+0259553AR,431293.43,4588566.85,92.29,Ligustrum lucidum,False,PRIMERA,Via Favència,4.85,21.5,5.23,2.88,0.329,2.22,413,ok
+0259557AR,431394.74,4588598.25,88.34,Ligustrum lucidum,False,TERCERA,Via Favència,6.32,27.0,5.86,4.02,0.339,2.16,428,ok
+0259559AR,431398.68,4588599.16,88.05,Ligustrum lucidum,False,PRIMERA,Via Favència,7.54,33.2,6.51,3.71,0.259,2.7,603,ok
+0259563AR,431337.04,4588582.04,90.62,Ligustrum lucidum,False,PRIMERA,Via Favència,7.2,22.8,5.38,4.22,0.305,2.38,348,ok
+0259564AR,431306.04,4588571.63,91.88,Ligustrum lucidum,False,TERCERA,Via Favència,7.65,41.5,7.27,4.28,0.19,3.32,564,ok
+0259567AR,431375.67,4588593.28,89.11,Ligustrum lucidum,False,PRIMERA,Via Favència,4.85,24.0,5.53,2.25,0.415,1.76,470,ok
+0291640AR,431368.12,4588584.99,88.48,Ligustrum lucidum,False,SEGONA,Via Favència,4.73,17.5,4.72,2.24,0.341,2.15,308,ok
+0293278AR,431208.55,4588967.07,143.44,Citrus × aurantium,False,PRIMERA,C\ Briquets,3.73,18.5,4.85,2.67,0.314,2.32,496,ok
+0293301AR,431037.8,4588846.59,141.79,Hibiscus syriacus,False,PRIMERA,C\ Pla de Fornells,7.16,6.0,2.76,2.9,0.308,2.36,91,ok
+0293302AR,431040.53,4588848.59,141.63,Hibiscus syriacus,False,PRIMERA,C\ Pla de Fornells,5.2,7.2,3.04,2.79,0.347,2.12,101,ok
+0293304AR,430851.61,4588676.17,136.13,Celtis australis,False,TERCERA,C\ Torres,13.03,34.0,6.58,4.14,0.161,3.66,672,ok
+0293305AR,430889.4,4588677.57,134.51,Celtis australis,False,TERCERA,C\ Torres,9.09,42.5,7.36,4.85,0.165,3.6,600,ok
+0293318AR,431230.25,4588834.29,111.34,Acacia retinodes,False,SEGONA,C\ Nou Barris,6.56,28.0,5.97,3.61,0.281,2.54,388,ok
+0293748AR,431515.37,4589044.19,115.93,Celtis sinensis,False,SEGONA,Pg Bosc de Roquetes,6.24,67.5,9.27,4.3,0.469,1.51,3166,ok
+0306326AR,430872.0,4588575.0,125.46,Prunus cerasifera 'Pissardii',False,SEGONA,C\ Alcántara,6.57,21.2,5.2,1.85,0.14,3.93,329,ok
+0306327AR,430880.3,4588567.01,125.25,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Alcántara,12.75,16.0,4.51,5.83,0.191,3.31,283,ok
+0306328AR,430904.46,4588677.0,134.16,Melia azedarach,False,SEGONA,C\ Torres,4.76,8.0,3.19,3.78,0.456,1.57,147,ok
+0306329AR,430765.43,4588863.65,166.73,Quercus ilex,False,PRIMERA,C\ Turó de les Roquetes,4.81,18.8,4.89,2.21,0.233,2.91,322,ok
+0306330AR,430808.56,4588832.68,169.34,Quercus ilex,False,SEGONA,C\ Turó de les Roquetes,6.25,44.2,7.51,2.33,0.223,3.0,867,ok
+0306350AR,431197.21,4588921.02,130.25,Parrotia persica 'Vanessa',False,PRIMERA,C\ Cantera,13.32,1.2,1.26,6.45,0.176,3.47,34,no_crown_detected
+0306351AR,431298.05,4588954.03,140.24,Prunus cerasifera 'Pissardii',False,PRIMERA,C\ Cantera,1.33,0.2,0.56,10.91,0.667,0.81,3,no_crown_detected
+0306354AR,430945.82,4588691.48,133.68,Melia azedarach,False,PRIMERA,C\ Mina de la Ciutat,0.37,3.5,2.11,5.7,0.493,1.42,69,low_tree
+0306355AR,431062.3,4588788.52,127.35,Melia azedarach,False,EXEMPLAR,C\ Mina de la Ciutat,12.61,54.5,8.33,6.46,0.268,2.64,1259,ok
+0306356AR,431202.0,4588890.15,125.42,Melia azedarach,False,SEGONA,C\ Mina de la Ciutat,7.85,33.2,6.51,4.22,0.349,2.11,668,ok
+0306357AR,431058.79,4588629.82,110.58,Citrus × aurantium,False,PRIMERA,C\ Romaní,4.81,10.8,3.7,3.02,0.407,1.8,167,ok
+0306430AR,431394.8,4588833.57,99.38,Eucalyptus camaldulensis,False,TERCERA,C\ Nou Barris,16.87,39.2,7.07,6.07,0.243,2.83,1329,ok
+0307781AR,430899.49,4588646.72,131.38,Malus PERPETU® 'Evereste',False,SEGONA,C\ Alcántara,4.79,3.5,2.11,2.85,0.395,1.86,43,few_points
+0307782AR,430900.0,4588637.0,130.23,Malus PERPETU® 'Evereste',False,PRIMERA,C\ Alcántara,0.0,1.2,1.26,6.22,0.286,2.51,14,no_crown_detected
+0307783AR,430899.0,4588630.0,129.32,Malus PERPETU® 'Evereste',False,PRIMERA,C\ Alcántara,3.32,3.5,2.11,2.68,0.486,1.44,70,ok
+0307784AR,430897.0,4588618.0,127.78,Malus PERPETU® 'Evereste',False,PRIMERA,C\ Alcántara,3.48,2.8,1.87,2.46,0.56,1.16,50,ok
+0309544AR,431302.0,4588895.73,126.68,Pinus pinea,False,EXEMPLAR,Pg Bosc de Roquetes,7.68,131.5,12.94,4.2,0.294,2.45,2477,ok
+0313614AR,431474.21,4588802.42,89.76,Ginkgo biloba,False,PRIMERA,C\ Nou Barris,6.67,10.2,3.61,3.25,0.457,1.57,221,ok
+0313615AR,431467.1,4588805.6,90.52,Ginkgo biloba,False,SEGONA,C\ Nou Barris,6.15,35.2,6.7,3.14,0.229,2.94,706,ok
+0313616AR,431459.04,4588806.45,91.15,Ginkgo biloba,False,PRIMERA,C\ Nou Barris,5.88,22.8,5.38,2.73,0.228,2.96,399,ok
+0313617AR,431451.19,4588807.83,91.99,Ginkgo biloba,False,PRIMERA,C\ Nou Barris,4.9,7.8,3.14,2.19,0.51,1.35,145,ok
+0313618AR,431442.49,4588809.95,92.98,Ginkgo biloba,False,PRIMERA,C\ Nou Barris,5.13,11.0,3.74,2.14,0.296,2.44,213,ok
+0313619AR,431435.67,4588811.6,93.89,Ginkgo biloba,False,PRIMERA,C\ Nou Barris,4.89,2.0,1.6,2.59,0.2,3.22,50,ok
+0313620AR,431427.96,4588813.45,94.82,Ginkgo biloba,False,PRIMERA,C\ Nou Barris,4.98,5.2,2.59,2.0,0.273,2.6,110,ok
+0313621AR,431420.26,4588815.45,95.83,Ginkgo biloba,False,PRIMERA,C\ Nou Barris,5.79,3.2,2.03,2.74,0.4,1.83,80,ok
+0314117AR,431489.23,4588777.0,86.69,Jacaranda mimosifolia,False,SEGONA,C\ Nou Barris,6.1,7.5,3.09,3.65,0.344,2.13,125,ok
+0314156AR,431496.7,4588767.77,85.42,Jacaranda mimosifolia,False,SEGONA,C\ Nou Barris,7.18,61.5,8.85,3.32,0.207,3.15,1266,ok
+0314170AR,431486.07,4588781.21,87.31,Jacaranda mimosifolia,False,SEGONA,C\ Nou Barris,7.73,43.0,7.4,3.72,0.193,3.29,734,ok
+0314184AR,431507.24,4588749.06,83.11,Jacaranda mimosifolia,False,SEGONA,C\ Nou Barris,7.71,29.2,6.1,4.27,0.275,2.58,535,ok
+0314185AR,431500.04,4588762.42,84.46,Jacaranda mimosifolia,False,PRIMERA,C\ Nou Barris,8.31,111.2,11.9,4.96,0.236,2.89,2243,ok
+0314186AR,431482.12,4588789.21,88.26,Jacaranda mimosifolia,False,SEGONA,C\ Nou Barris,8.21,72.0,9.57,3.74,0.194,3.28,1329,ok
+0314195AR,431514.46,4588737.17,81.68,Jacaranda mimosifolia,False,SEGONA,C\ Nou Barris,6.62,34.2,6.6,3.96,0.203,3.19,478,ok
+0315664AR,430890.92,4588686.54,137.3,Citrus × aurantium,False,PRIMERA,C\ Alcántara,,0.0,0.0,,,,0,no_crown_detected
+0318834AR,431269.64,4588806.79,103.15,Handroanthus heptaphyllus,False,PRIMERA,C\ Pla dels Cirerers,,0.0,0.0,,,,0,no_crown_detected
+0329582AR,431077.15,4588784.61,126.27,Cercis siliquastrum,False,SEGONA,C\ Mina de la Ciutat,5.18,2.8,1.87,2.87,0.214,3.08,42,few_points
+0329655AR,431243.19,4588752.16,105.36,Ligustrum lucidum,False,PRIMERA,C\ Llopis,,0.0,0.0,,,,0,no_crown_detected
+0329656AR,431234.2,4588711.16,104.69,Ligustrum lucidum,False,SEGONA,C\ Llopis,,0.0,0.0,,,,0,no_crown_detected
+0329657AR,431235.73,4588717.96,105.04,Ligustrum lucidum,False,PRIMERA,C\ Llopis,,0.0,0.0,,,,0,no_crown_detected
+0329658AR,431237.11,4588724.86,105.34,Ligustrum lucidum,False,PRIMERA,C\ Llopis,,0.0,0.0,,,,0,no_crown_detected
+0329659AR,431238.61,4588731.66,105.55,Ligustrum lucidum,False,PRIMERA,C\ Llopis,,0.0,0.0,,,,0,no_crown_detected
+0329660AR,431240.1,4588738.86,105.77,Ligustrum lucidum,False,PRIMERA,C\ Llopis,,0.0,0.0,,,,0,no_crown_detected
+0329661AR,431241.62,4588745.47,105.62,Ligustrum lucidum,False,PRIMERA,C\ Llopis,,0.0,0.0,,,,0,no_crown_detected
+0329662AR,431244.56,4588759.06,104.89,Ligustrum lucidum,False,PRIMERA,C\ Llopis,,0.0,0.0,,,,0,no_crown_detected
+0329663AR,431257.76,4588779.57,103.07,Ligustrum lucidum,False,PRIMERA,C\ Llopis,,0.0,0.0,,,,0,no_crown_detected
+0329664AR,431276.31,4588802.52,102.01,Ligustrum lucidum,False,PRIMERA,C\ Pla dels Cirerers,,0.0,0.0,,,,0,no_crown_detected
+0329665AR,431344.78,4588782.4,93.39,Ligustrum lucidum,False,PRIMERA,C\ Pla dels Cirerers,,0.0,0.0,,,,0,no_crown_detected
+0329666AR,431349.98,4588780.5,92.78,Ligustrum lucidum,False,PRIMERA,C\ Pla dels Cirerers,,0.0,0.0,,,,0,no_crown_detected
+0329667AR,431282.05,4588802.85,101.45,Ligustrum lucidum,False,PRIMERA,C\ Pla dels Cirerers,,0.0,0.0,,,,0,no_crown_detected
+0329668AR,431289.76,4588801.98,100.79,Ligustrum lucidum,False,PRIMERA,C\ Pla dels Cirerers,,0.0,0.0,,,,0,no_crown_detected
+0329669AR,431250.47,4588765.27,104.07,Ligustrum lucidum,False,PRIMERA,C\ Llopis,,0.0,0.0,,,,0,no_crown_detected
+0329670AR,431251.84,4588771.39,103.58,Ligustrum lucidum,False,PRIMERA,C\ Llopis,,0.0,0.0,,,,0,no_crown_detected
+0332790AR,430933.84,4588697.8,134.18,Melia azedarach,False,SEGONA,C\ Mina de la Ciutat,4.79,11.8,3.87,4.08,0.399,1.84,223,ok
+0332792AR,431154.59,4588839.81,124.34,Melia azedarach,False,SEGONA,C\ Mina de la Ciutat,4.97,12.5,3.99,2.09,0.169,3.56,166,ok
+0332795AR,430954.3,4588689.12,133.31,Taxus baccata,False,PRIMERA,C\ Torres,1.76,8.5,3.29,6.46,0.209,3.13,177,low_tree
+0337513AR,430965.78,4588439.9,110.34,Acer monspessulanum,False,PRIMERA,Via Favència,2.98,8.5,3.29,1.83,0.331,2.21,151,low_tree
+0337518AR,431424.49,4588771.45,86.17,Prunus domestica,False,PRIMERA,Pl Les Dones de Nou Barris,,0.0,0.0,,,,0,no_crown_detected
+0347361AR,430749.38,4588483.88,123.2,Hibiscus syriacus,False,PRIMERA,C\ Artesania,3.95,4.5,2.39,3.05,0.424,1.72,92,ok

@@ -1,0 +1,215 @@
+tree_id,species,is_plane,street,width_m,facade_dist_m,flag,strip_width_m,size_class,ray_x0,ray_y0,ray_x1,ray_y1,pit_min_m2,pit_basis
+0049519AR,Celtis australis,False,T Tapioles,29.38,17.2,ok,,large,431772.98,4590520.38,431798.64,4590506.07,1.5,class
+0049520AR,Tilia x europaea,False,Av Sivatte,,77.87,no_facade,2.24,check,,,,,1.0,floor
+0049522AR,Tilia x europaea,False,Av Sivatte,,41.7,no_facade,2.22,check,,,,,1.0,floor
+0049523AR,Celtis australis,False,C\ Oristà,3.68,2.95,ok,,medium,431914.26,4590528.13,431916.86,4590525.54,1.0,class
+0049524AR,Celtis australis,False,C\ Oristà,3.21,2.44,ok,,small,431922.56,4590535.35,431925.14,4590533.44,1.0,class
+0049525AR,Celtis australis,False,T Tapioles,6.44,5.52,ok,,large,431792.68,4590531.43,431789.16,4590526.04,1.5,class
+0049526AR,Celtis australis,False,C\ Oristà,2.8,1.95,ok,,small,431911.43,4590523.94,431913.17,4590521.74,1.0,class
+0049527AR,Casuarina cunninghamiana,False,C\ Pierola,29.42,9.08,ok,,large,431835.77,4590450.58,431852.72,4590474.63,1.5,class
+0049528AR,Tilia x europaea,False,Av Sivatte,,12.89,median,2.12,check,,,,,1.0,floor
+0049529AR,Ligustrum lucidum,False,C\ Castelladral,,4.29,no_kerb,,check,,,,,1.0,floor
+0049530AR,Tilia x europaea,False,Av Alzinar,,14.67,median,11.36,check,,,,,1.0,floor
+0049531AR,Robinia pseudoacacia,False,Pl Primer de Maig,,15.9,median,11.03,check,,,,,1.0,floor
+0049532AR,Cercis siliquastrum,False,C\ Pujalt,3.67,2.88,ok,,medium,431725.01,4590447.88,431728.07,4590445.84,1.0,class
+0049533AR,Robinia pseudoacacia,False,Pl Primer de Maig,24.79,16.84,ok,,large,432060.72,4590776.37,432069.96,4590799.38,1.5,class
+0049534AR,Catalpa bignonioides,False,T Tapioles,7.17,4.57,ok,,large,431772.98,4590520.38,431780.09,4590519.42,1.5,class
+0049535AR,Celtis australis,False,T Tapioles,,14.28,median,,check,,,,,1.0,floor
+0049536AR,Tilia x europaea,False,Av Alzinar,,21.77,median,14.01,check,,,,,1.0,floor
+0049537AR,Tilia x europaea,False,Av Sivatte,,7.02,median,6.72,check,,,,,1.0,floor
+0049538AR,Tilia x europaea,False,Av Sivatte,,16.6,median,2.2,check,,,,,1.0,floor
+0049539AR,Populus alba,False,C\ Oristà,7.34,6.11,ok,,large,431990.48,4590755.39,431997.11,4590758.52,1.5,class
+0049540AR,Melia azedarach,False,Pl Primer de Maig,2.71,0.64,ok,,small,432062.73,4590775.42,432063.89,4590777.87,1.0,class
+0049541AR,Celtis australis,False,T Tapioles,3.0,1.79,ok,,small,431751.33,4590535.02,431752.99,4590537.52,1.0,class
+0049542AR,Celtis australis,False,T Tapioles,4.08,2.79,ok,,medium,431722.65,4590554.04,431722.2,4590558.1,1.0,class
+0049543AR,Celtis australis,False,C\ Oristà,6.24,5.14,ok,,large,431880.9,4590507.69,431883.45,4590502.0,1.5,class
+0049544AR,Tilia x europaea,False,Av Sivatte,,47.37,no_facade,2.23,check,,,,,1.0,floor
+0049545AR,Celtis australis,False,T Tapioles,6.75,5.69,ok,,large,431747.88,4590561.53,431744.13,4590555.92,1.5,class
+0049548AR,Brachychiton acerifolius,False,C\ Oristà,,10.47,median,7.21,check,,,,,1.0,floor
+0049551AR,Casuarina cunninghamiana,False,C\ Pierola,29.66,5.38,ok,,large,431842.57,4590445.78,431859.66,4590470.03,1.5,class
+0049552AR,Cercis siliquastrum,False,C\ Pujalt,5.18,4.04,ok,,medium,431755.82,4590472.15,431751.5,4590475.01,1.0,class
+0049553AR,Populus alba,False,C\ Oristà,10.58,9.3,ok,,large,431983.53,4590775.82,431993.96,4590777.64,1.5,class
+0049554AR,Celtis australis,False,C\ Oristà,6.61,5.81,ok,,large,431861.31,4590504.71,431861.24,4590498.1,1.5,class
+0049556AR,Populus nigra,False,C\ Pierola,29.48,11.62,ok,,large,431837.3,4590449.5,431854.29,4590473.59,1.5,class
+0049557AR,Celtis australis,False,T Tapioles,6.21,5.76,ok,,large,431817.74,4590516.07,431814.79,4590510.61,1.5,class
+0049559AR,Melia azedarach,False,Pl Primer de Maig,,19.12,median,27.06,check,,,,,1.0,floor
+0049564AR,Cercis siliquastrum,False,C\ Pujalt,5.16,4.24,ok,,medium,431750.21,4590463.63,431745.89,4590466.46,1.0,class
+0049565AR,Melia azedarach,False,Pl Primer de Maig,,14.56,median,26.88,check,,,,,1.0,floor
+0049566AR,Cercis siliquastrum,False,C\ Pujalt,,2.8,median,3.55,check,,,,,1.0,floor
+0049567AR,Cercis siliquastrum,False,C\ Pujalt,4.49,3.59,ok,,medium,431727.15,4590430.09,431722.95,4590431.67,1.0,class
+0049568AR,Tilia x europaea,False,Av Sivatte,,29.93,median,2.23,check,,,,,1.0,floor
+0049569AR,Ligustrum lucidum,False,C\ Orpí,5.94,4.94,ok,,medium,431791.41,4590391.79,431788.14,4590386.83,1.0,class
+0049571AR,Celtis australis,False,C\ Oristà,7.32,6.02,ok,,large,431890.41,4590511.02,431888.78,4590503.89,1.5,class
+0049573AR,Tilia x europaea,False,Av Sivatte,,59.12,no_facade,2.23,check,,,,,1.0,floor
+0049574AR,Celtis australis,False,C\ Oristà,,18.41,median,27.27,check,,,,,1.0,floor
+0049576AR,Tilia x europaea,False,Av Sivatte,,24.58,median,2.25,check,,,,,1.0,floor
+0049577AR,Robinia pseudoacacia,False,Pl Primer de Maig,,12.71,median,,check,,,,,1.0,floor
+0049578AR,Celtis australis,False,C\ Oristà,6.6,5.65,ok,,large,431876.85,4590506.81,431878.25,4590500.36,1.5,class
+0049579AR,Celtis australis,False,T Tapioles,,12.35,no_kerb,21.46,check,,,,,1.0,floor
+0049580AR,Celtis australis,False,T Tapioles,6.13,5.29,ok,,large,431833.25,4590508.38,431830.78,4590502.77,1.5,class
+0049581AR,Melia azedarach,False,Pl Primer de Maig,,6.2,median,26.46,check,,,,,1.0,floor
+0049582AR,Tilia x europaea,False,Av Sivatte,,7.04,median,6.83,check,,,,,1.0,floor
+0049583AR,Melia azedarach,False,Pl Primer de Maig,,12.46,median,24.29,check,,,,,1.0,floor
+0049584AR,Celtis australis,False,T Tapioles,,21.03,no_kerb,,check,,,,,1.0,floor
+0049585AR,Casuarina cunninghamiana,False,C\ Pierola,24.81,22.11,ok,,large,431849.18,4590441.12,431863.48,4590461.4,1.5,class
+0049586AR,Melia azedarach,False,Pl Primer de Maig,,4.7,median,,check,,,,,1.0,floor
+0049587AR,Celtis australis,False,T Tapioles,6.14,5.2,ok,,large,431827.22,4590511.04,431824.74,4590505.43,1.5,class
+0049588AR,Tilia platyphyllos,False,Av Sivatte,,7.0,median,7.01,check,,,,,1.0,floor
+0049590AR,Celtis australis,False,C\ Oristà,,14.27,median,11.04,check,,,,,1.0,floor
+0049591AR,Melia azedarach,False,Pl Primer de Maig,4.2,2.96,ok,,medium,432068.31,4590769.23,432072.13,4590767.49,1.0,class
+0049592AR,Celtis australis,False,T Tapioles,,11.51,no_kerb,,check,,,,,1.0,floor
+0049593AR,Celtis australis,False,C\ Oristà,6.8,5.81,ok,,large,431872.46,4590505.85,431872.18,4590499.06,1.5,class
+0049595AR,Tilia x europaea,False,Av Sivatte,,8.08,median,2.0,check,,,,,1.0,floor
+0049596AR,Ligustrum lucidum,False,C\ Orpí,5.58,4.59,ok,,medium,431834.02,4590365.74,431830.91,4590361.1,1.0,class
+0049599AR,Celtis australis,False,C\ Oristà,,13.07,median,14.05,check,,,,,1.0,floor
+0049600AR,Ligustrum lucidum,False,C\ Orpí,5.2,4.35,ok,,medium,431812.8,4590377.85,431810.16,4590373.37,1.0,class
+0049602AR,Brachychiton acerifolius,False,C\ Oristà,,9.27,median,7.06,check,,,,,1.0,floor
+0049603AR,Tilia x europaea,False,Av Sivatte,,71.41,no_facade,2.21,check,,,,,1.0,floor
+0049604AR,Melia azedarach,False,Pl Primer de Maig,,15.54,median,27.62,check,,,,,1.0,floor
+0049605AR,Celtis australis,False,T Tapioles,,5.28,no_kerb,,check,,,,,1.0,floor
+0049606AR,Populus alba,False,C\ Oristà,9.01,7.76,ok,,large,431987.98,4590760.69,431996.12,4590764.53,1.5,class
+0049608AR,Tilia x europaea,False,Av Sivatte,,90.57,no_facade,2.29,check,,,,,1.0,floor
+0049609AR,Populus nigra 'Italica',False,C\ Oristà,,18.92,median,7.97,check,,,,,1.0,floor
+0049610AR,Melia azedarach,False,Pl Primer de Maig,,18.11,median,26.94,check,,,,,1.0,floor
+0049611AR,Celtis australis,False,T Tapioles,11.82,10.41,ok,,large,431751.08,4590559.4,431755.42,4590548.4,1.5,class
+0049612AR,Melia azedarach,False,Pl Primer de Maig,,9.97,median,,check,,,,,1.0,floor
+0049615AR,Celtis australis,False,T Tapioles,15.88,13.95,ok,,large,431788.28,4590534.3,431772.62,4590536.91,1.5,class
+0049619AR,Celtis australis,False,C\ Oristà,8.1,7.06,ok,,large,431862.3,4590504.7,431867.44,4590498.44,1.5,class
+0049620AR,Ligustrum lucidum,False,C\ Orpí,5.08,4.07,ok,,medium,431823.77,4590370.83,431819.83,4590367.62,1.0,class
+0049621AR,Celtis australis,False,C\ Oristà,5.37,4.14,ok,,medium,431898.23,4590514.71,431900.63,4590509.91,1.0,class
+0049622AR,Celtis australis,False,T Tapioles,,8.64,no_kerb,37.96,check,,,,,1.0,floor
+0049623AR,Celtis australis,False,T Tapioles,,15.68,no_kerb,21.43,check,,,,,1.0,floor
+0049624AR,Celtis australis,False,T Tapioles,6.8,5.66,ok,,large,431743.14,4590564.7,431739.36,4590559.04,1.5,class
+0049625AR,Melia azedarach,False,Pl Primer de Maig,,4.59,median,,check,,,,,1.0,floor
+0049626AR,Melia azedarach,False,Pl Primer de Maig,,6.02,median,,check,,,,,1.0,floor
+0049627AR,Melia azedarach,False,Pl Primer de Maig,,16.93,median,24.26,check,,,,,1.0,floor
+0049628AR,Celtis australis,False,T Tapioles,,20.6,no_kerb,25.22,check,,,,,1.0,floor
+0049632AR,Celtis australis,False,C\ Oristà,6.81,5.92,ok,,large,431843.8,4590505.98,431844.41,4590499.2,1.5,class
+0049633AR,Tilia x europaea,False,Av Alzinar,,15.15,median,12.04,check,,,,,1.0,floor
+0049634AR,Platanus × acerifolia,True,C\ Castelladral,17.84,7.86,ok,,large,432019.1,4590621.37,432023.41,4590638.68,1.5,class
+0049635AR,Celtis australis,False,T Tapioles,6.31,5.44,ok,,large,431812.6,4590519.06,431809.39,4590513.62,1.5,class
+0049636AR,Tilia x europaea,False,Av Sivatte,,6.91,median,6.65,check,,,,,1.0,floor
+0049637AR,Celtis australis,False,C\ Oristà,,14.76,median,9.64,check,,,,,1.0,floor
+0049638AR,Celtis australis,False,T Tapioles,,5.96,no_kerb,21.48,check,,,,,1.0,floor
+0049640AR,Populus alba 'Pyramidalis',False,C\ Oristà,10.64,9.36,ok,,large,431982.34,4590782.66,431992.82,4590784.49,1.5,class
+0049641AR,Celtis australis,False,C\ Oristà,3.29,2.42,ok,,small,431907.13,4590520.55,431909.17,4590517.96,1.0,class
+0049642AR,Celtis australis,False,C\ Oristà,,16.67,median,7.67,check,,,,,1.0,floor
+0049643AR,Celtis australis,False,C\ Oristà,3.91,3.14,ok,,medium,431926.26,4590539.92,431929.36,4590537.54,1.0,class
+0049646AR,Celtis australis,False,T Tapioles,,9.41,no_kerb,21.48,check,,,,,1.0,floor
+0049647AR,Elaeagnus angustifolia,False,C\ Orpí,4.49,3.35,ok,,medium,431827.73,4590368.17,431825.23,4590364.45,1.0,class
+0049648AR,Melia azedarach,False,Pl Primer de Maig,,10.96,median,,check,,,,,1.0,floor
+0049650AR,Celtis australis,False,T Tapioles,,17.51,no_kerb,,check,,,,,1.0,floor
+0049651AR,Celtis australis,False,C\ Oristà,6.91,5.8,ok,,large,431835.72,4590507.3,431837.63,4590500.66,1.5,class
+0049652AR,Celtis australis,False,C\ Oristà,,12.77,median,13.37,check,,,,,1.0,floor
+0049653AR,Celtis australis,False,T Tapioles,6.33,5.41,ok,,large,431807.84,4590521.87,431804.63,4590516.42,1.5,class
+0049655AR,Melia azedarach,False,Pl Primer de Maig,,18.77,median,29.8,check,,,,,1.0,floor
+0049656AR,Melia azedarach,False,Pl Primer de Maig,,10.09,median,26.86,check,,,,,1.0,floor
+0049657AR,Robinia pseudoacacia,False,Pl Primer de Maig,,13.63,median,,check,,,,,1.0,floor
+0049658AR,Ligustrum lucidum,False,C\ Castelladral,25.21,5.31,ok,,large,432037.04,4590623.56,432017.85,4590639.91,1.5,class
+0049660AR,Ligustrum lucidum,False,C\ Orpí,8.67,7.36,ok,,large,431783.95,4590398.26,431776.26,4590394.28,1.5,class
+0049661AR,Tilia x europaea,False,Av Alzinar,,11.99,no_kerb,20.69,check,,,,,1.0,floor
+0049664AR,Robinia pseudoacacia,False,Pl Primer de Maig,,8.02,median,21.81,check,,,,,1.0,floor
+0049665AR,Celtis australis,False,T Tapioles,6.91,5.8,ok,,large,431733.43,4590571.18,431729.6,4590565.43,1.5,class
+0049667AR,Populus alba,False,C\ Oristà,5.48,4.56,ok,,medium,431993.25,4590749.51,431998.21,4590751.85,1.0,class
+0049668AR,Tilia x europaea,False,Av Sivatte,,14.61,median,2.17,check,,,,,1.0,floor
+0049669AR,Populus nigra 'Italica',False,C\ Pierola,29.66,9.94,ok,,large,431842.57,4590445.78,431859.66,4590470.03,1.5,class
+0049670AR,Melia azedarach,False,Pl Primer de Maig,,8.57,median,,check,,,,,1.0,floor
+0049672AR,Elaeagnus angustifolia,False,C\ Orpí,7.4,6.1,ok,,large,431788.9,4590393.45,431782.07,4590390.59,1.5,class
+0049673AR,Melia azedarach,False,Pl Primer de Maig,4.27,2.73,ok,,medium,432065.52,4590763.13,432069.41,4590761.36,1.0,class
+0049674AR,Robinia pseudoacacia,False,Pl Primer de Maig,19.1,11.12,ok,,large,432060.72,4590776.37,432066.35,4590794.63,1.5,class
+0049675AR,Celtis australis,False,C\ Oristà,5.7,4.76,ok,,medium,431901.27,4590518.08,431904.33,4590513.27,1.0,class
+0049677AR,Melia azedarach,False,Pl Primer de Maig,,29.54,median,11.35,check,,,,,1.0,floor
+0049678AR,Populus alba 'Pyramidalis',False,C\ Pierola,29.7,25.01,ok,,large,431843.67,4590445.01,431860.78,4590469.28,1.5,class
+0049679AR,Melia azedarach,False,Pl Primer de Maig,2.71,0.97,ok,,small,432067.59,4590773.12,432068.74,4590775.57,1.0,class
+0049680AR,Celtis australis,False,T Tapioles,6.47,5.17,ok,,large,431788.28,4590534.3,431784.73,4590528.89,1.5,class
+0049681AR,Ligustrum lucidum,False,C\ Orpí,5.53,4.46,ok,,medium,431807.2,4590381.61,431804.11,4590377.02,1.0,class
+0049682AR,Celtis australis,False,T Tapioles,6.85,5.6,ok,,large,431738.52,4590567.78,431734.72,4590562.08,1.5,class
+0049683AR,Celtis australis,False,C\ Oristà,6.15,5.21,ok,,large,431893.24,4590512.36,431895.86,4590506.79,1.5,class
+0049684AR,Tilia x europaea,False,Av Alzinar,,17.08,median,12.63,check,,,,,1.0,floor
+0049685AR,Celtis australis,False,T Tapioles,,19.59,median,,check,,,,,1.0,floor
+0049687AR,Celtis australis,False,T Tapioles,7.03,5.89,ok,,large,431728.53,4590574.45,431724.62,4590568.6,1.5,class
+0049688AR,Celtis australis,False,T Tapioles,6.4,5.52,ok,,large,431797.47,4590528.3,431793.97,4590522.95,1.5,class
+0049689AR,Tilia x europaea,False,Av Sivatte,,83.57,no_facade,2.27,check,,,,,1.0,floor
+0049690AR,Celtis australis,False,C\ Oristà,,13.35,median,11.76,check,,,,,1.0,floor
+0049691AR,Melia azedarach,False,Pl Primer de Maig,,10.08,median,33.96,check,,,,,1.0,floor
+0049692AR,Celtis australis,False,T Tapioles,,2.78,no_kerb,21.49,check,,,,,1.0,floor
+0049693AR,Populus alba,False,C\ Oristà,10.73,9.21,ok,,large,431981.13,4590789.63,431991.7,4590791.47,1.5,class
+0049694AR,Celtis australis,False,T Tapioles,3.11,1.95,ok,,small,431771.87,4590521.16,431773.65,4590523.71,1.0,class
+0049696AR,Elaeagnus angustifolia,False,C\ Orpí,6.31,5.17,ok,,large,431818.78,4590375.55,431815.26,4590370.31,1.5,class
+0049698AR,Melia azedarach,False,Pl Primer de Maig,,10.49,median,,check,,,,,1.0,floor
+0049699AR,Melia azedarach,False,Pl Primer de Maig,,6.03,median,26.91,check,,,,,1.0,floor
+0049700AR,Casuarina cunninghamiana,False,C\ Pierola,29.66,13.87,ok,,large,431842.58,4590445.78,431859.67,4590470.02,1.5,class
+0049701AR,Celtis australis,False,T Tapioles,,5.76,no_kerb,37.92,check,,,,,1.0,floor
+0049702AR,Celtis australis,False,T Tapioles,18.5,10.34,ok,,large,431772.98,4590520.38,431789.91,4590512.94,1.5,class
+0049703AR,Celtis australis,False,T Tapioles,,15.13,no_kerb,21.44,check,,,,,1.0,floor
+0049704AR,Celtis australis,False,T Tapioles,3.08,2.15,ok,,small,431732.45,4590547.55,431734.15,4590550.11,1.0,class
+0049705AR,Tilia x europaea,False,Av Sivatte,,35.49,no_facade,2.21,check,,,,,1.0,floor
+0049706AR,Tilia x europaea,False,Av Sivatte,,65.12,no_facade,2.22,check,,,,,1.0,floor
+0049708AR,Celtis australis,False,T Tapioles,7.03,5.76,ok,,large,431751.08,4590559.4,431749.02,4590552.68,1.5,class
+0049709AR,Celtis australis,False,T Tapioles,3.04,1.84,ok,,small,431741.64,4590541.44,431743.31,4590543.99,1.0,class
+0049710AR,Populus x canadensis,False,C\ Pierola,24.92,15.79,ok,,large,431854.9,4590437.09,431869.26,4590457.46,1.5,class
+0049713AR,Celtis australis,False,C\ Oristà,3.19,2.4,ok,,small,431920.49,4590532.56,431920.77,4590529.38,1.0,class
+0049714AR,Melia azedarach,False,Pl Primer de Maig,,7.08,median,,check,,,,,1.0,floor
+0049715AR,Celtis australis,False,T Tapioles,10.1,8.4,ok,,large,431788.28,4590534.3,431778.24,4590533.18,1.5,class
+0049716AR,Celtis australis,False,T Tapioles,,9.09,no_kerb,21.48,check,,,,,1.0,floor
+0049718AR,Celtis australis,False,T Tapioles,6.21,5.22,ok,,large,431822.95,4590513.26,431820.0,4590507.79,1.5,class
+0049719AR,Melia azedarach,False,Pl Primer de Maig,,24.01,median,24.13,check,,,,,1.0,floor
+0049721AR,Cercis siliquastrum,False,C\ Pujalt,,9.61,median,,check,,,,,1.0,floor
+0049723AR,Tilia x europaea,False,Av Alzinar,,17.06,no_kerb,14.59,check,,,,,1.0,floor
+0049724AR,Melia azedarach,False,Pl Primer de Maig,4.26,2.9,ok,,medium,432062.36,4590756.21,432066.23,4590754.44,1.0,class
+0049725AR,Tilia x europaea,False,Av Sivatte,,53.74,no_facade,2.25,check,,,,,1.0,floor
+0049726AR,Robinia pseudoacacia,False,Pl Primer de Maig,4.2,3.58,ok,,medium,432059.75,4590750.49,432063.57,4590748.74,1.0,class
+0049727AR,Celtis australis,False,C\ Oristà,,12.92,median,12.67,check,,,,,1.0,floor
+0049729AR,Populus nigra,False,C\ Oristà,,21.72,median,13.28,check,,,,,1.0,floor
+0049730AR,Casuarina cunninghamiana,False,C\ Pierola,29.67,22.51,ok,,large,431842.71,4590445.69,431859.81,4590469.93,1.5,class
+0049731AR,Populus alba 'Pyramidalis',False,C\ Oristà,10.52,9.29,ok,,large,431984.73,4590768.95,431995.1,4590770.76,1.5,class
+0049732AR,Melia azedarach,False,Pl Primer de Maig,4.08,3.1,ok,,medium,432054.18,4590738.29,432057.89,4590736.59,1.0,class
+0049733AR,Celtis australis,False,C\ Oristà,,20.79,median,17.07,check,,,,,1.0,floor
+0049734AR,Robinia pseudoacacia,False,Pg Pineda,7.72,4.76,ok,,large,431918.01,4590840.68,431914.75,4590847.68,1.5,class
+0049735AR,Populus nigra 'Italica',False,C\ Pierola,24.84,17.93,ok,,large,431850.43,4590440.24,431864.74,4590460.54,1.5,class
+0049736AR,Melia azedarach,False,Pl Primer de Maig,,8.23,median,27.01,check,,,,,1.0,floor
+0049737AR,Grevillea robusta,False,C\ Pierola,,28.78,median,5.06,check,,,,,1.0,floor
+0049738AR,Celtis australis,False,T Tapioles,6.3,5.27,ok,,large,431802.46,4590525.05,431799.26,4590519.63,1.5,class
+0049741AR,Melia azedarach,False,Pl Primer de Maig,,11.3,median,30.85,check,,,,,1.0,floor
+0049743AR,Tilia x europaea,False,Av Sivatte,,89.91,no_facade,2.25,check,,,,,1.0,floor
+0049745AR,Cercis siliquastrum,False,C\ Pujalt,5.18,4.1,ok,,medium,431745.58,4590456.59,431741.25,4590459.43,1.0,class
+0049746AR,Celtis australis,False,T Tapioles,3.03,2.59,ok,,small,431757.14,4590531.09,431758.82,4590533.62,1.0,class
+0049747AR,Celtis australis,False,T Tapioles,,14.34,median,,check,,,,,1.0,floor
+0049748AR,Celtis australis,False,T Tapioles,,17.6,no_kerb,21.41,check,,,,,1.0,floor
+0049750AR,Platanus × acerifolia,True,C\ Castelladral,,7.61,no_kerb,39.92,check,,,,,1.0,floor
+0049751AR,Casuarina cunninghamiana,False,Av Alzinar,24.13,12.52,ok,,large,431818.54,4590462.73,431832.06,4590482.71,1.5,class
+0049752AR,Melia azedarach,False,Pl Primer de Maig,,5.21,median,1.66,check,,,,,1.0,floor
+0049753AR,Tilia americana,False,Av Sivatte,,12.48,median,2.06,check,,,,,1.0,floor
+0049755AR,Cercis siliquastrum,False,C\ Pujalt,5.21,3.86,ok,,medium,431761.12,4590480.14,431756.77,4590483.02,1.0,class
+0049757AR,Celtis australis,False,C\ Oristà,7.61,6.24,ok,,large,431853.88,4590504.78,431849.5,4590498.56,1.5,class
+0049758AR,Melia azedarach,False,Pl Primer de Maig,,17.11,median,,check,,,,,1.0,floor
+0049759AR,Casuarina cunninghamiana,False,C\ Pierola,29.56,7.54,ok,,large,431839.66,4590447.84,431856.69,4590472.0,1.5,class
+0049760AR,Ligustrum lucidum,False,C\ Orpí,6.89,5.97,ok,,large,431802.15,4590386.26,431798.4,4590380.47,1.5,class
+0049761AR,Celtis australis,False,T Tapioles,7.51,6.28,ok,,large,431723.45,4590577.84,431719.28,4590571.6,1.5,class
+0049763AR,Celtis australis,False,C\ Oristà,6.64,5.87,ok,,large,431855.49,4590504.77,431855.42,4590498.13,1.5,class
+0049764AR,Tilia x europaea,False,Av Alzinar,,20.73,median,13.31,check,,,,,1.0,floor
+0049765AR,Populus alba 'Pyramidalis',False,C\ Oristà,,6.96,median,10.68,check,,,,,1.0,floor
+0049767AR,Ligustrum lucidum,False,C\ Orpí,6.02,5.06,ok,,large,431795.38,4590389.18,431793.68,4590383.4,1.5,class
+0049768AR,Melia azedarach,False,Av Alzinar,9.63,4.74,ok,,large,431793.02,4590412.01,431794.38,4590421.54,1.5,class
+0049769AR,Celtis australis,False,T Tapioles,,14.19,median,22.16,check,,,,,1.0,floor
+0261170AR,Populus alba 'Pyramidalis',False,C\ Castelladral,,13.7,median,13.19,check,,,,,1.0,floor
+0261172AR,Populus nigra 'Italica',False,C\ Pierola,29.39,25.24,ok,,large,431834.87,4590451.21,431851.81,4590475.23,1.5,class
+0261208AR,Populus alba 'Pyramidalis',False,C\ Castelladral,,16.59,median,16.06,check,,,,,1.0,floor
+0286401AR,Populus alba 'Pyramidalis',False,C\ Oristà,,44.23,no_facade,17.37,check,,,,,1.0,floor
+0286402AR,Populus alba 'Pyramidalis',False,C\ Oristà,,32.11,no_facade,23.65,check,,,,,1.0,floor
+0286403AR,Populus alba 'Pyramidalis',False,C\ Oristà,,29.09,median,22.74,check,,,,,1.0,floor
+0286406AR,Populus alba 'Pyramidalis',False,C\ Oristà,,21.57,median,17.75,check,,,,,1.0,floor
+0286408AR,Populus alba 'Pyramidalis',False,C\ Oristà,,18.1,median,15.08,check,,,,,1.0,floor
+0293841AR,Populus alba,False,C\ Pierola,29.23,25.23,ok,,large,431831.05,4590453.91,431847.9,4590477.8,1.5,class
+0306129AR,Ulmus pumila,False,C\ Oristà,,11.2,median,11.42,check,,,,,1.0,floor
+0306147AR,Fraxinus angustifolia,False,Pl Primer de Maig,,23.55,median,23.91,check,,,,,1.0,floor
+0306148AR,Robinia pseudoacacia,False,Pl Primer de Maig,,16.51,median,37.24,check,,,,,1.0,floor
+0310261AR,Populus alba 'Pyramidalis',False,C\ Oristà,,36.69,no_facade,,check,,,,,1.0,floor
+0311331AR,Populus alba 'Pyramidalis',False,Pl Primer de Maig,,21.41,median,,check,,,,,1.0,floor
+0311332AR,Populus alba 'Pyramidalis',False,Pl Primer de Maig,,19.25,median,33.36,check,,,,,1.0,floor
+0311333AR,Populus alba 'Pyramidalis',False,C\ Castelladral,,13.15,median,11.2,check,,,,,1.0,floor
+0311334AR,Populus alba 'Pyramidalis',False,C\ Oristà,,8.9,median,8.59,check,,,,,1.0,floor
+0317244AR,Styphnolobium japonicum,False,C\ Oristà,,34.4,no_facade,18.84,check,,,,,1.0,floor
+0322351AR,Celtis australis,False,T Tapioles,3.02,1.38,ok,,small,431746.47,4590538.24,431748.14,4590540.76,1.0,class
+0332310AR,Populus alba 'Pyramidalis',False,C\ Castelladral,,7.2,median,17.3,check,,,,,1.0,floor
+0347529AR,Ulmus pumila,False,Av Puig de Jorba,,54.88,no_facade,18.2,check,,,,,1.0,floor

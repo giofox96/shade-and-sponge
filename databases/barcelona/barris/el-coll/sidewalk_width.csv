@@ -1,0 +1,278 @@
+tree_id,species,is_plane,street,width_m,facade_dist_m,flag,strip_width_m,size_class,ray_x0,ray_y0,ray_x1,ray_y1,pit_min_m2,pit_basis
+0073840AR,Melia azedarach,False,C\ Cardedeu,,20.16,median,36.09,check,,,,,1.0,floor
+0073893AR,Celtis australis,False,Pg Mare de Déu del Coll,2.39,1.96,ok,,none,428528.91,4585059.64,428526.53,4585059.32,1.0,floor
+0073894AR,Brachychiton populneus,False,Pg Mare de Déu del Coll,2.46,1.93,ok,,none,428665.72,4585228.18,428664.41,4585230.27,1.0,floor
+0073901AR,Citrus × aurantium,False,C\ Santuari,3.76,3.1,ok,,medium,429103.38,4585741.94,429103.5,4585745.7,1.0,class
+0073904AR,Platanus × acerifolia,True,Pg Mare de Déu del Coll,9.36,8.51,ok,,large,428752.14,4585459.06,428761.28,4585461.08,1.5,class
+0073905AR,Robinia pseudoacacia,False,C\ Cardedeu,,13.61,median,,check,,,,,1.0,floor
+0073907AR,Citrus × aurantium,False,C\ Castellterçol,10.12,10.19,ok,,large,428521.69,4585405.91,428519.6,4585396.0,1.5,class
+0073909AR,Quercus suber,False,C\ Castellterçol,8.06,5.09,ok,,large,428614.12,4585390.46,428620.45,4585385.47,1.5,class
+0073910AR,Prunus cerasifera 'Pissardii',False,C\ Sant Eudald,2.11,1.82,ok,,none,428712.36,4585145.21,428713.65,4585143.55,1.0,floor
+0073911AR,Quercus robur 'Fastigiata',False,C\ Cardedeu,,13.04,median,29.3,check,,,,,1.0,floor
+0073912AR,Celtis australis,False,Pg Mare de Déu del Coll,2.69,2.19,ok,,small,428714.5,4585301.16,428711.86,4585301.65,1.0,class
+0073915AR,Prunus cerasifera 'Pissardii',False,C\ Sant Eudald,3.62,3.08,ok,,medium,428707.53,4585141.46,428706.46,4585138.0,1.0,class
+0073920AR,Platanus × acerifolia,True,Pg Mare de Déu del Coll,8.29,7.7,ok,,large,428765.59,4585505.68,428771.91,4585500.31,1.5,class
+0073923AR,Citrus × aurantium,False,C\ Castellterçol,8.26,8.36,ok,,large,428520.2,4585407.49,428514.19,4585401.82,1.5,class
+0073924AR,Tilia x euchlora,False,Plta Montserrat,10.44,5.57,ok,,large,428932.15,4585432.21,428923.31,4585426.67,1.5,class
+0073925AR,Fraxinus angustifolia 'Raywood',False,C\ Castellterçol,14.74,14.94,ok,,large,428499.16,4585446.03,428485.75,4585439.92,1.5,class
+0073926AR,Styphnolobium japonicum,False,C\ Tirso,,11.33,median,14.4,check,,,,,1.0,floor
+0073930AR,Styphnolobium japonicum,False,C\ Cardedeu,,12.23,median,,check,,,,,1.0,floor
+0073931AR,Ligustrum lucidum,False,C\ Balears,1.81,1.07,ok,,none,428676.94,4585130.59,428678.37,4585131.7,1.0,floor
+0073933AR,Styphnolobium japonicum,False,C\ Cardedeu,,13.1,median,,check,,,,,1.0,floor
+0073934AR,Robinia pseudoacacia,False,C\ Cardedeu,,13.52,median,,check,,,,,1.0,floor
+0073935AR,Celtis australis,False,Pg Mare de Déu del Coll,2.49,1.55,ok,,none,428566.54,4585164.85,428564.97,4585166.79,1.0,floor
+0073936AR,Pyrus calleryana 'Chanticleer',False,C\ Font del Remei,3.81,3.02,ok,,medium,428925.88,4585463.37,428929.31,4585461.72,1.0,class
+0073939AR,Robinia pseudoacacia,False,C\ Castellterçol,8.78,8.29,ok,,large,428615.44,4585392.13,428622.34,4585386.69,1.5,class
+0073942AR,Platanus × acerifolia,True,Pg Mare de Déu del Coll,2.5,2.1,ok,,small,428592.71,4585182.51,428591.36,4585184.62,1.0,class
+0073946AR,Celtis australis,False,Pg Mare de Déu del Coll,2.42,1.53,ok,,none,428561.94,4585161.14,428560.42,4585163.02,1.0,floor
+0073947AR,Brachychiton populneus,False,Pg Mare de Déu del Coll,2.67,1.98,ok,,small,428713.65,4585296.56,428711.02,4585297.05,1.0,class
+0073948AR,Brachychiton populneus,False,Pg Mare de Déu del Coll,,9.16,median,,check,,,,,1.0,floor
+0073949AR,Prunus cerasifera 'Pissardii',False,C\ Sant Eudald,2.77,2.35,ok,,small,428622.06,4585075.88,428624.36,4585074.33,1.0,class
+0073951AR,Prunus cerasifera 'Pissardii',False,C\ Sant Eudald,2.17,1.69,ok,,none,428598.34,4585057.07,428599.67,4585055.36,1.0,floor
+0073953AR,Platanus × acerifolia,True,Pg Mare de Déu del Coll,2.47,1.96,ok,,none,428670.74,4585231.34,428669.43,4585233.43,1.0,floor
+0073954AR,Prunus cerasifera 'Pissardii',False,C\ Sant Eudald,2.31,2.35,ok,,none,428557.56,4585025.85,428558.98,4585024.03,1.0,floor
+0073955AR,Quercus robur 'Fastigiata',False,C\ Castellterçol,9.88,9.34,ok,,large,428551.35,4585372.67,428553.48,4585363.02,1.5,class
+0073956AR,Tipuana tipu,False,Bda Sant Marià,4.92,3.51,ok,,medium,428890.34,4585498.25,428888.47,4585493.7,1.0,class
+0073957AR,Styphnolobium japonicum,False,C\ Cardedeu,,13.25,median,,check,,,,,1.0,floor
+0073958AR,Styphnolobium japonicum,False,C\ Tirso,,11.69,median,,check,,,,,1.0,floor
+0073960AR,Magnolia grandiflora,False,Ptge Manlleu,,8.88,no_kerb,,check,,,,,1.0,floor
+0073961AR,Celtis australis,False,C\ Castellterçol,11.66,5.91,ok,,large,428629.25,4585409.69,428638.42,4585402.49,1.5,class
+0073962AR,Pyrus calleryana 'Chanticleer',False,C\ Font del Remei,6.76,5.14,ok,,large,428918.66,4585448.31,428919.67,4585441.63,1.5,class
+0073963AR,Robinia pseudoacacia,False,C\ Cardedeu,,11.08,median,27.6,check,,,,,1.0,floor
+0073964AR,Brachychiton populneus,False,Pg Mare de Déu del Coll,,12.33,median,18.07,check,,,,,1.0,floor
+0073965AR,Prunus cerasifera 'Pissardii',False,C\ Sant Eudald,3.23,2.95,ok,,small,428746.47,4585180.16,428748.88,4585178.0,1.0,class
+0073969AR,Prunus cerasifera 'Pissardii',False,C\ Móra d'Ebre,,1.59,no_kerb,,check,,,,,1.0,floor
+0073970AR,Quercus ilex,False,C\ Castellterçol,4.76,2.06,ok,,medium,428608.2,4585382.95,428611.88,4585379.92,1.0,class
+0073971AR,Brachychiton populneus,False,Pg Mare de Déu del Coll,,16.09,median,19.49,check,,,,,1.0,floor
+0073972AR,Brachychiton populneus,False,Pg Mare de Déu del Coll,2.44,1.64,ok,,none,428571.33,4585168.63,428569.87,4585170.58,1.0,floor
+0073975AR,Prunus cerasifera 'Pissardii',False,C\ Sant Eudald,2.37,2.43,ok,,none,428543.51,4585014.92,428544.97,4585013.04,1.0,floor
+0073976AR,Cupressus sempervirens,False,Bda Solanell,,2.16,no_kerb,33.26,check,,,,,1.0,floor
+0073977AR,Brachychiton populneus,False,Pg Mare de Déu del Coll,2.7,2.4,ok,,small,428715.34,4585305.71,428712.68,4585306.2,1.0,class
+0073984AR,Cupressus sempervirens,False,Bda Solanell,,1.97,no_kerb,33.96,check,,,,,1.0,floor
+0073985AR,Pyrus calleryana 'Chanticleer',False,C\ Balears,1.75,1.11,ok,,none,428665.6,4585145.39,428666.99,4585146.46,1.0,floor
+0073988AR,Brachychiton populneus,False,Pg Mare de Déu del Coll,2.56,1.51,ok,,small,428545.13,4585145.99,428543.22,4585147.7,1.0,class
+0073989AR,Robinia pseudoacacia,False,C\ Castellterçol,6.74,6.35,ok,,large,428545.82,4585377.74,428541.27,4585372.77,1.5,class
+0073991AR,Platanus × acerifolia,True,Pg Mare de Déu del Coll,9.79,9.1,ok,,large,428763.53,4585503.25,428770.99,4585496.91,1.5,class
+0073992AR,Styphnolobium japonicum,False,C\ Cardedeu,,14.06,median,24.88,check,,,,,1.0,floor
+0073993AR,Brachychiton populneus,False,Pg Mare de Déu del Coll,2.47,1.75,ok,,none,428632.25,4585207.1,428630.92,4585209.19,1.0,floor
+0073995AR,Citrus × aurantium,False,C\ Santuari,3.02,2.13,ok,,small,428978.73,4585758.99,428979.18,4585761.97,1.0,class
+0073997AR,Citrus × aurantium,False,C\ Santuari,2.55,1.89,ok,,small,429023.71,4585752.19,429024.12,4585754.71,1.0,class
+0073998AR,Styphnolobium japonicum,False,C\ Tirso,14.07,11.06,ok,,large,429086.05,4585694.02,429085.15,4585679.99,1.5,class
+0074002AR,Platanus × acerifolia,True,Pg Mare de Déu del Coll,6.45,5.57,ok,,large,428769.38,4585515.16,428775.15,4585512.27,1.5,class
+0074003AR,Brachychiton populneus,False,Pg Mare de Déu del Coll,2.78,1.55,ok,,small,428849.66,4585664.13,428852.26,4585663.15,1.0,class
+0074004AR,Pyrus calleryana 'Chanticleer',False,C\ Font del Remei,3.87,2.93,ok,,medium,428948.41,4585510.41,428951.9,4585508.73,1.0,class
+0074008AR,Citrus × aurantium,False,C\ Castellterçol,10.77,9.56,ok,,large,428505.46,4585413.81,428497.47,4585421.04,1.5,class
+0074009AR,Styphnolobium japonicum,False,C\ Cardedeu,,12.12,median,23.85,check,,,,,1.0,floor
+0074010AR,Styphnolobium japonicum,False,C\ Cardedeu,,12.34,median,,check,,,,,1.0,floor
+0074011AR,Styphnolobium japonicum,False,Pg Mare de Déu del Coll,3.4,1.59,ok,,small,428740.85,4585401.93,428737.75,4585403.34,1.0,class
+0074012AR,Celtis australis,False,C\ Portell,,11.77,no_kerb,15.66,check,,,,,1.0,floor
+0074013AR,Celtis australis,False,C\ Castellterçol,11.62,5.69,ok,,large,428624.53,4585403.68,428633.66,4585396.51,1.5,class
+0074015AR,Ulmus pumila,False,Pg Mare de Déu del Coll,,10.33,median,,check,,,,,1.0,floor
+0074016AR,Celtis australis,False,C\ Francesc Tarafa,13.14,5.31,ok,,large,429034.63,4585528.55,429029.5,4585516.44,1.5,class
+0074017AR,Cupressus sempervirens,False,Bda Solanell,,2.27,no_kerb,32.78,check,,,,,1.0,floor
+0074019AR,Celtis australis,False,C\ Portell,14.66,6.71,ok,,large,429099.11,4585664.59,429106.06,4585677.51,1.5,class
+0074020AR,Citrus × aurantium,False,C\ Santuari,2.58,1.49,ok,,small,428990.76,4585757.53,428991.17,4585760.08,1.0,class
+0074021AR,Citrus × aurantium,False,C\ Cardedeu,8.36,7.93,ok,,large,428476.55,4585489.76,428470.62,4585483.88,1.5,class
+0074022AR,Brachychiton populneus,False,Pg Mare de Déu del Coll,3.35,1.52,ok,,small,428743.31,4585406.64,428740.5,4585408.47,1.0,class
+0074024AR,Brachychiton populneus,False,Pg Mare de Déu del Coll,2.72,1.95,ok,,small,428712.66,4585291.18,428709.98,4585291.67,1.0,class
+0074025AR,Citrus × aurantium,False,C\ Castellterçol,2.19,1.93,ok,,none,428532.25,4585385.53,428530.65,4585384.04,1.0,floor
+0074026AR,Platanus × acerifolia,True,C\ Tirso,,9.33,median,13.42,check,,,,,1.0,floor
+0074027AR,Celtis australis,False,C\ Castellterçol,11.66,11.04,ok,,large,428628.97,4585409.33,428638.13,4585402.13,1.5,class
+0074028AR,Platanus × acerifolia,True,Pg Mare de Déu del Coll,6.45,5.6,ok,,large,428750.91,4585447.8,428756.37,4585444.37,1.5,class
+0074030AR,Citrus × aurantium,False,C\ Castellterçol,11.23,11.29,ok,,large,428573.66,4585371.68,428577.13,4585361.0,1.5,class
+0074032AR,Celtis australis,False,Pg Mare de Déu del Coll,2.46,1.25,ok,,none,428655.93,4585222.04,428654.62,4585224.13,1.0,floor
+0074033AR,Fraxinus angustifolia 'Raywood',False,C\ Castellterçol,6.21,6.29,ok,,large,428533.38,4585384.33,428535.77,4585378.6,1.5,class
+0074034AR,Brachychiton populneus,False,Pg Mare de Déu del Coll,,10.91,median,9.03,check,,,,,1.0,floor
+0074035AR,Citrus × aurantium,False,C\ Santuari,3.25,2.51,ok,,small,428958.97,4585761.78,428959.35,4585765.01,1.0,class
+0074039AR,Brachychiton populneus,False,Pg Mare de Déu del Coll,2.76,1.91,ok,,small,428722.46,4585339.56,428719.79,4585340.27,1.0,class
+0074041AR,Celtis australis,False,Pg Mare de Déu del Coll,2.42,1.33,ok,,none,428622.29,4585201.03,428621.47,4585203.31,1.0,floor
+0074042AR,Prunus cerasifera 'Pissardii',False,C\ Sant Eudald,2.3,1.98,ok,,none,428553.58,4585022.76,428555.0,4585020.95,1.0,floor
+0074045AR,Styphnolobium japonicum,False,C\ Cardedeu,14.46,13.86,ok,,large,428476.55,4585489.76,428472.01,4585476.03,1.5,class
+0074046AR,Prunus cerasifera 'Pissardii',False,C\ Sant Eudald,2.16,1.7,ok,,none,428774.44,4585207.42,428775.41,4585205.49,1.0,floor
+0074049AR,Platanus × acerifolia,True,C\ Tirso,2.08,1.14,ok,,none,429087.24,4585700.06,429089.28,4585699.66,1.0,floor
+0074052AR,Brachychiton populneus,False,Pg Mare de Déu del Coll,2.84,1.95,ok,,small,428723.7,4585344.25,428720.96,4585344.98,1.0,class
+0074057AR,Brachychiton populneus,False,Pg Mare de Déu del Coll,2.91,1.24,ok,,small,428825.65,4585600.84,428828.31,4585599.66,1.0,class
+0074058AR,Brachychiton populneus,False,Pg Mare de Déu del Coll,,10.01,median,,check,,,,,1.0,floor
+0074059AR,Ligustrum lucidum,False,C\ Balears,4.6,2.91,ok,,medium,428674.56,4585133.66,428673.39,4585138.12,1.0,class
+0074060AR,Citrus × aurantium,False,C\ Cardedeu,,12.0,median,,check,,,,,1.0,floor
+0074061AR,Brachychiton populneus,False,Pg Mare de Déu del Coll,6.45,4.93,ok,,large,428840.92,4585650.3,428846.19,4585646.58,1.5,class
+0074062AR,Celtis australis,False,C\ Francesc Tarafa,26.73,13.54,ok,,large,429030.54,4585516.61,429008.43,4585531.64,1.5,class
+0074065AR,Fraxinus angustifolia 'Raywood',False,C\ Castellterçol,18.39,17.02,ok,,large,428505.46,4585413.81,428493.04,4585427.38,1.5,class
+0074066AR,Styphnolobium japonicum,False,C\ Tirso,8.2,6.23,ok,,large,429086.05,4585694.02,429086.37,4585685.83,1.5,class
+0074067AR,Platanus × acerifolia,True,Pg Mare de Déu del Coll,7.29,6.86,ok,,large,428751.91,4585454.31,428759.06,4585452.91,1.5,class
+0074070AR,Citrus × aurantium,False,C\ Santuari,3.8,3.15,ok,,medium,429047.96,4585746.51,429048.8,4585750.21,1.0,class
+0074074AR,Prunus cerasifera 'Pissardii',False,C\ Sant Eudald,2.43,2.27,ok,,none,428571.61,4585036.79,428573.1,4585034.88,1.0,floor
+0074076AR,Platanus × acerifolia,True,Pg Mare de Déu del Coll,10.95,9.88,ok,,large,428754.57,4585473.9,428762.79,4585466.67,1.5,class
+0074077AR,Robinia pseudoacacia,False,C\ Cardedeu,,13.36,median,20.9,check,,,,,1.0,floor
+0074078AR,Quercus robur 'Fastigiata',False,C\ Cardedeu,,12.77,median,,check,,,,,1.0,floor
+0074080AR,Robinia pseudoacacia,False,C\ Cardedeu,,13.84,median,,check,,,,,1.0,floor
+0074081AR,Robinia pseudoacacia,False,C\ Cardedeu,,13.31,median,,check,,,,,1.0,floor
+0074082AR,Robinia pseudoacacia,False,C\ Cardedeu,,12.08,median,30.22,check,,,,,1.0,floor
+0074083AR,Brachychiton populneus,False,Pg Mare de Déu del Coll,2.54,1.67,ok,,small,428526.77,4585100.28,428524.25,4585100.61,1.0,class
+0074093AR,Quercus suber,False,C\ Castellterçol,6.27,3.34,ok,,large,428610.87,4585386.34,428615.79,4585382.46,1.5,class
+0074094AR,Jacaranda mimosifolia,False,C\ Pineda,,4.98,no_kerb,,check,,,,,1.0,floor
+0074096AR,Brachychiton populneus,False,Pg Mare de Déu del Coll,2.69,2.03,ok,,small,428721.12,4585334.49,428718.52,4585335.18,1.0,class
+0074097AR,Cupressus sempervirens,False,Bda Solanell,,2.07,no_kerb,32.78,check,,,,,1.0,floor
+0074098AR,Robinia pseudoacacia,False,C\ Cardedeu,,12.66,median,29.1,check,,,,,1.0,floor
+0074099AR,Prunus cerasifera 'Pissardii',False,C\ Sant Eudald,2.25,1.95,ok,,none,428678.4,4585119.01,428679.78,4585117.23,1.0,floor
+0074100AR,Brachychiton populneus,False,Pg Mare de Déu del Coll,9.42,7.01,ok,,large,428825.18,4585599.79,428824.71,4585590.38,1.5,class
+0074101AR,Celtis australis,False,C\ Castellterçol,11.63,10.68,ok,,large,428625.27,4585404.63,428634.41,4585397.44,1.5,class
+0074102AR,Citrus × aurantium,False,C\ Santuari,3.91,3.25,ok,,medium,429093.72,4585742.24,429093.84,4585746.14,1.0,class
+0074103AR,Brachychiton populneus,False,Pg Mare de Déu del Coll,2.73,2.18,ok,,small,428680.72,4585237.6,428679.27,4585239.92,1.0,class
+0074104AR,Cupressus sempervirens,False,Bda Solanell,,2.0,no_kerb,32.78,check,,,,,1.0,floor
+0074106AR,Platanus × acerifolia,True,Pg Mare de Déu del Coll,2.85,2.23,ok,,small,428685.25,4585240.44,428683.74,4585242.86,1.0,class
+0074107AR,Cupressus sempervirens,False,Bda Solanell,,2.02,no_kerb,32.99,check,,,,,1.0,floor
+0074110AR,Citrus × aurantium,False,C\ Santuari,2.69,2.0,ok,,small,429010.94,4585754.26,429011.37,4585756.92,1.0,class
+0074112AR,Platanus × acerifolia,True,C\ Tirso,5.05,3.88,ok,,medium,429092.06,4585665.83,429088.96,4585669.81,1.0,class
+0074114AR,Prunus cerasifera 'Pissardii',False,C\ Sant Eudald,2.78,2.44,ok,,small,428738.46,4585171.21,428740.53,4585169.35,1.0,class
+0074115AR,Robinia pseudoacacia,False,C\ Castellterçol,15.17,15.24,ok,,large,428495.82,4585453.38,428482.01,4585447.1,1.5,class
+0074116AR,Magnolia grandiflora,False,Ptge Manlleu,25.3,23.23,ok,,large,428503.79,4585461.69,428526.76,4585472.31,1.5,class
+0074118AR,Brachychiton populneus,False,Pg Mare de Déu del Coll,,10.15,median,12.77,check,,,,,1.0,floor
+0074119AR,Lagunaria patersonia,False,C\ Santuari,2.72,2.09,ok,,small,429070.03,4585744.94,429069.97,4585747.66,1.0,class
+0074122AR,Pyrus calleryana 'Chanticleer',False,C\ Font del Remei,3.87,2.92,ok,,medium,428943.73,4585500.68,428947.22,4585499.0,1.0,class
+0074124AR,Ligustrum lucidum,False,C\ Balears,1.81,1.21,ok,,none,428681.16,4585125.16,428682.59,4585126.27,1.0,floor
+0074125AR,Tipuana tipu,False,Bda Sant Marià,4.32,2.75,ok,,medium,428896.73,4585495.65,428895.59,4585491.48,1.0,class
+0074127AR,Brachychiton populneus,False,Pg Mare de Déu del Coll,15.48,6.92,ok,,large,428856.4,4585682.09,428864.45,4585695.31,1.5,class
+0074128AR,Prunus cerasifera 'Pissardii',False,C\ Sant Eudald,3.72,3.07,ok,,medium,428698.22,4585134.3,428697.06,4585130.76,1.0,class
+0074129AR,Celtis australis,False,Pg Mare de Déu del Coll,2.35,2.02,ok,,none,428527.86,4585067.53,428525.53,4585067.22,1.0,floor
+0074131AR,Celtis australis,False,Pg Mare de Déu del Coll,,19.93,median,6.81,check,,,,,1.0,floor
+0074132AR,Citrus × aurantium,False,C\ Castellterçol,,8.84,median,28.46,check,,,,,1.0,floor
+0074133AR,Platanus × acerifolia,True,Pg Mare de Déu del Coll,7.5,6.75,ok,,large,428769.52,4585520.06,428776.9,4585518.73,1.5,class
+0074134AR,Styphnolobium japonicum,False,C\ Tirso,11.38,9.1,ok,,large,429092.06,4585665.83,429090.38,4585677.08,1.5,class
+0074135AR,Citrus × aurantium,False,C\ Castellterçol,7.08,6.97,ok,,large,428551.33,4585372.69,428546.55,4585367.47,1.5,class
+0074136AR,Platanus × acerifolia,True,Pg Mare de Déu del Coll,5.74,5.18,ok,,medium,428768.28,4585508.84,428773.78,4585507.22,1.0,class
+0074137AR,Styphnolobium japonicum,False,C\ Cardedeu,,13.45,median,30.54,check,,,,,1.0,floor
+0074139AR,Prunus cerasifera 'Pissardii',False,C\ Móra d'Ebre,,1.62,no_kerb,,check,,,,,1.0,floor
+0074140AR,Styphnolobium japonicum,False,C\ Cardedeu,,12.07,median,24.73,check,,,,,1.0,floor
+0074142AR,Ulmus pumila,False,Pg Mare de Déu del Coll,10.49,6.77,ok,,large,428827.88,4585605.84,428833.94,4585614.41,1.5,class
+0074143AR,Pyrus calleryana 'Chanticleer',False,C\ Font del Remei,3.82,2.94,ok,,medium,428930.3,4585472.62,428933.76,4585470.98,1.0,class
+0074148AR,Prunus cerasifera 'Pissardii',False,C\ Sant Eudald,2.31,1.83,ok,,none,428607.42,4585064.16,428608.85,4585062.34,1.0,floor
+0074153AR,Brachychiton populneus,False,Pg Mare de Déu del Coll,14.14,10.35,ok,,large,428840.92,4585650.3,428842.39,4585636.24,1.5,class
+0074154AR,Cupressus sempervirens,False,Bda Solanell,,2.03,no_kerb,33.26,check,,,,,1.0,floor
+0074155AR,Citrus × aurantium,False,C\ Santuari,2.66,1.86,ok,,small,429017.47,4585753.2,429017.9,4585755.83,1.0,class
+0074156AR,Brachychiton populneus,False,Pg Mare de Déu del Coll,3.26,2.08,ok,,small,428746.44,4585411.47,428743.71,4585413.24,1.0,class
+0074157AR,Citrus × aurantium,False,C\ Santuari,2.66,1.84,ok,,small,428997.81,4585756.39,428998.23,4585759.01,1.0,class
+0074159AR,Pyrus calleryana 'Chanticleer',False,C\ Font del Remei,4.63,2.73,ok,,medium,428952.23,4585520.05,428956.52,4585518.31,1.0,class
+0074162AR,Quercus ilex,False,Ptge Manlleu,,52.83,no_facade,30.15,check,,,,,1.0,floor
+0074163AR,Styphnolobium japonicum,False,C\ Cardedeu,,13.17,median,30.18,check,,,,,1.0,floor
+0074165AR,Celtis australis,False,C\ Francesc Tarafa,28.03,9.47,ok,,large,429030.54,4585516.61,429011.28,4585536.98,1.5,class
+0074166AR,Ulmus pumila,False,Pg Mare de Déu del Coll,,9.48,median,5.35,check,,,,,1.0,floor
+0074168AR,Celtis australis,False,C\ Balears,,2.17,no_kerb,13.42,check,,,,,1.0,floor
+0074170AR,Brachychiton populneus,False,Pg Mare de Déu del Coll,2.86,1.76,ok,,small,428847.65,4585658.79,428850.16,4585657.43,1.0,class
+0074171AR,Robinia pseudoacacia,False,C\ Cardedeu,,13.88,median,,check,,,,,1.0,floor
+0074173AR,Prunus cerasifera 'Pissardii',False,C\ Sant Eudald,2.21,1.95,ok,,none,428663.4,4585107.41,428664.75,4585105.66,1.0,floor
+0074175AR,Pyrus calleryana 'Chanticleer',False,C\ Font del Remei,5.27,4.38,ok,,medium,428955.96,4585529.26,428960.84,4585527.29,1.0,class
+0074176AR,Celtis australis,False,Pg Mare de Déu del Coll,2.52,1.52,ok,,small,428528.28,4585111.74,428525.79,4585112.07,1.0,class
+0074178AR,Celtis australis,False,C\ Castellterçol,11.2,5.97,ok,,large,428619.93,4585397.83,428628.73,4585390.91,1.5,class
+0074179AR,Brachychiton populneus,False,Pg Mare de Déu del Coll,3.2,1.88,ok,,small,428856.4,4585682.09,428859.56,4585682.6,1.0,class
+0074180AR,Celtis australis,False,Pg Mare de Déu del Coll,11.69,10.04,ok,,large,428769.52,4585520.06,428779.01,4585526.87,1.5,class
+0074181AR,Robinia pseudoacacia,False,C\ Cardedeu,,11.34,median,23.33,check,,,,,1.0,floor
+0074182AR,Prunus cerasifera 'Pissardii',False,C\ Sant Eudald,2.19,1.67,ok,,none,428635.8,4585086.01,428637.13,4585084.27,1.0,floor
+0074187AR,Citrus × aurantium,False,C\ Cardedeu,7.21,6.43,ok,,large,428475.24,4585504.44,428468.58,4585507.19,1.5,class
+0074192AR,Citrus × aurantium,False,C\ Cardedeu,15.77,15.25,ok,,large,428494.05,4585457.25,428478.34,4585455.84,1.5,class
+0074193AR,Celtis australis,False,Pg Mare de Déu del Coll,,16.03,median,,check,,,,,1.0,floor
+0074194AR,Platanus × acerifolia,True,Pg Mare de Déu del Coll,,6.78,median,2.58,check,,,,,1.0,floor
+0074198AR,Lagunaria patersonia,False,C\ Santuari,3.27,2.38,ok,,small,428950.55,4585762.75,428950.32,4585766.02,1.0,class
+0074199AR,Styphnolobium japonicum,False,C\ Cardedeu,,12.62,median,,check,,,,,1.0,floor
+0074200AR,Ulmus pumila,False,Pg Mare de Déu del Coll,,10.21,median,15.44,check,,,,,1.0,floor
+0074201AR,Brachychiton populneus,False,Pg Mare de Déu del Coll,2.93,1.13,ok,,small,428827.88,4585605.84,428830.78,4585606.25,1.0,class
+0074202AR,Celtis australis,False,Pg Mare de Déu del Coll,2.41,1.54,ok,,none,428554.25,4585154.79,428552.67,4585156.61,1.0,floor
+0074205AR,Ligustrum lucidum,False,C\ Balears,1.79,1.31,ok,,none,428658.75,4585154.28,428660.17,4585155.37,1.0,floor
+0074206AR,Prunus cerasifera 'Pissardii',False,C\ Sant Eudald,2.22,1.66,ok,,none,428603.0,4585060.71,428604.37,4585058.96,1.0,floor
+0074207AR,Prunus cerasifera 'Pissardii',False,C\ Sant Eudald,2.38,2.02,ok,,none,428567.65,4585033.71,428569.11,4585031.84,1.0,floor
+0074208AR,Citrus × aurantium,False,C\ Santuari,2.72,2.0,ok,,small,429004.05,4585755.38,429004.48,4585758.06,1.0,class
+0074209AR,Celtis australis,False,Pg Mare de Déu del Coll,2.44,1.97,ok,,none,428529.78,4585053.09,428527.35,4585052.77,1.0,floor
+0074210AR,Celtis australis,False,Pg Mare de Déu del Coll,2.76,1.9,ok,,small,428725.06,4585349.39,428722.4,4585350.1,1.0,class
+0074211AR,Citrus × aurantium,False,C\ Cardedeu,16.79,16.36,ok,,large,428490.13,4585473.18,428473.93,4585468.76,1.5,class
+0074213AR,Platanus × acerifolia,True,C\ Tirso,,9.6,median,13.08,check,,,,,1.0,floor
+0074214AR,Styphnolobium japonicum,False,C\ Cardedeu,,13.33,median,30.46,check,,,,,1.0,floor
+0074217AR,Brachychiton populneus,False,Pg Mare de Déu del Coll,,10.31,median,11.57,check,,,,,1.0,floor
+0074218AR,Celtis australis,False,Pg Mare de Déu del Coll,2.27,1.6,ok,,none,428709.0,4585276.45,428706.81,4585277.09,1.0,floor
+0074221AR,Brachychiton populneus,False,Pg Mare de Déu del Coll,7.51,7.22,ok,,large,428758.74,4585478.64,428764.85,4585474.28,1.5,class
+0074222AR,Citrus × aurantium,False,C\ Castellterçol,2.16,1.9,ok,,none,428507.88,4585411.12,428507.38,4585409.02,1.0,floor
+0074223AR,Ulmus pumila,False,Pg Mare de Déu del Coll,,10.03,median,,check,,,,,1.0,floor
+0074224AR,Prunus cerasifera 'Pissardii',False,C\ Móra d'Ebre,,1.65,no_kerb,,check,,,,,1.0,floor
+0074226AR,Styphnolobium japonicum,False,C\ Cardedeu,,12.11,median,,check,,,,,1.0,floor
+0074227AR,Prunus cerasifera 'Pissardii',False,C\ Sant Eudald,2.17,2.1,ok,,none,428781.58,4585214.93,428783.15,4585213.43,1.0,floor
+0074228AR,Cupressus sempervirens,False,Bda Solanell,,2.16,no_kerb,32.78,check,,,,,1.0,floor
+0074232AR,Cupressus sempervirens,False,Bda Solanell,,2.18,no_kerb,32.78,check,,,,,1.0,floor
+0074234AR,Ligustrum lucidum,False,C\ Balears,1.72,1.06,ok,,none,428669.15,4585140.79,428670.52,4585141.85,1.0,floor
+0074235AR,Tipuana tipu,False,C\ Aldea,16.02,4.92,ok,,large,428970.92,4585565.87,428966.79,4585550.38,1.5,class
+0074236AR,Prunus cerasifera 'Pissardii',False,C\ Sant Eudald,2.1,1.88,ok,,none,428717.01,4585148.81,428718.3,4585147.15,1.0,floor
+0074237AR,Brachychiton populneus,False,Pg Mare de Déu del Coll,2.59,2.05,ok,,small,428675.17,4585234.11,428673.79,4585236.31,1.0,class
+0074238AR,Prunus cerasifera 'Pissardii',False,C\ Sant Eudald,2.39,1.78,ok,,none,428612.25,4585067.93,428613.71,4585066.05,1.0,floor
+0074239AR,Ligustrum lucidum,False,C\ Balears,1.77,1.19,ok,,none,428661.2,4585151.1,428662.6,4585152.19,1.0,floor
+0074241AR,Lagunaria patersonia,False,C\ Santuari,3.06,2.3,ok,,small,428972.93,4585759.87,428973.39,4585762.9,1.0,class
+0074244AR,Platanus × acerifolia,True,C\ Tirso,3.86,2.28,ok,,medium,429088.37,4585657.12,429084.82,4585658.63,1.0,class
+0074245AR,Robinia pseudoacacia,False,C\ Cardedeu,,11.55,median,26.37,check,,,,,1.0,floor
+0074246AR,Styphnolobium japonicum,False,C\ Cardedeu,,13.07,median,6.98,check,,,,,1.0,floor
+0074247AR,Prunus cerasifera 'Pissardii',False,C\ Sant Eudald,2.1,1.89,ok,,none,428726.36,4585157.7,428727.93,4585156.3,1.0,floor
+0074248AR,Celtis australis,False,Pg Mare de Déu del Coll,2.48,1.91,ok,,none,428530.82,4585122.44,428528.46,4585123.17,1.0,floor
+0074249AR,Celtis australis,False,C\ Castellterçol,11.69,11.02,ok,,large,428632.7,4585414.09,428641.89,4585406.87,1.5,class
+0074252AR,Citrus × aurantium,False,C\ Castellterçol,14.92,14.27,ok,,large,428500.51,4585443.07,428489.77,4585432.72,1.5,class
+0074253AR,Celtis australis,False,Pg Mare de Déu del Coll,2.72,2.31,ok,,small,428716.36,4585311.26,428713.69,4585311.75,1.0,class
+0074255AR,Citrus × aurantium,False,C\ Cardedeu,6.8,5.98,ok,,large,428475.53,4585501.22,428468.75,4585500.62,1.5,class
+0074256AR,Magnolia grandiflora,False,Ptge Manlleu,1.66,0.13,ok,,none,428545.0,4585428.54,428546.49,4585429.27,1.0,floor
+0074257AR,Tipuana tipu,False,Bda Sant Marià,4.87,2.47,ok,,medium,428882.94,4585501.29,428881.09,4585496.79,1.0,class
+0074258AR,Platanus × acerifolia,True,Pg Mare de Déu del Coll,9.5,8.73,ok,,large,428760.24,4585490.04,428769.59,4585491.76,1.5,class
+0074260AR,Fraxinus angustifolia 'Raywood',False,C\ Castellterçol,11.07,10.9,ok,,large,428569.2,4585370.93,428569.24,4585359.85,1.5,class
+0074261AR,Styphnolobium japonicum,False,C\ Cardedeu,6.76,6.77,ok,,large,428476.25,4585493.05,428469.52,4585492.45,1.5,class
+0074262AR,Celtis australis,False,Pg Mare de Déu del Coll,,17.06,median,6.39,check,,,,,1.0,floor
+0074263AR,Magnolia grandiflora,False,Ptge Manlleu,26.24,23.79,ok,,large,428503.79,4585461.69,428524.16,4585478.22,1.5,class
+0074264AR,Lagunaria patersonia,False,C\ Santuari,5.94,3.99,ok,,medium,428981.07,4585758.64,428986.61,4585760.77,1.0,class
+0074266AR,Brachychiton populneus,False,Pg Mare de Déu del Coll,,10.25,median,,check,,,,,1.0,floor
+0074267AR,Lagunaria patersonia,False,C\ Santuari,3.08,1.91,ok,,small,428964.78,4585761.1,428965.13,4585764.16,1.0,class
+0074268AR,Parrotia persica 'Vanessa',False,C\ Santuari,3.57,2.67,ok,,medium,428921.12,4585764.81,428921.24,4585768.38,1.0,class
+0074269AR,Citrus × aurantium,False,C\ Castellterçol,,11.12,median,,check,,,,,1.0,floor
+0074270AR,Celtis australis,False,C\ Castellterçol,11.82,10.11,ok,,large,428645.55,4585422.55,428644.95,4585410.75,1.5,class
+0074272AR,Prunus cerasifera 'Pissardii',False,C\ Móra d'Ebre,,2.06,no_kerb,,check,,,,,1.0,floor
+0074273AR,Quercus robur 'Fastigiata',False,C\ Cardedeu,,13.8,median,,check,,,,,1.0,floor
+0074274AR,Pyrus calleryana 'Chanticleer',False,C\ Font del Remei,3.8,2.84,ok,,medium,428921.43,4585454.09,428924.85,4585452.45,1.0,class
+0074277AR,Prunus cerasifera 'Pissardii',False,C\ Sant Eudald,5.26,4.6,ok,,medium,428596.92,4585055.96,428594.2,4585051.45,1.0,class
+0074279AR,Brachychiton populneus,False,Pg Mare de Déu del Coll,2.26,1.53,ok,,none,428730.43,4585369.7,428728.25,4585370.27,1.0,floor
+0074282AR,Celtis australis,False,C\ Castellterçol,7.21,6.46,ok,,large,428645.55,4585422.55,428648.93,4585416.19,1.5,class
+0074284AR,Robinia pseudoacacia,False,C\ Funoses Llussà,,4.88,median,,check,,,,,1.0,floor
+0074287AR,Brachychiton populneus,False,Pg Mare de Déu del Coll,2.74,1.77,ok,,small,428851.68,4585669.5,428854.24,4585668.54,1.0,class
+0074288AR,Prunus cerasifera 'Pissardii',False,C\ Sant Eudald,2.08,1.75,ok,,none,428700.81,4585136.27,428702.07,4585134.62,1.0,floor
+0074290AR,Pyrus calleryana 'Chanticleer',False,C\ Font del Remei,3.89,3.05,ok,,medium,428934.73,4585481.98,428938.25,4585480.32,1.0,class
+0074291AR,Celtis australis,False,C\ Castellterçol,11.55,10.79,ok,,large,428621.11,4585399.34,428630.19,4585392.2,1.5,class
+0074292AR,Pyrus calleryana 'Chanticleer',False,C\ Font del Remei,3.93,3.05,ok,,medium,428939.19,4585491.35,428942.73,4585489.65,1.0,class
+0206522AR,Platanus × acerifolia,True,Pg Mare de Déu del Coll,13.55,10.49,ok,,large,428711.84,4585373.38,428723.34,4585380.55,1.5,class
+0207054AR,Brachychiton populneus,False,Pg Mare de Déu del Coll,8.38,7.45,ok,,large,428711.23,4585367.5,428719.4,4585365.6,1.5,class
+0207161AR,Celtis australis,False,Pg Mare de Déu del Coll,,11.42,median,,check,,,,,1.0,floor
+0207493AR,Brachychiton populneus,False,Pg Mare de Déu del Coll,5.37,4.68,ok,,medium,428712.28,4585359.03,428717.64,4585359.36,1.0,class
+0288378AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Duran i Borrell,3.65,2.83,ok,,medium,428947.2,4585580.14,428943.86,4585581.59,1.0,class
+0288379AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Aldea,3.43,2.69,ok,,small,428960.69,4585595.97,428964.12,4585595.89,1.0,class
+0288381AR,Cercis siliquastrum,False,C\ Aldea,8.4,5.0,ok,,large,428956.26,4585598.87,428959.15,4585606.75,1.5,class
+0288382AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Aldea,3.41,2.45,ok,,small,428960.05,4585569.26,428963.45,4585569.18,1.0,class
+0288384AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Duran i Borrell,3.66,2.72,ok,,medium,428942.31,4585568.81,428938.95,4585570.27,1.0,class
+0293335AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Aldea,,10.1,median,22.69,check,,,,,1.0,floor
+0293346AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Aldea,,5.94,median,16.06,check,,,,,1.0,floor
+0293347AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Aldea,,5.89,median,12.03,check,,,,,1.0,floor
+0293348AR,Jacaranda mimosifolia,False,C\ Font del Remei,,8.75,median,6.4,check,,,,,1.0,floor
+0293350AR,Acer × freemanii AUTUMN BLAZE® 'Jeffersred',False,C\ Aldea,,6.85,median,3.61,check,,,,,1.0,floor
+0304849AR,Liriodendron tulipifera,False,C\ Morató,12.51,5.97,ok,,large,428899.79,4585901.04,428910.72,4585907.14,1.5,class
+0304850AR,Liriodendron tulipifera,False,C\ Morató,3.77,1.79,ok,,medium,428896.4,4585897.59,428899.09,4585894.95,1.0,class
+0304851AR,Liriodendron tulipifera,False,C\ Morató,3.85,1.89,ok,,medium,428889.24,4585890.22,428892.02,4585887.56,1.0,class
+0304852AR,Liriodendron tulipifera,False,C\ Morató,3.83,1.82,ok,,medium,428883.67,4585884.38,428886.45,4585881.75,1.0,class
+0304853AR,Liriodendron tulipifera,False,C\ Morató,3.81,1.88,ok,,medium,428878.68,4585879.14,428881.43,4585876.5,1.0,class
+0304854AR,Tilia x euchlora,False,C\ Morató,3.86,1.93,ok,,medium,428873.0,4585873.29,428875.4,4585870.27,1.0,class
+0304855AR,Tilia x euchlora,False,C\ Morató,3.78,1.95,ok,,medium,428864.97,4585866.92,428867.3,4585863.95,1.0,class
+0304856AR,Tilia x euchlora,False,C\ Morató,3.92,1.84,ok,,medium,428858.31,4585861.71,428859.78,4585858.07,1.0,class
+0304857AR,Liriodendron tulipifera,False,C\ Morató,7.11,5.22,ok,,large,428851.0,4585860.22,428855.09,4585854.4,1.5,class
+0304859AR,Acer monspessulanum,False,C\ Jaume Cascalls,5.67,6.21,ok,,medium,429009.62,4585490.91,429003.98,4585490.29,1.0,class
+0304860AR,Acer monspessulanum,False,C\ Jaume Cascalls,5.14,5.69,ok,,medium,429010.42,4585483.6,429005.5,4585482.1,1.0,class
+0304862AR,Acer monspessulanum,False,C\ Jaume Cascalls,,8.07,median,,check,,,,,1.0,floor
+0304863AR,Acer monspessulanum,False,C\ Jaume Cascalls,5.31,5.96,ok,,medium,429029.7,4585458.8,429026.52,4585454.55,1.0,class
+0304864AR,Acer monspessulanum,False,C\ Jaume Cascalls,4.72,5.33,ok,,medium,429023.75,4585464.42,429020.51,4585460.99,1.0,class
+0304865AR,Acer monspessulanum,False,C\ Jaume Cascalls,4.15,4.73,ok,,medium,429017.41,4585470.4,429014.56,4585467.37,1.0,class
+0305013AR,Pyrus calleryana 'Chanticleer',False,C\ Pau Ferran,3.39,2.28,ok,,small,428945.98,4585425.94,428945.41,4585422.6,1.0,class
+0305014AR,Pyrus calleryana 'Chanticleer',False,C\ Pau Ferran,,4.45,median,1.81,check,,,,,1.0,floor
+0305015AR,Pyrus calleryana 'Chanticleer',False,C\ Pau Ferran,,5.2,median,15.02,check,,,,,1.0,floor
+0312122AR,Cercis siliquastrum,False,C\ Aldea,,10.23,median,15.78,check,,,,,1.0,floor
+0312123AR,Cupressus sempervirens,False,C\ Francesc Tarafa,16.31,5.18,ok,,large,429042.59,4585528.43,429042.34,4585512.12,1.5,class
+0312485AR,Celtis australis,False,C\ Castellterçol,,2.33,no_kerb,,check,,,,,1.0,floor
+0320753AR,Styphnolobium japonicum,False,C\ Cardedeu,,13.77,median,30.09,check,,,,,1.0,floor
+0322051AR,Ulmus pumila,False,Pg Mare de Déu del Coll,,10.57,median,,check,,,,,1.0,floor
+0331108AR,Tilia x euchlora,False,Plta Montserrat,11.84,10.83,ok,,large,428931.83,4585432.72,428921.06,4585437.63,1.5,class
+0335950AR,Liriodendron tulipifera,False,Pl Mons,12.98,2.0,ok,,large,428538.05,4585013.58,428532.69,4585001.75,1.5,class
