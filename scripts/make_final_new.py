@@ -156,7 +156,7 @@ def results_panel(s, rows, city_lab):
 def n_porta(s):
     head(s, "Result: Porta", "Replacing the 832 planes")
     pic_h(s, "porta_result_species", M, 1.45, 4.9, 7.3)
-    results_panel(s, [("sun", "Summer shade", 98.9, 106.7, HEAT), ("snowflake", "Winter shade", 109, 99, RAIN)], "City practice")
+    results_panel(s, [("sun", "Summer shade", 97.6, 103.2, HEAT), ("snowflake", "Winter shade", 106.4, 98.4, RAIN)], "City practice")
     source(s, "ICGC, LiDAR 2021; Open Data BCN, arbrat viari; " + BCN)
 
 
@@ -188,6 +188,8 @@ def n_diversity(s):
          [[("−0.4 pts ", {"bold": True, "color": TREE, "size": 30}), ("to match the city's announced diversity", {})],
           [("Top species: 51% → 36% ", {"bold": True}), ("of the replacements", {})],
           [("At 20 effective species ", {"bold": True}), ("the method still beats the city's practice.", {})]], 16, INK)
+    b = box(s, W - 4.6, 0.1, 2.2, 0.32, WARN, radius=0.3, name="RERUN tag")
+    text(s, W - 4.6, 0.1, 2.2, 0.32, "numbers to rerun", 11, BG, True, align=PP_ALIGN.CENTER, anchor=MSO_ANCHOR.MIDDLE)
     source(s, "Nicol et al. 2026 (effective number of species); " + BCN)
 
 
@@ -229,7 +231,7 @@ def n_stakeholders(s):
 
 def n_contribution(s):
     head(s, "What the results say", "Each result, and how I read it")
-    rows = [("Porta", "summer shade 107% vs 99%, winter 99% vs 109%", "the gain comes from the species alone: same spots, same works", TREE),
+    rows = [("Porta", "summer shade 103% vs 98%, winter 98% vs 106%", "same spots, same works: 2/3 of the gain from the wider palette, 1/4 from choosing species", TREE),
             ("City plan", "101% vs 98% at the same diversity", "diversity is not what costs the shade", TREE),
             ("Back-test", "more shade in 23 of 26 real replacements, 1.7× per tree", "it holds where the city really worked, not only in Porta", HEAT),
             ("Mataró", "83% vs 63% of the planes' shade, 6 of 6 streets", "it travels to another city with its own rules", RAIN),
@@ -457,7 +459,7 @@ SLIDES = [
     (n_question, "My question: when a project must replace trees, can a method inside the city's rules choose species and positions so that shade and rain interception improve, or at least do not get worse, against the city's practice and against today? H1: no worse than the city, better in summer, and no more winter shade than today. H2: heat and runoff want different species."),
     (n_heat, "The heat module asks where the sun hits the street each hour, how much of it each crown stops, and counts summer shade as a gain and winter shade as a cost, because evergreen crowns that shade in summer also take the winter sun. I checked it against felt temperature with Ladybug and Infrared City."),
     (n_scenarios, "Every scenario uses the same streets and the same tree positions: only the species change. Today, three versions of the city's choice, the old table, which I cite, and the method."),
-    (n_porta, "In Porta, replacing the 832 planes, the city's practice keeps about 99% of today's summer shade; the method gives 107%, and with the city's diversity still 106%. In winter the method casts 99% of today's shade against 109%. Runoff stays the same."),
+    (n_porta, "In Porta, replacing the 832 planes, the city's practice keeps about 98% of today's summer shade; the method gives 103%. In winter the method casts 98% of today's shade against 106%. Runoff stays the same."),
     (n_cityplan, "The city has a per-tree plan for 513 Porta planes. At the same diversity, the method gives 101% of today's summer shade against the plan's 98%, with more winter sun and equal runoff."),
     (n_backtest, "I went back to 26 places where the city really replaced a group of trees. With the same positions, the method gives more shade in 23 of them, 1.7 times the shade per tree, and never more runoff."),
     (n_effective, "To count diversity I use the effective number of species: how many equally common species a mix is worth. Ten species in equal shares are worth ten; ten species with one at ninety percent are worth fewer than two."),
@@ -466,7 +468,7 @@ SLIDES = [
     (n_cost, "Each action has a price: keeping a tree about 44 euros, adding one about 260, replacing one 190 to 1,070, moving a young tree 700 to 3,000. The method replaces the same trees as the city, so the works and the cost are the same."),
     (n_impact, "Real projects cost one to two million euros. If the 513 planes the city plans to change in Porta followed the method, about 1,950 square metres more ground would be shaded on summer afternoons, for the same money. With ten million euros, about 9,300 replacements, the same order as the city made in eight years, and about three and a half hectares more shade."),
     (n_stakeholders,"The city sets the rules and the species list; the street designer, city staff or a firm, uses the tool and gets a layout and a report; the city approves the proposal, and the neighbours get the shade."),
-    (n_contribution, "What the results say: in Porta the gain comes from the species alone; at the city's own diversity the method still gains; it holds in 23 of 26 real replacements and in Mataró; runoff does not move, so it stays a do-no-harm check."),
+    (n_contribution, "What the results say: in Porta, same spots and same works, two thirds of the gain come from the wider palette and a quarter from choosing species; at the city's own diversity the method still gains; it holds in 23 of 26 real replacements and in Mataró; runoff does not move, so it stays a do-no-harm check."),
     (n_limits, "These are the limits: new trees at today's size, heat as shade checked with felt temperature, one interception rate, runoff that barely moves, free spots as an upper bound, and the cap on street trees only."),
     (n_context_maps, "Barcelona replaced almost eleven thousand street trees in eight years, one at a time. The plan caps any species at fifteen percent, but says nothing about where. Porta's canopy is twenty percent, the target thirty."),
     (n_crowns, "Same trunk, different crowns: at the plane's trunk size, the thirty species cast very different shade."),
