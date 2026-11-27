@@ -3,7 +3,7 @@
 // Steps slide sideways; inside a step, its pages slide vertically (no dropdowns: testers never opened them). A short tour
 // points at what to do on each step the first time (coach.js; "?" replays it). Every action calls the expert panel's code.
 import { computed, ref, watch, h, onBeforeUnmount, onMounted } from 'vue'
-import { download } from '../exporter.js'
+import { download, downloadAll } from '../exporter.js'
 import { state, ui, startDrawing, finishArea, cancelDrawing, setAreaAll, fillAreaSpots, fillableSpots, spotClass, areaCover,
   layoutEff, configJson, savedProject, loadConfig, costs, projectCost, runArea, setAddMode, AREA } from '../store.js'
 import { startCoach, coach, stop as stopCoach, tips, setTips } from '../coach.js'
@@ -88,6 +88,19 @@ const spots = computed(() => {
 })
 // the project autosaved in this browser
 const saved = savedProject()
+const openFile = ref(null), openMsg = ref('')
+async function openSaved(ev) { // a project .json saved earlier (user 27 Nov)
+  const f = ev.target.files?.[0]
+  ev.target.value = ''
+  if (!f) return
+  try {
+    await loadConfig(JSON.parse(await f.text()))
+    openMsg.value = ''
+    go(state.area ? 6 : 1)
+  } catch (e) {
+    openMsg.value = `Could not open ${f.name}: ${e.message}`
+  }
+}
 async function resume() {
   await loadConfig(saved)
   if (state.area) go(6)
@@ -181,7 +194,10 @@ const COSTS = [['tree', 'per new tree', 'New pit on a free spot, planting includ
         <div class="row">
           <button class="big primary go-next" @click="go(1)">Start <span aria-hidden="true">→</span></button>
           <button v-if="saved?.area" class="big ghost" @click="resume">Resume last project</button>
+          <button class="big ghost" @click="openFile.click()">Open a saved project</button>
+          <input ref="openFile" type="file" accept=".json,application/json" hidden @change="openSaved" />
         </div>
+        <p v-if="openMsg" class="hint accent">{{ openMsg }}</p>
         <div class="tipq" role="group" aria-label="Show tips">
           <span>Show me tips along the way?</span>
           <button :class="{ on: tips.on }" :aria-pressed="tips.on" @click="setTips(true)">Yes</button>
@@ -322,12 +338,17 @@ const COSTS = [['tree', 'per new tree', 'New pit on a free spot, planting includ
       <section v-else-if="ui.step === 9 && A" :key="key" class="card">
         <p class="say">Take it with you</p>
         <div class="toggles">
-          <button class="tog" @click="saveCfg"><Icon name="layers" /><b>Save project</b><small>open it again later</small></button>
+          <button class="tog" @click="saveCfg"><Icon name="layers" /><b>Save project</b><small>a .json to open later</small></button>
           <button class="tog" @click="download('dxf')"><Icon name="building" /><b>CAD</b><small>DXF</small></button>
           <button class="tog" @click="download('gpkg')"><Icon name="terrain" /><b>GIS</b><small>GeoPackage</small></button>
+          <button class="tog" @click="download('ifc')"><Icon name="park" /><b>BIM</b><small>IFC</small></button>
           <button class="tog" @click="state.showSchedule = !state.showSchedule"><Icon name="more" /><b>Tree table</b><small>CSV</small></button>
+          <button class="tog all" @click="downloadAll(configJson())"><Icon name="layers" /><b>Everything</b><small>one .zip</small></button>
         </div>
-        <p class="hint">Your project is also kept in this browser.</p>
+        <p class="hint">Your project is also kept in this browser.<InfoTip>The project file (.json) holds your area, the trees you kept,
+          moved or added, your priorities and rules. To work on it again: open the tool, and on the welcome screen press
+          <b>Open a saved project</b> and pick the file. CAD, GIS and IFC are in EPSG:25831 metres (the IFC in local metres from
+          the site origin, georeferenced).</InfoTip></p>
       </section>
 
       <section v-else :key="key" class="card">
@@ -445,7 +466,7 @@ button.ghost { background: transparent; }
 .sprout i:nth-of-type(3) { bottom: 44px; animation-delay: 1.7s, 2.9s; } .sprout i:nth-of-type(4) { bottom: 52px; animation-delay: 1.95s, 2.9s; }
 /* the crown opens behind the leaves: from a sprout to a tree */
 .sprout b { position: absolute; left: 13px; bottom: 34px; width: 64px; height: 58px; border-radius: 50%; background: var(--good);
-  transform: scale(0); transform-origin: 50% 90%; animation: crown 0.9s cubic-bezier(.2, .8, .2, 1.2) forwards 2.5s; }
+  z-index: 1; transform: scale(0); transform-origin: 50% 90%; animation: crown 0.9s cubic-bezier(.2, .8, .2, 1.2) forwards 2.5s; }
 /* steps slide sideways like pages; a step's own pages slide up and down */
 .next-enter-active, .next-leave-active, .back-enter-active, .back-leave-active,
 .down-enter-active, .down-leave-active, .up-enter-active, .up-leave-active { transition: transform 0.4s cubic-bezier(.2, .8, .2, 1), opacity 0.3s; }
