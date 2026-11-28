@@ -90,7 +90,7 @@ def coverage():
 def download(n=50):
     tk = token()
     c = pd.read_csv(OUT / "coverage.csv").dropna(subset=["image_id"])
-    s = c.groupby("pit_basis", group_keys=False).apply(lambda g: g.sample(min(len(g), n // 2), random_state=0))
+    s = c.sample(frac=1, random_state=0).groupby("pit_basis").head(n // 2)   # keeps pit_basis (groupby.apply drops it in pandas >= 2.2)
     from PIL import Image
     (OUT / "img").mkdir(parents=True, exist_ok=True)
     for r in s.itertuples():
