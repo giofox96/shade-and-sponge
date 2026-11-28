@@ -8,6 +8,9 @@ Usage (PC, project env; needs the site caches and databases/barcelona/arbrat_via
     python scripts/city_lp.py                         # Porta + Eixample + Sant Martí (the barris of run_barris.py)
     python scripts/city_lp.py "Gràcia" ...            # other districts or barri names, plus Porta
     python scripts/city_lp.py --local-ceiling         # also: in each barri no species above today's plane share
+    python scripts/city_lp.py --all [--local-ceiling] # every barri of barris_summary.csv (the city-palette runs)
+    python scripts/city_lp.py --all --totals          # city totals only, from the files already written (no LP)
+--all: Sants and Vilapicina are not in barris_summary.csv (city palette infeasible there, PR #208), so they are left out.
 --local-ceiling (user, 30 Oct): the city cap alone let one species reach 48.5% of a barri (notes/citywide_plan.md §6.8),
 so a replacement may not create a larger single-species share than the planes it removes: per barri, species count
 after replacement <= today's plane count (ASSUMPTION). Outputs then carry the suffix _local.
@@ -16,7 +19,9 @@ that species' local ceiling is raised to the number of such positions, so the ce
 Outputs: databases/barcelona/citylp/tool_v0_citylp_<slug>.csv (S0 + the 15 swept layouts, as tool_v0_summary_*),
          databases/barcelona/citylp_summary.csv (one row per barri, the joint layout with the most summer shade in total:
          local-cap tool, city-cap tool, city mix S1a),
-         databases/barcelona/citylp_species.csv (species counts per barri and layout, and the city cap)."""
+         databases/barcelona/citylp_species.csv (species counts per barri and layout, and the city cap),
+         databases/barcelona/citylp_city.csv (city totals over the barris run: today S0, city announced mix S1a, city
+         practice S1b, the sum of the per-barri runs (each with its own local cap) and the joint city LP)."""
 import sys, pathlib, numpy as np, pandas as pd
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
@@ -26,6 +31,50 @@ from shade_sponge.site import load_site, DB  # noqa: E402
 
 TRUNK, SIZE = "TERCERA", "exact"                          # Porta's reference options (run_barris.py)
 OUT = DB / "citylp"
+TAG = "_sizeexact_trunkTERCERA"
+
+
+def city_totals(barris, sfx):
+    """Sum over barris of shade (m²h), hotspot runoff (m³) and new trees per species, for each scenario. S1a, S1b = mean of
+    their draws; per-barri tool = each barri's own best summer layout (as barris_summary.csv); city LP = the joint layout
+    chosen below. Effective species = exp(Shannon) of the summed new trees."""
+    acc, sp = {}, list(layout.CITY_PALETTE)
+    best_lp = None
+    for name, s in barris:
+        f = DB / (f"tool_v0_summary{TAG}.csv" if s == "porta" else f"tool_v0_summary_{s}{TAG}.csv")
+        if not f.exists():
+            print(f"no per-barri run: {name}"); continue
+        d = pd.read_csv(f)
+        opt = d[d.scenario.str.startswith("S4_")]
+        rows = {"S0_today": d.iloc[0], "S1a_city_announced_mix": d[d.scenario.str.startswith("S1a")].mean(numeric_only=True),
+                "S1b_city_practice": d[d.scenario.str.startswith("S1b")].mean(numeric_only=True),
+                "method_per_barri_sum": opt.loc[opt.shade_summer_m2h.idxmax()]}
+        g = OUT / f"tool_v0_citylp{sfx}_{s}.csv"
+        if g.exists():
+            c = pd.read_csv(g).set_index("scenario")
+            if best_lp is None:
+                best_lp = pd.read_csv(DB / f"citylp{sfx}_summary.csv").layout.iloc[0]
+            rows["method_city_lp"] = c.loc[best_lp]
+        for k, r in rows.items():
+            a = acc.setdefault(k, dict(barris=0, summer=0.0, winter=0.0, runoff_hot=0.0, **{x: 0.0 for x in sp}))
+            a["barris"] += 1
+            a["summer"] += r.shade_summer_m2h; a["winter"] += r.shade_winter_m2h; a["runoff_hot"] += r.runoff_hot_m3
+            for x in sp:
+                a[x] += float(r.get(x, 0) or 0) if k != "S0_today" else 0
+    s0 = acc["S0_today"]
+    if "method_city_lp" in acc and acc["method_city_lp"]["barris"] < s0["barris"]:   # old run over fewer barris: not comparable
+        print(f"city LP files for {acc.pop('method_city_lp')['barris']} of {s0['barris']} barris only: city LP row left out")
+    out = []
+    for k, a in acc.items():
+        n = np.array([a[x] for x in sp]); q = n[n > 0] / n.sum() if n.sum() else np.array([1.0])
+        out.append(dict(scenario=k, barris=a["barris"], summer_m2h=round(a["summer"]), summer_pct_of_today=round(100 * a["summer"] / s0["summer"], 1),
+                        winter_pct_of_today=round(100 * a["winter"] / s0["winter"], 1),
+                        runoff_hot_change_pct=round(100 * (a["runoff_hot"] / s0["runoff_hot"] - 1), 2),
+                        eff_species=round(float(np.exp(-(q * np.log(q)).sum())), 1) if n.sum() else None,
+                        **{x: int(round(a[x])) for x in sp}))
+    out = pd.DataFrame(out)
+    out.to_csv(DB / f"citylp{sfx}_city.csv", index=False)
+    print(out.drop(columns=sp).to_string(index=False))
 
 
 def setup(name):
@@ -41,6 +90,8 @@ def setup(name):
 if __name__ == "__main__":
     args = [a for a in sys.argv[1:] if not a.startswith("--")] or ["Eixample", "Sant Martí"]
     idx = pd.read_csv(DB / "lidar_tiles_barris.csv").drop_duplicates("barri")
+    if "--all" in sys.argv:
+        args = [b for b in pd.read_csv(DB / "barris_summary.csv").barri.unique() if b != "Porta"]
     dist = [a for a in args if a not in set(idx.barri)]  # a name that is also a barri ("Sant Andreu") means the barri only
     sel = idx[idx.district.isin(dist) | idx.barri.isin(args)]
     barris = [("Porta", "porta")] + list(zip(sel.barri, sel.slug))
@@ -48,6 +99,9 @@ if __name__ == "__main__":
     loc = "--local-ceiling" in sys.argv
     relax = loc                                       # user decision (15 Nov): the single-fit exception is part of the local ceiling
     sfx = "_local" if loc else ""
+    if "--totals" in sys.argv:
+        city_totals(barris, sfx)
+        sys.exit()
 
     # 1. potentials and fit per barri (palette species are the same everywhere; their traits are each barri's medians)
     parts = []
@@ -120,7 +174,7 @@ if __name__ == "__main__":
                          runoff_hot_change_pct_citylp=round(100 * (b.runoff_hot_m3 / s0.runoff_hot_m3 - 1), 1),
                          max_genus_pct_citylp=round(b.max_genus_pct, 1), max_genus_citylp=b.max_genus))
     out = pd.DataFrame(rows)
-    ref = pd.read_csv(DB / "barris_summary.csv")[["barri", "summer_pct_s1a", "summer_pct_tool"]]
+    ref = pd.read_csv(DB / "barris_summary.csv").drop_duplicates("barri")[["barri", "summer_pct_s1a", "summer_pct_s1b", "summer_pct_tool"]]
     out = out.merge(ref, on="barri", how="left")
     out["citylp_minus_local_pts"] = (out.summer_pct_citylp - out.summer_pct_tool).round(1)
     out.to_csv(DB / f"citylp{sfx}_summary.csv", index=False)
@@ -129,3 +183,4 @@ if __name__ == "__main__":
     pd.concat([c, tot, pd.DataFrame([dict(barri="CITY_CAP", scenario="", **dict(zip(species, cap)))])]).to_csv(
         DB / f"citylp{sfx}_species.csv", index=False)
     print(out.to_string(index=False))
+    city_totals(barris, sfx)
