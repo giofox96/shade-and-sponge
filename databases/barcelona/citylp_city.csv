@@ -1,0 +1,5 @@
+scenario,barris,summer_m2h,summer_pct_of_today,winter_pct_of_today,runoff_hot_change_pct,eff_species,Celtis australis,Melia azedarach,Pyrus calleryana,Jacaranda mimosifolia,Tipuana tipu,Brachychiton populneus,Styphnolobium japonicum
+S0_today,67,18818915,100.0,100.0,0.0,,0,0,0,0,0,0,0
+S1a_city_announced_mix,67,15642112,83.1,99.3,0.87,5.9,4488,7816,7162,1460,8360,1360,8487
+S1b_city_practice,67,15321828,81.4,95.6,0.95,6.3,4676,8847,5783,8050,1194,3700,6883
+method_per_barri_sum,67,16637913,88.4,106.8,0.65,6.4,3743,8804,3518,6281,9395,4088,3304
