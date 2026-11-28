@@ -43,13 +43,17 @@ def add_only():
     from shade_sponge.site import slug
     rows = []
     for name in ADD_ONLY:
-        f = DB / f"tool_v0_summary_{slug(name)}{TAG}_scA.csv"
-        if not f.exists():
+        for pal in ("city", "barcelona"):                    # Barcelona palette where the city palette is infeasible
+            f = DB / f"tool_v0_summary_{slug(name)}{'' if pal == 'city' else '_barcelona'}{TAG}_scA.csv"
+            if f.exists():
+                break
+        else:
             print(f"no add-only run: {name}"); continue
         d = pd.read_csv(f)
         s0, opt = d.iloc[0], d[d.scenario.str.startswith("S4_")]
         best = opt.loc[opt.shade_summer_m2h.idxmax()]
-        row = dict(barri=name, spots=int(best[list(layout.CITY_PALETTE)].sum()), summer_m2h_today=round(s0.shade_summer_m2h))
+        sp = d.columns[d.columns.get_loc("eff_species") + 1:].drop("pareto", errors="ignore")   # species count columns
+        row = dict(barri=name, palette=pal, spots=int(best[sp].sum()), summer_m2h_today=round(s0.shade_summer_m2h))
         for k, r in (("method", best), ("s1a", d[d.scenario.str.startswith("S1a")].mean(numeric_only=True)),
                      ("s1b", d[d.scenario.str.startswith("S1b")].mean(numeric_only=True))):
             row[f"summer_added_m2h_{k}"] = round(r.shade_summer_m2h - s0.shade_summer_m2h)
