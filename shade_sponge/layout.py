@@ -178,12 +178,13 @@ def fits(site, pos, pal, size_rule=None, cap=None, margin=0.0):
     return f
 
 
-def planting_spots(conditional=False):
+def planting_spots(conditional=False, name="porta"):
     """Free street-tree spots (additions, scenarios A and R+A; scripts/porta_planting_spots.py), with their size class.
     Classes from scripts/porta_spot_classes.py (user decision 18 Nov): only "free" by default; conditional=True adds the
     spots a street project could clear (signs, crossings, lamps, bollards, bus stops). "blocked" never. Without the
-    class column: the spots with no exclusion (scripts/porta_spot_exclusions.py)."""
-    s = pd.read_csv(DB / "porta_planting_spots.csv").rename(columns={"spot_id": "tree_id"})
+    class column: the spots with no exclusion (scripts/porta_spot_exclusions.py). name: site slug; other barris have
+    <slug>_planting_spots.csv (scripts/porta_planting_spots.py "<barri>", OSM exclusions only, no classes)."""
+    s = pd.read_csv(DB / f"{name}_planting_spots.csv").rename(columns={"spot_id": "tree_id"})
     if "spot_class" in s:
         keep = s.spot_class.isin(["free", "conditional"] if conditional else ["free"])
     else:

@@ -21,7 +21,8 @@ Outputs: databases/barcelona/citylp/tool_v0_citylp_<slug>.csv (S0 + the 15 swept
          local-cap tool, city-cap tool, city mix S1a),
          databases/barcelona/citylp_species.csv (species counts per barri and layout, and the city cap),
          databases/barcelona/citylp_city.csv (city totals over the barris run: today S0, city announced mix S1a, city
-         practice S1b, the sum of the per-barri runs (each with its own local cap) and the joint city LP)."""
+         practice S1b, the sum of the per-barri runs (each with its own local cap) and the joint city LP),
+         databases/barcelona/citylp_add_only.csv (the barris with no planes: shade added in free spots, add_only())."""
 import sys, pathlib, numpy as np, pandas as pd
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
@@ -32,6 +33,32 @@ from shade_sponge.site import load_site, DB  # noqa: E402
 TRUNK, SIZE = "TERCERA", "exact"                          # Porta's reference options (run_barris.py)
 OUT = DB / "citylp"
 TAG = "_sizeexact_trunkTERCERA"
+ADD_ONLY = ["la Clota", "Ciutat Meridiana", "Torre Baró"]   # no planes: trees added in free spots only (user, 28 Nov)
+
+
+def add_only():
+    """The barris with no planes (user, 28 Nov): new trees in the free spots, planes none, same shade model and rules
+    (python -m shade_sponge "<barri>" --scenario=A --size=exact --trunk=TERCERA after scripts/porta_planting_spots.py
+    "<barri>"). Reported as shade ADDED, apart from the replacement totals. -> databases/barcelona/citylp_add_only.csv"""
+    from shade_sponge.site import slug
+    rows = []
+    for name in ADD_ONLY:
+        f = DB / f"tool_v0_summary_{slug(name)}{TAG}_scA.csv"
+        if not f.exists():
+            print(f"no add-only run: {name}"); continue
+        d = pd.read_csv(f)
+        s0, opt = d.iloc[0], d[d.scenario.str.startswith("S4_")]
+        best = opt.loc[opt.shade_summer_m2h.idxmax()]
+        row = dict(barri=name, spots=int(best[list(layout.CITY_PALETTE)].sum()), summer_m2h_today=round(s0.shade_summer_m2h))
+        for k, r in (("method", best), ("s1a", d[d.scenario.str.startswith("S1a")].mean(numeric_only=True)),
+                     ("s1b", d[d.scenario.str.startswith("S1b")].mean(numeric_only=True))):
+            row[f"summer_added_m2h_{k}"] = round(r.shade_summer_m2h - s0.shade_summer_m2h)
+            row[f"summer_added_pct_{k}"] = round(100 * (r.shade_summer_m2h / s0.shade_summer_m2h - 1), 1)
+        rows.append(row)
+    if rows:
+        out = pd.DataFrame(rows)
+        out.to_csv(DB / "citylp_add_only.csv", index=False)
+        print(out.to_string(index=False))
 
 
 def city_totals(barris, sfx):
@@ -101,6 +128,7 @@ if __name__ == "__main__":
     sfx = "_local" if loc else ""
     if "--totals" in sys.argv:
         city_totals(barris, sfx)
+        add_only()
         sys.exit()
 
     # 1. potentials and fit per barri (palette species are the same everywhere; their traits are each barri's medians)
@@ -184,3 +212,4 @@ if __name__ == "__main__":
         DB / f"citylp{sfx}_species.csv", index=False)
     print(out.to_string(index=False))
     city_totals(barris, sfx)
+    add_only()

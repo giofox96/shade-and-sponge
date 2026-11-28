@@ -10,8 +10,14 @@ ASSUMPTION / upper bound: driveways, crossings, bus stops, lamps, terraces and u
 so the spots are a capacity ceiling, not a planting plan.
 Output: databases/barcelona/porta_planting_spots.csv (EPSG:25831). Run from the repo root: python scripts/porta_planting_spots.py,
 then python scripts/porta_spot_exclusions.py (adds the OSM street-furniture exclusions to the same file).
+Other barri (whole-city "add only" run for the barris with no planes, user 28 Nov): python scripts/porta_planting_spots.py "<barri>"
+-> databases/barcelona/<slug>_planting_spots.csv, from barris/<slug>/trees_lidar.csv and buildings.geojson
+(scripts/bcn_lidar_barri.py). The OSM exclusions of scripts/porta_spot_exclusions.py are applied here from Overpass
+(same rules and clearances). Porta's second pass from the city's street objects (lamps, signs, bollards;
+scripts/porta_spot_exclusions_city.py) and the spot classes are Porta-only, so these spots are a looser upper bound
+than Porta's (ASSUMPTION).
 """
-import json, numpy as np, pandas as pd, geopandas as gpd
+import json, sys, numpy as np, pandas as pd, geopandas as gpd
 from shapely.geometry import LineString, Point
 from shapely.strtree import STRtree
 from shapely.ops import unary_union
@@ -20,13 +26,23 @@ from porta_sidewalk_width import ROOT, RAY, MIN_KERB, TILE, lines, size_class
 STEP, KERB_OFFSET, PROBE = 2.0, 0.7, 0.5
 SPACING = {"small": 7.0, "medium": 9.0, "large": 13.0}
 
-o = json.load(open(ROOT / "exchange/site_origin.json"))
-t = pd.read_csv(ROOT / "exchange/to_gh/porta_trees_lidar.csv")
-TX, TY = (t.x + o["origin_x"]).values, (t.y + o["origin_y"]).values
+NAME = sys.argv[1] if len(sys.argv) > 1 else "Porta"
+sys.path.insert(0, str(ROOT))
+from shade_sponge.site import slug  # noqa: E402
+SLUG = slug(NAME)
 b = pd.read_csv(ROOT / "databases/barcelona/raw/BarcelonaCiutat_Barris.csv")
-porta = gpd.GeoSeries.from_wkt(b.loc[b.nom_barri == "Porta", "geometria_etrs89"]).iloc[0]
-bld = gpd.read_file(ROOT / "exchange/to_gh/porta_buildings.geojson").set_crs(None, allow_override=True)
-blds = unary_union(bld.translate(o["origin_x"], o["origin_y"]).geometry.values)
+if SLUG == "porta":
+    o = json.load(open(ROOT / "exchange/site_origin.json"))
+    t = pd.read_csv(ROOT / "exchange/to_gh/porta_trees_lidar.csv")
+    TX, TY = (t.x + o["origin_x"]).values, (t.y + o["origin_y"]).values
+    bld = gpd.read_file(ROOT / "exchange/to_gh/porta_buildings.geojson").set_crs(None, allow_override=True)
+    blds = unary_union(bld.translate(o["origin_x"], o["origin_y"]).geometry.values)
+else:
+    d = ROOT / f"databases/barcelona/barris/{SLUG}"
+    t = pd.read_csv(d / "trees_lidar.csv")
+    TX, TY = t.x.values, t.y.values
+    blds = unary_union(gpd.read_file(d / "buildings.geojson").to_crs(25831).geometry.values)
+porta = gpd.GeoSeries.from_wkt(b.loc[b.nom_barri.map(slug) == SLUG, "geometria_etrs89"]).iloc[0]   # the site polygon
 
 xs = np.arange(np.floor((TX.min() - RAY) / TILE) * TILE, TX.max() + RAY, TILE)
 ys = np.arange(np.floor((TY.min() - RAY) / TILE) * TILE, TY.max() + RAY, TILE)
@@ -82,5 +98,19 @@ for r in c.sort_values(["line", "s"]).itertuples():          # greedy along each
 out = c.loc[keep, ["x", "y", "width_m", "size_class"]].reset_index(drop=True)
 out.insert(0, "spot_id", [f"ADD{k:04d}" for k in range(len(out))])
 assert out.width_m.min() >= 2.5 and porta.contains(gpd.points_from_xy(out.x, out.y)).all()
-out.round({"x": 2, "y": 2, "width_m": 2}).to_csv(ROOT / "databases/barcelona/porta_planting_spots.csv", index=False)
+if SLUG != "porta":                                       # OSM exclusions, same rules as scripts/porta_spot_exclusions.py
+    from porta_spot_exclusions import RULES
+    from osmnx._errors import InsufficientResponseError
+    area = gpd.GeoSeries([porta.buffer(50)], crs=25831).to_crs(4326).iloc[0]
+    pts = gpd.GeoSeries(gpd.points_from_xy(out.x, out.y), crs=25831)
+    out["excluded_by"] = ""
+    for name, tags, dist in RULES:
+        try:
+            f = ox.features_from_polygon(area, tags=tags).to_crs(25831).geometry
+        except InsufficientResponseError:          # none of these objects in the barri
+            continue
+        hit = pts.apply(lambda q: f.distance(q).min() < dist).values & (out.excluded_by == "")
+        out.loc[hit, "excluded_by"] = name
+    print("excluded by:", out[out.excluded_by != ""].excluded_by.value_counts().to_dict())
+out.round({"x": 2, "y": 2, "width_m": 2}).to_csv(ROOT / f"databases/barcelona/{SLUG}_planting_spots.csv", index=False)
 print(f"{len(c)} candidate points on sidewalks >= 2.5 m; {len(out)} spots after spacing:", out.size_class.value_counts().to_dict())
