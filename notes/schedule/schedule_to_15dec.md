@@ -2,6 +2,8 @@
 
 *Written 23 Nov. Source of truth: `schedule_to_15dec.csv` (edit it, then `python make_gantt.py schedule_to_15dec.csv gantt_to_15dec.png`). Gantt: `gantt_to_15dec.png`. Supersedes the week plan in `notes/roadmap_nov_dec.md`.*
 
+**Status 28 Nov:** the CSV and the Gantt are updated (done items in grey with ✓). The checklist below is the 23 Nov plan; the CSV is current.
+
 **Rules of the plan.** Giovanni's weekday mornings = one prompt each, results ready by 14:00. OMEN tasks need the PC on (afternoons/evenings). **Results frozen on Sun 6 Dec**: after that only writing, layout and deck. Thesis PDF + InDesign package (IDML, fonts, HR images) are submitted on 15 Dec, the day of the presentation: **the only fixed deadline** (RT and RM are closed). Angelos meets every **Tuesday at 16:00** (some may be skipped).
 
 ## Week 1 · 23–29 Nov · Midterm, data fixes, transfer tests

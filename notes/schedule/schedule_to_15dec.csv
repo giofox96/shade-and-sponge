@@ -1,30 +1,33 @@
 id,group,task,start,end,where,depends_on,status
-M1,Milestones,Midterm Pecha Kucha (5 min),2026-11-24,2026-11-24,Giovanni,,milestone
-M2,Milestones,Angelos Tue 16:00: questions (§7) + Q8 tree schedule,2026-12-01,2026-12-01,Giovanni,,milestone
-M5,Milestones,Angelos Tue 16:00: draft thesis + deck outline,2026-12-08,2026-12-08,Giovanni,,milestone
+M1,Milestones,Midterm Pecha Kucha,2026-11-24,2026-11-24,Giovanni,,done
+M2,Milestones,Angelos Tue 16:00: critical review of results,2026-12-01,2026-12-01,Giovanni,,milestone
 M3,Milestones,Results frozen (no new runs after this),2026-12-06,2026-12-06,Claude cloud,,milestone
+M5,Milestones,Angelos Tue 16:00: thesis draft + deck,2026-12-08,2026-12-08,Giovanni,,milestone
 M4,Milestones,Final presentation + submission PDF and IDML,2026-12-15,2026-12-15,Giovanni,,milestone
-R1,Requests,Parcs i Jardins answers + plane list (nudge 3 Dec if silent),2026-11-24,2026-12-03,Giovanni,,todo
-R2,Requests,Helena Coch follow-up email,2026-11-25,2026-11-25,Giovanni,,todo
-R5,Requests,RM cluster blog post: draft out + feedback + who publishes,2026-11-23,2026-11-27,Giovanni,,in progress
-R3,Requests,AGBAR eWise plans recheck,2026-11-26,2026-11-26,Giovanni,,todo
-R4,Requests,Update City practice (S1b) if the Parcs list arrives,2026-11-27,2026-12-02,Claude cloud,R1,todo
-D1,Data + tool,Fix the 144 needle LiDAR trees and rerun calculations,2026-11-23,2026-11-25,Claude via OMEN,,todo
-D2,Data + tool,Web-app data regen with spot classes,2026-11-25,2026-11-26,Claude via OMEN,D1,todo
-D3,Data + tool,Merge open branches (crea pr) + delete 24 stale branches,2026-11-28,2026-11-29,Giovanni,,todo
-D4,Data + tool,Tree schedule (abaco) in the web app (only if Angelos says yes on 1 Dec),2026-12-02,2026-12-05,Claude cloud,M2,optional
-D5,Data + tool,Final web-app data regen with frozen results,2026-12-05,2026-12-06,Claude via OMEN,D2,todo
-V1,Validation,Mataró: real crowns from ICGC LiDAR + rerun with diversity floor,2026-11-26,2026-11-29,Claude via OMEN,D1,todo
-V2,Validation,Florence: method transfer test on the city LiDAR trees,2026-11-29,2026-12-03,Claude via OMEN,V1,todo
-V3,Validation,Co-benefits indicators (diversity · pollen · carbon),2026-11-24,2026-12-01,Claude cloud,,in progress
-W1,Thesis,Update ch. 3 and 5 to current numbers,2026-11-25,2026-12-01,Claude cloud,,todo
-W2,Thesis,Write ch. 6 results (Porta + back-test + city),2026-11-30,2026-12-06,Claude cloud,D1,todo
-W3,Thesis,Write ch. 7 validation and transfer (Mataró + Florence),2026-12-02,2026-12-08,Claude cloud,V2,todo
-W4,Thesis,"Write ch. 1, 8, 9 + abstract (≤500 words, ≤5 keywords)",2026-12-06,2026-12-10,Claude cloud,W2,todo
-W5,Thesis,Harvard references (≥20) + figures in high resolution,2026-12-01,2026-12-10,Claude cloud,,todo
-W8,Thesis,"Sketches of the city's geometric rules and practice (ComfyUI on OMEN, after the heavy runs)",2026-12-03,2026-12-06,Claude via OMEN,V2,todo
-W6,Thesis,Giovanni reads and comments the full draft,2026-12-07,2026-12-11,Giovanni,W4,todo
-W7,Thesis,Layout in DesignCraft (A4) + export PDF and IDML package,2026-12-09,2026-12-13,Claude cloud,W6,todo
-P1,Defence,Defence deck + script,2026-12-07,2026-12-11,Claude cloud,M3,todo
-P2,Defence,Rehearsals (timed) + fixes,2026-12-12,2026-12-14,Giovanni,P1,todo
-B1,Defence,Buffer,2026-12-13,2026-12-14,Giovanni,,buffer
+V1,Results,Needle-tree fix + full recompute (PR #184),2026-11-23,2026-11-26,Claude via OMEN,,done
+V2,Results,Mataró with real LiDAR crowns + diversity floor,2026-11-26,2026-11-27,Claude via OMEN,,done
+V3,Results,Florence full transfer test,2026-11-27,2026-11-28,Claude via OMEN,,done
+V4,Results,All 73 barris (68/68 wins) + add-only barris,2026-11-26,2026-11-28,Claude via OMEN,,done
+V5,Results,Co-benefits + diversity floor + gain decomposition,2026-11-23,2026-11-27,Claude cloud,,done
+V6,Results,Whole-city LP with 15% city-wide cap (PR #209),2026-11-28,2026-11-29,Claude via OMEN,,in progress
+V7,Results,Cost per layout + €10 M impact statement,2026-11-29,2026-12-02,Claude cloud,,todo
+V8,Results,Web-app canopy refresh with fixed crowns (web_export),2026-12-04,2026-12-06,Claude via OMEN,,todo
+T1,Tool,Tree schedule (abaco) in the web app,2026-11-23,2026-11-24,Claude cloud,,done
+T2,Tool,Synthetic utilities 7 networks (PR #206 open),2026-11-26,2026-11-29,Claude cloud,,in progress
+T3,Tool,Tool feedback fixes (PR #202 open),2026-11-27,2026-11-29,Claude cloud,,in progress
+T4,Tool,Guided UI v0.2.0: refine + report step,2026-11-27,2026-12-10,Claude cloud,,in progress
+T5,Tool,Demo video of the guided flow,2026-12-09,2026-12-11,Giovanni,T4,todo
+T6,Tool,Review what is public + merge PRs + delete stale branches,2026-12-05,2026-12-13,Giovanni,,todo
+R1,Requests,Parcs i Jardins: open questions (15% city or district),2026-11-25,2026-12-03,Giovanni,,in progress
+R2,Requests,AGBAR eWise plans (project complete),2026-11-25,2026-11-26,Giovanni,,done
+W1,Thesis,Ch. 3 and 5 updated (PR #156),2026-11-23,2026-11-23,Claude cloud,,done
+W2,Thesis,Ch. 6 results + ch. 7 validation (PAUSED),2026-12-01,2026-12-07,Claude cloud,,paused
+W3,Thesis,"Ch. 1, 8, 9 + abstract + Harvard refs (PAUSED)",2026-12-03,2026-12-09,Claude cloud,,paused
+W4,Thesis,Giovanni reads and comments the full draft,2026-12-08,2026-12-11,Giovanni,W3,todo
+W5,Thesis,Layout DesignCraft (A4) + PDF and IDML package,2026-12-09,2026-12-13,Claude cloud,W4,todo
+P1,Defence,Critical-review slides for 1 Dec,2026-11-27,2026-11-30,Claude cloud,,in progress
+P2,Defence,Final deck + script,2026-11-26,2026-12-11,Claude cloud,,in progress
+P3,Defence,Rhino visual kits (PAUSED),2026-12-02,2026-12-06,Claude cloud,,paused
+P4,Defence,ComfyUI perspective sketches (OMEN),2026-12-03,2026-12-06,Claude via OMEN,,todo
+P5,Defence,Rehearsals (timed) + fixes,2026-12-12,2026-12-14,Giovanni,P2,todo
+P6,Defence,Buffer,2026-12-13,2026-12-14,Giovanni,,buffer
