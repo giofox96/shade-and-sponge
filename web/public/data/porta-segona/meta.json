@@ -439,6 +439,29 @@
    0.0
   ]
  },
+ "habit_by_species": {
+  "Acer negundo": "deciduous",
+  "Brachychiton acerifolius": "deciduous",
+  "Celtis occidentalis": "deciduous",
+  "Crataegus x medias Scarlet'": "deciduous",
+  "Eriobotrya japonica": "evergreen",
+  "Eucalyptus camaldulensis": "evergreen",
+  "Eugenia uniflora": "evergreen",
+  "Fraxinus ornus": "deciduous",
+  "Gleditsia triacanthos f. inermis": "deciduous",
+  "Handroanthus heptaphyllus": "semi-deciduous",
+  "Hesperocyparis macrocarpa": "evergreen",
+  "Liquidambar styraciflua": "deciduous",
+  "Morus alba": "deciduous",
+  "Morus nigra": "deciduous",
+  "Phoenix dactylifera": "evergreen",
+  "Photinia x fraseri": "evergreen",
+  "Populus x canadensis": "deciduous",
+  "Prunus serrulata": "deciduous",
+  "Tilia tomentosa": "deciduous",
+  "Ulmus": "deciduous",
+  "X chitalpa tashkentensis SUMMER": "deciduous"
+ },
  "grid": {
   "W": 1123,
   "H": 1055,
@@ -2185,27 +2208,5 @@
   "spots_flagged": 121,
   "free_spots_flagged": 72,
   "pit_r_m": 0.5
- },
- "habit_by_species": {
-  "Acer negundo": "deciduous",
-  "Brachychiton acerifolius": "deciduous",
-  "Celtis occidentalis": "deciduous",
-  "Crataegus x medias Scarlet'": "deciduous",
-  "Eriobotrya japonica": "evergreen",
-  "Eucalyptus camaldulensis": "evergreen",
-  "Eugenia uniflora": "evergreen",
-  "Fraxinus ornus": "deciduous",
-  "Gleditsia triacanthos f. inermis": "deciduous",
-  "Handroanthus heptaphyllus": "semi-deciduous",
-  "Hesperocyparis macrocarpa": "evergreen",
-  "Liquidambar styraciflua": "deciduous",
-  "Morus alba": "deciduous",
-  "Morus nigra": "deciduous",
-  "Phoenix dactylifera": "evergreen",
-  "Photinia x fraseri": "evergreen",
-  "Populus x canadensis": "deciduous",
-  "Prunus serrulata": "deciduous",
-  "Tilia tomentosa": "deciduous",
-  "X chitalpa tashkentensis SUMMER": "deciduous"
  }
 }
