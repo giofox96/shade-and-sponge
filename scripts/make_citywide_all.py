@@ -1,6 +1,7 @@
 """Whole-city figure for the final deck: every plane replaced in all barris under one city-wide 15% cap.
 Input: databases/barcelona/citylp_summary.csv + citylp_city.csv (python scripts/city_lp.py --all),
        web/public/data/barris.geojson (official outlines, Open Data BCN, CC BY 4.0; scripts/make_barris_web.py).
+       databases/barcelona/citylp_add_only.csv if present (barris with no planes: trees added in free spots, shown apart).
 --per-barri: plot the per-barri runs instead (barris_summary.csv; each barri with its own cap), the baseline.
 Output: slides/fig_v7/res_08_city_all[_per_barri].svg/.png. Run from scripts/: python make_citywide_all.py [--per-barri]
 """
@@ -8,7 +9,7 @@ import json, math, re, sys, unicodedata
 import numpy as np
 import pandas as pd
 import make_infographics as mi
-from make_infographics import t, para, rect, save, ROOT, INK, MUTED, GRID, BG, TREE, WARN
+from make_infographics import t, para, rect, save, ROOT, INK, MUTED, GRID, BG, TREE, WARN, RAIN
 
 mi.OUT = ROOT / "slides/fig_v7"
 DB = ROOT / "databases/barcelona"
@@ -23,11 +24,14 @@ else:
     m = "method_city_lp"
 d["gain"] = d.method - d.summer_pct_s1b                      # points of today's summer shade, method vs city practice
 c = pd.read_csv(DB / "citylp_city.csv").set_index("scenario")
+fa = DB / "citylp_add_only.csv"
+add = pd.read_csv(fa) if fa.exists() else pd.DataFrame(columns=["barri", "spots", "summer_added_pct_method"])
 
 
 def fig():
     g = json.load(open(ROOT / "web/public/data/barris.geojson", encoding="utf-8"))["features"]
     gain = dict(zip(d.barri.map(key), d.gain))
+    added = set(add.barri.map(key))
     rings = [(f["properties"]["name"], r) for f in g for poly in
              ([f["geometry"]["coordinates"]] if f["geometry"]["type"] == "Polygon" else f["geometry"]["coordinates"])
              for r in poly[:1]]
@@ -40,7 +44,7 @@ def fig():
     b = ""
     for name, r in rings:
         v = gain.get(key(name))
-        fill, op = (GRID, 1.0) if v is None else (WARN, 0.9) if v < 0 else (TREE, 0.15 + 0.85 * v / hi)
+        fill, op = (RAIN, 0.6) if key(name) in added else (GRID, 1.0) if v is None else (WARN, 0.9) if v < 0 else (TREE, 0.15 + 0.85 * v / hi)
         pts = " ".join(f"{x:.1f},{y:.1f}" for x, y in map(px, r))
         b += f'<polygon points="{pts}" fill="{fill}" fill-opacity="{op:.2f}" stroke="{BG}" stroke-width="0.8"/>'
 
@@ -49,7 +53,9 @@ def fig():
         b += rect(980 + i * 50, 180, 50, 22, TREE, rx=0, op=0.15 + 0.85 * v / hi) + t(980 + i * 50, 222, f"{v:.0f}", 13, MUTED)
     b += t(980, 168, "Summer shade gain over city practice (points)", 16, INK, "bold")
     b += rect(980, 236, 22, 22, WARN, rx=0, op=0.9) + t(1010, 253, "below city practice", 14, MUTED)
-    b += rect(1180, 236, 22, 22, GRID, rx=0) + t(1210, 253, "no planes or no LiDAR", 14, MUTED)
+    b += rect(1180, 236, 22, 22, GRID, rx=0) + t(1210, 253, "not computed", 14, MUTED)
+    if len(add):
+        b += rect(1380, 236, 22, 22, RAIN, rx=0, op=0.6) + t(1410, 253, "no planes: trees added", 14, MUTED)
 
     y = 320                                                    # city totals: % of today's summer shade
     bars = [("Method", c.loc[m]), ("City practice", c.loc["S1b_city_practice"]), ("City announced mix", c.loc["S1a_city_announced_mix"])]
@@ -68,6 +74,10 @@ def fig():
         b += t(980, y, big, 40, TREE, "bold")
         b += para(980, y + 30, small, 560, 17, fill=MUTED)[0]
         y += 100
+    if len(add):                                               # shade added where there are no planes, kept apart
+        b += para(980, y, f"No planes in {', '.join(add.barri)}: {int(add.spots.sum())} trees added in free spots, "
+                  "summer shade " + ", ".join(f"{r.summer_added_pct_method:+.0f}%" for r in add.itertuples()) +
+                  " (not in the totals above)", 560, 16, fill=MUTED)[0]
     sub = ("Each barri with its own 15% cap" if PER else "One city-wide 15% cap") + \
           f": every plane replaced in {len(d)} barris, against the city's own practice"
     save("res_08_city_all" + ("_per_barri" if PER else ""), "The whole city: same rules, every plane", sub, b,

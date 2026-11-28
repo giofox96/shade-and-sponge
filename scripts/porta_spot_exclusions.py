@@ -19,14 +19,15 @@ RULES = [("traffic_signals", {"highway": "traffic_signals"}, 3.0),
          ("bus_stop", {"highway": "bus_stop"}, 8.0),
          ("bus_stop", {"public_transport": "platform"}, 8.0)]
 
-s = pd.read_csv(SPOTS).drop(columns="excluded_by", errors="ignore")
-pts = gpd.GeoSeries(gpd.points_from_xy(s.x, s.y), crs=25831)
-s["excluded_by"] = ""
-for name, tags, d in RULES:
-    f = ox.features_from_xml(XML, tags=tags).to_crs(25831).geometry
-    hit = pts.apply(lambda p: f.distance(p).min() < d).values & (s.excluded_by == "")   # first rule that applies
-    s.loc[hit, "excluded_by"] = name
-s.to_csv(SPOTS, index=False)
-kept = s[s.excluded_by == ""]
-print(f"{len(s)} spots -> {len(kept)} kept; excluded by:", s[s.excluded_by != ""].excluded_by.value_counts().to_dict())
-print("kept by size class:", kept.size_class.value_counts().to_dict(), "| before:", s.size_class.value_counts().to_dict())
+if __name__ == "__main__":
+    s = pd.read_csv(SPOTS).drop(columns="excluded_by", errors="ignore")
+    pts = gpd.GeoSeries(gpd.points_from_xy(s.x, s.y), crs=25831)
+    s["excluded_by"] = ""
+    for name, tags, d in RULES:
+        f = ox.features_from_xml(XML, tags=tags).to_crs(25831).geometry
+        hit = pts.apply(lambda p: f.distance(p).min() < d).values & (s.excluded_by == "")   # first rule that applies
+        s.loc[hit, "excluded_by"] = name
+    s.to_csv(SPOTS, index=False)
+    kept = s[s.excluded_by == ""]
+    print(f"{len(s)} spots -> {len(kept)} kept; excluded by:", s[s.excluded_by != ""].excluded_by.value_counts().to_dict())
+    print("kept by size class:", kept.size_class.value_counts().to_dict(), "| before:", s.size_class.value_counts().to_dict())

@@ -35,9 +35,10 @@ repl = opt.get("replace", opt.get("plan"))
 tag = ptag + (f"_div{opt['diversity']}" if min_eff else "") + (f"_size{size_rule}" if size_rule else "") + ("_keepmer" if keep_mer else "") + (f"_trunk{trunk}" if trunk else "")
 tag += (f"_sc{scen}" if scen != "R" else "") + (f"_area{pathlib.Path(area).stem}" if area else "") + (f"_prio{top}" if top else "")
 tag += f"_repl{pathlib.Path(repl).stem}" if repl else ""
-if name != "porta" and (scen != "R" or top):
-    sys.exit("other barris: only --scenario=R without --priority for now (free spots and the priority proxy exist for "
-             "Porta only; notes/citywide_plan.md §6.2 step 4). --size needs scripts/porta_sidewalk_width.py \"<barri>\" first")
+if name != "porta" and (scen == "RA" or top):
+    sys.exit("other barris: --scenario=R, or A once scripts/porta_planting_spots.py \"<barri>\" has run, without --priority "
+             "(the priority proxy exists for Porta only; notes/citywide_plan.md §6.2 step 4). --size needs "
+             "scripts/porta_sidewalk_width.py \"<barri>\" first")
 tag = ("" if name == "porta" else "_" + slug(name)) + tag    # Porta keeps its file names
 site = load_site(name)
 o = json.load(open(EX / "site_origin.json"))
@@ -51,7 +52,7 @@ if area:
     pos = pos[layout.in_area(pos, area)]
 if top:                                                  # replace the most likely to go first (health.py, ASSUMPTION)
     pos = pos.merge(health.priority(site.trees)[["tree_id", "priority"]]).nlargest(top, "priority", keep="first")
-spots = layout.planting_spots() if scen != "R" else None
+spots = layout.planting_spots(name=site.name) if scen != "R" else None
 if spots is not None and area:
     spots = spots[layout.in_area(spots, area)]
 if scen == "A":
