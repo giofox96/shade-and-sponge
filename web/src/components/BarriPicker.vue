@@ -2,7 +2,7 @@
 // Neighbourhood picker: a mini-map of Barcelona's 73 barris (click one) plus a dropdown grouped by district.
 // Only barris where the tool has been run (property `site`, scripts/make_barris_web.py) open on the map.
 import { computed, onMounted, ref } from 'vue'
-import { state, switchSite } from '../store.js'
+import { state, switchSite, city } from '../store.js'
 
 const W = 240
 const fc = ref(null)
@@ -41,6 +41,19 @@ const districts = computed(() => {
   return Object.entries(g).sort(([a], [b]) => a.localeCompare(b))
 })
 const info = computed(() => barris.value.find((b) => b.name === (hover.value ?? state.barri)))
+// whole-city results (city.json): fill = method minus city practice (S1b), in points of today's summer shade
+const res = (name) => city.data?.barris?.[name]
+const gain = (name) => { const r = res(name); return r && r.summer_pct_method != null && r.summer_pct_s1b != null ? r.summer_pct_method - r.summer_pct_s1b : null }
+function fillOf(name) {
+  const r = res(name)
+  if (r?.add_only) return 'var(--accent, #283F66)'
+  const g = gain(name)
+  if (g == null) return null
+  const t = Math.max(0, Math.min(1, g / 10))                 // 0 → 10+ points
+  return `rgb(${Math.round(214 - t * 151)}, ${Math.round(224 - t * 122)}, ${Math.round(205 - t * 143)})`   // pale sage → #3F663E
+}
+const infoRes = computed(() => info.value && res(info.value.name))
+const pct = (v) => (v == null ? '–' : v.toFixed(1) + '%')
 
 function pick(name) {
   const b = barris.value.find((x) => x.name === name)
@@ -55,8 +68,9 @@ function pick(name) {
   <div v-if="proj">
     <svg :viewBox="`0 0 ${W} ${proj.h.toFixed(0)}`" class="mini" role="img" aria-label="Map of Barcelona's neighbourhoods: click one to select it">
       <path v-for="b in barris" :key="b.name" :d="b.d" :class="{ ready: b.site, on: b.name === state.barri }"
+            :style="fillOf(b.name) && !b.site ? { fill: fillOf(b.name) } : null"
             @click="pick(b.name)" @mouseenter="hover = b.name" @mouseleave="hover = null">
-        <title>{{ b.name }}{{ b.site ? '' : ' (not computed yet)' }}</title>
+        <title>{{ b.name }}{{ b.site ? '' : res(b.name) ? (gain(b.name) != null ? ` (method − city practice: ${gain(b.name).toFixed(1)} pts)` : ' (shade added in free spots)') : ' (not computed yet)' }}</title>
       </path>
     </svg>
     <!-- type to search: the browser suggests matching names; Enter or a pick selects it -->
@@ -65,18 +79,31 @@ function pick(name) {
     <datalist id="barri-names"><option v-for="b in barris" :key="b.name" :value="b.name">{{ b.district }}</option></datalist>
     <select :value="state.barri" aria-label="Neighbourhood" @change="pick($event.target.value)">
       <optgroup v-for="[d, list] in districts" :key="d" :label="d">
-        <option v-for="b in list" :key="b.name" :value="b.name">{{ b.name }}{{ b.site ? '' : ' · not computed yet' }}</option>
+        <option v-for="b in list" :key="b.name" :value="b.name">{{ b.name }}{{ b.site || res(b.name) ? '' : ' · not computed yet' }}</option>
       </optgroup>
     </select>
     <p v-if="info" class="small muted">
       <b class="ink">{{ info.name }}</b><template v-if="info.district"> · {{ info.district }}</template>
       <template v-if="info.planes != null"> · {{ info.planes.toLocaleString('en') }} planes of {{ info.street_trees.toLocaleString('en') }} street trees</template>
     </p>
-    <p v-if="!barris.find((b) => b.name === state.barri)?.site" class="small warn">
+    <table v-if="infoRes && !infoRes.add_only" class="small res">
+      <tr><td>Method (own barri)</td><td>{{ pct(infoRes.summer_pct_method) }}</td></tr>
+      <tr><td>City practice (S1b)</td><td>{{ pct(infoRes.summer_pct_s1b) }}</td></tr>
+      <tr><td>City announced mix (S1a)</td><td>{{ pct(infoRes.summer_pct_s1a) }}</td></tr>
+      <tr><td>Method, city-wide LP</td><td>{{ pct(infoRes.summer_pct_citylp) }}</td></tr>
+      <tr><td colspan="2" class="muted">Summer shade of the street trees, % of today, every plane replaced.</td></tr>
+    </table>
+    <table v-else-if="infoRes?.add_only" class="small res">
+      <tr><td colspan="2"><b>No planes: shade added</b> in {{ infoRes.spots }} free spots</td></tr>
+      <tr><td>Method</td><td>+{{ pct(infoRes.summer_added_pct_method) }}</td></tr>
+      <tr><td>City practice (S1b)</td><td>+{{ pct(infoRes.summer_added_pct_s1b) }}</td></tr>
+      <tr><td>City announced mix (S1a)</td><td>+{{ pct(infoRes.summer_added_pct_s1a) }}</td></tr>
+    </table>
+    <p v-else-if="!barris.find((b) => b.name === state.barri)?.site" class="small warn">
       Not computed yet. The map still shows {{ state.meta.site.name }}. Running a barri needs its LiDAR crowns, sidewalk widths
       and site bundle (city-wide plan, §6).
     </p>
-    <p class="small muted legend"><span><span class="sw ready"></span> computed</span><span><span class="sw"></span> not yet</span></p>
+    <p class="small muted legend"><span><span class="sw ready"></span> full tool</span><span><span class="sw grad"></span> method − practice, 0 → 10 pts</span><span><span class="sw add"></span> shade added</span><span><span class="sw"></span> not computed</span></p>
     <p class="small muted">Outlines: {{ fc.source }}</p>
   </div>
 </template>
@@ -96,4 +123,10 @@ path.ready.on { fill: var(--good); }
 .legend > span { display: inline-flex; align-items: center; gap: 4px; }
 .sw { display: inline-block; width: 10px; height: 10px; border-radius: 2px; background: var(--line); }
 .sw.ready { background: var(--good); }
+.sw.grad { background: linear-gradient(90deg, rgb(214, 224, 205), rgb(63, 102, 62)); width: 22px; }
+.sw.add { background: var(--accent, #283F66); }
+.legend { flex-wrap: wrap; }
+.res { width: 100%; border-collapse: collapse; margin: 4px 0 6px; }
+.res td { padding: 2px 0; }
+.res td + td { text-align: right; font-variant-numeric: tabular-nums; }
 </style>
