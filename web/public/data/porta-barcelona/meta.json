@@ -3807,11 +3807,6 @@
   "min_m": 29.3,
   "max_m": 77.2
  },
- "lidar": {
-  "file": "lidar.bin.gz",
-  "n": 996695,
-  "voxel_m": 2.0
- },
  "cobenefits": {
   "base": {
    "S0_current": {

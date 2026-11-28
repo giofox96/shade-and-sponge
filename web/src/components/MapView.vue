@@ -9,13 +9,13 @@ import workerUrl from 'maplibre-gl/dist/maplibre-gl-worker.mjs?url' // v6 looks 
 import 'maplibre-gl/dist/maplibre-gl.css'
 import { MapboxOverlay } from '@deck.gl/mapbox'
 import { COORDINATE_SYSTEM } from '@deck.gl/core'
-import { BitmapLayer, GeoJsonLayer, PathLayer, PointCloudLayer, PolygonLayer, ScatterplotLayer, TextLayer } from '@deck.gl/layers'
+import { BitmapLayer, GeoJsonLayer, PathLayer, PolygonLayer, ScatterplotLayer, TextLayer } from '@deck.gl/layers'
 import { SimpleMeshLayer } from '@deck.gl/mesh-layers'
 import { TileLayer } from '@deck.gl/geo-layers'
 import { _TerrainExtension as TerrainExtension, PathStyleExtension } from '@deck.gl/extensions'
 import { SphereGeometry } from '@luma.gl/engine'
 import { state, dataUrl, hexToRgb, currentLayout, spotClass, addTreeAt, addVertex, keptReplaced, themeColors, isDark, AREA, addableMask, finishArea,
-  cancelDrawing, finishEditArea, cancelEditArea, groundZ, HABIT_RGB, habits, habitOf, moveTargets, setMoveTarget, setGround3d, setLidar, setParks, setUtilities, spotWhy, keptKey, ORTO, UTIL_COLOR, city, cityColor } from '../store.js'
+  cancelDrawing, finishEditArea, cancelEditArea, groundZ, HABIT_RGB, habits, habitOf, moveTargets, setMoveTarget, setGround3d, setParks, setUtilities, spotWhy, keptKey, ORTO, UTIL_COLOR, city, cityColor } from '../store.js'
 
 setWorkerUrl(workerUrl)
 const el = ref(null)
@@ -40,19 +40,6 @@ const alpha = (leaf) => Math.round(60 + 170 * leaf) // crown (and trunk) opacity
 const M_DEG = 40075016.686 / 360
 const local = () => ({ coordinateSystem: COORDINATE_SYSTEM.METER_OFFSETS, coordinateOrigin: [...state.meta.site.center, 0] })
 
-// LiDAR points: on the flat map a point sits at its height above ground, on the relief at its true height
-const LIDAR_RGB = [[150, 128, 104], [70, 140, 60], [196, 120, 92], [172, 172, 166]] // ground, vegetation, building, other
-let cloud = null, cloudOf = null
-function lidarData() {
-  const L = state.lidar, key = `${L.site}:${state.ground3d}`
-  if (cloudOf !== key) {
-    const pos = new Float32Array(L.pos), col = new Uint8Array(3 * L.n), h = state.ground3d ? L.z : L.hag
-    for (let i = 0; i < L.n; i++) { pos[3 * i + 2] = h[i]; col.set(LIDAR_RGB[L.cls[i]], 3 * i) }
-    cloud = { length: L.n, attributes: { getPosition: { value: pos, size: 3 }, getColor: { value: col, size: 3 } } }
-    cloudOf = key
-  }
-  return cloud
-}
 
 // 3D ground: the DTM grid as one mesh (a vertex per cell: metres east, north, up), with normals so the slopes are shaded
 let relief = null, reliefOf = null
@@ -494,8 +481,6 @@ function layers() {
     ...crowns(),
     ...movedLayers(),
     ...dimensions(selected), // after the crowns: drawn over them
-    state.showLidar && state.lidar &&
-      new PointCloudLayer({ id: 'lidar', data: lidarData(), ...local(), pointSize: 2, sizeUnits: 'pixels', material: false }),
     // the project-area outline and the corners being drawn go over buildings and crowns (no depth test)
     state.area && !state.editing &&
       new PathLayer({ id: 'area-line', data: [[...state.area.poly, state.area.poly[0]]], getPath: (d) => d, parameters: ON_TOP, ...drape(),
@@ -588,7 +573,7 @@ onMounted(() => {
 
 watch(
   () => [state.scenarioId, state.live?.version, state.area?.version, state.area, state.drawing, state.draft, state.overlay, state.showStreets, state.showSpots, isDark.value,
-    state.month, state.selected, state.addedVersion, state.showParks, state.showUtilities, state.buildingOpacity, state.addMode, state.editing, state.ground3d, state.basemap, state.meta, state.showLidar, habits.map, Object.values(state.schedule.trees).map((e) => e.to ?? "").join()],
+    state.month, state.selected, state.addedVersion, state.showParks, state.showUtilities, state.buildingOpacity, state.addMode, state.editing, state.ground3d, state.basemap, state.meta, habits.map, Object.values(state.schedule.trees).map((e) => e.to ?? "").join()],
   () => overlay?.setProps({ layers: layers() }),
 )
 
@@ -607,7 +592,7 @@ watch(() => [state.barri, city.data], () => {
 watch(() => [isDark.value, state.basemap], () => map?.setStyle(style()))
 
 // another site or palette: its own relief file
-watch(() => state.meta, (m) => { if (m && state.ground3d) setGround3d(true); if (m && state.showLidar) setLidar(true); if (m && state.showParks) setParks(true); if (m && state.showUtilities) setUtilities(true) }, { immediate: true })
+watch(() => state.meta, (m) => { if (m && state.ground3d) setGround3d(true); if (m && state.showParks) setParks(true); if (m && state.showUtilities) setUtilities(true) }, { immediate: true })
 
 // a new project area: frame it (keeps the current pitch and bearing)
 watch(() => state.area?.poly, (poly) => {

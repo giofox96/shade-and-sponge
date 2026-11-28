@@ -167,7 +167,7 @@ watch(
         <summary>Data and sources</summary>
         <p class="small muted sources">
           Street trees and neighbourhood outlines: Ajuntament de Barcelona, Open Data BCN (CC BY 4.0) ·
-          LiDAR points, crowns, terrain, building heights: ICGC 2021–2022 (CC BY 4.0) ·
+          LiDAR crowns, terrain, building heights: ICGC 2021–2022 (CC BY 4.0) ·
           Sidewalks and building footprints: 1:1000 base map, Ajuntament de Barcelona (CC BY 4.0) ·
           Basemap: © OpenStreetMap contributors (ODbL); tiles OpenFreeMap (light) and © CARTO (dark) ·
           Aerial photo: orthophoto of Catalonia, ICGC (CC BY 4.0) ·
