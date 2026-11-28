@@ -1,272 +1,1022 @@
 barri,scenario,Celtis australis,Melia azedarach,Pyrus calleryana,Jacaranda mimosifolia,Tipuana tipu,Brachychiton populneus,Styphnolobium japonicum
-Porta,S4_s0.00_w0.00_r1.00,16,341,52,343,0,30,50
-Porta,S4_s0.00_w0.25_r0.75,16,33,353,305,24,21,80
-Porta,S4_s0.00_w0.50_r0.50,27,112,356,211,25,19,82
-Porta,S4_s0.00_w0.75_r0.25,54,35,406,183,26,7,121
+Porta,S4_s0.00_w0.00_r1.00,16,341,52,343,0,28,52
+Porta,S4_s0.00_w0.25_r0.75,16,78,353,260,24,21,80
+Porta,S4_s0.00_w0.50_r0.50,38,110,357,199,25,16,87
+Porta,S4_s0.00_w0.75_r0.25,63,25,417,174,26,7,120
 Porta,S4_s0.00_w1.00_r0.00,79,1,462,151,33,7,99
 Porta,S4_s0.25_w0.00_r0.75,16,347,52,337,0,68,12
-Porta,S4_s0.25_w0.25_r0.50,16,425,52,259,0,30,50
-Porta,S4_s0.25_w0.50_r0.25,16,432,52,251,1,16,64
-Porta,S4_s0.25_w0.75_r0.00,24,269,52,241,0,7,239
-Porta,S4_s0.50_w0.00_r0.50,16,348,52,336,0,68,12
-Porta,S4_s0.50_w0.25_r0.25,16,446,52,238,0,67,13
-Porta,S4_s0.50_w0.50_r0.00,16,437,52,247,0,21,59
-Porta,S4_s0.75_w0.00_r0.25,16,353,52,331,0,68,12
+Porta,S4_s0.25_w0.25_r0.50,16,426,52,258,0,28,52
+Porta,S4_s0.25_w0.50_r0.25,16,430,52,253,1,15,65
+Porta,S4_s0.25_w0.75_r0.00,33,226,56,232,0,7,278
+Porta,S4_s0.50_w0.00_r0.50,16,349,52,335,0,68,12
+Porta,S4_s0.50_w0.25_r0.25,16,447,52,237,0,66,14
+Porta,S4_s0.50_w0.50_r0.00,16,430,52,253,1,18,62
+Porta,S4_s0.75_w0.00_r0.25,16,354,52,330,0,68,12
 Porta,S4_s0.75_w0.25_r0.00,16,450,52,234,0,67,13
 Porta,S4_s1.00_w0.00_r0.00,16,440,52,244,0,68,12
-Sant Antoni,S4_s0.00_w0.00_r1.00,413,195,57,27,127,134,36
-Sant Antoni,S4_s0.00_w0.25_r0.75,315,101,178,44,122,119,110
-Sant Antoni,S4_s0.00_w0.50_r0.50,115,237,178,44,183,109,123
-Sant Antoni,S4_s0.00_w0.75_r0.25,56,251,179,58,209,66,170
-Sant Antoni,S4_s0.00_w1.00_r0.00,15,54,306,184,107,35,288
-Sant Antoni,S4_s0.25_w0.00_r0.75,342,100,57,22,298,170,0
-Sant Antoni,S4_s0.25_w0.25_r0.50,265,207,57,27,263,133,37
-Sant Antoni,S4_s0.25_w0.50_r0.25,31,331,57,40,360,91,79
-Sant Antoni,S4_s0.25_w0.75_r0.00,7,388,58,132,235,57,112
-Sant Antoni,S4_s0.50_w0.00_r0.50,255,100,57,22,385,170,0
-Sant Antoni,S4_s0.50_w0.25_r0.25,31,163,57,23,545,148,22
-Sant Antoni,S4_s0.50_w0.50_r0.00,4,283,57,52,423,80,90
-Sant Antoni,S4_s0.75_w0.00_r0.25,83,105,57,22,552,170,0
-Sant Antoni,S4_s0.75_w0.25_r0.00,3,149,57,25,585,144,26
-Sant Antoni,S4_s1.00_w0.00_r0.00,0,113,57,34,615,169,1
-el Fort Pienc,S4_s0.00_w0.00_r1.00,40,612,66,141,8,68,45
-el Fort Pienc,S4_s0.00_w0.25_r0.75,40,91,387,38,124,28,272
-el Fort Pienc,S4_s0.00_w0.50_r0.50,2,126,392,38,124,28,270
-el Fort Pienc,S4_s0.00_w0.75_r0.25,1,121,396,38,125,28,271
-el Fort Pienc,S4_s0.00_w1.00_r0.00,0,64,435,38,128,28,287
-el Fort Pienc,S4_s0.25_w0.00_r0.75,41,612,66,141,7,113,0
-el Fort Pienc,S4_s0.25_w0.25_r0.50,40,613,66,141,7,68,45
-el Fort Pienc,S4_s0.25_w0.50_r0.25,55,651,66,62,33,53,60
-el Fort Pienc,S4_s0.25_w0.75_r0.00,56,441,77,51,43,44,268
-el Fort Pienc,S4_s0.50_w0.00_r0.50,46,607,66,141,7,113,0
-el Fort Pienc,S4_s0.50_w0.25_r0.25,113,624,66,57,7,93,20
-el Fort Pienc,S4_s0.50_w0.50_r0.00,72,651,66,71,7,67,46
-el Fort Pienc,S4_s0.75_w0.00_r0.25,223,562,66,9,7,113,0
-el Fort Pienc,S4_s0.75_w0.25_r0.00,129,651,66,14,7,103,10
-el Fort Pienc,S4_s1.00_w0.00_r0.00,501,283,66,10,7,113,0
-l'Antiga Esquerra de l'Eixample,S4_s0.00_w0.00_r1.00,179,782,20,159,184,120,0
-l'Antiga Esquerra de l'Eixample,S4_s0.00_w0.25_r0.75,179,397,157,13,212,163,323
-l'Antiga Esquerra de l'Eixample,S4_s0.00_w0.50_r0.50,178,375,157,14,211,170,339
-l'Antiga Esquerra de l'Eixample,S4_s0.00_w0.75_r0.25,48,389,157,128,210,172,340
-l'Antiga Esquerra de l'Eixample,S4_s0.00_w1.00_r0.00,24,361,176,121,221,175,366
-l'Antiga Esquerra de l'Eixample,S4_s0.25_w0.00_r0.75,179,757,20,326,42,120,0
-l'Antiga Esquerra de l'Eixample,S4_s0.25_w0.25_r0.50,182,782,20,155,185,120,0
-l'Antiga Esquerra de l'Eixample,S4_s0.25_w0.50_r0.25,75,801,20,180,189,120,59
-l'Antiga Esquerra de l'Eixample,S4_s0.25_w0.75_r0.00,22,896,20,174,211,120,1
-l'Antiga Esquerra de l'Eixample,S4_s0.50_w0.00_r0.50,182,757,20,323,42,120,0
-l'Antiga Esquerra de l'Eixample,S4_s0.50_w0.25_r0.25,260,757,20,216,71,120,0
-l'Antiga Esquerra de l'Eixample,S4_s0.50_w0.50_r0.00,61,775,20,283,185,120,0
-l'Antiga Esquerra de l'Eixample,S4_s0.75_w0.00_r0.25,183,757,20,321,43,120,0
-l'Antiga Esquerra de l'Eixample,S4_s0.75_w0.25_r0.00,174,757,20,318,55,120,0
-l'Antiga Esquerra de l'Eixample,S4_s1.00_w0.00_r0.00,206,757,20,302,39,120,0
-la Dreta de l'Eixample,S4_s0.00_w0.00_r1.00,213,34,9,154,1159,85,1042
-la Dreta de l'Eixample,S4_s0.00_w0.25_r0.75,117,1419,24,525,253,88,270
-la Dreta de l'Eixample,S4_s0.00_w0.50_r0.50,88,1432,24,518,276,87,271
-la Dreta de l'Eixample,S4_s0.00_w0.75_r0.25,164,1483,24,380,282,85,278
-la Dreta de l'Eixample,S4_s0.00_w1.00_r0.00,264,1625,26,287,197,86,211
-la Dreta de l'Eixample,S4_s0.25_w0.00_r0.75,220,7,9,35,1385,111,929
-la Dreta de l'Eixample,S4_s0.25_w0.25_r0.50,132,34,9,154,1240,85,1042
-la Dreta de l'Eixample,S4_s0.25_w0.50_r0.25,183,223,14,198,804,90,1184
-la Dreta de l'Eixample,S4_s0.25_w0.75_r0.00,247,655,14,259,560,74,887
-la Dreta de l'Eixample,S4_s0.50_w0.00_r0.50,239,7,9,35,1366,111,929
-la Dreta de l'Eixample,S4_s0.50_w0.25_r0.25,272,23,9,32,1336,95,929
-la Dreta de l'Eixample,S4_s0.50_w0.50_r0.00,294,40,9,60,1262,79,952
-la Dreta de l'Eixample,S4_s0.75_w0.00_r0.25,219,7,9,35,1386,111,929
-la Dreta de l'Eixample,S4_s0.75_w0.25_r0.00,403,18,9,31,1206,100,929
-la Dreta de l'Eixample,S4_s1.00_w0.00_r0.00,0,8,9,46,1594,110,929
-la Nova Esquerra de l'Eixample,S4_s0.00_w0.00_r1.00,7,338,241,40,315,114,131
-la Nova Esquerra de l'Eixample,S4_s0.00_w0.25_r0.75,9,59,391,113,150,55,409
-la Nova Esquerra de l'Eixample,S4_s0.00_w0.50_r0.50,26,63,393,113,126,51,414
-la Nova Esquerra de l'Eixample,S4_s0.00_w0.75_r0.25,9,123,404,112,68,45,425
-la Nova Esquerra de l'Eixample,S4_s0.00_w1.00_r0.00,15,47,500,118,15,39,452
-la Nova Esquerra de l'Eixample,S4_s0.25_w0.00_r0.75,7,267,241,36,390,245,0
-la Nova Esquerra de l'Eixample,S4_s0.25_w0.25_r0.50,10,338,241,40,312,114,131
-la Nova Esquerra de l'Eixample,S4_s0.25_w0.50_r0.25,2,379,241,68,224,84,188
-la Nova Esquerra de l'Eixample,S4_s0.25_w0.75_r0.00,7,403,248,93,124,73,238
-la Nova Esquerra de l'Eixample,S4_s0.50_w0.00_r0.50,7,267,241,36,390,245,0
-la Nova Esquerra de l'Eixample,S4_s0.50_w0.25_r0.25,4,276,241,38,382,174,71
-la Nova Esquerra de l'Eixample,S4_s0.50_w0.50_r0.00,2,362,241,43,293,106,139
-la Nova Esquerra de l'Eixample,S4_s0.75_w0.00_r0.25,7,267,241,36,390,245,0
-la Nova Esquerra de l'Eixample,S4_s0.75_w0.25_r0.00,1,268,241,43,388,212,33
-la Nova Esquerra de l'Eixample,S4_s1.00_w0.00_r0.00,1,267,241,42,390,245,0
-la Sagrada Família,S4_s0.00_w0.00_r1.00,0,354,87,25,84,98,499
-la Sagrada Família,S4_s0.00_w0.25_r0.75,0,32,262,80,33,102,638
-la Sagrada Família,S4_s0.00_w0.50_r0.50,0,28,263,80,33,102,641
-la Sagrada Família,S4_s0.00_w0.75_r0.25,0,28,263,80,33,102,641
-la Sagrada Família,S4_s0.00_w1.00_r0.00,0,21,265,81,32,106,642
-la Sagrada Família,S4_s0.25_w0.00_r0.75,0,350,87,24,89,100,497
-la Sagrada Família,S4_s0.25_w0.25_r0.50,0,354,87,25,84,98,499
-la Sagrada Família,S4_s0.25_w0.50_r0.25,0,350,87,38,75,97,500
-la Sagrada Família,S4_s0.25_w0.75_r0.00,0,313,99,46,63,99,527
-la Sagrada Família,S4_s0.50_w0.00_r0.50,0,349,87,24,90,100,497
-la Sagrada Família,S4_s0.50_w0.25_r0.25,0,354,87,24,85,100,497
-la Sagrada Família,S4_s0.50_w0.50_r0.00,0,354,87,25,84,100,497
-la Sagrada Família,S4_s0.75_w0.00_r0.25,0,349,87,24,90,101,496
-la Sagrada Família,S4_s0.75_w0.25_r0.00,0,354,87,24,85,102,495
-la Sagrada Família,S4_s1.00_w0.00_r0.00,0,354,87,24,85,102,495
-Diagonal Mar i el Front Marítim del Poblenou,S4_s0.00_w0.00_r1.00,1,322,14,6,371,14,0
-Diagonal Mar i el Front Marítim del Poblenou,S4_s0.00_w0.25_r0.75,1,45,272,123,223,12,52
-Diagonal Mar i el Front Marítim del Poblenou,S4_s0.00_w0.50_r0.50,50,148,274,126,65,11,54
-Diagonal Mar i el Front Marítim del Poblenou,S4_s0.00_w0.75_r0.25,55,51,370,128,48,8,68
-Diagonal Mar i el Front Marítim del Poblenou,S4_s0.00_w1.00_r0.00,0,11,395,195,31,9,87
+"Sant Pere, Santa Caterina i la Ribera",S4_s0.00_w0.00_r1.00,0,579,27,72,148,1,3
+"Sant Pere, Santa Caterina i la Ribera",S4_s0.00_w0.25_r0.75,0,17,539,115,35,1,123
+"Sant Pere, Santa Caterina i la Ribera",S4_s0.00_w0.50_r0.50,60,20,541,58,25,1,125
+"Sant Pere, Santa Caterina i la Ribera",S4_s0.00_w0.75_r0.25,69,21,546,52,16,1,125
+"Sant Pere, Santa Caterina i la Ribera",S4_s0.00_w1.00_r0.00,72,13,554,49,16,1,125
+"Sant Pere, Santa Caterina i la Ribera",S4_s0.25_w0.00_r0.75,0,140,27,14,645,3,1
+"Sant Pere, Santa Caterina i la Ribera",S4_s0.25_w0.25_r0.50,0,577,27,72,150,1,3
+"Sant Pere, Santa Caterina i la Ribera",S4_s0.25_w0.50_r0.25,61,612,31,33,72,1,20
+"Sant Pere, Santa Caterina i la Ribera",S4_s0.25_w0.75_r0.00,67,207,349,35,43,1,128
+"Sant Pere, Santa Caterina i la Ribera",S4_s0.50_w0.00_r0.50,0,140,27,14,645,3,1
+"Sant Pere, Santa Caterina i la Ribera",S4_s0.50_w0.25_r0.25,0,488,27,10,301,1,3
+"Sant Pere, Santa Caterina i la Ribera",S4_s0.50_w0.50_r0.00,61,568,27,19,151,1,3
+"Sant Pere, Santa Caterina i la Ribera",S4_s0.75_w0.00_r0.25,0,145,27,14,640,3,1
+"Sant Pere, Santa Caterina i la Ribera",S4_s0.75_w0.25_r0.00,1,121,27,8,669,1,3
+"Sant Pere, Santa Caterina i la Ribera",S4_s1.00_w0.00_r0.00,0,146,27,14,639,3,1
+el Barri Gòtic,S4_s0.00_w0.00_r1.00,0,93,4,0,91,1,2
+el Barri Gòtic,S4_s0.00_w0.25_r0.75,0,18,96,13,58,1,5
+el Barri Gòtic,S4_s0.00_w0.50_r0.50,10,54,96,13,12,1,5
+el Barri Gòtic,S4_s0.00_w0.75_r0.25,13,40,111,16,5,0,6
+el Barri Gòtic,S4_s0.00_w1.00_r0.00,10,4,147,21,1,1,7
+el Barri Gòtic,S4_s0.25_w0.00_r0.75,0,63,4,1,120,3,0
+el Barri Gòtic,S4_s0.25_w0.25_r0.50,0,114,4,0,70,1,2
+el Barri Gòtic,S4_s0.25_w0.50_r0.25,1,143,5,3,36,1,2
+el Barri Gòtic,S4_s0.25_w0.75_r0.00,3,128,15,15,20,0,10
+el Barri Gòtic,S4_s0.50_w0.00_r0.50,0,59,4,1,124,3,0
+el Barri Gòtic,S4_s0.50_w0.25_r0.25,0,119,4,0,65,1,2
+el Barri Gòtic,S4_s0.50_w0.50_r0.00,0,141,4,1,42,1,2
+el Barri Gòtic,S4_s0.75_w0.00_r0.25,0,64,4,1,119,3,0
+el Barri Gòtic,S4_s0.75_w0.25_r0.00,0,112,4,0,72,1,2
+el Barri Gòtic,S4_s1.00_w0.00_r0.00,0,80,4,1,103,3,0
+el Raval,S4_s0.00_w0.00_r1.00,108,212,2,24,119,3,11
+el Raval,S4_s0.00_w0.25_r0.75,106,6,183,95,45,3,41
+el Raval,S4_s0.00_w0.50_r0.50,103,5,185,96,46,3,41
+el Raval,S4_s0.00_w0.75_r0.25,57,37,194,99,48,3,41
+el Raval,S4_s0.00_w1.00_r0.00,0,4,233,152,46,3,41
+el Raval,S4_s0.25_w0.00_r0.75,110,220,2,10,125,3,9
+el Raval,S4_s0.25_w0.25_r0.50,119,214,2,13,117,3,11
+el Raval,S4_s0.25_w0.50_r0.25,110,217,3,46,88,3,12
+el Raval,S4_s0.25_w0.75_r0.00,5,202,42,114,83,3,30
+el Raval,S4_s0.50_w0.00_r0.50,145,220,2,10,90,3,9
+el Raval,S4_s0.50_w0.25_r0.25,135,213,2,10,107,3,9
+el Raval,S4_s0.50_w0.50_r0.00,26,260,2,12,165,3,11
+el Raval,S4_s0.75_w0.00_r0.25,219,221,2,10,15,3,9
+el Raval,S4_s0.75_w0.25_r0.00,124,258,2,10,73,3,9
+el Raval,S4_s1.00_w0.00_r0.00,177,269,2,10,9,3,9
+Sant Antoni,S4_s0.00_w0.00_r1.00,421,200,57,26,115,131,39
+Sant Antoni,S4_s0.00_w0.25_r0.75,418,98,176,44,22,119,112
+Sant Antoni,S4_s0.00_w0.50_r0.50,128,241,177,44,166,81,152
+Sant Antoni,S4_s0.00_w0.75_r0.25,57,253,178,72,191,63,175
+Sant Antoni,S4_s0.00_w1.00_r0.00,10,54,309,198,98,38,282
+Sant Antoni,S4_s0.25_w0.00_r0.75,421,135,57,38,168,170,0
+Sant Antoni,S4_s0.25_w0.25_r0.50,273,209,57,26,254,129,41
+Sant Antoni,S4_s0.25_w0.50_r0.25,33,317,57,33,379,79,91
+Sant Antoni,S4_s0.25_w0.75_r0.00,9,393,58,147,212,49,121
+Sant Antoni,S4_s0.50_w0.00_r0.50,419,136,57,36,171,170,0
+Sant Antoni,S4_s0.50_w0.25_r0.25,45,160,57,24,533,133,37
+Sant Antoni,S4_s0.50_w0.50_r0.00,4,213,57,54,491,74,96
+Sant Antoni,S4_s0.75_w0.00_r0.25,251,146,57,40,325,170,0
+Sant Antoni,S4_s0.75_w0.25_r0.00,4,157,57,24,577,121,49
+Sant Antoni,S4_s1.00_w0.00_r0.00,1,157,57,101,503,169,1
+el Fort Pienc,S4_s0.00_w0.00_r1.00,49,604,66,141,7,62,51
+el Fort Pienc,S4_s0.00_w0.25_r0.75,42,88,386,38,125,29,272
+el Fort Pienc,S4_s0.00_w0.50_r0.50,5,122,391,38,125,29,270
+el Fort Pienc,S4_s0.00_w0.75_r0.25,1,116,399,38,126,26,274
+el Fort Pienc,S4_s0.00_w1.00_r0.00,0,63,433,38,129,28,289
+el Fort Pienc,S4_s0.25_w0.00_r0.75,50,603,66,141,7,113,0
+el Fort Pienc,S4_s0.25_w0.25_r0.50,102,611,66,81,7,62,51
+el Fort Pienc,S4_s0.25_w0.50_r0.25,65,589,66,118,26,46,70
+el Fort Pienc,S4_s0.25_w0.75_r0.00,56,427,169,50,44,36,198
+el Fort Pienc,S4_s0.50_w0.00_r0.50,51,602,66,141,7,113,0
+el Fort Pienc,S4_s0.50_w0.25_r0.25,131,611,66,52,7,79,34
+el Fort Pienc,S4_s0.50_w0.50_r0.00,82,643,66,69,7,61,52
+el Fort Pienc,S4_s0.75_w0.00_r0.25,185,583,66,26,7,113,0
+el Fort Pienc,S4_s0.75_w0.25_r0.00,200,584,66,10,7,92,21
+el Fort Pienc,S4_s1.00_w0.00_r0.00,510,271,66,13,7,113,0
+l'Antiga Esquerra de l'Eixample,S4_s0.00_w0.00_r1.00,186,788,20,144,186,120,0
+l'Antiga Esquerra de l'Eixample,S4_s0.00_w0.25_r0.75,182,397,155,11,211,163,325
+l'Antiga Esquerra de l'Eixample,S4_s0.00_w0.50_r0.50,183,376,155,14,206,171,339
+l'Antiga Esquerra de l'Eixample,S4_s0.00_w0.75_r0.25,36,396,156,130,214,172,340
+l'Antiga Esquerra de l'Eixample,S4_s0.00_w1.00_r0.00,24,363,174,121,221,175,366
+l'Antiga Esquerra de l'Eixample,S4_s0.25_w0.00_r0.75,186,757,20,326,35,120,0
+l'Antiga Esquerra de l'Eixample,S4_s0.25_w0.25_r0.50,197,785,20,145,177,120,0
+l'Antiga Esquerra de l'Eixample,S4_s0.25_w0.50_r0.25,79,430,21,177,190,120,427
+l'Antiga Esquerra de l'Eixample,S4_s0.25_w0.75_r0.00,24,901,20,169,209,120,1
+l'Antiga Esquerra de l'Eixample,S4_s0.50_w0.00_r0.50,186,757,20,326,35,120,0
+l'Antiga Esquerra de l'Eixample,S4_s0.50_w0.25_r0.25,292,757,20,181,74,120,0
+l'Antiga Esquerra de l'Eixample,S4_s0.50_w0.50_r0.00,92,587,21,265,183,120,176
+l'Antiga Esquerra de l'Eixample,S4_s0.75_w0.00_r0.25,164,757,20,348,35,120,0
+l'Antiga Esquerra de l'Eixample,S4_s0.75_w0.25_r0.00,204,757,20,288,55,120,0
+l'Antiga Esquerra de l'Eixample,S4_s1.00_w0.00_r0.00,0,757,20,512,35,120,0
+la Dreta de l'Eixample,S4_s0.00_w0.00_r1.00,276,33,9,199,1034,85,1060
+la Dreta de l'Eixample,S4_s0.00_w0.25_r0.75,278,1418,21,527,90,92,270
+la Dreta de l'Eixample,S4_s0.00_w0.50_r0.50,100,1433,21,521,264,88,269
+la Dreta de l'Eixample,S4_s0.00_w0.75_r0.25,157,1498,21,392,268,87,273
+la Dreta de l'Eixample,S4_s0.00_w1.00_r0.00,207,1625,23,351,194,88,208
+la Dreta de l'Eixample,S4_s0.25_w0.00_r0.75,281,7,9,66,1293,111,929
+la Dreta de l'Eixample,S4_s0.25_w0.25_r0.50,226,32,9,111,1172,86,1060
+la Dreta de l'Eixample,S4_s0.25_w0.50_r0.25,243,169,13,217,714,106,1234
+la Dreta de l'Eixample,S4_s0.25_w0.75_r0.00,254,701,12,295,505,76,853
+la Dreta de l'Eixample,S4_s0.50_w0.00_r0.50,282,7,9,65,1293,111,929
+la Dreta de l'Eixample,S4_s0.50_w0.25_r0.25,417,24,9,33,1190,94,929
+la Dreta de l'Eixample,S4_s0.50_w0.50_r0.00,413,7,9,70,1138,111,948
+la Dreta de l'Eixample,S4_s0.75_w0.00_r0.25,270,7,9,66,1304,111,929
+la Dreta de l'Eixample,S4_s0.75_w0.25_r0.00,519,18,9,32,1089,100,929
+la Dreta de l'Eixample,S4_s1.00_w0.00_r0.00,357,8,9,69,1214,110,929
+la Nova Esquerra de l'Eixample,S4_s0.00_w0.00_r1.00,11,345,241,42,302,104,141
+la Nova Esquerra de l'Eixample,S4_s0.00_w0.25_r0.75,22,61,393,112,136,51,411
+la Nova Esquerra de l'Eixample,S4_s0.00_w0.50_r0.50,40,64,395,112,111,45,419
+la Nova Esquerra de l'Eixample,S4_s0.00_w0.75_r0.25,9,101,431,112,67,42,424
+la Nova Esquerra de l'Eixample,S4_s0.00_w1.00_r0.00,11,47,500,121,16,37,454
+la Nova Esquerra de l'Eixample,S4_s0.25_w0.00_r0.75,8,267,241,41,384,244,1
+la Nova Esquerra de l'Eixample,S4_s0.25_w0.25_r0.50,12,345,241,42,301,103,142
+la Nova Esquerra de l'Eixample,S4_s0.25_w0.50_r0.25,5,361,241,75,216,73,215
+la Nova Esquerra de l'Eixample,S4_s0.25_w0.75_r0.00,8,383,263,100,116,55,261
+la Nova Esquerra de l'Eixample,S4_s0.50_w0.00_r0.50,7,267,241,41,385,244,1
+la Nova Esquerra de l'Eixample,S4_s0.50_w0.25_r0.25,7,279,241,34,380,128,117
+la Nova Esquerra de l'Eixample,S4_s0.50_w0.50_r0.00,2,353,241,50,293,95,152
+la Nova Esquerra de l'Eixample,S4_s0.75_w0.00_r0.25,4,267,241,44,385,244,1
+la Nova Esquerra de l'Eixample,S4_s0.75_w0.25_r0.00,1,270,241,40,389,166,79
+la Nova Esquerra de l'Eixample,S4_s1.00_w0.00_r0.00,1,267,241,47,385,243,2
+la Sagrada Família,S4_s0.00_w0.00_r1.00,0,354,0,26,83,185,499
+la Sagrada Família,S4_s0.00_w0.25_r0.75,0,32,174,77,35,189,640
+la Sagrada Família,S4_s0.00_w0.50_r0.50,0,28,174,77,35,189,644
+la Sagrada Família,S4_s0.00_w0.75_r0.25,0,28,175,77,35,189,643
+la Sagrada Família,S4_s0.00_w1.00_r0.00,0,21,177,78,34,193,644
+la Sagrada Família,S4_s0.25_w0.00_r0.75,0,354,0,24,85,187,497
+la Sagrada Família,S4_s0.25_w0.25_r0.50,0,354,0,26,83,185,499
+la Sagrada Família,S4_s0.25_w0.50_r0.25,0,346,0,40,77,184,500
+la Sagrada Família,S4_s0.25_w0.75_r0.00,0,306,33,47,62,187,512
+la Sagrada Família,S4_s0.50_w0.00_r0.50,0,354,0,24,85,187,497
+la Sagrada Família,S4_s0.50_w0.25_r0.25,0,354,0,24,85,187,497
+la Sagrada Família,S4_s0.50_w0.50_r0.00,0,344,0,26,93,187,497
+la Sagrada Família,S4_s0.75_w0.00_r0.25,0,354,0,24,85,188,496
+la Sagrada Família,S4_s0.75_w0.25_r0.00,0,354,0,24,85,189,495
+la Sagrada Família,S4_s1.00_w0.00_r0.00,0,354,0,24,85,189,495
+Vallcarca i els Penitents,S4_s0.00_w0.00_r1.00,1,148,21,69,115,13,18
+Vallcarca i els Penitents,S4_s0.00_w0.25_r0.75,9,18,115,169,7,8,59
+Vallcarca i els Penitents,S4_s0.00_w0.50_r0.50,11,17,116,169,5,8,59
+Vallcarca i els Penitents,S4_s0.00_w0.75_r0.25,22,16,117,158,5,8,59
+Vallcarca i els Penitents,S4_s0.00_w1.00_r0.00,28,9,124,152,5,8,59
+Vallcarca i els Penitents,S4_s0.25_w0.00_r0.75,5,148,21,10,170,25,6
+Vallcarca i els Penitents,S4_s0.25_w0.25_r0.50,15,148,21,65,105,13,18
+Vallcarca i els Penitents,S4_s0.25_w0.50_r0.25,42,146,21,114,29,8,25
+Vallcarca i els Penitents,S4_s0.25_w0.75_r0.00,42,83,82,121,22,7,28
+Vallcarca i els Penitents,S4_s0.50_w0.00_r0.50,14,148,21,9,162,25,6
+Vallcarca i els Penitents,S4_s0.50_w0.25_r0.25,83,148,21,9,93,21,10
+Vallcarca i els Penitents,S4_s0.50_w0.50_r0.00,74,148,21,25,86,13,18
+Vallcarca i els Penitents,S4_s0.75_w0.00_r0.25,71,148,21,10,104,25,6
+Vallcarca i els Penitents,S4_s0.75_w0.25_r0.00,118,147,21,8,60,23,8
+Vallcarca i els Penitents,S4_s1.00_w0.00_r0.00,145,147,21,9,32,25,6
+el Camp d'en Grassot i Gràcia Nova,S4_s0.00_w0.00_r1.00,5,178,66,18,4,96,52
+el Camp d'en Grassot i Gràcia Nova,S4_s0.00_w0.25_r0.75,5,42,152,18,3,50,149
+el Camp d'en Grassot i Gràcia Nova,S4_s0.00_w0.50_r0.50,3,41,152,18,5,30,170
+el Camp d'en Grassot i Gràcia Nova,S4_s0.00_w0.75_r0.25,0,43,153,17,6,26,174
+el Camp d'en Grassot i Gràcia Nova,S4_s0.00_w1.00_r0.00,0,7,157,17,5,22,211
+el Camp d'en Grassot i Gràcia Nova,S4_s0.25_w0.00_r0.75,5,153,66,44,4,147,0
+el Camp d'en Grassot i Gràcia Nova,S4_s0.25_w0.25_r0.50,5,177,66,18,5,94,54
+el Camp d'en Grassot i Gràcia Nova,S4_s0.25_w0.50_r0.25,0,178,66,19,6,56,94
+el Camp d'en Grassot i Gràcia Nova,S4_s0.25_w0.75_r0.00,1,178,71,17,4,37,111
+el Camp d'en Grassot i Gràcia Nova,S4_s0.50_w0.00_r0.50,14,149,66,39,4,147,0
+el Camp d'en Grassot i Gràcia Nova,S4_s0.50_w0.25_r0.25,11,178,66,11,6,103,44
+el Camp d'en Grassot i Gràcia Nova,S4_s0.50_w0.50_r0.00,1,180,66,18,6,70,78
+el Camp d'en Grassot i Gràcia Nova,S4_s0.75_w0.00_r0.25,79,99,66,24,4,147,0
+el Camp d'en Grassot i Gràcia Nova,S4_s0.75_w0.25_r0.00,80,109,66,11,6,104,43
+el Camp d'en Grassot i Gràcia Nova,S4_s1.00_w0.00_r0.00,88,96,66,18,4,147,0
+el Coll,S4_s0.00_w0.00_r1.00,0,5,5,3,7,0,0
+el Coll,S4_s0.00_w0.25_r0.75,0,0,8,10,0,0,2
+el Coll,S4_s0.00_w0.50_r0.50,1,0,8,9,0,0,2
+el Coll,S4_s0.00_w0.75_r0.25,3,0,8,7,0,0,2
+el Coll,S4_s0.00_w1.00_r0.00,4,0,8,6,0,0,2
+el Coll,S4_s0.25_w0.00_r0.75,0,3,5,1,11,0,0
+el Coll,S4_s0.25_w0.25_r0.50,0,5,5,3,7,0,0
+el Coll,S4_s0.25_w0.50_r0.25,0,5,5,5,5,0,0
+el Coll,S4_s0.25_w0.75_r0.00,1,5,5,7,2,0,0
+el Coll,S4_s0.50_w0.00_r0.50,0,3,5,1,11,0,0
+el Coll,S4_s0.50_w0.25_r0.25,0,5,5,2,8,0,0
+el Coll,S4_s0.50_w0.50_r0.00,0,5,5,3,7,0,0
+el Coll,S4_s0.75_w0.00_r0.25,0,3,5,1,11,0,0
+el Coll,S4_s0.75_w0.25_r0.00,0,5,5,0,10,0,0
+el Coll,S4_s1.00_w0.00_r0.00,0,3,5,1,11,0,0
+la Salut,S4_s0.00_w0.00_r1.00,0,19,6,17,4,0,3
+la Salut,S4_s0.00_w0.25_r0.75,0,6,14,2,19,1,7
+la Salut,S4_s0.00_w0.50_r0.50,0,6,14,1,20,1,7
+la Salut,S4_s0.00_w0.75_r0.25,0,6,14,1,20,1,7
+la Salut,S4_s0.00_w1.00_r0.00,0,6,14,1,20,1,7
+la Salut,S4_s0.25_w0.00_r0.75,0,19,6,19,2,0,3
+la Salut,S4_s0.25_w0.25_r0.50,0,19,6,17,4,0,3
+la Salut,S4_s0.25_w0.50_r0.25,0,19,6,9,12,0,3
+la Salut,S4_s0.25_w0.75_r0.00,0,19,6,8,13,0,3
+la Salut,S4_s0.50_w0.00_r0.50,0,19,6,19,2,0,3
+la Salut,S4_s0.50_w0.25_r0.25,1,19,6,18,2,0,3
+la Salut,S4_s0.50_w0.50_r0.00,0,19,6,17,4,0,3
+la Salut,S4_s0.75_w0.00_r0.25,0,19,6,19,2,0,3
+la Salut,S4_s0.75_w0.25_r0.00,8,19,6,11,2,0,3
+la Salut,S4_s1.00_w0.00_r0.00,0,19,6,19,2,0,3
+la Vila de Gràcia,S4_s0.00_w0.00_r1.00,59,114,37,8,6,52,0
+la Vila de Gràcia,S4_s0.00_w0.25_r0.75,21,101,37,4,41,39,33
+la Vila de Gràcia,S4_s0.00_w0.50_r0.50,17,101,34,4,45,38,37
+la Vila de Gràcia,S4_s0.00_w0.75_r0.25,16,86,44,6,45,20,59
+la Vila de Gràcia,S4_s0.00_w1.00_r0.00,2,44,34,48,16,6,126
+la Vila de Gràcia,S4_s0.25_w0.00_r0.75,59,113,34,11,7,52,0
+la Vila de Gràcia,S4_s0.25_w0.25_r0.50,24,114,38,7,41,52,0
+la Vila de Gràcia,S4_s0.25_w0.50_r0.25,15,108,42,4,55,40,12
+la Vila de Gràcia,S4_s0.25_w0.75_r0.00,2,93,50,19,51,21,40
+la Vila de Gràcia,S4_s0.50_w0.00_r0.50,59,113,34,11,7,52,0
+la Vila de Gràcia,S4_s0.50_w0.25_r0.25,22,113,35,10,44,52,0
+la Vila de Gràcia,S4_s0.50_w0.50_r0.00,4,110,38,7,65,38,14
+la Vila de Gràcia,S4_s0.75_w0.00_r0.25,58,112,34,11,9,52,0
+la Vila de Gràcia,S4_s0.75_w0.25_r0.00,20,111,35,10,48,50,2
+la Vila de Gràcia,S4_s1.00_w0.00_r0.00,57,112,34,11,10,52,0
+Can Baró,S4_s0.00_w0.00_r1.00,0,2,7,0,3,0,0
+Can Baró,S4_s0.00_w0.25_r0.75,0,0,7,3,0,0,2
+Can Baró,S4_s0.00_w0.50_r0.50,0,0,7,3,0,0,2
+Can Baró,S4_s0.00_w0.75_r0.25,0,0,7,3,0,0,2
+Can Baró,S4_s0.00_w1.00_r0.00,0,0,7,3,0,0,2
+Can Baró,S4_s0.25_w0.00_r0.75,0,2,7,2,1,0,0
+Can Baró,S4_s0.25_w0.25_r0.50,0,2,7,0,3,0,0
+Can Baró,S4_s0.25_w0.50_r0.25,0,2,7,0,3,0,0
+Can Baró,S4_s0.25_w0.75_r0.00,0,2,7,0,3,0,0
+Can Baró,S4_s0.50_w0.00_r0.50,0,2,7,2,1,0,0
+Can Baró,S4_s0.50_w0.25_r0.25,0,2,7,0,3,0,0
+Can Baró,S4_s0.50_w0.50_r0.00,0,1,7,0,4,0,0
+Can Baró,S4_s0.75_w0.00_r0.25,0,2,7,2,1,0,0
+Can Baró,S4_s0.75_w0.25_r0.00,0,1,7,0,4,0,0
+Can Baró,S4_s1.00_w0.00_r0.00,0,2,7,2,1,0,0
+Horta,S4_s0.00_w0.00_r1.00,0,323,12,63,127,1,26
+Horta,S4_s0.00_w0.25_r0.75,0,2,330,140,47,2,31
+Horta,S4_s0.00_w0.50_r0.50,50,39,331,91,8,2,31
+Horta,S4_s0.00_w0.75_r0.25,84,26,345,60,1,3,33
+Horta,S4_s0.00_w1.00_r0.00,92,1,366,52,1,6,34
+Horta,S4_s0.25_w0.00_r0.75,0,24,10,22,477,1,18
+Horta,S4_s0.25_w0.25_r0.50,0,329,12,63,121,1,26
+Horta,S4_s0.25_w0.50_r0.25,0,353,18,133,16,1,31
+Horta,S4_s0.25_w0.75_r0.00,46,77,276,95,6,2,50
+Horta,S4_s0.50_w0.00_r0.50,0,23,10,22,478,1,18
+Horta,S4_s0.50_w0.25_r0.25,0,335,10,21,167,1,18
+Horta,S4_s0.50_w0.50_r0.00,0,363,12,65,85,1,26
+Horta,S4_s0.75_w0.00_r0.25,0,24,10,22,477,1,18
+Horta,S4_s0.75_w0.25_r0.00,0,340,10,22,161,1,18
+Horta,S4_s1.00_w0.00_r0.00,0,26,10,22,475,1,18
+Montbau,S4_s0.00_w0.00_r1.00,0,161,5,19,63,0,2
+Montbau,S4_s0.00_w0.25_r0.75,1,23,152,42,13,0,19
+Montbau,S4_s0.00_w0.50_r0.50,24,29,152,26,0,0,19
+Montbau,S4_s0.00_w0.75_r0.25,28,19,161,22,0,0,20
+Montbau,S4_s0.00_w1.00_r0.00,33,0,179,17,0,0,21
+Montbau,S4_s0.25_w0.00_r0.75,0,23,5,2,218,1,1
+Montbau,S4_s0.25_w0.25_r0.50,0,187,5,19,37,0,2
+Montbau,S4_s0.25_w0.50_r0.25,27,188,5,12,13,0,5
+Montbau,S4_s0.25_w0.75_r0.00,28,88,99,20,2,0,13
+Montbau,S4_s0.50_w0.00_r0.50,0,20,5,2,221,1,1
+Montbau,S4_s0.50_w0.25_r0.25,0,178,5,1,64,0,2
+Montbau,S4_s0.50_w0.50_r0.00,18,187,5,3,35,0,2
+Montbau,S4_s0.75_w0.00_r0.25,0,31,5,2,210,1,1
+Montbau,S4_s0.75_w0.25_r0.00,0,160,5,1,82,0,2
+Montbau,S4_s1.00_w0.00_r0.00,0,38,5,2,203,1,1
+Sant Genís dels Agudells,S4_s0.00_w0.00_r1.00,0,56,43,6,45,9,7
+Sant Genís dels Agudells,S4_s0.00_w0.25_r0.75,0,2,95,38,7,5,19
+Sant Genís dels Agudells,S4_s0.00_w0.50_r0.50,3,2,95,35,7,5,19
+Sant Genís dels Agudells,S4_s0.00_w0.75_r0.25,5,2,95,33,7,5,19
+Sant Genís dels Agudells,S4_s0.00_w1.00_r0.00,7,2,95,31,7,5,19
+Sant Genís dels Agudells,S4_s0.25_w0.00_r0.75,0,26,43,8,73,16,0
+Sant Genís dels Agudells,S4_s0.25_w0.25_r0.50,0,55,43,6,46,9,7
+Sant Genís dels Agudells,S4_s0.25_w0.50_r0.25,4,55,43,8,35,7,14
+Sant Genís dels Agudells,S4_s0.25_w0.75_r0.00,5,43,60,16,24,6,12
+Sant Genís dels Agudells,S4_s0.50_w0.00_r0.50,0,26,43,7,74,16,0
+Sant Genís dels Agudells,S4_s0.50_w0.25_r0.25,0,48,43,3,56,9,7
+Sant Genís dels Agudells,S4_s0.50_w0.50_r0.00,1,52,43,6,48,9,7
+Sant Genís dels Agudells,S4_s0.75_w0.00_r0.25,0,26,43,8,73,16,0
+Sant Genís dels Agudells,S4_s0.75_w0.25_r0.00,0,39,43,3,65,11,5
+Sant Genís dels Agudells,S4_s1.00_w0.00_r0.00,0,25,43,7,75,16,0
+el Baix Guinardó,S4_s0.00_w0.00_r1.00,0,94,58,14,84,39,70
+el Baix Guinardó,S4_s0.00_w0.25_r0.75,0,6,110,86,2,21,134
+el Baix Guinardó,S4_s0.00_w0.50_r0.50,0,6,110,87,1,21,134
+el Baix Guinardó,S4_s0.00_w0.75_r0.25,0,6,110,87,1,21,134
+el Baix Guinardó,S4_s0.00_w1.00_r0.00,0,5,110,87,1,21,135
+el Baix Guinardó,S4_s0.25_w0.00_r0.75,0,52,58,14,126,108,1
+el Baix Guinardó,S4_s0.25_w0.25_r0.50,0,94,58,14,84,38,71
+el Baix Guinardó,S4_s0.25_w0.50_r0.25,0,92,58,48,48,30,83
+el Baix Guinardó,S4_s0.25_w0.75_r0.00,0,84,65,67,23,28,92
+el Baix Guinardó,S4_s0.50_w0.00_r0.50,0,52,58,14,126,108,1
+el Baix Guinardó,S4_s0.50_w0.25_r0.25,0,78,58,14,100,49,60
+el Baix Guinardó,S4_s0.50_w0.50_r0.00,0,89,58,14,89,38,71
+el Baix Guinardó,S4_s0.75_w0.00_r0.25,0,52,58,14,126,108,1
+el Baix Guinardó,S4_s0.75_w0.25_r0.00,0,56,58,14,122,67,42
+el Baix Guinardó,S4_s1.00_w0.00_r0.00,0,52,58,14,126,108,1
+el Carmel,S4_s0.00_w0.00_r1.00,0,2,1,2,7,5,15
+el Carmel,S4_s0.00_w0.25_r0.75,0,1,16,5,4,5,1
+el Carmel,S4_s0.00_w0.50_r0.50,2,1,16,3,4,5,1
+el Carmel,S4_s0.00_w0.75_r0.25,3,1,16,2,4,5,1
+el Carmel,S4_s0.00_w1.00_r0.00,4,1,16,1,4,5,1
+el Carmel,S4_s0.25_w0.00_r0.75,0,2,1,1,23,5,0
+el Carmel,S4_s0.25_w0.25_r0.50,0,2,1,2,7,5,15
+el Carmel,S4_s0.25_w0.50_r0.25,2,0,1,1,6,5,17
+el Carmel,S4_s0.25_w0.75_r0.00,2,15,1,2,5,5,2
+el Carmel,S4_s0.50_w0.00_r0.50,0,2,1,1,23,5,0
+el Carmel,S4_s0.50_w0.25_r0.25,0,2,1,0,24,5,0
+el Carmel,S4_s0.50_w0.50_r0.00,0,0,1,2,7,5,17
+el Carmel,S4_s0.75_w0.00_r0.25,0,2,1,1,23,5,0
+el Carmel,S4_s0.75_w0.25_r0.00,0,2,1,0,24,5,0
+el Carmel,S4_s1.00_w0.00_r0.00,0,2,1,1,23,5,0
+el Guinardó,S4_s0.00_w0.00_r1.00,0,55,47,2,35,14,6
+el Guinardó,S4_s0.00_w0.25_r0.75,0,5,87,25,15,8,19
+el Guinardó,S4_s0.00_w0.50_r0.50,0,3,87,25,15,5,24
+el Guinardó,S4_s0.00_w0.75_r0.25,0,2,87,25,15,4,26
+el Guinardó,S4_s0.00_w1.00_r0.00,0,1,87,25,15,4,27
+el Guinardó,S4_s0.25_w0.00_r0.75,0,55,47,8,29,20,0
+el Guinardó,S4_s0.25_w0.25_r0.50,0,55,47,2,35,14,6
+el Guinardó,S4_s0.25_w0.50_r0.25,0,51,49,9,28,10,12
+el Guinardó,S4_s0.25_w0.75_r0.00,0,47,52,16,21,6,17
+el Guinardó,S4_s0.50_w0.00_r0.50,28,55,47,5,4,20,0
+el Guinardó,S4_s0.50_w0.25_r0.25,21,55,47,0,16,17,3
+el Guinardó,S4_s0.50_w0.50_r0.00,0,55,47,2,35,10,10
+el Guinardó,S4_s0.75_w0.00_r0.25,31,55,47,3,3,20,0
+el Guinardó,S4_s0.75_w0.25_r0.00,25,55,47,0,12,18,2
+el Guinardó,S4_s1.00_w0.00_r0.00,32,55,47,2,3,20,0
+la Font d'en Fargues,S4_s0.00_w0.00_r1.00,0,82,49,23,154,7,8
+la Font d'en Fargues,S4_s0.00_w0.25_r0.75,0,26,74,100,67,3,53
+la Font d'en Fargues,S4_s0.00_w0.50_r0.50,8,32,74,100,53,0,56
+la Font d'en Fargues,S4_s0.00_w0.75_r0.25,32,22,83,94,34,0,58
+la Font d'en Fargues,S4_s0.00_w1.00_r0.00,39,8,91,92,29,0,64
+la Font d'en Fargues,S4_s0.25_w0.00_r0.75,0,57,49,12,190,15,0
+la Font d'en Fargues,S4_s0.25_w0.25_r0.50,0,92,49,23,144,7,8
+la Font d'en Fargues,S4_s0.25_w0.50_r0.25,8,96,49,60,95,1,14
+la Font d'en Fargues,S4_s0.25_w0.75_r0.00,19,85,52,86,56,1,24
+la Font d'en Fargues,S4_s0.50_w0.00_r0.50,0,57,49,12,190,15,0
+la Font d'en Fargues,S4_s0.50_w0.25_r0.25,0,93,49,5,161,11,4
+la Font d'en Fargues,S4_s0.50_w0.50_r0.00,0,96,49,32,131,4,11
+la Font d'en Fargues,S4_s0.75_w0.00_r0.25,0,58,49,12,189,15,0
+la Font d'en Fargues,S4_s0.75_w0.25_r0.00,0,92,49,5,162,11,4
+la Font d'en Fargues,S4_s1.00_w0.00_r0.00,0,59,49,12,188,15,0
+la Teixonera,S4_s0.00_w0.00_r1.00,0,6,0,0,16,0,0
+la Teixonera,S4_s0.00_w0.25_r0.75,0,0,6,16,0,0,0
+la Teixonera,S4_s0.00_w0.50_r0.50,0,0,6,16,0,0,0
+la Teixonera,S4_s0.00_w0.75_r0.25,3,0,6,13,0,0,0
+la Teixonera,S4_s0.00_w1.00_r0.00,3,0,6,13,0,0,0
+la Teixonera,S4_s0.25_w0.00_r0.75,0,0,0,0,22,0,0
+la Teixonera,S4_s0.25_w0.25_r0.50,0,6,0,0,16,0,0
+la Teixonera,S4_s0.25_w0.50_r0.25,1,6,0,4,11,0,0
+la Teixonera,S4_s0.25_w0.75_r0.00,3,3,0,13,0,0,3
+la Teixonera,S4_s0.50_w0.00_r0.50,0,0,0,0,22,0,0
+la Teixonera,S4_s0.50_w0.25_r0.25,0,6,0,0,16,0,0
+la Teixonera,S4_s0.50_w0.50_r0.00,0,6,0,0,16,0,0
+la Teixonera,S4_s0.75_w0.00_r0.25,0,0,0,0,22,0,0
+la Teixonera,S4_s0.75_w0.25_r0.00,0,4,0,0,18,0,0
+la Teixonera,S4_s1.00_w0.00_r0.00,0,0,0,0,22,0,0
+la Vall d'Hebron,S4_s0.00_w0.00_r1.00,0,55,3,4,43,3,2
+la Vall d'Hebron,S4_s0.00_w0.25_r0.75,0,16,51,23,14,2,4
+la Vall d'Hebron,S4_s0.00_w0.50_r0.50,6,16,51,21,10,2,4
+la Vall d'Hebron,S4_s0.00_w0.75_r0.25,11,8,59,18,8,2,4
+la Vall d'Hebron,S4_s0.00_w1.00_r0.00,11,5,60,20,6,2,6
+la Vall d'Hebron,S4_s0.25_w0.00_r0.75,0,30,3,0,72,2,3
+la Vall d'Hebron,S4_s0.25_w0.25_r0.50,0,64,3,4,34,2,3
+la Vall d'Hebron,S4_s0.25_w0.50_r0.25,9,54,3,20,14,2,8
+la Vall d'Hebron,S4_s0.25_w0.75_r0.00,9,44,20,20,8,2,7
+la Vall d'Hebron,S4_s0.50_w0.00_r0.50,0,28,3,0,74,2,3
+la Vall d'Hebron,S4_s0.50_w0.25_r0.25,0,64,3,0,38,2,3
+la Vall d'Hebron,S4_s0.50_w0.50_r0.00,4,61,3,4,33,2,3
+la Vall d'Hebron,S4_s0.75_w0.00_r0.25,0,30,3,0,72,2,3
+la Vall d'Hebron,S4_s0.75_w0.25_r0.00,0,63,3,0,39,2,3
+la Vall d'Hebron,S4_s1.00_w0.00_r0.00,0,28,3,0,74,2,3
+Pedralbes,S4_s0.00_w0.00_r1.00,0,400,5,143,373,45,14
+Pedralbes,S4_s0.00_w0.25_r0.75,0,6,47,435,70,45,377
+Pedralbes,S4_s0.00_w0.50_r0.50,5,6,47,437,63,45,377
+Pedralbes,S4_s0.00_w0.75_r0.25,4,3,49,450,50,45,379
+Pedralbes,S4_s0.00_w1.00_r0.00,0,0,49,456,48,45,382
+Pedralbes,S4_s0.25_w0.00_r0.75,0,58,1,22,840,45,14
+Pedralbes,S4_s0.25_w0.25_r0.50,0,404,5,143,369,45,14
+Pedralbes,S4_s0.25_w0.50_r0.25,3,404,3,330,177,45,18
+Pedralbes,S4_s0.25_w0.75_r0.00,0,300,12,384,125,45,114
+Pedralbes,S4_s0.50_w0.00_r0.50,0,54,1,22,844,45,14
+Pedralbes,S4_s0.50_w0.25_r0.25,0,390,3,20,508,45,14
+Pedralbes,S4_s0.50_w0.50_r0.00,0,400,5,145,371,45,14
+Pedralbes,S4_s0.75_w0.00_r0.25,0,55,1,22,843,45,14
+Pedralbes,S4_s0.75_w0.25_r0.00,4,355,1,18,543,45,14
+Pedralbes,S4_s1.00_w0.00_r0.00,5,53,1,17,845,45,14
+la Maternitat i Sant Ramon,S4_s0.00_w0.00_r1.00,0,338,50,28,292,0,21
+la Maternitat i Sant Ramon,S4_s0.00_w0.25_r0.75,0,4,387,285,27,0,26
+la Maternitat i Sant Ramon,S4_s0.00_w0.50_r0.50,0,3,387,285,27,0,27
+la Maternitat i Sant Ramon,S4_s0.00_w0.75_r0.25,0,3,387,285,27,0,27
+la Maternitat i Sant Ramon,S4_s0.00_w1.00_r0.00,0,3,387,285,27,0,27
+la Maternitat i Sant Ramon,S4_s0.25_w0.00_r0.75,2,9,50,13,634,0,21
+la Maternitat i Sant Ramon,S4_s0.25_w0.25_r0.50,0,338,50,28,292,0,21
+la Maternitat i Sant Ramon,S4_s0.25_w0.50_r0.25,0,343,50,212,104,0,20
+la Maternitat i Sant Ramon,S4_s0.25_w0.75_r0.00,0,330,63,243,73,0,20
+la Maternitat i Sant Ramon,S4_s0.50_w0.00_r0.50,4,9,50,11,634,0,21
+la Maternitat i Sant Ramon,S4_s0.50_w0.25_r0.25,4,291,50,11,352,0,21
+la Maternitat i Sant Ramon,S4_s0.50_w0.50_r0.00,0,332,50,28,298,0,21
+la Maternitat i Sant Ramon,S4_s0.75_w0.00_r0.25,4,9,50,11,634,0,21
+la Maternitat i Sant Ramon,S4_s0.75_w0.25_r0.00,4,9,50,11,634,0,21
+la Maternitat i Sant Ramon,S4_s1.00_w0.00_r0.00,4,9,50,11,634,0,21
+les Corts,S4_s0.00_w0.00_r1.00,0,532,294,80,588,22,117
+les Corts,S4_s0.00_w0.25_r0.75,0,35,753,384,255,25,181
+les Corts,S4_s0.00_w0.50_r0.50,0,36,756,385,251,25,180
+les Corts,S4_s0.00_w0.75_r0.25,5,32,761,385,245,25,180
+les Corts,S4_s0.00_w1.00_r0.00,15,23,768,375,242,25,185
+les Corts,S4_s0.25_w0.00_r0.75,0,564,293,28,610,37,101
+les Corts,S4_s0.25_w0.25_r0.50,0,536,294,80,584,22,117
+les Corts,S4_s0.25_w0.50_r0.25,2,535,295,205,455,17,124
+les Corts,S4_s0.25_w0.75_r0.00,13,532,312,266,362,16,132
+les Corts,S4_s0.50_w0.00_r0.50,0,566,293,28,608,37,101
+les Corts,S4_s0.50_w0.25_r0.25,0,515,294,23,664,24,113
+les Corts,S4_s0.50_w0.50_r0.00,4,523,294,78,595,21,118
+les Corts,S4_s0.75_w0.00_r0.25,0,582,293,28,592,37,101
+les Corts,S4_s0.75_w0.25_r0.00,0,487,293,22,693,25,113
+les Corts,S4_s1.00_w0.00_r0.00,0,583,293,28,591,36,102
+Can Peguera,S4_s0.00_w0.00_r1.00,0,26,0,4,7,0,0
+Can Peguera,S4_s0.00_w0.25_r0.75,0,0,1,4,5,27,0
+Can Peguera,S4_s0.00_w0.50_r0.50,0,1,1,3,5,27,0
+Can Peguera,S4_s0.00_w0.75_r0.25,0,1,1,3,5,27,0
+Can Peguera,S4_s0.00_w1.00_r0.00,2,0,2,2,3,27,1
+Can Peguera,S4_s0.25_w0.00_r0.75,0,0,0,3,34,0,0
+Can Peguera,S4_s0.25_w0.25_r0.50,0,27,0,3,7,0,0
+Can Peguera,S4_s0.25_w0.50_r0.25,0,29,0,3,5,0,0
+Can Peguera,S4_s0.25_w0.75_r0.00,0,25,1,3,5,0,3
+Can Peguera,S4_s0.50_w0.00_r0.50,0,0,0,3,34,0,0
+Can Peguera,S4_s0.50_w0.25_r0.25,0,1,0,2,34,0,0
+Can Peguera,S4_s0.50_w0.50_r0.00,0,6,1,3,27,0,0
+Can Peguera,S4_s0.75_w0.00_r0.25,0,0,0,3,34,0,0
+Can Peguera,S4_s0.75_w0.25_r0.00,0,1,0,2,34,0,0
+Can Peguera,S4_s1.00_w0.00_r0.00,0,1,0,3,33,0,0
+Canyelles,S4_s0.00_w0.00_r1.00,1,31,4,61,11,1,0
+Canyelles,S4_s0.00_w0.25_r0.75,1,0,35,59,13,0,1
+Canyelles,S4_s0.00_w0.50_r0.50,27,0,35,33,13,0,1
+Canyelles,S4_s0.00_w0.75_r0.25,33,0,35,27,13,0,1
+Canyelles,S4_s0.00_w1.00_r0.00,36,0,35,24,13,0,1
+Canyelles,S4_s0.25_w0.00_r0.75,1,0,4,91,12,1,0
+Canyelles,S4_s0.25_w0.25_r0.50,1,31,4,61,11,1,0
+Canyelles,S4_s0.25_w0.50_r0.25,1,25,5,64,10,0,4
+Canyelles,S4_s0.25_w0.75_r0.00,22,15,18,41,10,0,3
+Canyelles,S4_s0.50_w0.00_r0.50,1,0,4,90,13,1,0
+Canyelles,S4_s0.50_w0.25_r0.25,1,27,4,53,23,1,0
+Canyelles,S4_s0.50_w0.50_r0.00,1,27,4,64,12,1,0
+Canyelles,S4_s0.75_w0.00_r0.25,1,0,4,91,12,1,0
+Canyelles,S4_s0.75_w0.25_r0.00,1,25,4,48,30,1,0
+Canyelles,S4_s1.00_w0.00_r0.00,1,0,4,89,14,1,0
+Vallbona,S4_s0.00_w0.00_r1.00,0,1,0,1,0,0,0
+Vallbona,S4_s0.00_w0.25_r0.75,0,0,1,1,0,0,0
+Vallbona,S4_s0.00_w0.50_r0.50,1,0,1,0,0,0,0
+Vallbona,S4_s0.00_w0.75_r0.25,1,0,1,0,0,0,0
+Vallbona,S4_s0.00_w1.00_r0.00,1,0,1,0,0,0,0
+Vallbona,S4_s0.25_w0.00_r0.75,0,0,0,0,2,0,0
+Vallbona,S4_s0.25_w0.25_r0.50,0,1,0,1,0,0,0
+Vallbona,S4_s0.25_w0.50_r0.25,0,1,0,1,0,0,0
+Vallbona,S4_s0.25_w0.75_r0.00,1,1,0,0,0,0,0
+Vallbona,S4_s0.50_w0.00_r0.50,0,0,0,0,2,0,0
+Vallbona,S4_s0.50_w0.25_r0.25,0,1,0,0,1,0,0
+Vallbona,S4_s0.50_w0.50_r0.00,0,1,0,1,0,0,0
+Vallbona,S4_s0.75_w0.00_r0.25,0,0,0,0,2,0,0
+Vallbona,S4_s0.75_w0.25_r0.00,0,1,0,0,1,0,0
+Vallbona,S4_s1.00_w0.00_r0.00,0,0,0,0,2,0,0
+Verdun,S4_s0.00_w0.00_r1.00,0,27,58,44,1,12,13
+Verdun,S4_s0.00_w0.25_r0.75,0,11,79,30,12,7,16
+Verdun,S4_s0.00_w0.50_r0.50,0,13,79,30,12,5,16
+Verdun,S4_s0.00_w0.75_r0.25,0,13,79,29,13,4,17
+Verdun,S4_s0.00_w1.00_r0.00,0,11,79,12,30,4,19
+Verdun,S4_s0.25_w0.00_r0.75,0,6,58,63,1,14,13
+Verdun,S4_s0.25_w0.25_r0.50,1,30,58,43,1,9,13
+Verdun,S4_s0.25_w0.50_r0.25,2,19,58,38,4,9,25
+Verdun,S4_s0.25_w0.75_r0.00,2,24,59,36,5,6,23
+Verdun,S4_s0.50_w0.00_r0.50,0,6,58,63,1,14,13
+Verdun,S4_s0.50_w0.25_r0.25,2,12,58,59,1,10,13
+Verdun,S4_s0.50_w0.50_r0.00,2,27,58,43,1,10,14
+Verdun,S4_s0.75_w0.00_r0.25,0,9,58,63,1,11,13
+Verdun,S4_s0.75_w0.25_r0.00,3,10,58,60,1,10,13
+Verdun,S4_s1.00_w0.00_r0.00,0,9,58,63,1,11,13
+el Turó de la Peira,S4_s0.00_w0.00_r1.00,0,101,67,21,130,7,43
+el Turó de la Peira,S4_s0.00_w0.25_r0.75,1,7,98,93,51,7,112
+el Turó de la Peira,S4_s0.00_w0.50_r0.50,5,6,98,89,51,7,113
+el Turó de la Peira,S4_s0.00_w0.75_r0.25,12,6,98,83,49,7,114
+el Turó de la Peira,S4_s0.00_w1.00_r0.00,16,5,99,82,43,7,117
+el Turó de la Peira,S4_s0.25_w0.00_r0.75,0,74,67,45,133,7,43
+el Turó de la Peira,S4_s0.25_w0.25_r0.50,1,101,67,23,127,7,43
+el Turó de la Peira,S4_s0.25_w0.50_r0.25,7,96,67,48,92,7,52
+el Turó de la Peira,S4_s0.25_w0.75_r0.00,10,92,68,60,73,7,59
+el Turó de la Peira,S4_s0.50_w0.00_r0.50,0,74,67,44,134,7,43
+el Turó de la Peira,S4_s0.50_w0.25_r0.25,0,76,67,16,160,7,43
+el Turó de la Peira,S4_s0.50_w0.50_r0.00,6,100,67,20,126,7,43
+el Turó de la Peira,S4_s0.75_w0.00_r0.25,0,74,67,45,133,7,43
+el Turó de la Peira,S4_s0.75_w0.25_r0.00,0,74,67,16,162,7,43
+el Turó de la Peira,S4_s1.00_w0.00_r0.00,0,74,67,43,135,7,43
+la Guineueta,S4_s0.00_w0.00_r1.00,0,43,7,24,131,3,7
+la Guineueta,S4_s0.00_w0.25_r0.75,0,7,65,63,62,2,16
+la Guineueta,S4_s0.00_w0.50_r0.50,15,11,68,53,47,2,19
+la Guineueta,S4_s0.00_w0.75_r0.25,33,9,73,46,18,2,34
+la Guineueta,S4_s0.00_w1.00_r0.00,45,3,91,37,13,2,24
+la Guineueta,S4_s0.25_w0.00_r0.75,0,16,7,3,180,5,4
+la Guineueta,S4_s0.25_w0.25_r0.50,0,43,7,25,130,2,8
+la Guineueta,S4_s0.25_w0.50_r0.25,10,18,7,53,66,2,59
+la Guineueta,S4_s0.25_w0.75_r0.00,19,29,26,60,26,2,53
+la Guineueta,S4_s0.50_w0.00_r0.50,0,16,7,3,180,4,5
+la Guineueta,S4_s0.50_w0.25_r0.25,0,16,7,3,180,2,7
+la Guineueta,S4_s0.50_w0.50_r0.00,0,35,7,42,111,2,18
+la Guineueta,S4_s0.75_w0.00_r0.25,0,16,7,3,180,4,5
+la Guineueta,S4_s0.75_w0.25_r0.00,0,16,7,3,180,2,7
+la Guineueta,S4_s1.00_w0.00_r0.00,0,16,7,8,175,4,5
+la Prosperitat,S4_s0.00_w0.00_r1.00,0,33,32,31,107,0,5
+la Prosperitat,S4_s0.00_w0.25_r0.75,0,2,130,30,33,0,13
+la Prosperitat,S4_s0.00_w0.50_r0.50,14,12,130,25,14,0,13
+la Prosperitat,S4_s0.00_w0.75_r0.25,18,4,138,35,0,0,13
+la Prosperitat,S4_s0.00_w1.00_r0.00,20,2,140,33,0,0,13
+la Prosperitat,S4_s0.25_w0.00_r0.75,0,6,32,36,129,5,0
+la Prosperitat,S4_s0.25_w0.25_r0.50,0,33,32,32,106,0,5
+la Prosperitat,S4_s0.25_w0.50_r0.25,11,53,33,30,23,0,58
+la Prosperitat,S4_s0.25_w0.75_r0.00,14,70,46,45,1,0,32
+la Prosperitat,S4_s0.50_w0.00_r0.50,0,6,32,34,131,5,0
+la Prosperitat,S4_s0.50_w0.25_r0.25,0,6,32,1,164,3,2
+la Prosperitat,S4_s0.50_w0.50_r0.00,0,38,32,42,91,0,5
+la Prosperitat,S4_s0.75_w0.00_r0.25,0,6,32,34,131,5,0
+la Prosperitat,S4_s0.75_w0.25_r0.00,0,6,32,0,165,4,1
+la Prosperitat,S4_s1.00_w0.00_r0.00,0,6,32,31,134,5,0
+la Trinitat Nova,S4_s0.00_w0.00_r1.00,0,57,19,14,9,1,6
+la Trinitat Nova,S4_s0.00_w0.25_r0.75,0,1,80,19,2,0,4
+la Trinitat Nova,S4_s0.00_w0.50_r0.50,0,1,80,19,2,0,4
+la Trinitat Nova,S4_s0.00_w0.75_r0.25,0,1,80,19,2,0,4
+la Trinitat Nova,S4_s0.00_w1.00_r0.00,0,1,80,19,2,0,4
+la Trinitat Nova,S4_s0.25_w0.00_r0.75,0,13,19,10,59,5,0
+la Trinitat Nova,S4_s0.25_w0.25_r0.50,0,57,19,14,9,1,6
+la Trinitat Nova,S4_s0.25_w0.50_r0.25,0,54,20,18,5,0,9
+la Trinitat Nova,S4_s0.25_w0.75_r0.00,0,21,49,18,5,0,13
+la Trinitat Nova,S4_s0.50_w0.00_r0.50,0,9,19,10,63,5,0
+la Trinitat Nova,S4_s0.50_w0.25_r0.25,0,57,19,11,14,1,4
+la Trinitat Nova,S4_s0.50_w0.50_r0.00,0,57,19,14,9,1,6
+la Trinitat Nova,S4_s0.75_w0.00_r0.25,0,12,19,10,60,5,0
+la Trinitat Nova,S4_s0.75_w0.25_r0.00,0,57,19,10,15,1,4
+la Trinitat Nova,S4_s1.00_w0.00_r0.00,0,9,19,10,63,5,0
+les Roquetes,S4_s0.00_w0.00_r1.00,0,5,4,3,19,0,2
+les Roquetes,S4_s0.00_w0.25_r0.75,0,3,7,6,15,0,2
+les Roquetes,S4_s0.00_w0.50_r0.50,0,3,7,6,15,0,2
+les Roquetes,S4_s0.00_w0.75_r0.25,0,3,7,6,15,0,2
+les Roquetes,S4_s0.00_w1.00_r0.00,0,3,7,6,15,0,2
+les Roquetes,S4_s0.25_w0.00_r0.75,0,3,4,8,16,0,2
+les Roquetes,S4_s0.25_w0.25_r0.50,0,5,4,3,19,0,2
+les Roquetes,S4_s0.25_w0.50_r0.25,0,3,4,4,17,1,4
+les Roquetes,S4_s0.25_w0.75_r0.00,0,4,5,4,17,0,3
+les Roquetes,S4_s0.50_w0.00_r0.50,0,3,4,8,16,0,2
+les Roquetes,S4_s0.50_w0.25_r0.25,0,3,4,2,22,0,2
+les Roquetes,S4_s0.50_w0.50_r0.00,0,4,4,3,19,1,2
+les Roquetes,S4_s0.75_w0.00_r0.25,0,3,4,8,16,0,2
+les Roquetes,S4_s0.75_w0.25_r0.00,0,3,4,2,22,0,2
+les Roquetes,S4_s1.00_w0.00_r0.00,0,3,4,7,17,0,2
+Baró de Viver,S4_s0.00_w0.00_r1.00,0,10,1,0,4,0,0
+Baró de Viver,S4_s0.00_w0.25_r0.75,0,0,10,3,1,1,0
+Baró de Viver,S4_s0.00_w0.50_r0.50,0,0,10,3,1,1,0
+Baró de Viver,S4_s0.00_w0.75_r0.25,0,0,10,3,1,1,0
+Baró de Viver,S4_s0.00_w1.00_r0.00,0,0,10,3,1,1,0
+Baró de Viver,S4_s0.25_w0.00_r0.75,0,10,1,0,4,0,0
+Baró de Viver,S4_s0.25_w0.25_r0.50,0,10,1,0,4,0,0
+Baró de Viver,S4_s0.25_w0.50_r0.25,0,7,1,1,3,0,3
+Baró de Viver,S4_s0.25_w0.75_r0.00,0,4,4,2,2,0,3
+Baró de Viver,S4_s0.50_w0.00_r0.50,0,10,1,0,4,0,0
+Baró de Viver,S4_s0.50_w0.25_r0.25,0,10,1,0,4,0,0
+Baró de Viver,S4_s0.50_w0.50_r0.00,0,10,1,0,4,0,0
+Baró de Viver,S4_s0.75_w0.00_r0.25,0,10,1,0,4,0,0
+Baró de Viver,S4_s0.75_w0.25_r0.00,0,10,1,0,4,0,0
+Baró de Viver,S4_s1.00_w0.00_r0.00,0,10,1,0,4,0,0
+Navas,S4_s0.00_w0.00_r1.00,0,25,88,5,87,68,51
+Navas,S4_s0.00_w0.25_r0.75,0,2,106,54,37,33,92
+Navas,S4_s0.00_w0.50_r0.50,0,2,106,60,31,22,103
+Navas,S4_s0.00_w0.75_r0.25,3,1,106,76,11,20,107
+Navas,S4_s0.00_w1.00_r0.00,4,0,109,86,0,18,107
+Navas,S4_s0.25_w0.00_r0.75,0,25,88,5,87,119,0
+Navas,S4_s0.25_w0.25_r0.50,0,25,88,5,87,67,52
+Navas,S4_s0.25_w0.50_r0.25,0,25,88,23,69,41,78
+Navas,S4_s0.25_w0.75_r0.00,1,24,89,79,10,32,89
+Navas,S4_s0.50_w0.00_r0.50,0,25,88,5,87,119,0
+Navas,S4_s0.50_w0.25_r0.25,0,25,88,5,87,83,36
+Navas,S4_s0.50_w0.50_r0.00,0,25,88,5,87,53,66
+Navas,S4_s0.75_w0.00_r0.25,0,25,88,5,87,119,0
+Navas,S4_s0.75_w0.25_r0.00,0,25,88,5,87,93,26
+Navas,S4_s1.00_w0.00_r0.00,0,25,88,5,87,119,0
+Sant Andreu,S4_s0.00_w0.00_r1.00,0,136,24,388,14,89,30
+Sant Andreu,S4_s0.00_w0.25_r0.75,0,20,163,359,11,93,35
+Sant Andreu,S4_s0.00_w0.50_r0.50,28,21,165,329,10,93,35
+Sant Andreu,S4_s0.00_w0.75_r0.25,45,22,171,306,10,93,34
+Sant Andreu,S4_s0.00_w1.00_r0.00,69,23,216,205,19,97,52
+Sant Andreu,S4_s0.25_w0.00_r0.75,0,13,24,525,0,89,30
+Sant Andreu,S4_s0.25_w0.25_r0.50,0,137,24,387,14,89,30
+Sant Andreu,S4_s0.25_w0.50_r0.25,5,94,26,374,10,89,83
+Sant Andreu,S4_s0.25_w0.75_r0.00,22,104,88,294,38,89,46
+Sant Andreu,S4_s0.50_w0.00_r0.50,0,13,24,525,0,89,30
+Sant Andreu,S4_s0.50_w0.25_r0.25,0,87,24,437,14,89,30
+Sant Andreu,S4_s0.50_w0.50_r0.00,0,132,24,367,39,89,30
+Sant Andreu,S4_s0.75_w0.00_r0.25,0,13,24,525,0,89,30
+Sant Andreu,S4_s0.75_w0.25_r0.00,0,13,24,492,33,89,30
+Sant Andreu,S4_s1.00_w0.00_r0.00,0,13,24,525,0,89,30
+el Bon Pastor,S4_s0.00_w0.00_r1.00,0,246,89,61,177,0,93
+el Bon Pastor,S4_s0.00_w0.25_r0.75,0,71,243,203,53,0,96
+el Bon Pastor,S4_s0.00_w0.50_r0.50,4,67,243,212,44,0,96
+el Bon Pastor,S4_s0.00_w0.75_r0.25,0,32,268,226,34,0,106
+el Bon Pastor,S4_s0.00_w1.00_r0.00,0,17,283,228,34,0,104
+el Bon Pastor,S4_s0.25_w0.00_r0.75,0,247,88,19,222,1,89
+el Bon Pastor,S4_s0.25_w0.25_r0.50,0,246,89,61,177,0,93
+el Bon Pastor,S4_s0.25_w0.50_r0.25,1,245,89,170,64,0,97
+el Bon Pastor,S4_s0.25_w0.75_r0.00,0,154,149,204,31,0,128
+el Bon Pastor,S4_s0.50_w0.00_r0.50,0,247,88,19,222,1,89
+el Bon Pastor,S4_s0.50_w0.25_r0.25,3,246,89,16,222,0,90
+el Bon Pastor,S4_s0.50_w0.50_r0.00,0,246,89,72,166,0,93
+el Bon Pastor,S4_s0.75_w0.00_r0.25,5,247,88,14,222,1,89
+el Bon Pastor,S4_s0.75_w0.25_r0.00,5,246,89,14,222,0,90
+el Bon Pastor,S4_s1.00_w0.00_r0.00,5,247,88,14,222,1,89
+el Congrés i els Indians,S4_s0.00_w0.00_r1.00,18,21,6,8,12,60,59
+el Congrés i els Indians,S4_s0.00_w0.25_r0.75,18,10,10,16,3,62,65
+el Congrés i els Indians,S4_s0.00_w0.50_r0.50,11,11,10,16,9,63,64
+el Congrés i els Indians,S4_s0.00_w0.75_r0.25,0,11,10,25,11,63,64
+el Congrés i els Indians,S4_s0.00_w1.00_r0.00,0,6,11,34,2,67,64
+el Congrés i els Indians,S4_s0.25_w0.00_r0.75,18,22,6,8,11,60,59
+el Congrés i els Indians,S4_s0.25_w0.25_r0.50,17,23,6,8,11,60,59
+el Congrés i els Indians,S4_s0.25_w0.50_r0.25,5,23,6,9,22,60,59
+el Congrés i els Indians,S4_s0.25_w0.75_r0.00,0,22,6,24,12,60,60
+el Congrés i els Indians,S4_s0.50_w0.00_r0.50,24,22,6,8,5,60,59
+el Congrés i els Indians,S4_s0.50_w0.25_r0.25,12,23,6,8,16,60,59
+el Congrés i els Indians,S4_s0.50_w0.50_r0.00,0,23,6,11,25,60,59
+el Congrés i els Indians,S4_s0.75_w0.00_r0.25,27,23,6,8,1,60,59
+el Congrés i els Indians,S4_s0.75_w0.25_r0.00,10,23,6,8,18,60,59
+el Congrés i els Indians,S4_s1.00_w0.00_r0.00,22,23,6,8,6,60,59
+la Sagrera,S4_s0.00_w0.00_r1.00,1,79,35,13,252,8,29
+la Sagrera,S4_s0.00_w0.25_r0.75,3,21,113,163,71,11,35
+la Sagrera,S4_s0.00_w0.50_r0.50,7,24,113,166,61,11,35
+la Sagrera,S4_s0.00_w0.75_r0.25,0,24,113,192,40,11,37
+la Sagrera,S4_s0.00_w1.00_r0.00,0,20,120,196,35,11,35
+la Sagrera,S4_s0.25_w0.00_r0.75,0,17,35,13,315,8,29
+la Sagrera,S4_s0.25_w0.25_r0.50,0,79,35,13,253,8,29
+la Sagrera,S4_s0.25_w0.50_r0.25,2,84,36,69,189,8,29
+la Sagrera,S4_s0.25_w0.75_r0.00,0,78,52,165,76,8,38
+la Sagrera,S4_s0.50_w0.00_r0.50,1,16,35,12,316,8,29
+la Sagrera,S4_s0.50_w0.25_r0.25,1,66,35,12,266,8,29
+la Sagrera,S4_s0.50_w0.50_r0.00,0,77,35,13,255,8,29
+la Sagrera,S4_s0.75_w0.00_r0.25,1,17,35,12,315,8,29
+la Sagrera,S4_s0.75_w0.25_r0.00,1,29,35,12,303,8,29
+la Sagrera,S4_s1.00_w0.00_r0.00,2,16,35,11,316,8,29
+la Trinitat Vella,S4_s0.00_w0.00_r1.00,0,72,33,8,40,4,10
+la Trinitat Vella,S4_s0.00_w0.25_r0.75,0,5,116,12,10,2,22
+la Trinitat Vella,S4_s0.00_w0.50_r0.50,0,5,116,12,10,2,22
+la Trinitat Vella,S4_s0.00_w0.75_r0.25,0,5,116,12,10,2,22
+la Trinitat Vella,S4_s0.00_w1.00_r0.00,0,5,116,12,10,2,22
+la Trinitat Vella,S4_s0.25_w0.00_r0.75,1,12,33,6,101,14,0
+la Trinitat Vella,S4_s0.25_w0.25_r0.50,0,72,33,8,40,4,10
+la Trinitat Vella,S4_s0.25_w0.50_r0.25,0,83,33,8,29,3,11
+la Trinitat Vella,S4_s0.25_w0.75_r0.00,0,91,33,11,18,2,12
+la Trinitat Vella,S4_s0.50_w0.00_r0.50,2,11,33,6,101,14,0
+la Trinitat Vella,S4_s0.50_w0.25_r0.25,1,32,33,6,81,6,8
+la Trinitat Vella,S4_s0.50_w0.50_r0.00,1,68,33,7,44,4,10
+la Trinitat Vella,S4_s0.75_w0.00_r0.25,2,11,33,6,101,14,0
+la Trinitat Vella,S4_s0.75_w0.25_r0.00,2,11,33,6,101,12,2
+la Trinitat Vella,S4_s1.00_w0.00_r0.00,2,11,33,6,101,14,0
+Diagonal Mar i el Front Marítim del Poblenou,S4_s0.00_w0.00_r1.00,1,318,14,6,375,13,1
+Diagonal Mar i el Front Marítim del Poblenou,S4_s0.00_w0.25_r0.75,1,46,272,123,223,12,51
+Diagonal Mar i el Front Marítim del Poblenou,S4_s0.00_w0.50_r0.50,51,151,273,126,62,11,54
+Diagonal Mar i el Front Marítim del Poblenou,S4_s0.00_w0.75_r0.25,56,46,376,129,46,8,67
+Diagonal Mar i el Front Marítim del Poblenou,S4_s0.00_w1.00_r0.00,0,12,394,195,31,10,86
 Diagonal Mar i el Front Marítim del Poblenou,S4_s0.25_w0.00_r0.75,1,71,14,6,622,14,0
-Diagonal Mar i el Front Marítim del Poblenou,S4_s0.25_w0.25_r0.50,1,329,14,6,364,14,0
-Diagonal Mar i el Front Marítim del Poblenou,S4_s0.25_w0.50_r0.25,49,447,14,79,125,11,3
-Diagonal Mar i el Front Marítim del Poblenou,S4_s0.25_w0.75_r0.00,1,226,27,147,85,8,234
-Diagonal Mar i el Front Marítim del Poblenou,S4_s0.50_w0.00_r0.50,1,71,14,6,622,14,0
-Diagonal Mar i el Front Marítim del Poblenou,S4_s0.50_w0.25_r0.25,1,276,14,6,417,14,0
-Diagonal Mar i el Front Marítim del Poblenou,S4_s0.50_w0.50_r0.00,0,440,14,7,253,10,4
+Diagonal Mar i el Front Marítim del Poblenou,S4_s0.25_w0.25_r0.50,1,324,14,6,369,13,1
+Diagonal Mar i el Front Marítim del Poblenou,S4_s0.25_w0.50_r0.25,53,443,14,77,125,10,6
+Diagonal Mar i el Front Marítim del Poblenou,S4_s0.25_w0.75_r0.00,108,194,210,41,86,8,81
+Diagonal Mar i el Front Marítim del Poblenou,S4_s0.50_w0.00_r0.50,2,71,14,5,622,14,0
+Diagonal Mar i el Front Marítim del Poblenou,S4_s0.50_w0.25_r0.25,2,245,14,5,448,14,0
+Diagonal Mar i el Front Marítim del Poblenou,S4_s0.50_w0.50_r0.00,99,428,14,8,165,10,4
 Diagonal Mar i el Front Marítim del Poblenou,S4_s0.75_w0.00_r0.25,2,71,14,5,622,14,0
-Diagonal Mar i el Front Marítim del Poblenou,S4_s0.75_w0.25_r0.00,2,72,14,5,621,13,1
-Diagonal Mar i el Front Marítim del Poblenou,S4_s1.00_w0.00_r0.00,2,71,14,6,621,14,0
-Provençals del Poblenou,S4_s0.00_w0.00_r1.00,0,508,207,17,606,88,37
-Provençals del Poblenou,S4_s0.00_w0.25_r0.75,30,206,381,380,116,68,282
-Provençals del Poblenou,S4_s0.00_w0.50_r0.50,61,227,382,380,58,58,297
-Provençals del Poblenou,S4_s0.00_w0.75_r0.25,70,73,446,380,47,54,393
-Provençals del Poblenou,S4_s0.00_w1.00_r0.00,65,8,501,429,3,44,413
-Provençals del Poblenou,S4_s0.25_w0.00_r0.75,0,340,207,12,779,125,0
-Provençals del Poblenou,S4_s0.25_w0.25_r0.50,34,608,207,16,473,87,38
-Provençals del Poblenou,S4_s0.25_w0.50_r0.25,273,631,207,68,159,67,58
-Provençals del Poblenou,S4_s0.25_w0.75_r0.00,282,139,235,106,110,58,533
-Provençals del Poblenou,S4_s0.50_w0.00_r0.50,0,340,207,12,779,125,0
-Provençals del Poblenou,S4_s0.50_w0.25_r0.25,30,616,207,12,473,100,25
-Provençals del Poblenou,S4_s0.50_w0.50_r0.00,273,631,207,16,211,75,50
-Provençals del Poblenou,S4_s0.75_w0.00_r0.25,0,340,207,12,779,125,0
-Provençals del Poblenou,S4_s0.75_w0.25_r0.00,0,621,207,12,498,110,15
-Provençals del Poblenou,S4_s1.00_w0.00_r0.00,0,344,207,12,775,125,0
-Sant Martí de Provençals,S4_s0.00_w0.00_r1.00,0,337,217,57,513,43,91
-Sant Martí de Provençals,S4_s0.00_w0.25_r0.75,27,147,368,134,330,37,215
-Sant Martí de Provençals,S4_s0.00_w0.50_r0.50,108,149,370,141,237,36,217
-Sant Martí de Provençals,S4_s0.00_w0.75_r0.25,60,202,395,174,149,19,259
-Sant Martí de Provençals,S4_s0.00_w1.00_r0.00,46,30,504,232,73,15,358
-Sant Martí de Provençals,S4_s0.25_w0.00_r0.75,0,260,215,10,640,52,81
-Sant Martí de Provençals,S4_s0.25_w0.25_r0.50,46,338,217,59,464,43,91
-Sant Martí de Provençals,S4_s0.25_w0.50_r0.25,41,383,230,96,333,41,134
-Sant Martí de Provençals,S4_s0.25_w0.75_r0.00,31,357,246,187,182,19,236
-Sant Martí de Provençals,S4_s0.50_w0.00_r0.50,0,260,215,10,640,52,81
-Sant Martí de Provençals,S4_s0.50_w0.25_r0.25,41,264,215,29,577,49,83
-Sant Martí de Provençals,S4_s0.50_w0.50_r0.00,3,394,217,121,389,31,103
-Sant Martí de Provençals,S4_s0.75_w0.00_r0.25,0,260,215,10,640,52,81
-Sant Martí de Provençals,S4_s0.75_w0.25_r0.00,24,259,215,17,609,47,87
-Sant Martí de Provençals,S4_s1.00_w0.00_r0.00,0,258,215,30,620,54,81
-el Besòs i el Maresme,S4_s0.00_w0.00_r1.00,8,558,169,57,603,45,143
-el Besòs i el Maresme,S4_s0.00_w0.25_r0.75,8,50,656,340,282,17,230
-el Besòs i el Maresme,S4_s0.00_w0.50_r0.50,40,113,657,348,177,13,235
-el Besòs i el Maresme,S4_s0.00_w0.75_r0.25,33,115,686,392,99,8,250
-el Besòs i el Maresme,S4_s0.00_w1.00_r0.00,0,14,774,506,2,5,282
-el Besòs i el Maresme,S4_s0.25_w0.00_r0.75,8,110,169,57,1052,84,103
-el Besòs i el Maresme,S4_s0.25_w0.25_r0.50,8,563,169,57,598,45,143
-el Besòs i el Maresme,S4_s0.25_w0.50_r0.25,30,644,172,192,347,33,165
-el Besòs i el Maresme,S4_s0.25_w0.75_r0.00,0,396,226,334,186,23,418
-el Besòs i el Maresme,S4_s0.50_w0.00_r0.50,16,110,169,49,1052,84,103
-el Besòs i el Maresme,S4_s0.50_w0.25_r0.25,17,477,169,47,685,68,120
-el Besòs i el Maresme,S4_s0.50_w0.50_r0.00,50,648,169,63,465,38,150
-el Besòs i el Maresme,S4_s0.75_w0.00_r0.25,21,110,169,44,1052,84,103
-el Besòs i el Maresme,S4_s0.75_w0.25_r0.00,21,332,169,43,830,77,111
-el Besòs i el Maresme,S4_s1.00_w0.00_r0.00,21,110,169,44,1052,84,103
-el Camp de l'Arpa del Clot,S4_s0.00_w0.00_r1.00,2,84,150,5,82,107,66
-el Camp de l'Arpa del Clot,S4_s0.00_w0.25_r0.75,2,36,175,22,51,65,145
-el Camp de l'Arpa del Clot,S4_s0.00_w0.50_r0.50,12,42,175,23,34,62,148
-el Camp de l'Arpa del Clot,S4_s0.00_w0.75_r0.25,24,36,178,25,19,46,168
-el Camp de l'Arpa del Clot,S4_s0.00_w1.00_r0.00,12,10,196,53,3,36,186
-el Camp de l'Arpa del Clot,S4_s0.25_w0.00_r0.75,2,63,150,3,105,173,0
-el Camp de l'Arpa del Clot,S4_s0.25_w0.25_r0.50,2,100,150,5,66,105,68
-el Camp de l'Arpa del Clot,S4_s0.25_w0.50_r0.25,5,103,150,13,51,77,97
-el Camp de l'Arpa del Clot,S4_s0.25_w0.75_r0.00,5,98,151,50,13,65,114
-el Camp de l'Arpa del Clot,S4_s0.50_w0.00_r0.50,2,63,150,3,105,173,0
-el Camp de l'Arpa del Clot,S4_s0.50_w0.25_r0.25,0,100,150,5,68,133,40
-el Camp de l'Arpa del Clot,S4_s0.50_w0.50_r0.00,0,105,150,10,58,88,85
-el Camp de l'Arpa del Clot,S4_s0.75_w0.00_r0.25,0,63,150,5,105,173,0
-el Camp de l'Arpa del Clot,S4_s0.75_w0.25_r0.00,0,100,150,5,68,150,23
-el Camp de l'Arpa del Clot,S4_s1.00_w0.00_r0.00,0,63,150,5,105,173,0
-el Clot,S4_s0.00_w0.00_r1.00,0,176,7,9,205,130,130
-el Clot,S4_s0.00_w0.25_r0.75,4,106,65,41,162,133,146
-el Clot,S4_s0.00_w0.50_r0.50,14,98,73,45,146,133,148
-el Clot,S4_s0.00_w0.75_r0.25,27,67,101,56,123,133,150
-el Clot,S4_s0.00_w1.00_r0.00,23,7,148,121,63,143,152
-el Clot,S4_s0.25_w0.00_r0.75,0,185,9,1,204,128,130
-el Clot,S4_s0.25_w0.25_r0.50,6,186,9,9,189,128,130
-el Clot,S4_s0.25_w0.50_r0.25,11,186,9,27,164,128,132
-el Clot,S4_s0.25_w0.75_r0.00,16,144,20,72,114,129,162
-el Clot,S4_s0.50_w0.00_r0.50,0,186,9,1,203,128,130
-el Clot,S4_s0.50_w0.25_r0.25,9,186,9,1,194,128,130
-el Clot,S4_s0.50_w0.50_r0.00,9,186,9,15,178,128,132
-el Clot,S4_s0.75_w0.00_r0.25,4,186,9,1,199,128,130
-el Clot,S4_s0.75_w0.25_r0.00,11,186,9,1,192,128,130
-el Clot,S4_s1.00_w0.00_r0.00,3,186,9,2,199,128,130
-el Parc i la Llacuna del Poblenou,S4_s0.00_w0.00_r1.00,0,420,7,109,213,74,297
-el Parc i la Llacuna del Poblenou,S4_s0.00_w0.25_r0.75,0,106,130,299,62,125,398
-el Parc i la Llacuna del Poblenou,S4_s0.00_w0.50_r0.50,11,100,131,305,47,127,399
-el Parc i la Llacuna del Poblenou,S4_s0.00_w0.75_r0.25,0,96,134,320,43,128,399
-el Parc i la Llacuna del Poblenou,S4_s0.00_w1.00_r0.00,0,26,191,347,21,135,400
-el Parc i la Llacuna del Poblenou,S4_s0.25_w0.00_r0.75,0,420,7,47,276,74,296
-el Parc i la Llacuna del Poblenou,S4_s0.25_w0.25_r0.50,4,420,7,109,209,74,297
-el Parc i la Llacuna del Poblenou,S4_s0.25_w0.50_r0.25,10,420,7,187,122,74,300
-el Parc i la Llacuna del Poblenou,S4_s0.25_w0.75_r0.00,0,303,12,241,80,74,410
+Diagonal Mar i el Front Marítim del Poblenou,S4_s0.75_w0.25_r0.00,2,73,14,5,620,12,2
+Diagonal Mar i el Front Marítim del Poblenou,S4_s1.00_w0.00_r0.00,1,71,14,7,621,14,0
+Provençals del Poblenou,S4_s0.00_w0.00_r1.00,0,508,207,22,601,83,42
+Provençals del Poblenou,S4_s0.00_w0.25_r0.75,59,191,381,381,99,65,287
+Provençals del Poblenou,S4_s0.00_w0.50_r0.50,70,222,385,381,48,53,304
+Provençals del Poblenou,S4_s0.00_w0.75_r0.25,71,53,459,383,43,51,403
+Provençals del Poblenou,S4_s0.00_w1.00_r0.00,89,8,500,405,3,45,413
+Provençals del Poblenou,S4_s0.25_w0.00_r0.75,0,351,207,12,768,123,2
+Provençals del Poblenou,S4_s0.25_w0.25_r0.50,249,602,207,21,259,78,47
+Provençals del Poblenou,S4_s0.25_w0.50_r0.25,303,623,207,45,154,61,70
+Provençals del Poblenou,S4_s0.25_w0.75_r0.00,287,120,406,112,100,55,383
+Provençals del Poblenou,S4_s0.50_w0.00_r0.50,0,351,207,12,768,123,2
+Provençals del Poblenou,S4_s0.50_w0.25_r0.25,55,602,207,12,462,87,38
+Provençals del Poblenou,S4_s0.50_w0.50_r0.00,304,628,207,13,186,66,59
+Provençals del Poblenou,S4_s0.75_w0.00_r0.25,0,352,207,12,767,123,2
+Provençals del Poblenou,S4_s0.75_w0.25_r0.00,0,607,207,12,512,91,34
+Provençals del Poblenou,S4_s1.00_w0.00_r0.00,0,362,207,12,757,123,2
+Sant Martí de Provençals,S4_s0.00_w0.00_r1.00,0,345,220,63,498,42,90
+Sant Martí de Provençals,S4_s0.00_w0.25_r0.75,82,147,368,132,277,37,215
+Sant Martí de Provençals,S4_s0.00_w0.50_r0.50,118,156,371,141,220,32,220
+Sant Martí de Provençals,S4_s0.00_w0.75_r0.25,53,195,409,191,135,18,257
+Sant Martí de Provençals,S4_s0.00_w1.00_r0.00,31,29,503,248,72,15,360
+Sant Martí de Provençals,S4_s0.25_w0.00_r0.75,0,260,215,48,602,52,81
+Sant Martí de Provençals,S4_s0.25_w0.25_r0.50,65,346,220,66,429,42,90
+Sant Martí de Provençals,S4_s0.25_w0.50_r0.25,61,330,228,111,314,47,167
+Sant Martí de Provençals,S4_s0.25_w0.75_r0.00,22,352,267,203,169,19,226
+Sant Martí de Provençals,S4_s0.50_w0.00_r0.50,0,260,215,45,605,52,81
+Sant Martí de Provençals,S4_s0.50_w0.25_r0.25,78,262,215,25,546,49,83
+Sant Martí de Provençals,S4_s0.50_w0.50_r0.00,8,357,221,134,381,47,110
+Sant Martí de Provençals,S4_s0.75_w0.00_r0.25,0,260,215,51,599,52,81
+Sant Martí de Provençals,S4_s0.75_w0.25_r0.00,48,259,215,15,587,46,88
+Sant Martí de Provençals,S4_s1.00_w0.00_r0.00,0,258,215,67,583,54,81
+el Besòs i el Maresme,S4_s0.00_w0.00_r1.00,11,557,169,59,599,44,144
+el Besòs i el Maresme,S4_s0.00_w0.25_r0.75,8,51,655,342,279,17,231
+el Besòs i el Maresme,S4_s0.00_w0.50_r0.50,56,124,657,348,148,12,238
+el Besòs i el Maresme,S4_s0.00_w0.75_r0.25,4,103,696,437,79,7,257
+el Besòs i el Maresme,S4_s0.00_w1.00_r0.00,0,13,774,507,2,5,282
+el Besòs i el Maresme,S4_s0.25_w0.00_r0.75,17,110,169,51,1049,84,103
+el Besòs i el Maresme,S4_s0.25_w0.25_r0.50,25,576,169,56,569,43,145
+el Besòs i el Maresme,S4_s0.25_w0.50_r0.25,41,610,172,195,332,32,201
+el Besòs i el Maresme,S4_s0.25_w0.75_r0.00,0,342,411,346,172,23,289
+el Besòs i el Maresme,S4_s0.50_w0.00_r0.50,18,113,169,47,1049,84,103
+el Besòs i el Maresme,S4_s0.50_w0.25_r0.25,17,495,169,47,667,63,125
+el Besòs i el Maresme,S4_s0.50_w0.50_r0.00,70,641,169,61,454,37,151
+el Besòs i el Maresme,S4_s0.75_w0.00_r0.25,21,113,169,44,1049,84,103
+el Besòs i el Maresme,S4_s0.75_w0.25_r0.00,21,366,169,43,796,73,115
+el Besòs i el Maresme,S4_s1.00_w0.00_r0.00,21,114,169,44,1048,84,103
+el Camp de l'Arpa del Clot,S4_s0.00_w0.00_r1.00,2,84,150,6,81,101,72
+el Camp de l'Arpa del Clot,S4_s0.00_w0.25_r0.75,9,32,175,22,46,62,150
+el Camp de l'Arpa del Clot,S4_s0.00_w0.50_r0.50,21,40,175,23,25,49,163
+el Camp de l'Arpa del Clot,S4_s0.00_w0.75_r0.25,20,27,187,30,18,40,174
+el Camp de l'Arpa del Clot,S4_s0.00_w1.00_r0.00,9,9,196,57,2,33,190
+el Camp de l'Arpa del Clot,S4_s0.25_w0.00_r0.75,2,63,150,8,100,173,0
+el Camp de l'Arpa del Clot,S4_s0.25_w0.25_r0.50,4,98,150,6,65,98,75
+el Camp de l'Arpa del Clot,S4_s0.25_w0.50_r0.25,6,103,150,16,47,70,104
+el Camp de l'Arpa del Clot,S4_s0.25_w0.75_r0.00,5,96,156,48,15,56,120
+el Camp de l'Arpa del Clot,S4_s0.50_w0.00_r0.50,2,63,150,8,100,173,0
+el Camp de l'Arpa del Clot,S4_s0.50_w0.25_r0.25,0,95,150,5,73,112,61
+el Camp de l'Arpa del Clot,S4_s0.50_w0.50_r0.00,1,104,150,11,57,81,92
+el Camp de l'Arpa del Clot,S4_s0.75_w0.00_r0.25,0,63,150,10,100,173,0
+el Camp de l'Arpa del Clot,S4_s0.75_w0.25_r0.00,0,94,150,5,74,124,49
+el Camp de l'Arpa del Clot,S4_s1.00_w0.00_r0.00,0,63,150,11,99,173,0
+el Clot,S4_s0.00_w0.00_r1.00,146,106,9,10,128,128,130
+el Clot,S4_s0.00_w0.25_r0.75,9,103,66,41,160,133,145
+el Clot,S4_s0.00_w0.50_r0.50,28,94,74,45,134,133,149
+el Clot,S4_s0.00_w0.75_r0.25,32,64,105,56,117,133,150
+el Clot,S4_s0.00_w1.00_r0.00,23,7,148,121,62,143,153
+el Clot,S4_s0.25_w0.00_r0.75,103,185,9,7,95,128,130
+el Clot,S4_s0.25_w0.25_r0.50,9,185,9,10,186,128,130
+el Clot,S4_s0.25_w0.50_r0.25,21,184,9,23,159,128,133
+el Clot,S4_s0.25_w0.75_r0.00,16,134,42,74,112,129,150
+el Clot,S4_s0.50_w0.00_r0.50,74,186,9,8,122,128,130
+el Clot,S4_s0.50_w0.25_r0.25,14,186,9,2,188,128,130
+el Clot,S4_s0.50_w0.50_r0.00,13,185,9,15,175,128,132
+el Clot,S4_s0.75_w0.00_r0.25,35,186,9,13,156,128,130
+el Clot,S4_s0.75_w0.25_r0.00,14,186,9,1,189,128,130
+el Clot,S4_s1.00_w0.00_r0.00,18,186,9,36,150,128,130
+el Parc i la Llacuna del Poblenou,S4_s0.00_w0.00_r1.00,1,420,7,119,202,74,297
+el Parc i la Llacuna del Poblenou,S4_s0.00_w0.25_r0.75,11,105,129,301,50,126,398
+el Parc i la Llacuna del Poblenou,S4_s0.00_w0.50_r0.50,11,99,131,305,47,127,400
+el Parc i la Llacuna del Poblenou,S4_s0.00_w0.75_r0.25,0,96,133,323,40,128,400
+el Parc i la Llacuna del Poblenou,S4_s0.00_w1.00_r0.00,0,26,190,347,21,135,401
+el Parc i la Llacuna del Poblenou,S4_s0.25_w0.00_r0.75,9,420,7,47,267,74,296
+el Parc i la Llacuna del Poblenou,S4_s0.25_w0.25_r0.50,10,420,7,119,193,74,297
+el Parc i la Llacuna del Poblenou,S4_s0.25_w0.50_r0.25,11,419,8,194,114,74,300
+el Parc i la Llacuna del Poblenou,S4_s0.25_w0.75_r0.00,0,300,41,244,77,74,384
 el Parc i la Llacuna del Poblenou,S4_s0.50_w0.00_r0.50,0,420,7,47,276,74,296
-el Parc i la Llacuna del Poblenou,S4_s0.50_w0.25_r0.25,0,420,7,47,276,74,296
-el Parc i la Llacuna del Poblenou,S4_s0.50_w0.50_r0.00,69,420,7,56,197,74,297
+el Parc i la Llacuna del Poblenou,S4_s0.50_w0.25_r0.25,68,420,7,47,208,74,296
+el Parc i la Llacuna del Poblenou,S4_s0.50_w0.50_r0.00,82,420,7,56,184,74,297
 el Parc i la Llacuna del Poblenou,S4_s0.75_w0.00_r0.25,0,420,7,47,276,74,296
-el Parc i la Llacuna del Poblenou,S4_s0.75_w0.25_r0.00,59,420,7,47,217,74,296
+el Parc i la Llacuna del Poblenou,S4_s0.75_w0.25_r0.00,67,420,7,47,209,74,296
 el Parc i la Llacuna del Poblenou,S4_s1.00_w0.00_r0.00,0,420,7,47,276,74,296
-el Poblenou,S4_s0.00_w0.00_r1.00,0,671,221,60,638,244,27
-el Poblenou,S4_s0.00_w0.25_r0.75,21,446,378,125,428,204,259
-el Poblenou,S4_s0.00_w0.50_r0.50,40,514,382,126,332,164,303
-el Poblenou,S4_s0.00_w0.75_r0.25,90,676,388,96,128,101,382
-el Poblenou,S4_s0.00_w1.00_r0.00,95,78,695,143,25,47,778
-el Poblenou,S4_s0.25_w0.00_r0.75,2,619,221,59,689,271,0
-el Poblenou,S4_s0.25_w0.25_r0.50,10,671,221,50,638,234,37
-el Poblenou,S4_s0.25_w0.50_r0.25,23,831,221,63,449,168,106
-el Poblenou,S4_s0.25_w0.75_r0.00,53,1030,222,107,157,107,185
-el Poblenou,S4_s0.50_w0.00_r0.50,2,619,221,59,689,271,0
-el Poblenou,S4_s0.50_w0.25_r0.25,2,619,221,59,689,248,23
-el Poblenou,S4_s0.50_w0.50_r0.00,0,764,221,54,551,156,115
-el Poblenou,S4_s0.75_w0.00_r0.25,2,619,221,59,689,271,0
-el Poblenou,S4_s0.75_w0.25_r0.00,0,619,221,61,689,239,32
-el Poblenou,S4_s1.00_w0.00_r0.00,0,619,221,61,689,271,0
-la Verneda i la Pau,S4_s0.00_w0.00_r1.00,6,659,320,177,366,0,164
-la Verneda i la Pau,S4_s0.00_w0.25_r0.75,17,52,859,185,267,1,311
-la Verneda i la Pau,S4_s0.00_w0.50_r0.50,69,79,860,143,225,1,315
-la Verneda i la Pau,S4_s0.00_w0.75_r0.25,142,66,875,103,191,1,314
+el Poblenou,S4_s0.00_w0.00_r1.00,36,705,221,23,605,240,31
+el Poblenou,S4_s0.00_w0.25_r0.75,36,445,378,111,426,201,264
+el Poblenou,S4_s0.00_w0.50_r0.50,58,530,381,123,301,137,331
+el Poblenou,S4_s0.00_w0.75_r0.25,86,581,460,108,96,96,434
+el Poblenou,S4_s0.00_w1.00_r0.00,78,78,693,166,19,51,776
+el Poblenou,S4_s0.25_w0.00_r0.75,36,619,221,25,689,271,0
+el Poblenou,S4_s0.25_w0.25_r0.50,16,705,221,43,605,224,47
+el Poblenou,S4_s0.25_w0.50_r0.25,27,829,221,73,425,144,142
+el Poblenou,S4_s0.25_w0.75_r0.00,53,1033,223,124,130,84,214
+el Poblenou,S4_s0.50_w0.00_r0.50,16,619,221,45,689,271,0
+el Poblenou,S4_s0.50_w0.25_r0.25,2,619,221,59,689,224,47
+el Poblenou,S4_s0.50_w0.50_r0.00,0,756,221,56,553,141,134
+el Poblenou,S4_s0.75_w0.00_r0.25,0,619,221,61,689,271,0
+el Poblenou,S4_s0.75_w0.25_r0.00,0,619,221,61,689,211,60
+el Poblenou,S4_s1.00_w0.00_r0.00,0,619,221,61,689,269,2
+la Verneda i la Pau,S4_s0.00_w0.00_r1.00,7,668,320,178,355,0,164
+la Verneda i la Pau,S4_s0.00_w0.25_r0.75,40,51,859,184,245,1,312
+la Verneda i la Pau,S4_s0.00_w0.50_r0.50,96,79,861,127,214,1,314
+la Verneda i la Pau,S4_s0.00_w0.75_r0.25,159,62,878,96,181,1,315
 la Verneda i la Pau,S4_s0.00_w1.00_r0.00,190,33,896,81,165,1,326
-la Verneda i la Pau,S4_s0.25_w0.00_r0.75,7,202,319,458,540,1,165
-la Verneda i la Pau,S4_s0.25_w0.25_r0.50,20,664,320,175,349,0,164
-la Verneda i la Pau,S4_s0.25_w0.50_r0.25,56,649,320,150,271,0,246
-la Verneda i la Pau,S4_s0.25_w0.75_r0.00,108,465,352,118,234,0,415
-la Verneda i la Pau,S4_s0.50_w0.00_r0.50,7,202,319,474,524,1,165
-la Verneda i la Pau,S4_s0.50_w0.25_r0.25,15,408,319,205,580,0,165
-la Verneda i la Pau,S4_s0.50_w0.50_r0.00,32,693,320,169,314,0,164
-la Verneda i la Pau,S4_s0.75_w0.00_r0.25,7,202,319,652,346,1,165
-la Verneda i la Pau,S4_s0.75_w0.25_r0.00,6,269,319,264,669,0,165
-la Verneda i la Pau,S4_s1.00_w0.00_r0.00,6,205,319,786,210,1,165
-la Vila Olímpica del Poblenou,S4_s0.00_w0.00_r1.00,0,309,83,60,403,140,74
-la Vila Olímpica del Poblenou,S4_s0.00_w0.25_r0.75,99,57,234,118,237,55,269
-la Vila Olímpica del Poblenou,S4_s0.00_w0.50_r0.50,44,108,234,118,241,49,275
-la Vila Olímpica del Poblenou,S4_s0.00_w0.75_r0.25,52,73,271,128,220,39,286
-la Vila Olímpica del Poblenou,S4_s0.00_w1.00_r0.00,57,43,288,140,202,35,304
-la Vila Olímpica del Poblenou,S4_s0.25_w0.00_r0.75,60,158,83,55,500,213,0
-la Vila Olímpica del Poblenou,S4_s0.25_w0.25_r0.50,109,311,83,61,291,136,78
-la Vila Olímpica del Poblenou,S4_s0.25_w0.50_r0.25,25,355,84,78,304,95,128
-la Vila Olímpica del Poblenou,S4_s0.25_w0.75_r0.00,26,257,93,100,275,85,233
-la Vila Olímpica del Poblenou,S4_s0.50_w0.00_r0.50,112,158,83,55,448,213,0
-la Vila Olímpica del Poblenou,S4_s0.50_w0.25_r0.25,74,311,83,44,344,176,37
-la Vila Olímpica del Poblenou,S4_s0.50_w0.50_r0.00,0,365,83,71,336,121,93
-la Vila Olímpica del Poblenou,S4_s0.75_w0.00_r0.25,118,158,83,55,442,213,0
-la Vila Olímpica del Poblenou,S4_s0.75_w0.25_r0.00,36,340,83,40,357,193,20
-la Vila Olímpica del Poblenou,S4_s1.00_w0.00_r0.00,129,159,83,144,341,213,0
-ALL,S4_s0.00_w0.00_r1.00,885,6700,1927,1446,5877,1534,2832
-ALL,S4_s0.00_w0.25_r0.75,885,3383,5270,2885,3076,1293,4409
-ALL,S4_s0.00_w0.50_r0.50,885,3951,5301,2773,2540,1220,4531
-ALL,S4_s0.00_w0.75_r0.25,885,3885,5673,2781,2020,1042,4915
-ALL,S4_s0.00_w1.00_r0.00,885,2433,6758,3227,1321,946,5631
-ALL,S4_s0.25_w0.00_r0.75,885,4868,1926,1629,7618,2062,2213
-ALL,S4_s0.25_w0.25_r0.50,885,6943,1929,1348,5732,1514,2850
-ALL,S4_s0.25_w0.50_r0.25,885,7816,1951,1790,4011,1245,3503
-ALL,S4_s0.25_w0.75_r0.00,885,6780,2152,2458,2672,1042,5212
-ALL,S4_s0.50_w0.00_r0.50,885,4864,1926,1633,7618,2062,2213
-ALL,S4_s0.50_w0.25_r0.25,885,6320,1926,1083,6729,1787,2471
-ALL,S4_s0.50_w0.50_r0.00,885,7548,1929,1363,5206,1294,2976
-ALL,S4_s0.75_w0.00_r0.25,885,4829,1926,1668,7618,2063,2212
-ALL,S4_s0.75_w0.25_r0.00,885,5865,1926,1184,7076,1879,2386
-ALL,S4_s1.00_w0.00_r0.00,885,4657,1926,1839,7618,2064,2212
-CITY_CAP,,885,7816,11123,9415,7618,8350,6809
+la Verneda i la Pau,S4_s0.25_w0.00_r0.75,33,203,319,904,67,1,165
+la Verneda i la Pau,S4_s0.25_w0.25_r0.50,39,671,320,165,333,0,164
+la Verneda i la Pau,S4_s0.25_w0.50_r0.25,76,590,322,142,261,3,298
+la Verneda i la Pau,S4_s0.25_w0.75_r0.00,120,434,455,113,226,0,344
+la Verneda i la Pau,S4_s0.50_w0.00_r0.50,28,203,319,908,68,1,165
+la Verneda i la Pau,S4_s0.50_w0.25_r0.25,34,424,320,202,548,0,164
+la Verneda i la Pau,S4_s0.50_w0.50_r0.00,42,670,320,176,317,3,164
+la Verneda i la Pau,S4_s0.75_w0.00_r0.25,12,204,319,957,34,1,165
+la Verneda i la Pau,S4_s0.75_w0.25_r0.00,6,291,319,264,647,0,165
+la Verneda i la Pau,S4_s1.00_w0.00_r0.00,11,206,319,958,32,1,165
+la Vila Olímpica del Poblenou,S4_s0.00_w0.00_r1.00,151,309,83,68,244,122,92
+la Vila Olímpica del Poblenou,S4_s0.00_w0.25_r0.75,142,54,234,151,164,52,272
+la Vila Olímpica del Poblenou,S4_s0.00_w0.50_r0.50,45,108,234,154,204,38,286
+la Vila Olímpica del Poblenou,S4_s0.00_w0.75_r0.25,54,70,272,154,191,36,292
+la Vila Olímpica del Poblenou,S4_s0.00_w1.00_r0.00,49,43,288,169,181,32,307
+la Vila Olímpica del Poblenou,S4_s0.25_w0.00_r0.75,151,166,83,436,20,213,0
+la Vila Olímpica del Poblenou,S4_s0.25_w0.25_r0.50,112,312,83,69,279,116,98
+la Vila Olímpica del Poblenou,S4_s0.25_w0.50_r0.25,38,338,84,97,272,85,155
+la Vila Olímpica del Poblenou,S4_s0.25_w0.75_r0.00,30,249,165,120,251,75,179
+la Vila Olímpica del Poblenou,S4_s0.50_w0.00_r0.50,151,166,83,438,18,213,0
+la Vila Olímpica del Poblenou,S4_s0.50_w0.25_r0.25,91,311,83,38,333,152,61
+la Vila Olímpica del Poblenou,S4_s0.50_w0.50_r0.00,12,359,83,73,326,102,114
+la Vila Olímpica del Poblenou,S4_s0.75_w0.00_r0.25,118,166,83,470,19,213,0
+la Vila Olímpica del Poblenou,S4_s0.75_w0.25_r0.00,70,347,83,26,330,171,42
+la Vila Olímpica del Poblenou,S4_s1.00_w0.00_r0.00,127,169,83,446,31,213,0
+Hostafrancs,S4_s0.00_w0.00_r1.00,0,57,0,5,73,17,29
+Hostafrancs,S4_s0.00_w0.25_r0.75,0,2,52,69,8,20,30
+Hostafrancs,S4_s0.00_w0.50_r0.50,0,2,52,70,7,20,30
+Hostafrancs,S4_s0.00_w0.75_r0.25,0,2,52,70,7,20,30
+Hostafrancs,S4_s0.00_w1.00_r0.00,0,2,52,70,7,20,30
+Hostafrancs,S4_s0.25_w0.00_r0.75,1,58,0,4,72,17,29
+Hostafrancs,S4_s0.25_w0.25_r0.50,0,57,0,5,73,17,29
+Hostafrancs,S4_s0.25_w0.50_r0.25,0,57,0,12,66,17,29
+Hostafrancs,S4_s0.25_w0.75_r0.00,0,58,0,15,62,17,29
+Hostafrancs,S4_s0.50_w0.00_r0.50,1,58,0,4,72,17,29
+Hostafrancs,S4_s0.50_w0.25_r0.25,1,55,0,4,75,17,29
+Hostafrancs,S4_s0.50_w0.50_r0.00,1,55,0,4,75,17,29
+Hostafrancs,S4_s0.75_w0.00_r0.25,1,58,0,4,72,17,29
+Hostafrancs,S4_s0.75_w0.25_r0.00,1,55,0,4,75,17,29
+Hostafrancs,S4_s1.00_w0.00_r0.00,1,58,0,4,72,17,29
+Sants - Badal,S4_s0.00_w0.00_r1.00,0,1,62,1,14,9,3
+Sants - Badal,S4_s0.00_w0.25_r0.75,0,0,63,1,14,5,7
+Sants - Badal,S4_s0.00_w0.50_r0.50,0,0,63,1,14,5,7
+Sants - Badal,S4_s0.00_w0.75_r0.25,0,2,63,1,12,5,7
+Sants - Badal,S4_s0.00_w1.00_r0.00,0,0,65,10,3,4,8
+Sants - Badal,S4_s0.25_w0.00_r0.75,0,1,62,1,14,12,0
+Sants - Badal,S4_s0.25_w0.25_r0.50,0,1,62,1,14,9,3
+Sants - Badal,S4_s0.25_w0.50_r0.25,0,1,62,1,14,5,7
+Sants - Badal,S4_s0.25_w0.75_r0.00,0,3,62,4,9,4,8
+Sants - Badal,S4_s0.50_w0.00_r0.50,0,1,62,1,14,12,0
+Sants - Badal,S4_s0.50_w0.25_r0.25,0,0,62,1,15,12,0
+Sants - Badal,S4_s0.50_w0.50_r0.00,0,1,62,1,14,9,3
+Sants - Badal,S4_s0.75_w0.00_r0.25,0,2,62,1,13,12,0
+Sants - Badal,S4_s0.75_w0.25_r0.00,0,0,62,1,15,12,0
+Sants - Badal,S4_s1.00_w0.00_r0.00,0,3,62,1,12,12,0
+el Poble-sec,S4_s0.00_w0.00_r1.00,106,1796,55,46,197,27,62
+el Poble-sec,S4_s0.00_w0.25_r0.75,106,108,1738,123,92,23,99
+el Poble-sec,S4_s0.00_w0.50_r0.50,26,105,1738,122,170,28,100
+el Poble-sec,S4_s0.00_w0.75_r0.25,7,105,1739,123,180,34,101
+el Poble-sec,S4_s0.00_w1.00_r0.00,14,98,1743,131,164,36,103
+el Poble-sec,S4_s0.25_w0.00_r0.75,106,1875,55,11,155,69,18
+el Poble-sec,S4_s0.25_w0.25_r0.50,76,1794,55,46,229,27,62
+el Poble-sec,S4_s0.25_w0.50_r0.25,18,1751,60,76,272,21,91
+el Poble-sec,S4_s0.25_w0.75_r0.00,16,604,1150,85,219,20,195
+el Poble-sec,S4_s0.50_w0.00_r0.50,83,1897,55,6,161,69,18
+el Poble-sec,S4_s0.50_w0.25_r0.25,10,1779,55,10,348,45,42
+el Poble-sec,S4_s0.50_w0.50_r0.00,19,1761,55,39,326,27,62
+el Poble-sec,S4_s0.75_w0.00_r0.25,51,1898,55,9,189,69,18
+el Poble-sec,S4_s0.75_w0.25_r0.00,9,1765,55,9,364,54,33
+el Poble-sec,S4_s1.00_w0.00_r0.00,24,1898,55,9,216,69,18
+la Bordeta,S4_s0.00_w0.00_r1.00,8,22,0,0,48,0,0
+la Bordeta,S4_s0.00_w0.25_r0.75,2,0,46,24,6,0,0
+la Bordeta,S4_s0.00_w0.50_r0.50,3,0,46,24,5,0,0
+la Bordeta,S4_s0.00_w0.75_r0.25,3,4,46,21,4,0,0
+la Bordeta,S4_s0.00_w1.00_r0.00,3,1,51,21,0,1,1
+la Bordeta,S4_s0.25_w0.00_r0.75,0,1,0,0,77,0,0
+la Bordeta,S4_s0.25_w0.25_r0.50,2,22,0,0,54,0,0
+la Bordeta,S4_s0.25_w0.50_r0.25,3,46,0,4,25,0,0
+la Bordeta,S4_s0.25_w0.75_r0.00,4,51,1,6,16,0,0
+la Bordeta,S4_s0.50_w0.00_r0.50,1,0,0,0,77,0,0
+la Bordeta,S4_s0.50_w0.25_r0.25,0,1,0,0,77,0,0
+la Bordeta,S4_s0.50_w0.50_r0.00,2,17,0,0,59,0,0
+la Bordeta,S4_s0.75_w0.00_r0.25,1,0,0,0,77,0,0
+la Bordeta,S4_s0.75_w0.25_r0.00,1,0,0,0,77,0,0
+la Bordeta,S4_s1.00_w0.00_r0.00,1,0,0,0,77,0,0
+la Font de la Guatlla,S4_s0.00_w0.00_r1.00,0,97,4,3,84,3,0
+la Font de la Guatlla,S4_s0.00_w0.25_r0.75,0,4,94,55,13,4,21
+la Font de la Guatlla,S4_s0.00_w0.50_r0.50,0,3,95,56,13,4,20
+la Font de la Guatlla,S4_s0.00_w0.75_r0.25,0,3,95,56,13,4,20
+la Font de la Guatlla,S4_s0.00_w1.00_r0.00,0,3,95,56,13,4,20
+la Font de la Guatlla,S4_s0.25_w0.00_r0.75,0,115,4,1,68,3,0
+la Font de la Guatlla,S4_s0.25_w0.25_r0.50,0,97,4,3,84,3,0
+la Font de la Guatlla,S4_s0.25_w0.50_r0.25,0,91,4,7,86,3,0
+la Font de la Guatlla,S4_s0.25_w0.75_r0.00,0,78,21,10,63,3,16
+la Font de la Guatlla,S4_s0.50_w0.00_r0.50,0,115,4,1,68,3,0
+la Font de la Guatlla,S4_s0.50_w0.25_r0.25,0,90,4,1,93,3,0
+la Font de la Guatlla,S4_s0.50_w0.50_r0.00,0,80,4,3,101,3,0
+la Font de la Guatlla,S4_s0.75_w0.00_r0.25,0,115,4,1,68,3,0
+la Font de la Guatlla,S4_s0.75_w0.25_r0.00,0,85,4,1,98,3,0
+la Font de la Guatlla,S4_s1.00_w0.00_r0.00,0,115,4,1,68,3,0
+la Marina de Port,S4_s0.00_w0.00_r1.00,8,114,53,29,221,33,23
+la Marina de Port,S4_s0.00_w0.25_r0.75,1,20,162,109,99,22,68
+la Marina de Port,S4_s0.00_w0.50_r0.50,14,42,162,98,73,23,69
+la Marina de Port,S4_s0.00_w0.75_r0.25,29,41,168,85,60,23,75
+la Marina de Port,S4_s0.00_w1.00_r0.00,39,15,198,82,53,20,74
+la Marina de Port,S4_s0.25_w0.00_r0.75,7,43,53,21,301,56,0
+la Marina de Port,S4_s0.25_w0.25_r0.50,1,115,53,35,221,33,23
+la Marina de Port,S4_s0.25_w0.50_r0.25,16,157,54,53,144,31,26
+la Marina de Port,S4_s0.25_w0.75_r0.00,25,178,56,54,108,28,32
+la Marina de Port,S4_s0.50_w0.00_r0.50,0,43,53,28,301,56,0
+la Marina de Port,S4_s0.50_w0.25_r0.25,0,61,53,22,289,37,19
+la Marina de Port,S4_s0.50_w0.50_r0.00,4,127,53,36,205,32,24
+la Marina de Port,S4_s0.75_w0.00_r0.25,0,43,53,28,301,56,0
+la Marina de Port,S4_s0.75_w0.25_r0.00,0,45,53,22,305,41,15
+la Marina de Port,S4_s1.00_w0.00_r0.00,0,43,53,27,302,55,1
+la Marina del Prat Vermell,S4_s0.00_w0.00_r1.00,0,142,11,8,147,10,15
+la Marina del Prat Vermell,S4_s0.00_w0.25_r0.75,0,40,153,86,10,5,39
+la Marina del Prat Vermell,S4_s0.00_w0.50_r0.50,0,39,153,86,10,3,42
+la Marina del Prat Vermell,S4_s0.00_w0.75_r0.25,0,39,153,86,10,2,43
+la Marina del Prat Vermell,S4_s0.00_w1.00_r0.00,0,39,153,86,10,0,45
+la Marina del Prat Vermell,S4_s0.25_w0.00_r0.75,0,18,11,9,270,25,0
+la Marina del Prat Vermell,S4_s0.25_w0.25_r0.50,0,142,11,8,147,10,15
+la Marina del Prat Vermell,S4_s0.25_w0.50_r0.25,0,165,11,49,81,9,18
+la Marina del Prat Vermell,S4_s0.25_w0.75_r0.00,0,127,74,63,36,7,26
+la Marina del Prat Vermell,S4_s0.50_w0.00_r0.50,0,18,11,9,270,25,0
+la Marina del Prat Vermell,S4_s0.50_w0.25_r0.25,0,112,11,8,177,9,16
+la Marina del Prat Vermell,S4_s0.50_w0.50_r0.00,0,136,11,8,153,9,16
+la Marina del Prat Vermell,S4_s0.75_w0.00_r0.25,0,18,11,9,270,25,0
+la Marina del Prat Vermell,S4_s0.75_w0.25_r0.00,0,18,11,8,271,13,12
+la Marina del Prat Vermell,S4_s1.00_w0.00_r0.00,0,18,11,9,270,25,0
+Sant Gervasi - Galvany,S4_s0.00_w0.00_r1.00,5,261,158,18,132,0,148
+Sant Gervasi - Galvany,S4_s0.00_w0.25_r0.75,5,118,278,50,98,2,171
+Sant Gervasi - Galvany,S4_s0.00_w0.50_r0.50,12,117,278,44,96,3,172
+Sant Gervasi - Galvany,S4_s0.00_w0.75_r0.25,29,103,293,66,57,4,170
+Sant Gervasi - Galvany,S4_s0.00_w1.00_r0.00,42,20,341,74,36,5,204
+Sant Gervasi - Galvany,S4_s0.25_w0.00_r0.75,5,261,158,20,130,7,141
+Sant Gervasi - Galvany,S4_s0.25_w0.25_r0.50,5,261,158,19,131,0,148
+Sant Gervasi - Galvany,S4_s0.25_w0.50_r0.25,4,252,163,33,117,1,152
+Sant Gervasi - Galvany,S4_s0.25_w0.75_r0.00,14,228,187,75,63,1,154
+Sant Gervasi - Galvany,S4_s0.50_w0.00_r0.50,5,261,158,19,131,8,140
+Sant Gervasi - Galvany,S4_s0.50_w0.25_r0.25,5,261,158,16,134,2,146
+Sant Gervasi - Galvany,S4_s0.50_w0.50_r0.00,4,261,158,27,123,0,149
+Sant Gervasi - Galvany,S4_s0.75_w0.00_r0.25,5,261,158,19,131,8,140
+Sant Gervasi - Galvany,S4_s0.75_w0.25_r0.00,4,261,158,16,134,2,147
+Sant Gervasi - Galvany,S4_s1.00_w0.00_r0.00,4,261,158,21,129,8,141
+Sant Gervasi - la Bonanova,S4_s0.00_w0.00_r1.00,0,156,66,66,208,11,43
+Sant Gervasi - la Bonanova,S4_s0.00_w0.25_r0.75,0,9,191,267,7,18,58
+Sant Gervasi - la Bonanova,S4_s0.00_w0.50_r0.50,65,9,191,202,7,19,57
+Sant Gervasi - la Bonanova,S4_s0.00_w0.75_r0.25,109,9,191,159,6,19,57
+Sant Gervasi - la Bonanova,S4_s0.00_w1.00_r0.00,119,9,191,149,6,19,57
+Sant Gervasi - la Bonanova,S4_s0.25_w0.00_r0.75,0,156,66,15,260,11,42
+Sant Gervasi - la Bonanova,S4_s0.25_w0.25_r0.50,11,156,66,58,205,11,43
+Sant Gervasi - la Bonanova,S4_s0.25_w0.50_r0.25,105,153,67,61,108,11,45
+Sant Gervasi - la Bonanova,S4_s0.25_w0.75_r0.00,116,81,128,85,73,11,56
+Sant Gervasi - la Bonanova,S4_s0.50_w0.00_r0.50,0,156,66,14,261,11,42
+Sant Gervasi - la Bonanova,S4_s0.50_w0.25_r0.25,52,156,66,11,212,11,42
+Sant Gervasi - la Bonanova,S4_s0.50_w0.50_r0.00,100,156,66,14,160,11,43
+Sant Gervasi - la Bonanova,S4_s0.75_w0.00_r0.25,0,156,66,14,261,11,42
+Sant Gervasi - la Bonanova,S4_s0.75_w0.25_r0.00,41,156,66,11,223,11,42
+Sant Gervasi - la Bonanova,S4_s1.00_w0.00_r0.00,1,156,66,13,261,11,42
+Sarrià,S4_s0.00_w0.00_r1.00,0,125,18,80,149,95,31
+Sarrià,S4_s0.00_w0.25_r0.75,0,3,16,191,29,245,14
+Sarrià,S4_s0.00_w0.50_r0.50,50,7,16,150,16,246,13
+Sarrià,S4_s0.00_w0.75_r0.25,99,4,18,103,9,249,16
+Sarrià,S4_s0.00_w1.00_r0.00,104,4,16,97,8,257,12
+Sarrià,S4_s0.25_w0.00_r0.75,0,17,18,18,319,95,31
+Sarrià,S4_s0.25_w0.25_r0.50,0,125,18,80,149,95,31
+Sarrià,S4_s0.25_w0.50_r0.25,77,131,18,74,72,95,31
+Sarrià,S4_s0.25_w0.75_r0.00,97,61,88,83,35,98,36
+Sarrià,S4_s0.50_w0.00_r0.50,0,17,18,16,321,95,31
+Sarrià,S4_s0.50_w0.25_r0.25,0,94,18,7,253,95,31
+Sarrià,S4_s0.50_w0.50_r0.00,59,125,18,36,134,95,31
+Sarrià,S4_s0.75_w0.00_r0.25,0,17,18,17,320,95,31
+Sarrià,S4_s0.75_w0.25_r0.00,0,17,18,7,330,95,31
+Sarrià,S4_s1.00_w0.00_r0.00,0,17,18,17,320,95,31
+"Vallvidrera, el Tibidabo i les Planes",S4_s0.00_w0.00_r1.00,0,4,2,0,0,0,0
+"Vallvidrera, el Tibidabo i les Planes",S4_s0.00_w0.25_r0.75,0,0,6,0,0,0,0
+"Vallvidrera, el Tibidabo i les Planes",S4_s0.00_w0.50_r0.50,0,0,6,0,0,0,0
+"Vallvidrera, el Tibidabo i les Planes",S4_s0.00_w0.75_r0.25,0,0,6,0,0,0,0
+"Vallvidrera, el Tibidabo i les Planes",S4_s0.00_w1.00_r0.00,0,0,6,0,0,0,0
+"Vallvidrera, el Tibidabo i les Planes",S4_s0.25_w0.00_r0.75,0,0,2,0,4,0,0
+"Vallvidrera, el Tibidabo i les Planes",S4_s0.25_w0.25_r0.50,0,4,2,0,0,0,0
+"Vallvidrera, el Tibidabo i les Planes",S4_s0.25_w0.50_r0.25,0,4,2,0,0,0,0
+"Vallvidrera, el Tibidabo i les Planes",S4_s0.25_w0.75_r0.00,0,3,2,0,0,0,1
+"Vallvidrera, el Tibidabo i les Planes",S4_s0.50_w0.00_r0.50,0,0,2,0,4,0,0
+"Vallvidrera, el Tibidabo i les Planes",S4_s0.50_w0.25_r0.25,0,4,2,0,0,0,0
+"Vallvidrera, el Tibidabo i les Planes",S4_s0.50_w0.50_r0.00,0,4,2,0,0,0,0
+"Vallvidrera, el Tibidabo i les Planes",S4_s0.75_w0.00_r0.25,0,0,2,0,4,0,0
+"Vallvidrera, el Tibidabo i les Planes",S4_s0.75_w0.25_r0.00,0,3,2,0,1,0,0
+"Vallvidrera, el Tibidabo i les Planes",S4_s1.00_w0.00_r0.00,0,0,2,0,4,0,0
+el Putxet i el Farró,S4_s0.00_w0.00_r1.00,0,9,44,7,8,4,30
+el Putxet i el Farró,S4_s0.00_w0.25_r0.75,0,0,44,15,0,3,40
+el Putxet i el Farró,S4_s0.00_w0.50_r0.50,0,0,44,15,0,3,40
+el Putxet i el Farró,S4_s0.00_w0.75_r0.25,0,0,44,15,0,3,40
+el Putxet i el Farró,S4_s0.00_w1.00_r0.00,0,0,44,15,0,3,40
+el Putxet i el Farró,S4_s0.25_w0.00_r0.75,0,10,44,7,7,34,0
+el Putxet i el Farró,S4_s0.25_w0.25_r0.50,0,9,44,7,8,4,30
+el Putxet i el Farró,S4_s0.25_w0.50_r0.25,0,9,44,9,6,4,30
+el Putxet i el Farró,S4_s0.25_w0.75_r0.00,0,10,44,9,5,4,30
+el Putxet i el Farró,S4_s0.50_w0.00_r0.50,0,10,44,7,7,34,0
+el Putxet i el Farró,S4_s0.50_w0.25_r0.25,0,9,44,7,8,13,21
+el Putxet i el Farró,S4_s0.50_w0.50_r0.00,0,9,44,7,8,4,30
+el Putxet i el Farró,S4_s0.75_w0.00_r0.25,0,10,44,7,7,34,0
+el Putxet i el Farró,S4_s0.75_w0.25_r0.00,0,9,44,7,8,21,13
+el Putxet i el Farró,S4_s1.00_w0.00_r0.00,0,10,44,7,7,34,0
+les Tres Torres,S4_s0.00_w0.00_r1.00,0,181,84,56,390,20,16
+les Tres Torres,S4_s0.00_w0.25_r0.75,0,75,161,264,127,8,112
+les Tres Torres,S4_s0.00_w0.50_r0.50,1,78,161,273,111,7,116
+les Tres Torres,S4_s0.00_w0.75_r0.25,0,76,171,289,90,7,114
+les Tres Torres,S4_s0.00_w1.00_r0.00,0,66,176,295,84,7,119
+les Tres Torres,S4_s0.25_w0.00_r0.75,0,126,84,47,430,60,0
+les Tres Torres,S4_s0.25_w0.25_r0.50,0,190,84,57,390,9,17
+les Tres Torres,S4_s0.25_w0.50_r0.25,4,32,86,137,280,31,177
+les Tres Torres,S4_s0.25_w0.75_r0.00,0,226,90,191,212,5,23
+les Tres Torres,S4_s0.50_w0.00_r0.50,0,128,84,48,430,57,0
+les Tres Torres,S4_s0.50_w0.25_r0.25,0,160,84,47,430,11,15
+les Tres Torres,S4_s0.50_w0.50_r0.00,2,97,84,64,381,30,89
+les Tres Torres,S4_s0.75_w0.00_r0.25,0,134,84,48,430,51,0
+les Tres Torres,S4_s0.75_w0.25_r0.00,0,158,84,47,430,22,6
+les Tres Torres,S4_s1.00_w0.00_r0.00,0,135,84,48,430,50,0
+ALL,S4_s0.00_w0.00_r1.00,1634,14017,3611,3075,10411,2355,4030
+ALL,S4_s0.00_w0.25_r0.75,1634,4270,12695,7234,4223,2189,6888
+ALL,S4_s0.00_w0.50_r0.50,1634,4973,12744,6857,3779,1998,7148
+ALL,S4_s0.00_w0.75_r0.25,1634,4607,13450,6897,3090,1873,7582
+ALL,S4_s0.00_w1.00_r0.00,1634,2921,14682,7322,2376,1803,8395
+ALL,S4_s0.25_w0.00_r0.75,1634,9824,3594,3748,14063,3346,2924
+ALL,S4_s0.25_w0.25_r0.50,1634,14426,3612,2835,10253,2302,4071
+ALL,S4_s0.25_w0.50_r0.25,1634,14426,3669,4590,6993,1952,5869
+ALL,S4_s0.25_w0.75_r0.00,1634,11622,7222,5755,4662,1637,6601
+ALL,S4_s0.50_w0.00_r0.50,1634,9831,3594,3744,14063,3343,2924
+ALL,S4_s0.50_w0.25_r0.25,1634,13101,3600,1960,12626,2579,3633
+ALL,S4_s0.50_w0.50_r0.00,1634,14426,3615,2817,10032,2089,4520
+ALL,S4_s0.75_w0.00_r0.25,1634,9837,3594,3747,14063,3335,2923
+ALL,S4_s0.75_w0.25_r0.00,1634,11519,3596,2096,14063,2730,3495
+ALL,S4_s1.00_w0.00_r0.00,1634,9703,3594,3880,14063,3330,2929
+CITY_CAP,,1634,14426,20532,17379,14063,15413,12568

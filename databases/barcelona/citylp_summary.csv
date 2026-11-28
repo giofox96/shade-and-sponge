@@ -1,18 +1,68 @@
-barri,planes,layout,summer_pct_citylp,winter_pct_citylp,runoff_hot_change_pct_citylp,max_genus_pct_citylp,max_genus_citylp,summer_pct_s1a,summer_pct_tool,citylp_minus_local_pts
-Porta,832,S4_s1.00_w0.00_r0.00,100.3,103.4,0.0,22.3,Melia,91.2,99.8,0.5
-Sant Antoni,989,S4_s1.00_w0.00_r0.00,89.7,138.2,1.6,38.9,Celtis,82.7,88.4,1.3
-el Fort Pienc,980,S4_s1.00_w0.00_r0.00,93.0,93.2,0.1,50.6,Celtis,74.8,84.0,9.0
-l'Antiga Esquerra de l'Eixample,1444,S4_s1.00_w0.00_r0.00,80.9,103.3,1.6,37.8,Celtis,71.5,78.0,2.9
-la Dreta de l'Eixample,2696,S4_s1.00_w0.00_r0.00,83.6,128.4,1.4,27.9,Celtis,71.5,82.9,0.7
-la Nova Esquerra de l'Eixample,1186,S4_s1.00_w0.00_r0.00,87.7,122.8,1.9,36.8,Celtis,79.8,86.8,0.9
-la Sagrada Família,1147,S4_s1.00_w0.00_r0.00,84.7,95.1,3.3,35.8,Celtis,81.1,85.2,-0.5
-Diagonal Mar i el Front Marítim del Poblenou,728,S4_s1.00_w0.00_r0.00,98.5,140.1,0.1,47.8,Tipuana,78.3,84.4,14.1
-Provençals del Poblenou,1463,S4_s1.00_w0.00_r0.00,78.9,105.9,0.7,30.0,Tipuana,72.3,77.9,1.0
-Sant Martí de Provençals,1258,S4_s1.00_w0.00_r0.00,84.7,128.3,1.2,26.2,Tipuana,75.7,82.6,2.1
-el Besòs i el Maresme,1583,S4_s1.00_w0.00_r0.00,90.4,133.5,0.8,31.4,Tipuana,80.8,86.6,3.8
-el Camp de l'Arpa del Clot,496,S4_s1.00_w0.00_r0.00,87.5,121.8,0.5,41.8,Celtis,83.4,86.0,1.5
-el Clot,657,S4_s1.00_w0.00_r0.00,81.9,102.7,1.0,18.6,Tipuana,75.7,81.7,0.2
-el Parc i la Llacuna del Poblenou,1120,S4_s1.00_w0.00_r0.00,82.5,101.6,1.0,22.2,Melia,77.0,83.2,-0.7
-el Poblenou,1861,S4_s1.00_w0.00_r0.00,82.0,122.8,1.1,22.8,Tipuana,70.1,79.0,3.0
-la Verneda i la Pau,1692,S4_s1.00_w0.00_r0.00,85.5,125.3,0.5,22.8,Jacaranda,79.3,86.7,-1.2
-la Vila Olímpica del Poblenou,1069,S4_s1.00_w0.00_r0.00,83.0,109.9,0.8,29.6,Tipuana,76.2,81.6,1.4
+barri,planes,layout,summer_pct_citylp,winter_pct_citylp,runoff_hot_change_pct_citylp,max_genus_pct_citylp,max_genus_citylp,summer_pct_s1a,summer_pct_s1b,summer_pct_tool,citylp_minus_local_pts
+Porta,832,S4_s1.00_w0.00_r0.00,100.3,103.4,0.0,22.3,Melia,91.2,93.8,99.8,0.5
+"Sant Pere, Santa Caterina i la Ribera",830,S4_s1.00_w0.00_r0.00,99.9,149.7,0.4,46.2,Tipuana,79.6,75.7,89.2,10.7
+el Barri Gòtic,191,S4_s1.00_w0.00_r0.00,78.1,151.2,0.8,28.9,Tipuana,70.8,71.2,79.8,-1.7
+el Raval,479,S4_s1.00_w0.00_r0.00,90.2,94.0,0.8,19.8,Celtis,81.2,81.4,88.3,1.9
+Sant Antoni,989,S4_s1.00_w0.00_r0.00,88.9,134.1,1.6,38.9,Celtis,82.6,80.3,88.2,0.7
+el Fort Pienc,980,S4_s1.00_w0.00_r0.00,92.5,93.1,0.2,51.1,Celtis,73.7,77.1,82.3,10.2
+l'Antiga Esquerra de l'Eixample,1444,S4_s1.00_w0.00_r0.00,78.8,118.5,2.2,31.8,Celtis,71.6,71.9,78.0,0.8
+la Dreta de l'Eixample,2696,S4_s1.00_w0.00_r0.00,84.8,110.1,1.3,34.0,Celtis,70.0,66.1,80.8,4.0
+la Nova Esquerra de l'Eixample,1186,S4_s1.00_w0.00_r0.00,87.5,122.3,1.9,36.8,Celtis,79.9,79.0,86.9,0.6
+la Sagrada Família,1147,S4_s1.00_w0.00_r0.00,84.7,95.8,3.3,35.8,Celtis,80.8,75.3,84.4,0.3
+Vallcarca i els Penitents,385,S4_s1.00_w0.00_r0.00,91.0,95.2,0.1,19.9,Brachychiton,87.9,88.6,91.4,-0.4
+el Camp d'en Grassot i Gràcia Nova,419,S4_s1.00_w0.00_r0.00,83.7,96.0,3.0,26.3,Celtis,77.7,77.0,80.6,3.1
+el Coll,20,S4_s1.00_w0.00_r0.00,94.0,102.1,,14.1,Celtis,91.4,91.1,94.2,-0.2
+la Salut,49,S4_s1.00_w0.00_r0.00,93.1,99.5,0.0,16.5,Gleditsia,93.0,93.8,94.6,-1.5
+la Vila de Gràcia,276,S4_s1.00_w0.00_r0.00,87.4,96.0,0.7,18.0,Ligustrum,84.8,85.3,89.3,-1.9
+Can Baró,12,S4_s1.00_w0.00_r0.00,98.0,98.6,,25.9,Firmiana,98.1,98.1,98.3,-0.3
+Horta,552,S4_s1.00_w0.00_r0.00,101.1,130.9,0.1,22.8,Tipuana,93.9,93.2,100.0,1.1
+Montbau,250,S4_s1.00_w0.00_r0.00,95.3,133.3,0.0,41.7,Tipuana,86.0,85.7,94.8,0.5
+Sant Genís dels Agudells,166,S4_s1.00_w0.00_r0.00,85.5,122.9,,21.9,Tipuana,84.0,83.6,87.1,-1.6
+el Baix Guinardó,359,S4_s1.00_w0.00_r0.00,89.4,112.2,,27.2,Tipuana,84.2,83.8,86.2,3.2
+el Carmel,32,S4_s1.00_w0.00_r0.00,99.1,104.8,0.0,35.9,Styphnolobium,98.0,97.8,99.1,0.0
+el Guinardó,159,S4_s1.00_w0.00_r0.00,93.8,96.6,0.3,14.3,Styphnolobium,92.4,92.8,94.0,-0.2
+la Font d'en Fargues,323,S4_s1.00_w0.00_r0.00,91.1,122.5,0.6,17.0,Tipuana,89.8,88.1,91.4,-0.3
+la Teixonera,22,S4_s1.00_w0.00_r0.00,103.0,114.3,,19.6,Cercis,102.3,102.0,103.0,0.0
+la Vall d'Hebron,110,S4_s1.00_w0.00_r0.00,102.5,109.5,-0.5,18.4,Celtis,100.5,100.7,103.5,-1.0
+Pedralbes,980,S4_s1.00_w0.00_r0.00,93.4,117.3,0.0,26.6,Tipuana,87.8,84.5,91.4,2.0
+la Maternitat i Sant Ramon,729,S4_s1.00_w0.00_r0.00,100.2,133.3,0.0,29.3,Tipuana,90.0,82.9,93.4,6.8
+les Corts,1633,S4_s1.00_w0.00_r0.00,89.5,104.0,0.3,22.8,Tipuana,81.6,81.3,84.8,4.7
+Can Peguera,37,S4_s1.00_w0.00_r0.00,102.6,111.1,0.1,23.8,Melia,99.6,100.0,103.3,-0.7
+Canyelles,109,S4_s1.00_w0.00_r0.00,97.0,106.8,,21.3,Jacaranda,94.3,94.3,97.9,-0.9
+Vallbona,2,S4_s1.00_w0.00_r0.00,97.8,98.9,0.0,36.5,Celtis,97.6,97.5,97.8,0.0
+Verdun,155,S4_s1.00_w0.00_r0.00,93.2,104.2,0.0,21.6,Brachychiton,91.0,92.5,94.5,-1.3
+el Turó de la Peira,369,S4_s1.00_w0.00_r0.00,88.7,124.3,1.4,21.4,Melia,83.7,81.1,88.5,0.2
+la Guineueta,215,S4_s1.00_w0.00_r0.00,89.9,107.4,0.3,16.5,Tipuana,84.5,83.6,89.8,0.1
+la Prosperitat,208,S4_s1.00_w0.00_r0.00,99.2,113.2,-0.1,21.0,Brachychiton,94.4,93.8,98.7,0.5
+la Trinitat Nova,106,S4_s1.00_w0.00_r0.00,96.5,108.3,,37.0,Celtis,93.3,93.0,96.4,0.1
+les Roquetes,33,S4_s1.00_w0.00_r0.00,97.3,100.9,,14.6,Brachychiton,96.9,96.7,97.4,-0.1
+Baró de Viver,15,S4_s1.00_w0.00_r0.00,98.4,98.5,0.0,48.5,Celtis,97.5,96.8,98.5,-0.1
+Navas,324,S4_s1.00_w0.00_r0.00,92.8,111.7,0.7,30.6,Melia,87.9,86.8,91.9,0.9
+Sant Andreu,681,S4_s1.00_w0.00_r0.00,103.6,116.7,-0.5,16.1,Citrus,94.6,93.7,103.6,0.0
+el Bon Pastor,666,S4_s1.00_w0.00_r0.00,90.4,106.0,0.1,32.6,Celtis,84.9,80.9,90.0,0.4
+el Congrés i els Indians,184,S4_s1.00_w0.00_r0.00,90.7,98.0,0.5,14.1,Melia,90.2,89.8,91.1,-0.4
+la Sagrera,417,S4_s1.00_w0.00_r0.00,97.6,116.3,0.1,26.2,Tipuana,95.7,94.1,98.6,-1.0
+la Trinitat Vella,167,S4_s1.00_w0.00_r0.00,95.3,109.6,0.0,14.5,Pyrus,91.6,90.5,95.7,-0.4
+Diagonal Mar i el Front Marítim del Poblenou,728,S4_s1.00_w0.00_r0.00,98.3,140.1,0.1,47.8,Tipuana,76.9,79.1,82.6,15.7
+Provençals del Poblenou,1463,S4_s1.00_w0.00_r0.00,78.3,105.2,0.7,29.3,Tipuana,71.4,68.4,76.8,1.5
+Sant Martí de Provençals,1258,S4_s1.00_w0.00_r0.00,84.6,127.7,1.3,24.9,Tipuana,75.8,75.4,82.5,2.1
+el Besòs i el Maresme,1583,S4_s1.00_w0.00_r0.00,90.4,133.5,0.8,31.3,Tipuana,81.0,75.5,86.7,3.7
+el Camp de l'Arpa del Clot,496,S4_s1.00_w0.00_r0.00,87.0,121.3,0.5,41.8,Celtis,83.5,83.1,87.0,0.0
+el Clot,657,S4_s1.00_w0.00_r0.00,81.4,101.9,1.1,18.2,Celtis,75.5,75.0,81.0,0.4
+el Parc i la Llacuna del Poblenou,1120,S4_s1.00_w0.00_r0.00,82.6,101.7,1.0,22.2,Melia,76.6,70.4,82.4,0.2
+el Poblenou,1861,S4_s1.00_w0.00_r0.00,81.9,122.5,1.1,22.8,Tipuana,70.3,65.8,79.3,2.6
+la Verneda i la Pau,1692,S4_s1.00_w0.00_r0.00,85.1,123.6,0.5,27.2,Jacaranda,79.5,80.3,86.8,-1.7
+la Vila Olímpica del Poblenou,1069,S4_s1.00_w0.00_r0.00,81.9,107.3,0.9,20.9,Jacaranda,76.1,77.7,81.3,0.6
+Hostafrancs,181,S4_s1.00_w0.00_r0.00,104.6,113.9,,23.9,Tipuana,98.5,97.5,101.9,2.7
+Sants - Badal,90,S4_s1.00_w0.00_r0.00,86.0,95.5,0.3,27.5,Styphnolobium,87.0,86.8,87.5,-1.5
+el Poble-sec,2289,S4_s1.00_w0.00_r0.00,92.3,91.6,1.2,44.3,Melia,82.2,77.2,87.4,4.9
+la Bordeta,78,S4_s1.00_w0.00_r0.00,104.7,121.0,0.0,16.7,Styphnolobium,101.1,100.0,104.7,0.0
+la Font de la Guatlla,191,S4_s1.00_w0.00_r0.00,96.0,99.7,,18.7,Styphnolobium,88.3,86.7,96.0,0.0
+la Marina de Port,481,S4_s1.00_w0.00_r0.00,94.9,114.1,0.2,22.1,Styphnolobium,92.1,91.5,94.4,0.5
+la Marina del Prat Vermell,333,S4_s1.00_w0.00_r0.00,92.6,116.4,0.0,26.8,Tipuana,89.4,87.6,92.7,-0.1
+Sant Gervasi - Galvany,722,S4_s1.00_w0.00_r0.00,90.1,103.4,0.7,17.8,Styphnolobium,84.7,84.2,90.0,0.1
+Sant Gervasi - la Bonanova,550,S4_s1.00_w0.00_r0.00,96.6,109.6,0.0,14.6,Styphnolobium,95.0,94.5,97.4,-0.8
+Sarrià,498,S4_s1.00_w0.00_r0.00,93.3,112.6,1.0,18.3,Tipuana,90.8,89.6,93.6,-0.3
+"Vallvidrera, el Tibidabo i les Planes",6,S4_s1.00_w0.00_r0.00,96.2,97.1,,32.1,Celtis,95.3,95.2,96.2,0.0
+el Putxet i el Farró,102,S4_s1.00_w0.00_r0.00,94.8,105.0,0.0,17.6,Ligustrum,94.0,94.1,94.8,0.0
+les Tres Torres,747,S4_s1.00_w0.00_r0.00,85.6,114.0,0.1,31.5,Tipuana,76.8,74.1,78.0,7.6
