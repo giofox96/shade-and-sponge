@@ -102,6 +102,13 @@ export function habitOf(sp) {
   return m[sp] ?? m[(sp ?? '').replace(/['‘’].*/, '').replace(/[×�]/g, 'x').split(/\s+/).slice(0, 2).join(' ')] ?? 'unknown'
 }
 
+// Whole-city view (scripts/make_city_web.py): every barri's numbers and the method's new trees, one light file
+export const city = reactive({ data: null })
+fetch('./data/city.json').then((r) => r.json()).then((d) => (city.data = markRaw(d))).catch(() => {})
+const CITY_RGB = [[63, 102, 62], [40, 63, 102], [102, 56, 37], [140, 106, 36], [157, 181, 150], [120, 90, 140],
+  [60, 130, 140], [170, 90, 60], [110, 120, 50], [168, 162, 147]]
+export const cityColor = (k) => CITY_RGB[k % CITY_RGB.length]
+
 export const dataUrl = (file) => `./data/${state.site}/${file}`
 
 // Relief: terrain.png (python scripts/web_export_terrain.py) holds the site DTM on a lon/lat grid, as metres above the

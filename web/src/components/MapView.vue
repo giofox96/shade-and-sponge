@@ -15,7 +15,7 @@ import { TileLayer } from '@deck.gl/geo-layers'
 import { _TerrainExtension as TerrainExtension, PathStyleExtension } from '@deck.gl/extensions'
 import { SphereGeometry } from '@luma.gl/engine'
 import { state, dataUrl, hexToRgb, currentLayout, spotClass, addTreeAt, addVertex, keptReplaced, themeColors, isDark, AREA, addableMask, finishArea,
-  cancelDrawing, finishEditArea, cancelEditArea, groundZ, HABIT_RGB, habits, habitOf, moveTargets, setMoveTarget, setGround3d, setLidar, setParks, setUtilities, spotWhy, keptKey, ORTO, UTIL_COLOR } from '../store.js'
+  cancelDrawing, finishEditArea, cancelEditArea, groundZ, HABIT_RGB, habits, habitOf, moveTargets, setMoveTarget, setGround3d, setLidar, setParks, setUtilities, spotWhy, keptKey, ORTO, UTIL_COLOR, city, cityColor } from '../store.js'
 
 setWorkerUrl(workerUrl)
 const el = ref(null)
@@ -518,8 +518,18 @@ function layers() {
       new ScatterplotLayer({ id: 'edit-pts', data: [...state.draft], getPosition: (d) => up(d), getRadius: 6, radiusUnits: 'pixels',
         getFillColor: themeColors.value.draft, stroked: true, getLineColor: [255, 255, 255], lineWidthMinPixels: 1.5, pickable: true,
         parameters: ON_TOP }),
+    cityTrees(),
     selRing(selected), // last: always on top of crowns, rings and outlines (user 27 Nov)
   ].filter(Boolean)
+}
+
+// another barri picked without its own site data: the method's new trees from city.json, flat and light (Porta keeps its full view)
+const otherBarri = () => state.barri !== state.meta?.site.name && city.data?.barris?.[state.barri]?.trees
+function cityTrees() {
+  const T = otherBarri()
+  return T && new ScatterplotLayer({ id: 'city-trees-' + state.barri, data: T, getPosition: (t) => [t[0], t[1]],
+    getRadius: (t) => t[3] / 2, radiusUnits: 'meters', radiusMinPixels: 2.5, getFillColor: (t) => [...cityColor(t[2]), 220],
+    stroked: true, getLineColor: [255, 255, 255, 140], lineWidthMinPixels: 0.5, pickable: true })
 }
 
 // basemap: the street map of the theme, or the ICGC orthophoto
@@ -565,6 +575,7 @@ onMounted(() => {
       if (layer?.id === 'utilities') return { text: `SYNTHETIC ${object.properties.network} line, not real data\n(random, drawn from how the real networks sit in the street)` }
       if (layer?.id === 'parks') { const P = state.parks; return { text: `${P.species[index]} (${P.kind[index]} tree, context only)${P.place[index] ? '\n' + P.place[index] : ''}` } }
       if (layer?.id === 'kept') return { text: `${state.trees.kept.species[object]} (existing)` }
+      if (layer?.id?.startsWith('city-trees')) return { text: `${city.data.species[object[2]]} · crown ${object[3]} m\n(method, ${state.barri}; whole-city view)` }
       if (layer?.id !== 'positions' || index < 0) return null
       return { text: state.meta.palette[currentLayout()[index]].species }
     },
@@ -580,6 +591,17 @@ watch(
     state.month, state.selected, state.addedVersion, state.showParks, state.showUtilities, state.buildingOpacity, state.addMode, state.editing, state.ground3d, state.basemap, state.meta, state.showLidar, habits.map, Object.values(state.schedule.trees).map((e) => e.to ?? "").join()],
   () => overlay?.setProps({ layers: layers() }),
 )
+
+// whole-city view: another barri picked → draw its trees and fly there; back to the site's own barri → fly home
+watch(() => [state.barri, city.data], () => {
+  overlay?.setProps({ layers: layers() })
+  const T = otherBarri()
+  if (!map) return
+  if (!T) { if (state.barri === state.meta?.site.name) map.flyTo({ center: state.meta.site.center, zoom: 15.4, duration: 1200 }); return }
+  const lons = T.map((t) => t[0]), lats = T.map((t) => t[1])
+  map.fitBounds([[Math.min(...lons), Math.min(...lats)], [Math.max(...lons), Math.max(...lats)]],
+    { padding: 60, pitch: map.getPitch(), bearing: map.getBearing(), duration: 1200, maxZoom: 17 })
+})
 
 // theme switch: swap the basemap (the deck.gl layers sit on their own canvas and stay)
 watch(() => [isDark.value, state.basemap], () => map?.setStyle(style()))
